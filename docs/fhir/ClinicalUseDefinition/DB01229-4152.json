@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB01229-4152",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:19:47.314678+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB01229",
+      "display": "Abraxane"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "http://purl.obolibrary.org/obo/mondo.owl",
+          "code": "4152",
+          "display": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+        }
+      ],
+      "text": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN-KG"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

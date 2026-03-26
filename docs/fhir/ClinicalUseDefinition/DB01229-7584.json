@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB01229-7584",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:19:28.322743+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB01229",
+      "display": "Abraxane"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "http://purl.obolibrary.org/obo/mondo.owl",
+          "code": "7584",
+          "display": "exostoses-anetodermia-brachydactyly type E syndrome"
+        }
+      ],
+      "text": "exostoses-anetodermia-brachydactyly type E syndrome"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN-KG"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

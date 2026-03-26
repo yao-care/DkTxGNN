@@ -1,0 +1,35 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "DB11130",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ],
+    "lastUpdated": "2026-03-09T14:18:21.826033+00:00"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca",
+        "code": "DB11130",
+        "display": "Dropizol"
+      }
+    ],
+    "text": "Dropizol"
+  },
+  "status": "active",
+  "manufacturer": {
+    "display": "Various"
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "Dk",
+          "display": "Denmark"
+        }
+      ]
+    }
+  ]
+}

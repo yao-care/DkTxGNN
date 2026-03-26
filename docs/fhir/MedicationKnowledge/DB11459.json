@@ -1,0 +1,35 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "DB11459",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ],
+    "lastUpdated": "2026-03-09T14:18:21.765690+00:00"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca",
+        "code": "DB11459",
+        "display": "Chanhold til hund 10,1 - 20,0 kg"
+      }
+    ],
+    "text": "Chanhold til hund 10,1 - 20,0 kg"
+  },
+  "status": "active",
+  "manufacturer": {
+    "display": "Various"
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "Dk",
+          "display": "Denmark"
+        }
+      ]
+    }
+  ]
+}

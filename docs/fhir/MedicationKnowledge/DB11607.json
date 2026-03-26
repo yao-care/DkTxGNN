@@ -1,0 +1,35 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "DB11607",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ],
+    "lastUpdated": "2026-03-09T14:18:21.832352+00:00"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca",
+        "code": "DB11607",
+        "display": "Elocta"
+      }
+    ],
+    "text": "Elocta"
+  },
+  "status": "active",
+  "manufacturer": {
+    "display": "Various"
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "Dk",
+          "display": "Denmark"
+        }
+      ]
+    }
+  ]
+}

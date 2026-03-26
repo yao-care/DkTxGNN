@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00112-607",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:19:10.970491+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00112",
+      "display": "Abevmy"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "http://purl.obolibrary.org/obo/mondo.owl",
+          "code": "607",
+          "display": "primary cutaneous T-cell non-Hodgkin lymphoma"
+        }
+      ],
+      "text": "primary cutaneous T-cell non-Hodgkin lymphoma"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN-KG"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Disease synonyms for news monitoring - Denmark (English)",
+  "indication_synonyms": {
+    "diabetes mellitus": ["diabetes", "type 2 diabetes", "blood sugar"],
+    "hypertension": ["high blood pressure", "blood pressure"],
+    "heart failure": ["cardiac failure", "heart condition"],
+    "asthma": ["respiratory condition", "breathing difficulties"],
+    "depression": ["major depression", "clinical depression", "mental health"],
+    "anxiety": ["anxiety disorder", "panic disorder"],
+    "rheumatoid arthritis": ["arthritis", "joint inflammation"],
+    "alzheimer disease": ["alzheimers", "dementia", "memory loss"],
+    "parkinson disease": ["parkinsons", "movement disorder"],
+    "chronic kidney disease": ["kidney disease", "renal failure"],
+    "breast cancer": ["breast carcinoma", "breast tumor"],
+    "lung cancer": ["lung carcinoma", "lung tumor"],
+    "colorectal cancer": ["colon cancer", "bowel cancer"],
+    "prostate cancer": ["prostate carcinoma"],
+    "inflammatory bowel disease": ["crohns disease", "ulcerative colitis", "IBD"],
+    "multiple sclerosis": ["MS", "neurological disease"],
+    "psoriasis": ["skin condition", "plaque psoriasis"],
+    "atrial fibrillation": ["AFib", "heart rhythm"],
+    "chronic obstructive pulmonary disease": ["COPD", "emphysema", "chronic bronchitis"],
+    "osteoporosis": ["bone density", "bone loss"]
+  }
+}

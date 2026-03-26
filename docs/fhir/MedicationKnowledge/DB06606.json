@@ -1,0 +1,35 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "DB06606",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ],
+    "lastUpdated": "2026-03-09T14:18:22.010081+00:00"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca",
+        "code": "DB06606",
+        "display": "Teizeild"
+      }
+    ],
+    "text": "Teizeild"
+  },
+  "status": "active",
+  "manufacturer": {
+    "display": "Various"
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "Dk",
+          "display": "Denmark"
+        }
+      ]
+    }
+  ]
+}

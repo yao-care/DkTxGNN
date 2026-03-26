@@ -1,0 +1,35 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "DB06403",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ],
+    "lastUpdated": "2026-03-09T14:18:21.700935+00:00"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca",
+        "code": "DB06403",
+        "display": "Ambrisentan \"Accord\""
+      }
+    ],
+    "text": "Ambrisentan \"Accord\""
+  },
+  "status": "active",
+  "manufacturer": {
+    "display": "Various"
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "Dk",
+          "display": "Denmark"
+        }
+      ]
+    }
+  ]
+}

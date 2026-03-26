@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB01229-44765",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:19:42.950609+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB01229",
+      "display": "Abraxane"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "http://purl.obolibrary.org/obo/mondo.owl",
+          "code": "44765",
+          "display": "steroid-resistant nephrotic syndrome"
+        }
+      ],
+      "text": "steroid-resistant nephrotic syndrome"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN-KG"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}
