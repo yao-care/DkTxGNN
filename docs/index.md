@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Drug Repurposing Reports
+title: "Forudsigelser for L\u00e6gemiddelrepositionering \u2014 Danmark"
 nav_order: 1
 description: "AI-powered drug repurposing predictions for 501 Danish Medicines Agency (DKMA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
 permalink: /

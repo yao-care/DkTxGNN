@@ -5,7 +5,7 @@ title: "DkTxGNN Drug Repurposing Reports"
 description: "Danish (DKMA) drug repurposing predictions powered by TxGNN"
 url: "https://dktxgnn.yao.care"
 baseurl: ""
-lang: "en"
+lang: "da"
 
 # Jekyll theme
 remote_theme: just-the-docs/just-the-docs@v0.10.1
