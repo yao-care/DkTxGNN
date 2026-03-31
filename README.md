@@ -1,39 +1,31 @@
-# DkTxGNN - Denmark Drug Repurposing Predictions
+# DkTxGNN - Danmark: Repositionering af Laegemidler
 
-Drug repurposing predictions for Denmark using the TxGNN knowledge graph.
+[![Website](https://img.shields.io/badge/Website-dktxgnn.yao.care-blue)](https://dktxgnn.yao.care)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Data Source
+Forudsigelser for repositionering af laegemidler (drug repurposing) for Danmark ved hjaelp af TxGNN-modellen.
 
-- **Lægemiddelstyrelsen** (Danish Medicines Agency)
-- Official list of authorised medicines
+## Ansvarsfraskrivelse
 
-## Features
+- Resultaterne af dette projekt er kun til forskningsformaal og udgoer ikke medicinsk raadgivning.
+- Kandidater til repositionering af laegemidler kraever klinisk validering foer anvendelse.
 
-- Knowledge graph-based drug repurposing predictions
-- FHIR R4 compliant resources
-- Evidence collection from ClinicalTrials.gov and PubMed
+## Projektoversigt
 
-## Quick Start
+| Element | Antal |
+|---------|-------|
+| **Laegemiddelrapporter** | 501 |
+| **Samlede Forudsigelser** | 8,553,242 |
 
-```bash
-# Install dependencies
-uv sync
+## Forudsigelsesmetoder
 
-# Download drug data
-python scripts/download_danish_data.py
+### Vidensgraf-metode (Knowledge Graph)
+Direkte foresoergsel af laegemiddel-sygdomsrelationer i TxGNN-vidensgrafen, identificering af potentielle repositioneringskandidater baseret paa eksisterende forbindelser i det biomedicinske netvaerk.
 
-# Prepare external data
-uv run python scripts/prepare_external_data.py
+### Deep Learning-metode
+Anvender den fortraenede TxGNN neurale netvaerksmodel til at beregne forudsigelsesscorer, der vurderer sandsynligheden for nye terapeutiske indikationer for godkendte laegemidler.
 
-# Run KG prediction
-uv run python scripts/run_kg_prediction.py
-```
+## Links
 
-## Disclaimer
-
-This project is for research purposes only and does not constitute medical advice.
-Drug repurposing predictions require clinical validation before therapeutic application.
-
-## License
-
-MIT
+- Hjemmeside: https://dktxgnn.yao.care
+- TxGNN-artikel: https://doi.org/10.1038/s41591-023-02233-x
