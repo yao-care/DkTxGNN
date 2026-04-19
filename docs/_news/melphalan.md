@@ -3,7 +3,7 @@ layout: default
 title: "Melphalan 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Melphalan 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Melphalan 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/melphalan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/melphalan/
 ---
 
 <p class="key-answer" data-question="Melphalan 有什麼相關新聞？">
-<strong>Melphalan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Melphalan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/melphalan/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>gonadal germ cell tumor（99.8%）</li>
-<li>gonadal germ cell tumor（99.8%）</li>
-<li>ovarian primitive germ cell tumor（99.8%）</li>
-<li>ovarian primitive germ cell tumor（99.8%）</li>
-<li>choriocarcinoma of ovary（99.7%）</li>
-<li>choriocarcinoma of ovary（99.7%）</li>
-<li>female breast carcinoma（99.7%）</li>
-<li>female breast carcinoma（99.7%）</li>
-<li>malignant non-epithelial tumor of ovary（99.5%）</li>
-<li>malignant non-epithelial tumor of ovary（99.5%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/melphalan/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

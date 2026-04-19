@@ -3,7 +3,7 @@ layout: default
 title: "Pertuzumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Pertuzumab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Pertuzumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/pertuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pertuzumab/
 ---
 
 <p class="key-answer" data-question="Pertuzumab 有什麼相關新聞？">
-<strong>Pertuzumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Pertuzumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/pertuzumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>normal breast-like subtype of breast carcinoma（99.9%）</li>
-<li>progesterone-receptor positive breast cancer（99.9%）</li>
-<li>progesterone-receptor positive breast cancer（99.9%）</li>
-<li>normal breast-like subtype of breast carcinoma（99.9%）</li>
-<li>progesterone-receptor negative breast cancer（99.9%）</li>
-<li>progesterone-receptor negative breast cancer（99.9%）</li>
-<li>breast tumor luminal A or B（99.9%）</li>
-<li>breast tumor luminal A or B（99.9%）</li>
-<li>ectomesenchymoma（99.7%）</li>
-<li>ectomesenchymoma（99.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pertuzumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

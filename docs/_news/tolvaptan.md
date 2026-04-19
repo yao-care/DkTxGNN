@@ -3,7 +3,7 @@ layout: default
 title: "Tolvaptan 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Tolvaptan 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Tolvaptan 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/tolvaptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tolvaptan/
 ---
 
 <p class="key-answer" data-question="Tolvaptan 有什麼相關新聞？">
-<strong>Tolvaptan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Tolvaptan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/tolvaptan/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>polycystic kidney disease 3 with or without polycystic liver disease（100.0%）</li>
-<li>polycystic kidney disease 3 with or without polycystic liver disease（100.0%）</li>
-<li>renal-hepatic-pancreatic dysplasia（100.0%）</li>
-<li>renal-hepatic-pancreatic dysplasia（100.0%）</li>
-<li>karyomegalic interstitial nephritis（100.0%）</li>
-<li>karyomegalic interstitial nephritis（100.0%）</li>
-<li>thoracic malformation（100.0%）</li>
-<li>thoracic malformation（100.0%）</li>
-<li>Joubert syndrome with renal defect（100.0%）</li>
-<li>Joubert syndrome with renal defect（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tolvaptan/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

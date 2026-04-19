@@ -3,7 +3,7 @@ layout: default
 title: "Cabazitaxel 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cabazitaxel 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Cabazitaxel 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/cabazitaxel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cabazitaxel/
 ---
 
 <p class="key-answer" data-question="Cabazitaxel 有什麼相關新聞？">
-<strong>Cabazitaxel</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Cabazitaxel</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/cabazitaxel/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>female breast carcinoma（99.9%）</li>
-<li>female breast carcinoma（99.9%）</li>
-<li>sickle cell-hemoglobin d disease syndrome（99.9%）</li>
-<li>sickle cell-beta-thalassemia disease syndrome（99.9%）</li>
-<li>hereditary persistence of fetal hemoglobin-sickle cell disease syndrome（99.9%）</li>
-<li>sickle cell-hemoglobin c disease syndrome（99.9%）</li>
-<li>sickle cell-hemoglobin c disease syndrome（99.9%）</li>
-<li>sickle cell-hemoglobin E disease syndrome（99.9%）</li>
-<li>sickle cell-hemoglobin d disease syndrome（99.9%）</li>
-<li>sickle cell-hemoglobin E disease syndrome（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabazitaxel/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Alitretinoin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Alitretinoin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Alitretinoin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/alitretinoin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alitretinoin/
 ---
 
 <p class="key-answer" data-question="Alitretinoin 有什麼相關新聞？">
-<strong>Alitretinoin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Alitretinoin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/alitretinoin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>amenorrhea (disease)（100.0%）</li>
-<li>amenorrhea (disease)（100.0%）</li>
-<li>acne (disease)（99.9%）</li>
-<li>acne (disease)（99.9%）</li>
-<li>atypical coarctation of aorta（99.9%）</li>
-<li>atypical coarctation of aorta（99.9%）</li>
-<li>pregnancy associated osteoporosis（99.8%）</li>
-<li>pregnancy associated osteoporosis（99.8%）</li>
-<li>aortic malformation（99.8%）</li>
-<li>aortic malformation（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alitretinoin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

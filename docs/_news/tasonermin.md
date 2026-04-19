@@ -3,7 +3,7 @@ layout: default
 title: "Tasonermin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Tasonermin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Tasonermin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/tasonermin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tasonermin/
 ---
 
 <p class="key-answer" data-question="Tasonermin 有什麼相關新聞？">
-<strong>Tasonermin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Tasonermin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/tasonermin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>prostatic urethra urothelial carcinoma（99.8%）</li>
-<li>prostatic urethra urothelial carcinoma（99.8%）</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma（99.8%）</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma（99.8%）</li>
-<li>infiltrating bladder urothelial carcinoma sarcomatoid variant（99.8%）</li>
-<li>infiltrating bladder urothelial carcinoma sarcomatoid variant（99.8%）</li>
-<li>renal pelvis papillary urothelial carcinoma（99.8%）</li>
-<li>renal pelvis papillary urothelial carcinoma（99.8%）</li>
-<li>HER2 positive breast carcinoma（99.7%）</li>
-<li>HER2 positive breast carcinoma（99.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tasonermin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

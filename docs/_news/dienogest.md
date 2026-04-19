@@ -3,7 +3,7 @@ layout: default
 title: "Dienogest 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Dienogest 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Dienogest 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/dienogest/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dienogest/
 ---
 
 <p class="key-answer" data-question="Dienogest 有什麼相關新聞？">
-<strong>Dienogest</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Dienogest</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/dienogest/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>amenorrhea (disease)（99.7%）</li>
-<li>amenorrhea (disease)（99.7%）</li>
-<li>primary ovarian failure（99.7%）</li>
-<li>primary ovarian failure（99.7%）</li>
-<li>breast fibrocystic disease（99.6%）</li>
-<li>breast fibrocystic disease（99.6%）</li>
-<li>isolated growth hormone deficiency（99.5%）</li>
-<li>isolated growth hormone deficiency（99.5%）</li>
-<li>symptomatic form of fragile X syndrome in female carrier（99.5%）</li>
-<li>symptomatic form of fragile X syndrome in female carrier（99.5%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dienogest/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

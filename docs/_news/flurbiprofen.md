@@ -3,7 +3,7 @@ layout: default
 title: "Flurbiprofen 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Flurbiprofen 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Flurbiprofen 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/flurbiprofen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/flurbiprofen/
 ---
 
 <p class="key-answer" data-question="Flurbiprofen 有什麼相關新聞？">
-<strong>Flurbiprofen</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Flurbiprofen</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/flurbiprofen/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>acromesomelic dysplasia, Hunter-Thompson type（100.0%）</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type（100.0%）</li>
-<li>brachydactyly-syndactyly syndrome（100.0%）</li>
-<li>brachydactyly-syndactyly syndrome（100.0%）</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome（100.0%）</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome（100.0%）</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome（100.0%）</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome（100.0%）</li>
-<li>myosclerosis（100.0%）</li>
-<li>myosclerosis（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/flurbiprofen/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

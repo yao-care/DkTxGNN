@@ -3,7 +3,7 @@ layout: default
 title: "Sebelipase alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Sebelipase alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Sebelipase alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/sebelipase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sebelipase_alfa/
 ---
 
 <p class="key-answer" data-question="Sebelipase alfa 有什麼相關新聞？">
-<strong>Sebelipase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Sebelipase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/sebelipase_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Scheie syndrome（99.8%）</li>
-<li>Scheie syndrome（99.8%）</li>
-<li>Hurler syndrome（99.8%）</li>
-<li>Hurler syndrome（99.8%）</li>
-<li>growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant（99.8%）</li>
-<li>growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant（99.8%）</li>
-<li>cholesteryl ester storage disease（99.7%）</li>
-<li>cholesteryl ester storage disease（99.7%）</li>
-<li>Wolman disease with hypolipoproteinemia and acanthocytosis（99.7%）</li>
-<li>Wolman disease with hypolipoproteinemia and acanthocytosis（99.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sebelipase_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Avelumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Avelumab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Avelumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/avelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avelumab/
 ---
 
 <p class="key-answer" data-question="Avelumab 有什麼相關新聞？">
-<strong>Avelumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Avelumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/avelumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>human herpesvirus 8-related tumor（100.0%）</li>
-<li>human herpesvirus 8-related tumor（100.0%）</li>
-<li>middle ear neuroendocrine tumor（100.0%）</li>
-<li>middle ear neuroendocrine tumor（100.0%）</li>
-<li>malignant cutaneous granular cell skin tumor（100.0%）</li>
-<li>malignant cutaneous granular cell skin tumor（100.0%）</li>
-<li>ectomesenchymoma（100.0%）</li>
-<li>ectomesenchymoma（100.0%）</li>
-<li>adenosine deaminase deficiency（100.0%）</li>
-<li>adenosine deaminase deficiency（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/avelumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

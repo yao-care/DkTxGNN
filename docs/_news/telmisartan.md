@@ -3,7 +3,7 @@ layout: default
 title: "Telmisartan 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Telmisartan 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Telmisartan 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/telmisartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/telmisartan/
 ---
 
 <p class="key-answer" data-question="Telmisartan 有什麼相關新聞？">
-<strong>Telmisartan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Telmisartan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/telmisartan/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Prinzmetal angina（100.0%）</li>
-<li>Prinzmetal angina（100.0%）</li>
-<li>brain stem infarction（100.0%）</li>
-<li>brain stem infarction（100.0%）</li>
-<li>ABri amyloidosis（100.0%）</li>
-<li>ABri amyloidosis（100.0%）</li>
-<li>cerebral artery occlusion（100.0%）</li>
-<li>cerebral artery occlusion（100.0%）</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia（99.9%）</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/telmisartan/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

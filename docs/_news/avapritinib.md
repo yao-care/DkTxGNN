@@ -3,7 +3,7 @@ layout: default
 title: "Avapritinib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/avapritinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avapritinib/
 ---
 
 <p class="key-answer" data-question="Avapritinib 有什麼相關新聞？">
-<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/avapritinib/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>axial spondylometaphyseal dysplasia（99.9%）</li>
-<li>axial spondylometaphyseal dysplasia（99.9%）</li>
-<li>bilateral parasagittal parieto-occipital polymicrogyria（99.9%）</li>
-<li>bilateral parasagittal parieto-occipital polymicrogyria（99.9%）</li>
-<li>amyotrophic lateral sclerosis（99.9%）</li>
-<li>amyotrophic lateral sclerosis（99.9%）</li>
-<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome（99.9%）</li>
-<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome（99.9%）</li>
-<li>amyotrophic lateral sclerosis, susceptibility to（99.9%）</li>
-<li>amyotrophic lateral sclerosis, susceptibility to（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/avapritinib/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

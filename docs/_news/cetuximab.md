@@ -3,7 +3,7 @@ layout: default
 title: "Cetuximab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cetuximab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Cetuximab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/cetuximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cetuximab/
 ---
 
 <p class="key-answer" data-question="Cetuximab 有什麼相關新聞？">
-<strong>Cetuximab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Cetuximab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/cetuximab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>ductal or ductular proliferation（100.0%）</li>
-<li>bronchial adenomas/carcinoids childhood（100.0%）</li>
-<li>non-seminomatous lesion（100.0%）</li>
-<li>ductal or ductular proliferation（100.0%）</li>
-<li>non-seminomatous lesion（100.0%）</li>
-<li>chondroid hamartoma（100.0%）</li>
-<li>chondroid hamartoma（100.0%）</li>
-<li>bronchial adenomas/carcinoids childhood（100.0%）</li>
-<li>tumor of testis and paratestis（100.0%）</li>
-<li>tumor of testis and paratestis（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetuximab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

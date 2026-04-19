@@ -3,7 +3,7 @@ layout: default
 title: "Omalizumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Omalizumab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Omalizumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/omalizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/omalizumab/
 ---
 
 <p class="key-answer" data-question="Omalizumab 有什麼相關新聞？">
-<strong>Omalizumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Omalizumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/omalizumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>bronchitis（100.0%）</li>
-<li>bronchitis（100.0%）</li>
-<li>atopic eczema（100.0%）</li>
-<li>atopic eczema（100.0%）</li>
-<li>obstructive lung disease（100.0%）</li>
-<li>obstructive lung disease（100.0%）</li>
-<li>dermatitis（100.0%）</li>
-<li>dermatitis（100.0%）</li>
-<li>bronchial neoplasm (disease)（100.0%）</li>
-<li>bronchial neoplasm (disease)（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/omalizumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

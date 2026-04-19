@@ -3,7 +3,7 @@ layout: default
 title: "Cerliponase alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cerliponase alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Cerliponase alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/cerliponase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cerliponase_alfa/
 ---
 
 <p class="key-answer" data-question="Cerliponase alfa 有什麼相關新聞？">
-<strong>Cerliponase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Cerliponase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/cerliponase_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Scheie syndrome（100.0%）</li>
-<li>Scheie syndrome（100.0%）</li>
-<li>Hurler syndrome（100.0%）</li>
-<li>Hurler syndrome（100.0%）</li>
-<li>lysosomal storage disease with skeletal involvement（100.0%）</li>
-<li>lysosomal storage disease with skeletal involvement（100.0%）</li>
-<li>cholesteryl ester storage disease（99.9%）</li>
-<li>cholesteryl ester storage disease（99.9%）</li>
-<li>Gaucher disease（99.9%）</li>
-<li>Gaucher disease（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cerliponase_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Miglustat 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Miglustat 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Miglustat 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/miglustat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/miglustat/
 ---
 
 <p class="key-answer" data-question="Miglustat 有什麼相關新聞？">
-<strong>Miglustat</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Miglustat</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/miglustat/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>autosomal ichthyosis syndrome with fatal disease course（99.8%）</li>
-<li>autosomal ichthyosis syndrome with fatal disease course（99.8%）</li>
-<li>cholesteryl ester storage disease（99.8%）</li>
-<li>cholesteryl ester storage disease（99.8%）</li>
-<li>Krabbe disease（99.8%）</li>
-<li>Krabbe disease（99.8%）</li>
-<li>metachromatic leukodystrophy（99.8%）</li>
-<li>metachromatic leukodystrophy（99.8%）</li>
-<li>Wolman disease with hypolipoproteinemia and acanthocytosis（99.8%）</li>
-<li>Wolman disease with hypolipoproteinemia and acanthocytosis（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/miglustat/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

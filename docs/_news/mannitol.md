@@ -3,7 +3,7 @@ layout: default
 title: "Mannitol 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Mannitol 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Mannitol 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/mannitol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mannitol/
 ---
 
 <p class="key-answer" data-question="Mannitol 有什麼相關新聞？">
-<strong>Mannitol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Mannitol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/mannitol/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>nephrogenic syndrome of inappropriate antidiuresis（100.0%）</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis（100.0%）</li>
-<li>acute pulmonary heart disease（99.9%）</li>
-<li>acute pulmonary heart disease（99.9%）</li>
-<li>exercise-induced malignant hyperthermia（99.9%）</li>
-<li>exercise-induced malignant hyperthermia（99.9%）</li>
-<li>malignant hyperthermia, susceptibility to（99.8%）</li>
-<li>malignant hyperthermia, susceptibility to（99.8%）</li>
-<li>familial periodic paralysis（99.8%）</li>
-<li>familial periodic paralysis（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mannitol/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Enrofloxacin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Enrofloxacin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Enrofloxacin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/enrofloxacin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/enrofloxacin/
 ---
 
 <p class="key-answer" data-question="Enrofloxacin 有什麼相關新聞？">
-<strong>Enrofloxacin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Enrofloxacin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/enrofloxacin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>heart disease（99.9%）</li>
-<li>heart disease（99.9%）</li>
-<li>Laubry-Pezzi syndrome（99.9%）</li>
-<li>Laubry-Pezzi syndrome（99.9%）</li>
-<li>genetic syndromic Pierre Robin syndrome（99.9%）</li>
-<li>genetic syndromic Pierre Robin syndrome（99.9%）</li>
-<li>Pierre Robin syndrome associated with a chromosomal anomaly（99.9%）</li>
-<li>Pierre Robin syndrome associated with a chromosomal anomaly（99.9%）</li>
-<li>partial deletion of the long arm of chromosome 7（99.9%）</li>
-<li>partial deletion of the long arm of chromosome 7（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/enrofloxacin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

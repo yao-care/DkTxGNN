@@ -3,7 +3,7 @@ layout: default
 title: "Minoxidil 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Minoxidil 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Minoxidil 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/minoxidil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/minoxidil/
 ---
 
 <p class="key-answer" data-question="Minoxidil 有什麼相關新聞？">
-<strong>Minoxidil</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Minoxidil</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/minoxidil/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>hypotrichosis simplex of the scalp（100.0%）</li>
-<li>hypotrichosis simplex of the scalp（100.0%）</li>
-<li>congenital hypotrichosis milia（100.0%）</li>
-<li>congenital hypotrichosis milia（100.0%）</li>
-<li>diffuse alopecia areata（100.0%）</li>
-<li>diffuse alopecia areata（100.0%）</li>
-<li>pseudopelade of Brocq（99.9%）</li>
-<li>pseudopelade of Brocq（99.9%）</li>
-<li>pulmonary arterial hypertension（99.9%）</li>
-<li>pulmonary arterial hypertension（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/minoxidil/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

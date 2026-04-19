@@ -3,7 +3,7 @@ layout: default
 title: "Conestat alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Conestat alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Conestat alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/conestat_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/conestat_alfa/
 ---
 
 <p class="key-answer" data-question="Conestat alfa 有什麼相關新聞？">
-<strong>Conestat alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Conestat alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/conestat_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>C1 inhibitor deficiency（100.0%）</li>
-<li>C1 inhibitor deficiency（100.0%）</li>
-<li>serpinopathy with toxic serpin polymerization（100.0%）</li>
-<li>serpinopathy with toxic serpin polymerization（100.0%）</li>
-<li>hereditary angioedema with C1Inh deficiency（100.0%）</li>
-<li>hereditary angioedema with C1Inh deficiency（100.0%）</li>
-<li>primary release disorder of platelets（100.0%）</li>
-<li>primary release disorder of platelets（100.0%）</li>
-<li>pseudo-von Willebrand disease（100.0%）</li>
-<li>pseudo-von Willebrand disease（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/conestat_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
