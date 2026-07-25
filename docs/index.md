@@ -163,5 +163,23 @@ DkTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab
 <strong>Disclaimer</strong><br>
 This report is for <strong>research purposes only</strong> and does not constitute medical advice. Drug use should follow physician guidance. Any drug repurposing decisions require complete clinical validation and regulatory review.
 <br><br>
-<small>Last updated: 2026-03-10 | Maintainer: DkTxGNN Research Team</small>
+<small>Last updated: 2026-03-10 | Maintainer: 藥提醒科技有限公司 (yao.care)</small>
 </div>
+
+---
+
+## Om udvikleren
+
+Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care, virksomhedsregistreringsnummer
+83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
+
+DkTxGNN er Danmarks-sitet i virksomhedens produktlinje "TxGNN Drug Repurposing".
+Det samme system er udrullet i 30 lande og regioner, hver med navnet `{CC}TxGNN`
+(JpTxGNN, UsTxGNN, DETxGNN og så videre) på `{cc}txgnn.yao.care`.
+Produktoversigt: <https://www.yao.care/medical/txgnn/>.
+
+Selve TxGNN-modellen er udviklet af Zitnik Lab ved Harvard Medical School og offentliggjort
+i *Nature Medicine*. Denne platform er det produktionssystem, 藥提醒科技有限公司 har bygget oven på den
+model, og dækker integration af nationale lægemiddelregistreringsdata, dobbelt forudsigelse med videngraf og
+deep learning, evidensgradering ud fra PubMed / ClinicalTrials samt SMART on FHIR-integration
+med elektroniske patientjournaler.
