@@ -3,7 +3,7 @@ layout: default
 title: "Daptomycin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Daptomycin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Daptomycin 的相關健康新聞報導。原適應症：Beyond its antibacterial action, two preclinical s...。預測適應症 0 個。"
 permalink: /news/daptomycin/
 ---
 
@@ -24,6 +24,8 @@ permalink: /news/daptomycin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>原適應症</strong>：Beyond its antibacterial action, two preclinical studies published in 2025 have revealed a previously unrecognised anti-inflammatory property. Daptomycin was found to inhibit the NF-κB signalling...</li>
+<li><strong>證據等級</strong>：L5</li>
 </ul>
 <p><a href="{{ '/drugs/daptomycin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
