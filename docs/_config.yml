@@ -1,8 +1,8 @@
 # DkTxGNN - Danish Drug Repurposing Predictions
 
 # Basic settings
-title: "DkTxGNN Drug Repurposing Reports"
-description: "Danish (DKMA) drug repurposing predictions powered by TxGNN"
+title: "DkTxGNN - Lægemiddelrepositionering"
+description: "Forudsigelser om repositionering af lægemidler godkendt af DKMA i Danmark, baseret på TxGNN"
 
 author:
   name: 藥提醒科技有限公司 (yao.care)

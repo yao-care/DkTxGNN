@@ -113,7 +113,7 @@ sjældne sygdomme."
 
 | Element | Værdi |
 |------|-------|
-| Lægemiddelrapporter | 739 |
+| Lægemiddelrapporter | {{ site.drugs.size }} |
 | Lægemiddelmyndighed | DKMA |
 | Udrullede sites | 30 lande / regioner |
 
