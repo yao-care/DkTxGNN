@@ -4,9 +4,6 @@
 title: "DkTxGNN - Lægemiddelrepositionering"
 description: "Forudsigelser om repositionering af lægemidler godkendt af DKMA i Danmark, baseret på TxGNN"
 
-author:
-  name: 藥提醒科技有限公司 (yao.care)
-  url: https://www.yao.care/
 url: "https://dktxgnn.yao.care"
 baseurl: ""
 lang: "da"
@@ -77,4 +74,5 @@ exclude:
   - node_modules
   - vendor
   - "*.template"
+
 
