@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB06343-t-b-severe-combined-immunodeficiency-due-to-cd45-deficiency",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:18:51.221654+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB06343",
+      "display": "Abevmy"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "t-b-severe-combined-immunodeficiency-due-to-cd45-deficiency",
+          "display": "T-B+ severe combined immunodeficiency due to CD45 deficiency"
+        }
+      ],
+      "text": "T-B+ severe combined immunodeficiency due to CD45 deficiency"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

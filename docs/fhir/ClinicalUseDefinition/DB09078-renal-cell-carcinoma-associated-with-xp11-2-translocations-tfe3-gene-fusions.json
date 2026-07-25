@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB09078-renal-cell-carcinoma-associated-with-xp11-2-translocations-tfe3-gene-fusions",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:18:51.221654+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB09078",
+      "display": "Abevmy"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "renal-cell-carcinoma-associated-with-xp11-2-translocations-tfe3-gene-fusions",
+          "display": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+        }
+      ],
+      "text": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB11450-familial-hyperthyroidism-due-to-mutations-in-tsh-receptor",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:18:51.221654+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB11450",
+      "display": "Abevmy"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "familial-hyperthyroidism-due-to-mutations-in-tsh-receptor",
+          "display": "familial hyperthyroidism due to mutations in TSH receptor"
+        }
+      ],
+      "text": "familial hyperthyroidism due to mutations in TSH receptor"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB05676-severe-congenital-hypochromic-anemia-with-ringed-sideroblasts",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:18:51.221654+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB05676",
+      "display": "Abevmy"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "severe-congenital-hypochromic-anemia-with-ringed-sideroblasts",
+          "display": "severe congenital hypochromic anemia with ringed sideroblasts"
+        }
+      ],
+      "text": "severe congenital hypochromic anemia with ringed sideroblasts"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}
