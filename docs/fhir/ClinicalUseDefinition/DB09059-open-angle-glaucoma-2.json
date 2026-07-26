@@ -1,6 +1,6 @@
 {
   "resourceType": "ClinicalUseDefinition",
-  "id": "DB12498-t-b-severe-combined-immunodeficiency",
+  "id": "DB09059-open-angle-glaucoma-2",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
@@ -10,7 +10,7 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB12498",
+      "reference": "MedicationKnowledge/DB09059",
       "display": "Abevmy"
     }
   ],
@@ -19,11 +19,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "t-b-severe-combined-immunodeficiency",
-          "display": "T-B+ severe combined immunodeficiency"
+          "code": "open-angle-glaucoma",
+          "display": "open angle glaucoma"
         }
       ],
-      "text": "T-B+ severe combined immunodeficiency"
+      "text": "open angle glaucoma"
     }
   },
   "extension": [
