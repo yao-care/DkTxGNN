@@ -3,7 +3,7 @@ layout: default
 title: "Everolimus 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Everolimus 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Everolimus 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/everolimus/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/everolimus/
 ---
 
 <p class="key-answer" data-question="Everolimus 有什麼相關新聞？">
-<strong>Everolimus</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Everolimus</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ permalink: /news/everolimus/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（5 個）：<ul>
+<li>Liposarcoma | 99.88% | L2 | Proceed with Guardrails（99.0%）</li>
+<li>Ovarian myxoid liposarcoma | 99.84% | L5 | Hold（99.0%）</li>
+<li>Dermatofibrosarcoma protuberans | 99.82% | L4 | Research Question（99.0%）</li>
+<li>Parameningeal embryonal rhabdomyosarcoma | 99.77% | L5 | Hold（99.0%）</li>
+<li>Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.76% | L5 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/everolimus/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

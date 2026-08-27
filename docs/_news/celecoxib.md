@@ -3,7 +3,7 @@ layout: default
 title: "Celecoxib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Celecoxib 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Celecoxib 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/celecoxib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/celecoxib/
 ---
 
 <p class="key-answer" data-question="Celecoxib 有什麼相關新聞？">
-<strong>Celecoxib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Celecoxib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ permalink: /news/celecoxib/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（5 個）：<ul>
+<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.88% | L5 | Hold | GDF5 developmental defect — no trials or literature; very weak mechanistic link（99.0%）</li>
+<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.86% | L5 | Hold | Extremely rare syndrome; no actionable biological rationale（99.0%）</li>
+<li>Rheumatoid vasculitis | 99.85% | L4 | Research Question | 1 case report available; RA complication — most plausible mechanistic link（99.0%）</li>
+<li>Myosclerosis | 99.85% | L5 | Hold | Rare genetic fibrotic myopathy; inflammation is not the primary driver（99.0%）</li>
+<li>Hypermobility of coccyx | 99.83% | L5 | Hold | NSAIDs already used for musculoskeletal pain — not a meaningful repurposing signal（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/celecoxib/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

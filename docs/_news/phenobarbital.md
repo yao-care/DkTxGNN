@@ -3,7 +3,7 @@ layout: default
 title: "Phenobarbital 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Phenobarbital 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Phenobarbital 的相關健康新聞報導。原適應症：。預測適應症 6 個。"
 permalink: /news/phenobarbital/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/phenobarbital/
 ---
 
 <p class="key-answer" data-question="Phenobarbital 有什麼相關新聞？">
-<strong>Phenobarbital</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Phenobarbital</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 6 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,14 @@ permalink: /news/phenobarbital/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（6 個）：<ul>
+<li>Trigeminal Nerve Neoplasm（100.0%）</li>
+<li>Audiogenic Seizures（100.0%）</li>
+<li>Thinking Seizures（100.0%）</li>
+<li>Micturition-Induced Seizures（100.0%）</li>
+<li>Startle Epilepsy / Hyperekplexia（100.0%）</li>
+<li>Eating Seizures（100.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/phenobarbital/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

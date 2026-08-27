@@ -3,7 +3,7 @@ layout: default
 title: "Atezolizumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Atezolizumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Atezolizumab 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/atezolizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atezolizumab/
 ---
 
 <p class="key-answer" data-question="Atezolizumab 有什麼相關新聞？">
-<strong>Atezolizumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Atezolizumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ permalink: /news/atezolizumab/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（5 個）：<ul>
+<li>Prostatic urethra urothelial carcinoma | 99.98% | L2 | **Proceed with Guardrails**（99.0%）</li>
+<li>Kidney pelvis sarcomatoid transitional cell carcinoma | 99.98% | L5 | Hold（99.0%）</li>
+<li>Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.98% | L5 | Hold（99.0%）</li>
+<li>Renal pelvis papillary urothelial carcinoma (UTUC) | 99.98% | L3 | Research Question（99.0%）</li>
+<li>Uterine ligament adenocarcinoma | 99.93% | L5 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/atezolizumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

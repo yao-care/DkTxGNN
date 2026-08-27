@@ -3,7 +3,7 @@ layout: default
 title: "Bevacizumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Bevacizumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Bevacizumab 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/bevacizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bevacizumab/
 ---
 
 <p class="key-answer" data-question="Bevacizumab 有什麼相關新聞？">
-<strong>Bevacizumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Bevacizumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ permalink: /news/bevacizumab/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（5 個）：<ul>
+<li>Epiglottis Neoplasm | 99.90% | L5 | **Hold**（99.0%）</li>
+<li>Benign Neoplasm of Tongue | 99.90% | L4 | Research Question（99.0%）</li>
+<li>Tumour of Testis and Paratestis | 99.90% | L5 | **Hold**（99.0%）</li>
+<li>Benign Neoplasm of Hypopharynx | 99.90% | L5 | **Hold**（99.0%）</li>
+<li>Benign Neoplasm of Floor of Mouth | 99.90% | L3 | Research Question（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bevacizumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

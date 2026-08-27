@@ -3,7 +3,7 @@ layout: default
 title: "Cemiplimab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cemiplimab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Cemiplimab 的相關健康新聞報導。原適應症：。預測適應症 4 個。"
 permalink: /news/cemiplimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cemiplimab/
 ---
 
 <p class="key-answer" data-question="Cemiplimab 有什麼相關新聞？">
-<strong>Cemiplimab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Cemiplimab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 4 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,12 @@ permalink: /news/cemiplimab/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（4 個）：<ul>
+<li>Gallbladder adenosquamous carcinoma | 99.99% | L5 | Hold（99.0%）</li>
+<li>Glottis squamous cell carcinoma | 99.99% | L4 | Research Question（99.0%）</li>
+<li>Rectal cloacogenic carcinoma | 99.99% | L5 | Hold（99.0%）</li>
+<li>Adenosquamous prostate carcinoma | 99.99% | L5 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cemiplimab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

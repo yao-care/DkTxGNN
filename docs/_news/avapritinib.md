@@ -3,7 +3,7 @@ layout: default
 title: "Avapritinib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/avapritinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avapritinib/
 ---
 
 <p class="key-answer" data-question="Avapritinib 有什麼相關新聞？">
-<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ permalink: /news/avapritinib/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（5 個）：<ul>
+<li>Axial Spondylometaphyseal Dysplasia | 99.92% | L5 | Hold | *PAPSS2* mutation (sulphation defect) — no known KIT/PDGFRA link（99.0%）</li>
+<li>Bilateral Parasagittal Parieto-Occipital Polymicrogyria | 99.92% | L5 | Hold | Cortical structural malformation (*ADGRG1*/GPR56) — no drug-amenable window（99.0%）</li>
+<li>Amyotrophic Lateral Sclerosis (ALS) | 99.92% | L5 | Hold | Indirect mast cell / PDGFRA-OPC link — speculative, no clinical validation（99.0%）</li>
+<li>Trichomegaly–Retinal Pigmentary Degeneration–Dwarfism Syndrome | 99.92% | L5 | Hold | *PNPLA6* mutation (phospholipid metabolism) — no KIT/PDGFRA link; extremely rare（99.0%）</li>
+<li>ALS, Susceptibility To | 99.91% | L5 | Hold | Shares ALS rationale; preventive use in presymptomatic carriers adds ethical complexity（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/avapritinib/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
