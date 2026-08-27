@@ -1,6 +1,6 @@
 {
   "generated": "2026-08-27",
-  "drug_count": 967,
+  "drug_count": 970,
   "indication_count": 3767,
   "drugs": [
     {
@@ -98364,6 +98364,14 @@
       "indications": []
     },
     {
+      "name": "Levetiracetam",
+      "slug": "levetiracetam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "Levodopa",
       "slug": "levodopa",
       "brands": [],
@@ -99031,6 +99039,14 @@
       "indications": []
     },
     {
+      "name": "Parecoxib",
+      "slug": "parecoxib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "Pazopanib",
       "slug": "pazopanib",
       "brands": [],
@@ -99676,6 +99692,14 @@
     {
       "name": "Simvastatin",
       "slug": "simvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sirolimus",
+      "slug": "sirolimus",
       "brands": [],
       "original": "",
       "level": "L5",
