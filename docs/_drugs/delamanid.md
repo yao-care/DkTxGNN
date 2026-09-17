@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Delamanid
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 135
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Delamanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -128,10 +128,10 @@ The PHOENIx MDR-TB Phase 3 trial (NCT03568383, n=5,832) directly tests delamanid
 - **Patient selection criteria**: Define eligible high-risk Danish populations (MDR-TB-exposed contacts with confirmed LTBI via IGRA/TST, HIV-positive individuals, immunosuppressed patients, children under 5 years with MDR-TB exposure)
 - **NEJM 2023 PHOENIx results review**: Obtain and critically appraise the published efficacy and safety data from NCT03568383 to confirm the benefit–risk profile in the preventive setting before initiating any clinical pathway
 - **Pharmacovigilance plan**: Establish a monitoring protocol for QTc prolongation (mandatory ECG monitoring) and hepatic function during the full 26-week preventive course
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

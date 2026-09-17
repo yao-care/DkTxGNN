@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Emicizumab
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Emicizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -133,10 +133,10 @@ Emicizumab's FIXa-FX bridging mechanism is a direct functional substitute for FV
 - **Glanzmann thrombasthenia (conditional)**: If emicizumab is considered for refractory GT with inhibitors to platelet transfusion, a formal case-by-case ethical and clinical review is required; no controlled data exist and this would constitute highly experimental off-label use
 
 > **Disclaimer**: This report is intended for research and clinical decision support purposes only. It does not constitute medical advice. Predicted repurposing candidates require clinical validation before therapeutic application. All treatment decisions must be made by qualified healthcare professionals in compliance with applicable regulations.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

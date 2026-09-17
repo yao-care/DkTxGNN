@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Voclosporin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Voclosporin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -90,7 +90,7 @@ Voclosporin currently has **no marketing authorisation on file in Denmark** (`ma
 
 Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
 
-*(Note: this evidence pack's own data-gap log flags the missing label/warning data — item DG001, "TFDA 仿單警語/禁忌" — as a **Blocking** severity gap, meaning this candidate cannot yet proceed to the safety-review stage (S1) until label data is retrieved.)*
+*(Note: this evidence pack's own data-gap log flags the missing label/warning data — item DG001, "Lægemiddelstyrelsen package insert warnings/contraindications" — as a **Blocking** severity gap, meaning this candidate cannot yet proceed to the safety-review stage (S1) until label data is retrieved.)*
 
 ---
 
@@ -108,10 +108,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Confirm mechanism of action via DrugBank or primary pharmacology sources to resolve DG002
 - Any preclinical or mechanistic literature directly linking calcineurin inhibition to platelet dense-granule release would be required before this candidate could move beyond Hold
 - **For consideration**: this same evidence pack contains a lower-ranked but better-supported candidate — **dermatitis** (TxGNN score 94.2%, evidence level L3, decision stage S1 "Research Question") — backed by 2 literature reviews (PMID 37307993, PMID 41361657) discussing off-label dermatologic use of systemic calcineurin inhibitors including voclosporin. That candidate has a coherent class-effect mechanistic rationale and may warrant prioritized follow-up ahead of the top-ranked but mechanistically unsupported platelet-disorder prediction.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

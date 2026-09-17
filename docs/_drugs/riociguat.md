@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Riociguat
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Riociguat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ The top-ranked predicted indication has no mechanistic rationale, no clinical tr
 - MOA verification via DrugBank API — currently high-priority gap (DG002)
 - Confirmation of Riociguat's original approved indication and regulatory status in Denmark/EU
 - If further pursued, a targeted literature and mechanistic search specific to hypertrichosis pathophysiology, rather than relying on automated model score alone
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

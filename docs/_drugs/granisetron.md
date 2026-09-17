@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Granisetron
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Granisetron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -121,10 +121,10 @@ Although the TxGNN prediction score is high across all five indications, there a
 - **Class-effect literature review**: Assess whether ondansetron or other 5-HT₃ antagonists have preclinical or clinical data in bipolar disorder or Tourette syndrome — positive class-effect evidence would upgrade Granisetron's rating
 - **Preclinical proof-of-concept**: Commission or identify animal model studies for 5-HT₃ antagonism in manic-phase behaviour before any human trial consideration
 - **Regulatory pathway clarification**: Verify whether Granisetron has an existing EMA centralised authorisation (e.g., Kytril) that could support a label extension discussion with Lægemiddelstyrelsen
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

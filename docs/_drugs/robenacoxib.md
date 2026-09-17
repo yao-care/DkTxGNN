@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Robenacoxib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Robenacoxib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Robenacoxib is a highly COX-2-selective NSAID currently approved **only for vete
 | Predicted New Indication | Osteoarthritis (human) |
 | TxGNN Prediction Score | 98.79% |
 | Evidence Level | **L4** (veterinary RCT/mechanistic evidence only — no completed human trials; see note below) |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -116,10 +116,10 @@ Robenacoxib is a veterinary-only NSAID with no Danish or human marketing authori
 - Danish/EU regulatory review of human SmPC warnings, contraindications, and drug interactions (DG001)
 - At minimum, preclinical human-relevant toxicology and pharmacokinetic bridging data before any human trial is designed
 - Confirmation of whether any human-formulation development program for Robenacoxib exists
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

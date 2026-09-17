@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guselkumab
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Guselkumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -110,10 +110,10 @@ Although TxGNN assigns a very high prediction score (99.84%) to drug-induced ost
 > The TxGNN model also predicts **psoriasis** (rank 5, score 99.75%) with **Level L1 evidence** — supported by over 50 registered clinical trials and 20 publications, including multiple completed Phase 3 RCTs (VOYAGE 1, VOYAGE 2, NAVIGATE) and network meta-analyses in *JAMA Dermatology*. The recommendation for this indication is **Proceed with Guardrails**.
 >
 > This finding validates the TxGNN model's discriminative capability: guselkumab's established global approval for plaque psoriasis is correctly identified as a high-confidence prediction. For Danish healthcare decision-makers, this supports a pathway to evaluate formal Laegemiddelstyrelsen/EMA registration status and reimbursement consideration for psoriasis — an actionable finding requiring priority attention separate from the drug-induced osteoporosis direction.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

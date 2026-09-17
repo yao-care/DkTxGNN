@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vancomycin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vancomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ The TxGNN score is high, but there is no mechanistic rationale, no clinical tria
 - TFDA/SmPC warnings and contraindications (currently a blocking data gap, DG001) before any safety pre-screening (S1) can begin
 - Preclinical or mechanistic studies specifically linking glycopeptide antibiotics to fibrotic/autoimmune pathways, if this candidate is to be reconsidered
 - Independent re-review of the TxGNN signal, given that the top 10 ranked candidates for this drug (including paratyphoid fever and salmonellosis, both Gram-negative indications) show the same pattern of high score paired with implausible mechanism
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Meropenem
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 285
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Meropenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -121,10 +121,10 @@ Meropenem has well-documented in vitro and clinical activity against the princip
 - Formal assessment of meropenem's hospital formulary status and prescribing pathway in Denmark (including antibiotic stewardship committee approval criteria for this indication)
 - Clarification of MRSA co-infection risk in the target population and appropriate combination therapy protocols (meropenem is not active against MRSA; a Gram-positive cover strategy should be specified)
 - Safety monitoring plan including renal function monitoring, CNS adverse event surveillance, and *C. difficile* infection tracking
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

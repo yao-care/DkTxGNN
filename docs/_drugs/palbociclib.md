@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Palbociclib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 329
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -139,10 +139,10 @@ The only candidate with any supporting evidence — rheumatoid arthritis — res
 - Official SmPC-derived warnings, contraindications, and drug interaction data (currently a Blocking data gap)
 - A prospective, controlled study design testing CDK4/6 inhibition specifically in RA, rather than relying on incidental case-report observation
 - Danish/EU regulatory consultation, since palbociclib holds no marketing authorisation in Denmark at present
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

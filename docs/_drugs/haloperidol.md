@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Haloperidol
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Haloperidol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -103,10 +103,10 @@ There is no clinical, observational, or preclinical evidence supporting Haloperi
 - **Safety data retrieval:** The SmPC/SPC for Haloperidol must be obtained and parsed from an authoritative European source (e.g., EMA product database or a national medicines agency with current approval) to address data gap DG001, particularly given the known retinal and ocular toxicity signals.
 - **Preclinical feasibility study:** If the biological plausibility review yields any positive signal, targeted in vitro experiments examining Haloperidol's effect on fucosylation pathways would be required before any clinical hypothesis can be formed.
 - **Market status clarification:** Confirm whether Haloperidol is available in Denmark via parallel import or compounding, as this would affect any future compassionate use or study design considerations.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

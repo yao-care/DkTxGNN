@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Penciclovir
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Penciclovir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -125,10 +125,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Obtain confirmed mechanism of action (MOA) data from DrugBank or primary literature (resolves DG002, High)
 - Conduct or identify in vitro/in vivo studies testing Penciclovir against *Fasciola*, *Taenia* species, or mesothelioma cell lines before any further evidence-level upgrade is considered
 - Re-run clinical trial and literature searches periodically, as current searches (2026-03-24) returned zero hits for all five candidate indications
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

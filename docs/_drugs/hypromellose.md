@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hypromellose
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Hypromellose
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -94,10 +94,10 @@ Hypromellose is an inert pharmaceutical excipient with no known pharmacological 
 - **Knowledge graph review**: Investigate whether Hypromellose's high graph connectivity stems from co-formulation co-occurrence rather than pharmacological relationships, and apply appropriate edge filtering
 - **Expert adjudication**: If any downstream investigation is warranted, obtain an independent pharmacology expert assessment of whether HPMC can exert any direct biological activity at physiologically relevant concentrations
 - **No further evidence collection is recommended** at this stage for any of the predicted indications, as the foundational premise (pharmacological activity) has not been established
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

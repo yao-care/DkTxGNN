@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Darunavir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 131
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Darunavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -106,10 +106,10 @@ The TxGNN prediction for SIV infection does not represent a novel repurposing op
 ---
 
 > **Disclaimer:** This report is intended for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All information should be verified against current approved product labelling.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

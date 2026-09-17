@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pemigatinib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pemigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -131,10 +131,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Flag the veterinary-disease entries (infectious bovine rhinotracheitis, malignant catarrh) to the knowledge-graph data-cleaning pipeline for likely exclusion
 - If the amenorrhea signal is pursued at all, redirect it to pharmacovigilance/adverse-event review rather than repurposing evaluation
 - If the HER2-positive breast carcinoma combination hypothesis is pursued, commission a targeted literature search specifically on FGFR-inhibitor + anti-HER2-therapy resistance reversal, rather than relying on the current general kinase-inhibitor review citation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

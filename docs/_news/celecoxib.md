@@ -1,48 +1,48 @@
 ---
 layout: default
-title: "Celecoxib 相關新聞"
-parent: 健康新聞
+title: "Nyheder om Celecoxib"
+parent: Sundhedsnyheder
 nav_exclude: true
-description: "Celecoxib 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
+description: "Sundhedsnyheder om Celecoxib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/celecoxib/
 ---
 
-# Celecoxib 相關新聞
+# Nyheder om Celecoxib
 
-[← 返回新聞總覽]({{ '/news/' | relative_url }})
+[← Tilbage til nyhedsoversigten]({{ '/news/' | relative_url }})
 
 ---
 
-<p class="key-answer" data-question="Celecoxib 有什麼相關新聞？">
-<strong>Celecoxib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
+<p class="key-answer" data-question="Hvilke nyheder er der om Celecoxib?">
+<strong>Celecoxib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
-本頁整合 Celecoxib 的 AI 預測適應症與最新健康新聞，橘色標示的適應症表示近期有相關新聞報導。
+Denne side kombinerer de AI-forudsagte indikationer for Celecoxib med de seneste sundhedsnyheder. Indikationer markeret med orange har været omtalt i nyhederne for nylig.
 </div>
 
 <div class="drug-info-card">
-<strong>藥物資訊</strong>
+<strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>證據等級</strong>：L5</li>
-<li><strong>預測適應症</strong>（5 個）：<ul>
-<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.88% | L5 | Hold | GDF5 developmental defect — no trials or literature; very weak mechanistic link（99.0%）</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.86% | L5 | Hold | Extremely rare syndrome; no actionable biological rationale（99.0%）</li>
-<li>Rheumatoid vasculitis | 99.85% | L4 | Research Question | 1 case report available; RA complication — most plausible mechanistic link（99.0%）</li>
-<li>Myosclerosis | 99.85% | L5 | Hold | Rare genetic fibrotic myopathy; inflammation is not the primary driver（99.0%）</li>
-<li>Hypermobility of coccyx | 99.83% | L5 | Hold | NSAIDs already used for musculoskeletal pain — not a meaningful repurposing signal（99.0%）</li>
+<li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.88% | L5 | Hold | GDF5 developmental defect — no trials or literature; very weak mechanistic link (99.0%)</li>
+<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.86% | L5 | Hold | Extremely rare syndrome; no actionable biological rationale (99.0%)</li>
+<li>Rheumatoid vasculitis | 99.85% | L4 | Research Question | 1 case report available; RA complication — most plausible mechanistic link (99.0%)</li>
+<li>Myosclerosis | 99.85% | L5 | Hold | Rare genetic fibrotic myopathy; inflammation is not the primary driver (99.0%)</li>
+<li>Hypermobility of coccyx | 99.83% | L5 | Hold | NSAIDs already used for musculoskeletal pain — not a meaningful repurposing signal (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/celecoxib/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/celecoxib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
-## 相關新聞（0 則）
+## Relaterede nyheder (0)
 
-*目前沒有相關新聞報導。當有新聞提到此藥物時，系統會自動收集並顯示在這裡。*
+*Der er endnu ingen relaterede nyheder. Når en nyhed nævner dette lægemiddel, bliver den automatisk indsamlet og vist her.*
 
 
 <div class="disclaimer">
-<strong>免責聲明</strong>：本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
+<strong>Ansvarsfraskrivelse</strong>: Nyhederne på denne side indsamles automatisk og er kun til forskningsbrug; de udgør ikke medicinsk rådgivning.
 </div>
 
 <style>

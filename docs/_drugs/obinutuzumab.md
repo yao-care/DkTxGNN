@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 316
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -120,10 +120,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Verified mechanism-of-action documentation (DG002)
 - Confirmation of EU/EMA centralised marketing authorisation status for obinutuzumab in Denmark
 - A follow-up evidence search using the broader term "chronic lymphocytic leukemia/small lymphocytic lymphoma" to properly evaluate the rank 1–4 molecular-subtype predictions, which currently show zero evidence likely due to overly specific disease naming
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

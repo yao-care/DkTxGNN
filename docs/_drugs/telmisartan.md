@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Telmisartan is an angiotensin II receptor blocker (ARB) established for the trea
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Hold |
 
@@ -101,10 +101,10 @@ The top-ranked prediction (Prinzmetal angina) has no clinical trial or literatur
 - Confirmation of Danish market/authorisation status
 
 **Additional note:** This Evidence Pack contains 10 ranked candidate indications for telmisartan. Several lower-ranked candidates have materially stronger evidence than the top-ranked one above — notably **cerebral artery occlusion** (rank 7–8, TxGNN score 99.95%, Evidence Level **L2**, recommendation **Proceed with Guardrails**), supported by a completed Phase 4 RCT (NCT01075698, n=1228) and 17 preclinical publications on neuroprotective mechanisms. If a repurposing candidate is needed for further action, that indication is a substantially better-evidenced starting point than Prinzmetal angina and may warrant its own dedicated evaluation report.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

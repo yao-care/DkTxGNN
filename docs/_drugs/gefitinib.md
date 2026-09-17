@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gefitinib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gefitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ The top TxGNN prediction — Fibromatosis, Gingival (score 99.89%) — is assess
 - **Safety data gap closure:** Download and parse the SmPC from the EMA product page to complete contraindication, warning, and drug interaction profiles.
 - **Consider the higher-quality signal at rank 9:** **Lung Hilum Carcinoma** (score 99.86%, L4 evidence, 1 case report of a gefitinib super-responder) represents a mechanistically coherent repurposing candidate — EGFR mutations are prevalent in central-type lung adenocarcinoma, and gefitinib's efficacy in NSCLC is supported by Phase 3 RCT evidence (IPASS). This should be elevated to a formal **Research Question** stage assessment.
 - **Regulatory pathway:** If clinical investigation of gefitinib for any Danish-relevant indication is considered, initiate a named patient / compassionate use dialogue with Laegemiddelstyrelsen, or assess eligibility under EMA's existing centralised authorisation.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

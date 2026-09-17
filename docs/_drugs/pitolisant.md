@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pitolisant
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 353
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Pitolisant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Confirmed mechanism of action (MOA) documentation from DrugBank or the SmPC, rather than relying solely on literature inference
 - Danish/EU licensing and SmPC data (warnings, contraindications, interactions), since pitolisant is not currently marketed in Denmark
 - If the mechanistic conflict cannot be resolved, this candidate should be deprioritized in favour of the lower-confidence but mechanistically plausible ADHD signal (TxGNN score 99.36%), which is currently only supported by preclinical/mechanistic literature and warrants a Research Question stage rather than further insomnia-focused review
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

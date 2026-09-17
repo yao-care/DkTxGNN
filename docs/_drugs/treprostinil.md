@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Treprostinil
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 451
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Treprostinil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ CTD-PAH is a well-established WHO Group 1 PAH subgroup with a directly relevant 
 - Drug-drug interaction screening (currently "not found")
 - Route-of-administration compatibility assessment (marked "pending" across all predicted indications in this pack)
 - Note: Two other PAH subtypes in this evidence pack — CHD-associated PAH (L2, Proceed with Guardrails) and HIV-associated PAH (L3, Research Question) — warrant separate evaluation; the highest raw-scoring prediction (pulmonary arteriovenous malformation, L5) is assessed by the evidence pack itself as a likely model artifact with no supporting trials or literature and should remain on Hold.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

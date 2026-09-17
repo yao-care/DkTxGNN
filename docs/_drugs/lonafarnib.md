@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lonafarnib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lonafarnib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -93,10 +93,10 @@ The top-ranked prediction (Leprosy) is supported only by a TxGNN graph score, wi
 - Verified mechanism of action for Lonafarnib
 - Documentation of Lonafarnib's original approved indication(s), to assess continuity with any new candidate
 - If pursuing repurposing further, consider prioritizing the rheumatoid arthritis candidate instead (evidence level L4, one supporting mechanistic-pathway publication, though not drug-specific), rather than Leprosy which currently has no evidentiary support at all
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

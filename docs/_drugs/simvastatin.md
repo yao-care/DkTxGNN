@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Simvastatin
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 401
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -122,10 +122,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Drug-specific mechanism-of-action documentation from DrugBank (High-priority gap, DG002)
 - Verification of actual Danish marketing-authorisation status, since 0 authorisations for a long-genericized statin is unusual and may reflect an incomplete data pull rather than true non-availability
 - A complete DDI screen, since the current query returned "not found" (0 interactions), which is implausible for simvastatin and likely reflects a data gap rather than a clean safety profile
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

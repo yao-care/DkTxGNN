@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meloxicam
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Meloxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -109,10 +109,10 @@ Meloxicam's TxGNN prediction score for acromesomelic dysplasia (Hunter-Thompson 
 - **Mechanistic validation:** Commission or identify preclinical studies examining COX-2/PGE₂ interactions with GDF5-BMP signalling in relevant skeletal dysplasia models
 - **Orphan disease context:** Assess whether anti-inflammatory or anti-remodelling effects could provide any symptomatic benefit to AMDH patients, independently of disease modification
 - **Broader landscape review:** Consider whether any of the five distinct TxGNN-predicted indications (AMDH, brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, pseudoachondroplasia) — all rare skeletal/connective tissue disorders — share a common mechanistic thread that could justify a shared investigational strategy for Meloxicam
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lutropin Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lutropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The prediction rests solely on a TxGNN model score (Evidence Level L5) with no s
 - Confirmed mechanism of action and original indication documentation — currently a High-severity data gap (DG002)
 - Preclinical or mechanistic studies establishing biological plausibility for LH involvement in autonomic/vascular regulation
 - Any emerging clinical trial or case-report evidence specific to POTS (or the other predicted indications: peptic esophagitis, trichotillomania, Raynaud disease, duodenal ulcer)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

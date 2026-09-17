@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tobramycin
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 439
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tobramycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -100,10 +100,10 @@ No clinical trial or literature source directly evaluates tobramycin's efficacy 
 - Confirmed mechanism-of-action documentation
 - Studies directly assessing tobramycin (or aminoglycoside topical therapy) in exposure keratitis, ideally addressing corneal epithelial safety in an already-compromised ocular surface
 - Clarification of intended route of administration (e.g., topical ophthalmic) and route compatibility assessment, which is currently unresolved
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

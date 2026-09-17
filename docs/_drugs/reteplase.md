@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Reteplase
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 373
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Reteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -81,7 +81,7 @@ Currently no related literature available for **Posteroinferior Myocardial Infar
 
 ## Denmark Market Information
 
-Reteplase currently holds **0 marketing authorisations** in Denmark (`market_status: 未上市 / Not marketed`). No Laegemiddelstyrelsen national or EMA centralised licence records are present in this evidence pack.
+Reteplase currently holds **0 marketing authorisations** in Denmark (`market_status: Not marketed / Not marketed`). No Laegemiddelstyrelsen national or EMA centralised licence records are present in this evidence pack.
 
 ---
 
@@ -103,10 +103,10 @@ The top-ranked candidate (Posteroinferior Myocardial Infarction) is an anatomica
 - Confirmed mechanism of action data from DrugBank (DG002)
 - A decision on whether MI anatomical-subtype predictions (ranks 1–4, 7–8) should be excluded from the candidate pipeline as ontology duplicates, or re-scored against the parent "myocardial infarction" indication
 - If pursuing an evidence-backed candidate instead, **Septal Myocardial Infarction** (L1 evidence, Phase 3 RCT, "Proceed with Guardrails") and **Coronary Stenosis** (L3 evidence, multiple cohort studies) warrant separate evaluation as the more substantive repurposing signals in this evidence pack
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

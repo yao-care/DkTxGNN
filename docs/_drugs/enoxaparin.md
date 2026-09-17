@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enoxaparin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Enoxaparin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -104,10 +104,10 @@ While the mechanistic basis for enoxaparin use in autosomal recessive Protein C 
 - **Safety profile review:** Obtain the full SmPC to characterise contraindications, key warnings, and drug interactions — currently a blocking data gap
 - **Mechanism of action documentation:** Retrieve formal DrugBank MOA data to complete the mechanistic analysis
 - **Positioning clarification:** Define whether the intended use is acute/emergency (where Protein C concentrate remains first-line) or long-term prophylaxis (where enoxaparin may have a more viable role)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

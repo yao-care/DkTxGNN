@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Regadenoson
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Regadenoson
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ One point worth flagging for clinical review: the drug's known adverse-effect pr
 - Verified mechanism of action (MOA) data from DrugBank or another primary source
 - Independent pharmacological review to confirm or rule out the "reversed signal" hypothesis before any further evaluation
 - Correction of the duplicate entries in the predicted-indications list at the data pipeline level
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

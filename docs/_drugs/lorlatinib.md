@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lorlatinib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lorlatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -109,10 +109,10 @@ The top-ranked prediction (gingival fibromatosis) has no clinical trial or liter
 - Formal DrugBank mechanism-of-action data (currently a High-severity data gap)
 - Preclinical or mechanistic evidence directly linking ALK/ROS1 inhibition to gingival fibromatosis pathology before this candidate can advance past S0
 - Resolution of the apparent TxGNN disease-ontology mapping error affecting the "lung benign neoplasm" candidate in this same pack, before that candidate is separately evaluated
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

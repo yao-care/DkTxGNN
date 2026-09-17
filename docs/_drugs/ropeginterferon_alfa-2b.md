@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ropeginterferon Alfa-2B
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ropeginterferon Alfa-2B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -93,10 +93,10 @@ The predicted indication has no clinical trial or literature support (Evidence L
 - Confirmed mechanism of action data from DrugBank or primary literature (DG002, High)
 - An independent biological rationale or preclinical signal connecting interferon pharmacology to structural cardiac disease before this candidate can be prioritized for further evaluation
 - Given the consistent pattern across all top-10 candidates, a review of TxGNN's node connectivity for this drug in the rare-disease/congenital-disease region of the knowledge graph is recommended before treating any of these predictions as actionable leads
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

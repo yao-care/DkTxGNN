@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fentanyl
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Fentanyl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -104,10 +104,10 @@ The TxGNN prediction score is very high (99.46%), indicating strong graph-based 
 - **Drug interaction assessment:** NSIAD patients may receive tolvaptan or urea; opioid DDI profile with these agents must be established
 - **MOA documentation:** Retrieve full mechanism of action data from DrugBank (DB00813) to complete the repurposing rationale analysis
 - **Expert consultation:** Nephrology and clinical pharmacology review of the biological plausibility before any IND or protocol development is initiated
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

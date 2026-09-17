@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bevacizumab
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Bevacizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -134,10 +134,10 @@ This Evidence Pack covers five unique predicted indications for Bevacizumab. For
 | 9 | Benign Neoplasm of Floor of Mouth | 99.90% | L3 | Research Question |
 
 The **Benign Neoplasm of Floor of Mouth** prediction carries the strongest evidence in this pack (L3), supported by one Phase I clinical trial ([NCT01552434](https://clinicaltrials.gov/study/NCT01552434)) investigating Bevacizumab in head and neck malignancies and two relevant preclinical publications. If repurposing exploration for Bevacizumab is to continue, this indication represents the most tractable research starting point, noting that all current evidence concerns malignant rather than benign lesions.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

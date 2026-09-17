@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Avelumab
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 52
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Avelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ Evidence for Avelumab specifically in HHV-8-related tumours is currently at the 
 - Full SmPC review and safety gap remediation: the current Evidence Pack is missing key safety data (TFDA/EMA warnings, contraindications, drug–drug interactions) which are classified as blocking for formal safety pre-screening (DG001)
 - Danish epidemiological feasibility assessment: HHV-8-related malignancies are uncommon in Denmark; patient population sizing is needed to evaluate clinical and health-economic viability
 - Registration pathway analysis: Avelumab is not currently marketed in Denmark; any clinical use would require a named patient programme, compassionate use authorisation, or a prospective clinical trial
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

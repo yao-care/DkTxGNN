@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Carfilzomib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Carfilzomib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -126,10 +126,10 @@ CMM7 is an unresolved disease identifier with no available clinical trials, tran
 - **Blood-brain barrier assessment**: If CMM7 involves CNS or leptomeningeal disease, evaluate strategies to address Carfilzomib's poor CNS penetration (~719 Da, P-gp substrate)
 - **Paediatric considerations**: If CMM7 encompasses paediatric populations, a dedicated paediatric safety and pharmacokinetic programme is required given the significant data gap
 - **Upgrade to L4 minimum**: A systematic review of proteasome inhibition across melanoma subtypes, and at least one targeted in vitro study in the resolved CMM7 cell type, is required before clinical translation can be contemplated
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

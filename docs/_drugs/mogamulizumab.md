@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mogamulizumab
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mogamulizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -117,10 +117,10 @@ There is currently no clinical or preclinical evidence supporting the use of mog
 - **Safety data retrieval**: Obtain and review the full EMA SmPC (Poteligeo), including all warnings, contraindications, and special population data relevant to a urothelial carcinoma patient population
 - **Broader literature scan**: Search for mogamulizumab evidence in the wider urothelial carcinoma category (not restricted to this rare subtype) to determine whether any indirect supportive data exist
 - **Regulatory pathway clarification**: Determine whether a clinical trial or named-patient access programme in Denmark is feasible, and what Lægemiddelstyrelsen requirements would apply for an off-label or investigational use in a solid tumour indication
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

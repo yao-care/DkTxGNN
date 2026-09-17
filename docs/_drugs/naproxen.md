@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Naproxen
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Naproxen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -94,10 +94,10 @@ Despite a superficially high TxGNN prediction score (99.35%), this candidate has
 - **MOA data retrieval:** Obtain full pharmacological profile from DrugBank (DB00788) to support or refute any mechanistic hypothesis
 - **Safety data retrieval:** Download and parse the SmPC from Lægemiddelstyrelsen to complete the safety profile, including warnings, contraindications, and drug interactions
 - **Danish regulatory data verification:** Confirm current marketing authorisation status of Naproxen-containing products with Lægemiddelstyrelsen; the absence of authorisation records in this data package likely reflects a data gap, as Naproxen is a long-established NSAID
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

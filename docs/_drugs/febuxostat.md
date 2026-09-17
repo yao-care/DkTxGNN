@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Febuxostat
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 187
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -112,10 +112,10 @@ The evidence base for febuxostat in renal hypouricaemia currently consists of a 
 - **Dedicated RHUC/EIAKI study:** Commission or identify a prospective case series or controlled study in RHUC patients using febuxostat as EIAKI prophylaxis — the current single case report is insufficient for clinical guidance
 - **Paediatric data:** RHUC with EIAKI frequently presents in young athletes; paediatric safety and dosing data for febuxostat should be reviewed separately
 - **Evaluate HPRT/Lesch-Nyhan indications independently:** Given the higher evidence base for febuxostat in XOR-overactive conditions (HPRT partial deficiency, Lesch-Nyhan syndrome), separate Evidence Packs targeting these indications may yield a more actionable near-term recommendation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

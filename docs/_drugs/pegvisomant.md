@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pegvisomant
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pegvisomant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -106,10 +106,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Preclinical or mechanistic studies specifically examining the GH/IGF-1 axis in borderline ovarian serous tumors, rather than general oncology background reasoning
 - Any first clinical or case-level evidence connecting Pegvisomant to this indication before further resource investment
 - Reassessment of the other clustered ovarian-tumor predictions as a group, since they may represent one underlying (unconfirmed) hypothesis rather than four independent signals
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

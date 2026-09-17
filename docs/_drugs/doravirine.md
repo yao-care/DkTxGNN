@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Doravirine
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 148
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Doravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -116,10 +116,10 @@ Despite a high TxGNN prediction score (99.93%), the prediction that doravirine i
 - **Clarification of clinical target**: Define whether the indication is human occupational/zoonotic SIV exposure or veterinary / primate research use — these have very different regulatory and ethical pathways
 - **MOA documentation**: Retrieve full doravirine mechanism of action, resistance profile, and pharmacokinetic data from DrugBank (currently absent from this evidence pack)
 - **Safety review**: Obtain and review the EMA SmPC for Pifeltro/Delstrigo to complete the safety assessment before any further evaluation steps
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

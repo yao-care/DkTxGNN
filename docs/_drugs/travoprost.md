@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Travoprost
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Travoprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -81,10 +81,10 @@ This is an L5-evidence candidate — a model prediction with no supporting clini
 - If pursued, an initial preclinical/in vitro feasibility study before any clinical evidence generation, given the complete absence of supporting data
 
 *Note: Among the other candidates in this evidence pack, "vascular disease" (rank 9–10, L4) has substantially more evidence (15 clinical trials, 20 publications) but that evidence is graded low-relevance (Grade C) — the trials are glaucoma/IOP studies incidentally involving Travoprost, not vascular-disease treatment trials. It may warrant separate evaluation but was not the top-ranked candidate and is outside the scope of this report.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Flurbiprofen
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Flurbiprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ All five predicted indications are rare genetic skeletal dysplasia or connective
 - Preclinical (in vitro or animal model) evidence specifically investigating Flurbiprofen in BMP/TGF-β signalling or any of the predicted skeletal dysplasia pathways
 - Clarification of whether Flurbiprofen is available for import or compassionate use in Denmark before any investigator-initiated study can be considered
 - Re-evaluation of the TxGNN prediction model to understand why rare monogenic structural dysplasias cluster at the top of the ranking for an established NSAID — this may indicate a model calibration issue rather than a genuine repurposing signal
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

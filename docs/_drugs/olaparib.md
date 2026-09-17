@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Olaparib
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 319
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Olaparib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ Olaparib is a PARP1/2 inhibitor whose first approved oncology indication was BRC
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.09% |
 | Evidence Level | L1 |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -115,10 +115,10 @@ The mechanistic and clinical evidence base is strong (L1 — multiple completed 
 - Confirmed DrugBank mechanism-of-action record (High-priority gap, DG002)
 - Clarification of Danish marketing-authorisation pathway, given 0 current licences despite broad international approval
 - Drug–drug interaction data collection (current query status: not found)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

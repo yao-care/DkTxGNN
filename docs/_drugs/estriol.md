@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Estriol
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Estriol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -103,10 +103,10 @@ While the TxGNN prediction score is very high (99.18%) and a plausible mechanist
 - **Market access assessment:** Evaluate whether estriol can be obtained in Denmark via special access, cross-border supply, or magistral preparation
 - **Clinical study design:** A prospective, randomised, placebo-controlled pilot trial of low-dose estriol in FHA patients, with LH pulsatility and return of menses as primary endpoints
 - **Regulatory pathway:** Determine whether an off-label use or compassionate access pathway would be appropriate given the current evidence level (L3)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

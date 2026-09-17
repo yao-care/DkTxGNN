@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sparsentan
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sparsentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ This candidate is supported only by a TxGNN model score (L5 evidence level), wit
 - Confirmation of detailed mechanism-of-action data via DrugBank or primary literature (resolves DG002)
 - Preclinical or mechanistic studies specifically examining RAS/endothelin signalling in hair follicle biology
 - Any clinical trial or case-level data evaluating Sparsentan (or the ETA/AT1 dual-antagonist class) in alopecia, to move this candidate beyond a model-only (L5) evidence level
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

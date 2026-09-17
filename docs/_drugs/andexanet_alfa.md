@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Andexanet Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Andexanet Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -122,10 +122,10 @@ The top TxGNN prediction of Glanzmann Thrombasthenia carries an evidence level o
 - Expert haematology consultation to evaluate biological plausibility before any clinical exploration
 - Complete SmPC and safety profile review, including thromboembolic risk assessment, before any clinical consideration
 - Resolution of the data gap regarding the full mechanism of action (DrugBank API query recommended per DG002)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

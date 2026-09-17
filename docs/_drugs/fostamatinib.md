@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fostamatinib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 195
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Fostamatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -103,10 +103,10 @@ Autosomal Thrombocytopenia with Normal Platelets is a genetically inherited plat
 - **Safety profile review:** Obtain and review the Tavlesse SmPC from EMA (Data Gap DG001 equivalent) — particularly hepatotoxicity, hypertension, and neutropenia signals relevant to any investigational use
 - **Genetic subtype mapping:** Define the specific OMIM mutation(s) and determine whether any involve SYK-related signalling cascades before framing a research hypothesis
 - **Orphan disease pathway assessment:** If preclinical data are supportive, evaluate eligibility for EU orphan designation prior to any clinical development planning
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paclitaxel
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Paclitaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Paclitaxel is a taxane-class cytotoxic chemotherapy agent with broad internation
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.995% |
 | Evidence Level | L1 (≥2 completed Phase 3 RCTs identified) |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Hold |
 
@@ -97,7 +97,7 @@ Importantly, the volume and maturity of the retrieved evidence (multiple complet
 
 ## Denmark Market Information
 
-No marketing authorisation records were returned for Paclitaxel in this evidence pack (`total_licenses: 0`, `market_status: 未上市/Not marketed`). This is notable given paclitaxel's broad international generic availability, and should be treated as a data-collection gap requiring verification rather than confirmed absence from the Danish market.
+No marketing authorisation records were returned for Paclitaxel in this evidence pack (`total_licenses: 0`, `market_status: Not marketed/Not marketed`). This is notable given paclitaxel's broad international generic availability, and should be treated as a data-collection gap requiring verification rather than confirmed absence from the Danish market.
 
 ---
 
@@ -134,10 +134,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Retrieve confirmed mechanism of action data from DrugBank — resolves High-severity gap DG002
 - Verify actual Danish/EU marketing authorisation status, since the current record of 0 licences is inconsistent with paclitaxel's known wide generic availability and likely reflects incomplete data collection
 - Clarify whether "female breast carcinoma" should be treated as a genuine repurposing candidate or reclassified as confirmatory evidence of existing standard-of-care use
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

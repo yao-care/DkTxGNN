@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Perampanel
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 345
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -51,7 +51,7 @@ Using the drug-repurposing evaluation report format, here is the report generate
 | Predicted New Indication | Visual Epilepsy |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L2 |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,7 +100,7 @@ It should be noted that none of the clinical trials or publications currently li
 
 ## Denmark Market Information
 
-No marketing authorisation records are present in the Evidence Pack for Denmark — `taiwan_regulatory.total_licenses = 0` and the license list is empty, with market status recorded as **Not marketed (未上市)**.
+No marketing authorisation records are present in the Evidence Pack for Denmark — `taiwan_regulatory.total_licenses = 0` and the license list is empty, with market status recorded as **Not marketed (Not marketed)**.
 
 This warrants verification: the literature in this evidence pack states perampanel is "approved in over 35 countries... including the members of the European Union" (PMID 24559052), which would ordinarily include Denmark via EMA centralised authorisation. The absence of any Danish license record should therefore be treated as a possible **data collection gap** rather than confirmed non-availability, and should be re-verified directly against the Laegemiddelstyrelsen and EMA registers before final decision-making.
 
@@ -132,10 +132,10 @@ No key warnings, contraindications, or drug-drug interaction data are available 
 - Reconcile the "not marketed / 0 licenses" status in Denmark against perampanel's known EU-wide (EMA) approval as Fycompa
 - Re-run the DDI query (current status: not_found) to obtain a usable interaction profile
 - Seek or commission case series/trials specifically addressing perampanel in visual or other reflex-epilepsy subtypes, since current evidence supports epilepsy broadly but not this indication specifically
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

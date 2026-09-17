@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rifabutin
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 376
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Rifabutin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -127,10 +127,10 @@ Multiple completed Phase 3 randomized trials and a Cochrane systematic review su
 - A structured DDI review focused on ART co-administration (protease inhibitors, NNRTIs, integrase inhibitors), given the strong CYP3A4-mediated interaction signal already evident in the literature
 - A monitoring plan addressing the identified ocular inflammation and pediatric neutropenia ADR signals
 - Reframing of the target indication from "HIV infectious disease" to "TB/MAC co-infection in HIV-positive patients" to avoid clinical misinterpretation as an antiretroviral therapy
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

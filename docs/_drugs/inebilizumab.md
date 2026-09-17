@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inebilizumab
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Inebilizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ This candidate has no supporting clinical trials or literature (0/0), sits at th
 - Ongoing surveillance for any future trial or case-report signal, given none currently exist
 
 *Note: The same Evidence Pack contains a considerably better-supported candidate — plasma cell myeloma (rank 7/8, score 92.75%, evidence level L3, "Research Question" stage) — backed by a completed Phase 1 trial (NCT01861340) and 2 PubMed records. If a report on that indication is wanted instead, let me know and I will produce it.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

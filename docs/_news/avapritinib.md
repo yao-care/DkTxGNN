@@ -1,48 +1,48 @@
 ---
 layout: default
-title: "Avapritinib 相關新聞"
-parent: 健康新聞
+title: "Nyheder om Avapritinib"
+parent: Sundhedsnyheder
 nav_exclude: true
-description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
+description: "Sundhedsnyheder om Avapritinib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/avapritinib/
 ---
 
-# Avapritinib 相關新聞
+# Nyheder om Avapritinib
 
-[← 返回新聞總覽]({{ '/news/' | relative_url }})
+[← Tilbage til nyhedsoversigten]({{ '/news/' | relative_url }})
 
 ---
 
-<p class="key-answer" data-question="Avapritinib 有什麼相關新聞？">
-<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
+<p class="key-answer" data-question="Hvilke nyheder er der om Avapritinib?">
+<strong>Avapritinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
-本頁整合 Avapritinib 的 AI 預測適應症與最新健康新聞，橘色標示的適應症表示近期有相關新聞報導。
+Denne side kombinerer de AI-forudsagte indikationer for Avapritinib med de seneste sundhedsnyheder. Indikationer markeret med orange har været omtalt i nyhederne for nylig.
 </div>
 
 <div class="drug-info-card">
-<strong>藥物資訊</strong>
+<strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>證據等級</strong>：L5</li>
-<li><strong>預測適應症</strong>（5 個）：<ul>
-<li>Axial Spondylometaphyseal Dysplasia | 99.92% | L5 | Hold | *PAPSS2* mutation (sulphation defect) — no known KIT/PDGFRA link（99.0%）</li>
-<li>Bilateral Parasagittal Parieto-Occipital Polymicrogyria | 99.92% | L5 | Hold | Cortical structural malformation (*ADGRG1*/GPR56) — no drug-amenable window（99.0%）</li>
-<li>Amyotrophic Lateral Sclerosis (ALS) | 99.92% | L5 | Hold | Indirect mast cell / PDGFRA-OPC link — speculative, no clinical validation（99.0%）</li>
-<li>Trichomegaly–Retinal Pigmentary Degeneration–Dwarfism Syndrome | 99.92% | L5 | Hold | *PNPLA6* mutation (phospholipid metabolism) — no KIT/PDGFRA link; extremely rare（99.0%）</li>
-<li>ALS, Susceptibility To | 99.91% | L5 | Hold | Shares ALS rationale; preventive use in presymptomatic carriers adds ethical complexity（99.0%）</li>
+<li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Axial Spondylometaphyseal Dysplasia | 99.92% | L5 | Hold | *PAPSS2* mutation (sulphation defect) — no known KIT/PDGFRA link (99.0%)</li>
+<li>Bilateral Parasagittal Parieto-Occipital Polymicrogyria | 99.92% | L5 | Hold | Cortical structural malformation (*ADGRG1*/GPR56) — no drug-amenable window (99.0%)</li>
+<li>Amyotrophic Lateral Sclerosis (ALS) | 99.92% | L5 | Hold | Indirect mast cell / PDGFRA-OPC link — speculative, no clinical validation (99.0%)</li>
+<li>Trichomegaly–Retinal Pigmentary Degeneration–Dwarfism Syndrome | 99.92% | L5 | Hold | *PNPLA6* mutation (phospholipid metabolism) — no KIT/PDGFRA link; extremely rare (99.0%)</li>
+<li>ALS, Susceptibility To | 99.91% | L5 | Hold | Shares ALS rationale; preventive use in presymptomatic carriers adds ethical complexity (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/avapritinib/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/avapritinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
-## 相關新聞（0 則）
+## Relaterede nyheder (0)
 
-*目前沒有相關新聞報導。當有新聞提到此藥物時，系統會自動收集並顯示在這裡。*
+*Der er endnu ingen relaterede nyheder. Når en nyhed nævner dette lægemiddel, bliver den automatisk indsamlet og vist her.*
 
 
 <div class="disclaimer">
-<strong>免責聲明</strong>：本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
+<strong>Ansvarsfraskrivelse</strong>: Nyhederne på denne side indsamles automatisk og er kun til forskningsbrug; de udgør ikke medicinsk rådgivning.
 </div>
 
 <style>

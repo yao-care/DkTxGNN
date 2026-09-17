@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Selinexor
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 396
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Selinexor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ The lead candidate (progesterone-receptor negative breast cancer) has a plausibl
 - Confirmed original indication and mechanism-of-action documentation from DrugBank or regulatory sources
 - Larger controlled (ideally randomized) trial data beyond the single-arm n=10 study before any guardrail-based progression is considered
 - Re-review of the other high-score, evidence-free predictions (drug-induced osteoporosis, HER2-positive breast carcinoma, normal breast-like subtype, PR-positive breast cancer) to confirm or formally reject them as model noise
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

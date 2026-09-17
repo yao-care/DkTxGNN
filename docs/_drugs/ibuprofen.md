@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ibuprofen
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ibuprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -103,10 +103,10 @@ All top-ranked TxGNN predictions for Ibuprofen map exclusively to rare congenita
 - **TFDA SmPC safety data** (DG001) must be retrieved before any safety evaluation can proceed
 - These TxGNN predictions should be flagged for **model quality review**: the clustering of rare skeletal dysplasias as top-ranked candidates for a common NSAID strongly suggests a knowledge graph topology artefact (topology clustering artifact) rather than genuine repurposing signal
 - If future investigation is desired, a **rare disease or clinical pharmacology specialist** should assess biological plausibility before any further development steps are considered
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 235
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -123,10 +123,10 @@ Extensive Phase 3 clinical trial and RCT literature evidence (Evidence Level L1)
 - **[High priority]** Verified mechanism-of-action documentation from DrugBank or the manufacturer's SmPC.
 - Confirmation of current Danish/EU marketing authorisation status directly from Laegemiddelstyrelsen and the EMA register (this evidence pack shows 0 licences, which should be cross-checked as it may reflect a data completeness gap rather than true absence of any EU authorisation).
 - Clarification with the originating analysis team on why "Type 1 Diabetes Mellitus" — the drug's core label indication — was classified as a *predicted new* indication, to ensure this candidate is correctly triaged as a market-access case rather than mixed into genuine repurposing-hypothesis review queues.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

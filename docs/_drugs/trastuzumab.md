@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 446
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -134,10 +134,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Formal mechanism-of-action documentation from DrugBank or equivalent source (DG002)
 - Confirmation of Danish marketing authorisation pathway, given the drug is not currently marketed locally
 - Clarification of whether the target population should be defined by HER2 status (established use) rather than PR status alone, to distinguish genuine repurposing value from label-extension confirmation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

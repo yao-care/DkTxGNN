@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Laronidase
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 255
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -102,10 +102,10 @@ The underlying evidence level (L2, supported by MPS I clinical literature) is re
 - Resolve DG002: obtain confirmed mechanism-of-action and original-indication data from DrugBank/regulatory sources to determine whether "lysosomal storage disease with skeletal involvement" is truly a new indication or a relabeling of MPS I
 - If a genuinely novel indication is the goal, re-run the TxGNN candidate generation with a correctly populated `original_indications` field so existing-use overlaps are filtered out
 - Given zero marketing authorisations in Denmark, confirm import/named-patient-use pathway status before any clinical consideration
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

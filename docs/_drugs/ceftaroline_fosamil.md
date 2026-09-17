@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ceftaroline Fosamil
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ceftaroline Fosamil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -107,10 +107,10 @@ The TxGNN model assigns a high numerical score (98.20%), but this is almost cert
 - **Clinical context clarification**: The 2 PubMed publications retrieved (PMIDs [27530754](https://pubmed.ncbi.nlm.nih.gov/27530754/) and [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/)) concern *osteoarticular infection* management — not RA or degenerative joint disease — and do not constitute evidence for any of the predicted non-infectious indications in this pack.
 
 > **Research disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

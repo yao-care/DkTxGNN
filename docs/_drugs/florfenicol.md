@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Florfenicol
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Florfenicol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -104,10 +104,10 @@ This candidate scores L5 (model prediction only) with zero supporting clinical t
 - **Retrieve full MOA data from DrugBank:** DrugBank query was recorded as successful but MOA was not populated in the Evidence Pack — this should be retrieved to support any mechanistic analysis.
 - **Regulatory pathway assessment:** A formal assessment of whether Florfenicol could enter human clinical development (e.g., under EMA's repurposing framework) would be required given its veterinary-only history.
 - **No further evidence search is recommended** until the mechanistic hypothesis is strengthened; additional database queries at this stage are unlikely to yield new results.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

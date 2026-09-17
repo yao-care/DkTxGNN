@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Omalizumab
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 321
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -87,7 +87,7 @@ On a purely pathophysiological basis, this mechanism could plausibly extend to a
 
 ## Denmark Market Information
 
-Omalizumab currently has **no marketing authorisations on record** in this evidence pack (`total_licenses: 0`, `market_status: 未上市/Not marketed`), so no authorisation table can be populated. Note this reflects the data captured in this evidence pack — omalizumab (Xolair®) holds a centralised EU/EMA marketing authorisation for asthma, CSU, and chronic rhinosinusitis with nasal polyps in other jurisdictions; this should be independently confirmed against the Danish Medicines Agency (Laegemiddelstyrelsen) product register.
+Omalizumab currently has **no marketing authorisations on record** in this evidence pack (`total_licenses: 0`, `market_status: Not marketed/Not marketed`), so no authorisation table can be populated. Note this reflects the data captured in this evidence pack — omalizumab (Xolair®) holds a centralised EU/EMA marketing authorisation for asthma, CSU, and chronic rhinosinusitis with nasal polyps in other jurisdictions; this should be independently confirmed against the Danish Medicines Agency (Laegemiddelstyrelsen) product register.
 
 ---
 
@@ -111,10 +111,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Obtain dedicated bronchitis-specific (not asthma-labeled) clinical evidence, ideally from a controlled trial in eosinophilic or chronic bronchitis populations.
 - Retrieve the TFDA/Danish SmPC warnings and contraindications (DG001) and a confirmed DrugBank mechanism-of-action record (DG002).
 - Given the same evidence pack contains a materially stronger, directly relevant candidate — "obstructive lung disease" (i.e., severe allergic asthma), which carries L1 evidence (multiple completed Phase 3 RCTs, e.g., NCT00314574, n=850) and a "Proceed with Guardrails" recommendation — that candidate should be evaluated separately as it appears to be the true source of the high-quality trial data currently misattributed to bronchitis.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

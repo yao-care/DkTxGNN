@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cobicistat
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Cobicistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -111,10 +111,10 @@ The highest-ranked TxGNN prediction (Simian Immunodeficiency Virus Infection, 99
 - Review EMA centralised SmPCs (Tybost, Genvoya, Stribild, Rezolsta, Evotaz) to confirm approved human indications and safety profile
 - Reconcile the Lægemiddelstyrelsen data gap: confirm whether EMA-authorised Cobicistat-containing products are actively dispensed in Denmark
 - Consider whether Cobicistat's pharmacokinetic booster role could be leveraged in a repurposing context for non-HIV drugs with narrow therapeutic windows that are CYP3A substrates (e.g., oncology, transplantation) — this mechanistic angle is not reflected in the current top-ranked predictions and warrants a separate targeted query
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

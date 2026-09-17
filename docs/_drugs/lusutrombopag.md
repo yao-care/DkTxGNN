@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lusutrombopag
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lusutrombopag
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Denmark Market Information
 
-Lusutrombopag is not currently marketed in Denmark (0 marketing authorisations on record; market status: "未上市" / not marketed).
+Lusutrombopag is not currently marketed in Denmark (0 marketing authorisations on record; market status: "Not marketed" / not marketed).
 
 ---
 
@@ -99,10 +99,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Clinical/haematology specialist review of the mechanistic mismatch between TPO-RA action and the platelet-functional (not production) disorders predicted here
 - Original approved indication text, to properly frame drug-to-candidate similarity
 - If pursued further, targeted literature/registry search specifically for TPO-RA use in hereditary platelet functional disorders, since standard clinical-trial/PubMed searches returned no hits
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

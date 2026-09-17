@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gabapentin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Gabapentin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -64,7 +64,7 @@ The `predicted_indications` array is empty. A repurposing evaluation requires at
 Both `original_indications` and `original_moa` are absent from this Evidence Pack. The data pipeline flagged MOA as a high-severity gap (DG002) and recommended retrieval from DrugBank — notably, the DrugBank query on 2026-03-26 returned status `success` with 1 result, suggesting the data exists in DrugBank but was not transferred into this Evidence Pack.
 
 **3. Denmark market status appears to be a pipeline error**
-The Evidence Pack reports `market_status: "未上市"` (not marketed) with 0 licences. Gabapentin has been authorised in the EU for many years; a result of zero licences strongly suggests a connection failure to the Lægemiddelstyrelsen or EMA data source rather than a genuine absence of authorisations. This must be verified before any regulatory assessment is made.
+The Evidence Pack reports `market_status: "Not marketed"` (not marketed) with 0 licences. Gabapentin has been authorised in the EU for many years; a result of zero licences strongly suggests a connection failure to the Lægemiddelstyrelsen or EMA data source rather than a genuine absence of authorisations. This must be verified before any regulatory assessment is made.
 
 ---
 
@@ -93,10 +93,10 @@ The Evidence Pack is missing its most essential input — TxGNN predicted indica
 - **Retrieve MOA and original indications from DrugBank** — the 2026-03-26 DrugBank query returned success; the data should be extracted and populated into the Evidence Pack
 - **Verify Denmark regulatory data** — check the Lægemiddelstyrelsen / EMA data connection; the "0 licences" result is inconsistent with known EU regulatory history for this drug
 - **Resolve DG001 (TFDA warnings/contraindications)** — download and parse the applicable SmPC PDF to populate safety fields before any clinical assessment
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

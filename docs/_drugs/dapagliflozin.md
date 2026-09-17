@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dapagliflozin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Dapagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -110,10 +110,10 @@ This Evidence Pack is critically incomplete — the TxGNN model produced no repu
 - **Obtain DrugBank MOA data** for DB06292 to populate the mechanism of action field
 - **Re-run the full Evidence Pack pipeline** (v5 or later) with all data sources confirmed as active inputs, not just `drugbank`
 - Once a valid predicted indication is identified, commission a structured clinical and regulatory feasibility review with Danish hospital pharmacy and endocrinology input
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

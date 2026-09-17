@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brigatinib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Brigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ The TxGNN prediction for gingival fibromatosis represents L5-level evidence only
 - Retrieval of complete Brigatinib MOA data from DrugBank (DB12267) to enable systematic mechanistic analysis
 - Correction of the disease classification mapping error in the TxGNN evidence pipeline to prevent benign/malignant disease category conflation, which obscured genuine L1 ALK+ NSCLC evidence in this run
 - Consultation with Laegemiddelstyrelsen regarding Brigatinib's current regulatory status in Denmark and available access pathways for patients with ALK-positive NSCLC who may benefit from this drug
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

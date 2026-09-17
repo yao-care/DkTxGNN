@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alemtuzumab
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 21
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Alemtuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -152,10 +152,10 @@ Alemtuzumab has a mechanistically sound and clinically documented role as a redu
 - **Monitoring plan**: Post-transplant immune reconstitution monitoring (lymphocyte subsets, donor chimerism) and long-term surveillance for secondary autoimmunity (minimum 48-month follow-up)
 
 > **Note on hepatic infarction (TxGNN rank 1, score 94.44%)**: Although this indication received the numerically highest prediction score, it carries no clinical trial or literature support (Evidence Level L5). The high score likely reflects indirect topological connectivity in the knowledge graph (shared transplant complication nodes) rather than a direct causal pharmacological pathway. There is no known biological bridge between CD52-targeted lymphocyte depletion and vascular occlusive hepatic disease. **Recommendation: Hold** — no further evaluation warranted without new mechanistic evidence.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

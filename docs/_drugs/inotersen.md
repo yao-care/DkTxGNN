@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Inotersen
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 232
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Inotersen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -83,7 +83,7 @@ Currently no related clinical trials registered. (ClinicalTrials.gov and WHO ICT
 
 ## Denmark Market Information
 
-Inotersen currently has **no marketing authorisation on file** for Denmark (`market_status: 未上市` / Not marketed; `total_licenses: 0`). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation records were available in this evidence pack.
+Inotersen currently has **no marketing authorisation on file** for Denmark (`market_status: Not marketed` / Not marketed; `total_licenses: 0`). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation records were available in this evidence pack.
 
 ---
 
@@ -110,10 +110,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Independent expert (hepatology/porphyria specialist) review of whether any indirect TTR–heme pathway interaction could exist, given the current mechanistic assessment argues against it
 - Ongoing monitoring for any future preclinical or clinical evidence specific to Inotersen in porphyria, before reconsidering this candidate
 - Confirmation of Danish/EU regulatory pathway and route-of-administration compatibility should market status change
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

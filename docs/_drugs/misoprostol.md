@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Misoprostol
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 296
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -118,10 +118,10 @@ Despite a high TxGNN prediction score (99.64%), the evidence base reveals a fund
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All website pages and reports must include YMYL disclaimer: results are for research reference only and do not constitute medical advice.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

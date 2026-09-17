@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clonazepam
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 117
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Clonazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -126,10 +126,10 @@ Multiple convergent sources — including a 2017 Cochrane systematic review, the
 - Establish a structured monitoring plan covering: dependence assessment, daytime sedation, cognitive function (executive function impairment is documented in chronic insomnia patients on clonazepam), and fall risk — especially in elderly patients
 - Define the clinical positioning of clonazepam relative to first-line RLS treatments registered in Denmark (dopamine agonists: pramipexole, ropinirole; alpha-2-delta ligands: pregabalin, gabapentin), to reserve clonazepam for adjunct or second-line use
 - Plan for restricted treatment duration with scheduled re-evaluation to minimise chronic dependence risk in this long-term condition
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

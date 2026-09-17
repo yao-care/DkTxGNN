@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tepoxalin
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 426
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tepoxalin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -96,10 +96,10 @@ Evidence is limited to preclinical/veterinary pharmacology (L4) with no human cl
 - TFDA/DKMA-equivalent label warnings and contraindications (DG001)
 - Clarification of why the veterinary product (Zubrin) was withdrawn from commercial availability
 - At minimum, translational/human in vitro or early-phase clinical data specific to osteoarthritis before advancing beyond S1
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

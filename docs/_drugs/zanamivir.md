@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zanamivir
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Zanamivir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -107,10 +107,10 @@ All predicted indications for Zanamivir in this evidence pack are supported only
 - SmPC/product label warnings and contraindications (Danish Medicines Agency source — currently a blocking data gap for safety screening)
 - Independent (non-TxGNN-triggered) hypothesis generation or targeted literature/trial search specific to Pyelonephritis before any further evaluation
 - Reassessment of whether these candidates should remain in the active pipeline, given the absence of a plausible mechanistic basis
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

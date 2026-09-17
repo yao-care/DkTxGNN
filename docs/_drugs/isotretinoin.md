@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Isotretinoin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Isotretinoin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ There is no clinical, literature, or mechanistic evidence connecting isotretinoi
 - SmPC warnings, contraindications, and drug interaction data (Laegemiddelstyrelsen / TFDA) — currently Blocking
 - Preclinical or mechanistic rationale linking retinoid pathways to renal-vascular hypertension
 - Confirmation of whether the duplicate-scored candidates (malignant renovascular hypertension vs. malignant hypertensive renal disease) represent distinct or overlapping signals before further evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

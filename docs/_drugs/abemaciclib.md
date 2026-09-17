@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Abemaciclib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 12
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Abemaciclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -78,7 +78,7 @@ Abemaciclib is approved as a selective inhibitor of cyclin-dependent kinases 4 a
 
 Abemaciclib (Verzenio) received **EMA marketing authorisation** and is available in Denmark for the approved breast cancer indications. It is listed in the Danish national formulary under oncology therapeutics. The Medicinrådet (Danish Medicines Council) has issued recommendations regarding its use in specific breast cancer subpopulations.
 
-> **Note**: The evidence pack originates from a Taiwanese (TFDA) regulatory context where abemaciclib is recorded as "未上市" (not marketed). In Denmark, the drug **is** available through EMA centralised authorisation.
+> **Note**: The evidence pack originates from a Taiwanese (TFDA) regulatory context where abemaciclib is recorded as "Not marketed" (not marketed). In Denmark, the drug **is** available through EMA centralised authorisation.
 
 ### 2.2 Mechanism of Action
 
@@ -305,7 +305,7 @@ For the proposed non-oncology indications, the following safety concerns are par
 
 | Parameter | Status |
 |-----------|--------|
-| **Market Status** | Not marketed (未上市) |
+| **Market Status** | Not marketed (Not marketed) |
 | **Total Licences** | 0 |
 
 ---
@@ -375,10 +375,10 @@ The TxGNN knowledge graph prediction model generated high confidence scores (0.9
 > **Disclaimer**: This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require rigorous clinical validation before any therapeutic application. This analysis has not been reviewed or endorsed by the Lægemiddelstyrelsen, EMA, or any regulatory authority. Healthcare professionals should be consulted before making any treatment decisions.
 >
 > *Report generated: 2026-04-03 | Evidence pack version: v4 | Candidate ID: TW-DB12001-multi*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

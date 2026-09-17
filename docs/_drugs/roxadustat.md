@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Roxadustat
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 388
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Roxadustat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ The dry eye syndrome prediction rests on a high TxGNN score but is backed only b
 - SmPC-derived warnings and contraindications (currently a blocking data gap for safety pre-screening)
 - Interventional (not merely observational) clinical evidence specifically testing Roxadustat in dry eye syndrome
 - Confirmation of Danish/EU regulatory status and any HIF-PHI class-specific malignancy monitoring requirements before safety evaluation can proceed
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

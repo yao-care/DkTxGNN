@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bromazepam
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Bromazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ The TxGNN model assigns a high prediction score (99.06%), but the available evid
 - **Regulatory pathway assessment**: Given that bromazepam is not marketed in Denmark and carries Schedule IV-equivalent scheduling concerns, a regulatory feasibility review would be required before any clinical investigation
 
 > *This report is intended for research purposes only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical application. All content should be reviewed in conjunction with the full approved SmPC.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

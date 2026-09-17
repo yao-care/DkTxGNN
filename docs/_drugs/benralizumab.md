@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Benralizumab
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 60
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Benralizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -128,10 +128,10 @@ The pivotal Phase 2 HILLIER randomised controlled trial (NCT04605094, n=194) was
 - A formally designed biomarker-enriched Phase 2 proof-of-concept study in this subgroup before further investment
 - Resolution of the formal MOA data gap (DG002) via DrugBank API and review of the full prescribing information (SmPC) to address the safety data gap (DG001) before any clinical programme proceeds
 - Regulatory pathway scoping with Laegemiddelstyrelsen, given that the product is not currently marketed in Denmark
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

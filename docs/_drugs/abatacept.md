@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Abatacept
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 11
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Abatacept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -78,7 +78,7 @@ Abatacept (Orencia) holds a centralised EMA marketing authorisation valid in Den
 | Polyarticular juvenile idiopathic arthritis (pJIA) | Paediatric patients ≥2 years | IV / SC |
 | Psoriatic arthritis (PsA) | Adults with active PsA with inadequate response to DMARDs | SC injection |
 
-> **Note**: The evidence pack indicates Taiwan regulatory status as "未上市" (not marketed). In contrast, abatacept **is authorised and marketed in Denmark** under the EMA centralised procedure.
+> **Note**: The evidence pack indicates Taiwan regulatory status as "Not marketed" (not marketed). In contrast, abatacept **is authorised and marketed in Denmark** under the EMA centralised procedure.
 
 #### FDA (United States)
 
@@ -437,10 +437,10 @@ The evidence pack contained **duplicate entries** (ranks 1/2, 3/4, 5/6, 7/8, 9/1
 > **Disclaimer**: This report is generated for **research purposes only** and does not constitute medical advice. All drug repurposing candidates require **clinical validation** before therapeutic application. Drug repurposing predictions are based on computational models (TxGNN knowledge graph) and require independent verification. Always consult healthcare professionals and the current Lægemiddelstyrelsen-approved produktresumé before making treatment decisions.
 >
 > *Report generated: 2026-04-03 | Data cutoff: 2026-04-03 | Pipeline version: v4*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

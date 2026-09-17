@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Desogestrel
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 138
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Desogestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -112,10 +112,10 @@ The TxGNN prediction for Desogestrel in amenorrhea carries a fundamental pharmac
 - Mechanism of action data from DrugBank to formally confirm the HPO axis modulation pathway
 - Clarification of whether any existing combined OC formulations containing desogestrel already hold a marketing authorisation in Denmark (e.g., via EMA centralised procedure), which would substantially alter the regulatory pathway for this repurposing
 - A dedicated prospective proof-of-concept study testing a combined OC formulation of desogestrel — not the progestogen-only pill — in a clearly defined amenorrhea population, with cycle restoration as the primary endpoint
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

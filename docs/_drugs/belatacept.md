@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Belatacept
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Belatacept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ No TxGNN repurposing predictions were generated for Belatacept in this run, and 
 - **Re-run TxGNN prediction**: After data gap remediation, re-run with standard threshold; consider a sensitivity run at a relaxed threshold to assess whether any borderline candidates exist
 - **Confirm Danish market status**: Contact Laegemiddelstyrelsen or check the EMA product page to confirm whether Nulojix is available via any access programme in Denmark
 - **Assess biologic-specific KG coverage**: If re-run still yields no predictions, escalate to the TxGNN modelling team to review graph edge density for biologics
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

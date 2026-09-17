@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bortezomib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Bortezomib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -109,10 +109,10 @@ The Evidence Pack contains no TxGNN-predicted new indications, which is the prim
 3. **Resolve DG002 (High):** Query DrugBank API for full MOA, pharmacodynamics, and drug categories for DB00188.
 4. **Verify Danish market status:** Cross-check the EMA centralised authorisation database for Velcade to confirm EMA-authorised availability in Denmark and retrieve the correct Marketing Authorisation numbers for the Denmark Market Information table.
 5. **Re-run DDI query:** The DDI query returned `not_found`; retry with alternative spellings or DrugBank ID to confirm whether there are genuine absence of interactions or a query failure.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

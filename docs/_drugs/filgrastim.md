@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Filgrastim
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 190
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Filgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -126,10 +126,10 @@ All 14 retrieved clinical trials are Grade C (none directly relevant to primary 
 ---
 
 > **Note on additional TxGNN predictions**: Four further unique indications were predicted with high scores — pseudo-von Willebrand disease (99.997%, L5), Glanzmann thrombasthenia (99.996%, L5), Scott syndrome (99.956%, L5), and hemorrhagic disorder due to constitutional thrombocytopenia (99.911%, L5). All four are currently assessed as **Hold** due to absence of any direct clinical trial or literature evidence, and mechanistic plausibility is weak or absent for each. These predictions are likely artefacts of shared haematology/platelet nodes in the TxGNN knowledge graph.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

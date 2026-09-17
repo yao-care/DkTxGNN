@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Isoniazid
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 246
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Isoniazid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -112,10 +112,10 @@ Evidence level is L4 — the only clinical trial is indirectly relevant (a TB-re
 - Confirmed mechanism of action documentation (currently a **high-severity** gap affecting mechanistic-relevance analysis)
 - A study or trial specifically designed to test isoniazid's effect on non-tuberculous conjunctivitis, to resolve the directional ambiguity in current evidence
 - Clarification of whether the TxGNN association reflects a therapeutic signal or an adverse-effect signal
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

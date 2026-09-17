@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sacituzumab Govitecan
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Sacituzumab govitecan is a Trop-2-targeted antibody-drug conjugate (ADC) used in
 | Predicted New Indication | Drug-Induced Osteoporosis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 (model prediction only — no clinical trials or literature found) |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Hold |
 
@@ -109,10 +109,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Confirmed original indication and mechanism-of-action data (data gap DG002)
 - Independent mechanistic or preclinical evidence connecting Trop-2/SN-38 activity to bone metabolism before further evaluation is warranted
 - Re-screening of clinical trial and literature databases as new evidence emerges
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

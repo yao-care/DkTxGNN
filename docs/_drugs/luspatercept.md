@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Luspatercept
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Luspatercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -98,10 +98,10 @@ The top-ranked prediction (Monosomy X) has no supporting clinical trials or lite
 - A completed mechanistic rationale for the Monosomy X prediction specifically (currently marked pending)
 - Any emerging clinical trial or literature evidence for this drug-disease pairing
 - Given that related predictions in this batch (hepatic infarction, VOD, peliosis hepatis, combined immunodeficiency) were already assessed as mechanistically implausible, a dedicated plausibility review of the Monosomy X prediction before further investment
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

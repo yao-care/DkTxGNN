@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imiquimod
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 228
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -108,10 +108,10 @@ Evidence level L2 is supported by one completed Phase 2 RCT in high-grade CIN an
 - Confirmation of route/formulation compatibility for non-cutaneous pre-malignant sites (cervix, vulva, anus) versus imiquimod's existing topical skin formulation
 - A larger, adequately powered controlled trial in CIN, given that the only dedicated Phase 3 RCT (NCT02329171) was terminated early due to enrollment failure (n=9)
 - A Danish marketing authorisation pathway assessment, since imiquimod currently holds no registration in Denmark
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

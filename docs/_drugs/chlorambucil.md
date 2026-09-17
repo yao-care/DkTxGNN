@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chlorambucil
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Chlorambucil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -146,10 +146,10 @@ The top predicted indication — CLL/SLL with mutated IgHV — represents a mole
 - Conduct a targeted literature review of landmark CLL trials (RESONATE-2, CLL8, CLL10, COMPLEMENT-1) with IgHV mutation-stratified subgroup analyses to assess whether mutated IGHV patients derive quantifiably superior benefit from chlorambucil
 - Define the specific clinical niche (e.g., elderly patients with comorbidities unsuitable for intensive regimens) in which chlorambucil in the mutated IGHV subgroup would add value over current standard-of-care options
 - If proceeding to primary pulmonary lymphoma (rank 7), formalise evidence level for the existing case series and evaluate whether an investigator-initiated study is warranted given the absence of any registered trials
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gemtuzumab Ozogamicin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Gemtuzumab Ozogamicin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -102,10 +102,10 @@ Two data gaps — one classified as Blocking (DG001: regulatory label) and one a
 - **[DG002 — High]** Query the DrugBank API (DB00056) to populate the mechanism of action field — specifically the antibody target and the cytotoxic payload linkage.
 - **Re-run prediction pipeline** after both fields are populated, and generate a new Evidence Pack version.
 - **Confirm market status** by cross-checking Laegemiddelstyrelsen and the EMA EPAR database for any active or historical centralised marketing authorisations covering Denmark.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Venetoclax
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Venetoclax
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ Venetoclax is an orally administered BCL-2 inhibitor with internationally establ
 | Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (IGHV-mutated CLL/SLL) |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L5 (model prediction only — no clinical trials or literature directly linked to this ranked entry) |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Hold |
 
@@ -95,10 +95,10 @@ Venetoclax is not marketed in Denmark (zero authorisations on file), a Blocking-
 - Confirm original approved indications and mechanism of action via DrugBank/EMA to close the MOA data gap
 - Run a targeted evidence search specific to the IGHV-mutated CLL/SLL molecular subgroup, since current searches returned zero trials/literature for this exact ranked entry
 - Consider evaluating the more evidence-rich related entries in this candidate bundle (venetoclax in Hodgkin's/non-Hodgkin's lymphoma combination regimens, myeloid leukemia, and CML blast phase), which show substantially stronger trial and literature support
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

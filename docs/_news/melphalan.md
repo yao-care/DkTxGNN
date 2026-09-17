@@ -1,41 +1,41 @@
 ---
 layout: default
-title: "Melphalan 相關新聞"
-parent: 健康新聞
+title: "Nyheder om Melphalan"
+parent: Sundhedsnyheder
 nav_exclude: true
-description: "Melphalan 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Sundhedsnyheder om Melphalan. Oprindelig indikation: . 0 forudsagte indikationer."
 permalink: /news/melphalan/
 ---
 
-# Melphalan 相關新聞
+# Nyheder om Melphalan
 
-[← 返回新聞總覽]({{ '/news/' | relative_url }})
+[← Tilbage til nyhedsoversigten]({{ '/news/' | relative_url }})
 
 ---
 
-<p class="key-answer" data-question="Melphalan 有什麼相關新聞？">
-<strong>Melphalan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<p class="key-answer" data-question="Hvilke nyheder er der om Melphalan?">
+<strong>Melphalan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
-本頁整合 Melphalan 的 AI 預測適應症與最新健康新聞，橘色標示的適應症表示近期有相關新聞報導。
+Denne side kombinerer de AI-forudsagte indikationer for Melphalan med de seneste sundhedsnyheder. Indikationer markeret med orange har været omtalt i nyhederne for nylig.
 </div>
 
 <div class="drug-info-card">
-<strong>藥物資訊</strong>
+<strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>證據等級</strong>：L5</li>
+<li><strong>Evidensniveau</strong>: L5</li>
 </ul>
-<p><a href="{{ '/drugs/melphalan/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/melphalan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
-## 相關新聞（0 則）
+## Relaterede nyheder (0)
 
-*目前沒有相關新聞報導。當有新聞提到此藥物時，系統會自動收集並顯示在這裡。*
+*Der er endnu ingen relaterede nyheder. Når en nyhed nævner dette lægemiddel, bliver den automatisk indsamlet og vist her.*
 
 
 <div class="disclaimer">
-<strong>免責聲明</strong>：本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
+<strong>Ansvarsfraskrivelse</strong>: Nyhederne på denne side indsamles automatisk og er kun til forskningsbrug; de udgør ikke medicinsk rådgivning.
 </div>
 
 <style>

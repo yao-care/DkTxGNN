@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Triazolam
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 452
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Triazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -93,10 +93,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Confirmation of triazolam's formally documented original indication and MOA (currently data gaps in this pack)
 - TFDA/SmPC warnings and contraindications (blocking data gap, DG001)
 - Clarification of whether this candidate represents a genuinely new indication versus a restatement of the drug's known use, before further clinical evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

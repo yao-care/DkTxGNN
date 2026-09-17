@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Afatinib
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 17
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Afatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -143,10 +143,10 @@ Afatinib has strong mechanistic alignment with HER2-positive breast carcinoma as
 - **LUX-Breast 1 subgroup analysis**: Review published subgroup data to identify responder characteristics and inform patient selection criteria for any investigator-initiated study
 - **Cardiac monitoring plan**: Establish a structured LVEF monitoring protocol, particularly if afatinib is to be used in combination with trastuzumab or other cardiotoxic agents
 - **Regulatory classification review**: Determine whether a repurposing application to the EMA or a Danish regulatory notification is required given the existing NSCLC authorisation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acalabrutinib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Acalabrutinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -84,7 +84,7 @@ Acalabrutinib (Calquence®) holds a centralised EMA marketing authorisation (EU/
 | **Chronic lymphocytic leukaemia (CLL)** | Phase 3 RCTs (ELEVATE-TN, ASCEND) | Monotherapy or combination; treatment-naïve or relapsed/refractory |
 | **Mantle cell lymphoma (MCL)** | Phase 2 pivotal (ACE-LY-004) | Monotherapy; ≥1 prior therapy |
 
-**Note:** The evidence pack indicates "未上市" (not marketed) in Taiwan, but acalabrutinib IS authorised and available in Denmark via the EMA centralised procedure and is listed in Medicinpriser.dk.
+**Note:** The evidence pack indicates "Not marketed" (not marketed) in Taiwan, but acalabrutinib IS authorised and available in Denmark via the EMA centralised procedure and is listed in Medicinpriser.dk.
 
 ### 2.2 Mechanism of Action
 
@@ -425,10 +425,10 @@ Strong mechanistic rationale supported by class-effect regulatory approval (ibru
 > **Disclaimer:** This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. This report was prepared in the context of the Danish Medicines Agency (Lægemiddelstyrelsen) regulatory framework. Clinicians should consult the current EMA-approved Summary of Product Characteristics (SmPC) and Medicinrådet guidelines before making prescribing decisions.
 >
 > **YMYL Notice:** The content herein pertains to pharmaceutical and oncological research. Treatment decisions must be made by qualified healthcare professionals in consultation with patients.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

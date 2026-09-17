@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Selamectin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Selamectin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - TFDA/EMA/SmPC-level warnings and contraindications before any S1 safety screening can begin
 
 **Data quality note:** Among the other TxGNN candidates in this pack, the "heart disease" prediction (rank 9–10, L4) is supported only by veterinary literature on *heartworm disease* (Dirofilaria immitis infection) — an apparent keyword-matching artifact ("heartworm disease" → "heart disease"), not evidence of activity against human cardiac disease. This should not be read as supporting evidence for a cardiovascular indication.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

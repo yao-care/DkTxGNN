@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Icatibant
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 220
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Icatibant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ Icatibant (DrugBank DB06196) is a synthetic bradykinin B2-receptor antagonist wh
 | Predicted New Indication | C1 Inhibitor Deficiency (Hereditary Angioedema) |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L1 |
-| Denmark Market Status | Not marketed (未上市) |
+| Denmark Market Status | Not marketed (Not marketed) |
 | Number of Marketing Authorisations | 0 |
 | Recommended Decision | Hold |
 
@@ -105,7 +105,7 @@ The practical implication is that this is likely not a "new" repurposing opportu
 
 ## Denmark Market Information
 
-No marketing authorisation records are currently available for Icatibant in this evidence pack — market status is recorded as **"未上市" (Not marketed)** with **0** total licenses. This is notable given that Icatibant (Firazyr®) holds an EMA centralised marketing authorisation and is used across much of the EU for HAE; this discrepancy should be verified against the Danish Medicines Agency (Lægemiddelstyrelsen) register directly, as it may reflect a data collection gap rather than true unavailability.
+No marketing authorisation records are currently available for Icatibant in this evidence pack — market status is recorded as **"Not marketed" (Not marketed)** with **0** total licenses. This is notable given that Icatibant (Firazyr®) holds an EMA centralised marketing authorisation and is used across much of the EU for HAE; this discrepancy should be verified against the Danish Medicines Agency (Lægemiddelstyrelsen) register directly, as it may reflect a data collection gap rather than true unavailability.
 
 ---
 
@@ -130,10 +130,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Clarification of whether this evaluation is intended to assess a genuinely *new* indication or to support market entry/registration in Denmark for Icatibant's already-established indication — since the "predicted" indication and the drug's real-world primary use appear to be the same condition.
 
 *Note: TxGNN also flagged four other candidate indications for Icatibant (serpinopathy with toxic serpin polymerization, pseudo-von Willebrand disease, primary platelet release disorder, immune-mediated necrotizing myopathy), each rated L5/Hold with no supporting trials or literature and only speculative mechanistic rationale. These are not considered actionable at this time.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

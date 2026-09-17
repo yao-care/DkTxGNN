@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Zolmitriptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -111,10 +111,10 @@ This is a safety-driven Hold, not merely an evidence-insufficiency Hold. There a
 - Neurology/headache-specialist review specifically addressing vasoconstrictive risk in posterior-circulation migraine subtypes before any further development
 - Any subtype-specific case series, registry data, or controlled studies in migraine with brainstem aura (currently absent)
 - Confirmation of registration/market status in Denmark should a regulatory pathway ever be considered
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

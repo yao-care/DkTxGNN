@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Gemfibrozil
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 207
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -126,10 +126,10 @@ Evidence for Gemfibrozil in RA is confined to animal models and fibrate class-ef
 | Brachydactyly-syndactyly syndrome | 99.77% | L5 | **Hold** | Model prediction only; no mechanistic or clinical basis |
 
 > **Clinical prioritisation note:** Of the five predicted indications, **hypoalphalipoproteinemia** (low HDL-cholesterol) has the most robust clinical evidence and the closest mechanistic alignment with Gemfibrozil's known PPARα-mediated upregulation of ApoA-I/ApoA-II and HDL-raising effect. If a repurposing or expanded-use case is to be pursued, this indication represents the lowest-risk, highest-evidence entry point. The **HIV-associated dyslipidaemia** indication also has an RCT-level evidence base (PMID 12409741) but requires a thorough DDI safety assessment before any recommendation can be issued.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

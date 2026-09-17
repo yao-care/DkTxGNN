@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levetiracetam
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 262
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -102,7 +102,7 @@ None of the top publications are specific to "visual epilepsy"; the closest dire
 
 ## Denmark Market Information
 
-Levetiracetam currently has **no registered marketing authorisation** in this evidence pack (`market_status: 未上市 / Not Marketed`, `total_licenses: 0`). This appears inconsistent with levetiracetam's well-established international marketing status (e.g., as Keppra®), so this record should be verified directly against the Laegemiddelstyrelsen (Danish Medicines Agency) product register before relying on it.
+Levetiracetam currently has **no registered marketing authorisation** in this evidence pack (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). This appears inconsistent with levetiracetam's well-established international marketing status (e.g., as Keppra®), so this record should be verified directly against the Laegemiddelstyrelsen (Danish Medicines Agency) product register before relying on it.
 
 ---
 
@@ -124,10 +124,10 @@ A Blocking data gap exists — no TFDA/SmPC-equivalent warnings or contraindicat
 - Structured DrugBank MOA confirmation (DG002) — current MOA description is derived from literature abstracts, not a structured source
 - Verification of Denmark market/licensing status against the Laegemiddelstyrelsen registry (data pack shows 0 licenses, which is unexpected for a long-established antiepileptic)
 - Trial/literature evidence specifically targeting visual epilepsy or photosensitive reflex epilepsy, rather than epilepsy/seizures generally
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

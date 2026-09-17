@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pembrolizumab
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pembrolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -105,10 +105,10 @@ The top-ranked prediction (Gingival Fibromatosis) has no supporting clinical tri
 - Verified mechanism of action data for Pembrolizumab (DG002)
 - Any mechanistic or preclinical evidence specifically linking PD-1 blockade to gingival fibromatosis pathology (none currently identified)
 - Note: a lower-ranked candidate in this same evidence pack, **Lung Hilum Carcinoma** (score 99.35%, Evidence Level L4, recommendation "Research Question"), shows substantially higher biological plausibility given Pembrolizumab's known NSCLC-related mechanism. Its current literature support is limited to two case reports describing adverse events (not efficacy) in other cancer types. It is worth confirming whether this reflects a genuine unstudied indication or a data-capture gap relative to Pembrolizumab's existing large-scale Phase 3 NSCLC evidence, before treating it as a novel repurposing signal.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Irbesartan
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Irbesartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -97,10 +97,10 @@ Despite a high TxGNN prediction score, there is no clinical trial or literature 
 - Confirmed detailed mechanism-of-action data from DrugBank (High-priority data gap)
 - Disease-specific clinical evidence for ARB use in malignant hypertension / hypertensive renal crisis (e.g., as maintenance therapy following acute control)
 - Renal artery imaging/status considerations if the renovascular hypertension indication is pursued, given the known risk of ARB-induced renal function decline in that population
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

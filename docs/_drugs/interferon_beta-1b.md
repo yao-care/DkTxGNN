@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Interferon Beta-1B
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 239
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -90,10 +90,10 @@ The Hairy Cell Leukemia prediction is supported only by L3-level evidence — sm
 - Danish/EU regulatory pathway assessment, since the product currently holds no marketing authorisation in Denmark
 
 **Note:** This evidence pack also contains other TxGNN-predicted indications for Interferon beta-1b with substantially stronger evidence — notably CNS autoimmune/demyelinating disease indications (ranks 3–8), which are supported by dozens of completed trials including multiple completed Phase 3 RCTs and extensive systematic-review literature. These directions likely warrant a separate, dedicated evaluation given their materially higher evidence maturity.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

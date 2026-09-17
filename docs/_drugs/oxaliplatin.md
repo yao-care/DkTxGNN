@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Oxaliplatin
-parent: 僅模型預測 (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 323
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -131,10 +131,10 @@ Please refer to the approved Summary of Product Characteristics (SmPC) for safet
 - Confirmed mechanism of action data (DG002, High priority)
 - A defined regulatory pathway for Denmark market access, given the current "not marketed" status
 - Resolution of disease-mapping ambiguity for lower-ranked candidates (e.g., "malignant visceral pleura tumor," "female breast carcinoma") where trial/literature relevance appears weak relative to the TxGNN score
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

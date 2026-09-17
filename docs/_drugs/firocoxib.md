@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firocoxib
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Firocoxib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ Firocoxib is a veterinary-only compound with no Danish marketing authorisation, 
 - **Human safety data**: Conduct a systematic literature review for any human pharmacokinetic, toxicology, or off-label use reports
 - **Regulatory landscape review**: Check EMA, FDA, and PMDA databases for any pending or historical human-use applications
 - **Indication hypothesis generation**: If a human disease target is proposed, perform manual literature mining (PubMed, ICTRP) to assess whether a repurposing rationale can be constructed independent of TxGNN output
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

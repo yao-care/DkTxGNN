@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alprostadil
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 29
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -125,10 +125,10 @@ The mechanistic basis for using Alprostadil (PGE1) in ductus-dependent aortic ma
 - **DrugBank MOA verification**: Complete the DrugBank API query to obtain formal mechanism of action documentation (DG002) to support mechanistic dossier compilation
 - **NICU administration protocol**: Develop a neonatal intensive care unit protocol covering IV dosing regimens, apnoea monitoring, haemodynamic parameters, and escalation criteria
 - **Paediatric cardiology MDT review**: Engage a multidisciplinary team including paediatric cardiology, neonatology, and clinical pharmacy to validate the clinical indication scope and patient selection criteria prior to any compassionate use application
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

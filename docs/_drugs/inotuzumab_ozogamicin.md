@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inotuzumab Ozogamicin
-parent: 僅模型預測 (L5)
+parent: Kun modelforudsigelse (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Inotuzumab Ozogamicin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -112,10 +112,10 @@ Although the TxGNN score is high, the evidence pack's own mechanistic review ass
 - An independent, biologically grounded rationale linking CD22-ADC pharmacology to bone metabolism — or formal exclusion of this candidate if none can be established
 - Preclinical or real-world data on bone mineral density effects, if this indication is still to be pursued
 - A broader specificity review of this drug's full TxGNN prediction set, given that other top-ranked candidates (breast carcinoma subtypes) show the same absence of target-expression rationale and, in one case, contaminated literature matches
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 

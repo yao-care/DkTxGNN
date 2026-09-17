@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Efavirenz
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 155
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Indholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaceutens vurderingsrapport
 
 </div>
 
@@ -121,10 +121,10 @@ The top TxGNN-predicted indication — simian immunodeficiency virus infection �
 ---
 
 > **Disclaimer**: This report is intended for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All clinical decisions must comply with applicable Danish and EU regulatory requirements.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
+Klinisk validering er påkrævet før enhver klinisk anvendelse.
 
 ---
 
