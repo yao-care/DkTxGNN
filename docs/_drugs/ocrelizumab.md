@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ocrelizumab: From Multiple Sclerosis to HER2 Positive Breast Carcinoma
+# Ocrelizumab: Fra multipel sklerose til HER2-positiv brystkræft
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-> Ocrelizumab is an anti-CD20 monoclonal antibody whose established use is B-lymphocyte depletion in multiple sclerosis.
-> The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**,
-> but currently **0 clinical trials** and **0 publications** support this specific prediction, and the model's own rationale flags the score as likely a knowledge-graph embedding artefact rather than a genuine mechanistic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (per mechanistic rationale in the evidence pack; no formal Danish licence text is available — see Denmark Market Information) |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Ocrelizumab er et anti-CD20 monoklonalt antistof, hvis etablerede anvendelse er B-lymphocyt-depletion ved multipel sklerose.
+> TxGNN-modellen forudsiger, at det kan være effektivt for **HER2-positiv brystkræft**,
+> men i øjeblikket **0 kliniske forsøg** og **0 publikationer** understøtter denne specifikke forudsigelse, og modellens eget rationale markerer scoren som sandsynligvis et vidensgrafs-indlejringsartefakt snarere end et ægte mekanistisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in the current evidence pack (flagged as a High-severity data gap). Based on the repurposing rationale generated alongside the prediction, Ocrelizumab is an anti-CD20 monoclonal antibody that depletes B lymphocytes and is established for multiple sclerosis.
-
-The evidence pack's own mechanistic assessment is explicitly skeptical of this prediction: it states that CD20/B-cell depletion has no known intersection with the HER2/ERBB2 signalling pathway that drives HER2-positive breast carcinoma, and no mechanistic literature links B-cell depletion to direct suppression of HER2-driven tumours. The assessment concludes that the high TxGNN score more likely reflects knowledge-graph embedding similarity than a real biological mechanism.
-
-This concern is reinforced by the pattern across all five unique predicted diseases in this candidate set (HER2-positive breast carcinoma, normal breast-like subtype, PR-positive breast cancer, luminal A/B breast tumour, PR-negative breast cancer): none has a plausible mechanistic link to CD20/B-cell depletion, and the one indication that did return literature hits (luminal A/B, 19 PubMed records) was found on review to consist entirely of off-topic papers (B-cell biology, hepatitis B vaccines, HLA-B serology) — apparent false positives from a keyword "B" match rather than substantive evidence. Given this, the mechanistic case for repurposing Ocrelizumab toward any of these breast cancer subtypes is currently unsupported.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Multipel sklerose (jf. mekanistisk begrundelse i evidenspakken; ingen formel dansk licenstekst er tilgængelig — se Danmarks markedsoplysninger) |
+| Forudsagt ny indikation | HER2-positiv brystkræft |
+| TxGNN Forudsigelsesscore | 99.89% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i den aktuelle evidenspaké (markeret som et alvorligt datahul). Baseret på den repurposing-begrundelse, der blev genereret sammen med forudsigelsen, er Ocrelizumab et anti-CD20 monoklonalt antistof, der udtømmer B-lymfocytter, og det er etableret til multipel sklerose.
 
----
+Evidenspakkens egen mekanistiske vurdering er eksplicit skeptisk over for denne forudsigelse: den anfører, at CD20/B-celle-udtømning ikke har nogen kendt skæring med HER2/ERBB2-signalvej, der driver HER2-positiv brystkræft, og ingen mekanistisk litteratur forbinder B-celle-udtømning til direkte undertrykkelse af HER2-drevne tumorer. Vurderingen konkluderer, at den høje TxGNN-score mere sandsynligt afspejler vidensgrafs-indlejringslighed end en virkelig biologisk mekanisme.
 
-## Denmark Market Information
-
-No marketing authorisation is currently registered for Ocrelizumab in Denmark (0 licences on file in this evidence pack).
+Denne bekymring forstærkes af mønsteret blandt alle fem unikke forudsagte sygdomme i dette kandidatsæt (HER2-positiv brystkræft, normalt brystkræftlignende subtype, PR-positiv brystkræft, luminal A/B brysttumor, PR-negativ brystkræft): ingen har en plausibel mekanistisk forbindelse til CD20/B-celle-udtømning, og den ene indikation, der returnerede litteraturhits (luminal A/B, 19 PubMed-indslag), viste sig ved gennemgang at bestå udelukkende af papirer uden for emnet (B-celle-biologi, hepatitis B-vacciner, HLA-B-serologi) — tilsyneladende falske positiver fra et nøglematch på "B" snarere end væsentligt bevis. I betragtning af dette er den mekanistiske sag for omformål Ocrelizumab mod nogen af disse brystkræftsubtyper i øjeblikket ikke understøttet.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig
 
-**Rationale:**
-The predicted indication has a very high TxGNN score but zero supporting clinical trials or literature, and the evidence pack's own mechanistic analysis concludes the score likely reflects an embedding artefact rather than true biological plausibility — the same pattern holds across all candidate breast cancer subtypes in this set, including one indication where the retrieved literature turned out to be an unrelated keyword-matching artefact.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Ocrelizumab (currently a data gap)
-- Danish/EU SmPC warnings, contraindications, and drug interaction data (currently a blocking data gap)
-- Independent preclinical or mechanistic evidence connecting CD20/B-cell depletion to HER2-driven tumour biology before further evaluation is warranted
-- Re-query of literature and trial databases using disambiguated search terms to rule out further keyword-matching noise in this candidate set
+## Danmarks markedsoplysninger
+
+Ingen markedsføringstilladelse er i øjeblikket registreret for Ocrelizumab i Danmark (0 licenser på fil i denne evidenspaké).
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Den forudsagte indikation har en meget høj TxGNN-score, men nul understøttende kliniske forsøg eller litteratur, og evidenspakkens egen mekanistiske analyse konkluderer, at scoren sandsynligvis afspejler et indlejringsartefakt snarere end sand biologisk plausibilitet — samme mønster gælder for alle kandidat-brystkræftsubtyper i dette sæt, herunder én indikation, hvor den hentede litteratur viste sig at være et ikke-relateret nøglematch-artefakt.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme (MOA) data for Ocrelizumab (i øjeblikket et datahul)
+- Danmarks/EU produktresumé advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket et blokerende datahul)
+- Uafhængig præklinisk eller mekanistisk bevis, der forbinder CD20/B-celle-udtømning til HER2-dreven tumorbiologi, før yderligere evaluering er berettiget
+- Gentagne søgninger i litteratur- og forsøgsdatabaser ved hjælp af præciserede søgetermer for at udelukke yderligere nøglematch-støj i dette kandidatsæt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

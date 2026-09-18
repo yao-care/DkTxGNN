@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selamectin: From Veterinary Antiparasitic Use to Candidiasis
+# Selamectin: Fra veterinær antiparasitisk brug til Candidiasis
 
-## One-Sentence Summary
+## Sammenfattelse på en sætning
 
-Selamectin is an avermectin-class macrocyclic lactone approved exclusively as a veterinary antiparasitic (fleas, mites, heartworm prevention in dogs and cats) — it has no approved human indication and no marketing authorisation in Denmark. The TxGNN model predicts potential efficacy for **Candidiasis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and is based purely on knowledge-graph topology rather than any known antifungal mechanism.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not established for human use — approved only as a veterinary antiparasitic (ecto-/endoparasite control in companion animals); no human indication data available |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 98.43% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Selamectin er en avermectin-klasse macrocyclisk lacton godkendt udelukkende som et veterinært antiparasiticum (lopper, mider, hjertemark-forebyggelse hos hunde og katte) — det har ingen godkendt humant indicæ og ingen markedsføringstilladelse i Danmark. TxGNN-modellen forudsiger potentiel effektivitet for **Candidiasis**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og er baseret udelukkende på knowledge-graph topologi snarere end nogen kendt antifungal mekanisme.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not available (MOA marked as a data gap). Based on the information that is available, Selamectin is an avermectin-class macrocyclic lactone whose known pharmacology activates invertebrate glutamate-gated chloride channels — a mechanism specific to arthropod and nematode nervous systems. It has no documented antifungal activity pathway.
-
-There is no established mechanistic or clinical relationship between Selamectin's approved veterinary antiparasitic use and human candidiasis (a fungal infection). The evidence pack's own rationale is explicit on this point: the high TxGNN score (0.984) reflects graph-topological similarity within the knowledge graph rather than any pharmacological plausibility.
-
-Because Selamectin has never been studied in humans — it has no human PK/PD data, no human safety database, and toxicology is limited to veterinary/animal studies — mechanistic extrapolation to candidiasis cannot currently be supported.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Original indicæ | Ikke etableret til humant brug — godkendt kun som veterinært antiparasiticum (ekto-/endoparasit-kontrol hos selskasbsdyr); ingen humane indicæ-data tilgængelige |
+| Forudsagt ny indicæ | Candidiasis |
+| TxGNN forudsigelsesscore | 98.43% |
+| Bevisgrad | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige (MOA markeret som datamangel). Baseret på de tilgængelige informationer er Selamectin en avermectin-klasse macrocyclisk lacton, hvis kendt farmakologi aktiverer invertebrat glutamat-styrede chloridkanaler — en mekanisme specifik for arthropod- og nematodenervesystemer. Det har ingen dokumenteret antifungal aktivitetsvej.
 
----
+Der er ingen etableret mekanistisk eller klinisk sammenhæng mellem Selamectins godkendte veterinære antiparasitiske brug og menneskelig candidiasis (en svampeinfektion). Bevisepakkets egen rationale er eksplicit på dette punkt: den høje TxGNN-score (0.984) afspejler graph-topologisk lighed inden for knowledge graph snarere end nogen farmakologisk plausibilitet.
 
-## Denmark Market Information
-
-Selamectin holds no marketing authorisation in Denmark (0 licenses on file); the product is not currently registered with Lægemiddelstyrelsen or centrally through the EMA.
+Fordi Selamectin aldrig er blevet undersøgt hos mennesker — det har ingen humane PK/PD-data, ingen human sikkerhedsdatabase, og toksikologi er begrænset til veterinær-/dyreforsøg — kan mekanistisk ekstrapolation til candidiasis i øjeblikket ikke understøttes.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug interaction data are currently available for this candidate.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Informationer om det danske marked
+
+Selamectin har ingen markedsføringstilladelse i Danmark (0 licenser på fil); produktet er i øjeblikket ikke registreret hos Lægemiddelstyrelsen eller centralt gennem EMA.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer. Ingen vigtige advarsler, kontraindikationer eller lægemiddelinteraktionsdata er i øjeblikket tilgængelige for denne kandidat.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
 
 **Rationale:**
-- The candidiasis prediction has zero supporting clinical trials or literature, no plausible mechanism of action, no human safety data, and the drug is not registered in Denmark — evidence is insufficient to proceed beyond model-prediction stage (L5/S0).
+- Candidiasis-forudsigelsen har nul understøttende kliniske forsøg eller litteratur, ingen plausibel virkningsmekanisme, ingen humane sikkerhedsdata, og lægemidlet er ikke registreret i Danmark — beviserne er utilstrækkelige til at fortsætte ud over model-forudsigelse-stadiet (L5/S0).
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Any preclinical (in vitro/in vivo) antifungal activity data for Selamectin
-- Human pharmacokinetic and safety/toxicology data, given the drug has no prior human exposure history
-- TFDA/EMA/SmPC-level warnings and contraindications before any S1 safety screening can begin
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftede data om virkningsmekanisme (MOA) fra DrugBank eller primær litteratur
+- Eventuelle prækliniske (in vitro/in vivo) antifungal aktivitetsdata for Selamectin
+- Humane farmakokinetiske og sikkerhed/toksikologi-data, givet at lægemidlet ikke har tidligere eksponeringshistorie hos mennesker
+- Advarsler og kontraindikationer på TFDA/EMA/SmPC-niveau før der kan påbegyndes S1 sikkerhedsscreening
 
-**Data quality note:** Among the other TxGNN candidates in this pack, the "heart disease" prediction (rank 9–10, L4) is supported only by veterinary literature on *heartworm disease* (Dirofilaria immitis infection) — an apparent keyword-matching artifact ("heartworm disease" → "heart disease"), not evidence of activity against human cardiac disease. This should not be read as supporting evidence for a cardiovascular indication.
+**Notat om datakvalitet:** Blandt de øvrige TxGNN-kandidater i denne pakke understøttes forudsigelsen "hjertesygdom" (rang 9–10, L4) kun af veterinær litteratur om *hjertemark-sygdom* (Dirofilaria immitis infektion) — en tilsyneladende keyword-matching artefakt ("hjertemark-sygdom" → "hjertesygdom"), ikke bevis for aktivitet mod menneskelig hjertesygdom. Dette bør ikke læses som understøttende bevis for en kardiovaskulær indicæ.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

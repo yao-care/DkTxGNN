@@ -29,70 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ropeginterferon Alfa-2b: From Polycythemia Vera to Laubry-Pezzi Syndrome
+# Ropeginterferon Alfa-2b: Fra Polycythemia Vera til Laubry-Pezzi-syndromet
 
-## One-Sentence Summary
+## En-sætnings sammenfatning
 
-> Ropeginterferon alfa-2b is a long-acting pegylated interferon alfa-2b internationally approved for polycythemia vera (PV); it is not currently marketed in Denmark, and no Danish indication data were supplied in this evidence pack.
-> The TxGNN model predicts a possible effect on **Laubry-Pezzi syndrome**, a congenital structural heart defect (ventricular septal defect with aortic valve prolapse),
-> but this prediction is supported by **0 clinical trials** and **0 publications**, and the model's own generated rationale flags it as likely statistical noise rather than a genuine biological signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Polycythemia vera (per international labeling; not present in the supplied Danish regulatory/DrugBank data — see Data Gaps) |
-| Predicted New Indication | Laubry-Pezzi syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Ropeginterferon alfa-2b er et langtidsvirkende pegyleret interferon alfa-2b, der er internationalt godkendt til polycythemia vera (PV); det er ikke i øjeblikket markedsført i Danmark, og der blev ikke leveret danske indikationsdata i denne bevispakke.
+> TxGNN-modellen forudsiger en mulig effekt på **Laubry-Pezzi-syndromet**, en medfødt strukturel hjertesygdom (ventrikulær septumdefekt med aortaklapinsufficiens),
+> men denne forudsigelse understøttes af **0 kliniske forsøg** og **0 publikationer**, og modellens egen genererede rationale markerer det som sandsynlig statistisk støj snarere end et ægte biologisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data are not available in this evidence pack (original MOA = Data Gap). Based on known information, ropeginterferon alfa-2b is a pegylated interferon alfa-2b that acts via JAK-STAT pathway activation, immune modulation, and antiproliferative effects, and is used in the treatment of polycythemia vera, a myeloproliferative neoplasm.
-
-Laubry-Pezzi syndrome, by contrast, is a congenital structural cardiac anomaly — a ventricular septal defect associated with aortic valve prolapse and/or aorto-right ventricular fistula. It is an anatomical developmental condition, not an inflammatory, proliferative, or myeloid disease process. There is no known mechanistic pathway by which interferon-mediated immune modulation or antiproliferative activity would affect a congenital structural heart defect.
-
-The model's own generated rationale for this candidate explicitly states that the high TxGNN score most likely reflects sparse "drug–rare disease" or "disease–disease" node connectivity in the knowledge graph, producing prediction noise rather than a true biological association. This assessment is reinforced by the fact that all ten top-ranked candidates in this evidence pack (Laubry-Pezzi syndrome, interventricular septum aneurysm, Pierre Robin syndrome variants, and partial 7q deletion) are congenital/structural or chromosomal conditions with near-identical scores (~99.9%) and, in every case, zero supporting trials or literature and an explicitly stated lack of mechanistic plausibility — a pattern consistent with a systematic model artifact affecting this drug-rare-disease region of the graph, rather than a genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Polycythemia vera (jf. international mærkning; ikke til stede i de leverede danske regulatoriske/DrugBank-data — se Datamangel) |
+| Forudsagt ny indikation | Laubry-Pezzi-syndrom |
+| TxGNN-forudsigelsesscore | 99.93% |
+| Bevisniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
+| Status på dansk marked | Ikke på markedet |
+| Antal markedsautoriseringer | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i denne bevispakke (oprindelig MOA = Datamangel). Baseret på kendt information er ropeginterferon alfa-2b et pegyleret interferon alfa-2b, der virker via JAK-STAT-signalvejen, immunmodulering og antiproliferativ effekt, og bruges til behandling af polycythemia vera, en myeloproliferativ neoplasme.
 
----
+Laubry-Pezzi-syndromet er derimod en medfødt strukturel kardisk anomali — en ventrikulær septumdefekt forbundet med aortaklapinsufficiens og/eller aorto-højre ventrikel-fistel. Det er en anatomisk udviklingsbetinget tilstand, ikke en inflammatorisk, proliferativ eller myeloid sygdomsproces. Der er ingen kendt mekanistisk vej, hvorigennem interferon-medieret immunmodulering eller antiproliferativ aktivitet ville påvirke en medfødt strukturel hjertesygdom.
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Modellens egen genererede rationale for denne kandidat angiver eksplicit, at den høje TxGNN-score mest sandsynligt afspejler sparsom "lægemiddel-sjælden sygdom"- eller "sygdom-sygdom"-knudeforbindelse i vidensgrafen, hvilket producerer forudsigelsesartefakter snarere end en ægte biologisk association. Denne vurdering forstærkes af, at alle ti topplacerede kandidater i denne bevispakke (Laubry-Pezzi-syndromet, aneurisme i det interventrikkulære septum, Pierre Robin-syndrom-varianter og partiel 7q-deletion) er medfødte/strukturelle eller kromosomale tilstande med næsten identiske scores (~99,9%) og i hvert tilfælde nul understøttende forsøg eller litteratur og eksplicit erklæret mangel på mekanistisk plausibilitet — et mønster, der er konsistent med en systematisk modelartefakt, der påvirker denne lægemiddel-sjælden-sygdom-region af grafen, snarere end et ægte repurposing-signal.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøg
 
-**Decision: Hold**
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret
+
+---
+
+## Litteraturbevis
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig
+
+---
+
+## Sikkerhedshensyn
+
+Læs venligst den godkendte Produktinformation (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
 
 **Rationale:**
-The predicted indication has no clinical trial or literature support (Evidence Level L5), no plausible mechanistic link between interferon-based immune modulation and a congenital structural cardiac defect, and the underlying rationale text itself identifies the prediction as likely knowledge-graph noise. The drug also has no marketing authorisation in Denmark, and core safety data (SmPC warnings/contraindications) are marked as a Blocking data gap (DG001), which alone precludes any S1 safety assessment.
+Den forudsagte indikation har ingen understøttelse fra kliniske forsøg eller litteratur (Bevisniveau L5), ingen plausibel mekanistisk forbindelse mellem interferon-baseret immunmodulering og en medfødt strukturel hjertesygdom, og selve det underliggende rationale-tekst identificerer forudsigelsen som sandsynlig vidensgrafs-støj. Lægemidlet har desuden ingen markedsautorisation i Danmark, og vigtige sikkerhedsdata (SmPC-advarsler/kontraindikationer) er markeret som en blokerende datamangel (DG001), som alene udelukker enhver S1-sikkerhedsvurdering.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings and contraindications (DG001, Blocking — required before any safety screening)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002, High)
-- An independent biological rationale or preclinical signal connecting interferon pharmacology to structural cardiac disease before this candidate can be prioritized for further evaluation
-- Given the consistent pattern across all top-10 candidates, a review of TxGNN's node connectivity for this drug in the rare-disease/congenital-disease region of the knowledge graph is recommended before treating any of these predictions as actionable leads
+For at fortsætte er følgende nødvendig:
+- Dansk/EU SmPC-advarsler og kontraindikationer (DG001, Blokering — påkrævet før nogen sikkerhedsvurdering)
+- Bekræftet virkningsmekanisme-data fra DrugBank eller primær litteratur (DG002, Høj)
+- Et uafhængigt biologisk rationale eller preklinisk signal, der forbinder interferon-farmakologi med strukturel hjertesygdom, før denne kandidat kan prioriteres til yderligere evaluering
+- I betragtning af det konsistente mønster på tværs af alle top-10-kandidater anbefales en gennemgang af TxGNN's knudeforbindelser for dette lægemiddel i regionen for sjældne/medfødte sygdomme i vidensgrafen, før disse forudsigelser behandles som actionable leads
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

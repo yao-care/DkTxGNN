@@ -29,70 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Bisacodyl: Evidence Pack Incomplete — No TxGNN Repurposing Predictions Available
+# Bisacodyl: Utilfuldstændig Evidence Pack — Ingen TxGNN Drug Repurposing-forudsigelser tilgængelige
 
-## One-Sentence Summary
+## Sammenfattelse i en sætning
 
-Bisacodyl (DB09020) is a stimulant laxative established in clinical practice for the short-term treatment of constipation and bowel preparation prior to colonoscopy or surgery. The current Evidence Pack contains **no TxGNN-predicted new indications**, and three critical data categories — mechanism of action, Danish regulatory records, and safety profile — are absent. This report documents the data state as of 2026-04-04 and cannot progress to a full repurposing evaluation without remediation of the identified gaps.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available — no Danish marketing authorisation records in current dataset |
-| Predicted New Indication | None — TxGNN predictions absent from this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Denmark Market Status | Not marketed (per current data; likely a data collection gap — see note below) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Bisacodyl (DB09020) er et stimulerande afføringsmiddel etableret i klinisk praksis til kortvarig behandling af forstoppelse og tarmforberedelse før koloskopi eller operation. Det aktuelle Evidence Pack indeholder **ingen TxGNN-forudsagte nye indikatorer**, og tre kritiske datakategorier — virkningsmekanisme, danske regulatoriske optegnelser og sikkerhedsprofil — mangler. Denne rapport dokumenterer datatilstanden fra 2026-04-04 og kan ikke gå videre til en fuldstændig drug repurposing-evaluering uden afhjælpning af de identificerede mangler.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-This section cannot be completed as the `predicted_indications` array in the Evidence Pack is empty. No TxGNN repurposing candidate has been generated for Bisacodyl in this pipeline run. The most probable causes are: (1) Bisacodyl was not successfully mapped to a DrugBank node in the TxGNN knowledge graph, (2) the prediction step was not executed for this compound, or (3) Bisacodyl falls below the model's scoring threshold for all disease nodes.
-
-Detailed mechanism of action data is not available in this Evidence Pack (Data Gap DG002). Based on established pharmacological knowledge, Bisacodyl is a diphenylmethane derivative that acts directly on the colonic mucosa: it stimulates enteric nerve endings, accelerates peristalsis, and promotes luminal fluid accumulation by altering electrolyte transport in colonocytes. This locally-acting mechanism is distinct from systemic drug targets commonly explored in repurposing research, which may limit TxGNN's ability to generate knowledge-graph-based predictions.
-
-To unlock a repurposing evaluation, the DrugBank record for DB09020 must be retrieved to populate the MOA and pharmacological target fields, and the TxGNN prediction pipeline must be re-executed with a confirmed DrugBank node mapping.
-
----
-
-## Denmark Market Information
-
-No marketing authorisations are currently recorded in the dataset for Bisacodyl. This almost certainly reflects a **data collection gap** rather than genuine absence from the Danish market: Bisacodyl is a widely available over-the-counter (OTC) laxative sold across the EU and would ordinarily appear in the Danish Medicines Agency (Lægemiddelstyrelsen) register. The following reconciliation steps are required before market status can be reported:
-
-- Query the Lægemiddelstyrelsen product register directly for Bisacodyl and its brand equivalents (e.g., *Dulcolax*, *Toilax*)
-- Check the EMA centralised authorisation database, noting that Bisacodyl is a non-prescription product and may be registered nationally rather than centrally
-- Update `taiwan_regulatory` (Denmark regulatory) fields accordingly before re-running this Evidence Pack
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke tilgængelig — ingen danske markeringsgodkendelsesoptegnelser i aktuelle datasæt |
+| Forudsagt ny indikation | Ingen — TxGNN-forudsigelser mangler fra dette Evidence Pack |
+| TxGNN-forudsigelsesscore | N/A |
+| Evidensniveau | N/A |
+| Markedsstatus i Danmark | Ikke markedsført (per aktuelle data; sandsynligvis en datakollektionsmangel — se bemærkning nedenfor) |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | **Hold** |
 
 ---
 
-## Safety Considerations
+## Hvorfor er denne forudsigelse rimelig?
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Denne sektion kan ikke udfyldes, da `predicted_indications`-arrayet i Evidence Packen er tomt. Der er ingen TxGNN drug repurposing-kandidat genereret for Bisacodyl i denne pipeline-kørsel. De mest sandsynlige årsager er: (1) Bisacodyl blev ikke succesfuldt mappet til en DrugBank-knude i TxGNN-vidensgrafen, (2) forudsigelsestrinnet blev ikke udført for denne forbindelse, eller (3) Bisacodyl falder under modellens scoringsgrænse for alle sygdomsknuder.
 
-> **Note:** Safety data — including key warnings, contraindications, and drug interaction data — are absent from this Evidence Pack (Data Gap DG001, severity: Blocking). The Danish SmPC PDF should be retrieved from the Lægemiddelstyrelsen website and parsed before any clinical or regulatory decision is made.
+Detaljerede virkningsmekanisme-data er ikke tilgængelige i dette Evidence Pack (Datamangel DG002). Baseret på etableret farmakologisk viden er Bisacodyl en diphenylmethan-derivat, der virker direkte på kolonslimhinden: det stimulerer entale nervebindinger, accelererer peristaltik og fremmer luminal væskeophobning ved at ændre elektrolyttransport i kolonocytter. Denne lokalt virkende mekanisme er forskellig fra systemiske lægemiddelkombinationsmål, der almindeligvis udforskes i drug repurposing-forskning, hvilket kan begrænse TxGNNs evne til at generere vidensgrafordede forudsigelser.
+
+For at låse op for en drug repurposing-evaluering skal DrugBank-rekorden for DB09020 hentes for at udfylde MOA- og farmakologiske målfelter, og TxGNN-forudsigelsespipelinen skal køres igen med en bekræftet DrugBank-knudmapping.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation i Danmark
 
-**Decision: Hold**
+Ingen markeringsgodkendelser er i øjeblikket registreret i datasættet for Bisacodyl. Dette afspejler næsten helt sikkert en **datakollektionsmangel** snarere end ægte fravær fra det danske marked: Bisacodyl er et bredt tilgængeligt køb uden recept (OTC) afføringsmiddel solgt på tværs af EU og ville normalt optræde i Lægemiddelstyrelsens register. Følgende afstemmingstrin er påkrævet før markedsstatus kan rapporteres:
 
-**Rationale:**
-The Evidence Pack for Bisacodyl (DB09020) is critically incomplete across all three evaluation pillars — predictive, regulatory, and safety — making a drug repurposing assessment impossible at this stage. Proceeding without remediation would produce a report with no actionable content for healthcare professionals.
+- Forespørg Lægemiddelstyrelsen-produktregisteret direkte efter Bisacodyl og dets brandækvivalenter (f.eks. *Dulcolax*, *Toilax*)
+- Tjek EMA-centraliseringsgodkendelses-databasen, idet Bisacodyl er et receptfrit produkt og kan være registreret nationalt snarere end centralt
+- Opdater `taiwan_regulatory` (danske regulatoriske) felter tilsvarende før gen-kørsel af dette Evidence Pack
 
-**To proceed, the following is needed:**
+---
 
-- **Re-run TxGNN predictions** for DB09020 after confirming the correct DrugBank node mapping; verify whether Bisacodyl appears in `data/external/drugbank_vocab.csv`
-- **Retrieve DrugBank record** via the DrugBank API to populate mechanism of action, pharmacological targets, and toxicity data (Data Gap DG002 — severity: High)
-- **Retrieve Danish SmPC** from Lægemiddelstyrelsen to obtain approved indications, boxed warnings, contraindications, and drug interactions (Data Gap DG001 — severity: Blocking)
-- **Reconcile market status** against the Lægemiddelstyrelsen national product register and EMA database; update `total_licenses` and `licenses[]` accordingly
-- **Re-generate Evidence Pack** (targeting version v5) once all blocking gaps are resolved, then re-trigger the full report pipeline
+## Sikkerhedshensyn
+
+Venligst henvises til den godkendte Produktsammenfattelse (SmPC) for sikkerhedsinformation.
+
+> **Bemærk:** Sikkerhedsdata — herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata — mangler fra dette Evidence Pack (Datamangel DG001, alvorlighed: Blokerende). Den danske SmPC-PDF skal hentes fra Lægemiddelstyrelsens hjemmeside og analyseres før enhver klinisk eller regulatorisk beslutning træffes.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Argumentation:**
+Evidence Packen for Bisacodyl (DB09020) er kritisk utilfuldstændig på tværs af alle tre evalueringspiller — forudsigelse, regulatorisk og sikkerhed — hvilket gør en drug repurposing-evaluering umulig på dette stadium. At fortsætte uden afhjælpning ville producere en rapport uden handlingsdygtig indhold for sundhedspersonale.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+- **Kør TxGNN-forudsigelser igen** for DB09020 efter bekræftelse af den korrekte DrugBank-knudmapping; bekræft, at Bisacodyl optræder i `data/external/drugbank_vocab.csv`
+- **Hent DrugBank-rekord** via DrugBank API for at udfylde virkningsmekanisme, farmakologiske mål og toksicitetsdata (Datamangel DG002 — alvorlighed: Høj)
+- **Hent dansk SmPC** fra Lægemiddelstyrelsen for at få godkendte indikatorer, boksadvarsler, kontraindikationer og lægemiddelinteraktioner (Datamangel DG001 — alvorlighed: Blokerende)
+- **Afstemt markedsstatus** mod Lægemiddelstyrelsens nationale produktregister og EMA-database; opdater `total_licenses` og `licenses[]` tilsvarende
+- **Gengener Evidence Pack** (målrettet version v5) når alle blokerende mangler er løst, og udløs derefter den fulde rapportpipeline igen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

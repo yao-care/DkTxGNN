@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Ivosidenib: Exploring a Potential New Role in Bulbar Polio
+# Ivosidenib: Udforskning af en potentiel ny rolle ved bulbær poliomyelitis
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Ivosidenib (DrugBank ID DB14568) has no original indication or mechanism-of-action data on file in this evidence pack, and it is not currently marketed in Denmark. The TxGNN model predicts a possible association with **Bulbar Polio** (score 99.31%), but this prediction is currently supported by **no clinical trials** and **no published literature**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no data on file) |
-| Predicted New Indication | Bulbar Polio |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ivosidenib (DrugBank ID DB14568) har ingen oprindelig indikation eller data om virkningsmekanisme på fil i denne evidenssamling, og det markedsføres ikke i øjeblikket i Danmark. TxGNN-modellen forudsiger en mulig association med **bulbær poliomyelitis** (score 99.31%), men denne prognose understøttes i øjeblikket **ikke af kliniske forsøg** og **ikke af publiceret litteratur**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not currently available for ivosidenib in this evidence pack, and no original approved indication is recorded either. As a result, the pharmacological rationale linking ivosidenib to the predicted indication (bulbar polio) cannot be assessed from the data currently on file.
-
-Without an established original indication or MOA to compare against, this prediction should be treated purely as a model-generated hypothesis (TxGNN score only) rather than a mechanistically grounded signal. Independent verification of ivosidenib's pharmacology and its plausibility for a viral/neurological condition such as bulbar polio is needed before this candidate can be evaluated further.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke tilgængelig (ingen data på fil) |
+| Forudsagt ny indikation | Bulbær poliomyelitis |
+| TxGNN-prognoseresultat | 99.31% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne prognose rimelig?
 
-Ivosidenib has no marketing authorisation on file in Denmark (0 licenses recorded; market status: not marketed).
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige for ivosidenib i denne evidenssamling, og ingen oprindelig godkendt indikation er registreret. Som følge heraf kan den farmakologiske begrundelse, der forbinder ivosidenib til den forudsagte indikation (bulbær poliomyelitis), ikke vurderes ud fra de data, der i øjeblikket er på fil.
 
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*Note: A blocking data gap has been identified — TFDA/product label warnings and contraindications are not yet available, which prevents a preliminary safety (S1) assessment.*
+Uden en etableret oprindelig indikation eller virkningsmekanisme at sammenligne med bør denne prognose behandles som en ren modeltgeneret hypotese (kun TxGNN-score) snarere end et mekanistisk begrundet signal. Uafhængig verifikation af ivosidenib's farmakologi og dets plausibilitet for en viral/neurologisk tilstand såsom bulbær poliomyelitis er nødvendig, før denne kandidat kan evalueres yderligere.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøg
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilknyttede registrerede kliniske forsøg.
 
-**Rationale:**
-This candidate has no supporting clinical trials or literature (Evidence Level L5 — model prediction only), no documented original indication or mechanism of action, and the drug is not currently marketed in Denmark. A blocking data gap on safety labeling further prevents any preliminary risk assessment.
+---
 
-**To proceed, the following is needed:**
-- Original indication and confirmed mechanism of action (MOA) for ivosidenib
-- Official product label / SmPC data (warnings, contraindications) to resolve the blocking data gap
-- Drug-drug interaction (DDI) data (current query returned no results)
-- Clinical trial or literature evidence specifically evaluating ivosidenib in bulbar polio, given the current complete absence of supporting studies
+## Litteraturbevis
+
+Der er i øjeblikket ikke tilgængeligt tilknyttet litteraturbevis.
+
+---
+
+## Markedsinformation for Danmark
+
+Ivosidenib har ingen markedsføringstilladelse på fil i Danmark (0 licenser registreret; markedsstatus: ikke markedsført).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+*Bemærk: Et blokerende datahul er blevet identificeret — advarsler og kontraindikationer fra produktetiket/TFDA er endnu ikke tilgængelige, hvilket forhindrer en foreløbig sikkerhedsvurdering (S1).*
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Denne kandidat har ingen understøttende kliniske forsøg eller litteratur (Evidensniveau L5 — kun modelprognose), ingen dokumenteret oprindelig indikation eller virkningsmekanisme, og medicinen markedsføres ikke i øjeblikket i Danmark. Et blokerende datahul vedrørende sikkerhedsmærkning forhindrer desuden enhver foreløbig risikovurdering.
+
+**For at komme videre er følgende nødvendigt:**
+- Oprindelig indikation og bekræftet virkningsmekanisme (MOA) for ivosidenib
+- Officielle produktetiket-/SmPC-data (advarsler, kontraindikationer) for at løse det blokerende datahul
+- Data om medicin-medicin-vekselvirkninger (DDI) (nuværende søgning returnerede ingen resultater)
+- Bevis fra kliniske forsøg eller litteratur, der specifikt evaluerer ivosidenib ved bulbær poliomyelitis, givet det nuværende fuldstændige fravær af understøttende studier
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

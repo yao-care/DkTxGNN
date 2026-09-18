@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Altrenogest: From Veterinary Progestogen to Orofacial Clefting Syndrome
+# Altrenogest: Fra veterinær progestogen til orofacial spaltesyndromer
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Altrenogest is a synthetic progestogen used exclusively in veterinary medicine (primarily to suppress oestrus and maintain pregnancy in mares and sows), with no approved human indication and no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **Orofacial Clefting Syndrome** as its top-ranked indication, with a prediction score of **98.06%**.
-However, **no clinical trials and no published literature** support this direction, and the mechanistic rationale analysis strongly suggests this prediction represents a **model false positive** rather than a genuine therapeutic opportunity.
+Altrenogest er en synthetisk progestogen, der udelukkende bruges inden for veterinærmedicin (primært til at undertrykke østrus og opretholde graviditet hos hopper og søer), uden godkendt human indikation og uden markedsføringstilladelse i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt for **orofacial spaltesyndromer** som dets toprangerede indikation med en forudsigelsesscore på **98.06%**.
+Der er dog **ingen kliniske forsøg og ingen publiceret litteratur**, der understøtter denne retning, og analyse af mekanistisk rationale antyder stærkt, at denne forudsigelse repræsenterer en **falsk positiv model** snarere end en ægte terapeutisk mulighed.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | No approved human indication — veterinary progestogen (oestrus suppression, pregnancy maintenance in animals) |
-| Predicted New Indication | Orofacial Clefting Syndrome |
-| TxGNN Prediction Score | 98.06% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ingen godkendt human indikation — veterinær progestogen (østrusundertrykkelse, gravideopretholding hos dyr) |
+| Forudsagt ny indikation | Orofacial spaltesyndromer |
+| TxGNN forudsigelsesscore | 98.06% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Altrenogest is a potent synthetic progestogen belonging to the 19-nor-testosterone class of progestins. Its primary established use is in veterinary medicine — specifically to synchronise oestrus in gilts and to maintain pregnancy in mares by supplementing endogenous progesterone levels via progesterone receptor (PR) agonism. It has no approved human indication, and human exposure is considered a significant safety concern (it is classified as a skin-absorption hazard in occupational settings).
+Altrenogest er en potent synthetisk progestogen, der tilhører 19-nor-testosteron-klassen af progestiner. Dets primære etablerede brug er inden for veterinærmedicin — specifikt til at synkronisere østrus hos gylte og til at opretholde graviditet hos hopper ved at supplere endogene progesteronniveauer via progesteronreceptor (PR) agonisme. Det har ingen godkendt human indikation, og human eksponering anses for at være en betydelig sikkerhedsrisiko (det er klassificeret som en hudabsorptions-hazard i arbejdsmiljøer).
 
-The TxGNN model's top-ranked predictions for Altrenogest — orofacial clefting syndrome, interventricular septum aneurysm, Jeune syndrome with situs inversus, and Pierre Robin syndrome variants — are all congenital structural defects. Critically, the link between progestogens and orofacial clefting documented in the scientific literature is a **teratogenicity risk signal**, not a therapeutic one. Early observational studies raised concerns that gestational progestogen exposure may increase the risk of cleft palate; the knowledge graph appears to have mislearned this "drug–adverse effect/risk factor" edge as a "drug–treatment" relationship, generating a spurious high-confidence score.
+TxGNN-modellens toprangerede forudsigelser for Altrenogest — orofacial spaltesyndromer, interventrikular septum-aneurisme, Jeune-syndrom med situs inversus og varianter af Pierre Robin-syndrom — er alle medfødte strukturelle defekter. Kritisk set er forbindelsen mellem progestogener og orofacial spalter dokumenteret i den videnskabelige litteratur et **teratogent risikosignal**, ikke en terapeutisk. Tidlige observationsstudier rejste bekymringer om, at gestationel progestogeneksponering kan øge risikoen for ganespalte; knowledge graph'et synes at have mislært denne "lægemiddel-uønsket effekt/risikofaktor"-kant som en "lægemiddel-behandling"-relation, hvilket genererer en falsk høj-konfidenscore.
 
-From a biological standpoint, none of the predicted conditions — craniofacial structural malformations, cardiac septal anomalies, ciliopathy-driven thoracic dystrophy, or chromosomally-driven mandibular hypoplasia — have any recognised pharmacological mechanism by which progesterone receptor agonism could provide treatment benefit. These are fixed anatomical or genetically-driven defects for which hormone supplementation has no established corrective pathway. The consensus across all five unique predicted indications is that these predictions are very likely false positives arising from topological artefacts in the knowledge graph, rather than genuine drug–disease therapeutic relationships.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Fra et biologisk synspunkt har ingen af de forudsagte tilstande — kraniofaciale strukturelle malformationer, kardiale septale anomalier, ciliopati-drevet thorakal dystrofi eller kromosomalt-drevet mandibulær hypoplasi — nogen anerkendt farmakologisk mekanisme, hvorigennem progesteronreceptor-agonisme kunne give behandlingsforbedring. Dette er faste anatomiske eller genetisk-drevne defekter, for hvilke hormonsuplementering ingen etableret korrektiv vej har. Konsensus på tværs af alle fem unikke forudsagte indikationer er, at disse forudsigelser meget sandsynligt er falske positiver, som stammer fra topologiske artefakter i knowledge graph'et, snarere end ægte lægemiddel-sygdoms terapeutiske relationer.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Detailed human safety data (key warnings, contraindications, and drug interactions) are not available in the current Evidence Pack. Please refer to the approved Summary of Product Characteristics (SmPC) and relevant occupational safety guidelines for safety information. Note that Altrenogest carries a well-documented **transdermal absorption hazard** in occupational settings and is considered potentially harmful to humans upon skin contact; this should be considered if any investigational human use were ever contemplated.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
-
-**Rationale:**
-All ten predicted indications (five unique diseases, each appearing twice in the ranking) carry an L5 evidence level — meaning the predictions rest solely on the TxGNN model output with no corroborating clinical trials or published literature. Furthermore, the mechanistic analysis for each predicted indication identifies the high scores as likely false positives stemming from a teratogenicity signal being misclassified as a therapeutic relationship in the knowledge graph. Altrenogest has no approved human indication, is not marketed in Denmark, and is primarily a veterinary compound with known human safety risks. There is currently no scientific rationale to justify progressing this candidate.
-
-**To proceed, the following would be needed:**
-- Independent expert review to formally adjudicate whether the TxGNN predictions represent graph-topology artefacts (false positives) and, if so, flag DB11372 for exclusion from human repurposing pipelines
-- Retrieval of full mechanism of action data from DrugBank (DG002) and human safety data / contraindication data (DG001) prior to any further evaluation
-- If a future hypothesis were generated by an alternative method (not the current TxGNN top-10), a de novo literature review and prospective biological plausibility assessment would be required before any investigational steps
-- Assessment of whether Altrenogest should be excluded from the repurposing candidate pool given its veterinary-only status and known human hazard profile
+Der er i øjeblikket ingen relateret litteratur til rådighed.
 
 ---
 
-> **Disclaimer:** This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application in human medicine.
+## Sikkerhedshensyn
+
+Detaljerede humane sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i den aktuelle Evidence Pack. Se venligst den godkendte produktresumé (SmPC) og relevante retningslinjer for arbejdsmiljøsikkerhed for sikkerhedsinformation. Bemærk, at Altrenogest har en velkendt **transdermal absorptions-hazard** i arbejdsmiljøer og anses for at være potentielt skadelig for mennesker ved hudkontakt; dette bør tages i betragtning, hvis nogen forsøgsvis human brug nogensinde blev overvejet.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Alle ti forudsagte indikationer (fem unikke sygdomme, hver optræder to gange i rangeringen) har et L5-evidensniveau — hvilket betyder, at forudsigelserne hviler udelukkende på TxGNN-modeloutputtet uden bekræftende kliniske forsøg eller publiceret litteratur. Desuden identificerer mekanistisk analyse for hver forudsagt indikation de høje scores som sandsynligvis falske positiver, som stammer fra et teratogent signal, der bliver fejlklassificeret som en terapeutisk relation i knowledge graph'et. Altrenogest har ingen godkendt human indikation, markedsføres ikke i Danmark og er primært en veterinær forbindelse med kendte humane sikkerhedsrisici. Der er i øjeblikket ingen videnskabelig rationale til at retfærdiggøre fremskridt af denne kandidat.
+
+**For at fortsætte ville følgende være nødvendig:**
+- Uafhængig ekspertgennemgang for formelt at vurdere, om TxGNN-forudsigelserne repræsenterer graph-topologi artefakter (falske positiver) og, hvis så, flag DB11372 til udelukkelse fra humane repurposing-pipelines
+- Hentning af fulde virkningsmekanismedata fra DrugBank (DG002) og humane sikkerhedsdata / kontraindikationsdata (DG001) før yderligere evaluering
+- Hvis en fremtidig hypotese blev genereret ved en alternativ metode (ikke de aktuelle TxGNN top-10), ville en de novo litteraturgennemgang og prospektiv biologisk plausibilitets-vurdering være påkrævet før nogen forsøgstrin
+- Vurdering af, hvorvidt Altrenogest bør udelukkes fra repurposing-kandidatpuljen givet dets veterinær-kun status og kendt human hazard-profil
+
+---
+
+> **Ansvarsfraskrivelse:** Denne rapport er genereret til forskningsreferenceformål alene og udgør ikke medicinsk rådgivning. Alle lægemiddel-repurposing-kandidater kræver klinisk validering før anvendelse i humanmedicin.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

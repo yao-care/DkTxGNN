@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nemolizumab: From Atopic Dermatitis/Prurigo Nodularis to Diabetic Cataract
+# Nemolizumab: Fra atopisk dermatitis/pruritisk nodularis til diabetisk katarakt
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Nemolizumab is an anti-IL-31 receptor A (IL-31RA) monoclonal antibody, described in the evidence pack's mechanistic notes as approved for pruritus and inflammation in atopic dermatitis and prurigo nodularis (a formal, registry-sourced original indication is not on file). The TxGNN model predicts it may be effective for **Diabetic Cataract**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic analysis states there is no known biological link between IL-31 signaling and diabetic lens pathology.
+Nemolizumab er et monoklonalt antistof mod IL-31-receptorsubstans A (IL-31RA), beskrevet i bevismappe-noterne som godkendt for pruritus og inflammation ved atopisk dermatitis og pruritisk nodularis (en formel, registervurderet oprindelig indikation er ikke registreret). TxGNN-modellen forudsiger, at det kan være effektivt for **diabetisk katarakt**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og evidenspakkens egen mekanistiske analyse angiver, at der ikke er kendt biologisk forbindelse mellem IL-31-signalering og diabetisk linsepatologi.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Atopic dermatitis / Prurigo nodularis (stated in the repurposing rationale text; not confirmed via a formal Danish registry entry — see note below) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.55% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Atopisk dermatitis / Pruritisk nodularis (nævnt i repurposing-rationalet; ikke bekræftet via officiel dansk registrering — se note nedenfor) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98.55% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-*Note: `taiwan_regulatory.licenses` is empty and `drug.original_indications` is unpopulated, so the original indication above is taken from the drug's mechanistic description rather than a Danish Medicines Agency registry entry.*
+*Note: `taiwan_regulatory.licenses` er tomt og `drug.original_indications` er ikke udfyldt, derfor er oprindelig indikation ovenfor hentet fra medicinen mekanistiske beskrivelse snarere end fra dansk Lægemiddelstyrelsesregistrering.*
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Nemolizumab blocks IL-31 signaling through IL-31RA, a pathway central to pruritus (itch) and inflammation in atopic dermatitis and prurigo nodularis. This is a neuroimmune/inflammatory mechanism, not a metabolic or ocular one.
+Nemolizumab blokerer IL-31-signalering gennem IL-31RA, en vej, der er central for pruritus (kløe) og inflammation ved atopisk dermatitis og pruritisk nodularis. Dette er en neuroimmun/inflammatorisk mekanisme, ikke en metabolsk eller okular.
 
-Diabetic cataract, by contrast, is driven by lens-specific metabolic pathology — osmotic damage from the polyol (sorbitol) pathway, oxidative stress, and accumulation of advanced glycation end-products (AGEs). The evidence pack's own repurposing rationale is explicit that no published or mechanistic connection exists between IL-31/IL-31RA blockade and these lens-damage processes.
+Diabetisk katarakt er derimod drevet af linsespezifikk metabolsk patologi — osmotisk skade fra polyol (sorbitol)-stien, oxidativ stress og ophobning af avancerede glykerings slutprodukter (AGEs). Evidenspakkens eget repurposing-rationale er eksplicit om, at der ikke eksisterer nogen publiceret eller mekanistisk forbindelse mellem IL-31/IL-31RA-blokade og disse linseskadende processer.
 
-Given this, the prediction appears to be an artifact of TxGNN's knowledge-graph embedding similarity rather than a biologically grounded hypothesis. The high prediction score (98.55%) reflects graph-level pattern similarity, not pharmacological plausibility, and the same score is shared across multiple unrelated cataract subtypes (diabetic, tetanic, craniostenosis-associated, immature, mature), which further suggests the model is clustering on the general "cataract" disease node rather than a diabetes-specific mechanism.
+Givet dette ser forudsigelsen ud til at være et artefakt af TxGNN's knowledge-graph-embedding-lighed snarere end en biologisk velbegrundet hypotese. Den høje forudsigelsesscore (98.55%) afspejler graphniveaushgelighed, ikke farmakologisk plausibilitet, og samme score deles på tværs af flere urelaterede katarakt-subtyper (diabetisk, tetanisk, kraniostenosis-associeret, umoden, moden), hvilket yderligere tyder på, at modellen grupperer på det generelle "katarakt"-diseasenode snarere end en diabetesspecifik mekanisme.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidensevidence
 
-Currently no related clinical trials registered.
+Aktuelt ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturevidensence
 
-Currently no related literature available.
+Aktuelt ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Nemolizumab currently has **no marketing authorisation** in Denmark (market status: Not marketed; 0 licenses on file), so no national or centralised (EMA) authorisation details are available to report.
+Nemolizumab har i øjeblikket **ingen markedsføringsgodkendelse** i Danmark (markedsstatus: Ikke markedsført; 0 licenser på fil), så detaljer om national eller centraliseret (EMA) godkendelse er ikke tilgængelige til at rapportere.
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Danish label warnings, contraindications, and drug-interaction data are not yet available in this evidence pack (flagged as a **Blocking** data gap — see Next Steps).
+Se venligst den godkendte produktresuméet (SmPC) for sikkerhedsinformation. Danmarks mærkningsadvarsler, kontraindikationer og medicin-interaktionsdata er ikke endnu tilgængelige i denne evidenspakke (markeret som en **blokerande** datagab — se Næste trin).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The prediction score is high, but there is zero clinical trial or literature support, and the evidence pack's own mechanistic analysis explicitly finds no biological link between the drug's approved mechanism (IL-31RA blockade) and diabetic cataract pathology. Combined with the absence of Danish market authorisation and missing SmPC safety data, this candidate does not meet the bar for further evaluation at this time.
+**Begrundelse:**
+Forudsigelsesscoreen er høj, men der er nul klinisk forsøg eller litteraturunderstøttelse, og evidenspakkens egen mekanistiske analyse finder eksplicit ingen biologisk forbindelse mellem medicinen godkendte mekanisme (IL-31RA-blokade) og diabetisk katarakt-patologi. Kombineret med fraværet af dansk markedsføringsgodkendelse og manglende SmPC-sikkerhedsdata opfylder denne kandidat ikke standarden for yderligere evaluering på nuværende tidspunkt.
 
-**To proceed, the following is needed:**
-- SmPC warnings/contraindications data (currently a Blocking gap — required before any S1 safety screening)
-- Confirmed, registry-sourced original indication and MOA (currently marked as a data gap)
-- Independent preclinical or mechanistic evidence linking IL-31/IL-31RA signaling to lens/cataract pathology, before this candidate is considered for further evidence collection
+**For at fortsætte kræves følgende:**
+- SmPC-advarsler/kontraindikationsdata (aktuelt et blokeringsgab — krævet før enhver S1-sikkerhedsscreening)
+- Bekræftet, registervurderet oprindelig indikation og MOA (aktuelt markeret som datagab)
+- Uafhængig præklinisk eller mekanistisk evidens, der forbinder IL-31/IL-31RA-signalering til linse/katarakt-patologi, før denne kandidat betragtes for yderligere evidensindsamling
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

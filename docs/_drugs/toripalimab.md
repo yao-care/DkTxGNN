@@ -29,90 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Toripalimab: From Oncology (PD-1 Immunotherapy) to Mixed-Type Autoimmune Hemolytic Anemia
+# Toripalimab: Fra onkologi (PD-1-checkpoint-inhibitor) til blandet-type autoimmun hæmolytisk anæmi
 
-## One-Sentence Summary
+## Opsummering på én sætning
 
-Toripalimab is a PD-1 immune checkpoint inhibitor; formal Danish licensing records list no confirmed original indication, but the drug's known mechanism is used in oncology to enhance anti-tumour T-cell activity. The TxGNN model predicts a possible effect on **mixed-type autoimmune hemolytic anemia (AIHA)**, but this prediction is supported by **zero clinical trials and zero publications**, and the accompanying mechanistic analysis explicitly flags a **biological contradiction** rather than a plausible repurposing rationale.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file (no Danish licenses recorded; general mechanism data indicate oncology use as a PD-1 checkpoint inhibitor) |
-| Predicted New Indication | Mixed-type autoimmune hemolytic anemia |
-| TxGNN Prediction Score | 93.76% |
-| Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Toripalimab er en PD-1-checkpoint-inhibitor; formelle danske licensregistre opfører ingen bekræftet oprindelig indikation, men lægemidlets kendte virkemåde bruges inden for onkologi til at forbedre anti-tumor-T-celle-aktivitet. TxGNN-modellen forudsiger en mulig effekt på **blandet-type autoimmun hæmolytisk anæmi (AIHA)**, men denne forudsigelse understøttes af **nul kliniske forsøg og nul publikationer**, og den medfølgende mekanistiske analyse markerer eksplicit en **biologisk modsigelse** i stedet for en plausibel genbrug-rationalet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort overblik
 
-Currently, detailed mechanism of action data for Toripalimab is not available in the formal drug record (MOA field is unpopulated). Based on information present elsewhere in the evidence pack, Toripalimab is a PD-1 immune checkpoint inhibitor whose pharmacological action is to **release the immune brake and enhance T-cell cytotoxic activity**, an approach used in oncology to help the immune system attack tumour cells.
-
-Mixed-type autoimmune hemolytic anemia, by contrast, is a condition in which the immune system already over-attacks the body's own red blood cells; standard treatment relies on **immunosuppression**, not immune activation. The evidence pack's own mechanistic assessment flags this directly: anti-PD-1 agents are clinically known to *cause* AIHA and related cytopenias as an immune-related adverse event (irAE), rather than treat them. The same pattern repeats across the other high-scoring candidates in this pack — idiopathic aplastic anemia, dermatitis, paroxysmal nocturnal hemoglobinuria, and drug-induced AIHA all carry the same annotation: the predicted indication is a *known adverse effect* of PD-1 inhibition, not a therapeutic target.
-
-The most likely explanation is that TxGNN's high score reflects **semantic proximity in the embedding space** (autoimmune/hematologic disease cluster) rather than a genuine, biologically supported treatment relationship. This is a case where the prediction should be treated as a modeling artifact until independent mechanistic or clinical evidence emerges.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke på fil (ingen danske licenser registreret; generelle mekanisme-data indikerer onkologi-brug som en PD-1-checkpoint-inhibitor) |
+| Forudsagt ny indikation | Blandet-type autoimmun hæmolytisk anæmi |
+| TxGNN-forudsigelsesscore | 93.76% |
+| Bevisniveau | L5 (kun modelforudsigelse — ingen kliniske forsøg, ingen litteratur) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+For øjeblikket er detaljerede virkemåde-data for Toripalimab ikke tilgængelige i den formelle lægemiddelregistrering (MOA-felt er uudfyldt). Baseret på oplysninger, der er tilgængelige andre steder i bevisematerialet, er Toripalimab en PD-1-checkpoint-inhibitor, hvis farmakologisk virkning er at **frigive immunbremserne og forbedre T-celle-cytotoksisk aktivitet**, en tilgang, der bruges inden for onkologi til at hjælpe immunsystemet med at angribe tumorceller.
 
----
+Blandet-type autoimmun hæmolytisk anæmi er derimod en tilstand, hvor immunsystemet allerede over-angriber kroppens egne røde blodlegemer; standardbehandling afhænger af **immunsuppression**, ikke immune-aktivering. Bevisematerialets egen mekanistiske vurdering markerer dette direkte: anti-PD-1-midler er klinisk kendt for at *forårsage* AIHA og relaterede cytopeniaer som immunrelaterede bivirkninger (irAE), snarere end at behandle dem. Det samme mønster gentages på tværs af de andre højtscorende kandidater i denne pakke — idiopatisk aplastisk anæmi, dermatitis, paroxysmal nattlig hemoglobinuri og lægemiddelinduceret AIHA — som alle bærer den samme annotation: den forudsagte indikation er en *kendt bivirkning* af PD-1-inhibering, ikke et terapeutisk mål.
 
-## Denmark Market Information
-
-Toripalimab currently has no marketing authorisation on record in Denmark (0 licenses; market status: not marketed). No product, dosage form, or approved-indication data is available to report.
+Den mest sandsynlige forklaring er, at TxGNNs høje score afspejler **semantisk nærhed i embedrummet** (autoimmun/hæmatologisk sygdomsklynge) snarere end en ægte, biologisk understøttet behandlingsforhold. Dette er et tilfælde, hvor forudsigelsen bør behandles som en modelleringsartefakt, indtil uafhængige mekanistiske eller kliniske beviser fremkommer.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske forsøg
 
-Toripalimab is a PD-1 immune checkpoint inhibitor, a class of antineoplastic immunotherapy.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-
-Note: unlike conventional chemotherapy, checkpoint inhibitors as a class carry a risk of immune-related adverse events (irAEs) — including immune hemolytic anemia, dermatitis, and other autoimmune-pattern toxicities — which is directly relevant to this candidate, since the predicted new "indication" overlaps with known irAEs of this drug class.
+For øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+For øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Toripalimab har for øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 licenser; markedsstatus: ikke markedsført). Ingen produkt-, doseringsform- eller godkendt-indikation-data er tilgængelige for rapportering.
 
-**Rationale:**
-This candidate rests on an L5 model-score-only signal with no supporting clinical trials or literature, and the evidence pack's own mechanistic analysis identifies a direct biological contradiction — PD-1 inhibition is more plausibly a cause of the predicted condition than a treatment for it. A blocking data gap (missing TFDA/SmPC safety data) also prevents this candidate from formally entering the S1 safety evaluation stage.
+---
 
-**To proceed, the following is needed:**
-- Official SmPC/label safety data (warnings, contraindications, DDI) — currently a Blocking data gap
-- Confirmed mechanism of action documentation from DrugBank — currently a High-severity data gap
-- Independent preclinical or case-level evidence specifically supporting PD-1 inhibition in autoimmune cytopenias, since none currently exists
-- Given the mechanistic contradiction, consider deprioritizing this signal in favor of other TxGNN candidates with stronger biological plausibility
+## Cytotoksicitet
+
+Toripalimab er en PD-1-checkpoint-inhibitor, en klasse af antineoplastisk immunterapi.
+
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoksicitetsklassificering | Immunterapi (PD-1-checkpoint-inhibitor) — ikke et konventionelt cytotoksisk middel |
+| Myelosuppression-risiko | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
+| Emetogenicitetsklassificering | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
+| Overvågningspunkter | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
+
+Bemærkning: i modsætning til konventionel kemoterapi har checkpoint-inhibitorer som klasse en risiko for immunrelaterede uønskede begivenheder (irAE) — herunder immun hæmolytisk anæmi, dermatitis og andre autoimmun-mønster-toksiciteter — som er direkte relevant for denne kandidat, da den forudsagte nye "indikation" overlapper med kendte irAE for denne lægemiddelklasse.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktinformationens sammenfatning (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Vent**
+
+**Rationalet:**
+Denne kandidat hviler på et L5-modelscores-kun-signal uden understøttende kliniske forsøg eller litteratur, og bevisematerialets egen mekanistiske analyse identificerer en direkte biologisk modsigelse — PD-1-inhibering er mere plausibelt en årsag til den forudsagte tilstand end en behandling for den. Et blokeringsdata-hul (manglende TFDA/SmPC-sikkerhedsdata) forhindrer også denne kandidat i formelt at indgå i S1-sikkerhedsvurderingsstadiet.
+
+**For at fortsætte er følgende nødvendig:**
+- Officiel SmPC/etiket-sikkerhedsdata (advarsler, kontraindikationer, DDI) — for øjeblikket et blokeringsdata-hul
+- Bekræftet virkemåde-dokumentation fra DrugBank — for øjeblikket et høj-alvorlighed-datahul
+- Uafhængigt præklinisk eller case-niveau-bevis specifikt støttende PD-1-inhibering i autoimmun cytopeni, da ingen findes for øjeblikket
+- I betragtning af den mekanistiske modsigelse bør du overveje at deprioritere dette signal til fordel for andre TxGNN-kandidater med stærkere biologisk plausibilitet
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

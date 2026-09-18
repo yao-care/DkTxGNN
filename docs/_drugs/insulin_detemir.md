@@ -29,105 +29,106 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Insulin Detemir: From an Undocumented Original Indication to Type 1 Diabetes Mellitus (Likely Existing-Use Case)
+# Insulin detemir: Fra en udokumenteret oprindelig indikation til type 1-diabetes mellitus (sandsynligvis eksisterende indikation)
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Insulin detemir's original indication is not recorded in this evidence pack (data gap), but the drug is generically known as a long-acting basal insulin analogue. The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus**, with **dozens of clinical trials** (many completed Phase 3 RCTs) and **substantial literature** currently supporting this direction — however, this is very likely an **already-approved existing indication** rather than a genuinely novel repurposing signal, and this must be verified before any "new indication" claim is made.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this dataset — insulin detemir is generically a long-acting basal insulin, so this is likely an existing (not new) indication; requires verification |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not Marketed (per this dataset — see caveat below) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Insulin detimirs oprindelige indikation er ikke registreret i denne bevissamling (datakløft), men lægemidlet er generelt kendt som et langtidsvirkende basal-insulinanalog. TxGNN-modellen forudsiger, at det kan være effektivt for **type 1-diabetes mellitus**, med **dusin af kliniske forsøg** (mange afsluttede fase 3-RCT'er) og **betydelig litteratur** til støtte for denne retning — imidlertid er dette meget sandsynligt en **allerede godkendt eksisterende indikation** snarere end et ægte nyt omformålingstilfælde, og dette skal verificeres, før der fremsættes påstande om "ny indikation".
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data is not available in this evidence pack (data gap DG002, severity: High). Generically, insulin detemir is a recombinant human insulin analogue modified at the B29 lysine residue with a C14 (myristic acid) fatty-acid chain, which allows reversible binding to serum albumin. This slows subcutaneous absorption and produces a protracted, relatively flat time-action profile compared with NPH insulin — the pharmacological basis for its use as a once- or twice-daily basal insulin. This is the same active substance marketed internationally under the brand name Levemir®.
-
-Because the `original_indications` field in this dataset is empty, the system could not automatically confirm whether "type 1 diabetes mellitus" is already the drug's approved indication rather than a novel one. Long-acting basal insulin analogues of this class are, by design and by regulatory history, indicated for basal glycaemic control in both type 1 and type 2 diabetes. The extremely high TxGNN score (99.77%) combined with a very large body of completed Phase 3 randomised controlled trials most plausibly reflects a strong, already-established drug–disease relationship in the knowledge graph — **not** a novel mechanistic hypothesis.
-
-The evidence pack's own repurposing rationale flags this directly: *"此案例的決策重點在於『引進/上市可行性』而非機轉新穎性…建議人工核實後移除或標註為『既有適應症之市場引進』而非典型 repurposing 候選"* (the decision focus here is market-entry feasibility, not mechanistic novelty; human review should reclassify this as "market introduction of an existing indication" rather than a typical repurposing candidate). This caveat should be resolved — by retrieving the drug's documented original indication from TFDA/DrugBank/SmPC — before this candidate is treated as a genuine old-drug-new-use opportunity.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke registreret i dette datasæt — insulin detemir er generelt et langtidsvirkende basal-insulin, så dette er sandsynligvis en eksisterende (ikke ny) indikation; kræver verifikation |
+| Forudsagt ny indikation | Type 1-diabetes mellitus |
+| TxGNN-forudsigelsesscore | 99,77% |
+| Bevisniveau | L1 |
+| Markedsstatus i Danmark | Ikke markedsført (ifølge dette datasæt — se varsel nedenfor) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Tilbageholdelse |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i denne bevissamling (datakløft DG002, alvorlighed: Høj). Generelt er insulin detemir et rekombinant human-insulinanalog, der er modificeret ved B29-lysine-residuen med en C14 (myristinsyre) fedtsyrukæde, hvilket tillader reversibel binding til serumalbumin. Dette bremser subkutan absorption og producerer en udvidet, relativt flad tidsvirknerprofil sammenlignet med NPH-insulin — det farmakologiske grundlag for dets brug som et én- eller todaglig basal-insulin. Dette er det samme aktivt stof, der markedsføres internationalt under mærkenavnet Levemir®.
+
+Fordi feltet `original_indications` i dette datasæt er tomt, kunne systemet ikke automatisk bekræfte, hvorvidt "type 1-diabetes mellitus" allerede er lægemidlets godkendt indikation snarere end en ny. Langtidsvirkende basal-insulinanaloger i denne klasse er efter design og efter regulatorisk historie angivet for basal glykæmisk kontrol i både type 1 og type 2-diabetes. Den ekstremt høje TxGNN-score (99,77%) kombineret med en meget stor mængde afsluttede fase 3-randomiserede kontrollerede forsøg afspejler mest sandsynligt et stærkt, allerede etableret lægemiddel-sygdoms-forhold i vidensgrafen — **ikke** en ny mekanistisk hypotese.
+
+Bevissamlingens egen omformålingsreference flag dette direkte: *"此案例的決策重點在於『引進/上市可行性』而非機轉新穎性…建議人工核實後移除或標註為『既有適應症之市場引進』而非典型 repurposing 候選"* (afgørelsens fokus her er markedsadgangenes gennemførlig, ikke mekanistisk nyhed; manuel gennemgang bør omklassificere dette som "markedsintroduktion af en eksisterende indikation" snarere end en typisk omformålingskandidat). Dette varsel bør løses — ved at hente lægemidlets dokumenteret oprindelige indikation fra TFDA/DrugBank/SmPC — før denne kandidat behandles som en ægte mulighed for gammel-lækemiddel-nye-bruger.
+
+---
+
+## Klinisk forsøgsbeviser
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | Completed | 752 | 6-month efficacy/safety comparison of insulin detemir vs NPH insulin in T1DM basal-bolus regimen; large direct evidence base |
-| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Phase 3 | Completed | 598 | Multinational RCT comparing detemir+aspart vs NPH+human soluble insulin in T1DM basal-bolus therapy |
-| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Phase 3 | Completed | 350 | BEGIN™ Young 1: 26-week (+26-week extension) comparison of insulin degludec vs detemir in children/adolescents with T1DM |
-| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | Completed | 330 | 12-month double-blind safety comparison of two detemir manufacturing processes in T1DM basal-bolus regimen |
-| [NCT01709929](https://clinicaltrials.gov/study/NCT01709929) | Phase 3 | Completed | 2287 | Large multicentre, non-randomised safety study of insulin detemir in T1DM and T2DM |
-| [NCT01461616](https://clinicaltrials.gov/study/NCT01461616) | Phase 3 | Completed | 19 | Open-label triple crossover trial comparing NPH, detemir and glargine on IGFBP-1/IGF-I in T1DM |
-| [NCT00738153](https://clinicaltrials.gov/study/NCT00738153) | N/A (observational) | Completed | 798 | Observational study (Africa) evaluating efficacy and serious ADR incidence with Levemir® in T1DM and T2DM |
-| [NCT00687284](https://clinicaltrials.gov/study/NCT00687284) | N/A (observational) | Completed | 2188 | Large European observational study of glycaemic control with Levemir® as initiation therapy |
-| [NCT01271517](https://clinicaltrials.gov/study/NCT01271517) | Phase 4 | Unknown | 120 | RCT in newly diagnosed adolescents comparing NPH, glargine and detemir on metabolic control and GH/IGF-I axis |
-| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | European RCT comparing detemir+aspart vs NPH+aspart in adults with T1DM |
+| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Fase 3 | Afsluttet | 752 | 6-måneders effektivitets-/sikkerhedssammenligning af insulin detemir vs NPH-insulin i T1DM basal-bolus-regimen; stort direkte bevisgrundlag |
+| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Fase 3 | Afsluttet | 598 | Multinational RCT sammenlignende detemir+aspart vs NPH+human solubel insulin i T1DM basal-bolus-terapi |
+| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Fase 3 | Afsluttet | 350 | BEGIN™ Young 1: 26-ugers (+26-ugers forlængelse) sammenligning af insulin degludec vs detemir hos børn/ungdomme med T1DM |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Fase 3 | Afsluttet | 330 | 12-måneders dobbelblind sikkerhedssammenligning af to insulindetemir-fremstillingsprocesser i T1DM basal-bolus-regimen |
+| [NCT01709929](https://clinicaltrials.gov/study/NCT01709929) | Fase 3 | Afsluttet | 2287 | Stort multi-center ikke-randomiseret sikkerhedsstudie af insulin detemir i T1DM og T2DM |
+| [NCT01461616](https://clinicaltrials.gov/study/NCT01461616) | Fase 3 | Afsluttet | 19 | Åben-label tredobbelt cross-over-forsøg sammenlignende NPH, detemir og glargine på IGFBP-1/IGF-I i T1DM |
+| [NCT00738153](https://clinicaltrials.gov/study/NCT00738153) | N/A (observationelt) | Afsluttet | 798 | Observationelt studie (Afrika) evaluering af effektivitet og alvorlige uønskede bivirkninger med Levemir® i T1DM og T2DM |
+| [NCT00687284](https://clinicaltrials.gov/study/NCT00687284) | N/A (observationelt) | Afsluttet | 2188 | Stort europæisk observationelt studie af glykæmisk kontrol med Levemir® som initierings-terapi |
+| [NCT01271517](https://clinicaltrials.gov/study/NCT01271517) | Fase 4 | Ukendt | 120 | RCT hos nydiagnosticerede ungdomme sammenlignende NPH, glargine og detemir på metabolisk kontrol og GH/IGF-I-aksen |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Fase 3 | Afsluttet | 114 | Europæisk RCT sammenlignende detemir+aspart vs NPH+aspart hos voksne med T1DM |
 
-*Note: dozens of additional Phase 1–4 trials (both RCTs and observational studies) exist in the evidence pack beyond this top-10 selection; the full set spans pregnancy, paediatric, and comparator (glargine/degludec) populations.*
+*Bemærk: dusin yderligere fase 1–4-forsøg (både RCT'er og observationelle studier) findes i bevissamlingen ud over dette top-10-udvalg; det fulde sæt omfatter graviditet, pæditrisk og komparator-populationer (glargine/degludec).*
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige fund |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT trial: open-label, multinational non-inferiority RCT of degludec vs detemir (both + aspart) in pregnant women with T1DM |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematic review/Meta-analysis | Clin Ther | Efficacy/tolerability of degludec vs other long-acting basal analogues (incl. detemir) in T1DM/T2DM |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematic review/Network meta-analysis | Value Health | Comparative efficacy and safety of basal insulin regimens in adults with T1DM |
-| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Review | Drugs | Comprehensive review of insulin detemir's role as basal therapy in T1DM and T2DM |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematic review/Meta-analysis | Pol Arch Med Wewn | Detemir vs NPH insulin in T1DM — glycaemic control outcomes |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Mechanism and clinical use of detemir in T1DM and T2DM, including reduced hypoglycaemia risk |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Early comprehensive review of detemir's pharmacology and use in T1DM/T2DM |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vasc Health Risk Manag | Updated treatment review positioning detemir among basal insulin analogues |
-| [36896906](https://pubmed.ncbi.nlm.nih.gov/36896906/) | 2024 | Review | Curr Diabetes Rev | Two-decade review of glargine in T1DM, with detemir as a key comparator |
-| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatr Drugs | Review of insulin analogue preparations, including detemir, in children/adolescents with T1DM |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT-forsøg: åben-label, multinational ikke-underlegenhedsforsøg af degludec vs detemir (begge + aspart) hos gravide kvinder med T1DM |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematisk gennemgang/Meta-analyse | Clin Ther | Effektivitet/tolerabilitet af degludec vs andre langtidsvirkende basal-analoger (inkl. detemir) i T1DM/T2DM |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematisk gennemgang/Netværks-meta-analyse | Value Health | Komparativ effektivitet og sikkerhed af basal insulin-regimener hos voksne med T1DM |
+| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Gennemgang | Drugs | Omfattende gennemgang af insulin detimirs rolle som basal-terapi i T1DM og T2DM |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematisk gennemgang/Meta-analyse | Pol Arch Med Wewn | Detemir vs NPH-insulin i T1DM — glykæmisk kontrol-resultater |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Gennemgang | Vasc Health Risk Manag | Mekanisme og klinisk brug af detemir i T1DM og T2DM, inkl. reduceret hypoglykæmi-risiko |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Gennemgang | Drugs | Tidlig omfattende gennemgang af detimirs farmakologi og brug i T1DM/T2DM |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Gennemgang | Vasc Health Risk Manag | Opdateret behandlingsgennemgang, der positionerer detemir blandt basal-insulin-analoger |
+| [36896906](https://pubmed.ncbi.nlm.nih.gov/36896906/) | 2024 | Gennemgang | Curr Diabetes Rev | To-dekader gennemgang af glargine i T1DM, med detemir som vigtig komparator |
+| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Gennemgang | Paediatr Drugs | Gennemgang af insulin-analog-præparater, inkl. detemir, hos børn/ungdomme med T1DM |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-No marketing authorisations for insulin detemir are recorded in this dataset (market status: **Not Marketed**, 0 licenses on file).
+Ingen markedsføringstilladelser for insulin detemir er registreret i dette datasæt (markedsstatus: **Ikke markedsført**, 0 licenser på fil).
 
-**Important caveat:** Insulin detemir (Levemir®) is an internationally marketed, EMA centrally-authorised product. A "0 licenses / not marketed" result in this evidence pack is inconsistent with its known global regulatory status and should be treated as a probable **data gap** rather than confirmation of true absence from the Danish market. This must be verified directly against the Laegemiddelstyrelsen register and the EMA centralised procedure database before any market-entry decision is finalised.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-**Critical outstanding gap:** TFDA/SmPC label warnings and contraindications could not be retrieved for this evaluation (data gap DG001, severity: **Blocking**). Per the evidence pack, this gap means the candidate **cannot proceed to the S1 safety initial-assessment stage** until label data is obtained. This alone is sufficient reason to hold the case regardless of the strength of the efficacy evidence above.
+**Vigtig varsel:** Insulin detemir (Levemir®) er et internationalt markedsført EMA-centraliseret produkt. Et resultat på "0 licenser / ikke markedsført" i denne bevissamling er uforenelig med dets kendte globale regulatoriske status og skal behandles som et sandsynligt **datakløft** snarere end bekræftelse af sand fravær fra det danske marked. Dette skal verificeres direkte mod Lægemiddelstyrelses register og EMA's centraliserede proceduretatabase, før en eventuel markedsadgangsbeslutning finaliseres.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendt produktresumé (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-- A **Blocking**-severity data gap (missing TFDA/SmPC warnings and contraindications) prevents any safety initial assessment (S1), independent of how strong the efficacy evidence is.
-- The predicted "new" indication (type 1 diabetes mellitus) is very likely an **already-approved, existing use** of insulin detemir rather than a genuine repurposing candidate; the case should be reclassified once the drug's documented original indication is confirmed.
-- Separately, the model's other predictions for this drug (autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, classic/focal stiff person syndrome) are all Evidence Level L5 with no supporting trials or literature, and are already correctly flagged "Hold" — these most likely reflect indirect knowledge-graph paths (shared autoimmune/comorbidity or insulin-signalling nodes) rather than plausible clinical hypotheses.
+**Kritisk udestående kløft:** Advarslerne og kontraindikationer for TFDA/SmPC-etiketten kunne ikke hentes til denne evaluering (datakløft DG001, alvorlighed: **Blokerende**). Ifølge bevissamlingen betyder dette kløft, at kandidaten **ikke kan fortsætte til S1-sikkerhedsinitialevaluerings-stadiet**, indtil etikettdata er tilgængelige. Dette alene er tilstrækkeligt grund til at tilbageholde sagen, uanset styrken af effektivitetsbeviserne ovenfor.
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/Laegemiddelstyrelsen SmPC label (warnings, contraindications) to close the Blocking data gap and enable S1 safety assessment
-- Retrieve confirmed mechanism-of-action and **original approved indication(s)** from DrugBank/regulatory sources to determine whether "type 1 diabetes mellitus" is genuinely novel or an existing use
-- Verify actual Danish/EU marketing authorisation status for insulin detemir (Levemir®), since "0 licenses / not marketed" appears inconsistent with its known EMA-centralised approval
-- If reclassified as an existing indication, redirect this evidence pack toward a market-access/pricing review rather than a repurposing evaluation
-- If any of the lower-ranked rare-disease predictions are of separate interest, commission targeted literature/mechanistic searches before further action, as none currently have any supporting evidence
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Tilbageholdelse**
+
+**Begrundelse:**
+- Et **Blokerende**-alvorligheds datakløft (manglende TFDA/SmPC-advarsler og kontraindikationer) forhindrer enhver sikkerhedsinitialevaluering (S1), uafhængigt af hvor stærk effektivitetsbeviserne er.
+- Den forudsagt "nye" indikation (type 1-diabetes mellitus) er meget sandsynligt en **allerede godkendt, eksisterende brug** af insulin detemir snarere end en ægte omformålingskandidat; sagen skal omklassificeres, når lægemidlets dokumenteret oprindelige indikation bekræftes.
+- Separat er modelens andre forudsigelser for dette lægemiddel (autoimmun ooforit, opsismodysplasi, thiamin-responsiv dysfunktionssyndrom, klassisk/fokal stiv-person-syndrom) alle bevisniveau L5 uden understøttende forsøg eller litteratur, og er allerede korrekt flag "Tilbageholdelse" — disse afspejler mest sandsynligt indirekte vidensgraps-stier (delt autoimmun/komorbidit eller insulin-signalerings-knudepunkter) snarere end plausible kliniske hypoteser.
+
+**For at fortsætte kræves følgende:**
+- Hent TFDA/Lægemiddelstyrelses SmPC-etiket (advarsler, kontraindikationer) for at lukke det blokerende datakløft og muliggøre S1-sikkerhedsevaluering
+- Hent bekræftet virkningsmekanisme og **oprindelig godkendt indikation(er)** fra DrugBank/regulatoriske kilder for at fastslå, hvorvidt "type 1-diabetes mellitus" er ægte nyhed eller en eksisterende brug
+- Verificer faktisk dansk/EU markedsføringstilladelse for insulin detemir (Levemir®), da "0 licenser / ikke markedsført" synes uforenelig med dets kendte EMA-centraliseret godkendelse
+- Hvis omklassificeret som en eksisterende indikation, omdirigér denne bevissamling mod en markedsadgang-/prisevaluering snarere end en omformålsevaluering
+- Hvis nogle af de lavere-rangerede sjælden-sygdoms-forudsigelser er særskilt interessant, skal målrettet litteratur-/mekanistiske søgninger tages i betragtning, før yderligere handling, da ingen har i øjeblikket nogen understøttende beviser
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

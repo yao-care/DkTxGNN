@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gamithromycin: From Bovine Respiratory Disease to Interventricular Septum Aneurysm
+# Gamithromycin: Fra bovint respiratorisk sygdom til interventrikular septum aneurisme
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Gamithromycin is a long-acting macrolide antibiotic developed exclusively for veterinary use, approved in several markets for treatment of bovine respiratory disease (BRD) in cattle. The TxGNN model predicts it may have activity against **Interventricular Septum Aneurysm**, with a prediction score of **95.67%**. However, **no clinical trials and no published literature** currently support this direction, and the predicted indication is a structural cardiac defect with no plausible mechanistic link to macrolide antibiotic pharmacology.
+Gamithromycin er et langtidsvirkende makrolidantibiotikum udviklet udelukkende til veterinær brug, godkendt på flere markeder til behandling af bovint respiratorisk sygdom (BRD) hos kvæg. TxGNN-modellen forudsiger, at det kan have aktivitet mod **interventrikular septum aneurisme**, med en forudsigelsesscore på **95.67%**. Imidlertid **findes der i øjeblikket ingen kliniske forsøg og ingen publiceret litteratur**, der understøtter denne retning, og den forudsagte indikation er en strukturel hjerteledefejl uden plausibel mekanistisk forbindelse til makrolidantibiotika-farmakologi.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Bovine respiratory disease (veterinary use only; no human approvals) |
-| Predicted New Indication | Interventricular Septum Aneurysm |
-| TxGNN Prediction Score | 95.67% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Bovint respiratorisk sygdom (kun veterinær brug; ingen menneskelige godkendelser) |
+| Forudsagt ny indikation | Interventrikular septum aneurisme |
+| TxGNN-forudsigelsesscore | 95.67% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data for Gamithromycin is not currently available in the Evidence Pack. Based on its drug class, Gamithromycin belongs to the azalide subclass of macrolide antibiotics and, like other macrolides (e.g., azithromycin, tulathromycin), likely exerts its antimicrobial effect by binding to the 50S ribosomal subunit, thereby inhibiting bacterial protein synthesis. Macrolides as a class are also known to have secondary immunomodulatory properties, including suppression of pro-inflammatory cytokines such as IL-6 and TNF-α. However, Gamithromycin has been developed and authorised solely for veterinary use, and no human pharmacokinetic or clinical data are available.
+Detaljerede data om virkningsmekanisme for Gamithromycin er i øjeblikket ikke tilgængelige i Evidence Pack. Baseret på sin lægemiddelklasse tilhører Gamithromycin azalidunderklassen af makrolidantibiotika og udøver, ligesom andre makrolider (f.eks. azithromycin, tulathromycin), sandsynligvis sin antimikrobielle virkning ved at binde til det 50S-ribosomale underenhed og derved hæmme bakteriel proteinsyntes. Makrolider som en klasse er også kendt for at have sekundære immunomodulatoriske egenskaber, herunder undertrykkelse af pro-inflammatoriske cytokiner såsom IL-6 og TNF-α. Imidlertid er Gamithromycin udviklet og godkendt udelukkende til veterinær brug, og der er ingen tilgængelige menneskelige farmakokinetiske eller kliniske data.
 
-Interventricular septum aneurysm (ISA) is a structural cardiac abnormality — either congenital or acquired as a sequela of myocardial infarction or inflammation — characterised by abnormal outpouching of the interventricular septum. The pathophysiology is primarily mechanical and structural, with no known infectious or sustained inflammatory driver that macrolide antibiotics could meaningfully address. The immunomodulatory properties of macrolides (cytokine suppression) do not translate to any established mechanism for remodelling or repairing cardiac wall architecture.
+Interventrikular septum aneurisme (ISA) er en strukturel hjerteledefejl — enten medfødt eller erhvervet som følge af myokardieinfarkt eller betændelse — karakteriseret ved unormal udposning af det interventrikulare septum. Patofysiologien er primært mekanisk og strukturel, uden kendt smitsom eller vedvarende inflammatorisk driver, som makrolidantibiotika kunne meningsfuldt adressere. Makrolidernes immunomodulatoriske egenskaber (cytokinsuppression) oversættes ikke til en etableret mekanisme for remodellering eller reparation af hjertevæggens arkitektur.
 
-The high TxGNN score most likely reflects indirect graph-level connectivity between the macrolide drug node and cardiac structural disease nodes in the knowledge graph, rather than a direct biological relationship. All five of the top-ranked predicted indications in this pack are structural cardiac or craniofacial developmental anomalies — a pattern consistent with a systematic knowledge graph artefact rather than true pharmacological plausibility. This prediction is assessed as a **model false positive**.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Den høje TxGNN-score afspejler højst sandsynligt indirekte grafniveaukonektivitet mellem makrolid-lægemiddelknuden og hjertesygdomsknuder i vidensgrafen, snarere end et direkte biologisk forhold. Alle fem af de øverst rangerede forudsagte indikationer i denne pakke er strukturelle hjerte- eller kraniofaciale udviklingsfejl — et mønster, der er i overensstemmelse med en systematisk vidensgrafartefakt snarere end sand farmakologisk plausibilitet. Denne forudsigelse vurderes som en **modelfalsk positiv**.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Gamithromycin holds no marketing authorisations in Denmark. The drug is not registered by the Danish Medicines Agency (Lægemiddelstyrelsen) for human use, nor does it hold a centralised EMA authorisation for human indications. It is authorised in the EU exclusively as a veterinary medicinal product (e.g., Zactran® / Tulaven® class veterinary authorisations for cattle).
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Evidens fra litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No human safety data, DDI data, contraindications, or key warnings are available in the current Evidence Pack.
-
-> **Important note for Danish healthcare professionals:** As a veterinary-only macrolide, Gamithromycin has undergone no human clinical safety evaluation. Macrolides as a class carry known risks in humans including QT interval prolongation, hepatotoxicity, and drug interactions via CYP3A4 inhibition. These class-level risks are particularly relevant given the cardiac nature of the predicted indication. Any extrapolation from veterinary pharmacology to human use would require a full first-in-human safety programme.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Gamithromycin har ingen markedsføringstilladelser i Danmark. Lægemidlet er ikke registreret af Lægemiddelstyrelsen til menneskelig brug, og det har heller ingen centraliseret EMA-godkendelse til menneskelige indikationer. Det er godkendt i EU udelukkende som et veterinært lægemiddel (f.eks. Zactran® / Tulaven® klasse veterinærgodkendelser til kvæg).
 
-**Rationale:**
-Gamithromycin is a veterinary macrolide antibiotic with no human approvals, no human clinical data, and no biological plausibility for the top-predicted indication of interventricular septum aneurysm — a structural cardiac defect incompatible with antibiotic or immunomodulatory mechanisms. The L5 evidence level (model prediction only) combined with the absence of a credible mechanistic rationale and the veterinary-only regulatory status makes further development towards this indication unjustifiable at this stage.
+---
 
-**To proceed, the following would be needed:**
+## Sikkerhedshensyn
 
-- Formal mechanistic hypothesis connecting macrolide immunomodulation to cardiac structural pathology (currently absent)
-- Human pharmacokinetic and safety data for Gamithromycin (requires dedicated first-in-human studies)
-- At least preclinical (in vitro or animal model) evidence demonstrating relevant activity in cardiac structural disease, to upgrade from L5 to L4
-- Regulatory pathway assessment from the Danish Medicines Agency (Lægemiddelstyrelsen) and EMA for reclassification from veterinary to human use
-- MOA data retrieval from DrugBank (Data Gap DG002) to enable proper mechanistic analysis
-- Re-evaluation of whether the TxGNN predictions across all five indications represent a shared graph artefact, warranting a flag in the model's output for this drug node
+Se det godkendte produktresumé (SmPC) for sikkerhedsinformation. Ingen menneskelig sikkerhedsdata, DDI-data, kontraindikationer eller vigtige advarsler er tilgængelige i det aktuelle Evidence Pack.
 
-> **This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application in patient care.**
+> **Vigtig bemærkning for danske sundhedsprofessionelle:** Som et udelukkende veterinært makrolid har Gamithromycin gennemgået ingen menneskelig klinisk sikkerhedsevaluering. Makrolider som klasse har kendt risici hos mennesker, herunder QT-interval-forlængelse, hepatotoksicitet og lægemiddelinteraktioner via CYP3A4-hæmning. Disse risici på klasseniveau er særlig relevante givet den kardiale karakter af den forudsagte indikation. Enhver ekstrapolering fra veterinær farmakologi til menneskelig brug ville kræve et fuldstændigt først-i-mennesker sikkerhedsprogram.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Gamithromycin er et veterinært makrolidantibiotikum uden menneskelige godkendelser, uden menneskelige kliniske data og uden biologisk plausibilitet for den øverst forudsagte indikation interventrikular septum aneurisme — en strukturel hjerteledefejl, der er uforenelig med antibiotika- eller immunomodulatoriske mekanismer. L5-bevisniveauet (kun modelforudsigelse) kombineret med fraværet af en troværdig mekanistisk begrundelse og den udelukkende veterinære regulatoriske status gør videre udvikling mod denne indikation uretfærdiggjort på dette stadium.
+
+**For at kunne fortsætte, ville følgende være nødvendigt:**
+
+- Formel mekanistisk hypotese, der forbinder makrolid-immunomodulation til kardial strukturel patologi (i øjeblikket fraværende)
+- Menneskelige farmakokinetiske og sikkerhedsdata for Gamithromycin (kræver dedikerede først-i-mennesker studier)
+- Mindst prækliniske (in vitro eller dyremodel) beviser, der demonstrerer relevant aktivitet i kardial strukturel sygdom, for at opgradere fra L5 til L4
+- Regulatorisk vejvurdering fra Lægemiddelstyrelsen og EMA for omklassificering fra veterinær til menneskelig brug
+- MOA-datahentning fra DrugBank (Data Gap DG002) for at muliggøre korrekt mekanistisk analyse
+- Genvurdering af, om TxGNN-forudsigelserne på tværs af alle fem indikationer repræsenterer en delt grafartefakt, der garanterer et flag i modellens output for denne lægemiddelknude
+
+> **Denne rapport er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddelomdisponering kræver klinisk validering, før de kan anvendes i patientbehandling.**
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

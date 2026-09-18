@@ -29,352 +29,353 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Drug Repurposing Evidence Report
+# Medicinalstoffers nyformål - Bevisrapport
 
-## Abemaciclib (DB12001) — Multi-Indication Analysis
+## Abemaciclib (DB12001) — Analyse af flere indikationer
 
-**Report ID**: TW-DB12001-multi | **Version**: v4
-**Date**: 2026-04-03 | **Data Cutoff**: 2026-04-03
-**Prepared for**: Lægemiddelstyrelsen (Danish Medicines Agency) Context
-
----
-
-## 1. Executive Summary
-
-| Field | Detail |
-|-------|--------|
-| **Drug** | Abemaciclib (INN); DrugBank ID: DB12001 |
-| **Brand Name** | Verzenio™ (Eli Lilly) |
-| **Proposed Indications** | 5 unique repurposing candidates identified by TxGNN prediction model |
-| **Highest Evidence Level** | **L4** (Preclinical/mechanistic) — Multiple Endocrine Neoplasia |
-| **Overall Recommendation** | **Hold / Research Question** — No candidates have direct clinical trial evidence for the proposed indications |
-
-### Top Predicted Indications Summary
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-------------|----------------|----------------|
-| 1 | Rheumatoid Arthritis | 0.973 | L5 | Hold |
-| 2 | Hyperthyroidism | 0.972 | L5 | Hold |
-| 3 | **Multiple Endocrine Neoplasia** | 0.971 | **L4** | **Research Question** |
-| 4 | Resistance to Thyroid Hormone (RTHβ) | 0.969 | L5 | Hold |
-| 5 | Homozygous Familial Hypercholesterolemia | 0.966 | L5 | Hold |
-
-**Key Findings**: Of the five predicted disease targets, only **multiple endocrine neoplasia (MEN)** reaches L4 evidence level based on a plausible mechanistic rationale connecting CDK4/6 pathway dysregulation to endocrine tumor proliferation. However, no clinical trials directly investigate abemaciclib for any of the five proposed indications. The remaining four candidates lack both clinical evidence and a credible mechanistic link, and are classified as L5 (AI prediction only). Significant data gaps exist for safety labelling and mechanism of action documentation within the Danish regulatory framework.
+**Rapport-ID**: TW-DB12001-multi | **Version**: v4
+**Dato**: 2026-04-03 | **Dataudsnit**: 2026-04-03
+**Udarbejdet for**: Lægemiddelstyrelsen – Dansk kontekst
 
 ---
 
-## 2. Drug Overview
+## 1. Ledelsesoversigt
 
-### 2.1 Approved Indications
+| Felt | Detail |
+|------|--------|
+| **Medicinalstof** | Abemaciclib (INN); DrugBank ID: DB12001 |
+| **Handelsnavn** | Verzenio™ (Eli Lilly) |
+| **Foreslåede indikationer** | 5 unikke kandidater til medicinalstoffers nyformål identificeret af TxGNN-prognosemodel |
+| **Højeste bevisniveau** | **L4** (Præklnisk/mekanistisk) — Multipel endokrin neoplasi |
+| **Samlet anbefaling** | **Hold / Forskningsspørgsmål** — Ingen kandidater har direkte klinisk forsøgsbeviser for de foreslåede indikationer |
 
-#### International Approvals (EMA/FDA)
+### Opsummering af topforeslåede indikationer
 
-Abemaciclib is approved as a selective inhibitor of cyclin-dependent kinases 4 and 6 (CDK4/6) for the treatment of:
+| Rangering | Sygdom | TxGNN-score | Bevisniveau | Anbefaling |
+|-----------|--------|-------------|-------------|-----------|
+| 1 | Reumatoid artritis | 0.973 | L5 | Hold |
+| 2 | Hypertyreoidisme | 0.972 | L5 | Hold |
+| 3 | **Multipel endokrin neoplasi** | 0.971 | **L4** | **Forskningsspørgsmål** |
+| 4 | Resistens over for thyroidhormon (RTHβ) | 0.969 | L5 | Hold |
+| 5 | Homozygot familial hyperkolesterolæmi | 0.966 | L5 | Hold |
 
-- **HR+/HER2− advanced or metastatic breast cancer** in combination with an aromatase inhibitor or fulvestrant as initial or subsequent endocrine-based therapy
-- **HR+/HER2− early-stage breast cancer** at high risk of recurrence, in combination with endocrine therapy (adjuvant setting; FDA: monarchE indication)
+**Vigtigste resultater**: Af de fem foreslåede sygdomsmål når kun **multipel endokrin neoplasi (MEN)** L4-bevisniveau baseret på en plausibel mekanistisk begrundelse, der forbinder CDK4/6-vej-dysregulering til endokrin tumorbrist. Ingen kliniske forsøg undersøger dog direkte abemaciclib for nogen af de fem foreslåede indikationer. De øvrige fire kandidater mangler både kliniske beviser og en troværdig mekanistisk forbindelse og klassificeres som L5 (kun AI-prognose). Væsentlige datahuller eksisterer for sikkerhedsmærkning og mekanisme-for-virkningsgranskelse inden for det danske regulatoriske miljø.
 
-#### Denmark (Lægemiddelstyrelsen) / EMA Status
+---
 
-Abemaciclib (Verzenio) received **EMA marketing authorisation** and is available in Denmark for the approved breast cancer indications. It is listed in the Danish national formulary under oncology therapeutics. The Medicinrådet (Danish Medicines Council) has issued recommendations regarding its use in specific breast cancer subpopulations.
+## 2. Medicinalstoffers oversigt
 
-> **Note**: The evidence pack originates from a Taiwanese (TFDA) regulatory context where abemaciclib is recorded as "Not marketed" (not marketed). In Denmark, the drug **is** available through EMA centralised authorisation.
+### 2.1 Godkendte indikationer
 
-### 2.2 Mechanism of Action
+#### Internationale godkendelser (EMA/FDA)
+
+Abemaciclib er godkendt som en selektiv hæmmer af cyclin-afhængige kinaser 4 og 6 (CDK4/6) til behandling af:
+
+- **HR+/HER2− avanceret eller metastatisk brystcancer** i kombination med en aromatasehæmmer eller fulvestrant som initial eller påfølgende hormonbaseret terapi
+- **HR+/HER2− tidligtstadium-brystcancer** med høj tilbagefaldrisiko, i kombination med hormonterapi (adjuvant indstilling; FDA: monarchE-indikation)
+
+#### Danmark (Lægemiddelstyrelsen) / EMA-status
+
+Abemaciclib (Verzenio) modtog **EMA-markedsføringstilladelse** og er tilgængelig i Danmark til de godkendte brystcancer-indikationer. Det er anført i den danske nationale farmakopé under onkologi-terapeutika. Medicinrådet har udstedt anbefalinger vedrørende dets anvendelse i specifikke brystcancer-subpopulationer.
+
+> **Bemærk**: Bevispakningen stammer fra en taiwansk (TFDA) regulatorisk kontekst, hvor abemaciclib registreres som "Ikke markedsført". I Danmark er lægemidlet **tilgængeligt** gennem EMA centraliseret godkendelse.
+
+### 2.2 Virkningsmekanisme
 
 | Parameter | Detail |
 |-----------|--------|
-| **Drug Class** | Selective CDK4/6 inhibitor |
-| **Primary Targets** | Cyclin-dependent kinase 4 (CDK4) and cyclin-dependent kinase 6 (CDK6) |
-| **Molecular Mechanism** | Inhibits CDK4/6-mediated phosphorylation of the retinoblastoma protein (Rb), preventing the G1→S cell cycle transition and arresting tumour cell proliferation |
-| **Selectivity** | Among CDK4/6 inhibitors, abemaciclib demonstrates the highest CDK4 selectivity (CDK4 IC₅₀ ~2 nM vs CDK6 IC₅₀ ~10 nM), with additional activity against CDK9 |
-| **Distinguishing Feature** | Ability to cross the blood-brain barrier (demonstrated in NCT02308020) |
+| **Medicinalstofklasse** | Selektiv CDK4/6-hæmmer |
+| **Primære mål** | Cyclin-afhængig kinase 4 (CDK4) og cyclin-afhængig kinase 6 (CDK6) |
+| **Molekylær mekanisme** | Hæmmer CDK4/6-medieret fosforylering af retinoblastoma-proteinet (Rb) og forhindrer G1→S-cellecyklus-transition og standsning af tumorcellproliferation |
+| **Selektivitet** | Blandt CDK4/6-hæmmere viser abemaciclib den højeste CDK4-selektivitet (CDK4 IC₅₀ ~2 nM mod CDK6 IC₅₀ ~10 nM), med yderligere aktivitet mod CDK9 |
+| **Distingueringsfunktion** | Evne til at krydse blod-hjerne-barrieren (demonstreret i NCT02308020) |
 
-> ⚠️ **Data Gap (DG002)**: Detailed MOA documentation from the DrugBank source was flagged as incomplete in the evidence pack. The above is supplemented from EMA Assessment Report (EPAR) and published pharmacology literature.
+> ⚠️ **Datahul (DG002)**: Detaljeret MOA-dokumentation fra DrugBank-kilden blev markeret som ufuldstændig i bevispakningen. Ovenstående er suppleret fra EMA's evalueringsrapport (EPAR) og publiceret farmakologi-litteratur.
 
-### 2.3 Pharmacokinetic Profile
+### 2.3 Farmakokinetisk profil
 
-| Parameter | Value |
+| Parameter | Værdi |
 |-----------|-------|
-| **Route** | Oral (film-coated tablets: 50 mg, 100 mg, 150 mg, 200 mg) |
-| **Bioavailability** | ~45% (absolute) |
-| **T_max** | 8 hours (median) |
-| **Protein Binding** | ~96.3% (albumin) |
-| **Metabolism** | Hepatic via CYP3A4 (primary); active metabolites M2 (N-desethylabemaciclib), M20, M18 |
-| **Half-life** | 18.3 hours (abemaciclib); 56.4 hours (M2 active metabolite) |
-| **Elimination** | Faecal (81%); renal (3.4%) |
-| **CNS Penetration** | Yes — CSF:plasma ratio demonstrated in clinical studies |
-| **Dosing** | 150 mg BID (combination); 200 mg BID (monotherapy) — continuous schedule |
+| **Administrationsvej** | Oral (filmovertrukne tabletter: 50 mg, 100 mg, 150 mg, 200 mg) |
+| **Biodisponibilitet** | ~45% (absolut) |
+| **T_max** | 8 timer (median) |
+| **Proteinbinding** | ~96,3% (albumin) |
+| **Metabolisme** | Hepatisk via CYP3A4 (primær); aktive metabolitter M2 (N-desethylabemaciclib), M20, M18 |
+| **Halveringstid** | 18,3 timer (abemaciclib); 56,4 timer (M2 aktiv metabolit) |
+| **Eliminering** | Fækalt (81%); renalt (3,4%) |
+| **CNS-penetration** | Ja — CSF:plasma-forhold demonstreret i kliniske forsøg |
+| **Dosering** | 150 mg to gange dagligt (kombination); 200 mg to gange dagligt (monoterapi) — kontinuerlig skema |
 
 ---
 
-## 3. Evidence Analysis
+## 3. Bevisanalyse
 
-### 3.1 Indication 1: Rheumatoid Arthritis (TxGNN Score: 0.973)
+### 3.1 Indikation 1: Reumatoid artritis (TxGNN-score: 0.973)
 
-**Evidence Level: L5 — AI Prediction Only**
+**Bevisniveau: L5 — Kun AI-prognose**
 
-#### Clinical Trials
-- **Direct trials**: None identified (0 results on ClinicalTrials.gov; 0 on ICTRP)
-- No registered clinical trials investigate abemaciclib for rheumatoid arthritis or any inflammatory arthropathy
+#### Kliniske forsøg
+- **Direkte forsøg**: Ingen identificeret (0 resultater på ClinicalTrials.gov; 0 på ICTRP)
+- Ingen registrerede kliniske forsøg undersøger abemaciclib til reumatoid artritis eller nogen inflammatorisk arthropati
 
-#### Published Literature
-One indirectly relevant publication was identified:
+#### Publiceret litteratur
+En indirekte relevant publikation blev identificeret:
 
-| PMID | Citation | Relevance |
-|------|----------|-----------|
-| 40504547 | Jacobs F, et al. *The Oncologist* (2025). "Pre-existing and emerging immune-mediated diseases in patients with breast cancer undergoing CDK4/6 inhibitors and endocrine therapy." | **Indirect** — This observational study examines autoimmune disease emergence (including RA) as an *adverse event* in breast cancer patients receiving CDK4/6 inhibitors, rather than as a therapeutic benefit. |
+| PMID | Citation | Relevans |
+|------|----------|----------|
+| 40504547 | Jacobs F, et al. *The Oncologist* (2025). "Præ-eksisterende og nye immun-medierede sygdomme hos patienter med brystcancer under CDK4/6-hæmmere og hormonterapi." | **Indirekte** — Denne observationsstudie undersøger autoimmun sygdoms-fremkomst (herunder RA) som en *uønsket bivirkning* hos brystcancer-patienter under CDK4/6-hæmmere, snarere end som en terapeutisk fordel. |
 
-#### Mechanistic Assessment
-**Weak and potentially contradictory**. While CDK4/6 regulates T-cell proliferation (theoretically, inhibition could suppress autoreactive T-cell expansion), clinical evidence indicates CDK4/6 inhibitors more commonly *trigger* immune-related adverse events (interstitial pneumonitis, hepatitis, autoimmune phenomena) rather than exerting immunosuppressive therapeutic effects. No preclinical data support anti-rheumatic efficacy.
+#### Mekanistisk vurdering
+**Svag og potentielt modstridende**. Selvom CDK4/6 regulerer T-celle-proliferation (teoretisk kunne hæmning undertrykke autoreaktiv T-celle-ekspansion), indikerer kliniske beviser, at CDK4/6-hæmmere oftere *udløser* immun-relaterede uønskede hændelser (interstitiel pneumonitis, hepatitis, autoimmunfænomener) snarere end at udøve immunsuppressive terapeutiske effekter. Ingen præklnisk data støtter antirheumatoid-effektivitet.
 
-#### Verdict
-❌ **Not recommended for further pursuit.** The mechanistic link is indirect and contradicted by clinical safety signals suggesting immune activation rather than suppression.
-
----
-
-### 3.2 Indication 2: Hyperthyroidism (TxGNN Score: 0.972)
-
-**Evidence Level: L5 — AI Prediction Only**
-
-#### Clinical Trials
-- **Direct trials**: None identified (0 results across all registries)
-
-#### Published Literature
-- No relevant publications identified (0 PubMed results)
-
-#### Mechanistic Assessment
-**No credible link.** Hyperthyroidism is primarily driven by TSH receptor autoantibodies (Graves' disease) or autonomous thyroid nodule secretion. The CDK4/6-Rb pathway governs cell cycle progression and has no direct connection to thyroid hormone synthesis, secretion, or autoantibody production. While CDK4/6 inhibition could theoretically reduce thyrocyte proliferation, this does not address the fundamental pathophysiology of hormone overproduction.
-
-#### Verdict
-❌ **Not recommended for further pursuit.** No mechanistic, preclinical, or clinical basis exists.
+#### Konklusion
+❌ **Ikke anbefalet til yderligere forfølgelse.** Den mekanistiske forbindelse er indirekte og modsagt af kliniske sikkerhedssignaler, der foreslår immunaktivering snarere end undertrykkelse.
 
 ---
 
-### 3.3 Indication 3: Multiple Endocrine Neoplasia (TxGNN Score: 0.971)
+### 3.2 Indikation 2: Hypertyreoidisme (TxGNN-score: 0.972)
 
-**Evidence Level: L4 — Preclinical/Mechanistic Evidence**
+**Bevisniveau: L5 — Kun AI-prognose**
 
-> ⭐ **Highest-ranked candidate by evidence quality**
+#### Kliniske forsøg
+- **Direkte forsøg**: Ingen identificeret (0 resultater på tværs af alle registre)
 
-#### Clinical Trials
+#### Publiceret litteratur
+- Ingen relevante publikationer identificeret (0 PubMed-resultater)
 
-22 clinical trials were retrieved from ClinicalTrials.gov. However, upon expert review, **none directly investigate abemaciclib for MEN syndrome**. All retrieved trials relate to abemaciclib use in breast cancer or other solid tumours. Key trials reviewed:
+#### Mekanistisk vurdering
+**Ingen troværdig forbindelse.** Hypertyreoidisme er primært drevet af TSH-receptor-autoantistoffer (Graves' sygdom) eller autonom thyroidea-nodule-sekretion. CDK4/6-Rb-vejen styrer cellecyklus-progression og har ingen direkte forbindelse til thyreoidea-hormon-syntese, sekretion eller autoantistof-produktion. Selvom CDK4/6-hæmning teoretisk kunne reducere thyreocyt-proliferation, adresserer det ikke thyreoidea-hormon-overprodukering.
 
-| NCT ID | Phase | Status | N | Disease | Relevance to MEN |
-|--------|-------|--------|---|---------|-------------------|
-| NCT02107703 (MONARCH 2) | Phase 3 | Active | 669 | HR+/HER2− breast cancer | **C** — Safety/efficacy profile reference only |
-| NCT02308020 | Phase 2 | Completed | 162 | Brain metastases (breast, NSCLC, melanoma) | **C** — Demonstrates CNS penetration; potentially relevant to MEN1-associated pituitary tumours |
-| NCT02981342 | Phase 2 | Completed | 106 | Metastatic pancreatic cancer | **C** — Pancreatic tumours share features with MEN1-associated pNETs |
-| NCT03675893 (RESOLVE) | Phase 2 | Recruiting | 180 | Endometrial/ovarian cancer | **C** — Hormone-sensitive tumour context |
-| NCT04931342 | Phase 2 | Active | 176 | Rare epithelial ovarian tumours | **C** — Biomarker-driven platform; proof-of-concept for rare tumour types |
-
-#### Published Literature
-- No MEN-specific publications identified (0 PubMed results)
-
-#### Mechanistic Assessment
-**Moderately plausible.** Several molecular connections support investigation:
-
-1. **MEN1/Menin–Cyclin D axis**: Loss of menin protein (MEN1 gene mutations) leads to upregulation of Cyclin D1, a direct activator of CDK4/6. CDK4/6 inhibition could therefore address downstream consequences of menin loss.
-2. **Pancreatic NETs (pNETs)**: MEN1-associated pNETs show dependency on cell cycle progression pathways. Early-phase studies of CDK4/6 inhibitors in pNETs exist in the broader literature.
-3. **CDK4 amplification**: Some endocrine tumours (particularly well-differentiated NETs) harbour CDK4 gene amplification or Rb pathway alterations.
-4. **CNS penetration**: Abemaciclib's ability to cross the blood-brain barrier is relevant for MEN1-associated pituitary adenomas.
-
-**Limitations**: MEN is a hereditary syndrome with multi-organ tumour manifestations; single-target therapy is unlikely to provide comprehensive disease control. No direct clinical trial data exist.
-
-#### Verdict
-🔬 **Research Question** — Warrants further preclinical investigation, particularly in MEN1-associated pNET cell lines and menin-deficient tumour models. A basket trial or case series in MEN1 patients with progressive tumours could be considered.
+#### Konklusion
+❌ **Ikke anbefalet til yderligere forfølgelse.** Ingen mekanistisk, præklnisk eller klinisk grundlag eksisterer.
 
 ---
 
-### 3.4 Indication 4: Resistance to Thyroid Hormone (RTHβ) (TxGNN Score: 0.969)
+### 3.3 Indikation 3: Multipel endokrin neoplasi (TxGNN-score: 0.971)
 
-**Evidence Level: L5 — AI Prediction Only**
+**Bevisniveau: L4 — Præklnisk/mekanistisk beviser**
 
-#### Clinical Trials
-- **Direct trials**: None identified (0 results across all registries)
+> ⭐ **Højest rangeret kandidat efter bevisstyrke**
 
-#### Published Literature
-- No relevant publications identified (0 PubMed results)
+#### Kliniske forsøg
 
-#### Mechanistic Assessment
-**No credible link.** RTHβ results from mutations in the THRB gene encoding thyroid hormone receptor beta, causing impaired receptor signalling. This is a nuclear receptor/transcription factor defect with no intersection with CDK4/6-mediated cell cycle control. CDK4/6 inhibition cannot correct a mutant hormone receptor.
+22 kliniske forsøg blev hentet fra ClinicalTrials.gov. Ved ekspertgennemsyn undersøger **ingen dog direkte abemaciclib til MEN-syndrom**. Alle hentede forsøg relaterer til abemaciclib-brug til brystcancer eller andre solide tumorer. Vigtigste gennemgåede forsøg:
 
-#### Verdict
-❌ **Not recommended for further pursuit.** Fundamental pathway mismatch.
+| NCT ID | Fase | Status | N | Sygdom | Relevans til MEN |
+|--------|------|--------|---|--------|-------------------|
+| NCT02107703 (MONARCH 2) | Fase 3 | Aktiv | 669 | HR+/HER2− avanceret eller metastatisk brystcancer | **C** — Sikkerhed/effektivitets-profil referencering kun |
+| NCT02308020 | Fase 2 | Gennemført | 162 | Hjernemetastaser (bryst, NSCLC, melanom) | **C** — Demonstrerer CNS-penetration; potentielt relevant til MEN1-associeret pituitær-tumorer |
+| NCT02981342 | Fase 2 | Gennemført | 106 | Metastatisk pankreascancer | **C** — Pankreastumorer deler træk med MEN1-associerede pNETs |
+| NCT03675893 (RESOLVE) | Fase 2 | Rekrutterer | 180 | Endometrial/ovarial cancer | **C** — Hormonafhængig tumor-kontekst |
+| NCT04931342 | Fase 2 | Aktiv | 176 | Sjældne epithelial ovarialtumorer | **C** — Biomarkør-drevet platform; proof-of-concept til sjældne tumortyper |
 
----
+#### Publiceret litteratur
+- Ingen MEN-specifikke publikationer identificeret (0 PubMed-resultater)
 
-### 3.5 Indication 5: Homozygous Familial Hypercholesterolemia (TxGNN Score: 0.966)
+#### Mekanistisk vurdering
+**Moderat plausibel.** Flere molekylære forbindelser støtter undersøgelse:
 
-**Evidence Level: L5 — AI Prediction Only**
+1. **MEN1/Menin–Cyclin D-akse**: Tab af menin-protein (MEN1-genmutationer) fører til opregulering af Cyclin D1, en direkte aktivator af CDK4/6. CDK4/6-hæmning kunne derfor adressere nedstrøms-følger af menin-tab.
+2. **Pankreatisk NET'er (pNET'er)**: MEN1-associerede pNET'er viser afhængighed af cellecyklus-progression-veje. Tidlige-fase-studier af CDK4/6-hæmmere i pNET'er eksisterer i det bredere litteratur.
+3. **CDK4-amplifikation**: Nogle endokrine tumorer (især veldifferentierede NET'er) bærer CDK4-gensamplifikation eller Rb-vej-alterationer.
+4. **CNS-penetration**: Abemaciclibs evne til at krydse blod-hjerne-barrieren er relevant for MEN1-associerede pituitær-adenomer.
 
-#### Clinical Trials
-- **Direct trials**: None identified (0 results across all registries)
+**Begrænsninger**: MEN er et hereditært syndrom med multi-organ tumor-manifestationer; enkelt-mål-terapi vil sandsynligvis ikke give omfattende sygdomskontrol. Ingen direkte kliniske forsøgsdata eksisterer.
 
-#### Published Literature
-- No relevant publications identified (0 PubMed results)
-
-#### Mechanistic Assessment
-**No credible link.** HoFH is caused by homozygous mutations in LDLR, APOB, or PCSK9 genes, leading to severely impaired LDL clearance. Cholesterol metabolism and LDL receptor biology operate through pathways entirely distinct from CDK4/6 cell cycle regulation. Although tangential research exists linking cell proliferation with lipid metabolism, this does not constitute a viable therapeutic hypothesis for CDK4/6 inhibition in hypercholesterolemia.
-
-#### Verdict
-❌ **Not recommended for further pursuit.** No biological plausibility.
-
----
-
-## 4. Safety Considerations
-
-> ⚠️ **Data Gap (DG001)**: Local regulatory labelling (TFDA 仿單) was not available. The following safety information is derived from the EMA Summary of Product Characteristics (SmPC) for Verzenio and published clinical trial data.
-
-### 4.1 Known Adverse Effects
-
-| Category | Common (≥10%) | Serious / Notable |
-|----------|---------------|-------------------|
-| **Gastrointestinal** | Diarrhoea (81–86%), nausea (45%), vomiting (26%), abdominal pain (20%) | Grade 3-4 diarrhoea (13%); requires dose modification |
-| **Haematological** | Neutropenia (41–46%), anaemia (29%), thrombocytopenia (16%), leukopenia (21%) | Grade 3-4 neutropenia (24%); febrile neutropenia rare (~1%) |
-| **Hepatic** | ALT elevation (13%), AST elevation (11%) | Grade 3-4 hepatotoxicity (~4%); hepatic failure (rare) |
-| **Infections** | Infections (31%) | Sepsis, pneumonia |
-| **Thromboembolic** | Venous thromboembolism (2–5%) | Pulmonary embolism, DVT |
-| **Pulmonary** | — | Interstitial lung disease/pneumonitis (~3%; some fatal) |
-| **Renal** | Serum creatinine increase (98%) | Inhibition of tubular secretion transporters (OCT2, MATE); not reflective of GFR change |
-| **General** | Fatigue (40%), decreased appetite (24%) | — |
-
-### 4.2 Drug Interactions
-
-| Interaction Type | Agent | Effect | Clinical Significance |
-|------------------|-------|--------|----------------------|
-| **CYP3A4 inhibitors** (strong) | Ketoconazole, clarithromycin, itraconazole | ↑ Abemaciclib exposure (AUC +16-fold with ketoconazole) | **Contraindicated or dose reduction required** |
-| **CYP3A4 inducers** (strong) | Rifampicin, phenytoin, carbamazepine | ↓ Abemaciclib exposure (AUC −90% with rifampicin) | **Avoid co-administration** |
-| **CYP3A4 substrates** (sensitive) | Midazolam, simvastatin | ↑ Substrate exposure | Monitor; consider dose adjustment |
-| **Transporter substrates** | Metformin (OCT2/MATE) | ↑ Metformin exposure | Monitor renal function |
-
-> ⚠️ **DDI Query Status**: The evidence pack DDI search returned 0 results, indicating a data gap. The above is supplemented from the EMA SmPC.
-
-### 4.3 Contraindications
-
-- Hypersensitivity to abemaciclib or any excipient
-- Co-administration with strong CYP3A4 inhibitors should be avoided or managed with dose reduction
-- Severe hepatic impairment (Child-Pugh C) — not recommended due to increased exposure
-
-### 4.4 Special Considerations for Repurposing
-
-For the proposed non-oncology indications, the following safety concerns are particularly relevant:
-
-| Concern | Impact on Repurposing |
-|---------|----------------------|
-| **Myelosuppression** | Unacceptable risk–benefit for non-malignant conditions (RA, hyperthyroidism, HoFH) |
-| **Diarrhoea severity** | Quality-of-life impact likely unacceptable for chronic non-oncology use |
-| **Immunomodulation** | Paradoxically may *worsen* autoimmune conditions |
-| **Teratogenicity** | Embryo-foetal toxicity demonstrated in animal studies; contraindicated in pregnancy |
-| **Cost** | Approximately DKK 25,000–30,000/month; not justifiable for unproven indications |
+#### Konklusion
+🔬 **Forskningsspørgsmål** — Berettiget til yderligere præklnisk undersøgelse, især i MEN1-associerede pNET-celllinjer og menin-deficiente tumor-modeller. En basket-forsøg eller casuserie i MEN1-patienter med progressive tumorer kunne overvejes.
 
 ---
 
-## 5. Regulatory Status
+### 3.4 Indikation 4: Resistens over for thyroidhormon (RTHβ) (TxGNN-score: 0.969)
 
-### 5.1 Denmark (Lægemiddelstyrelsen)
+**Bevisniveau: L5 — Kun AI-prognose**
+
+#### Kliniske forsøg
+- **Direkte forsøg**: Ingen identificeret (0 resultater på tværs af alle registre)
+
+#### Publiceret litteratur
+- Ingen relevante publikationer identificeret (0 PubMed-resultater)
+
+#### Mekanistisk vurdering
+**Ingen troværdig forbindelse.** RTHβ skyldes mutationer i THRB-genet, der koder for thyroidea-hormon-receptor beta, hvilket forårsager forringet receptor-signalering. Dette er en nukleær-receptor/transskriptions-faktor-defekt uden skæring med CDK4/6-medieret cellecyklus-kontrol. CDK4/6-hæmning kan ikke korrigere en mutant hormonreceptor.
+
+#### Konklusion
+❌ **Ikke anbefalet til yderligere forfølgelse.** Grundlæggende vej-mismatch.
+
+---
+
+### 3.5 Indikation 5: Homozygot familial hyperkolesterolæmi (TxGNN-score: 0.966)
+
+**Bevisniveau: L5 — Kun AI-prognose**
+
+#### Kliniske forsøg
+- **Direkte forsøg**: Ingen identificeret (0 resultater på tværs af alle registre)
+
+#### Publiceret litteratur
+- Ingen relevante publikationer identificeret (0 PubMed-resultater)
+
+#### Mekanistisk vurdering
+**Ingen troværdig forbindelse.** HoFH skyldes homozygote mutationer i LDLR-, APOB- eller PCSK9-gener, hvilket fører til alvorlig forringet LDL-clearance. Kolesterol-metabolisme og LDL-receptor-biologi opererer gennem veje helt adskilt fra CDK4/6 cellecyklus-regulering. Selvom tangential forskning eksisterer, der forbinder celloproliferation med lipid-metabolisme, udgør dette ikke en levedygtig terapeutisk hypotese for CDK4/6-hæmning i hyperkolesterolæmi.
+
+#### Konklusion
+❌ **Ikke anbefalet til yderligere forfølgelse.** Ingen biologisk plausibilitet.
+
+---
+
+## 4. Sikkerhedshensyn
+
+> ⚠️ **Datahul (DG001)**: Lokal regulatorisk mærkning (TFDA 仿單) var ikke tilgængelig. Følgende sikkerhedsinformationer er afledt fra EMA's sammenfatning af produktkarakteristika (SmPC) til Verzenio og publicerede kliniske forsøgsdata.
+
+### 4.1 Kendte uønskede virknigner
+
+| Kategori | Almindelig (≥10%) | Alvorlige / Bemærkelsesværdige |
+|----------|-------------------|--------------------------------|
+| **Gastrointestinal** | Diarré (81–86%), kvalme (45%), opkastning (26%), mavesmerter (20%) | Grad 3-4 diarré (13%); kræver dosistilpasning |
+| **Hæmatologisk** | Neutropeni (41–46%), anæmi (29%), trombocytopeni (16%), leukopeni (21%) | Grad 3-4 neutropeni (24%); febril neutropeni sjælden (~1%) |
+| **Hepatisk** | ALT-stigning (13%), AST-stigning (11%) | Grad 3-4 hepatotoxicitet (~4%); hepatisk svigt (sjælden) |
+| **Infektioner** | Infektioner (31%) | Sepsis, lungebetændelse |
+| **Tromboembolisk** | Venøs tromboembolisme (2–5%) | Lungeembolisme, dybde venøs trombose |
+| **Pulmonær** | — | Interstitiel lungesygdom/pneumonitis (~3%; nogle dødelige) |
+| **Nyre** | Serum-kreatinin-stigning (98%) | Hæmning af tubulær-sekretion-transportører (OCT2, MATE); reflekterer ikke GFR-ændring |
+| **Generel** | Træthed (40%), nedsat appetit (24%) | — |
+
+### 4.2 Medicinalstof-interaktioner
+
+| Interaktionstype | Agent | Effekt | Klinisk betydning |
+|------------------|-------|--------|-------------------|
+| **CYP3A4-hæmmere** (stærk) | Ketokonazol, klarithromycin, itrakonazol | ↑ Abemaciclib-eksponering (AUC +16-fold med ketokonazol) | **Kontraindikeret eller dosisstigning påkrævet** |
+| **CYP3A4-inducere** (stærk) | Rifampicin, phenytoin, carbamazepin | ↓ Abemaciclib-eksponering (AUC −90% med rifampicin) | **Undgå samlinjing** |
+| **CYP3A4-substrater** (følsomme) | Midazolam, simvastatin | ↑ Substrat-eksponering | Overvåg; overvej dosisjustering |
+| **Transportør-substrater** | Metformin (OCT2/MATE) | ↑ Metformin-eksponering | Overvåg nyrfunktion |
+
+> ⚠️ **DDI-forespørgselsstatus**: Bevispakningen DDI-søgning returnerede 0 resultater, hvilket indikerer et datahul. Ovenstående er suppleret fra EMA SmPC.
+
+### 4.3 Kontraindikationer
+
+- Overfølsomhed over for abemaciclib eller nogen hjælpestof
+- Co-administration med stærke CYP3A4-hæmmere bør undgås eller håndteres med dosisstigning
+- Alvorlig hepatisk svigt (Child-Pugh C) — ikke anbefalet på grund af øget eksponering
+
+### 4.4 Særlige hensyn til medicinalstoffers nyformål
+
+For de foreslåede non-onkologi-indikationer er følgende sikkerhedsbetingelser især relevante:
+
+| Betingelse | Indflydelse på nyformål |
+|-----------|------------------------|
+| **Myeloundertrykkelse** | Uacceptabel risiko-fordel til ikke-maligne tilstande (RA, hypertyreoidisme, HoFH) |
+| **Diarré-alvorlighed** | Livskvalitets-påvirkning sandsynligvis uacceptabel til kronisk non-onkologi-brug |
+| **Immunmodulering** | Paradoksalt kan *forværre* autoimmune tilstande |
+| **Teratogenicitet** | Embryo-føtal-toksicitet demonstreret i dyreforsøg; kontraindikeret i graviditet |
+| **Omkostninger** | Cirka DKK 25.000–30.000/måned; ikke begrundet for uprøvede indikationer |
+
+---
+
+## 5. Regulatorisk status
+
+### 5.1 Danmark (Lægemiddelstyrelsen)
 
 | Parameter | Status |
 |-----------|--------|
-| **Marketing Authorisation** | ✅ Authorised via EMA centralised procedure |
-| **Brand Name** | Verzenio (Eli Lilly) |
-| **Approved Indication** | HR+/HER2− breast cancer (advanced/metastatic and adjuvant) |
-| **Reimbursement** | Subject to Medicinrådet recommendation; available through hospital-based oncology |
-| **Repurposing Status** | No applications or compassionate use programmes for any predicted indication |
+| **Markedsføringstilladelse** | ✅ Godkendt via EMA centraliseret procedure |
+| **Handelsnavn** | Verzenio (Eli Lilly) |
+| **Godkendt indikation** | HR+/HER2− brystcancer (avanceret/metastatisk og adjuvant) |
+| **Refusion** | Underlagt Medicinrådets anbefaling; tilgængelig gennem hospital-baseret onkologi |
+| **Nyformål-status** | Ingen ansøgninger eller compassionate use-programmer til nogen foreslået indikation |
 
-### 5.2 European Medicines Agency (EMA)
+### 5.2 Det Europæiske Lægemiddelagentur (EMA)
 
 | Parameter | Status |
 |-----------|--------|
-| **Initial Authorisation** | 27 September 2018 (EU/1/18/1307) |
-| **Indication Extensions** | Adjuvant breast cancer (2022) |
-| **Orphan Designation** | None for any predicted indication |
-| **PRIME Designation** | Not applicable for predicted indications |
-| **Paediatric Investigation Plan** | Completed for approved indication |
+| **Initial godkendelse** | 27. september 2018 (EU/1/18/1307) |
+| **Indikations-udvidelser** | Adjuvant brystcancer (2022) |
+| **Orphan-betegnelse** | Ingen til nogen foreslået indikation |
+| **PRIME-betegnelse** | Ikke relevant til foreslåede indikationer |
+| **Pediatrisk undersøgelsesplan** | Gennemført til godkendt indikation |
 
 ### 5.3 US FDA
 
 | Parameter | Status |
 |-----------|--------|
-| **Approval Date** | 28 September 2017 (accelerated); 12 October 2021 (adjuvant) |
-| **Approved Indications** | HR+/HER2− advanced/metastatic breast cancer; high-risk early breast cancer (adjuvant) |
-| **Breakthrough Therapy** | Not for predicted indications |
+| **Godkendelsesdato** | 28. september 2017 (accelereret); 12. oktober 2021 (adjuvant) |
+| **Godkendte indikationer** | HR+/HER2− avanceret/metastatisk brystcancer; højrisiko tidligtstadium brystcancer (adjuvant) |
+| **Breakthrough Therapy** | Ikke til foreslåede indikationer |
 
-### 5.4 Taiwan (TFDA) — Source Context
+### 5.4 Taiwan (TFDA) — Kildedata
 
 | Parameter | Status |
 |-----------|--------|
-| **Market Status** | Not marketed (Not marketed) |
-| **Total Licences** | 0 |
+| **Markeds-status** | Ikke markedsført |
+| **Samlede licenser** | 0 |
 
 ---
 
-## 6. Conclusion and Recommendations
+## 6. Konklusion og anbefalinger
 
-### 6.1 Overall Assessment
+### 6.1 Samlet vurdering
 
-| Indication | Evidence | Mechanistic Link | Safety Feasibility | Overall |
-|------------|----------|------------------|--------------------|---------|
-| **Multiple Endocrine Neoplasia** | L4 | Moderate | Acceptable (oncology context) | 🔬 Research Question |
-| Rheumatoid Arthritis | L5 | Weak/Contradictory | Poor (toxicity profile) | ❌ Hold |
-| Hyperthyroidism | L5 | None | Poor | ❌ Hold |
-| RTHβ | L5 | None | Poor | ❌ Hold |
-| HoFH | L5 | None | Poor | ❌ Hold |
+| Indikation | Beviser | Mekanistisk forbindelse | Sikkerhedsmulighed | Samlet |
+|-----------|---------|------------------------|--------------------|--------|
+| **Multipel endokrin neoplasi** | L4 | Moderat | Acceptabel (onkologi-kontekst) | 🔬 Forskningsspørgsmål |
+| Reumatoid artritis | L5 | Svag/modstridende | Dårlig (giftighedsprofil) | ❌ Hold |
+| Hypertyreoidisme | L5 | Ingen | Dårlig | ❌ Hold |
+| RTHβ | L5 | Ingen | Dårlig | ❌ Hold |
+| HoFH | L5 | Ingen | Dårlig | ❌ Hold |
 
-**Only one candidate — Multiple Endocrine Neoplasia — demonstrates sufficient scientific rationale to warrant further investigation.** The remaining four indications lack both biological plausibility and clinical evidence, and the toxicity profile of abemaciclib (myelosuppression, severe diarrhoea, hepatotoxicity) renders it unsuitable for non-oncological, chronic-disease applications.
+**Kun en kandidat — Multipel endokrin neoplasi — demonstrerer tilstrækkelig videnskabelig begrundelse til yderligere undersøgelse.** De øvrige fire indikationer mangler både biologisk plausibilitet og kliniske beviser, og abemaciclibs giftighedsprofil (myeloundertrykkelse, alvorlig diarré, hepatotoxicitet) gør det uegnet til ikke-onkologiske, kroniske-sygdoms-applikationer.
 
-### 6.2 Evidence Gaps
+### 6.2 Bevishuller
 
-| Gap ID | Description | Severity | Recommended Action |
-|--------|-------------|----------|-------------------|
-| DG001 | Local regulatory labelling (safety warnings/contraindications) | Blocking | Obtain EMA SmPC and Danish national labelling |
-| DG002 | Mechanism of action documentation in evidence pack | High | Query DrugBank API; supplement from EMA EPAR |
-| — | No direct clinical trials for any predicted indication | High | Literature surveillance; monitor ClinicalTrials.gov |
-| — | No MEN-specific preclinical data in pack | Medium | Systematic PubMed search for "CDK4/6 inhibitor" AND "MEN1" or "neuroendocrine tumour" |
-| — | Duplicate entries in prediction output (ranks 1/2, 3/4, 5/6, 7/8, 9/10) | Low | Deduplicate TxGNN output pipeline |
+| Hul-ID | Beskrivelse | Alvorlighed | Anbefalet handling |
+|--------|-----------|------------|------------------|
+| DG001 | Lokal regulatorisk mærkning (sikkerhedsadvarsler/kontraindikationer) | Blokerer | Indhent EMA SmPC og dansk national mærkning |
+| DG002 | Mekanisme-for-virknings-dokumentation i bevispakning | Høj | Forespørg DrugBank API; supplér fra EMA EPAR |
+| — | Ingen direkte kliniske forsøg til nogen foreslået indikation | Høj | Litteratur-overvågning; overvåg ClinicalTrials.gov |
+| — | Ingen MEN-specifik præklnisk data i pakning | Mellem | Systematisk PubMed-søgning for "CDK4/6 hæmmer" AND "MEN1" eller "neuroendokrin tumor" |
+| — | Duplikat-indlæg i prognoseoutput (rækker 1/2, 3/4, 5/6, 7/8, 9/10) | Lav | Deduplikér TxGNN output-pipeline |
 
-### 6.3 Suggested Next Steps
+### 6.3 Foreslåede næste trin
 
-#### For Multiple Endocrine Neoplasia (Priority Candidate)
+#### For Multipel endokrin neoplasi (prioritet-kandidat)
 
-1. **Targeted Literature Review**: Conduct a systematic search for CDK4/6 inhibitors (abemaciclib, palbociclib, ribociclib) in neuroendocrine tumours, MEN1-associated pNETs, and pituitary adenomas
-2. **Preclinical Validation**: Evaluate abemaciclib efficacy in menin-deficient cell line models (e.g., BON-1, QGP-1 pancreatic NET lines)
-3. **Clinical Signal Mining**: Query EMA EudraVigilance and FAERS databases for MEN patients who received CDK4/6 inhibitors for concurrent breast cancer — assess any incidental tumour responses
-4. **Collaboration**: Engage Danish ENETS (European Neuroendocrine Tumor Society) centres for potential case series or basket trial design
-5. **Regulatory Pathway**: Consider EMA orphan medicinal product designation for MEN1-associated progressive NETs if preclinical data are supportive
+1. **Målrettet litteraturgennemgang**: Gennemfør systematisk søgning for CDK4/6-hæmmere (abemaciclib, palbociclib, ribociclib) i neuroendokrine tumorer, MEN1-associerede pNET'er og pituitær-adenomer
+2. **Præklnisk validering**: Vurder abemaciclib-effektivitet i menin-deficiente cellinje-modeller (f.eks. BON-1, QGP-1 pankreatisk NET-linjer)
+3. **Klinisk signal-minedrift**: Forespørg EMA EudraVigilance og FAERS-databaser for MEN-patienter, som modtog CDK4/6-hæmmere til samtidig brystcancer — vurder eventuel incidental tumor-reaktion
+4. **Samarbejde**: Engagér danske ENETS (European Neuroendocrine Tumor Society) centre til potentiel casusserie eller basket-forsøg design
+5. **Regulatorisk vej**: Overvej EMA orphan medicinal product-betegnelse til MEN1-associerede progressive NET'er hvis præklnisk data er supportivt
 
-#### For All Other Candidates
+#### For alle øvrige kandidater
 
-6. **No further action recommended** at this time for rheumatoid arthritis, hyperthyroidism, RTHβ, or HoFH
-7. **Pipeline Improvement**: Address duplicate entries in TxGNN output; recalibrate prediction model to incorporate mechanism-of-action pathway compatibility as a filtering criterion
+6. **Ingen yderligere handling anbefalet** på nuværende tidspunkt til reumatoid artritis, hypertyreoidisme, RTHβ eller HoFH
+7. **Pipeline-forbedring**: Løs duplikat-indlæg i TxGNN-output; rekalibrér prognose-model til at indarbejde mekanisme-for-virkning-vej-kompatibilitet som filter-kriterium
 
-#### Data Gap Remediation
+#### Datahul-afhjælpning
 
-8. Resolve **DG001** (Blocking): Obtain complete EMA SmPC for Danish regulatory context
-9. Resolve **DG002** (High): Complete DrugBank API query for comprehensive MOA data
-
----
-
-## Appendix A: Data Sources Queried
-
-| Source | Queries | Results Found |
-|--------|---------|---------------|
-| ClinicalTrials.gov | 10 disease-specific queries | 22 (MEN-related keyword match; none directly relevant) |
-| WHO ICTRP | 10 disease-specific queries | 0 |
-| PubMed | 10 disease-specific queries | 1 (indirect; RA-related) |
-| DrugBank | 1 drug query | 1 |
-| DDI Database | 1 drug query | 0 (data gap) |
-
-## Appendix B: TxGNN Model Note
-
-The TxGNN knowledge graph prediction model generated high confidence scores (0.966–0.973) for all five candidate indications. However, these scores reflect topological proximity within the biomedical knowledge graph and **do not incorporate mechanism-of-action compatibility, safety feasibility, or clinical translatability assessments**. The high false-positive rate observed (4 of 5 candidates lack biological plausibility) suggests that post-prediction mechanistic filtering is essential for this drug class.
+8. Løs **DG001** (Blokerer): Indhent komplet EMA SmPC til dansk regulatorisk kontekst
+9. Løs **DG002** (Høj): Gennemfør DrugBank API-forespørgsel til omfattende MOA-data
 
 ---
 
-> **Disclaimer**: This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require rigorous clinical validation before any therapeutic application. This analysis has not been reviewed or endorsed by the Lægemiddelstyrelsen, EMA, or any regulatory authority. Healthcare professionals should be consulted before making any treatment decisions.
+## Bilag A: Datakilde-kildesporinger
+
+| Kilde | Forespørgsler | Resultater fundet |
+|-------|---------------|------------------|
+| ClinicalTrials.gov | 10 sygdoms-specifikke forespørgsler | 22 (MEN-relateret nøgleord-match; ingen direkte relevant) |
+| WHO ICTRP | 10 sygdoms-specifikke forespørgsler | 0 |
+| PubMed | 10 sygdoms-specifikke forespørgsler | 1 (indirekte; RA-relateret) |
+| DrugBank | 1 medicinalstof-forespørgsel | 1 |
+| DDI-database | 1 medicinalstof-forespørgsel | 0 (datahul) |
+
+## Bilag B: TxGNN-model-bemærkning
+
+TxGNN-viden-graf-prognose-modellen genererede høje konfidensscorer (0.966–0.973) til alle fem kandidat-indikationer. Disse scorer reflekterer dog topologisk nærhed inden for den biomedikale viden-graf og **indarbejder ikke mekanisme-for-virkning-kompatibilitet, sikkerhedsmulighed eller klinisk translatabilitet-vurderinger**. Den høje falsk-positiv-rate observeret (4 af 5 kandidater mangler biologisk plausibilitet) foreslår, at post-prognose mekanistisk filtrering er væsentlig til denne medicinalstof-klasse.
+
+---
+
+> **Fraskrivelse**: Denne rapport er genereret til forskningsformål alene og udgør ikke lægeligt råd. Alle medicinalstoffers nyformål-kandidater kræver stringent klinisk validering før nogen terapeutisk applikation. Denne analyse er ikke blevet gennemgået eller godkendt af Lægemiddelstyrelsen, EMA eller nogen regulatorisk myndighed. Sundhedspersonale bør konsulteres før enhver behandlingsbeslutning.
 >
-> *Report generated: 2026-04-03 | Evidence pack version: v4 | Candidate ID: TW-DB12001-multi*
+> *Rapport genereret: 2026-04-03 | Bevispakning version: v4 | Kandidat ID: TW-DB12001-multi*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dornase alfa: From Cystic Fibrosis to Mixed Mineral Dust Pneumoconiosis
+# Dornase alfa: Fra cystisk fibrose til blandet mineralstofdammpneumokoniose
 
-## One-Sentence Summary
+## En-sætnings sammenfattelse
 
-Dornase alfa (brand name: Pulmozyme) is a recombinant human deoxyribonuclease I (DNase I) enzyme originally approved for the management of cystic fibrosis (CF), where it reduces airway mucus viscosity by degrading extracellular DNA released from degenerating neutrophils.
-The TxGNN model predicts it may be effective for **mixed mineral dust pneumoconiosis** — an occupational lung disease driven by chronic mineral dust-induced inflammation.
-However, no clinical trials or published literature currently support this direction, and all 10 predicted indications in this pack are rated **L5 (model prediction only)**, with an overall recommendation of **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Cystic fibrosis (inhaled mucolytic / DNase therapy) |
-| Predicted New Indication | Mixed mineral dust pneumoconiosis |
-| TxGNN Prediction Score | 50.00% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Dornase alfa (handelsnavn: Pulmozyme) er et rekombinant humant deoxyribonuklease I (DNase I) enzym, der oprindeligt blev godkendt til behandling af cystisk fibrose (CF), hvor det reducerer viskositeten i luftvejsslim ved at nedbryde ekstracellulær DNA, der frigives fra degenererende neutrofiler.
+TxGNN-modellen forudsiger, at det kan være effektivt ved **blandet mineralstofdammpneumokoniose** — en erhvervsbetinget lungesygdom drevet af kronisk mineralstofdamminduceret betændelse.
+Imidlertid understøttes denne retning ikke i øjeblikket af kliniske forsøg eller publiceret litteratur, og alle 10 forudsagte indikationer i denne pakke er klassificeret som **L5 (kun modelforudsigelse)**, med en samlet anbefaling af **Hold**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacology, Dornase alfa is a recombinant human DNase I that selectively cleaves the phosphodiester backbone of extracellular DNA (eDNA). In cystic fibrosis, massive eDNA accumulation from lysed neutrophils in the airways creates pathologically viscous mucus, and inhaled Dornase alfa reduces this viscosity, improves mucociliary clearance, and thereby lowers the risk of pulmonary exacerbations.
-
-The mechanistic rationale proposed by TxGNN for mixed mineral dust pneumoconiosis rests on the observation that mineral dusts (silica, coal, asbestos) trigger sustained neutrophil infiltration into the lung parenchyma. Activated neutrophils release neutrophil extracellular traps (NETs) — web-like structures of eDNA, histones, and antimicrobial proteins — that can perpetuate chronic inflammation. In theory, Dornase alfa could degrade these NETs, thereby interrupting the inflammatory signalling cascade and reducing the inflammatory burden.
-
-However, the core pathological driver of pneumoconiosis is irreversible silicate- or coal dust-induced fibrosis — a process in which eDNA accumulation is a secondary, downstream phenomenon rather than the primary cause. The mechanistic link between Dornase alfa's DNase activity and clinically meaningful fibrosis attenuation is therefore weak, indirect, and speculative. No clinical or preclinical studies have directly investigated Dornase alfa in pneumoconiosis, and the TxGNN prediction most plausibly reflects disease-node topological proximity in the knowledge graph rather than strong biological rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Cystisk fibrose (inhaleret mukolitisk / DNase-terapi) |
+| Forudsagt ny indikation | Blandet mineralstofdammpneumokoniose |
+| TxGNN-forudsigelsesscore | 50.00% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+For øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i bevisepakken. Baseret på etableret farmakologi er dornase alfa et rekombinant humant DNase I-enzym, der selektivt spalter fosfodiesterbindingerne i ekstracellulær DNA (eDNA). Ved cystisk fibrose skabes patologisk tyktflydende slim i luftvejene på grund af massiv eDNA-ophobning fra lyserede neutrofiler, og inhaleret dornase alfa reducerer denne viskositet, forbedrer mukociliær klaring og sænker således risikoen for pulmonale eksacerbationer.
 
----
+Den mekanistiske begrundelse, som TxGNN foreslår for blandet mineralstofdammpneumokoniose, er baseret på observationen af, at mineralstofdampe (silika, kul, asbest) udløser vedvarende neutrofil infiltration i lungeparekymet. Aktiverede neutrofiler frigiver neutrofil ekstracellulære fælde (NETs) — netformede strukturer af eDNA, histoner og antimikrobielle proteiner — som kan opretholde kronisk betændelse. I teorien kunne dornase alfa nedbryde disse NETs og derved afbryde inflammatorisk signalering og reducere den inflammatoriske belastning.
 
-## Denmark Market Information
-
-According to the current dataset, Dornase alfa holds no marketing authorisations recorded in the Danish regulatory database (Laegemiddelstyrelsen).
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|--------------|-------------|---------------------|
-| — | — | — | No records found |
-
-> **Note for clinicians:** Pulmozyme (dornase alfa) holds a centralised EMA marketing authorisation (EU/1/94/011) that is valid across all EU/EEA member states, including Denmark. Healthcare professionals should verify the current supply and reimbursement status directly via the EMA product database or Laegemiddelstyrelsen's national medicines registry, as the absence of a local licence entry may reflect a data coverage gap rather than regulatory unavailability.
+Imidlertid er den centrale patologiske drivkraft for pneumokoniose irreversibel silika- eller kulstoffdamminduceret fibrose — en proces, hvor eDNA-ophobning er et sekundært, efterfølgende fænomen snarere end den primære årsag. Den mekanistiske forbindelse mellem dornase alfas DNase-aktivitet og klinisk meningsfuld fibrosereduktion er derfor svag, indirekte og spekulativ. Ingen kliniske eller præ-kliniske studier har direkte undersøgt dornase alfa ved pneumokoniose, og TxGNN-forudsigelsen afspejler mest sandsynligt topologisk nærhed mellem sygdomsnode i vidensgrafen snarere end stærk biologisk begrundelse.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsviden
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturviden
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-All 10 TxGNN-predicted indications for Dornase alfa are rated L5 with a uniform prediction score of 50%, and the top-ranked indication (mixed mineral dust pneumoconiosis) is supported by only a weak, inferential mechanistic hypothesis with no clinical or preclinical evidence. Initiating any repurposing programme at this stage would be premature.
+---
 
-**Landscape note across all 10 predictions:**
-Among the 10 predicted indications, **tendinopathy (rank 10)** carries the most scientifically grounded hypothesis: NETs have been detected in damaged tendon tissue and shown, in early preclinical work, to promote chronic inflammation and tenocyte apoptosis via the HMGB1/TLR4 pathway. DNase treatment has been reported to degrade tendon-resident NETs and improve the tissue repair microenvironment. While still L5, tendinopathy is the sole candidate that the evidence pack explicitly flags as a **Research Question** worth further exploration. The remaining 8 indications (allergy syndromes, rare genetic disorders, mast cell disorders) have mechanistic links ranging from highly speculative to absent.
+## Markedsinformation for Danmark
 
-**To proceed, the following is needed:**
-- Retrieval of the full Mechanism of Action (MOA) for Dornase alfa from the DrugBank API (currently a high-severity data gap per this pack)
-- Retrieval and review of the approved SmPC/PIL (Danish or EMA) for Dornase alfa to complete safety profiling (key warnings, contraindications) — currently a blocking data gap
-- Verification of current EMA/Laegemiddelstyrelsen marketing authorisation status and local supply availability for Pulmozyme
-- For **mixed mineral dust pneumoconiosis** specifically: a targeted literature review in occupational medicine databases (e.g., NIOSHTIC, CISDOC) to confirm absence of any preclinical NET-in-pneumoconiosis evidence before closing this hypothesis
-- For **tendinopathy** (if prioritised for further evaluation): commissioning or identifying a preclinical proof-of-concept study (NET degradation in tendon tissue models) as a prerequisite before any consideration of a clinical-stage repurposing programme
+Ifølge det aktuelle datasæt har dornase alfa ingen markedsføringstilladelser registreret i den danske regulatoriske database (Laegemiddelstyrelsen).
+
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringform | Godkendt indikation |
+|---------|------------|------|---|
+| — | — | — | Ingen poster fundet |
+
+> **Bemærkning for klinikere:** Pulmozyme (dornase alfa) har en centraliseret EMA-markedsføringstilladelse (EU/1/94/011), der er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Sundhedsfagpersoner bør bekræfte den aktuelle forsyning og refusionsstatus direkte via EMA's produktdatabase eller Laegemiddelstyrelsen nationale lægemiddelregister, da fravær af en lokal licenspost kan afspejle et datakløft snarere end regulatorisk utilgængelighed.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Alle 10 TxGNN-forudsagte indikationer for dornase alfa er klassificeret som L5 med en ensartet forudsigelsesscore på 50%, og den højest rangerede indikation (blandet mineralstofdammpneumokoniose) understøttes kun af en svag, inferentiel mekanistisk hypotese uden klinisk eller præ-klinisk evidens. Et genbrugsprogram på dette tidspunkt ville være for tidligt.
+
+**Noter om landskabet for alle 10 forudsigelser:**
+Blandt de 10 forudsagte indikationer har **senebetændelse (rang 10)** den videnskabeligt mest velbegrundet hypotese: NETs er blevet påvist i beskadiget senevæv og vist i tidlig præ-klinisk arbejde at fremme kronisk betændelse og tenocyt-apoptose via HMGB1/TLR4-signalvejen. DNase-behandling er blevet rapporteret at nedbryde NET'er i senevæv og forbedre senevævets reparationsmiljø. Selvom stadig L5, er senebetændelse den eneste kandidat, som bevisepakken eksplicit markerer som et **forskningsspørgsmål** værd at udforske yderligere. De resterende 8 indikationer (allergisyndromer, sjældne genetiske lidelser, mastcellesygdomme) har mekanistiske forbindelser fra højst spekulative til fraværende.
+
+**For at fortsætte er følgende nødvendigt:**
+- Hentning af den fulde virkningsmekanisme (MOA) for dornase alfa fra DrugBank API (for øjeblikket et kritisk datakløft ifølge denne pakke)
+- Hentning og gennemgang af det godkendte produktresumé/patientinformation (SmPC/PIL) på dansk eller fra EMA for dornase alfa for at fuldføre sikkerhedsprofilen (vigtige advarsler, kontraindikationer) — for øjeblikket en blokerende datakløft
+- Verifikation af aktuel EMA/Laegemiddelstyrelse-markedsføringstilladelsestatus og lokal tilgængelighed af Pulmozyme
+- Specifikt for **blandet mineralstofdammpneumokoniose**: en målrettet litteraturgennemgang i databaser for erhvervsmedicin (f.eks. NIOSHTIC, CISDOC) for at bekræfte fravær af eventuelle præ-kliniske NET-i-pneumokoniose-beviser før denne hypotese lukkes
+- Hvis **senebetændelse** prioriteres til yderligere evaluering: bestilling eller identifikation af en præ-klinisk proof-of-concept-undersøgelse (NET-nedbrydning i senevævmodeller) som en nødvendig forudsætning før påbegyndelse af et klinisk genbrugsprogram
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

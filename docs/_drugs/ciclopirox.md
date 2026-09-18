@@ -29,72 +29,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Ciclopirox: No TxGNN Prediction Available — Insufficient Data for Repurposing Assessment
+# Ciclopirox: Ingen TxGNN-prognose tilgængelig — utilstrækkelige data til repurposing-vurdering
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Ciclopirox (DrugBank: DB01188) is a broad-spectrum antifungal agent primarily used topically for dermatomycoses and onychomycosis.
-**No TxGNN repurposing prediction is available** for this candidate in the current Evidence Pack, as the `predicted_indications` array is empty.
-Without a model-generated target indication or supporting evidence, a full repurposing evaluation cannot be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Fungal skin and nail infections (dermatomycoses, onychomycosis) — based on general pharmacological knowledge; no TFDA/SmPC data loaded |
-| Predicted New Indication | Not available — no TxGNN prediction generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (no supporting studies identified in this pack) |
-| Denmark Market Status | Not marketed (no authorisations registered with Laegemiddelstyrelsen) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Ciclopirox (DrugBank: DB01188) er et bredt spektrum antifungalt middel, der primært bruges topikalt til dermatomykoser og onychomykose.
+**Ingen TxGNN repurposing-prognose er tilgængelig** for denne kandidat i den aktuelle bevissamling, da `predicted_indications`-feltet er tomt.
+Uden en modelgenereret målindikation eller understøttende bevis kan en fuldstændig repurposing-evaluering ikke gennemføres på dette stadium.
 
 ---
 
-## Why No Prediction Is Available
+## Hurtig oversigt
 
-The Evidence Pack for this candidate (TW-DB01188-multi, v4) was generated with two confirmed data gaps that together prevent a complete analysis:
-
-1. **Missing mechanism of action (MOA) data** — DrugBank query returned a record (query ID 2, status: success), but MOA was not extracted into the pack. Ciclopirox is known to act by chelating polyvalent metal cations (Fe³⁺, Al³⁺) that are essential cofactors for fungal cytochrome-dependent enzymes, thereby disrupting DNA repair, cell respiration, and cell division. However, this information has not been formally validated and loaded into the pipeline.
-
-2. **No TFDA/regulatory label data** — The TFDA Summary of Product Characteristics (SmPC), including approved indications and contraindications, was not retrieved (data gap DG001, severity: Blocking). This is a prerequisite for the Safety Stage 1 screening.
-
-Without these two inputs, the TxGNN knowledge-graph matching and disease-mapping steps could not produce a ranked prediction list, resulting in an empty `predicted_indications` field.
-
----
-
-## Denmark Market Information
-
-Ciclopirox currently holds **no marketing authorisations** with the Danish Medicines Agency (Laegemiddelstyrelsen) and is not listed as a marketed product in Denmark. Neither a national authorisation nor a centralised EMA authorisation has been identified for this substance.
-
-> Note: Ciclopirox is marketed in several other EU/EEA countries (e.g., Germany, France) under brand names such as **Batrafen** and **Mycoster**, primarily as topical formulations (cream, solution, nail lacquer). A centralised or mutual-recognition procedure application may be a pathway if a Danish indication is pursued.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Svampeinfektioner i hud og negle (dermatomykoser, onychomykose) — baseret på generel farmakologisk viden; ingen TFDA/SmPC-data indlæst |
+| Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognose genereret |
+| TxGNN-prognosescore | Ikke tilgængelig |
+| Bevisniveau | L5 (ingen understøttende studier identificeret i denne samling) |
+| Status på det danske marked | Ikke markedsført (ingen godkendelser registreret hos Laegemiddelstyrelsen) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Safety Considerations
+## Hvorfor ingen prognose er tilgængelig
 
-Both key warnings and contraindications were listed as data gaps in this Evidence Pack. No drug–drug interaction records were found in the DDI query (query ID 1, status: not\_found).
+Bevisamlingen for denne kandidat (TW-DB01188-multi, v4) blev genereret med to bekræftede datagab, der sammen forhindrer en fuldstændig analyse:
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) — available from the EMA product database or national agencies where ciclopirox is authorised — for full safety information including contraindications, warnings, and drug interactions.
+1. **Manglende virkningsmekanisme (MOA)-data** — DrugBank-forespørgsel returnerede en post (forespørgsels-ID 2, status: vellykket), men MOA blev ikke udtrukket til samlingen. Ciclopirox virker ved at kompleksere polyvalente metalionioner (Fe³⁺, Al³⁺), der er vigtige kofaktorer for svampes cytokrom-afhængige enzymer, og forstyrrer således DNA-reparation, cellerespiration og celledeling. Disse oplysninger er imidlertid ikke blevet formelt valideret og indlæst i pipelinen.
+
+2. **Ingen TFDA/reguleringsdata** — TFDA Summary of Product Characteristics (SmPC), herunder godkendte indikationer og kontraindikationer, blev ikke hentet (datagab DG001, alvorlighed: Blocking). Dette er en forudsætning for Sikkerhedsstadium 1-screening.
+
+Uden disse to input kunne TxGNN-vidensgraf-matchning og sygdommapping-trin ikke producere en rangeret prognosliste, hvilket resulterede i et tomt `predicted_indications`-felt.
 
 ---
 
-## Conclusion and Next Steps
+## Information om det danske marked
 
-**Decision: Hold**
+Ciclopirox har i øjeblikket **ingen markedsføringstilladelser** hos Laegemiddelstyrelsen og er ikke registreret som et markedsført produkt i Danmark. Hverken en national godkendelse eller en centraliseret EMA-godkendelse er blevet identificeret for denne substans.
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — both the TxGNN predicted indication and the regulatory safety data are missing, making it impossible to assess repurposing feasibility or safety profile at this stage.
+> Bemærk: Ciclopirox markedsføres i flere andre EU/EØS-lande (f.eks. Tyskland, Frankrig) under mærkenavne som **Batrafen** og **Mycoster**, primært som topikale formuleringer (creme, opløsning, negleslak). En centraliseret eller gensidig anerkendelsesprocedure kan være en vej, hvis en dansk indikation forfølges.
 
-**To proceed, the following is needed:**
+---
 
-- [ ] **Retrieve TFDA SmPC / EMA SmPC**: Download and parse the approved product label to extract indications, contraindications, and key warnings (resolves data gap DG001 — Blocking)
-- [ ] **Load MOA from DrugBank API**: The DrugBank query was successful (result\_count: 1); re-run the extraction step to populate `original_moa` (resolves data gap DG002 — High)
-- [ ] **Re-run TxGNN prediction pipeline**: Once MOA and indication data are loaded, re-execute the knowledge-graph and deep-learning prediction steps to generate `predicted_indications`
-- [ ] **Confirm Denmark regulatory pathway**: Although ciclopirox is not currently marketed in Denmark, assess whether an existing EMA centralised authorisation or mutual-recognition procedure can serve as the basis for a Danish application
-- [ ] **Re-generate Evidence Pack**: After the above steps, generate a new pack (v5+) for full L1–L5 evidence assessment and final Go/Hold/Proceed with Guardrails decision
+## Sikkerhedshensyn
+
+Både vigtige advarsler og kontraindikationer var anført som datagab i denne bevissamling. Ingen lægemiddel-lægemiddelinteraktionsposter blev fundet i DDI-forespørgslen (forespørgsels-ID 1, status: ikke_fundet).
+
+> Se venligst den godkendte Summary of Product Characteristics (SmPC) — tilgængelig fra EMA-produktdatabasen eller nationale agenturer, hvor ciclopirox er godkendt — for fuldstændig sikkerhedsinformation herunder kontraindikationer, advarsler og lægemiddelinteraktioner.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Bevisamlingen er strukturelt ufuldstændig — både TxGNN forudsagt indikation og reguleringsmæssige sikkerhedsdata mangler, hvilket gør det umuligt at vurdere repurposing-gennemførlighed eller sikkerhedsprofil på dette stadium.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- [ ] **Hent TFDA SmPC / EMA SmPC**: Download og parse det godkendte produktmærkat for at udtrække indikationer, kontraindikationer og vigtige advarsler (løser datagab DG001 — Blocking)
+- [ ] **Indlæs MOA fra DrugBank API**: DrugBank-forespørgslen var vellykket (result_count: 1); kør ekstraktionstrinnet igen for at udfylde `original_moa` (løser datagab DG002 — High)
+- [ ] **Kør TxGNN-prognose pipeline igen**: Når MOA og indikationsdata er indlæst, genkør vidensgraf- og deep-learning-prognosetrinene for at generere `predicted_indications`
+- [ ] **Bekræft dansk regulatorisk vej**: Selvom ciclopirox i øjeblikket ikke markedsføres i Danmark, vurderes det, hvorvidt en eksisterende EMA-centraliseret godkendelse eller gensidig anerkendelsesprocedure kan tjene som grundlag for en dansk ansøgning
+- [ ] **Regenerer bevissamling**: Efter de ovenstående trin skal du generere en ny samling (v5+) for fuld L1–L5 bevisvurdering og endelig Start/Afvent/Fortsæt med sikkerhedsforanstaltninger-beslutning
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

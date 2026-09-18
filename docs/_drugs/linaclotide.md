@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Linaclotide: From IBS-C/Chronic Constipation to Cauda Equina Syndrome
+# Linaclotide: Fra IBS-C/kronisk forstoppelse til Cauda Equina Syndrom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Linaclotide is a locally acting gut GC-C agonist used for irritable bowel syndrome with constipation (IBS-C) and chronic idiopathic constipation. The TxGNN model predicts a possible link to **Cauda Equina Syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags it as likely a knowledge-graph artifact rather than a genuine pharmacological signal.
+Linaclotide er en lokalt virkende tarm GC-C agonist, der bruges til irritabel tyktarmsyndrom med forstoppelse (IBS-C) og kronisk idiopatisk forstoppelse. TxGNN-modellen forudsiger en mulig sammenhæng til **Cauda Equina Syndrom**, men denne forudsigelse er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer**, og evidenspakken selv markerer det som sandsynligvis en knowledge-graph artefakt snarere end et ægte farmakologisk signal.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|------|
-| Original Indication | Not formally recorded in this dataset (drug class notes reference IBS-C / chronic idiopathic constipation) |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | Ikke formelt registreret i dette datasæt (noter om stoffklasse henviser til IBS-C / kronisk idiopatisk forstoppelse) |
+| Forudsagt ny indikation | Cauda Equina Syndrom |
+| TxGNN-forudsigelsesscore | 99.96% |
+| Bevisniveau | L5 (modelforudsigelse alene, ingen understøttende studier) |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Tilbagehold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Linaclotide is a guanylate cyclase-C (GC-C) agonist that acts locally on intestinal epithelial cells to stimulate fluid secretion and bowel motility. Systemic bioavailability is under 0.1%, and the drug does not cross the blood-brain barrier — its pharmacological effect is essentially confined to the gut lumen.
+Linaclotide er en guanylatcyclase-C (GC-C) agonist, der virker lokalt på tarmepitelceller for at stimulere væskesekjetion og tarmbevægelse. Systemisk biodisponibilitet er under 0,1 %, og lægemidlet krydser ikke blod-hjerne-barrieren — dets farmakologiske virkning er i det væsentlige begrænset til tarmens lumen.
 
-Cauda equina syndrome is a neurosurgical emergency caused by compression of the lumbosacral nerve roots, which can present with bowel and bladder dysfunction, including neurogenic constipation. The superficial overlap is a shared "constipation" symptom node, not a shared disease mechanism.
+Cauda equina syndrom er en neurorkirurgisk nødsituation forårsaget af kompression af lumbosakralnerverødderne, som kan præsentere sig med tarm- og blæredysfunktion, herunder neurogen forstoppelse. Det overfladiske overlap er en delt "forstoppelse"-symptomknude, ikke en delt sygdomsmekanism.
 
-Based on the mechanistic assessment already included in this evidence pack, the high TxGNN score most likely reflects a knowledge-graph co-occurrence edge between "constipation" and cauda equina syndrome, rather than evidence that linaclotide treats the underlying nerve compression. Even under an optimistic reading, the drug could at most offer symptomatic relief of a secondary bowel symptom — it would not address the causative pathology — and no clinical or mechanistic data currently confirm this in humans.
+Baseret på den mekanistiske vurdering, der allerede er inkluderet i denne evidenspakke, afspejler den høje TxGNN-score højest sandsynligt en knowledge-graph co-occurrence-kant mellem "forstoppelse" og cauda equina syndrom, snarere end beviser for, at linaclotide behandler den underliggende nervekompressionieren. Selv under en optimistisk læsning kunne lægemidlet højst give symptomatisk lindring af et sekundært tarmssymptom — det ville ikke behandle den årsagsmæssige patologi — og der er i øjeblikket ingen kliniske eller mekanistiske data, der bekræfter dette hos mennesker.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-No marketing authorisations are currently registered for linaclotide in Denmark (market status: not marketed; total licenses on file: 0).
+Der er i øjeblikket ingen markedsføringstilladelser registreret for linaclotide i Danmark (markedsstatus: ikke markedsført; samlede licenser på fil: 0).
 
-## Safety Considerations
+## Sikkerhedsmæssige overvejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
 
-> Note: Danish label warnings/contraindications data (TFDA-equivalent source) is flagged as a **Blocking** data gap in this evidence pack (DG001) — this must be resolved before any safety pre-assessment (S1) can proceed.
+> Bemærk: Danske etiketadvarsler/kontraindikationsdata (TFDA-ækvivalent kilde) er markeret som et **blokerende** datagab i denne evidenspakke (DG001) — dette skal løses, før en sikkerhedsprævurdering (S1) kan gennemføres.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Tilbagehold**
 
-**Rationale:**
-The prediction score is high, but evidence level is L5 — no clinical trials, no literature, and the pack's own mechanistic review concludes the drug's local, non-systemic mode of action has no plausible pathway to cauda equina syndrome. This looks like a knowledge-graph artifact rather than a real repurposing signal.
+**Begrundelse:**
+Forudsigelsesscore'n er høj, men bevisniveauet er L5 — ingen kliniske forsøg, ingen litteratur, og pakken selv konkluderer, at lægemidlets lokale, ikke-systemiske virkemåde ikke har en plausibel vej til cauda equina syndrom. Dette ser ud til at være en knowledge-graph artefakt snarere end et ægte repurposing-signal.
 
-**To proceed, the following is needed:**
-- Danish/EU-approved SmPC with warnings and contraindications (currently a Blocking gap)
-- Confirmed original indication and mechanism of action data for linaclotide
-- Any mechanistic, preclinical, or case-level evidence specifically linking GC-C agonism to neurogenic bowel dysfunction in cauda equina syndrome before this candidate is reconsidered
+**For at fortsætte kræves følgende:**
+- Dansk/EU-godkendt SmPC med advarsler og kontraindikationer (i øjeblikket et blokerende gap)
+- Bekræftet original indikation og data om virkningsmekanisme for linaclotide
+- Ethvert mekanistisk, preklinisk eller case-niveau-bevis, der specifikt forbinder GC-C agonisme med neurogen tarmdysfunktion i cauda equina syndrom, før denne kandidat genovervejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

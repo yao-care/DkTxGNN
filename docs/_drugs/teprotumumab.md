@@ -29,72 +29,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teprotumumab: From Thyroid Eye Disease to Monosomy X
+# Teprotumumab: Fra øjensygdom relateret til skjoldbruskekirtelsygdom til Monosomi X
 
-## One-Sentence Summary
+## Resume på en sætning
 
-Teprotumumab is an IGF-1R-blocking monoclonal antibody; supporting evidence in this dataset describes its mechanism as inhibition of orbital fibroblast activation, consistent with its known use in thyroid eye disease, though no official original indication is on file. The TxGNN model predicts a possible link to **Monosomy X (Turner syndrome)**, with a prediction score of 99.79%, but **0 clinical trials** and **0 publications** currently support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — drug not marketed in Denmark; no approved indication text on file |
-| Predicted New Indication | Monosomy X (Turner syndrome) |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Teprotumumab er et IGF-1R-blokerende monoklonalt antistof; understøttende evidens i dette datasæt beskriver dets virkningsmekanisme som hæmning af aktivering af orbitale fibroblaster, konsistent med dets kendte anvendelse ved øjensygdom relateret til skjoldbruskekirtelsygdom, selvom ingen officiel oprindelig indikation er registreret. TxGNN-modellen forudsiger en mulig forbindelse til **Monosomi X (Turners syndrom)**, med en forudsigelsesscore på 99,79%, men **0 kliniske forsøg** og **0 publikationer** understøtter denne retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data for teprotumumab is flagged as a data gap in this pack, and no original indication is recorded. However, the evidence collected for other candidate diseases in this same batch describes teprotumumab as an IGF-1R antagonist that suppresses orbital fibroblast activation — the mechanism underlying its established use in thyroid eye disease (Graves' ophthalmopathy).
-
-For the top-ranked candidate, Monosomy X, no mechanistic rationale was generated in this pack (marked "pending"), and no clinical trials, ICTRP records, or literature were found. A related candidate in the same batch, mixed gonadal dysgenesis, was explicitly reviewed and flagged as a likely false positive: IGF-1R blockade has no established role in chromosomal or gonadal developmental disorders, and any link to the growth axis is indirect. Because Monosomy X sits in the same disease-similarity neighborhood (Turner-syndrome-related conditions) within the knowledge graph, the same caution likely applies — this prediction is plausibly a knowledge-graph embedding artifact rather than a genuine mechanistic signal, but this has not yet been formally confirmed for this specific candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke tilgængelig — medicin ikke markedsført i Danmark; ingen godkendt indikationstekst registreret |
+| Forudsagt ny indikation | Monosomi X (Turners syndrom) |
+| TxGNN-forudsigelsesscore | 99,79% |
+| Evidensniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-No marketing authorisations are recorded for this drug in Denmark (0 licenses on file; market status: Not Marketed).
+Detaljerede virkningsmekanisme-data for teprotumumab er flagget som et datagab i denne sammenstilling, og ingen oprindelig indikation er registreret. Evidensen indsamlet for andre kandidat-sygdomme i denne samme batch beskriver imidlertid teprotumumab som en IGF-1R-antagonist, der undertrykker aktivering af orbitale fibroblaster — mekanismen bag dets etablerede anvendelse ved øjensygdom relateret til skjoldbruskekirtelsygdom (Graves' oftalmopati).
 
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+For den højtrangeret kandidat, Monosomi X, blev ingen mekanistisk begrundelse genereret i denne sammenstilling (markeret "afventer"), og ingen kliniske forsøg, ICTRP-poster eller litteratur blev fundet. En relateret kandidat i samme batch, blandet gonadal dysgenese, blev eksplicit gennemgået og flagget som sandsynligt falsk positiv: IGF-1R-blokade har ingen etableret rolle i kromosomal eller gonadal udviklingsforstyrrelser, og enhver forbindelse til vækstaksen er indirekte. Da Monosomi X ligger i samme sygdoms-lighedskvarter (Turner-syndrom-relaterede tilstande) inden for vidensgrafen, gælder den samme forsigtighed sandsynligvis — denne forudsigelse er plausibelt en videngraf-embedding-artefakt snarere end et genuint mekanistisk signal, men dette er endnu ikke formelt bekræftet for denne specifikke kandidat.
 
 ---
 
-## Conclusion and Next Steps
+## Evidens fra kliniske forsøg
 
-**Decision: Hold**
+Der er for tiden ingen relaterede kliniske forsøg registreret
 
-**Rationale:**
-The top-ranked prediction (Monosomy X) has no supporting clinical trials or literature (Evidence Level L5) and no completed mechanistic review, while structurally similar predictions in the same batch (e.g., mixed gonadal dysgenesis) were independently assessed as likely false positives. The drug is also not currently marketed in Denmark, so no local safety reference exists.
+---
 
-**To proceed, the following is needed:**
-- Complete the pending mechanistic and decision-stage review specifically for Monosomy X
-- Resolve the Blocking data gap: TFDA/EMA SmPC warnings and contraindications (DG001)
-- Resolve the mechanism-of-action data gap to support relevance analysis (DG002)
-- Identify any preclinical or mechanistic literature connecting the IGF-1R pathway to Turner syndrome physiology before further evaluation
+## Litteraturevidence
+
+Der er for tiden ingen relateret litteratur tilgængelig
+
+---
+
+## Information om det danske marked
+
+Ingen markedsføringstilladelser er registreret for denne medicin i Danmark (0 licenser registreret; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktresuméé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Den højtrangeret forudsigelse (Monosomi X) har ingen understøttende kliniske forsøg eller litteratur (Evidensniveau L5) og ingen gennemført mekanistisk vurdering, mens strukturelt lignende forudsigelser i samme batch (f.eks. blandet gonadal dysgenese) blev uafhængigt vurderet som sandsynligt falske positive. Medicinen er desuden ikke for tiden markedsført i Danmark, så der eksisterer ingen lokal sikkerhedsreference.
+
+**For at fortsætte er følgende nødvendig:**
+- Gennemførelse af den afventende mekanistiske og beslutningsstade-vurdering specifikt for Monosomi X
+- Løsning af det blokerende datagab: TFDA/EMA SmPC-advarsler og kontraindikationer (DG001)
+- Løsning af datagabet vedr. virkningsmekanisme for at understøtte relevansanalyse (DG002)
+- Identifikation af eventuel præ-klinisk eller mekanistisk litteratur, der forbinder IGF-1R-signalvejen til Turners syndrom-fysiologi, før yderligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

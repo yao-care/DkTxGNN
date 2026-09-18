@@ -29,96 +29,97 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Peginterferon Alfa-2b: From Chronic Hepatitis C to Hepatitis B Virus Infection
+# Peginterferon alfa-2b: Fra kronisk hepatitis C til hepatitis B-virusinfektion
 
-## One-Sentence Summary
+## Etlinjesammenfatning
 
-Peginterferon alfa-2b is a pegylated recombinant interferon originally developed for chronic hepatitis C (in combination with ribavirin). The TxGNN model predicts it may also be effective for **Hepatitis B Virus Infection**, a use already supported by **2 completed Phase 3 RCTs**, several Phase 4/real-world studies, and **19 publications**, making this less a novel hypothesis than a confirmation of an already-established clinical practice in several countries.
+Peginterferon alfa-2b er et pegyleret rekombinant interferon, oprindeligt udviklet til kronisk hepatitis C (i kombination med ribavirin). TxGNN-modellen forudsiger, at det også kan være effektivt til **hepatitis B-virusinfektion**, en indikation, der allerede er understøttet af **2 afsluttede fase 3-RCT'er**, flere fase 4/reale studier og **19 publikationer**, hvilket gør dette mindre til en ny hypotese end til en bekræftelse af en allerede etableret klinisk praksis i flere lande.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Chronic Hepatitis C (with ribavirin); melanoma (adjuvant, in some markets) — based on established public drug information; not present in this evidence pack |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Kronisk hepatitis C (med ribavirin); melanom (adjuvant, på nogle markeder) — baseret på etableret offentlig lægemiddelinformation; ikke præsent i denne bevissamling |
+| Forudsagt ny indikation | Hepatitis B-virusinfektion |
+| TxGNN-forudsigelsesscore | 99.84% |
+| Evidensniveau | L1 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known public information, peginterferon alfa-2b is a pegylated form of recombinant interferon alfa-2b, originally developed for chronic hepatitis C (in combination with ribavirin) and, in some markets, used as adjuvant therapy for high-risk melanoma.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelig i denne bevissamling. Baseret på kendt offentlig information er peginterferon alfa-2b en pegyleret form af rekombinant interferon alfa-2b, oprindeligt udviklet til kronisk hepatitis C (i kombination med ribavirin) og, på nogle markeder, brugt som adjuvant terapi ved højrisiko melanom.
 
-Mechanistically, peginterferon alfa-2b is a type I interferon receptor agonist that induces a broad-spectrum antiviral state via the JAK-STAT pathway and exerts immunomodulatory effects, including promotion of HBV-specific T-cell responses. This is not a novel repurposing hypothesis but reflects existing clinical practice: peginterferon (alfa-2a or alfa-2b) is already used for HBeAg-positive chronic hepatitis B in multiple countries, including Taiwan and China.
+Mekanistisk er peginterferon alfa-2b en type I interferonreceptoragonist, der inducerer en bredt spektrum antiviril tilstand via JAK-STAT-signaleringsvej og udøver immunmodulatoriske effekter, herunder fremme af HBV-specifikke T-celle-reaktioner. Dette er ikke en ny repurposing-hypotese, men afspejler eksisterende klinisk praksis: peginterferon (alfa-2a eller alfa-2b) bruges allerede til HBeAg-positiv kronisk hepatitis B i flere lande, herunder Taiwan og Kina.
 
-Chronic hepatitis C and chronic hepatitis B are both viral hepatitides affecting the liver via RNA/DNA viral persistence, and both have historically been treated with interferon-based antiviral/immunomodulatory therapy before the direct-acting antiviral era. This shared therapeutic rationale, combined with a substantial existing clinical trial record in HBV, supports the reasonableness of the TxGNN prediction.
+Kronisk hepatitis C og kronisk hepatitis B er begge virale hepatittider, der påvirker leveren via RNA/DNA-virale persistens, og begge blev historisk behandlet med interferonbaseret antivirale/immunmodulatoriske terapeutiske strategier før perioden med direkte virkende antivirale lægemidler. Denne delte terapeutiske begrundelse kombineret med et omfattende eksisterende klinisk prøveregister for HBV understøtter rimeligheden af TxGNN-forudsigelsen.
 
 ---
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT00536263](https://clinicaltrials.gov/study/NCT00536263) | Phase 3 | Completed | 671 | RCT comparing PegIntron dosing regimens (1.0 vs 1.5 mcg/kg/week) in HBeAg-positive chronic hepatitis B; largest Phase 3 trial in this indication |
-| [NCT04846491](https://clinicaltrials.gov/study/NCT04846491) | Phase 3 | Completed | 475 | Multicenter randomized blinded study of peginterferon alfa-2b + tenofovir disoproxil fumarate vs. comparator in chronic hepatitis B |
-| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | N/A | Completed | 473 | Multicenter prospective cohort assessing long-term benefit of standard peginterferon alfa therapy in HBeAg-positive CHB |
-| [NCT00371761](https://clinicaltrials.gov/study/NCT00371761) | Phase 3 | Completed | 25 | Randomized comparative study: PegIntron vs. adefovir in HBeAg-positive CHB patients in Taiwan |
-| [NCT05182463](https://clinicaltrials.gov/study/NCT05182463) | Phase 4 | Recruiting | 5000 | Large real-world study (E-Cure) of peginterferon alfa-2b in inactive chronic hepatitis B patients |
-| [NCT02973646](https://clinicaltrials.gov/study/NCT02973646) | Phase 4 | Unknown | 100 | Antiviral effects of peginterferon alfa-2b in HBeAg-positive CHB correlated with interferon gene mutation/receptor status |
-| [NCT00686790](https://clinicaltrials.gov/study/NCT00686790) | Phase 3 | Completed | 68 | Open-label study of Peg-Intron in treatment-naïve chronic hepatitis B and D co-infection |
-| [NCT01532843](https://clinicaltrials.gov/study/NCT01532843) | Phase 4 | Completed | 82 | PEGON study: nucleos(t)ide analogue pre-treatment prior to peginterferon alfa-2b to improve sustained response in HBeAg-positive CHB |
-| [NCT00226447](https://clinicaltrials.gov/study/NCT00226447) | Phase 2 | Completed | 30 | Viral kinetics of pegylated interferon plus lamivudine combination therapy in HBeAg-positive CHB |
-| [NCT03332329](https://clinicaltrials.gov/study/NCT03332329) | Phase 4 | Unknown | 15 | Combination/sequential therapy with entecavir, peginterferon alfa-2b, and immunomodulators (GM-CSF + vaccine) targeting HBsAg loss in NA-suppressed CHB |
+| [NCT00536263](https://clinicaltrials.gov/study/NCT00536263) | Fase 3 | Afsluttet | 671 | RCT sammenlignende PegIntron-doseringer (1.0 vs 1.5 mcg/kg/uge) hos HBeAg-positive kronisk hepatitis B; største fase 3-forsøg inden for denne indikation |
+| [NCT04846491](https://clinicaltrials.gov/study/NCT04846491) | Fase 3 | Afsluttet | 475 | Multicenter randomiseret blindet studie af peginterferon alfa-2b + tenofovir disoproxil fumarat vs. komparator hos kronisk hepatitis B |
+| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | N/A | Afsluttet | 473 | Multicenter prospektivt kohortstudie, der vurderer langvarig fordel af standard peginterferon alfa-terapi hos HBeAg-positive CHB |
+| [NCT00371761](https://clinicaltrials.gov/study/NCT00371761) | Fase 3 | Afsluttet | 25 | Randomiseret sammenligningsstudie: PegIntron vs. adefovir hos HBeAg-positive CHB-patienter i Taiwan |
+| [NCT05182463](https://clinicaltrials.gov/study/NCT05182463) | Fase 4 | Rekrutterer | 5000 | Stort realverdensstudie (E-Cure) af peginterferon alfa-2b hos inaktive kronisk hepatitis B-patienter |
+| [NCT02973646](https://clinicaltrials.gov/study/NCT02973646) | Fase 4 | Ukendt | 100 | Antivirale effekter af peginterferon alfa-2b hos HBeAg-positive CHB korreleret med interferon gen-mutation/receptorstatus |
+| [NCT00686790](https://clinicaltrials.gov/study/NCT00686790) | Fase 3 | Afsluttet | 68 | Åbent studie af Peg-Intron ved behandlingsnaiv kronisk hepatitis B og D-saminfektioner |
+| [NCT01532843](https://clinicaltrials.gov/study/NCT01532843) | Fase 4 | Afsluttet | 82 | PEGON-studie: nukleosidanalogenprækonditionering før peginterferon alfa-2b for at forbedre vedvarende respons hos HBeAg-positive CHB |
+| [NCT00226447](https://clinicaltrials.gov/study/NCT00226447) | Fase 2 | Afsluttet | 30 | Virale kinetik af pegyleret interferon plus lamivudin-kombinationsterapi hos HBeAg-positive CHB |
+| [NCT03332329](https://clinicaltrials.gov/study/NCT03332329) | Fase 4 | Ukendt | 15 | Kombinations-/sekventiel terapi med entecavir, peginterferon alfa-2b og immunmodulatorer (GM-CSF + vaccine), der sigter mod HBsAg-tab hos NA-supprimeret CHB |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [41366186](https://pubmed.ncbi.nlm.nih.gov/41366186/) | 2026 | RCT | Hepatology International | ANCHOR randomized controlled trial: entecavir + peginterferon alfa-2b ± GM-CSF combination therapy evaluating HBsAg loss rates |
-| [25200354](https://pubmed.ncbi.nlm.nih.gov/25200354/) | 2014 | RCT | J Clin Virol | Randomized trial of peginterferon alfa-2b in Chinese HBeAg-positive chronic hepatitis B patients |
-| [17604363](https://pubmed.ncbi.nlm.nih.gov/17604363/) | 2007 | RCT | Hepatology | Peginterferon alpha-2b (± lamivudine) safe and effective in HBeAg-positive CHB patients with advanced fibrosis (n=70) |
-| [16167968](https://pubmed.ncbi.nlm.nih.gov/16167968/) | 2005 | Systematic Review | Aliment Pharmacol Ther | Systematic review of pegylated interferon for treatment of chronic hepatitis B |
-| [24738850](https://pubmed.ncbi.nlm.nih.gov/24738850/) | 2014 | Review | Expert Opin Biol Ther | Review of peginterferon alfa (2a/2b) use in chronic hepatitis B, including identification of super-/null-responders |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Review | Nat Rev Gastroenterol Hepatol | Overview of hepatitis B therapy goals and response assessment |
-| [27190319](https://pubmed.ncbi.nlm.nih.gov/27190319/) | 2016 | Review | Clin Infect Dis | Virus and host testing strategies for managing chronic hepatitis B |
-| [38089868](https://pubmed.ncbi.nlm.nih.gov/38089868/) | 2023 | Cohort | Front Med | Scoring system predicting HBsAg clearance with peginterferon alfa-2b in NA-experienced CHB patients |
-| [40390028](https://pubmed.ncbi.nlm.nih.gov/40390028/) | 2025 | Cohort | Virology Journal | Multicenter pilot study of recurrence risk factors after PEG-IFN-α-2b-based functional cure |
-| [40172187](https://pubmed.ncbi.nlm.nih.gov/40172187/) | 2025 | Comparative Study | Microbiology Spectrum | PEG-IFNα monotherapy vs. combination with entecavir/tenofovir in 147 treatment-naïve CHB patients |
+| [41366186](https://pubmed.ncbi.nlm.nih.gov/41366186/) | 2026 | RCT | Hepatology International | ANCHOR randomiseret kontrolleret forsøg: entecavir + peginterferon alfa-2b ± GM-CSF kombinationsterapi, der evaluerer HBsAg-tabsrater |
+| [25200354](https://pubmed.ncbi.nlm.nih.gov/25200354/) | 2014 | RCT | J Clin Virol | Randomiseret forsøg af peginterferon alfa-2b hos kinesiske HBeAg-positive kronisk hepatitis B-patienter |
+| [17604363](https://pubmed.ncbi.nlm.nih.gov/17604363/) | 2007 | RCT | Hepatology | Peginterferon alfa-2b (± lamivudin) sikker og effektiv hos HBeAg-positive CHB-patienter med avanceret fibrose (n=70) |
+| [16167968](https://pubmed.ncbi.nlm.nih.gov/16167968/) | 2005 | Systematisk oversigt | Aliment Pharmacol Ther | Systematisk oversigt over pegyleret interferon til behandling af kronisk hepatitis B |
+| [24738850](https://pubmed.ncbi.nlm.nih.gov/24738850/) | 2014 | Oversigt | Expert Opin Biol Ther | Oversigt over peginterferon alfa (2a/2b) brug ved kronisk hepatitis B, herunder identifikation af super-/nul-respondenter |
+| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Oversigt | Nat Rev Gastroenterol Hepatol | Oversigt over terapimål ved hepatitis B og responsrapportering |
+| [27190319](https://pubmed.ncbi.nlm.nih.gov/27190319/) | 2016 | Oversigt | Clin Infect Dis | Virus- og værtstestningsstrategier til håndtering af kronisk hepatitis B |
+| [38089868](https://pubmed.ncbi.nlm.nih.gov/38089868/) | 2023 | Kohortstudie | Front Med | Scoringssystem til forudsigelse af HBsAg-klaring med peginterferon alfa-2b hos NA-erfarne CHB-patienter |
+| [40390028](https://pubmed.ncbi.nlm.nih.gov/40390028/) | 2025 | Kohortstudie | Virology Journal | Multicenter pilotstudie af recidivrisikofaktorer efter PEG-IFN-α-2b-baseret funktionel helbredelse |
+| [40172187](https://pubmed.ncbi.nlm.nih.gov/40172187/) | 2025 | Sammenligningsstudie | Microbiology Spectrum | PEG-IFNα-monoterapi vs. kombination med entecavir/tenofovir hos 147 behandlingsnaive CHB-patienter |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Peginterferon alfa-2b is currently **not marketed** in Denmark, and no marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) are recorded in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Peginterferon alfa-2b er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) er registreret i denne bevissamling.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktresume (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-Two completed Phase 3 RCTs (NCT00536263, n=671; NCT00371761, n=25) plus multiple Phase 4/real-world studies and 19 publications, including RCTs, a systematic review, and cohort studies, support use of peginterferon alfa-2b in chronic hepatitis B (Evidence Level L1). This is not a speculative repurposing signal but reflects an already-established international clinical practice — however, the drug is currently unmarketed in Denmark and key safety/regulatory data are missing.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety assessment)
-- Confirmed mechanism of action data from DrugBank (High-severity data gap affecting mechanistic-linkage analysis)
-- Drug-drug interaction data (DDI query currently returns no results)
-- A Danish marketing authorisation pathway assessment, since the product is not currently registered in Denmark
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+To afsluttede fase 3-RCT'er (NCT00536263, n=671; NCT00371761, n=25) plus flere fase 4/reale studier og 19 publikationer, herunder RCT'er, en systematisk oversigt og kohortstudier, understøtter brugen af peginterferon alfa-2b ved kronisk hepatitis B (Evidensniveau L1). Dette er ikke et spekulativt repurposing-signal, men afspejler en allerede etableret international klinisk praksis — dog er lægemidlet i øjeblikket umarkedsført i Danmark, og vigtige sikkerhed/regulatoriske data mangler.
+
+**For at fortsætte kræves følgende:**
+- Dansk SmPC-advarsler og kontraindikationer (i øjeblikket et **blokerende** datatab — påkrævet før enhver S1-sikkerhedsvurdering)
+- Bekræftet data om virkningsmekanisme fra DrugBank (datatab med høj sværhedsgrad, der påvirker mekanistisk-forbindelsesanalyse)
+- Lægemiddel-lægemiddelinteraktionsdata (DDI-forespørgsel returnerer i øjeblikket ingen resultater)
+- Vurdering af muligheder for dansk markedsføringsgodkendelse, da produktet i øjeblikket ikke er registreret i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

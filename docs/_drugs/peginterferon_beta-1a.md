@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Peginterferon beta-1a: From Undocumented Indication to Heart Neoplasm
+# Peginterferon beta-1a: Fra udokumenteret indikation til hjerteneoplasme
 
-## One-Sentence Summary
+## Et-sætnings sammenfatning
 
-Peginterferon beta-1a (DrugBank ID: DB09122) has no documented original indication or mechanism-of-action data in this evidence pack. The TxGNN model predicts a possible association with **Heart Neoplasm**, but this prediction is based purely on knowledge-graph embedding similarity — **no clinical trials and no literature** currently support it, and the model's own rationale text notes no known pathophysiological link between interferon beta and cardiac tumours.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in available data |
-| Predicted New Indication | Heart Neoplasm |
-| TxGNN Prediction Score | 94.10% |
-| Evidence Level | L5 (model prediction only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Peginterferon beta-1a (DrugBank ID: DB09122) har ingen dokumenteret oprindelig indikation eller virkningsmechanisme-data i denne bevissamling. TxGNN-modellen forudsiger en mulig association med hjerteneoplasme, men denne forudsigelse er baseret udelukkende på knowledge-graph embedding-lighed — ingen kliniske forsøg og ingen litteratur understøtter det i øjeblikket, og modellens egen begrundelsestekst bemærker ingen kendt patofysiologisk forbindelse mellem interferon beta og hjerteneoplasmer.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data for Peginterferon beta-1a is not available in this evidence pack, and no original indication is on record to compare against. Based on general pharmacological class knowledge, interferon beta agents are known for antiproliferative and immunomodulatory effects, which is the presumed basis for the TxGNN embedding association — but this evidence pack contains no data confirming that link for this specific drug.
-
-Importantly, the model's own repurposing rationale for this candidate is explicitly skeptical: it states there is no known pathophysiological connection between interferon beta and heart neoplasms (which are predominantly benign structural lesions such as rhabdomyomas or myxomas, not immune- or proliferation-driven tumours in the way interferon beta's mechanism would target). The rationale characterizes this as a knowledge-graph similarity artifact rather than a mechanistically grounded hypothesis.
-
-For context, TxGNN also flagged four additional candidate indications for this drug at comparable confidence (congenital ventricular septal defect, heart conduction disease, borderline ovarian serous tumor, rete ovarii cystadenoma) — all with the same L5 evidence level, no supporting trials or literature, and rationale text that similarly notes weak or absent mechanistic plausibility. This pattern suggests the current signal set for this drug is not yet strong enough to prioritize any single indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke dokumenteret i tilgængelige data |
+| Forudsagt ny indikation | Hjerteneoplasme |
+| TxGNN-forudsigelsesscore | 94.10% |
+| Bevisniveau | L5 (kun modelforudsigelse) |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede virkningsmechanisme-data for peginterferon beta-1a er ikke tilgængelige i denne bevissamling, og der er ingen oprindelig indikation på rekord at sammenligne med. Baseret på generel farmakologlasseviden er interferon beta-midler kendt for antiproliferative og immunomodulatoriske virkninger, hvilket er det formodede grundlag for TxGNN embedding-associationen — men denne bevissamling indeholder ingen data, der bekræfter denne forbindelse for dette specifikke lægemiddel.
 
----
+Vigtigst er det, at modellens egen begrundelse vedr. omformål af denne kandidat er eksplicit skeptisk: den angiver, at der ikke er nogen kendt patofysiologisk forbindelse mellem interferon beta og hjerteneoplasmer (som for det meste er godartede strukturelle læsioner såsom rabdomyomer eller myxomer, ikke immun- eller proliferationsdrevne tumorer, som interferon beta-mekanismen målretter imod). Begrundelsen karakteriserer dette som et artefakt af knowledge-graph-lighed snarere end en mekanistisk funderet hypotese.
 
-## Denmark Market Information
-
-No marketing authorisations are currently registered for this drug in Denmark (market status: not marketed; total authorisations: 0).
+For kontekst markerede TxGNN også fire yderligere kandidatindikationer for dette lægemiddel med sammenlignelig sikkerhed (medfødt ventrikelseptumdefekt, hjertledningsygdom, borderline seøs ovarietumor, rete ovarii cystadenoma) — alle med samme L5 bevisniveau, ingen understøttende forsøg eller litteratur, og begrundelsestekst, der på samme måde bemærker svag eller manglende mekanistisk plausibilitet. Dette mønster tyder på, at det aktuelle signalsæt for dette lægemiddel endnu ikke er stærkt nok til at prioritere nogen enkelt indikation.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug interaction data, key warnings, or contraindications are currently available in this evidence pack.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-No clinical trials, no literature, no mechanism-of-action data, and no marketing history in Denmark support this candidate. The prediction rests solely on a TxGNN similarity score, and the model's own rationale acknowledges no credible mechanistic link to heart neoplasm — evidence level L5 with decision stage S0 confirms this is not yet actionable.
+---
 
-**To proceed, the following is needed:**
-- Product label / SmPC data (warnings, contraindications) — currently a blocking data gap (DG001)
-- Mechanism of action (MOA) data from DrugBank or primary literature (DG002)
-- Confirmation of the drug's original approved indication(s)
-- Preclinical or case-level evidence specifically linking interferon beta to cardiac neoplasm before further evaluation is warranted
+## Danmarks markedsinformation
+
+Der er i øjeblikket ingen markedsføringstilladelser registreret for dette lægemiddel i Danmark (markedsstatus: ikke markedsført; samlede tilladelser: 0).
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktkarakteristika-sammendrag (SmPC) for sikkerhedsinformation. Ingen lægemiddelinteraktionsdata, nøglevarsler eller kontraindikationer er i øjeblikket tilgængelige i denne bevissamling.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Ingen kliniske forsøg, ingen litteratur, ingen virkningsmechanisme-data og ingen markedsføringshistorie i Danmark understøtter denne kandidat. Forudsigelsen hviler udelukkende på en TxGNN-lighedsscore, og modellens egen begrundelse anerkender ingen troværdig mekanistisk forbindelse til hjerteneoplasme — bevisniveau L5 med beslutningsstadium S0 bekræfter, at dette endnu ikke er handlingsbart.
+
+**For at gå videre er følgende nødvendig:**
+- Produktetiket / SmPC-data (advarsler, kontraindikationer) — i øjeblikket en blokerende datagab (DG001)
+- Virkningsmechanisme (MOA) data fra DrugBank eller primær litteratur (DG002)
+- Bekræftelse af lægemidlets oprindeligt godkendte indikation(er)
+- Præ-klinisk eller case-niveau beviser, der specifikt forbinder interferon beta med hjerteneoplasme, før yderligere evaluering er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

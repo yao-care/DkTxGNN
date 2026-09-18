@@ -29,105 +29,106 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Benralizumab: From Severe Eosinophilic Asthma to Dermatitis
+# Benralizumab: Fra svær eosinofil astma til dermatitis
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Benralizumab (Fasenra) is an anti-IL-5 receptor alpha monoclonal antibody internationally approved for the add-on treatment of severe eosinophilic asthma; it currently holds no marketing authorisation with the Danish Medicines Agency (Laegemiddelstyrelsen).
-The TxGNN model predicts it may be effective for **Dermatitis** (specifically atopic dermatitis), with **6 clinical trials** and **20 publications** currently supporting this research direction.
-However, the pivotal Phase 2 HILLIER randomised controlled trial was terminated early owing to a lack of clinical efficacy in moderate-to-severe atopic dermatitis, which substantially limits the translational value of this prediction.
+Benralizumab (Fasenra) er et anti-IL-5-receptoralfa-monoklonalt antistof, som er internationalt godkendt til add-on-behandling af svær eosinofil astma; det har i øjeblikket ingen markeringsgodkendelse hos Lægemiddelstyrelsen.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Dermatitis** (specifikt atopisk dermatitis), med **6 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne forskningsretning.
+Imidlertid blev det vigtige Phase 2 HILLIER-randomiseret kontrolleret forsøg afsluttet tidligt på grund af manglende klinisk virkning ved moderat til svær atopisk dermatitis, hvilket i væsentligt grad begrænser translationsværdien af denne forudsigelse.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Severe eosinophilic asthma (international approval; not marketed in Denmark) |
-| Predicted New Indication | Dermatitis (atopic dermatitis) |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Svær eosinofil astma (international godkendelse; ikke markedsført i Danmark) |
+| Forudsagt ny indikation | Dermatitis (atopisk dermatitis) |
+| TxGNN-forudsigelsesscore | 99.16% |
+| Bevisniveau | L2 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Benralizumab is a humanised, afucosylated monoclonal antibody that targets the alpha subunit of the IL-5 receptor (IL-5Rα). By blocking IL-5 signalling and simultaneously engaging enhanced antibody-dependent cell-mediated cytotoxicity (ADCC), the drug achieves near-complete depletion of circulating and tissue eosinophils and basophils. This eosinophil-depleting mechanism underpins its established efficacy in severe eosinophilic asthma. Formal mechanistic data from DrugBank are not yet available in this evidence pack; the description above is based on published pharmacological literature. Note: the JSON evidence pack flags mechanism of action (MOA) as a high-severity data gap (DG002) that should be resolved via a DrugBank API query before a full mechanistic analysis is conducted.
+Benralizumab er et humaniseret, afukosileret monoklonalt antistof, som målretter alfa-underenheden af IL-5-receptoren (IL-5Rα). Ved at blokere IL-5-signalering og samtidigt aktivere forbedret antistof-medieret celledødelighed (ADCC), opnår lægemidlet næsten fuldstændig depletering af cirkulerende og vævseosinofiler og basofiler. Denne eosinofil-depleterende mekanisme understøtter dens etablerede virkning ved svær eosinofil astma. Formelle mekanistiske data fra DrugBank er endnu ikke tilgængelige i denne bevisemappe; beskrivelsen ovenfor er baseret på publiceret farmakologisk litteratur. Bemærk: JSON-bevisemappen markerer mekanisme for lægemidlets virkning (MOA) som en datakløft med høj alvorlighed (DG002), som bør løses via en DrugBank API-forespørgsel, før en fuldstændig mekanistisk analyse gennemføres.
 
-Atopic dermatitis (AD) is a chronic Type 2 inflammatory skin disease characterised by impaired skin barrier function, intense pruritus, and immune dysregulation. Eosinophils are prominently elevated in AD skin lesions and contribute to tissue damage, cytokine release, and itch amplification. This tissue eosinophilia provided an apparently reasonable mechanistic rationale — depleting eosinophils might reduce skin inflammation — and explains why the TxGNN knowledge graph assigned a high prediction score, given the proximity of eosinophil-mediated immunoregulation nodes shared between asthma and AD.
+Atopisk dermatitis (AD) er en kronisk Type 2-inflammatorisk hudsygdom, karakteriseret ved svækket hudbarrierefunktion, intens pruritus og immunologisk dysregulering. Eosinofiler er markant forhøjede i AD-hudlæsioner og bidrager til vævsbeskadigelse, cytokinfrigivelse og kloe-amplifikation. Denne vævseosinofili gav tilsyneladende en rimelig mekanistisk rationale – depletering af eosinofiler kunne reducere hudinflammation – og forklarer, hvorfor TxGNN-vidensgrafen tildelte en høj forudsigelsesscore, givet proximitet af eosinofil-medieret immunoreguleringsnoder, der deles mellem astma og AD.
 
-In practice, however, the clinical hypothesis was not confirmed. The Phase 2 HILLIER trial (NCT04605094, n=194) was terminated early after benralizumab failed to demonstrate meaningful improvement in established AD endpoints versus placebo. Subsequent mechanistic studies confirmed that benralizumab does successfully deplete IL-5Rα-bearing eosinophils in AD skin lesions (target engagement is achieved), yet this does not translate into clinical benefit. Current evidence suggests that IL-4 and IL-13 — rather than IL-5 — are the dominant type 2 cytokines driving keratinocyte dysfunction and itch in AD, which is why dupilumab (anti-IL-4Rα) succeeds where anti-IL-5Rα therapy does not.
+I praksis blev den kliniske hypotese dog ikke bekræftet. Phase 2 HILLIER-forsøget (NCT04605094, n=194) blev afsluttet tidligt efter, at benralizumab ikke demonstrerede meningsfuld forbedring i etablerede AD-endepunkter versus placebo. Efterfølgende mekanistiske studier bekræftede, at benralizumab med succes depleterer IL-5Rα-bærende eosinofiler i AD-hudlæsioner (måldetektion opnås), men dette oversættes ikke til klinisk fordel. Nuværende bevis tyder på, at IL-4 og IL-13 – snarere end IL-5 – er de dominerende type 2-cytokiner, der driver keratinocytdysfunktion og kloe ved AD, hvilket er grunden til, at dupilumab (anti-IL-4Rα) lykkes, hvor anti-IL-5Rα-terapi ikke gør.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmeldt | Vigtigste fund |
 |-------------|-------|--------|------------|--------------|
-| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Phase 2 | Terminated | 194 | HILLIER study: multinational, randomised, double-blind, placebo-controlled 16-week trial with 36-week extension comparing benralizumab vs. placebo in moderate-to-severe AD despite topical treatment. Terminated early due to lack of efficacy. |
-| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Phase 2 | Completed | 20 | Mechanistic investigation of benralizumab in AD: assessed effects on eosinophils, basophils, and innate lymphoid type 2 (ILC2) cells in blood and skin lesions of AD patients. |
-| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Phase 2 | Not yet recruiting | 96 | Efficacy and safety of benralizumab in Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) — a severe cutaneous drug hypersensitivity reaction with prominent eosinophil involvement. Estimated completion: September 2029. |
-| [NCT06477653](https://clinicaltrials.gov/study/NCT06477653) | Phase 2 | Recruiting | 30 | Pilot study of dupilumab as add-on therapy in hypereosinophilic syndrome (HES) after partial response to eosinophil-depleting biologics including benralizumab. Provides context on the limits of single-pathway eosinophil depletion. |
-| [NCT04763447](https://clinicaltrials.gov/study/NCT04763447) | Phase 4 | Recruiting | 234 | Omalizumab withdrawal trial in well-controlled severe allergic asthma with atopic comorbidities; provides context on biologic sequencing strategies in type 2 inflammatory disease. |
-| [NCT04126499](https://clinicaltrials.gov/study/NCT04126499) | Observational | Completed | 28 | Retrospective observational study of benralizumab in severe eosinophilic asthma (Spanish individualised access programme); real-world demographic and safety data relevant to tolerability profiling. |
+| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Fase 2 | Afsluttet | 194 | HILLIER-studie: multinationalt, randomiseret, dobbeltblindet, placebo-kontrolleret 16-ugers forsøg med 36-ugers udvidelse, der sammenligner benralizumab versus placebo ved moderat til svær AD trods topisk behandling. Afsluttet tidligt på grund af manglende virkning. |
+| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Fase 2 | Afsluttet | 20 | Mekanistisk undersøgelse af benralizumab ved AD: vurderede virkninger på eosinofiler, basofiler og medfødte lymfoidtype 2 (ILC2)-celler i blod og hudlæsioner hos AD-patienter. |
+| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Fase 2 | Endnu ikke rekrutterer | 96 | Virkning og sikkerhed af benralizumab ved lægemiddelreaktion med eosinofili og systemiske symptomer (DRESS) – en alvorlig kutан hudreaktion med fremtrædende eosinofil-involvering. Estimeret afslutning: september 2029. |
+| [NCT06477653](https://clinicaltrials.gov/study/NCT06477653) | Fase 2 | Rekrutterer | 30 | Pilotstudie af dupilumab som add-on-terapi ved hypereosinofilt syndrom (HES) efter delvis respons på eosinofil-depleterende biologiske stoffer inklusive benralizumab. Giver kontekst på grænserne for enkelvejs-eosinofil-depletering. |
+| [NCT04763447](https://clinicaltrials.gov/study/NCT04763447) | Fase 4 | Rekrutterer | 234 | Omalizumab-tilbagetrækningsforsøg ved velbehersket svær allergisk astma med atopiske komorbiditeter; giver kontekst på biologiske sekvenseringstrategier ved type 2-inflammatorisk sygdom. |
+| [NCT04126499](https://clinicaltrials.gov/study/NCT04126499) | Observationel | Afsluttet | 28 | Retrospektivt observationelt studie af benralizumab ved svær eosinofil astma (spansk individualiseret adgangsprogram); data fra den virkelige verden vedr. demografiske forhold og sikkerhed relevant for tolerabilitetsprofil. |
 
 ---
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
 |------|------|------|---------|--------------|
-| [37178404](https://pubmed.ncbi.nlm.nih.gov/37178404/) | 2023 | RCT | J Eur Acad Dermatol Venereol | HILLIER Phase 2 RCT: benralizumab showed no significant improvement in signs or symptoms of moderate-to-severe AD versus placebo. Key negative evidence. |
-| [38695680](https://pubmed.ncbi.nlm.nih.gov/38695680/) | 2024 | Plain language summary | Immunotherapy | Accessible summary of the HILLIER trial confirming the lack of benralizumab efficacy in moderate-to-severe AD across all assessed endpoints. |
-| [40781582](https://pubmed.ncbi.nlm.nih.gov/40781582/) | 2025 | Mechanistic study | Clin Transl Allergy | Benralizumab successfully depletes IL-5Rα-bearing eosinophils in AD skin lesions, confirming biological target engagement despite absent clinical benefit. |
-| [39234416](https://pubmed.ncbi.nlm.nih.gov/39234416/) | 2024 | Clinical study | J Allergy Clin Immunol: Global | Benralizumab reduces eosinophil-mediated skin inflammation after intradermal allergen challenge in AD patients; supports mechanistic role of eosinophils in allergen response. |
-| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Review | Allergy Asthma Proc | Comprehensive review of immunobiologics (anti-IgE, anti-IL-5, anti-IL-4/13) for severe asthma, AD, and chronic urticaria; contextualises benralizumab's positioning in type 2 disease. |
-| [36270814](https://pubmed.ncbi.nlm.nih.gov/36270814/) | 2023 | Case report | Therapie | Benralizumab-induced interstitial granulomatous dermatitis: a rare paradoxical cutaneous adverse reaction reported in one asthma patient. Safety-relevant for dermatology use. |
-| [39600395](https://pubmed.ncbi.nlm.nih.gov/39600395/) | 2024 | Review | Allergologie select | Update on biologics in allergology including anti-IL-5Rα position relative to newer approved agents for AD; notes absence of AD indication for benralizumab. |
-| [34642091](https://pubmed.ncbi.nlm.nih.gov/34642091/) | 2021 | Review | Ann Allergy Asthma Immunol | Practical guidance on biologic selection for asthma, AD, urticaria, nasal polyps, and eosinophilic oesophagitis; frames the role of IL-5 vs. IL-4/13 pathway targeting. |
-| [38878020](https://pubmed.ncbi.nlm.nih.gov/38878020/) | 2024 | Observational | J Allergy Clin Immunol | Patients receiving benralizumab (or dupilumab/mepolizumab) show lower post-vaccination SARS-CoV-2 antibody titres, indicating IL-5 pathway suppression modestly affects adaptive immune responses. |
-| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Review | Immunol Allergy Clin North Am | Safety review of biologics including benralizumab during pregnancy and lactation in women with asthma, allergic rhinitis, and atopic dermatitis. |
+| [37178404](https://pubmed.ncbi.nlm.nih.gov/37178404/) | 2023 | RCT | J Eur Acad Dermatol Venereol | HILLIER Phase 2 RCT: benralizumab viste ingen signifikant forbedring af tegn eller symptomer på moderat til svær AD versus placebo. Vigtige negative bevis. |
+| [38695680](https://pubmed.ncbi.nlm.nih.gov/38695680/) | 2024 | Almindeligt sproget resumé | Immunotherapy | Tilgængeligt resumé af HILLIER-forsøget bekræftende mangel på benralizumab-virkning ved moderat til svær AD på tværs af alle vurderede endepunkter. |
+| [40781582](https://pubmed.ncbi.nlm.nih.gov/40781582/) | 2025 | Mekanistisk studie | Clin Transl Allergy | Benralizumab depleterer med succes IL-5Rα-bærende eosinofiler i AD-hudlæsioner, bekræftende biologisk måldetektering trods fraværende klinisk fordel. |
+| [39234416](https://pubmed.ncbi.nlm.nih.gov/39234416/) | 2024 | Klinisk studie | J Allergy Clin Immunol: Global | Benralizumab reducerer eosinofil-medieret hudinflammation efter intradermalt allergenudfordring hos AD-patienter; understøtter mekanistisk rolle af eosinofiler ved allergenrespons. |
+| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Oversigt | Allergy Asthma Proc | Omfattende oversigt over immun-biologiske stoffer (anti-IgE, anti-IL-5, anti-IL-4/13) for svær astma, AD og kronisk urticaria; præsenterer rollen af IL-5 versus IL-4/13-vejretning. |
+| [36270814](https://pubmed.ncbi.nlm.nih.gov/36270814/) | 2023 | Caserapport | Therapie | Benralizumab-induceret interstiel granulomatøs dermatitis: en sjælden paradoksal hudbivirkning rapporteret hos en astmapatient. Sikkerhedsrelevant for dermatologisk brug. |
+| [39600395](https://pubmed.ncbi.nlm.nih.gov/39600395/) | 2024 | Oversigt | Allergologie select | Opdatering af biologiske stoffer inden for allergologi inklusive anti-IL-5Rα-position relative til nyere godkendte midler for AD; noterer fraværet af AD-indikation for benralizumab. |
+| [34642091](https://pubmed.ncbi.nlm.nih.gov/34642091/) | 2021 | Oversigt | Ann Allergy Asthma Immunol | Praktisk vejledning om biologisk valg for astma, AD, urticaria, nasale polypper og eosinofilt øsophagitis; præsenterer rollen af IL-5 versus IL-4/13-vejretning. |
+| [38878020](https://pubmed.ncbi.nlm.nih.gov/38878020/) | 2024 | Observationel | J Allergy Clin Immunol | Patienter modtager benralizumab (eller dupilumab/mepolizumab) viser lavere post-vakcinale SARS-CoV-2-antistof-titrer, hvilket indikerer, at IL-5Rα-vejundertrykkelse i beskeden grad påvirker adaptive immunresponser. |
+| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Oversigt | Immunol Allergy Clin North Am | Sikkerhedsoversigt over biologiske stoffer inklusive benralizumab under graviditet og amning hos kvinder med astma, allergisk rhinitis og atopisk dermatitis. |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Benralizumab is not currently distributed on the Danish market and holds no registered marketing authorisations with the Danish Medicines Agency (Laegemiddelstyrelsen). Internationally, benralizumab is marketed as **Fasenra** by AstraZeneca and holds a centralised EMA authorisation (EU/1/17/1221), which is nominally valid across EU member states including Denmark. The EMA-approved indication covers add-on maintenance treatment of severe eosinophilic asthma in adults. There is no approved indication for dermatitis under any regulatory jurisdiction.
+Benralizumab distribueres i øjeblikket ikke på det danske marked og har ingen registrerede markeringsgodkendelser hos Lægemiddelstyrelsen. Internationalt markedsføres benralizumab som **Fasenra** af AstraZeneca og har en centraliseret EMA-godkendelse (EU/1/17/1221), som nominelt er gyldig på tværs af EU-medlemsstater inklusive Danmark. Den EMA-godkendte indikation omfatter add-on-vedligeholdelsebehandling af svær eosinofil astma hos voksne. Der er ingen godkendt indikation for dermatitis under nogen lovgivningsmæssig jurisdiktion.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+| Markeringsgodkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |-------------------------------|--------------|-------------|---------------------|
-| No Danish marketing authorisations currently on record | — | — | — |
+| Ingen danske markeringsgodkendelser i øjeblikket på dokumentation | — | — | — |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) available via the EMA for complete safety information.
+Se venligst den godkendte produktinformation (SmPC) tilgængelig via EMA for fuldstændig sikkerhedsinformation.
 
-Based on the published literature identified in this evidence pack, the following safety signals are particularly relevant when considering benralizumab in a dermatology context:
+Baseret på den publicerede litteratur identificeret i denne bevisemappe er følgende sikkerhedssignaler særligt relevante, når benralizumab overvejes i en dermatologi-sammenhæng:
 
-- **Paradoxical cutaneous reaction**: A case report (PMID 36270814) documented benralizumab-induced interstitial granulomatous dermatitis in a patient being treated for asthma. This is a rare but notable adverse effect if the drug were to be considered in dermatology patients.
-- **Reduced vaccine immunogenicity**: An observational study (PMID 38878020) demonstrated lower SARS-CoV-2 antibody titres following vaccination in patients on benralizumab, indicating that IL-5Rα suppression modestly attenuates adaptive immune responses. Vaccination timing should be considered.
-- **Parasitic infection risk**: Anti-type 2 immunity biologics including benralizumab carry a theoretical increased risk of helminth infections due to suppression of eosinophil-mediated anti-parasitic defence (PMID 38035014). Screening for endemic exposure is advisable before initiation.
+- **Paradoksal hudreaktion**: En caserapport (PMID 36270814) dokumenterede benralizumab-induceret interstiel granulomatøs dermatitis hos en patient, der blev behandlet for astma. Dette er en sjælden, men værd at bemærke bivirkning, hvis lægemidlet skulle overvejes hos dermatologi-patienter.
+- **Reduceret vaccine-immunogenitet**: En observationel undersøgelse (PMID 38878020) demonstrerede lavere SARS-CoV-2-antistof-titrer efter vaccination hos patienter på benralizumab, hvilket indikerer, at IL-5Rα-undertrykkelse i beskeden grad svækker adaptive immunresponser. Vaccinationstidspunkt bør overvejes.
+- **Risiko for parasitær infektion**: Anti-type 2-immunitet biologiske stoffer inklusive benralizumab medfører en teoretisk øget risiko for helmintinfektioner på grund af undertrykkelse af eosinofil-medieret anti-parasitær forsvar (PMID 38035014). Screening for endemisk eksponering er tilrådelig før igangsætning.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
 **Rationale:**
-The pivotal Phase 2 HILLIER randomised controlled trial (NCT04605094, n=194) was terminated early, and published results (PMID 37178404) confirmed that benralizumab produced no statistically or clinically meaningful improvement in atopic dermatitis endpoints compared with placebo. Although mechanistic studies confirm successful eosinophil depletion in skin lesions (target engagement), this does not translate into clinical benefit — consistent with evidence that AD is driven primarily by IL-4/IL-13 rather than IL-5. The TxGNN high prediction score most likely reflects structural proximity of immunomodulatory disease nodes in the knowledge graph rather than a clinically actionable biological connection.
+Det vigtige Phase 2 HILLIER-randomiseret kontrolleret forsøg (NCT04605094, n=194) blev afsluttet tidligt, og publicerede resultater (PMID 37178404) bekræftede, at benralizumab producerede ingen statistisk eller klinisk meningsfuld forbedring af atopisk dermatitis-endepunkter sammenlignet med placebo. Selvom mekanistiske studier bekræfter succesfuld eosinofil-depletering i hudlæsioner (måldetektering), oversættes dette ikke til klinisk fordel – konsistent med bevis for, at AD primært drives af IL-4/IL-13 snarere end IL-5. TxGNN-høj forudsigelsesscore afspejler meget sandsynligt strukturel proximitet af immunomodulerende sygdomsnoder i vidensgrafen snarere end en klinisk actionerbar biologisk forbindelse.
 
-**To proceed, the following would be needed:**
+**For at fortsætte vil følgende være nødvendig:**
 
-- Identification of a biomarker-defined AD subpopulation with a dominant eosinophilic endotype (e.g., very high tissue eosinophilia, elevated serum IL-5) that might selectively respond to IL-5Rα depletion
-- A formally designed biomarker-enriched Phase 2 proof-of-concept study in this subgroup before further investment
-- Resolution of the formal MOA data gap (DG002) via DrugBank API and review of the full prescribing information (SmPC) to address the safety data gap (DG001) before any clinical programme proceeds
-- Regulatory pathway scoping with Laegemiddelstyrelsen, given that the product is not currently marketed in Denmark
+- Identifikation af en biomarkør-defineret AD-subpopulation med en dominerende eosinofil-endotype (f.eks. meget høj vævseosinofili, forhøjet serum IL-5), der kan selektivt reagere på IL-5Rα-depletering
+- Et formelt designet biomarkør-beriget Phase 2-bevis-for-koncept-studie i denne undergruppe før yderligere investering
+- Løsning af den formelle MOA-datakløft (DG002) via DrugBank API og gennemgang af de fulde præskriberingsinstruktioner (SmPC) for at adressere sikkerhedsdatakløften (DG001), før nogen klinisk program går i gang
+- Lovgivningsmæssig vejledning med Lægemiddelstyrelsen, givet at produktet i øjeblikket ikke markedsføres i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

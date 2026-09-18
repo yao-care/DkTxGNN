@@ -29,89 +29,90 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Desogestrel: From Oral Contraception to Amenorrhea
+# Desogestrel: Fra oral antikonception til amenoré
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Desogestrel is a third-generation synthetic progestogen used in combined and progestogen-only oral contraceptive formulations for the prevention of pregnancy.
-The TxGNN model predicts it may be relevant to the management of **Amenorrhea**,
-with **2 clinical trials** and **16 publications** currently supporting this direction.
+Desogestrel er et tredje generations syntetisk gestagener, der bruges i kombinerede og udelukkende gestagener-baserede orale antikonceptionsmidler til forebyggelse af graviditet.
+TxGNN-modellen forudsiger, at det kan være relevant for behandling af **amenoré**,
+med **2 kliniske forsøg** og **16 publikationer**, der i øjeblikket understøtter denne retning.
 
-> ⚠️ **Critical Clinical Note:** Desogestrel's progestogen-only pill formulation (75 µg/day) is itself a well-established cause of amenorrhea in approximately 50% of users. The repurposing prediction must be interpreted carefully: the therapeutic direction depends entirely on clinical context, underlying pathophysiology, and the specific formulation used.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Oral contraception (no formal registration found in Denmark; globally used in combined OC and progestogen-only pill formulations) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> ⚠️ **Kritisk klinisk bemærkning:** Desogestrels progestagen-kun pil-formulering (75 µg/dag) er selv en velkendt årsag til amenoré hos cirka 50 % af brugerne. Repurposing-forudsigelsen skal fortolkes omhyggeligt: den terapeutiske retning afhænger fuldstændigt af klinisk sammenhæng, underliggende patofysiologi og den specifikke formulering, der bruges.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Desogestrel is a prodrug metabolised to its pharmacologically active form, etonogestrel (3-keto-desogestrel). Etonogestrel binds selectively to the progesterone receptor and modulates the hypothalamic-pituitary-ovarian (HPO) axis primarily by suppressing the mid-cycle LH surge, thereby inhibiting ovulation. Among third-generation progestogens, desogestrel is notable for its markedly low androgenic activity compared to older agents such as levonorgestrel.
-
-The mechanistic bridge to amenorrhea management operates across two distinct clinical contexts. In PCOS-associated amenorrhea driven by hyperandrogenic anovulation, the low androgenic activity of etonogestrel may competitively reduce androgen-receptor stimulation at the ovarian and peripheral level, potentially supporting cycle normalisation. In functional hypothalamic amenorrhea — for example, in athletes with Relative Energy Deficiency in Sport (RED-S / Female Athlete Triad) — exogenous progestogen supplementation may provide endometrial protection and contribute to cycle restoration, as supported by the Phase 3 trial NCT00946192.
-
-A fundamental bidirectionality, however, challenges the repurposing rationale directly: the progestogen-only pill formulation of desogestrel (75 µg/day) induces amenorrhea in approximately 50% of users through sustained suppression of follicular development and consequent hypoestrogenism. This means desogestrel can both cause and — in other formulations or contexts — potentially treat amenorrhea. The net clinical direction is not intrinsic to the molecule but depends entirely on the subtype of amenorrhea, the formulation chosen, and the patient population.
-
-Detailed mechanism of action data from DrugBank was not available at the time of report generation. The above mechanistic reasoning is based on published pharmacodynamic literature.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Oral antikonception (ingen formel registrering fundet i Danmark; globalt brugt i kombinerede OC og progestagen-kun pil-formuleringer) |
+| Forudsagt ny indikation | Amenoré |
+| TxGNN-forudsigelsesscore | 99.96% |
+| Evidensniveau | L3 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Desogestrel er et prodrug, der metaboliseres til sin farmakologisk aktive form, etonogestrel (3-keto-desogestrel). Etonogestrel bindes selektivt til progesteronreceptoren og modulerer hypothalamus-hypofyse-ovarial (HPO) aksen primært ved at undertrykke den midtvejs LH-stigning, hvorved ovulation hæmmes. Blandt tredje generations gestagener er desogestrel bemærkelsesværdigt for sin markant lav androgen aktivitet sammenlignet med ældre stoffer som levonorgestrel.
+
+Den mekanistiske bro til behandling af amenoré opererer på tværs af to distinkte kliniske sammenhænge. I PCOS-associeret amenoré drevet af hyperandrogen anovulation kan den lave androgen aktivitet af etonogestrel konkurrencemæssigt reducere androgen-receptor stimulering på ovarial og perifer niveau, hvilket potentielt kan støtte cyklusnormalisering. I funktionel hypothalam amenoré — for eksempel hos atleter med Relative Energy Deficiency in Sport (RED-S / Female Athlete Triad) — kan eksogent gestagenerantal give endometriebeskyttelse og bidrage til cyklus-gendannelse, som understøttes af fase 3-forsøget NCT00946192.
+
+En fundamental tovejsrettethed udfordrer imidlertid direkte repurposing-rationalet: progestagen-kun pil-formuleringen af desogestrel (75 µg/dag) inducerer amenoré hos cirka 50 % af brugerne gennem vedvarende suppression af follikulær udvikling og efterfølgende hypoøstrogenisme. Dette betyder, at desogestrel kan både forårsage og — i andre formuleringer eller sammenhænge — potentielt behandle amenoré. Den netto kliniske retning er ikke iboende i molekylet, men afhænger fuldstændigt af amenoré-subtypen, den valgte formulering og patientpopulationen.
+
+Detaljerede data om virkningsmekanisme fra DrugBank var ikke tilgængelige på tidspunktet for rapportgenerering. Ovenstående mekanistiske ræsonnement er baseret på offentliggjort farmakodynamisk litteratur.
+
+---
+
+## Beviser fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Investigates fat-mediated modulation of reproductive and endocrine function in young athletes, directly addressing exercise-associated amenorrhea (FAT/RED-S). Compares transdermal vs. oral estrogen for bone density restoration in amenorrheic, estrogen-deficient adolescent athletes. Provides the most directly relevant clinical context for progestogen use in functional hypothalamic amenorrhea, though desogestrel is not the primary intervention. |
-| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Phase 4 | Unknown | 42 | Compares oral combined OC versus vaginal ring over 59 weeks on hormonal, inflammatory, and metabolic parameters in PCOS women of reproductive age. Amenorrhea is not the primary endpoint; the study is relevant as an indirect source on desogestrel-containing COC effects in the PCOS-related hyperandrogenic anovulation context. Small sample and unknown status limit confidence. |
+| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Fase 3 | Afsluttet | 121 | Undersøger fedtmedieret modulering af reproduktiv og endokrin funktion hos unge atleter og adresserer direkte træningsassocieret amenoré (FAT/RED-S). Sammenligner transdermalt vs. oralt østrogen for benbygningsrestaurering hos amenoriske, østrogen-deficiente adolescent atleter. Giver den mest direkte relevante klinisk sammenhæng for gestagenerantal i funktionel hypothalam amenoré, selvom desogestrel ikke er den primære intervention. |
+| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Fase 4 | Ukendt | 42 | Sammenligner oral kombineret OC versus vaginal ring over 59 uger på hormonelle, inflammatoriske og metaboliske parametre hos PCOS-kvinder i reproduktiv alder. Amenoré er ikke det primære endepunkt; forsøget er relevant som indirekte kilde til desogestrel-indeholdende OC-effekter i PCOS-relateret hyperandrogen anovulation-sammenhæng. Lille stikprøve og ukendt status begrænser tillid. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|------|------|---------|---------|
-| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Observational Study | Gynecological Endocrinology | Directly compares bleeding profiles of drospirenone-only pill (4 mg) versus desogestrel 0.075 mg in women with cardiovascular risk factors over nine cycles. Confirms amenorrhea as a key adverse outcome of the desogestrel POP, with poor cycle control potentially impairing acceptability and compliance — directly relevant to the bidirectionality concern. |
-| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | RCT | British Journal of Obstetrics and Gynaecology | Randomised comparison of two formulations both containing desogestrel 150 µg combined with either 20 µg (Mercilon) or 30 µg (Marvelon/Desolett) ethinyl oestradiol; evaluates reliability, cycle control, and side effect profile — foundational data for understanding desogestrel's contribution to cycle regulation. |
-| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Systematic review of 20 µg vs. >20 µg estrogen combined OC formulations, including desogestrel-containing pills; assesses contraceptive effectiveness and bleeding pattern changes. Relevant as the highest-tier evidence on cycle outcomes with desogestrel COC combinations. |
-| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Updated Cochrane review (2011 version) of low-dose estrogen COC formulations; confirms prior findings on bleeding patterns and cycle control outcomes. Directly relevant to the amenorrhea risk-benefit analysis for desogestrel-containing preparations. |
-| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Clinical Study | The Journal of Reproductive Medicine | Evaluates bone mineral density in young women with hypothalamic oligoamenorrhoea treated with oral contraceptives of varying EE dose. Directly relevant to hypothalamic amenorrhoea management with progestogen-containing preparations and the protective role of OCs in this context. |
-| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Pharmacodynamic Study | Acta Obstetricia et Gynecologica Scandinavica | Evaluates the androgenicity of progestogens with specific focus on desogestrel using radioimmunoassay; contextualises its low androgenic profile in relation to PCO syndrome, a condition characterised by amenorrhoea, hirsutism, and acne. Foundational mechanistic evidence. |
-| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Clinical Study | Georgian Medical News | Studies central-genesis dysfunctional menstrual disorders including amenorrhoea and oligomenorrhoea in 159 infertile women based on EEG-guided classification; compares pathogenetic management vs. standard hormone therapy. Provides context for progestogen-based treatment of central amenorrhoea. |
-| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Observational Study | American Journal of Obstetrics and Gynecology | Comprehensive tolerability profile of desogestrel/ethinyl oestradiol combined OC; documents non-contraceptive health benefits and cycle-related effects including impact on dysmenorrhoea and endometriosis — contextually relevant to cycle disorder management. |
-| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Narrative Review | Obstetrical & Gynecological Survey | Reviews third-generation progestins desogestrel, gestodene, and norgestimate; covers chemistry, selective progestational activity, and reduced androgenicity — provides the pharmacological rationale for using desogestrel in androgen-driven hormonal cycle disorders. |
-| [8324604](https://pubmed.ncbi.nlm.nih.gov/8324604/) | 1993 | Review | British Medical Bulletin | Reviews safety and efficacy of combined OCs for an estimated 60 million users worldwide; covers screening, monitoring, and cycle control considerations. Provides broad epidemiological context for desogestrel-containing preparations and menstrual cycle effects. |
+| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Observationsstudie | Gynecological Endocrinology | Sammenligner direkte blødningsmønstre af drospirenon-kun pil (4 mg) versus desogestrel 0,075 mg hos kvinder med kardiovaskulær risiko over ni cyklusser. Bekræfter amenoré som et vigtig uønsket resultat af desogestrel POP, med dårlig cykluskontrol, der potentielt kan påvirke acceptabilitet og compliance — direkte relevant for tovejsretnetheds-problemet. |
+| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | RCT | British Journal of Obstetrics and Gynaecology | Randomiseret sammenligning af to formuleringer, der begge indeholder desogestrel 150 µg kombineret med enten 20 µg (Mercilon) eller 30 µg (Marvelon/Desolett) ethynyl østradiol; evaluerer pålidelighed, cykluskontrol og bivirkningsprofil — grundlæggende data for forståelse af desogestrelles bidrag til cyklusregulering. |
+| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Cochrane-systematisk oversigt | Cochrane Database of Systematic Reviews | Systematisk oversigt over 20 µg vs. >20 µg østrogen kombineret OC-formuleringer, herunder desogestrel-indeholdende piller; vurderer antikonceptiv effektivitet og blødningsmønsterændringer. Relevant som højeste trin-bevis på cyklusresultater med desogestrel OC-kombinationer. |
+| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Cochrane-systematisk oversigt | Cochrane Database of Systematic Reviews | Opdateret Cochrane-oversigt (2011-version) af lavdosis østrogenOC-formuleringer; bekræfter tidligere fund på blødningsmønstre og cykluskontrol-resultater. Direkte relevant for amenoré risk-benefit-analyse for desogestrel-indeholdende præparater. |
+| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Klinisk studie | The Journal of Reproductive Medicine | Evaluerer knoglemineraltæthed hos unge kvinder med hypothalam oligoamenorre behandlet med orale antikonceptionsmidler med varierende EE-dosis. Direkte relevant for hypothalam amenoré-behandling med gestagener-indeholdende præparater og den beskyttende rolle af OC i denne sammenhæng. |
+| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Farmakodynamisk studie | Acta Obstetricia et Gynecologica Scandinavica | Evaluerer gestagens androgencitet med specifikt fokus på desogestrel ved hjælp af radioimmunoassay; kontekstualiserer dets lave androgen profil i forhold til PCO-syndrom, en tilstand kendetegnet ved amenoré, hirsutisme og acne. Grundlæggende mekanistisk bevis. |
+| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Klinisk studie | Georgian Medical News | Studier centralt-udspring dysfunktionel menstruationsforstyrrelser, herunder amenoré og oligomenorre hos 159 infertile kvinder baseret på EEG-guidet klassifikation; sammenligner patogenetisk behandling vs. standard hormonterapi. Giver sammenhæng for gestagener-baseret behandling af central amenoré. |
+| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Observationsstudie | American Journal of Obstetrics and Gynecology | Omfattende tolerabilitetsprofil af desogestrel/ethynyl østradiol kombineret OC; dokumenterer ikke-antikonceptive sundhedsmæssige fordele og cykulusrelaterede effekter, herunder indflydelse på dysmenorre og endometriose — kontekstuelt relevant for cyklusforstyrrelseshåndtering. |
+| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Narrativ oversigt | Obstetrical & Gynecological Survey | Gennemgår tredje generations progestiner desogestrel, gestoden og norgestimaat; dækker kemi, selektiv progestin aktivitet og reduceret androgencitet — giver den farmakologiske begrundelse for at bruge desogestrel i androgen-drevet hormonelle cyklusforstyrrelser. |
+| [8324604](https://pubmed.ncbi.nlm.nih.gov/8324604/) | 1993 | Oversigt | British Medical Bulletin | Gennemgår sikkerhed og effektivitet af kombineret OC for anslået 60 millioner brugere verden over; dækker screening, overvågning og cykluskontrol-overvejelser. Giver bred epidemiologisk sammenhæng for desogestrel-indeholdende præparater og menstruationscyklus-effekter. |
 
 ---
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The TxGNN prediction for Desogestrel in amenorrhea carries a fundamental pharmacological paradox: the progestogen-only pill formulation of desogestrel is a well-established inducer of amenorrhea in ~50% of users, meaning the drug can cause the very condition it is predicted to treat. The available evidence is Level L3 (observational studies and systematic reviews), none of which directly tests desogestrel as a therapeutic agent for amenorrhea; rather, amenorrhea appears predominantly as a side effect or secondary outcome. Combined with the absence of any Denmark marketing authorisation, this indication requires substantially more targeted investigation before proceeding.
+**Begrundelse:**
+TxGNN-forudsigelsen for Desogestrel i amenoré indeholder en grundlæggende farmakologisk paradoks: progestagen-kun pil-formuleringen af desogestrel er en velkendt induktor af amenoré hos ~50 % af brugerne, hvilket betyder, at stoffet kan forårsage den meget tilstand, det forudsiges at behandle. De tilgængelige beviser er niveau L3 (observationsstudier og systematiske oversigter), hvoraf ingen direkte tester desogestrel som et terapeutisk middel for amenoré; amenoré optræder derimod overvejende som en bivirkning eller sekundært resultat. Kombineret med fraværet af nogen markedsføringstilladelse i Danmark kræver denne indikation væsentligt mere målrettet undersøgelse, før den kan gennemføres.
 
-**To proceed, the following is needed:**
-- Precise definition of the amenorrhea subtype to be addressed (PCOS-related hyperandrogenic anovulation, functional hypothalamic amenorrhoea, or secondary amenorrhoea of another aetiology) — the mechanistic rationale and evidence base differ substantially between subtypes
-- Retrieval of the full SmPC (including contraindications and warnings) from the Danish Medicines Agency (Lægemiddelstyrelsen) or EMA to complete the safety evaluation; the current data gap here is classified as blocking
-- Mechanism of action data from DrugBank to formally confirm the HPO axis modulation pathway
-- Clarification of whether any existing combined OC formulations containing desogestrel already hold a marketing authorisation in Denmark (e.g., via EMA centralised procedure), which would substantially alter the regulatory pathway for this repurposing
-- A dedicated prospective proof-of-concept study testing a combined OC formulation of desogestrel — not the progestogen-only pill — in a clearly defined amenorrhea population, with cycle restoration as the primary endpoint
+**For at fortsætte er følgende nødvendigt:**
+- Præcis definition af amenoré-subtypen, der skal behandles (PCOS-relateret hyperandrogen anovulation, funktionel hypothalam amenoré eller sekundær amenoré af anden ætiologi) — den mekanistiske begrundelse og evidensbase varierer væsentligt mellem subtyper
+- Indhentelse af den fulde Produktinformation (SmPC) (herunder kontraindikationer og advarsler) fra Lægemiddelstyrelsen eller EMA for at gennemføre sikkerhedsvurderingen; det nuværende datahul her er klassificeret som blokerende
+- Mekanisme-af-handling-data fra DrugBank for formelt at bekræfte HPO-aksen moduleringsvejen
+- Præcisering af, hvorvidt nogen eksisterende kombineret OC-formulering indeholdende desogestrel allerede har en markedsføringstilladelse i Danmark (f.eks. via EMA-centraliseret procedure), hvilket væsentligt ville ændre den regulatoriske vej for denne repurposing
+- Et dedikeret prospektivt proof-of-concept-studie testende en kombineret OC-formulering af desogestrel — ikke progestagen-kun pillen — i en klart defineret amenoré-population, med cyklist-gendannelse som det primære endepunkt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

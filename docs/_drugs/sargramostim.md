@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sargramostim: From Unspecified Original Indication to Drug-induced Osteoporosis
+# Sargramostim: Fra uspecificeret oprindelig indikation til lægemiddelinduceret osteoporose
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Sargramostim's original approved indication is not recorded in the current evidence pack, and no marketing authorisation exists in Denmark today. The TxGNN model predicts a possible signal for **Drug-induced Osteoporosis**, but this is currently **model prediction only** — **0 clinical trials** and **0 publications** support this specific direction, and the drug's own rationale narrative flags a possible contradictory mechanism.
+Sargramostims oprindelige godkendte indikation er ikke registreret i den aktuelle evidenspakke, og der findes ingen markedsføringstilladelse i Danmark i dag. TxGNN-modellen forudsiger et muligt signal for **lægemiddelinduceret osteoporose**, men dette er i øjeblikket **kun modelforudsigelse** — **0 kliniske forsøg** og **0 publikationer** understøtter denne specifikke retning, og lægemidlets eget rationale peger på en mulig modstridende mekanisme.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Not available in current evidence pack |
-| Predicted New Indication | Drug-induced Osteoporosis |
-| TxGNN Prediction Score | 98.99% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke tilgængelig i den aktuelle evidenspakke |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
+| TxGNN-forudsigelsesscore | 98.99% |
+| Bevisgrad | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data for Sargramostim is not available in this evidence pack. Sargramostim is known generically as a recombinant GM-CSF (granulocyte-macrophage colony-stimulating factor) product, and this identity is reflected in the model's own rationale text rather than in structured MOA data.
+Detaljerede data om virkningsmåde for Sargramostim er ikke tilgængelige i denne evidenspakke. Sargramostim er kendt som et rekombinant GM-CSF-produkt (granulocyt-makrofag kolonistimulerende faktor), og denne identitet afspejles i modellens egen rationaletkst snarere end i strukturerede MOA-data.
 
-The rationale supplied alongside the prediction is explicitly cautious rather than supportive: GM-CSF is understood to modulate bone-marrow stromal cells and osteoclast differentiation, which gives it a theoretical, indirect connection to bone metabolism. However, the same rationale notes that some literature suggests GM-CSF may instead **promote** osteoclast activity — meaning the direction of effect is unclear and could plausibly work *against* an osteoporosis indication rather than for it.
+Rationalet, der leveres sammen med forudsigelsen, er eksplicit forsigtigt snarere end støttende: GM-CSF forstås at modulere knoglemarvsstromale celler og osteoklastdifferentiering, hvilket giver det en teoretisk, indirekte forbindelse til knoglemetabolisme. Imidlertid noterer samme rationale, at noget litteratur tyder på, at GM-CSF i stedet kan **fremme** osteoklastaktivitet — hvilket betyder, at effektens retning er uvis og plausibelt kunne virke *imod* en osteoporoseangivelse snarere end for den.
 
-Given this, the mechanistic case here should be read as a hypothesis-generating signal only, not as a coherent pharmacological argument for repurposing. It does not currently rise to a level that would support clinical exploration without further mechanistic and safety data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+På baggrund heraf bør den mekanistiske sag her læses som et hypotesedannende signal kun, ikke som et sammenhængende farmakologisk argument for terapeutisk genudvikling. Den stiger i øjeblikket ikke til et niveau, der ville støtte klinisk udforskning uden yderligere mekanistiske og sikkerhedsdata.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Sargramostim currently holds no marketing authorisation in Denmark (0 registered licenses; market status: Not marketed). No Laegemiddelstyrelsen or EMA centralised authorisation data is available in this evidence pack.
+Der er i øjeblikket ingen relaterede registrerede kliniske forsøg.
 
 ---
 
-## Safety Considerations
+## Evidens fra litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug-drug interaction records were found in the current query (query status: not found, 0 interactions).
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Sargramostim har i øjeblikket ingen markedsføringstilladelse i Danmark (0 registrerede licenser; markedsstatus: Ikke markedsført). Der er ingen Laegemiddelstyrelsen- eller EMA-centraliserede godkendelsesdata tilgængelig i denne evidenspakke.
 
-**Rationale:**
-This candidate is supported only by an L5 model prediction — there are no clinical trials or literature specific to Sargramostim in drug-induced osteoporosis, and the drug's own mechanistic rationale raises the possibility that GM-CSF could worsen rather than improve osteoclast-driven bone loss. Combined with the absence of any Danish marketing authorisation, there is no basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings and contraindications for Sargramostim (currently a blocking data gap — required before any safety pre-screen)
-- Verified mechanism of action data from DrugBank or equivalent source
-- Primary literature or preclinical data directly addressing GM-CSF's effect on osteoclast activity and bone density, to resolve the directional uncertainty noted in the rationale
-- Confirmation of original approved indication(s), to properly assess similarity/rationale between old and new use
+## Sikkerhedshensyn
+
+Se venligst de godkendte produktkarakteristika (SmPC) for sikkerhedsinformation. Der blev ikke fundet lægemiddelinteraktionsdata i den aktuelle forespørgsel (forespørgselsstatus: ikke fundet, 0 interaktioner).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Denne kandidat understøttes kun af en L5-modelforudsigelse — der er ingen kliniske forsøg eller litteratur specifikt for Sargramostim ved lægemiddelinduceret osteoporose, og lægemidlets egen mekanistiske rationale rejser muligheden for, at GM-CSF kunne forværre snarere end forbedre osteoklast-drevet knogletab. Kombineret med fraværet af enhver dansk markedsføringstilladelse, er der intet grundlag for at fremme denne kandidat på nuværende tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk/EU SmPC-advarsler og kontraindikationer for Sargramostim (i øjeblikket et blokerende datahul — påkrævet før enhver sikkerhedsvurdering)
+- Bekræftede data om virkningsmåde fra DrugBank eller tilsvarende kilde
+- Primærlitteratur eller prækliniske data direkte adressering af virkningen af GM-CSF på osteoklastaktivitet og knogletæthed, for at løse den retningsusikkerhed, der er noteret i rationalet
+- Bekræftelse af oprindelig godkendt indikation(er), for at vurdere lighed/rationale korrekt mellem gammel og ny brug
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

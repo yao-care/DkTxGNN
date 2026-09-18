@@ -29,82 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brodalumab: From Plaque Psoriasis to Strongyloidiasis
+# Brodalumab: Fra Plakal Psoriasis til Strongyloidose
 
-## One-Sentence Summary
+## Ét-Sætnings Sammenfatning
 
-Brodalumab is a fully human monoclonal antibody targeting the interleukin-17 receptor A (IL-17RA), primarily approved for the treatment of moderate-to-severe plaque psoriasis in adults. The TxGNN model assigns its highest prediction score to **Strongyloidiasis** (99.84%), yet **no clinical trials or published literature** currently support this indication. Critically, mechanistic analysis suggests this prediction likely represents a **potential safety hazard rather than a therapeutic opportunity**, as IL-17 signalling plays a protective — not pathological — role in host defence against *Strongyloides stercoralis*.
+Brodalumab er et fuldt humant monoklonalt antistof rettet mod interleukin-17-receptor A (IL-17RA), primært godkendt til behandling af moderat til alvorlig plakal psoriasis hos voksne. TxGNN-modellen tildeler sin højeste forudsigelsesscore til **Strongyloidose** (99.84%), men **ingen kliniske forsøg eller publiceret litteratur** understøtter i øjeblikket denne indikation. Kritisk set tyder mekanistisk analyse på, at denne forudsigelse sandsynligvis repræsenterer en **potentiel sikkerhedsrisiko snarere end en terapeutisk mulighed**, da IL-17-signalering spiller en beskyttende — ikke patologisk — rolle i værtsforsvar mod *Strongyloides stercoralis*.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|---------|
-| Original Indication | Moderate-to-severe plaque psoriasis (approved in US and Japan; not registered in Denmark) |
-| Predicted New Indication | Strongyloidiasis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indikation | Moderat til alvorlig plakal psoriasis (godkendt i USA og Japan; ikke registreret i Danmark) |
+| Forudsagt Ny Indikation | Strongyloidose |
+| TxGNN Forudsigelsesscore | 99.84% |
+| Bevisniveau | L5 |
+| Danmarks Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor Er Denne Forudsigelse Rimelig?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on published pharmacological literature, Brodalumab is a fully human IgG2 monoclonal antibody that binds with high affinity to IL-17 receptor A (IL-17RA), blocking the signalling of multiple IL-17 family cytokines — including IL-17A, IL-17F, IL-17A/F, IL-17C, and IL-25 (IL-17E). By interrupting this pro-inflammatory cascade, Brodalumab suppresses keratinocyte activation and the downstream inflammatory response characteristic of psoriatic skin disease. The drug is approved for moderate-to-severe plaque psoriasis in the United States (Siliq®) and Japan (Lumicef®), though it is not currently registered in Denmark.
+For øjeblikket er detaljeret virkningsmekanisme-data ikke tilgængelig i denne Evidence Pack. Baseret på publiceret farmakologisk litteratur er Brodalumab et fuldt humant IgG2-monoklonalt antistof, som binder med høj affinitet til IL-17-receptor A (IL-17RA) og blokerer signaleringen fra multiple IL-17-familie-cytokiner — herunder IL-17A, IL-17F, IL-17A/F, IL-17C og IL-25 (IL-17E). Ved at afbryde denne pro-inflammatoriske kaskade undertrykker Brodalumab keratinocyt-aktivering og den nedstrøms inflammatoriske respons, som er karakteristisk for psoriasisk hudsygdom. Lægemidlet er godkendt til moderat til alvorlig plakal psoriasis i USA (Siliq®) og Japan (Lumicef®), selvom det ikke i øjeblikket er registreret i Danmark.
 
-Strongyloidiasis is an intestinal nematode infection caused by *Strongyloides stercoralis*, capable of causing life-threatening hyperinfection syndrome in immunocompromised hosts. **The mechanistic relationship between Brodalumab and Strongyloidiasis runs directly counter to the repurposing hypothesis.** IL-17 cytokines actively promote mucosal anti-parasitic immunity: they drive neutrophil recruitment, enhance IgA secretion, and orchestrate Th17-mediated defence against extracellular pathogens including helminths. Blocking IL-17RA with Brodalumab would be expected to weaken this protective immune response, potentially predisposing patients to primary infection or — more dangerously — to disseminated hyperinfection in those with latent *Strongyloides* carriage.
+Strongyloidose er en intestinal nematod-infektion forårsaget af *Strongyloides stercoralis*, som kan forårsage livstruende hyperinfektionssyndrom hos immunokompromitterede værter. **Det mekanistiske forhold mellem Brodalumab og Strongyloidose strider direkte imod ombrugs-hypotesen.** IL-17-cytokiner fremmer aktivt mucosal anti-parasitær immunitet: de driver neutrofil-rekruttering, øger IgA-sekretion og orkestrerer Th17-medieret forsvar mod ekstracellulære patogener herunder helminter. Blokering af IL-17RA med Brodalumab ville forventes at svække dette beskyttende immunforsvar og potentielt prædisponere patienter for primær infektion eller — farere — dissemineret hyperinfektion hos dem, der har latent *Strongyloides*-bæring.
 
-This counter-mechanistic prediction most likely reflects the TxGNN model capturing indirect network relationships within the knowledge graph — for example, shared inflammatory pathway nodes or comorbidity co-occurrence patterns — rather than a genuine therapeutic signal. In clinical practice, anti-IL-17 therapies (as a class) carry a recognised risk of exacerbating certain infections, and Strongyloides screening prior to initiating immunosuppressive biologics is already recommended in guidelines for patients from endemic regions. **This prediction should be interpreted and documented as a mechanistic safety signal, not a repurposing candidate.**
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials investigating Brodalumab for Strongyloidiasis have been registered.
+Denne mod-mekanistiske forudsigelse afspejler med størst sandsynlighed TxGNN-modellen, som registrerer indirekte netværksforhold inden for vidensgrafen — for eksempel delte inflammatoriske vej-noder eller komorbidet-koforekomst-mønstre — snarere end et ægte terapeutisk signal. I klinisk praksis bærer anti-IL-17-terapier (som en klasse) en kendt risiko for at forværre visse infektioner, og screening for Strongyloides før initiering af immunsuppressive biologika anbefales allerede i retningslinjer for patienter fra endemiske områder. **Denne forudsigelse bør fortolkes og dokumenteres som et mekanistisk sikkerhedssignal, ikke som en ombrug-kandidat.**
 
 ---
 
-## Literature Evidence
+## Kliniske Forsøg
 
-Currently no related literature on Brodalumab for Strongyloidiasis is available.
-
----
-
-## Denmark Market Information
-
-Brodalumab currently holds no marketing authorisations in Denmark and has not been assigned a national authorisation number by the Danish Medicines Agency (Laegemiddelstyrelsen). The drug was previously granted a centralised marketing authorisation in the European Union (Kyntheum®, LEO Pharma A/S), but this authorisation was subsequently withdrawn from the European market. For the current regulatory status, consult the Laegemiddelstyrelsen product database or the EMA's European Public Assessment Reports (EPAR) directly.
+I øjeblikket er ingen kliniske forsøg, som undersøger Brodalumab til Strongyloidose, blevet registreret.
 
 ---
 
-## Safety Considerations
+## Litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for detailed safety information.
-
-> **Clinically relevant note for this evaluation:** Detailed warnings and contraindications were not available in this Evidence Pack. However, given that this report concerns the potential repurposing of an IL-17RA-blocking biologic for a parasitic infection, the following drug-class safety considerations are directly relevant: (1) immunosuppressive biologics of this class increase susceptibility to serious infections, including fungal and parasitic infections; (2) prior to initiating IL-17RA–blocking therapy in patients from *Strongyloides*-endemic regions, screening and pre-emptive treatment for strongyloidiasis are advisable per international guidelines; (3) Brodalumab carries a specific black-box warning for suicidal ideation and behaviour, identified in pivotal psoriasis trials. A complete SmPC review is required before any clinical decision.
+I øjeblikket er der ingen relevant litteratur om Brodalumab til Strongyloidose tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Danmarks Markedsinformation
 
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN model's top prediction for Brodalumab is Strongyloidiasis, but mechanistic analysis clearly indicates that IL-17RA blockade is biologically expected to *worsen* rather than treat this parasitic infection. With an evidence level of L5 (model prediction only, zero supporting trials or literature), there is no basis to advance this indication — and the prediction itself warrants documentation as a counter-mechanistic safety concern.
-
-**To proceed productively, the following steps are recommended:**
-
-- **Obtain the Brodalumab SmPC** (from EMA EPAR or the US prescribing information) to complete the S1 safety assessment and populate the key warnings and contraindications fields
-- **Confirm MOA data** via DrugBank API (DB11776) to formalise the mechanism-of-action section
-- **Reassess the TxGNN model architecture** to understand why a counter-mechanistic prediction receives the highest confidence score — this may indicate a knowledge graph edge that captures comorbidity risk (e.g., patients on biologics have *Strongyloides* risk) rather than a therapeutic edge
-- **Prioritise evaluation of the rank-3 prediction — Eye Disease (TxGNN score: 99.82%, Evidence Level: L4)** — which carries a mechanistically plausible IL-17 rationale (IL-17RA expression in corneal epithelium and uveal tissue; existing exploratory data for secukinumab in uveitis) and has at least one indirect observational study and one supporting review article; this represents a more credible repurposing hypothesis that warrants a dedicated evaluation report
-- **Consider optic perineuritis and recurrent idiopathic neuroretinitis** (ranks 9–10) as lower-priority exploratory hypotheses, given the theoretical IL-17/Th17 involvement in autoimmune neuro-ophthalmic inflammation, pending literature search confirmation
+Brodalumab har i øjeblikket ingen markedsføringstilladelser i Danmark og er ikke blevet tildelt et nationalt autorisationsnummer af Lægemiddelstyrelsen. Lægemidlet blev tidligere givet en centraliseret markedsføringstilladelse i Den Europæiske Union (Kyntheum®, LEO Pharma A/S), men denne tilladelse blev efterfølgende trukket tilbage fra det europæiske marked. For den aktuelle regulatoriske status se Lægemiddelstyrelsens produktdatabase eller EMA's Europæiske Offentlige Vurderingsrapporter (EPAR) direkte.
 
 ---
 
-*This report is generated for research reference purposes only. Drug repurposing candidates require clinical validation before any therapeutic application. All content should be reviewed in conjunction with the full SmPC and current clinical guidelines.*
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte Sammenfatning af Produktkarakteristika (SmPC) for detaljeret sikkerhedsinformation.
+
+> **Klinisk relevant bemærkning til denne vurdering:** Detaljerede advarsler og kontraindikationer var ikke tilgængelige i denne Evidence Pack. Dog, da denne rapport omhandler det potentielle ombrug af et IL-17RA-blokerende biologikum til en parasitær infektion, er følgende lægemiddelklasse-sikkerhedsovervejelser direkte relevante: (1) immunsuppressive biologika af denne klasse øger modtagelighed for alvorlige infektioner, herunder fungal og parasitære infektioner; (2) før initiering af IL-17RA–blokerende terapi hos patienter fra strongyloides-endemiske områder anbefales screening og forebyggende behandling for strongyloidose i henhold til internationale retningslinjer; (3) Brodalumab har en specifik sort-boks-advarsel for suicidal ideation og adfærd, som blev identificeret i centrale psoriasis-forsøg. En fuldstændig SmPC-gennemgang er påkrævet før nogen klinisk beslutning.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-modellens topforudsigelse for Brodalumab er Strongyloidose, men mekanistisk analyse indikerer klart, at IL-17RA-blokade biologisk forventes at *forværre* snarere end behandle denne parasitære infektion. Med et bevisniveau på L5 (kun modelforudsigelse, nul understøttende forsøg eller litteratur) er der intet grundlag for at fremme denne indikation — og forudsigelsen selv berettiger dokumentering som et mod-mekanistisk sikkerhedsproblem.
+
+**For at fortsætte konstruktivt anbefales følgende trin:**
+
+- **Skaff Brodalumab SmPC** (fra EMA EPAR eller USA forskrivelsesinformation) for at færdiggøre S1-sikkerhedsvurderingen og udfylde de vigtigste advarsels- og kontraindikationsfelter
+- **Bekræft MOA-data** via DrugBank API (DB11776) for at formalisere virkningsmekanisme-afsnittet
+- **Genvurder TxGNN-model-arkitekturen** for at forstå, hvorfor en mod-mekanistisk forudsigelse modtager den højeste tillids-score — dette kan indikere en vidensgraf-kant, som indfanger komorbidet-risiko (f.eks. patienter på biologika har Strongyloides-risiko) snarere end en terapeutisk kant
+- **Prioriter vurdering af rank-3-forudsigelsen — Øjesygdom (TxGNN-score: 99.82%, Bevisniveau: L4)** — som har en mekanistisk plausibel IL-17-begrundelse (IL-17RA-udtryk i hornhinde-epitel og uvea-væv; eksisterende explorativ data for secukinumab i uveitis) og har mindst ét indirekte observationelt studie og én understøttende review-artikel; dette repræsenterer en mere troværdig ombrug-hypotese, som berettiger en dedikeret evaluerings-rapport
+- **Overvej optisk perineritis og tilbagevendende idiopatisk neuroretinitis** (ranges 9–10) som lavere-prioritet explorativ hypoteser, givet den teoretiske IL-17/Th17-involvering i autoimmun neuro-oftalmologisk betændelse, afventende litteratursøgning-bekræftelse
+
+---
+
+*Denne rapport er genereret til forskning og referenceformål kun. Ombrug-kandidater for lægemidler kræver klinisk validering før nogen terapeutisk anvendelse. Alt indhold bør gennemgås i forbindelse med den fulde SmPC og aktuelle kliniske retningslinjer.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

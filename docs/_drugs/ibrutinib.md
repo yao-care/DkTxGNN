@@ -29,126 +29,127 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ibrutinib: From B-Cell Malignancies to Monoclonal Paraproteinemia Disease
+# Ibrutinib: Fra B-cellemaligniteterne til monoklonal paraproteinæmisygdom
 
-## One-Sentence Summary
+## Sammenfatning på en linje
 
-Ibrutinib is a first-generation irreversible BTK (Bruton's Tyrosine Kinase) inhibitor, globally approved for multiple B-cell malignancies including CLL, MCL, and Waldenström's Macroglobulinemia, but currently not registered in Denmark.
-The TxGNN model predicts it may be effective for **Monoclonal Paraproteinemia Disease (Waldenström's Macroglobulinemia)** with a score of **91.16%**,
-supported by **13 clinical trials** and **20 publications** — including two completed Phase 3 RCTs — placing this at **L1 evidence level**.
+Ibrutinib er en første-generations irreversibel BTK-inhibitor (Bruton's Tyrosine Kinase), der er globalt godkendt til flere B-cellemaligniteterne herunder CLL, MCL og Waldenströms makroglobulinæmi, men er i øjeblikket ikke registreret i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **monoklonal paraproteinæmisygdom (Waldenströms makroglobulinæmi)** med en score på **91,16 %**,
+understøttet af **13 kliniske forsøg** og **20 publikationer** — herunder to afsluttede fase 3-RCT'er — hvilket placerer dette på **L1-bevisniveau**.
 
-> **Note on highest-ranked TxGNN prediction**: The single highest TxGNN score (91.75%) was assigned to *polyclonal hypergammaglobulinemia*, but no clinical trials or literature were identified for this indication. The present report therefore focuses on **monoclonal paraproteinemia disease**, which carries L1 evidence and a direct mechanistic link to ibrutinib's established mechanism of action.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; globally approved (EMA/FDA) for CLL, MCL, Waldenström's Macroglobulinemia, and Marginal Zone Lymphoma |
-| Predicted New Indication | Monoclonal Paraproteinemia Disease (Waldenström's Macroglobulinemia) |
-| TxGNN Prediction Score | 91.16% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> **Bemærkning om højest-rangeret TxGNN-forudsigelse**: Den eneste højeste TxGNN-score (91,75 %) blev tildelt *polyklonal hypergammaglobulinæmi*, men der blev ikke identificeret kliniske forsøg eller litteratur for denne indikation. Denne rapport fokuserer derfor på **monoklonal paraproteinæmisygdom**, som har L1-bevis og en direkte mekanistisk forbindelse til ibrutinibs etablerede virkningsmekanisme.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Ibrutinib acts as an irreversible covalent inhibitor of Bruton's Tyrosine Kinase (BTK) by binding to the Cys481 residue. This blocks downstream B-cell receptor (BCR) signalling cascades — including PLCγ2, NF-κB, and PI3K/MAPK — suppressing malignant B-cell proliferation, survival, and differentiation into paraprotein-secreting plasma cells. Although detailed MOA data from DrugBank was not retrieved in this evidence pack, ibrutinib's mechanism is extensively described in the published literature cited below.
-
-In monoclonal paraproteinemia diseases, particularly Waldenström's Macroglobulinemia (WM), the neoplastic lymphoplasmacytic cells carry the somatic MYD88 L265P mutation in approximately 90% of cases. This mutation constitutively activates the IRAK4→BTK signalling axis, creating a state of BTK dependency. Ibrutinib directly disrupts this activated pathway, inducing tumour B-cell apoptosis and reducing secretion of the pathognomonic monoclonal IgM paraprotein — the driver of WM's clinical complications including hyperviscosity, cytopenias, and neuropathy.
-
-The TxGNN prediction is fully consistent with established clinical evidence and global regulatory approvals. The pivotal iNNOVATE Phase 3 trial (NCT02165397, n=181) established ibrutinib + rituximab as superior to rituximab alone in WM, and the ASPEN Phase 3 trial (NCT03053440, n=201) confirmed ibrutinib as an active BTK inhibitor in this disease. Ibrutinib (Imbruvica®) holds EMA centralised marketing authorisation for WM. From a Danish perspective, the challenge is not lack of efficacy evidence, but rather the absence of national registration — making this a market access question as much as a repurposing question.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02165397](https://clinicaltrials.gov/study/NCT02165397) | Phase 3 | Completed | 181 | iNNOVATE: Double-blind RCT of ibrutinib + rituximab vs. placebo + rituximab in WM; pivotal EMA/FDA registration trial demonstrating superiority of the ibrutinib combination |
-| [NCT03053440](https://clinicaltrials.gov/study/NCT03053440) | Phase 3 | Completed | 201 | ASPEN: Randomised head-to-head comparison of zanubrutinib vs. ibrutinib in MYD88-mutated WM; both arms demonstrated activity, with zanubrutinib showing a more favourable toxicity profile |
-| [NCT04061512](https://clinicaltrials.gov/study/NCT04061512) | Phase 2/3 | Recruiting | 148 | RAINBOW: Ongoing randomised trial comparing ibrutinib + rituximab vs. standard DRC (dexamethasone, rituximab, cyclophosphamide) as first-line therapy in WM |
-| [NCT04840602](https://clinicaltrials.gov/study/NCT04840602) | Phase 2 | Recruiting | 92 | Randomised comparison of BTK inhibitors (ibrutinib + rituximab or zanubrutinib) vs. venetoclax + rituximab in previously untreated WM/LPL |
-| [NCT03620903](https://clinicaltrials.gov/study/NCT03620903) | Phase 2 | Active, not recruiting | 53 | Bortezomib + rituximab + ibrutinib (B-RI) triplet as first-line therapy in treatment-naïve WM patients |
-| [NCT04062448](https://clinicaltrials.gov/study/NCT04062448) | Phase 2 | Completed | 16 | Ibrutinib + rituximab in Japanese WM patients (treatment-naïve and relapsed/refractory); evaluated overall response rate by independent review |
-| [NCT01479842](https://clinicaltrials.gov/study/NCT01479842) | Phase 1 | Active, not recruiting | 48 | Dose-escalation study of BTK inhibitor + rituximab + bendamustine in R/R NHL including WM-spectrum B-cell malignancies; safety and PK data |
-| [NCT07169565](https://clinicaltrials.gov/study/NCT07169565) | Phase 1 | Not yet recruiting | 21 | Time-limited ibrutinib followed by BR (bendamustine + rituximab) regimen in WM; 3+3 dose-escalation design to establish RP2D |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; globalt godkendt (EMA/FDA) til CLL, MCL, Waldenströms makroglobulinæmi og marginal zone-lymfom |
+| Forudsagt ny indikation | Monoklonal paraproteinæmisygdom (Waldenströms makroglobulinæmi) |
+| TxGNN-forudsigelsesscore | 91,16 % |
+| Bevisniveau | L1 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsmæssige foranstaltninger |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse fornuftig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [32731259](https://pubmed.ncbi.nlm.nih.gov/32731259/) | 2020 | RCT Phase 3 | Blood | ASPEN trial: phase 3 randomised comparison of zanubrutinib vs. ibrutinib in symptomatic WM; confirms ibrutinib as active standard, with zanubrutinib achieving numerically higher complete/VGPR rates |
-| [38315878](https://pubmed.ncbi.nlm.nih.gov/38315878/) | 2024 | Biomarker analysis | Blood Advances | ASPEN post-hoc analysis: MYD88 and CXCR4 mutation status predicts differential BTK inhibitor response; CXCR4 mutations associated with reduced ibrutinib efficacy |
-| [39626287](https://pubmed.ncbi.nlm.nih.gov/39626287/) | 2025 | Sub-analysis | Blood Advances | Peripheral neuropathy resolution with zanubrutinib vs. ibrutinib in the ASPEN WM cohort; ibrutinib associated with greater neuropathy burden |
-| [32603202](https://pubmed.ncbi.nlm.nih.gov/32603202/) | 2020 | Review | Expert Opinion on Pharmacotherapy | Comprehensive evaluation of ibrutinib's role in WM: genomic predictors, clinical trial landscape, resistance mechanisms, and evolving treatment paradigm |
-| [33273682](https://pubmed.ncbi.nlm.nih.gov/33273682/) | 2021 | Review | Leukemia | CXCR4 mutations in WM: mechanistic role and implications for ibrutinib response, treatment sequencing, and novel targeting strategies |
-| [31591468](https://pubmed.ncbi.nlm.nih.gov/31591468/) | 2019 | Review | Leukemia | Updated WM treatment landscape; ibrutinib and combination regimens as backbone of current and emerging therapy |
-| [29169431](https://pubmed.ncbi.nlm.nih.gov/29169431/) | 2017 | Review | Deutsches Ärzteblatt International | Systematic differential diagnosis approach to IgM monoclonal gammopathies including WM, MGUS, and lymphoma subtypes; therapeutic implications |
-| [27825468](https://pubmed.ncbi.nlm.nih.gov/27825468/) | 2016 | Review | Best Practice & Research Clin. Haematol. | Novel therapeutic targets in WM: MYD88-BTK axis, CXCR4 signalling, and emerging preclinical and clinical data on ibrutinib |
-| [27825466](https://pubmed.ncbi.nlm.nih.gov/27825466/) | 2016 | Review | Best Practice & Research Clin. Haematol. | Evidence-based treatment guidelines for WM; disease burden and patient characteristics guiding treatment selection including ibrutinib |
-| [25679974](https://pubmed.ncbi.nlm.nih.gov/25679974/) | 2015 | Review | Clin. Adv. Hematol. Oncol. | WM clinical overview: IPSSWM prognostic stratification, survival outcomes, and incorporation of targeted agents including ibrutinib |
+Ibrutinib fungerer som en irreversibel kovalent inhibitor af Bruton's Tyrosinkinase (BTK) ved at binde til Cys481-residuen. Dette blokerer nedstrøms B-celleceptor (BCR) signaleringskaskader — herunder PLCγ2, NF-κB og PI3K/MAPK — og undertrykkelse af ondartede B-cellers proliferation, overlevelse og differentiering til paraprotein-sekreterende plasmaceller. Selvom detaljerede MOA-data fra DrugBank ikke blev hentet i denne bevisspakke, beskrives ibrutinibs mekanisme omfattende i den offentliggjorte litteratur, der citeres nedenfor.
+
+I monoklonal paraproteinæmisygdom, særligt Waldenströms makroglobulinæmi (WM), bærer de neoplastiske lymfoplasmatiske celler den somatiske MYD88 L265P-mutation i cirka 90 % af tilfældene. Denne mutation aktiverer konstant IRAK4→BTK-signaleringsaksen, hvilket skaber en tilstand af BTK-afhængighed. Ibrutinib forstyrrer direkte denne aktiverede vej, inducerer tumorbcellapoptose og reducerer sekretion af den karakteristiske monoklonale IgM-paraprotein — driveren af WM's kliniske komplikationer herunder hypervisker, cytopenier og neuropati.
+
+TxGNN-forudsigelsen er helt i overensstemmelse med etableret klinisk bevis og globale myndighedsgodkendelser. Det pivotale iNNOVATE-fase 3-forsøg (NCT02165397, n=181) etablerede ibrutinib + rituximab som overlegen rituximab alene i WM, og ASPEN-fase 3-forsøget (NCT03053440, n=201) bekræftede ibrutinib som en aktiv BTK-inhibitor i denne sygdom. Ibrutinib (Imbruvica®) indehaver EMA centraliseret markedsføringstilladelse for WM. Fra et dansk perspektiv er udfordringen ikke mangel på effektivitetsbevis, men snarere fraværet af national registrering — hvilket gør dette til et markedsadgangsspørgsmål ligeså meget som til et ombrugsspørgsmål.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-Ibrutinib is currently **not registered** in Denmark. No marketing authorisations are recorded in the Danish Medicines Agency (Lægemiddelstyrelsen) database.
-
-> **Pathway note for Danish healthcare professionals**: Ibrutinib is authorised in Europe under the EMA centralised procedure as **Imbruvica®** (Janssen-Cilag International NV), with approved indications including CLL/SLL, MCL, WM, and MZL. Danish patients may potentially access ibrutinib via a *særlig tilladelse* (special import authorisation) or named-patient programme through Lægemiddelstyrelsen pending a formal national reimbursement submission.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — irreversible BTK inhibitor (kinase inhibitor; not conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate; neutropenia and thrombocytopenia are reported adverse events, but arise primarily from disease-related bone marrow infiltration rather than direct cytotoxicity; less myelosuppressive than conventional chemotherapy regimens |
-| Emetogenicity Classification | Minimal to low (oral kinase inhibitor class) |
-| Monitoring Items | Full blood count with differential (CBC), liver function (ALT/AST), renal function, cardiac monitoring (12-lead ECG, blood pressure — due to atrial fibrillation and hypertension risk), bleeding history assessment |
-| Handling Protection | Standard oral oncology precautions apply; does not require dedicated cytotoxic preparation facilities or CSTD (closed system transfer devices) |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
+|-------------|------|--------|----------|-------------------|
+| [NCT02165397](https://clinicaltrials.gov/study/NCT02165397) | Fase 3 | Afsluttet | 181 | iNNOVATE: Dobbeltblindet RCT af ibrutinib + rituximab vs. placebo + rituximab i WM; pivotalt registreringsforsøg for EMA/FDA, som demonstrerede overlegenhed af ibrutinib-kombinationen |
+| [NCT03053440](https://clinicaltrials.gov/study/NCT03053440) | Fase 3 | Afsluttet | 201 | ASPEN: Randomiseret head-to-head sammenligning af zanubrutinib vs. ibrutinib i MYD88-muteret WM; begge arme demonstrerede aktivitet, hvor zanubrutinib viste en mere gunstig toksicitets-profil |
+| [NCT04061512](https://clinicaltrials.gov/study/NCT04061512) | Fase 2/3 | Rekrutterer | 148 | RAINBOW: Igangværende randomiseret forsøg sammenligning af ibrutinib + rituximab vs. standard DRC (dexamethason, rituximab, cyclophosphamid) som førstelinie-behandling i WM |
+| [NCT04840602](https://clinicaltrials.gov/study/NCT04840602) | Fase 2 | Rekrutterer | 92 | Randomiseret sammenligning af BTK-inhibitorer (ibrutinib + rituximab eller zanubrutinib) vs. venetoclax + rituximab hos tidligere ubehandlet WM/LPL |
+| [NCT03620903](https://clinicaltrials.gov/study/NCT03620903) | Fase 2 | Aktiv, ikke rekrutterer | 53 | Bortezomib + rituximab + ibrutinib (B-RI) triplet som førstelinie-behandling hos behandlingsnaïve WM-patienter |
+| [NCT04062448](https://clinicaltrials.gov/study/NCT04062448) | Fase 2 | Afsluttet | 16 | Ibrutinib + rituximab hos japanske WM-patienter (behandlingsnaïve og tilbagefald/refraktær); evaluerede samlet responshastighed ved uafhængig review |
+| [NCT01479842](https://clinicaltrials.gov/study/NCT01479842) | Fase 1 | Aktiv, ikke rekrutterer | 48 | Dosis-eskaleringstudie af BTK-inhibitor + rituximab + bendamustin i R/R NHL herunder WM-spektrum B-cellemaligniteterne; sikkerhed- og PK-data |
+| [NCT07169565](https://clinicaltrials.gov/study/NCT07169565) | Fase 1 | Endnu ikke rekrutterer | 21 | Tidsbegrænset ibrutinib efterfulgt af BR (bendamustin + rituximab) regime i WM; 3+3 dosis-eskaleringsdesign for at etablere RP2D |
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-The SmPC-level warnings and contraindications specific to the Danish/EMA label were not retrieved in the current evidence pack.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Imbruvica® on the [EMA product database](https://www.ema.europa.eu/en/medicines/human/EPAR/imbruvica) for complete safety information.
-
-**Known class-specific safety signals** (documented in the published Phase 3 literature cited above):
-
-- **Atrial fibrillation / flutter**: Reported in 6–9% of WM patients; baseline and on-treatment cardiac monitoring is required; caution in patients with pre-existing arrhythmia
-- **Major haemorrhage and bleeding**: BTK inhibition affects GPVI-mediated platelet activation; ibrutinib should be interrupted peri-operatively; co-administration with anticoagulants requires individual risk–benefit assessment
-- **Hypertension**: Frequently observed; requires active monitoring and antihypertensive management
-- **Serious infections**: Increased susceptibility to bacterial, viral, and fungal infections; Pneumocystis jirovecii pneumonia prophylaxis recommended in high-risk patients
-- **CYP3A4 drug interactions**: Strong CYP3A4 inhibitors (e.g., azole antifungals, clarithromycin) markedly increase ibrutinib exposure; strong inducers (e.g., rifampicin, carbamazepine) substantially reduce efficacy — dose adjustment or alternative agents required
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
+|------|-----|------|----------|-------------------|
+| [32731259](https://pubmed.ncbi.nlm.nih.gov/32731259/) | 2020 | RCT Fase 3 | Blood | ASPEN-forsøg: fase 3 randomiseret sammenligning af zanubrutinib vs. ibrutinib i symptomatisk WM; bekræfter ibrutinib som aktiv standard, hvor zanubrutinib opnåede numerisk højere komplet/VGPR-rater |
+| [38315878](https://pubmed.ncbi.nlm.nih.gov/38315878/) | 2024 | Biomarkør-analyse | Blood Advances | ASPEN post-hoc analyse: MYD88- og CXCR4-mutationsstatus forudsiger differential BTK-inhibitor-respons; CXCR4-mutationer forbundet med reduceret ibrutinib-effektivitet |
+| [39626287](https://pubmed.ncbi.nlm.nih.gov/39626287/) | 2025 | Delanalyse | Blood Advances | Perifer neuropati-opløsning med zanubrutinib vs. ibrutinib i ASPEN WM-kohorte; ibrutinib forbundet med større neuropati-byrde |
+| [32603202](https://pubmed.ncbi.nlm.nih.gov/32603202/) | 2020 | Gennemgang | Expert Opinion on Pharmacotherapy | Omfattende evaluering af ibrutinibs rolle i WM: genomiske forudsigelser, klinisk forsøgs-landskab, resistensmekanismer og udvikling af behandlingsparadigme |
+| [33273682](https://pubmed.ncbi.nlm.nih.gov/33273682/) | 2021 | Gennemgang | Leukæmi | CXCR4-mutationer i WM: mekanistisk rolle og implikationer for ibrutinib-respons, behandlingssekvens og nye targetings-strategier |
+| [31591468](https://pubmed.ncbi.nlm.nih.gov/31591468/) | 2019 | Gennemgang | Leukæmi | Opdateret WM-behandlings-landskab; ibrutinib og kombinationsregimer som ryggrad af nuværende og emerging terapi |
+| [29169431](https://pubmed.ncbi.nlm.nih.gov/29169431/) | 2017 | Gennemgang | Deutsches Ärzteblatt International | Systematisk differentialdiagnostik af IgM monoklonal gammopati herunder WM, MGUS og lymfom-subtyper; terapeutiske implikationer |
+| [27825468](https://pubmed.ncbi.nlm.nih.gov/27825468/) | 2016 | Gennemgang | Best Practice & Research Clin. Haematol. | Nye terapeutiske targets i WM: MYD88-BTK-akse, CXCR4-signalering og emerging preclinisk og klinisk data om ibrutinib |
+| [27825466](https://pubmed.ncbi.nlm.nih.gov/27825466/) | 2016 | Gennemgang | Best Practice & Research Clin. Haematol. | Bevisstøttet behandlings-retningslinjer for WM; sygdomsbyrde og patient-karakteristika guidning behandlings-valg herunder ibrutinib |
+| [25679974](https://pubmed.ncbi.nlm.nih.gov/25679974/) | 2015 | Gennemgang | Clin. Adv. Hematol. Oncol. | WM klinisk oversigt: IPSSWM prognostisk stratificering, overlevelse-resultater og integration af targeted agents herunder ibrutinib |
 
 ---
 
-## Conclusion and Next Steps
+## Danmarks markedsoplysninger
 
-**Decision: Proceed with Guardrails**
+Ibrutinib er i øjeblikket **ikke registreret** i Danmark. Ingen markedsføringstilladelser er registreret i Lægemiddelstyrelsen's database.
 
-**Rationale:**
-Ibrutinib holds Level 1 evidence for Waldenström's Macroglobulinemia — the prototypical monoclonal paraproteinemia disease — based on two completed Phase 3 RCTs (iNNOVATE and ASPEN), multiple Phase 2 trials, and an established EMA centralised marketing authorisation (Imbruvica®). The TxGNN prediction is fully consistent with the known mechanistic link through the MYD88→BTK signalling axis. The primary barrier to use in Denmark is the **absence of national registration and reimbursement**, not a lack of efficacy or safety evidence.
+> **Vejledning for danske sundhedsfaglige personer**: Ibrutinib er godkendt i Europa under EMA centraliseret procedure som **Imbruvica®** (Janssen-Cilag International NV), med godkendte indikationer herunder CLL/SLL, MCL, WM og MZL. Danske patienter kan potentielt få adgang til ibrutinib via en *særlig tilladelse* (særlig import-autorisation) eller named-patient program gennem Lægemiddelstyrelsen afventende en formaliseret national refusionsindsendelse.
 
-**To proceed, the following is needed:**
+---
 
-- Confirm the access pathway in Denmark: evaluate eligibility for *særlig tilladelse* (special import authorisation) via Lægemiddelstyrelsen for individual patients with symptomatic WM
-- Review the full EMA SmPC for Imbruvica® to complete the safety and contraindication assessment prior to any clinical use
-- Confirm patient-level MYD88 mutation status (L265P) prior to initiation — MYD88 wild-type disease shows markedly reduced ibrutinib response
-- Perform baseline cardiac assessment (ECG, blood pressure) and bleeding risk evaluation
-- Conduct a formal drug interaction review, particularly for CYP3A4-modifying medications common in the elderly WM population
-- Consider a formal national reimbursement submission to Medicinrådet if ibrutinib is intended for broader use in Danish WM patients
-- Monitor the ongoing RAINBOW Phase 2/3 trial (NCT04061512, completion 2030) which will provide comparative data for ibrutinib + rituximab vs. standard DRC as first-line therapy
+## Cytotoxicitet
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitets-klassificering | Targeted terapi — irreversibel BTK-inhibitor (kinase-inhibitor; ikke konventionel cytotoxisk) |
+| Myelosuppression-risiko | Lav til moderat; neutropeni og trombocytopeni er rapporterede bivirkninger, men opstår primært fra sygdomsrelateret knoglemarkinfiltration snarere end direkte cytotoxicitet; mindre myelosuppressiv end konventionelle kemoterapiregimer |
+| Emetogenicitets-klassificering | Minimal til lav (oral kinase-inhibitor klasse) |
+| Overvågnings-punkter | Fuldstændigt blodtælling med differential (CBC), levertal (ALT/AST), nyretal, hjertemonitorering (12-aflednings EKG, blodtryk — på grund af atrieflimmer / flutter og hypertensions-risiko), blødning-historik vurdering |
+| Håndteringsbeskyttelse | Standard oral onkologi-forsigtighedsregler gælder; kræver ikke dedikerede cytotoxiske forberedelseslokaler eller CSTD (lukket system overføringsudstyring) |
+
+---
+
+## Sikkerhedshensyn
+
+Advarsler på SmPC-niveau og kontraindikationer specifikt for det danske/EMA-label blev ikke hentet i den aktuelle bevisspakke.
+
+Se venligst den godkendte Produktsammenfattelse (SmPC) for Imbruvica® på [EMA produktdatabasen](https://www.ema.europa.eu/en/medicines/human/EPAR/imbruvica) for fuldstændige sikkerhedsoplysninger.
+
+**Kendte klasse-specifikke sikkerhedssignaler** (dokumenteret i den offentliggjorte fase 3-litteratur citeret ovenfor):
+
+- **Atrieflimmer / flutter**: Rapporteret i 6–9 % af WM-patienter; baseline- og under-behandlings hjertemonitorering er påkrævet; forsigtighed hos patienter med præ-eksisterende arytmi
+- **Større blødning og blødning**: BTK-inhibition påvirker GPVI-medieret thrombocyt-aktivering; ibrutinib bør afbrydes peri-operativt; samadministration med antikoagulantia kræver individuel risiko–nytte-vurdering
+- **Hypertension**: Hyppigt observeret; kræver aktiv monitorering og antihypertensiv behandling
+- **Alvorlige infektioner**: Øget modtagelighed over for bakterie-, virus- og svampeinfektioner; Pneumocystis jirovecii-pneumoni-profylakse anbefales hos højrisiko-patienter
+- **CYP3A4-lægemiddelinteraktioner**: Stærke CYP3A4-inhibitorer (f.eks. azol-antimykotika, clarithromycin) øger markant ibrutinib-eksponering; stærke inducere (f.eks. rifampicin, carbamazepin) reducerer væsentligt effektivitet — dosis-justering eller alternative lægemidler påkrævet
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsmæssige foranstaltninger**
+
+**Begrundelse:**
+Ibrutinib har L1-bevis for Waldenströms makroglobulinæmi — den prototypiske monoklonal paraproteinæmisygdom — baseret på to afsluttede fase 3-RCT'er (iNNOVATE og ASPEN), flere fase 2-forsøg og en etableret EMA centraliseret markedsføringstilladelse (Imbruvica®). TxGNN-forudsigelsen er helt i overensstemmelse med det kendte mekanistiske link gennem MYD88→BTK-signaleringsaksen. Den primære barriere for brug i Danmark er **fraværet af national registrering og refusion**, ikke mangel på effektivitets- eller sikkerhedsbevis.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- Bekræft adgangsvejen i Danmark: evaluer berettigelse til *særlig tilladelse* (særlig import-autorisation) via Lægemiddelstyrelsen for individuelle patienter med symptomatisk WM
+- Gennemgå den fuldstændige EMA SmPC for Imbruvica® for at fuldføre sikkerheds- og kontraindikations-vurderingen før enhver klinisk brug
+- Bekræft patient-niveau MYD88-mutationsstatus (L265P) før initiering — MYD88 vildt-type sygdom viser væsentlig reduceret ibrutinib-respons
+- Udfør baseline hjertevurdering (EKG, blodtryk) og blødning-risikovurdering
+- Udfør en formaliseret lægemiddel-interaktions-gennemgang, særligt for CYP3A4-modificerende lægemidler almindelige i den ældre WM-population
+- Overvej en formaliseret national refusionsindsendelse til Medicinrådet hvis ibrutinib er beregnet til bredere brug i danske WM-patienter
+- Overvåg det igangværende RAINBOW fase 2/3-forsøg (NCT04061512, afslutning 2030) som vil give sammenlignende data for ibrutinib + rituximab vs. standard DRC som førstelinie-behandling
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

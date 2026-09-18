@@ -29,89 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imidacloprid: From Insecticide (No Approved Human Indication) to Cauda Equina Syndrome
+# Imidacloprid: Fra Insekticid (Ingen godkendt humanmedicinsk indikation) til Cauda Equina Syndrom
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Imidacloprid (DrugBank ID: DB11421) is a neonicotinoid insecticide with no approved human therapeutic indication and no marketing authorisation in Denmark. The TxGNN model predicts potential efficacy for **Cauda Equina Syndrome**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it rests entirely on knowledge-graph topology rather than any pharmacological or clinical evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | None — Imidacloprid is an agricultural/veterinary insecticide; it has no approved human therapeutic indication |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Imidacloprid (DrugBank ID: DB11421) er et neonikotinoid insekticid uden godkendt human terapeutisk indikation og uden markedsføringstilladelse i Danmark. TxGNN-modellen forudsiger potentiel effektivitet for **Cauda Equina Syndrom**, men denne forudsigelse er i øjeblikket understøttet af **nul kliniske forsøg** og **nul publikationer** — den hviler udelukkende på viden-graf-topologi snarere end på nogen farmakologisk eller klinisk evidens.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data for Imidacloprid in humans is not available (**[Data Gap]**). What is known is that Imidacloprid acts as a neonicotinoid insecticide by selectively binding insect nicotinic acetylcholine receptors (nAChR). Its affinity for mammalian nAChR is very low — this is precisely the pharmacological basis for its comparatively low toxicity to humans and other mammals, and the reason it is used as a pesticide rather than a drug.
-
-Cauda equina syndrome is an acute neurosurgical emergency caused by compression of the lumbosacral nerve roots, typically requiring urgent surgical decompression. There is no established or plausible pathophysiological link between an insect-selective nAChR-acting insecticide and this condition. The very high TxGNN score (0.9999) most likely reflects topological similarity between graph nodes in the knowledge graph rather than genuine biological plausibility.
-
-**In summary: the mechanistic case for this prediction is weak to absent.** This should be treated as a hypothesis-generating signal only, not as evidence of therapeutic potential, and it does not currently meet the threshold for further pharmacological or clinical investigation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(Query log confirms 0 results from ClinicalTrials.gov and ICTRP for "Imidacloprid" + "cauda equina syndrome", searched on two separate occasions.)*
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ingen — Imidacloprid er et landbrugs-/veterinært insekticid; det har ingen godkendt human terapeutisk indikation |
+| Forudsagt ny indikation | Cauda Equina Syndrom |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Evidensniveau | L5 (modelforudsigelse alene, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data vedrørende Imidacloprids virkningsmekanisme hos mennesker er ikke tilgængelige (**[Data Gap]**). Det, der vides, er, at Imidacloprid virker som et neonikotinoid insekticid ved selektivt at binde sig til insekt-nikotiniske acetylcholin-receptorer (nAChR). Dets affinitet for pattedyr-nAChR er meget lav — dette er netop det farmakologiske grundlag for dens relativt lave toksicitet for mennesker og andre pattedyr, og grunden til, at den bruges som pesticid snarere end som lægemiddel.
 
-*(Query log confirms 0 results from PubMed for "Imidacloprid" + "cauda equina syndrome".)*
+Cauda equina syndrom er en akut neurokirurgisk nødsituation forårsaget af kompression af lumbosacral nerverodderne, hvilket typisk kræver øjeblikkelig kirurgisk dekompression. Der er ingen etableret eller plausibel patofysiologisk forbindelse mellem et insekt-selektivt nAChR-virkende insekticid og denne tilstand. Den meget høje TxGNN-score (0,9999) afspejler højst sandsynligt topologisk lighed mellem knuder i vidensgrafen snarere end ægte biologisk plausibilitet.
 
----
-
-## Denmark Market Information
-
-Imidacloprid holds **no marketing authorisation** in Denmark (Laegemiddelstyrelsen) as a human medicinal product. Market status is recorded as **Not Marketed**, with 0 total licenses on file. No product, dosage form, or approved indication data exists for this compound in the Danish register.
+**Sammenfatning: det mekanistiske grundlag for denne forudsigelse er svagt til fraværende.** Dette bør behandles som et hypotesegenererende signal alene, ikke som bevis på terapeutisk potentiale, og det opfylder i øjeblikket ikke tærsklen for yderligere farmakologisk eller klinisk undersøgelse.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-No human safety data are currently available for this compound:
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-- **Key Warnings**: Not available (data gap)
-- **Contraindications**: Not available (data gap)
-- **Drug Interactions**: No interaction data found in DDI database query (query status: not found)
-
-Because Imidacloprid has no approved Summary of Product Characteristics (SmPC) as a human medicinal product in Denmark, no authoritative human safety reference exists. This is flagged as a **Blocking** data gap (DG001) — it prevents this candidate from proceeding to even a preliminary (S1) safety evaluation.
+*(Forespørgsellog bekræfter 0 resultater fra ClinicalTrials.gov og ICTRP for "Imidacloprid" + "cauda equina syndrome", søgt på to separate tidspunkter.)*
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The predicted indication (cauda equina syndrome) has **no clinical trial or literature support whatsoever** (Evidence Level L5 — model prediction only).
-- The proposed mechanistic link is not biologically plausible: Imidacloprid's therapeutic rationale as an insecticide depends on selectivity for insect nAChR over mammalian nAChR, which argues *against* relevant human pharmacological activity rather than for it.
-- Imidacloprid has no approved human indication anywhere and no marketing authorisation in Denmark (0 licenses), so there is no existing clinical use pattern to build a repurposing case on.
-- Human safety data are entirely absent, which is a **Blocking** gap — this candidate cannot proceed to even a preliminary safety review (S1) without it.
+*(Forespørgsellog bekræfter 0 resultater fra PubMed for "Imidacloprid" + "cauda equina syndrome".)*
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data in human/mammalian systems (currently a High-severity data gap, DG002)
-- Human toxicology/safety data sufficient to support an initial safety evaluation (currently a Blocking gap, DG001)
-- Independent verification of the disease-node mapping quality (e.g., confirm this is not a knowledge-graph artifact or false-positive signal) before any further investment
-- At minimum, preclinical or mechanistic studies establishing biological plausibility before considering any clinical evidence-generation activity
+---
 
-**Note:** Given the complete absence of supporting evidence, the implausible mechanistic rationale, and the drug's status as a non-therapeutic insecticide with no regulatory presence in Denmark, this candidate is not recommended for further development at this time. This assessment is for research reference only and does not constitute medical advice.
+## Markedsinformation for Danmark
+
+Imidacloprid har **ingen markedsføringstilladelse** i Danmark (Lægemiddelstyrelsen) som human lægemiddelprodukt. Markedsstatus er registreret som **Ikke markedsført**, med 0 samlede licenser på fil. Der eksisterer ingen produkt-, doseringsform- eller godkendt indikationsdata for denne forbindelse i det danske register.
+
+---
+
+## Sikkerhedshensyn
+
+Der er i øjeblikket ingen humane sikkerhedsdata tilgængelige for denne forbindelse:
+
+- **Vigtige advarsler**: Ikke tilgængelige (datakløft)
+- **Kontraindikationer**: Ikke tilgængelige (datakløft)
+- **Lægemiddelinteraktioner**: Ingen interaktionsdata fundet i DDI-databaseforespørgsel (forespørgselstatus: ikke fundet)
+
+Fordi Imidacloprid ikke har noget godkendt produktresumé (SmPC) som human lægemiddelprodukt i Danmark, eksisterer der intet autoritativt human sikkerhedsreference. Dette er markeret som en **Blokerende** datakløft (DG001) — den forhindrer denne kandidat i at fortsætte til selv en foreløbig (S1) sikkerhedsevaluering.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+- Den forudsagte indikation (cauda equina syndrom) har **absolut ingen beviser fra kliniske forsøg eller litteratur** (Evidensniveau L5 — modelforudsigelse alene).
+- Den foreslåede mekanistiske forbindelse er ikke biologisk plausibel: Imidacloprids terapeutiske rationale som insekticid afhænger af selektivitet for insekt-nAChR over pattedyr-nAChR, hvilket argumenterer *imod* relevant human farmakologisk aktivitet snarere end for det.
+- Imidacloprid har ingen godkendt human indikation nogetsteds og ingen markedsføringstilladelse i Danmark (0 licenser), så der er intet eksisterende klinisk brugsmønster at grundfeste ombytte på.
+- Humane sikkerhedsdata er helt fraværende, hvilket er en **Blokerende** datakløft (DG001) — den forhindrer denne kandidat i at fortsætte til selv en foreløbig sikkerhedsevaluering (S1).
+
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme (MOA) data i human/pattedyr-systemer (i øjeblikket en høj-alvorligheds datakløft, DG002)
+- Human toksikologi/sikkerhedsdata tilstrækkeligt til at understøtte en indledende sikkerhedsevaluering (i øjeblikket en **Blokerende** datakløft, DG001)
+- Uafhængig verifikation af disease-node-kortlægningskvalitet (f.eks. bekræft, at dette ikke er en vidensgrafartefakt eller et falsk-positivt signal) før yderligere investering
+- Som minimum prekliniske eller mekanistiske studier, der etablerer biologisk plausibilitet, før man overvejer at påbegynde klinisk evidensgenerering
+
+**Bemærk:** Givet den fuldstændige mangel på understøttende bevis, det implausible mekanistiske rationale, og lægemidlets status som et ikke-terapeutisk insekticid uden regulatorisk tilstedeværelse i Danmark, anbefales denne kandidat ikke for yderligere udvikling på nuværende tidspunkt. Denne vurdering er til forskningsreference alene og udgør ikke medicinsk rådgivning.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

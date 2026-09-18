@@ -29,83 +29,86 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amprenavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+# Amprenavir: Fra HIV-infektion til Simian Immunodeficiency Virus-infektion
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Amprenavir is an HIV-1 protease inhibitor historically used in the treatment of HIV infection in adults and children, though it has since been largely superseded by its prodrug fosamprenavir and withdrawn from most markets.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, with **0 clinical trials** and **2 publications** currently supporting this direction — both from 2004, examining general antiretroviral susceptibility patterns across HIV-related lentiviruses.
-The clinical relevance of this prediction to human patients in Denmark is very limited given both the nature of the target indication and the drug's current market status.
+Amprenavir er en HIV-1-proteaseinhibitor, som historisk er blevet brugt til behandling af HIV-infektion hos voksne og børn, men er siden blevet i stort omfang erstattet af sit prodrug fosamprenavir og trukket tilbage fra de fleste markeder.
+
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Simian Immunodeficiency Virus (SIV)-infektion**, med **0 kliniske forsøg** og **2 publikationer**, der i øjeblikket understøtter denne retning — begge fra 2004, der undersøgte generelle antiretroviral-følsomhedsmønstre på tværs af HIV-relaterede lentivirusser.
+
+Den kliniske relevans af denne forudsigelse for danske patienter er meget begrænset, givet både måludsigelsens karakter og lægemidlets nuværende markedsstatus.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | HIV infection (antiretroviral therapy) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | HIV-infektion (antiretroviral terapi) |
+| Forudsagt ny indikation | Simian Immunodeficiency Virus-infektion |
+| TxGNN-forudsigelsesresultat | 99.89% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Undhold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, amprenavir belongs to the HIV-1 protease inhibitor class. It works by competitively binding to the active site of the HIV aspartyl protease enzyme, blocking the cleavage of viral Gag-Pol polyproteins into functional structural proteins and enzymes. This prevents the maturation of newly budded virions, rendering them non-infectious.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne evidenspakke. Baseret på kendt farmakologisk information tilhører amprenavir klassen af HIV-1-proteaseinhibitorer. Det virker ved kompetitiv binding til det aktive sted på HIV-aspartyl-proteasenzymet, blokering af kløvningen af virale Gag-Pol-polyproteiner i funktionelle strukturelle proteiner og enzymer. Dette forhindrer modning af nydannede virioner, hvilket gør dem ikke-infektiøse.
 
-Simian Immunodeficiency Virus (SIV) is a lentivirus closely related to both HIV-1 and HIV-2, sharing significant genomic and structural homology — particularly in the protease enzyme active site. In vitro susceptibility studies have demonstrated that several HIV protease inhibitors retain measurable antiviral activity against SIV strains owing to this structural conservation. The TxGNN model's high confidence score reflects this well-established mechanistic overlap captured in the underlying knowledge graph.
+Simian Immunodeficiency Virus (SIV) er et lentivirus, der er tæt beslægtet med både HIV-1 og HIV-2, og deler betydelig genomisk og strukturel homologi — især i protease-enzymets aktive sted. In vitro-følsomhedsstudier har demonstreret, at flere HIV-proteaseinhibitorer bevarer målbar antivirale aktivitet mod SIV-stammer på grund af denne strukturelle bevarelse. TxGNN-modellens høje tillidsresultat afspejler denne velkendte mekanistiske overlapning fanget i den underliggende videnskabsgraf.
 
-However, this prediction must be understood in context: SIV infection is primarily a disease of non-human primates (macaques, chimpanzees, sooty mangabeys) and does not constitute a conventional human clinical indication. This prediction is likely capturing cross-species pharmacological overlap rather than identifying a novel therapeutic opportunity for Danish patients. Without evidence of a specific human population at risk — such as laboratory workers requiring post-exposure prophylaxis after occupational SIV exposure — the practical clinical value of this prediction is very limited.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for amprenavir in simian immunodeficiency virus infection.
+Imidlertid skal denne forudsigelse forstås i sammenhæng: SIV-infektion er primært en sygdom hos ikke-humane primater (makak, chimpanser, mørke mangabeys) og udgør ikke en konventionel menneskelig klinisk indikation. Denne forudsigelse fanger sandsynligvis tværspecies-farmakologisk overlapning snarere end at identificere en ny terapeutisk mulighed for danske patienter. Uden bevis for en specifik befolkningsgruppe i risiko — såsom laboratoriearbejdere, der har brug for posteksponeringsprofylakse efter erhvervsmæssig SIV-eksponering — er den praktiske kliniske værdi af denne forudsigelse meget begrænset.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsevidens
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro study | Antiviral Therapy | Evaluated antiviral activity of 16 approved antiretroviral drugs against HIV-2, SIV (mac251, B670), and SHIV strains; found amprenavir among drugs with measurable activity against SIV, with implications for post-exposure prophylaxis guidance in occupational settings |
-| [15040531](https://pubmed.ncbi.nlm.nih.gov/15040531/) | 2004 | Review | Antiviral Therapy | Reviews antiretroviral drug resistance and susceptibility profiles across non-subtype B HIV-1, HIV-2, and SIV; discusses treatment implications for healthcare and laboratory workers with occupational exposure risk |
+I øjeblikket er der ingen registrerede kliniske forsøg forbundet med amprenavir ved simian immunodeficiency virus-infektion.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-Amprenavir is not currently marketed in Denmark. There are no active national marketing authorisations on record with Lægemiddelstyrelsen (the Danish Medicines Agency), and no centralised EMA authorisation is currently valid.
-
-> **Regulatory Note:** Amprenavir (brand name Agenerase) received a centralised EMA marketing authorisation in 2000 but was subsequently withdrawn from the European market by the marketing authorisation holder. The preferred clinical alternative is fosamprenavir (Telzir), the phosphate prodrug of amprenavir, which remains authorised in some markets. Any clinical use of amprenavir in Denmark would require a special compassionate use or named-patient programme arrangement.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. A notable safety signal identified in the literature is a possible association between amprenavir use and increased bleeding tendency in HIV-infected patients with haemophilia (PMID: [11483161](https://pubmed.ncbi.nlm.nih.gov/11483161/)), which should be considered if clinical use is contemplated.
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
+|------|-----|------|-----------|---------------|
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro-studie | Antiviral Therapy | Evaluerede antivirale aktivitet af 16 godkendte antiretrovirale lægemidler mod HIV-2, SIV (mac251, B670) og SHIV-stammer; fandt amprenavir blandt lægemidler med målbar aktivitet mod SIV, med implikationer for posteksponeringsprofylakse-vejledning i erhvervsmæssige indstillinger |
+| [15040531](https://pubmed.ncbi.nlm.nih.gov/15040531/) | 2004 | Oversigt | Antiviral Therapy | Gennemgår antiretroviral lægemiddel-resistens og følsomhedsprofiler på tværs af ikke-subtype B HIV-1, HIV-2 og SIV; diskuterer behandlingsimplikationer for sundhedsvæsenet og laboratoriearbejdere med erhvervsmæssig eksponeringsrisiko |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Amprenavir er ikke i øjeblikket på markedet i Danmark. Der er ingen aktive nationale markedsføringstilladelser registreret hos Lægemiddelstyrelsen (Danmarks Lægemiddelagentur), og ingen centraliseret EMA-tilladelse er i øjeblikket gyldig.
 
-**Rationale:**
-Simian Immunodeficiency Virus infection is not a human clinical indication applicable to Danish patients under standard care, and the available evidence base consists solely of two in vitro susceptibility studies published in 2004. Additionally, amprenavir holds no active marketing authorisation in Denmark and has been withdrawn from European markets, significantly limiting any pathway to clinical use.
+> **Regulatorisk bemærkning:** Amprenavir (mærkenavn Agenerase) modtog en centraliseret EMA-markedsføringstilladelse i 2000, men blev efterfølgende trukket tilbage fra det europæiske marked af indehaveren af markedsføringstilladelsen. Det foretrukne kliniske alternativ er fosamprenavir (Telzir), det fosfat-prodrug af amprenavir, som forbliver godkendt i nogle markeder. Enhver klinisk brug af amprenavir i Danmark ville kræve en særlig compassionat brug eller navngivet-patient-program.
 
-**To proceed, the following is needed:**
+---
 
-- **Clinical context clarification:** Identify whether there is a specific human population in Denmark (e.g., primate laboratory workers requiring post-exposure prophylaxis) for whom this prediction has direct clinical relevance
-- **MOA data:** Retrieve complete mechanism of action and pharmacological profile from DrugBank to formally document cross-species protease inhibitor activity
-- **Full safety and interaction profile:** Download and parse the original SmPC (or equivalent EMA/FDA safety documentation) to complete the safety assessment, including warnings, contraindications, and drug-drug interactions
-- **Prodrug consideration:** Assess whether fosamprenavir (Telzir) — the marketed prodrug and functional equivalent — should be evaluated as the primary candidate instead of amprenavir itself
-- **Regulatory pathway:** If clinical use is contemplated, a named-patient or compassionate use application to Lægemiddelstyrelsen would be required given the absence of any Danish marketing authorisation
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Et bemærkelsesværdigt sikkerhedssignal, der er identificeret i litteraturen, er en mulig sammenhæng mellem amprenavir-brug og øget blødningstendens hos HIV-inficerede patienter med hemofili (PMID: [11483161](https://pubmed.ncbi.nlm.nih.gov/11483161/)), som bør tages i betragtning, hvis klinisk brug overvejes.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Undhold**
+
+**Begrundelse:**
+Simian Immunodeficiency Virus-infektion er ikke en menneskelig klinisk indikation, der gælder for danske patienter under standardbehandling, og evidensbasen består udelukkende af to in vitro-følsomhedsstudier udgivet i 2004. Desuden har amprenavir ingen aktiv markedsføringstilladelse i Danmark og er blevet trukket tilbage fra europæiske markeder, hvilket i betydelig grad begrænser enhver vej til klinisk brug.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Klinisk kontekstarklaring:** Identificer, om der er en specifik menneskelig befolkningsgruppe i Danmark (f.eks. primatolaboratoriearbejdere, der har brug for posteksponeringsprofylakse), for hvem denne forudsigelse har direkte klinisk relevans
+- **MOA-data:** Hent fuldstændig mekanisme for virkning og farmakologisk profil fra DrugBank for formelt at dokumentere tværspecies-proteaseinhibitor-aktivitet
+- **Fuld sikkerheids- og interaktionsprofil:** Download og analysér det originale SmPC (eller tilsvarende EMA/FDA-sikkerhedsdokumentation) for at fuldføre sikkerhedsvurderingen, herunder advarsler, kontraindikationer og lægemiddel-lægemiddel-interaktioner
+- **Prodrug-hensyn:** Vurder, om fosamprenavir (Telzir) — det markedsførte prodrug og funktionelle ækvivalent — bør evalueres som det primære kandidat i stedet for amprenavir selv
+- **Regulatorisk vej:** Hvis klinisk brug overvejes, ville en ansøgning om navngivet patient eller compassionat brug til Lægemiddelstyrelsen være nødvendig, givet fraværet af nogen dansk markedsføringstilladelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

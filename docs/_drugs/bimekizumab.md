@@ -29,92 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bimekizumab: From Inflammatory Disease to Diabetic Cataract
+# Bimekizumab: Fra inflammatorisk sygdom til diabetisk katarakt
 
-## One-Sentence Summary
+## Et-linie sammendrag
 
-Bimekizumab (Bimzelx) is a humanized monoclonal antibody that dually inhibits both IL-17A and IL-17F, indicated for immune-mediated inflammatory conditions such as moderate-to-severe plaque psoriasis and axial spondyloarthritis.
-The TxGNN model predicts it may be effective for **Diabetic Cataract**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction is classified as an **L5** signal — model-based only — and the mechanistic rationale for an IL-17A/F inhibitor acting on lens metabolism is currently absent; this report recommends **Hold** pending biological plausibility assessment.
+Bimekizumab (Bimzelx) er et humaniseret monoklonalt antistof, der dobbelt hæmmer både IL-17A og IL-17F, indiceret for immunmedierede inflammatoriske tilstande såsom moderat til svær plakatpsoaisis og aksial spondyloartritis.
+TxGNN-modellen forudsiger, at det kan være effektivt til **diabetisk katarakt**, med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning.
+Denne forudsigelse er klassificeret som et **L5**-signal — kun modelbaseret — og mekanistisk rationale for, at en IL-17A/F-hæmmer virker på linsestofskiftet, er i øjeblikket fraværende; denne rapport anbefaler **Hold** i afventning af vurdering af biologisk plausibilitet.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Inflammatory conditions (plaque psoriasis / axial spondyloarthritis); no Danish MA found in this dataset |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.23% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed (no authorisation found in this dataset) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | Inflammatoriske tilstande (plakatpsoaisis / aksial spondyloartritis); ingen dansk MA fundet i dette datasæt |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,23% |
+| Evidensniveau | L5 |
+| Status på det danske marked | Ikke markedsført (ingen godkendelse fundet i dette datasæt) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Hold** |
 
-> ⚠️ **Data note**: The regulatory dataset queried returned 0 Danish marketing authorisations for Bimekizumab. However, Bimekizumab (brand name **Bimzelx**) received a centralised EMA marketing authorisation in 2023 covering all EU/EEA member states, including Denmark. A re-query against the EMA product database is recommended to fill this gap before final regulatory conclusions are drawn.
-
----
-
-## Why is This Prediction Reasonable?
-
-Bimekizumab is a humanized IgG1 monoclonal antibody that selectively binds and neutralises both **IL-17A and IL-17F**, two related pro-inflammatory cytokines of the Th17 pathway. By blocking both isoforms simultaneously, bimekizumab reduces downstream inflammatory signalling more completely than agents targeting IL-17A alone. Its established clinical utility is in immune-mediated inflammatory conditions — in particular plaque psoriasis, psoriatic arthritis, and axial spondyloarthritis — where Th17-driven inflammation is a central pathological driver.
-
-Diabetic cataract, by contrast, is primarily a **metabolic disease of the ocular lens**. The dominant pathophysiological mechanisms include accumulation of sorbitol through the polyol pathway, non-enzymatic glycation of crystallin proteins, and oxidative stress leading to progressive lens opacification. Although systemic low-grade inflammation in type 2 diabetes (including Th17 cell activation and elevated circulating IL-17) contributes to end-organ damage broadly, there is **no established mechanistic bridge** connecting IL-17A/F signalling to the local intraocular metabolic changes that drive lens clouding.
-
-Notably, all top-10 TxGNN predictions for bimekizumab cluster exclusively around **cataract subtypes** (diabetic, mature, immature, tetanic, craniostenosis-associated) with near-identical prediction scores (0.9812–0.9823). This pattern is strongly consistent with a **knowledge graph clustering artefact** — the model may have identified indirect disease ontology linkages rather than a true pharmacological signal. The mechanistic assessments embedded in this Evidence Pack consistently flag these predictions as likely false positives. Formal validation through pathway analysis or wet-lab bridging studies would be required to elevate the signal above L5.
+> ⚠️ **Datanotat**: Det regulatoriske datasæt, der blev søgt i, returnerede 0 danske markedsføringstilladelser for bimekizumab. Bimekizumab (handelsnavn **Bimzelx**) modtog imidlertid en centraliseret EMA-markedsføringstilladelse i 2023, der dækker alle EU/EØS-medlemsstater, herunder Danmark. En genforespørgsel mod EMA-produktdatabasen anbefales for at udfylde dette hul, før endelige lovgivningsmæssige konklusioner drages.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Bimekizumab er et humaniseret IgG1-monoklonalt antistof, der selektivt binder og neutraliserer både **IL-17A og IL-17F**, to relaterede pro-inflammatoriske cytokiner fra Th17-signalvejen. Ved at blokere begge isoformer samtidigt reducerer bimekizumab downstream inflammatorisk signalering mere fuldstændigt end midler, der målretter sig mod IL-17A alene. Dets etablerede kliniske nytte er inden for immunmedierede inflammatoriske tilstande — især plakatpsoaisis, psoriasis arthritis og aksial spondyloartritis — hvor Th17-drevet inflammation er en central patologisk drivkraft.
 
----
+Diabetisk katarakt er derimod primært en **metabolisk sygdom i det okulære linse**. De dominerende patofysiologiske mekanismer omfatter ophobning af sorbitol gennem polyolstien, non-enzymatisk glycering af krystallinproteiner og oxidativt stress, der fører til progressiv linseopaquitet. Selvom systemisk lavgradig inflammation ved type 2-diabetes (inklusive Th17-celleaktivering og forhøjede cirkulerende IL-17) bidrager til endeorganskader bredt, er der **ingen etableret mekanistisk forbindelse** mellem IL-17A/F-signalering og de lokale intraokulære metaboliske ændringer, der driver linseforurening.
 
-## Literature Evidence
-
-Currently no related literature available.
+Bemærkelsesværdigt klynges alle de 10 vigtigste TxGNN-forudsigelser for bimekizumab eksklusivt omkring **kataraktsubtyper** (diabetisk, modnet, umenlig, tetanisk, kraniostenose-associeret) med næsten identiske forudsigelsesscore (0,9812–0,9823). Dette mønster er stærkt konsistent med en **klyngeartefakt i vidensgrafen** — modellen kan have identificeret indirekte sygdomsontologi-linkages i stedet for et sandt farmakologisk signal. De mekanistiske vurderinger, der er indlejret i denne Evidenspakke, markerer konsekvent disse forudsigelser som sandsynlige falske positiver. Formel validering gennem vejanalyse eller vejledende laboratoriestudier ville være nødvendige for at hæve signalet over L5.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-No marketing authorisations were returned by the regulatory dataset for this query. Based on publicly available information, the following authorisation is known to be relevant:
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+---
+
+## Litteratur evidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markeds- og regulatoriske informationer for Danmark
+
+Ingen markedsføringstilladelser blev returneret af det regulatoriske datasæt for denne forespørgsel. Baseret på offentligt tilgængelig information er følgende godkendelse kendt som relevant:
+
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |-------------------------------|-------------|-------------|-------------------|
-| EU/1/23/1743 *(EMA — verify against current register)* | Bimzelx | Solution for injection (pre-filled pen/syringe) | Moderate-to-severe plaque psoriasis in adults; active psoriatic arthritis; active axial spondyloarthritis (nr-axSpA and AS) |
+| EU/1/23/1743 *(EMA — verifikation mod aktuel register anbefales)* | Bimzelx | Opløsning til injektion (fyldt pen/sprøjte) | Moderat til svær plakatpsoaisis hos voksne; aktiv psoriasis arthritis; aktiv aksial spondyloartritis (nr-axSpA og AS) |
 
-> A direct re-query of the [EMA Product Database](https://www.ema.europa.eu/en/medicines/human/EPAR/bimzelx) and the Danish Medicines Agency's [produktresume database](https://laegemiddelstyrelsen.dk/) is required to confirm current status and full indication scope.
-
----
-
-## Safety Considerations
-
-Detailed safety information (key warnings, contraindications, and drug interactions) was not retrieved in this Evidence Pack. Please refer to the approved **Summary of Product Characteristics (SmPC)** for Bimzelx for complete safety information, available via the [EMA EPAR page](https://www.ema.europa.eu/en/medicines/human/EPAR/bimzelx) and the Danish Medicines Agency product database.
-
-Known class-level considerations for IL-17 inhibitors include:
-- Risk of serious infections (including Candida infections)
-- Inflammatory bowel disease (new onset or exacerbation)
-- Hypersensitivity reactions
-- Use in pregnancy and lactation requires assessment
+> En direkte genforespørgsel af [EMA-produktdatabasen](https://www.ema.europa.eu/en/medicines/human/EPAR/bimzelx) og Lægemiddelstyrelsens [produktresumé-database](https://laegemiddelstyrelsen.dk/) er påkrævet for at bekræfte aktuel status og fuldt indikationsomfang.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Detaljerede sikkerhedsoplysninger (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) blev ikke hentet i denne Evidenspakke. Se venligst produktresuméet (SmPC) for Bimzelx for fuldstændige sikkerhedsoplysninger, tilgængeligt via [EMA EPAR-siden](https://www.ema.europa.eu/en/medicines/human/EPAR/bimzelx) og Lægemiddelstyrelsens produktdatabase.
+
+Kendte klassemæssige hensyn for IL-17-hæmmere omfatter:
+- Risiko for alvorlige infektioner (herunder Candida-infektioner)
+- Inflammatorisk tarmsygdom (nyopdukket eller forværring)
+- Overfølsomhedsreaktioner
+- Brug under graviditet og amning kræver vurdering
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
 
 **Rationale:**
-The TxGNN prediction of bimekizumab for diabetic cataract is currently supported by **no clinical trials and no published literature**, and the mechanistic link between IL-17A/F inhibition and lens metabolic pathology is **not established** — the all-cataract clustering pattern across all 10 predicted indications strongly suggests a knowledge graph false positive rather than a genuine repurposing signal.
+TxGNN-forudsigelsen af bimekizumab til diabetisk katarakt understøttes i øjeblikket af **ingen kliniske forsøg og ingen publiceret litteratur**, og den mekanistiske forbindelse mellem IL-17A/F-hæmning og linsestofskifte er **ikke etableret** — klyngningen af alle katarakttyper på tværs af alle 10 forudsagte indikationer tyder stærkt på en vidensgrafs falsk positiv snarere end et ægte omformål-signal.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendigt:**
 
-- **Biological plausibility review**: A structured literature search specifically investigating any IL-17/Th17 axis involvement in lens metabolism, polyol pathway regulation, or crystallin glycation — to determine whether the indirect inflammatory pathway could plausibly be bridged to ocular lens protection
-- **KG artefact investigation**: Examine the TxGNN knowledge graph subgraph connecting bimekizumab nodes to cataract disease nodes to identify whether the high score reflects shared upstream metabolic nodes (e.g., diabetes-related) rather than a direct pharmacological relationship
-- **Regulatory data re-query**: Re-run the Danish marketing authorisation search against the EMA centralised database to correctly capture Bimzelx's existing authorisation and full approved indications
-- **MOA data retrieval**: Obtain the complete DrugBank mechanism of action entry for bimekizumab (DB12917) to enable formal mechanistic gap analysis
-- **Safety data retrieval**: Download and parse the Bimzelx SmPC/EPAR safety data to enable a complete S1 safety assessment before any further development steps are considered
+- **Biologisk plausibilitetsvurdering**: En struktureret litteratursøgning, der specifikt undersøger enhver IL-17/Th17-akse-involvering i linse-stofskifte, polyolsti-regulering eller krystallin-glycering — for at afgøre, om den indirekte inflammatoriske vej plausibelt kunne forbindes til linsebeskyttelse
+- **KG-artefaktundersøgelse**: Undersøg TxGNN-vidensgrafen undergraf, der forbinder bimekizumab-knuder til kataraktysygdomsknuder for at identificere, om den høje score afspejler delte opstrømsmetabolske knuder (f.eks. diabetes-relaterede) snarere end en direkte farmakologisk relation
+- **Re-query af regulatoriske data**: Genafvikl den danske markedsføringstilladelsessøgning mod EMA-databasen for centralisering for korrekt at registrere Bimzelx's eksisterende tilladelse og fuldt godkendte indikationer
+- **MOA-datahentning**: Hent den komplette DrugBank-mekanisme for handlings-post for bimekizumab (DB12917) for at muliggøre formel mekanistisk gapanalyse
+- **Sikkerhedsdatahentning**: Download og parse Bimzelx SmPC/EPAR-sikkerhedsdataene for at muliggøre en fuldstændig S1-sikkerhedsvurdering før nogle yderligere udviklingsstrin overvejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

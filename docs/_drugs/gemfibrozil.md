@@ -29,103 +29,102 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gemfibrozil: From Dyslipidaemia to Rheumatoid Arthritis
+# Gemfibrozil: Fra dyslipidæmi til reumatoid artritis
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Gemfibrozil is a fibric acid derivative (fibrate) classically used for the management of hypertriglyceridaemia and mixed dyslipidaemia.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with **0 clinical trials** and **4 publications** — primarily animal model and mechanistic studies — currently supporting this direction.
-Notably, two additional predicted indications (HIV-associated dyslipidaemia and hypoalphalipoproteinemia) carry substantially stronger clinical evidence (Evidence Level L2) and are summarised in the Conclusion section.
+Gemfibrozil er et fibersyreafledt stof (fibrat), der klassisk bruges til behandling af hypertriglyceridæmi og blandet dyslipidæmi. TxGNN-modellen forudsiger, at det kan være effektivt til **reumatoid artritis**, med **0 kliniske forsøg** og **4 publikationer** — primært animalske modeller og mekanistiske studier — der i øjeblikket understøtter denne retning. Bemærkeligt er det, at to yderligere forudsagte indikationer (HIV-associeret dyslipidæmi og hypoalphalipoproteinæmi) har væsentligt stærkere klinisk evidens (Evidensniveau L2) og er opsummeret i konklusionsdelen.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | Hypertriglyceridaemia and mixed dyslipidaemia |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Hypertriglyceridæmi og blandet dyslipidæmi |
+| Forudsagt ny indikation | Reumatoid artritis |
+| TxGNN-prognosescore | 99.90% |
+| Evidensniveau | L4 |
+| Markeds-status i Danmark | Ikke på markedet |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognose rimelig?
 
-Gemfibrozil is a PPARα (peroxisome proliferator-activated receptor alpha) agonist of the fibric acid class. Its primary pharmacological action involves activating PPARα in the liver, which promotes fatty acid β-oxidation, reduces VLDL-triglyceride synthesis, and upregulates ApoA-I/ApoA-II to raise HDL-cholesterol — the mechanism underlying its established use in dyslipidaemia. Detailed DrugBank mechanism of action data was not available for this evidence pack and should be retrieved to complete the mechanistic analysis.
+Gemfibrozil er en PPARα (peroxisom proliferator-aktiveret receptor alfa) agonist af fibratklassen. Dens primære farmakologiske virkning omfatter aktivering af PPARα i leveren, som fremmer fedtsyre β-oxidation, reducerer VLDL-triglyceridsyntese og opregulerer ApoA-I/ApoA-II for at øge HDL-kolesterol — mekanismen bag dens etablerede brug ved dyslipidæmi. Detaljerede DrugBank-data om virkningsmekanisme var ikke tilgængelige for denne evidenspakke og bør indhentes for at fuldende den mekanistiske analyse.
 
-The biological rationale for Gemfibrozil in rheumatoid arthritis rests on the well-characterised anti-inflammatory properties of PPARα activation. PPARα agonism suppresses the NF-κB signalling pathway, thereby downregulating key pro-inflammatory cytokines including IL-6, TNF-α, and IL-1β — the same targets addressed by current RA biologic therapies. The PPARα/γ axis also influences T-cell differentiation, including Foxp3⁺ regulatory T cell (Treg) activity, and has been implicated in the modulation of synovial inflammation, providing a mechanistically plausible immune-metabolic link to RA pathophysiology.
+Det biologiske rationale for gemfibrozil ved reumatoid artritis hviler på de velkarakteriserede anti-inflammatoriske egenskaber ved PPARα-aktivering. PPARα-agonisme undertrykker NF-κB-signalvejene, hvorved vigtige proinflammatoriske cytokiner som IL-6, TNF-α og IL-1β downreguleres — de samme målproteiner, som adresseres af nuværende RA-biologiske terapier. PPARα/γ-aksen påvirker også T-cellens differentiering, herunder Foxp3⁺ regulatoriske T-celle (Treg) aktivitet, og har været impliceret i modulering af synoviel betændelse, hvilket giver en mekanistisk plausibel immun-metabolisk forbindelse til RA-patofysiologi.
 
-Current preclinical evidence is promising but limited: a 2019 rat adjuvant-induced arthritis study demonstrated that Gemfibrozil combined with reduced-dose prednisolone achieved disease control comparable to full-dose steroids (PMID 30074417), and a 2026 experimental study confirmed that the structurally related pan-PPAR agonist bezafibrate attenuates experimental RA via PPARγ-dependent inflammatory modulation (PMID 41207105). Critically, this evidence reflects a fibrate class effect rather than Gemfibrozil-specific data, and no human clinical trials in RA have been conducted to date.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Nuværende præklinisk evidens er lovende, men begrænset: Et 2019-studie med ratte adjuvant-induceret artritis demonstrerede, at gemfibrozil (30 mg/kg) kombineret med nedsat prednisolon-dosering opnåede sygdomskontrol sammenlignet med fuld prednisolon-dosering i en rat adjuvant-induceret artritis (AIA) model; direkte præklinisk evidens for gemfibrozil ved inflammatorisk artritis. Et 2026-eksperimentelt studie bekræftede, at det strukturelt relaterede pan-PPAR-agonist bezafibrat dæmper eksperimentel RA via PPARγ-afhængig inflammatorisk modulering (PMID 41207105). Kritisk er det, at denne evidens afspejler en fibratklassens effekt snarere end gemfibrozil-specifik data, og der er ikke blevet udført human kliniske forsøg ved RA til dato.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgs-evidens
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [30074417](https://pubmed.ncbi.nlm.nih.gov/30074417/) | 2019 | Animal Study | Modern Rheumatology | Gemfibrozil (30 mg/kg) combined with low-dose prednisolone achieved comparable arthritis control to full-dose steroids in a rat adjuvant-induced arthritis (AIA) model; direct preclinical evidence for Gemfibrozil in inflammatory arthritis |
-| [41207105](https://pubmed.ncbi.nlm.nih.gov/41207105/) | 2026 | Animal Study | International Immunopharmacology | Pan-PPAR agonist bezafibrate (fibrate class) attenuates experimental RA via PPARγ-dependent downregulation of inflammatory pathways; supports fibrate class effect as anti-arthritic mechanism |
-| [20083653](https://pubmed.ncbi.nlm.nih.gov/20083653/) | 2010 | Basic Research | Journal of Immunology | MBP priming reduces Foxp3 expression in T cells via nitric oxide; provides mechanistic context for PPAR/Treg axis relevance in autoimmune disease |
-| [18039017](https://pubmed.ncbi.nlm.nih.gov/18039017/) | 2007 | Review/Case Series | Am J Clin Dermatology | Review of palmar erythema as secondary manifestation of systemic conditions including RA; peripheral relevance to RA as a systemic inflammatory disease |
+I øjeblikket ingen relaterede kliniske forsøg registrerede.
 
 ---
 
-## Denmark Market Information
+## Litteratur-evidens
 
-Gemfibrozil currently holds **no marketing authorisations in Denmark**. Neither national authorisation via the Danish Medicines Agency (Lægemiddelstyrelsen) nor centralised authorisation via the EMA has been issued.
-
-Gemfibrozil (brand name Lopid®) is authorised and actively marketed in several countries including the United States (FDA-approved) and the United Kingdom. Should clinical use in Denmark be considered, a special access pathway — such as named-patient use or hospital exemption — would be required.
+| PMID | År | Type | Journal | Vigtigste fund |
+|------|-----|------|---------|-------------|
+| [30074417](https://pubmed.ncbi.nlm.nih.gov/30074417/) | 2019 | Animalsk studie | Modern Rheumatology | Gemfibrozil (30 mg/kg) kombineret med nedsat prednisolon-dosering opnåede sammenlignelig artritis-kontrol med fuld prednisolon-dosering i en rat adjuvant-induceret artritis (AIA) model; direkte præklinisk evidens for gemfibrozil ved inflammatorisk artritis |
+| [41207105](https://pubmed.ncbi.nlm.nih.gov/41207105/) | 2026 | Animalsk studie | International Immunopharmacology | Pan-PPAR-agonisten bezafibrat (fibratklasse) dæmper eksperimentel RA via PPARγ-afhængig downregulering af inflammatoriske veje; understøtter fibratklassens effekt som anti-artritisk mekanisme |
+| [20083653](https://pubmed.ncbi.nlm.nih.gov/20083653/) | 2010 | Grundforskning | Journal of Immunology | MBP-priming reducerer Foxp3-ekspression i T-celler via nitrogenoxid; giver mekanistisk kontekst for PPARs/Treg-aksens relevans ved autoimmun sygdom |
+| [18039017](https://pubmed.ncbi.nlm.nih.gov/18039017/) | 2007 | Oversigt/caseserie | Am J Clin Dermatology | Oversigt over palmar erythema som sekundær manifestation af systemiske tilstande herunder RA; perifer relevans til RA som systemisk inflammatorisk sygdom |
 
 ---
 
-## Safety Considerations
+## Danmark-markedsinformation
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information.
+Gemfibrozil har i øjeblikket **ingen markedsføringsgodkendelser i Danmark**. Hverken national godkendelse via Lægemiddelstyrelsen eller centraliseret godkendelse via EMA er blevet udstedt.
 
-> **Clinically relevant safety signals identified from the evidence literature (not from formal safety data fields):**
+Gemfibrozil (brand navn Lopid®) er godkendt og aktivt markedsført i flere lande herunder USA (FDA-godkendt) og Storbritannien. Hvis klinisk brug i Danmark overvejes, vil en særlig adgangssti — såsom navnepatient-brug eller hospitalsundtagelse — være nødvendig.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+> **Klinisk relevante sikkerhedssignaler identificeret fra evidenslitteraturen (ikke fra formelle sikkerhedsdata-felter):**
 >
-> - **Statin–Gemfibrozil combination risk**: A case of fatal rhabdomyolysis following cerivastatin–gemfibrozil co-administration in an HIV patient has been reported (PMID 11371708). The statin–fibrate combination is a well-established contraindication concern.
-> - **Protease inhibitor DDI**: NCT00474201 was specifically designed to evaluate whether lopinavir/ritonavir reduces Gemfibrozil plasma levels via CYP2C8/OATP interaction. Clinicians managing HIV patients on protease inhibitors should be aware of this pharmacokinetic interaction.
+> - **Statin–gemfibrozil kombinationsrisiko**: Et tilfælde af fatal rabdomyolyse efter cerivastatin–gemfibrozil co-administration hos en HIV-patient er blevet rapporteret (PMID 11371708). Kombinationen statin–fibrat er en veletableret kontraindikations-bekymring.
+> - **Protease-inhibitor DDI**: NCT00474201 var specifikt designet til at evaluere, hvorvidt lopinavir/ritonavir reducerer gemfibrozil plasmaniveauer via CYP2C8/OATP-interaktion. Klinikere, der behandler HIV-patienter på protease-inhibitorer, bør være bekendt med denne farmakokinetiske interaktion.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold** (for Rheumatoid Arthritis as the primary TxGNN-predicted indication)
+**Afgørelse: Afvent** (for reumatoid artritis som den primære TxGNN-forudsagte indikation)
 
-**Rationale:**
-Evidence for Gemfibrozil in RA is confined to animal models and fibrate class-effect preclinical data; no human clinical trials have been initiated, and the drug is not marketed in Denmark, creating both an efficacy evidence gap and a regulatory access challenge that must be resolved before clinical application.
+**Begrundelse:**
+Evidens for gemfibrozil ved RA er begrænset til animalske modeller og præklinisk fibratklasse-effekt-data; ingen human kliniske forsøg er blevet initieret, og lægemidlet er ikke markedsført i Danmark, hvilket skaber både et efficacy-evidensgap og en regulatorisk adgangsudfordring, som skal løses før klinisk anvendelse.
 
-**To proceed with the RA indication, the following is needed:**
-- Complete MOA data from DrugBank (PPARα binding affinity, selectivity versus PPARγ, downstream transcriptional targets)
-- Full safety profiling: retrieve the US FDA label or UK SmPC and extract key warnings, contraindications, and drug interaction data
-- Drug interaction assessment with common RA co-medications (methotrexate, NSAIDs, JAK inhibitors, and biologics)
-- Proof-of-concept in a validated human RA cell or ex vivo synovial tissue model before any clinical study design
-- Regulatory pathway assessment for special access in Denmark
+**For at fortsætte med RA-indikationen, er følgende nødvendigt:**
+- Fuldstændig MOA-data fra DrugBank (PPARα-bindingsaffinitet, selektivitet versus PPARγ, efterfølgende transkriptionelle mål)
+- Fuldstændig sikkerhedsprofil: hent det amerikanske FDA-mærke eller UK-SmPC og udtræk vigtige advarsler, kontraindikationer og lægemiddel-interaktionsdata
+- Lægemiddel-interaktionsvurdering med almindelige RA-co-lægemidler (methotrexat, NSAIDs, JAK-inhibitorer og biologiske midler)
+- Bevis for koncept i en valideret human RA-celle eller ex vivo synoviel væv-model før noget klinisk studiedesign
+- Regulatorisk vejledning vurdering for særlig adgang i Danmark
 
 ---
 
-### Summary of All TxGNN Predicted Indications
+### Sammenfatning af alle TxGNN forudsagte indikationer
 
-| Indication | TxGNN Score | Evidence Level | Decision | Key Note |
+| Indikation | TxGNN-score | Evidensniveau | Afgørelse | Vigtig note |
 |-----------|-------------|---------------|---------|----------|
-| Rheumatoid arthritis | 99.90% | L4 | **Hold** | Animal model evidence only; no clinical trials |
-| Multiple endocrine neoplasia | 99.83% | L5 | **Hold** | Model prediction only; no biological plausibility supported |
-| HIV infectious disease | 99.80% | L2 | **Research Question** | 3 trials (PK/DDI focus) + 1 RCT (PMID 12409741); use case is PI-associated hypertriglyceridaemia, not antiviral; critical DDI risk with PIs |
-| Hypoalphalipoproteinemia | 99.77% | L2 | **Proceed with Guardrails** | 2 RCTs + multiple clinical studies; closely aligned with established Gemfibrozil pharmacology; strongest near-term candidate |
-| Brachydactyly-syndactyly syndrome | 99.77% | L5 | **Hold** | Model prediction only; no mechanistic or clinical basis |
+| Reumatoid artritis | 99.90% | L4 | **Afvent** | Kun animalsk model-evidens; ingen kliniske forsøg |
+| Multipel endokrin neoplasi | 99.83% | L5 | **Afvent** | Modelprognose alene; ingen biologisk plausibilitet understøttet |
+| HIV-infektionssygdom | 99.80% | L2 | **Forskningsspørgsmål** | 3 forsøg (PK/DDI-fokus) + 1 RCT (PMID 12409741); use case er PI-associeret dyslipidæmi, ikke antiretroviral; kritisk DDI-risiko med PIs |
+| Hypoalphalipoproteinæmi | 99.77% | L2 | **Fortsæt med forholdsregler** | 2 RCTs + multipel kliniske studier; tæt justeret med etableret gemfibrozil-farmakologi; stærkeste nærmeste-sigt kandidat |
+| Brachydaktylie-syndaktylie-syndrom | 99.77% | L5 | **Afvent** | Modelprognose alene; ingen mekanistisk eller klinisk basis |
 
-> **Clinical prioritisation note:** Of the five predicted indications, **hypoalphalipoproteinemia** (low HDL-cholesterol) has the most robust clinical evidence and the closest mechanistic alignment with Gemfibrozil's known PPARα-mediated upregulation of ApoA-I/ApoA-II and HDL-raising effect. If a repurposing or expanded-use case is to be pursued, this indication represents the lowest-risk, highest-evidence entry point. The **HIV-associated dyslipidaemia** indication also has an RCT-level evidence base (PMID 12409741) but requires a thorough DDI safety assessment before any recommendation can be issued.
+> **Klinisk prioriteringsnotat:** Af de fem forudsagte indikationer har **hypoalphalipoproteinæmi** (lavt HDL-kolesterol) den mest robuste kliniske evidens og den tæteste mekanistiske justering med gemfibrozils kendte PPARα-medierede opregulering af ApoA-I/ApoA-II og HDL-hævende effekt. Hvis en repurposing eller udvidet-use tilfælde skal forfølges, repræsenterer denne indikation det laveste-risiko, højeste-evidens ind-punkt. **HIV-associeret dyslipidæmi** indikationen har også et RCT-niveau evidensbasis (PMID 12409741), men kræver en grundig DDI-sikkerhedsvurdering før nogen anbefaling kan udstedes.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

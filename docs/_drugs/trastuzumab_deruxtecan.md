@@ -29,98 +29,99 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Targeted Oncology Use to Predicted Drug-Induced Osteoporosis
+# Trastuzumab Deruxtecan: Fra HER2-målrettet onkologisk brug til forudsagt lægemiddelinduceret osteoporose
 
-## One-Sentence Summary
+## Ét-sætnings sammenfattelse
 
-> Trastuzumab deruxtecan (T-DXd) is a HER2-targeted antibody-drug conjugate (ADC) whose original approved indication is not specified in this evidence pack.
-> The TxGNN model's top prediction is **Drug-Induced Osteoporosis** (score 99.31%), but this candidate — and the four other top-10 predictions — is supported by **zero clinical trials and zero publications**, and the evidence pack's own mechanistic analysis flags the prediction as a likely knowledge-graph artifact rather than a genuine therapeutic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (drug is classified as a HER2-targeted antibody-drug conjugate per mechanistic notes) |
-| Predicted New Indication | Drug-Induced Osteoporosis (duplicate entry at rank 1 and 2 — likely deduplication artifact) |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Trastuzumab deruxtecan (T-DXd) er et HER2-målrettet antistof-lægemiddelkonjugat (ADC), hvis oprindelige godkendte indikation ikke er specificeret i denne dokumentation.
+> TxGNN-modellens vigtigste forudsigelse er **lægemiddelinduceret osteoporose** (score 99,31 %), men denne kandidat — og de fire andre vigtigste forudsigelser — understøttes af **nul kliniske forsøg og nul publikationer**, og dokumentationens egen mekanistiske analyse markerer forudsigelsen som sandsynligvis et artefakt i vidensgrafen snarere end et ægte terapeutisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Trastuzumab deruxtecan (T-DXd) is described in the evidence pack as a HER2-targeted antibody-drug conjugate (ADC), with a payload consisting of a topoisomerase I inhibitor (DXd). No original indication data was provided for this pack, so the traditional "original indication → new indication" mechanistic bridge cannot be constructed with confidence.
-
-More importantly, the evidence pack's own rationale for every one of the top 10 predictions explicitly concludes that **there is no known mechanistic pathway** linking a HER2/topoisomerase-I-targeted ADC to any of the predicted conditions (drug-induced osteoporosis, diabetic retinopathy and its severe subtype, bronchitis, or diabetic cataract). The assessment suggests these high TxGNN scores more likely reflect semantic co-occurrence in the knowledge graph (e.g., shared nodes with bone metastasis, chemotherapy-related tissue damage, or general antibody/oncology clusters) rather than a real treatment hypothesis.
-
-Notably, for several candidates the evidence pack raises a **directionally inverted concern**: T-DXd carries a known class of eye toxicity (corneal/keratopathy signals) and a well-established interstitial lung disease (ILD)/pneumonitis risk. If the knowledge graph associates the drug with eye- or respiratory-related disease nodes (diabetic retinopathy, diabetic cataract, bronchitis), this may reflect the drug's **known adverse-effect profile being misread as a therapeutic signal**, rather than genuine repurposing potential. This is a critical caveat for clinical interpretation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(Confirmed by direct queries against ClinicalTrials.gov and ICTRP for all five unique predicted indications — drug-induced osteoporosis, severe nonproliferative diabetic retinopathy, diabetic retinopathy, bronchitis, and diabetic cataract — each returning 0 results.)*
+| Punkt | Indhold |
+|------|---------|
+| Originalindikation | Ikke specificeret i dokumentationen (lægemidlet klassificeres som HER2-målrettet antistof-lægemiddelkonjugat ifølge mekanistiske noter) |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose (duplikat post ved rang 1 og 2 — sandsynligt artefakt fra deduplicering) |
+| TxGNN-forudsigelsesscore | 99,31 % |
+| Evidensieniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Vent (Hold) |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Trastuzumab deruxtecan (T-DXd) beskrives i dokumentationen som et HER2-målrettet antistof-lægemiddelkonjugat (ADC) med en nyttelast bestående af en topoisomeraseinhibitor I (DXd). Ingen oprindelige indikationsdata blev leveret til dette pakke, så den traditionelle "oprindelig indikation → ny indikation" mekanistiske bro kan ikke konstrueres med sikkerhed.
 
-*(Confirmed by direct PubMed queries for all five unique predicted indications, each returning 0 results.)*
+Endnu vigtigere er det, at dokumentationens egen begrundelse for hver enkelt af de 10 vigtigste forudsigelser eksplicit konkluderer, at **der ikke findes kendt mekanistisk vej**, der forbinder et HER2/topoisomerasehibitor-I-målrettet ADC til nogen af de forudsagte tilstande (lægemiddelinduceret osteoporose, diabetisk retinopati og dets alvorlige undertype, bronkitis eller diabetisk katarakt). Vurderingen antyder, at disse høje TxGNN-scores mere sandsynligt afspejler semantisk co-forekomst i vidensgrafen (f.eks. delte noder med benmetastase, kemoterapirelateret vævsskade eller generelle antistof-/onkologi-klynger) snarere end en reel behandlingshypotese.
 
----
-
-## Denmark Market Information
-
-No marketing authorisations are currently registered for this product in Denmark (0 licenses on file; market status: Not marketed).
+Bemærkselsesværdigt er det, at dokumentationen for adskillige kandidater rejser en **retningsbestemt inverteret bekymring**: T-DXd har en kendt klasse af øjetoksicitet (korneal-/keratopati-signaler) og en veletableret risiko for interstitiel lungensygdom (ILD)/pneumonitis. Hvis vidensgrafen forbinder lægemidlet med øje- eller respiratorrelated sygdomsknuder (diabetisk retinopati, diabetisk katarakt, bronkitis), kan dette afspejle lægemidlets **kendte uønsket vejkningsprofil, der bliver misfortolket som et terapeutisk signal**, snarere end ægte genbrugspotentiale. Dette er en kritisk advarsel for klinisk fortolkning.
 
 ---
 
-## Cytotoxicity
+## Bevis for kliniske forsøg
 
-Trastuzumab deruxtecan is an antineoplastic antibody-drug conjugate (HER2-targeted delivery of a cytotoxic topoisomerase I inhibitor payload), so this section applies.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (ADC) delivering a conventional cytotoxic payload (topoisomerase I inhibitor) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+*(Bekræftet ved direkte forespørgsler mod ClinicalTrials.gov og ICTRP for alle fem unikke forudsagte indikationer — lægemiddelinduceret osteoporose, alvorligt ikke-proliferativt diabetisk retinopati, diabetisk retinopati, bronkitis og diabetisk katarakt — hver returnerer 0 resultater.)*
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug interaction records were found in the queried database.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Note:** Product label warnings and contraindications are flagged as a **Blocking** data gap in this evidence pack (unavailable from the regulatory source), meaning a formal safety pre-assessment cannot yet be completed for this candidate.
+*(Bekræftet ved direkte PubMed-forespørgsler for alle fem unikke forudsagte indikationer, hver returnerer 0 resultater.)*
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Der er i øjeblikket ingen markedsføringstilladelser registreret for dette produkt i Danmark (0 licenser til stede; markedsstatus: Ikke markedsført).
 
-**Rationale:**
-- All five unique predicted indications are TxGNN model output only (Evidence Level L5), with zero corroborating clinical trials or literature.
-- The evidence pack's own mechanistic review concludes there is no plausible biological rationale for any top-ranked prediction, and warns that some associations may reflect the drug's known toxicity profile (ILD, keratopathy) rather than therapeutic potential.
-- Product label safety data (warnings/contraindications) is a Blocking gap, preventing a formal safety pre-assessment.
-- The prediction list contains duplicate entries (ranks 1–2, 3–4, 5–6, 7–8, 9–10 are identical pairs), indicating an upstream data-quality issue.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC label data (warnings, contraindications) — currently Blocking
-- Confirmed mechanism of action (MOA) and original approved indication(s) for this drug
-- Deduplication of the predicted_indications dataset at the source
-- If any candidate is pursued further, preclinical/mechanistic studies are required before advancing beyond S0, given the complete absence of clinical or literature evidence
+## Cellgiftighed
+
+Trastuzumab deruxtecan er et antineoplastisk antistof-lægemiddelkonjugat (HER2-målrettet levering af en cytotoksisk topoisomerasehibitor I-nyttelast), så dette afsnit gælder.
+
+| Punkt | Indhold |
+|------|---------|
+| Cellgiftighedsklassificering | Målrettet terapi — antistof-lægemiddelkonjugat (ADC) med levering af konventionel cytotoksisk nyttelast (topoisomerasehibitor I) |
+| Myelosuppressionrisiko | Se venligst produktresumé (SmPC) for advarsler og forholdsregler |
+| Emetogenicitet-klassificering | Se venligst produktresumé (SmPC) for advarsler og forholdsregler |
+| Overvågningspunkter | Se venligst produktresumé (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se venligst produktresumé (SmPC) for advarsler og forholdsregler |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst godkendt produktresumé (SmPC) for sikkerhedsinformation. Der blev ikke fundet nogen lægemiddelinteraktionsregistreringer i den forespurgte database.
+
+**Bemærk:** Advarsler og kontraindikationer på produktetiketten er markeret som et **blokerende** datahul i denne dokumentation (utilgængelig fra regulatorkilde), hvilket betyder, at en formel sikkerhedspre-vurdering endnu ikke kan gennemføres for denne kandidat.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Vent (Hold)**
+
+**Begrundelse:**
+- Alle fem unikke forudsagte indikationer er TxGNN-modeloutput kun (evidensieniveau L5), med nul bekræftende kliniske forsøg eller litteratur.
+- Dokumentationens egen mekanistiske gennemgang konkluderer, at der ikke er nogen plausibel biologisk rationale for nogen toprangeret forudsigelse, og advarer om, at nogle forbindelser kan afspejle lægemidlets kendt toksicitetsprofil (ILD, keratopati) snarere end terapeutisk potentiale.
+- Sikkerhedsdata på produktetiketten (advarsler/kontraindikationer) er et blokerende hul, hvilket forhindrer en formel sikkerhedspre-vurdering.
+- Forudsigelseslisten indeholder duplikerede poster (rækkerne 1–2, 3–4, 5–6, 7–8, 9–10 er identiske par), hvilket angiver et datakvalitetsproblem i forbindelseslinjen.
+
+**For at fortsætte kræves følgende:**
+- TFDA/SmPC-etiketdata (advarsler, kontraindikationer) — i øjeblikket blokerende
+- Bekræftet virkningsmekanisme (MOA) og oprindeligt godkendt indikation(er) for dette lægemiddel
+- Deduplicering af predicted_indications-datasettet ved kilden
+- Hvis en kandidat bliver forfulgt videre, er prekliniske/mekanistiske studier nødvendige før avancement ud over S0, givet den fuldstændige mangel på klinisk eller litteraturbevis
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

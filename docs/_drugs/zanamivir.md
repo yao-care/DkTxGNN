@@ -29,84 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the report as directly specified by the prompt (this is a self-contained content-generation task with explicit formatting instructions already provided, so I'm following those instructions directly rather than invoking a separate skill).
+# Zanamivir: Fra influenza til pyelonephritis
 
-I reviewed the evidence pack in detail: notably, all `predicted_indications` entries here carry **negative** mechanistic assessments (`decision_stage: S0`, `recommendation: Hold`, `evidence_level: L5`), and the only literature hits (for "disorder of tyrosine metabolism") are flagged in the pack itself as a knowledge-graph false positive (papers about oseltamivir/zanamivir resistance mutations, not about metabolic disease). I've written the report to reflect this honestly rather than forcing a positive narrative.
+## Enlinies resumé
 
----
-
-# Zanamivir: From Influenza to Pyelonephritis
-
-## One-Sentence Summary
-
-Zanamivir is an antiviral neuraminidase inhibitor internationally approved for the treatment and prevention of influenza A and B.
-The TxGNN model's top-ranked prediction proposes possible relevance to **Pyelonephritis**, but this is a **model-only (L5)** signal —
-there are **no supporting clinical trials and no supporting literature**, and the evidence pack's own mechanistic review finds no credible pharmacological basis for the link.
+Zanamivir er en antiviral neuraminidasehæmmer, der er internationalt godkendt til behandling og forebyggelse af influenza A og B.
+TxGNN-modellens højest rangerede forudsigelse foreslår mulig relevans til **Pyelonephritis**, men dette er et **kun model-baseret (L5)** signal —
+der er **ingen understøttende kliniske forsøg og ingen understøttende litteratur**, og bevissamlingen's egen mekanistisk gennemgang finder ingen troværdig farmakologisk grundlag for forbindelsen.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Danish licence data (no marketing authorisations on file); Zanamivir is internationally indicated for Influenza A/B treatment and prophylaxis |
-| Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Formal mechanism-of-action data was not available in this evidence pack (drug-level data gap, marked High severity in the source metadata). Based on established pharmacology, Zanamivir is an inhaled neuraminidase inhibitor that blocks the influenza virus surface glycoprotein neuraminidase, preventing release of new viral particles from infected respiratory epithelial cells. Its approved use is narrowly confined to influenza A and B.
-
-The model's top-ranked new indication, **Pyelonephritis**, is a bacterial upper urinary tract infection. There is no overlap between bacterial infection pathophysiology and viral neuraminidase inhibition, and no antibacterial activity has been documented for zanamivir. The evidence pack's own mechanistic-link assessment for this candidate concludes explicitly that there is no credible pharmacological connection.
-
-The remaining model-flagged candidates — disorders of tyrosine and phenylalanine metabolism, tetrahydrobiopterin-responsive phenylketonuria, and teratogenic Pierre Robin syndrome — are all congenital metabolic or craniofacial developmental disorders, none of which have any known biochemical relationship to neuraminidase inhibition. Notably, the three literature citations retrieved under "disorder of tyrosine metabolism" all concern oseltamivir/zanamivir antiviral-**resistance mutations** (e.g., the H275Y / H274Y neuraminidase substitutions) — the mutation nomenclature happens to reference a tyrosine/histidine substitution, which appears to have triggered a spurious text-matching link in the knowledge graph rather than reflecting genuine therapeutic relevance. This is best interpreted as a **knowledge-graph false positive** rather than supporting evidence.
+| Element | Indhold |
+|---|---|
+| Oprindelig indikation | Ikke dokumenteret i danske licensdata (ingen markedsføringstilladelser registreret); Zanamivir er internationalt indiceret til behandling og profylakse af influenza A/B |
+| Forudsagt ny indikation | Pyelonephritis |
+| TxGNN-forudsigelsesscore | 99.84% |
+| Bevisgrad | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Formelle virkningsmekanisme-data var ikke tilgængelige i denne bevissamling (datagap på medicinal-niveau, markeret som høj alvorlighed i kildemetadata). Baseret på etableret farmakologi er zanamivir en inhalativ neuraminidasehæmmer, der blokerer influenzavirusens overfladeglykoproteinneuroaminidase, hvilket forhindrer frigivelse af nye viruspartikler fra inficerede respiratoriske epitelceller. Dets godkendte anvendelse er snævert begrænset til influenza A og B.
 
----
+Modellens højest rangerede nye indikation, **Pyelonephritis**, er en bakteriel øvre urinvejsinfektion. Der er ingen overlap mellem bakteriel infektionspatofysiologi og antiviral neuraminidasehæmning, og der er ikke dokumenteret nogen antibakteriel aktivitet for zanamivir. Bevissamlingen's egen mekanistisk-link-vurdering for denne kandidat konkluderer eksplicit, at der ikke er nogen troværdig farmakologisk forbindelse.
 
-## Literature Evidence
-
-Currently no related literature available for the top-ranked candidate indication (Pyelonephritis).
-
-*(Note: 3 publications were retrieved under a lower-ranked candidate, "disorder of tyrosine metabolism," but on review these concern antiviral resistance mutation nomenclature, not the metabolic disorder itself — see rationale above.)*
+De resterende model-markerede kandidater — forstyrrelser i tyrosin- og fenylalaninmetabolisme, tetrahydrobiopterin-responsiv phenylketonuri og teratogen Pierre Robin-syndrom — er alle medfødte metabolske eller kraniofaciale udviklingsforstyrrelser, hvoraf ingen har nogen kendt biokemisk sammenhæng med neuraminidasehæmning. Bemærkelsesværdigt blev de tre litteraturhenvisninger hentet under "forstyrrelser i tyrosinmetabolisme" alle vedrørende oseltamivir/zanamivir antivirale **resistensmutationer** (f.eks. H275Y / H274Y neuraminidaseerstatningerne) — mutationsnomenklaturen refererer tilfældigvis til en tyrosin/histidin-substitution, som ser ud til at have udløst et falsk tekstmatchende link i vidensgraf snarere end at afspejle ægte terapeutisk relevans. Dette tolkes bedst som en **falsk positiv vidensgraf** snarere end som understøttende bevis.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-No marketing authorisations are currently on file for Zanamivir in Denmark (Market Status: **Not Marketed**; Total Licences: **0**). This drug does not currently have a registered presence in the Danish market.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede registrerede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig for den højest rangerede kandidatindikation (Pyelonephritis).
 
-**Rationale:**
-All predicted indications for Zanamivir in this evidence pack are supported only at the model-prediction level (L5), with no clinical trials and no genuinely relevant literature. The top candidate (Pyelonephritis) and all other candidates lack any credible mechanistic rationale connecting an antiviral neuraminidase inhibitor to their respective disease biology, and one literature signal was identified as a knowledge-graph false positive.
+*(Bemærk: 3 publikationer blev hentet under en lavere-rangeret kandidat, "forstyrrelser i tyrosinmetabolisme," men efter gennemgang vedrører disse antivirale resistensmutationsnomenklaturen, ikke selve metabolske forstyrrelser — se begrundelse ovenfor.)*
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for Zanamivir (DrugBank API query — currently a data gap)
-- SmPC/product label warnings and contraindications (Danish Medicines Agency source — currently a blocking data gap for safety screening)
-- Independent (non-TxGNN-triggered) hypothesis generation or targeted literature/trial search specific to Pyelonephritis before any further evaluation
-- Reassessment of whether these candidates should remain in the active pipeline, given the absence of a plausible mechanistic basis
+---
+
+## Markedsinformation for Danmark
+
+Ingen markedsføringstilladelser er i øjeblikket registreret for zanamivir i Danmark (Markedsstatus: **Ikke markedsført**; Samlede licenser: **0**). Dette lægemiddel har i øjeblikket ikke en registreret tilstedeværelse på det danske marked.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktsammenfatting (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Alle forudsagte indikationer for zanamivir i denne bevissamling understøttes kun på model-forudsigelsesniveauet (L5), uden kliniske forsøg og uden ægte relevant litteratur. Top-kandidaten (Pyelonephritis) og alle andre kandidater mangler enhver troværdig mekanistisk rationale, der forbinder en antiviral neuraminidasehæmmer til deres respektive sygdomsbiologi, og et litteratursignal blev identificeret som en falsk positiv vidensgraf.
+
+**For at gå videre er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme-data for zanamivir (DrugBank API-forespørgsel — i øjeblikket et datagap)
+- SmPC/produktinformation-advarsler og kontraindikationer (Dansk lægemiddelagentur-kilde — i øjeblikket et blokerende datagap for sikkerhedsscreening)
+- Uafhængig (ikke-TxGNN-udløst) hypotesegenerering eller målrettet litteratur-/forsøgssøgning specifik til pyelonephritis før yderligere evaluering
+- Revurdering af, hvorvidt disse kandidater skal forblive i den aktive pipeline, givet fraværet af et plausibelt mekanistisk grundlag
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

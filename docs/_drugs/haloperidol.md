@@ -29,80 +29,81 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Haloperidol: From Psychotic Disorders to Congenital Disorder of Glycosylation with Defective Fucosylation
+# Haloperidol: Fra Psykotiske Lidelser til Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering
 
-## One-Sentence Summary
+## Ét-sætnings resumé
 
-Haloperidol is a first-generation (typical) antipsychotic, primarily used in the treatment of schizophrenia and other psychotic disorders through dopamine D2 receptor antagonism.
-The TxGNN model predicts it may be effective for **Congenital Disorder of Glycosylation with Defective Fucosylation (SLC35C1-CDG)**, with **no clinical trials** and **no supporting publications** identified to date.
-This prediction is based entirely on model inference; the mechanistic rationale is highly speculative and no empirical evidence exists to support further investigation at this stage.
+Haloperidol er et antipsykotikum af første generation (typisk), primært brugt til behandling af skizofreni og andre psykotiske lidelser gennem antagonisme af dopamin D2-receptorer.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering (SLC35C1-CDG)**, med **ingen kliniske forsøg** og **ingen understøttende publikationer** identificeret til dato.
+Denne forudsigelse er udelukkende baseret på modelinferens; den mekanistiske begrundelse er meget spekulativ, og der findes ingen empirisk evidens til at understøtte yderligere undersøgelse på dette stadium.
 
 ---
 
-## Quick Overview
+## Hurtigt Overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Psychotic disorders / Schizophrenia (no authorisation registered in Denmark) |
-| Predicted New Indication | Congenital Disorder of Glycosylation with Defective Fucosylation |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig Indikation | Psykotiske lidelser / Skizofreni (ingen godkendelse registreret i Danmark) |
+| Forudsagt Ny Indikation | Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering |
+| TxGNN Forudsigelsesscore | 99.91% |
+| Evidensniveau | L5 |
+| Danmarks Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Afgørelse | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Haloperidol is a butyrophenone-class antipsychotic whose principal mechanism is high-affinity dopamine D2 receptor antagonism in the central nervous system. It has established clinical use in schizophrenia, acute psychosis, Tourette syndrome, and agitation states. Detailed pharmacological mechanism of action data was not available in the current evidence pack; however, its D2 antagonism profile is well documented in the broader literature and is reflected throughout the repurposing rationale provided.
+Haloperidol er et antipsykotikum af butyrofenon-klassen, hvis primære mekanisme er høj-affinitet antagonisme af dopamin D2-receptorer i centralnervesystemet. Det har etableret klinisk brug ved skizofreni, akut psykose, Tourettes syndrom og agitation. Detaljerede farmakologiske data om virkningsmekanisme var ikke tilgængelige i det aktuelle evidenspakke; imidlertid er dets antagonisme af D2-receptorer velkendt i den bredere litteratur og afspejles gennem hele den repurposing-begrundelse, der er givet.
 
-Congenital Disorder of Glycosylation with Defective Fucosylation — also known as SLC35C1-CDG or Leukocyte Adhesion Deficiency type II (LAD II) — is a rare autosomal recessive metabolic disorder caused by loss-of-function mutations in the SLC35C1 gene encoding the Golgi GDP-fucose transporter. The resulting failure of fucosylation of surface glycoproteins leads to recurrent infections, intellectual disability, and growth retardation. This pathological mechanism is fundamentally distinct from dopaminergic dysregulation.
+Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering — også kendt som SLC35C1-CDG eller Leukocytadhæsionsdefekt type II (LAD II) — er en sjælden autosomalt recessiv metabolisk sygdom forårsaget af loss-of-function mutationer i SLC35C1-genet, der koder for Golgi GDP-fucose-transportøren. Den resulterende manglende fucosylering af overflade-glykoproteiner fører til tilbagevendende infektioner, intellektuel funktionsnedsættelse og væksthæmning. Denne patologiske mekanisme er fundamentalt forskellig fra dopaminergi-uregelmæssighed.
 
-There is no known direct mechanistic link between Haloperidol's D2 antagonism and the metabolic defect underlying SLC35C1-CDG. While some in vitro findings suggest antipsychotics can influence N-glycosylation of dopamine receptors, this effect is observed at the receptor level and represents the opposite of what would be therapeutically required to correct a GDP-fucose transport deficiency. No published research has examined Haloperidol in the context of this disease. The high TxGNN confidence score most likely reflects indirect pathway connections within the knowledge graph rather than a genuine disease-modifying mechanism, and this prediction should be treated as highly speculative with low credibility.
-
----
-
-## Clinical Trials
-
-Currently no related clinical trials registered.
+Der er ingen kendt direkte mekanistisk forbindelse mellem Haloperidols antagonisme af D2-receptorer og den metaboliske defekt, der ligger til grund for SLC35C1-CDG. Selvom nogle in vitro-fund tyder på, at antipsykotika kan påvirke N-glykosylering af dopaminreceptorer, observeres denne effekt på receptorniveau og repræsenterer det modsatte af hvad der ville være terapeutisk påkrævet for at korrigere en mangel i GDP-fucose-transport. Ingen publiceret forskning har undersøgt Haloperidol i sammenhæng med denne sygdom. Den høje TxGNN-forudsigelsesscore afspejler sandsynligvis indirekte forbindelser inden for viden-grafen snarere end en ægte sygdomsmodificerende mekanisme, og denne forudsigelse bør behandles som meget spekulativ med lav troværdighed.
 
 ---
 
-## Literature Evidence
+## Kliniske Forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Haloperidol has no marketing authorisations registered in Denmark. Neither a national authorisation through the Danish Medicines Agency (Laegemiddelstyrelsen) nor a centralised authorisation through the EMA is currently on record for this active substance in Denmark.
+Aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Note for reviewers:** It is worth flagging that Haloperidol is known from international SmPCs to carry risks of corneal and lens pigmentation, retinal toxicity, and extrapyramidal effects. These existing safety signals are particularly relevant given that two of the top-five TxGNN predictions involve retinal and ocular conditions (retinal dystrophy with or without extraocular anomalies), where these adverse effects would represent an active contraindication to use.
+Aktuelt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Danmarks Markedsinformation
 
-**Decision: Hold**
+Haloperidol har ingen markedsføringstilladelser registreret i Danmark. Hverken en national godkendelse gennem Det Danske Lægemiddelagentur (Lægemiddelstyrelsen) eller en centraliseret godkendelse gennem EMA er aktuelt på register for denne aktive substans i Danmark.
 
-**Rationale:**
-There is no clinical, observational, or preclinical evidence supporting Haloperidol for congenital disorder of glycosylation with defective fucosylation, and no plausible mechanistic pathway connects dopamine D2 antagonism to GDP-fucose transporter deficiency. All five unique predicted indications in this evidence pack share an L5 evidence level with a unanimous Hold recommendation, indicating that none of the current TxGNN predictions for this drug are ready for clinical consideration.
+---
 
-**To proceed, the following is needed:**
+## Sikkerhedshensyn
 
-- **Biological plausibility review:** A clinical pharmacologist or metabolic disease specialist should evaluate whether any indirect pathway connecting D2 antagonism to glycosylation biology exists before committing further resources.
-- **MOA data gap resolution:** DrugBank detailed mechanism of action data must be retrieved (data gap DG002) to support any mechanistic assessment.
-- **Safety data retrieval:** The SmPC/SPC for Haloperidol must be obtained and parsed from an authoritative European source (e.g., EMA product database or a national medicines agency with current approval) to address data gap DG001, particularly given the known retinal and ocular toxicity signals.
-- **Preclinical feasibility study:** If the biological plausibility review yields any positive signal, targeted in vitro experiments examining Haloperidol's effect on fucosylation pathways would be required before any clinical hypothesis can be formed.
-- **Market status clarification:** Confirm whether Haloperidol is available in Denmark via parallel import or compounding, as this would affect any future compassionate use or study design considerations.
+Se venligst Resumé af Produktkarakteristika (SmPC) for sikkerhedsinformation.
+
+> **Bemærkning til recensenter:** Det er værd at påpege, at Haloperidol fra internationale SmPC'er er kendt for at indebære risici for hornhinde- og linsepigmentering, retinal toksicitet og ekstrapiramidal bivirkninger. Disse eksisterende sikkerhedssignaler er særligt relevante, da to af de fem bedste TxGNN-forudsigelser involverer retinal og okular tilstande (retinal dystrofi med eller uden okulare anomalier), hvor disse bivirkninger ville repræsentere en absolut kontraindikation til brug.
+
+---
+
+## Konklusion og Næste Trin
+
+**Afgørelse: Hold**
+
+**Begrundelse:**
+Der er ingen klinisk, observationel eller præ-klinisk evidens, der understøtter Haloperidol til medfødt glykosyleringsforstyrelse med defekt fucosylering, og ingen plausibel mekanistisk vej forbinder antagonisme af D2-receptorer til mangel i GDP-fucose-transport. Alle fem unikke forudsagte indikationer i denne evidenspakke deler et L5-evidensniveau med en enstemmig Hold-anbefaling, hvilket indikerer, at ingen af de aktuelle TxGNN-forudsigelser for dette medicin er parate til klinisk overvejelse.
+
+**For at fortsætte, kræves følgende:**
+
+- **Anmeldelse af biologisk plausibilitet:** En klinisk farmakolog eller specialist i metaboliske sygdomme bør evaluere, om der findes indirekte mekanistiske forbindelser mellem antagonisme af D2-receptorer og glykosyleringsbiologi, før man forpligter yderligere ressourcer.
+- **Løsning af data-gab vedr. virkningsmekanisme:** Detaljerede data om virkningsmekanisme fra DrugBank skal hentes (data-gab DG002) for at understøtte eventuel mekanistisk vurdering.
+- **Hentning af sikkerhedsdata:** SmPC for Haloperidol skal hentes og analyseres fra en autoritativ europæisk kilde (f.eks. EMA-produktdatabase eller et nationalt lægemiddelsagentur med gyldig godkendelse) for at adressere data-gab DG001, især givet de kendte signaler for retinal og okular toksicitet.
+- **Præ-klinisk gennemførlighedsstudie:** Hvis anmeldelsen af biologisk plausibilitet giver noget positivt signal, vil målrettede in vitro-eksperimenter, der undersøger Haloperidols virkning på fucosyleringsvejer, være påkrævet, inden en klinisk hypotese kan formuleres.
+- **Præcisering af markedsstatus:** Bekræft, om Haloperidol er tilgængeligt i Danmark via parallel-import eller farmaceutisk fremstilling, da dette ville påvirke overvejelser vedrørende eventuel humanitær brug eller forsøgsdesign.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

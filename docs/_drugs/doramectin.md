@@ -29,83 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Doramectin: From Antiparasitic Agent to Insomnia
+# Doramectin: Fra antiparasitisk middel til søvnløshed
 
-## One-Sentence Summary
+## Sammenfatning i en linje
 
-Doramectin is a macrocyclic lactone antiparasitic agent belonging to the avermectin family, currently approved exclusively for veterinary use with no human marketing authorisations anywhere in the world, including Denmark.
-The TxGNN model predicts it may be effective for **Insomnia** with a score of **99.22%** — however, **no clinical trials** and **no publications** currently support this specific direction, placing it at the lowest evidence tier (L5).
-A related CNS indication, **Anxiety**, carries the strongest available evidence (L4, 2 preclinical animal studies) and may represent a more credible first step for further investigation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Veterinary antiparasitic (not approved for human use) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L5 (model prediction only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Doramectin er et makrocyklisk lakton-antiparasiticum tilhørende avermektinfamilien, som i øjeblikket kun er godkendt til veterinær brug uden markedsføringsgodkendelser for mennesker noget sted i verden, herunder Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **søvnløshed** med en score på **99.22%** — dog understøtter **ingen kliniske forsøg** og **ingen publikationer** i øjeblikket denne specifikke retning, hvilket placerer det på det laveste bevisniveau (L5).
+En relateret CNS-indikation, **angst**, har det stærkeste tilgængelige bevis (L4, 2 præ-kliniske dyreforsøg) og kan repræsentere et mere troværdigt første trin til videre undersøgelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data for Doramectin in humans is not available. Doramectin belongs to the avermectin family of macrocyclic lactones and is structurally related to ivermectin. Its established pharmacological basis in veterinary medicine involves disruption of invertebrate neuromuscular signalling through glutamate-gated chloride channels, which are absent in mammals — this is the basis for its selective antiparasitic safety profile in animal hosts.
-
-The proposed link to insomnia rests on a secondary, extrapolated mechanism: Doramectin is hypothesised to act as a positive allosteric modulator of mammalian GABA-A receptors at a binding site distinct from the classical benzodiazepine site. Enhanced GABAergic inhibitory tone could theoretically increase sleep pressure and promote non-REM (NREM) sleep. This reasoning is derived entirely from structural analogy with ivermectin and the TxGNN graph-based computational prediction — no direct preclinical or clinical data in human sleep disorders exists to date.
-
-The closest indication with actual supporting data is **Anxiety** (TxGNN rank 5, score 91.85%). A 2000 rat study (PMID 11246508) directly tested Doramectin using validated anxiety behavioural models (elevated plus-maze, light-dark box) and provided neurochemical evidence of GABAergic modulation. A 2002 parallel study using structurally related ivermectin (PMID 12184502) further supports a potential class effect across avermectins. While this evidence is preclinical only, it provides a more mechanistically grounded foundation than the insomnia prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Veterinær antiparasiticum (ikke godkendt til mennesker) |
+| Forudsagt ny indikation | Søvnløshed |
+| TxGNN-forudsigelsesscore | 99.22% |
+| Bevisniveau | L5 (kun modelforudsigelse) |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-> **Note:** No literature is available for the top-ranked indication (Insomnia, L5). The publications below pertain to **Anxiety** (TxGNN rank 5, L4 evidence), which currently represents the strongest available scientific evidence for any CNS repurposing of Doramectin.
+I øjeblikket er detaljerede data om virkningsmekanismen for doramectin hos mennesker ikke tilgængelige. Doramectin tilhører avermektinfamilien af makrocykliske laktoner og er strukturelt relateret til ivermectin. Dets etablerede farmakologiske grundlag inden for veterinærmedicin involverer forstyrrelser af invertebraters neuromuskulære signalering gennem glutamate-gated chloridkanaler, som er fraværende hos pattedyr — dette er grundlaget for dets selektive antiparasitisk sikkerhedsprofil hos værterne.
 
-| PMID | Year | Type | Journal | Key Findings |
+Det foreslåede link til søvnløshed baseres på en sekundær, ekstrapoleret mekanisme: Doramectin formodes at virke som en positiv allosterisk modulator af mammaliansk GABA-A-receptor på et bindingssted adskilt fra det klassiske benzodiazepinsted. Forbedret GABAergisk inhibitorisk tone kunne teoretisk øge søvntryk og fremme non-REM (NREM) søvn. Denne begrundelse er udelukkende afledt af strukturel analogi med ivermectin og TxGNN-grafbaseret beregningsmæssig forudsigelse — ingen direkte præ-kliniske eller kliniske data i menneskelig søvnforstyrrelser eksisterer til dato.
+
+Den nærmeste indikation med faktisk understøttende data er **angst** (TxGNN rang 5, score 91.85%). Et rotteforsøg fra 2000 (PMID 11246508) testede direkte doramectin ved hjælp af validerede angstopførselmodeller (elevated plus-maze, light-dark box) og gav neurokemisk bevis for GABAergisk modulering. Et parallelt forsøg fra 2002 ved hjælp af strukturelt relateret ivermectin (PMID 12184502) understøtter yderligere en potentiel klasseeffekt på tværs af avermektiner. Selvom dette bevis kun er præ-klinisk, giver det et mere mekanistisk funderet grundlag end søvnløshedsforudsigelsen.
+
+---
+
+## Bevis fra kliniske forsøg
+
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
+
+---
+
+## Litteraturbevis
+
+> **Bemærk:** Der er ingen litteratur tilgængelig for den toprangerede indikation (søvnløshed, L5). Publikationerne nedenfor omhandler **angst** (TxGNN rang 5, L4-bevis), som i øjeblikket repræsenterer det stærkeste tilgængelige videnskabelige bevis for enhver CNS-repurposing af doramectin.
+
+| PMID | År | Type | Journal | Vigtige fund |
 |------|------|------|---------|-------------|
-| [11246508](https://pubmed.ncbi.nlm.nih.gov/11246508/) | 2000 | Animal Study | Comp Biochem Physiol Toxicol Pharmacol | Doramectin (100–1000 µg/kg SC) produced anxiolytic and anticonvulsant effects in rats using elevated plus-maze and light-dark box paradigms; neurochemical analyses confirmed changes in GABAergic metabolites, providing direct mechanistic support |
-| [12184502](https://pubmed.ncbi.nlm.nih.gov/12184502/) | 2002 | Animal Study | Veterinary Research Communications | Structurally related ivermectin demonstrated possible anxiolytic effects in a rat behavioural model; authors explicitly reference prior Doramectin findings, supporting an avermectin class-effect hypothesis for GABAergic modulation |
+| [11246508](https://pubmed.ncbi.nlm.nih.gov/11246508/) | 2000 | Dyreforsøg | Comp Biochem Physiol Toxicol Pharmacol | Doramectin (100–1000 µg/kg SC) producerede anxiolytiske og antikonvulsive effekter hos rotter ved hjælp af elevated plus-maze og light-dark box paradigmer; neurokemiske analyser bekræftede ændringer i GABAergiske metabolitter, hvilket giver direkte mekanistisk understøttelse |
+| [12184502](https://pubmed.ncbi.nlm.nih.gov/12184502/) | 2002 | Dyreforsøg | Veterinary Research Communications | Strukturelt relateret ivermectin demonstrerede mulige anxiolytiske effekter i en ratopførelsesmodel; forfattere henviser eksplicit til tidligere doramectinfund og understøtter en avermektin-klasseeffekt-hypotese for GABAergisk modulering |
 
 ---
 
-## Denmark Market Information
+## Information om Danmarks marked
 
-Doramectin holds no marketing authorisations in Denmark. Neither national (Laegemiddelstyrelsen) nor centralised (EMA) authorisations exist for any human-use formulation. The drug is not registered or marketed for human therapeutic use.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug–drug interaction data, specific clinical warnings, or human-use contraindications for Doramectin were identified in the current evidence review. Given that the drug has no approved human indication, formal human safety data should be regarded as absent until dedicated first-in-human studies are conducted.
+Doramectin har ingen markedsføringsgodkendelser i Danmark. Der eksisterer hverken nationale (Laegemiddelstyrelsen) eller centraliserede (EMA) godkendelser for noget human-use preparat. Lægemidlet er ikke registreret eller markedsført til human terapeutisk brug.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Der blev ikke identificeret drug–drug interaktionsdata, specifikke kliniske advarsler eller kontraindikationer for human-use af doramectin i den aktuelle evidencerevision. Da lægemidlet ikke har en godkendt human indikation, bør formelle human sikkerhedsdata betragtes som fraværende, indtil dedikerede first-in-human studier er gennemført.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
 
 **Rationale:**
-Despite a high TxGNN prediction score for insomnia (99.22%), the evidence base is entirely model-derived (L5) with no clinical trials, no human studies, and no relevant literature — and Doramectin has no approved human indication anywhere globally. Proceeding without foundational safety and pharmacokinetic data in humans would not be scientifically or regulatorily defensible.
+Trods en høj TxGNN-forudsigelsesscore for søvnløshed (99.22%), er evidensbasis udelukkende modelafledt (L5) uden kliniske forsøg, uden human studier og uden relevant litteratur — og doramectin har ingen godkendt human indikation noget sted i verden. At fortsætte uden grundlæggende sikkerhed og farmakokinetiske data hos mennesker ville ikke være videnskabeligt eller regulatorisk forsvarligt.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendigt:**
 
-- **Establish human safety profile:** Commission a formal toxicological review of available veterinary safety data and assess its relevance to human risk; consider a Phase 0/I first-in-human study design
-- **Obtain full MOA data:** Query DrugBank API and primary literature to confirm and characterise the GABA-A positive modulation hypothesis in mammalian systems
-- **Run dedicated preclinical sleep studies:** Conduct rodent polysomnography (EEG-based sleep staging) with Doramectin specifically to evaluate effects on NREM/REM architecture before advancing to human sleep indications
-- **Prioritise Anxiety as lead indication:** Given existing L4 preclinical evidence (PMID 11246508), Anxiety represents a more scientifically tractable entry point than Insomnia; a structured preclinical-to-IND development plan for anxiety should be evaluated first
-- **Regulatory consultation:** Engage the Danish Medicines Agency (Laegemiddelstyrelsen) and EMA regarding the regulatory pathway for repurposing a veterinary-only compound into human CNS indications, including requirements for first-in-human approval
+- **Etabler human sikkerhedsprofil:** Bestil en formelt toksikologisk gennemgang af tilgængelige veterinær sikkerhedsdata og vurder dens relevans for human risiko; overvej en Phase 0/I first-in-human studidesign
+- **Få fulde MOA data:** Forespørg DrugBank API og primær litteratur for at bekræfte og karakterisere GABA-A positive modulationshypotesen i mammalianske systemer
+- **Kør dedikerede præ-kliniske søvnforsøg:** Udfør rodent polysomnografi (EEG-baseret søvnstaging) med doramectin specifikt for at vurdere effekter på NREM/REM-arkitektur før fremskridt til human søvn indikationer
+- **Prioriter angst som ledende indikation:** I betragtning af eksisterende L4 præ-klinisk bevis (PMID 11246508), repræsenterer angst et mere videnskabeligt tilgængeligt indgangspunkt end søvnløshed; en struktureret præ-klinisk-til-IND udviklingsvej for angst bør evalueres først
+- **Regulatorisk konsultation:** Kontakt det danske lægemiddelagentur (Laegemiddelstyrelsen) og EMA angående den regulatoriske vej til repurposing af et udelukkende veterinært lægemiddel til human CNS-indikationer, herunder krav til first-in-human godkendelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

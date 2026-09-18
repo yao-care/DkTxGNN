@@ -29,65 +29,66 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Roxithromycin: From Bacterial Infections to Leprosy
+# Roxithromycin: Fra bakterielle infektioner til spedalskhed
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Roxithromycin is a macrolide antibiotic conventionally used to treat bacterial respiratory tract and skin/soft tissue infections. The TxGNN model predicts it may be effective for **leprosy (Hansen's disease)**, with **0 clinical trials** and **5 publications** — all preclinical/mechanistic — currently supporting this direction.
+Roxithromycin er et makrolidantibiotikum, der traditionelt anvendes til behandling af bakterielle infektioner i luftvejene og hud-/bløtdelsvæv. TxGNN-modellen forudsiger, at det kan være effektivt mod **spedalskhed (Hansens sygdom)**, med **0 kliniske forsøg** og **5 publikationer** — alle præ-kliniske/mekanistiske — der i øjeblikket understøtter denne retning.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not registered in Denmark; internationally used as a macrolide antibiotic for bacterial respiratory tract and skin/soft tissue infections |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt anvendt som makrolidantibiotikum til behandling af bakterielle infektioner i luftvejene og hud-/bløtdelsvæv |
+| Forudsagt ny indikation | Spedalskhed |
+| TxGNN-forudsigelsesscore | 99.70% |
+| Evidensniveau | L4 |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsautorisation | 0 |
+| Anbefalet beslutning | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data for roxithromycin is not available from DrugBank. Based on known pharmacology, roxithromycin is a macrolide antibiotic (an erythromycin derivative) that inhibits bacterial protein synthesis by reversibly binding the 50S ribosomal subunit; its efficacy against a broad range of Gram-positive and some Gram-negative organisms, including atypical pathogens, is well established.
+Der er i øjeblikket ikke tilgængelige detaljerede data om roxithromycins virkningsmekanisme fra DrugBank. Baseret på kendt farmakologi er roxithromycin et makrolidantibiotikum (et erythromycin-derivat), der hæmmer bakteriel proteinsyntes ved reversibel binding til det ribosomale 50S-subunit; dets virkning mod et bredt spektrum af gram-positive og nogle gram-negative organismer, herunder atypiske patogener, er velkendt.
 
-Leprosy is caused by *Mycobacterium leprae*, and macrolides as a class have documented direct antimycobacterial activity as well as anti-inflammatory and immunomodulatory effects — properties relevant both to bacterial clearance and to managing the peripheral neuropathy and inflammatory reactions seen in leprosy.
+Spedalskhed forårsages af *Mycobacterium leprae*, og makrolider som klasse har dokumenteret direkte antimykobakteriel aktivitet samt anti-inflammatorisk og immunomodulatorisk virkning — egenskaber, der er relevante både for bakteriel eliminering og for håndtering af den perifere neuropati og inflammatoriske reaktioner, der ses ved spedalskhed.
 
-Supporting literature specifically shows roxithromycin has in vitro and in vivo (mouse footpad model) bactericidal activity against *M. leprae*, and is noted alongside clarithromycin, minocycline, and fosfomycin for combined antimycobacterial and anti-inflammatory/immunomodulatory action relevant to leprosy neuropathy management. This gives the TxGNN prediction a plausible mechanistic basis, though clarithromycin appears more potent than roxithromycin in head-to-head comparisons, and no clinical trial data in humans exists yet.
+Understøttende litteratur viser specifikt, at roxithromycin har in vitro- og in vivo-aktivitet (mus-fødpadsmodel) mod *M. leprae*, og det nævnes sammen med clarithromycin, minocyclin og fosfomycin for kombineret antimykobakteriel og anti-inflammatorisk/immunomodulatorisk virkning, der er relevant for håndtering af spedalskhedsneuropati. Dette giver TxGNN-forudsigelsen et plausibelt mekanistisk grundlag, selvom clarithromycin fremstår mere potent end roxithromycin i direkte sammenligninger, og der endnu ikke foreligger kliniske data fra mennesker.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbevis
 
-Currently no related clinical trials registered.
+Der er i øjeblikket ingen relaterede registrerede kliniske forsøg.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Preclinical (animal) | Antimicrobial Agents and Chemotherapy | Roxithromycin and clarithromycin, unlike erythromycin/azithromycin, were consistently bactericidal against *M. leprae* in mouse footpad infection; clarithromycin was superior |
-| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | Preclinical (in vitro/in vivo) | Antimicrobial Agents and Chemotherapy | Assessed relative in vitro activity of newer macrolides with favorable pharmacokinetics against *M. leprae* |
-| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | Preclinical (in vitro) | Antimicrobial Agents and Chemotherapy | Screened >25 antimicrobial agents, including roxithromycin, for antileprosy activity using macrophage-based phenolic glycolipid synthesis assay |
-| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Mechanism/clinical commentary | Japanese Journal of Leprosy | Roxithromycin shown to have anti-*M. leprae* activity plus anti-inflammatory/immunomodulatory action relevant to control of leprous peripheral neuropathy |
-| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Review | American Journal of Clinical Dermatology | General review of macrolide use and mechanism (ribosomal binding) in skin infections; not leprosy-specific |
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
+|------|-----|------|---------|---------|
+| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Præ-klinisk (dyreforsøg) | Antimicrobial Agents and Chemotherapy | Roxithromycin og clarithromycin, i modsætning til erythromycin/azithromycin, var konsekvent bakteriocide mod *M. leprae* i mus-fødpadsinfektioner; clarithromycin var overlegen |
+| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | Præ-klinisk (in vitro/in vivo) | Antimicrobial Agents and Chemotherapy | Vurderede relativ in vitro-aktivitet af nyere makrolider med gunstig farmakokinetik mod *M. leprae* |
+| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | Præ-klinisk (in vitro) | Antimicrobial Agents and Chemotherapy | Testede >25 antimikrobielle stoffer, herunder roxithromycin, for antilepra-aktivitet ved hjælp af makrofagbaseret fenolisk glykolipid-syntheseasay |
+| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Mekanisme/klinisk kommentar | Japanese Journal of Leprosy | Roxithromycin vist at have anti-*M. leprae*-aktivitet plus anti-inflammatorisk/immunomodulatorisk virkning relevant for kontrol af spedalskhedsneuropati |
+| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Oversigtsartikel | American Journal of Clinical Dermatology | Almen oversigt over makrolidanvendelse og mekanisme (ribosombinding) ved hudsygdomme; ikke spedalskhedsspecifik |
 
-## Denmark Market Information
+## Dansk markedsinformation
 
-Roxithromycin currently has no marketing authorisation on record in Denmark (market status: not marketed).
+Roxithromycin har i øjeblikket ingen markedsautorisation registreret i Danmark (markedsstatus: ikke markedsført).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Regulatory safety data (warnings, contraindications, drug interactions) for roxithromycin was not available in this evidence pack — this is flagged as a **blocking data gap** for safety evaluation (see Conclusion).
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Regulatoriske sikkerhedsdata (advarsler, kontraindikationer, lægemiddelinteraktioner) for roxithromycin var ikke tilgængelige i denne bevissamling — dette markeres som et **blokerande datamangel** for sikkerhedsevaluering (se Konklusion).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-Evidence is limited to preclinical/mechanistic studies (in vitro assays and mouse-model data from the late 1980s–1990s) with no completed or ongoing clinical trials in leprosy patients. A blocking data gap on TFDA/SmPC warnings and contraindications also prevents a preliminary safety assessment (S1).
+**Begrundelse:**
+Beviserne er begrænset til præ-kliniske/mekanistiske undersøgelser (in vitro-assays og data fra dyremodeleksperimenter fra slutningen af 1980'erne–1990'erne) uden gennemførte eller igangværende kliniske forsøg hos patienter med spedalskhed. Et blokerande datamangel på sikkerhedsdata fra TFDA/SmPC-advarsler og kontraindikationer forhindrer også en foreløbig sikkerhedsvurdering (S1).
 
-**To proceed, the following is needed:**
-- TFDA/SmPC safety label data (warnings, contraindications, drug interactions) to resolve the blocking data gap
-- Confirmed mechanism-of-action data from DrugBank
-- A modern proof-of-concept or comparative clinical study of roxithromycin (vs. established antileprosy regimens such as multidrug therapy) in leprosy patients, given existing preclinical data is decades old and clarithromycin has shown superior potency in the same animal model
+**For at fortsætte er følgende nødvendigt:**
+- Sikkerhedsdata fra TFDA/SmPC (advarsler, kontraindikationer, lægemiddelinteraktioner) til løsning af det blokerande datamangel
+- Bekræftet data om virkningsmekanisme fra DrugBank
+- En moderne proof-of-concept- eller sammenlignende klinisk undersøgelse af roxithromycin (versus etablerede antilepra-regimener såsom kombinationsterapi) hos patienter med spedalskhed, givet at eksisterende præ-kliniske data er årtier gamle, og clarithromycin har vist sig at være mere potent end roxithromycin i samme dyrmodel
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

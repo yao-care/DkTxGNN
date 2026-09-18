@@ -29,70 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Gallium: Insufficient Data for Full Repurposing Evaluation
+# Gallium: Utilstrækkelige data til fuldstændig vurdering af lægemiddelnyt brug
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Gallium is a metallic element whose pharmaceutical compounds (e.g., gallium nitrate) have historically been investigated in oncology and infectious disease contexts.
-However, this Evidence Pack contains **no TxGNN predicted indications**, **no regulatory registrations in Denmark**, and **no safety data** — making a complete repurposing evaluation impossible at this stage.
-A full data remediation pass is required before this candidate can be assessed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No data available |
-| Predicted New Indication | No prediction data available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (model prediction data absent — no supporting studies retrievable) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Gallium er et metaliselement, hvis farmaceutiske forbindelser (f.eks. gallium nitrat) historisk er blevet undersøgt i onkologi- og infektionssygdomskontekster.
+Denne evidenspakke indeholder dog **ingen TxGNN-forudsagte indikationer**, **ingen regulatoriske registreringer i Danmark** og **ingen sikkerhedsdata** — hvilket gør det umuligt at gennemføre en fuldstændig vurdering af lægemiddelnyt brug på nuværende tidspunkt.
+En fuldstændig datagennemgang og -korrektion er påkrævet, før denne kandidat kan vurderes.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-No mechanism of action data is available in this Evidence Pack. A DrugBank query was logged (query ID 2, status: `success`, result count: 1), but no MOA field was populated from it. This is a critical gap because the entire mechanistic rationale for any repurposing hypothesis depends on understanding how gallium compounds exert their biological effects.
-
-Based on general pharmacological knowledge, gallium compounds (such as gallium nitrate) are known to interfere with iron metabolism — gallium(III) mimics iron(III) and disrupts iron-dependent cellular processes. This has been the basis for its investigation in hypercalcemia of malignancy (via inhibition of bone resorption) and in antimicrobial and antitumour contexts. However, **none of this is confirmed by the data in this Evidence Pack**, and no predicted indication from TxGNN is present to evaluate.
-
-Because the `predicted_indications` array is empty, it is not possible to assess whether any mechanistic bridge exists between a known indication and a candidate new one. No report section on clinical trials or literature can be generated from this dataset.
-
----
-
-## Denmark Market Information
-
-No marketing authorisations are registered for Gallium with the Danish Medicines Agency (Lægemiddelstyrelsen). The drug is not currently available on the Danish market in any formulation.
-
-> Note: Gallium nitrate (Ganite®) holds approval in the United States for hypercalcemia of malignancy, but no equivalent EU/EMA or national Danish authorisation was identified in this dataset.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ingen data tilgængelig |
+| Forudsagt ny indikation | Ingen prognosdata tilgængelig |
+| TxGNN prognosescore | N/A |
+| Bevisniveau | L5 (modelprognosedata fraværende — ingen understøttende studier kan hentes) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Safety Considerations
+## Hvorfor er denne prognose rimelig?
 
-No safety data is available in this Evidence Pack. All fields under `key_warnings` and `contraindications` are flagged as data gaps, and the drug–drug interaction (DDI) query returned no results.
+Der er ingen virkningsmekanismedata tilgængelig i denne evidenspakke. En DrugBank-forespørgsel blev registreret (forespørgsels-ID 2, status: `success`, antal resultater: 1), men intet MOA-felt blev udfyldt fra den. Dette er en kritisk mangel, fordi hele den mekanistiske begrundelse for enhver hypotese om lægemiddelnyt brug afhænger af at forstå, hvordan galliumforbindelser udøver deres biologiske virkninger.
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) or equivalent regulatory documents for safety information before any clinical use is considered.
+Baseret på generel farmakologisk viden er galliumforbindelser (såsom gallium nitrat) kendt for at forstyrre jernstofskiftet — gallium(III) efterligner jern(III) og forstyrrer jernafhængige cellulære processer. Dette har været grundlaget for dens undersøgelse i hyperkalcæmi ved malignitet (via hæmning af knoglenedbrydning) og i antimikrobielle og antitumor-kontekster. Imidlertid **bekræftes intet af ovenstående af dataene i denne evidenspakke**, og ingen forudsagt indikation fra TxGNN er til stede for vurdering.
+
+Fordi `predicted_indications` arrayet er tomt, er det ikke muligt at vurdere, hvorvidt der eksisterer en mekanistisk forbindelse mellem en kendt indikation og en kandidat for en ny. Intet beretningsafsnit om kliniske forsøg eller litteratur kan genereres fra dette datasæt.
 
 ---
 
-## Conclusion and Next Steps
+## Markeredsinformation for Danmark
 
-**Decision: Hold**
+Ingen markedsføringstilladelser er registreret for Gallium hos Lægemiddelstyrelsen. Lægemidlet er ikke i øjeblikket tilgængeligt på det danske marked i nogen form.
 
-**Rationale:**
-The Evidence Pack for Gallium is non-actionable in its current state — the predicted indications array is empty, no regulatory authorisation exists in Denmark, and all safety fields are missing. There is no TxGNN output to evaluate, and no evidence base (clinical trials or literature) was linked to any indication.
+> Bemærk: Gallium nitrat (Ganite®) har godkendelse i USA til hyperkalcæmi ved malignitet, men ingen tilsvarende EU/EMA eller national dansk godkendelse blev identificeret i dette datasæt.
 
-**To proceed, the following is needed:**
+---
 
-1. **Re-run TxGNN pipeline** for Gallium — confirm the correct DrugBank ID and verify that predicted indications are being generated and stored correctly. The DrugBank query returned 1 result but no DrugBank ID was populated in the `drug.drugbank_id` field; this mapping error likely caused the prediction pipeline to fail.
-2. **Resolve MOA data gap (DG002)** — retrieve full mechanism of action from DrugBank API using the correct DrugBank compound ID.
-3. **Retrieve safety data (DG001)** — obtain warnings and contraindications from the relevant SmPC or equivalent source; for EU use, check the EMA product database.
-4. **Confirm drug identity** — "GALLIUM" is ambiguous (element vs. specific salt such as gallium nitrate, gallium maltolate, gallium citrate). The candidate ID should specify the exact compound and salt form before any evaluation can proceed.
-5. **Check EMA/national authorisation databases** — confirm whether any gallium compound holds a centralised or mutual recognition authorisation valid in Denmark.
+## Sikkerhedshensyn
+
+Der er ingen sikkerhedsdata tilgængelig i denne evidenspakke. Alle felter under `key_warnings` og `contraindications` er markeret som datamangel, og forespørgslen om lægemiddel-lægemiddel-vekselvirkning (DDI) returnerede ingen resultater.
+
+> Se venligst det godkendte produktresumé (eller tilsvarende regulatoriske dokumenter) for sikkerhedsinformation, før nogen klinisk brug overvejes.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Evidenspakken for Gallium er ikke brugbar i sin nuværende form — det forudsagte indikations array er tomt, ingen regulatorisk godkendelse eksisterer i Danmark, og alle sikkerhedsfelter mangler. Der er ingen TxGNN-output til vurdering, og ingen evidensbasis (kliniske forsøg eller litteratur) var knyttet til nogen indikation.
+
+**For at fortsætte er følgende nødvendigt:**
+
+1. **Kør TxGNN-pipeline igen** for Gallium — bekræft det korrekte DrugBank-ID og verificer, at forudsagte indikationer bliver genereret og gemt korrekt. DrugBank-forespørgslen returnerede 1 resultat, men intet DrugBank-ID blev udfyldt i `drug.drugbank_id` feltet; denne kortlægningsfejl har sandsynligvis forårsaget, at prognosepipelinen mislykkedes.
+2. **Løs datamangel for virkningsmekanisme (DG002)** — hent fuld virkningsmekanisme fra DrugBank API ved hjælp af det korrekte DrugBank forbindelses-ID.
+3. **Hent sikkerhedsdata (DG001)** — indhent advarsler og kontraindikationer fra det relevante produktresumé eller tilsvarende kilde; for EU-brug skal EMA's produktdatabase tjekkes.
+4. **Bekræft lægemiddelidentitet** — "GALLIUM" er tvetydigt (element vs. specifik salt såsom gallium nitrat, gallium maltolat, gallium citrat). Kandidat-ID'et skal specificere den nøjagtige forbindelse og saltform, før nogen vurdering kan fortsætte.
+5. **Kontroller EMA/nationale godkendelsesdatabaser** — bekræft, hvorvidt nogen galliumforbindelse har en centraliseret eller gensidigt anerkendt godkendelse, der er gyldig i Danmark.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

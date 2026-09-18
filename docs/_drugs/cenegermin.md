@@ -29,88 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cenegermin: From Neurotrophic Keratitis to HER2 Positive Breast Carcinoma
+# Cenegermin: Fra Neurotrof Keratitis til HER2-positiv Brystkræft
 
-## One-Sentence Summary
+## Ét-linjes Sammenfatning
 
-Cenegermin (Oxervate) is a recombinant human nerve growth factor (rhNGF), approved by the EMA for the treatment of neurotrophic keratitis — a rare, sight-threatening corneal disease caused by impaired trigeminal innervation. The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**, with a prediction score of **96.83%**; however, **no clinical trials or relevant literature** currently support this direction, and the available mechanistic analysis raises active safety concerns regarding pro-tumour risk.
+Cenegermin (Oxervate) er et rekombinant humant nervevækstfaktor (rhNGF), godkendt af EMA til behandling af neurotrof keratitis — en sjælden, synstrusslende hornhindesygdom forårsaget af svækket trigeminalinnervation. TxGNN-modellen forudsiger, at det kan være effektivt ved **HER2-positiv brystkræft**, med en forudsigelsesscore på **96.83%**; dog **støttes denne retning i øjeblikket ikke af kliniske forsøg eller relevant litteratur**, og den tilgængelige mekanistiske analyse rejser aktive sikkerhedsbetænkeligheder vedrørende pro-tumor-risiko.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | Neurotrophic keratitis (EMA-approved as Oxervate; not registered in Denmark) |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
-| TxGNN Prediction Score | 96.83% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indikation | Neurotrof keratitis (EMA-godkendt som Oxervate; ikke registreret i Danmark) |
+| Forudsagt Ny Indikation | HER2-positiv Brystkræft |
+| TxGNN Forudsigelsesscore | 96.83% |
+| Bevisniveaugruppe | L5 |
+| Danmarks Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor Er Denne Forudsigelse Rimelig?
 
-Cenegermin is a recombinant form of human nerve growth factor (rhNGF), produced via an *E. coli* expression system. Its sole approved clinical application is neurotrophic keratitis — a corneal condition in which loss of trigeminal innervation leads to epithelial breakdown. In that context, topical cenegermin restores corneal epithelial integrity by activating TrkA (NTRK1) receptors on corneal cells, thereby supporting cell survival, differentiation, and wound healing.
+Cenegermin er en rekombinant form af humant nervevækstfaktor (rhNGF), produceret via et *E. coli*-ekspressionsystem. Dens eneste godkendte kliniske anvendelse er neurotrof keratitis — en hornhindetilstand, hvor tab af trigeminalinnervation fører til epithelial nedbrydning. I den sammenhæng restaurerer topikalt cenegermin hornhindeepithelets integritet ved at aktivere TrkA (NTRK1)-receptorer på hornhindecellerne, hvilket understøtter celleoverlevelse, differentiering og sårheling.
 
-The proposed mechanistic link to HER2-positive breast carcinoma rests on the observation that NGF-TrkA signalling and HER2 (ErbB2) downstream pathways share the PI3K/Akt axis. In principle, this convergence could be interpreted as a point of therapeutic relevance. However, this intersection cuts both ways: in the setting of HER2-amplified tumours, activation of the PI3K/Akt pathway — which is precisely what an NGF agonist would promote — is a known driver of tumour cell survival and resistance to therapy, not a therapeutic target.
+Det foreslåede mekanistiske link til HER2-positiv brystkræft hviler på observationen af, at NGF-TrkA-signalering og HER2 (ErbB2) nedstrøms-veje deler PI3K/Akt-aksen. I princippet kunne denne konvergens tolkes som et punkt af terapeutisk relevans. Dog skærer denne skæring begge veje: i HER2-amplificerede tumorer er aktivering af PI3K/Akt-vien — hvilket er præcis hvad en NGF-agonist ville fremme — en kendt drivkraft for tumorcelleoverlevelse og terapiresistens snarere end et terapeutisk mål.
 
-Critically, the existing preclinical literature does not support the use of NGF agonism in any breast cancer subtype. Studies in ER-positive cell lines (e.g. MCF-7) indicate that NGF promotes tumour cell proliferation. In triple-negative breast cancer, *inhibition* of TrkA (not activation) has been associated with anti-tumour effects. The TxGNN high score for this indication most likely reflects the NGF-breast tissue relationship encoded in the knowledge graph as a broad biological association, rather than a disease-specific therapeutic signal. Based on the current mechanistic evidence, proceeding with this repurposing hypothesis carries a plausible risk of harm.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-No trials combining cenegermin (or rhNGF) with HER2-positive breast carcinoma, or any breast cancer subtype, were identified in ClinicalTrials.gov or the WHO ICTRP as of the data cut-off (2026-04-04).
+Kritisk er det faktum, at den eksisterende præ-kliniske litteratur ikke understøtter brugen af NGF-agonisme i nogen brystkræft-subtype. Studier i ER-positive cellelinjer (f.eks. MCF-7) indikerer, at NGF fremmer tumorcelleproliferation. I triple-negativ brystkræft er *inhibition* af TrkA (ikke aktivering) blevet forbundet med anti-tumor-effekter. Den høje TxGNN-score for denne indikation skyldes sandsynligvis NGF-brystkræft-forhold kodet i vidensgrafen som en bred biologisk association snarere end et sygdomsspecifikt terapeutisk signal. Baseret på det nuværende mekanistiske bevis er det at gå videre med denne repurposing-hypotese forbundet med en plausibel risiko for skade.
 
 ---
 
-## Literature Evidence
+## Kliniske Forsøgsbevis
 
-Currently no relevant literature available.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-The PubMed search retrieved results for the "breast tumor luminal A or B" query pairing, but upon review all retrieved publications were entirely unrelated to cenegermin or breast cancer treatment (papers concerned B-cell biology, hepatitis B vaccination, HLA typing, and unrelated chemistry). No publications examining cenegermin, rhNGF, or NGF agonism in any breast cancer indication were identified.
-
----
-
-## Denmark Market Information
-
-Cenegermin is **not registered or marketed in Denmark**. No national (Laegemiddelstyrelsen) or centralised (EMA) marketing authorisations are currently active in the Danish market.
-
-> **Note for completeness:** Cenegermin is centrally authorised in the EU under the trade name **Oxervate** (EU/1/17/1187/001, Dompé farmaceutici S.p.A.) for the treatment of moderate-to-severe neurotrophic keratitis in adults. Danish prescribers wishing to access this product for the approved indication would need to do so via special import or named-patient procedures. This centralised authorisation covers the EU including Denmark, but the product is not actively distributed in the Danish market as of the data cut-off.
+Ingen forsøg, der kombinerer cenegermin (eller rhNGF) med HER2-positiv brystkræft eller nogen brystkræft-subtype, blev identificeret i ClinicalTrials.gov eller WHO ICTRP ved dataskæringen (2026-04-04).
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-No drug-specific safety data (warnings, contraindications, or drug interactions for cenegermin) were retrievable in this Evidence Pack. The following concern arises specifically from the repurposing context:
+Ingen relevant litteratur tilgængelig i øjeblikket.
 
-- **Mechanistic pro-tumour risk**: As an NGF agonist, cenegermin activates TrkA/PI3K/Akt signalling. In HER2-amplified or ER-positive tumour settings, this pathway activation is associated with tumour cell survival promotion rather than inhibition. This theoretical risk has not been formally evaluated in clinical or robust preclinical oncology studies.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Oxervate for the full safety profile in its licensed indication.
+PubMed-søgningen genoptog resultater for søgningen "breast tumor luminal A or B", men efter gennemgang var alle hentede publikationer fuldstændig irrelevante for cenegermin eller brystkræftbehandling (publikationer omhandlede B-celle-biologi, hepatitis B-vaccination, HLA-typning og urelatereret kemi). Ingen publikationer, der undersøger cenegermin, rhNGF eller NGF-agonisme i nogen brystkræft-indikation, blev identificeret.
 
 ---
 
-## Conclusion and Next Steps
+## Danmarks Markedsoplysninger
 
-**Decision: Hold**
+Cenegermin er **ikke registreret eller markedsført i Danmark**. Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser er i øjeblikket aktive på det danske marked.
 
-**Rationale:**
-The TxGNN prediction score is high (96.83%), but the evidence base is entirely absent (L5 — model prediction only), and the mechanistic analysis actively contradicts the therapeutic hypothesis: cenegermin is an NGF agonist, and NGF-TrkA pathway activation is associated with pro-tumour effects in breast cancer cell lines. There is no clinical, translational, or preclinical study directly supporting cenegermin's use in any breast cancer subtype. Proceeding to the next evaluation stage is not justified at this time.
+> **Bemærk for fuldstændighed:** Cenegermin er centralt godkendt i EU under varemærket **Oxervate** (EU/1/17/1187/001, Dompé farmaceutici S.p.A.) til behandling af moderat til svær neurotrof keratitis hos voksne. Danske ordinatører, der ønsker at få adgang til dette produkt for den godkendte indikation, ville skulle gøre det via specialimport eller patientspecifikke procedurer. Denne centraliserede godkendelse dækker EU inklusive Danmark, men produktet distribueres ikke aktivt på det danske marked ved dataskæringen.
 
-**To revisit this indication, the following would be needed:**
+---
 
-- Dedicated preclinical studies (in vitro and in vivo) examining the effect of rhNGF/TrkA agonism specifically in HER2-amplified breast cancer models, with particular attention to tumour proliferation, survival signalling, and anti-HER2 therapy interactions
-- Clarification of whether the TxGNN high score reflects a true disease-specific repurposing signal or a non-specific NGF–breast tissue graph relationship
-- Full MOA documentation from DrugBank (data gap DG002) to complete the mechanistic assessment
-- Review of the full Oxervate SmPC for safety data applicable to potential systemic or novel-route administration contexts (current approval is topical ophthalmic only)
-- An assessment of route-of-administration feasibility: cenegermin is currently formulated exclusively as ophthalmic eye drops (0.02% solution), and any oncology application would require a fundamentally different delivery strategy
+## Sikkerhedsovervejelser
 
-> **Research disclaimer:** This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any therapeutic application.
+Ingen lægemiddelspecifikke sikkerhedsdata (advarsler, kontraindikationer eller lægemiddelinteraktioner for cenegermin) kunne hentes i denne Evidensoversigt. Følgende bekymring opstår specifikt fra repurposing-konteksten:
+
+- **Mekanistisk pro-tumor-risiko**: Som en NGF-agonist aktiverer cenegermin TrkA/PI3K/Akt-signalering. I HER2-amplificerede eller ER-positive tumor-indstillinger er denne vejaktivering forbundet med promotion af tumorcelleoverlevelse snarere end inhibition. Denne teoretiske risiko er ikke formelt blevet evalueret i kliniske eller robuste præ-kliniske onkologi-studier.
+
+Se venligst det godkendte produkt-karakteristika-resumé (SmPC) for Oxervate for det fulde sikkerhedsprofil i sin licenserede indikation.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+TxGNN-forudsigelsesscore er høj (96.83%), men evidensbasen er fuldstændig fraværende (L5 — alene modelforudsigelse), og den mekanistiske analyse modsiger aktivt den terapeutiske hypotese: cenegermin er en NGF-agonist, og NGF-TrkA-vejaktivering er forbundet med pro-tumor-effekter i brystkræft-cellelinjer. Der er ingen klinisk, translationel eller præ-klinisk undersøgelse, der direkte understøtter cenogermins brug i nogen brystkræft-subtype. Det er ikke berettiget at gå videre til næste evalueringsfase på dette tidspunkt.
+
+**For at genforsøge denne indikation ville følgende være nødvendigt:**
+
+- Dedikerede præ-kliniske studier (in vitro og in vivo), der undersøger effekten af rhNGF/TrkA-agonisme specifikt i HER2-amplificerede brystkræft-modeller, med særlig opmærksomhed på tumorproliferation, overlevelsessignalering og interaktioner med anti-HER2-terapi
+- Præcisering af, hvorvidt den høje TxGNN-score afspejler et ægte sygdomsspecifikt repurposing-signal eller en ikke-specifik NGF-brystkræft-graf-relation
+- Fuldstændig MOA-dokumentation fra DrugBank (datakløft DG002) for at gennemføre den mekanistiske vurdering
+- Gennemgang af det fulde Oxervate SmPC for sikkerhedsdata, der kan anvendes på potentielle systemiske eller nye-administrationsvej-kontekster (nuværende godkendelse er eksklusivt topisk oftalmologisk)
+- En vurdering af administrationsvej-gennemførbarhed: cenegermin er i øjeblikket udelukkende formuleret som oftalmologiske øjendråber (0,02%-opløsning), og enhver onkologiapplikation ville kræve en fundamentalt anderledes leveringsstrategi
+
+> **Forskningsansvarsfraskrivelse:** Denne rapport er til forskningsreference kun og udgør ikke medicinsk rådgivning. Repurposing-kandidater kræver klinisk validering før nogen terapeutisk anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

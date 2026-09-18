@@ -29,110 +29,111 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nivolumab: From Melanoma to Non-Cutaneous Melanoma
+# Nivolumab: Fra Melanom til Ikke-Kutant Melanom
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-> Nivolumab is an anti-PD-1 immune checkpoint inhibitor whose first approved use was in melanoma treatment.
-> The TxGNN model predicts it may also be effective for **Non-Cutaneous Melanoma** (rare melanoma subtypes such as mucosal, ocular, and metastatic-site presentations),
-> with **50 clinical trials** and **8 publications** currently supporting this direction — though this represents an extension of an already-validated mechanism rather than a true cross-disease repurposing.
+> Nivolumab er en anti-PD-1 immun checkpoint-inhibitor, hvis første godkendte brug var til behandling af melanom.
+> TxGNN-modellen forudsiger, at det kan være effektivt til **Ikke-kutant melanom** (sjældne melanom-undertyper såsom mucøst, okulært og metastatisk præsentation),
+> med **50 kliniske forsøg** og **8 publikationer**, der i øjeblikket understøtter denne retning – selvom dette repræsenterer en udvidelse af en allerede valideret mekanisme snarere end en sand tværsygdomsrepurposering.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no Danish marketing authorisation on file); Nivolumab's known first approved oncology indication is (cutaneous) melanoma |
-| Predicted New Indication | Non-Cutaneous Melanoma |
-| TxGNN Prediction Score | 98.41% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original indikation | Ikke dokumenteret i denne evidenspakke (ingen dansk markedsautorisation på fil); Nivolumarbs kendt første godkendt onkologi-indikation er (kutant) melanom |
+| Forudsagt ny indikation | Ikke-kutant melanom |
+| TxGNN-forudsigelsesscore | 98.41% |
+| Evidensniveau | L1 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsautoriseringer | 0 |
+| Anbefalet beslutning | Fortsæt med sikringsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data is flagged as a data gap in this evidence pack (DG002). However, Nivolumab's pharmacological class is well established in the broader literature and is reflected in the underlying prediction rationale: it is an anti-programmed cell death protein 1 (anti-PD-1) monoclonal antibody, an immune checkpoint inhibitor that blocks PD-1/PD-L1 signalling to restore T-cell-mediated anti-tumour immunity.
+Detaljerede data om virkningsmekanisme er markeret som et datahul i denne evidenspakke (DG002). Nivolumarbs farmakologiske klasse er dog veldokumenteret i det bredere litteratur og afspejles i den underliggende forudsigelsesrationel: det er en anti-programmeret celle-dødprotein 1 (anti-PD-1) monoklonal antistof, en immunologisk checkpoint-inhibitor, der blokerer PD-1/PD-L1-signalering for at genoprette T-celle-medieret anti-tumor-immunitet.
 
-Melanoma — including cutaneous forms — was among Nivolumab's earliest approved oncology indications. "Non-cutaneous melanoma" is not a distinct disease but a grouping of rarer melanoma presentations (e.g. mucosal, ocular/uveal, metastatic-site melanoma) that share the same underlying tumour biology and PD-L1 expression pathways as cutaneous melanoma. Because the checkpoint-blockade mechanism does not depend on the anatomical site of the primary lesion, extending Nivolumab to non-cutaneous subtypes is mechanistically a natural and low-risk extension of an already-validated therapeutic principle, rather than a repurposing into an unrelated disease area.
+Melanom – herunder kutane former – var blandt Nivolumarbs tidligste godkendte onkologi-indikationer. "Ikke-kutant melanom" er ikke en særskilt sygdom, men en gruppering af sjældnere melanom-præsentationer (f.eks. mucøst, okulært/uvealt, metastatisk-sted melanom), der deler samme underliggende tumorbiologi og PD-L1-udtryksveje som kutant melanom. Fordi checkpoint-blokeringsmekanismen ikke afhænger af det anatomiske sted for den primære læsion, er udvidelse af Nivolumab til ikke-kutane undertyper mekanistisk en naturlig og lavrisiko-udvidelse af et allerede valideret terapeutisk princip snarere end en repurposering til et ikke-relateret sygdomsområde.
 
-This is corroborated by the supporting evidence: several trials and cohort studies directly enrol non-cutaneous/rare melanoma subtypes (e.g. mucosal, acral, ocular, mediastinal, anorectal presentations) alongside standard cutaneous melanoma populations, generally showing continued — though sometimes attenuated — clinical activity.
+Dette understøttes af den tilgængelige evidens: flere forsøg og kohort-studier tilmelder direkte ikke-kutane/sjældne melanom-undertyper (f.eks. mucøst, acralt, okulært, mediastinalt, anorektalt præsentation) sammen med standard kutane melanom-populationer, som generelt viser fortsat – selvom sommetider svækket – klinisk aktivitet.
 
 ---
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT03635983](https://clinicaltrials.gov/study/NCT03635983) | Phase 3 | Completed | 783 | NKTR-214 + nivolumab vs. nivolumab alone in previously untreated unresectable/metastatic melanoma; largest completed head-to-head trial in this pack |
-| [NCT04114136](https://clinicaltrials.gov/study/NCT04114136) | Phase 2 | Recruiting | 72 | Anti-PD-1 mAb (pembrolizumab/nivolumab) as standard-of-care arm across melanoma and other solid tumours, testing metabolic modulators to reverse tumour hypoxia |
-| [NCT02990611](https://clinicaltrials.gov/study/NCT02990611) | N/A (non-interventional) | Completed | 1087 | National prospective real-world study of nivolumab monotherapy or with ipilimumab in advanced and adjuvant melanoma settings |
-| [NCT04157985](https://clinicaltrials.gov/study/NCT04157985) | Phase 3 | Completed | 161 | Randomised trial evaluating optimal duration of PD-1/PD-L1 inhibitor therapy in advanced solid tumours including melanoma |
-| [NCT05116202](https://clinicaltrials.gov/study/NCT05116202) | Phase 1b/2 | Completed | 110 | Morpheus-Melanoma umbrella study evaluating multiple nivolumab-based treatment combinations in resectable/metastatic melanoma |
-| [NCT03325257](https://clinicaltrials.gov/study/NCT03325257) | N/A (follow-up cohort) | Completed | 350 | Two-year follow-up of melanoma patients treated with nivolumab during the French early-access (ATU) programme |
-| [NCT03033576](https://clinicaltrials.gov/study/NCT03033576) | Phase 2 | Completed | 94 | Nivolumab ± ipilimumab in advanced melanoma refractory to prior anti-PD-1/PD-L1 therapy |
-| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Phase 2 | Active, not recruiting | 52 | Triplet combinations of nivolumab with BRAF/MEK inhibitors in BRAF-mutated metastatic melanoma |
-| [NCT04146324](https://clinicaltrials.gov/study/NCT04146324) | N/A (observational) | Completed | 150 | Prospective real-world study of adjuvant nivolumab in resected melanoma (Australia), 5-year follow-up |
-| [NCT04165967](https://clinicaltrials.gov/study/NCT04165967) | Phase 1 | Completed | 9 | TIL adoptive transfer combined with nivolumab in advanced melanoma failing prior immunotherapy |
+| [NCT03635983](https://clinicaltrials.gov/study/NCT03635983) | Fase 3 | Afsluttet | 783 | NKTR-214 + nivolumab vs. nivolumab alene hos tidligere ubehandlede uoperable/metastatiske melanom-patienter; største afsluttet head-to-head forsøg i denne pakke |
+| [NCT04114136](https://clinicaltrials.gov/study/NCT04114136) | Fase 2 | Rekrutterer | 72 | Anti-PD-1 mAb (pembrolizumab/nivolumab) som standard-behandlings-arm på tværs af melanom og andre solide tumorer, testning af metabolske modulatorer til at vende tumor-hypoksi |
+| [NCT02990611](https://clinicaltrials.gov/study/NCT02990611) | N/A (ikke-interventionel) | Afsluttet | 1087 | Nationalt prospektivt virkeligheds-studie af nivolumab-monoterapi eller med ipilimumab i avanceret og adjuvant melanom-indstillinger |
+| [NCT04157985](https://clinicaltrials.gov/study/NCT04157985) | Fase 3 | Afsluttet | 161 | Randomiseret forsøg, evaluering af optimal varighed af PD-1/PD-L1-inhibitor-terapi i avancerede solide tumorer inklusive melanom |
+| [NCT05116202](https://clinicaltrials.gov/study/NCT05116202) | Fase 1b/2 | Afsluttet | 110 | Morpheus-Melanoma paraply-studie evaluering multiple nivolumab-baserede behandlings-kombinationer i resektabel/metastatisk melanom |
+| [NCT03325257](https://clinicaltrials.gov/study/NCT03325257) | N/A (opfølgnings-kohort) | Afsluttet | 350 | Toårig opfølgning af melanom-patienter behandlet med nivolumab under det franske tidlig-adgangs (ATU) program |
+| [NCT03033576](https://clinicaltrials.gov/study/NCT03033576) | Fase 2 | Afsluttet | 94 | Nivolumab ± ipilimumab i avanceret melanom refraktær til tidligere anti-PD-1/PD-L1-terapi |
+| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Fase 2 | Aktivt, ikke rekrutterer | 52 | Triplet-kombinationer af nivolumab med BRAF/MEK-inhibitorer i BRAF-muteret metastatisk melanom |
+| [NCT04146324](https://clinicaltrials.gov/study/NCT04146324) | N/A (observationelt) | Afsluttet | 150 | Prospektivt virkeligheds-studie af adjuvant nivolumab i resekteret melanom (Australien), 5-årig opfølgning |
+| [NCT04165967](https://clinicaltrials.gov/study/NCT04165967) | Fase 1 | Afsluttet | 9 | TIL adoptiv transfer kombineret med nivolumab i avanceret melanom, hvor tidligere immunoterapi svigtede |
 
 ---
 
-## Literature Evidence
+## Litteratur-evidens
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [26841210](https://pubmed.ncbi.nlm.nih.gov/26841210/) | 2016 | Cohort | J Eur Acad Dermatol Venereol | Single-institution comparison of cutaneous vs. non-cutaneous melanoma treated with nivolumab |
-| [30510916](https://pubmed.ncbi.nlm.nih.gov/30510916/) | 2018 | Cohort | Frontiers in Oncology | Serum soluble CD163 as a predictive biomarker of nivolumab effectiveness in advanced melanoma |
-| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Cohort | Current Oncology | Retrospective comparison of anti-PD-1 ± ipilimumab outcomes by age group in advanced melanoma |
-| [34176837](https://pubmed.ncbi.nlm.nih.gov/34176837/) | 2022 | Case Report | Internal Medicine (Tokyo) | Mediastinal (non-cutaneous) malignant melanoma with marked shrinkage on nivolumab monotherapy |
-| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Case Report | Cureus | Colonic metastasis from melanoma managed with immunotherapy including nivolumab |
-| [41774417](https://pubmed.ncbi.nlm.nih.gov/41774417/) | 2025 | Case Report | Pigment Cell & Melanoma Research | Epidermotropic metastatic melanoma continuing to form new lesions despite adjuvant nivolumab |
-| [30549256](https://pubmed.ncbi.nlm.nih.gov/30549256/) | 2019 | Case Report | Int J Rheum Dis | Association between rheumatic immune-related adverse events and treatment response to PD-1 inhibitors |
-| [28171845](https://pubmed.ncbi.nlm.nih.gov/28171845/) | 2017 | Case Report | Int J Surg Case Rep | First reported case of metastatic anorectal amelanotic (non-cutaneous) melanoma responding to nivolumab |
+| [26841210](https://pubmed.ncbi.nlm.nih.gov/26841210/) | 2016 | Kohort | J Eur Acad Dermatol Venereol | Enkeltinstitutions sammenligning af kutant vs. ikke-kutant melanom behandlet med nivolumab |
+| [30510916](https://pubmed.ncbi.nlm.nih.gov/30510916/) | 2018 | Kohort | Frontiers in Oncology | Serum opløseligt CD163 som prædiktiv biomarkør for nivolumarb-effektivitet i avanceret melanom |
+| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Kohort | Current Oncology | Retrospektiv sammenligning af anti-PD-1 ± ipilimumab-udfald efter aldersgruppe i avanceret melanom |
+| [34176837](https://pubmed.ncbi.nlm.nih.gov/34176837/) | 2022 | Kasuistik | Internal Medicine (Tokyo) | Mediastinalt (ikke-kutant) malignt melanom med markant formindskelse på nivolumab-monoterapi |
+| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Kasuistik | Cureus | Kolonisk metastase fra melanom håndteret med immunoterapi inklusive nivolumab |
+| [41774417](https://pubmed.ncbi.nlm.nih.gov/41774417/) | 2025 | Kasuistik | Pigment Cell & Melanoma Research | Epidermotrop metastatisk melanom, der fortsatte med at danne nye læsioner trods adjuvant nivolumab |
+| [30549256](https://pubmed.ncbi.nlm.nih.gov/30549256/) | 2019 | Kasuistik | Int J Rheum Dis | Sammenhæng mellem reumatoid immunrelaterede adverse events og behandlingsrespons på PD-1-inhibitorer |
+| [28171845](https://pubmed.ncbi.nlm.nih.gov/28171845/) | 2017 | Kasuistik | Int J Surg Case Rep | Første rapporteret tilfælde af metastatisk anorektalt amelanotisk (ikke-kutant) melanom, der responderede på nivolumab |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Nivolumab currently has no marketing authorisation on file in Denmark (0 authorisations recorded; market status: not marketed). No product name, dosage form, or approved indication text is available from Danish regulatory sources for this evidence pack.
+Nivolumab har i øjeblikket ingen markedsautorisation på fil i Danmark (0 autoriser registreret; markeds-status: ikke markedsført). Intet produktnavn, doseringsform eller godkendt indikations-tekst er tilgængelig fra danske regulatoriske kilder til denne evidenspakke.
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-Nivolumab is an immune checkpoint inhibitor (anti-PD-1 monoclonal antibody) and is classified as antineoplastic based on its established oncology indication and drug class, though it is **not** a conventional cytotoxic agent.
+Nivolumab er en immunologisk checkpoint-inhibitor (anti-PD-1 monoklonal antistof) og klassificeres som antineoplastisk baseret på dets etablerede onkologi-indikation og lægemiddelklasse, selvom det **ikke** er et konventionelt cytotoksisk middel.
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 immune checkpoint inhibitor) |
-| Myelosuppression Risk | Low — mechanism does not directly target bone marrow; classic cytotoxic myelosuppression is not the primary concern |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Immune-related adverse events (irAEs): thyroid function, liver function (LFTs), renal function, pulmonary status (pneumonitis), colitis symptoms, skin reactions, and cardiac monitoring — literature in this pack documents nivolumab-associated myocarditis and rhabdomyolysis cases |
-| Handling Protection | Standard biologic/monoclonal antibody handling precautions apply; conventional cytotoxic drug handling protocols are not required |
+| Cytotoksicitet-klassifikation | Immunoterapi (anti-PD-1 immunologisk checkpoint-inhibitor) |
+| Risiko for myelosuppression | Lav – mekanisme retter sig ikke direkte mod knoglemarven; klassisk cytotoksisk myelosuppression er ikke den primære bekymring |
+| Emesiitet-klassifikation | Lav |
+| Overvågnings-punkter | Immunrelaterede adverse events (irAEs): thyroideafunktion, leverafunktion (LFTs), nyreafunktion, pulmonal status (pneumonitis), colitissymptomer, hudreaktioner og kardial overvågning – litteratur i denne pakke dokumenterer nivolumab-associerede myokarditis og rabdomyolyse tilfælde |
+| Håndterings-beskyttelse | Standard biologisk/monoklonal antistof håndterings-forholdsregler gælder; konventionelle cytotoksiske lægemiddel håndterings-protokoller kræves ikke |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. This evidence pack has no key warnings, contraindications, or drug-drug interaction data on file for Nivolumab (a blocking data gap, DG001, has been logged for missing Danish label information).
+Se venligst godkendt produktinformation (SmPC) for sikkerinformation. Denne evidenspakke har ingen vigtige advarsler, kontraindikationer eller data om lægemiddel-vekselvirkninger på fil for Nivolumab (et blokerende datahul, DG001, er registreret for manglende dansk produktinformation).
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsæt med sikringsforanstaltninger**
 
-**Rationale:**
-The underlying anti-PD-1 mechanism is already clinically validated in melanoma, including a completed Phase 3 head-to-head trial (NCT03635983, n=783) and a large real-world cohort (n=1087), supporting L1-level evidence overall. However, this is an extension within an already-approved disease area rather than a novel repurposing, and formal safety/label data for the Danish market is entirely missing (blocking gap).
+**Begrundelse:**
+Den underliggende anti-PD-1 mekanisme er allerede klinisk valideret i melanom, herunder et afsluttet fase 3 head-to-head forsøg (NCT03635983, n=783) og en stor virkeligheds-kohort (n=1087), der understøtter L1-niveau-evidens samlet set. Dette er imidlertid en udvidelse inden for et allerede-godkendt sygdomsområde snarere end en ny repurposering, og formel sikkerhedsdata og produktinformation til det danske marked mangler helt (blokerende hul).
 
-**To proceed, the following is needed:**
-- Danish/EU Summary of Product Characteristics (SmPC) — resolves blocking data gap DG001
-- Confirmed mechanism-of-action documentation from DrugBank — resolves DG002
-- Subtype-specific efficacy data isolating non-cutaneous melanoma outcomes from mixed-population trials
-- A structured immune-related adverse event monitoring plan given the myocarditis and rhabdomyolysis signals noted in the literature review
+**For at fortsætte kræves følgende:**
+- Dansk/EU produktinformation (SmPC) – løser blokerende datahul DG001
+- Bekræftet virkningsmekanisme-dokumentation fra DrugBank – løser DG002
+- Subtype-specifik effektivitetsdata, der adskiller ikke-kutane melanom-udfald fra forsøg med blandede populationer
+- En struktureret immunrelateret adverse event overvågnings-plan givet myokarditis og rabdomyolyse-signalerne dokumenteret i litteratur-gennemgangen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

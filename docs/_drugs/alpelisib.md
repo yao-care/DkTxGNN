@@ -29,109 +29,110 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alpelisib: From Breast Cancer to Pulmonary Hypertension
+# Alpelisib: Fra brystkræft til pulmonal hypertension
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Alpelisib (Piqray) is a selective PI3Kα inhibitor approved internationally for PIK3CA-mutated, hormone receptor-positive/HER2-negative advanced or metastatic breast cancer, though it holds no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **pulmonary hypertension** with a prediction score of 99.03%; however, existing clinical and preclinical evidence primarily documents **adverse pulmonary and cardiac effects** rather than therapeutic benefit, and no supportive trials for this indication have been identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; known internationally for PIK3CA-mutated HR+/HER2− advanced/metastatic breast cancer |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Alpelisib (Piqray) er en selektiv PI3Kα-inhibitor godkendt internationalt til PIK3CA-muterede, hormonreceptor-positive/HER2-negative avanceret eller metastatisk brystkræft, selvom det ikke har markeringsgodkendelse i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **pulmonal hypertension** med en forudsigelsesscore på 99,03%; eksisterende kliniske og præ-kliniske beviser dokumenterer dog primært **negative pulmonal- og kardiale bivirkninger** snarere end terapeutisk nytte, og ingen understøttende forsøg for denne indikation er blevet identificeret.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Alpelisib is a selective PI3Kα (phosphoinositide 3-kinase alpha) inhibitor that targets the PI3K/Akt/mTOR signalling cascade. Its efficacy in PIK3CA-mutated HR+/HER2− breast cancer has been established clinically, and it acts by blocking aberrant PI3Kα-driven cellular proliferation and survival.
-
-The theoretical basis for the pulmonary hypertension (PAH) prediction rests on the established role of the PI3K/Akt/mTOR pathway in vascular smooth muscle cell (VSMC) proliferation and endothelial dysfunction — two key drivers of pulmonary arterial remodelling in PAH. In principle, selective PI3Kα inhibition could attenuate the pathological narrowing of pulmonary vasculature.
-
-However, the available evidence presents a critical concern that directly undermines this hypothesis: rather than therapeutic benefit, existing data document **adverse effects in the cardiopulmonary system**. A clinical case report records Alpelisib-induced interstitial lung disease (PMID 35730191), and a preclinical mechanistic study shows that PI3Kα pathway inhibition in combination with doxorubicin produces biventricular atrophy and right ventricular dysfunction (PMID 31039672). These findings strongly suggest that PI3Kα inhibition may be **harmful** in patients with pre-existing pulmonary vascular disease, and the repurposing hypothesis has not been validated in any clinical setting.
-
----
-
-## Clinical Trial Evidence
-
-> **Note:** The one clinical trial retrieved for this indication — [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) — was assessed as **not relevant** (Relevance Grade C). It is a real-world retrospective cohort study of **ribociclib** (not alpelisib) in HR+/HER2− breast cancer patients and has no connection to pulmonary hypertension. Its inclusion represents a search result mismatch and it should not be counted as supporting evidence for this indication.
-
-**Currently no relevant clinical trials for alpelisib in pulmonary hypertension have been identified.**
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Ikke registreret i Danmark; kendt internationalt til PIK3CA-muterede HR+/HER2− avanceret/metastatisk brystkræft |
+| Forudsagt ny indikation | Pulmonal hypertension |
+| TxGNN forudsigelsesscore | 99,03% |
+| Bevisgrad | L4 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case Report | J Oncol Pharm Pract | Alpelisib-induced interstitial lung disease in an advanced breast cancer patient — documents pulmonary **toxicity**, not therapeutic benefit in PAH |
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Pre-clinical / Mechanistic Study | J Am Heart Assoc | PI3Kα pathway inhibition combined with doxorubicin causes biventricular atrophy and right ventricular dysfunction — suggests PI3Kα inhibition may be **cardiotoxic**, particularly relevant to right heart function in PAH |
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne bevisoversigt. Baseret på kendt information er alpelisib en selektiv PI3Kα (fosfoinositid 3-kinase alfa)-inhibitor, der målretter PI3K/Akt/mTOR-signalerings-kaskaden. Dens effektivitet ved PIK3CA-muterede HR+/HER2− brystkræft er blevet etableret klinisk, og det virker ved at blokere unormal PI3Kα-drevet cellulær proliferation og overlevelse.
 
-> **Critical interpretation:** Both publications document adverse or potentially harmful signals for the cardiopulmonary system. Neither supports alpelisib as a treatment for pulmonary hypertension. The retrieved evidence argues **against** rather than in favour of this repurposing hypothesis.
+Det teoretiske grundlag for forudsigelsen af pulmonal hypertension (PAH) hviler på den etablerede rolle af PI3K/Akt/mTOR-stien i glat muskelcelle-proliferation i lungearterier (VSMC) og endotelial dysfunktion — to vigtige drivkræfter for patologisk remodellering af lungearterier ved PAH. I princippet kunne selektiv PI3Kα-hæmning reducere den patologiske forsnævring af lungekarsystemet.
 
----
-
-## Denmark Market Information
-
-Alpelisib is currently **not marketed in Denmark**. The Laegemiddelstyrelsen records no active national or centralised marketing authorisations for this product.
-
-For contextual reference, Alpelisib (Piqray, Novartis) holds regulatory approval from the EMA and FDA for PIK3CA-mutated HR+/HER2− advanced or metastatic breast cancer in combination with fulvestrant. Any future repurposing use in Denmark would require either a new marketing authorisation, compassionate use, or named-patient access via the Laegemiddelstyrelsen.
+Imidlertid præsenterer de tilgængelige beviser en kritisk bekymring, der direkte underminerer denne hypotese: i stedet for terapeutisk nytte dokumenterer eksisterende data **negative virkninger på kardiopulmonal-systemet**. En klinisk kasuistik rapporterer alpelisib-induceret interstitiel pneumonitis (PMID 35730191), og en præ-klinisk mekanistisk undersøgelse viser, at PI3Kα-vej-hæmning i kombination med doxorubicin producerer biventrikular atrofi og højre ventrikel-dysfunktion (PMID 31039672). Disse fund tyder kraftigt på, at PI3Kα-hæmning kan være **skadelig** hos patienter med allerede eksisterende pulmonal vaskulær sygdom, og repurposering-hypotesen er ikke blevet valideret i nogen klinisk sammenhæng.
 
 ---
 
-## Cytotoxicity
+## Kliniske forsøgsbeviser
 
-Alpelisib meets the criteria for inclusion of this section: it is a targeted antineoplastic agent (PI3Kα inhibitor) approved for oncological use in breast cancer.
+> **Bemærk:** Det ene kliniske forsøg, der blev fundet for denne indikation — [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) — blev vurderet som **ikke relevant** (relevantklasse C). Det er en retrospektiv kohorte-undersøgelse i virkeligheden af **ribociclib** (ikke alpelisib) hos HR+/HER2− brystkræft-patienter og har ingen forbindelse til pulmonal hypertension. Dens inkludering repræsenterer en søgeresultat-mismatch, og den bør ikke tælles som understøttende beviser for denne indikation.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective PI3Kα (PIK3CA) inhibitor |
-| Myelosuppression Risk | Low for conventional myelosuppression; haematological monitoring still recommended |
-| Emetogenicity Classification | Low to moderate (oral targeted agent) |
-| Monitoring Items | **Blood glucose** (hyperglycaemia is a prominent class effect of PI3K inhibitors; fasting plasma glucose should be monitored before initiation and throughout treatment), liver function tests, renal function, CBC with differential, pulmonary symptoms |
-| Handling Protection | Standard oral cytotoxic handling precautions apply; follow institutional and national cytotoxic drug handling guidelines |
+**I øjeblikket er der ikke identificeret relevante kliniske forsøg med alpelisib til pulmonal hypertension.**
 
 ---
 
-## Safety Considerations
+## Litteraturbeviser
 
-Full Danish SmPC warnings and contraindications data are not available in this Evidence Pack. Please refer to the approved EMA Summary of Product Characteristics (SmPC) for Piqray for comprehensive safety information.
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
+|------|-----|------|-----------|----------------|
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Kasuistik | J Oncol Pharm Pract | Alpelisib-induceret interstitiel pneumonitis hos patient med avanceret brystkræft — dokumenterer pulmonal **toksicitet**, ikke terapeutisk nytte ved PAH |
+| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Præ-klinisk / Mekanistisk undersøgelse | J Am Heart Assoc | PI3Kα-vej-hæmning kombineret med doxorubicin forårsager biventrikular atrofi og højre ventrikel-dysfunktion — tyder på, at PI3Kα-hæmning kan være **kardiotoksisk**, især relevant for højre hjertets funktion ved PAH |
 
-**Clinically relevant signals identified in this evidence review:**
-
-- **Pulmonary toxicity:** A case report documents Alpelisib-induced interstitial lung disease (PMID 35730191). This is directly relevant to the predicted indication and represents a significant safety concern for use in patients with pulmonary disease.
-- **Cardiac toxicity:** Preclinical data (PMID 31039672) indicate that PI3Kα inhibition may cause biventricular atrophy and right ventricular dysfunction — this is particularly concerning in patients with pulmonary hypertension, who already carry right ventricular strain.
-- **Hyperglycaemia:** PI3Kα inhibition disrupts insulin signalling; hyperglycaemia and diabetes mellitus are well-recognised class effects requiring proactive glucose management.
+> **Kritisk fortolkning:** Begge publikationer dokumenterer negative eller potentielt skadelige signaler for kardiopulmonal-systemet. Ingen understøtter alpelisib som behandling for pulmonal hypertension. De hentede beviser argumenterer **mod** snarere end for denne repurposering-hypotese.
 
 ---
 
-## Conclusion and Next Steps
+## Danmark markedsinformation
 
-**Decision: Hold**
+Alpelisib er i øjeblikket **ikke markedsført i Danmark**. Lægemiddelstyrelsen registrerer ingen aktive nationale eller centraliserede markeringsgodkendelser for dette produkt.
 
-**Rationale:**
-No direct clinical evidence supports alpelisib as a therapeutic option for pulmonary hypertension. Critically, the only retrieved evidence documents cardiopulmonary **harm** — including Alpelisib-induced interstitial lung disease and preclinical right ventricular dysfunction following PI3Kα inhibition — which directly contradicts the repurposing hypothesis and raises a patient safety concern in a population with pre-existing cardiopulmonary compromise.
+For kontekstuel reference har alpelisib (Piqray, Novartis) lovmæssig godkendelse fra EMA og FDA til PIK3CA-muterede HR+/HER2− avanceret eller metastatisk brystkræft i kombination med fulvestrant. Enhver fremtidig repurposering-brug i Danmark ville kræve enten en ny markeringsgodkendelse, humanitær brug eller navngivet patient-adgang via Lægemiddelstyrelsen.
 
-**To proceed, the following is needed:**
+---
 
-- Retrieval and review of the complete EMA SmPC (Piqray) for full safety, contraindication, and warning data, including updated pulmonary and cardiac safety data from post-marketing surveillance
-- Detailed mechanism of action profile from DrugBank (DB12015) to complete the mechanistic assessment
-- Dedicated preclinical studies evaluating alpelisib in validated animal models of pulmonary arterial hypertension (e.g., monocrotaline or SU5416/hypoxia rat models)
-- Resolution of the adverse signal: systematic review of alpelisib-associated pneumonitis and cardiotoxicity incidence to determine whether a therapeutic window exists
-- Drug-drug interaction assessment with established PAH therapies (endothelin receptor antagonists, PDE5 inhibitors, prostacyclin analogues, soluble guanylate cyclase stimulators)
-- Clarification of whether Alpelisib's oral availability and systemic PI3Kα inhibition at clinically achievable concentrations could even reach the pulmonary vasculature at levels relevant to PAH pathophysiology
+## Cytotoksicitet
 
-> *This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.*
+Alpelisib opfylder kriterierne for inkludering af denne sektion: det er en målrettet antineoplastisk middel (PI3Kα-inhibitor) godkendt til onkologisk brug ved brystkræft.
+
+| Punkt | Indhold |
+|-------|---------|
+| Klassifikation af cytotoksicitet | Målrettet terapi — selektiv PI3Kα (PIK3CA)-inhibitor |
+| Risiko for myelosuppression | Lav for konventionel myelosuppression; hæmatologisk monitorering anbefales alligevel |
+| Emetogenicitetsklassifikation | Lav til moderat (oral målrettet middel) |
+| Monitoreringspunkter | **Blodglukose** (hyperglykæmi er en fremtrædende klassepåvirkning af PI3K-inhibitorer; fastende plasmaglukose bør overvåges før initiering og under hele behandlingen), leverfunktionsprøver, nyrefunktion, CBC med differentialtal, pulmonal-symptomer |
+| Håndteringsbeskyttelse | Standard oral cytotoksisk håndteringsforsigtighedsregler gælder; følg institutionelle og nationale cytostatika-håndtelings-retningslinjer |
+
+---
+
+## Sikkerhedsovervejelser
+
+Fulde danske SmPC-advarsler og kontraindikations-data er ikke tilgængelige i denne bevisoversigt. Se venligst den godkendte EMA-vejledning for produktkarakteristika (SmPC) for Piqray for omfattende sikkerhedsinformation.
+
+**Klinisk relevante signaler identificeret i denne bevisgennemgang:**
+
+- **Pulmonal toksicitet:** En kasuistik dokumenterer alpelisib-induceret interstitiel pneumonitis (PMID 35730191). Dette er direkte relevant for den forudsagte indikation og repræsenterer en betydelig sikkerhedsbetænkelighed for brug hos patienter med pulmonal sygdom.
+- **Kardial toksicitet:** Præ-kliniske data (PMID 31039672) indikerer, at PI3Kα-hæmning kan forårsage biventrikular atrofi og højre ventrikel-dysfunktion — dette er særligt bekymrende hos patienter med pulmonal hypertension, som allerede har højre ventrikel-belastning.
+- **Hyperglykæmi:** PI3Kα-hæmning forstyrrer insulin-signalering; hyperglykæmi og diabetes mellitus er velkendt klassepåvirkninger, der kræver proaktiv glukose-styring.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Ingen direkte kliniske beviser understøtter alpelisib som terapeutisk mulighed for pulmonal hypertension. Kritisk dokumenterer de eneste hentede beviser kardiopulmonal **skade** — herunder alpelisib-induceret interstitiel pneumonitis og præ-klinisk højre ventrikel-dysfunktion efter PI3Kα-hæmning — som direkte modstrider repurposering-hypotesen og rejser en patientsikkerhedsbetænkelighed hos en befolkning med allerede eksisterende kardiopulmonal-kompromittering.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- Hentelse og gennemgang af den komplette EMA SmPC (Piqray) for fulde sikkerhed-, kontraindikations- og advarings-data, herunder opdaterede pulmonal- og kardiale sikkerhedsdata fra post-markedsføring-overvågning
+- Detaljeret virkningsmekanisme-profil fra DrugBank (DB12015) for at fuldende den mekanistiske vurdering
+- Dedikerede præ-kliniske undersøgelser, der evaluerer alpelisib i validerede dyremodelmodeller af pulmonal arterie hypertension (f.eks. monocrotalin eller SU5416/hypoxia-rottemodeller)
+- Løsning af det negative signal: systematisk gennemgang af alpelisib-associeret pneumonitis og kardiotoksicitet-incidens for at afgøre, om et terapeutisk vindue eksisterer
+- Medicin-medicin-interaktions-vurdering med etableret PAH-terapi (endotelin-receptor-antagonister, PDE5-inhibitorer, prostacyclin-analoger, opløseligt guanylat-cyclase-stimulatorer)
+- Præcisering af, om alpelisib's orale biotilgængelighed og systemisk PI3Kα-hæmning ved klinisk opnåelige koncentrationer kunne endog nå lungekarsystemet på niveauer relevant for PAH-patofysiologi
+
+> *Denne rapport er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Medicin-repurposering-kandidater kræver klinisk validering før enhver terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

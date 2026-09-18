@@ -29,91 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brigatinib: From ALK-Positive Non-Small-Cell Lung Cancer to Fibromatosis, Gingival
+# Brigatinib: Fra ALK-positiv ikke-småcelle lungekræft til Gingival fibromatos
 
-## One-Sentence Summary
+## Sammenfattelse på én sætning
 
-Brigatinib (ALUNBRIG) is a second-generation anaplastic lymphoma kinase (ALK) inhibitor with a well-established evidence base for the treatment of ALK-positive metastatic non-small-cell lung cancer (NSCLC), having received FDA accelerated approval in April 2017.
-The TxGNN model assigns **Fibromatosis, Gingival** as the top predicted new indication with a score of **99.89%**; however, this prediction is currently supported by **no clinical trials and no published literature**, and the mechanistic rationale is not established.
-This finding is most likely a knowledge graph proximity artefact rather than a genuine repurposing opportunity, and the overall recommendation is **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | ALK-positive metastatic NSCLC (established from published evidence; not registered in Denmark) |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Brigatinib (ALUNBRIG) er en anden-generations anaplastisk lymfom-kinase (ALK) hæmmer med et veletableret evidensgrundlag for behandling af ALK-positive metastatisk ikke-småcelle lungekræft (NSCLC), som modtog FDA-accelereret godkendelse i april 2017.
+TxGNN-modellen udpeger **Gingival fibromatos** som den toprangerede nye indikation med en score på **99.89%**; imidlertid er denne forudsigelse for øjeblikket understøttet af **ingen kliniske forsøg og ingen publiceret litteratur**, og den mekanistiske begrundelse er ikke etableret.
+Dette resultat skyldes højst sandsynligt en videngraf-nærhedserartefakt snarere end en autentisk repurposing-mulighed, og den overordnede anbefaling er **Afvent**.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Kort overblik
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on published literature identified during evidence retrieval, Brigatinib is a potent next-generation inhibitor of ALK, EGFR, ROS1, and RET fusion kinases. Its efficacy in ALK-rearranged NSCLC has been demonstrated across multiple Phase 3 clinical trials (the ALTA-1L programme), consistently showing superior progression-free survival over first-generation ALK inhibitor crizotinib (PFS HR ≈ 0.49 at final analysis).
-
-Gingival fibromatosis (fibromatosis, gingival) is a condition characterised by progressive overgrowth of gingival connective tissue, driven by hereditary factors (SOS1/KRAS pathway mutations) or drug-induced mechanisms (calcineurin pathway dysregulation, TGF-β signalling — particularly associated with calcium channel blockers or phenytoin). There is no established molecular intersection between these fibrotic pathways and Brigatinib's primary targets. Brigatinib has no known TGF-β inhibitory, calcineurin inhibitory, or SOS1/KRAS modulatory activity.
-
-The high TxGNN score (99.89%) most likely reflects spurious proximity within the knowledge graph via shared "fibrous tissue" node associations, rather than any genuine biological relationship. There are no clinical trials, observational studies, preclinical models, or published case reports supporting Brigatinib use in gingival fibromatosis.
-
-> **⚠️ Evidence Pipeline Quality Alert**: During evidence retrieval, 20 publications were retrieved under the adjacent TxGNN prediction "lung benign neoplasm" (ranks 9–10). Analysis confirms that all 20 papers relate exclusively to ALK-positive *malignant* NSCLC — including the full ALTA-1L Phase 3 RCT series (PMID 34537440, 30280657, 32780660) — not to benign lung tumours. This represents a disease classification mapping error in the evidence pipeline. When correctly attributed, these papers collectively establish **L1-level direct Phase 3 RCT evidence** for Brigatinib in ALK+ NSCLC. This hidden finding does not change the gingival fibromatosis assessment, but the pipeline mapping error should be corrected before further evidence synthesis is conducted.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | ALK-positive metastatisk NSCLC (etableret fra publiceret evidens; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Gingival fibromatos |
+| TxGNN-forudsigelsesscore | 99.89% |
+| Evidensniveau | L5 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+For øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i denne evidenspakke. Baseret på publiceret litteratur identificeret under evidenshentning er Brigatinib en potent anden-generations hæmmer af ALK, EGFR, ROS1 og RET-fusions-kinaser. Dens virkning ved ALK-rearranjeret NSCLC er blevet demonstreret i flere fase 3-kliniske forsøg (ALTA-1L-programmet), som konsekvent viser overlegen progressionsfri overlevelse sammenlignet med første-generations ALK-hæmmeren crizotinib (PFS HR ≈ 0,49 ved endelig analyse).
 
----
+Gingival fibromatos er en tilstand karakteriseret ved progressiv overvækst af gingival bindevæv, drevet af arvelige faktorer (SOS1/KRAS-vejs-mutationer) eller medicin-inducerede mekanismer (dysregulation af calcineurin-vej, TGF-β signalering — særligt forbundet med calciumkanal-blokere eller phenytoin). Der er ingen etableret molekylær skæringspunkt mellem disse fibrotiske veje og Brigatinibs primære målproteiner. Brigatinib har ingen kendt TGF-β-hemmende, calcineurin-hemmende eller SOS1/KRAS-modulerende aktivitet.
 
-## Denmark Market Information
+Den høje TxGNN-score (99.89%) afspejler højst sandsynligt falsk nærhed inden for vidensgrafen via delte "fibøst væv"-node-associationer snarere end noget autentisk biologisk forhold. Der er ingen kliniske forsøg, observationsstudier, præklin modeller eller publicerede kasuistikker, der understøtter Brigatinib-brug til gingival fibromatos.
 
-Brigatinib currently holds **no marketing authorisations** in Denmark and is not marketed. Laegemiddelstyrelsen has issued no national approvals, and no centralised EMA authorisations are reflected in the current dataset for this product. Healthcare professionals in Denmark requiring access to Brigatinib should consult the EMA's current centralised procedure register and consider named-patient or compassionate use pathways if clinically justified for a patient with ALK-positive NSCLC.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation ALK/EGFR/ROS1/RET tyrosine kinase inhibitor (small molecule) |
-| Myelosuppression Risk | Low to moderate (lymphopenia and anaemia reported in Phase 3 trials; severe haematological toxicity uncommon compared to conventional cytotoxics) |
-| Emetogenicity Classification | Low (oral administration; nausea Grade 1–2 reported in approximately 33% of patients in ALTA-1L, rarely requiring dose modification) |
-| Monitoring Items | Complete blood count (CBC with differential), liver function (ALT/AST/bilirubin), renal function (creatinine), pulmonary monitoring during the first 7 days of treatment (early-onset pulmonary events, EOPE, are a class-specific concern for Brigatinib), blood pressure, fasting blood glucose |
-| Handling Protection | Oral tablet formulation; standard institutional handling precautions for oral antineoplastic agents apply — healthcare staff should follow local cytotoxic handling policy, including glove use when handling broken or split tablets |
+> **⚠️ Kvalitetsalert for evidenspipeline**: Under evidenshentning blev 20 publikationer hentet under den tilstødende TxGNN-forudsigelse "godartede lungesvulster" (rækkefølge 9–10). Analyse bekræfter, at alle 20 artikler udelukkende vedrører ALK-positive *ondartede* NSCLC — herunder den fulde ALTA-1L fase 3 RCT-serie (PMID 34537440, 30280657, 32780660) — ikke godartede lungesvulster. Dette repræsenterer en fejl i sygdomsklassificeringsmapping i evidenspipelinen. Når de er korrekt henført, etablerer disse artikler samlet **L1-niveau direkte fase 3 RCT-evidens** for Brigatinib ved ALK+ NSCLC. Dette skjulte resultat ændrer ikke på vurderingen af gingival fibromatos, men pipelinemappingfejlen bør korrigeres, før yderligere evidenssyntese udføres.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidence
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+For øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+For øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The TxGNN prediction for gingival fibromatosis represents L5-level evidence only — a computational model signal with no mechanistic support, no clinical trials, and no published literature. The high prediction score almost certainly reflects a knowledge graph structural artefact (spurious fibrous tissue node proximity), not a biologically plausible repurposing hypothesis.
+---
 
-**To proceed, the following would be needed:**
-- Identification of a credible mechanistic link between ALK/EGFR/ROS1 inhibition and the primary pathogenic pathways of gingival fibromatosis (SOS1/KRAS, calcineurin, TGF-β signalling)
-- At least one published preclinical study (in vitro or in vivo) demonstrating relevant activity in a gingival fibromatosis model
-- Retrieval of complete Brigatinib MOA data from DrugBank (DB12267) to enable systematic mechanistic analysis
-- Correction of the disease classification mapping error in the TxGNN evidence pipeline to prevent benign/malignant disease category conflation, which obscured genuine L1 ALK+ NSCLC evidence in this run
-- Consultation with Laegemiddelstyrelsen regarding Brigatinib's current regulatory status in Denmark and available access pathways for patients with ALK-positive NSCLC who may benefit from this drug
+## Oplysninger om dansk marked
+
+Brigatinib har for øjeblikket **ingen markedsgodkendelser** i Danmark og er ikke markedsført. Lægemiddelstyrelsen har ikke udstedt nationale godkendelser, og ingen centraliserede EMA-godkendelser afspejles i det aktuelle datasæt for dette produkt. Sundhedspersonale i Danmark, der kræver adgang til Brigatinib, bør konsultere EMA's aktuelle centraliserede procedurerregister og overveje navngivet-patient- eller medlidenheds-brugsveje, hvis det er klinisk begrundet for en patient med ALK-positive NSCLC.
+
+---
+
+## Cytotoksicitet
+
+| Emne | Indhold |
+|------|---------|
+| Cytotoksicitetsklassifikation | Målrettet terapi — anden-generations ALK/EGFR/ROS1/RET tyrosinkinase-hæmmer (lille molekyle) |
+| Risiko for knoglemarkshæmning | Lav til moderat (lymfopeni og anæmi rapporteret i fase 3-forsøg; alvorlig hæmatologisk toksicitet sjælden sammenlignet med konventionelle cytotoksika) |
+| Emetogenicitetsklassifikation | Lav (oral administration; kvalme grad 1–2 rapporteret i cirka 33% af patienterne i ALTA-1L, sjældent kræver dosisændring) |
+| Overvågningspunkter | Fuldstændigt blodtal (CBC med differentiering), leverfunktion (ALT/AST/bilirubin), nyrenfunktion (kreatinin), lungefunktionsovervågning i løbet af de første 7 dage af behandling (tidlig-indsætnings lungehændelser, EOPE, er en klassebetinget bekymring for Brigatinib), blodtryk, fastende blodglukose |
+| Håndteringsbeskyttelse | Oral tabletformulering; standard institutionelle håndteringsforsigtighedsregler for orale antineoplastiske stoffer gælder — sundhedspersonale bør følge lokal cytotoksisk håndteringspolitik, herunder brug af handsker ved håndtering af knuste eller splittede tabletter |
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktinformationsdokument (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+TxGNN-forudsigelsen for gingival fibromatos repræsenterer L5-niveau evidens alene — et computationelt modelsignal uden mekanistisk understøttelse, uden kliniske forsøg og uden publiceret litteratur. Den høje forudsigelsesscore afspejler næsten helt sikkert en videngraf-strukturel artefakt (falsk fibøst væv-node-nærhed), ikke en biologisk plausibel repurposing-hypotese.
+
+**For at procidere ville følgende være nødvendigt:**
+- Identifikation af et troværdigt mekanistisk link mellem ALK/EGFR/ROS1-hæmning og de primære patogene veje for gingival fibromatos (SOS1/KRAS, calcineurin, TGF-β signalering)
+- Mindst ét publiceret præklin studie (in vitro eller in vivo), der demonstrerer relevant aktivitet i en gingival fibromatos-model
+- Hentning af komplette Brigatinib-virkningsmekanisme-data fra DrugBank (DB12267) for at muliggøre systematisk mekanistisk analyse
+- Korrektion af sygdomsklassificeringsmappingfejlen i TxGNN-evidenspipelinen for at forhindre benign/ondartede sygdomskategori-konflation, som skjulte autentisk L1 ALK+ NSCLC-evidens i denne køring
+- Konsultation med Lægemiddelstyrelsen angående Brigatinibs nuværende regulatoriske status i Danmark og tilgængelige adgangsformåder for patienter med ALK-positive NSCLC, som kan drage fordel af dette lægemiddel
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

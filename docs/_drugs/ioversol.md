@@ -29,102 +29,103 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ioversol: From Diagnostic Contrast Imaging to Osteoarthritis
+# Ioversol: Fra diagnostisk kontrastfremstilling til osteoarthritis
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Ioversol is a non-ionic, low-osmolar iodinated contrast agent routinely used for diagnostic imaging procedures such as coronary angiography, CT enhancement, and urography.
-The TxGNN model predicts it may be relevant for **Osteoarthritis** — specifically through the genicular artery embolisation (GAE) procedure — with **4 clinical trials** and **1 publication** providing contextual support.
-However, a critical caveat applies: all identified evidence uses **Lipiodol** (ethiodized oil), a structurally distinct oil-based iodinated agent, and cannot be directly extrapolated to Ioversol.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Diagnostic contrast imaging (no formal regulatory approval data available in this dataset) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ioversol er et ikke-ionisk, lavtosmoler joderet kontrastmiddel, der rutinemæssigt bruges til diagnostiske billeddannelsesprocedurer såsom koronarangiografi, CT-forbedring og urografi.
+TxGNN-modellen forudsiger, at det kan være relevant for **Osteoarthritis** — specifikt gennem genicular-arterieembolisering (GAE) — med **4 kliniske forsøg** og **1 publikation**, der giver kontekstuel støtte.
+Dog gælder en vigtig advarsel: al identificeret evidens bruger **Lipiodol** (ethiodiseret olie), et strukturelt forskelligt olie-baseret joderet middel, og kan ikke direkte ekstrapoleres til Ioversol.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available for Ioversol in this dataset. Based on established pharmacological knowledge, Ioversol is a non-ionic, low-osmolar iodinated contrast medium of the triiodobenzoic acid family (brand name: Optiray®). It provides X-ray attenuation through its iodine content, distributes rapidly in the extracellular space following intravenous administration, and is excreted renally without significant metabolism. Its primary role is diagnostic, not therapeutic.
-
-The TxGNN model links Ioversol to osteoarthritis through the emerging interventional technique of **Genicular Artery Embolisation (GAE)**. In GAE, an embolic agent is delivered into the genicular arteries to reduce synovial hypervascularity — a recognised driver of pain and inflammation in knee osteoarthritis. Iodinated contrast agents are routinely used to guide these endovascular procedures via arteriography, which may explain the topological proximity between Ioversol and osteoarthritis disease nodes in the TxGNN knowledge graph.
-
-A critical mechanistic distinction must, however, be made. Clinical trials in this space uniformly employ **Lipiodol** (ethiodized oil), an oil-based iodinated agent whose viscous, non-water-soluble properties allow *durable* vascular occlusion. Ioversol is water-soluble and clears from the vasculature within minutes of administration, rendering it unsuitable as an embolic agent. Although both agents contain iodine, their physicochemical profiles and clinical roles are fundamentally different. The mechanistic analogy is therefore indirect at best, and the TxGNN prediction most likely reflects knowledge graph neighbour-diffusion rather than a true therapeutic relationship.
-
-> **Note on secondary predictions:** The top-ranked TxGNN prediction is "osteoarthritis susceptibility" (score 99.67%), which represents a *genetic risk phenotype*, not a treatment target. No contrast agent has a known mechanism for modifying genetic susceptibility to osteoarthritis. This prediction is assessed as L5 (model prediction only) and is not actionable clinically.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Diagnostisk kontrastfremstilling (ingen formelle regulatoriske godkendelsesdata tilgængelige i dette datasæt) |
+| Forudsagt ny indikation | Osteoarthritis |
+| TxGNN-forudsigelsesscore | 99.63% |
+| Evidensniveau | L4 |
+| Danmark-markedsstatus | Ikke markedsført |
+| Antal markedsføringsautoriseringer | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-> ⚠️ **All trials below use Lipiodol® (ethiodized oil) as the embolic agent — not Ioversol.** These are included as indirect contextual evidence for the GAE approach in osteoarthritis; they do not constitute direct evidence for Ioversol repurposing.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige for Ioversol i dette datasæt. Baseret på etableret farmakologisk viden er Ioversol et ikke-ionisk, lavtosmoler joderet kontrastmiddel af triiodobenzosyre-gruppen (mærkenavn: Optiray®). Det yder røntgenattenuering gennem dets jodindhold, distribueres hurtigt i det ekstracellulære rum efter intravenøs administration og udskilles renalt uden betydelig metabolisme. Dets primære rolle er diagnostisk, ikke terapeutisk.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+TxGNN-modellen forbinder Ioversol til osteoarthritis gennem den nye interventionelle teknik **Genicular Artery Embolisation (GAE)**. I GAE leveres et embolisk middel til de geniculære arterier for at reducere synovial hypervaskulærisering — en anerkendt drivkraft for smerte og betændelse i knæ osteoarthritis. Jodererede kontrastmidler bruges rutinemæssigt til at guide disse endovaskulære procedurer via arteriografi, hvilket kan forklare den topologiske nærhed mellem Ioversol og osteoarthritis-sygdomsknudepunkter i TxGNN-vidensgrafen.
+
+Der skal dog gøres en kritisk mekanistisk skelnen. Kliniske forsøg på dette område bruger ensartet **Lipiodol** (ethiodiseret olie), et olie-baseret joderet middel, hvis viskøse, ikke-vandopløselige egenskaber tillader *vedvarende* vaskulær okklusion. Ioversol er vandopløseligt og forsvinder fra det vaskulære system inden for minutter efter administration, hvilket gør det uegnet som et embolisk middel. Selvom begge midler indeholder jod, er deres fysikokemiske profiler og kliniske roller fundamentalt forskellige. Den mekanistiske analogi er derfor indirekte i bedste fald, og TxGNN-forudsigelsen afspejler mest sandsynligt vidensgrafs nabo-diffusion snarere end et sandt terapeutisk forhold.
+
+> **Bemærkning om sekundære forudsigelser:** Den højest rangerede TxGNN-forudsigelse er "osteoarthritis-modtagelighed" (score 99.67%), som repræsenterer en *genetisk risikofenotypepe*, ikke et behandlingsmål. Intet kontrastmiddel har en kendt mekanisme til at ændre genetisk modtagelighed for osteoarthritis. Denne forudsigelse vurderes som L5 (kun modelforudsigelse) og er ikke klinisk handlingsbar.
+
+---
+
+## Klinisk forsøgsevidence
+
+> ⚠️ **Alle forsøg nedenfor bruger Lipiodol® (ethiodiseret olie) som det emboliske middel — ikke Ioversol.** Disse er inkluderet som indirekte kontekstuel evidens for GAE-tilgangen i osteoarthritis; de udgør ikke direkte evidens for Ioversol-genanvendelse.
+
+| Forsøgsnummer | Fase | Status | Rekruttering | Vigtigste fund |
 |---------|------|------|------|---------|
-| [NCT06497140](https://clinicaltrials.gov/study/NCT06497140) | Phase 3 | Recruiting | 130 | Randomised, sham-controlled, multicentre trial evaluating GAE with ethiodized oil emulsion for symptomatic knee OA; the highest-quality ongoing trial in this area (estimated completion 2028) |
-| [NCT04733092](https://clinicaltrials.gov/study/NCT04733092) | Phase 1 | Completed | 22 | Prospective study of Lipiodol emulsion embolisation of inflammatory hypervascularisation in knee OA; established initial safety data for the GAE approach |
-| [NCT06611007](https://clinicaltrials.gov/study/NCT06611007) | Phase 1/2 | Recruiting | 15 | Pilot study evaluating safety and efficacy of Lipiodol® arterial embolisation in symptomatic hand (digital) OA refractory to conventional treatment |
-| [NCT06859164](https://clinicaltrials.gov/study/NCT06859164) | Phase 2 | Recruiting | 50 | NIH-NIAMS funded pilot randomised sham-controlled study (SHAM-PAIN) assessing GAE for knee OA pain reduction at 3 months using KOOS pain subscore |
+| [NCT06497140](https://clinicaltrials.gov/study/NCT06497140) | Fase 3 | Rekrutterer | 130 | Randomiseret, sham-kontrolleret, multicenter-forsøg, der evaluerer GAE med ethiodiseret olie-emulsion til symptomatisk knæ OA; det højeste kvalitets igangværende forsøg på dette område (estimeret afslutning 2028) |
+| [NCT04733092](https://clinicaltrials.gov/study/NCT04733092) | Fase 1 | Afsluttet | 22 | Prospektivt studie af Lipiodol-emulsion-embolisering af inflammatorisk hypervaskulærisering i knæ OA; etablerede indledende sikkerhedsdata for GAE-tilgangen |
+| [NCT06611007](https://clinicaltrials.gov/study/NCT06611007) | Fase 1/2 | Rekrutterer | 15 | Pilotforsøg, der evaluerer sikkerhed og effektivitet af Lipiodol®-arteriel embolisering i symptomatisk hånd (digital) OA, der ikke reagerer på konventionel behandling |
+| [NCT06859164](https://clinicaltrials.gov/study/NCT06859164) | Fase 2 | Rekrutterer | 50 | NIH-NIAMS-finansieret pilot-randomiseret sham-kontrolleret studie (SHAM-PAIN), der vurderer GAE til reduktion af knæ OA-smerte ved 3 måneder ved hjælp af KOOS-smertesub-score |
 
 ---
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
 |------|-----|------|------|---------|
-| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | RCT (Phase 1/2) | Diagnostic and Interventional Imaging | LipioJoint-1 trial: evaluated safety and efficacy of transient GAE using an ethiodized oil-based emulsion for knee OA; foundational publication for the Lipiodol-based GAE approach |
+| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | RCT (Fase 1/2) | Diagnostic and Interventional Imaging | LipioJoint-1-forsøg: evaluerede sikkerhed og effektivitet af transient GAE ved hjælp af ethiodiseret olie-baseret emulsion til knæ OA; grundlagspublikation for Lipiodol-baseret GAE-tilgang |
 
 ---
 
-## Denmark Market Information
+## Danmark-markedsinformation
 
-Ioversol is **not currently marketed in Denmark**. No authorisations from the Danish Medicines Agency (Laegemiddelstyrelsen) or EMA centralised procedures were identified in this dataset. Ioversol is commercially available internationally under the brand name Optiray® (Guerbet), but a marketing authorisation pathway in Denmark would need to be assessed from scratch.
-
----
-
-## Safety Considerations
-
-No formal safety data (key warnings, contraindications, or drug interactions) was available in the current dataset.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-Based on the general pharmacology of non-ionic iodinated contrast agents, clinicians should be aware of the following considerations:
-
-- **Contrast-induced acute kidney injury (CI-AKI):** Risk is elevated in patients with pre-existing renal impairment, diabetes mellitus, dehydration, or concomitant nephrotoxic agents. Standard pre-hydration protocols apply.
-- **Hypersensitivity reactions:** Range from mild urticaria and nausea to severe anaphylactoid reactions. Pre-medication protocols and resuscitation preparedness are recommended.
-- **Haemoglobinopathies (special caution):** Available literature (PMID: [22195536](https://pubmed.ncbi.nlm.nih.gov/22195536/)) investigated the safety of iodinated intravenous contrast in sickle cell disease, noting that in vitro erythrocyte sickling is less pronounced with second-generation low-osmolar agents such as Ioversol compared with older formulations. Clinical significance remains to be confirmed. These publications highlight a safety *concern* in this population rather than a therapeutic application.
-- **Metformin interaction:** Standard guidance to withhold metformin peri-procedure in patients at risk of CI-AKI applies.
+Ioversol er **i øjeblikket ikke markedsført i Danmark**. Ingen godkendelser fra Dansk Lægemiddelstyrelse (Lægemiddelstyrelsen) eller EMA-centraliserede procedurer blev identificeret i dette datasæt. Ioversol er kommercielt tilgængeligt internationalt under mærkenavnet Optiray® (Guerbet), men en markedsføringsautoriseringsvej i Danmark skulle vurderes fra bunden.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Ingen formelle sikkerhedsdata (vigtige advarsler, kontraindikationer eller lægemiddelinteraktioner) var tilgængelige i det aktuelle datasæt.
 
-**Rationale:**
-All identified clinical evidence relates exclusively to Lipiodol (an oil-based iodinated agent) and cannot be applied to Ioversol, which is water-soluble and incapable of achieving the durable vascular occlusion required for therapeutic embolisation; furthermore, Ioversol holds no current marketing authorisation in Denmark, and no direct evidence supports its therapeutic use in osteoarthritis or any other non-imaging indication.
+Se venligst det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
-**To proceed, the following is needed:**
+Baseret på den generelle farmakologi af ikke-ioniske jodererede kontrastmidler bør klinikere være klar over følgende overvejelser:
 
-- **Mechanistic feasibility assessment:** Determine whether Ioversol could function as a therapeutic embolic or anti-inflammatory agent in osteoarthritis — this requires preclinical physicochemical and in vivo data distinct from Lipiodol studies.
-- **MOA data retrieval:** Query DrugBank API and published literature for full mechanism of action data to support or refute the TxGNN prediction.
-- **Safety and regulatory data:** Obtain the full SmPC (or equivalent), including key warnings, contraindications, and interaction profile, prior to any clinical evaluation.
-- **Danish regulatory pathway:** Assess whether a marketing authorisation application (national or EMA centralised) is feasible and what clinical data package would be required by Laegemiddelstyrelsen.
-- **Direct Ioversol clinical evidence:** Any further investigation should require studies specifically investigating Ioversol — not Lipiodol — in a musculoskeletal therapeutic context.
+- **Kontrastinduceret akut nyreskade (CI-AKI):** Risikoen er forhøjet hos patienter med allerede eksisterende nyreskade, sukkersyge, dehydrering eller samtidig nefrotoksiske midler. Standard pre-hydrerings-protokoller gælder.
+- **Overfølsomhedsreaktioner:** Rækker fra mild urticaria og kvalme til alvorlige anafylaktoide reaktioner. Præ-medicin-protokoller og beredskab for genoplivning anbefales.
+- **Hæmoglobinopatier (særlig forsigtighed):** Tilgængelig litteratur (PMID: [22195536](https://pubmed.ncbi.nlm.nih.gov/22195536/)) undersøgte sikkerheden af joderet intravenøs kontrast ved seglcellersygdom, og bemærkede, at in vitro erythrocyt-sickling er mindre udtalt med anden-generations lavtosmoler midler såsom Ioversol sammenlignet med ældre formuleringer. Klinisk betydning skal stadig bekræftes. Disse publikationer fremhæver en sikkerhedsbetænkelighed i denne population snarere end en terapeutisk anvendelse.
+- **Metformin-interaktion:** Standard vejledning om at tilbageholde metformin peri-procedure hos patienter med risiko for CI-AKI gælder.
 
 ---
 
-> *This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require rigorous clinical validation before therapeutic application.*
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Al identificeret klinisk evidens relaterer udelukkende til Lipiodol (et olie-baseret joderet middel) og kan ikke anvendes på Ioversol, som er vandopløseligt og ikke er i stand til at opnå den vedvarende vaskulære okklusion, der kræves til terapeutisk embolisering; desuden har Ioversol ingen gældende markedsføringsautorisation i Danmark, og ingen direkte evidens understøtter dets terapeutiske brug ved osteoarthritis eller nogen anden ikke-billeddannelse-indikation.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Mekanistisk gennemførlighed-vurdering:** Bestem, om Ioversol kunne fungere som et terapeutisk embolisk eller anti-inflammatorisk middel i osteoarthritis — dette kræver præklinisk fysikokemisk og in vivo-data, der er adskilt fra Lipiodol-studier.
+- **MOA-data-hentning:** Forespørg DrugBank API og offentliggjort litteratur for fuldstændige virkningsmekanisme-data for at understøtte eller modbevise TxGNN-forudsigelsen.
+- **Sikkerhed og regulatorisk data:** Indhent det fulde produktresumé (eller tilsvarende), herunder vigtige advarsler, kontraindikationer og interaktionsprofil, før enhver klinisk evaluering.
+- **Dansk regulatorisk vej:** Vurder, om en markedsføringsautoriseringansøgning (national eller EMA-centraliseret) er mulig, og hvilken klinisk data-pakke der ville være påkrævet af Lægemiddelstyrelsen.
+- **Direkte Ioversol-klinisk evidens:** Enhver yderligere undersøgelse skal kræve studier, der specifikt undersøger Ioversol — ikke Lipiodol — i en muskuloskeletal terapeutisk sammenhæng.
+
+---
+
+> *Denne rapport er genereret til forskningsformål og udgør ikke medicinsk rådgivning. Alle lægemidler til genanvendelse kræver streng klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

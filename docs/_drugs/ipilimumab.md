@@ -29,130 +29,131 @@ Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Ipilimumab: From Melanoma to Non-Cutaneous Melanoma
+# Ipilimumab: Fra melanom til ikke-kutant melanom
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Ipilimumab (Yervoy) is an anti-CTLA-4 immune checkpoint inhibitor originally developed and approved for the treatment of unresectable or metastatic cutaneous melanoma.
-The TxGNN model predicts it may be effective for **non-cutaneous melanoma** (including uveal and mucosal subtypes), with **50 clinical trials** and **5 publications** currently supporting this direction.
-The model also assigns its highest score to **choroideremia** (99.06%), though this finding is entirely unsupported by clinical or experimental evidence at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Unresectable or metastatic melanoma (cutaneous) |
-| Predicted New Indication | Non-Cutaneous Melanoma (uveal and mucosal subtypes) |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed (per data pack — see note below) |
-| Number of Marketing Authorisations | 0 (per data pack — see note below) |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Important note on Danish market status:** The evidence pack records 0 marketing authorisations. This warrants verification: ipilimumab (Yervoy®) holds a centralised European Marketing Authorisation via the EMA, valid across all EU/EEA member states including Denmark. The discrepancy likely reflects a data gap in the current evidence pack. Clinicians should consult the EMA product page and the Danish Medicines Agency's (Lægemiddelstyrelsen) product database directly before drawing any conclusions about availability.
+Ipilimumab (Yervoy) er en anti-CTLA-4 immunsignalpunkt-inhibitor oprindeligt udviklet og godkendt til behandling af uoperabel eller metastatisk kutant melanom.
+TxGNN-modellen forudsiger, at det kan være effektivt for **ikke-kutant melanom** (herunder uvealt og mucos subtyper), med **50 kliniske studier** og **5 publikationer**, der i øjeblikket støtter denne retning.
+Modellen tildeler også sin højeste score til **choroideremie** (99,06%), selvom dette fund helt mangler klinisk eller eksperimentel evidens på nuværende tidspunkt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Melanoma — regardless of anatomical origin — is characterised by a tumour microenvironment in which T-cell activity is suppressed through CTLA-4-mediated immune tolerance. Ipilimumab binds and blocks CTLA-4, reversing this suppression, restoring tumour-infiltrating T-cell activity, and promoting the expansion of effector memory T cells. This mechanism is not inherently tissue-specific, which provides a biologically sound rationale for efficacy across all melanoma subtypes, including non-cutaneous variants.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Uoperabel eller metastatisk melanom (kutant) |
+| Forudsagt ny indikation | Ikke-kutant melanom (uveal og mucos subtyper) |
+| TxGNN-prognoseresultat | 99,01 % |
+| Evidensniveau | L1 |
+| Markedsstatus i Danmark | Ikke markedsført (ifølge datapakken – se note nedenfor) |
+| Antal markedsføringstilladelser | 0 (ifølge datapakken – se note nedenfor) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforbud |
 
-Non-cutaneous melanoma subtypes — primarily uveal melanoma (arising from the choroid of the eye) and mucosal melanoma (arising from mucosal surfaces such as the oral cavity, GI tract, or genitourinary tract) — differ from cutaneous melanoma in important ways. They carry a lower tumour mutational burden (TMB), harbour distinct driver mutations (e.g., GNAQ/GNA11 in uveal melanoma), and show lower overall response rates to checkpoint inhibition compared with cutaneous disease. However, direct clinical evidence has confirmed ipilimumab activity in both uveal and mucosal subtypes (see PMID 24999899), and dual CTLA-4/PD-1 blockade with nivolumab + ipilimumab has become a recommended first-line option for these patients.
-
-The TxGNN score of 99.01% for non-cutaneous melanoma is well grounded in this biological and clinical context. The prediction is corroborated by multiple completed Phase 3 randomised trials — including the pivotal NCT00324155 (ipilimumab + dacarbazine vs. placebo + dacarbazine, n=681) and NCT03068455 (nivolumab + ipilimumab adjuvant vs. nivolumab monotherapy, n=1,844) — providing the highest available level of clinical evidence (L1).
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT00324155](https://clinicaltrials.gov/study/NCT00324155) | Phase 3 | Completed | 681 | Pivotal RCT: ipilimumab 10 mg/kg + dacarbazine vs. dacarbazine + placebo in previously untreated Stage III/IV melanoma; formed a key basis for regulatory approval of ipilimumab in melanoma |
-| [NCT03068455](https://clinicaltrials.gov/study/NCT03068455) | Phase 3 | Completed | 1,844 | Adjuvant nivolumab + ipilimumab vs. nivolumab monotherapy after complete resection of Stage IIIb/c/d or IV melanoma; the largest trial in this data set |
-| [NCT02339571](https://clinicaltrials.gov/study/NCT02339571) | Phase 2/3 | Active, not recruiting | 600 | Nivolumab + ipilimumab ± sargramostim in unresectable Stage III/IV melanoma; long-term follow-up data ongoing until 2033 |
-| [NCT02506153](https://clinicaltrials.gov/study/NCT02506153) | Phase 3 | Active, not recruiting | 1,301 | Pembrolizumab vs. physician/patient choice of high-dose interferon or ipilimumab in high-risk resected Stage III-IV melanoma; positions ipilimumab as a comparator in the adjuvant setting |
-| [NCT01783938](https://clinicaltrials.gov/study/NCT01783938) | Phase 2 | Completed | 138 | Randomised: sequential nivolumab then ipilimumab in advanced/metastatic melanoma; directly supports dual checkpoint dosing strategy design |
-| [NCT02905266](https://clinicaltrials.gov/study/NCT02905266) | Phase 3 | Completed | 106 | Phase IIIb: multiple administration regimens of nivolumab + ipilimumab in previously untreated unresectable/metastatic melanoma; informs dosing schedule optimisation |
-| [NCT02320058](https://clinicaltrials.gov/study/NCT02320058) | Phase 2 | Completed | 119 | Nivolumab + ipilimumab in melanoma metastatic to the brain; directly relevant to advanced non-cutaneous melanoma with CNS involvement |
-| [NCT01950390](https://clinicaltrials.gov/study/NCT01950390) | Phase 2 | Completed | 169 | Randomised: ipilimumab ± bevacizumab in unresectable Stage III/IV melanoma; evaluates VEGF/immune checkpoint combination benefit |
-| [NCT00972933](https://clinicaltrials.gov/study/NCT00972933) | Early Phase 1 | Completed | 59 | Neoadjuvant ipilimumab in Stage IIIB-C melanoma; important immunogenicity and biomarker data in the neoadjuvant setting |
-| [NCT07230613](https://clinicaltrials.gov/study/NCT07230613) | Phase 2 | Recruiting | 50 | Neoadjuvant intratumoral anti-CTLA-4 + anti-PD-1 in localised melanoma; novel delivery route exploring reduced systemic toxicity with maintained local efficacy |
+> **Vigtig note om dansk markedsstatus:** Evidenspakken registrerer 0 markedsføringstilladelser. Dette kræver verifikation: ipilimumab (Yervoy®) har en centraliseret europæisk markedsføringstilladelse via EMA, som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Uoverensstemmelsen afspejler sandsynligvis en datamangel i den aktuelle evidenspakke. Klinikere bør konsultere EMA-produktsiden og Lægemiddelstyrelsens produktdatabase direkte, før de drager konklusioner om tilgængelighed.
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Retrospective cohort | The Medical Journal of Australia | Efficacy and tolerability of ipilimumab across cutaneous, uveal, and mucosal melanoma subtypes in an Australian clinical setting; the most directly relevant publication for non-cutaneous melanoma activity |
-| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Real-world evidence | Current Oncology | Multi-centre retrospective cohort comparing anti-PD-1 monotherapy vs. combination with ipilimumab across age groups in advanced melanoma; real-world comparative effectiveness data |
-| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Clinical review | Discovery Medicine | Comprehensive update on anti-PD-1 mAbs as monotherapy or combined with ipilimumab; summarises mature Phase 3 survival data and current treatment landscape |
-| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Systematic review | Current Cancer Drug Targets | Systematic review of Phase I–III adjuvant melanoma trials (2000–2015) including ipilimumab; reviews evidence base at the time of ipilimumab's introduction to adjuvant setting |
-| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Case report | Cureus | Case of colonic metastasis from melanoma treated with systemic immunotherapy; highlights immune-related gastrointestinal adverse events (perforation) relevant to checkpoint inhibitor safety monitoring |
+Melanom – uanset anatomisk oprindelse – karakteriseres ved et tumorpræparat, hvor T-celle-aktiviteten er undertrykt gennem CTLA-4-medieret immuntoleranse. Ipilimumab binder og blokerer CTLA-4, ophæver denne undertrykkelse, genopretter tumor-infiltrerende T-celle-aktivitet og fremmer udvidelsen af effektorspeicher-T-celler. Denne mekanisme er ikke iboende vævsspecifik, hvilket giver et biologisk begrundet rationale for efficacy på tværs af alle melanomsubtyper, herunder ikke-kutante varianter.
+
+Ikke-kutante melanomsubtyper – primært uvealt melanom (som opstår fra koroideaen i øjet) og mucos melanom (som opstår fra mucose overflader såsom mundhulen, GI-kanalen eller urogenitaltraktus) – adskiller sig fra kutant melanom på vigtige måder. De har en lavere tumor-mutationsbyrde (TMB), indeholder særskilte drivermutationer (f.eks. GNAQ/GNA11 i uveal melanom) og viser lavere overordnede respons-rates for checkpoint-inhibition sammenlignet med kutant sygdom. Imidlertid har direkte klinisk evidens bekræftet ipilimumab-aktivitet i både uveal og mucos subtyper (se PMID 24999899), og dual CTLA-4/PD-1-blokering med nivolumab + ipilimumab er blevet en anbefalet førstlinjeindstilling for disse patienter.
+
+TxGNN-scoren på 99,01 % for ikke-kutant melanom er vel begrundet i denne biologiske og kliniske kontekst. Prognosen bekræftes af flere afsluttede fase 3-randomiserede studier – herunder de pivotale NCT00324155 (ipilimumab + dakarbazin vs. placebo + dakarbazin, n=681) og NCT03068455 (nivolumab + ipilimumab adjuvans vs. nivolumab monotherapi, n=1.844) – hvilket giver det højeste tilgængelige niveau for klinisk evidens (L1).
 
 ---
 
-## Cytotoxicity
+## Klinisk trialevidens
 
-Ipilimumab is an antineoplastic agent in the immune checkpoint inhibitor class. It is used for the treatment of malignant melanoma and is classified as an immunotherapy rather than a conventional cytotoxic drug.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — immune checkpoint inhibitor (anti-CTLA-4 IgG1 monoclonal antibody); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — ipilimumab is not associated with haematological toxicity in the conventional sense; immune-related adverse events (irAEs) are the primary toxicity concern |
-| Emetogenicity Classification | Minimal — not classified as emetogenic; nausea may occur as part of an immune-related adverse event rather than direct chemotherapy-related emetogenicity |
-| Monitoring Items | Liver function (ALT, AST, bilirubin), thyroid function (TSH, fT4), adrenal function (morning cortisol, ACTH), full blood count, renal function, blood glucose; clinical monitoring for irAEs: dermatitis, colitis, hepatitis, hypophysitis, pneumonitis, uveitis |
-| Handling Protection | Standard biohazard precautions for monoclonal antibody preparations; **does not require** the full cytotoxic drug handling precautions (closed-system drug transfer devices, chemotherapy personal protective equipment) mandated for conventional cytotoxic chemotherapy |
-
----
-
-## Safety Considerations
-
-Detailed warnings and contraindications are not available in this evidence pack. Please refer to the approved Summary of Product Characteristics (SmPC) for Yervoy® for complete safety information.
-
-> Based on the established clinical profile of ipilimumab, clinicians should be particularly aware of:
-> - **Immune-related adverse events (irAEs):** colitis, hepatitis, dermatitis, hypophysitis, adrenal insufficiency, and pneumonitis — managed with high-dose corticosteroids and, in severe cases, permanent discontinuation
-> - **Ocular irAEs:** uveitis and other inflammatory eye conditions have been reported — this is especially relevant given the choroideremia prediction discussed below, where pre-existing retinal pathology would represent a significant safety concern
-> - **No drug-drug interaction data** is available in this evidence pack (DDI query returned no results)
+| Trialnummer | Fase | Status | Rekrutering | Vigtige resultater |
+|-------------|------|--------|------------|-------------------|
+| [NCT00324155](https://clinicaltrials.gov/study/NCT00324155) | Fase 3 | Afsluttet | 681 | Pivotal RCT: ipilimumab 10 mg/kg + dakarbazin vs. dakarbazin + placebo hos tidligere ubehandlede patienter med stage III/IV melanom; dannede et vigtig grundlag for regulatorisk godkendelse af ipilimumab i melanom |
+| [NCT03068455](https://clinicaltrials.gov/study/NCT03068455) | Fase 3 | Afsluttet | 1.844 | Adjuvans nivolumab + ipilimumab vs. nivolumab monotherapi efter komplet resektion af stage IIIb/c/d eller IV melanom; det største studie i dette datasæt |
+| [NCT02339571](https://clinicaltrials.gov/study/NCT02339571) | Fase 2/3 | Aktiv, rekrutterer ikke | 600 | Nivolumab + ipilimumab ± sargramostim i uoperabel stage III/IV melanom; langtidsfølgedata fortsættes til 2033 |
+| [NCT02506153](https://clinicaltrials.gov/study/NCT02506153) | Fase 3 | Aktiv, rekrutterer ikke | 1.301 | Pembrolizumab vs. læge/patient-valg af højdosis interferon eller ipilimumab hos høj-risiko resekeret stage III-IV melanom; placerer ipilimumab som komparator i adjuvant setting |
+| [NCT01783938](https://clinicaltrials.gov/study/NCT01783938) | Fase 2 | Afsluttet | 138 | Randomiseret: sekventiel nivolumab derefter ipilimumab i avanceret/metastatisk melanom; støtter direkte dual checkpoint-doseringsstrategi-design |
+| [NCT02905266](https://clinicaltrials.gov/study/NCT02905266) | Fase 3 | Afsluttet | 106 | Fase IIIb: flere administrationsschemaer af nivolumab + ipilimumab hos tidligere ubehandlede uoperabel/metastatisk melanom; informerer dosering-skemaoptimering |
+| [NCT02320058](https://clinicaltrials.gov/study/NCT02320058) | Fase 2 | Afsluttet | 119 | Nivolumab + ipilimumab i melanom metastatisk til hjernen; direkte relevant for avanceret ikke-kutant melanom med CNS-involvering |
+| [NCT01950390](https://clinicaltrials.gov/study/NCT01950390) | Fase 2 | Afsluttet | 169 | Randomiseret: ipilimumab ± bevacizumab i uoperabel stage III/IV melanom; evaluerer VEGF/immunsignalpunkt-kombinationsfordel |
+| [NCT00972933](https://clinicaltrials.gov/study/NCT00972933) | Tidlig fase 1 | Afsluttet | 59 | Neoadjuvans ipilimumab i stage IIIB-C melanom; vigtige immunogenicitets- og biomarkerdata i det neoadjuvante setting |
+| [NCT07230613](https://clinicaltrials.gov/study/NCT07230613) | Fase 2 | Rekrutterer | 50 | Neoadjuvans intratumoralt anti-CTLA-4 + anti-PD-1 i lokaliseret melanom; innovativ leveringsrute udforsker reduceret systemisk toksicitet med bevaret lokal efficacy |
 
 ---
 
-## Secondary TxGNN Prediction: Choroideremia — Hold
+## Litteraturvidens
 
-The TxGNN model assigns its highest score in this evidence pack to **choroideremia** (99.06%), placing it above non-cutaneous melanoma by a small margin. Choroideremia is a rare X-linked inherited retinal dystrophy caused by mutations in the CHM gene (Xq21.2), leading to progressive degeneration of retinal pigment epithelium (RPE) and photoreceptors due to Rab Escort Protein-1 (REP-1) deficiency.
-
-**Evidence level: L5 — model prediction only; no clinical or experimental evidence exists.**
-
-There is no established biological link between ipilimumab's CTLA-4 blockade mechanism and the primary monogenic pathology of choroideremia. The TxGNN score likely reflects indirect connections within the knowledge graph (e.g., shared disease–protein interaction networks relating to the ocular immune microenvironment or the eye's immune-privileged status), rather than a direct mechanistic relationship. No hypothesis-generating publications, animal studies, or exploratory clinical studies support this application.
-
-Importantly, ipilimumab can itself cause immune-related uveitis, indicating a dual — and potentially harmful — immune impact on ocular tissue. This raises significant safety concerns about its use in patients with pre-existing retinal disease.
-
-**Recommendation: Hold** — not appropriate for clinical pursuit without substantial preclinical mechanistic investigation.
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|-----|------|---------|-------------------|
+| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Retrospektiv kohort | The Medical Journal of Australia | Efficacy og tolerabilitet af ipilimumab på tværs af kutane, uveal og mucos melanomsubtyper i en australsk klinisk setting; den mest direkte relevant publikation for ikke-kutant melanom-aktivitet |
+| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Real-world-evidens | Current Oncology | Multicenterstudie retrospektiv kohort sammenligner anti-PD-1 monotherapi vs. kombination med ipilimumab på tværs af aldersgrupper i avanceret melanom; real-world komparativ effektivitetsdata |
+| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Klinisk oversigt | Discovery Medicine | Omfattende opdatering om anti-PD-1 mAbs som monotherapi eller kombineret med ipilimumab; opsummerer modne fase 3-overlevelsesdata og aktuelt behandlingslandskab |
+| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Systematisk review | Current Cancer Drug Targets | Systematisk review af fase I–III adjuvant melanomstudier (2000–2015) herunder ipilimumab; gennemgår evidensgrundlag på tidspunktet for ipilimumabs introduktion til adjuvant setting |
+| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Casusrapport | Cureus | Tilfælde af kolonmetastase fra melanom behandlet med systemisk immunoterapi; fremhæver immunrelaterede gastrointestinale bivirkning (perforation) relevant for signalpunkt-inhibitor sikkerhedsovervågning |
 
 ---
 
-## Conclusion and Next Steps
+## Cytotoxicitet
 
-**Decision: Proceed with Guardrails** *(for non-cutaneous melanoma)*
+Ipilimumab er et antineoplastisk agens i immunsignalpunkt-inhibitor-klassen. Det bruges til behandling af ondartet melanom og klassificeres som immunoterapi snarere end et konventionelt cytotoxisk lægemiddel.
 
-**Rationale:**
-Multiple completed Phase 3 randomised trials provide Level 1 evidence supporting ipilimumab — particularly in combination with nivolumab — for the treatment of advanced melanoma including non-cutaneous subtypes. Direct evidence from published literature confirms activity in uveal and mucosal melanoma specifically.
-
-**To proceed, the following is needed:**
-
-- **Verify Danish market authorisation status:** Cross-check Yervoy® registration with the EMA and Lægemiddelstyrelsen databases; the 0 authorisations recorded in this evidence pack appears inconsistent with the known EMA centralised authorisation
-- **Obtain the approved SmPC:** Review EU-approved indications to clarify whether non-cutaneous melanoma subtypes (uveal, mucosal) are explicitly included or are off-label use in Denmark
-- **Document the mechanism of action formally:** MOA data is listed as a data gap in this evidence pack; obtain from DrugBank API or the SmPC pharmacodynamics section
-- **Retrieve key warnings and contraindications:** Download and parse the Yervoy® SmPC for the safety section; currently blocking (Data Gap severity: Blocking)
-- **Subtype-specific response rate data:** Uveal melanoma response rates to ipilimumab monotherapy are substantially lower than cutaneous melanoma; formal patient-selection criteria differentiating uveal vs. mucosal vs. other non-cutaneous subtypes should be defined before treatment initiation
-- **Immune-related adverse event management protocol:** Establish a clinical pathway for irAE monitoring and management, with particular attention to ocular irAEs given the uveal melanoma patient population
-- **For choroideremia prediction:** Preclinical mechanistic studies are required before any clinical consideration; this prediction should be classified as Hold pending further investigation
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitetsklassificering | Immunoterapi – immunsignalpunkt-inhibitor (anti-CTLA-4 IgG1 monoklonal antistof); ikke et konventionelt cytotoxisk agens |
+| Risiko for myelosuppression | Lav – ipilimumab er ikke forbundet med hæmatologisk toksicitet i konventionel forstand; immunrelaterede bivirkning (irAE) er den primære toksicitetsbekymring |
+| Emetogenicitetsklassificering | Minimal – ikke klassificeret som emetogen; kvalme kan opstå som del af en immunrelateret bivirkning snarere end direkte kemoterapirelateret emetogenicitet |
+| Overvågningspunkter | Leverfunktion (ALT, AST, bilirubin), thyroidfunktion (TSH, fT4), binyrebarknivåfunktion (morgenskortisor, ACTH), fuld blodprøve, nyrefunktion, blodglukose; klinisk overvågning for irAE: dermatitis, kolitis, hepatitis, hypophysitis, pneumonitis, uveitis |
+| Håndteringsbeskyttelse | Standard biologiske farelighedsforsigtighedsregler for monoklonale antistof-præparater; **kræver ikke** fuldt cytotoxsk lægemiddelhåndteringsforsigtighedsregler (lukket-system lægemiddeloverførelsesenheder, kemoterapibeskyttelsesudstyr) påkrævet for konventionel cytotoxsk kemototerapi |
 
 ---
 
-*This report is intended for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. This report should be read in conjunction with the approved Summary of Product Characteristics and current clinical guidelines.*
+## Sikkerhedsovervejelser
+
+Detaljerede advarsler og kontraindikationer er ikke tilgængelige i denne evidenspakke. Se venligst det godkendte produktresumé (SmPC) for Yervoy® for fuldstændig sikkerhedsinformation.
+
+> Baseret på den etablerede kliniske profil for ipilimumab bør klinikere være særligt opmærksomme på:
+> - **Immunrelaterede bivirkning (irAE):** kolitis, hepatitis, dermatitis, hypophysitis, binyrebark-insufficiens og pneumonitis – håndteres med højdosis kortikosteroider og i svære tilfælde permanent afbrydelse
+> - **Okulær irAE:** uveitis og anden inflammatorisk øjetilstand er blevet rapporteret – dette er især relevant på grund af choroideremie-prognosen diskuteret nedenfor, hvor præeksisterende retinal patologi ville udgøre en væsentlig sikkerhedsbetænkelighed
+> - **Ingen lægemiddel-lægemiddel-interaktionsdata** er tilgængelige i denne evidenspakke (DDI-forespørgsel returnerede ingen resultater)
+
+---
+
+## Sekundær TxGNN-prognose: Choroideremie – Hold
+
+TxGNN-modellen tildeler sin højeste score i denne evidenspakke til **choroideremie** (99,06 %), hvilket placerer den over ikke-kutant melanom med en lille margin. Choroideremie er en sjælden X-bunden arvelig retinaldystrofi forårsaget af mutationer i CHM-genet (Xq21.2), der fører til progressiv degeneration af retinalt pigmentepitel (RPE) og fotoreceptorer på grund af Rab Escort Protein-1 (REP-1) mangel.
+
+**Evidensniveau: L5 – modelprognose kun; ingen klinisk eller eksperimentel evidens findes.**
+
+Der er ingen etableret biologisk forbindelse mellem ipilimumabs CTLA-4-blokerings-mekanisme og den primære monogene patologi i choroideremie. TxGNN-scoren afspejler sandsynligvis indirekte forbindelser inden for knowledge graph (f.eks. delt sygdoms–proteininteraktionsnetværk vedrørende det okulære immun-mikroenvironment eller øjets immunberettiget status), snarere end et direkte mekanistisk forhold. Ingen hypotesegenerering-publikationer, dyrestudier eller undersøgende kliniske studier støtter denne anvendelse.
+
+Vigtigt er det, at ipilimumab selv kan forårsage immunrelateret uveitis, hvilket indikerer et dual – og potentielt skadeligt – immun-impact på okulært væv. Dette rejser væsentlige sikkerhedsproblemer om dets brug hos patienter med præeksisterende retinal sygdom.
+
+**Anbefaling: Hold** – ikke passende for klinisk forfølgelse uden væsentlig præ-klinisk mekanistisk undersøgelse.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforbud** *(for ikke-kutant melanom)*
+
+**Begrundelse:**
+Flere afsluttede fase 3-randomiserede studier giver niveau 1-evidens, der støtter ipilimumab – især i kombination med nivolumab – til behandling af avanceret melanom herunder ikke-kutante subtyper. Direkte evidens fra publiceret litteratur bekræfter aktivitet i uveal og mucos melanom specifikt.
+
+**For at fortsætte, kræves følgende:**
+
+- **Verificer dansk markedsføringstilladelsestatus:** Krydscheck Yervoy® registrering med EMA- og Lægemiddelstyrelsens databaser; de 0 tilladelser registreret i denne evidenspakke virker uoverensstemmende med den kendte EMA centraliserede tilladelse
+- **Indhent det godkendte SmPC:** Gennemgå EU-godkendte indikationer for at præcisere, om ikke-kutante melanomsubtyper (uveal, mucos) er eksplicit inkluderet eller er off-label-brug i Danmark
+- **Dokumenter handlingsmekanismen formelt:** MOA-data er anført som en datamangel i denne evidenspakke; indhent fra DrugBank API eller SmPC farmakodynamik-sektionen
+- **Hent vigtige advarsler og kontraindikationer:** Download og pars Yervoy® SmPC for sikkerhedssektionen; i øjeblikket blokering (datamangelsalvorlighed: blokering)
+- **Subtypspecifik responsratedata:** Uveal melanom-responsrater til ipilimumab-monotherapi er væsentligt lavere end kutant melanom; formelle patientselektionskriterier, der differentierer uveal vs. mucos vs. andre ikke-kutante subtyper, bør defineres før behandlingens initiering
+- **Immunrelateret bivirkning-administrationprotokol:** Etabler en klinisk sti for irAE-overvågning og -håndtering, med særlig opmærksomhed på okulær irAE givet uveal melanom-patientpopulationen
+- **For choroideremie-prognose:** Præ-klinisk mekanistisk undersøgelse kræves før enhver klinisk overvejelse; denne prognose bør klassificeres som Hold, der afventer yderligere undersøgelse
+
+---
+
+*Denne rapport er beregnet til forskningsreferencereformål alene og udgør ikke medicinsk rådgivning. Lægemiddelgenbrug-kandidater kræver klinisk validering før anvendelse. Denne rapport bør læses i forbindelse med det godkendte produktresumé og aktuelle kliniske retningslinjer.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

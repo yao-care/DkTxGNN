@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Maribavir: Drug Repurposing Assessment — Evidence Pack Incomplete
+# Maribavir: Vurdering af medicinsgenbrug — bevissamling ufuldstændig
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Maribavir (DrugBank ID: DB06234) is a first-in-class antiviral agent known from publicly available sources to target cytomegalovirus (CMV) UL97 kinase, approved in the USA (Livtencity®) for post-transplant CMV infection refractory to prior therapy. The current Evidence Pack contains **no TxGNN-predicted repurposing indications**, and three critical data fields — original indications, mechanism of action, and safety information — are absent or unresolved. **A full drug repurposing evaluation cannot be completed at this stage** until the identified data gaps are remediated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in evidence pack |
-| Predicted New Indication | None — `predicted_indications` array is empty |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — no predictions available |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Maribavir (DrugBank ID: DB06234) er en første-i-klassen antivirusmiddel, kendt fra offentligt tilgængelige kilder til at målrette cytomegalovirus (CMV) UL97-kinase, godkendt i USA (Livtencity®) til post-transplantations-CMV-infektion refraktær over for tidligere terapi. Den nuværende bevissamling indeholder **ingen TxGNN-forudsagte medicinsgenbrug-indikationer**, og tre kritiske datafelter — oprindelig indikation, virkemekanisme og sikkerhedsinformation — er fraværende eller uløst. **En fuld vurdering af medicinsgenbrug kan ikke gennemføres på dette stadium** før de identificerede datakløfter er udbedret.
 
 ---
 
-## Why a Full Evaluation Cannot Proceed
+## Hurtig oversigt
 
-The Evidence Pack contains two blocking and one high-severity data gaps that together prevent any repurposing evaluation from being completed:
-
-**No TxGNN-predicted indications (Blocking).** The `predicted_indications` array is empty. This is the foundational input for any drug repurposing report — without at least one model-predicted target indication, there is no repurposing hypothesis to evaluate, no evidence to assess, and no go/no-go recommendation to make for a specific new use.
-
-**Missing safety data (Blocking).** All key warnings and contraindications are unresolved. Safety pre-screening is a mandatory step before any repurposing pathway can advance. This gap alone would prevent the report from reaching a clinical recommendation even if predictions were available.
-
-**Missing mechanism of action (High severity).** Mechanistic plausibility is a core pillar of repurposing evaluation. Without MOA data, it is impossible to assess whether Maribavir's pharmacology is applicable to any candidate indication.
-
----
-
-## Denmark Market Information
-
-Maribavir is **not currently marketed in Denmark** according to the evidence pack. There are no active marketing authorisations recorded with Laegemiddelstyrelsen (the Danish Medicines Agency) or via the EMA centralised procedure.
-
-> **Important verification needed:** Maribavir (Livtencity®, Takeda) received EMA centralised marketing authorisation for the treatment of post-transplant CMV infection in adults. If a valid EU authorisation exists, it should appear in the Denmark regulatory section. The absence of records here is likely a data collection gap rather than a true absence of authorisation. This must be verified directly via the [EMA Product Database](https://www.ema.europa.eu/en/medicines) before any regulatory assessment is made.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Ikke registreret i bevissamlingen |
+| Forudsagt ny indikation | Ingen — `predicted_indications`-array'et er tomt |
+| TxGNN-forudsigelsesscore | I.v.t. |
+| Bevisgrad | L5 — ingen forudsigelser tilgængelige |
+| Status på det danske marked | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet afgørelse | **Udsat** |
 
 ---
 
-## Safety Considerations
+## Hvorfor en fuldstændig vurdering ikke kan fortsætte
 
-All safety data fields in the evidence pack are unresolved. No safety summary can be generated from the current data.
+Bevissamlingen indeholder to blokkerende og en alvorlig datakløft, som tilsammen forhindrer enhver vurdering af medicinsgenbrug i at blive gennemført:
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. The SmPC for Livtencity® is available via the EMA website.
+**Ingen TxGNN-forudsagte indikationer (blokkerende).** `predicted_indications`-array'et er tomt. Dette er det grundlæggende input for enhver rapport om medicinsgenbrug — uden mindst én modelprognosticeret målindikation, er der ingen genbrugshypotese at evaluere, ingen bevis at vurdere og ingen go/no-go-anbefaling at give for en specifik ny brug.
 
----
+**Manglende sikkerhedsdata (blokkerende).** Alle vigtige advarsler og kontraindikationer er uløst. Sikkerhedsforskal er et obligatorisk trin før enhver genbrug-udviklingsvej kan avanceres. Denne kløft alene ville forhindre rapporten i at nå en klinisk anbefaling, selv hvis forudsigelser var tilgængelige.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The Evidence Pack is incomplete and does not contain the minimum required inputs for a drug repurposing evaluation. The TxGNN prediction pipeline has not produced results for this candidate, and all safety data are missing. No clinical recommendation of any kind can be made until these gaps are resolved.
-
-**To proceed, the following is needed:**
-
-- [ ] **Re-run TxGNN prediction pipeline** for Maribavir (DB06234) to populate `predicted_indications` — this is the single most critical step
-- [ ] **Retrieve mechanism of action from DrugBank API** (DB06234) to resolve data gap DG002
-- [ ] **Download and parse the SmPC** from the EMA product database to resolve data gap DG001 (warnings, contraindications, interactions)
-- [ ] **Verify EMA centralised authorisation status** for Livtencity® and update the Denmark regulatory section accordingly
-- [ ] **Re-generate the Evidence Pack (v5)** once the above gaps are resolved, then proceed with full evaluation
+**Manglende virkemekanisme (alvorlig).** Mekanistisk plausibilitet er en kernestøtte i genbrug-vurdering. Uden MOA-data er det umuligt at vurdere, om Maribavir's farmakologi kan anvendes på nogen kandidatindikation.
 
 ---
 
-> ⚠️ **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Any drug repurposing candidate identified by TxGNN requires clinical validation before application.
+## Medicinsinformationer for Danmark
+
+Maribavir **markedsføres ikke i øjeblikket i Danmark** ifølge bevissamlingen. Der er ingen aktive markeringsgodkendelser registreret hos Lægemiddelstyrelsen eller via EMA's centraliserede procedure.
+
+> **Vigtig verifikation nødvendig:** Maribavir (Livtencity®, Takeda) modtog EMA centraliseret markeringsgodkendelse til behandling af post-transplantations-CMV-infektion hos voksne. Hvis en gyldig EU-godkendelse eksisterer, bør den fremgå af Danmarks regulatoriske sektion. Fraværet af registreringer her skyldes sandsynligvis en datakølektgab snarere end en reel fravær af godkendelse. Dette skal verificeres direkte via [EMA's medicindatabase](https://www.ema.europa.eu/en/medicines) før enhver regulatorisk vurdering foretages.
+
+---
+
+## Sikkerhedsovervejelser
+
+Alle sikkerhedsdatafelter i bevissamlingen er uløst. Intet sikkerhedsresumé kan genereres fra de nuværende data.
+
+> Se venligst Produktoversigten (SmPC) for sikkerhedsinformation. SmPC for Livtencity® er tilgængelig via EMA's hjemmeside.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Udsat**
+
+**Begrundelse:**
+Bevissamlingen er ufuldstændig og indeholder ikke minimumindtastningerne for en vurdering af medicinsgenbrug. TxGNN-prognosepipeline har ikke produceret resultater for denne kandidat, og alle sikkerhedsdata mangler. Ingen klinisk anbefaling af nogen art kan gives, før disse kløfter er løst.
+
+**For at fortsætte, er følgende nødvendig:**
+
+- [ ] **Kør TxGNN-prognose-pipeline igen** for Maribavir (DB06234) for at udfylde `predicted_indications` — dette er det enkelte vigtigste trin
+- [ ] **Hent virkemekanisme fra DrugBank API** (DB06234) for at løse datakløft DG002
+- [ ] **Download og analysér SmPC** fra EMA's medicindatabase for at løse datakløft DG001 (advarsler, kontraindikationer, interaktioner)
+- [ ] **Verificer EMA centraliseret godkendelsestatus** for Livtencity® og opdatér Danmarks regulatoriske sektion i overensstemmelse hermed
+- [ ] **Generer bevissamlingen igen (v5)** når ovenstående kløfter er løst, og fortsæt derefter med fuld vurdering
+
+---
+
+> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er til forskningsformål kun og udgør ikke medicinsk rådgivning. Enhver medicinsgenbrug-kandidat identificeret af TxGNN kræver klinisk validering før anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxygen: From Unspecified Original Indication to Dry Eye Syndrome
+# Oxygen: Fra ubetegnet oprindelig indikation til tørt øjne-syndrom
 
-## One-Sentence Summary
+## En-linies opsummering
 
-Oxygen (DrugBank DB09140) has no original indication or mechanism-of-action data currently available in this evidence pack. The TxGNN model predicts a possible association with **Dry Eye Syndrome**, but this rests solely on a knowledge-graph prediction score (**93.22%**) — there are **no supporting clinical trials** and **no supporting publications**, and the evidence pack's own mechanistic assessment finds no direct physiological rationale for the link.
+Oxygen (DrugBank DB09140) har i øjeblikket ingen oprindelig indikation eller data om virkningsmekanisme tilgængelige i denne evidenspakke. TxGNN-modellen forudsiger en mulig sammenhæng med **Tørt øjne-syndrom**, men denne er udelukkende baseret på en videnskabsgraf-prediktion-score på **93.22%** — der findes **ingen understøttende kliniske forsøg** og **ingen understøttende publikationer**, og evidenspakkens egen mekanistisk vurdering finder ingen direkte fysiologisk grundlag for sammenhængen.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not available — no original indication is recorded in the evidence pack |
-| Predicted New Indication | Dry Eye Syndrome |
-| TxGNN Prediction Score | 93.22% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke tilgængelig — ingen oprindelig indikation er registreret i evidenspakken |
+| Forudsagt ny indikation | Tørt øjne-syndrom |
+| TxGNN-prediktion-score | 93.22% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for Oxygen is not currently available in this evidence pack, and no original approved indication is on record either, so a mechanistic comparison between the original and predicted indications cannot be made.
+Data om virkningsmekanisme for Oxygen er i øjeblikket ikke tilgængelige i denne evidenspakke, og ingen oprindelig godkendt indikation er dokumenteret enten, så en mekanistisk sammenligning mellem den oprindelige og forudsagte indikation kan ikke foretages.
 
-The TxGNN-generated rationale for this candidate explicitly states that there is no direct physiological mechanism supporting systemic or topical oxygen therapy for dry eye syndrome. The proposed link — between oxygen and tear film stability or corneal epithelial repair — is described only as an indirect hypothesis (the "oxidative stress hypothesis"), without any supporting mechanistic literature.
+Den af TxGNN genererede begrundelse for denne kandidat anfører eksplicit, at der ikke er nogen direkte fysiologisk mekanisme, der understøtter systemisk eller topisk iltbehandling ved tørt øjne-syndrom. Det foreslåede sammenhæng — mellem ilt og tårefilms stabilitet eller regeneration af korneaepitel — er kun beskrevet som en indirekte hypotese (den "oxidativ stress-hypotesen"), uden understøtning fra mekanistisk litteratur.
 
-Given the combination of missing original-indication/MOA data and the evidence pack's own assessment that the mechanistic link is speculative, this prediction should be treated as a low-confidence signal from the knowledge graph rather than a pharmacologically grounded hypothesis.
+I kraft af kombinationen af manglende data om oprindelig indikation/virkningsmekanisme og evidenspakkens egen vurdering af, at den mekanistiske forbindelse er spekulativ, bør denne forudsigelse betragtes som et svagt signal fra vidensgrafen snarere end som en farmakologisk funderet hypotese.
 
-## Clinical Trial Evidence
+## Klinisk forsøgs-evidens
 
-Currently no related clinical trials registered
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
-## Literature Evidence
+## Litteratur-evidens
 
-Currently no related literature available
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
-## Denmark Market Information
+## Information om det danske marked
 
-Oxygen currently holds no marketing authorisations in Denmark (market status: Not Marketed; 0 authorisations on record).
+Oxygen har i øjeblikket ingen markedsføringstilladelser i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser registreret).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Afvent**
 
-**Rationale:**
-No clinical trial or literature evidence exists for oxygen in dry eye syndrome, mechanism-of-action data is unavailable, and the evidence pack's own mechanistic review found no plausible physiological link between oxygen therapy and dry eye syndrome. Oxygen also has no marketing authorisation in Denmark, so there is currently no regulatory or commercial pathway to act on.
+**Begrundelse:**
+Der findes ingen kliniske forsøg eller litteraturbevis for ilt ved tørt øjne-syndrom, data om virkningsmekanisme er utilgængelige, og evidenspakkens egen mekanistisk vurdering fandt ingen plausibel fysiologisk sammenhæng mellem iltterapien og tørt øjne-syndrom. Oxygen har desuden ingen markedsføringstilladelse i Danmark, så der er i øjeblikket ingen regulatorisk eller kommerciel indgang til at handle på det.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC label warnings and contraindications (currently a Blocking data gap — required before any safety pre-assessment)
-- Mechanism of action (MOA) data for Oxygen
-- Original approved indication history
-- Preclinical or mechanistic studies specifically evaluating oxygen therapy in dry eye disease
-- Confirmation of Denmark/EU marketing authorisation status if commercial availability is later considered
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/SmPC etiket-advarsler og kontraindikationer (i øjeblikket et blokerende datahul — påkrævet inden enhver sikkerhedsforvurdering)
+- Virkningsmekanisme-data (MOA) for Oxygen
+- Historik for oprindelig godkendt indikation
+- Prækliniske eller mekanistiske studier, der specifikt evaluerer iltbehandling ved tørt øjne-sygdom
+- Bekræftelse af markedsføringstilladelsestatus i Danmark/EU, såfremt kommerciel tilgængelighed senere overvejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

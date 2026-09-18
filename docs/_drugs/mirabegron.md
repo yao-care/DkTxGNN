@@ -29,111 +29,112 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mirabegron: From Overactive Bladder to Thoracic Malformation
+# Mirabegron: Fra overaktiv blære til thorakale misdannelser
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Mirabegron is a selective β3-adrenergic receptor agonist internationally approved for overactive bladder (OAB) treatment, though no Danish national marketing authorisations were identified in this dataset.
-The TxGNN model predicts its highest-ranked new potential indication is **Thoracic Malformation** (score: 83.06%), supported by **0 clinical trials** and **0 publications**.
-Across all five predicted indications in this multi-candidate report, the mechanistic rationale is weak and evidence does not exceed L4 (disease background literature only); all carry a **Hold** recommendation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Overactive bladder (OAB) — based on known pharmacology; not available in Danish regulatory dataset |
-| Predicted New Indication | Thoracic Malformation |
-| TxGNN Prediction Score | 83.06% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 (national); see note on EMA centralised authorisation below |
-| Recommended Decision | Hold |
+Mirabegron er en selektiv β3-adrenerg receptoragonist, som er godkendt internationalt til behandling af overaktiv blære (OAB), selvom der ikke blev identificeret danske nationale markedsføringsgodkendelser i dette datasæt.
+TxGNN-modellen forudsiger, at dens højest-rangerede nye potentielle indikation er **Thorakale misdannelser** (score: 83,06%), understøttet af **0 kliniske forsøg** og **0 publikationer**.
+På tværs af alle fem forudsagte indikationer i denne rapport med flere kandidater er den mekanistiske begrundelse svag, og beviserne overstiger ikke L4 (kun litteratur om sygdomsbaggrund); alle har en **Afvent**-anbefaling.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data was not available in this dataset. Based on known pharmacology, Mirabegron is a selective β3-adrenergic receptor (β3-AR) agonist. β3-AR (ADRB3) is primarily expressed in the bladder detrusor muscle, adipose tissue, and renal tubules. Its activation stimulates the Gsα → adenylyl cyclase → intracellular cAMP pathway, causing relaxation of the detrusor muscle and increased bladder storage capacity — the pharmacological basis for its approved OAB indication.
-
-Thoracic malformation is a structural congenital defect. Its pathogenesis involves embryonic skeletal and soft tissue developmental regulation governed by HOX gene networks, FGF signalling, and related developmental pathways. There is no established direct mechanistic connection between the β3-AR/cAMP signalling axis and the embryonic processes underlying thoracic skeletal morphogenesis.
-
-The high TxGNN prediction score (0.83) for this indication is therefore likely an artefact arising from indirect knowledge graph connections via kidney or mesenchymal tissue nodes, rather than a biologically grounded prediction. This is explicitly flagged in the mechanistic rationale as probable model noise rather than a genuine drug–disease relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Overaktiv blære (OAB) — baseret på kendt farmakologi; ikke tilgængelig i dansk regulatorisk datasæt |
+| Forudsagt ny indikation | Thorakale misdannelser |
+| TxGNN forudsigelsesscore | 83,06% |
+| Bevisniveau | L5 |
+| Danmark markedsstatus | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 (national); se note om EMA centraliseret godkendelse nedenfor |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Der var ikke tilgængelige detaljerede mekanisme-for-handling-data i dette datasæt. Baseret på kendt farmakologi er mirabegron en selektiv β3-adrenerg receptor (β3-AR) agonist. β3-AR (ADRB3) udtrykkes primært i blærens detrusor-muskulatur, fedtvæv og nyretubuli. Dens aktivering stimulerer Gsα → adenylylcyklase → intracellulær cAMP-vej, hvilket forårsager afslapning af detrusor-musklen og øget blærekapacitet — den farmakologiske basis for dens godkendte OAB-indikation.
 
----
+Thorakale misdannelser er en strukturel medfødt defekt. Dens patogenese involverer embryonisk skelet- og blødt væv udvikling, reguleret af HOX-gennetværk, FGF-signalering og relaterede udviklingsveie. Der er ingen etableret direkte mekanistisk forbindelse mellem β3-AR/cAMP-signaleringsaksen og de embryoniske processer, der ligger til grund for thorakal skeletudvikling.
 
-## Denmark Market Information
-
-No marketing authorisations were identified for Mirabegron in the Danish national regulatory database (0 licences, not marketed).
-
-> **Note:** Mirabegron (brand name Betmiga) holds a centralised EMA marketing authorisation (EU/1/12/809) for overactive bladder in adults. Availability in Denmark via the EMA centralised procedure should be confirmed directly with Laegemiddelstyrelsen, as centralised EMA authorisations may not be reflected in the national dataset used here.
+Den høje TxGNN-forudsigelsesscore (0,83) for denne indikation er derfor sandsynligvis et kunstefakt, der stammer fra indirekte vidensgrafosforbindelser via nyre- eller mesenkymaletknuder snarere end en biologisk grundfestet forudsigelse. Dette er eksplicit markeret i den mekanistiske begrundelse som sandsynlig modelstøj snarere end et reelt lægemidd-sygdom-forhold.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
----
-
-## Additional Predicted Indications
-
-This is a multi-candidate report (TW-DB08893-multi). The TxGNN model identified five unique diseases across the top 10 predictions. All carry a **Hold** recommendation. The table below summarises key differences in evidence level and mechanistic concerns.
-
-| Rank | Disease | TxGNN Score | Evidence Level | Key Mechanistic Concern | Recommendation |
-|------|---------|-------------|----------------|------------------------|----------------|
-| 1 | Thoracic Malformation | 83.06% | L5 | No known β3-AR connection to thoracic development; likely model noise | Hold |
-| 3 | Renal-Hepatic-Pancreatic Dysplasia | 82.93% | L5 | Ciliopathy (NPHP3 mutation); β3-AR/cAMP not linked to ciliary assembly or planar cell polarity pathways | Hold |
-| 5 | PKD3 ± Polycystic Liver Disease | 82.20% | L4 | β3-AR → cAMP axis **shares the same direction** as the PKD disease pathway; may worsen cyst proliferation | Hold |
-| 7 | Joubert Syndrome with Renal Defect | 80.89% | L5 | Ciliopathy (AHI1/CEP290/TMEM67); β3-AR/cAMP not linked to IFT system or Hedgehog signalling | Hold |
-| 9 | Adult Familial Nephronophthisis–Spastic Quadriparesia | 80.32% | L5 | Ultra-rare ciliopathy; no mechanistic link; patient numbers too small for clinical feasibility | Hold |
-
-### PKD3 Background Literature
-
-The PKD3 indication (rank 5) is the only prediction with associated literature (20 publications). **None of these publications study Mirabegron in PKD3; they are disease background context only.** Furthermore, the mechanistic analysis raises a potential safety concern: Mirabegron's cAMP-elevating mechanism aligns with — rather than counters — the PKD3 disease pathway, potentially accelerating cyst proliferation. This must be clarified before the indication can be advanced.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Review | *Lancet* | Comprehensive ADPKD review: systemic disorder with renal cysts, hypertension, liver cysts, intracranial aneurysms, and cardiac valvular disease |
-| [38958301](https://pubmed.ncbi.nlm.nih.gov/38958301/) | 2024 | Clinical Guideline | *Am J Gastroenterol* | ACG guideline on focal liver lesions; covers management of hepatic cystic lesions including polycystic liver disease |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Clinical Guideline | *J Hepatol* | EASL guidelines on cystic liver diseases: hepatic cysts, polycystic liver disease, Caroli disease — diagnosis and management |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | *Clin Liver Dis* | ADPKD and polycystic liver disease overview; tolvaptan's role in slowing renal function decline and cyst growth |
-| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Review | *JASN* | Eight genes associated with ADPKD/ADPLD identified, including GANAB — the gene implicated in PKD3 |
-| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Review | *Adv Kidney Dis Health* | Genetic spectrum of PKD/PLD: PKD1 accounts for ~80% of ADPKD; primary cilia dysfunction central to pathogenesis |
-| [34724412](https://pubmed.ncbi.nlm.nih.gov/34724412/) | 2022 | Review | *Annu Rev Pathol* | PLD pathogenesis: sequence of primary gene mutations → cyst initiation → hepatic cystogenesis progression; potential therapeutic targets |
-| [28375157](https://pubmed.ncbi.nlm.nih.gov/28375157/) | 2017 | Basic Research | *J Clin Invest* | Whole exome sequencing in 102 PCLD patients identifies novel causative genes; isolated PCLD genes act as effectors of polycystin-1 |
-| [36200122](https://pubmed.ncbi.nlm.nih.gov/36200122/) | 2022 | Review | *Hepatic Med* | PLD pathophysiology: ductal plate malformation, ciliary dysfunction, and aberrant cell signalling drive cystogenesis |
-| [37943238](https://pubmed.ncbi.nlm.nih.gov/37943238/) | 2023 | Review | *Adv Kidney Dis Health* | Symptomatic PLD complications arising from massive cyst enlargement; liver is the most common extrarenal site in ADPKD |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-None of the five predicted indications presents a credible mechanistic basis linking Mirabegron's β3-AR agonism to the predicted disease pathways, all of which involve congenital structural defects or ciliopathies with fundamentally different molecular drivers. The PKD3 prediction (rank 5) is the most developed mechanistically, but Mirabegron's cAMP-promoting effect theoretically aligns with — rather than opposes — the disease mechanism, raising a potential harm signal that must be resolved before any further study is justified.
+---
 
-**To proceed, the following is needed:**
+## Danmark markedsinformation
 
-- **MOA data**: Retrieve complete mechanism of action data from DrugBank (DB08893) to underpin all mechanistic plausibility assessments
-- **Safety data**: Obtain the approved SmPC (EMA Betmiga EU/1/12/809) to establish the full safety profile, including warnings, contraindications, and known drug interactions
-- **Danish regulatory confirmation**: Verify Betmiga's current availability in Denmark under the EMA centralised authorisation pathway with Laegemiddelstyrelsen
-- **PKD3 cAMP directionality study**: Before PKD3 can be considered further, dedicated mechanistic studies are required to determine whether β3-AR agonism exacerbates or protects against cyst progression in GANAB-mutant and ADPKD models
-- **De-prioritise remaining indications**: Thoracic malformation, renal-hepatic-pancreatic dysplasia, Joubert syndrome, and adult familial nephronophthisis–spastic quadriparesia all lack supporting evidence and biologically plausible mechanistic links — further investigation is not recommended at this stage
+Der blev ikke identificeret markedsføringsgodkendelser for mirabegron i den danske nationale regulatoriske database (0 licenser, ikke markedsført).
+
+> **Bemærk:** Mirabegron (varemærke Betmiga) har en centraliseret EMA-markedsføringsgodkendelse (EU/1/12/809) til overaktiv blære hos voksne. Tilgængelighed i Danmark via EMA centraliserede procedure bør bekræftes direkte med Lægemiddelstyrelsen, da centraliserede EMA-godkendelser muligvis ikke afspejles i det nationale datasæt, der bruges her.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Yderligere forudsagte indikationer
+
+Dette er en rapport med flere kandidater (TW-DB08893-multi). TxGNN-modellen identificerede fem unikke sygdomme på tværs af de 10 øverste forudsigelser. Alle har en **Afvent**-anbefaling. Tabellen nedenfor opsummerer vigtige forskelle i bevisniveau og mekanistiske bekymringer.
+
+| Rang | Sygdom | TxGNN score | Bevisniveau | Vigtig mekanistisk bekymring | Anbefaling |
+|------|--------|-------------|-------------|------------------------------|------------|
+| 1 | Thorakale misdannelser | 83,06% | L5 | Ingen kendt β3-AR-forbindelse til thorakal udvikling; sandsynlig modelstøj | Afvent |
+| 3 | Nyremisdannelser med hepatisk og pancreatic dysplasi | 82,93% | L5 | Ciliopati (NPHP3-mutation); β3-AR/cAMP ikke forbundet med ciliær assembly eller planar cell polarity-veie | Afvent |
+| 5 | PKD3 ± Polycystisk leversygdom | 82,20% | L4 | β3-AR → cAMP-akse **deler samme retning** som PKD-sygdomsvej; kan forværre cysteproliferation | Afvent |
+| 7 | Joubert-syndrom med nyre-defekt | 80,89% | L5 | Ciliopati (AHI1/CEP290/TMEM67); β3-AR/cAMP ikke forbundet med IFT-system eller Hedgehog-signalering | Afvent |
+| 9 | Adult familial nefronoftisis–spastisk kvadriparese | 80,32% | L5 | Ultrasjælden ciliopati; ingen mekanistisk forbindelse; patienttal for små til klinisk gennemførlighed | Afvent |
+
+### PKD3 baggrundslitteratur
+
+PKD3-indikationen (rang 5) er den eneste forudsigelse med tilhørende litteratur (20 publikationer). **Ingen af disse publikationer studerer mirabegron i PKD3; de er kun sygdomsbaggrundskontekst.** Desuden rejser den mekanistiske analyse en potentiel sikkerhedsbeskaffenhed: Mirabegronanals cAMP-forhøjende mekanisme stemmer overens med — i stedet for at modvirker — PKD3-sygdomsvej, hvilket potentielt kan accelerere cysteproliferation. Dette skal præciseres, før indikationen kan avanceres.
+
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|--------|-------------|
+| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Oversigt | *Lancet* | Omfattende ADPKD-oversigt: systemisk lidelse med nyre-cyster, hypertension, lever-cyster, intrakranielle aneurismer og hjerteklap-sygdom |
+| [38958301](https://pubmed.ncbi.nlm.nih.gov/38958301/) | 2024 | Klinisk retningslinje | *Am J Gastroenterol* | ACG retningslinje om fokale leverlæsioner; omfatter ledelse af hepatiske cystiske læsioner, herunder polycystisk leversygdom |
+| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Klinisk retningslinje | *J Hepatol* | EASL-retningslinjer for cystiske leversygdomme: hepatiske cyster, polycystisk leversygdom, Caroli-sygdom — diagnose og ledelse |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Oversigt | *Clin Liver Dis* | ADPKD- og polycystisk leversygdomsoversigt; tolvaptan's rolle i at bremse nyrfunktionsnedgang og cystevasext |
+| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Oversigt | *JASN* | Otte gener forbundet med ADPKD/ADPLD identificeret, herunder GANAB — genet impliceret i PKD3 |
+| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Oversigt | *Adv Kidney Dis Health* | Genetisk spektrum af PKD/PLD: PKD1 tegner sig for ~80% af ADPKD; primær ciliær dysfunktion er central for patogenesen |
+| [34724412](https://pubmed.ncbi.nlm.nih.gov/34724412/) | 2022 | Oversigt | *Annu Rev Pathol* | PLD-patogenese: sekvens af primære genmutationer → cysteinitiering → hepatisk cystogenesis-progression; potentielle terapeutiske mål |
+| [28375157](https://pubmed.ncbi.nlm.nih.gov/28375157/) | 2017 | Basisforskning | *J Clin Invest* | Helt eksomsekvensering i 102 PCLD-patienter identificerer nye årsaggende gener; isolerede PCLD-gener fungerer som effektorer af polycystin-1 |
+| [36200122](https://pubmed.ncbi.nlm.nih.gov/36200122/) | 2022 | Oversigt | *Hepatic Med* | PLD-patofysiologi: ductal plate-misdannelse, ciliær dysfunktion og unormal cellesignalering driver cystogenesis |
+| [37943238](https://pubmed.ncbi.nlm.nih.gov/37943238/) | 2023 | Oversigt | *Adv Kidney Dis Health* | Symptomatiske PLD-komplikationer, der opstår fra massiv cysteforstørrelse; leveren er det mest almindelige ekstrarenal sted i ADPKD |
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Ingen af de fem forudsagte indikationer præsenterer et troværdigt mekanistisk grundlag, der forbinder mirabegronanals β3-AR-agonisme til de forudsagte sygdomsveje, som alle involverer medfødte strukturelle defekter eller ciliopati med fundamentalt forskellige molekylære drivere. PKD3-forudsigelsen (rang 5) er den mest udviklet mekanistisk, men mirabegronanals cAMP-fremmende virkning stemmer teoretisk overens med — i stedet for at modvirker — sygdomsmekanismen, hvilket rejser et potentielt skadessignal, der skal løses, før yderligere forskning er berettiget.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **MOA-data**: Hent komplette mekanisme-for-handling-data fra DrugBank (DB08893) for at understøtte alle mekanistiske plausibilitetsvurderinger
+- **Sikkerhedsdata**: Indhent det godkendte produktresumé (SmPC) (EMA Betmiga EU/1/12/809) for at etablere den fulde sikkerhedsprofil, herunder advarsler, kontraindikationer og kendt lægemiddelinteraktioner
+- **Dansk regulatorisk bekræftelse**: Bekræft Betmigas aktuelle tilgængelighed i Danmark under EMA centraliserede godkendelsessti med Lægemiddelstyrelsen
+- **PKD3 cAMP-retningsstudie**: Før PKD3 kan overvejes yderligere, er dedikerede mekanistiske studier påkrævet for at bestemme, om β3-AR-agonisme forværrer eller beskytter mod cysteproliferation i GANAB-mutant og ADPKD-modeller
+- **Nedprioritér resterende indikationer**: Thorakale misdannelser, nyremisdannelser med hepatisk og pancreatic dysplasi, Joubert-syndrom og adult familial nefronoftisis–spastisk kvadriparese mangler alle understøttende beviser og biologisk plausibel mekanistisk forbindelse — yderligere undersøgelse anbefales ikke på dette tidspunkt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

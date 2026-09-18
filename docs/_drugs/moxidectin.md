@@ -29,101 +29,102 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moxidectin: From Onchocerciasis to Polyclonal Hyperviscosity Syndrome
+# Moxidectin: Fra onchocerciasis til polyklonal hyperviskøsitetssyndrom
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Moxidectin is a second-generation macrocyclic lactone antiparasitic agent, approved internationally (FDA 2018, EMA) for the treatment of onchocerciasis (river blindness), but not currently authorised in Denmark.
-The TxGNN model predicts it may be effective for **Polyclonal Hyperviscosity Syndrome** as the top-ranked candidate, with **0 clinical trials** and **0 publications** currently supporting this direction.
-All five unique predicted indications across the full prediction list sit at Evidence Level **L5** — computational model output only — and the overall recommendation for each is **Hold**.
+Moxidectin er et antiparasitært middel af anden generation (makrocyklisk lakton), godkendt internationalt (FDA 2018, EMA) til behandling af onchocerciasis (flodblindhed), men er for øjeblikket ikke autoriseret i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt over for **polyklonal hyperviskøsitetssyndrom** som den højest rangerede kandidat, med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning.
+Alle fem unikke forudsagte indikationer på hele prognoselistenen ligger på evidensniveau **L5** — udelukkende beregningsmodeloutput — og den overordnede anbefaling for hver er **Afvente**.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Onchocerciasis (river blindness) — based on established FDA/EMA approvals; no Danish authorisation on record |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
-| TxGNN Prediction Score | 98.06% |
-| Evidence Level | L5 (model prediction only — no clinical trials, observational studies, or literature identified) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Onchocerciasis (flodblindhed) — baseret på etablerede FDA/EMA-godkendelser; ingen dansk autorisation registreret |
+| Forudsagt ny indikation | Polyklonal hyperviskøsitetssyndrom |
+| TxGNN-prognosescore | 98,06% |
+| Evidensniveau | L5 (modelprognose alene — ingen kliniske forsøg, observationsstudier eller identificeret litteratur) |
+| Markedsstatus i Danmark | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognose rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, Moxidectin is a macrocyclic lactone (milbemycin subclass) antiparasitic that works by selectively potentiating glutamate-gated chloride (GluCl) ion channels found exclusively in invertebrate nerve and muscle tissue. This causes sustained hyperpolarisation and paralysis of the parasite (*Onchocerca volvulus*), leading to its death. Because mammalian nervous tissue lacks GluCl channels, the drug has a favourable therapeutic index in humans.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne bevismappe. Baseret på etableret farmakologisk viden er moxidectin et makrocyklisk lakton (milbemycin-underklasse) antiparasitikum, som virker ved selektivt at potentialisere glutamatgestyrte kloridkanaler (GluCl) fundet udelukkende i invertebratnervesystem og muskulatur. Dette forårsager vedvarende hyperpolarisering og lammelse af parasiten (*Onchocerca volvulus*), hvilket fører til dets død. Da pattedyrets nervevæv mangler GluCl-kanaler, har stoffet et gunstigt terapeutisk indeksspil hos mennesker.
 
-Polyclonal hyperviscosity syndrome is driven by pathological overproduction of polyclonal immunoglobulins (IgG, IgA, or IgM) from abnormally proliferating plasma cells or B-lymphocytes, resulting in markedly elevated serum viscosity. The core pathological pathway — B-cell receptor signalling, immunoglobulin class-switching, and plasma-cell differentiation — has no established intersection with GluCl channel pharmacology. Some macrocyclic lactones, including the closely related ivermectin, have been noted to exert non-specific immunomodulatory effects in observational contexts, but no mechanistic basis connecting Moxidectin to immunoglobulin regulation or B-cell biology has been described in peer-reviewed literature.
+Polyklonal hyperviskøsitetssyndrom drives af patologisk overproduktion af polyklonale immunglobuliner (IgG, IgA eller IgM) fra unormalt prolifererende plasmaceller eller B-lymfocytter, hvilket resulterer i markant forhøjet serumviskositet. Den grundlæggende patologiske vej — B-celleceptorsignalering, immunglobulinklasseskift og plasmaceldifferentiering — har ingen etableret skæringspunkt med GluCl-kanalfarmakolgi. Nogle makrocykliske laktoner, herunder det tæt beslægtede ivermectin, er blevet noteret at have ikke-specifik immunomodulatoriske effekter i observationelle sammenhænge, men der er ingen beskrevet mekanistisk basis, der forbinder moxidectin til immunglobulinregulering eller B-cellebiologi i fagfællebedømt litteratur.
 
-The high TxGNN score is most likely attributable to multi-hop graph traversal noise in the knowledge graph — for example, a connection path such as Moxidectin → chloride channel → neuroinflammation → IL pathway → B-cell activation → hyperviscosity — rather than a direct pharmacological relationship. This type of distant-node artefact is a recognised limitation of graph neural network predictions, particularly when intermediate disease nodes with high connectivity act as inadvertent bridges.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Den høje TxGNN-score er mest sandsynlig tilskrivelig multi-hop-grafgennemkrydsningsst ø j i vidensgraf — for eksempel en forbindelsesvej som moxidectin → kloridkanal → neuroinflamation → IL-vej → B-celleaktivering → hyperviskositet — snarere end en direkte farmakologisk forhold. Denne type fjernt-nodebartefakt er en anerkendt begrænsning af prognose for grafneuronetværk, især når intermediære sygdomsknudepunkter med høj tilslutning fungerer som utilsigtede broer.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Moxidectin currently holds **no marketing authorisations in Denmark**. Neither a national authorisation through the Danish Medicines Agency (Lægemiddelstyrelsen) nor a centralised EMA authorisation with Danish coverage has been identified in this evidence pack (data cut-off: 2026-04-04). The drug is commercially available in other jurisdictions (e.g., Moxidectin 8 mg tablets under the brand name *Moxi* in the USA; *Mavenclad*-class EMA approval is a separate compound) but has not obtained market access in Denmark.
-
-Any clinical use in Denmark would currently require either a named-patient/compassionate-use application or a full new marketing authorisation application via the EMA centralised procedure or a national procedure with Lægemiddelstyrelsen.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## All Unique TxGNN Predicted Indications — Overview
+## Litteraturbevis
 
-The following table summarises all five unique indications predicted by the TxGNN model. All carry evidence Level L5 and a **Hold** recommendation.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Mechanistic Plausibility Assessment | Decision |
+---
+
+## Markedinformation for Danmark
+
+Moxidectin har for øjeblikket **ingen markedsføringstilladelser i Danmark**. Hverken en national tilladelse gennem Lægemiddelstyrelsen eller en centraliseret EMA-tilladelse med dansk dækning er blevet identificeret i denne bevismappe (data cut-off: 2026-04-04). Stoffet er kommercielt tilgængeligt i andre jurisdiktioner (f.eks. moxidectin 8 mg tabletter under mærkenavnet *Moxi* i USA; *Mavenclad*-klasse EMA-godkendelse er en separat forbindelse), men har ikke opnået markedsadgang i Danmark.
+
+Enhver klinisk brug i Danmark ville i øjeblikket kræve enten en ansøgning om navngivet patient/humanitær brug eller en fuldstændig ny markedsføringstilladelse ansøgning via EMA centraliseret procedure eller en national procedure med Lægemiddelstyrelsen.
+
+---
+
+## Alle unikke TxGNN-forudsagte indikationer — oversigt
+
+Følgende tabel opsummerer alle fem unikke indikationer forudsagt af TxGNN-modellen. Alle har evidensniveau L5 og en **Afvente**-anbefaling.
+
+| Rang | Forudsagt indikation | TxGNN-score | Evidensniveau | Mekanistisk plausibilitets-vurdering | Beslutning |
 |------|---------------------|-------------|----------------|--------------------------------------|----------|
-| 1 | Polyclonal Hyperviscosity Syndrome | 98.06% | L5 | Very low — GluCl channel modulation has no known intersection with immunoglobulin synthesis or B-cell signalling | Hold |
-| 2 | Hyperamylasemia | 98.06% | L5 | Very low — secondary biochemical marker (not a primary disease entity); pancreatic acinar injury mechanism unrelated to GluCl pharmacology | Hold |
-| 3 | Congenital Analbuminemia | 97.90% | L5 | Very low — ultra-rare genetic disorder (ALB mutation, <100 cases globally); Moxidectin has no known effect on albumin gene expression or hepatic synthesis | Hold |
-| 4 | Staphylococcal Scalded Skin Syndrome (SSSS) | 97.83% | L5 | Weak — distant analogy to ivermectin's limited antimicrobial literature; no direct in vitro or in vivo data for Moxidectin against *S. aureus* or exfoliative toxins; most exploratory of the five | Hold |
-| 5 | Variola Minor Infection | 97.78% | L5 | Not applicable — causative pathogen (Variola virus) eradicated globally since 1980; natural infection impossible; clinical investigation ethically and practically not feasible | Hold |
+| 1 | Polyklonal hyperviskøsitetssyndrom | 98,06% | L5 | Meget lav — GluCl-kanalmodulering har ingen kendt skæring med immunglobulinsyntes eller B-cellsignalering | Afvente |
+| 2 | Hyperamylasæmi | 98,06% | L5 | Meget lav — sekundær biokemisk markør (ikke en primær sygdomsenhed); pankreatisk acinøs skademekanisme uden relation til GluCl-farmakolgi | Afvente |
+| 3 | Medfødt analbuminæmi | 97,90% | L5 | Meget lav — ultrasjælden genetisk lidelse (ALB-mutation, <100 tilfælde globalt); moxidectin har ingen kendt effekt på albumingenekspression eller hepatisk syntese | Afvente |
+| 4 | Stafylokkal scalded skin syndrome (SSSS) | 97,83% | L5 | Svag — fjern analogi til ivermectins begrænsede antimikrobielle litteratur; ingen direkte in vitro- eller in vivo-data for moxidectin mod *S. aureus* eller eksfoliativ giftstoffer; mest eksplorativ af de fem | Afvente |
+| 5 | Variola minor-infektion | 97,78% | L5 | Ikke relevant — årsagsvirus (Variola) udryddet globalt siden 1980; naturlig infektion umulig; klinisk undersøgelse etisk og praktisk ikke mulig | Afvente |
 
 ---
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) — FDA prescribing information or EMA product information — for full safety information, including warnings, precautions, and contraindications.
+Se venligst det godkendte produktresumé (SmPC) — FDA-receptinformation eller EMA-produktinformation — for fuldstændig sikkerhedsinformation, herunder advarsler, forholdsregler og kontraindikationer.
 
-> **Note for Danish prescribers:** No Danish SmPC is available as Moxidectin is not authorised in Denmark. The FDA-approved label (2018) and any EMA assessment reports are the appropriate reference documents. Key warnings in the approved label include neurological adverse events (dizziness, somnolence, tremor) and the risk of post-treatment reactions in patients with high *Onchocerca volvulus* microfilarial burden (Mazzotti-like reactions).
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-All five TxGNN-predicted indications are at the lowest evidence tier (L5 — computational signal only), with zero supporting clinical trials, observational studies, or peer-reviewed publications identified across all data sources queried (ClinicalTrials.gov, ICTRP, PubMed). The mechanistic links between Moxidectin's established GluCl channel pharmacology and the predicted disease areas are either absent (polyclonal hyperviscosity, hyperamylasemia, congenital analbuminemia, variola minor) or at best weakly theoretical (staphylococcal scalded skin syndrome). Moxidectin is additionally not authorised in Denmark, adding a substantial regulatory barrier to any clinical application.
-
-**To proceed, the following is needed:**
-
-- **MOA confirmation:** Retrieve full mechanistic profile from DrugBank (DB11431) to enable formal mechanism-to-indication mapping
-- **SmPC safety review:** Download and parse the FDA prescribing information and EMA scientific discussion documents to populate warnings, contraindications, and drug interaction data (currently all flagged as data gaps)
-- **Preclinical feasibility assessment:** For Staphylococcal Scalded Skin Syndrome specifically — the only indication with a weak theoretical basis — commission targeted in vitro antimicrobial activity studies for Moxidectin against *S. aureus* and exfoliative toxin ET-A/ET-B inhibition before any further investment
-- **KG audit:** Review the knowledge graph edge paths generating these predictions to identify and filter multi-hop noise artefacts; the duplicate ranking pattern (ranks 1&4, 2&3, 5&6, 7&8, 9&10 identical) suggests a systematic scoring artefact requiring technical review
-- **Regulatory pathway mapping:** If any indication advances to preclinical stage, initiate a regulatory pre-submission meeting with Lægemiddelstyrelsen or EMA to define the authorisation pathway for Denmark
-- **Variola minor:** Remove from active consideration — clinical investigation is not feasible for an eradicated pathogen; retain only for historical documentation
+> **Bemærkning for danske recepitorer:** Der er ingen dansk SmPC tilgængelig, da moxidectin ikke er autoriseret i Danmark. FDA-godkendt etiket (2018) og eventuelle EMA-evalueringsrapporter er de relevante referencedokumenter. Nøgleadvarsler i den godkendte etiket omfatter neurologiske bivirkninger (svimmelhed, søvnighed, tremor) og risiko for behandling efter reaktioner hos patienter med høj *Onchocerca volvulus* mikrofilariekbyrde (Mazzotti-lignende reaktioner).
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require rigorous clinical validation before any therapeutic application. Report generated: 2026-04-04. Evidence cut-off: 2026-04-04.*
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Alle fem TxGNN-forudsagte indikationer ligger på det laveste bevisslag (L5 — beregningsignal alene), med nul understøttende kliniske forsøg, observationsstudier eller fagfællebedømt publikationer identificeret på tværs af alle forespurgte datakilder (ClinicalTrials.gov, ICTRP, PubMed). De mekanistiske forbindelser mellem moxidectins etablerede GluCl-kanalfarmakolgi og de forudsagte sygdomsområder er enten fraværende (polyklonal hyperviskøsitet, hyperamylasæmi, medfødt analbuminæmi, variola minor) eller i bedste fald svagt teoretisk (stafylokkal scalded skin syndrome). Moxidectin er endvidere ikke autoriseret i Danmark, hvilket tilføjer en væsentlig regulatorisk barriere til enhver klinisk anvendelse.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **MOA-bekræftelse:** Hent fuld mekanistisk profil fra DrugBank (DB11431) for at muliggøre formel mekanisme-til-indikationskortlægning
+- **SmPC-sikkerhedsgennemgang:** Download og fortolk FDA-receptinformationen og EMA-videnskabelig diskussions-dokumenter for at udfylde advarsler, kontraindikationer og lægemiddelinteraktionsdata (for øjeblikket alle markeret som datagab)
+- **Præ-klinisk mulighedsvurdering:** For stafylokkal scalded skin syndrome specifikt — den eneste indikation med et svagt teoretisk grundlag — inden for målrettet in vitro antimikrobiel aktivitetsstudier for moxidectin mod *S. aureus* og eksfoliativ toksinstof ET-A/ET-B-hæmning før yderligere investering
+- **KG-revision:** Gennemgå vidensgraf-kantstier, der genererer disse prognoser, for at identificere og filtrere multi-hop-støjartefakter; det identiske rangeringsmønster (ranger 1&4, 2&3, 5&6, 7&8, 9&10 identisk) foreslår en systematisk scoringsartefakt, der kræver teknisk gennemgang
+- **Regulatorisk vejkortlægning:** Hvis nogen indikation avancerer til pre-klinisk fase, start en regulatorisk pre-submission-møde med Lægemiddelstyrelsen eller EMA for at definere autoriseringsvej for Danmark
+- **Variola minor:** Fjern fra aktiv overvejelse — klinisk undersøgelse er ikke mulig for en udryddet patogen; behold kun til historisk dokumentation
+
+---
+
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle kandidater til lægomvendelse kræver stringent klinisk validering før enhver terapeutisk anvendelse. Rapport genereret: 2026-04-04. Beviscut-off: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,92 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mupirocin: From Topical Bacterial Skin Infections to Pleural Empyema
+# Mupirocin: Fra topisk bakteriel hudinfektion til pleural empyem
 
-## One-Sentence Summary
+## Enlinjesammenfatning
 
-Mupirocin is a topical antibiotic with established use against Gram-positive bacterial skin infections (including impetigo and MRSA nasal decolonisation), but it currently holds no marketing authorisation in Denmark. The TxGNN model predicts it may be effective against **Pleural Empyema** with a score of **99.49%**; however, **no supporting clinical trials or publications** exist for this repurposing direction, and a fundamental route-of-administration barrier means the current formulation cannot physically reach the pleural cavity. All five unique predicted indications carry a **Hold** recommendation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; internationally used topically for bacterial skin infections and MRSA nasal decolonisation |
-| Predicted New Indication | Pleural Empyema |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Mupirocin er et topisk antibiotikum med etableret effekt mod Gram-positive bakterielle hudinfektioner (herunder impetigo og MRSA nasal dekolonisering), men det har i øjeblikket ingen markedsføringstilladelse i Danmark. TxGNN-modellen forudsiger, at det kan være effektivt mod **Pleural empyem** med en score på **99.49%**; imidlertid **findes der ingen understøttende kliniske forsøg eller publikationer** for denne genanvendelsesretning, og en fundamental administrationsvejsbarriere betyder, at den nuværende formulering ikke fysisk kan nå pleurahulen. Alle fem unikke forudsagte indikationer bærer en **Hold**-anbefaling.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Mupirocin is a naturally derived pseudomonic acid antibiotic (originally isolated from *Pseudomonas fluorescens*). Its mechanism centres on selective, reversible inhibition of bacterial isoleucyl-tRNA synthetase (IleRS), which blocks incorporation of isoleucine into nascent bacterial proteins and halts protein synthesis. This target is structurally distinct from human IleRS, which largely explains its selective antibacterial activity and topical tolerability. Its spectrum is narrow, covering primarily Gram-positive organisms — notably *Staphylococcus aureus* (including MRSA), coagulase-negative staphylococci, and Streptococcal species.
-
-Pleural empyema is a suppurative infection of the pleural space, and *Staphylococcus aureus* and Streptococcal species are among the most common causative pathogens — precisely the organisms Mupirocin targets. This pathogen-disease overlap in the TxGNN knowledge graph almost certainly drives the high prediction score of 99.49%, as the model recognises a valid biological link between the drug's antibacterial target and the common aetiology of empyema.
-
-However, a critical and currently insurmountable barrier exists: **route incompatibility**. Mupirocin is formulated exclusively as a topical ointment (skin and nasal). No systemic, intravenous, or intrapleural formulation is commercially available or clinically validated. Effective treatment of pleural empyema requires either systemic antibiotics with adequate pleural penetration, or direct intrapleural drainage and instillation — neither of which is achievable with existing Mupirocin preparations. The TxGNN score reflects mechanistic plausibility at the molecular level, not clinical deliverability, and must be interpreted accordingly.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Mupirocin in Pleural Empyema.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt brugt topisk til bakterielle hudinfektioner og MRSA nasal dekolonisering |
+| Forudsagt ny indikation | Pleural empyem |
+| TxGNN forudsigelsesscore | 99.49% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Hold** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for Mupirocin in Pleural Empyema.
+Mupirocin er et naturligt frembragt pseudomoninsyre-antibiotikum (oprindeligt isoleret fra *Pseudomonas fluorescens*). Dets mekanisme baserer sig på selektiv, reversibel inhibition af bakteriel isoleucyl-tRNA-synthetase (IleRS), som blokerer incorporering af isoleucin i nystartede bakterielle proteiner og stopper proteinsyntes. Dette mål er strukturelt forskelligt fra humant IleRS, hvilket stort set forklarer dets selektive antibakterielle aktivitet og topisk tolerabilitet. Dets spektrum er smalt og dækker primært Gram-positive organismer — især *Staphylococcus aureus* (herunder MRSA), koagulase-negative stafylokokker og streptokokker.
 
----
+Pleural empyem er en purulent infektion af pleurahulen, og *Staphylococcus aureus* og streptokokker er blandt de hyppigste causale patogener — præcis de organismer, som Mupirocin angriber. Denne patogen-sygdoms-overlap i TxGNN-vidensgrafben driver næsten helt sikkert den høje forudsigelsesscore på 99.49%, da modellen genkender en gyldig biologisk forbindelse mellem lægemidlets antibakterielle mål og den almindelige ætiologi for empyem.
 
-## Denmark Market Information
-
-Mupirocin currently holds no marketing authorisations in Denmark — neither via national procedure through the Danish Medicines Agency (Lægemiddelstyrelsen) nor via centralised procedure through the European Medicines Agency (EMA). The product is not commercially available on the Danish market.
+Imidlertid eksisterer en kritisk og i øjeblikket uoverstigelig barriere: **administrationsvejsinkompatibilitet**. Mupirocin er formuleret eksklusivt som en topisk salve (hud og næse). Der findes ingen systemisk, intravenøs eller intrapleuralt formulering, der er kommercielt tilgængelig eller klinisk valideret. Effektiv behandling af pleural empyem kræver enten systemiske antibiotika med tilstrækkelig pleural penetration, eller direkte intrapleuralt dræn og instillation — ingen af hvilke er opnåelige med eksisterende Mupirocin-præparater. TxGNN-scoren reflekterer mekanistisk plausibilitet på molekylært niveau, ikke klinisk gennemførlighed, og skal fortolkes derefter.
 
 ---
 
-## Other Predicted Indications — Overview
+## Kliniske forsøgsbevis
 
-The evidence pack contains predictions for four additional unique indications. All carry a **Hold** recommendation and are summarised below for completeness:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Key Concern |
-|------|---------------------|-------------|---------------|-------------|
-| 1 | Pleural Empyema | 99.49% | L5 | Route incompatibility; topical formulation cannot reach pleural cavity |
-| 3 | Punctate Epithelial Keratoconjunctivitis | 99.10% | L5 | Predominantly viral/non-bacterial aetiology; no antiviral activity; ocular safety not established |
-| 5 | Neurotrophic Keratopathy | 98.48% | L5 | Non-infectious, neurodegenerative disease; Mupirocin has no neuroprotective or epithelial repair mechanism |
-| 7 | Cutaneous Candidiasis | 98.27% | L4 | Fungal target (cell wall/membrane synthase) differs entirely from bacterial IleRS; one 1991 early-phase paper (PMID 1678836) provides weak indirect signal only |
-| 9 | Vaginal Discharge | 96.01% | L5 | Only associated trial (NCT07142408) concerns pre-operative MRSA decolonisation, not vaginal infection; likely TxGNN mapping artefact |
+I øjeblikket ingen tilknyttede kliniske forsøg registreret for Mupirocin i Pleural empyem.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug-drug interaction data, key warnings, or contraindication data were retrievable for this evidence pack.
+I øjeblikket ingen tilknyttet litteratur tilgængelig for Mupirocin i Pleural empyem.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Mupirocin har i øjeblikket ingen markedsføringstilladelser i Danmark — hverken via national procedure gennem Lægemiddelstyrelsen eller via centraliseret procedure gennem Det Europæiske Lægemiddelagentur (EMA). Produktet er ikke kommercielt tilgængeligt på det danske marked.
 
-**Rationale:**
-The TxGNN prediction for Mupirocin in pleural empyema rests on a biologically coherent but clinically non-actionable mechanistic link: the causative pathogens of empyema overlap with Mupirocin's antibacterial spectrum, yet no systemic or intrapleural formulation exists and no clinical or preclinical evidence supports this indication. The same fundamental barrier — route incompatibility or mechanistic mismatch — applies to all five predicted indications. Additionally, the drug is entirely absent from the Danish market, meaning even its established topical indications would require a full regulatory submission before any repurposing programme could proceed.
+---
 
-**To proceed, the following would be needed:**
+## Øvrige forudsagte indikationer — Oversigt
 
-- **Formulation development**: Demonstration that a systemic, intravenous, or intrapleural formulation of Mupirocin can be developed with acceptable pharmacokinetics, safety, and adequate pleural tissue penetration (currently no such formulation exists)
-- **Preclinical evidence**: In vitro MIC data for empyema-relevant Gram-positive pathogens at achievable tissue concentrations, followed by animal model studies for intrapleural efficacy
-- **MOA data retrieval**: Resolve data gap DG002 via DrugBank API to formally document the IleRS inhibition mechanism and confirm spectrum of activity
-- **Safety data retrieval**: Obtain full SmPC/SPC from the European product label or EMA public assessment report to resolve the blocking data gap DG001 before any safety evaluation can begin
-- **Regulatory pathway**: As the drug is not authorised in Denmark, a marketing authorisation application or compassionate use framework would be required before any clinical development programme could be initiated locally
+Bevisomfanget indeholder forudsigelser for fire yderligere unikke indikationer. Alle bærer en **Hold**-anbefaling og er opsummeret herunder for fuldstændighedens skyld:
 
-> ⚠️ *This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application.*
+| Rang | Forudsagt indikation | TxGNN score | Evidensniveau | Vigtig bekymring |
+|------|---------------------|-----------|---------------|-----------------|
+| 1 | Pleural empyem | 99.49% | L5 | Administrationsvejsinkompatibilitet; topisk formulering kan ikke nå pleurahulen |
+| 3 | Punktat epitelial keratokonjunktivitis | 99.10% | L5 | Primært viral/ikke-bakteriel ætiologi; ingen antiviral aktivitet; okular sikkerhed ikke etableret |
+| 5 | Neurotrof keratopati | 98.48% | L5 | Ikke-infektiøs, neurodegenerativ sygdom; Mupirocin har ingen neuroprotektiv eller epitielreparationsmekanisme |
+| 7 | Kutanøs kandidiasis | 98.27% | L4 | Fungalt mål (cellevæg/membransyntase) helt forskellig fra bakteriel IleRS; en enkelt tidligt-fase artikel fra 1991 (PMID 1678836) giver kun svagt indirekte signal |
+| 9 | Vaginalt udflod | 96.01% | L5 | Kun tilknyttet forsøg (NCT07142408) vedrørende pre-operativ MRSA dekolonisering, ikke vaginal infektion; sandsynligvis TxGNN-kortlægningsartefakt |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst godkendt produktinformation (SmPC) for sikkerhedsinformation. Ingen lægemiddel-lægemiddel-vekselvirkningsdata, vigtige advarsler eller kontraindikationsdata kunne hentes for dette bevisomfang.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+TxGNN-forudsigelsen for Mupirocin i pleural empyem hviler på en biologisk sammenhængende men klinisk ikke-handlingsbar mekanistisk forbindelse: de causale patogener for empyem overlapper med Mupirocins antibakterielle spektrum, men der eksisterer ingen systemisk eller intrapleuralt formulering og ingen kliniske eller præ-kliniske beviser understøtter denne indikation. Den samme grundlæggende barriere — administrationsvejsinkompatibilitet eller mekanistisk mismatch — gælder for alle fem forudsagte indikationer. Desuden er lægemidlet helt fraværende fra det danske marked, hvilket betyder, at selv dets etablerede topiske indikationer ville kræve en fuld regulatorisk indsendelse, før noget genanvendelsesprogrammet kunne fortsætte.
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- **Formuleringudvikling**: Demonstration af, at en systemisk, intravenøs eller intrapleuralt formulering af Mupirocin kan udvikles med acceptabel farmakokinetik, sikkerhed og tilstrækkelig pleural vævspenetration (i øjeblikket findes ingen sådan formulering)
+- **Præ-klinisk bevis**: In vitro MIC-data for empyem-relevante Gram-positive patogener ved opnåelige vevkoncentrationer, efterfulgt af dyremodel-studier for intrapleuralt effektivitet
+- **MOA-datahentning**: Løs datagab DG002 via DrugBank API for formelt at dokumentere IleRS-inhibitionsmekanismen og bekræfte aktivitetsspektrum
+- **Sikkerhedsdatahentning**: Få fuldstændig SmPC fra det europæiske produktetiket eller EMA offentlig vurderingsrapport for at løse den blokerende datagab DG001, før nogen sikkerhedsevaluering kan starte
+- **Regulatorisk vej**: Da lægemidlet ikke er godkendt i Danmark, ville en markedsføringstilladelsesansøgning eller compassionate use-rammeværk være påkrævet, før noget klinisk udviklingsprogram kunne påbegyndes lokalt
+
+> ⚠️ *Denne rapport er til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til genanvendelse af lægemidler kræver klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

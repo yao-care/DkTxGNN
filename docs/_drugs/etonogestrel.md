@@ -29,92 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etonogestrel: From Contraception to Amenorrhea
+# Etonogestrel: Fra Prævention til Amenoré
 
-## One-Sentence Summary
+## Opsummering i én sætning
 
-Etonogestrel is a third-generation progestogen primarily used for long-acting reversible contraception (e.g., subdermal implant marketed as Nexplanon/Implanon).
-The TxGNN model predicts it may be effective for **Amenorrhea**, with a prediction score of 99.84%; however, this prediction is almost certainly a **reverse association artefact** — etonogestrel is known to *cause* amenorrhea as a side effect in 20–30% of implant users, not to treat it.
-Supporting evidence is limited to **1 clinical trial** (contraception-focused, not amenorrhea treatment) and **1 relevant publication**.
+Etonogestrel er et tredje-generations-gestagen, der primært bruges til langtidsvirkende reversibel prævention (f.eks. subdermal implantat markedsført som Nexplanon/Implanon).
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Amenoré**, med en forudsigelsesscore på 99,84%; dette er dog næsten helt sikkert en **omvendt associationsartefakt** — etonogestrel vides at *forårsage* amenoré som en bivirkning hos 20–30% af implantbrugere, ikke at behandle det.
+Understøttende bevis er begrænset til **1 klinisk forsøg** (fokuseret på prævention, ikke amenoré-behandling) og **1 relevant publikation**.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Contraception (long-acting reversible) |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 — No direct therapeutic evidence; mechanistic studies only |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Prævention (langtidsvirkende reversibel) |
+| Forudsagt ny indikation | Amenoré (sygdom) |
+| TxGNN forudsigelsesscore | 99,84% |
+| Bevisniveau | L4 — Intet direkte terapeutisk bevis; kun mekanistiske studier |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-> Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, etonogestrel is a synthetic progestogen (the active metabolite of desogestrel) that acts as a potent agonist at the progesterone receptor. It achieves contraception primarily by suppressing ovulation via inhibition of the LH surge, thickening cervical mucus, and inducing endometrial atrophy.
+> I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i evidenspakken. Baseret på kendt farmakologi er etonogestrel et syntetisk gestagen (det aktive metabolit af desogestrel), der fungerer som en potent agonist ved progesteronreceptoren. Det opnår prævention primært ved at undertrykke ovulation via hæmning af LH-toppen, fortykking af cervixslim og induktion af endometrial atrofi.
 
-**⚠️ Critical caveat — Reverse Association:** The TxGNN model has very likely misinterpreted a well-documented *side-effect relationship* as a *therapeutic relationship*. Etonogestrel-releasing implants cause amenorrhea in approximately 20–30% of users due to profound suppression of the hypothalamic-pituitary-ovarian axis and endometrial atrophy. In other words, etonogestrel **induces** amenorrhea rather than treating it. The knowledge graph likely contains numerous co-occurrence links between etonogestrel and amenorrhea in adverse event reports and clinical trial outcome data, inflating the prediction score.
+**⚠️ Kritisk forbehold — Omvendt association:** TxGNN-modellen har meget sandsynligt fejltolket en veldokumenteret *bivirkningsrelation* som en *terapeutisk relation*. Etonogestrel-frigivende implantater forårsager amenoré hos cirka 20–30% af brugere på grund af dyb undertrykkelse af hypotalamisk-hypofysær-ovarial-aksen og endometrial atrofi. Med andre ord **fremkalder** etonogestrel amenoré snarere end at behandle det. Videngrafen indeholder sandsynligvis talrige co-occurrence-links mellem etonogestrel og amenoré i bivirkningsmeldinger og kliniske forsøgsdata, hvilket øger forudsigelsesscore'n.
 
-From a clinical standpoint, amenorrhea itself has diverse aetiologies (hypothalamic, pituitary, ovarian, uterine), and adding a progestogen that further suppresses the HPO axis would be counterproductive in most forms of pathological amenorrhea. This prediction does not carry therapeutic significance and should not be pursued as a repurposing candidate.
+Fra et klinisk synspunkt har amenoré diverse ætiologier (hypotalamisk, hypofysær, ovarial, uterinsk), og tilføjelse af et gestagen, der yderligere undertrykker HPO-aksen, ville være kontraproduktivt i de fleste former for patologisk amenoré. Denne forudsigelse har ingen terapeutisk betydning og bør ikke forfølges som en kandidat til genudnyttelse.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Antal deltakere | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Phase 3 | Completed | 498 | Assessed contraceptive efficacy and safety of the etonogestrel implant during extended use (years 4–5). **Not a treatment trial for amenorrhea** — amenorrhea was recorded only as a bleeding-pattern side effect. Relevance to amenorrhea treatment: **Low (Grade C).** |
+| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Afsluttet | 498 | Vurderede præventiv virkning og sikkerhed ved etonogestrel-implantatet under forlænget brug (år 4–5). **Ikke et behandlingsforsøg for amenoré** — amenoré blev registreret kun som en blødningsmønster-bivirkning. Relevans for amenoré-behandling: **Lav (Grad C).** |
 
-> **Note:** No clinical trials investigating etonogestrel as a *treatment* for amenorrhea were identified.
+> **Bemærk:** Ingen kliniske forsøg, der undersøgte etonogestrel som *behandling* for amenoré, blev identificeret.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige fund |
 |------|-----|------|------|---------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | RCT | Contraception | Compared Implanon (single-rod etonogestrel) vs. Norplant (six-capsule levonorgestrel) for contraceptive efficacy and bleeding patterns in 200 women over 2–4 years. No pregnancies occurred. **Amenorrhea was reported as a side effect**, not studied as a treatment endpoint. |
+| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | RCT | Contraception | Sammenlignede Implanon (enkelt-rod etonogestrel) mod Norplant (seks-kapsel levonorgestrel) for præventiv virkning og blødningsmønstre hos 200 kvinder over 2–4 år. Ingen graviditeter forekom. **Amenoré blev rapporteret som en bivirkning**, ikke undersøgt som et behandlingsendepunkt. |
 
-> **Note:** A second literature result (PMID 33430924) was returned by the search but concerns a COVID-19 pneumonia trial (BIO101/COVA study) with no relevance to etonogestrel or amenorrhea and has been excluded.
+> **Bemærk:** Et second litteraturresultat (PMID 33430924) blev returneret ved søgningen, men angår et COVID-19-pneumoni-forsøg (BIO101/COVA-studie) uden relevans for etonogestrel eller amenoré og er blevet udelukket.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Etonogestrel currently holds no marketing authorisations in the dataset reviewed.
+Etonogestrel har i øjeblikket ingen markedsføringstilladelser i det gennemgåede datasæt.
 
-> **Note:** Etonogestrel-containing products (e.g., Nexplanon) may hold centralised EMA authorisations valid in Denmark. Clinicians should consult the Danish Medicines Agency (Lægemiddelstyrelsen) or the EMA Union Register for current authorisation status.
+> **Bemærk:** Produkter indeholdende etonogestrel (f.eks. Nexplanon) kan have centraliserede EMA-tilladelser, der gælder i Danmark. Klinikere bør konsultere Lægemiddelstyrelsen eller EMA-unionsregisteret for aktuel tilladelsestatus.
 
-## Additional Predicted Indications (Lower-Ranked)
+## Yderligere forudsagte indikationer (lavere rangerede)
 
-The TxGNN model also predicted several benign breast conditions. These are summarised below for completeness:
+TxGNN-modellen forudsagde også flere godartede brysttilstande. Disse er opsummeret herunder for fuldstændighed:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Comment |
+| Rangering | Sygdom | TxGNN-score | Bevisniveau | Anbefaling | Kommentar |
 |------|---------|-------------|----------------|----------------|---------|
-| 3 | Breast fibrocystic disease | 99.61% | L5 | Research Question | Hormonal sensitivity provides theoretical rationale, but clinical evidence is contradictory. No trials or publications found. |
-| 5 | Blunt duct adenosis of breast | 99.29% | L5 | Hold | Rare histopathological subtype; typically managed by imaging surveillance, not pharmacotherapy. High score likely reflects graph proximity to other breast diseases. |
-| 6 | Apocrine adenosis of breast | 99.29% | L5 | Hold | Identical score to blunt duct adenosis, suggesting the model groups these via disease cluster proximity rather than independent drug-disease evidence. Not treated pharmacologically. |
-| 9 | Benign mammary dysplasia | 99.21% | L5 | Research Question | Highly overlapping diagnostic concept with fibrocystic disease. Progestogen anti-oestrogenic effects are theoretically plausible but clinically unproven. |
+| 3 | Godartad fibrocystisk brystsygdom | 99,61% | L5 | Forskningsspørgsmål | Hormonel følsomhed giver teoretisk begrundelse, men klinisk bevis er modstridende. Ingen forsøg eller publikationer fundet. |
+| 5 | Stump ductus-adenose i brystet | 99,29% | L5 | Afvent | Sjælden histopatologisk undertype; typisk styret af billeddiagnostik-overvågning, ikke farmakoterapia. Høj score er sandsynligvis refleksion af grafnærhed til andre brystsygdomme. |
+| 6 | Apokrin adenose i brystet | 99,29% | L5 | Afvent | Identisk score til stump ductus-adenose, hvilket tyder på, at modellen grupperer disse via sygdomsklynge-nærhed snarere end uafhængige lægemiddel-sygdoms-bevis. Ikke behandlet farmakologisk. |
+| 9 | Godartad mamma-dyspladasi | 99,21% | L5 | Forskningsspørgsmål | Meget overlappende diagnostisk koncept med fibrocystisk sygdom. Gestagen-anti-østrogen-effekter er teoretisk plausible, men klinisk ubevist. |
 
-> **Pattern observation:** The clustering of benign breast conditions with nearly identical TxGNN scores (99.2–99.6%) strongly suggests the model is propagating predictions through disease graph proximity rather than identifying independent therapeutic signals.
+> **Mønsterobservation:** Klyngen af godartede brysttilstande med næsten identiske TxGNN-score (99,2–99,6%) tyder stærkt på, at modellen propagerer forudsigelser gennem sygdomsgrafnærhed snarere end at identificere uafhængige terapeutiske signaler.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key safety data (warnings, contraindications, and drug–drug interactions) were not available in this evidence pack.
+> Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Vigtige sikkerhedsdata (advarsler, kontraindikationer og lægemiddel-lægemiddel-interaktioner) var ikke tilgængelige i denne evidenspakke.
 
-> For products authorised in the EU (e.g., Nexplanon), the SmPC is available via the EMA website. Known class-level concerns for progestogens include thromboembolic events, effects on lipid metabolism, mood changes, and interactions with CYP3A4 inducers (e.g., rifampicin, carbamazepine, phenytoin).
+> For produkter godkendt i EU (f.eks. Nexplanon) er SmPC tilgængeligt via EMA-websitet. Kendte klassebrede bekymringer for gestagener omfatter tromboemboliske hændelser, effekter på lipidstofskiftet, humørændringer og interaktioner med CYP3A4-induktorer (f.eks. rifampicin, carbamazepin, phenytoin).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The top-ranked TxGNN prediction (amenorrhea) represents a classic **reverse association artefact** — etonogestrel causes amenorrhea as a known pharmacological side effect and does not treat it. The remaining predictions (benign breast conditions) are all at evidence level L5 (model prediction only) with zero clinical trials and zero publications, and the identical scores across related breast conditions indicate graph-proximity-driven predictions rather than genuine therapeutic signals. This candidate should not advance to further evaluation.
+**Begrundelse:**
+Den toprangerede TxGNN-forudsigelse (amenoré) repræsenterer en klassisk **omvendt associationsartefakt** — etonogestrel forårsager amenoré som en kendt farmakologisk bivirkning og behandler det ikke. De resterende forudsigelser (godartede brysttilstande) befinder sig alle på bevisniveau L5 (kun modelforudsigelse) uden kliniske forsøg og uden publikationer, og de identiske score på tværs af relaterede brysttilstande indikerer grafnærhed-drevne forudsigelser snarere end genuine terapeutiske signaler. Denne kandidat bør ikke gå videre til yderligere evaluering.
 
-**If future re-evaluation is considered, the following would be needed:**
-- Detailed mechanism of action data (MOA) from DrugBank
-- Safety data from the approved SmPC (warnings, contraindications, DDI)
-- Clarification of Denmark market status via Lægemiddelstyrelsen / EMA registers
-- For breast fibrocystic disease specifically: a targeted literature search for progestogen effects on fibrocystic breast changes (broader than etonogestrel alone)
-- Expert clinical review to distinguish genuine therapeutic signals from side-effect or graph-proximity artefacts in TxGNN output
+**Hvis fremtidig re-evaluering overvejes, ville følgende være nødvendigt:**
+- Detaljerede virkningsmekanisme-data (MOA) fra DrugBank
+- Sikkerhedsdata fra det godkendte produktresumé (advarsler, kontraindikationer, lægemiddel-lægemiddel-interaktioner)
+- Afklaring af markedsstatus i Danmark via Lægemiddelstyrelsen / EMA-registre
+- For fibrocystisk brystsygdom specifikt: en målrettet litteratursøgning for gestagen-effekter på fibrocystiske brystændringer (bredere end blot etonogestrel)
+- Ekspertlig klinisk gennemgang for at skelne genuine terapeutiske signaler fra bivirkning- eller grafnærhed-artefakter i TxGNN-resultater
 
 ---
 
-*This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+*Denne rapport er til forskningsformål og udgør ikke medicinsk rådgivning. Alle kandidater til genudnyttelse af lægemidler kræver klinisk validering før eventuel terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

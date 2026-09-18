@@ -29,102 +29,103 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alprostadil: From Peripheral Arterial Disease to Aortic Malformation
+# Alprostadil: Fra perifer arteriel sygdom til aortamisdannelse
 
-## One-Sentence Summary
+## Sammenfatning på én linje
 
-Alprostadil is a synthetic prostaglandin E1 (PGE1) analogue used internationally for peripheral arterial disease, erectile dysfunction, and as emergency bridging therapy for ductus-dependent congenital heart conditions — it is not currently registered in Denmark (Lægemiddelstyrelsen).
-The TxGNN model predicts it may be effective for **Aortic Malformation** (specifically ductus-dependent aortic anomalies such as interrupted aortic arch and critical aortic stenosis in neonates),
-with **2 clinical trials** and **20 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; internationally approved for peripheral arterial disease, erectile dysfunction, and neonatal ductus-dependent cardiac conditions in other jurisdictions |
-| Predicted New Indication | Aortic Malformation |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Alprostadil er en syntetisk prostaglandin E1 (PGE1)-analog, der internationalt bruges til behandling af perifer arteriel sygdom, erektil dysfunktion og som nødudskydende brobehandling ved dutus-afhængige medfødte hjertesygdomme — det er i øjeblikket ikke registreret i Danmark (Lægemiddelstyrelsen).
+TxGNN-modellen forudsiger, at det kan være effektivt til behandling af **aortamisdannelser** (specifikt dutus-afhængige aortaanomalier såsom afbrudt aorta og kritisk aortastenose hos nyfødte),
+med **2 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Alprostadil is the synthetic form of prostaglandin E1 (PGE1), a naturally occurring lipid mediator with potent vasodilatory and platelet-aggregation-inhibiting properties. Detailed mechanism of action data was not retrievable through the automated DrugBank query for this evidence pack. Based on the mechanistic evidence embedded in the prediction rationale and the supporting literature, Alprostadil binds to EP4 receptors on smooth muscle cells of the ductus arteriosus (DA), activating adenylate cyclase and elevating intracellular cyclic AMP (cAMP). The resulting smooth muscle relaxation maintains patency of the ductus arteriosus (PDA) — a mechanism that is well characterised, consistent across the literature, and specific to Alprostadil's role in neonatal cardiovascular management.
-
-Aortic malformations such as interrupted aortic arch (IAA) and critical aortic valvar stenosis represent ductus-dependent systemic circulation lesions: the neonate's systemic perfusion is wholly or partially dependent on PDA patency until surgical repair can be performed. Intravenous PGE1 infusion therefore functions as a haemodynamic stabilisation bridge, maintaining systemic output and preventing cardiovascular collapse in the pre-operative period. This use was described as revolutionary upon PGE1's introduction in the late 1970s (PMID 26686446), and PGE1 remains the standard of care in international paediatric cardiac practice.
-
-The TxGNN model prediction is therefore consistent with an established pharmacological mechanism. The high prediction score (99.98%) reflects the strong biological plausibility: aortic malformation is a well-recognised ductus-dependent lesion, Alprostadil's EP4-mediated ductal patency mechanism directly addresses the pathophysiology, and multiple decades of clinical literature — including a controlled trial, prospective series, and clinical guidelines — support its perioperative application in this setting.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04054115](https://clinicaltrials.gov/study/NCT04054115) | Phase 1 | Terminated | 10 | Investigated the acute effects of Alprostadil on cerebral and pulmonary blood flow following bidirectional cavopulmonary connection (BCPC) — the second-stage single-ventricle palliation procedure in which the superior vena cava is connected to the pulmonary artery. Alprostadil was selected for its known capacity to increase cerebral blood flow and promote pulmonary vasodilation. Trial was terminated early; with only 10 enrolled patients, statistical power for efficacy conclusions is insufficient. Provides exploratory safety reference data for Alprostadil in complex congenital heart disease contexts including aortic anomalies. |
-| [NCT02042092](https://clinicaltrials.gov/study/NCT02042092) | N/A | Completed | 39 | Cross-sectional head-to-head comparison of Colour Doppler Ultrasonography (CDUS) versus Magnetic Resonance Angiography (MRA) for imaging the supraaortic large vessels (aorta, carotid, subclavian, vertebral, and axillary arteries) in patients with systemic large vessel vasculitis. This is a diagnostic imaging comparison study, not a therapeutic Alprostadil trial. Provides contextual background on aortic vascular characterisation and disease burden but does not directly evaluate drug efficacy. |
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt godkendt til perifer arteriel sygdom, erektil dysfunktion og neonatal dutus-afhængig hjertesygdom i andre jurisdiktioner |
+| Forudsagt ny indikation | Aortamisdannelse |
+| TxGNN-forudsigelsesscore | 99.98% |
+| Evidensniveau | L3 |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt under sikkerhedsbetingelser |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse fornuftig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | RCT / Controlled trial | Zhonghua yi xue za zhi | Investigated therapeutic effects of Alprostadil (Lipo-PGE1) and Ulinastatin on inflammatory response and lung injury after cardiopulmonary bypass in paediatric patients with congenital heart diseases. Highest-quality study type in this evidence set; directly evaluates Alprostadil as an active intervention in the CHD paediatric population. |
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Prospective observational | Pharmacotherapy | Direct evaluation of Alprostadil (PGE1) in management of congenital heart disease in infancy. Demonstrates PDA dilation and improved systemic and pulmonary blood flow in neonates with ductus-dependent lesions including those with right ventricular outflow obstruction; foundational reference for Alprostadil's neonatal cardiac indication. |
-| [26686446](https://pubmed.ncbi.nlm.nih.gov/26686446/) | 2015 | Review | Seminars in Thoracic and Cardiovascular Surgery | Comprehensive review of interrupted aortic arch management; identifies PGE1 introduction in the late 1970s as a pivotal advance, describes complete pre-operative resuscitation protocol, and supports one-stage primary neonatal repair with direct arch anastomosis as current preferred surgical strategy. |
-| [25647388](https://pubmed.ncbi.nlm.nih.gov/25647388/) | 2014 | Review / Clinical guideline | Cardiology in the Young | Outlines pre-operative management of neonatal critical aortic valvar stenosis including PGE1 infusion as a core haemodynamic stabilisation strategy before surgical or catheter-based intervention; discusses elevated left ventricular wall stress and the pathophysiological rationale for maintaining ductal patency. |
-| [1926911](https://pubmed.ncbi.nlm.nih.gov/1926911/) | 1991 | Clinical review | DICP: The Annals of Pharmacotherapy | Recommends initiation of PGE1 stabilisation as soon as a ductus-dependent cardiac defect is suspected, preferably prior to neonatal transport to a tertiary care centre; provides practical guidance for community hospitals on Alprostadil use in this emergency setting. |
-| [10771966](https://pubmed.ncbi.nlm.nih.gov/10771966/) | 1998 | Clinical series | Indian Journal of Pediatrics | Documents PGE1 use in ductus-dependent CHD including aortic coarctation and related aortic anomalies; describes the clinical indications, safe dosing, and observed haemodynamic responses across diverse congenital cardiac defect types. |
-| [32184038](https://pubmed.ncbi.nlm.nih.gov/32184038/) | 2020 | Retrospective cohort | Asian Journal of Surgery | Contemporary outcomes from staged surgical repair for interrupted aortic arch (IAA); prostaglandin stabilisation is integral to the pre-operative protocol described. Provides current-era surgical outcome data relevant to the clinical context in which Alprostadil is used. |
-| [16368373](https://pubmed.ncbi.nlm.nih.gov/16368373/) | 2006 | Retrospective cohort | The Annals of Thoracic Surgery | Long-term outcomes, risk factors, and reoperations following treatment of critical aortic stenosis in neonates; contextualises the surgical landscape and morbidity profile of the patient population for which Alprostadil bridging is used. |
-| [7201134](https://pubmed.ncbi.nlm.nih.gov/7201134/) | 1982 | Case series | Pediatric Cardiology | PGE1 infusion in 7 neonates with hypoplastic left ventricle and aortic atresia; transient metabolic and circulatory improvement was documented in 6 of 7 cases, with limitations noted in cases of advanced deterioration. One of the earliest published case series specifically linking Alprostadil to aortic anomaly management. |
-| [30347623](https://pubmed.ncbi.nlm.nih.gov/30347623/) | 2019 | Review | Journal of Neonatal-Perinatal Medicine | Describes enteral feeding strategies and the incidence of necrotising enterocolitis (NEC) in infants with duct-dependent congenital heart lesions receiving PGE1 infusion; highlights a clinically important safety consideration for prolonged Alprostadil infusion in neonates. |
+Alprostadil er den syntetiske form af prostaglandin E1 (PGE1), et naturligt forekommende lipidmediator med potente vasodilatatoriske og trombocytaggregationshemmende egenskaber. Detaljerede data om virkningsmekanisme var ikke tilgængelige gennem den automatiserede DrugBank-forespørgsel til denne bevissamling. Baseret på de mekanistiske beviser, der er indlejret i forudsigelsens begrundelse, og den understøttende litteratur binder Alprostadil sig til EP4-receptorer på glatte muskelceller i ductus arteriosus (DA), aktiverer adenylatcylase og øger intracellulært cyklisk AMP (cAMP). Den resulterende glatte muskelafslappelse opretholder patency af ductus arteriosus (PDA) — en mekanisme, der er velkarakteriseret, konsistent på tværs af litteraturen og specifik for Alprostadils rolle inden for neonatal kardiovaskulær styring.
+
+Aortamisdannelser såsom afbrudt aorta (IAA) og kritisk aortastenose repræsenterer dutus-afhængige systemiske cirkulationsdefekter: nyfødtes systemiske perfusion er helt eller delvist afhængig af PDA-patency, indtil kirurgisk reparation kan udføres. Intravenøs PGE1-infusion fungerer derfor som en hæmodynamisk stabiliseringsbro, der opretholder systemisk output og forhindrer kardiovaskulært kollaps i præoperativ periode. Denne anvendelse blev beskrevet som revolutionær ved introduktionen af PGE1 i slutningen af 1970erne (PMID 26686446), og PGE1 er fortsat standarden for behandling inden for international pædiatrisk kardiologi.
+
+TxGNN-modelforudsigelsen er derfor konsistent med en etableret farmakologisk mekanisme. Den høje forudsigelsesscore (99.98%) afspejler den stærke biologiske plausibilitet: aortamisdannelse er en velkendt dutus-afhængig lidelse, Alprostadils EP4-medierede dutal patency-mekanisme adresserer direkte patofysiologien, og flere årtiers klinisk litteratur — herunder en kontrolleret forsøg, prospektive serier og kliniske retningslinjer — understøtter dets perioperative anvendelse i denne sammenhæng.
 
 ---
 
-## Denmark Market Information
+## Beviser fra kliniske forsøg
 
-Alprostadil does not currently hold a marketing authorisation (MA) in Denmark through either the Lægemiddelstyrelsen (national procedure) or the European Medicines Agency (centralised procedure). There are no registered products, no approved indications, and no active marketing authorisations at the time of this assessment (data cutoff: 4 April 2026).
-
-> For clinical use in Denmark, access would require a named-patient application (individuel anvendelse), a compassionate use programme, or a formal EMA/Lægemiddelstyrelsen marketing authorisation application.
-
----
-
-## Safety Considerations
-
-Formal safety data (regulatory warnings, contraindications, drug-drug interactions) was not retrieved through the automated query process for this evidence pack. Please refer to the approved Summary of Product Characteristics (SmPC) — available through the EMA product database or originating national authority — for complete safety information.
-
-For clinical awareness, the following adverse effects associated with PGE1 infusion are documented in the supporting literature retrieved in this evidence pack:
-
-- **Apnoea** — particularly in neonates weighing less than 2 kg; respiratory monitoring and ventilatory support readiness are standard precautions
-- **Hypertrophic pyloric stenosis** — reported as a rare complication of prolonged PGE1 infusion (PMID 25263728)
-- **Atrioventricular conduction disturbances** — second and third degree AV block reported with prolonged low-dose infusion (PMID 28508920)
-- **Cortical bone proliferation** — associated with prolonged infusion in neonates (referenced in PMID 28508920)
-
-These are noted for clinical orientation only and do not replace a formal SmPC review.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige resultater |
+|---|---|---|---|---|
+| [NCT04054115](https://clinicaltrials.gov/study/NCT04054115) | Fase 1 | Afsluttet | 10 | Undersøgte de akutte virkninger af Alprostadil på cerebral og pulmonalblodflow efter bidirektional cavopulmonalisk forbindelse (BCPC) — anden-trins enkelventrikel-palliation, hvor den øvre hulvene forbindes til lungearterie. Alprostadil blev valgt på grund af dets kendte kapacitet til at øge cerebral blodflow og fremme pulmonalvasodilation. Forsøget blev afsluttet tidligt; med kun 10 tilmeldte patienter er statistisk styrke for konklusioner om effektivitet utilstrækkelig. Giver udforskendedata om sikkerhed for Alprostadil i komplekse medfødte hjertesygdomssammenhænge, herunder aortaanomalier. |
+| [NCT02042092](https://clinicaltrials.gov/study/NCT02042092) | I.V. | Afsluttet | 39 | Tværsnits-head-to-head-sammenligning af farveDoppler-ultralydsgeografi (CDUS) versus magnetisk resonansangiografi (MRA) til billeddiagnostik af supraaortale store kar (aorta, karotis, subklavia, vertebral og aksillær arterier) hos patienter med systemisk stor kar-vaskulitis. Dette er et billeddiagnostisk sammenligningstudium, ikke et terapeutisk Alprostadil-forsøg. Giver kontekstuel baggrund for aorta-vaskularisering og sygdomsbyrde, men vurderer ikke direkte lægemidlets effektivitet. |
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Proceed with Guardrails**
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
+|---|---|---|---|---|
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | RCT / Kontrolleret forsøg | Zhonghua yi xue za zhi | Undersøgte terapeutiske virkninger af Alprostadil (Lipo-PGE1) og Ulinastatin på inflammatorisk respons og lungeskaade efter hjerte-lungekompensation hos pædiatriske patienter med medfødt hjertesygdom. Højeste kvalitetsstudium i denne bevissamling; vurderer direkte Alprostadil som aktiv intervention i pædiatrisk CHD-population. |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Prospektiv observationel | Pharmacotherapy | Direkte evaluering af Alprostadil (PGE1) ved styring af medfødt hjertesygdom i spædbarnealderen. Demonstrerer PDA-udvidelse og forbedret systemisk og pulmonalblodflow hos nyfødte med dutus-afhængige lidelser, herunder dem med højre ventrikelafløbsobstruktion; grundlæggende reference for Alprostadils neonatale hjerteanvendelse. |
+| [26686446](https://pubmed.ncbi.nlm.nih.gov/26686446/) | 2015 | Oversigt | Seminars in Thoracic and Cardiovascular Surgery | Omfattende gennemgang af styring af afbrudt aorta; identificerer PGE1-introduktion i slutningen af 1970erne som et skelsættende fremskridt, beskriver komplet præoperativ genoplivningsprotokol og understøtter éntrins primær neonatal reparation med direkte bueanastomose som nuværende foretrukne kirurgiske strategi. |
+| [25647388](https://pubmed.ncbi.nlm.nih.gov/25647388/) | 2014 | Oversigt / Klinisk retningslinje | Cardiology in the Young | Skitserer præoperativ styring af neonatal kritisk aortastenose, herunder PGE1-infusion som kernehæmodynamisk stabiliseringsstrategi før kirurgisk eller kateter-baseret intervention; diskuterer forhøjet venstre ventrikelveggspænding og patofysiologisk rationale for at opretholde dutal patency. |
+| [1926911](https://pubmed.ncbi.nlm.nih.gov/1926911/) | 1991 | Klinisk gennemgang | DICP: The Annals of Pharmacotherapy | Anbefaler initiering af PGE1-stabilisering, så snart dutus-afhængig hjertesygdom mistænkes, helst før neonatal transport til tertiært forsyningscenter; giver praktisk vejledning til lokalsamfundshospitaler om Alprostadil-brug i denne nødsituation. |
+| [10771966](https://pubmed.ncbi.nlm.nih.gov/10771966/) | 1998 | Klinisk serie | Indian Journal of Pediatrics | Dokumenterer PGE1-brug i dutus-afhængig CHD, herunder aortakoarktation og relaterede aortaanomalier; beskriver kliniske indikationer, sikker dosering og observerede hæmodynamiske reaktioner på tværs af forskellige medfødte hjertesygdomstyper. |
+| [32184038](https://pubmed.ncbi.nlm.nih.gov/32184038/) | 2020 | Retrospektiv kohorte | Asian Journal of Surgery | Samtidsresultater fra etrinvis kirurgisk reparation af afbrudt aorta (IAA); prostaglandin-stabilisering er integreret i den beskrevne præoperativ protokol. Giver resultatdata fra nuværende tidsperiode, der er relevante for den kliniske sammenhæng, hvori Alprostadil bruges. |
+| [16368373](https://pubmed.ncbi.nlm.nih.gov/16368373/) | 2006 | Retrospektiv kohorte | The Annals of Thoracic Surgery | Langsigtede resultater, risikofaktorer og reoperationer efter behandling af kritisk aortastenose hos nyfødte; kontekstualiserer det kirurgiske landskab og morbiditetsprofilering for den patientpopulation, for hvilken Alprostadil-brobehandling bruges. |
+| [7201134](https://pubmed.ncbi.nlm.nih.gov/7201134/) | 1982 | Klinisk serie | Pediatric Cardiology | PGE1-infusion hos 7 nyfødte med hypoplastisk ventrikel og aortaatresi; forbigående metabolisk og cirkulatorisk forbedring blev dokumenteret hos 6 af 7 tilfælde, med begrænsninger noteret i tilfælde af avanceret forværring. Én af de tidligste offentliggjorte kliniske serier, der specifikt forbinder Alprostadil med aortamisdannelses-styring. |
+| [30347623](https://pubmed.ncbi.nlm.nih.gov/30347623/) | 2019 | Oversigt | Journal of Neonatal-Perinatal Medicine | Beskriver enterale fodringstrategier og incidensen af nekrotiserende enterokolitis (NEC) hos spædbørn med dukt-afhængige medfødte hjertesygdomme, der modtager PGE1-infusion; fremhæver klinisk vigtig sikkerhedshensyn for langvarigt Alprostadil-infusion hos nyfødte. |
 
-**Rationale:**
-The mechanistic basis for using Alprostadil (PGE1) in ductus-dependent aortic malformations is well established and consistent across four decades of international paediatric cardiac literature, including a controlled trial, prospective observational series, retrospective cohorts, and clinical practice guidelines. While large Phase 3 RCT evidence is structurally absent — because placebo-controlled trials in haemodynamically unstable neonates are ethically impractical — the body of evidence meets L3 criteria, and the TxGNN prediction score of 99.98% is fully concordant with this evidence base. The key limitation in the Danish context is the complete absence of any existing marketing authorisation, requiring a regulatory pathway before formal clinical deployment.
+---
 
-**To proceed, the following is needed:**
-- **Regulatory pathway assessment**: Identify whether a named-patient application, a compassionate use programme, or a full centralised EMA application is most appropriate for use in Denmark
-- **SmPC safety review**: Retrieve and formally evaluate the complete product SmPC to address the current safety data gap (DG001), including warnings for neonatal apnoea, prolonged infusion complications, and monitoring requirements
-- **DrugBank MOA verification**: Complete the DrugBank API query to obtain formal mechanism of action documentation (DG002) to support mechanistic dossier compilation
-- **NICU administration protocol**: Develop a neonatal intensive care unit protocol covering IV dosing regimens, apnoea monitoring, haemodynamic parameters, and escalation criteria
-- **Paediatric cardiology MDT review**: Engage a multidisciplinary team including paediatric cardiology, neonatology, and clinical pharmacy to validate the clinical indication scope and patient selection criteria prior to any compassionate use application
+## Informationer om det danske marked
+
+Alprostadil har i øjeblikket ingen markedsføringstilladelse (MA) i Danmark gennem hverken Lægemiddelstyrelsen (national procedure) eller Det Europæiske Lægemiddelagentur (centraliseret procedure). Der er ingen registrerede produkter, ingen godkendte indikationer og ingen aktive markedsføringstilladelser på evalueringstidspunktet (dataafskæring: 4. april 2026).
+
+> For klinisk brug i Danmark kræves en ansøgning om navngivet patientklinisk anvendelse (individuel anvendelse), compassionate use-program eller formel EMA/Lægemiddelstyrels-markedsføringstilladelsesansøgning.
+
+---
+
+## Sikkerhedshensyn
+
+Formelle sikkerhedsdata (regulatoriske advarsler, kontraindikationer, lægemiddel-lægemiddel-interaktioner) blev ikke hentet gennem den automatiserede forespørgselsproces til denne bevissamling. Se venligst det godkendte produktresumé (SmPC) — tilgængeligt gennem EMA-produktdatabasen eller den oprindelige nationale myndighed — for fuldstændig sikkerhedsinformation.
+
+For klinisk opmærksomhed dokumenteres følgende bivirkninger forbundet med PGE1-infusion i den understøttende litteratur, der blev hentet til denne bevissamling:
+
+- **Apnø** — især hos nyfødte vejer mindre end 2 kg; respiratorisk overvågning og beredskab til ventilatorisk support er standard forholdsregler
+- **Hypertrofisk pylorusstenose** — rapporteret som sjælden komplikation ved langvarigt PGE1-infusion (PMID 25263728)
+- **Atrio-ventrikular ledningsforstyrrelse** — anden og tredje grads AV-blok rapporteret ved langvarigt lavdose-infusion (PMID 28508920)
+- **Kortikal benproliferation** — forbundet med langvarigt infusion hos nyfødte (refereret i PMID 28508920)
+
+Disse er noteret til klinisk orientering alene og erstatter ikke en formel SmPC-gennemgang.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt under sikkerhedsbetingelser**
+
+**Begrundelse:**
+Det mekanistiske grundlag for at bruge Alprostadil (PGE1) i dutus-afhængige aortamisdannelser er veletableret og konsistent på tværs af fire årtiders international pædiatrisk kardiologilitteratur, herunder en kontrolleret forsøg, prospektive observationelle serier, retrospektive kohorter og kliniske praksisvejledninger. Mens stor fase 3 RCT-evidens er strukturelt fraværende — fordi placebo-kontrollerede forsøg hos hæmodynamisk ustabile nyfødte er etisk upraktisk — opfylder beviset L3-kriterierne, og TxGNN-forudsigelsesscore på 99.98% er fuldt konkordant med dette bevisgrundlag. Nøglebegrænsningen i den danske sammenhæng er det komplette fravær af nogen eksisterende markedsføringstilladelse, hvilket kræver en regulatorisk vej før formel klinisk implementering.
+
+**For at fortsætte kræves følgende:**
+- **Vurdering af regulatorisk vej**: Identificer, om en ansøgning om navngivet patientklinisk anvendelse, et compassionate use-program eller en fuldt centraliseret EMA-ansøgning er mest passende til brug i Danmark
+- **SmPC-sikkerhedsgennemgang**: Hent og vurder formelt det komplette produktresumé for at adressere det aktuelle sikkerhedsdatagab (DG001), herunder advarsler for neonatal apnø, komplikationer ved langvarigt infusion og overvågningskrav
+- **DrugBank MOA-verifikation**: Afslut DrugBank API-forespørgslen for at opnå formel mekanisme-for-virknings-dokumentation (DG002) til at understøtte mekanistisk dossierkompilering
+- **NICU-administrationsprotokol**: Udvikl en neonatal intensive care unit-protokol, der omfatter intravenøs doseringsordninger, apnø-overvågning, hæmodynamiske parametre og eskaleringsog kriterierer
+- **Pædiatrisk kardiologi MDT-gennemgang**: Engager et multidisciplinært team omfattende pædiatrisk kardiologi, neonatologi og klinisk farmakoterapi til at validere det kliniske indikationsomfang og patientvalgskriterier før enhver compassionate use-ansøgning
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

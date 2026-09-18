@@ -29,70 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Gabapentin: Evidence Pack Incomplete — Repurposing Evaluation Pending
+# Gabapentin: Evidenspakke ufuldstændig — Vurdering af genanvendelse afventer
 
-## One-Sentence Summary
+## Opsummering i én sætning
 
-Gabapentin (DB00996) is a drug with confirmed DrugBank records, but this Evidence Pack contains **no TxGNN predicted indications**, making a standard repurposing evaluation impossible at this time.
-Key data gaps — including original indications, mechanism of action, Denmark market status, and safety data — must be resolved before any evaluation can proceed.
-A **Hold** decision is recommended until the pipeline is corrected and predictions are generated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not captured in this Evidence Pack |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable |
-| Denmark Market Status | Not available (data pipeline error suspected) |
-| Number of Marketing Authorisations | 0 (likely incomplete — see below) |
-| Recommended Decision | **Hold** |
+Gabapentin (DB00996) er et lægemiddel med bekræftede DrugBank-poster, men denne evidenspakke indeholder **ingen TxGNN-forudsagte indikationer**, hvilket gør en standard vurdering af genanvendelse umulig på nuværende tidspunkt.
+Vigtige datakløfter — herunder oprindelige indikationer, virkningsmekanisme, markedsstatus i Danmark og sikkerhedsdata — skal løses, før nogen vurdering kan finde sted.
+En **Hold**-beslutning anbefales, indtil pipelinen korrigeres, og prognoser genereres.
 
 ---
 
-## Why This Evaluation Cannot Proceed
+## Hurtig oversigt
 
-The Evidence Pack for Gabapentin (DB00996) is missing three categories of data that are each individually sufficient to block evaluation:
-
-**1. No TxGNN predicted indications**
-The `predicted_indications` array is empty. A repurposing evaluation requires at least one prediction target. Without it, there is no disease context against which clinical trials or literature can be assessed. This is the most critical blocker.
-
-**2. Original indication and mechanism of action unavailable**
-Both `original_indications` and `original_moa` are absent from this Evidence Pack. The data pipeline flagged MOA as a high-severity gap (DG002) and recommended retrieval from DrugBank — notably, the DrugBank query on 2026-03-26 returned status `success` with 1 result, suggesting the data exists in DrugBank but was not transferred into this Evidence Pack.
-
-**3. Denmark market status appears to be a pipeline error**
-The Evidence Pack reports `market_status: "Not marketed"` (not marketed) with 0 licences. Gabapentin has been authorised in the EU for many years; a result of zero licences strongly suggests a connection failure to the Lægemiddelstyrelsen or EMA data source rather than a genuine absence of authorisations. This must be verified before any regulatory assessment is made.
-
----
-
-## Denmark Market Information
-
-No marketing authorisation records were retrieved in this Evidence Pack. Manual verification with the Danish Medicines Agency (Lægemiddelstyrelsen) or the EMA product database is required before this field can be populated.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke registreret i denne evidenspakke |
+| Forudsagt ny indikation | Ingen prognoser genereret |
+| TxGNN prognose-score | Ikke tilgængelig |
+| Evidensniveau | Ikke vurderbart |
+| Markedsstatus i Danmark | Ikke tilgængelig (pipelinefejl mistænkt) |
+| Antal markedsføringstilladelser | 0 (sandsynligvis ufuldstændig — se nedenfor) |
+| Anbefalet beslutning | **Hold** |
 
 ---
 
-## Safety Considerations
+## Hvorfor denne vurdering ikke kan gennemføres
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Evidenspakken for Gabapentin (DB00996) mangler tre datakategorier, som hver enkelt er tilstrækkelig til at blokere vurderingen:
+
+**1. Ingen TxGNN-forudsagte indikationer**
+`predicted_indications`-arrayet er tomt. En vurdering af genanvendelse kræver mindst én prognose-destination. Uden den er der ingen sygdomskontekst, som kliniske forsøg eller litteratur kan vurderes imod. Dette er den mest kritiske blokkering.
+
+**2. Oprindelig indikation og virkningsmekanisme utilgængelige**
+Både `original_indications` og `original_moa` mangler fra denne evidenspakke. Datapipelinen markerede MOA som et højt-sværhedsgrads-gap (DG002) og anbefalede hentning fra DrugBank — bemærkelsesværdigt returnerede DrugBank-forespørgslen den 26. marts 2026 status `success` med 1 resultat, hvilket tyder på, at dataene eksisterer i DrugBank, men ikke blev overført til denne evidenspakke.
+
+**3. Markedsstatus i Danmark ser ud til at være en pipelinefejl**
+Evidenspakken rapporterer `market_status: "Not marketed"` (ikke markedsført) med 0 licenser. Gabapentin er blevet godkendt i EU i mange år; et resultat på nul licenser antyder kraftigt en forbindelsesfejl til Lægemiddelstyrelsen eller EMA's datakilde snarere end et ægte fravær af godkendelser. Dette skal verificeres, før nogen lovgivningsmæssig vurdering foretages.
 
 ---
 
-## Conclusion and Next Steps
+## Markedinformation for Danmark
 
-**Decision: Hold**
+Der blev ikke hentet markedsføringstilladelsesposter i denne evidenspakke. Manuel verifikation med Lægemiddelstyrelsen eller EMA's produktdatabase er påkrævet, før dette felt kan udfyldes.
 
-**Rationale:**
-The Evidence Pack is missing its most essential input — TxGNN predicted indications — and cannot support any structured repurposing evaluation. All downstream sections (clinical trial evidence, literature evidence, mechanism analysis, safety review) depend on a prediction target being present.
+---
 
-**To proceed, the following is needed:**
+## Sikkerhedshensyn
 
-- **Re-run TxGNN prediction pipeline** for Gabapentin (DB00996) to generate `predicted_indications`; confirm whether the empty result reflects a true model output or a pipeline execution failure
-- **Retrieve MOA and original indications from DrugBank** — the 2026-03-26 DrugBank query returned success; the data should be extracted and populated into the Evidence Pack
-- **Verify Denmark regulatory data** — check the Lægemiddelstyrelsen / EMA data connection; the "0 licences" result is inconsistent with known EU regulatory history for this drug
-- **Resolve DG001 (TFDA warnings/contraindications)** — download and parse the applicable SmPC PDF to populate safety fields before any clinical assessment
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Evidenspakken mangler sit væsentligste input — TxGNN-forudsagte indikationer — og kan ikke understøtte nogen struktureret vurdering af genanvendelse. Alle efterfølgende afsnit (bevis for kliniske forsøg, litteraturbevis, mekanismeanalyse, sikkerhedsgennemgang) afhænger af, at der foreligger et prognose-mål.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Genud køring af TxGNN-prognose-pipeline** for Gabapentin (DB00996) for at generere `predicted_indications`; bekræft, om det tomme resultat afspejler et ægte modeloutput eller en pipelineudførselsfejl
+- **Hentning af MOA og oprindelige indikationer fra DrugBank** — DrugBank-forespørgslen fra 26. marts 2026 returnerede success; dataene bør ekstraheres og udfyldes i evidenspakken
+- **Verifikation af danske lovgivningsdata** — kontrollér Lægemiddelstyrelse / EMA-dataforbindelsen; resultatet "0 licenser" er inkonsistent med kendt EU-lovgivningshistorik for dette lægemiddel
+- **Løsning af DG001 (TFDA-advarsler/kontraindikationer)** — download og parse det relevante SmPC-PDF for at udfylde sikkerhedsfelter før nogen klinisk vurdering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

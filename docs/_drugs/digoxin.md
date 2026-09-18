@@ -29,91 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Digoxin: From Heart Failure / Atrial Fibrillation to Prinzmetal Angina
+# Digoxin: Fra hjerteinsufficiens / atrieflimren til Prinzmetals angina
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Digoxin is a cardiac glycoside with a long clinical history, primarily used for the management of heart failure and rate control in atrial fibrillation/flutter.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina** (vasospastic angina),
-with **0 clinical trials** and **2 publications** currently available — both of which are only indirectly relevant to this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Heart failure; rate control in atrial fibrillation/flutter |
-| Predicted New Indication | Prinzmetal Angina (vasospastic angina) |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Digoxin er et hjerteglykoside med en lang klinisk historie, primært brugt til behandling af hjerteinsufficiens og frekvenskontrol ved atrieflimren/atrieflutter.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Prinzmetals angina** (vasospastisk angina),
+hvor der i øjeblikket er **0 kliniske forsøg** og **2 publikationer** tilgængelige — begge af hvilke kun er indirekte relevante for denne indikation.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on well-established pharmacological knowledge, digoxin is a cardiac glycoside that inhibits the Na⁺/K⁺-ATPase pump in cardiac myocytes, leading to increased intracellular calcium and a positive inotropic effect. It also exerts vagomimetic (parasympathomimetic) effects on the sinoatrial and atrioventricular nodes, which underpins its use in heart failure and atrial fibrillation rate control.
-
-Prinzmetal angina (also called variant or vasospastic angina) is characterised by transient coronary artery vasospasm, often occurring at rest and in the absence of obstructive coronary artery disease. The TxGNN model may be leveraging graph-level associations between digoxin and vasomotor or autonomic cardiovascular pathways. Digoxin's parasympathomimetic properties could theoretically modulate coronary vasomotor tone, which is the hallmark of Prinzmetal angina.
-
-However, it is important to note that digoxin may actually worsen myocardial oxygen demand in certain ischaemic settings, and it is generally not recommended — and in some guidelines explicitly cautioned — in anginal syndromes. The absence of any dedicated clinical trial evidence for this indication, and the indirect nature of the available literature, means the mechanistic rationale remains speculative at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Hjerteinsufficiens; frekvenskontrol ved atrieflimren/atrieflutter |
+| Forudsagt ny indikation | Prinzmetals angina (vasospastisk angina) |
+| TxGNN-forudsigelsesscore | 99.81% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Udsæt |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Observational | Chinese Medical Sciences Journal | Study of 30 patients with angina decubitus (a related anginal syndrome); found severe coronary obstructive lesions and increased myocardial oxygen consumption before onset — suggests angina decubitus is effort-related rather than vasospastic. Digoxin is not directly evaluated. |
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiologica et Pharmacologica Bulgarica | Reviews circadian rhythms in antihypertensive pharmacotherapy; discusses timing of cardiovascular drug effects. Relevant to cardiovascular pharmacology broadly, but does not specifically address digoxin in Prinzmetal angina. |
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne bevissamling. Baseret på veletableret farmakologisk viden er digoxin et hjerteglykoside, som hæmmer Na⁺/K⁺-ATPase-pumpen i hjerteceller, hvilket fører til øget intracellulær calcium og en positiv inotropisk effekt. Det udøver også vagomimetiske (parasympathomimetiske) effekter på sinusknuden og AV-knuden, hvilket ligger til grund for dets brug ved hjerteinsufficiens og frekvenskontrol ved atrieflimren.
 
-> ⚠️ **Note:** Neither publication directly investigates the use of digoxin in Prinzmetal angina. The evidence base is insufficient to support this repurposing hypothesis at this time.
+Prinzmetals angina (også kaldet variant- eller vasospastisk angina) er karakteriseret ved forbigående koronararterievasospasme, ofte forekommende i hvile og i fraværet af obstruktiv koronararteriakarsygdom. TxGNN-modellen kan udnytte grafniveauassociationer mellem digoxin og vasomotoriske eller autonome kardiovaskulære veje. Digoxins parasympathomimetiske egenskaber kunne teoretisk modulere koronarvasomotorisk tone, hvilket er karakteristikum for Prinzmetals angina.
 
----
-
-## Denmark Market Information
-
-Digoxin is currently recorded as **not marketed** in Denmark, with no active marketing authorisations identified in this dataset.
-
-> ⚠️ **Note:** This data gap is clinically significant. Digoxin (e.g., as Lanoxin) is a long-established cardiovascular medicine in Europe and may hold historical or current authorisations not captured in the present dataset. It is strongly recommended to verify directly with the Danish Medicines Agency (Lægemiddelstyrelsen) and the EMA's medicines database before drawing conclusions about market availability.
+Det er dog vigtig at bemærke, at digoxin faktisk kan forværre myokardiets iltbehov i visse iskæmiske situationer, og det anbefales generelt ikke — og er i nogle retningslinjer eksplicit advaret imod — ved anginøse syndromer. Fraværet af dedikeret klinisk forsøgsbevis for denne indikation og den indirekte karakter af det tilgængelige litteratur betyder, at den mekanistiske begrundelse forbliver spekulativ på dette stadium.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-> ⚠️ **Important clinical note:** Although structured safety data is unavailable in this evidence pack, digoxin is widely known to have a **narrow therapeutic index**, with toxicity risk (digitalis toxicity: nausea, arrhythmias, visual disturbances, xanthopsia) even at doses within the therapeutic range. Renal function significantly affects digoxin clearance and dosing. Healthcare professionals should consult the authorised SmPC and current clinical guidelines before considering any off-label use.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
+|------|-----|------|-----------|-------------|
+| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Observationel | Chinese Medical Sciences Journal | Undersøgelse af 30 patienter med angina decubitus (et relateret anginøst syndrom); fandt svære koronare obstruktive læsioner og øget myokardiets iltkøb før debut — foreslår, at angina decubitus er indsats-relateret snarere end vasospastisk. Digoxin evalueres ikke direkte. |
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Oversigt | Acta Physiologica et Pharmacologica Bulgarica | Gennemgår cirkadiane rytmer i antihypertensiv farmakologi; diskuterer timing af kardiovaskulære lægemiddeleffekter. Relevant for kardiovaskulær farmakologi i bredt omfang, men behandler ikke specifikt digoxin ved Prinzmetals angina. |
 
-**Rationale:**
-The evidence base for digoxin in Prinzmetal angina is essentially absent — there are no registered clinical trials and only 2 indirectly relevant publications. Furthermore, the known pharmacological profile of digoxin (increased myocardial oxygen demand, narrow therapeutic index) raises mechanistic concerns about its suitability in a vasospastic angina context, where calcium channel blockers and nitrates are the established standard of care.
-
-**To proceed, the following is needed:**
-
-- Obtain and review the full SmPC / product monograph for digoxin to assess contraindications and warnings specific to ischaemic heart disease
-- Clarify Danish market authorisation status directly with Lægemiddelstyrelsen and the EMA
-- Retrieve and populate the mechanism of action (MOA) data from DrugBank (DB00390) to enable a structured mechanistic analysis
-- Conduct a targeted literature review specifically examining digoxin and coronary vasomotor regulation or vasospasm
-- Determine whether any preclinical or mechanistic studies exist linking cardiac glycosides to coronary artery spasm pathways before progressing to a Phase 2/3 evidence assessment
+> ⚠️ **Bemærk:** Ingen af publikationerne undersøger direkte brugen af digoxin ved Prinzmetals angina. Bevisgrundlaget er utilstrækkeligt til at understøtte denne omformuleringshypotese på nuværende tidspunkt.
 
 ---
 
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.*
+## Markedsinformation for Danmark
+
+Digoxin er i øjeblikket registreret som **ikke markedsført** i Danmark, uden aktive markedsføringstilladelser identificeret i dette datasæt.
+
+> ⚠️ **Bemærk:** Denne datakløft er klinisk betydningsfuld. Digoxin (f.eks. som Lanoxin) er et længe etableret kardiovaskulært lægemiddel i Europa og kan have historiske eller nuværende tilladelser, der ikke er fanget i det nuværende datasæt. Det anbefales kraftigt at verificere direkte med Lægemiddelstyrelsen og EMA's lægemiddelsdatabase før der drages konklusioner om markedstilgængelighed.
+
+---
+
+## Sikkerhedsovervejelser
+
+Venligst se den godkendte produktresumeé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+> ⚠️ **Vigtig klinisk note:** Selv om strukturerede sikkerhedsdata ikke er tilgængelige i denne bevissamling, er det viden almindeligt kendt, at digoxin har et **snævert terapeutisk indeks**, med toksicitetsrisiko (digitalis-toksicitet: kvalme, arytmier, visuelle forstyrrelser, xanthopsi) selv ved doser inden for det terapeutiske område. Nyrefunktion påvirker signifikant digoxins clearance og dosering. Sundhedspersonale bør konsultere den godkendte SmPC og nuværende kliniske retningslinjer før der overvejes noget off-label brug.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Udsæt**
+
+**Begrundelse:**
+Bevisgrundlaget for digoxin ved Prinzmetals angina er i det væsentlige fraværende — der er ingen registrerede kliniske forsøg og kun 2 indirekte relevante publikationer. Desuden rejser den kendte farmakologiske profil af digoxin (øget myokardiets iltbehov, snævert terapeutisk indeks) mekanistiske bekymringer om dets egnethed i en vasospastisk anginasammenhæng, hvor calciumkanalblokkere og nitrater er den etablerede standard for behandling.
+
+**For at fortsætte er følgende nødvendig:**
+
+- Indhent og gennemgå den fulde SmPC / produktmonografi for digoxin for at vurdere kontraindikationer og advarsler specifikt for iskæmisk hjertesygdom
+- Præciser status for Danmarks markedsføringstilladelse direkte med Lægemiddelstyrelsen og EMA
+- Hent og udfyld virkningsmekanisme (MOA)-data fra DrugBank (DB00390) for at muliggøre en struktureret mekanistisk analyse
+- Udfør en målrettet litteraturgennemgang, der specifikt undersøger digoxin og koronarvasomotorisk regulering eller vasospasme
+- Afgør, om der eksisterer prækliniske eller mekanistiske studier, der forbinder hjerteglykosidera til koronararteriespasme-veje, før der går videre til en fase 2/3-bevisvurdering
+
+---
+
+*Denne rapport er genereret til referenceformål for forskning og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomformulering kræver klinisk validering før enhver terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,68 +29,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Velaglucerase alfa: From Gaucher Disease to Steel Syndrome
+# Velaglucerase alfa: Fra Gauchers sygdom til Steel syndrome
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Velaglucerase alfa is an enzyme replacement therapy (recombinant glucocerebrosidase) established for Gaucher disease. The TxGNN model predicts a possible link to **Steel syndrome**, a rare skeletal dysplasia, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale is assessed as weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Gaucher disease (per DrugBank enzyme-replacement classification; no Danish regulatory record exists since the drug is not marketed) |
-| Predicted New Indication | Steel syndrome |
-| TxGNN Prediction Score | 96.99% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Velaglucerase alfa er en enzymsubstitutionsterapi (rekombinant glukocerebrosidasе), der er etableret til Gauchers sygdom. TxGNN-modellen forudsiger en mulig forbindelse til **Steel syndrome**, en sjælden skelettal dysplasi, men denne prognose understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og det underliggende mekanistiske rationale vurderes som svagt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism-of-action data for Velaglucerase alfa is not available in this evidence pack. Based on available information, Velaglucerase alfa is an enzyme replacement therapy supplying recombinant glucocerebrosidase, with proven efficacy in Gaucher disease, a lysosomal storage disorder.
-
-Steel syndrome is caused by *COL27A1* mutations and results in skeletal dysplasia. It has no known direct enzymatic or metabolic pathway relationship with glucocerebrosidase replacement. The high TxGNN score most likely reflects similarity between skeletal/joint phenotype nodes in the knowledge graph — Gaucher disease also commonly involves skeletal manifestations (bone infarcts, osteopenia) — rather than a genuine shared pharmacological mechanism.
-
-Given this, the prediction should be treated as a hypothesis-generating signal arising from phenotype-level graph similarity, not as evidence of direct pharmacological applicability to Steel syndrome.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Gauchers sygdom (ifølge DrugBank enzymsubstitutionsklassificering; der findes ingen dansk regulatorisk registrering, da medicinen ikke er på markedet) |
+| Forudsagt ny indikation | Steel syndrome |
+| TxGNN-prognose-score | 96.99% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-Currently no related literature available.
+Detaljerede virkningsmekanisme-data for Velaglucerase alfa er ikke tilgængelige i denne bevissamling. Baseret på tilgængelig information er Velaglucerase alfa en enzymsubstitutionsterapi, der leverer rekombinant glukocerebrosidasе, med påvist effektivitet til Gauchers sygdom, en lysosomalt akkumulationssygdom.
 
----
+Steel syndrome forårsages af mutationer i *COL27A1* og resulterer i skelettal dysplasi. Den har ingen kendt direkte enzymatisk eller metabolisk forbindelse med glukocerebrosidasе-substitution. Den høje TxGNN-score afspejler sandsynligvis lighed mellem skeletale-fænotyp-knuder i vidensgrafen – Gauchers sygdom omfatter også almindeligvis skeletale manifestationer (beninfarkter, osteopeni) – snarere end en egentlig fælles farmakologisk virkningsmåde.
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I lyset heraf bør prognosen behandles som et hypotesedannende signal, der stammer fra lighed på fænotyp-niveau i grafen, ikke som evidens for direkte farmakologisk anvendelighed til Steel syndrome.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisk forsøgsbeviser
 
-**Decision: Hold**
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-**Rationale:**
-The prediction rests solely on TxGNN model output (L5, no clinical trials or literature), and the proposed mechanistic link to Steel syndrome is indirect (shared skeletal-phenotype graph nodes rather than a shared pharmacological pathway). Velaglucerase alfa is also not currently marketed in Denmark, so no regulatory or real-world usage data exist to support further evaluation.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for Velaglucerase alfa (currently a Blocking/High-severity data gap)
-- Danish/EU SmPC warnings, contraindications, and interaction data (currently a Blocking data gap — required before any S1 safety assessment)
-- Preclinical or case-level evidence establishing a plausible biological link between glucocerebrosidase replacement and Steel syndrome pathology
-- Note: other candidate indications in this batch (esophageal varices, hypophosphatasia, Wolman disease) show similarly weak, indirect mechanistic rationale and the same L5/Hold status — none currently warrant prioritization over Steel syndrome.
+## Litteraturbeviser
+
+I øjeblikket er der ingen relateret litteratur tilgængelig.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Prognosen hviler udelukkende på TxGNN-modeludput (L5, ingen kliniske forsøg eller litteratur), og den foreslåede mekanistiske forbindelse til Steel syndrome er indirekte (delte skeletale-fænotyp-knuder snarere end en delt farmakologisk virkningsmåde). Velaglucerase alfa er desuden ikke i øjeblikket markedsført i Danmark, så der er ingen regulatoriske eller praksis-baserede brugsdata til at understøtte yderligere evaluering.
+
+**For at kunne fortsætte er følgende nødvendig:**
+- Bekræftet virkningsmekanisme-data for Velaglucerase alfa (i øjeblikket et kritisk/høj alvorlighed datahul)
+- Danske/EU SmPC-advarsler, kontraindikationer og interaktionsdata (i øjeblikket et kritisk datahul – påkrævet før enhver S1-sikkerhedsvurdering)
+- Præ-kliniske eller case-baserede beviser, der etablerer en plausibel biologisk forbindelse mellem glukocerebrosidasе-substitution og Steel syndrome-patologi
+- Bemærk: andre kandidatindikationer i denne gruppe (øsofagus-varices, hypophosphatasi, Wolman-sygdom) viser tilsvarende svage, indirekte mekanistiske begrundelser og samme L5/Afvent-status – ingen fortjener i øjeblikket prioritering over Steel syndrome.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

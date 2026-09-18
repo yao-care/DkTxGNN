@@ -29,75 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tildrakizumab: From an Undocumented Original Indication to Severe Nonproliferative Diabetic Retinopathy
+# Tildrakizumab: Fra en Ukendt Oprindelig Indikation til Alvorlig Nonproliferativ Diabetisk Retinopati
 
-## One-Sentence Summary
+## Ét-sætnings Sammenfatning
 
-Tildrakizumab is an anti‑IL‑23p19 monoclonal antibody; its original approved indication and mechanism-of-action details are not yet documented in this evidence pack, and the drug is not currently marketed in Denmark.
-The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication or licence data in this evidence pack |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tildrakizumab er et anti‑IL‑23p19 monoklonalt antistof; dets oprindeligt godkendte indikation og detaljer om virkningsmekanisme er endnu ikke dokumenteret i denne beviselementpakke, og lægemidlet markedsføres ikke i øjeblikket i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Alvorlig Nonproliferativ Diabetisk Retinopati**, men denne forudsigelse er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer** — det er på dette stadium et modeludsagn.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig Oversigt
 
-Currently, detailed mechanism-of-action data is not available in the structured drug record. Based on the information present in this evidence pack's repurposing rationale, Tildrakizumab is an anti‑IL‑23p19 monoclonal antibody — a class typically used to block IL‑23-driven inflammatory pathways.
-
-Because the original indication itself is not documented here, the relationship between the (unknown) original use and diabetic retinopathy cannot be established from the available data. The evidence pack's own rationale text is explicit that any mechanistic connection to diabetic retinopathy is indirect: it notes that the "IL‑23/Th17 axis has a speculative association with retinal microvascular disease" but characterizes this as inferential rather than direct evidence.
-
-Given that both the mechanism-of-action field and the original indication are marked as data gaps (DG001, DG002), and no clinical or literature evidence exists to corroborate the pathway, this prediction should be treated as a hypothesis generated purely by the TxGNN model, not as a pharmacologically substantiated candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig Indikation | Ikke tilgængelig — ingen godkendt indikation eller licensedata i denne beviselementpakke |
+| Forudsagt Ny Indikation | Alvorlig Nonproliferativ Diabetisk Retinopati |
+| TxGNN-Forudsigelsesscore | 99.63% |
+| Bevisniveau | L5 (modelforudsigelse alene, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsføringsgodkendelser | 0 |
+| Anbefalet Beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor Er Denne Forudsigelse Rimelig?
 
-Currently no related literature available.
+I øjeblikket er der ikke tilgængelige detaljerede virkningsmekanismedata i den strukturerede lægemiddelregistrering. Baseret på de oplysninger, der er til stede i denne beviselementpakkes begrundelse for genbrug, er Tildrakizumab et anti‑IL‑23p19 monoklonalt antistof — en klasse, der typisk bruges til at blokere IL‑23-drevne inflammatoriske veje.
 
----
+Fordi den oprindelige indikation ikke er dokumenteret her, kan forholdet mellem den (ukendte) oprindelige brug og diabetisk retinopati ikke etableres fra de tilgængelige data. Beviselementpakkens egen begrundelsestekst er eksplicit på, at enhver mekanistisk forbindelse til diabetisk retinopati er indirekte: den noterer, at "IL‑23/Th17-aksen har en spekulativ association med retinal mikrovaskulær sygdom", men karakteriserer dette som slutningsbaseret snarere end direkte bevis.
 
-## Denmark Market Information
-
-Tildrakizumab is not currently marketed in Denmark — 0 marketing authorisations (national or centralised/EMA) are on record in this evidence pack.
+I betragtning af at både virkningsmekanisme-feltet og den oprindelige indikation er markeret som datahuller (DG001, DG002), og at der ikke findes klinisk eller litteraturbevis til at bekræfte virkevej, bør denne forudsigelse behandles som en hypotese genereret rent af TxGNN-modellen, ikke som en farmakologisk substantieret kandidat.
 
 ---
 
-## Safety Considerations
+## Evidens fra Kliniske Forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The prediction score is high, but this reflects model output only (Evidence Level L5) — there are zero clinical trials or publications supporting the indication, and even the mechanistic rationale is described in the evidence pack as speculative/indirect. Critical drug-level data (SmPC warnings/contraindications, mechanism of action, original indication) are also missing, which blocks any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- SmPC/label warnings and contraindications for Tildrakizumab (DG001 — blocking)
-- Confirmed mechanism of action and original approved indication (DG002)
-- Preclinical or mechanistic studies directly linking IL‑23 inhibition to diabetic retinopathy pathophysiology
-- Any emerging clinical trial or case-report evidence before this candidate can move beyond model-prediction stage (S0)
+## Markedsinformation for Danmark
+
+Tildrakizumab markedsføres ikke i øjeblikket i Danmark — 0 markedsføringsgodkendelser (nationale eller centraliserede/EMA) er på rekord i denne beviselementpakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Forudsigelsesscore er høj, men dette afspejler kun modeloutput (Bevisniveau L5) — der er nul kliniske forsøg eller publikationer, der understøtter indikationen, og selv den mekanistiske begrundelse beskrives i beviselementpakken som spekulativ/indirekte. Kritiske data på lægemiddelniveau (SmPC-advarsler/kontraindikationer, virkningsmekanisme, oprindelig indikation) mangler også, hvilket forhindrer enhver sikkerhedsvurdering.
+
+**For at fortsætte er følgende nødvendig:**
+- SmPC/etiket-advarsler og kontraindikationer for Tildrakizumab (DG001 — blokering)
+- Bekræftet virkningsmekanisme og oprindelig godkendt indikation (DG002)
+- Prækliniske eller mekanistiske studier, der direkte forbinder IL‑23-inhibering med diabetisk retinopati-patofysiologi
+- Eventuelle nye kliniske forsøgs- eller kasuistikbeviser, før denne kandidat kan gå ud over modelforudsigelsestrinnet (S0)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

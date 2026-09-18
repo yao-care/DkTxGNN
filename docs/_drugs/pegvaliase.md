@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pegvaliase: From Phenylketonuria (PKU) to Diabetic Retinopathy
+# Pegvaliase: Fra Phenylketonuri (PKU) til Diabetisk Retinopati
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Pegvaliase is a PEGylated phenylalanine ammonia-lyase enzyme substitution therapy, used to lower blood phenylalanine levels in patients with phenylketonuria (PKU).
-The TxGNN model predicts it may be effective for **Diabetic Retinopathy**, with a very high prediction score (**99.17%**) but **0 clinical trials** and **0 publications** currently supporting this direction — and the model's own mechanistic assessment argues against a real pharmacological link.
+Pegvaliase er en PEGyleret phenylalanin ammonia-lyase-enzymsubstitutionsterapi, der bruges til at nedsætte blodets phenylalaninkoncentrationer hos patienter med phenylketonuri (PKU).
+TxGNN-modellen forudsiger, at det kan være effektivt ved **Diabetisk Retinopati**, med en meget høj forudsigelsesscore (**99.17%**), men **0 kliniske forsøg** og **0 publikationer** understøtter i øjeblikket denne retning — og modellens egen mekanistiske vurdering argumenterer mod en reel farmakologisk sammenhæng.
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Phenylketonuria (PKU) — enzyme substitution therapy (per DrugBank; no Danish licence/SmPC on file to confirm wording) |
-| Predicted New Indication | Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.17% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Phenylketonuri (PKU) — enzymsubstitutionsterapi (ifølge DrugBank; ingen dansk licens/Produktinformation tilgængelig til bekræftelse af ordlyd) |
+| Forudsagt ny indikation | Diabetisk Retinopati |
+| TxGNN-forudsigelsesscore | 99.17% |
+| Bevisniveau | L5 (kun modelforudsigelse — ingen kliniske forsøg eller litteratur identificeret) |
+| Marked i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data for Pegvaliase is not available at the drug level (flagged as a data gap in the Evidence Pack). Based on the available information, Pegvaliase is a PEGylated phenylalanine ammonia-lyase that breaks down blood phenylalanine; its efficacy in PKU is well established, but this mechanism has no known biological overlap with the pathophysiology of diabetic retinopathy (retinal microvascular damage, VEGF-driven neovascularisation, polyol/sorbitol pathway activation).
+I øjeblikket er detaljerede data om virkningsmekanisme for Pegvaliase ikke tilgængelige på lægemiddelniveau (markeret som et datahul i Evidenspakken). Baseret på de tilgængelige oplysninger er Pegvaliase en PEGyleret phenylalanin ammonia-lyase, der nedbryder blodets phenylalanin; dets effektivitet ved PKU er veletableret, men denne mekanisme har ingen kendt biologisk sammenhæng med patofysiologien ved diabetisk retinopati (retinal mikrovaskular skade, VEGF-drevet neovaskulisering, polyol-/sorbitolvejen aktivering).
 
-The Evidence Pack's own mechanistic review is explicit about this gap: it states that phenylalanine metabolism has "no known association" with retinal microvascular disease, and that the same conclusion holds for the related cataract predictions surfaced elsewhere in this candidate set (diabetic cataract, nuclear senile cataract, cortical cataract), none of which involve phenylalanine or PAL enzyme activity in their known pathophysiology.
+Evidenspakkens egen mekanistiske gennemgang er eksplicit om denne mangel: den anfører, at phenylalaninmetabolismen har "ingen kendt sammenhæng" med retinal mikrovaskular sygdom, og at den samme konklusion gælder for de relaterede katarakt-forudsigelser, der er identificeret andre steder i dette kandidatsæt (diabetisk katarakt, nukleær aldersrelateret katarakt, kortikal katarakt), hvoraf ingen involverer phenylalanin eller PAL-enzymaktivitet i deres kendt patofysiologi.
 
-Because of this, the Evidence Pack's assessment is that the very high TxGNN score (99.17%) most likely reflects **structural similarity between metabolic-disease nodes in the underlying knowledge graph**, rather than a genuine pharmacological connection. In other words, this prediction should be treated as hypothesis-generating only, not as a mechanistically grounded signal.
+Af denne grund vurderer Evidenspakken, at den meget høje TxGNN-score (99.17%) mest sandsynligt afspejler **strukturel lighed mellem metabolisme-sygdoms-knuder i den underliggende vidensgrafen**, snarere end en reel farmakologisk sammenhæng. Med andre ord bør denne forudsigelse behandles som hypotesegenererende kun, ikke som et mekanistisk funderet signal.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket er der ingen tilgængelig relateret litteratur.
 
-## Denmark Market Information
+## Information om Danmarks marked
 
-Pegvaliase currently has no marketing authorisation on file in Denmark (0 licences; market status: **Not marketed**). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation data is available to summarise here.
+Pegvaliase har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 licenser; markedsstatus: **Ikke markedsført**). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) autorisationsdata er tilgængelige til opsummering her.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst den godkendt Produktinformation for sikkerhedsinformationer.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-There is no clinical trial or literature evidence for Pegvaliase in diabetic retinopathy, and the Evidence Pack's own mechanistic analysis concludes the prediction likely reflects a knowledge-graph artefact rather than a real pharmacological link. The drug is also not currently marketed in Denmark, so there is no regulatory or clinical use context to build on locally.
+**Begrundelse:**
+Der er ingen bevis fra kliniske forsøg eller litteratur for Pegvaliase ved diabetisk retinopati, og Evidenspakkens egen mekanistiske analyse konkluderer, at forudsigelsen sandsynligvis afspejler et vidensgrafartefakt snarere end en reel farmakologisk sammenhæng. Lægemidlet er heller ikke i øjeblikket markedsført i Danmark, så der er ingen regulatorisk eller klinisk brugskontekst at bygge videre på lokalt.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Pegvaliase and an independent assessment of any plausible pathway to diabetic retinopathy or cataract
-- Danish/EU regulatory dossier or SmPC (key warnings, contraindications, drug interactions) — none currently on file
-- Preclinical or in vitro evidence testing Pegvaliase in models relevant to retinal microvascular disease or lens pathology, before any clinical hypothesis is considered
-- Re-evaluation once actual clinical trial or literature signals emerge, rather than acting on the TxGNN score alone
+**For at gå videre er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme-data for Pegvaliase og en uafhængig vurdering af enhver plausibel vej til diabetisk retinopati eller katarakt
+- Dansk/EU-regulatorisk dossiering eller Produktinformation (vigtige advarsler, kontraindikationer, lægemiddelinteraktioner) — ingen i øjeblikket tilgængelig
+- Prækliniske eller in vitro-beviser, der tester Pegvaliase i modeller relevante for retinal mikrovaskular sygdom eller linsepatologi, før nogen klinisk hypotese overvejes
+- Genvurdering, når faktiske kliniske forsøgs- eller litteratursignaler opstår, snarere end at handle på TxGNN-scoren alene
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

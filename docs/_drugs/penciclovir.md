@@ -29,102 +29,103 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Penciclovir: From Herpes Simplex Virus Infections to Fascioliasis
+# Penciclovir: Fra herpes simplex virus-infektioner til fasciolosis
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-> Penciclovir is a guanine nucleoside analogue antiviral, pharmacologically used against herpes simplex virus (HSV) infections by requiring viral thymidine kinase (TK) for activation.
-> The TxGNN model predicts it may be effective for **Fascioliasis** (liver fluke infection), with a prediction score of **99.06%**,
-> but currently **no clinical trials and no published literature** support this direction, and the model's own mechanistic rationale argues against biological plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Herpes simplex virus (HSV) infections (mechanism inferred from evidence pack rationale; structured indication registry data not available — see note below) |
-| Predicted New Indication | Fascioliasis |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
-**Note on Original Indication:** The evidence pack's `original_indications` and `taiwan_regulatory.licenses` fields are both empty, so no registry-sourced approved indication text is available. The indication above is inferred solely from the mechanistic description embedded in the evidence pack's own repurposing rationale (guanine nucleoside analogue activated by viral thymidine kinase — the canonical Penciclovir/HSV mechanism). This should be verified against the official Summary of Product Characteristics (SmPC) before use in any decision document.
+> Penciclovir er et guanin-nukleosidanalogen antiviralt lægemiddel, farmakologisk brugt mod herpes simplex virus (HSV)-infektioner ved at kræve viral thymidinkinase (TK) til aktivering.
+> TxGNN-modellen forudsiger, at det kan være effektivt mod **fasciolosis** (leverflueinfektioner), med en forudsigelsesscore på **99.06%**,
+> men i øjeblikket **ingen kliniske forsøg og ingen publiceret litteratur** understøtter denne retning, og modellens egen mekanistiske begrundelse argumenterer imod biologisk plausibilitet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action (MOA) data is flagged as a data gap (`[Data Gap]`) in the structured drug record. However, the evidence pack's own repurposing rationale provides a partial mechanistic description: Penciclovir is a guanine nucleoside analogue whose antiviral activity depends on first-step phosphorylation by a **viral-specific thymidine kinase (TK)** — a mechanism specific to herpesviruses such as HSV.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Herpes simplex virus (HSV)-infektioner (mekanisme udledt fra bevismappe-begrundelse; strukturerede registreringer over indikationer ikke tilgængelige — se bemærkning nedenfor) |
+| Forudsagt ny indikation | Fasciolosis |
+| TxGNN-forudsigelsesscore | 99.06% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Hold |
 
-Unlike a typical repurposing candidate, the mechanistic analysis included in this evidence pack **does not support** the predicted new indication. Fascioliasis is caused by the trematode *Fasciola hepatica/gigantica* (liver fluke), a helminth with no known viral-type TK-dependent activation pathway. The rationale explicitly states that there is "no known or hypothesized nucleoside-metabolism interference mechanism" supporting anti-helminthic activity for Penciclovir, and concludes that the high TxGNN similarity score is most likely driven by **knowledge-graph embedding proximity** (e.g., shared graph neighbors with other antiparasitic agents) rather than genuine pharmacological plausibility.
-
-In other words, this is a case where the model's quantitative score (99.06%) is high, but the qualitative mechanistic evidence — drawn from the same evidence pack — actively argues against clinical relevance. This combination (high score, contradicted mechanism, zero external evidence) is the primary basis for the "Hold" recommendation below.
-
----
-
-## Other Predicted Indications (Same Evidence Pack)
-
-The evidence pack contains four additional distinct predicted indications for Penciclovir, all scored similarly high by TxGNN but likewise unsupported by clinical trials, literature, or a plausible mechanism:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Mechanistic Note |
-|------|---------|-------------|-----------------|-----------------|-------------------|
-| 3–4 | Cysticercosis | 98.99% | L5 | Hold | No overlap with standard albendazole/praziquantel mechanisms (microtubule/calcium-channel targets) |
-| 5–6 | Coenurosis | 98.75% | L5 | Hold | Same helminth-class reasoning as cysticercosis; likely graph-structural artifact |
-| 7–8 | Intestinal helminthiasis | 98.70% | L5 | Hold | No published in vitro/in vivo anti-helminthic activity data for Penciclovir |
-| 9–10 | Malignant pleural mesothelioma | 98.51% | L5 | Hold | Penciclovir's kinase specificity is highly selective for HSV TK, with very low affinity for mammalian (including tumor) kinases; no cell-line or animal-model data support antiproliferative use |
-
-All five predictions share the same profile: no clinical trials, no literature, L5 evidence (model prediction only), and a mechanistic rationale that explicitly cautions against interpreting the score as pharmacologically meaningful.
+**Bemærkning om oprindelig indikation:** Bevismappe-feltene `original_indications` og `taiwan_regulatory.licenses` er begge tomme, så tekst fra godkendelsesregister til oprindelig indikation er ikke tilgængelig. Indikationen ovenfor er udledt udelukkende fra den mekanistiske beskrivelse indlejret i bevismappe-rationalet (guanin-nukleosidanalogen aktiveret af viral thymidinkinase — den kanoniske Penciclovir/HSV-mekanisme). Dette bør verificeres mod det officielle produktinformationsblad (SmPC) før brug i enhver beslutningsdokument.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+I øjeblikket er detaljerede mekanisme-data for lægemiddelhandling (MOA) markeret som en datakløft (`[Data Gap]`) i den strukturerede lægemiddelpost. Bevismappe-rationalet indeholder dog en delvis mekanistisk beskrivelse: Penciclovir er et guanin-nukleosidanalogen, hvis antivirale virkning afhænger af første-trin-fosforylering af en **virus-specifik thymidinkinase (TK)** — en mekanisme, der er specifik for herpesviruser såsom HSV.
 
-*(Query log confirms ClinicalTrials.gov and WHO ICTRP searches were performed for all five predicted diseases on 2026-03-24, with zero results.)*
+I modsætning til en typisk genfunktioneringskandidat **understøtter** den mekanistiske analyse inkluderet i denne bevismappe **ikke** den forudsagte nye indikation. Fasciolosis er forårsaget af trematoden *Fasciola hepatica/gigantica* (leverflue), en helmint uden kendt virus-type TK-afhængig aktiverings-vej. Rationalet anfører eksplicit, at der er "ingen kendt eller hypotetiseret nukleosid-metabolisme-interferens-mekanisme", der understøtter antiparasitisk aktivitet for Penciclovir, og konkluderer, at den høje TxGNN-similaritetsscore højst sandsynligt er drevet af **videns-graf-indlejrings-nærhed** (f.eks. delte graf-naboer med andre antiparasitiske midler) snarere end ægte farmakologisk plausibilitet.
 
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
-*(Query log confirms PubMed searches were performed for all five predicted diseases on 2026-03-24, with zero results.)*
+Med andre ord er dette et tilfælde, hvor modellens kvantitative score (99.06%) er høj, men de kvalitative mekanistiske beviser — hentet fra samme bevismappe — aktivt argumenterer imod klinisk relevans. Denne kombination (høj score, modsidet mekanisme, nul ekstern bevis) er det primære grundlag for "Hold"-anbefalingen nedenfor.
 
 ---
 
-## Denmark Market Information
+## Øvrige forudsagte indikationer (samme bevismappe)
 
-Penciclovir currently has **no marketing authorisations on record** in this evidence pack (`total_licenses: 0`, market status: Not marketed). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation details are available to list.
+Bevismappen indeholder fire yderligere forskellige forudsagte indikationer for Penciclovir, alle scoret lignende højt af TxGNN men ligeledes uden understøttelse af kliniske forsøg, litteratur eller en plausibel mekanisme:
+
+| Rang | Sygdom | TxGNN-score | Bevisniveau | Anbefaling | Mekanistisk bemærkning |
+|------|--------|-------------|------------|-----------|----------------------|
+| 3–4 | Cysticercose | 98.99% | L5 | Hold | Ingen overlap med standard albendazol/praziquantel-mekanismer (mikrotubuli-/kalcium-kanal-målgrupper) |
+| 5–6 | Coenurose | 98.75% | L5 | Hold | Samme helmint-klasse-begrundelse som cysticercose; sandsynligvis graftstruktur-artefakt |
+| 7–8 | Intestinal helminthasis | 98.70% | L5 | Hold | Ingen publiceret in vitro/in vivo anti-helminthisk aktivitetsdata for Penciclovir |
+| 9–10 | Ondart pleural mesotheliom | 98.51% | L5 | Hold | Penciclovirs kinase-specificitet er meget selektiv for HSV TK, med meget lav affinitet for pattedyr- (herunder tumor-) kinaser; ingen cellelinje- eller dyremodeldata understøtter antiproliferativ brug |
+
+Alle fem forudsigelser deler samme profil: ingen kliniske forsøg, ingen litteratur, L5-bevis (kun modelforudsigelse), og en mekanistisk begrundelse, der eksplicit advarer imod at tolke scoren som farmakologisk meningsfuld.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-**Important:** This evidence pack flags a **Blocking** data gap (DG001) — TFDA/label warnings and contraindications could not be retrieved, which by itself prevents progression to a formal safety (S1) evaluation. A drug interaction (DDI) query also returned no results (`not_found`), meaning absence of interactions should not be assumed — it reflects a data availability gap, not a confirmed clean interaction profile.
+*(Forespørgselslog bekræfter, at ClinicalTrials.gov og WHO ICTRP-søgninger blev udført for alle fem forudsagte sygdomme på 2026-03-24, med nul resultater.)*
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- All five predicted indications rest on **L5 evidence** (model prediction only) with zero supporting clinical trials or literature.
-- The evidence pack's own mechanistic analysis for the top-ranked prediction (fascioliasis) explicitly concludes the high similarity score likely reflects a knowledge-graph embedding artifact rather than genuine pharmacological plausibility — the same reasoning applies to the other four candidates.
-- A **Blocking** data gap (missing SmPC/label warnings and contraindications) prevents any safety pre-assessment (S1) regardless of efficacy evidence.
-- Penciclovir is not currently marketed in Denmark (0 marketing authorisations), so no local dosage form or approved-indication pathway currently exists to support even guardrail-based off-label use.
+*(Forespørgselslog bekræfter, at PubMed-søgninger blev udført for alle fem forudsagte sygdomme på 2026-03-24, med nul resultater.)*
 
-**To proceed, the following is needed:**
-- Retrieve the official SmPC / label warnings and contraindications (resolves DG001, Blocking)
-- Obtain confirmed mechanism of action (MOA) data from DrugBank or primary literature (resolves DG002, High)
-- Conduct or identify in vitro/in vivo studies testing Penciclovir against *Fasciola*, *Taenia* species, or mesothelioma cell lines before any further evidence-level upgrade is considered
-- Re-run clinical trial and literature searches periodically, as current searches (2026-03-24) returned zero hits for all five candidate indications
+---
+
+## Markedsinformation for Danmark
+
+Penciclovir har i øjeblikket **ingen markedsføringsgodkendelser registreret** i denne bevismappe (`total_licenses: 0`, markedsstatus: Ikke markedsført). Detaljer om nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) godkendelser er ikke tilgængelige at liste.
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Henvises til det godkendte produktinformationsblad (SmPC) for sikkerhedsoplysninger.
+
+**Vigtigt:** Denne bevismappe flag en **blokerende** datakløft (DG001) — TFDA/mærke-advarsler og kontraindikationer kunne ikke hentes, hvilket i sig selv forhindrer progression til en formel sikkerhedsvurdering (S1). En lægemiddelinteraktions (DDI) forespørgsel returnerede også ingen resultater (`not_found`), hvilket betyder, at fraværet af interaktioner ikke bør antages — det afspejler en datatilgængelighedskløft, ikke en bekræftet ren interaktionsprofil.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+- Alle fem forudsagte indikationer hviler på **L5-bevis** (kun modelforudsigelse) uden nogen understøttende kliniske forsøg eller litteratur.
+- Bevismappens egen mekanistiske analyse for den toprangerede forudsigelse (fasciolosis) konkluderer eksplicit, at den høje similaritetsscore sandsynligvis afspejler et videns-graf-indlejrings-artefakt snarere end ægte farmakologisk plausibilitet — den samme begrundelse gælder for de øvrige fire kandidater.
+- En **blokerende** datakløft (manglende SmPC/mærke-advarsler og kontraindikationer) forhindrer enhver sikkerhedsvurdering (S1) uanset effektivitetsbevis.
+- Penciclovir markedsføres i øjeblikket ikke i Danmark (0 markedsføringsgodkendelser), så der findes ingen lokal doseringform eller godkendt-indikations-vej, der i øjeblikket kan understøtte selv guardrail-baseret off-label-brug.
+
+**For at fortsætte er følgende nødvendig:**
+- Hent det officielle SmPC / mærke-advarsler og kontraindikationer (løser DG001, Blokering)
+- Få bekræftet mekanisme-data for lægemiddelhandling (MOA) fra DrugBank eller primær litteratur (løser DG002, Høj)
+- Gennemfør eller identificer in vitro/in vivo-studier, der tester Penciclovir mod *Fasciola*, *Taenia*-arter eller mesotheliom-cellelinjer, før yderligere bevisniveauopgradering overvejes
+- Kør kliniske forsøgs- og litteratursøgninger regelmæssigt igen, da nuværende søgninger (2026-03-24) returnerede nul hits for alle fem kandidatindikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,68 +29,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iodixanol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
+# Iodixanol: Fra diagnostisk radiografisk kontrastmiddelgive til østeoartritis-modtagelighed
 
-## One-Sentence Summary
+## Sammenfattelse på en sætning
 
-Iodixanol is a nonionic iodinated contrast agent used diagnostically in radiographic and CT imaging, not a disease-treating drug in the conventional sense. The TxGNN model's top-ranked prediction links it to **Osteoarthritis Susceptibility** with a very high score (99.16%), but this specific prediction is currently backed by **zero clinical trials and zero publications** — it is a model-only signal with no mechanistic or clinical corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Radiographic/CT contrast imaging (diagnostic agent; not a disease-treating indication) |
-| Predicted New Indication | Osteoarthritis susceptibility |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Iodixanol er et nonionisk joderet kontrastmiddel brugt til diagnose inden for radiografisk og CT-billedbehandling, ikke et sygdomsbehandlende lægemiddel i traditionel forstand. TxGNN-modellens top-klassificerede forudsigelse forbinder det til **Østeoartritis-modtagelighed** med en meget høj score (99.16%), men denne specifikke forudsigelse understøttes i øjeblikket af **nul kliniske forsøg og nul publikationer** — det er et model-kun signal uden mekanistisk eller klinisk bekræftelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data for Iodixanol is not available in this evidence pack (data gap, high severity). Based on the information that is available, Iodixanol is a diagnostic iodinated contrast medium — its evidence base consists entirely of imaging and tracer studies, not pharmacological treatment data. There is no known anti-inflammatory, chondroprotective, or disease-modifying mechanism that would explain a therapeutic effect in osteoarthritis.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Radiografisk/CT-kontrastbildedannelse (diagnostisk middel; ikke en sygdomsbehandlende indikation) |
+| Forudsagt ny indikation | Østeoartritis-modtagelighed |
+| TxGNN-forudsigelsesscore | 99.16% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-The top-ranked prediction, "osteoarthritis susceptibility," has no supporting clinical trials or literature at all — it reflects the TxGNN graph-embedding score alone, with no mechanistic or clinical clue behind it. A closely related candidate in the same screen, plain "osteoarthritis," does have seven associated publications, but per the evidence pack's own assessment these describe using iodixanol as a molecular tracer/contrast agent to study cartilage-bone interface solute transport and nanoparticle-based CT arthrography — diagnostic imaging research tools, not treatment studies. The same pattern holds for the other candidates surfaced for this drug (rheumatoid arthritis, hemoglobinopathy, brachyolmia): available literature either concerns contrast-agent desensitization/safety, imaging quality, or a potential safety concern (contrast media affecting red-cell deformability in sickle cell disease), none of it supporting therapeutic repurposing.
+---
 
-Taken together, the mechanistic case for repurposing Iodixanol into osteoarthritis (or any of the other predicted indications) is currently unsubstantiated.
+## Hvorfor er denne forudsigelse rimelig?
 
-## Clinical Trial Evidence
+Detaljeret mekanismedata for Iodixanol er ikke tilgængelige i denne bevissamling (datakløft, høj alvorlighed). Baseret på de tilgængelige oplysninger er Iodixanol et diagnostisk joderet kontrastmiddel — dets bevisgrundlag består udelukkende af billedbehandlings- og tracerstudier, ikke farmakologiske behandlingsdata. Der er ingen kendt antiinflammatorisk, chondroprotektiv eller sygdomsmodificerende mekanisme, som ville forklare en terapeutisk effekt ved østeoartritis.
 
-Currently no related clinical trials registered
+Den top-klassificerede forudsigelse, "østeoartritis-modtagelighed," har slet ingen understøttende kliniske forsøg eller litteratur — den afspejler alene TxGNN-grafindlejringsscoren, uden noget mekanistisk eller klinisk tegn bag den. En nært beslægtet kandidat i samme skærmning, blot "østeoartritis," har ganske vist syv tilknyttede publikationer, men ifølge bevissamlingens eget vurdering beskriver disse brug af iodixanol som en molekylær tracer/kontrastmiddel til at studere soluttransport ved cartilago-ben-grænsefladen og nanopartikelbaseret CT-arthrografi — diagnostiske billedbehandlingsforskningsværktøjer, ikke behandlingsstudier. Samme mønster gælder for de øvrige kandidater, der er identificeret for dette lægemiddel (reumatoid artritis, hemoglobinopati, brachyolmi): tilgængelig litteratur omhandler enten desensibilisering af/sikkerhed ved kontrastmiddel, billedkvalitet eller en mulig sikkerhedsbetænkelighed (kontrastmidler påvirker rødecelledeformabilitet ved seglcellesigtose), intet af det understøtter terapeutisk ommærkning.
 
-## Literature Evidence
+Samlet set er den mekanistiske argumentation for ommærkning af Iodixanol til østeoartritis (eller nogen anden forudsagt indikation) i øjeblikket usubstantieret.
 
-Currently no related literature available
+## Beviser fra kliniske forsøg
 
-*(Note: the closely related candidate "osteoarthritis" — distinct from the top-ranked "osteoarthritis susceptibility" — has 7 associated publications, but these are cartilage-imaging/tracer studies rather than therapeutic evidence; see rationale above.)*
+I øjeblikket ingen registrerede kliniske forsøg relateret til denne indikation
 
-## Denmark Market Information
+## Litteraturbevis
 
-No marketing authorisations are currently registered for Iodixanol in Denmark; the drug's status in this evidence pack is "Not Marketed" with 0 recorded licenses.
+I øjeblikket ingen tilgængelig litteratur
 
-## Safety Considerations
+*(Bemærk: den nært beslægtet kandidat "østeoartritis" — adskilt fra den top-klassificerede "østeoartritis-modtagelighed" — har 7 tilknyttede publikationer, men disse er cartilago-billedbehandlings-/tracerstudier snarere end terapeutiske bevis; se argumentation ovenfor.)*
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+## Markedsinformation for Danmark
 
-*(Note: a blocking data gap exists — Danish label warnings/contraindications and DDI data have not yet been retrieved, which prevents even a preliminary safety screen for this candidate.)*
+Ingen markedsføringstilladelser er i øjeblikket registreret for Iodixanol i Danmark; lægemidlets status i denne bevissamling er "Ikke på markedet" med 0 registrerede licenser.
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte produktdatablad (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-The TxGNN score for this prediction is high, but it is entirely unsupported — zero clinical trials, zero literature, and no plausible mechanistic link, placing it at the lowest evidence tier (L5, model prediction only). A blocking data gap on label safety information also prevents any safety pre-screen.
+*(Bemærk: et blokerende datakløft eksisterer — danske etiketsadvarsler/kontraindikationer og lægemiddelinteraktionsdata (DDI) er endnu ikke hentet, hvilket forhindrer selv en foreløbig sikkerhedsscreening for denne kandidat.)*
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data for Iodixanol (currently a data gap)
-- Approved product label / SmPC warnings and contraindications (blocking data gap)
-- Any preclinical or translational study testing a genuine therapeutic (not diagnostic/tracer) effect in osteoarthritis
-- Re-evaluation against other TxGNN candidates for this drug, none of which currently show stronger evidence either
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Argumentation:**
+TxGNN-scoren for denne forudsigelse er høj, men den er helt uden understøttelse — nul kliniske forsøg, nul litteratur og ingen plausibel mekanistisk forbindelse, hvilket placerer den på det laveste bevisniveau (L5, kun modelforudsigelse). Et blokerende datakløft på labelets sikkerhedsinformation forhindrer også enhver sikkerhedspre-screening.
+
+**For at fortsætte er følgende nødvendig:**
+- Bekræftet mekanismedata for Iodixanol (i øjeblikket et datakløft)
+- Godkendt produktetiket/Produktdatablad med advarsler og kontraindikationer (blokerende datakløft)
+- Enhver preklinisk eller translationel undersøgelse, der tester en ægte terapeutisk (ikke diagnostisk/tracer) effekt ved østeoartritis
+- Genudvurdering mod andre TxGNN-kandidater for dette lægemiddel, hvoraf ingen i øjeblikket viser stærkere bevis heller
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

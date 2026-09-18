@@ -29,69 +29,70 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Bivalirudin: No Repurposing Candidates Identified by TxGNN
+# Bivalirudin: Ingen gendestinationsbestemmelseskandidater identificeret af TxGNN
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Bivalirudin is a synthetic direct thrombin inhibitor (DTI) used as an anticoagulant, best known for its use during percutaneous coronary intervention (PCI) and in patients with, or at risk of, heparin-induced thrombocytopenia (HIT).
-The current TxGNN analysis **did not generate any repurposing predictions** for this compound.
-This evaluation is **incomplete** due to two critical data gaps — missing MOA data and absent Danish regulatory records — and a repurposing recommendation cannot be issued at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Anticoagulation during PCI; heparin-induced thrombocytopenia *(based on established pharmacological knowledge; no formal indication text retrieved from the Evidence Pack)* |
-| Predicted New Indication | None identified |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not evaluated |
-| Denmark Market Status | Not marketed (0 authorisations on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Bivalirudin er en syntetisk direkte trombin-inhibitor (DTI), der anvendes som antikoagulant, og er bedst kendt for sin anvendelse under perkutan koronar intervention (PCI) og hos patienter med eller i risiko for heparin-induceret trombocytopeni (HIT).
+Den aktuelle TxGNN-analyse **genererede ingen gendestinationsbestemmelsesprediktioner** for denne forbindelse.
+Denne evaluering er **ufuldstændig** på grund af to kritiske datahuller — manglende MOA-data og fraværende danske regulatoriske posteringer — og en gendestinationsbestemmelsesanbefaling kan ikke udstedes på dette stadium.
 
 ---
 
-## Why No Prediction Was Generated
+## Hurtig oversigt
 
-Bivalirudin (DrugBank ID: DB00006) is a 20-amino-acid synthetic peptide that reversibly and directly inhibits thrombin — both free and clot-bound — by binding simultaneously to the active catalytic site and the anion-binding exosite I. This bivalent binding profile distinguishes it from heparin and is the basis of its anticoagulant use in cardiovascular settings.
-
-Despite this well-characterised pharmacological profile, the TxGNN knowledge-graph pipeline returned **no repurposing candidates** in this run. Two factors are likely responsible:
-
-1. **Missing MOA data in the Evidence Pack.** The `original_moa` field is marked as a data gap (severity: High). Without a structured mechanism-of-action record linked to the knowledge graph, TxGNN's graph-traversal and disease-similarity modules cannot anchor the drug to downstream biological targets and pathways that would otherwise surface novel indications.
-
-2. **No Danish regulatory linkage.** The Evidence Pack contains zero approved indications and zero marketing authorisations for Denmark. The drug-indication edges that ordinarily seed TxGNN's scoring are therefore absent, which further constrains prediction coverage.
-
-> **Note:** Bivalirudin is centrally authorised in Europe under the brand name **Angiox** (EMA/H/C/000562). The absence of Danish national records in this Evidence Pack may reflect a data-collection gap rather than a genuine lack of availability. This should be verified against the EMA product database and the Danish Medicines Agency (Lægemiddelstyrelsen) register before concluding that the product is truly unavailable in Denmark.
-
----
-
-## Safety Considerations
-
-All safety fields (key warnings, contraindications, drug–drug interactions) are absent from the current Evidence Pack.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for Angiox — available via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/angiox) — for full safety information, including bleeding risk, renal dose adjustments, and interactions with other anticoagulants or antiplatelets.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Antikoagulation under PCI; heparin-induceret trombocytopeni *(baseret på etableret farmakologisk viden; ingen formel indikationstekst hentet fra Evidence Pack)* |
+| Forudsagt ny indikation | Ingen identificeret |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Bevisniveau | Ikke evalueret |
+| Markeds tilstand i Danmark | Ikke markedsført (0 godkendelser på register) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | **Afvente** |
 
 ---
 
-## Conclusion and Next Steps
+## Hvorfor der ikke blev genereret en forudsigelse
 
-**Decision: Hold**
+Bivalirudin (DrugBank ID: DB00006) er et 20-aminosyre-syntetisk peptid, der reversibelt og direkte inhiberer trombin — både frit og bundne i blodpropper — ved at binde samtidigt til det aktive katalytiske sted og anionbindingssteder I. Denne bivalente bindingsprofil adskiller det fra heparin og danner grundlaget for dets antikoagulante anvendelse i kardiovaskulære indstillinger.
 
-**Rationale:**
-The TxGNN model produced no repurposing predictions for Bivalirudin in this evaluation cycle, and two blocking or high-severity data gaps prevent a meaningful mechanistic or regulatory assessment from being completed. No evidence review can be performed without a target indication to anchor it.
+Trods denne velkarakteriserede farmakologiske profil returnerede TxGNN vidensgraf-pipelinen **ingen gendestinationsbestemmelseskandidater** i denne kørsel. To faktorer er sandsynligvis ansvarlige:
 
-**To proceed, the following is needed:**
+1. **Manglende MOA-data i Evidence Pack.** Feltet `original_moa` er markeret som et datahul (alvorlighed: Høj). Uden en struktureret mekanisme-for-handling-registrering forbundet til vidensgrafen, kan TxGNN's vidensgraf-gennemgange og sygdomsligheds-moduler ikke forankre lægemidlet til nedstrøms biologiske mål og veje, som ellers ville bringe nye indikationer til overfladen.
 
-- **Resolve DG002 (High) — MOA data:** Query the DrugBank API for DB00006 to retrieve structured mechanism-of-action, target, and pathway data. This is essential for TxGNN graph-based scoring and for the mechanistic rationale section.
-- **Resolve DG001 (Blocking) — Danish regulatory / SmPC data:** Cross-check the EMA centralised authorisation database and Lægemiddelstyrelsen product register for Bivalirudin / Angiox. Download the current SmPC PDF to extract approved indications, warnings, and contraindications.
-- **Re-run TxGNN pipeline:** Once the MOA and indication data are populated, re-execute the knowledge-graph prediction step. With bivalent thrombin inhibition as the core mechanism, candidate indications in thrombotic, inflammatory, or complement-pathway disorders may emerge.
-- **Verify Denmark market availability:** Confirm whether Angiox is commercially available via EMA centralised authorisation and whether it is reimbursed under the Danish national formulary, independent of a national MA number.
+2. **Ingen dansk regulatorisk forbindelse.** Evidence Pack indeholder nul godkendte indikationer og nul markedsføringstilladelser for Danmark. De lægemiddel-indikation-kanter, der normalt starter TxGNN's scoring, er derfor fraværende, hvilket yderligere begrænser prognose-dækningen.
+
+> **Bemærk:** Bivalirudin er centralt godkendt i Europa under handelsnavn **Angiox** (EMA/H/C/000562). Fraværet af danske nationale posteringer i dette Evidence Pack kan afspejle et dataindsamlings-hul snarere end en virkelig mangel på tilgængelighed. Dette bør verificeres mod EMA-produktdatabasen og Lægemiddelstyrelsen's register, før man konkluderer, at produktet virkelig er utilgængeligt i Danmark.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+## Sikkerhedshensyn
+
+Alle sikkerhedsfelter (vigtige advarsler, kontraindikationer, lægemiddel-lægemiddel-interaktioner) mangler i det aktuelle Evidence Pack.
+
+> Se venligst det godkendte Produktresumé (SmPC) for Angiox — tilgængeligt via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/angiox) — for fuldstændige sikkerhedsoplysninger, herunder blødningsrisiko, nyre-dosistilpasninger og interaktioner med andre antikoagulanter eller antitrombocytmidler.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvente**
+
+**Begrundelse:**
+TxGNN-modellen producerede ingen gendestinationsbestemmelsesprediktioner for Bivalirudin i denne evalueringscyklus, og to blokkerende eller høj-alvorligheds-datahuller forhindrer en meningsfuld mekanistisk eller regulatorisk vurdering i at blive gennemført. Ingen bevisevaluering kan udføres uden en målindikation til at forankre det.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Løse DG002 (Høj) — MOA-data:** Forespørg DrugBank API for DB00006 for at hente struktureret mekanisme-for-handling, mål- og vejlederdata. Dette er væsentligt for TxGNN grafbaseret scoring og for mekanisme-begrundelsessektion.
+- **Løse DG001 (Blokkering) — danske regulatoriske / SmPC-data:** Krydscheck EMA-databasen for centralt godkendte autorisationer og Lægemiddelstyrelsen's produktregister for Bivalirudin / Angiox. Hent det aktuelle SmPC PDF for at udtrække godkendte indikationer, advarsler og kontraindikationer.
+- **Kør TxGNN-pipelinen igen:** Når MOA- og indikationsdata er udfyldt, skal vidensgraf-forudsigelse-trinnet køres igen. Med bivalent trombin-inhibering som kernemekanisme, kan kandidatindikationer i trombotiske, inflammatoriske eller komplementvej-lidelser komme til overfladen.
+- **Verificer Danmarks markedstilgængelighed:** Bekræft, om Angiox er kommercielt tilgængeligt via EMA centralt godkendt autorisering og om det er refunderet under den danske nationale formulær, uafhængigt af et nationalt MA-nummer.
+
+---
+
+*Denne rapport genereres til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle gendestinationsbestemmelseskandidater kræver klinisk validering før enhver terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

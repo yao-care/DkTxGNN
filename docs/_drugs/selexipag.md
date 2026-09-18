@@ -29,89 +29,90 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selexipag: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
+# Selexipag: Fra Pulmonal Arteriel Hypertension til Pulmonal Arteriel Hypertension Forbundet med Medfødt Hjertesygdom
 
-## One-Sentence Summary
+## Resumé i En Sætning
 
-Selexipag is an oral, selective prostacyclin (IP) receptor agonist established in the treatment of pulmonary arterial hypertension (PAH, WHO Group 1). The TxGNN model predicts continued efficacy in **Pulmonary Arterial Hypertension Associated with Congenital Heart Disease (PAH-CHD)** — a disease subtype that falls within the drug's existing pharmacological scope rather than an unrelated new indication — supported by **2 clinical trials** and **15 publications** currently in evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pulmonary Arterial Hypertension (WHO Group 1) — established via literature in this evidence pack; not confirmed through Danish regulatory records, as the drug is not currently marketed in Denmark |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with Congenital Heart Disease |
-| TxGNN Prediction Score | 98.03% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Selexipag er et oralt, selektivt prostacyclin (IP) receptoragonist etableret i behandlingen af pulmonal arteriel hypertension (PAH, WHO Gruppe 1). TxGNN-modellen forudsiger vedvarende virkning i **Pulmonal Arteriel Hypertension Forbundet med Medfødt Hjertesygdom (PAH-CHD)** — en sygdomssubtype, der falder inden for lægemidlets eksisterende farmakologiske område snarere end en urelatereret ny indikation — understøttet af **2 kliniske forsøg** og **15 publikationer** i det nuværende bevisgrundlag.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt Overblik
 
-Detailed DrugBank-sourced mechanism-of-action data is not available in this evidence pack (data gap). However, the included literature independently confirms Selexipag's pharmacology: it is described as "an oral selective prostacyclin receptor agonist approved for treating pulmonary arterial hypertension (PAH) in adults" (PMID 41429287), and its labelled use already extends to PAH associated with connective tissue disease (PMID 39076250). As a selective IP-receptor agonist, Selexipag raises intracellular cAMP, producing pulmonary vasodilation and anti-proliferative/anti-remodeling effects.
-
-Critically, this mechanism is not specific to disease etiology — it targets the shared vascular pathology across all WHO Group 1 PAH subtypes. PAH associated with congenital heart disease (including Eisenmenger syndrome) is itself one of the recognized aetiological subgroups within Group 1 PAH, and was represented in Selexipag's pivotal Phase 3 GRIPHON trial population.
-
-Because of this, the predicted "new" indication functions less as a novel repurposing target and more as a label-adjacent sub-population already mechanistically covered by the drug's known therapeutic class. This is reflected directly in the evidence pack's own rationale: "CHD-PAH 本屬於原適應症之涵蓋族群，機轉關聯性強、近乎藥品既有標籤延伸而非全新適應症" (CHD-PAH belongs to the population already covered by the original indication; the mechanistic link is strong and closely resembles a label extension rather than an entirely new indication).
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04435782](https://clinicaltrials.gov/study/NCT04435782) | Phase 4 | Terminated | 9 | Assessed Selexipag's effect on right ventricular remodeling in PAH via cardiac MRI; study was terminated early, limiting the strength of the evidence |
-| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Phase 3 | Recruiting | 280 | Long-term, open-label follow-up platform study allowing PAH participants (including PAH-CHD) from several parent trials to continue treatment and assess long-term safety; still recruiting, no results yet |
+| Punkt | Indhold |
+|------|---------|
+| Original Indikation | Pulmonal Arteriel Hypertension (WHO Gruppe 1) — etableret via litteratur i dette bevisgrundlag; ikke bekræftet gennem danske regulatoriske optegnelser, da lægemidlet ikke er markedsført i Danmark |
+| Forudsagt Ny Indikation | Pulmonal Arteriel Hypertension Forbundet med Medfødt Hjertesygdom |
+| TxGNN Forudsigelsesscore | 98.03% |
+| Bevisniveau | L2 |
+| Danmarks Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Fortsæt med Sikkerhedsgarantier |
 
 ---
 
-## Literature Evidence
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30632656](https://pubmed.ncbi.nlm.nih.gov/30632656/) | 2019 | Cohort (RCT-derived) | European Journal of Heart Failure | Insights from the randomised controlled GRIPHON study on Selexipag in corrected CHD-PAH; corrected CHD-PAH patients have poorer prognosis and limited RCT evidence base |
-| [33442633](https://pubmed.ncbi.nlm.nih.gov/33442633/) | 2020 | Cohort | European Heart Journal - Case Reports | Case series showing Selexipag as an oral alternative to parenteral prostacyclins in PAH-CHD, potentially reducing treatment-related risk while improving outcomes |
-| [29521655](https://pubmed.ncbi.nlm.nih.gov/29521655/) | 2018 | Cohort | American Journal of Therapeutics | First report of Selexipag use in CHD-associated PAH and Eisenmenger syndrome |
-| [41429287](https://pubmed.ncbi.nlm.nih.gov/41429287/) | 2025 | Phase 2 PK study | Chest | Prospective multicenter Phase 2 study of Selexipag pharmacokinetics, safety, tolerability, and exploratory efficacy in children with PAH |
-| [33781364](https://pubmed.ncbi.nlm.nih.gov/33781364/) | 2021 | Cohort | Cardiology in the Young | Single-centre report of Selexipag use in four paediatric PAH-CHD patients |
-| [36204579](https://pubmed.ncbi.nlm.nih.gov/36204579/) | 2022 | Cohort | Frontiers in Cardiovascular Medicine | Selexipag-based triple combination therapy improves prognosis in Chinese PAH patients |
-| [41513133](https://pubmed.ncbi.nlm.nih.gov/41513133/) | 2026 | Real-world registry | Journal of Cardiology | Retrospective Japan PH Registry study characterizing real-world use of Selexipag and parenteral prostacyclin analogs across PAH aetiologies |
-| [31738929](https://pubmed.ncbi.nlm.nih.gov/31738929/) | 2020 | Expert consensus | Chest | Expert panel consensus statements on initiating oral prostacyclin pathway agents (including Selexipag) in adults with PAH |
-| [30545978](https://pubmed.ncbi.nlm.nih.gov/30545978/) | 2019 | Review | European Respiratory Journal | Updates on definition, classification, diagnostics and management of paediatric PAH, including CHD-associated disease |
-| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Review | Journal of Personalized Medicine | Review of current management and future directions for PAH associated with congenital heart disease |
+Detaljeret DrugBank-sourcet data om virkningsmekanisme er ikke tilgængelig i dette bevisgrundlag (datahuller). Dog bekræfter den inkluderede litteratur uafhængigt Selexipags farmakologi: det beskrives som "et oralt selektivt prostacyclin receptoragonist godkendt til behandling af pulmonal arteriel hypertension (PAH) hos voksne" (PMID 41429287), og dets mærkede indikation strækker sig allerede til PAH forbundet med bindevævsygdomme (PMID 39076250). Som et selektivt IP-receptoragonist øger Selexipag intracellulært cAMP, hvilket producerer pulmonal vasodilatation og antiproliferativ/anti-remodelings effekter.
+
+Kritisk for dette er, at denne mekanisme ikke er specifik for sygdomsetiologi — den retter sig mod den delte vaskulær patologi på tværs af alle WHO Gruppe 1 PAH subtyper. PAH forbundet med medfødt hjertesygdom (herunder Eisenmenger-syndrom) er selv en af de anerkendte ætiologiske undergrupper inden for Gruppe 1 PAH, og var repræsenteret i Selexipags afgørende fase 3 GRIPHON-forsøg.
+
+På grund af dette fungerer den forudsagte "nye" indikation mindre som et nyt behandlingsmål og mere som en mærkat-adjacent subpopulation, der allerede er mekanistisk dækket af lægemidlets kendte terapeutiske klasse. Dette afspejles direkte i bevisgrundlagets egen begrundelse: "CHD-PAH 本屬於原適應症之涵蓋族群，機轉關聯性強、近乎藥品既有標籤延伸而非全新適應症" (CHD-PAH tilhører den population, der allerede dækkes af den oprindelige indikation; den mekanistiske forbindelse er stærk og ligner tæt en mærkat-linjeutvidelse snarere end en helt ny indikation).
 
 ---
 
-## Denmark Market Information
+## Klinisk Forsøgsbeviser
 
-Selexipag currently holds **no marketing authorisation in Denmark** (market status: Not marketed; 0 registered authorisations). No Laegemiddelstyrelsen or EMA centralised licence data is available in this evidence pack to confirm approved dosage forms or indication wording for the Danish market.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-drug interaction data were retrievable in this evidence pack (DDI query status: not found).
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige Fund |
+|---------|------|--------|------|---------|
+| [NCT04435782](https://clinicaltrials.gov/study/NCT04435782) | Fase 4 | Afsluttet | 9 | Vurderede Selexipags virkning på højre ventrikulær remodeling i PAH via hjerte-MR; forsøget blev afsluttet tidligt, hvilket begrænsede styrken af beviset |
+| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Fase 3 | Rekrutterer | 280 | Langtids, åben label opfølgningsplatformstudie, der tillader PAH-deltagere (herunder PAH-CHD) fra flere moderstudier at fortsætte behandlingen og vurdere langtids sikkerhed; stadig rekrutterer, ingen resultater endnu |
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Proceed with Guardrails**
+| PMID | År | Type | Tidsskrift | Vigtige Fund |
+|------|-----|------|---------|---------|
+| [30632656](https://pubmed.ncbi.nlm.nih.gov/30632656/) | 2019 | Kohorte (RCT-deriveret) | European Journal of Heart Failure | Indsigt fra det randomiserede GRIPHON-studium om Selexipag i korrigeret CHD-PAH; korrigerede CHD-PAH-patienter har dårligere prognose og begrænset RCT-bevisgrundlag |
+| [33442633](https://pubmed.ncbi.nlm.nih.gov/33442633/) | 2020 | Kohorte | European Heart Journal - Case Reports | Sagsserie, der viser Selexipag som et oralt alternativ til parenterale prostacycliner i PAH-CHD, hvilket potentielt reducerer behandlingsrelateret risiko, mens det forbedrer resultaterne |
+| [29521655](https://pubmed.ncbi.nlm.nih.gov/29521655/) | 2018 | Kohorte | American Journal of Therapeutics | Første rapport om Selexipag-brug i CHD-associeret PAH og Eisenmenger-syndrom |
+| [41429287](https://pubmed.ncbi.nlm.nih.gov/41429287/) | 2025 | Fase 2 PK-studie | Chest | Prospektivt multicenterstudie i Fase 2 af Selexipag farmakokinetik, sikkerhed, tolerabilitet og eksplorativ virkning hos børn med PAH |
+| [33781364](https://pubmed.ncbi.nlm.nih.gov/33781364/) | 2021 | Kohorte | Cardiology in the Young | Enkeltcenters rapport om Selexipag-brug hos fire pædriatriske PAH-CHD-patienter |
+| [36204579](https://pubmed.ncbi.nlm.nih.gov/36204579/) | 2022 | Kohorte | Frontiers in Cardiovascular Medicine | Selexipag-baseret tredobbelt kombinationsterapi forbedrer prognose hos kinesiske PAH-patienter |
+| [41513133](https://pubmed.ncbi.nlm.nih.gov/41513133/) | 2026 | Real-world register | Journal of Cardiology | Retrospektivt Japan PH Register-studie, der karakteriserer real-world brug af Selexipag og parenterale prostaglandin-analoger på tværs af PAH-ætiologier |
+| [31738929](https://pubmed.ncbi.nlm.nih.gov/31738929/) | 2020 | Ekspertkonsensuserklæring | Chest | Ekspertpanel-konsensusudtalelser om initiering af orale prostacyclin-pathway agenter (herunder Selexipag) hos voksne med PAH |
+| [30545978](https://pubmed.ncbi.nlm.nih.gov/30545978/) | 2019 | Gennemgang | European Respiratory Journal | Opdateringer om definition, klassificering, diagnostik og styring af pædiatrisk PAH, herunder CHD-associeret sygdom |
+| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Gennemgang | Journal of Personalized Medicine | Gennemgang af aktuel styring og fremtidsudsigter for PAH forbundet med medfødt hjertesygdom |
 
-**Rationale:**
-The mechanistic case is strong — PAH-CHD is a recognized sub-population within Selexipag's own WHO Group 1 PAH indication class rather than a distinct disease target — and it is backed by RCT-derived subgroup data (GRIPHON) plus an actively recruiting Phase 3 long-term safety study. However, no completed trial designed specifically for this sub-population exists yet, and Denmark-specific regulatory/safety data are entirely absent.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC / product warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety assessment)
-- Formal mechanism-of-action documentation via DrugBank or equivalent source (**High**-severity data gap)
-- Confirmation of marketing authorisation pathway or import route, given the drug is not currently marketed in Denmark
-- Mature results from the ongoing NCT05179876 long-term follow-up study once available
-- A dedicated drug-drug interaction review, as none is currently on record
+## Danmarks Markedsinformation
+
+Selexipag besidder i øjeblikket **ingen markedsføringstilladelse i Danmark** (markedsstatus: Ikke markedsført; 0 registrerede tilladelser). Ingen Laegemiddelstyrelsen eller EMA centraliserede licens-data er tilgængelig i dette bevisgrundlag til at bekræfte godkendte doseringsformer eller indikationsordet for det danske marked.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktsammentatomfattelse (SmPC) for sikkerhedsinformationen. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata kunne hentes i dette bevisgrundlag (DDI-forespørgselsstatus: ikke fundet).
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Fortsæt med Sikkerhedsgarantier**
+
+**Begrundelse:**
+Det mekanistiske argument er stærkt — PAH-CHD er en anerkendt subpopulation inden for Selexipags egen WHO Gruppe 1 PAH-indikationsklasse snarere end et distinkt sygdomsmål — og det understøttes af RCT-deriveret subgruppedata (GRIPHON) plus et aktivt rekrutterende fase 3 langtids sikkerhedsstudie. Dog eksisterer der intet fuldført forsøg designet specifikt til denne subpopulation endnu, og Danmark-specifik regulatorisk/sikkerhedsdata er fuldstændig fraværende.
+
+**For at fortsætte, er følgende nødvendig:**
+- Dansk SmPC / produktadvarsler og kontraindikationer (i øjeblikket et **blokerend** datahul — påkrævet inden nogen S1 sikkerhedsvurdering)
+- Formal dokumentation af virkningsmekanisme via DrugBank eller tilsvarende kilde (**høj** alvorsgrad datahul)
+- Bekræftelse af markedsføringstilladelsessti eller importrute, givet at lægemidlet ikke i øjeblikket er markedsført i Danmark
+- Modne resultater fra det igangværende NCT05179876 langtids opfølgningsstudie, når de er tilgængelige
+- En dedikeret lægemiddel-lægemiddel-interaktions gennemgang, da ingen i øjeblikket er registreret
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

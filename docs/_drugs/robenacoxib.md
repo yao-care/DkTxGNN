@@ -29,93 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Robenacoxib: From Veterinary Osteoarthritis to Human Osteoarthritis
+# Robenacoxib: Fra veterinær artrose til menneskeartrose
 
-## One-Sentence Summary
+## Sammenfattelse på én sætning
 
-Robenacoxib is a highly COX-2-selective NSAID currently approved **only for veterinary use** (dogs and cats, marketed as Onsior) for pain and inflammation, including osteoarthritis; it holds no human marketing authorisation in Denmark. The TxGNN model predicts activity against human **Osteoarthritis** (score 98.79%), but the underlying evidence base consists entirely of veterinary randomized trials and pharmacokinetic studies — **no human clinical trial or human safety data currently exists** for this compound.
+Robenacoxib er et højt COX-2-selektivt NSAID, der er godkendt **udelukkende til veterinær brug** (hunde og katte, markedsført som Onsior) mod smerter og betændelse, herunder artrose; det har ingen markedsføringstilladelse til mennesker i Danmark. TxGNN-modellen forudsiger aktivitet mod menneskeartrose (score 98.79%), men det underliggende vidensgrundlag består udelukkende af veterinære randomiserede forsøg og farmakokintiske studier — **der eksisterer i øjeblikket ingen humane kliniske forsøg eller humandata for sikkerhed for denne forbindelse**.
 
-> ⚠️ **Critical caveat**: The predicted "new indication" (osteoarthritis) is the *same disease* the drug already treats — but only in dogs and cats. This is a cross-species extrapolation signal, not a genuine new-indication repurposing candidate, until human data is generated.
+> ⚠️ **Kritisk forbehold**: Den forudsagte "nye indikation" (artrose) er den *samme sygdom*, som lægemidlet allerede behandler — men kun hos hunde og katte. Dette er et signal om krydsartsekstrapolation, ikke en ægte kandidat til nyanvendelse af lægemidler, før humandata genereres.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Not available in Danish/human regulatory data. Per veterinary literature, Robenacoxib (Onsior®) is EU-approved for pain and inflammation associated with musculoskeletal disorders (incl. osteoarthritis) and peri-operative pain in **dogs and cats only** |
-| Predicted New Indication | Osteoarthritis (human) |
-| TxGNN Prediction Score | 98.79% |
-| Evidence Level | **L4** (veterinary RCT/mechanistic evidence only — no completed human trials; see note below) |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Original indikation | Ikke tilgængelig i danske/humanæ regulatoriske data. Ifølge veterinær litteratur er Robenacoxib (Onsior®) EU-godkendt mod smerter og betændelse forbundet med muskuloskeletale sygdomme (inkl. artrose) og perioperativ smerte hos **hunde og katte udelukkende** |
+| Forudsagt ny indikation | Artrose (menneske) |
+| TxGNN-prognose score | 98.79% |
+| Evidensniveau | **L4** (veterinær RCT/mekanistisk bevis kun — ingen afsluttede humane forsøg; se note nedenfor) |
+| Status på det danske marked | Ikke markedsført (Ikke markedsført) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Hold** |
 
-**On Evidence Level**: the evidence pack's internal scoring labels this "L2," which reflects the strength of the *veterinary* trial base (multiple completed randomized veterinary trials). Applying the evidence-level rubric to the **human** indication under evaluation, there are zero completed human trials (confirmed 0 hits in ClinicalTrials.gov and ICTRP), so the correct classification for human decision-making is **L4 (preclinical/mechanistic analog evidence)**, not L1/L2.
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed DrugBank mechanism-of-action data is flagged as a gap (DG002) in this evidence pack. However, the retrieved literature (PMID 30148083) describes Robenacoxib as a coxib-class NSAID with high selectivity for cyclooxygenase-2 (COX-2) and weak, rapidly reversible COX-1 binding — the same mechanistic class as human NSAIDs used in osteoarthritis (e.g., celecoxib, etoricoxib). This selectivity profile is the pharmacological basis for its anti-inflammatory and analgesic effect in veterinary osteoarthritis.
-
-The original and predicted indications are, in fact, the identical disease (osteoarthritis) — the "prediction" reflects that Robenacoxib already has strong, repeated evidence of efficacy against osteoarthritic pain, just in a different species. Mechanistically, COX-2-mediated prostaglandin synthesis and joint inflammation pathways are highly conserved between dogs, cats, and humans, which is why the TxGNN knowledge graph scores this pairing so highly.
-
-That conservation does **not**, however, establish human efficacy or safety. Robenacoxib has never been evaluated in a human clinical trial; species differences in pharmacokinetics, protein binding, and GI/renal/hepatic tolerability for coxib-class NSAIDs are well documented and cannot be assumed to translate directly from cats and dogs to humans.
+**Om evidensniveauet**: bevispaketens interne vurdering mærker dette "L2," som afspejler styrken af det *veterinære* forsøgsgrundlag (flere afsluttede randomiserede veterinære forsøg). Hvis man anvender evidensniveauklassificeringen på den **humane** indikation under evaluering, er der nul afsluttede humane forsøg (bekræftet 0 hits i ClinicalTrials.gov og ICTRP), så den korrekte klassificering for humanmedicinsk beslutningstagen er **L4 (præklinisk/mekanistisk analog bevis)**, ikke L1/L2.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prognose rimelig?
 
-Currently no related human clinical trials registered (ClinicalTrials.gov and WHO ICTRP both returned 0 results for Robenacoxib + osteoarthritis).
+Detaljerede DrugBank-mekanisme-for-handling-data er flagget som et gab (DG002) i denne bevissamling. Imidlertid beskriver den hentet litteratur (PMID 30148083) Robenacoxib som et coxib-klasse NSAID med høj selektivitet for cyclooxygenase-2 (COX-2) og svag, hurtigt reversibel COX-1-binding — samme mekanistiske klasse som humane NSAIDs, der bruges til artrose (f.eks. celecoxib, etoricoxib). Denne selektivitetsprofil er det farmakologiske grundlag for dets anti-inflammatoriske og analgetiske virkning i veterinær artrose.
+
+De oprindelige og forudsagte indikationer er faktisk den samme sygdom (artrose) — "prognosen" afspejler, at Robenacoxib allerede har stærk, gentagen evidens for virkning mod artrosesmerte, bare hos en anden art. Mekanistisk er COX-2-medieret prostaglandinsyntese og ledbetændelseveje meget bevarende mellem hunde, katte og mennesker, hvilket er grunden til, at TxGNN-videngrafen vurderer denne parring så højt.
+
+Den bevarenhed etablerer imidlertid **ikke** humanvirkningsgrad eller sikkerhed. Robenacoxib er aldrig blevet evalueret i et humant klinisk forsøg; artsforskel i farmakokiner, proteinbinding og GI/nyre-/hepatisk tolerabilitet for coxib-klasse NSAIDs er velkendt og kan ikke antages at oversætte direkte fra katte og hunde til mennesker.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
+I øjeblikket ingen relaterede humane kliniske forsøg registreret (både ClinicalTrials.gov og WHO ICTRP returnerede 0 resultater for Robenacoxib + artrose).
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [22673598](https://pubmed.ncbi.nlm.nih.gov/22673598/) | 2012 | RCT (veterinary, non-inferiority) | J Vet Med Sci | Oral robenacoxib non-inferior to carprofen for canine osteoarthritis over 28 days (n=32) |
-| [26058587](https://pubmed.ncbi.nlm.nih.gov/26058587/) | 2016 | RCT (veterinary, placebo-controlled) | J Feline Med Surg | Confirmed clinical safety of robenacoxib in feline osteoarthritis vs. placebo |
-| [21480932](https://pubmed.ncbi.nlm.nih.gov/21480932/) | 2012 | RCT (veterinary, non-inferiority) | J Vet Pharmacol Ther | Robenacoxib non-inferior to carprofen in canine osteoarthritis, multicentre trial (n=125+) |
-| [33833276](https://pubmed.ncbi.nlm.nih.gov/33833276/) | 2021 | RCT (veterinary) | Scientific Reports | Robenacoxib effective for degenerative joint disease pain in cats (n=109), blinded pilot trial |
-| [23782347](https://pubmed.ncbi.nlm.nih.gov/23782347/) | 2013 | Systematic Review | J Vet Intern Med | Systematic review of NSAID-induced adverse effects in dogs, including robenacoxib class |
-| [38587872](https://pubmed.ncbi.nlm.nih.gov/38587872/) | 2024 | Review/Consensus Guideline | J Feline Med Surg | 2024 ISFM/AAFP consensus guidelines on long-term NSAID use in cats |
-| [30148083](https://pubmed.ncbi.nlm.nih.gov/30148083/) | 2018 | Review | Vet Med (Auckland) | Overview of robenacoxib pharmacology, safety, and place in veterinary therapy |
-| [23452411](https://pubmed.ncbi.nlm.nih.gov/23452411/) | 2013 | Cohort/experimental (biomarker) | BMC Vet Res | Robenacoxib reduced synovial fluid C-reactive protein in dogs with osteoarthritis (n=34) |
-| [31487772](https://pubmed.ncbi.nlm.nih.gov/31487772/) | 2019 | Comparative clinical study (veterinary) | Veterinary Sciences | Compared UC-II collagen vs. robenacoxib for mobility impairment in canine osteoarthritis |
-| [20922466](https://pubmed.ncbi.nlm.nih.gov/20922466/) | 2010 | PK/population study | Pharm Res | Population PK of robenacoxib in blood and synovial fluid of healthy and osteoarthritic dogs |
+| [22673598](https://pubmed.ncbi.nlm.nih.gov/22673598/) | 2012 | RCT (veterinær, ikke-underlegenhed) | J Vet Med Sci | Oral robenacoxib ikke-underlegen over for carprofen til hundeartrose over 28 dage (n=32) |
+| [26058587](https://pubmed.ncbi.nlm.nih.gov/26058587/) | 2016 | RCT (veterinær, placebo-kontrolleret) | J Feline Med Surg | Bekræftet klinisk sikkerhed af robenacoxib til katteartrose vs. placebo |
+| [21480932](https://pubmed.ncbi.nlm.nih.gov/21480932/) | 2012 | RCT (veterinær, ikke-underlegenhed) | J Vet Pharmacol Ther | Robenacoxib ikke-underlegen over for carprofen til hundeartrose, multicenterstudium (n=125+) |
+| [33833276](https://pubmed.ncbi.nlm.nih.gov/33833276/) | 2021 | RCT (veterinær) | Scientific Reports | Robenacoxib effektivt mod degenerativ ledsygdomsmerte hos katte (n=109), blindet pilot-studie |
+| [23782347](https://pubmed.ncbi.nlm.nih.gov/23782347/) | 2013 | Systematisk gennemgang | J Vet Intern Med | Systematisk gennemgang af NSAID-inducerede bivirkninger hos hunde, herunder robenacoxib-klasse |
+| [38587872](https://pubmed.ncbi.nlm.nih.gov/38587872/) | 2024 | Anmeldelse/konsensusretningslinje | J Feline Med Surg | 2024 ISFM/AAFP-konsensusvejledning om langtidsanvendelse af NSAID hos katte |
+| [30148083](https://pubmed.ncbi.nlm.nih.gov/30148083/) | 2018 | Anmeldelse | Vet Med (Auckland) | Oversigt over robenacoxib-farmakologi, sikkerhed og plads i veterinær terapi |
+| [23452411](https://pubmed.ncbi.nlm.nih.gov/23452411/) | 2013 | Kohorte/eksperimental (biomarkør) | BMC Vet Res | Robenacoxib reducerede synovialt fluid C-reaktivt protein hos hunde med artrose (n=34) |
+| [31487772](https://pubmed.ncbi.nlm.nih.gov/31487772/) | 2019 | Sammenligningstudie (veterinær) | Veterinary Sciences | Sammenlignet UC-II kollagen vs. robenacoxib for mobilitetsnedsættelse hos hundeartrose |
+| [20922466](https://pubmed.ncbi.nlm.nih.gov/20922466/) | 2010 | FK/populationsstudie | Pharm Res | Befolknings-FK for robenacoxib i blod og synovialt fluid hos sunde og artritiske hunde |
 
-*Note: all 11 retrieved publications are veterinary studies; one additional PK study (PMID 23726662) was omitted from this table as duplicative of the PK entry above.*
-
----
-
-## Denmark Market Information
-
-Robenacoxib currently has **no marketing authorisation in Denmark** (0 licenses on record) and is not registered as a human medicinal product. It is marketed in the EU exclusively as a veterinary product (Onsior®) for use in dogs and cats.
+*Bemærk: alle 11 hentet publikationer er veterinærstudier; en yderligere FK-studie (PMID 23726662) blev udeladt fra denne tabel som dublerende af FK-indgangen ovenfor.*
 
 ---
 
-## Safety Considerations
+## Markedsinformation for Danmark
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information — no human key-warning, contraindication, or drug-interaction data is currently available for Robenacoxib (DG001, Blocking gap).
-
-Additional context from veterinary literature: coxib-class NSAIDs as a group carry known risks of gastrointestinal, renal, and hepatic adverse effects (PMID 23782347, PMID 38587872), which would need to be re-established through human pharmacovigilance and trial data before any human use is considered.
+Robenacoxib har i øjeblikket **ingen markedsføringstilladelse i Danmark** (0 licenser registreret) og er ikke registreret som et humant lægemiddel. Det markedsføres i EU udelukkende som et veterinærmiddel (Onsior®) til brug hos hunde og katte.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsmæssige overvejelser
 
-**Decision: Hold**
+Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformation — der er i øjeblikket ingen humane nøglebemærkninger, kontraindikationer eller medicin-interaktionsdata tilgængelige for Robenacoxib (DG001, blokeringsgab).
 
-**Rationale:**
-Robenacoxib is a veterinary-only NSAID with no Danish or human marketing authorisation, no human clinical trial data, and a blocking data gap on SmPC warnings/contraindications (DG001). The TxGNN signal is mechanistically plausible (COX-2 inhibition is a validated osteoarthritis pathway) but is built entirely on animal trial evidence, so it does not meet the bar for progressing toward human development at this time.
+Yderligere kontekst fra veterinær litteratur: coxib-klasse NSAIDs som gruppe har kendt risici for gastrointestinale, nyre- og hepatiske bivirkninger (PMID 23782347, PMID 38587872), som ville skulle genoprettes gennem human farmakovigilans og forsøgsdata, før nogen humananvendelse overvejes.
 
-**To proceed, the following is needed:**
-- Formal DrugBank/literature-sourced mechanism of action data (DG002)
-- Danish/EU regulatory review of human SmPC warnings, contraindications, and drug interactions (DG001)
-- At minimum, preclinical human-relevant toxicology and pharmacokinetic bridging data before any human trial is designed
-- Confirmation of whether any human-formulation development program for Robenacoxib exists
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Robenacoxib er et udelukkende veterinær NSAID uden dansk eller humanmarkedsføringstilladelse, uden humane kliniske forsøgsdata og med et blokeringsgab på SmPC-advarsler/kontraindikationer (DG001). TxGNN-signalet er mekanistisk plausibelt (COX-2-hæmning er en valideret artrosevej), men er bygget helt på dyreforsøgsbevis, så det opfylder ikke tærsklen for udvikling mod humanudvikling på dette tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+- Formelt DrugBank/litteratur-baseret mekanisme-for-handling-data (DG002)
+- Dansk/EU-regulatorisk gennemgang af humane SmPC-advarsler, kontraindikationer og medicin-interaktioner (DG001)
+- Som minimum prækliniske humanrelevante toksikologi- og farmakokinetisk-brodata, før et vilkårligt humant forsøg designes
+- Bekræftelse af, om der findes et humanformulering-udviklingsprogram for Robenacoxib
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

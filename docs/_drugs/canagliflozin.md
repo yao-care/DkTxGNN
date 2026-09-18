@@ -29,94 +29,95 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Canagliflozin: Drug Repurposing Candidate Evaluation — Evidence Pack Incomplete
+# Canagliflozin: Vurdering af lægemiddel til ny indikation – Bevismappe ufuldstændig
 
-## One-Sentence Summary
+## Enlinjet sammendrag
 
-Canagliflozin (DrugBank: DB08907) is a sodium-glucose cotransporter 2 (SGLT2) inhibitor with established use in type 2 diabetes mellitus and cardiovascular/renal protection.
-However, the current Evidence Pack contains **no TxGNN predicted indications**, and key data fields including mechanism of action, safety warnings, and regulatory approval records are absent.
-A complete evaluation cannot be performed at this stage; a **Hold** decision is warranted until the data gaps are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in Evidence Pack (known from literature: Type 2 diabetes mellitus) |
-| Predicted New Indication | None — TxGNN output not present in this Evidence Pack |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (model prediction data absent; no supporting studies linked in pack) |
-| Denmark Market Status | Not marketed (per Evidence Pack) |
-| Number of Marketing Authorisations | 0 (per Evidence Pack) |
-| Recommended Decision | **Hold** |
+Canagliflozin (DrugBank: DB08907) er en natrium-glukose kotransporter 2 (SGLT2)-inhibitor med etableret anvendelse til type 2-diabetes mellitus og kardiovaskulær/renal beskyttelse.
+Den nuværende Bevismappe indeholder dog **ingen TxGNN-prognose indikationer**, og vigtige datafelter, herunder virkningsmekanisme, sikkerhedsadvarsler og godkendelsesoplysninger, mangler.
+En fuldstændig vurdering kan ikke foretages på dette stadium; en **standse**-beslutning anbefales, indtil datakløfterne er løst.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-No TxGNN predicted indication is included in this Evidence Pack, so a formal mechanistic rationale linking the original indication to a new target indication cannot be constructed.
-
-Based on publicly available pharmacological knowledge, canagliflozin belongs to the SGLT2 inhibitor class. It acts in the renal proximal tubule by blocking sodium-glucose cotransporter 2, thereby reducing glucose reabsorption and increasing urinary glucose excretion. Beyond glycaemic control, SGLT2 inhibitors have demonstrated natriuretic and haemodynamic effects with implications for heart failure and chronic kidney disease — areas that have attracted significant repurposing interest.
-
-Until the TxGNN prediction pipeline is re-run and the Evidence Pack is regenerated with a valid `predicted_indications` array, no mechanistic association analysis can be formally completed for this candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trial evidence is linked in this Evidence Pack.
-
-> **Note:** This reflects the absence of data in the `predicted_indications` field, not necessarily the absence of real-world trial activity for canagliflozin. Once a target indication is identified by the TxGNN model, a dedicated evidence query should be executed against ClinicalTrials.gov and the EU Clinical Trials Register (EudraCT / CTIS).
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke registreret i Bevismappe (kendt fra litteratur: Type 2-diabetes mellitus) |
+| Prognose for ny indikation | Ingen – TxGNN-output ikke til stede i denne Bevismappe |
+| TxGNN-prognose score | Ikke tilgængelig |
+| Bevisniveau | L5 (modelprognosedata mangler; ingen understøttende undersøgelser linket i mappe) |
+| Markedsstatus i Danmark | Ikke markedsført (per Bevismappe) |
+| Antal godkendelser til markedsføring | 0 (per Bevismappe) |
+| Anbefalet beslutning | **Standse** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-Currently no related literature is linked in this Evidence Pack.
+Denne Bevismappe indeholder ingen TxGNN-prognose indikation, så en formel mekanistisk begrundelse, der forbinder den oprindelige indikation med en ny målindikation, kan ikke konstrueres.
 
-> **Note:** As above, this is a consequence of missing `predicted_indications` data, not a reflection of the overall published literature for canagliflozin.
+Baseret på offentligt tilgængelig farmakologisk viden tilhører canagliflozin SGLT2-inhibitor-klassen. Det virker i nyrernes proximale tubul ved at blokere natrium-glukose kotransporter 2, hvorved glukosereabsorption reduceres og urinar glukoseudskillelse øges. Ud over blodsukkerkontrol har SGLT2-inhibitorer demonstreret natriuretiske og hæmodynamiske effekter med implikationer for hjertesvigt og kronisk nyresygdom – områder, der har tiltrukket betydelig interesse for lægemidler til ny indikation.
 
----
-
-## Denmark Market Information
-
-Per the Evidence Pack, canagliflozin has **0 marketing authorisations** and is recorded as **not marketed**.
-
-> **Important caveat for reviewers:** This Evidence Pack was generated from a regulatory data source that may not reflect the current Danish/EMA registration status. Canagliflozin-containing products (e.g., Invokana, Vokanamet) hold EMA centralised marketing authorisations that are valid in Denmark. Reviewers are strongly advised to verify the current status directly via:
-> - [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/invokana)
-> - [Laegemiddelstyrelsen (DKMA) product database](https://laegemiddelstyrelsen.dk/)
+Indtil TxGNN-prognoseledningen køres igen, og Bevismappe regenereres med et gyldigt `predicted_indications`-array, kan ingen formel mekanistisk associeringsanalyse formelt gennemføres for denne kandidat.
 
 ---
 
-## Safety Considerations
+## Kliniske forsøgsdata
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information, as no safety data is present in this Evidence Pack.
+Der er i øjeblikket ingen beslægtede kliniske forsøgsdata linket i denne Bevismappe.
 
-> The following data gaps have been flagged as requiring resolution before any safety-based evaluation can proceed:
-> - **TFDA labelling warnings and contraindications** (Severity: Blocking) — prevents entry into safety screening Stage 1
-> - **Mechanism of action data** (Severity: High) — prevents mechanistic relevance analysis
+> **Bemærk:** Dette afspejler fraværet af data i `predicted_indications`-feltet, ikke nødvendigvis fraværet af virkelighedsdata-forsøgsaktivitet for canagliflozin. Når først en målindikation er identificeret af TxGNN-modellen, skal en dedikeret bevisforespørgsel køres mod ClinicalTrials.gov og EU Clinical Trials Register (EudraCT / CTIS).
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturdata
 
-**Decision: Hold**
+Der er i øjeblikket ingen beslægtede litteraturkilder linket i denne Bevismappe.
 
-**Rationale:**
-The Evidence Pack for canagliflozin (DB08907) is critically incomplete: no TxGNN predicted indications are present, mechanism of action data is absent, and all safety fields are empty. Without a predicted target indication, no evidence-based repurposing evaluation can be conducted, and no recommendation regarding clinical development can be made.
-
-**To proceed, the following is needed:**
-
-- [ ] **Re-run TxGNN prediction pipeline** for DB08907 to populate `predicted_indications` — this is the single most important blocker
-- [ ] **Retrieve mechanism of action data** from DrugBank API for DB08907 (Data Gap DG002, severity: High)
-- [ ] **Retrieve SmPC safety data** including warnings and contraindications from the Danish/EMA label (Data Gap DG001, severity: Blocking)
-- [ ] **Verify Denmark market status** against the EMA centralised authorisation database and the DKMA product register, as the Evidence Pack value of "not marketed" appears inconsistent with known EMA approvals
-- [ ] **Re-generate the Evidence Pack** with complete inputs before scheduling a formal evaluation review
+> **Bemærk:** Som ovenfor er dette en konsekvens af manglende `predicted_indications`-data, ikke en afspejling af den samlede offentliggjorte litteratur for canagliflozin.
 
 ---
 
-*This report was generated from Evidence Pack `TW-DB08907-multi` (v4, data cutoff 2026-04-04). Due to critical data gaps, this document serves as a triage record only and does not constitute a complete drug repurposing evaluation. All findings are for research reference only and do not constitute medical advice. Any repurposing candidate requires clinical validation before application.*
+## Markedsoplysninger for Danmark
+
+Per Bevismappe har canagliflozin **0 godkendelser til markedsføring** og er registreret som **ikke markedsført**.
+
+> **Vigtig forbehold for anmeldere:** Denne Bevismappe blev genereret fra en regulatorisk datakilde, der muligvis ikke afspejler den nuværende danske/EMA-registreringsstatus. Canagliflozin-holdige produkter (f.eks. Invokana, Vokanamet) har EMA-centraliserede godkendelser til markedsføring, der er gyldige i Danmark. Anmeldere anbefales på det stærkest at bekræfte den nuværende status direkte via:
+> - [EMA produktside](https://www.ema.europa.eu/en/medicines/human/EPAR/invokana)
+> - [Laegemiddelstyrelsen (DKMA) produktdatabase](https://laegemiddelstyrelsen.dk/)
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte Sammenfattende produktkarakteristika (SmPC) for fuld sikkerhedsinformation, da der ikke findes sikkerhedsdata i denne Bevismappe.
+
+> Følgende datakløfter er blevet markeret som kræver løsning, før nogen sikkerhedsbaseret vurdering kan fortsættes:
+> - **TFDA-etiketadvarsler og kontraindikationer** (Alvorlighed: Blokering) – forhindrer indgang til sikkerhedsscreening fase 1
+> - **Virkningsmekanisme-data** (Alvorlighed: Høj) – forhindrer mekanistisk relevansvurdering
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Standse**
+
+**Begrundelse:**
+Bevismappe for canagliflozin (DB08907) er kritisk ufuldstændig: der findes ingen TxGNN-prognose indikationer, virkningsmekanisme-data mangler, og alle sikkerhedsfelter er tomme. Uden en prognose målindikation kan der ikke gennemføres en evidensbaseret vurdering af lægemidler til ny indikation, og der kan ikke fremstilles nogen anbefaling vedrørende klinisk udvikling.
+
+**For at fortsætte er følgende nødvendig:**
+
+- [ ] **Kør TxGNN-prognoseledningen igen** for DB08907 for at udfylde `predicted_indications` – dette er den vigtigste blocker
+- [ ] **Hent virkningsmekanisme-data** fra DrugBank API for DB08907 (Datakløft DG002, alvorlighed: Høj)
+- [ ] **Hent SmPC sikkerhedsdata**, herunder advarsler og kontraindikationer fra den danske/EMA-etiket (Datakløft DG001, alvorlighed: Blokering)
+- [ ] **Bekræft markedsstatus i Danmark** mod EMA-centraliseret godkendelsesdatabase og DKMA produktregister, da Bevismappe-værdien "ikke markedsført" synes uoverensstemmende med kendt EMA-godkendelser
+- [ ] **Regenerer Bevismappe** med fulde inddata, før en formel evaluering planlægges
+
+---
+
+*Denne rapport blev genereret fra Bevismappe `TW-DB08907-multi` (v4, dataafskæring 2026-04-04). På grund af kritiske datakløfter tjener dette dokument kun som en triagepost og udgør ikke en fuldstændig vurdering af lægemidler til ny indikation. Alle resultater er til forskningsreference og udgør ikke medicinsk rådgivning. Enhver kandidat til ny indikation kræver klinisk validering før anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

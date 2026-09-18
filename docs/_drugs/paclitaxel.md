@@ -29,111 +29,112 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Paclitaxel: From Ovarian/Lung Cancer to Female Breast Carcinoma
+# Paclitaxel: Fra ovariekræft/lungekræft til kvindeligt brystkræft
 
-## One-Sentence Summary
+## Et-sætnings sammenfatning
 
-Paclitaxel is a taxane-class cytotoxic chemotherapy agent with broad international approval across solid tumors (e.g., ovarian and non-small cell lung cancer); Danish-specific original-indication text was not available in this evidence pack. The TxGNN model predicts continued/renewed relevance for **Female Breast Carcinoma**, supported by an unusually large body of existing evidence — **50 clinical trials** (including multiple completed Phase 3 RCTs) and **20 publications** were retrieved, though this largely reflects paclitaxel's already-established role in breast cancer rather than a novel repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Danish licence records (0 licences on file); internationally approved for ovarian cancer, non-small cell lung cancer, and other solid tumors |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs identified) |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Paclitaxel er en taxan-klasse cytotoksisk kemoterapiagens med bred international godkendelse på tværs af solide tumorer (f.eks. ovariekræft og ikke-småcellet lungekræft); dansk-specifik original-indikationstekst var ikke tilgængelig i denne bevispakke. TxGNN-modellen forudsiger fortsatt/fornyet relevans for **kvindeligt brystkræft**, støttet af en usedvanlig stor mængde eksisterende bevis — **50 kliniske forsøg** (herunder flere afsluttede fase 3 RCT'er) og **20 publikationer** blev hentet, selvom dette stort set afspejler paclitaxels allerede etablerede rolle i brystkræft snarere end et nyt genbrugssignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available from DrugBank for this evidence pack (flagged as a High-severity data gap, DG002). Based on generally known pharmacology, Paclitaxel is a taxane-class agent that stabilizes microtubules and blocks mitotic spindle disassembly, driving apoptosis in rapidly dividing cells — a mechanism broadly applicable across proliferative solid tumors.
-
-Paclitaxel's efficacy in ovarian and lung cancer, both high-proliferation solid tumors, is mechanistically consistent with activity against breast carcinoma, which shares similar dependence on cell-cycle progression and microtubule dynamics for tumor growth.
-
-Importantly, the volume and maturity of the retrieved evidence (multiple completed Phase 3 randomized trials spanning three decades, including adjuvant, neoadjuvant, and metastatic settings) indicate that paclitaxel is **already an established standard-of-care agent in breast cancer treatment internationally**. This TxGNN prediction therefore largely reconfirms known clinical practice rather than surfacing a genuinely novel repurposing opportunity — a point that should inform how "new indication" is interpreted in this specific case.
+| Element | Indhold |
+|---------|----------|
+| Original indikation | Ikke tilgængelig fra danske licensoplysninger (0 licenser på fil); internationalt godkendt til ovariekræft, ikke-småcellet lungekræft og andre solide tumorer |
+| Forudsagt ny indikation | Kvindeligt brystkræft |
+| TxGNN forudsigelsesscore | 99.995% |
+| Bevisniveau | L1 (≥2 afsluttede fase 3 RCT'er identificeret) |
+| Markedsstatus i Danmark | Ikke markedsført (Ikke markedsført) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afventer |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+I øjeblikket er detaljeret mekanisme-for-handling-data ikke tilgængelig fra DrugBank for denne bevispakke (markeret som et høj-alvorlighed datagab, DG002). Baseret på almindelig kendt farmakologi er paclitaxel en taxan-klasse agens, der stabiliserer mikrotubuli og blokerer afmontage af mitotisk spindle, hvilket driver apoptose i hurtigt delende celler — en mekanisme, der er bredt gældende på tværs af proliferative solide tumorer.
+
+Paclitaxels virkning i ovariekræft og ikke-småcellet lungekræft, begge høj-proliferations solide tumorer, er mekanistisk konsistent med aktivitet mod brystkræft, som deler lignende afhængighed af cellecykelprogressionen og mikrotubuli-dynamik for tumorsvækst.
+
+Vigtigt er det, at omfanget og modenheden af det hentet bevis (flere afsluttede fase 3 randomiserede forsøg over tre årtier, herunder adjuvant, neoadjuvant og metastatisk behandlingssituationer) indikerer, at paclitaxel **allerede er en etableret standardbehandlings-agens i brystkræftbehandling internationalt**. Denne TxGNN-forudsigelse bekræfter således stort set kendt klinisk praksis snarere end at afdække et ægte nyt genbrug-potentiale — et punkt, der bør påvirke, hvordan "ny indikation" fortolkes i dette specifikke tilfælde.
+
+---
+
+## Klinisk forsøgsbevis
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Phase 3 | Completed | 3,436 | AC followed by weekly paclitaxel ± trastuzumab as adjuvant therapy in HER2-overexpressing or high-risk node-positive/negative breast cancer |
-| [NCT00561119](https://clinicaltrials.gov/study/NCT00561119) | Phase 3 | Completed | 326 | Maintenance vs. observation after 6 cycles of gemcitabine + paclitaxel as 1st-line therapy in metastatic/recurrent breast cancer |
-| [NCT00004125](https://clinicaltrials.gov/study/NCT00004125) | Phase 3 | Completed | N/A | AC followed by paclitaxel or docetaxel, weekly vs. every 3 weeks, in axillary node-positive breast cancer |
-| [NCT00002953](https://clinicaltrials.gov/study/NCT00002953) | Phase 3 | Completed | 704 | Epirubicin + cyclophosphamide vs. epirubicin + paclitaxel in metastatic breast cancer |
-| [NCT01426880](https://clinicaltrials.gov/study/NCT01426880) | Phase 2/3 | Completed | 595 | Addition of carboplatin to neoadjuvant anthracycline-taxane-trastuzumab therapy in triple-negative and HER2+ early breast cancer |
-| [NCT03289819](https://clinicaltrials.gov/study/NCT03289819) | Phase 2 | Completed | 53 | Neoadjuvant pembrolizumab + nab-paclitaxel followed by pembrolizumab + EC in triple-negative breast cancer |
-| [NCT05296798](https://clinicaltrials.gov/study/NCT05296798) | Phase 3 | Active, not recruiting | 922 | Giredestrant + Phesgo vs. Phesgo after induction with Phesgo + taxane in HER2+/ER+ advanced breast cancer |
-| [NCT02280252](https://clinicaltrials.gov/study/NCT02280252) | Phase 2 | Completed | 69 | Concurrent paclitaxel and radiation in locally advanced breast cancer, multiethnic cohort |
-| [NCT01366144](https://clinicaltrials.gov/study/NCT01366144) | Phase 1 | Active, not recruiting | 94 | Veliparib + carboplatin + paclitaxel in solid tumor patients with hepatic/renal dysfunction |
-| [NCT05189535](https://clinicaltrials.gov/study/NCT05189535) | Phase 2/3 | Completed | 66 | Pentoxifylline for prevention of paclitaxel-induced peripheral neuropathy in breast cancer patients |
+| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Fase 3 | Afsluttet | 3,436 | AC efterfulgt af ugentligt paclitaxel ± trastuzumab som adjuvant terapi i HER2-overeksprimerende eller høj-risiko knude-positiv/negativ brystkræft |
+| [NCT00561119](https://clinicaltrials.gov/study/NCT00561119) | Fase 3 | Afsluttet | 326 | Vedligeholdelsesterapi vs. observation efter 6 cyklusser af gemcitabin + paclitaxel som 1. linjes terapi i metastatisk/recidiv brystkræft |
+| [NCT00004125](https://clinicaltrials.gov/study/NCT00004125) | Fase 3 | Afsluttet | N/A | AC efterfulgt af paclitaxel eller docetaxel, ugentligt vs. hver 3. uge, i aksillar knude-positiv brystkræft |
+| [NCT00002953](https://clinicaltrials.gov/study/NCT00002953) | Fase 3 | Afsluttet | 704 | Epirubisin + cyclophosphamid vs. epirubisin + paclitaxel i metastatisk brystkræft |
+| [NCT01426880](https://clinicaltrials.gov/study/NCT01426880) | Fase 2/3 | Afsluttet | 595 | Tilsætning af carboplatin til neoadjuvant antracyklin-taxan-trastuzumab terapi i tredobbelt-negativ og HER2+ tidlig brystkræft |
+| [NCT03289819](https://clinicaltrials.gov/study/NCT03289819) | Fase 2 | Afsluttet | 53 | Neoadjuvant pembrolizumab + nab-paclitaxel efterfulgt af pembrolizumab + EC i tredobbelt-negativ brystkræft |
+| [NCT05296798](https://clinicaltrials.gov/study/NCT05296798) | Fase 3 | Aktivt, ikke rekrutterer | 922 | Giredestrant + Phesgo vs. Phesgo efter induktion med Phesgo + taxan i HER2+/ER+ avanceret brystkræft |
+| [NCT02280252](https://clinicaltrials.gov/study/NCT02280252) | Fase 2 | Afsluttet | 69 | Samtidig paclitaxel og stråling i lokalt avanceret brystkræft, multi-etnisk kohorte |
+| [NCT01366144](https://clinicaltrials.gov/study/NCT01366144) | Fase 1 | Aktivt, ikke rekrutterer | 94 | Veliparib + carboplatin + paclitaxel i patienter med solide tumorer og hepatisk/renal dysfunktion |
+| [NCT05189535](https://clinicaltrials.gov/study/NCT05189535) | Fase 2/3 | Afsluttet | 66 | Pentoxifyllin til forebyggelse af paclitaxel-induceret perifer neuropati i brystkræftpatienter |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Review | Biomolecules | Comprehensive review of paclitaxel's mechanistic and clinical effects in breast cancer, including resistance mechanisms |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug and Therapeutics Bulletin | Early regulatory review of paclitaxel and docetaxel use in breast and ovarian cancer |
-| [9164198](https://pubmed.ncbi.nlm.nih.gov/9164198/) | 1997 | Phase II trial | J Clin Oncol | ECOG study of biweekly paclitaxel + cisplatin in advanced breast carcinoma |
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Phase II trial | Cancer | Doxorubicin + paclitaxel combination in advanced metastatic breast carcinoma |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Real-world study | BioMed Research International | Neoadjuvant EC + weekly paclitaxel + trastuzumab in HER2-positive breast carcinoma |
-| [24068539](https://pubmed.ncbi.nlm.nih.gov/24068539/) | 2013 | Phase I-II trial | Breast Cancer Res Treat | Tipifarnib + sequential weekly paclitaxel and AC in inflammatory and ER-positive breast carcinoma |
-| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Case series | Cancer | Paclitaxel in multimodality treatment of inflammatory breast carcinoma |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Preclinical | Chemical Biology & Drug Design | Paclitaxel combination therapeutic potential against breast carcinoma with in vivo biomarker identification |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | Preclinical | Molecular Pharmacology | Mechanistic study of stathmin-mediated resistance reversal to paclitaxel in breast carcinoma cells |
-| [9821299](https://pubmed.ncbi.nlm.nih.gov/9821299/) | 1998 | Preclinical | Folia Microbiologica | Antitumor activity of paclitaxel + epirubicin combination in ER-positive human breast carcinoma model |
+| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Oversigt | Biomolecules | Omfattende oversigt over paclitaxels mekanistiske og kliniske effekter i brystkræft, herunder resistensmekanismer |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Oversigt | Drug and Therapeutics Bulletin | Tidlig regulatorisk oversigt over paclitaxel- og docetaxel-brug i brystkræft og ovariekræft |
+| [9164198](https://pubmed.ncbi.nlm.nih.gov/9164198/) | 1997 | Fase II-forsøg | J Clin Oncol | ECOG-studie af tosugentligt paclitaxel + cisplatin i avanceret brystkræft |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Fase II-forsøg | Cancer | Doxorubicin + paclitaxel-kombination i avanceret metastatisk brystkræft |
+| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Realverden-studie | BioMed Research International | Neoadjuvant EC + ugentligt paclitaxel + trastuzumab i HER2-positiv brystkræft |
+| [24068539](https://pubmed.ncbi.nlm.nih.gov/24068539/) | 2013 | Fase I-II-forsøg | Breast Cancer Res Treat | Tipifarnib + sekventielt ugentligt paclitaxel og AC i inflammatorisk og ER-positiv brystkræft |
+| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Casussamling | Cancer | Paclitaxel i multimodalitetsbehandling af inflammatorisk brystkræft |
+| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Præklinisk | Chemical Biology & Drug Design | Paclitaxel-kombinationsterapeutisk potentiale mod brystkræft med in vivo-biomarkerisering |
+| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | Præklinisk | Molecular Pharmacology | Mekanistisk studie af stathmin-medieret resistensomvendelse til paclitaxel i brystkræftceller |
+| [9821299](https://pubmed.ncbi.nlm.nih.gov/9821299/) | 1998 | Præklinisk | Folia Microbiologica | Antitumor-aktivitet af paclitaxel + epirubisin-kombination i ER-positiv humant brystkræftmodel |
 
 ---
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-No marketing authorisation records were returned for Paclitaxel in this evidence pack (`total_licenses: 0`, `market_status: Not marketed/Not marketed`). This is notable given paclitaxel's broad international generic availability, and should be treated as a data-collection gap requiring verification rather than confirmed absence from the Danish market.
-
----
-
-## Cytotoxicity
-
-Paclitaxel is a well-established cytotoxic antineoplastic (taxane class), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (taxane / microtubule-stabilizing agent) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) — no toxicity data was returned in this evidence pack |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) — no toxicity data was returned in this evidence pack |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Cytotoxic drug handling precautions are expected to apply as a class-standard requirement for antineoplastic infusion agents; specific protocol should follow SmPC/local guidance |
+Der blev returneret ingen markedsføringstilladelsesoplysninger for paclitaxel i denne bevispakke (`total_licenses: 0`, `market_status: Not marketed/Not marketed`). Dette er bemærkelsesværdigt givet paclitaxels brede internationale generisk tilgængelighed og bør behandles som et datagab ved indsamling, der kræver verifikation, snarere end bekræftet fraværelse fra det danske marked.
 
 ---
 
-## Safety Considerations
+## Cytotoksicitet
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Paclitaxel er et veletableret cytotoksisk antineoplastikum (taxan-klasse), så dette afsnit gælder.
+
+| Element | Indhold |
+|---------|----------|
+| Cytotoksicitetsklassificering | Konventionelt cytotoksisk (taxan / mikrotubuli-stabiliserende agens) |
+| Myelosuppressionrisiko | Se venligst produktresumé (SmPC) — ingen toksicitetsdata blev returneret i denne bevispakke |
+| Emetogenicitetsklassificering | Se venligst produktresumé (SmPC) — ingen toksicitetsdata blev returneret i denne bevispakke |
+| Overvågningselementer | Se venligst produktresumé (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Cytotoksisk lægemiddelhåndterings-forholdsregler forventes at gælde som en klasse-standard-krav for antineoplastiske infusions-agenser; specifik protokol skal følge SmPC/lokale retningslinjer |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Rationale:**
-- Existing clinical evidence for paclitaxel in breast carcinoma is strong (Evidence Level L1, multiple completed Phase 3 RCTs), but this reflects already-established international standard-of-care use rather than a novel repurposing signal.
-- A Blocking-severity data gap (DG001: TFDA/SmPC warnings and contraindications unavailable) prevents any safety initial assessment (S1) from proceeding, regardless of efficacy evidence strength.
+---
 
-**To proceed, the following is needed:**
-- Obtain TFDA/Danish SmPC label text (warnings, contraindications) — resolves Blocking gap DG001
-- Retrieve confirmed mechanism of action data from DrugBank — resolves High-severity gap DG002
-- Verify actual Danish/EU marketing authorisation status, since the current record of 0 licences is inconsistent with paclitaxel's known wide generic availability and likely reflects incomplete data collection
-- Clarify whether "female breast carcinoma" should be treated as a genuine repurposing candidate or reclassified as confirmatory evidence of existing standard-of-care use
+## Konklusion og næste trin
+
+**Afgørelse: Afventer**
+
+**Begrundelse:**
+- Eksisterende klinisk bevis for paclitaxel i brystkræft er stærkt (bevisniveau L1, flere afsluttede fase 3 RCT'er), men dette afspejler allerede etableret international standardbehandlings-brug snarere end et nyt genbrugssignal.
+- Et blokerend-alvorlighed datagab (DG001: TFDA/SmPC advarsler og kontraindikationer utilgængelige) forhindrer enhver sikkerhed-initialvurdering (S1) i at fortsætte, uanset styrken af effektivitetsbevis.
+
+**For at fortsætte er følgende nødvendigt:**
+- Indhent TFDA/dansk SmPC-etiket-tekst (advarsler, kontraindikationer) — løser blokerend gab DG001
+- Hent bekræftet mekanisme-for-handling-data fra DrugBank — løser høj-alvorlighed gab DG002
+- Bekræft faktisk dansk/EU markedsføringstilladelsestatus, da det nuværende register på 0 licenser er uoverensstemmende med paclitaxels kendt bredt generisk tilgængelighed og sandsynligvis afspejler ufuldstændig dataindsamling
+- Præciser, hvorvidt "kvindeligt brystkræft" skal behandles som en ægte genbruge-kandidat eller omklassificeres som bekræftende bevis for eksisterende standardbehandlings-brug
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

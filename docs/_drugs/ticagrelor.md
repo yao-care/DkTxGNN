@@ -29,91 +29,92 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ticagrelor: From Acute Coronary Syndrome to Intracranial Arteriosclerosis
+# Ticagrelor: Fra akut koronart syndrom til intrakraniel arterosklerose
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Ticagrelor is an oral, reversible P2Y12 platelet inhibitor used as antiplatelet therapy in acute coronary syndrome and related atherothrombotic conditions. The TxGNN model predicts it may also be effective for **Intracranial Arteriosclerosis** (intracranial atherosclerotic disease, ICAD), with **11 clinical trials** and **3 publications** currently identified in support of this direction.
+Ticagrelor er et oralt, reversibelt P2Y12-plateletinhibitor, der anvendes som antiplatelet-terapi ved akut koronart syndrom og relaterede aterosklerotiske trombotiske tilstande. TxGNN-modellen forudsiger, at det også kan være effektivt for **intrakraniel arterosklerose** (intrakraniel aterosklerotisk sygdom, ICAD) med **11 kliniske forsøg** og **3 publikationer**, der i øjeblikket er identificeret til støtte for denne retning.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Acute Coronary Syndrome (ACS) — inferred from trial/mechanistic context; no structured indication text is present in this Evidence Pack |
-| Predicted New Indication | Intracranial Arteriosclerosis (Intracranial Atherosclerotic Disease) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Akut koronart syndrom (ACS) — udledt fra forsøgs-/mekanistisk kontekst; ingen struktureret indikationstekst er til stede i denne evidence-pakke |
+| Forudsagt ny indikation | Intrakraniel arterosklerose (intrakraniel aterosklerotisk sygdom) |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Evidensniveau | L2 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forholdsregler |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, a structured mechanism-of-action record is not available in this Evidence Pack (`original_moa` is a data gap, pending DrugBank API lookup — see DG002). Based on the mechanistic reasoning captured alongside this prediction, ticagrelor is a reversibly-binding P2Y12 receptor antagonist that inhibits ADP-induced platelet activation and aggregation — the standard antiplatelet mechanism used in atherothrombotic disease (ACS, post-PCI, and ischemic stroke prevention).
+I øjeblikket er en struktureret mekanisme-for-handling-post ikke tilgængelig i denne evidence-pakke (`original_moa` er et datahul, afventende DrugBank API-opslag — se DG002). Baseret på den mekanistiske begrundelse, der er fanget sammen med denne forudsigelse, er ticagrelor en reversibelt-bindende P2Y12-receptorantagonist, der hæmmer ADP-induceret plateletaktivering og aggregation — standardmekanismen for antiplatelet-behandling, der anvendes ved aterosklerotisk trombotisk sygdom (ACS, post-PCI og ischemisk slagtilfælde-forebyggelse).
 
-Intracranial arteriosclerosis (ICAD) causes ischemic stroke through the same underlying pathology as ticagrelor's established use: atherosclerotic plaque formation and platelet-driven thrombus formation, here occurring in intracranial vessels rather than coronary arteries. Because ticagrelor's core mechanism directly targets this thrombotic pathway, its extension into ICAD represents an application of an already-validated antiplatelet principle to a different, but mechanistically related, vascular bed — rather than a novel or speculative mechanism.
+Intrakraniel arterosklerose (ICAD) forårsager ischemisk slagtilfælde gennem den samme patologi som ticagrelors etablerede anvendelse: aterosklerotisk plakeopbygning og platelet-driven trombusformation, her forekommende i intrakranielle kar snarere end koronarkår. Fordi ticagrelors kernemekanisme direkte fokuserer på denne trombotiske vej, repræsenterer dets udvidelse til ICAD en anvendelse af et allerede valideret antiplatelet-princip til et anderledes, men mekanistisk relateret karbed — snarere end en ny eller spekulativ mekanisme.
 
-This mechanistic plausibility is reinforced by an active evidence base: the ongoing Phase 3 CAPTIVA trial (NCT05047172) directly compares ticagrelor- and rivaroxaban-based regimens against clopidogrel in symptomatic intracranial arterial stenosis, and several additional trials evaluate antiplatelet strategies (including ticagrelor) in intracranial stenting and stroke prevention settings.
+Denne mekanistiske plausibilitet forstærkes af en aktiv evidensbasis: den igangværende fase 3-CAPTIVA-forsøg (NCT05047172) sammenligner direkte ticagrelor- og rivaroxaban-baserede behandlingsregimer mod clopidogrel ved symptomatisk intrakraniel arteriestenose, og flere yderligere forsøg evaluerer antiplatelet-strategier (herunder ticagrelor) ved intrakraniel stent-placering og slagtilfælde-forebyggelse.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidensgrundlag
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | NA | Recruiting | 100 | Pilot RCT of genotype-guided P2Y12 inhibitor selection vs. conventional clopidogrel in symptomatic intracranial atherosclerotic disease. |
-| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | NA | Recruiting | 792 | DREAM-PRIDE: drug-eluting stent plus aggressive medical therapy vs. medical therapy alone to prevent recurrent stroke in symptomatic ICAD. |
-| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Phase 4 | Completed | 2009 | EVOLVE Short DAPT: safety of 3-month dual antiplatelet therapy in high bleeding-risk patients after PCI with the SYNERGY stent system. |
-| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Phase 3 | Active, not recruiting | 1683 | CAPTIVA: rivaroxaban and/or ticagrelor vs. clopidogrel for reducing 1-year ischemic stroke, intracerebral hemorrhage, or vascular death in intracranial arterial stenosis. |
-| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Phase 3 | Completed | 13885 | EUCLID: ticagrelor vs. clopidogrel for cardiovascular death, MI, and ischemic stroke in peripheral artery disease. |
-| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | NA | Unknown | 2171 | Anticoagulation alone vs. anticoagulation plus antiplatelet therapy in acute ischemic stroke with atrial fibrillation and extracranial/intracranial artery stenosis. |
-| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | NA | Withdrawn | 0 | 3 vs. 6 months DAPT after NOVA intracranial sirolimus-eluting stent implantation (trial withdrawn before enrollment). |
-| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Phase 4 | Unknown | 2036 | Low-dose vs. standard-dose ticagrelor after drug-eluting stent implantation for unstable angina. |
-| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Phase 3 | Completed | 15991 | GLOBAL LEADERS: ticagrelor+aspirin (1 month) then ticagrelor monotherapy vs. standard DAPT after stent implantation. |
-| [NCT07354828](https://clinicaltrials.gov/study/NCT07354828) | N/A | Not yet recruiting | 3500 | Quality control indicator optimization for DAPT-based coronary revascularization in coronary heart disease. |
+| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | NA | Rekrutterer | 100 | Pilot RCT af genotype-ledet P2Y12-inhibitorvalg vs. konventionel clopidogrel ved symptomatisk intrakraniel aterosklerotisk sygdom. |
+| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | NA | Rekrutterer | 792 | DREAM-PRIDE: medicin-udløsende stent plus aggressiv medicinalbehandling vs. medicinalbehandling alene for at forebygge tilbagevendende slagtilfælde ved ICAD. |
+| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Fase 4 | Afsluttet | 2009 | EVOLVE Short DAPT: sikkerhed ved 3-måneders dual antiplatelet-terapi hos patienter med høj blødningsrisiko efter PCI med SYNERGY stent-systemet. |
+| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Fase 3 | Aktiv, ikke rekrutterer | 1683 | CAPTIVA: rivaroxaban og/eller ticagrelor vs. clopidogrel for at reducere 1-års ischemisk slagtilfælde, intracerebral blødning eller vaskulær død ved intrakraniel arteriestenose. |
+| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Fase 3 | Afsluttet | 13885 | EUCLID: ticagrelor vs. clopidogrel for kardiovaskulær død, MI og ischemisk slagtilfælde ved perifer arteriesygdom. |
+| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | NA | Ukendt | 2171 | Antikoagulation alene vs. antikoagulation plus antiplatelet-terapi ved akut ischemisk slagtilfælde med atrieflimren og ekstrakraniel/intrakraniel arteriestenose. |
+| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | NA | Tilbagekaldt | 0 | 3 vs. 6 måneders DAPT efter implantering af NOVA intrakraniel sirolimus-udløsende stent (forsøg tilbagekaldt før tilmelding). |
+| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Fase 4 | Ukendt | 2036 | Lav-dosis vs. standard-dosis ticagrelor efter implantering af medicin-udløsende stent for ustabil angina. |
+| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Fase 3 | Afsluttet | 15991 | GLOBAL LEADERS: ticagrelor+acetylsalicylsyre (1 måned) derefter ticagrelor-monoterapi vs. standard DAPT efter stent-implantering. |
+| [NCT07354828](https://clinicaltrials.gov/study/NCT07354828) | N/A | Ikke endnu rekrutterer | 3500 | Optimering af kvalitetskontrolindikatorer for DAPT-baseret koronar revaskularisering ved koronarsygdom. |
 
-No EudraCT (EU Clinical Trials Register) identifiers were available in this Evidence Pack.
+Ingen EudraCT-identifikatorer (EU Clinical Trials Register) var tilgængelige i denne evidence-pakke.
 
 ---
 
-## Literature Evidence
+## Litteraturvidensgrundlag
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | RCT (trial design) | International Journal of Stroke | Design and early progress of the CAPTIVA trial comparing anticoagulation vs. antiplatelet combinations for intracranial vascular atherostenosis. |
-| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Review | Stroke | Focused update on intracranial atherosclerosis, including current knowledge gaps relevant to antithrombotic strategy selection. |
-| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Cohort/Observational | Journal of NeuroInterventional Surgery | Lower-dose ticagrelor (60 mg twice daily) plus aspirin compared with standard aspirin/clopidogrel DAPT for intracranial stenting. |
+| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | RCT (forsøgsdesign) | International Journal of Stroke | Design og tidlig fremskridt for CAPTIVA-forsøget, der sammenligner antikoagulation vs. antiplatelet-kombinationer for intrakraniel vaskulær aterosklerose. |
+| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Oversigt | Stroke | Fokuseret opdatering på intrakraniel arterosklerose, herunder nuværende videnshuller, der er relevante for valg af antitombotisk strategi. |
+| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Kohort/Observationel | Journal of NeuroInterventional Surgery | Lavere-dosis ticagrelor (60 mg to gange dagligt) plus acetylsalicylsyre sammenlignet med standard acetylsalicylsyre/clopidogrel DAPT for intrakraniel stent-indlægning. |
 
 ---
 
-## Denmark Market Information
+## Information om dansk marked
 
-Ticagrelor is not currently marketed in Denmark (0 marketing authorisations on record in this Evidence Pack), so no product-level licence data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Danish label warnings/contraindications and drug-drug interaction data were not available in this Evidence Pack (see data gap DG001, flagged as Blocking for safety pre-assessment).
+Ticagrelor er i øjeblikket ikke markedsført i Danmark (0 markedsføringstilladelser registreret i denne evidence-pakke), så der er ikke tilgængelige produktniveauoplysninger.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktresume (SmPC) for sikkerhedsoplysninger. Advarsler/kontraindikationer i dansk etiket og lægemiddelinteraktionsdata var ikke tilgængelige i denne evidence-pakke (se datahul DG001, markeret som blokerande for sikkerhedsforvurdering).
 
-**Rationale:**
-Ticagrelor's antiplatelet mechanism is directly relevant to the thrombotic pathology of intracranial arteriosclerosis, and this direction is actively being tested in a dedicated ongoing Phase 3 trial (CAPTIVA) alongside a completed Phase 3 trial (EUCLID) and multiple supporting studies — corresponding to Evidence Level L2. However, no completed trial has yet reported a primary efficacy result specific to the ICAD population, so guardrails are warranted pending mature outcome data.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU-approved product label (SmPC) warnings, contraindications, and drug-drug interaction data (Blocking gap, DG001)
-- Confirmed mechanism-of-action detail from DrugBank (High-priority gap, DG002)
-- Primary results from the ongoing CAPTIVA trial (NCT05047172, expected completion 2028-05-31)
-- Confirmation of Denmark/EU marketing authorisation status, since ticagrelor currently has no recorded Danish licence in this Evidence Pack
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med forholdsregler**
+
+**Begrundelse:**
+Ticagrelors antiplatelet-mekanisme er direkte relevant for den trombotiske patologi ved intrakraniel arterosklerose, og denne retning bliver aktivt testet i et dedikeret igangværende fase 3-forsøg (CAPTIVA) sammen med et afsluttet fase 3-forsøg (EUCLID) og flere understøttende studier — svarende til evidensniveau L2. Imidlertid har intet afsluttet forsøg endnu rapporteret et primært effektivitetsresultat, der er specifikt for ICAD-populationen, så forholdsregler er berettigede i afventning af modne resultatdata.
+
+**For at fortsætte skal følgende være nødvendigt:**
+- Dansk/EU-godkendt produktetiket (SmPC) advarsler, kontraindikationer og lægemiddelinteraktionsdata (blokerande gap, DG001)
+- Bekræftet mekanisme-for-handling-detalje fra DrugBank (høj prioritets gap, DG002)
+- Primære resultater fra den igangværende CAPTIVA-forsøg (NCT05047172, forventet afslutning 2028-05-31)
+- Bekræftelse af Danmark/EU markedsføringstilladelsestatus, da ticagrelor i øjeblikket ikke har nogen registreret dansk licens i denne evidence-pakke
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

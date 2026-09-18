@@ -29,86 +29,81 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using none of the loaded skills here — this is a direct, fully-specified report-writing task with an explicit template already given in the prompt, so I'll follow it directly rather than force-fit a skill.
+# Lorazepam: Fra angststilstande til søvnløshed
 
-One judgment call worth flagging up front: `predicted_indications[0]` ("trigeminal nerve neoplasm") is explicitly annotated in its own `repurposing_rationale` as TxGNN graph noise with zero supporting evidence ("屬 TxGNN 知識圖譜連結雜訊，應排除" — recommendation: Hold, evidence L5). Reporting that as the headline indication would be actively misleading to a prescriber. I used the next candidate with real, gradable evidence instead — **insomnia (disease)**, L2, "Proceed with Guardrails" — and note the excluded noise candidates below the report.
+## En-sætnings-opsummering
 
----
+Lorazepam er et benzodiazepin (GABA-A-receptorens positive allosteriske modulator) etableret til angststilstande og, på klasseniveauet, til kortvarigt søvninducerende brug. TxGNN-modellen forudsiger fortsat effektivitet for **søvnløshed**, med **23 kliniske forsøg** og **18 publikationer** i øjeblikket identificeret, herunder ét afsluttet fase 3-RCT af et lorazepam-indeholdende kombinationsprodukt.
 
-# Lorazepam: From Anxiety Disorders to Insomnia
+## Hurtig oversigt
 
-## One-Sentence Summary
-
-Lorazepam is a benzodiazepine (GABA-A receptor positive allosteric modulator) established for anxiety and, at the class level, for short-term sedative-hypnotic use. The TxGNN model predicts continued effectiveness for **Insomnia**, with **23 clinical trials** and **18 publications** currently identified, including one completed Phase 3 RCT of a lorazepam-containing combination product.
-
-## Quick Overview
-
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | No Danish marketing authorisation on file (product not marketed); pharmacologically established as an anxiolytic/sedative-hypnotic, benzodiazepine class |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ingen dansk markedsføringstilladelse på fil (produkt ikke markedsført); farmakologisk etableret som anxiolytisk/søvninducerende, benzodiazepinklasse |
+| Forudsagt ny indikation | Søvnløshed (disease) |
+| TxGNN-forudsigelsesscore | 99.80% |
+| Bevisniveau | L2 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forbehold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field: Data Gap). Based on known information, lorazepam belongs to the benzodiazepine class, acting as a positive allosteric modulator at the GABA-A receptor to enhance inhibitory neurotransmission — the same mechanism responsible for its established anxiolytic and sedative effects.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (DrugBank MOA-felt: Datakløft). Baseret på kendt information tilhører lorazepam benzodiazepinklassen og virker som en positiv allosterisk modulator ved GABA-A-receptoren for at øge inhibitorisk neurotransmission — den samme mekanisme, der er ansvarlig for dets etablerede angstdæmpende og søvninducerende virkninger.
 
-The link between anxiolytic/sedative use and insomnia is direct rather than speculative: GABA-A potentiation produces sedation and reduced sleep latency as a core pharmacological effect, not a secondary or off-target one. Multiple identified trials studied lorazepam specifically as a hypnotic agent (e.g., in combination with diphenhydramine and zolpidem for transient insomnia), and one publication (PMID 30764) explicitly characterizes lorazepam's behavioral pharmacology profile as consistent with both anxiolytic and anti-convulsant/sedative activity.
+Forbindelsen mellem anxiolytisk/søvninducerende brug og søvnløshed er direkte snarere end spekulativ: GABA-A-potentiering producerer sedation og reduceret søvnlatens som en kernefarmakolologisk virkning, ikke en sekundær eller off-target-virkning. Flere identificerede forsøg undersøgte lorazepam specifikt som et hypnotikum (f.eks. i kombination med diphenhydramine og zolpidem ved forbigående søvnløshed), og én publikation (PMID 30764) karakteriserer eksplicit lorazepams adfærdsmæssige farmakologiprofil som konsistent med både anxiolytisk og antikonvulsivt/sedativt aktivitet.
 
-Because benzodiazepines as a class are already used clinically for short-term insomnia in multiple jurisdictions, the mechanistic rationale here is strong; the main open question is not "does it work" but "how does it compare on safety/dependence risk to current standard-of-care hypnotics," which the guardrails below are meant to address.
+Fordi benzodiazepiner som klasse allerede bruges klinisk til kortvarigt søvnløshed i flere jurisdiktioner, er den mekanistiske rationalisering her stærk; hovedspørgsmålet er ikke "virker det" men "hvordan sammenligner det sig på sikkerhed/afhængighedsrisiko med nuværende standard-of-care hypnotika," som sikringsforanstaltningerne nedenfor er beregnet til at adressere.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT03331042](https://clinicaltrials.gov/study/NCT03331042) | Phase 3 | Completed | 85 | 4-way crossover RCT of SM-1 (diphenhydramine + zolpidem + delayed-release lorazepam) vs. diphenhydramine+zolpidem, diphenhydramine+lorazepam, and placebo in a phase-advance model of transient insomnia |
-| [NCT02671760](https://clinicaltrials.gov/study/NCT02671760) | Phase 2 | Completed | 39 | Pharmacodynamic study of a lorazepam-containing combination (with diphenhydramine, zolpidem) on total sleep time in transient insomnia |
-| [NCT04396327](https://clinicaltrials.gov/study/NCT04396327) | Phase 2 | Not yet recruiting | 14 | 2-way crossover PD study of SM-1 vs. a diphenhydramine+lorazepam active comparator in a 3-hour phase-advance model of transient insomnia |
-| [NCT03338764](https://clinicaltrials.gov/study/NCT03338764) | Phase 3 | Withdrawn (enrollment 0) | 0 | Planned double-blind, placebo-controlled study of SM-1 efficacy/safety/pattern-of-use in transient insomnia; withdrawn before enrollment |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Unknown | 1400 | Prospective Taiwanese cohort on risk/benefit of hypnotic agents (including benzodiazepine class) in elderly patients; large sample but not lorazepam-specific and status unknown |
-| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | Completed | 170 | Self-management intervention to promote benzodiazepine cessation (incl. lorazepam); informs dependence/discontinuation risk rather than efficacy |
-| [NCT06584513](https://clinicaltrials.gov/study/NCT06584513) | N/A | Recruiting | 470 | Intervention to reduce benzodiazepine/sedative-hypnotic use in older adults with sleep problems; directionally supports safety caution rather than efficacy |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnographic comparison of α2-agonist vs. GABA-agonist sedation in mechanically ventilated patients |
+| [NCT03331042](https://clinicaltrials.gov/study/NCT03331042) | Fase 3 | Afsluttet | 85 | 4-vejs crossover-RCT af SM-1 (diphenhydramine + zolpidem + forsinket-frigivelse lorazepam) vs. diphenhydramine+zolpidem, diphenhydramine+lorazepam og placebo i en phase-advance-model af forbigående søvnløshed |
+| [NCT02671760](https://clinicaltrials.gov/study/NCT02671760) | Fase 2 | Afsluttet | 39 | Farmakodinamisk studie af en lorazepam-indeholdende kombination (med diphenhydramine, zolpidem) på total søvntid ved forbigående søvnløshed |
+| [NCT04396327](https://clinicaltrials.gov/study/NCT04396327) | Fase 2 | Endnu ikke rekrutterer | 14 | 2-vejs crossover-studie af SM-1 vs. en diphenhydramine+lorazepam aktiv sammenligning i en 3-timers phase-advance-model af forbigående søvnløshed |
+| [NCT03338764](https://clinicaltrials.gov/study/NCT03338764) | Fase 3 | Trukket tilbage (tilmelding 0) | 0 | Planlagt dobbelt-blind, placebo-kontrolleret studie af SM-1 efficacy/sikkerhed/brugsmønster ved forbigående søvnløshed; trukket tilbage før tilmelding |
+| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Ukendt | 1400 | Prospektivt taiwanesisk kohorte på risiko/fordel ved søvninducerende midler (herunder benzodiazepinklasse) hos ældre patienter; stor stikprøve, men ikke lorazepam-specifik og status ukendt |
+| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | Afsluttet | 170 | Selvstyringsintervention til fremme af benzodiazepinophør (inkl. lorazepam); informerer om afhængigheds-/afbrydelsesrisiko snarere end efficacy |
+| [NCT06584513](https://clinicaltrials.gov/study/NCT06584513) | N/A | Rekrutterer | 470 | Intervention til at reducere benzodiazepine/søvninducerende brug hos ældre voksne med søvnproblemer; retningsbestem understøtter sikkerhedsforsigtighedssignal snarere end efficacy |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Fase 1 | Afsluttet | 6 | Polysomnografisk sammenligning af α2-agonist vs. GABA-agonist-sedation hos mekanisk ventilerede patienter |
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [3280615](https://pubmed.ncbi.nlm.nih.gov/3280615/) | 1988 | RCT | Journal of Clinical Pharmacology | Double-blind crossover trial: lorazepam 2mg outperformed flurazepam 30mg on most sleep parameters in chronic insomniacs over 3 weeks |
-| [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Cohort/Clinical study | International Clinical Psychopharmacology | Tested lorazepam 0.5mg TID (24-hour dosing) vs. 1.5mg HS (evening) in primary insomnia, targeting daytime fatigue symptoms |
-| [35087274](https://pubmed.ncbi.nlm.nih.gov/35087274/) | 2022 | Review | Journal of Multidisciplinary Healthcare | Reviews efficacy, safety and drug-drug interactions of insomnia therapies in COVID-19 patients ("coronasomnia") |
-| [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Review | The Medical Letter on Drugs and Therapeutics | General review of drug options for chronic insomnia |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharmaceutica | Meta-analysis of tranquilizer use (dose, outcomes, adverse effects) in elderly patients |
-| [39315391](https://pubmed.ncbi.nlm.nih.gov/39315391/) | 2024 | Cohort (prescription pattern) | BMJ Neurology Open | Characterizes benzodiazepine prescribing in patients with psychogenic non-epileptic seizures |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Cohort (prescription pattern) | Sleep Medicine | Assesses hypnotic prescription patterns and patient characteristics in a large managed-care population |
-| [25453732](https://pubmed.ncbi.nlm.nih.gov/25453732/) | 2014 | Cohort (prescription pattern) | Clinical Therapeutics | Examines potentially inappropriate benzodiazepine/sedative-hypnotic use in seriously ill older veterans |
-| [19514972](https://pubmed.ncbi.nlm.nih.gov/19514972/) | 2009 | Preclinical (animal) | Drug Delivery | Rat model comparing intranasal microemulsion delivery of diazepam, lorazepam and alprazolam for sleep induction |
+| [3280615](https://pubmed.ncbi.nlm.nih.gov/3280615/) | 1988 | RCT | Journal of Clinical Pharmacology | Dobbelt-blind crossover-studie: lorazepam 2 mg overgik flurazepam 30 mg på de fleste søvnparametre hos kronisk søvnløse over 3 uger |
+| [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Kohorte/Klinisk studie | International Clinical Psychopharmacology | Testede lorazepam 0,5 mg TID (24-timers dosering) vs. 1,5 mg HS (aften) ved primær søvnløshed, målrettet mod dagtimefatigue-symptomer |
+| [35087274](https://pubmed.ncbi.nlm.nih.gov/35087274/) | 2022 | Oversigt | Journal of Multidisciplinary Healthcare | Gennemgår efficacy, sikkerhed og lægemiddel-lægemiddel-interaktioner af søvnløshedsbehandlinger hos COVID-19-patienter ("coronasomnia") |
+| [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Oversigt | The Medical Letter on Drugs and Therapeutics | Generel oversigt over lægemiddelindstillinger for kronisk søvnløshed |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analyse | Acta Pharmaceutica | Meta-analyse af tranquilizer-brug (dosis, resultater, bivirkninger) hos ældre patienter |
+| [39315391](https://pubmed.ncbi.nlm.nih.gov/39315391/) | 2024 | Kohorte (receptudskrivningsmønster) | BMJ Neurology Open | Karakteriserer benzodiazepinudskrivning hos patienter med psykogene ikke-epileptiske krampeanfald |
+| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Kohorte (receptudskrivningsmønster) | Sleep Medicine | Vurderer søvninducerende receptudskrivningsmønstre og patientkarakteristika i en stor managed-care-befolkning |
+| [25453732](https://pubmed.ncbi.nlm.nih.gov/25453732/) | 2014 | Kohorte (receptudskrivningsmønster) | Clinical Therapeutics | Undersøger potentielt upassende benzodiazepine/søvninducerende brug hos alvorligt syge ældre veteraner |
+| [19514972](https://pubmed.ncbi.nlm.nih.gov/19514972/) | 2009 | Præklinisk (dyreforsøg) | Drug Delivery | Rottemodel sammenligner intranasal microemulsion-levering af diazepam, lorazepam og alprazolam til søvninduktion |
 
-## Denmark Market Information
+## Information om det danske marked
 
-Lorazepam currently has **no marketing authorisation on file with the Danish Medicines Agency (Lægemiddelstyrelsen)** — market status is "Not marketed," with 0 registered licenses (national or EMA-centralised) in this dataset.
+Lorazepam har i øjeblikket **ingen markedsføringstilladelse på fil hos Det Danske Lægemiddelstyrelse** — markedsstatus er "Ikke markedsført" med 0 registrerede licenser (nationale eller EMA-centraliserede) i dette datasæt.
 
-## Safety Considerations
+## Sikkerhedsmæssige overvejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No Danish label warnings, contraindications, or drug-drug interaction data were retrievable in this evidence pack (DDI query: not found).
+Se venligst det godkendte Produktresuméé (SmPC) for sikkerhedsinformation. Ingen danske etiketadvarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata kunne hentes i dette evidenspakke (DDI-forespørgsel: ikke fundet).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsæt med forbehold**
 
-**Rationale:**
-- The insomnia signal has genuine mechanistic and clinical-trial support (L2: one completed Phase 3 RCT, plus a directly-on-target 1988 RCT), unlike the top TxGNN-ranked candidates (trigeminal nerve neoplasm, reading/audiogenic/eating/thinking/orgasm-induced seizures), which have no clinical trial evidence and in several cases are explicitly flagged in the source data as knowledge-graph noise.
-- However, this drug has **no current Danish marketing authorisation** and **no retrievable SmPC/label safety data** — a Blocking-severity data gap that prevents a full safety pre-assessment (S1) despite the indication itself reaching an S2 evidence stage.
+**Begrundelse:**
+- Søvnløshedssignalet har ægte mekanistisk og klinisk-forsøgsstøtte (L2: ét afsluttet fase 3-RCT plus et direkte målrettet 1988-RCT), i modsætning til de top-rankerede TxGNN-kandidater (trigeminal nerve neoplasm, reading/audiogenic/eating/thinking/orgasm-induced seizures), som ikke har klinisk forsøgsbeviser og i flere tilfælde eksplicit er markeret i kildedata som knowledge-graph-støj.
+- Imidlertid har dette lægemiddel **ingen nuværende dansk markedsføringstilladelse** og **ingen hentbare SmPC/etiket-sikkerhedsdata** — et kritisk datatab, der forhindrer en fuldstændig sikkerhedsforhåndsundersøgelse (S1) på trods af at indikationen selv når et S2-bevisstadium.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC (warnings, contraindications, DDI) — currently a Blocking data gap
-- Mechanism of action confirmation from DrugBank (currently Data Gap)
-- Formal relevance grading of the "pending" clinical trials and literature listed above
-- Given the benzodiazepine dependence/withdrawal safety signal present across several trials (e.g. NCT04572750, NCT06584513), a specific risk-benefit assessment for long-term vs. short-term insomnia use before any guardrails are finalized
+**For at fortsætte er følgende nødvendigt:**
+- Dansk/EU SmPC (advarsler, kontraindikationer, DDI) — i øjeblikket et kritisk datatab
+- Bekræftelse af virkningsmekanisme fra DrugBank (i øjeblikket Datakløft)
+- Formel relevansvurdering af de "ventende" kliniske forsøg og litteratur, der er anført ovenfor
+- Givet sikkerhedssignalet for benzodiazepinafhængighed og tilbagetrækning til stede på tværs af flere forsøg (f.eks. NCT04572750, NCT06584513), en specifik risk-benefit-vurdering for langvarigt brug vs. korttidssøvnløshed før eventuelle forbehold er endeligt fastsat
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

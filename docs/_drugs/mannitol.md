@@ -29,63 +29,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mannitol: From an Unrecorded Original Indication to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Mannitol: Fra en udokumenteret oprindelig indikation til Nefrogen Syndrom for Upassende Antidiurese
 
-## One-Sentence Summary
+## Sammendrag i én sætning
 
-Mannitol's original approved indication is not recorded in this evidence pack (no Danish marketing authorisations and no listed original indications were found for DrugBank ID DB00742). The TxGNN model predicts potential activity in **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, a rare V2-receptor gain-of-function disorder, but this is currently supported by **0 clinical trials** and only **1 tangentially related publication**, making the evidence purely theoretical at this stage.
+Mannitols oprindelige godkendt indikation er ikke registreret i denne bevismappe (ingen danske markedsføringstilladelser og ingen anførte oprindelige indikationer blev fundet for DrugBank ID DB00742). TxGNN-modellen forudsiger potentiel aktivitet i **Nefrogen Syndrom for Upassende Antidiurese (NSIAD)**, en sjælden V2-receptor-lidelse med øget funktion, men dette understøttes i øjeblikket kun af **0 kliniske forsøg** og kun **1 tangentielt relateret publikation**, hvilket gør beviset rent teoretisk på dette stadium.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in available data (no licenses or original indications on file) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke dokumenteret i tilgængelige data (ingen licenser eller oprindelige indikationer på fil) |
+| Forudsagt ny indikation | Nefrogen Syndrom for Upassende Antidiurese (NSIAD) |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Bevisniveau | L5 |
+| Status på Danmarks marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse fornuftig?
 
-Detailed mechanism of action data for Mannitol is not available in this evidence pack (flagged as a High-severity data gap, DG002). What can be drawn from the evidence pack itself is that Mannitol is functionally an **osmotic diuretic** — a class known to increase free-water excretion by raising tubular fluid osmolarity.
+Detaljerede mekanisme-for-handling-data for Mannitol er ikke tilgængelige i denne bevismappe (markeret som højt-kritisk datakløft, DG002). Hvad der kan udledes fra selve bevisemappen, er, at Mannitol funktionelt er et **osmotisk diuretikum** — en klasse kendt for at øge udskillelsen af frit vand ved at hæve osmoraliteten af tubulær væske.
 
-NSIAD is a rare condition in which the vasopressin V2 receptor is constitutively active independent of ADH, producing an antidiuretic (water-retaining, hyponatremic) state. Standard management relies on fluid restriction, urea, or vaptan-class V2-receptor antagonists. The theoretical rationale for Mannitol is that, as an osmotic diuretic, it could promote free-water excretion and help correct the hyponatremia seen in NSIAD.
+NSIAD er en sjælden tilstand, hvor vasopressin V2-receptoren er konstitutivt aktiv uafhængigt af ADH, hvilket producerer en antidiuretisk (væske-tilbageholdende, hyponatriæmisk) tilstand. Standardbehandling afhænger af væskerestriktion, urinstof eller vaptan-klasse V2-receptor antagonister. Det teoretiske rationale for Mannitol er, at det som et osmotisk diuretikum kunne fremme udskillelsen af frit vand og hjælpe med at korrigere den hyponatriæmi, som ses i NSIAD.
 
-However, this link is mechanistic reasoning only. The single supporting publication is a general review on pitfalls in evaluating hyponatremia and does not evaluate Mannitol as a treatment for NSIAD specifically. No clinical trials, case reports, or preclinical studies directly testing Mannitol in NSIAD were identified.
+Dette link er imidlertid alene mekanistisk ræsonnement. Den eneste støttende publikation er en generel oversigt over faldgruber ved evaluering af hyponatriæmi og evaluerer ikke Mannitol som behandling for NSIAD specifikt. Ingen kliniske forsøg, case reports eller præ-kliniske studier, der direkte testede Mannitol i NSIAD, blev identificeret.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | General review of common diagnostic pitfalls in evaluating hyponatremia; does not evaluate Mannitol as a treatment for NSIAD |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Oversigt | European Journal of Internal Medicine | Generel oversigt over almindelige diagnostiske faldgruber ved evaluering af hyponatriæmi; evaluerer ikke Mannitol som behandling for NSIAD |
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Mannitol currently has no registered marketing authorisations in Denmark under this dataset (market status: not marketed; total authorisations: 0).
+Mannitol har i øjeblikket ingen registrerede markedsføringstilladelser i Danmark i henhold til dette datasæt (markedsstatus: ikke markedsført; samlede tilladelser: 0).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (No key warnings, contraindications, or drug-interaction data were found in this evidence pack — a Blocking-severity gap, DG001, that prevents a formal safety pre-screen.)
+Se venligst det godkendte Sammenfattende Produktkarakteristika (SmPC) for sikkerhedsinformation. (Ingen vigtige advarsler, kontraindikationer eller lægemiddel-vekselvirkningsdata blev fundet i denne bevismappe — et blokerende datakløft, DG001, som forhindrer en formel sikkerhedspre-screening.)
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Afgørelse: Afvente**
 
-**Rationale:**
-The NSIAD prediction rests on a plausible but unverified mechanistic hypothesis (osmotic diuresis promoting free-water clearance), with no clinical trials and only one indirectly relevant review article. Evidence Level L5 (model prediction only) does not support advancing beyond preliminary research review.
+**Begrundelse:**
+NSIAD-forudsigelsen hviler på en plausibel men ubekræftet mekanistisk hypotese (osmotisk diurese, som fremmer udskillelse af frit vand), uden kliniske forsøg og kun en indirekte relevant oversigtsartikel. Bevisniveau L5 (kun modelforudsigelse) understøtter ikke at gå videre end foreløbig forskningsmæssig gennemgang.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC label data (warnings, contraindications) — currently a blocking gap for any safety pre-screen (DG001)
-- Detailed mechanism of action documentation for Mannitol (DG002)
-- Confirmation of Mannitol's original approved indication(s), which are currently unrecorded
-- Preclinical or case-level evidence directly testing Mannitol's effect on serum sodium/free-water clearance in NSIAD or similar SIAD-spectrum conditions
-- Denmark market/registration status confirmation, since the drug is currently listed as not marketed
+**For at fortsætte er følgende nødvendigt:**
+- SmPC-oplysninger (advarsler, kontraindikationer) — i øjeblikket et blokerende datakløft for enhver sikkerhedspre-screening (DG001)
+- Detaljeret mekanisme-for-handling dokumentation for Mannitol (DG002)
+- Bekræftelse af Mannitols oprindelige godkendt indikation(er), som i øjeblikket er udokumenteret
+- Præ-klinisk eller case-niveau bevis, der direkte tester Mannitols effekt på serum-natrium/udskillelse af frit vand i NSIAD eller lignende tilstande i SIAD-spektret
+- Bekræftelse af markedsstatus og registreringsstatus i Danmark, da lægemidlet i øjeblikket er opført som ikke markedsført
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

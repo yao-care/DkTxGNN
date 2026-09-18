@@ -29,85 +29,82 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the report as a direct content-generation task (fixed template, no code/debug/design work — no skill fits this format-following writeup task, so producing it directly).
+# Tagraxofusp: Fra blastisk plasmacytoid dendrittisk cellesarkom (BPDCN) til primalign neoplasi
 
-One judgment call up front: `predicted_indications[0]` (esotropia, score 99.73%) is explicitly flagged by the evidence pack's own rationale as a knowledge-graph embedding false positive with zero supporting evidence (same for ranks 5–8, and rank 10's "ductular proliferation" literature is confirmed keyword-coincidence, not drug-relevant). The only prediction with real trial evidence is rank 3, **pre-malignant neoplasm** (L2, S2, "Research Question"). I used that as the report's subject rather than the literal top-ranked-by-score entry, and noted the discarded predictions below.
+## Sammenfatning i en sætning
 
-# Tagraxofusp: From Blastic Plasmacytoid Dendritic Cell Neoplasm (BPDCN) to Pre-Malignant Neoplasm
+Tagraxofusp (SL-401, Elzonris) er et CD123-rettet difterioksin-fusionprotein godkendt til blastisk plasmacytoid dendrittisk cellesarkom (BPDCN). TxGNN-modellen forudsiger potentiel relevans til **primalign neoplasi**, men den eneste understøttende kliniske evidens stammer faktisk fra forsøg i bekræftede CD123+ myeloide maligniteters (relapseret/refraktær AML, BPDCN, myelofibrose) — **5 kliniske forsøg** understøtter den mekanistiske begrundelse, selvom **0 publikationer** og intet forsøg direkte målretter mod en strengt defineret primalign sygdomsfase.
 
-## One-Sentence Summary
+> **Bemærk:** TxGNNs toprangerede forudsigelser for denne medicin (esotropi, neoplasi i indre øre, godartede tunge-neoplasier, børnebronkial adenoma/karcinoid) blev af selve evidenspipelinen vurderet som biologisk usandsynlige indlejringsartefakter uden understøttende forsøg eller litteratur, og er udelukket fra denne rapport som falske positive. En tiende kandidat ("ductale eller ductulære proliferation") returnerede 20 PubMed-hits, men alle angår hepatisk galdegang-patologi uden nogen omtale af tagraxofusp eller CD123 — en nøgleordssammenfald, ikke lægemiddelevidence.
 
-Tagraxofusp (SL-401, Elzonris) is a CD123-targeted diphtheria toxin fusion protein approved for blastic plasmacytoid dendritic cell neoplasm (BPDCN). The TxGNN model predicts potential relevance to **Pre-Malignant Neoplasm**, but the only supporting clinical evidence actually comes from trials in confirmed CD123+ myeloid malignancies (relapsed/refractory AML, BPDCN, myelofibrosis) — **5 clinical trials** support the mechanistic rationale, though **0 publications** and no trial directly targets a strictly defined pre-malignant disease stage.
+## Hurtig oversigt
 
-> **Note:** TxGNN's top-ranked predictions for this drug (esotropia, inner ear neoplasm, benign tongue neoplasm, childhood bronchial adenoma/carcinoid) were assessed by the evidence pipeline itself as biologically implausible embedding artifacts with no supporting trials or literature, and are excluded from this report as false positives. A tenth candidate ("ductal or ductular proliferation") returned 20 PubMed hits, but all concern hepatic bile-duct pathology with no mention of tagraxofusp or CD123 — a keyword coincidence, not drug evidence.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Blastisk plasmacytoid dendrittisk cellesarkom (BPDCN) *(hentet fra klinisk forsøgsvidenskab i denne pakke; medicinen er ikke endnu godkendt i Danmark, så lokal SmPC-indikationstekst findes ikke)* |
+| Forudsagt ny indikation | Primalign neoplasi |
+| TxGNN-forudsigelsesscore | 99.73% |
+| Evidensniveau | L2 |
+| Markedsstatus Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Quick Overview
+## Hvorfor er denne forudsigelse rimelig?
 
-| Item | Content |
-|------|------|
-| Original Indication | Blastic Plasmacytoid Dendritic Cell Neoplasm (BPDCN) *(sourced from clinical trial evidence in this pack; drug not yet authorised in Denmark, so no local SmPC indication text exists)* |
-| Predicted New Indication | Pre-Malignant Neoplasm |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tagraxofusp (SL-401) er et rekombinant fusionprotein, der kombinerer menneske-IL-3 med en afkortet difterioksin, designet til at målrette CD123 (IL3RA)-eksprimerende celler. Det er godkendt til BPDCN, hvor maligne plasmacytoid dendrittiske celler karakteristisk overudtrykker CD123. Dets celle-dræbende mekanisme er forskellig fra konventionel cytotoksisk kemoterapi — det virker via receptorformidlet internalisering og toksin-drevet celledød i stedet for DNA-skade.
 
-## Why is This Prediction Reasonable?
+CD123 udtrykkes også højt på leukæmiske stamcelle-/progenitorceller på tværs af en bredere vifte af myeloide lidelser, herunder akut myeloisk leukæmi (AML), myelodysplastisk syndrom (MDS) og myeloproliferativ neoplasi (MPN) såsom myelofibrose. Denne delte målbiologi er grundlag for TxGNNs mekanistiske link mellem tagraxofusp og "primalign neoplasi" — tidlig eller forløber-fase myeloid sygdom, der deler samme CD123+ celle-befolkning som BPDCN.
 
-Tagraxofusp (SL-401) is a recombinant fusion protein combining human IL-3 with a truncated diphtheria toxin, designed to target CD123 (IL3RA)-expressing cells. It is approved for BPDCN, where malignant plasmacytoid dendritic cells characteristically overexpress CD123. Its cell-killing mechanism is distinct from conventional cytotoxic chemotherapy — it works via receptor-mediated internalization and toxin-driven cell death rather than DNA damage.
+Men den faktiske kliniske forsøgsvidenskab målretter ikke en præcist defineret "primalign" klinisk enhed. Alle fem identificerede forsøg rekrutterer patienter med **allerede-diagnosticeret** sygdom (relapseret/refraktær AML, højrisiko-MDS, BPDCN eller myelofibrose), hvor et forsøg (NCT07148180) målretter målbar restant sygdom (MRD) efter behandling — begrebsmæssigt nærmest en "restant/forløber"-tilstand men ikke en formel primalign diagnose. Dette er et reelt etiket-til-befolkning-gab, der bør markeres for enhver efterfølgende brug af denne forudsigelse.
 
-CD123 is also highly expressed on leukemic stem/progenitor cells across a broader range of myeloid disorders, including acute myeloid leukemia (AML), myelodysplastic syndrome (MDS), and myeloproliferative neoplasms (MPN) such as myelofibrosis. This shared target biology is the basis for TxGNN's mechanistic link between tagraxofusp and "pre-malignant neoplasm" — early or precursor-stage myeloid disease sharing the same CD123+ cell population as BPDCN.
+## Klinisk forsøgsvidenskab
 
-However, the actual clinical trial evidence does not target a precisely defined "pre-malignant" clinical entity. All five identified trials enroll patients with **already-diagnosed** disease (relapsed/refractory AML, high-risk MDS, BPDCN, or myelofibrosis), with one trial (NCT07148180) targeting measurable residual disease (MRD) after treatment — conceptually closest to a "residual/precursor" state but not a formal pre-malignant diagnosis. This is a real label-to-population gap that should be flagged for any downstream use of this prediction.
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Rekruttering | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT03113643](https://clinicaltrials.gov/study/NCT03113643) | Phase 1 | Recruiting | 72 | SL-401 (tagraxofusp) combined with azacitidine ± venetoclax in relapsed/refractory AML, BPDCN, and high-risk MDS — direct drug/mechanism match (relevance grade A) |
-| [NCT07148180](https://clinicaltrials.gov/study/NCT07148180) | Phase 1/2 | Recruiting | 31 | Tagraxofusp + azacitidine + venetoclax targeting measurable residual disease (MRD) in AML to prevent recurrence — closest conceptual match to a "pre-malignant/residual" state (grade B) |
-| [NCT05476770](https://clinicaltrials.gov/study/NCT05476770) | Phase 1 | Recruiting | 54 | Tagraxofusp ± chemotherapy in pediatric relapsed/refractory CD123+ hematologic malignancies (grade B) |
-| [NCT06414681](https://clinicaltrials.gov/study/NCT06414681) | Early Phase 1 | Not yet recruiting | 20 | Tagraxofusp + pacritinib in intermediate-2+ myelofibrosis after prior JAK inhibitor therapy (grade B) |
-| [NCT03386513](https://clinicaltrials.gov/study/NCT03386513) | Phase 1/2 | Active, not recruiting | 179 | IMGN632 (pivekimab tazoxatane), a different CD123-targeted agent, in CD123+ AML — same target class, not tagraxofusp itself (grade C, indirect reference) |
+| [NCT03113643](https://clinicaltrials.gov/study/NCT03113643) | Fase 1 | Rekruttering | 72 | SL-401 (tagraxofusp) kombineret med azacitidine ± venetoclax i relapseret/refraktær AML, BPDCN og højrisiko-MDS — direkte medicin/mekanisme-match (relevansgrad A) |
+| [NCT07148180](https://clinicaltrials.gov/study/NCT07148180) | Fase 1/2 | Rekruttering | 31 | Tagraxofusp + azacitidine + venetoclax målretter målbar restant sygdom (MRD) i AML for at forhindre tilbagefald — nærmeste begrebsmæssige match til en "primalign/restant"-tilstand (grad B) |
+| [NCT05476770](https://clinicaltrials.gov/study/NCT05476770) | Fase 1 | Rekruttering | 54 | Tagraxofusp ± kemoterapi i pædiatrisk relapseret/refraktær CD123+ hæmatologisk malignitet (grad B) |
+| [NCT06414681](https://clinicaltrials.gov/study/NCT06414681) | Tidlig fase 1 | Endnu ikke rekruttering | 20 | Tagraxofusp + pacritinib i mellemliggende-2+ myelofibrose efter prior JAK-inhibitor-terapi (grad B) |
+| [NCT03386513](https://clinicaltrials.gov/study/NCT03386513) | Fase 1/2 | Aktivt, ikke rekruttering | 179 | IMGN632 (pivekimab tazoxatane), et andet CD123-målrettet middel, i CD123+ AML — samme målklasse, ikke tagraxofusp selv (grad C, indirekte reference) |
 
-## Literature Evidence
+## Litteraturbaseret evidens
 
-Currently no related literature available for the pre-malignant neoplasm indication.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for indikationen primalign neoplasi.
 
-## Denmark Market Information
+## Oplysninger om det danske marked
 
-Tagraxofusp currently has no marketing authorisation in Denmark — neither a national Laegemiddelstyrelsen authorisation nor an EMA centralised authorisation is on record (`market_status: Not marketed`, 0 licenses).
+Tagraxofusp har i øjeblikket ingen markedsføringstilladelse i Danmark — hverken en national Lægemiddelstyrelsen-tilladelse eller en EMA-centraliseret tilladelse er på record (`market_status: Not marketed`, 0 licenser).
 
-## Cytotoxicity
+## Cytotoxicitet
 
-Tagraxofusp is an antineoplastic agent (approved for the hematologic malignancy BPDCN; CD123-directed cytotoxic fusion protein).
+Tagraxofusp er et antineoplastisk middel (godkendt til den hæmatologiske malignitet BPDCN; CD123-rettet cytotoksisk fusionprotein).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (CD123-directed protein-toxin conjugate; diphtheria-toxin fusion protein, mechanistically distinct from conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoxicitetsklassifikation | Målrettet terapi (CD123-rettet protein-toksin-konjugat; difterioksin-fusionprotein, mekanistisk forskellig fra konventionel cytotoksisk kemoterapi) |
+| Myelosuppression-risiko | Se venligst Produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se venligst Produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Overvågningspunkter | Se venligst Produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Sikkerhed ved håndtering | Se venligst Produktresuméets (SmPC) advarsler og forsigtighedsregler |
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst Produktresuméet (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-A blocking data gap exists on approved-label warnings and contraindications (no TFDA/Danish SmPC safety data available), which prevents even an initial (S1) safety assessment. The drug is not marketed in Denmark, and while the CD123 mechanistic rationale is plausible and supported by L2-level evidence (one directly matching Phase 1 trial plus several adjacent trials), no trial precisely targets the "pre-malignant neoplasm" label — all enroll patients with confirmed AML, BPDCN, MDS, or MPN.
+**Begrundelse:**
+Der foreligger et blokerende datakløft vedrørende godkendte etikettadvarsler og kontraindikationer (ingen TFDA/dansk SmPC-sikkerhedsdata tilgængelig), som forhindrer selv en indledende (S1) sikkerhedsvurdering. Medicinen er ikke markedsført i Danmark, og selvom CD123-mekanismebegrundelsen er plausibel og understøttet af L2-niveau-evidens (et direkte matchende fase 1-forsøg plus flere tilstødende forsøg), målretter intet forsøg præcis "primalign neoplasi"-etiketten — alle rekrutterer patienter med bekræftet AML, BPDCN, MDS eller MPN.
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC safety data — warnings, contraindications (currently a blocking gap, DG001)
-- Detailed mechanism-of-action documentation from DrugBank (currently a data gap, DG002)
-- Drug-drug interaction data (current query returned no results)
-- Clarification of what "pre-malignant neoplasm" specifically denotes clinically, and whether the MRD/residual-disease trial (NCT07148180) or an equivalent population is an acceptable evidentiary substitute
-- Monitoring of Danish/EMA marketing authorisation status, since the drug is currently unavailable in Denmark
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/dansk SmPC-sikkerhedsdata — advarsler, kontraindikationer (i øjeblikket et blokerende datakløft, DG001)
+- Detaljeret virkningsmåde-dokumentation fra DrugBank (i øjeblikket et datakløft, DG002)
+- Medicin-medicin-interaktionsdata (aktuel forespørgsel returnerede ingen resultater)
+- Præcisering af hvad "primalign neoplasi" specifikt betyder klinisk, og hvorvidt MRD/restant-sygdom-forsøget (NCT07148180) eller en tilsvarende befolkning er en acceptabel evidensmæssig erstatning
+- Overvågning af dansk/EMA markedsførings-tilladelsestatus, da medicinen i øjeblikket er utilgængelig i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

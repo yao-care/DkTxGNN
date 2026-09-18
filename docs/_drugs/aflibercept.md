@@ -29,79 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aflibercept: From Neovascular Retinal Disease to Esotropia
+# Aflibercept: Fra neovaskulær retinalsygdom til esotropi
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Aflibercept is a recombinant VEGF-trap fusion protein with globally established indications in neovascular (wet) age-related macular degeneration (AMD), diabetic macular edema, retinal vein occlusion, and metastatic colorectal cancer — though it currently holds no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **Esotropia** with a confidence score of **99.38%**,
-however **no clinical trials** and **no publications** currently support this specific repurposing direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Neovascular (wet) AMD, diabetic macular edema, retinal vein occlusion (globally approved; not registered in Denmark) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Aflibercept er et rekombinant VEGF-fælde-fusionsprotein med globalt etablerede indikationer ved neovaskulær (fugtig) aldersbetinget maculadegeneration (AMD), diabetisk maculaødem, retinal venetrombose og metastatisk kolorektal cancer — selvom det i øjeblikket ikke har markedsautorisation i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt for **esotropi** med en tillidsgrad på **99.38%**,
+men der er **ingen kliniske forsøg** og **ingen publikationer**, der i øjeblikket understøtter denne specifikke omdisponering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, aflibercept is a recombinant fusion protein — a "VEGF trap" — constructed by combining the extracellular ligand-binding domains of VEGF receptors 1 and 2 fused to the Fc region of human IgG1. It binds VEGF-A, VEGF-B, and placental growth factor (PlGF) with high affinity, thereby blocking pathological angiogenesis and vascular hyperpermeability. This mechanism underpins its EMA-approved use in neovascular AMD, diabetic macular edema, and retinal vein occlusion (as Eylea), as well as its use in metastatic colorectal cancer in combination with FOLFIRI (as Zaltrap).
-
-Esotropia is an inward ocular deviation (a form of strabismus) typically classified as accommodative, non-accommodative, or infantile. While the predominant forms are neuromotor or refractive in origin rather than vascular, some secondary forms of esotropia — such as those arising after retinal vascular events, retinal detachment surgery, or in the context of high myopia with posterior staphyloma — may involve VEGF-related tissue remodelling. This represents a speculative but not entirely implausible mechanistic bridge.
-
-However, the biological rationale linking anti-VEGF therapy to primary esotropia treatment remains very weak. VEGF blockade is not a recognised therapeutic strategy for strabismus management, and the TxGNN model's high confidence score appears to reflect a learned graph-level association rather than a direct mechanistic or clinical relationship. Without any supporting literature or trial data, this prediction cannot currently be considered clinically actionable.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|--------|---------|
+| Original indikation | Neovaskulær (fugtig) AMD, diabetisk maculaødem, retinal venetrombose (globalt godkendt; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Esotropi |
+| TxGNN-forudsigelsesscore | 99.38% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsautoraisationer | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i denne Evidenspakke. Baseret på etableret farmakologisk viden er aflibercept et rekombinant fusionsprotein — en "VEGF-fælde" — konstrueret ved at kombinere de ekstracellulære ligand-bindende domæner af VEGF-receptorer 1 og 2 fusioneret med Fc-området af humant IgG1. Det binder VEGF-A, VEGF-B og placentalt vækstfaktor (PlGF) med høj affinitet og blokerer således patologisk angiogenese og vaskulær hyperpermeabilitet. Denne mekanisme ligger til grund for dets EMA-godkendte brug ved neovaskulær AMD, diabetisk maculaødem og retinal venetrombose (som Eylea), såvel som dets brug ved metastatisk kolorektal cancer i kombination med FOLFIRI (som Zaltrap).
 
----
+Esotropi er en indadvendt øjenafvigelse (en form for strabismus), typisk klassificeret som akkommodativ, ikke-akkommodativ eller infantil. Selvom de dominerende former er neuromotorale eller brydningsbaserede snarere end vaskulære, kan nogle sekundære former for esotropi — såsom dem, der opstår efter retinale vaskulære hændelser, retinalopløsningskirurgi eller i sammenhæng med høj myopi med posterior staphyloma — indebære VEGF-relateret vævsomformning. Dette repræsenterer en spekulativ, men ikke helt usandsynlig mekanistisk forbindelse.
 
-## Denmark Market Information
-
-Aflibercept currently holds no marketing authorisations registered with the Danish Medicines Agency (Lægemiddelstyrelsen). This drug is not marketed in Denmark at the time of this report (data cutoff: 2026-04-04).
-
-> **Note for context:** Aflibercept is authorised in the EU via centralised EMA procedures under the brand names **Eylea** (intravitreal injection; for neovascular AMD, diabetic macular edema, macular edema following retinal vein occlusion, and diabetic retinopathy) and **Zaltrap** (intravenous infusion; for metastatic colorectal cancer in combination with FOLFIRI). These centralised authorisations apply across EU/EEA member states including Denmark, but are not reflected in the national registry data available for this Evidence Pack. Danish prescribers should verify current status via the EMA product database.
+Men den biologiske begrundelse for at forbinde anti-VEGF-terapi til behandling af primær esotropi er meget svag. VEGF-blokade er ikke en anerkendt terapeutisk strategi for strabismusbehandling, og TxGNN-modellens høje tillidsgrad synes at afspejle en lært associering på graftiveau snarere end en direkte mekanistisk eller klinisk relation. Uden dokumentation fra litteratur eller forsøgsdata kan denne forudsigelse i øjeblikket ikke betragtes som klinisk handlingsberettiget.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. The SmPC for Eylea and Zaltrap are available via the EMA website. No drug interaction data or specific warnings were retrievable from this Evidence Pack.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-Despite a high TxGNN confidence score of 99.38%, no clinical trials, published literature, or mechanistic evidence linking aflibercept to esotropia treatment were identified. The prediction appears to be a graph-level model inference without direct biological or clinical substantiation, and does not meet the minimum evidence threshold for advancing to a feasibility assessment.
+---
 
-**To proceed, the following is needed:**
-- Retrieval of mechanism of action data from DrugBank (remediation identified in Evidence Pack: DG002) to confirm whether VEGF inhibition has any documented role in ocular motility disorders
-- Expanded manual literature search in PubMed and Embase using broader MeSH terms (e.g., anti-VEGF AND strabismus; VEGF AND ocular motility)
-- Clinical assessment of secondary esotropia subtypes where vascular or neovascular pathology may be relevant (e.g., post-retinal surgery, myopic strabismus fixus)
-- Retrieval of full safety data from the Eylea and Zaltrap SmPCs (remediation identified in Evidence Pack: DG001) to evaluate route-of-administration feasibility for any ophthalmic use in esotropia
-- Consultation with a Danish ophthalmologist to assess unmet clinical need and biological plausibility before any further investment in this candidate
+## Markedsinformation for Danmark
+
+Aflibercept har i øjeblikket ingen markedsautoraisationer registreret hos Lægemiddelstyrelsen. Dette lægemiddel er ikke markedsført i Danmark på tidspunktet for denne rapport (dataafskæring: 2026-04-04).
+
+> **Bemærkning:** Aflibercept er autoriseret i EU gennem centraliserede EMA-procedurer under varemærkerne **Eylea** (intravitreal injektion; til neovaskulær AMD, diabetisk maculaødem, maculaødem efter retinal venetrombose og diabetisk retinopati) og **Zaltrap** (intravenøs infusion; til metastatisk kolorektal cancer i kombination med FOLFIRI). Disse centraliserede autoraisationer gælder på tværs af EU/EØS-medlemsstater, herunder Danmark, men afspejles ikke i de nationale registreringsdata, der er tilgængelige for denne Evidenspakke. Danske receptudskrivere skal bekræfte den aktuelle status via EMA-produktdatabasen.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. SmPC for Eylea og Zaltrap er tilgængelig via EMA-webstedet. Ingen lægemiddelinteraktionsdata eller specifikke advarsler kunne hentes fra denne Evidenspakke.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+På trods af en høj TxGNN-tillidsgrad på 99.38%, blev der ikke identificeret kliniske forsøg, publiceret litteratur eller mekanistisk evidens, der forbinder aflibercept med behandling af esotropi. Forudsigelsen ser ud til at være en inferens på graftiveau uden direkte biologisk eller klinisk underbyggelse og lever ikke op til minimumevidenskravene for at kunne gå videre til en gennemførlighedsvurdering.
+
+**For at fortsætte er følgende nødvendigt:**
+- Hentning af data om virkningsmekanisme fra DrugBank (problemafhjælpning identificeret i Evidenspakke: DG002) for at bekræfte, om VEGF-hæmning har nogen dokumenteret rolle ved okulomotoriske forstyrrelser
+- Udvidet manuel litteratursøgning i PubMed og Embase ved hjælp af bredere MeSH-termer (f.eks. anti-VEGF AND strabismus; VEGF AND ocular motility)
+- Klinisk vurdering af sekundære esotropi-subtyper, hvor vaskulær eller neovaskulær patologi kan være relevant (f.eks. post-retinal kirurgi, myopisk strabismus fixus)
+- Hentning af fuldstændige sikkerhedsdata fra Eylea og Zaltrap SmPC'er (problemafhjælpning identificeret i Evidenspakke: DG001) for at vurdere gennemførligheden af administrationsvej for enhver oftalmologisk brug ved esotropi
+- Rådføring med en dansk øjenlæge for at vurdere uopfyldt klinisk behov og biologisk plausibilitet før yderligere investering i denne kandidat
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

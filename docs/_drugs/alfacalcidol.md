@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alfacalcidol: From Renal Osteodystrophy to Familial Isolated Hypoparathyroidism due to Impaired PTH Secretion
+# Alfacalcidol: Fra nyreosteodystrofi til familiær isoleret hypoparatyreoidisme med nedsat PTH-sekretion
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Alfacalcidol is a synthetic 1α-hydroxylated analogue of vitamin D₃, established in clinical practice for the management of calcium and phosphorus metabolism disorders associated with chronic kidney disease, secondary hyperparathyroidism, and osteoporosis. The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**, with a prediction score of **99.61%** and an extremely strong mechanistic rationale (★★★★★). However, no clinical trials or published literature specific to this precise indication have yet been identified, and the drug is not currently registered in Denmark.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No marketing authorisation in Denmark; known use includes renal osteodystrophy, secondary hyperparathyroidism, and osteoporosis |
-| Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5★ |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Alfacalcidol er et syntetisk 1α-hydroxyleret analogon af vitamin D₃, etableret i klinisk praksis til behandling af calcium- og phosphorstofskiftesygdomme forbundet med kronisk nyresygdom, sekundær hyperparatyreoidisme og osteoporose. TxGNN-modellen forudsiger, at det kan være effektivt for **familiær isoleret hypoparatyreoidisme med nedsat PTH-sekretion**, med en prognosscore på **99.61%** og et ekstremt stærk mekanistisk grundlag (★★★★★). Der er dog endnu ikke identificeret kliniske forsøg eller publiceret litteratur specifikt for denne præcise indikation, og medicinen er ikke i øjeblikket registreret i Danmark.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data from DrugBank is not currently available for this report. Based on established pharmacology, alfacalcidol (1α-hydroxycholecalciferol) is a vitamin D analogue that bypasses the renal 1α-hydroxylation step ordinarily required to convert 25-hydroxyvitamin D into the fully active hormone calcitriol (1,25(OH)₂D₃). Unlike native vitamin D₃, alfacalcidol requires only hepatic 25-hydroxylation to become biologically active. This pharmacological property makes it particularly valuable when renal function or PTH-mediated signalling is impaired — precisely the mechanism disrupted in the predicted indication.
-
-In familial isolated hypoparathyroidism due to impaired PTH secretion, inadequate PTH production leads to failure of renal 1α-hydroxylase stimulation. The downstream consequence is reduced calcitriol synthesis, resulting in chronic hypocalcaemia and hyperphosphataemia. Alfacalcidol directly provides the 1α-pre-hydroxylated substrate, bypassing this enzymatic bottleneck and restoring active vitamin D signalling independently of PTH. The mechanistic connection is therefore rated ★★★★★ (extremely strong) in the evidence assessment.
-
-It is important to note that alfacalcidol already has established clinical use in broader hypoparathyroidism — including post-surgical and idiopathic forms — in several EU countries. Familial isolated hypoparathyroidism due to impaired PTH secretion shares the same downstream metabolic defect as these better-studied subtypes. The TxGNN prediction is therefore highly biologically plausible; the primary limitation is the absence of published evidence specific to this rare genetic subentity rather than any mechanistic uncertainty.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for this indication.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ingen markedsføringstilladelse i Danmark; kendt brug omfatter nyreosteodystrofi, sekundær hyperparatyreoidisme og osteoporose |
+| Forudsagt ny indikation | Familiær isoleret hypoparatyreoidisme med nedsat PTH-sekretion |
+| TxGNN-prognosscore | 99.61% |
+| Bevisniveau | L5★ |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-Currently no related literature available for this specific indication.
+Detaljerede data om virkningsmekanisme fra DrugBank er ikke tilgængelige for denne rapport på nuværende tidspunkt. Baseret på etableret farmakologi er alfacalcidol (1α-hydroxycholecalciferol) et vitamin D-analogon, der omgår det normale nyrernes 1α-hydroxyleringsstrin, som ordinært kræves for at konvertere 25-hydroxyvitamin D til det fuldt aktive hormon calcitriol (1,25(OH)₂D₃). I modsætning til naturligt vitamin D₃ kræver alfacalcidol kun hepatisk 25-hydroxylering for at blive biologisk aktiv. Denne farmakologiske egenskab gør den særlig værdifuld, når nyrernes funktion eller PTH-medieret signalering er nedsat — præcis den mekanisme, der er forstyrret i den forudsagte indikation.
 
----
+Ved familiær isoleret hypoparatyreoidisme med nedsat PTH-sekretion fører utilstrækkelig PTH-produktion til svigt af renal 1α-hydroxylasestimulation. Følgen heraf er reduceret calcitrolsyntese, hvilket resulterer i kronisk hypocalcæmi og hyperfosfatæmi. Alfacalcidol leverer direkte det 1α-før-hydroxylerede substrat, omgår denne enzymatiske flaskehals og gendanner aktiv vitamin D-signalering uafhængigt af PTH. Den mekanistiske forbindelse er derfor vurderet ★★★★★ (ekstremt stærk) i bevisvurderingen.
 
-## Denmark Market Information
-
-Alfacalcidol is not currently registered in Denmark. The Danish Medicines Agency (Laegemiddelstyrelsen) has issued no marketing authorisations for this drug, and no products are currently on the Danish market.
-
-Alfacalcidol products (e.g., **One-Alpha**, Leo Pharma) hold marketing authorisations in other EU Member States and the United Kingdom for indications including renal osteodystrophy, secondary hyperparathyroidism, hypoparathyroidism, and osteoporosis. Use in Denmark would require a named-patient (individuelt tilskud) or compassionate use authorisation, or cross-border supply under the EU pharmaceutical framework.
+Det er vigtigt at bemærke, at alfacalcidol allerede har etableret klinisk brug i bredere hypoparatyreoidisme — herunder post-kirurgiske og idiopatiske former — i flere EU-lande. Familiær isoleret hypoparatyreoidisme med nedsat PTH-sekretion deler det samme downstream metabolske defekt som disse bedre-undersøgte undertyper. TxGNN-prognosen er derfor meget biologisk plausibel; den primære begrænsning er fraværet af publiceret bevis specifikt for denne sjældne genetiske undertype snarere end nogen mekanistisk usikkerhed.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig for denne specifikke indikation.
 
-**Rationale:**
-Despite a TxGNN prediction score of 99.61% and an extremely strong mechanistic basis — alfacalcidol directly restores calcitriol activity that is lost due to absent PTH signalling — no clinical trials or published literature specific to this rare genetic subtype have been identified (Evidence Level L5★). The drug is also not registered in Denmark, which introduces an additional regulatory barrier. A Hold decision reflects the need for targeted evidence generation and regulatory pathway assessment before clinical application can be considered.
+---
 
-**To proceed, the following is needed:**
+## Markedsinformation for Danmark
 
-- **Regulatory scope review**: Confirm whether existing EU SmPC hypoparathyroidism indications already encompass this genetic subtype, which would shift the classification from off-label to on-label use
-- **Safety documentation**: Obtain complete warnings, contraindications, and drug interaction data from the SmPC (currently a data gap); Danish clinicians should consult the Leo Pharma SmPC for One-Alpha as a reference
-- **MOA documentation**: Complete DrugBank mechanism of action entry (currently flagged as a data gap, severity: High)
-- **Systematic literature review**: Conduct a dedicated search for case reports or observational studies in patients with genetically confirmed familial isolated hypoparathyroidism to verify that evidence truly remains at L5
-- **Rare disease network engagement**: Contact relevant ERN networks (e.g., ERN BOND or ERN ENDO) to identify patient populations suitable for prospective observational studies or registry inclusion
-- **Regulatory pathway**: Initiate dialogue with Laegemiddelstyrelsen regarding named-patient authorisation or evaluate whether a centralised EMA indication extension could be sought
+Alfacalcidol er ikke i øjeblikket registreret i Danmark. Lægemiddelstyrelsen har ikke udstedt markedsføringstilladelser for denne medicin, og ingen produkter er i øjeblikket på det danske marked.
 
-> **Research note:** This prediction shares mechanistic overlap with two additional TxGNN top predictions not detailed in this report: **Dahlberg-Borer-Newcomer syndrome** (which includes a hypoparathyroid component; 20 supporting publications identified; Evidence Level L4) and **renal tubular acidosis** (8 supporting publications identified, including a clinical series showing 200–250× greater efficacy than vitamin D₂; Evidence Level L3; Recommendation: **Proceed with Guardrails**). Clinicians seeking a higher-evidence repurposing opportunity with alfacalcidol in Denmark may wish to prioritise the renal tubular acidosis indication for further evaluation.
+Alfacalcidolprodukter (f.eks. **One-Alpha**, Leo Pharma) har markedsføringstilladelser i andre EU-medlemsstater og Det Forenede Kongerige for indikationer herunder nyreosteodystrofi, sekundær hyperparatyreoidisme, hypoparatyreoidisme og osteoporose. Brug i Danmark ville kræve en navngivet patient-tilladelse (individuelt tilskud) eller compassionate use-tilladelse, eller grænseoverskridende forsyning under den europæiske farmakoretsramme.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte Produktsammenfattelse (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Trods en TxGNN-prognosscore på 99.61% og et ekstremt stærk mekanistisk grundlag — alfacalcidol gendanner direkte calcitriolaktivitet, der går tabt på grund af fraværet af PTH-signalering — er der ikke identificeret kliniske forsøg eller publiceret litteratur specifikt for denne sjældne genetiske undertype (Bevisniveau L5★). Medicinen er heller ikke registreret i Danmark, hvilket introducerer en yderligere regulatorisk barriere. En Afvente-beslutning afspejler behovet for målrettet bevisudvikling og vurdering af regulatorisk sti før klinisk anvendelse kan overvejes.
+
+**For at gå videre er følgende nødvendigt:**
+
+- **Regulatorisk omfangsgennemgang**: Bekræft, om eksisterende EU SmPC hypoparatyreoidisme-indikationer allerede omfatter denne genetiske undertype, hvilket ville skifte klassificeringen fra off-label til on-label brug
+- **Sikkerhedsdokumentation**: Indhent komplette advarsler, kontraindikationer og lægemiddelinteraktionsdata fra SmPC (i øjeblikket et datahul); danske klinikere bør konsultere Leo Pharma SmPC for One-Alpha som reference
+- **MOA-dokumentation**: Udfyld DrugBank-virkningsmekanismeindgang (i øjeblikket markeret som et datahul, alvorlighed: Høj)
+- **Systematisk litteraturgennemgang**: Foretag en dedikeret søgning efter case reports eller observationsstudier hos patienter med genetisk bekræftet familiær isoleret hypoparatyreoidisme for at bekræfte, at beviset virkelig forbliver på L5
+- **Engagering af sjældne sygdomsnetværk**: Kontakt relevante ERN-netværk (f.eks. ERN BOND eller ERN ENDO) for at identificere patientpopulationer, der egner sig til prospektive observationsstudier eller registreringsinkludering
+- **Regulatorisk sti**: Indled dialog med Lægemiddelstyrelsen vedrørende navngivet patient-tilladelse, eller vurder, om en centraliseret EMA-indikationsudvidelse kunne søges
+
+> **Forskningsmæssig note:** Denne prognose deler mekanistisk overlap med to yderligere TxGNN-topprognose**r**, der ikke er detaljeret i denne rapport: **Dahlberg-Borer-Newcomer-syndrom** (som omfatter en hypoparatyreoidisme-komponent; 20 understøttende publikationer identificeret; Bevisniveau L4) og **renaltubuler acidose** (8 understøttende publikationer identificeret, herunder en klinisk serie, der viser 200–250× større effektivitet end vitamin D₂; Bevisniveau L3; Anbefaling: **Gå videre med Guardrails**). Klinikere, der søger repurposering-mulighed med højere bevisgrundlag for alfacalcidol i Danmark, kan ønske at prioritere renaltubuler acidose-indikationen til yderligere evaluering.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

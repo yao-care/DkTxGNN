@@ -29,85 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Grapiprant: From Canine Osteoarthritis Pain to Amenorrhea
+# Grapiprant: Fra Canin Artrose-relateret Smerte til Amenorrhea
 
-## One-Sentence Summary
+## Et-sætnings Resume
 
-Grapiprant (Galliprant) is an EP4 prostaglandin receptor antagonist currently approved exclusively as a veterinary medicine for pain and inflammation associated with osteoarthritis in dogs.
-The TxGNN model predicts it may be relevant to **Amenorrhea**, with a prediction score of **98.91%**.
-However, there are currently **no clinical trials and no published literature** supporting this direction, making this a model-only prediction requiring significant caution — particularly as the mechanistic rationale contains an inherent contradiction.
+Grapiprant (Galliprant) er en EP4-prostaglandinreceptorantagonist, der i øjeblikket udelukkende er godkendt som veterinærmedicin til smerte og inflammation forbundet med artrose hos hunde.
+TxGNN-modellen forudsiger, at det kan være relevant for **Amenorrhea**, med en forudsigelsesscore på **98.91%**.
+Der er dog i øjeblikket **ingen kliniske forsøg og ingen publiceret litteratur**, der understøtter denne retning, hvilket gør dette til en ren modelforudsigelse, der kræver betydelig forsigtighed — især da den mekanistiske begrundelse indeholder en iboende modsigelse.
 
 ---
 
-## Quick Overview
+## Hurtigt Overblik
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | Canine osteoarthritis pain and inflammation (veterinary use only) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 98.91% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig Indikation | Smerte og inflammation forbundet med artrose hos hunde (kun til veterinærbrug) |
+| Forudsagt Ny Indikation | Amenorrhea |
+| TxGNN-forudsigelsesscore | 98.91% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Grapiprant acts as a selective antagonist of the EP4 prostaglandin receptor, blocking the downstream signalling of prostaglandin E2 (PGE2) at this specific receptor subtype. Unlike traditional NSAIDs that inhibit cyclooxygenase enzymes upstream, Grapiprant targets only one receptor in the prostanoid pathway, which in veterinary use translates to analgesia and anti-inflammatory effects with a potentially more targeted side-effect profile.
+Grapiprant fungerer som en selektiv antagonist af EP4-prostaglandinreceptoren, blokerende downstream-signalering af prostaglandin E2 (PGE2) ved denne specifikke receptorsubtype. I modsætning til traditionelle NSAIDs, der hæmmer cyclooxygenase-enzymer opstrøms, målretter Grapiprant udelukkende én receptor i prostanoidstien, som i veterinærbrug oversættes til analgesi og anti-inflammatoriske effekter med potentielt mere målrettet bivirkningsprofil.
 
-The mechanistic link to amenorrhea rests on the known role of PGE2–EP4 signalling in ovulation regulation. Experimental data from EP4 knockout mice shows that absence of EP4 receptor function results in ovulation failure, suggesting this receptor is required for successful follicle rupture. The TxGNN model may have identified this biological connection as a potential therapeutic target.
+Den mekanistiske forbindelse til amenorrhea hviler på den kendte rolle af PGE2–EP4-signalering i ovulationsregulering. Eksperimentelle data fra EP4-knockout-mus viser, at fravær af EP4-receptorfunktion resulterer i ovulationssvigt, hvilket tyder på, at denne receptor er nødvendig for succesfuld follikelsprængning. TxGNN-modellen kan have identificeret denne biologiske forbindelse som et potentielt terapeutisk mål.
 
-However, this is where the reasoning becomes contradictory: if EP4 signalling is *necessary* for ovulation, then an EP4 *antagonist* would be expected to impair ovulation and potentially induce — rather than treat — amenorrhea. The mechanistic direction is therefore reversed relative to a therapeutic intent. Furthermore, amenorrhea is a clinically heterogeneous condition with a wide range of aetiologies (hypothalamic, pituitary, ovarian, anatomical), the vast majority of which have no established connection to EP4 overactivation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Imidlertid bliver ræsonnementet her selvmodsigende: hvis EP4-signalering er *nødvendig* for ovulation, så ville en EP4-*antagonist* forventes at svække ovulation og potentielt fremkalde — snarere end at behandle — amenorrhea. Den mekanistiske retning er derfor omvendt i forhold til et terapeutisk formål. Desuden er amenorrhea en klinisk heterogen tilstand med et bredt spektrum af årsager (hypothalamus-nedsat, hypofyse-nedsat, ovarial, anatomisk), hvoraf langt størstedelen ikke har etableret forbindelse til EP4-overaktivering.
 
 ---
 
-## Literature Evidence
+## Bevis fra Kliniske Forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Grapiprant holds no marketing authorisations in Denmark. The drug is not registered with Laegemiddelstyrelsen (the Danish Medicines Agency) and has no EMA centralised authorisation for human use. It is approved in the EU as a veterinary medicinal product (Galliprant, for dogs), but this authorisation does not extend to human therapeutic use.
+Der er i øjeblikket ingen registrerede kliniske forsøg, der er relateret til dette.
 
 ---
 
-## Safety Considerations
+## Bevis fra Litteratur
 
-Detailed human safety data for Grapiprant is not available in this Evidence Pack, as the drug has not been evaluated in human clinical registration programmes. No drug-drug interaction data was retrieved. There are no recorded contraindications or key warnings for human use in the current dataset.
-
-Please refer to the veterinary Summary of Product Characteristics (SmPC) for Galliprant as the closest available reference, and note that extrapolation to human use carries significant unknowns.
-
-Two mechanistically-derived safety signals warrant proactive attention:
-
-- **Pro-thrombotic potential**: PGE2–EP4 signalling contributes to vasodilation and endothelial anti-thrombotic protection. EP4 blockade may shift haemostatic balance toward a pro-coagulant state, which is particularly relevant given two of the other top-ranked TxGNN predictions involve coagulation disorders (heparin cofactor 2 deficiency, antithrombin deficiency type 2) where EP4 antagonism is mechanistically contraindicated.
-- **Reproductive effects**: As noted above, EP4 blockade may disrupt ovulation — relevant for any female patients of reproductive age.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Status på det danske Marked
 
-**Decision: Hold**
+Grapiprant har ingen markedsføringsgodkendelser i Danmark. Lægemidlet er ikke registreret hos Lægemiddelstyrelsen og har ingen EMA-centraliseret godkendelse til humant brug. Det er godkendt i EU som et veterinærmedicinalprodukt (Galliprant, til hunde), men denne godkendelse strækker sig ikke til humant terapeutisk brug.
 
-**Rationale:**
-This candidate is a veterinary-only drug with no human clinical data, no registered trials, no supporting literature, and a mechanistic hypothesis that points in the opposite direction to the therapeutic goal for the top-predicted indication. The TxGNN score reflects a statistical association in the knowledge graph, not clinical feasibility. Proceeding to any human evaluation stage would require resolving fundamental mechanistic and regulatory barriers.
+---
 
-**Before this candidate can be reconsidered, the following is needed:**
+## Sikkerhedsovervejelser
 
-- **Regulatory pathway assessment**: Clarify whether repurposing a veterinary-only EP4 antagonist for human use is viable under EMA/Laegemiddelstyrelsen frameworks, and what preclinical package would be required
-- **Mechanistic resolution**: Determine whether there exists a disease subtype of amenorrhea in which EP4 *overactivation* is the pathological driver (which would align the mechanism); if no such subtype is identified, this indication should be deprioritised
-- **Human safety data**: A Phase 1 first-in-human safety study would be prerequisite to any efficacy evaluation; no human pharmacokinetic, tolerability, or safety profile currently exists
-- **MOA documentation**: Obtain full DrugBank pharmacology data (DG002) to complete the mechanistic analysis
-- **Alternative indication review**: The other top-ranked predictions (infectious bovine rhinotracheitis, malignant catarrh) are veterinary diseases, further suggesting this TxGNN run may benefit from a human-disease-filtered prediction set before clinical prioritisation
+Detaljerede sikkerhedsdata fra mennesker til Grapiprant er ikke tilgængelige i denne Bevissamling, da lægemidlet ikke er blevet evalueret i humane kliniske registreringsprogrammer. Der blev ikke hentet data om lægemiddel-lægemiddel-interaktioner. Der er ingen registrerede kontraindikationer eller vigtige advarsler til humant brug i det aktuelle datasæt.
+
+Se venligst den veterinære Oversigt over Produktegenskaber (SmPC) for Galliprant som den nærmeste tilgængelige reference, og bemærk, at ekstrapolation til humant brug medfører væsentlige usikkerhedsfaktorer.
+
+To mekanistisk-afledte sikkerhedssignaler fortjener proaktiv opmærksomhed:
+
+- **Protrombotisk potentiale**: PGE2–EP4-signalering bidrager til vasodilatation og endotelial anti-trombotisk beskyttelse. EP4-blokering kan skifte hæmostatisk balance mod en prokoagulant tilstand, hvilket er særligt relevant, givet at to af de øvrige toprangerede TxGNN-forudsigelser involverer koagulationsforstyrrelser (heparin-cofaktor-2-mangel, antithrombin-mangel type 2), hvor EP4-antagonisme er mekanistisk kontraindiceret.
+- **Reproduktive effekter**: Som nævnt ovenfor kan EP4-blokering forstyrre ovulation — relevant for alle kvindelige patienter i reproduktiv alder.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Dette kandidatlægemiddel er et veterinær-udelukkende lægemiddel uden humanklinikal data, ingen registrerede forsøg, ingen understøttende litteratur og en mekanistisk hypotese, der peger i den modsatte retning af det terapeutiske mål for den topforudsagte indikation. TxGNN-scoren afspejler en statistisk association i videngrafen, ikke klinisk gennemførbarhed. At gå videre til nogen humanevalueringsfase ville kræve løsning af fundamentale mekanistiske og regulatoriske barrierer.
+
+**Før denne kandidat kan blive genovervejet, er følgende nødvendig:**
+
+- **Vurdering af regulatorisk vej**: Præciser, om genbrug af et veterinær-udelukkende EP4-antagonist til humant brug er levedygtigt under EMA/Lægemiddelstyrelsen-rammer, og hvilken preklinisk pakke, der ville være påkrævet
+- **Mekanistisk afklaring**: Bestem, om der eksisterer en sygdomssubtype af amenorrhea, hvor EP4-*overaktivering* er den patologiske drivkraft (hvilket ville justere mekanismen); hvis ingen sådan subtype identificeres, bør denne indikation nedprioriteres
+- **Humane sikkerhedsdata**: Et fase 1 første-menneskes sikkerhedsstudie ville være en forudsætning for enhver effektivitetsvurdering; der eksisterer i øjeblikket ingen human farmakokinetik, tolerabilitet eller sikkerhedsprofil
+- **MOA-dokumentation**: Indhent fulde DrugBank-farmakologidata (DG002) for at gennemføre den mekanistiske analyse
+- **Alternative indikationsvurdering**: De øvrige toprangerede forudsigelser (infektiøs bovint rhinotracheitis, ondartede katarr) er veterinærsygdomme, hvilket yderligere tyder på, at dette TxGNN-kørt kunne drage fordel af et menneskelig-sygdomsfiltreret forudsigelsessæt før klinisk prioritering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

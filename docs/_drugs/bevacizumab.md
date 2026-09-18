@@ -29,111 +29,112 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bevacizumab: From Anti-VEGF Cancer Therapy to Epiglottis Neoplasm
+# Bevacizumab: Fra Anti-VEGF-kræftterapi til epiglottis neoplasma
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Bevacizumab is a recombinant humanised monoclonal antibody that inhibits VEGF-A, clinically established for the treatment of multiple solid tumours including colorectal cancer, non-small cell lung cancer, and glioblastoma.
-The TxGNN model predicts it may be effective for **Epiglottis Neoplasm**, with a prediction score of **99.90%**.
-However, **no supporting clinical trials or published literature** currently exist for this specific indication, placing this prediction at the lowest evidence tier — based solely on knowledge graph topology.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Anti-VEGF therapy for solid tumours (globally established; no local Danish authorisation data on record) |
-| Predicted New Indication | Epiglottis Neoplasm |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 (model prediction only — no actual studies) |
-| Denmark Market Status | Not marketed (no local authorisation data recorded) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Bevacizumab er et rekombinant humaniseret monoklonalt antistof, der inhiberer VEGF-A, klinisk etableret til behandling af multiple solide tumorer, herunder colorectal cancer, non-small cell lungecancer og glioblastoma.
+TxGNN-modellen forudsiger, at det kan være effektivt til **epiglottis neoplasma** med en forudsigelsesscore på **99.90%**.
+Der findes dog **ingen understøttende kliniske forsøg eller publiceret litteratur** til denne specifikke indikation, hvilket placerer denne forudsigelse i det laveste bevisgrundlag – baseret udelukkende på viden-grafs topologi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on widely established pharmacology, Bevacizumab is a humanised IgG1 monoclonal antibody that selectively binds and neutralises vascular endothelial growth factor A (VEGF-A). By blocking the interaction of VEGF-A with its receptors (VEGFR-1 and VEGFR-2) on endothelial cells, Bevacizumab inhibits tumour-driven angiogenesis — the process through which solid tumours form new blood vessels to sustain their growth. This anti-angiogenic mechanism underpins its efficacy in a range of established oncology indications.
-
-The theoretical basis for the TxGNN prediction is that epiglottis neoplasms, like other head and neck lesions, may exhibit VEGF-dependent vascularisation. The knowledge graph identifies structural proximity between Bevacizumab's established molecular target profile and the biological environment associated with epiglottis neoplasm, generating a high prediction score. The Evidence Pack's repurposing rationale explicitly notes that anti-VEGF-A inhibition could theoretically suppress angiogenesis in epiglottic tumour tissue.
-
-However, this connection must be treated with substantial caution. Epiglottis neoplasms are predominantly benign in nature (e.g., haemangiomas, cysts, and squamous papillomas) and are typically managed with local endoscopic resection. No preclinical or clinical research exists to support systemic anti-VEGF biologic therapy in this setting. The clinical necessity, risk-benefit balance, and safety of deploying a potent systemic biologic agent in a typically benign, surgically manageable condition have not been evaluated in any study. This prediction reflects knowledge graph topological proximity rather than an established biological or clinical rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Bevacizumab in epiglottis neoplasm on ClinicalTrials.gov or the WHO ICTRP.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Anti-VEGF-terapi til solide tumorer (globalt etableret; ingen lokale danske autorisationsdata på record) |
+| Forudsagt ny indikation | Epiglottis neoplasma |
+| TxGNN forudsigelsesscore | 99.90% |
+| Bevisniveau | L5 (modelforudsigelse kun – ingen faktiske studier) |
+| Markedsstatus i Danmark | Ikke markedsført (ingen lokale autorisationsdata registreret) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Pausér |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available in PubMed specifically addressing Bevacizumab for epiglottis neoplasm.
+I øjeblikket er detaljeret virkningsmekanisme-data ikke tilgængelig i denne Evidence Pack. Baseret på vidt etableret farmakologi er Bevacizumab et humaniseret IgG1-monoklonalt antistof, der selektivt binder og neutraliserer vaskulær endotel vækstfaktor A (VEGF-A). Ved at blokere interaktionen mellem VEGF-A og dets receptorer (VEGFR-1 og VEGFR-2) på endotelceller hæmmer Bevacizumab tumor-drevet angiogenese – den proces, gennem hvilken solide tumorer danner nye blodkar for at opretholde deres vækst. Denne anti-angiogene mekanisme er grundlaget for dets efficacy i en række etablerede onkologi-indikationer.
 
----
+Det teoretiske grundlag for TxGNN-forudsigelsen er, at epiglottis neoplasmer, som andre hals- og nakkelæsioner, kan udvise VEGF-afhængig vaskularisering. Vidensgrafen identificerer strukturel nærhed mellem Bevacizumabs etablerede molekylære målprofil og det biologiske miljø forbundet med epiglottis neoplasma, hvilket genererer en høj forudsigelsesscore. Evidence Packens repurposing-rationale bemærker eksplicit, at anti-VEGF-A-inhibering teoretisk kunne undertrykke angiogenese i epiglottisk tumorperfusion.
 
-## Denmark Market Information
-
-No marketing authorisation records for Bevacizumab are present in the current dataset (0 authorisations). This almost certainly reflects a **data gap** in the local data collection process rather than genuine non-availability. Bevacizumab (Avastin®) holds a centralised European Medicines Agency (EMA) authorisation and is routinely used in clinical oncology across EU member states, including Denmark. Healthcare professionals should verify the current authorisation status and approved indications via the Danish Medicines Agency (Lægemiddelstyrelsen) at [www.laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk) or the EMA product database at [www.ema.europa.eu](https://www.ema.europa.eu).
+Denne forbindelse skal dog behandles med betydelig forsigtighed. Epiglottis neoplasmer er overvejende benigne af natur (f.eks. hæmangiomer, cyster og squamous papillomas) og styres typisk med lokal endoskopisk resektion. Der findes ingen preklinisk eller klinisk forskning, der understøtter systemisk anti-VEGF-biologisk terapi i denne sammenhæng. Det kliniske behov, risk-benefit-balancen og sikkerheden ved at anvende en potent systemisk biologisk agent i en typisk benign, kirurgisk håndterbar tilstand er ikke blevet evalueret i nogen undersøgelse. Denne forudsigelse afspejler topologisk nærhed i vidensgrafen snarere end et etableret biologisk eller klinisk rationale.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske forsøg
 
-Bevacizumab is classified as an antineoplastic agent (its original indication involves solid tumour treatment); this section is therefore included.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Anti-VEGF monoclonal antibody (not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low — Bevacizumab does not act on haematopoietic precursors; clinically significant bone marrow suppression is not expected |
-| Emetogenicity Classification | Minimal — biologic/monoclonal antibody agents are not associated with meaningful nausea or vomiting |
-| Monitoring Items | Blood pressure (hypertension is a class effect), urinalysis for proteinuria, full blood count (CBC), renal function tests, and wound healing status prior to any elective surgical procedures |
-| Handling Protection | Standard biologic/monoclonal antibody handling procedures apply; cytotoxic-grade personal protective equipment and closed-system drug-transfer devices are generally not required |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for Bevacizumab til epiglottis neoplasma på ClinicalTrials.gov eller WHO ICTRP.
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-No formal warnings, contraindications, or drug interaction data are available in this Evidence Pack.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-> **Note for prescribers:** Based on Bevacizumab's well-characterised pharmacological class, key known safety concerns include: hypertension, proteinuria, arterial and venous thromboembolic events (including stroke and myocardial infarction), gastrointestinal perforation, impaired wound healing, haemorrhage, and posterior reversible encephalopathy syndrome (PRES). These risks must be thoroughly assessed against any theoretical benefit before considering use in any novel indication.
+Der er i øjeblikket ingen relateret litteratur tilgængelig på PubMed, der specifikt omhandler Bevacizumab til epiglottis neoplasma.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Der er ingen markedsføringstilladelser for Bevacizumab i det aktuelle datasæt (0 tilladelser). Dette afspejler næsten sikkert et **datahul** i den lokale dataindsamlingsproces snarere end ægte utilgængelighed. Bevacizumab (Avastin®) har en centraliseret European Medicines Agency (EMA)-autorisation og bruges rutinemæssigt i klinisk onkologi på tværs af EU-medlemsstater, herunder Danmark. Sundhedsfagfolk bør verificere den aktuelle autorisationsstatus og godkendte indikationer via Lægemiddelstyrelsen på [www.laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk) eller EMA-produktdatabasen på [www.ema.europa.eu](https://www.ema.europa.eu).
+
+---
+
+## Cytotoxicitet
+
+Bevacizumab klassificeres som et antineoplastisk agens (dets oprindelige indikation involverer behandling af solide tumorer); dette afsnit er derfor inkluderet.
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitets klassificering | Målrettet terapi – Anti-VEGF-monoklonalt antistof (ikke et konventionelt cytotoxisk agens) |
+| Risiko for myelosuppression | Lav – Bevacizumab virker ikke på hæmatopoetiske precursor-celler; klinisk signifikant knoglemarv-undertrykkelse forventes ikke |
+| Emetogenicitets klassificering | Minimal – biologiske/monoklonale antistof-agenser er ikke forbundet med meningsfuld kvalme eller opkastning |
+| Overvågningspunkter | Blodtryk (hypertension er en klasseeffekt), urinalyse for proteinuri, fuldt blodtælling (CBC), nyrефunktionstest og sårhealingsstatus før eventuelle elektive kirurgiske procedurer |
+| Håndteringsbeskyttelse | Standard biologisk/monoklonal antistof-håndterings-procedurer gælder; cytotoxisk-klasse personligt beskyttelsesudstyr og lukkede system drug-transfer-enheder er generelt ikke påkrævet |
+
+---
+
+## Sikkerhedshensyn
+
+Ingen formelle advarsler, kontraindikationer eller lægemiddel-interaktionsdata er tilgængelige i denne Evidence Pack.
+
+Se venligst det godkendte produktinformationsark (SmPC) for fuldstændig sikkerhedsinformation.
+
+> **Bemærk for ordinatorer:** Baseret på Bevacizumabs velbeskrevne farmakologiske klasse omfatter vigtige kendte sikkerhedsproblemer: hypertension, proteinuri, arterielle og venøse tromboemboliske hændelser (herunder slagtilfælde og myokardieinfarkt), gastrointestinal perforertion, nedsat sårheling, blødning og posteriort reversibelt encefalopati-syndrom (PRES). Disse risici skal grundigt vurderes i forhold til ethvert teoretisk gavnligt effekt, før der overvejes brug i enhver ny indikation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Pausér**
 
 **Rationale:**
-This prediction is based entirely on knowledge graph topological similarity with zero supporting clinical trials or published literature. Epiglottis neoplasms are predominantly benign and adequately managed with local surgical or endoscopic resection; there is no established clinical need for systemic anti-VEGF biologic therapy in this population, and the safety profile has not been evaluated in this context.
+Denne forudsigelse er baseret helt og holdent på topologisk lighed i vidensgrafen med nul understøttende kliniske forsøg eller publiceret litteratur. Epiglottis neoplasmer er overvejende benigne og håndteres tilstrækkeligt med lokal kirurgisk eller endoskopisk resektion; der er intet etableret klinisk behov for systemisk anti-VEGF-biologisk terapi i denne population, og sikkerhedsprofilen er ikke blevet evalueret i denne sammenhæng.
 
-**To proceed, the following is needed:**
-- Histological confirmation that the target neoplasm is malignant, highly vascularised, and not amenable to surgical management — the only scenario where systemic biologics could be clinically justified
-- Retrieval of formal MOA data from DrugBank (DB00112) to complete the mechanistic plausibility assessment
-- Preclinical evidence (in vitro or in vivo) demonstrating VEGF dependency in epiglottic tumour models
-- Full SmPC review for Bevacizumab (Avastin®) covering contraindications, warnings, and drug interactions, obtainable from Lægemiddelstyrelsen or the EMA
-- Verification of current Danish/EMA marketing authorisation status and approved indications
+**For at fortsætte er følgende nødvendigt:**
+- Histologisk bekræftelse af, at målneoplasmet er malignt, højt vaskuliseret og ikke sårbar for kirurgisk håndtering – det eneste scenarie, hvor systemiske biologiske midler kunne være klinisk berettiget
+- Hentning af formelle MOA-data fra DrugBank (DB00112) for at fuldende den mekanistiske plausibilitetsvurdering
+- Prekliniske beviser (in vitro eller in vivo) der demonstrerer VEGF-afhængighed i epiglottisk tumor-modeller
+- Fuldstændig SmPC-gennemgang for Bevacizumab (Avastin®) dækkende kontraindikationer, advarsler og lægemiddel-interaktioner, som kan fås fra Lægemiddelstyrelsen eller EMA
+- Verificering af nuværende dansk/EMA markedsføringstilladelse status og godkendte indikationer
 
 ---
 
-### Additional Context: Other Predicted Indications from This Pack
+### Yderligere kontekst: Andre forudsagte indikationer fra dette pack
 
-This Evidence Pack covers five unique predicted indications for Bevacizumab. For reference:
+Dette Evidence Pack dækker fem unikke forudsagte indikationer for Bevacizumab. Til reference:
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
-|------|---------------------|-------------|----------------|----------|
-| 1 | Epiglottis Neoplasm | 99.90% | L5 | **Hold** |
-| 3 | Benign Neoplasm of Tongue | 99.90% | L4 | Research Question |
-| 5 | Tumour of Testis and Paratestis | 99.90% | L5 | **Hold** |
-| 7 | Benign Neoplasm of Hypopharynx | 99.90% | L5 | **Hold** |
-| 9 | Benign Neoplasm of Floor of Mouth | 99.90% | L3 | Research Question |
+| Rangering | Forudsagt indikation | TxGNN score | Bevisniveau | Beslutning |
+|-----------|---------------------|-------------|-------------|-----------|
+| 1 | Epiglottis neoplasma | 99.90% | L5 | **Pausér** |
+| 3 | Benign neoplasma af tunge | 99.90% | L4 | Forskningsspørgsmål |
+| 5 | Tumor af testis og paratestis | 99.90% | L5 | **Pausér** |
+| 7 | Benign neoplasma af hypofarynx | 99.90% | L5 | **Pausér** |
+| 9 | Benign neoplasma af mundbund | 99.90% | L3 | Forskningsspørgsmål |
 
-The **Benign Neoplasm of Floor of Mouth** prediction carries the strongest evidence in this pack (L3), supported by one Phase I clinical trial ([NCT01552434](https://clinicaltrials.gov/study/NCT01552434)) investigating Bevacizumab in head and neck malignancies and two relevant preclinical publications. If repurposing exploration for Bevacizumab is to continue, this indication represents the most tractable research starting point, noting that all current evidence concerns malignant rather than benign lesions.
+Forudsigelsen for **benign neoplasma af mundbund** bærer det stærkeste bevis i dette pack (L3), understøttet af et Phase I klinisk forsøg ([NCT01552434](https://clinicaltrials.gov/study/NCT01552434)) undersøgende Bevacizumab i hals- og nakkemalignitet og to relevante prekliniske publikationer. Hvis repurposing-udforskning for Bevacizumab skal fortsætte, repræsenterer denne indikation det mest håndtérbart forskningsudgangspunkt, under henvisning til, at alle nuværende beviser vedrører maligne snarere end benigne læsioner.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

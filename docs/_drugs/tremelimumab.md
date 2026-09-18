@@ -29,72 +29,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tremelimumab: From Hepatocellular Carcinoma/NSCLC to Diabetic Cataract
+# Tremelimumab: Fra hepatocellulært karcinom/ikke-småcellet lungekræft til diabetisk katarakt
 
-## One-Sentence Summary
+## Et-sætnings sammenfatning
 
-Tremelimumab is an anti-CTLA-4 immune checkpoint inhibitor, currently used in combination regimens for hepatocellular carcinoma and non-small cell lung cancer.
-The TxGNN model predicts it may be effective for **Diabetic Cataract**, with a prediction score of **98.49%**,
-but currently **0 clinical trials** and **0 publications** support this direction, and the drug is not marketed in Denmark.
+Tremelimumab er en anti-CTLA-4 immun checkpoint-inhibitor, der i øjeblikket bruges i kombinationsregimener til hepatocellulært karcinom og ikke-småcellet lungekræft.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk katarakt**, med en forudsigelsesscore på **98,49%**,
+men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning, og lægemidlet markedsføres ikke i Danmark.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | No Danish marketing authorisation on file; per background pharmacology, approved elsewhere for hepatocellular carcinoma / non-small cell lung cancer (combination therapy) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.49% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ingen dansk markedsføringstilladelse på fil; ud fra baggrundsfarmakologi godkendt andre steder til hepatocellulært karcinom / ikke-småcellet lungekræft (kombinationsterapy) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,49% |
+| Evidensniveau | L5 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data has not been formally documented for this evidence pack (data gap). Based on background pharmacology, tremelimumab is an anti-CTLA-4 monoclonal antibody that activates T-cells to enhance anti-tumour immune response, and is currently used in combination oncology regimens for hepatocellular carcinoma and non-small cell lung cancer.
+Detaljerede virkningsmekanisme-data er ikke blevet formelt dokumenteret for denne evidenspakke (datakløft). Ud fra baggrundsfarmakologi er tremelimumab et anti-CTLA-4 monoklonalt antistof, der aktiverer T-celler for at forbedre anti-tumor immun respons, og bruges i øjeblikket i kombinations-onkologiregimener til hepatocellulært karcinom og ikke-småcellet lungekræft.
 
-Diabetic cataract results from lens protein glycation, polyol pathway activation, and oxidative stress secondary to chronic hyperglycemia — a metabolic and structural process with no known intersection with CTLA-4/T-cell activation pathways.
+Diabetisk katarakt opstår fra linseprotein-glykering, polyol-vejaktivering og oxidativ stress sekundær til kronisk hyperglykæmi — en metabolisk og strukturel proces uden kendt skæring med CTLA-4/T-cel aktiverings-veje.
 
-The evidence pack's own mechanistic assessment concludes that this prediction **lacks biological plausibility**: immune checkpoint inhibitors are known to *cause* immune-related ocular adverse events (e.g., uveitis) rather than treat lens opacification, and there is no mechanism by which T-cell activation would reverse or prevent cataract formation.
+Evidenspakkens egen mekanistiske vurdering konkluderer, at denne forudsigelse **mangler biologisk plausibilitet**: immune checkpoint-inhibitorer vides at *forårsage* immunrelaterede okulare bivirkninger (f.eks. uveitis) snarere end at behandle linseophaling, og der er ingen mekanisme, hvorigennem T-cel aktivering ville vende eller forhindre katarakt dannelse.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidens
 
-Currently no related clinical trials registered
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+Der er i øjeblikket ingen relateret litteratur tilgængelig
 
-## Denmark Market Information
+## Danmarks markedsinformation
 
-Tremelimumab has no marketing authorisation on file in Denmark (0 licences; market status: not marketed).
+Tremelimumab har ingen markedsføringstilladelse på fil i Danmark (0 licenser; markedsstatus: ikke markedsført).
 
-## Cytotoxicity
+## Cytotoxicitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CTLA-4 checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — checkpoint inhibitors are not typically directly myelosuppressive; principal risk is immune-related adverse events, including immune-related ocular events (e.g., uveitis) noted in the mechanistic rationale |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) — no structured emetogenicity data on file |
-| Monitoring Items | Monitoring for immune-related adverse events (endocrine, hepatic, GI, dermatologic), liver and renal function; ophthalmologic monitoring given the noted potential for immune-related eye events |
-| Handling Protection | Not a conventional cytotoxic agent; standard oncology biologic infusion precautions apply rather than classic cytotoxic drug handling protocols |
+| Punkt | Indhold |
+|------|---------|
+| Cytotoxicitet-klassificering | Immunterapi (anti-CTLA-4 checkpoint-inhibitor) — ikke et konventionelt cytotoxisk middel |
+| Myelosuppression-risiko | Lav — checkpoint-inhibitorer er typisk ikke direkte myelosuppressive; principiel risiko er immunrelaterede bivirkninger, herunder immunrelaterede okulare begivenheder (f.eks. uveitis) noteret i den mekanistiske begrundelse |
+| Emetogenicitet-klassificering | Venligst se Produktinformationen (SmPC) — ingen struktureret emetogenicitet-data på fil |
+| Overvågningspunkter | Overvågning for immunrelaterede bivirkninger (endokrine, hepatiske, GI, dermatologiske), lever- og nyrefunktion; oftalmologisk overvågning givet det noterede potentiale for immunrelaterede øjenbegivenheder |
+| Håndteringsbeskyttelse | Ikke et konventionelt cytotoxisk middel; standard onkologi biologisk infusions-forsigtighedsregler gælder snarere end klassiske cytotoxiske lægemiddel-håndteringsprotokaller |
 
-## Safety Considerations
+## Sikkerhedsmæssige overvejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Venligst se Produktinformationen (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-Despite a high TxGNN similarity score, this candidate has zero clinical trials, zero literature support, and evidence level L5 (model prediction only). The evidence pack's own mechanistic rationale explicitly states the drug-disease link lacks biological plausibility, and the drug carries a Blocking data gap on SmPC warnings/contraindications (DG001) and a High-severity gap on MOA documentation (DG002).
+**Begrundelse:**
+På trods af en høj TxGNN-lighedsscore har denne kandidat nul kliniske forsøg, nul litteraturunderstøttelse og evidensniveau L5 (alene modelforudsigelse). Evidenspakkens egen mekanistiske begrundelse angiver eksplicit, at lægemiddel-sygdomsforbindelsen mangler biologisk plausibilitet, og lægemidlet har en Blokeringsdatakløft på SmPC-advarsler/kontraindikationer (DG001) og en Høj-alvorligheds-kloft på MOA-dokumentation (DG002).
 
-**To proceed, the following is needed:**
-- Resolve DG001: TFDA/Danish SmPC warnings and contraindications (blocking gap)
-- Resolve DG002: formal mechanism-of-action documentation via DrugBank or manufacturer labeling
-- Independent preclinical/mechanistic validation of any plausible drug-disease link before further development
-- Given the documented lack of biological plausibility, deprioritize this candidate unless new mechanistic or experimental evidence emerges
+**For at fortsætte er følgende nødvendigt:**
+- Løs DG001: TFDA/dansk SmPC-advarsler og kontraindikationer (blokeringskløft)
+- Løs DG002: formelt virkningsmekanisme-dokumentation via DrugBank eller producent-mærkning
+- Uafhængig præ-klinisk/mekanistisk validering af enhver plausibel lægemiddel-sygdomsforbindelse før videre udvikling
+- Givet den dokumenterede mangel på biologisk plausibilitet, nedprioritér denne kandidat, medmindre nye mekanistiske eller eksperimentelle beviser opstår
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

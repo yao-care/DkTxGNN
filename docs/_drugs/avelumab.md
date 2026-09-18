@@ -29,90 +29,91 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Avelumab: From Merkel Cell Carcinoma to HHV-8-Related Tumour
+# Avelumab: Fra Merkelcellekarcinom til HHV-8-relateret tumor
 
-## One-Sentence Summary
+## Sammenfatning i ét afsnit
 
-Avelumab (Bavencio) is a fully human anti-PD-L1 monoclonal antibody approved internationally for Merkel cell carcinoma and urothelial carcinoma maintenance therapy, though it is not currently registered in Denmark.
-The TxGNN model predicts it may be effective for **HHV-8-related tumours** (including Kaposi's sarcoma, primary effusion lymphoma, and multicentric Castleman disease), with a prediction confidence of **99.97%**.
-At present, **no dedicated clinical trials** or **publications** directly investigate this drug–disease combination, though the mechanistic rationale is substantiated by class-level evidence from the related checkpoint inhibitor pembrolizumab.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Merkel cell carcinoma; urothelial carcinoma maintenance — globally approved (EMA/FDA); not registered in Denmark |
-| Predicted New Indication | HHV-8-Related Tumour (Kaposi's sarcoma, Primary Effusion Lymphoma, Castleman Disease) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Avelumab (Bavencio) er et fuldt humant anti-PD-L1 monoklonalt antistof, der er godkendt internationalt til behandling af Merkelcellekarcinom og til vedligeholdelsesbehandling af urothelkarcinom, selvom det ikke er registreret i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **HHV-8-relaterede tumorer** (herunder Kaposis sarkom, primært effusionslymfom og multicentreret Castlemans sygdom), med en forudsigelsessikkerhed på **99.97%**.
+Der findes i øjeblikket **ingen dedikerede kliniske forsøg** eller **publikationer**, der direkte undersøger denne medicin-sygdom-kombination, selvom den mekanistiske begrundelse understøttes af klassifikationsniveau-evidens fra det relaterede checkpoint-inhibitor pembrolizumab.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Avelumab is a fully human IgG1 monoclonal antibody that blocks the interaction between PD-L1 and its receptors PD-1 and CD80, thereby restoring cytotoxic CD8+ T cell and NK cell activity against tumour cells. Critically, unlike other checkpoint inhibitors, Avelumab's IgG1 Fc region retains **antibody-dependent cell-mediated cytotoxicity (ADCC)** activity — enabling direct tumour cell killing through NK cell engagement, a second mechanism of action beyond checkpoint blockade alone.
-
-Human herpesvirus 8 (HHV-8) is the causative agent of Kaposi's sarcoma, primary effusion lymphoma (PEL), and multicentric Castleman disease. HHV-8-infected malignant cells are known to upregulate PD-L1 expression as an immune evasion strategy, suppressing both anti-viral and anti-tumour immune surveillance by CD8+ T cells and NK cells. Blocking PD-L1 with Avelumab could therefore restore immune-mediated killing of HHV-8-harbouring cells through two complementary pathways — checkpoint disinhibition and direct ADCC — potentially offering a dual advantage over anti-PD-1 agents in this setting.
-
-Class-level biological plausibility is supported by the fact that pembrolizumab (an anti-PD-1 antibody) has entered Phase 2 clinical evaluation in Kaposi's sarcoma (NCT02494960). This precedent indicates that the broader immune checkpoint inhibitor class is considered mechanistically sound for HHV-8-associated malignancies by the clinical research community. TxGNN's high prediction score of 99.97% reflects this mechanistic alignment as captured in the knowledge graph, even in the absence of Avelumab-specific trial data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered specifically for Avelumab in HHV-8-related tumours.
-
-> **Class-level note:** The related anti-PD-1 agent pembrolizumab has an ongoing Phase 2 trial in Kaposi's sarcoma — [NCT02494960](https://clinicaltrials.gov/study/NCT02494960) — providing indirect evidence that immune checkpoint inhibition is biologically feasible in this disease context.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Merkelcellekarcinom; vedligeholdelsesbehandling af urothelkarcinom – globalt godkendt (EMA/FDA); ikke registreret i Danmark |
+| Forudsagt ny indikation | HHV-8-relateret tumor (Kaposis sarkom, primært effusionslymfom, Castlemans sygdom) |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for Avelumab specifically in HHV-8-related tumours.
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige i denne Evidence Pack. Baseret på kendt information er Avelumab et fuldt humant IgG1 monoklonalt antistof, der blokerer interaktionen mellem PD-L1 og dets receptorer PD-1 og CD80, hvorved det genopretter cytotoksisk CD8+ T-celle- og NK-celleaktivitet mod tumorceller. Kritisk er det, at Avelumabs IgG1 Fc-region, i modsætning til andre checkpoint-inhibitorer, bibeholder **antistofafhængig celleformidlet cytotoxicitet (ADCC)**-aktivitet – hvilket muliggør direkte tumorcelledrab gennem NK-celleaktivering, en anden virkningsmekanisme ud over blot checkpoint-blokering.
 
----
+Human herpesvirus 8 (HHV-8) er årsagsfaktoren for Kaposis sarkom, primært effusionslymfom (PEL) og multicentreret Castlemans sygdom. HHV-8-inficerede maligne celler er kendt for at opregulere PD-L1-ekspression som en strategi for immunflugt, der undertrykker både antiviral og antitumor immunovervågning af CD8+ T-celler og NK-celler. Blokering af PD-L1 med Avelumab kunne derfor genoprette immunformidlet drab af HHV-8-bærende celler gennem to komplementære veje – checkpoint-disinhibition og direkte ADCC – hvilket potentielt giver en dobbelt fordel i forhold til anti-PD-1-midler i denne sammenhæng.
 
-## Cytotoxicity
-
-Avelumab is an oncology immunotherapy agent (anti-PD-L1 monoclonal antibody). This section applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — immune checkpoint inhibitor (anti-PD-L1 IgG1 monoclonal antibody with ADCC activity); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low for direct myelosuppression; immune-mediated haematological events (e.g. immune thrombocytopenia, haemolytic anaemia) are possible irAEs |
-| Emetogenicity Classification | Minimal |
-| Monitoring Items | Full blood count (CBC with differential), liver function tests (ALT, AST, bilirubin), renal function (creatinine), thyroid function (TSH, free T4), fasting blood glucose, cortisol (adrenal function); infusion reaction monitoring during and after administration |
-| Handling Protection | Standard monoclonal antibody handling precautions apply; dedicated cytotoxic drug handling regulations are not required |
+Biologisk plausibilitet på klasseniveau understøttes af det faktum, at pembrolizumab (et anti-PD-1 antistof) er gået ind i fase 2 klinisk evaluering i Kaposis sarkom (NCT02494960). Denne præcedens indikerer, at den bredere klasse af checkpoint-inhibitorer anses for at være mekanistisk velfunderet for HHV-8-relaterede maligniteteter af det kliniske forskningsmiljø. TxGNNs høje forudsigelsesscore på 99.97% afspejler denne mekanistiske overensstemmelse som fanget i vidensgrafen, selv i fravær af Avelumab-specifik forsøgsdata.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret specifikt for Avelumab ved HHV-8-relaterede tumorer.
 
-> **Important clinical note:** As a checkpoint inhibitor, Avelumab carries class-specific immune-related adverse events (irAEs) that require active monitoring and management. These include, but are not limited to: immune-mediated pneumonitis, colitis, hepatitis, nephritis, endocrinopathies (hypothyroidism, hyperthyroidism, adrenal insufficiency, type 1 diabetes mellitus), and infusion-related reactions. Practitioners should follow current immunotherapy toxicity management guidelines (e.g. ESMO/ASCO irAE guidelines). The Bavencio SmPC approved by EMA provides the authoritative full safety profile.
+> **Notat på klasseniveau:** Det relaterede anti-PD-1-middel pembrolizumab har et igangværende fase 2-forsøg i Kaposis sarkom — [NCT02494960](https://clinicaltrials.gov/study/NCT02494960) — hvilket giver indirekte evidens for, at checkpoint-inhibering er biologisk mulig i denne sygdomskontekst.
 
 ---
 
-## Conclusion and Next Steps
+## Evidens fra litteratur
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig for Avelumab specifikt ved HHV-8-relaterede tumorer.
 
-**Rationale:**
-Evidence for Avelumab specifically in HHV-8-related tumours is currently at the preclinical/mechanistic level only (L4), with no registered clinical trials and no published literature directly investigating this drug–disease combination. The mechanistic basis is scientifically sound — HHV-8-driven PD-L1 upregulation is well described, and class-level evidence from pembrolizumab in Kaposi's sarcoma supports the plausibility of checkpoint inhibition in this setting — but drug-specific clinical validation is entirely absent.
+---
 
-**To proceed, the following is needed:**
-- Systematic review of the existing pembrolizumab Kaposi's sarcoma trial (NCT02494960) results to assess class-level transferability to Avelumab
-- Translational or preclinical data specifically addressing whether Avelumab's ADCC mechanism confers additional benefit over anti-PD-1 agents in HHV-8-associated malignancies
-- PD-L1 expression prevalence data across the spectrum of HHV-8-related tumour subtypes (Kaposi's sarcoma, PEL, Castleman disease), including assessment in immunocompromised subpopulations (HIV-positive patients)
-- Full SmPC review and safety gap remediation: the current Evidence Pack is missing key safety data (TFDA/EMA warnings, contraindications, drug–drug interactions) which are classified as blocking for formal safety pre-screening (DG001)
-- Danish epidemiological feasibility assessment: HHV-8-related malignancies are uncommon in Denmark; patient population sizing is needed to evaluate clinical and health-economic viability
-- Registration pathway analysis: Avelumab is not currently marketed in Denmark; any clinical use would require a named patient programme, compassionate use authorisation, or a prospective clinical trial
+## Cytotoxicitet
+
+Avelumab er et onkologisk immunoterapimiddel (anti-PD-L1 monoklonalt antistof). Dette afsnit gælder.
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitetsklassificering | Immunoterapi – checkpoint-inhibitor (anti-PD-L1 IgG1 monoklonalt antistof med ADCC-aktivitet); ikke et konventionelt cytotoksisk middel |
+| Myelosuppressionrisiko | Lav for direkte myelosuppression; immunformidlede hæmatologiske bivirkninger (f.eks. immun trombocytopeni, hæmolytisk anæmi) er mulige irAE |
+| Emetogenicitetsklassificering | Minimal |
+| Overvågningspunkter | Fuldt blodtal (CBC med differential), leverfunktionsprøver (ALT, AST, bilirubin), nyrefunktion (kreatinin), skjoldbruskkirtelfunktion (TSH, frit T4), fastende blodglukose, kortisol (binyrefunktion); monitorering af infusionsreaktioner under og efter administration |
+| Håndteringsforanstaltninger | Standardforanstaltninger for håndtering af monoklonale antistoffer gælder; særlige sikkerhedsregler for cytotoksiske midler er ikke påkrævet |
+
+---
+
+## Sikkerhedshensyn
+
+Venligst se den godkendte produktinformation (SmPC) for sikkerhedsinformation.
+
+> **Vigtig klinisk bemærkning:** Som checkpoint-inhibitor har Avelumab klassificerede immunrelaterede bivirkninger (irAE), der kræver aktiv overvågning og styring. Disse omfatter blandt andet: immunformidlet pneumonitis, colitis, hepatitis, nefritis, endokrinopathier (hypothyreoidisme, hyperthyreoidisme, binyrebarkinsufficiens, type 1-diabetes mellitus) og infusionsrelaterede reaktioner. Læger bør følge gældende vejledninger for styring af immunoterapirelateret toksicitet (f.eks. ESMO/ASCO irAE-vejledninger). Bavencio-produktinformation godkendt af EMA giver det autoritative fulde sikkerhedsprofil.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Evidensen for Avelumab specifikt ved HHV-8-relaterede tumorer er i øjeblikket udelukkende på præklinisk/mekanistisk niveau (L4), uden registrerede kliniske forsøg og uden publicerede studier, der direkte undersøger denne medicin-sygdom-kombination. Det mekanistiske grundlag er videnskabeligt velbegrundet – HHV-8-medieret PD-L1-opregulering er velkarakteriseret, og klassifikationsniveau-evidens fra pembrolizumab ved Kaposis sarkom understøtter plausibiliteten af checkpoint-inhibering i denne sammenhæng – men medicinspecifik klinisk validering er helt fraværende.
+
+**For at kunne fortsætte, er følgende nødvendigt:**
+- Systematisk gennemgang af resultater fra det eksisterende pembrolizumab Kaposis sarkom-forsøg (NCT02494960) for at vurdere klasseniveauets overflyttelighed til Avelumab
+- Translationelle eller prækliniske data, der specifikt behandler, om Avelumabs ADCC-mekanisme giver ekstra fordel sammenlignet med anti-PD-1-midler ved HHV-8-relaterede tumorer
+- Prævalensdata for PD-L1-ekspression på tværs af spektret af HHV-8-relaterede tumorsubtyper (Kaposis sarkom, PEL, Castlemans sygdom), herunder vurdering i immunosupprimerede patientgrupper (HIV-positive patienter)
+- Fuldstændig SmPC-gennemgang og styring af sikkerhedsmangel: den aktuelle Evidence Pack mangler vigtige sikkerhedsdata (TFDA/EMA-advarsler, kontraindikationer, medicin-medicin-interaktioner), som klassificeres som blokeringsårsager for formel sikkerhedsvurdering før screening (DG001)
+- Dansk epidemiologisk gennemførlighedsvurdering: HHV-8-relaterede tumorer er sjældne i Danmark; patientpopulationsstørrelse er nødvendig for at vurdere klinisk og sundhedsøkonomisk gennemførligelighed
+- Vurdering af godkendelsessti: Avelumab er ikke i øjeblikket markedsført i Danmark; enhver klinisk brug ville kræve et navngivet patientprogram, compassionate use-autorisation eller et prospektivt klinisk forsøg
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

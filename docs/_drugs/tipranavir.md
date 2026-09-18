@@ -29,77 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tipranavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Tipranavir: Fra HIV-1-infektion til Simian Immunodeficiency Virus-infektion
 
-## One-Sentence Summary
+## Samlet opsummering i én sætning
 
-Tipranavir is a non-peptidic HIV-1 protease inhibitor, historically used in antiretroviral therapy for treatment-experienced, multi-drug-resistant HIV-1 infection (this original-indication link is inferred from the evidence pack's internal rationale notes, since formal indication/license text is not available). The TxGNN model's top-ranked prediction is **Simian Immunodeficiency Virus (SIV) Infection**, an animal-model disease with a **99.99% prediction score** but **zero supporting clinical trials or literature**. The evidence pack's own analysis flags this as a high-score/low-clinical-value prediction driven by lentivirus-family semantic similarity, not a genuine repurposing signal.
+Tipranavir er en non-peptidisk HIV-1-proteasehæmmer, som historisk set har været brugt i antiretroviral terapi til behandlingserfarne patienter med multiresistent HIV-1-infektion (denne forbindelse til den oprindelige indikation er udledt fra evidence pack'ets interne begrundelsesnoter, da formelle indikations-/licenstekster ikke er tilgængelige). TxGNN-modellens højest rangerede forudsigelse er **Simian Immunodeficiency Virus (SIV)-infektion**, en dyremodelsygdom med en **99.99% forudsigelsesscore**, men **nul understøttende kliniske forsøg eller litteratur**. Evidence pack'ets egen analyse flagrer dette som en høj-score/lav-klinisk-værdi forudsigelse drevet af lentivirusfamiliens semantiske lighed, ikke et ægte genbrugssignal.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not recorded in formal license data (0 Denmark authorisations); per internal rationale notes, tipranavir is a non-peptidic HIV-1 protease inhibitor used in antiretroviral therapy |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke registreret i formelle licensdata (0 danske autorisationer); ifølge interne begrundelsesnoter er tipranavir en non-peptidisk HIV-1-proteasehæmmer brugt i antiretroviral terapi |
+| Forudsagt ny indikation | Simian Immunodeficiency Virus (SIV)-infektion |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Evidensniveau | L5 (modelforsigelse kun, ingen klinisk eller litteraturstøtte) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsautoriseringer | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for tipranavir is marked as a data gap at the drug level. However, the evidence pack's own repurposing-rationale text identifies tipranavir as a non-peptidic HIV-1 protease inhibitor, acting by blocking the viral protease enzyme required for maturation of infectious viral particles.
+Detaljerede data om virkningsmekanisme for tipranavir er markeret som et datagap på lægemiddelniveau. Evidence pack'ets egen genbrugsbegrundelsestekst identificerer dog tipranavir som en non-peptidisk HIV-1-proteasehæmmer, der virker ved at blokere det virale proteasenzym, som er påkrævet for modning af infektiøse virale partikler.
 
-The top-ranked prediction, SIV infection, is explicitly flagged in the evidence pack as a low-clinical-value output: SIV is a primate model virus in the same *Lentivirus* genus as HIV, so the protease-inhibition mechanism is theoretically transferable — but SIV infection is an animal disease entity, not a human clinical indication, and no trial or literature evidence exists to support it. The same pattern repeats for the next few ranked predictions (feline immunodeficiency syndrome — another animal disease; a rare neurodevelopmental disorder with no known mechanistic link; and an obsolete hyperlipidemia term that actually contradicts tipranavir's known dyslipidemia side-effect profile). The evidence pack characterizes these as model noise from semantic clustering around "retroviral infection," rather than genuine repurposing candidates.
+Den højest rangerede forudsigelse, SIV-infektion, er eksplicit flagret i evidence pack'et som et output med lav klinisk værdi: SIV er en primatmodellevirus i samme *Lentivirus*-slægt som HIV, så proteasehæmmingsmekanismen er teoretisk overførbar — men SIV-infektion er en dyresygdom, ikke en menneskelig klinisk indikation, og der findes ingen forsøg eller litteraturbevis, der understøtter det. Det samme mønster gentager sig for de næste få rangerede forudsigelser (felint immunodeficiensyndrom — endnu en dyresygdom; en sjælden neuroudviklingsforstyrrelse uden kendt mekanistisk forbindelse; og en forældet hyperlipidemibetegnelse, der faktisk modsiger tipranavirs kendt dyslipidemi-bivirkningsprofil). Evidence pack'et karakteriserer disse som modelstøj fra semantisk klyngning omkring "retroviral infektion" snarere end ægte genbrugskandidater.
 
-Within this pack, the only predictions reaching an advanced internal decision stage (S1, "Research Question") are **AIDS-related complex** (rank 9) and **congenital HIV infection** (rank 10) — both of which represent an extension of tipranavir's already-established antiretroviral mechanism along the HIV disease spectrum, rather than a novel repurposing hypothesis. Congenital HIV is further supported by 9 identified clinical trials, though most concern other antiretroviral regimens rather than tipranavir specifically (see below).
-
----
-
-## Clinical Trial Evidence
-
-For the top-ranked prediction (SIV infection): currently no related clinical trials registered.
-
-*Context note: elsewhere in this evidence pack, 9 clinical trials were identified under the lower-ranked "congenital human immunodeficiency virus" prediction (L4/S1, the pack's most advanced candidate). Only one (NCT00042289, IMPAACT P1026s — antiretroviral pharmacokinetics in pregnancy/postpartum) is graded relevance B; the remaining 8 are graded C, as they evaluate other antiretroviral regimens (dolutegravir, cabotegravir/rilpivirine, etc.) rather than tipranavir directly. None specifically test tipranavir.*
+Inden for denne pakke når de eneste forudsigelser til et avanceret internt beslutningsstadium (S1, "Forskningsspørgsmål") **AIDS-relateret kompleks** (rang 9) og **medfødt HIV-infektion** (rang 10) — som begge repræsenterer en udvidelse af tipranavirs allerede etablerede antiretrovirale mekanisme langs HIV-sygdomsspekteret, snarere end en ny genbrugshypotese. Medfødt HIV-infektion understøttes endvidere af 9 identificerede kliniske forsøg, selvom de fleste vedrører andre antiretrovirale regimer snarere end tipranavir specifikt (se nedenfor).
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbeviser
 
-Currently no related literature available.
+For den højest rangerede forudsigelse (SIV-infektion): i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
-## Denmark Market Information
-
-No marketing authorisations are recorded for tipranavir in this evidence pack (0 authorisations; market status: Not marketed).
+*Kontekstnotat: andre steder i denne evidence pack blev 9 kliniske forsøg identificeret under den lavere rangerede "medfødt HIV-infektion"-forudsigelse (L4/S1, pack'ets mest avancerede kandidat). Kun ét (NCT00042289, IMPAACT P1026s — antiretroviral farmakokinetik i graviditet/postpartum) er klassificeret som relevansgrad B; de resterende 8 er klassificeret som C, da de evaluerer andre antiretrovirale regimer (dolutegravir, cabotegravir/rilpivirine osv.) snarere end tipranavir direkte. Ingen tester specifikt tipranavir.*
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*Note: retrieval of TFDA/local label warnings and contraindications is flagged in this evidence pack as a **Blocking** data gap (DG001) — safety data must be obtained before this candidate can enter formal safety pre-assessment (S1).*
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Ingen markedsføringsautoriseringer er registreret for tipranavir i denne evidence pack (0 autorisationer; markedsstatus: Ikke markedsført).
 
-**Rationale:**
-The top TxGNN-ranked prediction (SIV infection) is an animal-disease entity with L5 evidence — model prediction only, no clinical trials, no literature, and no plausible clinical development path. The drug also has no marketing authorisation in Denmark and is missing mechanism-of-action and SmPC safety data, which blocks any formal safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Local SmPC / regulatory label (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism-of-action documentation
-- If pursuing repurposing further, redirect focus away from the top-ranked animal-disease predictions toward the pack's more clinically grounded candidates — AIDS-related complex and congenital HIV infection (both L4/S1) — and seek tipranavir-specific trial or literature evidence for those indications
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+*Bemærk: indhentelse af TFDA/lokale etiketsadvarsler og kontraindikationer er flagret i denne evidence pack som et **blokerende** datagap (DG001) — sikkerhedsdata skal være indhentet, før denne kandidat kan undergå formel sikkerhedspre-vurdering (S1).*
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Den højest TxGNN-rangerede forudsigelse (SIV-infektion) er en dyresygdom med L5-bevis — modelforsigelse kun, ingen kliniske forsøg, ingen litteratur og ingen plausibel klinisk udviklingsvej. Lægemidlet har heller ingen markedsføringsautoriserering i Danmark og mangler virkningsmekanisme- og SmPC-sikkerhedsdata, hvilket blokerer enhver formel sikkerhedspre-vurdering.
+
+**For at fortsætte er følgende nødvendig:**
+- Lokalt SmPC/regulatorisk etiket (advarsler, kontraindikationer) — i øjeblikket et blokerende datagap
+- Bekræftet virkningsmekanisme-dokumentation
+- Hvis genbrugsforsøg forfølges yderligere, skal fokus omdirigeres væk fra de højest rangerede dyremodels-forudsigelser mod pack'ets mere klinisk begrundede kandidater — AIDS-relateret kompleks og medfødt HIV-infektion (begge L4/S1) — og søge tipranavir-specifikt forsøgs- eller litteraturbevis for disse indikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,98 +29,99 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Meropenem: From Serious Bacterial Infections to Bacterial Arthritis
+# Meropenem: Fra alvorlige bakterielle infektioner til bakteriel artrit
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Meropenem is a broad-spectrum carbapenem antibiotic widely used in clinical practice for the treatment of serious bacterial infections, including hospital-acquired pneumonia, complicated intra-abdominal infections, bacterial meningitis, and septicaemia in critically ill patients.
-The TxGNN model predicts it may be effective for **Bacterial Arthritis**,
-with **1 clinical trial** and **20 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Serious bacterial infections (hospital-acquired pneumonia, complicated intra-abdominal infections, meningitis, septicaemia — based on established global clinical use; no formal Danish authorisation found in current data) |
-| Predicted New Indication | Bacterial Arthritis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Meropenem er en bredspektret karbapenemantibiotikaum, der er meget brugt i klinisk praksis til behandling af alvorlige bakterielle infektioner, herunder hospitalspneumoni, komplicerede intra-abdominale infektioner, bakteriel meningitis og sepsis hos kritisk syge patienter.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Bakteriel artrit**,
+med **1 klinisk forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Meropenem is a carbapenem beta-lactam antibiotic that inhibits bacterial cell wall synthesis through high-affinity binding to penicillin-binding proteins PBP2 and PBP3. This mechanism produces broad-spectrum bactericidal activity against both Gram-negative and Gram-positive organisms. It is particularly potent against multidrug-resistant (MDR) Gram-negative pathogens — including MDR *Pseudomonas aeruginosa*, ESBL-producing Enterobacteriaceae, and *Burkholderia pseudomallei* — which are precisely the organisms most likely to cause difficult-to-treat bacterial arthritis where first-line agents have failed.
-
-Bacterial (septic) arthritis shares key pathophysiological features with other deep-seated bacterial infections for which meropenem is already established: bacteraemia as an entry route, penetration into privileged anatomical compartments, and frequent involvement of MDR pathogens in immunocompromised hosts. Synovial fluid penetration of meropenem has been estimated at approximately 40–60% of serum concentrations under inflammatory conditions, sufficient to achieve the pharmacodynamic target (free time above MIC >40%) for susceptible Gram-negative pathogens. Retrospective clinical series — particularly those documenting musculoskeletal melioidosis — confirm that all isolates causing septic arthritis were susceptible to meropenem, and antibiogram studies from orthopaedic infection centres identify meropenem as the empiric agent of choice for MDR Gram-negative bone and joint infections.
-
-Clinically, meropenem is already referenced in infectious disease guidelines as a second-line or last-resort option for MDR/XDR Gram-negative septic arthritis when standard agents (cefazolin, ceftriaxone) are inappropriate. The TxGNN prediction accurately captures this established but off-label role. It is important to note that meropenem is **not effective against MRSA** — in mixed or Gram-positive-dominant cases, combination with vancomycin or a targeted Gram-positive agent is required.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Alvorlige bakterielle infektioner (hospitalspneumoni, komplicerede intra-abdominale infektioner, meningitis, sepsis — baseret på etableret global klinisk brug; ingen formelt dansk godkendelse fundet i nuværende data) |
+| Forudsagt ny indikation | Bakteriel artrit |
+| TxGNN-forudsigelsesscore | 99.92% |
+| Evidensgrad | L3 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal godkendelser til markedsføring | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Meropenem er et karbapenebetalaktamantibiotikum, der hæmmer bakteriernes cellevægssyntese gennem høj-affinitetsbinding til penicillin-bindingsproteiner PBP2 og PBP3. Denne mekanisme producerer bredspektret baktericid aktivitet mod både gram-negative og gram-positive organismer. Det er særlig potent mod multiresistente (MDR) gram-negative patogener — herunder MDR *Pseudomonas aeruginosa*, ESBL-producerende Enterobacteriaceae og *Burkholderia pseudomallei* — som er netop de organismer, der mest sandsynligt forårsager svært behandlelig bakteriel artrit, hvor førstelinjebehandling har fejlet.
+
+Bakteriel (septisk) artrit deler vigtige patofysiologiske træk med andre dybe bakterielle infektioner, for hvilke meropenem allerede er etableret: bakteriæmi som indgangsvej, penetration ind i privilegerede anatomiske rum, og hyppig forekomst af MDR-patogener hos immunosvækkede værter. Synovialvæskes penetration af meropenem er anslået til cirka 40–60% af serumkoncentrationerne under inflammatoriske forhold, tilstrækkeligt til at opnå det farmakodynamiske mål (fri tid over MIC >40%) for følsomme gram-negative patogener. Retrospektive kliniske serier — især dem, der dokumenterer muskuloskeletalt melioidosis — bekræfter, at alle isolater, der forårsager septisk artrit, var følsomme over for meropenem, og antibiogram-studier fra ortopædiske infektionscentre identificerer meropenem som det empiriske førstevalgsmiddel for MDR gram-negative knoglе- og ledinfektioner.
+
+Klinisk er meropenem allerede refereret i infektionssygdomsretningslinjer som anden- eller sidste linjemulighed for MDR/XDR gram-negative septisk artrit, når standardbehandlinger (cefazolin, ceftriaxon) er upassende. TxGNN-forudsigelsen fanger nøjagtigt denne etablerede men off-label rolle. Det er vigtigt at bemærke, at meropenem **ikke er effektivt mod MRSA** — i blandede eller gram-positive-dominerede tilfælde kræves kombination med vancomycin eller et målrettet gram-positivt middel.
+
+---
+
+## Klinisk forsøgsevidences
+
+| Forsøgsnummer | Fase | Status | Rekruttering | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Phase 3 | Completed | 624 | Randomised trial of levofloxacin prophylaxis against bacteraemia in children with acute leukaemia undergoing chemotherapy or HSCT (2011–2017). This trial concerns levofloxacin — not meropenem — in an oncology/immunosuppression context and does not directly evaluate bacterial arthritis. Its appearance in the evidence pack reflects knowledge-graph adjacency between antibiotic agents and infectious complications; no direct evidence contribution for meropenem in septic arthritis. |
+| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Fase 3 | Afsluttet | 624 | Randomiseret forsøg med levofloxacin-profylakse mod bakteriæmi hos børn med akut leukæmi under kemoterapibehandling eller HSCT (2011–2017). Dette forsøg drejer sig om levofloxacin — ikke meropenem — i en onkologi/immunsuppression-sammenhæng og evaluerer ikke direkte bakteriel artrit. Dets forekomst i evidenspakken afspejler tætte forbindelser i vidensgrafen mellem antibiotikaagenter og infektiøse komplikationer; intet direktebidrag til evidens for meropenem ved septisk artrit. |
 
-> **Evidence note**: No clinical trials directly evaluating meropenem for bacterial arthritis were identified in ClinicalTrials.gov or ICTRP at the time of data collection.
+> **Evidensnotat**: Der blev ikke identificeret kliniske forsøg, der direkte evaluerer meropenem til bakteriel artrit i ClinicalTrials.gov eller ICTRP på tidspunktet for dataindsamlingen.
 
 ---
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|------|------|---------|---------|
-| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Retrospective Review | Indian Journal of Medical Microbiology | 22 culture-confirmed musculoskeletal melioidosis cases; 9 with septic arthritis, 12 with osteomyelitis. All isolates susceptible to meropenem — directly supports meropenem activity in joint infections caused by *Burkholderia pseudomallei*. |
-| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | Observational Study | European Journal of Orthopaedic Surgery & Traumatology | Antibiogram study for empiric antibiotic selection in adult non-spinal orthopaedic infections (septic arthritis, osteomyelitis, PJI) in a developing-world setting. Meropenem identified as key agent for MDR Gram-negative isolates. |
-| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Retrospective Cohort | Le infezioni in medicina | Retrospective cohort of osteoarticular melioidosis; characterises clinical presentation, microbiology, and treatment of bone and joint *Burkholderia pseudomallei* infection, supporting carbapenem-based therapy. |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Epidemiological Study | Clinical Laboratory | Pathogen distribution and antimicrobial resistance analysis in bone and joint infections in children under 4 years; provides resistance data to guide empiric carbapenem selection in paediatric septic arthritis. |
-| [31319190](https://pubmed.ncbi.nlm.nih.gov/31319190/) | 2019 | Experimental Model | International Journal of Antimicrobial Agents | Rabbit model of carbapenemase-producing *Klebsiella pneumoniae* prosthetic joint infection; evaluated colistin-impregnated cement spacer combined with systemic antibiotics including meropenem, supporting local and systemic carbapenem strategy for resistant orthopaedic infections. |
-| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | Laboratory Study | Journal of Bone and Joint Surgery (American) | Thermal stability and in vitro elution kinetics of meropenem from PMMA bone cement beads; confirms meropenem retains bactericidal activity after cement mixing and elutes sustainably, relevant to local delivery in joint and bone infections caused by MDR organisms. |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Narrative Review | International Journal of Antimicrobial Agents | Reviews off-label and guideline antibiotic use for MDR/XDR bacteria including CR-Enterobacterales and CR-*Pseudomonas aeruginosa*; discusses carbapenem-based combination regimens relevant to MDR bacterial arthritis. |
-| [38649034](https://pubmed.ncbi.nlm.nih.gov/38649034/) | 2024 | PK Study | International Journal of Antimicrobial Agents | Meropenem tissue penetration evaluated in a unilateral lung injury model; demonstrates that tissue penetration is maintained under inflammatory conditions — a pharmacokinetic principle directly applicable to inflamed synovial joint spaces. |
-| [39681779](https://pubmed.ncbi.nlm.nih.gov/39681779/) | 2025 | Population PK Study | Clinical Pharmacokinetics | Population pharmacokinetics of meropenem across the adult lifespan (including older adults); identifies optimal dosing regimens and age-related PK variability relevant to achieving fT>MIC targets in deep-seated infections including septic joints. |
-| [2808217](https://pubmed.ncbi.nlm.nih.gov/2808217/) | 1989 | In Vitro Study | Journal of Antimicrobial Chemotherapy | Early characterisation of meropenem bactericidal activity against clinical isolates including *Pseudomonas aeruginosa*; MBCs approximately 2-fold above MICs, confirming potent bactericidal mechanism applicable to joint space infections where bacterial eradication is the primary therapeutic goal. |
+| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Retrospektivt review | Indian Journal of Medical Microbiology | 22 kulturbeviste muskuloskeletale melioidosis-tilfælde; 9 med septisk artrit, 12 med osteomyelitis. Alle isolater følsomme over for meropenem — understøtter direkte meropenem-aktivitet ved ledinfektioner forårsaget af *Burkholderia pseudomallei*. |
+| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | Observationelt studie | European Journal of Orthopaedic Surgery & Traumatology | Antibiogram-studie til empirisk antibiotikudvælgelse ved voksne ikke-spinale ortopædiske infektioner (septisk artrit, osteomyelitis, PJI) i en udviklingslandes-sammenhæng. Meropenem identificeret som vigtig agens for MDR gram-negative isolater. |
+| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Retrospektivt kohorte | Le infezioni in medicina | Retrospektivt kohorte af osteoartikulært melioidosis; karakteriserer klinisk præsentation, mikrobiologi og behandling af knoglе- og led-*Burkholderia pseudomallei* infektioner, og understøtter karbapenebaseret terapi. |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Epidemiologisk studie | Clinical Laboratory | Patogenfordeling og analyse af antimikrobiel resistens i knoglе- og ledinfektioner hos børn under 4 år; giver resistensdata til at vejlede empirisk karbapeneudvælgelse ved børns septiske artrit. |
+| [31319190](https://pubmed.ncbi.nlm.nih.gov/31319190/) | 2019 | Eksperimentel model | International Journal of Antimicrobial Agents | Kanin-model af karbapenemaseprodducerende *Klebsiella pneumoniae* proteseledinfektioner; evaluerede colistin-imprægneret cementspacer kombineret med systemiske antibiotika, herunder meropenem, og understøtter lokal og systemisk karbapenesstrategi for resistente ortopædiske infektioner. |
+| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | Laboratoriestudie | Journal of Bone and Joint Surgery (American) | Termisk stabilitet og in vitro elueringskinetikaaf meropenem fra PMMA-bencement-perler; bekræfter, at meropenem bevarer baktericid aktivitet efter cementblanding og elueres vedvarende, relevant til lokal levering ved knoglе- og ledinfektioner forårsaget af MDR-organismer. |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Narrative review | International Journal of Antimicrobial Agents | Gennemgår off-label og retningslinjebunden antibiotikabrug til MDR/XDR-bakterier, herunder CR-Enterobacterales og CR-*Pseudomonas aeruginosa*; diskuterer karbapenebaserede kombinationsregimer relevant for MDR bakteriel artrit. |
+| [38649034](https://pubmed.ncbi.nlm.nih.gov/38649034/) | 2024 | PK-studie | International Journal of Antimicrobial Agents | Meropenem-vævspenetration evalueret i en ensidig lungeskadesmodel; viser, at vævspenetration bibeholdes under inflammatoriske forhold — et farmakokinetiisk princip direkte anvendeligt på inflammerede synoviale ledrum. |
+| [39681779](https://pubmed.ncbi.nlm.nih.gov/39681779/) | 2025 | Populationsfarmakokinetikstudie | Clinical Pharmacokinetics | Populationsfarmakokinetikaaf meropenem på tværs af voksne livsspan (herunder ældre voksne); identificerer optimale dosisregimer og aldersstafhænging farmakokinetiisk variabilitet relevant for opnåelse af fT>MIC-mål ved dybttliggende infektioner, herunder septiske led. |
+| [2808217](https://pubmed.ncbi.nlm.nih.gov/2808217/) | 1989 | In vitro-studie | Journal of Antimicrobial Chemotherapy | Tidlig karakterisering af meropenem-baktericid aktivitet mod kliniske isolater, herunder *Pseudomonas aeruginosa*; MBCer cirka 2-fold over MICer, bekræftende potent baktericid mekanisme anvendelig ved ledrumsinfektioner, hvor bakterieudslettelse er det primære terapeutiske mål. |
 
 ---
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-Meropenem is **not currently listed as marketed in Denmark** according to the Laegemiddelstyrelsen database (market status: not marketed; 0 authorisations retrieved). No national or centrally authorised (EMA) marketing authorisations were identified in the evidence pack.
+Meropenem er **ikke i øjeblikket noteret som markedsført i Danmark** efter Lægemiddelstyrelsens database (markedsstatus: ikke markedsført; 0 godkendelser hentet). Der blev ikke identificeret nationale eller centralt godkendte (EMA) godkendelser til markedsføring i evidenspakken.
 
-> **Practical note for Danish clinicians**: Meropenem (e.g., Meronem® 500 mg and 1 g powder for solution for injection/infusion) holds a centralised EMA marketing authorisation valid across all EU/EEA member states. It is widely stocked in Danish hospital pharmacies as a hospital-restricted antimicrobial. Prescribers should verify current formulary listing and access pathways with the relevant hospital pharmacy or the Laegemiddelstyrelsen's medicine database (medicinpriser.dk / pro.medicin.dk).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> Detailed warning, contraindication, and drug interaction data were not available in the current evidence pack. Key clinical safety considerations known for carbapenems in general include: risk of seizures (particularly in patients with CNS disorders or renal impairment at standard doses), *Clostridioides difficile*-associated diarrhoea, hypersensitivity reactions (cross-reactivity with other beta-lactams should be assessed), and nephrotoxicity risk in combination with other nephrotoxic agents. Renal dose adjustment is required. Consult the Meronem® SmPC via the EMA product page for full prescribing information.
+> **Praktisk notat for danske klinikere**: Meropenem (f.eks. Meronem® 500 mg og 1 g pulver til injektions-/infusionsvæske) har en centraliseret EMA-markedsføringsgodkendelse, der gælder på tværs af alle EU/EØS-medlemsstater. Det er bredt lageret på danske hospitalsfarmacier som et hospitalsrestriktivt antimikrobielt middel. Ordinatører bør verificere nuværende formuleringsnotering og adgangsveje med relevant hospitalsfarmaci eller Lægemiddelstyrelsens medicindatabase (medicinpriser.dk / pro.medicin.dk).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst den godkendte produktinformationsfakta (SmPC) for sikkerhedsoplysninger.
 
-**Rationale:**
-Meropenem has well-documented in vitro and clinical activity against the principal MDR Gram-negative pathogens responsible for difficult-to-treat bacterial arthritis, adequate synovial fluid penetration, and is already recognised in infectious disease practice guidelines as a rescue therapy for refractory or MDR septic joint infections. Observational cohort data from musculoskeletal infection series and antimicrobial susceptibility studies provide meaningful biological plausibility. However, no dedicated prospective or randomised trials exist for this specific indication, and the evidence base rests primarily on Level 3 observational and microbiological data.
+> Detaljerede data om advarsler, kontraindikationer og lægemiddelinteraktioner var ikke tilgængelige i den nuværende evidenspakke. Vigtige kliniske sikkerhedsovervejelser kendt for karbapener generelt omfatter: risiko for krampeanfald (især hos patienter med CNS-sygdomme eller nyresvigt ved standarddoser), *Clostridioides difficile*-associeret diarré, overfølsomhedsreaktioner (tværreaktion med andre betalaktamer bør vurderes), og nyretoksicitetsrisiko i kombination med andre nefrotoksiske midler. Dosisreduktion for nyrerne er påkrævet. Konsulter Meronem® SmPC via EMA-produktsiden for komplet receptinformation.
 
-**To proceed, the following is needed:**
+---
 
-- Prospective PK/PD data characterising meropenem synovial fluid and joint tissue penetration specifically in patients with septic arthritis (accounting for the effect of synovial inflammation and joint effusion on drug distribution)
-- Prospective observational registry or multicentre cohort study documenting clinical outcomes (cure rates, surgical intervention rates, mortality) of meropenem-based regimens in culture-confirmed MDR Gram-negative bacterial arthritis
-- Local Danish/Nordic surveillance data on carbapenem resistance rates in orthopaedic isolates to define the target patient population most likely to benefit
-- Formal assessment of meropenem's hospital formulary status and prescribing pathway in Denmark (including antibiotic stewardship committee approval criteria for this indication)
-- Clarification of MRSA co-infection risk in the target population and appropriate combination therapy protocols (meropenem is not active against MRSA; a Gram-positive cover strategy should be specified)
-- Safety monitoring plan including renal function monitoring, CNS adverse event surveillance, and *C. difficile* infection tracking
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Meropenem har velkendt in vitro og klinisk aktivitet mod de vigtigste MDR gram-negative patogener, der er ansvarlige for svært behandlelig bakteriel artrit, tilstrækkelig synovialvæskepenetration, og er allerede anerkendt i infektionssygdomspraksis som redningsbehandling for vedholdende eller MDR septiske ledinfektioner. Observationelle kohortedata fra muskuloskeletale infektionsserier og antimikrobielle modstandsstudier giver meningsfuld biologisk plausibilitet. Dog eksisterer der ingen dedikerede prospektive eller randomiserede forsøg for denne specifikke indikation, og evidensgrundlaget hviler primært på niveau 3-observationelle og mikrobiologiske data.
+
+**For at fortsætte er følgende påkrævet:**
+
+- Prospektive farmakokinetikaog farmakodynamik-data, der karakteriserer meropenem-synovialvæske- og ledvævspenetration specifikt hos patienter med bakteriel artrit (under hensyntagen til virkningen af synovial inflammation og ledfluiddanelse på lægemiddeldistribution)
+- Prospektivt observationelt register eller multicenterstudie, der dokumenterer kliniske resultater (helbredelsesrater, kirurgiske indgrebsrater, dødelighed) for meropenem-baserede regimer ved kulturbeviste MDR gram-negative bakterielle arthritiser
+- Lokale danske/nordiske overvågningsdata om karbapenenresistensrater i ortopædiske isolater for at definere den målpopulation, der mest sandsynligt vil få gavn
+- Formelt assessment af meropenem-hospitalets formuleringstatus og ordinationsvej i Danmark (herunder godkendelsesskriterier for antibiotikasteroidskomité for denne indikation)
+- Præcisering af MRSA-ko-infektionsrisiko i målpopulationen og passende kombinationsbehandlingsprotokoller (meropenem er ikke aktivt mod MRSA; en gram-positiv dækningsstrategi bør specificeres)
+- Sikkerhedsovervågningsplan, herunder nyrefunktionomånedringer, CNS-bivirkaningsovervågning og *C. difficile*-infektionssporing
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Relugolix: From Advanced Prostate Cancer to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Relugolix: Fra avanceret prostatakræft til nefrogen syndrom med upassende antidiurese
 
-## One-Sentence Summary
+## En-linjers sammenfatning
 
-Relugolix (DrugBank DB11853) is an oral GnRH receptor antagonist whose established use is in hormone-sensitive conditions such as advanced prostate cancer and uterine fibroids/endometriosis. The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this prediction is currently supported by **no registered clinical trials and no published literature** — it is a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no licence record on file); externally known class use is advanced prostate cancer and hormone-dependent gynaecological conditions |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 96.13% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Relugolix (DrugBank DB11853) er en oral GnRH-receptorantagonist, hvis etablerede anvendelse er i hormon-sensitive tilstande såsom avanceret prostatakræft og uterusknopler/endometriose. TxGNN-modellen forudsiger, at det kan være effektivt for **nefrogen syndrom med upassende antidiurese (NSIAD)**, men denne forudsigelse understøttes i øjeblikket af **ingen registrerede kliniske forsøg og ingen publiceret litteratur** — det er et signal baseret kun på modellen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available for Relugolix in this evidence pack. Based on known pharmacology, Relugolix is an oral **GnRH (gonadotropin-releasing hormone) receptor antagonist** — the same drug class referenced elsewhere in this dataset's mechanistic rationale for other candidate indications (e.g., its suppression of the gonadal hormone axis). Its established efficacy is built on suppressing sex-hormone production, which is mechanistically distinct from the pathophysiology of NSIAD.
-
-NSIAD is a rare, typically congenital disorder caused by **gain-of-function mutations in the vasopressin V2 receptor**, leading to inappropriate free-water retention independent of gonadal hormone signaling. No direct or indirect mechanistic pathway connecting GnRH receptor antagonism to V2 receptor–driven water retention is documented in this evidence pack — the `repurposing_rationale.mechanistic_link` field for this indication is explicitly marked as not yet analyzed ("pending").
-
-Given the absence of a substantiated mechanistic link, corroborating trials, or literature, this prediction should be treated as an early-stage hypothesis generated purely from the TxGNN knowledge-graph embedding, not as a pharmacologically validated signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(Query log confirms ClinicalTrials.gov and ICTRP searches for "Relugolix" + "nephrogenic syndrome of inappropriate antidiuresis" returned zero results as of 2026-03-24.)*
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Ikke dokumenteret i denne bevisspakke (ingen licens på fil); eksternt kendt klasseanvendelse er avanceret prostatakræft og hormonafhængige gynækologiske tilstande |
+| Forudsagt ny indikation | Nefrogen syndrom med upassende antidiurese |
+| TxGNN-forudsigelsesscore | 96.13% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afhold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede mekanismedata for Relugolix ikke tilgængelige i denne bevisspakke. Baseret på kendt farmakologi er Relugolix en oral **GnRH-receptorantagonist (gonadotropin-releasing hormon)** — den samme lægemiddelklasse som refereret andre steder i dette datasæts mekanistiske begrundelse for andre kandidatindikationer (f.eks. dets undertrykkelse af den gonadale hormonakse). Dens etablerede effektivitet er bygget på undertrykkelse af kønshormonproduktion, som er mekanistisk adskilt fra patofysiologien af NSIAD.
 
-*(PubMed search for "Relugolix" + "nephrogenic syndrome of inappropriate antidiuresis" returned zero results as of 2026-03-24.)*
+NSIAD er en sjælden, typisk medfødt lidelse forårsaget af **gain-of-function-mutationer i vasopressin V2-receptoren**, hvilket fører til upassende ferskvandsretention uafhængigt af gonadale hormonsignalering. Ingen direkte eller indirekte mekanistisk vej, der forbinder GnRH-receptorantagonisme til V2-receptor-drevet vandretention, er dokumenteret i denne bevisspakke — `repurposing_rationale.mechanistic_link`-feltet for denne indikation er eksplicit markeret som endnu ikke analyseret ("pending").
 
----
-
-## Denmark Market Information
-
-Relugolix currently holds no marketing authorisation in Denmark (0 licences on file; market status: Not marketed). No national (Lægemiddelstyrelsen) or centralised (EMA) authorisation data is available in this evidence pack.
+I betragtning af fraværet af en underbygget mekanistisk forbindelse, understøttende forsøg eller litteratur, bør denne forudsigelse behandles som en tidlig-fase hypotese genereret udelukkende fra TxGNN-kendskabsgraf-embeddings, ikke som et farmakologisk valideret signal.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-*(Note: key warnings, contraindications, and drug–drug interaction data are all unrecorded in this evidence pack. This is flagged as a Blocking-severity data gap — see Conclusion below.)*
+*(Forespørgelseslog bekræfter, at ClinicalTrials.gov og ICTRP-søgninger efter "Relugolix" + "nefrogen syndrom med upassende antidiurese" returnerede nul resultater pr. 2026-03-24.)*
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The prediction rests on TxGNN model output alone (Evidence Level L5), with zero clinical trials, zero literature, and no documented mechanistic pathway linking GnRH antagonism to NSIAD pathophysiology.
-- Relugolix is not marketed in Denmark and has no on-file safety/label data, so no safety baseline exists to support even exploratory use.
+*(PubMed-søgning efter "Relugolix" + "nefrogen syndrom med upassende antidiurese" returnerede nul resultater pr. 2026-03-24.)*
 
-**To proceed, the following is needed:**
-- SmPC warnings, contraindications, and interaction data (Blocking data gap — required before any S1 safety screening can occur)
-- Mechanism of action (MOA) documentation from DrugBank or equivalent source
-- A pharmacological or preclinical rationale specifically linking GnRH receptor antagonism to vasopressin V2 receptor–mediated water retention
-- Confirmation of original approved indication(s) and existing real-world safety experience, given no original indication data is currently on file
+---
+
+## Oplysninger om det danske marked
+
+Relugolix har i øjeblikket ingen markedsføringstilladelse i Danmark (0 licenser på fil; markedsstatus: Ikke markedsført). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) autoriseringsdata er tilgængelige i denne bevisspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktinformationsbog (SmPC) for sikkerhedsinformation.
+
+*(Bemærk: vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er alle uregistreret i denne bevisspakke. Dette er markeret som en blokerende datamanko — se Konklusion nedenfor.)*
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afhold**
+
+**Begrundelse:**
+- Forudsigelsen hviler kun på TxGNN-modeloutput (Bevisniveau L5), med nul kliniske forsøg, nul litteratur og ingen dokumenteret mekanistisk vej, der forbinder GnRH-antagonisme med NSIAD-patofysiologi.
+- Relugolix er ikke markedsført i Danmark og har ingen sikkerhed/etiket-data på fil, så ingen sikkerhedsbaseline eksisterer for at understøtte selv eksplorativ brug.
+
+**For at fortsætte er følgende påkrævet:**
+- SmPC-advarsler, kontraindikationer og interaktionsdata (Blokerende datamanko — påkrævet før ethvert S1-sikkerhedsscreening kan finde sted)
+- Mekanisme-af-virkning (MOA) dokumentation fra DrugBank eller tilsvarende kilde
+- En farmakologisk eller preklinisk begrundelse, der specifikt forbinder GnRH-receptorantagonisme med vasopressin V2-receptor-medieret vandretention
+- Bekræftelse af oprindelig godkendt indikation(er) og eksisterende erfaringer med sikkerhed fra virkeligheden, da ingen oprindelige indikationsdata i øjeblikket er på fil
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

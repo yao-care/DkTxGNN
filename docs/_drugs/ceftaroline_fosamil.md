@@ -29,84 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceftaroline fosamil: From Bacterial Infections to Rheumatoid Arthritis
+# Ceftaroline fosamil: Fra bakterielle infektioner til reumatoid artritis
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Ceftaroline fosamil (brand name Zinforo) is a fifth-generation cephalosporin antibiotic, approved in the EU for acute bacterial skin and skin structure infections (ABSSSI) and community-acquired bacterial pneumonia (CABP).
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with a high model confidence score of **98.20%**.
-However, this prediction is currently supported by **0 clinical trials** and **0 relevant publications** — and the mechanistic analysis strongly suggests this is a knowledge graph topology false positive rather than a genuine repurposing opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Acute bacterial skin and skin structure infections (ABSSSI); community-acquired bacterial pneumonia (CABP) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 98.20% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ceftaroline fosamil (handelsnavn Zinforo) er en femte-generations cephalosporin-antibiotikum, godkendt i EU til akutte bakterielle hud- og hudbindevevsinfektioner (ABSSSI) og samfundserhvervede bakterielle pneumonier (CABP).
+TxGNN-modellen forudsiger, at det kan være effektivt mod **reumatoid artritis**, med en høj modelsikkerhedsscore på **98.20%**.
+Denne forudsigelse understøttes imidlertid i øjeblikket af **0 kliniske forsøg** og **0 relevante publikationer** — og analysen af mekanismen tyder stærkt på, at dette er en falsk positiv inden for vidensgrafs topologi snarere end en ægte genbrugsmulighed.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, ceftaroline fosamil is a β-lactam antibiotic whose mechanism centres on inhibition of bacterial cell wall synthesis via binding to penicillin-binding proteins (PBPs) — notably PBP2a of MRSA — thereby achieving broad-spectrum bactericidal activity against Gram-positive and selected Gram-negative pathogens.
-
-Rheumatoid arthritis (RA) is an autoimmune condition driven by dysregulated T- and B-cell activation, synovial hyperplasia, and a pro-inflammatory cytokine cascade dominated by TNF-α and IL-6. There is no known pharmacological pathway by which PBP binding or cell wall synthesis inhibition would modulate autoimmune inflammation. Unlike tetracyclines or macrolides — which possess pleiotropic anti-inflammatory properties independent of their antimicrobial effects — β-lactam antibiotics have no established immunomodulatory mechanism relevant to RA pathophysiology.
-
-The most plausible explanation for this high TxGNN score is an indirect knowledge graph (KG) connection: ceftaroline nodes linked to "septic arthritis treatment" or "joint infection" are topologically proximate to RA nodes within the graph, producing an artifactual high-confidence prediction. This is a known limitation of graph-based models when infectious disease nodes share structural proximity with inflammatory joint disease nodes. The prediction should be treated as a **graph topology false positive** pending any contrary experimental evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Ceftaroline fosamil in Rheumatoid Arthritis.
+| Parameter | Værdi |
+|-----------|-------|
+| Original indikation | Akutte bakterielle hud- og hudbindevevsinfektioner (ABSSSI); samfundserhvervede bakterielle pneumonier (CABP) |
+| Forudsagt ny indikation | Reumatoid artritis |
+| TxGNN-forudsigelsesscore | 98.20% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for Ceftaroline fosamil in Rheumatoid Arthritis.
+I øjeblikket er detaljerede mekanistiske data ikke tilgængelige i denne evidenspakke. Baseret på kendt farmakologi er ceftaroline fosamil et β-lactam-antibiotikum, hvis mekanisme centrerer sig omkring hæmning af bakteriel cellevægssyntese via binding til penicillin-bindende proteiner (PBP'er) — især PBP2a fra MRSA — hvorved det opnår bred-spektrum baktericidal aktivitet mod Gram-positive og udvalgte Gram-negative patogener.
 
----
+Reumatoid artritis (RA) er en autoimmun lidelse drevet af dysreguleret T- og B-celle-aktivering, synovial hyperplasi og en pro-inflammatorisk cytokinkaskade domineret af TNF-α og IL-6. Der er ingen kendt farmakologisk vej, hvorigennem PBP-binding eller cellevægssyntesehæmning ville modulere autoimmun inflammation. I modsætning til tetracykliner eller makrolider — som har pleiotrope anti-inflammatoriske egenskaber uafhængigt af deres antimikrobielle virkninger — har β-lactam-antibiotika ingen etableret immunomodul-mekanisme relevant for RA-patofysiologi.
 
-## Denmark Market Information
-
-Ceftaroline fosamil currently holds no marketing authorisation active in the Danish market. The drug does hold a centralised EMA authorisation (Zinforo, EU/1/12/787/001-004) valid across the EU/EEA; however, it is not commercially distributed in Denmark at the time of this report.
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|-------------|-------------|---------------------|
-| EU/1/12/787 (EMA — not actively marketed in DK) | Zinforo | Powder for concentrate for solution for infusion (600 mg) | Acute bacterial skin and skin structure infections; community-acquired bacterial pneumonia in adults |
+Den mest plausible forklaring på denne høje TxGNN-score er en indirekte vidensgrafs-forbindelse (KG): ceftaroline-knuder knyttet til "behandling af septisk artritis" eller "ledinfektion" er topologisk tæt på RA-knuder inden for grafen, hvilket producerer en artifaktuelt høj-konfidensforudsigelse. Dette er en kendt begrænsning ved grafbaserede modeller, når infektionssygdomsknuder deler strukturel nærhed med inflammatoriske ledsygdomsknuder. Forudsigelsen bør behandles som en **topologi-baseret falsk positiv** i afventning af modsatrettede eksperimentelle beviser.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Detailed Danish/TFDA SmPC warnings and contraindications were not available in this Evidence Pack. Please refer to the approved Summary of Product Characteristics (SmPC) for Zinforo — available via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/zinforo) — for full safety information including hypersensitivity reactions, *Clostridioides difficile*-associated diarrhoea, haematological effects (haemolytic anaemia, neutropenia), and renal dose adjustment requirements.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for ceftaroline fosamil ved reumatoid artritis.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig for ceftaroline fosamil ved reumatoid artritis.
 
-**Rationale:**
-The TxGNN model assigns a high numerical score (98.20%), but this is almost certainly a knowledge graph topology artefact driven by proximity between infectious arthritis and inflammatory arthritis nodes — not a genuine pharmacological signal. Ceftaroline fosamil has no known mechanism relevant to autoimmune or degenerative joint disease, and the complete absence of supporting clinical trials or peer-reviewed literature confirms this assessment. Proceeding would not meet any scientific or regulatory standard for a repurposing programme.
+---
 
-**To advance beyond Hold, the following would be required:**
+## Markedsinformation for Danmark
 
-- **Mechanistic evidence**: Identification of a plausible biological mechanism linking PBP binding (or any ceftaroline off-target effect) to RA pathophysiology — currently none exists in the published literature.
-- **Experimental in vitro / in vivo data**: Demonstration of anti-inflammatory activity in validated RA models (e.g., CIA mouse model, synoviocyte assays).
-- **KG audit**: Review of the knowledge graph edge path generating this prediction to confirm or refute the suspected false-positive topology.
-- **Safety data**: Retrieval and review of the full Zinforo SmPC, including immunological effects and any post-marketing signals relevant to inflammatory conditions.
-- **Clinical context clarification**: The 2 PubMed publications retrieved (PMIDs [27530754](https://pubmed.ncbi.nlm.nih.gov/27530754/) and [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/)) concern *osteoarticular infection* management — not RA or degenerative joint disease — and do not constitute evidence for any of the predicted non-infectious indications in this pack.
+Ceftaroline fosamil har i øjeblikket ingen markedsføringstilladelse aktiv på det danske marked. Lægemidlet har en centraliseret EMA-godkendelse (Zinforo, EU/1/12/787/001-004), der er gyldig på tværs af EU/EØS; det er imidlertid ikke kommercielt distribueret i Danmark på tidspunktet for denne rapport.
 
-> **Research disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+|------|------|------|------|
+| EU/1/12/787 (EMA — ikke aktivt markedsført i DK) | Zinforo | Pulver til koncentrat til infusion (600 mg) | Akutte bakterielle hud- og hudbindevevsinfektioner; samfundserhvervede bakterielle pneumonier hos voksne |
+
+---
+
+## Sikkerhedsovervejelser
+
+Detaljerede dansk/TFDA-SmPC-advarsler og kontraindikationer var ikke tilgængelige i denne evidenspakke. Se venligst det godkendte produktresumé (SmPC) for Zinforo — tilgængeligt via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/zinforo) — for fuldstændig sikkerhedsinformation, herunder overfølsomhedsreaktioner, *Clostridioides difficile*-associeret diarré, hæmatologiske virkninger (hæmolytisk anæmi, neutropeni) og krav til nyrerelateret dosistilpasning.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-modellen tildeler en høj numerisk score (98.20%), men dette er næsten sikkert en vidensgrafs-topologi-artefakt drevet af nærhed mellem infektiøs artritis og inflammatorisk artritis-knuder — ikke et ægt farmakologisk signal. Ceftaroline fosamil har ingen kendt mekanisme relevant for autoimmun eller degenerativ ledsygdom, og den fuldstændige mangel på understøttende kliniske forsøg eller peer-reviewed litteratur bekræfter denne vurdering. Fremskridt ville ikke opfylde nogen videnskabelig eller regulatorisk standard for et genbrugsprogram.
+
+**For at gå videre fra Afvent ville følgende være nødvendigt:**
+
+- **Mekanistisk bevis**: Identifikation af en plausibel biologisk mekanisme, der forbinder PBP-binding (eller enhver off-target-virkning af ceftaroline) til RA-patofysiologi — i øjeblikket findes ingen i den udgivne litteratur.
+- **Eksperimentelle in vitro/in vivo-data**: Demonstration af anti-inflammatorisk aktivitet i validerede RA-modeller (f.eks. CIA-musemodel, synoviacyt-assays).
+- **KG-revision**: Gennemgang af kantestien i vidensgrafen, der genererer denne forudsigelse, for at bekræfte eller afvise den formodede falske-positive topologi.
+- **Sikkerhedsdata**: Hentning og gennemgang af det fulde Zinforo-SmPC, herunder immunologiske virkninger og eventuelle signaler efter markedsføring relevant for inflammatoriske tilstande.
+- **Præcisering af klinisk kontekst**: De 2 PubMed-publikationer hentet (PMID'er [27530754](https://pubmed.ncbi.nlm.nih.gov/27530754/) og [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/)) vedrører *osteoartikulær infektions*-behandling — ikke RA eller degenerativ ledsygdom — og udgør ikke bevis for nogen af de forudsagte ikke-infektiøse indikationer i denne pakke.
+
+> **Ansvarsfraskrivelse**: Denne rapport er udelukkende til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Alle lægemiddelgenbrugskandidater kræver klinisk validering før anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

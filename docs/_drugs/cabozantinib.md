@@ -29,94 +29,95 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cabozantinib: From Renal Cell Carcinoma to Liposarcoma
+# Cabozantinib: Fra nyrecellekarcinom til liposarkom
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Cabozantinib is a multi-kinase inhibitor (targeting VEGFR2, MET, AXL, and RET) globally approved for renal cell carcinoma, hepatocellular carcinoma, and medullary thyroid carcinoma, though it is not currently registered in Denmark.
-The TxGNN model predicts it may be effective for **Liposarcoma**, with **1 active Phase 2 clinical trial** and **1 Phase 1 publication** currently supporting this direction.
-While mechanistic rationale is strong, the evidence base remains at an early stage and requires further clinical validation before a formal repurposing decision can be reached.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; globally approved for renal cell carcinoma, hepatocellular carcinoma, and medullary thyroid carcinoma |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Cabozantinib er en multitarget-kinasehæmmer (der retter sig mod VEGFR2, MET, AXL og RET) godkendt globalt til behandling af nyrecellekarcinom, hepatocellulært karcinom og medulær thyroidea-karcinom, selvom det ikke er registreret i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **liposarkom**, med **1 aktivt fase 2-klinisk forsøg** og **1 fase 1-publikation**, som i øjeblikket støtter denne retning.
+Selvom den mekanistiske begrundelse er stærk, forbliver vidensgrundlaget på et tidligt stadium og kræver yderligere klinisk validering, før der kan nås til en formel ompositioneringsbeslutning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Cabozantinib is a small-molecule tyrosine kinase inhibitor with activity against multiple oncogenic targets, including VEGFR2 (vascular endothelial growth factor receptor 2), MET (hepatocyte growth factor receptor), AXL, and RET. Its anti-tumour effects are primarily mediated through two parallel mechanisms: inhibiting tumour angiogenesis via VEGFR2 blockade, and disrupting tumour-stroma signalling via MET inhibition of the HGF/MET axis — a pathway particularly important in mesenchymal tumour types.
-
-Liposarcoma, a subtype of soft tissue sarcoma (STS) arising from adipose tissue, commonly overexpresses VEGFR, MET, and PDGFR, making it molecularly susceptible to Cabozantinib's multi-target profile. The co-existence of MDM2/CDK4 amplification with elevated VEGF expression in well-differentiated and dedifferentiated liposarcoma subtypes provides an additional biological rationale for anti-angiogenic strategies. Although the formal mechanism of action data from the DrugBank record was not available at the time of this report generation, the mechanistic link between Cabozantinib's established targets and the molecular landscape of liposarcoma is well-supported by preclinical biology.
-
-The broader context of soft tissue sarcoma further strengthens this prediction: Cabozantinib has demonstrated activity across multiple STS subtypes in early-phase trials, and liposarcoma — while a distinct pathological entity — shares the same overarching biology of aberrant VEGF/MET signalling. The TxGNN knowledge graph prediction score of 99.83% reflects the strong structural connectivity between Cabozantinib's molecular targets and the liposarcoma disease node.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Phase 2 | Active, Not Recruiting | 66 | Randomised comparison of cabozantinib + ipilimumab + nivolumab vs. ipilimumab + nivolumab alone in advanced soft tissue sarcoma. Liposarcoma is included as an eligible subtype. Primary completion expected May 2026; results not yet published. |
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Ikke registreret i Danmark; globalt godkendt til nyrecellekarcinom, hepatocellulært karcinom og medulær thyroidea-karcinom |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 99.83% |
+| Bevisniveau | L3 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Phase 1 Trial | American Journal of Clinical Oncology | Phase 1 dose-finding study of neoadjuvant cabozantinib combined with concurrent radiotherapy in extremity soft tissue sarcomas. Evaluated safety of the combination given concerns about fistula/perforation risk. Establishes tolerability parameters for sarcoma use. |
+Cabozantinib er en lille-molekyle tyrosinkinasehæmmer med aktivitet mod flere oncogene mål, herunder VEGFR2 (vascular endothelial growth factor receptor 2), MET (hepatocyte growth factor receptor), AXL og RET. Dets anti-tumoraktivitet medieres primært gennem to parallelle mekanismer: inhibering af tumorangiogenese via VEGFR2-blokade og forstyrrelse af tumor-stromacellesignalering via MET-hæmning af HGF/MET-aksen — en vej, der er særlig vigtig i mesenchymale tumortyper.
 
----
+Liposarkom, en undertype af bløtdelssarkom (STS), der stammer fra fetvæv, overeksprimer almindeligvis VEGFR, MET og PDGFR, hvilket gør det molekylært modtageligt for cabozantinibs multitarget-profil. Sameksistensen af MDM2/CDK4-amplifikation med forhøjet VEGF-ekspression i velafgrænsede og dedifferentierede liposarkom-undertyper giver en yderligere biologisk begrundelse for anti-angiogenetiske strategier. Selvom de formelle mekanisme-af-virkning-data fra DrugBank-posten ikke var tilgængelige på tidspunktet for denne rapportgenerering, er det mekanistiske link mellem cabozantinibs etablerede mål og det molekylære landskab i liposarkom velstøttet af præklinisk biologi.
 
-## Cytotoxicity
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — multi-kinase inhibitor (VEGFR2, MET, AXL, RET inhibitor) |
-| Myelosuppression Risk | Low to moderate (haematological toxicity less prominent than conventional cytotoxics; neutropenia and thrombocytopenia reported at lower frequency) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Complete blood count (CBC), liver function tests (ALT, AST, bilirubin), renal function, thyroid function (TSH), blood pressure, urine protein, wound healing status |
-| Handling Protection | Standard oral kinase inhibitor precautions; cytotoxic handling protocols recommended given antineoplastic classification |
+En bredere sammenhæng omkring bløtdelssarkom styrker denne forudsigelse yderligere: Cabozantinib har demonstreret aktivitet på tværs af flere STS-undertyper i tidlige-fase-forsøg, og liposarkom — selvom det er en distinkt patologisk enhed — deler den samme overordnede biologi af aberrant VEGF/MET-signalering. TxGNN-vidensgrafs forudsigelsesscore på 99.83% afspejler den stærke strukturelle forbindelse mellem cabozantinibs molekylære mål og liposarkom-sygdomsknuden.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidence
 
-Detailed warnings, contraindications, and drug interaction data were not available in this Evidence Pack. Common class-effect concerns for VEGFR/MET inhibitors of this type include hypertension, haemorrhage, thromboembolic events, gastrointestinal perforation or fistula, hepatotoxicity, and impaired wound healing.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for Cabometyx® (cabozantinib, EMA) for comprehensive safety information, including specific warnings, contraindications, and drug interaction profiles.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-The mechanistic case for Cabozantinib in liposarcoma is biologically coherent — VEGFR/MET/PDGFR overexpression in liposarcoma directly matches the drug's established target profile — and early clinical activity in the broader soft tissue sarcoma class provides indirect supporting evidence. However, with only one active Phase 2 trial (results pending) and one Phase 1 safety publication, the evidence base remains at L3, insufficient for a definitive repurposing recommendation without further data.
-
-**To proceed, the following is needed:**
-
-- **Results from NCT05836571**: Await publication of efficacy outcomes from this randomised Phase 2 trial; liposarcoma-specific subgroup analyses would be particularly informative
-- **Formal MOA documentation**: Retrieve Cabozantinib DrugBank entry and Danish SmPC equivalents (EMA SmPC for Cabometyx®) to complete the mechanism profile and confirm target binding data
-- **Safety data for this indication**: Obtain full warning and contraindication profile; assess sarcoma-specific risks (e.g., wound healing post-surgery, GI fistula risk in abdominal disease)
-- **Liposarcoma-dedicated trial data**: Consider whether a dedicated Phase 2 trial in liposarcoma subtypes (well-differentiated, dedifferentiated, myxoid/round cell) would be warranted based on NCT05836571 outcomes
-- **Regulatory pathway assessment**: Cabozantinib is EMA-approved under centralised procedure (Cabometyx®); an off-label use application or expanded indication submission pathway should be evaluated in consultation with Laegemiddelstyrelsen if evidence strengthens
+| Forsøgsnummer | Fase | Status | Inkludering | Vigtige fund |
+|---------------|------|--------|-------------|--------------|
+| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Fase 2 | Aktivt, ikke rekrutterer | 66 | Randomiseret sammenligning af cabozantinib + ipilimumab + nivolumab versus ipilimumab + nivolumab alene hos patienter med avanceret bløtdelssarkom. Liposarkom er inkluderet som en berettiget undertype. Primær afslutning forventet maj 2026; resultater er endnu ikke offentliggjort. |
 
 ---
 
-> **Disclaimer:** This report is produced for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before clinical application. This report was generated using the DkTxGNN drug repurposing prediction system (data cutoff: 2026-04-04).
+## Litteraturevidence
+
+| PMID | År | Type | Tidsskrift | Vigtige fund |
+|------|-----|------|-----------|--------------|
+| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Fase 1-forsøg | American Journal of Clinical Oncology | Fase 1-dosisstudium af neoadjuvant cabozantinib kombineret med samtidig stråling hos ekstremitetsbløtdelssarkomer. Evaluerede sikkerhed af kombinationen givet bekymringer om fistula-/perforeringsrisiko. Etablerer tolerabilitet for sarkomforsøg. |
+
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoksicitet-klassifikation | Målrettet terapi — multitarget-kinasehæmmer (VEGFR2, MET, AXL, RET-hæmmer) |
+| Knoglemarvsundertrykkelse-risiko | Lav til moderat (hæmatologisk toksicitet mindre fremtrædende end konventionelle cytostatika; neutropeni og trombocytopeni rapporteret med lavere hyppighed) |
+| Emetogenitet-klassifikation | Lav |
+| Overvågningspunkter | Komplet blodcelle-tælling (CBC), leverfunktionstests (ALT, AST, bilirubin), nyrefunktion, thyroidea-funktion (TSH), blodtryk, urinprotein, sårheling-status |
+| Håndteringsbeskyttelse | Standard oral kinasehæmmer-forsigtighedsregler; cytostatika-håndteringsprotokoller anbefales givet antineoplastisk klassifikation |
+
+---
+
+## Sikkerhedshensyn
+
+Detaljerede advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i denne Evidence Pack. Almindelige klasseffektbetingelser for VEGFR/MET-hemmere af denne type omfatter hypertension, blødning, tromboemboliske hændelser, gastrointestinal perforation eller fistula, hepatotoksicitet og nedsat sårheling.
+
+> Se venligst det godkendte produktinformationsblad (SmPC) for Cabometyx® (cabozantinib, EMA) for omfattende sikkerhedsinformationer, herunder specifikke advarsler, kontraindikationer og lægemiddelinteraktionsprofiler.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Det mekanistiske tilfælde for cabozantinib i liposarkom er biologisk sammenhængende — VEGFR/MET/PDGFR-overekspression i liposarkom matches direkte med medicinalstoffets etablerede målprofil — og tidlig klinisk aktivitet i den bredere bløtdelssarkom-klasse giver indirekte støttende evidens. Imidlertid, med kun ét aktivt fase 2-forsøg (resultater afventer) og én fase 1-sikkerhedspublikation, forbliver vidensgrundlaget på L3, utilstrækkeligt til en definitiv ompositioneringsanbefaling uden yderligere data.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Resultater fra NCT05836571**: Afvente offentliggørelse af efficacy-resultater fra dette randomiserede fase 2-forsøg; liposarkom-specifikke undergruppe-analyser ville være særlig informativ
+- **Formelt virkningsmekanisme-dokumentation**: Hent cabozantinib DrugBank-posten og danske SmPC-ækvivalenter (EMA SmPC for Cabometyx®) for at fuldende mekanismeprofilen og bekræfte målbindingsdata
+- **Sikkerhedsdata for denne indikation**: Få den fulde advarsels- og kontraindikationsprofil; vurder sarkom-specifikke risici (f.eks. sårheling efter operation, GI-fistularis i abdominal sygdom)
+- **Liposarkom-dedikeret forsøgsdata**: Overvej, om et dedikeret fase 2-forsøg i liposarkom-undertyper (velafgrænsede, dedifferentierede, myxoide/rundcelle) ville være berettiget baseret på NCT05836571-resultater
+- **Regulatorisk vej-vurdering**: Cabozantinib er EMA-godkendt under centraliseret procedure (Cabometyx®); en off-label-brugsansøgning eller udvidet indikation-indsendelsesvej bør vurderes i samråd med Lægemiddelstyrelsen, hvis evidensen styrkes
+
+---
+
+> **Ansvarsfraskrivelse:** Denne rapport er produceret til forskningsformål alene og udgør ikke lægeligt råd. Alle medicinalstoffers ompositioneringskandidater kræver prospektiv klinisk validering før klinisk anvendelse. Denne rapport blev genereret ved hjælp af DkTxGNN-systemet til forudsigelse af lægemiddelomdisponering (dataskærm: 2026-04-04).
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

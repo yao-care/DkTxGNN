@@ -29,85 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Besilesomab: From Bone/Joint Infection Imaging to Diabetic Cataract
+# Besilesomab: Fra Ben-/Ledinfektionsbilledgivning til Diabetisk Katarakt
 
-## One-Sentence Summary
+## Ét-sætningers Sammenfatning
 
-Besilesomab (Scintimun®) is a radiolabelled murine Fab' antibody fragment targeting the NCA-90 antigen on granulocytes, approved by the EMA for diagnostic scintigraphic imaging of suspected bone and joint infections (osteomyelitis).
-The TxGNN model predicts it may be effective for **Diabetic Cataract**, with a high model confidence score — however, **no clinical trials and no published literature** currently support this direction, and mechanistic analysis reveals fundamental incompatibility between the drug's target biology and cataract pathophysiology.
+Besilesomab (Scintimun®) er et radiomærket murint Fab'-antistofsfragment rettet mod NCA-90-antigenet på granulocytter, godkendt af EMA til diagnostisk szintigrafisk billedbehandling af mistænkt ben- og ledinfektioner (osteomyelitis).
+TxGNN-modellen forudsiger, at det kan være effektivt til **Diabetisk katarakt** med en høj modelsikkerhedsscore — imidlertid understøttes denne retning **ikke af nogen kliniske forsøg og ikke af publiceret litteratur**, og mekanistisk analyse afslører fundamental uforenelighed mellem lægemidlets målbiologi og kataraktpatofysiologi.
 
 ---
 
-## Quick Overview
+## Hurtigt Overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Scintigraphic imaging of suspected bone and joint infections (osteomyelitis) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.52% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Original Indikation | Szintigrafisk billedbehandling af mistænkt ben- og ledinfektioner (osteomyelitis) |
+| Forudsagt Ny Indikation | Diabetisk katarakt |
+| TxGNN Forudsigelsesscore | 98.52% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | **Vent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne Forudsigelse Rimelig?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological information, Besilesomab is a technetium-99m-labelled Fab' fragment (~48 kDa) of the murine monoclonal antibody BW 250/183. It binds specifically to NCA-90 (Non-Specific Cross-reacting Antigen 90), a carcinoembryonic antigen family member expressed on the surface of granulocytes. Following intravenous injection, it accumulates at sites of granulocyte infiltration — particularly bone and joint infections — enabling scintigraphic localisation. Its approved clinical role is entirely diagnostic, not therapeutic.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i Evidence Pack. Baseret på kendt farmakologisk information er Besilesomab et technetium-99m-mærket Fab'-fragment (~48 kDa) af det murine monoklonale antistof BW 250/183. Det bindes specifikt til NCA-90 (Non-Specific Cross-reacting Antigen 90), et medlem af karcinoembryonal-antigen-familien udtrykt på overfladen af granulocytter. Efter intravenøs indgivelse akkumuleres det på steder med granulocytinfiltration — særligt ben- og ledinfektioner — hvilket muliggør szintigrafisk lokalisering. Dets godkendte kliniske rolle er udelukkende diagnostisk, ikke terapeutisk.
 
-Diabetic cataract arises from a distinct and unrelated pathophysiological cascade: chronic hyperglycaemia drives the polyol pathway (aldose reductase-mediated sorbitol accumulation), advanced glycation of lens crystallin proteins, and oxidative stress within lens epithelial cells, collectively causing progressive lens opacification. The relevant therapeutic targets for cataract intervention are aldose reductase inhibition, antioxidant defence, and protein aggregation prevention — none of which intersect with granulocyte surface antigen biology.
+Diabetisk katarakt opstår fra en distinkt og uafhængig patofysiologisk kaskade: kronisk hyperglykæmi fremdriver polyol-stien (aldose-reduktase-medieret sorbitol-akkumulering), avanceret glykation af lens-krystallinproteiner og oxidativt stress inden for linsens epithelceller, som samlet forårsager progressiv linseopakitet. De relevante terapeutiske mål til katarakt-intervention er aldose-reduktase-inhibition, antioxidant-forsvar og forebyggelse af proteinaggregation — ingen af hvilke skærer sig med granulocytoverflade-antigen-biologi.
 
-There is furthermore a pharmacokinetic barrier: as a large antibody fragment (~48 kDa), Besilesomab is very unlikely to penetrate the aqueous humour–lens barrier in concentrations relevant to lens pathology. The TxGNN model's high confidence score here most likely reflects a graph-embedding artefact rather than a genuine biological signal. The internal mechanistic review in the Evidence Pack explicitly flags this prediction as **[Incompatible]** across all 10 top-ranked cataract subtypes.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Der er derudover en farmakokinetisk barriere: Som et stort antistofsfragment (~48 kDa) er det meget usandsynligt, at Besilesomab penetrerer aqueous humour-linsens barriere i koncentrationer relevante til linsepatoloji. TxGNN-modellens høje sikkerhedsscore skyldes her mest sandsynligt en graf-embedding-artefakt snarere end et ægte biologisk signal. Den interne mekanistiske gennemgang i Evidence Pack markerer eksplicit denne forudsigelse som **[Uforenelig]** på tværs af alle top 10 højest rangerede kataraktsubtyper.
 
 ---
 
-## Literature Evidence
+## Bevis fra Kliniske Forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Besilesomab has no national marketing authorisations registered with the Danish Medicines Agency (Lægemiddelstyrelsen), and it is not currently on the Danish market.
-
-> **Note for reviewers:** Besilesomab is marketed as **Scintimun®** under a centralised EMA marketing authorisation (EU/1/10/631/001) for adults with suspected bone/joint infections. It is a radiopharmaceutical requiring specialist nuclear medicine facilities, which may explain its limited national-level registration in smaller markets. Any potential repurposing pathway in Denmark would first require addressing this registration gap.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Bevis fra Litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for Scintimun® for complete safety information. No drug interaction data was identified in the current Evidence Pack query.
-
-> **Additional context:** As a diagnostic radiopharmaceutical, Besilesomab is administered as a single intravenous dose under controlled nuclear medicine conditions. Standard radiopharmaceutical precautions apply (radiation protection, pregnancy contraindication, handling per ALARA principles). These considerations are largely irrelevant to the proposed cataract indication, further underscoring the implausibility of this repurposing hypothesis.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Information om Dansk Marked
 
-**Decision: Hold**
+Besilesomab har ingen nationale markedsføringstilladelser registreret hos Lægemiddelstyrelsen, og det er i øjeblikket ikke på det danske marked.
 
-**Rationale:**
-The TxGNN model's prediction score is high (98.52%), but this is currently unsupported by any clinical trial, observational study, or published literature. More critically, the mechanistic analysis identifies a fundamental biological incompatibility: Besilesomab's granulocyte NCA-90 targeting mechanism has no known intersection with lens crystallin pathology, polyol pathway dysregulation, or oxidative stress mechanisms that drive diabetic cataract. Additionally, the drug is not marketed in Denmark, has no approved therapeutic indication anywhere, and is a diagnostic-only radiopharmaceutical. The risk-benefit calculus for pursuing this specific repurposing hypothesis is unfavourable at this stage.
-
-**To proceed, the following would be needed:**
-
-- **Mechanistic hypothesis generation:** Identify any plausible biological link between granulocyte/innate immune activity and lens opacification in diabetes (e.g., inflammatory infiltration in diabetic ocular tissue) before further investment
-- **Preclinical feasibility data:** In vitro or animal model evidence that Besilesomab or its target (NCA-90/CEA family) modulates cataract-relevant endpoints
-- **Model audit:** Investigate why TxGNN assigns top-10 predictions exclusively to cataract subtypes for this drug — this cluster pattern may indicate a graph topology artefact (e.g., shared node neighbours in the knowledge graph) rather than biological signal
-- **MOA data retrieval:** Query DrugBank API and EMA SmPC to formally document mechanism of action and resolve the current data gap (DG002)
-- **Safety data retrieval:** Obtain full SmPC warnings and contraindications from the EMA product page to resolve DG001 before any clinical feasibility assessment
+> **Bemærkning for anmeldere:** Besilesomab markedsføres som **Scintimun®** under en centraliseret EMA-markedsføringstilladelse (EU/1/10/631/001) til voksne med mistænkt ben-/ledinfektioner. Det er et radiofarmaceutikum, der kræver specialiserede atomlægemiddelfaciliteter, hvilket kan forklare dets begrænsede nationale registrering i mindre markeder. Enhver potentiel omsætningsvendig vej i Danmark ville først kræve at håndtere denne registreringskløft.
 
 ---
 
-*This report is generated for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application. Data cut-off: 2026-04-04.*
+## Sikkerhedsmæssige Overvejelser
+
+Se venligst den godkendte Produktinformationsfiche (SmPC) for Scintimun® for fuldstændig sikkerhedsinformation. Ingen lægemiddelinteraktionsdata blev identificeret i den aktuelle Evidence Pack-forespørgsel.
+
+> **Yderligere kontekst:** Som et diagnostisk radiofarmaceutikum administreres Besilesomab som en enkelt intravenøs dosis under kontrollerede atomlægemiddelforhold. Standard radiofarmaceutiske forholdsregler gælder (strålingsbeskyttelse, graviditetskkontraindikation, håndtering efter ALARA-principper). Disse overvejelser er stort set irrelevante for den foreslåede katarakt-indikation, hvilket yderligere understreger implausibiliteten af denne omsætningshypotese.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+TxGNN-modellens forudsigelsesscore er høj (98.52%), men dette understøttes i øjeblikket ikke af nogen klinisk forsøg, observationsstudie eller publiceret litteratur. Mere kritisk identificerer den mekanistiske analyse en fundamental biologisk uforenelighed: Besilesomabs granulocyt NCA-90-målretningmekanisme har ingen kendt skæring med lens-krystallin-patologi, polyol-vejsdysregulering eller oxidativt stress-mekanismer, der driver diabetisk katarakt. Derudover er lægemidlet ikke markedsført i Danmark, har ingen godkendt terapeutisk indikation noget sted, og er et diagnostik-kun radiofarmaceutikum. Risiko-fordel-kalkulationen for at forfølge denne specifikke omsætningshypotese er ugunstig på dette stadium.
+
+**For at fortsætte ville følgende være nødvendige:**
+
+- **Mekanistisk hypotesedannelse:** Identificer enhver plausibel biologisk forbindelse mellem granulocyt/medfødt immunitet og linseopakitet ved diabetes (f.eks. inflammatorisk infiltration i diabetisk øjensvæv), før yderligere investering
+- **Præklinisk gennemførlighedsdata:** In vitro eller dyremodel-bevis for, at Besilesomab eller dets mål (NCA-90/CEA-familie) modulerer katarakt-relevante målpunkter
+- **Modelaudit:** Undersøg hvorfor TxGNN tildeler top-10-forudsigelser udelukkende til kataraktsubtyper for dette lægemiddel — dette klyngmønster kan indikere en graftopologi-artefakt (f.eks. delte knudenaboer i vidensgrafekn) snarere end biologisk signal
+- **MOA-datahentning:** Forespørg DrugBank-API og EMA SmPC for at formelt dokumentere virkningsmekanisme og løse det aktuelle datahul (DG002)
+- **Sikkerhedsdata-hentning:** Hent fuldstændige SmPC-advarsler og kontraindikationer fra EMA-produktsiden for at løse DG001, før nogen klinisk gennemførlighedsvurdering
+
+---
+
+*Denne rapport er genereret til forskningsreference alene og udgør ikke medicinsk rådgivning. Alle lægemiddel-omsætningskandidater kræver klinisk validering før ethvert program. Datakutoff: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,102 +29,103 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dienogest: From Endometriosis to Amenorrhea
+# Dienogest: Fra endometriose til amenorre
 
-## One-Sentence Summary
+## Enlineopsummering
 
-Dienogest (Visanne®) is a fourth-generation synthetic progestin with established clinical use for **endometriosis** in numerous countries outside Denmark.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **4 clinical trials** and **6 publications** retrieved in relation to this direction.
-⚠️ However, a critical mechanistic contradiction is identified: dienogest's core pharmacological action actively *induces* amenorrhoea as a therapeutic endpoint — strongly suggesting this high-scoring prediction is an algorithmic false positive rather than a genuine repurposing opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Endometriosis (inferred from clinical context and trial data; no Danish marketing authorisation on record) |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Dienogest (Visanne®) er en fjerdegenerations syntetisk progestin med etableret klinisk verwendelse til **endometriose** i adskillige lande uden for Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **amenorre**, med **4 kliniske forsøg** og **6 publikationer** hentet i relation til denne retning.
+⚠️ Imidlertid er en kritisk mekanistisk modsætning identificeret: dienogests kernefarmakologiske virkning inducerer aktivt amenorre som et terapeutisk endepunkt — hvilket stærkt foreslår, at denne højt scorende prognose er et algoritmisk falsk positivt snarere end en genuine repurposing-mulighed.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-> ⚠️ **Mechanistic Contradiction Warning — Likely Algorithmic False Positive**
-
-Detailed mechanism of action data is not available from DrugBank for this assessment. However, based on established pharmacology, dienogest is a fourth-generation progestin with highly selective progesterone receptor agonist activity and no oestrogenic activity. Its core mechanism for treating endometriosis involves suppressing LH pulsatile secretion, reducing ovarian oestradiol production, and inducing endometrial atrophy via the hypothalamic-pituitary-ovarian (HPO) axis. Clinically, the **amenorrhoea rate serves as a primary efficacy endpoint** in endometriosis trials — amenorrhoea is the intended pharmacological consequence of treatment, not a disease state that dienogest is designed to reverse.
-
-Positioning dienogest as a treatment for amenorrhoea (disease) therefore creates a fundamental mechanistic contradiction: **the drug causes amenorrhoea; it does not treat it**. The TxGNN high prediction score (0.9971) most plausibly arises from dense knowledge graph connectivity between dienogest, the HPO axis, and menstrual cycle nodes — a well-recognised source of non-specific, false-positive scoring in graph-based models.
-
-The only theoretically indirect link would involve evaluation of menstrual recovery *after* cessation of dienogest in women with endometriosis-related secondary menstrual dysfunction. However, this represents a post-treatment pharmacokinetic observation, not a direct therapeutic mechanism targeting amenorrhoea as a primary condition. No clinical programme has been designed around this hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-> All retrieved trials enrolled endometriosis patients. Amenorrhoea appears in these studies exclusively as a reported side effect, tolerability endpoint, or as a *baseline pharmacological condition* intentionally induced by dienogest — not as the target disease.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | Recruiting | 290 | Multicenter open-label RCT comparing Indinol Forto® 200 mg vs Visanne® 2 mg (dienogest) for endometriosis; non-inferiority design; amenorrhoea likely captured as a tolerability measure |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A (Observational) | Completed | 895 | Prospective observational cohort of Visanne® in Asian women with endometriosis across routine clinical settings; quality of life as primary endpoint; amenorrhoea rate documented as secondary safety/tolerability item |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A (Observational) | Completed | 968 | Real-world observational study of dienogest in endometriosis clinical practice; evaluated symptom control and long-term treatment outcomes; amenorrhoea recorded as a common adverse event |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Active, not recruiting | 138 | Compares transdermal oestradiol add-back (with dienogest vs drospirenone) in endometriosis; study design explicitly *presupposes* dienogest-induced amenorrhoea as the pharmacological baseline state, then adds oestradiol to mitigate hypoestrogenic side effects — this further confirms dienogest as an amenorrhoea *inducer*, not a treatment |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Endometriose (udledt fra klinisk kontekst og forsøgsdata; ingen dansk markedsføringstilladelse registreret) |
+| Forudsagt ny indikation | Amenorre (sygdom) |
+| TxGNN-prognosescore | 99.71% |
+| Evidensniveau | L3 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+> ⚠️ **Advarsel om mekanistisk modsætning — Sandsynligvis algoritmisk falsk positivt**
+
+Detaljeret mekanisme-af-virkning-data er ikke tilgængelig fra DrugBank til denne vurdering. Baseret på etableret farmakologi er dienogest imidlertid en fjerdegenerations progestin med højt selektiv progesteronreceptor-agonistaktivitet og ingen østrogenisk aktivitet. Dens kernemekanisme for behandling af endometriose involverer undertrykkelse af LH-pulsatil sekretion, reducering af ovariål østradiolproduktion og inducering af endometrial atrofi via hypotalamisk-hypofysær-ovarial (HPO) aksen. Klinisk tjener **amenorre-raten som et primært effektivitetsendepunkt** i endometriose-forsøg — amenorre er den påtænkte farmakologiske konsekvens af behandling, ikke en sygdomstilstand, som dienogest er designet til at reversere.
+
+Positionering af dienogest som behandling for amenorre (sygdom) skaber således en grundlæggende mekanistisk modsætning: **stoffet forårsager amenorre; det behandler det ikke**. TxGNN højprognosescoren (0.9971) stammer mest plausibelt fra tæt vidensgrafikonnektivitet mellem dienogest, HPO-aksen og menstruationscyklus-noder — en velkendt kilde til uspecifik, falsk-positiv scoring i grafbaserede modeller.
+
+Den eneste teoretisk indirekte forbindelse ville involvere vurdering af menstruationsgenfinding *efter* ophør med dienogest hos kvinder med endometriose-relateret sekundær menstruationsdysfunktion. Imidlertid repræsenterer dette en post-behandlings farmakokinetisk observation, ikke en direkte terapi mekanisme rettet mod amenorre som en primær tilstand. Intet klinisk program er designet omkring denne hypotese.
+
+---
+
+## Evidens fra kliniske forsøg
+
+> Alle hentet forsøg rekrutterede endometriose-patienter. Amenorre optræder i disse studier udelukkende som en rapporteret bivirkning, tolerabilitetendepunkt eller som en *baseline farmakologisk tilstand* bevidst induceret af dienogest — ikke som målsygdommen.
+
+| Forsøgsnummer | Fase | Status | Rekruttering | Vigtige fund |
+|---------|------|--------|------|---------|
+| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Fase 3 | Rekrutterer | 290 | Multicetralt åbent-label RCT sammenlignende Indinol Forto® 200 mg vs Visanne® 2 mg (dienogest) til endometriose; ikke-mindreværdigheds-design; amenorre sandsynligvis fanget som et tolerabilitetsmål |
+| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A (Observationel) | Afsluttet | 895 | Prospektivt observationelt kohorte af Visanne® hos asiatiske kvinder med endometriose på tværs af rutinekliniske indstillinger; livskvalitet som primært endepunkt; amenorre-rate dokumenteret som sekundært sikkerhed/tolerabilitetselement |
+| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A (Observationel) | Afsluttet | 968 | Virkeligheds-observationelt studie af dienogest i endometriose-klinisk praksis; evaluerede symptomkontrol og langsigtet behandlingsresultater; amenorre registreret som en almindelig bivirkning |
+| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Aktivt, ikke rekrutterer | 138 | Sammenligner transdermal østradiol add-back (med dienogest vs drospirenon) i endometriose; studie-design forudsætter eksplicit *dienogest-induceret amenorre som den farmakologiske baseline-tilstand, og tilføjer derefter østradiol for at mindske hypoøstrogeniske bivirkninger — dette bekræfter yderligere dienogest som en amenorre-*inducer*, ikke en behandling |
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Vigtige fund |
 |------|------|------|---------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic Review + Bayesian Analysis | BMC Pharmacology & Toxicology | Comprehensive analysis of adverse effects of dienogest in endometriosis and adenomyosis; amenorrhoea confirmed as the predominant reported pharmacological effect, consistent with its mechanism of action |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Narrative Review | Reviews in Endocrine & Metabolic Disorders | Reviews hormonal management of endometriosis; confirms oestrogen dependency and progesterone resistance as key pathogenic factors; describes HPO axis suppression by dienogest as the central therapeutic mechanism |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Pharmacological / Mechanistic Study | European Journal of Contraception & Reproductive Health Care | Demonstrates high inhibition ratio and transformation index of dienogest 2 mg; supports induction of amenorrhoea and a hypoestrogenic milieu as the intended pharmacological goal in endometriosis management |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospective Cohort | Reproductive Sciences | Long-term efficacy and safety of dienogest in ovarian endometrioma (N=514, 7 university hospitals); amenorrhoea rate and endometrioma recurrence evaluated as key outcomes at >12 months of treatment |
-| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case Report | Medicine | Case report of ovarian granulosa cell tumour in a PCOS patient; tangentially related to ovarian hormone physiology but provides no evidence for dienogest use in amenorrhoea |
-| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review / Imaging Study | Journal of Pediatric and Adolescent Gynecology | Advanced 3D and VR visualisation techniques for Müllerian anomalies; addresses structural causes of amenorrhoea but contains no data relevant to dienogest as a pharmacological intervention |
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematisk oversigt + Bayesian analyse | BMC Pharmacology & Toxicology | Omfattende analyse af bivirkninger af dienogest i endometriose og adenomyose; amenorre bekræftet som den predominante rapporterede farmakologiske effekt, konsistent med dens virkningsmekanisme |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Narrativ oversigt | Reviews in Endocrine & Metabolic Disorders | Gennemgår hormonel behandling af endometriose; bekræfter østrogenafhængighed og progesteronresistens som vigtige patogeniske faktorer; beskriver HPO-akses undertrykkelse af dienogest som den centrale terapeutiske mekanisme |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Farmakologisk / mekanistisk studie | European Journal of Contraception & Reproductive Health Care | Demonstrerer høj inhibitionsforhold og transformationsindeks af dienogest 2 mg; understøtter inducering af amenorre og et hypoøstrogenisk miljø som det påtænkte farmakologiske formål i endometriose-behandling |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospektivt kohorte | Reproductive Sciences | Langsigtet effektivitet og sikkerhed af dienogest i ovarial endometrioma (N=514, 7 universitetes hospitaler); amenorre-rate og endometrioma-recidiv evalueret som vigtige resultater ved >12 måneders behandling |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Sag rapport | Medicine | Sag rapport om ovarial granulosacelle-tumor hos en PCOS-patient; tangentielt relateret til ovarial hormonalfysiologi, men giver ingen evidens for dienogest-brug i amenorre |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Oversigt / Imaging-studie | Journal of Pediatric and Adolescent Gynecology | Avanceret 3D- og VR-visualiseringstekniker for Müllerianske anomalier; behandler strukturelle årsager til amenorre, men indeholder ingen data relevant for dienogest som farmakologisk intervention |
 
 ---
 
-## Denmark Market Information
+## Oplysninger om det danske marked
 
-Dienogest is currently **not authorised for sale in Denmark**. No marketing authorisations have been registered with the Danish Medicines Agency (Lægemiddelstyrelsen), and the product has no market presence.
+Dienogest er i øjeblikket **ikke autoriseret til salg i Danmark**. Ingen markedsføringstilladelser er registreret hos Lægemiddelstyrelsen, og produktet har ingen markedstilstedeværelse.
 
-For reference, dienogest (as Visanne® 2 mg tablets, Bayer AG) holds marketing authorisation in Germany and multiple other EU member states, and has been approved for endometriosis in Japan, South Korea, and Australia, among others. Any use in Denmark would currently require a named-patient or compassionate use application to Lægemiddelstyrelsen.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) — for example, the German or EMA-registered Visanne® SmPC — for full safety information.
-
-Warnings, contraindications, and drug interaction data specific to the Danish regulatory context were not available for this assessment. Clinicians should note that progestins as a class carry class-specific considerations including thromboembolic risk in relevant patient populations, effects on bone mineral density with prolonged use, and potential mood-related adverse effects.
+Som reference har dienogest (som Visanne® 2 mg tabletter, Bayer AG) markedsføringstilladelse i Tyskland og adskillige andre EU-medlemsstater og er godkendt til endometriose i Japan, Sydkorea og Australien blandt andet. Enhver brug i Danmark ville i øjeblikket kræve en navngivet-patient- eller medfølende brugsansøgning til Lægemiddelstyrelsen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsmæssige overvejelser
 
-**Decision: Hold**
+Se venligst det godkendte produktinformationsblad (SPC) — for eksempel det tyske eller EMA-registrerede Visanne® SPC — for fuld sikkerhedsinformation.
 
-**Rationale:**
-The TxGNN prediction of amenorrhoea as a new indication for dienogest is assessed as a **high-confidence algorithmic false positive**. Dienogest's established pharmacological mechanism *causes* amenorrhoea as a therapeutic outcome in endometriosis management; there is no biological or clinical basis for its use as a treatment for amenorrhoea as a primary disease. All four retrieved clinical trials and the most directly relevant literature confirm this reverse relationship. The prediction score likely reflects non-specific HPO-axis network connectivity in the TxGNN knowledge graph rather than a genuine drug–disease therapeutic relationship.
-
-**To proceed, the following is needed:**
-
-- **Mechanistic clarification**: Define whether any specific amenorrhoea subtype exists (e.g., anovulatory amenorrhoea secondary to chronic oestrogen excess) where progestogenic activity could theoretically restore cycling — and confirm this is distinct from dienogest's suppressive mechanism
-- **MOA data retrieval**: Obtain complete DrugBank MOA entry for dienogest, including progesterone receptor subtype (PRA/PRB) selectivity and downstream endometrial signalling data
-- **Safety data retrieval**: Download and parse the Visanne® SmPC (Bayer AG) or the TFDA package insert to complete the safety profiling, including contraindications and key warnings
-- **Targeted literature search**: Conduct a focused PubMed search for progestin therapy specifically indicated for amenorrhoea treatment (not endometriosis management) to identify any precedent
-- **False positive flagging**: Consider categorising this prediction as a graph-artifact false positive in the TxGNN output pipeline to prevent recurrence in future runs; the amenorrhoea–progestin node connection should be annotated with directionality (drug *induces* condition, not *treats* it)
+Advarsler, kontraindikationer og lægemiddelinteraktionsdata specifikt for den danske reguleringsmæssige kontekst var ikke tilgængelige til denne vurdering. Klinikere skal bemærke, at progestiner som en klasse bærer klassespecifikke overvejelser, herunder tromboembolisk risiko i relevante patientpopulationer, virkninger på knoglemineral-densitet med længerevarende brug og potentielle humør-relaterede bivirkninger.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before any therapeutic application. Data cutoff: 2026-04-05.*
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-prognosen for amenorre som en ny indikation for dienogest vurderes som et **højpålideligt algoritmisk falsk positivt**. Dienogests etablerede farmakologiske mekanisme *forårsager* amenorre som et terapeutisk resultat i endometriose-behandling; der er intet biologisk eller klinisk grundlag for dets brug som behandling for amenorre som en primær sygdom. Alle fire hentet kliniske forsøg og den mest direkte relevant litteratur bekræfter dette omvendte forhold. Prognosescoren stammer sandsynligvis fra uspecifik HPO-akses netværksforbindelse i TxGNN-vidensgrafen snarere end et genuin drug-disease-terapeutisk forhold.
+
+**For at fortsætte kræves følgende:**
+
+- **Mekanistisk præcisering**: Definer, hvorvidt en specifik amenorre-undertype eksisterer (f.eks. anovulatorisk amenorre sekundær til kronisk østrogenoverskud), hvor progestogen aktivitet teoretisk kunne gendanne cykling — og bekræft, at dette er forskelligt fra dienogests undertrykkende mekanisme
+- **MOA-datahentning**: Indhent komplette DrugBank MOA-indgang for dienogest, herunder progesteronreceptor-subtype (PRA/PRB) selektivitet og nedstrømssignalering i endometrium
+- **Sikkerhedsdatahentning**: Download og tolkning af Visanne® SPC (Bayer AG) eller TFDA-pakkeseddel for at fuldføre sikkerhedsprofilering, herunder kontraindikationer og vigtige advarsler
+- **Målrettet litteratursøgning**: Udfør en fokuseret PubMed-søgning for progestin-terapi specifikt indiceret til amenorre-behandling (ikke endometriose-behandling) for at identificere eventuelle præcedenser
+- **Falsk-positivt flag**: Overvej kategorisering af denne prognose som et graft-artefakt falsk positivt i TxGNN-outputpipeline for at forhindre gentagelse i fremtidige kørsler; amenorre-progestin-knude-forbindelsen bør annoteres med retningsbestemthed (drug *inducerer* tilstand, ikke *behandler* den)
+
+---
+
+*Denne rapport genereres til forskningsformål udelukkende og udgør ikke medicinsk rådgivning. Alle drug repurposing-kandidater kræver prospektiv klinisk validering før enhver terapeutisk anvendelse. Data-afskæring: 2026-04-05.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

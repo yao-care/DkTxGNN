@@ -29,90 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ripretinib: From Original Indication (Data Pending) to Multiple Endocrine Neoplasia
+# Ripretinib: Fra oprindelig indikation (data afventes) til multipel endokrin neoplasi
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-> Ripretinib (DrugBank DB14840) is not currently marketed in Denmark, and its original approved indication is not available in this evidence pack.
-> The TxGNN model's top-ranked prediction is **Multiple Endocrine Neoplasia (MEN)**, with a prediction score of **98.84%**,
-> but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags a weak mechanistic link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No data available (not registered in Denmark; no original indication text provided) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 98.84% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Ripretinib (DrugBank DB14840) markedsføres ikke i øjeblikket i Danmark, og dets oprindelige godkendte indikation er ikke tilgængelig i denne bevismappe.
+> TxGNN-modellens øverst rangerede forudsigelse er **multipel endokrin neoplasi (MEN)**, med en forudsigelsesscore på **98.84%**,
+> men dette understøttes af **0 kliniske forsøg** og **0 publikationer**, og modellens egen begrundelse påpeger en svag mekanistisk forbindelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data for ripretinib is not available in this evidence pack (marked as a data gap, severity: High). What is available is the model's own rationale text, which identifies ripretinib as a **switch-control KIT/PDGFRA tyrosine kinase inhibitor**.
-
-Multiple Endocrine Neoplasia (particularly MEN2) is primarily driven by **RET** mutations, not KIT/PDGFRA — a different receptor tyrosine kinase branch. The evidence pack's own rationale for this prediction explicitly states there is no direct target overlap between ripretinib's known pharmacology and MEN's driver gene, and that the prediction is based purely on TxGNN knowledge-graph embedding similarity, with no supporting trial or literature evidence.
-
-Notably, several other TxGNN-ranked candidates for this drug (malignant catarrh, infectious bovine rhinotracheitis) are **veterinary/bovine diseases**, not human indications — suggesting disease-ontology noise in the underlying knowledge graph for this candidate. This further lowers confidence that the raw ranking reflects a biologically meaningful signal for ripretinib specifically, and reinforces treating the MEN prediction as hypothesis-generating only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|----------|
+| Oprindelig indikation | Ingen data tilgængelige (ikke registreret i Danmark; ingen tekst om oprindelig indikation angivet) |
+| Forudsagt ny indikation | Multipel endokrin neoplasi |
+| TxGNN forudsigelsesscore | 98.84% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om ripretinibs virkningsmekanisme er ikke tilgængelige i denne bevismappe (markeret som et datakløft, alvorlighed: Høj). Det, der er tilgængeligt, er modellens eget rationale, som identificerer ripretinib som en **switch-control KIT/PDGFRA tyrosinkinasehæmmer**.
 
----
+Multipel endokrin neoplasi (især MEN2) er primært drevet af **RET**-mutationer, ikke KIT/PDGFRA — en anden gren af receptortyrosinkinaser. Bevismappe-rationalets egen forklaring til denne forudsigelse angiver eksplicit, at der ikke er noget direkte target-overlap mellem ripretinibs kendt farmakologi og MEN's driver-gen, og at forudsigelsen udelukkende er baseret på TxGNN knowledge-graph embedding-lighed uden understøttende forsøgs- eller litteraturbevis.
 
-## Denmark Market Information
-
-Ripretinib is not currently marketed in Denmark. No marketing authorisations (national or centralised/EMA) are on record in this evidence pack.
+Bemærkelsesværdigt er det, at flere andre TxGNN-rangerede kandidater for dette lægemiddel (ondartede katarrer, infektiøs bovint rhinotracheitis) er **veterinær-/kvæglidelser**, ikke humane indikationer — hvilket tyder på sygdomsontologi-støj i den underliggende knowledge graph for denne kandidat. Dette sænker yderligere tilliden til, at den rå rangering afspejler et biologisk meningsfuldt signal for ripretinib specifikt, og forstærker behandlingen af MEN-forudsigelsen som alene hypotesegenererende.
 
 ---
 
-## Cytotoxicity
+## Evidens fra kliniske forsøg
 
-Ripretinib is characterized in the evidence pack's rationale as a KIT/PDGFRA switch-control tyrosine kinase inhibitor, consistent with a targeted (non-classical-cytotoxic) small-molecule anticancer agent.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (KIT/PDGFRA tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: regulatory warnings/contraindications data (e.g. TFDA/SmPC labelling) are flagged as a **blocking data gap** in this evidence pack and must be obtained before any safety evaluation can proceed.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Ripretinib markedsføres ikke i øjeblikket i Danmark. Ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er registreret i denne bevismappe.
 
-**Rationale:**
-- The top-ranked predicted indication (MEN) has zero clinical trial or literature support, an evidence level of L5 (model prediction only), and the model's own rationale identifies a weak/unconfirmed mechanistic link (RET-driven disease vs. a KIT/PDGFRA-targeted drug). The drug is also not currently marketed in Denmark, and core safety labelling data is missing (blocking gap).
+---
 
-**To proceed, the following is needed:**
-- Ripretinib's official mechanism of action and original approved indication (currently a data gap)
-- Danish/EU SmPC warnings, contraindications, and precautions (currently a blocking data gap — required before any safety evaluation)
-- Independent mechanistic or preclinical validation of a RET/KIT-PDGFRA connection before pursuing MEN as a repurposing hypothesis
-- Re-screening of the full TxGNN candidate list for this drug to filter out non-human (veterinary) disease entries before further evaluation
+## Cytotoxicitet
+
+Ripretinib er karakteriseret i bevismappe-rationalets beskrivelse som en KIT/PDGFRA switch-control tyrosinkinasehæmmer, konsistent med en målrettet (ikke klassisk-cytotoksisk) småmolekyle-anticancer-agent.
+
+| Emne | Indhold |
+|------|----------|
+| Cytotoxicitetsklassifikation | Målrettet terapi (KIT/PDGFRA tyrosinkinasehæmmer) |
+| Risiko for myelosuppression | Se venligst resume af produktegenskaber (SmPC) advarsler og forholdsregler |
+| Emetogenicitetsklassifikation | Se venligst resume af produktegenskaber (SmPC) advarsler og forholdsregler |
+| Monitorerings-elementer | Se venligst resume af produktegenskaber (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se venligst resume af produktegenskaber (SmPC) advarsler og forholdsregler |
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte resume af produktegenskaber (SmPC) for sikkerhedsinformation. Bemærk: regulatoriske advarsler/kontraindikation-data (f.eks. TFDA/SmPC-mærkning) er markeret som et **blokerende datakløft** i denne bevismappe og skal indhentes før enhver sikkerhedsvurdering kan fortsætte.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+- Den øverst rangerede forudsagt indikation (MEN) har nul kliniske forsøgs- eller litteraturunderstøttelse, et bevisniveau på L5 (modelforudsigelse alene), og modellens egen begrundelse identificerer en svag/ubekræftet mekanistisk forbindelse (RET-drevet sygdom vs. et KIT/PDGFRA-målrettet lægemiddel). Lægemidlet markedsføres heller ikke i øjeblikket i Danmark, og vigtige sikkerhedsdata fra mærkning mangler (blokerende kløft).
+
+**For at fortsætte er følgende nødvendig:**
+- Ripretinibs officielle virkningsmekanisme og oprindelig godkendt indikation (i øjeblikket et datakløft)
+- Danske/EU SmPC-advarsler, kontraindikationer og forholdsregler (i øjeblikket et blokerende datakløft — påkrævet før nogen sikkerhedsvurdering)
+- Uafhængig mekanistisk eller præ-klinisk validering af en RET/KIT-PDGFRA-forbindelse før forfølgelse af MEN som en re-indikation-hypotese
+- Genskanning af den fulde TxGNN-kandidatliste for dette lægemiddel for at filtrere ikke-menneskelige (veterinær) sygdomsposter før yderligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

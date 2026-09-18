@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teplizumab: From Type 1 Diabetes Progression Delay to Diabetic Cataract
+# Teplizumab: fra type 1-diabetesprogressionsforsinkelse til diabetisk katarakt
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Teplizumab is an anti-CD3 monoclonal antibody used to delay progression of Type 1 diabetes through T-cell immune modulation. The TxGNN model predicts a possible link to **Diabetic Cataract**, but currently **no clinical trials and no literature** support this direction, and the model's own rationale flags the connection as biologically weak.
+Teplizumab er et anti-CD3-monoklonalt antistof, der bruges til at forsinke progressionen af type 1-diabetes gennem T-celle-immunmodulation. TxGNN-modellen forudsiger en mulig sammenhæng til **Diabetisk katarakt**, men i øjeblikket **ingen kliniske forsøg og ingen litteratur** understøtter denne retning, og modellens egen begrundelse mærker forbindelsen som biologisk svag.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (no approved label text on file) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.38% |
-| Evidence Level | L5 (model prediction only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Parameter | Værdi |
+|-----------|---------|
+| Oprindelig indikation | Ikke tilgængelig i denne evidenssamling (ingen godkendt etiketekst på fil) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98.38% |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Danske markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is marked as a data gap in this evidence pack. Based on the repurposing rationale that accompanies the prediction, Teplizumab is an anti-CD3 monoclonal antibody that modulates T-cell activity to delay the autoimmune destruction underlying Type 1 diabetes.
+Detaljerede virkningsmådedata er markeret som et datahul i denne evidenssamling. Baseret på den genbrugsbegrundelse, der medfølger forudsigelsen, er Teplizumab et anti-CD3-monoklonalt antistof, der modulerer T-celle-aktivitet for at forsinke den autoimmune ødelæggelse, som ligger til grund for type 1-diabetes.
 
-Diabetic cataract, by contrast, is a structural lens pathology driven by protein denaturation and osmotic imbalance (e.g., sorbitol accumulation, oxidative stress) — not an autoimmune process. The evidence pack's own mechanistic assessment states there is **no known direct biochemical pathway** connecting Teplizumab's immune-modulating action to cataract pathogenesis.
+Diabetisk katarakt er derimod en strukturel linspatologi, der forårsages af proteindenaturering og osmotisk ubalance (f.eks. sorbitolophobning, oxidativ stress) — ikke en autoimmun proces. Evidenssamlingens egen mekanistiske vurdering anfører, at der **ikke er kendt nogen direkte biokemisk vej**, der forbinder Teplizumabs immunmodulerande virkning til kataraktpatogenese.
 
-The pack explicitly interprets the high TxGNN score as likely arising from **indirect graph proximity** — both diseases sharing a "diabetes" node in the knowledge graph — rather than a genuine mechanistic hypothesis. This applies to all ten ranked candidates in this evidence pack, which are various cataract subtypes (diabetic, immature, mature, tetanic, craniostenosis-associated) clustered around the same diabetes node. The assessment for tetanic and craniostenosis-associated cataract subtypes is particularly clear on this point, since those are linked to calcium/parathyroid or developmental causes with no plausible connection to T-cell modulation at all.
+Samlingen fortolker eksplicit den høje TxGNN-score som sandsynligvis stammende fra **indirekte grafnærhed** — begge sygdomme deler en "diabetes"-knude i vidensgrafen — snarere end en ægte mekanistisk hypotese. Dette gælder alle ti rangerede kandidater i denne evidenssamling, som er forskellige kataraktundertyper (diabetisk, immatur, moden, tetanisk, kraniostenose-associeret) samlet omkring samme diabetes-knude. Vurderingen af tetanisk og kraniostenose-associeret kataraktundertyper er særligt klar på dette punkt, da disse er forbundet med calcium/parathyroid-årsager eller udviklings-årsager uden nogen plausibel forbindelse til T-celle-modulation overhovedet.
 
-## Clinical Trial Evidence
+## Kliniske forsøgsbevis
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Danske markedsoplysninger
 
-Teplizumab is currently **not marketed** in Denmark; no marketing authorisations (national or centralised/EMA) are on file in this evidence pack.
+Teplizumab er i øjeblikket **ikke markedsført** i Danmark; ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er på fil i denne evidenssamling.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-No safety data (warnings, contraindications, or drug interactions) is currently available in this evidence pack, and as Teplizumab is not marketed in Denmark, no approved Summary of Product Characteristics (SmPC) exists yet to consult.
+Ingen sikkerhedsdata (advarsler, kontraindikationer eller lægemiddelinteraktioner) er i øjeblikket tilgængelig i denne evidenssamling, og da Teplizumab ikke er markedsført i Danmark, findes der endnu ingen godkendt Sammenfattende produktkarakteristika (SmPC) at konsultere.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The prediction rests solely on a TxGNN graph-similarity score (L5) with zero supporting clinical trials or literature, and the accompanying mechanistic assessment itself concludes the drug–disease link is likely a knowledge-graph artifact rather than genuine biological plausibility.
+**Begrundelse:**
+Forudsigelsen hviler udelukkende på en TxGNN-graflighedsscore (L5) uden nogen understøttende kliniske forsøg eller litteratur, og den medfølgende mekanistiske vurdering konkluderer selv, at forbindelsen mellem lægemiddel og sygdom sandsynligvis er et vidensgraf-artefakt snarere end ægte biologisk plausibilitet.
 
-**To proceed, the following is needed:**
-- Confirmed original indication and approved label text (currently blocking — no source data available)
-- Verified mechanism of action data from DrugBank or another authoritative source
-- Independent literature or preclinical search specifically for any T-cell/immune involvement in diabetic cataract pathogenesis
-- Regulatory label/warning and contraindication data before any safety evaluation can begin
+**For at fortsætte, er det følgende nødvendigt:**
+- Bekræftet oprindelig indikation og godkendt etiketekst (i øjeblikket blokerende — ingen kildedata tilgængelig)
+- Verificeret virkningsmådedata fra DrugBank eller anden autoritativ kilde
+- Uafhængig litteratur- eller præklinisk søgning specifikt for eventuel T-celle/immuninvolvering i diabetisk kataraktpatogenese
+- Regulatorisk etiket-/advarseloplysninger og kontraindikationsdata før nogen sikkerhedsvurdering kan begynde
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

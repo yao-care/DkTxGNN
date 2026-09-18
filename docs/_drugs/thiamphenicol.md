@@ -29,62 +29,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thiamphenicol: From Broad-Spectrum Antibacterial Therapy to Interventricular Septum Aneurysm
+# Thiamphenicol: Fra bredt spektrum antibakteriel terapi til interventrikkulær septum aneurisme
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Thiamphenicol is a broad-spectrum antibacterial (a chloramphenicol analogue that inhibits bacterial 50S ribosomal protein synthesis); no approved-indication text or detailed mechanism-of-action data is currently on file for this evaluation.
-The TxGNN model predicts it may be relevant to **Interventricular Septum Aneurysm**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
-Evidence strength is at the model-prediction-only level (L5), and the drug is not currently marketed in Denmark.
+Thiamphenicol er et bredt spektrum antibakterialt middel (et chloramfenikol analog, der hæmmer proteinsyntesen på den bakterielle 50S ribosomale subunit); ingen godkendt indikationstekst eller detaljeret virkningsmekanismedata er i øjeblikket tilgængelig for denne evaluering.
+TxGNN-modellen forudsiger, at det kan være relevant for **Interventrikkulær septum aneurisme**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
+Bevisstyrken ligger på niveau for model-forudsigelse-kun (L5), og lægemidlet markedsføres ikke i øjeblikket i Danmark.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved-indication text on file (drug class: broad-spectrum antibacterial) |
-| Predicted New Indication | Interventricular Septum Aneurysm |
-| TxGNN Prediction Score | 96.54% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke tilgængelig — ingen godkendt indikationstekst (lægemiddelklasse: bredt spektrum antibakterialt middel) |
+| Forudsagt ny indikation | Interventrikkulær septum aneurisme |
+| TxGNN-forudsigelsesscore | 96.54% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor giver denne forudsigelse mening?
 
-Currently, detailed mechanism of action data is not available for thiamphenicol in this evidence pack. Based on known pharmacological class information, thiamphenicol is a broad-spectrum antibacterial (a chloramphenicol analogue) that acts by inhibiting bacterial 50S ribosomal subunit protein synthesis. No original approved indication is recorded in this evidence pack, so a direct comparison between an established indication and the predicted new indication cannot be made.
+I øjeblikket er der ingen detaljerede virkningsmekanismedata for thiamphenicol tilgængelig i denne bevissamling. Baseret på kendt farmakologisk klasseinformation er thiamphenicol et bredt spektrum antibakterialt middel (et chloramfenikol analog), der virker ved at hæmme proteinsyntesen på den bakterielle 50S ribosomale subunit. Ingen oprindelig godkendt indikation er registreret i denne bevissamling, så en direkte sammenligning mellem en etableret indikation og den forudsagt ny indikation kan ikke foretages.
 
-Interventricular septum aneurysm is a structural/congenital cardiac abnormality, not a condition primarily driven by infectious or inflammatory processes. There is no known biological pathway connecting ribosomal protein synthesis inhibition to septal wall structure, cardiac fibrosis, or cardiac developmental signalling. The TxGNN model's high score (96.54%) most likely reflects an indirect association captured at the knowledge-graph embedding level (e.g., shared drug–gene–disease co-occurrence patterns) rather than a mechanism-driven signal.
+Interventrikkulær septum aneurisme er en strukturel/medfødt hjerteanomalien, ikke en tilstand, der primært drives af infektiøse eller inflammatoriske processer. Der er ingen kendt biologisk vej, der forbinder hæmning af ribosomalt proteinsyntese med septums væg struktur, hjertekardiovaskulær fibrose eller hjertekardiovaskulær udviklingssignalering. TxGNN-modellens høje score (96.54%) afspejler mest sandsynligt en indirekte association fanget på vidensgraf indlejringsniveau (f.eks. delte lægemiddel–gen–sygdoms co-forekomstmønstre) snarere end et mekanismestyret signal.
 
-Notably, several other top-ranked TxGNN predictions for this drug (pulmonary valve disease, orofacial clefting syndrome, Laubry-Pezzi syndrome, Pierre Robin syndrome) share the same pattern — structural or developmental conditions with no plausible mechanistic link to an antibacterial agent, and no corroborating trial or literature evidence. This consistent absence of independent support across the top prediction set further limits confidence in this specific candidate.
+Bemærkelsesværdigt deler flere andre toprangerede TxGNN-forudsigelser for dette lægemiddel (lungeventilsygdom, orofaciel spalte syndrom, Laubry-Pezzi syndrom, Pierre Robin syndrom) det samme mønster — strukturelle eller udviklings tilstande uden plausibel mekanistisk forbindelse til et antibakterialt middel, og uden korroborerende kliniske forsøg eller litteraturbevis. Denne konsistente mangel på uafhængig support på tværs af topforudsigelsessættet begrænser yderligere tilliden til denne specifikke kandidat.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbevis
 
-Currently no related clinical trials registered
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+Der er i øjeblikket ingen relateret litteratur tilgængelig
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-No marketing authorisations are currently recorded for thiamphenicol in Denmark (market status: Not Marketed; total authorisations: 0).
+Ingen markedsføringstilladelser er i øjeblikket registreret for thiamphenicol i Danmark (markedsstatus: Ikke markedsført; samlet antal tilladelser: 0).
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Venligst se den godkendte sammenfatning af produktegenskaber (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-This candidate rests on evidence level L5 (model prediction only) with no supporting clinical trials or literature, and the proposed mechanistic link between an antibacterial agent and a structural cardiac abnormality is not biologically plausible based on currently available information. In addition, a Blocking data gap (missing TFDA/SmPC label warnings and contraindications) prevents even an initial safety (S1) assessment.
+**Begrundelse:**
+Denne kandidat hviler alene på modelforudsigelse (bevisniveau L5) uden understøttende kliniske forsøg eller litteratur, og den foreslåede mekanistiske forbindelse mellem et antibakterialt middel og en strukturel hjerteanomalien er ikke biologisk plausibel baseret på nuværende tilgængelig information. Desuden forhindrer en kritisk datakløft (manglende TFDA/SmPC etiketadvarsler og kontraindikationer) selv en indledende sikkerhedsvurdering (S1).
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for thiamphenicol
-- Official product label / SmPC warnings, contraindications, and drug interaction data
-- Preclinical or mechanistic studies establishing a plausible link to interventricular septum aneurysm (or reprioritisation toward a mechanistically supported indication)
-- Independent clinical trial or literature evidence before advancing beyond S0
+**For at fortsætte er følgende nødvendig:**
+- Bekræftet virkningsmekanisme (MOA) data for thiamphenicol
+- Officiel produktetiket / SmPC advarsler, kontraindikationer og lægemiddelinteraktionsdata
+- Prækliniske eller mekanistiske studier, der etablerer en plausibel forbindelse til interventrikkulær septum aneurisme (eller omprioriteringsfunktion til en mekanistisk understøttet indikation)
+- Uafhængig klinisk forsøg eller litteraturbevis før fremdrift ud over S0
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

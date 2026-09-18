@@ -29,73 +29,72 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the drug-repurposing report template directly (no dedicated skill covers this report format — it's a fully-specified prompt), here is the report.
+# Tepoxalin: Fra veterinær osteoartrit til human osteoartrit
 
-# Tepoxalin: From Veterinary Osteoarthritis to Human Osteoarthritis
+## Resumé på én linje
 
-## One-Sentence Summary
+Tepoxalin er en dual COX/LOX-inhibitor, der tidligere blev markedsført som et veterinært NSAID for **canin** osteoartrit (kommercielt nedlagt pr. PMID 23802664); ingen human indikation er registreret.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Osteoartrit** hos mennesker,
+med **ingen kliniske forsøg** og **8 (veterinære/præ-kliniske) publikationer**, der i øjeblikket understøtter denne retning.
 
-Tepoxalin is a dual COX/LOX inhibitor previously marketed as a veterinary NSAID for **canine** osteoarthritis (discontinued commercially per PMID 23802664); no human indication is on record.
-The TxGNN model predicts it may be effective for **Osteoarthritis** in humans,
-with **no clinical trials** and **8 (veterinary/preclinical) publications** currently supporting this direction.
+## Hurtig oversigt
 
-## Quick Overview
+| Element | Indhold |
+|--------|---------|
+| Oprindelig indikation | Ikke centralt registreret; kendt tidligere brug var som veterinært NSAID for canin osteoartrit (human oprindelig indikation/MOA-data ikke tilgængelig) |
+| Forudsagt ny indikation | Osteoartrit |
+| TxGNN-forudsigelsesscore | 96.82% |
+| Evidensniveau | L4 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not centrally registered; known prior use was as a veterinary NSAID for canine osteoarthritis (human original indication/MOA data unavailable) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 96.82% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+## Hvorfor er denne forudsigelse rimelig?
 
-## Why is This Prediction Reasonable?
+I øjeblikket er detaljerede mekanisme-for-virkning-data (human) ikke tilgængelige. Baseret på bevispacken er tepoxalin en dual inhibitor af cyclooxygenase (COX) og lipoxygenase (LOX), der reducerer både prostaglandin- og leukotrienproduktion. I canine-studier reducerede det eicosanoidfrigivelse fra synovialvæv og viste anti-proliferativ/pro-apoptotisk virkning på synovialfibroblaster (PMID 8936587, 19624842, 22240988), konsistent med en plausibel anti-inflammatorisk, bruskbeskyttende mekanisme.
 
-Currently, detailed mechanism of action data (human) is not available. Based on the evidence pack, tepoxalin is a dual inhibitor of cyclooxygenase (COX) and lipoxygenase (LOX), reducing both prostaglandin and leukotriene production. In canine studies it lowered eicosanoid release from synovial tissue and showed anti-proliferative/pro-apoptotic effects on synovial fibroblasts (PMID 8936587, 19624842, 22240988), consistent with a plausible anti-inflammatory, cartilage-protective mechanism.
+Tepoxalins eneste velkendt indikation er canin osteoartrit, hvor det blev markedsført (mærke Zubrin) før det blev trukket fra markedet (PMID 23802664). TxGNN-forudsigelsen for "osteoartrit" (score 96.82%) repræsenterer derfor en **veterinær-til-human** omformålingshypotese snarere end en hypotese om ny sygdomsklasse: patofysiologien ved osteoartrit er bredt bevaret mellem hunde og mennesker, og ét in vitro-studie (PMID 8936587) testede stoffet direkte på humant synovialvæv fra både reumatoid artritis- og osteoartrit-patienter, hvilket viste reduceret eicosanoidfrigivelse.
 
-Tepoxalin's only well-documented indication is canine osteoarthritis, where it was marketed (brand Zubrin) before being withdrawn from the market (PMID 23802664). The TxGNN prediction for "osteoarthritis" (score 96.82%) therefore represents a **veterinary-to-human** repurposing hypothesis rather than a new-disease-class hypothesis: the pathophysiology of osteoarthritis is broadly conserved between dogs and humans, and one in vitro study (PMID 8936587) did test the compound directly on human synovial tissue from both rheumatoid arthritis and osteoarthritis patients, showing reduced eicosanoid release.
+Men der findes ingen human farmakokinetiske, efficacy- eller sikkerhedsdata i denne bevispacke, og det oprindelige produkt blev kommercielt trukket tilbage fra veterinær brug — årsagen til tilbagetrækningen er ikke dokumenteret her og bør undersøges, før der foretages yderligere evaluering, da det kan afspejle et sikkerhedssignal eller kommercielt signal, der er relevant for human udvikling.
 
-However, no human pharmacokinetic, efficacy, or safety data exist in this evidence pack, and the original product was discontinued commercially for veterinary use — the reason for discontinuation is not documented here and should be investigated before further evaluation, as it may reflect a safety or commercial signal relevant to human development.
+## Evidens fra kliniske forsøg
 
-## Clinical Trial Evidence
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-Currently no related clinical trials registered.
+## Litteraturbevis
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige fund |
 |------|-----|------|------|---------|
-| [23718664](https://pubmed.ncbi.nlm.nih.gov/23718664/) | 2013 | Cohort (veterinary) | American Journal of Veterinary Research | Assessed whether tepoxalin alters kidney function in dogs with concurrent chronic kidney disease and osteoarthritis |
-| [16008217](https://pubmed.ncbi.nlm.nih.gov/16008217/) | 2005 | In vivo pharmacology (animal) | American Journal of Veterinary Research | Evaluated in vivo effects on prostaglandin and leukotriene production in dogs with chronic osteoarthritis |
-| [18764695](https://pubmed.ncbi.nlm.nih.gov/18764695/) | 2008 | Comparative pharmacology (animal) | American Journal of Veterinary Research | Compared firocoxib, meloxicam and tepoxalin effects on prostanoid/leukotriene production in duodenal mucosa and joint tissue of osteoarthritic dogs |
-| [8936587](https://pubmed.ncbi.nlm.nih.gov/8936587/) | 1996 | In vitro (organ culture) | Prostaglandins | Reduced eicosanoid release (LTC4, 6-keto-PGF1a, PGE2) in cultured **human** synovial tissue from RA and OA patients |
-| [19624842](https://pubmed.ncbi.nlm.nih.gov/19624842/) | 2009 | Animal model | BMC Veterinary Research | Explored ability of tepoxalin to reduce cytokine-induced cartilage catabolism in a canine in vitro OA model |
-| [22240988](https://pubmed.ncbi.nlm.nih.gov/22240988/) | 2012 | In vitro (cell culture) | Journal of Veterinary Medical Science | Demonstrated pro-apoptotic/antiproliferative effects of tepoxalin on canine synovial fibroblasts |
-| [19000257](https://pubmed.ncbi.nlm.nih.gov/19000257/) | 2008 | Review (veterinary) | Journal of Veterinary Pharmacology and Therapeutics | Review of leukotriene inhibition in small animal medicine, referencing clinical benefit of leukotriene inhibition in human osteoarthritis, allergic asthma and atopic dermatitis |
-| [23802664](https://pubmed.ncbi.nlm.nih.gov/23802664/) | 2013 | Commentary (market status) | American Journal of Veterinary Research | Notes that tepoxalin is no longer commercially available |
+| [23718664](https://pubmed.ncbi.nlm.nih.gov/23718664/) | 2013 | Kohortestudie (veterinær) | American Journal of Veterinary Research | Vurderede, om tepoxalin ændrer nyrefunktionen hos hunde med samtidig kronisk nyresygdom og osteoartrit |
+| [16008217](https://pubmed.ncbi.nlm.nih.gov/16008217/) | 2005 | In vivo farmakologi (dyr) | American Journal of Veterinary Research | Evaluerede in vivo-effekter på prostaglandin- og leukotrienproduktion hos hunde med kronisk osteoartrit |
+| [18764695](https://pubmed.ncbi.nlm.nih.gov/18764695/) | 2008 | Sammenlignende farmakologi (dyr) | American Journal of Veterinary Research | Sammenlignede firocoxib-, meloxicam- og tepoxalin-effekter på prostanoid-/leukotrienproduktion i duodenalslimhinde og ledevæv hos osteoartritiske hunde |
+| [8936587](https://pubmed.ncbi.nlm.nih.gov/8936587/) | 1996 | In vitro (organkultur) | Prostaglandins | Reduceret eicosanoidfrigivelse (LTC4, 6-keto-PGF1a, PGE2) i kultivert **humant** synovialvæv fra RA- og OA-patienter |
+| [19624842](https://pubmed.ncbi.nlm.nih.gov/19624842/) | 2009 | Dyremodel | BMC Veterinary Research | Udforsket evnen hos tepoxalin til at reducere cytokinudløst bruskkatabolisme i en canin in vitro OA-model |
+| [22240988](https://pubmed.ncbi.nlm.nih.gov/22240988/) | 2012 | In vitro (cellekultur) | Journal of Veterinary Medical Science | Demonstrerede pro-apoptotisk/antiproliferativ virkning af tepoxalin på canine synovialfibroblaster |
+| [19000257](https://pubmed.ncbi.nlm.nih.gov/19000257/) | 2008 | Oversigt (veterinær) | Journal of Veterinary Pharmacology and Therapeutics | Oversigt over leukotrieninhhibition i småkyrsmedicin, med henvisning til klinisk fordel ved leukotrieninhhibition i human osteoartrit, allergisk astma og atopisk dermatitis |
+| [23802664](https://pubmed.ncbi.nlm.nih.gov/23802664/) | 2013 | Kommentar (markedsstatus) | American Journal of Veterinary Research | Bemærker, at tepoxalin ikke længere er kommercielt tilgængelig |
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-Tepoxalin currently holds **no marketing authorisation in Denmark** (0 registered licences; market status: not marketed). No Laegemiddelstyrelsen or EMA centralised authorisation data is available for this product.
+Tepoxalin har i øjeblikket **ingen markeringsgodkendelse i Danmark** (0 registrerede licenser; markedsstatus: ikke markedsført). Ingen Laegemiddelstyrelsen- eller EMA-centraliseret godkendelsesdata er tilgængelig for dette produkt.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: as tepoxalin has no Danish marketing authorisation, no SmPC currently exists — safety warnings, contraindications and drug interaction data (including the DDI database, which returned no results) all remain unresolved data gaps that must be closed before any human safety evaluation can proceed.
+Venligst se den godkendte Produktinformationsfiche (SmPC) for sikkerhedsinformation. Bemærk: da tepoxalin ikke har dansk markeringsgodkendelse, findes der i øjeblikket ingen SmPC — sikkerhedsadvarsler, kontraindikationer og lægemiddelinteraktionsdata (herunder DDI-databasen, som returnerede ingen resultater) forbliver alle uløste datakløfter, der skal lukkes, før nogen human sikkerhedsevaluering kan fortsættes.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Afvent**
 
-**Rationale:**
-Evidence is limited to preclinical/veterinary pharmacology (L4) with no human clinical trials and no marketing history in Denmark; a Blocking data gap on core safety/label information (DG001) prevents even an initial (S1) safety assessment.
+**Begrundelse:**
+Bevis er begrænset til præ-klinisk/veterinær farmakologi (L4) uden nogen humane kliniske forsøg og uden markeringshistorie i Danmark; en blokerende datakløft vedrørende kernesikkerhed/etiketsoplysninger (DG001) forhindrer selv en indledende (S1) sikkerhedsevaluering.
 
-**To proceed, the following is needed:**
-- Human mechanism-of-action and pharmacokinetic data (DG002)
-- TFDA/DKMA-equivalent label warnings and contraindications (DG001)
-- Clarification of why the veterinary product (Zubrin) was withdrawn from commercial availability
-- At minimum, translational/human in vitro or early-phase clinical data specific to osteoarthritis before advancing beyond S1
+**For at fortsætte er følgende nødvendigt:**
+- Human mekanisme-for-virkning og farmakokinetiske data (DG002)
+- TFDA/DKMA-svarende etiketsadvarsler og kontraindikationer (DG001)
+- Præcisering af, hvorfor det veterinære produkt (Zubrin) blev trukket fra kommerciel tilgængelighed
+- Mindst translationel/human in vitro eller tidlig-fase klinisk data specifikt for osteoartrit, før der avanceres ud over S1
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

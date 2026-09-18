@@ -29,87 +29,88 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Nitrazepam: From Unregistered Original Indication to Sleep Disorder, Initiating and Maintaining Sleep (Insomnia)
+# Nitrazepam: Fra Uregistreret Oprindelig Indikation til Søvnforstyrrelser, Initiering og Opretholdelse af Søvn (Insomni)
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Nitrazepam's own approved indication is not on record in this Evidence Pack (`original_indications` is a data gap), but it is a long-marketed benzodiazepine hypnotic (Mogadon). The TxGNN model predicts it is effective for **Sleep Disorder, Initiating and Maintaining Sleep** (insomnia) with a **99.89%** prediction score, supported by **20 publications** (including 1 RCT) and **no registered clinical trials**. Note: this predicted indication overlaps with nitrazepam's well-known historical use, so the finding should be read as a confirmation of known pharmacology rather than a novel repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on record (data gap — no `original_indications` entries; drug is not currently marketed in Denmark) |
-| Predicted New Indication | Sleep Disorder, Initiating and Maintaining Sleep (Insomnia) |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Nitrazepams egen godkendt indikation er ikke registreret i denne evidenspakke (`original_indications` er et datahul), men det er et længe-markedsført benzodiazepin-hypnotikum (Mogadon). TxGNN-modellen forudsiger, at det er effektivt mod **søvnforstyrrelser, initiering og opretholdelse af søvn** (insomni) med en **99,89%** forudsigelsesscore, understøttet af **20 publikationer** (inklusive 1 RCT) og **ingen registrerede kliniske forsøg**. Note: denne forudsagte indikation overlapper med nitrazepams velkendt historisk brug, så resultatet bør læses som en bekræftelse af kendt farmakologi snarere end som et nyt repurposingssignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-The `original_moa` field is a data gap, but the model's own repurposing rationale supplies the mechanism: nitrazepam is a classic benzodiazepine that binds the benzodiazepine site on the GABA-A receptor's α subunit, positively modulating GABA-gated chloride influx and enhancing central inhibitory neurotransmission. This produces sedative, hypnotic, anxiolytic, anticonvulsant and muscle-relaxant effects.
-
-Importantly, the "predicted new indication" here — sleep-onset and sleep-maintenance insomnia — is not actually a new therapeutic hypothesis. Nitrazepam has been marketed for decades under the brand name Mogadon specifically as a hypnotic for insomnia. The literature evidence below (pharmacokinetics reviews, a head-to-head RCT against triazolam, safety reviews) reflects this established use rather than an unproven extrapolation. The apparent "prediction" arises because the `original_indications` field in this Evidence Pack is empty (data gap), so the model/report pipeline is unable to recognize that this is already the drug's core indication.
-
-Mechanistically the link is therefore direct and well-established, not inferred: GABA-A receptor potentiation reduces sleep latency and increases total sleep time, consistent with nitrazepam's known clinical pharmacology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke registreret (datahul — ingen `original_indications` poster; lægemidlet er ikke aktuelt markedsført i Danmark) |
+| Forudsagt ny indikation | Søvnforstyrrelser, initiering og opretholdelse af søvn (Insomni) |
+| TxGNN forudsigelsesscore | 99,89% |
+| Evidensniveau | L2 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Forløb med forholdsregler |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+Feltet `original_moa` er et datahul, men modellens egen repurposing-argumentation leverer mekanismen: nitrazepam er et klassisk benzodiazepin, der binder sig til benzodiazepin-stedet på GABA-A-receptorens α-underenhed, positivt modulerer GABA-styret chloridtilstrømning og forbedrer central hæmmende neurotransmission. Dette producerer sedativ, hypnotisk, anxiolytisk, antikonvulsiv og muskelrelakserende effekter.
+
+Vigtigt er det, at den "forudsagte nye indikation" her — insomni ved søvnstart og søvnopretholdelses — slet ikke er en virkelig ny terapeutisk hypotese. Nitrazepam har været markedsført i årtier under varemærket Mogadon specifikt som et hypnotikum mod insomni. Litteraturovidensen nedenfor (farmakokinetik-reviews, et head-to-head RCT mod triazolam, sikkerhedsreviews) afspejler denne etablerede brug snarere end en uprøvet ekstrapolation. Det tilsyneladende "forudsigte" resultat opstår, fordi feltet `original_indications` i denne evidenspakke er tomt (datahul), så model-/rapportpipelineen ikke kan genkende, at dette allerede er lægemidlets kerneindikation.
+
+Mekanistisk er forbindelsen derfor direkte og velestableret, ikke sluttet: GABA-A-receptorpotentiering reducerer søvnlatens og øger total søvntid, i overensstemmelse med nitrazepams kendt klinisk farmakologi.
+
+---
+
+## Evidens fra kliniske forsøg
+
+Aktuelt ingen relaterede kliniske forsøg registreret
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT | Acta Psychiatrica Scandinavica | Double-blind cross-over in 26 geriatric inpatients: nitrazepam 5mg vs triazolam 0.25mg — comparable sleep quantity/quality and psychomotor performance |
-| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clinical Pharmacokinetics | Review of nitrazepam's clinical pharmacokinetics |
-| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Review | British Medical Journal | 27 patients with acute nitrazepam overdose (up to 80 tablets) showed only drowsiness; double-blind trial found nitrazepam as effective as butobarbitone as a hypnotic |
-| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case Report | British Journal of Psychiatry | Case report of nitrazepam (Mogadon) dependence |
-| [4712500](https://pubmed.ncbi.nlm.nih.gov/4712500/) | 1973 | Case Report | British Medical Journal | Case report on nitrazepam's effects on dreaming/subconscious content |
-| [238826](https://pubmed.ncbi.nlm.nih.gov/238826/) | 1975 | Review | Drugs | Review of sleep physiology and hypnotic drug efficacy assessment |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clinical Evidence | Up to 40% of adults have insomnia; prevalence rises with age; risk factors include psychological stress and hyperarousal |
-| [7725291](https://pubmed.ncbi.nlm.nih.gov/7725291/) | 1995 | Review | Tidsskrift for den Norske Laegeforening | Review of insomnia classification, diagnosis and treatment developments |
-| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Review of residual "hangover" effects of hypnotics (daytime sleepiness, psychomotor/cognitive impairment) and accident risk |
-| [39231170](https://pubmed.ncbi.nlm.nih.gov/39231170/) | 2024 | — | PLoS ONE | Study of inappropriate benzodiazepine prescribing patterns in primary care, including dependence and cognitive-decline risk in older adults |
+| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT | Acta Psychiatrica Scandinavica | Dobbelt-blind krydsover i 26 geriatriske indlagte: nitrazepam 5 mg vs triazolam 0,25 mg — sammenlignelig søvnmængde/kvalitet og psykomotorisk ydeevne |
+| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clinical Pharmacokinetics | Oversigt over nitrazepams kliniske farmakokinetik |
+| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Review | British Medical Journal | 27 patienter med akut nitrazepam-overdosis (op til 80 tabletter) viste kun søvnighed; dobbelblind forsøg fandt nitrazepam lige så effektivt som butobarbiton som hypnotikum |
+| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case Report | British Journal of Psychiatry | Caseberetning om nitrazepam (Mogadon) afhængighed |
+| [4712500](https://pubmed.ncbi.nlm.nih.gov/4712500/) | 1973 | Case Report | British Medical Journal | Caseberetning om nitrazepams effekter på drømme/ubevidst indhold |
+| [238826](https://pubmed.ncbi.nlm.nih.gov/238826/) | 1975 | Review | Drugs | Oversigt over søvnfysiologi og bedømmelse af hypnotisk lægemiddeleffektivitet |
+| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clinical Evidence | Op til 40% af voksne har insomni; prævalensen stiger med alderen; risikofaktorer inkluderer psykologisk stress og hyperarousal |
+| [7725291](https://pubmed.ncbi.nlm.nih.gov/7725291/) | 1995 | Review | Tidsskrift for den Norske Laegeforening | Oversigt over insomni-klassificering, diagnose og behandlingsudviklinger |
+| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Oversigt over restsymptomer ("hangover") af hypnotika (dagsøvnighed, psykomotorisk/kognitiv svækkelse) og ulykkesrisiko |
+| [39231170](https://pubmed.ncbi.nlm.nih.gov/39231170/) | 2024 | — | PLoS ONE | Undersøgelse af ukorrekt benzodiazepinforskrivning i primær sundhedspleje, inklusive afhængighed og risiko for kognitivt fald hos ældre voksne |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Nitrazepam has **0 marketing authorisations** on file and is currently **not marketed** in Denmark. No Laegemiddelstyrelsen or EMA centralised authorisation records are available in this Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-drug interaction data are currently on file (DDI query status: not found).
+Nitrazepam har **0 markedsføringstilladelser** i arkivet og er aktuelt **ikke markedsført** i Danmark. Ingen Lægemiddelstyrelsen- eller EMA-centraliserede autoriseringsregistreringer er tilgængelige i denne evidenspakke.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktresuméet (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata er aktuelt i arkivet (DDI-forespørgselsstatus: ikke fundet).
 
-**Rationale:**
-Literature evidence (including a direct RCT of nitrazepam as a hypnotic) supports plausibility for insomnia, but this largely reconfirms nitrazepam's known, decades-old clinical use rather than establishing a genuinely new indication. Critical data gaps — no Danish SmPC/warnings/contraindications (Blocking, DG001), no formal MOA record (High, DG002), and no confirmed original indication — block any registration-level decision, and the drug is not currently marketed in Denmark.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings, contraindications and DDI data (resolve DG001, blocking)
-- Formal MOA documentation via DrugBank (resolve DG002)
-- Confirmation of nitrazepam's actual approved indication(s) in source markets, to clarify whether this is a genuine new-use signal or a data-registration gap
-- Marketing-authorisation pathway assessment given current "Not Marketed" status in Denmark
+## Konklusion og næste trin
 
-*Note: The model also flagged two lower-confidence candidates — acute encephalopathy with biphasic seizures and late reduced diffusion (AESD) and Wernicke-Korsakoff syndrome — both at Evidence Level L5 with no supporting literature or trials; both are recommended **Hold**.*
+**Beslutning: Forløb med forholdsregler**
+
+**Argumentation:**
+Litteraturbevis (inklusive et direkte RCT af nitrazepam som hypnotikum) understøtter plausibilitet for insomni, men dette bekræfter i høj grad nitrazepams kendt, årtier gammel klinisk brug snarere end at etablere en virkelig ny indikation. Kritiske datahul — ingen dansk/EU SmPC-advarsler/kontraindikationer (Blocking, DG001), ingen formel MOA-dokumentation (High, DG002), og ingen bekræftet oprindelig indikation — blokerer enhver registreringsniveaubeslutning, og lægemidlet er aktuelt ikke markedsført i Danmark.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk/EU SmPC-advarsler, kontraindikationer og DDI-data (løs DG001, blocking)
+- Formel MOA-dokumentation via DrugBank (løs DG002)
+- Bekræftelse af nitrazepams faktiske godkendt indikation(er) på kildemarkeder, for at præcisere, om dette er et ægte signal for ny brug eller et data-registreringshul
+- Vurdering af markedsføringstilladelsessti givet aktuelt "Ikke markedsført" status i Danmark
+
+*Note: Modellen flaggede også to lavere-konfidenskandidater — akut encephalopati med bifasisk anfald og sen reduceret diffusion (AESD) og Wernicke-Korsakoff syndrom — begge på evidensniveau L5 uden understøttende litteratur eller forsøg; begge anbefales **Hold**.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

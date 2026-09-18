@@ -29,90 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Escitalopram: Drug Repurposing Evaluation — Insufficient Data for Prediction
+# Escitalopram: Vurdering af lægemidlet til ny brug — Utilstrækkelige data til forudsigelse
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Escitalopram is a well-established selective serotonin reuptake inhibitor (SSRI) widely used internationally for major depressive disorder and generalised anxiety disorder. The TxGNN model has **not generated any repurposing predictions** for this compound, and the evidence pack contains **no clinical trial or literature evidence** for novel indications. This report documents the current data gaps that must be resolved before a repurposing evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (see note below) |
-| Predicted New Indication | **None** — no TxGNN predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | **L5** (No predictions or supporting studies) |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
-> **Note on Original Indication:** Although the evidence pack does not list original indications, escitalopram is internationally recognised as an SSRI approved for major depressive disorder (MDD) and generalised anxiety disorder (GAD). In the EU, escitalopram is authorised under multiple national marketing authorisations (e.g., Cipralex®) for depression, panic disorder, social anxiety disorder, generalised anxiety disorder, and obsessive-compulsive disorder.
+Escitalopram er et veletableret selektivt serotoningjenoptagelseshemmer (SSRI), der bruges bredt internationalt til behandling af major depressiv lidelse og generaliseret angstlidelse. TxGNN-modellen har **ikke genereret nogen forudsigelser om nye indikationer** for denne forbindelse, og evidenspakken indeholder **intet klinisk forsøgs- eller litteraturbevis** for nye indikationer. Denne rapport dokumenterer de aktuelle datakløfter, som skal lukkes, før en vurdering af lægemidlet til ny brug kan gennemføres.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-No TxGNN repurposing prediction has been generated for escitalopram. Therefore, a mechanistic rationale for a new indication cannot be assessed at this time.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Ikke registreret i denne evidenspakke (se note nedenfor) |
+| Forudsagt ny indikation | **Ingen** — ingen TxGNN-forudsigelser tilgængelige |
+| TxGNN forudsigelsesscore | N/A |
+| Evidensniveau | **L5** (Ingen forudsigelser eller understøttende studier) |
+| Status på dansk marked | Ikke markedsført (Ikke markedsført) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Påbegynd ikke** |
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on publicly known information, escitalopram is the S-enantiomer of citalopram and functions as a highly selective serotonin reuptake inhibitor (SSRI). It blocks the serotonin transporter (SERT), increasing serotonergic neurotransmission. This mechanism underlies its established efficacy in depressive and anxiety disorders.
-
-The absence of TxGNN predictions may indicate that escitalopram's DrugBank ID (DB01175) was not successfully mapped into the knowledge graph, or that the model did not identify any novel disease associations scoring above the relevance threshold. Further investigation into the mapping pipeline is recommended.
-
----
-
-## Clinical Trial Evidence
-
-Currently no predicted indications exist, therefore no related clinical trials have been identified for a repurposing context.
-
----
-
-## Literature Evidence
-
-Currently no predicted indications exist, therefore no related literature has been identified for a repurposing context.
+> **Note om original indikation:** Selv om evidenspakken ikke angiver oprindelige indikationer, er escitalopram internationalt anerkendt som et SSRI godkendt til behandling af major depressiv lidelse (MDD) og generaliseret angstlidelse (GAD). I EU er escitalopram godkendt gennem flere nationale markedsføringstilladelser (f.eks. Cipralex®) til depression, panikklidelse, social angstlidelse, generaliseret angstlidelse og tvangslidelse.
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-No marketing authorisations for escitalopram were found in the current dataset.
+Ingen TxGNN-forudsigelse om ny brug er blevet genereret for escitalopram. Derfor kan en mekanistisk rationalisering for en ny indikation ikke vurderes på nuværende tidspunkt.
 
-> **Note:** This likely reflects a data gap rather than true absence. Escitalopram is widely available across the EU. Cipralex® (escitalopram oxalate) is authorised via national procedures in Denmark through the Laegemiddelstyrelsen, and generic formulations are also available. The evidence pack's regulatory data module may need to be updated with Danish or EMA marketing authorisation records.
+For øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne evidenspakke. Baseret på offentligt kendt information er escitalopram S-enantiomeren af citalopram og fungerer som et meget selektivt serotoningjenoptagelseshemmer (SSRI). Det blokerer serotoningjenoptagelsestransporteren (SERT), hvilket øger serotoninutveksling i nervesystemet. Denne mekanisme er grundlaget for dets etablerede virkning ved depressive og angstlidelser.
+
+Fraværet af TxGNN-forudsigelser kan indikere, at escitaloprams DrugBank ID (DB01175) ikke blev succesfuldt kortlagt til vidensgrafen, eller at modellen ikke identificerede nogle nye sygdomsassociationer, der scorede over relevansgrænsen. Yderligere undersøgelse af kortlægningspipelinen anbefales.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+For øjeblikket eksisterer der ingen forudsagte indikationer, og derfor er der ikke identificeret relaterede kliniske forsøg i en kontekst vedrørende ny brug.
+
+---
+
+## Litteraturbevis
+
+For øjeblikket eksisterer der ingen forudsagte indikationer, og derfor er der ikke identificeret relateret litteratur i en kontekst vedrørende ny brug.
+
+---
+
+## Markedsinformation for Danmark
+
+Ingen markedsføringstilladelser for escitalopram blev fundet i det aktuelle datasæt.
+
+> **Note:** Dette afspejler sandsynligvis en datakløft snarere end faktisk fravær. Escitalopram er bredt tilgængeligt på tværs af EU. Cipralex® (escitalopram oxalat) er godkendt gennem nationale procedurer i Danmark via Lægemiddelstyrelsen, og generiske formuleringer er også tilgængelige. Evidenspakkens regulatoriske datamodul kan have behov for opdatering med danske eller EMA-markedsføringstilladelser.
+
+---
+
+## Sikkerhedshensyn
+
+> Venligst henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 >
-> For Danish prescribers, the SmPC for Cipralex® (escitalopram) is available via the Laegemiddelstyrelsen's product database or the EMA website. Key safety considerations for escitalopram generally include:
-> - QT prolongation risk (dose-dependent)
-> - Serotonin syndrome risk when combined with other serotonergic agents
-> - Suicidality risk in young adults (black box warning in some jurisdictions)
-> - Withdrawal symptoms on abrupt discontinuation
+> For danske ordinerende læger er SmPC'et for Cipralex® (escitalopram) tilgængeligt via Lægemiddelstyrelsens produktdatabase eller EMA-webstedet. Vigtige sikkerhedshensyn for escitalopram omfatter generelt:
+> - QT-forlængelsesrisiko (dosisafhængig)
+> - Risiko for serotoninsyndrom ved kombination med andre serotoninantierne agenter
+> - Selvmordsrisiko hos unge voksne (sort boks-advarsel i nogle jurisdiktioner)
+> - Abstinenser ved pludselig seponering
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Påbegynd ikke**
 
-**Rationale:**
-The evidence pack contains no TxGNN predictions, no regulatory data for Denmark, and no safety information. Without a predicted new indication, there is no basis to evaluate a repurposing opportunity. This candidate cannot advance until fundamental data gaps are resolved.
+**Begrundelse:**
+Evidenspakken indeholder ingen TxGNN-forudsigelser, ingen regulatoriske data for Danmark og ingen sikkerhedsinformation. Uden en forudsagt ny indikation er der intet grundlag for at vurdere en mulighed for ny brug. Denne kandidat kan ikke avancere, indtil grundlæggende datakløfter er lukket.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendig:**
 
-1. **Resolve DrugBank/KG mapping issue** — Verify that DB01175 (escitalopram) is correctly mapped into the TxGNN knowledge graph and that predictions can be generated
-2. **Populate Denmark regulatory data** — Import marketing authorisation records from the Laegemiddelstyrelsen and/or EMA centralised procedure database (escitalopram is widely authorised in Denmark)
-3. **Obtain mechanism of action (MOA) data** — Query DrugBank API for complete pharmacological profile (DG002)
-4. **Obtain SmPC safety data** — Extract warnings, contraindications, and drug interactions from the Danish-approved SmPC (DG001)
-5. **Re-run the TxGNN prediction pipeline** once the above data gaps are filled, and regenerate the evidence pack
+1. **Løs DrugBank/vidensgrafs kortlægningsproblem** — Bekræft, at DB01175 (escitalopram) er korrekt kortlagt til TxGNN-vidensgrafen, og at forudsigelser kan genereres
+2. **Udfyld danske regulatoriske data** — Importer markedsføringstilladelser fra Lægemiddelstyrelsen og/eller EMA's centraliserede proceduredatabase (escitalopram er vidt godkendt i Danmark)
+3. **Indhent mekanisme-for-virkning-data (MOA)** — Forespørg DrugBank API'et for komplet farmakologisk profil (DG002)
+4. **Indhent SmPC-sikkerhedsdata** — Uddrag advarsler, kontraindikationer og lægemiddelinteraktioner fra det danske godkendte SmPC (DG001)
+5. **Kør TxGNN-forudsigelsespipelinen igen** når ovenstående datakløfter er udfyldt, og regenerer evidenspakken
 
 ---
 
-*This report is for research purposes only and does not constitute medical advice. Any drug repurposing candidates require clinical validation before application.*
+*Denne rapport er til forskningsformål og udgør ikke medicinsk rådgivning. Alle lægemiddelkandidater til ny brug kræver klinisk validering før anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

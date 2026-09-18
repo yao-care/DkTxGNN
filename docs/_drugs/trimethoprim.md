@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Trimethoprim: From Antibacterial Therapy to Punctate Epithelial Keratoconjunctivitis
+# Trimethoprim: Fra Antibakteriel Terapi til Punctate Epithelial Keratoconjunctivitis
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Trimethoprim is an antibacterial agent (dihydrofolate reductase inhibitor); detailed original indication and mechanism-of-action records are not available in the current evidence pack, and the drug is not currently marketed in Denmark. The TxGNN model predicts a possible link to **punctate epithelial keratoconjunctivitis**, with a high prediction score but **zero supporting clinical trials or literature**, and the evidence pack's own mechanistic review flags this prediction as biologically implausible.
+Trimethoprim er et antibakterielt lægemiddel (dihydrofolatreduktasehæmmer); detaljerede optegnelser over oprindelig indikation og virkningsmekanisme er ikke tilgængelige i det aktuelle evidenspakke, og lægemidlet er ikke i øjeblikket markedsført i Danmark. TxGNN-modellen forudsiger en mulig sammenhæng med **punctate epithelial keratoconjunctivitis**, med en høj forudsigelsesscore, men **nul kliniske forsøg eller litteratur til støtte**, og evidenspakkens egen mekanistiske gennemgang markerer denne forudsigelse som biologisk usandsynlig.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Danish licences on file); per the pack's own mechanistic notes, trimethoprim is classed as an antibacterial (DHFR inhibitor) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke dokumenteret i dette evidenspakke (ingen danske tilladelser på fil); ifølge pakkens egne mekanistiske noter klassificeres trimethoprim som antibakterielt (DHFR-hæmmer) |
+| Forudsagt ny indikation | Punctate epithelial keratoconjunctivitis |
+| TxGNN-forudsigelsesscore | 99.57% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on the information available in this evidence pack, trimethoprim is classified as an antibacterial agent that inhibits dihydrofolate reductase (DHFR), giving it activity against a range of bacterial pathogens but **no activity against viruses**.
+For øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (datakløft). Baseret på de oplysninger, der er tilgængelige i dette evidenspakke, klassificeres trimethoprim som et antibakterielt lægemiddel, der hæmmer dihydrofolatreduktase (DHFR), hvilket giver det virkning mod en række bakterielle patogener, men **ingen virkning mod vira**.
 
-Punctate epithelial keratoconjunctivitis is most commonly caused by viral infection (e.g., adenovirus), rather than by bacteria. This creates a direct mismatch between trimethoprim's mechanism and the predominant etiology of the predicted indication.
+Punctate epithelial keratoconjunctivitis er oftest forårsaget af viral infektion (f.eks. adenovirus) snarere end bakterier. Dette skaber et direkte misforhold mellem trimethoproms virkningsmekanisme og den dominerende årsag til den forudsagte indikation.
 
-The TxGNN model's high score (99.57%) most likely reflects graph proximity to related ocular/conjunctival disease categories rather than a genuine mechanistic or clinical link — the score is not corroborated by any clinical trial or published literature identified for this drug-indication pair. On mechanistic grounds alone, this prediction does not appear applicable.
+TxGNN-modellens høje score (99.57%) afspejler højst sandsynligt nærheden i grafen til relaterede øjen-/konjunktivale sygdomskategorier snarere end en ægte mekanistisk eller klinisk sammenhæng – scoren understøttes ikke af nogen klinisk forsøg eller publiceret litteratur, der er identificeret for dette lægemiddel-indikationspar. På rent mekanistiske grunde ser denne forudsigelse ikke ud til at være anvendelig.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation Danmark
 
-No marketing authorisations are on file for trimethoprim in Denmark (Laegemiddelstyrelsen) in this evidence pack; market status is recorded as "Not marketed" with 0 authorisations.
+Der er ingen markedsføringstilladelser på fil for trimethoprim i Danmark (Lægemiddelstyrelsen) i dette evidenspakke; markedsstatus er registreret som "Ikke markedsført" med 0 tilladelser.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst den godkendte SmPC (Summary of Product Characteristics) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-The prediction is supported only by a model score with no clinical trial or literature evidence (L5), and the evidence pack's own mechanistic analysis indicates trimethoprim (an antibacterial) is unlikely to be effective against punctate epithelial keratoconjunctivitis, which is predominantly viral in origin.
+**Begrundelse:**
+Forudsigelsen understøttes kun af en modelscore uden klinisk forsøgs- eller litteraturbevis (L5), og evidenspakkens egen mekanistiske analyse angiver, at trimethoprim (et antibakterielt lægemiddel) sandsynligvis ikke er effektivt mod punctate epithelial keratoconjunctivitis, som fortrinsvis er viral af oprindelse.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data from DrugBank (currently a blocking-adjacent data gap)
-- Danish SmPC / warnings and contraindications data (currently unavailable)
-- Independent clinical or preclinical evidence specifically addressing this drug-indication pair before reconsidering beyond Hold
-- Re-evaluation against alternative, better-evidenced predicted indications for this drug, if available in future evidence pack updates
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet virkningsmekanismedata fra DrugBank (i øjeblikket en tilstødende datakløft)
+- Dansk SmPC / advarsler og kontraindikationerdata (i øjeblikket utilgængelig)
+- Uafhængig klinisk eller præ-klinisk bevis specifikt vedrørende dette lægemiddel-indikationspar, før der kan ske en genvurdering af Vent-statusen
+- Vurdering af alternative, bedre-dokumenterede forudsagte indikationer for dette lægemiddel, hvis tilgængelig i fremtidigt evidenspakke-opdateringer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

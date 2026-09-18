@@ -29,102 +29,103 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gadoteridol: From MRI Contrast Imaging to Osteoarthritis Susceptibility
+# Gadoteridol: Fra MRI-kontrastforstærkning til osteoarthritis-modtagelighed
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Gadoteridol (ProHance®) is a non-ionic, macrocyclic gadolinium-based MRI contrast agent (GBCA), primarily used intravenously to enhance tissue visualisation during MRI examinations.
-The TxGNN model predicts it may be relevant for **Osteoarthritis Susceptibility**, with a prediction score of **98.90%**; however, **no clinical trials and no supporting therapeutic literature** currently exist for this indication.
-The high prediction score most likely reflects a knowledge graph artefact — gadolinium compounds are widely used in OA *diagnostic* imaging, creating network proximity to OA nodes that does not indicate therapeutic activity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | MRI contrast enhancement (not registered in Denmark; based on established international clinical use) |
-| Predicted New Indication | Osteoarthritis Susceptibility |
-| TxGNN Prediction Score | 98.90% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Gadoteridol (ProHance®) er et ikke-ionisk, makrocyklisk gadolinium-baseret MRI-kontrastmiddel (GBCA), primært brugt intravenøst til at forbedre vævsvisualisering under MRI-undersøgelser.
+TxGNN-modellen forudsiger, at det kan være relevant for **Osteoarthritis-modtagelighed**, med en forudsigelsesscore på **98.90%**; dog **findes der ingen kliniske forsøg og ingen understøttende terapeutisk litteratur** for denne indikation.
+Den høje forudsigelsesscore afspejler højst sandsynligt en vidensgraf-netværks-artefakt – gadolinium-forbindelser bruges bredt til OA *diagnostisk* billedbehandling, hvilket skaber netværksnærhed til OA-noder, der ikke indikerer terapeutisk aktivitet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established clinical use, Gadoteridol is a non-ionic, macrocyclic gadolinium chelate (Gd-HP-DO3A) that enhances MRI signal by shortening local T1 relaxation times in surrounding tissue. This allows clearer delineation of lesions, inflammatory tissue, and vascular structures — it has no intended pharmacological interaction with disease pathways.
-
-The predicted indication, *osteoarthritis susceptibility*, is a genetically-defined phenotype describing inherited predisposition to OA — not active joint disease. Gadoteridol has no known molecular targets relevant to OA pathogenesis: it does not interact with cartilage matrix degradation enzymes (MMPs, ADAMTS), chondrocyte signalling cascades, or any genetic susceptibility loci. One theoretical exception exists: free Gd³⁺ ions can block mechanosensitive calcium channels (Piezo1, TRPV4) involved in chondrocyte biology. However, chelated gadoteridol releases negligible free Gd³⁺ at clinical doses, so this mechanism does not translate to a credible therapeutic hypothesis.
-
-The most plausible explanation for the 98.90% TxGNN score is a **knowledge graph network artefact**. Gadolinium-based contrast agents appear extensively in OA research literature — for dual/triple contrast CT cartilage assessment, synovitis MRI evaluation, and proteoglycan quantification — creating strong indirect graph connections to OA-related nodes. The model cannot distinguish between "used to study" and "used to treat." This is a recognised limitation of graph-based repurposing models when diagnostic imaging agents are included in the drug node set.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Gadoteridol in osteoarthritis susceptibility.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | MRI-kontrastforstærkelse (ikke registreret i Danmark; baseret på etableret international klinisk brug) |
+| Forudsagt ny indikation | Osteoarthritis-modtagelighed |
+| TxGNN forudsigelsesscore | 98.90% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Indstilling |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related therapeutic literature available for the osteoarthritis susceptibility indication.
+Detaljerede data om virkemekanisme er ikke tilgængelige i denne Evidence Pack. Baseret på etableret klinisk brug er Gadoteridol et ikke-ionisk, makrocyklisk gadolinium-chelat (Gd-HP-DO3A), der forstærker MRI-signalet ved at forkorte lokale T1-relaxationstider i omgivende væv. Dette giver mulighed for tydeligere afgrænsning af læsioner, inflammatorisk væv og vaskulære strukturer – det har ingen tilsigtet farmakologisk interaktion med sygdomsveje.
 
-> **Contextual note — Osteoarthritis (rank 3, score 98.76%):** Twelve publications were retrieved linking Gadoteridol to osteoarthritis. All 12 papers describe **diagnostic imaging applications only** — not therapeutic interventions. Gadoteridol is used as the non-ionic reference contrast agent in dual- and triple-contrast CT protocols to quantify cartilage proteoglycan content and water distribution. Selected papers are listed below to illustrate the nature of existing evidence.
+Den forudsagte indikation, *osteoarthritis-modtagelighed*, er en genetisk defineret fænotype, der beskriver arvelig prædisposition til OA – ikke aktiv ledsygdom. Gadoteridol har ingen kendt molekylære mål relevant for OA-patogenese: det interagerer ikke med enzymer for cartilago-matrixnedbrydning (MMP'er, ADAMTS), chondrocyt-signalkaskadrene eller nogen genetiske modtageligheds-loci. Én teoretisk undtagelse findes: frie Gd³⁺-ioner kan blokere mekanosensitive calciumkanaler (Piezo1, TRPV4), der er involveret i chondrocyt-biologi. Dog frigiver cheleret gadoteridol ubetydelige mængder frit Gd³⁺ ved kliniske doser, så denne mekanisme oversætter ikke til en troværdig terapeutisk hypotese.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [32525582](https://pubmed.ncbi.nlm.nih.gov/32525582/) | 2020 | Ex vivo imaging | J Orthop Res | Dual-contrast CT (iodine CA4+ + gadoteridol) allows earlier characterisation of cartilage degeneration than single-contrast; gadoteridol acts as non-ionic reference agent |
-| [37593815](https://pubmed.ncbi.nlm.nih.gov/37593815/) | 2024 | Proof of concept | J Orthop Res | Triple contrast CT (BiNPs + CA4+ + gadoteridol) enables simultaneous cartilage segmentation and biomechanical assessment in cadaveric knee joints |
-| [31068614](https://pubmed.ncbi.nlm.nih.gov/31068614/) | 2019 | Synchrotron imaging | Sci Reports | Synchrotron microCT simultaneously quantifies cationic and non-ionic contrast agents in articular cartilage; gadoteridol diffusion reflects water content |
-| [39622931](https://pubmed.ncbi.nlm.nih.gov/39622931/) | 2024 | Proof of concept | Sci Reports | Photon-counting CT with dual-contrast approach tracks gadoteridol diffusion in bovine cartilage over 72 h; correlates with biomechanical properties |
-| [33692379](https://pubmed.ncbi.nlm.nih.gov/33692379/) | 2021 | Quantitative imaging | Sci Reports | Photon-counting CT assesses articular cartilage health using gadoteridol as non-ionic contrast agent |
-| [30816584](https://pubmed.ncbi.nlm.nih.gov/30816584/) | 2019 | Preclinical imaging | J Orthop Res | First application of clinical full-body CT for dual-contrast cartilage imaging using gadoteridol; validates diagnostic approach |
-| [31576504](https://pubmed.ncbi.nlm.nih.gov/31576504/) | 2020 | Ex vivo | Ann Biomed Eng | Triple contrast CT method evaluates cartilage composition and enables segmentation; gadoteridol as non-ionic component |
-| [31535728](https://pubmed.ncbi.nlm.nih.gov/31535728/) | 2020 | Synchrotron MicroCT | J Orthop Res | Dual-contrast technique with gadoteridol reveals full quantitative potential for cartilage composition assessment |
-| [32767676](https://pubmed.ncbi.nlm.nih.gov/32767676/) | 2021 | Mechanistic / diffusion | J Orthop Res | Cartilage constituents (proteoglycans, water, collagen) affect simultaneous diffusion of cationic and non-ionic agents; helps interpret diagnostic accuracy |
-| [27161058](https://pubmed.ncbi.nlm.nih.gov/27161058/) | 2016 | Observational | Eur J Radiol | Dynamic contrast-enhanced MRI (gadolinium) assesses peripatellar synovitis in knee OA and its association with pain |
+Den mest plausible forklaring på TxGNN-scoren på 98.90% er en **vidensgraf-netværks-artefakt**. Gadolinium-baserede kontrastmidler optræder udstrakt i OA-forskningslitteraturen – for dobbelt- og tredobbelt-kontrast CT-vurdering af cartilago, MRI-evaluering af synovitis og proteinoglycanbedømmelse – hvilket skaber stærke indirekte graforbindelser til OA-relaterede noder. Modellen kan ikke skelne mellem "brugt til at studere" og "brugt til at behandle". Dette er en anerkendt begrænsning af graf-baserede repurposing-modeller, når diagnostiske billedbehandlings-midler er inkluderet i lægemiddel-noderne.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-Gadoteridol is **not currently registered or marketed in Denmark**. No national (Lægemiddelstyrelsen) or centralised (EMA) marketing authorisations were identified for this Evidence Pack.
-
-Gadoteridol (ProHance®, Bracco) holds regulatory authorisations in other jurisdictions including the United States (FDA) and the European Union (EMA). Clinicians requiring this contrast agent should consult the SmPC for the applicable authorised product in the relevant jurisdiction.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for Gadoteridol ved osteoarthritis-modtagelighed.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-No drug-specific safety data (warnings, contraindications, or drug interactions) was available in this Evidence Pack.
+Der er i øjeblikket ingen relateret terapeutisk litteratur tilgængelig for osteoarthritis-modtagelighed-indikationen.
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
+> **Kontekstuel note – Osteoarthritis (rang 3, score 98.76%):** Tolv publikationer blev hentet, der forbinder Gadoteridol med osteoarthritis. Alle 12 artikler beskriver **udelukkende diagnostiske billedbehandlings-applikationer** – ikke terapeutiske interventioner. Gadoteridol bruges som det ikke-ioniske referencekontrast-middel i dobbelt- og tredobbelt-kontrast CT-protokoller til at kvantificere cartilago-proteinoglycana-indhold og vandfordeling. Udvalgte artikler er angivet nedenfor for at illustrere arten af eksisterende beviser.
 
-> **General safety considerations for gadolinium-based contrast agents relevant to any repurposing context:**
-> - **Nephrogenic Systemic Fibrosis (NSF):** Gadolinium chelates are contraindicated or require special caution in patients with severe renal impairment (eGFR <30 mL/min/1.73 m²) or acute kidney injury. Macrocyclic agents such as gadoteridol carry lower NSF risk than linear agents, but the risk is not zero.
-> - **Gadolinium tissue deposition:** Repeated or high-dose GBCA administration leads to accumulation of gadolinium in bone, brain (particularly dentate nucleus and globus pallidus), and other tissues. Clinical long-term consequences remain under investigation. This is a critical concern for any hypothetical chronic therapeutic dosing regimen.
-> - **Hypersensitivity:** Anaphylactoid reactions are possible, as with all contrast agents.
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|-------------|
+| [32525582](https://pubmed.ncbi.nlm.nih.gov/32525582/) | 2020 | Ex vivo billedbehandling | J Orthop Res | Dobbelt-kontrast CT (jod CA4+ + gadoteridol) muliggør tidligere karakterisering af cartilago-degeneration end enkelt-kontrast; gadoteridol fungerer som ikke-ionisk referenceagent |
+| [37593815](https://pubmed.ncbi.nlm.nih.gov/37593815/) | 2024 | Proof of concept | J Orthop Res | Tredobbelt-kontrast CT (BiNPs + CA4+ + gadoteridol) muliggør samtidig cartilago-segmentering og biomekansk vurdering i kadaver-knæled |
+| [31068614](https://pubmed.ncbi.nlm.nih.gov/31068614/) | 2019 | Synchrotron-billedbehandling | Sci Reports | Synchrotron-microCT kvantificerer samtidig kationiske og ikke-ioniske kontrastmidler i ledbrusk; gadoteridol-diffusion afspejler vandindhold |
+| [39622931](https://pubmed.ncbi.nlm.nih.gov/39622931/) | 2024 | Proof of concept | Sci Reports | Fotontællings-CT med dobbelt-kontrast-tilgang sporer gadoteridol-diffusion i oksebrusket over 72 timer; korrelerer med biomekanske egenskaber |
+| [33692379](https://pubmed.ncbi.nlm.nih.gov/33692379/) | 2021 | Kvantitativ billedbehandling | Sci Reports | Fotontællings-CT vurderer ledbruskets sundhed ved hjælp af gadoteridol som ikke-ionisk kontrastmiddel |
+| [30816584](https://pubmed.ncbi.nlm.nih.gov/30816584/) | 2019 | Præklinisk billedbehandling | J Orthop Res | Første anvendelse af klinisk full-body CT til dobbelt-kontrast cartilago-billedbehandling ved hjælp af gadoteridol; validerer diagnostisk tilgang |
+| [31576504](https://pubmed.ncbi.nlm.nih.gov/31576504/) | 2020 | Ex vivo | Ann Biomed Eng | Tredobbelt-kontrast CT-metode evaluerer cartilago-sammensætning og muliggør segmentering; gadoteridol som ikke-ionisk komponent |
+| [31535728](https://pubmed.ncbi.nlm.nih.gov/31535728/) | 2020 | Synchrotron-MicroCT | J Orthop Res | Dobbelt-kontrast-teknik med gadoteridol afslører fuldt kvantitativt potentiale for cartilago-sammensætnings-vurdering |
+| [32767676](https://pubmed.ncbi.nlm.nih.gov/32767676/) | 2021 | Mekanistisk/diffusion | J Orthop Res | Cartilago-bestanddele (proteoglycaner, vand, collagen) påvirker samtidig diffusion af kationiske og ikke-ioniske agenter; hjælper med at fortolke diagnostisk nøjagtighed |
+| [27161058](https://pubmed.ncbi.nlm.nih.gov/27161058/) | 2016 | Observationel | Eur J Radiol | Dynamisk kontrastforstærket MRI (gadolinium) vurderer peripatellær synovitis i knæ-OA og dens forbindelse til smerter |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Gadoteridol er **ikke i øjeblikket registreret eller markedsført i Danmark**. Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser blev identificeret for denne Evidence Pack.
 
-**Rationale:**
-The TxGNN prediction score of 98.90% for osteoarthritis susceptibility is almost certainly a knowledge graph false positive: Gadoteridol is a *diagnostic* imaging agent with no pharmacological mechanism relevant to OA pathogenesis, and its frequent appearance in OA imaging research creates spurious network proximity to OA nodes in the knowledge graph. There are no clinical trials, no therapeutic literature, no mechanistic hypothesis, and no approved indication supporting repurposing Gadoteridol as a treatment for osteoarthritis susceptibility or any musculoskeletal disease.
+Gadoteridol (ProHance®, Bracco) har regulatoriske tilladelser i andre jurisdiktioner, herunder USA (FDA) og EU (EMA). Klinikere, der har brug for dette kontrastmiddel, bør konsultere SmPC for det gældende godkendte produkt i den relevante jurisdiktion.
 
-**To proceed, the following would be required:**
+---
 
-- Identification of a biologically plausible therapeutic mechanism connecting Gadoteridol (or chelated gadolinium) to OA susceptibility pathways — currently entirely absent
-- Preclinical in vitro/in vivo studies demonstrating therapeutic efficacy in OA or cartilage disease models, distinct from diagnostic imaging applications
-- MOA data from DrugBank (DG002) to verify or refute any mechanistic hypotheses involving Gd³⁺-mediated ion channel modulation
-- Safety data for chronic/repeated therapeutic dosing, particularly regarding gadolinium tissue deposition (DG001 — TFDA/regulatory SmPC data)
-- A scientific rationale explaining why the TxGNN prediction should be taken as a therapeutic signal rather than a diagnostic imaging artefact
+## Sikkerhedshensyn
+
+Ingen lægemiddelspecifik sikkerhedsdata (advarsler, kontraindikationer eller lægemiddel-vekselvirkninger) var tilgængelig i denne Evidence Pack.
+
+Venligst se den godkendte Summary of Product Characteristics (SmPC) for komplet sikkerhedsinformation.
+
+> **Generelle sikkerhedshensyn for gadolinium-baserede kontrastmidler relevant for enhver repurposing-sammenhæng:**
+> - **Nefrogen systemisk fibrose (NSF):** Gadolinium-chelater er kontraindikeret eller kræver særlig forsigtighed hos patienter med alvorlig nyrefunktionsnedsættelse (eGFR <30 mL/min/1.73 m²) eller akut nyresvigt. Makrocykliske midler som gadoteridol har lavere NSF-risiko end lineære midler, men risikoen er ikke nul.
+> - **Gadolinium-vævsaflejring:** Gentagen eller høj-dosis GBCA-administration fører til akkumulering af gadolinium i knoglen, hjerne (særligt dentate nucleus og globus pallidus) og andre væv. Kliniske langsigtede konsekvenser er stadig under undersøgelse. Dette er et kritisk hensyn for ethvert hypotetisk kronisk terapeutisk doseringsskema.
+> - **Overfølsomhed:** Anafylaktoid reaktioner er mulige, som med alle kontrastmidler.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Indstilling**
+
+**Begrundelse:**
+TxGNN-forudsigelsesscore på 98.90% for osteoarthritis-modtagelighed er næsten med sikkerhed en falsk positiv i vidensgraf: Gadoteridol er et *diagnostisk* billedbehandlings-middel uden farmakologisk mekanisme relevant for OA-patogenese, og dets hyppige fremkomst i OA-billedbehandlings-forskning skaber spuriøs netværksnærhed til OA-noder i vidensgraf. Der er ingen kliniske forsøg, ingen terapeutisk litteratur, ingen mekanistisk hypotese og ingen godkendt indikation, der understøtter repurposing af Gadoteridol som behandling for osteoarthritis-modtagelighed eller nogen muskuloskeletal sygdom.
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- Identificering af en biologisk plausibel terapeutisk mekanisme, der forbinder Gadoteridol (eller cheleret gadolinium) til OA-modtagelighedsveje – i øjeblikket fuldstændig fraværende
+- Prækliniske in vitro/in vivo-studier, der demonstrerer terapeutisk virkning i OA- eller cartilago-sygdomsmodeller, bortset fra diagnostiske billedbehandlings-applikationer
+- MOA-data fra DrugBank (DG002) til at verificere eller afvise nogen mekanistiske hypoteser, der involverer Gd³⁺-medieret ionkanal-modulering
+- Sikkerhedsdata for kronisk/gentaget terapeutisk dosering, særligt vedrørende gadolinium-vævsaflejring (DG001 – TFDA/regulatorisk SmPC-data)
+- En videnskabelig begrundelse, der forklarer, hvorfor TxGNN-forudsigelsen skal tages som et terapeutisk signal snarere end en diagnostisk billedbehandlings-artefakt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

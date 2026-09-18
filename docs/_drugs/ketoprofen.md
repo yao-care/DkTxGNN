@@ -29,76 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the report structure directly (this is a content-generation task per the provided template, not a coding task — no other skill applies).
+# Ketoprofen: Fra smerte og betændelse til Acromesomelic Dysplasia, Hunter-Thompson Type
 
-# Ketoprofen: From Pain and Inflammation to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Sammenfattelse i én sætning
 
-## One-Sentence Summary
-
-Ketoprofen is a non-selective COX-1/COX-2 inhibitor used for pain, inflammation, and fever. The TxGNN model predicts it may be effective for **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare skeletal developmental disorder, but this prediction is currently supported by **no clinical trials and no published literature**, and the model's own rationale flags the mechanistic link as biologically implausible.
+Ketoprofen er en ikke-selektiv COX-1/COX-2-hæmmer, der bruges til smerte, betændelse og feber. TxGNN-modellen forudsiger, at det kan være effektivt til Acromesomelic Dysplasia, Hunter-Thompson Type, en sjælden skelettal udviklingsforstyrelse, men denne forudsigelse understøttes i øjeblikket af ingen kliniske forsøg og ingen offentliggjort litteratur, og modellens egen begrundelse markerer det mekanistiske forbindelsespunkt som biologisk usandsynligt.
 
 ---
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — Ketoprofen holds no marketing authorisation in Denmark, so no Danish-approved indication text exists in this Evidence Pack |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data for this candidate is not available in the Evidence Pack (marked as a Data Gap). Based on the mechanistic notes accompanying the prediction, Ketoprofen is a non-selective COX-1/COX-2 inhibitor with anti-inflammatory, analgesic, and antipyretic activity — a well-established NSAID pharmacology.
-
-However, the predicted indication, Acromesomelic Dysplasia, Hunter-Thompson Type, is a rare genetic skeletal dysplasia caused by *GDF5* mutations, with a pathophysiology centered on bone/cartilage developmental signaling rather than inflammation. The Evidence Pack's own repurposing rationale explicitly states that there is **no known pathological link** between the COX/prostaglandin pathway and this disorder, and that the high TxGNN score most likely reflects graph-embedding similarity rather than a biologically grounded mechanism.
-
-This pattern repeats across the other top-ranked candidates in this pack (brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, and colobomatous microphthalmia-rhizomelic dysplasia syndrome) — all are rare congenital/developmental or fibrotic disorders for which the accompanying rationale text states the mechanistic connection to NSAID pharmacology is weak or absent. This is a case where the model score is high but the biological plausibility narrative is explicitly negative; it should not be read as a validated repurposing hypothesis.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke tilgængeligt — Ketoprofen har ingen markedsføringstilladelse i Danmark, så der findes ingen dansk godkendt indikationstekst i denne Evidenspakke |
+| Forudsagt ny indikation | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| TxGNN-forudsigelsesscore | 99.98% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Detaljerede data for virkningsmekanisme for denne kandidat er ikke tilgængelige i Evidenspakken (markeret som en datalacune). Baseret på de mekanistiske noter, der ledsager forudsigelsen, er Ketoprofen en ikke-selektiv COX-1/COX-2-hæmmer med anti-inflammatorisk, analgetisk og antifebrilt virkning — en veletableret NSAID-farmakologi.
 
----
+Imidlertid er den forudsagte indikation, Acromesomelic Dysplasia, Hunter-Thompson Type, en sjælden genetisk skelettal dyslasi forårsaget af *GDF5*-mutationer, med en patofysiologi, der er centreret omkring knogle-/brusk-udviklingssignalering snarere end betændelse. Evidenspakkens egen omdestillingsrationel angiver eksplicit, at der **ikke er en kendt patologisk forbindelse** mellem COX/prostaglandin-signalvejen og denne forstyrrelse, og at den høje TxGNN-score højst sandsynligt afspejler lighed baseret på graf-indlejring snarere end en biologisk funderet mekanisme.
 
-## Literature Evidence
-
-Currently no related literature available.
+Dette mønster gentager sig blandt de andre højt-rangerede kandidater i denne pakke (brachyolmia-amelogenesis imperfecta-syndrom, myosklerose, brachyolmia og colobomatøs mikroftalmi-rhizomelic dyslasi-syndrom) — alle er sjældne medfødte/udviklings- eller fibrotiske forstyrrelser, for hvilke den medfølgende rationel angiver, at den mekanistiske forbindelse til NSAID-farmakologi er svag eller fraværende. Dette er et tilfælde, hvor modelscoren er høj, men narrativen om biologisk plausibilitet er eksplicit negativ; det bør ikke læses som en valideret omdestillingshypotese.
 
 ---
 
-## Denmark Market Information
+## Kliniske forsøgsbevis
 
-Ketoprofen currently has no marketing authorisations registered in this Evidence Pack (0 licenses; market status: Not marketed). No product-level dosage form or indication data is available for Denmark.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: the underlying data pack flags TFDA/regulatory label warnings and contraindications as a **Blocking** data gap (DG001) — this must be resolved before any safety pre-assessment (S1) can proceed.
+Ingen relaterede kliniske forsøg er i øjeblikket registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
-**Rationale:**
-This candidate has no clinical trial or literature evidence (L5, model prediction only), no Danish marketing authorisation to anchor safety/dosing, and the mechanistic rationale supplied with the prediction itself states the biological link to Ketoprofen's COX-inhibitory pharmacology is weak or absent. There is no basis to advance past the S0 screening stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC-sourced warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
-- An independent, disease-specific biological plausibility assessment for Acromesomelic Dysplasia, Hunter-Thompson Type (given the model's own rationale is skeptical)
-- Any preclinical or case-level evidence connecting NSAID pharmacology to *GDF5*-related skeletal dysplasias, should such data emerge
+## Markedsinformation for Danmark
+
+Ketoprofen har i øjeblikket ingen markedsføringstilladelser registreret i denne Evidenspakke (0 licenser; markedsstatus: Ikke markedsført). Ingen data vedr. doseringsform på produktniveau eller indikation er tilgængelige for Danmark.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte oversigt over produktkarakteristika (SmPC) for sikkerhedsinformationer. Bemærk: det underliggende datapakke markerer TFDA/regulatoriske etiketadvarsler og kontraindikationer som en **blokerende** datalacune (DG001) — dette skal løses, før eventuel foreløbig sikkerhedsvurdering (S1) kan gennemføres.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Denne kandidat har intet klinisk forsøgs- eller litteraturbevis (L5, kun modelforudsigelse), ingen dansk markedsføringstilladelse, der kan forankre sikkerhed og dosering, og den mekanistiske begrundelse medfølgende forudsigelsen angiver selv, at det biologiske forbindelsespunkt til Ketoprofens COX-hemmende farmakologi er svagt eller fraværende. Der er intet grundlag for at avancere forbi S0-screeningsfasen.
+
+**For at fortsætte kræves følgende:**
+- Advarsler og kontraindikationer fra TFDA/SmPC (i øjeblikket en blokerende datalacune)
+- Bekræftet data for virkningsmekanisme (MOA) fra DrugBank eller tilsvarende kilde
+- En uafhængig, sygdomsspecifik vurdering af biologisk plausibilitet for Acromesomelic Dysplasia, Hunter-Thompson Type (givet at modellens egen begrundelse er skeptisk)
+- Eventuelle prækliniske eller kasusniveau-beviser, der forbinder NSAID-farmakologi til *GDF5*-relaterede skeletal dysplasier (skulle sådanne data fremkomme)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

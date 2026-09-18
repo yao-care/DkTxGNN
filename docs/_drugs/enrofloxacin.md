@@ -29,107 +29,108 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Enrofloxacin: From Veterinary Bacterial Infections to Heart Disease
+# Enrofloxacin: Fra veterinære bakterielle infektioner til hjertesygdom
 
-> ⚠️ **Important Notice:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
-
----
-
-## One-Sentence Summary
-
-Enrofloxacin is a fluoroquinolone antibiotic used exclusively in **veterinary medicine** to treat bacterial infections in animals — it has never been approved for human use.
-The TxGNN model predicts it may have relevance for **heart disease**, with **0 clinical trials** and **20 publications** retrieved; however, all publications are veterinary studies with no direct mechanistic link to human cardiac disease.
-The overall evidence for this prediction is extremely weak, and this candidate is not considered suitable for further human drug repurposing development at this time.
+> ⚠️ **Vigtig bemærkning:** Denne rapport er kun til forskningsreference og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddelomvendt brug kræver klinisk validering før anvendelse.
 
 ---
 
-## Quick Overview
+## Resumé på én sætning
 
-| Item | Content |
-|------|---------|
-| Original Indication | Veterinary use only — bacterial infections in animals (not approved for human use) |
-| Predicted New Indication | Heart Disease |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Enrofloxacin er en fluorokinolon-antibiotika, der udelukkende anvendes i **veterinærmedicin** til behandling af bakterielle infektioner hos dyr — det er aldrig blevet godkendt til brug hos mennesker.
+TxGNN-modellen forudsiger, at det kan have relevans for **hjertesygdom**, med **0 kliniske forsøg** og **20 publikationer** hentet; dog er alle publikationer veterinærstudier uden direkte mekanistisk forbindelse til menneskelig hjertesygdom.
+Det overordnede bevis for denne forudsigelse er ekstremt svagt, og denne kandidat anses ikke for passende til yderligere udvikling af lægemiddelomvendt brug hos mennesker på nuværende tidspunkt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Enrofloxacin is a second-generation fluoroquinolone antibiotic that belongs to the same pharmacological class as ciprofloxacin. It acts by inhibiting bacterial DNA gyrase (topoisomerase II) and topoisomerase IV, enzymes essential for bacterial DNA replication and repair. Critically, enrofloxacin is a **veterinary-only** antibiotic; it is not licensed for human use in any jurisdiction.
-
-The mechanistic link between enrofloxacin and heart disease is **extremely weak**. Its antibacterial mechanism of action has no direct relevance to the primary pathological processes underlying human heart disease — including cardiomyopathy, coronary artery disease, or heart failure. The only indirect hypothesis would be that, where heart disease is triggered or complicated by bacterial infection (e.g., bacterial myocarditis or infective endocarditis), an antibiotic might play a supportive role. However, this is a generic antibacterial concept and not specific to enrofloxacin.
-
-Furthermore, fluoroquinolones as a class carry an **FDA black box warning** for risk of aortic aneurysm and aortic dissection, raising specific safety concerns in the context of cardiovascular disease. The retrieved literature consists entirely of veterinary and aquaculture studies, with no human mechanistic or clinical data. The high TxGNN prediction score most likely reflects spurious graph-embedding propagation through shared disease nodes (e.g., cardiac manifestations of bacterial infections in animals) rather than a true pharmacological signal for human repurposing.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for enrofloxacin and heart disease.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Kun veterinær brug — bakterielle infektioner hos dyr (ikke godkendt til mennesker) |
+| Forudsagt ny indikation | Hjertesygdom |
+| TxGNN forudsigelsesscore | 99.94% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Pauseret |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-All retrieved publications are veterinary or preclinical animal studies. None provide direct evidence for human cardiac benefit. The ten most relevant are listed below for completeness.
+Enrofloxacin er en fluorokinolon-antibiotika af anden generation, der tilhører samme farmakologiske klasse som ciprofloxacin. Det virker ved at inhibere bakteriel DNA-gyrase (topoisomerase II) og topoisomerase IV, enzymer, der er essentielle for bakteriel DNA-replikering og reparation. Det er kritisk vigtigt, at enrofloxacin er en **udelukkende veterinær** antibiotika; det er ikke licenseret til brug hos mennesker i nogen jurisdiktion.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [41190687](https://pubmed.ncbi.nlm.nih.gov/41190687/) | 2025 | Case Report (Veterinary) | J Am Anim Hosp Assoc | Dog with *Brucella canis* myocarditis and pericarditis treated with ampicillin/sulbactam + enrofloxacin; cardiac troponin-I markedly elevated |
-| [34157764](https://pubmed.ncbi.nlm.nih.gov/34157764/) | 2021 | Case Report (Veterinary) | Tierarztliche Praxis | Cat with left-sided congestive heart failure and suspected myocarditis following FLUTD treatment (enrofloxacin in treatment context) |
-| [36342628](https://pubmed.ncbi.nlm.nih.gov/36342628/) | 2023 | Case Series (Veterinary) | Vet Res Commun | *Histophilus somni*-induced subacute cardiac death in feedlot cattle; antimicrobial susceptibility including enrofloxacin assessed |
-| [33076564](https://pubmed.ncbi.nlm.nih.gov/33076564/) | 2020 | Review (Veterinary) | Pathogens | *Renibacterium salmoninarum* causes bacterial kidney disease in salmonids with cardiac involvement; enrofloxacin among treatments discussed |
-| [23562103](https://pubmed.ncbi.nlm.nih.gov/23562103/) | 2013 | PK Study (Amphibian) | J AALAS | Enrofloxacin tissue distribution in *Xenopus laevis* including heart tissue; rapid absorption and broad tissue diffusion confirmed |
-| [17269886](https://pubmed.ncbi.nlm.nih.gov/17269886/) | 2007 | Animal Toxicity Study | Am J Vet Res | High-dose oral enrofloxacin in cats caused systemic toxicity; study characterised ocular and systemic adverse effects |
-| [31226987](https://pubmed.ncbi.nlm.nih.gov/31226987/) | 2019 | Toxicology Review (Veterinary) | BMC Vet Res | Fluoroquinolone reproductive and developmental toxicity in birds; adverse effects including cardiovascular manifestations during egg incubation |
-| [17187945](https://pubmed.ncbi.nlm.nih.gov/17187945/) | 2007 | Veterinary Efficacy Study | Vet Microbiol | Enrofloxacin (3 and 5 days) vs amoxicillin/florfenicol for respiratory disease in turkeys with dual bacterial infection following APV priming |
-| [36866813](https://pubmed.ncbi.nlm.nih.gov/36866813/) | 2023 | Case Series (Veterinary) | J Fish Diseases | *Streptococcus iniae* + *Aeromonas veronii* co-infection in Giant snakehead with haemorrhagic signs; enrofloxacin susceptibility tested |
-| [40827537](https://pubmed.ncbi.nlm.nih.gov/40827537/) | 2026 | Case Series (Veterinary) | J Fish Diseases | First report of *Nocardia seriolae* in channel catfish with liver and heart granulomas; antibiotic sensitivity including fluoroquinolones assessed |
+Den mekanistiske forbindelse mellem enrofloxacin og hjertesygdom er **ekstremt svag**. Dets antibakterielle virkningsmekanisme har ingen direkte relevans til de primære patologiske processer, der ligger til grund for menneskelig hjertesygdom — herunder kardiomyopati, koronararteriesygdom eller hjertesvigt. Den eneste indirekte hypotese ville være, at hvor hjertesygdom udløses eller kompliceres af bakteriel infektion (f.eks. bakteriel myokarditis eller infektiv endokarditis), kan en antibiotika spille en støttende rolle. Men dette er et generisk antibakterielt koncept og ikke specifikt for enrofloxacin.
+
+Desuden bærer fluorokinoloner som en klasse en **FDA sort boks-advarsel** for øget risiko for aortaaneurisme og aortadissektion, hvilket rejser specifikke sikkerhedsbetænkeligheder i konteksten af hjertesygdom. Det hentede litteratur består helt og holdent af veterinær- og akvakulturstudier uden menneskelige mekanistiske eller kliniske data. Den høje TxGNN-forudsigelsesscore på 99.94% afspejler højst sandsynligt spuriøs graph-embedding-formering gennem delte sygdomsnoder (f.eks. kardiale manifestationer af bakterielle infektioner hos dyr) snarere end et sandt farmakologisk signal for menneskelig lægemiddelomvendt brug.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsbeviser
 
-Enrofloxacin holds no marketing authorisations in Denmark. It is not registered by the Danish Medicines Agency (Lægemiddelstyrelsen) for human use, nor does it hold a centralised EMA authorisation for human medicine. Enrofloxacin is authorised in Denmark exclusively as a **veterinary medicinal product** under separate veterinary licensing regulation.
-
----
-
-## Safety Considerations
-
-Detailed human safety data (warnings, contraindications, drug interactions) is not available for enrofloxacin, as it is not approved for human use and no human Summary of Product Characteristics (SmPC) exists.
-
-Based on class-level fluoroquinolone pharmacology, the following safety signals are known:
-
-- **Cardiovascular risk:** Fluoroquinolones carry an **FDA black box warning** for increased risk of aortic aneurysm and aortic dissection, which is particularly relevant in the context of any proposed cardiac indication.
-- **Musculoskeletal toxicity:** Fluoroquinolones are associated with tendinopathy, tendon rupture, and chondrotoxicity (cartilage damage), with established contraindications in children and growing animals.
-- **QT prolongation:** Class effect risk of cardiac arrhythmia through QT interval prolongation.
-- **CNS effects:** Potential for seizures and neuropsychiatric reactions (class effect).
-
-Please refer to the veterinary Summary of Product Characteristics and current fluoroquinolone class safety data for further information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for enrofloxacin og hjertesygdom.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+Alle hentede publikationer er veterinær- eller prækliniske dyrestudier. Ingen giver direkte beviser for menneskelig kardial fordel. De ti mest relevante er anført nedenfor for fuldstændighed.
 
-**Rationale:**
-Enrofloxacin is a veterinary-only antibiotic with no human marketing authorisation in Denmark or any other jurisdiction. Its mechanism of action — bacterial DNA gyrase inhibition — has no plausible direct therapeutic link to human heart disease. All retrieved literature consists exclusively of veterinary studies, and no human clinical trials exist. Additionally, fluoroquinolones carry a cardiovascular safety liability (aortic aneurysm/dissection black box warning) that makes cardiac repurposing particularly contraindicated. The high TxGNN score (99.94%) is assessed as a probable false positive arising from graph-embedding propagation through shared bacterial-cardiac disease nodes in the knowledge graph.
-
-**To proceed, the following would be required — though the current benefit-risk profile does not support further development:**
-- Demonstration of a plausible human-specific mechanism of action linking enrofloxacin to cardiac pathophysiology (beyond non-specific antibacterial activity)
-- Human safety data and assessment of cardiovascular risk (particularly aortic dissection risk)
-- At minimum one human observational study or case series before any prospective trial design
-- Regulatory clarity on the use of a veterinary-only compound in human subjects (requires specific veterinary-to-human bridging justification)
-- Ethics review given the known cardiovascular safety signals for the fluoroquinolone class
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|-------------|
+| [41190687](https://pubmed.ncbi.nlm.nih.gov/41190687/) | 2025 | Sagsrapport (veterinær) | J Am Anim Hosp Assoc | Hund med *Brucella canis* myokarditis og perikardit behandlet med ampicillin/sulbactam + enrofloxacin; kardial troponin-I markant forhøjet |
+| [34157764](https://pubmed.ncbi.nlm.nih.gov/34157764/) | 2021 | Sagsrapport (veterinær) | Tierarztliche Praxis | Kat med venstresidigt kongestivt hjertesvigt og mistænkt myokarditis efter FLUTD-behandling (enrofloxacin i behandlingskontekst) |
+| [36342628](https://pubmed.ncbi.nlm.nih.gov/36342628/) | 2023 | Sagsserie (veterinær) | Vet Res Commun | *Histophilus somni*-induceret subakut kardial død hos feedlot-kvæg; antimikrobiel følsomhed herunder enrofloxacin vurderet |
+| [33076564](https://pubmed.ncbi.nlm.nih.gov/33076564/) | 2020 | Oversigt (veterinær) | Pathogens | *Renibacterium salmoninarum* forårsager bakteriel nyresygdom hos laksefisk med kardial involvement; enrofloxacin blandt behandlinger diskuteret |
+| [23562103](https://pubmed.ncbi.nlm.nih.gov/23562103/) | 2013 | PK-undersøgelse (padde) | J AALAS | Enrofloxacin-vævsdistribution hos *Xenopus laevis* inklusive hjertevæv; hurtig absorption og bred vævsdiffusion bekræftet |
+| [17269886](https://pubmed.ncbi.nlm.nih.gov/17269886/) | 2007 | Dyretoksicitets-undersøgelse | Am J Vet Res | Oral enrofloxacin i høje doser hos katte forårsagede systemisk toksicitet; undersøgelse karakteriserede okulære og systemiske bivirkninger |
+| [31226987](https://pubmed.ncbi.nlm.nih.gov/31226987/) | 2019 | Toksikologi-oversigt (veterinær) | BMC Vet Res | Fluorokinolon-reproduktiv og udviklings-toksicitet hos fugle; bivirkninger inklusive kardiovaskulære manifestationer under ægrudning |
+| [17187945](https://pubmed.ncbi.nlm.nih.gov/17187945/) | 2007 | Veterinær effektivitets-undersøgelse | Vet Microbiol | Enrofloxacin (3 og 5 dage) versus amoxicillin/florfenicol for luftvejssygdom hos kalkuner med dual bakteriel infektion efter APV-priming |
+| [36866813](https://pubmed.ncbi.nlm.nih.gov/36866813/) | 2023 | Sagsserie (veterinær) | J Fish Diseases | *Streptococcus iniae* + *Aeromonas veronii* co-infektion hos kæmpe slangehoved med hæmorrhagiske tegn; enrofloxacin-følsomhed testet |
+| [40827537](https://pubmed.ncbi.nlm.nih.gov/40827537/) | 2026 | Sagsserie (veterinær) | J Fish Diseases | Første rapport af *Nocardia seriolae* hos kanalslangen med lever- og hjertegranulomer; antibiotikaæølsomhed inklusive fluorokinoloner vurderet |
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require rigorous clinical validation before any clinical application. Data cut-off: 5 April 2026.*
+## Markedsinformation Danmark
+
+Enrofloxacin har ingen markedsføringstilladelser i Danmark. Det er ikke registreret af Lægemiddelstyrelsen til brug hos mennesker, og det har heller ikke en centraliseret EMA-godkendelse for humanmedicin. Enrofloxacin er i Danmark godkendt udelukkende som et **veterinært lægemiddel** under separat veterinær licensieringsregulering.
+
+---
+
+## Sikkerhedsbetænkeligheder
+
+Detaljerede menneskelige sikkerhedsdata (advarsler, kontraindikationer, lægemiddelinteraktioner) er ikke tilgængelige for enrofloxacin, da det ikke er godkendt til menneskelig brug og der eksisterer ingen menneskelig produktresumé (SmPC).
+
+Baseret på fluorokinolon-farmakologi på klasseniveau er følgende sikkerhedssignaler kendt:
+
+- **Kardiovaskular risiko:** Fluorokinoloner bærer en **FDA sort boks-advarsel** for øget risiko for aortaaneurisme og aortadissektion, hvilket er særligt relevant i konteksten af enhver foreslået kardial indikation.
+- **Muskuloskeletalt toksicitet:** Fluorokinoloner er forbundet med tendinopati, seneruptur og chondrotoksicitet (bruskskade), med etablerede kontraindikationer hos børn og voksende dyr.
+- **QT-forlængelse:** Klassisk effekt-risiko for hjertearytmi gennem QT-interval-forlængelse.
+- **CNS-effekter:** Potentiale for kramper og neuropsykiatriske reaktioner (klassisk klasseffekt).
+
+Se venligst det veterinære produktresumé og aktuelle fluorokinolon-klasse sikkerhedsdata for yderligere information.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Pauseret**
+
+**Begrundelse:**
+Enrofloxacin er en udelukkende veterinær antibiotika uden menneskelig markedsføringstilladelse i Danmark eller nogen anden jurisdiktion. Dets virkningsmekanisme — inhibition af bakteriel DNA-gyrase — har ingen plausibel direkte terapeutisk forbindelse til menneskelig hjertesygdom. Alt hentet litteratur består helt og holdent af veterinærstudier, og der eksisterer ingen menneskelige kliniske forsøg. Desuden bærer fluorokinoloner et kardiovaskular sikkerhedsansvar (aortaaneurisme/aortadissektion sort boks-advarsel), der gør kardial lægemiddelomvendt brug særligt kontraindiceret. Den høje TxGNN-score på 99.94% vurderes som et sandsynligt falsk positivt resultat, der stammer fra graph-embedding-formering gennem delte bakteriel-kardiale sygdomsnoder i vidensgrafen.
+
+**For at fortsætte ville følgende være påkrævet — selvom den aktuelle fordel-risiko-profil ikke understøtter yderligere udvikling:**
+- Demonstration af en plausibel menneskelig-specifik virkningsmekanisme, der forbinder enrofloxacin til kardial patofysiologi (ud over ikke-specifik antibakteriel aktivitet)
+- Menneskelige sikkerhedsdata og vurdering af kardiovaskular risiko (især aortadissektion-risiko)
+- Mindst ét menneskelig observationelt studie eller sagsserie før enhver prospektiv forsøgsdesign
+- Regulatorisk klarhed på brugen af en udelukkende veterinær forbindelse hos mennesker (kræver specifik veterinær-til-menneskelig brobyggende begrundelse)
+- Etisk vurdering givet de kendte kardiovaskulare sikkerhedssignaler for fluorokinolon-klassen
+
+---
+
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomvendt brug kræver stringent klinisk validering før enhver klinisk anvendelse. Datasnit: 5. april 2026.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

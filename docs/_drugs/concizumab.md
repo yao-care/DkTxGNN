@@ -29,85 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Concizumab: From Haemophilia to Diabetic Cataract
+# Concizumab: Fra Hæmofili til Diabetisk Katarakt
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Concizumab is a humanised monoclonal antibody targeting Tissue Factor Pathway Inhibitor (TFPI), currently in clinical development for haemophilia A and B, where it restores thrombin generation by inhibiting the TFPI-mediated brake on coagulation.
-The TxGNN model predicts it may be effective for **Diabetic Cataract**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction is rated **L5** (model prediction only) and carries a **Hold** recommendation pending mechanistic plausibility review and safety clarification.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Haemophilia A and B (investigational; no approved indication on record in Denmark) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.27% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Concizumab er et humaniseret monoklonalt antistof, der retter sig mod Tissue Factor Pathway Inhibitor (TFPI), og er under klinisk udvikling for hæmofili A og B, hvor det genskaber trombin-generering ved at inhibere TFPI-medieret bremsning af koagulation.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk Katarakt**, med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning.
+Denne forudsigelse er klassificeret som **L5** (kun modelforudsigelse) og medfører en **Hold**-anbefaling, der afventer mekanistisk plausibilitetsgennemgang og præcisering af sikkerhed.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on information embedded in the repurposing rationale fields, Concizumab is an anti-TFPI antibody that exerts a **procoagulant** effect — it blocks TFPI, thereby relieving the inhibition of the extrinsic coagulation pathway and restoring haemostasis in haemophilia patients.
-
-Diabetic cataract is caused by an entirely distinct pathophysiological process: chronic hyperglycaemia drives sorbitol accumulation in the lens via the aldose reductase pathway, generates advanced glycation end-products (AGEs), and creates oxidative stress that progressively denatures lens crystallin proteins. **There is no established mechanistic link** between TFPI inhibition or coagulation pathway modulation and lens protein aggregation or oxidative damage.
-
-The high TxGNN score (98.27%) most likely reflects a **graph-structural artefact**: the knowledge graph contains a densely connected "diabetes" comorbidity hub, and the model propagates signal indirectly from Concizumab → haemophilia → diabetes complications → diabetic cataract nodes, without this representing a direct pharmacological relationship. An additional concern is that Concizumab's procoagulant properties may be **unsafe** in diabetic patients, who already have elevated microvascular thrombotic risk; use could theoretically worsen retinal vein occlusion or other ocular microvascular complications.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Concizumab in any cataract indication.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Hæmofili A og B (under undersøgelse; ingen godkendt indikation registreret i Danmark) |
+| Forudsagt ny indikation | Diabetisk Katarakt |
+| TxGNN-forudsigelsesscore | 98,27% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for Concizumab in any cataract indication.
+Detaljerede virkningsmekanisme-data er ikke tilgængelige i det aktuelle Evidence Pack. Baseret på oplysninger indlejret i begrundelsesfelterne for omformål er concizumab et anti-TFPI-antistof, der har en **prokoagulant** effekt — det blokerer TFPI og derved aflaster inhibitionen af den eksrinse koagulationsvej og genskaber hemostase hos patienter med hæmofili.
 
----
+Diabetisk katarakt er forårsaget af en helt anden patofysiologisk proces: kronisk hyperglykæmi driver sorbitol-ophobning i linsen via aldosreduktase-vejen, genererer avancerede glykerings-slutprodukter (AGE'er) og skaber oxidativt stress, der gradvist denaturerer linseprotein-krystalliner. **Der er ingen etableret mekanistisk forbindelse** mellem TFPI-inhibition eller koagulationsvejs-modulering og linseprotein-ophobning eller oxidativ skade.
 
-## Denmark Market Information
-
-Concizumab has no marketing authorisations in Denmark (neither national Laegemiddelstyrelsen nor centralised EMA authorisations). The drug is not currently marketed in Denmark.
+Den høje TxGNN-score (98,27%) afspejler sandsynligvis en **graf-strukturel artefakt**: vidensgrafen indeholder en tæt forbundet "diabetes" komorbiditets-hub, og modellen udbreder signal indirekte fra Concizumab → hæmofili → diabetes-komplikationer → diabetisk katarakt-knuder, uden at dette repræsenterer en direkte farmakologisk forhold. En yderligere bekymring er, at Concizumabs prokoagulante egenskaber kan være **usikre** hos diabetiske patienter, som allerede har forhøjet mikrovaskular tromboserisiko; brug kunne teoretisk forværre retinal venetrombose eller andre okkulare mikrovaskulære komplikationer.
 
 ---
 
-## Safety Considerations
+## Kliniske forsøgsbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) and the Investigator's Brochure (IB) for full safety information, as no labelled safety data were available in this Evidence Pack.
-
-Based on the drug's pharmacological class, the following potential concerns are flagged for awareness:
-
-- **Procoagulant risk in diabetic patients**: Concizumab enhances thrombin generation. Diabetic patients carry an intrinsically elevated thrombotic and hypercoagulable state; administration of an anti-TFPI antibody in this population may increase the risk of microvascular thrombotic events, including retinal vein occlusion.
-- **Bleeding/thrombosis balance**: As an agent that shifts haemostasis toward coagulation, any use outside its intended haemophilia indication requires careful haematological risk assessment.
+Ingen relaterede kliniske forsøg er i øjeblikket registreret for concizumab i nogen katarakt-indikation.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relateret litteratur er i øjeblikket tilgængelig for concizumab i nogen katarakt-indikation.
 
-**Rationale:**
-The TxGNN prediction score is high, but the mechanistic analysis indicates no plausible biological link between TFPI inhibition and cataract formation; the prediction is most likely a graph-structural false positive arising from shared diabetes comorbidity nodes in the knowledge graph. Furthermore, the procoagulant mechanism of Concizumab raises specific safety concerns in the target diabetic patient population, and there is a complete absence of supporting clinical or preclinical evidence (L5).
+---
 
-**To proceed, the following would be needed:**
+## Markedsinformation for Danmark
 
-- **Biological plausibility study**: Identification of any peer-reviewed hypothesis or preclinical data linking TFPI or coagulation pathway components to lens oxidative stress or crystallin aggregation — none currently exists.
-- **MOA data retrieval**: Full DrugBank and published pharmacology data for Concizumab to confirm or exclude any off-target ocular mechanisms.
-- **Safety assessment in diabetic population**: Dedicated coagulation risk modelling before any further evaluation in patients with diabetes mellitus.
-- **Regulatory status clarification**: Confirm current clinical development phase and whether any EMA marketing authorisation application is planned, to assess the realistic pathway to a Danish repurposing study.
-- **Re-evaluation of TxGNN output**: Given that ranks 1–10 are entirely occupied by cataract subtypes sharing near-identical scores (0.9816–0.9827), this cluster should be formally reviewed as a potential systematic model artefact before being taken forward as a repurposing signal.
+Concizumab har ingen markedsføringstilladelser i Danmark (hverken nationale Laegemiddelstyrelsen eller centraliserede EMA-godkendelser). Medicinen markedsføres ikke i øjeblikket i Danmark.
 
-> **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktresumé (SmPC) og forskerbrochuren (IB) for fuldstændig sikkerhedsinformation, da ingen mærket sikkerhedsdata var tilgængelige i dette Evidence Pack.
+
+Baseret på lægemidlets farmakologiske klasse opregnes følgende potentielle bekymringer til kendskab:
+
+- **Prokoagulant risiko hos diabetiske patienter**: Concizumab øger trombin-generering. Diabetiske patienter har en iboende forhøjet trombose- og hyperkoagulabel tilstand; administration af et anti-TFPI-antistof i denne befolkning kan øge risikoen for mikrovaskulære trombotiske hændelser, herunder retinal venetrombose.
+- **Blødnings-/trombosebalance**: Som et middel, der skifter hemostase mod koagulation, kræver enhver brug uden for dets tilsigtede hæmofili-indikation nøje hæmatologisk risikoevaluering.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+TxGNN-forudsigelsesscore er høj, men mekanistisk analyse indikerer ingen plausibel biologisk forbindelse mellem TFPI-inhibition og katarakt-dannelse; forudsigelsen er sandsynligvis en graf-strukturel falsk positiv, der opstår fra delte diabetes-komorbitidets-knuder i vidensgrafen. Desuden rejser Concizumabs prokoagulante mekanisme specifikke sikkerhedsproblemer i målpopulationen af diabetiske patienter, og der er fuldstændig mangel på understøttende kliniske eller prækliniske bevis (L5).
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- **Biologisk plausibilitets-undersøgelse**: Identifikation af hypoteser eller prækliniske data i peer-reviewed litteratur, der forbinder TFPI eller koagulationsvejs-komponenter med linse-oxidativt stress eller krystallin-ophobning — ingen findes i øjeblikket.
+- **MOA-data-hentning**: Fuldstændige DrugBank og publicerede farmakologi-data for concizumab for at bekræfte eller udelukke eventuelt off-target okkulære mekanismer.
+- **Sikkerhedsevaluering i diabetisk befolkning**: Dedikeret koagulationsrisiko-modellering før yderligere evaluering hos patienter med diabetes mellitus.
+- **Præcisering af regulatorisk status**: Bekræft nuværende klinisk udviklingsfase og om nogen EMA-markedsføringstilladelsesansøgning er planlagt, for at vurdere den realistiske vej til et dansk omformål-forsøg.
+- **Genevaluering af TxGNN-output**: I betragtning af, at rangering 1–10 helt optages af katarakt-undertyper med næsten identiske score (0,9816–0,9827), bør denne klynge formelt gennemgås som en potentiel systematisk modelartefakt, før den fremsættes som et omformål-signal.
+
+> **Ansvarsfraskrivelse:** Denne rapport er til brug som forskningsreference og udgør ikke medicinsk rådgivning. Kandidater til medicin-omformål kræver klinisk validering før nogen terapeutisk anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

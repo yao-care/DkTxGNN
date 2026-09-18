@@ -29,70 +29,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the report template directly — this is a document-generation task with the full spec already supplied, no additional skill applies.
+# Lonafarnib: Fra uspecificeret original indikation til spedalskhed
 
-A few data-quality notes before the report: `predicted_indications[0]` (rank 1, Leprosy) is the required subject per the template, but it carries **zero** supporting evidence (L5, model-score only) — its own `repurposing_rationale` explicitly states there is no mechanistic link. The evidence pack also has no `original_indications`, no `original_moa`, and no Danish licenses on file. I've reported these gaps transparently rather than filling them from outside knowledge, per the "no guessing / no data-gap fabrication" rules. I also flagged the higher-evidence rheumatoid arthritis candidate (rank 3, L4) in the conclusion since it's materially relevant to the recommendation.
+## Et-sætnings sammenfatning
 
----
+> Lonafarnib's oprindelige godkendte indikation er ikke dokumenteret i de tilgængelige data (DrugBank ID DB06448; virkningsmekanisme registreret som et datahul).
+> TxGNN-modellen forudsiger mulig effektivitet for **spedalskhed**, med en forudsigelsesscore på **99.14%**,
+> men i øjeblikket **ingen kliniske forsøg og ingen publikationer** understøtter denne specifikke kombination — forudsigelsen er kun baseret på modelresultater.
 
-# Lonafarnib: From Unspecified Original Indication to Leprosy
+## Kort oversigt
 
-## One-Sentence Summary
-
-> Lonafarnib's original approved indication is not documented in the available data (DrugBank ID DB06448; mechanism of action recorded as a data gap).
-> The TxGNN model predicts possible effectiveness for **Leprosy**, with a prediction score of **99.14%**,
-> but currently **zero clinical trials and zero publications** support this specific pairing — the prediction is model-score only.
-
-## Quick Overview
-
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Not documented in available data |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke dokumenteret i tilgængelige data |
+| Forudsagt ny indikation | Spedalskhed |
+| TxGNN forudsigelsesscore | 99.14% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen kliniske eller litteraturmæssige beviser) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data for Lonafarnib is not available in the current dataset (flagged as a High-severity data gap). Supporting rationale text elsewhere in the evidence pack identifies Lonafarnib as a farnesyltransferase (FTase) inhibitor, which blocks farnesylation of Ras and related proteins — but this description was supplied only as background context for other candidate indications, not as a validated MOA record for this drug.
+Detaljerede data om virkningsmekanisme for Lonafarnib er ikke tilgængelige i det aktuelle datasæt (markeret som et datahul med høj alvorlighed). Understøttende tekstuel begrundelse andetsteds i bevispakken identificerer Lonafarnib som en farnesyltransferase (FTase)-inhibitor, som blokerer farnesylering af Ras og beslægtede proteiner — men denne beskrivelse blev leveret kun som baggrundskontekst for andre kandidatindikationer, ikke som en valideret MOA-post for dette lægemiddel.
 
-For the top-ranked prediction, Leprosy, the evidence pack explicitly states there is **no known mechanistic connection** between farnesyltransferase inhibition and *Mycobacterium leprae* infection pathology. The prediction is derived solely from the TxGNN knowledge-graph score, with no corroborating clinical trials, literature, or biological rationale identified to date.
+For den toprangerede forudsigelse, spedalskhed, angiver bevispakken eksplicit, at der er **ingen kendt mekanisk forbindelse** mellem farnesyltransferase-inhibition og *Mycobacterium leprae*-infektionspatologi. Forudsigelsen er udelukkende afledt af TxGNN-vidensgrafscore, uden understøttende kliniske forsøg, litteratur eller biologisk begrundelse identificeret til dato.
 
-Because the original indication is also undocumented, it is not currently possible to assess pharmacological continuity between Lonafarnib's established use and Leprosy. This combination of an unsupported mechanistic link and the absence of any original-indication context is why the evidence level is scored at the lowest tier (L5) and the recommendation defaults to Hold.
+Da den oprindelige indikation også er udokumenteret, er det i øjeblikket ikke muligt at vurdere farmakologisk kontinuitet mellem Lonafarnib's etablerede brug og spedalskhed. Denne kombination af et usupporteret mekanistisk link og fraværet af enhver oprindelig indikationskontekst er grunden til, at bevisniveauet er scoret på det laveste niveau (L5) og anbefalingen som standard er "Vent".
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret
 
-## Literature Evidence
+## Bevis fra litteratur
 
-Currently no related literature available
+Der er i øjeblikket ingen relateret litteratur tilgængelig
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-No marketing authorisations are currently registered for Lonafarnib in Denmark (market status: Not marketed; 0 licenses on file).
+Der er i øjeblikket ingen markedsføringstilladelser registreret for Lonafarnib i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser på fil).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-*(Danish label warnings/contraindications are recorded as a Blocking-severity data gap — this must be resolved before any safety pre-assessment (S1) can proceed. No drug-drug interaction data was found in the source query.)*
+*(Advarselslabel og kontraindikationer for Danmark/EU er registreret som et datahul med blokkeringssværehedsgrad — dette skal løses før nogen sikkerhedsvurdering (S1) kan gennemføres. Der blev ikke fundet data om lægemiddel-lægemiddel-interaktioner i kildesøgningen.)*
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-The top-ranked prediction (Leprosy) is supported only by a TxGNN graph score, with no clinical trials, no literature, and no plausible mechanistic link identified — evidence level L5 does not meet the threshold to advance past initial screening (S0).
+**Begrundelse:**
+Den toprangerede forudsigelse (spedalskhed) understøttes udelukkende af en TxGNN-grafscore, uden kliniske forsøg, uden litteratur og uden plausibel mekanistisk link identificeret — bevisniveauet L5 opfylder ikke tærsklen for at gå videre end indledende screening (S0).
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings and contraindications (Blocking data gap — required before any safety pre-assessment)
-- Verified mechanism of action for Lonafarnib
-- Documentation of Lonafarnib's original approved indication(s), to assess continuity with any new candidate
-- If pursuing repurposing further, consider prioritizing the rheumatoid arthritis candidate instead (evidence level L4, one supporting mechanistic-pathway publication, though not drug-specific), rather than Leprosy which currently has no evidentiary support at all
+**For at kunne fortsætte, er følgende nødvendig:**
+- SmPC-advarsler og kontraindikationer for Danmark/EU (Blokkeringsdatahul — påkrævet før nogen sikkerhedsvurdering)
+- Verificeret virkningsmekanisme for Lonafarnib
+- Dokumentation af Lonafarnib's oprindeligt godkendte indikation(er) for at vurdere kontinuitet med enhver ny kandidatindikation
+- Hvis man ønsker at fortsætte med repurposing, skal man overveje at prioritere reumatoid arthritis-kandidaten i stedet (bevisniveau L4, en understøttende mekanisme-vejpublikation, selvom ikke lægemiddelspecifik) snarere end spedalskhed, som i øjeblikket slet ikke har nogen bevismæssig belæg
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

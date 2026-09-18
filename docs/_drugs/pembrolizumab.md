@@ -29,82 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pembrolizumab: From Oncology (PD-1 Checkpoint Inhibitor) to Gingival Fibromatosis
+# Pembrolizumab: Fra Onkologi (PD-1-Checkpoint-Inhibitor) til Gingivitis Fibromatosa
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Pembrolizumab is a PD-1 immune checkpoint inhibitor whose established biological context (per the literature attached to this evidence pack) is oncology, including indications such as non-small cell lung cancer and urothelial carcinoma. The TxGNN model's top-ranked prediction is **Gingival Fibromatosis**, but this evidence pack currently contains **0 clinical trials and 0 publications** supporting the link, and the model's own mechanistic rationale states there is no known biological relationship between PD-1 blockade and this condition.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (`taiwan_regulatory.licenses` and `drug.original_indications` are both empty; contextual literature references PD-1 checkpoint blockade in oncology, e.g., NSCLC, urothelial carcinoma) |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Pembrolizumab er en PD-1-immunkontrolpunkt-inhibitor, hvis etablerede biologiske kontekst (ifølge den litteratur, der er vedhæftet denne evidenspakke) er onkologi, herunder indikationer som ikke-småcellet lungecancer og urothelial carcinoma. TxGNN-modellens højest rangerede forudsigelse er **Gingivitis Fibromatosa**, men denne evidenspakke indeholder i øjeblikket **0 kliniske forsøg og 0 publikationer**, som dokumenterer forbindelsen, og modellens egen mekanistiske vurdering angiver, at der ikke er kendt biologisk sammenhæng mellem PD-1-blokering og denne tilstand.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available for Pembrolizumab in this evidence pack (`original_moa` is flagged as a data gap). Based on the contextual information present elsewhere in the pack, Pembrolizumab is a monoclonal antibody targeting the PD-1 immune checkpoint, with established oncology use (referenced indications include non-small cell lung cancer and urothelial carcinoma). Its known mechanism works by blocking the PD-1/PD-L1 interaction to reactivate cytotoxic T-cell–mediated antitumour immunity.
-
-Gingival fibromatosis, in contrast, is a benign hereditary connective-tissue disorder (often associated with genes such as *SOS1*), driven by fibroblast proliferation and extracellular matrix accumulation. It is not a malignancy and does not involve tumour immune evasion — the biological process that PD-1 checkpoint blockade is designed to reverse.
-
-The evidence pack's own mechanistic assessment is explicit on this point: the high TxGNN score is attributed to graph-embedding similarity within the knowledge graph rather than to any validated pharmacological or mechanistic relationship. No clinical trials, literature, or mechanistic studies support this candidate, and no biological rationale connecting PD-1 blockade to gingival fibromatosis pathology has been identified.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke angivet i evidenspakke (`taiwan_regulatory.licenses` og `drug.original_indications` er begge tomme; kontekstuel litteratur henviser til PD-1-checkpoint-blokering inden for onkologi, f.eks. ikke-småcellet lungecancer, urothelial carcinoma) |
+| Forudsagt ny indikation | Gingivitis Fibromatosa |
+| TxGNN-forudsigelsesscore | 99.40% |
+| Bevisniveau | L5 (modelforudsigelse alene — ingen kliniske forsøg eller litteratur) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Bibeholder |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data for virkningsmekanisme ikke tilgængelige for Pembrolizumab i denne evidenspakke (`original_moa` er markeret som et datakløft). Baseret på de informationer, der foreligger andetsteds i pakken, er Pembrolizumab et monoklonalt antistof rettet mod PD-1-immunkontrolpunktet, med etableret onkologisk anvendelse (refererede indikationer omfatter ikke-småcellet lungecancer og urothelial carcinoma). Dets kendte virkningsmekanisme fungerer ved at blokere PD-1/PD-L1-interaktionen for at reaktivere cytotoksisk T-celle-medieret anti-tumorimmunitet.
 
----
+Gingivitis fibromatosa er derimod en velgørende arveligt bindevævsforstyrrelse (ofte forbundet med gener som *SOS1*), drevet af fibroblastvækst og ekstracellulær matrixophobning. Det er ikke en ondartedhed og involverer ikke immunundvigelse fra tumor — den biologiske proces, som PD-1-checkpoint-blokering er designet til at reversere.
 
-## Cytotoxicity
-
-Pembrolizumab is an antineoplastic agent (PD-1 immune checkpoint inhibitor), based on the oncology context referenced throughout this evidence pack's literature (e.g., NSCLC, urothelial carcinoma treatment settings).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (immune checkpoint inhibitor — anti-PD-1 monoclonal antibody), not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions (no myelosuppression data in this evidence pack) |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions (no emetogenicity data in this evidence pack) |
-| Monitoring Items | Endocrine function (thyroid, pituitary-adrenal axis) — supported by a case report elsewhere in this pack describing pituitary hypoadrenocorticism and hypothyroidism following immunochemotherapy; also monitor for atypical/rapid progression patterns ("hyperprogression"), as reported in a separate case series involving pembrolizumab |
-| Handling Protection | As an intravenous oncology biologic, handle per institutional biologic/oncology infusion protocols; standard cytotoxic-drug spill precautions are not applicable since pembrolizumab is not a conventional cytotoxic agent |
+Evidenspakkens egen mekanistiske vurdering er eksplicit på dette punkt: den høje TxGNN-score tilskrives graf-embedding-lighed inden for vidensgrafen snarere end til nogen valideret farmakologisk eller mekanistisk sammenhæng. Ingen kliniske forsøg, litteratur eller mekanistiske studier understøtter denne kandidat, og ingen biologisk mekanisme, der forbinder PD-1-blokering med gingivitis fibromatosa-patologi, er blevet identificeret.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (`safety.key_warnings`, `safety.contraindications`, and `safety.ddi` are all marked as data gaps in this evidence pack — see DG001, classified as Blocking severity.)
+I øjeblikket er der ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The top-ranked prediction (Gingival Fibromatosis) has no supporting clinical trials or literature, and the evidence pack's own mechanistic analysis explicitly states there is no known biological link between PD-1 checkpoint blockade and this condition. Combined with a Blocking-severity data gap on TFDA-equivalent labelling (warnings/contraindications) and a "Not marketed" status with 0 authorisations, there is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Product label warnings and contraindications (DG001, Blocking — required before any S1 safety screening can proceed)
-- Verified mechanism of action data for Pembrolizumab (DG002)
-- Any mechanistic or preclinical evidence specifically linking PD-1 blockade to gingival fibromatosis pathology (none currently identified)
-- Note: a lower-ranked candidate in this same evidence pack, **Lung Hilum Carcinoma** (score 99.35%, Evidence Level L4, recommendation "Research Question"), shows substantially higher biological plausibility given Pembrolizumab's known NSCLC-related mechanism. Its current literature support is limited to two case reports describing adverse events (not efficacy) in other cancer types. It is worth confirming whether this reflects a genuine unstudied indication or a data-capture gap relative to Pembrolizumab's existing large-scale Phase 3 NSCLC evidence, before treating it as a novel repurposing signal.
+## Cytotoksicitet
+
+Pembrolizumab er et antineoplastisk middel (PD-1-immunkontrolpunkt-inhibitor) baseret på den onkologi-kontekst, der er refereret gennem hele denne evidenspakkes litteratur (f.eks. ikke-småcellet lungecancer, behandling af urothelial carcinoma).
+
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoksicitetsklassificering | Immunterapi (immunkontrolpunkt-inhibitor — anti-PD-1 monoklonalt antistof), ikke et konventionelt cytotoksisk middel |
+| Myelosuppressionrisiko | Se venligst advarsler og forsigtighedsregler i Produktresuméet (SmPC) (ingen myelosuppressiondata i denne evidenspakke) |
+| Emetogenicitetsklassificering | Se venligst advarsler og forsigtighedsregler i Produktresuméet (SmPC) (ingen emetogenicitetsdata i denne evidenspakke) |
+| Overvågningspunkter | Endokrin funktion (skjoldbruskkirtel, hypofyse-binyrebark-akse) — understøttet af en kasuistik andetsteds i denne pakke, der beskriver hypofysær hypoadrenokorticism og hypothyroidisme efter immunokemoterapi; også overvågning for atypiske/hurtig progredierende mønstre ("hyperprogression"), som rapporteret i en separat kasuistikkeserie involverende pembrolizumab |
+| Håndteringsbeskyttelse | Som en intravenøs onkologisk biologikum, håndter ifølge institutionelle biologikum-/onkologi-infusionsprotokoller; standardforsigtighedsregler ved cytotoksisk lægemiddelspild er ikke relevante, da pembrolizumab ikke er et konventionelt cytotoksisk middel |
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformationer. (`safety.key_warnings`, `safety.contraindications` og `safety.ddi` er alle markeret som datakløfter i denne evidenspakke — se DG001, klassificeret som blokeringsgrad.)
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Bibeholder**
+
+**Begrundelse:**
+Den højest rangerede forudsigelse (Gingivitis Fibromatosa) har ingen understøttende kliniske forsøg eller litteratur, og evidenspakkens egen mekanistiske vurdering angiver eksplicit, at der ikke er kendt biologisk sammenhæng mellem PD-1-checkpoint-blokering og denne tilstand. Kombineret med et datakløft med blokeringsgrad på TFDA-svarende mærkning (advarsler/kontraindikationer) og en status som "Ikke markedsført" med 0 tilladelser, er der utilstrækkelig grundlag for at fremme denne kandidat.
+
+**For at fortsætte er følgende nødvendigt:**
+- Produktmærkning advarsler og kontraindikationer (DG001, Blokeringsgrad — påkrævet før nogen S1-sikkerhedsscreening kan fortsætte)
+- Verificeret virkningsmekanisme-data for Pembrolizumab (DG002)
+- Enhver mekanistisk eller præklinisk evidens, der specifikt forbinder PD-1-blokering med gingivitis fibromatosa-patologi (ingen i øjeblikket identificeret)
+- Bemærk: en lavere rangeret kandidat i samme evidenspakke, **Lungerodscarcinoma** (score 99.35%, Bevisniveau L4, anbefaling "Research Question"), viser væsentligt højere biologisk plausibilitet givet Pembrolizumabs kendt ikke-småcellet lungecancer-relaterede mekanisme. Dens nuværende litteraturstøtte er begrænset til to kasuistikker, der beskriver bivirkninger (ikke effektivitet) i andre kræfttyper. Det er værd at bekræfte, om dette afspejler en genuint ustuderet indikation eller et data-capture-kløft i forhold til Pembrolizumabs eksisterende omfattende Phase 3-evidens for ikke-småcellet lungecancer, før det behandles som et nyt ombrugnings-signal.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

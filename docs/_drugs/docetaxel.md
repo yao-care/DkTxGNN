@@ -29,129 +29,130 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Docetaxel: From Advanced Solid Tumour Chemotherapy to Female Breast Carcinoma
+# Docetaxel: Fra avanceret solidtumor-kemoterapı til brystkarcinom hos kvinder
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Docetaxel (Taxotere®) is a second-generation taxane cytotoxic agent with established efficacy across multiple solid tumour types, including breast cancer, non-small cell lung cancer, prostate cancer, and gastric cancer.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma** with a confidence score of **99.90%**,
-supported by **50 registered clinical trials** and **20 publications** in the evidence base, including multiple completed Phase 3 RCTs enrolling thousands of patients.
+Docetaxel (Taxotere®) er et anden-generations taxan-cytostatikum med etableret effektivitet over flere solide tumortyper, herunder brystkræft, ikke-småcellet lungekræft, prostatakræft og mavekræft.
+TxGNN-modellen forudsiger, at det kan være effektivt for **brystkarcinom hos kvinder** med en prediktionsscore på **99.90%**,
+understøttet af **50 registrerede kliniske forsøg** og **20 publikationer** i evidensgrundlaget, herunder flere afsluttede fase 3-randomiserede kontrollerede forsøg (RCT'er), der omfattede tusinder af patienter.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not captured in the Danish Medicines Agency database (data collection gap — Docetaxel holds EMA centralised authorisations for breast cancer, NSCLC, prostate cancer, gastric cancer, and head and neck cancer) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not registered in database (data collection gap — EMA centralised authorisations are valid in Denmark) |
-| Number of Marketing Authorisations | 0 (data collection gap) |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ikke registreret i Lægemiddelstyrelsen database (dataindsamlingsgab — Docetaxel har EMA centraliserede godkendelser til brystkræft, ikke-småcellet lungekræft, prostatakræft, mavekræft og hoved- og halskræft) |
+| Forudsagt ny indikation | Brystkarcinom hos kvinder |
+| TxGNN-prediktionsscore | 99.90% |
+| Evidensniveau | L1 |
+| Markeds-status i Danmark | Ikke registreret i database (dataindsamlingsgab — EMA centraliserede godkendelser er gyldig i Danmark) |
+| Antal markedsføringstilladelser | 0 (dataindsamlingsgab) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Docetaxel is a semisynthetic taxane derived from the European yew tree (*Taxus baccata*). It acts by binding to and stabilising the β-tubulin subunit of assembled microtubules, preventing their depolymerisation. This disrupts normal mitotic spindle dynamics, arresting tumour cells in the G2/M phase and ultimately triggering apoptosis. Unlike vinca alkaloids — which inhibit microtubule polymerisation — docetaxel promotes microtubule hyperstabilisation, making it particularly potent against rapidly dividing cells. Docetaxel also inhibits the anti-apoptotic proteins Bcl-2 and Bcl-xL by preventing their phosphorylation, thereby lowering the apoptotic threshold in cancer cells. (Note: mechanism of action data was not retrieved from DrugBank in this evidence pack; the above reflects established pharmacological knowledge.)
+Docetaxel er et semi-syntetisk taxan afledt fra europæisk taksstræ (*Taxus baccata*). Det virker ved at binde til og stabilisere β-tubulin-subenheden af samlede mikrotubuli, hvilket forhindrer deres depolymerisering. Dette forstyrrer normal mitotisk spindelmekanik, stillestiller tumorceller i G2/M-fasen og udløser i sidste ende apoptose. I modsætning til vinkalaloider — som hæmmer mikrotubuli-polymerisering — fremmer docetaxel mikrotubuli-hyperstabilisering, hvilket gør det særligt potent mod hurtigt delende celler. Docetaxel hæmmer også anti-apoptotiske proteiner Bcl-2 og Bcl-xL ved at forhindre deres fosforylering, hvorved apoptose-tærsklen sænkes i kræftceller. (Bemærk: data om virkningsmekanisme blev ikke hentet fra DrugBank i denne evidenspakke; ovenstående afspejler etableret farmakologisk viden.)
 
-Female breast carcinoma — particularly the HER2-positive and triple-negative (TNBC) subtypes — is characterised by rapid cellular proliferation and strong dependence on intact mitotic machinery. Docetaxel's dual mechanism of microtubule stabilisation and Bcl-2 inhibition is therefore directly applicable to these highly proliferative tumour cells. The drug also demonstrates synergistic activity when combined with anthracyclines (doxorubicin, epirubicin), HER2-targeted antibodies (trastuzumab, pertuzumab), and VEGF inhibitors (bevacizumab), all of which are standard combination partners in breast cancer treatment protocols.
+Brystkarcinom hos kvinder — især HER2-positiv og triple-negativ (TNBC) subtyper — er karakteriseret ved hurtig celledeling og stærk afhængighed af intakt mitotisk maskineri. Docetaxels dobbelt-mekanisme for mikrotubuli-stabilisering og Bcl-2-hæmning er derfor direkte brugbar til disse meget proliferative tumorceller. Lægemidlet viser også synergistisk aktivitet ved kombination med antracykliner (doxorubicin, epirubicin), HER2-målrettede antistoffer (trastuzumab, pertuzumab) og VEGF-hæmmere (bevacizumab), som alle er standard kombinationspartnere i protokoller til brystkræftbehandling.
 
-The TxGNN prediction of 99.90% is strongly corroborated by decades of clinical evidence: docetaxel has been a cornerstone of breast cancer chemotherapy since its initial regulatory approval in the mid-1990s. It is active and guideline-recommended in adjuvant, neoadjuvant, and metastatic settings, with robust Phase 3 data supporting its use across all major breast cancer subtypes. The model's prediction is essentially a high-confidence confirmation of established clinical practice.
+TxGNN-forudsigelsen på 99.90% bliver stærkt understøttet af årtiers klinisk evidens: docetaxel har været hjørnestenen i brystkræft-kemoterapı siden dets oprindelige regulatoriske godkendelse i midten af 1990'erne. Det er aktivt og retningslinjeanbefalet i adjuvant, neoadjuvant og metastatisk sammenhæng, med robust fase 3-data, der understøtter dets brug på tværs af alle vigtigste brystkræft-subtyper. Modelens forudsigelse er i det væsentlige en høj-tillids-bekræftelse af etableret klinisk praksis.
 
 ---
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Antal indskrevne | Vigtigste resultater |
 |-------------|-------|--------|------------|--------------|
-| [NCT00054587](https://clinicaltrials.gov/study/NCT00054587) | Phase 3 | Completed | 3,010 | Large multicenter RCT comparing Docetaxel 75 mg/m² + Epirubicin versus FEC100 in node-positive non-metastatic breast cancer; sequential Herceptin added in HER2+++ subgroup — among the largest Phase 3 trials directly evaluating docetaxel in breast cancer |
-| [NCT00333775](https://clinicaltrials.gov/study/NCT00333775) | Phase 3 | Completed | 736 | AVADO trial: double-blind RCT of Bevacizumab (7.5 or 15 mg/kg) plus Docetaxel versus Docetaxel plus placebo as first-line treatment in HER2-negative metastatic breast cancer |
-| [NCT00887536](https://clinicaltrials.gov/study/NCT00887536) | Phase 3 | Completed | 1,613 | Three-arm RCT: TC (Docetaxel+Cyclophosphamide) ± Bevacizumab versus TAC (Docetaxel+Doxorubicin+Cyclophosphamide) in node-positive or high-risk HER2-negative early breast cancer |
-| [NCT01572038](https://clinicaltrials.gov/study/NCT01572038) | Phase 3 | Completed | 1,436 | PERUSE study: Pertuzumab + Trastuzumab + Taxane (docetaxel, paclitaxel, or nab-paclitaxel) as first-line treatment in HER2-positive advanced breast cancer — evaluated safety and tolerability in a real-world-like setting |
-| [NCT00004125](https://clinicaltrials.gov/study/NCT00004125) | Phase 3 | Completed | N/A | AC chemotherapy followed by weekly versus every-3-weeks Docetaxel or Paclitaxel in axillary node-positive Stage II/IIIA breast cancer — compared taxane scheduling |
-| [NCT01354522](https://clinicaltrials.gov/study/NCT01354522) | Phase 3 | Completed | 204 | TAC (Docetaxel+Doxorubicin+Cyclophosphamide) versus TCX (Docetaxel+Cyclophosphamide+Capecitabine) as adjuvant treatment in high-risk HER2-negative breast cancer |
-| [NCT00047099](https://clinicaltrials.gov/study/NCT00047099) | Phase 3 | Completed | 446 | FEC versus EC-Docetaxel (sequential) as adjuvant chemotherapy in primary breast cancer — evaluated disease-free and overall survival post-surgery |
-| [NCT00963729](https://clinicaltrials.gov/study/NCT00963729) | Phase 3 | Completed | 756 | Neoadjuvant combination chemotherapy (docetaxel-based) versus letrozole in postmenopausal patients with primary breast cancer — compared pathological complete response and tumour downstaging |
-| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Phase 2 | Completed | 148 | Randomised Phase II pilot: Carboplatin versus Docetaxel in women with metastatic BRCA-mutation-positive breast cancer — directly compared docetaxel efficacy |
-| [NCT00217672](https://clinicaltrials.gov/study/NCT00217672) | Phase 2 | Completed | 76 | Randomised Phase II: Docetaxel with or without Bevacizumab as first-line therapy in HER2-negative metastatic breast cancer — evaluated docetaxel as monotherapy backbone |
+| [NCT00054587](https://clinicaltrials.gov/study/NCT00054587) | Fase 3 | Afsluttet | 3.010 | Stort multikenter-RCT, der sammenlignede docetaxel 75 mg/m² + epirubicin versus FEC100 i knudepositivt ikke-metastatisk brystkræft; sekventiel Herceptin blev tilføjet i HER2+++ undergruppe — blandt de største fase 3-forsøg, der direkte evaluerede docetaxel i brystkræft |
+| [NCT00333775](https://clinicaltrials.gov/study/NCT00333775) | Fase 3 | Afsluttet | 736 | AVADO-forsøg: dobbeltblindt RCT af bevacizumab (7,5 eller 15 mg/kg) plus docetaxel versus docetaxel plus placebo som førsteline-behandling i HER2-negativ metastatisk brystkræft |
+| [NCT00887536](https://clinicaltrials.gov/study/NCT00887536) | Fase 3 | Afsluttet | 1.613 | Tre-arms RCT: TC (docetaxel+cyklofosfamid) ± bevacizumab versus TAC (docetaxel+doxorubicin+cyklofosfamid) i knudepositivt eller høj-risiko HER2-negativ tidlig brystkræft |
+| [NCT01572038](https://clinicaltrials.gov/study/NCT01572038) | Fase 3 | Afsluttet | 1.436 | PERUSE-studie: pertuzumab + trastuzumab + taxan (docetaxel, paclitaxel eller nab-paclitaxel) som førsteline-behandling i HER2-positiv avanceret brystkræft — evaluerede sikkerhed og tolerabilitet i en virkeligheds-nær indstilling |
+| [NCT00004125](https://clinicaltrials.gov/study/NCT00004125) | Fase 3 | Afsluttet | N/A | AC-kemoterapı fulgt af ugentligt versus hver 3 uger docetaxel eller paclitaxel i aksillær knude-positiv stadium II/IIIA brystkræft — sammenlignede taxan-tidsplan |
+| [NCT01354522](https://clinicaltrials.gov/study/NCT01354522) | Fase 3 | Afsluttet | 204 | TAC (docetaxel+doxorubicin+cyklofosfamid) versus TCX (docetaxel+cyklofosfamid+capecitabin) som adjuvant behandling i høj-risiko HER2-negativ brystkræft |
+| [NCT00047099](https://clinicaltrials.gov/study/NCT00047099) | Fase 3 | Afsluttet | 446 | FEC versus EC-docetaxel (sekventiel) som adjuvant kemoterapı i primær brystkræft — evaluerede sygdomsfri og samlet overlevelse efter kirurgi |
+| [NCT00963729](https://clinicaltrials.gov/study/NCT00963729) | Fase 3 | Afsluttet | 756 | Neoadjuvant kombinationskemoterapı (docetaxel-baseret) versus letrozol i postmenopausale kvinder med primær brystkræft — sammenlignede patologisk fuldstændig respons og tumornedgang |
+| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Fase 2 | Afsluttet | 148 | Randomiseret fase II-pilot: carboplatin versus docetaxel i kvinder med metastatisk BRCA-mutations-positiv brystkræft — sammenlignede docetaxel-effektivitet direkte |
+| [NCT00217672](https://clinicaltrials.gov/study/NCT00217672) | Fase 2 | Afsluttet | 76 | Randomiseret fase II: docetaxel med eller uden bevacizumab som førsteline-terapi i HER2-negativ metastatisk brystkræft — evaluerede docetaxel som monoterapi-grundlag |
 
-*EudraCT (EU Clinical Trials Register) identifiers were not available in the evidence pack for the above trials.*
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | ABC Trials (USOR 06-090, NSABP B-46-I/USOR 07132, NSABP B-49): assessed whether TC×6 is non-inferior to anthracycline-taxane (TaxAC) combinations as adjuvant therapy in early breast cancer |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Prospective Phase II | Breast Cancer (Tokyo) | Docetaxel + cyclophosphamide + trastuzumab (HER-TC) as neoadjuvant chemotherapy for HER2-positive primary breast cancer; evaluated pCR rates by hormone receptor status and tolerability |
-| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Phase II | Oncology | Multicenter Phase II study of weekly docetaxel + gemcitabine as first-line treatment for metastatic breast cancer; assessed clinical efficacy, toxicity, and dose intensity |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug Ther Bull | Early comparative review of paclitaxel and docetaxel in breast and ovarian cancer; documents the initial clinical evidence base and licensing context for both taxanes |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohort | Anti-Cancer Drugs | Retrospective cohort study evaluating the association between adjuvant docetaxel-based chemotherapy and breast cancer-related lymphedema in Stage II/III patients |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Phase I/II | Cancer | Capecitabine + docetaxel + epirubicin (TEX regimen) as first-line treatment for locally advanced or metastatic breast carcinoma; assessed activity and toxicity profile |
-| [19755993](https://pubmed.ncbi.nlm.nih.gov/19755993/) | 2009 | Translational/Cohort | Br J Cancer | Microarray gene expression profiling to identify predictive markers of pathological complete response (pCR) to trastuzumab-docetaxel based treatment in HER2-positive breast carcinoma |
-| [19856651](https://pubmed.ncbi.nlm.nih.gov/19856651/) | 2009 | Phase I/II | Tumori | Docetaxel + gemcitabine dose-finding study in metastatic breast cancer patients previously treated with anthracyclines; explored weekly scheduling for improved tolerability |
-| [15585076](https://pubmed.ncbi.nlm.nih.gov/15585076/) | 2004 | Phase II | Clin Breast Cancer | Phase II trial of docetaxel + cisplatin as primary neoadjuvant chemotherapy for locally advanced breast cancer (tumours ≥5 cm); evaluated pCR rates and downstaging before mastectomy |
-| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | Phase I/II | Oncology (NY) | Early review of combination docetaxel/vinorelbine in metastatic breast cancer and NSCLC; documents single-agent and combination activity data from Phase I/II trials |
+*EudraCT (EU Clinical Trials Register)-identifikatorer var ikke tilgængelige i evidenspakken for ovenstående forsøg.*
 
 ---
 
-## Denmark Market Information
+## Evidens fra litteratur
 
-The Danish Medicines Agency database query returned **0 marketing authorisations** for Docetaxel. This is almost certainly a **data collection gap** rather than genuine non-availability in Denmark. Docetaxel (Taxotere®, originator: Sanofi-Aventis/Accord Healthcare) and multiple generic formulations hold valid EMA centralised marketing authorisations applicable across all EU/EEA member states, including Denmark. A manual verification with Lægemiddelstyrelsen and the EMA EPAR database is strongly recommended before clinical planning.
+| PMID | År | Type | Journal | Vigtigste resultater |
+|------|-----|------|---------|--------------|
+| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | ABC-forsøg (USOR 06-090, NSABP B-46-I/USOR 07132, NSABP B-49): vurderede, om TC×6 ikke er ringere end antracyklin-taxan (TaxAC) kombinationer som adjuvant terapi i tidlig brystkræft |
+| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Prospektiv fase II | Breast Cancer (Tokyo) | Docetaxel + cyklofosfamid + trastuzumab (HER-TC) som neoadjuvant kemoterapı for HER2-positiv primær brystkræft; evaluerede patologisk fuldstændig respons-rater efter hormonreceptorstatus og tolerabilitet |
+| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Fase II | Oncology | Multikenter fase II-studie af ugentligt docetaxel + gemcitabin som førsteline-behandling for metastatisk brystkræft; vurderede klinisk effektivitet, toksicitet og dosisintensitet |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Oversigt | Drug Ther Bull | Tidlig sammenlignende oversigt over paclitaxel og docetaxel i brystkræft og æggestokkræft; dokumenterer det indledende kliniske evidensgrundlag og licensieringskontekst for begge taxaner |
+| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Kohortestudie | Anti-Cancer Drugs | Retrospektiv kohortestudie, der evaluerede sammenhængen mellem adjuvant docetaxel-baseret kemoterapı og brystkræftrelateret lymfødem hos stadium II/III-patienter |
+| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Fase I/II | Cancer | Capecitabin + docetaxel + epirubicin (TEX-regime) som førsteline-behandling for lokalt avanceret eller metastatisk brystkarcinom; vurderede aktivitet og toksicitetsprofil |
+| [19755993](https://pubmed.ncbi.nlm.nih.gov/19755993/) | 2009 | Translationel/kohort | Br J Cancer | Mikro-array genekspressionsprofilering til identifikation af prediktive markører for patologisk fuldstændig respons (pCR) til trastuzumab-docetaxel-baseret behandling i HER2-positiv brystkarcinom |
+| [19856651](https://pubmed.ncbi.nlm.nih.gov/19856651/) | 2009 | Fase I/II | Tumori | Docetaxel + gemcitabin dosis-fund studie i metastatisk brystkræft-patienter tidligere behandlet med antracykliner; undersøgte ugentlig dosering for forbedret tolerabilitet |
+| [15585076](https://pubmed.ncbi.nlm.nih.gov/15585076/) | 2004 | Fase II | Clin Breast Cancer | Fase II-forsøg af docetaxel + cisplatin som primær neoadjuvant kemoterapı for lokalt avanceret brystkræft (tumorer ≥5 cm); evaluerede pCR-rater og tumornedgang før mastektomi |
+| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | Fase I/II | Oncology (NY) | Tidlig oversigt over kombination docetaxel/vinkristin i metastatisk brystkræft og ikke-småcellet lungekræft; dokumenterer enkelt-medicin- og kombinationsaktivitetsdata fra fase I/II-forsøg |
 
-Pending manual verification, the following authorisations are expected to be retrievable:
+---
 
-| Expected Product | Dosage Form | Holder | Status |
+## Markedsinformation for Danmark
+
+Databaseforespørgslen fra Lægemiddelstyrelsen returnerede **0 markedsføringstilladelser** for docetaxel. Dette er næsten helt sikkert et **dataindsamlingsgab** snarere end ægte ikke-tilgængelighed i Danmark. Docetaxel (Taxotere®, indehaver: Sanofi-Aventis/Accord Healthcare) og flere generiske formuleringer har gyldige EMA-centraliserede markedsføringstilladelser, der gælder på tværs af alle EU/EØS-medlemslande, herunder Danmark. En manuel verifikation med Lægemiddelstyrelsen og EMA EPAR-databasen anbefales kraftigt før klinisk planlægning.
+
+Mens manuel verifikation afventer, forventes følgende tilladelser at være hentbare:
+
+| Forventet produkt | Lægeform | Indehaver | Status |
 |-----------------|-------------|--------|--------|
-| Taxotere® (originator) | Concentrate for solution for infusion | Sanofi-Aventis | Centralised EMA (EU-wide) |
-| Docetaxel generics | Concentrate for solution for infusion | Multiple MAHs | Centralised EMA (EU-wide) |
+| Taxotere® (originalvare) | Koncentrat til infusionsvæske, opløsning | Sanofi-Aventis | Centraliseret EMA (EU-bredt) |
+| Docetaxel-generika | Koncentrat til infusionsvæske, opløsning | Flere MAH'er | Centraliseret EMA (EU-bredt) |
 
 ---
 
-## Cytotoxicity
+## Cytostatisk aktivitet
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Taxane class (antimicrotubule / microtubule-stabilising agent) |
-| Myelosuppression Risk | **High** — neutropenia is the dose-limiting toxicity; febrile neutropenia occurs in approximately 10–15% of patients at standard doses (75–100 mg/m²) without G-CSF prophylaxis; prophylactic G-CSF (e.g., filgrastim, pegfilgrastim) is recommended in most regimens |
-| Emetogenicity Classification | Low to moderate (ASCO/MASCC classification: low emetogenic potential at standard monotherapy doses; may increase with combination regimens) |
-| Monitoring Items | Complete blood count with differential (before each cycle and at nadir), liver function tests (bilirubin, ALT, AST, alkaline phosphatase — dose modifications required for hepatic impairment), body weight and oedema monitoring for fluid retention syndrome, peripheral neuropathy assessment (NCI-CTCAE grading) |
-| Handling Protection | Classified as a hazardous cytotoxic drug — preparation and administration must follow cytotoxic handling regulations; closed system transfer devices (CSTDs) recommended during compounding; full personal protective equipment (gloves, gown, eye protection, and mask) required |
+| Cytostatisk klassifikation | Konventionel cytostatikum — taxan-klasse (antimikrotubuli / mikrotubuli-stabiliserende middel) |
+| Knoglemarvssuppression-risiko | **Høj** — neutropeni er dose-begrænsende toksicitet; febril neutropeni forekommer i cirka 10–15% af patienterne ved standard-doseringer (75–100 mg/m²) uden G-CSF-profylakse; profylaktisk G-CSF (f.eks. filgrastim, pegfilgrastim) anbefales i de fleste kemoterapiregimer |
+| Emetogenitet-klassifikation | Lav til moderat (ASCO/MASCC-klassifikation: lav emetisk potentiale ved standard-monoterapi-doseringer; kan stige ved kombinationsregimer) |
+| Overvågningspunkter | Fuldblodtælling med differentialtælling (før hver cykel og ved nadir), leverfunktionstests (bilirubin, ALT, AST, alkalisk fosfatase — dosisjustering påkrævet ved hepatal påvirkning), legemsvægt og ødempannering for væskeretenionssyndrom, periferisk neuropati-vurdering (NCI-CTCAE-graduering) |
+| Håndteringsbeskyttelse | Klassificeret som farlig cytostatisk medicin — tilberedning og administration skal følge cytostatiske håndteringsregler; lukkede systemtransferenheder (CSTD'er) anbefales under tilberedning; fuld personlig beskyttelsesudstyr (handsker, kittel, øjenbeskyttelse og maske) påkræves |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information. No formal safety data was captured from the Danish/EU regulatory database in this evidence pack.
+Se venligst det godkendte resumé af produktkarakteristika (SmPK) for fuldstændig sikkerhedsinformation. Ingen formelle sikkerhedsdata blev indfanget fra den danske/EU-regulatoriske database i denne evidenspakke.
 
-Based on established pharmacological knowledge, the following safety areas require clinical attention:
+Baseret på etableret farmakologisk viden kræver følgende sikkerhedsområder klinisk opmærksomhed:
 
-- **Hypersensitivity reactions**: Pre-medication with oral corticosteroids (typically dexamethasone 8 mg twice daily, starting the day before docetaxel administration for 3 days) is **mandatory** to reduce the risk of severe hypersensitivity reactions and cumulative fluid retention syndrome.
-- **Severe neutropenia**: Neutropenia is the primary dose-limiting toxicity; prophylactic G-CSF should be considered per ESMO/ASCO guidelines. Dose reductions are required following Grade 4 or febrile neutropenia.
-- **Fluid retention syndrome**: Cumulative and progressive, managed with corticosteroid premedication; severe or refractory cases may require dose reduction or treatment discontinuation.
-- **Cumulative peripheral sensory neuropathy**: Grade 2 or higher neuropathy typically requires dose reduction; Grade 3–4 requires treatment discontinuation.
+- **Overfølsomhedsreaktioner**: Forbehandling med orale kortikosteroider (typisk dexamethason 8 mg to gange dagligt, startende dagen før docetaxel-administration i 3 dage) er **obligatorisk** for at reducere risikoen for alvorlige overfølsomhedsreaktioner og kumulativ væskeretenionssyndrom.
+- **Alvorlig neutropeni**: Neutropeni er den primære dose-begrænsende toksicitet; profylaktisk G-CSF bør overvejes i henhold til ESMO/ASCO-retningslinjer. Dosisreduktioner er påkrævet efter grad 4 eller febril neutropeni.
+- **Væskeretenionssyndrom**: Kumulativt og progressivt, styret med kortikosteroid-forbehandling; alvorlige eller refraktære tilfælde kan kræve dosisreduktion eller behandling stoppes.
+- **Kumulativ periferisk sensorisk neuropati**: Grad 2 eller højere neuropati kræver typisk dosisreduktion; grad 3–4 kræver behandlingsstop.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
-**Rationale:**
-The evidence base for Docetaxel in female breast carcinoma represents the highest available evidence level (L1), underpinned by multiple completed Phase 3 RCTs with combined enrolment of several thousand patients across adjuvant, neoadjuvant, and metastatic settings. The TxGNN prediction of 99.90% is a high-confidence confirmation of established international clinical practice. The primary barrier to deployment in the Danish context is a data collection gap in the local regulatory database — not any clinical efficacy concern.
+**Begrundelse:**
+Evidensgrundlaget for docetaxel i brystkarcinom hos kvinder repræsenterer det højeste tilgængelige evidensniveau (L1), understøttet af flere afsluttede fase 3-RCT'er med kombineret indskrivning af flere tusinde patienter på tværs af adjuvant, neoadjuvant og metastatisk sammenhænge. TxGNN-forudsigelsen på 99.90% er en høj-tillids bekræftelse af etableret international klinisk praksis. Den primære barriere for udrulning i den danske sammenhæng er et dataindsamlingsgab i den lokale regulatoriske database — ikke nogen klinisk effektivitemsbekymring.
 
-**To proceed, the following is needed:**
-- Verify Danish/EU marketing authorisation status directly with Lægemiddelstyrelsen and the EMA centralised authorisation database (search for Taxotere® and docetaxel generic products)
-- Retrieve the current EU SmPC for complete contraindications, warnings, drug interaction data, dosing guidance, and dose modification rules for hepatic impairment
-- Confirm corticosteroid pre-medication protocols and G-CSF prophylaxis strategies aligned with Danish/Nordic oncology guidelines (e.g., Danish Breast Cancer Group — DBCG)
-- Establish a safety monitoring plan covering: neutropenia surveillance, fluid retention management, peripheral neuropathy grading, and hepatic function monitoring
-- Identify the appropriate breast cancer subgroup and partner regimen (e.g., docetaxel + trastuzumab ± pertuzumab for HER2-positive disease; docetaxel + cyclophosphamide or anthracycline-based regimens for HER2-negative disease) in alignment with current ESMO and DBCG clinical practice guidelines
+For at fortsætte er følgende nødvendigt:
+- Verificer dansk/EU-markedsføringstilladelse-status direkte med Lægemiddelstyrelsen og EMA centraliseret tilladelsesdatabase (søg efter Taxotere® og docetaxel-generika produkter)
+- Indhent det aktuelle EU SmPK for fuldstændig kontraindikationer, advarsler, lægemiddelinteraktionsdata, doseringsvejledning og dosisjusteringer ved hepatal påvirkning
+- Bekræft kortikosteroid-forbehandlings-protokoller og G-CSF-profylakse-strategier i overensstemmelse med danske/nordiske onkologi-retningslinjer (f.eks. Dansk Brystkræft-gruppe — DBCG)
+- Etabler en sikkerhedsovervågningsplan dækkende: neutropeni-overvågning, væskeretenion-ledelse, periferisk neuropati-graduering og hepatisk funktions-overvågning
+- Identificer den relevante brystkræft-undergruppe og partner-regime (f.eks. docetaxel + trastuzumab ± pertuzumab for HER2-positiv sygdom; docetaxel + cyklofosfamid eller antracyklin-baserede regimer for HER2-negativ sygdom) i overensstemmelse med aktuelle ESMO og DBCG kliniske praksis-retningslinjer
 
-> **Disclaimer**: This report is intended for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All treatment decisions must be based on approved SmPC, current clinical guidelines, and individual patient assessment.
+> **Ansvarsfraskrivelse**: Denne rapport er beregnet til forskningsreferenceformål alene og udgør ikke medicinsk rådgivning. Lægemiddelgenbrugskandidater kræver klinisk validering før anvendelse. Alle behandlingsbeslutninger skal baseres på godkendt SmPK, aktuelle kliniske retningslinjer og individuel patientvurdering.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

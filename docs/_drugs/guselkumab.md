@@ -29,87 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Guselkumab: From Plaque Psoriasis to Drug-Induced Osteoporosis
+# Guselkumab: Fra plaque-psoriasis til lægemiddelinduceret osteoporose
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Guselkumab (Tremfya®) is a fully human monoclonal antibody that selectively blocks the IL-23 p19 subunit, globally approved for moderate-to-severe plaque psoriasis and psoriatic arthritis, but currently not marketed in Denmark.
-The TxGNN model assigns its highest prediction score to **Drug-Induced Osteoporosis** (99.84%), suggesting a potential new therapeutic direction via the IL-23/RANKL bone resorption pathway.
-However, there are currently **no clinical trials** and **no publications** directly supporting this specific indication, resulting in weak overall evidence for this repurposing direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; globally approved for moderate-to-severe plaque psoriasis (Tremfya®, Janssen) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Guselkumab (Tremfya®) er et fuldt humant monoklonal antistof, der selektivt blokerer IL-23 p19-underenheden, og som er globalt godkendt til moderat til svær plaque-psoriasis og psoriasisartritis, men i øjeblikket ikke markedsført i Danmark.
+TxGNN-modellen tildeler den højeste prognosescore til **lægemiddelinduceret osteoporose** (99.84%), hvilket tyder på en mulig ny terapeutisk retning via IL-23/RANKL-knogleresorptionsvej.
+Der er imidlertid i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, der direkte understøtter denne specifikke indikation, hvilket resulterer i svag samlet evidens for denne lægemiddelgenbrugretning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data from DrugBank is not available for guselkumab. Based on established scientific and clinical knowledge, guselkumab selectively binds the p19 subunit of interleukin-23 (IL-23), blocking the IL-23/Th17/IL-17 inflammatory axis. In psoriasis, IL-23 is overexpressed in lesional skin, driving Th17 cell differentiation and promoting secretion of IL-17A/F and IL-22, which in turn trigger keratinocyte hyperproliferation and epidermal inflammation. This mechanism is directly validated by multiple completed Phase 3 trials and constitutes guselkumab's FDA/EMA-approved therapeutic basis.
-
-The theoretical link to drug-induced osteoporosis builds on IL-17's downstream role in bone metabolism: IL-17 can upregulate RANKL expression on osteoblasts and stromal cells, thereby promoting osteoclast differentiation and bone resorption. Blocking IL-23 upstream could theoretically reduce RANKL-mediated bone loss in an inflammatory context.
-
-However, **drug-induced osteoporosis** — as a distinct clinical entity — is predominantly caused by direct bone metabolism disruption from glucocorticoids (suppressing osteoblastogenesis, enhancing osteoclastogenesis via RANKL/OPG imbalance), aromatase inhibitors (oestrogen deprivation), or other agents. These pathophysiological mechanisms operate largely independently of the IL-23/Th17 axis. The proposed mechanistic link is therefore indirect and speculative, and no preclinical or clinical evidence currently supports guselkumab's use in this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for guselkumab in drug-induced osteoporosis.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; globalt godkendt til moderat til svær plaque-psoriasis (Tremfya®, Janssen) |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
+| TxGNN-prognosescore | 99.84% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-Currently no related literature available for guselkumab in drug-induced osteoporosis.
+I øjeblikket er detaljerede mekanisme-data fra DrugBank ikke tilgængelige for guselkumab. Baseret på etableret videnskabelig og klinisk viden bindes guselkumab selektivt til p19-underenheden af interleukin-23 (IL-23) og blokerer IL-23/Th17/IL-17-inflammatoriske akse. I psoriasis overudtrykkes IL-23 i læsionshud, driver Th17-celledifferentiering og fremmer sekretion af IL-17A/F og IL-22, som igen udløser keratinocythyperproliferation og epidermal inflammation. Denne mekanisme er direkte valideret af flere gennemførte fase 3-forsøg og udgør grundlaget for guselkumabs FDA/EMA-godkendte terapeutiske virkning.
 
----
+Den teoretiske forbindelse til lægemiddelinduceret osteoporose bygger på IL-17s nedstrømsrolle i knoglemetabolisme: IL-17 kan opregulere RANKL-ekspression på osteoblaster og stromale celler, hvorved osteoklastedifferentiering og knogleresorption fremmes. Blokering af IL-23 opstrøms kunne teoretisk reducere RANKL-medieret knogletab i en inflammatorisk sammenhæng.
 
-## Denmark Market Information
-
-Guselkumab is not registered in Denmark according to the current dataset. No marketing authorisation records are held by Laegemiddelstyrelsen in this system.
-
-> **Note for clinicians**: Tremfya® (guselkumab) holds a centralised EMA marketing authorisation for moderate-to-severe plaque psoriasis and active psoriatic arthritis in adults. Healthcare professionals should verify the current Laegemiddelstyrelsen and EMA authorisation status through the [EMA product page](https://www.ema.europa.eu) or the Danish Medicines Agency's Medicinpriser database before prescribing.
+Imidlertid er **lægemiddelinduceret osteoporose** — som en særskilt klinisk enhed — overvejende forårsaget af direkte knoglemetabolismeforstyrrelser fra glucocorticoider (der undertrykker osteoblastogenese, forbedrer osteoklastedifferentiering via RANKL/OPG-ubalance), aromatasehæmmere (østrogenmangel) eller andre midler. Disse patofysiologiske mekanismer fungerer stort set uafhængigt af IL-23/Th17-aksen. Den foreslåede mekanistiske forbindelse er derfor indirekte og spekulativ, og der er i øjeblikket ingen præ-klinisk eller klinisk evidens, der understøtter guselkumabs brug i denne indikation.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-Although TxGNN assigns a very high prediction score (99.84%) to drug-induced osteoporosis, the proposed mechanism relies on an indirect IL-23/IL-17/RANKL pathway that is not the primary driver of drug-induced bone loss. The complete absence of supporting preclinical data, clinical trials, and published literature prevents progression beyond model-level prediction at this time.
-
-**To proceed, the following is needed:**
-- Preclinical studies demonstrating IL-23 inhibition's effect specifically on drug-induced (glucocorticoid- or aromatase inhibitor-induced) bone loss, as distinct from inflammatory bone erosion
-- Mechanism of action data retrieved from DrugBank API to formally characterise guselkumab's pharmacodynamic profile
-- Safety data from the EMA SmPC, including warnings for immunosuppression, infections (tuberculosis reactivation, serious infections), and injection-site reactions
-- Drug-drug interaction profiling (current DDI query returned no records)
-- Clarification of the patient population: whether the target is patients on concurrent immunosuppressants where IL-23 inhibition might have a secondary bone-protective benefit
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for guselkumab i lægemiddelinduceret osteoporose.
 
 ---
 
-### Secondary Finding of High Clinical Relevance
+## Litteraturbevis
 
-> The TxGNN model also predicts **psoriasis** (rank 5, score 99.75%) with **Level L1 evidence** — supported by over 50 registered clinical trials and 20 publications, including multiple completed Phase 3 RCTs (VOYAGE 1, VOYAGE 2, NAVIGATE) and network meta-analyses in *JAMA Dermatology*. The recommendation for this indication is **Proceed with Guardrails**.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for guselkumab i lægemiddelinduceret osteoporose.
+
+---
+
+## Markedsinformation for Danmark
+
+Guselkumab er ikke registreret i Danmark ifølge det aktuelle datasæt. Lægemiddelstyrelsen har ingen markedsføringstilladelsesrecords i dette system.
+
+> **Bemærkning for klinikere**: Tremfya® (guselkumab) har en centraliseret EMA-markedsføringstilladelse til moderat til svær plaque-psoriasis og aktiv psoriasisartritis hos voksne. Sundhedsfaglige bør verificere den aktuelle Lægemiddelstyrelsen og EMA-markedsføringstilladelsestatus via [EMA-produktsiden](https://www.ema.europa.eu) eller Lægemiddelstyrelsens Medicinpriser-database før ordinering.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Selvom TxGNN tildeler en meget høj prognosescore (99.84%) til lægemiddelinduceret osteoporose, stammer den foreslåede mekanisme fra en indirekte IL-23/IL-17/RANKL-vej, som ikke er den primære driver for lægemiddelinduceret knogletab. Fuldstændig mangel på understøttende præ-klinisk data, kliniske forsøg og publiceret litteratur forhindrer fremskridt ud over model-niveau prognose på nuværende tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+- Præ-kliniske studier, der demonstrerer IL-23-hemnings virkning specifikt på lægemiddelinduceret (glucocorticoid- eller aromatasehemmininduceret) knogletab, som adskilt fra inflammatorisk knogleeroption
+- Mekanisme-data hentet fra DrugBank API for formelt at karakterisere guselkumabs farmakodynamiske profil
+- Sikkerhedsdata fra EMA SmPC, herunder advarsler om immunosuppression, infektioner (tuberkulose-reaktivering, alvorlige infektioner) og injektionsstedsreaktioner
+- Lægemiddelinteraktionsprofil (aktuel DDI-forespørgsel gav ingen resultater)
+- Præcisering af patientpopulationen: om målet er patienter under samtidig immunosuppression, hvor IL-23-hemning kan have en sekundær knoglebeskyttende fordel
+
+---
+
+### Sekundært fund af høj klinisk relevans
+
+> TxGNN-modellen forudsiger også **psoriasis** (rang 5, score 99.75%) med **evidensniveau L1** — understøttet af over 50 registrerede kliniske forsøg og 20 publikationer, herunder flere gennemførte fase 3-RCT'er (VOYAGE 1, VOYAGE 2, NAVIGATE) og netværksmeta-analyser i *JAMA Dermatology*. Anbefalingen for denne indikation er **Fortsæt med sikkerhedsforanstaltninger**.
 >
-> This finding validates the TxGNN model's discriminative capability: guselkumab's established global approval for plaque psoriasis is correctly identified as a high-confidence prediction. For Danish healthcare decision-makers, this supports a pathway to evaluate formal Laegemiddelstyrelsen/EMA registration status and reimbursement consideration for psoriasis — an actionable finding requiring priority attention separate from the drug-induced osteoporosis direction.
+> Dette fund validerer TxGNN-modellens diskriminativ evne: guselkumabs etablerede globale godkendelse for plaque-psoriasis identificeres korrekt som en prognose med høj tillid. For danske sundhedsmyndighedsbeslutningstagere understøtter dette en vej til at evaluere formelle Lægemiddelstyrelsen/EMA-registreringsstatus og refusionsbetragtninger for psoriasis — et handlingskrævende fund, der kræver prioriteret opmærksomhed adskilt fra lægemiddelgenbrugretningen for lægemiddelinduceret osteoporose.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

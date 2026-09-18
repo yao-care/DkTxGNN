@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Fentanyl: From Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fentanyl: Fra smertelindring til nefrogen syndrom med upassende antidiurese
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Fentanyl is a synthetic opioid analgesic widely used for the management of acute and chronic pain, as well as anaesthetic induction. The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, with a prediction confidence score of **99.46%**. However, there are currently **no clinical trials** and **no publications** supporting this direction, placing this candidate at the lowest evidence tier.
+Fentanyl er et syntetisk opioid-analgetikum, der er vidt anvendt til behandling af akut og kronisk smerte samt til anæstetisk induktion. TxGNN-modellen forudsiger, at det kan være effektivt til **nefrogen syndrom med upassende antidiurese (NSIAD)** med en forudsigelseskonfidensscore på **99.46%**. Der er imidlertid i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning, hvilket placerer denne kandidat på den laveste bevisgrad.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | Not available from current regulatory data (fentanyl is classically indicated for pain management and anaesthesia) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 — Model prediction only, no supporting studies identified |
-| Denmark Market Status | Not authorised in Denmark |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | Ikke tilgængelig fra nuværende regulatoriske data (fentanyl er klassisk indiceret til smertelindring og anæstesi) |
+| Forudsagt ny indikation | Nefrogen syndrom med upassende antidiurese (NSIAD) |
+| TxGNN-forudsigelsesscore | 99.46% |
+| Bevisgrad | L5 — Kun modelforudsigelse, ingen støttende studier identificeret |
+| Status på det danske marked | Ikke godkendt i Danmark |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afholde |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological knowledge, fentanyl is a highly potent synthetic opioid that acts primarily as a full agonist at the μ-opioid receptor (MOR). Its analgesic and anaesthetic properties are mediated through central and peripheral opioid pathways involving inhibition of neuronal excitability and modulation of neurotransmitter release.
+Der er i øjeblikket ingen detaljerede virkningsmekanisme-data tilgængelige i Bevis-pakken. Baseret på kendt farmakologisk viden er fentanyl et højtpotent syntetisk opioid, der virker primært som en fuldstændig agonist på μ-opioid-receptoren (MOR). Dets analgetiske og anæstetiske egenskaber medieres gennem centrale og perifere opioid-veje, der involverer inhibering af neuronal excitabilitet og modulering af neurotransmitter-frigivelse.
 
-NSIAD is a rare X-linked condition caused by gain-of-function mutations in the V2 vasopressin receptor gene (*AVPR2*), resulting in constitutive receptor activation, inappropriate water reabsorption, and dilutional hyponatraemia. The theoretical mechanistic bridge between fentanyl and NSIAD may lie in opioid modulation of the arginine vasopressin (AVP) axis: preclinical data suggest μ-opioid receptor activation can influence hypothalamic AVP secretion and renal aquaporin-2 trafficking, potentially intersecting with the V2 receptor signalling cascade dysregulated in NSIAD.
+NSIAD er en sjælden X-koblet tilstand forårsaget af funktionsgevinst-mutationer i V2 vasopressin-receptorgen (*AVPR2*), resulterende i konstant receptoraktivering, upassende vandreabsorption og dilutionel hyponatremi. Den teoretiske mekanistiske forbindelse mellem fentanyl og NSIAD kan ligge i opioid-modulering af arginin-vasopressin (AVP)-aksen: præ-kliniske data antyder, at μ-opioid-receptoraktivering kan påvirke hypotalamisk AVP-sekretion og renal aquaporin-2-transport, potentielt krydsende med V2-receptorsignaleringskaskaden dysreguleret i NSIAD.
 
-However, this mechanistic link remains speculative. No published clinical studies or trials have examined fentanyl's role in NSIAD management. The TxGNN model's high prediction score likely reflects graph-level connectivity between opioid receptor nodes and vasopressin pathway nodes in the knowledge graph, rather than direct experimental evidence. This prediction should be treated as a hypothesis-generating signal only, requiring rigorous mechanistic validation before any clinical consideration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Denne mekanistiske forbindelse er imidlertid stadig spekulativ. Ingen offentliggjorte kliniske studier eller forsøg har undersøgt fentanyls rolle i NSIAD-behandling. TxGNN-modellens høje forudsigelsesscore afspejler sandsynligvis forbindelses på grafs niveau mellem opioid-receptorknuder og vasopressin-vejsknuder i vidensgrafen, snarere end direkte eksperimentelle beviser. Denne forudsigelse bør kun behandles som et hypotest-dannende signal, der kræver stringent mekanistisk validering, før nogen klinisk overvejelse foretages.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Fentanyl holds no marketing authorisations registered in the current dataset for Denmark. No product listings, approved indications, or dosage forms are available from the regulatory data provided.
-
-> **Note:** This absence may reflect a data completeness limitation in the current Evidence Pack (candidate ID TW-DB00813-multi), as fentanyl-containing products are authorised by the EMA and commonly available in many European markets. Verification against the Lægemiddelstyrelsen product database and the EMA centralised authorisation register is strongly recommended before drawing regulatory conclusions.
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Important:** Fentanyl is a Schedule II controlled opioid with a well-established risk profile including respiratory depression, opioid dependence, tolerance, and misuse potential. Even without formal SmPC data in the current Evidence Pack, any repurposing study must account for these class-level risks, particularly in a non-pain, non-anaesthesia patient population such as NSIAD patients who may have concurrent electrolyte and renal vulnerabilities.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformationen for Danmark
 
-**Decision: Hold**
+Fentanyl har ingen markedsføringstilladelser registreret i det nuværende datasæt for Danmark. Ingen produktlister, godkendte indikationer eller doseringsformer er tilgængelige fra de tilvejebragte regulatoriske data.
 
-**Rationale:**
-The TxGNN prediction score is very high (99.46%), indicating strong graph-based signal, but there is a complete absence of corroborating clinical or preclinical evidence — no trials, no published studies, and no safety data are available. The proposed mechanistic pathway (opioid–vasopressin axis interaction) is biologically plausible but entirely unvalidated for this indication. Fentanyl's significant safety and regulatory burden as a controlled opioid further elevates the threshold for evidence required before proceeding.
+> **Bemærkning:** Denne mangel kan afspejle en databegrænsning vedr. fuldstændighed i det nuværende Bevis-pakke (kandidat-ID TW-DB00813-multi), da fentanyl-indeholdende produkter er godkendt af EMA og almindeligt tilgængelige på mange europæiske markeder. Verifikation mod Lægemiddelstyrelsen-produktdatabasen og EMA's centraliserede godkendelsesregister anbefales kraftigt før afgivelse af regulatoriske konklusioner.
 
-**To proceed, the following is needed:**
+---
 
-- **Mechanistic validation:** Preclinical studies examining fentanyl or μ-opioid receptor agonists on V2 receptor signalling, aquaporin-2 expression, and urine osmolality in NSIAD animal models or V2 receptor gain-of-function cell lines
-- **Safety data retrieval:** Full SmPC and Lægemiddelstyrelsen/EMA label data for fentanyl, with particular attention to renal, electrolyte, and CNS adverse effect profiles relevant to the NSIAD population
-- **Regulatory status confirmation:** Cross-reference the Danish Lægemiddelstyrelsen and EMA product databases to confirm current authorisation status and available formulations
-- **Drug interaction assessment:** NSIAD patients may receive tolvaptan or urea; opioid DDI profile with these agents must be established
-- **MOA documentation:** Retrieve full mechanism of action data from DrugBank (DB00813) to complete the repurposing rationale analysis
-- **Expert consultation:** Nephrology and clinical pharmacology review of the biological plausibility before any IND or protocol development is initiated
+## Sikkerhedshensyn
+
+Se venligst godkendt Produktresumé (SmPC) for sikkerhedsinformation.
+
+> **Vigtig:** Fentanyl er et kontrolleret opioid (Schedule II) med en veletableret risikoprofil, herunder respiratorisk depression, opioid-afhængighed, tolerance og misbrug-potentiale. Selvom der ikke er formelle SmPC-data i det nuværende Bevis-pakke, skal ethvert lægemiddelgenbrugsstudium redegøre for disse risikoer på klasseniveauet, især i en ikke-smertes-, ikke-anæstetisk patientpopulation, såsom NSIAD-patienter, som kan have samtidigt elektrolyt- og nyresårbarheder.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afholde**
+
+**Begrundelse:**
+TxGNN-forudsigelsesscoren er meget høj (99.46%), hvilket indikerer et stærkt grafs-baseret signal, men der er en fuldstændig mangel på understøttende kliniske eller præ-kliniske beviser — ingen forsøg, ingen offentliggjorte studier og ingen sikkerhedsdata er tilgængelige. Den foreslåede mekanistiske vej (opioid–vasopressin-akse-interaktion) er biologisk plausibel, men helt uvalideret for denne indikation. Fentanyls betydelige sikkerhed og regulatorisk byrde som et kontrolleret opioid hæver yderligere tærsklen for de beviser, der kræves før fortsættelse.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Mekanistisk validering:** Præ-kliniske studier, der undersøger fentanyl eller μ-opioid-receptoragonister på V2-receptorsignalering, aquaporin-2-ekspression og urinosmolalitet i NSIAD-dyremodeller eller V2-receptorfunktionsgevinst-cellelinjer
+- **Sikkerhedsdatahentning:** Fuldstændige SmPC og Lægemiddelstyrelsen/EMA-etiketdata for fentanyl, med særlig fokus på nyre-, elektrolyt- og CNS-bivirkningsprofiler, der er relevante for NSIAD-populationen
+- **Regulatorisk statusbekræftelse:** Krydsfereference mod Lægemiddelstyrelsen- og EMA-produktdatabaser for at bekræfte aktuel godkendelsesstatus og tilgængelige formuleringer
+- **Lægemiddelinteraktionsvurdering:** NSIAD-patienter kan modtage tolvaptan eller urea; opioid DDI-profil med disse midler skal etableres
+- **Mekanisme-dokumentation:** Hent fuldstændige virkningsmekanisme-data fra DrugBank (DB00813) for at fuldende analysen af rationalet for lægemiddelgenbrugning
+- **Ekspertkonsultation:** Nefrologisk og klinisk farmakologisk gennemgang af biologisk plausibilitet før igangsætelse af eventuel IND-ansøgning eller protokolkvalificering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,78 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the report template supplied in this conversation (no additional skill applies — this is a direct document-generation task from a provided Evidence Pack). I'll extract the data literally, flag the two declared data gaps (DG001 warnings/contraindications, DG002 MOA) rather than guessing, and report on `predicted_indications[0]` ("drug-induced osteoporosis") as instructed since that is the rank-1 candidate in the pack.
+# Inebilizumab: Fra B-celle-depletionsterapi til lægemiddelinduceret osteoporose
 
-# Inebilizumab: From B-cell Depletion Therapy to Drug-induced Osteoporosis
+## Resumé på en sætning
 
-## One-Sentence Summary
-
-Inebilizumab is a humanized anti-CD19 monoclonal antibody that depletes a broad B-cell lineage (including plasmablasts); this Evidence Pack contains no registered original indication or approved product information for Denmark, and mechanism-of-action detail is flagged as a data gap. The TxGNN model predicts it may be effective for **Drug-induced Osteoporosis**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only, unverified signal.
+Inebilizumab er et humaniseret anti-CD19-monoklonalt antistof, der depleterer en bred B-celle-linje (herunder plasmacellepræcursorer); denne evidenspakke indeholder ingen registrerede oprindelige indikationer eller godkendt produktinformation til Danmark, og virkningsmekanisme er markeret som en datakløft. TxGNN-modellen forudsiger, at det kan være effektivt for **lægemiddelinduceret osteoporose**, men denne retning understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det er et modelbaseret, uverificeret signal.
 
 ---
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication on file (drug not marketed in Denmark; `original_indications` empty) |
-| Predicted New Indication | Drug-induced Osteoporosis |
-| TxGNN Prediction Score | 96.44% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this Evidence Pack). Based on what the supporting literature and rationale texts in this pack do establish, inebilizumab is a humanized **anti-CD19 monoclonal antibody** that depletes a wide B-cell lineage, extending further into the plasmablast/plasma-cell-precursor compartment than CD20-targeted agents such as rituximab.
-
-The predicted new indication, drug-induced osteoporosis, is pathophysiologically driven by osteoclast activation and RANKL/OPG imbalance (classically seen with glucocorticoid-induced bone loss). B cells are known to secrete both RANKL and OPG and can modulate bone turnover, which is the mechanistic thread TxGNN's knowledge graph appears to be following.
-
-However, this link should be read as speculative rather than established: the direction of effect (bone-protective vs. bone-worsening) is not settled in the literature, and there is no evidence tying B-cell depletion specifically to the "drug-induced" etiology of osteoporosis (as opposed to other causes). The Evidence Pack itself characterizes this as a low-confidence candidate arising from indirect knowledge-graph clustering rather than a disease-specific mechanistic rationale, and it carries the weakest supported evidence tier (L5) of the ten ranked candidates in this pack.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke tilgængelig — ingen godkendt indikation på filen (lægemiddel ikke markedsført i Danmark; `original_indications` tom) |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
+| TxGNN-forudsigelsesscore | 96.44% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som højalvorligt datakløft i denne evidenspakke). Baseret på hvad den understøttende litteratur og rationale-tekster i denne pakke etablerer, er inebilizumab et humaniseret **anti-CD19-monoklonalt antistof**, der depleterer en bred B-celle-linje, som strækker sig længere ind i plasmacellepræcursor-kompartimentet end CD20-målrettede midler såsom rituximab.
 
----
+Den forudsagte nye indikation, lægemiddelinduceret osteoporose, er patofysiologisk drevet af osteoklast-aktivering og RANKL/OPG-ubalance (klassisk set med glukokortikoid-induceret knogletab). B-celler er kendt for at sekretere både RANKL og OPG og kan modulere knogleombygning, hvilket er den mekanistiske sammenhæng, som TxGNN's videngraf synes at følge.
 
-## Literature Evidence
-
-Currently no related literature available.
+Imidlertid bør denne forbindelse læses som spekulativ snarere end etableret: virkningen (knoglebeskyttende vs. knogletab-forværrende) er ikke fastslået i litteraturen, og der er ingen evidens, der knytter B-celle-depletion specifikt til den "lægemiddelinducerede" etiologi for osteoporose (i modsætning til andre årsager). Evidenspakken selv karakteriserer dette som en kandidat med lav tillid, der stammer fra indirekte videngraf-klynger snarere end en sygdomsspecifik mekanistisk begrundelse, og den bærer det svageste understøttede evidensniveau (L5) blandt de ti rangerede kandidater i denne pakke.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-No marketing authorisations are currently registered for inebilizumab in Denmark — the Evidence Pack records market status as "Not marketed" with 0 total licenses.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (Key warnings, contraindications, and drug–drug interaction data are all flagged as data gaps or not found in this Evidence Pack — notably, the Blocking-severity gap DG001 for label warnings/contraindications means this candidate cannot yet pass an initial safety screen.)
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-This candidate has no supporting clinical trials or literature (0/0), sits at the model-prediction-only evidence tier (L5), and its own mechanistic rationale flags the drug–disease link as indirect and directionally uncertain. Combined with the drug's unregistered status in Denmark and a Blocking-severity safety data gap, there is no basis to advance this indication beyond hypothesis generation at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish Medicines Agency label warnings and contraindications (DG001, Blocking — required before any S1 safety screening can begin)
-- Confirmed mechanism of action data via DrugBank (DG002, High — needed to properly assess mechanistic relevance to bone metabolism)
-- Preclinical or mechanistic studies specifically addressing B-cell depletion's effect on osteoclast/RANKL-OPG activity in a drug-induced (vs. other-etiology) osteoporosis context
-- Ongoing surveillance for any future trial or case-report signal, given none currently exist
+## Markedsinformation for Danmark
 
-*Note: The same Evidence Pack contains a considerably better-supported candidate — plasma cell myeloma (rank 7/8, score 92.75%, evidence level L3, "Research Question" stage) — backed by a completed Phase 1 trial (NCT01861340) and 2 PubMed records. If a report on that indication is wanted instead, let me know and I will produce it.*
+Der er i øjeblikket ingen markedsføringstilladelser registreret for inebilizumab i Danmark — evidenspakken registrerer markedsstatus som "Ikke markedsført" med 0 samlede licenser.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst produktinformation (SmPC) for godkendt sikkerhedsinformation. (Nøgleadvarsler, kontraindikationer og lægemiddel-lægemiddelinteraktions-data er alle markeret som datakløfter eller ikke fundet i denne evidenspakke — især betyder det blokeringskritiske datakløft DG001 vedrørende etiketadvarsler/kontraindikationer, at denne kandidat ikke endnu kan bestå en indledende sikkerhedsscreening.)
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Denne kandidat har ingen understøttende kliniske forsøg eller litteratur (0/0), ligger på modelforudsigelse-baseret evidensniveau (L5), og dens egen mekanistiske begrundelse markerer lægemiddel-sygdom-forbindelsen som indirekte og retningsbestemt usikker. Kombineret med lægemidlets uregistrerede status i Danmark og et blokeringskritisk sikkerhedsdatakløft, er der intet grundlag for at fremme denne indikation ud over hypotesegenerering på nuværende tidspunkt.
+
+**For at fortsætte kræves følgende:**
+- TFDA/Lægemiddelstyrelsen-etiketter: advarsler og kontraindikationer (DG001, Blokeringstype — påkrævet før enhver S1-sikkerhedsscreening kan påbegyndes)
+- Bekræftet virkningsmekanisme-data via DrugBank (DG002, Høj alvorlighed — nødvendig for korrekt at vurdere mekanistisk relevans for knoglestofskifte)
+- Prækliniske eller mekanistiske studier, der specifikt adresserer B-celle-depletions virkning på osteoklast/RANKL-OPG-aktivitet i lægemiddelinduceret (vs. anden-etiologi) osteoporose-kontekst
+- Løbende overvågning for ethvert fremtidigt forsøg eller case-report-signal, da ingen i øjeblikket eksisterer
+
+*Bemærk: Den samme evidenspakke indeholder en betydeligt bedre-understøttet kandidat — plasmacelle-myelom (rang 7/8, score 92.75%, evidensniveau L3, "Research Question"-stadium) — understøttet af et afsluttet fase 1-forsøg (NCT01861340) og 2 PubMed-poster. Hvis en rapport om denne indikation ønskes i stedet, skal du give mig besked og jeg vil producere den.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

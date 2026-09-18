@@ -29,165 +29,166 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Famciclovir: From Herpes Zoster to Post-Infectious Neuralgia
+# Famciclovir: Fra herpes zoster til postinfektiøs neuralgi
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Famciclovir is a nucleoside analogue antiviral prodrug (of penciclovir) widely used internationally for the treatment of herpes zoster (shingles), herpes simplex, and related herpesvirus infections. The TxGNN model predicts it may be effective for **Post-Infectious Neuralgia**, with a prediction score of **99.75%**. However, the clinical trials retrieved are only indirectly related (not testing Famciclovir directly), and no directly relevant publications were found for this specific indication, placing the evidence at **Level L4**.
+Famciclovir er en nukleosidanalogue antiviralprodrugform (af penciclovir), som er bredt brugt internationalt til behandling af herpes zoster (helvedesild), herpes simplex og relaterede herpesvirus-infektioner. TxGNN-modellen forudsiger, at det kan være effektivt mod **postinfektiøs neuralgi**, med en forudsigelsesscore på **99,75%**. De kliniske forsøg, der blev hentet, er imidlertid kun indirekte relaterede (tester ikke famciclovir direkte), og der blev ikke fundet direkte relevante publikationer for denne specifikke indikation, hvilket placerer evidensen på **niveau L4**.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Herpes zoster (shingles), herpes simplex virus infections |
-| Predicted New Indication | Post-infectious neuralgia |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 (Mechanistic/preclinical rationale; no direct RCTs for this indication) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Herpes zoster (helvedesild), herpes simplex virus-infektioner |
+| Forudsagt ny indikation | Postinfektiøs neuralgi |
+| TxGNN forudsigelsesscore | 99,75% |
+| Evidensniveau | L4 (Mekanistisk/præ-klinisk begrundelse; ingen direkte RCT'er for denne indikation) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forholdsregler |
 
-> **Note:** Famciclovir is authorised and marketed in many other countries (e.g., EU centralised authorisations under the brand name Famvir). Although not currently holding a national Danish marketing authorisation in this dataset, it may be available via other EU regulatory pathways.
-
----
-
-## Why is This Prediction Reasonable?
-
-Famciclovir is a prodrug that is rapidly converted to penciclovir after oral administration. Penciclovir is a nucleoside analogue that selectively inhibits viral DNA polymerase in herpesvirus-infected cells. It is phosphorylated by viral thymidine kinase to its active triphosphate form, which then competitively inhibits viral DNA synthesis. This mechanism gives Famciclovir potent activity against varicella-zoster virus (VZV), herpes simplex virus types 1 and 2 (HSV-1, HSV-2), and other herpesviruses including HHV-8.
-
-Post-infectious neuralgia — most commonly manifesting as postherpetic neuralgia (PHN) — is the most frequent and debilitating complication of herpes zoster. PHN results from nerve damage caused by VZV replication in dorsal root ganglia and peripheral nerves during the acute shingles episode. The mechanistic link is direct: by suppressing VZV replication early in the course of herpes zoster, Famciclovir reduces the extent of neuronal injury, thereby decreasing the incidence and severity of subsequent postherpetic neuralgia.
-
-This prediction is therefore best understood as a **near-label extension** rather than a true novel repurposing. Famciclovir's established role in treating herpes zoster inherently encompasses the prevention and mitigation of PHN. Multiple international guidelines already recommend early antiviral therapy (including Famciclovir) within 72 hours of rash onset specifically to reduce PHN risk. The TxGNN model has essentially recaptured this well-established clinical relationship.
+> **Bemærk:** Famciclovir er godkendt og markedsført i mange andre lande (f.eks. EU-centraliserede godkendelser under brandnavnet Famvir). Selvom det ikke i øjeblikket har en dansk national markedsføringstilladelse i dette datasæt, kan det være tilgængeligt via andre EU-reguleringsveje.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Famciclovir er en prodrugform, som hurtigt omdannes til penciclovir efter oral indtagelse. Penciclovir er en nukleosidanalogue, som selektivt hæmmer viral DNA-polymerase i herpesvirus-inficerede celler. Den fosforyleres af viral thymidinkinase til sin aktive trifosfattilstand, som så konkurrencemæssigt hæmmer viral DNA-syntese. Denne mekanisme giver famciclovir potent aktivitet mod varicella-zoster-virus (VZV), herpes simplex virus type 1 og 2 (HSV-1, HSV-2) og andre herpesvirus, herunder HHV-8.
+
+Postinfektiøs neuralgi — som oftest manifesteret som post-herpetisk neuralgi (PHN) — er den hyppigste og mest invaliderende komplikation af herpes zoster. PHN opstår som følge af nerveskade forårsaget af VZV-replikation i dorsale rodganglier og perifera nerver under den akutte helvedesild-episode. Det mekanistiske link er direkte: ved at undertrykke VZV-replikation tidligt i løbet af herpes zoster reducerer famciclovir omfanget af neuroneskade, hvilket dermed mindsker incidens og sværhedsgrad af efterfølgende post-herpetisk neuralgi.
+
+Denne forudsigelse skal derfor bedst forstås som en **near-label-udvidelse** snarere end en sand ny omhyld. Famciclomirs etablerede rolle i behandlingen af herpes zoster omfatter iboende forebyggelsen og lindringen af PHN. Flere internationale retningslinjer anbefaler allerede tidlig antiviralterapi (herunder famciclovir) inden for 72 timer efter udbruddet specifikt for at reducere PHN-risiko. TxGNN-modellen har i det væsentlige genoptaget denne velkendte kliniske sammenhæng.
+
+---
+
+## Klinisk forsøgsevidenvs
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | N/A | Not yet recruiting | 120 | Evaluates multimodal nerve block (liposomal bupivacaine vs ropivacaine) and pulse radiofrequency for acute herpes zoster pain. **Not testing Famciclovir** (relevance: C). |
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | N/A | Unknown | 140 | Studies early oxycodone use during acute herpes zoster to prevent PHN. **Not testing Famciclovir** (relevance: C). |
+| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | N/A | Endnu ikke rekrutteringsstart | 120 | Evaluerer multimodal nerveblokade (liposomal bupivacain vs ropivacain) og pulsa radiofrekvens til akut herpes zoster-smerte. **Tester ikke famciclovir** (relevans: C). |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | N/A | Ukendt | 140 | Studerer tidlig oxycodon-brug under akut herpes zoster for at forebygge PHN. **Tester ikke famciclovir** (relevans: C). |
 
-> **Important caveat:** Neither retrieved trial directly evaluates Famciclovir for post-infectious neuralgia. Both were captured by disease keyword matching only. Extensive literature on Famciclovir for PHN prevention exists in the broader evidence base (e.g., pivotal trials supporting Famvir approval) but was not returned by the current query parameters.
-
----
-
-## Literature Evidence
-
-Currently no directly related literature was retrieved for the specific combination of Famciclovir and post-infectious neuralgia.
-
-> **Note:** This likely reflects a query specificity issue. Searching for "postherpetic neuralgia" rather than "post-infectious neuralgia" would be expected to yield substantial results, including the landmark Famciclovir clinical trials (e.g., Tyring et al., Ann Intern Med 1995; Degreef et al., Antimicrob Agents Chemother 1994).
+> **Vigtig forbeholdelse:** Ingen af de hentet forsøg evaluerer direkte famciclovir til postinfektiøs neuralgi. Begge blev registreret kun ved sygdomsnøgleord-matching. Omfattende litteratur om famciclovir til PHN-forebyggelse findes i den bredere bevisbase (f.eks. pivotalforsøg, der understøttes af Famvir-godkendelsen), men blev ikke returneret af de aktuelle forespørgselsparametre.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-Famciclovir currently holds no national marketing authorisations in Denmark within this dataset.
+I øjeblikket blev der ikke hentet direkte relateret litteratur for den specifikke kombination af famciclovir og postinfektiøs neuralgi.
 
-> **Note for Danish prescribers:** Famciclovir (Famvir) has been widely authorised and used throughout the EU and internationally. Access in Denmark may be possible through mutual recognition procedures, special import licences (udleveringstilladelse), or via the EMA centralised procedure. Please consult the Laegemiddelstyrelsen or the EMA register for current availability.
+> **Bemærk:** Dette afspejler sandsynligvis et problem med forespørgselspecificitet. En søgning efter "post-herpetisk neuralgi" i stedet for "postinfektiøs neuralgi" ville forventes at give væsentlige resultater, herunder de landmærke-famciclovir-kliniske forsøg (f.eks. Tyring et al., Ann Intern Med 1995; Degreef et al., Antimicrob Agents Chemother 1994).
 
 ---
 
-## Additional Predicted Indications
+## Markedsinformation for Danmark
 
-Beyond the primary prediction, TxGNN identified four additional potential indications. These are summarised below for completeness:
+Famciclovir har i øjeblikket ingen nationale markedsføringstilladelser i Danmark inden for dette datasæt.
 
-### AIDS-Related Disorder (Rank 2 among unique predictions)
+> **Bemærk for danske læger:** Famciclovir (Famvir) har været bredt godkendt og brugt i hele EU og internationalt. Adgang i Danmark kan være mulig via gensidigt anerkendelsesprocedurer, særlige importtilladelser (udleveringstilladelse), eller via EMA's centraliserede procedure. Venligst konsultér Lægemiddelstyrelsen eller EMA-registeret for aktuel tilgængelighed.
 
-| Item | Content |
-|------|------|
-| TxGNN Score | 99.30% |
-| Evidence Level | L3 (Observational studies and reviews available) |
-| Recommendation | Proceed with Guardrails |
+---
 
-**Rationale:** HIV/AIDS patients are highly susceptible to herpesvirus opportunistic infections (HSV, VZV, CMV, HHV-8). Famciclovir is already used clinically to treat and prevent these infections in immunocompromised patients. Notably, one study (PMID 21837785) demonstrated that Famciclovir reduces HHV-8 replication in HIV-seropositive men — relevant because HHV-8 drives Kaposi sarcoma in AIDS patients. This is a treatment of AIDS-*associated* conditions, not HIV itself.
+## Yderligere forudsagte indikationer
 
-**Supporting Literature:**
+Ud over den primære forudsigelse identificerede TxGNN fire yderligere potentielle indikationer. Disse er opsummeret nedenfor for fuldstændighed:
 
-| PMID | Year | Type | Journal | Key Findings |
+### HIV/AIDS-relaterede forstyrrelser (Rang 2 blandt unikke forudsigelser)
+
+| Emne | Indhold |
+|------|---------|
+| TxGNN-score | 99,30% |
+| Evidensniveau | L3 (Observationsstudier og oversigter tilgængelige) |
+| Anbefaling | Fortsæt med forholdsregler |
+
+**Begrundelse:** HIV/AIDS-patienter er meget modtagelige for herpesvirus-opportunistiske infektioner (HSV, VZV, CMV, HHV-8). Famciclovir bliver allerede klinisk brugt til at behandle og forebygge disse infektioner hos immunokompromitterede patienter. Især demonstrerede et studie (PMID 21837785), at famciclovir reducerer HHV-8-replikation hos HIV-seropositive mænd — relevant fordi HHV-8 driver Kaposis sarkom hos AIDS-patienter. Dette er en behandling af HIV-*associerede* tilstande, ikke HIV selv.
+
+**Støttende litteratur:**
+
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [21837785](https://pubmed.ncbi.nlm.nih.gov/21837785/) | 2011 | Observational/Cohort | J Med Virol | Famciclovir reduces HHV-8 oral shedding in HIV/HHV-8 co-infected men |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Clinical guideline | BMJ Clin Evid | Reviews primary and secondary prophylaxis of opportunistic infections in HIV |
-| [9031782](https://pubmed.ncbi.nlm.nih.gov/9031782/) | 1997 | Review | Dermatology | Reviews viral oral lesions in HIV patients including treatment options |
-| [9582461](https://pubmed.ncbi.nlm.nih.gov/9582461/) | 1997 | Case series | Genitourin Med | Necrotising herpetic retinopathy in advanced HIV; describes treatment and outcomes |
-| [8548189](https://pubmed.ncbi.nlm.nih.gov/8548189/) | 1995 | Review | Infect Agents Dis | HSV resistance to acyclovir; discusses Famciclovir as alternative in immunocompromised |
-| [12353187](https://pubmed.ncbi.nlm.nih.gov/12353187/) | 2002 | Review | J Infect Dis | Overview of genital herpes management including Famciclovir use |
+| [21837785](https://pubmed.ncbi.nlm.nih.gov/21837785/) | 2011 | Observationel/Kohorte | J Med Virol | Famciclovir reducerer HHV-8 oral udskillelse hos HIV/HHV-8 ko-inficerede mænd |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Klinisk retningslinje | BMJ Clin Evid | Gennemgår primær og sekundær profylakse af opportunistiske infektioner ved HIV |
+| [9031782](https://pubmed.ncbi.nlm.nih.gov/9031782/) | 1997 | Oversigt | Dermatology | Gennemgår virale mundlæsioner hos HIV-patienter herunder behandlingsmuligheder |
+| [9582461](https://pubmed.ncbi.nlm.nih.gov/9582461/) | 1997 | Kassestudie | Genitourin Med | Nekrotiserende herpetisk retinopati hos avanceret HIV; beskriver behandling og resultater |
+| [8548189](https://pubmed.ncbi.nlm.nih.gov/8548189/) | 1995 | Oversigt | Infect Agents Dis | HSV-resistens over for aciclovir; diskuterer famciclovir som alternativ hos immunokompromitterede |
+| [12353187](https://pubmed.ncbi.nlm.nih.gov/12353187/) | 2002 | Oversigt | J Infect Dis | Oversigt over genital herpes-ledelse herunder famciclovir-brug |
 
 ---
 
-### Sequela of COVID-19 (Rank 3)
+### Sekveler af COVID-19 (Rang 3)
 
-| Item | Content |
-|------|------|
-| TxGNN Score | 99.73% |
-| Evidence Level | L5 (Model prediction only) |
-| Recommendation | Hold |
+| Emne | Indhold |
+|------|---------|
+| TxGNN-score | 99,73% |
+| Evidensniveau | L5 (Kun modelforudsigelse) |
+| Anbefaling | Hold |
 
-**Rationale:** Famciclovir targets herpesvirus DNA polymerase and has no known activity against SARS-CoV-2 (an RNA virus). A hypothesis exists that long COVID symptoms may partly involve reactivation of latent herpesviruses (EBV, HHV-6), in which case antiherpetic agents might have an indirect role — but this remains unvalidated.
+**Begrundelse:** Famciclovir målrettes herpesvirus DNA-polymerase og har ingen kendt aktivitet mod SARS-CoV-2 (et RNA-virus). En hypotese eksisterer, at long COVID-symptomer til dels kan involvere reaktivering af latente herpesvirus (EBV, HHV-6), i hvilket tilfælde anti-herpetiske midler kunne have en indirekte rolle — men dette er fortsat uvalideret.
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [35733311](https://pubmed.ncbi.nlm.nih.gov/35733311/) | 2023 | Formulation study | Recent Pat Nanotechnol | Nanocochleate gel formulation of Famciclovir for herpes zoster; notes herpes zoster reactivation observed during COVID-19 pandemic |
+| [35733311](https://pubmed.ncbi.nlm.nih.gov/35733311/) | 2023 | Formuleringsstudie | Recent Pat Nanotechnol | Nanocochleate-gelsformulering af famciclovir til herpes zoster; noterer herpes zoster-reaktivering observeret under COVID-19-pandemi |
 
 ---
 
-### Hepatitis C Induced Liver Cirrhosis (Rank 4)
+### Hepatitis C-induceret leverkirrose (Rang 4)
 
-| Item | Content |
-|------|------|
-| TxGNN Score | 99.73% |
-| Evidence Level | L4 (Review-level evidence, but for HBV not HCV) |
-| Recommendation | Hold |
+| Emne | Indhold |
+|------|---------|
+| TxGNN-score | 99,73% |
+| Evidensniveau | L4 (Oversigtsbevis, men for HBV ikke HCV) |
+| Anbefaling | Hold |
 
-**Rationale:** Famciclovir (penciclovir) has demonstrated some activity against hepatitis B virus (HBV) in clinical studies, but has **no known activity against HCV**. HCV is a positive-sense single-strand RNA virus with a fundamentally different replication mechanism. The retrieved literature discusses antiviral therapy for HBV- and HCV-induced cirrhosis, but the Famciclovir content pertains only to the HBV component.
+**Begrundelse:** Famciclovir (penciclovir) har demonstreret en vis aktivitet mod hepatitis B-virus (HBV) i kliniske studier, men har **ingen kendt aktivitet mod HCV**. HCV er et positivt-sense single-stranded RNA-virus med en fundamentalt anderledes replikationsmekanisme. Den hentet litteratur diskuterer antiviralterapi til HBV- og HCV-induceret kirrose, men famciclovir-indholdet vedrører kun HBV-komponenten.
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [10777179](https://pubmed.ncbi.nlm.nih.gov/10777179/) | 2000 | Review | J Clin Gastroenterol | Reviews antiviral therapy for HBV/HCV cirrhosis; Famciclovir discussed only in HBV context |
+| [10777179](https://pubmed.ncbi.nlm.nih.gov/10777179/) | 2000 | Oversigt | J Clin Gastroenterol | Gennemgår antiviralterapi til HBV/HCV-kirrose; famciclovir diskuteres kun i HBV-sammenhæng |
 
 ---
 
-### Malignant Pleural Mesothelioma (Rank 5)
+### Malignt pleural mesoteliom (Rang 5)
 
-| Item | Content |
-|------|------|
-| TxGNN Score | 99.46% |
-| Evidence Level | L5 (Model prediction only) |
-| Recommendation | Hold |
+| Emne | Indhold |
+|------|---------|
+| TxGNN-score | 99,46% |
+| Evidensniveau | L5 (Kun modelforudsigelse) |
+| Anbefaling | Hold |
 
-**Rationale:** No known mechanistic link. Malignant pleural mesothelioma is primarily caused by asbestos exposure, not viral infection. While SV40 virus has been discussed in relation to mesothelioma, Famciclovir has no activity against SV40. No clinical trials or literature were found.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. In countries where Famciclovir is marketed (e.g., Famvir SmPC from the EMA or national agencies), the following general safety profile is well characterised:
-
-- **Common adverse effects** include headache, nausea, and dizziness
-- **Dose adjustment** is required in patients with renal impairment (penciclovir is renally eliminated)
-- **Drug interactions** are generally limited; no significant DDI were found in the current query
-
-> The current evidence pack contains data gaps for key warnings, contraindications, and drug–drug interactions specific to the Danish regulatory context. These should be resolved by consulting the SmPC from the relevant marketing authorisation holder.
+**Begrundelse:** Ingen kendt mekanistisk forbindelse. Malignt pleural mesoteliom er primært forårsaget af asbesteksponering, ikke virusinfektioner. Selvom SV40-virus er blevet diskuteret i forhold til mesoteliom, har famciclovir ingen aktivitet mod SV40. Ingen kliniske forsøg eller litteratur blev fundet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Venligst se det godkendt produktresumé (SmPC) for sikkerhedsinformation. I lande, hvor famciclovir er markedsført (f.eks. Famvir SmPC fra EMA eller nationale myndigheder), er følgende generelle sikkerhedsprofil veldefineret:
 
-**Rationale:**
-The top TxGNN prediction — Famciclovir for post-infectious neuralgia — is highly plausible and essentially represents a well-known clinical relationship rather than a novel repurposing. Famciclovir is already an established treatment for herpes zoster, and its role in preventing postherpetic neuralgia (the most common form of post-infectious neuralgia) is supported by decades of clinical evidence and international guidelines. The secondary prediction for AIDS-related disorders also has a sound mechanistic basis and supporting literature. The remaining predictions (COVID-19 sequelae, HCV cirrhosis, mesothelioma) lack mechanistic plausibility and should be placed on hold.
+- **Hyppige bivirkninger** omfatter hovedpine, kvalme og svimmelhed
+- **Dosistilpasning** er påkrævet hos patienter med nyresvigt (penciclovir udskiltes renalt)
+- **Medicin-samvirkninger** er generelt begrænsede; ingen væsentlige medicin-samvirkninger blev fundet i den aktuelle forespørgsel
 
-**To proceed, the following is needed:**
-- **Regulatory gap resolution:** Confirm current Famciclovir availability in Denmark (via Laegemiddelstyrelsen, EMA, or special import pathways)
-- **SmPC review:** Obtain the full Summary of Product Characteristics for safety assessment (key warnings, contraindications, DDI)
-- **Mechanism of action data:** Retrieve complete MOA data from DrugBank to fill the current data gap
-- **Broader literature search:** Re-query PubMed using "postherpetic neuralgia" (rather than "post-infectious neuralgia") to capture the extensive existing evidence base
-- **Clinical guideline alignment:** Cross-reference with current Danish/European guidelines for herpes zoster management and PHN prevention
+> Det aktuelle bevismoduler indeholder datakløfter for vigtige advarsler, kontraindikationer og medicin-medicin-samvirkninger specifikt til den danske reguleringssammenhæng. Disse bør løses ved at konsultere SmPC fra den relevante markedsføringsgodkendelsesindehaver.
 
 ---
 
-*This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. Report generated: 2026-04-05.*
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med forholdsregler**
+
+**Begrundelse:**
+Den øverste TxGNN-forudsigelse — famciclovir til postinfektiøs neuralgi — er højst plausibel og repræsenterer i det væsentlige en velkendt klinisk sammenhæng snarere end en sand ny omhyld. Famciclovir er allerede en etableret behandling for herpes zoster, og dets rolle i forebyggelsen af post-herpetisk neuralgi (den hyppigste form for postinfektiøs neuralgi) understøttes af årtiers klinisk bevis og internationale retningslinjer. Den sekundære forudsigelse for HIV/AIDS-relaterede forstyrrelser har også et solid mekanistisk grundlag og støttende litteratur. De resterende forudsigelser (COVID-19-sekveler, HCV-kirrose, mesoteliom) mangler mekanistisk plausibilitet og bør placeres på hold.
+
+**For at fortsætte er følgende nødvendig:**
+- **Regulatorisk gapløsning:** Bekræft aktuel tilgængelighed af famciclovir i Danmark (via Lægemiddelstyrelsen, EMA eller særlige importveje)
+- **SmPC-gennemgang:** Indhent det fulde produktresumé for sikkerhedsvurdering (vigtige advarsler, kontraindikationer, medicin-samvirkninger)
+- **Mekanisme for action-data:** Hent komplette MOA-data fra DrugBank for at udfylde det aktuelle datakløft
+- **Bredere litteratursøgning:** Søg igen i PubMed ved hjælp af "post-herpetisk neuralgi" (i stedet for "postinfektiøs neuralgi") for at fange den omfattende eksisterende bevisbase
+- **Retningslinjeflytning:** Krydsreferencer med nuværende danske/europæiske retningslinjer for herpes zoster-ledelse og PHN-forebyggelse
+
+---
+
+*Denne rapport er til forskningsformål og udgør ikke medicinsk rådgivning. Omhyldelseskandidater til lægemidler kræver klinisk validering inden anvendelse. Rapport genereret: 2026-04-05.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

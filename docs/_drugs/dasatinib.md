@@ -29,106 +29,107 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dasatinib: From Chronic Myeloid Leukemia to Ewing Sarcoma
+# Dasatinib: Fra kronisk myeloid leukæmi til Ewings sarkom
 
-## One-Sentence Summary
+## Enliners resumé
 
-Dasatinib (Sprycel) is a potent second-generation BCR-ABL and Src family kinase inhibitor, internationally approved for Chronic Myeloid Leukemia (CML) and Philadelphia chromosome-positive Acute Lymphoblastic Leukemia (Ph+ ALL), but not currently registered in Denmark.
-The TxGNN model predicts it may also be effective for **Ewing sarcoma**, supported by **3 registered clinical trials** and **9 publications** — however, the only dedicated paediatric trial was terminated after enrolling just 7 patients, representing an important negative signal that must be weighed carefully.
+Dasatinib (Sprycel) er en potent andengeneration BCR-ABL og Src-familie kinase-inhibitor, internationalt godkendt til kronisk myeloid leukæmi (CML) og Philadelphia kromosom-positiv akut lymfoblastisk leukæmi (Ph+ ALL), men ikke i øjeblikket registreret i Danmark.
+TxGNN-modellen forudsiger, at det også kan være effektivt til **Ewings sarkom**, understøttet af **3 registrerede kliniske forsøg** og **9 publikationer** — dog var det eneste dedikerede pædiatriske forsøg blevet afbrudt efter rekruttering af blot 7 patienter, hvilket repræsenterer et vigtigt negativt signal, der skal vejes omhyggeligt.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | CML and Ph+ ALL (internationally approved; not registered in Denmark) |
-| Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not on market |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | CML og Ph+ ALL (internationalt godkendt; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Ewings sarkom |
+| TxGNN-forudsigelsesscore | 99.90% |
+| Bevisniveau | L3 |
+| Markeds­status i Danmark | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afholdenhed |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Dasatinib is an orally administered small-molecule inhibitor of multiple tyrosine kinases. Its primary targets are BCR-ABL (which drives CML) and Src family kinases (LCK, HCK, FYN). It is approximately 325-fold more potent than imatinib against wild-type BCR-ABL in vitro. Beyond haematological malignancies, dasatinib also inhibits c-KIT and PDGFR-β, giving it a broader kinase coverage that may be relevant to solid tumours.
+Dasatinib er en oralt administreret small-molecule-inhibitor af flere tyrosin kinaser. Dets primære mål er BCR-ABL (som driver CML) og Src-familie kinaser (LCK, HCK, FYN). Det er cirka 325-fold mere potent end imatinib mod wild-type BCR-ABL in vitro. Ud over hæmatologiske malignancier inhiberer dasatinib også c-KIT og PDGFR-β, hvilket giver det en bredere kinase-dækning, der kan være relevant for solide tumorer.
 
-Ewing sarcoma is a highly aggressive bone and soft tissue cancer primarily affecting children, adolescents, and young adults. Its hallmark molecular feature is the EWS-FLI1 (or related EWSR1-ETS) fusion gene. Multiple preclinical studies published between 2007 and 2022 have demonstrated that Src kinase is abnormally activated in Ewing sarcoma cells, particularly through the FAK-Src axis. This signalling axis drives the formation of invadopodia — specialised cellular structures associated with tumour invasion and metastatic spread. The EWS-FLI1 fusion protein has been shown to indirectly modulate Src pathway activity, providing a mechanistic basis for targeting Src in this disease.
+Ewings sarkom er en meget aggressiv knogle- og bløddelsturmor, der primært rammer børn, unge og unge voksne. Dets karakteristiske molekylære træk er EWS-FLI1 (eller relateret EWSR1-ETS) fusionsgenet. Adskillige prækliniske studier publiceret mellem 2007 og 2022 har demonstreret, at Src kinase er unormalt aktiveret i Ewings sarkom-celler, især gennem FAK-Src-aksen. Denne signalerings-akse driver dannelsen af invadopodia — specialiserede cellulære strukturer forbundet med tumorinvasion og metastatisk spredning. EWS-FLI1-fusionsproteinet er blevet vist at indirekte modulere Src-vej-aktivitet, hvilket giver en mekanistisk basis for at målrette Src i denne sygdom.
 
-In theory, dasatinib's Src family kinase inhibition could disrupt the molecular machinery that drives Ewing sarcoma invasion and migration. Early in vitro work (2007–2008) confirmed antiproliferative and antimigratory activity in Ewing sarcoma cell lines, and more recent studies (2016–2022) have refined our understanding of the FAK-Src-tenascin-C network in this tumour. However, dasatinib as a single agent failed to demonstrate meaningful activity in the completed Phase II sarcoma basket trial (NCT00464620), and the only dedicated paediatric trial (NCT00788125) was terminated after 7 enrolments. Combination strategies targeting FAK and Src simultaneously have been proposed as a more promising direction.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Paediatric trial of dasatinib combined with ifosfamide, carboplatin, and etoposide in solid tumours including Ewing sarcoma. Early termination after only 7 patients is a significant negative signal. The reason for termination (inadequate efficacy, unacceptable toxicity, or recruitment failure) has not been confirmed in the public record — this distinction is critical for any repurposing decision. |
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Completed | 366 | Broad basket trial of dasatinib monotherapy in advanced sarcomas. Ewing sarcoma was included as a subgroup, but was not the primary endpoint. The overall results indicated limited single-agent activity of dasatinib across sarcoma subtypes. Ewing-specific subgroup data require review of the full publication to determine response rates in this population. |
-| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Phase 1 | Recruiting | 41 | B7-H3 CAR-T cell immunotherapy (autologous) in children and young adults with relapsed/refractory solid tumours expressing B7-H3, including Ewing sarcoma. This is not a dasatinib trial and the mechanism is entirely different; included here as context for the current treatment landscape. |
+I teorien kunne dasatinibs Src-familie kinase-inhibition forstyrre det molekylære maskineri, der driver Ewings sarkom-invasion og migration. Tidlig in vitro-arbejde (2007–2008) bekræftede antiproliferativ og antimigrations-aktivitet i Ewings sarkom-cellelinjer, og mere nyere studier (2016–2022) har forfinet vores forståelse af FAK-Src-tenascin-C-netværket i denne tumor. Dasatinib som enkeltmiddel fejlede dog med at demonstrere meningsfuld aktivitet i det afsluttede Phase II sarcoma basket-forsøg (NCT00464620), og det eneste dedikerede pædiatriske forsøg (NCT00788125) blev afbrudt efter 7 rekrutteringer. Kombinationsstrategier, der målretter FAK og Src samtidigt, er blevet foreslået som en mere lovende retning.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
+| Forsøgsnummer | Fase | Status | Inkludering | Vigtigste resultater |
+|-------------|------|--------|------------|-------------|
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Fase 1/2 | Afbrudt | 7 | Pædiatrisk forsøg med dasatinib kombineret med ifosfamid, carboplatin og etoposid i solide tumorer, herunder Ewings sarkom. Tidlig afbrydelse efter kun 7 patienter er et væsentligt negativt signal. Årsagen til afbrydelsen (utilstrækkelig efficacy, uacceptabel toksicitet eller rekrutteringsvanskeligheder) er ikke bekræftet i det offentlige register — denne skelnen er afgørende for enhver genbrug-beslutning. |
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Fase 2 | Afsluttet | 366 | Bredt basket-forsøg med dasatinib-monoterap i avancerede sarkomaer. Ewings sarkom var inkluderet som en undergruppe, men var ikke det primære endepunkt. De samlede resultater angav begrænset enkeltmiddel-aktivitet af dasatinib på tværs af sarkomatyper. Ewings-specifik undergruppedata kræver gennemgang af den fulde publikation for at bestemme responsrater i denne population. |
+| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Fase 1 | Rekrutterer | 41 | B7-H3 CAR-T-cel-immunoterapi (autolog) hos børn og unge voksne med tilbagefaldende/refrakter solide tumorer, som udtrykker B7-H3, herunder Ewings sarkom. Dette er ikke et dasatinib-forsøg, og mekanismen er helt anderledes; inkluderet her som kontekst for det nuværende behandlingslandskab. |
+
+---
+
+## Evidens fra litteratur
+
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|------|------|---------|-------------|
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | In vitro | Cancer Research | Dasatinib inhibits migration and invasion in diverse human sarcoma cell lines and induces apoptosis in bone sarcoma cells dependent on Src kinase for survival. Foundational preclinical evidence establishing biological plausibility in sarcoma. |
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | In vitro | Oncology Reports | Dasatinib shows antiproliferative and antimigratory activity in Ewing sarcoma and neuroblastoma cell lines, mediated through inhibition of c-KIT and PDGFR — both expressed in these tumour types. |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Review | Oncology Letters | Comprehensive review of Src signalling in sarcoma biology. Discusses Src's roles in proliferation, apoptosis resistance, invasion, and metastasis, and evaluates the feasibility of dasatinib as a targeted therapeutic. |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Preclinical | Neoplasia | Micro-environmental stress (hypoxia, nutrient deprivation) drives Src-dependent invadopodia formation and cell migration in Ewing sarcoma. Dasatinib inhibited this stress-induced invasive phenotype, suggesting that combination with stress-targeting agents may be more effective. |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Preclinical | Neoplasia | Tenascin-C and Src cooperate in the tumour microenvironment to promote invadopodia formation and metastasis in Ewing sarcoma. Reinforces the FAK-Src axis as a mechanistically relevant target. |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Preclinical | Sarcoma | Investigation of FAK-Src complex inhibition in Ewing sarcoma, DSRCT, and rhabdomyosarcoma. Confirms that dasatinib single-agent treatment failed in the Phase II sarcoma study; proposes dual FAK+Src inhibition as the preferred combination approach. |
-| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | Preclinical | Cell Commun. Signal. | CXCR4 antagonism (plerixafor) unexpectedly activates receptor tyrosine kinase signalling in Ewing sarcoma cell lines. Contextually relevant for understanding kinase crosstalk in the tumour microenvironment. |
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | In vitro | Cancer Research | Dasatinib inhiberer migration og invasion i forskelligartede humane sarkomacellelinjer og inducerer apoptose i knoglesarkomaer, der er afhængige af Src kinase for at overleve. Grundlæggende præklinisk evidens, der etablerer biologisk plausibilitet i sarkom. |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | In vitro | Oncology Reports | Dasatinib viser antiproliferativ og antimigrations-aktivitet i Ewings sarkom og neuroblastom-cellelinjer, medieret gennem inhibition af c-KIT og PDGFR — begge udtrykt i disse tumortyper. |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Oversigt | Oncology Letters | Omfattende oversigt over Src-signalering i sarkobi­ologi. Diskuterer Srcs roller i proliferation, apoptose-resistens, invasion og metastase, og evaluerer muligheden for dasatinib som målrettet terapi. |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Præklinis | Neoplasia | Mikro-miljø-stress (hypoksi, næringsstof-mangel) driver Src-afhængig invadopodia-dannelse og cellemigration i Ewings sarkom. Dasatinib inhiberede denne stress-inducerede invasive fænotype, hvilket tyder på, at kombination med stress-målretningsagenter kan være mere effektiv. |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Præklinis | Neoplasia | Tenascin-C og Src samarbejder i tumor-mikroenviron­mentet for at fremme invadopodia-dannelse og metastase i Ewings sarkom. Bekræfter FAK-Src-aksen som et mekanistisk relevant mål. |
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Præklinis | Sarcoma | Undersøgelse af FAK-Src-kompleks inhibition i Ewings sarkom, DSRCT og rabdomyosarkom. Bekræfter, at dasatinib-enkeltmiddel-behandling fejlede i Phase II sarcoma-studiet; foreslår dual FAK+Src-inhibition som den foretrukne kombinationsmetode. |
+| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | Præklinis | Cell Commun. Signal. | CXCR4-antagonisme (plerixafor) aktiverer uventet receptor-tyrosin kinase-signalering i Ewings sarkom-cellelinjer. Kontekstuelt relevant for at forstå kinase-crossover i tumor-mikromiljøet. |
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-Dasatinib is classified as an antineoplastic targeted therapy. The following parameters apply:
+Dasatinib klassificeres som et antineoplasmisk målrettet terapimiddel. Følgende parametre gælder:
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — BCR-ABL / Src family kinase inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Moderate — neutropenia, thrombocytopenia, and anaemia are commonly reported; risk is higher in advanced-phase disease and with higher doses |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count (CBC) with differential (weekly for first 2 months, then monthly); liver function tests; renal function; QTc interval (ECG); pulmonary assessment (chest X-ray or CT if dyspnoea or cough develops) due to known pleural effusion risk |
-| Handling Protection | Standard cytotoxic drug precautions apply (gloves, avoid crushing or splitting tablets); does not require the same level of containment as conventional IV chemotherapy |
+| Cytotoksicitet-klassificering | Målrettet terapi — BCR-ABL / Src-familie kinase-inhibitor (ikke konventionel cytotoksisk) |
+| Myelosuppression-risiko | Moderat — neutropeni, trombocytopeni og anæmi rapporteres ofte; risikoen er højere ved avanceret stadium og højere doser |
+| Emetogenicitet-klassificering | Lav |
+| Overvågningspunkter | Fuldstændig blodcelletal (CBC) med differential (ugentligt de første 2 måneder, derefter månedligt); leverfunktionstests; nyrefunktion; QTc-interval (EKG); lungeevaluering (thorax-røntgen eller CT hvis dyspnø eller hoste opstår) på grund af kendt pleura-effusionsrisiko |
+| Håndteringsbeskyttelse | Standard cytotoksisk lægemiddelforholdsregler gælder (handsker, undgå at knuse eller splitte tabletter); kræver ikke samme niveau af indeslutning som konventionel IV-kemoterapi |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Formal warnings and contraindications were not available in the current evidence pack. Based on the clinical literature retrieved, the following safety signals are consistently reported with dasatinib and warrant attention:
+Formelle advarsler og kontraindikationer var ikke tilgængelige i det aktuelle bevisværktøj. Baseret på den kliniske litteratur, der er hentet, er følgende sikkerhedssignaler konsekvent rapporteret med dasatinib og fortjener opmærksomhed:
 
-- **Pleural effusion**: Occurs in approximately one-third of patients on long-term dasatinib therapy. A prospective multicentre study (NCT02546791, n=101 CML patients) specifically characterised its frequency and severity. Chylothorax — chyle leakage into the pleural space — has been described as a rare variant, including after years of low-dose therapy.
-- **Pulmonary complications**: Case series describe dasatinib-associated interstitial pneumonitis. Patients presenting with new respiratory symptoms require prompt investigation.
-- **Cardiovascular effects**: Pericardial effusion and pulmonary arterial hypertension have been reported with long-term use and should be monitored in patients with pre-existing cardiac or pulmonary conditions.
+- **Pleura-effusion**: Forekommer hos cirka en tredjedel af patienterne ved langtidsterapi med dasatinib. Et prospektivt multicenterstudie (NCT02546791, n=101 CML-patienter) karakteriserede specifikt dens hyppighed og alvorlighed. Chylothorax — chyle-lækage ind i pleura-rummet — er blevet beskrevet som en sjælden variant, også efter år med lavdosis-terapi.
+- **Pulmonal-komplikationer**: Kasuistikker beskriver dasatinib-associeret interstitiel pneumonitis. Patienter, der præsenterer med nye respiratoriske symptomer, kræver hurtig undersøgelse.
+- **Kardiovaskulære effekter**: Perikard-effusion og pulmonal arteriel hypertension er rapporteret ved langtidsbrug og bør overvåges hos patienter med forudbestående kardielle eller pulmonal-forhold.
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete, formally validated safety information before use.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-Despite a compelling preclinical mechanistic basis (Src/FAK axis is well-documented in Ewing sarcoma biology), the available clinical evidence is insufficient and directionally negative: the dedicated paediatric Phase 1/2 trial was terminated after only 7 enrolments, and dasatinib failed as a single agent in the broader sarcoma Phase II basket trial. The clinical benefit-risk balance for Ewing sarcoma cannot currently be established with confidence.
-
-**To proceed, the following is needed:**
-- Clarification of the precise reason for early termination of NCT00788125 (efficacy failure vs. toxicity vs. operational factors) — this is the single most important missing piece of information
-- Ewing sarcoma-specific subgroup efficacy and safety data from the completed Phase II trial (NCT00464620)
-- Preclinical proof-of-concept for a combination strategy (e.g., dasatinib + FAK inhibitor, or dasatinib + standard VIDE/VAC chemotherapy) before any new clinical trial is designed
-- Access to the official SmPC (currently not available for the Danish market context) to complete the safety assessment
-- Paediatric pharmacokinetics and dosing data, given that Ewing sarcoma primarily affects children and adolescents — a population with distinct drug metabolism profiles
+Se venligst den godkendte Summary of Product Characteristics (SmPC) for fuldstændig, formelt valideret sikkerhedsinformation før brug.
 
 ---
 
-> **Disclaimer**: The results in this report are provided for research reference only and do not constitute medical advice. Drug repurposing candidates require clinical validation before application. All website pages must include a YMYL disclaimer.
+## Konklusion og næste trin
+
+**Beslutning: Afholdenhed**
+
+**Rationalet:**
+På trods af et overbevisende præklinis mekanistisk grundlag (Src/FAK-akse er velknown i Ewings sarkom-biologi), er den tilgængelige kliniske evidens utilstrækkelig og direktivmæssigt negativ: det dedikerede pædiatriske Phase 1/2-forsøg blev afbrudt efter kun 7 rekrutteringer, og dasatinib fejlede som enkeltmiddel i det bredere sarkomabasket Phase II-forsøg. Den kliniske fordel-risiko-balance for Ewings sarkom kan i øjeblikket ikke fastslås med sikkerhed.
+
+**For at fortsætte er følgende nødvendigt:**
+- Præcisering af den nøjagtige årsag til tidlig afbrydelse af NCT00788125 (efficacy-fejl vs. toksicitet vs. operationelle faktorer) — dette er det absolut vigtigste manglende stykke information
+- Ewings sarkom-specifik undergruppedata for efficacy og sikkerhed fra det afsluttede Phase II-forsøg (NCT00464620)
+- Præklinis proof-of-concept for en kombinationsstrategi (f.eks. dasatinib + FAK-inhibitor, eller dasatinib + standard VIDE/VAC-kemoterapi) før ethvert nyt klinisk forsøg designes
+- Adgang til det officielle SmPC (i øjeblikket ikke tilgængeligt for dansk markeds-kontekst) for at fuldende sikkerhedsevalueringen
+- Pædiatrisk farmakokinetik og dosis­data, givet at Ewings sarkom primært rammer børn og unge — en population med karakteristik forskellig lægemetabolisme
+
+---
+
+> **Disclaimer**: Resultaterne i denne rapport er leveret til kun forskningsreference og konstituerer ikke medicinsk rådgivning. Genbrugskandidater af lægemidler kræver klinisk validering før anvendelse. Alle websidepaginger skal indeholde en YMYL-ansvarsfraskrivelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,83 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Parecoxib: From Postoperative Pain to Migraine Disorder
+# Parecoxib: Fra postoperativ smerte til migræne
 
-*(Note: the Evidence Pack does not record an original indication for Parecoxib — `original_indications` is empty. "Postoperative pain" reflects Parecoxib's publicly known approved use as an injectable COX-2 inhibitor prodrug of valdecoxib; it is not sourced from this Evidence Pack and should be verified against the official SmPC.)*
+*(Bemærk: Evidenspakken registrerer ikke en oprindelig indikation for Parecoxib — `original_indications` er tom. "Postoperativ smerte" afspejler Parecoxibs offentligt kendte godkendt anvendelse som en injicerbar COX-2-hæmmer-prodrug af valdecoxib; det kommer ikke fra denne Evidenspakke og bør verificeres mod den officielle SmPC.)*
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Parecoxib is a parenteral, selective COX-2 inhibitor (prodrug of valdecoxib); its original approved indication is not captured in this Evidence Pack, and it currently holds **0 marketing authorisations** in Denmark ("Not Marketed"). The TxGNN model predicts it may be effective for **Migraine Disorder** with a prediction score of **99.55%**, but this top-ranked candidate has **no directly linked clinical trials or literature** of its own — supporting evidence is indirect, drawn from a closely related "Headache Disorder" cluster (same TxGNN score family, one pilot RCT).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Evidence Pack (general knowledge: short-term treatment of postoperative pain) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L3 (per pack scoring; based on indirect evidence, not direct trials/literature for this entity) |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Parecoxib er en parenteral, selektiv COX-2-hæmmer (prodrug af valdecoxib); dens oprindelige godkendte indikation er ikke dokumenteret i denne Evidenspakke, og den har i øjeblikket **0 markedsføringstilladelser** i Danmark ("Ikke markedsført"). TxGNN-modellen forudsiger, at den kan være effektiv for **Migræneforstyrrelse** med en forudsigelsesscore på **99.55%**, men denne højest rangerede kandidat har **ingen direkte tilknyttede kliniske forsøg eller litteratur** — understøttende evidens er indirekte, hentet fra en tæt beslægtet "Hovedpineforstyrrelse"-klynge (samme TxGNN-scorefamilie, ét pilot-RCT).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data for Parecoxib is not available in this Evidence Pack (blocking/high-severity data gap: DG002). Based on general pharmacological knowledge, Parecoxib is a selective COX-2 inhibitor administered parenterally and rapidly hydrolysed in vivo to its active metabolite, valdecoxib. COX-2 inhibition reduces prostaglandin E2 (PGE2) production, which is the mechanism underlying its established analgesic use.
-
-Migraine pathophysiology involves neurogenic inflammation and meningeal vasodilation, processes partly mediated by the COX-2/PGE2 pathway. Theoretically, COX-2 inhibition could reduce PGE2-induced vasodilation and pain sensitization, complementing triptans (which act on 5-HT1B/1D receptors to cause vasoconstriction). This rationale is documented in the repurposing evidence for the closely related "Headache Disorder" candidate (same disease-entity family, TxGNN score 0.9955), where a pilot RCT (PMID 21996647) directly compared parecoxib to sumatriptan and rizatriptan in acute migraine attacks.
-
-Importantly, this specific "Migraine Disorder" entry has **zero directly linked clinical trials or literature** — the mechanistic case rests on indirect linkage to the neighboring "Headache Disorder" cluster, not on evidence generated for migraine itself.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*Indirect note: the related "Headache Disorder" candidate lists 3 trials (NCT01930318, NCT03823846, NCT06623513), all graded "C" relevance — none target migraine/headache directly; they involve postoperative or periprocedural pain settings.*
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke dokumenteret i Evidenspakken (almen viden: korttidsbehandling af postoperativ smerte) |
+| Forudsagt ny indikation | Migræneforstyrrelse |
+| TxGNN-forudsigelsesscore | 99.55% |
+| Evidensniveau | L3 (ifølge pakkeberegning; baseret på indirekte evidens, ikke direkte forsøg/litteratur for denne enhed) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afventer |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede mekanisme-for-handling-data for Parecoxib er ikke tilgængelige i denne Evidenspakke (blokering/høj-alvorlighed datakløft: DG002). Baseret på generel farmakologisk viden er Parecoxib en selektiv COX-2-hæmmer administreret parenteralt og hurtigt hydrolyseret in vivo til sit aktive metabolit, valdecoxib. COX-2-hæmning reducerer produktionen af prostaglandin E2 (PGE2), som er mekanismen bag dens etablerede analgetiske anvendelse.
 
-*Indirect note: PMID [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) (2011, RCT, Clinical Neuropharmacology, Tier 1) — a pilot study comparing IV parecoxib 40mg, SC sumatriptan, and oral rizatriptan for acute migraine attacks — is linked to the "Headache Disorder" candidate, not directly to this "Migraine Disorder" entry.*
+Migrænefysiologi involverer neurogen inflammation og meningeale vasodilatation, processer delvis medieret af COX-2/PGE2-banen. Teoretisk kunne COX-2-hæmning reducere PGE2-induceret vasodilatation og smertesensitivisering, komplementering triptaner (som virker på 5-HT1B/1D-receptorer til at forårsage vasokonstriktion). Denne begrundelse er dokumenteret i genbrugsevidensfakta for den tæt beslægtet "Hovedpineforstyrrelse"-kandidat (samme sygdomsenhedsfamilie, TxGNN-score 0.9955), hvor et pilot-RCT (PMID 21996647) direkte sammenlignede parecoxib med sumatriptan og rizatriptan i akutte migræneangreb.
 
----
-
-## Denmark Market Information
-
-Not marketed in Denmark; 0 marketing authorisations currently registered in this Evidence Pack.
+Vigtigvis har denne specifikke "Migræneforstyrrelse"-indgang **nul direkte tilknyttede kliniske forsøg eller litteratur** — den mekanistiske sag hviler på indirekte forbindelse til den nabobeliggende "Hovedpineforstyrrelse"-klynge, ikke på evidens genereret for migræne selv.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-*(Key warnings, contraindications, and drug interaction data are all flagged as data gaps in this Evidence Pack — DG001 is a Blocking-severity gap: TFDA/label warnings and contraindications are unresolved, which prevents a S1 safety pre-assessment.)*
+*Indirekte bemærkning: den relaterede "Hovedpineforstyrrelse"-kandidat lister 3 forsøg (NCT01930318, NCT03823846, NCT06623513), alle klassificeret som "C" relevans — ingen målretter migræne/hovedpine direkte; de involverer postoperativ eller periproceduralsmertesettinger.*
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The top-ranked candidate (Migraine Disorder) has no direct clinical trial or literature support of its own; the mechanistic case relies on indirect linkage to a neighboring disease cluster and a single small pilot RCT.
-- Parecoxib is not currently marketed in Denmark (0 authorisations), and a Blocking data gap (label warnings/contraindications, DG001) prevents even an initial safety screen.
+*Indirekte bemærkning: PMID [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) (2011, RCT, Clinical Neuropharmacology, Tier 1) — et pilotstudium sammenlignende IV parecoxib 40mg, SC sumatriptan og oral rizatriptan for akutte migræneangreb — er tilknyttet "Hovedpineforstyrrelse"-kandidaten, ikke direkte til denne "Migræneforstyrrelse"-indgang.*
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC or approved label — warnings and contraindications (resolves DG001, Blocking)
-- Confirmed mechanism-of-action documentation and original approved indication (resolves DG002)
-- Direct clinical trials or literature evaluating Parecoxib specifically in migraine (not only the adjacent headache-disorder cluster)
-- Assessment of route/dosage-form compatibility for acute migraine treatment (Parecoxib's known formulation is parenteral; suitability for outpatient/self-administered migraine care needs review)
+---
+
+## Markedsinformation for Danmark
+
+Ikke markedsført i Danmark; 0 markedsføringstilladelser i øjeblikket registreret i denne Evidenspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation.
+
+*(Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er alle markeret som datakløfter i denne Evidenspakke — DG001 er et blokering-alvorlighed-kløft: TFDA/label advarsler og kontraindikationer er uløst, hvilket forhindrer en S1-sikkerhedsforvurdering.)*
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afventer**
+
+**Begrundelse:**
+- Den højest rangerede kandidat (Migræneforstyrrelse) har ingen direkte klinisk forsøgs- eller litteraturunderstøttelse; den mekanistiske sag hviler på indirekte forbindelse til en nabobeliggende sygdomsklynge og et enkelt lille pilot-RCT.
+- Parecoxib er i øjeblikket ikke markedsført i Danmark (0 tilladelser), og et blokering-datakløft (label advarsler/kontraindikationer, DG001) forhindrer selv en indledende sikkerhedsvurdering.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk/EU SmPC eller godkendt label — advarsler og kontraindikationer (løser DG001, blokering)
+- Bekræftet dokumentation af mekanisme-for-handling og oprindelig godkendt indikation (løser DG002)
+- Direkte kliniske forsøg eller litteratur, der evaluerer Parecoxib specifikt i migræne (ikke kun den tilstødende "Hovedpineforstyrrelse"-klynge)
+- Vurdering af administrationsvej/præparationsforms egnethed til akut migrænebehandling (Parecoxibs kendt formulering er parenteral; egnethed til ambulant/selvadministreret migrænebehandling kræver vurdering)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

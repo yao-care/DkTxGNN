@@ -29,60 +29,60 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Verteporfin: Towards Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA-Related)
+# Verteporfin: Mod mitokondrial oxidativ fosforyleringsforstyrelse (nuklear DNA-relateret)
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Verteporfin's original approved indication is not recorded in the current evidence pack, and no Denmark marketing authorisation is on file for this substance.
-The TxGNN model predicts a possible link to **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, with a high model confidence score, but **no clinical trials, no ICTRP-registered trials, and no published literature** currently support this direction.
+Verteporfins oprindelige godkendte indikation er ikke registreret i den nuværende evidenspakke, og ingen Danmark-markedsautorisation er arkiveret for dette stof. TxGNN-modellen forudsiger en mulig forbindelse til **mitokondrial oxidativ fosforyleringsforstyrelse på grund af nuklear DNA-anomalier**, med en høj modelconfidencescore, men **ingen kliniske forsøg, ingen ICTRP-registrerede forsøg og ingen publiceret litteratur** understøtter i øjeblikket denne retning.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Post | Indhold |
 |------|------|
-| Original Indication | Not available in evidence pack |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke tilgængelig i evidenspakke |
+| Forudsagt ny indikation | Mitokondrial oxidativ fosforyleringsforstyrelse på grund af nuklear DNA-anomalier |
+| TxGNN-forudsigelsesscore | 99.49% |
+| Evidensniveau | L5 |
+| Danmark-markedsstatus | Ikke markedsført |
+| Antal markedsautoriseringer | 0 |
+| Anbefalet beslutning | På hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available for Verteporfin in this evidence pack, and the drug's original indication(s) are also not recorded. Without this information, it is not possible to assess the pharmacological relationship between the original use and the predicted new indication (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies).
+I øjeblikket er detaljerede virkningsmekanismedata ikke tilgængelige for Verteporfin i denne evidenspakke, og lægemidlets oprindelige indikation(er) er heller ikke registreret. Uden disse oplysninger er det ikke muligt at vurdere det farmakologiske forhold mellem den oprindelige brug og den forudsagte nye indikation (mitokondrial oxidativ fosforyleringsforstyrelse på grund af nuklear DNA-anomalier).
 
-The TxGNN model score for this prediction is high (99.49%), but it is a knowledge-graph-derived association only. No supporting clinical trials, registry entries, or published literature were found to corroborate the biological plausibility of this link. Until MOA data and a documented original indication are obtained, this prediction should be treated as an unvalidated computational hypothesis rather than a mechanistically grounded hypothesis.
+TxGNN-modelscoren for denne forudsigelse er høj (99.49%), men det er udelukkende en vidensgrafs-afledt forbindelse. Der blev ikke fundet nogen støttende kliniske forsøg, registreringsposter eller publiceret litteratur til at bekræfte den biologiske plausibilitet af dette link. Indtil MOA-data og en dokumenteret oprindelig indikation opnås, bør denne forudsigelse behandles som en uvalideret beregningshypotese snarere end en mekanistisk funderet hypotese.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Verteporfin is currently **not marketed** in Denmark, and no marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) are on file for this substance.
+Verteporfin er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsautoriseringer (nationale Lægemiddelstyrelsen eller centraliserede EMA) er arkiveret for dette stof.
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Produktsammendraget (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: På hold**
 
-**Rationale:**
-This prediction rests solely on a TxGNN model score (L5 evidence) with no clinical trials, registry entries, or literature to support it, and the drug is not currently marketed in Denmark. Safety and mechanism-of-action data required for even an initial risk assessment are missing.
+**Begrundelse:**
+Denne forudsigelse hviler udelukkende på en TxGNN-modelscore (L5 evidens) uden kliniske forsøg, registreringsposter eller litteratur til at understøtte den, og lægemidlet er ikke i øjeblikket markedsført i Danmark. Sikkerheds- og virkningsmekanismedata, der er nødvendige selv for en indledende risikovurdering, mangler.
 
-**To proceed, the following is needed:**
-- Original approved indication(s) and confirmed drug classification
-- Mechanism of action (MOA) data
-- Product labelling / SmPC warnings and contraindications (currently blocking — flagged as a data gap for safety pre-screening)
-- Any preclinical or mechanistic studies linking Verteporfin to mitochondrial oxidative phosphorylation disorders
-- Confirmation of Denmark/EU regulatory status if market entry is being considered
+**For at fortsætte, er følgende nødvendigt:**
+- Oprindelig(e) godkendt(e) indikation(er) og bekræftet lægemiddelklassifikation
+- Virkningsmekanisme (MOA) data
+- Produktmærkning / SmPC advarsler og kontraindikationer (blokerer i øjeblikket – markeret som datakløft til sikkerhedspre-screening)
+- Alle prækliniske eller mekanistiske studier, der forbinder Verteporfin til mitokondrial oxidativ fosforyleringsforstyrrelser
+- Bekræftelse af Danmark/EU regulatoriske status, hvis markedsadgang overvejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

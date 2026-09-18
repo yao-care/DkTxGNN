@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ublituximab: From Multiple Sclerosis to Diabetic Cataract
+# Ublituximab: Fra multipel sklerose til diabetisk stær
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Ublituximab is a third-generation anti-CD20 monoclonal antibody, known to be approved for multiple sclerosis via B-cell depletion (Denmark-specific licensing data is not available in this evidence pack). The TxGNN model predicts it may be effective for **Diabetic Cataract**, but currently **0 clinical trials** and **0 publications** support this direction, and the evidence pack itself flags the prediction as a likely false positive.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (based on known drug classification; no Danish licence data available) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.57% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ublituximab er et tredjegenera­tions anti-CD20 monoklonalt antistof, kendt for at være godkendt til multipel sklerose gennem B-celle-depletion (licensieringsdata for Danmark er ikke tilgængelig i denne evidenspakke). TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk stær**, men i øjeblikket **0 kliniske forsøg** og **0 publikationer** understøtter denne retning, og evidenspakken selv markerer forudsigelsen som sandsynligvis værende en falsk positiv.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Ublituximab is a third-generation anti-CD20 monoclonal antibody. Its mechanism of action is B-cell depletion, and it is approved for the treatment of multiple sclerosis.
-
-Diabetic cataract, by contrast, is primarily driven by non-enzymatic glycation of lens proteins, sorbitol (polyol pathway) accumulation, and oxidative stress leading to protein aggregation and lens opacification. There is no established mechanistic link between B-cell–mediated immune pathways and this lens pathology.
-
-Given the very high TxGNN score (0.986) combined with the complete absence of supporting clinical trials or literature, the evidence pack itself assesses this as a likely **false positive arising from topological similarity in the knowledge-graph embedding space**, rather than a biologically grounded signal. The same caveat applies to the other cataract-subtype predictions in this evidence pack (mature, tetanic, craniostenosis, and immature cataract), none of which have a plausible mechanistic connection to anti-CD20 immunotherapy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Multipel sklerose (baseret på kendt lægemiddelklassifikation; danske licensieringsdata ikke tilgængelig) |
+| Forudsagt ny indikation | Diabetisk stær |
+| TxGNN-forudsigelsesscore | 98.57% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+Ublituximab er et tredjegenera­tions anti-CD20 monoklonalt antistof. Dets virkningsmekanisme er B-celle-depletion, og det er godkendt til behandling af multipel sklerose.
 
----
+Diabetisk stær er derimod primært drevet af ikke-enzymatisk glykation af linseproteiner, sorbitol (polyol-vej) akkumulation og oxidativt stress, der fører til proteinaggregation og linseopacifikation. Der er ingen etableret mekanistisk forbindelse mellem B-celle-medierede immunologiske veje og denne linsepatologi.
 
-## Denmark Market Information
-
-Ublituximab is not currently marketed in Denmark, and no marketing authorisations (national or EMA centralised) are on record in this evidence pack.
+Givet det meget høje TxGNN-score (0.986) kombineret med fuldstændig mangel på understøttende kliniske forsøg eller litteratur, vurderer evidenspakken selv dette som en sandsynlig **falsk positiv, der opstår fra topologisk lighed i vidensgraf-indlejringsrum**, snarere end et biologisk baseret signal. Det samme forbehold gælder for de øvrige forudsigelser om stærudtypus i denne evidenspakke (moden, tetanisk, kraniostenose og umoden stær), hvoraf ingen har en plausibel mekanistisk forbindelse til anti-CD20-immunoterapi.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket er der ingen relaterede registrerede kliniske forsøg
 
 ---
 
-## Conclusion and Next Steps
+## Litteratur evidens
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig
 
-**Rationale:**
-The prediction score is high, but there are zero supporting clinical trials or publications, and the mechanistic rationale in this evidence pack itself identifies the signal as a probable embedding-space artefact rather than a biologically plausible link between anti-CD20 B-cell depletion and diabetic cataract pathology.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or the SmPC
-- A biological plausibility review specifically addressing lens/ocular pathology pathways
-- Danish/EU regulatory data (licences, indications) to establish original-indication baseline
-- Preclinical or observational evidence before any further evaluation stage
+## Markedsoplysninger for Danmark
+
+Ublituximab markedsføres i øjeblikket ikke i Danmark, og der er ingen markedsføringstilladelser (nationale eller EMA-centraliserede) registreret i denne evidenspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumékarakteristika (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Forudsigelsesscooren er høj, men der er nul understøttende kliniske forsøg eller publikationer, og den mekanistiske begrundelse i evidenspakken selv identificerer signalet som en sandsynlig artefakt i indlejringsrummet snarere end et biologisk plausibelt link mellem anti-CD20 B-celle-depletion og diabetisk stærpatologi.
+
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme (MOA) data fra DrugBank eller SmPC
+- En biologisk plausibilitetsvurdering, der specifikt behandler øje-/linsepatologiveje
+- Danske/EU-regulatoriske data (licenser, indikationer) til at etablere original-indikations-baseline
+- Præklinisk eller observationel evidens før yderligere evalueringsstadier
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

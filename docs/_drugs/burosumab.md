@@ -29,130 +29,131 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Burosumab: From X-linked Hypophosphatemia to Renal Osteodystrophy
+# Burosumab: Fra X-linket hypofosfattemi til nyreosteodystropi
 
-## One-Sentence Summary
+## Et-sætnings sammenfatning
 
-Burosumab (Crysvita®) is a fully human anti-FGF23 monoclonal antibody approved for X-linked hypophosphatemia (XLH) — a rare hereditary phosphate-wasting disorder causing rickets and osteomalacia in children and adults.
-The TxGNN model predicts it may be effective for **Renal Osteodystrophy** with a prediction score of 96.93%, supported currently by **no registered clinical trials** and **1 publication** directly addressing this direction.
-Notably, for the mechanistically related indication of **bone remodeling disease**, evidence is substantially stronger — with **2 completed Phase 3 RCTs** yielding an L1 evidence level.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | X-linked hypophosphatemia (XLH); no Denmark marketing authorisation on record |
-| Predicted New Indication | Renal Osteodystrophy |
-| TxGNN Prediction Score | 96.93% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Burosumab (Crysvita®) er et fuldt humant anti-FGF23 monoklonalt antistof godkendt til X-linket hypofosfattemi (XLH) — en sjælden arvelig fosfatvædskende lidelse, der forårsager rickets og osteomalaci hos børn og voksne.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Nyreosteodystropi** med en forudsigelsesscore på 96,93%, understøttet i øjeblikket af **ingen registrerede kliniske forsøg** og **1 publikation**, der direkte omhandler denne retning.
+Bemærkelsesværdigt er evidensen for den mekanistisk relaterede indikation **benremodeleringssygdom** væsentlig stærkere — med **2 afsluttede fase 3 RCT'er**, der giver et L1-bevisniveau.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on available clinical trial descriptions, burosumab is a fully human IgG1 monoclonal antibody that binds to and inhibits fibroblast growth factor 23 (FGF23), thereby relieving FGF23-mediated suppression of renal tubular phosphate reabsorption and restoring 1,25-dihydroxyvitamin D₃ synthesis. In XLH — driven by PHEX gene mutations that cause chronic FGF23 excess — burosumab has demonstrated efficacy in normalising serum phosphate, healing osteomalacia, and improving bone mineralisation across two Phase 3 programmes.
-
-Renal osteodystrophy (ROD) is a broad spectrum of bone pathology arising from chronic kidney disease (CKD), characterised by concurrent mineral dysregulation: hyperphosphataemia, hypocalcaemia, secondary hyperparathyroidism, and impaired vitamin D activation. FGF23 rises markedly in CKD as a compensatory phosphatonin — the superficial resemblance to the FGF23-excess state in XLH is what drives the TxGNN prediction. However, the pathophysiology is critically different: in CKD, the FGF23 elevation is an adaptive response attempting to maintain phosphate excretion. Blocking FGF23 in this setting risks worsening hyperphosphataemia, suppressing calcitriol synthesis acutely, and accelerating vascular calcification — effects opposite to those seen in XLH.
-
-This prediction is therefore best interpreted as a targeted hypothesis: burosumab may hold benefit in the rare FGF23-driven hypophosphatemic subtype of ROD, but carries a meaningful risk profile in the far more common hyperphosphataemic CKD patient. The single available publication — a 2024 paediatric metabolic bone disease review — does not directly study ROD treatment with burosumab, further underscoring the preliminary nature of this prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials investigating burosumab specifically in renal osteodystrophy are registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | X-linket hypofosfattemi (XLH); ingen dansk markedsautorisation registreret |
+| Forudsagt ny indikation | Nyreosteodystropi |
+| TxGNN forudsigelsesscore | 96,93% |
+| Bevisniveau | L4 |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsautoriseringer | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+Detaljerede oplysninger om virkningsmekanisme er ikke tilgængelige i denne bevissamling. Baseret på tilgængelige kliniske forsøgsbeskrivelser er burosumab et fuldt humant IgG1 monoklonalt antistof, der bindes til og hæmmer fibroblast-vækstfaktor 23 (FGF23), hvilket lindrer FGF23-medieret undertrykkelse af renal tubulær fosfatreabsorption og genopretter syntesen af 1,25-dihydroxyvitamin D₃. I XLH — drevet af PHEX-genmutationer, der forårsager kronisk FGF23-overskud — har burosumab demonstreret effektivitet i normalisering af serumfosfat, helbredelse af osteomalaci og forbedring af knoglemineralisering på tværs af to fase 3-programmer.
+
+Nyreosteodystropi (ROD) er et bredt spektrum af knoglepatolgi, der opstår fra kronisk nyresygdom (CKD), karakteriseret ved samtidig mineraluregulering: hyperfosfatæmi, hypokalcæmi, sekundær hyperparatyreoidisme og svækket vitamin D-aktivering. FGF23 stiger markant i CKD som en kompensatorisk fosfatonin — den overfladiske lighed med FGF23-overskudstilstanden i XLH er det, der driver TxGNN-forudsigelsen. Patofysiologien er imidlertid kritisk forskellig: i CKD er FGF23-stigningen en adaptiv respons, der forsøger at opretholde fosfatudskillelse. Blokeringen af FGF23 i denne indstilling risikerer at forværre hyperfosfatæmi, akut hæmning af calcitriol-syntese og accelerere vaskulær forkalkning — effekter modsat dem, der ses i XLH.
+
+Denne forudsigelse fortolkes derfor bedst som en målrettet hypotese: burosumab kan have fordele inden for den sjældne FGF23-drevet hypofosfattemiske undertype af ROD, men bærer en meningsfuld risikoprofil i den langt mere almindelige hyperfosfatæmiske CKD-patient. Den eneste tilgængelige publikation — en 2024 pædiatrisk metabolisk knoglesygdomsrevision — studerer ikke direkte ROD-behandling med burosumab, hvilket yderligere understreger denne forudsigelsers foreløbige natur.
+
+---
+
+## Klinisk forsøgsevidens
+
+I øjeblikket er der ingen kliniske forsøg, der undersøger burosumab specifikt ved nyreosteodystropi, registreret.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Vigtige fund |
 |------|------|------|---------|-------------|
-| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Review | Current Pediatric Reviews | Reviews diagnostic and management challenges of paediatric metabolic bone disorders including hypophosphatasia and XLH; discusses the complex pathophysiology of FGF23-mediated phosphate and calcium homeostasis — mechanistically relevant background, but does not directly study renal osteodystrophy or burosumab in CKD |
+| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Oversigt | Current Pediatric Reviews | Gennemgår diagnostiske og ledelses udfordringer ved pædiatriske metaboliske knogleforstyrrelser, herunder hypofosfattasi og XLH; diskuterer den komplekse patofysiologi for FGF23-medieret fosfat- og kalciiumhomeostase — mekanistisk relevant baggrund, men studerer ikke direkte nyreosteodystropi eller burosumab i CKD |
 
 ---
 
-## Denmark Market Information
+## Dansk markedsinformation
 
-Burosumab is not currently authorised or marketed in Denmark. No marketing authorisation records are held by the Danish Medicines Agency (Lægemiddelstyrelsen). Crysvita® holds a centralised EMA marketing authorisation for XLH in other EU/EEA member states; Danish healthcare professionals should consult EMA product information and the current SmPC directly for authorised indications, dosing, and safety requirements.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Crysvita® for complete safety information.
-
-**Mechanistic safety note specific to this predicted indication:** In CKD-associated renal osteodystrophy, FGF23 is typically elevated as a compensatory mechanism. Blocking FGF23 with burosumab in this population may paradoxically worsen hyperphosphataemia and promote vascular calcification — the opposite of the intended therapeutic effect. This represents a clinically significant safety signal that must be formally characterised before any exploratory use is considered in this indication.
+Burosumab er ikke i øjeblikket godkendt eller markedsført i Danmark. Ingen markedsautoriseringer registreres af Lægemiddelstyrelsen. Crysvita® har en centraliseret EMA-markedsautorisation til XLH i andre EU/EØS-medlemsstater; danske sundhedsprofessionelle bør konsultere EMA-produktinformation og det aktuelle SmPC direkte for godkendte indikationer, dosering og sikkerhedskrav.
 
 ---
 
-## Additional Predicted Indications — Evidence Landscape
+## Sikkerhedsmæssige overvejelser
 
-The TxGNN model identified five unique repurposing candidates for burosumab. The full picture across indications is summarised below:
+Se venligst det godkendt produktresuméet (SmPC) for Crysvita® for komplet sikkerhedsinformation.
 
-| Rank | Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|-----------|-------------|---------------|----------------|
-| 1 | Renal Osteodystrophy | 96.93% | L4 | Hold |
-| 3 | Impaired Renal Function Disease | 95.92% | L4 | Research Question |
-| 5 | Non-renal Secondary Hyperparathyroidism | 95.78% | L5 | Hold |
-| 7 | **Bone Remodeling Disease** | **95.49%** | **L1** | **Proceed with Guardrails** |
-| 9 | Hyperparathyroidism, Transient Neonatal | 95.05% | L5 | Hold |
+**Mekanistisk sikkerhedsnote specifik for denne forudsagte indikation:** I CKD-forbundet nyreosteodystropi er FGF23 typisk forhøjet som en kompensatorisk mekanisme. Blokeringen af FGF23 med burosumab i denne population kan paradoksalt forværre hyperfosfatæmi og fremme vaskulær forkalkning — det modsatte af den tilsigtede terapeutiske effekt. Dette repræsenterer et klinisk betydeligt sikkerhedssignal, der skal formelt karakteriseres, før nogen eksplorativ brug overvejes i denne indikation.
 
-The **bone remodeling disease** indication warrants particular attention: XLH-associated osteomalacia is itself a bone remodeling disorder driven by FGF23 excess, and the Phase 3 evidence below represents the strongest available clinical support for the FGF23-inhibition mechanism across all predicted indications.
+---
 
-### Clinical Trial Evidence — Bone Remodeling Disease (L1)
+## Yderligere forudsagte indikationer — Evidenslandskab
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+TxGNN-modellen identificerede fem unikke kandidater til genbrug til burosumab. Det fulde billede på tværs af indikationer er opsummeret nedenfor:
+
+| Rangering | Indikation | TxGNN Score | Bevisniveau | Anbefaling |
+|-----------|-----------|-------------|------------|------------|
+| 1 | Nyreosteodystropi | 96,93% | L4 | Afvent |
+| 3 | Nedsat nyrefunktion sygdom | 95,92% | L4 | Forskningsspørgsmål |
+| 5 | Ikke-renal sekundær hyperparatyreoidisme | 95,78% | L5 | Afvent |
+| 7 | **Benremodeleringssygdom** | **95,49%** | **L1** | **Fortsæt med sikkerhedsbestemmelser** |
+| 9 | Hyperparatyreoidisme, forbigående neonatal | 95,05% | L5 | Afvent |
+
+Indikationen **benremodeleringssygdom** fortjener særlig opmærksomhed: XLH-forbundet osteomalaci er i sig selv en knogleremodeleringsforstyrrelse drevet af FGF23-overskud, og fase 3-evidensen nedenfor repræsenterer den stærkeste tilgængelige kliniske understøttelse for FGF23-hemmingsmekanismen på tværs af alle forudsagte indikationer.
+
+### Klinisk forsøgsevidens — Benremodeleringssygdom (L1)
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |-------------|-------|--------|------------|-------------|
-| [NCT02526160](https://clinicaltrials.gov/study/NCT02526160) | Phase 3 | Completed | 134 | Randomised, double-blind, placebo-controlled Phase 3 RCT in adults with XLH; primary endpoint: increase in serum phosphorus; demonstrates burosumab's efficacy and safety in phosphate-mediated bone remodeling pathology |
-| [NCT02537431](https://clinicaltrials.gov/study/NCT02537431) | Phase 3 | Completed | 14 | Open-label Phase 3 study in adults with XLH; primary endpoint: improvement in osteomalacia assessed by osteoid volume/bone volume (OV/BV); directly evaluates burosumab's impact on bone mineralisation defects |
-| [NCT03993821](https://clinicaltrials.gov/study/NCT03993821) | Early Phase 1 | Unknown | 1 | Single-patient exploratory study of burosumab in Cutaneous Skeletal Hypophosphatemia Syndrome (CSHS); limited generalisability, included as context only |
+| [NCT02526160](https://clinicaltrials.gov/study/NCT02526160) | Fase 3 | Afsluttet | 134 | Randomiseret, dobbeltblindet, placebo-kontrolleret fase 3 RCT hos voksne med XLH; primær endpoint: stigning i serumfosfat; demonstrerer burosumabs effektivitet og sikkerhed i fosfatmedieret knogleremodeleringspatolgi |
+| [NCT02537431](https://clinicaltrials.gov/study/NCT02537431) | Fase 3 | Afsluttet | 14 | Åben-etiket fase 3 studie hos voksne med XLH; primær endpoint: forbedring af osteomalaci vurderet ved osteoid volumen/knoglevolumen (OV/BV); evaluerer direkte burosumabs indflydelse på knoglemineraliseringsmangler |
+| [NCT03993821](https://clinicaltrials.gov/study/NCT03993821) | Tidlig fase 1 | Ukendt | 1 | Enpatient-eksplorativt studie af burosumab ved Cutaneous Skeletal Hypophosphatemia Syndrome (CSHS); begrænset generaliserbarhed, inkluderet som kontekst kun |
 
-### Literature Evidence — Bone Remodeling Disease
+### Litteraturbevis — Benremodeleringssygdom
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige fund |
 |------|------|------|---------|-------------|
-| [37180412](https://pubmed.ncbi.nlm.nih.gov/37180412/) | 2022 | Review | Therapeutic Advances in Rare Disease | Systematic/narrative review comparing burosumab vs. conventional therapy in adult XLH; summarises burosumab's improvements in bone pain, insufficiency fracture healing, enthesopathy, and quality of life; relevant for understanding the therapeutic ceiling in FGF23-driven bone disease |
-| [35235937](https://pubmed.ncbi.nlm.nih.gov/35235937/) | 2023 | Review | Hormone Research in Paediatrics | Reviews novel treatment options in paediatric bone diseases including XLH, paediatric osteoporosis, and achondroplasia; provides context for burosumab's role in the broader landscape of childhood skeletal disorders |
-| [37843399](https://pubmed.ncbi.nlm.nih.gov/37843399/) | 2024 | Observational / Cohort | J Clin Endocrinol Metab | Evaluates cardiovascular risk in adults with XLH receiving conventional therapy; notes chronically elevated FGF23 in XLH and reassuring (though limited) cardiovascular data — directly relevant to long-term safety monitoring under FGF23-pathway therapies |
+| [37180412](https://pubmed.ncbi.nlm.nih.gov/37180412/) | 2022 | Oversigt | Therapeutic Advances in Rare Disease | Systematisk/narrativ oversigt sammenlignet burosumab mod konventionel terapi hos voksne med XLH; opsummerer burosumabs forbedringer i knoglesmerter, insufficiensbrydhelbredelse, enthesopathi og livskvalitet; relevant for at forstå det terapeutiske loft i FGF23-drevet knoglesygdom |
+| [35235937](https://pubmed.ncbi.nlm.nih.gov/35235937/) | 2023 | Oversigt | Hormone Research in Paediatrics | Gennemgår nye behandlingsmuligheder i pædiatriske knogleforstyrrelser, herunder XLH, pædiatrisk osteoporose og achondroplasi; giver kontekst for burosumabs rolle i det bredere spektrum af barnlig skelletpatolgi |
+| [37843399](https://pubmed.ncbi.nlm.nih.gov/37843399/) | 2024 | Observationel / Kohorte | J Clin Endocrinol Metab | Evaluerer kardiovaskulær risiko hos voksne med XLH modtagende konventionel terapi; bemærker kronisk forhøjet FGF23 i XLH og betryggende (dog begrænset) kardiovaskulære data — direkte relevant for langtidsovervågning under FGF23-vejforholdsbehandlinger |
 
-### Literature Evidence — Impaired Renal Function Disease (contextual, L4)
+### Litteraturbevis — Nedsat nyrefunktion sygdom (kontekstuel, L4)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige fund |
 |------|------|------|---------|-------------|
-| [38195892](https://pubmed.ncbi.nlm.nih.gov/38195892/) | 2024 | Case Report | Calcified Tissue International | First published case of burosumab use in a patient with XLH and comorbid CKD stage 3b; conventional therapy was poorly tolerated; burosumab achieved biochemical and clinical improvement — represents the only direct human evidence for burosumab in a renally impaired patient |
-| [32701599](https://pubmed.ncbi.nlm.nih.gov/32701599/) | 2020 | Perspective / Commentary | Curr Opin Nephrol Hypertens | Reviews burosumab in XLH and discusses its theoretical perspective for CKD-MBD; highlights the dual role of FGF23 as both a therapeutic target (XLH) and a risk marker (CKD), framing the key clinical dilemma |
-| [37180412](https://pubmed.ncbi.nlm.nih.gov/37180412/) | 2022 | Review | Therapeutic Advances in Rare Disease | See above; also relevant to renal function disease through discussion of FGF23 dysregulation in XLH patients who develop renal complications |
-| [36382755](https://pubmed.ncbi.nlm.nih.gov/36382755/) | 2022 | Review | Archives of Endocrinology and Metabolism | Reviews phosphorus metabolism and new therapies for hypophosphatemic rickets and osteomalacia including FGF23-targeted agents; provides mechanistic grounding for understanding burosumab's role across phosphate-wasting disorders |
-| [35103802](https://pubmed.ncbi.nlm.nih.gov/35103802/) | 2022 | Review / Case Series | Zeitschrift für Rheumatologie | Reviews tumour-induced osteomalacia (TIO) — a paraneoplastic FGF23-excess syndrome causing renal phosphate wasting — and discusses therapeutic options; mechanistically parallel to XLH and relevant to FGF23 pathway interventions |
-| [31905439](https://pubmed.ncbi.nlm.nih.gov/31905439/) | 2019 | Review | Annals of Pediatric Endocrinology & Metabolism | Reviews skeletal mineralisation mechanisms; explains how insufficient phosphate impairs hydroxyapatite crystal propagation, providing the mechanistic basis for why FGF23 inhibition promotes bone healing |
+| [38195892](https://pubmed.ncbi.nlm.nih.gov/38195892/) | 2024 | Sagrapport | Calcified Tissue International | Første offentliggjort sag af burosumab-brug hos en patient med XLH og samtidig CKD stadium 3b; konventionel terapi var dårligt tolereret; burosumab opnåede biokemisk og klinisk forbedring — repræsenterer det eneste direkte menneskelige bevis for burosumab hos en renalt nedsat patient |
+| [32701599](https://pubmed.ncbi.nlm.nih.gov/32701599/) | 2020 | Perspektiv / Kommentar | Curr Opin Nephrol Hypertens | Gennemgår burosumab i XLH og diskuterer dens teoretiske perspektiv for CKD-MBD; fremhæver den dobbelte rolle af FGF23 som både et terapeutisk mål (XLH) og en risikofaktor (CKD), ramme for det vigtigste kliniske dilemma |
+| [37180412](https://pubmed.ncbi.nlm.nih.gov/37180412/) | 2022 | Oversigt | Therapeutic Advances in Rare Disease | Se ovenfor; også relevant for nyrefunktion sygdom gennem diskussion af FGF23-dysregulering hos XLH-patienter, der udvikler nyrekomplikationer |
+| [36382755](https://pubmed.ncbi.nlm.nih.gov/36382755/) | 2022 | Oversigt | Archives of Endocrinology and Metabolism | Gennemgår fosforkemi og nye terapi til hypofosfattemisk rickets og osteomalaci, herunder FGF23-målrettede midler; giver mekanistisk grundlag for forståelse af burosumabs rolle på tværs af fosfatvædskende forstyrrelser |
+| [35103802](https://pubmed.ncbi.nlm.nih.gov/35103802/) | 2022 | Oversigt / Sagsopsamling | Zeitschrift für Rheumatologie | Gennemgår tumor-induceret osteomalaci (TIO) — en paraneoplastisk FGF23-overskud syndrom forårsagende renal fosfatvædskende — og diskuterer terapeutiske muligheder; mekanistisk parallel til XLH og relevant for FGF23-vejindgreb |
+| [31905439](https://pubmed.ncbi.nlm.nih.gov/31905439/) | 2019 | Oversigt | Annals of Pediatric Endocrinology & Metabolism | Gennemgår skelletmineralisieringsmekanismer; forklarer hvordan utilstrækkelig fosfat hindrer hydroxyapatit krystal propagation, hvilket giver det mekanistiske grundlag for hvorfor FGF23-hemmelse fremmer knoglelækning |
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold** *(primary predicted indication: Renal Osteodystrophy)*
+**Beslutning: Afvent** *(primær forudsagt indikation: Nyreosteodystropi)*
 
-**Rationale:**
-Evidence for burosumab in renal osteodystrophy is limited to a single indirectly relevant paediatric review with no registered clinical trials (L4), and the dual role of FGF23 in CKD introduces a clinically meaningful safety risk — namely worsening hyperphosphataemia and vascular calcification — that must be resolved before this indication can be progressed.
+**Begrundelse:**
+Evidensen for burosumab i nyreosteodystropi er begrænset til en enkelt indirekte relevant pædiatrisk oversigt uden registrerede kliniske forsøg (L4), og FGF23's dobbelte rolle i CKD introducerer en klinisk meningsfuld sikkerhedsrisiko — nemlig forværring af hyperfosfatæmi og vaskulær forkalkning — der skal løses før denne indikation kan rykkes frem.
 
-**To proceed, the following is needed:**
-- Mechanistic phenotyping of the target ROD subtype: only FGF23-driven hypophosphatemic ROD (rare) would be a credible candidate; hyperphosphataemic CKD-ROD carries an unfavourable risk profile
-- Preclinical studies in CKD animal models assessing the effect of FGF23 inhibition on serum phosphate, calcitriol, PTH, and vascular calcification markers
-- Systematic analysis of the XLH+CKD case report (PMID 38195892) and any additional real-world cases to assess feasibility of a proof-of-concept study
-- Formal acquisition of burosumab SmPC (EMA) and DrugBank data to document approved indications, contraindications, and pharmacokinetic parameters in renal impairment
-- Development of a safety monitoring framework covering serum phosphate, calcium, FGF23, PTH, and cardiovascular calcification imaging for any exploratory use
+**For at fortsætte er følgende nødvendigt:**
+- Mekanistisk fænotyping af ROD-undertypens mål: kun FGF23-drevet hypofosfattemisk ROD (sjælden) ville være en troværdig kandidat; hyperfosfatæmisk CKD-ROD bærer en ugunstig risikoprofil
+- Prækliniske studier i CKD dyremodeller, der vurderer virkningen af FGF23-hemmelse på serumfosfat, calcitriol, PTH og vaskulær forkalckningsmarkører
+- Systematisk analyse af XLH+CKD-sagrapporten (PMID 38195892) og eventuelle yderligere kliniske tilfælde til vurdering af gennemførlighed af en proof-of-concept studie
+- Formel erhvervelse af burosumab SmPC (EMA) og DrugBank-data for at dokumentere godkendte indikationer, kontraindikationer og farmakokinetiske parametre ved nyresvigt
+- Udvikling af en sikkerhedsovervågningsramme dækkende serumfosfat, calcium, FGF23, PTH og kardiovaskulær forkalkknings-imaging for enhver eksplorativ brug
 
-> **Note on Bone Remodeling Disease:** If the clinical research question is broadened to FGF23-driven phosphate metabolism disorders causing impaired bone mineralisation, the evidence base is substantially stronger: 2 completed Phase 3 RCTs support an L1 rating, and a dedicated evaluation would support a **Proceed with Guardrails** recommendation. This represents the most actionable pathway for burosumab repurposing research in Denmark.
+> **Note on Bone Remodeling Disease:** Hvis det kliniske forskningsspørgsmål udvides til FGF23-drevet fosfatkemi-forstyrrelser, der forårsager nedsat knoglemineralisering, er evidensgrundlaget væsentlig stærkere: 2 afsluttede fase 3 RCT'er understøtter en L1-vurdering, og en dedikeret evaluering ville understøtte en **Fortsæt med sikkerhedsbestemmelser** anbefaling. Dette repræsenterer den mest handlingsdygtige vej for burosumab genbrug forskning i Danmark.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Healthcare professionals should refer to the current approved SmPC for prescribing information.*
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddelgenbrug kræver klinisk validering før terapeutisk anvendelse. Sundhedsprofessionelle bør henvise til det aktuelle godkendt SmPC for receptinformation.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

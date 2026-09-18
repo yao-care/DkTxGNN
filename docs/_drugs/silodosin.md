@@ -29,89 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Silodosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+# Silodosin: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Silodosin is a highly selective α1A-adrenergic receptor antagonist, clinically established for benign prostatic hyperplasia (BPH) and associated lower urinary tract symptoms. The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital hair-growth disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications**. The drug's own repurposing rationale flags this association as a likely knowledge-graph false positive rather than a genuine mechanistic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Benign prostatic hyperplasia (BPH) / lower urinary tract symptoms (based on known drug class; not confirmed in this Evidence Pack) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Silodosin er en meget selektiv α1A-adrenergisk receptorantagonist, klinisk etableret til behandling af benign prostatahyperplasi (BPH) og tilhørende symptomer på nedre urinveje. TxGNN-modellen forudsiger, at den kan være effektiv mod **Ambras-type hypertrichosis universalis congenita**, en sjælden medfødt hårvækststyringslidelse, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**. Lægemidlets egen genanvendelsesrationalisering markerer denne association som en sandsynlig vidensgrafs-falsk positiv snarere end et ægte mekanistisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known information, silodosin is a highly selective α1A-adrenergic receptor antagonist used to relax smooth muscle in the prostate and bladder neck, improving urinary flow in BPH.
-
-Ambras type hypertrichosis universalis congenita is a rare autosomal-dominant disorder linked to chromosomal rearrangements near 8q22 and dysregulation of the EDA2R-AR gene region, affecting hair follicle growth control. There is no established physiological or pharmacological pathway connecting α1A-adrenergic receptor blockade to hair follicle regulation.
-
-The Evidence Pack's own repurposing rationale is explicit on this point: with no mechanistic hypothesis, no clinical trials, and no literature support — only a high TxGNN score — this association should be treated as a **likely knowledge-graph noise / data-sparsity false positive**, not a credible repurposing lead. This assessment applies consistently across all five distinct candidate diseases surfaced by this run (hypertrichosis-related conditions, a dental/periodontal malformation syndrome, and Dandy-Walker malformation syndrome) — none show a plausible mechanistic link to α1A-selective antagonism.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---|---|
+| Oprindelig indikation | Benign prostatahyperplasi (BPH) / symptomer på nedre urinveje (baseret på kendt lægemiddelklasse; ikke bekræftet i denne bevissamling) |
+| Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Bevisniveau | L5 (kun modelforudsigelse) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er der ikke tilgængelige detaljerede data om virkningsmekanisme (markeret som et høj-alvor datakløft, DG002). Baseret på kendte oplysninger er silodosin en meget selektiv α1A-adrenergisk receptorantagonist, der bruges til at afslappe glat muskulatur i prostata og blærehals, hvilket forbedrer urinflowen ved BPH.
 
----
+Ambras-type hypertrichosis universalis congenita er en sjælden autosomalt domineret lidelse forbundet med kromosomale omarrangementer nær 8q22 og dysregulering af EDA2R-AR-genregionen, som påvirker regulering af hårafølenes vækst. Der er ingen etableret fysiologisk eller farmakologisk vej, der forbinder α1A-adrenergisk receptorblokade med hårafølekontrol.
 
-## Denmark Market Information
-
-Silodosin currently has no marketing authorisation registered in Denmark (0 authorisations; market status: Not marketed). No product/dosage-form data is available in this Evidence Pack.
+Bevissamlingens egen genanvendelsesrationalisering er eksplicit på dette punkt: uden mekanistisk hypotese, uden kliniske forsøg og uden litteraturstøtte – kun en høj TxGNN-score – bør denne association behandles som en **sandsynlig vidensgrafs-støj / datasparsitets-falsk positiv**, ikke en troværdig genanvendelsesmulighed. Denne vurdering gælder konsekvent på tværs af alle fem adskilte kandidatsygdomme, der blev opdaget af dette kørselssekvens (hypertrichosis-relaterede tilstande, et malformationssyndrom med odontal og/eller parodontal komponent og Dandy-Walker malformationssyndrom) – ingen viser en plausibel mekanistisk forbindelse til α1A-selektiv antagonisme.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: retrieval of Danish label warnings and contraindications (DG001) is currently a **Blocking** data gap — it must be resolved before any initial safety screening (S1) can proceed.
+Der er i øjeblikket ingen relaterede registrerede kliniske forsøg.
 
 ---
 
-## Other Candidate Indications (Same Run)
+## Evidens fra litteratur
 
-For transparency, four additional distinct predicted indications were generated in the same batch, all with comparably high TxGNN scores but no supporting evidence and the same "Hold" recommendation:
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-| Predicted Indication | TxGNN Score | Evidence Level | Supporting Data |
+---
+
+## Markedsoplysninger for Danmark
+
+Silodosin har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 tilladelser; markedsstatus: Ikke markedsført). Ingen produkt-/doseringsformdata er tilgængelig i denne bevissamling.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktinformationsfichés (SmPC) for sikkerhedsoplysninger. Bemærk: Indhentelse af danske etiketadvarsler og kontraindikationer (DG001) er i øjeblikket et **blokerende** datakløft – det skal løses, før nogen indledende sikkerhedsvurdering (S1) kan gennemføres.
+
+---
+
+## Andre kandidatindikationer (samme kørsel)
+
+For transparens blev der genereret fire yderligere adskilte forudsagte indikationer i samme batch, alle med sammenlignelig høje TxGNN-score, men uden understøttende evidens og samme "Afvent"-anbefaling:
+
+| Forudsagt indikation | TxGNN-score | Bevisniveau | Understøttende data |
 |---|---|---|---|
-| Hypertrichosis (disease) | 99.99% | L5 | None |
-| Malformation syndrome with odontal and/or periodontal component | 99.99% | L4 | 20 publications (all generic periodontitis literature, none mentioning silodosin or α1-antagonists — string-match artifact, not drug-specific evidence) |
-| Syndrome with a Dandy-Walker malformation as major feature | 99.98% | L5 | None |
-| Isolated genetic hair shaft abnormality | 99.98% | L5 | None |
+| Hypertrichosis (tilstand) | 99.99% | L5 | Ingen |
+| Malformationssyndrom med odontal og/eller parodontal komponent | 99.99% | L4 | 20 publikationer (alt generisk periodontitis-litteratur, ingen nævner silodosin eller α1-antagonister – tekststrengs-match-artefakt, ikke lægemiddelspecifik evidens) |
+| Syndrom med Dandy-Walker malformation som væsentlig karakteristikum | 99.98% | L5 | Ingen |
+| Isoleret genetisk hårskaftabnormitet | 99.98% | L5 | Ingen |
 
-None of these candidates present a credible mechanistic or evidentiary basis for repurposing.
+Ingen af disse kandidater udgør et troværdigt mekanistisk eller evidentielt grundlag for genanvendelse.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-- All five candidate indications are supported only by high TxGNN scores (L5, or L4 with irrelevant literature), with no clinical trials, no disease-specific publications, and no plausible mechanistic pathway connecting silodosin's α1A-adrenergic antagonism to any of the predicted conditions. This pattern is consistent with a knowledge-graph false positive.
-- A Blocking data gap (DG001: missing Danish/EU label warnings and contraindications) independently prevents even an initial safety screen (S1) from being started.
+**Begrundelse:**
+- Alle fem kandidatindikationer understøttes kun af høje TxGNN-score (L5, eller L4 med irrelevant litteratur), uden kliniske forsøg, uden sygdomsspecifikke publikationer og uden plausibel mekanistisk vej, der forbinder silodonins α1A-adrenergisk antagonisme til nogen af de forudsagte tilstande. Dette mønster er konsistent med en vidensgrafs-falsk positiv.
+- Et blokerende datakløft (DG001: manglende danske/EU-etiketter med advarsler og kontraindikationer) forhindrer uafhængigt selv en indledende sikkerhedsvurdering (S1) i at blive startet.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain the official SmPC warnings/contraindications (Blocking)
-- Resolve DG002: obtain confirmed mechanism of action and approved original indication data from DrugBank or an equivalent authoritative source
-- If any of these five indications is to be pursued further, an independent mechanistic hypothesis (beyond TxGNN score) should be developed and validated before allocating evidence-collection resources
+**For at fortsætte, er følgende nødvendigt:**
+- Løs DG001: indhent de officielle SmPC-advarsler/kontraindikationer (Blokerende)
+- Løs DG002: indhent bekræftede virkningsmekanisme- og godkendt oprindelig indikationsdata fra DrugBank eller en tilsvarende autoritative kilde
+- Hvis nogen af disse fem indikationer skal forfølges yderligere, bør der udvikles en uafhængig mekanistisk hypotese (ud over TxGNN-score) og valideres før tildeling af ressourcer til evidensindsamling
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

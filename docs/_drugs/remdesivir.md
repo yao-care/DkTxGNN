@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Remdesivir: From COVID-19 to Multiple Endocrine Neoplasia
+# Remdesivir: Fra COVID-19 til multipel endokrin neoplasi
 
-## One-Sentence Summary
+## Sammenfattelse på én linje
 
-Remdesivir is an intravenous antiviral (RNA-dependent RNA polymerase inhibitor) established for COVID-19 treatment, and it is not currently marketed in Denmark. The TxGNN model's top-ranked prediction is **Multiple Endocrine Neoplasia** (score **99.50%**), but this candidate has **zero supporting clinical trials or publications**, and the evidence pack's own mechanistic review flags it as a likely false-positive with no biological plausibility.
+Remdesivir er et intravenøst antiviralt middel (RNA-afhængig RNA-polymerase-inhibitor) etableret til behandling af COVID-19, og det markedsføres ikke i øjeblikket i Danmark. TxGNN-modellens topranget forudsigelse er **multipel endokrin neoplasi** (score **99.50%**), men denne kandidat har **nul understøttende kliniske forsøg eller publikationer**, og evidenspakkens egen mekanistiske gennemgang markerer den som en sandsynlig falsk positiv uden biologisk plausibilitet.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | COVID-19 (per clinical trial records in this evidence pack, e.g. NCT04669990: "Remdesivir has recently received full approval for COVID-19 by US FDA"); not independently confirmed via Danish regulatory filings, as the drug is not marketed in Denmark |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | COVID-19 (ifølge kliniske forsøgsregistreringer i denne evidenspakke, f.eks. NCT04669990: "Remdesivir har for nylig modtaget fuld godkendelse til COVID-19 af US FDA"); ikke uafhængigt bekræftet via danske regulatoriske ansøgninger, da lægemidlet ikke markedsføres i Danmark |
+| Forudsagt ny indikation | Multipel endokrin neoplasi |
+| TxGNN-forudsigelsesscore | 99.50% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data is not available in the structured `drug.original_moa` field (flagged as a Blocking/High-severity data gap in this pack). However, the evidence pack's own rationale text describes Remdesivir as a nucleotide analog prodrug that targets RNA-dependent RNA polymerase (RdRp), giving it activity against (+)ssRNA viruses such as SARS-CoV-2 and Ebola.
+Detaljerede mekanismedata for virkningsmekanisme er ikke tilgængelige i det strukturerede `drug.original_moa`-felt (markeret som en blokerende/høj-alvorlighed datakløft i denne pakke). Evidenspakkens egen rationale beskriver dog Remdesivir som et nukleotidanalog-prodrug, der retter sig mod RNA-afhængig RNA-polymerase (RdRp), hvilket giver det aktivitet mod (+)ssRNA-virus såsom SARS-CoV-2 og Ebola.
 
-Multiple Endocrine Neoplasia (MEN) is a hereditary endocrine tumour syndrome driven by *RET* or *MEN1* gene mutations — a genetic oncogenic pathway with no known connection to viral RdRp inhibition. The evidence pack explicitly characterizes this pairing as a "typical TxGNN false-positive high-score candidate": the model score is high, but there is no supporting biological rationale, and querying ClinicalTrials.gov, ICTRP, and PubMed for this drug-disease pair returned zero results across all three sources.
+Multipel endokrin neoplasi (MEN) er et arvelig endokrint tumosyndromen drevet af *RET*- eller *MEN1*-genmutationer — en genetisk onkogen vej uden kendt forbindelse til viral RdRp-inhibition. Evidenspakken karakteriserer eksplicit dette par som en "typisk TxGNN falsk-positiv høj-score-kandidat": modelscoren er høj, men der er ingen understøttende biologisk rationale, og søgning på ClinicalTrials.gov, ICTRP og PubMed for dette lægemiddel-sygdomspar returnerede nul resultater på tværs af alle tre kilder.
 
-It is also worth noting that the next-ranked candidate in this pack, "HIV infectious disease" (score 99.32%), superficially appears better supported — 23 registered trials and 20 publications. On review, however, every cited trial and abstract concerns COVID-19/SARS-CoV-2 (e.g. the WHO Solidarity Trial, ACTT-3, ACTIV-3/TICO), not HIV. Remdesivir's RdRp-targeting mechanism does not apply to HIV, a retrovirus that depends on reverse transcriptase. This strongly suggests a disease-ontology mapping error in the pipeline rather than genuine anti-HIV evidence, and should not be read as supporting this repurposing direction either.
+Det er også værd at bemærke, at den næstranget kandidat i denne pakke, "HIV-infektionssygdom" (score 99.32%), overfladisk set ser bedre understøttet ud — 23 registrerede forsøg og 20 publikationer. Ved gennemgang fremgår det dog, at hvert citeret forsøg og abstrakt vedrører COVID-19/SARS-CoV-2 (f.eks. WHO Solidarity Trial, ACTT-3, ACTIV-3/TICO), ikke HIV. Remdesivirs RdRp-målende mekanisme gælder ikke for HIV, et retrovirus, der er afhængigt af omvendt transkriptase. Dette stærkt antyder en sygdoms-ontologi-kortlægningsfejl i pipelinen snarere end ægte anti-HIV-bevis, og bør heller ikke læses som understøttende denne angivelsesændring.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbevis
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Not marketed in Denmark — no marketing authorisations are on file (`total_licenses = 0`).
+Ikke markedsført i Danmark — ingen markedsføringstilladelser er registreret (`total_licenses = 0`).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack (DG001, Blocking severity — data must be retrieved from the official product label before this candidate can enter any safety screening stage).
+Se venligst det godkendte produktinformationsdokument (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og data om lægemiddelvekselvirkninger var ikke tilgængelige i denne evidenspakke (DG001, blokering af høj alvorlighed — data skal hentes fra det officielle produktetiket, før denne kandidat kan indgå i sikkerhedsvurderingsstadiet).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Afvent**
 
 **Rationale:**
-The top-ranked predicted indication (Multiple Endocrine Neoplasia) has no supporting clinical trials or literature and no plausible mechanistic link to Remdesivir's antiviral mode of action. The apparently better-evidenced alternative (HIV infectious disease) is undermined by a likely disease-label mismatch — all associated trials and papers are COVID-19 studies, not HIV studies.
+Den topranget forudsagt indikation (Multipel endokrin neoplasi) har ingen understøttende kliniske forsøg eller litteratur og ingen plausibel mekanistisk forbindelse til Remdesivirs antivirale virkningsmekanisme. Det tilsyneladende bedre dokumenteret alternativ (HIV-infektionssygdom) undermineres af en sandsynlig sygdoms-etiket-uoverensstemmelse — alle tilknyttede forsøg og artikler er COVID-19-studier, ikke HIV-studier.
 
-**To proceed, the following is needed:**
-- Correct the disease-ontology mapping for the "HIV infectious disease" candidate (evidence appears to be COVID-19 data mislabeled)
-- Resolve DG001 (Blocking): obtain TFDA/Danish SmPC warnings, contraindications, and DDI data before any S1 safety screening
-- Resolve DG002 (High): obtain confirmed original MOA from the DrugBank API
-- Verify Denmark/EU marketing status directly (EMA centralised authorisation for Veklury exists globally; this pack shows 0 licenses, which should be reconciled)
-- De-duplicate the ranked candidate list — ranks 1–2, 3–4, 5–6, 7–8, and 9–10 are each identical repeated entries — before any re-scoring or prioritization
+**For at fortsætte, skal følgende være opfyldt:**
+- Ret sygdoms-ontologi-kortlægningen for kandidaten "HIV-infektionssygdom" (bevis ser ud til at være COVID-19-data mislabelt)
+- Løs DG001 (Blokering): indhent TFDA/dansk produktinformation-advarsler, kontraindikationer og DDI-data før nogen S1-sikkerhedsvurdering
+- Løs DG002 (Høj): indhent bekræftet oprindelig MOA fra DrugBank API
+- Verificer Danmark/EU-markedsstatus direkte (EMA centraliseret godkendelse for Veklury findes globalt; denne pakke viser 0 licenser, som skal forenes)
+- Fjern dubletter fra den rangerede kandidatliste — ranger 1–2, 3–4, 5–6, 7–8 og 9–10 er hver identiske gentagne poster — før nogen omvurdering eller prioritering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,106 +29,107 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amitraz: From Veterinary Acaricide to Alopecia
+# Amitraz: Fra veterinær akaricid til alopeci
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Amitraz is a broad-spectrum veterinary ectoparasiticide (acaricide) with no approved human medical indication, used exclusively in animals to treat mite infestations such as demodicosis and sarcoptic mange.
-The TxGNN model predicts it may be effective for **Alopecia** in humans,
-with **0 clinical trials** and **15 publications** (all veterinary animal studies) currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No approved human indication; veterinary acaricide for *Demodex* and *Sarcoptes* mite infestations in animals |
-| Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 98.42% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Amitraz er et bredt spektrum veterinært ektoparsitcid (akaricid) uden godkendt menneskelig medicinsk indikation, brugt udelukkende til dyr til behandling af mitkinfektioner såsom demodecios og sarkoptisk scabies.
+TxGNN-modellen forudsiger, at det kan være effektivt til **alopeci** hos mennesker,
+med **0 kliniske forsøg** og **15 publikationer** (alle veterinære dyrestudier) der i øjeblikket støtter denne retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacological information, Amitraz is a broad-spectrum acaricide that acts as an **alpha-2 adrenergic agonist** and inhibits monoamine oxidase (MAO) in ectoparasites, causing paralysis and death of mites. It is approved exclusively for veterinary use in several countries for the treatment of *Demodex* spp. (demodectic mites) and *Sarcoptes* spp. (sarcoptic mange mites) infestations in dogs, cats, cattle, and other animals.
-
-The theoretical mechanistic link to human alopecia rests on a single indirect chain of reasoning: in animals, mite infestation of hair follicles causes follicular inflammation and secondary hair loss (alopecia); successful mite eradication with amitraz reliably leads to hair regrowth. By analogy, if *Demodex folliculorum* or *Demodex brevis* overpopulation in human hair follicles were a causally relevant driver of follicular inflammation and hair loss in a specific human alopecia subtype, an effective acaricide might theoretically restore hair growth. This is the pathway that the TxGNN knowledge graph has captured with a high score.
-
-However, the strength of this biological hypothesis is currently very limited. All 15 retrieved publications are exclusively veterinary case reports and reviews in dogs, cats, ferrets, alpacas, and other animals — there is no direct human clinical evidence. Critically, amitraz carries significant systemic safety concerns in humans (hypotension, bradycardia, sedation, respiratory depression) arising from alpha-2 adrenergic agonism, which constitutes a major barrier to any human clinical development. The TxGNN score of 98.42% most likely reflects indirect semantic linkage in the knowledge graph ("acaricide → eliminates *Demodex* → resolves alopecia"), rather than a genuine human efficacy signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (ClinicalTrials.gov and ICTRP both returned 0 results for Amitraz + alopecia).
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ingen godkendt menneskelig indikation; veterinært akaricid til *Demodex*- og *Sarcoptes*-mitkinfektioner hos dyr |
+| Forudsagt ny indikation | Alopeci |
+| TxGNN-forudsigelsesscore | 98.42% |
+| Bevisniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-> **Note:** All 15 retrieved publications are veterinary studies. No human clinical evidence is available for this drug–disease pair.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige fra DrugBank. Baseret på kendt farmakologisk information er Amitraz et bredt spektrum akaricid, der virker som en **alfa-2-adrenerg agonist** og hæmmer monoamin oxidase (MAO) i ektoparsitter, hvilket forårsager lammelse og død af mitter. Det er godkendt udelukkende til veterinær brug i flere lande til behandling af *Demodex* spp. (demodetiske mitter) og *Sarcoptes* spp. (sarkoptisk scabies-mitter) infektioner hos hunde, katte, kvæg og andre dyr.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [22488596](https://pubmed.ncbi.nlm.nih.gov/22488596/) | 2012 | Veterinary Narrative Review | Compendium (Yardley, PA) | Overview of canine demodicosis therapy; amitraz rinse (0.025%) approved every 2 weeks; higher concentrations improve success rate but increase adverse effects |
-| [22167167](https://pubmed.ncbi.nlm.nih.gov/22167167/) | 2011 | Veterinary Evidence-Based Review | Tierarztliche Praxis | Evidence-based summary of canine demodicosis treatment options; disease characterised by alopecia, papules and crusts; amitraz among standard therapies |
-| [32814497](https://pubmed.ncbi.nlm.nih.gov/32814497/) | 2021 | Veterinary Case Report | New Zealand Veterinary Journal | Combination topical amitraz + subcutaneous ivermectin successfully treated sarcoptic and chorioptic mange with extensive alopecia, erythema and crusting in an alpaca herd |
-| [34022785](https://pubmed.ncbi.nlm.nih.gov/34022785/) | 2021 | Veterinary Case Report | Annals of Parasitology | *Psoroptes ovis* parasitism reported in a dog; irregular alopecia, scabs, dry desquamation and erythema; treated with acaricide |
-| [19265536](https://pubmed.ncbi.nlm.nih.gov/19265536/) | 2009 | Veterinary Case Report | Parasites & Vectors | Amitraz + metaflumizone spot-on formulation effective against generalised canine demodectic mange with diffuse alopecia; *Demodex* and *Malassezia pachydermatis* co-infection resolved |
-| [19843334](https://pubmed.ncbi.nlm.nih.gov/19843334/) | 2009 | Veterinary Case Series | Acta Veterinaria Scandinavica | *Demodex gatoi*-associated contagious pruritic dermatosis in cats from 6 Finnish households; skin disease with alopecia and pruritus |
-| [17610494](https://pubmed.ncbi.nlm.nih.gov/17610494/) | 2007 | Veterinary Case Report | Veterinary Dermatology | Three alpacas with sarcoptic mange unresponsive to eprinomectin/doramectin successfully treated with amitraz; extensive alopecia, erythema and scaling resolved |
-| [15624702](https://pubmed.ncbi.nlm.nih.gov/15624702/) | 2004 | Veterinary Comparative Study | Immunological Investigations | Comparison of amitraz (conventional) vs. T11TS immunotherapy in canine generalised demodicosis; immunotherapy showed superior immune restoration alongside alopecia resolution |
-| [8833611](https://pubmed.ncbi.nlm.nih.gov/8833611/) | 1996 | Veterinary Case Report | The Veterinary Quarterly | Demodicosis with local alopecia in two ferrets; amitraz treatment was effective and did not cause noticeable adverse effects |
-| [7492657](https://pubmed.ncbi.nlm.nih.gov/7492657/) | 1995 | Veterinary Case Report | J Veterinary Medical Science | Golden hamster with dorsal alopecia from *Demodex* spp.; topical amitraz 0.013% partially effective; complete cure achieved with coumaphos |
+Det teoretiske mekanistiske link til menneskelig alopeci hviler på en enkelt indirekte årsagsrækkefølge: hos dyr forårsager mitkinfektation af hårføllikler føllikelinflamation og sekundær hårtab (alopeci); vellykket mitkudryddelse med amitraz fører pålidelig til hårvækst igen. Som analogi, hvis *Demodex folliculorum* eller *Demodex brevis*-overbefolkning i menneskelige hårholliker var en kausalrelevant drivkraft for føllikelinflamation og hårtab i en specifik menneskelig alopeci-undertype, kunne et effektivt akaricid teoretisk genskabe hårvækst. Dette er den vej, som TxGNN-vidensgrafen har fanget med en høj score.
+
+Imidlertid er styrken af denne biologiske hypotese i øjeblikket meget begrænset. Alle 15 hentede publikationer er udelukkende veterinære caserapporter og oversigter hos hunde, katte, ilder, alpacaer og andre dyr – der er ingen direkte menneskelig klinisk evidens. Kritisk bærer amitraz betydelige systemiske sikkerhedsbekymringer hos mennesker (hypotension, bradykardi, sedering, respiratorisk depression) opstået fra alfa-2-adrenerg agonisme, hvilket udgør en stor barriere for enhver menneskelig klinisk udvikling. TxGNN-scoren på 98.42% afspejler højst sandsynligt indirekte semantisk forbindelse i vidensgrafen ("akaricid → eliminerer *Demodex* → løser alopeci"), snarere end et ægte menneskelig effektivitetssignal.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsevidens
 
-Amitraz is **not marketed in Denmark** and holds **no marketing authorisations** from the Danish Medicines Agency (Lægemiddelstyrelsen) or the European Medicines Agency (EMA) for any human indication.
-
-> There are no registered human-use products containing amitraz in Denmark. In the EU/EEA, amitraz is approved exclusively as a veterinary medicinal product (e.g., for tick and mite control in dogs under the trade name Ectodex/Taktic in certain member states), with no centralised or national human marketing authorisation.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret (både ClinicalTrials.gov og ICTRP returnerede 0 resultater for Amitraz + alopeci).
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-**Key Warnings:**
+> **Bemærk:** Alle 15 hentede publikationer er veterinære studier. Ingen menneskelig klinisk evidens er tilgængelig for dette lægemiddel-sygdomspar.
 
-Amitraz is not approved for human use in any jurisdiction. Based on accidental human poisoning case reports and toxicological data, the following systemic risks are documented:
-
-- **Alpha-2 adrenergic toxidrome:** Central nervous system depression (sedation, coma), hypotension, bradycardia, hypothermia, miosis, and respiratory depression. Yohimbine (alpha-2 antagonist) has been used as an antidote in animal poisoning cases.
-- **No human SmPC available:** As no human marketing authorisation exists, there is no approved Summary of Product Characteristics for human safety reference.
-- **No drug interaction data available** from DrugBank for human use context.
-
-> As Amitraz holds no approved human indication or marketing authorisation in Denmark or any other country, please refer to toxicological reference databases (e.g., TOXBASE, Micromedex) and veterinary product SmPCs for available safety and exposure information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The entire available evidence base consists exclusively of veterinary case reports and reviews in animals (L4), with no human clinical trials, no human observational data, and no human mechanistic studies. Combined with the absence of any human marketing authorisation globally, significant systemic safety risks from alpha-2 adrenergic agonism, and critical data gaps in MOA and human safety profiling, there is currently no basis to advance amitraz as a human drug repurposing candidate for alopecia.
-
-**To proceed, the following would be needed:**
-
-- **Proof-of-concept in humans:** Evidence that *Demodex* overpopulation is causally linked to the specific alopecia subtype in question (e.g., biopsy-confirmed demodicosis-associated alopecia)
-- **Human safety pharmacology data:** Dermal absorption, systemic bioavailability, and tolerability of a topical amitraz formulation in humans
-- **Preclinical studies in human skin models:** In vitro or ex vivo studies confirming efficacy against human *Demodex* with acceptable safety margins
-- **Mechanism of action clarification:** Full pharmacological profile from DrugBank/primary literature to assess alpha-2 agonist systemic exposure risk with topical application
-- **Regulatory pathway assessment:** Consultation with Lægemiddelstyrelsen on feasibility of a first-in-human programme given the current regulatory status (no approved human product)
-- **Drug interaction data:** Formal DDI assessment before any human study can be designed
+| PMID | År | Type | Tidsskrift | Vigtige fund |
+|------|-----|------|-----------|-------------|
+| [22488596](https://pubmed.ncbi.nlm.nih.gov/22488596/) | 2012 | Veterinær Narrativ Oversigt | Compendium (Yardley, PA) | Oversigt over terapi mod canin demodecios; amitraz-skylning (0,025%) godkendt hver 2. uge; højere koncentrationer forbedrer succesrate men øger bivirkninger |
+| [22167167](https://pubmed.ncbi.nlm.nih.gov/22167167/) | 2011 | Veterinær Evidence-Based Oversigt | Tierarztliche Praxis | Evidence-based resumé af behandlingsmuligheder mod canin demodecios; sygdom karakteriseret ved alopeci, papuler og skorper; amitraz blandt standardterapier |
+| [32814497](https://pubmed.ncbi.nlm.nih.gov/32814497/) | 2021 | Veterinær Caserapport | New Zealand Veterinary Journal | Kombineret topical amitraz + subcutan ivermectin behandlede med succes sarkoktisk og chorioptisk scabies med omfattende alopeci, erythema og skorper hos en alpacaflok |
+| [34022785](https://pubmed.ncbi.nlm.nih.gov/34022785/) | 2021 | Veterinær Caserapport | Annals of Parasitology | *Psoroptes ovis*-parasitisme rapporteret hos en hund; uregelmæssig alopeci, skorper, tør deskvamation og erythema; behandlet med akaricid |
+| [19265536](https://pubmed.ncbi.nlm.nih.gov/19265536/) | 2009 | Veterinær Caserapport | Parasites & Vectors | Amitraz + metaflumizon spot-on formulering effektiv mod generaliseret canin demodeketisk scabies med diffus alopeci; *Demodex*- og *Malassezia pachydermatis*-co-infektion løst |
+| [19843334](https://pubmed.ncbi.nlm.nih.gov/19843334/) | 2009 | Veterinær Caseserie | Acta Veterinaria Scandinavica | *Demodex gatoi*-associeret smitsom pruritusfyldt dermatose hos katte fra 6 finske husstande; hudsygdom med alopeci og pruritus |
+| [17610494](https://pubmed.ncbi.nlm.nih.gov/17610494/) | 2007 | Veterinær Caserapport | Veterinary Dermatology | Tre alpacaer med sarkoktisk scabies, der var resistente over for eprinomectin/doramectin, behandlet med succes med amitraz; omfattende alopeci, erythema og skalling løst |
+| [15624702](https://pubmed.ncbi.nlm.nih.gov/15624702/) | 2004 | Veterinær Komparativ Undersøgelse | Immunological Investigations | Sammenligning af amitraz (konventionel) vs. T11TS immunterapi i canin generaliseret demodecios; immunterapi viste overlegen immunforsvar restaurering sammen med alopeci-løsning |
+| [8833611](https://pubmed.ncbi.nlm.nih.gov/8833611/) | 1996 | Veterinær Caserapport | The Veterinary Quarterly | Demodecios med lokal alopeci hos to ilderfer; amitraz-behandling var effektiv og forårsagede ingen mærkbare bivirkninger |
+| [7492657](https://pubmed.ncbi.nlm.nih.gov/7492657/) | 1995 | Veterinær Caserapport | J Veterinary Medical Science | Guldhamstre med dorsal alopeci fra *Demodex* spp.; topical amitraz 0,013% delvist effektiv; fuldstændig helbredelse opnået med coumaphos |
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. Data cut-off: 2026-04-04.*
+## Markedsinformation for Danmark
+
+Amitraz er **ikke markedsført i Danmark** og har **ingen markedsføringstilladelser** fra Lægemiddelstyrelsen eller Det Europæiske Lægemiddelagentur (EMA) for nogen menneskelig indikation.
+
+> Der er ingen registrerede humane lægemidler indeholdende amitraz i Danmark. I EU/EØS er amitraz godkendt udelukkende som et veterinært lægemiddel (f.eks. til fæ- og mitkbekæmpelse hos hunde under handelsnavn Ectodex/Taktic i visse medlemsstater), uden centraliseret eller national menneskelig markedsføringstilladelse.
+
+---
+
+## Sikkerhedshensyn
+
+**Vigtige advarsler:**
+
+Amitraz er ikke godkendt til menneskelig brug i nogen jurisdiktion. Baseret på tilfælde af utilsigtet menneskelig forgiftning og toksikologiske data er følgende systemiske risici dokumenterede:
+
+- **Alfa-2-adrenerg toksidrom:** Centralnervøs depression (sedering, koma), hypotension, bradykardi, hypotermi, miosis og respiratorisk depression. Yohimbin (alfa-2-antagonist) er blevet brugt som antidot i tilfælde af dyreforgiftning.
+- **Ingen menneskelig SmPC tilgængelig:** Da ingen menneskelig markedsføringstilladelse eksisterer, er der ingen godkendt Produktresumé til menneskelig sikkerhedsreference.
+- **Ingen lægemiddelinteraktionsdata tilgængelig** fra DrugBank for menneskelig brugskontekst.
+
+> Da Amitraz ikke har nogen godkendt menneskelig indikation eller markedsføringstilladelse i Danmark eller noget andet land, henvises til toksikologiske referencedatabaser (f.eks. TOXBASE, Micromedex) og veterinære produktsmpc'er for tilgængelig sikkerhed og eksponerringsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Det hele tilgængelige vidensgrundlag består udelukkende af veterinære caserapporter og oversigter hos dyr (L4), uden menneskelige kliniske forsøg, uden menneskelig observationsdata og uden menneskelige mekanistiske undersøgelser. Kombineret med fravær af nogen menneskelig markedsføringstilladelse globalt, betydelige systemiske sikkerhedsrisici fra alfa-2-adrenerg agonisme og kritiske datagab i MOA og menneskelig sikkerhedsprofiler, er der i øjeblikket intet grundlag for at fremme amitraz som kandidat til menneskelig lægemiddelgenbestemmelse til alopeci.
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- **Proof-of-concept hos mennesker:** Evidens for at *Demodex*-overbefolkning er kausalt forbundet til den specifikke alopeci-undertype i spørgsmål (f.eks. biopsikonfirmeret demodicosis-associeret alopeci)
+- **Menneskelig sikkerhedsfarmakologidata:** Dermal absorption, systemisk biotilgængelighed og tolerabilitet af en topical amitraz-formulering hos mennesker
+- **Prækliniske studier i menneskelige hudmodeller:** In vitro eller ex vivo-studier, der bekræfter effektivitet mod menneskelig *Demodex* med acceptable sikkerhedsmargener
+- **Mekanisme af virkning afklaring:** Fuldstændig farmakologisk profil fra DrugBank/primær litteratur for at vurdere alfa-2-agonist systemisk eksponeringsrisiko med topical application
+- **Regulatorisk vejledning:** Konsultation med Lægemiddelstyrelsen om gennemførlighed af et first-in-human program givet den nuværende regulatoriske status (ingen godkendt menneskelig produkt)
+- **Lægemiddelinteraktionsdata:** Formel DDI-vurdering før noget menneskelig studie kan designes
+
+---
+
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Lægemiddelgenbestemmelse kræver klinisk validering før enhver terapeutisk anvendelse. Dataskæring: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

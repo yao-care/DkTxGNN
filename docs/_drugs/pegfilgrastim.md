@@ -29,63 +29,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Pegfilgrastim: From Original Indication Not Documented to Severe Nonproliferative Diabetic Retinopathy
+# Pegfilgrastim: Fra oprindelig indikation ikke dokumenteret til alvorlig non-proliferativ diabetisk retinopati
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Pegfilgrastim (DrugBank DB00019) is a long-acting G-CSF analogue; its original approved indication is not documented in the current evidence pack.
-The TxGNN model predicts a possible association with **Severe Nonproliferative Diabetic Retinopathy**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
+Pegfilgrastim (DrugBank DB00019) er et langtidsvirkende G-CSF-analogon; dets oprindeligt godkendte indikation er ikke dokumenteret i den aktuelle evidenspakke.
+TxGNN-modellen forudsiger en mulig association med **alvorlig non-proliferativ diabetisk retinopati**,
+men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det er et rent modeloutput uden understøttende evidens.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no licenses or original_indications data available) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke dokumenteret i evidenspakke (ingen licenserings- eller original_indications-data tilgængelig) |
+| Forudsagt ny indikation | Alvorlig non-proliferativ diabetisk retinopati |
+| TxGNN-forudsigelsesscore | 99.89% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not currently available for pegfilgrastim in this evidence pack (flagged as a High-severity data gap). Based on the TxGNN model's own rationale, pegfilgrastim is a pegylated G-CSF (granulocyte colony-stimulating factor) analogue whose known action is to stimulate bone marrow neutrophil production and mobilize CD34+ haematopoietic/endothelial progenitor cells into peripheral blood.
+Detaljerede virkningsmekanism-data er for øjeblikket ikke tilgængelige for pegfilgrastim i denne evidenspakke (markeret som en data-mangel med høj alvorlighed). Baseret på TxGNN-modellens egen begrundelse er pegfilgrastim et pegyleret G-CSF-analogon (granulocyt-koloni-stimulerende faktor), hvis kendte virkning er at stimulere neutrofil-produktion i knoglemarv og mobilisere CD34+-hæmatopoietiske/endoteliale progenitorceller til perifert blod.
 
-The model links this progenitor-mobilization mechanism to retinal vascular remodeling pathways. However, the rationale supplied alongside the prediction is notably cautionary rather than supportive: existing literature on G-CSF use for stem-cell mobilization has reported case-level signals of **worsening proliferative diabetic retinopathy or vitreous haemorrhage** — i.e., a potential risk of disease progression rather than a therapeutic benefit. For severe nonproliferative diabetic retinopathy specifically (a pre-neovascular stage), there is no mechanistic evidence in the pack supporting a treatment effect.
+Modellen forbinder denne progenitorcelle-mobiliseringsmekanisme med retinal vaskulær omformning. Imidlertid er den begrundelse, der fulgte med forudsigelsen, væsentligt advarselsfuld snarere end understøttende: eksisterende litteratur om G-CSF-brug til stamcellemobilisering har rapporteret signaler på kasussniveau af **forværring af proliferativ diabetisk retinopati eller glaslegemeblødning** — dvs. en potentiel risiko for sygdomsprogression snarere end terapeutisk fordel. For alvorlig non-proliferativ diabetisk retinopati specifikt (en pre-neovaskulær fase) er der ingen mekanistisk evidens i pakken, der understøtter en behandlingseffekt.
 
-In short, the high TxGNN score reflects a graph-level association, not a validated or even directionally favourable pharmacological rationale — the available mechanistic reasoning points toward a possible safety concern that would need to be ruled out before any therapeutic exploration.
+Kort sagt afspejler den høje TxGNN-score en graf-niveau-association, ikke en valideret eller endog retning-gunstig farmakologisk begrundelse — den tilgængelige mekanistiske ræsonnering peger mod en mulig sikkerhedskoncern, som ville skulle udelukkes, før nogen terapeutisk udforskning.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related clinical trials registered
+I øjeblikket ingen registrerede relaterede kliniske forsøg
 
-## Literature Evidence
+## Litteraturevidence
 
-Currently no related literature available
+I øjeblikket ingen relevant litteratur tilgængelig
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-Pegfilgrastim is currently **not marketed** in Denmark, and no marketing authorisations (national or centralised/EMA) are recorded in this evidence pack.
+Pegfilgrastim er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er registreret i denne evidenspakke.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktkarakteristikasammendrag (SmPC) for sikkerhedsoplysninger.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-This prediction rests solely on a TxGNN model score (Evidence Level L5) with zero supporting clinical trials or literature, no confirmed mechanism-of-action data, and no marketing presence in Denmark. The mechanistic rationale that does exist suggests a possible *risk* of retinopathy progression rather than benefit, which further argues against advancing this candidate without additional evidence.
+**Begrundelse:**
+Denne forudsigelse hviler udelukkende på en TxGNN-modelscore (Evidensniveau L5) uden understøttende kliniske forsøg eller litteratur, uden bekræftede virkningsmekanism-data og uden markedstilstedeværelse i Danmark. Den mekanistiske begrundelse, der eksisterer, tyder på en mulig *risiko* for retinopati-progression snarere end fordel, hvilket yderligere argumenterer imod at fremme denne kandidat uden yderligere evidens.
 
-**To proceed, the following is needed:**
-- SmPC/label warnings and contraindications for pegfilgrastim (currently a Blocking data gap — required before any S1 safety screening)
-- Confirmed mechanism of action and original approved indication(s) from DrugBank or regulatory source
-- Preclinical or mechanistic evidence specifically addressing G-CSF effects on non-proliferative (pre-neovascular) diabetic retinopathy, given the existing signal of potential harm in proliferative disease
-- Any case reports, registries, or pharmacovigilance data on retinal outcomes in patients receiving pegfilgrastim
-- Reassessment of Denmark market/regulatory pathway, since the product currently has no authorisation on record
+**For at fortsætte er følgende nødvendigt:**
+- SmPC/etiket-advarsler og kontraindikationer for pegfilgrastim (i øjeblikket en blokerende data-mangel — påkrævet før eventuel S1-sikkerhedsscreening)
+- Bekræftet virkningsmekanism og oprindeligt godkendt indikation(er) fra DrugBank eller regulatorisk kilde
+- Præklinisk eller mekanistisk evidens, der specifikt adresserer G-CSF-effekter på non-proliferativ (pre-neovaskulær) diabetisk retinopati, givet det eksisterende signal for potentiel skade i proliferativ sygdom
+- Eventuelle kasusbeskrivelser, registre eller farmakovigilansdata om retinale resultater hos patienter, der modtager pegfilgrastim
+- Revurdering af Danmarks marked/regulatorisk vej, da produktet i øjeblikket ikke har nogen registreret markedsføringstilladelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

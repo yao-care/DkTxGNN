@@ -29,83 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anidulafungin: From Invasive Candidiasis to Impetigo
+# Anidulafungin: Fra invasiv candidiasis til impetigo
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Anidulafungin is an echinocandin antifungal agent used in other markets for invasive candidiasis and candidemia, but it is **not currently registered in Denmark**. The TxGNN model assigns its highest prediction score to **Impetigo** (98.85%), yet mechanistic analysis identifies this as a likely **false-positive** driven by knowledge graph topology — the drug has no relevant antibacterial activity against this indication and **0 clinical trials** and **0 publications** support this direction. The most clinically credible secondary signal across all predictions is **Pleural Empyema** (rank 7), supported only by a single pharmacokinetic study demonstrating measurable pleural penetration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Invasive candidiasis, candidemia (not registered in Denmark; no licence data available) |
-| Predicted New Indication | Impetigo |
-| TxGNN Prediction Score | 98.85% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Anidulafungin er et echinocandin-antifungalt middel, der bruges på andre markeder til invasiv candidiasis og kandidæmi, men det er **ikke for øjeblikket registreret i Danmark**. TxGNN-modellen tildeler sin højeste forudsigelsesscore til **Impetigo** (98.85%), men mekanistisk analyse identificerer dette som en sandsynlig **falsk positiv** drevet af vidensgrafs topologi — medicinen har ingen relevant antibakteriel aktivitet mod denne indikation, og **0 kliniske forsøg** og **0 publikationer** understøtter denne retning. Det mest klinisk kredible sekundære signal på tværs af alle forudsigelser er **Pleural empyem** (rang 7), understøttet af kun et enkelt farmakokinetisk studie, der demonstrerer målelig pleural penetration.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Anidulafungin belongs to the echinocandin class of antifungals. Although detailed mechanism of action data is not available in this Evidence Pack, the drug is well-established as a **non-competitive inhibitor of β-1,3-glucan synthase** — the enzyme responsible for synthesising β-1,3-glucan, a critical structural component of the fungal cell wall. Because this enzyme is entirely absent in both mammalian and bacterial cells, anidulafungin has **no antibacterial activity of any kind**.
-
-Impetigo is a superficial bacterial skin infection caused by *Staphylococcus aureus* or *Streptococcus pyogenes*. Neither pathogen possesses a β-1,3-glucan synthase target, and there is no established pharmacological basis for predicting anidulafungin efficacy against them. The high TxGNN score (98.85%) most likely reflects a **knowledge graph topological artefact**: the "skin infection" node cluster sits in close proximity to antifungal drug nodes within the graph, generating a spurious high-scoring association without any true mechanistic link. This prediction is assessed as a **false positive**.
-
-It is worth noting that a secondary prediction — **Pleural Empyema** (rank 7, score 98.52%, evidence level L4) — represents a marginally more plausible, though still very early-stage, hypothesis. Fungal pleural empyema caused by *Candida* or *Aspergillus* spp. does occur in critically ill and immunocompromised patients and carries high mortality. One PK/PD observational study (PMID 29439960) confirms that anidulafungin reaches measurable concentrations in pleural effusion (approximately 40–60% of simultaneous plasma levels), establishing that drug penetration to the pleural compartment is achievable. This does not constitute efficacy evidence, but it is the only data point across all predictions that carries any clinically interpretable signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Invasiv candidiasis, kandidæmi (ikke registreret i Danmark; ingen licensdata tilgængelig) |
+| Forudsagt ny indikation | Impetigo |
+| TxGNN forudsigelsesscore | 98.85% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for the impetigo indication.
+Anidulafungin tilhører echinocandin-klassen af antifungale midler. Selvom detaljerede data om virkningsmekanisme ikke er tilgængelige i denne Evidence Pack, er medicinen veletableret som en **ikke-konkurrencepræget hæmmer af β-1,3-glukan synthase** — det enzym, der er ansvarligt for at syntetisere β-1,3-glukan, en kritisk strukturel komponent af svampecellvæggen. Fordi dette enzym er fuldstændigt fraværende i både pattedyrceller og bakterielle celler, har anidulafungin **ingen antibakteriel aktivitet af nogen art**.
 
-**Secondary signal — Pleural Empyema (rank 7):** One pharmacokinetic study is available and is included below for reference, as it represents the only published evidence identified across all predictions in this Evidence Pack.
+Impetigo er en overfladisk bakteriel hudinfektion forårsaget af *Staphylococcus aureus* eller *Streptococcus pyogenes*. Ingen af disse patogener besidder et β-1,3-glukan synthase-mål, og der er ingen etableret farmakologisk grundlag for at forudsige anidulafungin-effektivitet mod dem. Den høje TxGNN-score (98.85%) afspejler sandsynligvis en **topologisk artefakt i vidensgrafen**: "hudinfektions"-nodegruppen sidder i tæt nærhed til antifungale stofnoder inden for grafen, hvilket genererer en spurios høj-scorende association uden nogen ægte mekanistisk forbindelse. Denne forudsigelse vurderes som en **falsk positiv**.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [29439960](https://pubmed.ncbi.nlm.nih.gov/29439960/) | 2018 | PK/PD Observational Study | *Antimicrobial Agents and Chemotherapy* | In 10 critically ill patients, anidulafungin concentrations in pleural effusion (0.32–2.02 µg/ml) and ascites fluid (0.12–0.99 µg/ml) were measurable but consistently below simultaneous plasma levels (2.48–13.36 µg/ml), confirming drug penetration to both compartments at clinically relevant concentrations |
+Det er værd at bemærke, at en sekundær forudsigelse — **Pleural empyem** (rang 7, score 98.52%, evidensniveau L4) — repræsenterer en marginalt mere plausibel, selvom stadig meget tidlig-stadium, hypotese. Svampe-betinget pleural empyem forårsaget af *Candida* eller *Aspergillus* spp. forekommer hos kritisk syge og immunokomprimiterede patienter og har høj mortalitet. En PK/PD-observationsstudie (PMID 29439960) bekræfter, at anidulafungin når målelige koncentrationer i pleural væske (cirka 40–60% af samtidige plasma-niveauer), hvilket etablerer, at stofpenetration til pleural-kompartmentet er opnåelig. Dette udgør ikke effektivitetsbevis, men det er det eneste datapunkt på tværs af alle forudsigelser, der bærer nogen klinisk tolkbar signal.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-Anidulafungin is **not registered in Denmark**. No marketing authorisations have been issued by the Danish Medicines Agency (Lægemiddelstyrelsen), and no centralised EMA marketing authorisation applies to the Danish market.
-
-> **Access note:** Anidulafungin is authorised in the EU under the brand name **Ecalta** (EMA centralised procedure) for the treatment of invasive candidiasis in non-neutropenic adults. Clinical use in Denmark would require access via a named-patient or compassionate-use pathway through Lægemiddelstyrelsen.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relevant litteratur tilgængelig for impetigo-indikationen.
+
+**Sekundært signal — Pleural empyem (rang 7):** Et farmakokinetisk studie er tilgængeligt og inkluderet nedenfor som reference, da det repræsenterer det eneste offentliggjorte bevis identificeret på tværs af alle forudsigelser i denne Evidence Pack.
+
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|-------------|
+| [29439960](https://pubmed.ncbi.nlm.nih.gov/29439960/) | 2018 | PK/PD-observationsstudie | *Antimicrobial Agents and Chemotherapy* | Hos 10 kritisk syge patienter var anidulafungin-koncentrationer i pleural væske (0,32–2,02 µg/ml) og ascites-væske (0,12–0,99 µg/ml) målelige, men konsistent lavere end samtidige plasma-niveauer (2,48–13,36 µg/ml), hvilket bekræfter stofpenetration til både pleural og abdominalt kompartment ved klinisk relevante koncentrationer |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Anidulafungin er **ikke registreret i Danmark**. Ingen markedsføringstilladelser er udstedt af Lægemiddelstyrelsen, og ingen centraliseret EMA-markedsføringstilladelse gælder for det danske marked.
 
-**Rationale:**
-The top-ranked TxGNN prediction (impetigo, rank 1) has no mechanistic basis and no supporting clinical or preclinical evidence; it is assessed as a knowledge graph false positive arising from topological proximity of skin infection nodes. All remaining L5-rated predictions (malignant pleural mesothelioma, staphylococcal scalded skin syndrome, malignant visceral pleura tumour) are similarly unsupported. The only finding with any evidence (pleural empyema, rank 7, L4) is limited to drug penetration data and does not constitute an efficacy signal sufficient to advance beyond a research question.
+> **Adgangsoversigt:** Anidulafungin er godkendt i EU under varemærket **Ecalta** (EMA-centraliseret procedure) til behandling af invasiv candidiasis hos ikke-neutropene voksne. Klinisk brug i Danmark ville kræve adgang via en patientimport- eller compassioneret-brug-vej gennem Lægemiddelstyrelsen.
 
-**To proceed, the following is needed:**
+---
 
-- Retrieval of the full **Ecalta EU SmPC** to complete the safety profile assessment (warnings, contraindications, drug interactions)
-- Clarification of the **Danish named-patient import pathway** (Lægemiddelstyrelsen §29) if compassionate clinical use is required
-- If the pleural empyema secondary signal is to be explored further: a **dedicated literature search** for case reports and case series of anidulafungin use in confirmed *fungal* pleural empyema, along with assessment of MIC data against relevant *Candida*/*Aspergillus* isolates
-- No further investment in the impetigo, malignant pleural mesothelioma, staphylococcal scalded skin syndrome, or malignant visceral pleura tumour predictions is warranted at this time
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Den toprangerede TxGNN-forudsigelse (impetigo, rang 1) har ingen mekanistisk grundlag og ingen understøttende klinisk eller præ-klinisk bevis; den vurderes som en vidensgrafs falsk positiv, der opstår fra topologisk nærhed af hudinfektions-knuder. Alle resterende L5-klassificerede forudsigelser (ondartet pleural mesotheliom, staphylokok-skaldet hudsyndrom, ondartet visceral pleura-tumor) mangler ligeledes understøttelse. Det eneste fund med nogen form for bevis (pleural empyem, rang 7, L4) er begrænset til stofpenetrations-data og udgør ikke et effektivitets-signal, der er tilstrækkeligt til at gå videre med ud over et forskningsspørgsmål.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- Hentelse af det fuldstændige **Ecalta EU-produktresumé** for at fuldende sikkerhedsprofil-vurderingen (advarsler, kontraindikationer, stofinteraktioner)
+- Præcisering af den **danske patientimport-vej** (Lægemiddelstyrelsen §29), hvis compassioneret klinisk brug er påkrævet
+- Hvis det pleural empyem sekundære signal skal udforskes videre: en **dedikeret litteratur-søgning** for kasuistikker og kasusserier af anidulafungin-brug i bekræftet *svampe*pleural empyem, sammen med vurdering af MIC-data mod relevante *Candida*/*Aspergillus*-isolater
+- Ingen yderligere investering i impetigo-, ondartet pleural mesotheliom-, staphylokok-skaldet hudsyndrom-, eller ondartet visceral pleura-tumor-forudsigelserne er berettiget på nuværende tidspunkt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,89 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Streptozocin: From Unspecified Original Indication to Relapsing-Remitting Multiple Sclerosis
+# Streptozocin: Fra udokumenteret oprindelig indikation til Relapsing-Remitting Multiple Sclerosis
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Streptozocin is a nitrosourea-class DNA-alkylating cytotoxic agent; its original approved indication is not recorded in this evidence pack. The TxGNN model predicts potential efficacy for **Relapsing-Remitting Multiple Sclerosis**, with a prediction score of **99.97%**, but this direction is currently supported by **0 clinical trials** and only **1 publication** — and that publication does not actually study streptozocin as a treatment for multiple sclerosis, indicating this top-ranked prediction is very likely a false positive.
+Streptozocin er en nitrosourea-klasse DNA-alkylerende cytotoksisk agent; dens oprindelig godkendt indikation er ikke registreret i denne evidenspakke. TxGNN-modellen forudsiger potentiel effektivitet for **Relapsing-Remitting Multiple Sclerosis**, med et prognoseresultat på **99,97%**, men denne retning understøttes i øjeblikket af **0 kliniske forsøg** og kun **1 publikation** — og denne publikation undersøger faktisk ikke streptozocin som behandling for multiple sclerosis, hvilket indikerer, at denne toprangeringsprognose meget sandsynligt er et falskt positivt resultat.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Not documented in this evidence pack (data gap) |
-| Predicted New Indication | Relapsing-Remitting Multiple Sclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke dokumenteret i denne evidenspakke (datakløft) |
+| Forudsagt ny indikation | Relapsing-Remitting Multiple Sclerosis |
+| TxGNN-prognoseresultat | 99,97% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognose rimelig?
 
-Detailed mechanism-of-action data for streptozocin is not available in this evidence pack (data gap DG002). Based on the information that is available, streptozocin is a nitrosourea-class DNA-alkylating cytotoxic compound, historically used to selectively damage pancreatic islet beta cells (a property exploited both experimentally, to induce diabetes in animal models, and clinically in oncology).
+Detaljerede virkningsmekanisme-data for streptozocin er ikke tilgængelige i denne evidenspakke (datakløft DG002). Baseret på de tilgængelige oplysninger er streptozocin en nitrosourea-klasse DNA-alkylerende cytotoksisk forbindelse, som historisk er blevet brugt til selektivt at beskadige pankreatiske betaceller (en egenskab, der både er blevet udnyttet eksperimentelt til at inducere diabetes i dyremodeller og klinisk inden for onkologi).
 
-For the top-ranked prediction — Relapsing-Remitting Multiple Sclerosis — there is no plausible mechanistic link. MS pathophysiology centers on immune-mediated demyelination and remyelination, processes unrelated to islet-cell alkylating cytotoxicity. The single supporting publication (PMID 28162947) does not study streptozocin in MS at all: it investigates **FTY720 (fingolimod)** — the actual approved MS drug — improving erectile dysfunction in **streptozotocin-induced diabetic rats**. Streptozocin appears only as the diabetes-induction tool in the animal model, not as a candidate MS therapy. This pattern is consistent with a text-mining false match rather than a genuine repurposing signal.
+For toprangeringsprognosen — Relapsing-Remitting Multiple Sclerosis — er der ingen plausibel mekanistisk forbindelse. MS-patofysiologi centrerer sig omkring immunmedieret demyelinering og remyelinering, processer der er uafhængige af betacelle-alkylerende cytotoksicitet. Den eneste støttende publikation (PMID 28162947) undersøger slet ikke streptozocin ved MS: den undersøger **FTY720 (fingolimod)** — den faktisk godkendt MS-medicin — der forbedrer erektil dysfunktion hos **streptozocin-inducerede diabetiske rotter**. Streptozocin optræder kun som værktøj til diabetesinduktion i dyremodellen, ikke som kandidat-MS-terapi. Dette mønster stemmer overens med et tekst-mining falskt match snarere end et genuint repurposering-signal.
 
-For context, other candidates surfaced by the model carry more directly relevant (though not supportive) evidence: streptozocin itself was tested in several historical Phase II trials for small cell lung carcinoma, but was explicitly reported as an "inactive agent" (PMID 229984) and an "ineffective nonmyelosuppressive agent" (PMID 148321). This underscores that the MS prediction lacks even the negative-trial-level evidence available for other candidates, and should not be advanced without independent mechanistic or preclinical validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+For kontekst blev andre kandidater identificeret af modellen testet i flere historiske fase II-forsøg for småcellet lungekræft, men blev eksplicit rapporteret som "inaktiv agent" (PMID 229984) og "ineffektiv nonmyelosuppressiv agent" (PMID 148321). Dette understreger, at MS-prognosen mangler selv det negative-forsøgs-niveau bevis, der er tilgængeligt for andre kandidater, og bør ikke fremsendes uden uafhængig mekanistisk eller præklinisk validering.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [28162947](https://pubmed.ncbi.nlm.nih.gov/28162947/) | 2017 | Animal Study | The Journal of Sexual Medicine | Studies FTY720 (fingolimod, the actual approved MS drug) reversing erectile dysfunction in streptozotocin-induced diabetic rats. Streptozocin is used only as the diabetes-induction agent in this model and is not evaluated as a treatment for multiple sclerosis — this citation does not support the predicted indication. |
+| [28162947](https://pubmed.ncbi.nlm.nih.gov/28162947/) | 2017 | Dyrestudie | The Journal of Sexual Medicine | Undersøger FTY720 (fingolimod, den faktisk godkendt MS-medicin), der vender erektil dysfunktion hos streptozocin-inducerede diabetiske rotter. Streptozocin bruges kun som diabetesinduktionsmiddel i denne model og evalueres ikke som behandling for multiple sclerosis — denne litteraturkilde understøtter ikke den forudsagt indikation. |
 
 ---
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-Streptozocin currently holds no marketing authorisation (national Laegemiddelstyrelsen or centralised EMA) in Denmark; market status is "Not Marketed" with 0 registered licenses.
+Streptozocin har i øjeblikket ingen markedsføringstilladelse (national Lægemiddelstyrelsen eller centraliseret EMA) i Danmark; markedsstatus er "Ikke markedsført" med 0 registrerede licenser.
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (nitrosourea alkylating agent) |
-| Myelosuppression Risk | Reported in the literature as comparatively low for single-agent use — one historical trial title describes streptozocin as an "ineffective, nonmyelosuppressive agent" (PMID 148321); please confirm against SmPC as formal toxicity data is not in this evidence pack |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | CBC, renal function, and blood glucose/pancreatic islet function are standard considerations for nitrosourea agents; confirm specific monitoring against SmPC |
-| Handling Protection | Cytotoxic drug handling precautions apply, per standard regulations for antineoplastic alkylating agents |
+| Cytotoksicitetsklassificering | Konventionel cytotoksisk (nitrosourea alkylerende agent) |
+| Myelosuppressions-risiko | Rapporteret i litteraturen som relativt lav ved enkeltmiddel-behandling — en historisk forsøgstitel beskriver streptozocin som en "ineffektiv, nonmyelosuppressiv agent" (PMID 148321); bekræft venligst mod Produktresumé (SmPC), da formelle toksicitetsdata ikke er inkluderet i denne evidenspakke |
+| Emetogenitetsklassificering | Se venligst Produktresumé (SmPC)-advarsler og forholdsregler |
+| Overvågningspunkter | Blodcelletal, nyrefunktion og blodglukose/pankreatisk betacelle-funktion er standard overvågningspunkter for nitrosourea-agenter; bekræft specifik overvågning mod Produktresumé (SmPC) |
+| Håndteringsbeskyttelse | Cytotoksik-medicinbehandlings-sikkerhedsforanstaltninger gælder i henhold til standardreglementerne for antineoplastiske alkylerende agenter |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (TFDA/national label warnings, contraindications, and drug-interaction data are all recorded as data gaps in this evidence pack — notably DG001, a **Blocking**-severity gap that prevents this candidate from entering S1 safety pre-screening.)
+Se venligst det godkendt Produktresumé (SmPC) for sikkerhedsoplysninger. (TFDA/nationale etiket-advarsler, kontraindikationer og medicin-vekselvirkningsdata er alle registreret som datakløfter i denne evidenspakke — især DG001, en **blokerings**-alvorligheds-kløft, der forhindrer denne kandidat i at gå ind i S1-sikkerhedspre-screening.)
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-- The top-ranked prediction (Relapsing-Remitting Multiple Sclerosis) has no plausible mechanistic basis, zero clinical trials, and its single literature citation is unrelated to the predicted indication — consistent with a text-mining false positive rather than a genuine signal.
-- Mechanism of action (DG002) and TFDA/SmPC safety data (DG001, blocking) are both missing, so this candidate cannot proceed even if the indication signal were stronger.
+**Begrundelse:**
+- Toprangeringsprognosen (Relapsing-Remitting Multiple Sclerosis) har ingen plausibel mekanistisk grundlag, nul kliniske forsøg, og dens eneste litteraturkilde er uvedrørende for den forudsagt indikation — i overensstemmelse med et tekst-mining falskt positivt resultat snarere end et genuint signal.
+- Virkningsmekanisme (DG002) og TFDA/Produktresumé (SmPC)-sikkerhedsdata (DG001, blokering) mangler begge, så denne kandidat kan ikke komme videre, selv hvis indikationssignalet var stærkere.
 
-**To proceed, the following is needed:**
-- SmPC/label safety data (warnings, contraindications, interactions) to resolve blocking gap DG001
-- Confirmed mechanism-of-action data (DG002) to properly evaluate mechanistic plausibility
-- If pursuing further repurposing evaluation, prioritize candidates with actual streptozocin-specific trial history (e.g., small cell lung carcinoma) over the current top-ranked MS prediction, despite its higher TxGNN score
-- Original indication documentation for this drug, currently absent from the evidence pack
+**For at komme videre, er følgende nødvendigt:**
+- Produktresumé (SmPC)/etiket-sikkerhedsdata (advarsler, kontraindikationer, vekselvirkninger) for at løse blokeringskloften DG001
+- Bekræftet virkningsmekanisme-data (DG002) for korrekt at evaluere mekanistisk plausibilitet
+- Hvis man forfølger yderligere repurposering-evaluering, prioriter kandidater med faktisk streptozocin-specifik forsøgshistorik (f.eks. småcellet lungekræft) fremfor den nuværende toprangeret MS-prognose, på trods af dens højere TxGNN-resultat
+- Dokumentation af oprindelig indikation for dette stof, som i øjeblikket mangler fra evidenspakken
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

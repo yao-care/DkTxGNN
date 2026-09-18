@@ -29,91 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Brolucizumab: From Neovascular Age-Related Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
+# Brolucizumab: Fra neovaskular aldersrelateret maculadegenerering til mitokondriebetinget respiratorisk ketosedefekt på grund af atomært DNA-anomalier
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Brolucizumab (Beovu) is a humanised anti-VEGF-A single-chain antibody fragment (scFv) approved for intravitreal treatment of neovascular (wet) age-related macular degeneration (nAMD) and diabetic macular edema (DME).
-The TxGNN model predicts it may be effective for **Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies**,
-with **0 clinical trials** and **0 publications** currently supporting this direction — making it a model-only prediction that should be interpreted with caution.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Neovascular (wet) age-related macular degeneration (nAMD); diabetic macular edema (DME) |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed in Denmark |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Brolucizumab (Beovu) er et humaniseret anti-VEGF-A single-chain antistof-fragment (scFv), godkendt til intravatreal behandling af neovaskular (våd) aldersrelateret maculadegenerering (nAMD) og diabetisk maculær ødem (DME).
+TxGNN-modellen forudsiger, at det kan være effektivt for **mitokondriebetinget respiratorisk ketosedefekt på grund af atomært DNA-anomalier**,
+med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning — hvilket gør det til en modelbaseret forudsigelse, der bør fortolkes med forsigtighed.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Brolucizumab is a humanised single-chain antibody fragment (scFv) that selectively binds and neutralises VEGF-A, thereby suppressing pathological neovascularisation and vascular permeability in the retina. It is delivered as a 6 mg intravitreal injection and has no established systemic formulation. Detailed pharmacological MOA data was not retrieved by the automated pipeline; however, the drug's anti-VEGF-A mechanism is well established in the ophthalmological literature and is reflected in the repurposing rationale data included in this Evidence Pack.
-
-Mitochondrial oxidative phosphorylation (OXPHOS) disorders due to nuclear DNA anomalies are rare inherited metabolic diseases caused by loss-of-function mutations in nuclear-encoded genes that support the mitochondrial electron transport chain. VEGF signalling does interact with the PGC-1α transcriptional axis — which regulates mitochondrial biogenesis — and VEGF has been shown in some cell models to help maintain mitochondrial membrane potential. These connections form the graph-theoretical basis for the TxGNN prediction.
-
-However, **the mechanistic direction is likely inverse or absent in a therapeutic context.** Inhibiting VEGF-A (brolucizumab's mechanism) could theoretically impair, rather than restore, mitochondrial function. More fundamentally, nuclear DNA-driven OXPHOS disorders are caused by irreversible genetic defects, not by aberrant angiogenesis — the primary pathological process that anti-VEGF agents address. The high TxGNN score most plausibly reflects topological proximity between mitochondrial biogenesis, vascular, and immune-related nodes in the knowledge graph, rather than a genuine therapeutic opportunity. This prediction is considered a likely false positive and should not be advanced without compelling preclinical mechanistic evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Neovaskular (våd) aldersrelateret maculadegenerering (nAMD); diabetisk maculært ødem (DME) |
+| Forudsagt ny indikation | Mitokondriebetinget respiratorisk ketosedefekt på grund af atomært DNA-anomalier |
+| TxGNN-forudsigelsesscore | 99.67% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført i Danmark |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Brolucizumab er et humaniseret single-chain antistof-fragment (scFv), der selektivt binder og neutraliserer VEGF-A, og derved undertrykker patologisk neovaskularisering og vaskulær permeabilitet på nethinden. Det leveres som en 6 mg intravatreal injektion og har ingen etableret systemisk formulering. Detaljerede farmakologiske data om virkningsmekanismen blev ikke hentet af den automatiserede pipeline; imidlertid er lægemidlets anti-VEGF-A-mekanisme velkendt i oftalmologisk litteratur og afspejles i data om begrundelsen for genbrugskandidatur, som er indeholdt i denne bevismappe.
 
----
+Mitokondriebetingede respiratoriske ketosedefekter på grund af atomært DNA-anomalier er sjældne nedarvet metabolske sygdomme forårsaget af tabsfunktionsmutationer i atomært kodede gener, der understøtter mitokondriernes elektronkæde. VEGF-signalering interagerer faktisk med PGC-1α-transskriptionsakselen — som regulerer mitokondriebiosyntese — og VEGF er blevet vist i nogle cellemodeller at hjælpe med at opretholde mitokondriemembranpotentialet. Disse forbindelser udgør det grafteori-grundlag, som TxGNN-forudsigelsen er baseret på.
 
-## Denmark Market Information
-
-Brolucizumab currently holds **no marketing authorisations in Denmark**. No products have been registered through the Danish Medicines Agency (Lægemiddelstyrelsen), and no centralised EMA authorisations are recorded for the Danish market as of the data cut-off date (2026-04-04).
-
-> **Note for clinicians:** Brolucizumab (Beovu) has received EMA centralised approval for nAMD and DME in the EU. Its absence from the Danish market listing may reflect a commercial decision or post-approval safety review (Beovu was subject to an EMA safety assessment concerning intraocular inflammation and retinal vasculitis post-launch). The current authorisation status should be verified directly with Lægemiddelstyrelsen before any clinical planning.
+Imidlertid **er den mekanistiske retning sandsynligvis omvendt eller fraværende i en terapeutisk sammenhæng.** Inhibering af VEGF-A (brolucizumabs mekanisme) kunne teoretisk gøre mitokondriefunktionen dårligere snarere end bedre. Mere fundamentalt er atomært DNA-drevne respiratoriske ketosedefekter forårsaget af irreversible genetiske defekter, ikke af aberrant angiogenese — den primære patologiske proces, som anti-VEGF-midler håndterer. Den høje TxGNN-score afspejler mest sandsynligt topologisk nærhed mellem mitokondriebiosyntese, vaskulære og immunrelaterede knudepunkter i vidensgraferne snarere end en ægte terapeutisk mulighed. Denne forudsigelse anses for at være en sandsynlig falsk positiv og bør ikke fremmes uden overbevisende preklinisk mekanistisk bevis.
 
 ---
 
-## Safety Considerations
+## Bevis for kliniske forsøg
 
-Safety data — including key warnings, contraindications, and drug–drug interactions — were not retrieved by the automated pipeline for this candidate.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-> **Prescriber alert:** Brolucizumab has been associated with serious ocular adverse events including intraocular inflammation, retinal vasculitis, and retinal vascular occlusion in post-marketing experience. These risks are relevant even in the context of exploratory repurposing discussions, particularly if any systemic administration route were to be considered.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteraturen
 
-**Decision: Hold**
-
-**Rationale:**
-There is zero clinical or published scientific evidence supporting the use of brolucizumab in mitochondrial OXPHOS disorders, and the mechanistic rationale is directionally unfavourable — VEGF-A inhibition is unlikely to correct a genetically determined defect in the electron transport chain and could theoretically worsen mitochondrial integrity. The drug is also not authorised in Denmark.
-
-**To proceed, the following is needed:**
-
-- **Mechanistic validation:** A formal preclinical assessment (in vitro or animal model) is required to determine whether any aspect of VEGF-A blockade could plausibly benefit OXPHOS function in nuclear DNA-variant disease models, before any human investigation is considered
-- **Route-of-administration feasibility:** Brolucizumab is exclusively formulated for intravitreal injection; treating a systemic metabolic disease would require a completely new drug formulation and full pharmacokinetic/pharmacodynamic characterisation
-- **Safety dossier completion:** Retrieve the full SmPC (including systemic exposure data after intravitreal injection, teratogenicity, and known contraindications) to enable a proper safety risk assessment
-- **Drug–drug interaction data:** Currently no DDI data is available; this must be obtained before any clinical programme is designed
-- **Regulatory pathway assessment:** As brolucizumab is not currently authorised in Denmark, any clinical programme would require either a new marketing authorisation application or a clinical trial authorisation (CTA) from Lægemiddelstyrelsen / EMA
-- **Alternative candidates review:** Given the weak mechanistic basis for this specific pairing, it is recommended to evaluate whether other VEGF-pathway modulators with systemic exposure data (e.g., bevacizumab, aflibercept) have any emerging evidence in mitochondrial disease before investing further in brolucizumab for this indication
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before use. Report version: v4 | Data cut-off: 2026-04-04 | Candidate ID: TW-DB14864-multi*
+## Markedsinformation for Danmark
+
+Brolucizumab har i øjeblikket **ingen markedsføringstilladelser i Danmark**. Ingen produkter er blevet registreret gennem Lægemiddelstyrelsen, og ingen centraliserede EMA-godkendelser er registreret for det danske marked fra den relevante dato (2026-04-04).
+
+> **Bemærkning for klinikere:** Brolucizumab (Beovu) har modtaget centraliseret EMA-godkendelse for nAMD og DME i EU. Dets fravær på den danske markedsliste kan afspejle en kommerciel beslutning eller en sikkerhedsvurdering efter markedsføring (Beovu var genstand for en EMA-sikkerhedsvurdering vedrørende intraokulær inflammation og retinal vaskulitis efter lancering). Den aktuelle godkendelsestatus bør bekræftes direkte hos Lægemiddelstyrelsen før ethvert klinisk planlægning.
+
+---
+
+## Sikkerhedsmæssige hensyn
+
+Sikkerhedsdata — herunder vigtige advarsler, kontraindikationer og lægemiddel-lægemiddelinteraktioner — blev ikke hentet af den automatiserede pipeline for denne kandidat.
+
+Venligst se den godkendte Karakteristika for Lægemidlet (SmPC) for fuldstændige sikkerhedsinformationer.
+
+> **Forskrivningsadvarsel:** Brolucizumab er blevet forbundet med alvorlige okulære bivirkninger, herunder intraokulær inflammation, retinal vaskulitis og retinal vaskulær okklusion i erfaringer efter markedsføring. Disse risici er relevante selv i forbindelse med eksplorative genbrugsdiskussioner, især hvis nogen systemisk administrationsrute skulle overvejes.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Der foreligger nul klinisk eller publiceret videnskabelig bevis for brugen af brolucizumab til mitokondriebetingede respiratoriske ketosedefekter, og den mekanistiske begrundelse er retningsbestemtmæssigt ugunstig — VEGF-A-inhibering er usandsynligt at korrigere en genetisk bestemt defekt i elektronkæden og kunne teoretisk forværre mitokondriintegriteten. Lægemidlet er heller ikke godkendt i Danmark.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Mekanistisk validering:** En formel preklinisk vurdering (in vitro eller dyremodel) er påkrævet for at bestemme, hvorvidt nogen aspekt af VEGF-A-blokering plausibelt kunne gavne respiratorisk funktion i nukleært DNA-variantmodelllsygdom, før nogen humanundersøgelse overvejes
+- **Mulighed for administrationsrute:** Brolucizumab er udelukkende formuleret til intravatreal injektion; behandling af en systemisk metabolsk sygdom ville kræve en helt ny lægemiddelformulering og fuldstændig farmakokinetisk/farmakodynamisk karakterisering
+- **Fuldstændiggjøring af sikkerhedsdossier:** Hent den fulde SmPC (herunder systemisk eksponering efter intravatreal injektion, teratogenicitet og kendte kontraindikationer) for at muliggøre en korrekt risikovurdering af sikkerhed
+- **Data om lægemiddel-lægemiddelinteraktioner:** Der er i øjeblikket ingen DDI-data tilgængelig; disse skal indhentes, før ethvert klinisk program designes
+- **Vurdering af regulatorisk vej:** Da brolucizumab i øjeblikket ikke er godkendt i Danmark, ville ethvert klinisk program kræve enten en ny ansøgning om markedsføringstilladelse eller en klinisk forsøgstilladelse (KFT) fra Lægemiddelstyrelsen / EMA
+- **Gennemgang af alternative kandidater:** Givet det svage mekanistiske grundlag for denne specifikke parring, anbefales det at vurdere, om andre VEGF-vej-modulatorer med systemisk eksponeringsdata (f.eks. bevacizumab, aflibercept) har nogen nye beviser inden for mitokondrielsygdom, før du investerer yderligere i brolucizumab for denne indikation
+
+---
+
+*Denne rapport er genereret til forskningsformål og udgør ikke medicinsk vejledning. Alle lægemiddelgenbrugskandidater kræver klinisk validering før brug. Rapportversion: v4 | Dataskæring: 2026-04-04 | Kandidat-ID: TW-DB14864-multi*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

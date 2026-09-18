@@ -29,93 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-The data-report skill applies to CLI output scenarios, which doesn't match this task. Proceeding directly with the structured report generation per the system prompt format.
+# Ganciclovir: Antivirusmiddel (CMV) — Ingen prognoser for genoptagelse af behandling tilgængeligt
+
+## Sammenfatning i én sætning
+
+Ganciclovir er en syntetisk guanosinanalog antivirusmiddel, som primært bruges til forebyggelse og behandling af cytomegalovirusinfektioner (CMV) hos immunsupprimerede patienter (f.eks. efter organtransplantation eller ved HIV/AIDS).
+Den aktuelle evidenspakke indeholder **ingen TxGNN-forudsagte nye indikationer**, da prediktionspipeline'en ikke producerede nogen output for denne kandidat.
+Kritiske huller i sikkerhedsdata og mekanisme-for-handling-felter forhindrer en fuldstændig evaluering af genoptagelse af behandling på nuværende tidspunkt.
 
 ---
 
-# Ganciclovir: Antiviral Agent (CMV) — No Repurposing Predictions Available
+## Hurtig oversigt
 
-## One-Sentence Summary
-
-Ganciclovir is a synthetic guanosine analogue antiviral agent, primarily used for the prevention and treatment of cytomegalovirus (CMV) infections in immunocompromised patients (e.g., following organ transplantation or in HIV/AIDS).
-The current Evidence Pack contains **no TxGNN-predicted new indications**, as the prediction pipeline produced no output for this candidate.
-Critical data gaps in safety and mechanism-of-action fields prevent a complete repurposing evaluation at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | CMV retinitis; CMV disease prophylaxis in immunocompromised patients (general medical knowledge — no Danish authorisation on record) |
-| Predicted New Indication | None available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — no predictions generated |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | CMV-retinitis; CMV-sygdomsprofylakse hos immunsupprimerede patienter (almene medicinske kundskaber — ingen dansk godkendelse registreret) |
+| Forudsagt ny indikation | Ingen tilgængelig |
+| TxGNN-prognosescore | N/A |
+| Evidensniveau | L5 — ingen prognoser genereret |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognose rimelig?
 
-No TxGNN repurposing prediction is available for Ganciclovir in this Evidence Pack; mechanistic applicability to a new indication therefore cannot be assessed at this stage.
+Der er ingen TxGNN-prognose for genoptagelse af behandling tilgængelig for Ganciclovir i denne evidenspakke; mekanistisk anvendelighed for en ny indikation kan derfor ikke vurderes på dette stadium.
 
-From general pharmacological knowledge, Ganciclovir (DrugBank: DB01004) is a prodrug activated preferentially in CMV-infected cells. Viral UL97 kinase phosphorylates the drug to ganciclovir-monophosphate; cellular kinases subsequently produce the triphosphate form, which competitively inhibits viral DNA polymerase (pUL54) and, upon incorporation into viral DNA, terminates chain elongation. Selectivity stems from the preferential phosphorylation step in infected cells. The mechanism-of-action field in this Evidence Pack is unpopulated and requires retrieval from the DrugBank API (Data Gap DG002).
+Ud fra almene farmakologiske kundskaber er Ganciclovir (DrugBank: DB01004) en prodrug, der aktiveres præferenstielt i CMV-inficerede celler. Viral UL97-kinase fosforyler stoffet til ganciclovir-monofosfat; cellulære kinaserreagerer derefter med at producere trifosfatformen, som konkurrencemæssigt hæmmer viral DNA-polymerase (pUL54) og ved inkorporering i virale DNA-terminates-kædeforlængelse. Selektivitet stammer fra det præferentielle fosforyleringsstrin i inficerede celler. Mekanisme-for-handling-feltet i denne evidenspakke er uudfyldt og kræver hentning fra DrugBank API'en (Datakløft DG002).
 
-Should the TxGNN pipeline be re-run successfully, potential repurposing directions might include other herpesvirus-family infections (EBV, HHV-6, HHV-8), or disease contexts where CMV reactivation plays a documented pathological role — such as glioblastoma, inflammatory bowel disease, or post-transplant lymphoproliferative disease. However, these directions are speculative until model output is available.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for a repurposing indication.
-
-*(No predicted_indications entry is present in this Evidence Pack; therefore no associated trial data can be extracted.)*
+Hvis TxGNN-pipeline'en køres igen med succes, kunne potentielle retningslinjer for genoptagelse af behandling omfatte andre herpesvirus-familieinfektioner (EBV, HHV-6, HHV-8), eller sygdomskontekster, hvor CMV-reaktivering spiller en dokumenteret patologisk rolle — såsom glioblastom, inflammatorisk tarmsygdom eller posttransplantationslymfoproliferativ sygdom. Imidlertid er disse retningslinjer spekulativ, indtil modeloutput er tilgængeligt.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-Currently no related literature available for a repurposing indication.
+Intet relateret klinisk forsøg er aktuelt registreret for en genoptagelse af behandling-indikation.
 
-*(No predicted_indications entry is present in this Evidence Pack; therefore no associated publication data can be extracted.)*
-
----
-
-## Denmark Market Information
-
-No marketing authorisations are on record for Ganciclovir in Denmark according to the data provided.
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|--------------|-------------|---------------------|
-| — | — | — | No authorisations found |
-
-> **Note for prescribers:** Ganciclovir (Cymevene®) holds a centralised EMA marketing authorisation valid across the EU/EEA. The absence of a local Danish registry record may reflect a data gap rather than a true absence of availability. Clinicians should verify current status directly via the [EMA product database](https://www.ema.europa.eu/en/medicines) and the Laegemiddelstyrelsen product register.
+*(Der er ingen predicted_indications-indgang i denne evidenspakke; derfor kan ingen tilknyttede forsøgsdata ekstraheres.)*
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Ingen relateret litteratur er aktuelt tilgængelig for en genoptagelse af behandling-indikation.
 
-> Both the key warnings and contraindications fields are unpopulated in this Evidence Pack (Data Gap DG001 — Blocking severity). The TFDA/Laegemiddelstyrelsen SmPC PDF must be retrieved and parsed before any safety-dependent evaluation step can proceed. Known class-level concerns include significant myelosuppression (neutropenia, thrombocytopenia), reproductive toxicity, and carcinogenic potential, but these require formal SmPC confirmation before clinical use in any new indication.
+*(Der er ingen predicted_indications-indgang i denne evidenspakke; derfor kan ingen tilknyttede publikationsdata ekstraheres.)*
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Ingen markeringsgodkendelser er registreret for Ganciclovir i Danmark ifølge de leverede data.
 
-**Rationale:**
-The Evidence Pack for Ganciclovir contains no TxGNN repurposing predictions and is missing two critical data fields (safety profile, mechanism of action), making it impossible to conduct a meaningful repurposing evaluation or safety pre-screen at this time.
+| Markeringsgodkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+|-------|-------------|----------|-------------|
+| — | — | — | Ingen godkendelser fundet |
 
-**To proceed, the following is needed:**
+> **Bemærk for ordinatorer:** Ganciclovir (Cymevene®) har en centraliseret EMA-markeringsgodkendelse, der gælder på tværs af EU/EØS. Fraværet af en lokale dansk registreringspost kan afspejle et datakløft snarere end et sandt fravær af tilgængelighed. Klinikere bør bekræfte nuværende status direkte via [EMA-produktdatabasen](https://www.ema.europa.eu/en/medicines) og Laegemiddelstyrelsens produktregister.
 
-- **Re-run TxGNN prediction pipeline** for Ganciclovir (DB01004) to generate disease repurposing candidates — without model output, this entire evaluation workflow cannot advance
-- **Retrieve MOA data from DrugBank API** (Data Gap DG002 — High severity) to enable mechanistic plausibility analysis
-- **Download and parse the SmPC PDF** from Laegemiddelstyrelsen / EMA to populate key warnings and contraindications (Data Gap DG001 — Blocking severity, required before S1 safety pre-screening)
-- **Confirm Denmark/EU market status** by cross-checking the EMA centralised authorisation register for Cymevene® and any valganciclovir (prodrug) authorisations that may be clinically relevant
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+> Både nøgleadvarslerne og modindikationerne er uudfyldt i denne evidenspakke (Datakløft DG001 — Blokering alvorlighed). TFDA/Laegemiddelstyrelsens SmPC PDF skal hentes og analyseres, før alle sikkerhedsafhængige evalueringtrin kan fortsætte. Kendende klassesignale omfatter betydelig myelosuppression (neutropeni, trombocytopeni), reproduktiv toksicitet og kancerøsepotentiale, men disse kræver formelt SmPC-bekræftelse før klinisk brug i enhver ny indikation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Evidenspakken for Ganciclovir indeholder ingen TxGNN-prognoser for genoptagelse af behandling og mangler to kritiske datafelter (sikkerhedsprofil, mekanisme for handling), hvilket gør det umuligt at gennemføre en meningsfuld evaluering af genoptagelse af behandling eller sikkerhedsprescreening på nuværende tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Kør TxGNN-prediktionspipeline igen** for Ganciclovir (DB01004) for at generere sygdomskandidater til genoptagelse af behandling — uden modeloutput kan denne hele evalueringsworkflow ikke avancere
+- **Hent MOA-data fra DrugBank API'en** (Datakløft DG002 — Høj alvorlighed) for at muliggøre mekanistisk plausibilitetanalyse
+- **Download og analysere SmPC PDF'en** fra Laegemiddelstyrelsen / EMA for at udfylde nøgleadvarsler og modindikationer (Datakløft DG001 — Blokering alvorlighed, påkrævet før S1-sikkerhedsprescreening)
+- **Bekræft Danmark/EU-markedsstatus** ved at krydstjekke EMA's centraliserede godkendelsesregister for Cymevene® og eventuelle valganciclovirgodkendelser (prodrug), som kan være klinisk relevante
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,77 +29,76 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the evidence pack as provided (no skill applies — this is a direct templated report-generation task per the system prompt's explicit format).
+# Rifampicin: Fra tuberkulosebehandling til konjunktivitis
 
-# Rifampicin: From Antituberculosis Therapy to Conjunctivitis
+## Ét-linjes sammenfatning
 
-## One-Sentence Summary
+Rifampicin er en antibiotika fra rifamycingruppen, klassisk brugt mod tuberkulose og spedalskheden. Originalindikationen og mekanisme-virknings-felterne er ikke registreret i denne evidenspakke (datagab DG001/DG002). TxGNN-modellen forudsiger, at det kan være effektivt for **konjunktivitis**, med en **99.95% forudsigelsesscore**, men der er i øjeblikket **0 registrerede kliniske forsøg** og kun **20 litteraturreferencerefer** — hovedsageligt ældre kasuistikker og ét lille kontrolleret trachomatorsøg — som understøtter denne retning.
 
-Rifampicin is a rifamycin-class antibiotic classically used against tuberculosis and leprosy; the original indication and mechanism-of-action fields are not recorded in this evidence pack (data gaps DG001/DG002). The TxGNN model predicts it may be effective for **Conjunctivitis**, with a **99.95% prediction score**, but currently **0 registered clinical trials** and only **20 literature references** — mostly older case reports and one small controlled trachoma trial — support this direction.
+## Hurtig oversigt
 
-## Quick Overview
+| Element | Indhold |
+|------|---------|
+| Original indikation | Ikke registreret i evidenspakken — Rifampicin er klassisk en tuberkulose-/spedalskhedsbetændelse rifamycin-antibiotika (venter på bekræftelse via DrugBank/TFDA, se DG002) |
+| Forudsagt ny indikation | Konjunktivitis |
+| TxGNN forudsigelsesscore | 99.95% |
+| Bevisniveau | L3 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afhold |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack — Rifampicin is classically an antituberculosis/antileprosy rifamycin antibiotic (pending confirmation via DrugBank/TFDA, see DG002) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+## Hvorfor er denne forudsigelse rimelig?
 
-## Why is This Prediction Reasonable?
+I øjeblikket er detaljerede mekanisme-virkning-data for denne evidenspakke ikke tilgængelig (DG002). Baseret på generel farmakologisk klassificering er rifampicin en rifamycin, der hæmmer bakteriel DNA-afhængig RNA-polymerase, hvilket giver den bred antibakteriel (og nogle antiklamydiel) aktivitet — dette er grundlæggende lægemiddelklasse-viden, ikke et fund fra denne evidenspakke.
 
-Currently, detailed mechanism-of-action data for this evidence pack is not available (DG002). Based on general pharmacological classification, rifampicin is a rifamycin that inhibits bacterial DNA-dependent RNA polymerase, giving it broad antibacterial (and some antichlamydial) activity — this is basic drug-class knowledge, not a finding from this evidence pack.
+Ingen original indikation er registreret i pakken (`taiwan_regulatory.licenses` og `drug.original_indications` er begge tomme), så en direkte sammenligning mellem "original" og "forudsagt" indikation kan ikke foretages alene ud fra de leverede data.
 
-No original indication is recorded in the pack (`taiwan_regulatory.licenses` and `drug.original_indications` are both empty), so a direct comparison between "original" and "predicted" indications cannot be made from the supplied data alone.
+Litteraturen forbundet med konjunktivitis-forudsigelsen er hovedsageligt historisk: et 1975-kontrolleret forsøg med topisk rifampicin-salve for endemisk trachom (en klamydial konjunktivitis-infektion) i Tunesien, et 1970-in vitro-studie af anti-trachom-aktivitet, og flere bakteriel-etiologi/modtageligheds-undersøgelser af konjunktivitis-patogener. Tilsammen tyder disse på en plausibel men forældet og snæver begrundelse — rifampicins kendt aktivitet mod *Chlamydia trachomatis* og nogle gram-positive patogener — snarere end et stærkt, moderne, sygdoms-specifikt effektivitetssignal.
 
-The literature associated with the conjunctivitis prediction is largely historical: a 1975 controlled trial of topical rifampicin ointment for endemic trachoma (a chlamydial conjunctival infection) in Tunisia, a 1970 in vitro study of anti-trachoma activity, and several bacterial-etiology/susceptibility surveys of conjunctivitis pathogens. Together these suggest a plausible but dated and narrow rationale — rifampicin's known activity against *Chlamydia trachomatis* and some Gram-positive conjunctival pathogens — rather than a strong, modern, disease-specific efficacy signal.
+## Evidens fra kliniske forsøg
 
-## Clinical Trial Evidence
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret
 
-Currently no related clinical trials registered
+## Litteraturevidence
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Controlled trial | American Journal of Ophthalmology | Compared topical 1% tetracycline, 1% rifampicin, and 5% boric acid ointments in Tunisian schoolchildren with active trachoma; treatments given twice daily for 10 weeks with follow-up to 39 weeks |
-| [6635446](https://pubmed.ncbi.nlm.nih.gov/6635446/) | 1983 | Review | Reviews of Infectious Diseases | Rifampin is the most active antibiotic by weight against *Chlamydia trachomatis*; as effective as tetracyclines for topical trachoma treatment, but resistance emerges easily in vitro |
-| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | Preclinical | Nature | Early study of anti-trachoma activity of rifampicin and rifamycin SV derivatives |
-| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Case report/commentary | Annals of Ophthalmology | Early ophthalmology commentary on rifampicin (abstract not available) |
-| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Review | Current Medicinal Chemistry | Reviews neglected bacterial diseases including trachoma; notes rifampin/streptomycin combinations used for related conditions |
-| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Observational | Advanced Biomedical Research | Bacterial etiology and antibiotic susceptibility of conjunctivitis isolates in Kashan, Iran |
-| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | Observational | Journal of Ophthalmic Inflammation and Infection | Bacteriologic and plasmid analysis of conjunctivitis etiologic agents in Lagos, Nigeria |
-| [15228931](https://pubmed.ncbi.nlm.nih.gov/15228931/) | 2004 | Observational/Review | Anales de Pediatría | Reviews prevalent bacterial conjunctivitis pathogens and antibiotic sensitivity patterns |
-| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | Observational | Anales Españoles de Pediatría | Retrospective microbiologic study of 50 neonatal conjunctivitis cases; 84% positive bacterial culture |
-| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | Case report | Clinical Microbiology and Infection | Primary meningococcal conjunctivitis in a 6-year-old, treated topically then with systemic rifampin after diagnosis; no complications |
+| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Kontrolleret forsøg | American Journal of Ophthalmology | Sammenlignede topisk 1% tetracyklin, 1% rifampicin og 5% borsyre-salver hos tunesiske skolebørn med aktiv trachom; behandlinger givet to gange dagligt i 10 uger med opfølgning til 39 uger |
+| [6635446](https://pubmed.ncbi.nlm.nih.gov/6635446/) | 1983 | Oversigt | Reviews of Infectious Diseases | Rifampin er det mest aktive antibiotika efter vægt mod *Chlamydia trachomatis*; lige så effektivt som tetracykliner til topisk trachom-behandling, men resistens opstår let in vitro |
+| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | Præ-klinisk | Nature | Tidligt studie af anti-trachom-aktivitet af rifampicin og rifamycin SV-derivater |
+| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Kasuistik/kommentar | Annals of Ophthalmology | Tidlig oftalmologi-kommentar på rifampicin (abstrakt ikke tilgængeligt) |
+| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Oversigt | Current Medicinal Chemistry | Gennemgår forsømte bakterielle sygdomme herunder trachom; noter rifampin/streptomycin-kombinationer brugt til beslægtede tilstande |
+| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Observationsstudie | Advanced Biomedical Research | Bakteriel etiologi og antibiotika-modtagelighed af konjunktivitis-isolater i Kashan, Iran |
+| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | Observationsstudie | Journal of Ophthalmic Inflammation and Infection | Bakteriologisk og plasmid-analyse af konjunktivitis etiologiske agenter i Lagos, Nigeria |
+| [15228931](https://pubmed.ncbi.nlm.nih.gov/15228931/) | 2004 | Observationsstudie/Oversigt | Anales de Pediatría | Gennemgår hyppige bakterielle konjunktivitis-patogener og antibiotika-følsomhedsmønstre |
+| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | Observationsstudie | Anales Españoles de Pediatría | Retrospektiv mikrobiologisk undersøgelse af 50 neonatale konjunktivitis-tilfælde; 84% positiv bakterielkultur |
+| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | Kasuistik | Clinical Microbiology and Infection | Primær meningokakkal konjunktivitis hos et 6-årigt barn, behandlet topisk derefter med systemisk rifampin efter diagnose; ingen komplikationer |
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Currently no marketing authorisation on record for Rifampicin in Denmark (market status: Not marketed; 0 authorisations).
+Der er i øjeblikket ingen markedsføringstilladelse på registreringen for Rifampicin i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: TFDA/SmPC warnings and contraindications are flagged in this evidence pack as a **Blocking** data gap (DG001) — safety screening (S1) cannot currently be completed without this data.
+Se venligst det godkendte produktresumeé (SmPC) for sikkerhedsinformation. Bemærk: TFDA/SmPC-advarsler og kontraindikationer er markeret i denne evidenspakke som et **blokerende** datagab (DG001) — sikkerhedsvurdering (S1) kan i øjeblikket ikke gennemføres uden disse data.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afhold**
 
-**Rationale:**
-- No clinical trials specifically evaluate rifampicin for conjunctivitis; supporting literature is limited to a 1970s controlled trachoma trial, older case reports, and general antibiotic-susceptibility surveys rather than direct efficacy evidence for conjunctivitis itself.
-- A Blocking-severity data gap (DG001 — missing TFDA/SmPC warnings and contraindications) prevents even an initial safety assessment, and Rifampicin currently has no Danish marketing authorisation.
+**Begrundelse:**
+- Ingen kliniske forsøg evaluerer specifikt rifampicin for konjunktivitis; understøttende litteratur er begrænset til et 1970'er kontrolleret trachom-forsøg, ældre kasuistikker og generelle antibiotika-modtageligheds-undersøgelser snarere end direkte effektivitetsbevis for konjunktivitis selv.
+- Et blokerende datagab (DG001 — manglende TFDA/SmPC-advarsler og kontraindikationer) forhindrer selv en indledende sikkerhedsvurdering, og Rifampicin har i øjeblikket ingen dansk markedsføringstilladelse.
 
-*(For context: two other TxGNN-flagged candidates in this evidence pack — "multiple endocrine neoplasia" and "HIV infectious disease" — were independently assessed as low-value signals: the former has no supporting trials/literature at all, the latter reflects TB/HIV co-treatment drug-interaction studies rather than direct anti-HIV activity. Both are recommended Hold and are not pursued further in this report.)*
+*(For kontekst: to andre TxGNN-flaggede kandidater i denne evidenspakke — "multipel endokrin neoplasi" og "HIV infektionssygdom" — blev uafhængigt vurderet som lavværdi-signaler: førstnævnte har ingen understøttende forsøg/litteratur overhovedet, sidstnævnte afspejler TB/HIV co-behandling lægemiddel-interaktions-studier snarere end direkte anti-HIV-aktivitet. Begge anbefales Afhold og forfølges ikke videre i denne rapport.)*
 
-**To proceed, the following is needed:**
-- Confirmed original indication and mechanism-of-action data (DG002)
-- TFDA/SmPC warnings, contraindications, and full DDI profile (DG001, Blocking)
-- A modern, conjunctivitis-specific clinical study (rather than relying on trachoma-adjacent historical data)
-- Clarification of route-of-administration compatibility (topical ophthalmic vs. systemic) for this indication
-- Assessment of a Denmark/EU marketing-authorisation pathway, given current "Not marketed" status
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet original indikation og mekanisme-virkning-data (DG002)
+- TFDA/SmPC-advarsler, kontraindikationer og fuld DDI-profil (DG001, blokerende)
+- Et moderne, konjunktivitis-specifikt klinisk studie (snarere end at stole på trachom-tilgrænset historiske data)
+- Præcisering af administrationsvej-kompatibilitet (topisk oftalmologisk vs. systemisk) for denne indikation
+- Vurdering af en Danmark/EU markedsføringsgodkendelsessti, givet nuværende "Ikke markedsført"-status
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,89 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Cimicoxib: Drug Repurposing Evaluation — Insufficient Data for Prediction
+# Cimicoxib: Evaluering af lægemiddelgenbrug — Utilstrækkelige data til forudsigelse
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Cimicoxib (DB05095) is a selective COX-2 inhibitor originally developed for veterinary use (pain and inflammation management in dogs), with no approved human indications on record.
-The TxGNN model returned **no predicted repurposing indications** for this drug, and the evidence pack contains **no clinical trials or publications** to support any new indication.
-A full repurposing evaluation cannot be completed at this time; this report documents the current data state and recommended remediation steps.
+Cimicoxib (DB05095) er en selektiv COX-2-hæmmer oprindeligt udviklet til veterinær brug (smertelindring og betændelseshåndtering hos hunde) uden godkendte menneskelige indikationer på skemaet.
+TxGNN-modellen returnerede **ingen forudsagte genbrug-indikationer** for dette lægemiddel, og bevissamlingen indeholder **ingen kliniske forsøg eller publikationer**, der understøtter nogen ny indikation.
+En fuldstændig evaluering af lægemiddelgenbrug kan ikke gennemføres på nuværende tidspunkt; denne rapport dokumenterer det aktuelle data-tilstand og anbefalede afhjælpningstrin.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Veterinary use (pain/inflammation in dogs; no human indication on record) |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (model returned no output; no supporting studies identified) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | Veterinær brug (smerte/betændelse hos hunde; ingen menneskelig indikation på skemaet) |
+| Forudsagt ny indikation | Ingen — TxGNN returnerede ingen forudsigelser |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Evidensniveau | L5 (modellen returnerede ingen output; ingen understøttende undersøgelser identificeret) |
+| Markedsstatus i Danmark | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-No TxGNN prediction is available for Cimicoxib in this evidence pack, so a formal mechanism-to-indication bridging analysis cannot be performed.
+Der er ingen TxGNN-forudsigelse tilgængelig for cimicoxib i denne bevissamling, så en formel mekanisme-til-indikation-bridging-analyse kan ikke udføres.
 
-Cimicoxib is a selective cyclooxygenase-2 (COX-2) inhibitor belonging to the same pharmacological class as celecoxib and etoricoxib. In principle, selective COX-2 inhibition has a well-characterised mechanistic rationale across multiple human disease areas — including pain syndromes, inflammatory arthritis, and certain oncological indications — because COX-2-derived prostaglandins mediate inflammation, nociception, and tumour microenvironment signalling.
+Cimicoxib er en selektiv cyklooxygenase-2 (COX-2)-hæmmer, der tilhører samme farmakologiske klasse som celecoxib og etoricoxib. I princippet har selektiv COX-2-hæmning en velkarakteriseret mekanistisk begrundelse på tværs af flere menneskelige sygdomsarealer — herunder smertesyndromater, inflammatorisk arthritis og visse onkologiske indikationer — fordi COX-2-afledt prostaglandiner medierer betændelse, nociception og tumor-mikromiljø-signalering.
 
-However, because the TxGNN knowledge-graph prediction pipeline returned an empty result set for this compound, no specific new indication can be evaluated at this stage. The absence of predictions may reflect limited DrugBank/knowledge-graph coverage for this veterinary compound, or may indicate that the drug's molecular profile does not produce statistically significant disease associations within the TxGNN model. Detailed mechanism of action data is not available in the current evidence pack, which further limits the assessment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Fordi TxGNN-videngraf-forudsigelse-pipeline'en returnerede et tomt resultatsæt for denne forbindelse, kan ingen specifik ny indikation evalueres på dette tidspunkt. Fraværet af forudsigelser kan afspejle begrænset DrugBank/videngraf-dækning for denne veterinære forbindelse, eller kan indikere, at stoffets molekylæreprofil ikke producerer statistisk signifikante sygdomsassociationer inden for TxGNN-modellen. Detaljerede mekanisme-af-handling-data er ikke tilgængelige i den aktuelle bevissamling, hvilket yderligere begrænser vurderingen.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related literature available in the evidence pack.
-
-> **Note for analysts:** A manual PubMed search for "cimicoxib" retrieves primarily veterinary pharmacology publications. If a human repurposing hypothesis is to be developed (e.g., osteoarthritis, inflammatory pain), a targeted literature review against those specific indications should be commissioned separately.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-Cimicoxib holds no marketing authorisations in Denmark (neither national Laegemiddelstyrelsen authorisations nor centralised EMA authorisations for human use). The compound is not currently marketed for human patients.
+I øjeblikket ingen relateret litteratur tilgængelig i bevissamlingen.
 
-> **Note:** Cimicoxib is authorised in the EU under the trade name **Cimalgex** as a veterinary medicinal product (VMP) for dogs, regulated under the EMA's Committee for Medicinal Products for Veterinary Use (CVMP). This authorisation does not extend to human use.
-
----
-
-## Safety Considerations
-
-No human safety data (key warnings, contraindications, or drug–drug interactions) are available in the current evidence pack.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) or the veterinary product literature for any available pharmacological safety information. Before any human repurposing programme is initiated, a dedicated human safety dossier must be compiled.
+> **Bemærk for analytikere:** En manuel PubMed-søgning efter "cimicoxib" henter primært veterinær-farmakologi-publikationer. Hvis en menneskelig genbrug-hypotese skal udvikles (f.eks. slidgigt, inflammatorisk smerte), bør en målrettet litteraturgennemgang mod disse specifikke indikationer bestilles separat.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Cimicoxib har ingen markedsføringstilladelser i Danmark (hverken nationale Laegemiddelstyrelsen-tilladelser eller centraliserede EMA-tilladelser til menneskelig brug). Stoffet markedsføres ikke i øjeblikket til menneskelige patienter.
 
-**Rationale:**
-The TxGNN model returned no repurposing predictions for Cimicoxib, and the evidence pack contains no clinical, safety, or mechanistic data to support a specific new human indication. Proceeding without these foundations would not meet the minimum evidentiary threshold for a repurposing programme.
-
-**To proceed, the following is needed:**
-
-1. **Resolve TxGNN prediction gap** — Investigate why the model returned an empty prediction set. Confirm that DB05095 is correctly represented in the knowledge graph (node coverage, edge density). Re-run prediction after verifying DrugBank node inclusion.
-2. **Obtain MOA data** — Query DrugBank API for DB05095 pharmacodynamics, mechanism, and targets. Populate `original_moa` to enable mechanism-based hypothesis generation.
-3. **Establish a human repurposing hypothesis** — Given the COX-2 inhibitor class, candidate indications for manual evaluation include osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, and colorectal cancer chemoprevention. A structured literature review (PubMed, Embase) should be performed.
-4. **Compile human safety profile** — Retrieve any available phase I/II human pharmacokinetic or safety data. If none exist, a bridging toxicology assessment based on veterinary data and class-effect data from other COX-2 inhibitors will be required.
-5. **Regulatory status check** — Confirm with Laegemiddelstyrelsen whether any compassionate use, named-patient, or investigational new drug (IND)-equivalent pathway is applicable for first-in-human studies in Denmark.
-6. **Re-evaluate at next data cycle** — Once items 1–3 are resolved, resubmit to the TxGNN pipeline and generate an updated evidence pack before proceeding to a Go/Proceed with Guardrails decision.
+> **Bemærk:** Cimicoxib er godkendt i EU under handelsbetegnelsen **Cimalgex** som et veterinært lægemiddel (VMP) til hunde, reguleret af EMA's Udvalg for Medicinske Produkter til Veterinær Brug (CVMP). Denne godkendelse omfatter ikke menneskelig brug.
 
 ---
 
-*This report is generated for research purposes only. Findings do not constitute medical advice. Any drug repurposing candidate requires prospective clinical validation before therapeutic application.*
+## Sikkerhedshensyn
+
+Der er ingen menneskelige sikkerhedsdata (vigtige advarsler, kontraindikationer eller medicin-medicin-interaktioner) tilgængelige i den aktuelle bevissamling.
+
+> Se venligst Produktresumé (SmPC) eller litteratur om det veterinære lægemiddel for eventuelle tilgængelige farmakologiske sikkerhedsoplysninger. Før ethvert menneskelig genbrug-program påbegyndes, skal en dedikeret menneskelig sikkerhedsmappe samles.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-modellen returnerede ingen genbrug-forudsigelser for cimicoxib, og bevissamlingen indeholder ingen kliniske, sikkerheds- eller mekanistiske data til støtte for en specifik ny menneskelig indikation. At fortsætte uden disse grundlag ville ikke opfylde minimums-bevistærskel for et genbrug-program.
+
+**For at fortsætte er følgende nødvendigt:**
+
+1. **Løs TxGNN-forudsigelseskløft** — Undersøg hvorfor modellen returnerede et tomt forudsigelsessæt. Bekræft, at DB05095 er korrekt repræsenteret i videngraf'en (node-dækning, kant-tæthed). Kør forudsigelsen igen efter bekræftelse af DrugBank-node-inklusion.
+2. **Hent MOA-data** — Spørg DrugBank API for DB05095 farmakodynamik, mekanisme og målpunkter. Udfyld `original_moa` for at muliggøre mekanisme-baseret hypotesegenerering.
+3. **Etabler en menneskelig genbrug-hypotese** — Givet COX-2-hæmmer-klassen, omfatter kandidat-indikationer til manuel evaluering slidgigt, reumatoid arthritis, ankiloserende spondylitis og kolorektal cancer-kemoprophylaxis. En struktureret litteraturgennemgang (PubMed, Embase) bør udføres.
+4. **Samlet menneskelig sikkerhedsprofil** — Hent eventuelle tilgængelige fase I/II menneskelige farmakokinetiske eller sikkerhedsdata. Hvis der ingen findes, vil en bridging-toxicologi-vurdering baseret på veterinærdata og klasse-effekt-data fra andre COX-2-hæmmere være påkrævet.
+5. **Regulatorisk statuskontrol** — Bekræft med Laegemiddelstyrelsen, om compassionate use, named-patient eller investigational new drug (IND)-tilsvarende vej er anvendelig til first-in-human-studier i Danmark.
+6. **Genvurdér ved næste data-cyklus** — Når punkt 1–3 er løst, genindsend til TxGNN-pipeline'en og generer en opdateret bevissamling før fortsættelse til en Ja/Fortsæt med sikkerhedsforanstaltninger-beslutning.
+
+---
+
+*Denne rapport genereres udelukkende til forskningsformål. Resultaterne udgør ikke medicinsk rådgivning. Enhver lægemiddel-genbrug-kandidat kræver prospektiv klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

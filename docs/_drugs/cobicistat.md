@@ -29,88 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Cobicistat: From HIV-1 Infection (Pharmacokinetic Booster) to Simian Immunodeficiency Virus Infection
+# Cobicistat: Fra HIV-1-infektion (farmakokinetisk booster) til simiaan immunodeficiency-virus-infektion
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Cobicistat (Tybost) is a selective, mechanism-based inhibitor of CYP3A enzymes, used clinically as a pharmacokinetic enhancer ("booster") in combination antiretroviral therapy for HIV-1 infection rather than as a standalone antiviral agent.
-The TxGNN model predicts it may have relevance in **Simian Immunodeficiency Virus Infection** (rank 1, score 99.92%),
-with **0 clinical trials** and **0 publications** currently supporting this direction — a prediction driven entirely by knowledge graph topology rather than experimental evidence.
+Cobicistat (Tybost) er en selektiv, mekanisme-baseret inhibitor af CYP3A-enzymer, der klinisk bruges som farmakokinetisk forstærker ("booster") i kombinationsantiretroviral terapi for HIV-1-infektion snarere end som monoterapi. TxGNN-modellen forudsiger, at det kan være relevant for **Simiaan immunodeficiency-virus-infektion** (rang 1, score 99,92%), med **0 kliniske forsøg** og **0 publikationer**, der aktuelt understøtter denne retning — en forudsigelse, der udelukkende er drevet af videnskabsgraf-topologi snarere end eksperimentelle bevis.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (pharmacokinetic booster component in antiretroviral combination therapy) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed (no national authorisations found in Lægemiddelstyrelsen data) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Cobicistat is a potent, selective, mechanism-based inhibitor of CYP3A4 and CYP2D6 enzymes. It carries no intrinsic antiviral activity itself; its sole therapeutic role is to boost the systemic plasma exposure of co-administered antiretroviral agents — such as elvitegravir, atazanavir, and darunavir — by blocking their hepatic and intestinal CYP3A-mediated first-pass metabolism. It appears as the "COBI" component in fixed-dose HIV combination products (e.g., Stribild, Genvoya, Rezolsta, Evotaz) and as the standalone product Tybost.
-
-Simian immunodeficiency virus (SIV) belongs to the same lentivirus genus (Lentivirus) as HIV-1 and HIV-2, sharing structural, genomic, and replication-cycle similarities. The TxGNN knowledge graph prediction almost certainly reflects the strong topological proximity between HIV and SIV disease nodes in the graph. There is an indirect pharmacokinetic rationale: Cobicistat could theoretically enhance antiretroviral drug exposures in SIV-challenged non-human primate models by inhibiting CYP3A, exactly as it does in HIV-infected humans — making the graph-level prediction mechanistically plausible in principle.
-
-However, several critical limitations must be acknowledged. First, SIV is a disease of non-human primates and is not a human clinical indication; it falls outside the scope of conventional drug repurposing for human healthcare. Second, not a single clinical trial or published study supports Cobicistat use in SIV. Third, the near-identical high TxGNN scores across all ranked predictions (SIV, Feline AIDS, rare neurodevelopmental disorder) strongly suggest a graph artefact rather than differentiated biological insight. The prediction should therefore be interpreted as a hypothesis-generating signal, not a repurposing opportunity.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | HIV-1-infektion (farmakokinetisk booster-komponent i kombineret antiretroviral terapi) |
+| Forudsagt ny indikation | Simiaan immunodeficiency-virus-infektion |
+| TxGNN-forudsigelsesscore | 99,92% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført (ingen nationale godkendelser fundet i Lægemiddelstyrelsens data) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afhold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Detaljerede mekanisme-af-handling-data er i øjeblikket ikke tilgængelige i denne evidenspakke. Baseret på kendt farmakologisk information er Cobicistat en potent, selektiv, mekanisme-baseret inhibitor af CYP3A4- og CYP2D6-enzymer. Den har ingen iboende antiviral aktivitet i sig selv; dens eneste terapeutiske rolle er at øge den systemiske plasmaeksponering af samtænkt administrerede antiretrovirale midler — såsom elvitegravir, atazanavir og darunavir — ved at blokere deres hepatisk og intestinal CYP3A-medieret first-pass-metabolisme. Den optræder som "COBI"-komponenten i fast-dosering HIV-kombinationsprodukter (f.eks. Stribild, Genvoya, Rezolsta, Evotaz) og som det autonome produkt Tybost.
 
----
+Simiaan immunodeficiency-virus (SIV) tilhører samme lentivirus-slægt (Lentivirus) som HIV-1 og HIV-2, og deler strukturelle, genomiske og replikationscyklus-ligheder. TxGNN-vidensgrafs forudsigelse afspejler næsten sikkert den stærke topologiske nærhed mellem HIV- og SIV-sygdomsknuder i grafen. Der er en indirekte farmakokinetisk rationalisering: Cobicistat kunne teoretisk forbedre antiretroviral medicin-eksponering i SIV-udfordrede ikke-menneskelige primate-modeller ved at inhibere CYP3A, på samme måde som det gør i HIV-inficerede mennesker — hvilket gør graf-niveau-forudsigelsen mekanistisk plausibel i princippet.
 
-## Literature Evidence
-
-Currently no related literature available.
+Imidlertid skal flere kritiske begrænsninger anerkendes. For det første er SIV en sygdom hos ikke-menneskelige primater og er ikke en menneskelig klinisk indikation; den falder uden for omfanget af konventionel stofomfordelingsbestemmelse for menneskelig sundhedsvæsen. For det andet understøtter ikke et eneste klinisk forsøg eller publiceret studie Cobicistat-brug i SIV. For det tredje indikerer de næsten identiske høje TxGNN-scores på tværs af alle rangerede forudsigelser (SIV, felint AIDS, sjælden neurodevelopmental lidelse) stærkt en grafartefakt snarere end differentieret biologisk indsigt. Forudsigelsen bør derfor tolkes som et hypotese-genererende signal, ikke en omfordelingsmulighed.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-Cobicistat has no registered national marketing authorisations in Denmark according to the current Lægemiddelstyrelsen dataset (0 licences retrieved). It is important to note that Cobicistat-containing products hold EMA centralised marketing authorisations valid across all EU/EEA member states, including Denmark — these products were not captured in the present data query and represent a known data gap.
-
-For reference, relevant EMA-authorised products containing Cobicistat include:
-
-| EMA Authorisation | Product Name | Dosage Form | Approved Indication (summary) |
-|-------------------|--------------|-------------|-------------------------------|
-| EU/1/13/878 | Tybost (cobicistat 150 mg) | Film-coated tablet | Pharmacokinetic enhancer of atazanavir or darunavir in HIV-1 adults |
-| EU/1/13/840 | Stribild (EVG/COBI/FTC/TDF) | Film-coated tablet | HIV-1 infection in adults (treatment-naïve or virologically stable) |
-| EU/1/15/1034 | Genvoya (EVG/COBI/FTC/TAF) | Film-coated tablet | HIV-1 infection in adults and adolescents ≥12 years |
-| EU/1/15/1006 | Rezolsta (DRV/COBI) | Film-coated tablet | HIV-1 infection in adults |
-| EU/1/15/1012 | Evotaz (ATV/COBI) | Film-coated tablet | HIV-1 infection in adults |
+Der er i øjeblikket ingen relaterede registrerede kliniske forsøg.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. The Tybost and combination product SmPCs (available via the EMA product database) contain detailed guidance on CYP3A-mediated drug–drug interactions, contraindicated co-medications, renal function monitoring requirements, and specific population warnings.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Cobicistat har ingen registrerede nationale markedsføringstilladelser i Danmark ifølge det aktuelle Lægemiddelstyrelsens datasæt (0 licenser hentet). Det er vigtigt at bemærke, at Cobicistat-indeholdende produkter har EMA-centraliserede markedsføringstilladelser, der er gyldige på tværs af alle EU/EØS-medlemslande, herunder Danmark — disse produkter blev ikke fanget i det nuværende dataspørgsmål og repræsenterer et kendt datagab.
 
-**Rationale:**
-The highest-ranked TxGNN prediction (Simian Immunodeficiency Virus Infection, 99.92%) describes a non-human primate disease with no human clinical relevance; it is supported by zero clinical trials and zero published literature, and the high score is most likely a knowledge graph artefact arising from HIV–SIV node proximity. The remaining unique predictions — Feline Acquired Immunodeficiency Syndrome (a veterinary indication) and a rare genetic neurodevelopmental disorder — are equally unsupported and either fall outside human medicine or lack any mechanistic basis for Cobicistat.
+Som reference omfatter relevante EMA-godkendte produkter indeholdende Cobicistat:
 
-**To proceed, the following is needed:**
+| EMA-godkendelse | Produktnavn | Lægemiddelform | Godkendt indikation (sammenfatning) |
+|-----------------|-------------|---|---|
+| EU/1/13/878 | Tybost (cobicistat 150 mg) | Filmovertrukket tablet | Farmakokinetisk forstærker af atazanavir eller darunavir ved HIV-1 hos voksne |
+| EU/1/13/840 | Stribild (EVG/COBI/FTC/TDF) | Filmovertrukket tablet | HIV-1-infektion hos voksne (antiretroviral-naive eller virologisk stabile) |
+| EU/1/15/1034 | Genvoya (EVG/COBI/FTC/TAF) | Filmovertrukket tablet | HIV-1-infektion hos voksne og ungdomme ≥12 år |
+| EU/1/15/1006 | Rezolsta (DRV/COBI) | Filmovertrukket tablet | HIV-1-infektion hos voksne |
+| EU/1/15/1012 | Evotaz (ATV/COBI) | Filmovertrukket tablet | HIV-1-infektion hos voksne |
 
-- Retrieve full Cobicistat MOA and pharmacology data from DrugBank (data gap DG002) to enable proper mechanistic linkage analysis
-- Query lower-ranked TxGNN predictions (beyond rank 6) for any human immunodeficiency-related or CYP3A-relevant human disease indications
-- Review EMA centralised SmPCs (Tybost, Genvoya, Stribild, Rezolsta, Evotaz) to confirm approved human indications and safety profile
-- Reconcile the Lægemiddelstyrelsen data gap: confirm whether EMA-authorised Cobicistat-containing products are actively dispensed in Denmark
-- Consider whether Cobicistat's pharmacokinetic booster role could be leveraged in a repurposing context for non-HIV drugs with narrow therapeutic windows that are CYP3A substrates (e.g., oncology, transplantation) — this mechanistic angle is not reflected in the current top-ranked predictions and warrants a separate targeted query
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktresumé (SmPC) for sikkerhedsinformation. Tybost og kombinationsprodukters SmPC'er (tilgængelige via EMA-produktdatabasen) indeholder detaljeret vejledning om CYP3A-medierede lekemiddel-lekemiddel-vekselvirkninger, kontraindicerede samordinerede lægemidler, nyrefunktions-overvågningskrav og specifikke populationadvarsler.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afhold**
+
+**Begrundelse:**
+Den højest-rangerede TxGNN-forudsigelse (Simiaan immunodeficiency-virus-infektion, 99,92%) beskriver en ikke-menneskelig primate-sygdom uden menneskelig klinisk relevans; den er understøttet af nul kliniske forsøg og nul publiceret litteratur, og den høje score er højst sandsynligt en videnskabsgraf-artefakt, der opstår fra HIV-SIV-knude-nærhed. De resterende unikke forudsigelser — felint erhvervet immunodeficiency-syndrom (en veterinær indikation) og en sjælden genetisk neurodevelopmental lidelse — er lige så uunderstøttede og falder enten uden for menneskelig medicin eller mangler enhver mekanistisk basis for Cobicistat.
+
+**For at fortsætte, kræves følgende:**
+
+- Hent fulde Cobicistat MOA- og farmakologi-data fra DrugBank (datagab DG002) for at muliggøre korrekt mekanistisk forbindelsesanalyse
+- Forespørg lavere-rangerede TxGNN-forudsigelser (beyond rank 6) for eventuelle menneskelige immunodeficiency-relaterede eller CYP3A-relevante menneskelige sygdoms-indikationer
+- Gennemgå EMA-centraliserede SmPC'er (Tybost, Genvoya, Stribild, Rezolsta, Evotaz) for at bekræfte godkendte menneskelige indikationer og sikkerhedsprofil
+- Forlig Lægemiddelstyrelsens datagab: bekræft, om EMA-godkendte Cobicistat-indeholdende produkter aktivt udleveres i Danmark
+- Overvej, om Cobicistat's farmakokinetiske booster-rolle kunne udnyttes i en omfordedelingssammenhæng for ikke-HIV-lægemidler med snævre terapeutiske vinduer, der er CYP3A-substrater (f.eks. onkologi, transplantation) — denne mekanistiske vinkel afspejles ikke i de aktuelt top-rangerede forudsigelser og kræver en separat målrettet forespørgsel
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

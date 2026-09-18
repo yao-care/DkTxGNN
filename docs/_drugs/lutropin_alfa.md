@@ -29,76 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report format (as specified in the task prompt) to produce this report from the Evidence Pack.
+Lutropin alfa: Fra oprindelig indikation ikke dokumenteret til posturalt orthostatisk takykardi-syndrom
 
-# Lutropin alfa: From Original Indication Not Documented to Postural Orthostatic Tachycardia Syndrome
+## Sammenfatning i en sætning
 
-## One-Sentence Summary
-
-Lutropin alfa (DrugBank DB00044, recombinant human luteinizing hormone) currently has no documented original indication or mechanism-of-action data in this Evidence Pack — both are flagged as data gaps. The TxGNN model predicts potential activity in **Postural Orthostatic Tachycardia Syndrome (POTS)**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Lutropin alfa (DrugBank DB00044, rekombinant humant luteiniserende hormon) har i øjeblikket ingen dokumenteret oprindelig indikation eller virkningsmekanismedata i denne bevissamling — begge er markeret som datahuller. TxGNN-modellen forudsiger potentiel virkning ved **Posturalt orthostatisk takykardi-syndrom (POTS)**, men denne forudsigelse er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer**.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented (no indication data captured; drug is not marketed in Denmark) |
-| Predicted New Indication | Postural Orthostatic Tachycardia Syndrome |
-| TxGNN Prediction Score | 97.04% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available for Lutropin alfa in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on the model's own rationale, Lutropin alfa is a recombinant form of human luteinizing hormone (LH), which acts on the LHCGR receptor to stimulate gonadal (ovarian/testicular) steroidogenesis.
-
-The proposed link to POTS is that this syndrome is a disorder of autonomic nervous system regulation that predominantly affects premenopausal women and has been loosely associated with estrogen fluctuation. However, there is no direct evidence in the literature connecting LH signaling to autonomic or peripheral vascular regulation — the mechanistic link is characterized in the model's own rationale as **speculative**, not supported by a known receptor or pathway relationship.
-
-Because the drug's original indication is also undocumented in this pack, it is not currently possible to assess similarity between the (unknown) original indication and POTS. This prediction should be treated as a hypothesis generated purely from the TxGNN knowledge graph, pending independent mechanistic or clinical validation.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke dokumenteret (ingen indikationsdata registreret; lægemidlet er ikke markedsført i Danmark) |
+| Forudsagt ny indikation | Posturalt orthostatisk takykardi-syndrom |
+| TxGNN-forudsigelsesscore | 97.04% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen kliniske forsøg eller litteratur) |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+I øjeblikket er detaljerede virkningsmekanismedata ikke tilgængelige for Lutropin alfa i denne bevissamling (markeret som et højsværdsigt datahul, DG002). Baseret på modellens egen begrundelse er Lutropin alfa en rekombinant form af humant luteiniserende hormon (LH), som virker på LHCGR-receptoren for at stimulere gonadal (ovarial/testikular) steroidogenese.
 
----
+Det foreslåede link til POTS er, at dette syndrom er en lidelse i autonomt nervesystems regulering, som overvejende påvirker præmenopausale kvinder, og som er løst forbundet med østrogenudsving. Der er imidlertid ingen direkte beviser i litteraturen, der forbinder LH-signalering til autonomt eller perifert vaskulært regulering — det mekanistiske link er karakteriseret i modellens egen begrundelse som **spekulativt**, ikke understøttet af en kendt receptor- eller signalvejsforhold.
 
-## Literature Evidence
-
-Currently no related literature available.
+Fordi lægemidlets oprindelige indikation også er udokumenteret i denne samling, er det i øjeblikket ikke muligt at vurdere lighed mellem den (ukendte) oprindelige indikation og POTS. Denne forudsigelse bør behandles som en hypotese, der udelukkende er genereret fra TxGNN-vidensgraf, i afventning af uafhængig mekanistisk eller klinisk validering.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsbeviser
 
-Lutropin alfa is **not currently marketed** in Denmark — no marketing authorisations (national via Laegemiddelstyrelsen or centralised via EMA) are recorded in this Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug–drug interaction data are currently available in this Evidence Pack; a query for interaction data returned no results.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (Evidence Level L5) with no supporting clinical trials, literature, or established mechanistic pathway — the model's own rationale describes the drug–disease link as speculative. The drug is also not marketed in Denmark and has a Blocking-severity data gap on SmPC warnings/contraindications, which by itself prevents any safety pre-assessment (S1 stage).
+---
 
-**To proceed, the following is needed:**
-- SmPC/product labeling data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action and original indication documentation — currently a High-severity data gap (DG002)
-- Preclinical or mechanistic studies establishing biological plausibility for LH involvement in autonomic/vascular regulation
-- Any emerging clinical trial or case-report evidence specific to POTS (or the other predicted indications: peptic esophagitis, trichotillomania, Raynaud disease, duodenal ulcer)
+## Information om det danske marked
+
+Lutropin alfa er **i øjeblikket ikke markedsført** i Danmark — ingen markedsføringstilladelser (nationale via Lægemiddelstyrelsen eller centraliseret via EMA) er registreret i denne bevissamling.
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Venligst se det godkendte produktresumé (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddelinteraktionsdata er i øjeblikket tilgængelige i denne bevissamling; en søgning efter interaktionsdata returnerede ingen resultater.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Forudsigelsen hviler udelukkende på en TxGNN-modelscore (Bevisniveau L5) uden understøttende kliniske forsøg, litteratur eller etableret mekanistisk vej — modellens egen begrundelse beskriver lægemiddel-sygdomslinket som spekulativt. Lægemidlet er også ikke markedsført i Danmark og har et højsværdsigt datahul på SmPC-advarsler/kontraindikationer, hvilket i sig selv forhindrer enhver sikkerhedsprævurdering (S1-fase).
+
+**For at fortsætte, er følgende nødvendigt:**
+- SmPC/produktmærkningsdata (advarsler, kontraindikationer) — i øjeblikket et højsværdsigt datahul (DG001)
+- Bekræftet virkningsmekanisme og dokumentation af oprindelig indikation — i øjeblikket et højsværdsigt datahul (DG002)
+- Prækliniske eller mekanistiske studier, der etablerer biologisk plausibilitet for LH-involvering i autonomt/vaskulært regulering
+- Eventuelle nye beviser fra kliniske forsøg eller casusrapporter specifikt for POTS (eller de andre forudsagte indikationer: peptisk øsofagitis, trichotillomani, Raynaud-sygdom, duodenal ulcus)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

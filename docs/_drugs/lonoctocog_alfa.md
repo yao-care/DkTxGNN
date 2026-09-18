@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lonoctocog alfa: From Recombinant Factor VIII Replacement to Pseudo-von Willebrand Disease
+# Lonoctocog alfa: Fra rekombinant faktor VIII-erstatning til pseudo-von Willebrand-sygdom
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Lonoctocog alfa (DrugBank DB13998) is a recombinant Factor VIII (FVIII) replacement product; its original approved indication is not recorded in this evidence pack. The TxGNN model predicts it may be effective for **Pseudo-von Willebrand disease**, but currently **no clinical trials** and **no publications** support this direction — it is a model-only prediction.
+Lonoctocog alfa (DrugBank DB13998) er et rekombinant faktor VIII (FVIII) erstatningsprodukt; dets oprindelige godkendte indikation er ikke registreret i denne bevissamling. TxGNN-modellen forudsiger, at det kan være effektivt til **pseudo-von Willebrand-sygdom**, men i øjeblikket understøtter **ingen kliniske forsøg** og **ingen publikationer** denne retning — det er en model-kun forudsigelse.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (no licence data on file); drug class is recombinant Factor VIII replacement |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke tilgængelig i denne bevissamling (ingen licensdata på fil); lægemiddelklasse er rekombinant faktor VIII-erstatning |
+| Forudsagt ny indikation | Pseudo-von Willebrand-sygdom |
+| TxGNN-forudsigelsesscore | 99.85% |
+| Bevisniveau | L5 |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afstå fra at godkende |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the information present in this evidence pack, Lonoctocog alfa is a recombinant Factor VIII (FVIII) replacement product, i.e. it raises circulating FVIII activity — the pharmacological principle underlying its use in FVIII-deficiency coagulopathies.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som et datagab med høj prioritet). Baseret på oplysninger fra denne bevissamling er lonoctocog alfa et rekombinant faktor VIII (FVIII) erstatningsprodukt, det vil sige, det øger cirkulerende FVIII-aktivitet — det farmakologiske princip bag dets anvendelse ved FVIII-mangelkoagulopatier.
 
-However, the mechanistic link to the top-ranked predicted indication, pseudo-von Willebrand disease, is explicitly flagged as weak in the evidence pack itself. Pseudo-von Willebrand disease is caused by a gain-of-function mutation in the platelet GPIbα receptor, leading to abnormally high affinity for von Willebrand factor and secondary platelet/VWF clearance — the pathology sits at the platelet receptor level, not at circulating coagulation factor concentration. Supplementing exogenous FVIII does not correct this receptor defect. The evidence pack's own rationale notes the high TxGNN score may simply reflect shared "bleeding disorder" graph co-occurrence rather than a direct pharmacological pathway.
+Imidlertid er den mekanistiske forbindelse til den højest rangerede forudsagte indikation, pseudo-von Willebrand-sygdom, eksplicit markeret som svag i selve bevissamlingen. Pseudo-von Willebrand-sygdom er forårsaget af en gain-of-function-mutation i trombocyt-GPIbα-receptoren, hvilket fører til unormalt høj affinitet til von Willebrand-faktor og sekundær trombocyt-/VWF-clearance — patologien ligger på trombocyt-receptorniveauet, ikke på niveauet for cirkulerende koagulationsfaktor-koncentration. Tilskud af eksogen FVIII korrigerer ikke denne receptordefekt. Bevissamlingens egen begrundelse bemærker, at den høje TxGNN-score kan simpelthen afspejle delt "blødningssygdom"-graf-forbindelse i stedet for en direkte farmakologisk vej.
 
-Notably, among the ten predictions returned, rank 9/10 ("acquired coagulation factor deficiency") carries the strongest mechanistic plausibility — Lonoctocog alfa could in principle supplement FVIII lost to inhibitors or consumptive coagulopathy — but this candidate has a lower TxGNN score, an unspecified (non-FVIII-specific) disease grouping, and, like all others, zero supporting trials or literature.
+Bemærkeligt blandt de ti returnerede forudsigelser har rangering 9/10 ("erhvervet koagulationsfaktormangel") den stærkeste mekanistiske sandsynlighed — lonoctocog alfa kunne i princippet supplere FVIII tabt for inhibitorer eller konsumtiv koagulopati — men denne kandidat har en lavere TxGNN-score, en uspecificeret (ikke-FVIII-specifik) sygdomsgruppering, og som alle andre, nul understøttende forsøg eller litteratur.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbewis
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbewis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Dansk markedsinformation
 
-No marketing authorisation is currently on file for Lonoctocog alfa in Denmark (market status: not marketed; 0 authorisations recorded).
+Der er i øjeblikket ingen markedsføringstilladelse registreret for lonoctocog alfa i Danmark (markedsstatus: ikke markedsført; 0 tilladelser registreret).
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (Danish Medicines Agency warning/contraindication text and drug-interaction data are not yet available in this evidence pack — flagged as a Blocking data gap.)
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. (Dansk Lægemiddelagentur advarsel-/kontraindikationstekst og lægemiddelinteraktionsdata er endnu ikke tilgængelige i denne bevissamling — markeret som blokerend datagab.)
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afstå fra at godkende**
 
-**Rationale:**
-- Evidence level is L5 (model prediction only — zero clinical trials, zero publications), and the evidence pack's own mechanistic analysis rates the drug–disease link as weak; the product also has no marketing authorisation in Denmark.
+**Begrundelse:**
+- Bevisniveauet er L5 (model-kun forudsigelse — nul kliniske forsøg, nul publikationer), og bevissamlingens egen mekanistiske analyse vurderer lægemiddel–sygdom-forbindelsen som svag; produktet har heller ingen markedsføringstilladelse i Danmark.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC warnings, contraindications and drug interaction data (Blocking gap, DG001)
-- Mechanism of action detail from DrugBank (High-priority gap, DG002)
-- Preclinical or mechanistic studies addressing whether FVIII replacement has any plausible effect on platelet-receptor disorders (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, primary platelet release disorder)
-- Clarification of the "acquired coagulation factor deficiency" candidate (rank 9/10) — confirm whether it is FVIII-specific, as this candidate has the strongest mechanistic rationale in this set despite its lower score
-- Danish marketing authorisation status confirmation, given the product is currently not marketed
+**For at fortsætte er følgende nødvendig:**
+- TFDA/SmPC-advarsler, kontraindikationer og lægemiddelinteraktionsdata (Blokerend gap, DG001)
+- Virkningsmekanisme-detaljer fra DrugBank (Højtprioriteterings-gap, DG002)
+- Præ-kliniske eller mekanistiske studier, der behandler, hvorvidt FVIII-erstatning har nogen plausibel effekt på trombocyt-receptor-lidelser (pseudo-von Willebrand-sygdom, Glanzmann-thrombasteni, Scott-syndrom, primær trombocyt-frigivelsesforstyrrelse)
+- Præcisering af kandidaten "erhvervet koagulationsfaktormangel" (rangering 9/10) — bekræft, om det er FVIII-specifikt, da denne kandidat har den stærkeste mekanistiske begrundelse i dette sæt på trods af dens lavere score
+- Bekræftelse af dansk markedsføringstilladelse-status, givet at produktet i øjeblikket ikke er markedsført
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

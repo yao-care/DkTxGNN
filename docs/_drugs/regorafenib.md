@@ -29,100 +29,101 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Regorafenib: From Metastatic Colorectal Cancer to Liposarcoma
+# Regorafenib: Fra metastatisk kolorektal cancer til liposarkom
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Regorafenib is an oral multikinase inhibitor originally developed for metastatic colorectal cancer, GIST and hepatocellular carcinoma. The TxGNN model predicts it may be effective for **Liposarcoma**, with **2 clinical trials** and **9 publications** available — however, the two completed Phase II randomised trials that specifically tested this indication both found **no clinical benefit** in liposarcoma patients, directly contradicting the model's prediction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Metastatic colorectal cancer, GIST, hepatocellular carcinoma (per international product labeling; no Danish marketing authorisation on file to confirm locally) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 (2 completed Phase II RCTs directly addressing this indication — but with negative results) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Regorafenib er en oral multikinasehæmmer udviklet oprindeligt til metastatisk kolorektal cancer, GIST og hepatocellulært karcinom. TxGNN-modellen forudsiger, at det kan være effektivt mod **liposarkom**, med **2 kliniske forsøg** og **9 publikationer** tilgængelige — imidlertid fandt begge afsluttede Phase II randomiserede forsøg, som specifikt testede denne indikation, **ingen klinisk virkning** hos liposarkom-patienter, hvilket direkte modsiger modellens forudsigelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Regorafenib is an oral multikinase inhibitor targeting angiogenic (VEGFR1-3, TIE2), stromal (PDGFR-β, FGFR) and oncogenic receptor tyrosine kinases (KIT, RET, RAF) (per literature evidence, PMID 30069758). Its original approval was built on this broad antiangiogenic/antiproliferative profile in metastatic colorectal cancer, GIST and hepatocellular carcinoma.
-
-Soft tissue sarcomas, including liposarcoma, are highly vascularised tumours in which angiogenesis signalling plays a key role in tumour biology (per REGOSARC trial protocol, PMID 25884155). This provided the mechanistic rationale for testing regorafenib across multiple sarcoma subtypes, and it is this class-level plausibility that the TxGNN model appears to be capturing.
-
-**However, mechanistic plausibility did not translate into clinical benefit for this specific subtype.** The REGOSARC trial (PMID 27751846) showed regorafenib improved outcomes in leiomyosarcoma and synovial sarcoma but explicitly **did not** show benefit in the liposarcoma cohort. The independent SARC024 trial (PMID 32701199) confirmed this finding in a treatment-refractory liposarcoma population and concluded that "routine use of regorafenib in this patient population" is not supported. This is a case where a strong knowledge-graph-based mechanistic signal is directly contradicted by dedicated randomised clinical trial data.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Metastatisk kolorektal cancer, GIST, hepatocellulært karcinom (ifølge internationalt produktmærkat; lokalt mærkat til bekræftelse ikke tilgængeligt) |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 99.76% |
+| Bevisniveau | L2 (2 afsluttede Phase II RCT'er, der direkte adresserer denne indikation — men med negative resultater) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Udskyd |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Regorafenib er en oral multikinasehæmmer, der målretter angiogenetiske (VEGFR1-3, TIE2), stromale (PDGFR-β, FGFR) og oncogene receptortyrosinkinaser (KIT, RET, RAF) (ifølge litteraturbevis, PMID 30069758). Dens oprindelige godkendelse blev bygget på denne brede antiangiogenetiske/antiproliferativ profil ved metastatisk kolorektal cancer, GIST og hepatocellulært karcinom.
+
+Bløde vævsarkomer, herunder liposarkom, er stærkt vaskullariserede tumorer, hvor angiogenese-signalering spiller en nøglerolle i tumorbiologien (ifølge REGOSARC-forsøgsprotokol, PMID 25884155). Dette gav den mekanistiske begrundelse for at teste regorafenib på tværs af flere sarkomubttyper, og det er dette klassiske plausibilitetssignal, som TxGNN-modellen tilsyneladende opfanger.
+
+**Mekanistisk plausibilitet blev imidlertid ikke omsat til klinisk virkning for denne specifikke subtype.** REGOSARC-forsøget (PMID 27751846) viste, at regorafenib forbedrede resultaterne ved leiomyosarkom og synovial sarkom, men viste eksplicit **ikke** nogen virkning i liposarkomkohorten. Det uafhængige SARC024-forsøg (PMID 32701199) bekræftede dette fund i en behandlingsrefraktær liposarkom-population og konkluderede, at "rutineapplicering af regorafenib i denne patientpopulation" ikke er understøttet. Dette er et tilfælde, hvor et stærkt knowledge-graph-baseret mekanistisk signal direkte modsiges af dedikerede randomiserede kliniske forsøgsdata.
+
+---
+
+## Klinisk forsøgsbeholdning
+
+| Forsøgsnummer | Fase | Status | Indskrevne patienter | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Phase 2 | Completed | 219 | REGOSARC: international, randomised, double-blind, placebo-controlled trial of regorafenib in metastatic/unresectable soft tissue sarcoma after anthracycline failure; liposarcoma was one of five predefined cohorts |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024: blanket protocol studying oral regorafenib across selected sarcoma subtypes, including a dedicated liposarcoma cohort |
+| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Fase 2 | Afsluttet | 219 | REGOSARC: internationalt, randomiseret, dobbeltblinderet, placebo-kontrolleret forsøg af regorafenib ved metastatisk/uoperabel blødt vævsarkom efter antracyclin-svigt; liposarkom var en af fem foruddefinerede kohorter |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Afsluttet | 131 | SARC024: dækket protokol undersøgende oral regorafenib på tværs af udvalgte sarkomubttyper, herunder en dedikeret liposarkomkohort |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | The Lancet. Oncology | REGOSARC: regorafenib improved progression-free survival vs placebo in non-adipocytic soft tissue sarcoma, but **not** in liposarcoma |
-| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 liposarcoma cohort: results **do not support routine use** of regorafenib in treatment-refractory liposarcoma |
-| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT (post-cross-over analysis) | European Journal of Cancer | Updated REGOSARC analysis confirms lack of efficacy in liposarcoma even after placebo-to-regorafenib cross-over |
-| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT post-hoc analysis | Cancer | Q-TWiST analysis of REGOSARC; quality-adjusted clinical benefit concentrated in non-adipocytic cohorts |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Study protocol | BMC Cancer | REGOSARC trial design; rationale based on angiogenesis's role in sarcoma biology |
-| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Review | Targeted Oncology | Reviews regorafenib's evolving role across soft tissue sarcoma subtypes, including liposarcoma |
-| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | Retrospective study | Anti-Cancer Drugs | Anlotinib in WDLS/DDLS; cites regorafenib as an approved TKI for non-adipocytic STS, not liposarcoma specifically |
-| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Review | Critical Reviews in Oncology/Hematology | Reviews maintenance therapy strategies after first-line treatment of advanced STS |
-| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Case report | Rare Tumors | Pazopanib case in Ewing sarcoma; cited as part of the rationale for including a liposarcoma arm in SARC024 |
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | The Lancet. Oncology | REGOSARC: regorafenib forbedrede progressionsfri overlevelse vs placebo ved non-adipocytisk blødt vævsarkom, men **ikke** ved liposarkom |
+| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 liposarkomkohort: resultaterne **understøtter ikke rutineapplicering** af regorafenib ved behandlingsrefraktært liposarkom |
+| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT (post-cross-over analyse) | European Journal of Cancer | Opdateret REGOSARC-analyse bekræfter mangel på effektivitet ved liposarkom selv efter placebo-til-regorafenib cross-over |
+| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT post-hoc analyse | Cancer | Q-TWiST-analyse af REGOSARC; kvalitetsjusteret klinisk virkning koncentreret i non-adipocytiske kohorter |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Studiprotokol | BMC Cancer | REGOSARC-forsøgsdesign; begrundelse baseret på angiogenesens rolle i sarkombiologien |
+| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Oversigtsartikel | Targeted Oncology | Gennemgår regorafenibs udvikling af rolle på tværs af blødt vævsarkomubttyper, herunder liposarkom |
+| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | Retrospektiv studie | Anti-Cancer Drugs | Anlotinib i WDLS/DDLS; citerer regorafenib som en godkendt TKI for non-adipocytisk STS, ikke liposarkom specifikt |
+| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Oversigtsartikel | Critical Reviews in Oncology/Hematology | Gennemgår vedligeholdelsesterapistrategier efter førsteligningsbehandling af avanceret STS |
+| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Casusrapport | Rare Tumors | Pazopanibcase ved Ewingsarkom; citeret som del af begrundelsen for at medtage en liposarkomafdeling i SARC024 |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Regorafenib currently has no marketing authorisation on file in Denmark (0 authorisations recorded; market status: not marketed).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (oral multikinase inhibitor: VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, RAF) |
-| Myelosuppression Risk | Low–Moderate — literature evidence for this drug class emphasises hand-foot skin reaction, hypertension and diarrhoea over myelosuppression (PMID 30069758); no direct haematologic toxicity data in this evidence pack |
-| Emetogenicity Classification | Low (typical for oral multikinase TKIs) |
-| Monitoring Items | Blood pressure (VEGFR-inhibition-related hypertension, PMID 36583425), liver function (hepatotoxicity risk across anti-angiogenic TKIs, PMID 23981115), skin examination for hand-foot skin reaction (PMID 23700287), CBC |
-| Handling Protection | Oral targeted anticancer agent — follow institutional oral antineoplastic handling protocols; local TFDA/SmPC-specific handling requirements are a data gap pending label review |
+Regorafenib har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 tilladelser registreret; markedsstatus: ikke markedsført).
 
 ---
 
-## Safety Considerations
+## Cytotoksicitet
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. TFDA-equivalent label warnings/contraindications and DDI data were not available in this evidence pack (flagged as a **Blocking** data gap — DG001 — preventing initial safety screening).
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassifikation | Målrettet terapi (oral multikinasehæmmer: VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, RAF) |
+| Risiko for myelosuppression | Lav–moderat — litteraturbevis for denne lægemiddelklasse understreger hånd-fod-hudsyndrom, hypertension og diarré frem for myelosuppression (PMID 30069758); ingen direkte hæmatologisk toksicitetsdata i denne bevissamling |
+| Emetogenitetsklassifikation | Lav (typisk for oral multikinase-TKI'er) |
+| Overvågningspunkter | Blodtryk (VEGFR-hæmning-relateret hypertension, PMID 36583425), leverfunktion (hepatotoksicitetsrisiko på tværs af anti-angiogenetiske TKI'er, PMID 23981115), hudundersøgelse for hånd-fod-hudsyndrom (PMID 23700287), CBC |
+| Håndteringsbeskyttelse | Oral målrettet anticancermiddel — følg institutionelle protokoller for håndtering af oral antineoplastisk stof; lokale TFDA/SmPC-specifikke håndteringskrav er en datagab, der afventer mærkeatgennemgang |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation. TFDA-tilsvarende mærkeatadvarsler/kontraindikationer og DDI-data var ikke tilgængelige i denne bevissamling (markeret som et **blokerende** datagab — DG001 — som forhindrer selv en initial sikkerhedsscreening).
 
-**Rationale:**
-- Regorafenib has no existing marketing authorisation in Denmark, and local SmPC safety data is a Blocking gap that prevents even an initial safety screen.
-- More importantly, the two completed Phase II RCTs that specifically tested regorafenib in liposarcoma (REGOSARC, SARC024) both found **no clinical benefit** in this subtype, directly contradicting the TxGNN model's high prediction score. This is a case where the model's knowledge-graph-level signal does not hold up against dedicated clinical trial evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC warnings, contraindications and drug interaction data (currently Blocking gap, DG001)
-- Formal mechanism-of-action documentation (DrugBank MOA field, DG002)
-- If pursued further, reframe as a research question around *why* TxGNN scores this indication highly despite negative trial data (e.g., biomarker-selected subpopulations, combination regimens) rather than pursuing liposarcoma monotherapy directly
-- Confirm whether any EU/EMA centralised authorisation exists for regorafenib under its approved indications, which would affect off-label pathway feasibility in Denmark
+## Konklusion og næste skridt
+
+**Beslutning: Udskyd**
+
+**Begrundelse:**
+- Regorafenib har ingen eksisterende markedsføringstilladelse i Danmark, og lokale SmPC-sikkerhedsdata er et blokerende gab, som forhindrer selv en initial sikkerhedsscreening.
+- Mere vigtigere er, at de to afsluttede Phase II RCT'er, som specifikt testede regorafenib ved liposarkom (REGOSARC, SARC024), begge fandt **ingen klinisk virkning** ved denne subtype, hvilket direkte modsiger TxGNN-modellens høje forudsigelsesscore. Dette er et tilfælde, hvor modellens knowledge-graph-niveau signal ikke holder stand mod dedikerede kliniske forsøgsbevis.
+
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/SmPC advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket blokerende gab, DG001)
+- Formelt mekanisme-af-handling-dokumentation (DrugBank MOA-felt, DG002)
+- Hvis der forfølges videre, omformuleres som et forskningsspørgsmål omkring *hvorfor* TxGNN scorer denne indikation højt på trods af negative forsøgsresultater (f.eks. biomarkør-udvalgte subpopulationer, kombinationsregimer) snarere end at forfølge liposarkommonterapi direkte
+- Bekræft, om der eksisterer nogen EU/EMA centraliseret godkendelse for regorafenib under dets godkendte indikationer, hvilket ville påvirke off-label-vejspathaforbindelighed i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

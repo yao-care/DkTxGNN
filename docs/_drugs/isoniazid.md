@@ -29,89 +29,90 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Isoniazid: From Tuberculosis to Conjunctivitis
+# Isoniazid: Fra tuberkulose til konjunktivitis
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Isoniazid is a first-line antitubercular agent, most commonly used for treatment and prevention of tuberculosis (including latent TB infection). The TxGNN model predicts it may be effective for **Conjunctivitis**, but this prediction is supported by only **1 loosely related clinical trial** and **20 publications**, most of which describe *tuberculous* conjunctivitis (a TB disease manifestation) rather than a pharmacological effect of isoniazid on conjunctivitis generally — and at least one source suggests isoniazid can itself *cause* drug-induced conjunctivitis, an opposite-direction signal.
+Isoniazid er et førstehånds-antituberkuløst middel, der oftest bruges til behandling og forebyggelse af tuberkulose (herunder latent TB-infektion). TxGNN-modellen forudsiger, at det kan være effektivt mod **konjunktivitis**, men denne forudsigelse understøttes kun af **1 løst relateret klinisk forsøg** og **20 publikationer**, hvoraf de fleste beskriver *tuberkuløs* konjunktivitis (en manifestation af TB-sygdom) i stedet for en farmakologisk effekt af isoniazid på konjunktivitis generelt — og mindst én kilde antyder, at isoniazid selv kan *forårsage* lægemiddelinduceret konjunktivitis, et signal i modsat retning.
 
-*Note: The evidence pack's `original_indications` field for this drug is empty (data gap); "Tuberculosis" is inferred from the clinical-trial context (isoniazid 5 mg/kg regimen for latent TB infection) included in this pack, not from a confirmed registry entry.*
+*Bemærk: Bevispapirets `original_indications`-felt for dette lægemiddel er tomt (datakløft); "tuberkulose" udledes fra den kliniske forsøgskontekst (isoniazid 5 mg/kg-regimen for latent TB-infektion) inkluderet i denne pakke, ikke fra en bekræftet registreringsindtastning.*
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Tuberculosis (inferred from trial context; not confirmed in registry data) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | Tuberkulose (udledt fra forsøgskontekst; ikke bekræftet i registreringsdata) |
+| Forudsagt ny indikation | Konjunktivitis |
+| TxGNN-forudsigelsesscore | 99,36% |
+| Bevisniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed, registry-sourced mechanism of action data is not currently available for this candidate (data gap). Based on the mechanistic review included in this evidence pack, isoniazid inhibits mycolic acid synthesis in *Mycobacterium tuberculosis* — a narrow-spectrum antimycobacterial mechanism with no established anti-inflammatory or broad antimicrobial activity relevant to common (viral, bacterial, or allergic) conjunctivitis.
+Detaljerede, registreringskildebaserede virkningsmekanisme-data er i øjeblikket ikke tilgængelige for denne kandidat (datakløft). Baseret på den mekanistiske gennemgang inkluderet i denne bevispaket, hæmmer isoniazid syntesen af mykolsyre i *Mycobacterium tuberculosis* — en snæver-spektrum antimykobakteriel mekanisme uden etableret anti-inflammatorisk eller bredt antimikrobiel aktivitet relevant for almindelig (viral, bakteriel eller allergisk) konjunktivitis.
 
-The only genuine mechanistic link identified in the literature is to **tuberculous conjunctivitis** — conjunctival involvement as a manifestation of active or latent TB infection, and its resolution as a downstream consequence of treating the underlying TB, not a direct pharmacological effect on conjunctival inflammation itself. Several older publications (e.g. PMID 14253168, PMID 5103251) describe isoniazid used prophylactically or topically in TB-endemic, TB-associated eye disease, which is a materially different clinical scenario from "conjunctivitis" as a general indication.
+Det eneste ægte mekanistiske link identificeret i litteraturen er til **tuberkuløs konjunktivitis** — konjunktival inddragelse som en manifestation af aktiv eller latent TB-infektion, og dens opløsning som en sekundær følge af behandling af den underliggende TB, ikke en direkte farmakologisk effekt på konjunktival inflammation i sig selv. Flere ældre publikationer (f.eks. PMID 14253168, PMID 5103251) beskriver isoniazid brugt profylaktisk eller topikalt i TB-endemiske, TB-forbundne øjensygdomme, hvilket er et væsentligt anderledes klinisk scenarie end "konjunktivitis" som en generel indikation.
 
-Importantly, one review in this evidence pack (PMID 1363080) lists conjunctivitis among the **ocular side effects of systemic drugs**, raising the possibility that the TxGNN association reflects an adverse-effect signal rather than a therapeutic one. This directional ambiguity — supportive evidence limited to TB-specific ocular disease, alongside a plausible adverse-effect explanation — is the primary reason this candidate is rated at a low evidence level despite the high TxGNN score.
+Vigtigvis lister en review i denne bevispaket (PMID 1363080) konjunktivitis blandt **bivirkningerne på øjet af systemiske lægemidler**, hvilket rejser muligheden for, at TxGNN-associationen afspejler et bivirkningssignal snarere end et terapeutisk. Denne retningsbetingede tvetydighed — støttende beviser begrænset til TB-specifik okuler sygdom, sammen med en plausibel bivirkning-forklaring — er den primære grund til, at denne kandidat er vurderet til et lavt bevisniveau på trods af den høje TxGNN-score.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Deltagerantallet | Vigtigste fund |
 |---------|------|------|------|---------|
-| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | Phase 3 | Completed | 490 | Compared systemic drug reaction rates between 3HP (rifapentine + isoniazid) and 1HP regimens for latent TB infection. This is a safety-monitoring trial, not a conjunctivitis efficacy trial — relevance graded "C" (indirect) in this evidence pack. |
+| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | Fase 3 | Afsluttet | 490 | Sammenlignede systemiske lægemiddelreaktionshastigheder mellem 3HP (rifapentin + isoniazid) og 1HP-regimer for latent TB-infektion. Dette er et sikkerhedsovervågningsforsøg, ikke et konjunktivitis-effektivitetsforsøg — relevans vurderet som "C" (indirekte) i denne bevispaket. |
 
 ---
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste fund |
 |------|-----|------|------|---------|
-| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Prophylaxis study | Am Rev Respir Dis | Isoniazid prophylaxis evaluated for phlyctenular keratoconjunctivitis in a TB-endemic Alaskan population |
-| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Case series | Annales d'oculistique | Describes local (topical) use of isoniazid in treatment of ocular tuberculosis |
-| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optometry Clinics | Review of ocular side effects of systemic drugs; conjunctivitis listed as an adverse effect of several drug classes — a cautionary, not supportive, signal |
-| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Case report | Archives of Ophthalmology | Primary tuberculosis of the conjunctiva |
-| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | Case report | Middle East Afr J Ophthalmol | Tuberculous conjunctivitis in an anophthalmic socket following miliary TB |
-| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | Case report | Cornea | Mycobacterium tuberculosis presenting as chronic red eye (conjunctival TB) |
-| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Case report | Medicine | Pediatric sinonasal TB presenting with phlyctenular keratoconjunctivitis |
-| [10641112](https://pubmed.ncbi.nlm.nih.gov/10641112/) | 1999 | Case series | Oftalmologia | 28 cases of tuberculous keratoconjunctivitis, mostly children with primary TB |
-| [25433746](https://pubmed.ncbi.nlm.nih.gov/25433746/) | 2014 | Case report | Can J Ophthalmol | Conjunctival phlyctenulosis as presenting sign of impending clinical TB |
-| [4233886](https://pubmed.ncbi.nlm.nih.gov/4233886/) | 1968 | Case report | Arch d'ophtalmologie | Tuberculosis of the bulbar conjunctiva |
+| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Profylaksestudie | Am Rev Respir Dis | Isoniazid-profylakse evalueret for fliktenulær keratokonjunktivitis i en TB-endemisk befolkning i Alaska |
+| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Caseserie | Annales d'oculistique | Beskriver lokal (topical) brug af isoniazid i behandling af okulær tuberkulose |
+| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optometry Clinics | Review af okul ære bivirkninger af systemiske lægemidler; konjunktivitis er anført som en bivirkning af flere lægemiddelklasser — et advarende, ikke støttende signal |
+| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Caserapport | Archives of Ophthalmology | Primær tuberkulose af konjunktiva |
+| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | Caserapport | Middle East Afr J Ophthalmol | Tuberkuløs konjunktivitis i en anoftalmisk øjenhule efter miliær TB |
+| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | Caserapport | Cornea | Mycobacterium tuberculosis præsenteret som kronisk rødt øje (konjunktival TB) |
+| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Caserapport | Medicine | Pediatrisk sinusnal TB præsenteret med fliktenulær keratokonjunktivitis |
+| [10641112](https://pubmed.ncbi.nlm.nih.gov/10641112/) | 1999 | Caseserie | Oftalmologia | 28 tilfælde af tuberkuløs keratokonjunktivitis, hovedsageligt børn med primær TB |
+| [25433746](https://pubmed.ncbi.nlm.nih.gov/25433746/) | 2014 | Caserapport | Can J Ophthalmol | Konjunktival fliktenulosis som indledende tegn på truende klinisk TB |
+| [4233886](https://pubmed.ncbi.nlm.nih.gov/4233886/) | 1968 | Caserapport | Arch d'ophtalmologie | Tuberkulose af den bulbære konjunktiva |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Isoniazid is currently **not marketed** in Denmark, and no marketing authorisations are recorded in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug interaction data were found in this evidence pack, and key warnings/contraindications are not currently recorded — this is flagged as a **blocking data gap** (see Conclusion).
+Isoniazid er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser er registreret i denne bevispaket.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Ingen lægemiddelinteraktionsdata blev fundet i denne bevispaket, og vigtige advarsler/kontraindikationer er i øjeblikket ikke registreret — dette er markeret som et **blokerende datakløft** (se Konklusion).
 
-**Rationale:**
-Evidence level is L4 — the only clinical trial is indirectly relevant (a TB-regimen safety trial, not a conjunctivitis efficacy study), and the supporting literature largely describes TB-related ocular disease rather than a pharmacological effect on conjunctivitis in general. One source raises the possibility that isoniazid causes rather than treats conjunctivitis, directly conflicting with the TxGNN prediction direction.
+---
 
-**To proceed, the following is needed:**
-- SmPC warnings/contraindications data (currently a **blocking** gap — required before any safety pre-assessment, per this evidence pack)
-- Confirmed mechanism of action documentation (currently a **high-severity** gap affecting mechanistic-relevance analysis)
-- A study or trial specifically designed to test isoniazid's effect on non-tuberculous conjunctivitis, to resolve the directional ambiguity in current evidence
-- Clarification of whether the TxGNN association reflects a therapeutic signal or an adverse-effect signal
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Bevisniveauet er L4 — det eneste kliniske forsøg er indirekte relevant (et TB-regime-sikkerhedsforsøg, ikke et konjunktivitis-effektivitetsforsøg), og den understøttende litteratur beskriver hovedsageligt TB-relateret okulær sygdom snarere end en farmakologisk effekt på konjunktivitis generelt. En kilde rejser muligheden for, at isoniazid forårsager i stedet for behandler konjunktivitis, direkte i konflikt med TxGNN-forudsigelsesretningen.
+
+**For at fortsætte, er følgende nødvendig:**
+- SmPC-advarsler/kontraindikationer-data (i øjeblikket et **blokerende** kløft — påkrævet før nogen sikkerhed-før-vurdering, ifølge denne bevispaket)
+- Bekræftet virkningsmekanisme-dokumentation (i øjeblikket et **alvorligt** kløft, der påvirker mekanistisk-relevans-analyse)
+- En undersøgelse eller forsøg specifikt designet til at teste isoniazids effekt på ikke-tuberkuløs konjunktivitis, for at løse den retningsbetingede tvetydighed i nuværende beviser
+- Præcisering af, hvorvidt TxGNN-associationen afspejler et terapeutisk signal eller et bivirkning-signal
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

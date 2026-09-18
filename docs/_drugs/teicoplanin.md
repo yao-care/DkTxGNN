@@ -29,83 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teicoplanin: From Gram-Positive Bacterial Infections to Bacterial Arthritis
+# Teicoplanin: Fra gram-positive bakterielle infektioner til bakteriel artritis
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Teicoplanin is a glycopeptide antibiotic long used to treat serious gram-positive bacterial infections (bacteremia, endocarditis, skin/soft-tissue and bone-joint infections). The TxGNN model predicts it may also be effective for **Bacterial Arthritis**, a prediction already substantially supported by **20 publications** describing real-world use in septic/bone-joint infections, though **no registered clinical trials** exist for this specific indication and the drug is currently **not marketed in Denmark**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in the available Danish regulatory data (drug not marketed); literature describes established use in serious gram-positive bacterial infections |
-| Predicted New Indication | Bacterial Arthritis |
-| TxGNN Prediction Score | 94.25% |
-| Evidence Level | L3 (systematic review/meta-analysis and observational studies; no registered clinical trials) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Teicoplanin er et glykopeptid-antibiotikum længe brugt til behandling af alvorlige gram-positive bakterielle infektioner (bakteriæmi, endokarditis, hud-/bløddele- og ben-ledinfektioner). TxGNN-modellen forudsiger, at det også kan være effektivt for **Bakteriel artritis**, en forudsigelse, der allerede er væsentligt understøttet af **20 publikationer**, der beskriver praktisk brug i septisk/ben-led-infektioner, selvom **ingen registrerede kliniske forsøg** eksisterer for denne specifikke indikation, og lægemidlet i øjeblikket **ikke er markedsført i Danmark**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, Teicoplanin is a glycopeptide-class antibiotic active against gram-positive bacteria (including MRSA); its efficacy in serious gram-positive infections such as bacteremia, endocarditis, and skin/soft-tissue infections is well established in the literature.
-
-Bacterial (septic) arthritis is most commonly caused by *Staphylococcus aureus* and other gram-positive organisms — the same pathogen spectrum teicoplanin already targets. Several of the publications retrieved for this candidate go beyond a purely computational hypothesis: they describe teicoplanin dosing regimens specifically for septic arthritis (e.g., 12 mg/kg/day, higher than the standard maintenance dose), and multiple studies report clinical outcomes in patients with pyogenic/septic arthritis treated with teicoplanin. This suggests the "new indication" reflects an already-recognized, if not formally registered, clinical use rather than a purely novel mechanistic extrapolation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8351549](https://pubmed.ncbi.nlm.nih.gov/8351549/) | 1993 | Clinical trial | Southern Medical Journal | Community-based trial of once-daily teicoplanin (avg. 10.1 mg/kg) in 66 patients with gram-positive bone/joint infections including septic arthritis |
-| [1381644](https://pubmed.ncbi.nlm.nih.gov/1381644/) | 1992 | Clinical trial (cooperative study) | Eur J Surg Suppl | Teicoplanin Bone and Joint Cooperative Study Group (USA): 90/98 patients evaluated, including acute/chronic osteomyelitis |
-| [2952062](https://pubmed.ncbi.nlm.nih.gov/2952062/) | 1987 | Clinical trial | Antimicrob Agents Chemother | 19 patients with serious gram-positive infections incl. pyogenic arthritis; 8/13 evaluable cases clinically cured |
-| [12481488](https://pubmed.ncbi.nlm.nih.gov/12481488/) | 2002 | Retrospective study | Medicina | 89 episodes of MRSA bone/joint infections, including 10 septic arthritis cases; efficacy assessed by dosing schedule |
-| [27809799](https://pubmed.ncbi.nlm.nih.gov/27809799/) | 2016 | Retrospective cohort | BMC Infectious Diseases | Teicoplanin-based therapy (incl. subcutaneous route) in *S. aureus* bone and joint infection |
-| [17825421](https://pubmed.ncbi.nlm.nih.gov/17825421/) | 2007 | Cohort study | The Journal of Infection | Trough teicoplanin levels in musculoskeletal infection; standard doses may be subtherapeutic |
-| [2140111](https://pubmed.ncbi.nlm.nih.gov/2140111/) | 1990 | Clinical trial | J Antimicrob Chemother | 33 patients with bone/soft-tissue infections incl. 3 septic arthritis cases treated with teicoplanin |
-| [9474479](https://pubmed.ncbi.nlm.nih.gov/9474479/) | 1997 | Review | Drugs | Reviews anti-gram-positive agents; specifies higher teicoplanin dose (12 mg/kg/day) for septic arthritis |
-| [11131961](https://pubmed.ncbi.nlm.nih.gov/11131961/) | 2000 | Review | Journal of Chemotherapy | Reviews teicoplanin dosing across serious infections including bone and joint infections |
-| [30876673](https://pubmed.ncbi.nlm.nih.gov/30876673/) | 2019 | Retrospective cohort | Enferm Infecc Microbiol Clin | Dual teicoplanin + cefazolin prophylaxis to prevent prosthetic joint infection |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke dokumenteret i de tilgængelige danske regulatoriske data (lægemidlet er ikke markedsført); litteratur beskriver etableret brug i alvorlige gram-positive bakterielle infektioner |
+| Forudsagt ny indikation | Bakteriel artritis |
+| TxGNN-forudsigelsesscore | 94.25% |
+| Bevisniveau | L3 (systematisk review/meta-analyse og observationelle studier; ingen registrerede kliniske forsøg) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-Teicoplanin currently has no marketing authorisation on record in Denmark (0 licenses; market status: not marketed).
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i bevisepakken. Baseret på kendt information er Teicoplanin et glykopeptid-klasse antibiotikum aktivt mod gram-positive bakterier (herunder MRSA); dets effektivitet i alvorlige gram-positive infektioner såsom bakteriæmi, endokarditis og hud-/bløddeles-infektioner er vel etableret i litteraturen.
 
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Bakteriel (septisk) artritis er oftest forårsaget af *Staphylococcus aureus* og andre gram-positive organismer — den samme patogensammensætning, som teicoplanin allerede målrettes mod. Flere af de publikationer, der blev hentet til denne kandidat, går ud over en rent beregningsmæssig hypotese: de beskriver teicoplanin-doseringsregimer specifikt til septisk artritis (f.eks. 12 mg/kg/dag, højere end standard vedligeholdelsesdosis), og flere studier rapporterer kliniske resultater hos patienter med pyogen/septisk artritis behandlet med teicoplanin. Dette tyder på, at "ny indikation" afspejler en allerede anerkendt, om end ikke formelt registreret, klinisk brug snarere end en rent ny mekanistisk ekstrapolation.
 
 ---
 
-## Conclusion and Next Steps
+## Evidens fra kliniske forsøg
 
-**Decision: Hold**
+I øjeblikket er der ingen relaterede registrerede kliniske forsøg.
 
-**Rationale:**
-The literature base (L3: retrospective/cohort studies and reviews, no registered RCTs) offers reasonable mechanistic and real-world support, but the drug is not currently marketed in Denmark and a **Blocking** data gap exists — Danish/EU product-label warnings and contraindications are unavailable, which prevents the mandatory initial safety (S1) evaluation.
+---
 
-**To proceed, the following is needed:**
-- Official SmPC/label warnings and contraindications (Blocking gap)
-- Detailed mechanism of action data from DrugBank or equivalent source
-- Confirmation of any EU/EMA marketing authorisation pathway applicable to Denmark
-- Drug-drug interaction data (currently not found)
+## Evidens fra litteraturen
+
+| PMID | År | Type | Tidsskrift | Vigtige fund |
+|------|------|---------|---------|---------|
+| [8351549](https://pubmed.ncbi.nlm.nih.gov/8351549/) | 1993 | Klinisk forsøg | Southern Medical Journal | Befolkningsbaseret forsøg med engang daglig teicoplanin (gennemsnit 10.1 mg/kg) hos 66 patienter med gram-positive ben-/ledinfektioner, herunder septisk artritis |
+| [1381644](https://pubmed.ncbi.nlm.nih.gov/1381644/) | 1992 | Klinisk forsøg (kooperativt studie) | Eur J Surg Suppl | Teicoplanin Ben- og Ledinfektions Kooperativ Studiegruppe (USA): 90/98 patienter evalueret, herunder akut/kronisk osteomyelitis |
+| [2952062](https://pubmed.ncbi.nlm.nih.gov/2952062/) | 1987 | Klinisk forsøg | Antimicrob Agents Chemother | 19 patienter med alvorlige gram-positive infektioner inkl. pyogen artritis; 8/13 evaluerbare tilfælde klinisk helbredt |
+| [12481488](https://pubmed.ncbi.nlm.nih.gov/12481488/) | 2002 | Retrospektiv studie | Medicina | 89 episoder af MRSA ben-/ledinfektioner, herunder 10 septisk artritis tilfælde; effektivitet vurderet efter doseringsplan |
+| [27809799](https://pubmed.ncbi.nlm.nih.gov/27809799/) | 2016 | Retrospektiv kohortstudie | BMC Infectious Diseases | Teicoplanin-baseret terapi (inkl. subkutan vej) i *S. aureus* ben- og ledinfektioner |
+| [17825421](https://pubmed.ncbi.nlm.nih.gov/17825421/) | 2007 | Kohortstudie | The Journal of Infection | Teicoplanin trough-niveauer i muskuloskeletalinfektioner; standard doser kan være subterapeutiske |
+| [2140111](https://pubmed.ncbi.nlm.nih.gov/2140111/) | 1990 | Klinisk forsøg | J Antimicrob Chemother | 33 patienter med ben-/bløddeles-infektioner inkl. 3 septisk artritis tilfælde behandlet med teicoplanin |
+| [9474479](https://pubmed.ncbi.nlm.nih.gov/9474479/) | 1997 | Oversigt | Drugs | Gennemgang af anti-gram-positive midler; specificerer højere teicoplanin-dosis (12 mg/kg/dag) til septisk artritis |
+| [11131961](https://pubmed.ncbi.nlm.nih.gov/11131961/) | 2000 | Oversigt | Journal of Chemotherapy | Gennemgang af teicoplanin-dosering på tværs af alvorlige infektioner, herunder ben- og ledinfektioner |
+| [30876673](https://pubmed.ncbi.nlm.nih.gov/30876673/) | 2019 | Retrospektiv kohortstudie | Enferm Infecc Microbiol Clin | Dual teicoplanin + cefazolin profylakse til at forhindre protese-ledinfektioner |
+
+---
+
+## Markedsoplysninger for Danmark
+
+Teicoplanin har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 licenser; markedsstatus: ikke markedsført).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Grundlag:**
+Litteraturbasen (L3: retrospektive/kohortstudier og oversigter, ingen registrerede RCT'er) tilbyder rimelig mekanistisk og praktisk støtte, men lægemidlet er i øjeblikket ikke markedsført i Danmark, og der eksisterer et **blokerende** datakløft — danske/EU-produktetiket-advarsler og kontraindikationer er utilgængelige, hvilket forhindrer den obligatoriske indledende sikkerhed (S1) evaluering.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Officielt SmPC/etiket-advarsler og kontraindikationer (Blokerende kløft)
+- Detaljerede data om virkningsmekanisme fra DrugBank eller tilsvarende kilde
+- Bekræftelse af eventuelle EU/EMA markedsføringsautorisationsveje, der gælder for Danmark
+- Lægemiddel-lægemiddel interaktionsdata (i øjeblikket ikke fundet)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

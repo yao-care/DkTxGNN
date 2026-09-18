@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Palivizumab: From RSV Infection Prevention to Benign Neoplasm of Tongue
+# Palivizumab: Fra RSV-infektionsforbygning til godartet neoplasme af tungen
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Palivizumab is a humanized monoclonal antibody used for the prevention of respiratory syncytial virus (RSV) infection in high-risk infants. The TxGNN model predicts a possible link to **Benign Neoplasm of Tongue**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the signal as a likely false positive.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in the Danish registry (drug not marketed); internationally used for RSV infection prophylaxis in high-risk infants |
-| Predicted New Indication | Benign Neoplasm of Tongue |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Palivizumab er et humaniseret monoklonalt antistof, der bruges til forebyggelse af respiratorisk syncytial virus (RSV)-infektion hos højrisiko-spædbørn. TxGNN-modellen forudsiger en mulig forbindelse til **Godartet neoplasme af tungen**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og selve evidenspakken markerer signalet som sandsynligvis værende et falsk positivt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data for Palivizumab is not available in this evidence pack (recorded as a data gap). Based on general pharmacological knowledge referenced within the evidence pack's own repurposing rationale, Palivizumab is a humanized monoclonal antibody that targets the RSV fusion (F) protein, blocking viral fusion to provide passive immunoprophylaxis against RSV in high-risk infants — it is not an oncology agent and has no known target overlap with tumour biology.
-
-The evidence pack's own mechanistic assessment explicitly states there is **no known biological relationship** between RSV-fusion-protein inhibition and benign neoplasm of the tongue. No shared pathway, target, or disease-family logic bridges the original antiviral indication to this predicted oncologic indication.
-
-Notably, the top 10 predicted indications collapse into only 5 unique diseases (each duplicated), all clustered within a narrow score band (~0.9994–0.9999) and all belonging to the head/neck-tumour or neuroblastoma family. Combined with the fact that this drug node has no recorded DDIs, no original indications on file, and missing MOA data, this pattern is consistent with a **sparse-node embedding artifact** in the knowledge graph rather than a genuine pharmacological signal. This assessment is stated directly in the evidence pack's repurposing rationale and should be treated as a strong caution flag, not a promising lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke registreret i det danske register (medicinen er ikke markedsført); internationalt anvendt til RSV-infektionsforbygning hos højrisiko-spædbørn |
+| Forudsagt ny indikation | Godartet neoplasme af tungen |
+| TxGNN-forudsigelsesscore | 99.94% |
+| Evidensniveau | L5 (modelforudsigelse alene, ingen understøttende undersøgelser) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent vurdering |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme for palivizumab ikke tilgængelige i denne evidenspakke (optført som datahul). Baseret på generel farmakologisk viden, som der refereres til inden for evidenspakkens egen repurposing-rationale, er palivizumab et humaniseret monoklonalt antistof, der sigter mod RSV-fusionsproteinet (F), blokerer viral fusion for at yde passiv immunoprofylakse mod RSV hos højrisiko-spædbørn — det er ikke et onkologikum og har ingen kendt målrelevans med tumorbiologi.
 
----
+Evidenspakkens egen mekanistiske vurdering angiver eksplicit, at der **ikke er nogen kendt biologisk sammenhæng** mellem RSV-fusionsproteinhæmning og godartet neoplasme af tungen. Ingen delt vej, mål eller sygdomsfamilielogik forbinder den oprindelige antivirale indikation til denne forudsagte onkologiske indikation.
 
-## Denmark Market Information
-
-No marketing authorisations on file. Palivizumab currently holds **0 licenses** and is **not marketed** in Denmark according to this evidence pack.
+Det er værd at bemærke, at de 10 bedst forudsagte indikationer sammenfatter sig til kun 5 unikke sygdomme (hver dubleret), alle klyngede inden for et snævert scorebånd (~0.9994–0.9999) og alle tilhørende hoved-/nakke-tumor eller neuroblastom-familier. Kombineret med det faktum, at denne medicinaknude ikke har nogen registrerede DDI'er, ingen oprindelige indikationer registreret og manglende MOA-data, er dette mønster i overensstemmelse med en **sparse-node embedding-artefakt** i vidensgrafen snarere end et ægte farmakologisk signal. Denne vurdering er angivet direkte i evidenspakkens repurposing-rationale og skal behandles som et stærkt advarselsflag, ikke en lovende piste.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: key warnings, contraindications, and drug-drug interaction data are recorded as a **Blocking** data gap (DG001) in this evidence pack — safety evaluation cannot proceed to initial screening (S1) until this is resolved.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- No mechanistic plausibility, no clinical trials, and no literature support the predicted link to benign neoplasm of the tongue; the evidence pack itself assesses this as a likely embedding-space false positive rather than a real signal.
-- A Blocking data gap (missing SmPC warnings/contraindications) prevents any safety pre-screening, and the drug is not currently marketed in Denmark.
+---
 
-**To proceed, the following is needed:**
-- Official MOA confirmation from DrugBank/SmPC
-- TFDA/EMA-equivalent label data (warnings, contraindications) to resolve the Blocking data gap
-- Independent biological rationale or preclinical data connecting RSV-antibody mechanism to head/neck neoplasm biology before this candidate is reconsidered
+## Markedsoplysninger om Danmark
+
+Ingen markedsføringstilladelser registreret. Palivizumab har i øjeblikket **0 godkendelser** og er **ikke markedsført** i Danmark ifølge denne evidenspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst Produktresuméet (SmPC) for sikkerhedsoplysninger. Bemærk: vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er optført som et **Blocking**-datahul (DG001) i denne evidenspakke — sikkerhedsvurdering kan ikke fortsætte til indledende screening (S1), før dette er løst.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent vurdering**
+
+**Begrundelse:**
+- Ingen mekanistisk plausibilitet, ingen kliniske forsøg og ingen litteraturstøtte til den forudsagte forbindelse til godartet neoplasme af tungen; evidenspakken selv vurderer dette som sandsynligvis et falsk positivt signal fra indlejringsrummet snarere end et ægte signal.
+- Et Blocking-datahul (manglende SmPC-advarsler/kontraindikationer) forhindrer sikkerhedsvurdering før indledende screening (S1), og medicinen er i øjeblikket ikke markedsført i Danmark.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Officiel MOA-bekræftelse fra DrugBank/SmPC
+- TFDA/EMA-ækvivalent etiketdata (advarsler, kontraindikationer) til løsning af Blocking-datalhulet
+- Uafhængig biologisk rationale eller prækliniske data, der forbinder RSV-antistofmekanisme med biologi for hoved-/nakke-neoplasme, før denne kandidat genovervejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

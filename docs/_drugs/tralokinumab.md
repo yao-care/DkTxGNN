@@ -29,61 +29,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tralokinumab: From Atopic Dermatitis to Diabetic Cataract
+# Tralokinumab: Fra Atopisk Dermatitis til Diabetisk Katarakt
 
-## One-Sentence Summary
+## Enlinjet Resumé
 
-Tralokinumab is an anti-IL-13 monoclonal antibody, originally used to treat atopic dermatitis. The TxGNN model predicts it may be effective for **Diabetic Cataract**, with a prediction score of **98.69%**, but currently **no clinical trials and no published literature** support this direction — the signal is driven purely by knowledge-graph topology.
+Tralokinumab er et anti-IL-13 monoklonalt antistof, oprindeligt brugt til behandling af atopisk dermatitis. TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk Katarakt**, med en præediktionscore på **98.69%**, men der er i øjeblikket **ingen kliniske forsøg og ingen publiceret litteratur**, der understøtter denne retning — signalet er udelukkende drevet af viden-grafs topologi.
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Atopic dermatitis (per internal mechanistic note; not confirmed via formal regulatory data — original indication field and licenses are empty in this evidence pack) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.69% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig Indikation | Atopisk dermatitis (ifølge intern mekanistisk note; ikke bekræftet via formelle regulatoriske data — oprindelig indikationsfelt og licenser er tomme i denne bevispakke) |
+| Forudsagt Ny Indikation | Diabetisk Katarakt |
+| TxGNN Præediktionscore | 98.69% |
+| Bevisniveau | L5 (modelprediktion alene, ingen kliniske forsøg eller litteratur) |
+| Dansk Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor Er Denne Prediktion Rimelig?
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High-severity data gap). Based on the limited information available, Tralokinumab is an anti-IL-13 monoclonal antibody whose efficacy has been established in atopic dermatitis, an IL-13/Th2-driven inflammatory condition.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som en Blokeringsgrundlaget/alvorlig datakløft). Baseret på de begrænsede tilgængelige oplysninger, er Tralokinumab et anti-IL-13 monoklonalt antistof, hvis virkning er etableret i atopisk dermatitis, en IL-13/Th2-drevet inflammatorisk tilstand.
 
-A hypothesized — but unconfirmed — mechanistic bridge exists between IL-13/Th2 signaling and diabetes-related tissue damage: TGF-β/fibrosis pathways have been proposed in the literature as potentially relevant to lens epithelial pathology. However, there is no direct molecular evidence that IL-13 inhibition affects cataract formation or lens metabolism.
+En hypoteseret — men ubekræftet — mekanistisk bro eksisterer mellem IL-13/Th2-signalering og diabetesbetinget vævsskade: TGF-β/fibrose-veje er blevet foreslået i litteraturen som potentielt relevante for linse-epitels patologi. Der er imidlertid ingen direkte molekylærbevis for, at IL-13-inhibering påvirker kataraktdannelse eller linses stofskifte.
 
-Several of the other top-ranked predicted indications (tetanic cataract, craniostenosis cataract) involve mechanisms — electrolyte disturbance, developmental/skeletal gene abnormalities — that have no known biological relationship to IL-13 signaling at all. This suggests the prediction is being driven largely by network topology/similarity in the knowledge graph rather than an established pharmacological rationale, which is consistent with the L5 evidence level assigned.
+Flere af de øvrige højtrangerede forudsagte indikationer (tetanisk katarakt, kraniostenose-katarakt) involverer mekanismer — elektrolytforstyrrelser, udviklings-/skeletale genanormaliteter — der har ingen kendt biologisk forbindelse til IL-13-signalering overhovedet. Dette tyder på, at prognosen er drevet i høj grad af netværkstopologi/lighed i vidensgrafen snarere end en etableret farmakologisk begrundelse, hvilket er konsistent med det L5-bevisniveau, der er tildelt.
 
-## Clinical Trial Evidence
+## Klinisk Forsøgsbeviser
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbeviser
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Dansk Markedsinformation
 
-Currently no marketing authorisations registered in Denmark (market status: Not marketed; 0 licenses on file).
+I øjeblikket ingen markedsføringstilladelser registreret i Danmark (markedsstatus: Ikke markedsført; 0 licenser på fil).
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Venligst henvises til det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og Næste Trin
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-The predicted indication is supported by TxGNN score alone (Evidence Level L5), with zero clinical trials, zero literature, no confirmed mechanism of action, and no Danish market presence. There is currently no basis to advance this candidate beyond hypothesis generation.
+**Begrundelse:**
+Den forudsagte indikation understøttes udelukkende af TxGNN-score (Bevisniveau L5), med nul kliniske forsøg, nul litteratur, ingen bekræftet virkningsmekanisme og ingen dansk markedstilstedeværelse. Der er i øjeblikket intet grundlag for at fremme denne kandidat ud over hypotesegenerering.
 
-**To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Tralokinumab (currently a Blocking-severity data gap)
-- Danish/EU Summary of Product Characteristics (SmPC) — warnings, contraindications, drug interactions
-- Preclinical or mechanistic studies establishing a biological link between IL-13 inhibition and cataract/lens pathology
-- Confirmation of original approved indication(s) and any existing Danish or EU marketing authorisation status
-- Resolution of duplicate/overlapping predicted indications (several ranked candidates are the same or closely related cataract subtypes) before further prioritization
+**For at fortsætte er følgende nødvendigt:**
+- Virkningsmekanisme (MOA) data for Tralokinumab (i øjeblikket en Blokering-alvorlighedsgrad datakløft)
+- Dansk/EU Produktresumé (SmPC) — advarsler, kontraindikationer, lægemiddelinteraktioner
+- Præ-kliniske eller mekanistiske studier, der etablerer en biologisk forbindelse mellem IL-13-inhibering og katarakt/linse-patologi
+- Bekræftelse af oprindelige godkendt(e) indikation(er) og eventuel eksisterende dansk eller EU markedsføringstilladelsestatus
+- Løsning af dupleks/overlappende forudsagte indikationer (flere rangerede kandidater er identiske eller tæt forbundne kataraktsubtyper) før yderligere prioritering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

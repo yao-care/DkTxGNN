@@ -29,112 +29,113 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Belimumab: From Systemic Lupus Erythematosus to Primary Release Disorder of Platelets
+# Belimumab: Fra Systemisk Lupus Erythematosus til Primær Frigivelsesforstyrrelse af Blodplader
 
-## One-Sentence Summary
+## Etlinjet sammenfatning
 
-Belimumab (Benlysta) is a fully human anti-BLyS monoclonal antibody approved for the treatment of active, autoantibody-positive Systemic Lupus Erythematosus (SLE). The TxGNN model assigns it the highest predicted score of **99.96%** for **primary release disorder of platelets** — however, only **1 clinical trial** was retrieved, and it is of marginal relevance (Grade C), with **no supporting publications** identified. The mechanistic bridge between the drug's B-cell suppression pathway and this intrinsic platelet granule disorder is extremely weak, making the current evidence base insufficient to advance this candidate.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Systemic Lupus Erythematosus (SLE) — active, autoantibody-positive |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Belimumab (Benlysta) er et fuldt humant anti-BLyS monoklonalt antistof godkendt til behandling af aktiv, autoantistof-positiv Systemisk Lupus Erythematosus (SLE). TxGNN-modellen tildeler det den højeste forudsagte score på **99,96%** for **primær frigivelsesforstyrrelse af blodplader** — dog blev kun **1 klinisk forsøg** hentet, og det er af marginal relevans (Klasse C), med **ingen understøttende publikationer** identificeret. Den mekanistiske bro mellem lægemidlets B-celle-undertrykkelsessti og denne iboende blodplade-granulforstyrrelse er ekstremt svag, hvilket gør det nuværende bevisgrundlag utilstrækkeligt til at fremme denne kandidat.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Belimumab is a fully human IgG1λ monoclonal antibody that specifically binds and neutralises soluble B-lymphocyte stimulator (BLyS, also known as BAFF). By blocking the BLyS survival signal, belimumab reduces the differentiation and survival of autoreactive B cells and thereby lowers circulating pathogenic autoantibody (e.g. anti-dsDNA, anti-Sm) titres. This mechanism is well-validated in SLE, where dysregulated BLyS overexpression drives the autoimmune cascade.
-
-Primary release disorder of platelets (storage pool disease; δ- or α-granule deficiency) is a category of intrinsic platelet functional defects characterised by impaired release of granule contents upon activation. The pathophysiology is determined by platelet-intrinsic structural or biosynthetic deficits in granule formation — it is not driven by circulating autoantibodies or B-cell overactivity. Consequently, the mechanistic rationale provided in this evidence pack itself acknowledges that the BLyS inhibition pathway has "almost no direct mechanistic link" to this condition.
-
-The high TxGNN score most likely reflects graph-level co-associations within the knowledge graph — for instance, overlapping node neighbourhoods shared between SLE (an autoimmune thrombocytopenic phenotype) and platelet-disorder nodes — rather than a true pharmacological hypothesis. Until a mechanistic bridge is articulated or translational data emerge, this prediction should be treated as a computational artefact rather than a clinically actionable lead.
-
----
-
-## Predicted Indications Overview
-
-The evidence pack contains five unique predicted indications (each appears twice due to a deduplication artefact). All are ranked L5 with a **Hold** recommendation, except fetal and neonatal alloimmune thrombocytopenia (FNAIT), which is classified as a **Research Question** due to a plausible, albeit unproven, immunological rationale.
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Mechanistic Plausibility |
-|------|---------|-------------|---------------|---------------|--------------------------|
-| 1 | Primary release disorder of platelets | 99.96% | L5 | Hold | Very weak — intrinsic platelet granule defect, not immune-mediated |
-| 3 | Pseudo-von Willebrand disease | 99.96% | L5 | Hold | Very weak — GPIbα gain-of-function mutation, not B-cell driven |
-| 5 | Glanzmann thrombasthenia | 99.87% | L5 | Hold | Weak (inherited ITGA2B/ITGB3 defect); theoretical plausibility only for acquired autoimmune subtype |
-| 7 | Fetal and neonatal alloimmune thrombocytopenia (FNAIT) | 99.59% | L5 | Research Question | Moderate — maternal IgG alloantibody-mediated; BLyS inhibition could theoretically reduce alloantibody production |
-| 9 | Severe nonproliferative diabetic retinopathy | 99.05% | L5 | Hold | Very weak — metabolic/vascular aetiology, BLyS not a primary driver |
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Systemisk Lupus Erythematosus (SLE) — aktiv, autoantistof-positiv |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
+| TxGNN-forudsigelsesscore | 99,96% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Afhold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-> **Note:** Only one trial was retrieved, and its relevance grade is **C** (not applicable to primary release disorder of platelets). The trial investigated belimumab in autoimmune membranous glomerulonephropathy — a wholly different disease. This match represents a database mapping error and should not be interpreted as trial-level support for the predicted indication.
+Belimumab er et fuldt humant IgG1λ monoklonalt antistof, der specifikt binder og neutraliserer opløseligt B-lymfocyt-stimulator (BLyS, også kendt som BAFF). Ved at blokere BLyS-overlevelsessignalet reducerer belimumab differentiering og overlevelse af autoreaktive B-celler og sænker således cirkulerende patogene antistof-titrer (f.eks. anti-dsDNA, anti-Sm). Denne mekanisme er velbegrundet i SLE, hvor dysreguleret BLyS-overexpression driver den autoimmune kaskade.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Completed | 14 | Open-label study of belimumab (10 mg/kg IV) in PLA2R autoantibody-positive idiopathic membranous glomerulonephropathy; evaluated efficacy, safety and biomarkers over 24 weeks. **Not relevant to platelet release disorders.** |
+Primær frigivelsesforstyrrelse af blodplader (lagerbeholdelsessygdom; δ- eller α-granuldeficiens) er en kategori af iboende blodplade-funktionelle defekter karakteriseret ved nedsat frigivelse af granulindhold ved aktivering. Patofysiologien bestemmes af blodplade-iboende strukturelle eller biosyntiske defekter i granuldannelse — den er ikke drevet af cirkulerende antistoffer eller B-celle-overaktivitet. Følgelig anerkender denne dokumentpakke selv, at BLyS-inhiberings-stien har "næsten ingen direkte mekanistisk forbindelse" til denne tilstand.
 
-No clinical trials were identified for pseudo-von Willebrand disease, Glanzmann thrombasthenia, FNAIT, or severe nonproliferative diabetic retinopathy.
+Den høje TxGNN-score afspejler sandsynligvis grafs-niveau-samassociationer inden for vidensgrafen — for eksempel overlappende nodeomgivelser delt mellem SLE (et autoimmunt trombocytopeni-fænotype) og blodplade-forstyrrelseknuder — snarere end en sand farmakologisk hypotese. Indtil en mekanistisk bro artikuleres eller translationelle data dukker op, bør denne forudsigelse behandles som en beregningsartefakt snarere end et klinisk handledygtigt ansats.
 
 ---
 
-## Literature Evidence
+## Oversigt over forudsagte indikationer
 
-Currently no related literature available for any of the five predicted indications.
+Dokumentpakken indeholder fem unikke forudsagte indikationer (hver vises to gange på grund af en dedupliceringsartefakt). Alle er rangeret L5 med en **Afhold**-anbefaling, undtagen føtal og neonatal alloimun trombocytopeni (FNAIT), som klassificeres som et **Forskningsspørgsmål** på grund af en plausibel, omend uprøvet, immunologisk rationaler.
 
----
-
-## Denmark Market Information
-
-Belimumab is not registered with the Danish Medicines Agency (Lægemiddelstyrelsen) in this dataset. No national marketing authorisations are recorded.
-
-> **Data note:** Benlysta (belimumab) holds EMA centralised authorisation (EU/1/11/700/001–002, approved 2011, extended 2017 for lupus nephritis) and is commercially available in the majority of EU member states. The absence of entries in this dataset may reflect a data-coverage gap rather than a true regulatory void in Denmark. Healthcare professionals should verify current availability via the European Medicines Agency (EMA) product register and the Danish Medicines Agency's Produktresumé database.
-
----
-
-## Safety Considerations
-
-Detailed warning and contraindication data were not retrieved in this evidence pack. Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-Based on the known pharmacology and regulatory history of belimumab, prescribers should be aware of the following general class-level considerations:
-
-- **Immunosuppression:** As a B-cell modulator, belimumab increases susceptibility to infections, including opportunistic and serious infections.
-- **Psychiatric/neurological events:** Post-marketing data have indicated cases of depression, suicidality, and psychosis.
-- **Infusion and hypersensitivity reactions:** Acute hypersensitivity reactions, including anaphylaxis, have been reported.
-- **Pregnancy:** Use during pregnancy is not recommended; belimumab crosses the placenta and may affect neonatal B-cell counts. This consideration is particularly relevant for the FNAIT indication hypothesis (rank 7), where the drug would need to be administered to pregnant women — an unstudied and potentially high-risk population.
-- **Live vaccines:** Should not be administered concurrently.
+| Rangering | Sygdom | TxGNN-score | Bevisniveau | Anbefaling | Mekanistisk plausibilitet |
+|-----------|--------|------------|-----------|-----------|-------------------------|
+| 1 | Primær frigivelsesforstyrrelse af blodplader | 99,96% | L5 | Afhold | Meget svag — iboende blodplade-granuldefekt, ikke immun-medieret |
+| 3 | Pseudo-von Willebrand-sygdom | 99,96% | L5 | Afhold | Meget svag — GPIbα gain-of-function-mutation, ikke B-celle-drevet |
+| 5 | Glanzmann-trombasteni | 99,87% | L5 | Afhold | Svag (arvelig ITGA2B/ITGB3-defekt); teoretisk plausibilitet kun for erhvervet autoimun undertype |
+| 7 | Føtal og neonatal alloimun trombocytopeni (FNAIT) | 99,59% | L5 | Forskningsspørgsmål | Moderat — maternal IgG-alloantistof-medieret; BLyS-inhibering kunne teoretisk reducere alloantistof-produktion |
+| 9 | Alvorlig nonproliferativ diabetisk retinopati | 99,05% | L5 | Afhold | Meget svag — metabolisk/vaskulær ætiologi, BLyS ikke en primær driver |
 
 ---
 
-## Conclusion and Next Steps
+## Bevis for kliniske forsøg
 
-**Decision: Hold**
+> **Bemærk:** Kun ét forsøg blev hentet, og dets relevansgrad er **C** (ikke applicable til primær frigivelsesforstyrrelse af blodplader). Forsøget undersøgte belimumab i autoimmun membranøs glomerulonefritis — en helt anden sygdom. Dette match repræsenterer en database-mappingfejl og bør ikke fortolkes som forsøgs-niveau-understøttelse for den forudsagte indikation.
 
-**Rationale:**
-All five predicted indications are rated Evidence Level L5 (model prediction only, no clinical or translational studies), and for the top-ranked indication — primary release disorder of platelets — the mechanistic connection to belimumab's BLyS-inhibition pathway is biologically implausible. The single retrieved clinical trial is irrelevant (database mapping error), and no supporting literature exists for any of the five diseases.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste resultater |
+|-------------|------|--------|-----------------|-------------------|
+| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Fase 2 | Afsluttet | 14 | Åben-label-studie af belimumab (10 mg/kg IV) i PLA2R-antistof-positiv idiopatisk membranøs glomerulonefritis; evaluerede efficacy, sikkerhed og biomarkører over 24 uger. **Ikke relevant for blodplade-frigivelsesforstyrelser.** |
 
-**The single exception warranting further monitoring is FNAIT (rank 7):** the maternal alloantibody-mediated pathophysiology provides a conceptually coherent rationale for B-cell-targeted therapy. However, pregnancy safety data are absent, and no clinical or preclinical studies have been conducted.
-
-**To advance any of these candidates, the following is required:**
-
-- **MOA data gap (DG002):** Obtain full DrugBank mechanistic data and published BLyS biology literature to formally assess pathway overlap with each predicted indication.
-- **FNAIT (rank 7) only — Preclinical proof-of-concept:** Commission or identify in vitro/animal studies examining whether anti-BLyS therapy reduces alloantibody titres in an HPA-1a sensitisation model before any human trial design.
-- **FNAIT — Pregnancy safety assessment:** A dedicated benefit–risk analysis for use in pregnancy is mandatory prior to any clinical trial initiation.
-- **Mapping quality control:** The retrieval pipeline returned an off-target trial (NCT01610492) for the platelet indication. A precision review of the disease-term matching algorithm is recommended to prevent false-positive evidence signals in future packs.
-- **Denmark regulatory status clarification:** Confirm current Benlysta availability via EMA and the Danish Medicines Agency product register to correct the "not marketed" flag if applicable.
+Ingen kliniske forsøg blev identificeret for pseudo-von Willebrand-sygdom, Glanzmann-trombasteni, FNAIT eller alvorlig nonproliferativ diabetisk retinopati.
 
 ---
 
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. Data cut-off: 2026-04-04.*
+## Litteraturbevis
+
+I øjeblikket ingen relateret litteratur tilgængelig for nogen af de fem forudsagte indikationer.
+
+---
+
+## Markedsinformation for Danmark
+
+Belimumab er ikke registreret hos Lægemiddelstyrelsen i dette datasæt. Der er ingen nationale markedsføringsgodkendelser optegnet.
+
+> **Datanota:** Benlysta (belimumab) har centraliseret EMA-godkendelse (EU/1/11/700/001–002, godkendt 2011, udvidet 2017 for lupus-nefritis) og er kommercielt tilgængelig i flertallet af EU-medlemsstater. Fraværet af poster i dette datasæt kan afspejle en datadækningskløft snarere end et sandfærdigt regulatorisk tomrum i Danmark. Sundhedsprofessionelle bør bekræfte aktuel tilgængelighed via Det Europæiske LægemiddelAgenturs (EMA) produktregister og Lægemiddelstyrelsens Produktresumé-database.
+
+---
+
+## Sikkerhedshensyn
+
+Detaljerede advarsel- og kontraindikationsdata blev ikke hentet i denne dokumentpakke. Venligst se den godkendte Produktinformations-sammenfatning (SmPC) for fuld sikkerhedsinformation.
+
+Baseret på den kendte farmakologi og regulatoriske historie for belimumab, bør prescribenter være opmærksomme på følgende generelle klasseni-niveau-hensyn:
+
+- **Immunosuppression:** Som en B-celle-modulator øger belimumab modtagelighed for infektioner, herunder opportunistiske og alvorlige infektioner.
+- **Psykiatriske/neurologiske begivenheder:** Post-marketing-data har angivet tilfælde af depression, selvmordstanker og psykose.
+- **Infusions- og hypersensitivitetsreaktioner:** Akutte hypersensitivitetsreaktioner, herunder anafylaksi, er blevet rapporteret.
+- **Graviditet:** Brug under graviditet anbefales ikke; belimumab passerer placenta og kan påvirke neonatale B-celle-tælling. Denne overvejelse er særlig relevant for FNAIT-indikationshypotesen (rangering 7), hvor lægemidlet skulle administreres til gravide kvinder — en ustudieret og potentielt højrisiko-population.
+- **Live-vacciner:** Må ikke administreres samtidigt.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afhold**
+
+**Rationaler:**
+Alle fem forudsagte indikationer er vurderet til bevisniveau L5 (modelforudsigelse alene, ingen kliniske eller translationelle studier), og for den højest rangerede indikation — primær frigivelsesforstyrrelse af blodplader — er den mekanistiske forbindelse til belimumabs BLyS-inhiberings-sti biologisk implausibel. Det enkelte hentet kliniske forsøg er irrelevant (database-mappingfejl), og ingen understøttende litteratur eksisterer for nogen af de fem sygdomme.
+
+**Det eneste undtagelse, der berettiger yderligere overvågning, er FNAIT (rangering 7):** den maternal alloantistof-medierede patofysiologi giver en konceptuelt sammenhængende rationaler for B-celle-målrettet terapi. Men graviditetssikkerhedsdata er fraværende, og ingen kliniske eller præ-kliniske studier er blevet udført.
+
+**For at fremme nogen af disse kandidater kræves følgende:**
+
+- **MOA-datakløft (DG002):** Indhent fulde DrugBank-mekanistiske data og udgivet BLyS-biologilitteratur for formelt at vurdere stioverlapning med hver forudsagt indikation.
+- **FNAIT (rangering 7) alene — Præ-klinisk proof-of-concept:** Bestil eller identificer in vitro/dyreforsøgsstudier, der undersøger, hvorvidt anti-BLyS-terapi reducerer alloantistof-titrer i en HPA-1a-sensibiliserings-model før noget forsøgsdesign.
+- **FNAIT — Graviditetssikkerhedsvurdering:** En dedikeret fordel-risiko-analyse for brug i graviditet er obligatorisk forud for enhver initiering af klinisk forsøg.
+- **Mappingkvalitetsværn:** Hentelses-pipelinen returnerede et off-target-forsøg (NCT01610492) for blodplade-indikationen. En præcisions-gennemgang af disease-term-matching-algoritmen anbefales for at forhindre falsk-positive bevisudsignaler i fremtidige pakker.
+- **Danmark-regulatorisk statusafklaring:** Bekræft aktuel Benlysta-tilgængelighed via EMA og Lægemiddelstyrelsens produktregister for at korrigere "ikke markedsført"-flaget, hvis det er applicable.
+
+---
+
+*Denne rapport er genereret til forskningsreferenceformål alene og udgør ikke medicinsk rådgivning. Lægemiddelgenbrugskandidater kræver klinisk validering før enhver terapeutisk anvendelse. Dataafskæring: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

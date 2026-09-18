@@ -29,62 +29,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Isotretinoin: From Unknown Indication to Malignant Renovascular Hypertension
+# Isotretinoin: Fra ukendt indikation til malign renovaskulær hypertension
 
-## One-Sentence Summary
+## Ét-sætnings-resumé
 
-Isotretinoin (DB00982) is a systemic retinoid whose original approved indication is not documented in the current Evidence Pack.
-The TxGNN model predicts a possible link to **Malignant Renovascular Hypertension** (score 99.01%),
-but **no clinical trials and no literature** currently support this prediction — it rests on the knowledge-graph signal alone.
+Isotretinoin (DB00982) er et systemisk retinoid, hvis oprindelige godkendt indikation ikke er dokumenteret i det aktuelle Evidence Pack.
+TxGNN-modellen forudsiger en mulig forbindelse til **Malign Renovaskulær Hypertension** (score 99.01%),
+men **ingen kliniske forsøg og ingen litteratur** understøtter i øjeblikket denne forudsigelse — den hviler alene på vidensgraf-signalet.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Evidence Pack (data gap — no licenses or original_indications on file) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke dokumenteret i Evidence Pack (datakløft — ingen licenser eller original_indications på fil) |
+| Forudsagt ny indikation | Malign renovaskulær hypertension |
+| TxGNN-forudsigelsesscore | 99.01% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not currently available for isotretinoin in this Evidence Pack. Based on general pharmacological knowledge referenced in the underlying rationale data, isotretinoin is a vitamin A acid (retinoid) derivative that acts primarily on retinoic acid receptors and sebaceous gland tissue — a pathway not obviously connected to renovascular or hypertensive renal pathology.
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige for isotretinoin i dette Evidence Pack. Baseret på generel farmakologisk viden, der henvises til i de underliggende rationaledata, er isotretinoin et vitamin A-syre (retinoid) derivat, der virker primært på retinolsyreceptorer og talgkirtelvæv — en vej, som ikke helt åbenlyst er forbundet til renovaskulær eller hypertensiv nyrepatologi.
 
-No mechanistic, preclinical, or clinical evidence in the Evidence Pack establishes a biological pathway between retinoid signalling and malignant renovascular hypertension or malignant hypertensive renal disease. The TxGNN score of 0.99 reflects a strong knowledge-graph link prediction only — it should not be interpreted as mechanistic or clinical evidence.
+Ingen mekanistiske, prækliniske eller kliniske beviser i Evidence Pack etablerer en biologisk vej mellem retinoid-signalering og malign renovaskulær hypertension eller malign hypertensiv nyresygdom. TxGNN-scoren på 0.99 afspejler kun en stærk vidensgraf-linkforudsigelse — den bør ikke tolkes som mekanistisk eller klinisk bevis.
 
-It should also be noted that the model surfaced two closely related renal-hypertensive diseases (malignant renovascular hypertension and malignant hypertensive renal disease) at the identical score, each appearing twice in the ranked list — consistent with related graph nodes rather than independent corroborating signals.
+Det bør også bemærkes, at modellen frembragte to nært beslægtede nyrehypertensive sygdomme (malign renovaskulær hypertension og malign hypertensiv nyresygdom) med den samme score, hver optræder to gange på den rangerede liste — konsistent med beslægtede grafnoder snarere end uafhængige bekræftende signaler.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related clinical trials registered
+I øjeblikket ingen relaterede kliniske forsøg registreret
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+I øjeblikket ingen relateret litteratur tilgængelig
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Isotretinoin currently has no marketing authorisations on file and is **not marketed** in Denmark. No product, dosage form, or approved indication data is available to report.
+Isotretinoin har i øjeblikket ingen markedsføringstilladelser på fil og er **ikke markedsført** i Danmark. Der er ingen produkt-, lægemiddelform- eller godkendte indikationsdata tilgængelige til rapportering.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Safety and warning data (key warnings, contraindications, drug interactions) could not be retrieved for isotretinoin — this is flagged as a **Blocking** data gap in the Evidence Pack, preventing initial safety screening (S1). Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Sikkerhed og advarseldata (vigtige advarsler, kontraindikationer, lægemiddelinteraktioner) kunne ikke hentes for isotretinoin — dette er markeret som et **blokerande** datakløft i Evidence Pack, som forhindrer initial sikkerhedsscreening (S1). Se venligst Produktinformationen (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Hold**
 
-**Rationale:**
-There is no clinical, literature, or mechanistic evidence connecting isotretinoin to malignant renovascular hypertension or malignant hypertensive renal disease — only a model-derived score is available. Combined with the absence of Denmark market authorisation and a Blocking safety-data gap, the evidence base is insufficient to advance this candidate.
+**Begrundelse:**
+Der er ingen klinisk, litteratur- eller mekanistisk bevis, som forbinder isotretinoin til malign renovaskulær hypertension eller malign hypertensiv nyresygdom — kun en modeludledt score er tilgængelig. Kombineret med fraværet af markedsføringstilladelse i Danmark og et blokerande sikkerhedsdatakløft er evidensgrundlaget utilstrækkeligt til at fremme denne kandidat.
 
-**To proceed, the following is needed:**
-- Original indication and mechanism of action (MOA) data (DrugBank)
-- SmPC warnings, contraindications, and drug interaction data (Laegemiddelstyrelsen / TFDA) — currently Blocking
-- Preclinical or mechanistic rationale linking retinoid pathways to renal-vascular hypertension
-- Confirmation of whether the duplicate-scored candidates (malignant renovascular hypertension vs. malignant hypertensive renal disease) represent distinct or overlapping signals before further evaluation
+**For at fortsætte er følgende nødvendig:**
+- Oprindelig indikation og mekanisme for virkning (MOA) data (DrugBank)
+- SmPC advarsler, kontraindikationer og lægemiddelinteraktionsdata (Lægemiddelstyrelsen / TFDA) — i øjeblikket blokerande
+- Præklinisk eller mekanistisk rationale, der forbinder retinoid-veje til renovaskulær hypertension
+- Bekræftelse af, hvorvidt de duplikatscorerede kandidater (malign renovaskulær hypertension kontra malign hypertensiv nyresygdom) repræsenterer forskellige eller overlappende signaler før yderligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

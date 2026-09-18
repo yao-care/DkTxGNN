@@ -29,73 +29,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tezepelumab: From Severe Asthma to Diabetic Cataract
+# Tezepelumab: Fra svær astma til diabetisk katarakt
 
-## One-Sentence Summary
+## Resumé på én linje
 
-Tezepelumab is an anti-TSLP monoclonal antibody; its established indication is Type 2 inflammation-driven severe asthma, though formal Danish label data on this original indication is currently unavailable. The TxGNN model predicts possible efficacy for **Diabetic Cataract**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags it as a likely false-positive graph artifact rather than a biologically grounded signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Severe asthma (Type 2 inflammation-driven) — per model rationale; formal Danish label text unavailable (data gap) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.40% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tezepelumab er et anti-TSLP monoklonalt antistof; dets etablerede indikation er svær astma drevet af type 2-inflammation, selvom formelle danske etiketdata for denne oprindelige indikation i øjeblikket ikke er tilgængelige. TxGNN-modellen forudsiger mulig virkning ved **diabetisk katarakt**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske prøver** og **0 publikationer**, og bevis-pakkets egen mekanistiske anmeldelse markerer det som et sandsynligt falsk-positivt grafartefakt snarere end et biologisk funderet signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not available in this evidence pack (data gap, High severity). Based on the mechanistic notes accompanying the prediction, Tezepelumab is an anti-TSLP (thymic stromal lymphopoietin) monoclonal antibody, with its proven efficacy limited to Type 2 inflammation-driven severe asthma.
-
-There is no known direct biological pathway connecting TSLP signalling to cataract pathophysiology, which involves lens protein denaturation, oxidative stress, and the polyol pathway. The evidence pack's own repurposing rationale explicitly characterizes this high score (0.984) as likely arising from an indirect knowledge-graph connection through a shared "diabetes" node, rather than from a genuine pharmacological mechanism — i.e., the model itself flags this as a probable false positive.
-
-Given the absence of both a plausible mechanistic link and any supporting clinical or literature evidence, this prediction should be treated as exploratory only and not as a basis for further mechanistic or clinical investment at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Svær astma (type 2-inflammations-drevet) — ifølge modelrationale; formelle danske etiketdata utilgængelige (datahul) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98.40% |
+| Bevisniveau | L5 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede virkningsmekanisme-data er ikke tilgængelige i denne bevis-pakke (datahul, høj alvorlighed). Baseret på de mekanistiske noter, der ledsager forudsigelsen, er Tezepelumab et anti-TSLP (thymic stromal lymphopoietin) monoklonalt antistof, med sin dokumenterede virkning begrænset til svær astma drevet af type 2-inflammation.
 
----
+Der er ingen kendt direkte biologisk vej, der forbinder TSLP-signalering til katarakt-patofysiologi, som involverer denaturering af linsprotein, oxidativt stress og polyol-vejen. Bevis-pakkets egen begrundelse for repurposering karakteriserer eksplicit denne høje score (0.984) som sandsynligt opstået fra en indirekte knowledge-graph-forbindelse gennem en delt "diabetes"-knude snarere end fra en ægte farmakologisk mekanisme — dvs. modellen selv markerer dette som en sandsynlig falsk positiv.
 
-## Denmark Market Information
-
-Tezepelumab currently holds no marketing authorisations in Denmark (0 licenses on record; market status: Not marketed).
+Givet fraværet af både en plausibel mekanistisk forbindelse og nogen understøttende klinisk eller litteraturbevis, bør denne forudsigelse behandles som udelukkende eksplorativ og ikke som et grundlag for yderligere mekanistisk eller klinisk investering på nuværende tidspunkt.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske prøver
 
-Please refer to the approved EU Summary of Product Characteristics (SmPC), as this product does not currently hold a Danish marketing authorisation and no drug interaction, warning, or contraindication data is available in this evidence pack. Note also that Danish-specific label/warning data (e.g., equivalent to TFDA label warnings) is flagged as a **Blocking** data gap, meaning a formal safety pre-screen cannot yet be completed for this candidate.
+Der er i øjeblikket ingen relaterede kliniske prøver registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-There is no clinical or literature evidence supporting this indication, and the evidence pack's own mechanistic analysis identifies the prediction as a likely knowledge-graph artifact rather than a biologically plausible signal. The drug is also not marketed in Denmark, and a blocking safety data gap prevents any initial safety screening.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU label safety data (warnings, contraindications) to resolve the blocking data gap
-- Confirmed mechanism of action via DrugBank or manufacturer SmPC
-- Independent mechanistic or preclinical evidence linking TSLP/Type 2 inflammation pathways to cataract pathophysiology, before pursuing clinical trial or literature searches further
+## Danmarks markedsinformation
+
+Tezepelumab har i øjeblikket ingen markedsføringstilladelser i Danmark (0 licenser på rekord; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte EU Produktresumé (SmPC), da dette lægemiddel i øjeblikket ikke har en dansk markedsføringstilladelse, og ingen lægemiddelinteraktions-, advarsel- eller kontraindikationsdata er tilgængelige i denne bevis-pakke. Bemærk også, at dansk-specifik etiket- og advarseldata (f.eks. svarende til TFDA-etiketadvarsler) er markeret som et **Blokerende** datahul, hvilket betyder, at en formel sikkerhedsscreening endnu ikke kan gennemføres for denne kandidat.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Der er ingen klinisk eller litteraturbevis, der understøtter denne indikation, og bevis-pakkets egen mekanistiske analyse identificerer forudsigelsen som et sandsynligt knowledge-graph-artefakt snarere end et biologisk plausibelt signal. Lægemidlet er også ikke markedsført i Danmark, og et blokerende sikkerhedsdatahul forhindrer enhver indledende sikkerhedsscreening.
+
+**For at fortsætte, er følgende nødvendig:**
+- Dansk/EU-etiketdata om sikkerhed (advarsler, kontraindikationer) for at løse det blokerende datahul
+- Bekræftet virkningsmekanisme via DrugBank eller producent-SmPC
+- Uafhængigt mekanistisk eller præ-klinisk bevis, der forbinder TSLP/type 2-inflammations-signalveje til katarakt-patofysiologi, før der forfølges yderligere kliniske prøve- eller litteratursøgninger
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

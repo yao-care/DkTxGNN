@@ -29,111 +29,112 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ofatumumab: From Chronic Lymphocytic Leukemia to Follicular Lymphoma
+# Ofatumumab: Fra kronisk lymfocytleukæmi til follikulært lymfom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Ofatumumab is a fully human anti-CD20 monoclonal antibody originally used to treat chronic lymphocytic leukemia (CLL), targeting the CD20 antigen on malignant B-cells. The TxGNN model predicts it may also be effective for **Follicular Lymphoma**, a related CD20-positive B-cell malignancy, with **15 clinical trials** and **20 publications** currently supporting this direction. Note: TxGNN's single highest-scoring prediction was actually a molecular CLL subtype (IGHV-mutated CLL/SLL, score 99.77%), but that candidate currently has zero dedicated evidence; Follicular Lymphoma (score 99.70%) is presented here as the most actionable, evidence-backed candidate.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Lymphocytic Leukemia (CLL) — derived from the collected literature evidence in this pack (e.g., PMID 22830942), as the formal `original_indications` field was not populated |
-| Predicted New Indication | Follicular Lymphoma |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Ofatumumab er et fuldt humant anti-CD20 monoklonalt antistof, der oprindeligt bruges til at behandle kronisk lymfocytleukæmi (KLL), og som retter sig mod CD20-antigenet på maligne B-celler. TxGNN-modellen forudsiger, at det også kan være effektivt for **follikulært lymfom**, en relateret CD20-positiv B-celle-malignitet, med **15 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning. Bemærk: TxGNNs enkelt højest-scorede forudsigelse var faktisk en molekylær KLL-subtype (IGHV-muteret KLL/SLL, score 99,77%), men denne kandidat har i øjeblikket nul dedikeret evidens; Follikulært lymfom (score 99,70%) præsenteres her som den mest handlingsorienterede, evidensbaserede kandidat.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort Oversigt
 
-Detailed mechanism of action data is not currently available from DrugBank for this candidate (flagged as a High-severity data gap, DG002). Based on the literature evidence collected in this pack, ofatumumab is consistently described as a fully human IgG1κ monoclonal antibody that binds a distinct membrane-proximal epitope on the CD20 antigen, triggering B-cell death predominantly through complement-dependent cytotoxicity (CDC) and antibody-dependent cell-mediated cytotoxicity (ADCC).
-
-CLL and follicular lymphoma are both CD20-positive, indolent B-cell malignancies that share the same target antigen and cell-killing mechanism. Multiple sources in this pack (e.g., PMID 28983798, PMID 29934061) note that anti-CD20 antibodies as a class are already used across CLL, follicular lymphoma, and diffuse large B-cell lymphoma, and several trials in this pack enrolled mixed CLL/FL populations under the same protocol (e.g., NCT00742144), underscoring the mechanistic overlap.
-
-Because the biological target and cytotoxic mechanism are identical between the original indication (CLL) and the predicted indication (follicular lymphoma), extending ofatumumab's use to FL is mechanistically well-supported — an inference reinforced by the fact that ofatumumab has already been studied directly in FL populations in numerous completed trials, described below.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig Indikation | Kronisk lymfocytleukæmi (KLL) — afledt af den indsamlede litteraturbevis i denne pakke (f.eks. PMID 22830942), da feltet for formelle `original_indications` ikke var udfyldt |
+| Forudsagt Ny Indikation | Follikulært lymfom |
+| TxGNN-Forudsigelsesscore | 99,70% |
+| Evidensniveau | L2 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Fortsæt med Sikkerhedsforholdsregler |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede virkningsmekanisme-data er i øjeblikket ikke tilgængelige fra DrugBank for denne kandidat (markeret som et datakløft med høj alvorlighed, DG002). Baseret på litteraturbevis indsamlet i denne pakke, beskrives ofatumumab konsekvent som et fuldt humant IgG1κ monoklonalt antistof, der binder til et særskilt membran-proksimalt epítop på CD20-antigenet, hvilket udløser B-celle-dødsfald overvejende gennem komplementafhængig cytotoxicitet (CDC) og antistof-afhængig celle-medieret cytotoxicitet (ADCC).
+
+KLL og follikulært lymfom er både CD20-positive, indolente B-celle-maligneter, der deler det samme mål-antigen og celle-dødsmekanism. Flere kilder i denne pakke (f.eks. PMID 28983798, PMID 29934061) noter, at anti-CD20-antistoffer som klasse allerede bruges på tværs af KLL, follikulært lymfom og diffust stort B-celle-lymfom, og flere forsøg i denne pakke tilmeldte blandede KLL/FL-populationer under samme protokol (f.eks. NCT00742144), hvilket understreger den mekanistiske overlap.
+
+Fordi det biologiske mål og den cytotoxiske mekanisme er identiske mellem den oprindelige indikation (KLL) og den forudsagte indikation (follikulært lymfom), er udvidelsen af ofatumumabs brug til FL mekanistisk velunderstøttet — en slutning, der forstærkes af det faktum, at ofatumumab allerede er blevet undersøgt direkte i FL-populationer i adskillige gennemførte forsøg, beskrevet nedenfor.
+
+---
+
+## Evidens fra Kliniske Forsøg
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige Fund |
 |---------|------|------|------|---------|
-| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Phase 3 | Terminated | 346 | Randomized comparison of ofatumumab + bendamustine vs. bendamustine alone in rituximab-unresponsive indolent B-cell NHL (includes FL); largest and only Phase 3 trial identified, but terminated — reason not specified in this pack |
-| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Phase 2 | Completed | 135 | Randomized trial of ofatumumab + bendamustine vs. ofatumumab + bortezomib + bendamustine in untreated follicular lymphoma |
-| [NCT01294579](https://clinicaltrials.gov/study/NCT01294579) | Phase 2 | Completed | 49 | Ofatumumab + bendamustine induction followed by ofatumumab maintenance in indolent B-NHL relapsed after rituximab |
-| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Phase 2 | Completed | 110 | Involved-field radiotherapy with/without ofatumumab in early-stage (I/II) follicular lymphoma, stratified by Bcl-2 status |
-| [NCT00742144](https://clinicaltrials.gov/study/NCT00742144) | Phase 1 | Completed | 6 | Safety, tolerability, and PK of ofatumumab monotherapy in Japanese FL/CLL patients |
-| [NCT00394836](https://clinicaltrials.gov/study/NCT00394836) | Phase 2 | Completed | 116 | Ofatumumab monotherapy in rituximab-refractory follicular lymphoma |
-| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Phase 2 | Completed | 51 | Ofatumumab in previously untreated stage II–IV follicular NHL (CALGB) |
-| [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Phase 2 | Completed | 59 | Two-dose ofatumumab regimens combined with CHOP in untreated follicular lymphoma |
-| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Phase 2 | Completed | 43 | Ofatumumab as initial systemic treatment for indolent B-cell lymphoma |
-| [NCT00823719](https://clinicaltrials.gov/study/NCT00823719) | Phase 2 | Completed | 61 | Ofatumumab + ICE or DHAP salvage chemotherapy in relapsed/refractory aggressive lymphoma pre-transplant |
+| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Fase 3 | Termineret | 346 | Randomiseret sammenligning af ofatumumab + bendamustine vs. bendamustine alene ved rituximab-uresponsivt indolent B-celle-NHL (omfatter FL); største og eneste Phase 3-forsøg identificeret, men termineret — årsag ikke specificeret i denne pakke |
+| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Fase 2 | Afsluttet | 135 | Randomiseret forsøg af ofatumumab + bendamustine vs. ofatumumab + bortezomib + bendamustine i ubehandlet follikulært lymfom |
+| [NCT01294579](https://clinicaltrials.gov/study/NCT01294579) | Fase 2 | Afsluttet | 49 | Ofatumumab + bendamustine induktion efterfulgt af ofatumumab vedligeholdelsesfase i indolent B-NHL tilbagefald efter rituximab |
+| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Fase 2 | Afsluttet | 110 | Involveret-felt strålebehandling med/uden ofatumumab i tidlig-stadie (I/II) follikulært lymfom, stratificeret efter Bcl-2-status |
+| [NCT00742144](https://clinicaltrials.gov/study/NCT00742144) | Fase 1 | Afsluttet | 6 | Sikkerhed, tolerabilitet og PK af ofatumumab-monoterapi i japanske FL/KLL-patienter |
+| [NCT00394836](https://clinicaltrials.gov/study/NCT00394836) | Fase 2 | Afsluttet | 116 | Ofatumumab-monoterapi i rituximab-refraktært follikulært lymfom |
+| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Fase 2 | Afsluttet | 51 | Ofatumumab i tidligere ubehandlet stadie II–IV follikulært NHL (CALGB) |
+| [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Fase 2 | Afsluttet | 59 | To-dosis ofatumumab-regimer kombineret med CHOP i ubehandlet follikulært lymfom |
+| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Fase 2 | Afsluttet | 43 | Ofatumumab som initial systemisk behandling for indolent B-celle-lymfom |
+| [NCT00823719](https://clinicaltrials.gov/study/NCT00823719) | Fase 2 | Afsluttet | 61 | Ofatumumab + ICE eller DHAP salvage-kemoterapie i tilbagevendende/refraktær aggressiv lymfom før transplantation |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige Fund |
 |------|-----|------|------|---------|
-| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | RCT | Cancer | CALGB 50904: randomized Phase 2 trial of ofatumumab+bendamustine vs. triplet with bortezomib in untreated high-risk FL |
-| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 multicentre study | British Journal of Haematology | CALGB 50901: single-agent ofatumumab efficacy in untreated, low/intermediate-risk advanced-stage FL |
-| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Phase 2 trial (final results) | The Lancet. Haematology | FIL MIRO: MRD-driven radiotherapy plus anti-CD20 mAb in early-stage FL |
-| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Multicenter study | Blood | Ofatumumab monotherapy in rituximab-refractory FL; ORR 13% (chemo-refractory subgroup) to 10% overall |
-| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 2 chemoimmunotherapy | British Journal of Haematology | Ofatumumab + CHOP (O-CHOP) as frontline treatment for FL, two dose levels compared |
-| [18390837](https://pubmed.ncbi.nlm.nih.gov/18390837/) | 2008 | Phase 1/2 trial | Blood | First clinical use of ofatumumab in relapsed/refractory FL (grade 1–2) |
-| [29934061](https://pubmed.ncbi.nlm.nih.gov/29934061/) | 2018 | Evidence-based review | Clinical Lymphoma, Myeloma & Leukemia | Rapid evidence review of anti-CD20 regimens in relapsed/refractory CLL, FL, and DLBCL |
-| [34607678](https://pubmed.ncbi.nlm.nih.gov/34607678/) | 2021 | Review | Bulletin du Cancer | European approval review of duvelisib in relapsed/refractory CLL and FL, contextualizing anti-CD20 comparators |
-| [21083037](https://pubmed.ncbi.nlm.nih.gov/21083037/) | 2010 | Review | Expert Review of Hematology | Emerging therapeutic strategies in follicular lymphoma |
-| [26043777](https://pubmed.ncbi.nlm.nih.gov/26043777/) | 2015 | Review | Expert Opinion on Biological Therapy | Review of ofatumumab activity in CD20+ B-cell lymphomas including FL |
+| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | RCT | Cancer | CALGB 50904: randomiseret Phase 2-forsøg af ofatumumab+bendamustine vs. triplet med bortezomib i ubehandlet høj-risiko FL |
+| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 multicenter-studie | British Journal of Haematology | CALGB 50901: enkelt-middel ofatumumab-effektivitet i ubehandlet, lav/intermediær-risiko avanceret-stadie FL |
+| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Phase 2-forsøg (slutresultater) | The Lancet. Haematology | FIL MIRO: MRD-drevet strålebehandling plus anti-CD20 mAb i tidlig-stadie FL |
+| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Multicenter-studie | Blood | Ofatumumab-monoterapi i rituximab-refraktært FL; ORR 13% (kemoterapirefraktær undergruppe) til 10% samlet |
+| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 2 kemoimmunoterapi | British Journal of Haematology | Ofatumumab + CHOP (O-CHOP) som frontline-behandling for FL, to dosisværdier sammenlignet |
+| [18390837](https://pubmed.ncbi.nlm.nih.gov/18390837/) | 2008 | Phase 1/2-forsøg | Blood | Første klinisk brug af ofatumumab i tilbagevendende/refraktært FL (grad 1–2) |
+| [29934061](https://pubmed.ncbi.nlm.nih.gov/29934061/) | 2018 | Evidensbaseret oversigt | Clinical Lymphoma, Myeloma & Leukemia | Hurtig evidensoversigt af anti-CD20-regimer i tilbagevendende/refraktær KLL, FL og DLBCL |
+| [34607678](https://pubmed.ncbi.nlm.nih.gov/34607678/) | 2021 | Oversigt | Bulletin du Cancer | Europæisk godkendelsesoversi af duvelisib i tilbagevendende/refraktær KLL og FL, kontekstualisering af anti-CD20-sammenligninger |
+| [21083037](https://pubmed.ncbi.nlm.nih.gov/21083037/) | 2010 | Oversigt | Expert Review of Hematology | Nye terapistrategier inden for follikulært lymfom |
+| [26043777](https://pubmed.ncbi.nlm.nih.gov/26043777/) | 2015 | Oversigt | Expert Opinion on Biological Therapy | Oversigt over ofatumumab-aktivitet i CD20+ B-celle-lymfomer, herunder FL |
 
 ---
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-Ofatumumab currently holds **no marketing authorisation in Denmark** (market status: Not marketed; 0 authorisations on file). No national (Laegemiddelstyrelsen) or centralised (EMA) licence records were found in this evidence pack.
-
----
-
-## Cytotoxicity (Antineoplastic Drugs Only)
-
-Ofatumumab is antineoplastic (approved for CLL, a haematologic malignancy, and studied here for follicular lymphoma).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted immunotherapy (anti-CD20 monoclonal antibody, not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | CBC with differential; hepatitis B screening prior to initiation (standard practice for anti-CD20 agents); monitoring for infusion-related reactions |
-| Handling Protection | Not a conventional cytotoxic chemotherapy agent requiring cytotoxic drug handling precautions; standard IV biologic infusion protocol with antihistamine/corticosteroid premedication applies |
+Ofatumumab har i øjeblikket **ingen markedsføringstilladelse i Danmark** (markedsstatus: Ikke markedsført; 0 tilladelser på fil). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) tilladelser blev fundet i denne evidenspakke.
 
 ---
 
-## Safety Considerations
+## Cytotoxicitet (kun antineoplastiske lægemidler)
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No warnings, contraindications, or drug interaction data were available in this evidence pack (TFDA/Laegemiddelstyrelsen label data is flagged as a Blocking data gap, DG001, pending SmPC PDF retrieval).
+Ofatumumab er antineoplastisk (godkendt til KLL, en hæmatologisk malignitet, og undersøgt her til follikulært lymfom).
+
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoxicitetsklassifikation | Målrettet immunterapi (anti-CD20 monoklonalt antistof, ikke konventionel cytotoksisk kemoterapiagens) |
+| Myelosuppression-risiko | Se venligst sammenfattingen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se venligst sammenfattingen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+| Overvågningsposter | CBC med differentialtal; hepatitis B-screening før initiering (standardpraksis for anti-CD20-midler); overvågning for infusionsrelaterede reaktioner |
+| Håndteringsbeskyttelse | Ikke en konventionel cytotoksisk kemoterapiagens, der kræver cytotoksisk lægemiddelbehandling-forsigtighedsregler; standard IV biologisk infusionsprotokol med antihistamin/kortikosteroid-præmedicinering gælder |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst den godkendte sammenfatting af produktkarakteristika (SmPC) for sikkerhedsoplysninger. Ingen advarsler, kontraindikationer eller lægemiddel-interaktionsdata var tilgængelige i denne evidenspakke (TFDA/Lægemiddelstyrelsen label-data er markeret som et blokerende datakløft, DG001, afventende SmPC PDF-hentning).
 
-**Rationale:**
-Follicular lymphoma shares the same CD20 target and cytotoxic mechanism as ofatumumab's original indication (CLL), and this is directly supported by an L2 evidence base — including a completed randomized Phase 2 trial (CALGB 50904) plus multiple additional completed Phase 1/2 studies spanning frontline, relapsed/refractory, and radiotherapy-combination settings. However, the only Phase 3 trial identified (NCT01077518) was terminated, and the drug is not currently marketed in Denmark.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Laegemiddelstyrelsen SmPC data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Formal DrugBank-sourced MOA and drug category data (DG002)
-- Clarification of the termination reason for the Phase 3 trial (NCT01077518)
-- A formal drug-drug interaction (DDI) review, as none was found in this pack
-- Assessment of the Danish market-access pathway (e.g., named-patient/import route), given the drug currently holds no local authorisation
+## Konklusion og Næste Trin
+
+**Beslutning: Fortsæt med Sikkerhedsforholdsregler**
+
+**Begrundelse:**
+Follikulært lymfom deler det samme CD20-mål og cytotoksisk mekanisme som ofatumumabs oprindelige indikation (KLL), og dette er direkte understøttet af et L2-evidensgrundlag — herunder et afsluttet randomiseret Phase 2-forsøg (CALGB 50904) plus flere yderligere afsluttede Phase 1/2-studier omfattende frontline, tilbagevendende/refraktær og strålebehandling-kombinationsindstillinger. Men det eneste Phase 3-forsøg, der blev identificeret (NCT01077518), blev termineret, og lægemidlet er i øjeblikket ikke markedsført i Danmark.
+
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/Lægemiddelstyrelsen SmPC-data (advarsler, kontraindikationer) — i øjeblikket et blokerende kløft (DG001)
+- Formelle DrugBank-baserede MOA og lægemiddelklassifikationsdata (DG002)
+- Afklaring af termineringsårsagen for Phase 3-forsøget (NCT01077518)
+- En formel lægemiddel-lægemiddel-interaktions (DDI) gennemgang, da ingen blev fundet i denne pakke
+- Vurdering af den danske markedsadgangssti (f.eks. navngivet-patient/importrute), givet at lægemidlet i øjeblikket ikke har nogen lokal tilladelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,91 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Macitentan: From Pulmonary Arterial Hypertension to PAH Associated with Congenital Heart Disease
+# Macitentan: Fra pulmonel arteriel hypertension til PAH associeret med medfødt hjertesygdom
 
-## One-Sentence Summary
+## Et-linjes resume
 
-> Macitentan is a dual endothelin receptor antagonist (ERA), originally developed and approved for pulmonary arterial hypertension (PAH, WHO Group 1).
-> The TxGNN model predicts continued benefit in **Pulmonary Arterial Hypertension Associated with Congenital Heart Disease (CHD-PAH)**, a recognized WHO Group 1 subtype,
-> with **2 clinical trials** and **18 publications** currently supporting this direction — including a completed Phase III RCT (MAESTRO) in the Eisenmenger syndrome subgroup.
+> Macitentan er en dobbelt endothelin receptorantagonist (ERA), oprindeligt udviklet og godkendt til pulmonel arteriel hypertension (PAH, WHO Gruppe 1).
+> TxGNN-modellen forudsiger fortsatte fordele ved **Pulmonel Arteriel Hypertension Associeret med Medfødt Hjertesygdom (CHD-PAH)**, en anerkendt WHO Gruppe 1-undertype,
+> med **2 kliniske forsøg** og **18 publikationer**, der i øjeblikket understøtter denne retning — herunder et afsluttet Phase III randomiseret kontrolleret forsøg (MAESTRO) i Eisenmenger-syndrom-undergruppen.
 
-*Note: TxGNN generated several other candidate indications for macitentan (e.g. pulmonary arteriovenous malformation, schistosomiasis-associated PAH). Those carry no clinical trial or literature support (Evidence Level L5, decision stage S0, recommendation "Hold") and are not covered below. This report focuses on the best-evidenced candidate, CHD-PAH.*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pulmonary arterial hypertension (WHO Group 1) — per international labeling context in the evidence pack; no Danish marketing authorisation on file |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with Congenital Heart Disease (CHD-PAH) |
-| TxGNN Prediction Score | 98.75% |
-| Evidence Level | L2 (1 completed Phase III RCT — MAESTRO, in Eisenmenger syndrome) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+*Bemærk: TxGNN genererede flere andre kandidat-indikationer for macitentan (f.eks. pulmonel arteriovenøs malformation, schistosomiasis-associeret PAH). Disse har ingen klinisk forsøgs- eller litteraturunderstøttelse (Evidence Level L5, decision stage S0, anbefaling "Hold") og er ikke dækket nedenfor. Denne rapport fokuserer på den bedst evidens-understøttede kandidat, CHD-PAH.*
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-A formal DrugBank mechanism-of-action record has not yet been retrieved for this candidate (flagged as data gap DG002). Based on the clinical evidence assembled in this pack, macitentan is established as a **dual endothelin receptor antagonist (ERA)**, blocking ET-1-mediated pulmonary vasoconstriction and vascular remodeling — the core pathophysiology of WHO Group 1 pulmonary arterial hypertension.
-
-CHD-PAH (including Eisenmenger syndrome) is itself classified under WHO Group 1 PAH, sharing the same vascular remodeling pathology as idiopathic/heritable PAH — macitentan's original indication. This is therefore not a mechanistic extrapolation across disease categories, but an indication-class expansion within the same approved pharmacological target.
-
-This is directly supported by clinical data: the Phase III, double-blind, randomized, placebo-controlled **MAESTRO study** (PMID 30586694) evaluated macitentan specifically in Eisenmenger syndrome, a CHD-PAH subtype, and multiple real-world cohorts (OPUS/OrPHeUS, Asian post-marketing surveillance, pediatric multicenter series) report consistent safety and effectiveness in CHD-PAH populations already receiving macitentan off-label or under expanded indications elsewhere.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Pulmonel arteriel hypertension (WHO Gruppe 1) — efter international mærkningskontekst i evidenspakken; ingen dansk markedsaurisering på fil |
+| Forudsagt ny indikation | Pulmonel Arteriel Hypertension Associeret med Medfødt Hjertesygdom (CHD-PAH) |
+| TxGNN-forudsigelsesscore | 98.75% |
+| Evidensniveau | L2 (1 afsluttet Phase III randomiseret kontrolleret forsøg — MAESTRO, i Eisenmenger-syndrom) |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsaurisering | 0 |
+| Anbefalet beslutning | Fortsæt med forholdsregler |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+En formel DrugBank virkningsmekanisme-post er endnu ikke hentet for denne kandidat (markeret som datagap DG002). Baseret på de kliniske beviser samlet i denne pakke, er macitentan etableret som en **dobbelt endothelin receptorantagonist (ERA)**, som blokerer ET-1-medieret pulmonel vasokonstriktion og vaskulær remodellering — kernepatofysiologien i WHO Gruppe 1 pulmonel arteriel hypertension.
+
+CHD-PAH (herunder Eisenmenger-syndrom) er selv klassificeret under WHO Gruppe 1 PAH, med samme vaskulær remodellerings-patologi som idiopatisk/arvelig PAH — macitentans oprindelige indikation. Dette er derfor ikke en mekanistisk ekstrapolation på tværs af sygdomskategorier, men en indikationsklasse-udvidelse inden for det samme godkendte farmakologiske mål.
+
+Dette understøttes direkte af kliniske data: det Phase III, dobbeltblindt, randomiseret, placebo-kontrolleret **MAESTRO-studie** (PMID 30586694) evaluerede macitentan specifikt i Eisenmenger-syndrom, en CHD-PAH-undertype, og flere real-world-kohort (OPUS/OrPHeUS, asiatisk post-markedsføring-overvågning, pædriatrisk multicenter-serie) rapporterer konsistent sikkerhed og effektivitet i CHD-PAH-populationer, der allerede modtager macitentan off-label eller under udvidede indikationer andre steder.
+
+---
+
+## Klinisk forsøgsevidens
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT05731492](https://clinicaltrials.gov/study/NCT05731492) | Phase 1 | Withdrawn | 0 | Planned PK/safety study of macitentan and its active metabolite (aprocitentan) in children aged 1 month to <2 years with PAH; withdrawn with no participants enrolled |
-| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Phase 3 | Recruiting | 280 | Open-label long-term follow-up platform study allowing PAH patients (multiple etiologies, including CHD) to continue study intervention after parent-trial closure; assesses long-term safety |
+| [NCT05731492](https://clinicaltrials.gov/study/NCT05731492) | Fase 1 | Trukket tilbage | 0 | Planlagt PK/sikkerhedsstudie af macitentan og dets aktive metabolit (aprocitentan) hos børn fra 1 måned til <2 år med PAH; trukket tilbage uden deltagende deltagere |
+| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Fase 3 | Rekrutterer | 280 | Åbent langtidsopfølgings-platformstudie, der tillader PAH-patienter (flere etiologier, herunder CHD) at fortsætte studieintervention efter modersforsøgets afslutning; vurderer langsigtet sikkerhed |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [30586694](https://pubmed.ncbi.nlm.nih.gov/30586694/) | 2019 | RCT (Phase III, MAESTRO) | Circulation | Multicenter, double-blind, randomized, placebo-controlled 16-week trial of macitentan in Eisenmenger syndrome (CHD-PAH subtype) |
-| [39585521](https://pubmed.ncbi.nlm.nih.gov/39585521/) | 2024 | Real-World/Retrospective | Cardiology and Therapy | OPUS/OrPHeUS real-world data on patients with CHD-PAH newly initiating macitentan |
-| [40616677](https://pubmed.ncbi.nlm.nih.gov/40616677/) | 2026 | Cohort (multicenter) | Pediatric Cardiology | Multicenter experience of oral macitentan in pediatric PAH (Spanish Registry), safety and efficacy outcomes |
-| [36329372](https://pubmed.ncbi.nlm.nih.gov/36329372/) | 2023 | Real-World/Retrospective | Drugs - Real World Outcomes | Prospective multicenter post-marketing surveillance of macitentan safety/outcomes in Asian PAH patients |
-| [36196862](https://pubmed.ncbi.nlm.nih.gov/36196862/) | 2022 | Cohort | Anatolian Journal of Cardiology | Single-center comparison of macitentan efficacy/safety across idiopathic and CHD-associated PAH |
-| [35514768](https://pubmed.ncbi.nlm.nih.gov/35514768/) | 2022 | Prospective Cohort | Pulmonary Circulation | POTENT study: prospective assessment of PAH patients switched from bosentan to macitentan |
-| [28867027](https://pubmed.ncbi.nlm.nih.gov/28867027/) | 2017 | Cohort | Heart, Lung & Circulation | Macitentan use in PAH associated with congenital heart defects |
-| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Review | Journal of Personalized Medicine | Current management and future directions for PAH-CHD |
-| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematic Review/Meta-analysis | Medicine | Position of PAH-specific drug therapy in Eisenmenger syndrome |
-| [30545978](https://pubmed.ncbi.nlm.nih.gov/30545978/) | 2019 | Review | European Respiratory Journal | Updated definition, classification, diagnostics and management of paediatric PAH |
+| [30586694](https://pubmed.ncbi.nlm.nih.gov/30586694/) | 2019 | RCT (Fase III, MAESTRO) | Circulation | Multicenter, dobbeltblindt, randomiseret, placebo-kontrolleret 16-ugers forsøg med macitentan i Eisenmenger-syndrom (CHD-PAH-undertype) |
+| [39585521](https://pubmed.ncbi.nlm.nih.gov/39585521/) | 2024 | Real-world/retrospektiv | Cardiology and Therapy | OPUS/OrPHeUS real-world-data om patienter med CHD-PAH, der nyligt starter macitentan |
+| [40616677](https://pubmed.ncbi.nlm.nih.gov/40616677/) | 2026 | Kohort (multicenter) | Pediatric Cardiology | Multicenter-erfaring med oral macitentan i pædriatrisk PAH (spansk register), sikkerhed og effektivitetsresultater |
+| [36329372](https://pubmed.ncbi.nlm.nih.gov/36329372/) | 2023 | Real-world/retrospektiv | Drugs - Real World Outcomes | Prospektivt multicenter post-markedsføring-overvågning af macitentan sikkerhed/resultater hos asiatiske PAH-patienter |
+| [36196862](https://pubmed.ncbi.nlm.nih.gov/36196862/) | 2022 | Kohort | Anatolian Journal of Cardiology | Enkelt-center sammenligning af macitentan effektivitet/sikkerhed på tværs af idiopatisk og CHD-associeret PAH |
+| [35514768](https://pubmed.ncbi.nlm.nih.gov/35514768/) | 2022 | Prospektiv kohort | Pulmonary Circulation | POTENT-studie: prospektiv vurdering af PAH-patienter skiftet fra bosentan til macitentan |
+| [28867027](https://pubmed.ncbi.nlm.nih.gov/28867027/) | 2017 | Kohort | Heart, Lung & Circulation | Macitentan-brug i PAH associeret med medfødt hjertesygdom |
+| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Gennemgang | Journal of Personalized Medicine | Nuværende behandling og fremtidigt perspektiv for PAH-CHD |
+| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematisk gennemgang/meta-analyse | Medicine | Position af PAH-specifik medicin-terapi i Eisenmenger-syndrom |
+| [30545978](https://pubmed.ncbi.nlm.nih.gov/30545978/) | 2019 | Gennemgang | European Respiratory Journal | Opdateret definition, klassifikation, diagnostik og behandling af pædriatrisk PAH |
 
 ---
 
-## Denmark Market Information
+## Danmarks markedsinformation
 
-Currently no marketing authorisation is on file for Denmark. Macitentan's market status in this evidence pack is recorded as **Not marketed**, with 0 registered licences (national Laegemiddelstyrelsen or centralised EMA).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-drug interaction data are not yet available in this evidence pack (data gap DG001, flagged **Blocking** — required before this candidate can proceed past the initial safety screening stage).
+I øjeblikket er der ingen markedsaurisering på fil for Danmark. Macitentans markedsstatus i denne evidenspakke er registreret som **Ikke markedsført**, med 0 registrerede licenser (national Lægemiddelstyrelsen eller centraliseret EMA).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikatorer og medicin-medicin-interaktionsdata er endnu ikke tilgængelige i denne evidenspakke (datagap DG001, markeret som **Blokerende** — påkrævet før denne kandidat kan fortsætte forbi den indledende sikkerhedsscreeningsphase).
 
-**Rationale:**
-- Mechanistic fit is direct (same WHO Group 1 PAH pathology and ERA target as the original indication), and is corroborated by a completed Phase III RCT (MAESTRO, Eisenmenger syndrome) plus multiple real-world cohorts (Evidence Level L2). However, a blocking safety data gap (DG001 — TFDA/local label warnings and contraindications) prevents a full "Go" decision.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings, contraindications, and drug-drug interaction data (resolves DG001, blocking)
-- Confirmed DrugBank mechanism-of-action record (resolves DG002)
-- Formal review of whether Denmark market entry (currently "Not marketed") is planned or required before this indication can be pursued locally
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med forholdsregler**
+
+**Begrundelse:**
+- Mekanistisk tilpasning er direkte (samme WHO Gruppe 1 PAH-patologi og ERA-mål som den oprindelige indikation), og understøttes af et afsluttet Phase III randomiseret kontrolleret forsøg (MAESTRO, Eisenmenger-syndrom) plus flere real-world-kohort (evidensniveau L2). Dog forhindrer en blokerende sikkerhedsdatagap (DG001 — TFDA/lokal label-advarsler og kontraindikatorer) en fuld "Go"-beslutning.
+
+**For at fortsætte, er følgende nødvendigt:**
+- dansk/EU SmPC-advarsler, kontraindikatorer og medicin-medicin-interaktionsdata (løser DG001, blokerende)
+- bekræftet DrugBank virkningsmekanisme-post (løser DG002)
+- formel gennemgang af, hvorvidt markedsintroduktion i Danmark (i øjeblikket "Ikke markedsført") er planlagt eller påkrævet, inden denne indikation kan forfølges lokalt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

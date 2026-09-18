@@ -29,78 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eculizumab: From Complement-Mediated Diseases to Cyclic Hematopoiesis
+# Eculizumab: Fra komplementmedierte sygdomme til cyklisk hæmatopoiese
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Eculizumab (Soliris) is a humanised monoclonal antibody that blocks terminal complement activation, approved internationally for paroxysmal nocturnal haemoglobinuria (PNH), atypical haemolytic uraemic syndrome (aHUS), generalised myasthenia gravis (gMG), and neuromyelitis optica spectrum disorder (NMOSD).
-The TxGNN model predicts it may be effective for **Cyclic Hematopoiesis** (cyclic neutropenia),
-with **no clinical trials** and **no publications** currently supporting this specific indication — this prediction is based on model inference alone.
+Eculizumab (Soliris) er et humaniseret monoklonalt antistof, der blokerer terminal komplementaktivering, og er internationalt godkendt til paroxysmalt nokturnal hæmoglobinuri (PNH), atypisk hæmolytisk uræmisk syndrom (aHUS), generaliseret myasthenia gravis (gMG) og neuromyelitis optica-spektrumsygdom (NMOSD).
+TxGNN-modellen forudsiger, at det kan være effektivt til **cyklisk hæmatopoiese** (cyklisk neutropeni),
+med **ingen kliniske forsøg** og **ingen publikationer**, der i øjeblikket understøtter denne specifikke indikation — denne forudsigelse er baseret alene på modelinferens.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not registered in Denmark; internationally approved for PNH, aHUS, gMG, and NMOSD |
-| Predicted New Indication | Cyclic Hematopoiesis (cyclic neutropenia) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt godkendt til PNH, aHUS, gMG og NMOSD |
+| Forudsagt ny indikation | Cyklisk hæmatopoiese (cyklisk neutropeni) |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on published pharmacology, eculizumab is a humanised IgG2/4κ monoclonal antibody that binds with high affinity to complement protein C5, blocking its cleavage into C5a (a pro-inflammatory anaphylatoxin) and C5b (the nucleating subunit of the membrane attack complex, MAC). This prevents terminal complement pathway activation, downstream cell lysis, and complement-driven inflammation. Its established efficacy in PNH and aHUS is directly attributable to this mechanism, as both conditions are characterised by uncontrolled alternative complement activation causing haemolysis and thrombotic microangiopathy.
+Detaljerede virkningsmekanismedata er ikke tilgængelige i det aktuelle bevissamling. Baseret på publiceret farmakologi er eculizumab et humaniseret IgG2/4κ monoklonalt antistof, der binder med høj affinitet til komplementprotein C5 og blokerer dets spaltning til C5a (et pro-inflammatorisk anafylatoksin) og C5b (nukleringseenheden i membranangrebskomplekset, MAC). Dette forhindrer terminal komplementvejsaktivering, nedstrøms cellelyse og komplementdrevet inflammation. Dets etablerede virkning ved PNH og aHUS kan direkte tilskrives denne mekanisme, da begge tilstande karakteriseres ved ukontrolleret alternativ komplementaktivering, der forårsager hæmolyse og trombotisk mikroangiopati.
 
-Cyclic hematopoiesis (cyclic neutropenia) is a genetically distinct disorder caused primarily by autosomal dominant mutations in the *ELANE* gene encoding neutrophil elastase. These mutations trigger endoplasmic reticulum (ER) stress and accelerated apoptosis of neutrophil precursor cells, producing characteristic 21-day oscillations in circulating neutrophil counts. The disease mechanism is fundamentally intracellular — ER-mediated unfolded protein response and mitochondrial apoptotic signalling — rather than extracellular complement-driven destruction.
+Cyklisk hæmatopoiese (cyklisk neutropeni) er en genetisk distinkt lidelse, der primært er forårsaget af autosomalt dominante mutationer i ELANE-genet, der koder for neutrofil-elastase. Disse mutationer udløser endoplasmatisk retikulumstress og accelereret apoptose af neutrofil-forløberceller, hvilket producerer karakteristiske 21-dages oscillationer i cirkulerende neutrofil-antal. Sygdomsmekanismen er fundamentalt intracellulær — endoplasmatisk retikulummediert stressrespons fra ufoldet protein og mitokondrial apoptotisk signalering — snarere end ekstracellulær komplementdrevet ødelæggelse.
 
-The mechanistic overlap between eculizumab's C5-blocking activity and the ELANE-mediated pathology of cyclic hematopoiesis is therefore indirect at best. While complement activation can theoretically contribute to neutrophil clearance in some haematological contexts, this is not a primary driver of cyclic neutropenia. The TxGNN model's high prediction score most likely reflects indirect linkages within the knowledge graph between complement system nodes and haematopoietic network nodes, rather than a direct pharmacological relationship supported by experimental evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for eculizumab in cyclic hematopoiesis.
+Den mekanistiske sammenhæng mellem eculizumabs C5-blokeringsaktivitet og ELANE-medieret patologi ved cyklisk hæmatopoiese er derfor i bedste fald indirekte. Selvom komplementaktivering teoretisk kan bidrage til neutrofil-clearance i nogle hæmatologiske sammenhænge, er dette ikke en primær drivkraft for cyklisk neutropeni. TxGNN-modellens høje forudsigelsesscore afspejler sandsynligvis indirekte forbindelser inden for vidensgrafen mellem komplementsystem-knuder og hæmatopoietiske netværksknuder, snarere end et direkte farmakologisk forhold understøttet af eksperimentelle beviser.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbeviser
 
-Currently no related literature available for eculizumab in cyclic hematopoiesis.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Note:** Eculizumab carries a well-established risk of life-threatening *Neisseria meningitidis* infections. All patients treated with eculizumab internationally must be vaccinated against meningococcal disease prior to treatment initiation and may require prophylactic antibiotics. This safety consideration is critical for any future use evaluation, regardless of indication.
+Der er i øjeblikket ingen registrerede kliniske forsøg relateret til eculizumab ved cyklisk hæmatopoiese.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
-
-**Rationale:**
-There is no clinical trial evidence or disease-specific literature supporting the use of eculizumab in cyclic hematopoiesis, and the mechanistic basis for the TxGNN prediction is weak — cyclic neutropenia is driven by intracellular ELANE-mediated ER stress, a pathway that lies outside eculizumab's C5-complement blocking mechanism of action. Additionally, eculizumab is not registered in Denmark, making near-term clinical application impossible without a formal regulatory pathway.
-
-**To proceed, the following is needed:**
-
-- **Preclinical mechanistic evidence:** At least one in vitro or animal-model study demonstrating a complement-dependent component in ELANE-mediated neutrophil precursor apoptosis
-- **Regulatory data:** Retrieval of the approved SmPC (Soliris EU/EMA product information, EU/1/07/393) to complete safety profiling including warnings, contraindications, and meningococcal prophylaxis requirements
-- **Formal MOA data:** DrugBank or EMA EPAR data confirming the molecular pharmacology to refine the mechanistic plausibility analysis
-- **Indication context review:** Clarification of whether the TxGNN model conflates cyclic hematopoiesis with other complement-related neutrophil disorders (e.g., aHUS-associated neutropenia) within its knowledge graph
-- **Regulatory pathway assessment:** Evaluation of the EMA centralised procedure applicability for any future compassionate use or clinical trial application in Denmark
+Der er i øjeblikket ingen litteratur tilgængelig for eculizumab ved cyklisk hæmatopoiese.
 
 ---
 
-> ⚠️ **Disclaimer:** This report is intended for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require rigorous clinical validation before any application in patient care.
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktinformationsbeskrivelse (SmPC) for sikkerhedsinformation.
+
+> **Bemærk:** Eculizumab har en velkendt risiko for livstruende *Neisseria meningitidis*-infektioner. Alle patienter behandlet med eculizumab internationalt skal være vaccineret mod meningokokkersygdom forud for behandlingsstart og kan have behov for profylaktisk antibiotika. Denne sikkerhedshensyn er kritisk for enhver fremtidig brugesvurdering, uanset indikation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Der er ingen klinisk forsøgsbeviser eller sygdomsspecifik litteratur, der understøtter brugen af eculizumab ved cyklisk hæmatopoiese, og det mekanistiske grundlag for TxGNN-forudsigelsen er svagt — cyklisk neutropeni er drevet af intracellulær ELANE-medieret endoplasmatisk retikulumstress, en vej, der ligger uden for eculizumabs C5-komplementblokeringsmekanisme. Derudover er eculizumab ikke registreret i Danmark, hvilket gør nær-termins klinisk anvendelse umulig uden en formelt regulatorisk vej.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Præklinisk mekanistisk beviser:** Mindst en in vitro- eller dyremodel-undersøgelse, der demonstrerer en komplementafhængig komponent i ELANE-medieret apoptose af neutrofil-forløberceller
+- **Regulatoriske data:** Hentelse af den godkendte SmPC (Soliris EU/EMA-produktinformation, EU/1/07/393) for at fuldende sikkerhedsprofil, herunder advarsler, kontraindikationer og meningokokokker-profylaksekrav
+- **Formelle MOA-data:** DrugBank eller EMA EPAR-data, der bekræfter den molekylære farmakologi for at forfine den mekanistiske plausibilitetsanalyse
+- **Indikationskontekstgennemgang:** Præcisering af, om TxGNN-modellen blander cyklisk hæmatopoiese med andre komplementrelaterede neutrofil-lidelser (f.eks. aHUS-associeret neutropeni) inden for sin videnskabsgraf
+- **Regulatorisk vejvurdering:** Evaluering af EMA-centraliseret procedures anvendelighed for enhver fremtidig compassionate use eller klinisk forsøgsansøgning i Danmark
+
+---
+
+> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er beregnet til formål vedrørende forskningsreferencer og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddelomfunktionalisering kræver streng klinisk validering før enhver anvendelse i patientbehandling.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

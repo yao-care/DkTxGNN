@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Necitumumab: From Squamous Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Necitumumab: Fra Pladeskvamøs ikke-småcellet lungekræft til Gingivalt Fibromatose
 
-## One-Sentence Summary
+## Sammendrag i en sætning
 
-Necitumumab is an anti-EGFR monoclonal antibody; per the evidence pack's own annotations it is known to be approved internationally for squamous non-small cell lung cancer in combination with chemotherapy (this is not yet verified against a Danish regulatory source). The TxGNN model's top-ranked prediction is **Gingival Fibromatosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, and the model's own rationale flags this as a likely noise signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in Danish registrations (drug not marketed); internationally indicated for squamous non-small cell lung cancer in combination with chemotherapy per evidence-pack annotation — not independently verified |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Necitumumab er et anti-EGFR-monoklonalt antistof; ifølge bevispakingens egne annotationer er det kendt at være godkendt internationalt til pladeskvamøs ikke-småcellet lungekræft i kombination med kemoterapi (dette er endnu ikke verificeret mod en dansk regulatorisk kilde). TxGNN-modellens højest rangerede forudsigelse er **Gingivalt Fibromatose**, men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning, og modellens egen rationalet markerer dette som et sandsynligt støjsignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt Overblik
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the annotations included in this evidence pack, Necitumumab is an anti-EGFR monoclonal antibody whose known approved use is squamous non-small cell lung cancer in combination with chemotherapy.
-
-Gingival Fibromatosis is a benign connective-tissue overgrowth condition with no known tissue or mechanistic relationship to lung oncology or EGFR signalling. The evidence pack's own model rationale explicitly describes this as the weakest mechanistic link among the ten ranked candidates, most likely a noise score arising from a distant node in the knowledge graph rather than a genuine biological signal.
-
-For context, two lower-ranked candidates in this evidence pack — lung hilum carcinoma (rank 5, score 99.91%) and pulmonary sulcus neoplasm (rank 9, score 99.90%) — carry a more plausible tissue-level rationale, since both are malignant lung tumours that could theoretically express EGFR. Neither is currently backed by any trial or literature evidence either, but they represent a mechanistically more coherent starting point than the top-ranked Gingival Fibromatosis prediction if this candidate is pursued further.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Original Indikation | Ikke registreret i danske registreringer (lægemiddel ikke markedsført); internationalt indikeret til pladeskvamøs ikke-småcellet lungekræft i kombination med kemoterapi ifølge bevispakingens annotation — ikke uafhængigt verificeret |
+| Forventet Ny Indikation | Gingivalt Fibromatose |
+| TxGNN Forudsigelsesscore | 99.92% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor Er Denne Forudsigelse Rimelig?
 
-Currently no related literature available.
+I øjeblikket er der ingen detaljerede virkningsmekanisme-data tilgængelige (markeret som et datahul af høj alvorlighed). Baseret på de annotationer, der er inkluderet i denne bevispakning, er Necitumumab et anti-EGFR-monoklonalt antistof, hvis kendt godkendte anvendelse er pladeskvamøs ikke-småcellet lungekræft i kombination med kemoterapi.
 
----
+Gingivalt Fibromatose er en godartet bindevævsvækst-tilstand uden kendt væv- eller mekanistisk forbindelse til lungeonkologi eller EGFR-signalering. Bevispakingens eget modelrationalet beskriver eksplicit dette som den svageste mekanistiske forbindelse blandt de ti rangerede kandidater, højst sandsynligt et støjsignal fra en fjern knude i vidensgrafen snarere end et ægte biologisk signal.
 
-## Denmark Market Information
-
-Necitumumab is not currently marketed in Denmark, and no marketing authorisations are on file.
+For kontekst har to lavere-rangerede kandidater i denne bevispakning — lungeporten carcinoma (rang 5, score 99.91%) og lungeslids neoplasme (rang 9, score 99.90%) — en mere plausibel væv-niveau rationalet, da begge er ondartede lungetumorer, der teoretisk kunne udtrykke EGFR. Ingen af dem er i øjeblikket understøttet af nogen forsøg eller litteraturbevis heller, men de repræsenterer et mekanistisk mere sammenhængende udgangspunkt end den højest-rangerede Gingivalt Fibromatose-forudsigelse, hvis denne kandidat forfølges videre.
 
 ---
 
-## Cytotoxicity
+## Evidens fra Kliniske Forsøg
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody, typically administered with cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbaseret Evidens
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsstatus i Danmark
 
-**Decision: Hold**
+Necitumumab er i øjeblikket ikke markedsført i Danmark, og der er ingen markedsføringstilladelser registreret.
 
-**Rationale:**
-The top-ranked prediction has no supporting clinical trial or literature evidence, is rated L5 (model prediction only), and is flagged in the model's own rationale as a likely mechanistic false positive. The drug is also not currently marketed in Denmark, and a blocking data gap (missing SmPC warnings/contraindications) prevents even an initial safety screen.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC warnings and contraindications data (blocking gap, required before any S1 safety screening)
-- Confirmed mechanism of action (MOA) data from DrugBank or the manufacturer
-- Re-evaluation of whether a mechanistically more plausible candidate (e.g., lung hilum carcinoma or pulmonary sulcus neoplasm) should be prioritised instead of the current top-ranked prediction
-- Independent verification of the drug's original approved indication against a Danish or EMA regulatory source
+## Cytotoxicitet
+
+| Emne | Indhold |
+|------|---------|
+| Cytotoxicitetsklassificering | Målrettet terapi (anti-EGFR-monoklonalt antistof, typisk administreret med cytotoksisk kemoterapi) |
+| Risiko for Knoglemarvsundertrykkelse | Se venligst den godkendte Produktinformation (SmPC) advarsler og forsigtighedsregler |
+| Emetogenicitetsklassificering | Se venligst den godkendte Produktinformation (SmPC) advarsler og forsigtighedsregler |
+| Overvågningspunkter | Se venligst den godkendte Produktinformation (SmPC) advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se venligst den godkendte Produktinformation (SmPC) advarsler og forsigtighedsregler |
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og Næste Skridt
+
+**Beslutning: Afvente**
+
+**Rationalet:**
+Den højest-rangerede forudsigelse har ingen understøttende klinisk forsøg eller litteraturbevis, er klassificeret L5 (alene modelforudsigelse), og er markeret i modellens eget rationalet som et sandsynligt mekanistisk falskt positivt. Lægemidlet er desuden ikke i øjeblikket markedsført i Danmark, og et blokerende datahul (manglende Produktinformation (SmPC) advarsler/kontraindikationer) forhindrer selv en indledende sikkerhedsscreening.
+
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/Produktinformation (SmPC) advarsler og kontraindikationer-data (blokerende hul, krævet før nogen S1 sikkerhedsscreening)
+- Bekræftet virkningsmekanisme (MOA)-data fra DrugBank eller producenten
+- Genvurdering af, hvorvidt en mekanistisk mere plausibel kandidat (f.eks. lungeporten carcinoma eller lungeslids neoplasme) skal prioriteres i stedet for den nuværende højest-rangerede forudsigelse
+- Uafhængig verifikation af lægemidlets oprindelige godkendte indikation mod en dansk eller EMA-regulatorisk kilde
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,93 +29,94 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lenvatinib: From Original Indication (Data Not Available) to Liposarcoma
+# Lenvatinib: Fra oprindelig indikation (data ikke tilgængelig) til liposarkom
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Lenvatinib's original approved indication is not documented in this evidence pack (the DrugBank/mechanism-of-action record is incomplete), though it is known to be a multi-target tyrosine kinase inhibitor (TKI) used in oncology. The TxGNN model predicts it may be effective for **Liposarcoma**, with **1 clinical trial** and **4 publications** currently supporting this direction. The drug is not currently marketed in Denmark.
+Lenvatinib's oprindeligt godkendte indikation er ikke dokumenteret i denne bevissamling (DrugBank/virkningsmekanisme-rekorden er ufuldstændig), selvom det vides, at det er en multi-målrettet tyrosinkinase-inhibitor (TKI) brugt inden for onkologi. TxGNN-modellen forudsiger, at det kan være effektivt mod **liposarkom**, med **1 klinisk forsøg** og **4 publikationer**, der i øjeblikket understøtter denne retning. Lægemidlet er ikke i øjeblikket markedsført i Danmark.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not available in this evidence pack (DrugBank MOA and indication fields are data gaps) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke tilgængelig i denne bevissamling (DrugBank MOA og indikationsfelter er manglende data) |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN forudsigelsesscore | 99.51% |
+| Bevisniveau | L2 |
+| Status på Danmarks marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in DrugBank for this record. Based on the repurposing rationale supplied with the prediction, Lenvatinib is a multi-targeted tyrosine kinase inhibitor (TKI) acting on VEGFR1-3, FGFR1-4, PDGFRα, KIT and RET — a mechanism class typically applied to angiogenesis-dependent solid tumours.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i DrugBank for denne record. Baseret på den allokerings­begrundelse, der følger med forudsigelsen, er lenvatinib en multi-målrettet tyrosinkinase-inhibitor (TKI), der virker på VEGFR1-3, FGFR1-4, PDGFRα, KIT og RET — en mekanismeklasse, der typisk anvendes på angiogenese-afhængige solide tumorer.
 
-Liposarcoma is a soft-tissue sarcoma with high dependence on tumour angiogenesis for growth. When combined with eribulin (a microtubule/mitotic inhibitor), lenvatinib's anti-angiogenic activity may produce a synergistic anti-tumour effect — anti-vascular action alongside direct cytotoxic mitotic disruption.
+Liposarkom er et blødt-væv-sarkom med høj afhængighed af tumor-angiogenese for vækst. Når det kombineres med eribulin (en mikrotubuli/mitotisk inhibitor), kan lenvatinib's anti-angiogenese-aktivitet producere en synergistisk anti-tumor-effekt — anti-vaskulær virkning sammen med direkte cytotoksisk mitotisk forstyrrelse.
 
-This combination has already been tested directly in the LEADER study (NCT03526679), a completed Phase Ib/II trial in advanced adipocytic sarcoma and leiomyosarcoma (n=30), providing direct clinical evidence rather than mechanism-only extrapolation. Supporting biomarker research on CDK4 in dedifferentiated liposarcoma further strengthens the molecular rationale for combination treatment in this population.
+Denne kombination er allerede blevet testet direkte i LEADER-studiet (NCT03526679), et afsluttet fase Ib/II-forsøg i avanceret adipocyt-sarkom og leiomyosarkom (n=30), der giver direkte klinisk evidenskrav snarere end mekanisme-kun ekstrapolation. Understøttende biomarkør-forskning på CDK4 i dedifferentieret liposarkom styrker yderligere den molekylære begrundelse for kombinationsbehandling i denne population.
 
 ---
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | Completed | 30 | Lenvatinib + eribulin in inoperable/metastatic adipocytic sarcoma and leiomyosarcoma; tests combined anti-angiogenic (lenvatinib) and mitotic-targeting (eribulin) activity |
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Fase 1/2 | Afsluttet | 30 | Lenvatinib + eribulin ved inoperabelt/metastatisk adipocyt-sarkom og leiomyosarkom; undersøger kombineret anti-angiogenese (lenvatinib) og mitotisk-målrettet (eribulin) aktivitet |
 
 ---
 
-## Literature Evidence
+## Litteraturbaseret evidens
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase Ib/II Trial | Clinical Cancer Research | LEADER study (NCT03526679): safety and efficacy of lenvatinib plus eribulin in advanced liposarcoma and leiomyosarcoma |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclinical/Biomarker | Experimental Hematology & Oncology | CDK4 as a prognostic biomarker in soft tissue sarcoma; supports rationale for sequential/combination treatment in dedifferentiated liposarcoma |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical | Anticancer Research | Eribulin combined with mechanistically distinct anticancer agents shows broad-spectrum preclinical antitumour activity |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Case Report | Case Reports in Oncology | Individualized targeted therapy + surgery + chemotherapy achieved tumour size reduction in dedifferentiated liposarcoma with lung metastasis |
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Fase Ib/II forsøg | Clinical Cancer Research | LEADER-studie (NCT03526679): sikkerhed og effektivitet af lenvatinib plus eribulin ved avanceret liposarkom og leiomyosarkom |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Præ-klinisk/biomarkør | Experimental Hematology & Oncology | CDK4 som prognostisk biomarkør i blødt-væv-sarkom; understøtter begrundelse for sekventiel/kombinationsbehandling i dedifferentieret liposarkom |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Præ-klinisk | Anticancer Research | Eribulin kombineret med mekanistisk forskellige anti-cancer-midler viser bredt spektrum præ-klinisk anti-tumor-aktivitet |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Kasuistik | Case Reports in Oncology | Individualiseret målrettet terapi + kirurgi + kemoterapi opnåede tumor-størrelse-reduktion i dedifferentieret liposarkom med lunge-metastase |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation om Danmark
 
-Lenvatinib is currently **not marketed in Denmark** — there are no national (Laegemiddelstyrelsen) or centralised (EMA) marketing authorisations on file for this record (0 licenses).
+Lenvatinib er i øjeblikket **ikke markedsført i Danmark** — der er ingen nationale (Laegemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser på fil for denne record (0 licenser).
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor: VEGFR1-3, FGFR1-4, PDGFRα, KIT, RET) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+| Cytotoksicitet-klassifikation | Målrettet terapi (multi-målrettet tyrosinkinase-inhibitor: VEGFR1-3, FGFR1-4, PDGFRα, KIT, RET) |
+| Risiko for myelosuppression | Se venligst produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Emetogenitet-klassifikation | Se venligst produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Overvågningselementer | Se venligst produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Sikkerhed ved håndtering | Se venligst produktresuméets (SmPC) advarsler og forsigtighedsregler |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-The strongest evidence — a single completed, small (n=30), single-arm Phase Ib/II trial — supports a credible mechanistic rationale but falls short of registrational-quality evidence for liposarcoma specifically. The drug also currently holds zero marketing authorisations in Denmark, and core MOA/safety data are missing from this evidence pack, making a full risk-benefit assessment premature.
+**Begrundelse:**
+Den stærkeste evidenskrav — et enkelt afsluttet, lille (n=30), énarm fase Ib/II-forsøg — understøtter en troværdig mekanistisk begrundelse, men falder kort af registreringsdata-kvalitet for liposarkom specifikt. Lægemidlet har også i øjeblikket nul markedsføringstilladelser i Danmark, og central MOA-/sikkerhedsdata mangler fra denne bevissamling, hvilket gør en fuldstændig risiko-benefit-vurdering for tidlig.
 
-**To proceed, the following is needed:**
-- Lenvatinib SmPC (from the relevant EU/EMA authorisation holder) for mechanism of action, warnings, contraindications, and drug interactions
-- Confirmation of Danish/EU marketing authorisation status and access pathway
-- Larger controlled trial data (Phase 2/3, ideally randomized) in liposarcoma specifically, beyond the single-arm LEADER study
-- DDI and myelosuppression/toxicity profile confirmation from DrugBank or SmPC sources
+**For at fortsætte kræves følgende:**
+- Lenvatinib SmPC (fra den relevante EU/EMA-autorisationshaver) for virkningsmekanisme, advarsler, kontraindikationer og lægemiddel-interaktioner
+- Bekræftelse af dansk/EU-markedsføringstilladelse-status og adgangsvej
+- Større kontrolleret forsøgsdata (fase 2/3, ideelt randomiseret) i liposarkom specifikt, ud over det énarm LEADER-studie
+- DDI og myelosuppression/toksicitet-profil-bekræftelse fra DrugBank eller SmPC-kilder
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

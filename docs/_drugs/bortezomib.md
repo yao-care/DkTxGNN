@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Bortezomib: Drug Repurposing Evaluation — Insufficient Evidence Pack for Candidate Analysis
+# Bortezomib: Evaluering af stofomledning til ny brug — Utilstrækkelig evidenspakke til kandidatanalyse
 
-## One-Sentence Summary
+## En-sætningssammenfatning
 
-Bortezomib is a proteasome inhibitor approved internationally for multiple myeloma and mantle cell lymphoma. The current Evidence Pack contains **no TxGNN-predicted new indications** and carries two critical data gaps — a Blocking-severity gap in safety data (DG001) and a High-severity gap in mechanism of action (DG002) — making a complete repurposing evaluation impossible at this stage. This report documents the current state and the remediation steps required before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Multiple myeloma and mantle cell lymphoma (internationally approved; not registered in Danish data) |
-| Predicted New Indication | Not available — no predictions present in current Evidence Pack |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not evaluable |
-| Denmark Market Status | Not found in local database (0 marketing authorisations) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
-> ⚠️ **Data Note:** Bortezomib is marketed as **Velcade** under an EMA centralised marketing authorisation valid across the EU/EEA, including Denmark. The zero-licence result likely reflects a gap in the local Laegemiddelstyrelsen database query rather than actual non-availability. This should be verified against the EMA product database before drawing conclusions about Danish market status.
+Bortezomib er en proteasom-inhibitor godkendt internationalt til multipelt myelom og mantelcelle-lymfom. Den aktuelle evidenspakke indeholder **ingen TxGNN-forudsagte nye indikationer** og har to kritiske datagab — et datalakke med blokerende alvorlighed inden for sikkerhed (DG001) og et datalakke med høj alvorlighed inden for virkningsmekanisme (DG002) — hvilket gør en fuldstændig evaluering af stofomledning til ny brug umulig på dette tidspunkt. Denne rapport dokumenterer den aktuelle tilstand og de afhjælpningstrin, der er påkrævet, før evaluering kan fortsætte.
 
 ---
 
-## Mechanism of Action (Background Information)
+## Hurtig oversigt
 
-> The Evidence Pack flags mechanism of action as a data gap (DG002, severity: High). The following is based on published literature and DrugBank, not from the Evidence Pack itself.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Multipelt myelom og mantelcelle-lymfom (internationalt godkendt; ikke registreret i danske data) |
+| Forudsagt ny indikation | Ikke tilgængelig — ingen forudsigelser til stede i aktuel evidenspakke |
+| TxGNN forudsigelsesscore | Ikke tilgængelig |
+| Bevisgrundlag | Ikke vurderbar |
+| Markedsstatus i Danmark | Ikke fundet i lokaldatabase (0 markedsføringstilladelser) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvente** |
 
-Bortezomib is a **reversible inhibitor of the 26S proteasome chymotrypsin-like activity**. The 26S proteasome is responsible for degrading ubiquitinated proteins that regulate the cell cycle, apoptosis, and transcription factor signalling (notably NF-κB). By blocking this degradation pathway, bortezomib causes accumulation of pro-apoptotic factors and cell cycle arrest, selectively exploiting the high proteasome dependence of malignant plasma cells.
-
-This mechanistic profile is the basis for its proven efficacy in **multiple myeloma** — and has been the subject of research into other haematologic malignancies and even solid tumours where proteasome pathway activity is dysregulated.
-
-Because predicted indications are absent from this Evidence Pack, the applicability of this mechanism to any new indication cannot be formally assessed at this time.
-
----
-
-## Cytotoxicity
-
-Bortezomib meets the inclusion criteria for this section: it is a targeted antineoplastic agent used in haematologic malignancies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Proteasome inhibitor |
-| Myelosuppression Risk | **High** — thrombocytopenia is the dose-limiting toxicity; Grade 3/4 thrombocytopenia occurs in approximately 30% of patients. Neutropenia is also common. Platelet counts typically nadir around Day 11 of each cycle and recover by Day 21. |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count (FBC) with differential and platelet count prior to each dose cycle, liver function tests (LFTs), renal function (eGFR), serum electrolytes (potassium, sodium, calcium), peripheral neuropathy assessment at each visit |
-| Handling Protection | Must be handled following cytotoxic drug handling regulations. **Critical safety alert:** Bortezomib must **never** be administered intrathecally — intrathecal administration is fatal. Subcutaneous administration is preferred over intravenous to reduce peripheral neuropathy incidence. |
+> ⚠️ **Dataanmærkning:** Bortezomib markedsføres som **Velcade** under en EMA-centraliseret markedsføringstilladelse, der er gyldig på tværs af EU/EØS, herunder Danmark. Resultatet nul-licenser afspejler sandsynligvis et datalakke i den lokale Laegemiddelstyrelsen-databaseforespørgsel snarere end faktisk ikke-tilgængelighed. Dette bør verificeres mod EMA-produktdatabasen, før der drages konklusioner om dansk markedsstatus.
 
 ---
 
-## Safety Considerations
+## Virkningsmekanisme (baggrundsoplysninger)
 
-The Evidence Pack has a **Blocking-severity** data gap (DG001) in TFDA/SmPC safety warnings and contraindications. No DDI data was retrieved.
+> Den aktuelle evidenspakke markerer virkningsmekanisme som et datalakke (DG002, alvorlighed: høj). Det følgende er baseret på offentliggjort litteratur og DrugBank, ikke fra evidenspakken selv.
 
-Please refer to the approved **Summary of Product Characteristics (SmPC)** for full safety information.
+Bortezomib er en **reversibel inhibitor af 26S-proteasomets chymotrypsin-lignende aktivitet**. 26S-proteasomet er ansvarligt for at nedbryde ubiquitinylerede proteiner, der regulerer cellecyklus, apoptose og transkriptionsfaktorsignalering (især NF-κB). Ved at blokere denne nedbrydningsvej forårsager bortezomib akkumulering af pro-apoptotiske faktorer og standsning af cellecyklus, hvilket selektivt udnytter den høje proteasomafhængighed af ondartede plasmaceller.
 
-Based on published literature, the following safety areas warrant particular attention pending formal SmPC review:
+Denne mekanistiske profil er grundlaget for dets påvist effektivitet ved **multipelt myelom** — og har været genstand for forskning i andre hæmatologiske malignansier og endda solide tumorer, hvor proteasomvejes aktivitet er dysreguleret.
 
-- **Peripheral neuropathy:** A significant and potentially dose-limiting toxicity. Pre-existing neuropathy is a relative contraindication. Subcutaneous administration substantially reduces this risk.
-- **Thrombocytopenia:** Patients with platelet counts below threshold should not receive treatment; full blood count monitoring is mandatory before each cycle.
-- **Orthostatic hypotension:** Patients should be monitored for dizziness and syncope, particularly those on antihypertensive therapy.
-- **Cardiac events:** Cases of congestive heart failure and QT prolongation have been reported; baseline cardiac assessment is advisable.
-- **Intrathecal fatality risk:** This must be prominently communicated to all clinical staff involved in preparation and administration.
+Fordi forudsagte indikationer mangler fra denne evidenspakke, kan anvendeligheden af denne mekanisme for nogen ny indikation ikke formelt vurderes på dette tidspunkt.
 
 ---
 
-## Conclusion and Next Steps
+## Cytotoksicitet
 
-**Decision: Hold**
+Bortezomib opfylder inklusionskriterier for dette afsnit: det er et målrettet antineoplastisk stof, der bruges til hæmatologiske malignansier.
 
-**Rationale:**
-The Evidence Pack contains no TxGNN-predicted new indications, which is the primary input required to initiate a repurposing evaluation. In addition, two data gaps — one Blocking (safety data) and one High-severity (MOA) — prevent the mandatory safety pre-screening step (S1) from being completed. No recommendation for or against a repurposing candidate can be made until these gaps are resolved.
+| Element | Indhold |
+|---------|---------|
+| Klassificering af cytotoksicitet | Målrettet terapi — Proteasom-inhibitor |
+| Risiko for marvesuppression | **Høj** — trombocytopeni er den dosisbegrænsende toksicitet; Grad 3/4 trombocytopeni forekommer hos cirka 30 % af patienterne. Neutropeni er også almindelig. Trombocyttal nader typisk omkring dag 11 i hver cyklus og genopretttes inden dag 21. |
+| Klassificering af emetogenicitet | Lav |
+| Overvågningspunkter | Fuldstændig blodpletanalyse (FBC) med differentialantal og trombocyttal før hver dosis-cyklus, leverfunktionstests (LFTs), nyrefunktion (eGFR), serumelektrolytter (kalium, natrium, calcium), vurdering af perifer neuropati ved hvert besøg |
+| Håndteringsbeskyttelse | Skal håndteres i henhold til håndteringsbestemmelser for cytotoksiske lægemidler. **Kritisk sikkerhedsadvarsel:** Bortezomib må **aldrig** administreres intrathecalt — intrathecal administration er dødelig. Subkutan administration er at foretrække frem for intravenøs for at reducere hyppigheden af perifer neuropati. |
 
-**To proceed, the following is needed:**
+---
 
-1. **Re-run TxGNN prediction pipeline** for Bortezomib (DrugBank ID: DB00188) to generate predicted indication candidates with scores — this is the foundational missing input.
-2. **Resolve DG001 (Blocking):** Download and parse the TFDA/EMA SmPC PDF to extract warnings, contraindications, and special populations data.
-3. **Resolve DG002 (High):** Query DrugBank API for full MOA, pharmacodynamics, and drug categories for DB00188.
-4. **Verify Danish market status:** Cross-check the EMA centralised authorisation database for Velcade to confirm EMA-authorised availability in Denmark and retrieve the correct Marketing Authorisation numbers for the Denmark Market Information table.
-5. **Re-run DDI query:** The DDI query returned `not_found`; retry with alternative spellings or DrugBank ID to confirm whether there are genuine absence of interactions or a query failure.
+## Sikkerhedshensyn
+
+Den aktuelle evidenspakke har et datalakke med blokerende alvorlighed (DG001) i TFDA/SmPC sikkerhedsadvarsler og kontraindikationer. Ingen DDI-data blev hentet.
+
+Se venligst det godkendte **Resumé af karakteristika for lægemidlet (SmPC)** for fuldstændig sikkerhedsinformation.
+
+Baseret på offentliggjort litteratur fortjener følgende sikkerhedsområder særlig opmærksomhed i afventning af formel SmPC-gennemgang:
+
+- **Perifer neuropati:** En betydelig og potentielt dosisbegrænsende toksicitet. Forudeksisterende neuropati er en relativ kontraindikation. Subkutan administration reducerer denne risiko væsentligt.
+- **Trombocytopeni:** Patienter med trombocyttal under tærskelværdi bør ikke få behandling; fuldstændig blodpletanalyse-overvågning er obligatorisk før hver cyklus.
+- **Ortostatisk hypotension:** Patienter bør overvåges for svimmelhed og synkope, især dem på antihypertensiv terapi.
+- **Hjertehændelser:** Tilfælde af kongestiv hjerteinsufficiens og QT-forlængelse er rapporteret; udgangslinie kardial vurdering er tilrådelig.
+- **Risiko for intrathecal død:** Dette skal være fremtrædende formidlet til alt klinisk personale involveret i forberedelse og administration.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Rationel:**
+Den aktuelle evidenspakke indeholder ingen TxGNN-forudsagte nye indikationer, hvilket er det primære input, der kræves for at påbegynde en evaluering af stofomledning til ny brug. Desuden forhindrer to datalakker — et blokerende (sikkerhedsdata) og et med høj alvorlighed (virkningsmekanisme) — den obligatoriske sikkerhedsforudscreening (S1) fra at blive gennemført. Ingen anbefaling for eller imod en kandidat til stofomledning til ny brug kan gives, før disse datalakker er afhjulpet.
+
+**For at fortsætte er følgende nødvendigt:**
+
+1. **Genbekræft TxGNN-forudsigelsespipeline** for bortezomib (DrugBank ID: DB00188) for at generere forudsagte indikations-kandidater med scoringer — dette er det grundlæggende manglende input.
+2. **Afhjælp DG001 (blokerende):** Download og parse TFDA/EMA SmPC PDF for at udtrække advarsler, kontraindikationer og data om særlige populationer.
+3. **Afhjælp DG002 (høj):** Forespørg DrugBank API for fuldstændig virkningsmekanisme, farmakodynamik og lægemiddelkategorier for DB00188.
+4. **Verificer dansk markedsstatus:** Krydstjek EMA-centraliseret autoriseringsdatabase for Velcade for at bekræfte EMA-godkendt tilgængelighed i Danmark og hent de korrekte markedsføringstilladelsesnumre for tabellen Markedsoplysninger Danmark.
+5. **Genbekræft DDI-forespørgsel:** DDI-forespørgslen returnerede `not_found`; prøv igen med alternative stavemåder eller DrugBank ID for at bekræfte, om der er faktisk fravær af interaktioner eller en forespørgselsfejl.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,77 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vestronidase Alfa: From Mucopolysaccharidosis VII to Scheie Syndrome
+# Vestronidase Alfa: Fra Mukopolysakkaridose VII til Scheies Syndrom
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-> Vestronidase alfa is a recombinant human beta-glucuronidase enzyme replacement therapy, originally developed for **Mucopolysaccharidosis type VII (MPS VII, Sly syndrome)**.
-> The TxGNN model's top-ranked prediction suggests possible efficacy in **Scheie syndrome**,
-> but currently **no clinical trials and no published literature** support this specific indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Mucopolysaccharidosis type VII (MPS VII, Sly syndrome) — per literature evidence (approved in US/EU); not registered in Denmark in this evidence pack |
-| Predicted New Indication | Scheie syndrome |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Vestronidase alfa er en rekombinant human beta-glukuronidase enzymbehandling, oprindeligt udviklet til **Mukopolysakkaridose type VII (MPS VII, Sly syndrom)**.
+> TxGNN-modellens højest rangerede forudsigelse foreslår mulig effektivitet ved **Scheies syndrom**,
+> men i øjeblikket **ingen kliniske forsøg og ingen publiceret litteratur** understøtter denne specifikke indikation.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known information, vestronidase alfa is a recombinant human beta-glucuronidase (GUS) enzyme replacement therapy; its efficacy in Mucopolysaccharidosis VII — caused by GUS deficiency — is well established per the literature evidence in this pack.
-
-However, Scheie syndrome is the attenuated form of Mucopolysaccharidosis type I (MPS I), which is caused by deficiency of a **different** enzyme, alpha-L-iduronidase, not beta-glucuronidase. This is an important mechanistic mismatch: unlike MPS VII, vestronidase alfa does not target the enzyme deficient in MPS I. Consistent with this, no supporting clinical trials or literature were found for this specific drug-disease pair. The evaluator's rationale for other ontology-adjacent predictions in this batch (e.g., "lysosomal storage disease with skeletal involvement") explicitly flags that TxGNN may be surfacing broad mucopolysaccharidosis-family ontology overlap with the drug's existing MPS VII indication, rather than a genuinely novel signal — the same caution likely applies here.
-
-Notably, other candidates in this same evidence batch have materially stronger support: **Hurler syndrome** (also MPS I, but linked to an active prenatal enzyme-replacement trial, NCT04532047) and **Sanfilippo syndrome** (MPS III, supported by 4 literature citations, though these describe vestronidase alfa's MPS VII data rather than direct Sanfilippo studies). Given the top-ranked Scheie syndrome prediction has zero direct evidence, these alternative candidates may warrant separate, more thorough evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Mukopolysakkaridose type VII (MPS VII, Sly syndrom) — pr. litteraturbevis (godkendt i USA/EU); ikke registreret i Danmark i dette bevissamling |
+| Forudsagt ny indikation | Scheies syndrom |
+| TxGNN-forudsigelsesscore | 99.90% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (datakløft). Baseret på kendt information er vestronidase alfa en rekombinant human beta-glukuronidase (GUS) enzymbehandling; dens effektivitet ved Mukopolysakkaridose type VII — forårsaget af GUS-mangel — er velbegrundet pr. litteraturbevis i dette bevissamling.
 
----
+Imidlertid er Scheies syndrom den milde form af Mukopolysakkaridose type I (MPS I), som er forårsaget af mangel på et **andet** enzym, alpha-L-iduronidase, ikke beta-glukuronidase. Dette er en vigtig mekanistisk uoverensstemmelse: i modsætning til MPS VII målretter vestronidase alfa ikke enzymet, der mangler ved MPS I. I overensstemmelse hermed blev der ikke fundet understøttende kliniske forsøg eller litteratur for dette specifikke lægemiddel-sygdom-par. Evaluatorens begrundelse for andre lignende ontologi-baserede forudsigelser i dette batch (f.eks. "lysosomlagringssygdom med skeletinvolvering") markerer eksplicit, at TxGNN muligvis blot afdækker bred mukopolysakkaridose-familie ontologi-overlap med lægemidlets eksisterende MPS VII-indikation, snarere end et genuint nyt signal — den samme forsigtighed gælder sandsynligvis her.
 
-## Denmark Market Information
-
-Vestronidase alfa is **not marketed** in Denmark — no marketing authorisations (national or centralised/EMA) are recorded in this evidence pack.
+Bemærkelsesværdigt har andre kandidater i dette samme bevissamling væsentlig stærkere støtte: **Hurlers syndrom** (også MPS I, men knyttet til et aktivt prenatal enzymbehandlings-forsøg, NCT04532047) og **Sanfilippos syndrom** (MPS III, understøttet af 4 litteraturcitationer, selvom disse beskriver vestronidase alfa's MPS VII-data snarere end direkte Sanfilippo-studier). I betragtning af, at den højest rangerede Scheies syndrom-forudsigelse mangler direkte bevis, kan disse alternative kandidater være værd at behandles i en separat, mere grundig evaluering.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket intet relateret litteratur tilgængeligt.
 
-**Rationale:**
-- The top-ranked predicted indication (Scheie syndrome) has no supporting clinical trials or literature, and its underlying enzyme deficiency (alpha-L-iduronidase) does not match vestronidase alfa's target enzyme (beta-glucuronidase), raising concern that this is an ontology-overlap artifact rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (blocking data gap, required for S1 safety screening)
-- Mechanism of action (MOA) confirmation via DrugBank (high-priority data gap)
-- Targeted literature/trial search specifically for vestronidase alfa in Scheie syndrome (MPS I)
-- Consideration of a separate evaluation for Hurler syndrome (active trial NCT04532047) and Sanfilippo syndrome, which show more supporting evidence than the top-ranked candidate
-- Confirmation of Denmark market/registration status, given current "Not Marketed" flag
+## Markedsinformation for Danmark
+
+Vestronidase alfa er **ikke markedsført** i Danmark — ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er registreret i dette bevissamling.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Sammenfatning af produktegenskaber (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+- Den højest rangerede forudsagt indikation (Scheies syndrom) har ingen understøttende kliniske forsøg eller litteratur, og dens underliggende enzym-mangel (alpha-L-iduronidase) svarer ikke til vestronidase alfa's målenzym (beta-glukuronidase), hvilket rejser bekymring for, at dette er et ontologi-overlap-artefakt snarere end et genuint repurposing-signal.
+
+**For at gå videre er følgende nødvendig:**
+- TFDA/dansk SmPC-advarsler og kontraindikationer (blokkerende datakløft, påkrævet for S1-sikkerhedsscreening)
+- Bekræftelse af virkningsmekanisme (MOA) via DrugBank (høj-prioriteret datakløft)
+- Målrettet litteratur-/forsøgssøgning specifikt for vestronidase alfa ved Scheies syndrom (MPS I)
+- Overvejelse af en separat evaluering for Hurlers syndrom (aktivt forsøg NCT04532047) og Sanfilippos syndrom, som viser mere understøttende bevis end den højest rangerede kandidat
+- Bekræftelse af Danmarks markeds-/registreringsstatus, givet nuværende "Ikke markedsført"-flag
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

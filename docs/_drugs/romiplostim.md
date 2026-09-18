@@ -29,81 +29,82 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Romiplostim: From Chronic Immune Thrombocytopenia to Primary Release Disorder of Platelets
+# Romiplostim: Fra kronisk immun trombocytopeni til primær frigivelsesforstyrrelse af trombocytter
 
-## One-Sentence Summary
+## Sammenfatning
 
-Romiplostim is a thrombopoietin receptor agonist (TPO-RA) originally developed for chronic immune thrombocytopenia (ITP).
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-currently supported by **1 clinical trial** (indirect, non-interventional) and **2 publications** (mechanistic/review only).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic immune thrombocytopenia (ITP) — based on known drug information; no Danish license record exists since the product is not yet marketed |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Romiplostim er en trombopoetin-receptoragonist (TPO-RA) oprindeligt udviklet til kronisk immun trombocytopeni (ITP).
+TxGNN-modellen forudsiger, at det kan være effektivt til **primær frigivelsesforstyrrelse af trombocytter**,
+i øjeblikket understøttet af **1 klinisk forsøg** (indirekte, ikke-interventionelt) og **2 publikationer** (kun mekanistisk/oversigt).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, romiplostim is a thrombopoietin receptor agonist (TPO-RA) — an Fc-peptide fusion protein that binds and activates the TPO receptor (MPL) on megakaryocytes, stimulating their proliferation and maturation to increase platelet production. Its efficacy in chronic ITP, where autoantibody-mediated platelet destruction and impaired thrombopoiesis reduce circulating platelet counts, has been well established.
-
-"Primary release disorder of platelets" describes conditions in which platelet production or release from megakaryocytes is deficient. Mechanistically, this overlaps directly with romiplostim's mode of action, since stimulating megakaryocytopoiesis and thrombopoiesis is expected to increase platelet output regardless of the specific upstream cause of the release defect.
-
-The supporting literature (PMID 23594368, 25682608) describes megakaryocyte and proplatelet-formation biology, including how ITP autoantibodies impair proplatelet formation — reinforcing the biological plausibility of the mechanism-based link. However, none of the current evidence tests romiplostim directly in patients with a primary platelet release disorder; the single clinical trial identified is an observational ITP thrombosis-risk registry, not an interventional romiplostim trial.
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Kronisk immun trombocytopeni (ITP) — baseret på kendt lægemiddelinformation; der eksisterer ingen dansk licensprotokol, da produktet endnu ikke er markedsført |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af trombocytter |
+| TxGNN-forudsigelsesscore | 99.9998% |
+| Evidensniveau | L3 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+I øjeblikket er detaljerede mekanisme-af-virkning-data ikke tilgængelige i evidence-pakken. Baseret på kendt information er romiplostim en trombopoetin-receptoragonist (TPO-RA) — et Fc-peptid-fusionsprotein, der binder og aktiverer TPO-receptoren (MPL) på megakaryocytter, hvilket stimulerer deres proliferation og modning for at øge trombocytproduktionen. Dets effektivitet ved kronisk ITP, hvor autoantistof-medieret trombocyt-nedbrydelse og svækket trombocytopoese reducerer cirkulerende trombocytantal, er velafklaret.
+
+"Primær frigivelsesforstyrrelse af trombocytter" beskriver tilstande, hvor trombocytproduktion eller frigivelse fra megakaryocytter er mangelfuld. Mekanistisk overlapper dette direkte med romiplostims virkemåde, da stimulering af megakaryocytopoese og trombocytopoese forventes at øge trombocytproduktionen uanset den specifikke upstream-årsag til frigivelsesdefekten.
+
+Understøtningslitteraturen (PMID 23594368, 25682608) beskriver megakaryocyt- og proplatellet-dannelsesbiologi, herunder hvordan ITP-autoantistoffer svækker proplatellet-dannelse — hvilket styrker biologisk plausibilitet af det mekanisme-baserede link. Ingen af det nuværende bevis tester dog romiplostim direkte hos patienter med primær trombocyt-frigivelsesforstyrrelse; det eneste identificerede kliniske forsøg er et observationelt ITP-trombose-risiko-register, ikke et interventionelt romiplostim-forsøg.
+
+---
+
+## Bevis fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Deltagere | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completed | 10,039 | Observational registry on risk factors for thrombosis in immune thrombocytopenia (ITP); does not directly test romiplostim, provides disease-population background only (relevance grade C) |
+| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Fuldført | 10.039 | Observationelt register over risikofaktorer for trombose ved immun trombocytopeni (ITP); tester ikke direkte romiplostim, giver kun baggrund for sygdomspopulation (relevansniveau C) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Review | British Journal of Haematology | Overview of megakaryocytopoiesis and thrombopoiesis, describing thrombopoietin (TPO) as the primary growth factor driving platelet production |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Basic/Mechanistic | Haematologica | Shows antiplatelet autoantibodies in ITP inhibit proplatelet formation by megakaryocytes, impairing platelet production in vitro |
+| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Oversigt | British Journal of Haematology | Oversigt over megakaryocytopoese og trombocytopoese, der beskriver trombopoetin (TPO) som den primære vækstfaktor, der driver trombocytproduktion |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Grundforskning/Mekanistisk | Haematologica | Viser, at antitrombocyt-autoantistoffer ved ITP hæmmer proplatellet-dannelse af megakaryocytter, hvilket svækker trombocytproduktion in vitro |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Romiplostim is not currently marketed in Denmark — no national (Laegemiddelstyrelsen) or centralised (EMA) marketing authorisation is on record in this Evidence Pack (0 authorisations).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Romiplostim er i øjeblikket ikke markedsført i Danmark — ingen national (Lægemiddelstyrelsen) eller centraliseret (EMA) markedsføringstilladelse er registreret i denne evidence-pakke (0 tilladelser).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsmæssige overvejelser
 
-**Decision: Hold**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-- The current evidence base is mechanistic/observational only (L3) — no interventional trial or clinical case series has tested romiplostim specifically in patients with a primary platelet release disorder, and the drug is not marketed in Denmark, with a blocking data gap on TFDA/SmPC warnings and contraindications.
+---
 
-**To proceed, the following is needed:**
-- Approved SmPC/label data (warnings, contraindications, drug interactions)
-- Confirmed mechanism of action (MOA) documentation from DrugBank or equivalent
-- Direct interventional evidence (case series or trial) of romiplostim in patients with primary platelet release disorders
-- Confirmation of EU/Danish regulatory pathway or marketing authorisation status
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+- Det aktuelle bevisgrundlag er kun mekanistisk/observationelt (L3) — intet interventionelt forsøg eller klinisk case-serie har testet romiplostim specifikt hos patienter med primær trombocyt-frigivelsesforstyrrelse, og lægemidlet er ikke markedsført i Danmark, med et blokerende datagab om TFDA/SmPC-advarsler og kontraindikationer.
+
+**For at fortsætte er følgende påkrævet:**
+- Godkendt SmPC/etiket-data (advarsler, kontraindikationer, lægemiddelinteraktioner)
+- Bekræftet dokumentation af virkemåde (MOA) fra DrugBank eller tilsvarende
+- Direkte interventionelt bevis (case-serie eller forsøg) af romiplostim hos patienter med primær trombocyt-frigivelsesforstyrrelse
+- Bekræftelse af EU/dansk regulatorisk sti eller markedsføringstilladelsestatus
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

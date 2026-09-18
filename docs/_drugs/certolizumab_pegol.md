@@ -29,112 +29,113 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Certolizumab Pegol: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Certolizumab pegol: Fra reumatoid arthritis til reumatoid vaskulitis
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Certolizumab pegol (Cimzia®) is a PEGylated anti-TNF-α biologic agent approved internationally for rheumatoid arthritis (RA), Crohn's disease, psoriatic arthritis, and axial spondyloarthritis.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**, with a prediction score of **99.78%**.
-However, current supporting evidence is limited to **3 indirectly relevant clinical trials** and **8 case reports or small observational studies** — and critically, the majority of the literature identifies CZP as a **cause** of drug-induced vasculitis rather than a treatment, creating a fundamental pharmacological paradox.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Rheumatoid arthritis and other inflammatory autoimmune diseases (inferred from published literature; no source regulatory data available in this dataset) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 (preclinical/mechanistic studies; no dedicated RCTs) |
-| Denmark Market Status | Not marketed in Denmark (per current dataset — see note below) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
-> **⚠️ Data note on Denmark market status**: Certolizumab pegol (Cimzia®) holds a centralised EMA marketing authorisation (EU/1/09/544) valid across all EU/EEA member states, including Denmark. The "not marketed" status and zero licences in this dataset likely reflect a data gap rather than actual unavailability. Please verify current authorisation status with the Danish Medicines Agency (Lægemiddelstyrelsen) or via the EMA medicines database before acting on this information.
+Certolizumab pegol (Cimzia®) er et PEGyleret anti-TNF-α biologisk lægemiddel, der er godkendt internationalt til reumatoid arthritis (RA), Crohns sygdom, psoriasisartrit og aksial spondyloartrit.
+TxGNN-modellen forudsiger, at det kan være effektivt til **reumatoid vaskulitis**, med en forudsigelsesscore på **99,78%**.
+Imidlertid er det nuværende understøttende bevis begrænset til **3 indirekte relevante kliniske forsøg** og **8 case reports eller små observationelle studier** — og kritisk er størstedelen af litteraturen identificerer CZP som **årsag** til lægemiddelinduceret vaskulitis snarere end behandling, hvilket skaber et grundlæggende farmakologisk paradoks.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data was not available in the current evidence pack. Based on published literature, certolizumab pegol (CZP) is a PEGylated antigen-binding Fab' fragment of a recombinant humanised monoclonal antibody that selectively neutralises both soluble and transmembrane forms of TNF-α. Unlike conventional TNF inhibitors, CZP lacks the Fc region, which prevents complement fixation and Fc-receptor-mediated cytotoxicity. PEGylation extends the circulating half-life, and importantly, CZP does not actively cross the placenta — a clinically meaningful distinction for women of childbearing age.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Reumatoid arthritis og andre inflammatoriske autoimmune sygdomme (udledt fra offentliggjort litteratur; ingen regulatoriske kildedata tilgængelige i dette datasæt) |
+| Forudsagt ny indikation | Reumatoid vaskulitis |
+| TxGNN forudsigelsesscore | 99,78% |
+| Bevisniveau | L4 (prækliniske/mekanistiske studier; ingen dedikerede RCT'er) |
+| Markedsstatus i Danmark | Ikke markedsført i Danmark (ifølge nuværende datasæt — se note nedenfor) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Standby** |
 
-The theoretical rationale for repurposing CZP in rheumatoid vasculitis rests on the central role of TNF-α in driving endothelial inflammation in RA-associated extra-articular manifestations. In rheumatoid vasculitis, TNF-α promotes vascular wall inflammation, endothelial activation, and immune complex deposition in vessel walls. Blocking TNF-α could, in theory, suppress this inflammatory cascade and prevent the ischaemic tissue damage — including leg ulcers — that characterises the condition. One published case report (PMID 34786446) documents apparent therapeutic benefit of CZP specifically for leg ulcers due to rheumatoid vasculitis, lending limited clinical face validity to the hypothesis.
-
-However, a critical and well-documented paradox severely limits this repurposing rationale: anti-TNF therapy, including CZP, is a recognised **cause** of drug-induced vasculitis. The mechanism involves TNF-α blockade-induced immune dysregulation, immune complex deposition, and complement activation, resulting in leukocytoclastic vasculitis, hypocomplementemic urticarial vasculitis, and medium-vessel vasculitis as paradoxical adverse drug reactions. Six of the eight identified publications describe CZP-related vasculitis as an adverse event, not a treatment outcome. This paradoxical inflammation represents the dominant safety signal in the current evidence base and substantially undermines the repurposing case.
+> **⚠️ Notat om markedsstatus i Danmark**: Certolizumab pegol (Cimzia®) har en centraliseret EMA-markedsføringstilladelse (EU/1/09/544), der er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Status "ikke markedsført" og nul licenser i dette datasæt afspejler sandsynligvis et datakløft snarere end faktisk utilgængelighed. Kontakt venligst Lægemiddelstyrelsen eller EMA's lægemiddeldatabase for at bekræfte den nuværende autorisationsstatus, før du handler på disse oplysninger.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-No clinical trials directly evaluating certolizumab pegol as a treatment for rheumatoid vasculitis were identified. The three retrieved trials are indirectly related and all carry a Grade C relevance rating:
+Detaljerede data om virkningsmekanisme var ikke tilgængelige i den foreliggende dokumentation. Baseret på offentliggjort litteratur er certolizumab pegol (CZP) et PEGyleret antigen-bindende Fab'-fragment af et rekombinant humaniseret monoklonalt antistof, der selektivt neutraliserer både opløst og transmembran TNF-α. I modsætning til konventionelle TNF-inhibitorer mangler CZP Fc-regionen, hvilket forhindrer komplementfiksering og Fc-receptor-mediert cytotoksicitet. PEGylering forlænger cirkulationstiden, og vigtigt er, at CZP ikke aktivt krydser placenta — en klinisk meningsfuld forskel for kvinder i fertil alder.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Det teoretiske grundlag for omformål af CZP i reumatoid vaskulitis hviler på TNF-α's centrale rolle i at drive endotelial inflammation i RA-associerede ekstraartikulære manifestationer. I reumatoid vaskulitis fremmer TNF-α vaskulær vægginflammation, endotelial aktivering og immun kompleksdepot i karrenes væg. Blokkering af TNF-α kunne teoretisk set undertrykke denne inflammatoriske kaskade og forhindre den iskæmiske vævsskade — herunder benulcera — der karakteriserer tilstanden. En offentliggjort kasuistik (PMID 34786446) dokumenterer tilsyneladende terapeutisk nytte af CZP specifikt til benulcera på grund af reumatoid vaskulitis, hvilket giver begrænset klinisk facitvaliditet til hypotesen.
+
+Imidlertid er et kritisk og veldokumenteret paradoks en alvorlig begrænsning for denne omformålsrationale: anti-TNF-terapi, herunder CZP, er en anerkendt **årsag** til lægemiddelinduceret vaskulitis. Mekanismen involverer TNF-α-blokade-induceret immun dysregulering, immun kompleksdepot og komplementaktivering, hvilket resulterer i leukocytoklastisk vaskulitis, hypokomplementæmisk urticarial vaskulitis og mellemvægsvaskulitis som paradoksale bivirkninger. Seks af de otte identificerede publikationer beskriver CZP-relateret vaskulitis som en uønsket hændelse, ikke et behandlingsresultat. Denne paradoksale inflammation repræsenterer det dominante sikkerhedssignal i det nuværende bevisgrundlag og svækker væsentligt omformålssagen.
+
+---
+
+## Evidens fra kliniske forsøg
+
+Der blev ikke identificeret kliniske forsøg, der direkte evaluerede certolizumab pegol som behandling for reumatoid vaskulitis. De tre hentede forsøg er indirekte relaterede og bærer alle en gradering på C:
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Multinational observational study of tocilizumab (not CZP) in RA patients with inadequate response to DMARDs or one biologic; provides indirect safety background but vasculitis was not a primary endpoint |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large observational study examining risk of incident immune-mediated inflammatory diseases (IMIDs) in patients receiving biologics or immunosuppressants for a single IMID; scope is far too broad, vasculitis not a primary treatment endpoint |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Perioperative management of immunosuppressants in rheumatology patients undergoing elective total shoulder arthroplasty; no direct relevance to vasculitis treatment |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Afsluttet | 184 | Multinationalt observationelt studie af tocilizumab (ikke CZP) hos RA-patienter med utilstrækkelig respons på DMARD'er eller ét biologisk lægemiddel; giver indirekte sikkerhedsbackgrund, men vaskulitis var ikke et primært endepunkt |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Ukendt | 750.000 | Stort observationelt studie, der undersøger risiko for nyonset immun-medierede inflammatoriske sygdomme (IMID'er) hos patienter, der modtager biologika eller immunosuppressiva til en enkelt IMID; omfanget er alt for bredt, vaskulitis ikke et primært behandlingsendepunkt |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Endnu ikke rekruttering | 80 | Perioperativ styring af immunosuppressiva hos reumatologipatienter, der undergår planlagt total skulderledsprotese; ingen direkte relevans for vaskulitis-behandling |
 
 ---
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|------|------|---------|---------|
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case Report | JAAD Case Reports | CZP treatment for leg ulcers due to rheumatoid vasculitis — the **only report suggesting therapeutic benefit**; supports biological plausibility but evidence weight is limited |
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Retrospective Cohort | RMD Open | Long-term follow-up of CZP in uveitis due to IMIDs; multicentre study of 80 patients; demonstrates broader anti-inflammatory activity of CZP in extra-articular immune-mediated conditions |
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Pharmacovigilance Review | RMD Open | Infection profile of immune-modulatory drugs based on SmPC data; highlights serious infection risk relevant to vasculitis patients who are already immunocompromised |
-| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Retrospective Review / ADR | Clinical Medicine & Research | Single-centre review of biologic agent-associated cutaneous adverse events; vasculitis identified as a recurring cutaneous ADR pattern across anti-TNF agents |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case Report / ADR | J Clin Pharmacy & Therapeutics | Development of hypocomplementemic urticarial vasculitis **during** CZP treatment for RA — first reported association between CZP and HUV; underscores the paradoxical vasculitis risk |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case Report / ADR | Proc (Baylor Univ Med Center) | Leukocytoclastic vasculitis drug reaction to CZP — first reported case of this ADR specifically with CZP; highlights that this anti-TNF class effect extends to CZP |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case Report / ADR | Cureus | Anti-TNF-related medium-vessel vasculitis in a patient switched to CZP for seronegative RA; rare but serious adverse event; underscores the need for careful patient selection |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case Report / ADR | Modern Rheumatology Case Reports | Rapidly progressive glomerulonephritis after CZP initiation in a 30-year-old woman with RA; illustrates paradoxical autoimmune induction by TNF inhibition, including renal vasculitis involvement |
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Kasuistik | JAAD Case Reports | CZP-behandling til benulcera på grund af reumatoid vaskulitis — **den eneste rapport, der antyder terapeutisk nytte**; understøtter biologisk plausibilitet, men bevisvægt er begrænset |
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Retrospektiv kohortestudie | RMD Open | Langterm opfølgning af CZP ved uveitis på grund af IMID'er; multicenterstudie af 80 patienter; demonstrerer bredere antiinflammatorisk aktivitet af CZP i ekstraartikulære immun-medierede tilstande |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Farmakovigilansgennemgang | RMD Open | Infektionsprofil for immun-modulatoriske lægemidler baseret på SmPC-data; fremhæver alvorlig infektionsrisiko, der er relevant for vaskulitis-patienter, som allerede er immunokompromitterede |
+| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Retrospektiv gennemgang/Bivirkningsrapport | Clinical Medicine & Research | Enkeltcenter-gennemgang af biologisk agent-associerede kutane bivirkninger; vaskulitis identificeret som et tilbagevendende kutant bivirknings-mønster blandt anti-TNF-midler |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Kasuistik/Bivirkningsrapport | J Clin Pharmacy & Therapeutics | Udvikling af hypokomplementæmisk urticarial vaskulitis **under** CZP-behandling til RA — første rapporteret association mellem CZP og HUV; understreger den paradoksale vaskulitis-risiko |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Kasuistik/Bivirkningsrapport | Proc (Baylor Univ Med Center) | Leukocytoklastisk vaskulitis-lægemiddelreaktion på CZP — første rapporteret tilfælde af denne bivirkningstype specifikt med CZP; fremhæver, at denne anti-TNF-klasseeffekt udvides til CZP |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Kasuistik/Bivirkningsrapport | Cureus | Anti-TNF-relateret mellemvægsvaskulitis hos en patient skiftet til CZP for seronegativ RA; sjælden men alvorlig bivirkning; understreger behovet for omhyggelig patientudvælgelse |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Kasuistik/Bivirkningsrapport | Modern Rheumatology Case Reports | Hurtigt progredient glomerulonefrit efter CZP-initiering hos en 30-årig kvinde med RA; illustrerer paradoksal autoimmuninduktion ved TNF-hæmning, herunder renalvaskulitis-involvering |
 
-> **Critical signal**: 6 of 8 publications describe vasculitis as an **adverse drug reaction** to CZP or anti-TNF therapy in general, not as a therapeutic target. Only 1 publication documents potential therapeutic benefit (PMID 34786446).
-
----
-
-## Denmark Market Information
-
-No marketing authorisations for certolizumab pegol were found in the current Danish regulatory dataset (0 licences, status: not marketed).
-
-As noted above, this almost certainly reflects a data gap. Cimzia® (certolizumab pegol) is authorised in the EU via EMA centralised procedure and should be available in Denmark. Please consult the Lægemiddelstyrelsen's product database or the EMA's medicines registry for current authorisation details, approved indications, and the Danish Summary of Product Characteristics (produktresumé).
+> **Kritisk signal**: 6 af 8 publikationer beskriver vaskulitis som en **bivirkning** af CZP eller anti-TNF-terapi generelt, ikke som et terapeutisk mål. Kun 1 publikation dokumenterer potentiel terapeutisk nytte (PMID 34786446).
 
 ---
 
-## Safety Considerations
+## Markedsinformation for Danmark
 
-Formal safety data (key warnings, contraindications, drug-drug interactions) was not available in the current evidence pack. The following safety signals are specifically relevant to this repurposing hypothesis and are drawn from the retrieved literature:
+Der blev ikke fundet markedsføringstilladelser for certolizumab pegol i det nuværende danske regulatoriske datasæt (0 licenser, status: ikke markedsført).
 
-- **Drug-induced vasculitis (Paradoxical ADR)**: Anti-TNF agents including CZP have been associated with leukocytoclastic vasculitis, hypocomplementemic urticarial vasculitis, and medium-vessel vasculitis as paradoxical adverse drug reactions. This is not merely a theoretical concern — it is documented in multiple case reports including with CZP specifically. Clinicians considering CZP in vasculitis-prone patients must weigh this risk carefully.
-- **Serious infections**: As a biologic immunosuppressant, CZP carries a well-established risk of serious and opportunistic infections, including tuberculosis reactivation. Screening protocols (TB test, hepatitis B serology) apply.
-- **Paradoxical autoimmune reactions**: Additional paradoxical reactions reported include psoriasiform eruptions, rapidly progressive glomerulonephritis, and drug-induced lupus. These are of particular relevance when treating patients with complex autoimmune overlap, as may be seen in rheumatoid vasculitis.
-
-Please refer to the approved Summary of Product Characteristics (SmPC/produktresumé) for complete safety, contraindication, and interaction information.
+Som nævnt ovenfor afspejler dette næsten helt sikkert et datakløft. Cimzia® (certolizumab pegol) er godkendt i EU via EMA's centraliserede procedure og skulle være tilgængelig i Danmark. Kontakt venligst Lægemiddelstyrelsens produktdatabase eller EMA's lægemiddelsregister for aktuelle autorisationsdetaljer, godkendte indikationer og det danske produktresumé.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Formelle sikkerhedsdata (vigtige advarsler, kontraindikationer, lægemiddel-lægemiddelinteraktioner) var ikke tilgængelige i den foreliggende dokumentation. Følgende sikkerhedssignaler er specifikt relevante for denne omformålshypotese og er hentet fra den hentede litteratur:
 
-**Rationale:**
-Evidence for certolizumab pegol as a treatment for rheumatoid vasculitis is insufficient (Evidence Level L4 — mechanistic rationale and isolated case reports only), and critically, the body of evidence predominantly identifies CZP as a **cause** of drug-induced vasculitis rather than a treatment. This paradox — where the proposed therapeutic agent can also trigger the target condition — represents a fundamental barrier to clinical development without substantially more data to identify which patients might benefit versus be harmed.
+- **Lægemiddelinduceret vaskulitis (Paradoksal bivirkning)**: Anti-TNF-midler, herunder CZP, er blevet associeret med leukocytoklastisk vaskulitis, hypokomplementæmisk urticarial vaskulitis og mellemvægsvaskulitis som paradoksale bivirkninger. Dette er ikke blot en teoretisk bekymring — det er dokumenteret i flere kasuistikker, herunder med CZP specifikt. Klinikere, der overvejer CZP hos vaskulitis-prædisponerede patienter, må omhyggeligt afveje denne risiko.
+- **Alvorlige infektioner**: Som biologisk immunosuppressivum bærer CZP en veletableret risiko for alvorlige og opportunistiske infektioner, herunder tuberkulose-reaktivering. Screeningsprotokoller (TB-test, hepatitis B-serologi) gælder.
+- **Paradoksale autoimmune reaktioner**: Yderligere paradoksale reaktioner rapporteret omfatter psoriasiforme udbrud, hurtigt progredient glomerulonefrit og lægemiddel-induceret lupus. Disse er særligt relevante ved behandling af patienter med kompleks autoimmunoverlap, som kan ses i reumatoid vaskulitis.
 
-**To proceed, the following would be needed:**
-
-- **Safety data gap resolution**: Obtain and review the full EMA/Danish SmPC for Cimzia® to document key warnings and contraindications — this is currently a blocking data gap (DG001)
-- **MOA documentation**: Retrieve complete mechanism of action data from DrugBank (DB08904) to formally characterise the biological plausibility pathway (DG002)
-- **Dedicated vasculitis evidence**: A systematic case series or prospective observational cohort specifically examining CZP efficacy in established rheumatoid vasculitis (distinct from RA in general) is needed to move beyond anecdote
-- **Paradox resolution**: Identification of biomarkers or clinical features that distinguish patients likely to benefit from those at risk of anti-TNF-induced vasculitis — this is essential before any prospective study design
-- **Denmark market status verification**: Confirm current authorisation details and approved indications with Lægemiddelstyrelsen or via the EMA medicines database
-- **Regulatory context review**: Assess whether rheumatoid vasculitis could be addressed within the existing RA label (as a manifestation) rather than requiring a separate repurposing pathway
+Se venligst det godkendte produktresumé (SmPC/produktresumé) for fuldstændig sikkerhed, kontraindikation og interaktionsinformation.
 
 ---
 
-*⚠️ Disclaimer: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All website and report content is subject to YMYL (Your Money or Your Life) standards and must not be used as the basis for clinical decision-making without consultation of the approved product information and current clinical guidelines.*
+## Konklusion og næste trin
+
+**Beslutning: Standby**
+
+**Begrundelse:**
+Evidens for certolizumab pegol som behandling for reumatoid vaskulitis er utilstrækkelig (Bevisniveau L4 — mekanistisk rationale og isolerede kasuistikker kun), og kritisk identificerer størstedelen af evidensen CZP som **årsag** til lægemiddelinduceret vaskulitis snarere end behandling. Dette paradoks — hvor det foreslåede terapeutiske lægemiddel også kan udløse målsygdommen — repræsenterer en grundlæggende barriere for klinisk udvikling uden væsentligt mere data til at identificere, hvilke patienter der kan have gavn versus blive skadet.
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- **Sikkerhedsdatakløft-løsning**: Hent og gennemgå det fulde EMA/danske produktresumé til Cimzia® for at dokumentere vigtige advarsler og kontraindikationer — dette er i øjeblikket et blokerende datakløft (DG001)
+- **Virkningsmekanisme-dokumentation**: Hent fuldstændige data om virkningsmekanisme fra DrugBank (DB08904) for at formelt karakterisere den biologiske plausibilitetsvej (DG002)
+- **Dedikeret vaskulitis-evidens**: En systematisk kasuistiksamling eller prospektiv observationel kohortestudie, der specifikt undersøger CZP-efficacy i etableret reumatoid vaskulitis (skelnet fra RA generelt), er nødvendig for at gå udover anekdotisk evidens
+- **Paradoks-løsning**: Identifikation af biomarkører eller kliniske træk, der skelner patienter, der sandsynligvis har gavn, fra dem i risiko for anti-TNF-induceret vaskulitis — dette er væsentligt, før ethvert prospektivt studiedesign
+- **Markedsstatus-verifikation i Danmark**: Bekræft aktuelle autorisationsdetaljer og godkendte indikationer hos Lægemiddelstyrelsen eller via EMA-lægemiddeldatabasen
+- **Regulatorisk kontekst-gennemgang**: Vurder, om reumatoid vaskulitis kunne behandles inden for den eksisterende RA-label (som en manifestation) snarere end at kræve en separat omformålsvej
+
+---
+
+*⚠️ Ansvarsfraskrivelse: Denne rapport er kun til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddel-omformålskandidater kræver klinisk validering før terapeutisk anvendelse. Alt websted- og rapportindhold er underlagt YMYL (Your Money or Your Life) standarder og må ikke bruges som grundlag for klinisk beslutningstagning uden konsultation af det godkendte produktresumé og aktuelle kliniske retningslinjer.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

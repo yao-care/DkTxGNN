@@ -29,83 +29,84 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Minoxidil: From Androgenetic Alopecia to Hypotrichosis Simplex of the Scalp
+# Minoxidil: Fra androgenetisk alopeci til Hypotrichosis Simplex af skalpen
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Minoxidil is a potassium channel opener approved in many countries for androgenetic alopecia (pattern hair loss) and, at higher doses, for severe refractory hypertension.
-The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, a rare hereditary hair loss disorder for which no established treatment currently exists,
-with **0 clinical trials** and **3 publications** (case series and case reports) currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Androgenetic alopecia; severe hypertension (FDA/EMA approved in other markets; not registered in Denmark) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | ~99.9999% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Minoxidil er en kaliumkanal-åbner godkendt i mange lande for androgenetisk alopeci (mønsteragtig hårtab) og, i højere doser, for svær refraktær hypertension.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Hypotrichosis Simplex af skalpen**, en sjælden arvelig hårtabssygdom, for hvilken der i øjeblikket ikke findes etableret behandling,
+med **0 kliniske forsøg** og **3 publikationer** (kasusserier og kasusbeskrivelser), der i øjeblikket understøtter denne retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Formal mechanism of action data could not be retrieved from DrugBank for this evidence pack; however, published literature within the pack provides a detailed picture. Minoxidil is a prodrug metabolised in the hair follicle by sulfotransferase (SULT1A1) into minoxidil sulfate, its active form. This active metabolite opens ATP-sensitive potassium (K_ATP) channels in vascular smooth muscle and dermal papilla cells, causing vasodilation and prolongation of the anagen (active growth) phase of the hair cycle. Additionally, minoxidil activates the Wnt/β-catenin signalling pathway, exerts anti-inflammatory effects, and has mild antiandrogenic properties — collectively creating a multi-pathway stimulus for hair follicle survival and growth (PMID 34159872).
-
-Hypotrichosis simplex of the scalp (HSS) is a rare autosomal dominant monogenic disorder caused by mutations in *CDSN*, encoding the desmosomal protein corneodesmosin, which is essential for hair follicle structural integrity. The disease presents in childhood as progressive diffuse thinning, primarily reflecting impaired follicular cycling rather than complete follicular destruction. Because residual functional follicles remain present, minoxidil's anagen-prolonging and dermal papilla-stimulating properties are mechanistically well positioned to address the underlying follicular dysfunction — a direct correspondence that the repurposing rationale from the evidence pack explicitly highlights.
-
-This mechanistic alignment is further validated by direct clinical reports: PMID 35761391 explicitly employs oral minoxidil combined with growth factors to treat hereditary hypotrichosis simplex, and PMID 36651821 reports successful improvement with topical minoxidil 2% combined with platelet-rich plasma in a confirmed HSS patient. Both androgenetic alopecia (minoxidil's established indication) and HSS involve impaired follicular cycling and reduced hair density, making the mechanistic bridge between them strong and biologically coherent.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Androgenetisk alopeci; svær hypertension (FDA/EMA godkendt på andre markeder; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Hypotrichosis Simplex af skalpen |
+| TxGNN-forudsigelsesscore | ~99.9999% |
+| Evidensniveau | L3 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case Series | Dermatologic Therapy | Oral minoxidil combined with growth factors used to treat hereditary hypotrichosis simplex of the scalp; reports clinical hair density improvement |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case Report | J Dermatological Treatment | 14-year-old with hereditary HSS treated with combined platelet-rich plasma injections and topical minoxidil 2%; reports successful outcome in a condition otherwise lacking satisfactory treatment |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case Report | Frontiers in Genetics | Familial HSS (*CDSN* mutation confirmed) in an 8-year-old male treated with botanical extract and minoxidil combination; highlights that definitive effective treatments remain lacking for this condition |
+Formelle virkningsmekanisme-data kunne ikke hentes fra DrugBank til denne evidenspakke; publiceret litteratur i pakken giver dog et detaljeret billede. Minoxidil er et prodrug, der omdannes i hårets follikel af sulfotransferase (SULT1A1) til minoxidil sulfat, dets aktive form. Dette aktivt stof åbner ATP-sensitive kalium (K_ATP) kanaler i vaskulær glat muskulatur og dermal papil-celler, hvilket forårsager vasodilatation og forlængelse af anagen (aktiv vækst) fasen af hårcyklussen. Derudover aktiverer minoxidil Wnt/β-catenin signalvej, udøver anti-inflammatoriske effekter og har milde antiandrogeniske egenskaber — hvilket samlet skaber en multi-vej stimulus for hårets follikels overlevelse og vækst (PMID 34159872).
 
----
+Hypotrichosis simplex af skalpen (HSS) er en sjælden autosomal dominant monogen sygdom forårsaget af mutationer i *CDSN*, der koder for det desomosomale protein corneodesmosin, som er væsentlig for hårets folikkelstrukturintegrite. Sygdommen præsenteres i barnealderen som progressiv diffus udtynding, primært afspejlende nedsat follikelsyklus snarere end fuldstændig folikeldestruktion. Da restfunktionelle follikler stadig er til stede, er minoxidils anagen-forlængende og dermal papil-stimulerende egenskaber mekanistisk vel positioneret til at imødegå den underliggende folikelsvækkelse — en direkte overensstemmelse, som den repurposing-rationalie fra evidenspakken eksplicit fremhæver.
 
-## Denmark Market Information
-
-Minoxidil does not hold a marketing authorisation in Denmark. There are no active licenses in the Laegemiddelstyrelsen national registry, and no centralised EMA authorisation covers the Danish market for this drug. Minoxidil is, however, widely authorised across other EU member states and in the United States (FDA OTC approval for 2% and 5% topical solution, 5% foam) for androgenetic alopecia.
-
-Any clinical use in Denmark would require either a named-patient/compassionate use application or a formal marketing authorisation application.
+Denne mekanistiske justering bekræftes yderligere af direkte kliniske rapporter: PMID 35761391 anvender eksplicit oralt minoxidil kombineret med vækstkfaktorer til at behandle arvelig hypotrichosis simplex, og PMID 36651821 rapporterer vellykket forbedring med topisk minoxidil 2% kombineret med platelet-rich plasma hos en bekræftet HSS-patient. Både androgenetisk alopeci (minoxidils etablerede indikation) og HSS involverer nedsat follikelsyklus og reduceret hårtæthed, hvilket gør den mekanistiske forbindelse mellem dem stærk og biologisk sammenhængende.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidence
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug-drug interaction data were retrieved in this evidence pack.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+| PMID | År | Type | Journal | Vigtigste resultater |
+|------|-----|------|---------|-----------------|
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Kasusserie | Dermatologic Therapy | Oralt minoxidil kombineret med vækstkfaktorer anvendt til behandling af arvelig hypotrichosis simplex af skalpen; rapporterer klinisk forbedring af hårtæthed |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Kasusbeskrivelse | J Dermatological Treatment | 14-årig med arvelig HSS behandlet med kombineret platelet-rich plasma-injektioner og topisk minoxidil 2%; rapporterer vellykket resultat i en sygdom, der ellers mangler tilfredsstillende behandling |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Kasusbeskrivelse | Frontiers in Genetics | Familier HSS (*CDSN*-mutation bekræftet) hos en 8-årig dreng behandlet med botanisk ekstraktekombination og minoxidil; fremhæver, at definitive effektive behandlinger stadig mangler for denne sygdom |
 
-**Rationale:**
-The mechanistic basis is compelling and the unmet medical need is high — HSS has no approved pharmacological treatment — but the current evidence rests entirely on three case-level reports (evidence level L3) with no registered clinical trials, which is insufficient to support a formal repurposing programme or a regulatory application at this stage.
+---
 
-**To proceed, the following is needed:**
-- Retrieval of formal mechanism of action and safety data from DrugBank (currently a data gap)
-- Full review of the Laegemiddelstyrelsen / EMA SmPC equivalents for approved minoxidil products in other EU markets, including warnings, contraindications, and paediatric safety data
-- Establishment of a prospective registry or pilot study systematically documenting outcomes in HSS patients treated with oral or topical minoxidil, with genetic confirmation of *CDSN* mutation status
-- Consultation with Laegemiddelstyrelsen on orphan drug designation potential — HSS qualifies as a rare disease, and this designation could accelerate and incentivise the development pathway
-- Assessment of the optimal route of administration (topical vs. low-dose oral) and dosing for a paediatric-onset rare disease population
+## Markedsinformation for Danmark
+
+Minoxidil har ingen markedsføringstilladelse i Danmark. Der er ingen aktive tilladelser i Lægemiddelstyrelsens nationale register, og ingen centraliseret EMA-godkendelse dækker det danske marked for dette lægemiddel. Minoxidil er dog bredt godkendt på tværs af andre EU-medlemsstater og i USA (FDA OTC-godkendelse for 2% og 5% topisk opløsning, 5% skum) for androgenetisk alopeci.
+
+Enhver klinisk brug i Danmark ville kræve enten en patientspecifik/compassionate use-ansøgning eller en formel markedsføringstilladelsesansøgning.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Ingen lægemiddel-lægemiddel-interaktionsdata blev hentet i denne evidenspakke.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Det mekanistiske grundlag er overbevisende, og det uopfyldte medicinske behov er høj — HSS har ingen godkendt farmakologisk behandling — men den nuværende evidens hviler udelukkende på tre kasusniveau-rapporter (evidensniveau L3) uden registrerede kliniske forsøg, hvilket er utilstrækkeligt til at understøtte et formelt repurposing-program eller en regulatorisk ansøgning på dette tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+- Henthentelse af formelle virkningsmekanisme- og sikkerhedsdata fra DrugBank (i øjeblikket et datakløft)
+- Fuldstændig vurdering af Lægemiddelstyrelsens/EMA SmPC-ækvivalenter for godkendte minoxidil-produkter på andre EU-markeder, herunder advarsler, kontraindikationer og pædiatriske sikkerhedsdata
+- Etablering af et prospektivt register eller pilotstudie, der systematisk dokumenterer resultater hos HSS-patienter behandlet med oralt eller topisk minoxidil, med genetisk bekræftelse af *CDSN*-mutationsstatus
+- Konsultation med Lægemiddelstyrelsen om potentiel orphan drug-designation — HSS kvalificerer sig som en sjælden sygdom, og denne designation kunne accelerere og incitamentere udviklingsveje
+- Vurdering af den optimale administrationsrute (topisk versus lavdosis oral) og dosering til en pædiatrisk-debut sjælden sygdom-population
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

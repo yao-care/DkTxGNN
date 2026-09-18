@@ -29,77 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Siltuximab: From Multicentric Castleman Disease to Extracutaneous Mastocytoma
+# Siltuximab: Fra multikentrisk Castlemans sygdom til ekstrakutan mastocytom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-> Siltuximab is an anti-interleukin-6 (IL-6) monoclonal antibody approved for multicentric Castleman disease (MCD).
-> The TxGNN model predicts it may be effective for **Extracutaneous Mastocytoma**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multicentric Castleman Disease (MCD) — referenced in evidence pack rationale text; not present in formal license data |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Siltuximab er et anti-interleukin-6 (IL-6) monoklonalt antistof godkendt til multikentrisk Castlemans sygdom (MCD).
+> TxGNN-modellen forudsiger, at det kan være effektivt for **ekstrakutan mastocytom**,
+> men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — den hviler udelukkende på modelresultatet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism-of-action data is not formally recorded for Siltuximab in this evidence pack (drug-level MOA field is a data gap). However, supporting trial documentation elsewhere in the pack describes Siltuximab as a recombinant chimeric (human-murine) anti-IL-6 monoclonal antibody, administered by intravenous infusion, and notes it is approved for multicentric Castleman disease — a lymphoproliferative disorder driven in part by IL-6 signalling.
-
-For the top-ranked predicted indication, extracutaneous mastocytoma, the evidence pack's own mechanistic assessment is explicitly skeptical: mastocytoma pathology is driven primarily by KIT mutations and mast cell proliferation, a pathway with only weak, unsubstantiated overlap with IL-6 inhibition. No clinical or literature evidence accompanies this prediction — it is a high TxGNN score without independent corroboration.
-
-By contrast, other candidates further down the same prediction list — notably Kaposi's sarcoma (rank 9–10, score 99.28%) — have a more coherent mechanistic story (shared HHV-8/KSHV viral driver with MCD, IL-6 implicated in tumor microenvironment) and at least one supporting literature reference, though still no direct clinical evidence. This suggests the overall repurposing signal for Siltuximab is stronger for virally-driven, IL-6-associated conditions than for the top-ranked mastocytoma prediction itself.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Multikentrisk Castlemans sygdom (MCD) — refereret i tekstuel begrundelse af bevisopsamlingstakken; ikke til stede i formelle licensdata |
+| Forudsagt ny indikation | Ekstrakutan mastocytom |
+| TxGNN-forudsigelsesscore | 99.64% |
+| Bevisniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afhængig |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede mekanisme-for-handling data er ikke formelt registreret for Siltuximab i denne bevisopsamlingspakke (lægemiddel-niveau MOA-felt er en datakluft). Dog beskriver understøttende forsøgsdokumentation andre steder i pakken Siltuximab som et rekombinant kimerik (human-murin) anti-IL-6 monoklonalt antistof, administreret ved intravenøs infusion, og bemærker, at det er godkendt til multikentrisk Castlemans sygdom — en lymfoproliferativ lidelse, der delvis drives af IL-6-signalering.
 
----
+For den højest rangerede forudsagte indikation, ekstrakutan mastocytom, er bevisopsamlingspakkens egen mekanistiske vurdering eksplicit skeptisk: mastocytompatiologi drives primært af KIT-mutationer og mastcelleproliferation, en vej med kun svag, uunderbygget overlapning med IL-6-hæmning. Ingen klinisk eller litteraturbeviser ledsager denne forudsigelse — det er en høj TxGNN-score uden uafhængig bekræftelse.
 
-## Denmark Market Information
-
-Siltuximab currently holds no marketing authorisation in Denmark (0 registered products; market status: not marketed).
+I modsætning hertil har andre kandidater længere ned ad samme forudsigelsesliste — især Kaposis sarkom (rangering 9–10, score 99.28%) — en mere sammenhængende mekanistisk historie (delt HHV-8/KSHV virusdriver med MCD, IL-6 impliceret i tumormikreomiljø) og mindst en understøttende litteraturreference, dog stadig ingen direkte klinisk bevise. Dette tyder på, at det overordnede genanvendelsessignal for Siltuximab er stærkere for virus-drevne, IL-6-associerede tilstande end for selve den højest rangerede mastocytomforudsigelse.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: label-level warnings/contraindications and a formal DDI screen for Siltuximab are flagged as outstanding, blocking data gaps in this evidence pack (no source could yet be queried for warnings, contraindications, or drug interactions).
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The top-ranked predicted indication (extracutaneous mastocytoma) has no clinical trial or literature support and a mechanistic link the evidence pack itself describes as weak — this is a pure L5 model score, insufficient to advance.
+---
 
-**To proceed, the following is needed:**
-- Formal mechanism-of-action documentation for Siltuximab (currently a data gap)
-- Danish/EU label warnings and contraindications (blocking gap — required before any S1 safety screen)
-- A completed drug-interaction query (current status: not found)
-- Independent preclinical or mechanistic rationale connecting IL-6 inhibition to mast cell tumor biology before pursuing mastocytoma further
-- If pursuing the IL-6/viral-driven signal instead, prioritize the Kaposi's sarcoma candidate (L4, Research Question stage) for deeper literature review, since it currently has the pack's only literature support
+## Markedsinformation for Danmark
+
+Siltuximab har i øjeblikket ingen markedsføringstilladelse i Danmark (0 registrerede produkter; markedsstatus: ikke markedsført).
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte produktkarakteristika (SPC) for sikkerhedsinformation. Bemærk: advarsler/kontraindikationer på etikettniveau og et formelt lægemiddelinteraktionsscreening for Siltuximab er markeret som udestående, hvilket blokerer dataklufter i denne bevisopsamlingspakke (der kan endnu ikke forespørges en kilde til advarsler, kontraindikationer eller lægemiddelinteraktioner).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afhængig**
+
+**Begrundelse:**
+Den højest rangerede forudsagte indikation (ekstrakutan mastocytom) har ingen klinisk forsøgs- eller litteraturbeviser og en mekanistisk sammenhæng, som bevisopsamlingspakken selv beskriver som svag — dette er et rent L5-modelresultat, utilstrækkelig til at gå videre.
+
+**For at fortsætte er følgende nødvendigt:**
+- Formelle mekanisme-for-handling dokumentation for Siltuximab (i øjeblikket en datakluft)
+- Danske/EU-etiketter advarsler og kontraindikationer (blokerende kluft — påkrævet før ethvert S1-sikkerhedsscreening)
+- En gennemført lægemiddelinteraktionsforespørgsel (nuværende status: ikke fundet)
+- Uafhængig præklinisk eller mekanistisk begrundelse, der forbinder IL-6-hæmning til mastcelletumor-biologi, før mastocytom forfølges videre
+- Hvis IL-6/virus-drevet signalet forfølges i stedet, prioriter Kaposis sarkom-kandidaten (L4, Research Question-trin) til dybere litteraturgennemgang, da den i øjeblikket er pakkens eneste litteraturbevise
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

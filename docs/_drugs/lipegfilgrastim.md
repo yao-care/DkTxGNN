@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lipegfilgrastim: From Chemotherapy-Induced Neutropenia to Primary Release Disorder of Platelets
+# Lipegfilgrastim: Fra kemoterapiinduceret neutropeni til primær frigivelsesforstyrrelse af blodplader
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Lipegfilgrastim is a pegylated G-CSF (granulocyte colony-stimulating factor) analogue, approved for chemotherapy-induced neutropenia. The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, but currently **no clinical trials** and **no publications** support this direction — the prediction rests on knowledge-graph similarity alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chemotherapy-induced neutropenia (G-CSF receptor agonist) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Lipegfilgrastim er et pegyleret G-CSF (granulocyt-kolonistimulerende faktor) analogon, godkendt til kemoterapiinduceret neutropeni. TxGNN-modellen forudsiger, at det kan være effektivt til **Primær frigivelsesforstyrrelse af blodplader**, men i øjeblikket **ingen kliniske forsøg** og **ingen publikationer** understøtter denne retning — forudsigelsen hviler alene på vidensgrafs-lighed.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data for lipegfilgrastim is not available in this evidence pack (marked as a data gap). Based on known information, lipegfilgrastim is a pegylated G-CSF analogue that acts on the G-CSF receptor to stimulate proliferation and differentiation of granulocytes (neutrophils); its approved use is chemotherapy-induced neutropenia.
-
-Primary release disorder of platelets is a platelet-function/production disorder with a distinct pathophysiology from neutrophil regulation. There is no established literature connecting G-CSF receptor signalling to platelet release mechanisms. While G-CSF-driven bone marrow stem cell mobilization could theoretically have indirect effects on megakaryocyte/platelet production, this link is speculative and not supported by any primary mechanistic data in the evidence pack.
-
-In short, this prediction is a pure knowledge-graph embedding similarity result from TxGNN, with low mechanistic plausibility and no corroborating clinical or literature evidence at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Kemoterapiinduceret neutropeni (G-CSF-receptor agonist) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
+| TxGNN-forudsigelsesscore | 99.93% |
+| Bevisniveau | L5 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data vedrørende virkningsmekanism for lipegfilgrastim er ikke tilgængelige i denne bevismappe (markeret som et datahul). Baseret på kendt information er lipegfilgrastim et pegyleret G-CSF-analogon, der virker på G-CSF-receptoren til at stimulere proliferation og differentiering af granulocytter (neutrofiler); dets godkendte indikation er kemoterapiinduceret neutropeni.
 
----
+Primær frigivelsesforstyrrelse af blodplader er en blodpladeproduktions- og funktionsforstyrrelse med en særegen patofysiologi, der adskiller sig fra neutrofil-regulering. Der er ingen etableret litteratur, der forbinder G-CSF-receptor-signalering med blodpladeudskillelsesmekanismer. Selvom G-CSF-drevet knoglemarv-stamcellemobilisering teoretisk kunne have indirekte effekter på megakaryocyt-/blodpladeproduktion, er denne forbindelse spekulativ og ikke understøttet af nogen primær mekanistisk data i bevisamlingen.
 
-## Denmark Market Information
-
-Lipegfilgrastim currently has no marketing authorisation on record in Denmark (market status: Not marketed; 0 authorisations).
+Kort sagt er denne forudsigelse et rent vidensgrafs-lighedsresultat fra TxGNN, med lav mekanistisk plausibilitet og uden understøttende klinisk eller litteraturbevis på nuværende tidspunkt.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relevant litteratur tilgængelig.
 
-**Rationale:**
-This candidate is supported only by a TxGNN model prediction score (L5 evidence) — there are no clinical trials, no published literature, and no established mechanistic link between G-CSF receptor activity and platelet release disorders. The drug is also not currently marketed in Denmark.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for lipegfilgrastim
-- Danish/EU Summary of Product Characteristics (SmPC) warnings, contraindications, and drug interaction data
-- Preclinical or mechanistic studies linking G-CSF pathway activity to platelet release disorders
-- Any emerging clinical trial or case-report evidence before advancing beyond model-prediction stage
+## Markedsinformation for Danmark
+
+Lipegfilgrastim har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Denne kandidat understøttes alene af en forudsigelsesscore fra TxGNN-modellen (L5 bevis) — der er ingen kliniske forsøg, ingen publiceret litteratur, og ingen etableret mekanistisk forbindelse mellem G-CSF-receptor aktivitet og blodpladeudskillelsesforstyrelser. Desuden er lægemidlet ikke markedsført i Danmark.
+
+**For at fortsætte er følgende nødvendig:**
+- Bekræftede virkningsmekanism-data (MOA) for lipegfilgrastim
+- Dansk/EU Produktresumé (SmPC) – advarsler, kontraindikationer og lægemiddelinteraktionsdata
+- Præ-kliniske eller mekanistiske studier, der forbinder G-CSF-vej aktivitet med blodpladeudskillelsesforstyrelser
+- Nye bevis fra kliniske forsøg eller case-rapporter før videre udvikling ud over model-prediktionsstadiet
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

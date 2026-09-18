@@ -29,69 +29,70 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Amphotericin B: Drug Repurposing Evaluation — No TxGNN Predictions Generated
+# Amphotericin B: Evaluering af genfinding af lægemiddel — Ingen TxGNN-prognoser genereret
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Amphotericin B is a well-established polyene antifungal agent used for severe, invasive fungal infections. **No TxGNN repurposing predictions were generated** for this drug in the current evaluation cycle, as critical data gaps in the pipeline prevented prediction from running. This report documents the current data status and outlines the remediation steps required before a formal repurposing evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Severe invasive fungal infections *(based on established pharmaceutical knowledge; no licence data retrieved from Laegemiddelstyrelsen)* |
-| Predicted New Indication | Not available — no TxGNN predictions generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable |
-| Denmark Market Status | Not marketed *(per evidence pack — see important note below)* |
-| Number of Marketing Authorisations | 0 *(per evidence pack)* |
-| Recommended Decision | **Hold** |
-
-> **⚠️ Important note on Denmark market status:** The evidence pack records zero Danish Marketing Authorisations. However, liposomal amphotericin B (AmBisome®) holds a valid EMA centralised Marketing Authorisation (EU/1/97/049) that is directly applicable in Denmark, and conventional amphotericin B deoxycholate products have historically been available via hospital procurement. The zero-licence result almost certainly reflects a **data processing gap** rather than the true regulatory situation, and must be verified against the Laegemiddelstyrelsen product database before any regulatory conclusions are drawn.
+Amphotericin B er et velkendt polyenantimykotikum, der bruges til alvorlige invasive svampeinfektioner. **Ingen TxGNN-genfindingsprognoser blev genereret** for dette lægemiddel i den aktuelle evalueringscyklus, da kritiske datahuller i pipelinen forhindrede prognosegenerering. Denne rapport dokumenterer den nuværende datastatus og skitserer de afhjælpningstrin, der kræves, før en formel evalueringsprocedure kan fortsætte.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-As no TxGNN prediction was generated in this evaluation cycle, this section cannot be completed in the standard comparative format. The absence of predictions is a pipeline issue, not a reflection of the drug's repurposing potential.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Alvorlige invasive svampeinfektioner *(baseret på etableret farmaceutisk viden; ingen licensdata hentet fra Laegemiddelstyrelsen)* |
+| Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognoser genereret |
+| TxGNN-prognosescore | Ikke tilgængelig |
+| Evidensniveau | Ikke vurderbart |
+| Markedsstatus i Danmark | Ikke markedsført *(jf. bevissamling — se vigtig bemærkning herunder)* |
+| Antal markedsføringstilladelser | 0 *(jf. bevissamling)* |
+| Anbefalet beslutning | **Afvent** |
 
-For context: Amphotericin B (DrugBank ID: DB00681) is a polyene macrolide antibiotic first isolated from *Streptomyces nodosus* in the 1950s. Detailed mechanism of action data was not retrieved in this evaluation cycle. Based on established pharmacological knowledge, Amphotericin B acts by binding selectively to ergosterol in the fungal cell membrane, inserting into the lipid bilayer and forming transmembrane pores. This causes irreversible leakage of intracellular ions and metabolites, leading to osmotic instability and cell death. Its selectivity for ergosterol over mammalian cholesterol underpins its clinical utility.
-
-Recognised areas of potential repurposing discussed in the scientific literature — including antileishmanial activity (visceral leishmaniasis, already an approved indication for the liposomal form), antiviral applications, and immunomodulatory effects in oncology settings — cannot be formally ranked or evaluated without TxGNN prediction output. Re-running the prediction pipeline with corrected input data is the necessary first step.
-
----
-
-## Safety Considerations
-
-Safety data (key warnings and contraindications) was not retrieved from Laegemiddelstyrelsen in this evaluation cycle. Based on the established clinical safety profile of Amphotericin B:
-
-- **Nephrotoxicity**: Dose-dependent renal impairment is the primary dose-limiting toxicity of the conventional deoxycholate formulation. Liposomal formulations (e.g. AmBisome®) substantially reduce nephrotoxic risk. Baseline and regular serum creatinine, urea, and electrolyte monitoring is essential.
-- **Infusion-related reactions**: Fever, rigors, chills, hypotension, and bronchospasm may occur during intravenous administration; premedication protocols are standard practice.
-- **Electrolyte disturbances**: Hypokalaemia and hypomagnesaemia are common and require monitoring and replacement.
-- **Haematological effects**: Normochromic normocytic anaemia can develop with prolonged courses.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) — available via the European Medicines Agency (EMA) product page for AmBisome® — for complete and authoritative safety information including full contraindication and drug interaction data.
+> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb. Resultatet med nul-licens afspejler næsten helt sikkert et **databehandlingshul** snarere end den faktiske reguleringsmæssige situation og skal verificeres mod Laegemiddelstyelsens produktdatabase, før der drages reguleringsmæssige konklusioner.
 
 ---
 
-## Conclusion and Next Steps
+## Hvorfor er denne prognose rimelig?
 
-**Decision: Hold**
+Da der ikke blev genereret nogen TxGNN-prognose i denne evalueringscyklus, kan dette afsnit ikke udfyldes i standardsammenligningsformatet. Manglen på prognoser er et pipelineproblem, ikke en afspejling af lægemidlets genfindingspotentiale.
 
-**Rationale:**
-The TxGNN prediction pipeline produced no repurposing candidates for Amphotericin B, and two unresolved data gaps — one classified as Blocking, one as High severity — prevent the evaluation from advancing to safety pre-screening or clinical evidence review. No meaningful repurposing recommendation can be issued at this stage.
+For kontekst: Amphotericin B (DrugBank ID: DB00681) er et polyenmakrolidantibiotikum, der først blev isoleret fra *Streptomyces nodosus* i 1950'erne. Detaljerede virkningsmekanisme-data blev ikke hentet i denne evalueringscyklus. På grundlag af etableret farmakologisk viden virker Amphotericin B ved selektivt at binde sig til ergosterol i svampecellemembranen, indsætte sig i lipiddobeltlaget og danne transmembrane porer. Dette forårsager irreversibel lækkage af intracellulære ioner og metabolitter, hvilket fører til osmotisk ustabilitet og cellødød. Dets selektivitet for ergosterol frem for pattedyrkolesterol ligger til grund for dets kliniske nytte.
 
-**To proceed, the following is needed:**
+Anerkendte områder af potentiel genfinding diskuteret i det videnskabelige litteratur — herunder antileishmaniel aktivitet (visceral leishmaniasis, allerede en godkendt indikation for liposomalformen), antivirale anvendelser og immunmodulatoriske effekter i onkologiske indstillinger — kan ikke formelt rangeres eller evalueres uden TxGNN-prognoseoutput. Genindkørsel af prognose-pipelinen med korrigerede inputdata er det nødvendige første trin.
 
-1. **[Blocking]** Resolve Laegemiddelstyrelsen licence data retrieval failure and re-populate `taiwan_regulatory` with correct Danish authorisation records, including the EMA centralised authorisation for AmBisome® (EU/1/97/049)
-2. **[Blocking]** Re-run the TxGNN prediction pipeline once input data is corrected, to generate ranked repurposing candidates with confidence scores
-3. **[High]** Retrieve Mechanism of Action (MOA) data via DrugBank API for DrugBank ID DB00681 to support mechanistic plausibility analysis
-4. **[High]** Download and parse the current SmPC (via EMA or Laegemiddelstyrelsen) to populate key warnings, contraindications, and drug interaction data for safety pre-screening
-5. Once predictions are available, re-run the full evidence collection pipeline (ClinicalTrials.gov, PubMed, EudraCT) for the top-ranked predicted indication
+---
+
+## Sikkerhedsovervejelser
+
+Sikkerhedsdata (vigtige advarsler og kontraindikationer) blev ikke hentet fra Laegemiddelstyrelsen i denne evalueringscyklus. På grundlag af etableret klinisk sikkerhedsprofil for Amphotericin B:
+
+- **Nefrotoksicitet**: Dosisafhængig nyresvækkelse er den primære dosisgrænsende toksicitet for den konventionelle deoxycholatformulering. Liposomale formuleringer (f.eks. AmBisome®) reducerer nefrotoksisk risiko væsentligt. Baseline og regelmæssig overvågning af serum-kreatinin, urinstof og elektrolytter er vigtig.
+- **Infusionsrelaterede reaktioner**: Feber, rysteture, kulderystelser, lavt blodtryk og bronkospasme kan forekomme under intravenøs administration; premedicinering er standard praksis.
+- **Elektrolytforstyrrelser**: Hypokaliæmi og hypomagnesæmi er almindeligt og kræver overvågning og supplementering.
+- **Hæmatologiske effekter**: Normokrom normocytær anæmi kan udvikle sig ved længerevarende behandling.
+
+Venligst se det godkendte Produktresumé (SmPC) — tilgængeligt via European Medicines Agency (EMA) produktside for AmBisome® — for fuldstændig og autoritative sikkerhedsinformationer, herunder alle kontraindikationer og lægemiddelinteraktionsdata.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-prognose-pipelinen producerede ingen genfindingskandidater for Amphotericin B, og to uløste datahuller — en klassificeret som Blokerende, én som Høj alvor — forhindrer evalueringen i at skride til indledende sikkerhedsscreening eller klinisk evidensgennemgang. Ingen meningsfuld genfindingsanbefaling kan afgives på dette trin.
+
+**For at fortsætte er følgende nødvendigt:**
+
+1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisationsregistre, herunder EMA's centraliserede autorisation for AmBisome® (EU/1/97/049)
+2. **[Blokerende]** Genindkør TxGNN-prognose-pipelinen når inputdata er korrigeret, for at generere rangerede genfindingskandidater med tillidsscores
+3. **[Høj]** Hent Virkningsmekanisme (MOA) data via DrugBank API for DrugBank ID DB00681 for at understøtte analyse af mekanistisk plausibilitet
+4. **[Høj]** Download og parse det aktuelle Produktresumé (via EMA eller Laegemiddelstyrelsen) for at udfylde vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata til indledende sikkerhedsscreening
+5. Når prognoser er tilgængelige, genindkør den fulde evidensindsamlingspipeline (ClinicalTrials.gov, PubMed, EudraCT) for den højest rangerede forudsagte indikation
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

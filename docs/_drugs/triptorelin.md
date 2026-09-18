@@ -29,64 +29,65 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Triptorelin: From GnRH Agonist Therapy to Hypertrichosis
+# Triptorelin: Fra GnRH-agonistrapi til hypertrikose
 
-## One-Sentence Summary
+## Enlinjeresumé
 
-Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist, pharmacologically used to suppress the pituitary-gonadal axis in hormone-dependent conditions.
-The TxGNN model predicts it may be effective for **Hypertrichosis (excessive hair growth)**,
-but this direction is currently supported by only **1 case report** and **no clinical trials**, and that single report does not actually demonstrate a treatment effect.
+Triptorelin er en GnRH (gonadotropin-releasing hormone)-agonist, farmakologisk anvendt til at undertrykke hypofyse-gonadalaksen ved hormonafhængige tilstande.
+TxGNN-modellen forudsiger, at det kan være effektivt ved **hypertrikose (overdreven hårvækst)**,
+men denne retning understøttes i øjeblikket af kun **1 caseberetning** og **ingen kliniske forsøg**, og den enkelte beretning viser faktisk ikke nogen behandlingseffekt.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Danish regulatory data (drug not marketed in Denmark); generally known as a GnRH agonist used in hormone-dependent conditions |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.9970% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---|---|
+| Oprindelig indikation | Ikke tilgængeligt fra danske regulatoriske data (lægemidlet er ikke markedsført i Danmark); generelt kendt som en GnRH-agonist, der bruges ved hormonafhængige tilstande |
+| Forudsagt ny indikation | Hypertrikose |
+| TxGNN-forudsigelsesscore | 99.9970% |
+| Evidensniveau | L4 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, triptorelin belongs to the class of GnRH (LHRH) agonists, which, with continuous use, downregulate pituitary GnRH receptors and suppress gonadotropin (LH/FSH) release, thereby reducing gonadal steroid (testosterone) production.
+I øjeblikket er detaljerede virkningsmekanismedata ikke tilgængelige. Baseret på kendt information tilhører triptorelin klassen af GnRH (LHRH)-agonister, som med kontinuerlig brug downregulerer pituitar-GnRH-receptorer og undertrykker gonadotropinudskillelse (LH/FSH), og derved reducerer produktionen af gonadal steroid (testosteron).
 
-The theoretical rationale for exploring triptorelin in hypertrichosis is that androgen-driven hair growth could, in principle, be reduced by suppressing testosterone. However, the only supporting literature identified (PMID 41822646) does **not** actually demonstrate this effect: it describes a transgender woman on testosterone-blocking therapy (including triptorelin) who nonetheless developed generalised hypertrichosis — but the cause was attributed to *ciclosporin*, not to a failure or benefit of triptorelin itself. The case illustrates that androgen suppression does not reliably prevent hypertrichosis from other drug causes, which is the opposite of evidence supporting triptorelin as a treatment.
+Den teoretiske begrundelse for at udforske triptorelin ved hypertrikose er, at androgenudløst hårvækst potentielt kunne reduceres ved at undertrykke testosteron. Men den eneste identificerede litteraturkilde (PMID 41822646) viser **ikke** denne effekt: den beskriver en transkvinde på testosteronblokerende terapi (herunder triptorelin), der udvikled generaliseret hypertrikose efter påbegyndelse af ciclosporin – men årsagen blev tilskrevet *ciclosporin*, ikke en svigt eller fordel ved triptorelin. Caseberetningen illustrerer, at androgensuppression ikke på pålidelig vis forhindrer hypertrikose fra andre lægemiddelårsager, hvilket er det modsatte af bevis, der understøtter triptorelin som behandling.
 
-In short, the mechanistic hypothesis is biologically plausible, but the only available real-world evidence does not support it, and may even argue against a clinically meaningful effect.
+Kort sagt er den mekanistiske hypotese biologisk plausibel, men den eneste tilgængelige empiriske evidens understøtter den ikke, og kan endda argumentere imod en klinisk meningsfuld effekt.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidans
 
-Currently no related clinical trials registered.
+I øjeblikket er der ikke registreret nogle relaterede kliniske forsøg.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case Report | Cureus | A transgender woman on testosterone-blocking therapy (including triptorelin) developed generalised hypertrichosis after starting ciclosporin — illustrating that androgen suppression did not prevent ciclosporin-induced hair growth. Not evidence of a therapeutic effect of triptorelin on hypertrichosis. |
+| PMID | År | Type | Journal | Vigtigste fund |
+|---|---|---|---|---|
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Caseberetning | Cureus | En transkvinde på testosteronblokerende terapi (herunder triptorelin) udvikled generaliseret hypertrikose efter påbegyndelse af ciclosporin – hvilket illustrerer, at androgensuppression ikke forhindrede ciclosporin-induceret hårvækst. Ikke bevis for en terapeutisk effekt af triptorelin ved hypertrikose. |
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-No marketing authorisations are currently registered for triptorelin in Denmark (market status: Not marketed; 0 licences on file).
+Der er i øjeblikket ingen markedsføringstilladelser registreret for triptorelin i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser på fil).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-The only available evidence (a single case report) does not support — and arguably contradicts — the hypothesis that triptorelin is effective for hypertrichosis. There are no clinical trials, the drug is not marketed in Denmark, and core safety/label data (TFDA/SmPC warnings, contraindications) and mechanism-of-action data are both flagged as data gaps (one of them blocking).
+**Begrundelse:**
+Den eneste tilgængelige evidens (en enkelt caseberetning) understøtter ikke – og modsiger muligvis – hypotesen om, at triptorelin er effektivt ved hypertrikose. Der er ingen kliniske forsøg, lægemidlet er ikke markedsført i Danmark, og vigtige sikkerhedsdata/etiketdata (TFDA/SmPC-advarsler, kontraindikationer) og virkningsmekanismedata er begge markeret som datamangler (en af dem er blokerende).
 
-**To proceed, the following is needed:**
-- Official product label / SmPC data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action documentation
-- Dedicated clinical or mechanistic studies evaluating triptorelin specifically for hypertrichosis (the current literature basis does not support the indication)
-- Reassessment of Danish market/regulatory pathway, given the drug is not currently marketed in Denmark
+**For at fortsætte er følgende nødvendigt:**
+- Officiel produktetiket / SmPC-data (advarsler, kontraindikationer) – i øjeblikket en blokerende datamangel
+- Bekræftet virkningsmekanismedokumentation
+- Dedikerede kliniske eller mekanistiske undersøgelser, der evaluerer triptorelin specifikt for hypertrikose (det aktuelle litteraturgrundlag understøtter ikke indikationen)
+- Revurdering af det danske marked/regulatorisk vej, givet at lægemidlet i øjeblikket ikke er markedsført i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

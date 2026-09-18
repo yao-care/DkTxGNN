@@ -29,72 +29,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Treosulfan: From Unspecified Indication to Diabetic Cataract
+# Treosulfan: Fra uspecificeret indikation til diabetisk stær
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Treosulfan is a bifunctional alkylating agent (a busulfan analogue); no original indication or approved-label data is currently available for this evidence pack. The TxGNN model predicts potential relevance to **Diabetic Cataract**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the drug's own known pharmacology (DNA cross-linking cytotoxicity) has no established mechanistic link to cataract pathophysiology — in fact, alkylating agents such as busulfan are more commonly associated with causing cataracts than treating them.
+Treosulfan er en bifunktionel alkyleringsagens (et busulfan-analog); der er i øjeblikket ingen oprindelig indikation eller godkendt-etiketdata tilgængelige for denne evidenspakke. TxGNN-modellen forudsiger potentiel relevans for **Diabetisk stær**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og lægemidlets kendt farmakologi (DNA-krydssammenknytning cytotoxicitet) har ingen etableret mekanistisk forbindelse til stærs patofysiologi — faktisk er alkyleringsagenser såsom busulfan mere almindeligt forbundet med at forårsage stær end at behandle den.
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not currently available (no licence or indication data recorded) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke i øjeblikket tilgængelig (ingen licens- eller indikationsdata registreret) |
+| Forudsagt ny indikation | Diabetisk stær |
+| TxGNN-forudsigelsesscore | 99.01% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Sæt på hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data for Treosulfan is not available in this evidence pack. Based on the information that is available, Treosulfan is described as a bifunctional alkylating agent structurally related to busulfan, acting via epoxide metabolites that cause DNA cross-linking — a mechanism used therapeutically for its cytotoxic effect.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige for Treosulfan i denne evidenspakke. Baseret på de tilgængelige oplysninger er Treosulfan beskrevet som en bifunktionel alkyleringsagens strukturelt beslægtet med busulfan, der virker via epoxidmetabolitter, som forårsager DNA-krydssammenknytning — en mekanisme, der bruges terapeutisk for sin cytotoxiske virkning.
 
-Diabetic cataract, by contrast, is driven by lens epithelial oxidative stress, the aldose reductase (polyol) pathway, and protein aggregation — processes with no established connection to DNA cross-linking cytotoxicity. Notably, the available evidence explicitly flags that alkylating agents in this class (e.g., busulfan) are clinically recognised as a **cataract risk factor**, i.e. the opposite direction of the predicted effect.
+Diabetisk stær er derimod drevet af linseepitelial oxidativ stress, aldose-reductase (polyol)-vej og proteinaggregation — processer uden etableret forbindelse til DNA-krydssammenknytning cytotoxicitet. Bemærkelsesværdigt nok fremhæver den tilgængelige evidens eksplicit, at alkyleringsagenser i denne klasse (f.eks. busulfan) er klinisk anerkendt som en **risikofaktor for stær**, det vil sige den modsatte retning af den forudsagte virkning.
 
-Given this, the mechanistic rationale for this prediction is weak and directionally questionable. This appears to be a case where the TxGNN model surfaced a statistical association (a high similarity score) without a plausible underlying pharmacological pathway, and it should be treated as hypothesis-generating only, not as a basis for clinical or research prioritisation.
+I betragtning heraf er den mekanistiske begrundelse for denne forudsigelse svag og retningsbestemt tvivlsom. Dette ser ud til at være et tilfælde, hvor TxGNN-modellen afslørede en statistisk sammenhæng (en høj similaritetsscore) uden en plausibel underliggende farmakologisk vej, og det bør behandles som hypothesegenererend alene, ikke som grundlag for klinisk eller forskningspriortering.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Treosulfan is not currently marketed in Denmark, and no marketing authorisations (national or centralised/EMA) are recorded in this evidence pack.
+Treosulfan markedsføres ikke i øjeblikket i Danmark, og der er ingen markedsføringstilladelser (nationale eller centraliserede/EMA) registreret i denne evidenspakke.
 
-## Cytotoxicity
+## Cytotoxicitet
 
-Based on its description as a bifunctional alkylating agent (busulfan analogue), Treosulfan falls into a known cytotoxic chemotherapy category.
+Baseret på dets beskrivelse som bifunktionel alkyleringsagens (busulfan-analog) falder Treosulfan ind i en kendt cytotoksisk kemoterapikategori.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Alkylating agent, busulfan analogue) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+| Punkt | Indhold |
+|------|---------|
+| Citotoxicitetsklassificering | Konventionel cytotoksisk (Alkyleringsagens, busulfan-analog) |
+| Myelosuppressionrisiko | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassificering | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
+| Overvågningspunkter | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte resumé over produktegenskaber (SmPC) for sikkerhedsinformationer.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Sæt på hold**
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (L5, no clinical trials or literature), and the drug's known pharmacology (alkylating cytotoxicity) runs mechanistically counter to, rather than supportive of, a cataract-treatment indication — alkylating agents are more commonly linked to causing cataracts. There is insufficient basis to advance this candidate.
+**Begrundelse:**
+Forudsigelsen hviler udelukkende på en TxGNN-modelscore (L5, ingen kliniske forsøg eller litteratur), og lægemidlets kendt farmakologi (alkyleringsmidlets cytotoxicitet) står mekanistisk i modstrid med snarere end understøtter en stær-behandlingsindikation — alkyleringsmidler er mere almindeligt forbundet med at forårsage stær. Der er utilstrækkelig basis for at fremme denne kandidat.
 
-**To proceed, the following is needed:**
-- Confirmed original indication and approved-label data for Treosulfan
-- Verified mechanism of action (MOA) data from a primary source (e.g., DrugBank/SmPC)
-- TFDA/Danish Medicines Agency label warnings and contraindications (currently blocking data gap, DG001)
-- Independent preclinical or mechanistic evidence specifically linking alkylating agents to a protective (not causative) effect on lens pathology, before any further evaluation is warranted
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet oprindelig indikation og godkendt-etiketdata for Treosulfan
+- Verificeret data om virkningsmekanisme (MOA) fra en primær kilde (f.eks. DrugBank/SmPC)
+- TFDA/Lægemiddelstyrelse-advarsler og kontraindikationer (datamangel blokerer i øjeblikket, DG001)
+- Uafhængig præ-klinisk eller mekanistisk evidens, der specifikt viser en beskyttende (ikke forårsagende) virkning af alkyleringsmidler på linsepatologi, før yderligere evaluering er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

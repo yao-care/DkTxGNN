@@ -29,73 +29,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vibegron: From Overactive Bladder to Polycystic Kidney Disease 3
+# Vibegron: Fra overaktiv blære til polycystisk nyresygdom 3
 
-## One-Sentence Summary
+## Enlinjesammenfatning
 
-Vibegron is a highly selective β3-adrenergic receptor agonist developed for overactive bladder (OAB), acting on detrusor muscle β3 receptors to promote bladder relaxation during the storage phase. The TxGNN model predicts a possible link to **Polycystic Kidney Disease 3 (with or without Polycystic Liver Disease)**, with a prediction score of **94.50%**, but this is currently supported by **zero clinical trials** and only general disease-background literature — no evidence directly connects Vibegron to this indication.
+Vibegron er en højtselektiv β3-adrenerg receptoragonist udviklet til overaktiv blære (OAB), der virker på blærevæggens (detrusor) β3-receptorer for at fremme blæreafslappelse under fyldningsfasen. TxGNN-modellen forudsiger en mulig forbindelse til **polycystisk nyresygdom 3 (med eller uden polycystisk leversygdom)**, med en forudsigelsesscore på **94.50%**, men dette understøttes i øjeblikket af **nul kliniske forsøg** og kun generel sygdomsbaggrundslitteratur — ingen bevis forbinder direkte Vibegron til denne indikation.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Overactive bladder (OAB) — derived from externally verified mechanism-of-action data; not available from Danish licensing records, as the drug is not marketed in Denmark |
-| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 94.50% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Overaktiv blære (OAB) — afledt fra eksternt verificerede virkningsmekanism-data; ikke tilgængelig fra danske licenseringsoptegnelser, da lægemidlet ikke markedsføres i Danmark |
+| Forudsagt ny indikation | Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom |
+| TxGNN forudsigelsesscore | 94.50% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-The Evidence Pack's structured data marks Vibegron's mechanism of action as a data gap. Externally verified information indicates Vibegron is a highly selective β3-adrenergic receptor agonist: it relaxes detrusor smooth muscle during bladder filling and suppresses parasympathetic acetylcholine release, which is the basis for its approved use in overactive bladder.
+Bevissamlingens strukturerede data markerer Vibegrons virkningsmekanism som et datagab. Eksternt verificerede oplysninger indikerer, at Vibegron er en højtselektiv β3-adrenerg receptoragonist: den afslapper glat muskulatur i detrusor under blærefyldning og undertrykker parasympatisk acetylcholinudgivelse, som er grundlaget for dens godkendte brug til overaktiv blære.
 
-Polycystic Kidney Disease 3 (PKD3) and associated polycystic liver disease belong to a genetically distinct disease class — a ciliopathy driven by mutations affecting polycystin and related fibrocystin/PKHD1 pathways, leading to progressive cyst formation in kidney and liver. There is no established biological pathway connecting β3-adrenergic receptor agonism to polycystin-mediated ciliary signaling or cystogenesis.
+Polycystisk nyresygdom 3 (PKD3) og associeret polycystisk leversygdom tilhører en genetisk særskilt sygdomsklasse — en ciliopati drevet af mutationer, der påvirker polycystin og relaterede fibrocystin/PKHD1-signalveje, hvilket fører til progressiv cystedannelse i nyrer og lever. Der er ingen etableret biologisk signalvej, der forbinder β3-adrenerg receptoragonisme til polycystin-medieret ciliær signalering eller cystedannelse.
 
-Given this, the high TxGNN score (94.50%) most likely reflects knowledge-graph embedding similarity (e.g., shared graph neighbors or indirect associations) rather than a genuine pharmacological rationale. This assessment is consistent with the reviewed literature, which addresses PKD/PLD disease biology in general but contains no study of Vibegron or any β3-agonist in this disease context.
+I betragtning heraf afspejler den høje TxGNN-score (94.50%) mest sandsynligt embeddings-lighed i vidensgrafen (f.eks. fælles grafnaboer eller indirekte associeringer) snarere end en ægte farmakologisk begrundelse. Denne vurdering er i overensstemmelse med den gennemgåede litteratur, som behandler PKD/PLD-sygdomsbiologi generelt, men indeholder ingen undersøgelse af Vibegron eller nogen β3-agonist i denne sygdomskontekst.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-*Note: the following literature discusses PKD3/polycystic liver disease pathophysiology and management in general — none of it studies Vibegron directly. It is included as disease-background context only.*
+*Bemærk: Følgende litteratur diskuterer PKD3/polycystisk leversygdoms patofysiologi og behandling generelt — ingen af dem studerer Vibegron direkte. Det er udelukkende inkluderet som sygdomsbaggrundskontekst.*
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Guideline | Journal of Hepatology | EASL clinical practice guidelines on diagnosis and management of cystic liver diseases, including polycystic liver disease |
-| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Review | Lancet | Overview of autosomal dominant polycystic kidney disease (ADPKD) as a systemic disorder with renal and extrarenal (hepatic) manifestations |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clinics in Liver Disease | ADPKD and polycystic liver disease (PCLD) follow a similar clinical course of hepatomegaly with preserved liver function; tolvaptan can slow renal deterioration |
-| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Review | JASN | Genetic overlap between ADPKD and autosomal dominant polycystic liver disease (ADPLD); eight causative genes identified |
-| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Pending classification | Advances in Kidney Disease and Health | PKD1/PKD2 mutations account for most ADPKD cases; ciliary dysfunction is central to pathogenesis |
-| [34724412](https://pubmed.ncbi.nlm.nih.gov/34724412/) | 2022 | Pending classification | Annual Review of Pathology | PLD mechanisms involve primary (causative gene mutation), secondary (cyst initiation), and tertiary (cystogenesis progression) processes |
-| [36200122](https://pubmed.ncbi.nlm.nih.gov/36200122/) | 2022 | Pending classification | Hepatic Medicine: Evidence and Research | Overview of PLD pathophysiology, diagnosis and treatment; most patients asymptomatic |
-| [35777701](https://pubmed.ncbi.nlm.nih.gov/35777701/) | 2023 | Pending classification | Human Pathology | Update on ductal plate malformations and fibropolycystic liver diseases |
-| [38689396](https://pubmed.ncbi.nlm.nih.gov/38689396/) | 2024 | Pending classification | Kidney360 | Genetic analysis of severe PLD in Japan; PKD2 variants found in 34% of severe cases |
-| [40296340](https://pubmed.ncbi.nlm.nih.gov/40296340/) | 2025 | Pending classification | Annals of Transplantation | Outcomes of combined liver-kidney transplantation in 9 PLD/PKD patients |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|---------|---------|
+| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Retningslinje | Journal of Hepatology | EASL-retningslinjer for klinisk praksis for diagnose og behandling af cystisk leversygdomme, herunder polycystisk leversygdom |
+| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Oversigt | Lancet | Oversigt over autosomalt dominant polycystisk nyresygdom (ADPKD) som en systemisk lidelse med renale og ekstrarenal (hepatisk) manifestationer |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Oversigt | Clinics in Liver Disease | ADPKD og polycystisk leversygdom (PCLD) følger et lignende klinisk forløb med hepatomegali og bevaret leverfunktion; tolvaptan kan forsinke renal forværring |
+| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Oversigt | JASN | Genetisk overlap mellem ADPKD og autosomalt dominant polycystisk leversygdom (ADPLD); otte kausale gener identificeret |
+| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Ventende klassificering | Advances in Kidney Disease and Health | PKD1/PKD2-mutationer tegner sig for de fleste ADPKD-tilfælde; ciliær dysfunktion er central for patogenesen |
+| [34724412](https://pubmed.ncbi.nlm.nih.gov/34724412/) | 2022 | Ventende klassificering | Annual Review of Pathology | PLD-mekanismer involverer primære (kausativ genmutation), sekundære (cystedannelsesinitiation) og tertiære (cystedannelsesprogression) processer |
+| [36200122](https://pubmed.ncbi.nlm.nih.gov/36200122/) | 2022 | Ventende klassificering | Hepatic Medicine: Evidence and Research | Oversigt over PLD-patofysiologi, diagnose og behandling; de fleste patienter er asymptomatiske |
+| [35777701](https://pubmed.ncbi.nlm.nih.gov/35777701/) | 2023 | Ventende klassificering | Human Pathology | Opdatering af ductale pladereformationer og fibropolycystisk leversygdomme |
+| [38689396](https://pubmed.ncbi.nlm.nih.gov/38689396/) | 2024 | Ventende klassificering | Kidney360 | Genetisk analyse af svær PLD i Japan; PKD2-varianter fundet i 34% af alvorlige tilfælde |
+| [40296340](https://pubmed.ncbi.nlm.nih.gov/40296340/) | 2025 | Ventende klassificering | Annals of Transplantation | Resultater af kombineret lever-nyre transplantation hos 9 PLD/PKD-patienter |
 
-## Denmark Market Information
+## Information om det danske marked
 
-Vibegron currently holds no marketing authorisation in Denmark (Danish Medicines Agency / EMA); it is not marketed in the Danish market.
+Vibegron har i øjeblikket ingen markedsføringstilladelse i Danmark (Lægemiddelstyrelsen / EMA); det markedsføres ikke på det danske marked.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. As Vibegron is not currently marketed in Denmark, a Danish/EU SmPC is not yet available.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Da Vibegron i øjeblikket ikke markedsføres i Danmark, er et dansk/EU SmPC endnu ikke tilgængeligt.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5 — no disease-specific clinical trials or literature), and the underlying mechanistic analysis found no known biological pathway linking Vibegron's β3-adrenergic agonism to the polycystin/ciliopathy pathway responsible for PKD3/PLD. The drug is also not currently marketed in Denmark. Nine additional TxGNN-predicted indications for Vibegron in this Evidence Pack (mitochondrial oxidative phosphorylation disorder, renal-hepatic-pancreatic dysplasia, Joubert syndrome with renal defect, thoracic malformation) show the same pattern — high graph-similarity scores with no supporting trials or literature — and are similarly rated Hold/L5.
+**Begrundelse:**
+Forudsigelsen understøttes udelukkende af en TxGNN-modelscore (L5 — ingen sygdomsspecifikke kliniske forsøg eller litteratur), og den underliggende mekanistiske analyse fandt ingen kendt biologisk signalvej, der forbinder Vibegrons β3-adrenerg agonisme med polycystin/ciliopati-signalvejen ansvarlig for PKD3/PLD. Lægemidlet markedsføres heller ikke i øjeblikket i Danmark. Ni yderligere TxGNN-forudsagte indikationer for Vibegron i denne Bevissamling (mitokondriel oxidativ fosforylerings forstyrrelseslidelse, renal-hepatisk-pankreatisk dysplasi, Joubert-syndrom med nyredefekt, thorakal misdannelse) viser samme mønster — høje graf-lighedsscorer uden understøttende forsøg eller litteratur — og vurderes tilsvarende som Hold/L5.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC or equivalent regulatory safety documentation (warnings, contraindications, drug interactions) — currently a blocking data gap
-- Confirmed original indication and MOA sourced from an official regulatory or DrugBank record (current data marked as gap)
-- Preclinical or mechanistic studies directly testing β3-adrenergic modulation in polycystin-pathway models
-- Any future disease-specific clinical trial or case-report data connecting Vibegron to PKD/PLD
+**For at gå videre er følgende nødvendigt:**
+- Dansk/EU SmPC eller tilsvarende regulatorisk sikkerhedsdokumentation (advarsler, kontraindikationer, lægemiddelinteraktioner) — i øjeblikket et blokeringsdatagab
+- Bekræftet oprindelig indikation og virkningsmekanism hentet fra en officiel regulatorisk eller DrugBank-optegnelse (aktuelle data markeret som gab)
+- Prekliniske eller mekanistiske studier, der direkte tester β3-adrenerg modulering i polycystin-signalvej-modeller
+- Eventuelle fremtidigt sygdomsspecifikke kliniske forsøgs- eller kasusrapportdata, der forbinder Vibegron med PKD/PLD
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

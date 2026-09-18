@@ -29,88 +29,89 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Omalizumab: From Allergic Asthma/Urticaria to Bronchitis
+# Omalizumab: Fra allergisk astma/nældefeber til bronkitis
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Omalizumab (Xolair) is a humanized anti-IgE monoclonal antibody whose established use, per the literature captured in this evidence pack, is moderate-to-severe allergic asthma and chronic spontaneous urticaria (CSU); a formal Danish/DrugBank-verified original indication record is not yet available. The TxGNN model predicts a new use in **Bronchitis**, but the **2 clinical trials** and **8 publications** currently attached to this candidate consist almost entirely of asthma data, and the model's own rationale flags this as a likely disease-label/ontology mismatch rather than direct bronchitis evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not registered in Denmark; internationally indicated for moderate-to-severe allergic asthma and chronic spontaneous urticaria (per literature in this pack) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.9992% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Omalizumab (Xolair) er et humaniseret monoklonalt antistof mod IgE, hvis etablerede indikation ifølge litteraturen i denne evidenspakke er moderat til svær allergisk astma og kronisk spontan urticaria (CSU); der er endnu ikke til rådighed en formelt dansk/DrugBank-verificeret oprindelig indikationsregistrering. TxGNN-modellen forudsiger en ny anvendelse ved **bronkitis**, men de **2 kliniske forsøg** og **8 publikationer**, der i øjeblikket er knyttet til denne kandidat, består næsten udelukkende af astmadata, og modellens egen rationalisering markerer dette som sandsynligt værende et sygdomsmærkat/ontologi-mismatch snarere end direkte bronkitisevidens.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-A structured mechanism-of-action record from DrugBank is currently flagged as a data gap in this pack (DG002). However, the attached literature is itself informative: omalizumab is a recombinant humanized monoclonal antibody that binds free IgE and blocks its interaction with the high-affinity FcεRI receptor on mast cells and basophils, reducing downstream allergic airway inflammation (PMID 16222080, 11270941). This is the drug's well-documented mechanism in allergic asthma.
-
-On a purely pathophysiological basis, this mechanism could plausibly extend to airway conditions with an eosinophilic/allergic component, such as eosinophilic bronchitis, since chronic bronchitis and asthma share overlapping inflammatory pathways and frequently co-occur clinically.
-
-**However, this rationale should be read with caution.** The model's own `repurposing_rationale` explicitly notes that the trials and literature returned under the "bronchitis" label are almost entirely asthma studies (e.g., NCT02477332 is a Chronic Spontaneous Urticaria trial; the literature set includes reviews titled "Omalizumab in asthma" and "Adult asthma exacerbations"), with only one case report (PMID 31478531) tangentially referencing bronchitis via a post-procedural complication. This pattern suggests a likely knowledge-graph node overlap between "bronchitis" and "asthma" rather than a genuine, independently supported repurposing signal for bronchitis itself.
+| Element | Indhold |
+|--------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt indikeret for moderat til svær allergisk astma og kronisk spontan urticaria (ifølge litteratur i denne pakke) |
+| Forudsagt ny indikation | Bronkitis |
+| TxGNN forudsigelsesscore | 99.9992% |
+| Evidensniveau | L3 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+En struktureret virkningsmekanisme-registrering fra DrugBank er i øjeblikket markeret som et datakløft i denne pakke (DG002). Imidlertid er den vedhæftede litteratur i sig selv informativ: omalizumab er et rekombinant humaniseret monoklonalt antistof, der binder frit IgE og blokerer dets interaktion med høj-affinitets FcεRI-receptoren på mastceller og basofiler, hvilket reducerer efterfølgende allergisk luftveisinflamation (PMID 16222080, 11270941). Dette er medicinen's veludokumenterede mekanisme i allergisk astma.
+
+På et rent patofysiologisk grundlag kunne denne mekanisme tænkeligvis udvides til luftvejstilstande med en eosinofilisk/allergisk komponent, såsom eosinofil bronkitis, da kronisk bronkitis og astma deler overlappende inflammatoriske veje og forekommer hyppigt samtidigt klinisk.
+
+**Imidlertid bør denne rationalisering læses med forsigtighed.** Modellens egen `repurposing_rationale` noterer eksplicit, at de forsøg og litteratur, der returneres under "bronkitis"-mærket, er næsten udelukkende astmastudier (f.eks. NCT02477332 er et kronisk spontan urticaria-forsøg; litteratursettet inkluderer anmeldelser med titler som "Omalizumab i astma" og "Astmaforværringer hos voksne"), hvor kun en enkelt case-rapport (PMID 31478531) tangentielt refererer til bronkitis via en post-procedural komplikation. Dette mønster tyder på et sandsynligt kendskabsgraf-node-overlap mellem "bronkitis" og "astma" snarere end et ægte, uafhængigt understøttet genbrugssignal for bronkitis selv.
+
+---
+
+## Klinisk forsøgsbevis
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Steroid-sparing effect of omalizumab in patients with asthma and persistent eosinophilic bronchitis; very small sample (relevance grade B — actual population is asthma + eosinophilic bronchitis, not bronchitis alone) |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Completed | 382 | Dose-finding study of QGE031 (ligelizumab, an anti-IgE agent related to omalizumab) as add-on therapy in Chronic Spontaneous Urticaria — disease population does not match bronchitis (relevance grade C) |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Fase 2/3 | Afsluttet | 11 | Kortikosteroid-sparende effekt af omalizumab hos patienter med astma og vedvarende eosinofil bronkitis; meget lille stikprøve (relevansgrad B — faktisk befolkning er astma + eosinofil bronkitis, ikke kun bronkitis) |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Fase 2 | Afsluttet | 382 | Dosisfindingsstudium af QGE031 (ligelizumab, et anti-IgE-middel relateret til omalizumab) som add-on-terapi i kronisk spontan urticaria — sygdomspopulation matcher ikke bronkitis (relevansgrad C) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clinical reviews in allergy & immunology | Overview of omalizumab approval and post-approval experience; efficacy established in moderate-to-severe persistent asthma, not bronchitis |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Cohort/Safety Study | Current medical research and opinion | Pooled safety analysis of omalizumab in children with allergic (IgE-mediated) asthma |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohort | Postepy dermatologii i alergologii | Omalizumab in older patients with severe allergic asthma-COPD overlap |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert opinion on pharmacotherapy | Discusses smoking-induced airway diseases (chronic bronchitis, emphysema) as comorbid with asthma; not an omalizumab efficacy study in bronchitis |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Review | Allergologia et immunopathologia | General review of monoclonal antibody use in pediatrics; mentions anti-IgE therapy only in passing |
-| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Review | Revue des maladies respiratoires | French expert review on adult asthma exacerbations; not bronchitis-specific |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case Report | Journal of investigational allergology & clinical immunology | Rare case of plastic bronchitis following bronchial thermoplasty (a device procedure); no omalizumab treatment data |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui (Japanese J. Anesthesiology) | Perioperative management review of asthma/chronic bronchitis patients; mentions omalizumab as an asthma option only |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Anmeldelse | Clinical reviews in allergy & immunology | Oversigt over omalizumab-godkendelse og post-godkendelseserfaringer; effektivitet etableret i moderat til svær vedvarende astma, ikke bronkitis |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Kohortestudie/sikkerhedstudie | Current medical research and opinion | Samlet sikkerhedsanalyse af omalizumab hos børn med allergisk (IgE-medieret) astma |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohorte | Postepy dermatologii i alergologii | Omalizumab hos ældre patienter med svær allergisk astma-COPD-overlap |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Anmeldelse | Expert opinion on pharmacotherapy | Diskuterer røgfremkaldte luftvejssygdomme (kronisk bronkitis, emfysem) som komorbiditet med astma; ikke et omalizumab-effektivitetsstudium i bronkitis |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Anmeldelse | Allergologia et immunopathologia | Generel anmeldelse af monoklonalt antistofbrug i pædiatri; nævner anti-IgE-terapi kun i forbifarten |
+| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Anmeldelse | Revue des maladies respiratoires | Fransk ekspertanmeldelse om astmaforværringer hos voksne; ikke bronkitis-specifik |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case-rapport | Journal of investigational allergology & clinical immunology | Sjælden tilfælde af plastisk bronkitis efter bronkial termoplasti (en enhedsprocedure); ingen omalizumab-behandlingsdata |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Anmeldelse | Masui (Japanese J. Anesthesiology) | Perioperativ ledelsesanmeldelse af astma/kronisk bronkitis-patienter; nævner omalizumab som en astmamulighed kun |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Omalizumab currently has **no marketing authorisations on record** in this evidence pack (`total_licenses: 0`, `market_status: Not marketed/Not marketed`), so no authorisation table can be populated. Note this reflects the data captured in this evidence pack — omalizumab (Xolair®) holds a centralised EU/EMA marketing authorisation for asthma, CSU, and chronic rhinosinusitis with nasal polyps in other jurisdictions; this should be independently confirmed against the Danish Medicines Agency (Laegemiddelstyrelsen) product register.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No structured warnings, contraindications, or drug-drug interaction data were returned for this candidate (DDI query status: not found).
+Omalizumab har i øjeblikket **ingen markedsføringstilladelser på rekorden** i denne evidenspakke (`total_licenses: 0`, `market_status: Not marketed/Not marketed`), så ingen tilladelsestabel kan udfyldes. Bemærk, at dette afspejler de data, der er optaget i denne evidenspakke — omalizumab (Xolair®) har en centraliseret EU/EMA-markedsføringstilladelse for astma, CSU og kronisk rhinosinusitis med næsepolypper i andre jurisdiktioner; dette bør uafhængigt bekræftes i forhold til Det Danske Medicinstyrelsens produktregister.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se den godkendte Produktsammenfattelse (SmPC) for sikkerhedsinformation. Ingen strukturerede advarsler, kontraindikationer eller lægemiddel-vekselvirkningsdata blev returneret for denne kandidat (DDI-forespørgselsstatus: ikke fundet).
 
-**Rationale:**
-- Evidence level is L3, and — more importantly — the trial and literature evidence attached to the "bronchitis" label is predominantly asthma-focused, indicating this may be a TxGNN disease-node/ontology mapping artifact rather than a validated, independent repurposing signal for bronchitis.
-- Two structural data gaps block further evaluation: DG001 (Blocking) — no local product label/warnings available, so a safety pre-screen (S1) cannot be completed; DG002 (High) — no confirmed mechanism-of-action record from DrugBank.
-- The drug itself has zero marketing authorisations recorded in Denmark, so there is no local regulatory foothold to build on.
+---
 
-**To proceed, the following is needed:**
-- Confirm whether the TxGNN "bronchitis" disease node is distinct from or conflated with "asthma" in the underlying knowledge graph before treating this as a novel candidate.
-- Obtain dedicated bronchitis-specific (not asthma-labeled) clinical evidence, ideally from a controlled trial in eosinophilic or chronic bronchitis populations.
-- Retrieve the TFDA/Danish SmPC warnings and contraindications (DG001) and a confirmed DrugBank mechanism-of-action record (DG002).
-- Given the same evidence pack contains a materially stronger, directly relevant candidate — "obstructive lung disease" (i.e., severe allergic asthma), which carries L1 evidence (multiple completed Phase 3 RCTs, e.g., NCT00314574, n=850) and a "Proceed with Guardrails" recommendation — that candidate should be evaluated separately as it appears to be the true source of the high-quality trial data currently misattributed to bronchitis.
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Rationalisering:**
+- Evidensniveauet er L3, og — vigtigere — det forsøg- og litteraturbevis, der er knyttet til "bronkitis"-mærket, er overvejende astmafokuseret, hvilket indikerer, at dette kan være et TxGNN-sygdomsnode-/ontologi-mappingartefakt snarere end et valideret, uafhængigt understøttet genbrugssignal for bronkitis.
+- To strukturelle datakløfter blokerer yderligere evaluering: DG001 (Blocking) — ingen lokalt produktmærkat/advarsler til rådighed, så en sikkerhedsscreening (S1) kan ikke gennemføres; DG002 (High) — ingen bekræftet virkningsmekanisme-registrering fra DrugBank.
+- Medicinen selv har nul markedsføringstilladelser registreret i Danmark, så der er ikke noget lokalt regulatorisk grundlag at bygge på.
+
+**For at fortsætte er følgende nødvendig:**
+- Bekræft, hvorvidt TxGNN "bronkitis"-sygdomsnoden er adskilt fra eller sammenlagt med "astma" i det underliggende kendskabsgraf, før dette behandles som en ny kandidat.
+- Indhent dedikeret bronkitis-specifik (ikke astma-mærket) klinisk bevis, ideelt fra et kontrolleret forsøg i eosinofil eller kronisk bronkitis-populationer.
+- Hent TFDA/dansk SmPC-advarsler og kontraindikationer (DG001) og en bekræftet DrugBank-virkningsmekanisme-registrering (DG002).
+- I betragtning af at samme evidenspakke indeholder en materielt stærkere, direkte relevant kandidat — "obstruktiv luftvejssygdom" (dvs. svær allergisk astma), der bærer L1-bevis (flere afsluttede fase 3 RCT'er, f.eks. NCT00314574, n=850) og en "Fortsæt med guardrails"-anbefaling — bør den kandidat evalueres separat, da den ser ud til at være den sande kilde til de høj-kvalitets-forsøgsdata, der i øjeblikket er forkert tilskrevet bronkitis.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

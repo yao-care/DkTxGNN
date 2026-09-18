@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Panitumumab: From Undocumented Original Indication to Drug-Induced Osteoporosis
+# Panitumumab: Fra Udokumenteret Oprindelig Indikation til Lægemiddelinduceret Osteoporose
 
-## One-Sentence Summary
+## Sammenfatning i En Sætning
 
-Panitumumab (DrugBank DB01269) currently has no recorded original indication or mechanism-of-action data in this evidence pack, and it holds no marketing authorisation in Denmark. The TxGNN model predicts a possible link to **Drug-Induced Osteoporosis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Panitumumab (DrugBank DB01269) har i øjeblikket ingen registreret oprindelig indikation eller mekanismedata i denne evidenspakke, og det har ingen markedsløbetilladelse i Danmark. TxGNN-modellen forudsiger en mulig forbindelse til **lægemiddelinduceret osteoporose**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
 
 ---
 
-## Quick Overview
+## Hurtigt Overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|------|
-| Original Indication | Not available (data gap) |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.13% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke tilgængelig (datakløft) |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
+| TxGNN-forudsigelsesscore | 99.13% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsløbetilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-Detailed mechanism-of-action data for Panitumumab is not available in this evidence pack (flagged as a High-severity data gap), and no original indication is currently on record. Panitumumab is known in the drug knowledge graph as an anti-EGFR monoclonal antibody, but without a documented original indication or MOA in this pack, no evidence-based link can be drawn between its known pharmacology and the proposed bone-metabolism pathway (RANKL/OPG, osteoclast activity) underlying drug-induced osteoporosis.
+Detaljerede mekanismedata for panitumumab er ikke tilgængelige i denne evidenspakke (markeret som et datakløft af høj alvorlighed), og ingen oprindelig indikation er for tiden registreret. Panitumumab kendes i lægemiddelvidensgrafen som et anti-EGFR-monoklonalt antistof, men uden en dokumenteret oprindelig indikation eller MOA i denne pakke kan der ikke drages en evidensbaseret forbindelse mellem dets kendte farmakologi og den foreslåede knogle-metabolisme-vej (RANKL/OPG, osteoklast-aktivitet) bag lægemiddelinduceret osteoporose.
 
-The model's own rationale for this candidate states explicitly that no direct mechanistic connection is established, and that the high TxGNN score (0.991) likely reflects an indirect association in the knowledge graph between the broader EGFR-inhibitor drug class and bone-density-related adverse-effect nodes, rather than Panitumumab-specific evidence.
+Modellens egen begrundelse for denne kandidat anfører eksplicit, at der ikke er etableret en direkte mekanistisk forbindelse, og at TxGNN-scoren på 0.991 sandsynligvis afspejler en indirekte association i vidensgrafen mellem den bredere klasse af EGFR-inhibitorer og knogletæthed-relaterede bivirkning-knudepunkter, snarere end panitumumab-specifik evidens.
 
-Because both the original-indication and MOA fields are data gaps, and no clinical or literature evidence exists for this candidate, the biological plausibility of this prediction cannot currently be assessed and should be treated as a hypothesis generated purely from graph-level associations.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Da både felterne for oprindelig indikation og MOA er datakløfter, og der ikke findes nogen klinisk eller litteraturbaseret evidens for denne kandidat, kan den biologiske plausibilitet af denne forudsigelse i øjeblikket ikke vurderes og skal behandles som en hypotese, der udelukkende er genereret fra associationer på graf-niveau.
 
 ---
 
-## Literature Evidence
+## Evidens fra Kliniske Forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Panitumumab currently has no marketing authorisation registered in Denmark (0 authorisations on file).
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Panitumumab har i øjeblikket ingen markedsløbetilladelse registreret i Danmark (0 tilladelser på fil).
 
-**Rationale:**
-This candidate rests on Evidence Level L5 (model prediction only) — there are no clinical trials or publications, no documented mechanism of action, and no original indication on record to assess biological plausibility. In addition, a Blocking-severity data gap exists for Danish label warnings/contraindications, which independently prevents any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Panitumumab's original indication and confirmed mechanism of action (DrugBank/label lookup)
-- Danish/EU Summary of Product Characteristics (SmPC) — warnings, contraindications, and drug interactions
-- DrugBank therapeutic category data to determine cytotoxicity/oncology classification
-- Any emerging clinical trial or literature evidence specific to drug-induced osteoporosis, diabetic retinopathy, or cataract-related candidates before further evaluation
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Denne kandidat er baseret på evidensniveau L5 (kun modelforudsigelse) — der er ingen kliniske forsøg eller publikationer, ingen dokumenteret mekanisme, og ingen oprindelig indikation registreret til at vurdere biologisk plausibilitet. Desuden eksisterer der et datakløft af blokeringsalvorlighed for danske etiketadvarsler/kontraindikationer, som uafhængigt forhindrer enhver sikkerhedsforvurdering.
+
+**For at fortsætte er følgende nødvendigt:**
+- Panitumumabs oprindelige indikation og bekræftet mekanisme (DrugBank/etiketopslagning)
+- Dansk/EU-produktresumé (SmPC) — advarsler, kontraindikationer og lægemiddelinteraktioner
+- DrugBank terapeutisk-kategori-data til at bestemme cytotoksicitet/onkologi-klassifikation
+- Enhver ny evidens fra kliniske forsøg eller litteratur specifik for lægemiddelinduceret osteoporose, diabetisk retinopati eller katarakt-relaterede kandidater før yderligere vurdering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

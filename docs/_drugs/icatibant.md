@@ -29,107 +29,104 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report template to produce a structured report from the supplied Evidence Pack for Icatibant.
+# Icatibant: Fra hereditær angioødem (etableret indikation) til C1-inhibitor-mangel (TxGNN-bekræftet indikation)
+
+## Sammenfatning i en sætning
+
+Icatibant (DrugBank DB06196) er en synthetisk dekapepta, bradykinin B2-receptorantagonist, hvis kliniske brugsprofil i bevisemballonen helt og fuldt er bygget omkring **C1-inhibitor-mangel** (dvs. hereditær angioødem, HAE) — TxGNN-modellen tildeler denne indikation en næsten maksimal forudsigelsesscore, og evidensgrundlaget er usædvanligt stærkt med **23 kliniske forsøg** (herunder tre afsluttede fase 3 RCT'er) og **20 publikationer**, der understøtter det. Bemærk: fordi denne bevisemballone ikke registrerer en dokumenteret "oprindelig indikation" eller MOA for lægemidlet, synes denne indikation i praksis at være icatibants eget veletableret primære brugsfelt snarere end et rent nyt ombestemmelsesmål — den høje score afspejler modelbekræftelse, ikke opdagelse.
 
 ---
 
-# Icatibant: From Hereditary Angioedema (Established Use) to C1 Inhibitor Deficiency (TxGNN-Confirmed Indication)
+## Kort overblik
 
-## One-Sentence Summary
-
-Icatibant (DrugBank DB06196) is a synthetic bradykinin B2-receptor antagonist whose clinical use profile in the evidence pack is entirely built around **C1 inhibitor deficiency** (i.e., Hereditary Angioedema, HAE) — the TxGNN model assigns this indication a near-maximal prediction score, and the evidence base is unusually strong, with **23 clinical trials** (including three completed Phase 3 RCTs) and **20 publications** supporting it. Note: because this evidence pack does not record a documented "original indication" or MOA for the drug, this indication in practice appears to be Icatibant's own well-established primary use rather than a genuinely novel repurposing target — the high score reflects model confirmation, not discovery.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no approved indication text available; see note below) |
-| Predicted New Indication | C1 Inhibitor Deficiency (Hereditary Angioedema) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke dokumenteret i denne bevisemballone (ingen godkendt indikationstekst tilgængelig; se bemærkning nedenfor) |
+| Forudsagt ny indikation | C1-inhibitor-mangel (hereditær angioødem) |
+| TxGNN forudsigelsesscore | 99.99% |
+| Evidensniveau | L1 |
+| Dansk markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Pause |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism-of-action data is not available as a discrete field in this evidence pack (original_moa = data gap). However, the literature gathered alongside the prediction consistently describes Icatibant as a **synthetic decapeptide, selective bradykinin B2-receptor antagonist** (see PMID 21284353, PMID 24925394). Hereditary Angioedema due to C1 inhibitor deficiency (C1-INH-HAE) arises when insufficient functional C1 esterase inhibitor allows uncontrolled activation of the plasma kallikrein-kinin cascade, leading to excess bradykinin generation and the recurrent subcutaneous/submucosal swelling attacks characteristic of the disease.
+I øjeblikket er detaljerede mekanisme-virkning-data ikke tilgængelige som et diskret felt i denne bevisemballone (original_moa = datagab). Imidlertid beskriver litteraturen, der blev indsamlet sammen med forudsigelsen, konsekvent icatibant som en **synthetisk dekapepta, selektiv bradykinin B2-receptorantagonist** (se PMID 21284353, PMID 24925394). Hereditær angioødem på grund af C1-inhibitor-mangel (C1-INH-HAE) opstår, når utilstrækkelig funktionel C1-esterase-inhibitor tillader ukontrolleret aktivering af plasma-kallikrein-kinin-kaskaden, hvilket fører til overskydende bradykinin-generering og de tilbagevendende subcutane/submucøse hævelsesanfald, der er karakteristiske for sygdommen.
 
-Because Icatibant directly blocks the bradykinin B2 receptor — the final common effector of the pathway that C1 inhibitor deficiency dysregulates — its pharmacology maps directly onto the disease mechanism rather than requiring an indirect or speculative link. This is reflected in the evidence: unlike the model's other predicted indications for Icatibant in this pack (serpinopathy, pseudo-von Willebrand disease, platelet release disorders, immune-mediated necrotizing myopathy — all scored L5/Hold with no supporting trials or literature), C1 inhibitor deficiency is backed by decades of dedicated randomized trials, national/regional registries, and real-world outcome studies.
+Fordi icatibant direkte blokerer bradykinin B2-receptoren — den endelige fælles effektorfunktion på den vej, som C1-inhibitor-mangel dysregulerer — kortlægger dets farmakologi direkte til sygdomsmekanismen snarere end at kræve en indirekte eller spekulativ forbindelse. Dette afspejles i beviset: i modsætning til modellens andre forudsagte indikationer for icatibant i denne emballone (serpinopati, pseudo-von Willebrand-sygdom, blodplade-frigivelsesforstyrrelse, immun-medieret nekrotiserende myopati — alle scoret L5/Pause uden understøttende forsøg eller litteratur) — er C1-inhibitor-mangel understøttet af årtiers dedikerede randomiserede forsøg, nationale/regionale registre og real-world-resultatstudier.
 
-The practical implication is that this is likely not a "new" repurposing opportunity in the traditional sense, but rather TxGNN correctly re-identifying Icatibant's core, already-established indication (marketed elsewhere as Firazyr®). This should be read as a validation signal for the model's ranking behavior on this drug, while the true "hold" points for Denmark relate to local regulatory/market status and a blocking safety data gap (see below), not to mechanistic plausibility.
+Den praktiske implikation er, at dette sandsynligvis ikke er en "ny" ombestemmelses-mulighed i traditionel forstand, men snarere at TxGNN korrekt gen-identificerer icatibants kerne, allerede etablerede indikation (markedsført andre steder som Firazyr®). Dette bør læses som et valideringssignal for modellens rangerings-adfærd på dette lægemiddel, mens de sande "pause"-pointers for Danmark vedrører lokal regulatorisk/markeds-status og et blokkerende sikkerhedsdatagab (se nedenfor), ikke til mekanistisk plausibilitet.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Phase 3 | Completed | 84 | Pivotal RCT (FAST-1): icatibant vs. placebo for acute cutaneous/abdominal HAE attacks |
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Phase 3 | Completed | 98 | Pivotal RCT (FAST-3): icatibant vs. placebo, subcutaneous injection for acute HAE attacks |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Phase 3 | Completed | 85 | Pivotal RCT (FAST-2): icatibant vs. oral tranexamic acid for acute HAE attacks |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Phase 3 | Completed | 151 | Open-label study of self-administered subcutaneous icatibant — safety, tolerability, convenience |
-| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Phase 4 | Completed | 19 | Self-administered icatibant for acute HAE attacks (IHA study) |
-| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | N/A | Completed | 1761 | Icatibant Outcome Survey (IOS) — large international post-marketing safety registry |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Phase 3 | Completed | 32 | Pediatric/adolescent PK, tolerability, and safety of a single subcutaneous dose |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Phase 3 | Completed | 8 | Efficacy, PK, and safety of icatibant in Japanese patients with acute HAE attacks |
-| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Phase 3 | Completed | 2 | Safety, efficacy, and PK of icatibant in Japanese children/adolescents |
-| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Phase 4 | Completed | 5 | Real-world safety/efficacy of icatibant injection (Icanticure®) for bradykinin-induced angioedema |
+| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Fase 3 | Afsluttet | 84 | Pivotal RCT (FAST-1): icatibant vs. placebo til akutte cutane/abdominale HAE-anfald |
+| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Fase 3 | Afsluttet | 98 | Pivotal RCT (FAST-3): icatibant vs. placebo, subcutan injektion til akutte HAE-anfald |
+| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Fase 3 | Afsluttet | 85 | Pivotal RCT (FAST-2): icatibant vs. oral traneksaminsyre til akutte HAE-anfald |
+| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Fase 3 | Afsluttet | 151 | Open-label-studie af selvadministreret subcutan icatibant — sikkerhed, tolerabilitet, bekvemmelighed |
+| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Fase 4 | Afsluttet | 19 | Selvadministreret icatibant til akutte HAE-anfald (IHA-studie) |
+| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | Ikke relevant | Afsluttet | 1761 | Icatibant Outcome Survey (IOS) — stort internationalt post-markedsførings-sikkerhedsregister |
+| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Fase 3 | Afsluttet | 32 | Pædiatrisk/adolescent PK, tolerabilitet og sikkerhed fra en enkelt subcutan dosis |
+| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Fase 3 | Afsluttet | 8 | Effektivitet, PK og sikkerhed af icatibant hos japanske patienter med akutte HAE-anfald |
+| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Fase 3 | Afsluttet | 2 | Sikkerhed, effektivitet og PK af icatibant hos japanske børn/adolescenter |
+| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Fase 4 | Afsluttet | 5 | Real-world sikkerhed/effektivitet af icatibant-injektion (Icanticure®) til bradykinin-induceret angioødem |
 
-*(14 additional completed/withdrawn trials were identified in the evidence pack but are omitted here per the 10-trial display limit.)*
+*(14 yderligere afsluttede/tilbagetrukne forsøg blev identificeret i bevisemballonen, men er udeladt her på grund af grænsebetingelsen på 10 forsøg.)*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | Reviews the burden of C1-INH deficiency HAE in the Asia-Pacific region and treatment access gaps |
-| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registry/Observational | Clin Exp Allergy | Registry analysis of icatibant vs. C1-inhibitor use for laryngeal HAE attacks |
-| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | Observational | J Allergy Clin Immunol Pract | National UK survey of HAE and acquired C1 inhibitor deficiency demographics |
-| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospective/Observational | J Clin Pharmacol | Retrospective review of off-label icatibant/C1-INH prescribing patterns |
-| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Registry/Observational | Allergy Asthma Clin Immunol | Icatibant Outcome Survey (Spain) — disease characteristics and treatment outcomes |
-| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Review | Expert Rev Clin Immunol | Review of icatibant use in adolescents/children over age 2 with C1-INH-HAE |
-| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Case report | J Clin Immunol | Case series on icatibant and recombinant C1 inhibitor use during pregnancy |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematic Review | Pneumonol Alergol Pol | Systematic review comparing conestat alfa, C1-INH, and icatibant for acute attacks |
-| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observational | Allergy | Real-world observational study of icatibant in acquired C1-inhibitor deficiency |
-| [21284353](https://pubmed.ncbi.nlm.nih.gov/21284353/) | 2010 | Review | Prescrire International | Independent drug review of icatibant's role vs. C1 esterase inhibitor for HAE attacks |
+| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Oversigt | J Allergy Clin Immunol | Gennemgang af byrden af C1-INH-mangel HAE i Asien-Stillehavs-regionen og behandlings-adgangshuller |
+| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Register/Observationel | Clin Exp Allergy | Register-analyse af icatibant vs. C1-inhibitor-forbrug til laryngeale HAE-anfald |
+| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | Observationel | J Allergy Clin Immunol Pract | Nationalt UK-survey af HAE og erhvervet C1-inhibitor-mangel-demografi |
+| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospektiv/Observationel | J Clin Pharmacol | Retrospektiv gennemgang af off-label icatibant/C1-INH-ordinerings-mønstre |
+| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Register/Observationel | Allergy Asthma Clin Immunol | Icatibant Outcome Survey (Spanien) — sygdomskarakteristika og behandlings-resultater |
+| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Oversigt | Expert Rev Clin Immunol | Oversigt over icatibant-forbrug hos adolescenter/børn fra 2 år med C1-INH-HAE |
+| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Sag-rapport | J Clin Immunol | Kasuistik om icatibant og rekombinant C1-inhibitor-forbrug under graviditet |
+| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematisk gennemgang | Pneumonol Alergol Pol | Systematisk gennemgang sammenlignet conestat alfa, C1-INH og icatibant til akutte anfald |
+| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observationel | Allergy | Real-world observationel studie af icatibant ved erhvervet C1-inhibitor-mangel |
+| [21284353](https://pubmed.ncbi.nlm.nih.gov/21284353/) | 2010 | Oversigt | Prescrire International | Uafhængig lægemiddel-gennemgang af icatibants rolle vs. C1-esterase-inhibitor ved HAE-anfald |
 
-*(10 additional publications were identified in the evidence pack but are omitted here per the 10-item display limit.)*
-
----
-
-## Denmark Market Information
-
-No marketing authorisation records are currently available for Icatibant in this evidence pack — market status is recorded as **"Not marketed" (Not marketed)** with **0** total licenses. This is notable given that Icatibant (Firazyr®) holds an EMA centralised marketing authorisation and is used across much of the EU for HAE; this discrepancy should be verified against the Danish Medicines Agency (Lægemiddelstyrelsen) register directly, as it may reflect a data collection gap rather than true unavailability.
+*(10 yderligere publikationer blev identificeret i bevisemballonen, men er udeladt her på grund af grænsebetingelsen på 10 elementer.)*
 
 ---
 
-## Safety Considerations
+## Dansk markedsinformation
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack (DDI query status: not found).
+Ingen markedsførings-tilladelsesregistre er i øjeblikket tilgængelige for icatibant i denne bevisemballone — markeds-status er registreret som **"Ikke markedsført" (Ikke markedsført)** med **0** samlede licenser. Dette er bemærkelsesværdigt i betragtning af, at icatibant (Firazyr®) har en EMA centraliseret markedsføringstilladelse og bruges på tværs af meget af EU til HAE; denne uoverensstemmelse bør verificeres direkte mod Lægemiddelstyrelsens register, da det kan afspejle et dataindsamlingsgab snarere end reel utilgængelighed.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Se venligst det godkendt sammenfattet produktkarakteristika (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata var tilgængelige i denne bevisemballone (DDI-søgning returnerede: ikke fundet).
 
-**Rationale:**
-- Clinical evidence for Icatibant in C1 inhibitor deficiency (HAE) is exceptionally strong (Evidence Level L1, three completed Phase 3 RCTs plus a 1,761-patient international outcome registry), and the mechanistic link is direct and well-established.
-- However, a **Blocking**-severity data gap (DG001: missing TFDA/SmPC-equivalent warnings and contraindications) currently prevents completion of the mandatory S1 safety initial assessment, and Denmark market status shows zero marketing authorisations on record. Until basic safety labelling is available and the Danish market/registration status is confirmed, this candidate cannot advance past Hold regardless of efficacy strength.
+---
 
-**To proceed, the following is needed:**
-- Danish/EMA product label (SmPC) to resolve DG001 (warnings, contraindications) and confirm true Denmark market/registration status (the "not marketed" flag appears inconsistent with Icatibant's known EU centralised authorisation and should be re-verified).
-- Confirmed mechanism-of-action documentation from DrugBank (DG002) to formally support the mechanistic rationale summarized above.
-- Drug-drug interaction data, currently unavailable (query returned "not_found").
-- Clarification of whether this evaluation is intended to assess a genuinely *new* indication or to support market entry/registration in Denmark for Icatibant's already-established indication — since the "predicted" indication and the drug's real-world primary use appear to be the same condition.
+## Konklusion og næste trin
 
-*Note: TxGNN also flagged four other candidate indications for Icatibant (serpinopathy with toxic serpin polymerization, pseudo-von Willebrand disease, primary platelet release disorder, immune-mediated necrotizing myopathy), each rated L5/Hold with no supporting trials or literature and only speculative mechanistic rationale. These are not considered actionable at this time.*
+**Beslutning: Pause**
+
+**Begrundelse:**
+- Klinisk evidensе for icatibant ved C1-inhibitor-mangel (HAE) er usædvanligt stærk (Evidensniveau L1, tre afsluttede fase 3 RCT'er plus et 1.761-patient internationalt resultatregister), og det mekanistiske link er direkte og veletableret.
+- Imidlertid blokerer et **blokkerings**-sværhedsgrad datagab (DG001: manglende TFDA/SmPC-ækvivalente advarsler og kontraindikationer) i øjeblikket completion af den obligatoriske S1-sikkerhedsinitialvurdering, og Danmarks markeds-status viser nul markedsføringstilladelser på record. Indtil grundlæggende sikkerhedsmærkning er tilgængelig, og det danske marked-/registrerings-status er bekræftet, kan denne kandidat ikke avancere ud over Pause uanset effektivitetsstyrke.
+
+**For at fortsætte er følgende nødvendig:**
+- Dansk/EMA-produktetiket (SmPC) til at løse DG001 (advarsler, kontraindikationer) og bekræfte det sande danske markeds-/registrerings-status (flaget "ikke markedsført" synes uoverensstemmende med icatibants kendt EMA centraliserede godkendelse og bør re-verificeres).
+- Bekræftet mekanisme-virkning-dokumentation fra DrugBank (DG002) til formelt at understøtte den mekanistiske begrundelse opsummeret ovenfor.
+- Lægemiddel-lægemiddel-interaktionsdata, i øjeblikket utilgængelige (søgning returnerede "not_found").
+- Præcisering af, hvorvidt denne evaluering er beregnet til at vurdere en virkelig *ny* indikation eller til at understøtte markedsindtræden/registrering i Danmark for icatibants allerede etablerede indikation — da den "forudsagte" indikation og lægemidlets real-world primære brugsfelt synes at være den samme tilstand.
+
+*Bemærk: TxGNN flaggede også fire andre kandidatindikationer for icatibant (serpinopati med giftig serpinpolymerisering, pseudo-von Willebrand-sygdom, primær blodpladeudslippelsesforstyrrelse, immunmedieret nekrotiserende myopati), hver af dem vurderet L5/Pause uden understøttende forsøg eller litteratur og kun spekulativ mekanistisk begrundelse. Disse anses ikke for handlingsduelige på dette tidspunkt.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

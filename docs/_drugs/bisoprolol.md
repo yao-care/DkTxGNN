@@ -29,88 +29,89 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bisoprolol: From Hypertension to Malignant Renovascular Hypertension
+# Bisoprolol: Fra hypertension til malign renovaskulær hypertension
 
-## One-Sentence Summary
+## Sammenfattelse på en sætning
 
-Bisoprolol is a cardioselective β1-adrenergic receptor blocker internationally established for the management of hypertension, angina pectoris, and chronic heart failure, though it currently holds no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension** — a severe, end-organ-threatening form of hypertension driven by renal artery stenosis and RAAS overactivation —
-with **0 clinical trials** and **0 directly relevant publications** identified; the prediction rests entirely on mechanistic plausibility.
+Bisoprolol er en kardioselektiv β1-adrenerg receptorbloker, der er internationalt etableret til behandling af hypertension, angina pectoris og kronisk hjerteinsufficiens, selvom det i øjeblikket ikke har markedsføringstilladelse i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **malign renovaskulær hypertension** — en alvorlig, end-organ-truende form for hypertension drevet af nyearterestenose og RAAS-overaktivering —
+med **0 kliniske forsøg** og **0 direkte relevante publikationer** identificeret; forudsigelsen er helt baseret på mekanistisk plausibilitet.
 
 ---
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
+| Post | Indhold |
 |------|---------|
-| Original Indication | No marketing authorisation in Denmark; internationally established for hypertension, angina pectoris, and chronic heart failure |
-| Predicted New Indication | Malignant Renovascular Hypertension |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ingen markedsføringstilladelse i Danmark; internationalt etableret til behandling af hypertension, angina pectoris og kronisk hjerteinsufficiens |
+| Forudsagt ny indikation | Malign renovaskulær hypertension |
+| TxGNN-forudsigelsesscore | 99.94% |
+| Bevisniveau | L4 |
+| Danmark-markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afhold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action (MOA) data is not currently available in this evidence pack. Based on Bisoprolol's well-established pharmacology, it is a highly selective β1-adrenergic receptor antagonist. Its key cardiovascular effects include suppression of renin secretion via juxtaglomerular β1 receptors, reduction in heart rate and cardiac output, and consequent lowering of systemic blood pressure.
+Detaljerede data om virkningsmekanisme (MOA) er i øjeblikket ikke tilgængelige i denne bevissamling. Baseret på Bisoprolols veletablerede farmakologi er det en højt selektiv β1-adrenerg receptorantagonist. Dets vigtigste kardiovaskulære effekter omfatter undertrykkelse af renin-sekretion via juxtaglomerulære β1-receptorer, reduktion i hjertehastighed og hjertets minutvolumen samt deraf følgende sænkning af det systemiske blodtryk.
 
-The core pathophysiology of renovascular hypertension is renal artery stenosis causing sustained, pathological overactivation of the renin-angiotensin-aldosterone system (RAAS). Because Bisoprolol suppresses renin release at the juxtaglomerular apparatus, it directly counteracts this upstream driver, providing a mechanistically coherent rationale for the TxGNN prediction. In the **malignant (accelerated) phase**, acute target-organ damage is present, and combination antihypertensive therapy is standard; Bisoprolol would function as an adjunct to first-line agents such as RAAS inhibitors (ACE inhibitors/ARBs) or calcium channel blockers.
+Kernepatolysologien for renovaskulær hypertension er nyearterestenose, der forårsager vedvarende, patologisk overaktivering af renin-angiotensin-aldosteron-systemet (RAAS). Fordi Bisoprolol undertryker renin-frigivelse ved det juxtaglomerulære apparat, modvirker det direkte denne opstrøms-driver og giver et mekanistisk konsistent rationale for TxGNN-forudsigelsen. I den **maligne (accelereret) fase** er akut end-organ-skade til stede, og kombinationsantihypertensiv terapi er standard; Bisoprolol ville fungere som et adjuvansstof til førstelinje-agentia såsom RAAS-hæmmere (ACE-hæmmere/ARBs) eller calcium-kanalblokkere.
 
-A clinically important nuance reinforces this prediction: patients with **bilateral renal artery stenosis** carry a heightened risk of acute kidney injury when treated with ACE inhibitors or ARBs. In this specific scenario, Bisoprolol — by controlling blood pressure through a RAAS-independent adrenergic mechanism — may represent a safer complementary or alternative agent, adding practical clinical value to the predicted indication. The TxGNN model's high score may also reflect the closely related prediction for **Malignant Hypertensive Renal Disease** (rank 2, identical score), underscoring a consistent signal across both renovascular and renal-damage phenotypes of malignant hypertension.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+En klinisk vigtig nuance styrker denne forudsigelse: patienter med **bilateral nyearterestenose** har øget risiko for akut nyreskade, når de behandles med ACE-hæmmere eller ARBs. I dette specifikke scenarie kan Bisoprolol — ved at kontrollere blodtryk gennem en RAAS-uafhængig adrenerg mekanisme — repræsentere et sikrere komplementært eller alternativt middel, hvilket tilføjer praktisk klinisk værdi til den forudsagte indikation. TxGNN-modellens høje score kan også afspejle den tæt relaterede forudsigelse for **malign hypertensiv nyresygdom** (rangering 2, identisk score), hvilket understreger et konsistent signal på tværs af både renovaskulære og nyeskade-fænotyper af malign hypertension.
 
 ---
 
-## Literature Evidence
+## Kliniske forsøgsbeviser
 
-Currently no related literature available for Bisoprolol in malignant renovascular hypertension.
-
-> **Note:** A query for Bisoprolol in the related indication "pulmonary hypertension owing to lung disease and/or hypoxia" (rank 7–8) returned 20 PubMed results; however, upon review these publications address general hypoxia biology and are not specific to Bisoprolol treatment. They are therefore not included here. The mechanistic rationale for that indication is weaker, and its recommendation is **Hold** (L5).
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-Bisoprolol currently holds no marketing authorisation in Denmark and no product-level regulatory data is available.
+I øjeblikket ingen relateret litteratur tilgængelig for Bisoprolol ved malign renovaskulær hypertension.
 
-> **Note:** Bisoprolol is authorised across multiple European countries and has a well-established EMA-assessed safety and efficacy profile under brand names including **Emconcor**, **Bisoprolol Actavis**, and **Bisoprolol Stada**. Absence from the Danish market does not reflect an unfavourable regulatory determination. Importation under individual patient authorisation or cross-border prescribing pathways may be applicable; consultation with the Danish Medicines Agency (Lægemiddelstyrelsen) is recommended.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information. No warnings, contraindications, or drug interaction data were available in the current evidence pack.
-
-> **Clinical reminder:** As a class effect, β-blockers should generally be used with caution in patients with significant bradycardia, advanced AV block, decompensated heart failure, or obstructive airways disease. The specific context of renal artery stenosis and malignant hypertension warrants careful haemodynamic monitoring.
+> **Bemærkning:** En søgning efter Bisoprolol inden for den relaterede indikation "pulmonal hypertension på grund af lungesygdom og/eller hypoksi" (rangering 7–8) returnerede 20 PubMed-resultater; dog behandler disse publikationer ved gennemgang almen hypoksi-biologi og er ikke specifik for Bisoprolol-behandling. De er derfor ikke inkluderet her. Det mekanistiske rationale for denne indikation er svagere, og dens anbefaling er **Afhold** (L5).
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Bisoprolol har i øjeblikket ingen markedsføringstilladelse i Danmark, og ingen data på produktniveau er tilgængelige.
+
+> **Bemærkning:** Bisoprolol er godkendt i flere europæiske lande og har en veletableret EMA-vurderet sikkerhed og effektivitetsprofil under handelsmærker, herunder **Emconcor**, **Bisoprolol Actavis** og **Bisoprolol Stada**. Fraværet fra det danske marked afspejler ikke en ugunstig regulatorisk bestemmelse. Import under individuel patientgodkendelse eller grænseoverskridende receptskrivningsveje kan være relevant; konsultation med Lægemiddelstyrelsen anbefales.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst godkendt produktresumé (SmPC) for fuldstændig sikkerhedsinformation. Ingen advarsler, kontraindikationer eller lægemiddelinteraktionsdata var tilgængelige i den aktuelle bevissamling.
+
+> **Klinisk påmindelse:** Som klassebetinget effekt bør β-blokkere generelt bruges med forsigtighed hos patienter med betydelig bradykardi, avanceret AV-blok, dekompenseret hjerteinsufficiens eller obstruktiv luftvejssygdom. Den specifikke kontekst for nyearterestenose og malign hypertension nødvendiggør omhyggelig hæmodynamisk overvågning.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afhold**
 
 **Rationale:**
-The TxGNN model assigns a very high prediction score (99.94%) to Bisoprolol for malignant renovascular hypertension, and the β1-adrenergic blockade mechanism — particularly its suppression of juxtaglomerular renin secretion — provides a biologically coherent link to the RAAS-driven pathophysiology. However, no clinical trials or direct disease-specific publications currently support this indication, the drug is not marketed in Denmark, and full safety data for this patient population has not been retrieved.
+TxGNN-modellen tildeler en meget høj forudsigelsesscore (99.94%) til Bisoprolol for malign renovaskulær hypertension, og β1-adrenerg blokadings-mekanismen — især dens undertrykkelse af juxtaglomerulær renin-sekretion — giver en biologisk sammenhængende forbindelse til RAAS-drevet patofysiologi. Der er imidlertid ingen kliniske forsøg eller direkte sygdomsspecifikke publikationer, der i øjeblikket understøtter denne indikation, lægemidlet markedsføres ikke i Danmark, og fuldstændige sikkerhedsdata for denne patientpopulation er ikke hentet.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendig:**
 
-- **Retrieve full MOA data** from DrugBank (data gap DG002) to formally document receptor selectivity, binding kinetics, and downstream pathway effects
-- **Obtain and review the SmPC** for key warnings and contraindications (data gap DG001), with specific attention to renal impairment, bilateral renal artery stenosis, and use in malignant hypertension
-- **Conduct a targeted systematic literature search** for β-blockers (with a focus on cardioselective agents) in malignant renovascular hypertension and malignant phase hypertension — clinical guidelines and hypertension society position statements should be included
-- **Assess regulatory and access pathways** for use in Denmark, including whether any existing European marketing authorisation could support compassionate or off-label use
-- **Develop a mechanistic evidence synthesis** (preclinical and pharmacodynamic data) to formally upgrade this from a model-generated signal to a documented research question before any clinical pathway is designed
+- **Hent fuldt MOA-data** fra DrugBank (data-gap DG002) for formelt at dokumentere receptorselektivitet, bindingskinetik og nedstrøms-pathway-effekter
+- **Indhent og gennemgå SmPC** for vigtige advarsler og kontraindikationer (data-gap DG001) med særlig fokus på nedsat nyrefunktion, bilateral nyearterestenose og brug ved malign hypertension
+- **Udfør en målrettet systematisk litteratursøgning** for β-blokkere (med fokus på kardioselektive agentia) ved malign renovaskulær hypertension og malign fase hypertension — kliniske retningslinjer og hypertension-selskabets erklæringer bør inkluderes
+- **Vurder regulatoriske og tilgangsveje** for brug i Danmark, herunder om eksisterende europæisk markedsføringstilladelse kunne understøtte barmhjertighedshjælp eller off-label brug
+- **Udvikl en mekanistisk bevissyntese** (præ-kliniske og farmakodynamiske data) for formelt at opgradere dette fra et model-genereret signal til et dokumenteret forsøgsspørgsmål, før nogen klinisk vej designes
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before use in patient care. Data cut-off: 2026-04-04.*
+*Denne rapport er genereret til forskningsmæssige formål alene og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddelomfokusering kræver klinisk validering før brug i patientbehandling. Dataknap: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,88 +29,89 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Tacrolimus: From Transplant Rejection Prevention to Seborrheic Dermatitis
+# Tacrolimus: Fra transplantatafstødelse-forebyggelse til seborrhoisk dermatitis
 
-## One-Sentence Summary
+## Resumé med ét sætning
 
-Tacrolimus is a calcineurin-inhibiting immunomodulator classically used to prevent organ transplant rejection and, in topical form (Protopic), to treat atopic dermatitis. The TxGNN model predicts it may also be effective for **Seborrheic Dermatitis**, with **2 completed clinical trials** (Phase 3 and Phase 4) and **20 supporting publications** currently identified.
+Tacrolimus er en calcineurin-hemmende immunomodulator, der klassisk bruges til at forebygge organafstødelse ved transplantation, og i topikalform (Protopic) til behandling af atopisk dermatitis. TxGNN-modellen forudsiger, at det også kan være effektivt for **seborrhoisk dermatitis**, med **2 afsluttede kliniske forsøg** (fase 3 og fase 4) og **20 understøttende publikationer** identificeret på nuværende tidspunkt.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not specified in the evidence pack; tacrolimus is widely documented for prevention of organ transplant rejection (systemic) and atopic dermatitis (topical) |
-| Predicted New Indication | Seborrheic Dermatitis |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ikke angivet i evidenspakken; tacrolimus er bredt dokumenteret til forebyggelse af organafstødelse ved transplantation (systemisk) og atopisk dermatitis (topikalform) |
+| Forudsagt ny indikation | Seborrhoisk dermatitis |
+| TxGNN-forudsigelsesscore | 99.26% |
+| Evidensniveau | L1 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on widely known information, tacrolimus is a topical calcineurin inhibitor that suppresses antigen-specific T-cell activation and downregulates the inflammatory cytokine cascade — the same mechanism underlying its established efficacy in atopic dermatitis.
+Detaljerede data om virkningsmekanisme er på nuværende tidspunkt ikke tilgængelige i evidenspakken. Baseret på bredt kendt information er tacrolimus en topikalcalcineurin-hemmer, der undertrykker antigen-specifik T-celle-aktivering og nedregulerer det inflammatoriske cytokinkaske – den samme mekanisme, der ligger til grund for dens etablerede effektivitet ved atopisk dermatitis.
 
-Seborrheic dermatitis and atopic dermatitis are both chronic inflammatory dermatoses that share T-cell–mediated inflammatory pathways and impaired skin barrier function; seborrheic dermatitis is additionally linked to *Malassezia*-driven inflammation. Because tacrolimus reduces local T-cell–mediated inflammation regardless of the triggering antigen, its mechanism plausibly extends from atopic dermatitis to seborrheic dermatitis.
+Seborrhoisk dermatitis og atopisk dermatitis er begge kroniske inflammatoriske dermatosser, der deler T-celle-medieret inflammatoriske stier og nedsatte hudbarrierfunktioner; seborrhoisk dermatitis er desuden forbundet med *Malassezia*-drevet inflammation. Fordi tacrolimus reducerer lokal T-celle-medieret inflammation uanset den udløsende antigen, udvides dens mekanisme plausibelt fra atopisk dermatitis til seborrhoisk dermatitis.
 
-This mechanistic rationale is directly supported by clinical evidence: two dedicated trials (a completed Phase 3 RCT and a completed Phase 4 study) have specifically evaluated tacrolimus ointment for maintenance treatment of severe facial seborrheic dermatitis in adults, reinforcing the plausibility of the TxGNN prediction.
+Denne mekanistiske rationale understøttes direkte af klinisk evidens: to dedikerede forsøg (en afsluttet fase 3-RCT og et afsluttet fase 4-studie) har specifikt evalueret tacrolimus-salve til vedligeholdelsesbehandling af alvorlig ansigts-seborrhoisk dermatitis hos voksne, hvilket styrker plausibiliteten af TxGNN-forudsigelsen.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | Completed | 120 | Evaluated tacrolimus ointment (Protopic) as maintenance therapy for severe seborrheic dermatitis on the adult face, aiming to reduce relapse frequency and steroid use |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | Completed | 104 | Assessed whether proactive use of 0.1% tacrolimus ointment once or twice weekly maintains remission and reduces exacerbation in adult facial seborrheic dermatitis |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Afsluttet | 120 | Evaluerede tacrolimus-salve (Protopic) som vedligeholdelsesterapi for alvorlig seborrhoisk dermatitis på ansigtet hos voksne, med mål at reducere recidivrequens og steroid-forbrug |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Afsluttet | 104 | Vurderede, om proaktiv brug af 0,1% tacrolimus-salve en eller to gange ugentligt opretholder remission og reducerer eksacerbation ved voksen ansigts-seborrhoisk dermatitis |
 
 ---
 
-## Literature Evidence
+## Litteraturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multicenter, double-blind RCT of tacrolimus 0.1% vs ciclopiroxolamine 1% for maintenance therapy in severe facial seborrheic dermatitis |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Ann Parasitol | Compared sertaconazole 2% cream vs tacrolimus 0.03% cream in 60 patients with seborrheic dermatitis |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Review (Cochrane) | Clin Exp Allergy | Network meta-analysis of topical anti-inflammatory treatments for eczema, relevant to calcineurin inhibitor efficacy/safety comparisons |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematic Review | Am J Clin Dermatol | Systematic review of topical treatments (antifungals, keratolytics, corticosteroids, TCIs) for facial seborrheic dermatitis |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Reviews pathophysiology, safety, and efficacy of topical calcineurin inhibitors in seborrheic dermatitis |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | Overview of facial seborrheic dermatitis status and therapeutic horizons, including TCIs |
-| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Review | Expert Opin Pharmacother | Reviews tacrolimus ointment for atopic dermatitis and other inflammatory cutaneous disease, including seborrheic dermatitis |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Cohort | Ann Dermatol | Maintenance therapy of facial seborrheic dermatitis with 0.1% tacrolimus ointment |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Comparative Study | Indian J Dermatol Venereol Leprol | Compared oral itraconazole + topical tacrolimus vs topical tacrolimus alone for maintenance treatment of seborrheic dermatitis (Vietnam) |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Open Pilot Study | J Am Acad Dermatol | Open-label pilot study of 0.1% tacrolimus in 18 patients with seborrheic dermatitis; 61% achieved complete clearance |
+| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multicenterstudie, double-blind RCT af tacrolimus 0,1% vs ciclopiroxolamin 1% til vedligeholdelsesterapi ved alvorlig ansigts-seborrhoisk dermatitis |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Ann Parasitol | Sammenlignet sertaconazol 2% creme vs tacrolimus 0,03% creme hos 60 patienter med seborrhoisk dermatitis |
+| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Review (Cochrane) | Clin Exp Allergy | Netværks-meta-analyse af topikale anti-inflammatoriske behandlinger for eksem, relevant for sammenligninger af calcineurin-hemmeres effektivitet/sikkerhed |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematisk review | Am J Clin Dermatol | Systematisk oversigt over topikale behandlinger (antifungal, keratolytika, kortikosteroider, TCI) til ansigts-seborrhoisk dermatitis |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Gennemgang af patofysiologi, sikkerhed og effektivitet af topikale calcineurin-hemmere ved seborrhoisk dermatitis |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | Oversigt over status for ansigts-seborrhoisk dermatitis og terapeutiske horisonter, herunder TCI |
+| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Review | Expert Opin Pharmacother | Gennemgang af tacrolimus-salve til atopisk dermatitis og andre inflammatoriske kutane sygdomme, herunder seborrhoisk dermatitis |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Kohort | Ann Dermatol | Vedligeholdelsesterapi af ansigts-seborrhoisk dermatitis med 0,1% tacrolimus-salve |
+| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Komparativ studie | Indian J Dermatol Venereol Leprol | Sammenlignet oral itraconazol + topikalcalcineurin-hemmer vs topikalcalcineurin-hemmer alene til vedligeholdelsesbehandling af seborrhoisk dermatitis (Vietnam) |
+| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Åben pilotstudie | J Am Acad Dermatol | Åben-label pilotstudie af 0,1% tacrolimus hos 18 patienter med seborrhoisk dermatitis; 61% opnåede fuldstændig klaring |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Tacrolimus currently has no marketing authorisation on file in Denmark (Laegemiddelstyrelsen) in this evidence pack — market status is **Not marketed**, with 0 authorisations recorded.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Tacrolimus har på nuværende tidspunkt ingen markedsføringstilladelse registreret i Danmark (Lægemiddelstyrelsen) i denne evidenspakke – markedsstatus er **Ikke markedsført**, med 0 tilladelser registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-Two completed clinical trials (Phase 3 and Phase 4) directly evaluate tacrolimus for facial seborrheic dermatitis maintenance treatment, supported by 20 publications including RCTs, systematic reviews, and cohort studies — meeting L1 evidence criteria. However, safety and Danish market data are entirely absent, so guardrails are required before advancing.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC / Laegemiddelstyrelsen warnings, contraindications, and drug interaction data (currently a blocking data gap)
-- Confirmed mechanism of action documentation from DrugBank
-- Verification of a marketing pathway or existing authorisation in Denmark for tacrolimus (topical or systemic formulations)
-- Formal route-of-administration compatibility assessment for the seborrheic dermatitis indication
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+To afsluttede kliniske forsøg (fase 3 og fase 4) evaluerer direkte tacrolimus til vedligeholdelsesbehandling af ansigts-seborrhoisk dermatitis, understøttet af 20 publikationer herunder RCT'er, systematiske reviews og kohort-studier – opfyldende L1-evidenskriterier. Sikkerhed og danske markedsdata er imidlertid fuldstændig fraværende, så sikkerhedsforanstaltninger er påkrævet inden avancering.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk SmPC / Lægemiddelstyrelsens advarsler, kontraindikationer og lægemiddel-interaktionsdata (på nuværende tidspunkt en blokerende datahuller)
+- Bekræftet virkningsmekanisme-dokumentation fra DrugBank
+- Verifikation af en markedsføringsvej eller eksisterende tilladelse i Danmark for tacrolimus (topikalform eller systemisk formulering)
+- Formel vurdering af rute-til-administrations-kompatibilitet for seborrhoisk dermatitis-indikationen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

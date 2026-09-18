@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Elotuzumab: Multiple Myeloma — TxGNN Predictions Not Available
+# Elotuzumab: Multipelt myelomatose — TxGNN-prognoser ikke tilgængelige
 
-## One-Sentence Summary
+## Ét-sætnings-opsummering
 
-Elotuzumab (Empliciti) is a SLAMF7-targeting immunotherapy monoclonal antibody approved for the treatment of relapsed or refractory multiple myeloma in combination with lenalidomide or pomalidomide plus dexamethasone.
-The current Evidence Pack (v4, candidate `TW-DB06317-multi`) contains **no TxGNN-predicted new indications** for this drug, and two critical data gaps — mechanism of action detail and regulatory safety data — remain unresolved.
-A repurposing assessment **cannot be completed** with the information currently available; the recommended action is to hold pending data remediation.
+Elotuzumab (Empliciti) er en SLAMF7-målrettet immunoterapeutisk monoklonal antistof godkendt til behandling af recidiveret eller refraktær multipelt myelomatose i kombination med lenalidomid eller pomalidomid plus dexamethason.
+Den aktuelle bevismappe (v4, kandidat `TW-DB06317-multi`) indeholder **ingen TxGNN-forudsagte nye indikationer** for dette lægemiddel, og to kritiske datahull — detaljer om virkningsmekanisme og regulatoriske sikkerhedsdata — forbliver uløst.
+En genbrug-vurdering **kan ikke fuldføres** med de oplysninger, der for øjeblikket er tilgængelige; den anbefalede handling er at afvente datarettelse.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Multiple myeloma (relapsed/refractory) — in combination with lenalidomide + dexamethasone or pomalidomide + dexamethasone |
-| Predicted New Indication | Not available — no TxGNN predictions in current Evidence Pack |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Unable to determine — no prediction output generated |
-| Denmark Market Status | Not registered in queried national database |
-| Number of Marketing Authorisations | 0 (queried national database); EMA centralised authorisation exists separately |
-| Recommended Decision | **Hold** |
+| Original indikation | Multipelt myelomatose (recidiveret/refraktær) — i kombination med lenalidomid + dexamethason eller pomalidomid + dexamethason |
+| Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognoser i aktuel bevismappe |
+| TxGNN-prognosescore | Ikke tilgængelig |
+| Bevisniveau | Kan ikke bestemmes — ingen prognoseoutput genereret |
+| Markant status i Danmark | Ikke registreret i spurgt nationalt register |
+| Antal markedsføringstilladelser | 0 (spurgt nationalt register); EMA centraliseret godkendelse eksisterer separat |
+| Anbefalet beslutning | **Afvente** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognose rimelig?
 
-*This section normally provides mechanistic rationale for a TxGNN-predicted new indication. Because no predictions are available in this Evidence Pack, it instead documents the current state of knowledge about the drug to support future analysis.*
+*Dette afsnit giver normalt mekanistisk begrundelse for en TxGNN-forudsagt ny indikation. Fordi der ikke er tilgængelige prognoser i denne bevismappe, dokumenterer det i stedet den nuværende viden om lægemidlet til støtte for fremtidig analyse.*
 
-Elotuzumab is a humanised IgG1 monoclonal antibody that targets **SLAMF7** (Signaling Lymphocytic Activation Molecule Family member 7, also known as CS1/CRACC/CD319) — a glycoprotein highly expressed on multiple myeloma cells and natural killer (NK) cells. Its dual mechanism of action combines direct antibody-dependent cellular cytotoxicity (ADCC) through NK cell activation with direct opsonisation of malignant plasma cells, establishing it as a clinically validated immunotherapy in the multiple myeloma space.
+Elotuzumab er et humaniseret IgG1 monoklonalt antistof, der målretter **SLAMF7** (Signaling Lymphocytic Activation Molecule Family member 7, også kendt som CS1/CRACC/CD319) — et glykoprotein stærkt udtrykt på multipelt myelomatose-celler og natural killer (NK)-celler. Dets doble virkningsmekanisme kombinerer direkte antistofafhængig cellulær cytotoxicitet (ADCC) gennem NK-celleaktivering med direkte opsonisering af ondartede plasmaceller, hvilket etablerer det som en klinisk valideret immunoterapi inden for multipelt myelomatose.
 
-The DrugBank query for DB06317 returned a successful result, confirming the drug record exists. However, detailed mechanism of action data was flagged as a **High-severity data gap** (DG002), meaning the structured MOA fields required for the mechanistic plausibility analysis were not populated. Separately, the regulatory safety data query — covering contraindications and package insert warnings — was flagged as a **Blocking-severity data gap** (DG001), preventing the standard safety pre-screen from being completed.
+DrugBank-forespørgslen for DB06317 returnerede et succesfuldt resultat, hvilket bekræfter, at lægemiddelregistreringen eksisterer. Detaljerede data om virkningsmekanisme blev imidlertid flagget som et **datahull med høj alvor** (DG002), hvilket betyder at de strukturerede MOA-felter, der kræves til mekanistisk plausibilitetsvurdering, ikke blev udfyldt. Separat blev forespørgslen om regulatoriske sikkerhedsdata — der dækker kontraindikationer og pakningsindsatsvarsler — flagget som et **blokerende datahull** (DG001), hvilket forhindrede standard sikkerhedsforhåndskontrol i at blive fuldført.
 
-Without TxGNN prediction output, a formal repurposing hypothesis cannot be evaluated at this stage. From a biological standpoint, SLAMF7 expression has been reported in certain other haematological malignancies beyond myeloma (including some NK/T-cell lymphomas and Waldenström macroglobulinaemia), suggesting that repurposing potential may exist. Realising this potential, however, requires the model to produce ranked predictions and confidence scores before a structured assessment can proceed.
-
----
-
-## Denmark Market Information
-
-No national marketing authorisations were found in the queried regulatory database (0 records; market status: not registered).
-
-> **Important note for Danish prescribers:** Elotuzumab is authorised in the European Union under the **EMA centralised procedure** as **Empliciti** (Bristol-Myers Squibb / AbbVie), approved since 2016. This centralised authorisation is valid in all EU/EEA member states including Denmark. The absence of records in the locally queried database reflects the data pipeline's coverage, not a lack of legal authorisation. The EMA SmPC for Empliciti is the authoritative safety reference document.
+Uden TxGNN-prognoseoutput kan en formel genbrug-hypotese ikke evalueres på dette stadium. Fra et biologisk synspunkt er SLAMF7-ekspression blevet rapporteret i visse andre hæmatologiske ondartede sygdomme ud over myelomatose (herunder nogle NK/T-celle-lymfomer og Waldenströms macroglobulinæmi), hvilket foreslår at genbrug-potentiale kan eksistere. Realisering af dette potentiale kræver dog, at modellen producerer rangordnede prognoser og konfidensscorer, før en struktureret vurdering kan fortsætte.
 
 ---
 
-## Cytotoxicity
+## Markedsoplysninger for Danmark
 
-Elotuzumab is used exclusively in the treatment of multiple myeloma, a haematological malignancy. The cytotoxicity section applies.
+Der blev ikke fundet nationale markedsføringstilladelser i det spurgt regulatoriske register (0 poster; markant status: ikke registreret).
 
-| Item | Content |
+> **Vigtig note for danske ordinatorer:** Elotuzumab er godkendt i Den Europæiske Union under **EMA centraliseret procedure** som **Empliciti** (Bristol-Myers Squibb / AbbVie), godkendt siden 2016. Denne centraliserede godkendelse gælder i alle EU/EØS-medlemsstater, herunder Danmark. Manglen på poster i lokalt spurgt register afspejler datarørledningens dækning, ikke manglende juridisk godkendelse. EMA SmPC for Empliciti er det autoritative sikkerhedsreferencedokument.
+
+---
+
+## Cytotoxicitet
+
+Elotuzumab bruges udelukkende til behandling af multipelt myelomatose, en hæmatologisk ondartedhed. Cytotoxicitets-afsnittet gælder.
+
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy — SLAMF7-directed humanised IgG1 monoclonal antibody |
-| Myelosuppression Risk | Low for elotuzumab as a single agent; **Moderate to High** in standard combination regimens (lenalidomide + dexamethasone or pomalidomide + dexamethasone) due to the partner drugs |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential (to monitor for lenalidomide/pomalidomide-associated neutropenia and thrombocytopenia), liver function tests, infusion-related reaction monitoring (fever, chills, hypertension — most common during first infusion), lymphocyte counts |
-| Handling Protection | Elotuzumab itself does not require cytotoxic handling precautions; combination partners **lenalidomide and pomalidomide** are teratogenic IMiDs subject to strict Pregnancy Prevention Programmes (PPP) — prescribers must comply with REVLIMID/IMNOVID REMS-equivalent EU risk management requirements |
+| Cytotoxicitetsklassificering | Målrettet immunoterapi — SLAMF7-rettet humaniseret IgG1 monoklonalt antistof |
+| Myelosuppression-risiko | Lav for elotuzumab som enkeltbehandling; **Moderat til høj** i standardkombinationsregimer (lenalidomid + dexamethason eller pomalidomid + dexamethason) på grund af partnerlægemidlerne |
+| Emetogenicitetsklassificering | Lav |
+| Overvågningspunkter | CBC med differentiering (for at overvåge lenalidomid/pomalidomid-associeret neutropeni og trombocytopeni), leverfunktionstests, overvågning af infusionsrelaterede reaktioner (feber, kulderystelser, hypertension — mest almindelig under første infusion), lymfocyttal |
+| Håndteringsbeskyttelse | Elotuzumab selv kræver ikke cytotoksisk håndteringsbeskyttelse; kombinationspartnere **lenalidomid og pomalidomid** er teratogene IMiDs underlagt strenge Pregnancy Prevention Programmes (PPP) — ordinatorer skal overholde REVLIMID/IMNOVID REMS-tilsvarende EU-risikostyringsomfattelser |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Both safety data fields (key warnings and contraindications) are flagged as unresolved data gaps in the current Evidence Pack, and no drug–drug interaction records were returned from the DDI query.
+Begge sikkerhedsdatafelter (nøgleadvarsler og kontraindikationer) er flagget som uløste datahull i den aktuelle bevismappe, og der blev ikke returneret lægemiddel-lægemiddel-interaktionsregister fra DDI-forespørgslen.
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for **Empliciti** (available via the EMA product page) for complete safety information, including infusion reaction management, infection risk, secondary malignancy monitoring, and embryo-foetal toxicity guidance specific to combination regimens.
+> Se venligst den godkendte Summary of Product Characteristics (SmPC) for **Empliciti** (tilgængelig via EMA-produktsiden) for fuldstændig sikkerhedsinformation, herunder styring af infusionsreaktioner, infektionsrisiko, sekundær malignitet-overvågning og embryo-foetale toksicitets-vejledning specifik for kombinationsregimer.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-The Evidence Pack for Elotuzumab (DB06317) is currently incomplete in two critical areas: no TxGNN prediction output was generated, and both the mechanism of action detail and regulatory safety data are absent. Without a predicted indication to evaluate and without a safety pre-screen, a repurposing assessment cannot meet the minimum evidence threshold required to move forward.
+**Begrundelse:**
+Bevismappe for Elotuzumab (DB06317) er for øjeblikket ufuldstændig inden for to kritiske områder: der blev ikke genereret TxGNN-prognoseoutput, og både detaljer om virkningsmekanisme og regulatoriske sikkerhedsdata mangler. Uden en forudsagt indikation at evaluere og uden en sikkerhedsforhåndskontrol kan en genbrug-vurdering ikke møde det mindste evidensniveau, der kræves for at gå videre.
 
-**To proceed, the following is needed:**
+**For at fortsætte kræves følgende:**
 
-- **TxGNN prediction output (Critical):** Re-run the TxGNN model for DrugBank ID DB06317 to generate ranked predicted indications with confidence scores. Verify whether the `multi` suffix in the candidate ID (`TW-DB06317-multi`) indicates a known pipeline processing issue.
-- **Mechanism of action data (High priority — DG002):** Retrieve the structured MOA from the DrugBank API for DB06317, including pharmacological action, target proteins, and pathway associations.
-- **Regulatory safety data (Blocking — DG001):** Download and parse the EMA SmPC for Empliciti to populate warnings, contraindications, and special population guidance (renal/hepatic impairment, pregnancy).
-- **EMA authorisation cross-reference:** Map the EMA centralised marketing authorisation number for Empliciti into the Denmark market information section to provide an accurate regulatory landscape for Danish prescribers.
-- **DDI data supplement:** Retrieve drug–drug interaction data for elotuzumab in the context of its standard combination partners (lenalidomide, pomalidomide, dexamethasone, bortezomib) from a validated DDI resource (e.g., DrugBank interactions, SFINX, or Lexi-Interact).
+- **TxGNN-prognoseoutput (Kritisk):** Kør TxGNN-modellen igen for DrugBank ID DB06317 for at generere rangordnede forudsagte indikationer med konfidensscorer. Verificer om `multi`-suffikset i kandidat-ID'et (`TW-DB06317-multi`) indikerer et kendt pipelineprocesseringsproblem.
+- **Virkningsmekanisme-data (Høj prioritet — DG002):** Hent strukturerede MOA fra DrugBank API for DB06317, herunder farmakologisk virkning, mål-proteiner og sti-associationer.
+- **Regulatoriske sikkerhedsdata (Blokering — DG001):** Download og parse EMA SmPC for Empliciti for at udfylde advarsler, kontraindikationer og vejledning for særlige populationer (nyresygdom/leversygdom, graviditet).
+- **EMA-godkendelse krydsreference:** Kortlæg EMA centraliseret markedsføringstilladelsesnummeret for Empliciti til Danmark markedsoplysningssektionen for at give et præcist regulatorisk landskab for danske ordinatorer.
+- **DDI-datasupplement:** Hent lægemiddel-lægemiddel-interaktionsdata for elotuzumab i sammenhæng med dets standard kombinationspartnere (lenalidomid, pomalidomid, dexamethason, bortezomib) fra en valideret DDI-ressource (f.eks. DrugBank-interaktioner, SFINX eller Lexi-Interact).
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

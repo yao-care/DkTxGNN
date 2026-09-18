@@ -29,94 +29,95 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eptinezumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Eptinezumab: Fra migrænepræventiv til migræne med hjernestammeaura
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Eptinezumab (Vyepti) is an intravenous anti-CGRP monoclonal antibody approved globally for the preventive treatment of episodic and chronic migraine in adults, although it is not currently registered in Denmark. The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura** — a rare and clinically distinct migraine subtype — with **0 clinical trials** targeting this specific subtype and **8 publications** providing indirect mechanistic and subgroup support. Evidence is currently at Level L3, and the prediction is mechanistically plausible but requires dedicated prospective validation.
+Eptinezumab (Vyepti) er en intravenøs anti-CGRP-monoklonal antistof godkendt globalt til forebyggende behandling af episodisk og kronisk migræne hos voksne, selvom det ikke er registreret i Danmark. TxGNN-modellen forudsiger, at det kan være effektivt mod **migræne med hjernestammeaura** — en sjælden og klinisk særpræget migrænetype — med **0 kliniske forsøg** målrettet mod denne specifikke type og **8 publikationer** der giver indirekte mekanistisk og subgruppeunderstøttelse. Evidensen er i øjeblikket på niveau L3, og forudsigelsen er mekanistisk plausibel, men kræver dedikeret prospektiv validering.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Preventive treatment of migraine in adults (episodic and chronic; FDA-approved 2020, EMA-approved; not registered in Denmark) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Forebyggende behandling af migræne hos voksne (episodisk og kronisk; FDA-godkendt 2020, EMA-godkendt; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Migræne med hjernestammeaura |
+| TxGNN-forudsigelsesscore | 99,94 % |
+| Evidensniveau | L3 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forbehold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, formal mechanism of action data from DrugBank is not available for this assessment. Based on known published information, eptinezumab is a humanised IgG1 monoclonal antibody that targets calcitonin gene-related peptide (CGRP) directly; its efficacy in preventing episodic and chronic migraine has been demonstrated in two pivotal Phase 3 trials (PROMISE-1 and PROMISE-2), and this mechanism may plausibly extend to the brainstem aura subtype.
+I øjeblikket er formelle mekanisme-for-virkning-data fra DrugBank ikke tilgængelige for denne vurdering. Baseret på kendt publiceret information er eptinezumab et humaniseret IgG1-monoklonalt antistof, der målretter calcitonin-genrelateret peptid (CGRP) direkte; dets effektivitet ved forebyggelse af episodisk og kronisk migræne er blevet påvist i to pivotale fase 3-forsøg (PROMISE-1 og PROMISE-2), og denne mekanisme kan plausibelt strække sig til hjernestammeaura-undertypen.
 
-CGRP is widely expressed throughout the trigeminovascular system, including brainstem nuclei directly implicated in aura generation — notably the periaqueductal grey matter (PAG) and the locus coeruleus. Migraine with brainstem aura involves cortical spreading depression-like phenomena (CSD-like events) originating in the brainstem, in which CGRP plays both pro-inflammatory and vasodilatory roles. By blocking free CGRP from reaching its receptor, eptinezumab could theoretically lower the brainstem aura trigger threshold. Mechanistic plausibility is therefore rated moderate-to-high (★★★☆). A 2022 post hoc subgroup analysis of PROMISE-1 and PROMISE-2 further demonstrated that eptinezumab was efficacious and well-tolerated in migraine patients with self-reported aura broadly, lending indirect clinical support to the prediction.
+CGRP udtrykkes bredt i hele det trigemino-vaskulære system, herunder hjernestammekerner direkte impliceret i aurogenese — særligt det periakvæduktale grå stof (PAG) og locus coeruleus. Migræne med hjernestammeaura involverer corticale udbredelsesdepression-lignende fænomener (CSD-lignende begivenheder) med oprindelse i hjernestammen, hvor CGRP spiller både pro-inflammatoriske og vasodilatatoriske roller. Ved at blokere frit CGRP fra at nå sin receptor, kunne eptinezumab teoretisk sænke triggeafkoblingsfrekvenesen for hjernestammeaura. Mekanistisk plausibilitet er derfor vurderet som moderat-til-høj (★★★☆). En post hoc subgruppeanalyse fra 2022 af PROMISE-1 og PROMISE-2 demonstrerede endvidere, at eptinezumab var effektivt og veltolereret hos migrænepatienter med selvrapporteret aura bredt, hvilket giver indirekte klinisk understøttelse til forudsigelsen.
 
-An important caveat is that a 2025 RCT (PMID 40229719) showed that PACAP38-induced migraine attacks are largely independent of CGRP signalling, suggesting that parallel pathways — beyond CGRP — are involved in aura generation. This means that CGRP blockade alone may not fully prevent brainstem aura events in all patients, and the magnitude of benefit may be smaller in this subtype than in non-aura phenotypes. PACAP38 pathway involvement should be considered when designing future studies.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials registered in ClinicalTrials.gov or the WHO ICTRP specifically address **migraine with brainstem aura** as an indication for eptinezumab.
-
-> **Note:** The pivotal PROMISE-1 (episodic migraine) and PROMISE-2 (chronic migraine) Phase 3 trials enrolled general migraine populations; patients with aura were included, but brainstem aura was not a dedicated enrolment criterion or primary endpoint. No EudraCT-registered EU trials specifically for this subtype were identified.
+En vigtig advarsel er, at et randomiseret kontrolleret forsøg fra 2025 (PMID 40229719) viste, at PACAP38-inducerede migræneanfald i høj grad er uafhængige af CGRP-signalering, hvilket tyder på, at parallelle stier — ud over CGRP — er involveret i aurogenese. Det betyder, at CGRP-blokering alene kan ikke fuldt ud forhindre hjernestammeaura-begivenheder hos alle patienter, og størrelsen af fordelen kan være mindre i denne undertype end i fænotyper uden aura. PACAP38-vejinvolvering bør overvejes ved udformningen af fremtidige studier.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsevidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post-hoc analysis of Phase 3 RCTs (PROMISE-1/2) | *Cephalalgia* | Post hoc subgroup analysis: eptinezumab demonstrated efficacy and acceptable safety in migraine patients with self-reported aura, providing the strongest available indirect evidence for aura subtypes including brainstem aura |
-| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Genetic/Clinical Study | *Headache* | Case series reporting patients with genetic migraine disorders (including chronic migraine with visual aura) who responded to CGRP antagonist therapy, supporting CGRP involvement across heterogeneous aura phenotypes |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case Reports + Literature Review | *Journal of Clinical Medicine* | Anti-CGRP monoclonal antibodies (including eptinezumab) may reduce migraine aura frequency; limited but encouraging data suggest partial suppression of cortical spreading depression |
-| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Case Report | *Revista de Neurología* | Eptinezumab IV successfully managed a wearing-off effect in a chronic migraine-with-aura patient refractory to two subcutaneous CGRP antibodies, highlighting the clinical advantage of its intravenous administration route |
-| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT | *The Journal of Headache and Pain* | PACAP38-induced migraine attacks are largely independent of CGRP signalling; this finding suggests CGRP blockade may not address all brainstem aura triggers and points to a complementary, CGRP-independent pathway |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | *Pain Management* | Overview of new migraine preventive therapies; eptinezumab listed among four CGRP-targeting preventive agents, with mechanistic rationale for broader migraine subtype application |
-| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Review | *Cureus* | CGRP antagonists reviewed for episodic and chronic migraine prevention; mechanistic basis for CGRP-targeting in aura-associated migraine phenotypes discussed |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | *Handbook of Experimental Pharmacology* | Comprehensive review of CGRP's role in migraine pathophysiology, including trigeminal system and brainstem involvement, establishing the mechanistic foundation for CGRP-targeted therapies |
+I øjeblikket er der ingen kliniske forsøg registreret i ClinicalTrials.gov eller WHO ICTRP, der specifikt adresserer **migræne med hjernestammeaura** som indikation for eptinezumab.
+
+> **Bemærk:** De pivotale PROMISE-1 (episodisk migræne) og PROMISE-2 (kronisk migræne) fase 3-forsøg inkluderede generelle migrænepopulationer; patienter med aura var inkluderet, men hjernestammeaura var ikke et dedikeret inklusionskriterium eller primært endepunkt. Ingen EudraCT-registrerede EU-forsøg specifikt for denne undertype blev identificeret.
 
 ---
 
-## Denmark Market Information
+## Litteraturevidence
 
-Eptinezumab is **not currently authorised** by the Danish Medicines Agency (Lægemiddelstyrelsen) and holds no national or centralised marketing authorisations applicable to Denmark. There are therefore no approved product entries to list.
-
-For clinical reference, eptinezumab is internationally available as **Vyepti** (100 mg/mL concentrate for solution for infusion, 100 mg dose administered IV every 12 weeks):
-
-- **US FDA**: Approved February 2020 — preventive treatment of migraine in adults
-- **EMA (centralised)**: Marketing authorisation held by H. Lundbeck A/S — preventive treatment of migraine in adults
-
-Danish healthcare professionals wishing to use eptinezumab outside a clinical trial must apply for a named-patient or compassionate use authorisation through Lægemiddelstyrelsen under the provisions of the Danish Medicines Act (§29-30), or await a potential future application for national/centralised authorisation.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information. Specific local warnings and contraindications from the Danish Medicines Agency are not available, as the product is not registered in Denmark.
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|-----|------|---------|-------------------|
+| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post hoc-analyse af fase 3-randomiserede forsøg (PROMISE-1/2) | *Cephalalgia* | Post hoc-subgruppeanalyse: eptinezumab demonstrerede effektivitet og acceptabel sikkerhed hos migrænepatienter med selvrapporteret aura, hvilket giver den stærkeste tilgængelige indirekte evidens for aura-undertyper inklusiv hjernestammeaura |
+| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Genetisk/klinisk studie | *Headache* | Kasus serie rapporterende patienter med genetiske migræneforstyrrelser (herunder kronisk migræne med visuelt aura), der responderede på CGRP-antagonist-terapi, hvilket understøtter CGRP-involvering på tværs af heterogene aura-fænotyper |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Kasus-rapporter + litteraturgennemgang | *Journal of Clinical Medicine* | Anti-CGRP-monoklonale antistoffer (herunder eptinezumab) kan reducere migrænaurfrekvens; limiterede men opmuntrende data tyder på delvis undertrykkelse af cortikal udbredelsesdepression |
+| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Kasusrapport | *Revista de Neurología* | Eptinezumab IV styrede succesfuldt en udmattelingseffekt hos en kronisk migræne-med-aura-patient, der var refraktær over for to subkutane CGRP-antistoffer, hvilket fremhæver den kliniske fordel ved dens intravenøse administreringsrute |
+| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | Randomiseret kontrolleret forsøg | *The Journal of Headache and Pain* | PACAP38-inducerede migræneanfald er i høj grad uafhængige af CGRP-signalering; dette fund tyder på, at CGRP-blokering muligvis ikke adresserer alle hjernestammeaura-triggere og peger på en komplementær, CGRP-uafhængig vej |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Oversigt | *Pain Management* | Oversigt over nye forebyggende migræneterapi; eptinezumab listet blandt fire CGRP-målrettede forebyggende midler, med mekanistisk rationel for bredere migrænetype-anvendelse |
+| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Oversigt | *Cureus* | CGRP-antagonister gennemgået for episodisk og kronisk migræneforebyggelse; mekanistisk grundlag for CGRP-målretning i aura-forbundet migrænefænotyper diskuteret |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Oversigt | *Handbook of Experimental Pharmacology* | Omfattende gennemgang af CGRP's rolle i migrænepatofysiologi, herunder trigeminalt system og hjernestammeinvolvering, der etablerer det mekanistiske grundlag for CGRP-målrettede terapi |
 
 ---
 
-## Conclusion and Next Steps
+## Danmarks markedsinformation
 
-**Decision: Proceed with Guardrails**
+Eptinezumab er **ikke i øjeblikket godkendt** af Lægemiddelstyrelsen og har ingen nationale eller centraliserede markedsføringstilladelser gældende for Danmark. Der er derfor ingen godkendte produktposter at opliste.
 
-**Rationale:**
-Eptinezumab's mechanism of action — CGRP blockade in the trigeminovascular system, including brainstem nuclei involved in aura generation — provides moderate-to-high mechanistic plausibility for efficacy in migraine with brainstem aura. Post hoc evidence from the PROMISE-1 and PROMISE-2 Phase 3 trials supports efficacy in the broader migraine-with-aura population, and the TxGNN score of 99.94% reflects a model confidence consistent with this overlap. However, no dedicated trials for the brainstem aura subtype exist, the evidence level is L3, and the PACAP38-independent pathway introduces uncertainty about the completeness of CGRP blockade as a therapeutic strategy for this specific phenotype.
+Til klinisk reference er eptinezumab internationalt tilgængeligt som **Vyepti** (100 mg/mL koncentrat til infusionsvæske, 100 mg dosis administreret IV hver 12. uge):
 
-**To proceed, the following is needed:**
+- **US FDA**: Godkendt februar 2020 — forebyggende behandling af migræne hos voksne
+- **EMA (centraliseret)**: Markedsføringstilladelse holdt af H. Lundbeck A/S — forebyggende behandling af migræne hos voksne
 
-- A dedicated prospective clinical trial or observational registry study specifically enrolling patients with confirmed migraine with brainstem aura according to ICHD-3 criteria (code 1.2.2), with eptinezumab as the intervention
-- Formal mechanism of action documentation (from DrugBank or EMA SmPC) for inclusion in any Danish regulatory or HTA submission
-- Full safety profile review from the EMA SmPC, with specific attention to hypersensitivity reactions relevant to IV monoclonal antibody infusion
-- Named-patient or compassionate use authorisation from Lægemiddelstyrelsen if off-label use in Denmark is considered prior to formal registration
-- A pharmacovigilance plan accounting for non-responders in whom PACAP38-independent brainstem aura pathways may be dominant, and for potential wearing-off effects between quarterly infusions
+Danske sundhedsfagfolk, der ønsker at bruge eptinezumab uden for et klinisk forsøg, skal anmode om navngivet patients- eller compassionate use-godkendelse gennem Lægemiddelstyrelsen under bestemmelserne i lægemiddelloven (§29-30), eller afvente en potentiel fremtidig ansøgning om national/centraliseret godkendelse.
+
+---
+
+## Sikkerhedshensyn
+
+Henvises til den godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation. Specifikke lokale advarsler og kontraindikationer fra Lægemiddelstyrelsen er ikke tilgængelige, da produktet ikke er registreret i Danmark.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med forbehold**
+
+**Begrundelse:**
+Eptinezumabs virkningsmåde — CGRP-blokering i det trigemino-vaskulære system, herunder hjernestammekerner involveret i aurogenese — giver moderat-til-høj mekanistisk plausibilitet for effektivitet ved migræne med hjernestammeaura. Post hoc-evidens fra fase 3-forsøgene PROMISE-1 og PROMISE-2 understøtter effektivitet i den bredere migræne-med-aura-population, og TxGNN-scoren på 99,94 % afspejler en modelkonfidens, der stemmer overens med denne overlapning. Der eksisterer dog ingen dedikerede forsøg for hjernestammeaura-undertypen, evidensniveauet er L3, og PACAP38-uafhængige veje introducerer usikkerhed om fuldstændigheden af CGRP-blokering som en terapeutisk strategi for denne specifikke fænotype.
+
+**For at fortsætte er følgende nødvendig:**
+
+- Et dedikeret prospektivt klinisk forsøg eller observationsstudie, der specifikt inkluderer patienter med bekræftet migræne med hjernestammeaura i henhold til ICHD-3-kriterier (kode 1.2.2), med eptinezumab som intervention
+- Formel mekanisme-for-virkning-dokumentation (fra DrugBank eller EMA SmPC) til inkludering i eventuel dansk regulator- eller HTA-ansøgning
+- Fuldstændig sikkerhedsprofil-gennemgang fra EMA SmPC, med særlig opmærksomhed på overfølsomhedsreaktioner relevante for IV-monoklonal antistof-infusion
+- Navngivet patients- eller compassionate use-godkendelse fra Lægemiddelstyrelsen, hvis off-label-brug i Danmark overvejes før formel registrering
+- En farmakoovervågningsplan, der tegner sig for ikke-respondenter, hos hvilke PACAP38-uafhængige hjernestammeaura-veje kan være dominerende, og for potentielle udmattelingseffekter mellem kvartalsvis infusioner
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

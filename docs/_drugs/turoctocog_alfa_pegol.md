@@ -29,80 +29,81 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Turoctocog Alfa Pegol: From Haemophilia A to Primary Release Disorder of Platelets
+# Turoctocog alfa pegol: Fra hæmofili A til primær frigivelsesforstyrrelse af blodplader
 
-## One-Sentence Summary
+## Ét-lines sammendrag
 
-Turoctocog alfa pegol (DrugBank DB14738) is a PEGylated recombinant Factor VIII replacement product, known in its established use to control and prevent bleeding in Haemophilia A.
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-but currently **0 clinical trials** and **0 publications** support this direction — the prediction rests on the model score alone.
+Turoctocog alfa pegol (DrugBank DB14738) er et pegyleret rekombinant Faktor VIII-erstatningsprodukt, kendt i sin etablerede brug til at kontrollere og forebygge blødninger ved hæmofili A.
+TxGNN-modellen forudsiger, at det kan være effektivt til **primær frigivelsesforstyrrelse af blodplader**,
+men i øjeblikket **0 kliniske forsøg** og **0 publikationer** understøtter denne retning — forudsigelsen hviler alene på modelscore.
 
-*(Note: the evidence pack's own `taiwan_regulatory.licenses` and `original_indications` fields are empty, so the original indication above reflects the drug's known public classification as a Factor VIII product, not a value extracted from this dataset.)*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (known FVIII replacement therapy, typically Haemophilia A) |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+*(Bemærk: bevisspakkets egne `taiwan_regulatory.licenses` og `original_indications` felter er tomme, så den oprindelige indikation ovenfor afspejler lægemidlets kendt offentlig klassifikation som et Faktor VIII-produkt, ikke en værdi ekstraheret fra dette datasæt.)*
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available (flagged in the evidence pack as a High-severity data gap, DG002). Based on known information, turoctocog alfa pegol is a PEGylated recombinant human coagulation Factor VIII (FVIII) replacement therapy, which works by directly supplementing clotting factor activity in patients with FVIII deficiency.
-
-The predicted indication, primary release disorder of platelets, is a disorder of platelet granule secretion — a completely different haemostatic mechanism from clotting-factor replacement. The evidence pack's own mechanistic assessment is explicit about this weakness:
-
-> The core pathology of primary platelet release disorder (a granule release defect) lies in the platelet's own secretory function, which has no direct pharmacological mechanistic connection to exogenous Factor VIII replacement. This link likely reflects the proximity of FVIII and haemostasis/platelet-related nodes within the knowledge graph, rather than a genuine therapeutic rationale — the evidence is extremely weak.
-
-In short, the prediction is plausible only as a knowledge-graph co-occurrence signal (both entities sit within the broader haemostasis domain), not as a validated pharmacological hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke specificeret i bevisspakke (kendt Faktor VIII-erstatningsbehandling, typisk hæmofili A) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (markeret i bevisspakken som et alvorligt datakløft, DG002). Baseret på kendt information er turoctocog alfa pegol et pegyleret rekombinant humant Faktor VIII-erstatningsprodukt, som virker ved direkte at supplere Faktor VIII-aktivitet hos patienter med FVIII-mangel.
 
----
+Den forudsagte indikation, primær frigivelsesforstyrrelse af blodplader, er en lidelse af blodplades granul-frigivelse — en helt anden blødningsmekanisme end Faktor VIII-erstatning. Bevisspakkets egen mekanistiske vurdering er eksplicit om denne svaghed:
 
-## Denmark Market Information
+> Kernepathofysiologien i primær frigivelsesforstyrrelse af blodplader (en granul-frigivelsesdefekt) ligger i blodpladens egen sekretoriske funktion, som ikke har nogen direkte farmakologisk mekanistisk forbindelse til eksogen Faktor VIII-erstatning. Dette link afspejler sandsynligvis nærheden af FVIII og hæmostase-/blodpladeknyttede knuder inden for vidensgrafen snarere end en ægte terapeutisk begrundelse — evidensen er ekstremt svag.
 
-Turoctocog alfa pegol currently holds no marketing authorisation in Denmark (market status: Not Marketed; 0 authorisations on record).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Kort sagt er forudsigelsen plausibel kun som et videngraf-ko-forekomst-signal (begge enheder sidder inden for det bredere hæmostase-domæne), ikke som en valideret farmakologisk hypotese.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisk prøvebevis
 
-**Decision: Hold**
+I øjeblikket ingen relaterede kliniske forsøg registreret
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, no clinical trials or literature), and the evidence pack's own mechanistic review characterizes the drug-disease link as a likely knowledge-graph artifact rather than a genuine pharmacological rationale. A Blocking data gap (DG001: Danish label warnings/contraindications) also currently prevents this candidate from entering the S1 safety screening stage.
+---
 
-**To proceed, the following is needed:**
-- Danish product label / SmPC warnings and contraindications (DG001, Blocking — required before any S1 safety review)
-- Mechanism of action (MOA) data for turoctocog alfa pegol (DG002)
-- Preclinical or mechanistic evidence specifically linking Factor VIII biology to platelet granule-release physiology, to test whether the predicted association is more than a graph-proximity artifact
-- Ongoing monitoring for any future clinical trial or literature signal on this drug-disease pair
+## Litteraturbevis
+
+I øjeblikket ingen relateret litteratur tilgængelig
+
+---
+
+## Markedsinformation for Danmark
+
+Turoctocog alfa pegol har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: Ikke markedsført; 0 registrerede tilladelser).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Vent**
+
+**Begrundelse:**
+Forudsigelsen er understøttet kun af en TxGNN-modelscore (L5, ingen kliniske forsøg eller litteratur), og bevisspakkets egen mekanistiske gennemgang karakteriserer lægemiddel-sygdoms-linket som en sandsynlig videngraf-artefakt snarere end en ægte farmakologisk begrundelse. Et blokeringsdatakløft (DG001: Danske etiket-advarsler/kontraindikationer) forhindrer også i øjeblikket denne kandidat fra at indgå i S1-sikkerhedsgennemgangen.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk produktetiket / SmPC advarsler og kontraindikationer (DG001, Blokering — påkrævet før enhver S1-sikkerhedsgennemgang)
+- Virkningsmekanisme (MOA)-data for turoctocog alfa pegol (DG002)
+- Præ-klinisk eller mekanistisk bevis, der specifikt knytter Faktor VIII-biologi til blodplades granul-frigivelsefysiologi, for at teste, om den forudsagte tilknytning er mere end en graf-proximitet-artefakt
+- Løbende overvågning for enhver fremtidig klinisk forsøg eller litteratursignal på denne lægemiddel-sygdoms-par
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

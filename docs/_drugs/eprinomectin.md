@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eprinomectin: From Veterinary Antiparasitic to Candidiasis
+# Eprinomectin: Fra Veterinær Antiparasitikum til Kandidose
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Eprinomectin is a semi-synthetic avermectin (macrocyclic lactone) of the avermectin class, currently used exclusively as a veterinary antiparasitic agent in livestock, with no approved human indication in Denmark or elsewhere.
-The TxGNN model predicts it may be effective for **Candidiasis**, based on indirect mechanistic hypotheses involving ergosterol biosynthesis interference and immunomodulation.
-There are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction, meaning the prediction rests entirely on computational modelling.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Veterinary antiparasitic (no human indication registered) |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 98.89% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Eprinomectin er et semi-syntetisk avermectin (makrocyklisk lacton) fra avermectin-klassen, som i øjeblikket udelukkende bruges som veterinært antiparasitikum til husdyr, uden nogen godkendt menneskelig indikation i Danmark eller andre steder.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Kandidose**, baseret på indirekte mekanistiske hypoteser, der involverer interferens med ergoserolutbygning og immunomodulation.
+Der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der direkte understøtter denne omplaceringsvej, hvilket betyder, at forudsigelsen udelukkende er baseret på computationel modellering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacological class information, Eprinomectin belongs to the avermectin family (macrocyclic lactones), which exerts its primary antiparasitic action by activating glutamate-gated chloride (GluCl) channels in invertebrate neural and muscle tissue — a target that does not exist in fungi. The drug has proven efficacy against ectoparasites and endoparasites in cattle, and its close structural analogue ivermectin has been more extensively studied in human medicine.
-
-The mechanistic link to Candidiasis proposed by the TxGNN model relies on several indirect hypotheses: (1) avermectin-class compounds may interfere with fungal ergosterol biosynthesis pathways (ivermectin has been reported in vitro to inhibit ergosterol synthesis in *Candida*); (2) host IL-4/IL-13 immunomodulation could theoretically alter the mucosal Th2/Th17 immune environment, indirectly affecting *Candida* colonisation; and (3) inhibition of ABC transporters (P-glycoprotein) might theoretically impair fungal fluconazole efflux pumps, potentially acting as an adjunct to azole therapy.
-
-However, these pathways remain entirely hypothetical for Eprinomectin specifically. No direct antifungal activity of Eprinomectin against *Candida* has ever been tested, and its safety profile in human subjects has not been evaluated. The biological plausibility is weak, and any mechanistic connection would require extensive basic research before clinical investigation could be considered.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Veterinært antiparasitikum (ingen menneskelig indikation registreret) |
+| Forudsagt ny indikation | Kandidose |
+| TxGNN forudsigelsesscore | 98.89% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er der ikke tilgængelige detaljerede virkningsmekanisme-data fra Evidenspakken. Baseret på kendt farmakologisk klasseinformation tilhører Eprinomectin avermectin-klassen (makrocykliske lactoner), som udøver sin primære antiparasitiske virkning ved at aktivere glutamat-gated chlorid (GluCl) kanaler i invertebrat nervevæv og muskelsvæv — et mål der ikke eksisterer i svampe. Lægemidlet har dokumenteret effektivitet mod ektoparasitter og endoparasitter hos kvæg, og dets strukturelt nært beslægtede analog ivermectin er blevet mere omfattende studeret i humane medicin.
 
----
+Den mekanistiske forbindelse til Kandidose foreslået af TxGNN-modellen er baseret på flere indirekte hypoteser: (1) avermectin-klasseforbindelser kan potentielt interferere med fungale ergoserolutbygningsveje (ivermectin er blevet rapporteret in vitro til at inhibere ergoserolsyntese i *Candida*); (2) værtsorganismens IL-4/IL-13 immunomodulation kunne teoretisk ændre det mucosale Th2/Th17 immunmiljø, hvilket indirekte påvirker *Candida*-kolonisering; og (3) inhibering af ABC-transportere (P-glycoprotein) kunne teoretisk forhindre fungale fluconazol efflux-pumper, potentielt virkende som supplement til azolbehandling.
 
-## Denmark Market Information
-
-Eprinomectin (DrugBank ID: DB11405) holds no marketing authorisations with the Danish Medicines Agency (Lægemiddelstyrelsen) and no centralised EMA authorisation for human use. It is not registered as a medicinal product for human use in Denmark.
+Disse veje forbliver imidlertid helt hypotetiske for Eprinomectin specifikt. Der er aldrig blevet testet nogen direkte antimykotisk aktivitet af Eprinomectin mod *Candida*, og dets sikkerhedsprofil hos menneskelige forsøgspersoner er ikke blevet evalueret. Den biologiske plausibilitet er svag, og enhver mekanistisk forbindelse ville kræve omfattende grundforskning, før klinisk undersøgelse kunne overvejes.
 
 ---
 
-## Safety Considerations
+## Kliniske forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No human safety data (warnings, contraindications, or drug–drug interactions) were available in the Evidence Pack for Eprinomectin.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The TxGNN model assigns a high prediction score (98.89%) to the Candidiasis indication, but this reflects knowledge-graph connectivity rather than biological or clinical validation. With zero supporting clinical trials, zero supporting publications, no human pharmacokinetic data, no human safety profile, no Danish or EMA marketing authorisation, and a mechanistic link that is entirely indirect and unverified, there is insufficient basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
+## Markedsinformation for Danmark
 
-- **Mechanism of action clarification**: Confirm whether Eprinomectin has any direct or indirect antifungal activity in validated *in vitro* assays against *Candida* spp.
-- **Human safety data**: Obtain or generate Phase 1 pharmacokinetic and safety data in humans, as none currently exist
-- **Formulation feasibility**: Evaluate whether a clinically viable route of administration (oral, topical mucosal) exists for human antifungal use
-- **Comparative benchmark**: Assess whether the predicted antifungal effect, if confirmed, would offer meaningful clinical advantage over well-established azoles, echinocandins, or polyenes
-- **DrugBank MOA data**: Retrieve full mechanism, target, and toxicity data from DrugBank (DB11405) to enable proper mechanistic and safety analysis
-- **Regulatory pathway assessment**: Determine whether a repurposing application to the EMA or Lægemiddelstyrelsen would be feasible given the exclusively veterinary status of the compound
+Eprinomectin (DrugBank ID: DB11405) har ingen markedsføringstilladelser hos Lægemiddelstyrelsen og ingen centraliseret EMA-godkendelse til menneskelig brug. Det er ikke registreret som lægemiddel til menneskelig brug i Danmark.
 
-> ⚠️ **Research Use Only**: The predictions and analysis in this report are intended for research purposes only and do not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+---
+
+## Sikkerhedshensyn
+
+Se venligst Produktresumé (SmPC) for sikkerhedsinformation. Ingen humane sikkerhedsdata (advarsler, kontraindikationer eller lægemiddel-lægemiddelinteraktioner) var tilgængelige i Evidenspakken for Eprinomectin.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+TxGNN-modellen tildeler en høj forudsigelsesscore (98.89%) til Kandidose-indikationen, men dette afspejler knowledge-graph-forbindethed snarere end biologisk eller klinisk validering. Med nul understøttende kliniske forsøg, nul understøttende publikationer, ingen humane farmakokinetiske data, ingen menneskelig sikkerhedsprofil, ingen dansk eller EMA markedsføringstilladelse, og en mekanistisk forbindelse, der er helt indirekte og ubekræftet, er der utilstrækkelig grundlag til at avancere denne kandidat på nuværende tidspunkt.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Præcisering af virkningsmekanisme**: Bekræft, hvorvidt Eprinomectin har nogen direkte eller indirekte antimykotisk aktivitet i validerede *in vitro* forsøg mod *Candida* spp.
+- **Humane sikkerhedsdata**: Indhent eller generer Phase 1 farmakokinetiske og sikkerhedsdata hos mennesker, da der i øjeblikket ikke findes nogen
+- **Formuleringsfeasibilitet**: Evaluer, hvorvidt en klinisk levedygtig administrationsrute (oral, topisk mucosa) eksisterer til menneskelig antimykotisk brug
+- **Komparativ benchmark**: Vurder, hvorvidt den forudsagte antimykotisk effekt, hvis bekræftet, ville tilbyde meningsfyldt klinisk fordel i forhold til velkendte azoler, echinocandiner eller polyener
+- **DrugBank MOA-data**: Hent fuldstændige mekanisme-, target- og toksicitetsdata fra DrugBank (DB11405) for at muliggøre korrekt mekanistisk og sikkerhedsanalyse
+- **Regulatorisk vej-vurdering**: Bestem, hvorvidt en omplaceringsansøgning til EMA eller Lægemiddelstyrelsen ville være mulig givet forbindelsens eksklusivt veterinære status
+
+> ⚠️ **Kun til forskningsbrug**: Forudsigelserne og analysen i denne rapport er beregnet udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Omplaceringskandidater til lægemidler kræver klinisk validering, før nogen terapeutisk anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,73 +29,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nusinersen: From Original Indication Not on File to Mixed Mineral Dust Pneumoconiosis
+# Nusinersen: Fra original indikation ikke tilgængelig til Blandet mineralstøv-pneumokonose
 
-## One-Sentence Summary
+## Ét-linjes resumé
 
-Nusinersen's original approved indication is not recorded in this evidence pack (no license or MOA data available). The TxGNN model's top-ranked prediction is **Mixed Mineral Dust Pneumoconiosis**, but the prediction score (50%) sits at the model's non-discriminative baseline, and **0 clinical trials** and **0 publications** currently support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no marketing authorisation or label data on file) |
-| Predicted New Indication | Mixed Mineral Dust Pneumoconiosis |
-| TxGNN Prediction Score | 50.0% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Nusinerserens oprindeligt godkendte indikation er ikke registreret i denne evidenspakke (ingen licens- eller virkningsmekanismedata tilgængelige). TxGNN-modellens højest rangerede forudsigelse er **Blandet mineralstøv-pneumokonose**, men forudsigelsesscore (50%) ligger ved modellens ikke-diskriminativ baseline, og **0 kliniske forsøg** og **0 publikationer** understøtter denne retning i øjeblikket.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not currently available for Nusinersen in this evidence pack, and no original indication is on file to compare against. Based on the model's own generated rationale, Nusinersen is understood to act as an antisense oligonucleotide targeting SMN2 pre-mRNA splicing (intron 7 / ISS-N1 region), administered intrathecally, with pharmacological activity confined to central nervous system motor neurons.
-
-Mixed mineral dust pneumoconiosis is an inhalational lung disease driven by macrophage activation and TGF-β–mediated fibrotic/inflammatory pathways — a mechanism with no known overlap with SMN2 splicing regulation. The evidence pack's own mechanistic assessment concludes that a TxGNN score of 0.5 represents an essentially non-discriminative baseline value and does not constitute biological plausibility evidence.
-
-It is also worth noting that all ten of the model's top-ranked predicted indications for this drug carry the identical score of 0.5, spanning unrelated disease areas (pneumoconiosis, rare genetic syndromes, mast cell disorders, food allergy syndromes, tendinopathy). This pattern indicates the model did not find a confidently discriminating signal for Nusinersen in this run, rather than identifying a specific high-confidence repurposing candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Ikke tilgængelig i evidenspakke (ingen markedsføringstilladelse eller etiketdata på fil) |
+| Forudsagt ny indikation | Blandet mineralstøv-pneumokonose |
+| TxGNN forudsigelsesscore | 50.0% |
+| Evidensniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Udsat |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede virkningsmekanismedata er ikke i øjeblikket tilgængelige for Nusinersen i denne evidenspakke, og ingen oprindelig indikation er på fil til sammenligning. På grundlag af modellens egen genererede begrundelse antages Nusinersen at virke som et antisense-oligonukleotid, der målretter SMN2 pre-mRNA splicing (intron 7 / ISS-N1-region), administreret intrathekal, med farmakologisk aktivitet begrænset til centralnervesystemets motorneuroner.
 
----
+Blandet mineralstøv-pneumokonose er en inhalationslungesigte drevet af makrofagaktivering og TGF-β–medieret fibrotisk/inflammatorisk vej — en mekanisme uden kendt overlap med SMN2-splicingregulation. Evidenspakkens egen mekanistiske vurdering konkluderer, at en TxGNN-score på 0,5 repræsenterer en væsentlig ikke-diskriminativ baselineværdi og udgør ikke evidens for biologisk plausibilitet.
 
-## Denmark Market Information
-
-Nusinersen is **not marketed** in Denmark according to this evidence pack, and no marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) are on file.
+Det er også værd at bemærke, at alle ti af modellens højest rangerede forudsagte indikationer for dette lægemiddel har den identiske score på 0,5, der spænder over ikke-relaterede sygdomsområder (pneumokonose, sjældne genetiske syndromer, mastcellesygdomme, madvareallergisyndrom, senepatologi). Dette mønster indikerer, at modellen ikke fandt et selvtillidsfuldt diskriminerende signal for Nusinersen i denne kørsel, snarere end at identificere en specifik højt tillidsfuld genforbrug-kandidat.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The TxGNN score (0.5) is at the model's non-discriminative baseline — shared identically across all ten top-ranked candidates — and is not corroborated by any clinical trial or literature evidence. There is also no established mechanistic link between Nusinersen's CNS-restricted splicing-modulation activity and mixed mineral dust pneumoconiosis.
+---
 
-**To proceed, the following is needed:**
-- Original indication and label/MOA data for Nusinersen (currently a blocking/high-severity data gap)
-- Danish/EU regulatory warnings and contraindications (SmPC) to enable a baseline safety review
-- A re-run or re-ranking against a higher, more discriminative TxGNN score threshold before this candidate is considered for further evaluation
+## Information om det danske marked
+
+Nusinersen er **ikke markedsført** i Danmark ifølge denne evidenspakke, og ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) er på fil.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresuméet (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Udsat**
+
+**Begrundelse:**
+- TxGNN-scoren (0,5) er ved modellens ikke-diskriminativ baseline — delt identisk på tværs af alle ti højest rangerede kandidater — og understøttes ikke af nogen kliniske forsøgs- eller litteraturbevis. Der er heller ingen etableret mekanistisk forbindelse mellem Nusinerserens CNS-begrænsede splicingmodulationsaktivitet og blandet mineralstøv-pneumokonose.
+
+**For at fortsætte er følgende nødvendig:**
+- Original indikation og etiket-/MOA-data for Nusinersen (i øjeblikket et blokerings-/høj-alvor-datatab)
+- Danske/EU regulatoriske advarsler og kontraindikationer (SmPC) for at muliggøre en baseline-sikkerhedsgennemgang
+- En genkørsel eller omrangering mod en højere, mere diskriminativ TxGNN-scoretærskel, før denne kandidat betragtes for yderligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

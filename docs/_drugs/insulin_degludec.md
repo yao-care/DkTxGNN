@@ -29,100 +29,101 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Insulin Degludec: Confirming Established Basal Insulin Therapy in Type 1 Diabetes Mellitus
+# Insulin Degludec: Bekræftelse af etableret basalinsulinterapi ved type 1-diabetes mellitus
 
-## One-Sentence Summary
+## Et-sætnings-sammenfatning
 
-Insulin degludec is a long-acting basal insulin analogue whose detailed mechanism-of-action documentation is currently a data gap in this evidence pack. The TxGNN model predicts high relevance for **Type 1 Diabetes Mellitus (T1DM)**, supported by **50 clinical trials** and **20 publications** — however, this is the drug's own well-established, label-type indication rather than a novel repurposing hypothesis, so this case should be read as a **market-entry/registration review**, not a mechanism-discovery finding.
+Insulin degludec er et langtidsvirkende basalinsulinalog, hvis detaljerede dokumentation af virkemekanisme i øjeblikket er en datakløft i denne bevissamling. TxGNN-modellen forudsiger høj relevans for **type 1-diabetes mellitus (T1DM)**, understøttet af **50 kliniske forsøg** og **20 publikationer** — dog er dette lægemidlets egen velkendte, etiket-type indikation snarere end en ny genbrugshypotese, så denne sag bør læses som en **markedsadgangs-/registreringsgennemgang**, ikke et mekanismeopsagelses-fund.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not available from Danish licence data (0 licences on file); internationally, insulin degludec is an approved basal insulin used for diabetes mellitus management |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ikke tilgængelig fra dansk licenstilladelsesdata (0 licenser på fil); internationalt er insulin degludec et godkendt basalinsulinforbrug til diabetes mellitus-behandling |
+| Forudsagt ny indikation | Type 1-diabetes mellitus |
+| TxGNN-forudsigelsesscore | 99.44% |
+| Bevisniveau | L1 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacological class information, insulin degludec is an ultra-long-acting basal insulin analogue that forms soluble multihexamers after subcutaneous injection, which are slowly and continuously released into the bloodstream — producing a flat, stable glucose-lowering profile with a duration of action exceeding 42 hours and low day-to-day variability compared with earlier basal insulin analogues (glargine, detemir).
+I øjeblikket er detaljerede data om virkemekanisme ikke tilgængelige i denne bevissamling (markeret som en høj-severity datakløft). Baseret på kendt farmakologisk klasseinformation er insulin degludec et ultra-langtidsvirkende basalinsulinalog, der danner opløselige multihexamerer efter subkutan injektion, som langsomt og kontinuerligt frigives til blodbanen — hvilket producerer en flad, stabil glukosesænkende profil med en virkningstid på over 42 timer og lav dag-til-dag variabilitet sammenlignet med tidligere basalinsulinalger (glargine, detemir).
 
-Importantly, the analysts who produced this candidate flag an important caveat that must be communicated clearly: **Type 1 Diabetes Mellitus is not a novel repurposing target for insulin degludec — it is the drug's core, label-type indication.** T1DM results from autoimmune destruction of pancreatic beta cells, leading to absolute insulin deficiency; exogenous basal-bolus insulin replacement (of which insulin degludec is a standard component) is the established standard of care. The TxGNN model's very high score (99.44%) reflects that the model has correctly recovered an already well-established pharmacological relationship from the knowledge graph, rather than surfacing new biological insight.
+Vigtigvis flag analytikerrne, som producerede denne kandidat, en vigtig advarsel, som skal kommunikeres klart: **Type 1-diabetes mellitus er ikke et nyt genbrugsmål for insulin degludec — det er lægemidlets kerne-, etiket-type indikation.** T1DM skyldes autoimmun ødelæggelse af bugspytkirtlens betaceller, hvilket fører til absolut insulinmangel; eksogen basalbolus-insulinudskiftning (hvoraf insulin degludec er en standardkomponent) er den etablerede standard for pleje. TxGNN-modellens meget høje score (99.44%) afspejler, at modellen korrekt har gendannet en allerede veletableret farmakologisk forhold fra vidensgrafen, snarere end at det dukker op nye biologiske indsigter.
 
-Mechanistically, this "prediction" is therefore trivially reasonable — it is direct pharmacological replacement therapy, not an indirect or hypothesis-generating association. The practical question for this evidence pack is not "does insulin degludec work in T1DM" (this is already extensively proven, see evidence below), but rather **whether/when the product will obtain Danish marketing authorisation**, since Denmark currently shows "Not Marketed" status with zero registered licences.
+Mekanistisk set er denne "forudsigelse" derfor trivielt rimelig — det er direkte farmakologisk erstatningsbehandling, ikke en indirekte eller hypotesegenererende association. Det praktiske spørgsmål for denne bevissamling er ikke "virker insulin degludec ved T1DM" (dette er allerede omfattende bevist, se bevis nedenfor), men snarere **om/hvornår produktet vil opnå dansk markedsføringstilladelse**, da Danmark i øjeblikket viser "Ikke markedsført" status med nul registrerede licenser.
 
 ---
 
-## Clinical Trial Evidence
+## Kliniske forsøgsdata
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT02030600](https://clinicaltrials.gov/study/NCT02030600) | Phase 3 | Completed | 721 | SWITCH 2: double-blind, cross-over comparison of insulin degludec vs. insulin glargine (safety/efficacy) — population: Type 2 diabetes |
-| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Phase 3 | Completed | 350 | BEGIN™ Young 1: multinational, randomised, parallel trial of insulin degludec vs. detemir in children/adolescents with Type 1 diabetes on basal-bolus regimen |
-| [NCT02392117](https://clinicaltrials.gov/study/NCT02392117) | N/A (non-interventional) | Completed | 1,262 | Multi-centre, prospective, real-world safety and effectiveness study of Tresiba® (insulin degludec) in Type 1 and Type 2 diabetes |
-| [NCT04196231](https://clinicaltrials.gov/study/NCT04196231) | Phase 4 | Completed | 258 | BEYOND: open-label, three-arm RCT on durability of glycaemic control with basal insulin/GLP-1RA or SGLT-2i vs. basal-bolus insulin — population: Type 2 diabetes |
-| [NCT06199505](https://clinicaltrials.gov/study/NCT06199505) | Phase 2 | Completed | 153 | Comparison of GZR101 vs. insulin degludec/insulin aspart in Type 2 diabetes inadequately controlled on OADs/insulin |
-| [NCT03938740](https://clinicaltrials.gov/study/NCT03938740) | Phase 2 | Completed | 61 | Randomised, open-label comparison of insulin dosing algorithms (HDV-insulin lispro vs. insulin degludec) in Type 1 diabetes |
-| [NCT01773798](https://clinicaltrials.gov/study/NCT01773798) | Phase 1 | Completed | 33 | PK/PD study of insulin degludec/insulin aspart 15 in Type 1 diabetes |
-| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Phase 3 | Completed | 834 | Efficacy/safety of faster-acting insulin aspart vs. NovoRapid®, both in combination with insulin degludec, in children/adolescents with Type 1 diabetes (comparator focus — indirect relevance) |
-| [NCT05103306](https://clinicaltrials.gov/study/NCT05103306) | N/A | Unknown | 300 | Real-world comparison of empagliflozin-based quadruple oral therapy vs. basal insulin-based combination therapy in Type 2 diabetes (indirect relevance) |
-| [NCT01467414](https://clinicaltrials.gov/study/NCT01467414) | Phase 1 | Terminated | 1 | PD study of insulin degludec in Japanese subjects with Type 2 diabetes — terminated, minimal completed enrollment (low relevance) |
+| [NCT02030600](https://clinicaltrials.gov/study/NCT02030600) | Fase 3 | Afsluttet | 721 | SWITCH 2: dobbeltblindet, crossover-sammenligning af insulin degludec vs. insulin glargine (sikkerhed/effektivitet) — befolkning: Type 2-diabetes |
+| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Fase 3 | Afsluttet | 350 | BEGIN™ Young 1: multinationalt, randomiseret parallelforsøg af insulin degludec vs. detemir hos børn/adolescenter med type 1-diabetes på basalbolus-regime |
+| [NCT02392117](https://clinicaltrials.gov/study/NCT02392117) | I/A (ikke-interventionsstudie) | Afsluttet | 1.262 | Multi-centre, prospektiv, real-world sikkerhed og effektivitetsstudie af Tresiba® (insulin degludec) ved type 1- og type 2-diabetes |
+| [NCT04196231](https://clinicaltrials.gov/study/NCT04196231) | Fase 4 | Afsluttet | 258 | BEYOND: åbent, tre-arms RCT om varighed af glykæmisk kontrol med basalinsulinforbrug/GLP-1RA eller SGLT-2i vs. basalbolus-insulin — befolkning: Type 2-diabetes |
+| [NCT06199505](https://clinicaltrials.gov/study/NCT06199505) | Fase 2 | Afsluttet | 153 | Sammenligning af GZR101 vs. insulin degludec/insulin aspart ved type 2-diabetes utilstrækkeligt kontrolleret med OAD'er/insulin |
+| [NCT03938740](https://clinicaltrials.gov/study/NCT03938740) | Fase 2 | Afsluttet | 61 | Randomiseret, åbent-label sammenligning af insulindoseringsalgoritmer (HDV-insulin lispro vs. insulin degludec) ved type 1-diabetes |
+| [NCT01773798](https://clinicaltrials.gov/study/NCT01773798) | Fase 1 | Afsluttet | 33 | PK/PD-studie af insulin degludec/insulin aspart 15 ved type 1-diabetes |
+| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Fase 3 | Afsluttet | 834 | Effektivitet/sikkerhed af hurtigere virkende insulin aspart vs. NovoRapid®, begge i kombination med insulin degludec, hos børn/adolescenter med type 1-diabetes (komparator fokus — indirekte relevans) |
+| [NCT05103306](https://clinicaltrials.gov/study/NCT05103306) | I/A | Ukendt | 300 | Real-world sammenligning af empagliflozin-baseret firedobbelt oral terapi vs. basalinsulinforbrug-baseret kombinationsterapi ved type 2-diabetes (indirekte relevans) |
+| [NCT01467414](https://clinicaltrials.gov/study/NCT01467414) | Fase 1 | Afbrudt | 1 | PD-studie af insulin degludec hos japanske personer med type 2-diabetes — afbrudt, minimal fuldført tilmelding (lav relevans) |
 
-*Note: 50 clinical trials referencing insulin degludec and diabetes were identified in total; the 10 most relevant (by assigned evidence grade) are shown above. Several listed trials studied Type 2 diabetes populations or used insulin degludec as a comparator rather than the primary study drug — flagged accordingly.*
+*Bemærk: I alt 50 kliniske forsøg, der henviser til insulin degludec og diabetes, blev identificeret; de 10 mest relevante (efter tildelt bevisvurdering) er vist ovenfor. Flere anførte forsøg studerede type 2-diabetes-befolkninger eller brugte insulin degludec som komparator snarere end det primære studiemiddel — markeret i overensstemmelse hermed.*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: once-weekly insulin efsitora alfa vs. once-daily insulin degludec in adults with Type 1 diabetes — non-inferiority trial |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: once-weekly insulin icodec vs. once-daily insulin degludec as part of basal-bolus regimen in Type 1 diabetes |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes & Endocrinology | EXPECT: insulin degludec vs. detemir (both with aspart) in pregnant women with Type 1 diabetes — non-inferiority trial |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Meta-analysis/Review | Clinical Therapeutics | Systematic review/meta-analysis comparing efficacy and tolerability of insulin degludec vs. other long-acting basal insulin analogues in T1DM/T2DM |
-| [38679838](https://pubmed.ncbi.nlm.nih.gov/38679838/) | 2024 | Review (trial design) | Diabetes, Obesity & Metabolism | Design and rationale of the QWINT phase 3 programme (efsitora vs. degludec) |
-| [36106652](https://pubmed.ncbi.nlm.nih.gov/36106652/) | 2023 | Review (trial design) | Diabetes, Obesity & Metabolism | Design and rationale of the ONWARDS 1-6 phase 3a programme (icodec vs. degludec) |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes & Endocrinology | Management of Type 1 diabetes in pregnancy, incl. basal insulin choice and glycaemic targets |
-| [31055056](https://pubmed.ncbi.nlm.nih.gov/31055056/) | 2020 | Review | Diabetes & Metabolism | Current status of insulin degludec in Type 1 and Type 2 diabetes based on randomized and observational trials |
-| [25143741](https://pubmed.ncbi.nlm.nih.gov/25143741/) | 2014 | Review | Vascular Health and Risk Management | Insulin degludec/insulin aspart combination for treatment of Type 1 and Type 2 diabetes |
-| [23890782](https://pubmed.ncbi.nlm.nih.gov/23890782/) | 2014 | Review | Endocrinología y Nutrición | Advances in clinical research on degludec as ultra-long-acting basal insulin in Type 1 and Type 2 diabetes |
+| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: engangs ugentlig insulin efsitora alfa vs. engangs dagligt insulin degludec hos voksne med type 1-diabetes — ikke-underlegenhedsforsøg |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: engangs ugentlig insulin icodec vs. engangs dagligt insulin degludec som del af basalbolus-regime ved type 1-diabetes |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes & Endocrinology | EXPECT: insulin degludec vs. detemir (begge med aspart) hos gravide kvinder med type 1-diabetes — ikke-underlegenhedsforsøg |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Meta-analyse/Oversigt | Clinical Therapeutics | Systematisk gennemgang/meta-analyse, der sammenligner effektivitet og tolerabilitet af insulin degludec vs. andre langtidsvirkende basalinsulinalger ved T1DM/T2DM |
+| [38679838](https://pubmed.ncbi.nlm.nih.gov/38679838/) | 2024 | Oversigt (forsøgsdesign) | Diabetes, Obesity & Metabolism | Design og rationalet for QWINT fase 3-programmet (efsitora vs. degludec) |
+| [36106652](https://pubmed.ncbi.nlm.nih.gov/36106652/) | 2023 | Oversigt (forsøgsdesign) | Diabetes, Obesity & Metabolism | Design og rationalet for ONWARDS 1-6 fase 3a-programmet (icodec vs. degludec) |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Oversigt | Lancet Diabetes & Endocrinology | Behandling af type 1-diabetes under graviditet, inkl. valg af basalinsulinforbrug og glykæmiske mål |
+| [31055056](https://pubmed.ncbi.nlm.nih.gov/31055056/) | 2020 | Oversigt | Diabetes & Metabolism | Nuværende status for insulin degludec ved type 1- og type 2-diabetes baseret på randomiserede og observationelle forsøg |
+| [25143741](https://pubmed.ncbi.nlm.nih.gov/25143741/) | 2014 | Oversigt | Vascular Health and Risk Management | Insulin degludec/insulin aspart-kombination til behandling af type 1- og type 2-diabetes |
+| [23890782](https://pubmed.ncbi.nlm.nih.gov/23890782/) | 2014 | Oversigt | Endocrinología y Nutrición | Fremskridt inden for klinisk forskning på degludec som ultra-langtidsvirkende basalinsulinforbrug ved type 1- og type 2-diabetes |
 
-*Note: 20 publications were identified in total for this indication; the 10 with completed relevance classification are shown, prioritised RCT > meta-analysis/review > narrative review.*
-
----
-
-## Denmark Market Information
-
-No marketing authorisation for insulin degludec is currently on file in this evidence pack for the Danish market (**Market status: Not Marketed; 0 registered licences**). No product name, dosage form, or approved indication text is available from the Laegemiddelstyrelsen (Danish Medicines Agency) or EMA centralised registration data provided. This should be independently verified against the current Laegemiddelstyrelsen and EMA product registers, since insulin degludec (marketed elsewhere as Tresiba®/Ryzodeg®/Xultophy®) may hold live EU centralised authorisations not captured in this pack.
+*Bemærk: I alt 20 publikationer blev identificeret for denne indikation; de 10 med fuldført relevansklassificering er vist, prioriteret RCT > meta-analyse/oversigt > narrativ oversigt.*
 
 ---
 
-## Safety Considerations
+## Danmarks markedsinformation
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack (drug interaction query: not found, 0 results). **This is flagged as a Blocking-severity data gap** — the absence of label-derived warnings/contraindications means a preliminary safety assessment (S1) cannot currently be completed for this candidate.
+Ingen markedsføringstilladelse for insulin degludec er i øjeblikket på fil i denne bevissamling til det danske marked (**Markedsstatus: Ikke markedsført; 0 registrerede licenser**). Intet produktnavn, doseringform eller godkendt indikationstekst er tilgængelig fra Lægemiddelstyrelsen (Styrelsen for Lægemiddelgodt) eller EMA centraliseret registreringsdata, der er givet. Dette bør uafhængigt verificeres mod det aktuelle Lægemiddelstyrels og EMA-produktregistre, da insulin degludec (markedsført andetsteds som Tresiba®/Ryzodeg®/Xultophy®) kan have aktive EU-centraliserede tilladelser, som ikke er registreret i denne pakke.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendt produktinformationsblad (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata var tilgængelige i denne bevissamling (lægemiddel-interaktionssøgning: ikke fundet, 0 resultater). **Dette er markeret som en blokering-severity datakløft** — fraværet af etiket-afledt advarsler/kontraindikationer betyder, at en foreløbig sikkerhedsvurdering (S1) i øjeblikket ikke kan gennemføres for denne kandidat.
 
-**Rationale:**
-Extensive Phase 3 clinical trial and RCT literature evidence (Evidence Level L1) supports insulin degludec's efficacy and safety in Type 1 diabetes mellitus. However, this reflects confirmation of an already well-established indication rather than a novel repurposing signal, and Denmark currently has no active marketing authorisation on file — so "guardrails" here specifically means: treat this as a regulatory/market-access question, not a scientific-validation question, and do not proceed to any safety sign-off until the blocking data gap below is closed.
+---
 
-**To proceed, the following is needed:**
-- **[Blocking]** Danish/EU-approved product label (SmPC) — warnings, precautions, and contraindications must be obtained before any S1 safety evaluation can be completed.
-- **[High priority]** Verified mechanism-of-action documentation from DrugBank or the manufacturer's SmPC.
-- Confirmation of current Danish/EU marketing authorisation status directly from Laegemiddelstyrelsen and the EMA register (this evidence pack shows 0 licences, which should be cross-checked as it may reflect a data completeness gap rather than true absence of any EU authorisation).
-- Clarification with the originating analysis team on why "Type 1 Diabetes Mellitus" — the drug's core label indication — was classified as a *predicted new* indication, to ensure this candidate is correctly triaged as a market-access case rather than mixed into genuine repurposing-hypothesis review queues.
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Omfattende fase 3 kliniske forsøgs- og RCT-litteraturbevis (Bevisniveau L1) understøtter insulin degludecs effektivitet og sikkerhed ved type 1-diabetes mellitus. Dog afspejler dette bekræftelsen af en allerede veletableret indikation snarere end et nyt genbrugssignal, og Danmark har i øjeblikket ingen aktiv markedsføringstilladelse på fil — så "sikkerhedsforanstaltninger" betyder her specifikt: behandle dette som et lovgivnings-/markedsadgangsspørgsmål, ikke et videnskabeligt valideringsspørgsmål, og fortsæt ikke til nogen sikkerhedsgodkendelse, før den blokeringsblokering nedenfor er lukket.
+
+**For at fortsætte kræves følgende:**
+- **[Blokering]** Dansk/EU-godkendt produktetiket (SmPC) — advarsler, forsigtighedsforanstaltninger og kontraindikationer skal indhentes, før nogen S1-sikkerhedsvurdering kan gennemføres.
+- **[Høj prioritet]** Verificeret dokumentation af virkemekanisme fra DrugBank eller producentens SmPC.
+- Bekræftelse af nuværende dansk/EU-markedsføringstilladelsestatus direkte fra Lægemiddelstyrels og EMA-registret (denne bevissamling viser 0 licenser, som bør krydskontrolleres, da det kan afspejle en datafuldstændighedskløft snarere end sand fravær af nogen EU-tilladelse).
+- Præcisering med det oprindelige analyseteam om, hvorfor "Type 1-diabetes mellitus" — lægemidlets kerne-etiket-indikation — blev klassificeret som en *forudsagt ny* indikation, for at sikre, at denne kandidat korrekt sorteres som en markedsadgangscase snarere end blandet ind i ægte genbrugshypotese-review-køer.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

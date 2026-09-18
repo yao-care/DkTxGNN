@@ -29,62 +29,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vancomycin: From Gram-Positive Bacterial Infections to Diffuse Scleroderma
+# Vancomycin: Fra Gram-positive bakterielle infektioner til diffus skleroderm
 
-## One-Sentence Summary
+## Sammenfattelse på én linje
 
-Vancomycin is a glycopeptide antibiotic used clinically for serious Gram-positive infections (e.g. MRSA, *C. difficile*). The TxGNN model predicts a possible link to **Diffuse Scleroderma**, but this direction is currently supported by **0 clinical trials** and only **1 case report**, and the case report itself describes a suspected *adverse drug reaction*, not a therapeutic effect.
+Vancomycin er et glykopeptidantibiotikim, der klinisk bruges til alvorlige Gram-positive infektioner (f.eks. MRSA, *C. difficile*). TxGNN-modellen forudsiger et muligt link til **Diffus skleroderm**, men denne retning er i øjeblikket understøttet af **0 kliniske forsøg** og kun **1 casusrapport**, og casusrapporten selv beskriver en mistænkt *bivirkning*, ikke en terapeutisk effekt.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Gram-positive bacterial infections (inferred from drug class; no Denmark-specific approved indication text on file) |
-| Predicted New Indication | Diffuse Scleroderma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Gram-positive bakterielle infektioner (udledt fra lægemiddelklasse; ingen Danmark-specifik godkendt indikationstekst på fil) |
+| Forudsagt ny indikation | Diffus skleroderm |
+| TxGNN-forudsigelsesscore | 99.92% |
+| Evidensniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for this candidate is not available in the evidence pack (MOA field flagged as a blocking data gap). Based on general pharmacological knowledge captured in the evidence pack's own rationale, vancomycin acts by inhibiting D-Ala-D-Ala cell-wall synthesis in Gram-positive bacteria — a mechanism with no known relevance to diffuse scleroderma, which is an autoimmune fibrotic disease driven by fibroblast activation, TGF-β signalling, and microvascular injury.
+Detaljerede data om virkningsmåde for denne kandidat er ikke tilgængelige i bevispacken (virkningsmåde-felt er markeret som et blokerende datagab). Baseret på almene farmakologiske data, som fremgår af bevispacken selv, virker vancomycin ved at hæmme D-Ala-D-Ala-cellevægssyntese i Gram-positive bakterier — en mekanisme uden kendt relevans for diffus skleroderm, som er en autoimmun fibrotisk sygdom kendetegnet ved fibroblastaktivering, TGF-β-signalering og mikrovaskulær skade.
 
-The only supporting literature (PMID 31541072) is a 2019 case report of a patient with an exfoliative rash and eosinophilia following antibiotic therapy — this describes a *suspected adverse cutaneous drug reaction*, not a therapeutic benefit in scleroderma. There is no clinical trial evidence, no preclinical mechanistic study, and no established pharmacological rationale connecting an antibacterial cell-wall inhibitor to an autoimmune fibrotic disease.
+Den eneste understøttende litteratur (PMID 31541072) er en casusrapport fra 2019 om en patient med diffust eksfoliativt udslæt, sepsis og eosinofili efter antibiotikabehandling — dette beskriver en *mistænkt hudbivirkning*, ikke en terapeutisk fordel ved skleroderm. Der er ingen bevis fra kliniske forsøg, ingen præklinisk mekanistisk undersøgelse, og ingen etableret farmakologisk begrundelse, der forbinder en antibakteriell cellevægsinhibitor med en autoimmun fibrotisk sygdom.
 
-Given this, the high TxGNN score most likely reflects sparse or confounded associations in the underlying knowledge graph rather than a genuine repurposing signal. The same pattern holds across the other candidates in this batch (paratyphoid fever, salmonellosis) — both are caused by Gram-negative organisms that vancomycin cannot penetrate, making those predictions mechanistically implausible as well.
+I betragtning af dette afspejler den høje TxGNN-score mest sandsynligt sparsomme eller konfunderede associationer i den underliggende videnskraf snarere end et ægte repurposeringsignal. Det samme mønster gælder for de andre kandidater i denne batch (paratyfoid feber, salmonellose) — begge er forårsaget af Gram-negative organismer, som vancomycin ikke kan trænge ind i, hvilket gør disse forudsigelser mekanistisk usandsynlige såvel.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+Der er i øjeblikket ingen registrerede relevante kliniske forsøg.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Case Report | The American Journal of Case Reports | Describes a patient with diffuse exfoliative rash, sepsis, and eosinophilia following antibiotic treatment (including agents in the vancomycin drug class) — a suspected adverse drug reaction, not evidence of therapeutic use in scleroderma |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|--------|---------|
+| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Casusrapport | The American Journal of Case Reports | Beskriver en patient med diffust eksfoliativt udslæt, sepsis og eosinofili efter antibiotikabehandling (herunder midler i vancomycin-lægemiddelklassen) — en mistænkt hudbivirkning, ikke bevis for terapeutisk brug ved skleroderm |
 
-## Denmark Market Information
+## Oplysninger om det danske marked
 
-Vancomycin is not currently marketed in Denmark under this evidence pack, and no marketing authorisation records are on file (0 licenses).
+Vancomycin er i øjeblikket ikke markedsført i Danmark i henhold til denne bevispacke, og der er ingen markedsføringstilladelelsesregistre på fil (0 licenser).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug interaction records were found in the queried database.
+Se venligst det godkendte produktinformationsdokument (SmPC) for sikkerhedsinformationer. Ingen lægemiddelinteraktionsregistre blev fundet i den forespurgte database.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The TxGNN score is high, but there is no mechanistic rationale, no clinical trial evidence, and the single literature reference actually describes a drug-associated skin reaction rather than a treatment effect. Evidence level L5 (model prediction only) does not support advancing this candidate.
+**Begrundelse:**
+TxGNN-scoren er høj, men der er ingen mekanistisk begrundelse, ingen bevis fra kliniske forsøg, og den enkelte litteraturreference beskriver faktisk en hudbivirkning snarere end en behandlingseffekt. Evidensniveau L5 (kun modelforudsigelse) understøtter ikke fremme af denne kandidat.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for vancomycin (currently a blocking data gap, DG002)
-- TFDA/SmPC warnings and contraindications (currently a blocking data gap, DG001) before any safety pre-screening (S1) can begin
-- Preclinical or mechanistic studies specifically linking glycopeptide antibiotics to fibrotic/autoimmune pathways, if this candidate is to be reconsidered
-- Independent re-review of the TxGNN signal, given that the top 10 ranked candidates for this drug (including paratyphoid fever and salmonellosis, both Gram-negative indications) show the same pattern of high score paired with implausible mechanism
+**For at komme videre er følgende nødvendigt:**
+- Bekræftet data om virkningsmåde for vancomycin (i øjeblikket et blokerende datagab, DG002)
+- TFDA/SmPC-advarsler og kontraindikationer (i øjeblikket et blokerende datagab, DG001), før nogen sikkerhedsforscreening (S1) kan påbegyndes
+- Prækliniske eller mekanistiske undersøgelser, der specifikt forbinder glykopeptidantibiotikaer til fibrotisk/autoimmun patologier, hvis denne kandidat skal revurderes
+- Uafhængig genvurdering af TxGNN-signalet, givet at de 10 bedst rangerede kandidater for dette lægemiddel (herunder paratyfoid feber og salmonellose, begge Gram-negative indikationer) viser det samme mønster af høj score kombineret med usandsynlig mekanisme
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

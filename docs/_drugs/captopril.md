@@ -29,97 +29,98 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Captopril: From Hypertension to Malignant Renovascular Hypertension
+# Captopril: Fra Hypertension til Malign Renovaskular Hypertension
 
-## One-Sentence Summary
+## Sammenfatning på En Linje
 
-Captopril is a first-generation angiotensin-converting enzyme (ACE) inhibitor, long established in global clinical practice for hypertension, chronic heart failure, and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension** — and the closely related **malignant hypertensive renal disease** — with an identical TxGNN score of **99.28%** for both indications.
-No registered clinical trials have evaluated this repurposing direction, but **20 publications** across case series, clinical studies, and mechanistic literature currently support the renovascular indication.
+Captopril er en første generations angiotensin-konverterings-enzym (ACE) inhibitor, længe etableret i global klinisk praksis for hypertension, kronisk hjerteinsufficiens og diabetisk nefropati.
+TxGNN-modellen forudsiger, at det kan være effektivt for **malign renovaskular hypertension** — og den nært relaterede **malign hypertensiv nyresygdom** — med en identisk TxGNN-score på **99.28%** for begge indikationer.
+Der er ingen registrerede kliniske forsøg, der har evalueret denne omdestinering, men **20 publikationer** på tværs af casusserier, kliniske studier og mekanistisk litteratur understøtter i øjeblikket renovaskulær indikationen.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension / heart failure (no Danish Marketing Authorisation on record; original indication data not available in this pack) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig Indikation | Hypertension / hjerteinsufficiens (ingen dansk markedsføringstilladelse på rekord; oprindelige indikatonsdata ikke tilgængelige i dette materiale) |
+| Forudsagt Ny Indikation | Malign Renovaskular Hypertension |
 | TxGNN Prediction Score | 99.28% |
-| Evidence Level | L3 (malignant renovascular hypertension) / L4 (malignant hypertensive renal disease) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Bevisniveau | L3 (malign renovaskular hypertension) / L4 (malign hypertensiv nyresygdom) |
+| Danmark Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Fortsæt med Sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-Formal mechanism of action data was not retrievable for this Evidence Pack. Based on established pharmacology, captopril blocks angiotensin-converting enzyme (ACE), preventing the conversion of angiotensin I to angiotensin II (Ang II). By reducing circulating Ang II, captopril lowers systemic vascular resistance, suppresses aldosterone-driven sodium retention, and — critically for renal involvement — reduces intraglomerular pressure by relaxing the efferent arteriole. This nephroprotective mechanism underpins its long-established role in hypertensive renal damage and diabetic nephropathy.
+Formelle virkningsmekanisme-data var ikke tilgængelige for denne Evidence Pack. Baseret på etableret farmakologi blokerer captopril angiotensin-konverterings-enzyme (ACE) og forhindrer dermed konvertering af angiotensin I til angiotensin II (Ang II). Ved at reducere cirkulerende Ang II sænker captopril systemisk vaskulær modstand, undertrykker aldosteron-drevet natriumretention, og — kritisk for nyremanifestationer — reducerer intraglomerulært tryk ved at afslappe den efferente arteriole. Denne nefroprotektiv mekanisme ligger til grund for dens længe etablerede rolle i hypertensiv nyresygdom og diabetisk nefropati.
 
-Malignant renovascular hypertension and malignant hypertensive renal disease share a common pathophysiology: pathological overactivation of the renin-angiotensin-aldosterone system (RAAS). In renovascular disease, renal artery stenosis or renin-secreting tumours drive excess renin release → Ang II accumulation → explosive blood pressure rise → end-organ damage (kidneys, retina, brain). Captopril targets this cascade at its core enzymatic step, making it one of the most mechanistically direct pharmacological interventions available. The TxGNN knowledge graph assigns identical scores of 99.28% to both RAAS-driven renal indications, strongly supporting this link.
+Malign renovaskular hypertension og malign hypertensiv nyresygdom deler en fælles patofysiologi: patologisk overaktivering af renin-angiotensin-aldosteron-systemet (RAAS). I renovaskulær sygdom driver nyearteriestenose eller renin-sekernende tumorer overskud af renin-frigivelse → Ang II-akkumulation → eksplosiv blodtryksstigning → slut-organskade (nyrer, retina, hjerne). Captopril målretter denne kaskade på dens centrale enzymatiske trin, hvilket gør det til en af de mest mekanistisk direkte farmakologiske interventioner til rådighed. TxGNN-kendskabsgrafen tildeler identiske score på 99.28% til begge RAAS-drevne nyreindikationer, hvilket stærkt understøtter dette link.
 
-One critical safety caveat defines the guardrails: in patients with bilateral renal artery stenosis or a solitary functioning kidney, blocking Ang II removes the compensatory efferent arteriolar tone that sustains glomerular filtration pressure. This can precipitate acute, potentially irreversible renal failure. Patient selection and mandatory pre-treatment imaging are the central conditions for safe use in this setting.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (search conducted 2026-03-26 across ClinicalTrials.gov and WHO ICTRP for both malignant hypertensive renal disease and malignant renovascular hypertension).
+En kritisk sikkerhedscaveat definerer sikkerhedsforanstaltningerne: hos patienter med bilateral nyearteriestenose eller en eneste fungerende nyre fjerner blokering af Ang II den kompensatoriske efferent arterioltone, som opretholder glomerulært filtrationstryk. Dette kan fremkalde akut, potentielt irreversibel nyresvigt. Patientudsendelse og obligatorisk præ-behandling billeddiagnostik er de centrale betingelser for sikker brug i denne indstilling.
 
 ---
 
-## Literature Evidence
+## Kliniske Forsøgsbeviser
 
-Ten publications selected from 20 retrieved papers on malignant renovascular hypertension, ranked by direct therapeutic relevance to captopril:
+I øjeblikket ingen relaterede kliniske forsøg registreret (søgning udført 2026-03-26 på tværs af ClinicalTrials.gov og WHO ICTRP for både malign hypertensiv nyresygdom og malign renovaskular hypertension).
 
-| PMID | Year | Type | Journal | Key Findings |
+---
+
+## Litteraturbeviser
+
+Ti publikationer valgt fra 20 hentede artikler om malign renovaskular hypertension, rangeret efter direkte terapeutisk relevans for captopril:
+
+| PMID | År | Type | Journal | Vigtige Resultater |
 |------|-----|------|------|---------|
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical Study (Non-RCT) | Biulleten' Vsesoiuznogo kardiologicheskogo | Direct clinical evaluation of captopril in arterial hypertension with both stable and malignant course |
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Clinical Study | Clinical Science | Captopril induced reactive hyper-reninaemia in 43 of 44 patients with renovascular hypertension; diastolic BP reductions confirmed pharmacological response |
-| [3928961](https://pubmed.ncbi.nlm.nih.gov/3928961/) | 1985 | Case Report | Klinische Wochenschrift | Captopril used as antihypertensive in neurofibromatosis with bilateral renal artery stenosis and aortic coarctation; patient refused surgery, BP controlled with captopril |
-| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | Mechanistic Study | Japanese Heart Journal | Neurohormonal characterisation of benign vs malignant Goldblatt hypertension; elevated Ang II central to malignant phase, supporting RAAS as the primary therapeutic target |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinology and Metabolism Clinics | Renin-secreting (JGC) tumours: blood pressure consistently drops during ACE inhibitor (captopril) treatment; converts enzyme blockade as diagnostic and therapeutic tool |
-| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Review | Minerva Medica | Clinical concepts of renovascular hypertension; distinguishes renal artery stenosis from renovascular hypertension; RAAS-targeted treatment strategies reviewed |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case Report + Review | Clinical Nephrology | Two NF1 cases with renovascular hypertension; captopril test used to quantify plasma renin activity and guide antihypertensive management |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Case Series | Pediatric Nephrology | 27 paediatric NF1 patients studied with captopril test, Doppler, and angiography; renovascular hypertension prevalence and management described |
-| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Review | The Journal of Pediatrics | Malignant hypertension overview in paediatric population including pathophysiology and pharmacological management approaches |
-| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case Report | Clinical Nuclear Medicine | Case of malignant hypertension evaluated by captopril renal scintigraphy; illustrates captopril's mechanistic role in RAAS-dependent hypertensive states |
+| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Klinisk Studie (Ikke-RCT) | Biulleten' Vsesoiuznogo kardiologicheskogo | Direkte klinisk evaluering af captopril i arterielhypertension med både stabil og malign forløb |
+| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Klinisk Studie | Clinical Science | Captopril-induceret reaktiv hyper-reninæmi hos 43 af 44 patienter med renovaskular hypertension; diastoliske BP-reduktioner bekræftede farmakologisk respons |
+| [3928961](https://pubmed.ncbi.nlm.nih.gov/3928961/) | 1985 | Casusrapport | Klinische Wochenschrift | Captopril brugt som antihypertensivum i neurofibromatose med bilateral nyearteriestenose og aorta-koarktation; patient afviste kirurgi, BP kontrolleret med captopril |
+| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | Mekanistisk Studie | Japanese Heart Journal | Neurohormonel karakterisering af benign vs malign Goldblatt hypertension; forhøjet Ang II central for malign fase, hvilket understøtter RAAS som det primære terapeutiske mål |
+| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Gennemgang | Endocrinology and Metabolism Clinics | Renin-sekernende (JGC) tumorer: blodtrykket falder konsistent under ACE-inhibitor (captopril) behandling; konverterings-enzym blokade som diagnostisk og terapeutisk værktøj |
+| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Gennemgang | Minerva Medica | Kliniske koncepter for renovaskular hypertension; skelner mellem nyearteriestenose og renovaskular hypertension; RAAS-målrettet behandlingsstrategier gennemgået |
+| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Casusrapport + Gennemgang | Clinical Nephrology | To NF1-tilfælde med renovaskular hypertension; captopril-test brugt til kvantificering af plasma renin-aktivitet og vejledning af antihypertensiv behandling |
+| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Casusserie | Pediatric Nephrology | 27 pædiatriske NF1-patienter undersøgt med captopril-test, Doppler og angiografi; renovaskular hypertension prevalens og behandling beskrevet |
+| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Gennemgang | The Journal of Pediatrics | Malign hypertension oversigt i pædiatrisk population inklusiv patofysiologi og farmakologiske behandlingstilgange |
+| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Casusrapport | Clinical Nuclear Medicine | Tilfælde af malign hypertension evalueret ved captopril renalszintigrafi; illustrerer captopril's mekanistiske rolle i RAAS-afhængige hypertensive tilstande |
 
 ---
 
-## Denmark Market Information
+## Danmark Markedsinformation
 
-Captopril currently holds **no marketing authorisation** registered with the Danish Medicines Agency (Lægemiddelstyrelsen) as of the data cut-off (2026-04-04). There are no approved products on record.
+Captopril har i øjeblikket **ingen markedsføringstilladelse** registreret hos Lægemiddelstyrelsen pr. datakutoff (2026-04-04). Der er ingen godkendte produkter på rekord.
 
-> Captopril is approved in multiple European countries and has an established EMA-level safety and efficacy profile. Its absence from the Danish regulatory database may reflect historic market withdrawal or non-registration of generic products. Any clinical use in Denmark would require verification of a valid authorisation pathway (e.g., compassionate use, named-patient import, or parallel import licence) through the Lægemiddelstyrelsen.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information, as the formal product insert data for this submission was not available in the Evidence Pack.
-
-**Critical safety signals identified from the repurposing rationale:**
-
-- **Bilateral renal artery stenosis / solitary kidney — contraindication**: Captopril removes the compensatory Ang II-mediated efferent arteriolar tone essential for maintaining glomerular filtration pressure. Use in this setting can precipitate acute renal failure. Mandatory renal imaging before initiation is non-negotiable in the renovascular hypertension context.
-- **Renal function and electrolyte monitoring**: ACE inhibitors are associated with hyperkalaemia and worsening renal function. Serum creatinine, eGFR, and potassium must be checked at baseline and within 1–2 weeks of initiation.
+> Captopril er godkendt i flere europæiske lande og har en etableret EMA-niveau sikkerhed og effektivitetsprofil. Dets fravær fra den danske regulatoriske database kan afspejle historisk markedsudgang eller ikke-registrering af generiske produkter. Enhver klinisk brug i Danmark ville kræve verifikation af en gyldig autorisationsvej (f.eks. compassionat brug, navngivet-patient import eller parallel import-licens) gennem Lægemiddelstyrelsen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Venligst se det godkendte Produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, da de formelle produktindsatsdata for denne indsendelse ikke var tilgængelige i Evidence Pack.
+
+**Kritiske sikkerhedssignaler identificeret fra omdestineringsrationalet:**
+
+- **Bilateral nyearteriestenose / eneste fungerende nyre — kontraindikation**: Captopril fjerner den kompensatoriske Ang II-medierede efferent arterioltone, som opretholder glomerulært filtrationstryk. Brug i denne indstilling kan fremkalde akut nyresvigt. Obligatorisk nyrebildediagnostik før initiering er ikke til forhandling i renovaskular hypertension-konteksten.
+- **Nyrefunktion og elektrolytovervågning**: ACE-inhibitorer er forbundet med hyperkalæmi og forværring af nyrefunktion. Serum kreatinin, eGFR og kalium skal kontrolleres ved baseline og inden for 1–2 uger efter initiering.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Fortsæt med Sikkerhedsforanstaltninger**
 
 **Rationale:**
-Captopril's direct pharmacological action on ACE and the RAAS pathway is mechanistically precise for malignant renovascular hypertension — a condition defined by pathological Ang II overproduction. The L3 evidence base (clinical studies, case series, and mechanistic literature) provides sufficient biological plausibility and clinical signal to move forward, provided the bilateral stenosis contraindication is rigorously screened. The related indication of malignant hypertensive renal disease (L4, same TxGNN score) remains a research question until dedicated therapeutic — rather than purely diagnostic — studies are available.
+Captopril's direkte farmakologiske virkning på ACE og RAAS-stien er mekanistisk præcis for malign renovaskular hypertension — en tilstand defineret ved patologisk Ang II-overproduktion. L3-bevisgrundlaget (kliniske studier, casusserier og mekanistisk litteratur) giver tilstrækkelig biologisk plausibilitet og klinisk signal til at gå videre, forudsat at bilateral stenose-kontraindikationen er strengt screenet. Den relaterede indikation af malign hypertensiv nyresygdom (L4, samme TxGNN-score) forbliver et forskningsspørgsmål, indtil dedikerede terapeutiske — snarere end rent diagnostiske — studier er tilgængelige.
 
-**To proceed, the following is needed:**
-- **Renal imaging** (Doppler ultrasonography or CT angiography) to exclude bilateral renal artery stenosis or solitary functioning kidney before any treatment initiation
-- **Baseline and follow-up labs**: serum creatinine, eGFR, and potassium at initiation and at 1–2 weeks post-start
-- **Safety data gap resolution (DG001)**: obtain and review full SmPC / product insert to confirm the complete contraindication and warning profile (TFDA/EMA source)
-- **MOA data gap resolution (DG002)**: formal DrugBank API query to support mechanistic analysis documentation
-- **Prospective data collection**: establish a registry or observational study protocol to generate higher-quality clinical evidence (target: L2 or above) specifically for the malignant renovascular hypertension indication
+**For at fortsætte er følgende nødvendigt:**
+- **Nyrebildediagnostik** (Doppler-ultralyd eller CT-angiografi) for at udelukke bilateral nyearteriestenose eller eneste fungerende nyre før behandling initieres
+- **Baseline og opfølgende laboratorieprøver**: serum kreatinin, eGFR og kalium ved initiering og 1–2 uger efter start
+- **Sikkerhedsdatakløft løsning (DG001)**: indhent og gennemgå fuldstændigt produktresumé / produktindsats for at bekræfte det fuldstændige kontraindikation og advarselsprofil (TFDA/EMA kilde)
+- **MOA datakløft løsning (DG002)**: formelt DrugBank API-forespørgsel til at understøtte mekanistisk analysedokumentation
+- **Prospektiv dataindsamling**: etabler en registrerings- eller observationel studiprotokol til at generere højere kvalitets kliniske beviser (mål: L2 eller derover) specifikt for malign renovaskular hypertension-indikationen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

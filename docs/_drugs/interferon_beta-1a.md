@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Interferon beta-1a: From Multiple Sclerosis to Jeune Syndrome Situs Inversus
+# Interferon beta-1a: Fra multipel sklerose til Jeune syndrom situs inversus
 
-## One-Sentence Summary
+## Etlinjesammenfatning
 
-Interferon beta-1a is an immunomodulatory biologic globally established for relapsing forms of multiple sclerosis. The TxGNN model predicts a possible link to **Jeune syndrome situs inversus** (a rare congenital ciliopathy/skeletal dysplasia) with a **97.47% prediction score**, but this direction currently has **zero clinical trials and zero publications** supporting it, and the model's own rationale flags the score as likely a knowledge-graph artefact rather than a genuine signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (well-established global indication; not present in the supplied Danish regulatory dataset — see note below) |
-| Predicted New Indication | Jeune syndrome situs inversus |
-| TxGNN Prediction Score | 97.47% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
-*Note: `taiwan_regulatory.licenses` is empty for this evidence pack (product not currently authorised in Denmark), so the original indication above is drawn from the drug's globally documented use — corroborated by the multiple-sclerosis literature present elsewhere in this evidence pack — rather than from Danish label text.*
+Interferon beta-1a er et immunomodulatorisk biologisk lægemiddel, der er globalt etableret til behandling af tilbagefaldende former af multipel sklerose. TxGNN-modellen forudsiger et muligt link til **Jeune syndrom situs inversus** (en sjælden medfødt ciliopati/skelettal dysplasi) med en **97.47% forudsigelsesscore**, men denne retning har på nuværende tidspunkt **nul kliniske forsøg og nul publikationer**, der understøtter det, og modellens egen begrundelse signalerer, at scoren sandsynligvis er et vidensgrafartefakt snarere end et ægte signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism-of-action data is not available (flagged as a High-severity data gap, DG002). Based on known information, interferon beta-1a exerts antiviral and immunomodulatory effects via IFNAR signalling and modulation of Th1/Th17 responses, and its efficacy in relapsing multiple sclerosis is well established.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Multipel sklerose (velestableret global indikation; ikke til stede i det leverede danske regulatoriske datasæt — se note nedenfor) |
+| Forudsagt ny indikation | Jeune syndrom situs inversus |
+| TxGNN forudsigelsesscore | 97.47% |
+| Evidensniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Hold |
 
-However, the model's own repurposing rationale for this specific prediction is explicitly negative: Jeune syndrome (asphyxiating thoracic dystrophy) with situs inversus is a congenital ciliopathy and skeletal dysplasia — a structural/developmental disorder, not an immune or inflammatory condition. There is **no known mechanistic overlap** with interferon beta-1a's antiviral/immunomodulatory pathway.
-
-The evidence pack itself attributes the unusually high TxGNN score to a likely graph artefact: rare-disease nodes in the knowledge graph tend to have sparse connectivity, which can inflate similarity-based prediction scores without reflecting genuine biological plausibility. This prediction should therefore be treated as a hypothesis-generation output only, not as evidence of therapeutic potential.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+*Note: `taiwan_regulatory.licenses` er tomt for dette evidenspakke (produkt ikke i øjeblikket godkendt i Danmark), så den oprindelige indikation ovenfor er hentet fra lægemidlets globalt dokumenterede brug — bekræftet af litteraturen om multipel sklerose til stede andet sted i denne evidenspakke — snarere end fra dansk etiketinformation.*
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-Interferon beta-1a does not currently hold any marketing authorisation in Denmark under this evidence pack (market status: **Not marketed**, 0 authorisations on file).
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som blokerende datahul, DG002). Baseret på kendt information udøver interferon beta-1a antivirale og immunomodulatoriske effekter via IFNAR-signalering og modulering af Th1/Th17-reaktioner, og dets effektivitet ved tilbagefaldende multipel sklerose er velestableret.
 
----
+Imidlertid er modellens egen begrundelse for omdestinering til denne specifikke forudsigelse eksplicit negativ: Jeune syndrom (kvælende thorakaldystrofi) med situs inversus er en medfødt ciliopati og skelettal dysplasi — en strukturel/udviklingsbetinget lidelse, ikke en immun eller inflammatorisk tilstand. Der er **intet kendt mekanistisk overlap** med interferon beta-1a's antivirale/immunomodulatoriske virkemåde.
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (Danish label warnings, contraindications, and drug-interaction data are recorded as a Blocking data gap, DG001, and were not available for this evaluation.)
+Evidenspakken selv tilskriver den usædvanligt høje TxGNN-score til et sandsynligt grafartefakt: knuder for sjældne sygdomme i vidensgrafen plejer at have sparsom forbindelse, hvilket kan overdrive lighedbaserede forudsigelsesscores uden at afspejle ægte biologisk plausibilitet. Denne forudsigelse bør derfor behandles som et hypotesegenererende output alene, ikke som evidens for terapeutisk potentiale.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisk-forsøgs-evidens
 
-**Decision: Hold**
+I øjeblikket er der ingen relaterede kliniske forsøg registreret
 
-**Rationale:**
-This prediction has no supporting clinical trials or literature, and the model's own rationale identifies it as a probable false positive driven by sparse connectivity around a rare-disease node rather than a genuine mechanistic signal. Evidence Level L5 (model prediction only) does not support advancing this candidate.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC warnings/contraindications (DG001, Blocking) — required before any S1 safety screening can begin
-- Verified mechanism-of-action data (DG002, High) to properly assess biological plausibility
-- Independent re-scoring or manual review of this drug–disease pair, given the documented risk of noise in sparsely connected rare-disease knowledge-graph nodes
-- Any preclinical or mechanistic evidence connecting type-I interferon signalling to ciliopathy/skeletal dysplasia pathology, which is currently entirely absent
+## Litteratur-evidens
+
+I øjeblikket er ingen relateret litteratur tilgængelig
+
+---
+
+## Danske markedsoplysninger
+
+Interferon beta-1a har i øjeblikket ingen markedsføringstilladelse i Danmark under denne evidenspakke (markedsstatus: **Ikke markedsført**, 0 tilladelser på fil).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Samlet Produktkarakteristik (SmPC) for sikkerhedsoplysninger. (Danske etiketadvarsler, kontraindikationer og lægemiddel-interaktionsdata er registreret som blokerende datahul, DG001, og var ikke tilgængelige for denne evaluering.)
+
+---
+
+## Konklusion og næste skridt
+
+**Afgørelse: Hold**
+
+**Begrundelse:**
+Denne forudsigelse har ingen understøttende kliniske forsøg eller litteratur, og modellens egen begrundelse identificerer det som et sandsynligt falskt positivt resultat drevet af sparsom forbindelse omkring en sjælden-sygdom-knude snarere end et ægte mekanistisk signal. Evidensniveau L5 (modelforudsigelse alene) understøtter ikke at fremme denne kandidat.
+
+**For at fortsætte er følgende nødvendig:**
+- Danske SmPC advarsler/kontraindikationer (DG001, Blokering) — påkrævet før ethvert S1 sikkerhedsscreening kan påbegyndes
+- Verificerede virkningsmekanisme-data (DG002, Høj) til korrekt vurdering af biologisk plausibilitet
+- Uafhængig re-scoring eller manuel gennemgang af dette lægemiddel–sygdoms-par, givet den dokumenterede risiko for støj i sparsomt forbundne sjælden-sygdom-vidensgrafs-knuder
+- Enhver preklinisk eller mekanistisk evidens, der forbinder type-I interferon-signalering til ciliopati/skelettal dysplasi-patologi, som i øjeblikket er helt fraværende
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

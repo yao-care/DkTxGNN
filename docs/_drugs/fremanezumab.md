@@ -29,87 +29,88 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fremanezumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Fremanezumab: Fra migræneprofylakse til migræne med hjernestammen aura
 
-## One-Sentence Summary
+## Ét-sætnings-sammenfatning
 
-Fremanezumab (Ajovy) is a fully humanized anti-CGRP monoclonal antibody approved in multiple markets for prevention of episodic and chronic migraine. The TxGNN model predicts it may be effective for **migraine with brainstem aura** — a rare subtype systematically excluded from pivotal clinical trials — with **0 registered clinical trials** but **20 publications** currently supporting this direction.
+Fremanezumab (Ajovy) er et fuldstændig humaniseret anti-CGRP-monoklonalt antistof, der er godkendt på flere markeder til profylakse af episodisk og kronisk migræne. TxGNN-modellen forudsiger, at det kan være effektivt til **migræne med hjernestammen aura** — en sjælden subtype, der systematisk er blevet udelukket fra pivotale kliniske forsøg — med **0 registrerede kliniske forsøg**, men **20 publikationer**, der i øjeblikket understøtter denne retning.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Migraine prevention (episodic and chronic migraine) — EMA centralised authorisation exists; not yet registered in Denmark |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original indikation | Migræneprofylakse (episodisk og kronisk migræne) — EMA-centraliseret godkendelse findes; endnu ikke registreret i Danmark |
+| Forventet ny indikation | Migræne med hjernestammen aura |
+| TxGNN-forudsigelsesscore | 99.94% |
+| Evidensniveau | L3 |
+| Danmarks markedsstatus | Ikke på markedet |
+| Antal godkendelser af markedsføring | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Fremanezumab is a fully humanized IgG2Δa monoclonal antibody that selectively binds calcitonin gene-related peptide (CGRP) — a potent neuropeptide central to migraine pathophysiology. By neutralizing CGRP directly before it can reach its receptor, fremanezumab blocks the downstream cascade of neurogenic inflammation and vasodilatation in the trigeminovascular system, which is the primary pain-generating pathway in migraine.
+Fremanezumab er et fuldstændig humaniseret IgG2Δa-monoklonalt antistof, der selektivt binder sig til calcitonin-gen-relateret peptid (CGRP) — et potent neuropeptid, der er centralt for migrænepathofysiologien. Ved at neutralisere CGRP direkte, før det kan nå sin receptor, blokerer fremanezumab det nedstrøms cascade af neurogenisk inflammation og vasodilatation i det trigeminale vaskulære system, som er den primære smertegenererande vej i migræne.
 
-Migraine with brainstem aura (formerly basilar-type migraine) is characterized by aura symptoms originating from the brainstem: vertigo, dysarthria, tinnitus, diplopia, and bilateral sensory disturbance. The neurophysiological mechanism underlying aura is cortical spreading depression (CSD) — a slow, self-propagating wave of neuronal depolarization. Crucially, CSD triggers a large, acute release of CGRP, creating a direct mechanistic bridge between this condition and fremanezumab's target. Two preclinical mechanistic studies (PMID 31127003, PMID 31895266) demonstrate that fremanezumab slows CSD propagation velocity and shortens the cortical recovery period, though it does not fully prevent CSD onset. This means fremanezumab is likely to reduce aura severity and duration rather than abolish it entirely — a pattern consistent with observations from clinical case series of anti-CGRP antibodies in migraine with aura (PMID 35268319).
+Migræne med hjernestammen aura (tidligere basilar-type migræne) er karakteriseret ved aurasymptomer, der stammer fra hjernestammen: svimmelhed, dysartri, tinnitus, diplopi og bilateral sensorisk forstyrrelse. Den neurofiziologiske mekanisme bag aura er kortikale spredningsdepression (CSD) — en langsom, selvudbredende bølge af neuronal depolarisering. Afgørende er, at CSD udløser en stor, akut frigivelse af CGRP, som skaber en direkte mekanistisk bro mellem denne tilstand og fremanezumabs mål. To prækliniske mekanistiske studier (PMID 31127003, PMID 31895266) viser, at fremanezumab forsinker CSD-udbredelseshastighed og forkorter den kortikale genopretningsperiode, selvom det ikke fuldstændig forhindrer CSD-initiering. Dette betyder, at fremanezumab sandsynligvis reducerer aurasværhedsgrad og varighed snarere end at eliminere det helt — et mønster i overensstemmelse med observationer fra kliniske casserier af anti-CGRP-antistoffer i migræne med aura (PMID 35268319).
 
-Patients with migraine with brainstem aura have historically been excluded from randomized controlled trials due to theoretical cardiovascular safety concerns about CSD-triggering agents. This regulatory gap has left a significant unmet clinical need. The accumulating real-world data, mechanistic studies, and indirect subgroup evidence from the Phase 3b FOCUS trial (fremanezumab in difficult-to-treat migraine with neurological dysfunction including aura; PMID 35302681) collectively support a biologically plausible and clinically underserved extension of fremanezumab's approved indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials specifically registered for fremanezumab in migraine with brainstem aura.
+Patienter med migræne med hjernestammen aura er historisk set blevet ekskluderet fra randomiserede kontrolforsøg på grund af teoretiske kardiovaskulære sikkerhedsbekymringer om CSD-udløsende midler. Denne regulatoriske kløft har efterladt et betydeligt uopfyldt klinisk behov. De akkumulerede real-world-data, mekanistiske studier og indirekte undergruppeevidens fra Phase 3b FOCUS-forsøget (fremanezumab i vanskelig-at-behandle migræne med neurologisk dysfunktion inklusiv aura; PMID 35302681) understøtter samlet en biologisk plausibel og klinisk underforsynet udvidelse af fremanezumabs godkendte indikation.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case Series + Literature Review | J Clin Med | Anti-CGRP mAbs (eptinezumab, fremanezumab, galcanezumab, erenumab) may reduce migraine aura frequency; case reports document aura improvement with CGRP-targeted prophylaxis |
-| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Observational Case Series | CNS Neurosci Ther | Anti-CGRP-targeted therapy shows potential preventive effectiveness for migraine with aura; limited but encouraging clinical evidence |
-| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Individual Patient Analysis | J Headache Pain | Anti-CGRP mAbs effective in hemiplegic migraine (a severe migraine-with-aura subtype excluded from RCTs); supports broader use in aura-predominant presentations |
-| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Retrospective Cohort | Eur J Neurol | Post hoc of Phase 3b FOCUS trial: fremanezumab effective in difficult-to-treat migraine patients with and without aura or similar neurological dysfunction |
-| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Preclinical / Mechanistic | J Neurosci | CSD-induced arterial dilatation and plasma protein extravasation unaffected by fremanezumab, suggesting CGRP-independent vascular CSD responses; clarifies mechanistic scope |
-| [31895266](https://pubmed.ncbi.nlm.nih.gov/31895266/) | 2020 | Preclinical / Mechanistic | Pain | Fremanezumab slows CSD propagation velocity and shortens cortical recovery period in rats with compromised blood-brain barrier; does not prevent CSD onset |
-| [28642283](https://pubmed.ncbi.nlm.nih.gov/28642283/) | 2017 | Preclinical / Mechanistic | J Neurosci | Fremanezumab selectively inhibits trigeminovascular neurons; establishes mechanistic basis for CGRP-targeted migraine prevention |
-| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Prospective Observational | Front Neurol | Real-world efficacy and tolerability of fremanezumab in chronic migraine confirmed in post-marketing setting; safety profile consistent with RCT data |
-| [40264646](https://pubmed.ncbi.nlm.nih.gov/40264646/) | 2025 | Case Report + Literature Review | Front Neurol | Anti-CGRP mAbs effective in hemiplegic migraine case; reviews broader evidence for CGRP pathway blockade in migraine-with-aura subtypes |
-| [35775208](https://pubmed.ncbi.nlm.nih.gov/35775208/) | 2022 | Observational | Cephalalgia | Erenumab, fremanezumab, and galcanezumab reduce prodromal and accompanying neurological symptoms of migraine, suggesting effects beyond peripheral pain pathways |
+I øjeblikket er der ikke noget kliniske forsøg specifikt registreret for fremanezumab i migræne med hjernestammen aura.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-Fremanezumab currently holds no marketing authorisation with the Danish Medicines Agency (Laegemiddelstyrelsen) and is not marketed in Denmark. Clinicians requiring access may apply for individual special import (named-patient import) under Danish Medicines Act §28, referencing the centrally authorised EMA product Ajovy. The EMA centralised marketing authorisation for Ajovy covers prevention of migraine in adults with at least 4 migraine days per month.
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|-----|------|---------|------------|
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Caseserie + litteraturgennemgang | J Clin Med | Anti-CGRP-mAbs (eptinezumab, fremanezumab, galcanezumab, erenumab) kan reducere hyppigheden af migræneasura; caserapporter dokumenterer auraforbedring med CGRP-målrettet profylakse |
+| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Observationel caseserie | CNS Neurosci Ther | Anti-CGRP-målrettet terapi viser potentiel forebyggende effektivitet for migræne med aura; begrænset men opmuntrende klinisk evidens |
+| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Individuel patientanalyse | J Headache Pain | Anti-CGRP-mAbs effektiv i hemiplegisk migræne (en alvorlig migræne-med-aura-subtype ekskluderet fra RCT'er); understøtter bredere brug i aura-dominerende præsentationer |
+| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Retrospektiv kohorte | Eur J Neurol | Post hoc af Phase 3b FOCUS-forsøg: fremanezumab effektivt i vanskelig-at-behandle migræne-patienter med og uden aura eller lignende neurologisk dysfunktion |
+| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Præ-klinisk / Mekanistisk | J Neurosci | CSD-induceret arteriel dilatation og plasma-proteinekstravasation upåvirket af fremanezumab, der antyder CGRP-uafhængige vaskulære CSD-reaktioner; præciserer mekanistisk omfang |
+| [31895266](https://pubmed.ncbi.nlm.nih.gov/31895266/) | 2020 | Præ-klinisk / Mekanistisk | Pain | Fremanezumab forsinker CSD-udbredelseshastighed og forkorter kortikale genopretningsperiode hos rotter med kompromitteret blod-hjerne-barriere; forhindrer ikke CSD-initiering |
+| [28642283](https://pubmed.ncbi.nlm.nih.gov/28642283/) | 2017 | Præ-klinisk / Mekanistisk | J Neurosci | Fremanezumab hæmmer selektivt trigeminale vaskulære neuroner; etablerer mekanistisk grundlag for CGRP-målrettet migræneprofylakse |
+| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Prospektiv observationel | Front Neurol | Real-world effektivitet og tolerabilitet af fremanezumab i kronisk migræne bekræftet i post-markedsføringssæt; sikkerhedsprofil i overensstemmelse med RCT-data |
+| [40264646](https://pubmed.ncbi.nlm.nih.gov/40264646/) | 2025 | Caseberetning + litteraturgennemgang | Front Neurol | Anti-CGRP-mAbs effektiv i hemiplegisk migrænecaset; gennemgår bredere evidens for CGRP-vejblokering i migræne-med-aura-subtyper |
+| [35775208](https://pubmed.ncbi.nlm.nih.gov/35775208/) | 2022 | Observationel | Cephalalgia | Erenumab, fremanezumab og galcanezumab reducerer prodromale og medfølgende neurologiske migraenesymptomer, hvilket antyder effekter ud over periferalt smerteveje |
 
 ---
 
-## Safety Considerations
+## Danmarks markedsinformation
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. As fremanezumab is not registered in Denmark, locally validated safety data is not available. The EMA SmPC for Ajovy should be consulted for full warnings, contraindications, and drug interaction guidance. No drug-drug interactions were identified in the evidence retrieval for this report.
+Fremanezumab har i øjeblikket ingen markedsføringstilladelse fra Lægemiddelstyrelsen og markedsføres ikke i Danmark. Klinikere, der kræver adgang, kan ansøge om individuel specialimport (navnepatient-import) i henhold til den danske lægemiddellov §28, med henvisning til EMA-godkendelsen af Ajovy. EMA's centraliserede markedsføringstilladelse for Ajovy dækker forebyggelse af migræne hos voksne med mindst 4 migrænedage pr. måned.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformation. Da fremanezumab ikke er registreret i Danmark, er lokalt valideret sikkerhedsdata ikke tilgængelig. EMA SmPC for Ajovy bør konsulteres for fuldstændig vejledning om advarsler, kontraindikationer og lægemiddelinteraktioner. Ingen lægemiddel-lægemiddel-interaktioner blev identificeret i bevisindsamlingen for denne rapport.
 
-**Rationale:**
-The mechanistic link between fremanezumab's CGRP blockade and the CSD-driven pathophysiology of migraine with brainstem aura is biologically well-grounded, and the growing body of indirect clinical evidence from aura-related studies — combined with the established safety profile from Phase 3 RCTs in chronic and episodic migraine — supports careful advancement. The primary constraint is the absence of dedicated trials in this specific subtype and the lack of a Danish marketing authorisation.
+---
 
-**To proceed, the following is needed:**
-- Secure regulatory access pathway in Denmark (special import authorization or application for marketing authorisation extension)
-- Prospective observational registry specifically enrolling patients with migraine with brainstem aura treated with fremanezumab
-- Full review of the EMA SmPC (Ajovy) to confirm no subtype-specific contraindications relevant to brainstem aura
-- Mechanism of action documentation retrieved from DrugBank (currently unavailable in this evidence pack)
-- Danish Medicines Agency pharmacovigilance data or EU RMP review to assess cardiovascular monitoring requirements specific to this subtype
-- Clinical protocol for monitoring aura frequency and severity as primary outcomes, distinct from headache-day endpoints used in standard migraine trials
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Det mekanistiske link mellem fremanezumabs CGRP-blokering og CSD-drevet patofysiologi ved migræne med hjernestammen aura er biologisk velbegrundet, og det voksende korpus af indirekte klinisk evidens fra aura-relaterede studier — kombineret med den etablerede sikkerhedsprofil fra Phase 3 RCT'er i kronisk og episodisk migræne — understøtter forsigtig fremgang. Den primære begrænsning er manglende dedikerede forsøg i denne specifikke subtype og fraværet af en dansk markedsføringstilladelse.
+
+**For at gå videre, er følgende nødvendigt:**
+- Sikre regulatorisk adgangsvej i Danmark (specialimport-autorisation eller ansøgning om markedsføringstilladelsesudvidelse)
+- Prospektivt observationsregister specifikt til registrering af patienter med migræne med hjernestammen aura behandlet med fremanezumab
+- Fuldstændig gennemgang af EMA SmPC (Ajovy) for at bekræfte, at der ikke er subtype-specifikke kontraindikationer relevant for hjernestammen aura
+- Virkningsmekanisme-dokumentation hentet fra DrugBank (i øjeblikket utilgængelig i denne evidenspakke)
+- Dansk Lægemiddelstyrelse farmakovigilans-data eller EU RMP-gennemgang for at vurdere kardiovaskulære overvågningskrav specifikt for denne subtype
+- Klinisk protokol for overvågning af aurahyppighed og -alvorlighed som primære resultater, adskilt fra hovedpinedags-endepunkter brugt i standard migræneforsøg
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

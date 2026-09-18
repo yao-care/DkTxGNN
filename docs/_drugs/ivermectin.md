@@ -29,62 +29,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ivermectin: From Parasitic Infections to Vulvovaginal Candidiasis
+# Ivermectin: Fra parasitinfektioner til vulvovaginale candidosis
 
-## One-Sentence Summary
+## Et-sætnings-opsummering
 
-Ivermectin is an antiparasitic agent internationally established for conditions such as scabies and strongyloidiasis. The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on model similarity scoring alone.
+Ivermectin er et antiparasitisk lægemiddel, der er internationalt etableret til behandling af tilstande som scabies og strongyloidiasis. TxGNN-modellen forudsiger, at det kan være effektivt mod **vulvovaginale candidosis**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — den hviler udelukkende på modellighedsscoring.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Parasitic infections (e.g., scabies, strongyloidiasis) — internationally established use; no Danish licence data available, as no marketing authorisation is on file |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 (model prediction only — no supporting trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Parasitinfektioner (f.eks. scabies, strongyloidiasis) — internationalt etableret brug; ingen danske licensdata tilgængelige, da ingen markedsføringstilladelse er registreret |
+| Forudsagt ny indikation | Vulvovaginale candidosis |
+| TxGNN-forudsigelsesscore | 99.95% |
+| Evidensniveau | L5 (kun modelforudsigelse — ingen understøttende forsøg eller litteratur) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on generally known pharmacology, ivermectin acts as an agonist at glutamate-gated chloride channels found in invertebrate nerve and muscle cells, which underlies its antiparasitic effect — it has no established mechanistic link to antifungal activity.
+Detaljerede data om virkningsmekansime er ikke tilgængelige i dette bevispapir. Baseret på generelt kendt farmakologi virker ivermectin som agonist ved glutamatgestyrte kloridkanaler, der findes på hvirvelløs nerv- og muskelceller, hvilket ligger til grund for dets antiparasitiske virkning — det har ingen etableret mekanistisk sammenhæng til antifungal aktivitet.
 
-Critically, the model-generated rationale for this specific prediction explicitly states that there is **no known mechanistic relationship** between ivermectin's antiparasitic action and the ergosterol-synthesis-inhibition or membrane-targeting mechanisms typically involved in treating *Candida* infections. The prediction appears to be driven by TxGNN embedding similarity rather than any pharmacological or clinical inference.
+Kritisk set angiver den modelgenererede begrundelse for denne specifikke forudsigelse eksplicit, at der **ikke er kendt mekanistisk sammenhæng** mellem ivermectins antiparasitiske virkning og ergosterolsyntesehemmende eller membrantargetede mekanismer, der typisk er involveret i behandling af *Candida*-infektioner. Forudsigelsen ser ud til at være drevet af TxGNN-embeddings-lighed snarere end af nogen farmakologisk eller klinisk slutning.
 
-Given the absence of mechanistic rationale, clinical trials, and literature for this specific candidate, this prediction should be treated as a low-confidence, hypothesis-generating signal only, not as a basis for clinical consideration at this stage.
+I betragtning af fraværet af mekanistisk begrundelse, kliniske forsøg og litteratur for denne specifikke kandidat, bør denne forudsigelse behandles som et signal med lav tillid, hypotesegenererende alene, ikke som et grundlag for klinisk overvejelse på dette stadium.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Ivermectin currently holds no marketing authorisation in Denmark (market status: not marketed; 0 licences on file). No product-level information is available for this table.
+Ivermectin har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: ikke markedsført; 0 licenser registreret). Der er ingen produktniveauoplysninger tilgængelige for denne tabel.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendt produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Note: national warning/contraindication data and drug-drug interaction data could not be retrieved for this evaluation (query status: not found), which blocks a full safety pre-assessment (see Conclusion).
+Bemærk: Nationale advarsel-/kontraindikationsdata og medicin-medicin-interaktionsdata kunne ikke hentes til denne vurdering (forespørgselsstatus: ikke fundet), hvilket blokerer en fuld sikkerhedsforhåndsvurdering (se Konklusion).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The predicted indication is supported by no clinical trials and no literature, and the model's own rationale indicates no plausible mechanistic link between ivermectin's antiparasitic action and antifungal efficacy against *Candida*. Evidence is insufficient (L5) to justify further evaluation at this time.
+**Begrundelse:**
+Den forudsagte indikation understøttes ikke af kliniske forsøg eller litteratur, og modellens egen begrundelse indikerer ingen plausibel mekanistisk sammenhæng mellem ivermectins antiparasitiske virkning og antifungal effektivitet mod *Candida*. Beviserne er utilstrækkelige (L5) til at retfærdiggøre yderligere vurdering på nuværende tidspunkt.
 
-**To proceed, the following is needed:**
-- Local (Danish/EMA) product labelling data — warnings, contraindications, and drug interaction data are currently unavailable and block safety pre-assessment
-- Verified mechanism of action data for ivermectin
-- Preclinical or in vitro data demonstrating antifungal activity, if this indication is to be pursued further
-- Any emerging clinical trial or literature evidence specific to ivermectin in vulvovaginal candidiasis
+**For at fortsætte er følgende nødvendig:**
+- Lokale (danske/EMA) produktetiketteringsdata — advarsler, kontraindikationer og medicin-medicin-interaktionsdata er i øjeblikket utilgængelige og blokerer sikkerhedsforhåndsvurdering
+- Verificerede data om virkningsmekansime for ivermectin
+- Prækliniske eller in vitro-data, der demonstrerer antifungal aktivitet, hvis denne indikation skal forfølges yderligere
+- Eventuelle nye kliniske forsøg eller litteraturbevis specifikt for ivermectin ved vulvovaginale candidosis
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

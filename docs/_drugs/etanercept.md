@@ -29,129 +29,130 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Etanercept: Fra reumatoid arthritis til reumatoid vaskulitis
 
-## One-Sentence Summary
+## Énlinjesammenfatning
 
-Etanercept is a TNF-α inhibitor (soluble TNF receptor fusion protein, marketed globally as Enbrel) widely approved for rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, juvenile idiopathic arthritis, and plaque psoriasis. The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**, with **6 clinical trials** and **20 publications** currently supporting this direction. However, the literature presents **contradictory evidence**: while TNF-α blockade may theoretically reduce vasculitis inflammation, TNF inhibitors including etanercept have also been reported to *induce* paradoxical vasculitis, warranting careful evaluation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, juvenile idiopathic arthritis, plaque psoriasis (globally approved) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L3 (Systematic review and observational studies available) |
-| Denmark Market Status | Not marketed (data pending — note: etanercept/Enbrel holds EMA centralised authorisation EU/1/99/126; Danish regulatory data not yet integrated) |
-| Number of Marketing Authorisations | 0 (in current database) |
-| Recommended Decision | Proceed with Guardrails |
+Etanercept er en TNF-α-inhibitor (opløselig TNF-receptor-fusionsprotein, markedsført globalt som Enbrel) med godkendelse til reumatoid arthritis, ankiloserende spondylitis, psoriasisartrit, juvenil idiopatisk arthritis og plakpsoriasis. TxGNN-modellen forudsiger, at det kan være effektivt til **Reumatoid vaskulitis**, med **6 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning. Litteraturen præsenterer dog **modsatrettede beviser**: selvom TNF-α-blokade teoretisk kan reducere vaskulitis-inflammation, er TNF-inhibitorer, herunder etanercept, også rapporteret at *fremkalde* paradoksal vaskulitis, hvilket nødvendiggør omhyggelig vurdering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Etanercept is a dimeric fusion protein consisting of two linked p75 TNF receptor extracellular domains fused to the Fc portion of human IgG1. It competitively binds TNF-α and TNF-β (lymphotoxin-α), preventing them from activating cell-surface TNF receptors and thereby suppressing downstream inflammatory signalling. This mechanism has proven effective across multiple TNF-α-driven autoimmune conditions.
-
-Rheumatoid vasculitis (RV) is one of the most severe extra-articular manifestations of rheumatoid arthritis, characterised by immune complex deposition and TNF-α–mediated endothelial injury in small and medium-sized blood vessels. Since TNF-α plays a central role in both RA joint inflammation and the vascular endothelial damage of RV, there is a reasonable mechanistic basis for predicting that etanercept may ameliorate RV by blocking this shared pathogenic cytokine.
-
-However, the literature presents a **critical paradox**: multiple case reports and pharmacovigilance studies have documented that TNF inhibitors — including etanercept — can themselves *induce* cutaneous and systemic vasculitis (so-called "paradoxical vasculitis"). The British Society for Rheumatology Biologics Register (BSRBR-RA) has documented vasculitis-like events in TNFi-treated RA patients. This dual nature — potential therapeutic benefit versus potential induction of vasculitis — represents a major safety concern that must be carefully weighed before any clinical application.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Reumatoid arthritis, ankiloserende spondylitis, psoriasisartrit, juvenil idiopatisk arthritis, plakpsoriasis (godkendt globalt) |
+| Forudsagt ny indikation | Reumatoid vaskulitis |
+| TxGNN forudsigelsesscore | 99.71% |
+| Bevisniveau | L3 (Systematiske oversigter og observationsstudier tilgængelige) |
+| Danmarks markedsstatus | Ikke markedsført (data afventer — bemærk: etanercept/Enbrel har EMA centraliseret godkendelse EU/1/99/126; danske regulatoriske data endnu ikke integreret) |
+| Antal markedsføringstilladelser | 0 (i nuværende database) |
+| Anbefalet afgørelse | Fortsæt med sikkerhedsvejledninger |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Etanercept er et dimeriseret fusionsprotein bestående af to sammenkoblede ekstracelluløre TNF-receptordomæner koblet til Fc-delen af humant IgG1. Det konkurrerer om binding til TNF-α og TNF-β (lymfotoxin-α) og forhindrer dem i at aktivere TNF-receptorer på celleoverfladen, hvorved det undertrykker nedstrøms inflammatorisk signalering. Denne mekanisme har vist sig effektiv på tværs af flere TNF-α-drevne autoimmune tilstande.
+
+Reumatoid vaskulitis (RV) er en af de mest alvorlige ekstra-artikulære manifestationer af reumatoid arthritis, karakteriseret ved immunkompleksaflejring og TNF-α-medieret endotelcelleskadet i små og mellemstore blodkar. Da TNF-α spiller en central rolle i både RA-leddinflammation og blodkarskadet ved RV, er der et rimelig mekanistisk grundlag for at forudsige, at etanercept kan forbedre RV ved at blokere denne fælles patogene cytokin.
+
+Litteraturen præsenterer dog et **kritisk paradoks**: adskillige kasuistikker og farmakoovervågningsstudier har dokumenteret, at TNF-inhibitorer — herunder etanercept — selv kan *fremkalde* kutaneus og systemisk vaskulitis (såkaldt "paradoksal vaskulitis"). British Society for Rheumatology Biologics Register (BSRBR-RA) har dokumenteret vaskulitis-lignende begivenheder hos TNFi-behandlede RA-patienter. Denne dual karakter — potentiel terapeutisk fordel kontra potentiel fremkaldelse af vaskulitis — repræsenterer et større sikkerhedsproblem, der skal omhyggeligt afvejes, før nogen klinisk anvendelse.
+
+---
+
+## Klinisk forsøgsbeviser
+
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 1/2 | Completed | 60 | Etanercept in Wegener's granulomatosis (ANCA-associated vasculitis). The subsequent WGET Phase 3 trial showed etanercept provided **no additional benefit** and was associated with **increased malignancy risk**. Indirect relevance to RV. |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional observational study of biologic DMARD treatment patterns in RA in China. May include severe RA patients with extra-articular manifestations. |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab in RA patients with inadequate response to prior biologics including etanercept. Indirect real-world data. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large pharmacoepidemiology study assessing risk of incident immune-mediated inflammatory diseases in biologic-treated patients. Relevant safety data. |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completed | 1,754 | Real-world evaluation of etanercept (Enbrel) in moderate RA, from the BSRBR. Outcomes data on etanercept-treated RA patients. |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty. Not directly related to vasculitis. |
+| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Fase 1/2 | Afsluttet | 60 | Etanercept ved Wegeners granulomatose (ANCA-associeret vaskulitis). Det efterfølgende WGET fase 3-forsøg viste, at etanercept gav **ingen yderligere fordel** og var forbundet med **øget malignitetsrisiko**. Indirekte relevans til RV. |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Afsluttet | 808 | Tværsnitsundersøgelse af behandlingsmønstre med biologisk DMARD ved RA i Kina. Kan omfatte alvorlige RA-patienter med ekstra-artikulære manifestationer. |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Afsluttet | 184 | Ikke-interventionelt studie af tocilizumab hos RA-patienter med utilstrækkelig respons på tidligere biologics, herunder etanercept. Indirekte data fra praksis. |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Ukendt | 750,000 | Stort farmakoepidemologistudium, der vurderer risiko for incident immun-medierede inflammatoriske sygdomme hos biologisk behandlede patienter. Relevant sikkerhedsdata. |
+| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Afsluttet | 1,754 | Virkelighed-vurdering af etanercept (Enbrel) ved moderat RA fra BSRBR. Resultatdata for etanercept-behandlede RA-patienter. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Ikke endnu rekrutterer | 80 | Immunosuppressiv behandling hos reumatologipatienter, der undergår skulderprotese-operation. Ikke direkte relateret til vaskulitis. |
 
-> **Note:** No clinical trials directly studying etanercept for the treatment of rheumatoid vasculitis were identified. The available trials are indirectly related through RA or other vasculitis subtypes.
+> **Bemærk:** Ingen kliniske forsøg, der direkte studerer etanercept til behandling af reumatoid vaskulitis, blev identificeret. De tilgængelige forsøg er indirekte relateret gennem RA eller andre vaskulitis-undertyper.
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clin Rheumatol | **PRISMA systematic review on biological therapy in RV.** Reports that biological drugs (including TNF inhibitors) have been added to the RV therapeutic armamentarium, with evidence from case series. |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Pharmacovigilance/Cohort | RMD Open | **BSRBR-RA data on vasculitis-like events (VLEs) with TNFi.** Compared risk of VLEs in TNFi-treated vs nbDMARD-treated RA patients. Important safety signal. |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrol Dial Transplant | Review of TNFα blockade in ANCA-associated vasculitis. Discusses TNFα role in vasculitis pathophysiology and the mixed clinical results of TNF inhibitors. |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Case Series/Mechanistic | Scand J Immunol | Reports cutaneous vasculitis associated with both etanercept and infliximab. Discusses immunologic mechanisms of TNFi-induced autoimmunity. |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Review | J Rheumatol | TNF-α blockade and the risk of vasculitis — discusses paradoxical vasculitis induction by TNF inhibitors. |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case Report | Arthritis Rheum | Accelerated nodulosis and vasculitis following etanercept therapy for RA. Documents paradoxical vasculitis. |
-| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Case Report | Rheumatology | Etanercept and infliximab associated with cutaneous vasculitis in RA patients. |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Case Report | Case Rep Med | Large vessel vasculitis occurring in RA patient under anti-TNF therapy. Highlights drug-induced vasculitis risk. |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Case Report | J Rheumatol | Proliferative lupus nephritis and leukocytoclastic vasculitis during etanercept treatment. |
-| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Case Report | Dermatology | Disseminated herpes zoster mimicking rheumatoid vasculitis in an RA patient on etanercept — illustrates diagnostic challenges under immunosuppression. |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematisk oversigt | Clin Rheumatol | **PRISMA-systematisk oversigt over biologisk terapi ved RV.** Rapporterer, at biologiske lægemidler (herunder TNF-inhibitorer) er tilføjet RV-terapeutisk arsenal, med beviser fra kasuistikserier. |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Farmakoovervågning/kohorte | RMD Open | **BSRBR-RA-data på vaskulitis-lignende begivenheder (VLE'er) med TNFi.** Sammenlignet risiko for VLE'er hos TNFi-behandlet kontra nbDMARD-behandlet RA-patienter. Vigtig sikkerhedssignal. |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Oversigt | Nephrol Dial Transplant | Oversigt over TNF-α-blokade ved ANCA-associeret vaskulitis. Diskuterer TNF-α rolle i vaskulitis-patofysiologi og blandede kliniske resultater af TNF-inhibitorer. |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Kasuistikkeserie/mekanistisk | Scand J Immunol | Rapporterer kutaneus vaskulitis forbundet med både etanercept og infliximab. Diskuterer immunologiske mekanismer for TNFi-induceret autoimmunitet. |
+| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Oversigt | J Rheumatol | TNF-α-blokade og risiko for vaskulitis — diskuterer paradoksal vaskulitis-induktion af TNF-inhibitorer. |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Kasuistik | Arthritis Rheum | Accelereret nodulosis og vaskulitis efter etanercept-terapi for RA. Dokumenterer paradoksal vaskulitis. |
+| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Kasuistik | Rheumatology | Etanercept og infliximab forbundet med kutaneus vaskulitis hos RA-patienter. |
+| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Kasuistik | Case Rep Med | Vaskulitis i store kar opstår hos RA-patient under anti-TNF-terapi. Fremhæver lægemiddel-induceret vaskulitis-risiko. |
+| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Kasuistik | J Rheumatol | Proliferativ lupusnefritis og leukocytoklas vaskulitis under etanercept-behandling. |
+| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Kasuistik | Dermatology | Dissemineret herpes zoster, der efterligner reumatoid vaskulitis hos RA-patient på etanercept — illustrerer diagnostiske udfordringer under immunosuppression. |
 
-> **Critical observation:** The majority of the identified literature describes etanercept as a potential *cause* of vasculitis (paradoxical vasculitis) rather than as a treatment. Only the systematic review (PMID 33058033) directly evaluates biological therapy as treatment for RV.
+> **Vigtig observation:** Størstedelen af den identificerede litteratur beskriver etanercept som en potentiel *årsag* til vaskulitis (paradoksal vaskulitis) snarere end som en behandling. Kun den systematiske oversigt (PMID 33058033) evaluerer direkte biologisk terapi som behandling for RV.
 
 ---
 
-## Denmark Market Information
+## Danmarks markedsinformation
 
-Etanercept is not currently captured in the DkTxGNN regulatory database. However, etanercept (Enbrel) holds a centralised European Medicines Agency (EMA) marketing authorisation (EU/1/99/126) and is available in Denmark through this authorisation. Multiple biosimilars (Benepali, Erelzi, etc.) are also authorised.
+Etanercept er ikke i øjeblikket registreret i DkTxGNN regulatoriske database. Etanercept (Enbrel) har dog en centraliseret European Medicines Agency (EMA) markedsføringstilladelse (EU/1/99/126) og er tilgængelig i Danmark gennem denne tilladelse. Flere biosimilarer (Benepali, Erelzi osv.) er også godkendt.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægeform | Godkendt indikation |
 |---------|------|------|-----------|
-| EU/1/99/126 (EMA) | Enbrel (etanercept) | Solution for injection (prefilled syringe/pen) | RA, JIA, PsA, axial SpA, plaque psoriasis |
-| EU/1/15/1074 (EMA) | Benepali (etanercept biosimilar) | Solution for injection | All reference etanercept indications |
+| EU/1/99/126 (EMA) | Enbrel (etanercept) | Injektionsvæske til injektion (fyldt sprøjte/pen) | RA, JIA, PsA, aksial SpA, plakpsoriasis |
+| EU/1/15/1074 (EMA) | Benepali (etanercept-biosimilar) | Injektionsvæske til injektion | Alle referenceindikationer for etanercept |
 
-> *Note: The above are based on known EMA authorisations. Local DkTxGNN database integration for Danish-specific regulatory data is pending.*
-
----
-
-## Safety Considerations
-
-- **Paradoxical vasculitis:** Multiple case reports and pharmacovigilance studies have documented TNF inhibitor-induced vasculitis (cutaneous leukocytoclastic vasculitis, large vessel vasculitis, lupus-like syndromes) as a known adverse effect of etanercept. This is directly relevant to the predicted indication and represents a significant safety concern.
-- **Infection risk:** TNF-α inhibition increases susceptibility to serious infections including tuberculosis reactivation, opportunistic infections, and atypical presentations (e.g., disseminated herpes zoster).
-- **Malignancy risk:** The WGET trial (follow-up to NCT00001901) found increased solid tumour malignancies in etanercept-treated vasculitis patients, which led to safety concerns about TNFi use in vasculitis.
-
-> For complete prescribing information, please refer to the approved Summary of Product Characteristics (SmPC) for Enbrel or the relevant biosimilar.
+> *Bemærk: Ovenstående er baseret på kendte EMA-godkendelser. Lokal DkTxGNN-database-integration for danske-specifikke regulatoriske data afventer.*
 
 ---
 
-## Additional TxGNN Predictions
+## Sikkerhedsmæssige overvejelser
 
-The TxGNN model also predicted the following indications for etanercept. Of note, two of these are **already globally approved indications**, validating the model's predictive capability:
+- **Paradoksal vaskulitis:** Adskillige kasuistikker og farmakoovervågningsstudier har dokumenteret TNF-inhibitor-induceret vaskulitis (kutaneus leukocytoklas vaskulitis, vaskulitis i store kar, lupus-lignende syndrom) som en kendt bivirkning af etanercept. Dette er direkte relevant til den forudsagte indikation og repræsenterer et betydeligt sikkerhedsproblem.
+- **Infektionsrisiko:** TNF-α-inhibition øger modtageligheden for alvorlige infektioner, herunder tuberkulose-reaktivering, opportunistiske infektioner og atypiske præsentationer (f.eks. dissemineret herpes zoster).
+- **Malignitetsrisiko:** WGET-forsøget (opfølgning til NCT00001901) fandt øget solidtumor-malignitet hos etanercept-behandlede vaskulitis-patienter, hvilket førte til sikkerhedsbetænkeligheder vedrørende TNFi-brug ved vaskulitis.
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+> For fuldstændig præskriptionsinformation, se venligst Produktresuméet (SmPC) for Enbrel eller den relevante biosimilar.
+
+---
+
+## Yderligere TxGNN-forudsigelser
+
+TxGNN-modellen forudsagde også følgende indikationer for etanercept. Det er værd at bemærke, at to af disse er **allerede globalt godkendt indikationer**, hvilket validerer modellens forudsigelsesevne:
+
+| Placering | Forudsagt indikation | TxGNN-score | Bevisniveau | Anbefaling | Bemærk |
 |------|---------------------|-------------|---------------|----------------|------|
-| 1 | Rheumatoid Vasculitis | 99.71% | L3 | Proceed with Guardrails | Novel prediction — contradictory evidence |
-| 3 | Hypermobility of Coccyx | 99.63% | L5 | Hold | No mechanistic rationale; structural/biomechanical condition |
-| 5 | **Inflammatory Spondylopathy** | 99.57% | **L1** | Proceed with Guardrails | **Already approved globally** (FDA 2003 for AS); 50+ clinical trials, multiple Phase 3 RCTs |
-| 7 | Kümmell Disease | 99.55% | L5 | Hold | No mechanistic rationale; post-traumatic vertebral avascular necrosis |
-| 9 | **Polyarticular Juvenile Rheumatoid Arthritis** | 99.50% | **L1** | Proceed with Guardrails | **Already approved globally** (FDA 1999 for pJIA); landmark NEJM RCT (Lovell et al., 2000) |
+| 1 | Reumatoid vaskulitis | 99.71% | L3 | Fortsæt med sikkerhedsvejledninger | Ny forudsigelse — modsatrettede beviser |
+| 3 | Hypermobilitet af coccyx | 99.63% | L5 | Vent | Ingen mekanistisk rationale; strukturel/biomekanisk tilstand |
+| 5 | **Inflammatorisk spondylopati** | 99.57% | **L1** | Fortsæt med sikkerhedsvejledninger | **Allerede godkendt globalt** (FDA 2003 for AS); 50+ kliniske forsøg, flere fase 3 RCT'er |
+| 7 | Kümmels sygdom | 99.55% | L5 | Vent | Ingen mekanistisk rationale; post-traumatisk vertebral avaskulær nekrose |
+| 9 | **Polyartikulær juvenil reumatoid arthritis** | 99.50% | **L1** | Fortsæt med sikkerhedsvejledninger | **Allerede godkendt globalt** (FDA 1999 for pJIA); skelsættende NEJM RCT (Lovell et al., 2000) |
 
-> The model's correct prediction of two already-approved indications (inflammatory spondylopathy and pJIA) at high confidence scores provides validation of TxGNN's methodology. However, the model also predicted two indications (hypermobility of coccyx, Kümmell disease) with no mechanistic basis, highlighting the need for expert clinical review of all predictions.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-While the TxGNN prediction score is very high (99.71%) and a systematic review of biological therapy in rheumatoid vasculitis exists, the evidence is predominantly observational and, critically, a substantial body of literature documents etanercept as a potential *cause* of vasculitis rather than a treatment. The negative results of the WGET trial (etanercept in Wegener's granulomatosis showed no benefit and increased malignancy) raise further concerns. This prediction requires very careful safety evaluation before any clinical consideration.
-
-**To proceed, the following is needed:**
-- Full analysis of the systematic review (PMID 33058033) to determine which specific biological agents showed benefit in RV and whether etanercept was among them
-- Detailed review of BSRBR-RA pharmacovigilance data (PMID 28123776) to quantify the absolute risk of vasculitis-like events with etanercept versus other TNFi
-- Mechanism of action data to clarify the paradox of TNF-α blockade potentially both treating and inducing vasculitis
-- Integration of Danish (Laegemiddelstyrelsen/EMA) regulatory data including the full SmPC warnings and contraindications
-- Expert rheumatology consensus on whether TNFi-induced vasculitis and rheumatoid vasculitis share distinct or overlapping pathogenic mechanisms
-- Safety monitoring protocol addressing malignancy risk (per WGET trial findings) if clinical investigation proceeds
+> Modellens korrekte forudsigelse af to allerede godkendt indikationer (inflammatorisk spondylopati og pJIA) med høje tillidsscorer giver validering af TxGNN-metodologien. Modellen forudsagde dog også to indikationer (hypermobilitet af coccyx, Kümmels sygdom) uden mekanistisk grundlag, hvilket fremhæver behovet for ekspertkleinisk vurdering af alle forudsigelser.
 
 ---
 
-> **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All treatment decisions should be made by qualified healthcare professionals based on approved product information and individual patient assessment.
+## Konklusion og næste skridt
+
+**Afgørelse: Fortsæt med sikkerhedsvejledninger**
+
+**Begrundelse:**
+Selvom TxGNN-forudsigelsesscore er meget høj (99.71%), og en systematisk oversigt over biologisk terapi ved reumatoid vaskulitis eksisterer, er beviserne overvejende observationelle og kritisk — en substantiel litteraturmængde dokumenterer etanercept som en potentiel *årsag* til vaskulitis snarere end en behandling. De negative resultater af WGET-forsøget (etanercept ved Wegeners granulomatose viste ingen fordel og øget malignitetsrisiko) rejser yderligere bekymringer. Denne forudsigelse kræver meget omhyggelig sikkerhedsvurdering, før nogen klinisk overvejelse.
+
+**For at fortsætte kræves følgende:**
+- Fuldstændig analyse af den systematiske oversigt (PMID 33058033) for at fastslå, hvilke specifikke biologiske lægemidler, der viste fordel ved RV, og om etanercept var blandt dem
+- Detaljeret gennemgang af BSRBR-RA farmakoovervågningsdata (PMID 28123776) for at kvantificere den absolutte risiko for vaskulitis-lignende begivenheder med etanercept kontra andre TNFi
+- Virkningsmekanisme-data for at præcisere paradokset om TNF-α-blokade potentielt både behandler og inducerer vaskulitis
+- Integration af danske (Laegemiddelstyrelsen/EMA) regulatoriske data, herunder komplet SmPC-advarsler og kontraindikationer
+- Reumatologi-ekspertkonsensusforum om, hvorvidt TNFi-induceret vaskulitis og reumatoid vaskulitis deler distinkte eller overlappende patogene mekanismer
+- Sikkerhedskontrolprotokol vedrørende malignitetsrisiko (pr. WGET-forsøgsfund), hvis klinisk undersøgelse fortsætter
+
+---
+
+> **Ansvarsfraskrivelse:** Denne rapport er kun til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelomvending-kandidater kræver klinisk validering før nogen terapeutisk anvendelse. Alle behandlingsbeslutninger bør træffes af kvalificerede sundhedsprofessionelle baseret på godkendt produktinformation og individuel patientvurdering.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

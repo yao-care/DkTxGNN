@@ -29,116 +29,117 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cabazitaxel: From Metastatic Prostate Cancer to Female Breast Carcinoma
+# Cabazitaxel: Fra metastatisk prostatakræft til kvindeligt brystkræft
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Cabazitaxel (Jevtana®) is a second-generation taxane originally approved by the FDA in 2010 for docetaxel-refractory metastatic castration-resistant prostate cancer (mCRPC). The TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with a prediction confidence of **99.92%**. This prediction is supported by **0 registered clinical trials** (ClinicalTrials.gov / ICTRP) and **20 publications**, including one Phase II RCT and multiple translational studies, yielding an overall evidence level of **L2**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Metastatic castration-resistant prostate cancer (mCRPC), docetaxel-refractory |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Cabazitaxel (Jevtana®) er en anden-generations taxan, der oprindeligt blev godkendt af FDA i 2010 til docetaxel-resistent metastatisk kastrationsresistent prostatakræft (mCRPC). TxGNN-modellen forudsiger, at det kan være effektivt til **kvindeligt brystkræft**, med en forudsigelsestillid på **99.92%**. Denne forudsigelse understøttes af **0 registrerede kliniske forsøg** (ClinicalTrials.gov / ICTRP) og **20 publikationer**, herunder et fase II RCT og flere translationelle studier, hvilket giver et samlet bevisniveau på **L2**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Cabazitaxel is a second-generation semisynthetic taxane that exerts its anticancer effect by binding to β-tubulin and stabilising microtubules, thereby blocking mitotic spindle disassembly and arresting tumour cells in the G2/M phase. A critical pharmacological distinction from its predecessors (paclitaxel, docetaxel) is its markedly reduced affinity for P-glycoprotein (P-gp/MDR1), the ABC transporter responsible for most clinically observed taxane resistance. This property allows cabazitaxel to retain cytotoxic activity in multidrug-resistant cell lines where docetaxel and paclitaxel fail (PMID 21076710; PMID 25416788).
-
-Breast cancer, like prostate cancer, frequently overexpresses βIII-tubulin — an isotype associated with tumour aggressiveness and taxane resistance. Mechanistic studies have demonstrated that cabazitaxel binds more effectively to βIII-tubulin-enriched microtubules than docetaxel, translating into superior cytotoxicity in exactly those tumour subtypes most likely to relapse on standard taxane regimens (PMID 28567478). For triple-negative breast cancer (TNBC) in particular, preclinical data further show that cabazitaxel repolarises tumour-associated macrophages in a way that synergises with CD47-targeted immunotherapy, adding an immunomodulatory dimension to its direct cytotoxic effect (PMID 33753567).
-
-Clinical translation is already underway: the GENEVIEVE Phase II RCT (PMID 28768217) directly compared cabazitaxel with weekly paclitaxel as neoadjuvant therapy in HER2-negative breast cancer, and a Phase I/II multicentre study evaluated cabazitaxel plus capecitabine in anthracycline- and taxane-pretreated metastatic breast cancer (PMID 21339064). An additional Phase II study investigated cabazitaxel combined with lapatinib in HER2+ metastatic breast cancer with CNS metastases, exploiting cabazitaxel's known ability to penetrate the blood-brain barrier (PMID 29678476). Taken together, the mechanistic rationale is strong and supported by early-phase clinical data.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials for Cabazitaxel in female breast carcinoma were retrieved from ClinicalTrials.gov or the WHO ICTRP registry at the time of data collection (2026-03-10). However, the literature references two trials with registered identifiers:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01934894](https://clinicaltrials.gov/study/NCT01934894) | Phase II | Completed | ~35 | Cabazitaxel + lapatinib in HER2+ MBC with intracranial metastases; dose-finding results published (PMID 29678476) |
-
-> **Note:** The GENEVIEVE trial (PMID 28768217) and the Phase I/II capecitabine combination study (PMID 21339064) were conducted prior to the current search window or under different search terms; their NCT identifiers were not captured by the automated query. Systematic manual retrieval of all registered trials is recommended.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Metastatisk kastrationsresistent prostatakræft (mCRPC), docetaxel-resistent |
+| Forudsagt ny indikation | Kvindeligt brystkræft |
+| TxGNN forudsigelsesscore | 99.92% |
+| Bevisniveau | L2 |
+| Danske markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | Phase II RCT | Eur J Cancer | GENEVIEVE: Cabazitaxel vs weekly paclitaxel as neoadjuvant therapy in HER2-negative (TNBC and luminal B) operable breast cancer; pCR rates compared |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II | Eur J Cancer | Cabazitaxel + capecitabine in anthracycline- and taxane-pretreated metastatic breast cancer; MTD, safety, pharmacokinetics, and preliminary efficacy |
-| [29678476](https://pubmed.ncbi.nlm.nih.gov/29678476/) | 2018 | Phase II | Clin Breast Cancer | Cabazitaxel + lapatinib in HER2+ MBC with intracranial metastases (NCT01934894); utilises cabazitaxel's BBB penetration |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preclinical (In Vivo + In Vitro) | J Immunother Cancer | Cabazitaxel repolarises tumour-associated macrophages, synergising with anti-CD47 immunotherapy in TNBC models |
-| [28567478](https://pubmed.ncbi.nlm.nih.gov/28567478/) | 2017 | Preclinical/Translational | Cancer Chemother Pharmacol | Cabazitaxel shows superior binding and cytotoxicity vs docetaxel in βIII-tubulin-overexpressing breast cancer cells; mechanistic basis for taxane-resistant BC |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Review/Mechanistic | Mol Cancer Ther | Cabazitaxel resistance mechanisms studied in MCF-7 breast cancer cells; less MDR cross-resistance than paclitaxel/docetaxel |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Review/Clinical Pharmacology | Br J Clin Pharmacol | Overview of taxane PK/PD, TDM-guided dosing, and role of cabazitaxel in clinical oncology |
-| [21076710](https://pubmed.ncbi.nlm.nih.gov/21076710/) | 2010 | Review | Drugs Today | Comprehensive review of cabazitaxel's pharmacokinetic profile, reduced P-gp affinity, and broad preclinical activity across cancer types |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Preclinical (PDX) | J Control Release | Nanoparticle-encapsulated cabazitaxel achieved complete remission in 6/8 tumours in a basal-like patient-derived breast cancer xenograft model |
-| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | Preclinical | Int J Nanomedicine | PACA nanoparticle variants of cabazitaxel in TNBC PDX model; improved efficacy and decreased M2 macrophage infiltration |
+Cabazitaxel er en anden-generations semisyntisk taxan, der udfører sin antikræfteffekt ved at binde til β-tubulin og stabilisere mikrotubuli, hvorved mitotisk spindelnedbrydning blokeres og tumorceller stoppes i G2/M-fasen. En kritisk farmakologisk forskel fra dets forgængere (paclitaxel, docetaxel) er dets markant reducerede affinitet for P-glykoprotein (P-gp/MDR1), ABC-transportøren, der er ansvarlig for det meste klinisk observeret taxan-resistens. Denne egenskab giver cabazitaxel mulighed for at bevare cytotoksisk aktivitet i multidrug-resistente cellelinjer, hvor docetaxel og paclitaxel fejler (PMID 21076710; PMID 25416788).
+
+Brystkræft, ligesom prostatakræft, overudtrykker ofte βIII-tubulin — en isotype forbundet med tumorøs aggressivitet og taxan-resistens. Mekanistiske studier har vist, at cabazitaxel binder mere effektivt til βIII-tubulin-beriget mikrotubuli end docetaxel, hvilket omsættes til overlegen cytotoksicitet i netop de tumortyper, der er mest tilbøjelige til at recidivere under standard taxan-behandling (PMID 28567478). For triple-negativ brystkræft (TNBC) viser prækliniske data desuden, at cabazitaxel repolariserer tumor-associerede makrofager på en måde, der synergerer med CD47-målrettet immunterapi, hvilket tilføjer en immunmodulerende dimension til dets direkte cytotoksiske effekt (PMID 33753567).
+
+Klinisk translation er allerede i gang: GENEVIEVE fase II RCT (PMID 28768217) sammenlignede direkte cabazitaxel med ugentlig paclitaxel som neoadjuvant terapi i HER2-negativ brystkræft, og et fase I/II multicenterstudium evaluerede cabazitaxel plus capecitabin hos anthracyklin- og taxan-forhåndelede metastatisk brystkræft (PMID 21339064). Et yderligere fase II-studium undersøgte cabazitaxel kombineret med lapatinib i HER2+ metastatisk brystkræft med CNS-metastaser, udnyttende cabazitaxels kendt evne til at trænge blod-hjerne-barrieren (PMID 29678476). Samlet set er det mekanistiske rationale stærkt og understøttet af fase-tidlig klinisk evidens.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-Cabazitaxel currently holds **no marketing authorisation** in Denmark (neither national authorisation via Lægemiddelstyrelsen nor centralised EMA authorisation). The drug is not listed in the Danish market.
+Der blev ikke hentet kliniske forsøg for Cabazitaxel i kvindeligt brystkræft fra ClinicalTrials.gov eller WHO ICTRP-registret på tidspunktet for dataindsamlingen (2026-03-10). Litteraturreferencerne nævner dog to forsøg med registrerede identifikatorer:
 
-> **Note for clinicians:** In other jurisdictions, cabazitaxel is marketed as **Jevtana®** (Sanofi) and holds EMA/FDA approval for mCRPC. Access in Denmark would require a named-patient or compassionate-use application through Lægemiddelstyrelsen.
+| Forsøgsnummer | Phase | Status | Rekruttering | Vigtigste resultater |
+|-------------|-------|--------|------------|--|
+| [NCT01934894](https://clinicaltrials.gov/study/NCT01934894) | Fase II | Afsluttet | ~35 | Cabazitaxel + lapatinib i HER2+ MBC med intracerebrale metastaser; dosisfindingsresultater publiceret (PMID 29678476) |
 
----
-
-## Cytotoxicity
-
-Cabazitaxel is a conventional cytotoxic anticancer agent (taxane class) with the following profile:
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Taxane (second-generation semisynthetic taxoid) |
-| Myelosuppression Risk | **High** — Febrile neutropenia and grade 3–4 neutropenia are the primary dose-limiting toxicities; prophylactic G-CSF is strongly recommended, particularly in patients aged ≥65 or with risk factors |
-| Emetogenicity Classification | Low to moderate (consistent with other intravenous taxanes) |
-| Monitoring Items | Full blood count with differential (before each cycle and as clinically indicated), liver function tests (ALT, AST, bilirubin), renal function (creatinine), signs of peripheral neuropathy, hypersensitivity reactions during infusion |
-| Handling Protection | Must be prepared and administered according to cytotoxic drug handling regulations; use of gloves, protective gown, and safety cabinet required; refer to institutional cytotoxic handling SOP |
+> **Bemærkning:** GENEVIEVE-forsøget (PMID 28768217) og fase I/II capecitabin kombinationsstudiet (PMID 21339064) blev udført før det nuværende søgevindue eller under forskellige søgeord; deres NCT-identifikatorer blev ikke fanget af det automatiserede søg. Systematisk manuel hentning af alle registrerede forsøg anbefales.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Detailed SmPC warnings, contraindications, and drug–drug interaction data for cabazitaxel are not available in the current Evidence Pack.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for Jevtana® (available via the EMA product page or national equivalents) for comprehensive safety information, including hepatic impairment dose adjustments, CYP3A4 interaction precautions, and contraindications in severe renal or hepatic insufficiency.
+| PMID | År | Type | Journal | Vigtigste resultater |
+|------|-----|------|---------|---|
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | Fase II RCT | Eur J Cancer | GENEVIEVE: Cabazitaxel vs ugentlig paclitaxel som neoadjuvant terapi i HER2-negativ (TNBC og luminal B) opererbar brystkræft; pCR-rater sammenlignet |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Fase I/II | Eur J Cancer | Cabazitaxel + capecitabin i anthracyklin- og taxan-forhåndelede metastatisk brystkræft; MTD, sikkerhed, farmakokinetik og indledende efficacy |
+| [29678476](https://pubmed.ncbi.nlm.nih.gov/29678476/) | 2018 | Fase II | Clin Breast Cancer | Cabazitaxel + lapatinib i HER2+ MBC med intracerebrale metastaser (NCT01934894); udnytter cabazitaxels BBB-penetration |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Præklin (In Vivo + In Vitro) | J Immunother Cancer | Cabazitaxel repolariserer tumor-associerede makrofager, der synergerer med anti-CD47 immunterapi i TNBC-modeller |
+| [28567478](https://pubmed.ncbi.nlm.nih.gov/28567478/) | 2017 | Præklin/Translationel | Cancer Chemother Pharmacol | Cabazitaxel viser overlegen binding og cytotoksicitet vs docetaxel i βIII-tubulin-overudtrykkende brystkræftceller; mekanistisk grundlag for taxan-resistent BC |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Oversigt/Mekanistisk | Mol Cancer Ther | Cabazitaxel-resistensmekanismer studeret i MCF-7 brystkræftceller; mindre MDR-krydsresistens end paclitaxel/docetaxel |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Oversigt/Klinisk farmakologi | Br J Clin Pharmacol | Oversigt over taxan PK/PD, TDM-guidet dosering og cabazitaxels rolle i klinisk onkologi |
+| [21076710](https://pubmed.ncbi.nlm.nih.gov/21076710/) | 2010 | Oversigt | Drugs Today | Omfattende oversigt over cabazitaxels farmakokinetiske profil, reduceret P-gp affinitet og bred præklin aktivitet på tværs af kræfttyper |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Præklin (PDX) | J Control Release | Nanopartikel-indkapslet cabazitaxel opnåede fuldstændig remission i 6/8 tumorer i en basal-lignende patient-afledt brystkræft xenograft-model |
+| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | Præklin | Int J Nanomedicine | PACA nanopartikel-varianter af cabazitaxel i TNBC PDX-model; forbedret efficacy og nedsat M2-makrofag-infiltration |
 
 ---
 
-## Conclusion and Next Steps
+## Danske markedsoplysninger
 
-**Decision: Proceed with Guardrails**
+Cabazitaxel har i øjeblikket **ingen markedsføringstilladelse** i Danmark (hverken national tilladelse via Lægemiddelstyrelsen eller centraliseret EMA-tilladelse). Lægemidlet er ikke opført på det danske marked.
+
+> **Bemærkning for klinikere:** I andre jurisdiktioner markedsføres cabazitaxel som **Jevtana®** (Sanofi) og har EMA/FDA-godkendelse til mCRPC. Adgang i Danmark ville kræve en navngiven patient- eller compassionate-use ansøgning gennem Lægemiddelstyrelsen.
+
+---
+
+## Cytotoksicitet
+
+Cabazitaxel er et konventionelt cytotoksisk antikræftmiddel (taxan-klasse) med følgende profil:
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassifikation | Konventionel cytotoksisk — Taxan (anden-generations semisyntisk taxoid) |
+| Myelosuppression risiko | **Høj** — Febril neutropeni og grad 3–4 neutropeni er de primære dosisgrænsende toksiciteter; profylaktisk G-CSF anbefales stærkt, især hos patienter ≥65 år eller med risikofaktorer |
+| Emetogenicitetsklassifikation | Lav til moderat (konsistent med andre intravenøse taxaner) |
+| Overvågningselementer | Fuldstændig blodprocent med differential (før hver cyklus og som klinisk indiceret), leverfunktionstests (ALT, AST, bilirubin), nyrefunktion (kreatinin), tegn på perifer neuropati, overfølsomhedsreaktioner under infusion |
+| Håndteringsbeskyttelse | Skal være forberedt og administreret i overensstemmelse med cytostatika-håndteringsvejledninger; brug af handsker, beskyttelseskittel og sikkerhedsskab påkrævet; se institutionelt cytostatika-håndterings SOP |
+
+---
+
+## Sikkerhedsovervejelser
+
+Detaljerede SmPC-advarsler, kontraindikationer og lægemiddel-lægemiddel-interaktionsdata for cabazitaxel er ikke tilgængelige i den nuværende bevismappe.
+
+> Se venligst det godkendte produktresumé (SmPC) for Jevtana® (tilgængeligt via EMA-produktsiden eller nationale ækvivalenter) for omfattende sikkerhedsinformationer, herunder dosistilpasning ved hepatisk svækkelse, CYP3A4-interaktionsforsigtighedsregler og kontraindikationer ved alvorlig nyre- eller hepatisk insufficiens.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Rationale:**
-The TxGNN prediction of cabazitaxel for female breast carcinoma is mechanistically well-supported — the drug's ability to overcome P-gp-mediated taxane resistance and its advantage in βIII-tubulin-overexpressing tumours provide a compelling biological rationale directly applicable to taxane-resistant breast cancer subtypes (TNBC, luminal B). Early-phase clinical evidence (GENEVIEVE Phase II RCT; Phase I/II capecitabine combination; Phase II lapatinib combination) confirms human proof-of-concept, justifying advancement to a structured evidence review, though the absence of a completed Phase III trial in breast cancer and the current lack of a Denmark marketing authorisation mean guardrails are appropriate.
+TxGNN-forudsigelsen af cabazitaxel til kvindeligt brystkræft er mekanistisk velunderstøttet — lægemidlets evne til at overvinde P-gp-medieret taxan-resistens og dets fordel i βIII-tubulin-overudtrykkende tumorer giver et overbevisende biologisk rationale direkte anvendeligt på taxan-resistente brystkræftsubtyper (TNBC, luminal B). Fase-tidlig klinisk evidens (GENEVIEVE fase II RCT; fase I/II capecitabin kombination; fase II lapatinib kombination) bekræfter humant proof-of-concept, hvilket retfærdiggør fremskridt til en struktureret bevisgennemgang, dog betyder fraværet af et gennemført fase III-forsøg i brystkræft og det nuværende fravær af en dansk markedsføringstilladelse, at sikkerhedsforanstaltninger er passende.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendigt:**
 
-- **Comprehensive clinical trial mapping:** Manual retrieval of all registered trials (ClinicalTrials.gov, EudraCT/CTIS, ICTRP) for cabazitaxel in breast cancer subtypes, including TNBC, HER2+, and luminal B; automated search missed NCT entries present in the literature
-- **Safety data completion:** Obtain and parse the Jevtana® SmPC (EMA/FDA) for full warnings, contraindications, and CYP3A4/P-gp drug–drug interaction profile to complete the S1 safety assessment
-- **Mechanism of action (MOA) data:** Retrieve structured DrugBank MOA entry for DB06772 to formalise the mechanistic link score
-- **Subtype-stratified evidence synthesis:** Evidence should be stratified by breast cancer subtype (TNBC vs HER2+ vs HR+/HER2−) as cabazitaxel's advantage is most pronounced in taxane-resistant and high-βIII-tubulin subtypes
-- **Regulatory pathway assessment:** Evaluate requirements for a named-patient programme or EMA extension-of-indication application for Denmark, in coordination with Lægemiddelstyrelsen
-- **Phase III data gap:** A prospective Phase II/III trial in taxane-pretreated metastatic breast cancer would be the critical missing piece to elevate evidence to L1
+- **Omfattende klinisk forsøgskortlægning:** Manuel hentning af alle registrerede forsøg (ClinicalTrials.gov, EudraCT/CTIS, ICTRP) for cabazitaxel i brystkræftsubtyper, herunder TNBC, HER2+ og luminal B; automatiseret søg savnede NCT-indlysinger til stede i litteraturen
+- **Fuldstændiggørelse af sikkerhedsdata:** Indhent og analyser Jevtana® SmPC (EMA/FDA) for omfattende advarsler, kontraindikationer og CYP3A4/P-gp lægemiddel-lægemiddel-interaktionsprofil for at fuldføre S1 sikkerhedsvurderingen
+- **Mekanisme for handling (MOA) data:** Hent struktureret DrugBank MOA-indlysning for DB06772 for at formalisere den mekanistiske linkingscore
+- **Subtypestratificeret bevisoversigt:** Bevis bør stratificeres efter brystkræftsubtype (TNBC vs HER2+ vs HR+/HER2−) da cabazitaxels fordel er mest udtalt i taxan-resistente og høj-βIII-tubulin-subtyper
+- **Regulatorisk vejvurdering:** Evaluer krav til et navngiven-patient program eller EMA-indikationsudvidelsesansøgning for Danmark i koordination med Lægemiddelstyrelsen
+- **Fase III datakløft:** Et prospektivt fase II/III forsøg i taxan-forhåndelede metastatisk brystkræft ville være det kritiske manglende stykke for at hæve evidensen til L1
 
 ---
 
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All clinical decisions should be made by qualified healthcare professionals in accordance with applicable guidelines and regulations.
+> **Ansvarsfraskrivelse:** Denne rapport er kun til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddelgenudnyttelseskandidater kræver klinisk validering før enhver terapeutisk anvendelse. Alle kliniske beslutninger skal træffes af kvalificerede sundhedsprofessionelle i overensstemmelse med gældende retningslinjer og regulativer.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

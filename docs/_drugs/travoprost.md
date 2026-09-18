@@ -29,58 +29,59 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Travoprost: From Glaucoma/Ocular Hypertension to Visceral Calciphylaxis
+# Travoprost: Fra glaukom/okulær hypertension til viskeral calciphylaksi
 
-## One-Sentence Summary
+## Énlinjers-resumé
 
-Travoprost is a prostaglandin F2α analogue used to lower intraocular pressure in glaucoma and ocular hypertension (mechanism and trial context reconstructed from the evidence pack, as structured MOA/indication fields were not populated). The TxGNN model predicts it may be effective for **Visceral Calciphylaxis**, but this prediction is currently supported by **no clinical trials** and **no published literature** — it is a pure model signal.
+Travoprost er et prostaglandin F2α analogon, der bruges til at sænke intraokulart tryk ved glaukom og okulær hypertension (mekanisme og forsøgssammenhæng rekonstrueret fra evidenspakken, da strukturerede MOA/indikationsfelter ikke var udfyldt). TxGNN-modellen forudsiger, at det kan være effektivt for **viskeral calciphylaksi**, men denne forudsigelse understøttes i øjeblikket af **ingen kliniske forsøg** og **ingen publiceret litteratur** – det er et rent modelsignal.
 
-## Quick Overview
+## Kort overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Glaucoma / Ocular Hypertension (reconstructed from trial evidence; not present in structured regulatory data) |
-| Predicted New Indication | Visceral Calciphylaxis |
-| TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|---------|
+| Original indikation | Glaukom / okulær hypertension (rekonstrueret fra forsøgsevidensen; ikke til stede i strukturerede regulatoriske data) |
+| Forudsagt ny indikation | Viskeral calciphylaksi |
+| TxGNN forudsigelsesscore | 99.9998% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsautoriseringer | 0 |
+| Anbefalet beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in structured form. Based on information embedded in the evidence pack's clinical trial records and rationale notes, Travoprost is a prostaglandin F2α analogue (prodrug, hydrolyzed to its active acid form) that selectively agonizes the FP prostanoid receptor, lowering intraocular pressure by increasing uveoscleral outflow — its established use is in open-angle glaucoma and ocular hypertension.
+I øjeblikket er detaljerede virkemådedata ikke tilgængelige i struktureret form. Baseret på information i evidenspakkens registreringer af kliniske forsøg og begrundelsesnoter, er travoprost et prostaglandin F2α analogon (prodrug, hydrolyseret til sin aktive syreform), som selektivt agoniserer FP-prostanoidreceptoren og sænker intraokulart tryk ved at øge uveoskleral afstrømning – dets etablerede anvendelse er ved åbenvinkel-glaukom og okulær hypertension.
 
-Visceral calciphylaxis is a small-vessel calcification disorder leading to ischemic tissue necrosis, involving vascular smooth muscle calcification and coagulation abnormalities. According to the repurposing rationale supplied with this candidate, **there is no known physiological link** between this pathway and Travoprost's FP-receptor/IOP-lowering mechanism.
+Viskeral calciphylaksi er en småkars-calcifikations-lidelse, der fører til iskæmisk vævsnekrose og omfatter vaskulær glat muskelcalcifikation og koagulationsforstyrrelser. Ifølge det repurposing-rationale, som er vedlagt denne kandidat, **er der ingen kendt fysiologisk forbindelse** mellem denne vej og travoprosts FP-receptor/IOP-sænkende virkemåde.
 
-This candidate ranks #1 by TxGNN score, but the model's own supporting rationale explicitly states the association is unsupported by any clinical trial or literature evidence — it reflects a high embedding-similarity signal only, not a mechanistically or clinically grounded hypothesis.
+Denne kandidat er placeret som #1 efter TxGNN-score, men modellens egen begrundelse erklærer eksplicit, at associationen ikke er understøttet af nogen kliniske forsøg eller litteraturbevis – den afspejler alene et højt embedding-lighedssignal, ikke en mekanistisk eller klinisk velbegrundet hypotese.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Bevis fra litteraturen
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-This is an L5-evidence candidate — a model prediction with no supporting clinical trials, no literature, and no established mechanistic link between Travoprost's FP-receptor pathway and calciphylaxis pathophysiology. The drug is also not currently marketed in Denmark, and safety labeling data needed for even a preliminary safety screen is missing (blocking data gap).
+**Begrundelse:**
+Dette er en L5-evidens-kandidat – en modelforudsigelse uden støtte fra kliniske forsøg, uden litteraturbevis og uden etableret mekanistisk forbindelse mellem travoprosts FP-receptor-vej og calciphylaksis-patofysiologi. Medicinen er desuden i øjeblikket ikke markedsført i Danmark, og sikkerhedsmærkningsdata, der er nødvendige selv for et foreløbigt sikkerhedsscreening, mangler (blokerende datagab).
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or SmPC
-- Danish/EU product labeling (warnings, contraindications) to clear the current blocking data gap (DG001)
-- Preclinical or mechanistic studies linking prostaglandin FP-receptor activity to vascular calcification pathways
-- If pursued, an initial preclinical/in vitro feasibility study before any clinical evidence generation, given the complete absence of supporting data
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet virkemådedata (MOA) fra DrugBank eller SmPC
+- Dansk/EU-produktmærkning (advarsler, kontraindikationer) for at klare det nuværende blokerende datagab (DG001)
+- Prækliniske eller mekanistiske studier, der forbinder prostaglandin FP-receptoraktivitet med vaskulære calcifikationsveje
+- Hvis man forfølger det, et initialt præklinisk/in vitro gennemførlighedsstudium før nogen klinisk evidensgeneration, givet den fuldstændige mangel på understøttende data
 
-*Note: Among the other candidates in this evidence pack, "vascular disease" (rank 9–10, L4) has substantially more evidence (15 clinical trials, 20 publications) but that evidence is graded low-relevance (Grade C) — the trials are glaucoma/IOP studies incidentally involving Travoprost, not vascular-disease treatment trials. It may warrant separate evaluation but was not the top-ranked candidate and is outside the scope of this report.*
+*Bemærk: Blandt de øvrige kandidater i denne evidenspakke har "vaskulær sygdom" (rang 9–10, L4) væsentligt mere evidens (15 kliniske forsøg, 20 publikationer), men disse beviser er klassificeret som lavt relevante (Grad C) – forsøgene er glaukom/IOP-studier, der tilfældigvis involverer travoprost, ikke behandlingsforsøg for vaskulær sygdom. Det kunne være værd at vurdere separat, men var ikke den toprangerede kandidat og ligger uden for omfanget af denne rapport.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

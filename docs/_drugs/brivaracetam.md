@@ -29,137 +29,138 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brivaracetam: From Focal Onset Seizures to Visual Epilepsy
+# Brivaracetam: Fra fokal debut-anfald til visuel epilepsi
 
-## One-Sentence Summary
+## Sammenfattelse på én sætning
 
-Brivaracetam (BRV) is a third-generation antiseizure medication approved for focal onset seizures, acting as a highly selective, high-affinity synaptic vesicle protein 2A (SV2A) ligand with superior brain penetration compared to its predecessor levetiracetam.
-The TxGNN model assigns its highest score (99.51%) to **Visual Epilepsy** — a spectrum of seizures triggered by visual stimuli including photosensitive epilepsy — supported by indirect mechanistic evidence from photosensitivity model studies and **19 publications**, but no dedicated clinical trials in this specific subtype.
-Importantly, the second-ranked prediction, **Status Epilepticus**, carries substantially stronger clinical evidence (Evidence Level L2, "Proceed with Guardrails") backed by 2 completed clinical trials and 20 publications, and should be considered the primary actionable finding in this report.
+Brivaracetam (BRV) er et tredjegenerations-antiepileptisk lægemiddel godkendt til fokal debut-anfald, der virker som en højt selektiv, høj-affinitet ligand for synapseblærens protein 2A (SV2A) med bedre hjernepenetration end sin forgænger levetiracetam.
+TxGNN-modellen tildeler dets højeste score (99,51%) til **Visuel Epilepsi** — et spektrum af anfald udløst af visuelle stimuli, herunder fotosensitiv epilepsi — understøttet af indirekte mekanistiske beviser fra fotofølsomhedsmodelstudier og **19 publikationer**, men ingen særskilte kliniske forsøg i denne specifikke undertype.
+Vigtigst af alt skal det andenstillede udfald, **Status Epilepticus**, som har væsentligt stærkere kliniske beviser (Bevisniveau L2, "Gå videre med sikkerhedsforanstaltninger"), der understøttes af 2 gennemførte kliniske forsøg og 20 publikationer, betragtes som det primære handlingsorienterede fund i denne rapport.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | Focal onset seizures (adjunctive and monotherapy) |
-| Predicted New Indication | Visual Epilepsy |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not found in Danish register |
-| Number of Marketing Authorisations | 0 (national register) |
-| Recommended Decision | Hold (Research Question) |
+| Oprindelig indikation | Fokal debut-anfald (additiv og monoterapi) |
+| Forudsagt ny indikation | Visuel Epilepsi |
+| TxGNN-prognosescore | 99,51% |
+| Bevisniveau | L3 |
+| Markedsstatus i Danmark | Ikke fundet i dansk register |
+| Antal markedsføringstilladelser | 0 (nationalt register) |
+| Anbefalet afgørelse | Afvent (Forskningsmålsætning) |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hvorfor Er Denne Prognose Rimelig?
 
-Brivaracetam is a propyl analog of levetiracetam and a selective, high-affinity SV2A ligand. SV2A is a synaptic vesicle glycoprotein involved in regulating neurotransmitter release — by binding this target, BRV modulates vesicle recycling and reduces the probability of excessive, synchronised neuronal firing. Compared to levetiracetam, BRV binds SV2A with 15–30 times greater affinity and penetrates the blood-brain barrier more rapidly due to its greater lipophilicity, giving it a faster onset of action. In addition to SV2A binding, BRV shows secondary activity on voltage-gated sodium channels, broadening its antiseizure profile.
+Brivaracetam er en propylanalog af levetiracetam og en selektiv, høj-affinitet SV2A-ligand. SV2A er et glykoprote i synapseblæren, der regulerer neurotransmitterudskillelse — ved at binde dette target modulerer BRV blærrecyclering og reducerer sandsynligheden for overdreven, synkroniseret neuronal aktivering. Sammenlignet med levetiracetam binder BRV SV2A med 15–30 gange større affinitet og penetrerer blod-hjerne-barrieren hurtigere på grund af sin større lipoficitet, hvilket giver det en hurtigere virkningsinitiation. Udover SV2A-binding viser BRV sekundær aktivitet på spændingsafhængige natriumkanaler, hvilket udvider dens antiepileptiske profil.
 
-Visual epilepsy encompasses seizure syndromes in which attacks are triggered by visual stimuli: flickering light (photosensitive epilepsy), geometric patterns, television screens, and other visual inputs. The primary pathophysiology involves hyperexcitability of the occipital visual cortex with rapid downstream propagation. BRV's SV2A target is broadly expressed across cortical regions including the occipital cortex, providing a direct mechanistic basis for its potential to dampen visually-triggered cortical over-activation.
+Visuel Epilepsi omfatter epilepsisyndrom, hvori anfald udløses af visuelle stimuli: flimrende lys (fotosensitiv epilepsi), geometriske mønstre, fjernsyn og andre visuelle input. Den primære patofysiologi involverer hypereksitabilitet i det occipitale cortex med hurtig nedstrøms udbredelse. BRV's SV2A-target er bredt eksprimeret på tværs af kortikale regioner, herunder det occipitale cortex, hvilket giver et direkte mekanistisk grundlag for dets potentiale til at dæmpe visuelt-trigget kortikale overpåvirkning.
 
-The biological rationale is further supported by early clinical evidence: a randomised double-blind crossover study (PMID 32949370) demonstrated that BRV suppresses photoparoxysmal EEG responses (PPRs) in photosensitive epilepsy patients more rapidly than levetiracetam, providing proof-of-principle for BRV activity in visually-induced seizures. A 2007 photosensitivity model study (PMID 17785672) likewise confirmed BRV's efficacy in this model, which is considered a validated human proof-of-concept paradigm for antiseizure drug development. The existing literature in this evidence pack, although primarily addressing focal epilepsy more broadly, collectively establishes BRV's SV2A-mediated cortical seizure suppression — a mechanism directly applicable to visual epilepsy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials dedicated to visual epilepsy or photosensitive epilepsy are registered for brivaracetam.
-
-> The photosensitivity model (PPR suppression using intermittent photic stimulation) has been used in early-phase BRV development as a surrogate proof-of-concept endpoint, but these studies are classified under the broader photosensitivity/audiogenic evidence base rather than as formal "visual epilepsy" trials.
+Det biologiske rationale understøttes yderligere af tidlig klinisk evidens: en randomiseret dobbeltblind crossover-studie (PMID 32949370) demonstrerede, at BRV undertrykker fotoparoksysmal EEG-respons (PPR'er) hos fotosensitive epilepsi-patienter hurtigere end levetiracetam, hvilket giver proof-of-principle for BRV-aktivitet i visuelt-inducerede anfald. Et fotofølsomhedsmodelstudium fra 2007 (PMID 17785672) bekræftede ligeledes BRV's effektivitet i denne model, som betragtes som et valideret menneskeligt proof-of-concept-paradigme for udvikling af antiepileptisk lægemiddel. Det eksisterende litteratur i denne evidenspakke, selvom det primært behandler bredere fokal epilepsi, etablerer samlet BRV's SV2A-medieret kortikale anfaldssuppression — en mekanisme direkte relevant for Visuel Epilepsi.
 
 ---
 
-## Literature Evidence
+## Kliniske Forsøgsbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Pooled Analysis of RCTs | *Epilepsy & Behavior* | In-depth pooled safety analysis of adjunctive BRV across multiple RCTs for focal seizures; established favourable tolerability versus placebo with low rates of psychiatric adverse events |
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | Phase III RCT | *Epilepsia Open* | Phase III double-blind placebo-controlled trial of adjunctive BRV in adult Asian patients with focal-onset seizures; confirmed efficacy and safety across Asian populations, supporting broad applicability |
-| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | Meta-analysis | *Expert Opinion on Pharmacotherapy* | Meta-analysis of BRV at 50–200 mg/day versus placebo as adjunctive therapy; dose-dependent seizure reduction confirmed, with 50 mg/day as a clinically meaningful starting dose |
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematic Review + Meta-analysis | *Frontiers in Neurology* | Safety and efficacy of BRV in paediatric epilepsy; positive ≥50% responder rates with acceptable adverse event rates across age groups |
-| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | Systematic Review | *Cureus* | Systematic review of BRV's current role in adults and children with epilepsy; supports BRV as a valuable option across multiple seizure types, including where levetiracetam fails |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Comprehensive Review | *Journal of Epilepsy Research* | Synthesises BRV pharmacology, clinical trial data, and real-world evidence; highlights rapid BBB penetration, selective SV2A binding, and favourable pharmacokinetics as key advantages |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Narrative Review | *Advances in Therapy* | Reviews BRV preclinical development and clinical profile; documents 15–30-fold SV2A affinity advantage over levetiracetam and its mechanistic rationale across epilepsy subtypes |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Clinical Review / Trial Analysis | *Expert Review of Neurotherapeutics* | Detailed analysis of BRV efficacy and safety in focal epilepsy; comparison with levetiracetam including brain permeability and clinical trial responder rates |
-| [38970892](https://pubmed.ncbi.nlm.nih.gov/38970892/) | 2024 | Prospective Observational | *Epilepsy & Behavior* | EXPERIENCE pooled analysis (Australia, Europe, USA); BRV effectiveness and tolerability in older (≥65 years) versus younger adults; ≥50% responder rates and seizure-freedom rates documented in real-world settings |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Mechanistic Review | *Neuropharmacology* | Comprehensive review of antiseizure drug mechanisms; contextualises SV2A as BRV's primary target and discusses its role in modulating cortical hyperexcitability |
+Aktuelt er der ingen kliniske forsøg dedikeret til visuel epilepsi eller fotosensitiv epilepsi registreret for brivaracetam.
+
+> Fotofølsomhedsmodellen (PPR-undertrykkelse ved hjælp af intermittent fototisk stimulation) er blevet brugt i tidlig-fase BRV-udvikling som et surrogat proof-of-concept-endepunkt, men disse studier klassificeres under det bredere fotofølsomhed/audiogen evidensgrundlag snarere end som formelle "Visuel Epilepsi"-forsøg.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-The Danish Medicines Agency (Lægemiddelstyrelsen) national register returned no marketing authorisations for brivaracetam.
-
-> **Important clarification**: Brivaracetam (Briviact®) holds a centralised European Medicines Agency (EMA) authorisation (EU/1/16/1082), granted in January 2016, for adjunctive treatment of partial-onset (focal) seizures in adults and adolescents aged 16 years and older. This centralised authorisation is legally valid across all EU/EEA member states, including Denmark. The absence from the national register may reflect a data gap rather than true unavailability. Healthcare professionals are advised to verify current commercial availability and reimbursement status directly with Lægemiddelstyrelsen or the UCB Denmark affiliate.
+| PMID | År | Type | Journal | Vigtige Fund |
+|------|-----|------|---------|-------------|
+| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Samlet Analyse af RCT'er | *Epilepsy & Behavior* | Dybdegående samlet sikkerhedsanalyse af additiv BRV på tværs af flere RCT'er til fokal anfald; etablerede gunstig tolerabilitet versus placebo med lave rater af psykiatriske bivirkninger |
+| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | Fase III RCT | *Epilepsia Open* | Fase III dobbeltblind placebo-kontrolleret forsøg med additiv BRV hos voksne asiatiske patienter med fokal-debut-anfald; bekræftede effektivitet og sikkerhed på tværs af asiatiske populationer, hvilket understøtter bred anvendelighed |
+| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | Meta-analyse | *Expert Opinion on Pharmacotherapy* | Meta-analyse af BRV ved 50–200 mg/dag versus placebo som additiv terapi; dosisafhængig anfaldsmæssig reduktion bekræftet, med 50 mg/dag som en klinisk meningsfuld startdosis |
+| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematisk Gennemgang + Meta-analyse | *Frontiers in Neurology* | Sikkerhed og effektivitet af BRV i pediatrisk epilepsi; positive ≥50 % responder-rater med acceptable uønskede begivenhedsrater på tværs af aldersgrupper |
+| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | Systematisk Gennemgang | *Cureus* | Systematisk gennemgang af BRV's nuværende rolle hos voksne og børn med epilepsi; understøtter BRV som en værdifuld mulighed på tværs af flere anfaldtyper, herunder hvor levetiracetam svigter |
+| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Omfattende Oversigt | *Journal of Epilepsy Research* | Syntese af BRV farmakologi, kliniske forsøgsdata og virkeværelsesevidens; fremhæver hurtig BBB-penetration, selektiv SV2A-binding og gunstig farmakokinetik som vigtige fordele |
+| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Narrativ Oversigt | *Advances in Therapy* | Gennemgang af BRV præklinisk udvikling og klinisk profil; dokumenterer 15–30-fold SV2A-affinitetsforskel sammenlignet med levetiracetam og dets mekanistiske rationale på tværs af epilepsisyndrom |
+| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Klinisk Gennemgang / Forsøgsanalyse | *Expert Review of Neurotherapeutics* | Detaljeret analyse af BRV effektivitet og sikkerhed ved fokal epilepsi; sammenligning med levetiracetam herunder hjernepenetrabilitet og kliniske forsøgs-responder-rater |
+| [38970892](https://pubmed.ncbi.nlm.nih.gov/38970892/) | 2024 | Prospektiv Observationsstudie | *Epilepsy & Behavior* | EXPERIENCE samlet analyse (Australien, Europa, USA); BRV effektivitet og tolerabilitet hos ældre (≥65 år) versus yngre voksne; ≥50 % responder-rater og anfaldsfrihedshastigheder dokumenteret i virkeværelsesforsøg |
+| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Mekanistisk Oversigt | *Neuropharmacology* | Omfattende gennemgang af antiepileptisk lægemiddel-mekanismer; kontekstualiserer SV2A som BRV's primære target og diskuterer dets rolle i modulering af kortikale hypereksitabilitet |
 
 ---
 
-## Notable Secondary Finding: Status Epilepticus (Evidence Level L2)
+## Markedsinformation for Danmark
 
-While visual epilepsy is the top-ranked TxGNN prediction, **status epilepticus** (rank 3, TxGNN score 99.40%) represents the most clinically actionable repurposing candidate with a **"Proceed with Guardrails"** recommendation.
+Lægemiddelstyrelsen nationale register returnerede ingen markedsføringstilladelser for brivaracetam.
 
-### Clinical Trial Evidence — Status Epilepticus
+> **Vigtig præcisering**: Brivaracetam (Briviact®) besidder en centraliseret godkendelse fra Det Europæiske Lægemiddelsagentur (EMA) (EU/1/16/1082), tildelt i januar 2016, til additiv behandling af partiel-debut (fokal) anfald hos voksne og unge fra 16 år og derover. Denne centraliserede godkendelse er juridisk gyldig på tværs af alle EU/EØS-medlemsstater, herunder Danmark. Fraværet fra nationalregisteret kan afspejle et datagab snarere end ægte utilgængelighed. Sundhedspersonale anbefales at bekræfte aktuel kommerciel tilgængelighed og refusionsstatus direkte med Lægemiddelstyrelsen eller UCB Danmark-affiltet.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+---
+
+## Bemærkelsesværdigt sekundært fund: Status Epilepticus (Bevisniveau L2)
+
+Selvom Visuel Epilepsi er det øverst rangerede TxGNN-udfald, repræsenterer **Status Epilepticus** (rangering 3, TxGNN-score 99,40%) det mest klinisk handlingsorienterede genbrug-kandidat med en **"Gå videre med sikkerhedsforanstaltninger"**-anbefaling.
+
+### Kliniske Forsøgsbeviser — Status Epilepticus
+
+| Forsøgsnummer | Fase | Status | Deltagere | Vigtige Fund |
 |-------------|-------|--------|------------|-------------|
-| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | Pragmatic Comparative | Completed | 152 | Direct head-to-head comparison of IV brivaracetam versus IV levetiracetam in acute management of paediatric status epilepticus; highest-relevance trial for this indication |
-| [NCT07443241](https://clinicaltrials.gov/study/NCT07443241) | Observational (N/A) | Completed | 779 | Retrospective registry of 779 SE patients at Marburg University Hospital (2011–2023); analyses sex-specific differences in SE aetiology, treatment (including BRV use), and outcomes |
+| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | Pragmatisk Komparativ | Gennemført | 152 | Direkte head-to-head sammenligning af IV brivaracetam versus IV levetiracetam i akut behandling af pediatrisk status epilepticus; højest-relevant forsøg for denne indikation |
+| [NCT07443241](https://clinicaltrials.gov/study/NCT07443241) | Observationsstudie | Gennemført | 779 | Retrospektivt register af 779 SE-patienter på Marburg Universitets Hospital (2011–2023); analyser af kønsspecifikke SE-ætiologi, behandling (herunder BRV-brug) og resultater |
 
-### Literature Evidence — Status Epilepticus (selected highlights)
+### Litteraturbevis — Status Epilepticus (udvalgte højdepunkter)
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Systematic Review | *CNS Drugs* | Systematic review of IV BRV in status epilepticus; rapid brain penetration and SV2A affinity identified as pharmacological rationale for SE use |
-| [32278203](https://pubmed.ncbi.nlm.nih.gov/32278203/) | 2020 | Systematic Review | *Journal of the Neurological Sciences* | IV BRV as alternative anticonvulsant in SE; pooled case series data summarised; notes limited controlled evidence but favourable tolerability signal |
-| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Clinical Practice Guideline | *Epilepsy Currents* | American Epilepsy Society review of parenteral ASMs for refractory convulsive SE; BRV included among third-line options with emerging evidence |
-| [41838218](https://pubmed.ncbi.nlm.nih.gov/41838218/) | 2026 | Systematic Review | *Journal of Neurology* | Most recent systematic review of BRV for SE; characterises efficacy and safety profile from available real-world and observational data |
-| [37839249](https://pubmed.ncbi.nlm.nih.gov/37839249/) | 2023 | Real-World Observational | *Epilepsy & Behavior* | Real-world effectiveness of IV BRV as second-line SE treatment; evaluates tolerability in a clinical setting following benzodiazepine failure |
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Briviact® for complete safety information, available via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/briviact).
-
-> **Practical note for Danish clinicians**: As a racetam-class drug, BRV carries a class-level risk of psychiatric adverse effects (mood disturbance, irritability, depression). Importantly, BRV has a substantially lower rate of psychiatric side effects compared to levetiracetam, which is well documented in the pooled safety literature (PMID 31937513). Key pharmacokinetic interactions include induction by rifampicin and carbamazepine (CYP2C19/CYP3A4-mediated dose reduction of BRV), and a modest increase in phenytoin exposure when co-administered.
+| PMID | År | Type | Journal | Vigtige Fund |
+|------|-----|------|---------|-------------|
+| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Systematisk Gennemgang | *CNS Drugs* | Systematisk gennemgang af IV BRV ved status epilepticus; hurtig hjernepenetration og SV2A-affinitet identificeret som farmakologisk rationale for SE-brug |
+| [32278203](https://pubmed.ncbi.nlm.nih.gov/32278203/) | 2020 | Systematisk Gennemgang | *Journal of the Neurological Sciences* | IV BRV som alternativ antikonvulsant ved SE; samlet case-series-data opsummeret; noterer begrænset kontrolleret evidens men gunstigt tolerabilitetssignal |
+| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Klinisk Praksisvejledning | *Epilepsy Currents* | American Epilepsy Society review af parenterale ASM'er til refraktær konvulsiv SE; BRV inkluderet blandt tredjelines-muligheder med stigende evidens |
+| [41838218](https://pubmed.ncbi.nlm.nih.gov/41838218/) | 2026 | Systematisk Gennemgang | *Journal of Neurology* | Nyeste systematiske gennemgang af BRV til SE; karakteriserer effektivitets- og sikkerhedsprofil fra tilgængelig virkeværelses- og observationsdata |
+| [37839249](https://pubmed.ncbi.nlm.nih.gov/37839249/) | 2023 | Virkeværelses Observationsstudie | *Epilepsy & Behavior* | Virkeværelses-effektivitet af IV BRV som anden-linje SE-behandling; evaluerer tolerabilitet i klinisk setting efter benzodiazepinsvigt |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-### Primary Prediction — Visual Epilepsy
+Se venligst den godkendte Produktinformationssamling (SmPC) for Briviact® for komplet sikkerhedsinformation, tilgængelig via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/briviact).
 
-**Decision: Hold (Research Question)**
+> **Praktisk note for danske klinikere**: Som et racetam-klasse lægemiddel bærer BRV en klassenivenau risiko for psykiatriske uønskede effekter (humørforstyrrelser, irritabilitet, depression). Vigtigst af alt har BRV en væsentligt lavere rate af psykiatriske bivirkninger sammenlignet med levetiracetam, hvilket er veldt dokumenteret i det samlede sikkerhedslitteratur (PMID 31937513). Vigtige farmakokinetiske interaktioner inkluderer induktion af rifampicin og carbamazepin (CYP2C19/CYP3A4-medieret dosis reduktion af BRV) og en beskeden stigning i phenytoin-eksponering ved co-administrering.
+
+---
+
+## Konklusion og Næste Trin
+
+### Primær Prognose — Visuel Epilepsi
+
+**Afgørelse: Afvent (Forskningsmålsætning)**
 
 **Rationale:**
-The TxGNN model's highest-ranked prediction for brivaracetam is mechanistically well-founded — BRV's SV2A-mediated suppression of occipital cortex hyperexcitability is directly relevant to visually-triggered seizures, and early photosensitivity model data provide human proof-of-concept. However, no clinical trial is registered specifically for visual epilepsy as an independent indication, and all current publications represent indirect support from the broader focal epilepsy evidence base.
+TxGNN-modelens højest rangerede prognose for brivaracetam er mekanistisk velbaseret — BRV's SV2A-medieret undertrykkelse af occipital cortex hypereksitabilitet er direkte relevant for visuelt-udløste anfald, og tidlig fotofølsomhedsmodeldata giver human proof-of-concept. Imidlertid er der ingen klinisk forsøg registreret specielt for Visuel Epilepsi som en uafhængig indikation, og alle nuværende publikationer repræsenterer indirekte støtte fra det bredere fokal epilepsi-evidensgrundlag.
 
-**To proceed, the following is needed:**
-- A dedicated investigator-initiated or industry trial evaluating BRV in confirmed photosensitive epilepsy patients using PPR suppression as a primary endpoint
-- Retrieval and review of the Briviact® SmPC and EPAR for full safety, pharmacokinetic, and special population data
-- Subgroup analysis from existing BRV RCTs to identify and characterise patients with visually-triggered or reflex seizures
-- Confirmation of BRV market availability and reimbursement status in Denmark with Lægemiddelstyrelsen
+**For at fortsætte, er følgende nødvendigt:**
+- Et dedikeret investigator-initieret eller industri-drevet forsøg, der evaluerer BRV hos bekræftede fotosensitive epilepsi-patienter ved hjælp af PPR-undertrykkelse som et primært endepunkt
+- Hentning og gennemgang af Briviact® SmPC og EPAR for komplet sikkerhed, farmakokinetik og specielle populationsdata
+- Undergruppe-analyse fra eksisterende BRV RCT'er for at identificere og karakterisere patienter med visuelt-trigget eller reflex-anfald
+- Bekræftelse af BRV-markedstilgængelighed og refusionsstatus i Danmark med Lægemiddelstyrelsen
 
 ---
 
-### Secondary Prediction — Status Epilepticus
+### Sekundær Prognose — Status Epilepticus
 
-**Decision: Proceed with Guardrails**
+**Afgørelse: Gå videre med sikkerhedsforanstaltninger**
 
 **Rationale:**
-IV brivaracetam for status epilepticus is supported by two completed clinical trials (including a 152-patient paediatric head-to-head comparison with levetiracetam), multiple systematic reviews, and real-world multicentric retrospective data. BRV's IV formulation, rapid brain penetration, and high SV2A affinity make it pharmacologically well-suited for the acute SE setting. The evidence base is sufficient to support clinical use with appropriate monitoring, particularly as a second- or third-line agent after benzodiazepine failure or in patients with prior levetiracetam intolerance.
+IV brivaracetam til status epilepticus understøttes af to gennemførte kliniske forsøg (herunder en 152-patient pediatrisk head-to-head sammenligning med levetiracetam), flere systematiske gennemgange og virkeværelses-multicentriske retrospektive data. BRV's IV-formulering, hurtig hjernepenetration og høj SV2A-affinitet gør det farmakologisk velegnet til acute SE-setting. Evidensgrundlaget er tilstrækkeligt til at understøtte klinisk brug med passende monitorering, især som en anden- eller tredjelines-agent efter benzodiazepinsvigt eller hos patienter med tidligere levetiracetam-intolerens.
 
-**To proceed, the following is needed:**
-- Full publication of NCT07163572 (IV BRV vs. IV LEV in paediatric SE) trial results
-- A formal health technology assessment (HTA) submission to Medicinrådet for SE indication
-- Clarification of BRV IV formulation availability in Danish hospital pharmacies
-- Development of a clinical pathway document for neurologists and intensivists in Denmark
+**For at fortsætte, er følgende nødvendigt:**
+- Fuld publikation af NCT07163572 (IV BRV vs. IV LEV i pediatrisk SE) forsøgsresultater
+- En formelt sundhedsteknologivurdering (HTA) indgivelse til Medicinrådet for SE-indikation
+- Præcisering af BRV IV-formulerings tilgængelighed på danske hospitalsfarmacier
+- Udvikling af et klinisk vejledningsdokument for neurologer og intensivister i Danmark
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Data cutoff: 2026-04-04.*
+*Denne rapport genereres til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle lægemiddelgenbrug-kandidater kræver klinisk validering før terapeutisk anvendelse. Dataafskæring: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

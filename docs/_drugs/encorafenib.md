@@ -29,89 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Encorafenib: Evaluation Incomplete — No Repurposing Predictions Generated
+# Encorafenib: Evaluering ufuldstændig — der blev ikke genereret præpositioneringsforudsigelser
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Encorafenib (DB11718) is a selective BRAF kinase inhibitor used in oncology.
-This Evidence Pack **could not generate repurposing predictions**, as critical inputs — including the original approved indication, mechanism of action, and Danish regulatory records — were not successfully retrieved.
-This report documents the current data gaps and outlines the remediation steps required before a full evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not retrieved in this Evidence Pack |
-| Predicted New Indication | None — TxGNN produced no output |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | Cannot be assessed |
-| Denmark Market Status | Not marketed (per data retrieved) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Encorafenib (DB11718) er en selektiv BRAF-kinase-inhibitor, der bruges inden for onkologi.
+Denne bevispakke **kunne ikke generere præpositioneringsforudsigelser**, da kritiske input — herunder den oprindeligt godkendte indikation, virkningsmekanisme og danske regulatoriske registre — ikke blev hentet med succes.
+Denne rapport dokumenterer de aktuelle datahuller og skitserer de afhjælpningsskridt, der kræves, før en fuldstændig evaluering kan gennemføres.
 
 ---
 
-## Context: Why No Prediction Was Generated
+## Hurtig oversigt
 
-No repurposing prediction was generated for Encorafenib in this Evidence Pack. The `predicted_indications` array is empty, and both the original indication and mechanism of action were flagged as data gaps — the two most critical inputs for the TxGNN prediction pipeline.
-
-From publicly available sources, Encorafenib is known to be a selective **Class VI BRAF kinase inhibitor** (brand name Braftovi), approved in combination with binimetinib for BRAF V600E/K-mutant unresectable or metastatic melanoma, and in combination with cetuximab for BRAF V600E-mutant metastatic colorectal cancer. These details were not captured in the Evidence Pack and therefore could not serve as TxGNN input. Until `original_indications` and `original_moa` are populated, the model has insufficient context to score and rank repurposing candidates.
-
-Two data gaps are currently blocking progress:
-
-| Gap ID | Item | Severity | Impact |
-|--------|------|----------|--------|
-| DG001 | Regulatory warnings and contraindications (SmPC) | **Blocking** | Prevents safety pre-screening |
-| DG002 | Mechanism of action (MOA) | **High** | Prevents mechanistic relevance analysis and TxGNN input |
-
----
-
-## Denmark Market Information
-
-No marketing authorisations for Encorafenib were retrieved from the Danish regulatory database.
-
-> **Important note:** Encorafenib (Braftovi) holds a centralised EMA marketing authorisation (EU/1/18/1314) that is valid across all EU/EEA member states including Denmark. The current `market_status: Not marketed` most likely reflects a **retrieval gap in the Evidence Pack pipeline** rather than an actual absence from the Danish market. It is strongly recommended to verify the current status directly via the [EMA product database](https://www.ema.europa.eu/en/medicines/human/EPAR/braftovi) or Laegemiddelstyrelsen before drawing any regulatory conclusions.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke hentet i denne bevispakke |
+| Forudsagt ny indikation | Ingen — TxGNN gav intet resultat |
+| TxGNN-forudsigelsesscore | N/A |
+| Evidensniveau | Kan ikke vurderes |
+| Markeds status i Danmark | Ikke markedsført (baseret på hentet data) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | **Aflyst** |
 
 ---
 
-## Cytotoxicity
+## Kontekst: Hvorfor blev der ikke genereret nogen forudsigelse
 
-Encorafenib is an antineoplastic agent. The following is based on publicly available product information, as no DrugBank toxicity data was included in this Evidence Pack.
+Der blev ikke genereret nogen præpositioneringsforudsigelse for Encorafenib i denne bevispakke. Matrixen `predicted_indications` er tom, og både den oprindelige indikation og virkningsmekanisme blev markeret som datahuller — de to vigtigste input til TxGNN-forudsigelsespipelinen.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Selective BRAF kinase inhibitor (Class VI RAF inhibitor) |
-| Myelosuppression Risk | Low to moderate; anaemia and neutropenia have been reported, but haematological toxicity is less pronounced than with conventional cytotoxic chemotherapy |
-| Emetogenicity Classification | Low to moderate (oral targeted therapy) |
-| Monitoring Items | Full blood count (CBC with differential), liver function (ALT, AST, bilirubin), renal function, dermatological assessment (squamous cell carcinoma risk), ECG (QTc interval), ophthalmological evaluation |
-| Handling Protection | Please refer to the SmPC — standard oral cytotoxic handling precautions apply; avoid crushing or splitting capsules |
+Fra offentligt tilgængelige kilder er det kendt, at Encorafenib er en selektiv **klasse VI BRAF-kinase-inhibitor** (varemærke Braftovi), godkendt kombineret med binimetinib til BRAF V600E/K-mutant uoperabel eller metastatisk melanom, og kombineret med cetuximab til BRAF V600E-mutant metastatisk colorectal kræft. Disse detaljer blev ikke registreret i bevispakken og kunne derfor ikke tjene som TxGNN-input. Indtil `original_indications` og `original_moa` er udfyldt, har modellen utilstrækkelig kontekst til at vurdere og rangordne præpositioneringskandidater.
 
----
+To datahuller blokerer i øjeblikket fremskridtet:
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information.
-
-No safety data (warnings, contraindications, or drug interactions) was retrieved in this Evidence Pack. Gap DG001 is classified **Blocking** and must be resolved before any safety pre-screening can be completed.
+| Huller-ID | Element | Alvorlighed | Påvirkning |
+|-----------|---------|-------------|-----------|
+| DG001 | Regulatoriske advarsler og kontraindikationer (SmPC) | **Blokerend** | Forhindrer sikkerhedspresscreening |
+| DG002 | Virkningsmekanisme (MOA) | **Høj** | Forhindrer analyse af mekanistisk relevans og TxGNN-input |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Der blev ikke hentet markedsføringstilladelser for Encorafenib fra den danske regulatoriske database.
 
-**Rationale:**
-The Evidence Pack for Encorafenib is incomplete — no original indications, mechanism of action, repurposing predictions, or safety data were retrieved. A meaningful drug repurposing evaluation cannot be completed in the current state.
+> **Vigtig note:** Encorafenib (Braftovi) har en centraliseret EMA-markedsføringstilladelse (EU/1/18/1314), der er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Det aktuelle `market_status: Not marketed` afspejler sandsynligvis et **henteproblem i bevispakkens pipeline** snarere end en faktisk fraværelse fra det danske marked. Det anbefales stærkt at bekræfte den aktuelle status direkte via [EMA-produktdatabasen](https://www.ema.europa.eu/en/medicines/human/EPAR/braftovi) eller Laegemiddelstyrelsen, inden der drages nogle regulatoriske konklusioner.
 
-**To proceed, the following is needed:**
+---
 
-- **Resolve DG001 (Blocking):** Retrieve regulatory warnings and contraindications from the approved SmPC — access via the [EMA EPAR for Braftovi](https://www.ema.europa.eu/en/medicines/human/EPAR/braftovi) or Laegemiddelstyrelsen
-- **Resolve DG002 (High):** Query the DrugBank API for DB11718 to retrieve the mechanism of action
-- **Populate `original_indications`:** Add confirmed approved indications (BRAF V600-mutant melanoma; BRAF V600E-mutant metastatic colorectal cancer) to enable TxGNN input mapping
-- **Re-run the TxGNN prediction pipeline** once all inputs are complete
-- **Verify Danish market status:** Confirm EMA centralised authorisation coverage — the `market_status: Not marketed` result is likely a pipeline retrieval issue
+## Cytotoksicitet
+
+Encorafenib er et antineoplastisk middel. Følgende er baseret på offentligt tilgængelige produktoplysninger, da der ikke blev inkluderet DrugBank-toksicitetsdata i denne bevispakke.
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassifikation | Målrettet terapi — selektiv BRAF-kinase-inhibitor (klasse VI RAF-inhibitor) |
+| Risiko for myelosuppression | Lav til moderat; anæmi og neutropeni er blevet rapporteret, men hæmatologisk toksicitet er mindre udtalt end ved konventionel cytotoksisk kemoterapy |
+| Emetogenicitetsklassifikation | Lav til moderat (oral målrettet terapi) |
+| Overvågningselementer | Fuldt blodtal (CBC med differential), leverfunktion (ALT, AST, bilirubin), nyrefunktion, dermatologisk vurdering (risiko for planocellulart carcinom), EKG (QTc-interval), oftalmologisk vurdering |
+| Håndteringsbeskyttelse | Se venligst SmPC — standard oral cytotoksisk håndteringsprocedurer gælder; undgå at knuse eller dele kapsler |
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+Der blev ikke hentet sikkerhedsdata (advarsler, kontraindikationer eller lægemiddelinteraktioner) i denne bevispakke. Huller DG001 er klassificeret som **blokerend** og skal løses, før nogen sikkerhedspresscreening kan gennemføres.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Aflyst**
+
+**Begrundelse:**
+Bevispakken for Encorafenib er ufuldstændig — der blev ikke hentet oprindelige indikationer, virkningsmekanisme, præpositioneringsforudsigelser eller sikkerhedsdata. En meningsfuld evaluering af præpositionering af lægemidler kan ikke gennemføres i den nuværende tilstand.
+
+**For at fortsætte kræves følgende:**
+
+- **Løs DG001 (blokerend):** Hent regulatoriske advarsler og kontraindikationer fra det godkendte SmPC — adgang via [EMA EPAR for Braftovi](https://www.ema.europa.eu/en/medicines/human/EPAR/braftovi) eller Laegemiddelstyrelsen
+- **Løs DG002 (høj):** Søg i DrugBank API for DB11718 for at hente virkningsmekanismen
+- **Udfyld `original_indications`:** Tilføj bekræftede godkendte indikationer (BRAF V600-mutant melanom; BRAF V600E-mutant metastatisk colorectal kræft) for at aktivere TxGNN-inputmapping
+- **Genudgør TxGNN-forudsigelsespipelinen** når alle input er fuldstændige
+- **Bekræft dansk markeds status:** Bekræft EMA-centraliseret autorisationsdækning — resultatet `market_status: Not marketed` er sandsynligvis et pipeline-henteproblem
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

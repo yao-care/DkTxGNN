@@ -29,98 +29,99 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vandetanib: From Medullary Thyroid Cancer to Renal Cell Carcinoma
+# Vandetanib: Fra medulær thyroidcancer til nyrecellekarcinoma
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Vandetanib is an oral multi-kinase inhibitor (VEGFR2/EGFR/RET) internationally approved for medullary thyroid cancer; no Danish marketing authorisation is currently on file for this drug.
-The TxGNN model predicts it may be effective for **Renal Cell Carcinoma**,
-with **4 clinical trials** and **6 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in the Danish licensing data; literature context (PMID 24451769) indicates Vandetanib is internationally approved as a RET-kinase inhibitor for medullary thyroid cancer |
-| Predicted New Indication | Renal Cell Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 (1 completed randomized Phase 2 trial) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Vandetanib er en oral multi-kinase-inhibitor (VEGFR2/EGFR/RET) internationalt godkendt til medulær thyroidcancer; der er i øjeblikket ingen dansk markedsføringstilladelse på fil for dette lægemiddel.
+TxGNN-modellen forudsiger, at det kan være effektivt til **nyrecellekarcinoma**,
+med **4 kliniske forsøg** og **6 publikationer**, der i øjeblikket understøtter denne retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism-of-action data for Vandetanib was not returned by DrugBank in this evidence pack (data gap, High severity). Based on the literature evidence collected, Vandetanib is a multi-target tyrosine kinase inhibitor acting on VEGFR2, EGFR and RET; one review in the evidence set (PMID 26677336) explicitly groups vandetanib together with sunitinib, sorafenib and pazopanib as antiangiogenic agents targeting VEGF-driven signalling in solid tumours.
-
-Sunitinib, sorafenib and pazopanib — drugs sharing vandetanib's core VEGFR2-inhibition mechanism — are already established first-line treatments for renal cell carcinoma, since RCC is a highly vascularised, angiogenesis-dependent tumour. This provides a direct mechanistic rationale for the TxGNN prediction: a VEGFR2-targeting agent proven effective in one angiogenesis-driven malignancy (thyroid cancer, via RET/VEGFR inhibition) is plausible in another (renal cell carcinoma), and several early-phase trials in the evidence pack (VHL-associated renal tumors, clear cell RCC, HLRCC/SDH-associated kidney cancer) have already tested this hypothesis directly.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke tilgængelig i de danske licensdata; litteraturkontekst (PMID 24451769) angiver, at vandetanib er internationalt godkendt som RET-kinase-inhibitor til medulær thyroidcancer |
+| Forudsagt ny indikation | Nyrecellekarcinoma |
+| TxGNN forudsigelsesscore | 99.92% |
+| Evidensniveau | L2 (1 gennemført randomiseret fase 2-forsøg) |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede data for vandetanibs virkningsmekanisme blev ikke returneret af DrugBank i denne evidenspakke (datahul, høj alvorlighed). Baseret på de indsamlede litteraturbevis er vandetanib en multi-mål tyrosinkinase-inhibitor, der virker på VEGFR2, EGFR og RET; en review i evidenssættet (PMID 26677336) grupperer eksplicit vandetanib sammen med sunitinib, sorafenib og pazopanib som anti-angiogenetiske midler, der målretter VEGF-drevet signalering i solide tumorer.
+
+Sunitinib, sorafenib og pazopanib – lægemidler, der deler vandetanibs centrale VEGFR2-inhibitionsmekanisme – er allerede etablerede førsteline-behandlinger for nyrecellekarcinoma, da RCC er en højt vaskulariseret, angiogenese-afhængig tumor. Dette giver en direkte mekanistisk begrundelse for TxGNN-forudsigelsen: en VEGFR2-målrettet agent, der er påvist effektiv i én angiogenese-drevet ondartedelse (thyroidcancer via RET/VEGFR-inhibition), er plausibel i en anden (nyrecellekarcinoma), og flere tidlig-fase forsøg i evidenspakken (VHL-associerede nyretumorer, clear cell-RCC, HLRCC/SDH-associeret nyrekræft) har allerede testet denne hypotese direkte.
+
+---
+
+## Bevis fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Completed | 37 | Tested vandetanib (ZD6474) for antiangiogenic/antitumour effect in Von Hippel-Lindau disease-associated renal tumors |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Terminated | 7 | Vandetanib + metformin combination in HLRCC- or SDH-associated kidney cancer and sporadic papillary RCC |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Terminated | 3 | Evaluated vandetanib for tumour shrinkage/stabilisation in advanced clear cell renal carcinoma; stopped early |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 (Randomized) | Completed | 82 | Randomized trial of carboplatin/gemcitabine ± vandetanib as first-line therapy in cisplatin-ineligible advanced urothelial/renal pelvis cancer |
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Fase 2 | Gennemført | 37 | Testede vandetanib (ZD6474) for anti-angiogenetisk/anti-tumor effekt ved Von Hippel-Lindau-sygdomsassocierede nyretumorer |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Fase 1/2 | Afsluttet | 7 | Vandetanib + metformin-kombination ved HLRCC- eller SDH-associeret nyrekræft og sporadisk papillær RCC |
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Fase 2 | Afsluttet | 3 | Vurderede vandetanib for tumorstørrelsesfald/stabilisering ved avanceret clear cell nyrecellekarcinoma; stoppet tidligt |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Fase 2 (Randomiseret) | Gennemført | 82 | Randomiseret forsøg med carboplatin/gemcitabin ± vandetanib som førsteline-terapi ved cisplatin-uegnet avanceret urotelialkræft/nyrebekkenkræft |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | Phase II Trial | Clin Cancer Res | Guadecitabine trial in SDH-deficient tumours including HLRCC-associated renal cell carcinoma, a population resistant to conventional therapy |
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clin Exp Metastasis | Discusses targeted-therapy combinations for metastatic fumarate hydratase-deficient RCC, a rare, aggressive subtype with no established regimen |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review | OncoTargets Ther | Profiles antiangiogenic TKIs (sunitinib, sorafenib, pazopanib, vandetanib) approved across solid-tumour indications |
-| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | Review | Bull Cancer | Reviews cabozantinib MOA/efficacy in the broader context of VEGFR/RET-targeting TKIs |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educational Book | Reviews systemic therapy for advanced thyroid cancers; notes vandetanib's FDA approval as a RET-kinase inhibitor for medullary thyroid cancer |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Preclinical | Mol Cancer Res | Mouse model of TFE3 Xp11.2-translocation RCC identifies novel therapeutic targets and a diagnostic marker (GPNMB) |
+| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | Fase II-forsøg | Clin Cancer Res | Guadecitabin-forsøg ved SDH-deficiente tumorer inklusive HLRCC-associeret nyrecellekarcinoma, en population resistent over for konventionel terapi |
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clin Exp Metastasis | Diskuterer målrettet terapi-kombinationer for metastatisk fumarathydrolase-deficient RCC, en sjælden, aggressiv subtype uden etableret behandlingsregimen |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review | OncoTargets Ther | Karakteriserer anti-angiogenetiske TKI'er (sunitinib, sorafenib, pazopanib, vandetanib) godkendt inden for solide tumor-indikationer |
+| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | Review | Bull Cancer | Gennemgår cabozantinib virkningsmekanisme/virkning i den bredere sammenhæng af VEGFR/RET-målrettet TKI'er |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educational Book | Gennemgår systemisk terapi for avanceret thyroidcancer; noterer vandetanibs FDA-godkendelse som RET-kinase-inhibitor til medulær thyroidcancer |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Præ-klinisk | Mol Cancer Res | Musemodel af TFE3 Xp11.2-translokation RCC identificerer nye terapeutiske mål og en diagnostisk marker (GPNMB) |
 
 ---
 
-## Denmark Market Information
+## Danske markedsoplysninger
 
-Vandetanib currently has no marketing authorisation on file with the Danish Medicines Agency (Laegemiddelstyrelsen) — market status is **Not marketed**, with **0** registered authorisations.
+Vandetanib har i øjeblikket ingen markedsføringstilladelse på fil hos Lægemiddelstyrelsen – markedsstatus er **Ikke markedsført**, med **0** registrerede tilladelser.
 
 ---
 
-## Cytotoxicity
+## Cytotoxicitet
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: VEGFR2, EGFR, RET) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | As an oral antineoplastic agent, standard institutional handling precautions for cytotoxic/targeted oncology drugs should be followed pending SmPC confirmation |
+| Klassificering af cytotoxicitet | Målrettet terapi (multi-kinase-inhibitor: VEGFR2, EGFR, RET) |
+| Risiko for knoglemarvshæmning | Se venligst Produktresuméet (SmPC) advarsler og forholdsregler |
+| Klassificering af emetogenicitet | Se venligst Produktresuméet (SmPC) advarsler og forholdsregler |
+| Overvågningspunkter | Se venligst Produktresuméet (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Som et oralt antineoplastisk middel bør standardiserede institutionelle håndteringsforsigtighedsregler for cytotoksisk/målrettet onkologisk medicin følges i afventning af SmPC-bekræftelse |
 
 ---
 
-## Safety Considerations
+## Sikkerhedsmæssige overvejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Produktresuméet (SmPC) for sikkerhedsinformationer.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-Mechanistic rationale and early-phase clinical evidence for renal cell carcinoma are present, but a Blocking data gap exists — TFDA/SmPC warnings and contraindications are unavailable, so the candidate cannot pass initial safety screening (S1), and Vandetanib holds no marketing authorisation in Denmark.
+**Begrundelse:**
+Mekanistisk begrundelse og tidlig-fase kliniske bevis for nyrecellekarcinoma foreligger, men der eksisterer en blokerende datahul – TFDA/SmPC-advarsler og kontraindikationer er utilgængelige, så kandidaten kan ikke passere indledende sikkerhedsscreening (S1), og vandetanib har ingen markedsføringstilladelse i Danmark.
 
-**To proceed, the following is needed:**
-- SmPC warnings, contraindications and drug interaction data (currently blocking)
-- Confirmed mechanism of action from DrugBank
-- Danish/EMA marketing authorisation status and any centralised (EMA) licence details
-- Evaluation of a pathway to Danish market entry given the current "Not marketed" status
+**For at fortsætte er følgende nødvendigt:**
+- SmPC-advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket blokerende)
+- Bekræftet virkningsmekanisme fra DrugBank
+- Dansk/EMA markedsføringstilladelsestatus og eventuelle centraliserede (EMA) licensdetaljer
+- Vurdering af en vej til dansk markedsindtræden givet den nuværende status "Ikke markedsført"
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

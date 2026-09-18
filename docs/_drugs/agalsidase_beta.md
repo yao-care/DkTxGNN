@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Agalsidase Beta: From Fabry Disease to Cervical Neuroblastoma
+# Agalsidase Beta: Fra Fabrys sygdom til cervikalt neuroblastom
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Agalsidase beta (Fabrazyme) is a recombinant human α-galactosidase A enzyme used as enzyme replacement therapy (ERT) for Fabry disease, a rare X-linked lysosomal storage disorder causing progressive Gb3 accumulation in vital organs. The TxGNN model predicts it may be effective for **Cervical Neuroblastoma** with a prediction score of 98.37%; however, **no clinical trials or supporting publications** have been identified for this indication. Of significant concern, all top-ranked predictions share near-identical scores and cluster exclusively among head/neck and oral cavity tumours — strongly suggesting a systematic model bias rather than genuine repurposing signal.
+Agalsidase beta (Fabrazyme) er et rekombinant humant α-galactosidase A-enzym, der bruges som enzymerstattningsterapi (ERT) til Fabrys sygdom, en sjælden X-koblet lysosomalt lageringstilstand, der forårsager progressiv Gb3-akkumulering i vitale organer. TxGNN-modellen forudsiger, at det kan være effektivt mod **cervikalt neuroblastom** med en forudsigelsesscore på 98.37 %; dog er **ingen kliniske forsøg eller understøttende publikationer** blevet identificeret for denne indikation. Som en vigtig bekymring deler alle højest-rangerede forudsigelser næsten-identiske scores og klynger udelukkende blandt hoved-/hals- og mundhuletumorer — hvilket kraftigt tyder på en systematisk modelbias snarere end et ægte ombrugssignal.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | Fabry disease (α-galactosidase A deficiency / lysosomal storage disorder) — *based on general pharmaceutical knowledge; official indication data not available in this Evidence Pack* |
-| Predicted New Indication | Cervical Neuroblastoma |
-| TxGNN Prediction Score | 98.37% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Original indikation | Fabrys sygdom (α-galactosidase A-mangel / lysosomalt lageringstilstand) — *baseret på almen farmaceutisk viden; officielle indikationsdata ikke tilgængelige i denne bevissamling* |
+| Forudsagt ny indikation | Cervikalt neuroblastom |
+| TxGNN forudsigelsesscore | 98.37 % |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Agalsidase beta is a recombinant form of human α-galactosidase A, administered intravenously as enzyme replacement therapy. In Fabry disease, inherited deficiency of this lysosomal enzyme causes progressive accumulation of globotriaosylceramide (Gb3) throughout the body — primarily damaging the kidneys, heart, and peripheral nervous system. By supplying functional enzyme, Agalsidase beta reduces Gb3 deposits and slows organ deterioration.
+Agalsidase beta er en rekombinant form af humant α-galactosidase A-enzym, administreret intravenøst som enzymerstattningsterapi. Ved Fabrys sygdom forårsager arvelig mangel på dette lysosomale enzym progressiv akkumulering af globotriaosylceramid (Gb3) i hele kroppen — primært beskadiger det nyrerne, hjertet og det perifere nervesystem. Ved at levere funktionelt enzym reducerer agalsidase beta Gb3-aflejringer og bremser organdegeneration.
 
-Cervical neuroblastoma is a malignant tumour derived from neural crest cells, typically treated with chemotherapy, immunotherapy, and radiation. While scattered research has noted Gb3 overexpression in certain tumour types, there is **no published evidence of Gb3 overexpression specifically in cervical neuroblastoma**. More fundamentally, Agalsidase beta's mechanism is to *degrade* accumulated Gb3 — it does not act as a targeted antineoplastic agent exploiting Gb3 overexpression. As a high-molecular-weight protein therapeutic, it is also unlikely to penetrate a neuroblastoma tumour microenvironment via intravenous administration. There is therefore no clearly articulable mechanistic pathway connecting Agalsidase beta to anti-tumour activity in this indication.
+Cervikalt neuroblastom er en ondartet tumor, der stammer fra neural crest-celler, typisk behandlet med kemoterapie, immunoterapi og stråling. Selvom spredt forskning har bemærket Gb3-overekspression i visse tumortyper, er der **ingen offentliggjort evidens for Gb3-overekspression specifikt ved cervikalt neuroblastom**. Mere fundamentalt er agalsidase betas mekanisme at *nedbryde* akkumuleret Gb3 — det virker ikke som en målrettet antineoplastisk agent, der udnytter Gb3-overekspression. Som et højtmolekylært proteinlægemiddel er det også usandsynligt, at det vil trænge ind i et tumorsmikromiljø ved neuroblastom via intravenøs administration. Der er derfor ingen klart artikulerbar mekanistisk vej, der forbinder agalsidase beta med anti-tumor-aktivitet ved denne indikation.
 
-A critical pattern spans all 10 predictions in this Evidence Pack: every ranked candidate is a head/neck or oral cavity tumour, entries appear in duplicate (ranks 1–2 identical, 3–4 identical, etc.), and prediction scores cluster within a range of less than 0.001 (0.9831–0.9837). This is a textbook signature of **TxGNN cluster bias**, where the model generates spurious predictions based on shared ontological proximity within the knowledge graph rather than true biological plausibility. Model recalibration and validation against an independent benchmark are strongly recommended before drawing any clinical inference from these outputs.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Et kritisk mønster går gennem alle 10 forudsigelser i denne bevissamling: hver rangeret kandidat er en hoved-/hals- eller mundhuletumor, poster vises i duplikater (rank 1–2 identiske, 3–4 identiske osv.), og forudsigelsesscorene klynger inden for et område på mindre end 0.001 (0.9831–0.9837). Dette er et lærebogeksempel på **TxGNN-klyngerbias**, hvor modellen genererer falske forudsigelser baseret på delt ontologisk nærhed inden for vidensgrafen snarere end ægte biologisk rimelighed. Modelrekalibrering og validering mod et uafhængigt benchmarkværktøj anbefales kraftigt før tegning af nogen klinisk slutning fra disse resultater.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Note:** Agalsidase beta is marketed in Europe as Fabrazyme (EMA centralised authorisation). The SmPC is publicly available via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/fabrazyme) and contains full warnings, contraindications, and infusion-related reaction guidance.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN predictions for Agalsidase beta are entirely unsupported by clinical or preclinical evidence (Evidence Level L5 across all ranked indications), and the proposed mechanistic link between an intravenous ERT for a lysosomal storage disorder and head/neck malignancies is biologically implausible. The near-identical prediction scores across five distinct tumour types — each appearing in duplicate — constitute strong evidence of a systematic model artefact that should be addressed before any further evaluation of these candidates.
-
-**To proceed, the following is needed:**
-
-- **Model audit first:** Investigate TxGNN cluster bias for ERT-class macromolecule drugs; if confirmed, these predictions should be filtered out or down-weighted at the pipeline level
-- **MOA data retrieval:** Obtain full mechanism of action and pharmacological profile from DrugBank (DB00103) to enable proper biological plausibility scoring in future runs
-- **Regulatory baseline:** Retrieve the Fabrazyme EMA SmPC for full safety, contraindication, and warning data to complete the S1 safety assessment
-- **Redirect repurposing scope:** If repurposing beyond Fabry disease is of genuine interest for Agalsidase beta, focus future searches on diseases with documented lysosomal dysfunction, sphingolipid dysregulation, or Gb3 accumulation (e.g., certain hypertrophic cardiomyopathies, chronic kidney disease with podocyte involvement) rather than solid tumours
-- **Denmark-specific step:** Confirm whether a centralised EMA marketing authorisation for Fabrazyme could serve as the regulatory basis for an expanded indication application, should future evidence warrant it
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-> ⚠️ **Disclaimer:** This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. Data cutoff: 2026-04-04.
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+> **Bemærkning:** Agalsidase beta er markedsført i Europa som Fabrazyme (centraliseret EMA-godkendelse). SmPC er offentligt tilgængeligt via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/fabrazyme) og indeholder fulde advarsler, kontraindikationer og vejledning til infusionsrelaterede reaktioner.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-forudsigelserne for agalsidase beta er helt ustyrkede af kliniske eller prekliniske beviser (bevisniveau L5 på tværs af alle rangerede indikationer), og den foreslåede mekanistiske forbindelse mellem en intravenøs ERT til et lysosomalt lageringstilstand og hoved-/halskræft er biologisk urimelig. De næsten identiske forudsigelsesscorer på tværs af fem forskellige tumortyper — hver vises i duplikater — udgør stærk evidens for en systematisk modelartefakt, der bør behandles, før nogen yderligere evaluering af disse kandidater.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+- **Modeltilsyn først:** Undersøg TxGNN-klyngerbias for ERT-klasse makromolekyler; hvis det bekræftes, skal disse forudsigelser filtreres ud eller ned-vægtlægges på pipelinieniveauet
+- **MOA-datahentning:** Hent fuldt virkningsmekanisme og farmakologisk profil fra DrugBank (DB00103) for at muliggøre ordentlig biologisk rimeligheds-scoring i fremtidige kørsler
+- **Regulatorisk basislinje:** Hent Fabrazymes EMA SmPC for fulde sikkerhedshensyn, kontraindikationshensyn og advarselsdata for at fuldføre S1-sikkerhedsvurderingen
+- **Omdirigeret ombrugsmål:** Hvis ombrug ud over Fabrys sygdom er af ægte interesse for agalsidase beta, fokuser fremtidige søgninger på sygdomme med dokumenteret lysosomalt dysfunktion, sfingolipiddysregulering eller Gb3-akkumulering (f.eks. visse hypertrofisk kardiomyopatier, kronisk nyresygdom med podicyt-involvering) snarere end solide tumorer
+- **Danmark-specifikt trin:** Bekræft, om en centraliseret EMA-markedsføringsgodkendelse for Fabrazyme kunne tjene som regulatorisk grundlag for en udvidet indikationsansøgning, hvis fremtidigt evidens berettiger det
+
+---
+
+> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er genereret til forskningsreferencebrug alene og udgør ikke medicinsk rådgivning. Alle lægemiddelombrugskandidater kræver klinisk validering før nogen terapeutisk anvendelse. Datastand: 2026-04-04.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

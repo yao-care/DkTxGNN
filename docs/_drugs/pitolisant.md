@@ -29,91 +29,92 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Pitolisant: From Narcolepsy to Insomnia
+# Pitolisant: Fra narkolepsi til søvnløshed
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-> Pitolisant is a selective histamine H3-receptor inverse agonist/antagonist, best documented in the literature for treating excessive daytime sleepiness in **narcolepsy** and residual sleepiness in obstructive sleep apnoea (OSA).
-> The TxGNN model predicts it may be effective for **Insomnia**, but this is supported only by **1 unrelated, withdrawn clinical trial** and **8 publications**, none of which studied insomnia directly.
-> The drug's pharmacological effect is wake-promoting, which is mechanistically opposite to what an insomnia treatment requires — this prediction should be treated as a candidate for review, not as a validated repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Narcolepsy with or without cataplexy (per literature evidence; no Danish licensing record available to confirm) |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Pitolisant er en selektiv histamin H3-receptorinvers agonist/antagonist, bedst dokumenteret i litteraturen for behandling af overdreven dagssomnolens ved **narkolepsi** og resterende somnolens ved obstruktiv søvnapnø (OSA).
+> TxGNN-modellen forudsiger, at det kan være effektivt mod **søvnløshed**, men dette understøttes kun af **1 urelativ, tilbagetrukket klinisk forsøg** og **8 publikationer**, hvoraf ingen specifikt studerede søvnløshed.
+> Lægemidlets farmakologiske virkning er opvækkende, hvilket er mekanistisk modsat det, som en søvnløshedsbehandling kræver — denne forudsigelse bør betragtes som en kandidat til gennemgang, ikke som et valideret omformål-signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in the structured DrugBank field for this evidence pack. Based on the supporting literature, pitolisant is known as a first-in-class, selective histamine H3-receptor inverse agonist/antagonist. By blocking presynaptic H3 autoreceptors, it increases histamine release (and downstream dopamine/acetylcholine signalling) in the brain, producing a **wake-promoting** effect. This mechanism underlies its established use for excessive daytime sleepiness in narcolepsy and, in trial settings, for residual sleepiness in OSA patients on CPAP.
-
-This is precisely why the TxGNN prediction for **Insomnia** should be treated with caution rather than taken at face value. Insomnia treatment requires a **sedative/hypnotic** effect, whereas pitolisant's documented pharmacology drives the opposite (arousal-promoting) direction. The evidence pack itself flags this as a likely ontology-mapping artifact: the "insomnia (disease)" node in the underlying knowledge graph may be too broad and could be capturing sleep-disorder relationships in general (including narcolepsy/EDS), rather than a specific insomnia signal. None of the 8 supporting publications studied insomnia as an endpoint — they cover narcolepsy, OSA-related sleepiness, and general H3-receptor pharmacology.
-
-Given this mechanistic contradiction, the prediction cannot currently be interpreted as clinically reasonable without manual review of how the disease node was mapped. It should not be advanced on the strength of the TxGNN score alone.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Narkolepsi med eller uden katapleksi (ifølge litteraturevidence; ingen dansk licenserings-post til bekræftelse tilgængelig) |
+| Forudsagt ny indikation | Søvnløshed (sygdom) |
+| TxGNN-forudsigelsesscore | 99.71% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Påhold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i det strukturerede DrugBank-felt for denne evidenspakke. Baseret på den understøttende litteratur er pitolisant kendt som et first-in-class, selektivt histamin H3-receptorinvers agonist/antagonist. Ved at blokere præsynaptiske H3-autoreceptorer øger det histaminudskillelsen (og nedstrøms dopamin/acetylcholin-signalering) i hjernen og producerer en **opvækkende** effekt. Denne mekanisme ligger til grund for dets etablerede brug til overdreven dagssomnolens ved narkolepsi og, i forsøgsindstillinger, til resterende somnolens hos OSA-patienter på CPAP.
+
+Dette er præcis hvorfor TxGNN-forudsigelsen for **søvnløshed** bør behandles med forsigtighed snarere end taget for pålydende. Søvnløshedsbehandling kræver en **sedativ/hypnotisk** effekt, hvorimod pitolisants dokumenterede farmakologi virker i den modsatte retning (opvækkende). Selve evidenspakken markerer dette som en sandsynlig ontologi-mapping-artefakt: noden "søvnløshed (sygdom)" i den underliggende videngraf kan være for bred og kunne være ved at fange søvnforstyrrelses-forhold generelt (herunder narkolepsi/EDS) snarere end et specifikt søvnløsheds-signal. Ingen af de 8 understøttende publikationer studerede søvnløshed som et endpoint — de dækker narkolepsi, OSA-relateret somnolens og generel H3-receptorfarmakologi.
+
+Givet denne mekanistiske modsætning kan forudsigelsen for øjeblikket ikke fortolkes som klinisk rimelig uden manuel gennemgang af, hvordan sygdomsnoden blev afbildet. Det bør ikke fremmes på baggrund af TxGNN-scoren alene.
+
+---
+
+## Klinisk forsøgsevidence
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Phase 2 | Withdrawn | 0 | Trial was designed to evaluate pitolisant for **alcohol use disorder**, not insomnia (title truncated in source data as "For A..."). Withdrawn with zero enrollment — no clinical data was generated. Graded "C" relevance: does not support the insomnia indication. |
+| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Fase 2 | Tilbagetrukket | 0 | Forsøget var designet til at evaluere pitolisant til **alkoholmisbrug**, ikke søvnløshed (titel afkortet i kildedata som "For A..."). Tilbagetrukket med nul tilmelding — ingen kliniske data blev genereret. Klassificeret "C" relevans: understøtter ikke søvnløshedsindikationen. |
 
-*No clinical trial in this evidence pack directly evaluated pitolisant for insomnia.*
+*Intet klinisk forsøg i denne evidenspakke evaluerede direkte pitolisant til søvnløshed.*
 
 ---
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | The Lancet. Neurology | Phase 3 RCT confirming safety/efficacy of pitolisant in children ≥6 with narcolepsy with/without cataplexy — not an insomnia study. |
-| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | RCT of pitolisant for residual excessive daytime sleepiness in OSA patients on CPAP — wake-promoting effect, opposite direction to insomnia treatment. |
-| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | RCT of pitolisant for daytime sleepiness in OSA patients refusing CPAP — again a wake-promoting indication. |
-| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Cohort | Revista de neurología | Real-life cohort (WAKE study) of pitolisant in treatment-refractory type 1 narcolepsy with cataplexy. |
-| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Review | Current Neuropharmacology | Review of histaminergic system changes in neuropsychiatric disorders; notes pitolisant is used for narcolepsy sleepiness, in contrast to H1-antagonists (e.g., doxepin) used for insomnia. |
-| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Review | Handbook of Clinical Neurology | General review of histamine receptor pharmacology (H1–H4); background mechanism reference only. |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Review | Drug Design, Development and Therapy | Profile of pitolisant's development and therapeutic role, confirming its approved use is narcolepsy, not insomnia. |
-| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Review | Clinical Neuropharmacology | Early review describing pitolisant as a stimulant for narcolepsy-cataplexy in teenagers with refractory sleepiness. |
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | The Lancet. Neurology | Fase 3 RCT bekræftende sikkerhed/effektivitet af pitolisant hos børn ≥6 år med narkolepsi med/uden katapleksi — ikke et søvnløsheds-studie. |
+| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | RCT af pitolisant til resterende overdreven dagssomnolens hos OSA-patienter på CPAP — opvækkende effekt, modsat retning til søvnløshedsbehandling. |
+| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | RCT af pitolisant til dagssomnolens hos OSA-patienter, der afviser CPAP — igen en opvækkende indikation. |
+| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Kohorte | Revista de neurología | Real-life kohorte (WAKE-studie) af pitolisant i behandlingsresistent type 1 narkolepsi med katapleksi. |
+| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Oversigt | Current Neuropharmacology | Oversigt over histaminerg-systemændringer i neuropsykiatriske lidelser; bemærker at pitolisant bruges til narkolepsi-somnolens, i modsætning til H1-antagonister (f.eks. doxepin) brugt til søvnløshed. |
+| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Oversigt | Handbook of Clinical Neurology | Generel oversigt over histamin-receptorfarmakologi (H1–H4); baggrund mekanisme-reference kun. |
+| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Oversigt | Drug Design, Development and Therapy | Profil af pitolisants udvikling og terapeutisk rolle, bekræftende at dets godkendte brug er narkolepsi, ikke søvnløshed. |
+| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Oversigt | Clinical Neuropharmacology | Tidlig oversigt, der beskriver pitolisant som et stimulans til narkolepsi-katapleksi hos teenagere med refraktær somnolens. |
 
-*None of the above literature studied pitolisant specifically for insomnia; all directly relevant clinical studies concern narcolepsy or OSA-related excessive daytime sleepiness — the opposite clinical direction.*
-
----
-
-## Denmark Market Information
-
-Pitolisant currently holds **no marketing authorisation in Denmark** (market status: Not marketed; 0 authorisations on record). No product, dosage form, or approved-indication data is available from Danish sources in this evidence pack.
+*Ingen af ovenstående litteratur studerede pitolisant specifikt til søvnløshed; alle direkte relevante kliniske studier vedrører narkolepsi eller OSA-relateret overdreven dagssomnolens — den modsatte kliniske retning.*
 
 ---
 
-## Safety Considerations
+## Markedsinformation om Danmark
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No structured warnings, contraindications, or drug-interaction data were available in this evidence pack (DDI query returned no results).
+Pitolisant har for øjeblikket **ingen markedsføringstilladelse i Danmark** (markedsstatus: Ikke markedsført; 0 tilladelser på rekord). Ingen produkt-, dosisform- eller godkendt-indikations-data er tilgængelig fra danske kilder i denne evidenspakke.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Ingen strukturerede advarsler, kontraindikationer eller lægemiddelinteraktions-data var tilgængelig i denne evidenspakke (DDI-forespørgsel returnerede ingen resultater).
 
-**Rationale:**
-- The predicted indication (insomnia) is mechanistically inconsistent with pitolisant's known wake-promoting pharmacology, and no clinical trial or publication in the evidence pack actually studied insomnia as an endpoint. The single associated trial (NCT02800083) targeted alcohol use disorder and was withdrawn without enrollment. This pattern is consistent with an overly broad disease-node mapping in the underlying knowledge graph rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Manual review/curation of the "insomnia (disease)" node mapping used by the TxGNN model, to confirm whether it inadvertently aggregates narcolepsy/EDS-related relationships
-- Confirmed mechanism of action (MOA) documentation from DrugBank or the SmPC, rather than relying solely on literature inference
-- Danish/EU licensing and SmPC data (warnings, contraindications, interactions), since pitolisant is not currently marketed in Denmark
-- If the mechanistic conflict cannot be resolved, this candidate should be deprioritized in favour of the lower-confidence but mechanistically plausible ADHD signal (TxGNN score 99.36%), which is currently only supported by preclinical/mechanistic literature and warrants a Research Question stage rather than further insomnia-focused review
+## Konklusion og næste trin
+
+**Beslutning: Påhold**
+
+**Begrundelse:**
+- Den forudsagte indikation (søvnløshed) strider mekanistisk mod pitolisants kendte opvækkende farmakologi, og intet klinisk forsøg eller publikation i evidenspakken studerede faktisk søvnløshed som et endpoint. Det enkelte tilknyttede forsøg (NCT02800083) havde fokus på alkoholmisbrug og blev tilbagetrukket uden tilmelding. Dette mønster er i overensstemmelse med en for bred sygdom-node-afbildning i den underliggende videngraf snarere end et ægte omformål-signal.
+
+**For at fortsætte er følgende nødvendigt:**
+- Manuel gennemgang/kuratoring af den "søvnløshed (sygdom)" node-afbildning, som TxGNN-modellen bruger, for at bekræfte, om den utilsigtet aggregerer narkolepsi/EDS-relaterede forhold
+- Bekræftet virkningsmekanisme (MOA) dokumentation fra DrugBank eller SmPC'en, snarere end at stole udelukkende på litteraturinferens
+- Dansk/EU-licenserings- og SmPC-data (advarsler, kontraindikationer, interaktioner), da pitolisant for øjeblikket ikke er markedsført i Danmark
+- Hvis den mekanistiske konflikt ikke kan løses, bør denne kandidat deprioriteres til fordel for det mindre sikre, men mekanistisk plausible ADHD-signal (TxGNN-score 99.36%), som for øjeblikket kun understøttes af præklinisk/mekanistisk litteratur og berettiger til en Forskningsspørgsmål-fase snarere end yderligere søvnløshed-fokuseret gennemgang
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

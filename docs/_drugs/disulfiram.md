@@ -29,105 +29,106 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Disulfiram (DB00822): Drug Repurposing Evaluation — Incomplete Data Package
+# Disulfiram (DB00822): Evaluering af lægemiddel-genudnyttelse — Ufuldstændig datapakke
 
-> ⚠️ **Notice:** This Evidence Pack contains critical data gaps. The TxGNN model returned **no predicted indications**, and regulatory, safety, and mechanism-of-action data are absent from the package. This report documents current findings and specifies the remediation steps required before a full repurposing evaluation can be conducted.
-
----
-
-## One-Sentence Summary
-
-Disulfiram (DrugBank: DB00822) is a well-established aldehyde dehydrogenase (ALDH) inhibitor, classically used for alcohol use disorder (aversion therapy).
-However, the current Evidence Pack contains **no TxGNN-predicted indications**, **no approved product registrations in Denmark**, and **no machine-readable safety data**, making a standard repurposing evaluation impossible at this stage.
-A **Hold** decision is recommended until the blocking data gaps are resolved.
+> ⚠️ **Meddelelse:** Dette evidenspakke indeholder kritiske datahiater. TxGNN-modellen returnerede **ingen forudsagte indikationer**, og regulatoriske, sikkerhedsmæssige og virkningsmekanisme-data er fraværende fra pakken. Denne rapport dokumenterer aktuelle resultater og specificerer de afhjælpningstrin, der er nødvendige, før en fuldstændig evaluering af lægemiddel-genudnyttelse kan udføres.
 
 ---
 
-## Quick Overview
+## Sammenfatning i én sætning
 
-| Item | Content |
-|------|---------|
-| Original Indication | Alcohol use disorder (aversion therapy) — from general pharmacological knowledge; no structured indication data in this package |
-| Predicted New Indication | **Not available** — TxGNN returned no predictions for this candidate |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | **L5** (model prediction only — and even this is absent; effectively unranked) |
-| Denmark Market Status | **Not marketed** |
-| Number of Marketing Authorisations | **0** |
-| Recommended Decision | **Hold** |
+Disulfiram (DrugBank: DB00822) er en velkendt aldehyd dehydrogenase (ALDH)-hæmmer, klassisk anvendt til alkoholmisbrug (aversionsbehandling).
+Dog indeholder det aktuelle evidenspakke **ingen TxGNN-forudsagte indikationer**, **ingen godkendte produktregistreringer i Danmark**, og **ingen maskinlæsbare sikkerhedsdata**, hvilket gør en standardevaluering af lægemiddel-genudnyttelse umulig på nuværende tidspunkt.
+En **Suspender**-beslutning anbefales, indtil de blokerende datahiater er løst.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-No predicted indication is available in this Evidence Pack, so no mechanistic bridge analysis can be performed at this time.
-
-From established pharmacological knowledge, Disulfiram irreversibly inhibits **aldehyde dehydrogenase (ALDH)**, causing accumulation of acetaldehyde when ethanol is ingested, which produces the disulfiram-ethanol reaction used therapeutically in alcohol aversion therapy. Outside this classical role, ALDH inhibition and secondary copper-chelating activity have attracted research interest in oncology (particularly glioblastoma and breast cancer) and infectious disease contexts — however, none of this is reflected in the current Evidence Pack, and **no structured MOA data (DB002 — High severity)** is available to formally support such reasoning here.
-
-Once the DrugBank API query is completed and `original_moa` is populated, a mechanistic analysis can be generated.
-
----
-
-## Clinical Trial Evidence
-
-No predicted indication is present in this Evidence Pack; therefore, no indication-specific clinical trial evidence can be extracted or tabulated.
-
-Currently no related clinical trials registered under a TxGNN-predicted indication.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Alkoholmisbrug (aversionsbehandling) — fra generel farmakologisk viden; ingen strukturerede indikationsdata i denne pakke |
+| Forudsagt ny indikation | **Ikke tilgængelig** — TxGNN returnerede ingen forudsigelser for denne kandidat |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Evidensniveau | **L5** (kun modelforudsigelse — og selv denne er fraværende; effektivt urangeret) |
+| Markedsstatus i Danmark | **Ikke markedsført** |
+| Antal godkendelser til markedsføring | **0** |
+| Anbefalet beslutning | **Suspender** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available under a TxGNN-predicted indication.
+Ingen forudsagt indikation er tilgængelig i dette evidenspakke, så ingen mekanistisk forbindelses-analyse kan udføres på nuværende tidspunkt.
+
+Fra etableret farmakologisk viden hæmmer Disulfiram irreversibelt **aldehyd dehydrogenase (ALDH)**, hvilket forårsager ophobning af acetaldehyd, når ethanol indtages, som fremkaldes disulfiram-ethanol-reaktionen, der bruges terapeutisk ved alkoholaversionsbehandling. Uden for denne klassiske rolle har ALDH-hæmning og sekundær kobberkelat-aktivitet tiltrukket forskningsmæssig interesse inden for onkologi (særligt glioblastom og brystkræft) og infektionssygdoms-kontekster — imidlertid afspejles ingen af dette i det aktuelle evidenspakke, og **ingen strukturerede virkningsmekanisme-data (DB002 — høj alvorlighed)** er tilgængelige for formelt at understøtte sådan begrundelse her.
+
+Når DrugBank API-forespørgslen er fuldført og `original_moa` er udfyldt, kan en mekanistisk analyse genereres.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsevidans
 
-Disulfiram has **no marketing authorisations** registered in Denmark at the time of this data pull (2026-04-05).
+Ingen forudsagt indikation er til stede i dette evidenspakke; derfor kan ingen indikations-specifik klinisk forsøgsevidans ekstraheres eller tabuleres.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+I øjeblikket ingen relaterede kliniske forsøg registreret under en TxGNN-forudsagt indikation.
+
+---
+
+## Litteraturevidans
+
+I øjeblikket ingen relateret litteratur tilgængelig under en TxGNN-forudsagt indikation.
+
+---
+
+## Markedsinformationer for Danmark
+
+Disulfiram har **ingen godkendelser til markedsføring** registreret i Danmark på tidspunktet for denne dataudtræk (2026-04-05).
+
+| Godkendelsesnummer til markedsføring | Produktnavn | Doseringform | Godkendt indikation |
 |-------------------------------|-------------|-------------|-------------------|
-| — | — | — | No authorisations on record |
+| — | — | — | Ingen godkendelser på registrering |
 
-> **Note:** Disulfiram (brand name *Antabuse*) is registered in several EU member states and has EMA precedent. A separate manual search of the Danish Medicines Agency (Lægemiddelstyrelsen) product register and the EMA centralised database is recommended to confirm whether any parallel imports or exemption-based supplies exist.
-
----
-
-## Safety Considerations
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-All safety fields in this Evidence Pack carry blocking data gaps:
-
-- **Key Warnings**: Not available (DG001 — Blocking severity). Source: Danish SmPC / Lægemiddelstyrelsen product monograph.
-- **Contraindications**: Not available (DG001 — Blocking severity).
-- **Drug–Drug Interactions**: Query returned `not_found` (0 interactions). This likely reflects a query failure rather than the absence of interactions — Disulfiram is known to interact with warfarin, phenytoin, metronidazole, and several other agents.
-
-Until DG001 is resolved, **no safety-based prescribing decisions should be made on the basis of this report**.
+> **Bemærk:** Disulfiram (mærkenavn *Antabuse*) er registreret i flere EU-medlemsstater og har EMA-præcedens. En separat manuel søgning i Lægemiddelstyrelsens produktregister og EMA's centraliserede database anbefales for at bekræfte, om der eksisterer nogen parallelle imposter eller dispensations-baserede forsyninger.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsmæssige overvejelser
 
-**Decision: Hold**
+> Se venligst det godkendte produktresume (SmPC) for sikkerhedsinformationer.
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — the TxGNN prediction pipeline returned no candidate indications, and both the regulatory and safety data layers are absent. There is no actionable repurposing signal to evaluate at this stage.
+Alle sikkerhedsfelter i dette evidenspakke bærer blokerande datahiater:
 
-**To proceed, the following is needed:**
+- **Vigtige advarsler**: Ikke tilgængelig (DG001 — blokeringssværhed). Kilde: Dansk SmPC / Lægemiddelstyrelsens produktmonografi.
+- **Kontraindikationer**: Ikke tilgængelig (DG001 — blokeringssværhed).
+- **Lægemiddel–lægemiddel-interaktioner**: Forespørgsel returnerede `not_found` (0 interaktioner). Dette afspejler sandsynligvis en forespørgselsfejl snarere end fraværet af interaktioner — Disulfiram er kendt for at interagere med warfarin, phenytoin, metronidazol og flere andre midler.
 
-1. **[DG001 — Blocking]** Retrieve the Danish SmPC (or EMA SmPC if applicable) for Disulfiram; parse warnings, contraindications, and special precautions. *Source: Lægemiddelstyrelsen / EMA product monograph PDF.*
-2. **[DG002 — High]** Query DrugBank API for DB00822 to populate `original_moa`, pharmacodynamics, and toxicity fields. *Source: DrugBank `https://go.drugbank.com/drugs/DB00822`.*
-3. **[Prediction Gap — Critical]** Investigate why `predicted_indications` is empty:
-   - Confirm that Disulfiram (DB00822) is present in the TxGNN knowledge graph node list (`data/node.csv`).
-   - Re-run `scripts/run_kg_prediction.py` with explicit DrugBank ID lookup to verify pipeline completion.
-   - If the drug is absent from the KG, add it as a seed node and re-predict.
-4. **[DDI Gap — High]** Re-run the DDI query with alternative drug name variants (e.g., "disulfiram", "tetraethylthiuram disulfide") and confirm the `not_found` status is not a normalisation failure.
-5. **[Market Status]** Cross-check with Lægemiddelstyrelsen's online product register and EMA's EPAR database to confirm zero-authorisation status and identify any compassionate-use or named-patient supply pathways currently active in Denmark.
+Indtil DG001 er løst, **bør der ikke træffes sikkerhedsbaserede ordinationsbeslutninger på grundlag af denne rapport**.
 
 ---
 
-*This report was generated from Evidence Pack `TW-DB00822-multi` (v4, data cutoff 2026-04-05). Results are for research reference only and do not constitute medical advice. All repurposing candidates require clinical validation before application.*
+## Konklusion og næste trin
+
+**Beslutning: Suspender**
+
+**Begrundelse:**
+Evidenspakken er strukturelt ufuldstændig — TxGNN-forudsigelsespipelineen returnerede ingen kandidatindikationer, og både de regulatoriske og sikkerhedsmæssige datalag er fraværende. Der er ingen handlingsdygtig genudnyttelses-signal at evaluere på nuværende tidspunkt.
+
+**For at fortsætte kræves følgende:**
+
+1. **[DG001 — Blokering]** Hent det danske SmPC (eller EMA SmPC hvis relevant) for Disulfiram; gennemgå advarsler, kontraindikationer og særlige forholdsregler. *Kilde: Lægemiddelstyrelsen / EMA produktmonografi PDF.*
+2. **[DG002 — Høj]** Forespørg DrugBank API for DB00822 for at udfylde `original_moa`, farmakodynamik og toksicitetsfelter. *Kilde: DrugBank `https://go.drugbank.com/drugs/DB00822`.*
+3. **[Forudsigelseshiatus — Kritisk]** Undersøg hvorfor `predicted_indications` er tom:
+   - Bekræft at Disulfiram (DB00822) er til stede i TxGNN-videnskabsgrafen-nodelisten (`data/node.csv`).
+   - Kør `scripts/run_kg_prediction.py` igen med eksplicit DrugBank ID-søgning for at bekræfte pipeline-færdiggørelse.
+   - Hvis lægemidlet mangler fra KG'en, tilføj det som en seednode og forudsig igen.
+4. **[DDI-hiatus — Høj]** Kør DDI-forespørgslen igen med alternative lægemiddelname-varianter (f.eks. "disulfiram", "tetraethylthiuram disulfide") og bekræft at `not_found`-status ikke er en normaliserings-fejl.
+5. **[Markedsstatus]** Krydstjek med Lægemiddelstyrelsens online produktregister og EMA's EPAR-database for at bekræfte nul-godkendelsesstatus og identificere eventuelle compassionate-use- eller navngiven-patient-forsyningsveje, der i øjeblikket er aktive i Danmark.
+
+---
+
+*Denne rapport blev genereret fra evidenspakke `TW-DB00822-multi` (v4, datakutoff 2026-04-05). Resultaterne er udelukkende til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Alle kandidater til genudnyttelse kræver klinisk validering før anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

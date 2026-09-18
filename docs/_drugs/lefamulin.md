@@ -29,60 +29,60 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lefamulin: From Bacterial Infection to Diffuse Cutaneous Leishmaniasis
+# Lefamulin: Fra bakteriel infektion til diffus kutaneus leishmaniasis
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Lefamulin is a pleuromutilin-class antibiotic; the evidence pack does not document its specific original approved indication, and detailed mechanism-of-action data is also unavailable.
-The TxGNN model predicts it may be effective for **diffuse cutaneous leishmaniasis**, but this is currently a **pure model prediction with zero supporting clinical trials or publications**, and the underlying evidence pack itself notes no known mechanistic link between the drug and this parasitic disease.
+Lefamulin er et pleuromutilin-klasse antibiotikum; evidenspakken dokumenterer ikke dets specifikke oprindelige godkendte indikation, og detaljerede data for virkningsmekanisme er også utilgængelige. TxGNN-modellen forudsiger, at det kan være effektivt til **diffus kutaneus leishmaniasis**, men dette er i øjeblikket en **ren modelforudsigelse uden nogen understøttende kliniske forsøg eller publikationer**, og evidenspakken selv noterer ingen kendt mekanistisk forbindelse mellem lægemidlet og denne parasitisk sygdom.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (only DrugBank input received; original indication field empty) |
-| Predicted New Indication | Diffuse Cutaneous Leishmaniasis |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke dokumenteret i evidenspakken (kun DrugBank-input modtaget; oprindeligt indikationsfelt tomt) |
+| Forudsagt ny indikation | Diffus kutaneus leishmaniasis |
+| TxGNN-forudsigelsesscore | 99.24% |
+| Bevisniveau | L5 (ren modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available for the original indication. Based on what is known, Lefamulin is a **pleuromutilin-class antibiotic** that inhibits bacterial ribosomal 50S subunit protein synthesis — this is a well-established antibacterial mechanism, not related to antiparasitic activity.
+I øjeblikket er detaljerede data for virkningsmekanisme ikke tilgængelige for den oprindelige indikation. Baseret på hvad der er kendt, er Lefamulin et **pleuromutilin-klasse antibiotikum**, der hæmmer bakteriel ribosomalt 50S-subunit-proteinsyntese — dette er en veletableret antibakteriell mekanisme, ikke relateret til antiparasitisk aktivitet.
 
-The evidence pack's own mechanistic assessment for this candidate is explicit: there is **no known direct mechanistic relationship** between Lefamulin's ribosomal-inhibition activity and the parasitology of *Leishmania* infection. The prediction reflects a knowledge-graph link identified by TxGNN, rather than a biologically grounded hypothesis.
+Evidenspakkens egen mekanistiske vurdering for denne kandidat er eksplicit: der er **ingen kendt direkte mekanistisk forbindelse** mellem Lefamulins ribosomale-hæmmingsaktivitet og parasitologien af *Leishmania*-infektion. Forudsigelsen afspejler et videngraf-link identificeret af TxGNN, snarere end en biologisk baseret hypotese.
 
-Given the combination of a high TxGNN score with an explicitly stated absence of mechanistic plausibility, zero clinical trials, and zero literature, this candidate should be interpreted as a low-confidence, exploratory signal only — not as a scientifically supported repurposing hypothesis at this time.
+I betragtning af kombinationen af en høj TxGNN-score med en eksplicit erklæret mangel på mekanistisk rimelighed, nul kliniske forsøg og nul litteratur, bør denne kandidat tolkes som et lavt-tillids-eksplorativt signal alene — ikke som en videnskabeligt understøttet genbrug-hypotese på nuværende tidspunkt.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation i Danmark
 
-Lefamulin is currently **not marketed** in Denmark, and no marketing authorisations (national or centralised/EMA) are on file in this evidence pack.
+Lefamulin er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er i denne evidenspakke.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug interaction data was found for Lefamulin in the queried database (query status: not found).
+Se venligst den godkendte Produktkarakteristika-oversigt (SmPC) for sikkerhedsinformation. Ingen lægemiddelinteraktionsdata blev fundet for Lefamulin i den forespurgte database (forespørgselsstatus: ikke fundet).
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score, with no clinical trials, no literature, and the evidence pack's own rationale confirms no known mechanistic link to the predicted indication. The drug is also not currently marketed in Denmark. This does not meet the threshold to advance past initial screening.
+**Begrundelse:**
+Forudsigelsen understøttes kun af en TxGNN-modelscore, uden kliniske forsøg, uden litteratur, og evidenspakkens egen begrundelse bekræfter ingen kendt mekanistisk forbindelse til den forudsagte indikation. Lægemidlet er heller ikke i øjeblikket markedsført i Danmark. Dette opfylder ikke tærsklen for at gå videre forbi indledende screening.
 
-**To proceed, the following is needed:**
-- Product label (SmPC) warnings and contraindications — currently missing, and blocking entry into the initial safety assessment stage (S1)
-- Verified mechanism of action (MOA) data, to properly assess mechanistic relevance to any new indication
-- Independent pharmacological or preclinical rationale connecting Lefamulin to antiparasitic activity, before further evidence collection is warranted
+**For at fortsætte, er følgende nødvendigt:**
+- Produktetiket (SmPC) advarsler og kontraindikationer — i øjeblikket manglende og blokerer indgang til den indledende sikkerhedsvurderingsfase (S1)
+- Verificeret virkningsmekanisme (MOA) data, til korrekt at vurdere mekanistisk relevans til enhver ny indikation
+- Uafhængig farmakologisk eller præ-klinisk begrundelse, der forbinder Lefamulin til antiparasitisk aktivitet, før yderligere evidensindsamling er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

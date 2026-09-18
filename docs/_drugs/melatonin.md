@@ -29,98 +29,99 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Melatonin: Drug Repurposing Evaluation — No TxGNN Prediction Data Available
+# Melatonin: Evaluering af medicingenforbrug — Ingen TxGNN-forudsigelsesdata tilgængelige
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Melatonin (DB01065) is an endogenous neurohormone primarily associated with circadian rhythm regulation and sleep-wake cycle management. The current Evidence Pack contains **no TxGNN predicted indications** and carries two unresolved data gaps — one of which is classified as Blocking — meaning a formal repurposing evaluation cannot be completed at this stage. This report documents the current state of the evidence and outlines the steps needed before any repurposing decision can be made.
+Melatonin (DB01065) er et endogent neurohormom, der primært er forbundet med regulering af circadiske rytmer og søvn-vågen-cyclus. Den aktuelle Evidenspakke indeholder **ingen TxGNN-forudsagte indikationer** og har to uløste datakløfter — hvoraf den ene er klassificeret som Blocking — hvilket betyder, at en formel evalueringen af medicingenforbrug ikke kan gennemføres på nuværende tidspunkt. Denne rapport dokumenterer den aktuelle status for beviser og skitserer de trin, der er nødvendige før nogen beslutning om medicingenforbrug kan træffes.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not specified in Evidence Pack |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — pipeline has not produced output |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | Ikke specificeret i Evidenspakke |
+| Forudsagt ny indikation | Ingen forudsigelser tilgængelige |
+| TxGNN-forudsigelsesscore | N/A |
+| Bevisniveau | N/A — pipeline har ikke produceret output |
+| Danmark markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Vent** |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse fornuftig?
 
-No TxGNN prediction has been generated for this drug in the current Evidence Pack, so no mechanistic rationale for a new indication can be formally presented.
+Der er ikke genereret nogen TxGNN-forudsigelse for dette lægemiddel i den aktuelle Evidenspakke, så ingen mekanistisk begrundelse for en ny indikation kan formelt præsenteres.
 
-For general context: Melatonin (N-acetyl-5-methoxytryptamine) is an endogenous hormone synthesised primarily by the pineal gland. Based on publicly available pharmacological knowledge, it acts on G protein-coupled melatonin receptors MT1 and MT2, mediating entrainment of the circadian rhythm and sleep-wake transitions. It is also recognised as having antioxidant properties. The Evidence Pack, however, flags the mechanism of action as a **High-severity data gap** (DG002), meaning formal MOA documentation has not yet been retrieved from DrugBank.
+For almen kontekst: Melatonin (N-acetyl-5-methoxytryptamin) er et endogent hormon, der primært syntetiseres af epifysen. Baseret på offentligt tilgængelig farmakologisk viden virker det på G-proteinkoblede melatoninreceptorer MT1 og MT2 og medierer tilpasning af circadiske rytmer og søvn-vågen-overgange. Det anerkendes også for at have antioxidative egenskaber. Evidenspakken markerer mekanismen dog som en **datakløft med høj alvorlighed** (DG002), hvilket betyder, at formel MOA-dokumentation endnu ikke er hentet fra DrugBank.
 
-Until the TxGNN prediction pipeline is re-run and produces candidate indications, this section will remain incomplete.
-
----
-
-## Clinical Trial Evidence
-
-No TxGNN prediction has been generated for this drug. No disease-specific clinical trial evidence is presented in this Evidence Pack.
-
-> Currently no related clinical trials registered in the Evidence Pack.
+Indtil TxGNN-pipeline køres igen og producerer kandidatindikationer, vil denne sektion forblive ufuldstændig.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-No TxGNN prediction has been generated for this drug. No disease-specific literature evidence is presented in this Evidence Pack.
+Der er ikke genereret nogen TxGNN-forudsigelse for dette lægemiddel. Der er ikke præsenteret sygdomsspecifikke kliniske forsøgsbevis i denne Evidenspakke.
 
-> Currently no related literature available in the Evidence Pack.
-
----
-
-## Denmark Market Information
-
-Melatonin is not currently recorded as marketed in Denmark within this Evidence Pack. No marketing authorisations from the Danish Medicines Agency (Laegemiddelstyrelsen) are on file.
-
-| Item | Detail |
-|------|--------|
-| Market Status | Not marketed in Denmark (per Evidence Pack) |
-| Total Authorisations | 0 |
-
-> **Note for reviewers:** Melatonin is authorised in the European Union under the brand name **Circadin® 2 mg prolonged-release tablet** (EMA centralised procedure) for the short-term treatment of primary insomnia in patients aged 55 years and over. This authorisation does not appear in the current Evidence Pack, which may indicate a data collection gap rather than a true absence of authorisation. Verification against the Laegemiddelstyrelsen product database is recommended before concluding that melatonin is entirely unregistered in Denmark.
+> I øjeblikket ingen relaterede kliniske forsøg registreret i Evidenspakke.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-All safety fields in this Evidence Pack are flagged as data gaps and cannot be reported.
+Der er ikke genereret nogen TxGNN-forudsigelse for dette lægemiddel. Der er ikke præsenteret sygdomsspecifikke litteraturbevis i denne Evidenspakke.
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) — for example, the EMA-authorised Circadin SmPC — for current safety information, including warnings, contraindications, and drug interactions.
-
-**Outstanding data gaps preventing safety assessment:**
-
-| Gap ID | Missing Item | Severity | Impact | Suggested Remediation |
-|--------|-------------|----------|--------|----------------------|
-| DG001 | Regulatory warnings and contraindications | **Blocking** | Cannot complete safety pre-screening (S1 gate) | Download and parse SmPC PDF from Laegemiddelstyrelsen or EMA website |
-| DG002 | Mechanism of action (MOA) | High | Mechanistic link analysis cannot be performed | Query DrugBank API for DB01065 |
+> I øjeblikket ingen relateret litteratur tilgængelig i Evidenspakke.
 
 ---
 
-## Conclusion and Next Steps
+## Danmarks markedsinformation
 
-**Decision: Hold**
+Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske Lægemiddelstyrelse på fil.
 
-**Rationale:**
-The TxGNN pipeline has not produced any predicted indications for melatonin in this Evidence Pack version (v4, data cut-off 2026-04-04), and a Blocking data gap (DG001 — missing regulatory warnings and contraindications) prevents even preliminary safety screening. No repurposing evaluation can proceed until these issues are resolved.
+| Emne | Detalje |
+|------|---------|
+| Markedsstatus | Ikke markedsført i Danmark (ifølge Evidenspakke) |
+| Samlede tilladelser | 0 |
 
-**To proceed, the following is needed:**
+> **Bemærkning for anmeldere:** Melatonin er godkendt i Den Europæiske Union under mærkenavnet **Circadin® 2 mg depoteret tablet** (EMA centraliseret procedure) til korttidsbehandling af primær søvnløshed hos patienter på 55 år og derover. Denne godkendelse fremgår ikke af den aktuelle Evidenspakke, hvilket kan indikere en dataindsamlingskløft snarere end en sand fravær af godkendelse. Verifikation mod Det Danske Lægemiddelstyrelses produktdatabase anbefales, før man konkluderer, at melatonin er helt uregistreret i Danmark.
 
-- **[Blocking]** Resolve DG001: Retrieve current SmPC warnings and contraindications from Laegemiddelstyrelsen or the EMA product database
-- **[High]** Resolve DG002: Query DrugBank API for DB01065 to obtain formal MOA documentation
-- **Re-run the TxGNN prediction pipeline** after data gaps are resolved to generate candidate indications
-- **Verify Denmark registration status**: Cross-check whether Circadin® or any melatonin product currently holds a national or centralised authorisation valid in Denmark, as the 0-licence count in this Evidence Pack may reflect a data collection issue
-- **Update the Evidence Pack** to version v5 once the above steps are completed, and re-submit for formal evaluation
+---
+
+## Sikkerhedsovervejelser
+
+Alle sikkerhedsfelter i denne Evidenspakke er markeret som datakløfter og kan ikke rapporteres.
+
+> Se venligst den godkendt produktinformations-sammenfattelse (SmPC) — for eksempel den EMA-godkendt Circadin SmPC — for aktuelle sikkerhedsoplysninger, herunder advarsler, kontraindikationer og lægemiddelinteraktioner.
+
+**Udestående datakløfter, der forhindrer sikkerhedsvurdering:**
+
+| Datakløft-ID | Manglende emne | Alvorlighed | Indflydelse | Foreslået afhjælpning |
+|--------|---------------|-----------|-----------|----------------------|
+| DG001 | Regulatoriske advarsler og kontraindikationer | **Blokerend** | Kan ikke gennemføre sikkerhedsforscreening (S1 gate) | Download og parse SmPC PDF fra Det Danske Lægemiddelstyrelse eller EMA-websted |
+| DG002 | Mekanisme for virkning (MOA) | Høj | Mekanistisk linkanalyse kan ikke udføres | Forespørg DrugBank API for DB01065 |
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+TxGNN-pipeline har ikke produceret nogen forudsagte indikationer for melatonin i denne Evidenspakke-version (v4, datasnit 2026-04-04), og en Blocking datakløft (DG001 — manglende regulatoriske advarsler og kontraindikationer) forhindrer selv foreløbig sikkerhedsscreening. Ingen evalueringen af medicingenforbrug kan fortsætte, før disse problemer løses.
+
+**For at fortsætte, følgende er nødvendig:**
+
+- **[Blokerend]** Løs DG001: Hent aktuelle SmPC advarsler og kontraindikationer fra Det Danske Lægemiddelstyrelse eller EMA produktdatabasen
+- **[Høj]** Løs DG002: Forespørg DrugBank API for DB01065 for at få formel MOA-dokumentation
+- **Kør TxGNN-pipeline igen** efter datakløfter er løst for at generere kandidatindikationer
+- **Verificer Danmarks registreringsstatus**: Dobbelttjek, om Circadin® eller nogen melatoninprodukt i øjeblikket har en national eller centraliseret godkendelse, der er gyldig i Danmark, da 0-licensantal i denne Evidenspakke kan afspejle et dataindsamlingsproblem
+- **Opdater Evidenspakken** til version v5, når de ovenstående trin er fuldført, og genindlæg til formel evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

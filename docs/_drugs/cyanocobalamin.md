@@ -29,108 +29,109 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
+# Cyanocobalamin: Fra vitamin B12-mangel til biotinmetabolisk sygdom
 
-## One-Sentence Summary
+## Et-linjers sammenfatning
 
-Cyanocobalamin (Vitamin B12) is an essential micronutrient cofactor classically used to treat vitamin B12 deficiency states, including pernicious anaemia and megaloblastic anaemia.
-The TxGNN model predicts it may have a role in **Biotin Metabolic Disease** — a group of rare inherited disorders affecting biotin-dependent enzymatic pathways — with a prediction score of **99.60%**.
-Current supporting evidence comprises **15 clinical trials** and **20 publications**, though none directly investigates cyanocobalamin as a primary intervention in biotin metabolic disease; evidence is largely mechanistic and indirect (Level L4).
+Cyanocobalamin (vitamin B12) er et essentialt mikronæringsstof-kofaktor, der klassisk bruges til at behandle vitamin B12-mangeltilstande, herunder ondartet anæmi og megaloblastisk anæmi.
+TxGNN-modellen forudsiger, at det kan have en rolle i **Biotinmetabolisk sygdom** — en gruppe sjældne arvelige forstyrrelser, der påvirker biotinafhængige enzomatiske veje — med en forudsigelsesscore på **99.60%**.
+Aktuelt støttende bevis omfatter **15 kliniske forsøg** og **20 publikationer**, selvom ingen direkte undersøger cyanocobalamin som primær intervention i biotinmetabolisk sygdom; beviset er i stor udstrækning mekanistisk og indirekte (Niveau L4).
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Vitamin B12 deficiency / megaloblastic anaemia (universally recognised use; no Danish authorisations on record) |
-| Predicted New Indication | Biotin Metabolic Disease |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 (preclinical/mechanistic studies; no direct interventional RCTs) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Vitamin B12-mangel / megaloblastisk anæmi (universelt anerkendt brug; ingen danske godkendelser registreret) |
+| Forudsagt ny indikation | Biotinmetabolisk sygdom |
+| TxGNN-forudsigelsesscore | 99.60% |
+| Evidensniveau | L4 (prækliniske/mekanistiske studier; ingen direkte interventions-RCT'er) |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Cyanocobalamin is the synthetic form of Vitamin B12, functioning as an obligatory cofactor for two critical enzymatic reactions: (1) the conversion of methylmalonyl-CoA to succinyl-CoA, catalysed by methylmalonyl-CoA mutase (MCM); and (2) the remethylation of homocysteine to methionine, catalysed by methionine synthase. These reactions sit at the intersection of propionate catabolism, one-carbon metabolism, and mitochondrial energy production.
+Cyanocobalamin er den syntetiske form af vitamin B12 og fungerer som en obligatorisk kofaktor for to kritiske enzomatiske reaktioner: (1) omdannelsen af methylmalonyl-CoA til succinyl-CoA, katalyseret af methylmalonyl-CoA mutase (MCM); og (2) remethylering af homocystein til methionin, katalyseret af methionin synthase. Disse reaktioner befinder sig ved skæringspunktet mellem propionat-katabolisme, en-kulstof-metabolisme og mitokondrial energiproduktion.
 
-The mechanistic rationale linking B12 to biotin metabolic disease rests on shared metabolic nodes in the propionate pathway. Biotin (Vitamin B7) is the obligatory cofactor for propionyl-CoA carboxylase (PCC), which converts propionyl-CoA to methylmalonyl-CoA — the direct upstream substrate for the MCM reaction that requires B12. Consequently, both vitamins are indispensable for the propionate → succinyl-CoA → TCA cycle flux. In conditions such as biotinidase deficiency or holocarboxylase synthetase (HCS) deficiency, impaired PCC function leads to propionate accumulation and secondary methylmalonic acidaemia; supplemental B12 can partly buffer the downstream metabolic bottleneck. A landmark review (PMID 23622402, Tier 1) explicitly classifies cobalamin and biotin under the unified category of "vitamin-responsive metabolic disorders," further supporting the biological proximity captured by the TxGNN knowledge graph.
+Den mekanistiske begrundelse for at forbinde B12 til biotinmetabolisk sygdom hviler på delte metaboliske knudepunkter i propionatvej. Biotin (vitamin B7) er den obligatoriske kofaktor for propionyl-CoA carboxylase (PCC), som omdanner propionyl-CoA til methylmalonyl-CoA — det direkte opstrøms-substrat for MCM-reaktionen, der kræver B12. Følgelig er begge vitaminer uundværlige for propionat → succinyl-CoA → TCA-cyklus-flux. I tilstande såsom biotinidase-mangel eller holocarboxylase synthetase (HCS)-mangel fører nedsat PCC-funktion til propionat-ophobning og sekundær methylmalonisk acidæmi; supplerende B12 kan delvist buffere den nedstrøms metaboliske flaskehals. En milepælsgennemgang (PMID 23622402, Tier 1) klassificerer eksplicit cobalamin og biotin under den samlede kategori "vitamin-responsive metaboliske forstyrrelser," hvilket yderligere understøtter den biologiske nærhed, som TxGNN-vidensgrafens fanger.
 
-It is important to note, however, that cyanocobalamin cannot repair the underlying enzymatic defects in biotinidase or HCS deficiency — that remains the domain of biotin replacement therapy. The predicted role of B12 is therefore **adjuvant/synergistic**, not curative: correcting cobalamin-dependent secondary dysfunction in patients with co-existing or overlapping organic acidaemias. This mechanistic nuance should inform the design of any future clinical investigation.
+Det er vigtigt at bemærke, at cyanocobalamin ikke kan reparere de underliggende enzomatiske defekter i biotinidase- eller HCS-mangel — det forbliver domænet for biotinerstatningsterapi. Den forudsagte rolle af B12 er derfor **adjuvant/synergistisk**, ikke helbredende: korrektion af cobalamin-afhængig sekundær dysfunktion hos patienter med sameksisterende eller overlappende organisk acidæmier. Denne mekanistiske nuance bør informere designet af enhver fremtidig klinisk undersøgelse.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidence
 
-No clinical trials directly testing cyanocobalamin as a primary intervention for biotin metabolic disease were identified. The trials below are the most relevant retrieved, presented with their assessed relevance grade (A = highly relevant, B = moderately relevant, C = low relevance).
+Ingen kliniske forsøg, der direkte tester cyanocobalamin som primær intervention for biotinmetabolisk sygdom, blev identificeret. Forsøgene nedenfor er de mest relevante, der blev hentet, præsenteret med deres vurderede relevansgrad (A = meget relevant, B = moderat relevant, C = lav relevans).
 
-| Trial Number | Phase | Status | Enrolment | Key Findings / Relevance |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtigste resultater / Relevans |
 |-------------|-------|--------|-----------|--------------------------|
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Double-blind, placebo-controlled, crossover RCT of metabolic support therapy (Q10 ubiquinol + Vitamins B & E) in autism spectrum disorder / Phelan-McDermid syndrome. Vitamin B complex including B12 assessed in a metabolic context. Protocol review needed to confirm biotin metabolic disease subgroup. (Grade B) |
-| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Completed | 30 | Crossover study comparing natural vs. synthetic vitamin B complexes (including B12 and biotin) in healthy adults. Provides bioavailability comparison data for both vitamins simultaneously; sample very small. (Grade B) |
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Phase 2 RCT of vitamins and minerals (including B12) on neuropathy and nephropathy in type 2 diabetes. Metabolic complications studied; population not biotin metabolic disease but overlapping pathways (propionate/methylmalonyl). (Grade B) |
-| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6,824 | Universal genomic newborn screening programme (Wallonia-Brussels) covering 126 treatable genetic diseases including biotin metabolic disorders. Diagnostic — not a therapeutic cyanocobalamin trial. (Grade C) |
-| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Phase 3 trial of carglumic acid in propionic acidaemia (PA) and methylmalonic acidaemia (MMA) — organic acidaemias closely related to biotin-cobalamin metabolic overlap. Cyanocobalamin not the intervention; contextually relevant. (Grade C) |
-| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | N/A | Completed | 40 | Multi-micronutrient intervention in congestive heart failure veterans. Very small sample; not specific to biotin metabolic disease. (Grade C) |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Pharmacokinetic study of transdermal vs. oral vitamin absorption in post-bariatric surgery patients; not a therapeutic efficacy study for biotin metabolic disease. (Grade C) |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | Nutritional intervention targeting methylation and oxidative stress in autism; B12 may be included but indication is autism, not biotin metabolic disease. (Grade C) |
+| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Ukendt | 200 | Dobbeltblindet, placebo-kontrolleret, crossover RCT af metabolisk støtteterapi (Q10 ubiquinol + vitaminer B & E) ved autismespektrumforstyrrelse / Phelan-McDermid syndrom. Vitamin B-kompleks inklusive B12 vurderet i metabolisk sammenhæng. Protokol review nødvendig for at bekræfte biotinmetabolisk sygdomsundergruppe. (Grad B) |
+| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Afsluttet | 30 | Crossover-undersøgelse sammenligner naturligt vs. syntetisk vitamin B-kompleks (inklusive B12 og biotin) hos raske voksne. Giver bioavailability-sammenligningsdata for begge vitaminer samtidigt; prøve meget lille. (Grad B) |
+| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Fase 2 | Afsluttet | 75 | Fase 2 RCT af vitaminer og mineraler (inklusive B12) på neuropati og nefropati ved type 2 diabetes. Metaboliske komplikationer undersøgt; population ikke biotinmetabolisk sygdom men overlappende veje (propionat/methylmalonyl). (Grad B) |
+| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Afsluttet | 6.824 | Universelt genomisk neonatal screening-program (Wallonien-Bruxelles) dækkende 126 behandlingsbare genetiske sygdomme inklusive biotinmetaboliske forstyrrelser. Diagnostisk — ikke et terapeutisk cyanocobalamin-forsøg. (Grad C) |
+| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Fase 3 | Afsluttet | 33 | Fase 3-forsøg af carglumic acid ved propionisk acidæmi (PA) og methylmalonisk acidæmi (MMA) — organiske acidæmier tæt relateret til biotin-cobalamin metabolisk overlap. Cyanocobalamin ikke interventionen; kontekstuelt relevant. (Grad C) |
+| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | N/A | Afsluttet | 40 | Multi-mikronæringsstof-intervention ved kongestiv hjertesygdom hos veteraner. Meget lille prøve; ikke specifik for biotinmetabolisk sygdom. (Grad C) |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Afsluttet | 99 | Farmakokinetisk undersøgelse af transdermal vs. oral vitaminabsorption hos post-bariatrisk kirurgi-patienter; ikke et terapeutisk effektivitetsstudium for biotinmetabolisk sygdom. (Grad C) |
+| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Afsluttet | 39 | Ernæringsmæssig intervention målrettet methylering og oxidativ stress ved autisme; B12 kan være inkluderet men indikation er autisme, ikke biotinmetabolisk sygdom. (Grad C) |
 
 ---
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|------|------|---------|-------------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review (Tier 1) | Handbook of Clinical Neurology | Landmark classification of vitamin-responsive metabolic disorders; explicitly groups cobalamin and biotin disorders together, describing inborn errors of cobalamin absorption, transport, and intracellular metabolism alongside biotin-responsive multiple carboxylase deficiency |
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Mol Sciences | Comprehensive review of VitB12 deficiency mechanisms; confirms B12 as cofactor for succinyl-CoA synthesis from methylmalonyl-CoA and biotin — directly contextualising the metabolic overlap |
-| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Original Research | Pediatric Research | In vivo propionate metabolism study in PA, MMA, multiple carboxylase deficiency, and transcobalamin-II deficiency; four of eight MMA patients were B12-responsive — key mechanistic evidence for B12 role in propionate pathway disorders |
-| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Original Research | J Endocrinology | B12 deficiency in rats induces glucose intolerance and ketogenesis; demonstrates systemic metabolic consequences of B12 insufficiency beyond classical haematological effects |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminologica et Enzymologica | Reviews vitamins in inborn metabolic errors via three mechanisms: malabsorption, metabolism errors, and vitamin-dependent syndromes; discusses pharmacological vs. nutritional dosing for apoenzyme defects |
-| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Review | Endocrine Metab Immune Disord Drug Targets | Reviews B-group vitamins including biotin and B12 in type 2 diabetes; highlights biotin involvement in glucokinase regulation and B12 in metabolic pathway cofactor roles |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Review | Ryoikibetsu Shokogun Shirizu | Review of vitamin dependency syndromes — clinical classification relevant to understanding B12-responsive vs. biotin-responsive disorders |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Case Series / Review | Pediatric Clinics of North America | Megavitamin-responsive aminoacidopathies; describes B-complex vitamins as coenzymes activating apoenzymes and advocates therapeutic vitamin trials when enzymatic diagnosis is established |
-| [7015958](https://pubmed.ncbi.nlm.nih.gov/7015958/) | 1980 | Review | Ann NY Acad Sciences | B-complex vitamin interactions; establishes that thiamin, riboflavin, B12, and biotin function in interdependent metabolic and catabolic reactions — foundational for understanding pathway crosstalk |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Review | Advances in Clinical Chemistry | Vitamin-responsive inborn errors of metabolism; catalogues conditions including cobalamin-responsive and biotin-responsive disorders, relevant to understanding therapeutic vitamin supplementation strategy |
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Oversigt (Tier 1) | Handbook of Clinical Neurology | Milepælsklassificering af vitamin-responsive metaboliske forstyrrelser; klassificerer eksplicit cobalamin- og biotinforstyrrelser sammen, der beskriver arvelige fejl i cobalamin-absorption, -transport og -intracellulær metabolisme sammen med biotin-responsive multipel carboxylase-mangel |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Oversigt | Int J Mol Sciences | Omfattende oversigt over VitB12-mangel-mekanismer; bekræfter B12 som kofaktor for succinyl-CoA-syntese fra methylmalonyl-CoA og biotin — direkte kontekstualisering af metabolisk overlap |
+| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Originalforskning | Pediatric Research | In vivo propionat-metabolisme-studie i PA, MMA, multipel carboxylase-mangel og transcobalamin-II-mangel; fire af otte MMA-patienter var B12-responsive — vigtig mekanistisk bevis for B12-rolle i propionat-vej-forstyrrelser |
+| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Originalforskning | J Endocrinology | B12-mangel i rotter inducerer glukose-intoleranz og ketonæmi; demonstrerer systemisk metabolisk konsekvenser af B12-utilstrækkelighed ud over klassiske hæmatologiske effekter |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Oversigt | Acta Vitaminologica et Enzymologica | Anmeldelse af vitaminer i medfødte metaboliske fejl via tre mekanismer: malabsorption, metabolismefejl og vitamin-afhængige syndromer; diskuterer farmakologisk vs. ernæringsmæssig dosering for apoenzym-defekter |
+| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Oversigt | Endocrine Metab Immune Disord Drug Targets | Anmeldelse af B-gruppen vitaminer inklusive biotin og B12 ved type 2 diabetes; fremhæver biotin-involvering i glucokinase-regulering og B12 i metabolisk vej-kofaktor-roller |
+| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Oversigt | Ryoikibetsu Shokogun Shirizu | Anmeldelse af vitamin-afhængighedssyndromeer — klinisk klassificering relevant for forståelse af B12-responsive vs. biotin-responsive forstyrrelser |
+| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Caseserie / Oversigt | Pediatric Clinics of North America | Megavitamin-responsive aminosyreopathier; beskriver B-kompleks-vitaminer som coenzymeer, der aktiverer apoenzymer og går ind for terapeutiske vitaminprojekt, når enzymdiagnose er etableret |
+| [7015958](https://pubmed.ncbi.nlm.nih.gov/7015958/) | 1980 | Oversigt | Ann NY Acad Sciences | B-kompleks-vitamin-interaktioner; etablerer, at thiamin, riboflavin, B12 og biotin fungerer i indbyrdes afhængige metaboliske og kataboliske reaktioner — grundlæggende for forståelse af vej-krydsspringing |
+| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Oversigt | Advances in Clinical Chemistry | Vitamin-responsive medfødte metabolismefejl; katalogiserer tilstande inklusive cobalamin-responsive og biotin-responsive forstyrrelser, relevant for at forstå terapeutisk vitaminudskrivningsstrategi |
 
 ---
 
-## Denmark Market Information
+## Information om dansk marked
 
-Cyanocobalamin currently holds **no marketing authorisations** in Denmark (Lægemiddelstyrelsen) and is not listed as a marketed product. No Danish or EMA centralised authorisations were identified in the regulatory dataset for this active substance under this DrugBank entry.
+Cyanocobalamin har i øjeblikket **ingen markedsføringstilladelser** i Danmark (Lægemiddelstyrelsen) og er ikke anført som markedsført produkt. Ingen danske eller EMA-centraliserede tilladelser blev identificeret i det regulatoriske datasæt for denne aktive substans under denne DrugBank-indgang.
 
-> **Note for practitioners**: Cyanocobalamin and hydroxocobalamin (alternative B12 forms) are available in Denmark under other regulatory pathways and product names. Clinicians should verify current availability through the Danish Medicines Agency product database (produktresume.dk) for specific vitamin B12 formulations.
-
----
-
-## Safety Considerations
-
-Detailed safety data (SmPC warnings, contraindications, and drug interaction profile) for cyanocobalamin were not retrievable from the regulatory and DDI databases queried for this Evidence Pack.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for any cyanocobalamin-containing product authorised in the EU for comprehensive safety information, including warnings for patients with Leber's hereditary optic neuropathy (where cyanocobalamin is specifically contraindicated) and potential interactions with drugs affecting gastrointestinal absorption (e.g., proton pump inhibitors, metformin).
+> **Bemærk for praktikere**: Cyanocobalamin og hydroxocobalamin (alternative B12-former) er tilgængelige i Danmark under andre regulatoriske veje og produktnavne. Klinikere bør bekræfte aktuel tilgængelighed gennem Lægemiddelstyrelsen's produktdatabase (produktresume.dk) for specifikke vitamin B12-formuleringer.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Detaljerede sikkerhedsdata (SmPC-advarsler, kontraindikationer og lægemiddel-interaktionsprofil) for cyanocobalamin var ikke hentbare fra de regulatoriske og DDI-databaser, der blev forespurgt til denne evidenspakke.
 
-**Rationale:**
-The TxGNN model assigns a high prediction score (99.60%) driven by well-characterised metabolic pathway proximity between vitamin B12 and biotin in propionate catabolism; however, no clinical trials directly testing cyanocobalamin as an intervention in biotin metabolic disease exist, and the mechanistic link is adjuvant rather than disease-modifying. Evidence level L4 — based on mechanistic reviews and indirect observational data — is insufficient to support a clinical repurposing recommendation without further targeted investigation.
-
-**To proceed, the following is needed:**
-
-- **Mechanism clarification**: Obtain full MOA data from DrugBank (DB00115) and published cobalamin biochemistry to formally characterise the adjuvant role of B12 in biotin-deficiency states versus direct therapeutic action
-- **Targeted literature review**: Systematic review specifically on B12 supplementation in biotinidase deficiency and holocarboxylase synthetase deficiency cohorts (including case reports and registry data)
-- **Regulatory safety review**: Obtain and parse the full SmPC/PIL for cyanocobalamin products authorised in the EU/EEA to complete the S1 safety screening (currently blocking — Data Gap DG001)
-- **Patient population definition**: Define the specific biotin metabolic disease subtype(s) most likely to benefit from adjuvant B12 (e.g., MMA–biotinidase co-deficiency vs. isolated biotinidase deficiency) before designing any proof-of-concept study
-- **Denmark market access assessment**: Confirm whether cyanocobalamin is available under any existing Danish product authorisation (e.g., hydroxocobalamin products) to determine feasibility of a clinical study without requiring a new marketing authorisation
+> Se venligst den godkendte produktinformationstekst (SmPC) for ethvert cyanocobalamin-indeholdende produkt godkendt i EU for omfattende sikkerhedsinformation, inklusive advarsler til patienter med Lebers hereditær optisk neuropati (hvor cyanocobalamin er særligt kontraindikeret) og potentielle interaktioner med lægemidler, der påvirker gastrointestinal absorption (f.eks. protonpumpehemmere, metformin).
 
 ---
 
-> **Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. This analysis is generated as part of the DkTxGNN research programme (data cut-off: 5 April 2026).
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-modellen tildeler en høj forudsigelsesscore (99.60%) drevet af velkaraktriserede metaboliske vej-nærhed mellem vitamin B12 og biotin i propionat-katabolisme; dog eksisterer ingen kliniske forsøg, der direkte tester cyanocobalamin som intervention i biotinmetabolisk sygdom, og det mekanistiske link er adjuvant snarere end sygdomsmodificerende. Evidensniveau L4 — baseret på mekanistiske oversigter og indirekte observationsdata — er utilstrækkeligt til at understøtte en klinisk omorientering uden yderligere målrettet undersøgelse.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Mekanisme-præcisering**: Indhent fulde MOA-data fra DrugBank (DB00115) og publiceret cobalamin-biokemi for formelt at karakterisere B12's adjuvant rolle i biotin-mangeltilstande versus direkte terapeutisk handling
+- **Målrettet litteraturgennemgang**: Systematisk oversigt specifikt om B12-supplering i biotinidase-mangel og holocarboxylase synthetase-mangel-kohorter (inklusive caserapporter og registreringsdata)
+- **Regulatorisk sikkerhedsgennemgang**: Indhent og analysér den fulde SmPC/PIL for cyanocobalamin-produkter godkendt i EU/EØS for at fuldføre S1 sikkerhedsscreening (i øjeblikket blokering — Data Gap DG001)
+- **Patientpopulations-definition**: Definer de specifikke biotinmetabolisk sygdom-undertyper, der mest sandsynligt vil have gavn af adjuvant B12 (f.eks. MMA–biotinidase-co-mangel vs. isoleret biotinidase-mangel) før design af ethvert proof-of-concept-studie
+- **Dansk markedsadgang-vurdering**: Bekræft, hvorvidt cyanocobalamin er tilgængeligt under nogen eksisterende dansk produktgodkendelse (f.eks. hydroxocobalamin-produkter) for at fastslå mulighed for klinisk studie uden at kræve en ny markedsføringstilladelse
+
+---
+
+> **Ansvarsfraskrivelse**: Denne rapport er til forskningsreference kun og udgør ikke medicinsk rådgivning. Drug repurposing-kandidater kræver klinisk validering før terapeutisk anvendelse. Denne analyse er genereret som en del af DkTxGNN-forskningsprogrammet (dataudsnit: 5. april 2026).
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

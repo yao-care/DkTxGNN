@@ -29,71 +29,72 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Naproxen: From Pain and Inflammation Management to Brachydactyly-Syndactyly Syndrome
+# Naproxen: Fra smertelindring og inflammationskontrol til brachydaktyli-syndaktyli-syndrom
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Naproxen is a well-established non-steroidal anti-inflammatory drug (NSAID), widely used for pain relief, fever, and inflammatory conditions such as arthritis and dysmenorrhoea.
-The TxGNN model predicts it may be effective for **Brachydactyly-Syndactyly Syndrome**, a rare congenital skeletal malformation disorder.
-However, **no clinical trials and no published literature** currently support this indication, and the mechanistic link is considered biologically weak — this prediction is most likely a knowledge graph artefact.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Pain, fever, and inflammation (well-established NSAID; no Danish regulatory data available in this data package) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.35% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed (per current data; no marketing authorisations on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Naproxen er et velkendt non-steroid antiinflammatorisk lægemiddel (NSAID), der er meget brugt til smertelindring, feber og inflammatoriske tilstande såsom arthritis og dysmenorrhoe.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **brachydaktyli-syndaktyli-syndrom**, en sjælden medfødt skeletal-malformationssygdom.
+Der er imidlertid **ingen kliniske forsøg og ingen publiceret litteratur**, der i øjeblikket understøtter denne indikation, og det mekanistiske link anses for biologisk svagt — denne forudsigelse er højst sandsynligt en artefakt fra knowledge graph.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Naproxen is a propionic acid-class NSAID whose primary mechanism is inhibition of cyclooxygenase enzymes (COX-1 and COX-2), reducing prostaglandin synthesis. This forms the pharmacological basis for its anti-inflammatory, analgesic, and antipyretic effects. Detailed mechanism of action data was not available in the current data package; the above is based on well-established pharmacological knowledge.
-
-Brachydactyly-syndactyly syndrome is a rare, genetically determined congenital malformation characterised by abnormally short digits (brachydactyly) and fused digits (syndactyly). These are fixed structural defects established during foetal development — fundamentally distinct from the acquired inflammatory processes that Naproxen targets. There is no recognised clinical rationale for COX inhibition to correct or ameliorate pre-existing skeletal structural anomalies.
-
-The speculative mechanistic path proposed by the model — COX-2 inhibition → reduced PGE2 → disrupted bone remodelling signalling → indirect crosstalk with BMP/GDF developmental pathways — is not supported by clinical or preclinical evidence for this specific syndrome. The high TxGNN prediction score almost certainly reflects a **knowledge graph false positive**: both Naproxen and skeletal dysplasias share "skeletal" category nodes in the underlying graph, creating a spurious structural association. This prediction should be interpreted with considerable scepticism.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Smerte, feber og inflammation (velkendt NSAID; ingen danske regulatoriske data tilgængelige i denne datapakke) |
+| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
+| TxGNN-forudsigelsesscore | 99.35% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke på markedet (ifølge aktuelle data; ingen markedsføringstilladelser registreret) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Naproxen er en propionsyreafledning NSAID, hvis primære mekanisme er hæmning af cyclooxygenase-enzymer (COX-1 og COX-2), hvilket reducerer prostaglandinsyntes. Dette danner det farmakologiske grundlag for dets antiinflammatoriske, analgetiske og antipyretiske effekter. Detaljerede data om virkningsmekanisme var ikke tilgængelige i den aktuelle datapakke; ovenstående er baseret på velkendt farmakologisk viden.
 
----
+Brachydaktyli-syndaktyli-syndrom er en sjælden, genetisk betinget medfødt malformation karakteriseret ved unormalt korte fingre (brachydaktyli) og sammenvoksede fingre (syndaktyli). Disse er faste strukturelle defekter etableret under fosterudviklingen — fundamentalt forskellige fra de erhvervede inflammatoriske processer, som Naproxen retter sig imod. Der er ingen anerkendt klinisk begrundelse for, at COX-hæmning skal kunne korrigere eller afhjælpe allerede eksisterende skeletal-strukturelle anomalier.
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Den spekulative mekanistiske vej, som modellen foreslår — COX-2-hæmning → reduceret PGE2 → forstyrret knogleremodelleringssignalering → indirekte vekselvirkning med BMP/GDF-udviklingsveje — er ikke understøttet af klinisk eller præklinikal evidens for dette specifikke syndrom. Den høje TxGNN-forudsigelsesscore afspejler næsten sikkert en **knowledge graph-falsk positiv**: både Naproxen og skeletale dysplasier deler "skeletal"-kategorinoder i den underliggende graf, hvilket skaber en falsk strukturel forbindelse. Denne forudsigelse bør tolkes med betydelig skepsis.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøg
 
-**Decision: Hold**
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-**Rationale:**
-Despite a superficially high TxGNN prediction score (99.35%), this candidate has no supporting clinical trial or literature evidence (Evidence Level L5), and the proposed mechanistic link between COX inhibition and a congenital structural skeletal defect is biologically implausible. The prediction most likely represents a structural bias in the knowledge graph rather than a genuine therapeutic opportunity.
+---
 
-**To proceed, the following is needed:**
-- **Biological plausibility review:** Independent expert assessment of whether COX/prostaglandin inhibition could have any meaningful therapeutic effect on a genetically determined congenital skeletal malformation
-- **Knowledge graph audit:** Investigate whether shared "skeletal" category nodes in the TxGNN graph are generating systematic false positives for Naproxen across rare skeletal dysplasias (note: ranks 3–8 in this pack are all rare skeletal/developmental syndromes, suggesting a pattern)
-- **MOA data retrieval:** Obtain full pharmacological profile from DrugBank (DB00788) to support or refute any mechanistic hypothesis
-- **Safety data retrieval:** Download and parse the SmPC from Lægemiddelstyrelsen to complete the safety profile, including warnings, contraindications, and drug interactions
-- **Danish regulatory data verification:** Confirm current marketing authorisation status of Naproxen-containing products with Lægemiddelstyrelsen; the absence of authorisation records in this data package likely reflects a data gap, as Naproxen is a long-established NSAID
+## Bevis fra litteratur
+
+I øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Sikkerhedshensyn
+
+Se godkendt produktinformation (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Trods en tilsyneladende høj TxGNN-forudsigelsesscore (99.35%) har denne kandidat ingen understøttende evidens fra kliniske forsøg eller litteratur (Evidensniveau L5), og det foreslåede mekanistiske link mellem COX-hæmning og en genetisk betinget medfødt skeletal-strukturel defekt er biologisk usandsynligt. Forudsigelsen afspejler højst sandsynligt en strukturel bias i knowledge graph snarere end en genuin terapeutisk mulighed.
+
+**For at fortsætte er følgende nødvendigt:**
+- **Biologisk plausibilitetsvurdering:** Uafhængig ekspertvurdering af, hvorvidt COX/prostaglandin-hæmning kunne have nogen meningsfuld terapeutisk effekt på en genetisk betinget medfødt skeletal-malformation
+- **Knowledge graph-revision:** Undersøgelse af, hvorvidt delte "skeletal"-kategorinoder i TxGNN-grafen genererer systematiske falske positiver for Naproxen på tværs af sjældne skeletal-/udviklingssyndrom (bemærk: rang 3–8 i denne pakke er alle sjældne skeletal-/udviklingssyndrom, hvilket tyder på et mønster)
+- **MOA-datahentning:** Indhentelse af fuld farmakologisk profil fra DrugBank (DB00788) for at understøtte eller afvise enhver mekanistisk hypotese
+- **Sikkerhedsdatahentning:** Download og parsering af SmPC fra Lægemiddelstyrelsen for at fuldende sikkerhedsprofilen, herunder advarsler, kontraindikationer og lægemiddelinteraktioner
+- **Verificering af danske regulatoriske data:** Bekræftelse af aktuelle markedsføringstilladelsesstatuser for naproxen-holdige produkter hos Lægemiddelstyrelsen; fraværet af tilladelsesposter i denne datapakke afspejler sandsynligvis et datahul, da naproxen er et langvarigt etableret NSAID
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

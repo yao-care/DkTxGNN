@@ -29,88 +29,89 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism (Graves' Disease) to Neonatal Thyrotoxicosis
+# Propylthiouracil: Fra Hypertyreoidisme (Graves' sygdom) til Neonatal Thyreotoxikose
 
-## One-Sentence Summary
+## Ét-sætnings-sammenfatning
 
-Propylthiouracil (PTU) is a thionamide antithyroid agent classically used to control hyperthyroidism, most notably Graves' disease, and is preferred in pregnancy due to lower placental transfer than methimazole. The TxGNN model predicts relevance for **Neonatal Thyrotoxicosis**, with **1 clinical trial** and **20 publications** currently supporting this direction. Evidence is indirect — no dedicated randomized trial exists in neonates for ethical reasons — but it is consistent with established clinical practice of managing maternal Graves' disease with thionamides to protect the fetus/neonate.
+Propylthiouracil (PTU) er et thionamid-antityreoideamiddel, der klassisk bruges til at kontrollere hypertyreoidisme, især Graves' sygdom, og foretrækkes under graviditet på grund af lavere transplacental passage end methimazole. TxGNN-modellen forudsiger relevans for **Neonatal Thyreotoxikose**, med **1 klinisk forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning. Evidensen er indirekte — der findes ingen dedikeret randomiseret forsøg hos neonater af etiske årsager — men det er i overensstemmelse med etableret klinisk praksis for styring af maternal Graves' sygdom med thionamider for at beskytte fosteret/neonaten.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|------|
-| Original Indication | Not documented in the local regulatory dataset (drug not marketed in Denmark); clinically established for hyperthyroidism/Graves' disease |
-| Predicted New Indication | Neonatal Thyrotoxicosis |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ikke dokumenteret i det lokale regulatoriske datasæt (medicin ikke markedsført i Danmark); klinisk etableret for hypertyreoidisme/Graves' sygdom |
+| Forudsagt ny indikation | Neonatal Thyreotoxikose |
+| TxGNN Prognose Score | 99.40% |
+| Evidensniveau | L3 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, PTU inhibits thyroid peroxidase, blocking oxidation and organification of iodide and thereby reducing new thyroid hormone synthesis; it also partially inhibits peripheral T4-to-T3 conversion.
+I øjeblikket er detaljerede mekanisme-data for virkning ikke tilgængelige i evidenspakken. Baseret på kendt farmakologi hæmmer PTU thyroidperoxidase, blokerer oxidation og organisering af jodid og reducerer derved syntese af nye thyroideahormoner; det hæmmer også delvist konvertering af T4 til T3 i periferien.
 
-Neonatal thyrotoxicosis most commonly arises when maternal TSH-receptor-stimulating antibodies (Graves' disease) cross the placenta, or less commonly from activating TSHR/GNAS mutations. Because PTU's mechanism directly suppresses thyroid hormone synthesis, thionamide therapy (PTU or methimazole) is already the clinical standard for managing maternal hyperthyroidism during pregnancy to prevent fetal and neonatal thyrotoxic complications — methimazole is generally preferred postnatally due to PTU's hepatotoxicity risk, but PTU retains a defined role, particularly in the first trimester. This mechanistic and clinical continuity supports the TxGNN prediction, even though no interventional trial has been conducted directly in thyrotoxic neonates due to obvious ethical constraints.
+Neonatal thyreotoxikose opstår oftest, når maternal TSH-receptor-stimulerende antistoffer (Graves' sygdom) krydser placenta, eller mindre hyppigt fra aktiverende TSHR/GNAS-mutationer. Fordi PTU's mekanisme direkte undertrykker thyroideahormon-syntese, er thionamid-terapi (PTU eller methimazole) allerede den kliniske standard for styring af maternal hypertyreoidisme under graviditet for at forhindre føtal og neonatal thyreotoxiske komplikationer — methimazole foretrækkes generelt efter fødslen på grund af PTU's hepatotoksicitets-risiko, men PTU bevarer en defineret rolle, især i første trimester. Denne mekanistiske og kliniske kontinuitet understøtter TxGNN-forudsigelsen, selv om intet interventionsforsøg er blevet udført direkte hos thyreotoxiske neonater på grund af åbenlyse etiske begrænsninger.
 
-The same evidence pack also flags two related thyroid-axis conditions — "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta" (score 99.66%) and "hyperthyroxinemia" (score 99.08%) — but their supporting literature is largely mechanistic/genetic case material rather than treatment evidence, and in one case (PMID 10724359) PTU treatment failed to control the underlying condition. These two are therefore considered lower-confidence signals (internally flagged "Hold") and are not the focus of this report.
+Den samme evidenspakke markerer også to relaterede thyreoidea-akse-tilstande — "resistens over for thyroideahormon på grund af en mutation i thyroidea-hormon-receptor beta" (score 99.66%) og "hyperthyroxinæmi" (score 99.08%) — men deres understøttende litteratur er stort set mekanistisk/genetisk casemateriale snarere end behandlings-evidens, og i ét tilfælde (PMID 10724359) mislykkedes PTU-behandlingen med at kontrollere den underliggende tilstand. Disse to betragtes derfor som lavere-tillid-signaler (internt markeret "Hold") og er ikke fokus for denne rapport.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøgs-evidens
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Phase 3 | Unknown | 60 | Compares total thyroidectomy vs. thionamide antithyroid drugs in moderate-to-severe Graves' ophthalmopathy; not a direct neonatal trial, but the thionamide treatment arm provides indirect data on maternal antithyroid therapy relevant to fetal/neonatal thyroid outcomes. Trial status is "Unknown," indicating possible loss to follow-up. |
+| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Fase 3 | Ukendt | 60 | Sammenligner total thyroidektomi versus thionamid-antityreoideamiddel hos moderat-til-svær Graves' oftalmopatologi; ikke et direkte neonatalt forsøg, men thionamid-behandlingsarmen giver indirekte data om maternal antityreoideabehandling relevant for føtal/neonatal thyroidearesultater. Forsøgsstatus er "Ukendt", hvilket indikerer muligt bortfald fra opfølgning. |
 
 ---
 
-## Literature Evidence
+## Litteratur-evidens
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [33349844](https://pubmed.ncbi.nlm.nih.gov/33349844/) | 2021 | Review/Guideline | J Clin Endocrinol Metab | Guidance on testing, monitoring and treatment of thyroid dysfunction in pregnancy, including antithyroid drug risk-benefit considerations |
-| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | Review | Endocrinol Metab Clin North Am | High-risk Graves' disease in pregnancy treated with PTU in the first trimester, transitioning to methimazole thereafter |
-| [25747892](https://pubmed.ncbi.nlm.nih.gov/25747892/) | 2015 | Cohort | Thyroid | Gestational thyrotoxicosis and antithyroid drug use evaluated against neonatal outcomes in an integrated healthcare system |
-| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | Lancet Diabetes Endocrinol | Overview of hyperthyroidism in pregnancy; notes adverse outcomes can affect both mother and offspring |
-| [32199749](https://pubmed.ncbi.nlm.nih.gov/32199749/) | 2020 | Review/Guideline | Best Pract Res Clin Endocrinol Metab | Management approach to thyrotoxicosis during pregnancy to prevent maternal and fetal complications |
-| [6387489](https://pubmed.ncbi.nlm.nih.gov/6387489/) | 1984 | Review | N Engl J Med | Classic review of antithyroid drug pharmacology and mechanism of action |
-| [18558604](https://pubmed.ncbi.nlm.nih.gov/18558604/) | 2008 | Case report | Endocr Pract | Persistent neonatal thyrotoxicosis from a rare activating TSHR mutation, illustrating non-autoimmune neonatal disease requiring antithyroid therapy |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis case linked to a maternal TRβ gene mutation (M313T) |
-| [596245](https://pubmed.ncbi.nlm.nih.gov/596245/) | 1977 | Case series | Acta Med Scand | Early description linking postpartum hyperthyroidism exacerbation to neonatal thyrotoxicosis |
-| [2090674](https://pubmed.ncbi.nlm.nih.gov/2090674/) | 1990 | Case report | J Endocrinol Invest | Neonatal hepatitis and lymphocyte sensitization following placental transfer of PTU, alongside transient neonatal thyrotoxicosis — relevant to both efficacy and safety monitoring |
+| [33349844](https://pubmed.ncbi.nlm.nih.gov/33349844/) | 2021 | Oversigt/Retningslinje | J Clin Endocrinol Metab | Vejledning om test, overvågning og behandling af thyroideadysfunktion under graviditet, herunder risiko-gavn-betragtninger for antityreoideapreparater |
+| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | Oversigt | Endocrinol Metab Clin North Am | Høj-risiko Graves' sygdom under graviditet behandlet med PTU i første trimester, overgang til methimazole derefter |
+| [25747892](https://pubmed.ncbi.nlm.nih.gov/25747892/) | 2015 | Kohorte | Thyroid | Gestationel thyreotoxikose og antityreoideamedicinanvendelse evalueret i forhold til neonatale resultater i et integreret sundhedssystem |
+| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Oversigt | Lancet Diabetes Endocrinol | Oversigt over hypertyreoidisme under graviditet; noterer, at ugunstige resultater kan påvirke både mor og afkom |
+| [32199749](https://pubmed.ncbi.nlm.nih.gov/32199749/) | 2020 | Oversigt/Retningslinje | Best Pract Res Clin Endocrinol Metab | Tilgang til styring af thyreotoxikose under graviditet for at forhindre maternal og føtal komplikationer |
+| [6387489](https://pubmed.ncbi.nlm.nih.gov/6387489/) | 1984 | Oversigt | N Engl J Med | Klassisk oversigt over antityreoideamediciners farmakologi og virkningsmekhanisme |
+| [18558604](https://pubmed.ncbi.nlm.nih.gov/18558604/) | 2008 | Casusrapport | Endocr Pract | Vedvarende neonatal thyreotoxikose fra en sjælden aktiverende TSHR-mutation, der illustrerer ikke-autoimun neonatal sygdom, der kræver antityreoideabehandling |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Casusrapport | Clin Endocrinol | Neonatal thyreotoxikose tilfælde forbundet med en maternal TRβ-gen-mutation (M313T) |
+| [596245](https://pubmed.ncbi.nlm.nih.gov/596245/) | 1977 | Casusserie | Acta Med Scand | Tidlig beskrivelse, der forbinder postpartum hypertyreoidisme-forværring til neonatal thyreotoxikose |
+| [2090674](https://pubmed.ncbi.nlm.nih.gov/2090674/) | 1990 | Casusrapport | J Endocrinol Invest | Neonatal hepatitis og lymfocyt-sensitivering efter transplacental passage af PTU, sammen med forbigående neonatal thyreotoxikose — relevant for både effektivitet og sikkerhedsovervågning |
 
 ---
 
-## Denmark Market Information
+## Danske markedsoplysninger
 
-Propylthiouracil is currently **not marketed** in Denmark under this evidence pack's dataset — no marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) were found.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-interaction data were available in this evidence pack (DDI query: not found). Note as general pharmacological background: PTU as a drug class is associated with recognised hepatotoxicity and agranulocytosis risks, which should be confirmed against the current SmPC before clinical use.
+Propylthiouracil er i øjeblikket **ikke markedsført** i Danmark ifølge dette evidenspakkes datasæt — ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) blev fundet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Venligst se det godkendte Produktresume for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller medicin-interaktionsdata var tilgængelige i denne evidenspakke (DDI-forespørgsel: ikke fundet). Bemærk som generel farmakologisk baggrund: PTU som stofklasse er forbundet med anerkendte hepatotoksicitets- og agranulocytose-risici, som skal bekræftes mod det aktuelle Produktresume før klinisk brug.
 
-**Rationale:**
-Thionamide therapy for maternal Graves' disease during pregnancy is already established clinical practice, and the available cohort, review, and case-level evidence coherently support PTU's mechanistic relevance to neonatal thyrotoxicosis prevention/management. However, no dedicated randomized trial in neonates exists (ethically limited), and the drug currently has no marketing authorisation in Denmark.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC warnings/contraindications (DG001, Blocking) — required before any S1 safety assessment
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- Drug interaction data (currently not found)
-- Regulatory pathway assessment for Danish market entry given current "Not Marketed" status
-- Pediatric/neonatal dosing and monitoring protocol if pursued clinically
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Thionamid-terapi for maternal Graves' sygdom under graviditet er allerede etableret klinisk praksis, og de tilgængelige kohorte-, oversigts- og case-niveau-evidenser understøtter koherent PTU's mekanistiske relevans for forebyggelse/styring af neonatal thyreotoxikose. Imidlertid findes der ingen dedikeret randomiseret forsøg hos neonater (etisk begrænset), og medicinen har i øjeblikket ingen markedsføringstilladelse i Danmark.
+
+**For at fortsætte, kræves følgende:**
+- Danske Produktresume-advarsler/kontraindikationer (DG001, Bloker) — påkrævet før enhver S1 sikkerhedsvurdering
+- Bekræftet virkningsmekhanisme-data fra DrugBank (DG002, Høj)
+- Medicin-interaktionsdata (i øjeblikket ikke fundet)
+- Regulatorisk vej-vurdering for dansk markedsindtræden givet nuværende "Ikke markedsført"-status
+- Pædriatrisk/neonatal dosering og overvågningsprotokol, hvis forfølgt klinisk
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

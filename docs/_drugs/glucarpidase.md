@@ -29,78 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Glucarpidase: From Methotrexate Toxicity Rescue to Diabetic Cataract
+## Glucarpidase: Fra metotrexattoksicitetsredning til diabetisk katarakt
 
-## One-Sentence Summary
+## Ét-sætningsresumé
 
-Glucarpidase is a carboxypeptidase enzyme used as a rescue agent in acute methotrexate (MTX) overdose, acting by rapidly hydrolysing circulating MTX to inactive metabolites.
-The TxGNN model predicts it may be effective for **Diabetic Cataract**,
-however **no clinical trials and no publications** currently support this direction — the prediction is based solely on knowledge graph inference.
+Glucarpidase er et carboxypeptidase-enzym, der bruges som redningsstof ved akut metotrexat (MTX)-overdosis, og virker ved hurtigt at hydrolyse cirkulerende MTX til inaktive metabolitter.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Diabetisk katarakt**,
+dog **ingen kliniske forsøg og ingen publikationer** understøtter på nuværende tidspunkt denne retning – forudsigelsen er udelukkende baseret på vidensgrafs-inferens.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Methotrexate overdose / toxic plasma MTX concentration rescue |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Metotrexat-overdosis / redning fra toksiske MTX-plasma-niveauer |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 99.85% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Tilbageholde |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Glucarpidase (also known as carboxypeptidase G2) is a recombinant bacterial enzyme that cleaves the glutamate tail of methotrexate and its toxic polyglutamate metabolites, rapidly reducing plasma MTX levels. It is approved as an emergency rescue therapy in patients with delayed MTX clearance due to renal impairment, where toxic MTX concentrations carry risk of severe myelosuppression, mucositis, and end-organ damage.
+Glucarpidase (også kendt som carboxypeptidase G2) er et rekombinant bakterielt enzym, der spalter glutamathalen af metotrexat og dets giftige polyglutamat-metabolitter, hvilket hurtigt reducerer plasma-MTX-niveauer. Det er godkendt som en nødredningsterapi hos patienter med forsinket MTX-clearance på grund af nyresvigt, hvor toksiske MTX-niveauer medfører risiko for alvorlig myelosuppression, mucositis og organskade.
 
-The proposed link to diabetic cataract is mechanistically indirect. Diabetic cataract is driven by activation of the polyol pathway (aldose reductase), accumulation of advanced glycation end-products (AGEs), and oxidative stress — none of which involve MTX metabolism or carboxypeptidase activity. The TxGNN model likely generated this high score through a multi-hop knowledge graph path: **folate metabolism → elevated homocysteine → vascular and metabolic injury → diabetic ocular complications**. While hyperhomocysteinaemia is an established risk factor for diabetic microangiopathy, Glucarpidase is an acute-rescue enzyme, not a folate supplement or homocysteine-lowering agent, so this graph path does not constitute a valid therapeutic rationale.
+Det foreslåede link til diabetisk katarakt er mekanistisk indirekte. Diabetisk katarakt drives af aktivering af polyolvejen (aldose-reduktase), ophobning af advanced glycation end-produkter (AGE'er) og oxidativ stress – ingen af disse involverer MTX-metabolisme eller carboxypeptidase-aktivitet. TxGNN-modellen har sandsynligvis genereret denne høje score gennem en multi-hop-sti i vidensgrafen: **folatmetabolisme → forhøjet homocystein → vaskulær og metabolisk skade → diabetiske okulære komplikationer**. Selvom hyperhomocysteinæmi er en etableret risikofaktor for diabetisk mikroangiopati, er Glucarpidase et akut-redningsenzym, ikke et folattilskud eller et homocysteinnedsættende middel, således at denne grafsti ikke udgør en valid terapeutisk rationale.
 
-It is worth noting that the top 10 predictions are dominated by multiple cataract subtypes sharing identical scores (0.998330), which is a recognised cluster artefact in knowledge graph models — nodes belonging to the same disease cluster receive uniform high scores regardless of drug-specific mechanistic relevance. This further reduces confidence in the biological plausibility of the prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Det er værd at bemærke, at de 10 vigtigste forudsigelser er domineret af flere katarakt-subtyper med identiske scores (0.998330), hvilket er en anerkendt klynge-artefakt i vidensgrafs-modeller – knudepunkter tilhørende samme sygdomsklynge modtager ensartede høje scores uanset lægemiddel-specifik mekanistisk relevans. Dette reducerer yderligere tilliden til den biologiske plausibilitet af forudsigelsen.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsevidence
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Glucarpidase is not registered with the Danish Medicines Agency (Lægemiddelstyrelsen) and holds no national or centralised (EMA) marketing authorisation in Denmark. No product listing is available.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturevidence
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relateret litteratur til rådighed.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Glucarpidase er ikke registreret hos Lægemiddelstyrelsen og har ingen national eller centraliseret (EMA) markedsføringstilladelse i Danmark. Ingen produktliste er tilgængelig.
 
-**Rationale:**
-The TxGNN prediction score is high (99.85%), but this appears to reflect a knowledge graph cluster artefact rather than a genuine pharmacological hypothesis — there is no mechanistic link between Glucarpidase's MTX-hydrolysing activity and the pathophysiology of diabetic cataract. With zero supporting clinical trials, zero publications, no Danish marketing authorisation, and no available safety data, there is currently no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
+## Sikkerhedsovervejelser
 
-- Confirmation of a plausible mechanistic hypothesis connecting Glucarpidase (or MTX pathway modulation) to lens epithelial cell protection in hyperglycaemic conditions
-- Independent literature review to determine whether any folate-cycle–homocysteine–lens opacity connection has been explored experimentally
-- Full mechanism of action (MOA) data from DrugBank to enable a rigorous mechanistic analysis
-- Safety profile and contraindication data (TFDA/EMA SmPC) before any further evaluation
-- Re-examination of whether the high prediction score reflects genuine signal or knowledge graph cluster noise (deduplication and score recalibration recommended)
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Tilbageholde**
+
+**Begrundelse:**
+TxGNN-forudsigelsesscore er høj (99.85%), men dette ser ud til at afspejle en vidensgrafs-klynge-artefakt snarere end en ægte farmakologisk hypotese – der er ingen mekanistisk forbindelse mellem Glucarpidase' MTX-hydrolyseaktivitet og patofysiologien af diabetisk katarakt. Med nul understøttende kliniske forsøg, nul publikationer, ingen dansk markedsføringstilladelse og ingen tilgængelige sikkerhedsdata, er der i øjeblikket intet grundlag for at avancere denne kandidat.
+
+**For at fortsætte er følgende påkrævet:**
+
+- Bekræftelse af en plausibel mekanistisk hypotese, der forbinder Glucarpidase (eller MTX-vejmodulering) til beskyttelse af linseepitelceller under hyperglykæmiske forhold
+- Uafhængig litteraturgennemgang for at bestemme, om en forbindelse mellem folatcyklus–homocystein–linseglåhed er blevet udforsket eksperimentelt
+- Fuld mekanisme-for-handling (MOA)-data fra DrugBank for at muliggøre en stringent mekanistisk analyse
+- Sikkerhedsprofil og kontraindikationdata (TFDA/EMA SmPC) før enhver yderligere evaluering
+- Genundersøgelse af, hvorvidt den høje forudsigelsesscore afspejler ægte signal eller vidensgrafs-klynge-støj (dedublicering og score-rekalibrering anbefalet)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

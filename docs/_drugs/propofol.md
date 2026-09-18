@@ -29,91 +29,92 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Propofol: From General Anesthesia to Migraine
+# Propofol: Fra generel anæstesi til migræne
 
-## One-Sentence Summary
+## Enlinjessammenfatning
 
-Propofol is a widely used intravenous general anesthetic and sedative agent, established for induction and maintenance of anesthesia and procedural sedation. The TxGNN model predicts it may be effective for **Migraine Disorder** (as an acute/rescue abortive agent), with **5 clinical trials** and **20 publications** currently supporting this direction — though the trial base is small, and one trial was terminated early.
+Propofol er et bredt anvendt intravenøs generelt anæstetikum og sedativum, etableret til induktion og vedligeholdelse af anæstesi og proceduresedering. TxGNN-modellen forudsiger, at det kan være effektivt for **Migrænelidelse** (som akut/nød-abortiv middel), med **5 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning — selvom forsøgsgrundlaget er lille, og et forsøg blev afsluttet tidligt.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | General anesthesia / procedural sedation (well-established clinical use; no Danish licence text is on file in this evidence pack) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Generel anæstesi / proceduresedering (veletableret klinisk anvendelse; ingen dansk licenstekst er på fil i denne bevissamling) |
+| Forudsagt ny indikation | Migrænelidelse |
+| TxGNN-forudsigelsesscore | 99.69% |
+| Bevisniveau | L2 |
+| Danmarkstatus på markedet | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, propofol is a short-acting GABA-A receptor agonist that produces central sedative, anxiolytic-like and anti-nociceptive effects. In its approved use, it induces and maintains general anesthesia.
+I øjeblikket er detaljerede mekanisme-af-virkningsdata ikke tilgængelige i bevissamlingen. Baseret på kendt farmakologi er propofol en kortvarig GABA-A receptor-agonist, der producerer centrale sedative, angstdæmpende-lignende og anti-nociceptive effekter. I sin godkendte anvendelse inducerer og vedligeholder det generel anæstesi.
 
-Two independent lines of evidence support extending propofol into acute migraine management. First, at sub-anesthetic ("low") doses, propofol has been used off-label in emergency departments as a rescue therapy for refractory acute migraine — a practice already documented in retrospective and prospective series, particularly in pediatric populations. Second, mechanistic work indicates propofol suppresses cortical spreading depression (CSD), the electrophysiological event believed to underlie migraine aura, and may modulate central pain-sensitization pathways relevant to migraine chronification.
+To uafhængige bevislinjer understøtter udvidelsen af propofol til akut migrænebehandling. For det første, ved sub-anæstetiske ("lave") doser, er propofol blevet brugt off-label på skadestuer som nødbehandling for refraktær akut migræne — en praksis, der allerede er dokumenteret i retrospektive og prospektive serier, især i peditriske populationer. For det andet angiver mekanistisk arbejde, at propofol undertrykker cortical spreading depression (CSD), den elektrofysiologiske begivenhed, der antages at ligge til grund for migræneaura, og kan modulere centrale smertefølsomhedsveje relevant for kronificering af migræne.
 
-Together, this gives a plausible pharmacological rationale (CSD suppression, central sedation/analgesia) combined with an existing off-label clinical practice base, which is consistent with the TxGNN model's high prediction score for this indication.
+Tilsammen giver dette et plausibelt farmakologisk rationale (CSD-undertrykkelse, central sedering/analgesie) kombineret med et etableret off-label klinisk grundlag, hvilket er i overensstemmelse med TxGNN-modellens høje forudsigelsesscore for denne indikation.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Deltagere | Vigtigste fund |
 |---------|------|------|------|---------|
-| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Phase 2/3 | Completed | 74 | Low-dose propofol as abortive therapy for pediatric migraine in the ED; retrospective experience suggested safety and possible superiority over standard treatment (Grade A relevance) |
-| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | N/A | Terminated | 12 | Low-dose propofol for severe refractory migraine in the ED; stopped early, small sample limits evidence strength (Grade B relevance) |
-| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | N/A | Completed | 40 | Low-dose propofol infusion as an abortive treatment for pediatric migraine; evaluated efficacy, safe dosing limits, and duration of effect (Grade A relevance) |
-| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | N/A | Unknown | 130 | Compared sevoflurane vs. propofol anesthesia maintenance and postoperative headache incidence; only indirectly related to migraine treatment (Grade C relevance) |
-| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | N/A | Completed | 315 | Electroacupuncture study in cardiac surgery patients; not propofol-related, likely a knowledge-graph matching artifact (Grade C relevance) |
+| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Fase 2/3 | Afsluttet | 74 | Lav-dosis propofol som abortiv behandling til peditrisk migræne på skadestuen; retrospektiv erfaring tydede på sikkerhed og mulig overlegenhed i forhold til standardbehandling (Grad A relevans) |
+| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | N/A | Termineret | 12 | Lav-dosis propofol til svær refraktær migræne på skadestuen; afsluttet for tidligt, lille stikprøve begrænser bevisstyrke (Grad B relevans) |
+| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | N/A | Afsluttet | 40 | Lav-dosis propofol-infusion som abortiv behandling til peditrisk migræne; evaluerede effektivitet, sikre dosisgrænser og varighed af effekt (Grad A relevans) |
+| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | N/A | Ukendt | 130 | Sammenlignede sevofluran vs. propofol-anæstesi-vedligeholdelse og postoperativ hovedpinetilfrekvens; kun indirekte relateret til migrænebehandling (Grad C relevans) |
+| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | N/A | Afsluttet | 315 | Elektroakupunktur-studie hos patienter med hjertekirurgi; ikke propofol-relateret, sandsynligvis en matching-artefakt fra knowledge graph (Grad C relevans) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
 |------|-----|------|------|---------|
-| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Archives of Academic Emergency Medicine | Double-blind RCT comparing propofol+granisetron vs. propofol+metoclopramide for acute migraine symptom management |
-| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | The Journal of Emergency Medicine | Prospective RCT of low-dose propofol for pediatric migraine, suggesting efficacy with a favorable side-effect profile |
-| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Archives of Academic Emergency Medicine | RCT comparing sumatriptan alone vs. sumatriptan+propofol combination for acute migraine |
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Review | Headache | 2025 American Headache Society guideline update on parenteral pharmacotherapies for acute migraine in the ED |
-| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Review | Academic Emergency Medicine | Systematic review of propofol safety and efficacy for acute migraine treatment in the ED |
-| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Cohort | Expert Review of Neurotherapeutics | Drug-profile review of sub-anesthetic propofol for super-refractory migraine headaches |
-| [32638172](https://pubmed.ncbi.nlm.nih.gov/32638172/) | 2020 | Review | Current Pain and Headache Reports | Review of intravenous migraine treatment options in children and adolescents |
-| [32410204](https://pubmed.ncbi.nlm.nih.gov/32410204/) | 2020 | Review | Current Neurology and Neuroscience Reports | Review of ED and inpatient headache management in children and adolescents |
-| [32705803](https://pubmed.ncbi.nlm.nih.gov/32705803/) | 2020 | Review | Emergency Medicine Australasia | Editorial/commentary questioning whether propofol should be used for migraine despite feasibility |
-| [22309235](https://pubmed.ncbi.nlm.nih.gov/22309235/) | 2012 | Review | Headache | Part 2 of a rescue-therapy series covering neuroleptics, antihistamines, and other agents including propofol |
+| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Archives of Academic Emergency Medicine | Dobbeltblind RCT sammenlignende propofol+granisetron vs. propofol+metoklopramid til symptomstyring af akut migræne |
+| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | The Journal of Emergency Medicine | Prospektiv RCT af lav-dosis propofol til peditrisk migræne, der tyder på effektivitet med et gunstigt bivirkningsprofil |
+| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Archives of Academic Emergency Medicine | RCT sammenlignende sumatriptan alene vs. sumatriptan+propofol-kombination til akut migræne |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Anmeldelse | Headache | 2025 American Headache Society-retningslinje-opdatering om parenteral farmakoterapier til akut migræne på skadestuen |
+| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Anmeldelse | Academic Emergency Medicine | Systematisk gennemgang af propofol-sikkerhed og -effektivitet til akut migrænebehandling på skadestuen |
+| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Kohort | Expert Review of Neurotherapeutics | Medicin-profil-gennemgang af sub-anæstetisk propofol til super-refraktær migræne |
+| [32638172](https://pubmed.ncbi.nlm.nih.gov/32638172/) | 2020 | Anmeldelse | Current Pain and Headache Reports | Gennemgang af intravenøs migrænebehandling hos børn og unge |
+| [32410204](https://pubmed.ncbi.nlm.nih.gov/32410204/) | 2020 | Anmeldelse | Current Neurology and Neuroscience Reports | Gennemgang af skadestue- og indlægtelses-hovedpine-styring hos børn og unge |
+| [32705803](https://pubmed.ncbi.nlm.nih.gov/32705803/) | 2020 | Anmeldelse | Emergency Medicine Australasia | Leder/kommentar, der sætter spørgsmålstegn ved, om propofol bør bruges til migræne på trods af gennemførlighed |
+| [22309235](https://pubmed.ncbi.nlm.nih.gov/22309235/) | 2012 | Anmeldelse | Headache | Del 2 af en nødbehandlingserie dækkende neuroleptika, antihistaminer og andre midler inkl. propofol |
 
 ---
 
-## Denmark Market Information
+## Danmarkmarkedsinformation
 
-No marketing authorisation is currently on file for propofol in Denmark within this evidence pack (0 licences; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Ingen markedsføringstilladelse er i øjeblikket på fil for propofol i Danmark inden for denne bevissamling (0 licenser; markedsstatus: Ikke markedsført).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktinformationsdokument (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-There is an existing off-label clinical practice base plus multiple RCTs and a systematic review supporting low-dose propofol for acute migraine, but the trial base is small (largest n=74, one trial terminated early), and no Phase 3 confirmatory data exist — consistent with the L2 evidence level.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC warnings and contraindications (currently blocking S1 safety pre-assessment — DG001)
-- Detailed mechanism of action (MOA) data from DrugBank (DG002)
-- Larger, adequately powered RCTs confirming efficacy and dosing safety beyond the pediatric ED setting
-- Clarification of the causal direction behind anesthesia-induced coronary vasospasm (Prinzmetal angina) signals seen elsewhere in the TxGNN output for propofol, to rule out confounding safety concerns before any use expansion
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Der foreligger et etableret off-label klinisk grundlag plus flere RCT'er og en systematisk gennemgang, der understøtter lav-dosis propofol til akut migræne, men forsøgsgrundlaget er lille (største n=74, et forsøg afsluttet tidligt), og der foreligger ingen Fase 3-bekræftende data — hvilket er i overensstemmelse med bevisniveauet L2.
+
+**For at gå videre er følgende nødvendig:**
+- TFDA/SmPC-advarsler og kontraindikationer (blokerer i øjeblikket S1-sikkerhedsvurdering — DG001)
+- Detaljerede mekanisme-af-virkningsdata (MOA) fra DrugBank (DG002)
+- Større, tilstrækkeligt styrkede RCT'er bekræftende effektivitet og dosissikkerhed ud over den peditriske skadestue-indstilling
+- Afklaring af årsagsretningen bag anæstesi-induceret koronar vasospasme (Prinzmetal-angina) signaler, der ses andetsteds i TxGNN-outputtet for propofol, for at udelukke konfunderede sikkerhedsbekymringer før enhver brugsudvidelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,82 +29,83 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ivacaftor: From Cystic Fibrosis to Rheumatoid Arthritis
+# Ivacaftor: Fra Cystisk Fibrose til Reumatoid Arthritis
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-> Ivacaftor is a CFTR potentiator whose proven use is in cystic fibrosis (CF), based on the mechanistic context described in this evidence pack.
-> The TxGNN model predicts possible relevance to **Rheumatoid Arthritis**, with a prediction score of **96.97%**,
-> but this is currently supported by only **1 indirect clinical trial** and **1 preclinical/basic-research publication** — neither of which studied RA directly.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Cystic Fibrosis (CFTR potentiator; not derived from a Danish marketing authorisation, as none is on file) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 96.97% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Ivacaftor er en CFTR-forstærker, hvis dokumenterede brug er til cystisk fibrose (CF), baseret på den mekanistiske kontekst beskrevet i denne evidenspakke.
+> TxGNN-modellen forudsiger mulig relevans for **Reumatoid Arthritis**, med en forudsigelsesscore på **96.97%**,
+> men dette er i øjeblikket kun understøttet af **1 indirekte klinisk forsøg** og **1 præklinisk/grundforskningspublikation** — hvoraf ingen direkte undersøgte RA.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on the information that is available, Ivacaftor is a CFTR (cystic fibrosis transmembrane conductance regulator) potentiator, and its efficacy in cystic fibrosis is well established in the broader literature referenced here.
-
-The repurposing rationale in this pack describes a possible indirect link: in CF research, Ivacaftor has been observed to modulate neutrophil function and reduce inflammation (for example, decreased pancreatic ductal epithelial inflammation). Rheumatoid arthritis is an autoimmune, neutrophil-mediated joint inflammatory disease, so there is a theoretical connection via a CFTR–neutrophil–inflammation axis.
-
-However, no direct evidence currently shows that CFTR modulators affect RA disease course. The high TxGNN score most likely reflects an indirect similarity between "neutrophil/inflammation" nodes in the knowledge graph, rather than a defined, RA-specific pharmacological mechanism. This prediction should be treated as a research hypothesis, not a validated repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04970225](https://clinicaltrials.gov/study/NCT04970225) | N/A | Completed | 47 | Studied blood neutrophil function and phenotype in cystic fibrosis patients, including the impact of CFTR modulator treatment. Not designed around RA patients or RA endpoints — relevance grade **C** (mechanistic association only, via neutrophil biology; no direct relevance to the RA indication). |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Cystisk fibrose (CFTR-forstærker; ikke afledt fra dansk markedsgodkendelse, da ingen er tilgængelig) |
+| Forventet ny indikation | Reumatoid Arthritis |
+| TxGNN-forudsigelsesscore | 96.97% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28634110](https://pubmed.ncbi.nlm.nih.gov/28634110/) | 2017 | Basic/Translational research (Tier 3) | Gastroenterology | Preclinical mouse models (NOD/ShiLtJ, BMP6-transduced, MRL/Mp) show that restoring CFTR activity in ducts reduces inflammation in pancreatic and salivary glands, in the context of Sjögren's syndrome and autoimmune pancreatitis — not RA. |
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne evidenspakke. Baseret på de tilgængelige oplysninger er Ivacaftor en CFTR-forstærker (cystisk fibrose-transmembran-ledningsregulator), og dets virkning ved cystisk fibrose er veletableret i den bredere litteratur, der citeres her.
 
----
+Begrundelsen for genforbrug i denne pakke beskriver en mulig indirekte forbindelse: i CF-forskning er Ivacaftor blevet observeret til at modulere neutrofil-funktion og reducere inflammation (for eksempel reduceret pankreatisk-duktalt epithelialt inflammation). Reumatoid arthritis er en autoimun, neutrofil-medieret ledinflammatorisk sygdom, så der er en teoretisk forbindelse via en CFTR-neutrofil-inflammationsakse.
 
-## Denmark Market Information
-
-No marketing authorisations for Ivacaftor are currently on file for Denmark (market status: **Not marketed**; total authorisations: **0**).
+Imidlertid er der i øjeblikket ingen direkte beviser for, at CFTR-modulatorer påvirker RA-sygdomsforløbet. Den høje TxGNN-score afspejler mest sandsynligt en indirekte lighed mellem "neutrofil/inflammation"-noder i vidensgrafen, snarere end en defineret, RA-specifik farmakologisk virkningsmekanisme. Denne forudsigelse bør behandles som en forskningstese, ikke som et valideret genforbrugssignal.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*Note: This evidence pack flags a blocking data gap — Danish label warnings/contraindications for Ivacaftor have not yet been retrieved, which prevents a full S1 safety pre-assessment.*
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste resultater |
+|---------------|------|--------|---------|----------|
+| [NCT04970225](https://clinicaltrials.gov/study/NCT04970225) | N/A | Afsluttet | 47 | Undersøgte blodbaseret neutrofil-funktion og fænotype hos cystisk fibrose-patienter, herunder påvirkningen af CFTR-modulator-behandling. Ikke designet omkring RA-patienter eller RA-endepunkter — relevansgrad **C** (mekanistisk tilknytning kun, via neutrofil-biologi; ingen direkte relevans for RA-indikationen). |
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|---------|----------|
+| [28634110](https://pubmed.ncbi.nlm.nih.gov/28634110/) | 2017 | Grundforskning/Translationel forskning (Tier 3) | Gastroenterology | Prækliniske musmodeller (NOD/ShiLtJ, BMP6-transduceret, MRL/Mp) viser, at gendannelse af CFTR-aktivitet i gange reducerer inflammation i pankreatiske og spytkirtelgange i sammenhængen med Sjögrens syndrom og autoimun pankreatitis — ikke RA. |
 
-**Rationale:**
-The predicted indication (rheumatoid arthritis) is currently supported only by an indirect, low-relevance clinical trial (grade C, in CF patients, not RA patients) and a single preclinical/basic-research publication (Tier 3, not RA-focused). Evidence level is L4 with decision stage S1 ("Research Question") — this is a mechanistic hypothesis, not clinical evidence, and does not yet justify further investment.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings and contraindications for Ivacaftor (currently a Blocking data gap — required before any safety pre-assessment)
-- Verified mechanism of action data via DrugBank API (currently a High-severity data gap)
-- Drug-drug interaction (DDI) data (current query status: not found)
-- RA-specific preclinical or clinical studies directly testing CFTR modulation in autoimmune/inflammatory arthritis models
+## Markedsinformation for Danmark
+
+Ingen markedsgodkendelser for Ivacaftor er i øjeblikket tilgængelige for Danmark (markedsstatus: **Ikke markedsført**; i alt godkendelser: **0**).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Sammenfatning af produktkarakteristika (SmPC) for sikkerhedsinformation.
+
+*Bemærk: Denne evidenspakke signalerer et blokerende informationsgab — danske etiket-advarsler/kontraindikationer for Ivacaftor er endnu ikke hentet, hvilket forhindrer en fuldstændig S1 sikkerhedspræ-vurdering.*
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Den forudsagte indikation (reumatoid arthritis) er i øjeblikket kun understøttet af et indirekte, lav-relevans klinisk forsøg (grad C, hos CF-patienter, ikke RA-patienter) og en enkelt præklinisk/grundforskningspublikation (Tier 3, ikke RA-fokuseret). Evidensniveauet er L4 med beslutningsfasen S1 ("Forskningsspørgsmål") — dette er en mekanistisk hypotese, ikke klinisk beviser, og begrunder endnu ikke yderligere investering.
+
+**For at gå videre kræves følgende:**
+- Dansk/EU SmPC-advarsler og kontraindikationer for Ivacaftor (i øjeblikket et blokerende informationsgab — påkrævet før enhver sikkerhedspræ-vurdering)
+- Verificeret virkningsmekanisme-data via DrugBank API (i øjeblikket et højtgravitets-informationsgab)
+- Medicin-medicin interaktions (DDI)-data (nuværende forespørgselsstatus: ikke fundet)
+- RA-specifik præklinisk eller klinisk undersøgelse, der direkte tester CFTR-modulering i autoimun/inflammatorisk arthritis-modeller
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

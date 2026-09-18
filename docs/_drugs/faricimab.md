@@ -29,90 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Faricimab: Drug Repurposing Evaluation Report
+# Faricimab: Vurdering af lægemiddelomformål
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Faricimab is a bispecific monoclonal antibody (targeting VEGF-A and Ang-2) approved internationally for neovascular age-related macular degeneration (nAMD) and diabetic macular oedema (DME), marketed as Vabysmo® by Roche.
-The TxGNN model has **no predicted new indications** for this drug at present, and the evidence pack contains significant data gaps that prevent a full evaluation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack (internationally approved for nAMD and DME) |
-| Predicted New Indication | **None** — no TxGNN predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | **L5** (No prediction or supporting studies in this dataset) |
-| Denmark Market Status | **Not marketed** |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
-> **Note:** Faricimab (Vabysmo®) holds a centralised EMA marketing authorisation (EU/1/22/1683) for nAMD and DME. The evidence pack's Denmark-specific licence records show 0 entries, which may reflect an incomplete data import rather than true absence from the Danish market. This should be verified against the Laegemiddelstyrelsen and EMA registers.
+Faricimab er et bispecifikt monoklonalt antistof (rettet mod VEGF-A og Ang-2) godkendt internationalt til neovaskulariseret aldersrelateret makuladegeneration (nAMD) og diabetisk maculaødem (DME), markedsført som Vabysmo® af Roche.
+TxGNN-modellen har **ingen forudsagte nye indikationer** for dette lægemiddel i øjeblikket, og bevisgrundlaget indeholder betydelige datahiatus, der forhindrer en fuld evaluering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-There is currently **no TxGNN-predicted new indication** for Faricimab, so a mechanistic plausibility assessment cannot be performed.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke registreret i bevisgrundlaget (internationalt godkendt til nAMD og DME) |
+| Forudsagt ny indikation | **Ingen** — ingen TxGNN-forudsigelser tilgængelige |
+| TxGNN-forudsigelsesscore | N/A |
+| Bevisniveau | **L5** (Ingen forudsigelse eller understøttende studier i dette datasæt) |
+| Markedsstatus i Danmark | **Ikke markedsført** |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
-For background: Faricimab is the first bispecific antibody approved for intraocular use. It simultaneously inhibits vascular endothelial growth factor A (VEGF-A) and angiopoietin-2 (Ang-2), two key drivers of pathological angiogenesis and vascular instability. By targeting both pathways, it aims to achieve greater vascular stabilisation than anti-VEGF monotherapy alone. Its mechanism of action data was flagged as a data gap (DG002) in this evidence pack and should be retrieved from DrugBank for any future evaluation round.
-
-Until the TxGNN knowledge graph generates candidate indications for Faricimab and supporting evidence is gathered, no mechanistic bridge to a new indication can be assessed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no TxGNN-predicted indication exists for Faricimab; therefore, no indication-specific clinical trial search was performed.
-
----
-
-## Literature Evidence
-
-Currently no TxGNN-predicted indication exists for Faricimab; therefore, no indication-specific literature search was performed.
+> **Bemærk:** Faricimab (Vabysmo®) har en centraliseret EMA-markedsføringstilladelse (EU/1/22/1683) til nAMD og DME. Bevisgrundlagets registreringer af Danmark-specifikke licenser viser 0 poster, hvilket kan afspejle en ufuldstændig dataindportning snarere end ægte fravær fra det danske marked. Dette bør verificeres mod Laegemiddelstyrelsenss og EMA-registre.
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-No marketing authorisations were recorded in the evidence pack.
+Der eksisterer i øjeblikket **ingen TxGNN-forudsagt ny indikation** for Faricimab, så en vurdering af mekanistisk plausibilitet kan ikke udføres.
 
-> **Verification recommended:** Faricimab (Vabysmo®) received a centralised EMA marketing authorisation (EU/1/22/1683) in September 2022 for nAMD and DME. Danish availability should be confirmed with the Laegemiddelstyrelsen medicines database or the EMA Union Register.
+Som baggrund: Faricimab er det første bispecifikke antistof godkendt til intraokulær brug. Det hæmmer samtidigt vaskulær endotelial vækstfaktor A (VEGF-A) og angiopoietin-2 (Ang-2), to vigtige drivere af patologisk angiogenese og vaskulær ustabilitet. Ved at målrette begge veje sigter det mod at opnå større vaskulær stabilisering end anti-VEGF-monterapi alene. Dets mekanisme-af-handling-data blev markeret som et datahiatus (DG002) i dette bevisgrundlag og bør hentes fra DrugBank til enhver fremtidig evalueringsrunde.
+
+Indtil TxGNN-vidensgrafens genererer kandidatindikationer for Faricimab, og understøttende beviser indsamles, kan der ikke etableres en mekanistisk forbindelse til en ny indikation.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket eksisterer der ingen TxGNN-forudsagt indikation for Faricimab; derfor blev der ikke udført nogen indikationsspecifik klinisk forsøgssøgning.
 
-> The evidence pack flagged the following blocking data gaps:
-> - **DG001 (Blocking):** Labelling warnings and contraindications are not yet available — these must be retrieved from the SmPC before any Stage 1 safety screening can proceed.
-> - **DG002 (High):** Mechanism of action details are missing — to be queried from DrugBank.
+---
+
+## Litteraturbeviser
+
+I øjeblikket eksisterer der ingen TxGNN-forudsagt indikation for Faricimab; derfor blev der ikke udført nogen indikationsspecifik litteratursøgning.
+
+---
+
+## Markedsinformation for Danmark
+
+Ingen markedsføringstilladelser blev registreret i bevisgrundlaget.
+
+> **Verificering anbefalet:** Faricimab (Vabysmo®) modtog en centraliseret EMA-markedsføringstilladelse (EU/1/22/1683) i september 2022 til nAMD og DME. Dansk tilgængelighed bør bekræftes via Laegemiddelstyrelsenss medicindatabase eller EMA Union Register.
+
+---
+
+## Sikkerhedshensyn
+
+Se den godkendte Sammenfatning af produktkarakteristika (SmPC) for sikkerhedsinformation.
+
+> Bevisgrundlaget markerede følgende blokering af datahiatus:
+> - **DG001 (Blokering):** Etiketadvarsler og kontraindikationer er ikke endnu tilgængelige — disse skal hentes fra SmPC før nogen fase 1-sikkerhedsvurdering kan fortsætte.
+> - **DG002 (Høj):** Detaljer om handlingsmekanisme mangler — skal forespørges fra DrugBank.
 >
-> No drug–drug interactions were identified in the DDI database search (query date: 2026-03-26). This may reflect the intravitreal route of administration, which generally results in minimal systemic exposure.
+> Ingen lægemiddel-lægemiddel-interaktioner blev identificeret i DDI-databasesøgningen (forespørgselsdato: 2026-03-26). Dette kan afspejle den intravitreale administrationsvej, som generelt resulterer i minimal systemisk eksponering.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-No TxGNN-predicted new indications are available for Faricimab, and multiple critical data gaps (SmPC safety data, mechanism of action) remain unresolved. There is insufficient information to evaluate any repurposing opportunity at this time.
+**Begrundelse:**
+Der eksisterer ingen TxGNN-forudsagte nye indikationer for Faricimab, og flere kritiske datahiatus (SmPC-sikkerhedsdata, handlingsmekanisme) forbliver uløst. Der foreligger utilstrækkelig information til at evaluere en eventuel omorienterings-mulighed på dette tidspunkt.
 
-**To proceed, the following is needed:**
-- **Resolve DG001:** Retrieve the full SmPC (warnings, contraindications, special populations) from the EMA or Laegemiddelstyrelsen — this is a blocking prerequisite for Stage 1 safety review
-- **Resolve DG002:** Query DrugBank API for detailed mechanism of action, pharmacodynamics, and target information
-- **Verify Denmark market status:** Confirm whether the EMA centralised authorisation (EU/1/22/1683) provides Danish market access and update the licence records accordingly
-- **Re-run TxGNN prediction pipeline:** Once the drug is properly mapped in the knowledge graph with complete DrugBank data, re-execute the KG and DL prediction models to generate candidate indications
-- **Populate original indications:** Record the EMA-approved indications (nAMD, DME) in the evidence pack to enable future mechanistic bridging analyses
+**For at fortsætte kræves følgende:**
+- **Løs DG001:** Hent den fulde SmPC (advarsler, kontraindikationer, særlige populationer) fra EMA eller Laegemiddelstyrelsen — dette er en blokerende forudsætning for fase 1-sikkerhedsvurdering
+- **Løs DG002:** Forespørg DrugBank API for detaljerede oplysninger om handlingsmekanisme, farmakodynamik og målproteiner
+- **Verificer markedsstatus for Danmark:** Bekræft, om den centraliserede EMA-tilladelse (EU/1/22/1683) giver dansk markedsadgang, og opdater licenseregistreringerne i overensstemmelse hermed
+- **Kør TxGNN-forudsigelsespipeline igen:** Når lægemidlet er korrekt kortlagt i vidensgrafens med komplette DrugBank-data, kør KG- og DL-forudsigelsesmodellerne igen for at generere kandidatindikationer
+- **Udfyld oprindelige indikationer:** Registrer de EMA-godkendte indikationer (nAMD, DME) i bevisgrundlaget for at muliggøre fremtidige mekanistiske koblingsanalyser
 
 ---
 
-*This report is for research purposes only and does not constitute medical advice. Any drug repurposing candidates require clinical validation before application.*
+*Denne rapport er til forskningsformål og udgør ikke medicinsk rådgivning. Alle omorienterings-kandidater kræver klinisk validering før anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

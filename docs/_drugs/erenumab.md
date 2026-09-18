@@ -29,80 +29,81 @@ Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Erenumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Erenumab: Fra migræneprofylakse til migræne med hjernestamme-aura
 
-## One-Sentence Summary
+## Sammenfatning på en linje
 
-Erenumab is a fully human monoclonal antibody targeting the calcitonin gene-related peptide (CGRP) receptor, originally developed and approved for the preventive treatment of migraine.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**,
-with **0 registered clinical trials** but **20 publications** currently supporting this direction, including post-hoc analyses of Phase 3 RCTs and a systematic review.
+Erenumab er et fuldt humaniseret monoklonalt antistof, der målretter mod calcitonin gene-related peptid (CGRP)-receptoren, oprindeligt udviklet og godkendt til profylaktisk behandling af migræne.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Migræne med hjernestamme-aura**,
+med **0 registrerede kliniske forsøg** men **20 publikationer**, der i øjeblikket understøtter denne retning, herunder post-hoc-analyser af fase 3-randomiserede kontrollerede forsøg og en systematisk oversigt.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Migraine prevention (episodic and chronic migraine) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed (not recorded in dataset; note: erenumab [Aimovig] holds EMA centralised authorisation EU/1/18/1293) |
-| Number of Marketing Authorisations | 0 (in current dataset) |
-| Recommended Decision | Proceed with Guardrails |
+| Emne | Indhold |
+|------|----------|
+| Oprindelig indikation | Migræneprofylakse (episodisk og kronisk migræne) |
+| Forudsagt ny indikation | Migræne med hjernestamme-aura |
+| TxGNN-forudsigelsesscore | 99,89% |
+| Evidensniveau | L2 |
+| Status på det danske marked | Ikke markedsført (ikke registreret i datasættet; bemærk: erenumab [Aimovig] har centraliseret EMA-godkendelse EU/1/18/1293) |
+| Antal markedsføringstilladelser | 0 (i det aktuelle datasæt) |
+| Anbefalet beslutning | Proceed with Guardrails |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Erenumab is a fully human monoclonal antibody that selectively binds to the calcitonin gene-related peptide (CGRP) receptor. CGRP plays a central role in migraine pathophysiology: during a migraine attack, the trigeminovascular system releases CGRP, leading to neurogenic inflammation, vasodilation, and pain signal transmission. By blocking the CGRP receptor, erenumab prevents downstream signalling and has demonstrated efficacy in reducing the frequency and severity of migraine attacks in both episodic and chronic migraine.
+Erenumab er et fuldt humaniseret monoklonalt antistof, der selektivt binder til calcitonin gene-related peptid (CGRP)-receptoren. CGRP spiller en central rolle i migrænepathofysiologien: under et migræneangreb frigiver trigemino-vaskulærsystemet CGRP, hvilket fører til neurogen inflammation, vasodilation og smertesignaltransmission. Ved at blokere CGRP-receptoren forhindrer erenumab downstream-signalering og har demonstreret efficacy ved at reducere hyppighed og sværhedsgrad af migræneangreb hos både episodisk og kronisk migræne.
 
-Migraine with brainstem aura (previously known as basilar-type migraine) is a rare migraine subtype in which the aura originates from the brainstem. Although the aura symptoms differ from typical migraine with aura, the underlying pain mechanism still involves activation of the trigeminovascular system and CGRP release. This shared CGRP-dependent pain pathway means that erenumab's mechanism of action is mechanistically applicable to this subtype.
+Migræne med hjernestamme-aura (tidligere kendt som basilar-type migræne) er en sjælden migræne-subtype, hvor auroren stammer fra hjernestammen. Selvom aura-symptomerne adskiller sig fra typisk migræne med aura, involverer den underliggende smertemekanisme stadig aktivering af trigemino-vaskulærsystemet og CGRP-frigivelse. Denne delte CGRP-afhængige smertetransmission betyder, at erenumabs virkningsmekanisme er mekanistisk applicable på denne subtype.
 
-Importantly, post-hoc analyses of pivotal Phase 3 randomised clinical trials (PMID 34928306) have demonstrated that erenumab is both safe and effective in patients with migraine with aura, without increasing cardiovascular risk. A systematic review (PMID 37012858) further confirms erenumab's prophylactic efficacy across migraine subtypes. While brainstem aura was not specifically studied as a separate subgroup in these trials, the pharmacological rationale strongly supports the prediction that CGRP receptor blockade would benefit this subtype as well.
+Væsentligt er det, at post-hoc-analyser af pivotale fase 3-randomiserede kontrollerede forsøg (PMID 34928306) har demonstreret, at erenumab er både sikkert og effektivt hos patienter med migræne med aura, uden at øge kardiovaskulær risiko. En systematisk oversigt (PMID 37012858) bekræfter yderligere erenumabs profylaktiske efficacy på tværs af migræne-subtyper. Selvom hjernestamme-aura ikke blev specifikt studeret som en separat undergruppe i disse forsøg, understøtter den farmakologiske rationale stærkt forudsigelsen af, at CGRP-receptorblokkade ville være til gavn for denne subtype.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-Currently no clinical trials specifically registered for erenumab in migraine with brainstem aura.
+I øjeblikket ingen kliniske forsøg specifikt registreret for erenumab til migræne med hjernestamme-aura.
 
-> Note: While no trials target brainstem aura specifically, erenumab has been studied extensively in broader migraine populations. Patients with migraine with aura were included in multiple Phase 3 trials (e.g., the LIBERTY trial, STRIVE, ARISE), and post-hoc analyses have confirmed efficacy in the aura subgroup.
+> Bemærk: Selvom der ikke er forsøg, der målretter hjernestamme-aura specifikt, er erenumab blevet studeret omfattende i bredere migræne-populationer. Patienter med migræne med aura var inkluderet i flere fase 3-forsøg (f.eks. LIBERTY-forsøget, STRIVE, ARISE), og post-hoc-analyser har bekræftet efficacy i aura-undergruppen.
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | Phase 3b RCT | Lancet | LIBERTY trial: erenumab effective in episodic migraine patients who failed 2–4 prior preventives; significant reduction in monthly migraine days vs placebo |
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | Post-hoc analysis of Phase 3 RCTs | JAMA Neurology | Erenumab safe and effective in patients with migraine with aura; no elevated vascular risk in aura subgroup |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic Review | Int Immunopharmacol | Confirms erenumab efficacy in preventive therapy of both episodic and chronic migraine |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Prospective observational | Headache | Pooled long-term data show no increased cardiovascular risk with erenumab in patients with or without aura |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Biomarker study | J Headache Pain | Plasma suPAR (inflammation biomarker) elevated in migraine with aura; investigated as predictor of erenumab response |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Real-world observational | Clin Neurol Neurosurg | Croatian real-world data: erenumab effective and safe in treatment-resistant chronic migraine after 6 months |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mechanistic/Safety study | Cephalalgia | Erenumab does not alter cerebral haemodynamics or endothelial function, supporting vascular safety |
-| [40596876](https://pubmed.ncbi.nlm.nih.gov/40596876/) | 2025 | Single-arm clinical study | J Headache Pain | Patients switching from erenumab to fremanezumab tolerated the switch well; characterises erenumab adverse event profile |
-| [33125303](https://pubmed.ncbi.nlm.nih.gov/33125303/) | 2021 | Retrospective clinical study | J Pain Palliat Care Pharmacother | Combination of erenumab + onabotulinumtoxinA showed benefit in intractable chronic migraine |
-| [35230406](https://pubmed.ncbi.nlm.nih.gov/35230406/) | 2022 | Editorial | JAMA | Summary confirming erenumab is safe and effective for patients with migraine with aura |
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | Fase 3b RCT | Lancet | LIBERTY-forsøg: erenumab effektivt hos patienter med episodisk migræne, der havde fejlet 2–4 tidligere profylaktika; signifikant reduktion i månedlige migræne-dage vs placebo |
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | Post-hoc-analyse af fase 3 RCT | JAMA Neurology | Erenumab sikkert og effektivt hos patienter med migræne med aura; ingen forhøjet vaskulær risiko i aura-undergruppen |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematisk oversigt | Int Immunopharmacol | Bekræfter erenumabs efficacy ved profylaktisk terapi af både episodisk og kronisk migræne |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Prospektivt observationsundersøgelse | Headache | Poolet langtidsdata viser ingen forhøjet kardiovaskulær risiko med erenumab hos patienter med eller uden aura |
+| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Biomarkør-studie | J Headache Pain | Plasma suPAR (inflammationsbiomarkør) forhøjet ved migræne med aura; undersøgt som prædiktor for erenumab-respons |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Observationsundersøgelse i klinisk praksis | Clin Neurol Neurosurg | Kroatiske virkelige verden-data: erenumab effektivt og sikkert til behandlingsresistent kronisk migræne efter 6 måneder |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mekanistisk/sikkerhedsundersøgelse | Cephalalgia | Erenumab ændrer ikke cerebral hæmodynamik eller endotel-funktion, hvilket understøtter vaskulær sikkerhed |
+| [40596876](https://pubmed.ncbi.nlm.nih.gov/40596876/) | 2025 | Single-arm klinisk studie | J Headache Pain | Patienter, der skiftede fra erenumab til fremanezumab, tolererede skiftet godt; karakteriserer erenumab-bivirkningsprofil |
+| [33125303](https://pubmed.ncbi.nlm.nih.gov/33125303/) | 2021 | Retrospektivt klinisk studie | J Pain Palliat Care Pharmacother | Kombination af erenumab + onabotulinumtoxinA viste fordel ved intractable kronisk migræne |
+| [35230406](https://pubmed.ncbi.nlm.nih.gov/35230406/) | 2022 | Redaktionel | JAMA | Sammenfatning bekræftende, at erenumab er sikkert og effektivt hos patienter med migræne med aura |
 
-## Denmark Market Information
+## Oplysninger om det danske marked
 
-No marketing authorisations for erenumab are recorded in the current dataset.
+Ingen markedsføringstilladelser for erenumab er registreret i det aktuelle datasæt.
 
-> **Note for Danish healthcare professionals:** Erenumab is marketed in Denmark under the brand name **Aimovig** via EMA centralised marketing authorisation (EU/1/18/1293), authorised since July 2018. It is approved for prophylaxis of migraine in adults who have at least 4 migraine days per month. Please consult the Danish Medicines Agency (Lægemiddelstyrelsen) or the EMA product database for the current Summary of Product Characteristics (SmPC).
+> **Bemærk til danske sundhedsfagfolk:** Erenumab markedsføres i Danmark under varemærket **Aimovig** via centraliseret EMA-markedsføringstilladelse (EU/1/18/1293), godkendt siden juli 2018. Det er godkendt til profylakse af migræne hos voksne, som har mindst 4 migræne-dage pr. måned. Venligst konsulter Lægemiddelstyrelsen eller EMA's produktdatabase for den aktuelle Produktinformation (SmPC).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation.
 
-> **Additional context from the literature:** Post-hoc analyses of pooled Phase 3 trial data (PMID 36942409) found no increased cardiovascular risk with erenumab, even in patients with migraine with aura who carry elevated baseline vascular risk. A mechanistic study (PMID 32867533) confirmed that erenumab does not alter cerebral haemodynamics or endothelial function. Twelve-month real-world safety data (PMID 35538414) showed generally good tolerability. The most commonly reported adverse events in clinical practice include constipation, injection site reactions, and muscle spasms.
+> **Yderligere kontekst fra litteraturen:** Post-hoc-analyser af poolede fase 3-forsøgsdata (PMID 36942409) fandt ingen forhøjet kardiovaskulær risiko med erenumab, selv hos patienter med migræne med aura, som har øget baseline-vaskulær risiko. En mekanistisk undersøgelse (PMID 32867533) bekræftede, at erenumab ikke ændrer cerebral hæmodynamik eller endotel-funktion. Tolv-måneders virkelige verden-sikkerhedsdata (PMID 35538414) viste generelt god tolerabilitet. De hyppigst rapporterede bivirkninger i klinisk praksis omfatter forstoppelse, injektionsstedreaktioner og muskelspasmer.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Proceed with Guardrails**
 
-**Rationale:**
-Erenumab is already EMA-approved for migraine prevention and has demonstrated efficacy and safety in patients with migraine with aura in post-hoc analyses of Phase 3 RCTs. While migraine with brainstem aura has not been studied as a separate indication, the shared CGRP-dependent pain mechanism provides a strong pharmacological basis for efficacy in this subtype. The TxGNN prediction score of 99.89% and an evidence level of L2 support further investigation.
+**Begrundelse:**
+Erenumab er allerede EMA-godkendt til migræneprofylakse og har demonstreret efficacy og sikkerhed hos patienter med migræne med aura i post-hoc-analyser af fase 3 RCT. Selvom migræne med hjernestamme-aura ikke er blevet studeret som en separat indikation, giver den delte CGRP-afhængige smertemekanisme en stærk farmakologisk basis for efficacy i denne subtype. TxGNN-forudsigelsesscore på 99,89% og et evidensniveau på L2 understøtter yderligere undersøgelse.
 
-**To proceed, the following is needed:**
-- Prospective clinical data specifically enrolling patients with migraine with brainstem aura (either a dedicated trial or a pre-specified subgroup analysis)
-- Confirmation of the Denmark marketing authorisation status and SmPC review for the brainstem aura population
-- Detailed safety monitoring plan, particularly regarding vascular risk given the brainstem involvement in this migraine subtype
-- Collection of real-world evidence from headache centres treating brainstem aura patients with erenumab off-label
-- Formal assessment of whether the existing EMA indication ("migraine prophylaxis") already encompasses brainstem aura subtypes, which could simplify the regulatory pathway
+**For at kunne fortsætte er følgende nødvendig:**
+- Prospektive kliniske data, der specifikt inkluderer patienter med migræne med hjernestamme-aura (enten et dedikeret forsøg eller en pre-specificeret undergruppe-analyse)
+- Bekræftelse af det danske markedsføringsstatus og Produktinformation-gennemgang for hjernestamme-aura-populationen
+- Detaljeret sikkerhedsovervågningsplan, især vedrørende vaskulær risiko i betragtning af hjernestammens involvering i denne migræne-subtype
+- Indsamling af virkelige verden-evidens fra hovedpincentre, der behandler hjernestamme-aura-patienter med erenumab off-label
+- Formel vurdering af, hvorvidt den eksisterende EMA-indikation ("migræne-profylakse") allerede omfatter hjernestamme-aura-subtyper, hvilket kunne forenkle den regulatoriske vej
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,402 +29,403 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Drug Repurposing Evidence Report
+# Rapport om stoffornyelsesbewis
 
-## Acalabrutinib (Calquence®) — Multi-Indication Analysis
+## Acalabrutinib (Calquence®) — Analyse af flere indikationer
 
-| Field | Detail |
+| Felt | Detaljer |
 |---|---|
-| **Report ID** | DK-DB11703-multi |
+| **Rapport-ID** | DK-DB11703-multi |
 | **Version** | v4 |
-| **Date** | 2026-04-03 |
-| **Data Cutoff** | 2026-04-03 |
-| **Regulatory Context** | Lægemiddelstyrelsen (Danish Medicines Agency) / EMA |
+| **Dato** | 2026-04-03 |
+| **Dataudsnit** | 2026-04-03 |
+| **Reguleringsmæssig sammenhæng** | Lægemiddelstyrelsen / EMA |
 
 ---
 
-## 1. Executive Summary
+## 1. Ledelsessammenfattelse
 
-**Drug:** Acalabrutinib (INN), marketed as Calquence® (AstraZeneca / Acerta Pharma)
+**Lægemiddel:** Acalabrutinib (INN), markedsført som Calquence® (AstraZeneca / Acerta Pharma)
 
-**DrugBank ID:** DB11703
+**DrugBank-ID:** DB11703
 
-**Proposed Repurposing Indications (TxGNN-predicted, ranked by score):**
+**Foreslåede nye indikationer til stoffornyelses (TxGNN-forudsagt, rangeret efter score):**
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+| Rang | Foreslået indikation | TxGNN-score | Bevisniveau | Anbefaling |
 |------|----------------------|-------------|----------------|----------------|
-| 1 | Familial non-Hodgkin lymphoma (NHL) | 0.976 | **L1** | Proceed with Guardrails |
-| 2 | Colon adenocarcinoma | 0.966 | **L5** | Hold |
-| 3 | Small intestinal Burkitt lymphoma | 0.940 | **L4** | Research Question |
-| 4 | Small intestinal MALT lymphoma | 0.938 | **L4** | Research Question |
-| 5 | Thyroid gland MALT lymphoma | 0.938 | **L4** | Research Question |
+| 1 | Familial non-Hodgkin lymfom (NHL) | 0.976 | **L1** | Fortsæt med sikkerhedsmekanismer |
+| 2 | Kolonstrup-adenokarcinom | 0.966 | **L5** | Afvent |
+| 3 | Smål-tarmens Burkitt-lymfom | 0.940 | **L4** | Forskningsspørgsmål |
+| 4 | Smål-tarmens MALT-lymfom | 0.938 | **L4** | Forskningsspørgsmål |
+| 5 | Skjoldbruskkirtel-MALT-lymfom | 0.938 | **L4** | Forskningsspørgsmål |
 
-**Key Findings:**
+**Vigtigste resultater:**
 
-- Acalabrutinib is a second-generation, highly selective, irreversible Bruton tyrosine kinase (BTK) inhibitor with EMA centralised marketing authorisation (valid in Denmark) for chronic lymphocytic leukaemia (CLL) and mantle cell lymphoma (MCL).
-- For **familial NHL**, robust Phase 2/3 clinical trial evidence and >20 peer-reviewed publications directly support BTK inhibition in multiple NHL subtypes. Acalabrutinib is already used as a comparator/standard-of-care arm in Phase 3 NHL trials, confirming clinical acceptance. Evidence level: **L1**.
-- For **MALT lymphomas** (small intestinal and thyroid), strong mechanistic rationale exists based on BCR-pathway dependence and ibrutinib's FDA approval for marginal zone lymphoma (MZL), but no direct clinical trial data for acalabrutinib in these specific subtypes were identified. Evidence level: **L4**.
-- For **Burkitt lymphoma**, mechanistic rationale is moderate (tonic rather than chronic active BCR signalling), with no clinical evidence. Evidence level: **L4**.
-- For **colon adenocarcinoma**, mechanistic rationale is weak and no clinical evidence exists. Evidence level: **L5** — not recommended for further pursuit.
+- Acalabrutinib er en anden-generations, højt selektiv, irreversibel inhibitor af Bruton tyrosinkinase (BTK) med centraliseret EMA-godkendelse (gyldig i Danmark) til kronisk lymfatisk leukæmi (CLL) og manteltier lymfom (MCL).
+- For **familial NHL** støttes kraftig fase 2/3 klinisk forsøgsbewis og >20 fagfællebedømte publikationer direkte BTK-inhibering i flere NHL-undertyper. Acalabrutinib bruges allerede som sammenlignings-/standardbehandlings-arm i fase 3 NHL-forsøg, hvilket bekræfter klinisk accept. Bevisniveau: **L1**.
+- For **MALT-lymfomer** (smål-tarm og skjoldbruskkirtel) findes stærk mekanistisk rationale baseret på BCR-sti-afhængighed og ibrutinib-FDA-godkendelse til marginalzonelymfom (MZL), men der blev ikke identificeret direkte klinisk forsøgsbewis for acalabrutinib i disse specifikke undertyper. Bevisniveau: **L4**.
+- For **Burkitt-lymfom** er mekanistisk rationale moderat (tonisk snarere end kronisk aktiv BCR-signalering), uden klinisk bewis. Bevisniveau: **L4**.
+- For **kolonstrup-adenokarcinom** er mekanistisk rationale svag og der findes ingen klinisk bewis. Bevisniveau: **L5** — ikke anbefalet til fortsatte forsøg.
 
-**Data Gaps Identified:**
-- Danish/EMA product label warnings and contraindications not extracted from the current dataset (originally sourced from TFDA context).
-- Full mechanism of action (MOA) detail was flagged as a data gap in the evidence pack but is well-characterised in literature (see Section 2).
+**Identificerede databoskeller:**
+- Danske/EMA-produktetiketadvarsler og kontraindikationer blev ikke ekstrapoleret fra det aktuelle datasæt (oprindeligt hentet fra TFDA-sammenhæng).
+- Fuld mekanisme-for-handling (MOA)-detalje blev markeret som databoskab i bevissamlingen, men er velkarakteriseret i litteratur (se afsnit 2).
 
 ---
 
-## 2. Drug Overview
+## 2. Lægemiddeloversigt
 
-### 2.1 Approved Indications in Denmark (via EMA Centralised Procedure)
+### 2.1 Godkendte indikationer i Danmark (via EMA-centraliseret procedure)
 
-Acalabrutinib (Calquence®) holds a centralised EMA marketing authorisation (EU/1/20/1479), valid across all EU/EEA member states including Denmark. As of the data cutoff:
+Acalabrutinib (Calquence®) har en centraliseret EMA-markedsføringstilladelse (EU/1/20/1479), gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Fra dataudsnittets tidspunkt:
 
-| Indication | Approval Basis | Line of Therapy |
+| Indikation | Godkendelsesgrundlag | Behandlingslinje |
 |------------|----------------|-----------------|
-| **Chronic lymphocytic leukaemia (CLL)** | Phase 3 RCTs (ELEVATE-TN, ASCEND) | Monotherapy or combination; treatment-naïve or relapsed/refractory |
-| **Mantle cell lymphoma (MCL)** | Phase 2 pivotal (ACE-LY-004) | Monotherapy; ≥1 prior therapy |
+| **Kronisk lymfatisk leukæmi (CLL)** | Fase 3 RCT'er (ELEVATE-TN, ASCEND) | Monoterap eller kombination; behandlingsnaiv eller relaps/refraktær |
+| **Manteltier lymfom (MCL)** | Fase 2 pivotal (ACE-LY-004) | Monoterap; ≥1 tidligere behandling |
 
-**Note:** The evidence pack indicates "Not marketed" (not marketed) in Taiwan, but acalabrutinib IS authorised and available in Denmark via the EMA centralised procedure and is listed in Medicinpriser.dk.
+**Bemærk:** Bevissamlingen angiver "Ikke markedsført" i Taiwan, men acalabrutinib ER godkendt og tilgængelig i Danmark via EMA-centraliseret procedure og er opført i Medicinpriser.dk.
 
-### 2.2 Mechanism of Action
+### 2.2 Virkningsmekanisme
 
-Acalabrutinib is a **second-generation, highly selective, covalent (irreversible) inhibitor of Bruton tyrosine kinase (BTK)**.
+Acalabrutinib er en **anden-generations, højt selektiv, kovalent (irreversibel) inhibitor af Bruton tyrosinkinase (BTK)**.
 
-- **Target:** BTK (EC 2.7.10.2), a cytoplasmic tyrosine kinase critical to B-cell receptor (BCR) signalling.
-- **Binding:** Forms a covalent bond with Cys481 in the ATP-binding pocket of BTK.
-- **Downstream effects:** Blocks BCR-mediated activation of NF-κB, MAPK, and NFAT pathways → inhibits B-cell proliferation, survival, adhesion, and migration.
-- **Selectivity advantage:** Compared to first-generation ibrutinib, acalabrutinib demonstrates minimal off-target inhibition of EGFR, ITK, and TEC kinases, resulting in a more favourable cardiovascular and bleeding safety profile.
+- **Mål:** BTK (EC 2.7.10.2), en cytoplasmatisk tyrosinkinase kritisk for B-celleceptor-signalering (BCR).
+- **Binding:** Danner en kovalent binding til Cys481 i ATP-bindingstasken for BTK.
+- **Nedstrøms-effekter:** Blokerer BCR-formidlet aktivering af NF-κB-, MAPK- og NFAT-veje → hæmmer B-celle-proliferation, overlevelse, adhesion og migration.
+- **Selektivitetsfordel:** Sammenlignet med første-generations ibrutinib viser acalabrutinib minimal off-target-inhibering af EGFR, ITK og TEC-kinaser, hvilket resulterer i en mere gunstig kardiovaskulær og blødnings-sikkerhedsprofil.
 
-### 2.3 Pharmacokinetic Profile
+### 2.3 Farmakokinetisk profil
 
-| Parameter | Value |
+| Parameter | Værdi |
 |-----------|-------|
-| **Bioavailability** | ~25% (oral) |
-| **Tmax** | 0.5–1.5 hours |
-| **Protein binding** | ~97.5% |
-| **Metabolism** | Primarily CYP3A4; active metabolite ACP-5862 (equipotent BTK inhibitor, ~2–3× lower exposure) |
-| **Half-life** | ~1 hour (parent); ~6.9 hours (ACP-5862) |
-| **Dosage form** | Oral capsule, 100 mg |
-| **Recommended dose** | 100 mg twice daily (BID), continuous |
-| **Elimination** | Hepatic metabolism; ~84% faecal, ~12% renal |
-| **Food effect** | No clinically significant effect |
-| **pH sensitivity** | Absorption reduced by gastric acid-reducing agents (PPIs, H2RAs) |
+| **Biotilgængelighed** | ~25% (oral) |
+| **Tmax** | 0,5–1,5 timer |
+| **Proteinbinding** | ~97,5% |
+| **Metabolisme** | Primært CYP3A4; aktivt metabolit ACP-5862 (equipotent BTK-inhibitor, ~2–3× lavere eksponering) |
+| **Halveringstid** | ~1 time (moderstof); ~6,9 timer (ACP-5862) |
+| **Doseringsform** | Oral kapsel, 100 mg |
+| **Anbefalet dosis** | 100 mg to gange dagligt (BID), kontinuerlig |
+| **Eliminering** | Hepatisk metabolisme; ~84% fækal, ~12% renal |
+| **Fødeeffekt** | Ingen klinisk betydende effekt |
+| **pH-sensitivitet** | Absorption reduceret af magnesyre-reducerende midler (PPI'er, H2RA'er) |
 
 ---
 
-## 3. Evidence Analysis
+## 3. Bevisanalyse
 
-### 3.1 Indication 1: Familial Non-Hodgkin Lymphoma (NHL)
+### 3.1 Indikation 1: Familial non-Hodgkin lymfom (NHL)
 
-**TxGNN Score:** 0.976 | **Evidence Level: L1** | **Decision Stage: S3 — Proceed with Guardrails**
+**TxGNN-score:** 0.976 | **Bevisniveau: L1** | **Beslutningsstadium: S3 — Fortsæt med sikkerhedsmekanismer**
 
-#### 3.1.1 Mechanistic Rationale
+#### 3.1.1 Mekanistisk rationale
 
-**Directly relevant.** BTK is the critical kinase in the BCR signalling pathway. The majority of NHL subtypes—including MCL, DLBCL (particularly ABC subtype), follicular lymphoma (FL), and marginal zone lymphoma (MZL)—depend on BCR signalling for survival and proliferation. Familial NHL shares the same BCR-dependent pathobiology as sporadic NHL; the familial predisposition relates to germline susceptibility rather than a distinct tumour biology. Therefore, BTK inhibition efficacy is expected to be equivalent in familial and sporadic presentations.
+**Direkte relevant.** BTK er den kritiske kinase i BCR-signaleringsstien. Størstedelen af NHL-undertyper—herunder MCL, DLBCL (især ABC-subtype), folliculært lymfom (FL) og marginalzonelymfom (MZL)—er afhængige af BCR-signalering for overlevelse og proliferation. Familial NHL deler den samme BCR-afhængige patobiologi som sporadisk NHL; den familiale prædisposition relaterer sig til germlinedisponering snarere end til en adskilt tumorbiologi. Derfor forventes BTK-inhiberings-effektivitet at være ækvivalent i familial og sporadisk præsentation.
 
-#### 3.1.2 Clinical Trials
+#### 3.1.2 Kliniske forsøg
 
-A total of **20 clinical trials** were identified on ClinicalTrials.gov. The table below summarises the most relevant:
+I alt blev **20 kliniske forsøg** identificeret på ClinicalTrials.gov. Tabellen nedenfor opsummerer de mest relevante:
 
-**Completed Trials:**
+**Afsluttede forsøg:**
 
-| NCT ID | Phase | N | NHL Subtype | Status | Key Finding |
+| NCT-ID | Fase | N | NHL-subtype | Status | Vigtigste resultat |
 |--------|-------|---|-------------|--------|-------------|
-| NCT03571308 | Ib/II | 39 | DLBCL | **Completed** | Acalabrutinib + R-CHOP in untreated DLBCL; safety and preliminary efficacy data available |
-| NCT02362035 | Ib/2 | 161 | Haematologic malignancies | **Completed** | Acalabrutinib + pembrolizumab; safety/PD/efficacy |
-| NCT04094142 | II | 66 | R/R B-cell NHL | **Completed** | Acalabrutinib + rituximab + lenalidomide |
-| NCT03623373 | II | 13 | Untreated MCL | **Completed** | Pilot: acalabrutinib + BR followed by CR |
-| NCT03740529 | I/2 | 803 | CLL/SLL & NHL | **Completed** | Pirtobrutinib study (acalabrutinib as prior therapy) |
+| NCT03571308 | Ib/II | 39 | DLBCL | **Afsluttet** | Acalabrutinib + R-CHOP i ubehandlet DLBCL; sikkerhed og foreløbige effektivitetsdata tilgængelig |
+| NCT02362035 | Ib/2 | 161 | Hæmatologiske maligniteteter | **Afsluttet** | Acalabrutinib + pembrolizumab; sikkerhed/PD/effektivitet |
+| NCT04094142 | II | 66 | R/R B-celle NHL | **Afsluttet** | Acalabrutinib + rituximab + lenalidomid |
+| NCT03623373 | II | 13 | Ubehandlet MCL | **Afsluttet** | Pilot: acalabrutinib + BR efterfulgt af CR |
+| NCT03740529 | I/2 | 803 | CLL/SLL & NHL | **Afsluttet** | Pirtobrutinib-studie (acalabrutinib som tidligere terapi) |
 
-**Active/Recruiting Trials:**
+**Aktive/Rekrutterings-forsøg:**
 
-| NCT ID | Phase | N | NHL Subtype | Status | Relevance |
+| NCT-ID | Fase | N | NHL-subtype | Status | Relevans |
 |--------|-------|---|-------------|--------|-----------|
-| NCT04883437 | **II** | 49 | Untreated indolent NHL/FL | Recruiting | Acalabrutinib + obinutuzumab; **Grade A** relevance |
-| NCT05583149 | **II** | 28 | R/R aggressive B-cell lymphoma | Active | Acalabrutinib + liso-cel (CAR-T); **Grade A** |
-| NCT04546620 | **II** | 453 | Untreated DLBCL | Active | Molecular-guided R-CHOP ± acalabrutinib; large-scale |
-| NCT07377578 | **III** | 394 | R/R MCL | Recruiting | Rocbrutinib vs. BTKi (acalabrutinib as **standard-of-care comparator**); **Grade A** |
-| NCT04002947 | **II** | 132 | Untreated DLBCL | Recruiting | Acalabrutinib + DA-EPOCH-R or R-CHOP |
-| NCT03899337 | **II** | 105 | Richter's Syndrome | Recruiting | Acalabrutinib + CHOP-R vs. CHOP-R |
-| NCT03571568 | I/2a | 140 | R/R indolent NHL | Recruiting | BI-1206 + rituximab ± acalabrutinib |
-| NCT02180711 | Ib/2 | 113 | B-cell NHL (FL, MZL) | Active | Acalabrutinib ± rituximab ± lenalidomide |
+| NCT04883437 | **II** | 49 | Ubehandlet indolent NHL/FL | Rekrutterer | Acalabrutinib + obinutuzumab; **Klasse A** relevans |
+| NCT05583149 | **II** | 28 | R/R aggressiv B-celle lymfom | Aktiv | Acalabrutinib + liso-cel (CAR-T); **Klasse A** |
+| NCT04546620 | **II** | 453 | Ubehandlet DLBCL | Aktiv | Molekylær-ledt R-CHOP ± acalabrutinib; stort omfang |
+| NCT07377578 | **III** | 394 | R/R MCL | Rekrutterer | Rocbrutinib vs. BTKi (acalabrutinib som **standardbehandlings-sammenligning**); **Klasse A** |
+| NCT04002947 | **II** | 132 | Ubehandlet DLBCL | Rekrutterer | Acalabrutinib + DA-EPOCH-R eller R-CHOP |
+| NCT03899337 | **II** | 105 | Richter's syndrom | Rekrutterer | Acalabrutinib + CHOP-R vs. CHOP-R |
+| NCT03571568 | I/2a | 140 | R/R indolent NHL | Rekrutterer | BI-1206 + rituximab ± acalabrutinib |
+| NCT02180711 | Ib/2 | 113 | B-celle NHL (FL, MZL) | Aktiv | Acalabrutinib ± rituximab ± lenalidomid |
 
-**Withdrawn/Terminated Trials:**
+**Tilbagetrukne/opsagte forsøg:**
 
-| NCT ID | Phase | Reason | Impact |
+| NCT-ID | Fase | Grund | Påvirkning |
 |--------|-------|--------|--------|
-| NCT02735876 | III | Withdrawn (0 enrolled) | No data; likely strategic/commercial decision |
-| NCT04836832 | Ib/II | Withdrawn (0 enrolled) | No data |
-| NCT04419389 | I/2 | Terminated (1 enrolled) | Minimal data |
+| NCT02735876 | III | Tilbagetrukket (0 indskrevet) | Ingen data; sandsynligvis strategisk/kommerciel beslutning |
+| NCT04836832 | Ib/II | Tilbagetrukket (0 indskrevet) | Ingen data |
+| NCT04419389 | I/2 | Opsagt (1 indskrevet) | Minimal data |
 
-**Key Observation:** NCT07377578 (PRIME Study, Phase III, n=394) uses acalabrutinib as the **investigator's choice standard-of-care BTK inhibitor** comparator arm for MCL, confirming that acalabrutinib is now considered an established treatment for NHL subtypes in clinical practice.
+**Vigtig observation:** NCT07377578 (PRIME-studie, fase III, n=394) bruger acalabrutinib som **behandlers valgte standardbehandlings BTK-inhibitor** sammenligningsarm for MCL, hvilket bekræfter, at acalabrutinib nu anses for etableret behandling for NHL-undertyper i klinisk praksis.
 
-#### 3.1.3 Published Literature
+#### 3.1.3 Offentliggjort litteratur
 
-**20 publications** were identified. Key Tier 1 (highest-quality) evidence:
+**20 publikationer** blev identificeret. Vigtigste Tier 1 (højeste kvalitet) bewis:
 
-| PMID | Year | Study Type | Key Content |
-|------|------|-----------|-------------|
-| **40311141** | 2025 | **Phase 3 RCT** | Acalabrutinib + bendamustine-rituximab in untreated MCL. Demonstrated comparable efficacy to ibrutinib-BR with improved toxicity profile. Published in *J Clin Oncol*. |
-| **29241979** | 2018 | **Phase 2 Pivotal** (ACE-LY-004) | Acalabrutinib monotherapy in R/R MCL: **ORR 81%**, CR 40%. Published in *The Lancet*. Basis for FDA accelerated approval. |
-| **37470152** | 2024 | **Phase 2 Final Results** | Final OS data for acalabrutinib monotherapy in R/R MCL, including poor-prognosis patients. Published in *Haematologica*. |
-| **38781315** | 2024 | **Phase 1b** | Acalabrutinib + venetoclax + rituximab (AVR) in treatment-naïve MCL: 2-year data, 95.2% completed induction. Published in *Blood Advances*. |
-| **38555311** | 2024 | **Phase 2** | Acalabrutinib + lenalidomide + rituximab (R2A) in R/R aggressive B-cell NHL. Single-arm trial; ORR as primary endpoint. Published in *Nature Communications*. |
-| **39234862** | 2025 | **Phase Ib** | Acalabrutinib + bendamustine + rituximab (ABR) in TN and R/R MCL: safety/efficacy. Published in *Haematologica*. |
-| **40775236** | 2025 | **Phase 2** | Frontline acalabrutinib + lenalidomide + rituximab in advanced FL with high tumour burden. Published in *Nature Communications*. |
+| PMID | År | Studietyp | Vigtigste indhold |
+|------|-----|-----------|-------------|
+| **40311141** | 2025 | **Fase 3 RCT** | Acalabrutinib + bendamustin-rituximab i ubehandlet MCL. Demonstrerede sammenlignelig effektivitet med ibrutinib-BR med forbedret toksicitetsprofil. Offentliggjort i *J Clin Oncol*. |
+| **29241979** | 2018 | **Fase 2 pivotal** (ACE-LY-004) | Acalabrutinib monoterap i R/R MCL: **ORR 81%**, CR 40%. Offentliggjort i *The Lancet*. Grundlag for FDA-accelereret godkendelse. |
+| **37470152** | 2024 | **Fase 2 slutresultater** | Slutlige OS-data for acalabrutinib monoterap i R/R MCL, herunder patienter med dårlig prognose. Offentliggjort i *Haematologica*. |
+| **38781315** | 2024 | **Fase 1b** | Acalabrutinib + venetoklax + rituximab (AVR) i behandlingsnaiv MCL: 2-årsdata, 95,2% fuldført induktion. Offentliggjort i *Blood Advances*. |
+| **38555311** | 2024 | **Fase 2** | Acalabrutinib + lenalidomid + rituximab (R2A) i R/R aggressiv B-celle NHL. Enkelt-arm forsøg; ORR som primært endepunkt. Offentliggjort i *Nature Communications*. |
+| **39234862** | 2025 | **Fase Ib** | Acalabrutinib + bendamustin + rituximab (ABR) i TN og R/R MCL: sikkerhed/effektivitet. Offentliggjort i *Haematologica*. |
+| **40775236** | 2025 | **Fase 2** | Første-line acalabrutinib + lenalidomid + rituximab i avanceret FL med høj tumorbelastning. Offentliggjort i *Nature Communications*. |
 
-**Key Tier 2 (reviews and mechanistic):**
+**Vigtigste Tier 2 (oversigter og mekanistisk):**
 
-| PMID | Year | Focus |
-|------|------|-------|
-| 36029036 | 2023 | BTKi resistance mechanisms in CLL and NHL |
-| 38578606 | 2024 | New BTK targeting strategies, including degraders |
-| 35266562 | 2022 | Comprehensive MCL update (molecular pathogenesis, treatment) |
-| 39742965 | 2025 | Fungal infection risk with BTKi therapy (safety signal) |
+| PMID | År | Fokus |
+|------|-----|-------|
+| 36029036 | 2023 | BTKi-resistensmekanismer i CLL og NHL |
+| 38578606 | 2024 | Nye BTK-targetings-strategier, herunder degradere |
+| 35266562 | 2022 | Omfattende MCL-opdatering (molekylær patogenese, behandling) |
+| 39742965 | 2025 | Svampeinfektionsrisiko med BTKi-terapi (sikkerhedssignal) |
 
-#### 3.1.4 Evidence Summary for Familial NHL
+#### 3.1.4 Bevisoversigt for familial NHL
 
-| Category | Assessment |
+| Kategori | Vurdering |
 |----------|------------|
-| Mechanistic link | **Strong** — Direct BCR/BTK pathway target |
-| Phase 3 evidence | **Yes** — RCT in MCL (PMID 40311141); acalabrutinib as standard comparator (NCT07377578) |
-| Phase 2 evidence | **Multiple** — Pivotal ACE-LY-004, plus ongoing/completed trials in DLBCL, FL, MZL |
-| Regulatory precedent | **Yes** — EMA-approved for MCL and CLL; FDA-approved for MCL and CLL |
-| Evidence level | **L1** |
+| Mekanistisk kobling | **Stærk** — Direkte BCR/BTK-sti-mål |
+| Fase 3 bewis | **Ja** — RCT i MCL (PMID 40311141); acalabrutinib som standardsammenligning (NCT07377578) |
+| Fase 2 bewis | **Flere** — Pivotal ACE-LY-004 plus igangværende/afsluttede forsøg i DLBCL, FL, MZL |
+| Reguleringsmæssig præcedens | **Ja** — EMA-godkendt for MCL og CLL; FDA-godkendt for MCL og CLL |
+| Bevisniveau | **L1** |
 
 ---
 
-### 3.2 Indication 2: Colon Adenocarcinoma
+### 3.2 Indikation 2: Kolonstrup-adenokarcinom
 
-**TxGNN Score:** 0.966 | **Evidence Level: L5** | **Decision Stage: S0 — Hold**
+**TxGNN-score:** 0.966 | **Bevisniveau: L5** | **Beslutningsstadium: S0 — Afvent**
 
-#### 3.2.1 Mechanistic Rationale
+#### 3.2.1 Mekanistisk rationale
 
-**Weak association.** Colon adenocarcinoma is driven primarily by WNT/β-catenin, RAS/MAPK, and PI3K/AKT signalling pathways. BTK is expressed in tumour-associated myeloid-derived suppressor cells (MDSCs) and tumour-associated macrophages (TAMs) within the tumour microenvironment, providing a theoretical immunomodulatory rationale. However, preclinical and early clinical studies with ibrutinib in solid tumours have not demonstrated meaningful efficacy.
+**Svag association.** Kolonstrup-adenokarcinom drives primært af WNT/β-catenin, RAS/MAPK og PI3K/AKT-signaleringsveje. BTK udtrykkes i tumorassocierede myeloide suppressorceller (MDSC'er) og tumorassocierede makrofager (TAM'er) inden for tumormiljøet, hvilket giver teoretisk immunomoduleringsrationale. Imidlertid har prækliniske og tidlige kliniske studier med ibrutinib i solide tumorer ikke påvist meningsfuld effektivitet.
 
-#### 3.2.2 Clinical Evidence
+#### 3.2.2 Klinisk bewis
 
-- **Clinical trials:** 0 identified
-- **Published literature:** 0 identified
-- **ICTRP trials:** 0 identified
+- **Kliniske forsøg:** 0 identificeret
+- **Offentliggjort litteratur:** 0 identificeret
+- **ICTRP-forsøg:** 0 identificeret
 
-#### 3.2.3 Assessment
+#### 3.2.3 Vurdering
 
-This remains an **AI-prediction-only** candidate with no supporting clinical or preclinical evidence specific to acalabrutinib. Not recommended for further pursuit at this time.
-
----
-
-### 3.3 Indication 3: Small Intestinal Burkitt Lymphoma
-
-**TxGNN Score:** 0.940 | **Evidence Level: L4** | **Decision Stage: S1 — Research Question**
-
-#### 3.3.1 Mechanistic Rationale
-
-**Moderate association.** Burkitt lymphoma is a highly aggressive B-cell NHL driven primarily by MYC translocation (t(8;14)). While it is B-cell derived and expresses surface immunoglobulin, its survival depends on "tonic" BCR signalling (PI3K-dependent) rather than the "chronic active" BCR signalling (BTK-dependent) seen in DLBCL-ABC or MCL. This distinction suggests potentially limited sensitivity to BTK inhibition. The small intestinal localisation is an anatomical consideration that does not alter the drug's mechanism.
-
-#### 3.3.2 Clinical Evidence
-
-- **Clinical trials:** 0 identified for this specific indication
-- **Published literature:** 0 identified
-- **Class-effect data:** No published BTKi trials specifically in Burkitt lymphoma
-
-#### 3.3.3 Assessment
-
-Preclinical/mechanistic evidence only. The biological distinction between tonic and chronic active BCR signalling is a significant concern. Would require dedicated preclinical validation before clinical investigation.
+Dette forbliver en **kun AI-prediction-kandidat** uden understøttende klinisk eller præklin bewis specifikt for acalabrutinib. Ikke anbefalet til fortsatte forsøg på nuværende tidspunkt.
 
 ---
 
-### 3.4 Indications 4–5: MALT Lymphomas (Small Intestinal & Thyroid Gland)
+### 3.3 Indikation 3: Smål-tarmens Burkitt-lymfom
 
-**TxGNN Score:** 0.938 / 0.938 | **Evidence Level: L4** | **Decision Stage: S1 — Research Question**
+**TxGNN-score:** 0.940 | **Bevisniveau: L4** | **Beslutningsstadium: S1 — Forskningsspørgsmål**
 
-#### 3.4.1 Mechanistic Rationale
+#### 3.3.1 Mekanistisk rationale
 
-**Strong association.** MALT lymphomas are low-grade B-cell lymphomas belonging to the marginal zone lymphoma (MZL) category. They are highly dependent on BCR signalling, with NF-κB pathway constitutive activation (often via API2-MALT1 fusion, TNFAIP3 deletions, or chronic antigen stimulation). Key considerations:
+**Moderat association.** Burkitt-lymfom er et højt aggressivt B-celle NHL drevet primært af MYC-translokation (t(8;14)). Selvom det er B-celle-afledt og udtrykker overfladeimmunogulobulin, afhænger dets overlevelse af "tonisk" BCR-signalering (PI3K-afhængig) snarere end den "kronisk aktive" BCR-signalering (BTK-afhængig) set i DLBCL-ABC eller MCL. Denne sondring foreslår potentielt begrænset følsomhed over for BTK-inhibering. Den små tarms lokalisering er en anatomisk betragtning, der ikke ændrer lægemidlets mekanisme.
 
-- **Ibrutinib precedent:** FDA approved ibrutinib for R/R MZL (including MALT subtypes) in January 2017, validating the BTK target in this disease.
-- **Thyroid MALT specificity:** Commonly arises from chronic autoimmune thyroiditis (Hashimoto's), where sustained B-cell antigen stimulation activates BCR/BTK pathways.
-- **Acalabrutinib data in MZL:** Trial NCT02180711 (Phase 1b/2) includes an MZL cohort evaluating acalabrutinib ± rituximab (currently active, not recruiting, n=113).
+#### 3.3.2 Klinisk bewis
 
-#### 3.4.2 Clinical Evidence
+- **Kliniske forsøg:** 0 identificeret for denne specifikke indikation
+- **Offentliggjort litteratur:** 0 identificeret
+- **Klasse-effekt-data:** Ingen offentliggjorte BTKi-forsøg specifikt i Burkitt-lymfom
 
-- **Direct clinical trials for MALT-specific sites:** 0 identified
-- **MZL-inclusive trial:** NCT02180711 (Phase 1b/2, active)
-- **Published literature:** 0 identified for site-specific MALT lymphoma
+#### 3.3.3 Vurdering
 
-#### 3.4.3 Assessment
-
-Strong mechanistic rationale supported by class-effect regulatory approval (ibrutinib for MZL). Acalabrutinib's improved selectivity profile may offer advantages over ibrutinib in this typically indolent, long-treatment-duration patient population. Data from NCT02180711 (MZL cohort) may provide supportive evidence upon completion. A dedicated study in site-specific MALT lymphomas is warranted.
+Kun præklinisk/mekanistisk bewis. Den biologiske forskel mellem tonisk og kronisk aktiv BCR-signalering er en betydelig bekymring. Ville kræve dedikeret præklinisk validering før klinisk undersøgelse.
 
 ---
 
-## 4. Safety Considerations
+### 3.4 Indikationer 4–5: MALT-lymfomer (smål-tarm og skjoldbruskkirtel)
 
-### 4.1 Known Adverse Effects (from EMA SmPC — Calquence®)
+**TxGNN-score:** 0.938 / 0.938 | **Bevisniveau: L4** | **Beslutningsstadium: S1 — Forskningsspørgsmål**
 
-**Note:** The original evidence pack flagged safety data as a "Data Gap" from the TFDA context. The following is based on the EMA-authorised product information applicable in Denmark.
+#### 3.4.1 Mekanistisk rationale
 
-| Category | Common (≥1/10) | Notable Serious |
+**Stærk association.** MALT-lymfomer er lavgrads B-celle-lymfomer tilhørende marginalzonelymfom (MZL)-kategorien. De er meget afhængige af BCR-signalering, med NF-κB-sti-konstitutiv aktivering (ofte via API2-MALT1-fusion, TNFAIP3-deletioner eller kronisk antigenudveksling). Vigtige betragtninger:
+
+- **Ibrutinib-præcedens:** FDA godkendte ibrutinib til R/R MZL (herunder MALT-undertyper) i januar 2017, hvilket validerer BTK-målet i denne sygdom.
+- **Thyroid MALT-specificitet:** Opstår almindeligvis fra kronisk autoimmun thyroiditis (Hashimotos), hvor vedvarende B-celle-antigenudveksling aktiverer BCR/BTK-veje.
+- **Acalabrutinib-data i MZL:** Forsøg NCT02180711 (fase 1b/2) omfatter en MZL-kohorte, der evaluerer acalabrutinib ± rituximab (pt. aktiv, ikke rekrutterer, n=113).
+
+#### 3.4.2 Klinisk bewis
+
+- **Direkte kliniske forsøg for MALT-specifikke lokaliseringer:** 0 identificeret
+- **MZL-inklusiv forsøg:** NCT02180711 (fase 1b/2, aktiv)
+- **Offentliggjort litteratur:** 0 identificeret for stedsspecifikt MALT-lymfom
+
+#### 3.4.3 Vurdering
+
+Stærkt mekanistisk rationale understøttet af klasse-effekt-reguleringsmæssig godkendelse (ibrutinib til MZL). Acalabrutinib's forbedrede selektivitetsprofil kan tilbyde fordele over ibrutinib i denne typisk indolente, langtidsbehandlings-patientpopulation. Data fra NCT02180711 (MZL-kohorte) kan give understøttende bewis efter afslutning. En dedikeret studie i stedsspecifikke MALT-lymfomer er berettiget.
+
+---
+
+## 4. Sikkerhedshensyn
+
+### 4.1 Kendte bivirkninger (fra EMA SmPC — Calquence®)
+
+**Bemærk:** Den oprindelige bevissamling markerede sikkerhedsdata som "Databoskab" fra TFDA-sammenhæng. Det følgende er baseret på EMA-godkendt produktinformation gældende i Danmark.
+
+| Kategori | Almindelig (≥1/10) | Bemærkelsesværdig alvorlig |
 |----------|-----------------|-----------------|
-| **Haematologic** | Neutropenia, anaemia, thrombocytopenia | Grade ≥3 neutropenia (~30%), febrile neutropenia |
-| **Infections** | Upper respiratory tract infection, urinary tract infection | Opportunistic infections (PML reported with BTKi class); invasive fungal infections (aspergillosis) |
-| **Bleeding** | Bruising, petechiae | Major haemorrhage (2–4%); epistaxis |
-| **Cardiac** | — | Atrial fibrillation/flutter (~4%, lower than ibrutinib); second primary malignancies |
-| **GI** | Diarrhoea, nausea, abdominal pain | — |
-| **Musculoskeletal** | Headache, arthralgia, myalgia | — |
-| **Other** | Fatigue, rash | Tumour lysis syndrome (rare) |
+| **Hæmatologisk** | Neutropeni, anæmi, trombocytopeni | Grad ≥3 neutropeni (~30%), febril neutropeni |
+| **Infektioner** | Øvre luftvejsinfektioner, urinvejsinfektioner | Opportunistiske infektioner (PML rapporteret med BTKi-klasse); invasive svampeinfektioner (aspergillosis) |
+| **Blødning** | Blå mærker, petekkier | Stor blødning (2–4%); næseblod |
+| **Hjerte** | — | Atrieflimmer/flatren (~4%, lavere end ibrutinib); anden primær malignitet |
+| **GI** | Diarré, kvalme, mavesmerter | — |
+| **Muskel-skelet** | Hovedpine, arthralgia, myalgia | — |
+| **Øvrigt** | Træthed, udslæt | Tumorlysersyndrom (sjælden) |
 
-**Key Safety Advantage vs. Ibrutinib:** Head-to-head data (ELEVATE-RR trial) demonstrated significantly lower rates of atrial fibrillation, hypertension, and bleeding with acalabrutinib compared to ibrutinib.
+**Vigtigste sikkerhedsfordel vs. ibrutinib:** Head-to-head data (ELEVATE-RR forsøget) demonstrerede væsentligt lavere rater af atrieflimmer, hypertension og blødning med acalabrutinib sammenlignet med ibrutinib.
 
-### 4.2 Drug Interactions
+### 4.2 Lægemiddel-lægemiddel-interaktioner
 
-| Interaction Type | Agent(s) | Effect | Management |
+| Interaktionstype | Lægemiddel | Effekt | Håndtering |
 |-----------------|----------|--------|------------|
-| **Strong CYP3A4 inhibitors** | Ketoconazole, itraconazole, clarithromycin, ritonavir | ↑ acalabrutinib exposure | **Avoid concomitant use** |
-| **Moderate CYP3A4 inhibitors** | Fluconazole, erythromycin, diltiazem | ↑ acalabrutinib exposure | Reduce dose to 100 mg QD |
-| **Strong CYP3A4 inducers** | Rifampicin, phenytoin, carbamazepine, St. John's wort | ↓ acalabrutinib exposure | **Avoid concomitant use** |
-| **Gastric acid-reducing agents** | PPIs (omeprazole), H2RAs (ranitidine) | ↓ acalabrutinib absorption | Avoid PPIs; separate H2RA dosing by 2 hours |
-| **Anticoagulants/antiplatelets** | Warfarin, DOACs, aspirin | ↑ bleeding risk | Monitor closely; risk–benefit assessment |
-| **CYP3A4 substrates** | — | Acalabrutinib is a weak CYP3A4 inducer | Monitor narrow TI drugs |
+| **Stærke CYP3A4-inhibitorer** | Ketokonazol, itrakonazol, clarithromycin, ritonavir | ↑ acalabrutinib-eksponering | **Undgå samtidig brug** |
+| **Moderate CYP3A4-inhibitorer** | Flukonazol, erythromycin, diltiazem | ↑ acalabrutinib-eksponering | Reducer dosis til 100 mg QD |
+| **Stærke CYP3A4-inducere** | Rifampicin, phenytoin, carbamazepin, Johannesurt | ↓ acalabrutinib-eksponering | **Undgå samtidig brug** |
+| **Magnesyre-reducerende midler** | PPI'er (omeprazol), H2RA'er (ranitidin) | ↓ acalabrutinib-absorption | Undgå PPI'er; separer H2RA-dosering med 2 timer |
+| **Antikoagulantia/antitrombotika** | Warfarin, DOAK'er, aspirin | ↑ blødningsrisiko | Overvåg tæt; risiko–nytte-vurdering |
+| **CYP3A4-substrater** | — | Acalabrutinib er en svag CYP3A4-inducer | Overvåg lægemidler med snæver TI |
 
-### 4.3 Contraindications (EMA SmPC)
+### 4.3 Kontraindikationer (EMA SmPC)
 
-- Hypersensitivity to acalabrutinib or excipients
-- Concomitant use with strong CYP3A4 inhibitors (relative contraindication)
+- Overfølsomhed over for acalabrutinib eller hjælpestoffer
+- Samtidig brug med stærke CYP3A4-inhibitorer (relativ kontraindikation)
 
-### 4.4 Special Populations
+### 4.4 Specielle populationer
 
-| Population | Consideration |
-|------------|---------------|
-| **Hepatic impairment** | Mild–moderate: no dose adjustment; severe: not recommended (insufficient data) |
-| **Renal impairment** | No dose adjustment required |
-| **Pregnancy** | Avoid — potential foetal harm based on animal data |
-| **Elderly** | No dose adjustment; monitor for infections |
+| Befolkning | Betragtning |
+|-----------|------------|
+| **Hepatisk svækkelse** | Mild–moderat: ingen dosisjustering; alvorlig: ikke anbefalet (utilstrækkelig data) |
+| **Renal svækkelse** | Ingen dosisjustering påkrævet |
+| **Graviditet** | Undgå — potentiel fosterskade baseret på dyreforsøgsdata |
+| **Ældre** | Ingen dosisjustering; overvåg for infektioner |
 
 ---
 
-## 5. Regulatory Status
+## 5. Reguleringsmæssig status
 
-### 5.1 Denmark (Lægemiddelstyrelsen)
+### 5.1 Danmark (Lægemiddelstyrelsen)
 
 | Parameter | Status |
 |-----------|--------|
-| **Marketing authorisation** | **Authorised** (via EMA centralised procedure EU/1/20/1479) |
-| **Approved indications** | CLL (monotherapy or combination), MCL (monotherapy, ≥1 prior therapy) |
-| **Brand name** | Calquence® |
+| **Markedsføringstilladelse** | **Godkendt** (via EMA-centraliseret procedure EU/1/20/1479) |
+| **Godkendte indikationer** | CLL (monoterap eller kombination), MCL (monoterap, ≥1 tidligere behandling) |
+| **Varemærkesnavn** | Calquence® |
 | **MAH** | AstraZeneca AB |
-| **Reimbursement** | Subject to Medicinrådet (Danish Medicines Council) assessment; check current status on Medicinpriser.dk |
-| **Prescription status** | Prescription-only (Rx) |
+| **Refusion** | Underlagt Medicinrådet-vurdering (Danish Medicines Council); kontroller aktuel status på Medicinpriser.dk |
+| **Receptpligt** | Receptpligtig (Rx) |
 
-### 5.2 EMA Status
-
-| Parameter | Status |
-|-----------|--------|
-| **Centralised MA** | Granted 05 November 2020 |
-| **Approved indications** | CLL (treatment-naïve in combination with obinutuzumab or as monotherapy; R/R as monotherapy); MCL (R/R, ≥1 prior therapy) |
-| **Orphan designation** | No |
-| **Conditional/exceptional** | Standard MA |
-
-### 5.3 FDA Status (United States)
+### 5.2 EMA-status
 
 | Parameter | Status |
 |-----------|--------|
-| **First approval** | 31 October 2017 (accelerated, MCL) |
-| **Full approval** | November 2019 (CLL/SLL) |
-| **Approved indications** | MCL (≥1 prior therapy), CLL/SLL |
-| **Breakthrough therapy** | Designated for MCL |
+| **Centraliseret MA** | Tildelt 05. november 2020 |
+| **Godkendte indikationer** | CLL (behandlingsnaiv i kombination med obinutuzumab eller som monoterap; R/R som monoterap); MCL (R/R, ≥1 tidligere behandling) |
+| **Sjælden sygdommers betegnelse** | Nej |
+| **Betinget/undtagelse** | Standard MA |
 
-### 5.4 Regulatory Status for Predicted Indications
+### 5.3 FDA-status (USA)
 
-| Indication | Denmark/EMA | FDA | Any Jurisdiction |
-|------------|-------------|-----|------------------|
-| Familial NHL | Not specifically approved; MCL approval covers one NHL subtype | MCL approved | MCL and CLL approved globally |
-| Colon adenocarcinoma | Not approved | Not approved | Not approved anywhere |
-| Burkitt lymphoma | Not approved | Not approved | Not approved anywhere |
-| MALT lymphoma (any site) | Not approved | Not approved (ibrutinib approved for MZL) | Ibrutinib approved for MZL (FDA) |
-| DLBCL | Not approved | Not approved | Clinical trials ongoing |
+| Parameter | Status |
+|-----------|--------|
+| **Første godkendelse** | 31. oktober 2017 (accelereret, MCL) |
+| **Fuld godkendelse** | November 2019 (CLL/SLL) |
+| **Godkendte indikationer** | MCL (≥1 tidligere behandling), CLL/SLL |
+| **Gennembruds-terapi** | Udpeget for MCL |
 
----
+### 5.4 Reguleringsmæssig status for foreslåede indikationer
 
-## 6. Conclusion and Recommendations
-
-### 6.1 Overall Assessment
-
-| Indication | Final Score | Evidence | Mechanistic | Regulatory Path | Verdict |
-|------------|------------|----------|-------------|-----------------|---------|
-| **Familial NHL** | **L1** | Phase 3 RCT + pivotal Phase 2 + multiple ongoing trials | Strong (direct BTK/BCR target) | Already partially approved (MCL subtype); label extension feasible | **Proceed with Guardrails** |
-| **MALT lymphomas** | **L4** | Indirect (ibrutinib MZL approval; NCT02180711 MZL cohort) | Strong | Class-effect precedent exists | **Research Question — High Priority** |
-| **Burkitt lymphoma** | **L4** | None | Moderate (tonic vs. active BCR concern) | No precedent | **Research Question — Low Priority** |
-| **Colon adenocarcinoma** | **L5** | None | Weak | No precedent | **Hold — Not Recommended** |
-
-### 6.2 Evidence Gaps
-
-| Gap ID | Description | Severity | Remediation |
-|--------|-------------|----------|-------------|
-| DG001 | Lægemiddelstyrelsen/EMA SmPC warnings and contraindications — detailed extraction needed | High | Download SmPC from EMA product page and parse |
-| DG002 | MOA detail flagged in evidence pack — **resolved** in this report via literature review | Resolved | — |
-| DG003 | No Denmark-specific registry data (RKKP / Danish Lymphoma Group) on acalabrutinib use in NHL | Medium | Query RKKP-LYFO (Danish National Lymphoma Registry) |
-| DG004 | No ICTRP-registered Nordic trials identified | Low | Search NordicTrialAlliance / EudraCT for Scandinavian centres |
-| DG005 | Medicinrådet reimbursement assessment status not confirmed | Medium | Check current Medicinrådet recommendations |
-| DG006 | Drug–drug interaction data gap in evidence pack | Resolved | Populated from EMA SmPC in this report |
-| DG007 | No pharmacovigilance signal data from Danish ADR database | Low | Query Danish Pharmacovigilance database |
-
-### 6.3 Suggested Next Steps
-
-#### For Familial NHL (Priority: High)
-
-1. **Label extension analysis:** Acalabrutinib is already EMA-approved for MCL. Evaluate whether existing MCL data, combined with broader NHL trial results, supports a Lægemiddelstyrelsen compassionate use or off-label recommendation for other NHL subtypes not covered by current labelling.
-2. **Monitor ongoing trials:** Key trials to track:
-   - NCT04546620 (n=453, DLBCL, Phase 2) — results expected ~2028
-   - NCT07377578 (n=394, MCL Phase 3, acalabrutinib as comparator) — results expected ~2033
-   - NCT04883437 (n=49, indolent NHL Phase 2) — results expected ~2027
-3. **Danish registry study:** Collaborate with RKKP-LYFO to evaluate real-world outcomes of acalabrutinib in Danish NHL patients receiving off-label treatment.
-4. **Familial NHL subgroup analysis:** Request manufacturer data on outcomes in patients with family history of NHL from existing pivotal trials.
-
-#### For MALT Lymphomas (Priority: Medium)
-
-1. **Await NCT02180711 MZL cohort data** (expected completion 2028).
-2. **Propose investigator-initiated trial** in partnership with Danish Lymphoma Group (DLG) for acalabrutinib in R/R MALT lymphoma, leveraging ibrutinib MZL data as proof of concept.
-3. **Pharmacovigilance comparison:** Compare long-term safety profiles of acalabrutinib vs. ibrutinib for the indolent, long-treatment-duration MALT population — acalabrutinib's selectivity advantage may be clinically meaningful.
-
-#### For Burkitt Lymphoma (Priority: Low)
-
-1. **Preclinical validation required:** Recommend in vitro studies of acalabrutinib in Burkitt lymphoma cell lines to assess sensitivity (tonic vs. active BCR signalling dependency).
-2. **Do not pursue clinical investigation** until preclinical data supports BTK-dependence.
-
-#### For Colon Adenocarcinoma (Priority: None)
-
-1. **No further action recommended.** Insufficient mechanistic rationale and absence of any supporting evidence.
+| Indikation | Danmark/EMA | FDA | Enhver jurisdiktion |
+|-----------|-----------|-----|---------------|
+| Familial NHL | Ikke specifikt godkendt; MCL-godkendelse dækker én NHL-subtype | MCL godkendt | MCL og CLL godkendt globalt |
+| Kolonstrup-adenokarcinom | Ikke godkendt | Ikke godkendt | Ikke godkendt nogen steder |
+| Burkitt-lymfom | Ikke godkendt | Ikke godkendt | Ikke godkendt nogen steder |
+| MALT-lymfom (enhver lokalitet) | Ikke godkendt | Ikke godkendt (ibrutinib godkendt for MZL) | Ibrutinib godkendt for MZL (FDA) |
+| DLBCL | Ikke godkendt | Ikke godkendt | Kliniske forsøg igangværende |
 
 ---
 
-## Appendix A: Data Sources & Query Log Summary
+## 6. Konklusion og anbefalinger
 
-| Source | Queries | Results |
+### 6.1 Samlet vurdering
+
+| Indikation | Slutscore | Bewis | Mekanistisk | Reguleringsmæssig vej | Konklusion |
+|-----------|-----------|----------|-----------|-----|---------|
+| **Familial NHL** | **L1** | Fase 3 RCT + pivotal fase 2 + flere igangværende forsøg | Stærk (direkte BTK/BCR-mål) | Allerede delvis godkendt (MCL-subtype); etiketerudvidelse mulig | **Fortsæt med sikkerhedsmekanismer** |
+| **MALT-lymfomer** | **L4** | Indirekte (ibrutinib MZL-godkendelse; NCT02180711 MZL-kohorte) | Stærk | Klasse-effekt-præcedens findes | **Forskningsspørgsmål — høj prioritet** |
+| **Burkitt-lymfom** | **L4** | Ingen | Moderat (tonisk vs. aktiv BCR-bekymring) | Ingen præcedens | **Forskningsspørgsmål — lav prioritet** |
+| **Kolonstrup-adenokarcinom** | **L5** | Ingen | Svag | Ingen præcedens | **Afvent — ikke anbefalet** |
+
+### 6.2 Bevissboskeller
+
+| Boskab-ID | Beskrivelse | Alvorlighed | Løsning |
+|--------|-----------|----------|-----------|
+| DG001 | Lægemiddelstyrelsen/EMA SmPC-advarsler og kontraindikationer — detaljeret ekstraktion nødvendig | Høj | Download SmPC fra EMA-produktside og parser |
+| DG002 | MOA-detalje markeret i bevissamling — **løst** i denne rapport via litteraturgennemgang | Løst | — |
+| DG003 | Ingen Danmark-specifikke registreringsdata (RKKP / Danish Lymphoma Group) om acalabrutinib-brug i NHL | Moderat | Forespørg RKKP-LYFO (Dansk Nationalt Lymfom-register) |
+| DG004 | Ingen ICTRP-registrerede nordiske forsøg identificeret | Lav | Søg NordicTrialAlliance / EudraCT efter skandinaviske centre |
+| DG005 | Medicinrådet-refusions-vurderingsstatus ikke bekræftet | Moderat | Kontroller aktuelle Medicinrådet-anbefalinger |
+| DG006 | Lægemiddel–lægemiddel-interaktions-databoskab i bevissamling | Løst | Udfyldt fra EMA SmPC i denne rapport |
+| DG007 | Ingen farmakovigilans-signaldata fra dansk bivirknings-database | Lav | Forespørg dansk farmakovigilans-database |
+
+### 6.3 Foreslåede næste trin
+
+#### For familial NHL (Prioritet: høj)
+
+1. **Etiketanalyse for udvidelse:** Acalabrutinib er allerede EMA-godkendt for MCL. Evaluer, om eksisterende MCL-data, kombineret med bredere NHL-forsøgsresultater, understøtter Lægemiddelstyrelse-godkendelse til humanitær brug eller off-label-anbefaling til andre NHL-undertyper, der ikke er dækket af aktuel etikettering.
+2. **Overvåg igangværende forsøg:** Vigtige forsøg at følge:
+   - NCT04546620 (n=453, DLBCL, fase 2) — resultater forventet ~2028
+   - NCT07377578 (n=394, MCL fase 3, acalabrutinib som sammenligning) — resultater forventet ~2033
+   - NCT04883437 (n=49, indolent NHL fase 2) — resultater forventet ~2027
+3. **Dansk register-studie:** Samarbejd med RKKP-LYFO for at evaluere reale resultater for acalabrutinib i danske NHL-patienter modtager off-label behandling.
+4. **Familial NHL-undergruppe-analyse:** Anmod fabrikant-data på resultater i patienter med familiehistorie med NHL fra eksisterende pivotale forsøg.
+
+#### For MALT-lymfomer (Prioritet: moderat)
+
+1. **Afventer NCT02180711 MZL-kohorte-data** (forventet afslutning 2028).
+2. **Proponér initiator-finansieret forsøg** i partnerskab med Danish Lymphoma Group (DLG) for acalabrutinib i R/R MALT-lymfom, der udnytter ibrutinib MZL-data som bevis for koncept.
+3. **Farmakovigilans-sammenligning:** Sammenlign langsigtede sikkerhedsprofiler for acalabrutinib vs. ibrutinib for den indolente, langtidsbehandlings MALT-population — acalabrutinibs selektivitetsfordel kan være klinisk meningsfuld.
+
+#### For Burkitt-lymfom (Prioritet: lav)
+
+1. **Præklinisk validering påkrævet:** Anbefal in vitro-studier af acalabrutinib i Burkitt-lymfom-cellelinjer for at vurdere følsomhed (tonisk vs. aktiv BCR-signalering-afhængighed).
+2. **Forfølg ikke klinisk undersøgelse** før præklinisk data understøtter BTK-afhængighed.
+
+#### For kolonstrup-adenokarcinom (Prioritet: ingen)
+
+1. **Ingen yderligere handling anbefalet.** Utilstrækkelig mekanistisk rationale og fravær af nogen understøttende bewis.
+
+---
+
+## Tillæg A: Datakilder og forespørgsel-logsammenfattelse
+
+| Kilde | Forespørgsler | Resultater |
 |--------|---------|---------|
-| ClinicalTrials.gov | 10 queries across 5 indications | 20 trials (NHL); 0 (all others) |
-| ICTRP | 10 queries | 0 across all indications |
-| PubMed | 10 queries | 20 publications (NHL); 0 (all others) |
-| DrugBank | 1 query | 1 result (drug identified) |
-| DDI database | 1 query | 0 results (data gap) |
+| ClinicalTrials.gov | 10 forespørgsler på tværs af 5 indikationer | 20 forsøg (NHL); 0 (alle andre) |
+| ICTRP | 10 forespørgsler | 0 på tværs af alle indikationer |
+| PubMed | 10 forespørgsler | 20 publikationer (NHL); 0 (alle andre) |
+| DrugBank | 1 forespørgsel | 1 resultat (lægemiddel identificeret) |
+| DDI-database | 1 forespørgsel | 0 resultater (databoskab) |
 
-**Data collection date:** 2026-03-24
+**Dataindsamlingsdato:** 2026-03-24
 
-## Appendix B: Evidence Level Definitions
+## Tillæg B: Bevisni-definitioner
 
-| Level | Definition | Applicable Indications |
-|-------|------------|----------------------|
-| **L1** | Phase 3+ clinical trial evidence | Familial NHL |
-| **L2** | Phase 2 clinical trial evidence | — |
-| **L3** | Observational study evidence | — |
-| **L4** | Preclinical/mechanistic evidence | Burkitt lymphoma, MALT lymphomas |
-| **L5** | AI prediction only (no clinical evidence) | Colon adenocarcinoma |
+| Niveau | Definition | Gældende indikationer |
+|--------|------------|----------------------|
+| **L1** | Fase 3+ klinisk forsøg-bewis | Familial NHL |
+| **L2** | Fase 2 klinisk forsøg-bewis | — |
+| **L3** | Observationel studie-bewis | — |
+| **L4** | Præklinisk/mekanistisk bewis | Burkitt-lymfom, MALT-lymfomer |
+| **L5** | Kun AI-prediction (ingen klinisk bewis) | Kolonstrup-adenokarcinom |
 
 ---
 
-> **Disclaimer:** This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. This report was prepared in the context of the Danish Medicines Agency (Lægemiddelstyrelsen) regulatory framework. Clinicians should consult the current EMA-approved Summary of Product Characteristics (SmPC) and Medicinrådet guidelines before making prescribing decisions.
+> **Disclaimer:** Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle stoffornyelses-kandidater kræver klinisk validering før terapeutisk anvendelse. Denne rapport blev udarbejdet i sammenhæng med det danske lægemiddelakturs (Lægemiddelstyrelsen) reguleringsmæssige rammer. Læger bør konsultere det aktuelle EMA-godkendt produktinformationsblad (SmPC) og Medicinrådet-retningslinjer før de træffer receptskrivningsbeslutninger.
 >
-> **YMYL Notice:** The content herein pertains to pharmaceutical and oncological research. Treatment decisions must be made by qualified healthcare professionals in consultation with patients.
+> **YMYL-meddelelse:** Indholdet heri vedrører farmaceutisk og onkologisk forskning. Behandlingsbeslutninger skal træffes af kvalificerede sundhedspersonale i konsultation med patienter.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,90 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Deferasirox: From Chronic Iron Overload to HIV Infectious Disease
+# Deferasirox: Fra kronisk jernoverskud til HIV-infektionssygdom
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Deferasirox is an oral iron chelator used internationally for chronic iron overload due to frequent blood transfusions (e.g., in β-thalassaemia and myelodysplastic syndrome).
-The TxGNN model predicts it may be effective for **HIV Infectious Disease**, with a prediction score of 99.40%.
-Currently, **0 clinical trials** and **2 publications** support this direction — both at the preclinical, mechanistic level only.
+Deferasirox er en oral jernchelator, der bruges internationalt til kronisk jernoverskud på grund af hyppige blodtransfusioner (f.eks. ved β-thalassæmi og myelodysplastisk syndrom).
+TxGNN-modellen forudsiger, at det kan være effektivt til **HIV-infektionssygdom**, med en prognose-score på 99,40%.
+Aktuelt **0 kliniske forsøg** og **2 publikationer** understøtter denne retning — begge kun på præklinisk, mekanistisk niveau.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Chronic iron overload due to frequent blood transfusions (transfusional haemosiderosis) |
-| Predicted New Indication | HIV Infectious Disease |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L4 (preclinical/mechanistic studies only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Kronisk jernoverskud på grund af hyppige blodtransfusioner (transfusionsbetinget hemosiderosis) |
+| Forudsagt ny indikation | HIV-infektionssygdom |
+| TxGNN Prognose Score | 99,40% |
+| Evidensniveau | L4 (kun prækliniske/mekanistiske studier) |
+| Status på det danske marked | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afhold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognose rimelig?
 
-Detailed mechanism of action data from DrugBank was not available for this report. Based on established pharmacology, Deferasirox is a once-daily oral iron chelator that selectively binds trivalent iron (Fe³⁺) with high affinity, promoting iron excretion via urine and faeces. Its proven efficacy in reducing systemic iron burden in transfusion-dependent patients (β-thalassaemia, MDS) is the foundation from which this repurposing hypothesis is derived.
+Detaljerede data om virkningsmekanisme fra DrugBank var ikke tilgængelige for denne rapport. Baseret på etableret farmakologi er deferasirox en oral jernchelator, der tages én gang dagligt og selektivt binder trivalent jern (Fe³⁺) med høj affinitet, hvilket fremmer jernafsondring via urin og fæces. Dens dokumenterede effektivitet til at reducere systemisk jernbelastning hos transfusionsafhængige patienter (β-thalassæmi, MDS) er grundlaget for denne hypotese om gentildelingspotentiale.
 
-Iron metabolism plays a fundamental role in the HIV-1 replication cycle. Endolysosomal free iron facilitates correct folding of the HIV-1 Tat protein, enabling it to transactivate the LTR promoter — a critical step that drives viral gene expression. By chelating intracellular free iron within endolysosomes, Deferasirox may induce abnormal oligomerization of HIV-1 Tat, thereby disrupting LTR transactivation and suppressing viral replication. This constitutes a potential **host-directed antiviral therapy (HDT)** mechanism that does not overlap with any existing antiretroviral (ARV) drug target, suggesting theoretical potential for combination use.
+Jernmetabolisme spiller en grundlæggende rolle i HIV-1-replikationscyklus. Frit jern i endolysosomet letter korrekt foldning af HIV-1 Tat-proteinet, hvilket gør det muligt at transaktivere LTR-promotoren — et kritisk trin, der driver virale genudtrykt. Ved at chelere indre frit jern inden for endolysosomer kan deferasirox fremkalde unormal oligomerisering af HIV-1 Tat, hvilket dermed forstyrrer LTR-transaktivering og undertrykker viral replikation. Dette udgør en potentiel **vært-rettet antiviral terapi (HDT)**-mekanisme, som ikke overlapper med nogen eksisterende antiretroviral (ARV) medicin-target, hvilket tyder på teoretisk potentiale for kombinationsbrug.
 
-It must be emphasised that this mechanistic hypothesis rests solely on in vitro evidence. No animal model studies or human clinical data have been generated to date. At this stage, the prediction is best classified as an early research question rather than a clinical development candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Det må understreges, at denne mekanistiske hypotese udelukkende hviler på in vitro-bevis. Der er ikke genereret nogen dyremodel-studier eller humane kliniske data til dato. På dette stadium klassificeres prognosen bedst som et tidligt forskningsspørgsmål snarere end en kandidat til klinisk udvikling.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | In vitro mechanistic study | Journal of Neurovirology | Endolysosomal iron promotes HIV-1 Tat-mediated LTR transactivation; chelation of endolysosomal iron increases HIV-1 Tat oligomerization and β-catenin expression, restricting viral transcriptional activation — provides the primary mechanistic rationale for this repurposing prediction |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Drug overview / new drug summary | Journal of the American Pharmacists Association | Narrative overview of Deferasirox at initial approval; no direct evidence for HIV indication, but contextualises the drug's pharmacological profile |
+Aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-No marketing authorisations for Deferasirox were identified in the Danish Medicines Agency (Laegemiddelstyrelsen) dataset (0 registered authorisations).
-
-> **Clinical Note:** Deferasirox (Exjade®, Jadenu®) holds a centralised EMA marketing authorisation (EU/1/05/313) that is valid across all EU/EEA member states, including Denmark. Healthcare professionals should verify current availability, reimbursement status, and approved indications directly with the Danish Medicines Agency or via the EMA product information portal.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> Safety data (key warnings, contraindications, and drug interactions) were not available in this Evidence Pack. This is classified as a **Blocking Data Gap** (DG001) that must be resolved before any clinical safety assessment can proceed. The SmPC for Exjade®/Jadenu® is available via the EMA website.
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|-----------|-------------|
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | In vitro mekanistisk studie | Journal of Neurovirology | Frit jern i endolysosomer fremmer HIV-1 Tat-medieret LTR-transaktivering; chelering af jern i endolysosomer øger HIV-1 Tat-oligomerisering og β-catenin-ekspression, hvilket begrænser viral transkriptionel aktivering — giver det primære mekanistiske rationalet for denne genuddelingsprognose |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Medicin-oversigt / nyt medicin-resumé | Journal of the American Pharmacists Association | Narrativ oversigt over deferasirox ved første godkendelse; ingen direkte bevis for HIV-indikation, men kontekstualiserer medicinets farmakologiske profil |
 
 ---
 
-## Conclusion and Next Steps
+## Information om det danske marked
 
-**Decision: Hold**
+Ingen markedsføringstilladelser for deferasirox blev identificeret i datasættet fra Lægemiddelstyrelsen (0 registrerede tilladelser).
 
-**Rationale:**
-Evidence is limited exclusively to in vitro mechanistic studies (Evidence Level L4) with no clinical trials and no observational human data. The iron-chelation / HIV-Tat oligomerization hypothesis is biologically coherent but entirely unvalidated beyond the cell culture setting, making clinical translation premature at this stage.
-
-**To proceed, the following is needed:**
-
-- **Resolve Blocking Data Gap (DG001):** Obtain and review the full SmPC (warnings, contraindications, drug-drug interactions) before any safety pre-screening can be completed
-- **Resolve High-Priority Data Gap (DG002):** Confirm Deferasirox MOA via DrugBank API to support mechanistic linkage analysis
-- **In vivo validation:** Animal model studies (e.g., HIV-infected humanised mouse models) demonstrating antiviral activity of Deferasirox
-- **DDI assessment with ARV regimens:** Evaluate pharmacokinetic interactions between Deferasirox and standard antiretroviral drugs (e.g., integrase inhibitors, protease inhibitors, NRTIs), particularly given Deferasirox's known interactions with CYP3A4 and UGT substrates
-- **CNS penetration data:** Given the relevance to HIV-associated neurocognitive disorder (HAND) highlighted in the mechanistic paper, CNS pharmacokinetic profiling would be required for this indication
-- **Proof-of-concept clinical study design:** If preclinical validation is successful, a Phase 1b/2a adjunctive study in virologically suppressed PLHIV or a treatment-intensification model should be defined before advancing further
+> **Klinisk note:** Deferasirox (Exjade®, Jadenu®) har en centraliseret EMA-markedsføringstilladelse (EU/1/05/313), som gælder på tværs af alle EU/EØS-medlemsstater, herunder Danmark. Sundhedsprofessionelle bør verificere aktuel tilgængelighed, refusionsstatus og godkendte indikationer direkte hos Lægemiddelstyrelsen eller via EMA's produktinformationsportal.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+> Sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) var ikke tilgængelige i dette Evidence Pack. Dette klassificeres som en **Blocking Data Gap** (DG001), der skal løses, før nogen klinisk sikkerhedsvurdering kan fortsætte. SmPC'et for Exjade®/Jadenu® er tilgængeligt via EMA-webstedet.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afhold**
+
+**Begrundelse:**
+Bevis er begrænset udelukkende til in vitro mekanistiske studier (Evidensniveau L4) uden kliniske forsøg og uden observationelle humane data. Hypotesen om jern-chelering / HIV-Tat-oligomerisering er biologisk sammenhængende, men helt uvalideret uden for cellekulturafsnittet, hvilket gør klinisk translation for tidlig på dette stadium.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+- **Løs Blocking Data Gap (DG001):** Indhent og gennemse det fulde SmPC (advarsler, kontraindikationer, lægemiddel-lægemiddel-interaktioner), før nogen sikkerhed præ-screening kan fuldføres
+- **Løs High-Priority Data Gap (DG002):** Bekræft deferasirox MOA via DrugBank API for at understøtte mekanistisk forbindelsesanalyse
+- **In vivo-validering:** Dyremodel-studier (f.eks. HIV-inficerede humaniserede musemodeller), der demonstrerer antiviral aktivitet af deferasirox
+- **DDI-vurdering med ARV-regimerter:** Evaluer farmakokinetiske interaktioner mellem deferasirox og standard antiretroviral medicin (f.eks. integrase-inhibitorer, protease-inhibitorer, NRTIer), især given deferasirox's kendte interaktioner med CYP3A4 og UGT-substrater
+- **CNS-penetreringsdata:** I betragtning af relevansen til HIV-associeret neurokognitiv dysfunktion (HAND), som fremhæves i det mekanistiske papir, ville CNS farmakokinetisk profilering være påkrævet for denne indikation
+- **Proof-of-concept klinisk studiedesign:** Hvis præklinisk validering er succesfuld, bør et Phase 1b/2a-tilførelsesstudium hos virologisk suppresseret PLHIV eller en behandlings-intensificeringsmodel defineres, før der går videre
+
+---
+
+*Denne rapport er genereret til forskningsformål og udgør ikke medicinsk rådgivning. Alle lægemiddel-genuddelingskandidater kræver klinisk validering før anvendelse til terapi.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

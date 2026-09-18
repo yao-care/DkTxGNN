@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pimobendan: From Canine Congestive Heart Failure to Mixed Mineral Dust Pneumoconiosis
+# Pimobendan: Fra canin kongestiv hjerteinsufficiens til blandet mineralstøvpneumokonose
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Pimobendan is a PDE3 inhibitor / calcium sensitizer known for its positive inotropic and vasodilatory effects in canine congestive heart failure. The TxGNN model's top prediction is **Mixed Mineral Dust Pneumoconiosis**, but this is supported by **0 clinical trials** and **0 publications**, and the prediction score (50%) corresponds to an uninformative baseline value rather than a genuine signal.
+Pimobendan er en PDE3-inhibitor/calciumsensibilisator kendt for sine positive inotrope og vasodilatatoriske effekter ved canin kongestiv hjerteinsufficiens. TxGNN-modellens topforudsigelse er **blandet mineralstøvpneumokonose**, men denne understøttes af **0 kliniske forsøg** og **0 publikationer**, og forudsigelsesscore (50%) svarer til en ikke-informativ baselineværdi snarere end et ægte signal.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not available from Danish registry data (drug not marketed, no approved indication text on file). The evidence pack's mechanistic notes reference canine congestive heart failure as the drug's known use. |
-| Predicted New Indication | Mixed Mineral Dust Pneumoconiosis |
-| TxGNN Prediction Score | 50% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke tilgængelig fra dansk registerdata (medicin ikke markedsført, ingen godkendt indikationstekst på arkiv). Bevispakningen's mekanistiske noter refererer til canin kongestiv hjerteinsufficiens som medicinens kendt anvendelse. |
+| Forudsagt ny indikation | Blandet mineralstøvpneumokonose |
+| TxGNN-forudsigelsesscore | 50% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for pimobendan is flagged as a data gap in this evidence pack (severity: High). The only mechanistic context available comes from the repurposing rationale notes, which describe pimobendan as a PDE3 inhibitor/calcium sensitizer used clinically for its positive inotropic and vasodilatory effects.
+Detaljerede virkningsmekanisme-data for pimobendan er markeret som et datahul i denne bevispakke (alvorlighed: høj). Den eneste mekanistiske kontekst, der er tilgængelig, kommer fra omstillings-rationale-noter, som beskriver pimobendan som en PDE3-inhibitor/calciumsensibilisator brugt klinisk for sine positive inotrope og vasodilatatoriske effekter.
 
-Importantly, the evidence pack's own assessment states this prediction is **not** mechanistically supported: there is no known relationship between pimobendan's cardiovascular pharmacology and the fibrotic/inflammatory processes underlying mixed mineral dust pneumoconiosis. A TxGNN score of 0.5 corresponds to an uninformative default value rather than a meaningful signal — the model is effectively expressing no preference. The same pattern holds across all ten ranked predictions for this drug (all scored 0.5, all evidence level L5, all recommended Hold), several of which are rare genetic syndromes or immune-mediated conditions with no plausible pharmacological link to pimobendan.
+Vigtigst er det, at bevispakningen's egen vurdering angiver, at denne forudsigelse **ikke** er mekanistisk understøttet: der er ingen kendt sammenhæng mellem pimobendan's kardiovaskulær farmakologi og de fibrotiske/inflammatoriske processer, der ligger til grund for blandet mineralstøvpneumokonose. En TxGNN-score på 0.5 svarer til en ikke-informativ standardværdi snarere end et meningsfuldt signal — modellen udtrykker effektivt ingen præference. Det samme mønster gælder for alle ti rangerede forudsigelser for denne medicin (alle scoret 0.5, alle bevisniveau L5, alle anbefalet Afvent), flere af hvilke er sjældne genetiske syndromer eller immun-mediere tilstande uden plausibel farmakologisk forbindelse til pimobendan.
 
-Given this, the prediction should be treated as a low-confidence model artifact rather than a credible repurposing hypothesis at this time.
+I betragtning heraf bør forudsigelsen behandles som et lavt-konfidensmodel-artefakt snarere end en troværdig omstillings-hypotese på nuværende tidspunkt.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+Aktuelt ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbeviser
 
-Currently no related literature available.
+Aktuelt ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Pimobendan currently holds no marketing authorisation in Denmark (market status: not marketed; 0 authorisations on file), so no product/dosage-form information is available.
+Pimobendan har aktuelt ingen markedsføringstilladelse i Danmark (markedsstatus: ikke markedsført; 0 tilladelser på arkiv), så ingen produkt-/doseringsform-information er tilgængelig.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: TFDA/regulatory warning and contraindication data for this drug are flagged as a **Blocking** data gap (DG001) — this must be resolved before any safety evaluation (S1 stage) can proceed.
+Se venligst den godkendte produktkarakteristika-oversigt (SmPC) for sikkerhedsinformation. Bemærk: TFDA/regulatorisk advarsel og kontraindikationsdata for denne medicin er markeret som et **blokerende** datahul (DG001) — dette skal løses, før nogen sikkerhedsvurdering (S1-trin) kan fortsætte.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-- All ten predicted indications carry the same uninformative TxGNN score (0.5), no supporting clinical trials or literature, and evidence level L5. The pack itself notes no mechanistic plausibility for the top-ranked indication. The drug is not marketed in Denmark, and core safety data (warnings/contraindications) are a Blocking data gap.
+**Begrundelse:**
+- Alle ti forudsagte indikationer bærer den samme ikke-informativ TxGNN-score (0.5), ingen understøttende kliniske forsøg eller litteratur, og bevisniveau L5. Pakken selv bemærker ingen mekanistisk plausibilitet for den højest rangerede indikation. Medicinen er ikke markedsført i Danmark, og centrale sikkerhedsdata (advarsler/kontraindikationer) er et blokerende datahul.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC warnings and contraindications (Blocking gap, DG001)
-- Verified mechanism of action data (High-priority gap, DG002)
-- Re-run TxGNN prediction with a properly discriminating score to confirm whether the current 0.5 values reflect genuine model uncertainty or a data/mapping issue
-- Any preliminary preclinical or mechanistic rationale connecting pimobendan's cardiovascular pharmacology to the predicted indication before further evaluation is warranted
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/SmPC-advarsler og kontraindikationer (blokerende hul, DG001)
+- Verificeret virkningsmekanisme-data (høj-prioritets-hul, DG002)
+- Genkørsel af TxGNN-forudsigelse med en korrekt diskriminerende score for at bekræfte, om de nuværende 0.5-værdier afspejler ægte modelusikkerhed eller et data- eller mappingproblem
+- Eventuel preliminær præ-klinisk eller mekanistisk begrundelse, der forbinder pimobendan's kardiovaskulær farmakologi til den forudsagte indikation, før yderligere evaluering er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

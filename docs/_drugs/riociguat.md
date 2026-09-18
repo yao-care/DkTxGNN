@@ -29,62 +29,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Riociguat: From Pulmonary Arterial Hypertension to Ambras Type Hypertrichosis Universalis Congenita
+# Riociguat: Fra Pulmonal Arteriel Hypertension til Ambras Type Hypertrichosis Universalis Congenita
 
-## One-Sentence Summary
+## En Sætning Sammenfatning
 
-Riociguat is a soluble guanylate cyclase (sGC) stimulator, referenced in this evidence pack's own mechanistic annotations as being used for pulmonary arterial hypertension (PAH) and chronic thromboembolic pulmonary hypertension (CTEPH) — though this cannot be formally verified, as the drug's original indication and mechanism of action are flagged as data gaps in this pack. The TxGNN model's top prediction is **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital hair-growth disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Riociguat er en opløseligt guanylat cyclase (sGC)-stimulator, der er refereret i denne bevisspakkes egne mekanistiske annotationer som værende brugt til pulmonal arteriel hypertension (PAH) og kronisk tromboembolisk pulmonal hypertension (CTEPH) — selvom dette ikke kan formelt bekræftes, da lægemidlets oprindelige indikation og virkningsmekanisme er flagget som datahuller i denne bevisspakke. TxGNN-modellens topforudsigelse er **Ambras Type Hypertrichosis Universalis Congenita**, et sjældet medfødt hårvækstsynd rom, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in this evidence pack (referenced only informally as PAH/CTEPH in internal rationale notes — see Data Gaps) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 94.92% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|---------|
+| Oprindelig Indikation | Ikke bekræftet i denne bevisspakke (refereret kun uformelt som PAH/CTEPH i interne begrundelsesnoter — se Datahuller) |
+| Forudsagt Ny Indikation | Ambras Type Hypertrichosis Universalis Congenita |
+| TxGNN-forudsigelsesscore | 94.92% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Aflyst |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-Detailed mechanism-of-action data for Riociguat is not available in this evidence pack (flagged as a High-severity data gap, DG002). Internal rationale annotations attached to lower-ranked candidates in this same pack note that Riociguat is pharmacologically known as an sGC stimulator that raises intracellular cGMP, producing vascular smooth muscle relaxation — the basis for its established use in PAH/CTEPH. This information is unverified pending formal MOA confirmation via DrugBank.
+Detaljerede virkningsmekanisme-data for Riociguat er ikke tilgængelige i denne bevisspakke (flagget som et alvorligt datahul, DG002). Interne begrundelsesannotationer knyttet til lavere-rangerede kandidater i denne samme bevisspakke noterer, at Riociguat farmakologisk er kendt som en sGC-stimulator, der øger intracellulær cGMP, hvilket frembringer slappelse af vaskulær glat muskulatur — grundlaget for dets etablerede anvendelse i PAH/CTEPH. Denne information er ubekræftet, afventende formel MOA-bekræftelse via DrugBank-API.
 
-For the top-ranked prediction, Ambras type hypertrichosis universalis congenita, there is no plausible pathophysiological link to this vascular sGC/cGMP mechanism. This is a rare congenital hair-growth syndrome with a genetic basis unrelated to vascular smooth muscle signalling. The prediction reflects a high TxGNN model score only, with no corroborating mechanistic, clinical, or literature signal.
+For den toprangerede forudsigelse, Ambras-type hypertrichosis universalis congenita, er der ingen plausibel patofysiologisk forbindelse til denne vaskulære sGC/cGMP-mekanisme. Dette er et sjældet medfødt hårvæktsyndrom med et genetisk grundlag uden forbindelse til vaskulær glat muskulatur-signalering. Forudsigelsen afspejler kun en høj TxGNN-model-score, uden bekræftende mekanistisk, klinisk eller litteratur-signal.
 
-It is also worth noting that the ten predicted indications returned in this pack collapse to five unique diseases, each duplicated. All five (hypertrichosis-type disorders, an odontal/periodontal malformation syndrome, and Dandy-Walker malformation syndrome) are rare congenital or structural syndromes with no established connection to sGC/cGMP vascular pharmacology, and all are scored L5/Hold in the underlying data.
+Det er også værd at bemærke, at de ti forudsagte indikationer returneret i denne bevisspakke kollapser til fem unikke sygdomme, hver dubleret. Alle fem (hypertrichosis-type lidelser, et tanddannelses- og/eller parodontalt malformationssyndrom, og Dandy-Walker malformationssyndrom) er sjældne medfødte eller strukturelle syndromer uden etableret forbindelse til vaskulær sGC/cGMP farmakologi, og alle er scoret L5/Aflyst i de underliggende data.
 
-## Clinical Trial Evidence
+## Bevis fra Kliniske Forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-*Note: A lower-ranked candidate in this same evidence pack ("malformation syndrome with odontal and/or periodontal component," rank 3–4) returned 20 PubMed hits, but manual review found these to be general periodontology reviews with no mention of Riociguat or sGC stimulators — assessed as keyword co-occurrence noise rather than drug-specific evidence, and is not counted toward the top-ranked candidate above.*
+*Bemærk: En lavere-rangeret kandidat i denne samme bevisspakke ("malformationssyndrom med tanddannelses- og/eller parodontal komponent," rangering 3–4) returnerede 20 PubMed-hits, men manuel gennemgang fandt disse at være generelle parodontologi-artikler uden omtale af Riociguat eller sGC-stimulatorer — vurderet som søgeordsamfald-støj snarere end lægemiddelspecifikt bevis, og tælles ikke mod den toprangerede kandidat ovenfor.*
 
-## Denmark Market Information
+## Markedsinformation i Danmark
 
-No marketing authorisations for Riociguat are currently registered in this evidence pack. Market status: Not marketed (0 licenses on file).
+Ingen markedsføringstilladelser for Riociguat er i øjeblikket registreret i denne bevisspakke. Markedsstatus: Ikke markedsført (0 licenser på fil).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Venligst se det godkendt sammendrag af produktkarakteristika (SmPC) for sikkerhedsoplysninger.
 
-## Conclusion and Next Steps
+## Konklusion og Næste Trin
 
-**Decision: Hold**
+**Beslutning: Aflyst**
 
-**Rationale:**
-The top-ranked predicted indication has no mechanistic rationale, no clinical trial evidence, and no literature support — only a raw TxGNN model score. Combined with an unresolved blocking data gap (product label/warnings, DG001) and an unverified mechanism of action (DG002), this candidate does not meet the threshold to advance past initial screening.
+**Begrundelse:**
+Den toprangerede forudsagte indikation har ingen mekanistisk begrundelse, ingen bevis fra kliniske forsøg og ingen litteraturstøtte — kun en rå TxGNN-model-score. Kombineret med et uløst blokerend datahul (produktetiket/advarsler, DG001) og en ubekræftet virkningsmekanisme (DG002), opfylder denne kandidat ikke tærsklen for at komme videre forbi initial screening.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC or product labelling data (warnings, contraindications) — currently blocking (DG001)
-- MOA verification via DrugBank API — currently high-priority gap (DG002)
-- Confirmation of Riociguat's original approved indication and regulatory status in Denmark/EU
-- If further pursued, a targeted literature and mechanistic search specific to hypertrichosis pathophysiology, rather than relying on automated model score alone
+**For at fortsætte, kræves følgende:**
+- Dansk/EU SmPC eller produktetiketoplysninger (advarsler, kontraindikationer) — blokerer i øjeblikket (DG001)
+- MOA-verifikation via DrugBank-API — høj-prioritets gab i øjeblikket (DG002)
+- Bekræftelse af Riociguat's oprindelige godkendt indikation og regulatorisk status i Danmark/EU
+- Hvis det forfølges yderligere, en målrettet litteratur- og mekanisme-søgning specifik for hypertrichosis-patofysiologi, snarere end at stole på automatiseret model-score alene
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

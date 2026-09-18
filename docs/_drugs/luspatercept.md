@@ -29,75 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Luspatercept: From Unspecified Indication to Monosomy X
+# Luspatercept: Fra uspecificeret indikation til Monosomi X
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Luspatercept's (DrugBank DB12281) original indication and mechanism of action are not documented in the current evidence pack. The TxGNN model predicts potential relevance to **Monosomy X**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the mechanistic rationale for this specific pairing has not yet been established in the underlying analysis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack |
-| Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 96.00% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Luspatercepts (DrugBank DB12281) oprindelige indikation og virkningsmekanisme er ikke dokumenteret i den aktuelle bevispacke. TxGNN-modellen forudsiger potentiel relevans til **Monosomi X**, men denne retning er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer**, og den mekanistiske begrundelse for denne specifikke kombination er endnu ikke etableret i den underliggende analyse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data for Luspatercept is not currently available in this evidence pack, and no original indication is on file to compare against. Without either of these, the mechanistic relationship between Luspatercept and Monosomy X cannot be assessed — the rationale field for this specific prediction has not yet been populated by the analysis pipeline.
-
-For context, other TxGNN-predicted indications for this drug in the same batch (hepatic infarction, hepatic veno-occlusive disease, peliosis hepatis, syndrome with combined immunodeficiency) were explicitly reviewed and received a **Hold** recommendation, with the reviewers noting weak or absent mechanistic plausibility relative to Luspatercept's known biology (an activin/GDF-pathway ligand trap acting on late-stage erythroid maturation). This suggests the overall prediction batch for this drug should be treated cautiously until mechanism-level review is completed for the top-ranked candidate as well.
-
-No clinical trials or literature currently exist for the Luspatercept–Monosomy X pairing, so the prediction rests solely on the TxGNN model score at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke dokumenteret i bevispacke |
+| Forudsagt ny indikation | Monosomi X |
+| TxGNN-forudsigelsesscore | 96.00% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme for luspatercept er i øjeblikket ikke tilgængelige i denne bevispacke, og ingen oprindelig indikation er registreret til sammenligning. Uden nogen af disse kan det mekanistiske forhold mellem luspatercept og Monosomi X ikke vurderes — begrundelsesfeltet for denne specifikke forudsigelse er endnu ikke blevet udfyldt af analysepipelinen.
 
----
+For kontekst blev andre TxGNN-forudsagte indikationer for dette lægemiddel i samme gruppe (hepatisk infarkt, hepatisk veno-okklusiv sygdom, peliosis hepatis, syndrom med kombineret immundefekt) eksplicit gennemgået og modtog en **vent**-anbefaling, hvor reviewerne bemærkede svag eller fraværende mekanistisk plausibilitet i forhold til luspatercepts kendte biologi (en aktivin/GDF-vej-ligand-fælde, der virker på sen-fase erytroid modning). Dette tyder på, at hele forudsigelsesgruppen for dette lægemiddel bør behandles med forsigtighed, indtil mekanismereview er gennemført for den højest rangerede kandidat også.
 
-## Denmark Market Information
-
-Luspatercept currently holds no marketing authorisations in Denmark (market status: **Not Marketed**). No dosage forms, product names, or licensed indications are on file.
+Der eksisterer i øjeblikket ingen kliniske forsøg eller litteratur for luspatercept–Monosomi X-parringen, så forudsigelsen hviler udelukkende på TxGNN-modellens score på dette tidspunkt.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
-**Rationale:**
-The top-ranked prediction (Monosomy X) has no supporting clinical trials or literature (Evidence Level L5) and its mechanistic rationale has not yet been documented. Combined with the absence of MOA data, absence of Danish market presence, and a blocking data gap on regulatory safety warnings/contraindications, there is currently insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- SmPC/regulatory warnings and contraindications (blocking gap — required before any safety pre-assessment)
-- Mechanism of action (MOA) data for Luspatercept
-- A completed mechanistic rationale for the Monosomy X prediction specifically (currently marked pending)
-- Any emerging clinical trial or literature evidence for this drug-disease pairing
-- Given that related predictions in this batch (hepatic infarction, VOD, peliosis hepatis, combined immunodeficiency) were already assessed as mechanistically implausible, a dedicated plausibility review of the Monosomy X prediction before further investment
+## Markedsoplysninger for Danmark
+
+Luspatercept har i øjeblikket ingen markedsføringstilladelser i Danmark (markedsstatus: **Ikke på markedet**). Ingen doseringsformer, produktnavne eller licenserede indikationer er registreret.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Afgørelse: Vent**
+
+**Begrundelse:**
+Den højest rangerede forudsigelse (Monosomi X) har ingen understøttende kliniske forsøg eller litteratur (Bevisniveau L5) og dens mekanistiske begrundelse er endnu ikke dokumenteret. Kombineret med fraværet af data om virkningsmekanisme, fraværet af dansk markedstilstedeværelse og en kritisk datakløft vedrørende regulatoriske sikkerhedsadvarsler/kontraindikationer, er der i øjeblikket utilstrækkelig grund til at fremme denne kandidat.
+
+**For at fortsætte kræves følgende:**
+- SmPC/regulatoriske advarsler og kontraindikationer (kritisk kløft — påkrævet før enhver foreløbig sikkerhedsvurdering)
+- Data om virkningsmekanisme (MOA) for luspatercept
+- En gennemført mekanistisk begrundelse for Monosomi X-forudsigelsen specifikt (i øjeblikket markeret som afventende)
+- Eventuelle nye kliniske forsøgs- eller litteraturbevis for denne lægemiddel-sygdom-kombination
+- I betragtning af at relaterede forudsigelser i denne gruppe (hepatisk infarkt, VOD, peliosis hepatis, kombineret immundefekt) allerede blev vurderet som mekanistisk usandsynlige, en dedikeret plausibilitetsvurdering af Monosomi X-forudsigelsen før yderligere investering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

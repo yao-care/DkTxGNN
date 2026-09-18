@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Migalastat: From Fabry Disease to Idiopathic Copper-Associated Cirrhosis
+# Migalastat: Fra Fabry-sygdom til Idiopatisk Kobberassocieret Cirrhose
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Migalastat (Galafold) is an oral pharmacological chaperone approved for Fabry disease — a rare lysosomal storage disorder caused by mutations in the *GLA* gene encoding alpha-galactosidase A.
-The TxGNN model predicts it may be effective for **Idiopathic Copper-Associated Cirrhosis**, with a prediction score of **98.85%**.
-However, **no clinical trials and no published literature** currently support this direction, and mechanistic analysis suggests the link is very weak.
+Migalastat (Galafold) er et oralt farmakologisk chaperone godkendt til Fabry-sygdom — en sjælden lysosomål lagringssygdom forårsaget af mutationer i *GLA*-genet, der koder for alfa-galaktosidase A.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Idiopatisk Kobberassocieret Cirrhose**, med en forudsigelsesscore på **98.85%**.
+Der er dog **ingen kliniske forsøg og ingen publiceret litteratur**, der i øjeblikket understøtter denne retning, og mekanistisk analyse tyder på, at forbindelsen er meget svag.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Fabry disease (alpha-galactosidase A deficiency, GLA amenable mutations) |
-| Predicted New Indication | Idiopathic copper-associated cirrhosis |
-| TxGNN Prediction Score | 98.85% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Fabry-sygdom (alfa-galaktosidase A-mangel, GLA-modtagelige mutationer) |
+| Forudsagt ny indikation | Idiopatisk kobberassocieret cirrhose |
+| TxGNN-forudsigelsesscore | 98.85% |
+| Bevisniveau | L5 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Migalastat is an oral pharmacological chaperone that selectively binds to and stabilises misfolded alpha-galactosidase A (GLA) in patients with amenable *GLA* mutations. By restoring proper lysosomal trafficking of GLA, it reduces the pathological accumulation of globotriaosylceramide (Gb3) and related glycosphingolipids in vascular endothelium, cardiomyocytes, and podocytes — the hallmark lesion of Fabry disease.
+I øjeblikket er der ikke detaljerede data om virkningsmekanisme tilgængelige i denne bevispaket. Baseret på kendt information er Migalastat et oralt farmakologisk chaperone, der selektivt binder til og stabiliserer forkert foldet alfa-galaktosidase A (GLA) hos patienter med modtagelige *GLA*-mutationer. Ved at gendanne korrekt lysosomalt transport af GLA reduceres den patologiske ophobning af globotriaosylceramid (Gb3) og relaterede glykosfingolipider i vaskulær endotel, kardiomyocytter og podocytter — det karakteristiske læsion ved Fabry-sygdom.
 
-The predicted indication, idiopathic copper-associated cirrhosis, involves a fundamentally different metabolic pathway. Copper homeostasis is primarily regulated by ATP7B (the Wilson disease copper transporter) and related proteins such as COMMD1 and ATOX1; none of these intersect directly with the GLA/Gb3 lysosomal pathway. While lysosomal dysfunction can theoretically influence intracellular metal trafficking through LAMP2-related mechanisms, there is no published evidence that Migalastat exerts any effect on copper metabolism or hepatic copper accumulation.
+Den forudsagte indikation, idiopatisk kobberassocieret cirrhose, omfatter en fundamentalt forskellig metabolisk vej. Kobber-homeostase reguleres primært af ATP7B (Wilson-sygdoms kobberforter) og relaterede proteiner såsom COMMD1 og ATOX1; ingen af disse skærer direkte ind i GLA/Gb3 lysosomale stof. Selvom lysosomalt dysfunktion teoretisk kan påvirke intracellulær metaludveksling gennem LAMP2-relaterede mekanismer, er der ingen publiceret evidens for, at Migalastat udøver nogen effekt på kobbermetabolisme eller hepatisk kobberakumulering.
 
-The most likely explanation for the high TxGNN score is a **graph clustering artefact**: the TxGNN knowledge graph may have grouped "hepatic lysosomal storage disease" as a shared hub node, causing Migalastat to score highly against copper-related liver conditions despite there being no biologically plausible treatment rationale. All five unique predicted indications in this pack share the same score (98.85%) and the same evidence profile (zero trials, zero publications), which further supports this interpretation of systematic over-prediction in the rare liver disease subgraph.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for any of the predicted indications.
+Den mest sandsynlige forklaring på den høje TxGNN-score er en **graftclusteringartefakt**: TxGNN-vidensgrafen har muligvis grupperet "hepatisk lysosomål lagringssygdom" som en delt hub-knude, hvilket får Migalastat til at score højt mod kobberrelaterede leversygdomme på trods af, at der ikke er nogen biologisk plausibel behandlingsbegrundelse. Alle fem unikke forudsagte indikationer i denne paket deler samme score (98.85%) og samme bevisudgangspunkt (nul forsøg, nul publikationer), hvilket yderligere understøtter denne fortolkning af systematisk overprognoser i grafen for sjælden leversygdom.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related literature available for any of the predicted indications.
-
----
-
-## Denmark Market Information
-
-Migalastat (Galafold) currently holds **no national marketing authorisations** recorded in the Danish Medicines Agency (Lægemiddelstyrelsen) database, and the drug is listed as not marketed in Denmark at the time of this report (data cut-off: 2026-04-04).
-
-> **Note for reviewers:** Galafold received a European Medicines Agency (EMA) centralised marketing authorisation (EU/1/16/1085) for Fabry disease in May 2016. If this EMA authorisation is not reflected in the source data, the regulatory status should be verified directly via the [EMA Product page](https://www.ema.europa.eu/en/medicines/human/EPAR/galafold) and the [Lægemiddelstyrelsen product database](https://produktresume.dk/) before drawing conclusions about Danish market availability.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
 
 ---
 
-## Safety Considerations
+## Litteraturevidence
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> Safety data — including key warnings, contraindications, and drug–drug interactions — were not available in this Evidence Pack and were not retrieved from TFDA/DrugBank sources at the time of data collection (2026-03-24). Before any clinical use, consult the current Galafold SmPC available through the EMA or the national medicines agency.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for nogen af de forudsagte indikationer.
 
 ---
 
-## Conclusion and Next Steps
+## Oplysninger om dansk marked
 
-**Decision: Hold**
+Migalastat (Galafold) har i øjeblikket **ingen nationale markeringsgodkendelser** registreret i Lægemiddelstyrelsens database, og lægemidlet er opført som ikke markedsført i Danmark på tidspunktet for denne rapport (datakutoff: 2026-04-04).
 
-**Rationale:**
-The TxGNN model assigns a high score (98.85%) to all predicted indications, but this appears to reflect a knowledge-graph clustering effect rather than genuine pharmacological plausibility. There is no clinical trial evidence, no supporting literature, no established mechanistic link between GLA-targeted pharmacological chaperoning and copper metabolism or hepatic vascular pathology, and Migalastat has no current marketing authorisation recorded in Denmark. With an L5 evidence level and a weak mechanistic rationale across all five predicted disease areas, advancing this candidate is not justified at this stage.
-
-**To proceed, the following is needed:**
-
-- **Mechanistic data**: Retrieve and review full Migalastat MOA from DrugBank (DB05018) and primary literature to formally rule out any indirect copper-handling or lysosomal-hepatic link.
-- **Regulatory clarification**: Confirm whether the EMA centralised authorisation (EU/1/16/1085) is active and valid for Denmark, and obtain the current SmPC with full safety data.
-- **TxGNN model audit**: Investigate why all top-10 predictions share an identical score (0.9885) and map to rare hepatic conditions. This likely reflects a subgraph-level bias and should be flagged to the model maintenance team for recalibration.
-- **Broader indication search**: Reassess Migalastat candidates outside the hepatic rare-disease subgraph — for example, Fabry-adjacent indications (nephropathy, cardiomyopathy, cerebrovascular disease) where the GLA/Gb3 mechanistic link is well established and clinical trial evidence may exist.
-- **Safety assessment**: Complete the blocking data gap (DG001) by downloading and parsing the SmPC/prescribing information from the EMA or a reference regulatory authority before any repurposing safety evaluation can proceed.
+> **Bemærk for anmeldere:** Galafold modtog en centraliseret markeringsgodkendelse fra Det Europæiske Lægemiddelagentur (EU/1/16/1085) til Fabry-sygdom i maj 2016. Hvis denne EMA-godkendelse ikke afspejles i kildedata, bør den regulatoriske status verificeres direkte via siden for [EMA-produkter](https://www.ema.europa.eu/en/medicines/human/EPAR/galafold) og [Lægemiddelstyrelsens produktdatabase](https://produktresume.dk/), før der drages konklusioner om tilgængelighed på det danske marked.
 
 ---
 
-*This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.*
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresuméet (SmPC) for sikkerhedsinformation.
+
+> Sikkerhedsdata — herunder vigtige advarsler, kontraindikationer og lægmiddel-lægmiddel interaktioner — var ikke tilgængelige i denne bevispaket og blev ikke hentet fra TFDA/DrugBank-kilder på tidspunktet for dataindsamling (2026-03-24). Før eventuel klinisk brug skal du konsultere det aktuelle Galafold-produktresuméet, der er tilgængeligt gennem EMA eller den nationale lægemiddelstyrelse.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-modellen tildeler en høj score (98.85%) til alle forudsagte indikationer, men dette ser ud til at afspejle en grafclusteringartefakt snarere end ægte farmakologisk plausibilitet. Der er ingen evidens fra kliniske forsøg, ingen understøttende litteratur, ingen etableret mekanistisk forbindelse mellem GLA-målrettet farmakologisk chaperoning og kobbermetabolisme eller hepatisk vaskulær patologi, og Migalastat har ingen nuværende markeringsgodkendelse registreret i Danmark. Med et L5-bevisniveau og en svag mekanistisk begrundelse på tværs af alle fem forudsagte sygdomsomfang er det ikke begrundet at fremme denne kandidat på dette stadium.
+
+**For at gå videre er følgende nødvendigt:**
+
+- **Mekanistisk data**: Hent og gennemgå fuldt Migalastat MOA fra DrugBank (DB05018) og primær litteratur for formelt at udelukke enhver indirekte kobberbehandlings- eller lysosomalt-hepatisk forbindelse.
+- **Regulatorisk præcisering**: Bekræft, om den centraliserede EMA-godkendelse (EU/1/16/1085) er aktiv og gyldig for Danmark, og indhent det aktuelle produktresuméet med fulde sikkerhedsdata.
+- **TxGNN-modelrevision**: Undersøg, hvorfor alle top-10-prognoser deler en identisk score (0.9885) og kortlægges til sjælden hepatiske tilstande. Dette afspejler sandsynligvis en undergrafs-niveau bias og bør markeres for modelmaintenance-teamet til omkalibrering.
+- **Bredere indikationssøgning**: Revurder Migalastat-kandidater uden for det hepatiske sjælden-sygdoms undergraff — for eksempel Fabry-tilstødende indikationer (nefropati, kardiomyopati, cerebrovaskulær sygdom), hvor GLA/Gb3-forbindelsen er velestableret, og klinisk forsøgsevidence kan eksistere.
+- **Sikkerhedsvurdering**: Udfyld det blokerende datahul (DG001) ved at downloade og analysere produktresumeet/receptinformationen fra EMA eller en reference regulatorisk myndighed, før eventuel sikkerhedsvurdering af ompurposering kan fortsætte.
+
+---
+
+*Denne rapport er kun til forskningsmæssige formål og udgør ikke medicinsk rådgivning. Alle omjusterede lægemiddelkandidater kræver klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

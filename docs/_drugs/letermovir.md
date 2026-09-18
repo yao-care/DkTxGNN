@@ -29,64 +29,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Letermovir: From CMV Infection Prevention to Vulvovaginal Candidiasis
+# Letermovir: Fra CMV-infektionsprofylakse til vulvovaginalis candidiasis
 
-## One-Sentence Summary
+## Sammenfattelse i en sætning
 
-Letermovir is a CMV (cytomegalovirus) terminase inhibitor used to prevent CMV reactivation in allogeneic haematopoietic stem cell transplant (HSCT) recipients. The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the drug's own mechanism of action has no known antifungal activity.
+Letermovir er en CMV-terminasehæmmer (cytomegalovirus), der bruges til at forebygge CMV-reaktivering hos patienter med allogen hæmatopoetisk stamcelletransplantation (HSCT). TxGNN-modellen forudsiger, at det kan være effektivt mod **vulvovaginalis candidiasis**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og lægemidlets egen virkningsmekanisme har ingen kendt antimykotisk aktivitet.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | CMV infection prophylaxis in transplant recipients (inferred from source evidence in this pack; not formally registered — see Data Gaps below) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | CMV-infektionsprofylakse hos transplantationsmodtagere (udledt fra kildebevis i denne pakke; ikke formelt registreret — se Datakløfter nedenfor) |
+| Forudsagt ny indikation | Vulvovaginalis candidiasis |
+| TxGNN-forudsigelsesscore | 99.88% |
+| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for Letermovir is not available in the formal drug record (`original_moa: [Data Gap]`). However, source evidence within this pack (clinical trial descriptions) indicates Letermovir works by inhibiting the CMV DNA terminase complex (pUL56/pUL89/pUL51), a mechanism specific to human betaherpesvirus (CMV) replication. It is used clinically to prevent CMV reactivation after allogeneic stem cell transplantation.
+Detaljerede data om virkningsmekanisme for letermovir er ikke tilgængelige i det formelle lægemiddelregister (`original_moa: [Datakløft]`). Kildebevis inden for denne pakke (beskrivelser af kliniske forsøg) indikerer imidlertid, at letermovir virker ved at hæmme CMV DNA-terminasekomplekset (pUL56/pUL89/pUL51), en mekanisme, der er specifik for humant betaherpesvirus (CMV) replikation. Det bruges klinisk til at forebygge CMV-reaktivering efter allogen stamcelletransplantation.
 
-There is no known pharmacological pathway connecting CMV terminase inhibition to antifungal activity — Letermovir does not act on ergosterol synthesis, fungal cell wall β-glucan, or fungal nucleic acid metabolism, which are the standard targets of antifungal drugs. The predicted link to Vulvovaginal Candidiasis (caused by *Candida* species) therefore has no plausible mechanistic basis.
+Der findes ingen kendt farmakologisk vej, der forbinder CMV-terminasehæmning med antimykotisk aktivitet — letermovir virker ikke på ergosterolsyntese, svampcellemembranen β-glukan eller svampenes nukleinsyrestofskifte, som er standardmålene for antimykotiske lægemidler. Den forudsagte forbindelse til vulvovaginalis candidiasis (forårsaget af *Candida*-arter) har derfor ingen troværdig mekanistisk basis.
 
-TxGNN's high prediction score most likely reflects a **knowledge-graph co-occurrence artifact**: Letermovir is closely linked in the graph to "post-transplant infection prevention" concepts, which also connect to fungal infection nodes in immunocompromised patients, without representing a true pharmacological relationship. This pattern also appears across several other top TxGNN predictions for this drug in the same evidence pack (e.g., *fungal infectious disease*, *tinea nigra*), and two lower-ranked predictions (*malignant catarrhal fever*, *infectious bovine rhinotracheitis*) are veterinary diseases entirely outside human indication scope — reinforcing that this cluster of predictions likely reflects graph proximity bias rather than genuine repurposing signal.
+TxGNNs høje forudsigelsesscore afspejler mest sandsynligt et **vidensgrafs sammenfaldende artefakt**: Letermovir er tæt forbundet i grafen med "post-transplantations-infektionsprofylakse"-koncepter, som også forbinder sig til svampeinfektionsknuder hos immunocompromitterede patienter, uden at repræsentere et sandt farmakologisk forhold. Dette mønster optræder også på tværs af flere andre toprangerede TxGNN-forudsigelser for dette lægemiddel i samme bevisundersøgelse (f.eks. *svampeinfektion*, *tinea nigra*), og to lavere-rangerede forudsigelser (*malign katarralsk feber*, *smitsom bovine rhinotracheitis*) er veterinære sygdomme helt uden for omfanget af humane indikationer — hvilket styrker, at denne gruppe af forudsigelser sandsynligvis afspejler nærhedsforstyrrelse i grafen snarere end ægte repurposering-signal.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-*(Note: 3 clinical trials were found under the broader, related TxGNN prediction "fungal infectious disease," but all were graded "C" — none study Letermovir for treating a fungal infection; they concern CMV prophylaxis in lung/heart transplant recipients and CMV reactivation in CAR-T patients.)*
+*(Bemærk: 3 kliniske forsøg blev fundet under den bredere, relaterede TxGNN-forudsigelse "svampeinfektion", men alle blev vurderet som "C" — ingen undersøger letermovir til behandling af svampeinfektioner; de vedrører CMV-profylakse hos lunge-/hjertecancertransplantationsmodtagere og CMV-reaktivering hos CAR-T-patienter.)*
 
-## Literature Evidence
+## Bevis fra litteratur
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Letermovir is not currently marketed in Denmark. No marketing authorisations (national or centralised/EMA) are on record in this evidence pack.
+Letermovir markedsføres ikke i øjeblikket i Danmark. Ingen markeringsgodkendelser (nationale eller centraliserede/EMA) er registreret i denne bevisundersøgelse.
 
-## Safety Considerations
+## Sikkerhedsmæssige hensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Sammendrag af produktkarakteristika (SmPC) for sikkerhedsinformation.
 
-**Data Gap:** Detailed product label warnings, contraindications, and drug interaction data were not available at the time of this evaluation (severity: Blocking) — this must be resolved before any safety assessment can proceed.
+**Datakløft:** Detaljerede advarselsmærker, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige på tidspunktet for denne evaluering (alvorlighed: Blokering) — dette skal løses, før nogen sikkerhedsevaluering kan fortsætte.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The predicted indication has no clinical trial or literature support, no plausible mechanistic link to the drug's known antiviral activity, and the drug is not currently marketed in Denmark. This corresponds to the lowest evidence tier (L5 — model prediction only).
+**Begrundelse:**
+Den forudsagte indikation har ingen understøttelse fra kliniske forsøg eller litteratur, ingen troværdig mekanistisk forbindelse til lægemidlets kendte antivirale aktivitet, og lægemidlet markedsføres ikke i øjeblikket i Danmark. Dette svarer til det laveste evidensniveau (L5 — kun modelforudsigelse).
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for Letermovir (currently a data gap)
-- Official product label warnings/contraindications (currently a data gap; blocking)
-- Any preclinical or in-vitro evidence of antifungal activity, if it exists, to establish biological plausibility before further evaluation
-- Re-screening once new clinical trial or literature evidence becomes available for this specific indication
+**For at kunne fortsætte er følgende nødvendig:**
+- Bekræftet virkningsmekanisme-data for letermovir (i øjeblikket en datakløft)
+- Officielle produktetiketadvarselsmærkninger/kontraindikationer (i øjeblikket en datakløft; blokering)
+- Eventuelle prekliniske eller in vitro-beviser for antimykotisk aktivitet, såfremt de eksisterer, for at etablere biologisk plausibilitet før yderligere evaluering
+- Gensøgning, når nye kliniske forsøgs- eller litteraturbevis bliver tilgængelige for denne specifikke indikation
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

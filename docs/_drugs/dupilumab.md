@@ -29,93 +29,94 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dupilumab: From Atopic Dermatitis / Type 2 Inflammation to Bronchitis
+# Dupilumab: Fra Atopisk Dermatitis / Type 2-inflammation til Bronkitis
 
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.
-
----
-
-## One-Sentence Summary
-
-Dupilumab (Dupixent®) is a fully human monoclonal antibody that blocks the IL-4 receptor alpha subunit (IL-4Rα), with established efficacy in Type 2 inflammatory diseases including atopic dermatitis, moderate-to-severe asthma, and chronic rhinosinusitis with nasal polyps. The TxGNN model predicts it may be effective for **Bronchitis**, with **1 clinical trial** and **6 publications** currently supporting this direction. Evidence is primarily mechanistic extrapolation from closely related airway conditions, as no bronchitis-specific Phase 2/3 RCT has been completed to date.
+> ⚠️ **Ansvarsfraskrivelse**: Denne rapport er alene til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Nye indikationskandidater kræver klinisk validering før brug.
 
 ---
 
-## Quick Overview
+## Sammenfatning i én sætning
 
-| Item | Content |
-|------|---------|
-| Original Indication | No indication registered in the Danish Medicines Agency (Laegemiddelstyrelsen) dataset; globally established for atopic dermatitis and asthma (EMA-authorised) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed (no local authorisations on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Dupilumab (Dupixent®) er et fuldt humant monoklonalt antistof, der blokerer IL-4-receptoralpha-underenheden (IL-4Rα), med etableret virkning mod Type 2-inflammationssygdomme, herunder atopisk dermatitis, moderat til svær astma og kronisk rhinosinusitis med næsepolypper. TxGNN-modellen forudsiger, at det kan være effektivt mod **Bronkitis**, med **1 klinisk forsøg** og **6 publikationer**, der i øjeblikket understøtter denne retning. Beviset er primært mekanistisk ekstrapolering fra nært beslægtede luftvejstilstande, da der ikke er gennemført nogen bronkitis-specifik Fase 2/3 RCT til dato.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Dupilumab is a fully human IgG4 monoclonal antibody that binds the shared alpha subunit of the IL-4 and IL-13 receptors (IL-4Rα), simultaneously blocking downstream JAK-STAT signalling of both cytokines. IL-4 and IL-13 are the principal drivers of Type 2 (Th2) inflammation: they promote IgE class-switching, goblet cell hyperplasia, mucus hypersecretion, and subepithelial fibrosis. This mechanism has been clinically validated in atopic dermatitis, moderate-to-severe eosinophilic asthma, chronic rhinosinusitis with nasal polyps (CRSwNP), prurigo nodularis, and eosinophilic oesophagitis.
-
-Chronic bronchitis — particularly phenotypes with eosinophilic airway inflammation or confirmed Type 2 immune activation — shares precisely this pathophysiological axis. IL-13, in particular, drives mucin overproduction and goblet cell metaplasia in the bronchial mucosa, while IL-4 amplifies Th2 polarisation and eosinophil recruitment. The "united airway" hypothesis positions upper airway sinusitis, nasal polyposis, asthma, and lower airway bronchitis along the same biological continuum, making IL-4Rα blockade mechanistically plausible across all sites. This continuum is supported by the inclusion of CRSsNP (NCT04362501) in the current evidence pack, where Th2 airway inflammation responds to dupilumab despite differing anatomical targets.
-
-However, it is essential to note that mechanistic plausibility does not equate to confirmed clinical benefit. The critical gap is the absence of a Phase 2 or Phase 3 RCT directly enrolling bronchitis patients. Smoker-predominant neutrophilic bronchitis — the most common phenotype — is unlikely to respond to Th2 blockade and was actively excluded from most asthma and CRSsNP dupilumab trials. Patient phenotyping using blood eosinophil count and fractional exhaled nitric oxide (FeNO) will be essential to identify a biologically responsive subpopulation.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Completed | 33 | Dupilumab in chronic rhinosinusitis without nasal polyps (CRSsNP). Evaluates clinical effectiveness across Type 2 and non-Type 2 disease endotypes. CRSsNP shares IL-4/IL-13-driven inflammation with bronchitis but involves the upper airway; results provide indirect mechanistic support but cannot be directly extrapolated to bronchitis outcomes. |
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ingen indikation registreret i Lægemiddelstyrelsens datasæt; globalt etableret for atopisk dermatitis og astma (EMA-godkendt) |
+| Forudsagt ny indikation | Bronkitis |
+| TxGNN-prognose-score | 99.92% |
+| Evidensniveau | L3 |
+| Markedsstatus i Danmark | Ikke markedsført (ingen lokale godkendelser dokumenteret) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematic Review / Meta-Analysis | J Asthma | Pooled analysis of RCTs confirms dupilumab efficacy and safety in uncontrolled asthma; reduced exacerbation rates and improved FEV1. Provides the strongest mechanistic bridge to Type 2 bronchitis. |
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT Extension | Lancet Respir Med | TRAVERSE study: long-term (>1 year) dupilumab safety and efficacy in moderate-to-severe asthma. Demonstrates sustained reduction in exacerbations and acceptable long-term safety profile. |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review | Pediatr Pulmonol | Discusses novel therapies for eosinophilic paediatric plastic bronchitis; identifies IL-4/IL-13 blockade as a mechanistically relevant approach, offering the most direct literature link to bronchitis specifically. |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Mechanistic / Imaging Study | Chest | Anti-T2 biologic treatment (dupilumab) improves ventilation defect patterns visualised by inhaled gas MRI in eosinophilic asthma. Demonstrates objective functional improvement in small airway obstruction driven by eosinophilic inflammation. |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Comprehensive Review | Tuberc Respir Dis | Reviews pharmacologic strategies for preventing COPD exacerbations, including novel biologic agents targeting Type 2 pathways; contextualises dupilumab within the broader chronic airway disease treatment landscape. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Addresses challenges in treating asthma overlapping with smoking-induced chronic bronchitis and emphysema (asthma-COPD overlap). Highlights that smokers are routinely excluded from biologic trials — a key gap affecting evidence translation to typical bronchitis populations. |
+Dupilumab er et fuldt humant IgG4-monoklonalt antistof, der binder den delte alfa-underenhed på IL-4- og IL-13-receptorerne (IL-4Rα) og samtidigt blokerer nedstrøms JAK-STAT-signalering af begge cytokiner. IL-4 og IL-13 er de vigtigste drivere af Type 2 (Th2) inflammation: de fremmer IgE-klassebytning, goblet-celle hyperplasi, mucusoverproduksion og subepitelial fibrose. Denne mekanisme er blevet klinisk valideret inden for atopisk dermatitis, moderat til svær eosinofil astma, kronisk rhinosinusitis med næsepolypper (CRSwNP), prurigo nodularis og eosinofil øsofagitis.
+
+Kronisk bronkitis – især fænotyper med eosinofil luftvejsinflammation eller bekræftet Type 2-immunaktivering – deler præcis denne patofysiologiske akse. IL-13 driver især mucusoverproduksion og goblet-celle metaplasi i bronkiepitelet, mens IL-4 forstærker Th2-polarisering og eosinofil-rekruttering. Hypotesen om "enhed i luftvejene" placerer øvre luftvejes sinusitis, næsepolypper, astma og nedre luftvejsbronkitis langs det samme biologiske kontinuum, hvilket gør IL-4Rα-blokade mekanistisk plausibel på tværs af alle steder. Dette kontinuum understøttes af inklusionen af CRSsNP (NCT04362501) i det aktuelle evidenspakke, hvor Th2-luftvejsinflammation reagerer på dupilumab på trods af forskellige anatomiske målsteder.
+
+Det er imidlertid væsentligt at bemærke, at mekanistisk plausibilitet ikke svarer til bekræftet klinisk fordel. Kritikummet er fraværet af en Fase 2 eller Fase 3 RCT, der direkte inkluderer bronkitis-patienter. Røger-dominant neutrofil bronkitis – den mest almindelige fænotype – vil sandsynligvis ikke reagere på Th2-blokade og blev aktivt ekskluderet fra de fleste astma- og CRSsNP-dupilumab-forsøg. Patientfænotypering ved hjælp af blodeosinofil-tælling og fraktioneret ekshaleret nitogenmonoxid (FeNO) vil være afgørende for at identificere en biologisk responsiv subpopulation.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-Dupilumab has **no marketing authorisation** recorded in the Danish Medicines Agency (Laegemiddelstyrelsen) registry in this dataset.
-
-> **Important context for clinicians**: Dupilumab (Dupixent®) holds a **centralised EU marketing authorisation** issued by the European Medicines Agency (EMA), valid in all EU/EEA member states including Denmark. Approved indications include moderate-to-severe atopic dermatitis (adults, adolescents, and children ≥6 months), moderate-to-severe asthma with Type 2 inflammation, chronic rhinosinusitis with nasal polyps, prurigo nodularis, and eosinophilic oesophagitis. Healthcare professionals should consult the current **EMA SmPC for Dupixent®** for up-to-date prescribing information and reimbursement status with Sundhedsstyrelsen/Medicinrådet.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> Specific safety data (key warnings, contraindications, and drug-drug interaction data) were not retrievable from this evidence pack. Based on the drug class (IL-4Rα monoclonal antibody), clinicians should be aware of class-associated considerations including conjunctivitis, injection site reactions, and potential for paradoxical inflammatory responses (e.g., psoriasiform eruptions). Formal SmPC review is required prior to any clinical application.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige resultater |
+|---------------|------|--------|-----------------|-------------------|
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Fase 2 | Afsluttet | 33 | Dupilumab til kronisk rhinosinusitis uden næsepolypper (CRSsNP). Evaluerer klinisk virkning på tværs af Type 2 og ikke-Type 2-sygdomsendotyper. CRSsNP deler IL-4/IL-13-drevet inflammation med bronkitis, men involverer øvre luftveje; resultaterne giver indirekte mekanistisk støtte, men kan ikke direkte ekstrapoleres til bronkitis-resultater. |
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|-----|------|---------|-------------------|
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematisk oversigt/Meta-analyse | J Asthma | Poolet analyse af RCT'er bekræfter dupilumabs virkning og sikkerhed ved ukontrolleret astma; reduceret eksacerbationsrate og forbedret FEV1. Giver den stærkeste mekanistiske forbindelse til Type 2-bronkitis. |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT-forlængelse | Lancet Respir Med | TRAVERSE-studie: langtids (>1 år) dupilumab-sikkerhed og virkning ved moderat til svær astma. Demonstrerer vedvarende reduktion i eksacerbationer og acceptabelt langtidssikkerhedsprofil. |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Oversigt | Pediatr Pulmonol | Diskuterer nye terapier for eosinofil pædiatrisk plastisk bronkitis; identificerer IL-4/IL-13-blokade som en mekanistisk relevant tilgang, hvilket giver den mest direkte litteraturforbindelse til bronkitis specifikt. |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Mekanistisk/MR-billedundersøgelse | Chest | Anti-Type 2 biologisk behandling (dupilumab) forbedrer ventilationsdefektmønstre visualiseret ved MR-afbildning af indåndet gas ved eosinofil astma. Demonstrerer objektiv funktionel forbedring af småluftvejes obstruktion drevet af eosinofil inflammation. |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Omfattende oversigt | Tuberc Respir Dis | Gennemgår farmakologiske strategier til forebyggelse af COPD-eksacerbationer, herunder nye biologiske agenser rettet mod Type 2-veje; kontekstualiserer dupilumab inden for det bredere kroniske luftvejssygdomsbehandlingslandskab. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Oversigt | Expert Opin Pharmacother | Omhandler udfordringer ved behandling af astma, der overlappes med røgeres kroniske bronkitis og emfysem (astma-COPD-overlap). Fremhæver, at rygere rutinemæssigt ekskluderes fra biologiske forsøg – et kritisk hul, der påvirker bevisoverførsel til typiske bronkitis-populationer. |
 
-**Rationale:**
-The mechanistic rationale for dupilumab in Type 2-phenotype bronchitis is biologically sound and supported by robust data from directly adjacent indications (asthma, CRSsNP). However, no bronchitis-specific Phase 2 or Phase 3 RCT has been completed, and current evidence is rated L3 (mechanistic extrapolation and observational studies only). Clinical translation in a general bronchitis population cannot be recommended without dedicated prospective evidence, particularly given the heterogeneity of bronchitis phenotypes and the limited likelihood of benefit in the neutrophilic/smoking-related majority.
+---
 
-**To proceed, the following is needed:**
+## Markedsinformation for Danmark
 
-- **Phase 2 RCT** targeting bronchitis patients enriched for Type 2 biomarkers (blood eosinophils ≥300 cells/μL or FeNO ≥25 ppb) using validated endpoints (e.g., exacerbation rate, symptom score, sputum eosinophil count)
-- **Phenotype stratification strategy**: clearly distinguish eosinophilic bronchitis from neutrophilic/smoking-related bronchitis before enrolment — the current evidence supports only the former
-- **SmPC and pharmacovigilance review** for dupilumab in the target bronchitis population, including assessment of any contraindications relevant to comorbid COPD or smoker populations
-- **Regulatory and reimbursement pathway assessment** in Denmark via Medicinrådet/Sundhedsstyrelsen, given the off-label nature of this proposed indication
-- **Data gap remediation**: obtain the full Dupixent® Danish prescribing information from the EMA/Laegemiddelstyrelsen to enable a complete safety assessment before advancing to clinical studies
+Dupilumab har **ingen markedsføringstilladelse** registreret i Lægemiddelstyrelsens register i dette datasæt.
+
+> **Vigtig kontekst for sundhedsprofessionelle**: Dupilumab (Dupixent®) har en **centraliseret EU-markedsføringstilladelse** udstedt af Det Europæiske Lægemiddelagentur (EMA), som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Godkendte indikationer omfatter moderat til svær atopisk dermatitis (voksne, unge og børn ≥6 måneder), moderat til svær astma med Type 2-inflammation, kronisk rhinosinusitis med næsepolypper, prurigo nodularis og eosinofil øsofagitis. Sundhedsprofessionelle bør konsultere den aktuelle **EMA SmPC for Dupixent®** for opdateret ordinationsinformation og refusionsstatus hos Sundhedsstyrelsen/Medicinrådet.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformation.
+
+> Specifikke sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddel-interaktiondata) var ikke tilgængelige fra dette evidenspakke. Baseret på lægemiddelklassen (IL-4Rα-monoklonalt antistof) bør sundhedsprofessionelle være opmærksomme på klasserelaterede sikkerhedshensyn, herunder konjunktivitis, reaktioner på injektionsstedet og potentiale for paradoksal inflammatorisk respons (f.eks. psoriasiformt udslet). Gennemgang af den formelle SmPC er påkrævet før eventuel klinisk brug.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Den mekanistiske begrundelse for dupilumab ved Type 2-fænotype-bronkitis er biologisk plausibel og understøttet af solide data fra direkte tilgrænsende indikationer (astma, CRSwNP). Der er imidlertid ikke gennemført nogen bronkitis-specifik Fase 2 eller Fase 3 RCT, og den nuværende evidens er klassificeret som L3 (mekanistisk ekstrapolering og observationsstudier alene). Klinisk translation i en generel bronkitis-population kan ikke anbefales uden dedikeret prospektiv evidens, især givet heterogeniteten af bronkitis-fænotyper og den begrænsede sandsynlighed for fordel i den neutrofil/røgerrelaterede majoritet.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Fase 2 RCT** rettet mod bronkitis-patienter berigtet med Type 2-biomarkører (blodeosinofiler ≥300 celler/μL eller FeNO ≥25 ppb) med validerede endepunkter (f.eks. eksacerbationsrate, symptompoint, sputum-eosinofil-tælling)
+- **Patientfænotypestratificeringsstrategi**: skelne klart mellem eosinofil bronkitis og neutrofil/røgerrelateret bronkitis før tilmelding – den nuværende evidens understøtter kun førstnævnte
+- **SmPC- og farmakovigilansgennemgang** for dupilumab i bronkitis-målpopulationen, herunder vurdering af eventuelle kontraindikationer relevante for sameksisterende COPD eller røgerpopulationer
+- **Vurdering af regulatorisk og refusionstilskud** i Danmark via Medicinrådet/Sundhedsstyrelsen, givet off-label-karakteren af denne foreslåede indikation
+- **Løsning af datahuller**: indhent det fulde danske ordinationsoplysninger for Dupixent® fra EMA/Lægemiddelstyrelsen for at muliggøre en fuldstændig sikkerhedsvurdering før videreføring til kliniske studier
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

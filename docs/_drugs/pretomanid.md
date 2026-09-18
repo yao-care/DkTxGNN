@@ -29,77 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pretomanid: From Multidrug-Resistant Tuberculosis to Candidiasis
+# Pretomanid: Fra multiresistenttuberkulos til candidosis
 
-## One-Sentence Summary
+## Sammenfatning på en linje
 
-> Pretomanid is a nitroimidazooxazine antimycobacterial, used as part of the BPaL/BPaLM regimen (bedaquiline, pretomanid, linezolid ± moxifloxacin) for extensively drug-resistant and treatment-intolerant/non-responsive multidrug-resistant pulmonary tuberculosis.
-> The TxGNN model predicts it may be effective for **Candidiasis**, but this is a **pure model prediction with no supporting clinical trials or literature**, and the evidence pack's own mechanistic review flags it as biologically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multidrug-/extensively drug-resistant pulmonary tuberculosis (as part of the BPaL/BPaLM regimen) — not captured in structured `taiwan_regulatory` data |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Pretomanid er en nitroimidazooxazin-antimykobakterie, brugt som en del af BPaL/BPaLM-regimet (bedaquiline, pretomanid, linezolid ± moxifloxacin) til ekstensivt lægemiddelresistente og behandlingsintolerant/ikke-responderende multiresistente pulmonal tuberkulose.
+> TxGNN-modellen forudsiger, at det kan være effektivt for **candidosis**, men dette er en **ren modelforudsigelse uden understøttende kliniske forsøg eller litteratur**, og bevispakkens egen mekanistiske gennemgang markerer det som biologisk implausibelt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data for Pretomanid is not available in this evidence pack (flagged as a High-severity data gap). Based on known information, Pretomanid is a nitroimidazooxazine prodrug that requires activation by the mycobacteria-specific deazaflavin-dependent nitroreductase (Ddn)/F420 cofactor system to exert its bactericidal effect — a pathway specific to the *Mycobacterium* genus.
-
-Candida species do not possess this Ddn/F420 activation pathway, and there is no known antifungal mechanism for Pretomanid. The evidence pack's own mechanistic assessment explicitly notes that this prediction reflects **knowledge-graph similarity rather than biological plausibility**, and that it lacks a credible pharmacological rationale.
-
-For context, other top-ranked TxGNN candidates in this evidence pack (leprosy, coronary artery disease, myocardial ischemia, ALCAPA) were reviewed under the same lens: leprosy has some genus-level mechanistic logic (both *M. leprae* and *M. tuberculosis* are mycobacteria) but is directly contradicted by *in vitro* evidence showing *M. leprae* is naturally resistant to PA-824/Pretomanid; the cardiovascular predictions have no plausible mechanism and instead run counter to Pretomanid's known QT-prolongation risk. None of the candidates in this pack currently clear a basic mechanistic plausibility bar.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|--------|----------|
+| Oprindelig indikation | Multiresistent/ekstensivt lægemiddelresistent pulmonal tuberkulose (som led i BPaL/BPaLM-regimet) — ikke registreret i strukturerede `taiwan_regulatory` data |
+| Forudsagt ny indikation | Candidosis |
+| TxGNN-forudsigelsesscore | 99.69% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+Detaljerede data om Pretomanids virkningsmekanisme er ikke tilgængelige i denne bevispakke (markeret som et alvorligt datahul). Baseret på kendt information er Pretomanid et nitroimidazooxazin-prodrug, der kræver aktivering af det mycobakterie-specifik deazaflavin-afhængig nitroreduktase (Ddn)/F420 kofaktorsystem for at udøve sin baktericid virkning — en vej, der er specifik for *Mycobacterium*-slægten.
 
----
+*Candida*-arter besidder ikke denne Ddn/F420-aktiveringsvej, og der er ingen kendt antifungal-mekanisme for Pretomanid. Bevispakkens egen mekanistiske vurdering bemærker eksplicit, at denne forudsigelse afspejler **vidensgraf-lighed i stedet for biologisk plausibilitet**, og at den mangler en troværdig farmakologisk begrundelse.
 
-## Denmark Market Information
-
-Pretomanid currently holds no marketing authorisation in Denmark (0 licenses; market status: not marketed).
+For kontekst blev andre toprangerede TxGNN-kandidater i denne bevispakke (spedalskhed, koronar arterie-sygdom, myokardieinfarkt, ALCAPA) vurderet under den samme synsvinkel: spedalskhed har en vis mekanistisk logik på slægtniveauet (både *M. leprae* og *M. tuberculosis* er mycobakterier), men modsiges direkte af *in vitro*-beviser, der viser, at *M. leprae* er naturligt resistente over for PA-824/Pretomanid; de kardiovaskulære forudsigelser har ingen plausibel mekanisme og modsætter i stedet Pretomanids kendt QT-forlængelsesrisiko. Ingen af kandidaterne i denne pakke overholder i øjeblikket en grundlæggende mekanistisk plausibilitetsgræns.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*Note: structured `key_warnings`, `contraindications`, and DDI data were not available for this evidence pack (query status: not_found). Separately, the evidence pack's mechanistic notes for other predicted indications reference a known QT-prolongation signal for Pretomanid — this should be confirmed against the SmPC before any further evaluation.*
+I øjeblikket ingen relaterede kliniske forsøg registreret
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig
 
-**Rationale:**
-The candidiasis prediction is supported only by a TxGNN similarity score (L5, no clinical trials, no literature), and the pack's own mechanistic review finds no plausible antifungal pathway for a mycobacteria-specific prodrug. Combined with a Blocking-severity data gap on SmPC warnings/contraindications, this candidate does not meet the threshold to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC label data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action (DG001/DG002) to properly assess relevance to any non-mycobacterial indication
-- Any *in vitro* or preclinical evidence of Pretomanid activity against *Candida* species before further investment
-- If the leprosy signal is of interest instead, note it is directly contradicted by existing *in vitro* resistance data (PMID 17005816) and would also require dedicated re-evaluation
+## Markedsoplysninger om Danmark
+
+Pretomanid har i øjeblikket ingen markeringsgodkendelse i Danmark (0 licenser; markedsstatus: ikke markedsført).
+
+---
+
+## Sikkerhedshensyn
+
+Venligst henvises til det godkendte produktresuméet (SmPC) for sikkerhedsoplysninger.
+
+*Note: strukturerede `key_warnings`, `contraindications` og DDI-data var ikke tilgængelige for denne bevispakke (forespørgselsstatus: not_found). Separat henviser bevispakkens mekanistiske noter for andre forudsagte indikationer til et kendt QT-forlængelsessignal for Pretomanid — dette bør bekræftes mod SmPC før videre evaluering.*
+
+---
+
+## Konklusion og næste skridt
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Candidosis-forudsigelsen understøttes kun af en TxGNN-similaritetsscore (L5, ingen kliniske forsøg, ingen litteratur), og bevispakkens egen mekanistiske gennemgang finder ingen plausibel antifungal-vej for et mycobakterie-specifikt prodrug. Kombineret med et Blocking-alvorlighedsdatahul på SmPC-advarsler/kontraindikationer, opfylder denne kandidat ikke tærsklen for at gå videre forbi S0.
+
+**For at kunne gå videre er følgende nødvendigt:**
+- TFDA/dansk SmPC-etiketdata (advarsler, kontraindikationer) — i øjeblikket et Blocking-datahul (DG001)
+- Bekræftet virkningsmekanisme (DG001/DG002) for korrekt at kunne vurdere relevans for nogen ikke-mycobakteriel indikation
+- Enhver *in vitro*- eller preklinisk evidens for Pretomanid-aktivitet mod *Candida*-arter før videre investering
+- Hvis spedalskhedsignalet i stedet er af interesse, skal det bemærkes, at det modsiges direkte af eksisterende *in vitro*-resistensdata (PMID 17005816) og ville også kræve dedikeret revurdering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

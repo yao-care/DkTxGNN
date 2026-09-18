@@ -29,70 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tasonermin: From Soft Tissue Sarcoma to Prostatic Urethra Urothelial Carcinoma
+# Tasonermin: Fra blødt vævsarcom til urotelialcarcinom i prostata-urethra
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Tasonermin is a recombinant human TNF-alpha, with established clinical use limited to isolated limb perfusion for locally advanced soft tissue sarcoma and melanoma (EU-approved as Beromun). The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma**, but currently **no clinical trials** and **no publications** support this specific direction — the prediction rests on model output alone.
+Tasonermin er et rekombinant humant TNF-alpha, med etableret klinisk anvendelse begrænset til isoleret lemb-perfusion for lokalt avanceret blødt vævsarcom og melanom (EU-godkendt som Beromun). TxGNN-modellen forudsiger, at det kan være effektivt for **Urotelialcarcinom i prostata-urethra**, men i øjeblikket er der **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne specifikke retning — forudsigelsen hviler udelukkende på modeloutput.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Soft tissue sarcoma / melanoma (isolated limb perfusion; EU-approved as Beromun) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Original indikation | Blødt vævsarcom / melanom (isoleret lemb-perfusion, EU-godkendt som Beromun) |
+| Forudsagt ny indikation | Urotelialcarcinom i prostata-urethra |
+| TxGNN-prediktionsscore | 99.81% |
+| Evidensgrad | L5 |
+| Markeredsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Tasonermin is a recombinant human TNF-alpha. Its only established clinical use is regional isolated limb perfusion for locally advanced soft tissue sarcoma and melanoma of the extremities (approved in the EU as Beromun), where it selectively damages tumour vascular endothelium and enhances the penetration of co-administered chemotherapy.
+Tasonermin er et rekombinant humant TNF-alpha. Dets eneste etablerede kliniske anvendelse er regional isoleret lemb-perfusion for lokalt avanceret blødt vævsarcom og melanom på ekstremiteter (godkendt i EU som Beromun), hvor det selektivt beskadiger tumorvaskulær endotel og forbedrer penetrationen af samtidigt ordineret kemoterapiet.
 
-TNF-alpha signalling has been described in the inflammatory and immune microenvironment of urothelial carcinoma in some literature, but there is no direct mechanistic evidence linking Tasonermin to prostatic urethra urothelial carcinoma specifically. The TxGNN high score most likely reflects broad "TNF-alpha–cancer" connectivity within the knowledge graph rather than a disease-specific mechanistic signal.
+TNF-alpha-signalering er beskrevet i det inflammatoriske og immunologiske mikromiljø omkring urotelialcarcinom i noget litteratur, men der er ingen direkte mekanistisk evidens, der forbinder Tasonermin til urotelialcarcinom i prostata-urethra specifikt. Det høje TxGNN-score afspejler sandsynligvis bredt "TNF-alpha–cancer"-forbindelser inden for vidensgrafen snarere end et sygdomsspecifikt mekanistisk signal.
 
-Furthermore, Tasonermin's existing clinical experience is confined to regional/locoregional administration (isolated limb perfusion); there is no pharmacokinetic or safety basis established for systemic use in a urological tumour such as this. This prediction should therefore be regarded as a hypothesis-generating signal only, not as evidence of therapeutic potential.
+Desuden er Tasonermins eksisterende kliniske erfaring begrænset til regional/lokoregional administration (isoleret lemb-perfusion); der er ingen farmakokinetisk eller sikkerhedsbasis etableret for systemisk brug i en urologisk tumor som denne. Denne forudsigelse bør derfor betragtes som et hypotesegenererende signal alene, ikke som evidens for terapeutisk potentiale.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Tasonermin is currently **not marketed** in Denmark, and no marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) are on file for this product.
+Tasonermin er i øjeblikket **ikke markedsført** i Danmark, og der er ingen markedsføringsgodkendelser (nationale Lægemiddelstyrelsen eller centraliseret EMA) på fil for dette produkt.
 
-## Cytotoxicity
+## Cytotoxicitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy/biologic (recombinant TNF-alpha cytokine) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+| Punkt | Indhold |
+|------|---------|
+| Cytotoxicitetsklassifikation | Immunoterapeutisk/biologisk (rekombinant TNF-alpha-cytokine) — ikke en konventionel cytotoksisk kemoterapeutisk |
+| Risiko for myelosuppression | Se venligst advarsler og forsigtighedsregler i Produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se venligst advarsler og forsigtighedsregler i Produktresuméet (SmPC) |
+| Overvågningspunkter | Se venligst advarsler og forsigtighedsregler i Produktresuméet (SmPC) |
+| Sikker håndtering | Se venligst advarsler og forsigtighedsregler i Produktresuméet (SmPC) |
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Afvent**
 
-**Rationale:**
-This prediction is evidence level L5 — supported only by TxGNN's knowledge-graph score, with zero clinical trials and zero publications identified for Tasonermin in prostatic urethra urothelial carcinoma. A blocking data gap also remains on Danish/EU label warnings and contraindications, which prevents any safety pre-assessment.
+**Begrundelse:**
+Denne forudsigelse er evidensgrad L5 — understøttet udelukkende af TxGNNs vidensgrafscore, med nul kliniske forsøg og nul publikationer identificeret for Tasonermin ved urotelialcarcinom i prostata-urethra. En vigtig datakløft forbliver også på dansk/EU-etiketadvarsler og kontraindikationer, hvilket forhindrer enhver sikkerhedspræ-evaluering.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC label warnings and contraindications (currently blocking — required before any safety pre-screening)
-- Confirmed mechanism of action detail via DrugBank or primary literature
-- Preclinical or case-level evidence connecting TNF-alpha activity to urothelial carcinoma subtypes before further evaluation
-- Clarification on feasible route of administration, given Tasonermin's current use is limited to regional isolated limb perfusion
+**For at fortsætte er følgende nødvendig:**
+- TFDA/SmPC advarsler og kontraindikationer (i øjeblikket manglende — nødvendige før eventuel sikkerhedspræ-screening)
+- Bekræftet virkningsmekhanisme via DrugBank eller primær litteratur
+- Præklinisk eller case-niveau bevis, der forbinder TNF-alpha-aktivitet til urotelialcarcinomsubtyper før yderligere evaluering
+- Præcisering af mulig administrationsrute, givet at Tasonermins nuværende brug er begrænset til regional isoleret lemb-perfusion
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

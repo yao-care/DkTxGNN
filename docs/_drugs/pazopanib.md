@@ -29,100 +29,99 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the drug-repurposing evidence pack directly (no additional skill applies — this is a structured content-generation task per the prompt's own template). Note: the array's rank‑1/2 entries (ultra-rare RCC subtypes, pediatric RCC) carry zero clinical/literature evidence (L5/L4, Hold), while the **liposarcoma** candidate (score 0.9959, appearing at ranks 7–8) has 9 trials and 20 publications. As a repurposing analyst, that is the indication with an actual decision to report on, so it anchors this report; the near-empty candidates are summarized briefly rather than given empty tables.
+# Pazopanib: Fra nyrecellekarcinoma/blødt vævsarkom til liposarkom
 
-# Pazopanib: From Renal Cell Carcinoma / Soft Tissue Sarcoma to Liposarcoma
+## Ét-sætnings-sammenfatning
 
-## One-Sentence Summary
+Pazopanib er en multi-target tyrosinkinasehæmmer, der internationalt er godkendt til fremskredent nyrecellekarcinoma og til non-adipocytisk blødt vævsarkom (liposarkomsubtyper var historisk udelukket fra denne godkendelse). TxGNN-modellen forudsiger, at det også kan være effektivt specifikt for **liposarkom**, med **9 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning — herunder to forsøg dedikeret til pazopanib-monoterapi til liposarkom.
 
-Pazopanib is a multi-target tyrosine kinase inhibitor internationally approved for advanced renal cell carcinoma and for non-adipocytic soft tissue sarcoma (liposarcoma subtypes were historically excluded from that approval).
-The TxGNN model predicts it may also be effective specifically for **Liposarcoma**,
-with **9 clinical trials** and **20 publications** currently supporting this direction — including two trials dedicated to pazopanib monotherapy in liposarcoma.
+## Hurtig oversigt
 
-## Quick Overview
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ingen dansk etiketdata på fil (medicin ikke markedsført her). Baseret på kendt international etikettering er pazopanib (Votrient) godkendt til fremskredent nyrecellekarcinoma og til udvalgte blødt vævsarkomsubtyper |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 99.59% |
+| Evidensniveau | L2 |
+| Danske markedsstatus | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet anbefaling | Fortsæt med sikkerhedsforanstaltninger |
 
-| Item | Content |
-|------|------|
-| Original Indication | No Danish label data on file (drug not marketed here). Based on known international labeling, pazopanib (Votrient) is approved for advanced renal cell carcinoma and for select soft tissue sarcoma subtypes |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+## Hvorfor er denne forudsigelse rimelig?
 
-## Why is This Prediction Reasonable?
+Detaljerede mekanisme-af-handling-data er ikke til stede i den lokale database for denne kandidat. Baseret på kendt farmakologi (supplerende, ikke fra lokale kilder) er pazopanib en oral multi-target receptortyrosinkinasehæmmer af VEGFR-1/2/3, PDGFR-α/β og c-KIT, som virker primært gennem anti-angiogeniske og anti-proliferative mekanismer.
 
-Detailed mechanism-of-action data is not present in the local database for this candidate. Based on known pharmacology (supplementary, not from local sources), pazopanib is an oral multi-target receptor tyrosine kinase inhibitor of VEGFR-1/2/3, PDGFR-α/β, and c-KIT, acting primarily through anti-angiogenic and anti-proliferative mechanisms.
+Nyrecellekarcinoma og blødt vævsarkomer — herunder liposarkom — deler en stærk afhængighed af tumorangiogenese og, i flere liposarkomsubtyper, PDGFR-vej-aktivering. Pazopanibs etablerede effektivitet mod VEGFR/PDGFR-drevne tumorer ved nyrecellekarcinoma giver en mekanistisk begrundelse for aktivitet i liposarkom.
 
-Renal cell carcinoma and soft tissue sarcomas — including liposarcoma — share a strong dependence on tumour angiogenesis and, in several liposarcoma subtypes, PDGFR pathway activation. Pazopanib's established efficacy against VEGFR/PDGFR-driven tumours in RCC provides a mechanistic rationale for activity in liposarcoma.
+Bemærkelsesværdigt var liposarkom oprindeligt *udelukket* fra pazopanibs godkendelse til blødt vævsarkom (baseret på et subgrupbesignal i PALETTE-forsøget), hvilket er præcis hvorfor denne TxGNN-markerede indikation er klinisk interessant: flere dedikerede post-hoc og prospektive fase 2-studier (f.eks. NCT01692496, NCT01506596) undersøgte efterfølgende pazopanib specifikt til liposarkom og rapporterede sygdomskontrol, hvilket tyder på, at den oprindelige udelukkelse måske ikke fuldt ud afspejler lægemidlets aktivitet på tværs af alle liposarkomsubtyper.
 
-Notably, liposarcoma was originally *excluded* from pazopanib's soft-tissue-sarcoma approval (based on a subgroup signal in the PALETTE trial), which is precisely why this TxGNN-flagged indication is clinically interesting: several dedicated post-hoc and prospective Phase 2 studies (e.g., NCT01692496, NCT01506596) subsequently examined pazopanib specifically in liposarcoma and reported disease control, suggesting the original exclusion may not fully reflect drug activity across all liposarcoma subtypes.
+*Andre kandidater i denne evidenspakke* — ultra-sjældne nyrecellekarcinomsubtyper (neuroblaastom-associeret nyrecellekarcinoma, Xp11.2/TFE3-fusionsnyrecellekarcinoma), uniklassificeret nyrecellekarcinoma og barndomsnyrecellekarcinoma — har samme høje TxGNN-scorebånd, men har ingen understøttende litteratur/forsøg specifikke for disse populationer (L4–L5, Hold) og er ikke detaljeret yderligere her.
 
-*Other candidates in this evidence pack* — ultra-rare RCC subtypes (neuroblastoma-associated RCC, Xp11.2/TFE3-fusion RCC), unclassified RCC, and childhood RCC — carry the same high TxGNN score band but have no supporting literature/trials specific to those populations (L4–L5, Hold) and are not detailed further here.
+## Evidens fra kliniske forsøg
 
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Phase 2 | Completed | 52 | Pazopanib monotherapy in advanced/metastatic liposarcoma relapsed after standard therapy — direct pazopanib-liposarcoma evidence |
-| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Phase 2 | Completed | 42 | Single-agent pazopanib in unresectable/metastatic liposarcoma |
-| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Phase 2 | Completed | 178 | Pazopanib + oral topotecan in metastatic/non-resectable soft tissue and bone sarcomas |
-| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Phase 2 | Completed | 54 | Randomized double-blind gemcitabine ± pazopanib in refractory soft tissue sarcoma |
-| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Phase 2/3 | Active, not recruiting | 140 | Pazopanib neoadjuvant trial (chemoradiation ± pazopanib) in non-rhabdomyosarcoma soft tissue sarcoma |
-| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Phase 1/2 | Recruiting | 139 | Maintenance pazopanib + dose-escalated radiotherapy ± selinexor in non-rhabdomyosarcoma soft tissue sarcoma (pediatric/AYA population) |
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Phase 2 | Completed | 219 | Regorafenib (not pazopanib) in metastatic soft tissue sarcoma post-anthracycline — same drug class, indirect evidence only |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024: oral regorafenib across sarcoma subtypes — indirect, different drug |
-| [NCT06263231](https://clinicaltrials.gov/study/NCT06263231) | Phase 3 | Active, not recruiting | 333 | Intratumoral INT230-6 vs. US standard of care in soft tissue sarcomas — different drug class, low relevance |
+| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Fase 2 | Afsluttet | 52 | Pazopanib-monoterapi til fremskredent/metastatisk liposarkom recidiveret efter standardbehandling — direkte pazopanib-liposarkombevis |
+| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Fase 2 | Afsluttet | 42 | Enkeltagens pazopanib til uoperabelt/metastatisk liposarkom |
+| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Fase 2 | Afsluttet | 178 | Pazopanib + oral topotecan til metastatisk/ikke-resektabelt blødt væv og knogleskarkomer |
+| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Fase 2 | Afsluttet | 54 | Randomiseret double-blind gemcitabin ± pazopanib til refraktær blødt vævsarkom |
+| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Fase 2/3 | Aktivt, rekrutterer ikke | 140 | Pazopanib-neodjuvant-forsøg (kemoterapi-stråling ± pazopanib) til non-rabdomyosarkom blødt vævsarkom |
+| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Fase 1/2 | Rekrutterer | 139 | Vedligeholdelses-pazopanib + dosiseskaleret stråling ± selinexor til non-rabdomyosarkom blødt vævsarkom (pædiatrisk/ung-voksen population) |
+| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Fase 2 | Afsluttet | 219 | Regorafenib (ikke pazopanib) til metastatisk blødt vævsarkom post-antracyklin — samme lægemiddelklasse, kun indirekte bevis |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Afsluttet | 131 | SARC024: oral regorafenib på tværs af sarkomsubtyper — indirekte, andet lægemiddel |
+| [NCT06263231](https://clinicaltrials.gov/study/NCT06263231) | Fase 3 | Aktivt, rekrutterer ikke | 333 | Intratumoralt INT230-6 vs. amerikanske standardbehandling til blødt vævsarkomer — anden lægemiddelklasse, lav relevans |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | RCT (PALETTE subgroup analysis) | The Lancet. Oncology | Commentary on pazopanib activity specifically in the liposarcoma subgroup of the pivotal PALETTE trial |
-| [33355646](https://pubmed.ncbi.nlm.nih.gov/33355646/) | 2021 | Phase 2 RCT (PAPAGEMO, final results) | JAMA Oncology | Efficacy of pazopanib with/without gemcitabine in anthracycline/ifosfamide-refractory soft tissue sarcoma |
-| [36890471](https://pubmed.ncbi.nlm.nih.gov/36890471/) | 2023 | RCT protocol (Phase 2, JCOG1802) | BMC Cancer | Randomized comparison of trabectedin, eribulin, and pazopanib as second-line therapy for advanced soft tissue sarcoma |
-| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Review | Oncology Research and Treatment | Overview of established and experimental systemic treatments for advanced liposarcoma, including pazopanib |
-| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Review | Current Treatment Options in Oncology | Systemic therapy options for dedifferentiated liposarcoma |
-| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | Phase 2, single-arm | British Journal of Cancer | Pazopanib with oral topotecan active in refractory soft tissue sarcoma, prolongs PFS |
-| [28832986](https://pubmed.ncbi.nlm.nih.gov/28832986/) | 2017 | Phase 2, prospective single-arm | Cancer | Single-agent pazopanib shows treatment activity and manageable safety in unresectable/metastatic liposarcoma |
-| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Cohort / subgroup analysis | Expert Opinion on Investigational Drugs | Review of pazopanib's anti-angiogenic activity in advanced intermediate/high-grade liposarcoma |
-| [34356494](https://pubmed.ncbi.nlm.nih.gov/34356494/) | 2021 | Translational / pathology study | Biology | Molecular profiling of soft tissue sarcoma samples before/after neoadjuvant pazopanib (GISG-04/NOPASS) |
-| [25500074](https://pubmed.ncbi.nlm.nih.gov/25500074/) | 2014 | Preclinical (xenograft) | Translational Oncology | Pazopanib suppresses tumour growth via anti-angiogenesis in dedifferentiated liposarcoma xenograft models |
+| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | RCT (PALETTE-subgruppeanalyse) | The Lancet. Oncology | Kommentar til pazopanibaktivitet specifikt i liposarkomsubgruppen af det vigtige PALETTE-forsøg |
+| [33355646](https://pubmed.ncbi.nlm.nih.gov/33355646/) | 2021 | Fase 2 RCT (PAPAGEMO, endelige resultater) | JAMA Oncology | Effektivitet af pazopanib med/uden gemcitabin i antracyklin/ifosfa-midrefraktær blødt vævsarkom |
+| [36890471](https://pubmed.ncbi.nlm.nih.gov/36890471/) | 2023 | RCT-protokol (fase 2, JCOG1802) | BMC Cancer | Randomiseret sammenligning af trabectedin, eribulin og pazopanib som anden-linjeterapi til fremskredent blødt vævsarkom |
+| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Oversigt | Oncology Research and Treatment | Oversigt over etablerede og eksperimentelle systemiske behandlinger til fremskredent liposarkom, herunder pazopanib |
+| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Oversigt | Current Treatment Options in Oncology | Systemiske terapimuligheder til dedifferentieret liposarkom |
+| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | Fase 2, enkelt-arm | British Journal of Cancer | Pazopanib med oral topotecan aktivt ved refraktær blødt vævsarkom, forlænger PFS |
+| [28832986](https://pubmed.ncbi.nlm.nih.gov/28832986/) | 2017 | Fase 2, prospektiv enkelt-arm | Cancer | Enkeltagens pazopanib viser behandlingsaktivitet og håndterbar sikkerhed ved uoperabelt/metastatisk liposarkom |
+| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Kohorte/subgruppeanalyse | Expert Opinion on Investigational Drugs | Gennemgang af pazopanibs anti-angiogeniske aktivitet ved fremskredent intermediate/høj-grad liposarkom |
+| [34356494](https://pubmed.ncbi.nlm.nih.gov/34356494/) | 2021 | Translationel/patologistudie | Biology | Molekylær profilering af blødt vævsarkomprøver før/efter neodjuvant pazopanib (GISG-04/NOPASS) |
+| [25500074](https://pubmed.ncbi.nlm.nih.gov/25500074/) | 2014 | Præ-klinisk (xenograft) | Translational Oncology | Pazopanib undertrykker tumorvækst via anti-angiogenese i dedifferentieret liposarkomxenograft-modeller |
 
-## Denmark Market Information
+## Danske markedsoplysninger
 
-Pazopanib currently has **no marketing authorisation on file in Denmark** (market status: Not marketed; 0 authorisations recorded). No Laegemiddelstyrelsen or EMA centralised licence data is available in this evidence pack to summarize.
+Pazopanib har i øjeblikket **ingen markedsføringsgodkendelse på fil i Danmark** (markedsstatus: Ikke markedsført; 0 godkendelser registreret). Ingen Laegemiddelstyrelsen- eller EMA-centraliseret licensdata er tilgængelig i denne evidenspakke til opsummering.
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Pazopanib's oncology use (renal cell carcinoma, soft tissue sarcoma) qualifies it for this section, though local toxicity/category data was not returned by DrugBank for this pack.
+Pazopanibs onkologiske brug (nyrecellekarcinoma, blødt vævsarkom) kvalificerer det til dette afsnit, selvom lokale toksicitet/kategoridato ikke blev returneret af DrugBank for denne pakke.
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target receptor tyrosine kinase inhibitor — VEGFR/PDGFR/c-KIT; based on known pharmacology, not local database) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) — TKIs as a class typically carry lower myelosuppression risk than conventional cytotoxic chemotherapy, but drug-specific hematologic data is not in this evidence pack |
-| Emetogenicity Classification | Please refer to the SmPC |
-| Monitoring Items | Please refer to the SmPC — general TKI monitoring commonly includes blood pressure, liver function tests, CBC, and QT interval |
-| Handling Protection | Please refer to the SmPC and institutional oral-oncolytic handling policy |
+| Cytotoksisitetsklassificering | Målrettet terapi (multi-target receptortyrosinkinasehæmmer — VEGFR/PDGFR/c-KIT; baseret på kendt farmakologi, ikke lokaldatabase) |
+| Myelosuppressionsrisiko | Se venligst Produktsammenfattelsen (SmPC) — TKI'er som klasse har typisk lavere myelosuppressionsrisiko end konventionel cytotoxisk kemoterapi, men medicin-specifik hæmatologisk data er ikke i denne evidenspakke |
+| Emetogenitetsklassificering | Se venligst SmPC |
+| Overvågningspunkter | Se venligst SmPC — generel TKI-overvågning omfatter almindeligvis blodtryk, leverprøver, CBC og QT-interval |
+| Håndteringsbeskyttelse | Se venligst SmPC og institutionel politik for håndtering af oral-onkolytika |
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information — key warnings, contraindications, and drug-interaction data for pazopanib were not available in this evidence pack (data gap DG001, Blocking).
+Se venligst den godkendte Produktsammenfattelse (SmPC) for sikkerhedsinformation — vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata for pazopanib var ikke tilgængelig i denne evidenspakke (datagab DG001, Blokering).
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Proceed with Guardrails**
+**Anbefaling: Fortsæt med sikkerhedsforanstaltninger**
 
-**Rationale:**
-Multiple pazopanib-specific Phase 2 trials — including two dedicated to liposarcoma monotherapy (NCT01692496, NCT01506596) — plus PALETTE-trial subgroup literature support biological activity in liposarcoma. However, pazopanib is not currently marketed in Denmark and local safety/label data is entirely missing, so this cannot proceed without further work.
+**Begrundelse:**
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings, contraindications, and DDI data (DG001, Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002, High)
-- A Danish or EU marketing-authorisation pathway assessment, since pazopanib currently has zero licences on file here
-- Direct citation and full data extraction from the PALETTE Phase 3 RCT (referenced only indirectly via PMID 28844815)
-- Clarification of applicability across liposarcoma histologic subtypes (well-differentiated/dedifferentiated/myxoid/pleomorphic), since trial populations were heterogeneous
+Flere pazopanib-specifikke fase 2-forsøg — herunder to dedikeret til liposarkom-monoterapi (NCT01692496, NCT01506596) — plus PALETTE-forsøgslitteratur om subgruppe understøtter biologisk aktivitet i liposarkom. Pazopanib er imidlertid i øjeblikket ikke markedsført i Danmark, og lokale sikkerhed/etiketdata er helt manglende, så dette kan ikke fortsættes uden yderligere arbejde.
+
+**For at fortsætte skal følgende være til stede:**
+
+- Dansk/EU SmPC-advarsler, kontraindikationer og DDI-data (DG001, Blokering)
+- Bekræftet mekanisme-af-virkning-dokumentation fra DrugBank (DG002, Høj)
+- En dansk eller EU-vurdering af markedsføringsgodkendelsesvej, da pazopanib i øjeblikket har nul licenser på fil her
+- Direkte citation og fuldt dataekstration fra PALETTE-fase 3-RCT (kun refereret indirekte via PMID 28844815)
+- Præcisering af anvendelighed på tværs af liposarkomhistologiske subtyper (veldifferentieret/dedifferentieret/myksoid/pleomorf), da forsøgspopulationerne var heterogene
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

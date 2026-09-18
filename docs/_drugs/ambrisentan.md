@@ -29,165 +29,166 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ambrisentan: From Pulmonary Arterial Hypertension to Pulmonary Arteriovenous Malformation
+# Ambrisentan: Fra Pulmonal Arteriel Hypertension til Pulmonal Arteriovenøs Malformation
 
-> **Multi-Indication Evaluation** (Candidate ID: TW-DB06403-multi). This evidence pack covers ten predicted indications. The highest TxGNN score belongs to pulmonary arteriovenous malformation (PAVM); however, the most clinically actionable predictions are PAH associated with HIV infection (L1 evidence), connective tissue disease (L2), and congenital heart disease (L2).
-
----
-
-## One-Sentence Summary
-
-Ambrisentan is an oral selective endothelin receptor type A (ETA) antagonist, approved internationally (EMA/FDA) for pulmonary arterial hypertension (PAH), but not currently registered in Denmark.
-The TxGNN model assigns its highest prediction score to **pulmonary arteriovenous malformation** (PAVM, 99.41%); however, the most clinically actionable findings in this evaluation are PAH associated with **HIV infection** (evidence level L1: 1 completed Phase 3 RCT), **connective tissue disease** (L2), and **congenital heart disease** (L2).
-Across all evaluated indications, this evidence pack encompasses **10 clinical trials** and **37 publications**.
+> **Evaluering af Multiple Indikationer** (Kandidat-ID: TW-DB06403-multi). Denne evidenspakke omfatter ti forudsagte indikationer. Den højeste TxGNN-score tilhører pulmonal arteriovenøs malformation (PAVM); dog er de mest klinisk brugbare forudsigelser PAH forbundet med HIV-infektion (L1-evidens), bindevævssygdom (L2) og medfødt hjertesygdom (L2).
 
 ---
 
-## Quick Overview
+## Resumé på Én Sætning
 
-| Item | Content |
+Ambrisentan er en oral selektiv endothelin-receptortype A (ETA) antagonist, godkendt internationalt (EMA/FDA) til pulmonal arteriel hypertension (PAH), men ikke i øjeblikket registreret i Danmark.
+TxGNN-modellen tildeler sin højeste forudsigelsesscore til **pulmonal arteriovenøs malformation** (PAVM, 99,41%); dog er de mest klinisk brugbare fund i denne evaluering PAH forbundet med **HIV-infektion** (evidensniveau L1: 1 afsluttet Phase 3-RCT), **bindevævssygdom** (L2) og **medfødt hjertesygdom** (L2).
+På tværs af alle evaluerede indikationer omfatter denne evidenspakke **10 kliniske forsøg** og **37 publikationer**.
+
+---
+
+## Hurtigt Overblik
+
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Pulmonary arterial hypertension (WHO Group 1; EMA/FDA approved internationally — no Danish marketing authorisation on record) |
-| Top-Ranked Predicted Indication | Pulmonary arteriovenous malformation (PAVM) |
-| TxGNN Prediction Score | 99.41% (PAVM); 99.37% (PAH-CHD); 99.30% (PAH-CTD, PAH-HIV) |
-| Evidence Level | L4 — PAVM (Hold); L1 — PAH-HIV (Proceed with Guardrails); L2 — PAH-CTD and PAH-CHD (Proceed with Guardrails) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold (PAVM); Proceed with Guardrails (PAH-HIV, PAH-CTD, PAH-CHD) |
+| Oprindelig Indikation | Pulmonal arteriel hypertension (WHO Gruppe 1; EMA/FDA godkendt internationalt — ingen dansk markedsføringstilladelse registreret) |
+| Top-Rankeret Forudsagt Indikation | Pulmonal arteriovenøs malformation (PAVM) |
+| TxGNN Forudsigelsesscore | 99,41% (PAVM); 99,37% (PAH-CHD); 99,30% (PAH-CTD, PAH-HIV) |
+| Evidensniveau | L4 — PAVM (Udsat); L1 — PAH-HIV (Fortsæt med Sikkerhedsforanstaltninger); L2 — PAH-CTD og PAH-CHD (Fortsæt med Sikkerhedsforanstaltninger) |
+| Status på Dansk Marked | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Udsat (PAVM); Fortsæt med Sikkerhedsforanstaltninger (PAH-HIV, PAH-CTD, PAH-CHD) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on published information, Ambrisentan is an oral selective ETA receptor antagonist. Its efficacy in pulmonary arterial hypertension has been established through pivotal randomised trials, and mechanistically its ETA-blockade pathway may be applicable to other conditions driven by endothelin-1-mediated pulmonary vascular overactivation.
+I øjeblikket er der ikke detaljeret virkningsmekanisme-data tilgængeligt i denne evidenspakke. Baseret på publiceret information er ambrisentan en oral selektiv ETA-receptorantagonist. Dens effektivitet ved pulmonal arteriel hypertension er etableret gennem pivotalrandomiserede forsøg, og mekanistisk kan dens ETA-blokerings-vej være brugbar til andre tilstande drevet af endothelin-1-medieret pulmonal vaskulær overaktivering.
 
-**Regarding the highest-scored prediction — pulmonary arteriovenous malformation (PAVM):** PAVM is a structural vascular anomaly characterised by direct arteriovenous connections in the lungs that bypass the capillary bed. It is managed primarily by catheter-based embolisation, not pharmacological vasotone modulation, and elevated ET-1 does not play an established pathogenic role in its formation or progression. The only identified publication (PMID 33969094) describes a patient with hereditary haemorrhagic telangiectasia (HHT) who concurrently developed PAH — this reflects coincident co-morbidity rather than evidence for ETA antagonism in PAVM itself. Mechanistic relevance for this prediction is low.
+**Med hensyn til den højest scorede forudsigelse — pulmonal arteriovenøs malformation (PAVM):** PAVM er en strukturel vaskulær anomali karakteriseret ved direkte arteriovenøse forbindelser i lungerne, som omgår kapillarbeddet. Det styres primært ved kateterbaseret embolisering, ikke farmakologisk vasotonmodulering, og forhøjet ET-1 spiller ingen etableret patogenetisk rolle i dets dannelse eller progression. Den eneste identificerede publikation (PMID 33969094) beskriver en patient med arvelig hæmorhagisk teleangiektasi (HHT), som samtidig udviklede PAH — dette afspejler samtidsforekommende comorbiditeter snarere end evidens for ETA-antagonisme i PAVM selv. Mekanistisk relevans for denne forudsigelse er lav.
 
-**Regarding the three actionable PAH-associated subtypes:** All share the same core ETA-overexpression pathway targeted by Ambrisentan. In congenital heart disease, sustained high pulmonary blood flow and shear stress trigger endothelial ET-1 overproduction, driving progressive pulmonary vascular remodelling — the same process Ambrisentan attenuates in idiopathic PAH. HIV infection stimulates ET-1 release from endothelial cells via gp120 protein, while HIV Nef protein suppresses nitric oxide synthase, creating the ET-1/NO imbalance that underpins HIV-PAH. In connective tissue diseases — particularly systemic sclerosis — chronic endothelial injury and immune dysregulation sustain ET-1 overexpression, making selective ETA blockade mechanistically well-justified. All three are formal WHO Group 1 PAH subclasses, sharing the same biologic target as Ambrisentan's established indication.
+**Med hensyn til de tre brugbare PAH-associerede subtyper:** Alle deler den samme kernestof ETA-overekspression vej målrettet af ambrisentan. Ved medfødt hjertesygdom udløser vedvarende højt pulmonal blodflow og shear stress endotel-ET-1-overproduktion, hvilket driver progressiv pulmonal vaskulær ombygnning — samme proces ambrisentan dæmper ved idiopatisk PAH. HIV-infektion stimulerer ET-1-frigivelse fra endotelceller via gp120-protein, mens HIV Nef-protein undertrykker nitrogenoviltcoxidase, hvilket skaber ET-1/NO-ubalancen, der ligger til grund for HIV-PAH. Ved bindevævssygdomme — især systemisk sklerose — vedvarende endotel-skade og immun-dysregulering opretholder ET-1-overekspression, hvilket gør selektiv ETA-blokering mekanistisk velunderbygget. Alle tre er formelle WHO Gruppe 1 PAH-underklasser, der deler samme biologiske mål som ambristentans etablerede indikation.
 
 ---
 
-## Clinical Trial Evidence
+## Evidens fra Kliniske Forsøg
 
-*No clinical trials were identified for pulmonary arteriovenous malformation (PAVM). The following presents the most relevant trials from all other evaluated indications in this evidence pack.*
+*Ingen kliniske forsøg blev identificeret for pulmonal arteriovenøs malformation (PAVM). Følgende præsenterer de mest relevante forsøg fra alle andre evaluerede indikationer i denne evidenspakke.*
 
-| Trial Number | Indication | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Indikation | Fase | Status | Tilmelding | Vigtigste Fund |
 |---------|------|------|------|------|---------|
-| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | PAH-HIV | Phase 3 | Completed | 64 | Multicentre, double-blind, randomised, placebo-controlled crossover RCT; directly evaluates Ambrisentan in patients with IPAH, FPAH, and HIV-associated PAH on stable background PAH therapy; exercise capacity primary endpoint — the strongest direct evidence in this pack |
-| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | PAH-CTD (SSc) | Phase 2 | Completed | 38 | EDITA trial: early Ambrisentan in borderline SSc-PAH (mPAP values just above threshold); randomised double-blind proof-of-concept; assessed pulmonary vascular remodelling markers and haemodynamics as primary endpoints |
-| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | PAH-CTD (SSc) | Phase 4 | Completed | 25 | Ambrisentan + Tadalafil combination in PAH-scleroderma spectrum disease; 36-week open-label study; 6MWD, NYHA functional class, and echocardiographic RV-PV function assessed |
-| [NCT01808313](https://clinicaltrials.gov/study/NCT01808313) | PAH (broad, incl. CHD subgroup) | Phase 3 | Completed | 134 | Open-label Phase 3b in Chinese PAH patients; Ambrisentan 5 mg over 12 weeks primary evaluation period; exercise capacity (6MWT) as primary endpoint; CHD subgroup included |
-| [NCT01342952](https://clinicaltrials.gov/study/NCT01342952) | Paediatric PAH (incl. CHD) | Phase 2 | Completed | 38 | Long-term extension of paediatric PAH study (ages 8–18 years); includes PAH-CHD subgroup; completed June 2022; high reference value for paediatric CHD-PAH management |
-| [NCT01332331](https://clinicaltrials.gov/study/NCT01332331) | Paediatric PAH | Phase 2 | Terminated | 41 | High vs. low weight-adjusted Ambrisentan dose comparison in paediatric PAH; terminated early — provides partial dose-response relationships and PK data relevant to CHD-PAH children |
-| [NCT02885012](https://clinicaltrials.gov/study/NCT02885012) | CTD-PAH (ERA switch) | Phase 4 | Terminated | 3 | Switch from bosentan or macitentan to Ambrisentan in CTD-PAH; terminated after 3 patients enrolled — no clinically meaningful efficacy or safety conclusions available |
-| [NCT04095286](https://clinicaltrials.gov/study/NCT04095286) | Healthy volunteers (PK) | Phase 1 | Completed | 29 | Relative bioavailability of lower-dose paediatric Ambrisentan tablet dispersed in water vs. marketed tablet; pharmacokinetic reference for paediatric dosing — no efficacy endpoint |
-| [NCT02688387](https://clinicaltrials.gov/study/NCT02688387) | Healthy volunteers (PK) | Phase 1 | Completed | 112 | Relative bioavailability of Ambrisentan + Tadalafil fixed-dose combination formulations; pharmacokinetic data supporting FDC development — no efficacy endpoint |
-| [NCT01884675](https://clinicaltrials.gov/study/NCT01884675) | Inoperable CTEPH | Phase 3 | Terminated | 33 | Randomised, double-blind, placebo-controlled study of Ambrisentan 5 mg vs. placebo in inoperable chronic thromboembolic pulmonary hypertension; terminated early — insufficient data for conclusions |
+| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | PAH-HIV | Fase 3 | Afsluttet | 64 | Multicenterkontrolleret, dobbeltblindet, randomiseret, placebo-kontrolleret crossover-RCT; evaluerer direkte ambrisentan hos patienter med IPAH, FPAH og HIV-associeret PAH på stabil baggrund PAH-terapi; øvelseskapacitet primært endepunkt — den stærkeste direkte evidens i denne pakke |
+| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | PAH-CTD (SSc) | Fase 2 | Afsluttet | 38 | EDITA-forsøg: tidlig ambrisentan ved grænsetilfælde SSc-PAH (mPAP-værdier lige over grænseværdi); randomiseret dobbeltblindet proof-of-concept; vurderede pulmonal vaskulær ombygnningsmarkører og hæmodynamik som primære endepunkter |
+| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | PAH-CTD (SSc) | Fase 4 | Afsluttet | 25 | Ambrisentan + Tadalafil-kombination ved PAH-skleroderm-spektrumsygdom; 36-ugers åben-label-studie; 6MWD, NYHA-funktionklasse og ekkokardiografisk RV-PV-funktion vurderet |
+| [NCT01808313](https://clinicaltrials.gov/study/NCT01808313) | PAH (bredt, inkl. CHD-undergruppe) | Fase 3 | Afsluttet | 134 | Åben-label Fase 3b hos kinesiske PAH-patienter; ambrisentan 5 mg over 12 uger primær evalueringsperiode; øvelseskapacitet (6MWT) som primært endepunkt; CHD-undergruppe inkluderet |
+| [NCT01342952](https://clinicaltrials.gov/study/NCT01342952) | Pædiatrisk PAH (inkl. CHD) | Fase 2 | Afsluttet | 38 | Langvarigt extension af pædiatrisk PAH-studie (alder 8–18 år); inkluderer PAH-CHD-undergruppe; afsluttet juni 2022; høj referenceværdi for pædiatrisk CHD-PAH-styring |
+| [NCT01332331](https://clinicaltrials.gov/study/NCT01332331) | Pædiatrisk PAH | Fase 2 | Termineret | 41 | Høj vs. lav vægtadjusteret ambrisentan-dosering ved pædiatrisk PAH; termineret tidligt — giver delvise dosis-responsforhold og PK-data relevant for CHD-PAH-børn |
+| [NCT02885012](https://clinicaltrials.gov/study/NCT02885012) | CTD-PAH (ERA-skift) | Fase 4 | Termineret | 3 | Skift fra bosentan eller macitentan til ambrisentan ved CTD-PAH; termineret efter 3 patienter tilmeldt — ingen klinisk meningsfuld efficacy- eller sikkerhedkonklusioner tilgængelige |
+| [NCT04095286](https://clinicaltrials.gov/study/NCT04095286) | Raske frivillige (PK) | Fase 1 | Afsluttet | 29 | Relativ biotilgængelighed af ambrisentan-tablet i lavere dosis opløst i vand vs. markedsført tablet; farmakokinetisk reference for pædiatrisk dosering — intet efficacy-endepunkt |
+| [NCT02688387](https://clinicaltrials.gov/study/NCT02688387) | Raske frivillige (PK) | Fase 1 | Afsluttet | 112 | Relativ biotilgængelighed af ambrisentan + Tadalafil-kombinationspræparater i fast dosis; farmakokinetiske data understøttende FDC-udvikling — intet efficacy-endepunkt |
+| [NCT01884675](https://clinicaltrials.gov/study/NCT01884675) | Operabel CTEPH | Fase 3 | Termineret | 33 | Randomiseret, dobbeltblindet, placebo-kontrolleret studie af ambrisentan 5 mg vs. placebo ved uoperabel kronisk tromboembolisk pulmonal hypertension; termineret tidligt — utilstrækkelige data til konklusioner |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-*Selected from across all evaluated indications, prioritised by study type and direct relevance to Ambrisentan. No literature was identified for PAVM beyond one indirect case report.*
+*Udvalgt fra alle evaluerede indikationer, prioriteret efter studietype og direkte relevans til ambrisentan. Ingen litteratur blev identificeret for PAVM ud over en indirekte case report.*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste Fund |
 |------|-----|------|------|---------|
-| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematic Review & Meta-analysis | Internal and Emergency Medicine | Comprehensive meta-analysis of RCTs in CTD-PAH; demonstrates ERA-class benefit on 6MWD, functional class, and delay of clinical worsening; strongest aggregate evidence for CTD-PAH treatment |
-| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Meta-analysis | BMJ Open | CTD-PAH pharmacotherapy meta-analysis; quantifies ERA efficacy including Ambrisentan; useful for comparing relative treatment effect sizes across ERA-class agents |
-| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Post-hoc Analysis (RCT-based) | Annals of the Rheumatic Diseases | AMBITION trial post-hoc: initial Ambrisentan + Tadalafil combination superior to monotherapy in CTD-PAH; SSc-PAH subgroup shows attenuated response compared to iPAH — monitoring implications highlighted |
-| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | Observational (RCT subgroup) | Annals of the Rheumatic Diseases | AMBITION CTD-PAH/SSc-PAH subgroup: combination Ambrisentan + Tadalafil benefit demonstrated; baseline risk stratification predictors identified for response optimisation |
-| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Retrospective Cohort | Respiratory Medicine | ARIES-E 3-year CTD-PAH subgroup analysis: sustained Ambrisentan efficacy and tolerability over long-term follow-up; relevant to durability of response in Danish CTD-PAH patients |
-| [21371683](https://pubmed.ncbi.nlm.nih.gov/21371683/) | 2011 | Observational / Case Series | American Journal of Cardiology | Ambrisentan specifically in Eisenmenger syndrome (PAH-CHD): improvement in resting and exercise haemodynamics in a cohort of consecutive ES patients at Columbia University; first direct CHD-PAH case series for Ambrisentan |
-| [34921523](https://pubmed.ncbi.nlm.nih.gov/34921523/) | 2022 | Prospective Observational | Pediatric Pulmonology | Real-world safety and tolerability of Ambrisentan + Tadalafil combination in paediatric pulmonary hypertension; supports use in paediatric CHD-PAH populations |
-| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematic Review | Medicine | PAH-specific drug therapy in Eisenmenger syndrome: systematic review and meta-analysis supporting ERA-class benefit on exercise capacity, quality of life, and functional class in CHD-PAH |
-| [28425346](https://pubmed.ncbi.nlm.nih.gov/28425346/) | 2017 | Narrative Review | Therapeutic Advances in Respiratory Disease | Comprehensive Ambrisentan review: pharmacology, pivotal trial evidence across PAH subtypes including CTD-PAH, safety profile (incl. liver safety advantages over non-selective ERAs), and combination therapy evidence |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Narrative Review | JAMA | PAH diagnosis and treatment overview; contextualises current standard-of-care and positions ETA antagonist class within modern PAH management algorithms |
+| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematisk Oversigt & Metaanalyse | Internal and Emergency Medicine | Omfattende metaanalyse af RCT'er ved CTD-PAH; påviser ERA-klasse-fordel på 6MWD, funktionklasse og forsinkelse af klinisk forværring; stærkeste aggregeret evidens for CTD-PAH-behandling |
+| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Metaanalyse | BMJ Open | CTD-PAH-farmakoterapimetaanalyse; kvantificerer ERA-efficacy inkl. ambrisentan; brugbar til sammenligning af relative behandlingseffektstørrelser på tværs af ERA-klasse-midler |
+| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Post-hoc-analyse (RCT-baseret) | Annals of the Rheumatic Diseases | AMBITION-forsøg post-hoc: initial ambrisentan + Tadalafil-kombination superior til monaterapi ved CTD-PAH; SSc-PAH-undergruppe viser dæmpet respons sammenlignet med iPAH — overvågningsimplikationer fremhævet |
+| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | Observationel (RCT-undergruppe) | Annals of the Rheumatic Diseases | AMBITION CTD-PAH/SSc-PAH-undergruppe: kombinationsfordel for ambrisentan + Tadalafil påvist; baseline risikostratificeringsforudsigere identificeret til responoptimering |
+| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Retrospektivt Kohortestudie | Respiratory Medicine | ARIES-E 3-års CTD-PAH-undergruppe-analyse: vedvarende ambrisentan-efficacy og tolerabilitet under langvarigt opfølgning; relevant for responsdurabilitet hos danske CTD-PAH-patienter |
+| [21371683](https://pubmed.ncbi.nlm.nih.gov/21371683/) | 2011 | Observationel / Case Series | American Journal of Cardiology | Ambrisentan specifikt ved Eisenmenger-syndrom (PAH-CHD): forbedring af hvilehæmodynamik og øvelseshæmodynamik i en kohorte af successive ES-patienter ved Columbia University; første direkte CHD-PAH-case series for ambrisentan |
+| [34921523](https://pubmed.ncbi.nlm.nih.gov/34921523/) | 2022 | Prospektiv Observationel | Pediatric Pulmonology | Real-verdens sikkerhed og tolerabilitet for ambrisentan + Tadalafil-kombination ved pædiatrisk pulmonal hypertension; understøtter brug ved pædiatrisk CHD-PAH-populationer |
+| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematisk Oversigt | Medicine | PAH-specifik lægemiddelterapi ved Eisenmenger-syndrom: systematisk oversigt og metaanalyse understøttende ERA-klasse-fordel på øvelseskapacitet, livskvalitet og funktionklasse ved CHD-PAH |
+| [28425346](https://pubmed.ncbi.nlm.nih.gov/28425346/) | 2017 | Narrativ Oversigt | Therapeutic Advances in Respiratory Disease | Omfattende ambrisentan-oversigt: farmakologi, pivotal-forsøgsevidens på tværs af PAH-subtyper inkl. CTD-PAH, sikkerhedsprofil (inkl. lever-sikkerhedsfordele over ikke-selektive ERA'er) og kombinationsterapi-evidens |
+| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Narrativ Oversigt | JAMA | PAH-diagnose og behandlingsoversigt; kontekstualiserer nuværende standard-of-care og positionerer ETA-antagonist-klassen inden for moderne PAH-styringalgoritmer |
 
 ---
 
-## Denmark Market Information
+## Information om Dansk Marked
 
-Ambrisentan is not registered with the Danish Medicines Agency (Lægemiddelstyrelsen) and has no Danish marketing authorisations on record. The evidence pack identifies zero national authorisations.
+Ambrisentan er ikke registreret hos Lægemiddelstyrelsen og har ingen danske markedsføringstilladelser registreret. Evidenspakken identificerer nul nationale tilladelser.
 
-> **Note for clinical access:** Ambrisentan (Volibris®) holds EMA centralised marketing authorisation, which is in principle valid across all EU member states including Denmark. If this authorisation is currently active, the product may be accessible to Danish patients through hospital pharmacy import procedures or via the EU centralised authorisation route. Danish prescribers should verify current availability and reimbursement status through Lægemiddelstyrelsen's Medicinpriser database and the hospital pharmacy import pathway (§29 procedure) before initiating treatment.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information. No detailed key warnings, contraindications, or drug interaction data are available in this evidence pack.
-
-Based on the drug class (selective ETA receptor antagonists), the following areas require SmPC verification before clinical use:
-
-- **Hepatotoxicity**: All ERA-class agents require baseline and periodic liver enzyme monitoring (ALT/AST); Ambrisentan has a more favourable liver safety profile than non-selective ERAs, but monitoring remains mandatory
-- **Teratogenicity**: ETA antagonists are teratogenic and embryotoxic; strict contraception and confirmed pregnancy exclusion are required for all women of childbearing potential
-- **Peripheral oedema and fluid retention**: Common class-level adverse effect; relevant in patients with right heart failure
-- **Drug interactions in PAH-HIV patients**: Ambrisentan is a CYP3A4 substrate and a P-glycoprotein substrate; interactions with ritonavir-boosted antiretroviral regimens and other HIV drugs require individual pharmacokinetic assessment before co-administration
+> **Bemærkning for klinisk adgang:** Ambrisentan (Volibris®) har EMA-centraliseret markedsføringstilladelse, som i princippet er gyldig på tværs af alle EU-medlemsstater inkl. Danmark. Hvis denne tilladelse i øjeblikket er aktiv, kan produktet være tilgængeligt for danske patienter gennem hospitalsfarmaceuti-importprocedurer eller via EU-centraliseret tilladelsesrute. Danske læger bør verificere nuværende tilgængelighed og refusionsstatus gennem Lægemiddelstyrelses Medicinprisor-database og hospitalsfarmaceuti-importvejen (§29-procedure) før påbegyndelse af behandling.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-This evidence pack reveals markedly different levels of support across ten predicted indications. The following provides a decision per indication:
+Se venligst det godkendte Produktresumé (SmPC) for fuldstændig sikkerhedsinformation. Ingen detaljeret nøgleadvarsel, kontraindikations- eller lægemiddelinteraktionsdata er tilgængelig i denne evidenspakke.
 
----
+Baseret på lægemiddelklassen (selektive ETA-receptorantagonister) kræver følgende områder SmPC-verifikation før klinisk brug:
 
-### Indication: Pulmonary Arteriovenous Malformation (PAVM) — *Highest TxGNN Score*
-
-**Decision: Hold**
-
-**Rationale:**
-Despite the highest TxGNN prediction score (99.41%), PAVM is a structural vascular malformation managed by embolisation rather than pharmacological vasotone modulation. The ET-1 pathway has no established role in PAVM pathogenesis, and the only retrieved publication (PMID 33969094) is an indirect HHT-PAH co-morbidity case report, not evidence for Ambrisentan in PAVM.
-
-**To proceed, the following is needed:**
-- Mechanistic evidence demonstrating ET-1 pathway involvement in PAVM formation or progression
-- Prospective case series or observational data reporting ETA antagonist outcomes in PAVM patients
+- **Hepatotoksicitet**: Alle ERA-klasse-midler kræver baseline og periodisk leverenzym-overvågning (ALT/AST); ambrisentan har en mere gunstig lever-sikkerhedsprofil end ikke-selektive ERA'er, men overvågning forbliver obligatorisk
+- **Teratogenitet**: ETA-antagonister er teratogene og embryotoksiske; streng kontraception og bekræftet graviditetsekskludering er påkrævet for alle kvinder i fertil alder
+- **Perifer ødem og væskeansamling**: Almindelig klasseniveaubivirknings; relevant ved patienter med højresidehjertesvigt
+- **Lægemiddelinteraktioner hos PAH-HIV-patienter**: Ambrisentan er et CYP3A4-substrat og et P-glykoprotein-substrat; interaktioner med ritonavir-forstærket antiretroviral-regimener og andre HIV-midler kræver individuel farmakokinetisk vurdering før coadministration
 
 ---
 
-### Indication: PAH Associated with HIV Infection — *Highest Evidence Level (L1)*
+## Konklusion og Næste Skridt
 
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-NCT00709956 (Phase 3 RCT, double-blind, placebo-controlled crossover, n=64, completed) provides direct L1 evidence for Ambrisentan in HIV-PAH. This is a rare and underserved condition where evidence-based access to targeted therapy is clinically critical.
-
-**To proceed, the following is needed:**
-- Antiretroviral drug interaction assessment: detailed CYP3A4 and P-gp profile with the patient's specific HIV regimen
-- Verification that EMA-authorised Ambrisentan (Volibris®) is accessible in Denmark
-- Multidisciplinary management protocol involving pulmonology and infectious disease
+Denne evidenspakke afslører markant forskellige støtteniveauer på tværs af ti forudsagte indikationer. Følgende giver en beslutning per indikation:
 
 ---
 
-### Indication: PAH Associated with Connective Tissue Disease (CTD-PAH)
+### Indikation: Pulmonal Arteriovenøs Malformation (PAVM) — *Højeste TxGNN-Score*
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Udsat**
 
-**Rationale:**
-Multiple completed trials (EDITA Phase 2, AMBITION Phase 4 subgroup), two meta-analyses (PMID 38378970, PMID 23906950), and 3-year ARIES-E follow-up collectively provide robust L2 support. The SSc-PAH subgroup consistently shows an attenuated response relative to idiopathic PAH and demands a structured monitoring programme.
+**Begrundelse:**
+På trods af det højeste TxGNN-forudsigelsesscore (99,41%) er PAVM en strukturel vaskulær malformation styret ved embolisering snarere end farmakologisk vasotonmodulering. ET-1-vejen har ingen etableret rolle i PAVM-patogenese, og den eneste hentet publikation (PMID 33969094) er en indirekte HHT-PAH-comorbiditets-case report, ikke evidens for ambrisentan ved PAVM.
 
-**To proceed, the following is needed:**
-- Baseline right heart catheterisation and echocardiographic monitoring plan (SSc-PAH can progress despite therapy)
-- Baseline and follow-up liver function testing
-- Danish access pathway confirmation for Ambrisentan (Volibris®)
-
----
-
-### Indication: PAH Associated with Congenital Heart Disease (PAH-CHD)
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-NCT01808313 (Phase 3, completed, n=134), PMID 21371683 (Eisenmenger syndrome case series), paediatric extension data (NCT01342952), and a systematic review (PMID 31096477) provide supporting L2 evidence. CHD is a formal WHO Group 1 PAH subcategory sharing the ETA pathway targeted by Ambrisentan.
-
-**To proceed, the following is needed:**
-- Formal assessment of operability status and shunt type prior to treatment initiation
-- Haematological monitoring plan for Eisenmenger syndrome patients (polycythaemia, iron deficiency, coagulation)
-- Paediatric formulation availability confirmation for younger CHD-PAH patients
+**For at fortsætte, er følgende nødvendigt:**
+- Mekanistisk evidens, der påviser ET-1-vejinvolvering i PAVM-dannelse eller progression
+- Prospektiv case series eller observationel data, der rapporterer ETA-antagonist-resultater hos PAVM-patienter
 
 ---
 
-*This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.*
+### Indikation: PAH Forbundet med HIV-Infektion — *Højeste Evidensniveau (L1)*
+
+**Beslutning: Fortsæt med Sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+NCT00709956 (Fase 3-RCT, dobbeltblindet, placebo-kontrolleret crossover, n=64, afsluttet) giver direkte L1-evidens for ambrisentan ved HIV-PAH. Dette er en sjælden og underserveret tilstand, hvor evidensbaseret adgang til målrettet terapi er klinisk kritisk.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Antiretroviral lægemiddelinteraktionsvurdering: detaljeret CYP3A4 og P-gp-profil med patientens specifikke HIV-regimen
+- Verifikation af, at EMA-godkendt ambrisentan (Volibris®) er tilgængelig i Danmark
+- Tværfaglig styringprotokol involverende pulmologi og infektionsmedicin
+
+---
+
+### Indikation: PAH Forbundet med Bindevævssygdom (CTD-PAH)
+
+**Beslutning: Fortsæt med Sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Flere afsluttede forsøg (EDITA Fase 2, AMBITION Fase 4-undergruppe), to metaanalyser (PMID 38378970, PMID 23906950) og 3-års ARIES-E-opfølgning giver samlet robust L2-support. SSc-PAH-undergruppen viser konsekvent dæmpet respons i forhold til idiopatisk PAH og kræver et struktureret overvågningsprogram.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Baseline højresidekardiokateterisme og ekkokardiografisk overvågningsplan (SSc-PAH kan progredere trods terapi)
+- Baseline og opfølgende leverfunktionstestning
+- Dansk adgangsveji-bekræftelse for ambrisentan (Volibris®)
+
+---
+
+### Indikation: PAH Forbundet med Medfødt Hjertesygdom (PAH-CHD)
+
+**Beslutning: Fortsæt med Sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+NCT01808313 (Fase 3, afsluttet, n=134), PMID 21371683 (Eisenmenger-syndrom-case series), pædiatrisk extension-data (NCT01342952) og en systematisk oversigt (PMID 31096477) giver understøttende L2-evidens. CHD er en formuel WHO Gruppe 1 PAH-underklasse, der deler ETA-vejen målrettet af ambrisentan.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Formell vurdering af operabilitetsstatus og shunt-type før behandlingsinitiering
+- Hæmatologisk overvågningsplan for Eisenmenger-syndrom-patienter (polycytæmi, jernmangel, koagulation)
+- Bekræftelse af pædiatrisk formulertilgængelighed for yngre CHD-PAH-patienter
+
+---
+
+*Denne rapport er til forskningsreference alene og udgør ikke medicinsk rådgivning. Alle lægemiddelrepositioneringskandidater kræver klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

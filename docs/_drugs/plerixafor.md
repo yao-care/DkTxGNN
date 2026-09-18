@@ -29,75 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Plerixafor: From an Unregistered Indication in Denmark to Indolent Plasma Cell Myeloma
+# Plerixafor: Fra en uregistreret indikation i Danmark til Indolent Plasmacelle-Myelom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Plerixafor (DrugBank ID: DB06809) has no registered marketing authorisation in Denmark and no original indication or mechanism-of-action data available in this evidence pack. The TxGNN model predicts a possible link to **Indolent Plasma Cell Myeloma** with a very high prediction score (99.97%), but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the model output alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no licenses or original indication data in this evidence pack |
-| Predicted New Indication | Indolent Plasma Cell Myeloma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Plerixafor (DrugBank ID: DB06809) har ingen registreret markeringsgodkendelse i Danmark og ingen oprindelig indikation eller virkningsmekanisme-data tilgængeligt i denne bevissamling. TxGNN-modellen forudsiger en mulig forbindelse til **Indolent Plasmacelle-Myelom** med en meget høj forudsigelsesscore (99,97%), men denne forudsigelse understøttes i øjeblikket af **0 kliniske afprøvninger** og **0 publikationer** — den hviler udelukkende på modeloutputtet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism-of-action data for plerixafor is not currently available in this evidence pack (flagged as a High-severity data gap), and no original indication is recorded. As a result, the relationship between plerixafor's established pharmacology and the predicted indication (indolent plasma cell myeloma) cannot be assessed from the data provided here.
-
-The TxGNN model's repurposing rationale field for this top-ranked prediction is also marked "pending" — no mechanistic-link or similarity-to-original-indication narrative has been generated for it. For comparison, several lower-ranked predictions in this same evidence pack (e.g., melanoma-related indications, bronchitis) do include a CXCR4-CXCL12-axis-based rationale, but these apply to different predicted diseases, not to the top-ranked indolent plasma cell myeloma prediction, and none of them are supported by trial or literature evidence either.
-
-Given the very high model score but complete absence of a documented mechanistic rationale, clinical trials, or literature for this specific top prediction, this should be treated as a pure signal-generation output requiring further mechanistic and clinical validation before any scientific claim can be made.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke tilgængeligt — ingen licenser eller oprindelig indikationsdata i denne bevissamling |
+| Forudsagt ny indikation | Indolent Plasmacelle-Myelom |
+| TxGNN Forudsigelsesscore | 99,97% |
+| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende afprøvninger eller litteratur) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede virkningsmekanisme-data for plerixafor er ikke i øjeblikket tilgængeligt i denne bevissamling (markeret som et højtprioriteret datakløft), og ingen oprindelig indikation er registreret. Som resultat kan forholdet mellem plerixafors etablerede farmakologi og den forudsagte indikation (indolent plasmacelle-myelom) ikke vurderes ud fra de data, der er fremlagt her.
 
----
+TxGNN-modellens genfindings-rationalefelt for denne toprangeringsprediktion er også markeret "afventende" — ingen mekanistisk-forbindelses- eller lighed-til-oprindelig-indikations-narrativ er blevet genereret for den. Til sammenligning inkluderer flere lavere rangerede forudsigelser i denne samme bevissamling (f.eks. melanom-relaterede indikationer, bronkitis) faktisk et CXCR4-CXCL12-akse-baseret rationale, men disse gælder for forskellige forudsagte sygdomme, ikke for den toprangeringsprediktion for indolent plasmacelle-myelom, og ingen af dem understøttes heller af afprøvnings- eller litteraturbevis.
 
-## Denmark Market Information
-
-Plerixafor currently holds no marketing authorisation in Denmark (market status: Not marketed; total licenses on file: 0). No product, dosage form, or approved indication information is available.
+I betragtning af den meget høje modelscore, men komplet fravær af et dokumenteret mekanistisk rationale, kliniske afprøvninger eller litteratur for denne specifikke topforudsigelse, bør denne behandles som et rent signalgenererings-output, der kræver yderligere mekanistisk og klinisk validering før ethvert videnskabeligt krav kan fremstilles.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske afprøvninger
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: the underlying data source flags the absence of label warnings/contraindications as a **Blocking** data gap, meaning a safety pre-assessment (S1) cannot currently be completed for this candidate.
+I øjeblikket ingen relaterede kliniske afprøvninger registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+Plerixafor har i øjeblikket ingen markeringsgodkendelse i Danmark (markedsstatus: Ikke markedsført; samlede licenser på fil: 0). Ingen produkt-, doseringsform- eller godkendt indikationsinformation er tilgængelig.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktinformation (SmPC) for sikkerhedsinformation. Bemærk: den underliggende datakilde markerer fraværet af etiketadvarsler/kontraindikationer som et **kritisk** datakløft, hvilket betyder, at en sikkerhedsforelæbig vurdering (S1) i øjeblikket ikke kan gennemføres for denne kandidat.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Vent**
 
 **Rationale:**
-The predicted indication carries no clinical trial or literature support (Evidence Level L5), the drug's mechanism of action and original indication are undocumented, and it is not currently marketed in Denmark. A Blocking data gap (missing label warnings/contraindications) also prevents a safety pre-assessment from being completed.
+Den forudsagte indikation har ingen understøttelse fra kliniske afprøvninger eller litteratur (Evidensniveau L5), lægemidlets virkningsmekanisme og oprindelige indikation er udokumenterede, og det er ikke i øjeblikket markedsført i Danmark. Et kritisk datakløft (manglende etiketadvarsler/kontraindikationer) forhindrer også en sikkerhedsforelæbig vurdering i at blive gennemført.
 
-**To proceed, the following is needed:**
-- Label warnings and contraindications (e.g., from the manufacturer's SmPC) to clear the Blocking safety data gap
-- Confirmed mechanism of action to establish biological plausibility for the indolent plasma cell myeloma prediction
-- Original indication and regulatory history, to contextualize the repurposing rationale
-- A dedicated literature and clinical trial search specifically for plerixafor in plasma cell myeloma/multiple myeloma populations
-- Clarification of Danish/EU regulatory pathway, given the drug currently has zero marketing authorisations on file
+**For at komme videre er følgende nødvendigt:**
+- Etiketadvarsler og kontraindikationer (f.eks. fra producentens SmPC) for at rydde det kritiske sikkerhedsdatakløft
+- Bekræftet virkningsmekanisme for at etablere biologisk plausibilitet for forudsigelsen om indolent plasmacelle-myelom
+- Oprindelig indikation og regulatorisk historie for at kontekstualisere genfindings-rationalet
+- En dedikeret litteratur- og klinisk afprøvnings-søgning specifikt for plerixafor i plasmacelle-myelom/multipelt myelom-populationer
+- Præcisering af dansk/EU-regulatorisk vej, givet at lægemidlet i øjeblikket har nul markeringsgodkendelser på fil
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

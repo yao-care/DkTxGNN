@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Orlistat: From Weight Management to Hypervitaminosis
+# Orlistat: Fra vægtstyring til hypervitaminose
 
-## One-Sentence Summary
+## En-sætnings sammenfatning
 
-Orlistat is a gastric/pancreatic lipase inhibitor generally used for weight management in obesity (Denmark-specific approved indication text is not available since the drug is not currently marketed there). The TxGNN model predicts a possible link to **Hypervitaminosis**, but this is currently a **model prediction only, with no supporting clinical trials or literature**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Weight management / obesity (based on general pharmacological knowledge of orlistat; no Danish-specific approved indication text is available) |
-| Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Orlistat er en mave-/bugspytkirtellipasehæmmer, der almindeligvis bruges til vægtstyring ved fedme (dansk-specifik godkendt indikationstekst er ikke tilgængelig, da lægemidlet ikke i øjeblikket er markedsført der). TxGNN-modellen forudsiger en mulig sammenhæng med **hypervitaminose**, men dette er i øjeblikket kun en **modelforudsigelse uden understøttende kliniske forsøg eller litteratur**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed, structured mechanism-of-action data for orlistat is currently a data gap (DG002) in this evidence pack. Based on general pharmacological knowledge, orlistat inhibits gastric and pancreatic lipase, blocking hydrolysis of dietary triglycerides and thereby reducing intestinal absorption of dietary fat along with the fat-soluble vitamins A, D, E, and K.
-
-This mechanism is the basis for the TxGNN association with hypervitaminosis: reduced absorption of fat-soluble vitamins could, in theory, lower vitamin overload in patients with hypervitaminosis A or D, which is directionally consistent with the model's high score (0.994).
-
-However, this link requires careful clinical scrutiny before it can be considered a genuine repurposing opportunity. Chronic orlistat use is clinically well known to *cause* fat-soluble vitamin **deficiency** (hypovitaminosis) as an adverse effect, not to treat vitamin excess. The directionality of the proposed benefit therefore conflicts with orlistat's established safety profile, and this discrepancy has not been resolved by any clinical or literature evidence in this evidence pack — it remains a purely mechanistic hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Vægtstyring / fedme (baseret på almindelig farmakologisk viden om orlistat; dansk-specifik godkendt indikationstekst er ikke tilgængelig) |
+| Forudsagt ny indikation | Hypervitaminose |
+| TxGNN forudsigelsesscore | 99.42% |
+| Evidensniveau | L5 |
+| Statut på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede, strukturerede virkningsmekanisme-data for orlistat er i øjeblikket et datakløft (DG002) i denne evidenspakke. Baseret på almindelig farmakologisk viden hæmmer orlistat mave- og bugspytkirtellipase, hvilket blokerer hydrolysen af diætiske triacylglycerider og derved reducerer intestinal absorption af diætisk fedtstof sammen med de fedtopløselige vitaminer A, D, E og K.
 
----
+Denne mekanisme er grundlaget for TxGNN-associationen med hypervitaminose: reduceret absorption af fedtopløselige vitaminer kunne teoretisk sænke vitaminoverskud hos patienter med hypervitaminose A eller D, som er i overensstemmelse med modellens høje score (0.994).
 
-## Denmark Market Information
-
-Orlistat is not currently marketed in Denmark, and no marketing authorisations (national or centralised/EMA) are recorded in this evidence pack.
+Denne forbindelse kræver imidlertid omhyggelig klinisk granskning, før den kan betragtes som en ægte genbrugsmulighed. Kronisk orlistatbrug er klinisk velkendt til at *forårsage* **fedtopløselig vitaminmangel** (hypovitaminose) som bivirkningseffekt, ikke til at behandle vitaminoverskud. Retningen af det foreslåede virkning er derfor i konflikt med orlistats etablerede sikkerhedsprofil, og denne uoverensstemmelse er ikke blevet løst af noget klinisk eller litteraturbevis i denne evidenspakke — det forbliver en rent mekanistisk hypotese.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidens
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidens
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-This prediction is supported only by a mechanistic hypothesis (Evidence Level L5) with no clinical trials or literature, and the proposed direction of effect conflicts with orlistat's known adverse effect of causing fat-soluble vitamin deficiency. The drug is also not currently marketed in Denmark.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC-equivalent warnings and contraindications data (currently a Blocking data gap, DG001) to enable an initial safety assessment
-- Formal, structured mechanism-of-action data (DG002)
-- Clinical or preclinical evidence directly addressing the hypervitaminosis hypothesis, and resolution of the directional conflict with orlistat's known vitamin-deficiency effect
-- Confirmation of Denmark market/regulatory pathway status before any further evaluation
+## Informationer om det danske marked
+
+Orlistat er ikke i øjeblikket markedsført i Danmark, og ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er registreret i denne evidenspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresume (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Denne forudsigelse understøttes kun af en mekanistisk hypotese (evidensniveau L5) uden kliniske forsøg eller litteratur, og retningen af det foreslåede virkning er i konflikt med orlistats etablerede bivirkningseffekt af at forårsage fedtopløselig vitaminmangel. Lægemidlet er heller ikke i øjeblikket markedsført i Danmark.
+
+**For at komme videre kræves følgende:**
+- TFDA/SmPC-svarende advarsler og kontraindikationsdata (i øjeblikket et blokerende datakløft, DG001) for at muliggøre en indledende sikkerhedsvurdering
+- Formelle, strukturerede virkningsmekanisme-data (DG002)
+- Klinisk eller præ-klinisk bevis, der direkte adresserer hypervitaminose-hypotesen, og løsning af retningskonflikten med orlistats etablerede virkning af at forårsage fedtopløselig vitaminmangel
+- Bekræftelse af status for det danske marked og regulatorisk godkendelsesproces, før nogen yderligere vurdering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,73 +29,74 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tamoxifen: From Hormone Receptor-Positive Breast Cancer to Mammary Paget Disease
+# Tamoxifen: Fra hormonreceptor-positivt brystkræft til Pagets sygdom i brystet
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Tamoxifen is a selective estrogen receptor modulator (SERM) internationally established for the treatment and prevention of hormone receptor-positive breast cancer. The TxGNN model predicts it may also be effective for **Mammary Paget Disease**, a rare form of breast malignancy. Currently only **1 clinical trial** (with low direct relevance) and **13 publications** (mostly case reports/reviews) support this direction, and Tamoxifen is not currently marketed in Denmark.
+Tamoxifen er en selektiv østrogenreceptormodulator (SERM), der internationalt er etableret til behandling og forebyggelse af hormonreceptor-positivt brystkræft. TxGNN-modellen forudsiger, at det også kan være effektivt til **Pagets sygdom i brystet**, en sjælden form for brystkræft. I øjeblikket understøttes denne retning kun af **1 klinisk forsøg** (med lav direkte relevans) og **13 publikationer** (overvejende case reports/reviewartikler), og Tamoxifen er i øjeblikket ikke markedsført i Danmark.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Hormone receptor-positive breast cancer (per internationally established labeling; no Danish marketing data available) |
-| Predicted New Indication | Mammary Paget Disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Hormonreceptor-positivt brystkræft (ifølge internationalt etableret produktinformation; data om dansk markedsføring er ikke tilgængelige) |
+| Forudsagt ny indikation | Pagets sygdom i brystet |
+| TxGNN-prognosedscore | 99.69% |
+| Bevisniveau | L4 |
+| Danmark markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Udsat |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediktion rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, tamoxifen is a SERM that competitively blocks estrogen binding to the estrogen receptor (ER) in breast tissue, and its efficacy in ER-positive breast cancer is well established internationally.
+For øjeblikket er der ikke detaljerede mekanisme-for-virkning-data tilgængelige i dette evidensnotat. Baseret på kendt farmakologi er tamoxifen en SERM, der konkurrencemæssigt blokerer østrogenets binding til østrogenreceptoren (ER) i brystkværn, og dets effektivitet ved ER-positivt brystkræft er velkendt internationalt.
 
-Mammary Paget disease is a rare cutaneous manifestation of breast malignancy that very frequently coexists with an underlying ductal carcinoma in situ (DCIS) or invasive ductal carcinoma, and a subset of these underlying tumours are ER-positive. This shared tumour biology provides a plausible mechanistic rationale for tamoxifen's activity: where the underlying lesion is hormone receptor-positive, tamoxifen's antiestrogenic effect could theoretically extend to Paget disease as it does to conventional ER-positive breast cancer.
+Pagets sygdom i brystet er en sjælden kutaneus manifestation af brystkræft, som meget hyppigt samtidigt forekommer med et underliggende duktalt carcinoma in situ (DCIS) eller invasivt duktalt carcinoma, og en delmængde af disse underliggende tumorer er ER-positive. Denne delte tumorbiolgi giver en plausibel mekanistisk begrundelse for tamoxifens aktivitet: når den underliggende læsion er hormonreceptor-positiv, kunne tamoxifens antiostrogeniske effekt teoretisk strække sig til Pagets sygdom på samme måde som til konventionelt ER-positivt brystkræft.
 
-However, no clinical trial identified in this evidence pack was specifically designed to evaluate tamoxifen for Paget disease itself — the single Phase 3 trial addresses a related but different question (endometrial monitoring in tamoxifen-treated patients, a population that included some Paget's disease cases), and the supporting literature is dominated by case reports and small cohorts rather than interventional evidence. The mechanistic link should therefore be regarded as a reasonable hypothesis rather than a validated finding.
+Der blev imidlertid ikke identificeret noget klinisk forsøg i dette evidensnotat, som specifikt var designet til at evaluere tamoxifen til Pagets sygdom i sig selv – det eneste fase 3-forsøg adresserer et beslægtet men anderledes spørgsmål (endometrial overvågning hos tamoxifen-behandlede patienter, en population som includerede nogle tilfælde af Pagets sygdom), og den understøttende litteratur domineres af case reports og små kohorter snarere end interventionel evidens. Det mekanistiske link bør derfor betragtes som en rimelig hypotese snarere end en valideret finding.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Enrollment | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Phase 3 | Completed | 313 | Evaluated medroxyprogesterone acetate vs. observation for prevention of endometrial pathology in postmenopausal breast cancer patients (including Paget's disease of the nipple) treated with tamoxifen. Not a direct efficacy trial of tamoxifen for Paget disease (relevance graded C — low). |
+| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Fase 3 | Afsluttet | 313 | Evaluerede medroxyprogesteronacetat vs. observation til forebyggelse af endometrial patologi hos postmenopausale brystkræftpatienter (herunder Pagets sygdom i brystvarten) behandlet med tamoxifen. Ikke et direkte effektivitetsforsøg af tamoxifen til Pagets sygdom (relevans vurderet som C – lav). |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Review | The British Journal of Surgery | Case series of 48 women with Paget's disease of the nipple; treatments included mastectomy, cone excision, and tamoxifen (1 case). |
-| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Cohort/Meta-analysis | Breast Care (Basel) | Meta-analysis of local recurrence after mastectomy vs. breast-conserving surgery for Paget's disease; recurrence rates up to 20–40%. |
-| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Cohort | Clinical Breast Cancer | Paget's disease of the nipple presenting as local recurrence after breast-conservation treatment for early-stage breast cancer. |
-| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Case report | Investigational New Drugs | Successful treatment of hormone receptor-positive metastatic extramammary Paget disease with tamoxifen — direct evidence of tamoxifen activity in a Paget-disease-spectrum tumour. |
-| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Case series | Archives of Gynecology and Obstetrics | Vulvar and breast Paget's disease with synchronous underlying cancer. |
-| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | Case report | Il Giornale di Chirurgia | Paget's disease of the male breast; notes absence of standard treatment guidelines. |
-| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Case report | Surgery Today | Synchronous bilateral breast cancer with Paget's disease and invasive ductal carcinoma. |
-| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Case report | The American Surgeon | Paget's disease of the male breast; review of 32 world-literature cases. |
-| [18288984](https://pubmed.ncbi.nlm.nih.gov/18288984/) | 2008 | Review | Current Medicinal Chemistry | Review of pharmacotherapies for bone-loss-associated diseases, including estrogen receptor-modulating therapies; tangential relevance. |
-| [25328920](https://pubmed.ncbi.nlm.nih.gov/25328920/) | 2015 | Case report | Quintessence International | Osteonecrosis of the jaw in a patient on raloxifene (a related SERM, not tamoxifen); background relevance only. |
+| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Reviewartikel | The British Journal of Surgery | Case series af 48 kvinder med Pagets sygdom i brystvarten; behandlinger includerede mastektomi, kegleresektion og tamoxifen (1 tilfælde). |
+| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Kohort/metaanalyse | Breast Care (Basel) | Metaanalyse af lokale recidivsatser efter mastektomi vs. brystbevarende kirurgi til Pagets sygdom; recidivsatser op til 20–40%. |
+| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Kohort | Clinical Breast Cancer | Pagets sygdom i brystvarten præsenteret som lokalt recidiv efter brystbevarende behandling til tidlig brystkræft. |
+| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Case report | Investigational New Drugs | Vellykket behandling af hormonreceptor-positivt metastatisk ekstramammar Pagets sygdom med tamoxifen – direkte bevis for tamoxifen-aktivitet i en Paget-sygdom-spektrums tumor. |
+| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Case series | Archives of Gynecology and Obstetrics | Vulvar og bryst Pagets sygdom med samtidig underliggende cancer. |
+| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | Case report | Il Giornale di Chirurgia | Pagets sygdom i manbryster; bemærker fravær af standardbehandlingsretningslinjer. |
+| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Case report | Surgery Today | Synkron bilateral brystkræft med Pagets sygdom og invasivt duktalt carcinoma. |
+| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Case report | The American Surgeon | Pagets sygdom i manbryster; review af 32 tilfælde fra verdensomspændende litteratur. |
+| [18288984](https://pubmed.ncbi.nlm.nih.gov/18288984/) | 2008 | Reviewartikel | Current Medicinal Chemistry | Review af farmakoterapier til knogletabsrelaterede sygdomme, herunder østrogenreceptormodulerende terapier; tangentiel relevans. |
+| [25328920](https://pubmed.ncbi.nlm.nih.gov/25328920/) | 2015 | Case report | Quintessence International | Osteonekrose af kæben hos en patient på raloxifen (en relateret SERM, ikke tamoxifen); baggrundsrelevans kun. |
 
-## Denmark Market Information
+## Information om det danske marked
 
-Tamoxifen currently has **no active marketing authorisation on record** for the Danish market (market status: not marketed; 0 authorisations). No Laegemiddelstyrelsen or EMA centralised licence data is available in this evidence pack.
+Tamoxifen har i øjeblikket **ingen aktiv markedsføringstilladelse på register** for det danske marked (markedsstatus: ikke markedsført; 0 tilladelser). Der er ingen Laegemiddelstyrelsen eller EMA-centraliserede licensdata tilgængelige i dette evidensnotat.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — resolving this gap (TFDA/Danish label warnings and contraindications) is flagged as a **Blocking** data gap for safety pre-assessment.
+Venligst se den godkendte produktinformation (SmPC) for sikkerhedsoplysninger. Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er i øjeblikket ikke tilgængelige i dette evidensnotat – løsning af dette hul (TFDA/dansk etiket advarsler og kontraindikationer) er markeret som en **blokerend** datakløft for sikkerhedsvurdering før start.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Udsat**
 
-**Rationale:**
-Evidence for tamoxifen in mammary Paget disease is currently limited to case reports, small cohorts, and one indirectly-relevant Phase 3 trial (Evidence Level L4) — no dedicated interventional trial has evaluated tamoxifen specifically for this indication. Combined with a Blocking gap in Danish/EU label safety data and the drug's current absence from the Danish market, the evidence does not yet support proceeding.
+**Begrundelse:**
+Evidensen for tamoxifen ved Pagets sygdom i brystet er i øjeblikket begrænset til case reports, små kohorter og et indirekte relevant fase 3-forsøg (Bevisniveau L4) – intet dedikeret interventionelt forsøg har specifikt evalueret tamoxifen til denne indikation. Kombineret med en blokerend kløft i dansk/EU-etiketdata om sikkerhed og lægemidlets nuværende fravær fra det danske marked, understøtter evidensen ikke at fortsætte.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC data on warnings, contraindications, and drug interactions (resolves Blocking gap DG001)
-- Detailed mechanism of action documentation (resolves DG002)
-- A dedicated prospective study or systematic review specifically evaluating tamoxifen in ER-positive mammary Paget disease
-- Clarification of the Danish market-entry pathway, given the drug currently holds no marketing authorisation in Denmark
+**For at fortsætte er følgende nødvendigt:**
+- Dansk/EU SmPC-data om advarsler, kontraindikationer og lægemiddelinteraktioner (løser blokerend kløft DG001)
+- Detaljeret mekanisme-for-virkning-dokumentation (løser DG002)
+- Et dedikeret prospektivt studie eller systematisk review, som specifikt evaluerer tamoxifen ved ER-positivt Pagets sygdom i brystet
+- Præcisering af den danske markedsindtrængningsvej, givet at lægemidlet i øjeblikket ikke har markedsføringstilladelse i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

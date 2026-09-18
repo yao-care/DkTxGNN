@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tadalafil: From Original Indication Not Reported to Ambras Type Hypertrichosis Universalis Congenita
+# Tadalafil: Fra oprindelig indikation, der ikke er rapporteret, til Ambras type hypertrichosis universalis congenita
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Tadalafil is a phosphodiesterase-5 (PDE5) inhibitor; this dataset does not record its original approved indication or mechanism of action. The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital hair-growth disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Tadalafil er en fosfodiesterase-5 (PDE5)-inhibitor; dette datasæt registrerer ikke dens oprindeligt godkendt indikation eller virkningsmekanisme. TxGNN-modellen forudsiger, at det kan være effektivt for **Ambras type hypertrichosis universalis congenita**, en sjælden medfødt hårvækstforstyrrelse, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in dataset (no marketing licenses or recorded indications) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|----------|
+| Oprindelig indikation | Ikke tilgængelig i datasættet (ingen markedsføringstilladelser eller registrerede indikationer) |
+| Forudsagt ny indikation | Ambras type hypertrichosis universalis congenita |
+| TxGNN forudsigelsesscore | 99.98% |
+| Bevisniveau | L5 |
+| Status på Danmarks marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available in this dataset. Tadalafil is generally known as a PDE5 inhibitor (general pharmacological knowledge, not sourced from this dataset), used in other markets for conditions such as erectile dysfunction, benign prostatic hyperplasia, and pulmonary arterial hypertension — none of which are recorded here as its original indication.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i dette datasæt. Tadalafil er generelt kendt som en PDE5-inhibitor (almen farmakologisk viden, ikke fra dette datasæt), der anvendes på andre markeder til tilstande såsom erektil dysfunktion, benign prostatahyperplasi og pulmonal arteriel hypertension – ingen af disse er registreret her som dens oprindelige indikation.
 
-There is no known or inferable mechanistic pathway connecting PDE5 inhibition to Ambras type hypertrichosis, a rare genetic disorder linked to chromosomal rearrangement and altered gene regulation. The predicted indication score (99.98%) reflects the TxGNN model's internal output only and is not corroborated by any independent trial or literature evidence in this pack.
+Der findes ingen kendt eller udledelbar mekanistisk forbindelse mellem PDE5-inhibering og Ambras type hypertrichosis, en sjælden genetisk forstyrrelse knyttet til kromosomale omarrangementer og ændret genregulering. Den forudsagte indikationsscore (99.98%) afspejler kun TxGNN-modellens interne output og er ikke bekræftet af uafhængige forsøgs- eller litteraturbevis i denne pakke.
 
-It is also worth noting that the top 10 predictions in this evidence pack collapse into only 5 distinct diseases (each duplicated across two ranks), and the one prediction with literature attached (rank 5, periodontal malformation syndrome) is supported by 20 general periodontitis papers that do not mention tadalafil or PDE5 inhibitors — indicating these are keyword-matched, not drug-specific, references. Taken together, this candidate currently lacks a credible mechanistic or evidentiary basis.
+Det er også værd at bemærke, at de 10 bedste forudsigelser i denne bevisepakke kollapser til kun 5 forskellige sygdomme (hver gengivet på tværs af to rangeringer), og den eneste forudsigelse med vedhæftet litteratur (rang 5, periodontal misdannelsessyndrom) understøttes af 20 generelle parodontitis-artikler, der ikke omtaler tadalafil eller PDE5-inhibitorer – hvilket indikerer, at disse er nøgleordsmatchede, ikke stofspecifikke, referencer. Samlet set mangler denne kandidat et troværdigt mekanistisk eller bevisgrundlag.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Bevis fra litteraturen
 
-Currently no related literature available.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Tadalafil currently holds no marketing authorisation in Denmark (market status: not marketed; 0 licenses on record).
+Tadalafil har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: ikke markedsført; 0 licensoptegnelser).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-This candidate is supported only by a raw TxGNN model score (L5), with no clinical trials, no drug-specific literature, and no plausible mechanistic link between PDE5 inhibition and the predicted disease. A blocking data gap also exists for Danish/EU SmPC warnings and contraindications, which prevents any safety pre-assessment.
+**Begrundelse:**
+Denne kandidat understøttes udelukkende af en råt TxGNN-modelscore (L5), uden kliniske forsøg, uden stofspecifik litteratur og uden en plausibel mekanistisk forbindelse mellem PDE5-inhibering og den forudsagte sygdom. En blokerende datakløft findes også for danske/EU SmPC-advarsler og kontraindikationer, hvilket forhindrer enhver foreløbig sikkerhedsvurdering.
 
-**To proceed, the following is needed:**
-- Verified mechanism of action (MOA) data for tadalafil
-- SmPC-sourced warnings, contraindications, and drug interaction data (currently a blocking gap)
-- Independent clinical or preclinical evidence directly linking tadalafil to Ambras type hypertrichosis (or a mechanistically coherent alternative indication)
-- Clarification of tadalafil's actual original indication(s), since this is not recorded in the current dataset
+**For at fortsætte er følgende nødvendig:**
+- Bekræftet virkningsmekanisme (MOA) data for tadalafil
+- SmPC-baserede advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket en blokerende kløft)
+- Uafhængigt klinisk eller præ-klinisk bevis, der direkte forbinder tadalafil med Ambras type hypertrichosis (eller en mekanistisk sammenhængende alternativ indikation)
+- Præcisering af tadalafils faktiske oprindelige indikation(er), da dette ikke er registreret i det nuværende datasæt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

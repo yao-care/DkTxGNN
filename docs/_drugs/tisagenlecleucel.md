@@ -29,87 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tisagenlecleucel: From CD19+ B-Cell Malignancies to Crohn's Colitis
+# Tisagenlecleucel: Fra CD19+ B-celle-malignancer til Crohns kolitis
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Tisagenlecleucel is a CD19-directed CAR-T cell therapy, originally developed for CD19-positive B-cell malignancies (B-ALL, DLBCL). The TxGNN model predicts a possible signal for **Crohn's colitis**, but this is currently a **purely computational prediction with no supporting clinical trials or published literature**, and mechanism-of-action and Danish safety data are not yet available.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in Danish licensing data (product not marketed in Denmark); mechanistic notes describe original approval for CD19+ B-cell malignancies (B-ALL, DLBCL) |
-| Predicted New Indication | Crohn's Colitis |
-| TxGNN Prediction Score | 91.39% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tisagenlecleucel er en CD19-rettet CAR-T-celleterapia, oprindeligt udviklet til CD19-positive B-celle-malignancer (B-ALL, DLBCL). TxGNN-modellen forudsiger et muligt signal for **Crohns kolitis**, men dette er i øjeblikket en **rent beregningsmæssig forudsigelse uden understøttende kliniske forsøg eller publiceret litteratur**, og virkningsmekanisme og danske sikkerhedsdata er endnu ikke tilgængelige.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available for this evidence pack (flagged as a High-severity data gap). Based on the mechanistic notes accompanying the prediction, tisagenlecleucel is an autologous anti-CD19 chimeric antigen receptor (CAR) T-cell therapy, approved for CD19-positive B-cell malignancies such as B-cell acute lymphoblastic leukaemia (B-ALL) and diffuse large B-cell lymphoma (DLBCL).
-
-The proposed link to Crohn's colitis rests on the theory that B cells contribute to pathology in some autoimmune and inflammatory bowel disease models, and that deep CD19+ B-cell depletion with CAR-T therapy has been explored in isolated case reports for other autoimmune conditions (e.g., systemic lupus erythematosus). However, there is **no direct evidence** linking gut inflammation in Crohn's disease to a CD19+ B-cell-driven mechanism, and this connection remains theoretical.
-
-Importantly, this pairing carries meaningful safety uncertainty: CAR-T therapy is associated with risks such as cytokine release syndrome, and its safety profile in an inflammatory bowel disease population is entirely unstudied. The mechanistic link should be regarded as a hypothesis-generating signal only, not a validated therapeutic rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Parameter | Indhold |
+|---|---|
+| Original Indikation | Ikke bekræftet i danske licensieringsdata (produktet er ikke markedsført i Danmark); mekanistiske noter beskriver oprindelig godkendelse til CD19-positive B-celle-malignancer (B-ALL, DLBCL) |
+| Forudsagt ny indikation | Crohns kolitis |
+| TxGNN-forudsigelsesscore | 91.39% |
+| Bevisniveau | L5 (modelforudsigelse alene, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige for denne bevispacke (markeret som en alvorlig datakløft). Baseret på de mekanistiske noter, der følger forudsigelsen, er tisagenlecleucel en autolog anti-CD19 kimerisk antigen-receptor (CAR) T-celleterapia, godkendt til CD19-positive B-celle-malignancer såsom B-celle akut lymfoblastisk leukæmi (B-ALL) og diffust storcellet B-celle-lymfom (DLBCL).
 
----
+Det foreslåede link til Crohns kolitis er baseret på teorien om, at B-celler bidrager til patologi i nogle autoimmune og inflammatoriske tarmsygdomsmodeller, og at dyb CD19+ B-celle-depletion med CAR-T-terapi er blevet udforsket i isolerede caserapporter for andre autoimmune tilstande (f.eks. systemisk lupus erythematosus). Imidlertid er der **ingen direkte beviser** for et link mellem tarmmel i Crohns sygdom og en CD19+ B-celle-drevet mekanisme, og denne forbindelse forbliver teoretisk.
 
-## Denmark Market Information
-
-Tisagenlecleucel currently holds no marketing authorisation on file in this dataset (0 licenses; market status: Not marketed).
+Vigtigvis medfører denne kombination en betydelig sikkerhedsusikkerhed: CAR-T-terapi er forbundet med risici såsom cytokinudløsningssyndrom, og dets sikkerhedsprofil i en inflammatorisk tarmsygdom-population er helt ustuderet. Det mekanistiske link bør betragtes som et hypotesegenererende signal alene, ikke en valideret terapeutisk begrundelse.
 
 ---
 
-## Cytotoxicity (Antineoplastic Drugs Only)
+## Evidens fra kliniske forsøg
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (CD19-directed CAR-T cell therapy) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Evidens fra litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Tisagenlecleucel har i øjeblikket ingen markedsføringstilladelse på fil i dette datasæt (0 licenser; markedsstatus: Ikke markedsført).
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, S0 decision stage) with zero corroborating clinical trials or literature, and the proposed mechanism is explicitly flagged as indirect and theoretical, with unknown safety in the target population. The product is also not currently marketed in Denmark, and core safety documentation (SmPC warnings/contraindications) is missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (currently a Blocking data gap; required before any S1 safety review)
-- Confirmed mechanism of action detail (High-priority data gap)
-- Preclinical or early clinical evidence directly testing CD19+ B-cell depletion in inflammatory bowel disease models
-- Clarification of Danish/EU marketing authorisation status for tisagenlecleucel
-- Assessment of CAR-T-specific toxicity risk (e.g., cytokine release syndrome) in an IBD population before any further evaluation
+## Cytotoksicitet (kun antineoplastiske lægemidler)
+
+| Parameter | Indhold |
+|---|---|
+| Cytotoksicitetsklassificering | Immunoterapi (CD19-rettet CAR-T-celleterapia) — ikke et konventionelt cytotoksisk middel |
+| Knoglemarvsundertrykkelsesrisiko | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
+| Emetogenicitetsklassificering | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
+| Overvågningspunkter | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Forudsigelsen understøttes udelukkende af en TxGNN-modelscore (L5, S0-beslutningsstadium) uden nogen bekræftende kliniske forsøg eller litteratur, og den foreslåede mekanisme er eksplicit markeret som indirekte og teoretisk, med ukendt sikkerhed i målpopulationen. Produktet er heller ikke i øjeblikket markedsført i Danmark, og central sikkerhedsdokumentation (SmPC advarsler/kontraindikationer) mangler.
+
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/dansk SmPC advarsler og kontraindikationer (i øjeblikket en blokerende datakløft; påkrævet før enhver S1-sikkerhedsgennemgang)
+- Bekræftet detalje om virkningsmekanisme (høj-prioritet datakløft)
+- Præklinisk eller tidlig klinisk evidens, der direkte tester CD19+ B-celle-depletion i inflammatoriske tarmsygdomsmodeller
+- Afklaring af dansk/EU-markedsføringstilladelsestatus for tisagenlecleucel
+- Vurdering af CAR-T-specifik toksicitetsrisiko (f.eks. cytokinudløsningssyndrom) i en IBD-population før yderligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

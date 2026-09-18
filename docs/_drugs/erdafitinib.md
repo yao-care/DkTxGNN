@@ -29,106 +29,107 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Erdafitinib: From Urothelial Carcinoma to Pulmonary Hypertension
+# Erdafitinib: Fra urothelial karcinom til pulmonal hypertension
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Erdafitinib (Balversa) is a selective pan-FGFR kinase inhibitor approved by the US FDA for locally advanced or metastatic urothelial carcinoma harbouring susceptible FGFR3 or FGFR2 genetic alterations, but it currently holds no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension** (prediction score: 99.38%), offering a biologically plausible vascular remodelling rationale via the FGFR2 pathway.
-However, **no clinical trials** and **no disease-specific publications** have been identified to support this indication, leaving the evidence at model-prediction level only (L5).
+Erdafitinib (Balversa) er en selektiv pan-FGFR-kinase-inhibitor godkendt af FDA til lokalt fremskreden eller metastatisk urothelial karcinom med disponibel FGFR3- eller FGFR2-genetisk forandring, men har i øjeblikket ingen markedsføringstilladelse i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **pulmonal hypertension** (forudsigelsesscore: 99.38%), hvilket giver en biologisk plausibel rationalisering af vaskulær remodellering via FGFR2-signalvejen.
+Dog er **ingen kliniske forsøg** og **ingen sygdomsspecifikke publikationer** blevet identificeret til at understøtte denne indikation, hvilket efterlader bevismaterialet på kun model-forudsigelsesniveau (L5).
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Locally advanced or metastatic urothelial carcinoma with FGFR3/FGFR2 genetic alterations (FDA-approved; not registered in Denmark) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | Lokalt fremskreden eller metastatisk urothelial karcinom med FGFR3/FGFR2-genetisk forandring (FDA-godkendt; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Pulmonal hypertension |
+| TxGNN-forudsigelsesscore | 99.38% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Erdafitinib is a pan-FGFR inhibitor (FGFR1–4) that competitively blocks ATP binding at the intracellular kinase domain of fibroblast growth factor receptors. By suppressing downstream MAPK/ERK and PI3K/AKT signalling, it halts the proliferation and survival of tumour cells that harbour activating FGFR alterations. Its established oncological use — urothelial carcinoma — is defined precisely by FGFR3/FGFR2 mutations or fusions.
+Erdafitinib er en pan-FGFR-inhibitor (FGFR1–4), der konkurrencemæssigt blokerer ATP-binding ved intracelluler kinase-domænet af fibroblast-vækstfaktor-receptorer. Ved at undertrykke nedstrøms MAPK/ERK- og PI3K/AKT-signalering standser den proliferingen og overlevelsen af tumorceller, der bærer aktiverende FGFR-forandringer. Dens etablerede onkologiske brug — urothelial karcinom — er defineret præcist ved FGFR3/FGFR2-mutationer eller fusioner.
 
-The biological case for pulmonary arterial hypertension (PAH) rests on the well-documented role of FGFR2 in pulmonary vascular pathobiology. FGFR2 is overexpressed in the pulmonary vascular tissue of PAH patients, and FGF2 (basic FGF) actively drives pulmonary arterial smooth muscle cell proliferation and endothelial dysfunction — the two cardinal features of the vascular remodelling that characterises PAH. Blocking FGFR could, in principle, interrupt this aberrant remodelling loop.
+Det biologiske grundlag for pulmonal arterie hypertension (PAH) hviler på den velkendte rolle af FGFR2 i pulmonal vaskulær patobiologi. FGFR2 er overudtrykt i pulmonal vaskulært væv hos PAH-patienter, og FGF2 (basal FGF) driver aktivt proliferation af pulmonal arterie glatmuskelceller og endotel-dysfunktion — de to kardinalfænomener i vaskulær remodellering, der karakteriserer PAH. Blokering af FGFR kunne i princippet afbryde denne aberrante remodellerings-løkke.
 
-However, the mechanistic relationship is inherently bidirectional: FGFR signalling also sustains normal vascular homeostasis and endothelial repair. Broad FGFR inhibition therefore carries a plausible risk of impairing the very repair mechanisms that counteract PAH progression. This fundamental ambiguity, combined with the complete absence of clinical or preclinical studies evaluating erdafitinib specifically in PAH, substantially limits the translational readiness of this prediction at present.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Dog er det mekanistiske forhold i dets væsen bidirektionalt: FGFR-signalering opretholder også normal vaskulær homeostase og endotel-reparation. Bred FGFR-inhibering bærer derfor en plausibel risiko for at svække de reparationsmekanismer, der modvirker PAH-progression. Denne grundlæggende tvetydighed, kombineret med fuldstændig mangel på kliniske eller præ-kliniske studier, der evaluerer erdafitinib specifikt i PAH, reducerer væsentligt den translationelle parathed af denne forudsigelse på nuværende tidspunkt.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related literature available for pulmonary hypertension.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-> **Note:** A single publication was retrieved for the rheumatoid arthritis prediction (rank 7–8):
+---
+
+## Bevis fra litteratur
+
+Der er i øjeblikket ingen relaterede publikationer til rådighed for pulmonal hypertension.
+
+> **Bemærk:** En enkelt publikation blev hentet for forudsigelsen af reumatoid artritis (rang 7–8):
 >
-> | PMID | Year | Type | Journal | Key Findings |
-> |------|------|------|---------|-------------|
-> | [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Comprehensive Review | Pharmacological Research | FDA-approved small molecule kinase inhibitors overview (2020 update); mentions erdafitinib among 2019 approvals as an FGFR inhibitor for urothelial carcinoma. Not specific to rheumatoid arthritis. |
+> | PMID | År | Type | Tidsskrift | Nøglefund |
+> |------|-----|------|------------|----------|
+> | [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Omfattende oversigt | Pharmacological Research | Oversigt over FDA-godkendte small molecule-kinase-inhibitorer (2020-opdatering); nævner erdafitinib blandt 2019-godkendelser som en FGFR-inhibitor til urothelial karcinom. Ikke specifik for reumatoid artritis. |
 >
-> This reference does not constitute disease-specific evidence for any of the predicted indications.
+> Denne reference udgør ikke sygdomsspecifik evidens for nogen af de forudsagte indikationer.
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Erdafitinib holds no marketing authorisation with the Danish Medicines Agency (Laegemiddelstyrelsen) and is not centrally authorised through the EMA for any indication. There are currently **0 active authorisations** in Denmark. Any clinical use would require either a named-patient import permit or a compassionate use application via the Laegemiddelstyrelsen.
+Erdafitinib har ingen markedsføringstilladelse hos Lægemiddelstyrelsen og er ikke centralt godkendt gennem EMA for nogen indikation. Der er i øjeblikket **0 aktive tilladelser** i Danmark. Enhver klinisk brug ville kræve enten en navne-patienttilladelse eller en ansøgning om godhedssøgende brug via Lægemiddelstyrelsen.
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-Erdafitinib is an antineoplastic targeted therapy (FGFR inhibitor approved for urothelial carcinoma).
+Erdafitinib er en antineoplastisk målrettet terapi (FGFR-inhibitor godkendt til urothelial karcinom).
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective pan-FGFR kinase inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate (anaemia and thrombocytopenia reported; less pronounced than conventional cytotoxics) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Serum phosphate (hyperphosphataemia is a very common on-target class effect); retinal assessment (risk of central serous retinopathy and retinal pigment epithelium detachment); liver function tests; renal function; full blood count; electrolytes |
-| Handling Protection | Standard oral anticancer drug precautions apply; follow local cytotoxic handling and disposal guidelines |
+| Cytotoksicitets-klassificering | Målrettet terapi — selektiv pan-FGFR-kinase-inhibitor (ikke konventionel cytotoksisk) |
+| Myelosuppressions-risiko | Lav til moderat (anæmi og trombocytopeni rapporteret; mindre udtalt end konventionelle cytotoksika) |
+| Emetogenicitets-klassificering | Lav |
+| Overvågningspunkter | Serum-fosfat (hyperfosfatæmi er en meget almindelig on-target klasseeffekt); retinal vurdering (risiko for central serøs retinopati og retinalt pigmentepithelium-løsning); leverfunktionsprøver; nyrfunktion; komplet blodtal; elektrolytter |
+| Håndteringsbeskyttelse | Standard sikkerhedsprocedurer for oral antikræft-medicin gælder; følg lokale retningslinjer for cytotoksisk håndtering og bortskaffelse |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Detailed Danish/EMA SmPC warnings and contraindications are not available in this Evidence Pack, as erdafitinib is not registered in Denmark.
+Detaljerede danske/EMA SmPC-advarsler og kontraindikatoner er ikke tilgængelige i denne evidenspakke, da erdafitinib ikke er registreret i Danmark.
 
-Please refer to the FDA prescribing information (Balversa®, FDA label) for full safety data, including:
+Se venligst FDAs foreskrivningsinformation (Balversa®, FDA-etiket) for komplet sikkerhedsdata, herunder:
 
-- **Reproductive toxicity warning**: The FDA label (Section 8.3) explicitly states that erdafitinib may cause **female infertility and menstrual irregularities**, including amenorrhoea as an observed adverse event in clinical trials. This is directly relevant to the TxGNN prediction of amenorrhoea (ranks 5–6) — this prediction most likely reflects the drug's established adverse effect profile rather than a genuine therapeutic opportunity, and should not be pursued.
-- **Ocular toxicity**: Central serous retinopathy has been reported and requires baseline and periodic ophthalmological evaluation.
-- **Hyperphosphataemia**: An on-target pharmacological effect requiring dietary phosphate restriction and, in some cases, phosphate-lowering therapy.
+- **Reproduktiv toksicitet-advarsel**: FDA-etiketten (Afsnit 8.3) erklærer eksplicit, at erdafitinib kan forårsage **kvindelig infertilitet og menstruationsforstyrrelser**, herunder amenorrhø som en observeret uønsket hændelse i kliniske forsøg. Dette er direkte relevant for TxGNN-forudsigelsen af amenorrhø (rang 5–6) — denne forudsigelse afspejler højst sandsynligt lægemidlets etablerede uønsket-effekt-profil snarere end en ægte terapeutisk mulighed, og bør ikke forfølges.
+- **Okular toksicitet**: Central serøs retinopati er blevet rapporteret og kræver baseline og periodisk øjenlægefaglig vurdering.
+- **Hyperfosfatæmi**: En on-target farmakologisk effekt, der kræver diætisk fosfat-begrænsning og i nogle tilfælde fosfat-sænkende terapi.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-All five unique TxGNN-predicted indications — pulmonary hypertension, kyphoscoliotic heart disease, amenorrhoea, rheumatoid arthritis, and amyotrophic lateral sclerosis — are at Evidence Level L5 (model prediction only), with zero supporting clinical trials and no disease-specific literature. The top-ranked prediction (pulmonary hypertension) has a plausible but mechanistically ambiguous FGFR2 rationale that has not been tested in any clinical or preclinical study. Furthermore, the amenorrhoea prediction is actively contradicted by the drug's known adverse effect profile, illustrating a model artefact rather than a repurposing opportunity.
+**Begrundelse:**
+Alle fem unikke TxGNN-forudsagte indikationer — pulmonal hypertension, kifoskoliotisk hjertesygdom, amenorrhø, reumatoid artritis og amyotrofisk lateral sklerose — er på Bevisniveau L5 (kun model-forudsigelse), med nul understøttende kliniske forsøg og ingen sygdomsspecifik litteratur. Den højest rangerede forudsigelse (pulmonal hypertension) har en plausibel men mekanistisk tvetydig FGFR2-rationalisering, der ikke er blevet testet i noget klinisk eller præ-klinisk forsøg. Desuden modsiges amenorrhø-forudsigelsen aktivt af lægemidlets kendte uønsket-effekt-profil, hvilket illustrerer en model-artefakt snarere end en re-purpose-mulighed.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendigt:**
 
-- Retrieval of the full FDA prescribing information (Balversa® SmPC/label) to complete the safety, contraindication, and drug interaction assessment
-- Targeted literature search for FGFR inhibitors (class effect) in PAH preclinical models, to establish whether any in vitro or animal data supports the vascular remodelling hypothesis
-- Mechanism of action data from DrugBank API to confirm FGFR selectivity profile and off-target kinase binding relevant to cardiovascular biology
-- Regulatory pathway consultation with the Laegemiddelstyrelsen regarding requirements for repurposing trials or compassionate use in Denmark
-- If preclinical data is supportive: design of a proof-of-concept study in an established PAH animal model (e.g., monocrotaline or SU5416/hypoxia rat model) before any clinical consideration
+- Hentning af FDAs fuldstændige foreskrivningsinformation (Balversa® SmPC/etiket) for at fuldføre sikkerhedsværn-, kontraindikations- og lægemiddel-interaktions-vurdering
+- Målrettet litteratursøgning efter FGFR-inhibitorer (klasse-effekt) i PAH præ-kliniske modeller for at etablere, om nogen in vitro eller dyremodeldata understøtter den vaskulære remodellerings-hypotese
+- Mekanisme-for-handling-data fra DrugBank API for at bekræfte FGFR-selektivitets-profil og off-target kinase-binding relevant for kardiovaskulær biologi
+- Regulatorisk vejledning fra Lægemiddelstyrelsen vedrørende krav til re-purpose-forsøg eller godhedssøgende brug i Danmark
+- Hvis præ-klinisk data er understøttende: design af et proof-of-concept-forsøg i en etableret PAH-dyrmodel (f.eks. monocrotalin eller SU5416/hypoksi-rottemodel) før nogen klinisk overvejelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

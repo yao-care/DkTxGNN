@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iohexol: From Radiographic Contrast Agent to Insomnia
+# Iohexol: Fra røntgenkontraststof til søvnløshed
 
-## One-Sentence Summary
+## Opsummering på én linje
 
-Iohexol is a non-ionic iodinated radiographic contrast agent used in diagnostic imaging procedures (e.g., myelography, angiography, phlebography). The TxGNN model predicts a possible association with **Insomnia**, but this is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the prediction as lacking pharmacological plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Danish licensing data — Iohexol is not currently marketed in Denmark, so no approved indication text is available |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Iohexol er et ikke-ionisk ioderet røntgenkontraststof, der bruges i diagnostiske billedprocedurer (f.eks. myelografi, angiografi, flebografi). TxGNN-modellen forudsiger en mulig sammenhæng med **Søvnløshed**, men dette understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og evidence pack'et selv markerer forudsigelsen som manglende farmakologisk plausibilitet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not available for Iohexol in this evidence pack. Based on information contained in the supporting literature and trial records, Iohexol is a non-ionic, iodinated contrast medium used for radiographic and imaging procedures — it has no known central nervous system pharmacological activity and does not cross the blood-brain barrier to produce a sedative or hypnotic effect.
-
-The evidence pack's own repurposing rationale is explicit on this point: there is **no known mechanism** linking Iohexol to insomnia treatment, and the high TxGNN score is assessed as likely reflecting a graph-relational artifact rather than a biologically grounded signal. No clinical trials or literature records exist for the drug–disease pair to counterbalance this concern.
-
-For context, the same evidence pack also generated several other high-scoring predictions for Iohexol (anxiety, rheumatoid arthritis, antithrombin deficiency type 2, factor V excess). In each case, any clinical trials or literature that do exist use Iohexol only as a renal-clearance (GFR) measurement tool or diagnostic contrast agent within studies of unrelated interventions — not as a therapeutic agent for those conditions. This pattern reinforces that the current top prediction should be treated as a low-confidence model artifact rather than a credible repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Original indikation | Ikke dokumenteret i dansk licensdata — Iohexol er ikke i øjeblikket markedsført i Danmark, så der er ingen godkendt indikationstekst tilgængelig |
+| Forudsagt ny indikation | Søvnløshed |
+| TxGNN forudsigelsesscore | 99.87% |
+| Evidence niveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Udhold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme for Iohexol er ikke tilgængelige i dette evidence pack. Baseret på information indeholdt i den understøttende litteratur og forsøgsregistre er Iohexol et ikke-ionisk, ioderet kontrastmedium, der bruges til røntgen- og billedprocedurer — det har ingen kendt centralt nervesystem-farmakologisk aktivitet og krydser ikke blod-hjerne-barrieren for at producere en sedativ eller hypnotisk effekt.
 
----
+Evidence pack'ets eget repurposing-rationale er eksplicit på dette punkt: der er **ingen kendt mekanisme**, der forbinder Iohexol til behandling af søvnløshed, og den høje TxGNN-score vurderes som sandsynligvis afspejlende et graf-relationelt artefakt snarere end et biologisk grundfestet signal. Der eksisterer ingen kliniske forsøg eller litteraturregistre for det drug–disease-par for at opveje denne bekymring.
 
-## Denmark Market Information
-
-Iohexol currently holds no marketing authorisation in Denmark (market status: **Not marketed**, 0 licenses on record).
+Som kontekst genererede det samme evidence pack også flere andre højtscorende forudsigelser for Iohexol (angst, reumatoid arthritis, antithrombin-mangel type 2, factor V-overskud). I hvert tilfælde bruger alle kliniske forsøg eller litteratur, der eksisterer, kun Iohexol som et nyre-clearance (GFR) måleverktøj eller diagnostisk kontraststof inden for studier af urelaterede interventioner — ikke som et terapeutisk middel for disse tilstande. Dette mønster understøtter, at den nuværende top-forudsigelse skal behandles som et lavtpålideligt modelartefakt snarere end en troværdig repurposing-lead.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Ingen relaterede kliniske forsøg er i øjeblikket registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relateret litteratur er i øjeblikket tilgængelig.
 
-**Rationale:**
-- The prediction score is high (99.87%), but it is unsupported by any clinical trial or literature evidence, and the drug's known pharmacology (a non-CNS-active iodinated contrast agent) provides no plausible mechanism for treating insomnia. This is consistent with the L5 evidence level and Hold recommendation already assigned in the source data.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Iohexol (currently a data gap)
-- TFDA/SmPC warnings and contraindications data — currently missing and flagged as a **blocking** gap for any safety pre-assessment
-- Independent biological or preclinical rationale linking Iohexol to insomnia, since none currently exists
-- Re-evaluation if new clinical trial or literature evidence emerges; absent that, this candidate should not advance beyond Hold
+## Information om det danske marked
+
+Iohexol har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: **Ikke markedsført**, 0 licenser på rekord).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Udhold**
+
+**Begrundelse:**
+- Forudsigelsesscore er høj (99.87%), men den understøttes ikke af nogen kliniske forsøg eller litteraturbevis, og stoffets kendte farmakologi (et ikke-CNS-aktivt ioderet kontraststof) giver ingen plausibel mekanisme til behandling af søvnløshed. Dette er i overensstemmelse med L5-evidensniveauet og Udhold-anbefalingen, der allerede er tildelt i kildedata.
+
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme (MOA) data for Iohexol (i øjeblikket et datahul)
+- TFDA/SmPC-advarsler og data om kontraindikationer — i øjeblikket manglende og markeret som en **blokerende** mangel for enhver sikkerhedspræ-vurdering
+- Uafhængig biologisk eller præ-klinisk begrundelse, der forbinder Iohexol med søvnløshed, da ingen eksisterer i øjeblikket
+- Genvurdering, hvis nye kliniske forsøgs- eller litteraturbevis dukker op; uden det bør denne kandidat ikke gå videre end Udhold
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

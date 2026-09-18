@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thyrotropin Alfa: From Thyroid Cancer Follow-Up to Migraine Disorder
+# Thyrotropin Alfa: Fra Skjoldbruskkirtels Kræft-Opfølgning til Migræne
 
-## One-Sentence Summary
+## Sammendrag i Én Sætning
 
-Thyrotropin alfa (recombinant human TSH) is used as a diagnostic aid in the follow-up of well-differentiated thyroid cancer, stimulating thyroid tissue to raise thyroglobulin levels and radioiodine uptake. The TxGNN model predicts a possible link to **Migraine Disorder**, but this prediction is currently supported by **no clinical trials and no relevant literature** — it is a model output only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Thyroid cancer follow-up (adjunctive diagnostic use to stimulate thyroglobulin/radioiodine uptake) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Thyrotropin alfa (rekombinant humant TSH) bruges som diagnostisk hjælp ved opfølgning af veldifferentieret skjoldbruskkirtels kræft, hvor det stimulerer skjoldbruskkirtelvæv til at øge thyroglobulin-niveauer og radioaktiv jodoptagelse. TxGNN-modellen forudsiger en mulig forbindelse til **Migræne**, men denne forudsigelse understøttes i øjeblikket af **ingen kliniske forsøg og ingen relevant litteratur** — det er alene et modeloutput.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig Oversigt
 
-Detailed mechanism of action data for thyrotropin alfa is not currently available in this evidence pack. Based on known clinical use, thyrotropin alfa is a recombinant form of human thyroid-stimulating hormone (TSH), used clinically to stimulate thyroid follicular tissue via the TSH receptor — supporting post-surgical monitoring of thyroid cancer patients rather than treating the cancer itself.
-
-There is no established mechanistic pathway connecting TSH receptor activation to migraine pathophysiology, which is primarily driven by the trigeminovascular system and CGRP signaling. The disease pair (thyroid tissue stimulation vs. migraine) has no obvious pharmacological or anatomical overlap, and the evidence pack explicitly flags this as a prediction lacking a plausible mechanistic basis.
-
-Given the absence of any supporting clinical trials or literature specific to this drug-disease pair, this prediction should currently be regarded as a computational signal only, not a clinically actionable hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig Indikation | Skjoldbruskkirtels kræftopfølgning (hjælpende diagnostisk anvendelse til stimulering af thyroglobulin/radioaktiv jodoptagelse) |
+| Forudsagt Ny Indikation | Migræne |
+| TxGNN Forudsigelsesscore | 99.98% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmåde for thyrotropin alfa er i øjeblikket ikke tilgængelige i denne dokumentpakke. På grundlag af kendt klinisk anvendelse er thyrotropin alfa en rekombinant form af humant thyreoideastimulerende hormon (TSH), der bruges klinisk til at stimulere thyreoidea-follikelepitel via TSH-receptoren — til støtte for postkirurgisk overvågning af patienter med skjoldbruskkirtels kræft snarere end til behandling af selve kræften.
 
-*Note: A related TxGNN prediction for "migraine with or without aura, susceptibility to" returned 20 PubMed hits, but all concerned shared epilepsy–migraine genetic susceptibility mechanisms (e.g., SCN1A, MTHFR C677T polymorphisms, neuroinflammation) with no mention of thyrotropin alfa or TSH-related pathways. These were assessed as an embedding-similarity artifact rather than direct drug-disease evidence and are not included above.*
+Der er ingen etableret mekanistisk forbindelse mellem TSH-receptoraktivering og migrænefysiologi, som primært drives af det trigemino-vaskulære system og CGRP-signalering. Lægemiddel-sygdomsparret (stimulering af skjoldbruskkirtelvæv vs. migræne) har ingen tydelig farmakologisk eller anatomisk sammenhæng, og dokumentpakken markerer eksplicit dette som en forudsigelse uden plausibelt mekanistisk grundlag.
 
----
-
-## Denmark Market Information
-
-Thyrotropin alfa currently has no registered marketing authorisations in this dataset (0 licenses, market status: Not marketed). No product-level information is available to tabulate.
+I betragtning af fraværet af kliniske forsøg eller litteratur specifik for dette lægemiddel-sygdomspar bør denne forudsigelse i øjeblikket kun betragtes som et beregningssignal, ikke som en klinisk handlingsbar hypotese.
 
 ---
 
-## Safety Considerations
+## Evidens fra Kliniske Forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
-**Rationale:**
-The prediction is evidence level L5 (model prediction only) — no clinical trials, no supporting literature, and no identified mechanistic rationale link TSH receptor activation to migraine pathophysiology. There is currently no basis to advance this candidate.
+*Bemærk: En relateret TxGNN-forudsigelse for "migræne med eller uden aura, modtagelighed for" returnerede 20 PubMed-træffere, men alle omhandlede delte mekanismer for genetisk modtagelighed ved epilepsi-migræne (f.eks. SCN1A, MTHFR C677T polymorfismer, neuroinflammation) uden nogen omtale af thyrotropin alfa eller TSH-relaterede veje. Disse blev vurderet som indlejringslighedsartefakter snarere end direkte lægemiddel-sygdomsbevis og er ikke inkluderet ovenfor.*
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for thyrotropin alfa (currently a data gap)
-- Danish/EU product label warnings and contraindications (currently a data gap; blocking for safety pre-assessment)
-- Preclinical or mechanistic studies exploring any TSH–trigeminovascular/CGRP pathway interaction
-- Dedicated clinical trial or case-level evidence in migraine populations before any further evaluation
+---
+
+## Markedsinformation for Danmark
+
+Thyrotropin alfa har i øjeblikket ingen registrerede markedsføringstilladelser i dette datasæt (0 licenser, markedsstatus: Ikke markedsført). Der er ingen produktinformation på tilgængelig niveau til tabulering.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og Næste Skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Forudsigelsen er evidensniveau L5 (alene modelforudsigelse) — ingen kliniske forsøg, ingen understøttende litteratur, og ingen identificeret mekanistisk forbindelse mellem TSH-receptoraktivering og migrænefysiologi. Der er i øjeblikket intet grundlag for at fremme denne kandidat.
+
+**For at gå videre er følgende nødvendigt:**
+- Bekræftet data om virkningsmåde (MOA) for thyrotropin alfa (i øjeblikket et datahul)
+- Dansk/EU-produktinformation med advarslinger og kontraindikationer (i øjeblikket et datahul; blokerer sikkerhedsevaluering)
+- Prækliniske eller mekanistiske studier der udforsker mulig interaktion mellem TSH-receptor og trigemino-vaskulær/CGRP-signalering
+- Dedikeret klinisk forsøg eller case-niveau evidens i migræne-populationer før videre evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

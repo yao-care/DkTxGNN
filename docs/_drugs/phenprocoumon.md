@@ -29,77 +29,78 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Phenprocoumon: From Thromboembolic Disorders to Posteroinferior Myocardial Infarction
+# Phenprocoumon: Fra tromboemboliske lidelser til posteroinferior myokardieinfarkt
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-> Phenprocoumon is a vitamin K antagonist (VKA) oral anticoagulant; no structured data on its original approved indication is available in this evidence pack. The TxGNN model predicts a **99.86% score** association with **Posteroinferior Myocardial Infarction** — however, this is an anatomical subtype node of myocardial infarction rather than a distinct clinical entity, and **0 clinical trials** and **0 publications** specific to phenprocoumon in this indication are currently registered.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in structured data (`original_indications` is empty). Evidence-pack rationale notes phenprocoumon is clinically used as a vitamin K antagonist (VKA) oral anticoagulant, analogous to warfarin |
-| Predicted New Indication | Posteroinferior Myocardial Infarction (anatomical MI subtype — not an independent clinical entity) |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Phenprocoumon er en vitamin K-antagonist (VKA) oral antikoagulans; der er ingen strukturerede data om dens oprindeligt godkendt indikation tilgængelig i denne evidenspakke. TxGNN-modellen forudsiger en **99.86%**-score-tilknytning til **Posteroinferior Myokardieinfarkt** — imidlertid er dette en anatomisk undertype-knude for myokardieinfarkt snarere end en distinkt klinisk enhed, og **0 kliniske forsøg** og **0 publikationer** specifikt for phenprocoumon i denne indikation er i øjeblikket registreret.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on the contextual information supplied in this evidence pack's own rationale notes, phenprocoumon is a vitamin K antagonist (VKA), pharmacologically comparable to warfarin, and its established clinical role is long-term oral anticoagulation.
-
-The top-ranked predicted indication, "Posteroinferior Myocardial Infarction," is explicitly flagged in the evidence pack as an **anatomical location subtype of myocardial infarction**, not a separate disease entity. The rationale explains that VKA-class drugs have class-level (not phenprocoumon-specific) historical Phase 3 RCT support for secondary prevention of post-MI thromboembolic events (e.g. WARIS-II, ASPECT-2 are referenced as background literature, but neither trial is included as structured evidence in this pack). The very high TxGNN score most likely reflects a generalized "anticoagulant–MI" association learned by the knowledge graph, rather than evidence specific to this anatomical subtype or to phenprocoumon itself.
-
-This evidence pack additionally lists four other candidate diseases at similarly high scores: posterolateral myocardial infarction (99.86%), heparin cofactor 2 deficiency (99.86%, supported by 1 review-level publication from 1989), septal myocardial infarction (99.85%), and factor 5 excess with spontaneous thrombosis (99.80%, no supporting records at all). Note that several ranks in the underlying data (e.g. rank 1 and rank 3, rank 2 and rank 4) are exact duplicates of the same disease/score pairing — this should be treated as a data quality artifact for triage purposes rather than independent corroboration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke specificeret i strukturerede data (`original_indications` er tom). Evidenspakkens begrundelse noter, at phenprocoumon er klinisk brugt som vitamin K-antagonist (VKA) oral antikoagulans, analogt med warfarin |
+| Forudsagt ny indikation | Posteroinferior Myokardieinfarkt (anatomisk MI-undertype — ikke en uafhængig klinisk enhed) |
+| TxGNN-forudsigelsesscore | 99.86% |
+| Evidensniveau | L4 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal marketing-godkendelser | 0 |
+| Anbefalet beslutning | Afwait |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (`original_moa: [Data Gap]`). Baseret på de kontekstuelle oplysninger, der leveres i denne evidenspakkes egne begrundelsesnoter, er phenprocoumon en vitamin K-antagonist (VKA), farmakologisk sammenlignelig med warfarin, og dens etablerede kliniske rolle er langtids oral antikoagulation.
 
-*(Note: the related candidate "heparin cofactor 2 deficiency" — an inherited thrombophilia — is supported by one 1989 review-level publication, [2483712](https://pubmed.ncbi.nlm.nih.gov/2483712/), which is not a direct trial of phenprocoumon in this MI subtype and is presented here for transparency only, not as evidence for the primary predicted indication above.)*
+Den toprangerede forudsagte indikation, "Posteroinferior Myokardieinfarkt", er eksplicit markeret i evidenspakken som en **anatomisk lokaliserings-undertype af myokardieinfarkt**, ikke en separat sygdomsenhed. Begrundelsen forklarer, at VKA-klasse mediciner har klasse-niveau (ikke phenprocoumon-specifik) historisk Phase 3 RCT-understøttelse for sekundær prævention af post-MI tromboemboliske begivenheder (f.eks. er WARIS-II, ASPECT-2 refereret som baggrundsforfatterskab, men ingen af forsøgene er inkluderet som struktureret evidens i denne pakke). Den meget høje TxGNN-score afspejler mest sandsynligt en generaliseret "antikoagulans–MI"-graf-tilknytning lært af vidensgrafen snarere end evidens specifikt for denne anatomiske undertype eller for phenprocoumon selv.
 
----
-
-## Denmark Market Information
-
-Phenprocoumon currently holds **no marketing authorisation in Denmark** (market status: Not Marketed; 0 registered licenses). No Laegemiddelstyrelsen or EMA centralised product record is available for this evidence pack.
+Denne evidenspakke lister desuden fire andre kandidat-sygdomme ved tilsvarende høje scores: posterolateral myokardieinfarkt (99.86%), heparin-kofaktor 2-mangel (99.86%, understøttet af 1 review-niveau publikation fra 1989), septalt myokardieinfarkt (99.85%) og faktor 5-overskud med spontan trombose (99.80%, ingen understøttende poster på alt). Bemærk, at flere rækker i de underliggende data (f.eks. rang 1 og rang 3, rang 2 og rang 4) er præcise duplikater af samme sygdom/score-parring — dette bør behandles som et datakvalitetsartefakt til triageformål snarere end uafhængig bekræftelse.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: since phenprocoumon is not marketed in Denmark, no Danish SmPC currently exists — key warnings, contraindications, and drug interaction data are all recorded as data gaps (`DG001`, marked **Blocking** severity in this evidence pack, as it prevents entry into the S1 safety pre-screen). Consult an EU/other-jurisdiction SmPC or DrugBank/DDI database directly before any clinical use is considered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The predicted indication is an anatomical MI subtype rather than a distinct clinical entity, with zero direct clinical trials or publications supporting phenprocoumon specifically in this context — the high TxGNN score appears to reflect a generalized anticoagulant–MI graph association rather than targeted evidence. Combined with the drug's non-marketed status in Denmark and a Blocking-severity safety data gap, this candidate does not currently meet the bar to proceed.
+*(Bemærk: den relaterede kandidat "heparin-kofaktor 2-mangel" — en arvelig trombofili — er understøttet af en 1989 review-niveau publikation, [2483712](https://pubmed.ncbi.nlm.nih.gov/2483712/), som ikke er en direkte forsøg af phenprocoumon i denne MI-undertype og er præsenteret her for transparens alene, ikke som evidens for den primære forudsagte indikation ovenfor.)*
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (`DG001`, Blocking — required before any S1 safety pre-screen)
-- Confirmed mechanism of action data from DrugBank (`DG002`)
-- Disambiguation of the duplicated ranking entries in the candidate list (data quality check)
-- Direct clinical trial or literature evidence for phenprocoumon specifically in post-MI thromboembolic prevention, rather than class-level VKA background literature
-- Clarification of whether Denmark has any historical or off-label use pathway for phenprocoumon, given its current non-marketed status
+---
+
+## Markedsinformation for Danmark
+
+Phenprocoumon har i øjeblikket **ingen marketing-godkendelse i Danmark** (markedsstatus: Ikke markedsført; 0 registrerede licenser). Ingen Lægemiddelstyrelsen eller EMA-centraliseret produktrekord er tilgængelig for denne evidenspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Bemærk: da phenprocoumon ikke er markedsført i Danmark, eksisterer der i øjeblikket ingen dansk SmPC — vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er alle registreret som datagab (`DG001`, markeret som **Blokerings**-alvor i denne evidenspakke, da det forhindrer indgang i S1-sikkerhedsforhåndsscreening). Konsulter en EU/anden-jurisdiktions SmPC eller DrugBank/DDI-database direkte, før klinisk brug overvejes.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afwait**
+
+**Begrundelse:**
+Den forudsagte indikation er en anatomisk MI-undertype snarere end en distinkt klinisk enhed, med nul direkte kliniske forsøg eller publikationer, der understøtter phenprocoumon specifikt i denne sammenhæng — den høje TxGNN-score synes at afspejle en generaliseret "antikoagulans–MI"-graf-tilknytning snarere end målrettet evidens. Kombineret med medicinens ikke-markedsførte status i Danmark og et blokerings-alvorligheds sikkerhedsdatagab, opfylder denne kandidat i øjeblikket ikke standarden for at gå videre.
+
+**For at gå videre, er følgende påkrævet:**
+- TFDA/dansk SmPC advarsler og kontraindikationer (`DG001`, Blokering — påkrævet før nogen S1-sikkerhedsforhåndsscreening)
+- Bekræftet virkningsmekanisme-data fra DrugBank (`DG002`)
+- Afklaring af de duplikerede rangeringsindgange på kandidatlisten (datakvalitetskontrol)
+- Direkte klinisk forsøgs- eller litteraturevidence for phenprocoumon specifikt i post-MI tromboembolisk prævention, snarere end klasse-niveau VKA-baggrundsforfatterskab
+- Præcisering af, hvorvidt Danmark har nogen historisk eller off-label brugssti for phenprocoumon, givet dens nuværende ikke-markedsførte status
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

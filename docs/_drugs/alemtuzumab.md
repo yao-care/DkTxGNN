@@ -29,129 +29,130 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alemtuzumab: From B-Cell Chronic Lymphocytic Leukaemia to Syndrome with Combined Immunodeficiency
+# Alemtuzumab: Fra B-celle kronisk lymfatisk leukæmi til syndrom med kombineret immundefekt
 
-## One-Sentence Summary
+## Et-sætningers resumé
 
-Alemtuzumab is a humanised anti-CD52 monoclonal antibody internationally approved for B-cell chronic lymphocytic leukaemia (B-CLL) and relapsing-remitting multiple sclerosis, but not currently registered in Denmark. The TxGNN model predicts it may be effective as a conditioning agent in allogeneic haematopoietic stem cell transplantation (allo-HSCT) for **Syndrome with Combined Immunodeficiency**, supported by **13 clinical trials** and **12 publications**. Note: the numerically highest TxGNN score belongs to hepatic infarction (94.44%), but this indication carries no supporting clinical evidence (L5, Hold); syndrome with combined immunodeficiency (93.73%) represents the most clinically actionable and evidence-supported prediction in this evidence pack.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | B-Cell Chronic Lymphocytic Leukaemia / Relapsing-Remitting Multiple Sclerosis (international approvals; no registered indication in Denmark) |
-| Predicted New Indication | Syndrome with Combined Immunodeficiency |
-| TxGNN Prediction Score | 93.73% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Alemtuzumab er et humaniseret anti-CD52 monoklonalt antistof med international godkendelse til B-celle kronisk lymfatisk leukæmi (B-CLL) og amulerende-remitterende multipel sklerose, men er ikke registreret i Danmark. TxGNN-modellen forudsiger, at det kan være effektivt som konditioneringsmiddel ved allogen stamcelletransplantation (allo-HSCT) til **syndrom med kombineret immundefekt**, understøttet af **13 kliniske studier** og **12 publikationer**. Bemærk: den numerisk højeste TxGNN-score tilhører hepatisk infarkt (94,44%), men denne indikation har ingen klinisk støtte (L5, Hold); syndrom med kombineret immundefekt (93,73%) repræsenterer den mest klinisk handlingsdygtige og evidensunderstøttede forudsigelse i denne evidenspakke.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data are not available in the current evidence pack. Based on established pharmacological knowledge, Alemtuzumab is a humanised IgG1 kappa monoclonal antibody targeting CD52 — a glycoprotein highly expressed on mature T lymphocytes, B lymphocytes, NK cells, and monocytes. Upon binding CD52, it triggers rapid and sustained lymphocyte depletion via complement-dependent cytotoxicity (CDC), antibody-dependent cellular cytotoxicity (ADCC), and direct apoptotic signalling, with minimal toxicity to non-haematopoietic tissues.
-
-This lymphodepletion mechanism maps directly onto the requirements of allo-HSCT conditioning for combined immunodeficiency. Patients with primary combined immunodeficiency disorders — including SCID, XIAP deficiency, Hyper-IgM syndrome (CD40L deficiency), IPEX syndrome, Wiskott-Aldrich syndrome, and chronic granulomatous disease (CGD) — are characterised by absent or severely impaired lymphocyte function. Curative allo-HSCT in this setting requires immune space creation prior to transplant to permit donor cell engraftment while minimising graft-versus-host disease (GvHD) risk and transplant-related mortality. Alemtuzumab's selective lymphocyte targeting, low organ toxicity, and suitability for reduced-intensity conditioning (RIC) make it particularly appropriate for fragile paediatric patients who cannot safely tolerate conventional myeloablative conditioning regimens.
-
-The repurposing rationale is therefore a direct extension of the drug's established pharmacology: the same CD52-targeting lymphodepletion used in treating lymphocytic malignancy is applied to immune-space creation for curative transplantation. Multiple specialist transplant centres internationally have incorporated alemtuzumab-based RIC as a standard conditioning backbone for paediatric primary immunodeficiency, and the available evidence base reflects established clinical practice rather than a speculative hypothesis. The primary evidence gap is the absence of Phase 3 RCTs, which reflects the rarity of these conditions rather than a fundamental pharmacological uncertainty.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00579137](https://clinicaltrials.gov/study/NCT00579137) | Phase 1/2 | Terminated | 3 | Only trial directly naming alemtuzumab as sole conditioning agent for allo-HSCT in SCID and primary immunodeficiency disorders; terminated early (3 patients enrolled), primary value is safety signal generation |
-| [NCT01182675](https://clinicaltrials.gov/study/NCT01182675) | Phase 2 | Terminated | 7 | Novel chemo-free conditioning using alemtuzumab + plerixafor/filgrastim for HSCT in children with SCID; aims to eliminate toxic chemotherapy conditioning while maximising T/B cell immune reconstitution |
-| [NCT05463133](https://clinicaltrials.gov/study/NCT05463133) | Phase 1/2 | Recruiting | 50 | Allo-HSCT for chronic granulomatous disease using alemtuzumab/busulfan/TBI combined with cytokine antagonists (IL-6 ± IFN-γ); largest ongoing trial directly incorporating alemtuzumab in a primary immunodeficiency |
-| [NCT07284641](https://clinicaltrials.gov/study/NCT07284641) | Phase 2 | Recruiting | 25 | RIC-HSCT with TBI for CVID and other autoimmune manifestations of primary immune regulatory disorders; most recently initiated prospective trial in this indication (2026 start) |
-| [NCT01652092](https://clinicaltrials.gov/study/NCT01652092) | N/A | Active, not recruiting | 57 | Standard-of-care allo-HSCT guideline registry for primary immune deficiencies; largest real-world dataset in this indication, reflecting current clinical practice |
-| [NCT01962415](https://clinicaltrials.gov/study/NCT01962415) | Phase 2 | Recruiting | 100 | RIC with cord blood/bone marrow/PBSC transplant in paediatric and young adult non-malignant disorders including immunodeficiencies; largest active enrolment among ongoing trials |
-| [NCT01019876](https://clinicaltrials.gov/study/NCT01019876) | Phase 2/3 | Completed | 38 | Risk-adapted allo-SCT for non-malignant diseases including immunodeficiencies across four strata (bone marrow failure, immunodeficiencies, metabolic errors, histiocytoses); completed 2021 — long-term outcome data available |
-| [NCT01821781](https://clinicaltrials.gov/study/NCT01821781) | Phase 2 | Active, not recruiting | 20 | RIC-HSCT for immune function disorders using maximised host immunosuppression to reduce graft rejection; alemtuzumab likely included as conditioning component |
-| [NCT00744692](https://clinicaltrials.gov/study/NCT00744692) | Phase 1 | Completed | 22 | Feasibility of RIC in paediatric non-malignant disorder cord blood transplantation; earliest safety feasibility data in this population, engraftment endpoint >25% donor chimerism at 180 days |
-| [NCT04528355](https://clinicaltrials.gov/study/NCT04528355) | N/A | Recruiting | 50 | Prospective outcomes registry for non-malignant disorders undergoing RIC-HSCT; specifically examines alemtuzumab dosing strata to prevent graft failure and support immune reconstitution |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | B-celle kronisk lymfatisk leukæmi / Amulerende-remitterende multipel sklerose (internationale godkendelser; ingen registreret indikation i Danmark) |
+| Forudsagt ny indikation | Syndrom med kombineret immundefekt |
+| TxGNN-forudsigelsesscore | 93,73% |
+| Evidensniveau | L3 |
+| Markedelsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [27543157](https://pubmed.ncbi.nlm.nih.gov/27543157/) | 2016 | Retrospective Cohort | Biol Blood Marrow Transplant | Single-centre comparison: alemtuzumab/fludarabine/melphalan RIC (n=4) vs myeloablative busulfan/cyclophosphamide/ATG (n=14) in CGD; RIC showed lower transplant-related toxicity |
-| [23131490](https://pubmed.ncbi.nlm.nih.gov/23131490/) | 2013 | Multicenter Retrospective | Blood | International survey of allo-HCT for XIAP deficiency (19 patients); alemtuzumab-based RIC predominated among 11 patients receiving reduced-intensity regimens; overall outcomes poor, highlighting unmet need |
-| [29155317](https://pubmed.ncbi.nlm.nih.gov/29155317/) | 2018 | Retrospective Cohort | Biol Blood Marrow Transplant | 160 children with primary immunodeficiency receiving treosulfan/fludarabine/alemtuzumab conditioning; improved toxicity and T-cell chimerism compared to earlier cyclophosphamide-based cohort (n=70) |
-| [21325599](https://pubmed.ncbi.nlm.nih.gov/21325599/) | 2011 | Retrospective Cohort | Blood | 70 children with primary immunodeficiency receiving treosulfan conditioning with alemtuzumab; lower veno-occlusive disease rates compared to busulfan; does not require pharmacokinetic monitoring |
-| [18940685](https://pubmed.ncbi.nlm.nih.gov/18940685/) | 2008 | Case Series | Biol Blood Marrow Transplant | Campath-1H (alemtuzumab) + fludarabine for rescue of stem cell graft failure in 12 paediatric patients including 4 with SCID; effective lymphodepletion achieved without myeloablation |
-| [26073206](https://pubmed.ncbi.nlm.nih.gov/26073206/) | 2015 | Single-Centre Retrospective | Pediatric Transplantation | HSCT outcomes for Hyper-IgM syndrome due to CD40L deficiency (5 patients, median age 41 months); HSCT demonstrated as curative in this combined immunodeficiency variant |
-| [19471859](https://pubmed.ncbi.nlm.nih.gov/19471859/) | 2009 | Case Series | Immunologic Research | FOXP3+ T-regulatory cell reconstitution after RIC-HSCT for IPEX syndrome; immune reconstitution of regulatory T cells correlated with clinical remission of multi-organ autoimmunity |
-| [11841458](https://pubmed.ncbi.nlm.nih.gov/11841458/) | 2002 | Case Report | Br J Haematol | Non-myeloablative BMT in a 26-year-old with Wiskott-Aldrich syndrome; alemtuzumab-based conditioning achieved partial engraftment and immune restoration despite active infections and vasculitis |
-| [15590388](https://pubmed.ncbi.nlm.nih.gov/15590388/) | 2004 | Safety Review | Haematologica | Infectious toxicity profile of alemtuzumab; key safety reference for its use in profoundly immunocompromised patients undergoing conditioning |
-| [18502831](https://pubmed.ncbi.nlm.nih.gov/18502831/) | 2008 | Case Report | Blood | EBV-positive lymphoproliferative disease following alemtuzumab-CHOP therapy; documents EBV reactivation risk with profound immunodepletion — critical safety signal for transplant setting |
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i den aktuelle evidenspakke. Baseret på etableret farmakologisk viden er alemtuzumab et humaniseret IgG1 kappa monoklonalt antistof, der målretter mod CD52 — et glykoprotein, der udtrykkes i høj grad på modne T-lymfocytter, B-lymfocytter, NK-celler og monocytter. Ved binding til CD52 udløser det hurtig og vedvarende lymfocyttnedsæt via komplementafhængig cytotoxicitet (CDC), antistofafhængig cellulær cytotoxicitet (ADCC) og direkte apoptotisk signalering, med minimal toksicitet over for ikke-hæmatopoetiske væv.
+
+Denne lymfocytnedsættelsesmekanisme kortlægger direkte til kravene for allo-HSCT-konditionering til kombineret immundefekt. Patienter med primær kombineret immundefekt — herunder SCID, XIAP-mangel, Hyper-IgM-syndrom (CD40L-mangel), IPEX-syndrom, Wiskott-Aldrich-syndrom og kronisk granulomatøs sygdom (CGD) — er karakteriseret ved fraværende eller alvorligt nedsat lymfocytfunktion. Kurativ allo-HSCT i denne sammenhæng kræver immun pladsoprettelse før transplantation for at tillade donorcelleengrafting, samtidig med at risikoen for transplantatabstodsreaktion (GvHD) og transplantationsrelateret dødelighed minimeres. Alemtuzumabs selektive lymfocyttargering, lav organstoksicitet og egnethed til reduceret-intensitet konditionering (RIC) gør det særligt passende for sårbare pædiatriske patienter, der ikke kan tolerere konventionelle myeloablative konditioneringsregimer.
+
+Rationale for omformål er derfor en direkte udvidelse af lægemidlets etablerede farmakologi: den samme CD52-målrettede lymfocyttnedsæt, der bruges til behandling af lymfocytær malignitet, anvendes til immun pladsoprettelse til kurativ transplantation. Flere specialiserede transplantationscentre internationalt har inkorporeret alemtuzumab-baseret RIC som en standardkonditioneringsrygrad for pædiatrisk primær immundefekt, og det tilgængelige evidensgrundlag afspejler etableret klinisk praksis snarere end en spekulativ hypotese. Det primære evidensgab er fraværet af fase 3 RCT'er, hvilket afspejler sjældenhed af disse tilstande snarere end en fundamental farmakologisk usikkerhed.
 
 ---
 
-## Denmark Market Information
+## Klinisk trialbevis
 
-Alemtuzumab currently has **no national marketing authorisations registered with Lægemiddelstyrelsen** (0 Danish registrations). Two alemtuzumab products hold or have held centralised EU marketing authorisations via the EMA, which apply in Denmark:
+| Trial nummer | Fase | Status | Tilmelding | Vigtige resultater |
+|-------------|------|--------|------------|--------------|
+| [NCT00579137](https://clinicaltrials.gov/study/NCT00579137) | Fase 1/2 | Afsluttet | 3 | Eneste trial, der direkte navngiver alemtuzumab som eneste konditioneringsmiddel for allo-HSCT ved SCID og primær immundefekt; afsluttet tidligt (3 patienter tilmeldt), primær værdi er sikkerhedssignalgenerering |
+| [NCT01182675](https://clinicaltrials.gov/study/NCT01182675) | Fase 2 | Afsluttet | 7 | Ny kemoterapifri konditionering ved hjælp af alemtuzumab + plerixafor/filgrastim til HSCT hos børn med SCID; sigter mod at eliminere toksisk kemoterapikonditionering, mens T/B-celle immunrekonstitution maksimeres |
+| [NCT05463133](https://clinicaltrials.gov/study/NCT05463133) | Fase 1/2 | Rekruttering | 50 | Allo-HSCT til kronisk granulomatøs sygdom ved hjælp af alemtuzumab/busulfan/TBI kombineret med cytokinantagonister (IL-6 ± IFN-γ); største igangværende trial, der direkte inkorporerer alemtuzumab ved primær immundefekt |
+| [NCT07284641](https://clinicaltrials.gov/study/NCT07284641) | Fase 2 | Rekruttering | 25 | RIC-HSCT med TBI til CVID og anden autoimmun manifestation af primære immun-regulatoriske forstyrrelser; senest initieret prospektivt trial inden for denne indikation (2026 start) |
+| [NCT01652092](https://clinicaltrials.gov/study/NCT01652092) | N/A | Aktivt, ikke rekruttering | 57 | Standard-of-care allo-HSCT retningslinjeregister for primær immundefekt; største real-world datasæt inden for denne indikation, der afspejler nuværende klinisk praksis |
+| [NCT01962415](https://clinicaltrials.gov/study/NCT01962415) | Fase 2 | Rekruttering | 100 | RIC med navlestrengblod/benmarv/PBSC-transplantation hos pædiatriske og unge voksne patienter med ikke-ondartede lidelser, herunder immundefekter; størst aktiv tilmelding blandt igangværende forsøg |
+| [NCT01019876](https://clinicaltrials.gov/study/NCT01019876) | Fase 2/3 | Afsluttet | 38 | Risikoprræftighed allo-SCT til ikke-ondartede sygdomme, herunder immundefekter på tværs af fire strata (benmarvssvigt, immundefekter, metaboliske fejl, histiocytoser); afsluttet 2021 — langsigtede resultatdata tilgængelige |
+| [NCT01821781](https://clinicaltrials.gov/study/NCT01821781) | Fase 2 | Aktivt, ikke rekruttering | 20 | RIC-HSCT til immunfunktionsforstyrrelser ved hjælp af maksimeret vært-immunsuppression for at reducere graftafstødning; alemtuzumab sandsynligvis inkluderet som konditioneringskomponent |
+| [NCT00744692](https://clinicaltrials.gov/study/NCT00744692) | Fase 1 | Afsluttet | 22 | Gennemførlighed af RIC i pædiatrisk ikke-ondartede lidelser navlestrengblodstransplantation; tidligste sikkerhedsforsøgsdata i denne population, engraftment-endepunkt >25% donorchimerisme ved 180 dage |
+| [NCT04528355](https://clinicaltrials.gov/study/NCT04528355) | N/A | Rekruttering | 50 | Prospektivt resultatregister for ikke-ondartede lidelser, der gennemgår RIC-HSCT; undersøger specifikt alemtuzumab-dosisordninger for at forhindre graftsvigt og understøtte immunrekonstitution |
 
-| Authorisation Number | Product Name | Dosage Form | Approved Indication |
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|----|----|---------|--------------|
+| [27543157](https://pubmed.ncbi.nlm.nih.gov/27543157/) | 2016 | Retrospektivt kohorte | Biol Blood Marrow Transplant | Enkeltcenters sammenligning: alemtuzumab/fludarabin/melphalan RIC (n=4) vs myeloablativ busulfan/cyclophosphamid/ATG (n=14) til CGD; RIC viste lavere transplantationsrelateret toksicitet |
+| [23131490](https://pubmed.ncbi.nlm.nih.gov/23131490/) | 2013 | Multicenters retrospektivt | Blood | International undersøgelse af allo-HCT til XIAP-mangel (19 patienter); alemtuzumab-baseret RIC dominerede blandt 11 patienter, der modtog regimer med reduceret intensitet; overordnede resultater dårlige, fremhæver uopdækket behov |
+| [29155317](https://pubmed.ncbi.nlm.nih.gov/29155317/) | 2018 | Retrospektivt kohorte | Biol Blood Marrow Transplant | 160 børn med primær immundefekt, der modtog treosulfan/fludarabin/alemtuzumab-konditionering; forbedret toksicitet og T-celle-kimerisme sammenlignet med tidligere cyclophosphamid-baseret kohorte (n=70) |
+| [21325599](https://pubmed.ncbi.nlm.nih.gov/21325599/) | 2011 | Retrospektivt kohorte | Blood | 70 børn med primær immundefekt, der modtog treosulfan-konditionering med alemtuzumab; lavere veno-oklusive sygdomshyppighed sammenlignet med busulfan; kræver ikke farmakokinstisk overvågning |
+| [18940685](https://pubmed.ncbi.nlm.nih.gov/18940685/) | 2008 | Kasseserie | Biol Blood Marrow Transplant | Campath-1H (alemtuzumab) + fludarabin til redning af stamcellegraftsvigt hos 12 pædiatriske patienter, herunder 4 med SCID; effektiv lymfocyttnedsæt opnået uden myeloablation |
+| [26073206](https://pubmed.ncbi.nlm.nih.gov/26073206/) | 2015 | Enkeltcenters retrospektivt | Pediatric Transplantation | HSCT-resultater for Hyper-IgM-syndrom på grund af CD40L-mangel (5 patienter, median alder 41 måneder); HSCT demonstreret som kurativ i denne kombineret immundefekt-variant |
+| [19471859](https://pubmed.ncbi.nlm.nih.gov/19471859/) | 2009 | Kasseserie | Immunologic Research | FOXP3+ T-regulatorisk celrekonstitution efter RIC-HSCT til IPEX-syndrom; immunrekonstitution af regulatoriske T-celler korreleret med klinisk remission af multi-organ autoimmunitet |
+| [11841458](https://pubmed.ncbi.nlm.nih.gov/11841458/) | 2002 | Kasserapport | Br J Haematol | Ikke-myeloablativ BMT hos en 26-årig med Wiskott-Aldrich-syndrom; alemtuzumab-baseret konditionering opnåede delvis engrafting og immunrestitution på trods af aktive infektioner og vaskulitis |
+| [15590388](https://pubmed.ncbi.nlm.nih.gov/15590388/) | 2004 | Sikkerhedsoversigt | Haematologica | Infektious toksicitetsprofil for alemtuzumab; nøgle sikkerhedsreference for dets brug hos dybt immunsupprimerede patienter, der gennemgår konditionering |
+| [18502831](https://pubmed.ncbi.nlm.nih.gov/18502831/) | 2008 | Kasserapport | Blood | EBV-positiv lymfoproliferativ sygdom efter alemtuzumab-CHOP-terapi; dokumenterer EBV-reaktivering risiko med dyb immunnedsæt — kritisk sikkerhedssignal til transplantationssetting |
+
+---
+
+## Danmarks markedsinformation
+
+Alemtuzumab har i øjeblikket **ingen nationale markedsføringstilladelser registreret hos Lægemiddelstyrelsen** (0 danske registreringer). To alemtuzumab-produkter har eller har haft centraliserede EU-markedsføringstilladelser via EMA, som gælder i Danmark:
+
+| Tilladelsesnummer | Produktnavn | Doseringform | Godkendt indikation |
 |---------------------|-------------|-------------|---------------------|
-| EU/1/01/193 (marketing suspended) | MabCampath 30 mg/3 mL | Concentrate for solution for infusion | B-cell chronic lymphocytic leukaemia (first-line and relapsed/refractory); available via exceptional circumstances/compassionate use in EU |
-| EU/1/13/878 | Lemtrada 12 mg/1.2 mL | Concentrate for solution for infusion | Active relapsing-remitting multiple sclerosis in adults with ≥2 relapses in the preceding 2 years or rapidly evolving severe RRMS |
+| EU/1/01/193 (markedsføring suspenderet) | MabCampath 30 mg/3 mL | Koncentrat til opløsning til infusion | B-celle kronisk lymfatisk leukæmi (førstegangsterapeutisk og relapseret/refraktær); tilgængelig via ekstraordinære omstændigheder/compassionate use i EU |
+| EU/1/13/878 | Lemtrada 12 mg/1,2 mL | Koncentrat til opløsning til infusion | Aktivt amulerende-remitterende multipel sklerose hos voksne med ≥2 tilbagefald i de foregående 2 år eller hurtigevolgende alvorlig RRMS |
 
-> Clinical use in Denmark for non-approved indications (e.g., conditioning for combined immunodeficiency) requires individual patient authorisation from Lægemiddelstyrelsen under named-patient or compassionate use provisions, or enrolment within an approved clinical trial protocol.
-
----
-
-## Cytotoxicity
-
-Alemtuzumab carries antineoplastic approval (B-cell CLL). In the context of this repurposing evaluation, it functions as a targeted lymphodepleting conditioning agent rather than a direct tumour cytotoxic.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted biological therapy — humanised anti-CD52 monoclonal antibody; lymphocyte-depleting; not a conventional cytotoxic agent |
-| Myelosuppression Risk | Moderate — profound and prolonged lymphopenia (T, B, NK cell depletion); thrombocytopenia and neutropenia possible, particularly in combination with fludarabine/melphalan conditioning regimens |
-| Emetogenicity Classification | Minimal to low (monoclonal antibody; primary acute toxicity is infusion-related reactions, not chemotherapy-type nausea/vomiting) |
-| Monitoring Items | Full blood count with differential (CBC), lymphocyte subsets (CD3, CD4, CD8, CD19, CD56), CMV/EBV PCR (quantitative), renal function, liver function, thyroid function (long-term, for secondary autoimmunity), donor chimerism post-transplant |
-| Handling Protection | Standard biological/monoclonal antibody handling procedures; not classified as a hazardous cytotoxic agent — standard aseptic precautions apply |
+> Klinisk brug i Danmark til ikke-godkendte indikationer (f.eks. konditionering til kombineret immundefekt) kræver individuel patientgodkendelse fra Lægemiddelstyrelsen under bestemmelser for navneopgiven patient eller compassionate use, eller tilmelding inden for et godkendt klinisk protokol.
 
 ---
 
-## Safety Considerations
+## Cytotoxicitet
 
-Detailed SmPC warnings and contraindications are not available in the current evidence pack (blocking data gap — EMA SmPC for Lemtrada/MabCampath should be retrieved prior to prescribing). Based on published literature and known pharmacology:
+Alemtuzumab har antineoplastisk godkendelse (B-celle CLL). I forbindelse med denne omformålsevaluering fungerer det som et målrettet lymfocyttnedsættende konditioneringsmiddel snarere end direkte tumortoxisk.
 
-- **Infectious toxicity**: Profound and prolonged lymphopenia creates substantial risk for opportunistic infections including CMV reactivation, EBV-driven post-transplant lymphoproliferative disease, *Pneumocystis jirovecii* pneumonia, and invasive fungal infections; antimicrobial, antiviral, and antifungal prophylaxis is mandatory (PMID 15590388)
-- **EBV-driven lymphoproliferation**: Documented following alemtuzumab-induced immunodepletion; requires vigilant EBV PCR monitoring post-infusion (PMID 18502831)
-- **Secondary autoimmunity**: Well-documented after alemtuzumab in MS (immune thrombocytopenic purpura, autoimmune thyroid disease, anti-GBM nephropathy); relevance in the HSCT conditioning context requires monitoring for a minimum of 48 months post-infusion
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Lemtrada and MabCampath for complete, current safety information before initiating treatment.
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitetklassifikation | Målrettet biologisk terapi — humaniseret anti-CD52 monoklonalt antistof; lymfocyttnedsættende; ikke et konventionelt cytotoxisk middel |
+| Myelosuppressionrisiko | Moderat — dyb og vedvarende lymfopeni (T, B, NK-cellenedsæt); trombocytopeni og neutropeni mulig, især i kombination med fludarabin/melphalan-konditioneringsregimer |
+| Emetogenicitetsklassifikation | Minimal til lav (monoklonalt antistof; primær akut toksicitet er infusionsrelaterede reaktioner, ikke kemoterapitypenausea/opkastning) |
+| Overvågningselementer | Fuldt blodtælling med differentialtal (CBC), lymfocytundergrupper (CD3, CD4, CD8, CD19, CD56), CMV/EBV PCR (kvantitativ), nyrefunktion, leverfunktion, skjoldbruskfunktion (langsigtigt, til sekundær autoimmunitet), donorchimerisme efter transplantation |
+| Håndteringsbeskyttelse | Standardprocedurer for biologisk/monoklonalt antistof håndtering; ikke klassificeret som et farligt cytotoxisk middel — standard aseptiske forholdsregler gælder |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsmæssige overvejelser
 
-**Decision: Proceed with Guardrails**
+Detaljerede SmPC-advarsler og kontraindikationer er ikke tilgængelige i den aktuelle evidenspakke (blokering af datagab — EMA SmPC for Lemtrada/MabCampath skal hentes før ordinering). Baseret på publiceret litteratur og kendt farmakologi:
+
+- **Infektious toksicitet**: Dyb og vedvarende lymfopeni skaber væsentlig risiko for opportunistiske infektioner, herunder CMV-reaktivering, EBV-drevet post-transplantations lymfoproliferativ sygdom, *Pneumocystis jirovecii* pneumoni og invasive svampeinfektioner; antimikrobiel, antiviral og antifungal profylakse er obligatorisk (PMID 15590388)
+- **EBV-drevet lymfoproliferation**: Dokumenteret efter alemtuzumab-induceret immunnedsæt; kræver ivrig EBV PCR-overvågning efter infusion (PMID 18502831)
+- **Sekundær autoimmunitet**: Velkendt efter alemtuzumab ved MS (immun trombocytopeni, autoimmun skjoldbruskgigt, anti-GBM nefropati); relevans i HSCT-konditioneringskonteksten kræver overvågning for minimum 48 måneder efter infusion
+
+Se venligst Produktresumésystemet (SmPC) for Lemtrada og MabCampath for fuldstændig, aktuelt sikkerhedsinformation før initiering af behandling.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Fortsæt med sikkerhedsforanstaltninger**
 
 **Rationale:**
-Alemtuzumab has a mechanistically sound and clinically documented role as a reduced-intensity conditioning agent in allo-HSCT for combined immunodeficiency, with a consistent evidence base across multiple Phase 1/2 trials and multicenter retrospective cohorts in paediatric populations where standard myeloablative conditioning carries unacceptable toxicity. The absence of Phase 3 RCT data reflects disease rarity rather than a fundamental evidence deficiency.
+Alemtuzumab har en mekanistisk rimelig og klinisk dokumenteret rolle som reduceret-intensitet konditioneringsmiddel i allo-HSCT til kombineret immundefekt, med et konsistent evidensgrundlag på tværs af flere fase 1/2 forsøg og multicenters retrospektive kohorter i pædiatriske populationer, hvor standardmyeloablative konditioneringsregimer bærer uacceptabel toksicitet. Fraværet af fase 3 RCT-data afspejler sygdomssjældenhed snarere end et fundamentalt evidensgab.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendig:**
 
-- **Mandatory — blocking**: Retrieve complete SmPC safety data (warnings, contraindications, drug interactions) for Lemtrada/MabCampath from the EMA or Lægemiddelstyrelsen before formal safety evaluation can be completed
-- **High priority**: Obtain mechanism of action documentation from DrugBank (currently missing; affects mechanistic link analysis)
-- **Regulatory**: Apply for individual patient authorisation from Lægemiddelstyrelsen (named-patient basis), as alemtuzumab has no registered indication for immunodeficiency in Denmark
-- **Clinical**: Referral to a specialist paediatric haematology/immunology transplant centre for case-by-case assessment
-- **Precision**: Define the specific combined immunodeficiency subtype (SCID, CGD, XIAP, Hyper-IgM, IPEX, WAS, etc.) as conditioning intensity, donor selection, and risk-benefit profiles differ substantially across subtypes
-- **Safety protocol**: Establish pre-transplant infectious disease risk assessment and full prophylaxis protocol (CMV, EBV, PCP, invasive fungal) prior to conditioning initiation
-- **Monitoring plan**: Post-transplant immune reconstitution monitoring (lymphocyte subsets, donor chimerism) and long-term surveillance for secondary autoimmunity (minimum 48-month follow-up)
+- **Obligatorisk — blokering**: Hent fuldstændig SmPC sikkerhedsdata (advarsler, kontraindikationer, lægemiddelinteraktioner) til Lemtrada/MabCampath fra EMA eller Lægemiddelstyrelsen før formel sikkerhedsevaluering kan gennemføres
+- **Høj prioritet**: Få mekanisme-af-handling dokumentation fra DrugBank (i øjeblikket manglende; påvirker mekanistisk linkanalyse)
+- **Regulering**: Ansøg om individuel patientgodkendelse fra Lægemiddelstyrelsen (navneopgivet patientbasis), da alemtuzumab ikke har registreret indikation til immundefekt i Danmark
+- **Klinisk**: Henvisning til specialiseret pædiatrisk hæmatologi/immunologi transplantationscenter for sag-for-sag evaluering
+- **Præcision**: Definer den specifikke kombineret immundefekt-subtype (SCID, CGD, XIAP, Hyper-IgM, IPEX, WAS osv.) da konditioneringsintensitet, donorvalg og risiko-benefit-profiler adskiller sig væsentligt på tværs af subtyper
+- **Sikkerhedsprotokol**: Etabler pre-transplantations infektious sygdomsrisikoevaluering og fuldstændig profylakseprotokol (CMV, EBV, PCP, invasive svampe) før konditionering initieres
+- **Overvågningsplan**: Post-transplantations immunrekonstitution overvågning (lymfocytundergrupper, donorchimerisme) og langsigtete overvågning for sekundær autoimmunitet (minimum 48-måneders opfølgning)
 
-> **Note on hepatic infarction (TxGNN rank 1, score 94.44%)**: Although this indication received the numerically highest prediction score, it carries no clinical trial or literature support (Evidence Level L5). The high score likely reflects indirect topological connectivity in the knowledge graph (shared transplant complication nodes) rather than a direct causal pharmacological pathway. There is no known biological bridge between CD52-targeted lymphocyte depletion and vascular occlusive hepatic disease. **Recommendation: Hold** — no further evaluation warranted without new mechanistic evidence.
+> **Bemærk vedr. hepatisk infarkt (TxGNN rank 1, score 94,44%)**: Selvom denne indikation modtog den numerisk højeste forudsigelsesscore, har den ingen klinisk trial eller litteraturstøtte (Evidensniveau L5). Den høje score afspejler sandsynligvis indirekte topologisk forbindelse i vidensgrafen (delte transplantations-komplikationsnoder) snarere end en direkte årsagsfarmakologisk vej. Der er ingen kendt biologisk bro mellem CD52-målrettet lymfocyttnedsæt og vaskulær oklusive hepatisk sygdom. **Anbefaling: Hold** — ingen yderligere evaluering garanteret uden nye mekanistiske bevis.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,98 +29,99 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Denosumab: From Osteoporosis to Severe Nonproliferative Diabetic Retinopathy
+# Denosumab: Fra Osteoporose til Alvorlig Nonproliferativ Diabetisk Retinopati
 
-## One-Sentence Summary
+## Sammenfatning i én Sætning
 
-Denosumab is a fully human monoclonal antibody targeting RANKL (Receptor Activator of Nuclear Factor Kappa-B Ligand), approved internationally for osteoporosis and cancer-related bone disease.
-The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**, and more broadly for **Diabetic Retinopathy**, with a prediction score of **99.63%**.
-At present, there are no clinical trials directly investigating this new indication; however, **1 indirectly relevant completed Phase 3 trial** and **2 publications** provide preliminary biological context for the broader diabetic retinopathy hypothesis.
+Denosumab er et fuldt humant monoclonal antistof mod RANKL (Receptor Activator of Nuclear Factor Kappa-B Ligand), godkendt internationalt til osteoporose og knoglebetinget sygdom hos kræftpatienter.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Alvorlig Nonproliferativ Diabetisk Retinopati**, og mere bredt for **Diabetisk Retinopati**, med en forudsigelsesscore på **99.63%**.
+I øjeblikket er der ingen kliniske forsøg, der direkte undersøger denne nye indikation; dog giver **1 indirekte relevant afsluttet Phase 3-forsøg** og **2 publikationer** foreløbig biologisk kontekst for den bredere diabetisk retinopati-hypotese.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Osteoporosis; bone loss associated with hormone-deprivation therapy (internationally approved) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (severe NPDR, no direct studies) / L4 (broader diabetic retinopathy, indirect studies) |
-| Denmark Market Status | Not marketed (no licences registered in the current Danish dataset) |
-| Number of Marketing Authorisations | 0 (dataset) |
-| Recommended Decision | Hold |
+| Oprindelig Indikation | Osteoporose; knogletab forbundet med hormonderivationsbehandling (internationalt godkendt) |
+| Forudsagt Ny Indikation | Alvorlig Nonproliferativ Diabetisk Retinopati |
+| TxGNN Forudsigelsesscore | 99.63% |
+| Evidensniveau | L5 (alvorlig NPDR, ingen direkte studier) / L4 (bredere diabetisk retinopati, indirekte studier) |
+| Markedsstatus Danmark | Ikke markedsført (ingen licenser registreret i det aktuelle danske datasæt) |
+| Antal Markedsføringstilladelser | 0 (datasæt) |
+| Anbefalet Beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor Er Denne Forudsigelse Rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, denosumab is a fully human IgG2 monoclonal antibody that binds and neutralises RANKL — a key cytokine driving osteoclast formation, function, and survival. Its established efficacy in osteoporosis and cancer-related bone disease is well-documented globally. Critically, the RANKL/RANK/OPG axis is not confined to bone: functional expression has been described in retinal pigment epithelium (RPE) cells and retinal vascular pericytes, which forms the biological starting point for this repurposing hypothesis.
+I øjeblikket er detaljerede mekanisme-for-handling-data ikke tilgængelige i denne bevispace. Baseret på kendt information er denosumab et fuldt humant IgG2 monoclonal antistof, der binder og neutraliserer RANKL — en vigtig cytokin, der driver osteoklastdannelse, funktion og overlevelse. Dets etablerede effektivitet ved osteoporose og knoglebetinget sygdom hos kræftpatienter er veldokumenteret globalt. Kritisk set er RANKL/RANK/OPG-aksen ikke begrænset til knogle: funktionel ekspression er beskrevet i retinalt pigmentepitel (RPE)-celler og retinale vaskulære perisytter, hvilket udgør det biologiske udgangspunkt for denne repurposing-hypotese.
 
-The proposed mechanistic bridge to diabetic retinopathy operates on multiple levels. RANKL blockade may suppress NF-κB signalling in retinal vascular endothelial cells, reducing the expression of adhesion molecules (ICAM-1, VCAM-1) and pro-inflammatory mediators (TNF-α, IL-6) — thereby limiting leucocyte adhesion and vascular leakage, which are hallmarks of early diabetic retinopathy. In addition, real-world cohort data (PMID 38899553) suggest that denosumab is associated with a lower incidence of type 2 diabetes and improved microvascular outcomes compared with bisphosphonates, hinting at a systemic metabolic benefit through improved insulin sensitivity. Reducing vascular calcification — another downstream effect of RANKL inhibition — may further improve retinal microcirculatory perfusion.
+Den foreslåede mekanistiske bro til diabetisk retinopati fungerer på flere niveauer. RANKL-blokade kan undertrykke NF-κB-signalering i retinale vaskulære endotelceller, hvilket reducerer ekspressionen af adhæsionsmolekyler (ICAM-1, VCAM-1) og pro-inflammatoriske mediatorer (TNF-α, IL-6) — således begrænses leukocyt-adhæsion og vaskulær lækkage, som er kendetegn på tidlig diabetisk retinopati. Desuden antyder real-world kohortdata (PMID 38899553), at denosumab er forbundet med lavere incidens af type 2-diabetes og forbedrede mikrovaskulære resultater sammenlignet med bisfosfonnater, hvilket antyder en systemisk metabolisk fordel gennem forbedret insulinfølsomhed. Reduktion af vaskulær kalcificering — en anden nedstrøms-effekt af RANKL-inhibering — kan yderligere forbedre retinal mikrovaskulær perfusion.
 
-It must be emphasised clearly that all of the above mechanistic links remain theoretical or indirect. No cell-based study, animal model, or dedicated clinical trial has directly tested denosumab in diabetic retinopathy. The TxGNN prediction is a knowledge-graph neural-network inference and should be treated strictly as a hypothesis-generating signal.
+Det skal understreges klart, at alle ovennævnte mekanistiske forbindelser forbliver teoretiske eller indirekte. Ingen cellulær-baseret undersøgelse, dyremodel eller dedikeret klinisk forsøg har direkte testet denosumab ved diabetisk retinopati. TxGNN-forudsigelsen er en slutning fra en vidensgraf-baseret neural-netværks-model og bør strengt behandles som et hypotese-generende signal.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra Kliniske Forsøg
 
-No clinical trials directly investigating denosumab for severe nonproliferative diabetic retinopathy were identified. The following trial was retrieved for the broader indication of **Diabetic Retinopathy** and is considered indirectly relevant.
+Ingen kliniske forsøg, der direkte undersøger denosumab for alvorlig nonproliferativ diabetisk retinopati, blev identificeret. Følgende forsøg blev hentet til den bredere indikation af **Diabetisk Retinopati** og betragtes som indirekte relevant.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige Resultater |
 |-------------|-------|--------|------------|--------------|
-| [NCT00925600](https://clinicaltrials.gov/study/NCT00925600) | Phase 3 | Completed | 769 | Randomised, double-blind, placebo-controlled study evaluating new or worsening lens opacifications (cataracts) in men with non-metastatic prostate cancer receiving denosumab for androgen-deprivation therapy-related bone loss. Primary endpoint was ocular safety — not diabetic retinopathy efficacy. Value for this indication: (a) confirms acceptable ocular safety profile of denosumab; (b) any diabetic subgroup within the dataset may permit exploratory analysis of retinopathy outcomes. Direct relevance is low. |
+| [NCT00925600](https://clinicaltrials.gov/study/NCT00925600) | Phase 3 | Afsluttet | 769 | Randomiseret, dobbelt-blind, placebo-kontrolleret studie, der evaluerede nye eller forværrende linsemal (katarakt) hos mænd med ikke-metastatisk prostatakræft, som modtager denosumab for androgenderivations-terapirelateret knogletab. Primært endepunkt var okular sikkerhed — ikke diabetisk retinopati-effektivitet. Værdi for denne indikation: (a) bekræfter acceptabel okular sikkerhedsprofil af denosumab; (b) enhver diabetisk subgruppe inden for datasættet kan tillade eksplorativ analyse af retinopati-resultater. Direkte relevans er lav. |
 
 ---
 
-## Literature Evidence
+## Bevis fra Litteraturen
 
-No publications directly investigating denosumab for severe nonproliferative diabetic retinopathy were identified. The following were retrieved for the broader indication of **Diabetic Retinopathy**.
+Ingen publikationer, der direkte undersøger denosumab for alvorlig nonproliferativ diabetisk retinopati, blev identificeret. Følgende blev hentet til den bredere indikation af **Diabetisk Retinopati**.
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige Resultater |
 |------|------|------|---------|--------------|
-| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observational Cohort / Meta-analysis | Diabetes, Obesity & Metabolism | Real-world cohort analysis with meta-analysis showing denosumab (vs. bisphosphonates) reduced incidence of type 2 diabetes, risk of foot ulceration, and all-cause mortality. Microvascular outcomes — including retinopathy, neuropathy, and nephropathy — were explicitly assessed, providing indirect support for a protective effect of RANKL inhibition on diabetic microvascular complications. |
-| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Cross-sectional / Review | Cureus | Evaluated the FRAX fracture-risk tool in patients with type 2 diabetes, documenting rates of anti-osteoporotic therapy (including denosumab) in high-fracture-risk diabetic patients. Provides epidemiological context linking T2DM, bone fragility, and anti-resorptive treatment — relevant background for understanding the target patient population. |
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observationskohortetudie / Metaanalyse | Diabetes, Obesity & Metabolism | Real-world kohortanalyse med metaanalyse, der viser, at denosumab (vs. bisfosfonnater) reducerede incidens af type 2-diabetes, risiko for fodsår og mortalitet af alle årsager. Mikrovaskulære resultater — herunder retinopati, neuropati og nefropati — blev eksplicit vurderet, hvilket giver indirekte støtte til en beskyttende effekt af RANKL-inhibering på diabetiske mikrovaskulære komplikationer. |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Tværsnitstudie / Litteraturovesigt | Cureus | Evaluerede FRAX-frakturrisikoværktøjet hos patienter med type 2-diabetes, idet dokumenterede frekvenser af anti-osteoporotisk terapi (herunder denosumab) hos høj-frakturrisko-diabetiske patienter. Giver epidemiologisk kontekst, der forbinder T2DM, knogleskørhed og anti-resorptiv behandling — relevant baggrund for forståelse af målpatientpopulationen. |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation Danmark
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringform | Godkendt Indikation |
 |-------------------------------|--------------|-------------|---------------------|
-| — | — | — | No marketing authorisations registered in the current Danish dataset. |
+| — | — | — | Ingen markedsføringstilladelser registreret i det aktuelle danske datasæt. |
 
-> **Important note for Danish healthcare professionals:** Denosumab holds centralised European Medicines Agency (EMA) authorisations under the brand names **Prolia®** (osteoporosis) and **Xgeva®** (bone metastases / giant cell tumour). The absence of records in this dataset likely reflects a data gap rather than true non-availability in Denmark. Current authorisation status should be verified directly via the **Lægemiddelstyrelsen** product database or the [EMA medicines portal](https://www.ema.europa.eu/en/medicines).
-
----
-
-## Safety Considerations
-
-Detailed SmPC warnings, contraindications, and drug interaction data are not available in this evidence pack.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Prolia® and Xgeva® — available via Lægemiddelstyrelsen or the EMA — for complete safety information. Key areas to review include: hypocalcaemia risk, osteonecrosis of the jaw, atypical femoral fractures, and immunogenicity.
+> **Vigtig bemærkning for danske sundhedsprofessionelle:** Denosumab har centraliserede European Medicines Agency (EMA)-tilladelser under varemærkerne **Prolia®** (osteoporose) og **Xgeva®** (knoglemetastaser / gigantcelletumor). Fraværet af poster i dette datasæt afspejler sandsynligvis et datagab snarere end sand ikke-tilgængelighed i Danmark. Den aktuelle tilladelsesnorm bør verificeres direkte via **Lægemiddelstyrelsens** produktdatabase eller [EMA medicindatabasen](https://www.ema.europa.eu/en/medicines).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Detaljerede SmPC-advarsler, kontraindikationer og lægemiddelinteraktionsdata er ikke tilgængelige i denne bevispace.
 
-**Rationale:**
-Although the TxGNN model assigns a high prediction score (99.63%) and a biologically plausible — if entirely theoretical — mechanistic rationale exists, there are no dedicated preclinical or clinical studies directly supporting denosumab use in severe nonproliferative diabetic retinopathy. Available indirect evidence is insufficient to justify progressing to a clinical programme at this stage.
-
-**To proceed, the following is needed:**
-
-- **Preclinical validation:** In vitro studies in retinal vascular endothelial cells and pericytes; streptozotocin-induced diabetic retinopathy animal models to test RANKL blockade effects on retinal vasculature
-- **Retrospective data mining:** Extract diabetic retinopathy endpoints from existing large denosumab osteoporosis trials (e.g., the FREEDOM study and its extension) to obtain hypothesis-confirming signals
-- **MOA confirmation:** Formal RANKL/RANK/OPG expression profiling in diabetic human retinal tissue
-- **Pharmacokinetic assessment:** Evaluate blood-retinal barrier penetration following subcutaneous denosumab administration
-- **Full safety review:** Obtain complete SmPC from Lægemiddelstyrelsen / EMA and assess risk-benefit for a diabetic patient population, particularly hypocalcaemia and immunosuppression risks
-- **If preclinical data are positive:** Design a Phase 1/2 exploratory trial in patients with moderate-to-severe nonproliferative diabetic retinopathy
+Se venligst Produktinformationsbilangen (SmPC) for Prolia® og Xgeva® — tilgængelig via Lægemiddelstyrelsen eller EMA — for fuldstændig sikkerhedsinformation. Vigtige områder at gennemgå omfatter: hypocalcæmi-risiko, osteonekrose af kjæben, atypiske lårbensfrakturer og immunogenicitet.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application.*
+## Konklusion og Næste Trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Selvom TxGNN-modellen tildeler en høj forudsigelsesscore (99.63%) og en biologisk plausibel — hvis helt teoretisk — mekanistisk begrundelse eksisterer, er der ingen dedikerede prækliniske eller kliniske studier, der direkte understøtter denosumab-brug ved alvorlig nonproliferativ diabetisk retinopati. Tilgængelige indirekte bevis er utilstrækkelige til at retfærdiggøre fremskridt til et klinisk program på dette tidspunkt.
+
+**For at skride til forsøgene, er følgende nødvendig:**
+
+- **Præklinisk validering:** In vitro-studier i retinale vaskulære endotelceller og perisytter; streptozotocin-induceret diabetisk retinopati-dyremodeller til test af RANKL-blokade-effekter på retinal vaskulatur
+- **Retrospektiv data-mining:** Udtræk diabetisk retinopati-endepunkter fra eksisterende store denosumab-osteoporose-forsøg (f.eks. FREEDOM-studiet og dets forlængelse) for at opnå hypotese-bekræftende signaler
+- **MOA-bekræftelse:** Formel RANKL/RANK/OPG-ekspressionsprofilering i diabetisk humant retinalt væv
+- **Farmakokinetisk vurdering:** Evaluer blod-retinal-barriere-gennemtrængning efter subcutan denosumab-administration
+- **Fuldstændig sikkerhedsgennemgang:** Få fuldstændig SmPC fra Lægemiddelstyrelsen / EMA og vurder risiko-fordel for en diabetisk patientpopulation, særligt hypocalcæmi og immunsuppression risici
+- **Hvis prækliniske data er positive:** Design en Phase 1/2 eksplorativ forsøg hos patienter med moderat-til-alvorlig nonproliferativ diabetisk retinopati
+
+---
+
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle repurposing-kandidater kræver klinisk validering før enhver terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

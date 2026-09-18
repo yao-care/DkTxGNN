@@ -29,84 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imiglucerase: From Gaucher Disease to Hurler Syndrome
+# Imigluceras: Fra Gauchers sygdom til Hurlers syndrom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Imiglucerase (DrugBank DB00053) is a recombinant glucocerebrosidase enzyme replacement therapy, internationally established as treatment for Gaucher disease.
-The TxGNN model predicts it may be effective for **Hurler syndrome (MPS I)**, with a very high similarity score but **no supporting clinical trials** and only **2 general background publications**, neither of which studies imiglucerase specifically in Hurler syndrome.
-The drug's own repurposing rationale flags this prediction as a likely **false positive** driven by category-level embedding similarity ("lysosomal storage disease + enzyme replacement therapy") rather than genuine biochemical mechanism overlap.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Gaucher disease (enzyme replacement therapy)¹ |
-| Predicted New Indication | Hurler syndrome (Mucopolysaccharidosis type I) |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L5 (model prediction only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
-¹ The evidence pack's `drug.original_indications` field and `original_moa` field are both empty/data-gap (see DG002). "Gaucher disease" is stated here based on internationally recognized labeling for imiglucerase (Cerezyme), not from data contained in this evidence pack.
+Imiglucerase (DrugBank DB00053) er en rekombinant glukocerebrosidaseerstatningsterapi, internationalt etableret som behandling for Gauchers sygdom.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Hurlers syndrom (MPS I)**, med en meget høj lighedsscore, men **uden understøttende kliniske forsøg** og kun **2 generelle baggrundsudgivelser**, hvoraf ingen specifikt undersøger imiglucerase ved Hurlers syndrom.
+Lægemidlets egen repurposing-begrundelse markerer denne forudsigelse som sandsynligvis en **falsk positiv** drevet af indlejringslighed på kategoriniveau ("lysosomalt lagringssygdom + enzymersatningsterapi") snarere end ægte biokemisk mekanisme-overlap.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this evidence pack (Data Gap DG002). Based on publicly known pharmacology, imiglucerase is a recombinant form of human glucocerebrosidase, used as enzyme replacement therapy (ERT) to break down accumulated glucocerebroside in Gaucher disease.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Gauchers sygdom (enzymersatningsterapi)¹ |
+| Forudsagt ny indikation | Hurlers syndrom (Mucopolysaccharidose type I) |
+| TxGNN-forudsigelsesscore | 99.52% |
+| Bevisniveau | L5 (modelforudsigelse alene) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Afhold |
 
-However, the mechanistic link to Hurler syndrome is weak. Hurler syndrome (severe MPS I) is caused by deficiency of **alpha-L-iduronidase (IDUA)**, leading to accumulation of heparan sulfate and dermatan sulfate — a completely different enzyme and substrate from glucocerebrosidase. A disease-specific ERT (laronidase, Aldurazyme) is already approved for MPS I. The high TxGNN score most likely reflects a shared **class-level embedding pattern** ("lysosomal storage disease" + "enzyme replacement therapy") rather than an actual shared biochemical pathway, and should be treated as a **high-risk false-positive pattern** rather than a genuine repurposing signal.
-
-Supporting literature identified in this evidence pack does not resolve this concern: both publications are general reviews of enzyme replacement therapy across multiple lysosomal storage diseases (mentioning Hurler syndrome only as one example among several), with no data specific to imiglucerase's efficacy in MPS I.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Review/Methodology | Proceedings of the National Academy of Sciences | General overview of PET imaging for monitoring enzyme replacement therapy across lysosomal storage diseases (Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, Pompe); not specific to imiglucerase efficacy in Hurler syndrome |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de médecine interne | General review of enzyme replacement therapy history and development across lysosomal storage diseases, referencing imiglucerase (Cerezyme) in the context of Gaucher disease treatment, not Hurler syndrome specifically |
+¹ Bevispaklens `drug.original_indications`-felt og `original_moa`-felt er begge tomme/datakløft (se DG002). "Gauchers sygdom" er angivet her baseret på internationalt anerkendt mærkning for imiglucerase (Cerezyme), ikke ud fra data indeholdt i denne bevispakke.
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-Imiglucerase currently has **no marketing authorisation** on record in Denmark (`market_status: Not marketed` / Not marketed, `total_licenses: 0`). No Laegemiddelstyrelsen national or EMA centralised authorisation entries were found in this evidence pack.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i denne bevispakke (Datakløft DG002). Baseret på offentligt kendt farmakologi er imiglucerase en rekombinant form af humant glukocerebrosidaseen, brugt som enzymersatningsterapi (ERT) til at nedbryde akkumuleret glukocerebroside i Gauchers sygdom.
 
----
+Forbindelsen til Hurlers syndrom er dog svag. Hurlers syndrom (alvorlig MPS I) er forårsaget af mangel på **alfa-L-iduronidase (IDUA)**, hvilket fører til akkumulering af heparansulfat og dermatansulfat — et helt anderledes enzym og substrat end glukocerebrosidasen. En sygdomsspecifik ERT (laronidase, Aldurazyme) er allerede godkendt for MPS I. Den høje TxGNN-score afspejler sandsynligvis et delt **indlejringsmønster på klasseniveau** ("lysosomalt lagringssygdom" + "enzymersatningsterapi") snarere end en faktisk delt biokemisk vej, og bør behandles som et **højrisiko-falsk-positivt mønster** snarere end et ægte repurposing-signal.
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*(Note: This evidence pack has a Blocking data gap — DG001 — for label warnings/contraindications, meaning safety review (S1 stage) cannot proceed until this data is obtained.)*
+Understøttende litteratur identificeret i denne bevispakke løser ikke denne bekymring: begge publikationer er generelle oversigter over enzymersatningsterapi på tværs af flere lysosomale lagringssygdomme (nævner Hurlers syndrom kun som et eksempel blandt flere), uden data specifikt for imigluceras' effektivitet i MPS I.
 
 ---
 
-## Conclusion and Next Steps
+## Evidens fra kliniske forsøg
 
-**Decision: Hold**
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-**Rationale:**
-The TxGNN score is high, but the drug's own repurposing rationale identifies this as a likely embedding-level false positive: imiglucerase's target enzyme (glucocerebrosidase) is mechanistically unrelated to the alpha-L-iduronidase deficiency underlying Hurler syndrome, for which a disease-specific ERT (laronidase) is already approved. There are no clinical trials and no disease-specific literature supporting imiglucerase for this indication, and the drug is not currently marketed in Denmark. Evidence level is L5 (model prediction only) and does not support progression past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Original mechanism of action (MOA) data for imiglucerase (Data Gap DG002)
-- Danish/EU label warnings and contraindications (Data Gap DG001 — Blocking; required before any S1 safety screening)
-- Confirmation of original approved indication(s) from a structured regulatory source
-- Any preclinical or mechanistic studies directly testing glucocerebrosidase-based ERT in MPS I models, to either substantiate or rule out the predicted signal
-- Given that a specific approved therapy (laronidase) already exists for Hurler syndrome, a clear clinical rationale for why imiglucerase repurposing would offer added value
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|---------|
+| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Oversigt/Metode | Proceedings of the National Academy of Sciences | Generel oversigt over PET-billeddannelse til overvågning af enzymersatningsterapi på tværs af lysosomale lagringssygdomme (Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, Pompe); ikke specifik for imigluceras' effektivitet ved Hurlers syndrom |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Oversigt | La Revue de médecine interne | Generel oversigt over enzymersatningsterapi-historie og udvikling på tværs af lysosomale lagringssygdomme, refererer imigluceras (Cerezyme) i sammenhæng med Gauchers sygdom behandling, ikke Hurlers syndrom specifikt |
+
+---
+
+## Markedsinformation for Danmark
+
+Imiglucerase har i øjeblikket **ingen markedsføringsgodkendelse** på rekord i Danmark (`market_status: Not marketed` / Ikke markedsført, `total_licenses: 0`). Der blev ikke fundet nogen Laegemiddelstyrelsen national eller EMA centraliseret godkendelsesposter i denne bevispakke.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte sammenfatning af produktegenskaber (SmPC) for sikkerhedsinformation.
+
+*(Bemærk: Denne bevispakke har en blokerende datakløft — DG001 — for etiketadvarsler/kontraindikationer, hvilket betyder sikkerhedsgennemgang (S1-stadie) ikke kan fortsætte, før disse data er indhentet.)*
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afhold**
+
+**Begrundelse:**
+TxGNN-scoren er høj, men lægemidlets egen repurposing-begrundelse identificerer dette som sandsynligvis en indlejringsniveau falsk positiv: imigluceras' målenzym (glukocerebrosidasen) er mekanistisk uafhængig af alfa-L-iduronidase-mangelen, der ligger til grund for Hurlers syndrom, for hvilket en sygdomsspecifik ERT (laronidase) allerede er godkendt. Der er ingen kliniske forsøg og ingen sygdomsspecifik litteratur, der understøtter imiglucerase for denne indikation, og lægemidlet er ikke i øjeblikket markedsført i Danmark. Bevisniveauet er L5 (modelforudsigelse alene) og understøtter ikke progression forbi initial screening.
+
+**For at fortsætte skal følgende være nødvendigt:**
+- Oprindelige virkningsmekanisme-data (MOA) for imiglucerase (Datakløft DG002)
+- Danmarks/EU-etiket advarsler og kontraindikationer (Datakløft DG001 — Blokering; påkrævet før nogen S1 sikkerhedsgennemgang)
+- Bekræftelse af oprindeligt godkendt indikation(er) fra en struktureret regulatorisk kilde
+- Enhver preklinisk eller mekanistisk undersøgelse, der direkte tester glukocerebrosidasbaseret ERT i MPS I-modeller, enten at underbygge eller udelukke det forudsagte signal
+- En klar klinisk begrundelse for, hvorfor imiglucerase-repurposing ville tilbyde tilføjet værdi, i betragtning af at en specifik godkendt terapi (laronidase) allerede eksisterer for Hurlers syndrom
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,93 +29,94 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Entrectinib: From NTRK Fusion-Positive Solid Tumours to Multiple Endocrine Neoplasia
+# Entrectinib: Fra NTRK Fusionspositive Solide Tumorer til Multiple Endokrin Neoplasi
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Entrectinib (Rozlytrek) is a CNS-active multikinase inhibitor approved for NTRK fusion-positive solid tumours and ROS1-positive non-small cell lung cancer, working by blocking aberrant receptor tyrosine kinase signalling that drives tumour growth and survival.
-The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia (MEN)**, with **2 clinical trials** and **1 publication** currently providing indirect supporting evidence for this direction.
-The mechanistic link is plausible but remains unvalidated, and further biomarker-driven research is needed before clinical translation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | NTRK fusion-positive solid tumours (tissue-agnostic); ROS1-positive non-small cell lung cancer (based on known regulatory approvals; field empty in data source) |
-| Predicted New Indication | Multiple Endocrine Neoplasia (MEN) |
-| TxGNN Prediction Score | 98.58% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed (no national marketing authorisation registered) |
-| Number of Marketing Authorisations | 0 national authorisations on record — note: EMA centralised authorisation (Rozlytrek, EU/1/20/1467) is valid across the EEA including Denmark |
-| Recommended Decision | Hold |
+Entrectinib (Rozlytrek) er en CNS-aktiv multikinase-hemmer godkendt til NTRK fusionspositive solide tumorer og ROS1-positive non-småcellet lungekræft, virkende ved at blokere aberrant receptor-tyrosinkinase-signalering som driver tumorvækst og overlevelse.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Multiple Endokrin Neoplasi (MEN)**, med **2 kliniske forsøg** og **1 publikation** der i øjeblikket giver indirekte understøttende beviser for denne retning.
+Den mekanistiske forbindelse er plausibel, men forbliver uvalideret, og yderligere biomarker-drevet forskning er nødvendig før klinisk translation.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Entrectinib is a potent, CNS-penetrant inhibitor of three receptor tyrosine kinase families: TRKA, TRKB, and TRKC (encoded by *NTRK1*, *NTRK2*, and *NTRK3*), ROS1, and ALK. When these kinases carry oncogenic gene fusions, they become constitutively active and drive tumour proliferation via downstream RAS/MAPK, PI3K/AKT, and PLCγ signalling cascades. Entrectinib competitively binds the ATP-binding pocket of these kinases, switching off the oncogenic signal regardless of the tumour's tissue of origin — a tissue-agnostic mechanism.
-
-Multiple Endocrine Neoplasia (MEN) is a group of hereditary syndromes characterised by tumours in multiple endocrine glands. MEN2A and MEN2B are driven by activating mutations in the *RET* proto-oncogene, manifesting primarily as medullary thyroid carcinoma (MTC), phaeochromocytoma, and, in MEN2A, primary hyperparathyroidism. MEN1 arises from loss-of-function mutations in the *MEN1* tumour suppressor, producing parathyroid adenomas, pituitary tumours, and pancreatic neuroendocrine tumours (pNETs). The indirect link to entrectinib rests on two observations: (1) NTRK gene fusions have been identified in a subset of thyroid cancers and neuroendocrine tumours — precisely the tumour types that characterise MEN syndromes; (2) the supporting literature (PMID 38438731) documents a patient with MTC (the hallmark MEN2 cancer) developing off-target resistance to the selective RET inhibitor selpercatinib via alternative oncogenic drivers, raising the hypothesis that NTRK/ROS1 inhibition could potentially address bypass mechanisms in RET-driven endocrine tumours.
-
-It is essential to note that mutant RET — the primary oncogenic driver in MEN2 — is **not** a direct target of entrectinib. The high TxGNN score (98.58%) most likely reflects knowledge-graph co-occurrence patterns linking NTRK/ROS1 inhibitors to endocrine tumour biology rather than a directly validated mechanism. The prediction should therefore be treated as hypothesis-generating and interpreted with caution, pending dedicated mechanistic and clinical validation.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | NTRK fusionspositive solide tumorer (vævsuafhængig); ROS1-positive non-småcellet lungekræft (baseret på kendt regulatoriske godkendelser; felt tomt i datakilden) |
+| Forudsagt ny indikation | Multiple Endokrin Neoplasi (MEN) |
+| TxGNN-forudsigelsesscore | 98.58% |
+| Bevisniveau | L4 |
+| Danmarks markedsstatus | Ikke markedsført (ingen national markedsføringstilladelse registreret) |
+| Antal markedsføringstilladelser | 0 nationale tilladelser i arkivet — bemærk: EMA centraliseret tilladelse (Rozlytrek, EU/1/20/1467) er gyldig på tværs af EØS inklusive Danmark |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Entrectinib er en potent, CNS-penetrant hemmer af tre receptor-tyrosinkinase-familier: TRKA, TRKB og TRKC (kodet af *NTRK1*, *NTRK2* og *NTRK3*), ROS1 og ALK. Når disse kinaser bærer onkogene genfusioner, bliver de konstitutivt aktive og driver tumorproliferation via downstream RAS/MAPK, PI3K/AKT og PLCγ signalveje. Entrectinib konkurrerer om binding til ATP-bindingslommen på disse kinaser, hvilket slukker det onkogene signal uanset tumorens vævsoprindelse — en vævsuafhængig mekanisme.
+
+Multiple Endokrin Neoplasi (MEN) er en gruppe af arvelige syndromer karakteriseret ved tumorer i flere endokrine kirtler. MEN2A og MEN2B drives af aktiverende mutationer i *RET* proto-onkogenet, manifesterende sig primært som medullært thyroideakarcinom (MTC), fæokromocytom og, i MEN2A, primær hyperparathyroidisme. MEN1 opstår fra tab-af-funktion-mutationer i *MEN1* tumorsupresor, producerende parathyreoid-adenomer, hypofyse-tumorer og pancreatico-neuroendokrine tumorer (pNETs). Den indirekte forbindelse til entrectinib hviler på to observationer: (1) NTRK-genfusioner er blevet identificeret i en delmængde af thyroideakræft og neuroendokrine tumorer — præcis de tumortyper som karakteriserer MEN-syndromerne; (2) den understøttende litteratur (PMID 38438731) dokumenterer en patient med MTC (den karakteristiske MEN2-cancer) som udvikler off-target-resistens over for den selektive RET-hemmer selpercatinib via alternative onkogene drivere, hvilket rejser hypotesen om at NTRK/ROS1-inhibering potentielt kunne adressere bypass-mekanismer i RET-drevne endokrine tumorer.
+
+Det er vigtigt at bemærke, at mutant RET — den primære onkogene driver i MEN2 — **ikke** er et direkte mål for entrectinib. Den høje TxGNN-score (98.58%) afspejler mest sandsynligt knowledge-graph co-occurrence mønstre som linker NTRK/ROS1-hemmere til endokrin tumorbiologi snarere end en direkte valideret mekanisme. Forudsigelsen bør derfor behandles som hypotese-genererende og tolkes med forsigtighed, afventende dedikeret mekanistisk og klinisk validering.
+
+---
+
+## Klinisk forsøgsbeviser
+
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtigste fund |
 |---------|------|------|------|---------|
-| [NCT04551495](https://clinicaltrials.gov/study/NCT04551495) | Phase 2 | Active, not recruiting | 65 | Neoadjuvant ROS1 inhibition (entrectinib) combined with endocrine therapy in invasive lobular breast carcinoma (ILBC) harbouring CDH1 loss. Based on a preclinical finding that ROS1 is a synthetic lethal partner of CDH1 inactivation. Not MEN-specific, but validates the principle of entrectinib activity in an endocrine-sensitive, hormone receptor-positive tumour context. |
-| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | Basket trial (SMMART PRIME) testing personalised drug combinations guided by individual tumour molecular profiling to overcome drug resistance. Terminated early due to poor accrual. No MEN-specific data available and no efficacy conclusions can be drawn. |
+| [NCT04551495](https://clinicaltrials.gov/study/NCT04551495) | Fase 2 | Aktiv, ikke rekrutterende | 65 | Neoadjuvant ROS1-inhibering (entrectinib) kombineret med endokrin terapi ved invasivt lobulært brystkræft (ILBC) med CDH1-tab. Baseret på et præklinisk fund at ROS1 er en syntetisk letal partner af CDH1-inaktivering. Ikke MEN-specifik, men validerer princippet om entrectinib-aktivitet i en endokrin-sensitiv, hormonreceptor-positiv tumor-kontekst. |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Fase 1 | Termineret | 2 | Basket-forsøg (SMMART PRIME) testende personaliserede lægemiddelkombinationer guidet af individuel tumor-molekylær profilering til at overvinde lægemiddelresistens. Termineret tidligt på grund af dårlig rekruttering. Ingen MEN-specifikke data tilgængelige og ingen efficacy-konklusioner kan drages. |
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste fund |
 |------|------|------|---------|---------|
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Case Report / Molecular Analysis | NPJ Precision Oncology | Describes adaptive off-target resistance to the selective RET inhibitor selpercatinib in a patient with metastatic medullary thyroid carcinoma (MTC) harbouring a RET D898_E901del activation-loop mutation. Resistance emerged through alternative oncogenic mechanisms rather than secondary RET mutations. Highlights the clinical challenge of alternative pathway bypass in RET-driven MEN2 tumours, and indirectly supports exploring multi-kinase strategies — including NTRK/ROS1 inhibitors such as entrectinib — for treatment-refractory MEN2-associated MTC. |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Kasuistik / Molekylær analyse | NPJ Precision Oncology | Beskriver adaptiv off-target-resistens over for den selektive RET-hemmer selpercatinib hos en patient med metastatisk medullært thyroideakarcinom (MTC) bærende en RET D898_E901del activation-loop-mutation. Resistensen opstod gennem alternative onkogene mekanismer snarere end sekundære RET-mutationer. Fremhæver den kliniske udfordring med alternative pathway bypass i RET-drevne MEN2-tumorer, og understøtter indirekte udforskningen af multi-kinase-strategier — inklusive NTRK/ROS1-hemmere såsom entrectinib — til behandlings-refraktær MEN2-associeret MTC. |
 
 ---
 
-## Cytotoxicity
+## Cytotoxicitet
 
-Entrectinib is an antineoplastic targeted therapy approved for oncological indications (NTRK fusion-positive solid tumours; ROS1-positive NSCLC).
+Entrectinib er en antineoplastisk målrettet terapi godkendt til onkologiske indikationer (NTRK fusionspositive solide tumorer; ROS1-positive NSCLC).
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Multikinase inhibitor (NTRK1/2/3, ROS1, ALK); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low to moderate — anaemia is the most frequently reported haematological adverse event; neutropenia and thrombocytopenia occur but are less common than with conventional cytotoxic chemotherapy |
-| Emetogenicity Classification | Low — nausea is reported but is typically mild to moderate in severity for oral targeted agents of this class |
-| Monitoring Items | Full blood count (CBC with differential), liver function (ALT, AST, total bilirubin), renal function, cardiac monitoring (ECG for QTc prolongation, assessment for congestive heart failure), and neurological assessment (cognitive effects, dizziness, mood changes, and sleep disturbances are class-related CNS effects) |
-| Handling Protection | Standard cytotoxic oral drug handling precautions apply; follow institutional guidelines for preparation, dispensing, and disposal of oral antineoplastic agents |
-
----
-
-## Safety Considerations
-
-Detailed warning statements, contraindications, and drug interaction data are not available in the current evidence pack.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for Rozlytrek (entrectinib) — available via the EMA product page — for complete safety information. Key areas to review include cardiac toxicity (congestive heart failure, QTc prolongation), CNS effects (cognitive impairment, mood disorders, sleep disturbance), hepatotoxicity, embryo-foetal toxicity, and pharmacokinetic interactions with strong CYP3A4 inducers and inhibitors.
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoxicitet-klassifikation | Målrettet terapi — Multikinase-hemmer (NTRK1/2/3, ROS1, ALK); ikke et konventionelt cytotoxisk middel |
+| Myelosuppressionrisiko | Lav til moderat — anæmi er den hyppigst rapporterede hæmatologiske bivirkning; neutropeni og trombocytopeni forekommer men er mindre almindelig end ved konventionel cytotoxisk kemoterapy |
+| Emetogenicitet-klassifikation | Lav — kvalme rapporteres men er typisk mild til moderat i sværhedsgrad for orale målrettede midler af denne klasse |
+| Overvågningspunkter | Fuldt blodtal (CBC med differential), leverfunction (ALT, AST, total bilirubin), nyrefunktion, hjertemonitorering (ECG for QTc-forlængelse, vurdering for kongestiv hjerteinsufficiens) og neurologisk vurdering (kognitive effekter, svimmelhed, humørændringer og søvnforstyrrelser er klasse-relaterede CNS-effekter) |
+| Håndteringsbeskyttelse | Standard cytotoxisk oral lægemiddelhåndtering-forholdsregler gælder; følg institutionelle retningslinjer for klargøring, dispensering og bortskaffelse af orale antineoplastiske midler |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Detaljerede advarselserklæringer, kontraindikationer og lægemiddelinteraktionsdata er ikke tilgængelige i det aktuelle bevismateriell.
 
-**Rationale:**
-Despite a high TxGNN prediction score (98.58%), the available evidence for entrectinib specifically in Multiple Endocrine Neoplasia is indirect and insufficient to support clinical use or a formal repurposing programme at this stage. Neither identified clinical trial is designed for or enrolling MEN patients, the sole literature evidence concerns resistance mechanisms in RET-driven MTC rather than direct NTRK/ROS1-targeted anti-tumour efficacy in MEN, and entrectinib has no registered national marketing authorisation in Denmark for any indication.
+> Se venligst godkendelsessammendraget af produktkarakteristika (SmPC) for Rozlytrek (entrectinib) — tilgængeligt via EMA produktsiden — for komplet sikkerhedsinformation. Vigtige områder at gennemgå omfatter kardiel toksicitet (kongestiv hjerteinsufficiens, QTc-forlængelse), CNS-effekter (kognitiv svækkelse, humørforstyrrelser, søvnforstyrrelser), hepatotoksicitet, embryo-fetal toksicitet og farmakokinetiske interaktioner med stærke CYP3A4-inducere og inhibitorer.
 
-**To proceed, the following is needed:**
+---
 
-- **Biomarker screening**: Systematic molecular profiling of MEN-associated tumour cohorts (MTC, pNETs, phaeochromocytoma) to determine the prevalence of NTRK gene fusions, ROS1 rearrangements, or ALK alterations that would indicate on-target activity of entrectinib
-- **Preclinical validation**: Cell line and patient-derived xenograft studies in MEN tumour models to demonstrate meaningful anti-tumour activity of entrectinib
-- **Dedicated clinical evidence**: Prospective basket trial data or registry-based observational evidence specifically including MEN patients with NTRK/ROS1/ALK-positive tumours
-- **Full safety assessment**: Formal review of the Rozlytrek SmPC, including evaluation of drug interactions relevant to the MEN management context (e.g. concurrent use of somatostatin analogues, proton pump inhibitors, antihypertensives)
-- **Regulatory clarification**: Confirmation of the EMA centralised authorisation status for Rozlytrek in Denmark and assessment of the feasibility of an off-label use programme or expanded indication application via the EMA's Type II variation pathway
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+På trods af en høj TxGNN-forudsigelsesscore (98.58%), er de tilgængelige beviser for entrectinib specifikt ved Multiple Endokrin Neoplasi indirekte og utilstrækkelige til at understøtte klinisk brug eller et formelt repurposing-program på dette tidspunkt. Hverken identificeret klinisk forsøg er designet til eller inkluderer MEN-patienter, det eneste litteraturbevises vedrører resistensmekanismer i RET-drevet MTC snarere end direkte NTRK/ROS1-målrettet anti-tumor-efficacy ved MEN, og entrectinib har ingen registreret national markedsføringstilladelse i Danmark for nogen indikation.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+- **Biomarker-screening**: Systematisk molekylær profilering af MEN-associerede tumor-kohorter (MTC, pNETs, fæokromocytom) til at bestemme prævalensen af NTRK-genfusioner, ROS1-omlokalisering eller ALK-alterationer som ville indikere on-target-aktivitet af entrectinib
+- **Præklinisk validering**: Cell line og patient-derived xenograft-studier i MEN tumor-modeller til at demonstrere meningsfuld anti-tumor-aktivitet af entrectinib
+- **Dedikeret klinisk beviser**: Prospektive basket-forsøgsdata eller registerbaserede observationelle beviser specifikt inklusive MEN-patienter med NTRK/ROS1/ALK-positive tumorer
+- **Komplet sikkerhedsvurdering**: Formaliseret gennemgang af Rozlytrek SmPC, inklusive evaluering af lægemiddelinteraktioner relevante for MEN-behandlingskonteksten (f.eks. samtidig brug af somatostatin-analoger, protonpumpehemmere, antihypertensive midler)
+- **Regulatorisk præcisering**: Bekræftelse af EMA centraliseret tilladelsestatus for Rozlytrek i Danmark og vurdering af gennemførligheden af et off-label-brugsprogram eller udvidet indikationsansøgning via EMA's Type II variation-vej
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,118 +29,119 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dostarlimab: From Cancer Immunotherapy (Anti-PD-1) to Mixed Mineral Dust Pneumoconiosis
+# Dostarlimab: Fra kræftimmunoterapi (anti-PD-1) til blandet mineraldamppneumokoniose
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Dostarlimab is an anti-PD-1 immune checkpoint inhibitor originally developed for the treatment of cancers with mismatch repair deficiency (dMMR/MSI-H), including endometrial cancer.
-The TxGNN model predicts it may be effective for **Mixed Mineral Dust Pneumoconiosis**, however there are **0 clinical trials** and **0 publications** currently supporting this direction.
-The mechanistic rationale for this prediction is considered scientifically implausible and carries clinically relevant safety concerns.
+Dostarlimab er en anti-PD-1-immunokontrolpunkt-inhibitor oprindeligt udviklet til behandling af kancersygdomme med mangelfuld missmatch-reparation (dMMR/MSI-H), herunder endometrialcancer.
+TxGNN-modellen forudsiger, at det kan være effektivt til **blandet mineraldamppneumokoniose**, dog er der i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning.
+Den mekanistiske begrundelse for denne forudsigelse anses for videnskabeligt usandsynlig og medfører klinisk relevante sikkerhedsproblemer.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not registered in regulatory database queried; known globally as anti-PD-1 immunotherapy for dMMR/MSI-H cancers |
-| Predicted New Indication | Mixed Mineral Dust Pneumoconiosis |
-| TxGNN Prediction Score | 50.00% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not found in regulatory database (0 authorisations returned) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | Ikke registreret i den forespurgte regulatorisk database; kendt globalt som anti-PD-1-immunoterapi til dMMR/MSI-H-cancere |
+| Forudsagt ny indikation | Blandet mineraldamppneumokoniose |
+| TxGNN-forudsigelsesscore | 50.00% |
+| Bevisniveau | L5 |
+| Danske markedsstatus | Ikke fundet i regulatorisk database (0 godkendelser returneret) |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | **Sæt på pause** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on the mechanistic rationale embedded in the prediction record and established pharmacological knowledge, Dostarlimab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor. It works by blocking the interaction between PD-1 (Programmed Cell Death Protein 1) on T lymphocytes and its ligands PD-L1/PD-L2 on tumour cells, thereby restoring cytotoxic T cell activity that has been suppressed within the tumour microenvironment. Its proven efficacy is in oncological settings where tumour immune evasion via the PD-1/PD-L1 axis is the central pathological mechanism.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne Bevissamling. Baseret på den mekanistiske begrundelse, der er indlejret i forudsigelsesrekorden, og etableret farmakologisk viden er Dostarlimab et anti-PD-1-monoklonalt antistof-immunokontrolpunkt-inhibitor. Det virker ved at blokere vekselvirkningen mellem PD-1 (Programmed Cell Death Protein 1) på T-lymfocytter og dets ligander PD-L1/PD-L2 på tumorceller, hvorved cytotoksisk T-celleaktivitet, der er blevet undertrykt inden for tumormikromiljøet, genoprettes. Dets påviste virkning er inden for onkologiske områder, hvor tumorimmun-undvigelse via PD-1/PD-L1-aksen er den centrale patologiske mekanisme.
 
-Mixed mineral dust pneumoconiosis is a chronic fibrotic lung disease caused by sustained inhalation of mixed mineral particles (e.g., silica, coal, iron oxides). The pathophysiology involves granulomatous inflammation driven by macrophage activation, progressive fibroblast proliferation, and irreversible pulmonary fibrosis. While PD-L1 upregulation has been observed in fibrotic lung tissue and PD-1-positive T cells have been detected in bronchoalveolar lavage fluid from affected patients, this does not imply a therapeutic opportunity. On the contrary, anti-PD-1 therapy enhances T cell cytotoxic activity in an already inflamed tissue environment, which in the context of pulmonary fibrosis is more likely to **exacerbate** immune-related pneumonitis (irAE: pneumonitis) — a well-documented class effect of checkpoint inhibitors — rather than deliver therapeutic benefit.
+Blandet mineraldamppneumokoniose er en kronisk fibrotisk lungusygdom forårsaget af vedvarende inhalation af blandede mineralpartikler (f.eks. silika, kul, jernoxider). Patofysiologien involverer granulomatøs inflammation drevet af makrofagaktivering, progressiv fibroblastvækst og irreversibel lungefibrose. Selvom PD-L1-oppegulering er blevet observeret i fibrotisk lungevæv, og PD-1-positive T-celler er blevet detekteret i bronchoalveolær lavage-væske fra berørte patienter, indebærer dette ikke en terapeutisk mulighed. Tværtimod øger anti-PD-1-terapi cytotoksisk T-celleaktivitet i et allerede inflammeret vævsmiljø, som i sammenhæng med lungefibrose er mere sandsynligt at **forværre** immunrelateret pneumonitis (irAE: pneumonitis) — en velkendt klasseeffekt af kontrollpunkt-inhibitorer — snarere end at levere terapeutisk fordel.
 
-In summary, the TxGNN model prediction for this indication lacks a coherent mechanistic rationale supporting therapeutic benefit. The known biology of the PD-1/PD-L1 pathway in fibrotic lung disease does not favour this repurposing direction, and the potential for serious respiratory irAE represents an active safety concern. No clinical or preclinical evidence has been identified to challenge this assessment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Kort sagt mangler TxGNN-modelforudsigelsen for denne indikation en sammenhængende mekanistisk begrundelse for terapeutisk fordel. Den kendte biologi af PD-1/PD-L1-stien i fibrotisk lungusygdom favoriserer ikke denne omformålingsretning, og potentialet for alvorlige respiratoriske irAE'er repræsenterer en aktiv sikkerhedsbetænkelighed. Der er ikke identificeret klinisk eller præ-klinisk evidens til at anfægte denne vurdering.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-No marketing authorisations were found in the regulatory database for Dostarlimab. The regulatory data source returned 0 records with market status "not marketed."
-
-> **Note for clinicians:** Dostarlimab (Jemperli®) holds a centralised EMA marketing authorisation (applicable across all EU/EEA member states including Denmark). The absence of records in this dataset likely reflects a data source limitation rather than actual non-availability. Please verify current authorisation status and approved indications directly via the [EMA product page](https://www.ema.europa.eu/) or the Danish Medicines Agency (Lægemiddelstyrelsen) at [laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk/).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Cytotoxicity
+## Litteraturbevis
 
-Dostarlimab is an oncological agent (anti-PD-1 immune checkpoint inhibitor) and is therefore classified within the antineoplastic category.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-| Item | Content |
+---
+
+## Danske markedsoplysninger
+
+Der blev ikke fundet nogen markedsføringsgodkendelser i regulatorisk database for Dostarlimab. Regulatorisk datakilde returnerede 0 poster med markedsstatus "ikke markedsført".
+
+> **Bemærk for klinikere:** Dostarlimab (Jemperli®) har en centraliseret EMA-markedsføringsgodkendelse (gælder for alle EU/EØS-medlemsstater, herunder Danmark). Fraværet af poster i dette datasæt afspejler sandsynligvis en datakildebegrænsning snarere end faktisk ikke-tilgængelighed. Verificer venligst aktuel godkendelsesstatus og godkendte indikationer direkte via [EMA's produktside](https://www.ema.europa.eu/) eller Lægemiddelstyrelsen på [laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk/).
+
+---
+
+## Cytotoksicitet
+
+Dostarlimab er et onkologisk lægemiddel (anti-PD-1-immunokontrolpunkt-inhibitor) og er derfor klassificeret inden for den antineoplastiske kategori.
+
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Immunotherapy — immune checkpoint inhibitor (anti-PD-1 monoclonal antibody); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low (not a cytotoxic myelosuppressant); however, immune-related haematological adverse events (e.g., immune thrombocytopenia, haemolytic anaemia) have been reported as irAEs |
-| Emetogenicity Classification | Minimal (checkpoint inhibitors are not classified as emetogenic agents) |
-| Monitoring Items | Full blood count (CBC), liver function tests (AST, ALT, bilirubin), renal function, thyroid function (TSH, free T4), blood glucose (HbA1c), cortisol — routine irAE monitoring panel |
-| Handling Protection | Standard biological product handling precautions apply; does not require cytotoxic chemotherapy handling precautions (no dedicated closed-system transfer device requirement) |
+| Cytotoksicitetsklassificering | Immunoterapi — immunokontrolpunkt-inhibitor (anti-PD-1-monoklonalt antistof); ikke et konventionelt cytotoksisk lægemiddel |
+| Myelosuppression-risiko | Lav (ikke en cytotoksisk myelosuppressant); dog er immunrelaterede hæmatologiske bivirkninger (f.eks. immun trombocytopeni, hæmolytisk anæmi) blevet rapporteret som irAE'er |
+| Emetogenicitetsklassificering | Minimal (immunokontrolpunkt-inhibitorer er ikke klassificeret som emetogene lægemidler) |
+| Overvågningselementer | Fuldt blodtal (CBC), leverenzymer (AST, ALT, bilirubin), nyrefunktion, skjoldbruskkirtelfunktion (TSH, frit T4), blodglukose (HbA1c), kortisol — rutinepanel til irAE-overvågning |
+| Håndteringsbeskyttelse | Standardiseret håndterings-procedure for biologiske produkter; kræver ikke håndterings-procedure for cytotoksisk kemoterapi (ingen dedikeret lukket-system-overførelsesanordning påkrævet) |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Full prescribing information including warnings, contraindications, and drug interactions was not available in this Evidence Pack.
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Fuldstændig receptinformation, herunder advarsler, kontraindikationer og lægemiddel-interaktioner, var ikke tilgængelig i denne Bevissamling.
 
-> **Known class effect reminder:** Anti-PD-1 checkpoint inhibitors as a class carry risk of immune-related adverse events (irAEs) affecting any organ system. Pneumonitis, colitis, hepatitis, endocrinopathies, nephritis, and dermatitis are among the most clinically significant. In the context of mixed mineral dust pneumoconiosis, pre-existing compromised lung function and fibrosis may substantially increase the risk and severity of checkpoint inhibitor-induced pneumonitis.
-
----
-
-## Summary of All Predicted Indications
-
-All 10 TxGNN-predicted indications for Dostarlimab share the same evidence profile. For reference:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
-|------|----------------------|-------------|----------------|----------|
-| 1 | Mixed mineral dust pneumoconiosis | 50.00% | L5 | Hold |
-| 2 | Rod-cone dystrophy, sensorineural deafness, and Fanconi-type renal dysfunction | 50.00% | L5 | Hold |
-| 3 | MED12-related intellectual disability syndrome | 50.00% | L5 | Hold |
-| 4 | Alpha-gal syndrome | 50.00% | L5 | Hold |
-| 5 | Food protein-induced allergic proctocolitis | 50.00% | L5 | Hold |
-| 6 | Mast cell activation syndrome | 50.00% | L5 | Hold |
-| 7 | Primary mast cell activation syndrome | 50.00% | L5 | Hold |
-| 8 | Secondary mast cell activation syndrome | 50.00% | L5 | Hold |
-| 9 | Food protein-induced enterocolitis syndrome | 50.00% | L5 | Hold |
-| 10 | Tendinopathy | 50.00% | L5 | Hold |
-
-**Pattern observation:** The model has assigned a uniform score of 50.00% across all 10 predictions, suggesting these results may reflect prediction uncertainty at the boundary threshold rather than genuine signal. All predicted indications are mechanistically inconsistent with the PD-1/PD-L1 checkpoint inhibitor class: five involve allergic/mast cell pathways where anti-PD-1 could theoretically **worsen** disease; three involve rare genetic/developmental syndromes with no immunological intervention rationale; one involves occupational lung fibrosis where irAE risk is heightened; and one involves tendinopathy with highly uncertain directionality. None warrant further investigation at this time.
+> **Påmindelse om klasseeffekt:** Anti-PD-1-kontrollpunkt-inhibitorer som klasse medfører risiko for immunrelaterede bivirkninger (irAE'er), der kan påvirke ethvert organsystem. Pneumonitis, colitis, hepatitis, endokrinopathier, nefritis og dermatitis er blandt de mest klinisk betydningsfulde. I sammenhæng med blandet mineraldamppneumokoniose kan forudselvirkende kompromitteret lungefunktion og fibrose væsentligt øge risiko og alvorlighed af kontrollpunkt-inhibitor-induceret pneumonitis.
 
 ---
 
-## Conclusion and Next Steps
+## Sammenfatning af alle forudsagte indikationer
 
-**Decision: Hold**
+Alle 10 TxGNN-forudsagte indikationer for Dostarlimab deler det samme evidensprofil. Til reference:
 
-**Rationale:**
-All 10 TxGNN-predicted indications are rated L5 (model prediction only, no supporting studies), with a uniform borderline score of 50.00% that likely reflects prediction uncertainty rather than a true repurposing signal. More critically, mechanistic analysis of the top-ranked indication (mixed mineral dust pneumoconiosis) and the broader predicted indication list reveals that anti-PD-1 therapy is either irrelevant to or potentially harmful in these disease contexts. This represents one of the least clinically actionable Evidence Pack profiles encountered.
+| Rang | Forudsagt indikation | TxGNN-score | Bevisniveau | Beslutning |
+|------|---------------------|-------------|-------------|-----------|
+| 1 | Blandet mineraldamppneumokoniose | 50.00% | L5 | Sæt på pause |
+| 2 | Stang-keglesdystrofi, sensorineural døvhed og Fanconi-type nyrefunktionsfejl | 50.00% | L5 | Sæt på pause |
+| 3 | MED12-relateret intellektuel handicap-syndrom | 50.00% | L5 | Sæt på pause |
+| 4 | Alfa-gal-syndrom | 50.00% | L5 | Sæt på pause |
+| 5 | Fødevareprotein-induceret allergisk proktokolitit | 50.00% | L5 | Sæt på pause |
+| 6 | Mastcelle-aktiveringssyndrom | 50.00% | L5 | Sæt på pause |
+| 7 | Primært mastcelle-aktiveringssyndrom | 50.00% | L5 | Sæt på pause |
+| 8 | Sekundært mastcelle-aktiveringssyndrom | 50.00% | L5 | Sæt på pause |
+| 9 | Fødevareprotein-induceret enterokolitissyndrom | 50.00% | L5 | Sæt på pause |
+| 10 | Tendinopati | 50.00% | L5 | Sæt på pause |
 
-**To proceed with any further evaluation, the following would be required:**
+**Mønsterobservation:** Modellen har tildelt en ensartet score på 50.00% på tværs af alle 10 forudsigelser, hvilket antyder, at disse resultater kan afspejle forudsigelsesusikkerhed ved grænsegrænsen snarere end ægte signal. Alle forudsagte indikationer er mekanistisk uoverensstemmende med PD-1/PD-L1-kontrollpunkt-inhibitor-klassen: fem involverer allergiske/mastcelle-veje, hvor anti-PD-1 teoretisk kunne **forværre** sygdommen; tre involverer sjældne genetiske/udviklings-syndromer uden immunologisk interventionsbegrundelse; en involverer erhvervsbetinget lungefibrose, hvor irAE-risiko er øget; og en involverer tendinopati med høj usikkerhed omkring retningsbestemthed. Ingen berettiger til yderligere undersøgelse på nuværende tidspunkt.
 
-- **Mechanism of action data (MOA):** Retrieve from DrugBank API (DB15627) to confirm target, binding mechanism, and downstream pathway effects
-- **Regulatory data correction:** Reconcile the discrepancy between the 0-licence database result and the known EMA centralised authorisation status; retrieve the Jemperli® SmPC for current approved indications and complete safety information
-- **Re-evaluation of prediction validity:** Investigate why TxGNN assigned uniform 50.00% scores to all 10 indications — this pattern may indicate a model confidence floor or a mapping error in the knowledge graph for this drug node
-- **Alternative indication search:** If repurposing exploration for Dostarlimab is desired, focus should be directed at well-established clinical areas where PD-1 checkpoint inhibition has biological rationale (e.g., dMMR/MSI-H solid tumours beyond currently approved indications, TMB-high cancers, or specific autoimmune-associated malignancies)
+---
 
-> **Research use only.** This report is intended for research purposes and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.
+## Konklusion og næste trin
+
+**Beslutning: Sæt på pause**
+
+**Begrundelse:**
+Alle 10 TxGNN-forudsagte indikationer er vurderet L5 (kun modelforudsigelse, ingen understøttende studier), med en ensartet grænsescore på 50.00%, som sandsynligvis afspejler forudsigelsesusikkerhed snarere end et ægte omformålssignal. Endnu vigtigere afslører mekanistisk analyse af den højest rangerede indikation (blandet mineraldamppneumokoniose) og den bredere forudsagte indikationsliste, at anti-PD-1-terapi er enten irrelevant til eller potentielt skadelig i disse sygdomskontekster. Dette repræsenterer en af de mindst klinisk handlingsdygtige Bevissamlings-profiler, der er stødt på.
+
+**For at fortsætte med yderligere evaluering ville følgende være påkrævet:**
+
+- **Virkningsmekanisme-data (MOA):** Hent fra DrugBank API (DB15627) for at bekræfte mål, bindingsmekanisme og nedstrøms-vejeffekter
+- **Regulatorisk data-rettelse:** Afklaring af uoverensstemmelsen mellem 0-licens-databaseresultatet og den kendte EMA-centraliserede godkendelse; hent Jemperli® SmPC for aktuelt godkendte indikationer og fuldstændig sikkerhedsinformation
+- **Revurdering af forudsigelsesgyldighed:** Undersøg, hvorfor TxGNN tildelte ensartede 50.00%-scorer til alle 10 indikationer — dette mønster kan indikere en modelkonfidensgrænse eller en kortlægningsfejl i vidensgrafens lægemiddel-knude
+- **Alternativ indikationssøgning:** Hvis omformålingsudforskning for Dostarlimab er ønsket, bør fokus være rettet mod veletablerede kliniske områder, hvor PD-1-kontrollpunkt-inhibition har biologisk begrundelse (f.eks. dMMR/MSI-H solide tumorer ud over aktuelt godkendte indikationer, TMB-høje cancere, eller specifikke autoimmun-associerede maligniteter)
+
+> **Kun til forskningsformål.** Denne rapport er beregnet til forskningsformål og udgør ikke medicinsk rådgivning. Alle lægemiddelaomformålskandidater kræver klinisk validering før nogen terapeutisk anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

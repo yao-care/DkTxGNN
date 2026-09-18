@@ -29,64 +29,63 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+# Valsartan: Fra hypertension til malign hypertensiv nyresigidom
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Valsartan is an angiotensin II receptor blocker (ARB) originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
-with a prediction score of **99.97%**, but currently only **1 indirect publication** supports this direction — no clinical trials have been identified.
+Valsartan er en angiotensin II-receptorbloker (ARB), oprindeligt brugt til behandling af hypertension. TxGNN-modellen forudsiger, at det kan være effektivt for **malign hypertensiv nyresigidom**, med en forudsigelsesscore på **99.97%**, men i øjeblikket understøtter kun **1 indirekte publikation** denne retning — ingen kliniske forsøg er identificeret.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Kategori | Indhold |
 |------|------|
-| Original Indication | Hypertension (ARB class); specific licensed indication text not available in this evidence pack |
-| Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed (per evidence pack) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Hypertension (ARB-klasse); specifik godkendt indikationstekst ikke tilgængelig i dette evidenspakke |
+| Forudsagt ny indikation | Malign hypertensiv nyresigidom |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Evidensniveau | L4 |
+| Markedsstatus Danmark | Ikke markedsført (ifølge evidenspakke) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for this evidence pack is flagged as a data gap. Based on known pharmacology, valsartan is an angiotensin II type 1 (AT1) receptor blocker used to treat hypertension; mechanistically, RAAS (renin-angiotensin-aldosterone system) blockade could plausibly extend to blood-pressure-driven renal injury states.
+Detaljerede data om virkningsmekanisme for dette evidenspakke er markeret som et datagab. Baseret på kendt farmakologi er valsartan en angiotensin II type 1 (AT1) receptorbloker brugt til behandling af hypertension; mekanistisk kunne RAAS (renin-angiotensin-aldosteron-systemet) blokering potentielt udvides til blodtryksdrevne nyreskadestilstande.
 
-The predicted indication, malignant hypertensive renal disease, overlaps mechanistically with renal blood-pressure regulation and RAAS overactivation — AT1 blockade could theoretically reduce intraglomerular pressure and slow renal damage. However, the only supporting literature (PMID 24368192) studies **avosentan**, an endothelin receptor antagonist, not valsartan itself. This is cross-drug-class indirect evidence — mechanistically relevant, but not direct evidence for valsartan.
+Den forudsagte indikation, malign hypertensiv nyresigidom, overlappes mekanistisk med nyre-blodtryksregulering og RAAS-overaktivering — AT1-blokering kunne teoretisk reducere intraglomerulært tryk og bremse nyreskadet. Imidlertid studerer den eneste understøttende litteratur (PMID 24368192) **avosentan**, en endothelin-receptorantagonist, ikke valsartan selv. Dette er tværlægemiddelklasse indirekte evidens — mekanistisk relevant, men ikke direkte evidens for valsartan.
 
-Notably, a closely related predicted indication in this same evidence pack, *malignant renovascular hypertension* (tied top TxGNN score), is supported by more directly relevant evidence: PMID 11560862 shows that AT1 receptor blockade prevents lethal malignant hypertension and protects the kidney in an animal model — an on-target class effect consistent with valsartan's known mechanism, though the study is dated (2001) and presumed preclinical rather than a human trial. This strengthens the overall mechanistic plausibility of AT1 blockade in malignant hypertensive/renovascular disease states, even though direct valsartan-specific evidence for either indication is still lacking.
+Det er værd at bemærke, at en nærtbeslægtet forudsagt indikation i samme evidenspakke, *malign renovaskulær hypertension* (delt top TxGNN-score), understøttes af mere direkte relevant evidens: PMID 11560862 viser, at AT1-receptorblokering forhindrer dødelig malign hypertension og beskytter nyrerne i en dyremodel — en målrettet klasseeffekt i overensstemmelse med valsartans kendte mekanisme, selvom studiet er fra 2001 og formodes at være preklinisk snarere end et menneskeforsøg. Dette styrker den samlede mekanistiske plausibilitet for AT1-blokering i maligne hypertensive/renovaskulære sygdomstilstande, selvom direkte valsartan-specifik evidens for begge indikationer stadig mangler.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidence
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Review (indirect, other drug class) | Pharmacological Research | Avosentan (an endothelin receptor antagonist, not valsartan) protected against hypertensive nephropathy in a transgenic rat model at doses avoiding fluid retention — indirect mechanistic support for RAAS/blood-pressure-mediated renal protection. |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Oversigt (indirekte, anden lægemiddelklasse) | Pharmacological Research | Avosentan (en endothelin-receptorantagonist, ikke valsartan) beskyttede mod hypertensiv nefropati i en transgent rottemodel ved doser, der undgik væskeretention — indirekte mekanistisk støtte til RAAS/blodtryksmedieret nyrebeskyttelse. |
 
-## Denmark Market Information
+## Markedsinformation Danmark
 
-No Danish marketing authorisation is on file in this evidence pack (market status: Not marketed, 0 licenses recorded).
+Ingen dansk markedsføringstilladelse er registreret i dette evidenspakke (markedsstatus: Ikke markedsført, 0 licenser registreret).
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The top-ranked prediction (malignant hypertensive renal disease) is supported only by a single indirect, cross-drug-class publication (avosentan, not valsartan) with no clinical trial evidence — an evidence level of L4. In addition, the evidence pack records no current Danish marketing authorisation for valsartan and flags a **Blocking** data gap on TFDA/SmPC safety labeling (DG001), which prevents progression to the S1 safety-evaluation stage.
+**Begrundelse:**
+Top-forudsigelsen (malign hypertensiv nyresigidom) understøttes kun af en enkelt indirekte, tværlægemiddelklasse publikation (avosentan, ikke valsartan) uden klinisk forsøgsbevis — et evidensniveau på L4. Desuden registrerer evidenspakken ingen nuværende dansk markedsføringstilladelse for valsartan og markerer et **blokerende** datagab vedr. TFDA/dansk SmPC sikkerhedsetikettering (DG001), som forhindrer progression til S1-sikkerhedsevalueringsfasen.
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC safety label data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Detailed mechanism-of-action (MOA) documentation for valsartan — currently a High-severity data gap (DG002)
-- Direct (ideally human) evidence for valsartan specifically in malignant hypertensive renal disease or the closely related malignant renovascular hypertension, since current supporting literature is either indirect (different drug class) or older preclinical/animal data
-- Verification of valsartan's actual Danish marketing/licensing status, since the evidence pack shows 0 licenses despite valsartan being a long-established ARB
+**For at kunne fortsætte er følgende nødvendigt:**
+- TFDA/dansk SmPC sikkerhedsetiketteringsdata (advarsler, kontraindikationer) — i øjeblikket et blokerende datagab (DG001)
+- Detaljeret virkningsmekanisme (MOA) dokumentation for valsartan — i øjeblikket et alvorligt datagab (DG002)
+- Direkte (helst humane) bevis for valsartan specifikt ved malign hypertensiv nyresigidom eller den nærtbeslægtet malign renovaskulær hypertension, da det nuværende understøttende litteratur enten er indirekte (anden lægemiddelklasse) eller ældre preklinisk/dyredata
+- Bekræftelse af valsartans faktiske danske markeds-/licensstatus, da evidenspakken viser 0 licenser på trods af at valsartan er et længe etableret ARB
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

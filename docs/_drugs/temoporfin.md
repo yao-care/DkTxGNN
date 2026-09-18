@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Temoporfin: From Head and Neck Squamous Cell Carcinoma to Nasopharyngeal Teratoma
+# Temoporfin: Fra Platepitefladcellescarcinomer i hoved- og halsregionen til nasopharyngeal teratom
 
-## One-Sentence Summary
+## Ét-linjet sammenfatning
 
-Temoporfin (mTHPC) is a photosensitizing agent used in photodynamic therapy (PDT), known under the brand Foscan for palliative treatment of head and neck squamous cell carcinoma. The TxGNN model predicts it may be relevant to **Nasopharyngeal Teratoma**, but this prediction is currently based on **model scoring alone**, with no supporting clinical trials or published literature.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Head and neck squamous cell carcinoma (palliative photodynamic therapy, per known Foscan® use) |
-| Predicted New Indication | Nasopharyngeal Teratoma |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Temoporfin (mTHPC) er et fotosensibiliserende stof, der bruges i fototerapiens (PDT), kendt under handelsmærket Foscan til pallativ behandling af platepitefladcellescarcinomer i hoved- og halsregionen. TxGNN-modellen forudsiger, at det kan være relevant for **nasopharyngeal teratom**, men denne forudsigelse er i øjeblikket baseret på **modelscoring alene**, uden understøttelse fra kliniske forsøg eller publiceret litteratur.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data for Temoporfin is currently a data gap. Based on known information, Temoporfin (mTHPC) is a photosensitizer that, once activated by 652 nm red light, generates reactive oxygen species that locally destroy target tissue. It is used clinically for photodynamic therapy (PDT), with its known approved use being palliative treatment of head and neck squamous cell carcinoma (Foscan).
-
-The nasopharynx falls anatomically within the head and neck region and is accessible endoscopically for light delivery, which overlaps with the delivery route used in Temoporfin's established head-and-neck PDT application — this is the basis of the model's association.
-
-However, the mechanistic link is assessed as relatively weak: nasopharyngeal teratoma is a germ-cell-derived tumour rather than an epithelial malignancy or pre-malignant lesion, which is the tissue type PDT mechanisms are primarily directed against. The prediction should therefore be interpreted as an anatomical/route overlap rather than a strong biological rationale, consistent with the L5 evidence level and Hold recommendation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Platepitefladcellescarcinomer i hoved- og halsregionen (pallativ fototerapie, i henhold til kendt Foscan®-brug) |
+| Forudsagt ny indikation | Nasopharyngeal teratom |
+| TxGNN-forudsigelsesscore | 99.78% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+Detaljeret virkningsmekanisme-data for temoporfin er i øjeblikket en datakløft. Baseret på kendt information er temoporfin (mTHPC) en fotosensibilisator, som, når den aktiveres af 652 nm rødt lys, genererer reaktive iltarter, der lokalt ødelægger målvæv. Det bruges klinisk til fototerapie (PDT), og dets kendt godkendte brug er pallativ behandling af platepitefladcellescarcinomer i hoved- og halsregionen (Foscan).
 
----
+Nasopharynx ligger anatomisk inden for hoved- og halsregionen og er tilgængelig endoskopisk for lysafgift, hvilket overlapper med leveringsruten, der bruges i temoporfins etablerede hoved- og hals-PDT-applikation — dette er grundlaget for modellens tilknytning.
 
-## Denmark Market Information
-
-Temoporfin is not currently marketed in Denmark and holds no national (Laegemiddelstyrelsen) or centralised (EMA) marketing authorisations (0 authorisations recorded).
+Den mekanistiske forbindelse vurderes imidlertid som relativt svag: nasopharyngeal teratom er en kimcelleafledt tumor snarere end en epitelpræget ondartetheden eller præ-malign læsion, som er vævstypen, som PDT-mekanismer primært er rettet mod. Forudsigelsen bør derfor tolkes som en anatomisk/rute-overlapning snarere end en stærk biologisk begrundelse, i overensstemmelse med evidensniveauet L5 og Hold-anbefalingen.
 
 ---
 
-## Cytotoxicity
+## Kliniske forsøg
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Photodynamic therapy agent (photosensitizer) — light-activated, localized cytotoxic mechanism distinct from systemic chemotherapy |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | As a photosensitizing agent, patients require light-protection precautions following administration; refer to SmPC for cytotoxic handling requirements |
+I øjeblikket ingen relaterede kliniske forsøg registreret
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relateret litteratur tilgængelig
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Temoporfin er i øjeblikket ikke markedsført i Danmark og har ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser (0 tilladelser registreret).
 
-**Rationale:**
-This prediction is supported only by TxGNN model scoring (L5), with no clinical trials or literature evidence, and the underlying mechanistic link between Temoporfin's PDT mechanism and nasopharyngeal teratoma (a germ-cell tumour, not an epithelial lesion) is assessed as weak. The drug also has no marketing authorisation in Denmark.
+---
 
-**To proceed, the following is needed:**
-- Product label warnings/contraindications (currently blocking safety assessment — cannot progress to S1 safety review without this)
-- Confirmed mechanism of action (MOA) data from DrugBank or SmPC
-- Preclinical or case-level evidence specifically addressing PDT applicability to germ-cell-derived tumours
-- Clarification of regulatory pathway, given the drug currently has no Danish marketing authorisation
+## Cytotoksicitet
+
+| Element | Indhold |
+|---------|---------|
+| Klassificering af cytotoksicitet | Fototerapiagent (fotosensibilisator) — lysaktiveret, lokaliseret cytotoksisk mekanisme adskilt fra systemisk kemoterapi |
+| Risiko for myelosuppression | Se produktresumé (SmPC) advarsler og forholdsregler |
+| Klassificering af emetogenicitet | Se produktresumé (SmPC) advarsler og forholdsregler |
+| Overvågningspunkter | Se produktresumé (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Som fotosensibiliserende agent kræver patienter lysbeskytelsesforsigtighedsregler efter administration; se SmPC for cytotoksiske håndteringskrav |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Denne forudsigelse understøttes kun af TxGNN-modelscoring (L5), uden kliniske forsøg eller litteraturbevis, og den underliggende mekanistiske forbindelse mellem temoporfins PDT-mekanisme og nasopharyngeal teratom (en kimcelletumor, ikke en epitellæsion) vurderes som svag. Lægemidlet har heller ingen markedsføringstilladelse i Danmark.
+
+**For at fortsætte er følgende nødvendig:**
+- Produktetiket-advarsler/kontraindikationer (i øjeblikket blokerer sikkerhedsvurdering — kan ikke fortsætte til S1-sikkerhedsgennemgang uden dette)
+- Bekræftet virkningsmekanisme (MOA) data fra DrugBank eller SmPC
+- Præ-klinisk eller case-niveau-bevis specifikt adresserende PDT-anvendelighed på kimcelleafledte tumorer
+- Præcisering af regulatorisk vej, givet at lægemidlet i øjeblikket ikke har dansk markedsføringstilladelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trandolapril: From Hypertension to Malignant Renovascular Hypertension
+# Trandolapril: Fra hypertension til ondartet renovaskulær hypertension
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Trandolapril is an ACE inhibitor whose established pharmacological class effect is blood pressure reduction in hypertension. The TxGNN model predicts a possible effect in **Malignant Renovascular Hypertension**, but this specific direction currently has **0 clinical trials** and **0 publications** supporting it — the signal is model-prediction only.
+Trandolapril er en ACE-hæmmer, hvis etablerede farmakologiske klasseffekt er blodtrykssænkning ved hypertension. TxGNN-modellen forudsiger en mulig effekt ved **ondartet renovaskulær hypertension**, men denne specifikke retning understøttes på nuværende tidspunkt af **0 kliniske forsøg** og **0 publikationer** – signalet er alene en modelforudsigelse.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (ACE inhibitor class; specific approved indication text not available in this pack) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Hypertension (ACE-hæmmer-klasse; specifik godkendt indikationstekst ikke tilgængelig i denne pakke) |
+| Forudsagt ny indikation | Ondartet renovaskulær hypertension |
+| TxGNN-forudsigelsesscore | 99.92% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data for trandolapril is not available in this pack. Based on the information provided, trandolapril belongs to the ACE inhibitor (ACEi) class, which inhibits conversion of angiotensin I to angiotensin II, lowering systemic vascular resistance and intraglomerular pressure. This is the shared mechanism by which ACEi-class drugs treat hypertension, including some forms of renovascular hypertension.
+På nuværende tidspunkt er detaljerede virkningsmekanisme-data for trandolapril ikke tilgængelige i denne pakke. Baseret på de tilgængelige oplysninger tilhører trandolapril ACE-hæmmer-klassen (ACEi), som hæmmer omdannelsen af angiotensin I til angiotensin II og sænker systemisk vaskulær modstand og intraglomerulært tryk. Dette er den delte virkningsmekanisme, hvorved ACEi-klasse-lægemidler behandler hypertension, herunder nogle former for renovaskulær hypertension.
 
-However, the predicted indication combines "malignant" (accelerated, end-organ-damaging) hypertension with "renovascular" disease, which — particularly when bilateral renal artery stenosis is present — is a relative contraindication or high-risk setting for ACE inhibitors, since these agents can precipitate acute kidney injury in that context. In other words, the underlying mechanism supports blood-pressure lowering in general, but it does not by itself support safe use in this specific severe subtype.
+Den forudsagte indikation kombinerer dog "ondartet" (accelereret, endorganskadende) hypertension med "renovaskulær" sygdom, hvilket – især når bilateral nyrearteristenose er til stede – er en relativ kontraindikation eller højrisikoindstilling for ACE-hemmere, da disse midler kan udløse akut nyreskade i den sammenhæng. Med andre ord understøtter den underliggende mekanisme blodtrykssænkning generelt, men den understøtter ikke i sig selv sikker brug i denne specifikke alvorlige undertype.
 
-This prediction should therefore be read as a pharmacological class-level extrapolation by the TxGNN model rather than as evidence of safety or efficacy in the malignant renovascular subgroup specifically.
+Denne forudsigelse bør derfor læses som en farmakologisk klasseniveauekstrapolation af TxGNN-modellen snarere end som bevis for sikkerhed eller effektivitet i den ondartet renovaskulære undergruppe specifikt.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbevis
 
-Currently no related clinical trials registered.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-Trandolapril currently has no registered marketing authorisation in Denmark (0 authorisations; market status: Not Marketed).
+Trandolapril har på nuværende tidspunkt ingen registreret markedsføringstilladelse i Danmark (0 tilladelser; markedsstatus: Ikke markedsført).
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The prediction is supported only by a general ACEi class-level mechanistic rationale (L5, model prediction only), with no clinical trials or literature identified for this specific indication. Additionally, the malignant renovascular subtype carries a plausible safety concern (risk of acute kidney injury) that argues against proceeding without further data.
+**Begrundelse:**
+Forudsigelsen understøttes alene af en generel ACEi-klasseniveaumekanistisk begrundelse (L5, alene modelforudsigelse), uden identifikation af kliniske forsøg eller litteratur for denne specifikke indikation. Desuden har den ondartet renovaskulære undertype en plausibel sikkerhedsbekymring (risiko for akut nyreskade), som taler imod at gå videre uden yderligere data.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings, precautions and contraindications for trandolapril (currently a blocking data gap)
-- Confirmed mechanism of action data from DrugBank or equivalent source
-- Targeted literature/clinical search specific to renovascular or malignant hypertension subgroups, ideally addressing renal artery stenosis risk
-- Renal function and blood pressure monitoring plan if any future evaluation proceeds
+**For at gå videre er følgende nødvendigt:**
+- Danske/EU SmPC-advarsler, forholdsregler og kontraindikationer for trandolapril (aktuelt en kritisk datamanglende)
+- Bekræftede virkningsmekanisme-data fra DrugBank eller tilsvarende kilde
+- Målrettet litteratur- og klinisk søgning specifik for renovaskulære eller ondartet hypertension-undergrupper, med særlig fokus på risiko for nyrearteristenose
+- Nyrefunktions- og blodtrykskontrolplan, hvis der gennemføres en fremtidig evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

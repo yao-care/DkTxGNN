@@ -29,81 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report template supplied in the prompt to produce the Imlifidase report below.
+# Imlifidase: Fra Transplantationsdesensibilisering (Ubekræftet) til Diabetisk Grå Stær
 
-# Imlifidase: From Transplant Desensitisation (Unconfirmed) to Diabetic Cataract
+## Et-sætnings Resumé
 
-## One-Sentence Summary
-
-> Imlifidase (DrugBank DB15258) has no confirmed original indication in the current evidence pack — background knowledge suggests use as a pre-transplant IgG-degrading desensitisation agent, but this is **not sourced from this dataset** and requires manual verification.
-> The TxGNN model predicts potential relevance to **Diabetic Cataract**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the result as possibly a knowledge-graph clustering artefact rather than a genuine pharmacological signal.
+> Imlifidase (DrugBank DB15258) har ingen bekræftet oprindelig indikation i det aktuelle bevispakke — baggrundsviden antyder brug som en før-transplantations IgG-nedbrydende desensibiliseringsagent, men dette er **ikke hentet fra dette datasæt** og kræver manuel verifikation.
+> TxGNN-modellen forudsiger potentiel relevans til **Diabetisk Grå Stær**, men dette understøttes af **0 kliniske forsøg** og **0 publikationer**, og modellens egen begrundelse markerer resultatet som muligvis en vidensgraf-klynge-artefakt snarere end et ægte farmakologisk signal.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not established in this evidence pack — `original_indications` is empty and `original_moa` is flagged as a data gap |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.75% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available for Imlifidase in this evidence pack (`original_moa` = data gap), and no original indication is recorded. Background pharmacological knowledge — **not sourced from this dataset and requiring independent verification** — describes Imlifidase as an IgG-degrading cysteine protease used for antibody desensitisation prior to organ transplantation in highly sensitised patients. This background is included here only because the model's own repurposing rationale surfaces it; it should be confirmed against DrugBank/EMA/SmPC sources before being relied upon.
-
-Critically, the model-generated rationale for this prediction is itself skeptical: it states that diabetic cataract pathology is driven by lens protein glycation, sorbitol-pathway accumulation, and oxidative stress — mechanisms with **no known relationship** to IgG cleavage or complement-mediated immune pathways. The rationale explicitly notes that the high TxGNN score may reflect a **clustering artefact** in the knowledge graph (disease nodes for various cataract subtypes embedding close together) rather than a true pharmacological signal.
-
-This is reinforced by the structure of the ranked candidate list: 8 of the top 10 predictions are cataract subtypes/variants (diabetic, craniostenosis, mature, tetanic, immature, type-2-diabetes-associated) clustered at nearly identical scores (~98.7–98.75%), including exact duplicate entries. This pattern is consistent with an embedding-space artefact affecting a whole disease cluster, rather than a specific, differentiated biological hypothesis for Imlifidase. Given the absence of any mechanistic, preclinical, or clinical support, this prediction should be treated as exploratory only.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig Indikation | Ikke etableret i dette bevispakke — `original_indications` er tom og `original_moa` er markeret som et datahuller |
+| Forudsagt Ny Indikation | Diabetisk Grå Stær |
+| TxGNN Forudsigelsesscore | 98.75% |
+| Evidensniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | **Vent** |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne Forudsigelse Rimelig?
 
-Currently no related clinical trials registered.
+Detaljerede virkningsmekanisme-data er ikke tilgængelige for Imlifidase i dette bevispakke (`original_moa` = datahuller), og ingen oprindelig indikation er registreret. Baggrundsfarmakologisk viden — **ikke hentet fra dette datasæt og kræver uafhængig verifikation** — beskriver Imlifidase som en IgG-nedbrydende cystein-protease, der bruges til antistof-desensibilisering før organransplantation hos højt sensibiliserede patienter. Denne baggrund er inkluderet her kun fordi modellens egen repurposing-begrundelse præsenterer den; den bør bekræftes mod DrugBank/EMA/SmPC-kilder, før den er pålidelig.
 
----
+Kritisk set er den modelgenererede begrundelse for denne forudsigelse selv skeptisk: den fastslår, at diabetisk grå stær-patologi drives af linse-proteinglykering, sorbitol-vejens akkumulation og oxidativ stress — mekanismer med **ingen kendt forbindelse** til IgG-spaltning eller komplementmedierede immunveje. Begrundelsen noterer eksplicit, at den høje TxGNN-score kan afspejle en **klynge-artefakt** i vidensgraf-rummet (sygdomsknuder for forskellige grå stær-subtyper indlejret tæt sammen) snarere end et ægte farmakologisk signal.
 
-## Literature Evidence
-
-Currently no related literature available.
+Dette understøttes af strukturen på den rangerede kandidatliste: 8 af de top 10 forudsigelser er grå stær-subtyper/varianter (diabetisk, kraniostenose, modne, tetanisk, umodne, type-2-diabetes-associerede) klynget på næsten identiske score (~98,7–98,75%), herunder eksakte dubletter. Dette mønster er konsistent med en embeddings-rum-artefakt, der påvirker en hel sygdomsklynge, snarere end en specifik, differentiet biologisk hypotese for Imlifidase. I betragtning af fravær af nogen mekanistisk, præklinkisk eller klinisk støtte bør denne forudsigelse behandles som udelukkende eksplorativ.
 
 ---
 
-## Denmark Market Information
+## Bevis fra Kliniske Forsøg
 
-Imlifidase currently holds **no marketing authorisation in Denmark** (`market_status`: Not marketed; 0 registered licenses). No product, dosage form, or approved-indication data is available from Laegemiddelstyrelsen or EMA centralised records in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*(Note: no drug–drug interaction data was found; key warnings and contraindications are currently unavailable and are flagged as a blocking data gap — see Next Steps.)*
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The prediction has no clinical trial or literature support (Evidence Level L5), and the model's own mechanistic rationale casts doubt on biological plausibility, suggesting a possible graph-embedding artefact affecting an entire cataract-subtype cluster rather than a specific, credible hypothesis.
-- Original indication and mechanism of action data are both missing from this evidence pack, and a **Blocking**-severity data gap (missing TFDA/local label warnings and contraindications) prevents even a preliminary (S1) safety assessment.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and mechanism of action for Imlifidase (DG002, High severity — query DrugBank API)
-- Local regulatory label warnings, contraindications, and safety data to clear the Blocking gap (DG001 — obtain and parse SmPC/label PDF)
-- Independent pharmacological assessment of whether any plausible mechanistic link exists between IgG-degrading protease activity and diabetic cataract pathology
-- Resolution of the duplicate/near-identical ranked candidates before this signal is considered distinct from a broader "cataract cluster" artefact
-- If pursued further, preclinical or case-level evidence before any clinical investment is considered
+## Information om Dansk Marked
+
+Imlifidase har i øjeblikket **ingen markedsføringstilladelse i Danmark** (`market_status`: Ikke markedsført; 0 registrerede licenser). Ingen produkt-, doseringsform- eller godkendt-indikationsdata er tilgængelig fra Laegemiddelstyrelsen eller EMA centraliserede poster i dette bevispakke.
+
+---
+
+## Sikkerhedsmæssige Overvejelser
+
+Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+*(Bemærk: der blev ikke fundet data om lægemiddel-lægemiddel-interaktioner; vigtige advarsler og kontraindikationer er i øjeblikket utilgængelige og er markeret som et blokerande datahuller — se Næste Trin.)*
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+- Forudsigelsen har ingen bevis fra kliniske forsøg eller litteratur (Evidensniveau L5), og modellens egen mekanistiske begrundelse sætter spørgsmålstegn ved biologisk plausibilitet, hvilket tyder på en mulig vidensgraf-embeddings-artefakt, der påvirker en hel grå stær-subtype-klynge snarere end en specifik, troværdig hypotese.
+- Oprindelig indikation og virkningsmekanisme-data mangler begge fra dette bevispakke, og et **blokerande** datahuller (manglende TFDA/lokal etiket-advarsler og kontraindikationer) forhindrer selv en foreløbig (S1) sikkerhedsvurdering.
+
+**For at fortsætte er følgende nødvendig:**
+- Bekræftet oprindelig indikation og virkningsmekanisme for Imlifidase (DG002, høj alvorlighed — forespørg DrugBank API)
+- Lokale regulatoriske etiket-advarsler, kontraindikationer og sikkerhedsdata til at løse det blokerande huller (DG001 — indhent og parse SmPC/etiket PDF)
+- Uafhængig farmakologisk vurdering af, hvorvidt der kan bestå nogen plausibel mekanistisk forbindelse mellem IgG-nedbrydende protease-aktivitet og diabetisk grå stær-patologi
+- Afklaring af dublette/næsten-identiske rangerede kandidater, før dette signal betragtes som adskilt fra en bredere "grå stær-klynge"-artefakt
+- Hvis forfølges videre, præklinkisk eller case-niveau-bevis, før nogen klinisk investering vurderes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

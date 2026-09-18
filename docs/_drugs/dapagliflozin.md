@@ -29,87 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Dapagliflozin: Repurposing Candidate Assessment — Evidence Pack Incomplete
+# Dapagliflozin: Vurdering af kandidat til omformål — Bevissamling ufuldstændig
 
-## One-Sentence Summary
+## Ét-linjers sammenfatning
 
-Dapagliflozin (Forxiga®) is a selective SGLT2 inhibitor with approved indications for Type 2 Diabetes Mellitus, Heart Failure, and Chronic Kidney Disease across the EU, including Denmark. The TxGNN model has **not generated any repurposing predictions** for this drug in the current Evidence Pack, as the predicted indications list is empty. A **Hold** decision is required until the pipeline is re-executed with complete input data.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Type 2 Diabetes Mellitus; Heart Failure; Chronic Kidney Disease *(sourced from general knowledge — not present in Evidence Pack)* |
-| Predicted New Indication | Not available — TxGNN prediction was not executed |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — No prediction or supporting studies retrieved |
-| Denmark Market Status | Data not retrieved *(see note below)* |
-| Number of Marketing Authorisations | 0 *(data retrieval failed — see note below)* |
-| Recommended Decision | **Hold** |
-
-> **⚠️ Note on Denmark Market Data:** The Evidence Pack reports zero marketing authorisations and "not marketed" status. This almost certainly reflects a **data retrieval failure**, not actual market absence. Dapagliflozin is centrally authorised in the EU under **Forxiga® (EU/1/12/795)** by AstraZeneca, with full validity in Denmark. The regulatory data pipeline should be re-executed against the EMA product database and the Danish Medicines Agency (Laegemiddelstyrelsen) register.
+Dapagliflozin (Forxiga®) er en selektiv SGLT2-inhibitor med godkendte indikationer for Type 2-diabetes mellitus, hjertesvigt og kronisk nyrésygdom på tværs af EU, herunder Danmark. TxGNN-modellen har **ikke genereret nogen forudsigelser om omformål** for dette lægemiddel i den aktuelle bevissamling, da listen over forudsagte indikationer er tom. En **Udsæt**-beslutning er påkrævet, indtil pipelinen køres på ny med fuldstændige inputdata.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-No TxGNN repurposing prediction has been generated for dapagliflozin in this Evidence Pack, so the standard mechanistic rationale for a specific new indication cannot be provided.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Type 2-diabetes mellitus; hjertesvigt; kronisk nyrésygdom *(hentet fra generel viden — ikke til stede i bevissamlingen)* |
+| Forudsagt ny indikation | Ikke tilgængelig — TxGNN-forudsigelse blev ikke udført |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Evidensniveau | L5 — Ingen forudsigelse eller understøttende undersøgelser hentet |
+| Markedsstatus i Danmark | Data ikke hentet *(se note nedenfor)* |
+| Antal markedsføringstilladelser | 0 *(dataindsamling mislykkedes — se note nedenfor)* |
+| Anbefalet beslutning | **Udsæt** |
 
-From established pharmacological knowledge: Dapagliflozin selectively inhibits **sodium-glucose cotransporter 2 (SGLT2)** in the renal proximal tubule, blocking approximately 90% of filtered glucose reabsorption and driving urinary glucose excretion. Beyond glycaemic control, SGLT2 inhibition reduces tubuloglomerular feedback, lowers intraglomerular pressure, and decreases proximal tubular sodium reabsorption — mechanisms that translate into renoprotection independent of blood glucose. The resulting natriuresis and plasma volume contraction reduce cardiac preload and afterload, explaining the drug's cardiovascular benefits in heart failure.
-
-These pleiotropic effects — metabolic, haemodynamic, anti-inflammatory, and anti-fibrotic — make dapagliflozin a mechanistically rich candidate for repurposing research. Current investigational areas include non-alcoholic steatohepatitis (NASH/MAFLD), polycystic ovary syndrome (PCOS), hyperuricaemia, and sleep-disordered breathing. However, **no TxGNN model output is available in this Evidence Pack** to support a structured repurposing analysis, and no indication-specific evidence tables can be presented.
-
----
-
-## Clinical Trial Evidence
-
-No TxGNN-predicted indication is present in this Evidence Pack. Indication-specific clinical trial retrieval was not performed.
-
-> Currently no related clinical trial evidence is linked to a repurposing target for this candidate.
+> **⚠️ Bemærkning om markedsdata for Danmark:** Bevissamlingen rapporterer nul markedsføringstilladelser og "ikke markedsført"-status. Dette afspejler næsten sikkert en **fejl ved dataindsamling**, ikke faktisk fraværelse fra markedet. Dapagliflozin er centralt godkendt i EU under **Forxiga® (EU/1/12/795)** af AstraZeneca, med fuld gyldighed i Danmark. Pipelinen for regulatoriske data bør køres på ny mod EMA-produktdatabasen og Lægemiddelstyrelsens register.
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-No TxGNN-predicted indication is present in this Evidence Pack. Indication-specific literature retrieval was not performed.
+Der er ikke genereret nogen TxGNN-forudsigelse om omformål for dapagliflozin i denne bevissamling, så den standardmæssige mekanistiske begrundelse for en specifik ny indikation kan ikke gives.
 
-> Currently no related literature is linked to a repurposing target for this candidate.
+Fra etableret farmakologisk viden: Dapagliflozin inhiberer selektivt **natrium-glukose-cotransporter 2 (SGLT2)** i nyrernes proksimale tubuli, blokerer cirka 90% af filtreret glukosereabsorption og driver urinal glukoseudskillelse. Ud over glykæmisk kontrol reducerer SGLT2-inhibering tubuloglomerulær feedback, sænker intraglomerulært tryk og reducerer natrium-reabsorption i proksimal tubuli — mekanismer, der betyder nyrybeskyttelse uafhængigt af blodglukose. Den resulterende natriurese og plasmavolumen-kontraktion reducerer kardial forbelastning og efterbelastning, hvilket forklarer lægemidlets kardiovaskulære fordele ved hjertesvigt.
 
----
-
-## Denmark Market Information
-
-No marketing authorisation records were retrieved for Denmark in this Evidence Pack.
-
-**Known regulatory context (from general knowledge):** Dapagliflozin is marketed in Denmark as **Forxiga®** under EMA centralised authorisation **EU/1/12/795** (AstraZeneca). The SmPC and EPAR are publicly available via the EMA website. The data pipeline should re-fetch this authorisation and any national records from Laegemiddelstyrelsen.
+Disse pleiotrope virkninger — metaboliske, hæmodynamiske, antiinflammatoriske og antifibrotiske — gør dapagliflozin til en mekanistisk rig kandidat til omformålsforskning. Aktuelle undersøgelsesområder omfatter non-alkoholisk fedtlever (NASH/MAFLD), polycystisk ovariesyndom (PCOS), hyperurikæmi og søvnrelateret vejrtrækningsproblemer. Men **ingen TxGNN-modeloutput er tilgængeligt i denne bevissamling** til at understøtte en struktureret omformålsanalyse, og ingen indikationsspecifikke evidenstabeller kan præsenteres.
 
 ---
 
-## Safety Considerations
+## Klinisk prøveevidence
 
-No safety data was successfully retrieved in this Evidence Pack — key warnings and contraindications were not populated, and no drug–drug interaction records were found.
+Der er ingen TxGNN-forudsagt indikation til stede i denne bevissamling. Indikationsspecifik klinisk prøveindsamling blev ikke udført.
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. The Forxiga SmPC (EU/1/12/795) is available at [https://www.ema.europa.eu](https://www.ema.europa.eu).
+> Der er i øjeblikket ikke knyttet relevant klinisk prøveevidence til et omformålsmål for denne kandidat.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+Der er ingen TxGNN-forudsagt indikation til stede i denne bevissamling. Indikationsspecifik litteraturindsamling blev ikke udført.
 
-**Rationale:**
-This Evidence Pack is critically incomplete — the TxGNN model produced no repurposing predictions, regulatory data for Denmark was not retrieved, and all safety fields are empty. No meaningful clinical assessment can be made on this basis.
+> Der er i øjeblikket ikke knyttet relevant litteratur til et omformålsmål for denne kandidat.
 
-**To proceed, the following is needed:**
+---
 
-- **Re-execute TxGNN prediction** for Dapagliflozin (DB06292) to generate `predicted_indications` with candidate diseases, scores, clinical trials, and literature
-- **Re-fetch EMA/Danish regulatory data**: retrieve Forxiga® EU/1/12/795 authorisation details, approved indications, and current market status from Laegemiddelstyrelsen
-- **Retrieve complete SmPC safety data**: key warnings, contraindications, special populations (renal impairment, pregnancy, elderly), and drug interaction profile — particularly with diuretics, insulin, and other antidiabetic agents
-- **Obtain DrugBank MOA data** for DB06292 to populate the mechanism of action field
-- **Re-run the full Evidence Pack pipeline** (v5 or later) with all data sources confirmed as active inputs, not just `drugbank`
-- Once a valid predicted indication is identified, commission a structured clinical and regulatory feasibility review with Danish hospital pharmacy and endocrinology input
+## Markedsinformation for Danmark
+
+Der blev ikke hentet markedsføringstilladelelsesdata for Danmark i denne bevissamling.
+
+**Kendt regulatorisk kontekst (fra generel viden):** Dapagliflozin markedsføres i Danmark som **Forxiga®** under EMA-centraliseret godkendelse **EU/1/12/795** (AstraZeneca). SmPC og EPAR er offentligt tilgængelige via EMA-webstedet. Datapipelinen bør genindsamle denne godkendelse og eventuelle nationale registre fra Lægemiddelstyrelsen.
+
+---
+
+## Sikkerhedshensyn
+
+Der blev ikke hentet sikkerhedsdata i denne bevissamling — vigtige advarsler og kontraindikationer blev ikke udfyldt, og der blev ikke fundet lægemiddel-lægemiddel-interaktionsregistre.
+
+> Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Forxiga SmPC (EU/1/12/795) er tilgængelig på [https://www.ema.europa.eu](https://www.ema.europa.eu).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Udsæt**
+
+**Begrundelse:**
+Denne bevissamling er kritisk ufuldstændig — TxGNN-modellen producerede ingen forudsigelser om omformål, regulatoriske data for Danmark blev ikke hentet, og alle sikkerhedsfelter er tomme. Ingen meningsfuld klinisk vurdering kan foretages på dette grundlag.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Kør TxGNN-forudsigelse på ny** for dapagliflozin (DB06292) for at generere `predicted_indications` med kandidatsygdomme, scores, kliniske prøver og litteratur
+- **Genindsaml EMA/danske regulatoriske data**: hent Forxiga® EU/1/12/795-godkendelsesdetaljer, godkendte indikationer og aktuel markedsstatus fra Lægemiddelstyrelsen
+- **Hent fuldstændige SmPC-sikkerhedsdata**: vigtige advarsler, kontraindikationer, særlige populationer (nyreinsufficiens, graviditet, ældre) og lægemiddel-interaktionsprofil — især med diuretika, insulin og andre antidiabetiske stoffer
+- **Indhent DrugBank MOA-data** for DB06292 for at udfylde mekanisme-for-virkning-feltet
+- **Kør pipelinen for den fulde bevissamling på ny** (v5 eller senere) med alle datakilder bekræftet som aktive input, ikke kun `drugbank`
+- Når en gyldig forudsagt indikation er identificeret, bestil en struktureret klinisk og regulatorisk gennemførlighedsreview med dansk hospitalsfarmaci og endokrinologi-input
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

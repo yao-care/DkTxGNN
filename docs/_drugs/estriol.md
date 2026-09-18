@@ -29,80 +29,81 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Estriol: From Oestrogen Therapy to Amenorrhea
+# Estriol: Fra østrogenterapi til amenoré
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Estriol is a naturally occurring weak oestrogen historically used in hormone replacement therapy for menopausal symptoms and urogenital atrophy. The TxGNN model predicts it may be effective for **Amenorrhea**, with **3 clinical trials** (all indirect evidence) and **13 publications** currently identified in this direction. Notably, one interventional study directly demonstrates estriol's ability to modulate LH secretion in functional hypothalamic amenorrhea patients.
+Estriol er et naturligt forekommende svagt østrogen, der historisk har været anvendt i hormonsubstitutionsterapi til menopausalbesvær og urogenital atrofi. TxGNN-modellen forudsiger, at det kan være effektivt til **Amenoré**, med **3 kliniske forsøg** (alt indirekte evidens) og **13 publikationer** der aktuelt er identificeret i denne retning. Bemærkelsesværdigt er, at ét interventionelt studie direkte demonstrerer estriol's evne til at modulere LH-sekretion hos patienter med funktionel hypothalamisk amenoré.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication recorded in Denmark (no marketing authorisation) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L3 — Observational / interventional pilot studies and reviews |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ingen godkendt indikation registreret i Danmark (ingen markedsføringstilladelse) |
+| Forudsagt ny indikation | Amenoré |
+| TxGNN-forudsigelsesscore | 99,18 % |
+| Evidensniveau | L3 — Observationelle / interventionelle pilotstudier og oversigtsartikler |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afventer |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Estriol (E3) is a weak, naturally occurring oestrogen with approximately one-tenth the binding affinity for oestrogen receptor alpha (ERα) compared to estradiol (E2). Unlike more potent oestrogens, estriol's weak and short-acting properties mean it does not fully suppress the hypothalamic–pituitary–gonadal (HPG) axis. This pharmacological profile is potentially advantageous in the context of functional hypothalamic amenorrhea (FHA), where the goal is to restore—rather than replace—endogenous hormonal cycling.
+Estriol (E3) er et svagt, naturligt forekommende østrogen med cirka en tiendedel af bindingsaffiniteten for østrogen-receptor alfa (ERα) sammenlignet med estradiol (E2). I modsætning til mere potente østrogener, betyder estriol's svage og korttidsvirkende egenskaber, at det ikke fuldstændigt undertrykker hypothalamisk-hypofysær-gonadal (HPG) aksen. Denne farmakologiske profil er potentielt fordelagtig i forbindelse med funktionel hypothalamisk amenoré (FHA), hvor målet er at genoprette — snarere end at erstatte — endogen hormonelle cyklusser.
 
-In FHA, impaired pulsatile secretion of gonadotropin-releasing hormone (GnRH) leads to defective luteinising hormone (LH) and follicle-stimulating hormone (FSH) release, resulting in ovarian quiescence and amenorrhea. A key clinical study (Genazzani et al., 2012; PMID 22137494) directly demonstrated that estriol administration can modulate LH secretion patterns in FHA patients, suggesting that low-dose estriol may act as a neuroendocrine modulator capable of re-engaging the positive feedback mechanism at the hypothalamic–pituitary level.
+Ved FHA fører svækket pulsatil sekretion af gonadotropin-releasing hormon (GnRH) til defekt frigivelse af luteiniserende hormon (LH) og follikelstimulerende hormon (FSH), hvilket resulterer i ovariel hvile og amenoré. Et vigtigt klinisk studie (Genazzani et al., 2012; PMID 22137494) demonstrerede direkte, at estriol-administration kan modulere LH-sekretionsmønstre hos FHA-patienter, hvilket tyder på, at lavdosis estriol kan fungere som en neuroendokrin modulator, der er i stand til at genaktivere positivt feedback-mekanismer på hypothalamisk-hypofysært niveau.
 
-However, estriol's short half-life and lack of active metabolites limit its suitability as a sustained hormone replacement therapy. The TxGNN prediction score of 99.18% is high, but the current clinical evidence base remains limited to small interventional studies and mechanistic reviews. No completed randomised controlled trial has specifically evaluated estriol monotherapy for amenorrhea as a primary endpoint.
+Estriol's korte halveringstid og mangel på aktive metabolitter begrænser imidlertid dens egnethed som vedvarende hormonsubstitutionsterapi. TxGNN-forudsigelsesscore på 99,18 % er høj, men det aktuelle kliniske evidensgrundlag er begrænset til små interventionelle studier og mekanistiske oversigtsartikler. Intet afsluttet randomiseret kontrolleret forsøg har specifikt evalueret estriol-monoterapi til amenoré som et primært slutpunkt.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | Completed | 1,015 | **Estetrol (E4)**, not estriol (E3): evaluated E4 15/20 mg vs placebo for vasomotor symptoms in postmenopausal women. Indirect class evidence only. |
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | Completed | 1,570 | **Estetrol (E4)**, not estriol (E3): confirmatory trial of E4 for vasomotor symptoms. Same class but distinct pharmacology (NEST mechanism). Not directly applicable. |
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | Withdrawn | 0 | Photobiomodulation for vulvovaginal atrophy in postmenopausal women. Trial withdrawn with no enrolment; no data generated. |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige fund |
+|---------|------|--------|---|---------|
+| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Fase 3 | Afsluttet | 1.015 | **Estetrol (E4)**, ikke estriol (E3): evaluerede E4 15/20 mg vs placebo til vasomotoriske symptomer hos postmenopausale kvinder. Kun indirekte klasseevidends. |
+| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Fase 3 | Afsluttet | 1.570 | **Estetrol (E4)**, ikke estriol (E3): bekræftende forsøg af E4 til vasomotoriske symptomer. Samme klasse men forskellig farmakologi (NEST-mekanisme). Ikke direkte anvendelig. |
+| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Fase 2 | Trukket tilbage | 0 | Photobiomodulation til vulvovaginal atrofi hos postmenopausale kvinder. Forsøg trukket tilbage uden tilmelding; ingen data genereret. |
 
-> **Important note:** All three identified clinical trials have low direct relevance (Grade C). The two completed Phase 3 trials investigated estetrol (E4), a distinct oestrogen with different receptor pharmacology, not estriol (E3). No registered clinical trial was identified that directly evaluates estriol for the treatment of amenorrhea.
+> **Vigtig bemærkning:** Alle tre identificerede kliniske forsøg har lav direkte relevans (Grad C). De to afsluttede fase 3-forsøg undersøgte estetrol (E4), et distinkt østrogen med forskellig receptor-farmakologi, ikke estriol (E3). Intet registreret klinisk forsøg blev identificeret, som direkte evaluerer estriol til behandling af amenoré.
 
-## Literature Evidence
+## Evidens fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Clinical Study (interventional) | Fertility and Sterility | **Direct evidence:** Estriol administration modulates LH secretion in women with functional hypothalamic amenorrhea (FHA). |
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Review / Perspective | Biomedicines | Low-dose oestrogens as neuroendocrine modulators in FHA; discusses triggering of positive feedback mechanisms on GnRH pulsatility. |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Clinical Study | Medicinski Pregled | Effects of oestro-progestagens on lipid and hormonal profiles in women with premature primary ovarian failure (hypergonadotropic amenorrhea). |
-| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Observational | Zhong Xi Yi Jie He Za Zhi | Observations on gonadal function changes in women with amenorrhea and oligomenorrhea. |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Case Report | The Lancet | Endocrinological findings in two patients with premature ovarian failure. |
-| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Clinical Trial | J Obstet Gynaecol Br Commonw | Effect of pituitary/urinary FSH and hCG on patients with idiopathic secondary amenorrhea. |
-| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Basic Science Review | J Clin Endocrinol Metab | Mechanism of action of anti-ovulatory compounds, including oestrogen class effects. |
-| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Review | Clin Obstet Gynecol | Neoplasia and hormonal contraception — background on oestrogen-related effects. |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Case Report/Series | Am J Obstet Gynecol | Prolonged gynaecologic and endocrine manifestations following medroxyprogesterone acetate administration during pregnancy. |
-| [4307531](https://pubmed.ncbi.nlm.nih.gov/4307531/) | 1969 | Laboratory Study | Fertility and Sterility | Comparative effects of oestrogens (including estriol) on amylase levels of cervical mucus. |
+| PMID | År | Type | Journal | Vigtige fund |
+|------|------|------|------|---------|
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Klinisk studie (interventionelt) | Fertility and Sterility | **Direkte evidens:** Estriol-administration modulerer LH-sekretion hos kvinder med funktionel hypothalamisk amenoré (FHA). |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Oversigtsartikel / Perspektiv | Biomedicines | Lavdosis østrogener som neuroendokrine modulatorer ved FHA; diskuterer udløsning af positive feedback-mekanismer på GnRH-pulsatilitet. |
+| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Klinisk studie | Medicinski Pregled | Virkninger af østro-progestogener på lipid- og hormonprofiler hos kvinder med præmatur primær ovariel insufficiens (hypergonadotropisk amenoré). |
+| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Observationelt | Zhong Xi Yi Jie He Za Zhi | Observationer af gonadal funktionsændringer hos kvinder med amenoré og oligomenor. |
+| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Sag | The Lancet | Endokrinologiske fund hos to patienter med præmatur ovariel insufficiens. |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Klinisk forsøg | J Obstet Gynaecol Br Commonw | Virkning af hypofysær/urinal FSH og hCG på patienter med idiopatisk sekundær amenoré. |
+| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Grundvidenskabeligt review | J Clin Endocrinol Metab | Mekanisme for virkning af anovulatoriske stoffer, inklusive østrogen-klassevirkninger. |
+| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Oversigtsartikel | Clin Obstet Gynecol | Neoplasi og hormonelle kontraceptiva — baggrund for østrogen-relaterede virkninger. |
+| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Sagrapport/serie | Am J Obstet Gynecol | Vedvarende gynækologiske og endokrinologiske manifestationer efter administration af medroxyprogesteronacetat under graviditet. |
+| [4307531](https://pubmed.ncbi.nlm.nih.gov/4307531/) | 1969 | Laboratorietudie | Fertility and Sterility | Sammenlignende virkninger af østrogener (inklusive estriol) på amylase-niveauer i cervikalt sekret. |
 
-## Denmark Market Information
+## Information om det danske marked
 
-Estriol does not currently hold a marketing authorisation in Denmark (neither national Laegemiddelstyrelsen nor centralised EMA authorisation identified in this dataset). No product is marketed under this active substance in the Danish market.
+Estriol har ikke aktuelt markedsføringstilladelse i Danmark (hverken nationale Lægemiddelstyrelsen- eller centraliserede EMA-tilladelser identificeret i dette datasæt). Intet produkt markedsføres under dette aktive stof på det danske marked.
 
-> **Note:** Estriol-containing products are available in several other European countries (e.g., vaginal creams, pessaries). Availability through the special access scheme (udleveringstilladelse) or magistral preparation should be explored if clinical use is considered.
+> **Bemærkning:** Produkter indeholdende estriol er tilgængelige i flere andre europæiske lande (f.eks. vaginalcremer, pessarier). Tilgængelighed gennem særlige adgangsordninger (udleveringstilladelse) eller magistral fremstilling bør utredes, hvis klinisk anvendelse overvejes.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No specific warnings, contraindications, or drug–drug interactions were available in the evidence pack for estriol.
+> Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformationer. Ingen specifikke advarsler, kontraindikationer eller lægemiddelinteraktioner var tilgængelige i bevissamlingen for estriol.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afventer**
 
-**Rationale:**
-While the TxGNN prediction score is very high (99.18%) and a plausible mechanistic rationale exists—supported by one directly relevant interventional study (PMID 22137494) showing estriol modulates LH secretion in FHA—the overall evidence base remains insufficient for clinical translation. No completed RCT has evaluated estriol specifically for amenorrhea, the identified clinical trials concern a different compound (estetrol), and estriol is not currently marketed in Denmark.
+**Begrundelse:**
+Selvom TxGNN-forudsigelsesscore er meget høj (99,18 %) og en plausibel mekanistisk begrundelse eksisterer — understøttet af ét direkte relevant interventionelt studie (PMID 22137494), der viser, at estriol modulerer LH-sekretion ved FHA — er det samlede evidensgrundlag utilstrækkeligt til klinisk translation. Intet afsluttet RCT har evalueret estriol specifikt til amenoré, de identificerede kliniske forsøg omhandler en anden forbindelse (estetrol), og estriol markedsføres ikke aktuelt i Danmark.
 
-**To proceed, the following is needed:**
-- **Mechanism of action (MOA) data:** Complete pharmacodynamic profiling of estriol's effects on the HPG axis, including dose–response relationships
-- **Safety profile:** Obtain full SmPC-equivalent safety data, including contraindications (e.g., oestrogen-dependent tumours, thromboembolic history) and drug interactions
-- **Market access assessment:** Evaluate whether estriol can be obtained in Denmark via special access, cross-border supply, or magistral preparation
-- **Clinical study design:** A prospective, randomised, placebo-controlled pilot trial of low-dose estriol in FHA patients, with LH pulsatility and return of menses as primary endpoints
-- **Regulatory pathway:** Determine whether an off-label use or compassionate access pathway would be appropriate given the current evidence level (L3)
+**For at fortsætte er følgende nødvendigt:**
+- **Virkningsmekanisme-data (MOA):** Komplet farmakodynamisk profilering af estriol's virkninger på HPG-aksen, inklusive dosis-respons-forhold
+- **Sikkerhedsprofil:** Indhentelse af fuldstændige SmPC-ækvivalente sikkerhedsdata, inklusive kontraindikationer (f.eks. østrogen-afhængige tumorer, tromboembolisk anamnese) og lægemiddelinteraktioner
+- **Markedstilgangsurering:** Evaluering af, om estriol kan opnås i Danmark via særlige adgangsordninger, grænseoverskridende leveringer eller magistral fremstilling
+- **Design af klinisk studie:** Et prospektivt, randomiseret, placebo-kontrolleret pilotstudie af lavdosis estriol hos FHA-patienter, med LH-pulsatilitet og genopkomst af menstruation som primære slutpunkter
+- **Regulatorisk vej:** Bestemmelse af, om en off-label-brug eller compassionate access-vej ville være passende givet det aktuelle evidensniveau (L3)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

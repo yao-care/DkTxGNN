@@ -29,103 +29,104 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etoricoxib: From Pain and Inflammation to Migraine Disorder
+# Etoricoxib: Fra smerte og inflammation til migrænelidelse
 
-## One-Sentence Summary
+## Sammendrag i én sætning
 
-Etoricoxib is a selective COX-2 inhibitor widely used internationally for the treatment of osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, and acute gouty arthritis. The TxGNN model predicts it may be effective for **Migraine Disorder**, with **0 clinical trials** and **0 publications** directly captured in this dataset — although published RCTs of etoricoxib 120 mg for acute migraine are known to exist outside the current evidence collection. Currently, no marketing authorisations for etoricoxib are registered in the dataset for Denmark.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, acute gouty arthritis, chronic musculoskeletal pain (based on known international approvals; no local licence data in dataset) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (published RCT evidence exists outside dataset) |
-| Denmark Market Status | Not marketed (per dataset) |
-| Number of Marketing Authorisations | 0 (per dataset) |
-| Recommended Decision | Hold |
-
-> **Note on market status:** Etoricoxib (Arcoxia®) holds a centralised EMA marketing authorisation (EU/1/08/470) and is available in multiple EU member states. The "not marketed" status in this report reflects the current dataset scope and should be verified against the Laegemiddelstyrelsen and EMA registers.
+Etoricoxib er en selektiv COX-2-hæmmer, der er bredt anvendt internationalt til behandling af artrose, reumatoid artritis, ankyloserende spondylitis og akut podagra. TxGNN-modellen forudsiger, at det kan være effektivt til **Migrænelidelse**, med **0 kliniske forsøg** og **0 publikationer** direkte fanget i dette datasæt — selvom publicerede RCT'er af etoricoxib 120 mg til akut migræne vides at eksistere uden for den aktuelle bevisindsamling. I øjeblikket er der ingen markedsføringstilladelser for etoricoxib registreret i datasættet for Danmark.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Etoricoxib is a highly selective cyclooxygenase-2 (COX-2) inhibitor. COX-2-mediated prostaglandin synthesis — particularly PGE2 and PGI2 — plays a key role in the activation of the trigeminovascular system and neurogenic inflammation, both of which are central to migraine pathophysiology. By selectively inhibiting COX-2, etoricoxib can reduce prostaglandin-driven dural vasodilation and trigeminal sensitisation, the two principal drivers of migraine pain.
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Artrose, reumatoid artritis, ankyloserende spondylitis, akut podagra, kroniske muskuloskeletale smerter (baseret på kendte internationale godkendelser; ingen lokale licensdata i datasættet) |
+| Forudsagt ny indikation | Migrænelidelse |
+| TxGNN-forudsigelsesscore | 99.90% |
+| Evidensniveau | L4 (publiceret RCT-evidens eksisterer uden for datasættet) |
+| Danmarks markedsstatus | Ikke markedsført (efter datasættet) |
+| Antal markedsføringstilladelser | 0 (efter datasættet) |
+| Anbefalet afgørelse | Vent |
 
-Non-selective NSAIDs (ibuprofen, naproxen, aspirin) are already established as Level A evidence-based options for acute migraine treatment according to the American Headache Society (AHS) and European Headache Federation (EHF) guidelines. Etoricoxib's COX-2 selectivity offers a theoretical advantage over non-selective NSAIDs: equivalent or superior anti-inflammatory and analgesic effects in the trigeminovascular system with a reduced risk of gastrointestinal adverse effects from COX-1 inhibition.
-
-Importantly, the repurposing rationale notes that at least one published RCT evaluating etoricoxib 120 mg for acute migraine exists in the literature but was not captured by the current evidence collection pipeline. This suggests the evidence gap is partly a data-collection artefact rather than a true absence of clinical data, and the mechanistic rationale is well-supported by the established role of the NSAID class in migraine management.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this dataset for the combination of etoricoxib and migraine disorder.
-
-> **Data completeness note:** The repurposing rationale identifies that published RCT data for etoricoxib 120 mg in acute migraine exists but was not retrieved. A supplementary search of ClinicalTrials.gov and the EU Clinical Trials Register (EudraCT) is recommended.
+> **Bemærkning om markedsstatus:** Etoricoxib (Arcoxia®) har en centraliseret EMA-markedsføringstilladelse (EU/1/08/470) og er tilgængelig i flere EU-medlemsstater. Status "ikke markedsført" i denne rapport afspejler det aktuelle datasæts omfang og bør bekræftes i forhold til Laegemiddelstyrelsen og EMA-registrene.
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no directly relevant literature captured in this dataset for etoricoxib in migraine disorder.
+Etoricoxib er en meget selektiv cyklooxygenase-2 (COX-2) hæmmer. COX-2-medieret prostaglandinsyntese — især PGE2 og PGI2 — spiller en vigtig rolle i aktiveringen af det trigeminøvaskulære system og neurogen inflammation, som begge er centrale for migrænepatofysiologi. Ved selektivt at hæmme COX-2 kan etoricoxib reducere prostaglandin-drevet duralvasodilation og trigeminal sensibilisering, de to vigtigste drivere for migrænesmerter.
 
-The literature retrieved for the related indication "migraine with or without aura, susceptibility to" consists primarily of epilepsy genetics and epileptogenesis studies. Only one publication has partial relevance:
+Ikke-selektive NSAID'er (ibuprofen, naproxen, aspirin) er allerede etableret som niveau A-evidensbaserede valgmuligheder til behandling af akut migræne ifølge American Headache Society (AHS) og European Headache Federation (EHF) retningslinjer. Etoricoxibs COX-2-selektivitet giver en teoretisk fordel i forhold til ikke-selektive NSAID'er: tilsvarende eller bedre anti-inflammatoriske og analgetiske effekter i det trigeminøvaskulære system med reduceret risiko for gastrointestinale bivirkninger fra COX-1-hæmning.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33856647](https://pubmed.ncbi.nlm.nih.gov/33856647/) | 2021 | Narrative Review | Molecular Neurobiology | Reviews shared genetic and molecular mechanisms between epilepsy and migraine, including ion channel variants and neuroinflammatory pathways; discusses potential for shared therapeutic strategies |
-
-> **Data quality note:** The remaining 19 retrieved publications relate to epilepsy susceptibility genetics and are not relevant to etoricoxib's potential use in migraine. The PubMed search likely matched on the term "susceptibility" rather than migraine-specific content. A targeted re-search using terms such as "etoricoxib AND migraine" or "COX-2 inhibitor AND migraine" is strongly recommended.
+Det er vigtigt at bemærke, at den repurposing-begrundelse noterer, at mindst én publiceret RCT, der evaluerer etoricoxib 120 mg til akut migræne, eksisterer i litteraturen, men blev ikke fanget af den aktuelle bevisindsamlingspipeline. Dette tyder på, at evidensgabet delvis er en datainsamlings-artefakt snarere end en sand fravær af kliniske data, og den mekanistiske begrundelse er vel understøttet af NSAID-klassens etablerede rolle i migrænebehandling.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-No marketing authorisations recorded in the current dataset.
+I øjeblikket ingen relaterede kliniske forsøg registreret i dette datasæt for kombinationen etoricoxib og migrænelidelse.
 
-> **Important:** Etoricoxib is marketed in the EU under the centralised procedure. The EMA-authorised product **Arcoxia®** (MSD) is available in film-coated tablet formulations (30 mg, 60 mg, 90 mg, 120 mg) for osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, acute gouty arthritis, and short-term dental surgery pain. Availability in Denmark should be confirmed with Laegemiddelstyrelsen or the EMA Community Register of medicinal products.
+> **Bemærkning om datakomplethed:** Den repurposing-begrundelse identificerer, at publiceret RCT-data for etoricoxib 120 mg til akut migræne eksisterer, men blev ikke hentet. En supplerende søgning af ClinicalTrials.gov og EU Clinical Trials Register (EudraCT) anbefales.
 
 ---
 
-## Safety Considerations
+## Litteraturevidenser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen direkte relevant litteratur fanget i dette datasæt for etoricoxib til migrænelidelse.
 
-> **Known class-level concerns for COX-2 selective inhibitors (for reference):**
-> - Cardiovascular risk: COX-2 inhibitors as a class carry warnings regarding increased risk of thrombotic cardiovascular events (myocardial infarction, stroke), particularly with prolonged use and in patients with pre-existing cardiovascular disease.
-> - Gastrointestinal: Although lower GI risk than non-selective NSAIDs, GI perforation, ulceration, and bleeding remain possible.
-> - Renal: Potential for fluid retention, oedema, and renal impairment.
-> - Hepatic: Liver function monitoring may be warranted.
-> - Hypertension: Dose-dependent increases in blood pressure have been reported.
+Den litteratur, der blev hentet til den relaterede indikation "migræne med eller uden aura, modtagelighed til", består primært af epilepsi-genetik og epileptogenese-studier. Kun én publikation har delvis relevans:
+
+| PMID | År | Type | Journal | Vigtigste resultater |
+|------|-----|------|--------|---------|
+| [33856647](https://pubmed.ncbi.nlm.nih.gov/33856647/) | 2021 | Narrativ oversigt | Molecular Neurobiology | Gennemgår delte genetiske og molekylære mekanismer mellem epilepsi og migræne, herunder ion-kanarvarianter og neuroinflammatoriske veje; diskuterer potentiale for delte terapeutiske strategier |
+
+> **Bemærkning om datakvalitet:** De resterende 19 henttede publikationer vedrører epilepsi-modtagelighed-genetik og er ikke relevante for etoricoxibs potentielle brug i migræne. PubMed-søgningen matchede sandsynligvis på ordet "modtagelighed" snarere end migræne-specifikt indhold. En målrettet gensøgning med ord såsom "etoricoxib AND migræne" eller "COX-2-hæmmer AND migræne" anbefales kraftigt.
+
+---
+
+## Danmarks markedsinformation
+
+Ingen markedsføringstilladelser registreret i det aktuelle datasæt.
+
+> **Vigtigt:** Etoricoxib er markedsført i EU efter den centraliserede procedure. Det EMA-godkendt produkt **Arcoxia®** (MSD) er tilgængelig i filmovertrukne tabletformuleringer (30 mg, 60 mg, 90 mg, 120 mg) til artrose, reumatoid artritis, ankyloserende spondylitis, akut podagra og kortvarig tandkirurgisk smerte. Tilgængelighed i Danmark bør bekræftes med Laegemiddelstyrelsen eller EMA Community Register af lægemidler.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktsammenfattelse (SmPC) for sikkerhedsinformation.
+
+> **Kendt klassenivenauer for COX-2-selective hæmmere (til reference):**
+> - Kardiovaskulær risiko: COX-2-hæmmere som en klasse bærer advarsler vedrørende øget risiko for trombotiske kardiovaskulære begivenheder (hjerteinfarkt, slagtilfælde), især med længerevarende brug og hos patienter med forudgående kardiovaskulær sygdom.
+> - Gastrointestinal: Selvom lavere GI-risiko end ikke-selektive NSAID'er, forbliver gastrointestinal perforation, ulceration og blødning mulige.
+> - Nyrer: Potentiale for væskeretention, ødem og nyresvigt.
+> - Lever: Overvågning af leverfunktion kan være berettiget.
+> - Hypertension: Dosisafhængige stigninger i blodtryk er rapporteret.
 >
-> *These points are based on general COX-2 inhibitor class information. Prescribers must consult the current Arcoxia® SmPC for complete, product-specific safety data.*
+> *Disse punkter er baseret på generel COX-2-hæmmer-klasseinformation. Foreskrivere skal konsultere det aktuelle Arcoxia® SmPC for fuldstændig, produktspecifik sikkerhedsinformation.*
 
 ---
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Vent**
 
-**Rationale:**
-The TxGNN prediction score is very high (99.90%), and the mechanistic rationale for etoricoxib in migraine is well-founded — NSAIDs as a class are already guideline-recommended for acute migraine, and COX-2 selectivity offers a plausible advantage. However, the current evidence pack contains no clinical trials or directly relevant literature, and critical data gaps exist for MOA details, SmPC safety information, and local market registration. The repurposing rationale itself notes that published RCT data for etoricoxib 120 mg in acute migraine was not captured, indicating a significant evidence-collection gap that must be resolved before a decision to proceed.
+**Begrundelse:**
+TxGNN-forudsigelsesscore er meget høj (99.90%), og den mekanistiske begrundelse for etoricoxib til migræne er velbaseret — NSAID'er som en klasse er allerede guideline-anbefalede til akut migræne, og COX-2-selektivitet giver en plausibel fordel. Dog indeholder det aktuelle bevissamling ingen kliniske forsøg eller direkte relevant litteratur, og vigtige datahulrum eksisterer for MOA-detaljer, SmPC-sikkerhedsinformation og lokal markedsregistrering. Selve repurposing-begrundelsen noterer, at publiceret RCT-data for etoricoxib 120 mg til akut migræne ikke blev fanget, hvilket indikerer et betydeligt bevisindsamlingshul, der må løses før en afgørelse om at fortsætte.
 
-**To proceed, the following is needed:**
-- **Supplementary evidence search**: Targeted PubMed and ClinicalTrials.gov/EudraCT search for "etoricoxib AND migraine" to capture the known published RCT(s)
-- **SmPC safety review**: Obtain and review the current Arcoxia® SmPC for contraindications, warnings, and drug interactions relevant to migraine patients
-- **Denmark market verification**: Confirm current availability and reimbursement status of etoricoxib in Denmark via Laegemiddelstyrelsen/EMA registers
-- **Cardiovascular risk assessment**: Given that migraine (particularly migraine with aura) is itself associated with increased cardiovascular risk, a specific risk–benefit analysis for COX-2 inhibitor use in this population is essential
-- **Dose–indication alignment**: The existing RCT used 120 mg (the highest approved dose, typically reserved for acute gout); evaluate whether this dose is appropriate or if lower doses could be effective for migraine
-- **Mechanism of action data**: Retrieve detailed MOA data from DrugBank to support mechanistic linkage analysis
+**For at fortsætte er følgende nødvendigt:**
+- **Supplerende bevisøgning**: Målrettet PubMed og ClinicalTrials.gov/EudraCT søgning for "etoricoxib AND migræne" for at fange den kendte publiceret RCT('er)
+- **SmPC sikkerhedsgennemgang**: Indhentelse og gennemgang af det aktuelle Arcoxia® SmPC for kontraindikationer, advarsler og lægemiddel-interaktioner relevant for migræne-patienter
+- **Danmarks markedsverifikation**: Bekræftelse af den aktuelle tilgængelighed og refusionsstatus af etoricoxib i Danmark via Laegemiddelstyrelsen/EMA-registre
+- **Kardiovaskulær risikovurdering**: Givet at migræne (især migræne med aura) selv er forbundet med øget kardiovaskulær risiko, er en specifik risk-benefit-analyse for COX-2-hæmmer-brug i denne population væsentlig
+- **Dosis-indikation-justering**: Den eksisterende RCT anvendte 120 mg (den højeste godkendt dosis, typisk reserveret til akut podagra); evaluere om denne dosis er passende eller om lavere doser kunne være effektive til migræne
+- **Mekanisme-af-handling-data**: Hentelse af detaljeret MOA-data fra DrugBank for at understøtte mekanistisk forbindelsesanalyse
 
 ---
 
-*Disclaimer: This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. Data cutoff: 2026-04-05.*
+*Ansvarsfraskrivelse: Denne rapport er til forskningsformål kun og udgør ikke medicinsk rådgivning. Lægemiddel-repurposing-kandidater kræver klinisk validering før anvendelse. Dataafskæring: 2026-04-05.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

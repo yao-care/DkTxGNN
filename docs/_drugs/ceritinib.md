@@ -29,88 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Ceritinib: Fra ALK-positiv ikke-småcellet lungecancer til gingivalt fibrom
 
-## One-Sentence Summary
+## Opsummering på én sætning
 
-Ceritinib is a second-generation oral ALK (anaplastic lymphoma kinase) tyrosine kinase inhibitor, internationally approved for the treatment of ALK-rearranged non-small cell lung cancer (NSCLC), but not currently registered in Denmark.
-The TxGNN model predicts it may have activity in **Gingival Fibromatosis (fibromatosis, gingival)** with a prediction score of **99.86%**; however, **no clinical trials or published literature** currently support this specific indication.
-The biological rationale connecting ceritinib's mechanism of action to gingival fibromatosis is limited, and the high model score most likely reflects structural patterns within the knowledge graph rather than genuine pharmacological relevance.
+Ceritinib er en anden-generations oral ALK (anaplastisk lymfom kinase) tyrosinkinase hæmmer, internationalt godkendt til behandling af ALK-ændret ikke-småcellet lungecancer (NSCLC), men ikke i øjeblikket registreret i Danmark.
+TxGNN-modellen forudsiger, at det kan have aktivitet i **gingivalt fibrom (fibrom, gingivalt)** med en forudsigelsesscore på **99.86%**; dog **ingen kliniske forsøg eller offentliggjort litteratur** understøtter i øjeblikket denne specifikke indikation.
+Den biologiske rationel, der forbinder ceritinibs mekanisme til gingivalt fibrom, er begrænset, og den høje modelscore afspejler højst sandsynligt strukturelle mønstre inden for vidensgrafen snarere end ægte farmakologisk relevans.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | ALK-positive non-small cell lung cancer (NSCLC) — not registered in Denmark; inferred from published literature |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | ALK-positiv ikke-småcellet lungecancer (NSCLC) — ikke registreret i Danmark; udledt fra offentliggjort litteratur |
+| Forudsagt ny indikation | Fibrom, gingivalt |
+| TxGNN forudsigelsesscore | 99.86% |
+| Bevisniveau | L5 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Ceritinib (Zykadia®, Novartis) is a potent second-generation ALK inhibitor first approved by the US FDA in 2014 under Breakthrough Therapy designation for ALK-rearranged NSCLC after progression on crizotinib, and subsequently approved by the EMA in 2015. Although full mechanism of action data was not retrievable in this evidence pack, published literature consistently documents ceritinib's primary mechanism as competitive inhibition of the ALK kinase domain with approximately 20-fold greater potency than crizotinib, along with inhibitory activity against IGF1R, InsR, and ROS1 kinases. Multiple Phase 3 trials (including ASCEND-4) have confirmed its efficacy in first-line ALK-rearranged NSCLC, and it is well-established within that therapeutic context globally — though it has not obtained marketing authorisation in Denmark.
+Ceritinib (Zykadia®, Novartis) er en potent anden-generations ALK-hæmmer først godkendt af US FDA i 2014 under Breakthrough Therapy-betegnelse for ALK-ændret NSCLC efter progression på crizotinib, og efterfølgende godkendt af EMA i 2015. Selvom fuldstændige mekanisme-af-virkning data ikke blev genfindet i denne bevissamling, dokumenterer offentliggjort litteratur konsistent ceritinibs primære mekanisme som kompetitiv hæmning af ALK-kinasedomænet med cirka 20-gange større potens end crizotinib, sammen med hæmmende aktivitet mod IGF1R, InsR og ROS1 kinaser. Flere fase 3-forsøg (herunder ASCEND-4) har bekræftet dets effektivitet i første-linje ALK-ændret NSCLC, og det er velkendt inden for denne terapeutiske kontekst globalt — selvom det ikke har opnået markedsføringstilladelse i Danmark.
 
-Gingival Fibromatosis is a rare, typically hereditary disorder characterised by progressive benign overgrowth of gingival connective tissue. Its known pathogenic genes — **SOS1, REST, and KCNJ13** — have no established relationship with ALK signalling or any of ceritinib's primary target kinases. While ceritinib's activity at IGF1R could theoretically influence fibroblast proliferation pathways, this remains a purely speculative inference without any experimental, preclinical, or clinical support.
+Gingivalt fibrom er en sjælden, typisk arvelig sygdom karakteriseret ved progressiv overdreven vækst af gingivalt bindevæv. Dets kendte patogene gener — **SOS1, REST og KCNJ13** — har ingen etableret relation til ALK-signalering eller nogen af ceritinibs primære target kinaser. Selvom ceritinibs aktivitet ved IGF1R teoretisk kunne påvirke fibroblast-proliferationsveje, forbliver dette en rent spekulativ udledning uden nogen eksperimentel, præ-klinisk eller klinisk støtte.
 
-The extremely high TxGNN score (99.86%) for this indication most likely reflects **topological proximity** between the gingival fibromatosis node and other fibrous tissue-related disease nodes within the knowledge graph, rather than a genuine pharmacological connection. This is a recognised limitation of graph-based machine learning models, where structural similarity in the graph can yield high scores for disease pairs with no meaningful biological relationship, and highlights the critical importance of expert mechanistic review prior to any clinical evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Den ekstremt høje TxGNN-score (99.86%) for denne indikation afspejler højst sandsynligt **topologisk nærhed** mellem gingivalt fibrom-knuden og andre fibørse væv-relaterede sygdomsknuder inden for vidensgrafen, snarere end en ægte farmakologisk forbindelse. Dette er en anerkendt begrænsning af graf-baserede machine learning-modeller, hvor strukturel lighed i grafen kan give høje scores for sygdomspar uden meningsfuld biologisk relation, og fremhæver den kritiske vigtighed af ekspert mekanistisk gennemgang før enhver klinisk evaluering.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-Currently no related literature available.
+Ingen relaterede kliniske forsøg er i øjeblikket registreret.
 
 ---
 
-## Cytotoxicity
+## Litteraturbevis
 
-| Item | Content |
+Ingen relateret litteratur er i øjeblikket tilgængelig.
+
+---
+
+## Cytotoxicitet
+
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — second-generation ALK tyrosine kinase inhibitor (not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low (haematological toxicity is uncommon; anaemia and neutropenia have been reported at low frequencies, substantially lower than conventional chemotherapy) |
-| Emetogenicity Classification | Moderate (nausea, vomiting, and diarrhoea are the most frequent adverse effects across clinical trials; antiemetic prophylaxis and dose modification may be required) |
-| Monitoring Items | Liver function tests (ALT/AST — hepatotoxicity risk), pancreatic enzymes (lipase/amylase — pancreatitis risk), ECG (QTc prolongation), fasting blood glucose (hyperglycaemia), pulmonary function / HRCT if respiratory symptoms emerge (interstitial lung disease/pneumonitis) |
-| Handling Protection | Standard oncology drug handling precautions apply; institutional cytotoxic handling procedures should be followed per local policy |
+| Cytotoxicitets klassifikation | Målrettet terapi — anden-generations ALK tyrosinkinase hæmmer (ikke et konventionelt cytotoxisk middel) |
+| Myelosuppression risiko | Lav (hæmatologisk toksicitet er sjælden; anæmi og neutropeni er blevet rapporteret ved lave frekvenser, væsentligt lavere end konventionel kemoterapi) |
+| Emetogenitets klassifikation | Moderat (kvalme, opkastning og diarré er de mest hyppige uønskede bivirkninger på tværs af kliniske forsøg; antiemetisk profylakse og dosismodifikation kan være påkrævet) |
+| Overvågningspunkter | Leverfunktionsprøver (ALT/AST — hepatotoksicitet risiko), pankreatiske enzymer (lipase/amylase — pankreatitis risiko), EKG (QTc forlængelse), fastende blodglukose (hyperglykæmi), lungefunktion / HRCT hvis respiratoriske symptomer opstår (interstitiel lungesygdom/pneumonitis) |
+| Håndteringsbeskyttelse | Standard onkologi-medicinbehandling protokoller gælder; institutionelle cytotoxiske håndteringsprocedurer bør følges per lokale regler |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) — available via the EMA (EU/1/15/1017) — for full safety information including contraindications, warnings, and drug interactions.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-There is no clinical, preclinical, or mechanistic evidence linking ceritinib to gingival fibromatosis. The disease is caused by hereditary connective tissue gene abnormalities (SOS1/REST/KCNJ13) unrelated to ALK signalling, and the TxGNN model's very high prediction score reflects knowledge graph topology rather than biological plausibility. Advancing this candidate further cannot be justified on current evidence.
-
-**To proceed, the following is needed:**
-
-- Retrieval of full mechanism of action data from DrugBank (DB09063) to confirm the complete kinase inhibition profile and any secondary targets relevant to connective tissue biology
-- Preclinical investigation into whether ALK or IGF1R pathway activity plays any role in gingival fibroblast proliferation or fibromatosis pathogenesis
-- TxGNN disease ontology review to determine whether the "fibromatosis, gingival" node shares structural features with any disease for which ceritinib has established activity
-- Formal safety data retrieval from the Danish Medicines Agency (Laegemiddelstyrelsen) or full EMA SmPC for contraindications, key warnings, and drug interaction profile
+Se venligst det godkendte resumé af produktkarakteristika (SmPC) — tilgængeligt via EMA (EU/1/15/1017) — for fuldstændig sikkerhedsinformation herunder kontraindikationer, advarsler og lægemiddelinteraktioner.
 
 ---
 
-> ⚠️ **Data Quality Note — Rank 9–10 Indication (Lung Benign Neoplasm):**
-> The "lung benign neoplasm" entries at ranks 9–10 are associated with **20 PubMed publications**; however, all 20 papers address ALK-rearranged **NSCLC** — a malignancy — and not benign lung tumours. This constitutes a **critical disease label mismatch** in the TxGNN disease ontology. If the node label was intended to capture ALK+ NSCLC, the evidence level would upgrade to **L1** (Phase 3 RCT ASCEND-4, PMID 28126333, *Lancet* 2017), and a dedicated evaluation with a **"Proceed with Guardrails"** recommendation would be warranted. This mismatch should be resolved in the ontology before further evaluation of the full candidate list.
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Rationel:**
+Der er ingen klinisk, præ-klinisk eller mekanistisk bevis, der forbinder ceritinib til gingivalt fibrom. Sygdommen er forårsaget af arvelige bindevævsgenanomalier (SOS1, REST og KCNJ13) uden relation til ALK-signalering, og TxGNN-modellens meget høje forudsigelsesscore afspejler vidensgrafs topologi snarere end biologisk plausibilitet. Fremskridt af denne kandidat kan ikke retfærdiggøres på nuværende bevis.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- Indhentelse af fuldstændige mekanisme-af-virkning data fra DrugBank (DB09063) for at bekræfte det fuldstændige kinase-hæmningsprofil og eventuelle sekundære targets relevant for bindevævs biologi
+- Præ-klinisk undersøgelse af, hvorvidt ALK eller IGF1R signaleringsvej-aktivitet spiller nogen rolle i gingivale fibroblasters proliferation eller fibromatosis patogenese
+- Gennemgang af TxGNN sygdoms ontologien for at bestemme, hvorvidt "fibrom, gingivalt"-knuden deler strukturelle karakteristika med nogen sygdom, for hvilken ceritinib har etableret aktivitet
+- Indhentelse af formel sikkerhedsdata fra Lægemiddelstyrelsen eller fuldt EMA SmPC for kontraindikationer, vigtige advarsler og lægemiddelinteraktionsprofil
+
+---
+
+> ⚠️ **Datakvalitet bemærkning — Rank 9–10 indikation (benign lungeneoplasme):**
+> Indgangene "benign lungeneoplasme" ved rang 9–10 er forbundet med **20 PubMed publikationer**; dog behandler alle 20 artikler ALK-ændret **NSCLC** — en malignitet — og ikke benigne lungetumorer. Dette udgør en **kritisk uoverensstemmelse i sygdomsetiketten** i TxGNN sygdoms ontologien. Hvis node-etiketten var planlagt at fange ALK+ NSCLC, ville bevisniveauet opgradere til **L1** (fase 3 RCT ASCEND-4, PMID 28126333, *Lancet* 2017), og en dedikeret evaluering med en **"Fortsæt med sikkerhedsforanstaltninger"** anbefaling ville være berettiget. Denne uoverensstemmelse bør løses i ontologien før yderligere evaluering af hele kandidatlisten.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

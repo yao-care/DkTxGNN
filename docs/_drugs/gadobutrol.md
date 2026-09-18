@@ -29,100 +29,101 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gadobutrol: From MRI Contrast Enhancement to Benign Prostatic Hyperplasia
+# Gadobutrol: Fra MRI-kontrastforstærkning til benign prostatahyperplasi
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Gadobutrol (Gadovist®) is a macrocyclic gadolinium-based contrast agent used intravenously to enhance MRI of the central nervous system and body vasculature — it is a **diagnostic imaging agent**, not a therapeutic drug.
-The TxGNN model predicts it may be effective for **Benign Prostatic Hyperplasia (BPH)**,
-with **0 clinical trials** and **0 publications** currently supporting this therapeutic direction.
+Gadobutrol (Gadovist®) er en makrocyklisk gadolinium-baseret kontrastagent, der administreres intravenøst for at forbedre MRI af centralnervesystemet og vaskulaturen — det er en **diagnostisk billeddiagnostisk agent**, ikke et terapeutisk lægemiddel.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **benign prostatahyperplasi (BPH)**,
+med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket støtter denne terapeutiske retning.
 
-> **Critical clinical note:** Gadobutrol has no pharmacological effect on human tissue. The model's BPH prediction almost certainly reflects its established use as a contrast agent in prostate mpMRI — a diagnostic co-occurrence, not a therapeutic relationship.
+> **Kritisk klinisk bemærkning:** Gadobutrol har ingen farmakologisk effekt på vævet hos mennesker. Modellens BPH-forudsigelse skyldes næsten helt sikkert dets etablerede brug som kontrastagent i prostat mpMRI — en diagnostisk samforekomst, ikke et terapeutisk forhold.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | MRI contrast enhancement (CNS imaging, MR angiography) |
-| Predicted New Indication | Benign Prostatic Hyperplasia |
-| TxGNN Prediction Score | 83.24% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not registered (data gap — Gadovist® holds EMA centralised authorisation valid in all EU/EEA member states including Denmark) |
-| Number of Marketing Authorisations | 0 (data not collected — verify via Laegemiddelstyrelsen) |
-| Recommended Decision | Hold |
+| Original indikation | MRI-kontrastforstærkning (CNS-billeddiagnostik, MR-angiografi) |
+| Forudsagt ny indikation | Benign prostatahyperplasi |
+| TxGNN-forudsigelsesscore | 83.24% |
+| Evidensniveau | L5 |
+| Status på Danmarks marked | Ikke registreret (datakløft — Gadovist® har EMA-centraliseret godkendelse, der er gyldig i alle EU/EØS-medlemsstater, herunder Danmark) |
+| Antal markedsføringstilladelser | 0 (data blev ikke indsamlet — verificer via Lægemiddelstyrelsen) |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacology, Gadobutrol is a 1.0-molar macrocyclic gadolinium chelate that functions purely as a paramagnetic MRI contrast agent. It shortens T1 relaxation times of surrounding water protons, increasing signal intensity on T1-weighted sequences. Gadobutrol has **no pharmacological activity** at any known biological receptor, enzyme, or cellular target — its only mechanism is physical interaction with water molecules in a magnetic field.
+I øjeblikket er detaljerede mekanisme-for-virknings-data ikke tilgængelige fra Evidence Pack. Baseret på kendt farmakologi er gadobutrol en 1,0-molar makrocyklisk gadolinium-chelat, der fungerer udelukkende som et paramagnetisk MRI-kontrastagent. Det forkorter T1-relaksationstider for omgivende vandprotoner og øger signalintensiteten på T1-vægtede sekvenser. Gadobutrol har **ingen farmakologisk aktivitet** ved nogen kendt biologisk receptor, enzym eller cellulært target — dets eneste mekanisme er fysisk interaktion med vandmolekyler i et magnetfelt.
 
-The TxGNN model's prediction of BPH is almost certainly driven by diagnostic co-occurrence rather than therapeutic potential. Multiparametric MRI (mpMRI) — which uses gadobutrol for dynamic contrast-enhanced (DCE) sequences — is now the standard pre-biopsy imaging investigation for prostate conditions including BPH and prostate cancer. The model appears to have learned this diagnostic relationship and misclassified it as a repurposing signal.
+TxGNN-modellens forudsigelse af BPH skyldes næsten helt sikkert diagnostisk samforekomst snarere end terapeutisk potentiale. Multiparametrisk MRI (mpMRI) — som bruger gadobutrol til dynamiske kontrast-forstærkede (DCE) sekvenser — er nu standardundersøgelsen før biopsi for prostatbetingelser, herunder BPH og prostatakræft. Modellen ser ud til at have lært dette diagnostiske forhold og misklassificeret det som et repurposering-signal.
 
-There is no known biological mechanism by which a gadolinium chelate could therapeutically modify prostate stromal proliferation, reduce bladder outlet obstruction, or modulate the androgenic pathways underlying BPH. A meaningful repurposing hypothesis would require the identification of entirely new and currently non-existent mechanistic evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Gadobutrol in Benign Prostatic Hyperplasia.
-
-> **Context on lower-ranked predictions:** Gadobutrol has clinical trial evidence linked to **peripheral arterial disease** (rank 3, TxGNN score 76.72%) and **peripheral vascular disease** (rank 7, TxGNN score 74.39%), with 4 trials each. However, all of these trials use gadobutrol as a **diagnostic contrast agent** for MR angiography (MRA) — not as a therapeutic intervention. They confirm its imaging utility in vascular disease but provide no basis for therapeutic repurposing.
+Der er ingen kendt biologisk mekanisme, hvorved et gadolinium-chelat kunne terapeutisk ændre prostat-stromal proliferation, reducere blæreudsletningsobstruktion eller modulere de androgeniske veje, der ligger til grund for BPH. En meningsfuld repurposering-hypotese ville kræve identifikation af helt nye og i øjeblikket ikke-eksisterende mekanisme-evidens.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related literature available for Gadobutrol in Benign Prostatic Hyperplasia.
+I øjeblikket registreret ingen relaterede kliniske forsøg for gadobutrol i benign prostatahyperplasi.
 
-> **Context on lower-ranked predictions:** The 20 PubMed publications retrieved for peripheral arterial disease (ranks 3–4) are uniformly imaging studies evaluating gadobutrol-enhanced MRA techniques, image quality comparisons with other contrast agents, and diagnostic accuracy versus digital subtraction angiography (DSA). Representative examples are listed below for completeness, but these represent **diagnostic** — not therapeutic — evidence.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26001243](https://pubmed.ncbi.nlm.nih.gov/26001243/) | 2015 | RCT | AJR Am J Roentgenology | Large randomised study comparing gadobutrol vs. gadoterate meglumine for 3T MRA in PAOD; non-inferiority demonstrated |
-| [12928960](https://pubmed.ncbi.nlm.nih.gov/12928960/) | 2003 | Prospective | European Radiology | Prospective multicentre blinded comparison of gadobutrol-enhanced moving-table MRA vs. DSA in 203 patients with PAOD |
-| [22848033](https://pubmed.ncbi.nlm.nih.gov/22848033/) | 2012 | RCT | J Magn Reson Imaging | Randomised crossover study of gadoterate 0.5M vs. gadobutrol 1.0M for peripheral MRA at 3.0T |
-| [20959539](https://pubmed.ncbi.nlm.nih.gov/20959539/) | 2010 | Prospective | Radiology | Evaluation of high-resolution 3T peripheral MRA protocol using low-dose gadobutrol (0.1 mmol/kg) vs. conventional angiography |
-| [15149986](https://pubmed.ncbi.nlm.nih.gov/15149986/) | 2004 | Prospective | AJR Am J Roentgenology | Whole-body 3D MRA with gadobutrol in 51 PAOD patients; diagnostic performance vs. DSA |
-| [19652610](https://pubmed.ncbi.nlm.nih.gov/19652610/) | 2009 | Prospective | Investigative Radiology | Single-dose (0.1 mmol/kg) gadobutrol peripheral CTM-MRA combined with time-resolved TWIST-MRA at 3.0T |
-| [12928957](https://pubmed.ncbi.nlm.nih.gov/12928957/) | 2003 | Safety study | European Radiology | Safety evaluation of 1.0M gadobutrol in 435 patients undergoing CE-MRA; adverse event profile |
-| [23188773](https://pubmed.ncbi.nlm.nih.gov/23188773/) | 2013 | Prospective | J Magn Reson Imaging | Diagnostic accuracy of multi-station CE-MRA of lower extremities vs. DSA in symptomatic PAOD |
-| [24156379](https://pubmed.ncbi.nlm.nih.gov/24156379/) | 2013 | Prospective | J Cardiovasc Magn Reson | Steady-state vascular imaging with gadobutrol as add-on to peripheral MRA protocol |
-| [12720266](https://pubmed.ncbi.nlm.nih.gov/12720266/) | 2003 | Pilot | J Magn Reson Imaging | First experience with 1M gadobutrol for total-body 3D MRA covering carotids to runoff vessels in 72 seconds |
+> **Kontekst om lavere-rangerede forudsigelser:** Gadobutrol har klinisk forsøgs-evidens forbundet til **perifer arteriel sygdom** (rang 3, TxGNN-score 76.72%) og **perifer vaskulær sygdom** (rang 7, TxGNN-score 74.39%), med 4 forsøg hver. Imidlertid bruger alle disse forsøg gadobutrol som en **diagnostisk kontrastagent** til MR-angiografi (MRA) — ikke som en terapeutisk intervention. De bekræfter dets billeddiagnostiske nytte ved vaskulær sygdom, men giver intet grundlag for terapeutisk repurposering.
 
 ---
 
-## Denmark Market Information
+## Litteraturbevis
 
-Gadobutrol (Gadovist®) does not appear in the data collected for the Danish Medicines Agency (Laegemiddelstyrelsen) database. This is a **data collection gap**, not absence from market — Gadovist® holds a centralised marketing authorisation from the European Medicines Agency (EMA), which is automatically valid in Denmark and all EU/EEA member states. Healthcare professionals should verify the current product listing directly.
+I øjeblikket ingen relateret litteratur tilgængelig for gadobutrol i benign prostatahyperplasi.
 
-> Please confirm current Danish market status via [Laegemiddelstyrelsen produktdatabase](https://www.laegemiddelstyrelsen.dk) or the [EMA medicines search](https://www.ema.europa.eu/en/medicines/find-medicine).
+> **Kontekst om lavere-rangerede forudsigelser:** De 20 PubMed-publikationer, som blev hentet for perifer arteriel sygdom (rang 3–4), er ensartet billeddiagnostiske studier, som evaluerer gadobutrol-forstærkede MRA-teknikker, billedkvalitetsammenligninger med andre kontrastagenter og diagnostisk nøjagtighed versus digital subtraktion-angiografi (DSA). Representative eksempler er anført nedenfor for fuldstændighed, men disse repræsenterer **diagnostisk** — ikke terapeutisk — evidens.
+
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|-------------|
+| [26001243](https://pubmed.ncbi.nlm.nih.gov/26001243/) | 2015 | RCT | AJR Am J Roentgenology | Stort randomiseret studie sammenlignet gadobutrol vs. gadoterat meglumin til 3T MRA i PAOD; non-inferiøritet påvist |
+| [12928960](https://pubmed.ncbi.nlm.nih.gov/12928960/) | 2003 | Prospektivt | European Radiology | Prospektivt multicenterstudie blindet sammenligning af gadobutrol-forstærket moving-table MRA vs. DSA hos 203 patienter med PAOD |
+| [22848033](https://pubmed.ncbi.nlm.nih.gov/22848033/) | 2012 | RCT | J Magn Reson Imaging | Randomiseret crossover-studie af gadoterat 0,5M vs. gadobutrol 1,0M til perifer MRA på 3,0T |
+| [20959539](https://pubmed.ncbi.nlm.nih.gov/20959539/) | 2010 | Prospektivt | Radiology | Evaluering af højopløsnings 3T perifer MRA-protokol med lav-dose gadobutrol (0,1 mmol/kg) vs. konventionel angiografi |
+| [15149986](https://pubmed.ncbi.nlm.nih.gov/15149986/) | 2004 | Prospektivt | AJR Am J Roentgenology | Hele-legeme 3D MRA med gadobutrol hos 51 PAOD-patienter; diagnostisk præstation vs. DSA |
+| [19652610](https://pubmed.ncbi.nlm.nih.gov/19652610/) | 2009 | Prospektivt | Investigative Radiology | Enkelt-dose (0,1 mmol/kg) gadobutrol perifer CTM-MRA kombineret med tids-opløst TWIST-MRA på 3,0T |
+| [12928957](https://pubmed.ncbi.nlm.nih.gov/12928957/) | 2003 | Sikkerhedsstudie | European Radiology | Sikkerhedsevaluering af 1,0M gadobutrol hos 435 patienter, der undergår CE-MRA; bivirkningsprofil |
+| [23188773](https://pubmed.ncbi.nlm.nih.gov/23188773/) | 2013 | Prospektivt | J Magn Reson Imaging | Diagnostisk nøjagtighed af multi-station CE-MRA af underekstremiteter vs. DSA hos symptomatisk PAOD |
+| [24156379](https://pubmed.ncbi.nlm.nih.gov/24156379/) | 2013 | Prospektivt | J Cardiovasc Magn Reson | Steady-state vaskulær billeddiagnostik med gadobutrol som tillæg til perifer MRA-protokol |
+| [12720266](https://pubmed.ncbi.nlm.nih.gov/12720266/) | 2003 | Pilot | J Magn Reson Imaging | Første erfaring med 1M gadobutrol til hele-legeme 3D MRA dækkende karotider til runoff-kar på 72 sekunder |
 
 ---
 
-## Safety Considerations
+## Information om Danmarks marked
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
+Gadobutrol (Gadovist®) optræder ikke i de data, som blev indsamlet for Lægemiddelstyrelsens database. Dette er et **datakløft**, ikke fravær fra markedet — Gadovist® har en centraliseret markedsføringstilladelse fra Det Europæiske Lægemiddel-agentur (EMA), som automatisk er gyldig i Danmark og alle EU/EØS-medlemsstater. Sundhedsfaglige personale bør verificere den aktuelle produktlisting direkte.
 
-> As background context on gadolinium-based contrast agents (GBCAs) as a class: macrocyclic agents such as gadobutrol carry a significantly lower risk of gadolinium deposition and nephrogenic systemic fibrosis (NSF) compared to linear GBCAs, due to their more thermodynamically and kinetically stable chelate structure. Contraindications typically include severe renal impairment for linear agents; macrocyclic agents have a more favourable renal safety profile. The full SmPC should be consulted before any clinical use.
+> Bekræft venligst den aktuelle danske markedsstatus via [Lægemiddelstyrelsens produktdatabase](https://www.laegemiddelstyrelsen.dk) eller [EMA medicin-søgning](https://www.ema.europa.eu/en/medicines/find-medicine).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Henviser venligst til det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
-**Rationale:**
-Gadobutrol is a diagnostic MRI contrast agent with no known therapeutic mechanism relevant to benign prostatic hyperplasia or any of the other predicted indications. The TxGNN score of 83.24% for BPH almost certainly reflects diagnostic co-occurrence (routine use in prostate mpMRI) rather than therapeutic potential, and no supporting clinical or preclinical evidence exists (Evidence Level L5). Additionally, the vascular disease predictions (ranks 3–8), while supported by a substantial imaging literature, represent diagnostic — not therapeutic — evidence.
+> Som baggrundskontekst for gadolinium-baserede kontrastagenter (GBCA'er) som en klasse: makrocykliske agenter såsom gadobutrol har en betydeligt lavere risiko for gadolinium-deposition og nephrogen systemisk fibrose (NSF) sammenlignet med lineære GBCA'er på grund af deres mere termodynamisk og kinetisk stabil chelat-struktur. Kontraindikationer omfatter typisk alvorlig nyresvækkelse for lineære agenter; makrocykliske agenter har en mere gunstig nyresikkerhedsprofil. Det fuldstændige produktresumé bør konsulteres før enhver klinisk brug.
 
-**To proceed, the following is needed:**
+---
 
-- **Regulatory data remediation:** Verify and populate the Denmark/EMA marketing authorisation record for Gadovist® — current data shows zero licences, which is inconsistent with its EMA centralised authorisation status
-- **Model artefact review:** Investigate whether the TxGNN BPH prediction arises from diagnostic co-occurrence in training data (prostate mpMRI use); if confirmed, this candidate should be flagged as a known model limitation
-- **Mechanistic hypothesis:** If any new hypothesis arises suggesting gadolinium chelates have direct cellular activity in prostate tissue, targeted preclinical studies would be required before any clinical development consideration
-- **Vascular indications reinterpretation:** The peripheral arterial disease / peripheral vascular disease evidence (ranks 3–8) should be re-classified as **diagnostic use evidence**, not therapeutic repurposing evidence, and the pipeline scoring logic updated accordingly
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Gadobutrol er en diagnostisk MRI-kontrastagent uden kendt terapeutisk mekanisme relevant for benign prostatahyperplasi eller nogen af de øvrige forudsagte indikationer. TxGNN-scoren på 83.24% for BPH skyldes næsten helt sikkert diagnostisk samforekomst (rutinebrug i prostat mpMRI) snarere end terapeutisk potentiale, og ingen understøttende klinisk eller præklinisk evidens eksisterer (evidensniveau L5). Desuden repræsenterer de vaskulære sygdoms-forudsigelser (rang 3–8), selvom de er understøttet af en væsentlig billeddiagnostisk litteratur, diagnostisk — ikke terapeutisk — evidens.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Regulatorisk data-forbedring:** Verificer og udfyld Danmarks/EMA markedsføringstilladelsesoplysninger for Gadovist® — aktuelle data viser nul licenser, hvilket er uforenelig med dets EMA-centraliserede tilladelsestatus
+- **Modelartefakt-gennemgang:** Undersøg, om TxGNN BPH-forudsigelsen opstår fra diagnostisk samforekomst i træningsdata (prostat mpMRI-brug); hvis bekræftet, bør denne kandidat markeres som en kendt modelsbegrænsning
+- **Mekanisme-hypotese:** Hvis der opstår ny hypotese, der antyder, at gadolinium-chelater har direkte cellulær aktivitet i prostat-væv, ville målrettede prækliniske studier være nødvendige før nogen klinisk udvikling kan overvejes
+- **Vaskulær indikations-genfortolkning:** Evidensen for perifer arteriel sygdom / perifer vaskulær sygdom (rang 3–8) bør omklassificeres som **diagnostisk brugsbevis**, ikke terapeutisk repurposering-evidens, og pipeline-scoringslogikken bør opdateres i overensstemmelse hermed
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

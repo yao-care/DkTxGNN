@@ -29,94 +29,95 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pegaspargase: From Acute Lymphoblastic Leukemia to Precursor Lymphoblastic Lymphoma/Leukemia
+# Pegaspargase: Fra Akut Lymfoblastisk Leukæmi til Prekursor-Lymfoblastisk Lymfom/Leukæmi
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Pegaspargase (DrugBank DB00059) is a pegylated asparaginase enzyme therapy long used as a component of multi-agent chemotherapy for acute lymphoblastic leukemia (ALL). The TxGNN model predicts it may be effective for **precursor lymphoblastic lymphoma/leukemia** — a disease spectrum that substantially overlaps with its established use — supported by **50 clinical trials** and **20 publications**, though this appears to largely reaffirm an already-known indication rather than reveal a novel repurposing opportunity.
+Pegaspargase (DrugBank DB00059) er en pegyleret asparaginase-enzymterapi, der længe har været brugt som bestanddel af flerleds kemoterapibehandling til akut lymfoblastisk leukæmi (ALL). TxGNN-modellen forudsiger, at den kan være effektiv til **prekursor-lymfoblastisk lymfom/leukæmi** — en sygdomsgruppe, der i væsentlig grad overlapper med dens etablerede indikation — bakket op af **50 kliniske afprøvninger** og **20 publikationer**, selvom dette til stor dels synes at bekræfte en allerede kendt indikation snarere end at afsløre en virkelig ny ombestemmelsesmulighed.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute lymphoblastic leukemia (component of multi-agent chemotherapy) — not documented in Danish licensing data, as the drug is not currently marketed in Denmark |
-| Predicted New Indication | Precursor lymphoblastic lymphoma/leukemia |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Akut lymfoblastisk leukæmi (bestanddel af flerleds kemoterapibehandling) — ikke dokumenteret i dansk licenserede data, da lægemidlet ikke er aktuelt markedsført i Danmark |
+| Forudsagt ny indikation | Prekursor-lymfoblastisk lymfom/leukæmi |
+| TxGNN-forudsigelsesscore | 99.96% |
+| Bevisgradsgrad | L1 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA query pending). Based on known pharmacological information, pegaspargase is a PEGylated form of *E. coli*-derived L-asparaginase, an enzyme-based antineoplastic that depletes circulating asparagine — an amino acid that leukemic lymphoblasts cannot synthesize themselves, leading to selective protein-synthesis inhibition and cell death in asparagine-dependent malignant cells.
+For øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (DrugBank MOA-forespørgsel afventer). Baseret på kendt farmakologisk information er pegaspargase en pegyleret form af *E. coli*-afledt L-asparaginase, en enzymbaseret antineoplastisk behandling, der forbruger cirkulerende asparagin — en aminosyre, som leukæmiske lymfoblaster ikke selv kan syntetisere, hvilket fører til selektiv proteinsyntesehæmning og celledød i asparagin-afhængige ondartede celler.
 
-Precursor lymphoblastic lymphoma/leukemia (encompassing B-ALL, B-lymphoblastic lymphoma, and T-ALL/T-lymphoblastic lymphoma) is generally regarded as the same underlying disease biology as acute lymphoblastic leukemia, differing mainly by the degree of marrow versus extramedullary/nodal involvement at diagnosis. Because asparaginase's cytotoxic mechanism targets the shared metabolic vulnerability of lymphoblasts regardless of whether disease presents as leukemia or lymphoma, the mechanistic rationale for this "prediction" is strong.
+Prekursor-lymfoblastisk lymfom/leukæmi (omfattende B-ALL, B-lymfoblastisk lymfom og T-ALL/T-lymfoblastisk lymfom) betragtes generelt som samme underliggende sygdomsbiologi som akut lymfoblastisk leukæmi, og adskiller sig hovedsagelig ved graden af knoglemarv versus ekstramedulær/nodal involvering ved diagnose. Da asparaginases cytotoksiske mekanisme retter sig mod den delte metaboliske sårbarhed i lymfoblaster uanset om sygdommen præsenteres som leukæmi eller lymfom, er den mekanistiske begrundelse for denne "forudsigelse" stærk.
 
-It should be noted, however, that this is not a novel repurposing signal in the conventional sense: pegaspargase (marketed elsewhere as Oncaspar®) is already an established, guideline-standard component of ALL/lymphoblastic lymphoma induction and consolidation regimens internationally. The high TxGNN score most likely reflects the model correctly recovering a known, well-validated drug-disease relationship rather than surfacing a new therapeutic hypothesis. The practical value here lies in confirming Denmark's current lack of market access to a globally standard-of-care agent for this disease.
+Det skal bemærkes, at dette ikke er et nyt ombestemmelssignal i konventionel forstand: pegaspargase (markedsført andre steder som Oncaspar®) er allerede en etableret, retningslinjestandard-bestanddel af ALL/lymfoblastisk lymfom-induktions- og konsolideringsskemaer internationalt. Den høje TxGNN-score afspejler meget sandsynligt, at modellen korrekt gengiver en kendt, velvalideret lægemidle-sygdomsrelation snarere end at bringe et nyt terapeutisk hypotese frem. Den praktiske værdi her ligger i at bekræfte Danmarks aktuelle manglende markedsadgang til en globalt standard-plejeagent til denne sygdom.
 
-## Clinical Trial Evidence
+## Klinisk afprøvningsbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Afprøvningsnummer | Fase | Status | Indskrivning | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT00671034](https://clinicaltrials.gov/study/NCT00671034) | Phase 3 | Completed | 166 | Randomized comparison of calaspargase pegol vs. pegaspargase combined with chemotherapy in newly diagnosed high-risk ALL |
-| [NCT01117441](https://clinicaltrials.gov/study/NCT01117441) | Phase 3 | Completed | 6,136 | International collaborative protocol comparing combination chemotherapy regimens incorporating PEG-asparaginase in children/adolescents with ALL |
-| [NCT00819351](https://clinicaltrials.gov/study/NCT00819351) | Phase 3 | Completed | 650 | NOPHO protocol: intermittent vs. continuous PEG-asparaginase dosing for asparagine depletion in pediatric/young adult ALL |
-| [NCT00549848](https://clinicaltrials.gov/study/NCT00549848) | Phase 3 | Completed | 600 | Total Therapy XVI: high-dose vs. conventional-dose PEG-asparaginase during continuation therapy in ALL |
-| [NCT02393859](https://clinicaltrials.gov/study/NCT02393859) | Phase 3 | Completed | 111 | Blinatumomab consolidation vs. conventional chemotherapy (incl. pegaspargase) in pediatric high-risk relapsed B-precursor ALL |
-| [NCT01190930](https://clinicaltrials.gov/study/NCT01190930) | Phase 3 | Active, not recruiting | 9,350 | Risk-adapted chemotherapy regimens in newly diagnosed standard-risk B-ALL or localized B-lymphoblastic lymphoma |
-| [NCT02003222](https://clinicaltrials.gov/study/NCT02003222) | Phase 3 | Active, not recruiting | 488 | Blinatumomab plus chemotherapy (pegaspargase-containing) vs. induction chemotherapy alone in newly diagnosed BCR-ABL-negative B-ALL |
-| [NCT03914625](https://clinicaltrials.gov/study/NCT03914625) | Phase 3 | Active, not recruiting | 6,720 | Blinatumomab combined with chemotherapy including pegaspargase for standard-risk B-ALL/B-lymphoblastic lymphoma |
-| [NCT02716233](https://clinicaltrials.gov/study/NCT02716233) | Phase 3 | Active, not recruiting | 2,044 | French national protocol optimizing L-asparaginase use in pediatric/adolescent ALL |
-| [NCT03959085](https://clinicaltrials.gov/study/NCT03959085) | Phase 3 | Recruiting | 5,951 | Inotuzumab ozogamicin added to pegaspargase-containing post-induction therapy for high-risk B-ALL |
+| [NCT00671034](https://clinicaltrials.gov/study/NCT00671034) | Fase 3 | Afsluttet | 166 | Randomiseret sammenligning af calaspargase pegol vs. pegaspargase kombineret med kemoterapibehandling ved nydiagnosticeret høj-risk ALL |
+| [NCT01117441](https://clinicaltrials.gov/study/NCT01117441) | Fase 3 | Afsluttet | 6.136 | Internationalt samarbejdsprotokol sammenlignende kombinationskemoterapiskemaer indeholdende PEG-asparaginase hos børn/unge med ALL |
+| [NCT00819351](https://clinicaltrials.gov/study/NCT00819351) | Fase 3 | Afsluttet | 650 | NOPHO-protokol: intermitterende vs. kontinuerlig PEG-asparaginase-dosering til asparagin-depletion hos pædriatrisk/ung voksen ALL |
+| [NCT00549848](https://clinicaltrials.gov/study/NCT00549848) | Fase 3 | Afsluttet | 600 | Total Therapy XVI: høj-dosis vs. konventionel-dosis PEG-asparaginase under fortsættelsesvejledning ved ALL |
+| [NCT02393859](https://clinicaltrials.gov/study/NCT02393859) | Fase 3 | Afsluttet | 111 | Blinatumomab-konsolidering vs. konventionel kemoterapibehandling (inkl. pegaspargase) hos pædriatrisk høj-risk recidiv B-prekursor ALL |
+| [NCT01190930](https://clinicaltrials.gov/study/NCT01190930) | Fase 3 | Aktivt, ikke rekrutterer | 9.350 | Risikobaseret kemoterapiskemaer ved nydiagnosticeret standard-risk B-ALL eller lokaliseret B-lymfoblastisk lymfom |
+| [NCT02003222](https://clinicaltrials.gov/study/NCT02003222) | Fase 3 | Aktivt, ikke rekrutterer | 488 | Blinatumomab plus kemoterapibehandling (pegaspargase-indeholdende) vs. induktionskemoterapibehandling alene ved nydiagnosticeret BCR-ABL-negativ B-ALL |
+| [NCT03914625](https://clinicaltrials.gov/study/NCT03914625) | Fase 3 | Aktivt, ikke rekrutterer | 6.720 | Blinatumomab kombineret med kemoterapibehandling inklustrende pegaspargase til standard-risk B-ALL/B-lymfoblastisk lymfom |
+| [NCT02716233](https://clinicaltrials.gov/study/NCT02716233) | Fase 3 | Aktivt, ikke rekrutterer | 2.044 | Fransk nationalt protokol der optimerer L-asparaginase-brug hos pædriatrisk/ungdomsaldersgruppe med ALL |
+| [NCT03959085](https://clinicaltrials.gov/study/NCT03959085) | Fase 3 | Rekrutterer | 5.951 | Inotuzumab ozogamicin tilsat pegaspargase-indeholdende post-induktionsvejledning til høj-risk B-ALL |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Clinical Trial (DFCI 11-001) | Journal of Clinical Oncology | Efficacy and toxicity of pegaspargase vs. calaspargase pegol in childhood ALL |
-| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Clinical Trial (GIMEMA LAL1913) | Blood Advances | Pegaspargase-modified risk-oriented program improves outcomes in adult Ph-negative ALL/lymphoblastic lymphoma |
-| [21454191](https://pubmed.ncbi.nlm.nih.gov/21454191/) | 2011 | Clinical Trial | Clinical Lymphoma, Myeloma & Leukemia | Augmented hyper-CVAD with intensified pegaspargase dosing improves salvage therapy outcomes in adult relapsed ALL |
-| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | Clinical Trial (COG AALL0232) | Journal of Clinical Oncology | Dexamethasone and high-dose methotrexate improve outcomes in high-risk B-ALL |
-| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | Clinical Trial (Phase 2) | International Journal of Hematology | Efficacy, safety, and pharmacokinetics of lyophilized pegaspargase in previously untreated ALL |
-| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Expert Consensus | Haematologica | Panel consensus on recognition, prevention, and management of asparaginase/pegaspargase-associated adverse events in adults |
-| [31030380](https://pubmed.ncbi.nlm.nih.gov/31030380/) | 2019 | Review | Drugs | Comprehensive review of pegaspargase in acute lymphoblastic leukaemia |
-| [31977001](https://pubmed.ncbi.nlm.nih.gov/31977001/) | 2020 | Review ("How I treat") | Blood | Practical guidance on managing pegaspargase toxicities in adult ALL |
-| [17696798](https://pubmed.ncbi.nlm.nih.gov/17696798/) | 2007 | Review | Expert Opinion on Pharmacotherapy | Pharmacology and clinical role of PEG-asparaginase in acute leukemia |
-| [9161659](https://pubmed.ncbi.nlm.nih.gov/9161659/) | 1997 | Review | The Annals of Pharmacotherapy | Early review of pegaspargase chemistry, pharmacology, and clinical activity |
+| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Klinisk afprøvning (DFCI 11-001) | Journal of Clinical Oncology | Effektivitet og toksicitet af pegaspargase vs. calaspargase pegol ved børne-ALL |
+| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Klinisk afprøvning (GIMEMA LAL1913) | Blood Advances | Pegaspargase-modificeret risikobaseret program forbedrer resultater ved voksen Ph-negativ ALL/lymfoblastisk lymfom |
+| [21454191](https://pubmed.ncbi.nlm.nih.gov/21454191/) | 2011 | Klinisk afprøvning | Clinical Lymphoma, Myeloma & Leukemia | Intensificeret hyper-CVAD med intensificeret pegaspargase-dosering forbedrer salvagebehandlingsresultater ved voksen recidiv ALL |
+| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | Klinisk afprøvning (COG AALL0232) | Journal of Clinical Oncology | Dexametason og høj-dosis metotreksat forbedrer resultater ved høj-risk B-ALL |
+| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | Klinisk afprøvning (Fase 2) | International Journal of Hematology | Effektivitet, sikkerhed og farmakokinetik af lyofiliseret pegaspargase ved tidligere ubehandlet ALL |
+| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Ekspertkonsensusdokument | Haematologica | Panelets konsensus om genkendelse, prævention og håndtering af asparaginase/pegaspargase-associerede bivirkningstilstande hos voksne |
+| [31030380](https://pubmed.ncbi.nlm.nih.gov/31030380/) | 2019 | Oversigt | Drugs | Omfattende oversigt over pegaspargase ved akut lymfoblastisk leukæmi |
+| [31977001](https://pubmed.ncbi.nlm.nih.gov/31977001/) | 2020 | Oversigt ("Hvordan jeg behandler") | Blood | Praktisk vejledning i håndtering af pegaspargase-toksiciteter ved voksen-ALL |
+| [17696798](https://pubmed.ncbi.nlm.nih.gov/17696798/) | 2007 | Oversigt | Expert Opinion on Pharmacotherapy | Farmakologi og klinisk rolle af PEG-asparaginase ved akut leukæmi |
+| [9161659](https://pubmed.ncbi.nlm.nih.gov/9161659/) | 1997 | Oversigt | The Annals of Pharmacotherapy | Tidlig oversigt over pegaspargase-kemi, farmakologi og klinisk aktivitet |
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Pegaspargase is **not currently marketed in Denmark** — no Marketing Authorisations (national Laegemiddelstyrelsen or centralised EMA) are recorded in the available regulatory data.
+Pegaspargase er **ikke aktuelt markedsført i Danmark** — ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) registreres i de tilgængelige regulatoriske data.
 
-## Cytotoxicity
+## Cellgiftighed
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — enzyme-depleting antineoplastic (L-asparaginase class), mechanistically distinct from DNA-damaging cytotoxics but administered within standard cytotoxic chemotherapy protocols |
-| Myelosuppression Risk | Low to moderate as a standalone agent — asparaginase's primary dose-limiting toxicities are hypersensitivity, hepatotoxicity, pancreatitis, coagulopathy/thrombosis, and hyperglycemia rather than direct marrow suppression; myelosuppression risk is compounded when combined with other agents in standard multi-drug ALL regimens (per PMID 40109190, 31977001) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver function (ALT/AST/bilirubin/albumin), coagulation parameters (fibrinogen, antithrombin), lipase/amylase (pancreatitis risk), fasting glucose, triglycerides |
-| Handling Protection | Requires standard cytotoxic/antineoplastic drug handling precautions (PPE, closed-system reconstitution, designated disposal) per institutional hazardous drug handling regulations |
+| Element | Indhold |
+|---------|---------|
+| Klassificering af cellgiftighed | Konventionel cellgiftende — enzym-depleringspræparat med antineoplastisk effekt (L-asparaginase-klasse), mekanistisk forskellig fra DNA-skadende cellgifte, men administreret inden for standard cellgiftige kemoterapiskemaer |
+| Risk for benmarvsundertrykkelse | Lav til moderat som selvstændig agens — asparaginases primære dose-begrænsende toksiciteter er overfølsomhedsreaktioner, hepatotoksicitet, pankreatitis, koagulopati/trombose og hyperglykæmi snarere end direkte benmarvsundertrykkelse; benmarvsundertrykkelsesrisiko forværres når det kombineres med andre agens i standard multi-lægemidle ALL-skemaer (pr. PMID 40109190, 31977001) |
+| Kvalmeudløsende klassificering | Lav til moderat |
+| Overvågningselementer | Blodprøve (CBC) med differential, leverprøver (ALT/AST/bilirubin/albumin), koagulationsparametre (fibrinogen, antitrombin), lipase/amylase (pankreatitis-risk), faste-glukose, triglycerider |
+| Håndteringsbeskyttelse | Kræver standard cellgiftig/antineoplastisk lægemiddelhåndtering (personlige beskyttelsesudstyr, lukket system-rekonstitution, designeret bortskaffelse) pr. institutionelle farlige lægemiddelhåndteringsregler |
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information — key warnings, contraindications, and drug interaction data were not available in the structured safety dataset for this drug.
+Se venligst den godkendte produktinformation (SmPC) for sikkerhedsoplysninger — vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i det strukturerede sikkerhedsdatasæt for dette lægemiddel.
 
-*Supplementary note:* Literature evidence independently documents a well-characterized adverse event profile for pegaspargase, including hypersensitivity reactions, hepatotoxicity, pancreatitis, thrombosis/coagulopathy, and hyperglycemia (PMID 40109190, 31977001) — these should inform SmPC review once obtained.
+*Supplerende bemærkning:* Litteraturbevis dokumenterer uafhængigt en velkarakteriseret bivirkningsprofil for pegaspargase, herunder overfølsomhedsreaktioner, hepatotoksicitet, pankreatitis, trombose/koagulopati og hyperglykæmi (PMID 40109190, 31977001) — disse bør informere SmPC-gennemgang når den bliver tilgængelig.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Afgørelse: Afvent**
 
-**Rationale:**
-The clinical trial and literature evidence base for pegaspargase in precursor lymphoblastic lymphoma/leukemia is strong (L1 — multiple completed Phase 3 RCTs), reflecting its already-established role in ALL treatment globally. However, a **Blocking** data gap (missing TFDA/SmPC warnings and contraindications) prevents completion of the mandatory S1 safety pre-assessment, and the drug currently holds zero Marketing Authorisations in Denmark.
+**Begrundelse:**
+Bevisgrundlaget for pegaspargase ved prekursor-lymfoblastisk lymfom/leukæmi baseret på kliniske afprøvninger og litteratur er stærk (L1 — flere afsluttede fase 3 RCT'er), hvilket afspejler dens allerede etablerede rolle i ALL-behandling globalt. Imidlertid forhindrer et **blokerende** datagab (manglende TFDA/SmPC-advarsler og kontraindikationer) færdiggørelse af den obligatoriske S1 sikkerhedspræ-vurdering, og lægemidlet holder aktuelt nul markedsføringstilladelser i Danmark.
 
-**To proceed, the following is needed:**
-- Official SmPC / product label with warnings, contraindications, and drug interaction data (currently blocking)
-- Confirmed mechanism-of-action documentation from DrugBank
-- Drug-drug interaction (DDI) data (current query returned no results)
-- Regulatory pathway assessment for Danish market entry or named-patient/compassionate access, given the drug is not currently authorised in Denmark
+**For at fortsætte kræves følgende:**
+- Officiel produktinformation/produktetiket med advarsler, kontraindikationer og lægemiddelinteraktionsdata (aktuelt blokerende)
+- Bekræftet virkningsmekanisme-dokumentation fra DrugBank
+- Lægemiddel-lægemiddel-interaktions (DDI) data (aktuel forespørgsel gav ingen resultater)
+- Vurdering af regulatorisk vej til dansk markedsindtræden eller patient-specifik/compassionate use adgang, i betragtning af at lægemidlet ikke er aktuelt godkendt i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

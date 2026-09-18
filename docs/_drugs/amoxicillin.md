@@ -29,88 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amoxicillin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+# Amoxicillin: Fra bakterielle infektioner til polyklonal hyperviskositætssyndrom
 
-## One-Sentence Summary
+## Opsummering i én sætning
 
-Amoxicillin is a broad-spectrum beta-lactam antibiotic widely used to treat bacterial infections caused by susceptible Gram-positive and Gram-negative organisms.
-The TxGNN model predicts it may have a role in **Polyclonal Hyperviscosity Syndrome**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-The mechanistic connection is indirect and speculative, and the evidence is insufficient to move beyond a model-level prediction at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (broad-spectrum antibiotic; indication data not captured in current dataset) |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed (0 authorisations on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Amoxicillin er et bredt spektrum beta-lactam-antibiotikum, der i vid udstrækning bruges til at behandle bakterielle infektioner forårsaget af modtagelige gram-positive og gram-negative organismer.
+TxGNN-modellen forudsiger, at det kan have en rolle i **polyklonal hyperviskositætssyndrom**, med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning.
+Den mekanistiske forbindelse er indirekte og spekulativ, og beviserne er utilstrækkelige til at bevæge sig ud over en modelforudsigelse på dette stadium.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not available in the current dataset. Based on well-established pharmacological knowledge, Amoxicillin is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis by covalently binding to penicillin-binding proteins (PBPs). This interferes with the final cross-linking step of peptidoglycan biosynthesis, leading to osmotic instability and bacterial cell lysis. It is active against a broad range of susceptible organisms including *Streptococcus*, *Haemophilus influenzae*, *E. coli*, and *Helicobacter pylori*.
-
-Polyclonal hyperviscosity syndrome is caused by the excessive production of polyclonal immunoglobulins, typically arising in the setting of chronic infection, systemic autoimmune disease, or B-cell dysregulation — not a malignant clone, as seen in Waldenström's macroglobulinaemia. The proposed indirect mechanistic link is that a persistent bacterial infection (e.g., subacute bacterial endocarditis) may continuously drive polyclonal immunoglobulin production through chronic antigen stimulation. Eradicating the underlying infection with antibiotics such as Amoxicillin could theoretically reduce this antigen-driven stimulus and allow immunoglobulin levels and blood viscosity to normalise.
-
-However, this is a multi-step, indirect inference rather than a direct pharmacological mechanism. Amoxicillin has no known direct effect on immunoglobulin synthesis, plasma cell activity, or blood viscosity. The TxGNN knowledge graph likely captured an epidemiological co-occurrence between bacterial infection and hyperviscosity rather than a true drug–disease therapeutic relationship. Biological plausibility is considered low, and this prediction should not be interpreted as evidence of efficacy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Bakterielle infektioner (bredt spektrum antibiotikum; indikationsdata er ikke indsamlet i det aktuelle datasæt) |
+| Forudsagt ny indikation | Polyklonal hyperviskositætssyndrom |
+| TxGNN-forudsigelsesscore | 99.63% |
+| Bevisniveau | L5 |
+| Markedsstatus Danmark | Ikke markedsført (0 godkendelser registreret) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Tilbageholde |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede mekanisme-af-handling-data er ikke tilgængelig i det aktuelle datasæt. Baseret på veletableret farmakologisk viden er amoxicillin et beta-lactam-antibiotikum, der hæmmer syntesen af bakteriecellvæggen ved kovalent binding til penicillin-bindende proteiner (PBP'er). Dette forstyrrer det endelige tværbindings-trin af peptidoglycanbiosyntese, hvilket fører til osmotisk instabilitet og lysis af bakterieceller. Det er aktivt mod en bred vifte af modtagelige organismer, herunder *Streptococcus*, *Haemophilus influenzae*, *E. coli* og *Helicobacter pylori*.
 
----
+Polyklonal hyperviskositætssyndrom er forårsaget af overdreven produktion af polyklonale immunoglobuliner, typisk opstået i sammenhæng med kronisk infektion, systemisk autoimmun sygdom eller B-celle-dysregulering — ikke en malign klon, som set i Waldenströms macroglobulinæmi. Det foreslåede indirekte mekanistiske link er, at en vedvarende bakteriel infektion (f.eks. subakut bakteriel endokarditis) kan kontinuerligt drive polyklonal immunoglobulinproduktion gennem kronisk antigen-stimulering. Udryddelse af den underliggende infektion med antibiotika såsom amoxicillin kunne teoretisk reducere denne antigen-drevet stimulus og give immunoglobulin-niveauer og blodviskositet mulighed for at normalisere sig.
 
-## Denmark Market Information
-
-Based on data available from the Laegemiddelstyrelsen (Danish Medicines Agency), Amoxicillin currently has no recorded marketing authorisations in this dataset.
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|-------------|-------------|---------------------|
-| — | — | — | No authorisations on record |
-
-> **Note for clinicians:** Amoxicillin is one of the most widely prescribed antibiotics globally and is available in numerous formulations across European markets. The absence of records in this dataset likely reflects a data pipeline gap rather than a true absence of registration. Current authorisation status and approved products should be verified directly via the [Laegemiddelstyrelsen product database](https://www.laegemiddelstyrelsen.dk) or the [EMA medicines database](https://www.ema.europa.eu/en/medicines).
+Imidlertid er dette en multi-trin-slutning, der er indirekte snarere end en direkte farmakologisk mekanisme. Amoxicillin har ingen kendt direkte virkning på immunoglobulin-syntese, plasmacelleaktivitet eller blodviskositet. TxGNN-vidensgraf har sandsynligvis fanget en epidemiologisk samforekommen mellem bakteriel infektion og hyperviskositet snarere end et sandt lægemiddel-sygdom terapeutisk forhold. Biologisk plausibilitet anses for at være lav, og denne forudsigelse bør ikke fortolkes som bevis på effektivitet.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-All TxGNN predictions for Amoxicillin are rated L5 (model prediction only), with zero supporting clinical trials or published literature across all five predicted indications. The mechanistic link between Amoxicillin's antibacterial action and polyclonal hyperviscosity syndrome relies on an indirect, multi-step chain of reasoning with no direct pharmacological basis, making this prediction insufficient to justify further development at this time.
-
-**To proceed, the following is needed:**
-
-- **Mechanism of action data**: Retrieve full MOA and drug category information from DrugBank (DB01060) to enable proper mechanistic evaluation
-- **Safety profile**: Obtain complete key warnings, contraindications, and drug–drug interactions from the approved SmPC or Laegemiddelstyrelsen records
-- **Denmark market verification**: Confirm current Danish market status and available product authorisations directly via Laegemiddelstyrelsen or EMA
-- **Supporting literature**: Conduct a broader literature review for any case reports or epidemiological studies linking antibiotic use to changes in immunoglobulin levels or blood viscosity
-- **Biological plausibility assessment**: Before advancing, an independent expert review of the mechanistic rationale is strongly recommended; the other four predicted indications (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease) also lack biological plausibility for Amoxicillin and should not be prioritised
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any clinical application. All content should be evaluated in the context of current clinical guidelines and individual patient circumstances.
+## Bevis fra litteratur
+
+I øjeblikket er der ingen relateret litteratur tilgængelig.
+
+---
+
+## Oplysninger om det danske marked
+
+Baseret på data tilgængelig fra Lægemiddelstyrelsen har amoxicillin i øjeblikket ingen registrerede markedsføringstilladelser i dette datasæt.
+
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+|------|-------------|-------------|---------------------|
+| — | — | — | Ingen tilladelser registreret |
+
+> **Note til klinikere:** Amoxicillin er et af de mest udskrevne antibiotika globalt og er tilgængeligt i adskillige formuleringer på tværs af europæiske markeder. Fraværet af registre i dette datasæt afspejler sandsynligvis et dataledelses-gap snarere end et sandt fravær af registrering. Aktuel autorisationsstatus og godkendte produkter bør bekræftes direkte via [Lægemiddelstyrelsens produktdatabase](https://www.laegemiddelstyrelsen.dk) eller [EMA-lægemiddeldatabasen](https://www.ema.europa.eu/en/medicines).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Tilbageholde**
+
+**Begrundelse:**
+Alle TxGNN-forudsigelser for amoxicillin er vurderet L5 (kun modelforudsigelse), med nul understøttende kliniske forsøg eller publiceret litteratur på tværs af alle fem forudsagte indikationer. Det mekanistiske link mellem amoxicillins antibakterielle virkning og polyklonal hyperviskositætssyndrom er afhængig af en indirekte, multi-trin-ræsonnering uden direkte farmakologisk grundlag, hvilket gør denne forudsigelse utilstrækkelig til at retfærdiggøre yderligere udvikling på dette tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Mekanisme-af-handling data**: Hent fulde MOA- og lægemiddelkategoriinformationer fra DrugBank (DB01060) for at muliggøre ordentlig mekanistisk evaluering
+- **Sikkerhedsprofil**: Indhent fuldstændige vigtige advarsler, kontraindikatorer og lægemiddel-lægemiddel-interaktioner fra det godkendte produktresumé eller Lægemiddelstyrelsens registre
+- **Verificering af dansk marked**: Bekræft aktuel dansk markedsstatus og tilgængelige produktgodkendelser direkte via Lægemiddelstyrelsen eller EMA
+- **Understøttende litteratur**: Foretag en bredere litteraturgennemgang for eventuelle kasuistikker eller epidemiologiske studier, der forbinder antibiotikaanvendelse med ændringer i immunoglobulin-niveauer eller blodviskositet
+- **Biologisk plausibilitetsvurdering**: Før man går videre, anbefales det kraftigt at få foretaget en uafhængig ekspertgennemgang af den mekanistiske begrundelse; de øvrige fire forudsagte indikationer (hyperamylasæmi, medfødt analbuminæmi, blodgruppeinkompabilitet, præmalign hæmatologisk sygdom) mangler også biologisk plausibilitet for amoxicillin og bør ikke prioriteres
+
+---
+
+> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er kun til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddelomformålskandidater kræver klinisk validering før enhver klinisk anvendelse. Alt indhold skal evalueres i sammenhæng med aktuelle kliniske retningslinjer og individuelle patientomstændigheder.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

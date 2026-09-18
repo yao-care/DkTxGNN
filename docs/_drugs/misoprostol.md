@@ -29,95 +29,94 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Misoprostol: From Gastric Ulcer Protection to Amenorrhea
+# Misoprostol: Fra mavesårsbeskyttelse til amenoré
 
-## One-Sentence Summary
+## Ét-linjers sammenfatning
 
-Misoprostol is a synthetic prostaglandin E1 (PGE1) analogue established in clinical practice for the prevention of NSAID-induced gastric ulcers and for obstetric indications including cervical ripening and medical abortion.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **0 registered clinical trials** and **7 publications** currently supporting this direction — however, all available evidence pertains to pregnancy-related amenorrhoea in the context of medical abortion, not to primary or secondary amenorrhoea as an independent gynaecological condition.
-This conceptual overlap substantially limits the interpretability of the prediction and warrants careful scoping before any repurposing programme is initiated.
+Misoprostol er et syntetisk prostaglandin E1 (PGE1) analogon, der er etableret i klinisk praksis for forebyggelse af NSAID-induceret mavesår og til obstetricke indikationer, herunder cervixmodning og medicinsk abort. TxGNN-modellen forudsiger, at det kan være effektivt for **amenoré**, med **0 registrerede kliniske forsøg** og **7 publikationer**, der i øjeblikket understøtter denne retning — dog vedrører alt tilgængeligt bevis graviditetsbetinget amenoré i forbindelse med medicinsk abort, ikke primær eller sekundær amenoré som en uafhængig gynækologisk tilstand. Denne konceptuelle overlapning begrænser væsentligt tolkeligheden af forudsigelsen og nødvendiggør omhyggelig afgrænsning, før et eventuelt repurposing-program igangsættes.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not registered in Denmark; known internationally for NSAID-associated gastric ulcer prevention and obstetric use (cervical ripening, medical abortion) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | Ikke registreret i Danmark; kendt internationalt for forebyggelse af NSAID-associeret mavesår og obstetricke indikationer (cervixmodning, medicinsk abort) |
+| Forudsagt ny indikation | Amenoré |
+| TxGNN-forudsigelsesscore | 99.64% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Misoprostol is a synthetic prostaglandin E1 (PGE1) analogue that binds to EP1 and EP3 receptors on uterine smooth muscle and the cervix. Through this mechanism, it induces uterine contractions and cervical softening and dilation. In the specific context of **pregnancy-related amenorrhoea** — such as missed abortion, anembryonic pregnancy, or unwanted early pregnancy — activating these receptors can trigger endometrial shedding and restore menstrual flow. When co-administered with mifepristone (a progesterone receptor antagonist), the synergistic effect on endometrial shedding is well established and forms the basis of licensed medical abortion regimens worldwide.
+Misoprostol er et syntetisk prostaglandin E1 (PGE1) analogon, der bindes til EP1 og EP3 receptorer på uterins glatte muskulatur og på cervix. Gennem denne mekanisme inducerer det uterine sammentrækninger og cervical opblødsning og dilatation. I den specifik kontekst af **graviditetsbetinget amenoré** — såsom tilbageholdt spontan abort, anembryonisk graviditet eller uønsket tidlig graviditet — kan aktivering af disse receptorer udløse endometrial skalling og genoprette menstruationsflow. Når det gives sammen med mifepriston (en progesteronreceptorantagonist), er den synergistiske effekt på endometrial skalling velkendt og danner grundlaget for licenserede medicinske abortrerapier verden over.
 
-The biological rationale for the TxGNN prediction is therefore mechanistically coherent within a narrow clinical context: misoprostol restores menstruation by expelling uterine contents in women whose amenorrhoea is caused by an ongoing pregnancy. This is also the mechanistic pathway captured in the knowledge graph, which likely drove the high prediction score of 99.64%.
+Den biologiske begrundelse for TxGNN-forudsigelsen er derfor mekanistisk sammenhængende inden for en snæver klinisk kontekst: misoprostol genopretter menstruation ved at tømme uterustindhold hos kvinder, hvis amenoré er forårsaget af en pågående graviditet. Dette er også den mekanistiske vej, der er fanget i vidensgrafen, hvilket sandsynligvis drev den høje forudsigelsesscore på 99.64%.
 
-However, there is a critical conceptual limitation that must be highlighted for clinical decision-making. **All seven publications identified in this evidence pack address termination of pregnancy — not the treatment of amenorrhoea as a primary gynaecological diagnosis.** Primary amenorrhoea (e.g., due to hypothalamic-pituitary-ovarian axis dysfunction or chromosomal abnormality) and secondary amenorrhoea (e.g., due to Asherman's syndrome, hyperprolactinaemia, or premature ovarian insufficiency) involve fundamentally different aetiologies for which misoprostol's prostaglandin-mediated uterine contractility has no established therapeutic role. The high TxGNN score reflects pharmacological overlap in a knowledge graph pathway rather than evidence of benefit in the broader amenorrhoea disease category.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for misoprostol in amenorrhoea (ClinicalTrials.gov and ICTRP searches returned 0 results as of 2026-03-26).
+Der er dog en kritisk konceptuel begrænsning, som skal fremhæves for klinisk beslutningstagning. **Alle syv publikationer identificeret i denne bevissamling omhandler afbrydelse af graviditet — ikke behandling af amenoré som en primær gynækologisk diagnose.** Primær amenoré (f.eks. på grund af disfunktion af hypotalamus-hypofyse-ovarie-aksen eller kromosomal abnormalitet) og sekundær amenoré (f.eks. på grund af Ashermans syndrom, hyperprolaktinæmi eller præmatur ovarial insufficiens) involverer fundamentalt forskellige etiologier, for hvilke misoprotols prostaglandin-medierede uterinkontraktion ikke har nogen etableret terapeutisk rolle. Den høje TxGNN-score afspejler farmakologisk overlapning i vidensgrafen snarere end bevis for fordel i den bredere amenoré-sygdomskategori.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | *Reproductive Sciences* | Low-dose mifepristone (75 mg) + self-administered misoprostol for ultra-early medical abortion in women with amenorrhoea ≤35 days; n=744; confirms safety, efficacy, and acceptability in hospital vs. self-administration settings |
-| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT | *Reproductive Sciences* | Dose-ranging RCT of mifepristone (50–150 mg) + misoprostol (200 µg) for termination of ultra-early pregnancy (amenorrhoea ≤35 days); n=2,500; complete abortion without surgical intervention as primary endpoint |
-| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | RCT | *J Obstet Gynaecol Res* | Self-administered low-dose mifepristone + misoprostol for early pregnancy termination; safety and efficacy confirmed across self- and clinic-administration arms |
-| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Cohort Study | *Human Reproduction* | Feasibility study of mifepristone + misoprostol administered before expected menstruation for unintended pregnancy prevention; evaluates restoration of non-pregnant menstrual status |
-| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Prospective Case Series | *BMJ* | Early evidence for misoprostol in medical management of missed abortion and anembryonic pregnancy; demonstrates uterine evacuation without surgical intervention |
-| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Systematic Review | *J Obstet Gynaecol Canada* | Systematic review of endometrial ablation for abnormal uterine bleeding; provides broader context for uterine interventions affecting menstrual patterns, though misoprostol is not the primary focus |
-| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case Series | *Cureus* | Case report of acute fatty liver of pregnancy (AFLP) presenting with amenorrhoea as a symptom; misoprostol used in peripartum management; peripheral relevance only |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for misoprostol i amenoré (søgninger på ClinicalTrials.gov og ICTRP returnerede 0 resultater pr. 2026-03-26).
 
 ---
 
-## Denmark Market Information
+## Litteraturevidensе
 
-Misoprostol currently holds **no marketing authorisations** recorded in the Danish Medicines Agency (Laegemiddelstyrelsen) dataset used for this analysis.
-
-> **Note for clinicians:** Misoprostol-containing products (e.g., Cytotec®, or the fixed-dose combination Arthrotec® with diclofenac) and mifepristone-misoprostol combination products for medical abortion may be available in Denmark via centralised EMA authorisation, parallel import, or named-patient supply arrangements. Current availability and authorisation status should be verified directly with Laegemiddelstyrelsen or the EMA product database before any prescribing decision.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-> **Important clinical notice:** Although formal safety data were not available in the current evidence pack, misoprostol carries well-recognised and serious risks that are essential for any clinical evaluation. These include uterine hyperstimulation, uterine rupture (risk markedly elevated in women with prior uterine surgery or caesarean section), severe foetal harm and teratogenicity, and significant gastrointestinal adverse effects. Misoprostol is **absolutely contraindicated** in pregnancy when used outside of a supervised obstetric or termination-of-pregnancy protocol. These considerations must be formally documented before any repurposing assessment can proceed past Stage 0.
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
+|------|-----|------|-----------|----------------|
+| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | *Reproductive Sciences* | Lav-dose mifepriston (75 mg) + selvadministreret misoprostol til meget tidlig medicinsk abort hos kvinder med amenoré ≤35 dage; n=744; bekræfter sikkerhed, virkning og acceptabilitet i hospital mod selvadministration |
+| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT | *Reproductive Sciences* | Dosis-varierende RCT af mifepriston (50–150 mg) + misoprostol (200 µg) til afbrydelse af meget tidlig graviditet (amenoré ≤35 dage); n=2,500; fuldstændig abort uden kirurgisk indgreb som primært endepunkt |
+| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | RCT | *J Obstet Gynaecol Res* | Selvadministreret lav-dose mifepriston + misoprostol til afbrydelse af tidlig graviditet; sikkerhed og virkning bekræftet på tværs af selv- og klinik-administrations behandlingsarme |
+| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Kohortestudie | *Human Reproduction* | Gennemførbarheds studie af mifepriston + misoprostol administreret før forventet menstruation til forebyggelse af uplanlagt graviditet; evaluerer genoprettelse af ikke-gravid menstruationsstatus |
+| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Prospektivt kasuistik | *BMJ* | Tidlig bevis for misoprostol i medicinsk styring af tilbageholdt spontan abort og anembryonisk graviditet; demonstrerer uterustømning uden kirurgisk indgreb |
+| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Systematisk oversigt | *J Obstet Gynaecol Canada* | Systematisk oversigt over endometrial ablation til abnorm uterinblødning; giver bredere kontekst for uterine indgreb, der påvirker menstruationsmønstre, selvom misoprostol ikke er det primære fokus |
+| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Kasuistik | *Cureus* | Kasuistik af akut fedtlever i graviditet (AFLP), der præsenterer sig med amenoré som symptom; misoprostol brugt i peripartum-styring; kun perifer relevans |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Misoprostol har i øjeblikket **ingen markedsføringstilladelser** optaget i datasættet for Det Danske Lægemiddelagentur (Laegemiddelstyrelsen), der blev brugt til denne analyse.
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.64%), the evidence base reveals a fundamental scope mismatch: all seven identified publications address medical abortion in the setting of pregnancy-related amenorrhoea, rather than amenorrhoea as an independent gynaecological condition. With zero registered clinical trials, no Danish marketing authorisation, and missing safety and MOA data in the formal evidence pack, this candidate cannot advance beyond the research hypothesis stage.
-
-**To proceed, the following is needed:**
-
-- **Clarify the target phenotype:** Define whether the repurposing hypothesis concerns (a) pregnancy-related amenorrhoea (where misoprostol is already in clinical use, making formal repurposing redundant) or (b) primary/secondary non-pregnancy amenorrhoea (where a new mechanistic rationale and dedicated clinical evidence would need to be developed from scratch)
-- **Retrieve full MOA data** from DrugBank (DB00929) to complete the mechanistic analysis
-- **Obtain the SmPC / prescribing information** including all warnings, contraindications, and special precautions from Laegemiddelstyrelsen or EMA to enable a Stage 1 safety screen
-- **Conduct DDI analysis** — current dataset returned no interactions, likely due to a query failure rather than an absence of interactions
-- **Commission a targeted literature review** specifically on misoprostol in non-pregnancy secondary amenorrhoea (e.g., Asherman's syndrome, HPO axis disorders) to determine whether any relevant preclinical or early-phase evidence exists beyond the current retrieval
-- **Regulatory pathway assessment:** If the hypothesis is refined and evidence supports progression, determine whether a new indication application to Laegemiddelstyrelsen or EMA is feasible given the current marketing authorisation landscape in Denmark
+> **Bemærk for klinikere:** Misoprostol-holdige produkter (f.eks. Cytotec®, eller kombinationen med fast dosis Arthrotec® med diclofenac) og mifepriston-misoprostol-kombinationsprodukter til medicinsk abort kan være tilgængelige i Danmark via centraliseret EMA-godkendelse, parallel import eller named-patient supply-ordninger. Nuværende tilgængelighed og godkendelsesstatus skal verificeres direkte hos Laegemiddelstyrelsen eller EMA-produktdatabasen, før nogen forskrivelsesbeslutning træffes.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All website pages and reports must include YMYL disclaimer: results are for research reference only and do not constitute medical advice.*
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+> **Vigtig klinisk bemærkning:** Selvom formelle sikkerhedsdata ikke var tilgængelige i den nuværende bevissamling, medfører misoprostol velkendte og alvorlige risici, der er væsentlige for enhver klinisk evaluering. Disse omfatter uterinoveraktivitet, uterinruptur (risiko væsentligt forhøjet hos kvinder med tidligere uterinkkirurgi eller kejsersnit), alvorlig foetal skade og teratogenitet samt betydelige gastrointestinale bivirkninger. Misoprostol er **absolut kontraindiceret** i graviditet, når det bruges uden for en overvåget obstetricsk eller termineringsprotokol. Disse hensyn skal være formelt dokumenteret, før denne repurposing-vurdering kan gå videre end fase 0.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+På trods af en høj TxGNN-forudsigelsesscore (99.64%), afslører bevisgrundlaget en grundlæggende uoverensstemmelse: alle syv identificerede publikationer omhandler medicinsk abort i forbindelse med graviditetsbetinget amenoré snarere end amenoré som en uafhængig gynækologisk tilstand. Med nul registrerede kliniske forsøg, ingen dansk markedsføringstilladelse og manglende sikkerhed- og MOA-data i den formelle bevissamling, kan denne kandidat ikke avancere videre end forskningshypotese-stadiet.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Præcisér målefænotypen:** Definer, om repurposing-hypotesen omhandler (a) graviditetsbetinget amenoré (hvor misoprostol allerede er i klinisk brug, hvilket gør formel repurposing redundant) eller (b) primær/sekundær ikke-graviditetsrelateret amenoré (hvor en ny mekanistisk begrundelse og dedikeret klinisk bevis skulle udvikles fra bunden)
+- **Hent fuld MOA-data** fra DrugBank (DB00929) for at gennemføre den mekanistiske analyse
+- **Indhent SmPC / forskrivelsesinformation** inklusive alle advarsler, kontraindikationer og særlige forsigtighedsregler fra Laegemiddelstyrelsen eller EMA for at muliggøre en fase 1 sikkerhedsscreening
+- **Udfør DDI-analyse** — nuværende datasæt returnerede ingen interaktioner, sandsynligvis på grund af en forespørgselsfejl snarere end en mangel på interaktioner
+- **Bestil en målrettet litteraturoversigt** specifikt om misoprostol i ikke-graviditetsrelateret sekundær amenoré (f.eks. Ashermans syndrom, HPO-akse-lidelser) for at afgøre, om der findes relevant præklinisk eller tidligt-fase bevis ud over den nuværende hentning
+- **Vurdering af regulatorisk vej:** Hvis hypotesen præciseres og beviserne understøtter progression, skal det afgøres, om en ny indikationssøgning til Laegemiddelstyrelsen eller EMA er gennemførlig i betragtning af det nuværende markedsføringstilladelseslandskab i Danmark
+
+---
+
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Repurposing-kandidater til lægemidler kræver klinisk validering, før nogen terapeutisk anvendelse. Alle webstedsider og rapporter skal indeholde YMYL-ansvarsfraskrivelse: resultaterne er kun til forskningsreference og udgør ikke medicinsk rådgivning.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

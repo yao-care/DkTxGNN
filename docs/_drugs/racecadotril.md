@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Racecadotril: From Acute Diarrhea to Polyclonal Hyperviscosity Syndrome
+# Racecadotril: Fra akut diarré til polyklonal hyperviskositetssyndrom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Racecadotril is an enkephalinase (neutral endopeptidase) inhibitor whose established clinical use is the treatment of acute diarrhea. The TxGNN model predicts a possible effect on **Polyclonal Hyperviscosity Syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale is weak.
+Racecadotril er en enkefalinase-inhibitor (neutral endopeptidase), hvis etablerede kliniske anvendelse er behandling af akut diarré. TxGNN-modellen forudsiger en mulig virkning på **Polyklonal Hyperviskositetssyndrom**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og det underliggende mekanistiske rationale er svagt.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Acute diarrhea (established pharmacological use; no formal Danish registration record available in this data pack) |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
-| TxGNN Prediction Score | 97.72% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | Akut diarré (etableret farmakologisk anvendelse; ingen formel dansk registreringspost tilgængelig i denne datapakke) |
+| Forudsagt ny indikation | Polyklonal Hyperviskositetssyndrom |
+| TxGNN-forudsigelsesscore | 97.72% |
+| Evidensniveau | L5 |
+| Danmarksmarkedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Holde |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data was not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, Racecadotril is an enkephalinase (NEP) inhibitor that reduces intestinal hypersecretion, and its efficacy in acute diarrhea is well established and widely used clinically.
+Detaljerede data om virkningsmekanisme var ikke tilgængelige i denne bevisemballage (markeret som et data-gap med høj alvorlighed). Baseret på kendt farmakologi er racecadotril en enkefalinase-inhibitor (NEP), der reducerer intestinal hypersekration, og dets effektivitet ved akut diarré er velbaseret og bredt anvendt klinisk.
 
-Polyclonal hyperviscosity syndrome is driven by excess circulating immunoglobulins (e.g., from polyclonal plasma cell/B-cell activity) increasing blood viscosity — a pathophysiology unrelated to intestinal enkephalinase activity. There is no known biological pathway connecting NEP inhibition to plasma viscosity regulation.
+Polyklonal hyperviskositetssyndrom drives af overskydende cirkulerende immunglobuliner (f.eks. fra polyklonal plasmacelle/B-celle-aktivitet), som øger blodets viskositet — en patofysiologi uden forbindelse til intestinal enkefalinase-aktivitet. Der er ingen kendt biologisk vej, der forbinder NEP-inhibition til plasmaviskositets-regulering.
 
-Given the absence of mechanistic overlap and the complete lack of supporting clinical or literature evidence, this prediction most likely reflects a knowledge-graph embedding similarity artifact rather than a genuine pharmacological signal. The same caveat applies to the other top-ranked predictions in this evidence pack (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological system disease), none of which have a plausible mechanistic link to Racecadotril's known action.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+I betragtning af fraværet af mekanistisk overlap og den komplette mangel på understøttende klinisk eller litteraturbevis, afspejler denne forudsigelse mest sandsynligt et knowledge-graph-indlejrings-lighedsartefakt snarere end et ægte farmakologisk signal. Den samme forbehold gælder for de andre toprangerede forudsigelser i denne bevisemballage (hyperamylæmi, medfødt analbuminæmi, blodgruppeinkompabilitet, præmalignt hæmatologisk systemsygdom), hvoraf ingen har en plausibel mekanistisk forbindelse til racecadotrils kendt virkning.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-No marketing authorisation is currently registered for Racecadotril in Denmark (market status: Not Marketed; 0 authorisations on file).
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Information om Danmarksmarkedet
 
-**Decision: Hold**
+Ingen markedsføringstilladelse er i øjeblikket registreret for racecadotril i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser på fil).
 
-**Rationale:**
-There is no clinical trial or literature evidence supporting Racecadotril's use in Polyclonal Hyperviscosity Syndrome, and the mechanistic rationale is implausible given its known enkephalinase-inhibitor pharmacology. A blocking data gap (missing local product label / warnings) also prevents any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Local product label / SmPC warnings and contraindications (currently blocking)
-- Any preclinical or mechanistic studies linking NEP inhibition to plasma viscosity or immunoglobulin regulation, if they exist
-- Re-evaluation if future clinical or literature evidence emerges for this indication
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Holde**
+
+**Begrundelse:**
+Der er ingen klinisk forsøgs- eller litteraturbevis, der understøtter racecadotrils anvendelse ved Polyklonal Hyperviskositetssyndrom, og det mekanistiske rationale er usandsynligt givet dets kendt enkefalinase-inhibitor-farmakologi. Et blokerende data-gap (manglende lokalt produktlabel/advarsler) forhindrer også enhver sikkerhedsvurdering på forhånd.
+
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet mekanisme-for-handling (MOA) data fra DrugBank eller primær litteratur
+- Lokalt produktlabel / SmPC-advarsler og kontraindikationer (i øjeblikket blokering)
+- Alle prækliniske eller mekanistiske studier, der forbinder NEP-inhibition til plasmaviskositet eller immunglobulinregulering, hvis de findes
+- Genvurdering, hvis fremtidig klinisk eller litteraturbevis opstår for denne indikation
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

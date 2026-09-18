@@ -29,119 +29,120 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Everolimus: From Targeted Anticancer Therapy to Liposarcoma
+# Everolimus: Fra målrettet kræftbehandling til liposarkom
 
-## One-Sentence Summary
+## Sammenfatning på en linje
 
-Everolimus is an mTOR inhibitor (mTORC1) used as targeted anticancer therapy in indications such as renal cell carcinoma, breast cancer, and neuroendocrine tumours. The TxGNN model predicts it may be effective for **Liposarcoma**, with **1 clinical trial** and **4 publications** currently supporting this direction. Additional predicted indications include dermatofibrosarcoma protuberans and several rare sarcoma subtypes, though with substantially less evidence.
+Everolimus er en mTOR-inhibitor (mTORC1), der bruges som målrettet kræftbehandling ved indikationer såsom nyrcellekarcinomer, brystkræft og neuroendokrine tumorer. TxGNN-modellen forudsiger, at det kan være effektivt mod **liposarkom**, med **1 klinisk forsøg** og **4 publikationer**, der i øjeblikket understøtter denne retning. Yderligere forudsagte indikationer omfatter dermatofibrosarkom protruberans og flere sjældne sarkomundertyper, dog med væsentligt mindre bevis.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not registered in Denmark in the evidence pack (Everolimus is known internationally for renal cell carcinoma, HER2− breast cancer, neuroendocrine tumours, TSC-associated conditions) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed (per evidence pack) |
-| Number of Marketing Authorisations | 0 (per evidence pack) |
-| Recommended Decision | Proceed with Guardrails |
+| Original indikation | Ikke registreret i Danmark i bevisunderlaget (Everolimus er internationalt kendt for nyrcellekarcinomer, HER2− brystkræft, neuroendokrine tumorer, TSC-associerede tilstande) |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 99.88% |
+| Bevisniveau | L2 |
+| Markeds status i Danmark | Ikke markedsført (pr. bevisunderlaget) |
+| Antal markedsføringstilladelser | 0 (pr. bevisunderlaget) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsvarkere |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Everolimus is a selective inhibitor of mTORC1 (mammalian target of rapamycin complex 1), a key node in the PI3K/AKT/mTOR signalling cascade that controls cell growth, proliferation, and survival. It is well established as a targeted anticancer agent, approved globally for multiple solid tumour types where mTOR pathway dysregulation plays a central role.
+Everolimus er en selektiv inhibitor af mTORC1 (mammalian target of rapamycin complex 1), en vigtig knude i PI3K/AKT/mTOR-signalvejen, der kontrollerer cellevækst, proliferation og overlevelse. Det er veletableret som et målrettet kræftlægemiddel, godkendt globalt for flere solide tumortyper, hvor mTOR-vejregulering spiller en central rolle.
 
-Dedifferentiated liposarcoma (DDLPS) has been demonstrated to harbour overactivation of both the Akt-mTOR and MAPK pathways (PMID: 26518767). An immunohistochemical and in vitro study of 99 DDLPS specimens confirmed that mTOR inhibition exerts antitumour effects in this sarcoma subtype. This provides a direct pharmacological rationale for everolimus in liposarcoma. Furthermore, CDK4 amplification is a hallmark of DDLPS, and the combination of CDK4/6 inhibitors (such as ribociclib) with mTOR inhibitors has shown synergistic growth inhibition in multiple tumour models — blocking parallel proliferative pathways simultaneously.
+Dedifferentieret liposarkom (DDLPS) er påvist at have overaktivering af både Akt-mTOR og MAPK-vejene (PMID: 26518767). En immunohistokemisk og in vitro-undersøgelse af 99 DDLPS-prøver bekræftede, at mTOR-hæmning udøver antitumor-effekter i denne sarkomundertype. Dette giver en direkte farmakologisk rationel for everolimus ved liposarkom. Desuden er CDK4-amplifikation en karakteristisk egenskab ved DDLPS, og kombinationen af CDK4/6-inhibitorer (såsom ribociclib) med mTOR-inhibitorer har vist synergistisk væksthæmning i flere tumormodeller — ved at blokere parallelle proliferative veje samtidigt.
 
-A Phase II clinical trial (NCT03114527) is actively evaluating the combination of ribociclib and everolimus specifically in advanced dedifferentiated liposarcoma, with 48 patients enrolled. While this is combination therapy rather than everolimus monotherapy, it directly validates the clinical relevance of mTOR inhibition in this disease. The convergence of mechanistic rationale and ongoing clinical investigation makes this a well-supported repurposing prediction.
+En fase 2 klinisk prøve (NCT03114527) evaluerer aktivt kombinationen af ribociclib og everolimus specifikt ved avanceret dedifferentieret liposarkom, med 48 patienter tilmeldt. Selvom dette er kombinationsterapi snarere end everolimus-monoterapi, validerer det direkte den kliniske relevans af mTOR-hæmning i denne sygdom. Konvergensen af mekanistisk rationel og igangværende klinisk undersøgelse gør dette til en velunderstøttet repurposing-forudsigelse.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk prøvebevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Prøvenummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Two-arm study evaluating ribociclib (300 mg/day, 3 weeks on/1 week off) + everolimus (2.5 mg) in advanced dedifferentiated liposarcoma (Arm A) and leiomyosarcoma (Arm B) after ≥1 prior systemic therapy. Completed enrolment; in follow-up/analysis phase. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, rekrutterer ikke længere | 48 | To-arms studie evaluering af ribociclib (300 mg/dag, 3 uger på/1 uge fri) + everolimus (2,5 mg) ved avanceret dedifferentieret liposarkom (Arm A) og leiomyosarkom (Arm B) efter ≥1 forudgående systemisk terapi. Afsluttet tilmelding; i opfølgnings-/analysefase. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase II Clinical Trial Report | Clin Cancer Res | Reports results of ribociclib + everolimus combination in advanced DDL and LMS. CDK4/6 + mTOR dual inhibition showed synergistic growth inhibition across multiple tumour models. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Translational/Mechanistic Study | Tumour Biol | Immunohistochemical analysis of 99 DDLPS specimens confirmed Akt-mTOR and MAPK pathway activation. In vitro study demonstrated antitumour effects of mTOR inhibition in dedifferentiated liposarcoma. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review (Preclinical Models) | Front Oncol | Review of patient-derived orthotopic xenograft (PDOX) models identifying effective CDK inhibitor combinations in sarcomas, supporting CDK + mTOR inhibition strategies. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical Combination Study | Anticancer Res | Evaluated eribulin combinations with mechanistically different anticancer agents in liposarcoma and other tumour xenograft models, providing context for multi-agent approaches. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Fase II klinisk forsøgsrapport | Clin Cancer Res | Rapporterer resultater af ribociclib + everolimus-kombination ved avanceret DDL og LMS. CDK4/6 + mTOR-dobbelt-inhibering viste synergistisk væksthæmning på tværs af flere tumormodeller. |
+| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Translationel/mekanistisk undersøgelse | Tumour Biol | Immunohistokemisk analyse af 99 DDLPS-prøver bekræftede aktivering af Akt-mTOR og MAPK-veje. In vitro-undersøgelse påviste antitumor-effekter af mTOR-inhibering ved dedifferentieret liposarkom. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Gennemgang (prækliniske modeller) | Front Oncol | Gennemgang af patientstammede ortotopiske xenograft (PDOX)-modeller, der identificerer effektive CDK-inhibitor-kombinationer i sarkomer, hvilket understøtter CDK + mTOR-inhibering-strategier. |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Præklinsik kombinationsstudie | Anticancer Res | Evaluerede eribulin-kombinationer med mekanistisk forskellige anticancer-agenter i liposarkom- og andre tumorxenograft-modeller, hvilket giver kontekst for multi-agent-tilgange. |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Everolimus currently has no marketing authorisations recorded in the evidence pack for Denmark. However, it should be noted that everolimus is authorised in the EU via centralised EMA procedures (Afinitor®, Certican®/Votubia®) for multiple indications including advanced renal cell carcinoma, HER2-negative breast cancer, pancreatic neuroendocrine tumours, and tuberous sclerosis complex-associated conditions. Clinicians should consult the Danish Medicines Agency (Lægemiddelstyrelsen) for current local availability and reimbursement status.
+Everolimus har i øjeblikket ingen markedsføringstilladelser registreret i bevisunderlaget for Danmark. Det skal dog bemærkes, at everolimus er godkendt i EU via centraliserede EMA-procedurer (Afinitor®, Certican®/Votubia®) for flere indikationer, herunder avanceret nyrcellekarcinomer, HER2-negativ brystkræft, pankreasneuroendokrine tumorer og tubøs sklerose kompleks-associerede tilstande. Klinikere bør kontakte Lægemiddelstyrelsen for aktuel lokal tilgængeligheds- og refusionsstatus.
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor, rapamycin analogue) |
-| Myelosuppression Risk | Moderate (thrombocytopenia, anaemia, and neutropenia are common; Grade 3/4 events reported in clinical studies) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function (ALT, AST, bilirubin), renal function (creatinine, eGFR), fasting glucose, lipid profile, pulmonary function (risk of non-infectious pneumonitis) |
-| Handling Protection | Standard precautions for oral anticancer agents; no special cytotoxic handling requirements beyond standard practice for oral targeted therapies |
+| Cytotoksicitet klassificering | Målrettet terapi (mTOR-inhibitor, rapamycin-analog) |
+| Risiko for myelosuppression | Moderat (trombocytopeni, anæmi og neutropeni er almindelige; grad 3/4-begivenheder rapporteret i kliniske studier) |
+| Emetogenitets klassificering | Lav |
+| Overvågningsposter | Komplet blodtal med differentialtal, leverfunktion (ALT, AST, bilirubin), nyrefunktion (kreatinin, eGFR), fasteglukoseniveau, lipidprofil, lungefunktion (risiko for ikke-infektiøs pneumonitis) |
+| Håndteringsbeskyttelse | Standardforholdsregler for orale anticancer-lægemidler; ingen særlige cytotoksiske håndtelingskrav ud over standardpraksis for orale målrettede terapier |
 
 ---
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. The evidence pack did not contain specific warnings, contraindications, or drug-drug interaction data for everolimus. Key safety concerns known from the SmPC include:
+Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Bevisunderlaget indeholdt ikke specifikke advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata for everolimus. Vigtige sikkerhedsproblemer kendt fra SmPC'et omfatter:
 
-- **Non-infectious pneumonitis**: Clinically significant; requires monitoring and may necessitate dose adjustment or discontinuation
-- **Immunosuppression**: Increased susceptibility to infections (bacterial, fungal, viral including hepatitis B reactivation)
-- **Metabolic effects**: Hyperglycaemia, hyperlipidaemia
-- **Stomatitis/mucositis**: Very common adverse effect
+- **Ikke-infektiøs pneumonitis**: Klinisk signifikant; kræver overvågning og kan nødvendiggøre dosisregulering eller seponering
+- **Immunsuppression**: Øget modtagelighed for infektioner (bakterielle, svampe, virale, herunder hepatitis B-reaktivering)
+- **Metaboliske effekter**: Hyperglykæmi, dyslipidæmi
+- **Stomatitis/mucositis**: Meget almindelig bivirkning
 
 ---
 
-## Additional Predicted Indications
+## Yderligere forudsagte indikationer
 
-The TxGNN model also predicted the following indications for everolimus, listed by evidence strength:
+TxGNN-modellen forudsagde også følgende indikationer for everolimus, listet efter bevisstyrke:
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+| Rang | Forudsagt indikation | TxGNN-score | Bevisniveau | Anbefaling |
 |------|---------------------|-------------|----------------|----------------|
-| 1 | Liposarcoma | 99.88% | L2 | Proceed with Guardrails |
-| 3 | Ovarian myxoid liposarcoma | 99.84% | L5 | Hold |
-| 5 | Dermatofibrosarcoma protuberans | 99.82% | L4 | Research Question |
-| 7 | Parameningeal embryonal rhabdomyosarcoma | 99.77% | L5 | Hold |
-| 9 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.76% | L5 | Hold |
+| 1 | Liposarkom | 99.88% | L2 | Fortsæt med sikkerhedsvarkere |
+| 3 | Ovarielt myxoid liposarkom | 99.84% | L5 | Afvent |
+| 5 | Dermatofibrosarkom protruberans | 99.82% | L4 | Forskningsspørgsmål |
+| 7 | Parameningeal embryonal rhabdomyosarkom | 99.77% | L5 | Afvent |
+| 9 | Botryoid-type embryonal rhabdomyosarkom i skeden | 99.76% | L5 | Afvent |
 
-**Notes:**
-- **Dermatofibrosarcoma protuberans (DFSP)**: The core driver is COL1A1-PDGFB fusion gene leading to PDGFR overactivation. mTOR is a downstream effector of PDGFR (PDGFR → PI3K → AKT → mTOR), suggesting potential activity in imatinib-resistant cases. Two translational publications exist (PMID: 37610680, 15921309) but no clinical evidence for everolimus in DFSP.
-- **Rhabdomyosarcoma subtypes**: PI3K/AKT/mTOR is known to participate in RMS progression, but no clinical or preclinical evidence specific to everolimus in these rare subtypes was identified. The high TxGNN scores likely reflect shared molecular features across sarcoma types.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-The TxGNN prediction of everolimus for liposarcoma is mechanistically well-founded: dedifferentiated liposarcoma demonstrates clear Akt-mTOR pathway activation, and a Phase II clinical trial (NCT03114527) is actively evaluating everolimus in combination with ribociclib in this setting. Published translational evidence directly supports mTOR as a therapeutic target in DDLPS. While the clinical trial uses combination therapy rather than everolimus monotherapy, the evidence collectively supports further investigation.
-
-**To proceed, the following is needed:**
-- **Full SmPC safety review**: Obtain the EMA-approved SmPC for Afinitor® to complete the safety assessment (warnings, contraindications, drug interactions)
-- **Detailed MOA documentation**: Retrieve comprehensive mechanism of action data from DrugBank to strengthen the pharmacological rationale
-- **Denmark market access evaluation**: Confirm current availability, reimbursement status, and any compassionate use pathways via Lægemiddelstyrelsen
-- **NCT03114527 results**: Monitor for final results of the Phase II ribociclib + everolimus trial in DDLPS (expected completion December 2025)
-- **Monotherapy evidence search**: Conduct a broader literature search for everolimus monotherapy data in soft tissue sarcomas to assess single-agent activity independent of CDK4/6 inhibition
+**Noter:**
+- **Dermatofibrosarkom protruberans (DFSP)**: Kerneføreren er COL1A1-PDGFB-fusionsgen, der fører til PDGFR-overaktivering. mTOR er en nedstrøms effekstor af PDGFR (PDGFR → PI3K → AKT → mTOR), hvilket antyder potentiel aktivitet i imatinib-resistente tilfælde. To translationelle publikationer findes (PMID: 37610680, 15921309), men ingen klinisk bevis for everolimus ved DFSP.
+- **Rhabdomyosarkomundertyper**: PI3K/AKT/mTOR er kendt for at deltage i RMS-progression, men intet klinisk eller præklinsikt bevis specifikt for everolimus ved disse sjældne undertyper blev identificeret. De høje TxGNN-scores afspejler sandsynligvis delte molekylære karakteristika på tværs af sarkomtyper.
 
 ---
 
-*This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. Report generated: 2026-04-05.*
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsvarkere**
+
+**Rationalet:**
+TxGNN-forudsigelsen af everolimus for liposarkom er mekanistisk velbegrundet: dedifferentieret liposarkom påviser klart Akt-mTOR-vejsaktivering, og en fase II klinisk prøve (NCT03114527) evaluerer aktivt everolimus i kombination med ribociclib i denne sammenhæng. Offentliggjort translationel bevis understøtter direkte mTOR som et terapeutisk mål ved DDLPS. Selvom den kliniske prøve bruger kombinationsterapi snarere end everolimus-monoterapi, understøtter beviserne samlet set yderligere undersøgelse.
+
+**For at fortsætte, kræves følgende:**
+- **Fuldstændig SmPC-sikkerhedsgennemgang**: Få det EMA-godkendt SmPC for Afinitor® for at fuldende sikkerhedsvurderingen (advarsler, kontraindikationer, lægemiddelinteraktioner)
+- **Detaljeret MOA-dokumentation**: Hent omfattende mekanisme-for-handling-data fra DrugBank for at styrke den farmakologiske rationel
+- **Evaluering af markedsadgang i Danmark**: Bekræft aktuel tilgængelighed, refusionsstatus og eventuelle medlidende brugsvejer via Lægemiddelstyrelsen
+- **NCT03114527-resultater**: Overvåg for endelige resultater af fase II ribociclib + everolimus-prøven ved DDLPS (forventet afslutning december 2025)
+- **Monoterapi-bevissøgning**: Gennemfør en bredere litteratursøgning for everolimus-monoterapidata i soft tissue-sarkomer for at vurdere enkeltagen-aktivitet uafhængigt af CDK4/6-inhibering
+
+---
+
+*Denne rapport er til forskningsmæssige formål og udgør ikke medicinsk rådgivning. Repurposing-kandidater kræver klinisk validering før anvendelse. Rapport genereret: 2026-04-05.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

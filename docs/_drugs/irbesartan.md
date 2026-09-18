@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Irbesartan: From Hypertension to Malignant Hypertensive Renal Disease
+# Irbesartan: Fra hypertension til malign hypertensiv nyreskade
 
-## One-Sentence Summary
+## Et-sætnings resumé
 
-Irbesartan is an angiotensin II receptor blocker (ARB), a drug class established for the treatment of hypertension. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, but this specific link is currently supported by **0 clinical trials** and **0 publications** — the prediction score is high, yet purely model-derived at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (established ARB indication; no formal indication text on file for this dataset) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified for this disease pairing) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Irbesartan er en angiotensin II-receptorblokkant (ARB), en lægemiddelklasse, der er etableret til behandling af hypertension. TxGNN-modellen forudsiger, at det kan være effektivt til **malign hypertensiv nyreskade**, men dette specifikke link understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — forudsigelsesscore er høj, men rent modelafledt på dette stadium.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data is not currently on file for this dataset (flagged as a High-severity data gap). Based on known pharmacology, irbesartan belongs to the angiotensin II receptor blocker (ARB) class, acting via AT1-receptor blockade to lower blood pressure and provide renal protection — an effect already well established in hypertension and in diabetic nephropathy with hypertension.
-
-Malignant hypertensive renal disease is a renal complication of severe, uncontrolled hypertension. Because ARBs directly target the blood-pressure-lowering mechanism relevant to this condition, there is a plausible mechanistic link between the original indication and the predicted one. However, malignant hypertension typically requires acute intravenous antihypertensive management; an oral ARB such as irbesartan would more plausibly play a role in subsequent maintenance therapy rather than acute-phase treatment.
-
-The TxGNN score (99.31%) most likely reflects a broad "antihypertensive drug → hypertension-related disease" graph connection rather than evidence specific to this malignant/renal presentation. No clinical trials or publications currently support this precise indication pairing, so the mechanistic rationale should be treated as hypothesis-generating rather than confirmatory.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|--------|
+| Original indikation | Hypertension (etableret ARB-indikation; ingen formelt indikationstekst på fil for dette datasæt) |
+| Forudsagt ny indikation | Malign hypertensiv nyreskade |
+| TxGNN forudsigelsesscore | 99.31% |
+| Bevisniveau | L5 (modelforudsigelse alene — ingen kliniske forsøg eller litteratur identificeret for denne sygdomskombination) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke på fil for dette datasæt (markeret som High-severity datakløft). Baseret på kendt farmakologi tilhører irbesartan angiotensin II-receptorblokkant (ARB) klassen og virker gennem AT1-receptorblokkade for at sænke blodtrykket og give nyrebeskyttelse — en effekt, der allerede er veletableret ved hypertension og ved diabetisk nefropati med hypertension.
 
----
+Malign hypertensiv nyreskade er en nyrekomplikation ved alvorlig, ukontrolleret hypertension. Da ARB'er direkte målretter blodtryksnedsættelsesmekanismen, der er relevant for denne tilstand, er der en plausibel mekanistisk forbindelse mellem den oprindelige indikation og den forudsagte. Imidlertid kræver malign hypertension typisk akut intravenøs antihypertensiv behandling; en oral ARB såsom irbesartan ville mere plausibelt spille en rolle i efterfølgende vedligeholdelsesterapi snarere end akut-fase behandling.
 
-## Denmark Market Information
-
-No marketing authorisations are currently registered for irbesartan in this dataset (market status: **Not marketed**, 0 licences on file).
+TxGNN-scoren (99.31%) afspejler mest sandsynligt en bred "antihypertensivt lægemiddel → hypertensionsrelateret sygdom" graforbindelse snarere end bevis specifikt for denne malign/nyre-præsentation. Ingen kliniske forsøg eller publikationer understøtter i øjeblikket denne præcise indikationskombination, så den mekanistiske rationel bør behandles som hypotesegenererende snarere end bekræftende.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-Despite a high TxGNN prediction score, there is no clinical trial or literature evidence specific to irbesartan in malignant hypertensive renal disease (Evidence Level L5), and the drug currently has no marketing authorisation on file in Denmark. The other candidate indications in this evidence pack (malignant renovascular hypertension; pulmonary hypertension, WHO Groups 3 and 5) were similarly held — the renovascular hypertension link carries a known safety concern (risk of acute renal function decline with ARBs in renal artery stenosis), and the pulmonary hypertension literature returned by the search was unrelated background material on hypoxia biology rather than substantive support.
+---
 
-**To proceed, the following is needed:**
-- Official SmPC warnings and contraindications from Lægemiddelstyrelsen/EMA (currently a Blocking data gap — required before any S1 safety review)
-- Confirmed detailed mechanism-of-action data from DrugBank (High-priority data gap)
-- Disease-specific clinical evidence for ARB use in malignant hypertension / hypertensive renal crisis (e.g., as maintenance therapy following acute control)
-- Renal artery imaging/status considerations if the renovascular hypertension indication is pursued, given the known risk of ARB-induced renal function decline in that population
+## Markedsinformation for Danmark
+
+Der er i øjeblikket ingen markedsføringstilladelser registreret for irbesartan i dette datasæt (markedsstatus: **Ikke markedsført**, 0 licenser på fil).
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte resumé af produktkarakteristika (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+På trods af en høj TxGNN-forudsigelsesscore, er der ingen klinisk forsøgs- eller litteraturbevis specifikt for irbesartan ved malign hypertensiv nyreskade (Bevisniveau L5), og lægemidlet har i øjeblikket ingen markedsføringstilladelse på fil i Danmark. De øvrige kandidatindikationer i denne bevispakke (malign renovaskulær hypertension; pulmonær hypertension, WHO-grupper 3 og 5) blev ligeledes afventet — renovaskulær hypertension-linket indeholder en kendt sikkerhedsrisiko (risiko for akut nyrefunktionsnedgang med ARB'er ved nyrearteriestenose), og litteraturen om pulmonær hypertension, som søgningen returnerede, var ikke-relateret baggrundsmateriale om hypoksibiologi snarere end væsentlig støtte.
+
+**For at komme videre kræves følgende:**
+- Officielle SmPC-advarsler og kontraindikationer fra Lægemiddelstyrelsen/EMA (i øjeblikket et Blocking datakløft — krævet før enhver S1 sikkerhedsgennemgang)
+- Bekræftet detaljerede data om virkningsmekanisme fra DrugBank (High-priority datakløft)
+- Sygdomsspecifikt klinisk bevis for ARB-brug ved malign hypertension / hypertensiv nyrekrise (f.eks. som vedligeholdelsesterapi efter akut kontrol)
+- Nyrearteri-billeddannelse/statusovervejelser, hvis renovaskulær hypertension-indikationen forfølges, givet den kendte risiko for ARB-induceret nyrefunktionsnedgang i den befolkning
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

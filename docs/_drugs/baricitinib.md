@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Baricitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Baricitinib: Fra Reumatoid Artritis til Colobomatøs Mikroftalmi-Rhizomeli Dysplasi Syndrom
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Baricitinib is a selective JAK1/JAK2 inhibitor primarily used to treat inflammatory and autoimmune conditions, including rheumatoid arthritis, atopic dermatitis, and alopecia areata.
-The TxGNN model predicts it may be effective for **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, a rare congenital disorder affecting eye and limb development.
-However, there are currently **0 clinical trials** and **0 publications** supporting this direction — the prediction rests entirely on computational modelling, and the mechanistic link is considered highly indirect.
+Baricitinib er en selektiv JAK1/JAK2-hæmmer, der primært bruges til behandling af inflammatoriske og autoimmune sygdomme, herunder reumatoid artritis, atopisk dermatitis og alopecia areata.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Colobomatøs Mikroftalmi-Rhizomeli Dysplasi Syndrom**, en sjælden medfødt lidelse, der påvirker øje- og lemudvikling.
+Der er dog i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning — forudsigelsen hviler udelukkende på computerbaseret modellering, og det mekanistiske link anses for meget indirekte.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not found in Danish Medicines Agency registration data (Baricitinib is internationally recognised as a JAK1/JAK2 inhibitor for rheumatoid arthritis and other inflammatory conditions) |
-| Predicted New Indication | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed (per available registration data) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig Indikation | Ikke fundet i Lægemiddelstyrelsens registreringsdata (Baricitinib er internationalt anerkendt som en JAK1/JAK2-hæmmer til reumatoid artritis og andre inflammatoriske sygdomme) |
+| Forudsagt Ny Indikation | Colobomatøs Mikroftalmi-Rhizomeli Dysplasi Syndrom |
+| TxGNN-Forudsigelsesscore | 99.94% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført (ifølge tilgængelige registreringsdata) |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
-> **Data quality note:** The absence of Danish marketing authorisation data is likely a data gap rather than a true absence. Baricitinib (Olumiant®) holds a centralised EMA authorisation and is distributed across EU Member States including Denmark. This record should be verified against the Laegemiddelstyrelsen product database before drawing regulatory conclusions.
-
----
-
-## Why is This Prediction Reasonable?
-
-Baricitinib acts by selectively and reversibly inhibiting Janus kinases JAK1 and JAK2, thereby blocking phosphorylation of the downstream signal transducers STAT1, STAT3, and STAT5. This suppresses cytokine-driven inflammatory and immune signalling cascades — the mechanism underlying its approved use in conditions such as rheumatoid arthritis, atopic dermatitis, and alopecia areata.
-
-Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare congenital disorder caused by mutations affecting ocular development genes (PAX2, PAX6, STRA6) and peroxisome metabolic pathways associated with the rhizomelic chondrodysplasia punctata (RCDP) phenotype. The JAK-STAT pathway has no established role in the pathogenesis of this condition. The only theoretical point of contact is that STAT3 participates in retinal progenitor cell differentiation — an indirect and speculative connection that falls far short of a mechanistic rationale for therapeutic intervention.
-
-Critically, this is a structural congenital malformation, not an inflammatory or immune-mediated disease. Baricitinib's anti-inflammatory mechanism offers no conceptual basis for reversing or ameliorating a fixed developmental defect. The high TxGNN score most likely reflects knowledge-graph topology (shared node connections) rather than true biological plausibility. This prediction should be treated as a hypothesis-generating signal only, not as clinical evidence.
+> **Datakvalitetsnotat:** Fraværet af danske markedsføringstilladelsesdata er sandsynligvis et datahul snarere end en reel fravær. Baricitinib (Olumiant®) har en centraliseret EMA-godkendelse og distribueres på tværs af EU-medlemsstater, herunder Danmark. Denne registrering bør verificeres mod Lægemiddelstyrelsens produktdatabase, før der drages reguleringsmæssige konklusioner.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Baricitinib virker ved selektivt og reversibelt at hæmme Janus-kinasen JAK1 og JAK2, hvorved fosforyleringen af de nedstrøms signaltransducenter STAT1, STAT3 og STAT5 blokeres. Dette undertrykker cytokin-drevet inflammatorisk og immunologisk signalering — den mekanisme, der ligger til grund for dets godkendte brug ved tilstande såsom reumatoid artritis, atopisk dermatitis og alopecia areata.
 
----
+Colobomatøs mikroftalmi-rhizomeli dysplasi syndrom er en sjælden medfødt lidelse forårsaget af mutationer, der påvirker gener for okular udvikling (PAX2, PAX6, STRA6) og peroxisomal metaboliske veje forbundet med rhizomeli chondrodysplasia punctata (RCDP) fænotypen. JAK-STAT-signaleringsbanen har ingen etableret rolle i patogenesen af denne tilstand. Det eneste teoretiske kontaktpunkt er, at STAT3 deltager i differentiering af retinale progenitorceller — en indirekte og spekulativ forbindelse, der ligger langt fra en mekanistisk rationale for terapeutisk intervention.
 
-## Literature Evidence
-
-Currently no related literature available.
+Kritisk vigtig er det, at dette er en strukturel medfødt misdannelse, ikke en inflammatorisk eller immun-medieret sygdom. Baricitinibbs anti-inflammatoriske mekanisme tilbyder ingen konceptuel basis for at vende eller lindre en fast udviklingsfejl. Den høje TxGNN-score afspejler sandsynligvis vidensgrafs topologi (delte nodesammenkoblinger) snarere end sand biologisk plausibilitet. Denne forudsigelse bør behandles som et hypotesegenererende signal alene, ikke som klinisk evidens.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-No marketing authorisations were found in the current dataset for Denmark.
-
-> As noted above, this is likely a data gap. Olumiant® (baricitinib 2 mg and 4 mg tablets, Eli Lilly) holds centralised EMA authorisation (EU/1/17/1201) for rheumatoid arthritis, atopic dermatitis, alopecia areata, and COVID-19. Danish healthcare professionals should consult the Laegemiddelstyrelsen medicinal product database (pro.medicin.dk / laegemiddelstyrelsen.dk) for current national availability and reimbursement status.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> Safety data (key warnings, contraindications, and drug–drug interactions) were not available in the current Evidence Pack. For Baricitinib, clinicians should be aware that JAK inhibitors as a class carry important regulatory warnings, including risks of serious infections, venous thromboembolism, major adverse cardiovascular events (MACE), and malignancy. Full prescribing information is available via the EMA product page for Olumiant®.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Der blev ikke fundet markedsføringstilladelser i det aktuelle datasæt for Danmark.
+
+> Som bemærket ovenfor, er dette sandsynligvis et datahul. Olumiant® (baricitinib 2 mg og 4 mg tabletter, Eli Lilly) har centraliseret EMA-godkendelse (EU/1/17/1201) for reumatoid artritis, atopisk dermatitis, alopecia areata og COVID-19. Danske sundhedsprofessionelle bør konsultere Lægemiddelstyrelsens medicinalproduktdatabase (pro.medicin.dk / laegemiddelstyrelsen.dk) for aktuel national tilgængelighed og refusionstatus.
+
+---
+
+## Sikkerhedsmæssige Overvejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+> Sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddel-lægemiddelinteraktioner) var ikke tilgængelige i den aktuelle Evidence Pack. For Baricitinib bør klinikere være opmærksomme på, at JAK-hæmmere som klasse bærer vigtige regulatormæssige advarsler, herunder risici for alvorlige infektioner, venøs tromboembolisme, større kardiovaskulære hændelser (MACE) og malignitet. Fuldstændig receptinformation er tilgængelig via EMA-produktsiden for Olumiant®.
+
+---
+
+## Konklusion og Næste Skridt
+
+**Beslutning: Afvent**
 
 **Rationale:**
-The TxGNN model assigns a high score (99.94%) to baricitinib for colobomatous microphthalmia-rhizomelic dysplasia syndrome, but this indication is classified at Evidence Level L5 — computational prediction only, with zero supporting clinical trials or publications. More importantly, the proposed mechanistic link is speculative and conceptually weak: baricitinib targets inflammatory JAK-STAT signalling, whereas the predicted indication is a fixed structural congenital anomaly with no established immune or cytokine-driven pathology. Proceeding further is not justified at this stage.
+TxGNN-modellen tildeler en høj score (99.94%) til baricitinib for colobomatøs mikroftalmi-rhizomeli dysplasi syndrom, men denne indikation er klassificeret på Bevisniveau L5 — kun computerbaseret forudsigelse uden understøttende kliniske forsøg eller publikationer. Vigtigere er det, at det foreslåede mekanistiske link er spekulativt og konceptuelt svagt: baricitinib målretter inflammatorisk JAK-STAT-signalering, hvorimod den forudsagte indikation er en fast strukturel medfødt anomali uden etableret immun- eller cytokin-drevet patologi. At fortsætte videre er ikke berettiget på dette tidspunkt.
 
-**To proceed, the following is needed:**
+**For at fortsætte, er følgende nødvendig:**
 
-- **Mechanistic validation:** Identify and document any peer-reviewed evidence linking JAK-STAT signalling to ocular or peroxisomal developmental pathways relevant to this syndrome
-- **Literature re-query:** Perform a broader search using MeSH terms, OMIM, and rare disease databases (Orphanet) to confirm the complete absence of baricitinib or JAK-inhibitor research in this disease area
-- **Denmark regulatory verification:** Confirm Olumiant® (baricitinib) status in the Laegemiddelstyrelsen database and EMA product register to correct the current data gap
-- **Safety data retrieval:** Download and parse the EMA/Laegemiddelstyrelsen SmPC for baricitinib to complete the S1 safety screening
-- **Expert consultation:** If future mechanistic evidence emerges, engage an ophthalmologist and rare disease specialist before advancing to S1 evaluation
+- **Mekanistisk validering:** Identificer og dokumentér enhver peer-reviewed evidens, der forbinder JAK-STAT-signalering til okulær eller peroxisomal udviklingsmæssige veje relevant for dette syndrom
+- **Litteraturgengennemgang:** Udfør en bredere søgning ved brug af MeSH-termer, OMIM og sjældne sygdomsdatabaser (Orphanet) for at bekræfte det fuldstændige fravær af baricitinib- eller JAK-hemmerforskning inden for dette sygdomsområde
+- **Dansk reguleringsmæssig verificering:** Bekræft Olumiant® (baricitinib) status i Lægemiddelstyrelsens database og EMA-produktregistret for at korrigere det aktuelle datahul
+- **Sikkerhedsdatahentning:** Download og gennemgå EMA/Lægemiddelstyrelsen-SmPC for baricitinib for at fuldføre S1-sikkerhedsscreening
+- **Ekspertkonsultation:** Hvis fremtidig mekanistisk evidens opstår, involver en øjenlæge og sjælden-sygdomsspecialist, før der går videre til S1-evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

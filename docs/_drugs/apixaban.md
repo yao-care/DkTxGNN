@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Apixaban: From Anticoagulation (Atrial Fibrillation / VTE) to Migraine Disorder
+# Apixaban: Fra Antikoagulation (Atrieflimren / VTE) til Migrænestilstand
 
-## One-Sentence Summary
+## Etordet Resume
 
-Apixaban is a direct oral Factor Xa inhibitor (DOAC) approved internationally (Eliquis®) for the prevention of stroke in non-valvular atrial fibrillation, and for the treatment and prevention of venous thromboembolism (DVT and PE). The TxGNN model predicts it may be effective for **Migraine Disorder**, with **1 indirectly relevant clinical trial** and **4 publications** (including 1 small retrospective trial and 3 case reports) currently available — though notably, two case reports suggest Apixaban may be *less* effective than warfarin in this context. The overall body of evidence is weak, with several negative clinical signals, and the current recommendation is **Hold** pending further mechanistic and clinical investigation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Prevention of stroke/systemic embolism in non-valvular atrial fibrillation; treatment and prevention of DVT/PE; VTE prophylaxis after hip/knee replacement surgery |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.02% |
-| Evidence Level | L4 (preclinical/mechanistic studies and case reports only) |
-| Denmark Market Status | Not marketed (0 authorisations on record in this dataset) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
-> **Note on Denmark registration:** The Evidence Pack records no active marketing authorisations in Denmark. However, Apixaban (Eliquis®) holds a centralised EMA authorisation (EU/1/11/728) that is valid across all EU/EEA member states including Denmark. This likely reflects a data gap in the current dataset rather than a genuine absence from the Danish market. Verification against the Danish Medicines Agency (Lægemiddelstyrelsen) product database is recommended.
+Apixaban er en direkte oral Faktor Xa-inhibitor (DOAC) godkendt internationalt (Eliquis®) til forebyggelse af apopleksi ved ikke-klaphjerteflimren og til behandling og forebyggelse af venøs tromboembolisme (dyb venøs trombose og lungeemboli). TxGNN-modellen forudsiger, at det kan være effektivt til **Migrænestilstand** med **1 indirekte relevant klinisk forsøg** og **4 publikationer** (herunder 1 lille retrospektiv forsøg og 3 caserapporter) - selvom to caserapporter foreslår, at apixaban kan være *mindre* effektivt end warfarin i denne sammenhæng. Det samlede evidensgrundlag er svagt med flere negative kliniske signaler, og den nuværende anbefaling er **Afvente** i afventning af yderligere mekanistisk og klinisk undersøgelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt Overblik
 
-Apixaban is a selective, reversible inhibitor of activated Factor X (FXa), a critical convergence point in both the intrinsic and extrinsic coagulation cascades. By blocking FXa, apixaban reduces thrombin generation and fibrin clot formation without directly inhibiting thrombin itself — a key distinction from vitamin K antagonists such as warfarin.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig Indikation | Forebyggelse af apopleksi/systemisk emboli ved ikke-klaphjerteflimren; behandling og forebyggelse af dyb venøs trombose/lungeemboli; VTE-profylakse efter hofte-/knæprotesekirurgi |
+| Forudsagt Ny Indikation | Migrænestilstand |
+| TxGNN Forudsigelsesscore | 99.02% |
+| Evidensniveau | L4 (prækliniske/mekanistiske studier og caserapporter kun) |
+| Danske Markedsstatus | Ikke markedsført (0 markedsføringstilladelser registreret i dette datasæt) |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvente |
 
-The hypothesised link to migraine rests on two mechanistic threads. First, in patients with patent foramen ovale (PFO), paradoxical microemboli passing through the right-to-left shunt may trigger cortical spreading depression and migraine aura. Anticoagulation could theoretically reduce the microembolic burden and thereby attenuate aura frequency. Second, FXa is known to activate protease-activated receptors PAR-1 and PAR-2 on trigeminal neurons and vascular endothelium; inhibiting FXa could theoretically dampen trigeminovascular neuroinflammation, a central mechanism in migraine pathophysiology.
-
-However, the clinical picture is complicated by a meaningful negative signal: two case reports directly compare warfarin and apixaban in the same patients, and in both cases warfarin abolished migraine with aura while apixaban did not. This suggests that the relevant target may be thrombin rather than FXa — a pathway that warfarin suppresses broadly but apixaban does not. This substantially weakens the mechanistic rationale specifically for apixaban, even if broader anticoagulation may have migraine-related benefits.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Completed | 664 | CLOSE trial: Compared PFO closure vs. oral anticoagulants vs. antiplatelet therapy for secondary stroke prevention. Primary endpoint was stroke recurrence, **not migraine**. Anticoagulants included as a treatment arm but apixaban was not specifically evaluated; migraine was not a primary or secondary endpoint. This trial provides indirect, class-level background evidence only (Relevance Grade C). |
+> **Bemærk om dansk registrering:** Evidence Pack'et registrerer ingen aktive markedsføringstilladelser i Danmark. Imidlertid har apixaban (Eliquis®) en centraliseret EMA-godkendelse (EU/1/11/728), der gælder for alle EU/EØS-medlemsstater, herunder Danmark. Dette afspejler sandsynligvis et datakløft i det aktuelle datasæt snarere end en ægte mangel på det danske marked. Verifikation i forhold til Lægemiddelstyrelsens produktdatabase anbefales.
 
 ---
 
-## Literature Evidence
+## Hvorfor Er Denne Forudsigelse Rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Small Trial / Pilot | *Lupus* | Retrospective study of 75 patients with refractory migraine and antiphospholipid antibodies (aPL): evaluated symptomatic response to antithrombotic therapy. Patients with aPL and refractory migraine may respond to anticoagulation, but apixaban was not specifically isolated; general antithrombotic class effect was assessed. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Case Report | *The Neurologist* | Migraine with aura **worsened** after initiating apixaban. Includes a literature review noting that the impact of DOACs on migraine is unclear and evidence is scarce and contradictory — a direct **negative signal** for apixaban. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Case Report | *Headache* | 55-year-old woman had complete remission of migraine with aura for 12 years on warfarin; symptoms returned within 3 weeks of switching to apixaban, and resolved again within days of resuming warfarin. Strongly suggests thrombin (not FXa) is the relevant anticoagulant target — a direct **negative signal** for apixaban specifically. |
-| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Case Report | *Headache* | Vestibular migraine resolving on warfarin and topiramate. Provides indirect class-level evidence for anticoagulation in migraine but does not evaluate apixaban. |
+Apixaban er en selektiv, reversibel inhibitor af aktiveret Faktor X (FXa), et kritisk konvergencepunkt i både det indre og ydre koagulationskaskade. Ved at blokere FXa reducerer apixaban trombin- og fibrin-dannelse uden at inhibere trombin direkte — en vigtig sondring fra vitamin K-antagonister som warfarin.
 
----
+Den hypotetiserede forbindelse til migræne hviler på to mekanistiske tråde. For det første kan paradoksale mikro-embolier, der passerer gennem højre-til-venstre-shuntning ved åbent foramen ovale (PFO), udløse kortikalt spreading depression og migræneopfattelse. Antikoagulation kunne teoretisk reducere den mikroemboli-belastning og dermed dæmpe hyppigheden af opfattelse. For det andet er FXa kendt for at aktivere protease-aktiverede receptorer PAR-1 og PAR-2 på trigeminale neuroner og vaskulær endotel; inhibering af FXa kunne teoretisk dæmpe trigeminovaskulær neuroinflammation, en central mekanisme i migrænefysiologi.
 
-## Denmark Market Information
-
-No marketing authorisations are recorded for apixaban in this dataset. As noted above, this is likely a data gap; the EMA centrally authorised product Eliquis® (apixaban) is marketed throughout the EU/EEA. Healthcare professionals in Denmark should consult the Lægemiddelstyrelsen product database or the EMA product page for the current SmPC and approved indications.
+Imidlertid er det kliniske billede kompliceret af et meningsfuldt negativt signal: to caserapporter sammenligner direkte warfarin og apixaban hos de samme patienter, og i begge tilfælde ophævede warfarin migræne med opfattelse, mens apixaban ikke gjorde det. Dette foreslår, at det relevante mål kan være trombin snarere end FXa — en vej, som warfarin undertrykker bredt, men apixaban ikke. Dette svækker væsentligt den mekanistiske begrundelse specifikt for apixaban, selvom bredere antikoagulation kan have migrænerelaterede fordele.
 
 ---
 
-## Safety Considerations
+## Klinisk Forsøgsevidans
 
-Safety data (key warnings, contraindications, and drug-drug interactions) are not available in this Evidence Pack.
-
-> Please refer to the approved Summary of Product Characteristics (SmPC) for Eliquis® (apixaban) for full safety information, including haemorrhagic risk, renal dose adjustments, interactions with strong CYP3A4/P-gp inhibitors and inducers, and contraindications in pregnancy.
+| Forsøgsnummer | Fase | Status | Antal Indskrevne | Vigtige Resultater |
+|---------------|------|--------|-----------------|-------------------|
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Afsluttet | 664 | CLOSE-forsøg: Sammenlignede PFO-lukning vs. oral antikoagulation vs. antiplatelet-terapi til sekundær apopleksiprofylakse. Primært endepunkt var apopleksirecidiv, **ikke migræne**. Antikoagulantia inkluderet som behandlingsarm, men apixaban blev ikke specifikt evalueret; migræne var ikke et primært eller sekundært endepunkt. Dette forsøg giver kun indirekte, klassenniveau-baggrundsevidans (Relevansgrad C). |
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidans
 
-**Decision: Hold**
+| PMID | År | Type | Journal | Vigtige Resultater |
+|------|-----|------|---------|-------------------|
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Lille Forsøg / Pilotstudie | *Lupus* | Retrospektiv undersøgelse af 75 patienter med refraktær migræne og antifosfolipidarntistoffer (aPL): evaluerede symptomatisk respons på antitrombotisk terapi. Patienter med aPL og refraktær migræne kan reagere på antikoagulation, men apixaban blev ikke specifikt isoleret; klasseeeffekt af antitrombotisk blev evalueret. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Caserapport | *The Neurologist* | Migræne med opfattelse **forværredes** efter initiering af apixaban. Omfatter en litteraturgennemgang, der bemærker, at virkningen af DOAC'er på migræne er uklart og evidensen er sparsom og modstridende — et direkte **negativt signal** for apixaban. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Caserapport | *Headache* | 55-årig kvinde havde fuldstændig remission af migræne med opfattelse i 12 år på warfarin; symptomer vendte tilbage inden for 3 uger efter skifte til apixaban, og forsvandt igen inden for dage efter genoptag af warfarin. Foreslår kraftigt, at trombin (ikke FXa) er det relevante antikoagulant-mål — et direkte **negativt signal** specifikt for apixaban. |
+| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Caserapport | *Headache* | Vestibulær migræne forsvandt på warfarin og topiramat. Giver indirekte klassenniveau-evidans for antikoagulation ved migræne, men evaluerer ikke apixaban. |
 
-**Rationale:**
-The mechanistic hypothesis linking apixaban to migraine is speculative and is actively contradicted by the best available clinical evidence: two head-to-head case comparisons demonstrate that warfarin, but not apixaban, suppresses migraine with aura in the same individual. This pattern implies that thrombin inhibition — not FXa inhibition — may underlie any anticoagulant benefit in migraine, which is mechanistically outside apixaban's pharmacological scope. No dedicated prospective trials exist, and the single relevant Phase 3 trial (NCT00562289) did not evaluate apixaban or include migraine as an endpoint.
+---
 
-**To proceed, the following would be needed:**
-- Mechanistic clarification: Does FXa inhibition specifically (vs. thrombin suppression) reduce trigeminovascular activation in validated migraine models? Preclinical studies targeting this distinction are absent.
-- Head-to-head comparison data: A prospective study comparing apixaban, warfarin, and antiplatelet therapy in PFO-associated migraine with aura is needed to disentangle drug-class effects from molecule-specific effects.
-- Patient subgroup identification: If further investigation is pursued, the most plausible population is PFO-positive patients with refractory migraine with aura and documented microemboli — not the general migraine population.
-- Full safety profile: Obtain the complete SmPC to enable a formal S1 safety assessment, particularly regarding bleeding risk in a population that would otherwise not require anticoagulation.
-- Denmark regulatory data: Verify and update the Lægemiddelstyrelsen registration status to resolve the apparent data gap in this Evidence Pack.
+## Danske Markedsoplysninger
+
+Ingen markedsføringstilladelser registreres for apixaban i dette datasæt. Som bemærket ovenfor er dette sandsynligvis et datakløft; det EMA-centralt godkendte produkt Eliquis® (apixaban) markedsføres i hele EU/EØS. Sundhedspersoner i Danmark bør konsultere Lægemiddelstyrelsens produktdatabase eller EMA-produktsiden for den aktuelle SmPC og godkendte indikationer.
+
+---
+
+## Sikkerhedshensyn
+
+Sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i denne Evidence Pack.
+
+> Henvises til den godkendte produktinformation (SmPC) for Eliquis® (apixaban) for fuldstændig sikkerhedsinformation, herunder hæmorragisk risiko, nyrerelaterede dosisændringer, interaktioner med stærke CYP3A4/P-gp-inhibitorer og induktorer, og kontraindikationer under graviditet.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Den mekanistiske hypotese, der forbinder apixaban til migræne, er spekulativ og modsiges aktivt af det bedst tilgængelige kliniske evidensgrundlag: to head-to-head casessammenligninger demonstrerer, at warfarin, men ikke apixaban, undertrykker migræne med opfattelse hos samme individ. Dette mønster antyder, at trombin-inhibering — ikke FXa-inhibering — kan være grundlaget for enhver antikoagulant-fordel ved migræne, hvilket ligger mekanistisk uden for apixabans farmakologiske område. Ingen dedikerede prospektive forsøg findes, og det eneste relevante Fase 3-forsøg (NCT00562289) evaluerede ikke apixaban eller inkluderede migræne som endepunkt.
+
+**For at fortsætte ville følgende være nødvendigt:**
+- Mekanistisk præcisering: Reducerer FXa-inhibering specifikt (vs. trombin-undertrykkelse) trigeminovaskulær aktivering i validerede migrænemodeller? Prækliniske studier, der målretter denne sondring, mangler.
+- Head-to-head-sammenligningsdata: Et prospektivt studium, der sammenligner apixaban, warfarin og antiplatelet-terapi ved PFO-associeret migræne med opfattelse, er nødvendigt for at afgøre lægemiddelklasseeffekter fra molekyl-specifikke effekter.
+- Patientundergruppidentifikation: Hvis yderligere undersøgelse forfølges, er den mest plausible population PFO-positive patienter med refraktær migræne med opfattelse og dokumenterede mikro-embolier — ikke den generelle migrænepopulation.
+- Fuldt sikkerhedsprofil: Indhent den komplette SmPC for at muliggøre en formel S1-sikkerhedsvurdering, særligt vedrørende blødningsrisiko i en population, som ellers ikke ville kræve antikoagulation.
+- Danske reguleringsdata: Verificer og opdater Lægemiddelstyrelsens registreringsstatus for at løse det tilsyneladende datakløft i denne Evidence Pack.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

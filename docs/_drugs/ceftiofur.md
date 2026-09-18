@@ -29,84 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceftiofur: From Veterinary Bacterial Infections to Interventricular Septum Aneurysm
+# Ceftiofur: Fra veterinær bakteriel infektion til ventrikulært septum-aneurisme
 
 ---
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Ceftiofur is a third-generation cephalosporin antibiotic approved exclusively for **veterinary use** — it has no approved human indications and is not marketed in Denmark.
-The TxGNN model predicts it may be relevant for **Interventricular Septum Aneurysm**, with a high model confidence score of 96.01%.
-However, there are currently **0 clinical trials** and **0 publications** supporting this direction, and the mechanistic rationale is considered weak — this prediction is likely a false positive signal arising from indirect knowledge graph pathways.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Veterinary use only — bacterial infections in livestock (no approved human indication) |
-| Predicted New Indication | Interventricular Septum Aneurysm |
-| TxGNN Prediction Score | 96.01% |
-| Evidence Level | L5 (model prediction only — no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Ceftiofur er en tredjegenerations-cephalosporin-antibiotikum godkendt udelukkende til **veterinær brug** — det har ingen godkendte menneskelige indikationer og markedsføres ikke i Danmark.
+TxGNN-modellen forudsiger, at det kan være relevant for **ventrikulært septum-aneurisme**, med en høj modelsikkerhedsværdi på 96.01%.
+Der er dog i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning, og den mekanistiske begrundelse anses for svag — denne forudsigelse er sandsynligvis et falsk positivt signal fra indirekte veje gennem vidensgrafen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacological class information, Ceftiofur is a third-generation beta-lactam cephalosporin antibiotic developed exclusively for veterinary medicine. It acts by binding to penicillin-binding proteins (PBPs) and inhibiting bacterial cell wall peptidoglycan synthesis, thereby exerting a bactericidal effect. It is routinely used in cattle, swine, and poultry for respiratory tract infections and other bacterial diseases.
-
-Interventricular septum aneurysm is a structural cardiac defect — either congenital or acquired as a sequela of infection (e.g., post-endocarditis tissue thinning). In the latter scenario, there is an indirect theoretical connection to antibiotic therapy during the acute infectious phase. However, Ceftiofur itself has no known mechanism for repairing or modifying cardiac structures, and standard treatment for infective endocarditis employs human-approved agents such as Penicillin G, Ampicillin, or Vancomycin.
-
-The high TxGNN score most likely reflects an indirect graph path in the knowledge graph — specifically a "bacterial infection → cardiac pathology" linkage — rather than a genuine Ceftiofur-specific therapeutic signal. The complete absence of human pharmacokinetic, dosing, and safety data for this veterinary compound further undermines the plausibility of this prediction. This is considered a likely false positive.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Veterinær brug alene — bakterielle infektioner hos husdyr (ingen godkendt menneskelig indikation) |
+| Forudsagt ny indikation | Ventrikulært septum-aneurisme |
+| TxGNN-forudsigelsesscore | 96.01% |
+| Bevissniveau | L5 (modelforudsigelse alene — uden understøttende studier) |
+| Marked i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Vent** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede mekanisme-handling-data ikke tilgængelige fra bevis-pakken. Baseret på kendt farmakologisk klasseinformation er Ceftiofur en tredjegenerations beta-lactam-cephalosporin-antibiotikum udviklet udelukkende til veterinærmedicin. Det virker ved at binde til penicillin-bindende proteiner (PBPs) og hæmme bakteriel cellevæggens peptidoglycan-syntese, hvorved det udøver en bakteriedødende effekt. Det bruges rutinemæssigt hos kvæg, svin og fjerkræ til infektioner i luftvejene og andre bakterielle sygdomme.
 
----
+Ventrikulært septum-aneurisme er en strukturel hjertedejekt — enten medfødt eller erhvervet som følgetilstand efter infektion (f.eks. bakteriel endokarditis-relateret vævsnedbrydning). I sidstnævnte scenarie er der en indirekte teoretisk forbindelse til antibiotika-terapi under den akutte infektionsfase. Ceftiofur har dog ingen kendt mekanisme til at reparere eller ændre kardiale strukturer, og standardbehandling for bakteriel endokarditis benytter menneskegodkendte midler som penicillin G, ampicillin eller vancomycin.
 
-## Denmark Market Information
-
-Ceftiofur holds no marketing authorisations in Denmark and is not registered with the Danish Medicines Agency (Lægemiddelstyrelsen). It is a veterinary medicinal product with no approved human indications in any jurisdiction.
+Den høje TxGNN-værdi afspejler sandsynligvis en indirekte grafsti i vidensgrafen — specifikt en "bakteriel infektion → kardial patologi"-forbindelse — snarere end et autentisk Ceftiofur-specifikt terapeutisk signal. Det fuldstændige fravær af menneskelig farmakokinetik, dosering og sikkerhedsdata for denne veterinære forbindelse underminerer yderligere plausibiliteten af denne forudsigelse. Dette anses for at være en sandsynlig falsk positiv.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Important note**: Ceftiofur is a veterinary-only compound. Human pharmacokinetic data, human dosing recommendations, human toxicity profiles, and clinical drug interaction data are entirely absent. Any consideration of human use would require de novo clinical development, including first-in-human studies.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbevis
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-All five unique predicted indications (interventricular septum aneurysm, pulmonary valve disease, orofacial clefting syndrome, Laubry-Pezzi syndrome, and genetic syndromic Pierre Robin syndrome) are structural or congenital conditions for which an antibiotic agent has no plausible direct therapeutic mechanism. The evidence level is L5 across the board, and Ceftiofur has no approved human use in any country. The TxGNN predictions in this case are assessed as knowledge graph noise amplification arising from sparse disease nodes and indirect infection-related pathways.
+---
 
-**To proceed, the following would be needed — at minimum:**
+## Markedsinformation for Danmark
 
-- Confirmation that Ceftiofur is not a veterinary-exclusive compound (i.e., identification of any investigational human use context)
-- Basic human pharmacokinetic and toxicology data (Phase 0 / first-in-human studies)
-- A credible mechanistic hypothesis linking beta-lactam antibiotic activity to the predicted structural cardiac or craniofacial conditions
-- Regulatory consultation with the Danish Medicines Agency (Lægemiddelstyrelsen) and EMA on the pathway for repurposing a veterinary compound for human use
-- Review of whether TxGNN graph topology in the region of these disease nodes is adequately dense to support reliable predictions
+Ceftiofur har ingen markedsføringstilladelser i Danmark og er ikke registreret hos Lægemiddelstyrelsen. Det er et veterinært lægemiddel uden godkendt menneskelig indikation i nogen jurisdiktion.
 
-> ⚠️ **Research disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application in patient care.
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+> **Vigtig bemærkning**: Ceftiofur er et udelukkende veterinært stof. Menneskelig farmakokinetik, anbefalinger til menneskelig dosering, menneskelige toksicitetsdata og kliniske lægemiddelinteraktioner er helt fraværende. Enhver overvejelse af menneskelig brug ville kræve de novo klinisk udvikling, herunder first-in-human-studier.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Alle fem unikke forudsagte indikationer (ventrikulært septum-aneurisme, lungemitralskade, orofacial spalte-syndrom, Laubry-Pezzi-syndrom og genetisk syndromalt Pierre Robin-syndrom) er strukturelle eller medfødte tilstande, for hvilke et antibiotikum har ingen plausibel direkte terapeutisk mekanisme. Bevisniveauet er L5 på tværs af hele spektret, og Ceftiofur har ingen godkendt menneskelig brug i noget land. TxGNN-forudsigelserne i dette tilfælde vurderes som forstærkning af støj i vidensgrafen fra sjældne sygdomsknuder og indirekte infektionsrelaterede veje.
+
+For at fortsætte ville følgende være nødvendigt — minimum:
+
+- Bekræftelse af, at Ceftiofur ikke er udelukkende veterinært (dvs. identificering af enhver undersøgende menneskelig brugssammenhæng)
+- Grundlæggende menneskelig farmakokinetik og toksikologidata (Phase 0 / first-in-human-studier)
+- En troværdig mekanistisk hypotese, der forbinder beta-lactam-antibiotikum-aktivitet til de forudsagte strukturelle kardiale eller kranio-faciale tilstande
+- Regulatorisk konsultation med Lægemiddelstyrelsen og EMA om vejen til genanvendelse af et veterinært lægemiddel til menneskelig brug
+- Gennemgang af, om TxGNN-graftopologi i området omkring disse sygdomsknuder er tilstrækkeligt tæt til at understøtte pålidelige forudsigelser
+
+> ⚠️ **Forskningsmæssig ansvarsfravisning**: Denne rapport er kun til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddelgenanvendelseskandidater kræver klinisk validering, før de kan anvendes i patientbehandling.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

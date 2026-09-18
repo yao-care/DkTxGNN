@@ -29,95 +29,96 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+# Tocilizumab: Fra reumatoid artritis til ankyloserende spondylitis
 
-## One-Sentence Summary
+## Enlinjesummary
 
-Tocilizumab is a humanized anti-IL-6 receptor monoclonal antibody with established use in rheumatoid arthritis. The TxGNN model predicts it may be effective for **Ankylosing Spondylitis**, but the underlying evidence base — **9 clinical trials** and **20 publications** — actually includes two terminated Phase 3 RCTs that failed to demonstrate efficacy, making this a mechanism-mismatch case rather than a supportive signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid Arthritis (established global indication; not confirmed via Danish licensing data — see below) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tocilizumab er et humaniseret monoklonalt antistof mod IL-6-receptor med etableret anvendelse ved reumatoid artritis. TxGNN-modellen forudsiger, at det kan være effektivt ved **ankyloserende spondylitis**, men det underliggende bevisgrundlag — **9 kliniske forsøg** og **20 publikationer** — indeholder faktisk to afbrudt Phase 3 RCT'er, som ikke formåede at påvise effektivitet, hvilket gør dette til et tilfælde af mekanisme-mismatch snarere end et støttesignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available from DrugBank for this evidence pack. Based on known information, tocilizumab is a humanized monoclonal antibody that blocks the interleukin-6 receptor (IL-6R), and its efficacy in rheumatoid arthritis (RA) — where IL-6 plays a well-established pathogenic role — has been clinically proven.
-
-However, the mechanistic rationale does **not** transfer cleanly to ankylosing spondylitis (AS). Axial spondyloarthritis, including AS, is primarily driven by the IL-17/IL-23 axis and TNF-α rather than IL-6 signaling. This is reflected directly in the evidence: two placebo-controlled Phase 2/3 RCTs of tocilizumab in AS (NCT01209689 and NCT01209702) were both **terminated for lack of efficacy**. The TxGNN high score most likely reflects knowledge-graph co-occurrence between tocilizumab and inflammatory joint disease broadly, rather than a pathway-specific signal for AS.
-
-In short, this is a case where a high model score is contradicted by direct clinical trial evidence — the prediction should be treated as a cautionary example rather than a promising repurposing lead.
+| Element | Indhold |
+|--------|---------|
+| Oprindelig indikation | Reumatoid artritis (etableret global indikation; ikke bekræftet via dansk licensdata — se nedenfor) |
+| Forudsagt ny indikation | Ankyloserende spondylitis |
+| TxGNN-prognose-score | 99.99% |
+| Bevisniveau | L1 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedstilladelser | 0 |
+| Anbefalet afgørelse | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prognose rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede virkningsmekanisme-data er i øjeblikket ikke tilgængelige fra DrugBank for denne bevismappe. Baseret på kendt information er tocilizumab et humaniseret monoklonalt antistof, der blokerer interleukin-6-receptoren (IL-6R), og dets effektivitet ved reumatoid artritis (RA) — hvor IL-6 spiller en velestableret patogenetisk rolle — er blevet klinisk bevist.
+
+Imidlertid overfører den foreslåede virkningsmekanisme sig **ikke** på en simpel måde til ankyloserende spondylitis (AS). Aksialt spondyloarthritis, inklusive AS, drives primært af IL-17/IL-23-aksen og TNF-α snarere end IL-6-signalering. Dette afspejles direkte i beviserne: to placebo-kontrollerede Phase 2/3 RCT'er af tocilizumab ved AS (NCT01209689 og NCT01209702) blev begge **afbrudt på grund af mangel på effektivitet**. Det høje TxGNN-score skyldes med størst sandsynlighed videnskabsgraf-co-forekomst mellem tocilizumab og inflammatorisk ledsygdom bredt set snarere end et vejspecifikt signal for AS.
+
+Kort sagt er dette et tilfælde, hvor en høj modelscore er direkte modsagt af kliniske forsøgsbeviser — prognosen bør behandles som et advarende eksempel snarere end et lovende genbrugslead.
+
+---
+
+## Kliniske forsøgsbeviser
+
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Phase 3 | Terminated | 113 | RCT of tocilizumab vs. placebo in AS patients with inadequate response to prior TNF antagonists — terminated for lack of efficacy |
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Phase 2/3 | Terminated | 306 | Seamless RCT of tocilizumab vs. placebo in TNF-naïve AS patients who failed NSAIDs — terminated for lack of efficacy |
-| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Recruiting | 2500 | Observational cytokine/biomarker profiling across systemic inflammatory diseases; not AS/tocilizumab-specific |
-| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Completed | 1431 | Real-world observational study of Inflectra (infliximab biosimilar), not tocilizumab |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750000 | Registry study on risk of incident immune-mediated inflammatory diseases in biologics-treated patients |
-| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Phase 2 | Not yet recruiting | 52 | Secukinumab (not tocilizumab) in Takayasu arteritis |
-| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Completed | 60 | Mechanistic study of tocilizumab's effect on T follicular helper cells in RA patients |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Recruiting | 10000 | Korean registry of biologics/targeted therapies across RA, AS and PsA — observational, not efficacy-specific |
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Phase 3 | Afbrudt | 113 | RCT af tocilizumab versus placebo hos AS-patienter med utilstrækkelig respons på tidligere TNF-antagonister — afbrudt på grund af mangel på effektivitet |
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Phase 2/3 | Afbrudt | 306 | Sømløs RCT af tocilizumab versus placebo hos TNF-naive AS-patienter, som ikke responderede på NSAID'er — afbrudt på grund af mangel på effektivitet |
+| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Rekrutterer | 2500 | Observationsstudie af cytokin-/biomarør-profilering på tværs af systemiske inflammatoriske sygdomme; ikke AS/tocilizumab-specifik |
+| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Afsluttet | 1431 | Observationsstudie i virkeligheden af Inflectra (infliximab-biosimilar), ikke tocilizumab |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Ukendt | 750000 | Registerstudie om risiko for nyopstået immune-medieret inflammatoriske sygdomme hos biologics-behandlede patienter |
+| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Phase 2 | Endnu ikke påbegyndt | 52 | Secukinumab (ikke tocilizumab) til Takayasus arteritis |
+| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Afsluttet | 60 | Mekanistisk studie af tocilizumabs effekt på T-follikulære hjælperceller hos RA-patienter |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Endnu ikke påbegyndt | 80 | Perioperativ immunsuppressiv håndtering hos reumatologiske patienter, der gennemgår skulderledarthroplastik |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Rekrutterer | 10000 | Koreansk register over biologics/målrettede terapier på tværs af RA, AS og PsA — observationelt studie, ikke effektivitet-specifik |
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige fund |
 |------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT | Annals of the Rheumatic Diseases | BUILDER-1/BUILDER-2 randomised placebo-controlled trials assessing short-term efficacy of tocilizumab in AS |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Review | Inflammation & Allergy Drug Targets | Reviews IL-6 antagonism rationale and limited evidence in AS |
-| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematic Review | Medicine | Network meta-analysis comparing biologic regimens for AS |
-| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Review | Current Opinion in Rheumatology | Treatment alternatives for AS refractory to TNF inhibition |
-| [20851032](https://pubmed.ncbi.nlm.nih.gov/20851032/) | 2010 | Case Report | Joint Bone Spine | Tocilizumab used in a patient with AS and Crohn's disease refractory to TNF antagonists |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Case Report | Frontiers in Medicine | Tocilizumab for AA amyloidosis complicating AS (2 cases) |
-| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Review | Clinical and Experimental Rheumatology | Compares biologics in RA vs. AS, noting differing pathogenesis |
-| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | Review | Current Pharmaceutical Biotechnology | Overview of biologics across RA, PsA and AS |
-| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Review | Seminars in Arthritis and Rheumatism | Second-line biologic therapy optimization across RA/PsA/AS |
-| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Cohort/Meta-analysis | Clinical Rheumatology | Serious infection risk with biologics in axial spondyloarthritis |
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT | Annals of the Rheumatic Diseases | BUILDER-1/BUILDER-2 randomiserede placebo-kontrollerede forsøg, der vurderer korttidseffektivitet af tocilizumab ved AS |
+| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Oversigt | Inflammation & Allergy Drug Targets | Gennemgår IL-6-antagonisme-rationale og begrænset bevis ved AS |
+| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematisk oversigt | Medicine | Netværks-metaanalyse, som sammenligner biologiske regimer ved AS |
+| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Oversigt | Current Opinion in Rheumatology | Behandlingsalternativerner for AS modstridigt mod TNF-hæmning |
+| [20851032](https://pubmed.ncbi.nlm.nih.gov/20851032/) | 2010 | Kasuistik | Joint Bone Spine | Tocilizumab brugt hos patient med AS og Crohns sygdom, modstridigt mod TNF-antagonister |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Kasuistik | Frontiers in Medicine | Tocilizumab til AA-amyloidose, der komplicerer AS (2 tilfælde) |
+| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Oversigt | Clinical and Experimental Rheumatology | Sammenligner biologics i RA versus AS, bemærk forskellig patogenese |
+| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | Oversigt | Current Pharmaceutical Biotechnology | Oversigt over biologics på tværs af RA, PsA og AS |
+| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Oversigt | Seminars in Arthritis and Rheumatism | Optimering af anden-linje biologics-terapi på tværs af RA/PsA/AS |
+| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Kohortestudie/Metaanalyse | Clinical Rheumatology | Risiko for alvorlig infektion med biologics ved aksialt spondyloarthritis |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Tocilizumab currently has **no marketing authorisation on file** in this evidence pack (market status: Not marketed; 0 licenses recorded). No product-level authorisation data is available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Tocilizumab har i øjeblikket **ingen markedstilladelse registreret** i denne bevismappe (markedsstatus: Ikke markedsført; 0 licenser registreret). Ingen produktniveautilladelsesdata er tilgængelige til sammenfatning.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte produktresumékarakteristika (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-The only direct efficacy evidence for this indication — two Phase 2/3 RCTs (NCT01209689, NCT01209702) — was terminated for lack of efficacy, and the proposed mechanism (IL-6 blockade) does not align with the IL-17/TNF-driven pathogenesis of ankylosing spondylitis. The high TxGNN score is not corroborated by, and is directly contradicted by, existing clinical trial evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (currently blocking safety assessment — flagged as a blocking data gap)
-- Confirmed DrugBank mechanism-of-action data to formally document the IL-6R pathway rationale
-- Re-review of BUILDER-1/BUILDER-2 (PMID 23765873) full trial results to confirm whether any subgroup showed partial benefit
-- If pursued despite Hold status, a documented rationale for why this candidate should override two negative Phase 3 readouts
+## Konklusion og næste skridt
+
+**Afgørelse: Hold**
+
+**Begrundelse:**
+De eneste direkte effektivitetsbevis for denne indikation — to Phase 2/3 RCT'er (NCT01209689, NCT01209702) — blev afbrudt på grund af mangel på effektivitet, og den foreslåede mekanisme (IL-6-blokade) stemmer ikke overens med IL-17/TNF-dreven patogenese af ankyloserende spondylitis. Det høje TxGNN-score er ikke understøttet af, og er direkte modsagt af, eksisterende kliniske forsøgsbeviser.
+
+**For at fortsætte kræves følgende:**
+- TFDA/dansk SmPC-advarsler og kontraindikationer (i øjeblikket blokerer sikkerhedsvurderingen — markeret som kritisk datakløft)
+- Bekræftelse af DrugBank-data om virkningsmekanisme for at dokumentere IL-6R-rationale
+- Genoversigt af BUILDER-1/BUILDER-2 (PMID 23765873) komplette forsøgsresultater for at bekræfte, om nogen subgruppe viste delvis benefit
+- Hvis forfølgelse på trods af Hold-status, en dokumenteret begrundelse for, hvorfor denne kandidat skal tilsidesætte to negative Phase 3-resultater
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

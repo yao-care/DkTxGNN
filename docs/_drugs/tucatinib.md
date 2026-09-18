@@ -29,88 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tucatinib: From HER2-Positive Breast Cancer to Migraine Disorder
+# Tucatinib: Fra HER2-positiv brystkræft til migræne
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Tucatinib is an oral HER2-selective tyrosine kinase inhibitor, described in the sourced evidence as targeting the HER2 pathway used in oncology settings; no confirmed original indication is recorded in this evidence pack because the drug is not marketed in Denmark. The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic rationale states there is no known biological link between HER2 signalling and migraine pathophysiology (CGRP, trigeminovascular system, serotonin pathways).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Danish license data (drug not marketed in Denmark); evidence-pack rationale text identifies Tucatinib as a HER2-selective TKI used in HER2-related oncology |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 98.62% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tucatinib er en oral HER2-selektiv tyrosinkinaseinhibitor, som i det tilvejebragte bevis beskrives som målrettet mod HER2-stien, der bruges i onkologiske indstillinger; ingen bekræftet oprindelig indikation er registreret i denne bevismappe, fordi medicinen ikke markedsføres i Danmark. TxGNN-modellen forudsiger, at det kan være effektivt mod **Migræne**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og bevismappe's egen mekanistiske begrundelse angiver, at der er ingen kendt biologisk forbindelse mellem HER2-signalering og migrænepatofysiologi (CGRP, trigeminovaskulært system, serotoninveje).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data (`original_moa`) is not available as a structured field. Based on information embedded in the evidence pack's own rationale text, Tucatinib is a HER2-selective tyrosine kinase inhibitor, a drug class used in oncology to block HER2-driven tumour signalling.
-
-Migraine disorder's known pathophysiology involves CGRP release, the trigeminovascular system, and serotonergic pathways — none of which overlap with HER2 receptor signalling. The evidence pack explicitly states: *"無已知機轉關聯...無臨床或臨床前證據支持"* (no known mechanistic link; no clinical or preclinical evidence supports this association).
-
-Given the absence of a plausible biological mechanism and the complete absence of supporting clinical trials or literature for this specific drug-disease pair, this prediction should be interpreted as a statistical association from the TxGNN model rather than a mechanistically grounded repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke dokumenteret i danske licensdata (medicinen markedsføres ikke i Danmark); bevismappe's begrundelsestekst identificerer Tucatinib som en HER2-selektiv TKI, der bruges i HER2-relateret onkologi |
+| Forudsagt ny indikation | Migræne |
+| TxGNN-forudsigelsesscore | 98.62% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen kliniske forsøg eller litteratur) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede mekanismedata for virkning (`original_moa`) ikke tilgængelig som et struktureret felt. Baseret på oplysninger indlejret i bevismappe's egen begrundelsestekst er Tucatinib en HER2-selektiv tyrosinkinaseinhibitor, en lægemiddelklasse, der bruges i onkologi til at blokere HER2-drevet tumorcellesignalering.
 
----
+Migrænes kendte patofysiologi omfatter CGRP-frigivelse, det trigeminovaskulære system og serotonerge veje — ingen af disse overlapper med HER2-receptorsignalering. Bevismappe angiver eksplicit: *"無已知機轉關聯...無臨床或臨床前證據支持"* (ingen kendt mekanistisk forbindelse; ingen klinisk eller præ-klinisk evidens understøtter denne association).
 
-## Denmark Market Information
-
-Tucatinib is not currently marketed in Denmark. No marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) were found in this evidence pack (`total_licenses: 0`).
+I betragtning af fraværet af en plausibel biologisk mekanisme og det fuldstændige fravær af understøttende kliniske forsøg eller litteratur for dette specifikke lægemiddel-sygdoms-par, bør denne forudsigelse fortolkes som en statistisk association fra TxGNN-modellen snarere end en mekanistisk funderet genbrug-hypotese.
 
 ---
 
-## Cytotoxicity
+## Kliniske forsøgsbeviser
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (HER2-selective tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Safety Considerations
+## Litteraturbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack.
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Tucatinib markedsføres ikke i øjeblikket i Danmark. Ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) blev fundet i denne bevismappe (`total_licenses: 0`).
 
-**Rationale:**
-Despite a high TxGNN prediction score (98.62%), there is no supporting clinical trial or literature evidence for Tucatinib in migraine disorder, and the mechanistic rationale in the evidence pack itself finds no biological plausibility (HER2 pathway vs. CGRP/trigeminovascular/serotonergic pathways). This is a model-only (L5) prediction and does not meet the threshold to advance past initial screening.
+---
 
-Additionally, worth noting: among this drug's other top-ranked TxGNN predictions, the "multiple endocrine neoplasia" evidence (NCT04802759, NCT02892123) was flagged as keyword mismatch — those trials study zanidatamab, not Tucatinib — and the "pulmonary hypertension" prediction was flagged as a possible **safety signal rather than therapeutic benefit**, since tyrosine kinase inhibitors as a class (e.g., dasatinib) are known to induce pulmonary hypertension as an adverse effect. Both reinforce a cautious posture toward this candidate overall.
+## Cytotoxicitet
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action data via DrugBank API (currently a High-severity data gap)
-- Any preclinical or mechanistic studies linking HER2 inhibition to migraine pathophysiology, if they exist
-- Re-evaluation once genuine (non-keyword-mismatched) clinical or literature evidence becomes available
+| Emne | Indhold |
+|------|---------|
+| Cytotoxicitetsklassificering | Målrettet terapi (HER2-selektiv tyrosinkinaseinhibitor) |
+| Myelosuppressionsrisiko | Se venligst Produktinformationen (SmPC) advarsler og forholdsregler |
+| Emetogenitetsklassificering | Se venligst Produktinformationen (SmPC) advarsler og forholdsregler |
+| Overvågningselementer | Se venligst Produktinformationen (SmPC) advarsler og forholdsregler |
+| Beskyttelse ved håndtering | Se venligst Produktinformationen (SmPC) advarsler og forholdsregler |
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation. Der var ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata tilgængelige i denne bevismappe.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Trods en høj TxGNN-forudsigelsesscore (98.62%) er der ingen understøttende klinisk forsøgs- eller litteraturbevis for Tucatinib ved migræne, og den mekanistiske begrundelse i bevismappe selv finder ingen biologisk plausibilitet (HER2-vej vs. CGRP/trigeminovaskulær/serotonerge veje). Dette er en modeludelukkende (L5) forudsigelse og opfylder ikke tærsklen for at komme videre fra første screening.
+
+Derudover værd at bemærke: blandt dette lægemiddels andre højt rangerede TxGNN-forudsigelser blev "multipel endokrin neoplasi"-beviser (NCT04802759, NCT02892123) markeret som nøgleordsuoverensstemmelse — disse forsøg studerer zanidatamab, ikke Tucatinib — og "lungehypertension"-forudsigelsen blev markeret som et muligt **sikkerhedssignal snarere end terapeutisk fordel**, da tyrosinkinasehemmere som en klasse (f.eks. dasatinib) er kendt for at inducere lungehypertension som en bivirkning. Begge forstærker en forsigtig tilgang over for denne kandidat generelt.
+
+**For at gå videre kræves følgende:**
+- TFDA/danske Produktinformation-advarsler og kontraindikationer (i øjeblikket et kritisk dataglip)
+- Bekræftede mekanisme-virkning-data via DrugBank API (i øjeblikket et alvorligt dataglip)
+- Eventuelle præ-kliniske eller mekanistiske studier, der forbinder HER2-hæmning med migrænepatofysiologi, hvis de findes
+- Genvurdering når autentisk (uden nøgleordsuoverensstemmelse) klinisk eller litteraturbevis bliver tilgængelig
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Urofollitropin: From Fertility Treatment to Migraine Disorder
+# Urofollitropin: Fra Fertilitetsbehandling til Migræneforstyrrelse
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Urofollitropin is a purified follicle-stimulating hormone (FSH) preparation used for ovulation induction and assisted reproductive technology (ART). The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported by **no clinical trials and no published literature**, and the drug is not marketed in Denmark.
+Urofollitropin er et renset FSH-præparat (follikelstimulerende hormon) brugt til ovulationsinduktion og assisteret reproduktionsteknologi (ART). TxGNN-modellen forudsiger, at det kan være effektivt for **Migræneforstyrrelse**, men denne forudsigelse understøttes i øjeblikket af **ingen kliniske forsøg og ingen offentliggjort litteratur**, og lægemidlet er ikke markedsført i Danmark.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Ovulation induction / assisted reproductive technology (based on known drug class; not documented in Danish licenses, as the drug is not marketed in Denmark) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature identified) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Ovulationsinduktion / assisteret reproduktionsteknologi (baseret på kendt lægemiddelklasse; ikke dokumenteret i danske godkendelser, da lægemidlet ikke er markedsført i Danmark) |
+| Forudsagt ny indikation | Migræneforstyrrelse |
+| TxGNN-forudsigelsesscore | 99.85% |
+| Evidensniveau | L5 (modelforudsigelse kun, ingen kliniske forsøg eller litteratur identificeret) |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not currently available for Urofollitropin (data gap). Based on known pharmacology, Urofollitropin is a purified FSH preparation used to stimulate follicular development for ovulation induction and ART; its efficacy in fertility treatment is well established, but no known mechanistic pathway connects gonadotropin signalling to the neurovascular/CGRP pathways implicated in migraine.
+Detaljerede mekanismedata for virkningsmekanisme er i øjeblikket ikke tilgængelige for Urofollitropin (datakløft). Baseret på kendt farmakologi er Urofollitropin et renset FSH-præparat, der bruges til at stimulere follikeludvikling til ovulationsinduktion og ART; dets virkning ved fertilitetsbehandling er velestableret, men ingen kendt mekanistisk vej forbinder gonadotropinsignalering til de neurovaskulære/CGRP-veje, som er involveret i migræne.
 
-The evidence pack's own mechanistic assessment is explicitly skeptical of this prediction: it notes there is "no known mechanism linking FSH to migraine's neurovascular/CGRP pathway" and flags this as "highly suspicious of knowledge-graph co-occurrence bias" (e.g., an indirect association between menstrual migraine and gonadotropin activity being amplified by the graph structure rather than reflecting genuine biology).
+Evidenspakkets egen mekanistiske vurdering er eksplicit skeptisk over for denne forudsigelse: den noterer, at der er "ingen kendt mekanisme, der forbinder FSH til migrænes neurovaskulære/CGRP-vej" og markerer dette som "højst mistænkt for knowledge-graph co-occurrence-bias" (f.eks. en indirekte association mellem menstruel migræne og gonadotropin-aktivitet, der forstørres af grafen struktur snarere end at afspejle ægte biologi).
 
-This concern is reinforced by the broader prediction set: five mechanistically unrelated conditions — migraine disorder, migraine with brainstem aura, cauda equina syndrome, His bundle tachycardia, and restless legs syndrome — all score within a narrow band (99.68%–99.85%), each duplicated across two ranks. None of these conditions share a plausible pharmacological link to FSH, and none returned any supporting clinical trial or literature evidence. This pattern is more consistent with a non-specific scoring artifact than a validated repurposing signal.
+Denne bekymring forstærkes af det bredere forudsigelsessæt: fem mekanistisk urelated tilstande — migræneforstyrrelse, migræne med hjernestammeaura, kaudaekvinasyndrom, His-bundt-takykardi og Restless Legs-syndrom — scorer alle inden for et snævert område (99.68%–99.85%), hver duplikeret på tværs af to rækker. Ingen af disse tilstande deler en plausibel farmakologisk forbindelse til FSH, og ingen returnerede nogen understøttende klinisk forsøg eller litteraturbevis. Dette mønster er mere i overensstemmelse med en ikke-specifik scoringsartefakt end et valideret repurposing-signal.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Bevis fra litteratur
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Urofollitropin is **not marketed** in Denmark — no marketing authorisations (national or centralised/EMA) are currently on record.
+Urofollitropin er **ikke markedsført** i Danmark — ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er i øjeblikket registreret.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Safety data (key warnings, contraindications, drug-drug interactions) could not be retrieved for this evaluation. This is flagged in the evidence pack as a **Blocking** data gap (DG001: SmPC warnings/contraindications), meaning the candidate cannot proceed past the initial safety screening stage (S1) until label data is obtained. Please refer to the approved Summary of Product Characteristics (SmPC) once available.
+Sikkerhedsdata (vigtige advarsler, kontraindikationer, lægemiddelinteraktioner) kunne ikke hentes til denne vurdering. Dette er markeret i evidenspakken som et **blokeringsdatakløft** (DG001: SmPC-advarsler/kontraindikationer), hvilket betyder, at kandidaten ikke kan fortsætte ud over det indledende sikkerhedsscreening-trin (S1), indtil mærkatdata er opnået. Se venligst det godkendte produktresumé (SmPC), når det bliver tilgængeligt.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-This candidate has zero supporting clinical trial or literature evidence (Evidence Level L5), the drug is not marketed in Denmark, and a Blocking data gap prevents safety screening. The evidence pack's own mechanistic review flags the prediction as likely reflecting knowledge-graph co-occurrence bias rather than a genuine biological signal, given that multiple unrelated conditions score in the same narrow range with no differentiating evidence.
+**Begrundelse:**
+Denne kandidat har nul understøttende bevis fra kliniske forsøg eller litteratur (Evidensniveau L5), lægemidlet er ikke markedsført i Danmark, og et blokeringsdatakløft forhindrer sikkerhedsscreening. Evidenspakkets egen mekanistiske gennemgang markerer forudsigelsen som sandsynligvis afspejlende knowledge-graph co-occurrence-bias snarere end et genuint biologisk signal, givet at multiple urelated tilstande scorer i samme snævre område uden differentierende bevis.
 
-**To proceed, the following is needed:**
-- SmPC warnings/contraindications (blocking gap — required before any safety screening)
-- Detailed mechanism of action data for Urofollitropin (DrugBank/literature)
-- A biologically plausible mechanistic hypothesis linking FSH to migraine pathophysiology, ideally supported by preclinical data
-- At minimum, exploratory/observational evidence before considering advancement beyond model-prediction stage
+**For at fortsætte kræves følgende:**
+- SmPC-advarsler/kontraindikationer (blokeringskløft — påkrævet før nogen sikkerhedsscreening)
+- Detaljeret mekanismedata for virkningsmekanisme for Urofollitropin (DrugBank/litteratur)
+- En biologisk plausibel mekanistisk hypotese, der forbinder FSH til migrænes patofysiologi, ideelt set understøttet af prækliniske data
+- Som minimum explorative/observationelle bevis før overvejelse af fremskridt ud over modelforudsigelsestrin
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

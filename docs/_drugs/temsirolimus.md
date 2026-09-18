@@ -29,77 +29,78 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Temsirolimus: From Renal Cell Carcinoma to Liposarcoma
+# Temsirolimus: Fra nyrecellekarcinom til liposarkom
 
-## One-Sentence Summary
+## Opsummering på en sætning
 
-Temsirolimus is an mTOR inhibitor originally approved for renal cell carcinoma. The TxGNN model predicts it may also be effective for **Liposarcoma**, with **5 clinical trials** (including two using temsirolimus itself) and **1 publication** currently supporting this direction.
+Temsirolimus er en mTOR-inhibitor, der oprindeligt er godkendt til nyrecellekarcinom. TxGNN-modellen forudsiger, at det også kan være effektivt til liposarkom, med 5 kliniske forsøg (herunder to med temsirolimus selv) og 1 publikation, der i øjeblikket understøtter denne retning.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Renal cell carcinoma (per repurposing rationale; no Danish licence record available) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Nyrecellekarcinom (ifølge begrundelse for genbrug; ingen dansk licensjournal tilgængelig) |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 99.54% |
+| Bevisniveau | L2 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed original mechanism-of-action documentation is not yet available in this evidence pack (flagged as a data gap). However, the repurposing rationale confirms temsirolimus is an mTOR inhibitor and a pro-drug of sirolimus, currently approved for renal cell carcinoma.
+Detaljeret dokumentation af den oprindelige virkningsmekanisme er endnu ikke tilgængelig i dette bevispaket (markeret som en datakløft). Begrundelsen for genbrug bekræfter imidlertid, at temsirolimus er en mTOR-inhibitor og et pro-lægemiddel af sirolimus, der i øjeblikket er godkendt til nyrecellekarcinom.
 
-Dedifferentiated and myxoid subtypes of liposarcoma are frequently driven by PI3K/AKT/mTOR pathway activation together with MDM2/CDK4 co-amplification, producing a well-established mechanistic rationale for mTOR inhibition in this tumour type. Since liposarcoma has no approved link to the original renal cell carcinoma indication, this use would remain off-label and exploratory.
+Dedifferentierede og myxoide undertyper af liposarkom bliver ofte drevet af PI3K/AKT/mTOR-vej aktivering sammen med MDM2/CDK4 co-amplifikation, hvilket producerer en velkendt mekanistisk begrundelse for mTOR-inhibering i denne tumortype. Da liposarkom ikke har nogen godkendt forbindelse til den oprindelige nyrecellekarcinom-indikation, vil denne brug blive ved med at være off-label og eksplorativ.
 
-This mechanistic plausibility is reinforced by clinical experience with mTOR-pathway drugs (sirolimus, ridaforolimus, everolimus) across various sarcoma subtypes, and by two trials using temsirolimus itself directly in sarcoma populations — supporting the biological reasonableness of the TxGNN prediction, though direct pivotal evidence in liposarcoma specifically is still limited.
+Denne mekanistiske plausibilitet styrkes af klinisk erfaring med mTOR-vej-lægemidler (sirolimus, ridaforolimus, everolimus) på tværs af forskellige sarkom-undertyper, og af to forsøg med temsirolimus selv direkte i sarkom-populationer — hvilket understøtter den biologiske rimelighed af TxGNN-forudsigelsen, selv om direkte pivotal-bevis i liposarkom specifikt stadig er begrænset.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Completed | 46 | Temsirolimus + cixutumumab in pediatric recurrent/refractory sarcoma; direct temsirolimus evidence |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Completed | 216 | Ridaforolimus (mTOR inhibitor class analog, not temsirolimus) in advanced sarcoma |
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Sirolimus (active metabolite of temsirolimus) + cyclophosphamide in metastatic/unresectable myxoid liposarcoma and chondrosarcoma |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Everolimus (mTOR inhibitor class analog) + ribociclib in dedifferentiated liposarcoma and leiomyosarcoma |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Completed | 24 | Torisel (temsirolimus) + liposomal doxorubicin in advanced soft tissue/bone sarcoma; direct temsirolimus evidence |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtigste resultater |
+|---------|------|--------|--------|---------|
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Fase 2 | Afsluttet | 46 | Temsirolimus + cixutumumab til pediastrisk recidiverende/behandlingsresistent sarkom; direkte temsirolimus-bevis |
+| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Fase 2 | Afsluttet | 216 | Ridaforolimus (mTOR-inhibitor-klasse analog, ikke temsirolimus) i avanceret sarkom |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Afsluttet | 70 | Sirolimus (aktivt metabolit af temsirolimus) + cyclophosphamid i metastatisk/ikke-resektabel myxoid liposarkom og chondrosarkom |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, ikke rekrutterer | 48 | Everolimus (mTOR-inhibitor-klasse analog) + ribociclib i dedifferentieret liposarkom og leiomyosarkom |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Fase 1/2 | Afsluttet | 24 | Torisel (temsirolimus) + liposomal doxorubicin i avanceret blødtvæv/knogleSarkom; direkte temsirolimus-bevis |
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bulletin du cancer | Reviews targeted treatment approaches for rare connective tissue tumours and sarcomas by molecular subgroup |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Overblik | Bulletin du cancer | Gennemgår målrettede behandlingsmetoder til sjældne bindevævssvulster og sarkomer efter molekylær undergruppe |
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Temsirolimus currently has no marketing authorisation on record in Denmark (0 authorisations; market status: not marketed).
+Temsirolimus har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 tilladelser; markeds status: ikke markedsført).
 
-## Cytotoxicity
+## Cytotoksicitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor / kinase inhibitor class) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) — no toxicity data available in this evidence pack |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) — no toxicity data available in this evidence pack |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) — no toxicity data available in this evidence pack |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) — no toxicity data available in this evidence pack |
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassifikation | Målrettet terapi (mTOR-inhibitor / kinase-inhibitor-klasse) |
+| Myelosuppressions risiko | Se venligst Produktresumé (SmPC) — ingen toksicitetsdata tilgængelig i dette bevispaket |
+| Emetogenicitetsklassifikation | Se venligst Produktresumé (SmPC) — ingen toksicitetsdata tilgængelig i dette bevispaket |
+| Overvågningspunkter | Se venligst Produktresumé (SmPC) — ingen toksicitetsdata tilgængelig i dette bevispaket |
+| Håndteringsbeskyttelse | Se venligst Produktresumé (SmPC) — ingen toksicitetsdata tilgængelig i dette bevispaket |
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-Temsirolimus is not currently marketed in Denmark, and the underlying safety documentation (warnings, contraindications) needed for initial safety screening is entirely missing — a blocking data gap. While mechanistic and Phase 1/2 evidence in sarcoma is encouraging, direct pivotal evidence for temsirolimus specifically in liposarcoma remains at the research-question stage.
+**Begrundelse:**
+Temsirolimus er i øjeblikket ikke markedsført i Danmark, og den underliggende sikkerhedsdokumentation (advarsler, kontraindikationer) som er nødvendig for initial sikkerhedsvurdering mangler helt — en blokerende datakløft. Selv om mekanistisk og fase 1/2-bevis i sarkom er tilskyndende, forbliver direkte pivotal-bevis for temsirolimus specifikt i liposarkom på stadiet for forskningsteoretiske spørgsmål.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC label data on warnings and contraindications (blocking gap)
-- Confirmed detailed mechanism-of-action documentation from DrugBank
-- A dedicated liposarcoma trial evaluating temsirolimus monotherapy or combination regimens, rather than relying solely on class-effect evidence from related mTOR inhibitors
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/SmPC-etiketdata om advarsler og kontraindikationer (blokerende kløft)
+- Bekræftet detaljeret mekanisme-for-virkning-dokumentation fra DrugBank
+- Et dedikeret liposarkom-forsøg, der evaluerer temsirolimus-monoterapi eller kombinationsregimener, i stedet for udelukkende at stole på klasse-effekt-bevis fra relaterede mTOR-inhibitorer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

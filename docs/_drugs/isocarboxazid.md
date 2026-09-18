@@ -29,75 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Isocarboxazid: From Depression to Benign Paroxysmal Torticollis of Infancy
+# Isocarboxazid: Fra depression til godartede paroxysmale torticollis hos spædbørn
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Isocarboxazid is an irreversible non-selective monoamine oxidase inhibitor (MAOI) historically used to treat depression (per cited literature; it is currently not marketed in Denmark).
-The TxGNN model's top-ranked prediction is **Benign Paroxysmal Torticollis of Infancy**, but this evidence pack contains **no clinical trials and no literature** supporting that specific link, and the pack's own mechanistic assessment flags it as a likely **false positive** driven by graph-embedding similarity rather than pharmacology.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in Danish regulatory data (drug not marketed in Denmark); literature in this pack indicates historical use for depression, incl. treatment-resistant/atypical depression (PMID 3372704) |
-| Predicted New Indication | Benign Paroxysmal Torticollis of Infancy |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Isocarboxazid er en irreversibel, ikke-selektiv monoaminoxidase-hæmmer (MAOI), der historisk er blevet brugt til behandling af depression (ifølge citeret litteratur; medicinen er i øjeblikket ikke markedsført i Danmark).
+TxGNN-modellens højest rangerede forudsigelse er **godartede paroxysmale torticollis hos spædbørn**, men denne evidenspakke indeholder **ingen kliniske forsøg og ingen litteratur**, der understøtter dette specifikke sammenhæng, og pakkens egen mekanistiske vurdering markerer det som en sandsynlig **falsk positiv** drevet af grafindlejrings-lighed snarere end farmakologi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, no structured mechanism-of-action field is available for isocarboxazid (`original_moa` is a data gap). However, this evidence pack's own repurposing rationale texts describe isocarboxazid as an irreversible, non-selective MAO-A/B inhibitor that raises synaptic concentrations of serotonin (5-HT), norepinephrine (NE), and dopamine (DA) — the classical MAOI mechanism.
-
-For the top-ranked prediction, **Benign Paroxysmal Torticollis of Infancy**, the pack's own assessment states there is no identifiable mechanistic link: this condition is thought to relate to vestibular/migraine-associated pathophysiology, which has no known connection to monoamine oxidase inhibition. The evidence pack explicitly characterizes this high TxGNN score as a likely graph-embedding artifact (false positive), and it is supported by zero clinical trials and zero publications.
-
-By contrast, the same evidence pack contains four other distinct candidate indications for isocarboxazid — agoraphobia, obsessive-compulsive disorder, neurotic disorder, and phobic disorder — all psychiatric conditions mechanistically consistent with MAOI pharmacology. Of these, **neurotic disorder** and **phobic disorder** reach the highest evidence level in this pack (L3), supported by historical controlled/cohort studies specifically involving isocarboxazid (e.g., PMID 2404536, PMID 3372704), reflecting MAOIs' documented historical role in atypical depression with phobic anxiety (Klein/Fink classification). These are not the subject of this report's headline prediction but represent more pharmacologically plausible leads within the same dataset.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke registreret i danske reguleringsdata (medicinen er ikke markedsført i Danmark); litteratur i denne pakke indikerer historisk brug til depression, inkl. behandlingsresistent/atypisk depression (PMID 3372704) |
+| Forudsagt ny indikation | Godartede paroxysmale torticollis hos spædbørn |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Evidensniveau | L5 |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er der ikke tilgængelig et struktureret virkningsmekanisme-felt for isocarboxazid (`original_moa` er et datakrav). Imidlertid beskriver denne evidenspakkes egne omfunktionaliseringsrationaler isocarboxazid som en irreversibel, ikke-selektiv MAO-A/B-hæmmer, der øger synaptiske koncentrationer af serotonin (5-HT), noradrenalin (NE) og dopamin (DA) — den klassiske MAOI-virkningsmekanisme.
 
----
+For den højest rangerede forudsigelse, **godartede paroxysmale torticollis hos spædbørn**, anfører pakkens egen vurdering, at der er ingen identificerbar mekanistisk sammenhæng: denne tilstand formodes at være relateret til vestibulær/migræneassocieret patofysiologi, som ikke har nogen kendt forbindelse til monoaminoxidase-hæmning. Evidenspakken karakteriserer eksplicit denne høje TxGNN-score som en sandsynlig grafindlejrings-artefakt (falsk positiv), og den understøttes af nul kliniske forsøg og nul publikationer.
 
-## Denmark Market Information
-
-Isocarboxazid currently holds no marketing authorisation in Denmark (market status: **Not marketed**; 0 authorisations recorded in the Laegemiddelstyrelsen dataset used for this pack).
+I modsætning hertil indeholder den samme evidenspakke fire andre distinkte kandidatindikationer for isocarboxazid — agorafobi, obsessiv-tvangsstyrket lidelse, neurotisk lidelse og fobi-lidelse — alle psykiatriske tilstande, der er mekanistisk konsistente med MAOI-farmakologi. Af disse når **neurotisk lidelse** og **fobi-lidelse** det højeste evidensniveau i denne pakke (L3), understøttet af historiske kontrollerede/kohortstudier specifikt omfattende isocarboxazid (f.eks. PMID 2404536, PMID 3372704), der afspejler MAOIs dokumenterede historiske rolle i atypisk depression med fobisk angst (Klein/Fink-klassifikation). Disse er ikke genstand for denne rapports overskriftsforudsigelse, men repræsenterer mere farmakologisk plausible ledtråde inden for det samme datasæt.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidence
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-interaction data are not available in this evidence pack (DDI query returned no results), and this is flagged as a **blocking data gap** for safety evaluation (see Conclusion).
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The top-ranked TxGNN prediction (Benign Paroxysmal Torticollis of Infancy) has no supporting clinical trials, no literature, and is explicitly flagged within this evidence pack as a probable false positive with no plausible mechanistic link (Evidence Level L5, decision stage S0).
-- A blocking data gap exists for Danish SmPC warnings/contraindications, which prevents any safety pre-assessment regardless of indication.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC / Laegemiddelstyrelsen warning and contraindication data (currently blocking)
-- Confirmed mechanism-of-action documentation for isocarboxazid
-- If pursuing repurposing further, consider re-scoping the evaluation toward the pack's higher-evidence candidates (**phobic disorder** and **neurotic disorder**, both L3 / "Research Question" stage) rather than the top raw TxGNN score
+## Danske markedsoplysninger
+
+Isocarboxazid har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: **Ikke markedsført**; 0 tilladelser registreret i Lægemiddelstyrelsen-datasættet brugt til denne pakke).
+
+---
+
+## Sikkerhedshensyn
+
+Venligst se det godkendte Resumé af Produktkarakteristika (SmPC) for sikkerhedsoplysninger. Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er ikke tilgængelige i denne evidenspakke (DDI-forespørgsel gav ingen resultater), og dette er markeret som et **blokerend datakløft** for sikkerhedsforhåndsvurdering (se Konklusion).
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+- Den højest rangerede TxGNN-forudsigelse (godartede paroxysmale torticollis hos spædbørn) har ingen understøttende kliniske forsøg, ingen litteratur, og er eksplicit markeret inden for denne evidenspakke som en sandsynlig falsk positiv uden nogen identificerbar mekanistisk sammenhæng (Evidensniveau L5, beslutningsstadium S0).
+- Et blokerend datakløft findes for danske SmPC-advarsler/kontraindikationer, som forhindrer enhver sikkerhedsforhåndsvurdering uanset indikation.
+
+**For at gå videre er følgende nødvendigt:**
+- Dansk SmPC / Lægemiddelstyrelsen advarsel- og kontraindikationsdata (i øjeblikket blokerend)
+- Bekræftet virkningsmekanisme-dokumentation for isocarboxazid
+- Hvis omfunktionalisering forfølges videre, overvej at omfokusere evalueringen mod pakkens højere-evidens-kandidater (**fobi-lidelse** og **neurotisk lidelse**, begge L3 / "Forskningsspørgsmål"-stadium) snarere end den øverste rå TxGNN-score
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

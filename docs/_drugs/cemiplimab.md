@@ -29,161 +29,162 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cemiplimab: From Cutaneous Squamous Cell Carcinoma to Gallbladder Adenosquamous Carcinoma
+# Cemiplimab: Fra kutant hudpladecelkarcinom til galdegangs adenosquamøst karcinom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Cemiplimab (Libtayo®) is a fully human anti-PD-1 monoclonal antibody (immune checkpoint inhibitor) approved globally for cutaneous squamous cell carcinoma (cSCC), basal cell carcinoma (BCC), and non-small cell lung cancer (NSCLC), though it currently holds no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **gallbladder adenosquamous carcinoma** as the highest-ranked indication, supported by **0 clinical trials** and **0 publications** for this specific subtype.
-This is a multi-indication evaluation (5 unique oncological predictions), ranging from L3 evidence (external ear basal cell carcinoma, which aligns with cemiplimab's globally approved BCC indication) to L5 model-only predictions; overall recommended decisions vary from **Hold** to **Proceed with Guardrails** depending on the predicted indication.
+Cemiplimab (Libtayo®) er et fuldstændigt humant anti-PD-1 monoklonalt antistof (immunologisk checkpointinhibitor), der er godkendt globalt for kutant hudpladecelkarcinom (cSCC), basalcelkarcinom (BCC) og ikke-småcellet lungekræft (NSCLC), selvom det aktuelt ikke har markedsføringstilladelse i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt for **galdegangs adenosquamøst karcinom** som højest placeret indikation, understøttet af **0 kliniske forsøg** og **0 publikationer** for denne specifikke undertype.
+Dette er en multi-indikations-evaluering (5 unikke onkologiske forudsigelser), varierende fra L3-evidens (basalcelkarcinom på det eksterne øre, som stemmer overens med cemiplimabs globalt godkendte BCC-indikation) til L5-modelforudsigelser; samlede anbefalede beslutninger varierer fra **Hold** til **Fortsæt med sikkerhedsforanstaltninger** afhængig af den forudsagte indikation.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not registered in Denmark; globally approved for cutaneous squamous cell carcinoma (cSCC), BCC, NSCLC, and cervical cancer (Libtayo® / Regeneron–Sanofi) |
-| Predicted New Indication (Rank 1) | Gallbladder adenosquamous carcinoma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level (Rank 1) | L5 — Model prediction only; no supporting studies |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision (Rank 1) | Hold |
+| Oprindelig indikation | Ikke registreret i Danmark; globalt godkendt for kutant hudpladecelkarcinom (cSCC), BCC, NSCLC og cervixkræft (Libtayo® / Regeneron–Sanofi) |
+| Forudsagt ny indikation (rangering 1) | Galdegangs adenosquamøst karcinom |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Evidensniveau (rangering 1) | L5 — Kun modelforudsigelse; ingen understøttende studier |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning (rangering 1) | Hold |
 
 ---
 
-## All Predicted Indications — Overview
+## Alle forudsagte indikationer — Oversigt
 
-This evaluation is a multi-indication candidate (ID: TW-DB14707-multi). The five unique predicted indications are summarised below (duplicate rank entries in the source data have been consolidated):
+Denne evaluering er en multi-indikations-kandidat (ID: TW-DB14707-multi). De fem unikke forudsagte indikationer opsummeres nedenfor (duplikerede rangering-poster i de oprindelige data er blevet konsolideret):
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommended Decision |
-|------|---------------------|-------------|----------------|----------------------|
-| 1 | Gallbladder adenosquamous carcinoma | 99.99% | L5 | Hold |
-| 3 | Glottis squamous cell carcinoma | 99.99% | L4 | Research Question |
-| 5 | Rectal cloacogenic carcinoma | 99.99% | L5 | Hold |
-| **7** | **External ear basal cell carcinoma** | **99.99%** | **L3** | **Proceed with Guardrails** |
-| 9 | Adenosquamous prostate carcinoma | 99.99% | L5 | Hold |
+| Rangering | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefalet beslutning |
+|-----------|---------------------|------------|----------------|----------------------|
+| 1 | Galdegangs adenosquamøst karcinom | 99.99% | L5 | Hold |
+| 3 | Stemmebånds-hudpladecelkarcinom | 99.99% | L4 | Forskningsspørgsmål |
+| 5 | Rektal kloacogent karcinom | 99.99% | L5 | Hold |
+| **7** | **Basalcelkarcinom på det eksterne øre** | **99.99%** | **L3** | **Fortsæt med sikkerhedsforanstaltninger** |
+| 9 | Adenosquamøst prostatakarcinom | 99.99% | L5 | Hold |
 
-> **Key clinical finding**: The highest-evidence prediction (external ear BCC, L3) corresponds directly to cemiplimab's globally approved BCC indication (EMPOWER-BCC-1, FDA approval 2021; EMA approval). The "Not marketed" status in Denmark most likely reflects a local market access gap rather than absence of clinical evidence or regulatory approval.
-
----
-
-## Why is This Prediction Reasonable?
-
-**Mechanism of Action**
-
-The Evidence Pack does not contain mechanistic action (MOA) data for cemiplimab. Based on published information, cemiplimab is a fully human IgG4 monoclonal antibody that binds specifically to the programmed cell death receptor 1 (PD-1) on T lymphocytes, blocking its interaction with PD-L1 and PD-L2 on tumour cells and antigen-presenting cells. This blockade relieves PD-1-mediated suppression of anti-tumour T-cell activity, restoring immune-mediated cytotoxicity within the tumour microenvironment. Cemiplimab is classified as an immune checkpoint inhibitor (ICI) and belongs to the anti-PD-1 immunotherapy category — not a conventional cytotoxic agent.
-
-**Rank 1 — Gallbladder Adenosquamous Carcinoma (L5, Hold)**
-
-Gallbladder adenosquamous carcinoma is a rare mixed histological subtype containing both glandular (adenocarcinoma) and squamous cell carcinoma components. The squamous cell component theoretically may express PD-L1, providing a mechanistic rationale for PD-1 blockade. Indirect support comes from the structurally related checkpoint inhibitor durvalumab, which demonstrated a statistically significant overall survival benefit in biliary tract cancer in the TOPAZ-1 Phase 3 trial. However, cemiplimab has no published clinical data in this specific rare subtype, and the TxGNN high score most likely reflects broad class-level inference from the squamous cell carcinoma category rather than indication-specific mechanistic support. This prediction requires substantially more evidence before clinical consideration.
-
-**Most Evidence-Supported — External Ear Basal Cell Carcinoma (L3, Proceed with Guardrails)**
-
-Basal cell carcinoma of the external ear is an anatomical subtype of BCC characterised by high surgical complexity due to proximity to the facial nerve and parotid gland, making curative resection frequently impractical. Cemiplimab received FDA approval in February 2021 for locally advanced and metastatic BCC in patients who are not candidates for curative surgery or curative radiation therapy after progression on a Hedgehog pathway inhibitor (vismodegib/sonidegib), supported by the EMPOWER-BCC-1 Phase 2 programme; EMA subsequently granted centralised authorisation. External ear BCC is precisely the clinical scenario for which this approval was designed. One published case report (PMID 34157152) documents a durable, lasting response following cemiplimab discontinuation in a patient with locally advanced BCC, mechanistically consistent with the approved indication. This is not a classic drug repurposing situation; rather, it represents a market access gap in Denmark for an already globally validated indication.
-
-**Glottis Squamous Cell Carcinoma (L4, Research Question)**
-
-Glottic squamous cell carcinoma falls within the head and neck squamous cell carcinoma (HNSCC) spectrum. Cemiplimab's EMPOWER-HN clinical programme has generated Phase 2/3 data across HNSCC tumour sites, including laryngeal subgroups. Glottic SCC shares key immunotherapy biomarker profiles with other HNSCC subsites — PD-L1 expression, tumour mutational burden (TMB), and HPV status — making the mechanistic analogy compelling. However, glottis-specific subgroup data are not independently available, and the evidence relies on indirect extrapolation from broader HNSCC datasets.
+> **Vigtig klinisk fund**: Den højest-evidens-baserede forudsigelse (eksternt øre BCC, L3) svarer direkte til cemiplimabs globalt godkendte BCC-indikation (EMPOWER-BCC-1, FDA-godkendelse 2021; EMA-godkendelse). Status som "Ikke markedsført" i Danmark skyldes meget sandsynligt en lokal markedsadgangsbarriere snarere end mangel på klinisk evidens eller regulatorisk godkendelse.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-No clinical trials were identified for any of the 5 predicted indications in this evaluation (gallbladder adenosquamous carcinoma, glottis SCC, rectal cloacogenic carcinoma, external ear BCC, or adenosquamous prostate carcinoma).
+**Virkningsmekanisme**
 
-Note for clinical context: Cemiplimab has extensive Phase 2/3 trial data in related broader tumour categories (EMPOWER-BCC-1 for BCC, EMPOWER-HN for HNSCC, EMPOWER-Lung 1 and 3 for NSCLC), which underpin its global regulatory approvals. These are not listed here as they were not retrieved in the evidence collection queries for the specific predicted indications above.
+Evidence Pack'en indeholder ikke data for virkningsmekanismen (MOA) for cemiplimab. Baseret på publiceret information er cemiplimab et fuldstændigt humant IgG4 monoklonalt antistof, der specifikt bindes til programmed cell death receptor 1 (PD-1) på T-lymfocytter, blokerer dets interaktion med PD-L1 og PD-L2 på tumorceller og antigen-præsenterende celler. Denne blokering ophæver PD-1-medieret undertrykkelse af anti-tumor T-celle-aktivitet, hvilket genopretter immun-medieret cytotoxicitet inden for tumor-mikromiljøet. Cemiplimab klassificeres som en immunologisk checkpointinhibitor (ICI) og tilhører anti-PD-1 immunterapikategorien — ikke et konventionelt cytotoxisk middel.
 
----
+**Rangering 1 — Galdegangs adenosquamøst karcinom (L5, Hold)**
 
-## Literature Evidence
+Galdegangs adenosquamøst karcinom er en sjælden blandet histologisk undertype, der indeholder både glandulær (adenokarcinom) og hudpladecelkarcinom-komponenter. Hudpladecel-komponenten kan teoretisk udtrykke PD-L1, hvilket giver en mekanistisk rationalisering for PD-1-blokade. Indirekte understøttelse kommer fra det strukturelt relaterede checkpointinhibitor durvalumab, som viste en statistisk signifikant overlevelsesfordel ved biliartrakt-kræft i TOPAZ-1 fase 3-forsøget. Imidlertid har cemiplimab ingen publiceret kliniske data i denne specifikke sjældne undertype, og den høje TxGNN-score skyldes meget sandsynligt klassisk-niveau-inferens fra hudpladecelkarcinom-kategorien snarere end indikations-specifik mekanistisk understøttelse. Denne forudsigelse kræver væsentligt mere evidens, før der overvejes klinisk brug.
 
-Literature evidence was identified only for **external ear basal cell carcinoma** (rank 7):
+**Mest evidens-understøttet — Basalcelkarcinom på det eksterne øre (L3, Fortsæt med sikkerhedsforanstaltninger)**
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Case Report | Clinical and Experimental Dermatology | Documents a lasting clinical response in a patient with locally advanced BCC following discontinuation of cemiplimab, supporting the durability of anti-PD-1 immune response in BCC and the potential for sustained remission after treatment cessation |
+Basalcelkarcinom på det eksterne øre er en anatomisk undertype af BCC karakteriseret ved høj kirurgisk kompleksitet på grund af nærhed til nervus facialis og parotiskirtlen, hvilket gør kurativ resektion hyppigt upraktisk. Cemiplimab modtog FDA-godkendelse i februar 2021 for lokalt avanceret og metastatisk BCC hos patienter, der ikke er kandidater til kurativ kirurgi eller kurativ stråling efter progression på en Hedgehog-vej-hemmere (vismodegib/sonidegib), understøttet af EMPOWER-BCC-1 fase 2-programmet; EMA gav efterfølgende centraliseret godkendelse. Eksternt øre BCC er netop det kliniske scenario, for hvilket denne godkendelse blev designet. En publiceret casusrapport (PMID 34157152) dokumenterer et vedvarende, varigt svar efter ophør af cemiplimab-behandling hos en patient med lokalt avanceret BCC, mekanistisk konsistent med den godkendte indikation. Dette er ikke en klassisk medicinominddelingssituation; snarere repræsenterer det en markedsadgangsbarriere i Danmark for en allerede globalt valideret indikation.
 
-No literature was identified for gallbladder adenosquamous carcinoma, glottis SCC, rectal cloacogenic carcinoma, or adenosquamous prostate carcinoma with cemiplimab.
+**Stemmebånds-hudpladecelkarcinom (L4, Forskningsspørgsmål)**
 
----
-
-## Denmark Market Information
-
-Cemiplimab currently holds **no marketing authorisations** in Denmark (Lægemiddelstyrelsen), with a total of 0 registered products.
-
-However, cemiplimab (Libtayo®) holds a valid EMA centralised marketing authorisation covering the following indications — accessible in principle to Danish patients via Named Patient Programme (NPP) or comparable access pathways:
-
-| Authorisation | Product Name | Dosage Form | Approved Indication |
-|--------------|--------------|-------------|---------------------|
-| EU/1/19/1376 (EMA) | Libtayo® | Concentrate for solution for infusion (350 mg/7 mL) | Cutaneous squamous cell carcinoma (cSCC) — locally advanced or metastatic; Basal cell carcinoma (BCC) — locally advanced or metastatic, after Hedgehog pathway inhibitor failure; Non-small cell lung carcinoma (NSCLC) — first-line, in combination with platinum-based chemotherapy; Cervical cancer — recurrent or ... |
-
-> Danish prescribers seeking access for eligible patients should consult Lægemiddelstyrelsen regarding NPP/compassionate use procedures under European Regulation (EC) No 726/2004 Article 83.
+Stemmebånds-hudpladecelkarcinom falder inden for hoved- og halshudpladecelkarcinom (HNSCC) spektrum. Cemiplimabs EMPOWER-HN-kliniske program har generet fase 2/3-data på tværs af HNSCC-tumorsteder, herunder laryngale undergrupper. Stemmebånds-SCC deler vigtige immunterapeutiske biomarkør-profiler med andre HNSCC-substeder — PD-L1-udtryk, tumor-mutationsbelastning (TMB) og HPV-status — hvilket gør den mekanistiske analogi overbevisende. Imidlertid er stemmebånds-specifikke undergruppedata ikke uafhængigt tilgængelige, og evidensen afhænger af indirekte ekstrapolation fra bredere HNSCC-datasæt.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøgsevidenc
 
-Cemiplimab is an antineoplastic agent targeting solid malignancies. The following classification applies:
+Der blev ikke identificeret kliniske forsøg for nogen af de 5 forudsagte indikationer i denne evaluering (galdegangs adenosquamøst karcinom, stemmebånds-SCC, rektal kloacogent karcinom, eksternt øre BCC eller adenosquamøst prostatakarcinom).
 
-| Item | Content |
+Bemærk for klinisk kontekst: Cemiplimab har omfattende fase 2/3-forsøgsdata i relaterede bredere tumorkategorier (EMPOWER-BCC-1 for BCC, EMPOWER-HN for HNSCC, EMPOWER-Lung 1 og 3 for NSCLC), som understøtter dets globale regulatoriske godkendelser. Disse er ikke oplistet her, da de ikke blev fundet i evidensindsamlings-søgninger for de specifikke forudsagte indikationer ovenfor.
+
+---
+
+## Litteratur-evidens
+
+Litteratur-evidens blev kun identificeret for **basalcelkarcinom på det eksterne øre** (rangering 7):
+
+| PMID | År | Type | Journal | Vigtige fund |
+|------|----|----|---------|-------------|
+| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Casusrapport | Clinical and Experimental Dermatology | Dokumenterer et varigt klinisk svar hos en patient med lokalt avanceret BCC efter ophør af cemiplimab-behandling, hvilket understøtter varaktigheden af anti-PD-1 immun-respons ved BCC og potentialet for vedvarende remission efter behandlingens ophør |
+
+Der blev ikke identificeret litteratur for galdegangs adenosquamøst karcinom, stemmebånds-SCC, rektal kloacogent karcinom eller adenosquamøst prostatakarcinom med cemiplimab.
+
+---
+
+## Markedsinformation Danmark
+
+Cemiplimab har aktuelt **ingen markedsføringstilladelser** i Danmark (Lægemiddelstyrelsen), med i alt 0 registrerede produkter.
+
+Imidlertid har cemiplimab (Libtayo®) en gyldig EMA-centraliseret markedsføringstilladelse, der dækker følgende indikationer — tilgængelig i princippet for danske patienter via Named Patient Programme (NPP) eller tilsvarende adgangsveje:
+
+| Godkendelse | Produktnavn | Doseringsform | Godkendt indikation |
+|------------|------------|-------------|-------------------|
+| EU/1/19/1376 (EMA) | Libtayo® | Koncentrat til infusionsvæske (350 mg/7 mL) | Kutant hudpladecelkarcinom (cSCC) — lokalt avanceret eller metastatisk; Basalcelkarcinom (BCC) — lokalt avanceret eller metastatisk efter Hedgehog-vej-hemmere-svigt; Ikke-småcellet lungekræft (NSCLC) — førstelinjebehandling i kombination med platinbaseret kemoterapibehandling; Cervixkræft — tilbagefaldende eller ... |
+
+> Danske receptudstedere, der søger adgang for kvalificerede patienter, bør konsultere Lægemiddelstyrelsen angående NPP/barmhjertig brug-procedurer under europæisk forordning (EF) nr. 726/2004 artikel 83.
+
+---
+
+## Cytotoxicitet
+
+Cemiplimab er et antineoplastisk middel, der retter sig mod solide maligniteter. Følgende klassificering gælder:
+
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Immunotherapy — Immune checkpoint inhibitor (fully human anti-PD-1 IgG4 monoclonal antibody); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low compared to conventional chemotherapy; however, immune-related haematological adverse events (immune thrombocytopaenia, haemolytic anaemia, aplastic anaemia) can occur and require monitoring |
-| Emetogenicity Classification | Minimal; immunotherapy agents are not associated with direct emetogenicity |
-| Monitoring Items | CBC with differential, liver function tests (ALT, AST, bilirubin), thyroid function (TSH, free T4), morning cortisol/ACTH (for immune-mediated adrenal insufficiency), renal function (creatinine), blood glucose (immune-mediated type 1 diabetes mellitus), and clinical assessment for pneumonitis and colitis at each visit |
-| Handling Protection | Standard biosafety precautions for monoclonal antibody preparations; conventional cytotoxic handling regulations do not apply, but institutional biological medicine safety protocols should be followed |
+| Cytotoxicitet-klassificering | Immunterapii — Immunologisk checkpointinhibitor (fuldstændigt humant anti-PD-1 IgG4 monoklonalt antistof); ikke et konventionelt cytotoxisk middel |
+| Knoglemarvsundertrykkelse-risiko | Lav sammenlignet med konventionel kemoterapibehandling; dog kan immun-relaterede hæmatologiske bivirkninger (immun trombocytopeni, hæmolytisk anæmi, aplastisk anæmi) forekomme og kræver monitorering |
+| Emetogenicitet-klassificering | Minimal; immunterapii-agenter er ikke forbundet med direkte emetogenicitet |
+| Monitoreringspunkter | Komplette blodtællinger med differential, leverfunktion (ALT, AST, bilirubin), skjoldbruskkirtelknudelfunktion (TSH, frit T4), morgen cortisol/ACTH (for immun-medieret binyrebark-insufficiens), nyrfunktion (kreatinin), blodglukose (immun-medieret type 1 diabetes mellitus) og klinisk vurdering for pneumonitis og colitis ved hvert besøg |
+| Håndteringsbeskyttelse | Standard biosikkerhedsforanstaltninger for monoklonalt antistof-præparater; konventionelle cytotoxiske håndtelings-regulationer gælder ikke, men institutionelle biologiske medicin-sikkerhedsprotokoller bør følges |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the EMA-approved Summary of Product Characteristics (SmPC) for Libtayo® for complete safety information, available via the European Medicines Agency (EMA) EPAR database.
+Se venligst EMA-godkendt Produktinformationsark (SmPC) for Libtayo® for fuldstændig sikkerhedsinformation, tilgængelig via European Medicines Agency (EMA) EPAR-databasen.
 
-Key considerations relevant to Danish prescribers:
+Vigtige hensyn relevant for danske receptudstedere:
 
-- **Immune-related adverse events (irAEs)**: As a PD-1 checkpoint inhibitor, cemiplimab carries risk of immune-mediated pneumonitis, colitis, hepatitis, endocrinopathies (hypothyroidism, hyperthyroidism, adrenal insufficiency, type 1 diabetes mellitus), nephritis, and dermatitis. Severe irAEs (Grade 3–4) require treatment suspension and high-dose systemic corticosteroids; specialist referral (pulmonology, gastroenterology, endocrinology) is recommended.
-- **Drug Interactions**: No DDI data were retrieved in this evaluation. Note that corticosteroids used to manage irAEs may potentially attenuate immunotherapy efficacy; the timing and dose of immunosuppressive therapy require careful clinical judgement and should follow published irAE management guidelines (e.g., ESMO/ASCO guidelines).
-
----
-
-## Conclusion and Next Steps
+- **Immun-relaterede bivirkninger (irAE)**: Som en PD-1 checkpointinhibitor medfører cemiplimab risiko for immun-medieret pneumonitis, colitis, hepatitis, endokrinopathier (hypotyroidisme, hypertyroidisme, binyrebark-insufficiens, type 1 diabetes mellitus), nefritis og dermatitis. Alvorlige irAE'er (grad 3–4) kræver behandlingssuspension og høj-dosis systemisk kortikosteroid-terapi; specialisthenvisning (lungelægekunde, gastroenterologi, endokrinologi) anbefales.
+- **Lægemiddelinteraktioner**: Ingen DDI-data blev hentet i denne evaluering. Bemærk, at kortikosteroider, der bruges til at håndtere irAE'er, kan potentielt svække immunterapii-effektivitet; tidsplaceringen og dosis af immunsuppressiv terapi kræver omhyggelig klinisk vurdering og bør følge publicerede irAE-håndteringsvejledninger (f.eks. ESMO/ASCO-vejledninger).
 
 ---
 
-### Primary Prediction: Gallbladder Adenosquamous Carcinoma
-
-**Decision: Hold**
-
-**Rationale:**
-Gallbladder adenosquamous carcinoma is an ultra-rare tumour subtype with no identified clinical trial or published data for cemiplimab. The TxGNN high score reflects model-level generalisation from the squamous cell carcinoma category and does not provide sufficient clinical basis for use outside a formal investigational framework.
-
-**To proceed, the following is needed:**
-- Biomarker profiling (PD-L1 expression by IHC, TMB, MSI/MMR status) of gallbladder adenosquamous carcinoma tissue samples to confirm immunotherapy-susceptible biology
-- Consideration for basket trial enrolment (tumour-agnostic PD-1 inhibitor programmes covering rare biliary/GI cancers)
-- Multidisciplinary tumour board review in a specialised hepatobiliary oncology centre
-- Review of emerging data from durvalumab (TOPAZ-1) in biliary tract cancer for indirect mechanistic benchmarking
+## Konklusion og næste trin
 
 ---
 
-### Most Clinically Actionable Prediction: External Ear Basal Cell Carcinoma
+### Primær forudsigelse: Galdegangs adenosquamøst karcinom
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Hold**
 
-**Rationale:**
-External ear BCC falls squarely within cemiplimab's EMA-approved indication for locally advanced/metastatic BCC after Hedgehog pathway inhibitor failure. The "not marketed" status in Denmark appears to represent a market access gap rather than absence of validated evidence, making this the most actionable finding in this evaluation.
+**Rationalisering:**
+Galdegangs adenosquamøst karcinom er en ultra-sjælden tumorundertype uden identificeret klinisk forsøg eller publiceret data for cemiplimab. Den høje TxGNN-score reflekterer modelniveau-generalisering fra hudpladecelkarcinom-kategorien og giver ikke tilstrækkelig klinisk grundlag for brug uden for et formelt undersøgelses-rammeværk.
 
-**To proceed, the following is needed:**
-- Application for Named Patient Programme (NPP) or Expanded Access via Lægemiddelstyrelsen, citing the valid EMA marketing authorisation (Libtayo®, EU/1/19/1376)
-- Confirmation of prior Hedgehog pathway inhibitor therapy (vismodegib or sonidegib) or documented contraindication, per the approved indication criteria
-- Multidisciplinary assessment involving dermatology, ENT/head & neck surgery, and oncology to confirm non-resectability of the primary lesion
-- Patient-specific PD-L1 testing where feasible, and baseline performance status and organ function assessment
-- Full irAE safety monitoring plan per SmPC, including documented patient consent and access to specialist irAE management
+**For at fortsætte, er følgende nødvendigt:**
+- Biomarkør-profilering (PD-L1-udtryk ved IHC, TMB, MSI/MMR-status) af galdegangs adenosquamøst karcinom-vævssampler for at bekræfte immunterapii-modtagelig biologi
+- Overvejelse af kurv-forsøgs-tilmelding (tumor-agnostisk PD-1-inhibitor-programmer, der dækker sjældne biliære/GI-kræfttyper)
+- Multidisciplinært tumor-board-gennemgang i et specialiseret hepatobiliært onkologi-center
+- Gennemgang af opstår data fra durvalumab (TOPAZ-1) inden for biliær kræft for indirekte mekanistisk benchmarking
 
 ---
 
-> **Disclaimer**: This report is intended for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before clinical application. For patient-specific treatment decisions, please consult the approved Summary of Product Characteristics (SmPC) and applicable clinical practice guidelines.
+### Mest klinisk handlingsklart forudsigelse: Basalcelkarcinom på det eksterne øre
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Rationalisering:**
+Eksternt øre BCC falder helt inden for cemiplimabs EMA-godkendt indikation for lokalt avanceret/metastatisk BCC efter Hedgehog-vej-hemmere-svigt. Status som "Ikke markedsført" i Danmark synes at repræsentere en markedsadgangsbarriere snarere end mangel på valideret evidens, hvilket gør dette til det mest handlingsklart fund i denne evaluering.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Ansøgning om Named Patient Programme (NPP) eller udvidet adgang via Lægemiddelstyrelsen, der citerer den gyldig EMA-markedsføringstilladelse (Libtayo®, EU/1/19/1376)
+- Bekræftelse af tidligere Hedgehog-vej-hemmere-terapi (vismodegib eller sonidegib) eller dokumenteret kontraindikation, efter de godkendte indikationskriterier
+- Multidisciplinær vurdering med inddragelse af dermatologi, øre-næse-hals/hoved- og hals-kirurgi og onkologi for at bekræfte non-resektion af det primære lesion
+- Patient-specifik PD-L1-test, hvor muligt, og baseline performance status og organ-funktion-vurdering
+- Fuldstændig irAE-sikkerhedsmonitorering-plan efter SmPC, herunder dokumenteret patientsamtykke og adgang til specialist irAE-håndtering
+
+---
+
+> **Ansvarsfraskrivelse**: Denne rapport er beregnet til forskningsmæssige formål alene og udgør ikke medicinsk rådgivning. Alle medicinominddelinger-kandidater kræver klinisk validering før klinisk anvendelse. For patient-specifikke behandlingsbeslutninger skal du venligst konsultere det godkendt Produktinformationsark (SmPC) og gældende kliniske praksis-vejledninger.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,79 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vonicog Alfa: From Von Willebrand Disease to Primary Release Disorder of Platelets
+# Vonicog Alfa: Fra von Willebrands sygdom til primær frigivelsesforstyrrelse af blodplader
 
-## One-Sentence Summary
+## Et-sætnings sammenfatning
 
-> Vonicog Alfa (recombinant von Willebrand factor, rVWF) is a factor-replacement biologic whose established use — as reflected in the clinical trial and literature records included in this evidence pack — is the treatment of severe von Willebrand disease (VWD).
-> The TxGNN model's top-ranked prediction is **Primary Release Disorder of Platelets**, but this pairing is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic analysis flags it as a likely knowledge-graph topology artifact rather than a pharmacologically grounded signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Von Willebrand disease (VWD) — derived from the clinical trial/literature context included in this pack; no formal Danish label text is available (see Data Gaps below) |
-| Predicted New Indication | Primary Release Disorder of Platelets (platelet granule secretion / storage pool defect) |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Vonicog Alfa (rekombinant von Willebrands faktor, rVWF) er et biologisk lægemiddel til faktorerstatning, hvis etablerede indikation — som afspejlet i de kliniske forsøgs- og litteraturregistre, der indgår i denne bevissamling — er behandling af alvorlig von Willebrands sygdom (VWD).
+> TxGNN-modellens højest rangerede prognose er **Primær frigivelsesforstyrrelse af blodplader**, men denne kombination understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske analyse flaggerer det som et sandsynligt vidensgraf-topologi-artefakt snarere end et farmakologisk begrundet signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available for Vonicog Alfa in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, Vonicog Alfa is a recombinant form of von Willebrand factor (rVWF), whose proven role is restoring VWF-mediated platelet **adhesion** (via the GPIb receptor) and stabilising circulating Factor VIII in patients with von Willebrand disease.
-
-Primary Release Disorder of Platelets, by contrast, is a disorder of platelet **secretion** — a defect in the release of dense or alpha granules after platelet activation. This is a mechanistically distinct step in haemostasis from VWF-mediated adhesion, and replacing VWF does not address a granule-release defect. The rationale text accompanying this prediction explicitly states that no direct pharmacological link exists between the two, and suggests the very high TxGNN score more likely reflects topological proximity between "platelet function disorder" disease nodes and the VWF node in the knowledge graph, rather than genuine mechanistic relevance.
-
-Consistent with this, no clinical trials or literature records were retrieved for this drug-disease pair (0 hits across ClinicalTrials.gov, ICTRP, and PubMed queries). This prediction should therefore be treated as a low-confidence model output requiring mechanistic clarification before any further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Von Willebrands sygdom (VWD) — afledt fra den kliniske forsøgs-/litteraturkontekst, der indgår i denne samling; ingen formel dansk etiketttekst er tilgængelig (se Datakløfter nedenfor) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader (blodplatelet granula sekretion / lagerbeholder defekt) |
+| TxGNN-prognosescore | 99.98% |
+| Bevisniveau | L5 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede virkningsmekanisme-data for Vonicog Alfa ikke tilgængelige i denne bevissamling (flagget som en høj-alvorligheds datakløft). Baseret på de oplysninger, der er tilgængelige, er Vonicog Alfa en rekombinant form af von Willebrands faktor (rVWF), hvis påvist rolle er at genoprette VWF-medieret blodplatelet **adhesion** (via GPIb-receptoren) og stabilisere cirkulerende Faktor VIII hos patienter med von Willebrands sygdom.
 
----
+Primær frigivelsesforstyrrelse af blodplader derimod er en forstyrrelse af blodplatelet **sekretion** — en defekt i frigivelsen af tætte eller alfa-granula efter blodplatelet aktivering. Dette er et mekanistisk adskilt trin i hemostase fra VWF-medieret adhesion, og erstatning af VWF behandler ikke en granula-frigivelses defekt. Rationaleteksten, der ledsager denne prognose, angiver eksplicit, at der ikke eksisterer en direkte farmakologisk forbindelse mellem de to, og foreslår, at den meget høje TxGNN-score mere sandsynligt afspejler topologisk nærhed mellem "blodplatelet funktionsforstyrrelse" sygdomsknuder og VWF-knuden i visdensgrafen, snarere end ægte mekanistisk relevans.
 
-## Denmark Market Information
-
-Vonicog Alfa is currently **not marketed** in Denmark, with **0 marketing authorisations** on record (no national Laegemiddelstyrelsen or centralised EMA licences found in this evidence pack).
+I overensstemmelse hermed blev der ikke hentet nogen kliniske forsøgs- eller litteraturregistre for dette lægemiddel-sygdoms par (0 resultater på tværs af ClinicalTrials.gov, ICTRP og PubMed-forespørgsler). Denne prognose bør derfor behandles som et model output med lav troværdighed, der kræver mekanistisk præcisering, før enhver yderligere evaluering.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*Note: TFDA/Danish label warnings and contraindications for this drug were not available at the time of this evaluation (Blocking data gap — DG001), meaning a full safety (S1) assessment could not be completed.*
+Der er i øjeblikket ingen relaterede registrerede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- The top-ranked predicted indication (Primary Release Disorder of Platelets) has no supporting clinical trial or literature evidence (Evidence Level L5, Decision Stage S0), and the mechanistic rationale itself concludes that VWF replacement does not plausibly address a platelet granule-secretion defect.
-- The drug is not currently marketed in Denmark, and mechanism-of-action and safety/label data (warnings, contraindications) are both missing — the latter being a Blocking-severity gap that prevents any preliminary safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data for Vonicog Alfa (DrugBank API query, per DG002)
-- TFDA/Danish SmPC warnings and contraindications (per DG001, Blocking)
-- Independent mechanistic or preclinical evidence directly linking VWF replacement to platelet secretion/storage pool disorders
-- Clarification of how the TxGNN knowledge graph maps disease ontology terms (to confirm this is not a topological artifact rather than a genuine signal)
-- As a separate line of inquiry: the "hemophilia" candidate in this evidence pack (Evidence Level L2, 4 Phase 3 trials + 5 publications) warrants its own dedicated evaluation, though those trials enrolled von Willebrand disease patients rather than classic hemophilia A/B patients — the disease-label mapping should be verified before treating it as direct hemophilia evidence.
+## Markeds information for Danmark
+
+Vonicog Alfa er i øjeblikket **ikke markedsført** i Danmark, med **0 markedsføringstilladelser** på rekord (ingen nationale Lægemiddelstyrelsen- eller centraliserede EMA-licenser fundet i denne bevissamling).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst den godkendte produktinformationsdokumentet (SmPC) for sikkerhedsoplysninger.
+
+*Bemærk: TFDA/Danske etiketadvarsler og kontraindikationer for dette lægemiddel var ikke tilgængelige på tidspunktet for denne evaluering (Blokering datakløft — `DG001`), hvilket betyder, at en fuld sikkerhed (S1) vurdering ikke kunne gennemføres.*
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+- Den højest rangerede forudsagte indikation (Primær frigivelsesforstyrrelse af blodplader) har ingen understøttende kliniske forsøgs- eller litteraturbeviser (Bevisniveau L5, Beslutningsstade S0), og den mekanistiske begrundelse selv konkluderer, at VWF-erstatning ikke plausibelt behandler en blodplatelet granula-frigivelses defekt.
+- Lægemidlet er ikke i øjeblikket markedsført i Danmark, og virkningsmekanisme- og sikkerhed/etiketdata (advarsler, kontraindikationer) mangler begge — sidstnævnte er en Blokering-alvorligheds kløft, der forhindrer enhver foreløbig sikkerhedsvurdering.
+
+**For at fortsætte kræves følgende:**
+- Bekræftet virkningsmekanisme data for Vonicog Alfa (DrugBank API-forespørgsel, pr. `DG002`)
+- TFDA/Danske SmPC advarsler og kontraindikationer (pr. `DG001`, Blokering)
+- Uafhængig mekanistisk eller præ-klinisk evidens direkte forbindende VWF-erstatning til blodplatelet sekretion/lagerbeholder forstyrrelser
+- Præcisering af, hvordan TxGNN-visdensgrafen kortlægger sygdoms-ontologi-termer (for at bekræfte, at dette ikke er et topologisk artefakt snarere end et ægte signal)
+- Som en separat efterforskningslinje: "hæmofili" kandidaten i denne bevissamling (Bevisniveau L2, 4 fase 3-forsøg + 5 publikationer) berettiger til sin egen dedikerede evaluering, selvom disse forsøg rekrutterede von Willebrands sygdoms patienter snarere end klassisk hemofili A/B patienter — sygdoms-etiket kortlægningen bør verificeres før behandling af den som direkte hemofili-beviser.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

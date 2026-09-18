@@ -29,83 +29,84 @@ Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Darunavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Darunavir: Fra HIV-1-infektion til Simian Immunodeficiency Virus-infektion
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Darunavir is a second-generation HIV-1 protease inhibitor, approved as part of combination antiretroviral therapy (cART) for HIV-1-infected adults and children. The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, with **0 registered clinical trials** and **4 non-human primate (NHP) publications** currently supporting this direction. It should be noted, however, that this prediction reflects a mechanistic extension into an established preclinical animal model rather than a genuinely novel clinical indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (combination antiretroviral therapy) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not found in current data extract — EMA centralised authorisation should be independently verified |
-| Number of Marketing Authorisations | 0 (per current data extract) |
-| Recommended Decision | Hold |
+Darunavir er en anden-generations HIV-1-proteaseinhibitor, godkendt som del af kombineret antiretroviral terapi (cART) for HIV-1-inficerede voksne og børn. TxGNN-modellen forudsiger, at det kan være effektivt ved **Simian Immunodeficiency Virus (SIV)-infektion**, med **0 registrerede kliniske forsøg** og **4 publikationer fra ikke-humane primater (NHP)**, der i øjeblikket understøtter denne retning. Det skal dog bemærkes, at denne forudsigelse afspejler en mekanistisk udvidelse til en etableret præ-klinisk dyremodel snarere end en genuint ny klinisk indikation.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on well-established pharmacological knowledge, Darunavir is a second-generation HIV-1 protease inhibitor that binds non-covalently and with high affinity to the active site of HIV-1 protease. It prevents cleavage of the viral Gag-Pol polyprotein precursor, thereby blocking the maturation of infectious virions. Darunavir is routinely co-administered with the pharmacokinetic boosters ritonavir or cobicistat to achieve therapeutic plasma concentrations.
-
-The mechanistic basis for the TxGNN prediction is structurally sound: SIV protease shares approximately 50–60% amino acid sequence similarity with HIV-1 protease, and the key catalytic and binding-site residues are sufficiently conserved for Darunavir's binding geometry to transfer across species. For this reason, Darunavir is routinely incorporated into suppressive cART regimens used in SIVmac239- and SIVmac251-infected rhesus macaques — the internationally accepted preclinical model for HIV/AIDS research and viral reservoir studies.
-
-However, this prediction requires important contextualisation. SIV infection in non-human primates is not an independent therapeutic target; it is the standard translational bridge used to evaluate HIV pharmacology before human trials. All four supporting publications use Darunavir as a cART backbone to achieve stable virological suppression in macaques, enabling downstream investigation of viral reservoirs and eradication strategies. This constitutes a direct mechanistic extension of Darunavir's known activity, not a new clinical application. The true clinical translation endpoint is human HIV-1 infection — for which Darunavir already holds regulatory approval.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Animal Model (NHP) | AIDS Research and Human Retroviruses | Evaluated two novel coformulated injectable cART regimens (including darunavir) in SIVmac239-infected rhesus macaques; demonstrated effective viral suppression to clinically relevant levels suitable for viral reservoir studies |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal Model (NHP) + Intervention | PLoS ONE | Intensive cART combined with the HDAC inhibitor SAHA in SIV-infected Chinese-origin rhesus macaques; characterised viral reservoir dynamics in an NHP model designed to mimic HIV-infected humans on cART |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal Model (NHP) | PLoS Pathogens | Highly intensified ART (including darunavir) achieved stable long-term virological suppression across a wide baseline viraemia range (10³–10⁷ RNA copies/mL) in SIVmac251-infected macaques and significantly restricted the size of the viral reservoir |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Animal Model (NHP) | AIDS (London) | Gold compound auranofin combined with darunavir-containing cART reduced the lentiviral reservoir in a monkey AIDS model; partial viral load containment was observed following ART suspension |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | HIV-1-infektion (kombineret antiretroviral terapi) |
+| Forudsagt ny indikation | Simian Immunodeficiency Virus (SIV)-infektion |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Evidensniveau | L3 |
+| Status på dansk marked | Ikke fundet i nuværende dataudtræk — EMA-centraliseret godkendelse bør verificeres uafhængigt |
+| Antal markedsføringstilladelser | 0 (pr. nuværende dataudtræk) |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Denmark Market Information
+## Hvorfor er denne forudsigelse rimelig?
 
-The current data extract contains no marketing authorisation records for darunavir held by Lægemiddelstyrelsen (the Danish Medicines Agency). This is likely a data gap: darunavir (Prezista®, Janssen) received centralised EMA marketing authorisation in 2007, which is valid across all EU/EEA member states including Denmark. Healthcare professionals should verify current availability, authorised indications, and approved product information via the EMA product database or the Danish medicines information portal (pro.medicin.dk / medicinpriser.dk).
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige i denne Evidence Pack. Baseret på veletableret farmakologisk viden er darunavir en anden-generations HIV-1-proteaseinhibitor, der binder ikke-kovalent og med høj affinitet til aktiveringsstedet på HIV-1-protease. Det forhindrer kløvning af den virale Gag-Pol-polyprotein-prekursor og blokerer således modningen af infektiøse virioner. Darunavir administreres rutinemæssigt sammen med de farmakokidetiske forstærkere ritonavir eller cobicistat for at opnå terapeutiske plasmakoncentrationer.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|-------------|-------------|---------------------|
-| Not found in current extract | — | — | Please verify via EMA EPAR or Lægemiddelstyrelsen |
+Det mekanistiske grundlag for TxGNN-forudsigelsen er strukturelt solidt: SIV-protease deler cirka 50–60 % aminosyre-sekvensidentitet med HIV-1-protease, og de vigtigste katalytiske og bindingssteds-rester er tilstrækkeligt bevarede, således at darunavirs bindingsgeometri kan overføres på tværs af arter. Af denne grund inkorporeres darunavir rutinemæssigt i undertrykkende cART-regimener, der bruges hos SIVmac239- og SIVmac251-inficerede rhesus-makakker — den internationalt accepterede præ-kliniske model for HIV/AIDS-forskning og undersøgelser af virale reservoirer.
 
----
-
-## Safety Considerations
-
-No safety warnings, contraindications, or drug interaction data are available in the current Evidence Pack for darunavir.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information. As a boosted protease inhibitor, darunavir co-administered with ritonavir or cobicistat is a potent CYP3A4 inhibitor with an extensive drug-drug interaction profile. Clinicians should consult the current SmPC or a validated drug interaction tool (e.g., the University of Liverpool HIV Drug Interaction Checker) prior to prescribing alongside other medications.
+Denne forudsigelse kræver dog vigtig kontekstualisering. SIV-infektion hos ikke-humane primater er ikke et uafhængigt terapeutisk mål; det er den standard translationelle bro, der bruges til at evaluere HIV-farmakologi før humanforsøg. Alle fire understøttende publikationer bruger darunavir som et cART-fundament til at opnå stabil virologisk suppression hos makakker, hvilket muliggør downstream-undersøgelse af virale reservoirer og udryddelsesstrategier. Dette udgør en direkte mekanistisk udvidelse af darunavirs kendte aktivitet, ikke en ny klinisk anvendelse. Det sande kliniske translationelle slutpunkt er humant HIV-1-infektion — for hvilken darunavir allerede har regulatorisk godkendelse.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN prediction for SIV infection does not represent a novel repurposing opportunity in the conventional sense: SIV infection in non-human primates is the established preclinical surrogate model for human HIV-1, and all supporting literature uses darunavir as a cART component within this modelling context, not as a treatment for SIV as an independent disease. The underlying pharmacological activity is already well-characterised for HIV-1, and this prediction carries no additional translational value beyond the drug's approved use.
-
-**To proceed, the following is needed:**
-- **Reframe the repurposing question**: Consider whether the evidence pipeline should be redirected to assess darunavir for genuinely novel indications (e.g., non-HIV indications such as SARS-CoV-2 protease inhibition, which has been explored in the literature) rather than SIV infection
-- **Resolve MOA data gap**: Obtain full mechanism of action documentation via DrugBank API (DrugBank ID: DB01264)
-- **Verify Danish market status**: Confirm current EMA centralised authorisation details, authorised indications, and availability of approved product information through the EMA EPAR database and Lægemiddelstyrelsen
-- **Complete safety profiling**: Retrieve full SmPC warnings, contraindications, and drug-drug interaction data from the EMA product page or Lægemiddelstyrelsen before any clinical evaluation proceeds
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
+|------|-----|------|-----------|-----------------|
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Dyremodel (NHP) | AIDS Research and Human Retroviruses | Evaluerede to nye koformulerede injicerbare cART-regimener (herunder darunavir) hos SIVmac239-inficerede rhesus-makakker; demonstrerede effektiv virologisk suppression til klinisk relevante niveauer, der var velegnede til undersøgelser af virale reservoirer |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Dyremodel (NHP) + Intervention | PLoS ONE | Intensiv cART kombineret med HDAC-inhibitoren SAHA hos SIV-inficerede kinesisk-stammende rhesus-makakker; karakteriserede viral reservoirdynamik i en NHP-model designet til at efterligne HIV-inficerede mennesker på cART |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Dyremodel (NHP) | PLoS Pathogens | Meget intensiveret ART (herunder darunavir) opnåede stabil langtidsviro logisk suppression på tværs af et bredt udgangsviraemiinterval (10³–10⁷ RNA-kopier/mL) hos SIVmac251-inficerede makakker og begrænsede væsentligt størrelsen af det virale reservoir |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Dyremodel (NHP) | AIDS (London) | Guldforeningen auranofin kombineret med darunavir-indeholdende cART reducerede lentiviralt reservoir i en abe-AIDS-model; delvis virusbyrde-indeslutning blev observeret efter ART-suspension |
 
 ---
 
-> **Disclaimer:** This report is intended for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All information should be verified against current approved product labelling.
+## Danske markedsinformation
+
+Det nuværende dataudtræk indeholder ingen markedsføringstilladelsesregistre for darunavir, som Lægemiddelstyrelsen administrerer. Dette skyldes sandsynligvis et datagab: darunavir (Prezista®, Janssen) modtog centraliseret EMA-markedsføringstilladelse i 2007, som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Sundhedsfaglige personale bør verificere nuværende tilgængelighed, godkendte indikationer og godkendt produktinformation via EMA-produktdatabasen eller det danske medicininformationsportal (pro.medicin.dk / medicinpriser.dk).
+
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+|-----------------------------------|-------------|---------------|---------------------|
+| Ikke fundet i nuværende udtr æk | — | — | Bekræft venligst via EMA EPAR eller Lægemiddelstyrelsen |
+
+---
+
+## Sikkerhedshensyn
+
+Der er ikke tilgængelige data om sikkerhedsadvarsler, kontraindikationer eller lægemiddelinteraktioner for darunavir i denne Evidence Pack.
+
+Se venligst den godkendte sammenfatning af produktegenskaber (SmPC) for fuldstændig sikkerhedsinformation. Som en forstærket proteaseinhibitor er darunavir co-administreret med ritonavir eller cobicistat en potent CYP3A4-inhibitor med en omfattende profil for lægemiddelinteraktioner. Klinikere bør konsultere den aktuelle SmPC eller et valideret værktøj til lægemiddelinteraktioner (f.eks. University of Liverpool HIV Drug Interaction Checker) før ordinering sammen med andre lægemidler.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-forudsigelsen for SIV-infektion repræsenterer ikke en ny genbestemmelsesoportunitet i konventionel forstand: SIV-infektion hos ikke-humane primater er den etablerede præ-kliniske surrogat-model for humant HIV-1, og al understøttende litteratur bruger darunavir som en cART-komponent inden for denne modelleringssammenhæng, ikke som behandling for SIV som en uafhængig sygdom. Den underliggende farmakologiske aktivitet er allerede velkarakteriseret for HIV-1, og denne forudsigelse medfører ingen yderligere translationel værdi ud over lægemidlets godkendte brug.
+
+**For at fortsætte er følgende nødvendig:**
+- **Omformulering af genbestemmelsesspørgsmålet**: Overvej, om evidence-pipelinen skal omdirigeres til at vurdere darunavir for genuint nye indikationer (f.eks. ikke-HIV-indikationer såsom SARS-CoV-2-proteaseinhibering, som er blevet udforsket i litteraturen) snarere end SIV-infektion
+- **Løs MOA-datagab**: Få fuldstændig dokumentation af virkningsmekanisme via DrugBank API (DrugBank ID: DB01264)
+- **Verificer status på dansk marked**: Bekræft nuværende EMA-centraliseret godkendelsesdetaljer, godkendte indikationer og tilgængelighed af godkendt produktinformation gennem EMA EPAR-databasen og Lægemiddelstyrelsen
+- **Gennemfør sikkerhedsprofil**: Hent fuldstændige SmPC-advarsler, kontraindikationer og data om lægemiddelinteraktioner fra EMA-produktsiden eller Lægemiddelstyrelsen, før nogen klinisk evaluering fortsætter
+
+---
+
+> **Ansvarsfraskrivelse:** Denne rapport er beregnet til forskningsreferencer og udgør ikke medicinsk rådgivning. Lægemiddelgenbestemmelseskandidater kræver klinisk validering før nogen terapeutisk anvendelse. Alle oplysninger bør verificeres mod nuværende godkendt produktmærkning.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

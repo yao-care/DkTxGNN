@@ -29,104 +29,105 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rifabutin: From Mycobacterial Infection to HIV Infectious Disease (TB/MAC Co-Infection Management)
+# Rifabutin: Fra mycobakterbetændelse til hiv-infektionssygdom (TB/MAC koinfektion styring)
 
-## One-Sentence Summary
+## Ét-sætning opsummering
 
-> Rifabutin is an antimycobacterial antibiotic (rifamycin class) used in the treatment and prevention of tuberculosis (TB) and *Mycobacterium avium* complex (MAC) infection. The TxGNN model predicts a link to **HIV infectious disease**, with **39 clinical trials** and **20 publications** identified — however, the underlying evidence shows this reflects rifabutin's established role in managing TB/MAC co-infection in HIV-positive patients, not a direct antiretroviral effect. Formal regulatory and safety documentation for Denmark is currently a data gap, limiting readiness for clinical decision-making.
+> Rifabutin er en antimykobakteriell antibiotika (rifamycinklasse) brugt i behandling og forebyggelse af tuberkulose (TB) og *Mycobacterium avium* kompleks (MAC) infektion. TxGNN-modellen forudsiger et link til **hiv-infektionssygdom**, med **39 kliniske forsøg** og **20 publikationer** identificeret — imidlertid viser de underliggende beviser, at dette afspejler rifabutins etablerede rolle i styring af TB/MAC koinfektion hos hiv-positive patienter, ikke en direkte antiretroviral virkning. Formel regulering og sikkerhedsdokumentation for Danmark er i øjeblikket et datahul, hvilket begrænser beredskabet til klinisk beslutningstagning.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|------|
-| Original Indication | Antimycobacterial antibiotic (tuberculosis / *M. avium* complex prophylaxis and treatment) — inferred from drug class and trial context; approved indication text not available in Danish registration data |
-| Predicted New Indication | HIV infectious disease *(see caveat below — actual evidence supports TB/MAC co-infection management, not direct anti-HIV activity)* |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Antimykobakteriell antibiotika (tuberkulose / *M. avium* kompleks profylakse og behandling) — udledt fra lægemiddelklasse og forsøgssammenhæng; godkendt indikationstekst ikke tilgængelig i dansk registreringsdata |
+| Forudsagt ny indikation | Hiv-infektionssygdom *(se advarsel nedenfor — faktiske beviser understøtter TB/MAC koinfektion styring, ikke direkte anti-hiv-aktivitet)* |
+| TxGNN forudsigelses score | 99.88% |
+| Bevisniveau | L2 |
+| Markeds status (Danmark) | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forholdsregler |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism-of-action data for rifabutin is not available in this evidence pack. Based on the evidence collected, rifabutin inhibits bacterial DNA-dependent RNA polymerase and has no direct antiretroviral activity — it does not act on HIV itself.
+Detaljerede mekanisme-for-handling data for rifabutin er ikke tilgængelig i denne bevissamling. Baseret på de indsamlede beviser hæmmer rifabutin bakteriel DNA-afhængig RNA-polymerase og har ingen direkte antiretroviral aktivitet — det virker ikke på selve hiv.
 
-The link to "HIV infectious disease" arises indirectly: HIV-positive patients, especially those with low CD4 counts, are highly susceptible to concurrent tuberculosis and disseminated MAC infection, and rifabutin is a standard antimycobacterial agent for treating and preventing these co-infections. Its favorable pharmacokinetic profile (longer half-life, comparatively less enzyme induction than rifampicin) makes it preferable to rifampicin in patients on protease-inhibitor- or integrase-inhibitor-based antiretroviral therapy (ART), which explains why a large share of the trial evidence focuses on pharmacokinetics and drug-drug interaction (DDI) management rather than direct efficacy against HIV.
+Linket til "hiv-infektionssygdom" opstår indirekte: Hiv-positive patienter, især dem med lave CD4-tal, er meget modtagelige for samtidig tuberkulose og dissemineret MAC infektion, og rifabutin er et standard antimykobakteriell lægemiddel til behandling og forebyggelse af disse koinfektion. Dens favorable farmakokinetiske profil (længere halveringstid, forholdsvis mindre enzym-induktion end rifampicin) gør det at foretrække frem for rifampicin hos patienter på protease-hæmmer- eller integrase-hæmmer-baseret antiretroviral terapi (ART), hvilket forklarer, hvorfor en stor del af forsøgsbeviserne fokuserer på farmakokinetik og lægemiddel-lægemiddel interaktion (DDI) styring snarere end direkte virkning mod hiv.
 
-**Important caveat:** the TxGNN label "HIV infectious disease" should not be read as an antiviral indication. The clinically accurate framing is "treatment/prevention of TB or MAC co-infection in HIV-positive patients," which is already a well-established, decades-old use rather than a novel repurposing hypothesis.
+**Vigtig advarsel:** TxGNN-etiketten "hiv-infektionssygdom" bør ikke læses som en antiretroviral indikation. Den klinisk præcise formulering er "behandling/forebyggelse af TB eller MAC koinfektion hos hiv-positive patienter," som allerede er en velkendt, årtier gammel brug snarere end en ny repurposering hypotese.
 
 ---
 
-## Clinical Trial Evidence
+## Beviser fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Phase 3 | Completed | 720 | Randomized study of daily/intermittent azithromycin and rifabutin (alone/combined) for prevention of disseminated MAC in HIV-infected patients |
-| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | Completed | 400 | Open-label randomized trial of four regimens (clarithromycin + ethambutol + rifabutin or clofazimine) for treatment of disseminated MAC in AIDS patients |
-| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | Completed | 450 | Three-arm trial comparing clarithromycin/ethambutol with rifabutin (two doses) or placebo for MAC bacteremia treatment |
-| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Phase 3 | Completed | 1100 | Prospective randomized comparison of clarithromycin vs. rifabutin vs. combination for prevention of MAC bacteremia in advanced HIV |
-| [NCT00002080](https://clinicaltrials.gov/study/NCT00002080) | N/A (Treatment IND) | Completed | N/A | Rifabutin provided to HIV-positive patients to prevent/delay MAC infection; characterizes monotherapy safety |
-| [NCT00002267](https://clinicaltrials.gov/study/NCT00002267) | N/A | Completed | 750 | Double-blind, placebo-controlled trial of rifabutin monotherapy for prevention of MAC bacteremia in AIDS patients with CD4 ≤200 |
-| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | N/A (TBTC Study 23) | Completed | 215 | Rifabutin-based intermittent regimen for treatment of HIV-related, rifamycin-susceptible tuberculosis; measured treatment failure/relapse rate |
-| [NCT00023348](https://clinicaltrials.gov/study/NCT00023348) | Phase 2/3 | Completed | 150 | Pharmacokinetics of intermittent isoniazid and rifabutin in HIV-related TB treatment; correlated PK abnormalities with toxicity |
-| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | Completed | 47 | Evaluates rifabutin as a rifampicin substitute for combined TB/HIV treatment in Vietnam; PK with concurrent ART |
-| [NCT01059422](https://clinicaltrials.gov/study/NCT01059422) | Phase 4 | Completed | 10 | Raltegravir + 3TC/ABC efficacy and safety in ART-naïve HIV/TB co-infected adults on rifabutin-based first-line anti-TB therapy |
+| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Fase 3 | Fuldført | 720 | Randomiseret undersøgelse af daglig/intermitterende azithromycin og rifabutin (alene/kombineret) til forebyggelse af dissemineret MAC hos hiv-inficerede patienter |
+| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Fase 3 | Fuldført | 400 | Åben randomiseret forsøg af fire behandlingsordninger (clarithromycin + ethambutol + rifabutin eller clofazimine) til behandling af dissemineret MAC hos AIDS-patienter |
+| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Fase 3 | Fuldført | 450 | Tre-arm forsøg sammenlignede clarithromycin/ethambutol med rifabutin (to doser) eller placebo til MAC bakteriæmi behandling |
+| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Fase 3 | Fuldført | 1100 | Prospektiv randomiseret sammenligning af clarithromycin vs. rifabutin vs. kombination til forebyggelse af MAC bakteriæmi hos patienter med avanceret hiv |
+| [NCT00002080](https://clinicaltrials.gov/study/NCT00002080) | N/A (behandling IND) | Fuldført | N/A | Rifabutin leveret til hiv-positive patienter til forebyggelse/forsinkelse af MAC infektion; karakteriserer monoterapi sikkerhed |
+| [NCT00002267](https://clinicaltrials.gov/study/NCT00002267) | N/A | Fuldført | 750 | Dobbeltblindet, placebo-kontrolleret forsøg af rifabutin monoterapi til forebyggelse af MAC bakteriæmi hos AIDS-patienter med CD4 ≤200 |
+| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | N/A (TBTC Study 23) | Fuldført | 215 | Rifabutin-baseret intermitterende behandling til behandling af hiv-relateret, rifamycin-modtagelig tuberkulose; målte behandlingssvigt/tilbagefald rate |
+| [NCT00023348](https://clinicaltrials.gov/study/NCT00023348) | Fase 2/3 | Fuldført | 150 | Farmakokinetik af intermitterende isoniazid og rifabutin i hiv-relateret TB behandling; korrelerede PK abnormiteter med toksicitet |
+| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Fase 2 | Fuldført | 47 | Evaluerer rifabutin som rifampicin erstatning til kombineret TB/hiv behandling i Vietnam; PK med samtidigt ART |
+| [NCT01059422](https://clinicaltrials.gov/study/NCT01059422) | Fase 4 | Fuldført | 10 | Raltegravir + 3TC/ABC virkning og sikkerhed hos ART-naive hiv/TB koinfererede voksne på rifabutin-baseret første-linie anti-TB terapi |
 
-*Note: 39 trials were identified in total; the majority not listed here are single-purpose pharmacokinetic/DDI studies (e.g., interactions with maraviroc, cabotegravir, dolutegravir, indinavir) rather than efficacy trials, and were deprioritized in this table.*
+*Bemærk: 39 forsøg blev identificeret i alt; størstedelen ikke anført her er ensidig farmakokinetisk/DDI undersøgelser (f.eks. interaktioner med maraviroc, cabotegravir, dolutegravir, indinavir) snarere end virkning forsøg, og blev nedprioriteret i denne tabel.*
 
 ---
 
-## Literature Evidence
+## Litteratur beviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [23828580](https://pubmed.ncbi.nlm.nih.gov/23828580/) | 2013 | Cochrane Systematic Review | Cochrane Database Syst Rev | Compares rifamycins (including rifabutin) to isoniazid for TB prevention in people at risk of active TB |
-| [40310456](https://pubmed.ncbi.nlm.nih.gov/40310456/) | 2025 | Review | PNAS | Reviews next-generation rifamycins for mycobacterial infections; notes rifamycins induce CYP3A4, complicating co-administration |
-| [28233512](https://pubmed.ncbi.nlm.nih.gov/28233512/) | 2017 | Review | Microbiology Spectrum | Describes bidirectional impact of TB and HIV co-infection, underpinning the clinical rationale for rifabutin-based co-treatment |
-| [21406051](https://pubmed.ncbi.nlm.nih.gov/21406051/) | 2011 | Review | Infect Disord Drug Targets | Reviews management of adult active TB in the HIV era, including rifamycin–ART drug interactions |
-| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Cohort/PK Study | J Antimicrob Chemother | Rifabutin PK and safety in TB/HIV-coinfected children on lopinavir/ritonavir-based second-line ART |
-| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Cohort | J Antimicrob Chemother | Safety and efficacy of rifabutin in HIV/TB-coinfected children on lopinavir/ritonavir; notes prior study stopped early for neutropenia |
-| [25281400](https://pubmed.ncbi.nlm.nih.gov/25281400/) | 2015 | PK Study | J Antimicrob Chemother | Short-term safety and pharmacokinetics of rifabutin with lopinavir/ritonavir in young HIV-infected children |
-| [26832753](https://pubmed.ncbi.nlm.nih.gov/26832753/) | 2016 | Population PK Analysis | J Antimicrob Chemother | Pooled population PK/DDI analysis of rifabutin and HIV protease inhibitors to guide dosing in HIV-TB co-treatment |
-| [21726477](https://pubmed.ncbi.nlm.nih.gov/21726477/) | 2009 | Review | BMJ Clinical Evidence | Reviews treatment approaches for tuberculosis in people with HIV |
-| [7736687](https://pubmed.ncbi.nlm.nih.gov/7736687/) | 1995 | PK Review | Clinical Pharmacokinetics | Early review establishing rifabutin's clinical effectiveness for MAC prophylaxis in HIV-positive patients with low CD4 counts |
+| [23828580](https://pubmed.ncbi.nlm.nih.gov/23828580/) | 2013 | Cochrane systematisk gennemgang | Cochrane Database Syst Rev | Sammenligner rifamyciner (inklusive rifabutin) med isoniazid til TB forebyggelse hos mennesker i risiko for aktiv TB |
+| [40310456](https://pubmed.ncbi.nlm.nih.gov/40310456/) | 2025 | Gennemgang | PNAS | Gennemgår næste generations rifamyciner til mycobakterielle infektioner; bemærker, at rifamyciner inducerer CYP3A4, komplicerer co-administration |
+| [28233512](https://pubmed.ncbi.nlm.nih.gov/28233512/) | 2017 | Gennemgang | Microbiology Spectrum | Beskriver tovejs påvirkning af TB og hiv koinfektion, understøttende den kliniske begrundelse for rifabutin-baseret co-behandling |
+| [21406051](https://pubmed.ncbi.nlm.nih.gov/21406051/) | 2011 | Gennemgang | Infect Disord Drug Targets | Gennemgår styring af aktiv TB hos voksne i hiv-æraen, inklusive rifamycin–ART lægemiddel interaktioner |
+| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Kohorte/PK undersøgelse | J Antimicrob Chemother | Rifabutin PK og sikkerhed hos TB/hiv-koinfererede børn på lopinavir/ritonavir-baseret anden-linie ART |
+| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Kohorte | J Antimicrob Chemother | Sikkerhed og virkning af rifabutin hos hiv/TB-koinfererede børn på lopinavir/ritonavir; bemærker før undersøgelse stoppet tidligt for neutropeni |
+| [25281400](https://pubmed.ncbi.nlm.nih.gov/25281400/) | 2015 | PK undersøgelse | J Antimicrob Chemother | Kort-sigt sikkerhed og farmakokinetik af rifabutin med lopinavir/ritonavir hos unge hiv-inficerede børn |
+| [26832753](https://pubmed.ncbi.nlm.nih.gov/26832753/) | 2016 | Befolkning PK analyse | J Antimicrob Chemother | Poolet befolkning PK/DDI analyse af rifabutin og hiv protease hæmmere til guide dosering i hiv-TB co-behandling |
+| [21726477](https://pubmed.ncbi.nlm.nih.gov/21726477/) | 2009 | Gennemgang | BMJ Clinical Evidence | Gennemgår behandlingstilgange til tuberkulose hos mennesker med hiv |
+| [7736687](https://pubmed.ncbi.nlm.nih.gov/7736687/) | 1995 | PK gennemgang | Clinical Pharmacokinetics | Tidlig gennemgang etablering rifabutins klinisk virkning til MAC profylakse hos hiv-positive patienter med lave CD4-tal |
 
-*Note: 20 publications were identified in total; several additional PK/DDI studies (with tenofovir alafenamide, dolutegravir, saquinavir, methadone, etc.) were not included above to keep the table to the 10 most clinically relevant entries.*
-
----
-
-## Denmark Market Information
-
-No marketing authorisation is currently registered for rifabutin in Denmark (0 licenses on file; market status: not marketed). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation records are available in this evidence pack.
+*Bemærk: 20 publikationer blev identificeret i alt; flere yderligere PK/DDI undersøgelser (med tenofovir alafenamid, dolutegravir, saquinavir, methadon, osv.) blev ikke inkluderet ovenfor for at holde tabellen til de 10 mest klinisk relevante poster.*
 
 ---
 
-## Safety Considerations
+## Danmark markedsinformation
 
-- **Regulatory Safety Data Gap:** No structured warnings, contraindications, or DDI database records are currently available for rifabutin. Please refer to the approved Summary of Product Characteristics (SmPC) for authoritative safety information once available.
-- **Known Drug-Drug Interaction Burden (from evidence review):** Rifabutin is a CYP3A4 inducer/substrate with extensively documented pharmacokinetic interactions with protease inhibitors, NNRTIs, and integrase inhibitors (e.g., dolutegravir, cabotegravir, indinavir, darunavir/ritonavir), generally requiring dose adjustment when co-administered with ART. This DDI pattern is a dominant theme across the identified trial evidence, even though the formal DDI query in this evidence pack returned no records.
-- **Adverse Drug Reaction Signal — Ocular Inflammation:** Literature review (PMID 17353948) identifies rifabutin as a drug associated with drug-induced ocular inflammation, including uveitis and conjunctival involvement, particularly at higher doses or when combined with clarithromycin or fluconazole. A related case report (rifabutin-associated uveitis in a pediatric HIV patient) reinforces this signal.
-- **Adverse Drug Reaction Signal — Neutropenia in Pediatric Co-Treatment:** Cohort studies (PMID 33294914, PMID 31139825) report treatment-limiting neutropenia in children receiving rifabutin with protease-inhibitor-based ART, warranting hematological monitoring in this population.
+Ingen markedsføringstilladelse er i øjeblikket registreret for rifabutin i Danmark (0 licenser på filen; markeds status: ikke markedsført). Ingen national (Lægemiddelstyrelsen) eller centraliseret (EMA) autorisationsrecords er tilgængelige i denne bevissamling.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+- **Reguleringsmæssig sikkerhedsdatahul:** Ingen strukturerede advarsler, kontraindikationer eller DDI database records er i øjeblikket tilgængelige for rifabutin. Venligst se det godkendte Produktresumé (SmPC) for autorisativ sikkerhedsinformation, når det bliver tilgængeligt.
+- **Kendt lægemiddel-lægemiddel interaktions byrde (fra bevisgennemgang):** Rifabutin er en CYP3A4 inducer/substrat med omfattende dokumenterede farmakokinetiske interaktioner med protease hæmmere, NNRTIs og integrase hæmmere (f.eks. dolutegravir, cabotegravir, indinavir, darunavir/ritonavir), generelt kræver dosis justering når co-administreret med ART. Dette DDI mønster er et dominerende tema på tværs af de identificerede forsøgsbevis, selv om den formelle DDI forespørgsel i denne bevissamling returnerede ingen records.
+- **Bivirknings signal — okular inflammation:** Litteraturgennemgang (PMID 17353948) identificerer rifabutin som et lægemiddel forbundet med lægemiddel-induceret okular inflammation, inklusive uveitis og konjunktival involvering, især ved højere doser eller når kombineret med clarithromycin eller fluconazol. En relateret kasuistik (rifabutin-forbundet uveitis hos et peditrisk hiv-patient) styrker dette signal.
+- **Bivirknings signal — neutropeni i pediatrisk co-behandling:** Kohortestudier (PMID 33294914, PMID 31139825) rapporterer behandlings-begrænsende neutropeni hos børn modtagende rifabutin med protease-hæmmer-baseret ART, der berettiger hæmatologisk overvågning i denne population.
 
-**Rationale:**
-Multiple completed Phase 3 randomized trials and a Cochrane systematic review support rifabutin's established role in preventing and treating TB/MAC co-infection in HIV-positive patients, but this evidence is indirect with respect to the TxGNN label "HIV infectious disease" — rifabutin has no direct antiviral mechanism, and the label should be clinically reframed as "management of TB/MAC co-infection in HIV." Combined with the current absence of Danish regulatory and safety documentation (market status: not marketed, 0 authorisations), this supports a guarded pathway rather than an unqualified "Go."
+---
 
-**To proceed, the following is needed:**
-- SmPC/label warnings and contraindications from a reference regulatory source (currently a Blocking data gap; required before any S1 safety pre-assessment)
-- Formal mechanism-of-action documentation from DrugBank or equivalent (currently a High-severity data gap)
-- A structured DDI review focused on ART co-administration (protease inhibitors, NNRTIs, integrase inhibitors), given the strong CYP3A4-mediated interaction signal already evident in the literature
-- A monitoring plan addressing the identified ocular inflammation and pediatric neutropenia ADR signals
-- Reframing of the target indication from "HIV infectious disease" to "TB/MAC co-infection in HIV-positive patients" to avoid clinical misinterpretation as an antiretroviral therapy
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med forholdsregler**
+
+**Begrundelse:**
+Multiple fuldførte fase 3 randomiserede forsøg og en Cochrane systematisk gennemgang understøtter rifabutins etablerede rolle i forebyggelse og behandling af TB/MAC koinfektion hos hiv-positive patienter, men dette bevis er indirekte med hensyn til TxGNN-etiketten "hiv-infektionssygdom" — rifabutin har ingen direkte antiretroviral mekanisme, og etiketten bør være klinisk omformuleret som "styring af TB/MAC koinfektion hos hiv." Kombineret med det aktuelle fravær af dansk regulering og sikkerhedsdokumentation (markeds status: ikke markedsført, 0 autorisationer), understøtter dette en forsigtig vej snarere end en ukvalificeret "Go."
+
+**For at fortsætte kræves følgende:**
+- SmPC/label advarsler og kontraindikationer fra en reference reguleringsmæssig kilde (i øjeblikket et blokerende datahul; krævet før nogen S1 sikkerhed pre-vurdering)
+- Formel mekanisme-for-handling dokumentation fra DrugBank eller ækvivalent (i øjeblikket et høj-alvor datahul)
+- En struktureret DDI gennemgang fokuseret på ART co-administration (protease hæmmere, NNRTIs, integrase hæmmere), givet det stærke CYP3A4-medieret interaktions signal allerede tydelig i litteraturen
+- En overvågningsplan adressering de identificerede okular inflammation og pediatrisk neutropeni bivirknings signaler
+- Omformulering af target indikationen fra "hiv-infektionssygdom" til "TB/MAC koinfektion hos hiv-positive patienter" for at undgå klinisk misfortolkning som en antiretroviral terapi
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,87 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mecasermin: From Severe Primary IGF-1 Deficiency to Monosomy X
+# Mecasermin: Fra alvorlig primær IGF-1-mangel til Monosomi X
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Mecasermin (Increlex) is a recombinant human insulin-like growth factor-1 (rhIGF-1), originally used to treat growth failure in children with severe primary IGF-1 deficiency or growth hormone gene deletion.
-The TxGNN model predicts it may be effective for **Monosomy X** (Turner syndrome), a chromosomal condition characterised by short stature and impaired growth.
-Currently, **no clinical trials and no publications** specifically linking mecasermin to this indication have been identified; this prediction is supported by model scoring alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Severe primary IGF-1 deficiency / growth failure in children (known approved use; not registered in Denmark) |
-| Predicted New Indication | Monosomy X (Turner syndrome) |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Mecasermin (Increlex) er et rekombinant humant insulin-lignende vækstfaktor-1 (rhIGF-1), oprindeligt anvendt til behandling af væksthæmning hos børn med alvorlig primær IGF-1-mangel eller væksthormon-gen-deletion.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Monosomi X** (Turners syndrom), en kromosomforandring præget af lavvækst og svækket væksttakt.
+I øjeblikket er der **ingen kliniske forsøg og ingen publikationer**, der specifikt forbinder mecasermin med denne indikation; denne forudsigelse understøttes udelukkende af modelscoringen.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, mecasermin is a recombinant analogue of endogenous human IGF-1 (insulin-like growth factor-1). It acts as an agonist at the IGF-1 receptor (IGF1R), directly stimulating longitudinal bone growth, skeletal muscle development, and cellular proliferation — bypassing the need for upstream growth hormone (GH) signalling. It is approved internationally (e.g. by EMA as Increlex) for children who either lack IGF-1 production entirely or who cannot respond to GH.
-
-Monosomy X, commonly known as Turner syndrome (45,X karyotype), is defined by the complete or partial absence of one X chromosome in females. Short stature is the most consistent and clinically significant feature, arising from a combination of haploinsufficiency of the SHOX gene (short stature homeobox gene on the X chromosome) and relative GH-IGF-1 axis dysregulation. Girls with Turner syndrome typically have low-normal to mildly reduced IGF-1 levels despite normal or elevated GH secretion — a pattern suggesting partial GH insensitivity at the tissue level.
-
-Given this biological context, the TxGNN model's high prediction score is mechanistically plausible: supplying exogenous rhIGF-1 could potentially augment growth signalling downstream of the GH-IGF-1 axis in a population where the axis is partially dysfunctional. Standard care for Turner syndrome already relies on supraphysiological GH doses to partially compensate for SHOX haploinsufficiency; mecasermin could theoretically offer complementary or alternative IGF-1 replacement. However, no formal clinical evidence exists to support this specific application, and the fundamental genetic cause of Turner syndrome remains unaddressed by IGF-1 therapy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Alvorlig primær IGF-1-mangel / væksthæmning hos børn (kendt godkendt brug; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Monosomi X (Turners syndrom) |
+| TxGNN-forudsigelsesscore | 99.59% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne bevismappe. På baggrund af kendt farmakologisk information er mecasermin et rekombinant analogon af endogent humant IGF-1 (insulin-lignende vækstfaktor-1). Det virker som en agonist på IGF-1-receptoren (IGF1R) og stimulerer direkte længdevækst af knogler, udvikling af skeletmuskulatur og cellulær proliferation — uden at påvirke opstrøms væksthormon (GH)-signalering. Det er godkendt internationalt (f.eks. af EMA som Increlex) til børn, som enten helt mangler IGF-1-produktion eller ikke kan reagere på GH.
 
----
+Monosomi X, almindeligvis kendt som Turners syndrom (45,X karvootype), er defineret ved fuldstændig eller delvis fravær af ét X-kromosom hos piger. Lavvækst er det mest konsekvente og klinisk betydningsfuldt træk, der opstår fra en kombination af haploinsufficienz af SHOX-genet (short stature homeobox-gen på X-kromosomet) og relativ GH-IGF-1-akse-dysregulering. Piger med Turners syndrom har typisk lavt-normalt til let reduceret IGF-1-niveau trods normalt eller forhøjet GH-sekration — et mønster, der tyder på delvis GH-resistens på væveniveau.
 
-## Denmark Market Information
-
-Mecasermin is not currently registered or marketed in Denmark. No national (Laegemiddelstyrelsen) or centralised (EMA) marketing authorisations are on record for this product within the Danish market at the time of this report.
-
-> **Note for clinicians:** Mecasermin (Increlex) holds a centralised EMA marketing authorisation valid across the EU/EEA for severe primary IGF-1 deficiency. Named-patient or compassionate-use access pathways via Laegemiddelstyrelsen may be applicable if clinical need arises; contact Laegemiddelstyrelsen for guidance on special-purpose authorisation (særlig tilladelse).
+I betragtning af denne biologiske sammenhæng er TxGNN-modellens høje forudsigelsesscore mekanistisk plausibel: tilførsel af eksogen rhIGF-1 kunne potentielt augmentere vækstignalering nedstrøms for GH-IGF-1-aksen i en population, hvor aksen er delvist dysfunktionel. Standardbehandling for Turners syndrom er allerede afhængig af suprafysiologiske GH-doser for delvist at kompensere for SHOX-haploinsufficienz; mecasermin kunne teoretisk set tilbyde komplementær eller alternativ IGF-1-erstatning. Imidlertid findes der ingen formel klinisk evidens til støtte for denne specifikke anvendelse, og den grundlæggende genetiske årsag til Turners syndrom forbliver uadresseret af IGF-1-terapi.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidens
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> No drug interaction data, key warnings, or contraindication data are available in the current Evidence Pack. Before any clinical consideration, the full Increlex SmPC (available via the EMA product page) should be reviewed, with particular attention to known risks including hypoglycaemia, intracranial hypertension, and lymphoid tissue hypertrophy.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidens
 
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests entirely on TxGNN model scoring (L5 evidence); no clinical trials or publications have been identified to support the use of mecasermin specifically in monosomy X. While the mechanistic hypothesis — IGF-1 supplementation in a condition characterised by partial GH-IGF-1 axis dysfunction — is biologically coherent, it is not supported by empirical data at this stage.
-
-**To proceed, the following is needed:**
-
-- **Formal MOA documentation**: Obtain confirmed mechanism of action data from DrugBank or the Increlex SmPC to replace the current data gap.
-- **Targeted literature review**: Conduct a structured PubMed/EMBASE search for mecasermin or IGF-1 therapy in Turner syndrome (monosomy X), including any case reports, compassionate-use series, or pilot studies not captured by the current automated query.
-- **Clinical trial landscape scan**: Expand ClinicalTrials.gov search to include broader terms (e.g. "IGF-1" + "Turner syndrome", "rhIGF-1" + "45,X") beyond the current exact-match query.
-- **Comparison with standard of care**: Assess whether mecasermin offers any advantage over established GH therapy (already approved and widely used in Turner syndrome in Denmark), and whether combination IGF-1 + GH protocols have been explored.
-- **Safety data retrieval**: Download and parse the Increlex SmPC (TFDA and EMA versions) to populate the warnings, contraindications, and drug interaction fields before any clinical evaluation proceeds.
-- **Regulatory pathway assessment**: If evidence is identified, consult Laegemiddelstyrelsen regarding compassionate-use or named-patient access given the absence of a Danish marketing authorisation.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
 ---
 
-*This report is generated for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. Report version: v4 | Data cut-off: 2026-04-04.*
+## Markedsinformation for Danmark
+
+Mecasermin er ikke i øjeblikket registreret eller markedsført i Danmark. Der er ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser på registreringen for dette produkt på det danske marked på tidspunktet for denne rapport.
+
+> **Bemærkning for klinikere:** Mecasermin (Increlex) har en centraliseret EMA-markedsføringstilladelse gyldig på tværs af EU/EØS for alvorlig primær IGF-1-mangel. Ansøgning om enkelt patienterklæring eller compassionate use via Lægemiddelstyrelsen kan være relevant, hvis behov foreligger; kontakt Lægemiddelstyrelsen for vejledning om særlig tilladelse.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte Produktresume (SmPC) for sikkerhedsinformation.
+
+> Der er ingen data om lægemiddelinteraktioner, centrale advarsler eller kontraindikationer tilgængelige i den aktuelle bevismappe. Før enhver klinisk overvejelse skal det fulde Increlex SmPC (tilgængeligt via EMA-produktsiden) gennemgås, med særlig fokus på kendte risici, herunder hypoglykæmi, intrakraniel hypertension og lymfoid vævshypertrofi.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Forudsigelsen hviler udelukkende på TxGNN-modelscoringen (L5-evidens); der er ikke identificeret kliniske forsøg eller publikationer til støtte for brugen af mecasermin specifikt ved monosomi X. Selvom den mekanistiske hypotese — IGF-1-tilskud i en tilstand præget af delvis GH-IGF-1-akse-dysfunktion — er biologisk sammenhængende, understøttes den ikke af empiriske data på dette stadium.
+
+**For at fortsætte kræves følgende:**
+
+- **Formel dokumentation af virkningsmekanisme**: Indhent bekræftede data om virkningsmekanisme fra DrugBank eller Increlex SmPC til at erstatte det aktuelle datahul.
+- **Målrettet litteraturgennemgang**: Foretag en struktureret PubMed/EMBASE-søgning for mecasermin eller IGF-1-terapi ved Turners syndrom (monosomi X), herunder ethvert kasuistikker, compassionate use-serier eller pilotundersøgelser, der ikke blev fanget af den aktuelle automatiserede forespørgsel.
+- **Scanning af klinisk forsøgslandskab**: Udvid ClinicalTrials.gov-søgningen til at omfatte bredere udtryk (f.eks. "IGF-1" + "Turner syndrome", "rhIGF-1" + "45,X") ud over den aktuelle eksakt match-forespørgsel.
+- **Sammenligning med standardbehandling**: Vurder, om mecasermin tilbyder nogen fordel i forhold til etableret væksthormonbehandling (allerede godkendt og bredt anvendt ved Turners syndrom i Danmark), og om kombinerede IGF-1 + væksthormon-protokoller er blevet udforsket.
+- **Sikkerhedsdatahentning**: Download og analyser Increlex SmPC (TFDA- og EMA-versioner) for at udfylde advarsler, kontraindikationer og lægemiddelinteraktionsfelterne, før en klinisk vurdering fortsætter.
+- **Vurdering af regulatorisk vej**: Hvis der identificeres evidens, skal du konsultere Lægemiddelstyrelsen om compassionate use eller enkelt patienterklæring-adgang i betragtning af fraværet af en dansk markedsføringstilladelse.
+
+---
+
+*Denne rapport er genereret udelukkende til forskningsreference og udgør ikke lægeråd. Alle lægemiddel-kandidater til gentilvirkning kræver klinisk validering før anvendelse. Rapportversion: v4 | Datasnit: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

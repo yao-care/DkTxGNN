@@ -29,72 +29,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Obiltoxaximab: From Inhalational Anthrax to Postinfectious Vasculitis
+# Obiltoxaximab: Fra inhalativ anthrax til postinfektiøs vaskulitis
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-> Obiltoxaximab (Anthim) is a monoclonal antibody originally developed to treat and prevent inhalational anthrax caused by *Bacillus anthracis* toxin exposure — this is evident from its own clinical trial history, as Denmark holds no marketing authorisation or approved indication text for this drug.
-> The TxGNN model predicts it may be effective for **Postinfectious Vasculitis**, but currently **no clinical trials or publications** support this specific direction.
-> This is a **model-prediction-only** signal (Evidence Level L5) with an explicitly weak mechanistic rationale — it should not be interpreted as a validated repurposing opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Inhalational anthrax (treatment/post-exposure prophylaxis) — based on the drug's own trial history; no Danish regulatory text exists |
-| Predicted New Indication | Postinfectious vasculitis |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Obiltoxaximab (Anthim) er et monoklonalt antistof, der oprindeligt blev udviklet til behandling og forebyggelse af inhalativ anthrax forårsaget af eksponering for *Bacillus anthracis* toxin — dette er tydeligt ud fra dets egen kliniske prøvehistorie, da Danmark ikke har markedsføringstilladelse eller godkendt indikationstekst for dette lægemiddel.
+> TxGNN-modellen forudsiger, at det kan være effektivt til **postinfektiøs vaskulitis**, men i øjeblikket **ingen kliniske prøver eller publikationer** understøtter denne specifikke retning.
+> Dette er et **modelforudsigelse-kun** signal (evidensniveau L5) med en eksplicit svag mekanistisk rationale — det bør ikke tolkes som en valideret genbrugsmulighed.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available for Obiltoxaximab in this evidence pack. Based on known information, Obiltoxaximab is a monoclonal antibody that specifically binds and neutralises the Protective Antigen (PA) subunit of *Bacillus anthracis* toxin, blocking toxin entry into host cells. It is not a broad-spectrum antimicrobial or anti-inflammatory agent.
-
-The evidence pack's own repurposing rationale for this prediction is explicit and should be taken at face value: there is **no known mechanistic link** between anthrax toxin neutralisation and the immune-complex/vascular inflammatory pathology underlying postinfectious vasculitis. The TxGNN score of 99.74% most likely reflects knowledge-graph embedding similarity (e.g., shared "post-infection" node proximity) rather than a biologically grounded hypothesis.
-
-Given the absence of MOA confirmation, supporting trials, or literature, this prediction currently lacks the biological plausibility argument that would normally support further evaluation.
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Inhalativ anthrax (behandling/post-eksponeringsforebyggelse) — baseret på lægemidlets egen prøvehistorie; der eksisterer ingen dansk regulatorisk tekst |
+| Forudsagt ny indikation | Postinfektiøs vaskulitis |
+| TxGNN forudsigelsesscore | 99.74% |
+| Evidensniveau | L5 (modelforudsigelse alene, ingen understøttende prøver eller litteratur) |
+| Danmarksmarkedsstatus | Ikke på markedet |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige for obiltoxaximab i denne evidenspakke. Baseret på kendt information er obiltoxaximab et monoklonalt antistof, der specifikt binder til og neutraliserer Protective Antigen (PA) underenheden af *Bacillus anthracis* toxin, hvilket blokerer toksins indtrængning i værtsceller. Det er ikke et bredt spektrum antimikrobielt eller antiinflammatorisk middel.
 
-*(Note: four Phase 1/Phase 4 trials of obiltoxaximab exist in the evidence pack — NCT03088111, NCT01932242, NCT01929226, NCT00138411 — but these were conducted for anthrax toxin exposure/safety-PK purposes and are associated with the separate, low-relevance "post-bacterial disorder" prediction, not with postinfectious vasculitis. All were graded relevance "C" — keyword-matched, not disease-specific.)*
+Evidenspakkens eget rationale for genbrugsforudsigelsen er eksplicit og bør tages for pålydende: der er **ingen kendt mekanistisk forbindelse** mellem anthrax toksinneutralisering og de immune-kompleks/vaskulære inflammatoriske patologier, som ligger til grund for postinfektiøs vaskulitis. TxGNN-scoren på 99.74% afspejler højst sandsynligt vidensgrafs indlejrings-lighed (f.eks. delt "post-infektion" nodeproksimitet) snarere end en biologisk begrundet hypotese.
 
-## Literature Evidence
+I lyset af fraværet af MOA-bekræftelse, understøttende prøver eller litteratur mangler denne forudsigelse i øjeblikket det biologiske plausibilitetsargument, som normalt ville understøtte yderligere evaluering.
 
-Currently no related literature available.
+---
 
-## Denmark Market Information
+## Klinisk prøvebevis
 
-Obiltoxaximab currently holds **no marketing authorisation in Denmark** (0 registered licenses, market status: Not marketed).
+I øjeblikket ingen registrerede relaterede kliniske prøver.
 
-## Safety Considerations
+*(Bemærk: fire Phase 1/Phase 4-prøver af obiltoxaximab eksisterer i evidenspakken — NCT03088111, NCT01932242, NCT01929226, NCT00138411 — men disse blev gennemført til anthrax toksins eksponering/sikkerhed-PK formål og er forbundet med den separate, lavrelevans "post-bakteriel lidelse" forudsigelse, ikke med postinfektiøs vaskulitis. Alle blev klassificeret relevans "C" — nøgleord-matchet, ikke sygdomsspecifik.)*
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+## Litteraturbevis
 
-*(Key warnings, contraindications, and drug-drug interaction data are currently unavailable for this drug — this is flagged as a blocking data gap (DG001) in the evidence pack and must be resolved before any safety evaluation.)*
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Conclusion and Next Steps
+## Danmarksmarkedsinformation
 
-**Decision: Hold**
+Obiltoxaximab har i øjeblikket **ingen markedsføringstilladelse i Danmark** (0 registrerede licenser, markedsstatus: Ikke på markedet).
 
-**Rationale:**
-The prediction rests solely on a TxGNN similarity score with no supporting clinical trials, no literature, no confirmed mechanism of action, and an explicitly acknowledged lack of biological plausibility. The drug is also not marketed in Denmark, so no local regulatory or safety infrastructure currently exists to support evaluation.
+## Sikkerhedsovervejelser
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data (currently a data gap)
-- SmPC-based safety information: warnings, contraindications, and drug interactions (currently a blocking data gap, DG001)
-- Preclinical or mechanistic studies establishing biological plausibility for postinfectious vasculitis
-- Any future clinical trial or case-report evidence specific to this indication, should it emerge
+Se venligst produktresumét (SmPC) for sikkerhedsinformation.
+
+*(Vigtige advarsler, kontraindikationer og lægemiddel-interaktionsdata er i øjeblikket ikke tilgængelige for dette lægemiddel — dette er markeret som en blokerende datagap (DG001) i evidenspakken og skal løses, før nogen sikkerhedsevaluering kan foretages.)*
+
+## Konklusion og næste skridt
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Forudsigelsen hviler alene på en TxGNN-lignhedsscore uden understøttende kliniske prøver, ingen litteratur, ingen bekræftet virkningsmekanisme og en eksplicit bekendtgørelse af mangel på biologisk plausibilitet. Lægemidlet er endvidere ikke på markedet i Danmark, så der eksisterer i øjeblikket ingen lokal regulatorisk eller sikkerhedsinfrastruktur til at understøtte evaluering.
+
+**For at fortsætte kræves følgende:**
+- Bekræftet virkningsmekanisme-data (i øjeblikket en datagap)
+- SmPC-baseret sikkerhedsinformation: advarsler, kontraindikationer og lægemiddel-interaktioner (i øjeblikket en blokerende datagap, DG001)
+- Præklinikulske eller mekanistiske studier, der etablerer biologisk plausibilitet for postinfektiøs vaskulitis
+- Eventuelle fremtidige kliniske prøve- eller sygdomsrapportbevis specifikt for denne indikation, skulle det opstå
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

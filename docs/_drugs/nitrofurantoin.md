@@ -29,90 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nitrofurantoin: From Urinary Tract Infection to Rheumatoid Arthritis
+# Nitrofurantoin: Fra urinvejsinfektioner til reumatoid artritis
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Nitrofurantoin is a nitrofuran-class antibacterial, established as a first-line oral treatment for uncomplicated urinary tract infection (UTI); this specific indication text is not present in the current Evidence Pack, so it is stated here from established pharmacological knowledge rather than sourced data. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but the current evidence base consists of **0 clinical trials** and **11 literature items**, nearly all of which describe drug-induced toxicity (pulmonary fibrosis, hepatitis) in RA patients rather than therapeutic efficacy — this is a model-score-only prediction with a possible safety signal, not an efficacy finding.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Urinary tract infection (UTI) — not recorded in Evidence Pack; based on established pharmacology |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Nitrofurantoin er en nitrofuran-klassens antibakteriel, etableret som første linje oral behandling for ukomplicate urinvejsinfektioner (UTI); denne specifikke indikation er ikke til stede i det aktuelle bevisemne, så det er anført her ud fra etableret farmakologisk viden snarere end kildedata. TxGNN-modellen forudsiger, at det kan være effektivt for **reumatoid artritis**, men det nuværende beviisgrundlag består af **0 kliniske forsøg** og **11 litteraturopslag**, næsten helt udelukkende beskrivende läkemedels-induceret toksicitet (lungefibrose, hepatitis) hos RA-patienter snarere end terapeutisk effektivitet — dette er en alene modelscoring-baseret forudsigelse med muligt sikkerhedssignal, ikke en effektivitetsfinding.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not currently available (Data Gap DG002). Based on established pharmacology, nitrofurantoin is reduced by bacterial flavoproteins into reactive intermediates that damage bacterial DNA, ribosomal proteins, and other macromolecules — a nonspecific antibacterial mechanism with no established immunomodulatory or anti-rheumatic activity.
-
-Urinary tract infection and rheumatoid arthritis belong to unrelated disease categories (infectious vs. autoimmune/rheumatologic), unlike typical repurposing pairs that share organ system or pathway overlap. No mechanistic or pharmacological rationale connecting the two indications is present in this Evidence Pack.
-
-The 11 literature items returned for this pairing do **not** support a therapeutic rationale. They are almost entirely case reports and reviews describing nitrofurantoin-induced pulmonary and hepatic toxicity occurring *in* RA patients (e.g., a fatal interaction with methotrexate), plus one observational study on antibiotics and RA flares that is not specific to nitrofurantoin. In other words, the literature clusters around nitrofurantoin as a **risk factor** in RA patients, not as a **treatment** for RA. This should be read as a high TxGNN similarity score without corroborating biological or clinical support — comparable to the model's other low-confidence, no-evidence predictions in this same output (e.g., the L5/Hold calls for the two syndromic diagnoses at ranks 3–4 and 9–10).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Original indikation | Urinvejsinfektion (UTI) — ikke registreret i bevisemnen; baseret på etableret farmakologi |
+| Forudsagt ny indikation | Reumatoid artritis |
+| TxGNN-forudsigelsesscore | 99.89% |
+| Bevisniveau | L5 |
+| Danske markeds status | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Gennemgår |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+Detaljerede data om virkningsmekanisme er ikke i øjeblikket tilgængelige (datakløft DG002). Baseret på etableret farmakologi reduceres nitrofurantoin af bakterielle flavoproteiner til reaktive mellemtrin, der beskadiger bakterielt DNA, ribosomale proteiner og andre makromolekyler — en uspecifik antibakteriel mekanisme uden etableret immunomodulatorisk eller anti-revmatisk aktivitet.
+
+Urinvejsinfektion og reumatoid artritis hører til ikke-relaterede sygdomskategorier (infektiøs vs. autoimmun/revmatologisk), i modsætning til typiske repurposingpar, der deler organ system eller stivejsoverlap. Der er ingen mekanistisk eller farmakologisk rationelle forbinder de to indikationer til stede i dette bevisemne.
+
+De 11 litteraturopslag, der returneres for denne parring, understøtter **ikke** en terapeutisk rationel. De er næsten udelukkende kasuistikker og reviews, der beskriver nitrofurantoin-induceret pulmonal og hepatisk toksicitet, der opstår *hos* RA-patienter (f.eks. en dødelig interaktion med methotrexat), plus en observationsstudie om antibiotika og RA-anfald, der ikke er specifik for nitrofurantoin. Med andre ord cluster litteraturen omkring nitrofurantoin som en **risikofaktor** hos RA-patienter, ikke som en **behandling** for RA. Dette bør læses som en høj TxGNN-lighedsscore uden understøttende biologisk eller klinisk support — sammenligneligt med modellens andre lavfidusforudsigelser uden bevis i dette samme output (f.eks. L5/gennemgår-klassifikationerne for de to syndromiske diagnoser ved ranger 3–4 og 9–10).
+
+---
+
+## Bevis fra kliniske forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [31222078](https://pubmed.ncbi.nlm.nih.gov/31222078/) | 2019 | Observational (self-controlled case series) | Scientific Reports | Analysis of 31,992 newly diagnosed RA patients (UK CPRD GOLD) examining antibiotic exposure timing vs. RA flares; not nitrofurantoin-specific efficacy data |
-| [15195196](https://pubmed.ncbi.nlm.nih.gov/15195196/) | 2004 | Review | Saudi Medical Journal | Review of drug-induced pulmonary fibrosis; lists nitrofurantoin among causative drugs and notes RA as a predisposing condition for fibrosis |
-| [35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/) | 2022 | Case report | Cureus | Irreversible pulmonary fibrosis in a 94-year-old RA patient from combined methotrexate + nitrofurantoin therapy — a toxicity/interaction signal, not efficacy evidence |
-| [25362778](https://pubmed.ncbi.nlm.nih.gov/25362778/) | 2014 | Review | La Revue du praticien | Review of drug-induced interstitial lung disease; nitrofurantoin listed among causative antibiotics |
-| [3335140](https://pubmed.ncbi.nlm.nih.gov/3335140/) | 1988 | Case series | Chest | Cohort of 57 hospitalised RA patients with interstitial lung fibrosis; describes RA-associated lung disease, does not evaluate nitrofurantoin as treatment |
-| [11937933](https://pubmed.ncbi.nlm.nih.gov/11937933/) | 2002 | Case report | Annales de dermatologie et de venereologie | Phenylbutazone-induced sialadenitis case; nitrofurantoin mentioned only as another drug associated with sialadenitis, unrelated to RA treatment |
-| [899886](https://pubmed.ncbi.nlm.nih.gov/899886/) | 1977 | Observational | Acta Medica Scandinavica | Short-term nitrofurantoin therapy for bacteriuria in middle-aged women; unrelated to RA |
-| [41635325](https://pubmed.ncbi.nlm.nih.gov/41635325/) | 2026 | Case report | Cureus | Autoimmune hepatitis case; nitrofurantoin is one of several drugs ruled out as cause of drug-induced liver injury, RA mentioned only as a differential diagnosis |
-| [8104358](https://pubmed.ncbi.nlm.nih.gov/8104358/) | 1993 | Case report | Revue de pneumologie clinique | Gold-salt-induced pneumonitis/alveolitis case in a patient on anti-rheumatic therapy; nitrofurantoin not directly implicated |
-| [4608019](https://pubmed.ncbi.nlm.nih.gov/4608019/) | 1974 | Review | Der Internist | General synopsis of alveolitis and pulmonary fibrosis mechanisms |
+| [31222078](https://pubmed.ncbi.nlm.nih.gov/31222078/) | 2019 | Observationel (selvkontrolleret kasuistikkserie) | Scientific Reports | Analyse af 31.992 nydiagnosticerede RA-patienter (UK CPRD GOLD), der undersøger antibiotikaeksponering timing vs. RA-anfald; ikke nitrofurantoin-specifik effektivitetsdata |
+| [15195196](https://pubmed.ncbi.nlm.nih.gov/15195196/) | 2004 | Review | Saudi Medical Journal | Oversigt over lægemiddelinduceret lungefibrose; viser nitrofurantoin blandt årsagsfremkaldende midler og bemærker RA som en prædisponerende tilstand for fibrose |
+| [35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/) | 2022 | Kasuistik | Cureus | Irreversibel lungefibrose hos en 94-årig RA-patient fra kombineret methotrexat + nitrofurantoin-terapi — et toksicitets-/interaktionssignal, ikke effektivitetsbevis |
+| [25362778](https://pubmed.ncbi.nlm.nih.gov/25362778/) | 2014 | Review | La Revue du praticien | Oversigt over lægemiddelinduceret interstitiel lungesygdom; nitrofurantoin angivet blandt årsagsfremkaldende antibiotika |
+| [3335140](https://pubmed.ncbi.nlm.nih.gov/3335140/) | 1988 | Kasuistikkeserie | Chest | Kohort af 57 hospitaliserede RA-patienter med interstitiel lungefibrose; beskriver RA-associeret lungesygdom, evaluerer ikke nitrofurantoin som behandling |
+| [11937933](https://pubmed.ncbi.nlm.nih.gov/11937933/) | 2002 | Kasuistik | Annales de dermatologie et de venereologie | Phenylbutazon-induceret spytkirtelinflammation kasuistik; nitrofurantoin nævnt kun som et andet lægemiddel associeret med spytkirtelinflammation, urelated til RA-behandling |
+| [899886](https://pubmed.ncbi.nlm.nih.gov/899886/) | 1977 | Observationel | Acta Medica Scandinavica | Korttidsnitrofurantoin-terapi for bakteriuri hos kvinder i midten af livet; urelated til RA |
+| [41635325](https://pubmed.ncbi.nlm.nih.gov/41635325/) | 2026 | Kasuistik | Cureus | Autoimmun hepatitis kasuistik; nitrofurantoin er et af flere lægemidler udelukket som årsag til lægemiddelinduceret leverbeskadigelse, RA nævnt kun som differentialdiagnose |
+| [8104358](https://pubmed.ncbi.nlm.nih.gov/8104358/) | 1993 | Kasuistik | Revue de pneumologie clinique | Guldalt-induceret pneumonitis/alveolitis kasuistik hos patient på anti-revmatisk terapi; nitrofurantoin ikke direkte impliceret |
+| [4608019](https://pubmed.ncbi.nlm.nih.gov/4608019/) | 1974 | Review | Der Internist | Generel oversigt over alveolitis og lungefibrosemekanismer |
 
-**Note:** This literature set is dominated by nitrofurantoin **toxicity in RA patients**, not evidence of therapeutic benefit for RA.
-
----
-
-## Denmark Market Information
-
-No marketing authorisations found. Nitrofurantoin is currently **not marketed** in Denmark according to the available data (0 licenses on record).
+**Bemærk:** Dette litteratursæt er domineret af nitrofurantoin **toksicitet hos RA-patienter**, ikke bevis for terapeutisk nytte for RA.
 
 ---
 
-## Safety Considerations
+## Danske markedsoplysninger
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information (key warnings, contraindications, and DDI data are not available in this Evidence Pack — flagged as Blocking Data Gap DG001).
-
-**Note from literature review:** A case report ([PMID 35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/)) describes irreversible pulmonary fibrosis in an RA patient from combined methotrexate and nitrofurantoin use — this interaction signal should be considered before any further evaluation of nitrofurantoin in RA patients.
+Der er ikke fundet markedsføringstilladelser. Nitrofurantoin er i øjeblikket **ikke markedsført** i Danmark ifølge de tilgængelige data (0 licenser på record).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte produktresumésamfund (SmPC) for sikkerhedsoplysninger (vigtige advarsler, kontraindikationer og DDI-data er ikke tilgængelige i dette bevisemne — markeret som blokerende datakløft DG001).
 
-**Rationale:**
-No clinical trials exist for this pairing, no MOA data is available, and the associated literature describes toxicity risk in RA patients rather than therapeutic efficacy. The 99.89% TxGNN score reflects model similarity only (Evidence Level L5) and is not corroborated by any biological or clinical rationale — this is not sufficient to justify further investment at this time.
+**Bemærk fra litteraturgennemgang:** En kasuistik ([PMID 35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/)) beskriver irreversibel lungefibrose hos en RA-patient fra kombineret methotrexat og nitrofurantoin-brug — dette interaktionssignal bør tages i betragtning før yderligere evaluering af nitrofurantoin hos RA-patienter.
 
-**To proceed, the following is needed:**
-- Danish SmPC / warnings and contraindications data (Blocking gap, DG001)
-- DrugBank mechanism of action data (DG002)
-- A targeted literature or preclinical search specifically for immunomodulatory/anti-inflammatory activity of nitrofurantoin, since none currently exists
-- Clarification of the drug-drug interaction risk with methotrexate (common RA therapy) before any clinical consideration
-- Confirmation of Danish market/registration status, as the drug is currently unmarketed with 0 authorisations on record
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Gennemgår**
+
+**Begrundelse:**
+Der eksisterer ingen kliniske forsøg for denne parring, ingen MOA-data er tilgængelige, og den tilknyttede litteratur beskriver toksicitetsrisiko hos RA-patienter snarere end terapeutisk effektivitet. TxGNN-scoren på 99.89% afspejler kun modellighedsscore (bevisniveau L5) og er ikke understøttet af nogen biologisk eller klinisk rationel — dette er ikke tilstrækkeligt til at retfærdiggøre yderligere investering på nuværende tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk SmPC / advarsler og kontraindikationsdata (blokerende kløft, DG001)
+- DrugBank-mekanisme for handlingsdata (DG002)
+- En målrettet litteratur- eller præklinsik søgning specifikt for immunomodulatorisk/anti-inflammatorisk aktivitet af nitrofurantoin, da ingen i øjeblikket eksisterer
+- Præcisering af lægemiddelinteraktionsrisiko med methotrexat (almindelig RA-terapi) før nogen klinisk overvejelse
+- Bekræftelse af dansk markeds-/registreringsstatus, da lægemidlet er i øjeblikket umarkedsført med 0 tilladelser på record
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,89 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atosiban: From Preterm Labour to Primary Hereditary Glaucoma
+# Atosiban: Fra præterm arbejde til primær arvelig glaukom
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Atosiban is a synthetic peptide oxytocin/vasopressin receptor (OXTR) antagonist, established in clinical practice as a tocolytic agent to inhibit uterine contractions and delay preterm birth.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma** with a confidence score of **99.92%**,
-however, **zero clinical trials and zero published publications** currently support this direction — placing it at the lowest evidence level (L5) and raising significant mechanistic concerns about treatment directionality.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Preterm labour (tocolytic agent) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Atosiban er en syntetisk peptid oxytocin/vasopressin-receptor (OXTR) antagonist, etableret i klinisk praksis som tokolitikum til hæmning af uterine kontraktioner og forsinkelse af præterm arbejde.
+TxGNN-modellen forudsiger, at det kan være effektivt for **Primær arvelig glaukom** med en sikkerhedsgrad på **99,92 %**,
+dog **nul kliniske forsøg og nul publicerede publikationer** understøtter denne retning i øjeblikket – hvilket placerer det på det laveste bevisniveau (L5) og rejser betydelige mekanistiske bekymringer omkring behandlingens retning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on established pharmacological knowledge, Atosiban is a competitive antagonist at both oxytocin receptors (OXTR) and vasopressin V1a receptors. Its proven clinical role is inhibiting OXTR-mediated uterine smooth muscle contractions to delay premature birth.
-
-The mechanistic link proposed by TxGNN rests on the known expression of OXTR in ocular tissues — specifically in the trabecular meshwork and ciliary body. Endogenous oxytocin has been shown in some studies to lower intraocular pressure (IOP), plausibly through prostaglandin-mediated pathways that enhance aqueous humour outflow. Because Atosiban *blocks* this receptor, its net pharmacological effect on IOP is directionally uncertain and may in fact raise IOP rather than lower it — the opposite of what is therapeutically required in glaucoma management.
-
-Primary hereditary glaucoma arises from mutations in structural and regulatory genes (MYOC, OPTN, WDR36) that increase trabecular outflow resistance. There is no established pathogenic connection between these genetic drivers and the oxytocin–OXTR axis. The high TxGNN score most likely reflects shared gene co-expression patterns in ocular tissues captured by the graph neural network, rather than a validated therapeutic mechanism. The prediction should be interpreted with significant caution: **the pharmacological direction of Atosiban's action in glaucoma is plausibly counterproductive**.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(Systematic searches of ClinicalTrials.gov and the WHO ICTRP were conducted on 2026-03-10 for Atosiban across all predicted indications — primary hereditary glaucoma, open-angle glaucoma, alopecia, congenital hypotrichosis milia, and hypotrichosis simplex of the scalp — and returned zero results in all cases.)*
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Præterm arbejde (tokolitikum) |
+| Forudsagt ny indikation | Primær arvelig glaukom |
+| TxGNN forudsigelses score | 99,92 % |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsautoriteter | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i den aktuelle bevissamling. Baseret på etableret farmakologisk viden er Atosiban en konkurrerende antagonist på både oxytocin-receptorer (OXTR) og vasopressin V1a-receptorer. Dens etablerede kliniske rolle er inhibering af OXTR-medieret uterine glatte muskelkontraktioner til forsinkelse af præterm arbejde.
 
-*(PubMed searches conducted on 2026-03-10 for Atosiban across all five predicted indications returned zero publications.)*
+Den mekanistiske forbindelse, som TxGNN foreslår, hviler på kendt udtryk af OXTR i okulært væv – specifikt i det trabelkulære maskeværk og ciliarlegemet. Endogent oxytocin er blevet vist i nogle studier at sænke intraokulart tryk (IOP), plausibelt gennem prostaglandin-medierede veje, der forbedrer afstrømningen af kammervand. Fordi Atosiban *blokerer* denne receptor, er dets netto-farmakologiske effekt på IOP retningsusikker og kan faktisk øge IOP i stedet for at sænke det – det modsatte af hvad der er terapeutisk påkrævet i glaukombehandling.
 
----
-
-## Denmark Market Information
-
-Atosiban is not currently registered or marketed in Denmark according to the data available in this evidence pack. No marketing authorisations from the Danish Medicines Agency (Laegemiddelstyrelsen) or via the EMA centralised procedure are recorded.
-
-> **Note:** This dataset may be incomplete with respect to Danish/EMA registration status. Independent verification via the Laegemiddelstyrelsen product database and the EMA medicines portal is strongly recommended before drawing final conclusions about availability in Denmark.
+Primær arvelig glaukom opstår fra mutationer i strukturelle og regulatoriske gener (MYOC, OPTN, WDR36), der øger modstanden for trabelkulær afstrømning. Der er ingen etableret patogenetisk forbindelse mellem disse genetiske drivere og oxytocin-OXTR-aksen. Den høje TxGNN-score afspejler sandsynligvis delte co-ekspression mønstre af gener i okulært væv, som blev fanget af det grafneurale netværk, snarere end en valideret terapeutisk mekanisme. Forudsigelsen bør fortolkes med betydelig forsigtighed: **Atosibans farmakologiske virkningsretning i glaukom er plausibelt kontraproduktiv**.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Aktuelt ingen relaterede kliniske forsøg registreret.
 
-*(No drug interaction data, key warnings, or contraindication data were available in this evidence pack. Retrieval from the Danish Medicines Agency product registration and DrugBank is recommended as a priority remediation step before any further evaluation.)*
+*(Systematiske søgninger på ClinicalTrials.gov og WHO ICTRP blev gennemført den 2026-03-10 for Atosiban på tværs af alle forudsagte indikationer – primær arvelig glaukom, åbenvinkel glaukom, alopeci, medfødt hypotrichiasis milia og simpel hypotrichiasis på hovedbunden – og returnerede nul resultater i alle tilfælde.)*
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+Aktuelt ingen tilgængelig relateret litteratur.
 
-**Rationale:**
-All five predicted indications in this evidence pack rest exclusively on TxGNN model scores (L5 evidence), with zero supporting clinical trials or peer-reviewed publications identified. More critically, the leading predicted mechanism — OXTR blockade in ocular tissue — is pharmacologically counterproductive for glaucoma: Atosiban's antagonist action is likely to *oppose* the IOP-lowering effect of endogenous oxytocin, not to replicate it. This directional conflict disqualifies the primary prediction as a viable near-term repurposing candidate.
+*(PubMed-søgninger gennemført den 2026-03-10 for Atosiban på tværs af alle fem forudsagte indikationer returnerede nul publikationer.)*
 
-**To proceed, the following is needed:**
+---
 
-- **Regulatory verification:** Confirm Atosiban's current authorisation status in Denmark directly via the Laegemiddelstyrelsen product database and the EMA medicines portal, as the regulatory data in this pack appears incomplete
-- **MOA data retrieval:** Obtain full mechanism of action and pharmacodynamic data from DrugBank (DB09059) and the approved SmPC to enable proper mechanistic review
-- **Safety data retrieval:** Download and parse the full SmPC from the Danish/EMA labelling to identify contraindications, key warnings, and clinically relevant drug interactions
-- **Preclinical mechanistic studies:** Commission or identify studies directly measuring the effect of OXTR *antagonism* (not agonism) on intraocular pressure in animal or cell-culture glaucoma models before any clinical hypothesis can be formed
-- **Direction re-evaluation:** Consider whether an OXTR *agonist* (rather than Atosiban as an antagonist) would be a more pharmacologically coherent candidate for IOP reduction in glaucoma — a conceptually inverse repurposing direction
-- **Cluster review:** The five predicted indications group into two biological clusters (ocular/glaucoma and hair follicle/alopecia); both clusters share the same fundamental directional concern for an OXTR antagonist, and should be reviewed together in any subsequent mechanistic analysis
+## Danmarks markedsinformation
+
+Atosiban er ikke i øjeblikket registreret eller markedsført i Danmark ifølge de data, der er tilgængelige i denne bevissamling. Ingen markedsføringsautoriteter fra Lægemiddelstyrelsen eller via EMA-centraliseret procedure er registreret.
+
+> **Bemærk:** Dette datasæt kan være ufuldstændigt med hensyn til dansk/EMA-registreringsstatus. Uafhængig verifikation via Lægemiddelstyrelses produktdatabase og EMA-medicindatabasen anbefales stærkt, før der drages endelige konklusioner om tilgængelighed i Danmark.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktkarakteristika Resumé (SmPC) for sikkerhedsinformation.
+
+*(Ingen oplysninger om lægemiddelinteraktioner, vigtige advarsler eller kontraindikationer var tilgængelige i denne bevissamling. Hentning fra Lægemiddelstyrelses produktregistrering og DrugBank anbefales som et prioriteret afhjælpningstrin, før enhver yderligere evaluering.)*
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Alle fem forudsagte indikationer i denne bevissamling hviler udelukkende på TxGNN-modelscores (L5-beviser), uden at der er identificeret nul understøttende kliniske forsøg eller fagfællebedømte publikationer. Mere kritisk er den førende forudsagte mekanisme – OXTR-blokade i okulært væv – farmakologisk kontraproduktiv for glaukom: Atosibans antagonistvirkning vil sandsynligvis *modvirke* den IOP-sænkende virkning af endogent oxytocin, ikke gengive den. Denne retningskonflikt udelukker den primære forudsigelse som en levedygtig kandidat til kort-sigtsgenbrug.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Regulatorisk verifikation:** Bekræft Atosibans aktuelle autorisationsstatus i Danmark direkte via Lægemiddelstyrelses produktdatabase og EMA-medicindatabasen, da de regulatoriske data i denne pakke virker ufuldstændige
+- **MOA datahentning:** Hent fulde virkningsmekanisme og farmakodynamiske data fra DrugBank (DB09059) og det godkendte SmPC for at muliggøre korrekt mekanistisk gennemgang
+- **Sikkerhedsdatahentning:** Download og parse det fulde SmPC fra dansk/EMA-mærkning for at identificere kontraindikationer, vigtige advarsler og klinisk relevante lægemiddelinteraktioner
+- **Prækliniske mekanistiske studier:** Bestil eller identificer studier, der direkte måler effekten af OXTR *antagonisme* (ikke agonisme) på intraokulart tryk i dyremodel eller celle-kultur glaukommodeller, før nogen klinisk hypotese kan dannes
+- **Retnings-reevaluering:** Vurder, om en OXTR *agonist* (snarere end Atosiban som antagonist) ville være en mere farmakologisk sammenhængende kandidat til IOP-reduktion i glaukom – en begrebsmæssigt omvendt repurposing-retning
+- **Klynge gennemgang:** De fem forudsagte indikationer grupperer sig i to biologiske klynger (okulær/glaukom og hårfollikel/alopeci); begge klynger deler samme fundamentale retningskonflikt for en OXTR-antagonist og bør gennemgås sammen i enhver efterfølgende mekanistisk analyse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

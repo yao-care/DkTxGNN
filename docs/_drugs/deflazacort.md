@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Deflazacort: Drug Repurposing Evaluation – No TxGNN Predictions Available
+# Deflazacort: Vurdering af lægemiddelrepurposing – Ingen TxGNN-forudsigelser tilgængelige
 
 ---
 
-## One-Sentence Summary
+## Ét-sætnings-resumé
 
-Deflazacort (DrugBank ID: DB11921) is an oxazoline-derived glucocorticoid approved in the United States for Duchenne Muscular Dystrophy (DMD) and used in several countries for a range of inflammatory and immune-mediated conditions.
-This evidence pack contains **no TxGNN-predicted new indications** for this drug, and critical data gaps — including mechanism of action details and Danish regulatory safety information — prevent a full repurposing assessment at this stage.
-A **Hold** decision is recommended until the missing data is obtained and TxGNN predictions are generated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No approved indications recorded in this evidence pack (drug not registered in Denmark; US indication: Duchenne Muscular Dystrophy) |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 – No predictions or supporting studies returned by this pipeline run |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Deflazacort (DrugBank ID: DB11921) er en oxazolin-afledt glukokortikoid godkendt i USA til Duchenne Muskeldystrofi (DMD) og bruges i flere lande til en række inflammatoriske og immunvermittede tilstande.
+Denne evidenspakke indeholder **ingen TxGNN-forudsagte nye indikationer** for dette lægemiddel, og kritiske datahuller — herunder detaljer om virkningsmekanisme og dansk regulatorisk sikkerhedsinformation — forhindrer en fuldstændig vurdering af repurposing på dette stadium.
+En **Hold**-beslutning anbefales, indtil de manglende data er indsamlet, og TxGNN-forudsigelser er genereret.
 
 ---
 
-## Why No Predictions Are Available
+## Hurtigt overblik
 
-The TxGNN prediction pipeline returned an empty candidates list (`predicted_indications: []`) for this drug. This is an atypical outcome that may arise from one or more of the following:
-
-1. **Knowledge graph coverage**: DrugBank ID DB11921 may not yet be linked to the disease nodes in the TxGNN knowledge graph, resulting in no scored drug–disease pairs being output.
-2. **Score threshold filtering**: Prediction scores for all candidate indications may have fallen below the confidence threshold applied during post-processing.
-3. **Pipeline status**: The prediction run may have been incomplete at the time this evidence pack was generated (data cut-off: 2026-04-05).
-
-Because no mechanistic data (MOA) was retrieved — marked as a **High-severity** data gap — a narrative explanation of why a predicted indication might be pharmacologically reasonable cannot be provided at this stage.
-
----
-
-## Denmark Market Information
-
-Deflazacort currently holds **no marketing authorisations** in Denmark (Laegemiddelstyrelsen) and is not listed as a marketed product. There are no national or EMA centralised authorisation records in this evidence pack.
-
-> **Note for reviewers:** Deflazacort is commercially available in other jurisdictions under the brand name **Emflaza** (US-FDA approved, 2017, for DMD in patients aged ≥ 5 years). An EMA/centralised marketing authorisation search should be conducted to confirm whether any pan-European status exists.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ingen godkendte indikationer registreret i denne evidenspakke (lægemiddel ikke registreret i Danmark; USA-indikation: Duchenne Muskeldystrofi) |
+| Forudsagt ny indikation | Ingen forudsigelser genereret |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Evidensniveau | L5 – Ingen forudsigelser eller understøttende studier returneret af denne pipeline-kørsel |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Hold** |
 
 ---
 
-## Safety Considerations
+## Hvorfor der ikke er forudsigelser tilgængelige
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information. No local safety data could be extracted from this evidence pack due to the following blocking data gaps:
+TxGNN-forudsigelsespipelinen returnerede en tom kandidatliste (`predicted_indications: []`) for dette lægemiddel. Dette er et atypisk resultat, der kan opstå fra en eller flere af følgende årsager:
 
-| Data Gap ID | Item | Severity | Impact |
-|-------------|------|----------|--------|
-| DG001 | SmPC warnings and contraindications | **Blocking** | Cannot complete S1 safety pre-screening |
-| DG002 | Mechanism of action (MOA) | **High** | Cannot perform mechanistic relevance analysis |
+1. **Videnskabsgrafdækning**: DrugBank ID DB11921 kan endnu ikke være linket til sygdomsknuderne i TxGNN-vidensgrafen, hvilket resulterer i, at ingen scorede lægemiddel-sygdomspar udsendes.
+2. **Scoretrærfiltrering**: Forudsigelsesscores for alle kandidatindikationer kan være faldet under det konfidensinterval, der blev anvendt under efterbehandling.
+3. **Pipelinestatus**: Forudsigelseskørslen kan have været ufuldstændig på det tidspunkt, hvor denne evidenspakke blev genereret (dataskæringsdato: 2026-04-05).
 
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-This evaluation cannot advance to the repurposing assessment stage because the TxGNN model returned no predicted indications for Deflazacort, and two unresolved data gaps prevent both safety screening and mechanistic analysis. Proceeding without these inputs would not meet the minimum evidence threshold for a meaningful repurposing recommendation.
-
-**To proceed, the following is needed:**
-
-- **Re-run TxGNN prediction pipeline** for DrugBank ID DB11921 and verify that the drug node is correctly represented in the knowledge graph (confirm node presence in `data/node.csv`)
-- **Obtain MOA data** via DrugBank API query for DB11921 (Data Gap DG002 – High severity)
-- **Download and parse the SmPC / product monograph** to extract approved warnings, contraindications, and drug interactions (Data Gap DG001 – Blocking severity); source: EMA product page or US FDA label for Emflaza
-- **Confirm EMA/centralised authorisation status** to determine whether Deflazacort holds any EU-wide marketing authorisation that may be applicable in Denmark
-- **Review Danish special access pathways** (e.g., named-patient or compassionate use) given that Deflazacort is approved in the US for a rare disease (DMD) with unmet need
+Fordi der ikke blev hentet mekanistiske data (MOA) — markeret som en **høj-alvorlig** datakløft — kan en narrativ forklaring på, hvorfor en forudsagt indikation kan være farmakologisk rimelig, ikke gives på dette stadium.
 
 ---
 
-> *This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+## Danmarks markedsinformation
+
+Deflazacort har i øjeblikket **ingen markedsføringstilladelser** i Danmark (Lægemiddelstyrelsen) og er ikke anført som et markedsført produkt. Der er ingen nationale eller EMA-centraliserede autorisationsregistre i denne evidenspakke.
+
+> **Bemærkning til revisorer:** Deflazacort er kommercielt tilgængeligt i andre jurisdiktioner under mærkenavnet **Emflaza** (USA-FDA godkendt, 2017, til DMD hos patienter i alderen ≥ 5 år). Et EMA/centraliseret markedsføringsgodkendelsessøg bør udføres for at bekræfte, hvorvidt der eksisterer en paneuropæisk status.
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Venligst se det godkendte produktresumé (SmPC) for fuld sikkerhedsinformation. Ingen lokale sikkerhedsdata kunne ekstraheres fra denne evidenspakke på grund af følgende blokerende datahuller:
+
+| Datakløft-ID | Punkt | Alvorlighed | Påvirkning |
+|--------------|-------|-------------|-----------|
+| DG001 | SmPC-advarsler og kontraindikationer | **Blokerende** | Kan ikke fuldføre S1 sikkerhedsforkontrol |
+| DG002 | Virkningsmekanisme (MOA) | **Høj** | Kan ikke udføre mekanistisk relevansanalyse |
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Denne vurdering kan ikke rykke frem til vurderingsstadiet for repurposing, fordi TxGNN-modellen returnerede ingen forudsagte indikationer for Deflazacort, og to uløste datahuller forhindrer både sikkerhedskontrol og mekanistisk analyse. At fortsætte uden disse input ville ikke opfylde minimumsevidentærsklen for en meningsfuld repurposing-anbefaling.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Kør TxGNN-forudsigelsespipelinen igen** for DrugBank ID DB11921 og bekræft, at lægemiddelknuden er korrekt repræsenteret i vidensgrafen (bekræft nodeposition i `data/node.csv`)
+- **Indhent MOA-data** via DrugBank API-forespørgsel for DB11921 (Datakløft DG002 – Høj alvorlighed)
+- **Download og parse SmPC / produktmonografi** for at ekstrahere godkendte advarsler, kontraindikationer og lægemiddelinteraktioner (Datakløft DG001 – Blokerende alvorlighed); kilde: EMA-produktside eller USA FDA-label for Emflaza
+- **Bekræft EMA/centraliseret autorisationsstatus** for at bestemme, hvorvidt Deflazacort har nogle EU-brede markedsføringstilladelser, der kan være relevante i Danmark
+- **Gennemgå danske særlige adgangsformer** (f.eks. navngivet patient eller barmhjertighedsbrug) i betragtning af, at Deflazacort er godkendt i USA til en sjælden sygdom (DMD) med uopfyldt behov
+
+---
+
+> *Denne rapport er genereret til forskningsreferencebrug alene og udgør ikke medicinsk rådgivning. Alle lægemiddelrepurposing-kandidater kræver klinisk validering før enhver terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

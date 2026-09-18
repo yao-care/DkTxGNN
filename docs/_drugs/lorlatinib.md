@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lorlatinib: From ALK-Positive NSCLC to Gingival Fibromatosis
+# Lorlatinib: Fra ALK-positiv NSCLC til Gingival Fibromatose
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Lorlatinib is a third-generation ALK/ROS1 tyrosine kinase inhibitor (TKI), originally developed for ALK-positive (and ROS1-positive) advanced non-small cell lung cancer (NSCLC). The TxGNN model's top-ranked prediction for this drug is **Gingival Fibromatosis**, but currently **no clinical trials** and **no publications** support this specific prediction — it is a pure computational signal (TxGNN score 99.81%) with no mechanistic corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | ALK-positive advanced Non-Small Cell Lung Cancer (NSCLC) — inferred from the evidence pack's rationale text; not confirmed via a formal Danish regulatory record in this pack |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Lorlatinib er en tredje generations ALK/ROS1 tyrosinkinase-hæmmer (TKI), oprindeligt udviklet til ALK-positive (og ROS1-positive) avanceret ikke-småcellet lungekræft (NSCLC). TxGNN-modellens højest rangerede forudsigelse for dette lægemiddel er **Gingival Fibromatose**, men i øjeblikket **ingen kliniske forsøg** og **ingen publikationer** støtter denne specifikke forudsigelse — det er et rent beregningsmæssigt signal (TxGNN score 99.81%) uden mekanistisk bekræftelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in structured form (data gap). Based on the rationale embedded in this evidence pack, Lorlatinib is known to act as an ALK/ROS1 tyrosine kinase inhibitor, and its efficacy in ALK-positive NSCLC is well established.
-
-For this top-ranked prediction, however, the pack's own analysis directly undermines the mechanistic case: gingival fibromatosis is pathologically driven by SOS1 gene mutations or connective-tissue fibrosis pathways, which have no known link to ALK/ROS1 signalling. TxGNN assigned a very high similarity score (99.81%), but there is no biological or clinical rationale connecting Lorlatinib's known pharmacology to this indication — this is a network-embedding artifact rather than a substantiated repurposing signal.
-
-For transparency: this evidence pack also contains other candidate indications for Lorlatinib (lung hilum carcinoma, lung benign neoplasm) that carry actual literature. Those, too, warrant caution — lung hilum carcinoma is supported by only a single case report, and the 20 publications attached to "lung benign neoplasm" are, per the pack's own annotation, entirely about malignant ALK-positive NSCLC (Lorlatinib's already-approved indication), suggesting a disease-ontology mapping error in TxGNN rather than a genuine new-indication signal. None of this literature applies to the gingival fibromatosis prediction discussed here.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | ALK-positive avanceret ikke-småcellet lungekræft (NSCLC) — udledt fra evidenspakkens rationale tekst; ikke bekræftet via en formelt dansk regulatorisk registrering i denne pakke |
+| Forudsagt ny indikation | Gingival Fibromatose |
+| TxGNN-prognosescore | 99.81% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen klinisk eller litteraturstøtte) |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i struktureret form (datakløft). Baseret på rationalet indlejret i denne evidenspakke er Lorlatinib kendt for at virke som en ALK/ROS1 tyrosinkinase-hæmmer, og dets effektivitet ved ALK-positiv NSCLC er velbelyst.
 
----
+For denne højest rangerede forudsigelse underminerer pakkens egen analyse imidlertid direkte den mekanistiske argumentation: gingival fibromatose er patologisk drevet af SOS1-genmutationer eller bindevævsfibroseveje, som ikke har nogen kendt forbindelse til ALK/ROS1-signalering. TxGNN tildelte en meget høj lighedsscore (99.81%), men der er ingen biologisk eller klinisk begrundelse for at forbinde Lorlatinibs kendt farmakologi til denne indikation — dette er en network-embedding artefakt snarere end et underbygget genanvendelsesenal.
 
-## Denmark Market Information
-
-Lorlatinib currently holds no marketing authorisation in Denmark (0 licenses on record); market status is "not marketed."
+For transparence: denne evidenspakke indeholder også andre kandidatindikationer for Lorlatinib (lungekarcinoma ved hilum, godartede lungesvulster), som har faktisk litteratur. Disse berettiger også til forsigtighed — lungekarcinoma ved hilum understøttes kun af en enkelt kasuistik, og de 20 publikationer knyttet til "godartede lungesvulster" handler, ifølge pakkens egen annotation, udelukkende om maligne ALK-positive NSCLC (Lorlatinibs allerede godkendt indikation), hvilket tyder på en sygdomsontologi-kortlægningsfejl i TxGNN snarere end et ægte nyt indikationsenal. Ingen af denne litteratur gælder for gingival fibromatose-forudsigelsen diskuteret her.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske forsøg
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | As an oral antineoplastic agent, handle per institutional hazardous-drug precautions; refer to SmPC for specific handling instructions |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (No structured key warnings, contraindications, or drug-drug interaction data were retrievable for this evidence pack; local label warnings are flagged as a Blocking data gap.)
+I øjeblikket ingen tilgængelig relateret litteratur.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Lorlatinib har i øjeblikket ingen markedsføringstilladelse i Danmark (0 licenser registreret); markedsstatus er "ikke markedsført."
 
-**Rationale:**
-The top-ranked prediction (gingival fibromatosis) has no clinical trial or literature support and, per the pack's own mechanistic analysis, no plausible biological link to Lorlatinib's ALK/ROS1 pharmacology — this is an L5, model-only signal.
+---
 
-**To proceed, the following is needed:**
-- Danish/local label warnings and contraindications (currently a Blocking data gap)
-- Formal DrugBank mechanism-of-action data (currently a High-severity data gap)
-- Preclinical or mechanistic evidence directly linking ALK/ROS1 inhibition to gingival fibromatosis pathology before this candidate can advance past S0
-- Resolution of the apparent TxGNN disease-ontology mapping error affecting the "lung benign neoplasm" candidate in this same pack, before that candidate is separately evaluated
+## Cytotoxicitet
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitetsklassificering | Målrettet terapi (ALK/ROS1 tyrosinkinase-hæmmer) |
+| Risiko for knoglemarvsundertrykkelse | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
+| Emetogenitetsklassificering | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
+| Overvågningselementer | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Som oralt cytostatikum håndteles efter institutionelle forholdsregler for farlige lægemidler; se SmPC for specifikke håndteringsinstruktioner |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger. (Ingen strukturerede vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata kunne hentes for denne evidenspakke; lokale etiketadvarsler er markeret som et blokeringsdatakløft.)
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Den højest rangerede forudsigelse (gingival fibromatose) har ingen klinisk forsøg eller litteraturstøtte og har, ifølge pakkens egen mekanistiske analyse, ingen plausibel biologisk forbindelse til Lorlatinibs ALK/ROS1-farmakologi — dette er et L5-signal, udelukkende fra modellen.
+
+**For at gå videre er følgende nødvendigt:**
+- Danske/lokale etiketadvarsler og kontraindikationer (i øjeblikket et blokeringsdatakløft)
+- Formelle DrugBank-data for virkningsmekanisme (i øjeblikket et datakløft med høj alvorlighed)
+- Præklinisk eller mekanistisk evidens, som direkte forbinder ALK/ROS1-inhibering til gingival fibromatose-patologi, før denne kandidat kan avancere forbi S0
+- Løsning af den tilsyneladende TxGNN-sygdomsontologi-kortlægningsfejl, der påvirker "godartede lungesvulster"-kandidaten i samme pakke, før den kandidat bliver særskilt evalueret
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

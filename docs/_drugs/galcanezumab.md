@@ -29,101 +29,102 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Galcanezumab: From Migraine Prevention to Heparin Cofactor 2 Deficiency
+# Galcanezumab: Fra Migræneprofylakse til Heparinkoagulationsfaktor 2-Mangel
 
-## One-Sentence Summary
+## Enlinjesammenfatning
 
-Galcanezumab (Emgality®) is a humanised anti-CGRP monoclonal antibody approved internationally for the prevention of episodic and chronic migraine and for episodic cluster headache, but not currently registered in Denmark.
-The TxGNN model's highest-ranked prediction is **Heparin Cofactor 2 Deficiency** (score 99.50%), for which there is **no supporting clinical or literature evidence** (L5); the prediction is assessed as a likely knowledge graph artefact.
-The most clinically plausible prediction in this Evidence Pack is **Migraine with Brainstem Aura** (rank 9, score 98.33%), supported by **20 publications** including Phase 3 RCT data, and rated **L2 evidence**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Migraine prevention — episodic and chronic migraine; episodic cluster headache (international approval; not registered in Denmark) |
-| Predicted New Indication | Heparin Cofactor 2 Deficiency |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Galcanezumab (Emgality®) er et humaniseret anti-CGRP monoklonalantilegeme godkendt internationalt til profylakse af episodisk og kronisk migræne og episodisk klyngehovedpine, men er ikke i øjeblikket registreret i Danmark.
+TxGNN-modellens højest rangerede prognose er **Heparinkoagulationsfaktor 2-mangel** (score 99,50%), for hvilken der **ikke er nogen understøttende klinisk eller litteraturbevis** (L5); prognosen vurderes som et sandsynligt kendskabsgrafisk artefakt.
+Den mest klinisk plausible prognose i denne Evidence Pack er **Migræne med hjernestammeaura** (rangering 9, score 98,33%), understøttet af **20 publikationer** herunder Phase 3 RCT-data, og vurderet som **L2-bevis**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt Overblik
 
-**Regarding Heparin Cofactor 2 Deficiency (Rank 1):** Detailed MOA data from DrugBank are not yet available for this report. Based on the published literature, galcanezumab is a humanised IgG4 monoclonal antibody that specifically binds and neutralises the CGRP (calcitonin gene-related peptide) ligand, blocking its interaction with the CGRP receptor. This prevents trigeminovascular activation and neurogenic vasodilation — the key events underlying migraine attacks.
-
-Heparin cofactor 2 (HCII) deficiency is a rare coagulation disorder. HCII is a serpin-family protease inhibitor that inactivates thrombin in the presence of dermatan sulphate or heparin; its deficiency predisposes patients to thrombotic events. The pathophysiology is fundamentally distinct from CGRP-mediated neuroinflammation. While CGRP has minor peripheral vascular effects that could theoretically influence the haemostatic microenvironment, no published evidence links CGRP blockade to HCII activity or the broader coagulation cascade. The TxGNN repurposing rationale embedded in this Evidence Pack explicitly notes that the high prediction score likely reflects knowledge graph topology effects — such as shared comorbidity nodes or phenotypic proximity between rare coagulation disorders and neurological drug targets — rather than direct biological relevance.
-
-**Note on prediction clustering:** All of ranks 1–8 (4 unique diseases, each appearing twice in the output) are coagulation-related disorders: heparin cofactor 2 deficiency, antithrombin deficiency type 2, factor V excess with spontaneous thrombosis, and thrombophilia — all rated L5 with "Hold" recommendations. This clustering strongly suggests a systematic knowledge graph effect. **Migraine with Brainstem Aura** (ranks 9–10, L2, 20 supporting publications) is the most clinically credible prediction in this pack and is addressed in the sections below.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for heparin cofactor 2 deficiency.
-
-There are also no registered clinical trials specifically evaluating galcanezumab in migraine with brainstem aura. Patients with this subtype have historically been excluded from pivotal migraine trials due to vascular safety concerns, creating a direct evidence gap despite strong mechanistic plausibility.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig Indikation | Migræneprofylakse — episodisk og kronisk migræne; episodisk klyngehovedpine (international godkendelse; ikke registreret i Danmark) |
+| Prognosticeret Ny Indikation | Heparinkoagulationsfaktor 2-mangel |
+| TxGNN-prognosescore | 99,50% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose rimelig?
 
-The following 10 publications are relevant to the most clinically plausible prediction in this Evidence Pack: **Migraine with Brainstem Aura** (rank 9/10, TxGNN score 98.33%). These studies involve galcanezumab or the anti-CGRP drug class in migraine and related aura subtypes, ordered by study tier.
+**Vedrørende Heparinkoagulationsfaktor 2-mangel (Rangering 1):** Detaljerede MOA-data fra DrugBank er endnu ikke tilgængelige for denne rapport. Baseret på den offentliggjorte litteratur er galcanezumab et humaniseret IgG4 monoklonalantilegeme, der specifikt binder og neutraliserer CGRP-liganden (calcitonin gene-related peptide) og blokerer dets interaktion med CGRP-receptoren. Dette forhindrer trigeminovaskulær aktivering og neurogen vasodilatation — de vigtigste begivenheder bag migræneangreb.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [29813147](https://pubmed.ncbi.nlm.nih.gov/29813147/) | 2018 | Phase 3 RCT | JAMA Neurology | EVOLVE-1: galcanezumab significantly reduced monthly migraine headache days vs placebo in episodic migraine over 6 months |
-| [33549036](https://pubmed.ncbi.nlm.nih.gov/33549036/) | 2021 | Phase 3 Pooled Analysis | J Headache Pain | Pooled EVOLVE-1, EVOLVE-2, REGAIN: galcanezumab reduced migraine severity, nausea, photophobia, phonophobia, and aura-associated symptoms |
-| [36927366](https://pubmed.ncbi.nlm.nih.gov/36927366/) | 2023 | Phase 3 Secondary Analysis | J Headache Pain | Galcanezumab reduced headache occurrence after trigger exposure and aura episodes; responder/super-responder analysis |
-| [36266558](https://pubmed.ncbi.nlm.nih.gov/36266558/) | 2023 | Phase 2 RCT Subgroup | Neurology and Therapy | Galcanezumab reduced migraine severity and aura-associated symptoms in Japanese patients |
-| [32504377](https://pubmed.ncbi.nlm.nih.gov/32504377/) | 2020 | Systematic Review | Drugs | Comprehensive review of galcanezumab efficacy in episodic/chronic migraine and episodic cluster headache |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case Reports & Review | J Clinical Medicine | Anti-CGRP mAbs (including galcanezumab) may reduce migraine aura frequency; limited but encouraging case evidence |
-| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Quantitative Patient Analysis | J Headache Pain | Anti-CGRP mAbs effective and safe in hemiplegic migraine (migraine with motor aura) — closely related aura subtype |
-| [37366160](https://pubmed.ncbi.nlm.nih.gov/37366160/) | 2023 | Case Series | Headache | Anti-CGRP mAbs including galcanezumab showed efficacy in hemiplegic migraine at a tertiary headache centre |
-| [39345003](https://pubmed.ncbi.nlm.nih.gov/39345003/) | 2025 | Case Series | Headache | Galcanezumab effective in PRRT2-associated familial hemiplegic migraine — extends evidence to genetic migraine-with-aura subtypes |
-| [39365416](https://pubmed.ncbi.nlm.nih.gov/39365416/) | 2024 | Case Report | Pain and Therapy | Cerebral artery vasoconstriction (RCVS-like event) following galcanezumab loading dose — key safety signal relevant to brainstem aura |
+Heparinkoagulationsfaktor 2 (HCII)-mangel er en sjælden koagulationsforstyrelse. HCII er en serpin-familie proteaseinhhibitor, der inaktiverer thrombin i nærvær af dermatansulfat eller heparin; dens mangel disponerer patienterne til trombotiske begivenheder. Patofysiologien er fundamentalt forskellig fra CGRP-medieret neuroinflammation. Selvom CGRP har mindre perifere vaskulære virkninger, der teoretisk kunne påvirke det hæmostatiske mikromiljø, er der ingen offentliggjort bevis for, at CGRP-blokade påvirker HCII-aktivitet eller den bredere koagulationskaskade. Det TxGNN-repurposing-argument, der er indlejret i denne Evidence Pack, præciserer eksplicit, at den høje prognosescore sandsynligvis afspejler kendskabsgrafiske topologieffekter — såsom delte komorbiditetsnoder eller fænotypisk nærhed mellem sjældne koagulationsforstyrrelser og neurologiske lægemiddelmål — snarere end direkte biologisk relevans.
+
+**Bemærkning om prognose-clustering:** Alle rangeringer 1–8 (4 unikke sygdomme, hver med to gange i outputtet) er koagulationsrelaterede forstyrrelser: heparinkoagulationsfaktor 2-mangel, antitrombin-mangel type 2, faktor V-overskud med spontan trombose og trombofili — alle vurderet som L5 med "Afvent"-anbefalinger. Denne clustering antyder kraftigt en systematisk kendskabsgrafisk effekt. **Migræne med hjernestammeaura** (rangeringer 9–10, L2, 20 understøttende publikationer) er den mest klinisk troværdig prognose i denne pakke og omtales i afsnittene nedenfor.
 
 ---
 
-## Denmark Market Information
+## Klinisk Forsøgbevis
 
-Galcanezumab is not registered in Denmark and holds no marketing authorisations from Lægemiddelstyrelsen. The drug is marketed as **Emgality®** by Eli Lilly, and holds a centralised EMA marketing authorisation for the preventive treatment of migraine in adults. Denmark does not currently have active national supply or reimbursement listing. Any clinical use in Danish patients would require an individual compassionate use or named patient import application (*enkeltindførselsordningen*).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for heparinkoagulationsfaktor 2-mangel.
 
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
-
-**Key safety signal from literature:** One case report (PMID 39365416) describes cerebral artery vasoconstriction following galcanezumab loading dose, consistent with reversible cerebral vasoconstriction syndrome (RCVS). This is particularly relevant for potential use in migraine with brainstem aura, given the shared cerebrovascular involvement. Vascular monitoring — including cerebrovascular assessment — should be considered in this patient population before and during treatment.
+Der er også ingen registrerede kliniske forsøg, der specifikt evaluerer galcanezumab ved migræne med hjernestammeaura. Patienter med denne subtype er historisk blevet udelukket fra pivotal migræne-forsøg på grund af vaskulære sikkerhedsbekymringer, hvilket skaber et direkte bevisgab på trods af stærk mekanistisk plausibilitet.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+De følgende 10 publikationer er relevante for den mest klinisk plausible prognose i denne Evidence Pack: **Migræne med hjernestammeaura** (rangering 9/10, TxGNN-score 98,33%). Disse undersøgelser omfatter galcanezumab eller anti-CGRP-lægemiddelklassen i migræne og relaterede aura-subtyper, ordnet efter undersøgelseslag.
 
-**Rationale:**
-The top TxGNN prediction — heparin cofactor 2 deficiency — has no mechanistic basis, no registered clinical trials, and no published literature support. Together with antithrombin deficiency type 2, factor V excess with spontaneous thrombosis, and thrombophilia (ranks 1–8), this cluster is assessed as a knowledge graph artefact rather than a genuine repurposing opportunity. A "Hold" decision is warranted until a biologically plausible hypothesis can be established and tested.
+| PMID | År | Type | Tidsskrift | Vigtige Resultater |
+|------|-----|------|-----------|-------------------|
+| [29813147](https://pubmed.ncbi.nlm.nih.gov/29813147/) | 2018 | Phase 3 RCT | JAMA Neurology | EVOLVE-1: galcanezumab reducerede månedlige migrænehovedpinedage signifikant versus placebo ved episodisk migræne over 6 måneder |
+| [33549036](https://pubmed.ncbi.nlm.nih.gov/33549036/) | 2021 | Phase 3 Poolet Analyse | J Headache Pain | Poolet EVOLVE-1, EVOLVE-2, REGAIN: galcanezumab reducerede migrænesværhed, kvalme, fotofobia, fonofobia og aurabetingede symptomer |
+| [36927366](https://pubmed.ncbi.nlm.nih.gov/36927366/) | 2023 | Phase 3 Sekundær Analyse | J Headache Pain | Galcanezumab reducerede hovedpineforekomst efter triggereksponeringog auraepisoder; responder/super-responder-analyse |
+| [36266558](https://pubmed.ncbi.nlm.nih.gov/36266558/) | 2023 | Phase 2 RCT Subgruppe | Neurology and Therapy | Galcanezumab reducerede migrænesværhed og aurarelaterede symptomer hos japanske patienter |
+| [32504377](https://pubmed.ncbi.nlm.nih.gov/32504377/) | 2020 | Systematisk Oversigt | Drugs | Omfattende oversigt over galcanezumabs virkning ved episodisk/kronisk migræne og episodisk klyngehovedpine |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Kasuistikker og Oversigt | J Clinical Medicine | Anti-CGRP mAbs (herunder galcanezumab) kan reducere aurafrekvens; begrænset men opmuntrende kasuistikbevis |
+| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Kvantitativ Patientanalyse | J Headache Pain | Anti-CGRP mAbs effektive og sikre ved hemiplegisk migræne (migræne med motorisk aura) — tæt relateret aura-subtype |
+| [37366160](https://pubmed.ncbi.nlm.nih.gov/37366160/) | 2023 | Kasuistikserie | Headache | Anti-CGRP mAbs herunder galcanezumab viste virkning ved hemiplegisk migræne på et tertiært hovedpinecenter |
+| [39345003](https://pubmed.ncbi.nlm.nih.gov/39345003/) | 2025 | Kasuistikserie | Headache | Galcanezumab effektiv ved PRRT2-associeret familial hemiplegisk migræne — udvidelse af bevis til genetiske migræne-med-aura-subtyper |
+| [39365416](https://pubmed.ncbi.nlm.nih.gov/39365416/) | 2024 | Kasuistik | Pain and Therapy | Cerebral arterievasokonstriktion (RCVS-lignende begivenhed) efter galcanezumab-belastningsdosis — vigtig sikkerhedssignal relevant for hjernestammeaura |
 
 ---
 
-**Separate consideration: Migraine with Brainstem Aura (Rank 9, Score 98.33%, L2 — "Research Question")**
+## Markedsinformation for Danmark
 
-This prediction is mechanistically well-grounded (galcanezumab's CGRP blockade is directly applicable to brainstem-aura pathophysiology), supported by 20 publications and multiple Phase 3 analyses in related migraine populations, and constitutes a clinically credible research question. The evidence gap arises specifically from the historical exclusion of this subtype from pivotal trials.
+Galcanezumab er ikke registreret i Danmark og har ingen markedsføringstilladelser fra Lægemiddelstyrelsen. Lægemidlet markedsføres som **Emgality®** af Eli Lilly og har en centraliseret EMA markedsføringstilladelse til profylaktisk behandling af migræne hos voksne. Danmark har i øjeblikket ingen aktiv national forsyning eller refusionsliste. Enhver klinisk brug hos danske patienter ville kræve en individuel ansøgning om mildhed eller navngivet patientimport (*enkeltindførselsordningen*).
 
-**To progress the migraine with brainstem aura indication, the following is needed:**
+---
 
-- Full SmPC review for Emgality® to identify contraindications specific to patients with brainstem aura symptoms
-- Subgroup analysis or meta-analysis of existing Phase 3 RCT data (EVOLVE-1/EVOLVE-2) stratified by aura subtype
-- Prospective observational cohort or registry study specifically enrolling patients diagnosed with migraine with brainstem aura (IHS classification 1.2.2)
-- Cerebrovascular risk assessment and monitoring protocol, including vigilance for RCVS
-- Named patient import or EMA centralised authorisation pathway for Denmark, should evidence support clinical use
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte resumé af produktkarakteristikas SmPC for fuldstændig sikkerhedsinformation.
+
+**Vigtig sikkerhedssignal fra litteratur:** En kasuistik (PMID 39365416) beskriver cerebral arterievasokonstriktion efter galcanezumab-belastningsdosis, i overensstemmelse med reversibelt cerebralt vasokonstriktionssyndrom (RCVS). Dette er særlig relevant for potentiel brug ved migræne med hjernestammeaura, givet den delte cerebrovaskulær indsats. Vaskulær overvågning — herunder cerebrovaskulær vurdering — bør overvejes i denne patientpopulation før og under behandling.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Den øverste TxGNN-prognose — heparinkoagulationsfaktor 2-mangel — har ingen mekanistisk basis, ingen registrerede kliniske forsøg og intet offentliggjort litteraturbevis. Sammen med antitrombin-mangel type 2, faktor V-overskud med spontan trombose og trombofili (rangeringer 1–8) vurderes denne cluster som et kendskabsgrafisk artefakt snarere end en ægte repurposing-mulighed. En "Afvent"-beslutning er berettiget, indtil en biologisk plausibel hypotese kan etableres og testes.
+
+---
+
+**Separat overvejelse: Migræne med hjernestammeaura (Rangering 9, Score 98,33%, L2 — "Forskersspørgsmål")**
+
+Denne prognose er mekanistisk velunderstøttet (galcanezumabs CGRP-blokade er direkte anvendelig for hjernestammeaura-patofysiologi), understøttet af 20 publikationer og flere Phase 3-analyser i relaterede migræne-populationer, og udgør et klinisk troværdigt forskersspørgsmål. Bevisgabet opstår specifikt fra den historiske udelukkelse af denne subtype fra pivotal-forsøg.
+
+**For at fremme indikationen migræne med hjernestammeaura, er følgende nødvendig:**
+
+- Fuldstændig SmPC-gennemgang for Emgality® til at identificere kontraindikationer specifikke for patienter med hjernestammeaura-symptomer
+- Subgruppeanalyse eller metaanalyse af eksisterende Phase 3 RCT-data (EVOLVE-1/EVOLVE-2) stratificeret efter aura-subtype
+- Prospektivt observationelt kohort- eller registerstudie, der specifikt omfatter patienter diagnosticeret med migræne med hjernestammeaura (IHS-klassifikation 1.2.2)
+- Cerebrovaskulær risikovurdering og overvågningsprotokol, herunder årvågenhed over for RCVS
+- Navngivet patientimport eller EMA centraliseret autorisationssti for Danmark, hvis bevis understøtter klinisk brug
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,120 +29,121 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Canakinumab: From Autoinflammatory Periodic Fever Syndromes to Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome
+# Canakinumab: Fra autoinflammatoriske periodiske febersyndrome til Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Canakinumab (Ilaris) is a fully human anti-IL-1β monoclonal antibody approved by FDA and EMA for cryopyrin-associated periodic syndromes (CAPS), familial Mediterranean fever (FMF), HIDS/MKD, and TRAPS — but currently not registered in Denmark.
-The TxGNN model identifies **Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome** as the highest-evidence predicted new indication, supported by a strong mechanistic alignment with the drug's established IL-1β inhibition pathway.
-This prediction is supported by **0 registered clinical trials** specific to this exact syndrome but **19 publications** across the broader IL-1β-driven periodic fever disease spectrum, yielding an overall evidence level of **L2**.
+Canakinumab (Ilaris) er et fuldt humant monoklonalt antistof mod IL-1β, godkendt af FDA og EMA til kryopyrin-associerede periodiske syndromer (CAPS), familiemediterran feber (FMF), HIDS/MKD og TRAPS — men er i øjeblikket ikke registreret i Danmark.
+TxGNN-modellen identificerer **Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome** som den højest-evidensbaserede forudsagt nye indikation, understøttet af en stærk mekanistisk overensstemmelse med lægemidlets etablerede IL-1β-inhibitionsvej.
+Denne forudsigelse understøttes af **0 registrerede kliniske forsøg** specifikt for dette præcise syndrom, men af **19 publikationer** på tværs af det bredere IL-1β-drevne periodiske febersygdomsspektrum, hvilket giver et samlet evidensniveau på **L2**.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Autoinflammatory periodic fever syndromes (CAPS, FMF, HIDS/MKD, TRAPS, SJIA) — globally approved via EMA/FDA, not registered in Denmark |
-| Predicted New Indication | Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Autoinflammatoriske periodiske febersyndrome (CAPS, FMF, HIDS/MKD, TRAPS, SJIA) — globalt godkendt via EMA/FDA, ikke registreret i Danmark |
+| Forudsagt ny indikation | Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome |
+| TxGNN-forudsigelsesscore | 99.57% |
+| Evidensniveau | L2 |
+| Danske markeds status | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Canakinumab is a fully human IgG1/κ monoclonal antibody that selectively and potently neutralises interleukin-1β (IL-1β). By binding free IL-1β with picomolar affinity, it prevents engagement with the IL-1 receptor complex, thereby blocking downstream NF-κB activation, prostaglandin release, and acute-phase protein induction. All of Canakinumab's currently approved indications share a single common pathological driver: constitutive or stimulus-triggered overactivation of the NLRP3 (or related) inflammasome, leading to excessive IL-1β cleavage and systemic autoinflammation manifesting as recurrent fever, serositis, or mucosal inflammation.
+Canakinumab er et fuldt humant IgG1/κ monoklonalt antistof, der selektivt og potent neutraliserer interleukin-1β (IL-1β). Ved at binde frit IL-1β med picomolar affinitet, forhindrer det engagement med IL-1-receptorkomplekset, hvorved nedstrøms NF-κB-aktivering, prostaglandin-frigivelse og akut-fase-proteinproduktion blokeres. Alle Canakinumabs nuværende godkendte indikationer deler en enkelt fælles patologisk driver: konstitutiv eller stimulus-udløst overaktivering af NLRP3 (eller relateret) inflammasome, førende til overdreven IL-1β-spaltning og systemisk autoinflammation, manifesteret som tilbagevendende feber, serositis eller slimhindeinflammation.
 
-Periodic fever-infantile enterocolitis-autoinflammatory syndrome — which encompasses NLRC4 inflammasomopathy, certain PFAPA-related enterocolitis variants, and closely related periodic fever disorders — operates through the same fundamental inflammasome-IL-1β axis. The core disease mechanism is aberrant NLRP3/NLRC4 inflammasome activation → IL-1β overproduction → cyclical systemic fever and mucosal/intestinal inflammation. Canakinumab directly intercepts this cascade at the most proximal druggable point. The 2018 NEJM pivotal trial (PMID 29768139) demonstrated that Canakinumab significantly reduced flare frequency across three mechanistically related periodic fever syndromes (FMF, HIDS/MKD, TRAPS) in a single randomised study, providing direct proof-of-concept for the IL-1β inhibition strategy across the entire disease spectrum. This indication therefore represents a scientifically well-supported extension of an already-validated therapeutic approach.
+Periodic fever-infantile enterocolitis-autoinflammatory syndrome — som omfatter NLRC4-inflammasomopati, visse PFAPA-relaterede enterocolitisvarianter og tæt relaterede periodiske febersygdomme — opererer gennem den samme fundamentale inflammasome-IL-1β-akse. Den kernepatologen er aberrant NLRP3/NLRC4-inflammasom-aktivering → IL-1β-overproduktion → cyklisk systemisk feber og slimhinde-/tarmflamation. Canakinumab intercepter direkte denne kaskade på det mest proximalt druggable punkt. Det pivotale forsøg fra 2018 NEJM (PMID 29768139) demonstrerede, at Canakinumab signifikant reducerede flare-hyppighed på tværs af tre mekanistisk relaterede periodiske febersyndrome (FMF, HIDS/MKD, TRAPS) i et enkelt randomiseret forsøg, hvilket giver direkte proof-of-concept for IL-1β-inhibitionsstrategi på tværs af hele sygdomsspektret. Denne indikation repræsenterer således en videnskabeligt velunderstøttet udvidelse af en allerede valideret terapeutisk tilgang.
 
-> **Note on TxGNN Ranking:** The TxGNN model's top-ranked prediction is hepatic infarction (score 99.86%), followed by hepatic veno-occlusive disease, peliosis hepatis, and syndrome with combined immunodeficiency — all rated L5 (model prediction only) with no supporting clinical literature. These scores likely reflect indirect knowledge-graph connectivity via hepatic vascular and inflammatory pathology nodes rather than direct mechanistic evidence. For hepatic infarction, the single retrieved publication concerns bempedoic acid — a structurally and mechanistically unrelated drug — confirming negligible evidence relevance. This report focuses on the periodic fever-infantile enterocolitis-autoinflammatory syndrome prediction (rank 9–10), which is the sole prediction with meaningful clinical literature and an actionable recommendation.
-
----
-
-## TxGNN Prediction Overview
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|---------------------|-------------|---------------|----------------|
-| 1–2 | Hepatic infarction | 99.86% | L5 | Hold |
-| 3–4 | Hepatic veno-occlusive disease | 99.82% | L5 | Hold |
-| 5–6 | Peliosis hepatis | 99.78% | L5 | Hold |
-| 7–8 | Syndrome with combined immunodeficiency | 99.71% | L5 | **⚠ Hold — safety concern: IL-1β inhibition may worsen existing immune deficiency** |
-| 9–10 | **Periodic fever-infantile enterocolitis-autoinflammatory syndrome** | **99.57%** | **L2** | **Proceed with Guardrails** |
+> **Bemærkning om TxGNN-rangering:** TxGNN-modellens toprangerede forudsigelse er hepatisk infarkt (score 99.86%), efterfulgt af hepatisk veno-oklusiv sygdom, peliosis hepatis og syndrom med kombineret immundefekt — alle vurderet L5 (kun modelforudsigelse) uden understøttende klinisk litteratur. Disse scores reflekterer sandsynligvis indirekte vidensgrafs-forbindelse via hepatiske vaskulære og inflammatoriske patologi-noder snarere end direkte mekanistisk evidens. For hepatisk infarkt omhandler den eneste hentet publikation bempedoic acid — et strukturelt og mekanistisk urelateret lægemiddel — der bekræfter ubetydelig evidensrelevans. Denne rapport fokuserer på Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome-forudsigelsen (rang 9–10), som er den eneste forudsigelse med meningsfuld klinisk litteratur og en handlingsbar anbefaling.
 
 ---
 
-## Clinical Trial Evidence
+## TxGNN-forudsigelsesoverview
 
-No clinical trials specifically investigating Canakinumab in **periodic fever-infantile enterocolitis-autoinflammatory syndrome** are currently registered on ClinicalTrials.gov or the WHO ICTRP. Trials for mechanistically overlapping conditions (CAPS, FMF, HIDS/MKD, TRAPS) have been conducted and serve as the primary supporting evidence base.
-
----
-
-## Literature Evidence
-
-The following publications are drawn from the 19 items retrieved for the periodic fever-infantile enterocolitis-autoinflammatory syndrome prediction, ranked by study type and clinical relevance:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | Clinical Trial / Pivotal Study | N Engl J Med | Phase 3 pivotal trial: Canakinumab significantly reduced flare rates vs. placebo in FMF, HIDS/MKD, and TRAPS — the closest mechanistic analogues to the predicted indication |
-| [38268504](https://pubmed.ncbi.nlm.nih.gov/38268504/) | 2024 | Real-World Cohort Study | Arthritis Rheumatol | Japanese nationwide survey confirming long-term efficacy and tolerability of canakinumab in CAPS patients in a real-world setting |
-| [39334417](https://pubmed.ncbi.nlm.nih.gov/39334417/) | 2024 | Retrospective Cohort Study | Pediatr Rheumatol Online J | Retrospective Chinese paediatric study: canakinumab effective and safe across all CAPS phenotypes including severe NOMID |
-| [35874710](https://pubmed.ncbi.nlm.nih.gov/35874710/) | 2022 | Systematic Review | Front Immunol | Systematic review of IL-1 biologics (anakinra, canakinumab, rilonacept) confirming consistent safety/efficacy across multiple IL-1-mediated autoinflammatory disorders |
-| [20065636](https://pubmed.ncbi.nlm.nih.gov/20065636/) | 2010 | Drug Review | mAbs | Comprehensive overview of canakinumab's MOA, IL-1β neutralisation mechanism, early clinical data, and initial FDA approvals for FCAS and MWS |
-| [30447083](https://pubmed.ncbi.nlm.nih.gov/30447083/) | 2019 | Pharmacology/Regulatory Study | Clin Pharmacol Ther | Paediatric dosage considerations for canakinumab in periodic fever syndromes, including weight-based dosing guidance without age restriction (post-2016 FDA approval) |
-| [28454496](https://pubmed.ncbi.nlm.nih.gov/28454496/) | 2017 | Review | Expert Rev Clin Immunol | Evidence for canakinumab in TRAPS — supports IL-1β as a therapeutic target in TNF-receptor-associated periodic fever, mechanistically linked to the target indication |
-| [30175395](https://pubmed.ncbi.nlm.nih.gov/30175395/) | 2018 | Review | Curr Treat Options Neurol | CAPS clinical spectrum, NLRP3 mutation consequences, IL-1β excess pathophysiology, and canakinumab treatment outcomes including neurological manifestations |
-| [25438464](https://pubmed.ncbi.nlm.nih.gov/25438464/) | 2014 | Review | Isr Med Assoc J | CAPS disease biology: NLRP3 overactivation → IL-1β/IL-18 excess → clinical spectrum from FCAS to NOMID; provides mechanistic framework applicable to the predicted indication |
-| [27343963](https://pubmed.ncbi.nlm.nih.gov/27343963/) | 2016 | Review | Clin Dermatol | PFAPA syndrome — innate immune dysregulation and periodic fever pathogenesis; relevant as a phenotypically overlapping periodic fever disorder |
+| Rang | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
+|------|---------------------|-------------|---------------|------------|
+| 1–2 | Hepatisk infarkt | 99.86% | L5 | Afvente |
+| 3–4 | Hepatisk veno-oklusiv sygdom | 99.82% | L5 | Afvente |
+| 5–6 | Peliosis hepatis | 99.78% | L5 | Afvente |
+| 7–8 | Syndrom med kombineret immundefekt | 99.71% | L5 | **⚠ Afvente — sikkerhedshensyn: IL-1β-inhibition kan forværre eksisterende immundefekt** |
+| 9–10 | **Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome** | **99.57%** | **L2** | **Fortsæt med sikkerhedsforanstaltninger** |
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsevidiens
 
-Canakinumab is **not registered** with the Danish Medicines Agency (Lægemiddelstyrelsen) and has no national marketing authorisations in Denmark. However, it holds an EMA centralised marketing authorisation (Ilaris, EU/1/09/564) covering the following indications, which would provide a regulatory pathway for access in Denmark:
-
-| Authorisation | Product Name | Dosage Form | Approved Indication |
-|--------------|-------------|-------------|---------------------|
-| EMA EU/1/09/564 | Ilaris (Novartis) | Solution for injection (150 mg/mL) | CAPS (FCAS, MWS, NOMID/CINCA), FMF, HIDS/MKD, TRAPS, SJIA, Adult-onset Still's disease (AOSD) |
-
-Access in Denmark would require either a national reimbursement application based on the existing EMA authorisation, or use via named-patient/compassionate use procedures through Novartis.
+Ingen kliniske forsøg, der specifikt undersøger Canakinumab i **Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome**, er i øjeblikket registreret på ClinicalTrials.gov eller WHO ICTRP. Forsøg på mekanistisk overlappende tilstande (CAPS, FMF, HIDS/MKD, TRAPS) er blevet gennemført og tjener som det primære understøttende evidensgrundlag.
 
 ---
 
-## Safety Considerations
+## Litteratursevidiens
 
-No drug interaction data for Canakinumab was identified in the evidence pack, and Danish-specific SmPC safety data is unavailable due to the absence of a national marketing authorisation.
+Følgende publikationer er hentet fra de 19 poster hentet til Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome-forudsigelsen, rangeret efter studietype og klinisk relevans:
 
-Please refer to the approved **EMA Summary of Product Characteristics (SmPC) for Ilaris** for complete safety information. Based on the drug's known pharmacology as an IL-1β inhibitor / immunosuppressant biologic, the following areas are of particular relevance:
-
-- **Infection risk**: Increased susceptibility to serious bacterial, viral, and fungal infections, including tuberculosis and opportunistic infections. TB screening is mandatory before initiation.
-- **Immunodeficiency context**: Use in patients with combined immunodeficiency (TxGNN rank 7–8 prediction) carries an explicit safety warning — IL-1β inhibition may further suppress innate immune defences. This indication should **not** be pursued without case-by-case expert evaluation.
-- **Neutropenia**: Haematological monitoring (full blood count) recommended during treatment.
-- **Vaccination**: Live vaccines should be avoided during treatment; vaccination status should be updated prior to initiation.
-- **Paediatric dosing**: Weight-based dosing applies for paediatric patients; consult current SmPC for age- and weight-appropriate regimens.
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|-----|------|---------|-------------------|
+| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | Klinisk forsøg / Pivotstudie | N Engl J Med | Fase 3 pivotstudie: Canakinumab reducerede signifikant flare-rater sammenlignet med placebo i FMF, HIDS/MKD og TRAPS — de tættest mekanistisk analoge til den forudsagte indikation |
+| [38268504](https://pubmed.ncbi.nlm.nih.gov/38268504/) | 2024 | Real-world kohortstudie | Arthritis Rheumatol | Japansk landsomfattende undersøgelse, der bekræfter langtidseffektivitet og tolerabilitet af canakinumab hos CAPS-patienter i en real-world-indstilling |
+| [39334417](https://pubmed.ncbi.nlm.nih.gov/39334417/) | 2024 | Retrospektiv kohortstudie | Pediatr Rheumatol Online J | Retrospektiv kinesisk pædiatrisk studie: canakinumab effektivt og sikkert på tværs af alle CAPS-fænotyper, herunder svær NOMID |
+| [35874710](https://pubmed.ncbi.nlm.nih.gov/35874710/) | 2022 | Systematisk review | Front Immunol | Systematisk review af IL-1 biologics (anakinra, canakinumab, rilonacept), der bekræfter konsistent sikkerhed/effektivitet på tværs af multiple IL-1-medierede autoinflammatoriske sygdomme |
+| [20065636](https://pubmed.ncbi.nlm.nih.gov/20065636/) | 2010 | Lægemiddeloversigt | mAbs | Omfattende oversigt over canakinumabs MOA, IL-1β-neutraliseringsmekanisme, tidlige kliniske data og indledende FDA-godkendelser for FCAS og MWS |
+| [30447083](https://pubmed.ncbi.nlm.nih.gov/30447083/) | 2019 | Farmakologi/Regulatorisk studie | Clin Pharmacol Ther | Pædiatriske doseringsvejledninger for canakinumab i periodiske febersyndrome, herunder vægtbaseret doseringsvejledning uden aldersrestriktion (efter 2016 FDA-godkendelse) |
+| [28454496](https://pubmed.ncbi.nlm.nih.gov/28454496/) | 2017 | Review | Expert Rev Clin Immunol | Evidens for canakinumab i TRAPS — understøtter IL-1β som et terapeutisk mål i TNF-receptor-associeret periodisk feber, mekanistisk forbundet til målindikationen |
+| [30175395](https://pubmed.ncbi.nlm.nih.gov/30175395/) | 2018 | Review | Curr Treat Options Neurol | CAPS klinisk spektrum, NLRP3-mutationkonsekvenser, IL-1β-overskud-patofysiologi og canakinumab-behandlingsresultater, herunder neurologiske manifestationer |
+| [25438464](https://pubmed.ncbi.nlm.nih.gov/25438464/) | 2014 | Review | Isr Med Assoc J | CAPS-sygdomsbiologi: NLRP3-overaktivering → IL-1β/IL-18-overskud → klinisk spektrum fra FCAS til NOMID; giver mekanistisk ramme gældende for den forudsagte indikation |
+| [27343963](https://pubmed.ncbi.nlm.nih.gov/27343963/) | 2016 | Review | Clin Dermatol | PFAPA-syndrom — medfødt immunologisk dysregulering og periodisk feberpato-fysiologi; relevant som en fænotypisk overlappende periodisk febersygdom |
 
 ---
 
-## Conclusion and Next Steps
+## Danske markedsoplysninger
 
-**Decision: Proceed with Guardrails**
+Canakinumab er **ikke registreret** hos Lægemiddelstyrelsen og har ingen nationale markedsføringstilladelser i Danmark. Den har imidlertid en centraliseret markedsføringstilladelse fra EMA (Ilaris, EU/1/09/564), der dækker følgende indikationer, hvilket ville give en regulatorisk vej for adgang i Danmark:
 
-**Rationale:**
-Periodic fever-infantile enterocolitis-autoinflammatory syndrome sits directly within the IL-1β-driven autoinflammatory disease spectrum for which Canakinumab is already globally approved. A pivotal Phase 3 trial (NEJM 2018) and multiple real-world cohort studies provide solid L2-level evidence supporting IL-1β inhibition in mechanistically identical conditions. The absence of trials in this specific syndrome most likely reflects its rarity and recent characterisation rather than a lack of therapeutic rationale.
+| Tilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+|-----------|------------|-----------------|-------------------|
+| EMA EU/1/09/564 | Ilaris (Novartis) | Injektionsvæske, opløsning (150 mg/mL) | CAPS (FCAS, MWS, NOMID/CINCA), FMF, HIDS/MKD, TRAPS, SJIA, voksendebuterende Stills-sygdom (AOSD) |
 
-**To proceed, the following is needed:**
+Adgang i Danmark ville kræve enten en national refusionsansøgning baseret på den eksisterende EMA-tilladelse, eller brug via navngivet patient/humanitær brug-procedurer gennem Novartis.
 
-- **SmPC review**: Obtain and review the full current EMA SmPC for Ilaris to complete safety profiling before any clinical use
-- **Genetic confirmation**: Confirm the precise syndrome subtype via genetic testing (NLRC4, NLRP3, MEFV, MVK, TNFRSF1A, or other relevant variants) — mechanistic fit and dosing strategy depend on the underlying genetic diagnosis
-- **Regulatory pathway**: Explore named-patient access or compassionate use via the EMA-authorised Ilaris product; no Danish marketing authorisation currently exists
-- **Specialist referral**: Engage a paediatric rheumatology centre with autoinflammatory disease expertise (e.g., via the European Reference Network for Rare Immunodeficiency, Autoinflammatory and Autoimmune Diseases — ERN RITA)
-- **Registry enrolment**: If treatment is initiated, prospectively document outcomes via Eurofever/PRINTO or Eurotraps registries to contribute to the evidence base for this rare indication
-- **Pharmacovigilance plan**: Establish a monitoring plan per the EMA SmPC, including infection surveillance, CBC monitoring, and TB screening
+---
 
-> **⚠ Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All website content should include a YMYL disclaimer.
+## Sikkerhedshensyn
+
+Ingen lægemiddelinteraktionsdata for Canakinumab blev identificeret i evidenspakken, og dansk-specifikke SmPC-sikkerhedsdata er utilgængelige på grund af fraværet af en national markedsføringstilladelse.
+
+Se venligst den godkendte **EMA-SmPC (Summary of Product Characteristics) for Ilaris** for fuldstændig sikkerhedsinformation. Baseret på lægemidlets kendte farmakologi som en IL-1β-inhibitor/immunosuppressiv biologic, er følgende områder af særlig relevans:
+
+- **Infektionsrisiko**: Øget modtagelighed for alvorlige bakterielle, virale og svampeinfektion, herunder tuberkulose og opportunistiske infektioner. TB-screening er obligatorisk før initiering.
+- **Immundefekt-kontekst**: Brug hos patienter med kombineret immundefekt (TxGNN rang 7–8 forudsigelse) har en eksplicit sikkerhedsadvarsel — IL-1β-inhibition kan yderligere undertrykke medfødte immunforsvar. Denne indikation bør **ikke** forfølges uden case-by-case ekspertbedømmelse.
+- **Neutropeni**: Hæmatologisk monitorering (fuldstændigt blodtælling) anbefalet under behandling.
+- **Vaccination**: Levende vacciner bør undgås under behandling; vaccinationsstatus bør opdateres før initiering.
+- **Pædiatrisk dosering**: Vægtbaseret dosering gælder for pædiatriske patienter; se aktuel SmPC for alders- og vægtpassende regimer.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+
+**Begrundelse:**
+Periodic Fever-Infantile Enterocolitis-Autoinflammatory Syndrome ligger direkte inden for det IL-1β-drevne autoinflammatoriske sygdomsspektrum, for hvilket Canakinumab allerede er globalt godkendt. Et pivotal fase 3-forsøg (NEJM 2018) og multiple real-world kohort-studier giver solid L2-niveau evidens, der understøtter IL-1β-inhibition i mekanistisk identiske tilstande. Fraværet af forsøg i dette specifikke syndrom skyldes sandsynligvis dets sjældenhed og nylige karakterisering snarere end mangel på terapeutisk rationale.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+- **SmPC-gennemgang**: Indhent og gennemse den fulde aktuelle EMA-SmPC for Ilaris for at fuldføre sikkerhedsprofilen før eventuel klinisk brug
+- **Genetisk bekræftelse**: Bekræft den præcise syndromsubtypning via genetisk testning (NLRC4, NLRP3, MEFV, MVK, TNFRSF1A eller andre relevante varianter) — mekanistisk tilpasning og doseringstrategi afhænger af den underliggende genetiske diagnose
+- **Regulatorisk vej**: Udforsk navngivet-patient adgang eller humanitær brug via det EMA-autoriserede Ilaris-produkt; ingen dansk markedsføringstilladelse eksisterer i øjeblikket
+- **Specialisthenvisning**: Engage et pædiatrisk reumatologicenter med ekspertise inden for autoinflammatoriske sygdomme (f.eks. via det europæiske referencenetværk for sjældne immundefekter, autoinflammatoriske og autoimmune sygdomme — ERN RITA)
+- **Registerindskrivning**: Hvis behandling initieres, dokumenter prospektivt resultater via Eurofever/PRINTO eller Eurotraps-registre for at bidrage til evidensgrundlaget for denne sjældne indikation
+- **Farmakovigilansplan**: Etabler en overvågningsplan pr. EMA-SmPC, herunder infektionsovervågning, CBC-overvågning og TB-screening
+
+> **⚠ Ansvarsfraskrivelse:** Denne rapport er kun til forskningsmæssig referenceformål og udgør ikke medicinsk rådgivning. Lægemiddelgenformål kræver klinisk validering før terapeutisk anvendelse. Alt hjemmesideindhold skal omfatte en YMYL-fraskrivelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

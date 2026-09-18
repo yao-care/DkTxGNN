@@ -29,104 +29,105 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Modafinil: From Narcolepsy/Excessive Daytime Sleepiness to Insomnia
+# Modafinil: Fra narkolepsi/overdreven daglig søvnighed til insomni
 
-> ⚠️ **Analyst Note — High-Risk False Positive Flag:** This TxGNN prediction has been flagged as a likely mechanistic false positive. Modafinil is a wake-promoting agent; its pharmacological mechanism is the *opposite* of what is required to treat insomnia. This report documents the evidence in full and supports a **Hold** decision.
-
----
-
-## One-Sentence Summary
-
-Modafinil is a wake-promoting agent approved in many countries for narcolepsy, shift work sleep disorder, and obstructive sleep apnoea-related excessive daytime sleepiness.
-The TxGNN model predicts it may be effective for **Insomnia**, achieving a prediction score of **99.85%**; however, this prediction is considered a probable false positive, as insomnia is listed as a *known adverse event* of modafinil (incidence 5–15%), not a therapeutic target.
-No clinical trials or dedicated publications specifically testing modafinil as an insomnia treatment were identified; the **19 publications** retrieved address modafinil's established uses in wakefulness and overlapping sleep-disorder contexts.
+> ⚠️ **Analytikerens bemærkning — Højrisikoflag for falsk positiv:** Denne TxGNN-forudsigelse er blevet flagget som en sandsynlig mekanistisk falsk positiv. Modafinil er et vågefremkaldende stof; dets farmakologiske mekanisme er det *modsatte* af hvad der kræves for at behandle insomni. Denne rapport dokumenterer beviserne fuldt ud og understøtter en **Afvent**-beslutning.
 
 ---
 
-## Quick Overview
+## Resumé i én sætning
 
-| Item | Content |
-|------|---------|
-| Original Indication | Narcolepsy; shift work sleep disorder; excessive daytime sleepiness associated with obstructive sleep apnoea |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Modafinil er et vågefremkaldende stof, der er godkendt i mange lande til narkolepsi, søvnforstyrrelse fra skiftarbejde og overdreven daglig søvnighed relateret til obstruktiv søvnapnø.
+TxGNN-modellen forudsiger, at det kan være effektivt til **insomni**, og opnår en forudsigelsesscore på **99,85 %**; denne forudsigelse betragtes imidlertid som en sandsynlig falsk positiv, da insomni er anført som en *kendt uønsket hændelse* ved modafinil (incidens 5–15 %), ikke et terapeutisk mål.
+Der blev ikke identificeret kliniske forsøg eller dedikerede publikationer, som specifikt tester modafinil som behandling af insomni; de **19 publikationer**, som blev hentet, omhandler modafinils etablerede anvendelser inden for vågenhed og overlappende søvnforstyrrelseskontekster.
 
 ---
 
-## Why This Prediction Is Likely Incorrect
+## Hurtig oversigt
 
-Modafinil promotes wakefulness through at least three known mechanisms: (1) inhibition of the dopamine transporter (DAT), increasing synaptic dopamine; (2) up-regulation of hypothalamic histamine release; and (3) activation of orexin/hypocretin neurons in the lateral hypothalamus. The net effect is sustained alertness and reduced sleep propensity.
-
-The therapeutic goal in insomnia is precisely the opposite — facilitating sleep onset and maintaining sleep continuity. Because insomnia and the disorders modafinil actually treats (narcolepsy, excessive daytime sleepiness) both fall under the broad ICD category of "sleep disorders," the TxGNN model very likely confused the two directions within the same disease cluster. Insomnia appears as a **common adverse event** in modafinil prescribing information (reported in 5–15% of patients in clinical trials), confirming that the drug exacerbates, rather than alleviates, insomnia.
-
-The 19 PubMed publications identified by the search query were retrieved under a broad modafinil + sleep-disorder search strategy. On closer inspection they address: modafinil for excessive daytime sleepiness in Parkinson's disease, narcolepsy management, fatigue in neurological conditions, and shift work sleep disorder — none of which constitutes evidence for modafinil as an insomnia treatment. No dedicated randomised or observational study testing modafinil for primary insomnia was found.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials investigating modafinil for the treatment of insomnia were identified in ClinicalTrials.gov or the ICTRP registry.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Narkolepsi; søvnforstyrrelse fra skiftarbejde; overdreven daglig søvnighed forbundet med obstruktiv søvnapnø |
+| Forudsagt ny indikation | Insomni (sygdom) |
+| TxGNN forudsigelsesscore | 99,85 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor denne forudsigelse sandsynligvis er forkert
 
-The publications below were retrieved via a modafinil + insomnia search. They primarily document modafinil's **established wake-promoting uses** and related sleep-disorder contexts. None constitutes evidence supporting modafinil as a treatment for insomnia; several are directly relevant to understanding why this TxGNN prediction should be rejected.
+Modafinil fremmer vågenhed gennem mindst tre kendte mekanismer: (1) hæmning af dopamin-transportøren (DAT), hvilket øger synaptisk dopamin; (2) op-regulering af hypofalamus-histamin-frigivelse; og (3) aktivering af orexin/hypocretin-neuroner i det laterale hypofalamus. Nettoeffekten er vedvarende årvågenhed og reduceret søvntilbøjelighed.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|------------|
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Systematic Review / EBM Guideline | *Movement Disorders* | MDS evidence-based review of non-motor symptom treatments in Parkinson's disease, including sleep and daytime sleepiness; modafinil reviewed for EDS, not insomnia |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Systematic Review | *Parkinsonism & Related Disorders* | Meta-analysis of pharmacological interventions for daytime sleepiness and sleep disorders in PD; modafinil assessed for EDS |
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Systematic Review | *PLoS ONE* | Modafinil for fatigue and excessive daytime sleepiness in neurological disorders; confirms wake-promoting (not sleep-inducing) efficacy |
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Narrative Review | *Drugs* | Comprehensive review of approved and investigational uses of modafinil; covers narcolepsy, SWSD, OSA-EDS, and off-label uses — insomnia treatment not among them |
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Review | *Expert Opinion on Pharmacotherapy* | Pharmacological and non-pharmacological management of sleep disturbances in Parkinson's disease |
-| [18219235](https://pubmed.ncbi.nlm.nih.gov/18219235/) | 2008 | Randomised Trial | *J Head Trauma Rehabilitation* | RCT of modafinil for fatigue and excessive daytime sleepiness in chronic traumatic brain injury; outcome is wakefulness improvement, not insomnia relief |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Review | *Drugs* | Shift work sleep disorder: burden of illness and management approaches; modafinil discussed as approved treatment for shift-work EDS |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Review | *Revue Neurologique* | Narcolepsy with cataplexy — clinical features and treatment; modafinil as first-line for EDS in narcolepsy; sleep-maintenance insomnia listed as a narcolepsy symptom, not a modafinil target |
-| [26483900](https://pubmed.ncbi.nlm.nih.gov/26483900/) | 2014 | Case Report | *Sleep Science* | Cataplexy as a side effect of modafinil in a patient without narcolepsy — highlights potential adverse CNS effects |
-| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Case Series | *Am J Hospice & Palliative Care* | Modafinil reduces fatigue in Charcot-Marie-Tooth disease type 1A; off-label use for fatigue, not insomnia |
+Det terapeutiske mål ved insomni er præcis det modsatte — at lette søvninitiering og opretholde søvnkontinuitet. Fordi insomni og de lidelser, som modafinil faktisk behandler (narkolepsi, overdreven daglig søvnighed), begge falder inden for den brede ICD-kategori "søvnforstyrrelser," har TxGNN-modellen meget sandsynligt blandet de to retninger inden for samme sygdomsgruppe. Insomni optræder som en **almindelig uønsket hændelse** i modafinils produktinformation (rapporteret i 5–15 % af patienterne i kliniske forsøg), hvilket bekræfter, at lægemidlet forværrer snarere end lindrer insomni.
+
+De 19 PubMed-publikationer, som blev identificeret af søgestringen, blev hentet under en bred modafinil + søvnforstyrrelsessøgestrategi. Ved nærmere inspektion omhandler de: modafinil til overdreven daglig søvnighed ved Parkinsons sygdom, narkolepsi-behandling, træthed i neurologiske tilstande, og søvnforstyrrelser fra skiftarbejde — ingen af disse udgør bevis for modafinil som behandling af insomni. Der blev ikke fundet nogen dedikeret randomiseret eller observationsstudie, som tester modafinil til primær insomni.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-Modafinil is **not marketed in Denmark**. The Danish Medicines Agency (Lægemiddelstyrelsen) holds no active marketing authorisations for modafinil as of the data cut-off date (2026-04-04). The drug is also not registered under a centralised EMA authorisation for the Danish market.
-
-Modafinil holds marketing authorisations in several other countries (e.g., United States: Provigil®; United Kingdom: Provigil®; France: Modiodal®) for narcolepsy, obstructive sleep apnoea-related EDS, and shift work sleep disorder, but these do not confer Danish marketing rights.
+Der blev ikke identificeret kliniske forsøg, som undersøger modafinil til behandling af insomni i ClinicalTrials.gov eller ICTRP-registret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Detailed prescribing information (SmPC) for modafinil is not available within this Evidence Pack. Please refer to the Summary of Product Characteristics of an authorised product (e.g., EMA or MHRA SmPC for Provigil®) for full safety information, including:
+Publikationerne nedenfor blev hentet via en modafinil + insomni-søgning. De dokumenterer primært modafinils **etablerede vågefremkaldende anvendelser** og relaterede søvnforstyrrelseskontekster. Ingen udgør bevis for at understøtte modafinil som behandling af insomni; flere er direkte relevante til at forstå, hvorfor denne TxGNN-forudsigelse skal forkastes.
 
-- Known adverse events (notably **insomnia, headache, nausea, anxiety, palpitations**)
-- Psychiatric and cardiovascular contraindications
-- CYP3A4-mediated drug–drug interactions
-- Pregnancy and lactation restrictions
-
-Importantly, insomnia is listed as a **common adverse effect** of modafinil in approved prescribing information, which further contradicts the TxGNN prediction.
+| PMID | År | Type | Tidsskrift | Vigtige fund |
+|------|-----|------|-----------|-------------|
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Systematisk oversigt / EBM-retningslinje | *Movement Disorders* | MDS-baseret bevisbaseret gennemgang af behandlinger af ikke-motoriske symptomer ved Parkinsons sygdom, herunder søvn og daglig søvnighed; modafinil gennemgået til EDS, ikke insomni |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Systematisk oversigt | *Parkinsonism & Related Disorders* | Meta-analyse af farmakologiske interventioner til daglig søvnighed og søvnforstyrrelser ved PD; modafinil vurderet til EDS |
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Systematisk oversigt | *PLoS ONE* | Modafinil til træthed og overdreven daglig søvnighed i neurologiske lidelser; bekræfter vågefremkaldende (ikke søvnfremkaldende) effektivitet |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Narrativ gennemgang | *Drugs* | Omfattende gennemgang af godkendte og undersøgte anvendelser af modafinil; dækker narkolepsi, SWSD, OSA-EDS og off-label-anvendelser — insomni-behandling er ikke blandt dem |
+| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Gennemgang | *Expert Opinion on Pharmacotherapy* | Farmakologisk og ikke-farmakologisk behandling af søvnforstyrrelser ved Parkinsons sygdom |
+| [18219235](https://pubmed.ncbi.nlm.nih.gov/18219235/) | 2008 | Randomiseret forsøg | *J Head Trauma Rehabilitation* | RCT af modafinil til træthed og overdreven daglig søvnighed ved kronisk traumatisk hjerneskade; resultat er forbedring af vågenhed, ikke lindring af insomni |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Gennemgang | *Drugs* | Søvnforstyrrelser fra skiftarbejde: sygdomsbyrde og behandlingstilgange; modafinil diskuteret som godkendt behandling til EDS fra skiftarbejde |
+| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Gennemgang | *Revue Neurologique* | Narkolepsi med katapleksi — kliniske træk og behandling; modafinil som førsteligevalg til EDS ved narkolepsi; søvnvedligeholdelsesinsomni anført som symptom på narkolepsi, ikke et modafinil-mål |
+| [26483900](https://pubmed.ncbi.nlm.nih.gov/26483900/) | 2014 | Kasuistik | *Sleep Science* | Katapleksi som bivirkning af modafinil hos en patient uden narkolepsi — fremhæver potentielle uønskede CNS-effekter |
+| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Kasusistisk serie | *Am J Hospice & Palliative Care* | Modafinil reducerer træthed ved Charcot-Marie-Tooth sygdom type 1A; off-label brug til træthed, ikke insomni |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Modafinil er **ikke markedsført i Danmark**. Lægemiddelstyrelsen har ingen aktive markedsføringstilladelser for modafinil fra datodagens dato (2026-04-04). Lægemidlet er heller ikke registreret under en centraliseret EMA-godkendelse for det danske marked.
 
-**Rationale:**
-The TxGNN prediction of modafinil for insomnia is assessed as a **high-probability false positive** arising from model confusion within the "sleep disorder" disease cluster. Modafinil's mechanism of action (DAT inhibition, histamine up-regulation, orexin activation) is diametrically opposed to the pharmacological goal of insomnia treatment, and insomnia is a documented adverse effect of the drug. No clinical trial or dedicated publication supporting this repurposing hypothesis was identified. Modafinil is also not authorised in Denmark, meaning any clinical development pathway would require a full de novo regulatory application.
+Modafinil har markedsføringstilladelser i flere andre lande (f.eks. USA: Provigil®; Storbritannien: Provigil®; Frankrig: Modiodal®) til narkolepsi, EDS relateret til obstruktiv søvnapnø og søvnforstyrrelser fra skiftarbejde, men disse giver ikke markedsføringsrettigheder i Danmark.
 
-**To proceed, the following would be needed (purely hypothetical threshold):**
-- A credible biological hypothesis explaining how a wake-promoting agent could benefit insomnia (e.g., via a specific insomnia subtype such as hypersomnia-insomnia overlap) — currently absent
-- At minimum one exploratory clinical study or case series specifically demonstrating sleep-onset or sleep-maintenance improvement with modafinil in an insomnia population
-- Clarification of the TxGNN model's disease-node disambiguation between "sleep disorder — hypersomnolence" and "sleep disorder — insomnia" to resolve the likely false-positive classification
-- Full MOA data from DrugBank to formally complete the mechanistic plausibility assessment
+---
 
-> *This report is intended for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before any therapeutic application.*
+## Sikkerhedshensyn
+
+Detaljeret produktinformation (SmPC) for modafinil er ikke tilgængelig inden for denne evidenspakke. Se venligst produktresumé for et godkendt produkt (f.eks. EMA eller MHRA SmPC for Provigil®) for fuld sikkerhedsinformation, herunder:
+
+- Kendt uønskede hændelser (især **insomni, hovedpine, kvalme, angst, hjerteklop**)
+- Psykiatriske og kardiovaskulære kontraindikationer
+- CYP3A4-medierede lægemiddel-lægemiddel-interaktioner
+- Begrænsninger vedr. graviditet og laktation
+
+Det er særlig vigtigt, at insomni er anført som en **almindelig uønsket virkning** af modafinil i godkendt produktinformation, hvilket yderligere modsiger TxGNN-forudsigelsen.
+
+---
+
+## Konklusioner og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-forudsigelsen af modafinil til insomni vurderes som en **høj-sandsynlig falsk positiv** opstået fra modelforvirring inden for sygdomsgruppen "søvnforstyrrelser". Modafinils virkningsmekanisme (DAT-hæmning, histamin op-regulering, orexin-aktivering) er diametralt modsat det farmakologiske formål ved insomni-behandling, og insomni er en dokumenteret uønsket virkning af lægemidlet. Der blev ikke identificeret nogen klinisk forsøg eller dedikeret publikation, som understøtter denne omformålshypotese. Modafinil er desuden ikke godkendt i Danmark, hvilket betyder, at enhver klinisk udviklingsvej ville kræve en fuldstændig de novo-reguleringsansøgning.
+
+**For at fortsætte ville følgende være nødvendigt (rent hypotetisk tærskel):**
+- En troværdig biologisk hypotese, der forklarer, hvordan et vågefremkaldende stof kunne gavne insomni (f.eks. via en specifik insomni-subtype såsom hypersomnolence-insomni overlap) — i øjeblikket fraværende
+- Mindst en eksplorativ klinisk undersøgelse eller kasusistisk serie, som specifikt viser forbedring af søvninitiering eller søvnvedligeholdelse med modafinil i en insomni-population
+- Præcisering af TxGNN-modellens sygdoms-knude-afklaring mellem "søvnforstyrrelser — hypersomnolens" og "søvnforstyrrelser — insomni" for at løse den sandsynlige falsk-positiv klassificering
+- Fuld MOA-data fra DrugBank for formelt at fuldføre vurderingen af mekanistisk plausibilitet
+
+> *Denne rapport er beregnet til forskningsformål alene og udgør ikke medicinsk vejledning. Alle kandidater til lægemiddeloformål kræver prospektiv klinisk validering før enhver terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

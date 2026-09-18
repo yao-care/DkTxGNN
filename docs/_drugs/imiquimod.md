@@ -29,85 +29,84 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the Evidence Pack for Imiquimod (DB00724), here is the evaluation report.
+# Imiquimod: Fra Aktinisk Keratose til Præmalign Neoplasi
 
-# Imiquimod: From Actinic Keratosis to Pre-Malignant Neoplasm
+## Ét-sætnings Resumé
 
-## One-Sentence Summary
+Imiquimod er et topisk Toll-like receptor 7 (TLR7) agonist, der allerede er etableret for aktinisk keratose, overfladisk basalcellekarcinom og eksterne genitale/perianale vorter — som alle falder inden for den brede kategori "præ-malign/HPV-relateret læsion". TxGNN-modellen forudsiger fortsat og udvidet effektivitet på tværs af **præ-malign neoplasi** som en klasse, og denne retning understøttes i øjeblikket af **19 kliniske forsøg** og **9 publikationer**, hvor det meste er koncentreret om cervikale, vulvære og aktiniske præ-maligne læsioner.
 
-Imiquimod is a topical Toll-like receptor 7 (TLR7) agonist already established for actinic keratosis, superficial basal cell carcinoma, and genital warts — all of which fall within the broad "pre-malignant/HPV-related lesion" category. The TxGNN model predicts continued and expanded effectiveness across **pre-malignant neoplasm** as a class, and this direction is currently supported by **19 clinical trials** and **9 publications**, most concentrated on cervical, vulvar, and actinic pre-malignant lesions.
+## Hurtigt Overblik
 
-## Quick Overview
+| Punkt | Indhold |
+|------|---------|
+| Original indikation | Ikke registreret i Danmark (medicin ikke markedsført); internationalt er imiquimod godkendt til aktinisk keratose, overfladisk basalcellekarcinom og eksterne genitale/perianale vorter (kontekst hentet fra forsøgsbeskrivelser i evidenspakken) |
+| Forudsagt ny indikation | Præ-malign neoplasi |
+| TxGNN-forudsigelsesscore | 99.92% |
+| Bevisniveau | L2 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med Sikkerhedshensyn |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not registered in Denmark (drug not marketed); internationally, imiquimod is approved for actinic keratosis, superficial basal cell carcinoma, and external genital/perianal warts (context drawn from trial descriptions in the evidence pack) |
-| Predicted New Indication | Pre-malignant neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+## Hvorfor er denne forudsigelse rimelig?
 
-## Why is This Prediction Reasonable?
+I øjeblikket er en formelt struktureret mekanisme-of-action-registrering for imiquimod ikke tilgængelig i denne evidenspakke (markeret som datahul DG002, høj alvorlighed). Baseret på de oplysninger, der er anført i forsøgs- og rationaledata, virker imiquimod imidlertid som et **TLR7-agonist**: lokal aktivering af Toll-like receptor 7 udløser frigivelse af IFN-α, TNF-α og IL-12, hvilket driver apoptose og immunmedieret clearance af dysplastiske/abnormale keratinocytter. Denne mekanisme ligger allerede til grund for imiquimods etablerede brug ved aktinisk keratose (AK) — som i sig selv er formelt klassificeret som en præ-malign hudlesion — såvel som dets brug ved overfladisk basalcellekarcinom og HPV-relaterede genitale vorter.
 
-Currently, a formal, structured mechanism-of-action record for imiquimod is not available in this evidence pack (flagged as data gap DG002, High severity). Based on the information captured in the trial and rationale data, however, imiquimod acts as a **TLR7 agonist**: local activation of Toll-like receptor 7 triggers release of IFN-α, TNF-α, and IL-12, driving apoptosis and immune-mediated clearance of dysplastic/abnormal keratinocytes. This mechanism already underlies imiquimod's established use in actinic keratosis (AK) — which is itself formally classified as a pre-malignant skin lesion — as well as its use in superficial basal cell carcinoma and HPV-related genital warts.
+Fordi AK allerede er en anerkendt præ-malign neoplasi, der behandles med imiquimod, er TxGNN-modellens høje score for den bredere "præ-malign neoplasi"-kategori til dels en genbekræftelse af kendt biologi. Det genuint nye repurposing-signal ligger i at udvide denne samme TLR7-drevne mekanisme til **andre anatomiske steder med HPV-associeret præ-malign epitelium** — vulvær intraepitelial neoplasi (VIN), cervical intraepitelial neoplasi (CIN) og anal intraepitelial neoplasi (AIN) — som alle deler samme immunflugt og dysplastisk-epitelium-biologi som AK.
 
-Because AK is already a recognised pre-malignant neoplasm treated by imiquimod, the TxGNN model's high score for the broader "pre-malignant neoplasm" category is, in part, a re-confirmation of known biology. The genuinely novel repurposing signal lies in extending this same TLR7-driven mechanism to **other anatomic sites with HPV-associated pre-malignant epithelium** — vulvar intraepithelial neoplasia (VIN), cervical intraepithelial neoplasia (CIN), and anal intraepithelial neoplasia (AIN) — all of which share the same immune-evasion and dysplastic-epithelium biology as AK.
+Denne mekanistiske kontinuitet er grunden til, at flere uafhængige forskergrupper har testet topisk imiquimod ved CIN og VIN på trods af, at disse ikke er on-label indikationer: den lokale immunaktivering, der er nødvendig for at rydde dysplastisk epitelium, er ikke anatomisk begrænset til hud. Det stærkeste direkte bevis er et afsluttet Phase 2 RCT ved high-grade CIN (Brasilien, n=90) og case-serier/mekanistisk arbejde ved VIN 2/3, mens et dedikeret Phase 3 RCT ved CIN (NCT02329171) bekræfter proof-of-concept, men blev termineret tidligt på grund af dårlig rekruttering (n=9), hvilket begrænser definitiv bekræftelse.
 
-This mechanistic continuity is why multiple independent research groups have tested topical imiquimod in CIN and VIN despite these not being on-label indications: the local immune activation needed to clear dysplastic epithelium is not anatomically restricted to skin. The strongest direct evidence is a completed Phase 2 RCT in high-grade CIN (Brazil, n=90) and case-series/mechanistic work in VIN 2/3, while a dedicated Phase 3 RCT in CIN (NCT02329171) confirms proof-of-concept but was terminated early due to poor enrollment (n=9), limiting definitive confirmation.
+## Kliniske Forsøg — Evidens
 
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Antal indskrevne | Vigtige Resultater |
 |---------|------|------|------|---------|
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Terminated | 9 | RCT of topical imiquimod for high-grade cervical intraepithelial neoplasia (CIN) as a non-invasive alternative to LLETZ excision; terminated early due to poor recruitment |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Phase 3 | Completed | 259 | Imiquimod as neoadjuvant treatment for lentigo maligna of the face to reduce excision size and risk of intralesional excision |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Phase 3 | Unknown | 145 | Non-inferiority RCT: surgical excision vs. curettage + imiquimod for nodular basal cell carcinoma |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Completed | 20 | Open-label study of imiquimod 5% cream (3 days/week) for actinic keratoses on the head |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Phase 2 | Completed | 90 | Randomized trial of topical imiquimod for high-grade cervical intraepithelial lesions (Brazil) |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Phase 2 | Completed | 5 | Explorative controlled study of immune escape mechanisms and imiquimod efficacy in VIN 2/3 and anogenital warts |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Phase 4 | Unknown | 20 | Post-marketing study of imiquimod 3.75% cream (Zyclara) after cryotherapy for hypertrophic actinic keratoses |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Phase 1 | Terminated | 49 | RCT comparing 5%, 0.05%, and nanoencapsulated 0.05% imiquimod gel for actinic cheilitis (pre-malignant lip lesion) |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Early Phase 1 | Completed | 16 | Pilot trial of neoadjuvant TLR7 agonist (imiquimod) immunotherapy in early-stage oral squamous cell carcinoma |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Termineret | 9 | RCT af topisk imiquimod til high-grade cervical intraepitelial neoplasi (CIN) som ikke-invasivt alternativ til LLETZ-excision; termineret tidligt på grund af dårlig rekruttering |
+| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Fase 3 | Afsluttet | 259 | Imiquimod som neoadjuvant behandling for lentigo maligna i ansigtet for at reducere excisionsstørrelse og risiko for intralesionel excision |
+| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Fase 3 | Ukendt | 145 | Non-inferioritets-RCT: kirurgisk excision vs. curretage + imiquimod for noduløst basalcellekarcinom |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Afsluttet | 20 | Åben studie af imiquimod 5% creme (3 dage/uge) for aktiniske keratoser på hovedet |
+| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Fase 2 | Afsluttet | 90 | Randomiseret forsøg af topisk imiquimod for high-grade cervikale intraepiteliale læsioner (Brasilien) |
+| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Fase 2 | Afsluttet | 5 | Undersøgende kontrolstudie af immunflugtmekanismer og imiquimod-effektivitet ved VIN 2/3 og anogenitale vorter |
+| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Fase 4 | Ukendt | 20 | Post-marketing studie af imiquimod 3.75% creme (Zyclara) efter kryoterapi for hypertrofisk aktinisk keratose |
+| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Fase 1 | Termineret | 49 | RCT sammenligning af 5%, 0.05% og nanokapslet 0.05% imiquimod-gel for aktinisk cheilitis (præ-malign læbrælesion) |
+| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Tidlig Fase 1 | Afsluttet | 16 | Pilot-forsøg af neoadjuvant TLR7-agonist (imiquimod) immunoterapi ved tidligtstadium oralt pladecellekarcinom |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige Resultater |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematic review of interventions for anal canal intraepithelial neoplasia (AIN), a pre-malignant HPV-associated condition |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematic review of medical interventions for high-grade vulval intraepithelial neoplasia (VIN), including imiquimod |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Letter | Overview of current management of actinic keratoses, including topical field therapies such as imiquimod |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | International Journal of Molecular Sciences | Review of combined photodynamic therapy approaches for non-melanoma skin cancer and its precursor lesions |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Seminars in Cutaneous Medicine and Surgery | Review of topical treatment strategies (including imiquimod) for non-melanoma skin cancer and precursor lesions |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preclinical PK/PD | Urologic Oncology | Rat model PK/PD study of TLR7 agonists used topically for pre-malignant skin lesions, exploring intravesical use for bladder cancer |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Case Report | International Journal of STD & AIDS | Successful treatment of high-grade VIN with imiquimod 5% in an immunosuppressed renal transplant recipient |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Case Report | Der Hautarzt | Case of disseminated superficial actinic porokeratosis with coexisting actinic keratoses resistant to topical treatment |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case Report | International Journal of STD & AIDS | Successful clearance of Bowenoid papulosis of the penis (a pre-malignant ano-genital condition) using topical imiquimod 5% |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematisk review af interventioner for intraepitelial neoplasi i analkanalen (AIN), en præ-malign HPV-associeret tilstand |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematisk review af medicinske interventioner for high-grade vulvær intraepitelial neoplasi (VIN), inklusive imiquimod |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Letter | Oversigt over nuværende ledelse af aktiniske keratoser, inklusive topiske feltterapi såsom imiquimod |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | International Journal of Molecular Sciences | Review af kombineret fototerapi-tilgange for non-melanom hudkræft og dens prekursor-læsioner |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Seminars in Cutaneous Medicine and Surgery | Review af topiske behandlingsstrategier (inklusive imiquimod) for non-melanom hudkræft og prekursor-læsioner |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Præ-klinisk PK/PD | Urologic Oncology | Rottemodel PK/PD-studie af TLR7-agonister brugt topisk for præ-maligne hudlæsioner, udforsker intravisikalt brug for blærekræft |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Caserapport | International Journal of STD & AIDS | Vellykket behandling af high-grade VIN med imiquimod 5% i en immunsupprimeret nyre-transplantpatienten |
+| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Caserapport | Der Hautarzt | Tilfælde af dissemineret overfladisk aktinisk porokeratose med samtidig aktinisk keratose, der var modstandsdygtig over for topisk behandling |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Caserapport | International Journal of STD & AIDS | Vellykket eliminering af Bowenoid papulose på penis (en præ-malign anorektal tilstand) med topisk imiquimod 5% |
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Imiquimod does not currently hold any marketing authorisation in Denmark (market status: **Not marketed**, 0 registered products with Laegemiddelstyrelsen). A new marketing authorisation application — national or via EMA centralised procedure — would be required before this repurposing candidate could be evaluated for clinical use in Denmark.
+Imiquimod har i øjeblikket ikke nogen markedsføringstilladelse i Danmark (markedsstatus: **Ikke markedsført**, 0 registrerede produkter med Laegemiddelstyrelsen). En ny markedsføringstilladelsesansøgning — national eller via EMA's centraliserede procedure — ville være påkrævet, før denne repurposing-kandidat kunne evalueres til klinisk brug i Danmark.
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-interaction data for imiquimod were not available in this evidence pack (data gap DG001, Blocking severity — required before the safety pre-screen (S1) can proceed).
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og medicin-interaktionsdata for imiquimod var ikke tilgængelige i denne evidenspakke (datahul DG001, blokerende alvorlighed — påkrævet før sikkerhedsforsegning (S1) kan fortsætte).
 
-One safety signal worth flagging for future off-label extension work: literature evidence for a related, lower-scoring predicted indication (benign neoplasm of buccal mucosa, not the primary indication in this report) includes a case report of **malignant conversion of oral papillomatosis during topical imiquimod therapy** (PMID 12719972). While not directly applicable to the pre-malignant neoplasm indication assessed here, it underscores the need for site-specific safety review before any mucosal (non-skin) application is pursued.
+Et sikkerhedssignal værd at markere til fremtidigt off-label udvidelsesarbejde: litteraturbevis for en relateret, lavere-scoring forudsagt indikation (godartede neoplasi af kindslimhinde, ikke den primære indikation i denne rapport) inkluderer en caserapport af **malign transformation af oral papillomatose under topisk imiquimod-terapi** (PMID 12719972). Selvom ikke direkte gældende for den præ-maligne neoplasi-indikation, der evalueres her, understreger det behovet for sted-specifik sikkerhedsvurdering før noget mucøs (ikke-hud) applikation fortsættes.
 
-## Conclusion and Next Steps
+## Konklusion og Næste Trin
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsæt med Sikkerhedshensyn**
 
-**Rationale:**
-Evidence level L2 is supported by one completed Phase 2 RCT in high-grade CIN and consistent mechanistic/case-series data in VIN and AK, and the underlying TLR7 mechanism is already clinically validated in imiquimod's approved use for actinic keratosis. However, imiquimod is not currently marketed in Denmark, and two data gaps — missing official MOA documentation (DG002) and missing TFDA/SmPC warnings and contraindications (DG001, Blocking) — must be resolved before this candidate can advance past the safety pre-screen.
+**Begrundelse:**
+Bevisniveau L2 understøttes af ét afsluttet Phase 2 RCT ved high-grade CIN og konsistent mekanistisk/case-serier data ved VIN og AK, og den underliggende TLR7-mekanisme er allerede klinisk valideret ved imiquimods godkendt brug for aktinisk keratose. Imiquimod er dog ikke markedsført i Danmark, og to datahullinger — manglende officiel MOA-dokumentation (DG002) og manglende TFDA/SmPC advarsler og kontraindikationer (DG001, blokerende) — skal løses før denne kandidat kan avancere forbi sikkerhedsforsegningen.
 
-**To proceed, the following is needed:**
-- Official Summary of Product Characteristics (warnings, contraindications, DDI) — currently blocking safety pre-screen (S1)
-- Formal DrugBank/regulatory-sourced mechanism-of-action documentation
-- Confirmation of route/formulation compatibility for non-cutaneous pre-malignant sites (cervix, vulva, anus) versus imiquimod's existing topical skin formulation
-- A larger, adequately powered controlled trial in CIN, given that the only dedicated Phase 3 RCT (NCT02329171) was terminated early due to enrollment failure (n=9)
-- A Danish marketing authorisation pathway assessment, since imiquimod currently holds no registration in Denmark
+**For at fortsætte kræves følgende:**
+- Officielt produktresumé (advarsler, kontraindikationer, DDI) — i øjeblikket blokerer sikkerhedsforsegning (S1)
+- Formelt DrugBank/regulatorisk-kildet virkningsmekanisme-dokumentation
+- Bekræftelse af rute/formulering-kompatibilitet for non-kutane præ-maligne steder (cervix, vulva, anus) versus imiquimods eksisterende topiske hudformulering
+- Et større, passende drevet kontrolstudie ved CIN, givet at det eneste dedikerede Phase 3 RCT (NCT02329171) blev termineret tidligt på grund af indskrivningsfejl (n=9)
+- En dansk markedsføringstilladelse sti-vurdering, da imiquimod i øjeblikket har ingen registrering i Danmark
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

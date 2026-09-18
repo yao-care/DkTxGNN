@@ -29,62 +29,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# TUROCTOCOG ALFA: From Haemophilia A to Primary Release Disorder of Platelets
+# TUROCTOCOG ALFA: Fra hæmofili A til primær trombocyt-udløselsforstyrrelse
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Turoctocog alfa is a recombinant Factor VIII (FVIII) replacement therapy; the evidence pack's own rationale text confirms its established use is Haemophilia A (congenital FVIII deficiency), though no structured original-indication or Danish licence data is on file.
-The TxGNN model predicts possible relevance to **Primary Release Disorder of Platelets** (score **99.99%**), but this is a pure knowledge-graph similarity signal — **zero clinical trials and zero publications** support it, and the pack's own mechanistic assessment states there is **no known pharmacological basis** for the link.
+Turoctocog alfa er en rekombinant faktor VIII (FVIII) substitutionsterapi; bevisepakkens egen rationale-tekst bekræfter, at dets etablerede indikation er hæmofili A (medfødt FVIII-mangel), selvom strukturerede oprindelige indikations- eller danske licensdata ikke er til stede.
+TxGNN-modellen forudsiger mulig relevans for **primær trombocyt-udløselsforstyrrelse** (score **99.99%**), men dette er et rent knowledge-graph-lignelses-signal — **nul kliniske forsøg og nul publikationer** understøtter det, og bevisepakkens egen mekanistiske vurdering siger, at der er **ingen kendt farmakologisk basis** for forbindelsen.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Haemophilia A (congenital Factor VIII deficiency) — per drug-class/rationale text; not present in structured licence data |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|---------|
+| Original indikation | Hæmofili A (medfødt faktor VIII-mangel) — ifølge medicinklasse/rationale-tekst; ikke til stede i strukturerede licensdata |
+| Forudsagt ny indikation | Primær trombocyt-udløselsforstyrrelse |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Bevisniveau | L5 (modelforudsigelse kun — ingen kliniske forsøg eller litteratur identificeret) |
+| Status på det danske marked | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, turoctocog alfa is a recombinant human Factor VIII replacement therapy; per the evidence pack's own repurposing rationale, its established role is in Haemophilia A, where FVIII acts as a cofactor in the intrinsic coagulation cascade (the tenase complex, together with Factor IXa) to support thrombin generation.
+I øjeblikket er detaljerede mekanisme-for-handling-data ikke tilgængelige. Baseret på kendt information, turoctocog alfa er en rekombinant humant faktor VIII-substitutionsterapi; ifølge bevisepakkens egen repurposing-rationalet, er dets etablerede rolle i hæmofili A, hvor FVIII fungerer som en kofaktor i den indre koagulationskaskade (tenase-komplekset, sammen med faktor IXa) til at understøtte trombin-generering.
 
-Primary Release Disorder of Platelets, by contrast, is a defect in platelet granule (dense/alpha granule) content release that impairs secondary platelet aggregation — a distinct haemostatic mechanism from the coagulation-cascade role of FVIII. The evidence pack's own mechanistic assessment states explicitly that there is no known pharmacological basis supporting FVIII supplementation to improve platelet granule release function.
+Primær trombocyt-udløselsforstyrrelse er derimod en defekt i trombocyt-granul (tæt/alfa-granul) indholdsudløsning, som forringer sekundær trombocyt-aggregering — en særskilt hæmostatisk mekanisme fra koagulations-kaskade-rollen for FVIII. Bevisepakkens egen mekanistiske vurdering siger eksplicit, at der ikke er kendt farmakologisk basis, der understøtter FVIII-supplering for at forbedre trombocyt-granul-udløsnings-funktionen.
 
-This prediction should therefore be read as a pure knowledge-graph similarity signal — likely driven by shared proximity to a general "bleeding disorder"/"haemostasis" node — rather than a mechanistically grounded hypothesis. The same caveat applies to three of the other four predicted indications in this pack (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome), each of which the pack's rationale text also flags as mechanistically weak or indirect. The exception is *acquired coagulation factor deficiency* (rank 9/10), where a direct mechanistic link is plausible **if** the diagnosis specifically covers acquired FVIII deficiency (e.g., acquired haemophilia A) — this remains unconfirmed in the current data.
+Denne forudsigelse bør således læses som et rent knowledge-graph-lignelses-signal — sandsynligvis drevet af delt nærhed til en generel "blødningsforstyrrelse"/"hæmostase"-knude — snarere end en mekanistisk begrundet hypotese. Den samme forbehold gælder for tre af de øvrige fire forudsagte indikationer i denne pakke (pseudo-von Willebrand-sygdom, Glanzmann-thrombasthenia, Scott-syndrom), som bevisepakkens rationale-tekst også markerer som mekanistisk svag eller indirekte. Undtagelsen er *erhvervet koagulationsfaktor-mangel* (rank 9/10), hvor en direkte mekanistisk forbindelse er plausibel **hvis** diagnosen specifikt dækker erhvervet FVIII-mangel (f.eks. erhvervet hæmofili A) — dette er stadig ubekræftet i de aktuelle data.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbeviser
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbeviser
 
-Currently no related literature available.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-This product is not currently marketed in Denmark (Laegemiddelstyrelsen). No marketing authorisations are recorded in the evidence pack (total_licenses = 0).
+Dette produkt er i øjeblikket ikke markedsført i Danmark (Laegemiddelstyrelsen). Ingen markeringsgodkendelser er registreret i bevisepakken (total_licenses = 0).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst den godkendte sammenfatning af produktegenskaber (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-All predicted indications carry Evidence Level L5 (model prediction only), with no clinical trials or literature identified for any of them, and the pack's own analysis flags weak-to-absent mechanistic plausibility for most candidates. Combined with the drug not being marketed in Denmark and missing SmPC/MOA data, there is currently no basis to advance beyond hypothesis generation.
+**Begrundelse:**
+Alle forudsagte indikationer har bevisniveau L5 (modelforudsigelse kun), uden kliniske forsøg eller litteratur identificeret for nogen af dem, og bevisepakkens egen analyse markerer svag-til-fraværende mekanistisk plausibilitet for de fleste kandidater. Kombineret med, at medicinen ikke er markedsført i Danmark og manglende SmPC/MOA-data, er der i øjeblikket ingen basis for at gå videre end hypotesegenerering.
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings and contraindications (blocking data gap — DG001)
-- Confirmed mechanism of action documentation (DG002)
-- Pharmacological/preclinical validation of any FVIII–platelet-disorder mechanistic link before clinical hypothesis testing
-- Clarification of whether "acquired coagulation factor deficiency" specifically includes acquired FVIII deficiency/inhibitors, which would strengthen that candidate's rationale
-- A repeat drug interaction (DDI) query, as the initial query returned no results
+**For at fortsætte, kræves følgende:**
+- Dansk/EU-SmPC advarsler og kontraindikationer (blokering af datagab — DG001)
+- Bekræftet mekanisme-for-handling-dokumentation (DG002)
+- Farmakologisk/preklinisk validering af eventuel FVIII–trombocyt-forstyrrelse mekanistisk forbindelse, før klinisk hypotesetest
+- Præcisering af, hvorvidt "erhvervet koagulationsfaktor-mangel" specifikt omfatter erhvervet FVIII-mangel/inhibitorer, hvilket ville styrke denne kandidats rationalet
+- En gentagen medicin-interaktion (DDI) søgning, da den oprindelige forespørgsel ikke returnerede nogen resultater
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

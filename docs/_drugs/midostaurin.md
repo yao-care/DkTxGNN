@@ -29,94 +29,95 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Midostaurin (DB06595): Drug Repurposing Assessment — TxGNN Prediction Data Unavailable
+# Midostaurin (DB06595): Vurdering af Lægemiddels Genanvendelse — TxGNN-forudsigelsesdata ikke tilgængelig
 
 ---
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Midostaurin (Rydapt®) is a multi-targeted kinase inhibitor with established antineoplastic activity, notably approved in the EU for FLT3-mutated acute myeloid leukaemia and advanced systemic mastocytosis.
-The current Evidence Pack contains **no TxGNN repurposing predictions** for this compound, and two critical data fields — mechanism of action and national prescribing information — are missing.
-**A complete drug repurposing evaluation cannot be conducted at this time; a Hold decision is recommended pending data remediation.**
+Midostaurin (Rydapt®) er en multi-målrettet kinasehæmmer med etableret antineoplastisk aktivitet, navnlig godkendt i EU til FLT3-muteret akut myeloid leukæmi og avanceret systemisk mastocytose.
+Den nuværende Evidenspakke indeholder **ingen TxGNN-genanvendelsesforudsigelser** for dette lægemiddel, og to kritiske datafelter — virkningsmekanisme og nationale forskrivningsoplysninger — mangler.
+**En fuldstændig vurdering af lægemiddels genanvendelse kan ikke udføres på nuværende tidspunkt; en Hold-beslutning anbefales i afventning af datareparation.**
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | FLT3-mutated AML; advanced systemic mastocytosis *(sourced from general pharmaceutical knowledge — absent from Evidence Pack)* |
-| Predicted New Indication | Not available — TxGNN pipeline returned no candidates |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not determinable |
-| Denmark Market Status | Not found in Laegemiddelstyrelsen national registry |
-| Number of Marketing Authorisations | 0 (national registry query) |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | FLT3-muteret AML; avanceret systemisk mastocytose *(stammer fra generelle farmaceutiske oplysninger — fraværende fra Evidenspakke)* |
+| Forudsagt ny indikation | Ikke tilgængelig — TxGNN-pipeline'et returnerede ingen kandidater |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Bevisniveau | Kan ikke bestemmes |
+| Markedsstatus i Danmark | Ikke fundet i Laegemiddelstyrelses nationale register |
+| Antal markedsføringstilladelser | 0 (forespørgsel til nationalt register) |
+| Anbefalet beslutning | **Hold** |
 
 ---
 
-## Why No Prediction Is Available
+## Hvorfor ingen forudsigelse er tilgængelig
 
-The Evidence Pack for midostaurin (DB06595) contains an empty `predicted_indications` array, meaning the TxGNN pipeline did not return any repurposing candidates as of the data cutoff (2026-04-04). Two upstream data gaps most likely caused this failure:
+Evidenspakken til midostaurin (DB06595) indeholder en tom `predicted_indications` array, hvilket betyder, at TxGNN-pipeline'et ikke returnerede nogen genanvendelseskandidater på tidspunktet for dataafskæring (2026-04-04). To kritiske datagab tidligere i processen formentlig foranledigede denne fejl:
 
-**Missing mechanism of action (MOA).** The DrugBank query returned a result record (query log ID 2, status: success), yet the `original_moa` field was not populated. Without a pharmacological mechanism profile, the TxGNN graph model lacks the node features needed to score drug–disease links reliably.
+**Manglende virkningsmekanisme (MOA).** DrugBank-forespørgslen returnerede en resultatpost (forespørgsels-log-ID 2, status: succes), men feltet `original_moa` blev ikke udfyldt. Uden en farmakologisk mekanismeprofil mangler TxGNN-grafmodellen de nodekarakteristika, der er nødvendige for pålidelig scoring af lægemiddel–sygdoms-koblinger.
 
-**Missing regulatory prescribing information.** The Laegemiddelstyrelsen registry query returned zero licences. Notably, midostaurin holds an EMA centralised marketing authorisation (Rydapt®, EU/1/17/1213, granted June 2017) for use in Denmark and other EU member states. The national registry query appears not to have captured this centralised pathway, leaving indication vocabulary unmapped. This directly limits disease-node alignment in the knowledge graph and may have suppressed candidate generation.
+**Manglende regulatoriske forskrivningsoplysninger.** Forespørgslen til Laegemiddelstyrelses register returnerede nul tilladelser. Bemærkelsesværdigt holder midostaurin en EMA-centraliseret markedsføringstilladelse (Rydapt®, EU/1/17/1213, givet juni 2017) til brug i Danmark og andre EU-medlemsstater. Forespørgslen til det nationale register synes ikke at have erfasset denne centraliserede godkendelsesprocedure, hvilket efterlader indikationsvokabular ukoordineret. Dette begrænser direkte sygdoms-node-tilpasning i vidensgrafen og kan have undertrykt kandidatgenerering.
 
-Until these gaps are resolved, any repurposing hypothesis for midostaurin would rest on the model's structural graph inference alone, without pharmacological or regulatory context — which is insufficient for a clinical evaluation.
+Indtil disse gab er lukket, ville enhver genanvendelseshypotese for midostaurin hvile udelukkende på modelens strukturelle grafinferens, uden farmakologisk eller regulatorisk kontekst — hvilket er utilstrækkeligt for en klinisk evaluering.
 
 ---
 
-## Denmark Market Information
+## Markedsoplysninger for Danmark
 
-The Evidence Pack reports zero marketing authorisations via the Laegemiddelstyrelsen national registry. Based on publicly available pharmaceutical records, Rydapt® (midostaurin 25 mg hard capsules, Novartis) holds an EMA centralised authorisation accessible in Denmark; however, this must be formally verified before the next pipeline run.
+Evidenspakken rapporterer nul markedsføringstilladelser via Laegemiddelstyrelses nationale register. Baseret på offentligt tilgængelige farmaceutiske registre holder Rydapt® (midostaurin 25 mg hårde kapsler, Novartis) en EMA-centraliseret godkendelse, der er tilgængelig i Danmark; dette skal dog formelt verificeres før næste pipeline-køring.
 
-| Note | Detail |
+| Bemærkning | Detail |
 |------|--------|
-| National registry result | 0 licences retrieved |
-| Expected EMA authorisation | EU/1/17/1213 (Rydapt® — requires verification) |
-| Recommended action | Query EMA EPAR database directly; confirm product is on the Danish formulary and retrieve the approved indication text for disease mapping |
+| Resultat af nationale registerforespørgsel | 0 tilladelser hentet |
+| Forventet EMA-godkendelse | EU/1/17/1213 (Rydapt® — kræver verificering) |
+| Anbefalet handling | Forespørg EMA EPAR-database direkte; bekræft, at produktet er på den danske lægemiddelliste, og hent den godkendte indikationstekst til sygdommapping |
 
 ---
 
-## Cytotoxicity
+## Cytotoksicitet
 
-Midostaurin is classified as an antineoplastic agent on the basis of its approved indications (AML, systemic mastocytosis) and its mechanism of action as a multi-targeted protein kinase inhibitor. The section below is based on general pharmaceutical knowledge, as the Evidence Pack did not supply drug-level safety data; all entries should be verified against the current SmPC before clinical use.
+Midostaurin klassificeres som et antineoplastisk middel på grundlag af dets godkendte indikationer (AML, systemisk mastocytose) og dets virkningsmekanisme som en multi-målrettet proteinkinasehæmmer. Afsnittet nedenfor er baseret på generelle farmaceutiske oplysninger, da Evidenspakken ikke leverede lægemiddelniveau-sikkerhedsdata; alle poster bør verificeres mod det aktuelle SmPC før klinisk brug.
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — multi-targeted protein kinase inhibitor (FLT3, KIT, PDGFR, PKC isoforms, VEGFR-2) |
-| Myelosuppression Risk | High when used in AML induction regimens (febrile neutropenia, anaemia, thrombocytopenia are well-characterised in combination with cytarabine/daunorubicin) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count with differential, liver function tests (ALT/AST/bilirubin), renal function, QTc interval, pulmonary function (interstitial lung disease risk) |
-| Handling Protection | Must follow cytotoxic drug handling regulations per local pharmacy guidelines |
+| Cytotoksicitet-klassifikation | Målrettet terapi — multi-målrettet proteinkinasehæmmer (FLT3, KIT, PDGFR, PKC-isoformer, VEGFR-2) |
+| Myelosuppressionsrisiko | Høj, når den bruges i AML-induktionsregimener (febril neutropeni, anæmi, trombocytopeni er velkarakteriseret i kombination med cytarabin/daunorubicin) |
+| Emetogenicitet-klassifikation | Lav til moderat |
+| Overvågningspunkter | Fuldt blodtal med differential, leverfunktionsprøver (ALT/AST/bilirubin), nyrefunktion, QTc-interval, lungefunktion (risiko for interstitiel lungesygdom) |
+| Håndteringsbeskyttelse | Skal følge regulering for håndtering af cytotoksiske lægemidler i henhold til lokale farmaceutiske retningslinjer |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-The Evidence Pack did not contain safety warnings, contraindications, or drug interaction data for midostaurin. Please refer to the approved Summary of Product Characteristics (SmPC) for all safety information before any clinical or research use.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The Evidence Pack is critically incomplete — no TxGNN repurposing predictions were generated, and the two data gaps classified as Blocking/High severity (prescribing information and MOA) directly prevent both the prediction pipeline from functioning and the safety screening from proceeding. Generating a repurposing recommendation under these conditions would not be clinically responsible.
-
-**To proceed, the following is needed:**
-
-1. **Investigate empty prediction output** — Determine whether the pipeline failed silently (e.g., DrugBank ID DB06595 not matched to a KG node, or all scores below the reporting threshold). Review `run_kg_prediction.py` logs for midostaurin.
-2. **Retrieve MOA data (DG002)** — Query the DrugBank API for DB06595 pharmacology, mechanism of action, and drug categories. The query log confirms a successful DrugBank hit exists; the MOA field must be extracted and populated.
-3. **Retrieve national prescribing information (DG001)** — Download and parse the Rydapt® SmPC from either the EMA EPAR database (EU/1/17/1213) or the Laegemiddelstyrelsen product portal to populate warnings, contraindications, and approved indication text.
-4. **Re-align disease vocabulary** — Once the approved indication text is available, re-run disease mapping to ensure AML and mastocytosis nodes are correctly linked in the knowledge graph.
-5. **Re-generate Evidence Pack** — After resolving all data gaps, re-execute the full evidence collection pipeline and regenerate this report. A complete evaluation with TxGNN predictions, clinical trial evidence, and safety screening should then be possible.
+Evidenspakken indeholdt ikke sikkerhedsadvarsler, kontraindikationer eller lægemiddel-interaktionsdata for midostaurin. Se venligst det godkendte Produktresume (SmPC) for alle sikkerhedsoplysninger før enhver klinisk eller forskningsmæssig brug.
 
 ---
 
-*This report is intended for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application.*
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Evidenspakken er kritisk ufuldstændig — ingen TxGNN-genanvendelsesforudsigelser blev genereret, og de to datagab klassificeret som Blokerend/Høj alvorlighed (forskrivningsoplysninger og MOA) forhindrer direkte både forudsigelsespipeline'et i at fungere og sikkerhedsscreening i at fortsætte. At generere en genanvendelsesanbefaling under disse betingelser ville ikke være klinisk ansvarligt.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+1. **Undersøg tomt forudsigelsesoutput** — Bestem, om pipeline'et fejlede stilfærdigt (f.eks. DrugBank ID DB06595 ikke matchet til en KG-node, eller alle scores under rapporteringsgrænsværdien). Gennemgå `run_kg_prediction.py` logge for midostaurin.
+2. **Hent MOA-data (DG002)** — Forespørg DrugBank API til DB06595 farmakologi, virkningsmekanisme og lægemiddelkategorier. Forespørgselsloggen bekræfter, at et vellykket DrugBank hit findes; MOA-feltet skal ekstraheres og udfyldes.
+3. **Hent nationale forskrivningsoplysninger (DG001)** — Download og parse Rydapt® SmPC fra enten EMA EPAR-databasen (EU/1/17/1213) eller Laegemiddelstyrelses produktportal til at udfylde advarsler, kontraindikationer og godkendt indikationstekst.
+4. **Genjuster sygdomsvokabular** — Når først den godkendte indikationstekst er tilgængelig, kør sygdommapping igen for at sikre, at AML og mastocytose-noder er korrekt forbundet i vidensgrafen.
+5. **Regenerer Evidenspakke** — Efter at have løst alle datagab, genudføre det fuldstændige pipeline til bevisindsamling, og regenerer denne rapport. En fuldstændig evaluering med TxGNN-forudsigelser, klinisk forsøgsbevis og sikkerhedsscreening bør derefter være mulig.
+
+---
+
+*Denne rapport er kun beregnet til forskningsmæssige formål og udgør ikke medicinsk rådgivning. Alle genanvendelseskandidater kræver klinisk validering før enhver terapeutisk brug.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

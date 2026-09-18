@@ -29,81 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Prasugrel: From Antiplatelet Therapy (ACS/PCI) to Pulmonary Hypertension
+# Prasugrel: Fra trombocythemmende terapi (ACS/PCI) til lungehypertension
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Prasugrel is a thienopyridine P2Y12 inhibitor; the evidence in this pack identifies it as an antiplatelet agent used alongside aspirin after percutaneous coronary intervention (PCI) in acute coronary syndrome (ACS) patients. The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but this direction is currently supported only by **2 clinical trials** and **2 publications**, none of which directly evaluate prasugrel in pulmonary hypertension — the link is model-driven, not evidence-driven.
+Prasugrel er en thienopyridin P2Y12-inhibitor; beviserne i denne pakke identificerer det som et trombocythemmende middel, der anvendes sammen med acetylsalicylsyre efter perkutan koronar intervention (PCI) hos patienter med akut koronart syndrom (ACS). TxGNN-modellen forudsiger, at det kan være effektivt for **lungehypertension**, men denne retning er i øjeblikket understøttet af kun **2 kliniske forsøg** og **2 publikationer**, hvoraf ingen direkte evaluerer prasugrel ved lungehypertension — forbindelsen er modeldrevet, ikke bevisbaseret.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Not documented in Danish licensing data (drug is not marketed); literature in this pack describes established use as dual antiplatelet therapy (with aspirin) following PCI in acute coronary syndrome |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke dokumenteret i dansk licenseringsdata (lægemidlet er ikke markedsført); litteratur i denne pakke beskriver etableret brug som dobbelt trombocythemmende terapi (med acetylsalicylsyre) efter PCI ved akut koronart syndrom |
+| Forudsagt ny indikation | Lungehypertension |
+| TxGNN-forudsigelsesscore | 99.88% |
+| Bevisniveau | L5 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Udsæt |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available for prasugrel in this evidence pack. Based on known information, prasugrel is part of the thienopyridine class of P2Y12 platelet inhibitors, and its efficacy as antiplatelet therapy following PCI in acute coronary syndrome is well established in the cited literature; mechanistically, this class could in theory extend to conditions with a thrombotic component.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige for prasugrel i denne bevismappe. Baseret på kendt information er prasugrel medlem af thienopyridineklassen af P2Y12-inhibitorer, og dets effektivitet som trombocythemmende terapi efter PCI ved akut koronart syndrom er vel etableret i den citerede litteratur; mekanistisk kunne denne klasse teoretisk udvides til tilstande med en trombotisk komponent.
 
-For pulmonary hypertension specifically, there is no established direct mechanistic link. The theoretical rationale is that antiplatelet agents might reduce microthrombus formation implicated in chronic thromboembolic pulmonary hypertension (CTEPH), but this connection is speculative. Neither of the two associated clinical trials (an observational NOAC-management study in atrial fibrillation, and a retrospective cancer-associated thrombosis eligibility study) nor the two associated publications (a clopidogrel/prasugrel adherence study in ACS, and a COVID-19 comorbidity registry analysis) were designed to evaluate prasugrel in pulmonary hypertension. All four were surfaced by the TxGNN score alone, not by direct evidentiary support.
+For lungehypertension specifikt findes der ingen etableret direkte mekanistisk forbindelse. Det teoretiske rationale er, at trombocythemmende midler kunne reducere dannelsen af mikrotrombi impliceret i kronisk tromboembolsk lungehypertension (CTEPH), men denne forbindelse er spekulativ. Ingen af de to tilknyttede kliniske forsøg (et observationelt NOAC-behandlingsstudie ved atrieflimren og et retrospektivt kræftassocieret trombose-berettigelsesstudium) eller de to tilknyttede publikationer (en clopidogrel/prasugrel-compliance-studie ved ACS og en COVID-19-komorbiditetsregistreringanalyse) var designet til at evaluere prasugrel ved lungehypertension. Alle fire blev afsløret af TxGNN-scoren alene, ikke ved direkte bevismæssig understøttelse.
 
-For context, this evidence pack also contains a lower-ranked but mechanistically better-supported candidate — migraine disorder (L3, decision stage S1) — where thienopyridine-class antiplatelet agents and the P2Y12 inhibitor ticagrelor have documented symptom benefit in patent foramen ovale (PFO)-associated migraine. That signal, while still class-level rather than prasugrel-specific, is stronger than the pulmonary hypertension signal presented here.
+For kontekst indeholder denne bevismappe også en lavere-rangeret men mekanistisk bedre understøttet kandidat — migrænestørning (L3, beslutningsstadium S1) — hvor thienopyridin-klasse trombocythemmende midler og P2Y12-inhibitoren ticagrelor har dokumenteret symptomatisk gavn ved patent foramen ovale (PFO)-associeret migræne. Det signal, selvom det stadig er klasseopfattet snarere end prasugrel-specifikt, er stærkere end det lungehypertension-signal, der præsenteres her.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Deltagerantal | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Observational, cross-sectional study describing NOAC management in elderly Spanish patients with non-valvular atrial fibrillation; not a prasugrel or pulmonary hypertension study |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completed | 300 | Retrospective study on the proportion of cancer-associated thrombosis patients ineligible for the CARAVAGGIO trial; not a drug intervention or pulmonary hypertension study |
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Afsluttet | 500 | Observationelt tværsnitsstudium, der beskriver NOAC-behandling hos ældre spanske patienter med ikke-valvulær atrieflimren; ikke et prasugrel- eller lungehypertension-studium |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Afsluttet | 300 | Retrospektivt studium om andelen af kræftassocierede thrombose-patienter, der ikke var berettiget til CARAVAGGIO-forsøget; ikke en lægemiddelinterventions- eller lungehypertension-undersøgelse |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Current Medical Research and Opinion | Evaluates factors associated with clopidogrel/prasugrel use and adherence after PCI in ACS patients; does not address pulmonary hypertension |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort/Observational | Kardiologiia | Analyzes background cardiovascular drug therapy and COVID-19 outcomes in the ACTIV registry; does not address prasugrel or pulmonary hypertension specifically |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Kohort | Current Medical Research and Opinion | Evaluerer faktorer forbundet med clopidogrel/prasugrel-brug og compliance efter PCI hos ACS-patienter; adresserer ikke lungehypertension |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Kohort/Observationelt | Kardiologiia | Analyserer baggrundsbehandling med kardiovaskulære lægemidler og COVID-19-resultater i ACTIV-registret; adresserer ikke prasugrel eller lungehypertension specifikt |
 
 ---
 
-## Denmark Market Information
+## Danmarks markedsinformation
 
-Prasugrel is not currently marketed in Denmark. No national (Laegemiddelstyrelsen) or centralised (EMA) marketing authorisations are on record in this evidence pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Prasugrel er ikke i øjeblikket markedsført i Danmark. Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser er registreret i denne bevismappe (0 licenser).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst den godkendte Sammenfattende Produktkarakteristika (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-- The TxGNN prediction score is high, but no clinical trial or publication in this pack directly evaluates prasugrel in pulmonary hypertension; the mechanistic link (antiplatelet effect on CTEPH microthrombosis) is speculative and unconfirmed. Combined with the drug's non-marketed status in Denmark, this does not meet the bar for further development at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC label warnings and contraindications (currently a blocking data gap — required before any safety pre-assessment)
-- Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
-- Preclinical or mechanistic studies specifically linking P2Y12 inhibition to pulmonary hypertension (particularly CTEPH subtype)
-- A defined regulatory pathway, since prasugrel currently holds no marketing authorisation in Denmark
-- Consideration of the migraine disorder candidate (L3 evidence) as a comparatively stronger repurposing lead for further investigation
+## Konklusion og næste skridt
+
+**Beslutning: Udsæt**
+
+**Begrundelse:**
+- TxGNN-forudsigelsesscore er høj, men intet klinisk forsøg eller publikation i denne mappe evaluerer direkte prasugrel ved lungehypertension; den mekanistiske forbindelse (trombocythemmende effekt på CTEPH-mikrotrombose) er spekulativ og ubekræftet. Kombineret med lægemidlets ikke-markedsførte status i Danmark opfylder dette ikke niveauet for yderligere udvikling på dette tidspunkt.
+
+**For at fortsætte er følgende nødvendig:**
+- TFDA/Dansk SmPC-etiketvarsler og kontraindikationer (i øjeblikket en blokerende datagab — påkrævet før nogen sikkerhedsforudvurdering)
+- Bekræftet virkningsmekanisme-data (MOA) fra DrugBank eller tilsvarende kilder
+- Prækliniske eller mekanistiske studier, der specifikt forbinder P2Y12-hæmning til lungehypertension (særligt CTEPH-undertypen)
+- En defineret regulatorisk vej, da prasugrel i øjeblikket ikke har markedsføringstilladelse i Danmark
+- Overvejelse af migræne-kandidaten (L3-bevis) som en komparativt stærkere kandidat til videre undersøgelse af oldrug-nybrug-potentiale
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

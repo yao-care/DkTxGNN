@@ -29,89 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+# Empagliflozin: Fra type 2-diabetes mellitus til klassisk Stiff Person Syndrome
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Empagliflozin is a sodium-glucose co-transporter 2 (SGLT2) inhibitor primarily established for the treatment of type 2 diabetes mellitus, heart failure, and chronic kidney disease.
-The TxGNN model predicts it may be effective for **Classic Stiff Person Syndrome**, a rare autoimmune neurological disorder characterised by progressive muscle rigidity.
-However, **no clinical trials or published literature** currently support this repurposing direction, and the mechanistic link is considered highly speculative.
+Empagliflozin er en natriumglukose-cotransporter 2 (SGLT2)-hæmmer, der primært er etableret til behandling af type 2-diabetes mellitus, hjertesvigt og kronisk nyresygdom. TxGNN-modellen forudsiger, at den kan være effektiv mod **klassisk Stiff Person Syndrome**, en sjælden autoimmun neurologisk lidelse karakteriseret ved progressiv muskelrigiditet. Der er imidlertid **ingen kliniske forsøg eller publiceret litteratur**, der i øjeblikket understøtter denne omformålsretning, og det mekanistiske forhold anses for højst spekulativt.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|---------|
-| Original Indication | Type 2 Diabetes Mellitus (SGLT2 inhibitor class; known from pharmacological class — not derived from regulatory database) |
-| Predicted New Indication | Classic Stiff Person Syndrome |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not found in regulatory database *(see note below)* |
-| Number of Marketing Authorisations | 0 *(data source limitation — see note below)* |
-| Recommended Decision | Hold |
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Type 2-diabetes mellitus (SGLT2-hæmmer-klasse; kendt fra farmakologisk klasse — ikke udledt fra medicintilsynsdatabasen) |
+| Forudsagt ny indikation | Klassisk Stiff Person Syndrome |
+| TxGNN-forudsigelsesscore | 99.06% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke fundet i medicintilsynsdatabasen *(se bemærkning nedenfor)* |
+| Antal markedsføringstilladelser | 0 *(datakildebegrænsning — se bemærkning nedenfor)* |
+| Anbefalet afgørelse | Udskydelse |
 
-> **⚠️ Data Source Note:** The regulatory database consulted returned no records for empagliflozin. This likely reflects a limitation of the data source rather than actual market absence. Empagliflozin (Jardiance®) holds a centralised EMA marketing authorisation valid across all EU/EEA member states, including Denmark. Clinicians should verify the current approved indications and SmPC directly via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance) or the Danish Medicines Agency ([Lægemiddelstyrelsen](https://www.laegemiddelstyrelsen.dk/)).
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on its pharmacological class, empagliflozin is an SGLT2 inhibitor that reduces glucose reabsorption in the renal proximal tubule, lowering blood glucose independently of insulin. Beyond glycaemic control, SGLT2 inhibitors have demonstrated pleiotropic anti-inflammatory effects — including downregulation of NF-κB signalling and reduction of circulating IL-6 and TNF-α — as well as potential neuroprotective properties through AMPK activation and promotion of ketone body production.
-
-Classic Stiff Person Syndrome (SPS) is a rare, severe autoimmune neurological condition. It is primarily driven by anti-GAD65 antibodies (directed against glutamic acid decarboxylase 65), which disrupt GABAergic inhibitory interneurons in the spinal cord and brainstem, leading to relentless axial muscle stiffness, episodic spasms, and progressive disability. The TxGNN model likely identifies a distant connection via shared inflammatory or metabolic network nodes in the biomedical knowledge graph.
-
-However, the mechanistic link between SGLT2 inhibition and SPS pathophysiology is **highly indirect and speculative**. There is currently no experimental evidence that empagliflozin can modulate anti-GAD65 autoimmunity, penetrate the central nervous system at clinically relevant concentrations, or directly restore GABAergic inhibitory tone. The peripheral anti-inflammatory effects of SGLT2 inhibition, while real, are unlikely to address the core central autoimmune mechanism of SPS. Biological plausibility for clinical benefit is therefore considered very low at this stage.
+> **⚠️ Bemærkning om datakilde:** Medicintilsynsdatabasen søgt returnerede ingen poster for empagliflozin. Dette afspejler sandsynligvis en begrænsning af datakilden snarere end faktisk fravær på markedet. Empagliflozin (Jardiance®) har en centraliseret EMA-markedsføringstilladelse, der er gyldig på tværs af alle EU/EØS-medlemsstater, herunder Danmark. Læger bør verificere de aktuelle godkendte indikationer og SmPC direkte via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance) eller Lægemiddelstyrelsen ([Lægemiddelstyrelsen](https://www.laegemiddelstyrelsen.dk/)).
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered for empagliflozin in classic stiff person syndrome.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i det aktuelle bevisæske. Baseret på sin farmakologiske klasse er empagliflozin en SGLT2-hæmmer, der reducerer glukosereabsorption i nyrernes proximale tubulus, hvilket sænker blodglukose uafhængigt af insulin. Ud over glykostatisk kontrol har SGLT2-hæmmere demonstreret pleiotrofiske anti-inflammatoriske effekter — herunder downregulering af NF-κB-signalering og reduktion af cirkulerende IL-6 og TNF-α — samt mulige neuroprotektive egenskaber gennem AMPK-aktivering og fremmelse af ketonlegemsfremstilling.
 
----
+Klassisk Stiff Person Syndrome (SPS) er en sjælden, alvorlig autoimmun neurologisk tilstand. Den er primært drevet af anti-GAD65-antistoffer (rettet mod glutaminsyrdecarboxylase 65), som forstyrrer GABAergiske inhibitoriske interneuroner i rygmarv og hjernestammen, hvilket fører til ubarmhjertig aksial muskelrigiditet, episodiske kramper og progressiv invaliditet. TxGNN-modellen identificerer sandsynligvis en fjern forbindelse via delte inflammatoriske eller metaboliske netværksknudepunkter i det biomedicinske vidensgrafen.
 
-## Literature Evidence
-
-Currently no related literature available for empagliflozin in classic stiff person syndrome.
+Det mekanistiske forhold mellem SGLT2-hæmning og SPS-patofysiologi er imidlertid **højst indirekte og spekulativt**. Der er i øjeblikket ingen eksperimentelle beviser for, at empagliflozin kan modulere anti-GAD65-autoimmunitet, trænge ind i centralnervesammen ved klinisk relevante koncentrationer, eller direkte genoprette GABAergisk inhibitorisk tone. De periferale anti-inflammatoriske effekter af SGLT2-hæmning, selvom reale, er usandsynligt at addressere SPS's kernefokuserede centrale autoimmune mekanisme. Biologisk plausibilitet for klinisk fordel anses derfor for meget lav på dette stadium.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsbeviser
 
-No marketing authorisation records were returned from the regulatory database for empagliflozin. As noted above, this reflects a data gap rather than actual non-approval. For confirmed authorisation details and the current approved SmPC, please consult:
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for empagliflozin i klassisk Stiff Person Syndrome.
+
+---
+
+## Litteraturbeviser
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig for empagliflozin i klassisk Stiff Person Syndrome.
+
+---
+
+## Markedsinformation for Danmark
+
+Ingen markedsføringstilladelsesposter blev returneret fra medicintilsynsdatabasen for empagliflozin. Som nævnt ovenfor afspejler dette et datahul snarere end faktisk manglende godkendelse. For bekræftede godkendelsesdetaljer og den aktuelle godkendte SmPC skal du konsultere:
 
 - **EMA:** [Jardiance® EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance)
 - **Lægemiddelstyrelsen:** [produktresumé (SmPC)](https://www.laegemiddelstyrelsen.dk/)
 
 ---
 
-## Safety Considerations
+## Sikkerhedsmæssige overvejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte Produktinformationsark (SmPC) for sikkerhedsinformation.
 
-Full safety data — including key warnings, contraindications, and drug interactions — were not available in the Evidence Pack for this candidate. The SmPC for Jardiance® (empagliflozin) is accessible via the EMA EPAR link above and contains information on, among others: risk of diabetic ketoacidosis, urogenital infections, volume depletion, Fournier's gangrene, and renal function monitoring requirements.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-Despite a high TxGNN prediction score (99.06%), there is currently no supporting clinical or preclinical evidence for empagliflozin in classic stiff person syndrome, and the mechanistic connection to the core anti-GAD65 / GABAergic pathophysiology of SPS is highly speculative with extremely low biological plausibility. Progression at this stage is not warranted.
-
-**To proceed, the following is needed:**
-
-- **Preclinical evidence:** In vitro or animal model data demonstrating that SGLT2 inhibition affects GABAergic circuits, neuroinflammation, or anti-GAD65 autoimmune activity in the central nervous system
-- **Mechanistic hypothesis refinement:** A credible biological pathway connecting empagliflozin's known molecular effects to SPS pathophysiology (e.g., via CNS ketone body utilisation in GABAergic neurons, or modulation of peripheral Treg/Th17 balance relevant to anti-GAD65 autoimmunity)
-- **Clinical signal:** At least one published case report or pharmacovigilance signal suggesting unexpected benefit in SPS patients already receiving empagliflozin for diabetes or heart failure
-- **Full safety profile:** Retrieval of the complete SmPC (warnings, contraindications, and drug interactions) from EMA/Lægemiddelstyrelsen to enable a proper S1 safety screen
-- **Regulatory confirmation:** Verification of the current approved indications and any off-label use frameworks applicable in Denmark
+Komplette sikkerhedsdata — herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktioner — var ikke tilgængelige i bevisæsken for denne kandidat. SmPC for Jardiance® (empagliflozin) er tilgængelig via EMA EPAR-linket ovenfor og indeholder information om bl.a.: risiko for diabetisk ketoacidose, urogenitale infektioner, volumdepletion, Fourniers gangren og overvågningskrav for nyrefunktion.
 
 ---
 
-*This report is generated for research reference only. Drug repurposing candidates require clinical validation before therapeutic application. All content should be interpreted in accordance with applicable YMYL (Your Money or Your Life) standards for medical information.*
+## Konklusion og næste trin
+
+**Afgørelse: Udskydelse**
+
+**Begrundelse:**
+Trods en høj TxGNN-forudsigelsesscore (99.06%) er der i øjeblikket ingen understøttende kliniske eller prækliniske beviser for empagliflozin i klassisk Stiff Person Syndrome, og det mekanistiske forhold til SPS's kerneanti-GAD65 / GABAergisk patofysiologi er højst spekulativt med ekstremt lav biologisk plausibilitet. Fremskridt på dette stadium er ikke berettiget.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Prækliniske beviser:** In vitro eller dyremodeldata, der demonstrerer, at SGLT2-hæmning påvirker GABAergiske kredsløb, neuroinflamation eller anti-GAD65-autoimmun aktivitet i centralnervesammen
+- **Mekanistisk hypotesesfinesing:** En troværdig biologisk vej, der forbinder empagliflozins kendte molekylære effekter til SPS-patofysiologi (f.eks. via CNS-ketonlegemsudnyttelse i GABAergiske neuroner, eller modulering af perifer Treg/Th17-balance relevant for anti-GAD65-autoimmunitet)
+- **Klinisk signal:** Mindst én publiceret sag eller farmakovigilansignale, der foreslår uventet fordel hos SPS-patienter, der allerede modtager empagliflozin til diabetes eller hjertesvigt
+- **Komplet sikkerhedsprofil:** Hentning af komplet SmPC (advarsler, kontraindikationer og lægemiddelinteraktioner) fra EMA/Lægemiddelstyrelsen for at muliggøre en ordentlig S1-sikkerhedsscreening
+- **Lovgivningsmæssig bekræftelse:** Verificering af de aktuelle godkendte indikationer og eventuelle off-label-bruggrammer, der gælder i Danmark
+
+---
+
+*Denne rapport er genereret til forskningsreference alene. Kandidater til medicin-omformål kræver klinisk validering før terapeutisk anvendelse. Alt indhold bør fortolkes i overensstemmelse med gældende YMYL-standarder (Your Money or Your Life) for medicinsk information.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

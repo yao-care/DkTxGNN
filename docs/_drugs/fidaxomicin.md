@@ -29,88 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fidaxomicin: From Clostridioides difficile Infection to Staphylococcal Scalded Skin Syndrome
+# Fidaxomicin: Fra Clostridioides difficile-infektion til Staphylococcal Scalded Skin Syndrome
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Fidaxomicin is a narrow-spectrum macrolide antibiotic approved in the EU (marketed as Dificlir) for the treatment of *Clostridioides difficile*-associated diarrhoea (CDAD), acting primarily within the gastrointestinal tract due to minimal systemic absorption.
-The TxGNN model predicts it may be effective for **Staphylococcal Scalded Skin Syndrome (SSSS)**, along with several other Gram-positive bacterial and toxin-mediated infections, as the highest-ranked novel indication.
-However, **no clinical trials and no published literature** currently support any of these predicted indications, and the mechanistic evidence for translation to clinical use is considered weak.
+Fidaxomicin er en snævert-spektret makrolid-antibiotikum godkendt i EU (markedsført som Dificlir) til behandling af *Clostridioides difficile*-associeret diarré (CDAD), der virker primært i gastrointestinal-systemet på grund af minimal systemisk absorption.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Staphylococcal Scalded Skin Syndrome (SSSS)**, sammen med flere andre gram-positive bakterielle og toksine-medierede infektioner, som den højest-rangerede nye indikation.
+Der er dog **ingen kliniske forsøg og ingen offentliggjort litteratur**, der i øjeblikket understøtter nogen af disse forudsagte indikationer, og de mekanistiske beviser for translation til klinisk brug betragtes som svage.
 
 ---
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | *Clostridioides difficile*-associated diarrhoea (CDAD) |
-| Predicted New Indication | Staphylococcal Scalded Skin Syndrome |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original indikation | *Clostridioides difficile*-associeret diarré (CDAD) |
+| Forudsagt ny indikation | Staphylococcal Scalded Skin Syndrome |
+| TxGNN-forudsigelsesscore | 99.71% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsautoriseringer | 0 |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Fidaxomicin exerts its antibacterial effect by selectively inhibiting bacterial RNA polymerase — the same mechanism as rifamycins, but binding to a distinct site. This confers potent activity against Gram-positive anaerobes, most notably *Clostridioides difficile*, with virtually no systemic absorption after oral administration (bioavailability <1%). Its clinical value lies precisely in achieving very high intestinal concentrations while sparing the systemic microbiome.
+Fidaxomicin udøver sin antibakteriell effekt ved selektivt at hæmme bakteriel RNA-polymerase — den samme mekanisme som rifamyciner, men binding til et særskilt sted. Dette giver potent aktivitet mod gram-positive anaerober, især *Clostridioides difficile*, med praktisk talt ingen systemisk absorption efter oral administration (biotilgængelighed <1%). Dets kliniske værdi ligger præcis i at opnå meget høje intestinale koncentrationer, mens man skåner det systemiske mikrobiom.
 
-Staphylococcal Scalded Skin Syndrome (SSSS) is caused by exfoliative toxins (ETA/ETB) produced by *Staphylococcus aureus* — a Gram-positive organism. The TxGNN model has likely captured this taxonomic overlap through knowledge graph node similarity: both *C. difficile* and *S. aureus* are Gram-positive pathogens against which fidaxomicin has demonstrable *in vitro* activity. The same logic applies to the other top-ranked indications (bullous impetigo, impetigo, and botulism), all of which involve Gram-positive or anaerobic pathogens within the Clostridiales or Staphylococcaceae families.
+Staphylococcal Scalded Skin Syndrome (SSSS) forårsages af eksfoliativ-toksiner (ETA/ETB) produceret af *Staphylococcus aureus* — en gram-positiv patogen. TxGNN-modellen har sandsynligvis fanget denne taksonomiske overlapning gennem lighed mellem noder i knowledge graph'en: både *C. difficile* og *S. aureus* er gram-positive patogener, mod hvilke fidaxomicin har demonstrerbar *in vitro*-aktivitet. Den samme logik gælder for de øvrige top-rangerede indikationer (bullæus impetigo, impetigo og botulisme), som alle involverer gram-positive eller anærobe patogener inden for Clostridiales eller Staphylococcaceae-familierne.
 
-However, the mechanistic link breaks down at the pharmacokinetic level. SSSS and the other predicted skin and toxin-mediated infections require meaningful systemic drug concentrations to reach the site of infection (skin, neuromuscular junction, lung), which fidaxomicin cannot provide. Furthermore, in toxin-mediated diseases such as SSSS and botulism, the pathology is driven by already-released toxins; antibiotic killing of the bacterium plays only a supporting role, and the primary treatment remains antitoxin therapy or systemic anti-staphylococcal agents. The TxGNN model's high scores here reflect structural similarity in the knowledge graph — not clinical translatability.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials have been registered for fidaxomicin in any of the predicted indications.
-
-*Currently no related clinical trials registered.*
+Imidlertid bryder den mekanistiske forbindelse sammen på det farmakokinetiske niveau. SSSS og de andre forudsagte hud- og toksine-medierede infektioner kræver betydningsfulde systemiske lægemiddelkoncentrationer for at nå infektionssteder (hud, neuromuskulær junction, lunge), som fidaxomicin ikke kan give. Desuden er patologien i toksine-medierede sygdomme såsom SSSS og botulisme drevet af allerede frigivet toksiner; antibiotika-drab af bakterien spiller kun en understøttende rolle, og den primære behandling forbliver antitoksin-terapi eller systemisk anti-stafylokkok-præparater. TxGNN-modellens høje scores her afspejler strukturel lighed i knowledge graph'en — ikke klinisk translatabilitet.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsbevis
 
-No published literature has been identified linking fidaxomicin to any of the predicted indications.
+Der er ikke registreret kliniske forsøg for fidaxomicin i nogen af de forudsagte indikationer.
 
-*Currently no related literature available.*
-
----
-
-## Denmark Market Information
-
-Fidaxomicin is **not registered in Denmark** and holds no marketing authorisations with the Danish Medicines Agency (Lægemiddelstyrelsen).
-
-> **Note:** Fidaxomicin is approved in the European Union under the centralised procedure as **Dificlir** (fidaxomicin 200 mg film-coated tablets; EU/1/11/736) for the treatment of *C. difficile* infections in adults and children ≥6 months. This product is not currently marketed in Denmark. Danish clinicians requiring access would need to pursue a named-patient or compassionate use pathway.
+*Der er i øjeblikket ingen relaterede kliniske forsøg registreret.*
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Safety data specific to the Danish/EU regulatory context was not retrieved as part of this Evidence Pack. For complete safety information — including warnings, contraindications, and special populations — please consult:
+Ingen offentliggjort litteratur er blevet identificeret, der forbinder fidaxomicin til nogen af de forudsagte indikationer.
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for Dificlir available via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/dificlir) for safety information.
+*Der er i øjeblikket ingen relateret litteratur tilgængelig.*
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Fidaxomicin er **ikke registreret i Danmark** og har ingen markedsføringsautoriseringer hos Lægemiddelstyrelsen.
 
-**Rationale:**
-All five predicted indications are supported exclusively by TxGNN model prediction (Evidence Level L5), with zero clinical trials and zero publications identified. Critically, the pharmacokinetic profile of fidaxomicin — near-zero systemic bioavailability — creates a fundamental mechanistic barrier to treating any infection outside the gastrointestinal lumen, which covers all of the predicted indications.
+> **Bemærk:** Fidaxomicin er godkendt i Den Europæiske Union under centraliseret procedure som **Dificlir** (fidaxomicin 200 mg filmovertrukne tabletter; EU/1/11/736) til behandling af *C. difficile*-infektioner hos voksne og børn ≥6 måneder. Dette produkt markedsføres ikke i øjeblikket i Danmark. Danske læger, der ønsker adgang, skal forfølge en enkeltpatient- eller compassionate use-ordning.
 
-**The following would be required before this candidate could progress:**
+---
 
-- **Pharmacokinetic reassessment:** Demonstrate whether any alternative route of administration (e.g., topical, inhaled) could achieve therapeutically relevant tissue concentrations at the target site
-- **In vitro susceptibility data:** Confirm fidaxomicin MIC values for the specific pathogens involved (*S. aureus* ETA/ETB-producing strains, *C. botulinum*) under conditions relevant to the predicted indication
-- **Mechanistic feasibility study:** Address whether the toxin-mediated pathology of SSSS and botulism can be meaningfully altered by bacterial RNA polymerase inhibition after toxin release
-- **MOA documentation:** Retrieve full DrugBank mechanistic profile (currently listed as data gap) to support or refute knowledge graph predictions
-- **SmPC / Regulatory data:** Obtain full warning and contraindication data from the approved EU SmPC before any clinical hypothesis can enter safety screening (S1)
+## Sikkerhedshensyn
 
-Given the magnitude of the pharmacokinetic mismatch, repurposing fidaxomicin for systemic or skin infections is **not recommended as a near-term priority** without a novel delivery innovation (e.g., nanoparticle-encapsulated topical formulation). The TxGNN predictions here appear to reflect taxonomic graph proximity rather than true clinical opportunity.
+Sikkerhedsdata specifikt for den danske/EU-regulatoriske kontekst blev ikke hentet som del af denne evidenspakke. For fuldstændig sikkerhedsinformation — herunder advarsler, kontraindikationer og særlige populationer — konsulteres venligst:
+
+> Venligst henvis til det godkendte Produktresumé (SmPC) for Dificlir tilgængeligt via [EMA produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/dificlir) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Alle fem forudsagte indikationer er udelukkende understøttet af TxGNN-modelforudsigelse (Bevisniveau L5), med nul kliniske forsøg og nul publikationer identificeret. Kritisk er farmakokinetisk profil af fidaxomicin — næsten-nul systemisk biotilgængelighed — som skaber en fundamental mekanistisk barriere for behandling af nogen infektion uden for gastrointestinal-lumen, hvilket dækker alle de forudsagte indikationer.
+
+**Følgende ville være nødvendigt, før denne kandidat kunne gå videre:**
+
+- **Farmakokinetisk revurdering:** Demonstrer, om nogen alternativ administrationsrute (fx topisk, inhaleret) kunne opnå terapeutisk relevante vævskoncentrationer på målstedet
+- **In vitro susceptibiliteetsdata:** Bekræft fidaxomicin MIC-værdier for de specifikke involverede patogener (*S. aureus* ETA/ETB-producerende stammer, *C. botulinum*) under forhold relevant for den forudsagte indikation
+- **Mekanismsfeasibility-studie:** Adressér, om toksine-medierede patologi i SSSS og botulisme kan være meningsfuldt ændret af bakteriel RNA-polymerase-hæmning efter toksinfrigivelse
+- **MOA-dokumentation:** Indhent fuld DrugBank mekanismisk profil (i øjeblikket opført som datahuller) for at understøtte eller modsige knowledge graph-forudsigelser
+- **SmPC / Regulatoriske data:** Indhent fuldstændig advarsel- og kontraindikationsdata fra det godkendte EU SmPC før nogen klinisk hypotese kan indgå sikkerhedsscreening (S1)
+
+I betragtning af omfanget af det farmakokinetiske mismatch, **anbefales omformål af fidaxomicin til systemiske eller hudinfektion ikke som en nær-termet prioritet** uden en ny leveringsinnovation (fx nanopartikel-indkapslet topisk formulering). TxGNN-forudsigelserne her ser ud til at afspejle taksonomisk nærhed i knowledge graph'en snarere end en sand klinisk mulighed.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

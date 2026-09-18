@@ -29,71 +29,72 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Hypromellose: From Pharmaceutical Excipient to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
+# Hypromellose: Fra farmaceutisk hjælpestof til hepatisk veno-okklusiv sygdom-immundefekt syndrom
 
-## One-Sentence Summary
+## Et-sætnings-opsummering
 
-Hypromellose (hydroxypropyl methylcellulose, HPMC) is an inert semi-synthetic polymer with no established pharmacological therapeutic indication — it functions primarily as an excipient in pharmaceutical formulations (tablet coatings, ophthalmic lubricants, suspending agents).
-The TxGNN model predicts it may be effective for **hepatic veno-occlusive disease-immunodeficiency syndrome** with a prediction score of **98.30%**, however **no supporting clinical trials or published literature** currently exist for this direction.
-Given the complete absence of a plausible mechanism of action and zero clinical evidence, this prediction is assessed as a likely model artefact rather than a genuine therapeutic opportunity.
+Hypromellose (hydroxypropyl methylcellulose, HPMC) er en inert semi-syntetisk polymer uden etableret farmakologisk terapeutisk indikation — den fungerer primært som hjælpestof i farmaceutiske formuleringer (tabletbelægninger, oftalmologiske smøremidler, suspenderingsstoffer).
+TxGNN-modellen forudsiger, at det kan være effektivt for **hepatisk veno-okklusiv sygdom-immundefekt syndrom** med en forudsigelsesscore på **98.30%**, men **der eksisterer i øjeblikket ingen understøttende kliniske forsøg eller offentliggjort litteratur** for denne retning.
+I betragtning af det fuldstændige fravær af en plausibel virkningsmekanisme og nul klinisk evidens, vurderes denne forudsigelse som sandsynligvis en modelartefakt snarere end en ægte terapeutisk mulighed.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Punkt | Indhold |
 |------|---------|
-| Original Indication | No established therapeutic indication (used as pharmaceutical excipient) |
-| Predicted New Indication | Hepatic veno-occlusive disease-immunodeficiency syndrome |
-| TxGNN Prediction Score | 98.30% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ingen etableret terapeutisk indikation (brugt som farmaceutisk hjælpestof) |
+| Forudsagt ny indikation | Hepatisk veno-okklusiv sygdom-immundefekt syndrom |
+| TxGNN-forudsigelsesscore | 98.30% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markeringsgodkendelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available for Hypromellose, as it is not classified as a pharmacologically active substance. Hypromellose is a semi-synthetic inert polymer derived from cellulose, used across pharmaceutical manufacturing as a film-coating agent for tablets (controlled-release formulations), a viscosity-modifying and lubricating agent in ophthalmic drops (artificial tears), and a suspending agent in oral liquid preparations. Its effects are entirely physical and physicochemical — film-forming, mucoadhesive, viscosity-modifying — with no known receptor binding, enzymatic inhibition, or biochemical signalling activity.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige for Hypromellose, da det ikke er klassificeret som et farmakologisk aktivt stof. Hypromellose er en semi-syntetisk inert polymer afledt af cellulose, brugt gennem farmaceutisk fremstilling som filmbelægningsagens til tabletter (kontrolleret frigivelsesformuleringer), et viskositetsændrende og smørende agens i øjedråber (kunstige tårer) og et suspenderingsagens i orale væskeformuleringer. Dets virkninger er helt fysiske og fysikalsk-kemiske — filmformering, mucoadhæsiv, viskositetsændrende — uden kendt receptorbinding, enzymhemning eller biokemisk signaleringaktivitet.
 
-Hepatic veno-occlusive disease-immunodeficiency syndrome (VODI syndrome) is a rare autosomal recessive primary immunodeficiency disorder associated with mutations in genes such as *VPS13B* and *WIPF1*. The pathophysiology centres on defective immune signalling and hepatic sinusoidal endothelial injury, leading to progressive veno-occlusive disease and combined immunodeficiency. Effective pharmacological intervention in this condition requires agents capable of modulating immune cell development, endothelial protection, or fibrinolytic activation — none of which are properties attributable to an inert polymer excipient.
+Hepatisk veno-okklusiv sygdom-immundefekt syndrom (VODI-syndrom) er en sjælden autosomalt recessiv primær immundefekt-lidelse forbundet med mutationer i gener som *VPS13B* og *WIPF1*. Patofysiologien centrerer omkring defekt immunsignalering og hepatisk sinusoidalt endotelskade, der fører til progressiv veno-okklusiv sygdom og kombineret immundefekt. Effektiv farmakologisk intervention i denne tilstand kræver agentser, der er i stand til at modulere immuncelleudvikling, endotelial beskyttelse eller fibrinolytisk aktivering — ingen af disse er egenskaber, der kan henføres til et inert polymerhjælpestof.
 
-**There is no established or plausible mechanistic link between Hypromellose and any of the predicted indications.** The uniformly high TxGNN scores across all five top-ranked rare diseases most likely reflect a knowledge graph artefact: Hypromellose's ubiquitous co-occurrence with thousands of active drugs in formulation data may have artificially inflated its graph connectivity, producing spurious high-confidence predictions unrelated to pharmacological activity. This interpretation is strongly supported by the complete absence of any supporting clinical trials or literature across all queried indications.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+**Der er ingen etableret eller plausibel mekanistisk forbindelse mellem Hypromellose og nogen af de forudsagte indikationer.** De ensartet høje TxGNN-scorer på tværs af alle fem toprangerede sjældne sygdomme afspejler sandsynligvis en vidensgrafartefakt: Hypromellose's allestedsværende medforekomst med tusindvis af aktive lægemidler i formuleringdata kan have kunstigt forhøjet dens grafkonnektivitet, hvilket resulterer i fejlagtige forudsigelser med høj sikkerhed, der ikke er knyttet til farmakologisk aktivitet. Denne fortolkning understøttes kraftigt af det fuldstændige fravær af enhver understøttende klinisk forsøg eller litteratur blandt alle de indikationer, der blev undersøgt.
 
 ---
 
-## Literature Evidence
+## Kliniske forsøgsbeviser
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-Hypromellose is an inert pharmaceutical excipient with no known pharmacological activity; all five unique top-ranked TxGNN predictions involve rare genetic diseases for which no mechanistic connection to Hypromellose exists, and zero clinical or preclinical supporting evidence was identified across all evidence sources queried.
+---
 
-**To proceed, the following is needed:**
+## Sikkerhedshensyn
 
-- **Pipeline audit**: Verify whether Hypromellose was correctly classified in the TxGNN input pipeline — known excipients and inactive ingredients should be excluded from repurposing candidate generation to prevent model artefacts
-- **Knowledge graph review**: Investigate whether Hypromellose's high graph connectivity stems from co-formulation co-occurrence rather than pharmacological relationships, and apply appropriate edge filtering
-- **Expert adjudication**: If any downstream investigation is warranted, obtain an independent pharmacology expert assessment of whether HPMC can exert any direct biological activity at physiologically relevant concentrations
-- **No further evidence collection is recommended** at this stage for any of the predicted indications, as the foundational premise (pharmacological activity) has not been established
+Se venligst produktinformationen (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Hypromellose er et inert farmaceutisk hjælpestof uden kendt farmakologisk aktivitet; alle fem unikke toprangerede TxGNN-forudsigelser involverer sjældne genetiske lidelser, som ingen mekanistisk forbindelse til Hypromellose, og nul klinisk eller præ-klinisk understøttende evidens blev identificeret på tværs af alle forespurgte beviskilder.
+
+**For at fortsætte, er følgende nødvendig:**
+
+- **Pipelinerevision**: Bekræft, at Hypromellose blev korrekt klassificeret i TxGNN-inputpipelinen — kendte hjælpestoffer og inaktive ingredienser bør udelukkes fra generation af gendannelseskandidater for at forhindre modelartefakter
+- **Vidensgrafoversyn**: Undersøg, om Hypromellose's høje grafkonnektivitet stammer fra medformulering-samtidig forekomst snarere end farmakologiske forhold, og anvend passende kantfiltrering
+- **Ekspertvurdering**: Hvis nogen efterfølgende undersøgelse er begrundet, indhent en uafhængig farmakologiekspertvurdering af, hvorvidt HPMC kan udøve nogen direkte biologisk aktivitet ved fysiologisk relevante koncentrationer
+- **Ingen yderligere bevisindsamling anbefales** på dette tidspunkt for nogen af de forudsagte indikationer, da det grundlæggende præmis (farmakologisk aktivitet) ikke er etableret
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

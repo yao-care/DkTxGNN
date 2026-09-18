@@ -29,97 +29,98 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Binimetinib: MEK1/2 Inhibitor — Evaluation on Hold (Incomplete Evidence Pack)
+# Binimetinib: MEK1/2-hæmmer — Evaluering på hold (ufuldstændig bevissamling)
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Binimetinib (Mektovi) is a selective MEK1/2 inhibitor in the targeted oncology class, approved by EMA for BRAF V600-mutant unresectable or metastatic melanoma in combination with encorafenib.
-The current Evidence Pack contains **no TxGNN repurposing predictions** for this compound, and two data gaps — including safety data (Blocking) and mechanism of action documentation (High) — prevent a complete evaluation.
-A meaningful repurposing assessment cannot be finalised until these gaps are resolved and the TxGNN prediction pipeline is re-run.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | BRAF V600-mutant unresectable or metastatic melanoma (EMA-approved; not reflected in current registry data) |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — pipeline did not produce candidates |
-| Denmark Market Status | Not registered in local registry (centralised EMA authorisation likely applies — see below) |
-| Number of Marketing Authorisations | 0 (per registry data) |
-| Recommended Decision | **Hold** |
+Binimetinib (Mektovi) er en selektiv MEK1/2-hæmmer inden for den målrettede onkologiklasse, godkendt af EMA til BRAF V600-muteret uoperable eller metastaserende melanom i kombination med encorafenib.
+Den nuværende bevissamling indeholder **ingen TxGNN-prognoser for lægemiddelnyudnyttelse** for dette stof, og to datakløfter — herunder sikkerhedsdata (blokering) og dokumentation af virkningsmekanisme (høj prioritet) — forhindrer en fuldstændig evaluering.
+En meningsfuld vurdering af lægemiddelnyudnyttelse kan ikke være afsluttet, før disse kløfter er lukket, og TxGNN-prognosepipelinen køres igen.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hurtigt overblik
 
-No TxGNN predictions were generated for binimetinib in the current Evidence Pack, so no prediction-specific mechanistic rationale can be provided. The prediction pipeline must be re-executed before any repurposing direction can be formally evaluated.
-
-From established pharmacological knowledge, binimetinib is a selective, ATP non-competitive inhibitor of MEK1 and MEK2 — serine/threonine kinases that are central nodes in the MAPK/ERK signalling cascade. Dysregulation of this pathway drives proliferation across a broad spectrum of human malignancies: colorectal cancer (KRAS/BRAF-mutant), non-small cell lung cancer, pancreatic cancer, and several haematological cancers. This biological breadth makes binimetinib a plausible candidate for TxGNN repurposing predictions, particularly within the oncology space, once the data infrastructure is complete.
-
-Mechanism of action documentation (data gap DG002) is currently absent from the Evidence Pack, which prevents formal pathway-level analysis. Once DrugBank MOA data is retrieved, a more rigorous mechanistic rationale connecting the original melanoma indication to candidate repurposing targets can be constructed.
-
----
-
-## Denmark Market Information
-
-The Evidence Pack records **0 marketing authorisations** in the Danish national registry. However, binimetinib holds a **centralised EMA marketing authorisation** (EU/1/18/1314, Pierre Fabre), which is directly valid in all EU/EEA member states including Denmark. This strongly suggests a data collection gap in the current pipeline rather than a genuine absence of authorisation.
-
-The table below is populated from EMA public records; it is **not** sourced from the Evidence Pack:
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|------|------|------|------|
-| EU/1/18/1314 | Mektovi | Film-coated tablet (15 mg) | Unresectable or metastatic melanoma with BRAF V600 mutation, in combination with encorafenib (Braftovi) |
-
-> ⚠️ **Action required:** The local registry query should be reviewed to confirm that EMA centralised authorisations are correctly captured. Clinicians should consult the Lægemiddelstyrelsen product database and the EMA Product Information page directly.
+| Element | Indhold |
+|---|---|
+| Oprindelig indikation | BRAF V600-muteret uoperable eller metastaserende melanom (EMA-godkendt; ikke afspejlet i nuværende registerdata) |
+| Prognostiseret ny indikation | Ingen prognoser genereret |
+| TxGNN-prognosescore | N/A |
+| Bevisniveau | N/A — pipeline producerede ikke kandidater |
+| Status på det danske marked | Ikke registreret i lokalt register (centraliseret EMA-godkendelse sandsynligvis gælder — se nedenfor) |
+| Antal markedsføringstilladelser | 0 (jf. registerdata) |
+| Anbefalet afgørelse | **Hold** |
 
 ---
 
-## Cytotoxicity
+## Hvorfor er denne prognose rimelig?
 
-Binimetinib is a targeted antineoplastic agent (small-molecule kinase inhibitor). The following information is derived from general pharmacological knowledge of the MEK inhibitor class, as DrugBank toxicity data was not retrieved in the current Evidence Pack.
+Der blev ikke genereret TxGNN-prognoser for binimetinib i den nuværende bevissamling, så der kan ikke gives nogen prognosespecifik mekanistisk begrundelse. Prognosepipelinen skal køres igen, før nogen lægemiddelnyudnyttelsesretning kan blive formelt evalueret.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective MEK1/2 inhibitor (non-conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate — anaemia is the most commonly reported haematological effect; not primarily myelosuppressive compared to conventional cytotoxics |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (hepatotoxicity), ophthalmological examinations (retinal vein occlusion, retinal pigment epithelial detachment, uveitis), ECG (QTc prolongation), creatine phosphokinase (rhabdomyolysis), blood pressure, left ventricular ejection fraction (cardiomyopathy) |
-| Handling Protection | Standard oral oncology precautions apply; not classified as a traditional cytotoxic — follow local pharmacy handling guidelines for oral targeted therapies |
+Fra etableret farmakologisk viden er binimetinib en selektiv, ATP-ikke-konkurrencedygtig hæmmer af MEK1 og MEK2 — serin/threonin-kinasermer, der er centrale knudepunkter i MAPK/ERK-signaleringskaskaden. Dysregulering af denne vej driver proliferation på tværs af et bredt spektrum af humane malignitioner: kolorektal cancer (KRAS/BRAF-muteret), ikke-småcellet lungecancer, pancreatisk cancer og flere hæmatologiske kræftsygdomme. Denne biologiske bredde gør binimetinib til en plausibel kandidat for TxGNN-prognoser for lægemiddelnyudnyttelse, især inden for onkologi, når datainfrastrukturen er fuldstændig.
+
+Dokumentation af virkningsmekanisme (datakløft DG002) er i øjeblikket fraværende fra bevissamlingen, hvilket forhindrer formel vej-niveau-analyse. Når DrugBank MOA-data hentes, kan der konstrueres en mere stringent mekanistisk begrundelse, der forbinder den oprindelige melanom-indikation med kandidat-genbrugsmål.
 
 ---
 
-## Safety Considerations
+## Markedsinformation for Danmark
 
-Safety warnings and contraindications are flagged as a **Blocking data gap** (DG001) in the current Evidence Pack. No drug-drug interaction data was returned in the query log.
+Bevissamlingen registrerer **0 markedsføringstilladelser** i det danske nationale register. Binimetinib har dog en **centraliseret EMA-markedsføringstilladelse** (EU/1/18/1314, Pierre Fabre), som er direkte gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Dette tyder stærkt på en datakøbingskløft i den nuværende pipeline snarere end en ægte mangel på tilladelse.
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for Mektovi for full prescribing safety information. Key areas of clinical concern known from the MEK inhibitor class include:
+Tabellen nedenfor er udfyldt fra offentlige EMA-poster; den stammer **ikke** fra bevissamlingen:
 
-- Serious ocular events (retinal vein occlusion, uveitis, retinal pigment epithelial detachment)
-- Hepatotoxicity (monitor LFTs)
-- Cardiomyopathy / decreased LVEF
-- Venous thromboembolism and pulmonary embolism
-- Severe skin reactions
-- Rhabdomyolysis (elevated CPK)
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+|---|---|---|---|
+| EU/1/18/1314 | Mektovi | Filmovertrukket tablet (15 mg) | Uoperable eller metastaserende melanom med BRAF V600-mutation i kombination med encorafenib (Braftovi) |
+
+> ⚠️ **Påkrævet handling:** Forespørgslen til det lokale register bør gennemgås for at bekræfte, at EMA-centraliserede tilladelser er korrekt indsamlet. Klinikere bør rådføre sig direkte med Lægemiddelstyrelsens produktdatabase og EMA-produktinformationssiden.
 
 ---
 
-## Conclusion and Next Steps
+## Cytotoxicitet
 
-**Decision: Hold**
+Binimetinib er et målrettet antineoplastisk middel (småmolekyle-kinasehæmmer). Følgende oplysninger stammer fra almene farmakologiske viden om MEK-hæmmerklassen, da DrugBank-toksicitetsdata ikke blev hentet i den nuværende bevissamling.
 
-**Rationale:**
-The Evidence Pack for binimetinib is critically incomplete — no TxGNN repurposing candidates were generated, and a Blocking data gap (DG001: regulatory safety data) prevents the mandatory S1 safety screening step from being executed. No repurposing evaluation can be responsibly issued under these conditions.
+| Element | Indhold |
+|---|---|
+| Cytotoxicitetsklassificering | Målrettet terapi — selektiv MEK1/2-hæmmer (ikke-konventionel cytotoxisk) |
+| Myelosuppressions risiko | Lav til moderat — anæmi er den hyppigst rapporterede hæmatologiske effekt; ikke primært myelosuppressiv sammenlignet med konventionelle cytotoxika |
+| Emeteogenicitetsklassificering | Lav |
+| Overvågningspunkter | Leverfunktionstests (hepatotoxicitet), oftalmologiske undersøgelser (retinal veneoklusion, retinal pigmentepitelafskræltning, uveitis), EKG (QTc-forlængelse), kreatinfosfakinase (rabdomyolyse), blodtryk, venstre ventrikels udkastfraktion (kardiomyopati) |
+| Håndteringsbeskyttelse | Standardpræcautioner for oral onkologi gælder; ikke klassificeret som traditionelt cytotoxikum — følg lokale apotek-håndteringsvejledninger for oral målrettet terapi |
 
-**To proceed, the following is needed:**
+---
 
-- **[Blocking — DG001]** Retrieve and parse TFDA/EMA SmPC PDF to populate warnings, contraindications, and special precautions
-- **[High — DG002]** Query DrugBank API to populate mechanism of action data and enable pathway-level mechanistic analysis
-- **Re-run TxGNN prediction pipeline** once drug-level data is complete, to generate repurposing candidates for this drug
-- **Fix regulatory data collection** to correctly capture the EMA centralised authorisation (EU/1/18/1314 — Mektovi) for Denmark
-- **Re-query DDI database** after MOA data is available, to assess interaction risk for the predicted indication population
+## Sikkerhedshensyn
+
+Sikkerhedsadvarsler og kontraindikationer er markeret som en **blokering af datakløft** (DG001) i den nuværende bevissamling. Der blev ikke returneret lægemiddel-lægemiddel-vekselvirkningsdata i forespørgselslisten.
+
+Se venligst den godkendte Produktinformationssamtale (SmPC) for Mektovi for fuldstændige ordinationssikkerhedsoplysninger. Nøgleområder for klinisk bekymring kendt fra MEK-hæmmerklassen omfatter:
+
+- Alvorlige øjenhændelser (retinal veneoklusion, uveitis, retinal pigmentepitelafskræltning)
+- Hepatotoxicitet (overvåg LFT)
+- Kardiomyopati / reduceret LVEF
+- Venøs tromboembolisme og lungeemboli
+- Alvorlige hudreaktioner
+- Rabdomyolyse (forhøjet CPK)
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Hold**
+
+**Begrundelse:**
+Bevissamlingen for binimetinib er kritisk ufuldstændig — der blev ikke genereret TxGNN-prognoser for lægemiddelnyudnyttelse, og en blokering af datakløft (DG001: regulatoriske sikkerhedsdata) forhindrer det obligatoriske S1-sikkerhedsscreeningtrin i at blive udført. Ingen vurdering af lægemiddelnyudnyttelse kan ansvarligt afgives under disse forhold.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **[Blokering — DG001]** Hent og parse TFDA/EMA SmPC PDF for at udfylde advarsler, kontraindikationer og særlige forholdsregler
+- **[Høj — DG002]** Forespørg DrugBank API for at udfylde virkningsmekanismedata og muliggøre analyse på vejniveau
+- **Genopkør TxGNN-prognosepipelinen** når lægemiddeldata er fuldendt, for at generere kandidater for lægemiddelnyudnyttelse for dette lægemiddel
+- **Ret datakøbing for regulatorisk** for korrekt at fange EMA-centraliseret tilladelse (EU/1/18/1314 — Mektovi) for Danmark
+- **Forespørg DDI-database igen** efter MOA-data er tilgængelig, for at vurdere interaktionsrisiko for den forudsagte indikationspopulation
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

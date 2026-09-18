@@ -29,63 +29,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Natalizumab: From Multiple Sclerosis to Bronchitis
+# Natalizumab: Fra multipel sklerose til bronkitis
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Natalizumab is a monoclonal antibody; the evidence pack does not contain confirmed Danish regulatory indication data, but the supporting literature consistently identifies its established use as relapsing-remitting multiple sclerosis. The TxGNN model predicts a possible new indication for **Bronchitis**, but this prediction is currently backed by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating clinical or mechanistic evidence.
+Natalizumab er et monoklonalt antistof; bevissamlingen indeholder ikke bekræftede danske regulatoriske indikationsdata, men den understøttende litteratur identificerer konsekvent dets etablerede anvendelse som tilbagefaldende-remitterende multipel sklerose. TxGNN-modellen forudsiger en mulig ny indikation for **bronkitis**, men denne forudsigelse er i øjeblikket bakket op af **0 kliniske forsøg** og **0 publikationer** — det er et rent modeloutput uden understøttende kliniske eller mekanistiske beviser.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in regulatory data (`taiwan_regulatory.licenses` is empty); literature context (see evidence citations below) indicates use for relapsing-remitting multiple sclerosis |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke tilgængelig i regulatoriske data (`taiwan_regulatory.licenses` er tom); litteraturorammen (se evidenscitater nedenfor) angiver anvendelse for tilbagefaldende-remitterende multipel sklerose |
+| Forudsagt ny indikation | Bronkitis |
+| TxGNN-forudsigelsesscore | 99.46% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen kliniske forsøg eller litteratur) |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available for natalizumab in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology referenced across the supporting literature, natalizumab is a monoclonal antibody against α4-integrin (VLA-4) that blocks leukocyte migration across the blood–brain barrier and gut endothelium, used in the management of relapsing-remitting multiple sclerosis.
+Detaljerede virkningsmekanisme-data er ikke tilgængelige for natalizumab i denne bevissamling (markeret som datamangel med høj alvorlighetsgrad). Baseret på kendt farmakologi, der er refereret på tværs af den understøttende litteratur, er natalizumab et monoklonalt antistof mod α4-integrin (VLA-4), der blokerer leukocyt-migration på tværs af blod-hjerne-barrieren og tarmslimhinden, brugt i behandlingen af tilbagefaldende-remitterende multipel sklerose.
 
-For the top-ranked candidate, **Bronchitis**, no mechanistic or clinical rationale is provided in the evidence pack. Bronchitis is predominantly an infectious/irritant airway condition, and there is no established pathophysiological link to α4-integrin blockade. If anything, natalizumab's systemic immunosuppressive effect would be expected to *increase* susceptibility to respiratory infection rather than treat it — the evidence direction runs counter to the repurposing hypothesis.
+For den højest rangerede kandidat, **bronkitis**, gives der ingen mekanistisk eller klinisk begrundelse i bevissamlingen. Bronkitis er overvejende en infektionsmæssig/irriterende luftvejstilstand, og der er ingen etableret patofysiologisk forbindelse til α4-integrin-blokering. Hvis noget, ville natalizumabs systemiske immunosuppressive virkning forventes at *øge* modtageligheden for luftvejsinfektioner snarere end at behandle det — bevisretningen går imod repurposing-hypotesen.
 
-It is also worth noting that several lower-ranked candidates in this evidence pack (parapsoriasis, psoriasis, acute lichenoid pityriasis) did return literature hits, but nearly all of these describe natalizumab **inducing or aggravating** these skin conditions as adverse drug reactions (e.g., PMID 30323758, PMID 35646438, PMID 23096069), not treating them. Only one report (PMID 33589543) describes comorbid psoriasis improving during natalizumab treatment. This pattern — high TxGNN similarity scores paired with literature that points toward harm rather than benefit — further weakens confidence in the model's dermatological and respiratory predictions for this drug and supports a cautious, evidence-first approach before any repurposing consideration.
+Det er også værd at bemærke, at flere lavere-rangerede kandidater i denne bevissamling (parapsoriasis, psoriasis, akut lichenoid pityriasis) returnerede litteraturtreff, men næsten alle af disse beskriver, at natalizumab **inducerer eller forværrer** disse hudsygdomme som uønskede lægemiddelreaktioner (f.eks. PMID 30323758, PMID 35646438, PMID 23096069), ikke behandling af dem. Kun en rapport (PMID 33589543) beskriver komorbid psoriasis, der forbedres under natalizumab-behandling. Dette mønster — høje TxGNN-lighedsscore forbundet med litteratur, der peger på skade snarere end gavnlige effekter — svækker yderligere tilliden til modellens dermatologiske og respiratoriske forudsigelser for dette lægemiddel og understøtter en forsigtig, bevisførste tilgang før nogen repurposing-overvejelse.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbeviser
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbeviser
 
-Currently no related literature available for the Bronchitis indication specifically.
+I øjeblikket er der ingen relateret litteratur tilgængelig for bronkitis-indikationen specifikt.
 
-## Denmark Market Information
+## Danmarks markedsinformation
 
-No marketing authorisations are currently on file for natalizumab in Denmark in this evidence pack (`total_licenses: 0`, market status: not marketed).
+Der er i øjeblikket ingen markedsføringstilladelser i arkiverne for natalizumab i Danmark i denne bevissamling (`total_licenses: 0`, markedsstatus: ikke markedsført).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information — structured warnings, contraindications, and DDI data are not available in this evidence pack (`[Data Gap]` for all three fields; DDI query returned no results).
+Se venligst det godkendte Produktinformationsdokument (SmPC) for sikkerhedsinformation — strukturerede advarsler, kontraindikationer og DDI-data er ikke tilgængelige i denne bevissamling (`[Data Gap]` for alle tre felter; DDI-søgning returnerede ingen resultater).
 
-**Literature signal (supplementary, not from structured safety data):** a substantial share of the literature surfaced across this drug's candidate indications concerns Progressive Multifocal Leukoencephalopathy (PML), a serious JC-virus-related CNS complication associated with natalizumab (e.g., PMID 20298966, 19647202, 24136456, 30324046, 36283150, 22082208). While this data was retrieved in the context of unrelated disease-prediction searches rather than a formal safety query, it is a clinically material signal that any reviewer should be aware of before further evaluation.
+**Litteratursignal (supplerende, ikke fra strukturerede sikkerhedsdata):** En væsentlig andel af den litteratur, der er dukket op på tværs af dette lægemiddels kandidatindikationer, vedrører progressiv multifokal leukoencefalopati (PML), en alvorlig JC-virus-relateret CNS-komplikation forbundet med natalizumab (f.eks. PMID 20298966, 19647202, 24136456, 30324046, 36283150, 22082208). Selvom disse data blev hentet i sammenhæng med søgninger efter ikke-relaterede sygdomsforudsigelser snarere end en formel sikkerhedsforespørgsel, er det et klinisk væsentligt signal, som enhver gennemganger bør være klar over før yderligere evaluering.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-The top-ranked predicted indication (Bronchitis) has zero supporting clinical trials or literature (Evidence Level L5), no plausible mechanistic link, and the drug is not currently marketed in Denmark. Related dermatological candidates in the same evidence pack show literature evidence pointing toward adverse drug reactions rather than therapeutic benefit, reinforcing that this evidence pack does not currently support progression.
+**Begrundelse:**
+Den højest rangerede forudsagt indikation (bronkitis) har nul støttende kliniske forsøg eller litteratur (Bevisniveau L5), ingen troværdig mekanistisk forbindelse, og lægemidlet er i øjeblikket ikke markedsført i Danmark. Relaterede dermatologiske kandidater i samme bevissamling viser litteraturevidence, der peger på uønskede lægemiddelreaktioner snarere end terapeutisk nytte, hvilket bekræfter, at denne bevissamling ikke i øjeblikket støtter progression.
 
-**To proceed, the following is needed:**
-- Confirmed original indication and approved SmPC text (currently unavailable — regulatory license data is empty)
-- Mechanism of action detail from DrugBank or SmPC (DG002)
-- TFDA/Danish Medicines Agency label warnings and contraindications (DG001, Blocking)
-- Any preclinical or mechanistic rationale specifically connecting α4-integrin blockade to bronchitis pathophysiology
-- Reassessment if future clinical trials or literature specific to Bronchitis emerge
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet oprindelig indikation og godkendt SmPC-tekst (i øjeblikket ikke tilgængelig — regulatoriske licensdata er tomme)
+- Virkningsmekanisme-detaljer fra DrugBank eller SmPC (DG002)
+- TFDA/Danske Lægemiddelstyrelse labeladvarsler og kontraindikationer (DG001, Blocking)
+- Enhver preklinisk eller mekanistisk begrundelse, der specifikt forbinder α4-integrin-blokering til bronkitis-patofysiologi
+- Revurdering hvis fremtidige kliniske forsøg eller litteratur specifik for bronkitis dukker op
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

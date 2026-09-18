@@ -29,108 +29,109 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Daptomycin: From Gram-Positive Bacterial Infections to Rheumatoid Arthritis
+# Daptomycin: Fra Gram-positive bakterielle infektioner til reumatoid arthritis
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Daptomycin (Cubicin) is a cyclic lipopeptide antibiotic approved for serious Gram-positive bacterial infections including complicated skin and soft tissue infections, *Staphylococcus aureus* bacteraemia, and right-sided infective endocarditis.
-The TxGNN model assigns high prediction scores across several musculoskeletal indications; the most scientifically credible new candidate is **Rheumatoid Arthritis** (TxGNN score: 99.84%), supported by **2 preclinical studies** demonstrating anti-inflammatory activity via NF-κB pathway suppression in a collagen-induced arthritis (CIA) mouse model.
-No clinical trials currently exist for any of the predicted new indications, and the highest-ranked prediction (osteoarthritis) is assessed as a likely knowledge graph artefact rather than a genuine repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Complicated skin and skin structure infections; *Staphylococcus aureus* bacteraemia; right-sided infective endocarditis caused by Gram-positive bacteria |
-| Predicted New Indication (Best Candidate) | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 (Preclinical studies only) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Daptomycin (Cubicin) er et cyklisk lipopeptidantibiotikum godkendt til alvorlige Gram-positive bakterielle infektioner, herunder komplicerede hud- og bløtdelsinfektioner, *Staphylococcus aureus*-bakteræmi og højre-sidet infektiøs endokarditis.
+TxGNN-modellen tildeler høje prædiktion scores på tværs af flere muskuloskeletale indikationer; den mest videnskabeligt troværdige nye kandidat er **Reumatoid arthritis** (TxGNN score: 99,84%), understøttet af **2 præ-kliniske studier**, der demonstrerer anti-inflammatorisk aktivitet via suppression af NF-κB-signaleringsstien i en collagen-induceret arthritis (CIA) mus-model.
+Ingen kliniske forsøg eksisterer i øjeblikket for nogen af de forudsagte nye indikationer, og den højest rangerede prædiktion (artrose) vurderes som sandsynligvis en kendskabsgraf-artefakt snarere end et ægte oldrug-nyt-brug-signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Daptomycin is a cyclic lipopeptide antibiotic that acts by inserting into bacterial cell membranes in a calcium-dependent manner, causing rapid membrane depolarisation and irreversible disruption of bacterial physiology. This mechanism is highly effective against Gram-positive bacteria — including methicillin-resistant *Staphylococcus aureus* (MRSA) — and underpins its approved indications. Detailed mechanism of action (MOA) data was not available in the DrugBank submission within this evidence pack (Data Gap DG002), but the antibacterial mechanism is well established in the published literature.
-
-Beyond its antibacterial action, two preclinical studies published in 2025 have revealed a previously unrecognised anti-inflammatory property. Daptomycin was found to inhibit the NF-κB signalling pathway in joint tissue, reducing the secretion of pro-inflammatory cytokines — specifically TNF-α, IL-1β, and IL-6 — and producing measurable joint-protective effects in a collagen-induced arthritis (CIA) mouse model (PMID 39571268). A follow-up study synthesised and tested five novel daptomycin-derived cyclic lipopeptide analogues, demonstrating that anti-arthritic activity appears to be a class effect of the cyclic lipopeptide scaffold rather than unique to daptomycin itself (PMID 40923559).
-
-Rheumatoid arthritis is driven by chronic synovial inflammation, osteoclast activation, and NF-κB-mediated inflammatory cascades — precisely the pathways these studies suggest daptomycin can modulate. The mechanistic link is therefore conceptually plausible. However, it is critical to note that (1) no human clinical trials have been conducted, (2) the transition from CIA mouse models to clinical RA has historically proven difficult, and (3) current IV-only administration makes chronic use in RA practically challenging. The other top-ranked TxGNN predictions should be interpreted with significant caution: the osteoarthritis signal (rank 1, score 99.86%) appears to be a knowledge graph artefact — all supporting literature describes daptomycin treating *bacterial infections complicating joint surgery*, not osteoarthritis itself. The gout prediction (score 99.79%) actually reflects a **safety signal**: daptomycin can *induce* acute gout via rhabdomyolysis-related hyperuricaemia, and should not be interpreted as a treatment opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials are registered for any of the predicted indications (osteoarthritis, rheumatoid arthritis, osteoarthritis susceptibility, gout, or pseudoachondroplasia). Searches were conducted on ClinicalTrials.gov and WHO ICTRP as of 10 March 2026.
+| Emne | Indhold |
+|------|---------|
+| Original indikation | Komplicerede hud- og hudstrukturinfektioner; *Staphylococcus aureus*-bakteræmi; højre-sidet infektiøs endokarditis forårsaget af Gram-positive bakterier |
+| Forudsagt ny indikation (bedste kandidat) | Reumatoid arthritis |
+| TxGNN prædiktion score | 99,84% |
+| Evidensniveau | L4 (kun præ-kliniske studier) |
+| Dansk markeds status | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prædiktion rimelig?
 
-The following publications are relevant to the predicted repurposing indications. Publications are listed with priority given to mechanistic relevance over source type.
+Daptomycin er et cyklisk lipopeptidantibiotikum, der virker ved at indsætte sig i bakterielle cellemembraner på en kalcium-afhængig måde, hvilket forårsager hurtig membrandepolarisering og irreversibel forstyrrelse af bakteriernes fysiologi. Denne mekanisme er højt effektiv mod Gram-positive bakterier — herunder methicillin-resistent *Staphylococcus aureus* (MRSA) — og ligger til grund for dens godkendte indikationer. Detaljerede data om virkningsmekanisme (MOA) var ikke tilgængelig i DrugBank-indleveringen inden for denne evidenspakke (Data Gap DG002), men den antibakterielle mekanisme er velkendt i den udgivne litteratur.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/) | 2025 | Pre-clinical Animal Study (CIA Model) | International Immunopharmacology | **Most relevant.** Daptomycin alleviates collagen-induced arthritis in mice by suppressing TNF-α, IL-1β, IL-6 and blocking NF-κB activation — first study to evaluate daptomycin's anti-inflammatory activity in an RA model |
-| [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/) | 2025 | Pre-clinical Drug Discovery | Journal of Medicinal Chemistry | **Most relevant.** Five novel daptomycin-derived cyclic lipopeptides synthesised and tested; CLP-d2 outperforms daptomycin in CIA model — confirms anti-arthritis activity as a class effect of the cyclic lipopeptide scaffold |
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Retrospective Cohort | International Orthopaedics | High-dose daptomycin + rifampicin for Gram-positive osteoarticular infections post-surgery — context: antibiotic treatment of infection, not OA/RA treatment |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Observational/Case Series | Journal of Antimicrobial Chemotherapy | Daptomycin in knee/hip periprosthetic joint infections (PJI) — context: post-arthroplasty infection management |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Retrospective Cohort | Journal of Antimicrobial Chemotherapy | Daptomycin vs standard therapy for osteoarticular infections associated with *S. aureus* bacteraemia — context: infectious complication, not joint disease treatment |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Retrospective Cohort | International Journal of Antimicrobial Agents | High-dose daptomycin (>6 mg/kg) for bone/joint and implant-associated infections caused by Gram-positive bacteria |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Retrospective Microbiology Study | Surgical Infections | Antibiotic susceptibility profile of staphylococci in osteoarticular infections over 10 years — context: microbiology/infection management |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Survey/Network Study | International Journal of Antimicrobial Agents | Survey of infectious disease physicians on PJI management; daptomycin frequently used as second-line for MRSA PJI |
-| [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/) | 2023 | Case Report (Adverse Event) | The American Journal of the Medical Sciences | **Safety signal, not repurposing evidence.** Daptomycin-induced rhabdomyolysis complicated by acute gouty arthritis — daptomycin as a *trigger* for gout, not a treatment |
+Ud over dens antibakterielle virkning har to præ-kliniske studier offentliggjort i 2025 afsløret en tidligere ukendt anti-inflammatorisk egenskab. Daptomycin viste sig at inhibere NF-κB-signaleringsstien i ledbindevæv, hvilket reducerer udskillelsen af pro-inflammatoriske cytokiner — specifikt TNF-α, IL-1β og IL-6 — og producerer målbare led-beskyttende effekter i en collagen-induceret arthritis (CIA) mus-model (PMID 39571268). Et opfølgende studie syntetiserede og testede fem nye daptomycin-afledte cykliske lipopeptid-analoger, hvilket demonstrerer, at anti-artritisk aktivitet synes at være en klasseeffekt af det cykliske lipopeptid-stillas snarere end enestående for daptomycin selv (PMID 40923559).
 
-> **Note on osteoarthritis literature (PMIDs 23519823, 22511636, 26235888, 22854340, 17999973, 32206362, 23312602, 21477701, 25650692):** All publications describe daptomycin used to treat *bacterial infections occurring in osteoarthritis patients following joint replacement surgery*. None describe daptomycin treating osteoarthritis pathology (cartilage degeneration). The high TxGNN score for osteoarthritis is assessed as a knowledge graph concept conflation between "osteoarticular infection" and "osteoarthritis."
+Reumatoid arthritis drives af kronisk synovial inflammation, osteoklast-aktivering og NF-κB-formidlede inflammatoriske kaskader — præcis de signaleringsstier, disse studier foreslår daptomycin kan modulere. Den mekanistiske forbindelse er således begrebsmæssigt plausibel. Det er dog kritisk at påpege, at (1) ingen humane kliniske forsøg er blevet gennemført, (2) overgangen fra CIA mus-modeller til klinisk RA historisk set har vist sig vanskelig, og (3) den nuværende IV-eneste administration gør kronisk brug i RA praktisk udfordrende. De øvrige højest rangerede TxGNN-prædiktioner bør tolkes med betydelig forsigtighed: osteoartrose-signalet (rang 1, score 99,86%) virker at være en kendskabsgraf-artefakt — all understøttende litteratur beskriver daptomycin, der behandler *bakterielle infektioner, der komplicerer ledkirurgi*, ikke osteoartrose i sig selv. Gout-prædiktionen (score 99,79%) afspejler faktisk et **sikkerhedssignal**: daptomycin kan *inducere* akut gout via rhabdomyolysis-relateret hyperurikæmi, og bør ikke tolkes som en behandlingsmulighed.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgs-evidens
 
-Daptomycin is currently **not marketed in Denmark**. There are no active Danish Medicines Agency (Laegemiddelstyrelsen) marketing authorisations.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer (osteoartrose, reumatoid arthritis, osteoartrose-modtagelighed, gout eller pseudoachondroplasi). Søgninger blev udført på ClinicalTrials.gov og WHO ICTRP pr. 10. marts 2026.
 
-| Marketing Authorisation | Product Name | Dosage Form | Approved Indication |
+---
+
+## Litteratur-evidens
+
+Følgende publikationer er relevante for de forudsagte oldrug-nyt-brug-indikationer. Publikationer er anført med prioritet givet til mekanistisk relevans over kildetype.
+
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|--------------|
+| [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/) | 2025 | Præ-klinisk dyrestudie (CIA model) | International Immunopharmacology | **Mest relevant.** Daptomycin lindrer collagen-induceret arthritis hos mus ved at undertrykke TNF-α, IL-1β, IL-6 og blokere NF-κB-aktivering — første studie til at evaluere daptomycins anti-inflammatoriske aktivitet i en RA-model |
+| [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/) | 2025 | Præ-klinisk lægemiddelopdagelse | Journal of Medicinal Chemistry | **Mest relevant.** Fem nye daptomycin-afledte cykliske lipopeptider syntetiseret og testet; CLP-d2 overgår daptomycin i CIA-model — bekræfter anti-artritis-aktivitet som en klasseeffekt af det cykliske lipopeptid-stillas |
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Retrospektiv kohort | International Orthopaedics | Høj-dosis daptomycin + rifampicin til Gram-positive osteoartikulære infektioner efter kirurgi — kontekst: antibiotisk behandling af infektion, ikke OA/RA-behandling |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Observationel/case-serie | Journal of Antimicrobial Chemotherapy | Daptomycin i knæ/hofte periprostetisk ledinfektion (PJI) — kontekst: post-arthroplasti-infektionshåndtering |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Retrospektiv kohort | Journal of Antimicrobial Chemotherapy | Daptomycin versus standardterapi til osteoartikulære infektioner forbundet med *S. aureus*-bakteræmi — kontekst: infektiøs komplikation, ikke ledsyge-behandling |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Retrospektiv kohort | International Journal of Antimicrobial Agents | Høj-dosis daptomycin (>6 mg/kg) til ben/led- og implantat-associerede infektioner forårsaget af Gram-positive bakterier |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Retrospektiv mikrobiologistudie | Surgical Infections | Antibiotisk modtagelighedsprofil af stafylokokker i osteoartikulære infektioner over 10 år — kontekst: mikrobiologi/infektionshåndtering |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Undersøgelse/netværkstudie | International Journal of Antimicrobial Agents | Undersøgelse af infektionssygdomslæger om PJI-håndtering; daptomycin ofte brugt som anden linje til MRSA PJI |
+| [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/) | 2023 | Case report (bivirkningsbegivenhed) | The American Journal of the Medical Sciences | **Sikkerhedssignal, ikke oldrug-nyt-brug-evidens.** Daptomycin-induceret rhabdomyolysis kompliceret af akut gout arthritis — daptomycin som en *udløser* for gout, ikke en behandling |
+
+> **Bemærkning om osteoartrose-litteratur (PMIDs 23519823, 22511636, 26235888, 22854340, 17999973, 32206362, 23312602, 21477701, 25650692):** Alle publikationer beskriver daptomycin brugt til at behandle *bakterielle infektioner optræder hos osteoartrose-patienter efter ledforskellige kirurgiske indgreb*. Ingen beskriver daptomycin, der behandler osteoartrose-patologi (bruskdegeneration). Den høje TxGNN-score for osteoartrose vurderes som en kendskabsgraf-begrebssammenfløjtning mellem "osteoartikulær infektion" og "osteoartrose."
+
+---
+
+## Dansk markedinformation
+
+Daptomycin er i øjeblikket **ikke markedsført i Danmark**. Der er ingen aktive danske Lægemiddelstyrelse-markedsføringstilladelser.
+
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |------------------------|-------------|-------------|---------------------|
-| No active Danish licences | — | — | — |
+| Ingen aktive danske licenser | — | — | — |
 
-> **EMA centralised authorisation note:** Daptomycin (Cubicin®) holds a centralised EMA marketing authorisation (EU/1/05/308/001-010) for complicated skin and skin structure infections and *S. aureus* bacteraemia/right-sided infective endocarditis in adults and paediatric patients (≥1 year). Although not currently marketed in Denmark, prescribers may be able to access it via special import or individual patient access pathways when clinically indicated for its approved indications. For any repurposing purpose, separate regulatory approval would be required.
-
----
-
-## Safety Considerations
-
-**Key Warnings:**
-- **Myopathy and Rhabdomyolysis**: Daptomycin can cause skeletal muscle toxicity. Creatine phosphokinase (CPK) levels must be monitored at least weekly during treatment. Unexplained muscle pain, tenderness, or weakness warrants immediate evaluation and possible discontinuation.
-- **Rhabdomyolysis-induced Gout**: At least one documented case shows daptomycin-induced rhabdomyolysis leading to hyperuricaemia and acute gouty arthritis (PMID 36693494). This is particularly relevant: the TxGNN gout prediction reflects an adverse effect signal, not a therapeutic opportunity — use in gout patients should be approached with heightened vigilance.
-- **Pulmonary Inefficacy**: Daptomycin is inactivated by pulmonary surfactant and must not be used for pneumonia — this limits repurposing for any pulmonary indication.
-
-**Drug Interactions:**
-No DDI data was retrieved in this evidence pack query. Based on the known SmPC, co-administration with statins or other drugs causing myopathy (e.g., cyclosporin) may increase the risk of rhabdomyolysis; temporary statin discontinuation is recommended during daptomycin therapy.
-
-> Full prescribing safety information, including contraindications and warnings specific to the Summary of Product Characteristics (SmPC), could not be retrieved in this evidence pack (Data Gap DG001 — Laegemiddelstyrelsen SmPC not yet parsed). The EMA SmPC for Cubicin® should be consulted before any clinical use.
+> **EMA centraliseret godkendelse note:** Daptomycin (Cubicin®) har en centraliseret EMA-markedsføringstilladelse (EU/1/05/308/001-010) til komplicerede hud- og hudstrukturinfektioner og *S. aureus*-bakteræmi/højre-sidet infektiøs endokarditis hos voksne og pædeiatriske patienter (≥1 år). Selvom det ikke i øjeblikket er markedsført i Danmark, kan behandlere muligvis få adgang til det via specialimport eller individuelle patienttilgangsmetoder, når det er klinisk indiceret til dets godkendte indikationer. Til ethvert oldrug-nyt-brug-formål vil separat regulatorisk godkendelse være påkrævet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+**Vigtige advarsler:**
+- **Myopati og rhabdomyolysis**: Daptomycin kan forårsage skeletal muskelstoksicitet. Kreatininfosfatkinase (CPK)-niveauer skal overvåges mindst ugentlig under behandling. Uforklaret muskelsmerte, ømhed eller svaghed berettiger øjeblikkelig evaluering og mulig afbrydelse.
+- **Rhabdomyolysis-induceret gout**: Mindst ét dokumenteret tilfælde viser daptomycin-induceret rhabdomyolysis, der fører til hyperurikæmi og akut gout arthritis (PMID 36693494). Dette er særligt relevant: TxGNN gout-prædiktionen afspejler et sikkerhedssignal, ikke en terapeutisk mulighed — brug hos gout-patienter bør tilgås med øget årvågenhed.
+- **Pulmonar ineffektivitet**: Daptomycin inaktiveres af lungeovertræk og må ikke bruges til pneumoni — dette begrænser oldrug-nyt-brug til eventuelle pulmonare indikationer.
 
-**Rationale:**
-The sole scientifically credible repurposing signal — daptomycin as an anti-inflammatory agent in rheumatoid arthritis — is supported only by two preclinical animal studies published in 2025, with no clinical trials, no human pharmacokinetic/pharmacodynamic data for anti-inflammatory dosing, and no validated biomarker endpoint. Additionally, daptomycin's current IV-only formulation and known myotoxicity profile present serious practical barriers to use in a chronic disease such as RA. The majority of high-scoring TxGNN predictions are assessed as false positives (OA, OA susceptibility, pseudoachondroplasia) or adverse effect signals (gout), not genuine repurposing opportunities.
+**Lægemiddelinteraktioner:**
+Der blev ikke hentet DDI-data i denne evidenspakkeforespørgsel. Baseret på det kendte SmPC, kan samadministration med statiner eller andre lægemidler, der forårsager myopati (f.eks. cyclosporin), øge risikoen for rhabdomyolysis; midlertidig statinafbrydelse anbefales under daptomycin-terapi.
 
-**To proceed to the next evaluation stage, the following is needed:**
+> Fulde lægemidler-sikkerhedsoplysninger, herunder kontraindikationer og advarsler specifikt for Produktresumé (SmPC), kunne ikke hentes i denne evidenspakkeforespørgsel (Data Gap DG001 — Lægemiddelstyrelses SmPC er endnu ikke parset). EMA SmPC for Cubicin® bør konsulteres før enhver klinisk brug.
 
-- **Resolve Data Gap DG001**: Retrieve and parse the Cubicin SmPC (via EMA) for full safety, contraindication, and warning profile
-- **Resolve Data Gap DG002**: Confirm daptomycin's anti-inflammatory MOA (NF-κB pathway) using DrugBank API and primary pharmacology databases
-- **In vitro human cell studies**: Validate NF-κB suppression and cytokine inhibition in human RA synoviocytes before further investment
-- **Dose-toxicity window assessment**: Determine whether anti-inflammatory-effective doses are achievable in humans without triggering myopathy (CPK elevation threshold vs. therapeutic NF-κB inhibition)
-- **Route of administration feasibility**: Assess whether subcutaneous or alternative formulations of daptomycin could support chronic autoimmune disease management
-- **Independent replication**: The two key preclinical studies (PMIDs 39571268 and 40923559) originate from overlapping author groups — independent replication is needed before escalating evidence evaluation
-- **Systematic literature update**: Conduct a formal scoping review on daptomycin anti-inflammatory mechanisms, including potential immunomodulatory effects beyond the CIA model
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Det eneste videnskabeligt troværdigt oldrug-nyt-brug-signal — daptomycin som et anti-inflammatorisk middel i reumatoid arthritis — understøttes kun af to præ-kliniske dyrestudier offentliggjort i 2025, uden kliniske forsøg, uden humane farmakokinetiske/farmakodynamiske data for anti-inflammatorisk dosering, og uden valideret biomarker-endepunkt. Derudover udgør daptomycins nuværende IV-eneste formulering og kendte myotoksicitets-profil alvorlige praktiske barrierer for brug i en kronisk sygdom såsom RA. Flertallet af højt-scorende TxGNN-prædiktioner vurderes som falske positive (OA, OA-modtagelighed, pseudoachondroplasi) eller sikkerhedssignaler (gout), ikke ægte oldrug-nyt-brug-muligheder.
+
+**For at gå videre til næste evalueringsstadium, er følgende nødvendigt:**
+
+- **Løs data Gap DG001**: Hent og pars Cubicin SmPC (via EMA) til fuldt sikkerhed, kontraindikations- og advarselsprofil
+- **Løs data Gap DG002**: Bekræft daptomycins anti-inflammatoriske MOA (NF-κB-signalering) ved hjælp af DrugBank API og primære farmakologi-databaser
+- **In vitro humane celstudier**: Valider NF-κB-suppression og cytokin-inhibering i humane RA-synoviocy-ter før yderligere investering
+- **Dose-toksicitets-vindue-vurdering**: Bestem, om anti-inflammatorisk-effektive doser kan opnås hos mennesker uden at udløse myopati (CPK-elevationskærskel vs. terapeutisk NF-κB-inhibering)
+- **Administrationsrute-mulighed**: Vurdér, om subkutan eller alternative formuleringer af daptomycin kunne understøtte kronisk autoimmun sygdoms-behandling
+- **Uafhængig replikering**: De to vigtigste præ-kliniske studier (PMIDs 39571268 og 40923559) stammer fra overlappende forfatter-grupper — uafhængig replikering er nødvendig før eskaleringsbeslutninger af evidens-evaluering
+- **Systematisk litteraturupdate**: Udfør en formel scoping-review på daptomycin anti-inflammatoriske mekanismer, herunder potentielle immunomodulatoriske effekter ud over CIA-modellen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

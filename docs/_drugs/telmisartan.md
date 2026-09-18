@@ -29,78 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Telmisartan: From Hypertension to Prinzmetal Angina
+# Telmisartan: Fra hypertension til Prinzmetal-angina
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Telmisartan is an angiotensin II receptor blocker (ARB) established for the treatment of hypertension. The TxGNN model's top-ranked prediction in this Evidence Pack is **Prinzmetal angina**, with a prediction score of **99.98%** — but currently **zero clinical trials and zero publications** support this specific indication.
+Telmisartan er en angiotensin II-receptorblokkerer (ARB) etableret til behandling af hypertension. TxGNN-modellens toprangerede forudsigelse i denne Evidence Pack er **Prinzmetal-angina**, med en forudsigelsesscore på **99.98%** — men der er i øjeblikket **nul kliniske forsøg og nul publikationer**, der understøtter denne specifikke indikation.
 
-> Note: `original_indications` and Danish market data were empty in this Evidence Pack. "Hypertension" is stated based on established pharmacological knowledge of telmisartan (ARB class), not extracted from the pack.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (general drug-class knowledge; not present in Evidence Pack) |
-| Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Bemærk: `original_indications` og danske markedsdata var tomme i denne Evidence Pack. "Hypertension" er angivet baseret på etableret farmakologisk viden om telmisartan (ARB-klasse), ikke ekstraheret fra pakken.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action (MOA) data is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on known pharmacology, telmisartan is an angiotensin II type 1 (AT1) receptor blocker that lowers blood pressure by inhibiting the renin-angiotensin-aldosterone system (RAAS); it also has partial PPAR-γ agonist activity.
-
-Prinzmetal (variant) angina is caused primarily by focal coronary artery vasospasm, and standard treatment relies on calcium channel blockers and nitrates — agents that directly relax vascular smooth muscle. Telmisartan's RAAS-inhibition/antihypertensive mechanism has no established direct link to the pathophysiology of coronary vasospasm, so the mechanistic rationale for this specific prediction is weak.
-
-This appears to be a high-confidence TxGNN knowledge-graph association rather than a mechanistically or clinically substantiated signal: no clinical trials, no ICTRP-registered trials, and no PubMed literature were found for telmisartan in Prinzmetal angina across any of the queries in this pack.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Hypertension (generel medicin-klasseviden; ikke til stede i Evidence Pack) |
+| Forudsagt ny indikation | Prinzmetal-angina |
+| TxGNN forudsigelsesscore | 99.98% |
+| Bevisniveau | L5 |
+| Markedsstatus for Danmark | Ikke markedsført (Ikke markedsført) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme (MOA) ikke tilgængelige i denne Evidence Pack (markeret som et alvorligt datagab, DG002). Baseret på kendt farmakologi er telmisartan en angiotensin II type 1 (AT1) receptorblokkerer, der sænker blodtrykket ved at hæmme renin-angiotensin-aldosteron-systemet (RAAS); det har også delvis PPAR-γ-agonistaktivitet.
 
----
+Prinzmetal (variant) angina forårsages primært af fokal koronarartsvaspasme, og standardbehandling afhænger af calciumkanalblokkere og nitrater — stoffer, der direkte slapper glat muskulatur i blodkar af. Telmisartans RAAS-hæmning/antihypertensiv mekanisme har ingen etableret direkte forbindelse til patofysiologien af koronarartsvaspasme, så den mekanistiske begrundelse for denne specifikke forudsigelse er svag.
 
-## Denmark Market Information
-
-Telmisartan currently has **no marketing authorisations on record** in this Evidence Pack (market status: not marketed; total authorisations: 0). No national (Lægemiddelstyrelsen) or centralised (EMA) licence entries were available to tabulate.
+Dette ser ud til at være en højtillidtgivende TxGNN-vidensgraf-association snarere end et mekanistisk eller klinisk underbygget signal: ingen kliniske forsøg, ingen ICTRP-registrerede forsøg, og ingen PubMed-litteratur blev fundet for telmisartan i Prinzmetal-angina på tværs af nogen af forespørgslerne i denne pakke.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (Key warnings, contraindications, and drug-drug interaction data were not available in this Evidence Pack — DG001, flagged Blocking severity, notes that TFDA/label warning data still needs to be retrieved before a safety pre-assessment can proceed.)
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The top-ranked prediction (Prinzmetal angina) has no clinical trial or literature evidence and only a weak mechanistic rationale, meeting criteria for evidence level L5 (model prediction only). Combined with the absence of Danish marketing authorisation and unresolved safety data gaps, this candidate does not currently support further evaluation.
+---
 
-**To proceed, the following is needed:**
-- Telmisartan MOA and product labeling data (DG002)
-- TFDA/SmPC warnings, contraindications, and DDI data (DG001 — Blocking)
-- Any preclinical or mechanistic studies specifically linking ARBs to coronary vasospasm
-- Confirmation of Danish market/authorisation status
+## Markedsoplysninger for Danmark
 
-**Additional note:** This Evidence Pack contains 10 ranked candidate indications for telmisartan. Several lower-ranked candidates have materially stronger evidence than the top-ranked one above — notably **cerebral artery occlusion** (rank 7–8, TxGNN score 99.95%, Evidence Level **L2**, recommendation **Proceed with Guardrails**), supported by a completed Phase 4 RCT (NCT01075698, n=1228) and 17 preclinical publications on neuroprotective mechanisms. If a repurposing candidate is needed for further action, that indication is a substantially better-evidenced starting point than Prinzmetal angina and may warrant its own dedicated evaluation report.
+Telmisartan har i øjeblikket **ingen markedsføringstilladelser på record** i denne Evidence Pack (markedsstatus: ikke markedsført; samlede tilladelser: 0). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) licensindgange var tilgængelige til tabelering.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst Produktresumeet (SmPC) for sikkerhedsoplysninger. (Vigtige advarsler, kontraindikationer og medicin-medicin-interaktionsdata var ikke tilgængelige i denne Evidence Pack — DG001, markeret med blockeringsalvor, bemærker, at TFDA/etiketvarningsdata stadig skal indhentes, før en sikkerheds-forhåndsvurdering kan fortsætte.)
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Hold**
+
+**Begrundelse:**
+Den toprangerede forudsigelse (Prinzmetal-angina) har ingen bevis fra kliniske forsøg eller litteratur og kun en svag mekanistisk begrundelse, hvilket opfylder kriterierne for bevisniveau L5 (kun modelforudsigelse). Kombineret med fraværet af dansk markedsføringstilladelse og uløste sikkerhedsdatagab understøtter denne kandidat ikke i øjeblikket yderligere evaluering.
+
+**For at fortsætte er følgende nødvendigt:**
+- Telmisartans MOA og produktmærkningsdata (DG002)
+- TFDA/SmPC-advarsler, kontraindikationer og medicin-medicin-interaktionsdata (DG001 — Blokering)
+- Eventuelle præ-kliniske eller mekanistiske studier, der specifikt forbinder ARB'er med koronarartsvaspasme
+- Bekræftelse af dansk marked-/tilladelsestatus
+
+**Yderligere bemærkning:** Denne Evidence Pack indeholder 10 rangerede kandidatindikationer for telmisartan. Flere lavere-rangerede kandidatindikationer har væsentligt stærkere bevis end den toprangerede ovenfor — især **cerebral arterieokklusion** (rang 7–8, TxGNN score 99.95%, Bevisniveau **L2**, anbefaling **Fortsæt med sikkerhedsmæssige forholdsregler**), understøttet af et gennemført Phase 4 RCT (NCT01075698, n=1228) og 17 præ-kliniske publikationer om neuroprotektive mekanismer. Hvis en omformålscandidat er nødvendig for yderligere handling, er denne indikation et væsentligt bedre-dokumenteret udgangspunkt end Prinzmetal-angina og kan berettige sin egen dedikeret evalueringsrapport.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tislelizumab: From Advanced Solid Tumours to Mixed-Type Autoimmune Hemolytic Anemia
+# Tislelizumab: Fra avanceret solid tumorer til blandet-type autoimmun hemolytisk anæmi
 
-## One-Sentence Summary
+## Ét-liniels sammenfatning
 
-Tislelizumab is an anti-PD-1 (programmed cell death protein 1) monoclonal antibody used in advanced solid tumours (e.g., NSCLC, esophageal cancer). TxGNN predicts it may be effective for **Mixed-Type Autoimmune Hemolytic Anemia**, but this prediction is supported by **zero clinical trials** and **zero publications** — and the drug's known pharmacology points in the opposite direction: anti-PD-1 agents are documented to *cause*, not treat, autoimmune hemolytic anemia as an immune-related adverse event.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in Danish regulatory data (drug not marketed). Per literature evidence in this pack, tislelizumab is an anti-PD-1 therapy used for advanced solid tumours (e.g., NSCLC, esophageal cancer, cholangiocarcinoma) |
-| Predicted New Indication | Mixed-Type Autoimmune Hemolytic Anemia |
-| TxGNN Prediction Score | 93.76% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature for this pairing) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tislelizumab er et anti-PD-1 (programmed cell death protein 1) monoklonalt antistof, der anvendes til avanceret solid tumorer (f.eks. NSCLC, spiserørskræft). TxGNN forudsiger, at det kan være effektivt for **blandet-type autoimmun hemolytisk anæmi**, men denne forudsigelse understøttes af **nul kliniske forsøg** og **nul publikationer** — og lægemidlets kendt farmakologi peger i den modsatte retning: anti-PD-1-lægemidler er dokumenteret at *forårsage*, ikke behandle, autoimmun hemolytisk anæmi som en immunrelateret bivirkning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Formal mechanism-of-action documentation is flagged as a data gap in this evidence pack. However, literature collected under a related candidate (PMID 41268547) describes tislelizumab as a humanized IgG4 anti-PD-1 monoclonal antibody that blocks the PD-1/PD-L1 pathway to **reactivate** anti-tumour immunity — i.e., it removes a brake on immune activation.
-
-Mixed-type autoimmune hemolytic anemia (AIHA) is a condition driven by *excessive* immune activity against red blood cells. A drug that removes immune checkpoints would be expected to worsen, not resolve, this kind of autoimmune process. This is not a theoretical concern: literature gathered elsewhere in this same evidence pack for a related candidate ("dermatitis," rank 5–6) documents that tislelizumab and other anti-PD-1 agents commonly **induce** immune-related adverse events — including Stevens-Johnson syndrome/toxic epidermal necrolysis, DRESS syndrome, and cytopenias/agranulocytosis (e.g., PMID 41346629, 40447060, 38910480). The same pattern applies to two other top-ranked candidates in this pack, "idiopathic aplastic anemia" and "drug-induced autoimmune hemolytic anemia" — both are conditions anti-PD-1 therapy is known to precipitate, not treat.
-
-TxGNN's high score here most likely reflects graph proximity between the drug and these disease nodes learned from adverse-event/safety literature, rather than a genuine treatment relationship. The predicted direction of effect should be treated as inverted (a safety signal) until proven otherwise.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Post | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke registreret i dansk regulatorisk data (lægemidlet er ikke markedsført). Ifølge litteraturbevis i denne pakke er tislelizumab en anti-PD-1-terapi, der anvendes til avanceret solid tumorer (f.eks. NSCLC, spiserørskræft, cholangiocarcinoma) |
+| Forudsagt ny indikation | Blandet-type autoimmun hemolytisk anæmi |
+| TxGNN-forudsigelsesscore | 93.76% |
+| Bevisniveau | L5 (modelforudsigelse alene — ingen kliniske forsøg eller litteratur for denne parring) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Formelle virkningsmekanisme-dokumentation er markeret som et datagab i denne bevismappe. Litteratur indsamlet under en relateret kandidat (PMID 41268547) beskriver imidlertid tislelizumab som et humaniseret IgG4 anti-PD-1 monoklonalt antistof, der blokerer PD-1/PD-L1-vej for at **genaktivere** antitumor-immunitet — dvs. det fjerner en bremse på immunaktivering.
 
----
+Blandet-type autoimmun hemolytisk anæmi (AIHA) er en tilstand drevet af *overdreven* immunaktivitet mod røde blodlegemer. Et lægemiddel, der fjerner immunecheck-points, ville forventes at forværre, ikke løse, denne type autoimmun proces. Dette er ikke en teoretisk bekymring: litteratur indsamlet andetsteds i denne samme bevismappe for en relateret kandidat ("dermatitis," rang 5–6) dokumenterer, at tislelizumab og andre anti-PD-1-lægemidler almindeligt **inducerer** immunrelaterede bivirkninger — herunder Stevens-Johnson-syndrom/toksisk epidermal nekrolyse, DRESS-syndrom og cytopenier/agranulocytose (f.eks. PMID 41346629, 40447060, 38910480). Det samme mønster gælder for to andre top-rangerede kandidater i denne pakke, "idiopatisk aplastisk anæmi" og "lægemiddelinduseret autoimmun hemolytisk anæmi" — begge er tilstande, anti-PD-1-terapi vides at fremkalde, ikke behandle.
 
-## Denmark Market Information
-
-Currently no marketing authorisation on file for Denmark. Tislelizumab has market status "Not marketed" with 0 registered authorisations.
+TxGNNs høje score her afspejler mest sandsynligt grafproximitet mellem lægemidlet og disse sygdomsknudepunkter, der er lært fra litteratur om bivirkninger/sikkerhed, snarere end et ægte behandlingsforhold. Den forudsagte effektretning bør behandles som inverteret (et sikkerhedssignal) indtil bevist anderledes.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug-drug interaction data are on file in this evidence pack.
-
-Note: although not part of the formal safety dataset, literature gathered elsewhere in this pack for a related candidate documents serious immune-related adverse events associated with tislelizumab, including SJS/TEN, DRESS syndrome, and agranulocytosis. This should be considered when assessing this drug's risk profile.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The top-ranked predicted indication has no clinical trial or literature support (L5), and the drug's known immune-activating mechanism runs directly counter to the pathophysiology of autoimmune hemolytic anemia. Corroborating literature elsewhere in this evidence pack shows the drug class induces this exact condition as an adverse event, indicating the TxGNN association most likely reflects a safety signal rather than a therapeutic effect.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action and original-indication data (currently marked as data gaps)
-- TFDA/SmPC-level warnings and contraindications (currently marked as blocking data gap)
-- Independent pharmacological review to confirm or refute the directionality of the drug-disease relationship before any further evaluation
-- If pursued at all, re-scope toward pharmacovigilance/adverse-event monitoring rather than efficacy testing
+## Markedsinformation for Danmark
+
+Der er i øjeblikket ingen markedsføringstilladelse registreret for Danmark. Tislelizumab har markedsstatus "Ikke markedsført" med 0 registrerede tilladelser.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktinformationsdokument (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller data vedrørende lægemiddel-lægemiddel-vekselvirkning er registreret i denne bevismappe.
+
+Bemærk: selvom det ikke er del af det formelle sikkerhedsdatasæt, dokumenterer litteratur indsamlet andetsteds i denne pakke for en relateret kandidat alvorlige immunrelaterede bivirkninger forbundet med tislelizumab, herunder SJS/TEN, DRESS-syndrom og agranulocytose. Dette bør tages i betragtning ved vurdering af dette lægemiddels risikoprofil.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Den top-rangerede forudsagte indikation har ingen klinisk forsøgs- eller litteraturunderstøttelse (L5), og lægemidlets kendt immunaktiveringsmekanisme går direkte imod patofysiologien for autoimmun hemolytisk anæmi. Understøttende litteratur andetsteds i denne bevismappe viser, at lægemiddelklassen inducerer denne nøjagtige tilstand som en bivirkning, hvilket indikerer, at TxGNN-associeringen mest sandsynligt afspejler et sikkerhedssignal snarere end en terapeutisk effekt.
+
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet virkningsmekanisme- og oprindelig indikationsdata (i øjeblikket markeret som datagab)
+- TFDA/SmPC-niveau advarsler og kontraindikationer (i øjeblikket markeret som blokerende datagab)
+- Uafhængig farmakologisk gennemgang for at bekræfte eller afkræfte retningen af lægemiddel-sygdomsforholdet inden yderligere vurdering
+- Hvis det forfølges overhovedet, omdirigering mod farmakovigilans/bivirkningsovervågning snarere end effektivitetstestning
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

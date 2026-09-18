@@ -29,81 +29,82 @@ Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Olodaterol: From COPD to Bronchitis
+# Olodaterol: Fra KOL til bronkitis
 
-## One-Sentence Summary
+## Sammendrag i en sætning
 
-Olodaterol is a long-acting β2-adrenergic agonist (LABA) already established, per the supporting literature in this evidence pack, as a once-daily maintenance bronchodilator for Chronic Obstructive Pulmonary Disease (COPD). The TxGNN model additionally predicts efficacy for **Bronchitis**, currently supported by **3 clinical trials** and **2 publications** — with a closely related "Obstructive Lung Disease" prediction (same drug, overlapping mechanism) backed by substantially stronger evidence (50+ trials, including multiple completed Phase 3 RCTs).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Obstructive Pulmonary Disease (COPD) — established via literature evidence in this pack; no Danish label data available |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Olodaterol er en langvirkende β2-adrenerg agonist (LABA), der ifølge den understøttende litteratur i denne evidenssamling allerede er etableret som et dagligt vedligeholdelsesbronkodilator til kronisk obstruktiv lungesygdom (KOL). TxGNN-modellen forudsiger desuden effektivitet mod **bronkitis**, som i øjeblikket understøttes af **3 kliniske forsøg** og **2 publikationer** — med en nært beslægtet forudsigelse om "obstruktiv lungesygdom" (samme lægemiddel, overlappende mekanisme), der understøttes af væsentligt stærkere evidens (50+ forsøg, herunder flere gennemførte Fase 3-RCT'er).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data for olodaterol is not available in this evidence pack (a High-severity data gap). Based on the supporting literature retrieved, olodaterol is a once-daily inhaled long-acting β2-adrenoceptor agonist (LABA) that relaxes bronchial smooth muscle via β2-receptor stimulation, and its efficacy as a maintenance bronchodilator in COPD has been established (e.g., PMID 25773742, 31119643, 27354040).
-
-Bronchitis — particularly chronic bronchitis — is clinically a component phenotype of COPD rather than a distinct disease category, so the mechanistic rationale for extending olodaterol's use is strong: the same airway smooth-muscle relaxation and bronchodilation that benefits COPD patients directly addresses the airflow obstruction and bronchial inflammation seen in bronchitis. This is corroborated by the supporting trials themselves, several of which explicitly enrolled patients with "COPD (Chronic Bronchitis, Emphysema)" (e.g., NCT02850978).
-
-Notably, the evidence pack also contains a second, closely related predicted indication — "Obstructive Lung Disease" — for the same drug, supported by over 50 clinical trials including multiple completed Phase 3 RCTs (e.g., TONADO 1/2, DYNAGITO). This much larger evidence base reinforces the mechanistic plausibility of the bronchitis prediction, though the bronchitis-specific evidence itself remains limited to observational/post-marketing studies.
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Kronisk obstruktiv lungesygdom (KOL) — etableret via litteraturevidence i denne samling; ingen danske labeldata tilgængelige |
+| Forudsagt ny indikation | Bronkitis |
+| TxGNN-forudsigelsesscore | 99.84% |
+| Evidensniveau | L3 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+I øjeblikket er detaljerede data om virkningsmekanismen for olodaterol ikke tilgængelige i denne evidenssamling (et datakløft med høj alvorlighed). Baseret på den hentet litteratur er olodaterol et dagligt inhaleret langvirkende β2-receptoragonist (LABA), som afslapper bronkiel glatmuskulatur via β2-receptorstimulering, og dets effektivitet som vedligeholdelsesbronkodilator ved KOL er blevet etableret (f.eks. PMID 25773742, 31119643, 27354040).
+
+Bronkitis — især kronisk bronkitis — er klinisk en delkomponent af KOL snarere end en særskilt sygdomskategori, så den mekanistiske begrundelse for at udvide olodaterols anvendelse er stærk: den samme afslapning af glatmuskulaturen i luftvejene og bronkodilatation, der gavner KOL-patienter, adresserer direkte luftvejsobstruktion og bronkial inflammation set ved bronkitis. Dette understøttes af de understøttende forsøg selv, hvoraf flere eksplicit inkluderede patienter med "KOL (kronisk bronkitis, emfysem)" (f.eks. NCT02850978).
+
+Det er bemærkelsesværdigt, at evidenssamlingen også indeholder en anden, nært beslægtet forudsagt indikation — "obstruktiv lungesygdom" — for det samme lægemiddel, understøttet af over 50 kliniske forsøg, herunder flere gennemførte Fase 3-RCT'er (f.eks. TONADO 1/2, DYNAGITO). Dette meget større evidensgrundlag bekræfter den mekanistiske plausibilitet af bronkitis-forudsigelsen, selvom den bronkitis-specifik evidens selv forbliver begrænset til observationelle/post-markedsføringsstudier.
+
+---
+
+## Evidens fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A (observational) | Completed | 11,316 | Compared healthcare resource utilization and clinical outcomes of Tiotropium/Olodaterol vs. Fluticasone Furoate/Umeclidinium/Vilanterol in COPD patients |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A (observational) | Completed | 22,155 | Post-authorisation drug utilisation study describing patterns of use of aclidinium (mono/combination) vs. other COPD medications, including off-label use assessment |
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A (observational) | Completed | 1,335 | Long-term post-marketing surveillance of Tiotropium+Olodaterol FDC (Spiolto) in Japanese patients with COPD, including chronic bronchitis and emphysema |
+| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A (observationel) | Afsluttet | 11,316 | Sammenlignede sundhedsressourceforbrug og kliniske resultater af Tiotropium/Olodaterol vs. Fluticasonefuroat/Umeclidinium/Vilanterol hos KOL-patienter |
+| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A (observationel) | Afsluttet | 22,155 | Post-godkendelsesundersøgelse af lægemiddelbrug, der beskriver brugsmønstre for aclidinium (mono-/kombinationspreparater) vs. andre KOL-lægemidler, herunder vurdering af off-label-forbrug |
+| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A (observationel) | Afsluttet | 1,335 | Langsigtet post-markedsføringsovervågning af Tiotropium+Olodaterol FDC (Spiolto) hos japanske patienter med KOL, herunder kronisk bronkitis og emfysem |
 
 ---
 
-## Literature Evidence
+## Evidens fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | American Journal of Health-System Pharmacy | Reviews pharmacology, pharmacokinetics, efficacy, and safety of once-daily LABA olodaterol |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline/Review | Basic & Clinical Pharmacology & Toxicology | Finnish national COPD guideline covering diagnosis, assessment, and pharmacotherapy of stable COPD |
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Oversigt | American Journal of Health-System Pharmacy | Anmeldelse af farmakologi, farmakokinetik, effektivitet og sikkerhed af den daglige LABA olodaterol |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Retningslinje/Oversigt | Basic & Clinical Pharmacology & Toxicology | Finsk national KOL-retningslinje, der dækker diagnose, vurdering og farmakoterapi af stabil KOL |
 
 ---
 
-## Denmark Market Information
+## Information om det danske marked
 
-Olodaterol is currently **not marketed** in Denmark, and no marketing authorisations (national Laegemiddelstyrelsen or centralised EMA) are on record in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (Note: this evidence pack flags TFDA label warnings/contraindications as a **Blocking** data gap, meaning safety data is currently insufficient for an S1 safety pre-assessment.)
+Olodaterol er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) er registreret i denne evidenssamling.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte sammendrag af produktegenskaber (SmPC) for sikkerhedsinformation. (Bemærk: denne evidenssamling markerer TFDA-labeladvarsler/kontraindikationer som et **blokerende** datakløft, hvilket betyder, at sikkerhedsdata i øjeblikket er utilstrækkelige til at gennemføre en S1-sikkerhedsvurdering.)
 
-**Rationale:**
-- The bronchitis-specific evidence (predicted_indications[0]) is limited to 3 observational/post-marketing studies and 2 non-RCT publications (Evidence Level L3), and olodaterol is not currently marketed in Denmark.
-- A Blocking data gap exists for TFDA/SmPC warnings and contraindications, which prevents any safety pre-assessment (S1) from proceeding.
+---
 
-**To proceed, the following is needed:**
-- Approved SmPC / product label with warnings, contraindications, and drug interaction data
-- Confirmed mechanism of action documentation (currently a data gap)
-- Consideration of whether "Obstructive Lung Disease" (the closely related prediction with 50+ trials and multiple completed Phase 3 RCTs) should be evaluated as the primary repurposing target instead of bronchitis specifically
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+- Bronkitis-specifik evidens (predicted_indications[0]) er begrænset til 3 observationelle/post-markedsføringsstudier og 2 ikke-RCT publikationer (Evidensniveau L3), og olodaterol er ikke i øjeblikket markedsført i Danmark.
+- Et blokerende datakløft vedrørende TFDA/SmPC-advarsler og kontraindikationer forhindrer gennemførelse af en S1-sikkerhedsvurdering.
+
+**For at fortsætte kræves følgende:**
+- Godkendt SmPC/produktlabel med advarsler, kontraindikationer og lægemiddelinteraktionsdata
+- Bekræftet dokumentation af virkningsmekanisme (i øjeblikket et datakløft)
+- Overvejelse af, hvorvidt "obstruktiv lungesygdom" (den nært beslægtet forudsigelse med 50+ forsøg og flere gennemførte Fase 3-RCT'er) bør evalueres som det primære omformålskandidat i stedet for specifikt bronkitis
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

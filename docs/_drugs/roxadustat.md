@@ -29,78 +29,79 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Roxadustat: From Chronic Kidney Disease Anemia to Dry Eye Syndrome
+# Roxadustat: Fra kronisk nyresygdoms anæmi til tørre øjne
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Roxadustat is a hypoxia-inducible factor prolyl-hydroxylase inhibitor (HIF-PHI) originally developed to treat anemia associated with chronic kidney disease (CKD). The TxGNN model predicts it may also be effective for **Dry Eye Syndrome**, but this direction is currently supported by only **1 observational clinical trial** and **no published literature**, making the evidence base very weak at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Anemia associated with chronic kidney disease (CKD) |
-| Predicted New Indication | Dry Eye Syndrome |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Roxadustat er en hypoxia-inducerbar faktor prolyl-hydroksylase-inhibitor (HIF-PHI), oprindeligt udviklet til behandling af anæmi forbundet med kronisk nyresygdom (CKD). TxGNN-modellen forudsiger, at det også kan være effektivt mod **tørre øjne**, men denne retning understøttes i øjeblikket kun af **1 observationsstudie** og **ingen publiceret litteratur**, hvilket gør evidensgrundlaget meget svagt på nuværende tidspunkt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data from official sources is not available. Based on known information, Roxadustat is a HIF prolyl-hydroxylase inhibitor (HIF-PHI) that stabilizes hypoxia-inducible factor to stimulate endogenous erythropoietin production, and its efficacy in CKD-associated anemia is well established.
-
-The proposed link to dry eye syndrome is indirect: the HIF signaling pathway is known to play a physiological role in corneal epithelial repair and in lipid metabolism within the meibomian glands, which are central to tear-film stability. In theory, a HIF-stabilizing agent could influence ocular surface health through this pathway.
-
-However, this is a mechanistic hypothesis rather than a demonstrated treatment effect. The only available clinical trial identified is an **observational** study characterizing meibomian gland function in patients with renal anemia (a population that happens to include Roxadustat users) — it does not test Roxadustat as an intervention for dry eye syndrome. The connection should therefore be regarded as biologically plausible but clinically unproven.
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Anæmi forbundet med kronisk nyresygdom (CKD) |
+| Forudsagt ny indikation | tørre øjne |
+| TxGNN forudsigelsesscore | 99.51% |
+| Evidensniveau | L4 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+I øjeblikket er detaljerede data om virkningsmekanisme fra officielle kilder ikke tilgængelige. På grundlag af kendt viden er roxadustat en HIF prolyl-hydroksylase-inhibitor (HIF-PHI), der stabiliserer hypoxia-inducerbar faktor for at stimulere endogen erythropoietin-produktion, og dets effektivitet ved anæmi forbundet med CKD er veletableret.
+
+Det foreslåede link til tørre øjne er indirekte: HIF-signaleringsvej vides at spille en fysiologisk rolle i reparation af hornhinde-epitel og i lipidmetabolisme inden for meibom-kørtler, som er centrale for tårefilmets stabilitet. I teorien kunne et HIF-stabiliserende agens påvirke tilstanden på øjets overflade gennem denne vej.
+
+Dog er dette en mekanistisk hypotese snarere end en påvist behandlingseffekt. Det eneste tilgængelige kliniske forsøg, der er identificeret, er et **observationsstudie**, der karakteriserer meibom-kørtlernes funktion/morfologi hos patienter med renaal anæmi (en population, der almindeligvis behandles med EPO eller roxadustat) — det tester ikke roxadustat som en intervention mod tørre øjne. Forbindelsen bør derfor betragtes som biologisk plausibel, men klinisk ubevist.
+
+---
+
+## Klinisk forsøgsbevis
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | Phase NA | Unknown | 50 | Observational study of meibomian gland function/morphology in renal anemia patients (a population commonly treated with EPO or Roxadustat); dry eye symptoms were a presenting feature in patients referred to ophthalmology. Not an interventional trial of Roxadustat for dry eye syndrome — relevance graded C (indirect, non-interventional). |
+| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | Fase NA | Ukendt | 50 | Observationsstudie af meibom-kørtlers funktion/morfologi hos patienter med renaal anæmi (en population, der almindeligvis behandles med EPO eller roxadustat); tørre øjne-symptomer var et fremtrædende træk hos patienter henvist til oftalmologi. Ikke et interventionsforsøg med roxadustat til tørre øjne — relevans bedømt som C (indirekte, ikke-interventionelt). |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Roxadustat is not currently marketed in Denmark, and no marketing authorisations (national or centralised/EMA) are on record.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
 ---
 
-## Safety Considerations
+## Markeds- og regulatorisk information for Danmark
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No warnings, contraindications, or drug interaction data were retrievable in this evidence pack.
-
-*Note: for the HIF-PHI class generally, malignancy-related risk has been flagged as a labeling/monitoring concern in other jurisdictions — this should be verified against the official Danish/EU product information before any further evaluation.*
+Roxadustat markedsføres i øjeblikket ikke i Danmark, og der er ingen markedsføringstilladelser (nationale eller centraliserede/EMA) på register.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Ingen advarsler, kontraindikationer eller lægemiddelinteraktionsdata var tilgængelige i denne evidenspakke.
 
-**Rationale:**
-The dry eye syndrome prediction rests on a high TxGNN score but is backed only by an observational trial with no interventional or mechanistic-treatment data, and no supporting literature. Combined with the absence of Danish market authorisation and missing core safety documentation, there is currently insufficient evidence to advance this candidate.
+*Bemærk: For HIF-PHI-klassen generelt er malignitetsrelateret risiko blevet markeret som et mærkning-/overvågningsspørgsmål i andre jurisdiktioner — dette bør verificeres mod den officielle dansk/EU-produktinformation, før der foretages yderligere evaluering.*
 
-**To proceed, the following is needed:**
-- Official mechanism of action (MOA) data from DrugBank or SmPC
-- SmPC-derived warnings and contraindications (currently a blocking data gap for safety pre-screening)
-- Interventional (not merely observational) clinical evidence specifically testing Roxadustat in dry eye syndrome
-- Confirmation of Danish/EU regulatory status and any HIF-PHI class-specific malignancy monitoring requirements before safety evaluation can proceed
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Forudsigelsen af tørre øjne bygger på en høj TxGNN-score, men understøttes kun af et observationsstudie uden interventionel eller mekanistisk behandlingsbevis og uden understøttende litteratur. Kombineret med fraværet af dansk markedsføringstilladelse og manglende kernesikkerhedsdokumentation er der i øjeblikket utilstrækkelig evidens til at fremme denne kandidat.
+
+**For at fortsætte er følgende nødvendig:**
+- Officielle virkningsmekanisme-data (MOA) fra DrugBank eller SmPC
+- SmPC-baserede advarsler og kontraindikationer (i øjeblikket et blokerende datahul for sikkerhedsgranskning)
+- Interventionel (ikke blot observationel) klinisk evidens specifikt testende roxadustat til tørre øjne
+- Bekræftelse af dansk/EU-regulatorisk status og eventuelle HIF-PHI-klassespecifikke overvågningskrav for malignitet, før sikkerhedsevaluering kan fortsætte
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

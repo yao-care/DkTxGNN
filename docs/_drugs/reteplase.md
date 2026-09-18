@@ -29,80 +29,81 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Reteplase: From Acute Myocardial Infarction (STEMI) to Posteroinferior Myocardial Infarction
+# Reteplase: Fra Akut Myokardieinfarkt (STEMI) til Posteroinferior Myokardieinfarkt
 
-## One-Sentence Summary
+## Et-linjers sammenfatning
 
-Reteplase is a recombinant tissue plasminogen activator (r-tPA variant) used as thrombolytic therapy for acute ST-elevation myocardial infarction (STEMI). The TxGNN model's top-ranked prediction, **Posteroinferior Myocardial Infarction**, is flagged by the evidence pack itself as an anatomical subtype of reteplase's *existing* MI indication rather than a genuine new indication, and it is supported by **0 clinical trials** and **0 publications**. A more substantive signal exists further down the candidate list — **Septal Myocardial Infarction** (rank 5–6) is backed by a completed Phase 3 RCT (n=2,461).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acute myocardial infarction (STEMI) — thrombolytic therapy (per repurposing-rationale text in the evidence pack; not confirmed against a Danish SmPC, as the product currently holds no Danish marketing authorisation) |
-| Predicted New Indication | Posteroinferior Myocardial Infarction *(anatomical subtype of the existing indication — see caveat below)* |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Reteplase er en rekombinant vævsplasminogenaktivator (r-tPA-variant) brugt som trombolitisk terapi til akut ST-elevation myokardieinfarkt (STEMI). TxGNN-modellens højest rangerede forudsigelse, **Posteroinferior Myokardieinfarkt**, markeres af bevisemballagen selv som en anatomisk subtype af reteplases *eksisterende* MI-indikation snarere end en ægte ny indikation, og den understøttes af **0 kliniske forsøg** og **0 publikationer**. Et mere væsentligt signal findes længere nede på kandidatlisten — **Septal Myokardieinfarkt** (rang 5–6) er bakket op af et afsluttet fase 3 RCT (n=2,461).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action (MOA) data is not available for reteplase in this evidence pack [DG002]. Based on known pharmacology, reteplase is a third-generation recombinant plasminogen activator (an engineered tPA variant) that catalyses conversion of plasminogen to plasmin, dissolving fibrin clots in occluded coronary arteries — the basis of its approved use in acute MI/STEMI.
-
-**Important caveat on the top-ranked candidate:** the evidence pack's own repurposing rationale states that "posteroinferior myocardial infarction" is not a true new indication. TxGNN's near-identical scores across ranks 1–4 (posteroinferior MI, posterolateral MI) reflect semantic overlap in the knowledge graph between MI anatomical subtypes and MI generally, not a novel mechanistic link. No independent trials or literature were found for these subtype-labelled terms. This should be treated as an **ontology artifact** — an extension of the existing indication rather than a repurposing candidate.
-
-A more genuine signal appears at rank 5–6, **Septal Myocardial Infarction**, supported by a completed Phase 3, multicentre, double-blind, placebo-controlled RCT (NCT00046228, n=2,461) evaluating reteplase plus abciximab in acute MI — directly on-mechanism, and evaluated at decision stage S3 with a "Proceed with Guardrails" recommendation. Ranks 9–10 (**coronary stenosis**) are similarly supported by several observational/cohort studies (GUSTO-V, SPEED/GUSTO-4 pilot) consistent with reteplase's core fibrinolytic mechanism, though no trial is registered under that exact disease label.
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Akut myokardieinfarkt (STEMI) — trombolitisk terapi (ifølge repurposing-rationale-teksten i bevisemballagen; ikke bekræftet mod et dansk produktresumé, da produktet i øjeblikket ikke har dansk markedsføringstilladelse) |
+| Forudsagt ny indikation | Posteroinferior Myokardieinfarkt *(anatomisk subtype af den eksisterende indikation — se forbehold nedenfor)* |
+| TxGNN-forudsigelsesscore | 99.90% |
+| Bevisniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afventer |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered for **Posteroinferior Myocardial Infarction** (the ranked #1 candidate).
+Data om mekanisme for virkemåde (MOA) for reteplase er i øjeblikket ikke tilgængelig i denne bevisemballage [DG002]. Baseret på kendt farmakologi er reteplase en tredje-generations rekombinant plasminogenaktivator (en konstrueret tPA-variant), der katalyserer omdannelse af plasminogen til plasmin, hvilket opløser fibrinkoagler i tillukkede koronararterier — grundlaget for dets godkendte brug ved akut MI/STEMI.
 
-*For reference, the strongest trial evidence in this evidence pack relates to Septal Myocardial Infarction (rank 5–6):*
+**Vigtigt forbehold vedrørende den højest rangerede kandidat:** bevisemballagen selv angiver, at "posteroinferior myokardieinfarkt" ikke er en ægte ny indikation. TxGNN's næsten identiske scores på tværs af ranger 1–4 (posteroinferior MI, posterolateral MI) afspejler semantisk overlap i vidensgrafen mellem MI-anatomiske subtyper og MI generelt, ikke et nyt mekanistisk link. Ingen uafhængige forsøg eller litteratur blev fundet for disse subtype-mærkede termer. Dette bør behandles som en **ontologiartefakt** — en udvidelse af den eksisterende indikation snarere end en repurposing-kandidat.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Et mere ægte signal fremgår af rang 5–6, **Septal Myokardieinfarkt**, understøttet af et afsluttet multiceentralt, dobbelt-blindet, placebo-kontrolleret fase 3 RCT (NCT00046228, n=2,461), der evaluerer reteplase plus abciximab ved akut MI — direkte på mekanisme, og evalueret ved beslutningsstadium S3 med en anbefaling om "Fortsæt med sikkerhedsbetingelser". Ranger 9–10 (**koronarstenose**) er på samme måde understøttet af flere observationelle/kohort-studier (GUSTO-V, SPEED/GUSTO-4 pilot) i overensstemmelse med reteplases kernefibrinolytiske mekanisme, selvom ingen forsøg er registreret under det præcise sygdomslabel.
+
+---
+
+## Bevis fra kliniske forsøg
+
+I øjeblikket er der ingen relaterede kliniske forsøg registreret for **Posteroinferior Myokardieinfarkt** (den nr. 1-rangerede kandidat).
+
+*Som reference vedrører de vigtigste forsøgsbeviser i denne bevisemballage Septal Myokardieinfarkt (rang 5–6):*
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT00046228](https://clinicaltrials.gov/study/NCT00046228) | Phase 3 | Completed | 2,461 | Multicentre, randomized, double-blind, placebo-controlled trial comparing reteplase + abciximab combination therapy vs. abciximab alone before primary PCI in acute MI. |
+| [NCT00046228](https://clinicaltrials.gov/study/NCT00046228) | Fase 3 | Afsluttet | 2,461 | Multiceentralt, randomiseret, dobbelt-blindet, placebo-kontrolleret forsøg, der sammenligner reteplase + abciximab-kombinationsterapi mod abciximab alene før primær PCI ved akut MI. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available for **Posteroinferior Myocardial Infarction** (the ranked #1 candidate).
-
----
-
-## Denmark Market Information
-
-Reteplase currently holds **0 marketing authorisations** in Denmark (`market_status: Not marketed / Not marketed`). No Laegemiddelstyrelsen national or EMA centralised licence records are present in this evidence pack.
+I øjeblikket er der ingen relateret litteratur tilgængelig for **Posteroinferior Myokardieinfarkt** (den nr. 1-rangerede kandidat).
 
 ---
 
-## Safety Considerations
+## Markedsinformation for Danmark
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-interaction data were not available in this evidence pack [DG001 — Blocking: TFDA/SmPC label text not yet retrieved].
+Reteplase har i øjeblikket **0 markedsføringstilladelser** i Danmark (`market_status: Not marketed / Not marketed`). Der er ingen Laegemiddelstyrelsen-nationale eller EMA-centraliserede licensregistreringer til stede i denne bevisemballage.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsmæssige overvejelser
 
-**Decision: Hold**
+Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og data om lægemiddelinteraktioner var ikke tilgængelige i denne bevisemballage [DG001 — Blokering: TFDA/SmPC-mærkat ikke endnu hentet].
 
-**Rationale:**
-The top-ranked candidate (Posteroinferior Myocardial Infarction) is an anatomical subtype of reteplase's existing approved indication rather than a novel repurposing signal, has zero supporting trials or literature, and is explicitly flagged in the evidence pack as a knowledge-graph ontology artifact. Combined with the blocking gap on Danish label/safety data (DG001) and missing MOA confirmation (DG002), this candidate cannot proceed past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC / regulatory label text (warnings, contraindications, DDI) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- A decision on whether MI anatomical-subtype predictions (ranks 1–4, 7–8) should be excluded from the candidate pipeline as ontology duplicates, or re-scored against the parent "myocardial infarction" indication
-- If pursuing an evidence-backed candidate instead, **Septal Myocardial Infarction** (L1 evidence, Phase 3 RCT, "Proceed with Guardrails") and **Coronary Stenosis** (L3 evidence, multiple cohort studies) warrant separate evaluation as the more substantive repurposing signals in this evidence pack
+## Konklusion og næste trin
+
+**Beslutning: Afventer**
+
+**Begrundelse:**
+Den højest rangerede kandidat (Posteroinferior Myokardieinfarkt) er en anatomisk subtype af reteplases eksisterende godkendt indikation snarere end et nyt repurposing-signal, har ingen understøttende forsøg eller litteratur, og markeres eksplicit i bevisemballagen som en vidensgrafs ontologiartefakt. Kombineret med den blokerende mangel på dansk etiket/sikkerhedsdata (DG001) og manglende MOA-bekræftelse (DG002), kan denne kandidat ikke fortsætte forbi indledende screening.
+
+**For at fortsætte er følgende nødvendig:**
+- Dansk SmPC / lovgivningsmæssig mærkat (advarsler, kontraindikationer, DDI) — blokerer i øjeblikket (DG001)
+- Bekræftet mekanisme for virkemådedata fra DrugBank (DG002)
+- En beslutning om hvorvidt MI-anatomiske-subtype-forudsigelser (ranger 1–4, 7–8) skal udelukkes fra kandidatpipelinen som ontologiduplikater, eller gen-scores mod den overordnede "myokardieinfarkt"-indikation
+- Hvis du forfølger en bevisunderbygget kandidat i stedet, **Septal Myokardieinfarkt** (L1-bevis, fase 3 RCT, "Fortsæt med sikkerhedsbetingelser") og **Koronarstenose** (L3-bevis, flere kohort-studier) berettiger til separat evaluering som de mere væsentlige repurposing-signaler i denne bevisemballage
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

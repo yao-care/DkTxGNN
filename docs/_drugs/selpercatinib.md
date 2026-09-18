@@ -29,91 +29,92 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selpercatinib: From RET Fusion-Positive Cancer to Pulmonary Hypertension
+# Selpercatinib: Fra RET-fusions-positiv cancer til lungehypertension
 
-## One-Sentence Summary
+## Resumé på én linje
 
-Selpercatinib is a selective RET kinase inhibitor whose established use — per the supporting literature in this evidence pack — is in RET fusion-positive non-small-cell lung cancer and related RET-altered tumours. The TxGNN model's top prediction is **Pulmonary Hypertension** (score 99.18%), but the only two supporting publications describe treatment-related *systemic* hypertension as an adverse event, not efficacy against pulmonary hypertension as a disease — with **0 clinical trials** and no efficacy literature currently backing this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Danish licence on file); literature context indicates RET fusion-positive NSCLC/RET-altered cancers |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Selpercatinib er en selektiv RET-kinaseinhibitor, hvis etablerede indikation – ifølge litteraturen i denne evidenspakke – er i RET-fusions-positiv ikke-småcellet lungecancer og relaterede RET-ændret kræft. TxGNN-modellens topforudsigelse er **Lungehypertension** (score 99.18%), men de eneste to understøttende publikationer beskriver behandlingsrelateret *systemisk* hypertension som en bivirkning, ikke virning mod lungehypertension som sygdom – med **0 kliniske forsøg** og ingen litteratur om virning, der i øjeblikket bakker denne retning op.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the supporting literature, Selpercatinib is a highly selective RET kinase inhibitor, and treatment-related hypertension (elevated blood pressure) is a documented adverse event of RET inhibitor therapy.
-
-However, this is a drug-safety signal for *systemic* hypertension, not mechanistic evidence for treating *pulmonary* hypertension as a disease. Neither of the two supporting publications studies Selpercatinib's efficacy in pulmonary hypertension: one is a pharmacovigilance comparison of adverse-event profiles between pralsetinib and selpercatinib (FDA FAERS data), and the other is a retrospective real-world analysis of selpercatinib in RET fusion-positive NSCLC. The most likely explanation is that TxGNN's embedding space has conflated "hypertension" (an adverse-event term) with "pulmonary hypertension" (the predicted disease target) — a term-overlap artifact rather than a genuine repurposing signal.
-
-The remaining predicted indications in this evidence pack (migraine disorder, migraine with brainstem aura, kyphoscoliotic heart disease) are rated L5 (model prediction only) and rely on either purely theoretical GDNF-RET pathway reasoning with no supporting studies, or literature that is off-target (epilepsy genetics research retrieved via keyword overlap with "migraine/aura"), further reinforcing that this candidate is not yet ready to progress past a data-driven hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|---------|
+| Original indikation | Ikke dokumenteret i denne evidenspakke (ingen dansk licensering på fil); litteraturkontekst indikerer RET-fusions-positiv NSCLC/RET-ændret kræft |
+| Forudsagt ny indikation | Lungehypertension |
+| TxGNN Forudsigelsesscore | 99.18% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Standsning |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Cohort (real-world pharmacovigilance) | Frontiers in Pharmacology | Compares adverse-event profiles of pralsetinib vs. selpercatinib using FDA FAERS data; does not evaluate efficacy in pulmonary hypertension |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Cohort (retrospective) | Therapeutic Advances in Medical Oncology | Real-world (SIREN) analysis of selpercatinib in RET fusion-positive NSCLC via an access program; unrelated to pulmonary hypertension |
+Detaljerede mekanisme-of-action-data er ikke tilgængelig i denne evidenspakke (markeret som et høj-alvorlighed data gap). Baseret på den understøttende litteratur er Selpercatinib en meget selektiv RET-kinaseinhibitor, og behandlingsrelateret hypertension (forhøjet blodtryk) er en dokumenteret bivirkning af RET-inhibitor-terapi.
 
----
+Imidlertid er dette et lægemiddelsikkerhedssignal for *systemisk* hypertension, ikke mekanistisk evidens for behandling af *lungehypertension* som sygdom. Ingen af de to understøttende publikationer undersøger Selpercatinib's virning mod lungehypertension: den ene er en farmakovigilans-sammenligning af bivirkningsmønstre mellem pralsetinib og selpercatinib (FDA FAERS-data), og den anden er en praksis-analyse af selpercatinib i RET-fusions-positiv ikke-småcellet lungecancer (SIREN-program). Den mest sandsynlige forklaring er, at TxGNN's embedding-rum har blandet "hypertension" (bivirkningsterminus) med "lungehypertension" (det forudsagte sygdomsmål) – en termoverbinding-artefakt snarere end et ægt repurposing-signal.
 
-## Denmark Market Information
-
-Currently no Danish marketing authorisations on file (market status: Not marketed).
+De resterende forudsagte indikationer i denne evidenspakke (migræne, migræne med hjernestammeaura, kyfoskoliotisk hjertesygdom) er bedømt L5 (modelforudsigelse alene) og er baseret på enten rent teoretisk GDNF-RET-vejsignalforskning uden understøttende studier, eller litteratur, der ikke er relevant til emnet (genetikforskning om epilepsi fundet via søgeord-overlap med "migræne/aura"), hvilket yderligere bekræfter, at denne kandidat endnu ikke er klar til at gå videre ud over en datadrevet hypotese.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøgsbevis
 
-Selpercatinib is an oncology-indicated targeted therapy (based on RET fusion-positive NSCLC context in the literature above), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (selective RET kinase inhibitor) |
-| Myelosuppression Risk | No myelosuppression data available in this evidence pack — please refer to the Summary of Product Characteristics (SmPC) |
-| Emetogenicity Classification | No data available in this evidence pack — please refer to the SmPC |
-| Monitoring Items | Blood pressure (treatment-related hypertension is a documented class-effect adverse event per the pharmacovigilance literature above); liver function; please refer to the SmPC for a complete monitoring panel |
-| Handling Protection | No data available in this evidence pack — please refer to the SmPC and applicable cytotoxic/targeted-agent handling regulations |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: TFDA/Danish label warnings and contraindications are recorded as a **Blocking** data gap (DG001) — this must be resolved before any safety pre-screening (S1) can proceed.
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|---------|----------|
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Kohort (praksis-farmakovigilans) | Frontiers in Pharmacology | Sammenligner bivirkningsmønstre af pralsetinib vs. selpercatinib ved hjælp af FDA FAERS-data; undersøger ikke virning mod lungehypertension |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Kohort (retrospektiv) | Therapeutic Advances in Medical Oncology | Praksis-analyse (SIREN) af selpercatinib i RET-fusions-positiv ikke-småcellet lungecancer via et adgangssprogram; ikke relateret til lungehypertension |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+I øjeblikket ingen danske markedsføringstilladelser på fil (markedsstatus: Ikke markedsført).
 
-**Rationale:**
-- The top-ranked prediction (Pulmonary Hypertension) is supported only by two pharmacovigilance/real-world papers that do not address pulmonary hypertension efficacy — the association most likely reflects a term-overlap artifact (systemic hypertension AE vs. pulmonary hypertension disease) rather than a genuine mechanistic signal. There are no clinical trials, and the drug is not marketed in Denmark. A Blocking data gap (missing label warnings/contraindications) also prevents any safety pre-screening at this stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- A dedicated mechanistic or preclinical study on RET signalling in pulmonary vascular remodeling, to distinguish a true repurposing signal from the AE-term confound identified above
-- Re-evaluation of lower-ranked candidates (migraine, kyphoscoliotic heart disease) only if independent, on-topic literature or trial evidence emerges
+## Cytotoxicitet
+
+Selpercatinib er et onkologi-indikeret målrettet lægemiddel (baseret på RET-fusions-positiv ikke-småcellet lungecancer-kontekst i litteraturen ovenfor), så dette afsnit gælder.
+
+| Punkt | Indhold |
+|------|---------|
+| Cytotoxicitet klassificering | Målrettet terapi (selektiv RET-kinaseinhibitor) |
+| Myelosuppressions risiko | Ingen myelosuppressions-data tilgængelige i denne evidenspakke – se venligst Produktresumé (SmPC) |
+| Emetogenicitets klassificering | Ingen data tilgængelige i denne evidenspakke – se venligst Produktresumé (SmPC) |
+| Overvågnings punkter | Blodtryk (behandlingsrelateret hypertension er en dokumenteret klasse-effekt bivirkning ifølge farmakovigilans-litteraturen ovenfor); leverøversigt; se venligst Produktresumé (SmPC) for et fuldstændigt overvågnings-panel |
+| Håndterings beskyttelse | Ingen data tilgængelige i denne evidenspakke – se venligst Produktresumé (SmPC) og gældende håndterings regler for cytotoksiske/målrettede lægemidler |
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Bemærk: TFDA/Danske Produktresumé-advarsler og kontraindikationer er registreret som en **Blokerende** data gap (DG001) – dette skal løses, før nogen sikkerhedspre-screening (S1) kan fortsætte.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Standsning**
+
+**Begrundelse:**
+- Toprangerede forudsigelse (Lungehypertension) understøttes kun af to praksis-/farmakovigilans-papirer, der ikke omhandler lungehypertension-virning – associationen afspejler højst sandsynligt en termoverbinding-artefakt (systemisk hypertension bivirkning vs. lungehypertension sygdom) snarere end et ægt mekanistisk signal. Der er ingen kliniske forsøg, og lægemidlet er ikke markedsført i Danmark. En blokerende data gap (manglende Produktresumé-advarsler/kontraindikationer) forhindrer også nogen sikkerhedspre-screening på dette stadium.
+
+**For at gå videre, er følgende påkrævet:**
+- TFDA/Danske Produktresumé-advarsler og kontraindikationer (DG001, Blokering)
+- Bekræftet mekanisme-of-action-data fra DrugBank (DG002)
+- En dedikeret mekanistisk eller preklinisk undersøgelse af RET-signalering i lungekar-omformning, for at skelne et ægt repurposing-signal fra termoverbinding-artefakten identificeret ovenfor
+- Genbevaluering af lavere-rangerede kandidater (migræne, kyfoskoliotisk hjertesygdom) kun hvis uafhængig, relevant litteratur eller forsøgs-evidens fremkommer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

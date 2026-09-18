@@ -29,60 +29,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Levodopa: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Levodopa: Fra Parkinsons sygdom til Rasmussens subakut encefalitis
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Levodopa (DrugBank DB01235) is the dopamine precursor foundational to Parkinson's disease therapy; no marketing-authorisation record for Denmark is present in this Evidence Pack, so registry-confirmed original indication data is currently unavailable. The TxGNN model predicts potential relevance to **Rasmussen subacute encephalitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the drug is **not marketed in Denmark**.
+Levodopa (DrugBank DB01235) er dopaminprekursoren, der ligger til grund for terapien mod Parkinsons sygdom; der er ingen markedsføringstilladelsesregistrering for Danmark i denne evidenspakke, så registreringsbekræftet oprindelig indikationsdata er i øjeblikket ikke tilgængelig. TxGNN-modellen forudsiger potentiel relevans til **Rasmussens subakut encefalitis**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og lægemidlet **markedsføres ikke i Danmark**.
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Danish registry data (drug not marketed in Denmark); generically known for Parkinson's disease |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke tilgængelig fra dansk registreringsdata (lægemiddel markedsføres ikke i Danmark); kendt generelt for Parkinsons sygdom |
+| Forudsagt ny indikation | Rasmussens subakut encefalitis |
+| TxGNN forudsigelsesscore | 99.06% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available in this Evidence Pack (`original_moa: [Data Gap]`). Based on general pharmacological knowledge, levodopa is a dopamine precursor that is converted by DOPA decarboxylase into dopamine, and it is used clinically to replenish striatal dopamine deficiency (classically in Parkinson's disease).
+Detaljeret virkningsmekanismedata er ikke tilgængelig i denne evidenspakke (`original_moa: [Data Gap]`). Baseret på generel farmakologisk viden er levodopa en dopaminprekursor, der konverteres af DOPA-dekarboksylase til dopamin, og den bruges klinisk til at udligne dopaminmangel i striatum (klassisk ved Parkinsons sygdom).
 
-Rasmussen subacute encephalitis is a chronic, typically unilateral, T-cell-mediated autoimmune/inflammatory encephalitis of childhood, presenting with drug-resistant epilepsy and progressive neurological decline. There is no established pathological link between this disease and dopaminergic signalling.
+Rasmussens subakut encefalitis er en kronisk, typisk ensidig, T-celle-medieret autoimmun/inflammatorisk encefalitis i barndommen, som præsenterer sig med lægemiddelresistent epilepsi og progressiv neurologisk forværring. Der er ingen etableret patologisk forbindelse mellem denne sygdom og dopaminerginale signalering.
 
-The model's high score (0.99) most likely reflects topological similarity within the knowledge graph — for example, shared proximity to other central-nervous-system and movement/seizure-related disease nodes — rather than a genuine mechanistic connection. Because the drug's own MOA record is missing, this rationale cannot be cross-validated against structured data, and the predicted link should be treated as speculative pending mechanistic and preclinical review.
+Modellens høje score (0.99) afspejler sandsynligvis topologisk lighed inden for Knowledge Graph - for eksempel delt nærhed til andre centralnervesystem- og bevægelses-/krampe-relaterede sygdomsknuder - snarere end en ægte mekanistisk forbindelse. Fordi lægemidlets eget MOA-register mangler, kan denne begrundelse ikke verificeres mod strukturerede data, og den forudsagte forbindelse bør behandles som spekulativ i afventning af mekanistisk og præ-klinisk gennemgang.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Currently no marketing authorisations registered in Denmark (market status: Not marketed).
+I øjeblikket ingen markedsføringstilladelser registreret i Danmark (markedsstatus: Ikke markedsført).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (Evidence Level L5), with no clinical trials, no literature, and no drug interaction data confirming feasibility; the drug also carries no current Danish marketing authorisation, and both the original MOA and safety/contraindication data are missing.
+**Begrundelse:**
+Forudsigelsen understøttes kun af TxGNN-modellens score (Bevisniveau L5), uden kliniske forsøg, uden litteratur og uden lægemiddelinteraktionsdata, der bekræfter gennemførlighed; lægemidlet har heller ingen nuværende dansk markedsføringstilladelse, og både den oprindelige MOA og sikkerhed-/kontraindikationsdata mangler.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for levodopa from DrugBank or SmPC
-- TFDA/Danish SmPC-sourced warnings and contraindications (currently blocking per data gap DG001)
-- Preclinical or mechanistic studies establishing a plausible biological link to Rasmussen subacute encephalitis
-- Ongoing monitoring for emerging clinical trial or publication evidence
+**For at fortsætte, er følgende nødvendig:**
+- Bekræftet virkningsmekanisme (MOA)-data for levodopa fra DrugBank eller SmPC
+- TFDA/dansk produktresumé-baserede advarsler og kontraindikationer (i øjeblikket blokeret af datakløft DG001)
+- Præ-kliniske eller mekanistiske studier, der etablerer en plausibel biologisk forbindelse til Rasmussens subakut encefalitis
+- Løbende overvågning for nye kliniske forsøgs- eller publikationsbevis
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

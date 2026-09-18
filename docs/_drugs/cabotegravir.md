@@ -29,82 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cabotegravir: From HIV-1 Infection to Rheumatoid Arthritis
+# Cabotegravir: Fra HIV-1-infektion til reumatoid arthritis
 
-## One-Sentence Summary
+## En-sætnings-oversigt
 
-Cabotegravir is an HIV-1 integrase strand transfer inhibitor (INSTI), approved in multiple countries for the treatment of HIV-1 infection (in combination with rilpivirine) and as long-acting injectable pre-exposure prophylaxis (PrEP) against HIV-1.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with a prediction score of **99.45%**.
-However, **no supporting clinical trials or published literature** currently exist for this indication, and the mechanistic rationale is considered extremely weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection treatment and pre-exposure prophylaxis (PrEP) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Cabotegravir er en HIV-1 integrase strandtransfer-inhibitor (INSTI), godkendt i flere lande til behandling af HIV-1-infektion (i kombination med rilpivirine) og som langvirkende intramuskulær præ-ekspositionsprofylakse (PrEP) mod HIV-1.
+TxGNN-modellen forudsiger, at det kan være effektivt til **reumatoid arthritis**, med en forudsigelsesscore på **99,45 %**.
+Der findes imidlertid **ingen understøttende kliniske forsøg eller publiceret litteratur** for denne indikation, og den mekanistiske begrundelse anses for at være ekstremt svag.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological information, Cabotegravir belongs to the integrase strand transfer inhibitor (INSTI) class of antiretroviral drugs. It works by blocking HIV-1 integrase — a viral-specific enzyme — thereby preventing integration of viral DNA into the host cell genome. It has no known direct immunomodulatory or anti-inflammatory targets.
-
-The mechanistic link between Cabotegravir and rheumatoid arthritis (RA) is considered extremely weak. RA pathophysiology is driven by TNF-α/IL-6 signalling, JAK-STAT pathway dysregulation, T-cell activation, and synovial hyperplasia — none of which are known targets of Cabotegravir. A very indirect hypothesis exists: some INSTIs have been observed to modulate NF-κB inflammatory signalling, but there are no systematic mechanistic data supporting this in the context of RA.
-
-The high TxGNN score most likely reflects topological proximity in the knowledge graph between HIV-related immune dysregulation nodes and autoimmune disease nodes, rather than a genuine pharmacological relationship. This is a common source of false-positive predictions in graph-based models, particularly when a drug node is highly connected to immune-related pathways that also intersect with autoimmune disease clusters.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | HIV-1-infektionsbehandling og præ-ekspositionsprofylakse (PrEP) |
+| Forudsagt ny indikation | Reumatoid arthritis |
+| TxGNN forudsigelsesscore | 99,45 % |
+| Bevisniveau | L5 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i bevispakningen. På baggrund af kendt farmakologisk information tilhører cabotegravir klassen af integrase strandtransfer-inhibitorer (INSTI) blandt antiretrovirale lægemidler. Det virker ved at blokere HIV-1 integrase — et viralt-specifikt enzym — og forhindrer derved integration af viralt DNA i værtscellens genom. Det har ingen kendt direkte immunomodulerende eller anti-inflammatoriske mål.
 
----
+Det mekanistiske link mellem cabotegravir og reumatoid arthritis (RA) anses for at være ekstremt svagt. RA-patofysiologi styres af TNF-α/IL-6-signalering, dysregulering af JAK-STAT-vej, T-celle-aktivering og synovial hyperplasi — ingen af disse er kendt mål for cabotegravir. En meget indirekte hypotese eksisterer: nogle INSTI'er er blevet observeret til at modulere NF-κB inflammatorisk signalering, men der er ingen systematiske mekanistiske data, der understøtter dette i sammenhæng med RA.
 
-## Denmark Market Information
-
-Cabotegravir is currently **not registered** with the Danish Medicines Agency (Lægemiddelstyrelsen) and holds no marketing authorisations in Denmark. No centralised EMA authorisation for this product is reflected in the current dataset.
-
-> **Note for clinicians:** Cabotegravir is approved in other jurisdictions (e.g. EMA authorisation for Vocabria/Cabenuva and Apretude in the USA and UK). Danish healthcare professionals should consult the EMA product information or the relevant Summary of Product Characteristics (SmPC) for approved indications.
+Den høje TxGNN-score afspejler sandsynligvis topologisk nærhed i vidensgrafen mellem HIV-relateret immun-dysregulerings-knudepunkter og autoimmun-sygdoms-knudepunkter, snarere end en ægte farmakologisk sammenhæng. Dette er en hyppig kilde til falsk-positive forudsigelser i grafbaserede modeller, især når et lægemiddelknudepunkt er meget forbundet til immun-relaterede veje, der også skærer sig gennem autoimmun-sygdomsklynger.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-There is no clinical trial evidence, no published literature, and no credible mechanistic basis supporting the use of Cabotegravir in rheumatoid arthritis. The TxGNN prediction score is high (99.45%), but this is assessed to reflect a knowledge graph artefact — specifically, topological overlap between HIV immune dysregulation nodes and autoimmune disease nodes — rather than a true pharmacological signal. Furthermore, Cabotegravir is not marketed in Denmark, and all safety reference data are currently unavailable.
+---
 
-**To proceed, the following would be needed:**
+## Dansk markedsinformation
 
-- Retrieve and review the full SmPC / prescribing information for Cabotegravir (Vocabria / Cabenuva / Apretude) to document MOA, warnings, contraindications, and drug interactions
-- Conduct a systematic literature search specifically investigating any INSTI class effects on inflammatory or autoimmune pathways (NF-κB, TNF-α, IL-6), independent of HIV context
-- Evaluate whether any in vitro or preclinical data exist suggesting INSTI activity in RA-relevant cell models (synoviocytes, activated T cells)
-- If any preliminary mechanistic evidence is found, escalate evidence level from L5 to L4 before reconsidering the decision stage
-- Consider whether the high-scoring predictions for the other four indications (sclerosing cholangitis, bronchitis, colobomatous microphthalmia-rhizomelic dysplasia syndrome, severe nonproliferative diabetic retinopathy) share similar knowledge-graph artefact characteristics — all five predictions currently carry L5 evidence and a Hold recommendation, with mechanistic rationale assessed as weak or absent
+Cabotegravir er i øjeblikket **ikke registreret** hos Lægemiddelstyrelsen og har ingen markedsføringstilladelser i Danmark. Ingen centraliseret EMA-godkendelse for dette produkt afspejles i det aktuelle datasæt.
 
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All predictions should be interpreted in the context of established clinical evidence.
+> **Note til klinikere:** Cabotegravir er godkendt i andre jurisdiktioner (f.eks. EMA-godkendelse for Vocabria/Cabenuva og Apretude i USA og Storbritannien). Danske sundhedspersonale bør konsultere EMA-produktinformation eller det relevante produktresumé (SmPC) for godkendte indikationer.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Der er intet bevis fra kliniske forsøg, ingen publiceret litteratur og ingen troværdig mekanistisk begrundelse for brug af cabotegravir til reumatoid arthritis. TxGNN-forudsigelsesscore er høj (99,45 %), men vurderes at afspejle en vidensgraf-artefakt — specifikt topologisk overlapping mellem HIV immun-dysregulerings-knudepunkter og autoimmun-sygdomsknudepunkter — snarere end et sandt farmakologisk signal. Desuden er cabotegravir ikke markedsført i Danmark, og alle sikkerhedsreferencedataer er i øjeblikket utilgængelige.
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- Hent og gennemse fuldt SmPC / præskriptionsoplysninger for cabotegravir (Vocabria / Cabenuva / Apretude) for at dokumentere MOA, advarsler, kontraindikationer og lægemiddelinteraktioner
+- Gennemfør en systematisk litteratursøgning specifikt undersøgende eventuelle INSTI-klasseeffekter på inflammatoriske eller autoimmune veje (NF-κB, TNF-α, IL-6), uafhængig af HIV-kontekst
+- Evaluer, hvorvidt nogen in vitro- eller præ-kliniske data eksisterer, som foreslår INSTI-aktivitet i RA-relevante cellemodeller (synoviaceller, aktiverede T-celler)
+- Hvis nogen foreløbig mekanistisk evidens findes, skal bevisniveauet eskaleres fra L5 til L4, før genovervejelse af beslutningsstadiet
+- Overvej, hvorvidt de højtscorende forudsigelser for de andre fire indikationer (skleroserende kolangitis, bronkitis, kolobomatøst mikroftalmi-rhizomelik dysplasi-syndrom, svær nonproliferativ diabetisk retinopati) deler samme vidensgraf-artefakt-karakteristika — alle fem forudsigelser har i øjeblikket L5 evidens og en Afvent-anbefaling, med mekanistisk begrundelse vurderet som svag eller fraværende
+
+> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er udelukkende til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddelgenformål-kandidater kræver klinisk validering før anvendelse. Alle forudsigelser bør tolkes i sammenhæng med etableret klinisk evidens.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

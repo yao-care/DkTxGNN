@@ -29,101 +29,102 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Enfortumab Vedotin: From Urothelial Carcinoma to Leprosy
+# Enfortumab Vedotin: Fra urothelkarcinom til spedalskhhed
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Enfortumab vedotin (brand name Padcev) is a Nectin-4-directed antibody-drug conjugate (ADC) approved internationally for the treatment of locally advanced or metastatic urothelial carcinoma.
-The TxGNN model predicts it may be effective for **Leprosy** with a score of 99.53%, however **no clinical trials** and **no published literature** currently support this direction.
-The mechanistic rationale for this prediction is considered extremely weak; the high prediction score most likely reflects non-specific topological associations within the knowledge graph rather than genuine pharmacological relevance.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Locally advanced or metastatic urothelial carcinoma |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Enfortumab vedotin (handelsnavn Padcev) er et Nectin-4-rettet antistof-lægemiddelkonjugat (ADC), der er godkendt internationalt til behandling af lokalt fremskreden eller metastatisk urothelkarcinom.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **spedalskhhed** med en score på 99,53%, men **ingen kliniske studier** og **ingen publiceret litteratur** understøtter i øjeblikket denne retning.
+Den mekanistiske begrundelse for denne forudsigelse betragtes som ekstremt svag; den høje forudsigelsesscore afspejler mest sandsynligt ikke-specifik topologisk associering inden for vidensgrafen snarere end ægte farmakologisk relevans.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Enfortumab vedotin (EV) is a Nectin-4-directed antibody-drug conjugate. Its antibody component selectively binds Nectin-4 — a cell adhesion molecule overexpressed on urothelial carcinoma cells — triggering receptor-mediated internalisation and intracellular release of its cytotoxic payload, monomethyl auristatin E (MMAE). MMAE disrupts microtubule polymerisation, leading to cell cycle arrest and apoptosis in tumour cells.
-
-Leprosy is a chronic infectious disease caused by *Mycobacterium leprae*, an obligate intracellular bacterium predominantly affecting the skin, peripheral nerves, and mucous membranes. The underlying pathology is fundamentally different from urothelial carcinoma: there is no malignant cellular proliferation, and no known biological connection exists between Nectin-4 expression and *M. leprae* pathogenesis. MMAE has no established antibacterial mechanism, and fungal or bacterial cells do not express human Nectin-4, making targeted ADC delivery to the site of infection impossible.
-
-The high TxGNN prediction score is most likely attributable to non-specific topological overlap in the knowledge graph — particularly shared neural and skin tissue nodes between urothelial cancer biology and leprosy neuropathology — rather than any pharmacologically relevant relationship. This prediction should be interpreted with significant caution and is not considered actionable without substantial preclinical justification.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Enfortumab vedotin in leprosy.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Lokalt fremskreden eller metastatisk urothelkarcinom |
+| Forudsagt ny indikation | Spedalskhhed |
+| TxGNN-forudsigelsesscore | 99,53% |
+| Bevissikkerhedsniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet afgørelse | Tilbageholdt |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for Enfortumab vedotin in leprosy.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne bevismappe. Baseret på etableret farmakologisk viden er enfortumab vedotin (EV) et Nectin-4-rettet antistof-lægemiddelkonjugat. Dets antikomponent bindes selektivt til Nectin-4 — en celle-adhæsionsmolekyle, der overudtrykkes på urothelkarcinom-celler — hvilket udløser receptorformidlet internalisering og intracellulær frigivelse af dets cytotoksiske nyttelast, monomethyl auristatin E (MMAE). MMAE forstyrrer mikrotubulus-polymerisering, hvilket fører til celcyklusarrest og apoptose i tumorceller.
 
----
+Spedalskhhed er en kronisk infektionssygdom forårsaget af *Mycobacterium leprae*, en obligat intracellulær bakterie, der primært påvirker hud, periferale nerver og slimhinder. Den underliggende patologi er fundamentalt forskellig fra urothelkarcinom: der er ingen malign celleproliferation, og ingen kendt biologisk forbindelse findes mellem Nectin-4-udtryk og *M. leprae*-patogenese. MMAE har ingen etableret antibakteriell mekanisme, og svampeceller eller bakterier udtrykker ikke menneskets Nectin-4, hvilket gør målrettet ADC-levering til infektionsstedet umulig.
 
-## Denmark Market Information
-
-Enfortumab vedotin is not registered with the Danish Medicines Agency (Laegemiddelstyrelsen), and no national or centralised marketing authorisations are recorded in this Evidence Pack.
-
-> **⚠ Data Gap Notice**: Padcev (enfortumab vedotin) received EMA centralised approval in 2023 for urothelial carcinoma. The absence of records in this Evidence Pack may reflect a gap in the Laegemiddelstyrelsen-specific query rather than a true absence of European authorisation. Clinicians should independently verify current EMA authorisation status via the [EMA Product Database](https://www.ema.europa.eu/en/medicines) and the [Laegemiddelstyrelsen medicin.dk database](https://www.medicin.dk).
+Den høje TxGNN-forudsigelsesscore skyldes mest sandsynligt ikke-specifik topologisk overlapning i vidensgrafen — især delt neural og hudvæv-knuder mellem urothelkarcinom-biologi og lepra-neuropatologi — snarere end enhver farmakologisk relevant relation. Denne forudsigelse bør fortolkes med betydelig forsigtighed og betragtes ikke som handlingsbar uden væsentlig præklinisk begrundelse.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske studier
 
-Enfortumab vedotin is an antineoplastic antibody-drug conjugate; the following cytotoxicity information applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Antibody-Drug Conjugate (ADC); Nectin-4-directed monoclonal antibody linked to MMAE (microtubule-disrupting cytotoxin) |
-| Myelosuppression Risk | High — neutropenia, including febrile neutropenia, is a well-documented class effect of MMAE-containing ADCs; anaemia and thrombocytopenia also reported |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count with differential (CBC/diff), liver function tests (ALT/AST/bilirubin), renal function (creatinine/eGFR), fasting blood glucose (hyperglycaemia risk with EV), peripheral neuropathy assessment (MMAE-associated neuropathy is dose-limiting) |
-| Handling Protection | Must be handled in accordance with cytotoxic drug handling regulations; additional biosafety precautions for antibody-based biologics apply (cold chain, spill management per institutional SOPs) |
+I øjeblikket er der ingen relaterede kliniske studier registreret for enfortumab vedotin til spedalskhhed.
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-Safety data (warnings, contraindications, and drug interactions) are not available in this Evidence Pack for Enfortumab vedotin.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information, including known risks of peripheral neuropathy, severe skin reactions (including Stevens-Johnson syndrome), hyperglycaemia, pneumonitis, and ocular toxicity associated with EV.
+I øjeblikket er der ingen relateret litteratur tilgængelig for enfortumab vedotin til spedalskhhed.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Enfortumab vedotin er ikke registreret hos Lægemiddelstyrelsen, og ingen nationale eller centraliserede markedsføringsgodkendelser er registreret i denne bevismappe.
 
-**Rationale:**
-The TxGNN prediction of Enfortumab vedotin for leprosy reaches Evidence Level L5 — model prediction only, with no supporting clinical trials or literature. The mechanistic link is biologically implausible: EV is a Nectin-4-directed ADC with no known antibacterial activity, and *Mycobacterium leprae* does not express human Nectin-4. Proceeding with any clinical exploration of this indication cannot be justified on current evidence.
-
-**To proceed, the following would be needed:**
-
-- **Preclinical biomarker data**: Evidence that Nectin-4 is aberrantly expressed in *M. leprae*-infected neural or skin tissues
-- **Mechanistic justification**: A plausible hypothesis linking Nectin-4 or MMAE to mycobacterial pathogenesis or host immune dysregulation in leprosy
-- **In vitro / in vivo activity data**: Minimum requirement before any clinical translation is considered
-- **Complete SmPC data**: Full safety profile for Enfortumab vedotin (currently a blocking data gap per DG001)
-- **EMA authorisation verification**: Confirm current European marketing authorisation status and Danish availability via Laegemiddelstyrelsen / medicin.dk
-- **Alternative indication review**: Given the L5 Hold across all top-10 predictions, a broader review of EV's known Nectin-4-expressing tumour types (e.g., breast, cervical, head and neck cancers) may yield more clinically plausible repurposing candidates than those surfaced in this Evidence Pack
+> **⚠ Meddelelse om datakløft**: Padcev (enfortumab vedotin) modtog EMA-centraliseret godkendelse i 2023 til urothelkarcinom. Fravær af registreringer i denne bevismappe kan afspejle en kløft i Lægemiddelstyrelsens specifikke søgning snarere end en sand mangel på europæisk godkendelse. Klinikere bør uafhængigt bekræfte den nuværende EMA-godkendelsestatus via [EMA Product Database](https://www.ema.europa.eu/en/medicines) og [Lægemiddelstyrelsen medicin.dk-databasen](https://www.medicin.dk).
 
 ---
 
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.*
+## Cytotoksicitet
+
+Enfortumab vedotin er et antineoplastisk antistof-lægemiddelkonjugat; følgende cytotoksicitets-informationer gælder.
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitets-klassificering | Målrettet terapeutik — Antistof-lægemiddelkonjugat (ADC); Nectin-4-rettet monoklonalt antistof bundet til MMAE (mikrotubulus-forstyrrende cytotoksin) |
+| Myelosuppression-risiko | Høj — neutropeni, herunder febril neutropeni, er en veldokumenteret klasseeffekt af MMAE-indeholdende ADC'er; anæmi og trombocytopeni også rapporteret |
+| Emetogenicitets-klassificering | Lav til moderat |
+| Overvågnings-elementer | Fuldblodcelletælling med differentialtal (CBC/diff), leverprøver (ALT/AST/bilirubin), nyrefunktion (kreatinin/eGFR), fastende blodglukose (hyperglykæmi-risiko med EV), vurdering af perifer neuropati (MMAE-associeret neuropati er dosisbegrænset) |
+| Håndterings-beskyttelse | Skal håndteres i overensstemmelse med bestemmelser for håndtering af cytotoksiske lægemidler; yderligere biosikkerhedsforsigtighedsregler for antistof-baserede biologika gælder (kølebelastning, spildledelse ifølge institutionelle SOP'er) |
+
+---
+
+## Sikkerhedshensyn
+
+Sikkerhedsdata (advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i denne bevismappe for enfortumab vedotin.
+
+Venligst se den godkendte Produktkarakteristika-sammenfattelse (SmPC) for fuldstændig sikkerhedsinformation, herunder kendte risici for perifer neuropati, alvorlige hudreaktioner (herunder Stevens-Johnson-syndrom), hyperglykæmi, pneumonitis og okular toksicitet forbundet med EV.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Tilbageholdt**
+
+**Begrundelse:**
+TxGNN-forudsigelsen af enfortumab vedotin til spedalskhhed når bevissikkerhedsniveau L5 — modelforudsigelse alene, uden understøttende kliniske studier eller litteratur. Den mekanistiske forbindelse er biologisk usandsynlig: EV er et Nectin-4-rettet ADC uden kendt antibakteriell aktivitet, og *Mycobacterium leprae* udtrykker ikke menneskets Nectin-4. Fortsættelse med nogen klinisk udforskning af denne indikation kan ikke retfærdiggøres på nuværende beviser.
+
+**For at fortsætte ville følgende være nødvendigt:**
+
+- **Prækliniske biomarkørdata**: Bevis for, at Nectin-4 er aberrant udtrykt i *M. leprae*-inficeret neural eller hudvæv
+- **Mekanistisk begrundelse**: En plausibel hypotese, der forbinder Nectin-4 eller MMAE til mykobakteriell patogenese eller værtsimmunregulering ved spedalskhhed
+- **In vitro / in vivo aktivitetsdata**: Minimumskrav før nogen klinisk translation betragtes
+- **Fuldstændig SmPC-data**: Fuld sikkerhedsprofil for enfortumab vedotin (i øjeblikket et blokerende datakløft per DG001)
+- **EMA-godkendelsesbekræftelse**: Bekræft nuværende europæisk markedsføringsgodkendelsestatus og dansk tilgængelighed via Lægemiddelstyrelsen / medicin.dk
+- **Alternativ indikationsgennemgang**: I betragtning af L5-tilbageholdelse på tværs af alle top-10-forudsigelser kan en bredere gennemgang af EV's kendte Nectin-4-udtryktyper (f.eks. bryst-, cervikale, hoved- og halscancere) give mere klinisk plausible lægemiddelrepurposerings-kandidater end dem, der er dukket op i denne bevismappe
+
+---
+
+*Denne rapport er genereret til forskningsmæssige formål og udgør ikke medicinsk rådgivning. Alle lægemiddelrepurposerings-kandidater kræver klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

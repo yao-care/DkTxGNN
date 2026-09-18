@@ -29,123 +29,124 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Chlorambucil: From Chronic Lymphocytic Leukemia to CLL/SLL with IgHV Somatic Hypermutation
+# Chlorambucil: Fra kronisk lymfocytisk leukæmi til CLL/SLL med IgHV somatisk hypermutation
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Chlorambucil is a nitrogen mustard alkylating agent with a decades-long history as first-line treatment for chronic lymphocytic leukemia (CLL) and low-grade non-Hodgkin lymphomas.
-The TxGNN model predicts it may be effective for **CLL/SLL with immunoglobulin heavy chain variable-region gene (IgHV) somatic hypermutation** — a molecularly distinct, more favourable-prognosis subtype of CLL — with a prediction score of **99.72%**.
-However, the evidence pack contains **no clinical trials** and **no literature** specific to this molecular subtype, yielding an Evidence Level of **L5**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Chronic lymphocytic leukemia (CLL) and non-Hodgkin lymphomas (based on known clinical use; no regulatory record available in Denmark) |
-| Predicted New Indication | CLL/SLL with IgHV somatic hypermutation (mutated IGHV subtype) |
-| TxGNN Prediction Score | 99.72% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed (no marketing authorisation on file) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Chlorambucil er et nitrogensenaps-alkyleringsmiddel med en årtiers lang historie som førstelinjebehandling for kronisk lymfocytisk leukæmi (CLL) og lavgrads non-Hodgkin-lymfomer.
+TxGNN-modellen forudsiger, at det kan være effektivt til **CLL/SLL med immunoglobulin heavy chain variable-region-gen (IgHV) somatisk hypermutation** — en molekylært udpræget undertype med mere favorabel prognose — med en forudsigelsesscore på **99.72%**.
+Imidlertid indeholder evidenspakken **ingen kliniske forsøg** og **ingen litteratur** specifikt for denne molekylære undertype, hvilket resulterer i et bevisniveau på **L5**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on established clinical knowledge, chlorambucil is a bifunctional alkylating agent belonging to the nitrogen mustard class. It forms interstrand and intrastrand DNA cross-links, blocking DNA replication and transcription, and ultimately inducing apoptosis in proliferating lymphocytes. This mechanism has made it effective against indolent lymphoid malignancies for over 50 years.
-
-The predicted new indication — CLL/SLL with mutated IgHV (somatic hypermutation of the immunoglobulin heavy chain variable-region gene) — is not a separate disease but a molecularly defined subgroup within CLL. Patients with mutated IGHV have a significantly more indolent disease course, lower genomic complexity, and historically demonstrated better depth and duration of response to chlorambucil-based regimens compared with their unmutated IGHV counterparts. The TxGNN model's top prediction therefore reflects a biologically plausible subtype-refinement of chlorambucil's established indication rather than a wholly novel therapeutic use.
-
-The landmark Phase 3 RESONATE-2 trial (PMID 36672456) explicitly used chlorambucil as the comparator arm for previously untreated CLL/SLL in patients aged ≥65 years, confirming its continued relevance as a benchmark therapy in this population. The model's prediction that the mutated IGHV subgroup may be a preferential target aligns with published prognostic data showing mutated IGHV as a predictor of superior outcomes with conventional chemotherapy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for CLL/SLL with IgHV somatic hypermutation specifically.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Kronisk lymfocytisk leukæmi (CLL) og non-Hodgkin-lymfomer (baseret på kendt klinisk brug; ingen regulatorisk registrering tilgængelig i Danmark) |
+| Forudsagt ny indikation | CLL/SLL med IgHV somatisk hypermutation (muteret IGHV-undertype) |
+| TxGNN-forudsigelsesscore | 99.72% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført (ingen markedsføringstilladelse på fil) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-No publications identified specifically combining chlorambucil with CLL/SLL with IgHV somatic hypermutation.
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige fra evidenspakken. Baseret på etableret klinisk viden er chlorambucil et bifunktionelt alkyleringsmiddel, der tilhører nitrogensenaps-klassen. Det danner interstrand- og intrastrand-DNA-krydslinker, blokerer DNA-replikation og transkription og udløser til sidst apoptose i prolifererende lymfocytter. Denne mekanisme har gjort det effektivt mod indolente lymfoide malignancer i over 50 år.
 
-> **Context note:** The evidence pack identifies supporting literature under secondary predicted indications (pregerminal center CLL/SLL and primary pulmonary lymphoma), detailed below.
+Den forudsagte nye indikation — CLL/SLL med muteret IgHV (somatisk hypermutation af immunoglobulin heavy chain variable-region-genet) — er ikke en separat sygdom, men en molekylært defineret undergruppe inden for CLL. Patienter med muteret IGHV har et betydeligt mere indolent sygdomsforløb, lavere genomisk kompleksitet og viste historisk bedre dybde og varighed af respons på chlorambucil-baserede behandlingsregimer sammenlignet med deres umutered IGHV-modparter. TxGNNs topforudsigelse afspejler derfor en biologisk plausibel undertypepræcisering af chlorambucilets etablerede indikation snarere end en helt ny terapeutisk anvendelse.
 
----
-
-## Supporting Evidence: Secondary Predicted Indications
-
-The evidence pack lists several closely related predicted indications. Below is a consolidated summary of the available literature, which provides broader context for chlorambucil's activity in B-cell lymphoid malignancies.
-
-### Pregerminal Center CLL/SLL (Rank 2, Score 99.72%)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | Review | Ned Tijdschr Geneeskd | Describes two molecular subtypes of CLL — pregerminal centre (unmutated IGHV) and post-germinal centre (mutated IGHV); argues for risk-adapted treatment; highlights that ~50% of stage A patients require treatment |
-
-### Primary Pulmonary Lymphoma (Rank 7, Score 99.42%)
-
-This indication has the strongest supporting literature in the evidence pack, with 16 publications including direct case reports and observational studies documenting chlorambucil use.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [36672456](https://pubmed.ncbi.nlm.nih.gov/36672456/) | 2023 | RCT (Phase 3) | Cancers | RESONATE-2 ≥5-year follow-up: ibrutinib superior to chlorambucil in previously untreated CLL/SLL (≥65 years, no del(17p)); chlorambucil used as active comparator |
-| [19541720](https://pubmed.ncbi.nlm.nih.gov/19541720/) | 2009 | Observational cohort | Eur Respir J | Pulmonary MALT lymphoma: 63-case multicentre series; evaluates clinical characteristics, staging, and long-term outcomes |
-| [18603558](https://pubmed.ncbi.nlm.nih.gov/18603558/) | 2008 | Practice guidelines | Haematologica | Italian Society of Hematology guidelines for primary lung lymphomas; alkylating agents including chlorambucil listed as treatment options for low-grade subtypes |
-| [25452791](https://pubmed.ncbi.nlm.nih.gov/25452791/) | 2015 | Case report / Review | Exp Ther Med | Pulmonary MALT lymphoma in a 19-year-old; reviews diagnostic approach and treatment strategies including chemotherapy |
-| [3307632](https://pubmed.ncbi.nlm.nih.gov/3307632/) | 1987 | Phase II trial | Cancer Chemother | Chlorambucil 4–6 mg/day in 8 haematological malignancies including CLL and pseudolymphoma of the lung; partial remission achieved in CLL and pulmonary pseudolymphoma |
-| [3699123](https://pubmed.ncbi.nlm.nih.gov/3699123/) | 1986 | Case report | Eur J Respir Dis | Primary NHL of the lung with bilateral infiltrates; chlorambucil given for 5 months; patient achieved subsequent remission |
-| [6248988](https://pubmed.ncbi.nlm.nih.gov/6248988/) | 1980 | Case report | Sem Hop Paris | Primary lymphosarcoma of the lung secreting IgM; 3-year clinical remission maintained with continuous chlorambucil monotherapy |
-| [11289295](https://pubmed.ncbi.nlm.nih.gov/11289295/) | 2001 | Case report | Dis Colon Rectum | Simultaneous MALT lymphoma of colon and lung; treated with mitoxantrone and chlorambucil combination |
-| [11223743](https://pubmed.ncbi.nlm.nih.gov/11223743/) | 2001 | Case report | Respiration | Pulmonary MALT lymphoma in a common variable immunodeficiency patient; discusses treatment approach including alkylating agents |
-| [11483337](https://pubmed.ncbi.nlm.nih.gov/11483337/) | 2001 | Retrospective | Int J Radiat Oncol | Stage I/II MALT lymphoma across multiple organs treated with involved-field radiotherapy; establishes treatment benchmarks |
+Milepælsfasen 3-forsøget RESONATE-2 (PMID 36672456) brugte eksplicit chlorambucil som komparatorarm for tidligere ubehandlet CLL/SLL hos patienter i alderen ≥65 år, hvilket bekræfter dets fortsatte relevans som en benchmarkbehandling i denne population. Modellens forudsigelse om, at den mutered IGHV-undergruppe kan være et præfereret mål, stemmer overens med publicerede prognostiske data, der viser muteret IGHV som en prædiktor for overlegne resultater med konventionel kemoterapi.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsevidens
 
-No marketing authorisations for chlorambucil are registered in the Laegemiddelstyrelsen database as of the data cutoff (2026-04-04).
-
-> **Important note for Danish clinicians:** Chlorambucil (brand name Leukeran, Aspen Pharma) holds marketing authorisations in several EU member states and has historically been available via centralised or national procedures. The absence of a record in this evidence pack may reflect a data gap rather than true non-availability. Direct verification with the Laegemiddelstyrelsen is required before any clinical consideration.
+Der er i øjeblikket ingen registrerede kliniske forsøg relateret til CLL/SLL med IgHV somatisk hypermutation specifikt.
 
 ---
 
-## Cytotoxicity
+## Litteraturevidiens
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Alkylating agent (nitrogen mustard class, bifunctional) |
-| Myelosuppression Risk | High — dose-limiting toxicities include neutropenia, thrombocytopenia, and anaemia; myelosuppression is cumulative and may be prolonged |
-| Emetogenicity Classification | Low to moderate (oral tablet; generally well tolerated in this regard) |
-| Monitoring Items | Full blood count with differential (CBC) before each course; liver function tests; renal function (eGFR); uric acid and LDH (tumour lysis risk at initiation) |
-| Handling Protection | Oral solid dosage form; must be handled according to cytotoxic drug handling regulations (PPE required; tablets must not be crushed; disposal per hazardous waste protocols) |
+Ingen publikationer identificeret, der specifikt kombinerer chlorambucil med CLL/SLL med IgHV somatisk hypermutation.
+
+> **Kontekstnotat:** Evidenspakken identificerer understøttende litteratur under sekundært forudsagte indikationer (pregerminal center CLL/SLL og primær pulmonær lymfom), detaljeret nedenfor.
 
 ---
 
-## Safety Considerations
+## Understøttende evidens: Sekundært forudsagte indikationer
 
-Detailed warnings and contraindication data are not available in this evidence pack. Please refer to the approved Summary of Product Characteristics (SmPC) for full safety information.
+Evidenspakken viser flere tæt beslægtede forudsagte indikationer. Nedenfor er en samlet oversigt over tilgængelig litteratur, som giver mere kontekst for chlorambucilets aktivitet i B-celle lymfoide malignancer.
+
+### Pregerminal Center CLL/SLL (Rang 2, Score 99.72%)
+
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|-----------|-----------|
+| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | Oversigt | Ned Tijdschr Geneeskd | Beskriver to molekylære subtyper af CLL — pregerminal centre (unmuteret IGHV) og post-germinal centre (muteret IGHV); argumenterer for risikoadapteret behandling; fremhæver, at ~50% af stadium A-patienter kræver behandling |
+
+### Primær pulmonær lymfom (Rang 7, Score 99.42%)
+
+Denne indikation har de stærkeste understøttende litteratur i evidenspakken, med 16 publikationer, herunder direkte kasuistikker og observationelle studier, der dokumenterer chlorambucilanvendelse.
+
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|-----------|-----------|
+| [36672456](https://pubmed.ncbi.nlm.nih.gov/36672456/) | 2023 | RCT (Fase 3) | Cancers | RESONATE-2 ≥5-års opfølgning: ibrutinib overlegen over for chlorambucil hos tidligere ubehandlet CLL/SLL (≥65 år, ingen del(17p)); chlorambucil brugt som aktiv komparator |
+| [19541720](https://pubmed.ncbi.nlm.nih.gov/19541720/) | 2009 | Observationelt kohorte | Eur Respir J | Pulmonær MALT-lymfom: 63-case multicenterstudie; vurderer kliniske karakteristika, staging og langsigtede resultater |
+| [18603558](https://pubmed.ncbi.nlm.nih.gov/18603558/) | 2008 | Praktiske retningslinjer | Haematologica | Italiensk Society of Hematology retningslinjer for primære lungelymfomer; alkyleringsmidler, herunder chlorambucil, opført som behandlingsmuligheder for lavgradet subtyper |
+| [25452791](https://pubmed.ncbi.nlm.nih.gov/25452791/) | 2015 | Kasuistik / Oversigt | Exp Ther Med | Pulmonær MALT-lymfom hos en 19-årig; gennemgår diagnostisk tilgang og behandlingsstrategier, herunder kemoterapi |
+| [3307632](https://pubmed.ncbi.nlm.nih.gov/3307632/) | 1987 | Fase II-forsøg | Cancer Chemother | Chlorambucil 4–6 mg/dag hos 8 hæmatologiske malignancer, herunder CLL og pseudolymfom i lungen; delviste remissioner opnået hos CLL og pulmonær pseudolymfom |
+| [3699123](https://pubmed.ncbi.nlm.nih.gov/3699123/) | 1986 | Kasuistik | Eur J Respir Dis | Primær NHL i lungen med bilaterale infiltrater; chlorambucil givet i 5 måneder; patient opnåede efterfølgende remission |
+| [6248988](https://pubmed.ncbi.nlm.nih.gov/6248988/) | 1980 | Kasuistik | Sem Hop Paris | Primær lymfosarkom i lungen, der sekreterer IgM; 3-årig klinisk remission opretholdt med kontinuerlig chlorambucilmonoterapi |
+| [11289295](https://pubmed.ncbi.nlm.nih.gov/11289295/) | 2001 | Kasuistik | Dis Colon Rectum | Samtidigt MALT-lymfom i kolon og lunge; behandlet med mitoxantron- og chlorambucilkombination |
+| [11223743](https://pubmed.ncbi.nlm.nih.gov/11223743/) | 2001 | Kasuistik | Respiration | Pulmonær MALT-lymfom hos patient med almindelig variabel immundefekt; diskuterer behandlingstilgang, herunder alkyleringsmidler |
+| [11483337](https://pubmed.ncbi.nlm.nih.gov/11483337/) | 2001 | Retrospektiv | Int J Radiat Oncol | Stadium I/II MALT-lymfom på tværs af flere organer behandlet med involved-field stråling; etablerer behandlingsbenchmarks |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Ingen markedsføringstilladelser for chlorambucil er registreret i Lægemiddelstyrelsens database fra data-cutoff (2026-04-04).
 
-**Rationale:**
-The top predicted indication — CLL/SLL with mutated IgHV — represents a molecular subtype of chlorambucil's established historical indication rather than a genuinely novel use. The evidence pack returns zero clinical trials and zero dedicated literature for this specific subtype (L5), no marketing authorisation data for Denmark is on file, and critical safety data (SmPC warnings, contraindications, DDI profile) are absent. Furthermore, modern CLL treatment guidelines have largely displaced chlorambucil with BTK inhibitors and BCL-2 inhibitors for most patients, limiting the clinical relevance of further investigation unless specifically targeting a cost-sensitive, elderly, or comorbid population where chlorambucil retains a role.
+> **Vigtig note for danske klinikere:** Chlorambucil (handelsnavn Leukeran, Aspen Pharma) har markedsføringstilladelser i flere EU-medlemsstater og har historisk været tilgængelig via centraliserede eller nationale procedurer. Fravær af en registrering i denne evidenspakke kan afspejle et datahul snarere end ægte ikke-tilgængelighed. Direkte verifikation med Lægemiddelstyrelsen er påkrævet, før nogen klinisk overvejelse.
 
-**To proceed, the following is needed:**
+---
 
-- Verify current Laegemiddelstyrelsen / EMA marketing authorisation status for chlorambucil (Leukeran) and obtain the approved Danish SmPC
-- Retrieve full safety data: TFDA/EMA label warnings and contraindications (Data Gap DG001) and DrugBank MOA entry (Data Gap DG002)
-- Conduct a targeted literature review of landmark CLL trials (RESONATE-2, CLL8, CLL10, COMPLEMENT-1) with IgHV mutation-stratified subgroup analyses to assess whether mutated IGHV patients derive quantifiably superior benefit from chlorambucil
-- Define the specific clinical niche (e.g., elderly patients with comorbidities unsuitable for intensive regimens) in which chlorambucil in the mutated IGHV subgroup would add value over current standard-of-care options
-- If proceeding to primary pulmonary lymphoma (rank 7), formalise evidence level for the existing case series and evaluate whether an investigator-initiated study is warranted given the absence of any registered trials
+## Cytotoksicitet
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassificering | Konventionel cytotoksisk — Alkyleringsmiddel (nitrogensenaps-klasse, bifunktionel) |
+| Risiko for myelosuppression | Høj — dosis-begrænsende toksiciteter omfatter neutropeni, trombocytopeni og anæmi; myelosuppression er kumulativ og kan være langvarig |
+| Emetogenicitetsklassificering | Lav til moderat (oral tablet; generelt godt tolereret i denne henseende) |
+| Overvågningspunkter | Fuldt blodtal med differential (CBC) før hver behandlingscyklus; leverprøver; nyrfunktion (eGFR); urinsyre og LDH (risiko for tumoropløsningssyndrom ved initiering) |
+| Håndteringsbeskyttelse | Oral tablet; skal håndteres i henhold til cytotoksiske lægemiddelregler (PPE påkrævet; tablets må ikke knuses; bortskaffelse efter farligt affaldsprotokoller) |
+
+---
+
+## Sikkerhedshensyn
+
+Detaljerede advarsler og kontraindikationsdata er ikke tilgængelige i denne evidenspakke. Se venligst det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Topforudsigelsen — CLL/SLL med muteret IgHV — repræsenterer en molekylær undertype af chlorambucilets etablerede historiske indikation snarere end en helt genuint ny anvendelse. Evidenspakken vender nul kliniske forsøg og nul dedikeret litteratur tilbage for denne specifikke undertype (L5), ingen markedsføringstilladelsesdata for Danmark er på fil, og kritiske sikkerhedsdata (SmPC-advarsler, kontraindikationer, DDI-profil) er fraværende. Desuden har moderne CLL-behandlingsretningslinjer i høj grad erstattet chlorambucil med BTK-inhibitorer og BCL-2-inhibitorer for de fleste patienter, hvilket begrænser den kliniske relevans af yderligere undersøgelse, medmindre det specifikt sigter mod en omkostningsfølsom, ældre eller komorbid population, hvor chlorambucil bevarer en rolle.
+
+**For at fortsætte er følgende nødvendig:**
+
+- Verificer nuværende Lægemiddelstyrelsens / EMA-markedsføringstilladelsestatus for chlorambucil (Leukeran) og få det godkendte danske SmPC
+- Hent fulde sikkerhedsdata: TFDA/EMA-labeladvarsler og kontraindikationer (Data Gap DG001) og DrugBank MOA-indgang (Data Gap DG002)
+- Gennemfør en målrettet litteraturgennemgang af milepælsforsøg med CLL (RESONATE-2, CLL8, CLL10, COMPLEMENT-1) med IgHV-mutations-stratificerede subgruppeanalyser for at vurdere, om mutered IGHV-patienter opnår kvantificerbar overlegen fordel fra chlorambucil
+- Definer den specifikke kliniske niche (f.eks. ældre patienter med komorbiditet, der er uegnet til intensiv behandling), hvor chlorambucil i den mutered IGHV-undergruppe ville tilføre værdi i forhold til nuværende standard-of-care-muligheder
+- Hvis du fortsætter til primært pulmonært lymfom (rang 7), formalisér bevisniveauet for eksisterende kasuistikserier og vurdér, om et forsker-initieret forsøg er berettiget givet fravær af registrerede forsøg
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

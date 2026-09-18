@@ -29,78 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dexibuprofen: From Pain and Inflammation to Brachydactyly-Syndactyly Syndrome
+# Dexibuprofen: Fra smerte og inflammation til Brachydactyly-Syndactyly Syndrom
 
-## One-Sentence Summary
+## Enlinjet sammenfatning
 
-Dexibuprofen is the pharmacologically active S-enantiomer of ibuprofen, a well-established non-steroidal anti-inflammatory drug (NSAID) that works by inhibiting the COX enzyme to reduce pain and inflammation. The TxGNN model predicts it may be effective for **Brachydactyly-Syndactyly Syndrome**, a rare hereditary skeletal malformation disorder. However, **no clinical trials and no published literature** currently support this predicted direction, and the mechanistic rationale is considered highly speculative.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Denmark; internationally used for pain, fever, and inflammation (NSAID/COX inhibitor) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Dexibuprofen er det farmakologisk aktive S-enantiomer af ibuprofen, et velkendt ikke-steroid-baseret antiinflammatorisk lægemiddel (NSAID), der virker ved at hæmme COX-enzymet for at reducere smerte og inflammation. TxGNN-modellen forudsiger, at det kan være effektivt for **Brachydactyly-Syndactyly Syndrom**, en sjælden arvelig skeletdeformationssygdom. Imidlertid støtter **ingen kliniske forsøg og ingen offentliggjort litteratur** i øjeblikket denne forudsagte retning, og det mekanistiske begrundelse anses for meget spekulativ.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hurtigoversigt
 
-Dexibuprofen is the S(+)-enantiomer of ibuprofen and acts primarily by inhibiting cyclooxygenase (COX-1 and COX-2) enzymes, thereby reducing the synthesis of prostaglandin E2 (PGE2) and other pro-inflammatory mediators. It is generally considered to have a comparable or slightly improved tolerability profile compared to racemic ibuprofen, while retaining the same analgesic, antipyretic, and anti-inflammatory properties.
-
-Brachydactyly-syndactyly syndrome is a rare hereditary condition characterised by abnormally short fingers and toes (brachydactyly) with soft tissue or bony fusion (syndactyly). The disorder is caused by mutations in developmental genes such as *IHH* (Indian Hedgehog) and *HOXD13*, which govern skeletal morphogenesis during embryogenesis. There is no established pharmacological connection between the COX/PGE2 pathway and these genetic developmental programmes.
-
-While PGE2 is known to play a modulatory role in bone metabolism — including interactions with BMP/Wnt signalling pathways that influence osteoblast activity — this relationship does not translate to a plausible therapeutic rationale for a monogenic skeletal dysplasia syndrome. The TxGNN model's high prediction score (99.87%) most likely reflects a broad network connectivity effect among skeletal phenotype nodes within the knowledge graph, rather than a genuine pharmacological signal. This prediction is considered **biologically speculative** and should be interpreted with caution.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt brugt til smerte, feber og inflammation (NSAID/COX-hæmmer) |
+| Forudsagt ny indikation | Brachydactyly-Syndactyly Syndrom |
+| TxGNN-forudsigelsesscore | 99.87% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Dexibuprofen er S(+)-enantimeren af ibuprofen og virker primært ved at hæmme cyclooxygenase (COX-1 og COX-2) enzymer, hvilket reducerer syntesen af prostaglandin E2 (PGE2) og andre pro-inflammatoriske mediatorer. Det anses generelt for at have en sammenlignelig eller svagt forbedret tolerabilitetsprofil sammenlignet med racemisk ibuprofen, mens det bevarer de samme analgetiske, antipyretiske og antiinflammatoriske egenskaber.
 
----
+Brachydactyly-syndactyly-syndrom er en sjælden arvelig tilstand karakteriseret ved unormalt korte fingre og tæer (brachydactyly) med blødt væv eller benet fusion (syndactyly). Sygdommen er forårsaget af mutationer i udviklingsgener såsom *IHH* (Indian Hedgehog) og *HOXD13*, som styrer skeletmorfogenese under embryogenese. Der er ingen etableret farmakologisk forbindelse mellem COX/PGE2-signalvej og disse genetiske udviklingsprogrammer.
 
-## Denmark Market Information
-
-Dexibuprofen (DrugBank ID: DB09213) currently holds **no marketing authorisations** in Denmark and is not available on the Danish market. No product licences have been issued by the Danish Medicines Agency (Lægemiddelstyrelsen), and no centralised European Medicines Agency (EMA) authorisations are on record for this active substance.
+Selvom PGE2 vides at spille en modulerende rolle i knoglemetabolismen — herunder interaktioner med BMP/Wnt-signalveje, som påvirker osteoblastaktivitet — giver dette forhold ikke anledning til en plausibel terapeutisk begrundelse for et monogent skeletdysplasissyndrom. TxGNN-modellens høje forudsigelsesscore (99.87%) afspejler mest sandsynligt en bred netværksforbindelses effekt blandt skeletfenotyp-knuder inden for vidensgrafen, snarere end et reelt farmakologisk signal. Denne forudsigelse anses for **biologisk spekulativ** og bør fortolkes med forsigtighed.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Note for clinicians:** As an NSAID and COX inhibitor, dexibuprofen shares a class-based safety profile that typically includes gastrointestinal, cardiovascular, and renal considerations. Since no Danish SmPC is available, international product information (e.g., from countries where the drug is marketed) should be consulted before any clinical use.
+Der er i øjeblikket ingen registrerede relevante kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relevant litteratur.
 
-**Rationale:**
-The TxGNN model generates a high prediction score, but this is unsupported by any clinical trial evidence, published literature, or mechanistic biological plausibility. Brachydactyly-syndactyly syndrome is a monogenic skeletal dysplasia for which COX inhibition has no established therapeutic role; the prediction is assessed as a knowledge graph artefact rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
+## Danske markedsoplysninger
 
-- **Mechanistic validation**: Preclinical studies examining whether COX inhibition or PGE2 modulation can influence IHH or HOXD13 signalling in relevant in vitro or in vivo models — currently absent from the literature.
-- **Safety data retrieval**: Obtain the full SmPC from a country where dexibuprofen is authorised (e.g., Austria, Spain), and assess key warnings and contraindications before any further evaluation.
-- **Drug interaction data**: Conduct a formal DDI assessment, as no interaction data was retrieved in the current evidence pack.
-- **TxGNN model calibration review**: Evaluate whether the consistently high scores across multiple rare skeletal/connective tissue syndromes reflect a systematic over-prediction bias for musculoskeletal phenotype clusters in the knowledge graph.
-- **Re-assess against lower-ranked predictions**: Consider whether indications with stronger mechanistic links (e.g., inflammatory or pain-related conditions) might represent more tractable repurposing opportunities not captured at the top of the current ranking.
+Dexibuprofen (DrugBank ID: DB09213) har i øjeblikket **ingen markedsføringstilladelser** i Danmark og er ikke tilgængelig på det danske marked. Ingen produktlicenser er blevet udstedt af Lægemiddelstyrelsen, og ingen centraliserede European Medicines Agency (EMA) godkendelser er registreret for dette aktive stof.
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Venligst konsulter det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger.
+
+> **Bemærkning for klinikere:** Som et NSAID og COX-hæmmer deler dexibuprofen en klasse-baseret sikkerhedsprofil, der typisk inkluderer gastrointestinale, kardiovaskulære og renale hensyn. Da der ikke er tilgængelig dansk produktinformation, bør international produktinformation (f.eks. fra lande hvor lægemidlet markedsføres) konsulteres før klinisk brug.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+TxGNN-modellen genererer en høj forudsigelsesscore, men denne er ikke understøttet af kliniske forsøgsbeviser, offentliggjort litteratur eller mekanistisk biologisk plausibilitet. Brachydactyly-syndactyly-syndrom er en monogent skeletdysplasi, for hvilken COX-hæmning ikke har nogen etableret terapeutisk rolle; forudsigelsen vurderes som en vidensgrafs artefakt snarere end et reelt omlægningssignal.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **Mekanistisk validering**: Præ-kliniske studier, der undersøger, om COX-hæmning eller PGE2-modulering kan påvirke *IHH*- eller *HOXD13*-signalering i relevante in vitro- eller in vivo-modeller — i øjeblikket ikke til stede i litteraturen.
+- **Sikkerhedsdatahentning**: Indhent det fulde Produktresumé (SmPC) fra et land, hvor dexibuprofen er godkendt (f.eks. Østrig, Spanien), og vurder vigtige advarsler og kontraindikationer før yderligere evaluering.
+- **Lægemiddelinteraktionsdata**: Foretag en formelle DDI-vurdering, da der ikke blev hentet interaktionsdata i det aktuelle bevispaket.
+- **Gennemgang af TxGNN-modelkalibrering**: Vurdér, om de konsekvent høje scores på tværs af flere sjældne skelet-/bindevævssyndromer afspejler en systematisk forudsigelsesforstyrring for muskuloskelet-fenotyp-klynger i vidensgrafen.
+- **Ny vurdering i forhold til lavere-rangerede forudsigelser**: Overvej, om indikationer med stærkere mekanistiske forbindelser (f.eks. inflammatoriske eller smerterelaterede tilstande) kunne repræsentere mere håndtérbare omlæggningsmuligheder, der ikke er fundet blandt de højest rangerede forudsigelser.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

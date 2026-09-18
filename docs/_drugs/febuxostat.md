@@ -29,89 +29,88 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Febuxostat: From Hyperuricaemia to Renal Hypouricaemia
+# Febuxostat: Fra hyperurikæmi til renale hypourikæmi
 
-## One-Sentence Summary
+## Enlinjeopsummering
 
-Febuxostat is a selective xanthine oxidoreductase (XOR) inhibitor widely used to reduce serum uric acid in adults with gout and chronic hyperuricaemia.
-The TxGNN model predicts it may also be effective for **Renal Hypouricaemia (Hypouricemia, Renal)**,
-with **1 clinical trial** and **2 publications** currently providing supporting evidence for this direction.
+Febuxostat er en selektiv xanthinoxidoreduktase (XOR)-inhibitor, der bruges udbredt til at reducere serumuroinsyre hos voksne med podagra og kronisk hyperurikæmi. TxGNN-modellen forudsiger, at det også kan være effektivt til **renale hypourikæmi (Hypouricemia, Renal)**, hvor **1 klinisk forsøg** og **2 publikationer** i øjeblikket giver understøttende beviser for denne retning.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Hyperuricaemia / Gout (based on established pharmacology; no Danish MA on file) |
-| Predicted New Indication | Hypouricemia, Renal |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Hyperurikæmi / Podagra (baseret på etableret farmakologi; ingen dansk markedsføringstilladelse på arkiv) |
+| Forudsagt ny indikation | Hypourikæmi, renal |
+| TxGNN-forudsigelsesscore | 99.99% |
+| Bevisniveau | L4 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, febuxostat is a non-purine selective inhibitor of xanthine oxidoreductase (XOR) — the enzyme that catalyses the conversion of hypoxanthine → xanthine → uric acid. By blocking this final step in purine catabolism, febuxostat substantially lowers serum urate concentrations.
+I øjeblikket er detaljeret mekanismdata ikke tilgængeligt i denne evidenspakke. Baseret på etableret farmakologisk viden er febuxostat en ikke-purin-selektiv inhibitor af xanthinoxidoreduktase (XOR) — det enzym, der katalyserer omdannelsen af hypoxanthin → xanthin → uroinsyre. Ved at blokere dette sidste trin i purinkatabolismen reducerer febuxostat betydeligt serumuratniveauerne.
 
-Renal hypouricaemia (RHUC) is a rare inherited disorder in which defects in renal tubular urate transporters (most commonly URAT1, encoded by *SLC22A12*) lead to abnormally low serum uric acid. At first glance, repurposing a urate-lowering agent for a condition characterised by *low* urate seems paradoxical. However, the clinical rationale lies in a specific and dangerous complication: **exercise-induced acute kidney injury (EIAKI)**. During intense anaerobic exercise, the rapid catabolism of purines generates a surge in xanthine and uric acid. In patients with RHUC, the kidneys cannot reabsorb urate normally, resulting in extremely high urinary xanthine/urate concentrations, oxidative stress, and acute tubular injury.
+Renal hypourikæmi (RHUC) er en sjælden arveligt betinget lidelse, hvor defekter i renale tubulære urattransportører (hyppigst URAT1, kodet af *SLC22A12*) fører til unormalt lave serumuratniveauer. Ved første øjekast virker omplaceringen af et uratsænkende stof til en tilstand karakteriseret ved *lav* urat paradoksal. Imidlertid ligger den kliniske begrundelse i en specifik og farlig komplikation: **øvelsesudløst akut nyreskade (EIAKI)**. Under intens anaerobisk motion genererer den hurtige katabolisme af puriner et pludseligt stød af xanthin og uroinsyre. Hos patienter med RHUC kan nyrerne ikke genbørge urate normalt, hvilket resulterer i ekstremt høje urin-xanthin/uratkoncentrationer, oxidativt stress og akut tubulær skade.
 
-The proposed repurposing hypothesis — supported by a published case report (PMID 36754409) — is therefore to use febuxostat **prophylactically** to blunt the peri-exercise surge in xanthine/urate production, thereby preventing EIAKI, rather than to treat the low baseline serum urate itself. This mechanistic link is pharmacologically coherent and explains the high TxGNN prediction score.
+Den foreslåede omplaceringshypotese — understøttet af en offentliggjort kasuistik (PMID 36754409) — er derfor at anvende febuxostat **profylaktisk** til at dæmpe det øvelsesudløste stød i xanthin/uratproduktion, hvorved EIAKI forhindres, snarere end at behandle selve det lave baseline-serumuratni... og. Dette mekanistiske link er farmakologisk sammenhængende og forklarer den høje TxGNN-forudsigelsesscore.
 
-> **Additional predictions of note:** TxGNN also ranked **HPRT partial deficiency** (99.98%) and **Lesch-Nyhan syndrome** (99.68%) as plausible indications. Both conditions are characterised by XOR pathway dysregulation leading to severe hyperuricaemia, where febuxostat's urate-lowering effect would be directly applicable. These indications are pharmacologically less surprising and are discussed further in the Conclusion.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unknown | 100 | Prospective controlled study exploring the effect of uric acid control on kidney stone recurrence and renal function in patients with hyperuricaemia-related calculi. Indirectly relevant — addresses urate management in renal disease but does not specifically enrol RHUC patients or evaluate EIAKI prevention. |
+> **Yderligere forudsigelser af betydning:** TxGNN rangerede også **HPRT-partialdysfunktion** (99.98%) og **Lesch-Nyhan-syndrom** (99.68%) som rimelige indikationer. Begge tilstande er karakteriseret ved XOR-vejdysregulering, der fører til alvorlig hyperurikæmi, hvor febuxostats uratsænkende virkning ville være direkte anvendelig. Disse indikationer er farmakologisk mindre overraskende og diskuteres yderligere i konklusionen.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Case Report | Internal Medicine (Tokyo) | 16-year-old football player with familial RHUC (compound heterozygous *URAT1* mutations) and recurrent EIAKI refractory to hydration. Febuxostat was trialled as prophylaxis to reduce exercise-triggered xanthine/urate flux; supports XOR inhibition as a mechanistically plausible preventive strategy for EIAKI in RHUC. |
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Narrative review of hypouricaemia for practising rheumatologists, covering definition (serum urate < 2 mg/dL), aetiology (renal vs. non-renal subtypes), complications including EIAKI, and management principles. Provides clinical context for the RHUC population. |
-
----
-
-## Denmark Market Information
-
-Febuxostat has no active marketing authorisations registered with the Danish Medicines Agency (Lægemiddelstyrelsen) and is recorded as **not marketed** in Denmark.
-
-> **Prescriber note:** Febuxostat is authorised across the European Union as **Adenuric®** (EMA centralised authorisation EU/1/08/447, Menarini) for the management of hyperuricaemia in adults with gout, including those with renal impairment. Danish prescribers should verify current national availability, reimbursement status, and any risk-management conditions via [Lægemiddelstyrelsen](https://www.laegemiddelstyrelsen.dk) and [medicinpriser.dk](https://medicinpriser.dk) before clinical use.
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
+|---|---|---|---|---|
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukendt | 100 | Prospektivt kontrolleret studie, der undersøger virkningen af uratstyring på nyresten recidiv og nyrefunktion hos patienter med hyperurikæmi-relaterede calculi. Indirekte relevant — behandler uratstyring ved nyresygdom, men inkluderer ikke specifikt RHUC-patienter og evaluerer ikke EIAKI-forebyggelse. |
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-No safety data (key warnings, contraindications, or drug interactions) is available in this Evidence Pack.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Adenuric® (available via the [EMA product page](https://www.ema.europa.eu/en/medicines/human/EPAR/adenuric)) for full safety information, including the cardiovascular risk signal identified in post-marketing studies.
+| PMID | År | Type | Journal | Vigtige resultater |
+|---|---|---|---|---|
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Kasuistik | Internal Medicine (Tokyo) | 16-årig fodboldspiller med familiær RHUC (compound heterozygot *URAT1*-mutation) og tilbagevendende EIAKI modstandsdygtig over for hydrering. Febuxostat blev afprøvet som profylakse til at reducere øvelses-fremkaldt xanthin/uratflux; understøtter XOR-hæmning som en mekanistisk rimelig forebyggende strategi for EIAKI ved RHUC. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Oversigt | Clinical Rheumatology | Narrativ oversigt over hypourikæmi for praktiserende reumatologer, der dækker definition (serumurate < 2 mg/dL), etiologi (renal vs. ikke-renal subtyper), komplikationer, herunder EIAKI, og ledelsesprincipper. Giver klinisk kontekst for RHUC-populationen. |
 
 ---
 
-## Conclusion and Next Steps
+## Markeds information Danmark
 
-**Decision: Hold**
+Febuxostat har ingen aktive markedsføringstilladelser registreret hos Lægemiddelstyrelsen og er registreret som **ikke markedsført** i Danmark.
 
-**Rationale:**
-The evidence base for febuxostat in renal hypouricaemia currently consists of a single case report and one Phase 4 trial with unknown completion status that does not directly address the RHUC/EIAKI indication. The drug carries no Danish marketing authorisation, and safety data is absent from this Evidence Pack. The mechanistic rationale is plausible but requires prospective validation before clinical adoption can be recommended.
+> **Forskrivernotat:** Febuxostat er godkendt på tværs af Den Europæiske Union som **Adenuric®** (EMA centraliseret godkendelse EU/1/08/447, Menarini) til behandling af hyperurikæmi hos voksne med podagra, herunder dem med nyreaffektioner. Danmarks forskrivere bør bekræfte den nuværende nationale tilgængelighed, refusionsstatus og eventuelle risikostyringsforanstaltninger via [Lægemiddelstyrelsen](https://www.laegemiddelstyrelsen.dk) og [medicinpriser.dk](https://medicinpriser.dk) før klinisk brug.
 
-**To proceed, the following is needed:**
+---
 
-- **Safety data retrieval:** Obtain the Adenuric® SmPC (EMA) for mechanism of action, contraindications, key warnings (notably the cardiovascular risk signal), and drug interactions
-- **Danish availability check:** Confirm import/named-patient access pathways via Lægemiddelstyrelsen, given the absence of a local MA
-- **Dedicated RHUC/EIAKI study:** Commission or identify a prospective case series or controlled study in RHUC patients using febuxostat as EIAKI prophylaxis — the current single case report is insufficient for clinical guidance
-- **Paediatric data:** RHUC with EIAKI frequently presents in young athletes; paediatric safety and dosing data for febuxostat should be reviewed separately
-- **Evaluate HPRT/Lesch-Nyhan indications independently:** Given the higher evidence base for febuxostat in XOR-overactive conditions (HPRT partial deficiency, Lesch-Nyhan syndrome), separate Evidence Packs targeting these indications may yield a more actionable near-term recommendation
+## Sikkerhedsovervejelser
+
+Ingen sikkerhedsdata (vigtige advarsler, kontraindikationer eller lægemiddelinteraktioner) er tilgængeligt i denne evidenspakke.
+
+Se venligst det godkendt produktresumé (SmPC) for Adenuric® (tilgængeligt via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/adenuric)) for fuldstændige sikkerhedsoplysninger, herunder det kardiovaskulære risikosignal, der blev identificeret i post-markedsføringsundersøgelser.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Evidensgrundlaget for febuxostat ved renal hypourikæmi består i øjeblikket af en enkelt kasuistik og et fase 4-forsøg med ukendt afslutningsstatus, der ikke direkte behandler RHUC/EIAKI-indikationen. Lægemidlet har ingen dansk markedsføringstilladelse, og sikkerhedsdata er fraværende fra denne evidenspakke. Den mekanistiske begrundelse er rimelig, men kræver prospektiv validering før klinisk vedtagelse kan anbefales.
+
+**For at fortsætte, er følgende nødvendig:**
+
+- **Sikkerhedsdatahentning:** Indhent Adenuric®-SmPC (EMA) for virkningsmekanisme, kontraindikationer, vigtige advarsler (særligt kardiovaskulært risikosignal) og lægemiddelinteraktioner
+- **Danmarks tilgængelighedscheck:** Bekræft import-/navnepatient-adgang via Lægemiddelstyrelsen, givet fraværet af en lokal markedsføringstilladelse
+- **Dedikeret RHUC/EIAKI-studie:** Gennemfør eller identificer et prospektivt case-serier eller kontrolleret studie i RHUC-patienter, der anvender febuxostat som EIAKI-profylakse — den nuværende enkelt kasuistik er utilstrækkelig til klinisk vejledning
+- **Pædiatrisk data:** RHUC med EIAKI præsenterer sig ofte hos unge atleter; pædiatrisk sikkerhed og doseringsvejledning for febuxostat bør gennemgås separat
+- **Vurder HPRT/Lesch-Nyhan-indikationer uafhængigt:** Givet det mere omfattende evidensgrundlag for febuxostat ved XOR-overaktive tilstande (HPRT-partialdysfunktion, Lesch-Nyhan-syndrom), kan separate evidenspakker rettet mod disse indikationer give mere handlingsorienteret kortsigtet anbefaling
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

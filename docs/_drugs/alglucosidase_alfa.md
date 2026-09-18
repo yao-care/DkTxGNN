@@ -29,84 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alglucosidase alfa: From Pompe Disease to Adult Polyglucosan Body Disease
+# Alglucosidase alfa: Fra Pompe sygdom til Adult Polyglucosan Body Disease
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Alglucosidase alfa (Myozyme/Lumizyme) is a recombinant human acid alpha-glucosidase enzyme replacement therapy, originally approved for treating Pompe disease (Glycogen Storage Disease Type II) — a rare lysosomal glycogen storage disorder causing progressive muscle and respiratory failure.
-The TxGNN model predicts it may be effective for **Adult Polyglucosan Body Disease (APBD)**, a related but mechanistically distinct glycogen metabolism disorder.
-Currently, **no clinical trials** and **no publications** specifically supporting this repurposing direction have been identified; this prediction is supported by model inference only.
+Alglucosidase alfa (Myozyme/Lumizyme) er en rekombinant human acid alpha-glucosidase enzymerstattningsterapi, oprindeligt godkendt til behandling af Pompe sygdom (glykogenbedæringssygdom type II) – en sjælden lysosomale glykogenoplagringssygdom, der forårsager progressiv muskel- og åndedrætssvigt. TxGNN-modellen forudsiger, at det kan være effektivt for Adult Polyglucosan Body Disease (APBD), en relateret men mekanistisk forskellig glykogenstofskiftesygdom. I øjeblikket er der ikke identificeret nogen kliniske forsøg og ingen publikationer, der specifikt understøtter denne repurposing-retning; denne forudsigelse er udelukkende understøttet af modelinferens.
 
 ---
 
-## Quick Overview
+## Kort oversigt
 
-| Item | Content |
-|------|---------|
-| Original Indication | Pompe disease (Glycogen Storage Disease Type II / acid alpha-glucosidase deficiency) |
-| Predicted New Indication | Adult Polyglucosan Body Disease (APBD) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed in Denmark |
-| Number of Marketing Authorisations | 0 (national Danish registry) |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on published pharmacological literature, alglucosidase alfa is a recombinant form of human acid alpha-glucosidase (GAA) — the lysosomal enzyme responsible for breaking down glycogen within lysosomes. In Pompe disease, absent or severely reduced GAA activity causes glycogen to accumulate pathologically in muscle cells, leading to progressive myopathy, cardiomyopathy, and respiratory failure. Alglucosidase alfa corrects this by supplying the missing enzyme via intravenous infusion, reducing the lysosomal glycogen burden in affected tissues.
-
-Adult Polyglucosan Body Disease is also a disorder of glycogen metabolism, arising from partial deficiency of glycogen branching enzyme (GBE1, encoded by the *GBE1* gene). When branching enzyme is impaired, structurally abnormal, poorly soluble glycogen chains — called "polyglucosan bodies" — accumulate in neurons, astrocytes, and muscle. Clinically, APBD presents in adulthood with progressive upper and lower motor neuron dysfunction, sensory neuropathy, neurogenic bladder, and in some cases cognitive decline. The biochemical overlap — both diseases involving pathological glycogen accumulation in tissues — is the most plausible reason TxGNN assigns a high-confidence score to this pairing.
-
-However, the mechanistic rationale requires careful scrutiny: alglucosidase alfa addresses a deficiency in lysosomal glycogen *degradation* (GAA), whereas APBD is caused by defective glycogen *branching* (GBE1). Whether augmenting lysosomal glycogenolysis can compensate for the upstream structural defect in glycogen synthesis remains entirely unproven. This distinction means the biological plausibility, while present at a high level (shared glycogen metabolism pathway), does not translate directly to a clear therapeutic mechanism. Preclinical exploration in GBE1-deficient animal models would be the necessary next step before any clinical hypothesis can be formed.
+| Punkt | Værdi |
+|-------|-------|
+| Oprindelig indikation | Pompe sygdom (glykogenbedæringssygdom type II / acid alpha-glucosidase mangel) |
+| Forudsagt ny indikation | Adult Polyglucosan Body Disease (APBD) |
+| TxGNN forudsigelsesscore | 99.47% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført i Danmark |
+| Antal markedsføringstilladelser | 0 (nationalt dansk register) |
+| Anbefalet beslutning | Vent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Detaljeret data om virkemekanismen er ikke tilgængelig i den aktuelle bevismappe. Baseret på offentliggjort farmakologisk litteratur er alglucosidase alfa en rekombinant form af human acid alpha-glucosidase (GAA) – det lysosomale enzym, der nedbryder glykogen inden for lysosomer. Ved Pompe sygdom forårsager fraværende eller stærkt reduceret GAA-aktivitet, at glykogen akkumuleres patologisk i muskelceller, hvilket fører til progressiv myopati, kardiomyopati og åndedrætssvigt. Alglucosidase alfa korrigerer dette ved at levere det manglende enzym via intravenøs infusion, hvilket reducerer den lysosomale glykogenbyrde i påvirkede væv.
 
----
+Adult Polyglucosan Body Disease er også en sygdom i glykogenstofskiftet, der opstår fra delvis mangel på glykogenforgrenende enzym (GBE1, kodet af *GBE1* genet). Når forgrenende enzym er påvirket, akkumuleres strukturelt abnorme, dårligt opløselige glykogenkæder – kaldet "polyglucosan-legemer" – i neuroner, astrocytter og muskel. Klinisk præsenteres APBD i voksenalderen med progressiv øvre og nedre motorneuroondysfunktion, sensorisk neuropati, neurogen blæredysfunktion og i nogle tilfælde kognitiv tilbagegang. Det biokemiske overlap – begge sygdomme involverer patologisk glykogenakkumulation i væv – er den mest plausible grund til, at TxGNN tildeler en højtillids-score til denne kombination.
 
-## Literature Evidence
-
-Currently no related literature available.
+Den mekanistiske begrundelse kræver dog omhyggelig granskning: alglucosidase alfa adresserer en mangel i lysosomale glykogen *nedbrydning* (GAA), hvorimod APBD er forårsaget af defekt glykogen *forgrening* (GBE1). Hvorvidt øgning af lysosomale glykogenolyse kan kompensere for den opstrøms strukturelle defekt i glykogensyntese forbliver helt ubevist. Denne forskel betyder, at den biologiske plausibilitet, selvom den er til stede på højt niveau (delt glykogenstofskiftevej), ikke oversættes direkte til en klar terapeutisk mekanisme. Præ-klinisk udforskning i GBE1-deficiente dyrmodeller ville være det nødvendige næste skridt, før nogen klinisk hypotese kan formuleres.
 
 ---
 
-## Denmark Market Information
+## Kliniske forsøgsbevis
 
-Alglucosidase alfa does not hold a national marketing authorisation registered with the Danish Medicines Agency (Lægemiddelstyrelsen). No Danish national licences were identified.
-
-> **Important note for Danish prescribers**: Alglucosidase alfa is centrally authorised across the European Union by the European Medicines Agency (EMA) under the brand name **Myozyme** (authorisation number EU/1/06/333) for the long-term enzyme replacement therapy of patients with confirmed Pompe disease. As a centrally authorised product, it is legally available in Denmark without requiring a separate national marketing authorisation. A second formulation, **Nexviazyme** (avalglucosidase alfa), received EMA approval in 2022 as a higher-efficacy successor product. Healthcare professionals should consult the current EMA-approved Summary of Product Characteristics (SmPC) for the most up-to-date prescribing information.
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-No clinical trials or published literature supporting the use of alglucosidase alfa in adult polyglucosan body disease have been identified; the prediction rests solely on TxGNN model inference (Evidence Level L5), and the mechanistic link — while biologically plausible at the level of glycogen metabolism — does not translate directly to a clear therapeutic rationale given the distinct enzymatic deficiencies involved in Pompe disease versus APBD.
-
-**To proceed, the following is needed:**
-- **Mechanistic clarification**: Retrieve full MOA data from DrugBank (DB01272) and published literature to determine whether acid alpha-glucosidase supplementation could plausibly benefit a GBE1-deficient substrate
-- **Preclinical evidence**: Conduct or identify studies in GBE1-deficient animal models evaluating alglucosidase alfa, or any acid alpha-glucosidase, for APBD-relevant endpoints
-- **Safety data gap remediation**: The full SmPC warning/contraindication profile and drug–drug interaction data must be obtained before clinical feasibility can be assessed (currently Blocking data gap per Evidence Pack)
-- **Expanded literature search**: Broaden the PubMed and ICTRP search strategy to include related glycogen storage disease terms (e.g., GBE1, polyglucosan, Type IV glycogen storage disease) — the current query returned zero results, which may reflect overly narrow search parameters rather than a true absence of relevant literature
-- **Regulatory pathway consultation**: Engage the Danish Medicines Agency (Lægemiddelstyrelsen) and EMA regarding the feasibility of an orphan drug label extension for APBD, noting that APBD is an ultra-rare disease with very limited treatment options
-- **Unmet need assessment**: Estimate the Danish patient population with APBD through rare disease registries (e.g., ORPHANET, Danish National Patient Registry) to inform whether a development programme would be viable
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
 ---
 
-*⚠️ This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any therapeutic application. Data cutoff: 2026-04-04.*
+## Markedsinformation for Danmark
+
+Alglucosidase alfa har ikke en national markedsføringstilladelse registreret hos Lægemiddelstyrelsen. Der blev ikke identificeret danske nationale licenser.
+
+> **Vigtig bemærkning for danske ordinatorer**: Alglucosidase alfa har centraltilladelse på tværs af Den Europæiske Union fra Det Europæiske Lægemiddelsagentur (EMA) under mærkenavnet **Myozyme** (tilladelsesnummer EU/1/06/333) til langvarigt enzymerstattningsterapi for patienter med bekræftet Pompe sygdom. Som et centralt autoriseret produkt er det lovligt tilgængeligt i Danmark uden at kræve en separat national markedsføringstilladelse. En anden formulering, **Nexviazyme** (avalglucosidase alfa), modtog EMA-godkendelse i 2022 som et mere effektivt efterfølgerprodukt. Sundhedspersonale bør konsultere det nuværende EMA-godkendte Produktresumé (SmPC) for den mest aktuelle receptorinformation.
+
+---
+
+## Sikkerhedshensyn
+
+Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Ingen kliniske forsøg eller offentliggjort litteratur, der understøtter brugen af alglucosidase alfa ved adult polyglucosan body disease, er blevet identificeret; forudsigelsen hviler udelukkende på TxGNN-modelinferens (Bevisniveau L5), og det mekanistiske link – selvom det er biologisk plausibelt på niveau for glykogenstofskifte – oversættes ikke direkte til en klar terapeutisk begrundelse givet de forskellige enzymatiske mangler involveret i Pompe sygdom versus APBD.
+
+**For at fortsætte, er følgende nødvendigt:**
+- **Mekanistisk præcisering**: Hent fuldt data om virkemekanisme fra DrugBank (DB01272) og offentliggjort litteratur for at afgøre, om acid alpha-glucosidase-supplement plausibelt kunne gavne et GBE1-deficiert substrat
+- **Præ-klinisk bevis**: Udfør eller identificer studier i GBE1-deficiente dyrmodeller, der evaluerer alglucosidase alfa eller ethvert acid alpha-glucosidase, for APBD-relevante endepunkter
+- **Lukning af sikkerhedsdatagab**: Det fulde SmPC-advarsels-/kontraindikationsprofil og lægemiddel-lægemiddel-vekselvirkningsdata skal indhentes, før klinisk gennemførlighed kan vurderes (i øjeblikket blokering af datagab pr. bevismappe)
+- **Udvidet litteratursøgning**: Udvid PubMed- og ICTRP-søgestrategien til at omfatte relaterede glykogenoplagringssygdomsterminer (f.eks. GBE1, polyglucosan, Type IV glykogenoplagringssygdom) – den nuværende forespørgsel returnerede nulresultater, hvilket kan afspejle alt for snæver søgeparametre snarere end et virkeligt fravær af relevant litteratur
+- **Konsultation af regulatorisk vej**: Engager Lægemiddelstyrelsen og EMA vedr. gennemførlighed af en orphan drug-etikettudvidelse for APBD, idet APBD er en ultra-sjælden sygdom med meget begrænsede behandlingsmuligheder
+- **Vurdering af utilfredsstillet behov**: Estimer den danske patientpopulation med APBD gennem sjælden-sygdomsregistre (f.eks. ORPHANET, Dansk Nationale Patientregister) for at informere, hvorvidt et udviklingsprogram ville være levedygtigt
+
+---
+
+*⚠️ Denne rapport er udelukkende til forskningsreference og udgør ikke medicinsk rådgivning. Repurposing-kandidater kræver klinisk validering før nogen terapeutisk anvendelse. Datakutoff: 2026-04-04.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

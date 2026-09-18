@@ -29,101 +29,102 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anakinra: From Rheumatoid Arthritis to Autosomal Recessive Familial Mediterranean Fever
+# Anakinra: Fra reumatoid artritis til autosomal recessiv familial Middelhavsfeber
 
 ---
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Anakinra (Kineret) is a recombinant human interleukin-1 receptor antagonist (IL-1Ra), primarily known for treating rheumatoid arthritis and other autoinflammatory conditions such as Still's disease.
-The TxGNN model predicts it may be effective for **autosomal recessive familial Mediterranean fever (FMF)**, with **0 clinical trials** and **20 publications** currently supporting this direction.
+Anakinra (Kineret) er en rekombinant humant interleukin-1-receptorantagonist (IL-1Ra), primært kendt for behandling af reumatoid artritis og andre autoinflammatoriske tilstande såsom Stills sygdom.
+TxGNN-modellen forudsiger, at det kan være effektivt for **autosomal recessiv familial Middelhavsfeber (FMF)**, med **0 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning.
 
-> **Note on prediction ranking:** The TxGNN model's highest-ranked predictions (extracutaneous mastocytoma, score 99.93%; hepatic infarction, score 99.89%) have no supporting clinical or preclinical evidence (Evidence Level L5, recommendation: Hold) and are therefore not the primary focus of this report. The FMF indication (rank 5–6, score 99.89%) carries the strongest mechanistic rationale and literature support (L3) and is selected as the primary subject for clinical evaluation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Rheumatoid arthritis; autoinflammatory conditions including Still's disease (approved in EU via EMA centralised procedure; no Danish marketing authorisation on record) |
-| Predicted New Indication | Autosomal recessive familial Mediterranean fever (FMF) |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> **Bemærkning om prediktionsrangering:** TxGNN-modellens højest rangerede forudsigelser (ekstrakutan mastocytom, score 99,93 %; hepatisk infarkt, score 99,89 %) har ingen understøttende klinisk eller præklinkisk evidens (Evidensgrad L5, anbefaling: Hold tilbage) og er derfor ikke fokus for denne rapport. FMF-indikationen (rang 5–6, score 99,89 %) har den stærkeste mekanistiske rationale og litteratursupport (L3) og er valgt som primært emne for klinisk evaluering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data was not available in the submitted Evidence Pack. Based on established pharmacological knowledge, Anakinra is a recombinant, non-glycosylated form of the naturally occurring human IL-1 receptor antagonist. It competitively binds to the IL-1 type I receptor (IL-1RI), blocking the biological activity of both IL-1α and IL-1β and thereby dampening downstream NF-κB-mediated inflammatory signalling. This makes Anakinra a direct, upstream suppressor of the IL-1 pathway.
-
-Familial Mediterranean Fever is a hereditary autoinflammatory disease caused by mutations in the *MEFV* gene encoding pyrin — a central regulator of inflammasome activity. Abnormal pyrin function leads to uncontrolled caspase-1 activation and excessive IL-1β secretion, which drives the characteristic self-limiting but recurrent attacks of fever, peritonitis, pleuritis, and arthritis. Because Anakinra acts precisely at the IL-1 receptor to block this pathway, the mechanistic alignment with FMF is exceptionally high. This is not merely theoretical: the related drug canakinumab (an anti-IL-1β monoclonal antibody targeting the same cytokine axis) is already approved for FMF in the EU, directly validating IL-1 blockade as an effective treatment strategy.
-
-The published literature consistently documents Anakinra's clinical utility in colchicine-resistant FMF — a population estimated at 5–10% of all FMF patients where there is an unmet medical need. Case reports and case series describe successful control of recurrent attacks, and notably, remarkable improvement in patients with the most severe complication of FMF: systemic AA amyloidosis with renal failure. Multiple treatment reviews and biological therapy guidelines for periodic fever syndromes cite Anakinra as a recommended option for this population, reinforcing the clinical plausibility of this TxGNN prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Anakinra in autosomal recessive familial Mediterranean fever.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Reumatoid artritis; autoinflammatoriske tilstande inklusiv Stills sygdom (godkendt i EU via EMA-centraliseret procedure; ingen dansk markedsautorisation registreret) |
+| Forudsagt ny indikation | Autosomal recessiv familial Middelhavsfeber (FMF) |
+| TxGNN-forudsigelsesscore | 99,89 % |
+| Evidensgrad | L3 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsautoritationer | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforbeholde |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Case Series + Review | Semin Arthritis Rheum | IL-1 targeting drugs including Anakinra in FMF; functional studies link pyrin to IL-1 maturation; positions IL-1Ra as a rational therapeutic approach |
-| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Clinical Report | Nephrol Dial Transplant | Successful Anakinra treatment of colchicine-resistant FMF with AA amyloidosis; documents outcome after subsequent renal transplantation |
-| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Clinical Report | Nephrol Dial Transplant | Dramatic beneficial effect of IL-1 inhibitor (Anakinra) in FMF complicated with amyloidosis and renal failure; proteinuria reversal documented |
-| [20386914](https://pubmed.ncbi.nlm.nih.gov/20386914/) | 2012 | Case Report | Rheumatol Int | Efficacy of Anakinra in a colchicine-resistant FMF patient with secondary AA amyloidosis; attack frequency markedly reduced |
-| [23928237](https://pubmed.ncbi.nlm.nih.gov/23928237/) | 2013 | Case Report | Joint Bone Spine | Anakinra successfully treated FMF-associated myositis and spondyloarthritis refractory to colchicine |
-| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Treatment Review | Clin Rev Allergy Immunol | Comprehensive review of IL-1β biological treatment in FMF; Anakinra and canakinumab both reviewed with clinical data |
-| [23867542](https://pubmed.ncbi.nlm.nih.gov/23867542/) | 2014 | Treatment Review | Clin Pharmacol Ther | Novel therapeutics for FMF from colchicine to biologics; Anakinra positioned as emerging alternative for colchicine non-responders |
-| [28585601](https://pubmed.ncbi.nlm.nih.gov/28585601/) | 2017 | Case Series | JPMA | Anakinra and canakinumab used in four colchicine-resistant paediatric FMF patients; all successfully treated, including three siblings |
-| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Clinical Study | Rheumatol Int | Real-life canakinumab use in FMF resistant or intolerant to colchicine and/or Anakinra; confirms central role of IL-1 pathway across the drug class |
-| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Treatment Review | Curr Med Chem | Comprehensive review of biologics in FMF; Anakinra reviewed alongside other IL-1 inhibitors as effective rescue therapy |
+Detaljerede data om virkningsmekanisme var ikke tilgængelige i det indsendte evidensgrundlag. På grundlag af etableret farmakologisk viden er anakinra en rekombinant, ikke-glykosyleret form af det naturligt forekommende humane IL-1-receptorantagonist. Det konkurrerer om binding til IL-1 type I-receptoren (IL-1RI) og blokerer den biologiske aktivitet af både IL-1α og IL-1β, hvilket dæmper efterfølgende NF-κB-medieret inflammatorisk signalering. Dette gør anakinra til en direkte, opstrøms undertrykkelse af IL-1-signalvejene.
+
+Familial Middelhavsfeber er en arveligt betinget autoinflammatorisk sygdom forårsaget af mutationer i *MEFV*-genet, der koder for pyrin – en central regulator af inflammasom-aktivitet. Abnorm pyrin-funktion fører til ukontrolleret caspase-1-aktivering og overdreven IL-1β-sekretion, som driver de karakteristiske selvbegrænsede, men tilbagevendende anfald af feber, peritonitis, pleuritis og artritis. Fordi anakinra virker præcist ved IL-1-receptoren for at blokere denne vej, er den mekanistiske sammenhæng med FMF enestående høj. Dette er ikke blot teoretisk: det relaterede lægemiddel canakinumab (et anti-IL-1β monoklonalt antistof rettet mod samme cytokin-akse) er allerede godkendt til FMF i EU, hvilket direkte validerer IL-1-blokering som en effektiv behandlingsstrategi.
+
+Den offentliggjorte litteratur dokumenterer konsekvent anakinras kliniske nytte i kolchicin-resistent FMF – en population estimeret til 5–10 % af alle FMF-patienter, hvor der er uopfyldt medicinskt behov. Kasuistikker og kasuistiske serier beskriver vellykket kontrol af tilbagevendende anfald, og bemærkelsesværdigt forbedring hos patienter med den alvorligste komplikation af FMF: systemisk AA-amyloidose med nyresvigt. Flere behandlingsgennemgange og biologiske terapiguideliner for periodiske febersyndomer citerer anakinra som en anbefalet mulighed for denne population, hvilket understøtter den kliniske plausibilitet af denne TxGNN-forudsigelse.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-Anakinra is not currently marketed in Denmark. No national or centralised marketing authorisations are recorded in this dataset.
-
-> **Clarification for clinical practice:** Kineret (anakinra) holds an EMA centralised marketing authorisation (EU/1/02/203) valid across all EU member states including Denmark. The discrepancy with the "not marketed" status may reflect local distribution or active marketing arrangements rather than absence of regulatory approval. Healthcare professionals should verify current availability, approved indications, and reimbursement status directly through the Danish Medicines Agency (Lægemiddelstyrelsen) or the EMA product database prior to prescribing.
+Der er i øjeblikket ingen registrerede kliniske forsøg relateret til anakinra til autosomal recessiv familial Middelhavsfeber.
 
 ---
 
-## Safety Considerations
+## Litteraturbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> Anakinra belongs to the class of biological IL-1 inhibitors. As a class, these agents are associated with an increased risk of serious infections (including opportunistic infections), injection-site reactions, and potential immunosuppression-related adverse effects. Concomitant use with TNF-inhibitors or other biologics requires particular caution. Formal safety data from the SmPC should be reviewed for any FMF-specific use scenario, particularly in patients with renal impairment (relevant to FMF-associated amyloidosis).
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-Anakinra's mechanism as an IL-1 receptor antagonist is directly congruent with the core IL-1β-driven pathophysiology of FMF, and multiple published case reports and clinical series specifically document its efficacy in colchicine-resistant FMF — including patients with severe amyloid complications. The related IL-1 inhibitor canakinumab is already EMA-approved for FMF, providing strong class-level validation of this therapeutic approach.
-
-**To proceed, the following is needed:**
-
-- **Verify Danish market access:** Confirm current availability and reimbursement status of Kineret via Lægemiddelstyrelsen, as the drug holds EMA authorisation but is listed as "not marketed" in the current dataset
-- **Confirm indication scope:** Determine whether Anakinra's current EMA-approved SmPC covers FMF explicitly, or whether use in FMF constitutes off-label prescribing requiring a dedicated approval pathway
-- **Retrieve full SmPC safety data:** Obtain TFDA/EMA SmPC to assess contraindications, warnings, and drug interactions — this data was absent from the Evidence Pack (Data Gap DG001)
-- **Obtain detailed MOA data:** Retrieve from DrugBank or EMA product documentation to support regulatory and mechanistic filings (Data Gap DG002)
-- **Upgrade evidence level:** Current evidence is L3 (case reports, observational studies, treatment reviews); at least one prospective randomised controlled trial in FMF would be required to reach L1–L2 before formal guideline inclusion
-- **Establish a safety monitoring plan:** Given the IL-1 inhibitor class risk of serious infections and injection-site reactions, a structured monitoring protocol should be defined, particularly for immunocompromised FMF patients with amyloidosis-related renal dysfunction
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
+|------|-----|------|-----------|----------------------|
+| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Kasuistisk serie + gennemgang | Semin Arthritis Rheum | IL-1-rettet lægemiddel inklusiv anakinra i FMF; funktionelle studier forbinder pyrin til IL-1-modning; positionerer IL-1Ra som en rationel terapeutisk tilgang |
+| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Klinisk rapport | Nephrol Dial Transplant | Vellykket anakinra-behandling af kolchicin-resistent FMF med AA-amyloidose; resultat efter efterfølgende nyretransplantation dokumenteret |
+| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Klinisk rapport | Nephrol Dial Transplant | Dramatisk gavnlig virkning af IL-1-inhibitor (anakinra) i FMF kompliceret med amyloidose og nyresvigt; proteinuri-reversering dokumenteret |
+| [20386914](https://pubmed.ncbi.nlm.nih.gov/20386914/) | 2012 | Kasuistik | Rheumatol Int | Effektivitet af anakinra hos en kolchicin-resistent FMF-patient med sekundær AA-amyloidose; anfaldfrekvens markant reduceret |
+| [23928237](https://pubmed.ncbi.nlm.nih.gov/23928237/) | 2013 | Kasuistik | Joint Bone Spine | Anakinra behandlede med succes FMF-associeret myositis og spondyloartritis, der var refraktær over for kolchicin |
+| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Behandlingsgennemgang | Clin Rev Allergy Immunol | Omfattende gennemgang af IL-1β biologisk behandling i FMF; anakinra og canakinumab begge gennemgået med kliniske data |
+| [23867542](https://pubmed.ncbi.nlm.nih.gov/23867542/) | 2014 | Behandlingsgennemgang | Clin Pharmacol Ther | Nye terapeutiske muligheder for FMF fra kolchicin til biologika; anakinra positioneret som kommende alternativ for kolchicin-non-responsvere |
+| [28585601](https://pubmed.ncbi.nlm.nih.gov/28585601/) | 2017 | Kasuistisk serie | JPMA | Anakinra og canakinumab brugt hos fire kolchicin-resistente pædiatriske FMF-patienter; alle vellykket behandlet, inklusive tre søskende |
+| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Klinisk studie | Rheumatol Int | Virkelighed med canakinumab-brug i FMF resistent eller intolerant over for kolchicin og/eller anakinra; bekræfter central rolle af IL-1-signalvej på tværs af lægemiddelklassen |
+| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Behandlingsgennemgang | Curr Med Chem | Omfattende gennemgang af biologika i FMF; anakinra gennemgået sammen med andre IL-1-inhibitorer som effektiv redningsbehandling |
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before therapeutic application.*
+## Markedsoplysninger for Danmark
+
+Anakinra er ikke i øjeblikket markedsført i Danmark. Ingen nationale eller centraliserede markedsautoritationer er registreret i dette datasæt.
+
+> **Præcisering for klinisk praksis:** Kineret (anakinra) har en EMA centraliseret markedsautorisation (EU/1/02/203) gyldig på tværs af alle EU-medlemsstater inklusive Danmark. Uoverensstemmelsen med "ikke markedsført"-status kan afspejle lokale distributerings- eller aktive markedsarrangementer snarere end fravær af regulatorisk godkendelse. Sundhedspersonale bør bekræfte aktuel tilgængelighed, godkendte indikationer og refusionsstatus direkte gennem Lægemiddelstyrelsen eller EMA-produktdatabasen før ordinering.
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+> Anakinra tilhører klassen af biologiske IL-1-inhibitorer. Som klasse er disse lægemidler forbundet med øget risiko for alvorlige infektioner (inklusive opportunistiske infektioner), reaktioner på injektionsstedet og potentielle immunosuppression-relaterede bivirkninger. Samtidig brug med TNF-inhibitorer eller andre biologika kræver særlig forsigtighed. Formelle sikkerhedsdata fra SmPC bør gennemgås for ethvert FMF-specifikt brugscenario, især hos patienter med nyefunktionsnedsættelse (relevant for FMF-associeret amyloidose).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med sikkerhedsforbeholde**
+
+**Begrundelse:**
+Anakinras mekanisme som IL-1-receptorantagonist stemmer direkte overens med FMFs kernepat ofysiologi drevet af IL-1β, og flere offentliggjorte kasuistikker og kliniske serier dokumenterer specifikt dets effektivitet i kolchicin-resistent FMF – inklusive patienter med alvorlige amyloid-komplikationer. Det relaterede IL-1-inhibitor canakinumab er allerede EMA-godkendt for FMF, hvilket giver stærk klasseniveau-validering af denne terapeutiske tilgang.
+
+**For at fortsætte, er følgende nødvendigt:**
+
+- **Bekræft dansk markedsadgang:** Bekræft aktuel tilgængelighed og refusionsstatus for Kineret via Lægemiddelstyrelsen, da lægemidlet har EMA-autorisation, men er anført som "ikke markedsført" i det aktuelle datasæt
+- **Bekræft indikationsomfang:** Bestem, hvorvidt anakinras nuværende EMA-godkendte SmPC eksplicit dækker FMF, eller hvorvidt brug i FMF udgør off-label-ordinering, der kræver en dedikeret godkendelsesgang
+- **Hent fuldt SmPC-sikkerhedsdata:** Indhent FDA/EMA SmPC for at vurdere kontraindikationer, advarsler og lægemiddel-interaktioner – disse data var fraværende i evidensgrundlaget (Datakløft DG001)
+- **Indhent detaljerede MOA-data:** Hent fra DrugBank eller EMA-produktdokumentation for at understøtte regulatoriske og mekanistiske ansøgninger (Datakløft DG002)
+- **Opgrader evidensgrad:** Aktuel evidens er L3 (kasuistikker, observationsstudier, behandlingsgennemgange); mindst ét prospektivt randomiseret kontrolleret forsøg i FMF ville være påkrævet for at nå L1–L2 før formel retningslinje-inkludering
+- **Etabler en sikkerhedsovervågningsplan:** På grund af IL-1-inhibitor-klassens risiko for alvorlige infektioner og reaktioner på injektionsstedet, bør en struktureret overvågningsprotokol defineres, især for immunosvækkede FMF-patienter med amyloidose-relateret nyresvigt
+
+---
+
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle candidates til omformål kræver klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

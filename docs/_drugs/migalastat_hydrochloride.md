@@ -29,84 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Migalastat Hydrochloride: Drug Repurposing Evaluation — Insufficient Evidence Package
+# Migalastat Hydrochloride: Evaluering af lægemiddel-genfund — Utilstrækkelig evidenspakke
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Migalastat Hydrochloride is a drug for which no original indication data was retrieved in the current evidence package.
-The TxGNN model returned **no predicted new indications** for this compound, and the drug is currently **not marketed in Denmark**.
-This report therefore serves as a data-gap notification rather than a full repurposing evaluation.
+Migalastat Hydrochloride er et lægemiddel, for hvilket der ikke blev hentet oprindelige indikationsdata i den aktuelle evidenspakke.
+TxGNN-modellen returnerede **ingen forudsagte nye indikationer** for denne forbindelse, og lægemidlet er i øjeblikket **ikke markedsført i Danmark**.
+Denne rapport tjener derfor som en meddelelse om datamangler snarere end en fuld genfundeevaluering.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|---------|
-| Original Indication | Not available in current data |
-| Predicted New Indication | No predictions returned by TxGNN |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 – Model prediction only (no predictions available) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | Ikke tilgængelig i aktuelle data |
+| Forudsagt ny indikation | Ingen forudsigelser returneret af TxGNN |
+| TxGNN-forudsigelsesresultat | N/A |
+| Bevisniveau | L5 – Kun modelforudsigelse (ingen forudsigelser tilgængelige) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-No TxGNN prediction is available for Migalastat Hydrochloride in the current evidence package. As a result, no mechanistic or indication-linkage analysis can be performed at this stage.
+Der er ingen TxGNN-forudsigelse tilgængelig for Migalastat Hydrochloride i den aktuelle evidenspakke. Som følge heraf kan der ikke udføres mekanistisk analyse eller indikations-analyse på dette stadium.
 
-Currently, detailed mechanism of action data is not available (recorded as a high-severity data gap, DG002). Without MOA information, it is not possible to reason about whether the drug's pharmacological profile could translate to any new indication.
+I øjeblikket er data om virkningsmekanisme ikke tilgængelig (registreret som en høj-alvorligheds datamangel, DG002). Uden MOA-information er det ikke muligt at vurdere, om lægemidlets farmakologiske profil kunne understøtte nogen ny indikation.
 
-Additionally, no original approved indications were retrieved from the Danish Medicines Agency (Lægemiddelstyrelsen) or any other source in this package. Until the drug's original therapeutic context is confirmed, any repurposing hypothesis would lack a mechanistic anchor.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this evidence package.
+Desuden blev der ikke hentet godkendte indikationer fra Lægemiddelstyrelsen eller nogen anden kilde i denne pakke. Indtil lægemidlets oprindelige terapeutiske kontekst er bekræftet, ville enhver genfundehypotese mangle et mekanistisk ankerpunkt.
 
 ---
 
-## Literature Evidence
+## Klinisk prøvebevis
 
-Currently no related literature available in this evidence package.
-
----
-
-## Denmark Market Information
-
-Migalastat Hydrochloride holds **no marketing authorisations** in Denmark. No product records were returned from the Lægemiddelstyrelsen dataset.
+I øjeblikket ingen relaterede kliniske forsøg registreret i denne evidenspakke.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-All safety fields — including key warnings, contraindications, and drug–drug interactions — were returned as data gaps (DG001, severity: Blocking) or were not found in the query log. No safety data can therefore be summarised here.
+I øjeblikket ingen relateret litteratur tilgængelig i denne evidenspakke.
 
 ---
 
-## Conclusion and Next Steps
+## Oplysninger om Danmarks marked
 
-**Decision: Hold**
-
-**Rationale:**
-The evidence package is critically incomplete: no TxGNN predictions were generated, no original indication was recorded, MOA data is missing, and no marketing authorisation exists in Denmark. Proceeding to any repurposing evaluation is not possible without first resolving the blocking data gaps.
-
-**To proceed, the following is needed:**
-
-- **Resolve DG001 (Blocking):** Obtain the full SmPC/product information sheet to extract approved indications, warnings, and contraindications. Recommended source: the EMA product page or national competent authority register.
-- **Resolve DG002 (High):** Query the DrugBank API for the confirmed DrugBank ID to retrieve the mechanism of action and pharmacological category.
-- **Confirm drug identity:** Verify whether "Migalastat Hydrochloride" maps to a DrugBank entry (query returned 1 result on 2026-03-26, but no ID was stored); confirm the DrugBank ID and re-run the TxGNN prediction pipeline.
-- **Re-run TxGNN:** Once drug identity and MOA are confirmed, re-execute the knowledge-graph and deep-learning prediction steps to generate a ranked indication list.
-- **Re-submit evidence package:** After all blocking and high-severity gaps are resolved, regenerate the evidence pack (version ≥ v5) and resubmit for full evaluation.
+Migalastat Hydrochloride har **ingen markedsføringstilladelser** i Danmark. Ingen produktrecords blev returneret fra Lægemiddelstyrelsens datasæt.
 
 ---
 
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.*
+## Sikkerhedsmæssige overvejelser
+
+> Venligst se det godkendte resumé af produktkarakteristika (SmPC) for sikkerhedsinformation.
+
+Alle sikkerhedsfelter — herunder vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel-interaktioner — blev returneret som datamangler (DG001, alvorlighed: Blokkering) eller blev ikke fundet i forespørgselsloggen. Ingen sikkerhedsdata kan derfor opsummeres her.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+
+Evidenspakken er kritisk ufuldstændig: der blev ikke genereret TxGNN-forudsigelser, ingen oprindelig indikation blev registreret, MOA-data mangler, og der findes ingen markedsføringstilladelse i Danmark. Det er ikke muligt at fortsætte til nogen genfundeevaluering uden først at løse de blokerende datamangler.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Løs DG001 (Blokkering):** Indhent det fulde SmPC/produktinformationsark for at udtrække godkendte indikationer, advarsler og kontraindikationer. Anbefalet kilde: EMA's produktside eller nationalt kompetent myndigheds register.
+
+- **Løs DG002 (Høj):** Forespørg DrugBank API for det bekræftede DrugBank ID for at hente virkningsmekanisme og farmakologisk kategori.
+
+- **Bekræft lægemiddelidentitet:** Verificer, om "Migalastat Hydrochloride" kortlægger til en DrugBank-post (forespørgsel returnerede 1 resultat den 2026-03-26, men intet ID blev lagret); bekræft DrugBank ID og kør TxGNN-forudsigelsespipeline igen.
+
+- **Kør TxGNN igen:** Når lægemiddelidentitet og MOA er bekræftede, genudføres viden-graf- og dybdelæringsforudsigelse for at generere en rangeret indikationsliste.
+
+- **Genskend indsendelse:** Efter at alle blokerings- og høj-alvorligheds-mangler er løst, skal evidenspakken regenereres (version ≥ v5) og genskend indsendelse skal foretages til fuld evaluering.
+
+---
+
+*Denne rapport genereres kun til forskningsmæssigt referenceformål og udgør ikke medicinsk råd. Alle lægemiddel-genfundekandidater kræver klinisk validering før terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

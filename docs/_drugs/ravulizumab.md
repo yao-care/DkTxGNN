@@ -29,73 +29,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ravulizumab: From Paroxysmal Nocturnal Hemoglobinuria to Autosomal Recessive Severe Congenital Neutropenia due to G6PC3 Deficiency
+# Ravulizumab: Fra Paroksysmal Nocturn Hemoglobinuri til Autosomalt Recessiv Alvorlig Medfødt Neutropeni på grund af G6PC3-Mangel
 
-## One-Sentence Summary
+## Énlinjers Sammenfatning
 
-Ravulizumab is a long-acting anti-complement C5 monoclonal antibody, originally approved for paroxysmal nocturnal hemoglobinuria (PNH), atypical hemolytic uremic syndrome (aHUS), generalized myasthenia gravis (gMG), and neuromyelitis optica spectrum disorder (NMOSD). The TxGNN model predicts it may be effective for **autosomal recessive severe congenital neutropenia due to G6PC3 deficiency**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review finds no established biological link between complement C5 inhibition and this disease.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | PNH, aHUS, gMG, NMOSD (approved indications per evidence-pack annotations; not sourced from a Danish label, as the product is not marketed in Denmark) |
-| Predicted New Indication | Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ravulizumab er et langtidsvirkende anti-C5 monoklonalt antistof, oprindeligt godkendt til paroksysmal nocturn hemoglobinuri (PNH), atypisk hemolytisk uremisk syndrom (aHUS), generaliseret myastenia gravis (gMG) og neuromyelitis optica spektrum-forstyrrelse (NMOSD). TxGNN-modellen forudsiger, at det kan være effektivt for **autosomalt recessiv alvorlig medfødt neutropeni på grund af G6PC3-mangel**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og bevis-pakkens egen mekanistiske analyse finder ingen etableret biologisk forbindelse mellem C5-inhibition og denne sygdom.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Ravulizumab binds complement protein C5 with high affinity, blocking its cleavage into C5a and C5b and thereby preventing formation of the membrane attack complex (MAC). Its approved indications — PNH, aHUS, gMG, and NMOSD — are all diseases driven by pathological terminal complement activation.
-
-The predicted indication, G6PC3-deficient congenital neutropenia, has a fundamentally different pathophysiology: a defect in the glucose-6-phosphatase catalytic subunit that impairs neutrophil energy metabolism and triggers endoplasmic-reticulum stress, leading to increased neutrophil apoptosis. This is a metabolic/developmental disorder of granulopoiesis, not a complement-mediated disease, and the evidence pack explicitly states there is "no mechanistic overlap" between the two pathways.
-
-Across all five distinct diseases in the top-10 predictions (G6PC3-deficient SCN, cyclic hematopoiesis, primary hyperoxaluria, severe congenital neutropenia, CXCR2-deficient SCN), the accompanying rationale text consistently characterizes the TxGNN score as likely reflecting graph-level node proximity — e.g., shared clustering with "inflammatory/hematologic disease" nodes — rather than a causal pharmacological relationship. The one partial exception is primary hyperoxaluria, where isolated case reports describe C5 inhibitors (e.g., eculizumab) being used to manage secondary thrombotic microangiopathy as a complication, not the primary oxalate metabolism defect itself. Taken together, the mechanistic case for this repurposing candidate is weak and currently unsupported by direct evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|----------|
+| Original indikation | PNH, aHUS, gMG, NMOSD (godkendte indikationer ifølge bevis-pakke; ikke baseret på dansk etiket, da produktet ikke markedsføres i Danmark) |
+| Forudsagt ny indikation | Autosomalt recessiv alvorlig medfødt neutropeni på grund af G6PC3-mangel |
+| TxGNN-forudsigelsesscore | 99.96% |
+| Bevissikkerhedsniveau | L5 (kun modelforudsigelse, intet klinisk eller litteraturstøtte) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Ravulizumab binder komplementproteinet C5 med høj affinitet og blokerer dets spaltning til C5a og C5b, hvorved dannelsen af membrananfaldskomplekset (MAC) forhindres. Dets godkendte indikationer — PNH, aHUS, gMG og NMOSD — er alle sygdomme, der drives af patologisk terminal komplementaktivering.
 
----
+Den forudsagte indikation, G6PC3-mangelmedfødt neutropeni, har en fundamentalt anderledes patofysiologi: en defekt i glucose-6-fosfatase-katalytisk underenhed, som svækker neutrofil energimetabolisme og udløser endoplasmatisk reticulum-stress, hvilket fører til øget neutrofil apoptose. Dette er en metabolisk/udvikling-relateret lidelse af granulopoiese, ikke en komplementmedieret sygdom, og bevis-pakken fastslår eksplicit, at der er "ingen mekanistisk overlap" mellem de to veje.
 
-## Denmark Market Information
-
-Ravulizumab currently holds no marketing authorisation in Denmark (0 licenses on record; market status: Not marketed). No product/dosage-form/indication data is available to tabulate.
+På tværs af alle fem adskilte sygdomme i top-10-forudsigelserne (G6PC3-mangelmedført SCN, cyklisk hæmatopoiese, primær hyperoxaluri, alvorlig medfødt neutropeni, CXCR2-mangelmedført SCN), er den tilhørende begrundelse konsistent i at karakterisere TxGNN-scoren som sandsynligvis reflekterende graf-niveau nodeproksimitet — f.eks. delt klyngedannelse med "inflammatorisk/hæmatologisk sygdom"-noder — snarere end en kausalt forbunden farmakologisk sammenhæng. Det ene delvise undtagelse er primær hyperoxaluri, hvor isolerede casusstudier beskriver brugen af C5-inhibitorer (f.eks. ekulizumab) til at håndtere sekundær trombotisk mikroangiopati som en komplikation, ikke det primære oxalat-metabolisme-defekt i sig selv. Samlet set er den mekanistiske argumentation for denne repurposing-kandidat svag og i øjeblikket uden direkte støtte.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbeviser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No Danish SmPC warnings, contraindications, or drug-interaction data are currently available in this evidence pack — this is flagged as a **Blocking** data gap (DG001) that prevents progression to initial safety assessment (S1).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-All five distinct predicted indications carry L5 evidence (model prediction only), zero clinical trials, and zero literature; the evidence pack's own mechanistic analysis finds no credible pathway linking complement C5 inhibition to any of these diseases. Combined with the drug's non-marketed status in Denmark and a blocking gap on SmPC safety data, there is currently no basis to advance beyond model-prediction stage (S0).
+---
 
-**To proceed, the following is needed:**
-- Danish/EU SmPC warnings, contraindications, and drug-interaction data (resolves DG001, blocking)
-- Formal confirmation of original MOA and approved indications from DrugBank/EMA labeling (resolves DG002)
-- Preclinical or mechanistic studies establishing a plausible link between complement C5 activity and neutrophil-maturation or oxalate-metabolism disorders before any clinical exploration is considered
+## Markedsinformation for Danmark
+
+Ravulizumab har i øjeblikket ingen markedsføringstilladelse i Danmark (0 tilladelser registreret; markedsstatus: Ikke markedsført). Der er ingen produkt-/doseringsform-/indikations-data til tabulering.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktinformationsdokument (SmPC) for sikkerhedsinformationer. Der er i øjeblikket ingen danske SmPC-advarsler, kontraindikationer eller lægemiddelinteraktionsdata tilgængelige i denne bevis-pakke — dette er markeret som en **Blokering** datakløft (DG001), der forhindrer progression til indledende sikkerhedsvurdering (S1).
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Vent**
+
+**Begrundelse:**
+Alle fem adskilte forudsagte indikationer bærer L5-beviser (kun modelforudsigelse), nul kliniske forsøg og nul litteratur; bevis-pakkens egen mekanistiske analyse finder ingen troværdig vej, der forbinder C5-inhibition til nogen af disse sygdomme. Kombineret med lægemidlets ikke-markedsførte status i Danmark og en blokering af SmPC-sikkerhedsdata, er der i øjeblikket intet grundlag for at avancere ud over modelforudsigelse-stadiet (S0).
+
+**For at fortsætte, er følgende nødvendigt:**
+- Danske/EU SmPC-advarsler, kontraindikationer og lægemiddelinteraktionsdata (løser DG001, blokering)
+- Formel bekræftelse af oprindelig MOA og godkendte indikationer fra DrugBank/EMA-mærkning (løser DG002)
+- Prækliniske eller mekanistiske studier, der etablerer en plausibel forbindelse mellem C5-aktivitet og neutrofil-modning eller oxalat-metabolisme-lidelser, før nogen klinisk udforskning overvejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

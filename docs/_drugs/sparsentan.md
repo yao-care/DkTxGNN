@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sparsentan: From an Unconfirmed Original Indication to Alopecia
+# Sparsentan: Fra ubekræftet oprindelig indikation til alopeci
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-Sparsentan (DrugBank DB12548) is a dual endothelin type A (ETA) / angiotensin II type 1 (AT1) receptor antagonist; its original approved indication is not documented in the current evidence pack. The TxGNN model predicts a possible signal for **Alopecia**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale characterizes the drug–disease link as speculative rather than validated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no marketing authorisation or approved indication text in the current evidence pack |
-| Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 94.52% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Sparsentan (DrugBank DB12548) er en dobbelt endotelin type A (ETA) / angiotensin II type 1 (AT1) receptorantagonist; dets oprindelige godkendte indikation er ikke dokumenteret i det aktuelle bevisomfang. TxGNN-modellen forudsiger et muligt signal for **alopeci**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske begrundelse karakteriserer lægemiddel-sygdoms-forbindelsen som spekulativ snarere end valideret.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism-of-action documentation is not available in the current evidence pack (flagged as a High-severity data gap, DG002). Based on the mechanistic rationale accompanying this prediction, Sparsentan is known to act as a dual ETA (endothelin receptor type A) and AT1 (angiotensin II type 1 receptor) antagonist.
-
-The renin-angiotensin system (RAS) and endothelin signalling have been reported, in scattered exploratory studies, to play local paracrine roles in follicular microvascular supply and hair cycle regulation. However, the evidence pack's own assessment explicitly notes that the causal link between systemic ETA/AT1 blockade and alopecia treatment is weak and speculative — this is **not** a validated mechanism, and the high TxGNN score should not be read as mechanistic confirmation.
-
-It is also worth noting that this candidate list contains several related but questionable signals: two entries for hereditary/structural hair-loss conditions (congenital hypotrichosis milia, hypotrichosis simplex of the scalp) that the rationale attributes to likely knowledge-graph clustering artifacts rather than genuine pharmacological relevance, and an angioedema signal that the rationale flags as a possible **inverted safety signal** (RAS-blocking drugs are a known clinical risk factor for angioedema, not a treatment) rather than a therapeutic opportunity. This context reinforces that the Alopecia signal should be treated as a low-confidence, model-only hypothesis at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke tilgængelig – ingen markedsføringstilladelse eller godkendt indikationstekst i det aktuelle bevisomfang |
+| Forudsagt ny indikation | Alopeci |
+| TxGNN-forudsigelsesscore | 94.52% |
+| Bevisniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljeret dokumentation af virkningsmekanisme er ikke tilgængelig i det aktuelle bevisomfang (markeret som en alvorlig datakløft, DG002). Baseret på den mekanistiske begrundelse, der følger med denne forudsigelse, er Sparsentan kendt for at virke som en dobbelt ETA (endotelin-receptortype A) og AT1 (angiotensin II type 1 receptor) antagonist.
 
----
+Renin-angiotensin-systemet (RAS) og endotelin-signalering er blevet rapporteret i spredt fordelte eksplorativt-studier at spille lokale parakrine roller i follikulær mikrovaskularforsyning og hårcyklus-regulering. Imidlertid bemærker bevisomfangets egen vurdering eksplicit, at den årsagssammenhæng mellem systemisk ETA/AT1-blokade og alopeci-behandling er svag og spekulativ – det er **ikke** en valideret mekanisme, og den høje TxGNN-score bør ikke læses som mekanistisk bekræftelse.
 
-## Denmark Market Information
-
-Sparsentan currently has no marketing authorisations registered in Denmark (0 licenses on file; market status: Not Marketed).
+Det er også værd at bemærke, at denne kandidatliste indeholder flere relaterede, men tvivlsomme signaler: to indlæg for arvelige/strukturelle hårtab-tilstande (medfødt hypotrikiosis milia, hypotrikiosis simplex på hovedbunden), som begrundelsen tilskriver sandsynlige knowledge-graph-klynge-artefakter snarere end genuine farmakologiske relevans, og et angioødem-signal, som begrundelsen markerer som et muligt **inverteret sikkerhedssignal** (RAS-blokerende lægemidler er en kendt klinisk risikofaktor for angioødem, ikke en behandling) snarere end en terapeutisk mulighed. Denne kontekst forstærker, at alopeci-signalet bør behandles som en hypotese med lav selvtillid kun fra modellen på dette stadie.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*Note: A Blocking-severity data gap (DG001) has been identified — local product label warnings/contraindications have not yet been retrieved, which prevents a formal safety pre-assessment (S1 stage) for this candidate.*
+Ingen relaterede kliniske forsøg er i øjeblikket registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteratur-evidens
 
-**Decision: Hold**
+Ingen relateret litteratur er i øjeblikket tilgængelig.
 
-**Rationale:**
-This candidate is supported only by a TxGNN model score (L5 evidence level), with no clinical trials, literature, or Danish market presence to corroborate it. The evidence pack's own mechanistic rationale describes the drug–disease link as speculative rather than established, and a Blocking-severity data gap (missing product label/safety data) prevents even an initial safety screen.
+---
 
-**To proceed, the following is needed:**
-- Retrieval of the approved product label / SmPC warnings and contraindications (resolves DG001, currently blocking)
-- Confirmation of detailed mechanism-of-action data via DrugBank or primary literature (resolves DG002)
-- Preclinical or mechanistic studies specifically examining RAS/endothelin signalling in hair follicle biology
-- Any clinical trial or case-level data evaluating Sparsentan (or the ETA/AT1 dual-antagonist class) in alopecia, to move this candidate beyond a model-only (L5) evidence level
+## Markedsinformation for Danmark
+
+Sparsentan har i øjeblikket ingen markedsføringstilladelser registreret i Danmark (0 licenser på arkiv; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktdatablad (SmPC) for sikkerhedsinformation.
+
+*Bemærk: En blokeringsalvorlig datakløft (DG001) er blevet identificeret – lokale advarsler/kontraindikationer på produktetiketten er endnu ikke hentet, hvilket forhindrer en formel sikkerhedsvudering før vurderingen (S1-stadie) for denne kandidat.*
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Denne kandidat understøttes kun af en TxGNN-modelscore (L5-bevisniveau), uden kliniske forsøg, litteratur eller dansk markedstilstedeværelse for at bekræfte det. Bevisomfangets egen mekanistiske begrundelse beskriver lægemiddel-sygdoms-forbindelsen som spekulativ snarere end etableret, og en blokeringsalvorlig datakløft (manglende produktetiket/sikkerhedsdata) forhindrer selv en indledende sikkerhedsscreening.
+
+**For at fortsætte er følgende nødvendigt:**
+- Hentning af det godkendte produktdatablad / SmPC-advarsler og kontraindikationer (løser DG001, i øjeblikket blokerering)
+- Bekræftelse af detaljerede virkningsmekanisme-data via DrugBank eller primær litteratur (løser DG002)
+- Prækliniske eller mekanistiske studier, der specifikt undersøger RAS/endotelin-signalering i hårstratafysiologi
+- Enhver klinisk forsøgs- eller case-niveau-data, der evaluerer Sparsentan (eller ETA/AT1-dual-antagonist-klassen) i alopeci, for at flytte denne kandidat ud over en kun-model (L5) bevisniveau
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

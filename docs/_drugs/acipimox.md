@@ -29,347 +29,344 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-Now I have the local project data. Let me compile the comprehensive evidence report based on the evidence pack, codebase data, and established pharmacological knowledge of Acipimox.
+# Lægemiddel-omformålingsbevisrapport — Acipimox (DB09055)
+
+**Udarbejdet for:** Dansk Lægemiddelstyrelse
+**Rapportversion:** v4
+**Dato for generation:** 2026-04-03
+**Dataafgrænsning:** 2026-04-03
 
 ---
 
-# Drug Repurposing Evidence Report — Acipimox (DB09055)
+## 1. Lederberetning
 
-**Prepared for:** Danish Medicines Agency (Lægemiddelstyrelsen) Context
-**Report Version:** v4
-**Date Generated:** 2026-04-03
-**Data Cutoff:** 2026-04-03
+| Felt | Værdi |
+|-----|--------|
+| **Lægemiddel (INN)** | Acipimox |
+| **DrugBank-ID** | [DB09055](https://go.drugbank.com/drugs/DB09055) |
+| **Handelsnavn** | Olbetam® (Pharmacia / Pfizer) |
+| **Godkendt indikation** | Hyperlipidemier (typerne IIa, IIb, IV, V) — supplering til diætbehandling |
+| **Foreslået omformål** | Flere nye indikationer forudsagt af TxGNN knowledge-graph-model (100 kandidater) |
+| **Nuværende bevisniveau** | **L5** — Kun computerisk forudsigelse; ingen dedikerede omformålingskliniske forsøg identificeret |
+| **Danmarks markedsstatus** | Tidligere tilgængelig på udvalgte europæiske markeder; nuværende dansk markedsautorisation bør bekræftes med Lægemiddelstyrelsen |
 
----
-
-## 1. Executive Summary
-
-| Field | Value |
-|-------|-------|
-| **Drug (INN)** | Acipimox |
-| **DrugBank ID** | [DB09055](https://go.drugbank.com/drugs/DB09055) |
-| **Brand Name** | Olbetam® (Pharmacia / Pfizer) |
-| **Approved Indication** | Hyperlipidaemia (Types IIa, IIb, IV, V) — adjunct to dietary management |
-| **Proposed Repurposing** | Multiple novel indications predicted by TxGNN knowledge-graph model (100 candidates) |
-| **Current Evidence Level** | **L5** — Computational prediction only; no dedicated repurposing clinical trials identified |
-| **Denmark Market Status** | Previously available in select European markets; current Danish marketing authorization status requires confirmation with Lægemiddelstyrelsen |
-
-**Key Findings:**
-- Acipimox is a nicotinic acid (niacin) analogue with well-characterized lipid-modifying properties, acting primarily through the hydroxycarboxylic acid receptor 2 (HCA2/GPR109A).
-- TxGNN knowledge-graph (KG) analysis has generated **100 predicted novel indications**, with top candidates including osteogenesis imperfecta, hereditary deafness subtypes, and various rare genetic disorders.
-- All predictions remain at **Level 5 (computational only)** — no clinical trial evidence currently supports any of the proposed repurposing indications.
-- Multiple **data gaps** exist in the evidence pack (mechanism-of-action detail, local label warnings/contraindications, drug–drug interactions), which must be resolved before advancing to safety evaluation (Stage S1).
+**Vigtigste fund:**
+- Acipimox er et nicotinsyreanalolg med velkarakteriserede lipidmodificerende egenskaber, der virker primært gennem hydroxycarboxylsyrereceptor 2 (HCA2/GPR109A).
+- TxGNN knowledge-graph-analyse (KG) har genereret **100 forudsagte nye indikationer**, hvor de vigtigste kandidater omfatter osteogenesis imperfecta, arvelig døvhed af forskellige typer og forskellige sjældne genetiske lidelser.
+- Alle forudsigelser forbliver på **niveau 5 (kun computerisk)** — ingen klinisk forsøgsbevis understøtter for øjeblikket nogen af de foreslåede omformålingsindikationer.
+- Adskillige **datahuller** findes i bevisydelsen (mekanisme-for-virkning-detaljer, lokale etiketadvarsler/kontraindikationer, lægemiddel-lægemiddel-interaktioner), som skal løses før fremskridt til sikkerhedsevaluering (trin S1).
 
 ---
 
-## 2. Drug Overview
+## 2. Lægemiddeloversigt
 
-### 2.1 Approved Indications
+### 2.1 Godkendte indikationer
 
-Acipimox (Olbetam®) is indicated as an adjunct to diet for the treatment of hyperlipoproteinaemia, specifically:
+Acipimox (Olbetam®) er indiceret som supplement til diæt ved behandling af hyperlipoproteinæmi, specifikt:
 
-- **Type IIa** (elevated LDL cholesterol)
-- **Type IIb** (elevated LDL + VLDL; mixed hyperlipidaemia)
-- **Type IV** (elevated VLDL; endogenous hypertriglyceridaemia)
-- **Type V** (elevated chylomicrons + VLDL)
+- **Type IIa** (forhøjet LDL-kolesterol)
+- **Type IIb** (forhøjet LDL + VLDL; blandet hyperlipidemier)
+- **Type IV** (forhøjet VLDL; endogent hypertriglyceridæmi)
+- **Type V** (forhøjede chylomikroner + VLDL)
 
-It has been marketed in several European countries (notably Italy, the United Kingdom, and select Nordic/EU markets) under the brand name **Olbetam®**. Acipimox is **not approved by the US FDA**.
+Det har været markedsført i flere europæiske lande (især Italien, Storbritannien og udvalgte nordiske/EU-markeder) under handelsmærket **Olbetam®**. Acipimox er **ikke godkendt af FDA (US Food and Drug Administration)**.
 
-#### Denmark (Lægemiddelstyrelsen) Status
+#### Status i Danmark (Lægemiddelstyrelsen)
 
-The FHIR MedicationKnowledge resource in this project lists Denmark as the jurisdiction with status "active," and the brand name "Olbetam." However, the evidence pack notes that market status data originates from the Taiwan (TFDA) context where Acipimox is **not marketed** (0 licences). The current marketing authorization status with Lægemiddelstyrelsen should be independently verified, as Olbetam has historically had limited availability even in European markets where it was once authorised.
+FHIR MedicationKnowledge-ressourcen i dette projekt viser Danmark som jurisdiktion med status "aktiv" og handelsmærket "Olbetam." Imidlertid noterer bevisydelsen, at markedsstatusdata stammer fra Taiwan-kontekst (TFDA), hvor Acipimox **ikke er markedsført** (0 licenser). Den nuværende markedsautorisation med Lægemiddelstyrelsen bør verificeres uafhængigt, da Olbetam historisk har haft begrænset tilgængelighed selv på europæiske markeder, hvor det engang var autoriseret.
 
-### 2.2 Mechanism of Action
+### 2.2 Virkningsmekanisme
 
-> ⚠️ **Data Gap (DG002)** — Full MOA not populated in the evidence pack. The following is reconstructed from established pharmacological literature.
+> ⚠️ **Datahul (DG002)** — Fuld virkningsmekanisme er ikke udfyldt i bevisydelsen. Følgende er rekonstrueret fra etableret farmakologisk litteratur.
 
-Acipimox is a **pyrazine-2-carboxylic acid derivative** and structural analogue of nicotinic acid (niacin). Its mechanism involves:
+Acipimox er et **pyrazin-2-carboxylsyre-derivat** og strukturelt analogon af nicotinsyre (niacin). Dets mekanisme omfatter:
 
-1. **HCA2 (GPR109A / Niacin Receptor) Agonism:** Acipimox activates the hydroxycarboxylic acid receptor 2 (HCA2) on adipocytes, a Gi-protein-coupled receptor. Receptor activation inhibits adenylate cyclase, reducing intracellular cAMP levels.
+1. **HCA2 (GPR109A / Nicotinreceptor) Agonisme:** Acipimox aktiverer hydroxycarboxylsyrereceptor 2 (HCA2) på adipocytter, en Gi-proteinkoblet receptor. Receptoraktivering hæmmer adenylylcyclase, hvilket reducerer intracellulære cAMP-niveauer.
 
-2. **Inhibition of Lipolysis:** Decreased cAMP attenuates hormone-sensitive lipase (HSL) activity in adipose tissue, reducing the release of free fatty acids (FFAs) into the circulation.
+2. **Hæmning af lipolysis:** Reduceret cAMP svækker hormonfølelses-lipase (HSL)-aktivitet i adipøst væv, hvilket reducerer frigivelsen af frie fedtsyrer (FFAs) til cirkulationen.
 
-3. **Downstream Hepatic Effects:** Lower circulating FFAs reduce hepatic substrate availability for triglyceride and VLDL synthesis, leading to:
-   - ↓ Plasma triglycerides (20–50%)
-   - ↓ Total and LDL cholesterol (moderate, ~10–20%)
-   - ↑ HDL cholesterol (modest, ~10–15%)
+3. **Efterfølgende hepatiske virkninger:** Lavere cirkulerende FFAs reducerer hepatiske substrater til triglycerid- og VLDL-syntese, hvilket fører til:
+   - ↓ Plasma triglycerideer (20–50%)
+   - ↓ Totalt og LDL-kolesterol (moderat, ~10–20%)
+   - ↑ HDL-kolesterol (beskedent, ~10–15%)
 
-4. **Anti-inflammatory Properties (Emerging):** Like niacin, acipimox may exert anti-inflammatory effects via HCA2-mediated pathways, including suppression of NF-κB signalling and modulation of prostaglandin synthesis. This mechanism is of particular interest in the repurposing context.
+4. **Antiinflammatoriske egenskaber (Ny udvikling):** Ligesom niacin kan acipimox udøve antiinflammatoriske virkninger via HCA2-mediaterede veje, herunder undertrykkelse af NF-κB-signalering og modulering af prostaglandinsyntese. Denne mekanisme er af særlig interesse i omformålskonteksten.
 
-**Advantage over Niacin:** Acipimox produces significantly **less cutaneous flushing** than nicotinic acid due to its structural modifications, improving patient tolerability.
+**Fordel frem for niacin:** Acipimox producerer betydeligt **mindre hudrødme** end nicotinsyre på grund af dets strukturelle modifikationer, hvilket forbedrer patienttolerance.
 
-### 2.3 Pharmacokinetic Profile
+### 2.3 Farmakokinetisk profil
 
-| Parameter | Value |
+| Parameter | Værdi |
 |-----------|-------|
-| **Absorption** | Rapidly and well absorbed after oral administration |
-| **Bioavailability** | ~90–100% (oral) |
-| **Tmax** | ~2 hours |
-| **Protein Binding** | Low (~10%) |
-| **Metabolism** | Minimal hepatic metabolism; largely excreted unchanged |
-| **Elimination** | Primarily renal (>90% unchanged drug in urine) |
-| **Half-life (t½)** | ~1.5–2 hours |
-| **Dosing** | Typically 250 mg two to three times daily, taken with or after meals |
+| **Absorption** | Hurtigt og velabsorberet efter oral administration |
+| **Biodisponibilitet** | ~90–100% (oral) |
+| **Tmax** | ~2 timer |
+| **Proteinbinding** | Lav (~10%) |
+| **Metabolisme** | Minimal hepatisk metabolisme; stort set udskilt uændret |
+| **Elimination** | Primært renal (>90% uændret lægemiddel i urin) |
+| **Halveringstid (t½)** | ~1,5–2 timer |
+| **Dosering** | Typisk 250 mg to til tre gange dagligt, tages med eller efter måltider |
 
-**Clinical Pharmacology Notes:**
-- The short half-life necessitates multiple daily doses.
-- Dose adjustment is required in renal impairment (CrCl < 30 mL/min) due to almost exclusive renal elimination.
-- No significant hepatic CYP450-mediated metabolism, reducing drug–drug interaction risk.
+**Kliniske farmakologi-noter:**
+- Den korte halveringstid nødvendiggør flere daglige doser.
+- Doseringsjustering er påkrævet ved nedsat nyrefunktion (CrCl < 30 mL/min) på grund af næsten eksklusiv renal elimination.
+- Ingen betydelig hepatisk CYP450-medieret metabolisme, hvilket reducerer lægemiddel-lægemiddel-interaktionsrisiko.
 
 ---
 
-## 3. Evidence Analysis
+## 3. Bevisanalyse
 
-### 3.1 TxGNN Computational Predictions
+### 3.1 TxGNN computeriske forudsigelser
 
-The TxGNN knowledge-graph (KG) model generated **100 predicted novel indications** for Acipimox. The top 20 predictions are:
+TxGNN knowledge-graph-modellen (KG) genererede **100 forudsagte nye indikationer** for Acipimox. De 20 vigtigste forudsigelser er:
 
-| Rank | Predicted Indication | Source |
-|------|---------------------|--------|
+| Placering | Forudsagt indikation | Kilde |
+|-----------|---------------------|-------|
 | 1 | Osteogenesis imperfecta | KG |
-| 2 | Autosomal recessive nonsyndromic deafness | KG |
-| 3 | Congenital stationary night blindness, autosomal dominant | KG |
-| 4 | Autosomal dominant nonsyndromic deafness | KG |
-| 5 | Deafness, autosomal recessive | KG |
+| 2 | Autosomal recessiv ikke-syndromisk døvhed | KG |
+| 3 | Medføldt stationær natteblindhed, autosomal dominant | KG |
+| 4 | Autosomal dominant ikke-syndromisk døvhed | KG |
+| 5 | Døvhed, autosomal recessiv | KG |
 | 6 | Keratoderma hereditarium mutilans | KG |
-| 7 | ICF syndrome (Immunodeficiency-centromeric instability-facial anomalies) | KG |
-| 8 | Müllerian aplasia and hyperandrogenism | KG |
-| 9 | Myelodysplasia, immunodeficiency, facial dysmorphism, short stature, and psychomotor delay | KG |
-| 10 | GM1 gangliosidosis | KG |
-| 11 | Bone dysplasia, lethal Holmgren type | KG |
-| 12 | CARD9 deficiency (predisposition to invasive fungal disease) | KG |
-| 13 | Agammaglobulinemia | KG |
-| 14 | Asymmetric short stature syndrome | KG |
-| 15 | Action myoclonus–renal failure syndrome | KG |
-| 16 | Fanconi anaemia complementation group | KG |
+| 7 | ICF-syndrom (Immunodefekt-centromeric ustabilitet-ansigtsanomalier) | KG |
+| 8 | Müllerian aplasi og hyperandrogeni | KG |
+| 9 | Myelodysolasi, immunodefekt, ansigtsmalformationer, kort vækst og psykomotorisk forsinkelses | KG |
+| 10 | GM1-gangliosidose | KG |
+| 11 | Knogledysplasi, letal Holmgren-type | KG |
+| 12 | CARD9-defekt (disposition for invasiv svampesygdom) | KG |
+| 13 | Agammaglobulinæmi | KG |
+| 14 | Asymmetrisk kortvækstsyndrom | KG |
+| 15 | Action myoklonus–nyresvigt-syndrom | KG |
+| 16 | Fanconi-anæmi komplementeringsgruppe | KG |
 | 17 | Arthrogryposis, distal | KG |
-| 18 | Portal hypertension, noncirrhotic | KG |
-| 19 | Craniosynostosis–intracranial calcifications syndrome | KG |
-| 20 | Combined immunodeficiency due to ZAP70 deficiency | KG |
+| 18 | Portål hypertension, ikke-cirrotisk | KG |
+| 19 | Kraniosynostose–intracranialt kalcificerings-syndrom | KG |
+| 20 | Kombineret immundefekt på grund af ZAP70-defekt | KG |
 
-*(100 total predictions; full list available at project drug page)*
+*(100 forudsigelser i alt; fuld liste tilgængelig på projektets lægemiddelside)*
 
-**Observation:** The predicted indications are overwhelmingly **rare genetic and congenital disorders** — many of which currently lack effective pharmacotherapies. While this pattern is characteristic of KG-based predictions (which traverse phenotype–genotype edges in the knowledge graph), it also means these predictions are particularly difficult to validate clinically due to small patient populations.
+**Observation:** De forudsagte indikationer er overvejende **sjældne genetiske og medfødte lidelser** — mange af hvilke for øjeblikket mangler effektive farmakoterapier. Mens dette mønster er karakteristisk for KG-baserede forudsigelser (som traverserer fænotype–genotype-kanter i knowledge-graphen), betyder det også, at disse forudsigelser er særligt vanskelige at validere klinisk på grund af små patientpopulationer.
 
-### 3.2 Clinical Trials
+### 3.2 Kliniske forsøg
 
-#### Existing Trials for Approved Indication
+#### Eksisterende forsøg for godkendt indikation
 
-Acipimox has a well-established clinical history for lipid-lowering, with multiple trials published in the 1980s–2000s:
+Acipimox har en veletableret klinisk historie for lipidnedsættelse, med flere forsøg publiceret i 1980'erne–2000'erne:
 
-- Phase 3 trials demonstrating efficacy in mixed hyperlipidaemia (various European centres)
-- Comparative studies vs. niacin and fibrates
+- Fase 3-forsøg, der demonstrerer efficacitet i blandet hyperlipidemier (forskellige europæiske centre)
+- Sammenligningsstudier mod niacin og fibrater
 
-#### Trials Relevant to Repurposing
+#### Forsøg relevant for omformål
 
-| Area | Status | Notes |
-|------|--------|-------|
-| **Insulin resistance / Type 2 Diabetes** | Exploratory (Phase 1/2 equivalent) | Several investigator-initiated studies examined acipimox's effect on FFA levels and insulin sensitivity. Results showed acute improvement in insulin sensitivity when FFA levels were lowered, supporting a mechanistic link, but no pivotal trials were conducted. |
-| **Metabolic syndrome** | Observational | Limited observational data suggesting benefits on metabolic parameters beyond lipids. |
-| **Predicted KG indications** | **None identified** | No clinical trials registered on ClinicalTrials.gov or EU CTR for any of the 100 TxGNN-predicted indications. |
+| Område | Status | Noter |
+|--------|--------|-------|
+| **Insulinresistens / Type 2-diabetes** | Eksplorativt (fase 1/2 ækvivalent) | Adskillige efterforskerinitiaterede studier undersøgte acipimox' virkning på FFA-niveauer og insulinfølsomhed. Resultaterne viste akut forbedring af insulinfølsomhed, når FFA-niveauer blev reduceret, hvilket understøtter et mekanistisk link, men ingen pivotale forsøg blev gennemført. |
+| **Metabolisk syndrom** | Observatorisk | Begrænset observatorisk data, der tyder på fordele ved metaboliske parametre ud over lipider. |
+| **Forudsagte KG-indikationer** | **Ingen identificeret** | Ingen kliniske forsøg registreret på ClinicalTrials.gov eller EU CTR for nogen af de 100 TxGNN-forudsagte indikationer. |
 
-#### Key Historical Studies of Note
+#### Vigtige historiske studier værd at bemærke
 
-1. **Santomauro et al. (1999)** — Demonstrated that overnight FFA suppression with acipimox improved insulin sensitivity in obese non-diabetic and Type 2 diabetic subjects. (*Diabetes*, 48(9): 1836–1841)
+1. **Santomauro et al. (1999)** — Demonstrerede, at nagtlig FFA-undertrykkelse med acipimox forbedrede insulinfølsomhed hos overvægtige ikke-diabetiske og Type 2-diabetiske personer. (*Diabetes*, 48(9): 1836–1841)
 
-2. **Bajaj et al. (2005)** — Showed acipimox decreased plasma FFA and improved hepatic and peripheral insulin sensitivity in HIV-lipodystrophy patients. (*J Clin Endocrinol Metab*, 90(7): 4474–4480)
+2. **Bajaj et al. (2005)** — Viste, at acipimox reducerede plasma-FFA og forbedrede hepatisk og perifer insulinfølsomhed hos HIV-lipodystrofi-patienter. (*J Clin Endocrinol Metab*, 90(7): 4474–4480)
 
-3. **Daniele et al. (2014)** — Explored acipimox effects on mitochondrial function and insulin resistance. Found that chronic acipimox treatment led to a rebound increase in FFA levels, questioning sustained efficacy for insulin sensitization. (*PLoS Med*, 11(3): e1001628)
+3. **Daniele et al. (2014)** — Undersøgte acipimox-virkninger på mitokondriefunktion og insulinresistens. Fandt, at kronisk acipimox-behandling førte til en rebound-stigning i FFA-niveauer, hvilket sætter spørgsmålstegn ved vedvarende efficacitet for insulinfølsomhed. (*PLoS Med*, 11(3): e1001628)
 
-### 3.3 Published Literature
+### 3.3 Publiceret litteratur
 
-#### Meta-analyses and Systematic Reviews
+#### Meta-analyser og systematiske anmeldelser
 
-- No meta-analyses or systematic reviews specifically addressing acipimox repurposing have been identified.
-- Acipimox is included in broader reviews of niacin-class agents and their cardiovascular effects.
+- Ingen meta-analyser eller systematiske anmeldelser specifikt adressering acipimox-omformål er blevet identificeret.
+- Acipimox er inkluderet i bredere anmeldelser af nicotinklassen af agenternes og deres kardiovaskulære virkninger.
 
-#### Randomized Controlled Trials (for novel indications)
+#### Randomiserede kontrollerede forsøg (for nye indikationer)
 
-- **None identified** for any of the 100 TxGNN-predicted indications.
+- **Ingen identificeret** for nogen af de 100 TxGNN-forudsagte indikationer.
 
-#### Observational Studies
+#### Observatoriske studier
 
-- Limited case reports and small series exploring acipimox in metabolic contexts beyond hyperlipidaemia (insulin resistance, lipodystrophy), but none addressing the KG-predicted rare disease indications.
+- Begrænsede caserapporter og små serier, der udforsker acipimox i metaboliske kontekster ud over hyperlipidemier (insulinresistens, lipodystrofi), men ingen som omhandler KG-forudsagte sjældne sygdomsindikationer.
 
-### 3.4 Mechanistic Plausibility Assessment
+### 3.4 Mekanistisk plausibilitetsvurdering
 
-| Predicted Indication (Top-Ranked) | HCA2/Lipid Pathway Relevance | Plausibility |
-|-----------------------------------|------------------------------|-------------|
-| Osteogenesis imperfecta | HCA2 expressed in osteoblasts; niacin class may modulate bone metabolism via prostaglandin pathways | Low–Moderate |
-| Hereditary deafness (multiple subtypes) | No established mechanistic link between lipid-lowering/HCA2 agonism and cochlear function | Low |
-| Congenital stationary night blindness | No established mechanistic link | Low |
-| GM1 gangliosidosis | Lysosomal storage disorder; no clear connection to acipimox MOA | Very Low |
-| Portal hypertension, noncirrhotic | Potential FFA/metabolic link; speculative | Low |
+| Forudsagt indikation (højeste placeret) | HCA2/Lipid-vej-relevans | Plausibilitet |
+|---------------------------------------|------------------------|--------------|
+| Osteogenesis imperfecta | HCA2 udtrykt i osteoblaster; nicinklasse kan modulere knoglemetabolisme via prostaglandin-veje | Lav–Moderat |
+| Arvelig døvhed (multiple undertyper) | Ingen etableret mekanistisk link mellem lipidnedsættelse/HCA2-agonisme og cochlear-funktion | Lav |
+| Medføldt stationær natteblindhed | Ingen etableret mekanistisk link | Lav |
+| GM1-gangliosidose | Lysosomalt lagringssygdom; ingen klar forbindelse til acipimox-MOA | Meget lav |
+| Portål hypertension, ikke-cirrotisk | Potentielt FFA/metabolisk link; spekulativ | Lav |
 
-**Assessment:** The majority of top-ranked KG predictions lack clear mechanistic rationale connecting acipimox's known pharmacology (HCA2 agonism, FFA reduction, lipid-lowering) to the predicted disease targets. This is a significant limitation at the L5 evidence stage.
-
----
-
-## 4. Safety Considerations
-
-> ⚠️ **Data Gap (DG001 — Blocking):** Local label warnings and contraindications not available in the evidence pack. The below is compiled from established pharmacological references and European SmPC data.
-
-### 4.1 Known Adverse Effects
-
-| Category | Adverse Effects | Frequency |
-|----------|----------------|-----------|
-| **Very Common (≥10%)** | Cutaneous flushing and warmth (significantly less than with niacin) | ~15–20% |
-| **Common (1–10%)** | Headache, gastrointestinal disturbances (nausea, dyspepsia, diarrhoea, abdominal pain), pruritus, rash, urticaria | |
-| **Uncommon (0.1–1%)** | Myalgia, malaise, dizziness | |
-| **Rare (<0.1%)** | Hepatotoxicity (transaminase elevation), anaphylactoid reactions | |
-
-**Post-marketing signals:** No major post-marketing safety signals beyond the known class effects of nicotinic acid derivatives.
-
-### 4.2 Drug Interactions
-
-| Interacting Agent | Effect | Clinical Significance |
-|-------------------|--------|----------------------|
-| **Statins (HMG-CoA reductase inhibitors)** | Potential additive risk of myopathy/rhabdomyolysis | Moderate — monitor for muscle symptoms |
-| **Antihypertensives** | Additive vasodilatory effects (flushing); potential hypotension | Low–Moderate |
-| **Anticoagulants (warfarin)** | Theoretical displacement from protein binding (low clinical relevance given low acipimox binding) | Low |
-| **Aspirin / NSAIDs** | Pre-treatment with aspirin may reduce flushing via prostaglandin pathway blockade | Beneficial interaction |
-| **Bile acid sequestrants** | May reduce acipimox absorption if co-administered | Low — separate dosing by 4 hours |
-
-> **Note:** DDI query in the evidence pack returned **not_found** (0 interactions). This data gap should be addressed.
-
-### 4.3 Contraindications
-
-- **Active peptic ulcer disease** (risk of GI exacerbation)
-- **Severe renal impairment** (CrCl < 30 mL/min) — drug accumulation due to renal elimination
-- **Pregnancy and lactation** (insufficient safety data)
-- **Hypersensitivity** to acipimox or any excipient
-- **Acute haemorrhage** (theoretical, class-related)
-
-### 4.4 Special Populations
-
-| Population | Consideration |
-|------------|---------------|
-| **Renal impairment** | Dose reduction required; contraindicated if CrCl < 30 mL/min |
-| **Hepatic impairment** | Use with caution; monitor LFTs |
-| **Elderly** | Dose adjustment based on renal function |
-| **Paediatric** | No established dosing; not studied in children |
-| **Diabetic patients** | May affect glycaemic control (monitor blood glucose); potential beneficial effect on insulin sensitivity (acute) vs. FFA rebound (chronic) |
+**Vurdering:** Størstedelen af de højest placerede KG-forudsigelser mangler klar mekanistisk begrundelse, der forbinder acipimox' kendt farmakologi (HCA2-agonisme, FFA-reduktion, lipidnedsættelse) til de forudsagte sygdomsmål. Dette er en betydelig begrænsning på L5-bevisstadiet.
 
 ---
 
-## 5. Regulatory Status
+## 4. Sikkerhedshensyn
 
-### 5.1 Denmark — Lægemiddelstyrelsen
+> ⚠️ **Datahul (DG001 — Bloker):** Lokale etiketeadvarsler og kontraindikationer ikke tilgængelige i bevisydelsen. Følgende er samlet fra etablerede farmakologiske referencer og europæiske SmPC-data.
 
-| Item | Status |
-|------|--------|
-| **Marketing Authorisation** | **To be confirmed** — Olbetam® was historically authorised in select European markets. Current availability in Denmark should be verified with Lægemiddelstyrelsen product database (produktresumé.dk / laegemiddelstyrelsen.dk). |
-| **ATC Code** | C10AD02 (Lipid Modifying Agents, Nicotinic Acid and Derivatives) |
-| **Prescription Status** | Prescription-only medicine (Rx) where authorised |
-| **Reimbursement** | To be confirmed with Danish Medicines Council (Medicinrådet) |
+### 4.1 Kendte bivirkninger
 
-### 5.2 EMA (European Medicines Agency)
+| Kategori | Bivirkninger | Hyppighed |
+|----------|-------------|-----------|
+| **Meget hyppig (≥10%)** | Hudhudrødme og varme (væsentligt mindre end med niacin) | ~15–20% |
+| **Hyppig (1–10%)** | Hovedpine, gastrointestinale forstyrrelser (kvalme, dyspepsi, diarré, mavesmerter), pruritus, udslæt, nældefeber | |
+| **Ualmindelig (0,1–1%)** | Myalgi, utilpashed, svimmelhed | |
+| **Sjælden (<0,1%)** | Hepatotoxicitet (transaminase-stigning), anafylaktoide reaktioner | |
 
-| Item | Status |
-|------|--------|
-| **Centralised Authorisation** | **Not centrally authorised** — Acipimox/Olbetam was authorised via national procedures in individual EU member states |
-| **Referral / Safety Review** | No current EMA safety referral identified |
-| **Market Availability (EU)** | Historically available in Italy (originator market), UK, and select other EU states; availability has been declining |
+**Post-marketing-signaler:** Ingen større post-marketing sikkerhedssignaler ud over de kendte klassevirkninger af nicotinklasse-derivater.
 
-### 5.3 FDA (United States)
+### 4.2 Lægemiddel-interaktioner
 
-| Item | Status |
-|------|--------|
-| **NDA / ANDA** | **Not approved** — Acipimox has never received FDA marketing approval |
-| **IND Status** | Used in investigator-initiated research studies under IND |
-| **Orphan Drug Designation** | None for any indication |
+| Interagerende agent | Virkning | Klinisk signifikans |
+|-------------------|--------|-------------------|
+| **Statiner (HMG-CoA-reductase-hæmmere)** | Potentiel additiv risiko for myopati/rabdomyolyse | Moderat — overvåg for muskelSymptomer |
+| **Antihypertensiver** | Additiv vasodilatatoriske virkninger (hudrødme); potentiel hypotension | Lav–Moderat |
+| **Antikoagulantia (warfarin)** | Teoretisk fortrængning fra proteinbinding (lav klinisk relevans givet lav acipimox-binding) | Lav |
+| **Aspirin / NSAIDs** | Forkestelse med aspirin kan reducere hudrødme via prostaglandin-vej-blokering | Gavnlig interaktion |
+| **Galdesyre-sequestranter** | Kan reducere acipimox-absorption, hvis co-administreret | Lav — adskil dosering med 4 timer |
 
-### 5.4 Other Jurisdictions
+> **Bemærk:** DDI-forespørgsel i bevisydelsen returnerede **not_found** (0 interaktioner). Dette datahul bør behandles.
 
-| Jurisdiction | Status |
+### 4.3 Kontraindikationer
+
+- **Aktiv mavesår** (risiko for GI-forværring)
+- **Alvorlig nyreinsufficiens** (CrCl < 30 mL/min) — lægemiddelophobning på grund af renal elimination
+- **Graviditet og amning** (utilstrækkelige sikkerhedsdata)
+- **Overfølsomhed** over for acipimox eller nogen hjælpestof
+- **Akut blødning** (teoretisk, klasserelateret)
+
+### 4.4 Særlige populationer
+
+| Population | Hensyn |
+|-----------|--------|
+| **Nyreinsufficiens** | Doseringsjustering påkrævet; kontraindikeret hvis CrCl < 30 mL/min |
+| **Hepatisk insufficiens** | Brug med forsigtighed; overvåg leverprøver |
+| **Ældre** | Doseringsjustering baseret på nyrenfunktion |
+| **Pædiatrisk** | Ingen etableret dosering; ikke studeret hos børn |
+| **Diabetiske patienter** | Kan påvirke glykæmisk kontrol (overvåg blodglukose); potentiel gavnlig virkning på insulinfølsomhed (akut) vs. FFA-rebound (kronisk) |
+
+---
+
+## 5. Regulatorisk status
+
+### 5.1 Danmark — Lægemiddelstyrelsen
+
+| Punkt | Status |
+|-------|--------|
+| **Markedsautorisation** | **Skal bekræftes** — Olbetam® var historisk autoriseret på udvalgte europæiske markeder. Nuværende tilgængelighed i Danmark skal verificeres med Lægemiddelstyrelses produktdatabase (produktresumé.dk / laegemiddelstyrelsen.dk). |
+| **ATC-kode** | C10AD02 (Lipidmodificerende midler, nicotinsyre og derivater) |
+| **Receptpligtsstatus** | Receptpligtigt lægemiddel (Rx) hvor autoriseret |
+| **Refusering** | Skal bekræftes med Dansk Medicinerråd (Medicinrådet) |
+
+### 5.2 EMA (Europæiske Lægemiddel-Agentur)
+
+| Punkt | Status |
+|-------|--------|
+| **Centraliseret autorisation** | **Ikke centralt autoriseret** — Acipimox/Olbetam blev autoriseret via nationale procedurer i enkelte EU-medlemsstater |
+| **Henvisning / sikkerhedsvurdering** | Ingen aktuel EMA-sikkerhedshenvisning identificeret |
+| **Markedstilgængelighed (EU)** | Historisk tilgængelig i Italien (originalt marked), Storbritannien og udvalgte andre EU-stater; tilgængelighed er på tilbagegang |
+
+### 5.3 FDA (United States Food and Drug Administration)
+
+| Punkt | Status |
+|-------|--------|
+| **NDA / ANDA** | **Ikke godkendt** — Acipimox har aldrig modtaget FDA-markedsautorisation |
+| **IND-status** | Brugt i efterforskerinitiaterede forskningsstudier under IND |
+| **Orphan Drug-betegnelse** | Ingen for nogen indikation |
+
+### 5.4 Andre jurisdiktioner
+
+| Jurisdiktion | Status |
 |-------------|--------|
-| **Taiwan (TFDA)** | Not marketed (0 licences, per evidence pack) |
-| **Japan (PMDA)** | Not approved |
-| **United Kingdom (MHRA)** | Historically authorised; Olbetam discontinued in UK market |
+| **Taiwan (TFDA)** | Ikke markedsført (0 licenser, pr. bevisydelse) |
+| **Japan (PMDA)** | Ikke godkendt |
+| **Storbritannien (MHRA)** | Historisk autoriseret; Olbetam diskontinueret på UK-marked |
 
 ---
 
-## 6. Conclusion and Recommendations
+## 6. Konklusioner og anbefalinger
 
-### 6.1 Overall Assessment
+### 6.1 Samlet vurdering
 
-| Dimension | Assessment |
+| Dimension | Vurdering |
 |-----------|-----------|
-| **Evidence Level** | **L5** — Computational prediction only |
-| **Prediction Quality** | 100 KG-predicted indications; predominantly rare genetic disorders |
-| **Mechanistic Plausibility** | **Low** for most top-ranked predictions; the known HCA2-agonist/lipid-lowering mechanism does not have an established connection to the predicted disease targets |
-| **Clinical Evidence** | **None** for any predicted repurposing indication |
-| **Safety Profile** | Well-characterised; generally favourable compared to niacin; short half-life is advantageous for safety |
-| **Regulatory Feasibility** | Limited — declining market availability in Europe; not available in major markets (US, Taiwan, Japan) |
+| **Bevisniveau** | **L5** — Kun computerisk forudsigelse |
+| **Forudsigelseskvalitet** | 100 KG-forudsagte indikationer; overvejende sjældne genetiske lidelser |
+| **Mekanistisk plausibilitet** | **Lav** for de fleste højest placerede forudsigelser; den kendte HCA2-agonist/lipidnedsættelsesmekanisme har ikke en etableret forbindelse til de forudsagte sygdomsmål |
+| **Klinisk bevis** | **Ingen** for nogen forudsagt omformålingsindikation |
+| **Sikkerhedsprofil** | Velkarakteriseret; generelt gunstigt sammenlignet med niacin; kort halveringstid er fordelagtig for sikkerhed |
+| **Regulatorisk gennemførlighed** | Begrænset — faldende markedstilgængelighed i Europa; ikke tilgængelig på større markeder (USA, Taiwan, Japan) |
 
-### 6.2 Evidence Gaps
+### 6.2 Bevishuller
 
-| Gap ID | Item | Severity | Status | Recommended Action |
-|--------|------|----------|--------|--------------------|
-| DG001 | Local label warnings / contraindications | **Blocking** | Open | Obtain Danish/EU SmPC for Olbetam; if unavailable locally, use Italian originator SmPC as reference |
-| DG002 | Mechanism of action (structured) | High | Partially addressed in this report | Populate structured MOA from DrugBank API; this report provides narrative MOA |
-| DG003 | Drug–drug interactions | Moderate | Open (query returned 0) | Re-query DrugBank DDI endpoint; supplement with EU SmPC Section 4.5 |
-| DG004 | TxGNN score values | Moderate | Missing from drug list | Verify KG prediction pipeline output for numeric scores to enable ranking |
-| DG005 | Current Danish market availability | Moderate | Uncertain | Query Lægemiddelstyrelsen product database directly |
+| Hul-ID | Punkt | Sværhedsgrad | Status | Anbefalet handling |
+|--------|--------|----------|--------|-------------------|
+| DG001 | Lokale etiketadvarsler / kontraindikationer | **Bloker** | Åben | Indhent dansk/EU SmPC for Olbetam; hvis ikke tilgængelig lokalt, brug italiensk originator-SmPC som reference |
+| DG002 | Virkningsmekanisme (struktureret) | Høj | Delvis adresseret i denne rapport | Udfyld struktureret MOA fra DrugBank API; denne rapport giver narrativ MOA |
+| DG003 | Lægemiddel-lægemiddel-interaktioner | Moderat | Åben (forespørgsel returnerede 0) | Genstil DrugBank DDI-endpoint forespørgsel; supplér med EU SmPC Section 4.5 |
+| DG004 | TxGNN-scoreværdier | Moderat | Manglende fra lægemiddelliste | Bekræft KG-forudsigelsespipeline-output for numeriske scores til at aktivere rangering |
+| DG005 | Nuværende dansk markedstilgængelighed | Moderat | Usikker | Forespørg Lægemiddelstyrelses produktdatabase direkte |
 
-### 6.3 Suggested Next Steps
+### 6.3 Foreslåede næste trin
 
-#### Immediate (Pre-S1 Gate)
+#### Umiddelbar (Pre-S1-port)
 
-1. **Resolve Blocking Data Gap (DG001):** Obtain the Summary of Product Characteristics (SmPC / produktresumé) for Olbetam from the Lægemiddelstyrelsen or EMA product database. If no Danish SmPC exists, use the Italian AIFA originator SmPC as the reference document.
+1. **Løs blokerande datahul (DG001):** Indhent produktresumé (SmPC / produktresumé) for Olbetam fra Lægemiddelstyrelsen eller EMA-produktdatabase. Hvis ingen dansk SmPC findes, brug italiensk AIFA-originalsSmPC som referencedokumentet.
 
-2. **Populate Structured MOA (DG002):** Query DrugBank API for DB09055 to obtain structured target, enzyme, and pathway data.
+2. **Udfyld struktureret MOA (DG002):** Forespørg DrugBank API for DB09055 for at indhente struktureret target-, enzym- og vejdata.
 
-3. **Verify Danish Market Status (DG005):** Confirm whether Olbetam holds an active marketing authorisation in Denmark, or if it has been withdrawn/not renewed.
+3. **Bekræft dansk markedsstatus (DG005):** Bekræft, hvorvidt Olbetam har en aktiv markedsautorisation i Danmark, eller om den er blevet trukket tilbage/ikke fornyet.
 
-#### Short-term (Post-S1)
+#### Kort sigt (Post-S1)
 
-4. **Mechanistic Plausibility Deep Dive:** For the top 5 predicted indications, conduct a structured literature review connecting:
-   - HCA2 receptor expression in relevant tissues (bone, cochlear, CNS)
-   - Known downstream pathways (cAMP, prostaglandin, anti-inflammatory)
-   - Any preclinical evidence in disease models
+4. **Mekanistisk plausibilitet-dybdegravning:** For de 5 vigtigste forudsagte indikationer, gennemfør et struktureret litteraturgennemgang, der forbinder:
+   - HCA2-receptorekspretion i relevante væv (knogel, cochlear, CNS)
+   - Kendte efterfølgende veje (cAMP, prostaglandin, antiinflammatorisk)
+   - Eventuelle præ-kliniske beviser i sygdomsmodeller
 
-5. **Prioritise Predictions with Existing Unmet Need:** Cross-reference the 100 predictions against:
-   - Orphan disease designations (EMA/FDA)
-   - Diseases with no currently approved therapy
-   - Patient population sizes in Denmark
+5. **Prioritér forudsigelser med eksisterende uopfyldt behov:** Krydsreferencer de 100 forudsigelser mod:
+   - Orphan disease-betegnelser (EMA/FDA)
+   - Sygdomme uden for øjeblikket godkendt terapi
+   - Patientpopulationsstørrelser i Danmark
 
-#### Medium-term (If Plausibility Confirmed)
+#### Mellemlang sigt (Hvis plausibilitet bekræftes)
 
-6. **Preclinical Validation:** For any indication with mechanistic plausibility ≥ Moderate, consider *in vitro* studies in relevant disease models before clinical investigation.
+6. **Præ-klinisk validering:** For nogen indikation med mekanistisk plausibilitet ≥ Moderat, overvej *in vitro*-studier i relevante sygdomsmodeller før klinisk forskning.
 
-7. **Explore Insulin Resistance / Metabolic Indications:** Given the existing (albeit limited) clinical evidence for acipimox in insulin resistance and lipodystrophy, these may represent more tractable repurposing opportunities than the rare genetic disorders predicted by the KG model, even though they were not surfaced in the current TxGNN run.
+7. **Udforskelk insulinresistens / metaboliske indikationer:** Givet de eksisterende (omend begrænsede) kliniske beviser for acipimox i insulinresistens og lipodystrofi, kan disse repræsentere mere håndterbare omformålsmuligheder end de sjældne genetiske lidelser forudsagt af KG-modellen, selvom de ikke blev overfladeret i den nuværende TxGNN-kørsel.
 
 ---
 
-## Appendix A: Data Provenance
+## Appendiks A: Data-provenance
 
-| Data Source | Query Date | Status | Records |
-|-------------|-----------|--------|---------|
-| DrugBank (DB09055) | 2026-03-26 | Success | 1 |
-| DDI Database | 2026-03-26 | Not found | 0 |
-| TxGNN KG Prediction | 2026-03-09 | Complete | 100 indications |
-| TFDA License Database | 2026-03-26 | Not marketed | 0 |
+| Datakilde | Forespørgselsdato | Status | Poster |
+|-----------|------------------|--------|--------|
+| DrugBank (DB09055) | 2026-03-26 | Succes | 1 |
+| DDI-database | 2026-03-26 | Ikke fundet | 0 |
+| TxGNN KG-forudsigelse | 2026-03-09 | Komplet | 100 indikationer |
+| TFDA-licensdatabase | 2026-03-26 | Ikke markedsført | 0 |
 
-## Appendix B: FHIR Resource
+## Appendiks B: FHIR-ressource
 
-A FHIR R4 `MedicationKnowledge` resource for Acipimox is available at:
+En FHIR R4 `MedicationKnowledge`-ressource for Acipimox er tilgængelig på:
 ```
 /fhir/MedicationKnowledge/DB09055.json
 ```
-Jurisdiction: Denmark (DK) | Status: Active | Display Name: Olbetam
+Jurisdiktion: Danmark (DK) | Status: Aktiv | Visningsnavn: Olbetam
 
 ---
 
-## Disclaimer
+## Ansvarsfraskrivelse
 
-> **This report is generated for research purposes only and does not constitute medical advice.** All drug repurposing candidates identified through computational prediction (TxGNN) require rigorous **clinical validation** before any therapeutic application. Healthcare professionals should be consulted for all treatment decisions. Predictions at Evidence Level L5 represent computational hypotheses that have not been tested in clinical settings.
+> **Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning.** Alle lægemiddel-omformålskandidater identificeret gennem computerisk forudsigelse (TxGNN) kræver grundig **klinisk validering** før nogen terapeutisk anvendelse. Sundhedsfagpersoner bør konsulteres for alle behandlingsbeslutninger. Forudsigelser på bevisniveau L5 repræsenterer computeriske hypoteser, som ikke er blevet testet i kliniske miljøer.
 >
-> **YMYL Notice (Your Money or Your Life):** This document discusses pharmaceutical agents and disease conditions. The information is intended for qualified researchers and healthcare professionals within the Danish Medicines Agency regulatory context. It should not be used for self-diagnosis or self-treatment.
+> **YMYL-bemærk (Din penge eller dit liv):** Dette dokument diskuterer farmaceutiske agenturer og sygdomstilstande. Oplysningerne er beregnet til kvalificerede forskere og sundhedsfagpersoner inden for dansk medicinerauths regulatorisk kontekst. Det bør ikke bruges til selvdiagnose eller selvbehandling.
 
 ---
 
-*Report generated by DkTxGNN Evidence Pipeline v4 — 2026-04-03*
+*Rapport genereret af DkTxGNN Evidence Pipeline v4 — 2026-04-03*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

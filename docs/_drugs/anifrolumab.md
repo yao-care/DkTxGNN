@@ -29,85 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anifrolumab: From Systemic Lupus Erythematosus to Diabetic Cataract
+# Anifrolumab: Fra systemisk lupus erythematosus til diabetisk stær
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Anifrolumab (Saphnelo) is a human monoclonal antibody targeting the type I interferon receptor subunit 1 (IFNAR1), approved internationally for moderate-to-severe systemic lupus erythematosus (SLE) in adult patients receiving standard therapy.
-The TxGNN model predicts it may be effective for **Diabetic Cataract** with a prediction score of 98.50%; however, there are **0 clinical trials** and **0 publications** currently supporting this direction, and the mechanistic analysis embedded in the evidence pack raises serious concerns about the validity of this prediction.
+Anifrolumab (Saphnelo) er et fuldt humaniseret monoklonalt antistof, der retter sig mod type I interferon-receptorens underenhed 1 (IFNAR1), godkendt internationalt til moderat til svær systemisk lupus erythematosus (SLE) hos voksne patienter, der modtager standardbehandling.
+TxGNN-modellen forudsiger, at det kan være effektivt til **diabetisk stær** med en forudsigelsesscore på 98.50%; der er imidlertid **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning, og den mekanistiske analyse i evidenspakken rejser alvorlige bekymringer om validiteten af denne forudsigelse.
 
-> ⚠️ **Research Use Only.** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application.
+> ⚠️ **Kun til forskningsmæssig brug.** Denne rapport er kun til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Kandidater til genbrug af lægemidler kræver klinisk validering før eventuel anvendelse.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Moderate-to-severe active systemic lupus erythematosus (SLE) in adults [international approval; not registered in Denmark] |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.50% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Oprindelig indikation | Moderat til svær aktiv systemisk lupus erythematosus (SLE) hos voksne [international godkendelse; ikke registreret i Danmark] |
+| Forudsagt ny indikation | Diabetisk stær |
+| TxGNN-forudsigelsesscore | 98.50% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data was not available in this evidence pack. Based on publicly known information, Anifrolumab is a fully human IgG1κ monoclonal antibody that binds to subunit 1 of the type I interferon receptor (IFNAR1), blocking the signalling of all type I interferons (IFN-α, IFN-β, IFN-ω). An elevated "interferon signature" — upregulated expression of IFN-stimulated genes — is observed in the majority of SLE patients and drives systemic inflammation, end-organ damage, and disease flares. By blocking IFNAR1, Anifrolumab suppresses downstream JAK/STAT-mediated IFN-stimulated gene expression and attenuates this pathological immune activation.
+Detaljerede data om virkningsmekanisme var ikke tilgængelige i denne evidenspakke. Baseret på offentligt tilgængelig information er anifrolumab et fuldt humaniseret IgG1κ monoklonalt antistof, der binder til underenhed 1 af type I interferon-receptoren (IFNAR1) og blokerer signalering fra alle type I interferonerα, IFN-β, IFN-ω). En forhøjet "interferonsignatur" – opreguleret udtrykkelse af interferon-stimulerede gener – observeres hos størstedelen af SLE-patienter og driver systemisk inflammation, organskade og sygdomsudbrud. Ved at blokere IFNAR1 undertrykker anifrolumab downstreamJAK/STAT-medieret interferon-stimuleret genekspression og dæmper denne patologiske immunaktivering.
 
-Diabetic cataract, the top-ranked predicted indication, is driven primarily by hyperglycaemia-induced activation of the aldose reductase (polyol) pathway, osmotic stress from sorbitol accumulation, advanced glycation end-product (AGE) formation, and oxidative damage to lens crystallins. These mechanisms are fundamentally distinct from type I IFN signalling. While there is emerging research exploring a role for IFN-α in promoting islet inflammation in type 2 diabetes, the causal chain from IFNAR1 blockade to prevention or treatment of lens opacification lacks any direct pathophysiological, preclinical, or clinical support.
+Diabetisk stær, den højestrangerede forudsagte indikation, drives primært af hyperglykæmi-induceret aktivering af aldosereduktase (polyolvejen), osmotisk stress fra sorbitolophobning, dannelse af avancerede glykeringsendeprodukter (AGE) og oxidativ skade på linseproteiner. Disse mekanismer adskiller sig fundamentalt fra type I interferon-signalering. Selvom der er nye forskningstudier, der udforsker en rolle for IFN-α i at fremme betændelse på øer ved type 2-diabetes, mangler årsagssammenæhæng fra IFNAR1-blokering til forebyggelse eller behandling af linseopalisering enhver direkte patofysiologisk, præ-klinisk eller klinisk understøttelse.
 
-A critical finding in this evidence pack is that **all 10 top-ranked predictions are variants of cataract** (diabetic, tetanic, mature, immature, craniostenosis-associated, and T2DM-associated). This tight cluster pattern strongly suggests a **knowledge graph topology artefact** — the TxGNN model appears to have assigned high scores based on graph neighbourhood proximity among ophthalmological disease nodes rather than genuine biological plausibility. Several of the predicted conditions (tetanic cataract caused by hypocalcaemia, craniostenosis-associated cataract driven by FGFR mutations) have no conceivable immunological mechanism and are explicitly flagged as model misclassifications in the evidence pack rationale. Healthcare professionals should interpret these high TxGNN scores with considerable caution.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Et kritisk fund i denne evidenspakke er, at **alle 10 toprangerede forudsigelser er stærvarianter** (diabetisk, tetanisk, moden, umoden, kraniostenose-associeret og T2DM-associeret). Dette tætte klyngermønster tyder stærkt på en **topologiartefakt i vidensgrafen** – TxGNN-modellen ser ud til at have tildelt høje scorer baseret på grafnabo-proximitet blandt oftalmologiske sygdomsknuder snarere end ægte biologisk plausibilitet. Flere af de forudsagte tilstande (tetanisk stær forvoldt af hypokalcæmi, kraniostenose-associeret stær drevet af FGFR-mutationer) har ingen tænkelig immunologisk mekanisme og er eksplicit markeret som modelfejklassifikationer i evidenspakkens begrundelse. Sundhedspersonalet bør fortolke disse høje TxGNN-scorer med betydelig forsigtighed.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Anifrolumab is not currently registered or marketed in Denmark. There are no active marketing authorisations granted by the Danish Medicines Agency (Laegemiddelstyrelsen) or via the centralised EMA procedure for this drug in the Danish market at the time of this report (data cut-off: 2026-04-04).
-
-For contextual reference: Anifrolumab (Saphnelo, AstraZeneca) received EMA centralised marketing authorisation within the European Union in February 2023 for the treatment of moderate-to-severe active systemic lupus erythematosus in adult patients who are receiving standard therapy. Danish clinicians seeking access may explore named-patient or compassionate use pathways through Laegemiddelstyrelsen. Current EMA authorisation status should be verified at the time of use via the EMA product page.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Full warning, contraindication, and drug interaction data were not available in this evidence pack and should be retrieved from the EMA-approved Saphnelo SmPC prior to any clinical consideration.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-All 10 TxGNN-predicted indications for Anifrolumab are cataract subtypes, none have supporting clinical trials or peer-reviewed literature, and the mechanistic analysis in this evidence pack explicitly identifies these predictions as likely knowledge graph false positives with no plausible IFNAR1-to-lens biology linkage. This repurposing hypothesis does not warrant further development at this stage.
-
-**To proceed, the following would be needed:**
-
-- Identification of a biologically plausible mechanistic link between IFNAR1 blockade and cataractogenesis (e.g., a peer-reviewed preclinical study demonstrating type I IFN pathway involvement in lens opacification)
-- Re-evaluation of TxGNN model output for Anifrolumab using de-biased or re-weighted knowledge graph edges to rule out topology artefacts
-- Retrieval of full safety profile from the approved EMA SmPC, including key warnings, contraindications, and drug interaction data
-- If a credible mechanistic hypothesis emerges: a prospective feasibility assessment including route-of-administration compatibility (current approved route: intravenous infusion) and target patient population definition
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-*Report generated: 2026-04-04 | Evidence Pack: TW-DB11976-multi v4 | Data cut-off: 2026-04-04*
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
+## Markedsinformation for Danmark
+
+Anifrolumab er i øjeblikket ikke registreret eller markedsført i Danmark. Der foreligger ingen aktive markedsføringstilladelser udstedt af Lægemiddelstyrelsen eller via den centraliserede EMA-procedure for dette lægemiddel på det danske marked på tidspunktet for denne rapport (dataudklip: 2026-04-04).
+
+For kontekst skal det nævnes, at anifrolumab (Saphnelo, AstraZeneca) modtog EMA's centraliserede markedsføringstilladelse inden for Den Europæiske Union i februar 2023 til behandling af moderat til svær aktiv systemisk lupus erythematosus hos voksne patienter, der modtager standardbehandling. Danske klinikere, der søger adgang, kan udforske veje via patientnavn eller humanitær brug gennem Lægemiddelstyrelsen. Den aktuelle EMA-godkendelsesstatus bør verificeres på brugstidspunktet via EMA's produktside.
+
+---
+
+## Sikkerhedsmæssige hensyn
+
+Se venligst det godkendte Produktresumé (Produktinformation, SmPC) for sikkerhedsinformation. Fuldstændige advarsels-, kontraindikations- og lægemiddelinteraktionsdata var ikke tilgængelige i denne evidenspakke og bør hentet fra det EMA-godkendte Saphnelo-Produktresumé før eventuel klinisk overvejelse.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Alle 10 TxGNN-forudsagte indikationer for anifrolumab er stærvarianter, ingen har understøttende kliniske forsøg eller peer-review-litteratur, og den mekanistiske analyse i denne evidenspakke identificerer eksplicit disse forudsigelser som sandsynlige vidensgrafs falske positive uden nogen plausibel IFNAR1-til-linsebio logi-forbindelse. Denne genbrugshypotese berettiger ikke yderligere udvikling på nuværende tidspunkt.
+
+**For at kunne fortsætte ville følgende være nødvendigt:**
+
+- Identifikation af en biologisk plausibel mekanistisk forbindelse mellem IFNAR1-blokering og stærdannelse (f.eks. et peer-review præ-klinisk studie, der demonstrerer type I interferon-vejinvolvering i linseopalisering)
+- Genevaluering af TxGNN-modeludstik for anifrolumab ved hjælp af debiaserede eller omvægtede vidensgrafskan for at udelukke topologiartefakter
+- Indhentelse af fuldstændig sikkerhedsprofil fra det EMA-godkendte Produktresumé, herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata
+- Hvis en troværdig mekanistisk hypotese dukker op: en prospektiv gennemførlighedsvurdering, herunder kompatibilitet med administrationsrute (godkendt rute: intravenøs infusion) og definition af målpatientpopulation
+
+---
+
+*Rapport genereret: 2026-04-04 | Evidenspakke: TW-DB11976-multi v4 | Dataudklip: 2026-04-04*
+*Denne rapport er kun til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Genbrugskandidater kræver klinisk validering før anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

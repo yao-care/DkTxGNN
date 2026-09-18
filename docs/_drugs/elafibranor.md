@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Elafibranor: From Metabolic Liver Disease to Amenorrhea
+# Elafibranor: Fra metabolisk leversygdom til amenoré
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Elafibranor is a dual PPARα/δ agonist investigated primarily for metabolic liver diseases, including Non-Alcoholic Steatohepatitis (NASH) and Primary Biliary Cholangitis (PBC), but currently holds no marketing authorisation in Denmark.
-The TxGNN model predicts it may be effective for **Amenorrhea** (highest-ranked prediction, score 99.86%), yet **no clinical trials** and **no publications** were identified to support this specific repurposing direction.
-All five predicted indications are at evidence level **L5 — model prediction only** — and the overall recommendation is **Hold** pending fundamental mechanistic and safety data.
+Elafibranor er en dual PPARα/δ-agonist, som undersøges primært for metaboliske leversygdomme, herunder Non-Alcoholic Steatohepatitis (NASH) og Primary Biliary Cholangitis (PBC), men har i øjeblikket ingen markedsføringsgodkendelse i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Amenoré** (højest rangeret forudsigelse, score 99.86%), men der blev identificeret **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne specifikke omplaceringsretning.
+Alle fem forudsagte indikationer er på evidensniveau **L5 — modelforudsigelse alene** — og den overordnede anbefaling er **Hold** afventende grundlæggende mekanistiske og sikkerhedsdata.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Post | Indhold |
 |------|---------|
-| Original Indication | No approved indication in Denmark; investigated for NASH and Primary Biliary Cholangitis |
-| Predicted New Indication | Amenorrhea (rank 1) |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 — model prediction only; no clinical trials or publications found |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Original indikation | Ingen godkendt indikation i Danmark; undersøgt for NASH og Primary Biliary Cholangitis |
+| Forudsagt ny indikation | Amenoré (rang 1) |
+| TxGNN-forudsigelsesscore | 99.86% |
+| Evidensniveau | L5 — modelforudsigelse alene; ingen kliniske forsøg eller publikationer fundet |
+| Danmark-markedsstatus | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | **Hold** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Elafibranor is a dual PPARα/δ (peroxisome proliferator-activated receptor alpha/delta) agonist. Its investigational efficacy has been studied in the context of hepatic metabolic disease — specifically NASH and PBC — where it modulates fatty acid β-oxidation, lipid metabolism, and hepatic inflammation.
+I øjeblikket er detaljerede mekanismedata ikke tilgængelige i denne Evidence Pack. Baseret på kendt information er elafibranor en dual PPARα/δ (peroxisome proliferator-activated receptor alfa/delta) agonist. Dens undersøgte efficacy er blevet studeret i sammenhæng med hepatisk metabolisk sygdom — specifikt NASH og PBC — hvor den modulerer fedtsyres β-oxidation, lipidmetabolisme og hepatisk inflammation.
 
-The proposed mechanistic link to amenorrhea rests on the hypothesis that PPARα/δ-driven enhancement of energy substrate utilisation may indirectly influence hypothalamic GnRH pulsatile secretion. This pathway is conceptually relevant to **functional hypothalamic amenorrhea** triggered by negative energy balance (e.g., exercise-induced or nutrition-deficit amenorrhea). However, this reasoning is largely extrapolated from PPARγ research; there is currently **no published evidence** that PPARα or PPARδ agonism directly modulates the hypothalamic-pituitary-ovarian (HPO) axis.
+Det foreslåede mekanistiske link til amenoré baserer sig på hypotesen om, at PPARα/δ-drevet forbedring af energisubstratudbygning kan indirekte påvirke hypotalamisk GnRH-pulsatil sekretion. Denne vej er konceptuelt relevant for **funktionel hypotalamisk amenoré** udløst af negativt energibalance (f.eks. træningsudløst eller ernærings-deficit-amenoré). Imidlertid er denne ræsonnering stort set ekstrapoleret fra PPARγ-forskning; der er i øjeblikket **ingen publiceret evidens** for, at PPARα eller PPARδ-agonisme direkte modulerer aksen hypotalamus-hypofyse-ovarier (HPO).
 
-The internal mechanistic relevance rating for this pairing is extremely weak (2/10). It is therefore likely that the high TxGNN score reflects shared structural topology in the biomedical knowledge graph rather than a meaningful biological signal. This finding is consistent across all five predicted indications, none of which have confirmatory clinical or preclinical literature support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Elafibranor in amenorrhea.
+Den interne mekanistiske relevanskarakterisering for denne parring er ekstremt svag (2/10). Det er derfor sandsynligt, at den høje TxGNN-score afspejler delt strukturel topologi i det biovidenskabelige vidensdiagram snarere end et meningsfuldt biologisk signal. Dette fund er konsistent på tværs af alle fem forudsagte indikationer, hvoraf ingen har bekræftende klinisk eller præ-klinisk litteraturunderstøttelse.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsevidence
 
-Currently no related literature available for Elafibranor in amenorrhea.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret for elafibranor inden for amenoré.
 
 ---
 
-## Denmark Market Information
+## Litteraturevidence
 
-Elafibranor currently holds **no marketing authorisations** in Denmark. The drug is not registered with the Danish Medicines Agency (Laegemiddelstyrelsen) and is not available on the Danish market in any dosage form or indication.
+I øjeblikket er der ingen relateret litteratur tilgængelig for elafibranor inden for amenoré.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+---
+
+## Danmark-markedsinformation
+
+Elafibranor har i øjeblikket **ingen markedsføringsgodkendelser** i Danmark. Lægemidlet er ikke registreret hos Lægemiddelstyrelsen og er ikke tilgængeligt på det danske marked i nogen doseringsform eller indikation.
+
+| Markedsføringsgodkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |-------------------------------|-------------|-------------|---------------------|
-| — | — | — | No authorisation on record |
+| — | — | — | Ingen godkendelse på protokol |
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Drug interaction data, key warnings, and contraindications were not retrievable at the time of this assessment.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-All five TxGNN-predicted indications for Elafibranor — amenorrhea, non-syndromic esophageal malformation, bone Paget disease, dentinogenesis imperfecta, and squamous cell carcinoma — are at evidence level L5, supported by model prediction alone and no confirmatory clinical trials or published literature. Mechanistic relevance ranges from extremely weak (amenorrhea, 2/10) to absent (non-syndromic esophageal malformation and dentinogenesis imperfecta, 0/10), and one prediction (squamous cell carcinoma) carries an active **safety concern**: PPARδ agonism is associated with pro-tumorigenic effects in squamous epithelia, making Elafibranor potentially contraindicated rather than therapeutic in that setting. The drug is also not currently authorised in Denmark, meaning the regulatory pathway would require initiation from scratch.
-
-**To proceed, the following is needed:**
-
-- **SmPC and safety data**: Retrieve the full Summary of Product Characteristics (including warnings, contraindications, and interactions) from the EMA product page or the originating company, to enable a proper safety screening (Stage S1)
-- **MOA confirmation**: Obtain complete PPARα/δ agonism profile from DrugBank or primary pharmacology literature, including tissue-specific receptor activity and any known endocrine effects
-- **Preclinical literature review**: Conduct a targeted search (PubMed, Embase) specifically for PPARα/δ agonists and reproductive endocrinology or hypothalamic function to assess whether any biological basis for the amenorrhea prediction exists before proceeding
-- **Indication prioritisation review**: Given that the top-ranked indication has a 2/10 mechanistic score, consider whether a different therapeutic area (e.g., bone metabolism via PPARδ, rated 4/10) represents a stronger starting point for further investigation
-- **Regulatory landscape mapping**: Clarify Elafibranor's current global approval status (including EMA centralised procedure for PBC) and determine whether any existing authorisation could support a label extension pathway within the EU/Denmark
+Se venligst den godkendte Resumé af produktkarakteristika (SmPC) for sikkerhedsinformation. Lægemiddelinteraktionsdata, vigtige advarsler og kontraindikationer kunne ikke indhentes på tidspunktet for denne vurdering.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application.*
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Alle fem TxGNN-forudsagte indikationer for elafibranor — amenoré, non-syndromisk spiserørsmalformation, knogles Pagets sygdom, dentinogenesis imperfecta og pladecellekarcinom — er på evidensniveau L5, understøttet af modelforudsigelse alene og ingen bekræftende kliniske forsøg eller publiceret litteratur. Mekanistisk relevans spænder fra ekstremt svag (amenoré, 2/10) til fraværende (non-syndromisk spiserørsmalformation og dentinogenesis imperfecta, 0/10), og en forudsigelse (pladecellekarcinom) medfører en aktiv **sikkerhedsbekymring**: PPARδ-agonisme er associeret med pro-tumorigene effekter i pladecelleepitelier, hvilket gør elafibranor potentielt kontraindikeret snarere end terapeutisk i denne sammenhæng. Lægemidlet er desuden i øjeblikket ikke godkendt i Danmark, hvilket betyder, at den regulatoriske vej ville kræve initiering fra bunden.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **SmPC og sikkerhedsdata**: Hent det fulde Resumé af produktkarakteristika (herunder advarsler, kontraindikationer og interaktioner) fra EMA-produktsiden eller det oprindelige firma for at muliggøre en ordentlig sikkerhedsscreening (Stage S1)
+- **MOA-bekræftelse**: Indhent komplet PPARα/δ-agonismeprofil fra DrugBank eller primær farmakologilitteratur, herunder vævspecifik receptoraktivitet og eventuelle kendte endokrine effekter
+- **Præ-klinisk litteraturgennemgang**: Gennemfør en målrettet søgning (PubMed, Embase) specifikt for PPARα/δ-agonister og reproduktiv endokrinologi eller hypotalamisk funktion for at vurdere, hvorvidt nogen biologisk basis for amenoré-forudsigelsen eksisterer, før der fortsættes
+- **Indikationsprioriteringsgennemgang**: I betragtning af at den højest rangerede indikation har en mekanistisk score på 2/10, bør man overveje, hvorvidt et anderledes terapiområde (f.eks. knoglemetabolisme via PPARδ, bedømt 4/10) repræsenterer et stærkere udgangspunkt for yderligere undersøgelse
+- **Regulatorisk landskabskortlægning**: Præciser elafibranors nuværende globale godkendelsestatus (herunder EMA centraliseret procedure for PBC) og fastlæg, hvorvidt nogen eksisterende godkendelse kan understøtte en etiketudvidelsevej inden for EU/Danmark
+
+---
+
+*Denne rapport er genereret til forskningsmæssige formål alene og udgør ikke medicinsk rådgivning. Alle omplaceringsmuligheder kræver klinisk validering før eventuel terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,85 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the data-report skill approach (execute-before-report), I'll work strictly from the JSON evidence pack provided — no external data was fetched, so I'm treating every field as-is rather than supplementing from memory.
+# Voclosporin: Fra immunosuppressiv terapi til primær frigivelsesforstyrrelse af blodplader
 
-A few data-quality notes before the report: `drug.original_indications` is empty and `original_moa` is `[Data Gap]`, so no specific original indication is documented in this pack. The evidence pack's own literature/rationale text (not the `original_moa` field) does establish that voclosporin is a calcineurin-inhibitor immunosuppressant — I've used that only where it's explicitly sourced from the pack's literature/rationale content, and flagged everywhere else that data is missing, per the "no fabrication" rule.
+## Sammenfatning i én sætning
 
----
-
-# Voclosporin: From Immunosuppressive Therapy to Primary Release Disorder of Platelets
-
-## One-Sentence Summary
-
-> Voclosporin is a calcineurin-inhibitor immunosuppressant (class-mate of cyclosporine and tacrolimus); no specific original approved indication is documented in this evidence pack, and the drug is **not currently marketed in Denmark**.
-> The TxGNN model's top-ranked prediction links it to **Primary Release Disorder of Platelets**, with a **95.4% prediction score**, but **zero supporting clinical trials and zero literature**, and the model's own mechanistic rationale states this link is biologically implausible.
+> Voclosporin er en calcineurin-inhibitor immunsuppressivum (klassekammerat af cyclosporin og tacrolimus); ingen specifik oprindeligt godkendt indikation er dokumenteret i denne evidenspakke, og lægemidlet er **ikke i øjeblikket markedsført i Danmark**.
+> TxGNN-modellens højest rangerede forudsigelse forbinder det til **primær frigivelsesforstyrrelse af blodplader**, med en **95,4% forudsigelsesscore**, men **nul understøttende kliniske forsøg og nul litteratur**, og modellens egen mekanistiske begrundelse fastslår, at dette link er biologisk implausibelt.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no `original_indications` on file; drug not yet marketed in Denmark) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 95.42% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data for voclosporin is not available at the drug level in this evidence pack (`original_moa: [Data Gap]`). However, the literature and rationale entries attached to other candidate indications in this same pack indicate that voclosporin belongs to the **calcineurin-inhibitor (CNI)** class, alongside cyclosporine and tacrolimus. According to a review captured in this pack (PMID 41361657), CNIs act by inhibiting the calcium-dependent phosphatase calcineurin, blocking dephosphorylation/nuclear translocation of NFAT, and suppressing IL-2 transcription — thereby impairing T-cell activation. This is standard immunosuppressant pharmacology, not a validated original indication for voclosporin specifically.
-
-For the model's top-ranked prediction — **primary release disorder of platelets** — the evidence pack's own mechanistic assessment is explicitly negative: this is a **hereditary defect in platelet dense-granule secretion**, a structural/genetic platelet disorder with pathophysiology unrelated to T-cell activation or the calcineurin pathway. The pack states plainly that "目前無任何臨床或文獻證據支持" (no clinical or literature evidence currently supports this) and classifies the association as a prediction-only artifact that "未達可驗證假說門檻" (has not reached the threshold of a testable hypothesis).
-
-In short: the TxGNN similarity score (95.4%) is high, but the accompanying rationale — generated from the same evidence pack — does not corroborate a plausible biological mechanism. A high embedding-similarity score without mechanistic or empirical support should be interpreted cautiously; it may reflect graph-clustering effects among platelet-related disease nodes rather than a genuine pharmacological relationship.
+| Emne | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke dokumenteret i denne evidenspakke (ingen `original_indications` på fil; lægemidlet er endnu ikke markedsført i Danmark) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
+| TxGNN forudsigelsesscore | 95.42% |
+| Evidensniveau | L5 |
+| Status på dansk marked | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Detaljerede mekanisme-for-handling-data for voclosporin er ikke tilgængelige på lægemiddelniveau i denne evidenspakke (`original_moa: [Data Gap]`). Dog indikerer litteratur- og begrundelsesindgange knyttet til andre kandidatindikatorer i denne samme pakke, at voclosporin tilhører **calcineurin-inhibitor (CNI)**-klassen sammen med cyclosporin og tacrolimus. Ifølge en review fanget i denne pakke (PMID 41361657) virker CNI'er ved at inhibere det calciumafhængige phosphatase calcineurin, blokere defosforylering/kernestranslokation af NFAT og undertrykkelse af IL-2-transkription — og derved svækker T-celle-aktivering. Dette er standard immunsuppressiv farmakologi, ikke en valideret oprindelig indikation for voclosporin specifikt.
 
----
+For modellens højest rangerede forudsigelse — **primær frigivelsesforstyrrelse af blodplader** — er evidenspakkens egen mekanistiske vurdering eksplicit negativ: dette er en **arvelig defekt i blodpladeernes tætgranula-sekretion**, en strukturel/genetisk blodpladestyrrelse med patofysiologi uden relation til T-celle-aktivering eller calcineurin-stien. Pakken fastslår klart, at der "目前無任何臨床或文獻證據支持" (ikke er nogen klinisk eller litteraturmæssig evidens, der understøtter dette), og klassificerer associationen som en udelukkende-forudsigelse-artefakt, der "未達可驗證假說門檻" (ikke har nået tærskelværdien for en testbar hypotese).
 
-## Literature Evidence
-
-Currently no related literature available.
+Kort sagt: TxGNN-similaritetsscore (95.4%) er høj, men den medfølgende begrundelse — genereret fra samme evidenspakke — understøtter ikke en plausibel biologisk mekanisme. En høj embedding-similaritetsscore uden mekanistisk eller empirisk støtte bør fortolkes forsigtigt; det kan afspejle grafklynge-effekter blandt blodpladerelaterede sygdomsknuder snarere end et autentisk farmakologisk forhold.
 
 ---
 
-## Denmark Market Information
+## Evidens fra kliniske forsøg
 
-Voclosporin currently has **no marketing authorisation on file in Denmark** (`market_status`: Not marketed; `total_licenses`: 0). No Laegemiddelstyrelsen national authorisation or EMA centralised authorisation record is present in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*(Note: this evidence pack's own data-gap log flags the missing label/warning data — item DG001, "Lægemiddelstyrelsen package insert warnings/contraindications" — as a **Blocking** severity gap, meaning this candidate cannot yet proceed to the safety-review stage (S1) until label data is retrieved.)*
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- Evidence level is **L5** — model prediction only, with no clinical trials, no literature, and no observational data supporting a link between voclosporin and primary release disorder of platelets.
-- The evidence pack's own mechanistic rationale explicitly contradicts biological plausibility: platelet dense-granule secretion defects are not known to involve the calcineurin/T-cell activation pathway that voclosporin targets.
-- Two data gaps block further progression: **DG001** (Danish/EU SmPC warnings and contraindications — Blocking, prevents entry to safety-review stage S1) and **DG002** (confirmed mechanism of action — High, needed for mechanistic validation).
+---
 
-**To proceed, the following is needed:**
-- Retrieve the approved SmPC (Danish/EU label) for voclosporin to resolve DG001 before any safety review can begin
-- Confirm mechanism of action via DrugBank or primary pharmacology sources to resolve DG002
-- Any preclinical or mechanistic literature directly linking calcineurin inhibition to platelet dense-granule release would be required before this candidate could move beyond Hold
-- **For consideration**: this same evidence pack contains a lower-ranked but better-supported candidate — **dermatitis** (TxGNN score 94.2%, evidence level L3, decision stage S1 "Research Question") — backed by 2 literature reviews (PMID 37307993, PMID 41361657) discussing off-label dermatologic use of systemic calcineurin inhibitors including voclosporin. That candidate has a coherent class-effect mechanistic rationale and may warrant prioritized follow-up ahead of the top-ranked but mechanistically unsupported platelet-disorder prediction.
+## Oplysninger om dansk marked
+
+Voclosporin har i øjeblikket **ingen markedsføringsgodkendelse på fil i Danmark** (`market_status`: Not marketed; `total_licenses`: 0). Ingen Lægemiddelstyrelsen national godkendelse eller EMA centraliseret godkendelsesrecord er til stede i denne evidenspakke.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte produktinformationssamling (SmPC) for sikkerhedsinformation.
+
+*(Bemærk: denne evidenspakkes eget data-gap-log markerer de manglende etiketterings-/advarselsdata — punkt DG001, "Lægemiddelstyrelsen pakkeindlæg advarsler/kontraindikationer" — som et **blokerende** alvorligheds-gap, hvilket betyder, at denne kandidat endnu ikke kan fortsætte til sikkerhedsgennemgangsstadiet (S1), før etikettingsdata er hentet.)*
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+- Evidensniveauet er **L5** — udelukkende modelforudsigelse, uden kliniske forsøg, uden litteratur og uden observationsdata, der understøtter en forbindelse mellem voclosporin og primær frigivelsesforstyrrelse af blodplader.
+- Evidenspakkens egen mekanistiske begrundelse modsiger eksplicit biologisk plausibilitet: defekter i blodpladeernes tætgranula-sekretion er ikke kendt for at involvere calcineurin/T-celle-aktiverings-stien, som voclosporin sigter mod.
+- To data-gaps blokerer yderligere progression: **DG001** (danske/EU SmPC advarsler og kontraindikationer — blokerende, forhindrer adgang til sikkerhedsgennemgangsstadium S1) og **DG002** (bekræftet virkningsmekanisme — høj, nødvendig for mekanistisk validering).
+
+**For at kunne fortsætte er følgende nødvendigt:**
+- Hent den godkendte SmPC (dansk/EU-etiket) for voclosporin for at løse DG001, før nogen sikkerhedsgennemgang kan begynde
+- Bekræft virkningsmekanisme via DrugBank eller primære farmakologikilder for at løse DG002
+- Enhver præklinisk eller mekanistisk litteratur, der direkte forbinder calcineurin-inhibering til frigivelse af blodpladeernes tætgranula, ville være påkrævet før denne kandidat kunne bevæge sig ud over Hold
+- **Til overvejelse**: denne samme evidenspakke indeholder en lavere rangeret, men bedre understøttet kandidat — **dermatitis** (TxGNN-score 94.2%, evidensniveau L3, beslutningsstadium S1 "Research Question") — understøttet af 2 litteraturreviews (PMID 37307993, PMID 41361657), der diskuterer off-label dermatologisk brug af systemiske calcineurin-inhibitorer, herunder voclosporin. Denne kandidat har en kohærent class-effect mekanistisk begrundelse og kan være værd at følge op på som prioritet foran den højest rangerede, men mekanistisk usupported blodpladestyrrelse-forudsigelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

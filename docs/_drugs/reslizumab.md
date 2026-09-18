@@ -29,84 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Reslizumab: From Eosinophilic Asthma to Thrombocytopenia Due to Immune Destruction
+# Reslizumab: Fra eosinofil asthma til immunmediet trombocytopeni
 
-## One-Sentence Summary
+## Sammendrag på én sætning
 
-> Reslizumab is an anti-IL-5 monoclonal antibody; its confirmed approved indication is **not present in this Evidence Pack** (flagged as a blocking data gap — see below), though it is publicly known as a biologic for severe eosinophilic asthma.
-> The TxGNN model predicts it may be effective for **Thrombocytopenia Due to Immune Destruction**, but this is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale states there is **no known biological pathway** linking IL-5/eosinophil suppression to immune-mediated platelet destruction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in Evidence Pack (data gap). Publicly known drug class: anti-IL-5 monoclonal antibody, historically used for severe eosinophilic asthma — **not verified against a regulatory source** |
-| Predicted New Indication | Thrombocytopenia Due to Immune Destruction |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> Reslizumab er et anti-IL-5 monoklonalt antistof; dets bekræftede godkendt indikation er **ikke til stede i denne bevis-pakke** (markeret som en blokerande datakløft — se nedenfor), selvom det er offentligt kendt som et biologisk lægemiddel til alvorlig eosinofil asthma.
+> TxGNN-modellen forudsiger, at det kan være effektivt til **immunmediet trombocytopeni**, men dette er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske begrundelse angiver, at der er **ingen kendt biologisk vej**, der forbinder IL-5/eosinofil-undertrykkelse med immunmedieret pladelet-ødelæggelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data for Reslizumab is not available in this Evidence Pack (data gap DG002, High severity). Based on general pharmacological knowledge, Reslizumab is an anti-IL-5 monoclonal antibody that reduces circulating and tissue eosinophils; its efficacy has been established for eosinophil-driven respiratory disease, but this specific indication is not confirmed by the data provided here.
-
-Critically, the Evidence Pack's own repurposing rationale for the top-ranked prediction explicitly argues **against** a plausible mechanistic link: immune thrombocytopenia is driven by anti-platelet autoantibodies (e.g., anti-GPIIb/IIIa) and Fc-receptor-mediated clearance by splenic macrophages — a pathway with no known intersection with IL-5 or eosinophil biology. The rationale states that IL-5 suppression does not affect B-cell autoantibody production or Fc-receptor-mediated platelet clearance, and characterizes this prediction as based **only on TxGNN embedding similarity, without biological support**.
-
-Across all ten ranked predictions (five unique diseases, each duplicated), the pattern is consistent: all are platelet/hemostasis disorders (immune thrombocytopenia, primary platelet release disorder, pseudo-von Willebrand disease, autoimmune thrombocytopenia, Glanzmann thrombasthenia), all are scored L4–L5, and all carry a "Hold" recommendation. The one indirect literature signal (PMID 20565230) concerns **mepolizumab** — a different anti-IL-5 agent — in hypereosinophilic syndrome (HES), not Reslizumab, and not thrombocytopenia due to immune destruction directly. It offers, at best, a weak class-effect hypothesis (HES-associated bone marrow infiltration could secondarily affect platelets), not a validated mechanism.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Ikke bekræftet i bevis-pakken (datakløft). Offentligt kendt lægemiddelklasse: anti-IL-5 monoklonalt antistof, historisk brugt til alvorlig eosinofil asthma — **ikke verificeret mod en regulatorisk kilde** |
+| Forudsagt ny indikation | Immunmediet trombocytopeni |
+| TxGNN-forudsigelsesscore | 99.53% |
+| Bevisniveau | L5 (modelforudsigelse alene, ingen kliniske forsøg eller litteratur) |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available for this indication (Thrombocytopenia Due to Immune Destruction).
+Detaljerede mekanisme-for-handlings-data for Reslizumab er ikke tilgængelige i denne bevis-pakke (datakløft DG002, høj alvorlighed). Baseret på generel farmakologisk viden er Reslizumab et anti-IL-5 monoklonalt antistof, der reducerer cirkulerende og væves eosinofiler; dets virkning er etableret for eosinofil-drevet respiratorisk sygdom, men denne specifikke indikation er ikke bekræftet af de data, der er leveret her.
 
-**Note:** A related but lower-ranked TxGNN prediction for this drug — "primary release disorder of platelets" (score 99.25%) — is associated with one indirect publication:
+Kritisk bemærkes det, at bevis-pakkens egen begrundelse for omdisponering af lægemiddel til den top-rangerede forudsigelse argumenterer **imod** en plausibel mekanistisk forbindelse: immunmediet trombocytopeni er drevet af anti-pladelet-autoantiStoffer (f.eks. anti-GPIIb/IIIa) og Fc-receptor-medieret clearance af miltens makrofager — en vej uden kendt skæringspunkt med IL-5 eller eosinofil-biologi. Begrundelsen angiver, at IL-5-undertrykkelse ikke påvirker B-celle-autoantiStofproduktion eller Fc-receptor-medieret pladelet-clearance, og karakteriserer denne forudsigelse som baseret **udelukkende på TxGNN-indlejringslighed, uden biologisk støtte**.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/) | 2010 | Review | Current Medical Research and Opinion | Reviews management of hypereosinophilic syndrome (HES) including mepolizumab (a related but different anti-IL-5 agent); does not study Reslizumab or platelet disorders directly |
-
-This publication is not direct evidence for Reslizumab or for the primary predicted indication.
+På tværs af alle ti rangerede forudsigelser (fem unikke sygdomme, hver duplikeret) er mønstret konsistent: alle er pladelet/hemostase-forstyrrelser (immunmediet trombocytopeni, primær pladelet-frigivelsesforstyrrelse, pseudo-von Willebrand-sygdom, autoimmun trombocytopeni, Glanzmanns trombasteni), alle er scoret L4–L5, og alle bærer en "Hold"-anbefaling. Det eneste indirekte litteratursignal (PMID 20565230) vedrører **mepolizumab** — et anderledes anti-IL-5-middel — i hypereosinofilt syndrom (HES), ikke Reslizumab, og ikke immunmediet trombocytopeni direkte. Det tilbyder på bedste vis en svag klasse-effekt-hypotese (HES-associeret knoglemarv-infiltration kunne sekundært påvirke pladelets), ikke en valideret mekanisme.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsbeviser
 
-Reslizumab is currently **not marketed** in Denmark. No Marketing Authorisations (national Laegemiddelstyrelsen or centralised EMA) are on record in this Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Label warnings, contraindications, and drug-interaction data were not available at the time of this report (data gap DG001, **Blocking severity** — this gap prevents the candidate from entering the S1 safety pre-assessment stage).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikation (immunmediet trombocytopeni).
 
-**Rationale:**
-This prediction rests solely on TxGNN embedding similarity (L5), with zero supporting clinical trials, zero direct literature, and no Danish market presence. The Evidence Pack's own mechanistic analysis states there is no known biological pathway connecting IL-5/eosinophil suppression to immune-mediated platelet destruction, and a Blocking-severity safety data gap (product label warnings/contraindications) prevents any safety pre-assessment.
+**Bemærk:** En relateret, men lavere-rangeret TxGNN-forudsigelse for dette lægemiddel — "primær frigivelsesforstyrrelse af pladelets" (score 99.25%) — er forbundet med en indirekte publikation:
 
-**To proceed, the following is needed:**
-- Confirmed original indication and approved SmPC from a Danish/EU regulatory source (currently unverified)
-- Mechanism-of-action data via DrugBank API (data gap DG002)
-- Product label warnings and contraindications (data gap DG001, blocking — required before S1 safety pre-assessment)
-- Independent preclinical or mechanistic evidence connecting IL-5/eosinophil pathways to platelet destruction, beyond embedding-similarity prediction
-- If further pursued, treat the mepolizumab/HES literature as a hypothesis-generating signal only, not clinical evidence
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
+|------|-----|------|-----------|-------------------|
+| [20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/) | 2010 | Oversigt | Current Medical Research and Opinion | Gennemgår håndtering af hypereosinofilt syndrom (HES), herunder mepolizumab (et anderledes anti-IL-5-middel); studerer ikke Reslizumab eller pladelet-forstyrrelser direkte |
+
+Denne publikation er ikke direkte beviser for Reslizumab eller for den forudsagte indikation.
+
+---
+
+## Markedsinformation for Danmark
+
+Reslizumab er i øjeblikket **ikke markedsført** i Danmark. Ingen markedsføringstilladelser (nationalt Lægemiddelstyrelsen eller centraliseret EMA) er registreret i denne bevis-pakke.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendt produktinformationsark (SmPC) for sikkerhedsinformation. Etiketadvarsler, kontraindikationer og lægemiddel-interaktionsdata var ikke tilgængelige på tidspunktet for denne rapport (datakløft DG001, **blokerande alvorlighed** — dette kløft forhindrer kandidaten i at gå ind i S1-sikkerhedsfør-vurderingsfasen).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Denne forudsigelse hviler udelukkende på TxGNN-indlejringslighed (L5), med nul understøttende kliniske forsøg, nul direkte litteratur og ingen dansk markedsnærvær. Bevis-pakkens egen mekanistiske analyse angiver, at der er ingen kendt biologisk vej, der forbinder IL-5/eosinofil-undertrykkelse med immunmedieret pladelet-ødelæggelse, og et blokerande-alvorlighed sikkerhedsdatakløft (produktetiket advarsler/kontraindikationer) forhindrer enhver sikkerhedsfør-vurdering.
+
+**For at fremgå skal følgende være nødvendigt:**
+- Bekræftet original indikation og godkendt SmPC fra en dansk/EU-regulatorisk kilde (i øjeblikket ikke verificeret)
+- Mekanisme-for-handlings-data via DrugBank API (datakløft DG002)
+- Produktetiket advarsler og kontraindikationer (datakløft DG001, blokerande — påkrævet før S1-sikkerhedsfør-vurdering)
+- Uafhængig præklinikal eller mekanistisk beviser, der forbinder IL-5/eosinofil-veje til pladelet-ødelæggelse, ud over indlejringslighed-forudsigelse
+- Hvis yderligere forfølges, behandl mepolizumab/HES-litteraturen som et hypotese-genererende signal alene, ikke klinisk beviser
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

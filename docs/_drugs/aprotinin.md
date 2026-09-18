@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Aprotinin: No Repurposing Predictions Available for Evaluation
+# Aprotinin: Ingen genanvendelsesprognoser tilgængelige til vurdering
 
 ---
 
-## One-Sentence Summary
+## Enlinjesammenfatning
 
-Aprotinin is a serine protease inhibitor (Kunitz-type, bovine-derived) historically used as an antifibrinolytic agent to reduce perioperative blood loss in cardiac surgery.
-The current Evidence Pack contains **no TxGNN repurposing predictions** for this compound, and aprotinin holds no marketing authorisations in Denmark.
-Without prediction data, clinical trial evidence, or literature evidence in the pack, a standard repurposing assessment cannot be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Antifibrinolytic; reduction of perioperative blood loss in cardiac surgery (not registered in Denmark) |
-| Predicted New Indication | None generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — model prediction pipeline produced no output |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Aprotinin er en serinproteaseinhibitor (Kunitz-type, bovin-afledt), som historisk set er blevet brugt som et antifibrinolytisk middel til at reducere perioperativt blodtab i hjertechirurgi.
+Den nuværende bevispaket indeholder **ingen TxGNN-genanvendelsesprognoser** for denne forbindelse, og aprotinin har ingen markedsapproveringer i Danmark.
+Uden prognosedata, kliniske forsøgsbevis eller litteraturbevis i pakken kan en standardvurdering af genanvendelse ikke gennemføres på dette tidspunkt.
 
 ---
 
-## Why No Predictions Were Generated
+## Hurtigt overblik
 
-Aprotinin (DrugBank DB06692) is a 58-amino-acid serine protease inhibitor derived from bovine lung tissue. It inhibits trypsin, plasmin, and plasma kallikrein, thereby attenuating the fibrinolytic cascade and contact-phase activation that contribute to coagulopathy during cardiopulmonary bypass surgery. Marketed under the brand name Trasylol, it was once the most widely used antifibrinolytic in high-risk cardiac procedures.
-
-Aprotinin was voluntarily suspended from most markets in 2007–2008 after the Canadian BART trial (Blood conservation using Antifibrinolytics in a Randomized Trial) demonstrated a significantly higher 30-day mortality compared with the lysine analogues tranexamic acid and aminocaproic acid. The European Medicines Agency subsequently reinstated a restricted authorisation in 2012, limiting use to adult patients undergoing isolated coronary artery bypass graft (CABG) surgery when other antifibrinolytics are not suitable, under close haemodynamic monitoring.
-
-The absence of TxGNN predictions in this Evidence Pack most likely reflects one of the following:
-
-1. **Knowledge graph gap** — Aprotinin may not be represented as a node in the TxGNN drug–disease graph, or its DrugBank ID was not matched to a graph entity.
-2. **Below-threshold scores** — All candidate disease scores fell below the model's reporting threshold.
-3. **Upstream data gap** — Missing mechanism-of-action data (flagged as data gap DG002) may have impaired graph embedding quality, suppressing prediction output.
-
-The query log confirms that a DrugBank query returned a successful result (`result_status: success`, `result_count: 1`), indicating the compound was identified, yet no predictions were propagated downstream.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Antifibrinolytisk; reduktion af perioperativt blodtab i hjertechirurgi (ikke registreret i Danmark) |
+| Forventet ny indikation | Ingen genereret |
+| TxGNN-prognosescore | Ikke tilgængelig |
+| Bevisniveau | L5 — modelprognoseledningen producerede ingen output |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsapproveringer | 0 |
+| Anbefalet beslutning | **Udsæt** |
 
 ---
 
-## Denmark Market Information
+## Hvorfor blev der ikke genereret prognoser
 
-Aprotinin currently holds no marketing authorisations in Denmark and is classified as not marketed. Historically, Trasylol received EMA centralised authorisation, which was suspended in 2007 and partially reinstated in 2012 under a restricted indication for isolated CABG surgery. Any clinical use in Denmark today would require a named-patient or compassionate-use authorisation from Lægemiddelstyrelsen, subject to risk–benefit documentation and institutional approval.
+Aprotinin (DrugBank DB06692) er en 58-amino-syre serinproteaseinhibitor afledt af bovint lungevæv. Den hæmmer trypsin, plasmin og plasma kallikrein, og reducerer dermed den fibrinolytiske kaskade og kontaktfaseaktivering, der bidrager til koagulationsforstyrrelser under cardiopulmonary bypass-kirurgi. Markedsført under mærkenavnet Trasylol var det engang det mest brugte antifibrinolytikum i høj-risiko hjerteprocedurer.
 
----
+Aprotinin blev frivilligt suspenderet fra de fleste markeder i 2007–2008, efter at det canadiske BART-forsøg (Blood conservation using Antifibrinolytics in a Randomized Trial) viste betydeligt højere 30-dages dødelighed sammenlignet med lysin-analogerne tranexaminsyre og aminokapronsyre. Det Europæiske Lægemiddelagentur genoprettede efterfølgende en begrænset godkendelse i 2012, begrænsende brugen til voksne patienter, der undergår isoleret koronar arterieomgåelse (CABG)-kirurgi, når andre antifibrinolytika ikke er egnede, under tæt hæmodynamisk overvågning.
 
-## Safety Considerations
+Fraværet af TxGNN-prognoser i denne bevispaket afspejler højst sandsynligt en af følgende:
 
-No structured safety data (warnings, contraindications, or drug interactions) are available in this Evidence Pack. Based on published EMA and FDA documentation, clinicians should be aware of the following key concerns before any use:
+1. **Vidensgrafs mangel** — Aprotinin er muligvis ikke repræsenteret som en knude i TxGNN-lægemiddel-sygdoms-grafen, eller dets DrugBank-ID blev ikke matchet med en grafenhed.
+2. **Under-tærskel-scorer** — Alle kandidatsygdomme-scorer faldt under modellens rapporteringstærskel.
+3. **Opstrøms datamangel** — Manglende data om virkningsmekanisme (flagget som datamangel DG002) kan have forværret graf-indlejringskvaliteten, hvilket undertrykkede prognoseoutput.
 
-- **Mortality risk**: Increased 30-day all-cause mortality versus lysine analogues, established in the BART trial.
-- **Serious organ injury**: Elevated risk of acute renal failure, myocardial infarction, and stroke in cardiac surgery patients.
-- **Hypersensitivity / anaphylaxis**: Risk is substantially increased on re-exposure (prior aprotinin use within 12 months is a documented risk factor); a 10,000 KIU test dose and pre-medication protocol are required.
-- **Re-exposure interval**: A minimum 12-month interval between exposures is recommended per SmPC.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Trasylol and the EMA product information for complete and current safety guidance.
+Forespørgselsloggen bekræfter, at en DrugBank-forespørgsel returnerede et vellykket resultat (`result_status: success`, `result_count: 1`), hvilket indikerer, at forbindelsen blev identificeret, men ingen prognoser blev propageret nedstrøms.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN pipeline produced no repurposing predictions for aprotinin, the drug is not authorised in Denmark, and critical input data (MOA, approved indications, safety profile) are absent from the Evidence Pack. There is no candidate indication to evaluate at this stage.
-
-**To proceed, the following is needed:**
-
-- **Resolve the prediction gap**: Verify whether aprotinin (DB06692) exists as a node in the TxGNN knowledge graph; if absent, request graph inclusion before re-running the pipeline.
-- **Retrieve MOA data**: Query the DrugBank API for DB06692 to obtain full pharmacology data (Data Gap DG002 — severity: High).
-- **Retrieve safety profile**: Download the Trasylol SmPC from the EMA product database and parse warnings and contraindications (Data Gap DG001 — severity: Blocking).
-- **Clarify EU regulatory status**: Confirm current authorisation status of Trasylol with Lægemiddelstyrelsen or via the EMA product database, given the complex suspension–reinstatement history.
-- **Re-run TxGNN**: Once graph membership and MOA data are confirmed, re-run the prediction pipeline and generate a new Evidence Pack.
-- **If predictions are generated**: Proceed to evidence collection (ClinicalTrials.gov, PubMed) for the top-ranked indication and re-issue this report at a higher evidence level.
+Aprotinin har i øjeblikket ingen markedsapproveringer i Danmark og er klassificeret som ikke markedsført. Historisk set modtog Trasylol centraliseret EMA-godkendelse, som blev suspenderet i 2007 og delvist genoprettet i 2012 under en begrænset indikation for isoleret CABG-kirurgi. Enhver klinisk brug i Danmark i dag ville kræve en navngivet-patient eller humanitær godkendelse fra Lægemiddelstyrelsen, begrænset af nytte-risiko-dokumentation og institutionel godkendelse.
 
 ---
 
-> **Disclaimer**: This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. This document does not replace the approved Summary of Product Characteristics or clinical judgement.
+## Sikkerhedshensyn
+
+Ingen struktureret sikkerhedsdata (advarsler, kontraindikationer eller lægemiddelinteraktioner) er tilgængelige i denne bevispaket. Baseret på offentliggjort EMA- og FDA-dokumentation bør klinikere være opmærksomme på følgende vigtige bekymringer før enhver brug:
+
+- **Risiko for øget dødelighed**: Øget 30-dages samlet dødelighed versus lysin-analoger, etableret i BART-forsøget.
+- **Alvorlig organskade**: Forøget risiko for akut nyresvigt, myokardieinfarkt og apopleksi hos hjertechirurgi-patienter.
+- **Overfølsomhed / anafylaksi**: Risiko øges betydeligt ved geneksponering (tidligere aprotinin-brug inden for 12 måneder er en dokumenteret risikofaktor); en 10.000 KIU-testdosis og præmedicineringsprotokol er påkrævet.
+- **Interval for geneksponering**: Et minimumsinterval på 12 måneder mellem eksponeringer anbefales pr. SmPC.
+
+Se venligst det godkendte produktresumeé (SmPC) for Trasylol og EMA-produktinformationen for fuldstændig og aktuel sikkerhedsvejledning.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Udsæt**
+
+**Begrundelse:**
+TxGNN-ledningen producerede ingen genanvendelsesprognoser for aprotinin, lægemidlet er ikke godkendt i Danmark, og kritiske inputdata (virkningsmekanisme, godkendte indikationer, sikkerhedsprofil) er fraværende i bevisepakken. Der er ingen kandidatindikation at vurdere på dette tidspunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Løs prognosegabet**: Verificer, om aprotinin (DB06692) findes som en knude i TxGNN vidensgrafen; hvis fraværende, anmod grafinklusion før du kører ledningen igen.
+- **Hent data om virkningsmekanisme**: Spørg DrugBank-API'et for DB06692 for at få fuld farmakologidata (Datamangel DG002 — alvorlighed: Høj).
+- **Hent sikkerhedsprofil**: Download Trasylol SmPC fra EMA-produktdatabasen og analysér advarsler og kontraindikationer (Datamangel DG001 — alvorlighed: Blokerende).
+- **Afklár EU-regulatorisk status**: Bekræft nuværende godkendelsestatus for Trasylol hos Lægemiddelstyrelsen eller via EMA-produktdatabasen, givet den komplekse suspensions- og genopretselseshistorie.
+- **Kør prognosepipeline igen**: Når grafmedlemskab og data om virkningsmekanisme er bekræftet, kør prognosepipeline igen og generer en ny bevispaket.
+- **Hvis prognoser genereres**: Fortsæt til bevisindsamling (ClinicalTrials.gov, PubMed) for den højest-rangerede indikation og genudsted denne rapport på et højere bevisniveau.
+
+---
+
+> **Ansvarsfraskrivelse**: Denne rapport er genereret til referenceformål for forskning og udgør ikke medicinske råd. Alle lægemiddelgenanvendelses-kandidater kræver klinisk validering før brug. Dette dokument erstatter ikke det godkendte produktresumeé eller klinisk vurdering.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

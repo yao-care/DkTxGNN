@@ -29,104 +29,107 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using no specific slash-skill here — this is a direct report-authoring task governed entirely by the prompt's own template/rules, so I'll follow those instructions directly rather than invoke an unrelated skill.
+# Phenobarbital: Fra epilepsi til trigeminalnervesvulst
 
-One important note before the report: the Evidence Pack's own `repurposing_rationale` for the #1-ranked prediction explicitly flags itself as a likely **knowledge-graph mapping artifact** (the cited literature is about Sturge-Weber syndrome, not a trigeminal nerve tumour). Per the "no guessing / must state uncertainty" discipline, I've kept "Trigeminal Nerve Neoplasm" as the headline prediction (as the template's field-extraction rule requires: `predicted_indications[0]`), but made this caveat explicit throughout rather than presenting the 99.96% score at face value. I also added one supplementary section (not in the mandated list, but not prohibited either) summarizing the other unique candidate diseases in the pack, since 9 of the 10 entries are duplicates or near-duplicates of just 6 distinct diseases — omitting them would understate what evidence actually exists.
+## Ét-linjers resumé
 
----
-
-# Phenobarbital: From Epilepsy to Trigeminal Nerve Neoplasm
-
-## One-Sentence Summary
-
-Phenobarbital is a barbiturate historically used to treat epilepsy, seizure disorders, and as a sedative-hypnotic.
-The TxGNN model's top-ranked prediction is **Trigeminal Nerve Neoplasm** (score **99.96%**), but the single supporting publication actually describes an unrelated condition (Sturge-Weber syndrome), which strongly suggests this specific prediction is a **knowledge-graph mapping artifact rather than a genuine drug-disease signal**.
-Other lower-score candidates in the same batch (e.g., audiogenic seizures, startle epilepsy) are mechanistically more plausible but supported only by preclinical/animal studies or isolated case reports.
+Phenobarbital er et barbiturat historisk brugt til behandling af epilepsi, anfaldssygdomme og som sedat-hypnotikum.
+TxGNN-modellens højest rangerede forudsigelse er **trigeminalnervesvulst** (score **99.96%**), men den eneste understøttende publikation beskriver faktisk en uafhængig tilstand (Sturge-Weber-syndrom), hvilket stærkt tyder på, at denne specifikke forudsigelse er et **kendskabsgraf-mappingartefakt snarere end et ægte lægemiddel-sygdomssignal**.
+Andre lavere-score kandidater i samme batch (f.eks. audiogene anfald, prikkelseepilepsi) er mekanistisk mere plausible, men understøttet kun af præ kliniske/dyrestudier eller isolerede case reports.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Epilepsy / seizure disorders (incl. neonatal seizures), sedation — based on established pharmacological classification; no structured registry record was returned for this field |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only; supporting literature does not match the disease) |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Epilepsi / anfaldssygdomme (inkl. neonatale anfald), sedation — baseret på etableret farmakologisk klassifikation; ingen struktureret registreringspost blev returneret for dette felt |
+| Forudsagt ny indikation | Trigeminalnervesvulst |
+| TxGNN forudsigelsesscore | 99.96% |
+| Bevisniveau | L5 (modelforudsigelse alene; understøttende litteratur matcher ikke sygdommen) |
+| Danmark markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-A structured mechanism-of-action (MOA) record was not available for this drug in the current data pull (data gap, High severity). Based on established pharmacology captured elsewhere in this evidence pack, phenobarbital is a positive allosteric modulator of the GABA‑A receptor, producing central nervous system depression and anticonvulsant activity, and it is also a known hepatic CYP450 enzyme inducer. There is no established antineoplastic or anti-neural-tumour mechanism associated with this drug class.
+En struktureret mekanisme-for-handling (MOA) post var ikke tilgængelig for dette lægemiddel i det aktuelle dataudtræk (datahul, høj alvorligheds grad).
+Baseret på etableret farmakologi dokumenteret andre steder i denne bevismappe er phenobarbital en positiv allosterisk modulator af GABA‑A-receptoren, som fremkalder depression af centralt nervesystem og antikonvulsiv aktivitet, og det er også en kendt hepatisk CYP450-enzyminducer.
+Der er ingen etableret antineoplastisk eller anti-neuralsvulst-mekanisme forbundet med denne lægemiddelklasse.
 
-The relationship between the original indication (epilepsy/seizure control) and the predicted new indication (trigeminal nerve neoplasm) is not pharmacologically coherent. The only literature citation returned for this prediction (PMID 9157801) is a case series of **Sturge-Weber syndrome** — a neurocutaneous vascular malformation syndrome presenting with a facial port-wine stain in the trigeminal nerve distribution combined with seizures — which is a fundamentally different clinical entity from a "trigeminal nerve neoplasm." This mismatch is most consistent with a disease-ontology mapping error inside the knowledge graph (the trigeminal-distribution feature of Sturge-Weber syndrome appears to have been mapped onto a neoplasm-related disease node).
+Forholdet mellem den oprindelige indikation (epilepsi/anfaldskontrol) og den forudsagte nye indikation (trigeminalnervesvulst) er ikke farmakologisk sammenhængende.
+Det eneste litteraturcitat, der blev returneret for denne forudsigelse (PMID 9157801), er en kasusserie af **Sturge-Weber-syndrom** — et neurokutant vaskulært misdannelsessyndrom, der præsenterer sig med en ansigtsports-vinstain i trigeminalnervefordeling kombineret med anfald — som er en fundamentalt anderledes klinisk enhed end en "trigeminalnervesvulst".
+Denne uoverensstemmelse er mest konsistent med en sygdomsontologi-mappingfejl inde i kendskabsgrafen (trigeminal-fordelingsfunktionen af Sturge-Weber-syndrom ser ud til at være blevet mappes til en neoplasme-relateret sygdomsknude).
 
-Given this, the 99.96% TxGNN score for this specific prediction should be treated with caution: it most likely reflects a mapping defect rather than a genuine pharmacological association, and should not be advanced without first correcting or re-verifying the underlying disease-node mapping.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Givet dette bør TxGNN-scoren på 99.96% for denne specifikke forudsigelse behandles med forsigtighed: den afspejler mest sandsynligt en mappingfejl snarere end en ægte farmakologisk association og bør ikke fremme uden først at korrigere eller gen-verificere det underliggende sygdomsknude-mapping.
 
 ---
 
-## Literature Evidence
+## Klinisk prøvebevis
 
-| PMID | Year | Type | Journal | Key Findings |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case Series | Anales españoles de pediatría | Reviews 14 cases of **Sturge-Weber syndrome** — a vascular malformation/seizure syndrome, not a trigeminal nerve tumour. The disease mismatch is the basis for suspecting a knowledge-graph mapping error underlying this prediction. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Kasusserie | Anales españoles de pediatría | Gennemgang af 14 tilfælde af **Sturge-Weber-syndrom** — et vaskulært misdannelse/anfaldssyndrom, ikke en trigeminalnervesvulst. Sygdomsuoverensstemmelsen er grundlaget for at mistænke en kendskabsgraf-mappingfejl, der ligger til grund for denne forudsigelse. |
 
 ---
 
-## Additional Predicted Indications in This Batch (Lower Priority, Not Yet Formally Scored)
+## Yderligere forudsagte indikationer i denne batch (lavere prioritet, ikke endnu formelt scoret)
 
-The evidence pack contained ten ranked predictions collapsing to six distinct candidate diseases (several ranks are duplicate entries for the same disease). These are not analyzed in detail here but are noted for completeness, since some carry more plausible mechanistic rationale than the headline prediction above:
+Bevisp akken indeholdt ti rangerede forudsigelser, der kollapsede til seks forskellige kandidatsygdomme (flere rækker er duplikatposter for samme sygdom). Disse er ikke analyseret i detaljer her, men er noteret for fuldstændighed, da nogle bærer mere plausible mekanistiske begrundelser end overskriftsforudsigelsen ovenfor:
 
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+| Forudsagt indikation | TxGNN score | Bevisniveau | Anbefaling | Noter |
 |---|---|---|---|---|
-| Trigeminal Nerve Neoplasm | 99.96% | L5 | Hold | Likely KG mapping artifact (see above) |
-| Audiogenic Seizures | 99.96% | L3 | Research Question | GABAergic mechanism plausible; evidence is almost entirely preclinical/animal (DBA/2 mouse models); only 1 human case report |
-| Thinking Seizures | 99.96% | L3 | Research Question | A reflex-epilepsy subtype; evidence is indirect (general neonatal seizure guidelines/RCTs), no study targets this subtype specifically |
-| Micturition-Induced Seizures | 99.96% | L4 | Hold | Purely indirect extrapolation from general antiepileptic evidence; no direct study identified |
-| Startle Epilepsy / Hyperekplexia | 99.96% | L4 | Research Question | Most mechanistically coherent candidate — linked to GABA/glycine receptor pathophysiology — but supported only by case reports/genetic studies, no phenobarbital-specific study |
-| Eating Seizures | 99.96% | L4 | Hold | Supported only by a single 50-year case follow-up report |
+| Trigeminalnervesvulst | 99.96% | L5 | Afvent | Sandsynligvis KG-mappingartefakt (se ovenfor) |
+| Audiogene anfald | 99.96% | L3 | Forskningsspørgsmål | GABAerg mekanisme plausibel; bevis er næsten helt præ klinisk/dyr (DBA/2 musemodeller); kun 1 menneskelig case report |
+| Tankeudløste anfald | 99.96% | L3 | Forskningsspørgsmål | En reflex-epilepsi undertype; bevis er indirekte (generelle neonatale anfaldsvejledninger/RCT'er), ingen undersøgelse målretter denne undertype specifikt |
+| Vandladningsudløste anfald | 99.96% | L4 | Afvent | Rent indirekte ekstrapolation fra generelt antiepileptisk bevis; ingen direkte undersøgelse identificeret |
+| Prikkelseepilepsi / Hyperekpleksia | 99.96% | L4 | Forskningsspørgsmål | Mest mekanistisk sammenhængende kandidat — forbundet til GABA/glycin receptorpatofysiologi — men understøttet kun af case reports/genetiske studier, ingen phenobarbital-specifik undersøgelse |
+| Spiseanfald | 99.96% | L4 | Afvent | Understøttet kun af en enkelt 50-årig case opfølgningsrapport |
 
-All six candidates share the same TxGNN score band (~99.96%), which suggests the model is scoring these as a cluster of "seizure-type" disease nodes rather than discriminating meaningfully between them — a further reason for caution before treating any single score as strong evidence.
-
----
-
-## Denmark Market Information
-
-Phenobarbital currently holds **no marketing authorisation in Denmark** (0 licenses on file; market status: Not Marketed). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation records were returned in this data pull.
+Alle seks kandidater deler samme TxGNN-score band (~99.96%), hvilket tyder på, at modellen scorer disse som en klynge af "anfaldtype" sygdomsknuder snarere end at diskriminere meningsfuldt mellem dem — en yderligere grund til forsigtighed før behandling af enhver enkelt score som stærkt bevis.
 
 ---
 
-## Safety Considerations
+## Danmark markedsinformation
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No structured warnings, contraindications, or drug-drug interaction data were available in the current evidence pack (DDI query returned no results).
+Phenobarbital har i øjeblikket **ingen markedsføringstilladelse i Danmark** (0 licenser i arkiv; markedsstatus: Ikke markedsført).
+Ingen nationale (Laegemiddelstyrelsen) eller centraliserede (EMA) tilladelsespost blev returneret i dette dataudtræk.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Venligst henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Ingen strukturerede advarsler, kontraindikationer eller lægemiddel-lægemiddelinteraktionsdata var tilgængelige i det aktuelle bevismappe (DDI-forespørgsel returnerede ingen resultater).
 
-**Rationale:**
-- The headline prediction (trigeminal nerve neoplasm) has no plausible mechanistic basis, and its only supporting citation describes an unrelated syndrome — indicating a likely knowledge-graph mapping error rather than a genuine drug-disease signal.
-- Phenobarbital is not marketed in Denmark (0 authorisations), and a **Blocking**-severity data gap exists for SmPC-level warnings/contraindications, which by itself prevents any safety pre-screening (Stage S1) regardless of the indication being considered.
-- The mechanistically more credible alternative candidates in this batch (audiogenic seizures, startle epilepsy) are supported only by preclinical or case-report-level evidence (L3–L4) and are not yet ready to progress past a research question.
+---
 
-**To proceed, the following is needed:**
-- Verify and, if necessary, correct the TxGNN disease-node mapping responsible for the "trigeminal nerve neoplasm" prediction (likely conflated with Sturge-Weber syndrome)
-- Obtain the approved SmPC (warnings, contraindications) from the Danish Medicines Agency or an equivalent EMA reference product, to close the Blocking-severity data gap
-- Obtain a confirmed mechanism-of-action record from DrugBank
-- If pursuing the reflex-epilepsy candidates (audiogenic seizures, startle epilepsy), commission a targeted literature review to check for any human clinical evidence beyond case reports
-- Given the drug's non-marketed status in Denmark, assess feasibility of a named-patient/import pathway before further evaluation investment
+## Konklusion og næste skridt
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+
+- Overskriftsforudsigelsen (trigeminalnervesvulst) har ingen plausibel mekanistisk basis, og dens eneste understøttende citat beskriver et uafhængigt syndrom — hvilket indikerer en sandsynlig kendskabsgraf-mappingfejl snarere end et ægte lægemiddel-sygdomssignal.
+- Phenobarbital markedsføres ikke i Danmark (0 tilladelser), og der eksisterer et **blokerings**-alvorligheds datahul for SmPC-niveau advarsler/kontraindikationer, hvilket i sig selv forhindrer enhver sikkerhed-præ-screening (trin S1) uanset den indikation, der overvejes.
+- De mekanistisk mere troværdige alternative kandidater i denne batch (audiogene anfald, prikkelseepilepsi) understøttes kun af præ klinisk eller case-report-niveau bevis (L3–L4) og er ikke endnu klar til at komme videre end et forskningsspørgsmål.
+
+**For at fortsætte er følgende nødvendig:**
+
+- Bekræft og, hvis nødvendigt, korriger TxGNN sygdomsknude-mapping, der er ansvarlig for forudsigelsen "trigeminalnervesvulst" (sandsynligvis blandet sammen med Sturge-Weber-syndrom)
+- Indhent det godkendte SmPC (advarsler, kontraindikationer) fra den danske Lægemiddelstyrelse eller et tilsvarende EMA-referenceprodukt for at lukke det blokerings-alvorligheds datahul
+- Indhent en bekræftet mekanisme-for-handling post fra DrugBank
+- Hvis du forfølger reflex-epilepsi kandidaterne (audiogene anfald, prikkelseepilepsi), få udarbejdet en målrettet litteraturgennemgang for at kontrollere for enhver menneskelig klinisk bevis ud over case reports
+- Givet lægemidlets ikke-markedsførte status i Danmark, vurder gennemførligheden af en navngivet-patient/importvej før yderligere evalueringsinvestering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

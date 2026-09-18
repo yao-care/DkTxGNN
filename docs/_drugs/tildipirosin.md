@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tildipirosin: From Veterinary Respiratory Infection to Leprosy (Predicted)
+# Tildipirosin: Fra Veterinær Respiratorisk Infektion til Lepra (Forudsagt)
 
-## One-Sentence Summary
+## Resumé i én Sætning
 
-Tildipirosin is a 16-membered macrolide antibiotic developed exclusively for veterinary use (respiratory disease in cattle and swine); it has never been approved or dosed in humans and holds no marketing authorisation in Denmark. The TxGNN model predicts a possible link to **Leprosy**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on structural analogy to other macrolides.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not applicable — veterinary antibacterial only (respiratory infections in cattle/swine); no human-approved indication exists |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Tildipirosin er et 16-medlemmet makrolid-antibiotikum udviklet udelukkende til veterinær brug (respiratoriske sygdomme hos kvæg og svin); det er aldrig blevet godkendt eller doseret hos mennesker og har ingen markedsautorisering i Danmark. TxGNN-modellen forudsiger et muligt link til **Lepra**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det hviler udelukkende på strukturel analogi til andre makrolider.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig Oversigt
 
-Detailed mechanism of action data for Tildipirosin is not available (flagged as a Blocking/High-severity data gap in the source pack). Based on known structural information, Tildipirosin is a 16-membered ring macrolide closely related to tilmicosin and tulathromycin, presumed — by analogy to this drug class — to bind the bacterial 50S ribosomal subunit and inhibit protein synthesis. It has no recorded use, dosing, or pharmacokinetic/toxicology data in humans.
-
-The link to leprosy is not entirely without pharmacological precedent: certain human macrolides (e.g., clarithromycin) do have established clinical activity against *Mycobacterium leprae*, and share the same general ribosomal binding mechanism. However, this is an analogy drawn from other members of the macrolide class, not from any direct evidence involving Tildipirosin itself.
-
-Because Tildipirosin has never been administered to humans, its applicability to leprosy cannot currently be assessed beyond this class-level mechanistic analogy. The absence of any human PK/PD, safety, or efficacy data represents a fundamental translational gap that must be resolved before this candidate can be meaningfully evaluated.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig Indikation | Ikke relevant — udelukkende veterinær antibakteriell (respiratoriske infektioner hos kvæg/svin); der eksisterer ingen godkendt humanindikation |
+| Forudsagt Ny Indikation | Lepra |
+| TxGNN Forudsigelsesscore | 99.01% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal Markedsautorisationer | 0 |
+| Anbefalet Afgørelse | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne Forudsigelse Rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme for tildipirosin er ikke tilgængelige (markeret som en blokerende/alvorlig datamangel i kildepakken). På baggrund af kendt strukturel information er tildipirosin en 16-medlemmet ring makrolid tæt beslægtet med tilmikosin og tulathromycin, antaget — ved analogi til denne lægemiddelklasse — at binde til det bakterielle 50S-ribosomale subunit og hæmme proteinsyntetese. Den har ingen registreret brug, dosering eller farmakokinet-/toksikologidata hos mennesker.
 
----
+Linket til lepra er ikke helt uden farmakologisk præcedens: visse humanmakrolider (f.eks. clarithromycin) har etableret klinisk aktivitet mod *Mycobacterium leprae* og deler den samme generelle ribosomale bindingsmekanisme. Dette er dog en analogi trukket fra andre medlemmer af makrolidklassen, ikke fra nogen direkte evidens, der involverer tildipirosin selv.
 
-## Denmark Market Information
-
-Tildipirosin holds no marketing authorisation in Denmark (0 licenses on record) and is not registered for human use. It is authorised in the EU only as a veterinary product (e.g., under the brand Zuprevo) for treatment of bovine and swine respiratory disease.
+Fordi tildipirosin aldrig er blevet administreret til mennesker, kan dets anvendelighed til lepra i øjeblikket ikke vurderes ud over denne klasse-niveau mekanistiske analogi. Fraværet af nogen som helst humanfarmakokinet/farmakodynamik-, sikkerhed- eller efficacy-data repræsenterer en fundamental translationel kløft, der skal løses, før denne kandidat meningsfuldt kan evalueres.
 
 ---
 
-## Safety Considerations
+## Klinisk Forsøgsevidenz
 
-No human safety data exist for Tildipirosin — key warnings, contraindications, and drug interaction data are all unavailable, and no Summary of Product Characteristics (SmPC) for human use exists because the product is not authorised for human administration. Safety must be established from first principles (nonclinical toxicology, first-in-human studies) rather than inferred from existing labeling.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteratursevidenz
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The prediction is model-derived only (L5, decision stage S0), with zero supporting clinical trials or literature, no human mechanism-of-action data, and no history of human administration for this veterinary-only compound. The gap between current evidence and a viable repurposing candidate is too large to proceed.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action and any available nonclinical pharmacology/toxicology data (DrugBank/EMA veterinary assessment reports)
-- Evidence that Tildipirosin (not just other macrolides) has antimycobacterial activity against *M. leprae*
-- A first-in-human safety/tolerability pathway, since no human dosing data exist
-- Ongoing monitoring for clinical trials or published literature on this drug-disease pair
+## Markedsinformation for Danmark
+
+Tildipirosin har ingen markedsautorisering i Danmark (0 licenser registreret) og er ikke registreret til humanforbrug. Det er i EU kun autoriseret som et veterinært produkt (f.eks. under mærket Zuprevo) til behandling af bovine og svinerespiratoriske sygdomme.
+
+---
+
+## Sikkerhedshensyn
+
+Der eksisterer ingen humane sikkerhedsdata for tildipirosin — vigtige advarsler, kontraindikationer og data om lægemiddelinteraktioner er alle utilgængelige, og der eksisterer intet resumé af produktegenskaber (SmPC) til humanforbrug, fordi produktet ikke er autoriseret til humanadministration. Sikkerhed skal etableres fra første princip (preklinisk toksikologi, first-in-human-studier) snarere end sluttet fra eksisterende labeling.
+
+---
+
+## Konklusion og Næste Skridt
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+Forudsigelsen er udelukkende modelafledt (L5, beslutningsstadium S0), uden nogen understøttende kliniske forsøg eller litteratur, ingen humane virkningsmekanismedata og ingen historie med humanadministration for dette udelukkende veterinært stof. Kløften mellem nuværende evidens og en levedygtig genovertolking er for stor til at fortsætte.
+
+**For at fortsætte kræves følgende:**
+- Bekræftet virkningsmekanisme og eventuelle tilgængelige prekliniske farmakologi-/toksikologidata (DrugBank/EMA-veterinære vurderingsrapporter)
+- Evidens for, at tildipirosin (ikke bare andre makrolider) har antimykobakteriel aktivitet mod *M. leprae*
+- En first-in-human sikkerhed-/tolerabilitetsvej, da der ikke eksisterer humane doseringsdata
+- Løbende overvågning for kliniske forsøg eller publiceret litteratur på dette lægemiddel-sygdomspar
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

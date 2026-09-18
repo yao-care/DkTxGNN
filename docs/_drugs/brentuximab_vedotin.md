@@ -29,116 +29,117 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brentuximab Vedotin: From CD30+ Lymphoma (Classical Hodgkin Lymphoma / Systemic ALCL) to Follicular Lymphoma
+# Brentuximab vedotin: Fra CD30+ lymfom (klassisk Hodgkins lymfom / systemisk ALCL) til follikulær lymfom
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Brentuximab vedotin (BV; Adcetris) is an anti-CD30 antibody-drug conjugate approved globally for the treatment of classical Hodgkin lymphoma (cHL) and systemic anaplastic large cell lymphoma (sALCL).
-The TxGNN model predicts it may be effective for **Follicular Lymphoma**, with **6 clinical trials** and **20 publications** currently supporting this direction.
-However, the majority of trials have been terminated or withdrawn, and the central clinical challenge remains the highly variable — and generally low — CD30 expression rate (~10–20%) across the follicular lymphoma patient population, making rigorous biomarker-driven patient selection essential.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Classical Hodgkin lymphoma (cHL); systemic anaplastic large cell lymphoma (sALCL) |
-| Predicted New Indication | Follicular Lymphoma |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Brentuximab vedotin (BV; Adcetris) er et anti-CD30-antistof-lægemiddelkonjugat, der er godkendt globalt til behandling af klassisk Hodgkins lymfom (cHL) og systemisk anaplastisk storcellet lymfom (sALCL).
+TxGNN-modellen forudsiger, at det kan være effektivt til **follikulær lymfom**, med **6 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning.
+Imidlertid er flertallet af forsøgene blevet afsluttet eller trukket tilbage, og den centrale kliniske udfordring forbliver den høje variabilitet – og generelt lave – CD30-ekspression (~10–20%) på tværs af patientpopulationen med follikulær lymfom, hvilket gør streng biomarkør-drevet patientudvælgelse afgørende.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Brentuximab vedotin is an antibody-drug conjugate (ADC) consisting of the anti-CD30 monoclonal antibody brentuximab linked via a protease-cleavable linker to MMAE (monomethyl auristatin E), a potent microtubule-disrupting cytotoxic agent. Upon binding to CD30-expressing tumour cells, the conjugate is internalised, MMAE is released intracellularly, and cell division is halted — ultimately inducing apoptosis. Detailed MOA data from DrugBank was not retrieved in this evidence pack and remains a data gap; however, the mechanism described above is well-established in the clinical literature and regulatory dossiers for BV's approved indications.
-
-CD30 is expressed at near-universal levels in cHL (~100%) and sALCL (~100%), underpinning BV's globally approved efficacy in those settings. Follicular lymphoma (FL) shares its B-lymphocyte origin with cHL, but critically, CD30 expression in FL is highly heterogeneous: approximately 10–20% of unselected FL cases are CD30-positive, with notably higher rates in Grade 3B FL and in cases undergoing histological transformation. Several Phase 2 trials investigating BV in FL have specifically mandated CD30 positivity as an inclusion criterion, validating the biomarker-driven rationale and confirming that patient selection is the key determinant of whether this mechanistic link translates to clinical benefit.
-
-The main concern tempering enthusiasm is the accumulated evidence of trial feasibility challenges. Multiple clinical programmes targeting CD30+ B-cell lymphomas — including FL — have been withdrawn or terminated primarily due to enrolment difficulties, which directly reflects how few FL patients screen positive for CD30. The one currently active and recruiting trial (NCT04587687) demonstrates sustained investigator interest, but results are not yet available. Until Phase 2 efficacy data mature from adequately CD30-selected FL cohorts, this indication warrants a cautious "Proceed with Guardrails" classification.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Phase 2 | Recruiting | 23 | BV + bendamustine in relapsed/refractory follicular lymphoma; the most directly relevant and currently active trial; expected completion December 2026; results pending |
-| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Phase 1/2 | Terminated | 20 | BV + rituximab as frontline therapy for CD30+ and/or EBV+ lymphomas, including FL; validated biomarker-driven patient selection; provided dose and tolerability data |
-| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Phase 2 | Terminated | 25 | Randomised: rituximab + bendamustine ± BV for R/R CD30+ DLBCL; terminated early due to slow accrual, illustrating real-world screening difficulties with CD30+ selection in B-cell lymphomas |
-| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Phase 2 | Withdrawn | 0 | Multicenter risk-stratified sequential rituximab + BV ± bendamustine in newly diagnosed CD20+/CD30+ PTLD; withdrawn prior to enrolment; no data generated |
-| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Phase 2 | Withdrawn | 0 | BV + bendamustine + rituximab in CD30+ R/R B-cell NHL; withdrawn before enrolment, echoing recurring recruitment barriers |
-| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Phase 2 | Withdrawn | 0 | BV + pembrolizumab in recurrent systemic PTCL; withdrawn before enrolment; limited direct FL relevance |
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Klassisk Hodgkins lymfom (cHL); systemisk anaplastisk storcellet lymfom (sALCL) |
+| Forudsagt ny indikation | Follikulær lymfom |
+| TxGNN-forudsigelsesscore | 99,89% |
+| Evidensniveau | L2 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+Brentuximab vedotin er et antistof-lægemiddelkonjugat (ADC), der består af det anti-CD30-monoklonale antistof brentuximab, der er forbundet via et protease-kløveligt linker til MMAE (monomethyl auristan E), et potent mikrotubuli-forstyrrende cytotoksisk stof. Når konjugatet binder til CD30-eksprimerende tumorceller, bliver det internaliseret, MMAE frigøres intracelluært, og celledeling standses – hvilket i sidste ende inducerer apoptose. Detaljerede MOA-data fra DrugBank blev ikke hentet i denne evidenspakke og forbliver et datahul; imidlertid er den ovenfor beskrevne mekanisme velkendt i den kliniske litteratur og regulatoriske dokumenter for BV's godkendte indikationer.
+
+CD30 eksprimeres ved næsten universelle niveauer i cHL (~100%) og sALCL (~100%), hvilket understøtter BV's globalt godkendte effektivitet i disse situationer. Follikulært lymfom (FL) deler sin B-lymfocyt-oprindelse med cHL, men kritisk er CD30-ekspression i FL meget heterogen: cirka 10–20% af uudvalgt FL-tilfælde er CD30-positive, med særlig høje satser i Grade 3B FL og i tilfælde, der undergår histologisk transformation. Flere fase 2-forsøg, der undersøger BV i FL, har specifikt foreskrevet CD30-positivitet som inklusionskriterium, hvilket validerer den biomarkør-drevne begrundelse og bekræfter, at patientudvælgelse er den vigtigste determinant for, hvorvidt denne mekanistiske sammenhæng omsættes til klinisk fordel.
+
+Hovedbetænkeligheden, der dæmper entusiasmen, er den akkumulerede evidens for udfordringer ved forsøgets gennemførlighed. Flere kliniske programmer, der målretter CD30+ B-celle lymfomer – herunder FL – er blevet trukket tilbage eller afsluttet primært på grund af indskrivningsvanskeligheder, hvilket direkte afspejler, hvor få FL-patienter screener positive for CD30. Det ene aktuelle og rekrutterende forsøg (NCT04587687) demonstrerer vedvarende efterforskerintresse, men resultater er endnu ikke tilgængelige. Indtil fase 2-effektivitetsdata modnes fra tilstrækkeligt CD30-udvalgte FL-kohorter, berettiger denne indikation en forsigtig klassificering som "Fortsæt med sikkerhedsforanstaltninger".
+
+---
+
+## Evidens fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtige fund |
+|---------|------|--------|------|---------|
+| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Fase 2 | Rekrutterer | 23 | BV + bendamustin i relapseret/refraktær follikulær lymfom; det mest direkte relevante og aktuelle forsøg; forventet afslutning december 2026; resultater afventer |
+| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Fase 1/2 | Afsluttet | 20 | BV + rituximab som førstelinieterapi for CD30+ og/eller EBV+ lymfomer, herunder FL; valideret biomarkør-drevet patientudvælgelse; gav dose- og tolerabilitetdata |
+| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Fase 2 | Afsluttet | 25 | Randomiseret: rituximab + bendamustin ± BV for R/R CD30+ DLBCL; afsluttet tidligt på grund af langsom tilgang, hvilket illustrerer virkelige screeningsvanskeligheder med CD30+ udvælgelse i B-celle lymfomer |
+| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Fase 2 | Trukket tilbage | 0 | Multicenter risikostratificeret sekventiel rituximab + BV ± bendamustin i nyt diagnosticeret CD20+/CD30+ PTLD; trukket tilbage før indskrivning; ingen data genereret |
+| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Fase 2 | Trukket tilbage | 0 | BV + bendamustin + rituximab i CD30+ R/R B-celle NHL; trukket tilbage før indskrivning, hvilket gentager tilbagevendende rekrutteringsvanskeligheder |
+| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Fase 2 | Trukket tilbage | 0 | BV + pembrolizumab i tilbagevendende systemisk PTCL; trukket tilbage før indskrivning; begrænset direkte FL-relevans |
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Vigtige fund |
 |------|-----|------|------|---------|
-| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Phase 2 Trial | Blood Advances | BV + gemcitabine in R/R PTCL (≥5% CD30+) followed by BV maintenance; reports ORR after 4 induction cycles; directly informs CD30 threshold methodology applicable to FL biomarker selection |
-| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | Prospective Cohort | Advances in Therapy | Real-world BV + cyclophosphamide/epirubicin/prednisone in untreated CD30+ NHL (including PTCL-TFH, ALCL, AITL); supports frontline BV utility across CD30+ lymphoid malignancies |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leukemia Research Reports | Immunotherapy in indolent NHL including FL, MZL, and CLL/SLL; contextualises the role of novel targeted agents including ADCs within the current FL treatment landscape |
-| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case Report | Gulf Journal of Oncology | Grade I FL transformed to CD30+ ALK1– ALCL achieved complete response with BV + high-dose methotrexate; directly demonstrates BV efficacy when FL acquires CD30 expression upon transformation |
-| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | Retrospective Cohort | European Journal of Haematology | BV + ifosfamide/carboplatin/etoposide (ICE) in R/R PTCL; confirms BV combinability with salvage chemotherapy backbones of relevance to FL salvage strategies |
-| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Evolving treatment paradigms for nodal PTCLs (PTCL-NOS, ALCL, T-follicular helper lymphomas); BV + CHP now incorporated frontline for CD30+ disease; key background on CD30-targeted therapy |
-| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Review | Hematology (ASH Education Program) | BV and novel agents in PTCL management; discusses biomarker-driven selection strategies directly applicable to the CD30-positive FL subpopulation approach |
-| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Review | Bone Marrow Transplantation | Post-ASCT maintenance in lymphoma; rituximab maintenance established in FL; BV consolidation post-ASCT discussed in high-risk HL — relevant to maintenance strategy considerations in FL |
-| [40517441](https://pubmed.ncbi.nlm.nih.gov/40517441/) | 2025 | Review | Hematological Oncology | Comprehensive review of PTCL biology and emerging therapies; provides broad context for CD30-directed ADC use across lymphoid malignancies |
-| [28340875](https://pubmed.ncbi.nlm.nih.gov/28340875/) | 2017 | Review | Hematology/Oncology Clinics of North America | Angioimmunoblastic T-cell lymphoma (a follicular T-helper-derived neoplasm); discusses BV among newer approaches; relevant to understanding CD30 expression in follicular-lineage lymphomas |
+| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Fase 2-forsøg | Blood Advances | BV + gemcitabin i R/R PTCL (≥5% CD30+) efterfulgt af BV-vedligeholdelse; rapporterer ORR efter 4 induktionscyklusser; informerer direkte CD30-tærskelmetodologi, der kan anvendes på FL-biomarkørvalg |
+| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | Prospektiv kohortestudie | Advances in Therapy | Real-world BV + cyclophosphamid/epirubicin/prednison i ubehandlet CD30+ NHL (herunder PTCL-TFH, ALCL, AITL); understøtter førstelinje BV-nyttighed på tværs af CD30+ lymfoide malignansier |
+| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Oversigt | Leukemia Research Reports | Immunoterapi i indolent NHL herunder FL, MZL og CLL/SLL; kontekstualiserer rollen af nye målrettede agentser, herunder ADC'er, inden for det nuværende FL-behandlingslandskab |
+| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Sagsbeskrivelse | Gulf Journal of Oncology | Grade I FL transformeret til CD30+ ALK1– ALCL opnåede komplet respons med BV + højdosis methotrexat; demonstrerer direkte BV-effektivitet, når FL erhverver CD30-ekspression ved transformation |
+| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | Retrospektiv kohortestudie | European Journal of Haematology | BV + ifosfamid/carboplatin/etoposid (ICE) i R/R PTCL; bekræfter BV-kombinabilitet med salvage-kemoterapibasaliner af relevans for FL salvage-strategier |
+| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Oversigt | Blood | Udvikling af behandlingsparadigmer for nodalt PTCL'er (PTCL-NOS, ALCL, T-folliculær hjælper lymfomer); BV + CHP nu inkorporeret førstelinje for CD30+-sygdom; vigtige baggrund om CD30-målrettet terapi |
+| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Oversigt | Hematology (ASH Education Program) | BV og nye agentser i PTCL-ledelse; diskuterer biomarkør-drevet udvælgelsesstrategi direkte anvendelig på tilgangen til CD30-positiv FL-subpopulation |
+| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Oversigt | Bone Marrow Transplantation | Post-ASCT-vedligeholdelse i lymfom; rituximab-vedligeholdelse etableret i FL; BV-konsolidering post-ASCT diskuteret i høj-risiko HL – relevant for vedligeholdelsesstrategi-overvejelser i FL |
+| [40517441](https://pubmed.ncbi.nlm.nih.gov/40517441/) | 2025 | Oversigt | Hematological Oncology | Omfattende oversigt over PTCL-biologi og nye terapier; giver bredt kontekst for CD30-rettet ADC-brug på tværs af lymfoide malignansier |
+| [28340875](https://pubmed.ncbi.nlm.nih.gov/28340875/) | 2017 | Oversigt | Hematology/Oncology Clinics of North America | Angioimmunoblastisk T-celle lymfom (en folliculær T-hjælper-afledt neoplasme); diskuterer BV blandt nyere tilgange; relevant for forståelse af CD30-ekspression i folliculær-linjelymfomer |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Brentuximab vedotin (Adcetris) currently holds **no marketing authorisations in Denmark** and is listed as not marketed. The total number of licences on record with Lægemiddelstyrelsen is zero.
+Brentuximab vedotin (Adcetris) har i øjeblikket **ingen markedsføringstilladelser i Danmark** og er anført som ikke markedsført. Det samlede antal tilladelser, der er registreret hos Lægemiddelstyrelsen, er nul.
 
-For reference, brentuximab vedotin holds a centralised EMA marketing authorisation (EU/1/12/794, Adcetris, Takeda) valid across the EU/EEA for the following approved indications: previously untreated stage III–IV cHL, relapsed/refractory cHL after ASCT, relapsed/refractory sALCL, CD30+ cutaneous T-cell lymphoma (mycosis fungoides), and CD30+ peripheral T-cell lymphoma. Access for Danish patients under currently approved indications would require application through a compassionate use or named patient programme (§ 29a, Lægemiddelloven) via Lægemiddelstyrelsen.
+Som reference har brentuximab vedotin en centraliseret EMA-markedsføringstilladelse (EU/1/12/794, Adcetris, Takeda), der er gyldig på tværs af EU/EØS for følgende godkendte indikationer: tidligere ubehandlet stadium III–IV cHL, relapseret/refraktær cHL efter ASCT, relapseret/refraktær sALCL, CD30+ kutant T-celle lymfom (mycosis fungoides) og CD30+ perifert T-celle lymfom. Adgang for danske patienter under i øjeblikket godkendte indikationer ville kræve ansøgning gennem et compassionate use- eller navngiven patient-program (§ 29a, Lægemiddelloven) via Lægemiddelstyrelsen.
 
-There are no Danish national marketing authorisation numbers, product names, dosage forms, or approved indications to tabulate at this time.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Antibody-Drug Conjugate (ADC); anti-CD30 monoclonal antibody (brentuximab) conjugated to MMAE (monomethyl auristatin E), a microtubule polymerisation inhibitor |
-| Myelosuppression Risk | Moderate-to-High — neutropenia is the most commonly reported Grade ≥3 adverse event in pivotal trials (occurring in ~55% of patients in cHL studies); thrombocytopenia and anaemia also observed; myelosuppression risk is compounded when BV is used in combination with chemotherapy |
-| Emetogenicity Classification | Low (BV monotherapy is classified as low emetogenic potential per MASCC/ESMO/ASCO guidelines; combination regimens may elevate this classification) |
-| Monitoring Items | Complete blood count with differential (prior to each cycle), liver function tests (ALT, AST, bilirubin — particularly with CYP3A4-metabolised combinations), renal function, neurological assessment at each visit (peripheral sensory and motor neuropathy is the most clinically significant cumulative toxicity), pulmonary function monitoring (risk of non-infectious pulmonary toxicity / pneumonitis) |
-| Handling Protection | Must be handled in accordance with cytotoxic drug handling regulations; the MMAE payload is a potent auristatin; preparation requires trained oncology pharmacy personnel, biological safety cabinet, closed-system drug transfer devices, and full cytotoxic PPE per institutional and national guidelines |
+Der er ingen danske nationale markedsføringsnumre, produktnavne, lægemiddelformer eller godkendte indikationer at tabulere på dette tidspunkt.
 
 ---
 
-## Safety Considerations
+## Cytotoksicitet
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for Adcetris (EU/1/12/794) available via the EMA product database for full safety information, including boxed warnings, peripheral neuropathy management guidelines, PML risk, and infusion reaction management.
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoksicitetsklassifikation | Målrettet terapi – Antistof-lægemiddelkonjugat (ADC); anti-CD30-monoklonalt antistof (brentuximab) konjugeret til MMAE (monomethyl auristan E), en mikrotubuli-polymerisationsinhibitor |
+| Myelosuppressionrisiko | Moderat-til-høj – neutropeni er den hyppigst rapporterede grad ≥3 bivirkning i pivotale forsøg (forekommer i ~55% af patienterne i cHL-studier); trombocytopeni og anæmi observeres også; myelosuppressionrisiko er øget, når BV anvendes i kombination med kemoterapeutika |
+| Emetogenicitetsklassifikation | Lav (BV-monoterapi klassificeres som lavt emetogent potentiale pr. MASCC/ESMO/ASCO-retningslinjer; kombinationsregimer kan hæve denne klassificering) |
+| Overvågningspunkter | Fuldblodsbillede med differentialtal (forud for hver cykel), leverenzymer (ALT, AST, bilirubin – særligt ved CYP3A4-metaboliserede kombinationer), nyrenfunktion, neurologisk vurdering ved hver besøg (perifer sensor og motorisk neuropati er den mest klinisk signifikante kumulative toksicitet), pulmonale funktionsvurdering (risiko for ikke-infektiøs pulmonal toksicitet / pneumonitis) |
+| Håndteringsværn | Skal håndteres i overensstemmelse med reglerne for håndtering af cytotoksiske lægemidler; MMAE-lasten er et potent auristan; præparation kræver uddannet onkologisk farmaceut, biologisk sikkerhedsboks, lukket systemlægemiddeltransfersystem og fuldt cytotoksisk beskyttelsesudstyr pr. institutionelle og nationale retningslinjer |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte Produktinformationsdokument (SmPC) for Adcetris (EU/1/12/794), der er tilgængeligt via EMA's produktdatabase, for fuldstændig sikkerhedsinformation, herunder vigtige sikkerhedsadvarsler, retningslinjer for styringsring af perifer neuropati og håndtering af infusionsreaktioner.
 
-**Rationale:**
-There is a biologically coherent CD30-targeting mechanism in CD30-positive FL subpopulations and one actively recruiting Phase 2 trial (NCT04587687), but the overall FL population has low CD30 expression (~10–20%), no completed Phase 2/3 trial has reported positive efficacy data in FL to date, and repeated enrolment failures across multiple trials signal real-world implementation barriers that must be addressed before broader clinical deployment.
+---
 
-**To proceed, the following is needed:**
+## Konklusion og næste trin
 
-- **Awaited efficacy results** from NCT04587687 (Phase 2, BV + bendamustine in R/R FL; estimated completion December 2026) — this is the pivotal missing dataset
-- **CD30 expression prevalence mapping** in the Danish FL patient population (incidence and distribution of CD30+ FL cases across Danish haematology centres), to assess local feasibility
-- **Definition of CD30 positivity threshold** for patient selection — current trials use heterogeneous cut-offs (e.g., ≥1%, ≥5%, ≥10% by IHC); a harmonised threshold is needed before a Danish study or compassionate use programme can be designed
-- **Full safety profile review**: retrieve and review the EMA SmPC for Adcetris (EU/1/12/794), with particular attention to peripheral neuropathy (dose-limiting, cumulative), progressive multifocal leukoencephalopathy (PML) risk, hepatotoxicity, and infusion reaction profiles
-- **Mechanism of action data gap resolution**: DrugBank MOA data should be retrieved (currently marked as a blocking gap — DG002) to support mechanistic rationale documentation
-- **Access pathway assessment**: coordinate with Lægemiddelstyrelsen to explore named patient programme (§ 29a) or compassionate use options for eligible CD30+ FL patients in Denmark, given current non-marketed status
-- **Health technology assessment consideration**: given the EMA approval status (cHL/ALCL/CTCL/PTCL), evaluate whether an indication extension or off-label use framework would be required under Danish reimbursement regulations (Medicinrådet) for a FL indication
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.
+**Begrundelse:**
+Der er en biologisk sammenhængende CD30-målrettet mekanisme i CD30-positive FL-subpopulationer og et aktivt rekrutterende fase 2-forsøg (NCT04587687), men den samlede FL-population har lav CD30-ekspression (~10–20%), intet afsluttet fase 2/3-forsøg har rapporteret positive effektivitetsdata i FL til dato, og gentagne indskrivningsfejl på tværs af flere forsøg signalerer virkelige implementeringshindringer, der skal behandles, før bredere klinisk implementering.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Afventede effektivitetsresultater** fra NCT04587687 (fase 2, BV + bendamustin i R/R FL; forventet afslutning december 2026) – dette er det afgørende manglende datasæt
+- **CD30-ekspression-prævalenskortlægning** i den danske FL-patientpopulation (incidens og fordeling af CD30+ FL-tilfælde på tværs af danske hæmatologicentre) for at vurdere lokal gennemførlighed
+- **Definition af CD30-positivitetstærskel** for patientudvælgelse – nuværende forsøg bruger heterogene cut-offs (f.eks. ≥1%, ≥5%, ≥10% ved IHC); en harmoniseret tærskel er nødvendig, før en dansk undersøgelse eller compassionate use-program kan designes
+- **Fuld sikkerhedsprofil-gennemgang**: hent og gennemgå EMA SmPC for Adcetris (EU/1/12/794), med særligt fokus på perifer neuropati (dosisbegrænsende, kumulativ), risiko for progressivt multifokalt leukoencephalopati (PML), hepatotoksicitet og infusionsreaktionsprofiler
+- **Mekanisme af handling datahul-løsning**: DrugBank MOA-data skal hentes (i øjeblikket markeret som en blokeringshul – DG002) for at understøtte dokumentation af mekanistisk begrundelse
+- **Adgangsvejsvurdering**: koordiner med Lægemiddelstyrelsen for at udforske navngiven patient-program (§ 29a) eller compassionate use-muligheder for berettigede CD30+ FL-patienter i Danmark, givet nuværende ikke-markedsført status
+- **Sundhedsteknologivurderingshensyn**: givet EMA-godkendelsesstatusen (cHL/ALCL/CTCL/PTCL), vurder, om en indikationsudvidelse eller off-label brugsramme ville være påkrævet under danske refusionsregler (Medicinrådet) for en FL-indikation
+
+> **Ansvarsfraskrivelse:** Denne rapport er til forskningsbrug kun og udgør ikke medicinsk rådgivning. Alle lægemiddelgenbrugskandidater kræver klinisk validering før terapeutisk anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

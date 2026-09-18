@@ -29,75 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+# Oxibutynin: Fra overaktiv blære til Restless Legs Syndrom
 
-## One-Sentence Summary
+## Ét-sætnings Sammenfatning
 
-Oxybutynin is an antimuscarinic (M1/M3) receptor antagonist whose established pharmacology targets bladder detrusor overactivity, i.e. overactive bladder / urinary incontinence. The TxGNN model predicts potential efficacy for **Restless Legs Syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the proposed target mechanism has no established pharmacological link to RLS pathophysiology.
+Oxibutynin er en antimuskarinerge (M1/M3) receptorantagonist, hvis etablerede farmakologi sigter mod blærens detrusor-overaktivitet, dvs. overaktiv blære / urininkontinens. TxGNN-modellen forudsiger potentiel effekt for **Restless Legs Syndrom**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og den foreslåede målmekanisme har ingen etableret farmakologisk forbindelse til RLS-patofysiologi.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Overactive bladder / urinary incontinence (inferred from stated mechanism of action; no formal indication text available in regulatory data) |
-| Predicted New Indication | Restless Legs Syndrome |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indikation | Overaktiv blære / urininkontinens (udledt fra angivet virkningsmekanisme; ingen formel indikationstekst tilgængelig i regulatoriske data) |
+| Forudsagt Ny Indikation | Restless Legs Syndrom |
+| TxGNN Forudsigelsesscore | 99.74% |
+| Evidensniveau | L5 |
+| Dansk Markedsstatus | Ikke Markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-A formal DrugBank mechanism-of-action record is not currently available for oxybutynin. Based on the mechanistic description accompanying this prediction, oxybutynin acts as a muscarinic (M1/M3) receptor antagonist, with its established pharmacological effect directed at reducing bladder detrusor muscle overactivity — the basis for its conventional use in overactive bladder and urinary incontinence.
+En formel virkningsmekanisme-registrering fra DrugBank er i øjeblikket ikke tilgængelig for oxibutynin. Baseret på den mekanistiske beskrivelse, der følger med denne forudsigelse, virker oxibutynin som en muskarinerge (M1/M3) receptorantagonist, hvis etablerede farmakologiske virkning er rettet mod reduktion af overaktivitet i blærens detrusor-muskulatur — grundlaget for dets konventionelle brug ved overaktiv blære og urininkontinens.
 
-Restless Legs Syndrome, however, is understood to arise primarily from central dopaminergic neurotransmission abnormalities and disrupted iron metabolism, not from peripheral or central muscarinic receptor activity. There is no established anticholinergic pathway implicated in RLS pathophysiology or its current treatment paradigm (dopamine agonists, alpha-2-delta ligands, iron repletion).
+Restless Legs Syndrom forstås imidlertid at opstå primært fra centrale dopaminergiske neurotransmissions-forstyrrelser og forstyrret jernmetabolisme, ikke fra perifer eller central muskarinerge receptoraktivitet. Der er ingen etableret antikolinerge signalvej involveret i RLS-patofysiologi eller dens nuværende behandlingsparadigme (dopaminagonister, alpha-2-delta ligander, jerntilskud).
 
-Given this, the very high TxGNN score (99.74%) should be interpreted as a statistical association derived from the knowledge graph's structure rather than a mechanistically or clinically validated relationship. With zero supporting clinical trials and zero supporting publications, this combination — a high model score without mechanistic plausibility or empirical evidence — is a caution signal rather than a genuine repurposing lead, consistent with the assigned L5 evidence level and Hold recommendation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Set i dette perspektiv bør TxGNN-scoren på meget høj niveau (99.74%) tolkes som en statistisk association afledt af kunskabsgrafens struktur snarere end som et mekanistisk eller klinisk valideret forhold. Med nul understøttende kliniske forsøg og nul understøttende publikationer er denne kombination — en høj modelcore uden mekanistisk plausibilitet eller empirisk evidens — et advarselssignal snarere end et ægte gendoserings-kandidat, i overensstemmelse med det tildelte L5-evidensniveau og Afvent-anbefaling.
 
 ---
 
-## Literature Evidence
+## Klinisk Forsøgs Evidens
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Currently no marketing authorisation registered in Denmark. Market status: **Not Marketed** (0 authorisations).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteratur Evidens
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Der er i øjeblikket ingen markedsføringstilladelse registreret i Danmark. Markedsstatus: **Ikke Markedsført** (0 tilladelser).
 
-**Rationale:**
-The prediction rests on a high TxGNN graph score alone, with no clinical trials, no supporting literature, and no established mechanistic pathway connecting oxybutynin's antimuscarinic action to RLS pathophysiology. The drug is also not currently marketed in Denmark, and core safety data (warnings, contraindications, DDI) are entirely unavailable.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and SmPC/label text (Danish or EU authorisation record)
-- Verified mechanism-of-action data from DrugBank or an equivalent pharmacology source
-- Danish/EU safety data: key warnings, contraindications, and drug interaction profile
-- Preclinical or mechanistic evidence directly linking anticholinergic activity to an RLS-relevant pathway, before further clinical evaluation is warranted
-- Note: a lower-ranked candidate indication in this evidence pack (peptic ulcer disease) has 3 supporting literature citations, though one reports oxybutynin-induced reflux esophagitis — a conflicting safety signal that would need separate evaluation if pursued
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Forudsigelsen hviler alene på en høj TxGNN-grafscore, uden kliniske forsøg, uden understøttende litteratur, og uden etableret mekanistisk vej, der forbinder oxibutynins antimuskarinerge virkning til RLS-patofysiologi. Lægemidlet er desuden ikke i øjeblikket markedsført i Danmark, og væsentlige sikkerhedsdata (advarsler, kontraindikationer, DDI) er helt utilgængelige.
+
+**For at fortsætte er følgende nødvendigt:**
+- Bekræftet originalindikation og SmPC/etiket-tekst (dansk eller EU-godkendelses-dokumentation)
+- Verificeret virkningsmekanisme-data fra DrugBank eller en tilsvarende farmakologi-kilde
+- Danske/EU sikkerhedsdata: vigtige advarsler, kontraindikationer, og lægemiddelinteraktions-profil
+- Præ-klinisk eller mekanistisk evidens, der direkte forbinder antikolinerge aktivitet til en RLS-relevant signalvej, inden yderligere klinisk evaluering er berettiget
+- Bemærk: en lavere-rangeret kandidat-indikation i denne evidenspakke (mavesår) har 3 understøttende litteratur-citationer, selvom én rapporterer oxibutynin-induceret refluksøsofagitis — et modsigelsesfuldt sikkerhedssignal, som ville kræve særskilt evaluering, hvis det forfølges
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

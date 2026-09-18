@@ -29,87 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Metreleptin: From Generalized Lipodystrophy to Familial Generalized Lentiginosis
+# Metreleptin: Fra Generaliseret Lipodystrofi til Familiær Generaliseret Lentiginosis
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Metreleptin is a recombinant analogue of human leptin, approved in other jurisdictions as a leptin replacement therapy for patients with congenital or acquired generalised lipodystrophy.
-The TxGNN model predicts it may be effective for **Familial Generalized Lentiginosis** with a prediction score of **99.71%**.
-However, **no clinical trials and no published literature** currently support this direction, placing this prediction at the lowest evidence tier (L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Generalised lipodystrophy (leptin deficiency replacement therapy) |
-| Predicted New Indication | Familial Generalized Lentiginosis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Metreleptin er et rekombinant analogon af humant leptin, godkendt i andre jurisdiktioner som leptin-erstatningsterapi for patienter med medfødt eller erhvervet generaliseret lipodystrofi.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Familiær Generaliseret Lentiginosis** med en forudsigelsesscore på **99.71%**.
+Der findes dog **ingen kliniske forsøg og ingen publiceret litteratur**, der understøtter denne retning, hvilket placerer denne forudsigelse på det laveste bevisniveau (L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, Metreleptin is a recombinant methionyl-human leptin analogue that acts as a leptin receptor (LEP-R) agonist. Its primary therapeutic role is to replace deficient endogenous leptin in patients with generalised lipodystrophy, thereby restoring downstream signalling through the JAK2–STAT3 and PI3K–AKT pathways to regulate energy homeostasis, insulin sensitivity, and appetite.
-
-Familial generalised lentiginosis is a rare genetic disorder characterised by widespread cutaneous hyperpigmentation caused by mutations in the RAS/MAPK signalling pathway (commonly *PTPN11*). The pathological mechanism is fundamentally distinct from leptin deficiency: it involves aberrant melanocyte proliferation driven by dysregulated RAS–RAF–MEK–ERK signalling, with no established direct crossover to leptin receptor signalling. While leptin signalling (via JAK-STAT3) and RAS/MAPK pathway components share some downstream convergence points in theory, no published preclinical or clinical evidence supports a therapeutic link.
-
-The high TxGNN prediction score most likely reflects indirect graph-proximity effects within the knowledge graph, where Metreleptin's connections to rare metabolic and genetic syndrome nodes cause it to cluster near rare pigmentary disorders such as familial generalised lentiginosis, gastrocutaneous syndrome, and Moynahan syndrome (LEOPARD syndrome). This is a recognised limitation of graph-based predictions for highly connected hub nodes: the score reflects network topology rather than a validated mechanistic hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig Indikation | Generaliseret lipodystrofi (leptin-mangelerstatterterapi) |
+| Forudsagt Ny Indikation | Familiær Generaliseret Lentiginosis |
+| TxGNN-forudsigelsesscore | 99.71% |
+| Bevisniveau | L5 |
+| Danmarks Markedsstatus | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er Denne Forudsigelse Rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne evidenspakke. Baseret på kendt farmakologi er metreleptin et rekombinant methionyl-human leptin-analogon, der virker som en leptin-receptor (LEP-R) agonist. Dets primære terapeutiske rolle er at erstatte deficient endogent leptin hos patienter med generaliseret lipodystrofi, hvorved nedstrøms signalering gennem JAK2–STAT3- og PI3K–AKT-veje genoprettes for at regulere energihomeostase, insulinfølsomhed og appetit.
 
----
+Familiær generaliseret lentiginosis er en sjælden genetisk lidelse karakteriseret ved udbredt kutant hyperpigmentering forårsaget af mutationer i RAS/MAPK-signaleringsveje (almindeligvis *PTPN11*). Den patologiske mekanisme er fundamentalt forskellig fra leptin-mangel: den involverer aberrant melanocyt-proliferation drevet af dårligt reguleret RAS–RAF–MEK–ERK-signalering, uden nogen etableret direkte overgang til leptin-receptor-signalering. Selvom leptin-signalering (via JAK-STAT3) og RAS/MAPK-vejkomponenter teoretisk deler nogle nedstrøms konvergenspunkter, er der ingen publiceret præ-klinisk eller klinisk evidens, der understøtter en terapeutisk forbindelse.
 
-## Denmark Market Information
-
-Metreleptin is not currently authorised or marketed in Denmark. No national (Lægemiddelstyrelsen) or centralised (EMA) marketing authorisations are recorded in this dataset.
-
-> **Note for reviewers:** Metreleptin is marketed as **Myalepta** (brand name) by Amryt Pharmaceuticals in some European countries under EMA centralised procedure for generalised lipodystrophy. Prescribers should verify current EMA/Lægemiddelstyrelsen authorisation status directly before any clinical consideration.
+Den høje TxGNN-forudsigelsesscore afspejler sandsynligvis indirekte graf-nærhedseffekter inden for vidensgrafenen, hvor metreleptins forbindelser til sjælden metabolisk og genetisk syndrom-knuder får det til at klynge tæt på sjælden pigmenterings-lidelser såsom familiær generaliseret lentiginosis, gastrokutan syndrom og Moynahan-syndrom (LEOPARD-syndrom). Dette er en anerkendt begrænsning for graf-baserede forudsigelser for meget forbundne hub-knuder: scoren afspejler nettopologi snarere end en valideret mekanistisk hypotese.
 
 ---
 
-## Safety Considerations
+## Evidens fra Kliniske Forsøg
 
-Safety data (key warnings, contraindications, and drug interactions) are not available in this Evidence Pack.
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteratursevidens
 
-**Decision: Hold**
-
-**Rationale:**
-There is no clinical trial evidence, no published literature, and no established mechanistic basis linking Metreleptin to familial generalised lentiginosis. The TxGNN prediction score of 99.71% appears to reflect indirect knowledge-graph topology (proximity among rare genetic syndrome nodes) rather than a biologically plausible repurposing hypothesis. The drug is also not authorised in Denmark, adding a further regulatory barrier. Proceeding without foundational evidence would not be a responsible use of research resources.
-
-**To proceed, the following is needed:**
-
-- **Mechanistic validation**: Establish whether any direct or indirect crossover exists between leptin receptor (JAK-STAT3) signalling and the RAS/MAPK–melanocyte axis implicated in familial generalised lentiginosis, ideally through pathway analysis or cell-line studies.
-- **Literature search expansion**: Conduct a targeted PubMed/EMBASE search using broader MeSH terms (e.g., "leptin AND pigmentation", "leptin AND RAS/MAPK") to identify any tangential evidence.
-- **MOA data retrieval**: Obtain full DrugBank entry for Metreleptin (DB09046) to confirm mechanism of action, pharmacodynamic targets, and known off-target interactions.
-- **Safety profile review**: Retrieve the full SmPC/product label from the EMA or an authorising authority to assess contraindications, warnings, and drug interaction profile before any further evaluation.
-- **Regulatory pathway assessment**: If mechanistic plausibility is later established, consult Lægemiddelstyrelsen regarding the regulatory pathway for a non-authorised medicinal product in Denmark (e.g., named-patient / compassionate use or full MA application).
-- **Re-evaluation of prediction context**: Consider whether the TxGNN high-score cluster (familial generalised lentiginosis, gastrocutaneous syndrome, Moynahan syndrome) reflects a genuine biological signal or a graph artefact — peer review of the knowledge-graph subgraph around *LEP-R* and these syndrome nodes is recommended.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-> *This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application. All content should be reviewed by qualified healthcare professionals before any clinical or regulatory decision is made.*
+## Danmarks Markedsinformationer
+
+Metreleptin er ikke i øjeblikket godkendt eller markedsført i Danmark. Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser er registreret i dette datasæt.
+
+> **Bemærkning for anmeldere:** Metreleptin markedsføres som **Myalepta** (handelsnavn) af Amryt Pharmaceuticals i nogle europæiske lande under EMA's centraliserede procedure for generaliseret lipodystrofi. Ordinatorer bør bekræfte nuværende EMA/Lægemiddelstyrelsen-godkendelsesstatus direkte før eventuel klinisk overvejelse.
+
+---
+
+## Sikkerhedshensyn
+
+Sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i denne evidenspakke.
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Der er ingen klinisk forsøgseviddens, ingen publiceret litteratur og intet etableret mekanistisk grundlag, der forbinder metreleptin til familiær generaliseret lentiginosis. TxGNN-forudsigelsesscore på 99.71% ser ud til at afspejle indirekte vidensgraf-topologi (nærhed blandt sjælden genetisk syndrom-knuder) snarere end en biologisk plausibel genanvendelseshypotese. Lægemidlet er heller ikke godkendt i Danmark, hvilket tilføjer en yderligere regulatorisk barriere. At fortsætte uden grundlæggende evidens ville ikke være ansvarlig anvendelse af forskningsressourcer.
+
+**For at fortsætte kræves følgende:**
+
+- **Mekanistisk validering**: Fastslå, om der eksisterer en direkte eller indirekte overgang mellem leptin-receptor (JAK-STAT3) signalering og RAS/MAPK–melanocyt-aksen, der er impliceret i familiær generaliseret lentiginosis, ideelt gennem vejanalyse eller celle-linje-studier.
+- **Udvidelse af litteratursøgning**: Gennemfør en målrettet PubMed/EMBASE-søgning med bredere MeSH-termer (f.eks. "leptin AND pigmentation", "leptin AND RAS/MAPK") for at identificere eventuel tangentiel evidens.
+- **MOA-data-hentning**: Indhent fuldt DrugBank-opslag for metreleptin (DB09046) for at bekræfte virkningsmekanisme, farmakodynamiske mål og kendte off-target-interaktioner.
+- **Sikkerhedsprofil-gennemgang**: Hent det fulde Produktresumé/produktetiket fra EMA eller en autoriserende myndighed for at vurdere kontraindikationer, advarsler og lægemiddelinteraktionsprofil før yderligere evaluering.
+- **Regulatorisk vejvurdering**: Hvis mekanistisk plausibilitet senere etableres, konsultér Lægemiddelstyrelsen vedrørende den regulatoriske vej for et ikke-godkendt lægemiddel i Danmark (f.eks. navngivet patient / medlidende brug eller fuldstændig MA-ansøgning).
+- **Genvurdering af forudsigelseskontekst**: Overvej, om TxGNN-høj-score-klyngen (familiær generaliseret lentiginosis, gastrokutan syndrom, Moynahan-syndrom) afspejler et ægte biologisk signal eller en grafartefakt — fagfællebedømmelse af vidensgraf-undergrafen omkring *LEP-R* og disse syndrom-knuder anbefales.
+
+---
+
+> *Denne rapport er genereret til forskningsreferencebrug alene og udgør ikke medicinsk rådgivning. Genanvendelseskandidater for lægemidler kræver klinisk validering før enhver anvendelse. Alt indhold bør gennemgås af kvalificerede sundhedsfaglige personer før enhver klinisk eller regulatorisk beslutning træffes.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

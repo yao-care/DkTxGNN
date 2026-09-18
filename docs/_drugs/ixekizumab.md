@@ -29,76 +29,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ixekizumab: From Psoriasis to Rheumatoid Vasculitis
+# Ixekizumab: Fra psoriasis til rheumatoid vaskulitis
 
-## One-Sentence Summary
+## Kort sammenfatning
 
-Ixekizumab is an anti-IL-17A monoclonal antibody originally used for psoriasis and related Th17-driven inflammatory diseases. The TxGNN model predicts it may be relevant to **Rheumatoid Vasculitis**, but this direction is currently supported only by **1 low-relevance clinical trial** and **0 publications**, and the underlying mechanistic rationale is contested.
+Ixekizumab er et anti-IL-17A monoklonalt antistof, oprindeligt brugt til psoriasis og relaterede Th17-drevne inflammatoriske sygdomme. TxGNN-modellen forudsiger, at det kan være relevant for **Rheumatoid vaskulitis**, men denne retning understøttes i øjeblikket kun af **1 klinisk prøve med lav relevans** og **0 publikationer**, og det underliggende mekanistiske rationale er omstridt.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Psoriasis / psoriatic arthritis / ankylosing spondylitis (based on known drug class; no Danish marketing-authorisation record available) |
-| Predicted New Indication | Rheumatoid Vasculitis |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Psoriasis / psoriasisarthritis / ankyloserende spondylitis (baseret på kendt lægemiddelklasse; ingen dansk markedsføringstilladelsespost tilgængelig) |
+| Forudsagt ny indikation | Rheumatoid vaskulitis |
 | TxGNN Prediction Score | 97.53% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afhold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available on file for this candidate (marked as a data gap). Based on known drug class information, Ixekizumab is an anti-IL-17A monoclonal antibody, originally developed for Th17-driven inflammatory diseases — psoriasis, psoriatic arthritis, and ankylosing spondylitis.
+Detaljerede virkningsmekanisme-data er ikke tilgængelige i arkivet for denne kandidat (markeret som et datahul). Baseret på kendt lægemiddelklasseinformation er Ixekizumab et anti-IL-17A monoklonalt antistof, oprindeligt udviklet til Th17-drevne inflammatoriske sygdomme — psoriasis, psoriasisarthritis og ankyloserende spondylitis.
 
-Rheumatoid vasculitis, by contrast, is primarily driven by immune-complex deposition and inflammatory vessel-wall injury, a mechanism that does not have an established link to the IL-17A pathway. The evidence pack's own mechanistic assessment flags this directly: IL-17 inhibitors are more frequently reported in the literature as **inducers of paradoxical vasculitis reactions** than as treatments for vasculitis. This means the predicted direction may run counter to the drug's actual clinical safety profile, rather than representing a genuine therapeutic opportunity.
+Rheumatoid vaskulitis er derimod primært drevet af immunokompleks-aflejring og inflammatorisk blodkarvægsskade, en mekanisme der ikke har en etableret forbindelse til IL-17A-signalvejen. Bevispakkens egen mekanistiske vurdering markerer dette direkte: IL-17-inhibitorer rapporteres hyppigere i litteraturen som **inducere af paradoksale vaskulitis-reaktioner** end som behandlinger for vaskulitis. Dette betyder, at den forudsagte retning kan gå i strid med lægemidlets faktiske kliniske sikkerhedsprofil, snarere end at repræsentere en ægte terapeutisk mulighed.
 
-The single supporting clinical trial identified (NCT07138898) was also independently graded **C (low relevance)** — it studies perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty, and does not evaluate Ixekizumab's efficacy in rheumatoid vasculitis specifically. Taken together, this prediction should be treated as a statistical association from the knowledge graph rather than a biologically well-supported hypothesis.
+Den eneste identificerede understøttende kliniske prøve (NCT07138898) blev også uafhængigt vurderet **C (lav relevans)** — den undersøger strategier for perioperativ nedtrapning af immunosuppressanter hos reumatologiske patienter, der undergår planlagt total skulderproteseoperation, og evaluerer ikke Ixekizumabs virkning ved rheumatoid vaskulitis specifikt. Samlet set bør denne forudsigelse behandles som en statistisk sammenhæng fra vidensgrafen snarere end som en biologisk velunderstøttet hypotese.
 
 ---
 
-## Clinical Trial Evidence
+## Videnskab fra kliniske prøver
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Prøvenummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Evaluates perioperative immunosuppressant withdrawal strategies in rheumatology patients undergoing elective total shoulder arthroplasty; not focused on Ixekizumab efficacy in rheumatoid vasculitis (relevance graded C — low). |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Endnu ikke rekrutterer | 80 | Evaluerer strategier for perioperativ nedtrapning af immunosuppressanter hos reumatologiske patienter, der undergår planlagt total skulderproteseoperation; ikke fokuseret på Ixekizumabs virkning ved rheumatoid vaskulitis (relevans vurderet C — lav). |
 
 ---
 
-## Literature Evidence
+## Videnskab fra litteratur
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Ixekizumab currently has no marketing authorisation on record in Denmark (market status: Not marketed; 0 authorisations).
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Safety Considerations
+## Markedsoplysninger for Danmark
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Ixekizumab har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-Evidence level is L5 (model prediction only) — supported by just one low-relevance (grade C) clinical trial and no literature. The proposed mechanistic link is not only unproven but potentially contradicted by post-marketing reports of IL-17 inhibitors inducing, rather than treating, vasculitis.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action documentation for Ixekizumab (currently a data gap)
-- Danish/EU SmPC warnings and contraindications, including any noted vasculitis-related adverse events (currently a blocking data gap)
-- Targeted literature or pharmacovigilance review specifically addressing IL-17A inhibition and vasculitis risk vs. benefit
-- A clinical trial or case series directly evaluating Ixekizumab in rheumatoid vasculitis before any further evidence-stage progression
+## Konklusion og næste trin
+
+**Beslutning: Afhold**
+
+**Begrundelse:**
+Evidensniveauet er L5 (kun modelforudsigelse) — understøttet af kun én klinisk prøve med lav relevans (vurdering C) og ingen litteratur. Det foreslåede mekanistiske link er ikke kun ubevist, men potentielt modsagt af post-markedsrapporter om IL-17-inhibitorer, der inducerer snarere end behandler vaskulitis.
+
+**For at fortsætte er følgende nødvendig:**
+- Bekræftet virkningsmekanisme-dokumentation for Ixekizumab (i øjeblikket et datahul)
+- Danske/EU SmPC-advarsler og kontraindikationer, herunder eventuelle noterede vaskulitis-relaterede bivirkninger (i øjeblikket et blokerende datahul)
+- Målrettet litteratur- eller farmakovigilans-gennemgang, der specifikt behandler IL-17A-inhibition og vaskulitis-risiko kontra fordele
+- En klinisk prøve eller case-serie, der direkte evaluerer Ixekizumab ved rheumatoid vaskulitis, før yderligere progress i evidensniveauet
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

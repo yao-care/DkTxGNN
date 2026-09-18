@@ -29,102 +29,103 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fulvestrant: From Hormone Receptor-Positive Breast Cancer to HIV Infectious Disease
+# Fulvestrant: Fra hormonreceptor-positiv brystkræft til HIV-infektionssygdom
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Fulvestrant (Faslodex) is a selective estrogen receptor degrader (SERD) with established international use in the treatment of hormone receptor-positive (HR+) advanced or metastatic breast cancer in postmenopausal women — though it is not currently authorised in Denmark.
-The TxGNN model predicts it may be effective for **HIV Infectious Disease** with a score of 99.91%,
-however only **1 indirect publication** has been identified (concerning HTLV-1, a distinct retrovirus, not HIV), and **no clinical trials** have been registered for this repurposing direction — placing this prediction at the lowest possible evidence level.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hormone receptor-positive (HR+) advanced breast cancer (internationally approved; not authorised in Denmark) |
-| Predicted New Indication | HIV Infectious Disease |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Fulvestrant (Faslodex) er en selektiv østrogenreceptor-degrader (SERD) med etableret international anvendelse til behandling af hormonreceptor-positiv (HR+) fremskreden eller metastatisk brystkræft hos postmenopausale kvinder — dog er det ikke i øjeblikket autoriseret i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt for **HIV-infektionssygdom** med en score på 99,91%,
+dog er kun **1 indirekte publikation** identificeret (vedrørende HTLV-1, et forskelligt retrovirus, ikke HIV), og **ingen kliniske forsøg** er registreret for denne medicin-genudvikling — hvilket placerer denne forudsigelse på det laveste mulige evidensniveau.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort oversigt
 
-Fulvestrant is a selective estrogen receptor degrader (SERD). Unlike tamoxifen, which partially blocks the oestrogen receptor (ER), fulvestrant binds to the ER with very high affinity and triggers its complete degradation — eliminating all ER-mediated signalling inside the cell. This mechanism has made it effective for HR+ breast cancer, particularly in cases that have progressed after aromatase inhibitor therapy. Detailed mechanism of action data was not available in this Evidence Pack; the above is based on established pharmacological knowledge.
-
-The theoretical rationale for fulvestrant in HIV infectious disease rests on an indirect and unverified biological premise: certain in vitro studies suggest that ER-β activation may facilitate HIV-1 replication within CD4+ T cells. If ER signalling genuinely supports viral replication in this compartment, then degrading the receptor via fulvestrant could theoretically inhibit this process. However, this is a highly speculative chain of reasoning involving multiple unconfirmed mechanistic steps and has not been tested in any clinical or formal preclinical study.
-
-Critically, the sole publication retrieved by the evidence search (PMID 40343334, 2025) concerns **HTLV-1** — the Human T-cell Leukemia Virus type 1, associated with adult T-cell leukaemia and the neuroinflammatory condition HAM/TSP — and not HIV. HTLV-1 and HIV are both retroviruses but are pathophysiologically distinct. The TxGNN model's high confidence score most likely reflects graph-level proximity between ER signalling nodes and retroviral disease nodes in the knowledge graph, rather than direct biological evidence linking fulvestrant to HIV.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials have been registered for fulvestrant in HIV infectious disease.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Hormonreceptor-positiv (HR+) fremskreden brystkræft (internationalt godkendt; ikke autoriseret i Danmark) |
+| Forudsagt ny indikation | HIV-infektionssygdom |
+| TxGNN forudsigelsesscore | 99,91% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Observational (multi-cohort cross-omics) | Research Square (preprint) | Multi-cohort systems biology analysis of HTLV-1-associated myelopathy (HAM). Used genomic and epigenomic data from multiple cohorts to map disease mechanisms and candidate therapeutic targets for this neglected retroviral neuroinflammatory disorder. **This study does not investigate fulvestrant, and its subject is HTLV-1, not HIV.** It was retrieved due to overlapping retroviral immunological pathway terminology. |
+Fulvestrant er en selektiv østrogenreceptor-degrader (SERD). I modsætning til tamoxifen, som delvist blokerer østrogenreceptoren (ER), binder fulvestrant til ER med meget høj affinitet og udløser dens fuldstændige nedbrydning — hvilket eliminerer al ER-medieret signalering inde i cellen. Denne virkningsmekanisme har gjort det effektivt for HR+ brystkræft, især i tilfælde, der er blevet værre efter behandling med aromatasehæmmere. Detaljerede data om virkningsmekanismen var ikke tilgængelige i denne Evidence Pack; ovenstående er baseret på etableret farmakologisk viden.
 
-> **Important caveat:** This publication has no direct relevance to the proposed repurposing of fulvestrant for HIV. It should not be interpreted as supporting evidence for this indication.
+Det teoretiske rationale for fulvestrant ved HIV-infektionssygdom hviler på en indirekte og ubekræftet biologisk præmis: visse in vitro-studier antyder, at ER-β-aktivering kan fremme HIV-1-replikation inden for CD4+-T-celler. Hvis ER-signalering virkelig understøtter viral replikation i dette område, kunne fulvestrant teoretisk hæmme denne proces ved at nedbryde receptoren. Imidlertid er dette en meget spekulativ rækkefølge af ræsonnementer, der involverer flere ubekræftede mekanistiske trin, og det er ikke blevet testet i noget klinisk eller formelt preklinisk studie.
 
----
-
-## Denmark Market Information
-
-Fulvestrant currently holds **no marketing authorisations** with the Danish Medicines Agency (Laegemiddelstyrelsen).
-
-> **Note for clinical context:** Fulvestrant (Faslodex®, AstraZeneca) holds a centralised EMA marketing authorisation valid in all EU member states for the treatment of HR-positive locally advanced or metastatic breast cancer in postmenopausal women. Healthcare professionals seeking to use fulvestrant for its established breast cancer indication should verify current EMA authorisation status and local reimbursement conditions independently.
+Kritisk er det, at den eneste publikation, der blev hentet af evidensøgningen (PMID 40343334, 2025), vedrører **HTLV-1** — Human T-cell Leukemia Virus type 1, forbundet med voksen T-celle leukæmi og den neuroinflammatoriske tilstand HAM/TSP — og ikke HIV. HTLV-1 og HIV er begge retroviruser, men er patofysiologisk forskellige. TxGNN-modellens høje tillidsværdi afspejler sandsynligvis graf-niveau-nærhed mellem ER-signalering-noder og retroviral-sygdoms-noder i vidensgrafen, snarere end direkte biologisk evidens, der forbinder fulvestrant til HIV.
 
 ---
 
-## Cytotoxicity
+## Evidens fra kliniske forsøg
 
-Fulvestrant is classified as an antineoplastic agent used in cancer treatment and therefore meets the threshold for inclusion of this section.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted endocrine therapy — Selective Estrogen Receptor Degrader (SERD); **not** a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — fulvestrant is not a DNA-damaging agent and does not cause clinically significant bone marrow suppression |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (hepatotoxicity has been reported); bone mineral density monitoring for patients on long-term therapy; injection site reactions (fulvestrant is administered as an intramuscular injection) |
-| Handling Protection | Standard pharmaceutical handling applies; fulvestrant does not require the specialised cytotoxic drug handling precautions mandated for conventional chemotherapy |
+Der er i øjeblikket ingen registrerede kliniske forsøg for fulvestrant ved HIV-infektionssygdom.
 
 ---
 
-## Safety Considerations
+## Litteraturbaseret evidens
 
-Detailed safety information — including specific warnings, contraindications, and drug interaction data — was not available in this Evidence Pack for fulvestrant.
+| PMID | År | Type | Journal | Vigtigste fund |
+|------|-----|------|---------|-------------|
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Observationel (multi-kohort cross-omics) | Research Square (preprint) | Multi-kohort systems biology-analyse af HTLV-1-associeret myelopati (HAM). Brugte genomiske og epigenomiske data fra flere kohorter til at kortlægge sygdomsmekanismer og kandidat-terapeutiske mål for denne forsømte retroviral neuroinflammatorisk lidelse. **Dette studie undersøger ikke fulvestrant, og dets emne er HTLV-1, ikke HIV.** Det blev hentet på grund af overlappende retroviral immunologisk pathway-terminologi. |
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for fulvestrant (Faslodex®) for complete safety information, including contraindications in hepatic impairment and pregnancy.
+> **Vigtig forsigtighedsmåle:** Denne publikation har ingen direkte relevans for den foreslåede medicin-genudvikling af fulvestrant til HIV. Den bør ikke fortolkes som støttende evidens for denne indikation.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Fulvestrant har i øjeblikket **ingen markedsføringstilladelser** hos Lægemiddelstyrelsen.
 
-**Rationale:**
-Despite a very high TxGNN prediction score of 99.91%, the evidence base for fulvestrant in HIV infectious disease is at **Level L5** — model prediction only. There are no registered clinical trials, and the single identified publication addresses HTLV-1 rather than HIV. The biological hypothesis linking oestrogen receptor degradation to HIV suppression is theoretically conceivable but entirely unverified in human studies or dedicated preclinical models. Proceeding without further mechanistic validation would not be justified.
+> **Bemærk til klinisk kontekst:** Fulvestrant (Faslodex®, AstraZeneca) har en centraliseret EMA-markedsføringstilladelse, der er gyldig i alle EU-medlemsstater til behandling af HR-positiv lokalt fremskreden eller metastatisk brystkræft hos postmenopausale kvinder. Sundhedspersonale, der søger at bruge fulvestrant til dets etablerede brystkræft-indikation, bør uafhængigt verificere aktuel EMA-autorisationsstatus og lokale refusionsforhold.
 
-**To proceed, the following is needed:**
+---
 
-- Systematic literature review specifically targeting ER-β/HIV-1 interactions in CD4+ T cells, including any dedicated preclinical (in vitro or animal model) studies
-- Mechanistic confirmation that oestrogen receptor signalling plays a functionally meaningful role in HIV-1 replication in vivo and at physiologically relevant fulvestrant concentrations
-- Complete safety data from the SmPC, with particular focus on use in immunocompromised patients (the HIV-positive population), hepatic safety, and interactions with antiretroviral agents
-- Regulatory and ethical assessment for any first-in-indication clinical investigation
+## Cytotoksicitet
 
-**Additional note — more promising TxGNN target:**
-Among the top-ranked predictions in this Evidence Pack, **Multiple Endocrine Neoplasia (MEN)** (TxGNN score: 99.85%, evidence level L4) presents a more mechanistically coherent repurposing hypothesis. Certain MEN subtypes — including MEN1-associated breast tumours and selected neuroendocrine tumours — can express oestrogen receptors, providing a direct rationale for SERD-based therapy. Although the 50 retrieved clinical trials are all HR+ breast cancer studies (mechanistic extrapolation only, no direct MEN evidence), this direction warrants a dedicated evidence review before the HIV hypothesis is prioritised further.
+Fulvestrant klassificeres som et antineoplastisk middel brugt til kræftbehandling og opfylder derfor tærsklen for inkludering af dette afsnit.
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassifikation | Målrettet endokrinterapi — Selektiv østrogenreceptor-degrader (SERD); **ikke** et konventionelt cytotoksisk middel |
+| Knoglemarvsundertrykkelsesrisiko | Lav — fulvestrant er ikke et DNA-skadende middel og forårsager ikke klinisk signifikant knoglemarvsundertrykkelse |
+| Kvalmefremmende klassifikation | Lav |
+| Overvågningspunkter | Leverfunktionstests (hepatotoksicitet er blevet rapporteret); knogletæthedsmonitering for patienter på langtidsbehandling; reaktioner på injektionsstedet (fulvestrant administreres som en intramuskulær injektion) |
+| Håndteringsbeskyttelse | Standard farmaceutisk håndtering gælder; fulvestrant kræver ikke de specialiserede cytotoksisk-medicin-håndteringsforsigtighedsregler, der er påkrævet for konventionel kemoterapi |
+
+---
+
+## Sikkerhedshensyn
+
+Detaljerede sikkerhedsoplysninger — herunder specifikke advarsler, kontraindikationer og data om lægemiddelinteraktioner — var ikke tilgængelige i denne Evidence Pack for fulvestrant.
+
+Se venligst det godkendte produktresumé (SmPC) for fulvestrant (Faslodex®) for fuldstændige sikkerhedsoplysninger, herunder kontraindikationer ved hepatisk svækkelse og graviditet.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+På trods af en meget høj TxGNN-forudsigelsesscore på 99,91% er evidensgrundlaget for fulvestrant ved HIV-infektionssygdom på **L5-niveau** — kun modelforudsigelse. Der er ingen registrerede kliniske forsøg, og den eneste identificerede publikation handler om HTLV-1 snarere end HIV. Den biologiske hypotese, der forbinder østrogenreceptor-nedbrydning med HIV-undertrykkelse, er teoretisk mulig, men helt ubekræftet i menneskelige studier eller dedikerede prekliniske modeller. At fortsætte uden yderligere mekanistisk validering ville ikke være berettiget.
+
+**For at fortsætte er følgende nødvendig:**
+
+- Systematisk litteraturgennemgang specifikt målrettet mod ER-β/HIV-1-interaktioner i CD4+-T-celler, herunder alle dedikerede prekliniske (in vitro eller dyremodel) studier
+- Mekanistisk bekræftelse af, at østrogenreceptor-signalering spiller en funktionelt meningsfuld rolle i HIV-1-replikation in vivo og ved fysiologisk relevante fulvestrant-koncentrationer
+- Fuldstændige sikkerhedsdata fra SmPC, med særlig fokus på brug hos immunosupprimerede patienter (HIV-positiv befolkning), hepatisk sikkerhed og interaktioner med antiretrovirale midler
+- Regulerings- og etisk vurdering for eventuelle første-i-indikation kliniske undersøgelser
+
+**Yderligere bemærkning — mere lovende TxGNN-målgruppe:**
+Blandt de højest rangerede forudsigelser i denne Evidence Pack præsenterer **Multipel Endokrin Neoplasi (MEN)** (TxGNN-score: 99,85%, evidensniveau L4) en mere mekanistisk sammenhængende medicin-genudvikling-hypotese. Visse MEN-undertyper — herunder MEN1-associeret brystkræft og udvalgte neuroendokrine tumorer — kan udtrykke østrogenreceptorer, hvilket giver et direkte rationale for SERD-baseret terapi. Selvom de 50 hentet kliniske forsøg alle er HR+ brystkræft-studier (mekanistisk ekstrapolation kun, ingen direkte MEN-evidens), fortjener denne retning en dedikeret evidensreview, før HIV-hypotesen prioriteres yderligere.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

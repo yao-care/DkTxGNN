@@ -29,79 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dibotermin alfa: From Bone Repair to Esotropia
+# Dibotermin alfa: Fra knoglereparation til Esotropi
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Dibotermin alfa is a recombinant human Bone Morphogenetic Protein-2 (rhBMP-2), a biological agent used in orthopaedic surgery to stimulate bone formation in spinal fusion and fracture repair.
-The TxGNN model predicts it may be effective for **Esotropia** (inward-turning convergent squint), with a prediction score of **99.97%**.
-However, **no clinical trials and no supporting literature** exist for this indication, and the internal mechanistic assessment flags this prediction as a knowledge graph topology artefact with no demonstrable biological plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Bone repair and spinal fusion (EMA-authorised centrally; not registered in Denmark) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Dibotermin alfa er et rekombinant humant knoglemorfogenetisk protein-2 (rhBMP-2), et biologisk lægemiddel, der bruges i ortopædisk kirurgi til at stimulere knogledannelse ved spinale fusioner og knoglebrudbehandling.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Esotropi** (indadvendt konvergent skeløje), med en forudsigelsesscore på **99.97%**.
+Der findes imidlertid **ingen kliniske forsøg og ingen understøttende litteratur** for denne indikation, og den interne mekanistiske vurdering klassificerer denne forudsigelse som en artefakt i vidensgraftopologien uden demonstrerbar biologisk plausibilitet.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hurtigt overblik
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on known pharmacology, Dibotermin alfa is a recombinant form of human Bone Morphogenetic Protein-2 (BMP-2). It binds cell-surface BMP receptors and activates the intracellular SMAD1/5/8 signalling cascade, which commits mesenchymal stem cells to osteogenic (bone-forming) differentiation. In clinical use, the protein is delivered locally — embedded in an absorbable collagen sponge — directly at the surgical site, where it accelerates and augments new bone growth during spinal fusion or long bone repair.
-
-Esotropia is a form of convergent strabismus in which one or both eyes turn inward, caused by imbalance in the tension and neuromuscular coordination of the extraocular muscles. The underlying pathophysiology involves ocular motor neurone development, proprioceptive feedback loops, and accommodative-convergence reflexes — none of which are governed by the BMP-2/SMAD pathway. There is no established biological role for BMP-2 signalling in extraocular muscle tone or the neural control of eye alignment.
-
-The mechanistic assessment embedded in the evidence pack explicitly concludes that there is a **complete absence of biological plausibility** for this prediction. The very high TxGNN score (0.9997) is attributed to a **knowledge graph topology effect**: the two entities are close neighbours in the underlying network structure, but this proximity reflects shared graph connections rather than any pharmacological relationship. This prediction should be treated as a model artefact rather than a genuine therapeutic hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Knoglereparation og spinale fusioner (centralt godkendt af EMA; ikke registreret i Danmark) |
+| Forudsagt ny indikation | Esotropi |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsgodkendelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i det aktuelle bevisemne. Baseret på kendt farmakologi er dibotermin alfa en rekombinant form af humant knoglemorfogenetisk protein-2 (BMP-2). Det binder sig til BMP-receptorer på celleoverfladen og aktiverer den intracelluløre SMAD1/5/8-signalvej, som forpligter mesenchymale stamceller til osteogen (knogledannende) differentiering. Ved klinisk brug leveres proteinet lokalt — indlejret i en resorberbar kollagensværm — direkte på det kirurgiske område, hvor det fremskynder og øger ny knoglevækst under spinal fusion eller reparation af lange knogler.
 
----
+Esotropi er en form for konvergent strabismus, hvor det ene eller begge øjne vender indad, forårsaget af ubalance i spændingen og neuromuskulær koordination af de ekstrakkulære muskler. Den underliggende patofysiologi involverer udvikling af okulomotoriske neuroner, proprioceptive feedback-løkker og akkommodativ-konvergens-reflekser — hvoraf ingen styres af BMP-2/SMAD-signalvejen. Der er ingen etableret biologisk rolle for BMP-2-signalering i ekstrakkulær muskeltonus eller den neurale kontrol af øjnenes opstilling.
 
-## Denmark Market Information
-
-Dibotermin alfa is **not currently marketed in Denmark**. The Danish Medicines Agency (Laegemiddelstyrelsen) has issued no national marketing authorisations for this product, and it does not appear on the Danish market. For reference, the product is known internationally under the brand name **InductOS®** and holds a centralised EMA marketing authorisation for the European Union for orthopaedic indications; however, this does not translate to active market availability in Denmark.
+Den mekanistiske vurdering, der er indlejret i bevisemnet, konkluderer eksplicit, at der er en **fuldstændig mangel på biologisk plausibilitet** for denne forudsigelse. Den meget høje TxGNN-score (0.9997) tillægges en **topologieffekt i vidensgraf**: de to enheder er tætte naboer i den underliggende netværksstruktur, men denne nærhed afspejler delt grafkonnektivitet snarere end nogen farmakologisk relation. Denne forudsigelse bør behandles som en modelartefakt snarere end som en ægte terapeutisk hypotese.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-There are no clinical trials, no relevant literature, and no plausible mechanistic link between Dibotermin alfa and esotropia. The TxGNN model's high confidence score (99.97%) is assessed as a knowledge graph topology artefact, not a pharmacological signal. No basis exists to initiate a repurposing programme for this indication.
+---
 
-**To proceed with any further evaluation, the following would be needed:**
+## Markedsinformation for Danmark
 
-- A credible biological hypothesis connecting BMP-2/SMAD1/5/8 signalling to extraocular muscle physiology, ocular motor neurone development, or strabismus pathogenesis
-- Preclinical evidence (in vitro or animal model) demonstrating BMP-2 activity in ocular or neuromuscular tissue relevant to eye alignment
-- Retrieval of the full SmPC and prescribing information to characterise the drug's safety, contraindications, and drug interaction profile before any further repurposing evaluation
-- Clarification of the officially approved indication(s) in the relevant jurisdiction(s), as the current evidence pack contains no confirmed original indication data
+Dibotermin alfa er **ikke i øjeblikket markedsført i Danmark**. Lægemiddelstyrelsen har ikke udstedt nationale markedsgodkendelser for dette produkt, og det fremgår ikke af det danske marked. Som reference er produktet kendt internationalt under mærkenavnet **InductOS®** og har en centraliseret EMA-markedsgodkendelse for Den Europæiske Union for ortopædiske indikationer; dette betyder imidlertid ikke, at der er aktiv markedstilgængelighed i Danmark.
 
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application.
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Der er ingen kliniske forsøg, ingen relevant litteratur, og ingen plausibel mekanistisk forbindelse mellem dibotermin alfa og esotropi. TxGNN-modellens høje konfidensscore (99.97%) vurderes som en vidensgraftopologiartefakt, ikke som et farmakologisk signal. Der er intet grundlag for at indlede et genbrugsprogram for denne indikation.
+
+**For at kunne fortsætte med yderligere evaluering, ville det følgende være nødvendigt:**
+
+- En troværdig biologisk hypotese, der forbinder BMP-2/SMAD1/5/8-signalering med ekstrakkulær muskelfysiologi, udvikling af okulomotoriske neuroner eller strabismuspatagenese
+- Præklinisk evidens (in vitro eller dyremodel), der demonstrerer BMP-2-aktivitet i øje- eller neuromuskulært væv relevant for øjnenes opstilling
+- Hentning af det fuldstændige produktresumé (SmPC) og receptinformationer for at karakterisere lægemidlets sikkerhed, kontraindikationer og interaktionsprofil før yderligere genbrugsevaluering
+- Præcisering af den/de officielt godkendte indikation(er) i de relevante jurisdiktioner, da det aktuelle bevisemne ikke indeholder bekræftede oprindelige indikationsdata
+
+> **Ansvarsfraskrivelse:** Denne rapport er udelukkende til forskningsreference og udgør ikke medicinsk rådgivning. Kandidater til genbrugelse af lægemidler kræver klinisk validering før enhver anvendelse.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

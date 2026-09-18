@@ -29,77 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aprepitant: From Nausea and Vomiting Prevention to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Aprepitant: Fra kvalme- og opkastningsforebyggelse til nefrogen syndrome of inappropriate antidiuresis
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Aprepitant (Emend) is a selective neurokinin-1 (NK1) receptor antagonist, clinically established for the prevention of chemotherapy-induced nausea and vomiting (CINV) and postoperative nausea and vomiting (PONV). The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)** with a confidence score of **99.97%**; however, there are currently **no clinical trials and no publications** directly supporting this repurposing direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Prevention of chemotherapy-induced nausea and vomiting (CINV) and postoperative nausea and vomiting (PONV) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not registered in dataset |
-| Number of Marketing Authorisations | 0 (in current dataset) |
-| Recommended Decision | Hold |
+Aprepitant (Emend) er en selektiv neurokinin-1 (NK1)-receptorantagonist, som er klinisk etableret til forebyggelse af kemoterapirelateret kvalme og opkastning (CINV) og postoperativ kvalme og opkastning (PONV). TxGNN-modellen forudsiger, at det kan være effektivt mod **nefrogen syndrome of inappropriate antidiuresis (NSIAD)** med en tillidsgrad på **99.97%**; dog er der i øjeblikket **ingen kliniske forsøg og ingen publikationer**, der direkte understøtter denne repurposeringsretning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, the formal mechanism of action data for Aprepitant is listed as a data gap in this evidence pack. Based on its well-established clinical pharmacology, Aprepitant is a highly selective antagonist of the neurokinin-1 (NK1) receptor — the principal receptor for Substance P (SP), a neuropeptide mediating pain, inflammation, and emesis. By competitively blocking SP binding to NK1 receptors in both the nucleus tractus solitarius and peripheral tissues, Aprepitant suppresses the delayed phase of CINV. Importantly, NK1 receptors are not confined to the central nervous system: they are expressed in a range of peripheral tissues including the kidney, gastrointestinal tract, pulmonary vasculature, and skin — which forms the biological basis for the TxGNN model's broader repurposing predictions.
-
-Nephrogenic syndrome of inappropriate antidiuresis (NSIAD) is a rare X-linked disorder caused by constitutively activating gain-of-function mutations in the *AVPR2* gene, which encodes the vasopressin V2 receptor. Unlike classical syndrome of inappropriate antidiuretic hormone secretion (SIADH), NSIAD is mutation-driven: the V2 receptor remains constitutively active regardless of circulating vasopressin levels, causing persistent aquaporin-2 trafficking to the collecting duct membrane, continuous water reabsorption, and hyponatraemia even when plasma vasopressin is undetectable. There is limited mechanistic evidence that Substance P and NK1 receptors are expressed in renal tubular cells and may modulate renal sodium and water handling; however, a direct pharmacological link between NK1 receptor blockade and correction of AVPR2 gain-of-function signalling has not been established in any published preclinical or clinical study.
-
-This prediction most likely reflects shared biological network nodes in the TxGNN knowledge graph — such as shared signalling intermediates, co-expressed genes, or overlapping transcriptional regulators — rather than a well-characterised pharmacological mechanism. At this stage, the prediction should be regarded as a hypothesis-generating signal only, and interpreted with caution pending dedicated mechanistic investigation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Forebyggelse af kemoterapirelateret kvalme og opkastning (CINV) og postoperativ kvalme og opkastning (PONV) |
+| Forudsagt ny indikation | Nefrogen Syndrome of Inappropriate Antidiuresis (NSIAD) |
+| TxGNN-forudsigelsesscore | 99.97% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke registreret i datasættet |
+| Antal markedsføringsgodkendelser | 0 (i nuværende datasæt) |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er de formelle data om virkningsmekanisme for Aprepitant registreret som et datahul i denne evidenspakke. Baseret på dets velkendte kliniske farmakologi er Aprepitant en højt selektiv antagonist for neurokinin-1 (NK1)-receptoren — hovedreceptoren for Substans P (SP), et neuropeptid, der medierer smerte, inflammation og emesis. Ved konkurrencemæssigt at blokere SP-binding til NK1-receptorer i både nucleus tractus solitarius og perifert væv undertrykker Aprepitant den forsinket fase af CINV. Vigtigvis er NK1-receptorer ikke begrænset til centralnervesystemet: de udtrykkes i en række perifere væv, herunder nyre, mave-tarmkanal, lungevaskulatur og hud — hvilket udgør det biologiske grundlag for TxGNN-modellens bredere repurposeringsforudsigelser.
 
----
+Nefrogen syndrome of inappropriate antidiuresis (NSIAD) er en sjælden X-bundet lidelse forårsaget af konstituelt aktiverende gain-of-function-mutationer i *AVPR2*-genet, som koder for vasopressin V2-receptoren. I modsætning til klassisk syndrome of inappropriate antidiuretic hormone secretion (SIADH) er NSIAD mutationsdrevet: V2-receptoren forbliver konstituelt aktiv uanset cirkulerende vasopressin-niveauer, hvilket forårsager vedvarende aquaporin-2-trafik til samlegang-membran, kontinuerlig vandreoptagelse og hyponatremi selv når plasma vasopressin ikke kan påvises. Der er begrænsende mekanistiske beviser for, at Substans P og NK1-receptorer udtrykkes i nyre-tubularceller og kan modulere renal natrium- og vandhåndtering; imidlertid er der ikke etableret nogen direkte farmakologisk forbindelse mellem NK1-receptorblokering og korrektion af AVPR2 gain-of-function signalering i nogen publiceret præklinisk eller klinisk undersøgelse.
 
-## Denmark Market Information
-
-No marketing authorisations for Aprepitant were found in the current dataset.
-
-> **Important note for Danish healthcare professionals**: Aprepitant is commercially available in Denmark through the centralised EMA marketing authorisation for **Emend** (EU/1/03/261, MSD/Merck Sharp & Dohme). The dataset used for this report does not appear to have captured this EMA-authorised product, which represents a data gap in the regulatory module. Danish prescribers should consult the current Lægemiddelstyrelsen medicinal product database and the approved Summary of Product Characteristics (SmPC) for up-to-date information on formulations, reimbursement status, and approved indications.
+Denne forudsigelse afspejler højst sandsynligt delte biologiske netværksknuder i TxGNN-vidensgrafen — såsom delte signaleringsvermittere, co-eksprimerede gener eller overlappende transkriptionelle regulatorer — snarere end en velkarakteriseret farmakologisk mekanisme. På dette stadium bør forudsigelsen opfattes udelukkende som et hypotesegenererende signal og tolkes med forsigtighed, hvor der afventes dedikeret mekanistisk undersøgelse.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-Although the TxGNN model assigns a very high prediction score (99.97%), the evidence base for Aprepitant in NSIAD currently sits at Level 5 — model prediction only — with no clinical trials, no observational studies, and no preclinical mechanistic data to support this indication. NSIAD is a rare genetic disorder with a well-defined molecular aetiology (*AVPR2* gain-of-function mutations) that is mechanistically distant from NK1 receptor pharmacology, and the biological plausibility of this specific repurposing direction remains unestablished.
+---
 
-**To proceed, the following is needed:**
-- Preclinical studies (in vitro or murine models) investigating NK1 receptor expression and Substance P signalling in *AVPR2*-mutant renal collecting duct cells
-- Mechanistic clarification of any interaction between SP/NK1 pathways and vasopressin V2 receptor signalling or aquaporin-2 membrane trafficking
-- Formal retrieval of Aprepitant MOA data from DrugBank API (currently a data gap in this evidence pack)
-- Full safety review via the EMA-approved Emend SmPC, specifically targeting contraindications, key warnings, and clinically relevant drug-drug interactions
-- A targeted literature search broadened beyond NSIAD to cover hyponatraemia, SIADH, and renal water handling in the context of NK1 antagonism, to identify any mechanistic bridging evidence
+## Markedsinformation for Danmark
+
+Der blev ikke fundet nogen markedsføringsgodkendelser for Aprepitant i det aktuelle datasæt.
+
+> **Vigtig bemærkning for danske sundhedspersonale**: Aprepitant er kommercielt tilgængelig i Danmark gennem den centraliserede EMA-markedsføringsgodkendelse for **Emend** (EU/1/03/261, MSD/Merck Sharp & Dohme). Datasættet, der blev brugt til denne rapport, ser ud til ikke at have fanget dette EMA-godkendte produkt, hvilket repræsenterer et datahul i reguleringsmodulet. Danske ordinerende læger bør konsultere den aktuelle Lægemiddelstyrelsen-database for lægemidler og det godkendte Summary of Product Characteristics (SmPC) for opdateret information om formuleringer, refusionsstatus og godkendte indikationer.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte Summary of Product Characteristics (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Selvom TxGNN-modellen tildeler en meget høj forudsigelsesscore (99.97%), ligger evidensgrundlaget for Aprepitant i NSIAD i øjeblikket på niveau L5 — kun modelforudsigelse — uden kliniske forsøg, ingen observationsstudier og ingen præklinisk mekanistisk data til at understøtte denne indikation. NSIAD er en sjælden genetisk lidelse med en veldefneret molekylær etiologi (*AVPR2* gain-of-function-mutationer), der er mekanistisk fjern fra NK1-receptorfarmakologi, og den biologiske plausibilitet af denne specifikke repurposeringsretning forbliver uetableret.
+
+**For at fortsætte er følgende nødvendig:**
+- Prækliniske studier (in vitro- eller murine modeller) der undersøger NK1-receptorudtrykning og Substans P-signalering i *AVPR2*-mutante nyre samlegang-celler
+- Mekanistisk præcisering af enhver interaktion mellem SP/NK1-veje og vasopressin V2-receptorsignalering eller aquaporin-2 membran-trafik
+- Formel hentning af Aprepitant MOA-data fra DrugBank API (i øjeblikket et datahul i denne evidenspakke)
+- Fuld sikkerhedsgennemgang via den EMA-godkendte Emend SmPC, specifikt rettet mod kontraindikationer, vigtige advarsler og klinisk relevante medicin-medicin-interaktioner
+- En målrettet litteratursøgning udvidet ud over NSIAD til at dække hyponatremi, SIADH og renal vandhåndtering i sammenhæng med NK1-antagonisme for at identificere eventuelle mekanistiske bro-beviser
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

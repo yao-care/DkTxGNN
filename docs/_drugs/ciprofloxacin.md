@@ -29,89 +29,90 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ciprofloxacin: From Bacterial Infections to Diffuse Scleroderma
+# Ciprofloxacin: Fra bakterielle infektioner til diffus sklerodermati
 
-## One-Sentence Summary
+## Resumé i én sætning
 
-Ciprofloxacin is a broad-spectrum fluoroquinolone antibiotic widely used for the treatment of bacterial infections across multiple organ systems.
-The TxGNN model predicts it may be effective for **Diffuse Scleroderma**,
-with **0 clinical trials** and **2 publications** currently supporting this direction.
-The mechanistic rationale is biologically plausible, but robust clinical evidence remains absent.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (broad-spectrum antibiotic; fluoroquinolone class) |
-| Predicted New Indication | Diffuse Scleroderma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed (data gap — 0 licences recorded; may reflect incomplete regulatory data collection) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ciprofloxacin er et bredspektret fluorquinolon-antibiotikum, der bruges bredt til behandling af bakterielle infektioner på tværs af flere organsystemer.
+TxGNN-modellen forudsiger, at det kan være effektivt til **diffus sklerodermati**,
+med **0 kliniske forsøg** og **2 publikationer**, der i øjeblikket understøtter denne retning.
+Det mekanistiske rationale er biologisk plausibelt, men robust klinisk evidens mangler stadig.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known information, ciprofloxacin is a fluoroquinolone antibiotic whose bactericidal activity is mediated through inhibition of bacterial DNA gyrase (topoisomerase II) and topoisomerase IV, preventing DNA replication and repair in susceptible organisms.
-
-Beyond its antibacterial activity, ciprofloxacin has demonstrated antifibrotic properties in experimental and early clinical settings: it can inhibit human dermal fibroblast proliferation and collagen synthesis, and has been shown to suppress matrix metalloproteinase (MMP)-related pathways involved in extracellular matrix remodelling. Diffuse scleroderma (systemic sclerosis) is characterised by progressive fibrosis of the skin and internal organs driven by fibroblast overactivation and excessive collagen deposition — precisely the processes ciprofloxacin may attenuate.
-
-An additional mechanistic pathway involves the gastrointestinal microbiome. Patients with systemic sclerosis frequently develop small intestinal bacterial overgrowth (SIBO), which amplifies systemic inflammatory burden and may accelerate fibrotic progression. Ciprofloxacin's broad-spectrum antibacterial coverage can reduce SIBO-associated dysbiosis and thereby indirectly dampen the inflammatory signals that perpetuate fibrosis. Taken together, both direct antifibrotic and indirect microbiome-modulating mechanisms provide a biologically coherent rationale, though no large randomised controlled trial has yet validated this hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Bakterielle infektioner (bredspektret antibiotikum; fluorquinolon-klasse) |
+| Forudsagt ny indikation | Diffus sklerodermati |
+| TxGNN Forudsigelsesscore | 99.87% |
+| Evidensniveau | L3 |
+| Danmark markedsstatus | Ikke markedsført (datahuller — 0 licensers registreret; kan afspejle ufuldstændig regulatorisk dataindsamling) |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Small clinical study (likely pilot/RCT) | The Journal of Dermatology | Controlled, double-blind randomised study evaluating oral ciprofloxacin as an antifibrotic agent in scleroderma patients; assessed reduction in skin fibrosis severity |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostic/clinical study | British Journal of Rheumatology | Investigated SIBO in 24 systemic sclerosis patients using jejunal aspiration; reported treatment outcomes including antibiotic therapy, supporting indirect relevance of ciprofloxacin to scleroderma management |
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige fra Evidence Pack. Baseret på kendt information er ciprofloxacin et fluorquinolon-antibiotikum, hvis baktericid aktivitet er formidlet gennem hæmning af bakteriel DNA-gyrase (topoisomerase II) og topoisomerase IV, hvilket forhindrer DNA-replikation og -reparation i modtagelige organismer.
 
----
+Ud over dets antibakterielle aktivitet har ciprofloxacin demonstreret antifibrotiske egenskaber i eksperimentelle og tidlige kliniske indstillinger: det kan hæmme menneskelig dermal fibroblast-proliferation og kollagensyntese, og har vist sig at undertrykke matrix metalloproteinase (MMP)-relaterede veje involveret i ekstracellulær matrix-remodellering. Diffus sklerodermati (systemisk sklerose) er karakteriseret ved progressiv fibrosis af hud og indre organer drevet af fibroblast-overaktivering og overdreven kollagenaflejring — præcis de processer ciprofloxacin kan svække.
 
-## Denmark Market Information
-
-No marketing authorisations are currently recorded for ciprofloxacin in this dataset. This likely reflects an incomplete regulatory data collection step rather than actual absence from the Danish market, given that ciprofloxacin is a well-established generic antibiotic. Verification against the Laegemiddelstyrelsen product database and the EMA centralised authorisation register is recommended.
+En yderligere mekanistisk vej involverer den gastrointestinale mikrobiom. Patienter med systemisk sklerose udvikler hyppigt Small Intestinal Bacterial Overgrowth (SIBO), som forstørker systemisk inflammatorisk byrde og kan accelerere fibrotisk progression. Ciprofloxacins bredspektret antibakterielle dækning kan reducere SIBO-associeret dysbiose og derved indirekte svække de inflammatoriske signaler, der videreføre fibrosis. Samlet set giver både direkte antifibrotiske og indirekte mikrobiom-modulerende mekanismer en biologisk sammenhængende rationale, selvom ingen stor randomiseret kontrolleret forsøg endnu har valideret denne hypotese.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsevidens
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Note:** Full Danish SmPC warnings, contraindications, and drug–drug interaction data were not retrieved in this Evidence Pack (classified as Blocking data gap DG001). Safety review cannot be completed until this information is obtained.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteratursevidens
 
-**Decision: Hold**
+| PMID | År | Type | Journal | Vigtige fund |
+|------|-----|------|---------|-------------|
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Lille klinisk studie (sandsynligvis pilot/RCT) | The Journal of Dermatology | Kontrolleret, dobbelt-blind randomiseret studie, der evaluerede oral ciprofloxacin som et antifibrotisk middel hos sklerodermati-patienter; vurderede reduktion i hudfibrosis-alvorlighed |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostisk/klinisk studie | British Journal of Rheumatology | Undersøgte SIBO hos 24 systemisk sklerose-patienter ved hjælp af jejunal-aspiration; rapporterede behandlingsresultater inklusive antibiotika-terapi, hvilket understøtter indirekte relevans af ciprofloxacin til sklerodermati-behandling |
+
+---
+
+## Danmarksmarkedsoplysninger
+
+Ingen markedsføringsgodkendelser er i øjeblikket registreret for ciprofloxacin i dette datasæt. Dette afspejler sandsynligvis et ufuldstændigt regulatorisk dataindsamlingstrin snarere end faktisk fravær fra det danske marked, givet at ciprofloxacin er et velkendt generisk antibiotikum. Bekræftelse mod Laegemiddelstyrelsen-produktdatabasen og EMA-registeret for centraliseret godkendelse anbefales.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte resumé af produktkarakteristika (SmPC) for sikkerhedsoplysninger.
+
+> **Bemærk:** Fuld dansk SmPC-advarsler, kontraindikationer og lægemiddel–lægemiddel-interaktionsdata blev ikke hentet i denne Evidence Pack (klassificeret som blokerende datahul DG001). Sikkerhedsgennemgang kan ikke gennemføres, indtil disse oplysninger er indhentede.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Rationale:**
-The evidence base consists of only two publications — one small pilot/randomised study and one diagnostic cohort study — with no registered clinical trials, placing this candidate at evidence level L3 (observational/small clinical study). While the antifibrotic and SIBO-modulating mechanisms are biologically plausible, the totality of evidence is insufficient to support clinical progression without further data.
+Evidensgrundlaget består af kun to publikationer — en lille pilot/randomiseret studie og et diagnostisk kohortestudie — uden registrerede kliniske forsøg, hvilket placerer denne kandidat på evidensniveau L3 (observationel/lille klinisk studie). Selvom de antifibrotiske og SIBO-modulerende mekanismer er biologisk plausible, er bevisgrundlaget utilstrækkelig til at understøtte klinisk progression uden yderligere data.
 
-**To proceed, the following is needed:**
+**For at fortsætte er følgende nødvendigt:**
 
-- **Regulatory data (Blocking):** Obtain and review the full SmPC from Laegemiddelstyrelsen (Danish Medicines Agency) and any relevant EMA product information, including warnings, contraindications, and labelled drug interactions
-- **MOA data (High priority):** Retrieve structured mechanism of action data from DrugBank (DB00537) to enable formal mechanistic-link scoring
-- **Full text retrieval:** Obtain the complete publication for PMID 20507401 to confirm study design, sample size, primary endpoints, and outcome data
-- **Systematic literature search:** Conduct a comprehensive search for additional preclinical and clinical evidence on ciprofloxacin in systemic sclerosis / scleroderma
-- **Clinical trial registration check:** Search ClinicalTrials.gov, EudraCT (EU Clinical Trials Register), and WHO ICTRP with broader search terms (e.g., "scleroderma", "systemic sclerosis", "fibrosis") to identify any ongoing or planned trials
-- **Safety monitoring plan:** Before any clinical use, a risk–benefit assessment addressing fluoroquinolone class effects (tendinopathy, QT prolongation, peripheral neuropathy) in a chronic autoimmune disease population is required
+- **Regulatoriske data (blokerende):** Hent og gennemse den fulde SmPC fra Laegemiddelstyrelsen (Danske Lægemiddelagentur) og eventuelle relevante EMA-produktoplysninger, inklusive advarsler, kontraindikationer og mærkede lægemiddel-interaktioner
+- **MOA-data (høj prioritet):** Hent strukturerede virkningsmekanisme-data fra DrugBank (DB00537) for at muliggøre formelt mekanistisk-link-scoring
+- **Fuldteksthentet:** Hent den komplette publikation for PMID 20507401 for at bekræfte studiedesign, stikprøvestørrelse, primære endepunkter og resultatdata
+- **Systematisk litteraturgennemgang:** Udfør en omfattende søgning efter yderligere præklinisk og klinisk evidens på ciprofloxacin i systemisk sklerose / sklerodermati
+- **Registrering af klinisk forsøg:** Søg ClinicalTrials.gov, EudraCT (EU Clinical Trials Register) og WHO ICTRP med bredere søgetermer (f.eks. "scleroderma", "systemisk sklerose", "fibrosis") for at identificere eventuelle igangværende eller planlagte forsøg
+- **Plan for sikkerhedsovervågning:** Før enhver klinisk anvendelse er en risiko–benefit-vurdering, der omhandler fluorquinolon-klasseeffekter (senelidelse, QT-forlængelse, perifer neuropati) i en kronisk autoimmun sygdomspopulation, påkrævet
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.*
+*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelgenbrug kræver klinisk validering før anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

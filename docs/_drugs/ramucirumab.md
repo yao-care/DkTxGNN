@@ -29,88 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ramucirumab: From Advanced Solid Tumours to Uterine Ligament Adenocarcinoma
+# Ramucirumab: Fra avancerede solide tumorer til adenokarcinom af livmoderligamenter
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Ramucirumab is an anti-VEGFR2 monoclonal antibody whose antitumour effect through blockade of tumour angiogenesis is established in gastric cancer, NSCLC, hepatocellular carcinoma and colorectal cancer (per the mechanistic rationale in this evidence pack; not independently confirmed via structured indication data in this pack). The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**, but currently **0 clinical trials** and **0 publications** support this specific direction — this is a model-prediction-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in this evidence pack (structured field empty); mechanistic rationale references established use in gastric cancer, NSCLC, hepatocellular carcinoma and colorectal cancer |
-| Predicted New Indication | Uterine ligament adenocarcinoma |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ramucirumab er et anti-VEGFR2 monoklonalt antistof, hvis antitumøreffekt gennem blokering af tumorangiogenese er etableret ved mavekræft, NSCLC, hepatocellulært karcinom og kolorektal kræft (ifølge det mekanistiske rationale i denne bevissamling; ikke uafhængigt bekræftet via strukturerede indikationsdata i denne samling). TxGNN-modellen forudsiger, at det kan være effektivt ved **adenokarcinom af livmoderligamenter**, men i øjeblikket støtter **0 kliniske forsøg** og **0 publikationer** denne specifikke retning – dette er et signal fra modelforudsigelse alene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-The `original_moa` field for Ramucirumab is not populated in this evidence pack (flagged as a High-severity data gap, DG002 — pending DrugBank API lookup). However, the repurposing rationale attached to the top prediction describes Ramucirumab as an anti-VEGFR2 monoclonal antibody that inhibits tumour angiogenesis, a mechanism already validated across multiple solid tumours including gastric cancer, NSCLC, hepatocellular carcinoma and colorectal cancer.
-
-Uterine ligament adenocarcinoma is a rare gynaecological malignancy. The mechanistic link proposed here is a broad extrapolation from anti-angiogenic activity in other solid tumours, rather than a disease-specific finding — the evidence pack explicitly notes there is no direct data on VEGFR2 expression or angiogenesis-dependence in this specific tumour type, so the connection "cannot be established as a specific link" beyond general class-level plausibility.
-
-Because there are no clinical trials or publications testing Ramucirumab in this indication, the mechanistic argument currently stands alone as the entire evidentiary basis for the prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|--------|
+| Oprindelig indikation | Ikke bekræftet i denne bevissamling (struktureret felt er tomt); mekanistisk rationale henviser til etableret brug ved mavekræft, NSCLC, hepatocellulært karcinom og kolorektal kræft |
+| Forudsagt ny indikation | Adenokarcinom af livmoderligamenter |
+| TxGNN-forudsigelsesscore | 99.95% |
+| Bevisniveau | L5 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Feltet `original_moa` for Ramucirumab er ikke udfyldt i denne bevissamling (markeret som et datakløft med høj alvorlighed, DG002 – afventer DrugBank API-opslag). Den tilknyttede omformålsrationale til den øverste forudsigelse beskriver dog Ramucirumab som et anti-VEGFR2 monoklonalt antistof, der hæmmer tumorangiogenese, en mekanisme der allerede er valideret på tværs af flere solide tumorer, herunder mavekræft, NSCLC, hepatocellulært karcinom og kolorektal kræft.
 
----
+Adenokarcinom af livmoderligamenter er en sjælden gynækologisk malignitet. Det mekanistiske link, der foreslås her, er en bred ekstrapolation fra anti-angiogenetisk aktivitet i andre solide tumorer snarere end et sygdomsspecifikt fund – bevissamlingen noterer eksplicit, at der ikke er direkte data om VEGFR2-ekspression eller angiogenese-afhængighed i denne specifikke tumortype, så forbindelsen "kan ikke etableres som et specifikt link" ud over generel klasse-niveau-plausibilitet.
 
-## Denmark Market Information
-
-Ramucirumab currently has **no marketing authorisations on record** in this evidence pack (`total_licenses: 0`, `market_status: Not marketed` / Not marketed). No licence table can be produced.
+Da der ikke er nogen kliniske forsøg eller publikationer, der tester Ramucirumab i denne indikation, står det mekanistiske argument i øjeblikket alene som hele bevisgrundlaget for forudsigelsen.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøgsbevis
 
-Ramucirumab is an antineoplastic monoclonal antibody (anti-VEGFR2, anti-angiogenic class), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-VEGFR2 monoclonal antibody, antiangiogenic) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: the evidence pack flags a **Blocking**-severity data gap (DG001) — TFDA/SmPC-level warnings and contraindications are not yet available, which by itself prevents this candidate from entering the S1 safety pre-assessment stage.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Ramucirumab har i øjeblikket **ingen markedsføringstilladelser registreret** i denne bevissamling (`total_licenses: 0`, `market_status: Not marketed` / Ikke markedsført). Der kan ikke produceres en licenstabel.
+
+---
+
+## Cytotoksicitet
+
+Ramucirumab er et antineoplastisk monoklonalt antistof (anti-VEGFR2, anti-angiogenetisk klasse), så dette afsnit gælder.
+
+| Punkt | Indhold |
+|------|--------|
+| Cytotoksicitetsklassificering | Målrettet terapi (anti-VEGFR2 monoklonalt antistof, anti-angiogenetisk) |
+| Risiko for myelosuppression | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
+| Emetogenicitetsklassificering | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
+| Overvågningspunkter | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
+| Sikkerhed ved håndtering | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsoplysninger. Bemærk: bevissamlingen markerer et datakløft med **Blocking**-alvorlighed (DG001) – TFDA/SmPC-niveau advarsler og kontraindikationer er ikke endnu tilgængelige, hvilket i sig selv forhindrer denne kandidat i at gå ind i S1-sikkerhedsforvurderingsfasen.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only) — there are zero clinical trials and zero publications supporting Ramucirumab in uterine ligament adenocarcinoma, and the mechanistic link is a generic class-level extrapolation rather than a disease-specific finding. Combined with a Blocking-severity safety data gap, the candidate cannot proceed further at this time.
+- Bevisniveauet er L5 (kun modelforudsigelse) – der er nul kliniske forsøg og nul publikationer, der understøtter Ramucirumab ved adenokarcinom af livmoderligamenter, og det mekanistiske link er en generisk klasse-niveau-ekstrapolation snarere end et sygdomsspecifikt fund. Kombineret med et datakløft med høj sikkerhedsalvorlighed kan kandidaten på nuværende tidspunkt ikke gå videre.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC-sourced warnings and contraindications (DG001, Blocking) — required before any S1 safety pre-assessment
-- Confirmed mechanism of action from DrugBank (DG002)
-- Disease-specific supporting evidence (preclinical, case reports, or trials) for VEGFR2/angiogenesis relevance in uterine ligament adenocarcinoma specifically, given its rarity and the lack of any registered studies
-- Clarification of Ramucirumab's confirmed original indication(s), since the structured `original_indications` field in this pack is currently empty
+**Følgende er nødvendigt for at kunne fortsætte:**
+- TFDA/SmPC-baserede advarsler og kontraindikationer (DG001, Blocking) – påkrævet før enhver S1-sikkerhedsforvurdering
+- Bekræftet virkningsmekanisme fra DrugBank (DG002)
+- Sygdomsspecifikt understøttende bevis (præklinisk, kasuistikker eller forsøg) for VEGFR2/angiogenese-relevans ved adenokarcinom af livmoderligamenter specifikt, givet dets sjældenhed og mangel på registrerede forsøg
+- Afklaring af Ramucirumabs bekræftede oprindelige indikation(er), da det strukturerede `original_indications`-felt i denne samling i øjeblikket er tomt
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

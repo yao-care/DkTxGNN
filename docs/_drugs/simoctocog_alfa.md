@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Simoctocog Alfa: From Haemophilia A to Pseudo-von Willebrand Disease
+# Simoctocog Alfa: Fra Hæmofili A til Pseudo-von Willebrands Sygdom
 
-## One-Sentence Summary
+## Etlinjeopsummering
 
-Simoctocog alfa is a recombinant human Factor VIII (rFVIII) product used to replace FVIII deficiency in **haemophilia A**. The TxGNN model's top-ranked prediction is **pseudo-von Willebrand disease**, but this is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic rationale argues the association is likely a knowledge-graph artefact rather than a genuine pharmacological signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Haemophilia A (FVIII replacement therapy) — noted in the mechanistic rationale text; not separately confirmed in structured regulatory data |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Simoctocog alfa er et rekombinant humant Faktor VIII-produkt (rFVIII), der bruges til erstatning af FVIII-mangel ved **hæmofili A**. TxGNN-modellens højest rangerede forudsigelse er **pseudo-von Willebrands sygdom**, men dette understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og den medfølgende mekanistiske begrundelse argumenterer for, at associationen sandsynligvis er en vidensgrafartefakt snarere end et autentisk farmakologisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data for simoctocog alfa is not available in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, simoctocog alfa is a recombinant FVIII concentrate whose established efficacy is in replacing deficient or absent Factor VIII in haemophilia A.
-
-The predicted indication, pseudo-von Willebrand disease, has a fundamentally different pathophysiology: it is caused by a gain-of-function mutation in the platelet *GP1BA* gene, leading to abnormally increased affinity of the platelet GPIb receptor for von Willebrand factor. This is a platelet-receptor disorder, not a coagulation-factor deficiency. Supplementing FVIII does not correct excessive GPIb–vWF binding and, per the supplied rationale, may not address the underlying pathology at all.
-
-The model's very high confidence score most likely reflects proximity in the knowledge graph between "coagulation/bleeding disorder" nodes rather than a true mechanistic relationship. Among the ten predictions in this pack, **acquired coagulation factor deficiency** (rank 9/10) has a comparatively more plausible link — it may encompass acquired haemophilia A, where high-dose FVIII concentrates have off-label precedent — but even this is flagged only as a "Research Question," not a supported hypothesis, given the complete absence of trial or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Hæmofili A (FVIII-erstatningsterapi) — nævnt i den mekanistiske begrundelsestekst; ikke særskilt bekræftet i strukturerede regulatoriske data |
+| Forudsagt ny indikation | Pseudo-von Willebrands sygdom |
+| TxGNN prognose-score | 99,997% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede mekanisme-for-virkning-data for simoctocog alfa er ikke tilgængelige i denne evidenspakke (markeret som en datakløft med høj alvorlighed). Baseret på de tilgængelige oplysninger er simoctocog alfa et rekombinant FVIII-koncentrat, hvis etablerede effektivitet er i erstatning af deficient eller manglende Faktor VIII ved hæmofili A.
 
----
+Den forudsagte indikation, pseudo-von Willebrands sygdom, har en fundamentalt anderledes patofysiologi: den er forårsaget af en gain-of-function-mutation i platelet *GP1BA*-genet, hvilket fører til abnormalt øget affinitet af platelet GPIb-receptoren for von Willebrands faktor. Dette er en platelet-receptor-lidelse, ikke en koagulationsfaktormangel. Supplering af FVIII korrigerer ikke overdreven GPIb–vWF-binding og kan ifølge den medfølgende begrundelse slet ikke adressere den underliggende patologi.
 
-## Denmark Market Information
-
-Simoctocog alfa currently has no registered marketing authorisations in Denmark (market status: **Not marketed**; 0 licenses on file). No product/dosage-form data is available for this evidence pack.
+Modellens meget høje tillidsscore afspejler sandsynligvis nærhed i vidensgrafen mellem "koagulations-/blødningslidelse"-knuder snarere end en sand mekanistisk sammenhæng. Blandt de ti forudsigelser i denne pakke har **erhvervet koagulationsfaktormangel** (rang 9/10) et sammenligneligt mere plausibelt bånd — det kan omfatte erhvervet hæmofili A, hvor højdosis FVIII-koncentrater har off-label præcedens — men selv dette er markeret kun som et "Forskningsspørgsmål," ikke en understøttet hypotese, givet det fuldstændige fravær af forsøgs- eller litteraturbeviser.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøgsbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The top-ranked prediction (pseudo-von Willebrand disease) has no clinical trial or literature support and a mechanistic rationale that argues against biological plausibility — FVIII replacement does not address the platelet-receptor defect underlying this disease. This is an L5, model-only signal with no corroborating evidence.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and detailed MOA data for simoctocog alfa (currently data gaps)
-- Danish/EU SmPC — including key warnings, contraindications, and drug interaction data (currently unavailable)
-- Targeted literature search specifically on FVIII use in acquired coagulation factor deficiency / acquired haemophilia A (rank 9–10), the only candidate with partial mechanistic plausibility, before any further evaluation
-- TFDA/Danish regulatory documentation on registration status, since 0 marketing authorisations are currently on file
+## Markedsinformation for Danmark
+
+Simoctocog alfa har i øjeblikket ingen registrerede markedsføringstilladelser i Danmark (markedsstatus: **Ikke markedsført**; 0 licenser på fil). Ingen produkt-/doseringsform-data er tilgængelige for denne evidenspakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Den højest rangerede forudsigelse (pseudo-von Willebrands sygdom) har intet klinisk forsøgs- eller litteraturunderstøtte og en mekanistisk begrundelse, der argumenterer mod biologisk plausibilitet — FVIII-erstatning adresserer ikke den platelet-receptor-defekt, der ligger til grund for denne sygdom. Dette er et L5, model-kun-signal uden bekræftende bevis.
+
+**For at fortsætte er det følgende nødvendigt:**
+- Bekræftet oprindelig indikation og detaljerede MOA-data for simoctocog alfa (i øjeblikket datakløfter)
+- Dansk/EU SmPC — herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket utilgængeligt)
+- Målrettet litteratursøgning specifikt om FVIII-brug ved erhvervet koagulationsfaktormangel / erhvervet hæmofili A (rang 9–10), den eneste kandidat med delvis mekanistisk plausibilitet, før yderligere evaluering
+- TFDA/dansk regulatorisk dokumentation om registreringsstatus, da 0 markedsføringstilladelser i øjeblikket er på fil
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

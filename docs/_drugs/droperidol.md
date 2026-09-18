@@ -29,89 +29,90 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Droperidol: From Acute Psychosis / Procedural Sedation to Tourette Syndrome
+# Droperidol: Fra akut psykose / procedurel sedering til Tourette-syndrom
 
-## One-Sentence Summary
+## En-sætnings sammenfatning
 
-Droperidol is a butyrophenone-class antipsychotic/neuroleptic traditionally used internationally for rapid tranquilisation of acutely agitated patients and as an adjunct in procedural sedation and anaesthesia, though it is not currently marketed in Denmark.
-The TxGNN model predicts it may be effective for **Tourette Syndrome**, with **0 clinical trials** and **1 publication** currently supporting this specific direction — the evidence is based primarily on mechanistic analogy with the related butyrophenone drug haloperidol, which holds FDA approval for Tourette syndrome.
+Droperidol er et antipsykotisk middel/neurolepticum i butyrofenonklassen, traditionelt brugt internationalt til hurtig beroligelse af akut agiterede patienter og som adjuvans ved procedurel sedering og anæstesi, selvom det ikke er markedsført i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Tourette-syndrom**, med **0 kliniske forsøg** og **1 publikation**, der understøtter denne specifik retning — beviserne er primært baseret på mekanistisk analogi med det relaterede butyrofenonmiddel haloperidol, som har FDA-godkendelse til Tourette-syndrom.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|---------|
-| Original Indication | Not registered in Denmark; internationally recognised for acute agitation/sedation and adjunct anaesthesia |
-| Predicted New Indication | Tourette Syndrome |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ikke registreret i Danmark; internationalt anerkendt til akut agitation/sedering og adjuvans anæstesi |
+| Forudsagt ny indikation | Tourette-syndrom |
+| TxGNN-forudsigelsesscore | 99.89% |
+| Bevisniveau | L4 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afventende |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data for droperidol is not available in the Evidence Pack. Based on known pharmacological information, droperidol is a butyrophenone-class dopamine D2 receptor antagonist — the same drug class as haloperidol, which has received FDA approval for the treatment of Tourette syndrome. Both agents block striatal dopamine D2 receptors, and this shared mechanism forms the basis of the TxGNN model's prediction: reduced dopaminergic overactivity in the mesolimbic and nigrostriatal pathways is thought to suppress the involuntary motor and vocal tics that define Tourette syndrome.
+I øjeblikket er detaljerede data om virkningsmekanisme for droperidol ikke tilgængelige i Evidenspakken. Baseret på kendt farmakologisk information er droperidol en dopamin D2-receptorantagonist i butyrofenonklassen — samme klasse som haloperidol, som har modtaget FDA-godkendelse til behandling af Tourette-syndrom. Begge midler blokerer striatal dopamin D2-receptorer, og denne delte mekanisme danner grundlaget for TxGNN-modellens forudsigelse: nedsat dopaminerg overaktivitet i mesolimbiske og nigrostriatale veje formodes at undertrykke de ufrivillige motorniske og vokale tikker, der definerer Tourette-syndrom.
 
-The class-effect hypothesis is therefore mechanistically coherent. However, it is important to note that droperidol and haloperidol, while sharing the same pharmacological class, differ significantly in their pharmacokinetic profiles, receptor binding affinity, duration of action, and clinical use context. Haloperidol is administered orally for chronic management of Tourette syndrome, whereas droperidol is primarily used as a short-acting parenteral agent for acute settings — which raises questions about route compatibility and dosing feasibility for a chronic neurological indication.
+Klasseeffekthypotesen er derfor mekanistisk sammenhængende. Det er dog vigtigt at bemærke, at droperidol og haloperidol, selvom de tilhører samme farmakologiske klasse, adskiller sig væsentligt i deres farmakokinetiske profiler, receptorbindingsaffinitet, virkningstid og klinisk anvendelseskontekst. Haloperidol gives oralt til kronisk behandling af Tourette-syndrom, mens droperidol primært bruges som et kortvarigt parentalt middel i akutte situationer — hvilket rejser spørgsmål om rutekompatibilitet og dosiseringsfeasibilitet for en kronisk neurologisk indikation.
 
-Critically, there are currently no clinical trials and no published studies examining droperidol directly in patients with Tourette syndrome. The single literature item retrieved is a 1976 study on haloperidol — not droperidol — and serves only to illustrate the class-level mechanistic rationale. QTc interval prolongation is a well-documented and serious safety concern with droperidol (resulting in a US FDA Black Box Warning), which adds a further barrier to any repurposing investigation in a paediatric-predominant population such as Tourette syndrome patients.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Kritisk vigtig er det, at der i øjeblikket ikke er nogen kliniske forsøg og ingen publicerede studier, der undersøger droperidol direkte hos patienter med Tourette-syndrom. Det eneste litteraturpunkt, der blev fundet, er et studie fra 1976 om haloperidol — ikke droperidol — og tjener kun til at illustrere klasseniveaets mekanistiske rationale. QTc-intervalforlængelse er en velkendt og alvorlig sikkerhedsrisiko ved droperidol (resulterende i en US FDA Black Box Warning), hvilket udgør en yderligere barriere for enhver omformålsundersøgelse i en overvejende pediatrisk population som Tourette-syndrom patienter.
 
 ---
 
-## Literature Evidence
+## Beviser fra kliniske forsøg
 
-| PMID | Year | Type | Journal | Key Findings |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturebeviser
+
+| PMID | År | Type | Tidsskrift | Vigtigste resultater |
 |------|------|------|---------|-------------|
-| [791589](https://pubmed.ncbi.nlm.nih.gov/791589/) | 1976 | Clinical Study | Current Psychiatric Therapies | Haloperidol (a butyrophenone class-mate of droperidol) evaluated in severe behavioural disorders — provides indirect mechanistic analogy for D2 antagonism in tic-related conditions; **does not directly study droperidol** |
+| [791589](https://pubmed.ncbi.nlm.nih.gov/791589/) | 1976 | Klinisk studie | Current Psychiatric Therapies | Haloperidol (et butyrofenon-klassekollega af droperidol) evalueret i alvorlige adfærdsforstyrrelser — giver indirekte mekanistisk analogi for D2-antagonisme i tikker-relaterede tilstande; **studerer ikke direkte droperidol** |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation om Danmark
 
-Droperidol is **not currently marketed in Denmark**. No marketing authorisations have been granted by the Danish Medicines Agency (Lægemiddelstyrelsen), and no centralised EMA authorisations are active for this drug in Denmark. Any future repurposing use would require either a new marketing authorisation application or a named-patient / compassionate use pathway.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Important contextual note:** The repurposing rationale analysis flags **QTc interval prolongation** as a clinically significant safety concern with droperidol. This has previously led to a US FDA Black Box Warning and withdrawal or restriction of the product in several markets. Any safety screening for new indications — particularly in populations that include children and adolescents (as with Tourette syndrome) — must prioritise cardiac safety evaluation, including baseline and on-treatment ECG monitoring.
+Droperidol er **ikke i øjeblikket markedsført i Danmark**. Der er ingen markedsføringstilladelser tildelt af Lægemiddelstyrelsen, og ingen centraliserede EMA-tilladelser er aktive for dette middel i Danmark. Enhver fremtidig omformål ville kræve enten en ny ansøgning om markedsføringstilladelse eller en navngivet patient- / humanitær brugsvej.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Hold**
+Venligst se det godkendte Produktinformation (SmPC) for sikkerhedsinformationer.
 
-**Rationale:**
-The TxGNN prediction for Tourette syndrome is mechanistically coherent as a class-effect hypothesis (butyrophenone D2 antagonism shared with haloperidol), but there is no direct clinical evidence supporting the use of droperidol specifically in Tourette syndrome. With an evidence level of L4 (mechanistic analogy only), a paediatric-predominant patient population, and a known cardiac safety risk (QTc prolongation), the threshold for proceeding is not yet met.
-
-**To proceed, the following is needed:**
-
-- **MOA confirmation:** Retrieve full DrugBank pharmacology data to formally document D2 receptor binding profile and compare with haloperidol's Tourette syndrome activity
-- **Safety screening (S1):** Obtain full SmPC / TFDA package insert to complete the blocking safety gap (DG001) — in particular, QTc-related contraindications and warnings
-- **Literature gap assessment:** Conduct a systematic PubMed search specifically for droperidol AND Tourette syndrome (or Gilles de la Tourette) to confirm absence of any unpublished or foreign-language evidence
-- **Route compatibility analysis:** Evaluate whether an oral or alternative formulation of droperidol exists or could be developed for chronic administration, given the indication's need for long-term management
-- **Paediatric safety review:** Assess cardiac risk in the Tourette syndrome patient demographic (predominantly children and adolescents) before any prospective feasibility work is initiated
+> **Vigtig kontekstuel bemærkning:** Analysen af omformålsrationalet markerer **QTc-intervalforlængelse** som en klinisk signifikant sikkerhedsrisiko ved droperidol. Dette har tidligere ført til en US FDA Black Box Warning og tilbagetrækning eller begrænsning af produktet i flere markeder. Enhver sikkerhedsscreening for nye indikationer — især i populationer, der inkluderer børn og adolescenter (som ved Tourette-syndrom) — skal prioritere kardial sikkerhedsevaluering, herunder baseline- og under-behandlings ECG-overvågning.
 
 ---
 
-> **Additional signal of interest:** Among the five unique predicted indications in this Evidence Pack, **manic bipolar affective disorder** (TxGNN score: 99.82%, Evidence Level: L3) carries substantially stronger evidence, including two Cochrane systematic reviews (PMID [11406047](https://pubmed.ncbi.nlm.nih.gov/11406047/), [27976370](https://pubmed.ncbi.nlm.nih.gov/27976370/)) and direct case series describing oral droperidol use in treatment-refractory mania (PMID [9789713](https://pubmed.ncbi.nlm.nih.gov/9789713/)). A dedicated repurposing report for the manic bipolar affective disorder indication is recommended and may warrant a **Proceed with Guardrails** designation pending full safety review.
+## Konklusion og næste skridt
+
+**Beslutning: Afventende**
+
+**Rationalet:**
+TxGNN-forudsigelsen for Tourette-syndrom er mekanistisk sammenhængende som en klasseeffekthypotese (butyrofenon D2-antagonisme delt med haloperidol), men der er ingen direkte kliniske beviser, der understøtter brugen af droperidol specifikt ved Tourette-syndrom. Med et bevisniveau på L4 (kun mekanistisk analogi), en overvejende pediatrisk patient-population og en kendt kardial sikkerhedsrisiko (QTc-forlængelse), er tærsklen for at gå videre endnu ikke nået.
+
+**For at gå videre, er det følgende nødvendigt:**
+
+- **MOA-bekræftelse:** Indhent fuldstændige DrugBank-farmakologi-data for formelt at dokumentere D2-receptorbindingsprofilen og sammenlign med haloperidols Tourette-syndrom aktivitet
+- **Sikkerhedsscreening (S1):** Indhent fuldstændige SmPC / TFDA pakkeindlæg for at udfylde det blokerende sikkerhedshul (DG001) — især QTc-relaterede kontraindikationer og advarsler
+- **Vurdering af litteraturgab:** Foretag en systematisk PubMed-søgning specifikt for droperidol OG Tourette-syndrom (eller Gilles de la Tourette) for at bekræfte fravær af uopubliceret eller fremmedsproglig beviser
+- **Rutekompabilitet-analyse:** Vurder, om en oral eller alternativ formulering af droperidol eksisterer eller kunne udvikles til kronisk administration, givet indikationens behov for langtidsbehandling
+- **Pediatrisk sikkerhedsvurdering:** Vurder kardial risiko i Tourette-syndrom patientdemografien (overvejende børn og adolescenter) før noget prospektivt gennemførlighedsarbejde påbegyndes
 
 ---
 
-*This report is for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+> **Signalet om yderligere interesse:** Blandt de fem unikke forudsagte indikationer i denne Evidenspakke, **manisk bipolær affektiv lidelse** (TxGNN score: 99.82%, Bevisniveau: L3) har væsentligt stærkere beviser, herunder to Cochrane systematiske reviews (PMID [11406047](https://pubmed.ncbi.nlm.nih.gov/11406047/), [27976370](https://pubmed.ncbi.nlm.nih.gov/27976370/)) og direkte kasusserie beskrivelse af oral droperidol-brug i behandlingsresistent mani (PMID [9789713](https://pubmed.ncbi.nlm.nih.gov/9789713/)). En dedikeret omformålsrapport for den maniske bipolære affektive lidelsesindikation anbefales og kan berettige til **Gå videre med sikkerhedsforanstaltninger** betegnelse afventende fuld sikkerhedsvurdering.
+
+---
+
+*Denne rapport er udelukkende til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddelanvendelsesomformål kræver klinisk validering før nogen terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

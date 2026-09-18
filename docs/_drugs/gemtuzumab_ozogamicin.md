@@ -29,79 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
----
-
-# Gemtuzumab Ozogamicin: Repurposing Evaluation Blocked — Data Gaps Require Resolution
+# Gemtuzumab ozogamicin: Genenbrugsvurdering blokeret — Datahuller kræver løsning
 
 ---
 
-## One-Sentence Summary
+## Ét-linjes opsummering
 
-Gemtuzumab ozogamicin (DrugBank ID: DB00056) was identified in the pipeline but could not be evaluated for drug repurposing in this cycle.
-The TxGNN model generated **no predicted indications**, as two upstream data gaps — missing regulatory label data and missing mechanism of action — prevented the prediction pipeline from running.
-This report documents the gaps and defines the remediation steps required before evaluation can proceed.
+Gemtuzumab ozogamicin (DrugBank ID: DB00056) blev identificeret i pipelinen, men kunne ikke vurderes for genenbrugspotentiale i denne cyklus. TxGNN-modellen genererede ingen forudsagte indicationer, da to opstrøms datahuller — manglende reguleringsmæssige etikettata og manglende virkningsmekanisme — forhindrede forudsigelsespipelinen i at køre. Denne rapport dokumenterer hullerne og definerer de iværksætningstrin, der kræves, før vurderingen kan fortsætte.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available |
-| Predicted New Indication | No prediction generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — model prediction only, no supporting studies |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
----
-
-## Why Could No Prediction Be Generated?
-
-The TxGNN repurposing pipeline requires two inputs to function: a confirmed mechanism of action (to locate the drug node in the knowledge graph) and at least one approved indication (to establish the drug's existing disease associations).
-
-For gemtuzumab ozogamicin, both inputs are absent from the current Evidence Pack. The MOA field was not populated from DrugBank (DG002), and no original indication records were retrieved (DG001 — no regulatory label). Without these anchors, the knowledge graph cannot place the drug in its correct therapeutic context, and the prediction model cannot produce meaningful output.
-
-From the INN suffix convention, "-ozogamicin" designates a calicheamicin-conjugated antibody-drug conjugate (ADC). This naming convention places gemtuzumab ozogamicin within the cytotoxic antineoplastic class. However, this structural inference alone is not sufficient to drive the TxGNN prediction — confirmed indication and MOA data must be loaded first. Once those data gaps are resolved, the pipeline should be re-run.
+| Post | Indhold |
+|------|----------|
+| Oprindelig indikation | Ikke tilgængelig |
+| Forudsagt ny indikation | Ingen forudsigelse genereret |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Bevisniveau | L5 — kun modelforudsigelse, uden understøttende studier |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Cytotoxicity
+## Hvorfor kunne der ikke genereres nogen forudsigelse?
 
-> This section is included because the INN suffix "-ozogamicin" identifies this agent as a calicheamicin-conjugated antibody-drug conjugate — a known cytotoxic antineoplastic class.
+TxGNN-genenbrugspipelinen kræver to inputter for at fungere: en bekræftet virkningsmekanisme (for at lokalisere lægemiddel-noden i vidensgrafen) og mindst en godkendt indikation (for at etablere lægemidlets eksisterende sygdomsassociationer).
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Antibody-drug conjugate (ADC) — calicheamicin conjugate (inferred from INN suffix; confirmation from DrugBank/SmPC required) |
-| Myelosuppression Risk | Please refer to the approved Summary of Product Characteristics (SmPC) — calicheamicin ADCs are typically associated with significant haematological toxicity |
-| Emetogenicity Classification | Please refer to the SmPC |
-| Monitoring Items | Please refer to the SmPC — typically includes complete blood count (CBC with differential), liver function tests, and hepatic veno-occlusive disease surveillance |
-| Handling Protection | Must follow cytotoxic drug handling regulations — treat as cytotoxic until SmPC confirms otherwise |
+For gemtuzumab ozogamicin er begge inputter fraværende i den aktuelle Evidenspakke. MOA-feltet blev ikke udfyldt fra DrugBank (DG002), og der blev ikke hentet data om oprindelige indikationer (DG001 — ingen reguleringsmæssig etiket). Uden disse ankerpunkter kan vidensgrafen ikke placere lægemidlet i sin korrekte terapeutiske kontekst, og forudsigelsesmodellen kan ikke producere meningsfuldt output.
+
+Fra INN-suffikskonventionen betegner "-ozogamicin" et calicheamicin-konjugeret antistof-lægemiddel-konjugat (ADC). Denne navngivningskonvention placerer gemtuzumab ozogamicin inden for klassen af cytotoksiske antineoplastiske lægemidler. Dette strukturelle slutningsresultat udledt fra INN-suffikset alene er dog ikke tilstrækkeligt til at drive TxGNN-forudsigelsen — bekræftede indikatie- og MOA-data skal indlæses først. Når disse datahuller er løst, bør pipelinen køres igen.
 
 ---
 
-## Safety Considerations
+## Cytotoksicitet
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+> Dette afsnit er inkluderet, fordi INN-suffikset "-ozogamicin" identificerer denne forbindelse som et calicheamicin-konjugeret antistof-lægemiddel-konjugat — en kendt cytotoksisk antineoplastisk klasse.
 
-No key warnings, contraindications, or drug interaction data were available in this Evidence Pack. All safety fields returned as gaps (DG001). Retrieving the regulatory label is classified as a **Blocking** data gap before any safety screening can begin.
+| Post | Indhold |
+|------|----------|
+| Cytotoksicitetsklassificering | Antistof-lægemiddel-konjugat (ADC) — calicheamicin-konjugat (udledt fra INN-suffiks; bekræftelse fra DrugBank/SmPC påkrævet) |
+| Myelosuppressionsrisiko | Se venligst det godkendte sammendrag af produktets karakteristika (SmPC) — calicheamicin-ADCer er typisk forbundet med betydelig hæmatologisk toksicitet |
+| Emetogenicitetsklassificering | Se venligst SmPC'en |
+| Overvågningspunkter | Se venligst SmPC'en — omfatter typisk fuldstændig blodprocent (CBC med differentiering), leverprøver og overvågning af hepatisk veno-oklusiv sygdom |
+| Håndteringsbeskyttelse | Skal følge bestemmelser om håndtering af cytotoksiske lægemidler — behandles som cytotoksisk, indtil SmPC bekræfter andet |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte sammendrag af produktets karakteristika (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-Two data gaps — one classified as Blocking (DG001: regulatory label) and one as High severity (DG002: MOA) — prevent the TxGNN prediction pipeline from generating any output. Until these are resolved, no repurposing signal can be evaluated and no safety screening can be completed.
+Der var ingen vigtige advarsler, kontraindikationer eller lægemiddelinteraktionsdata tilgængelige i denne Evidenspakke. Alle sikkerhedsfelter returnerades som huller (DG001). Hentning af den reguleringsmæssige etiket er klassificeret som et blokerende datahul, før der kan iværksættes nogen sikkerhedsscreening.
 
-**To proceed, the following is needed:**
+---
 
-- **[DG001 — Blocking]** Retrieve the product label (SmPC) from the Danish Medicines Agency (Laegemiddelstyrelsen) or the EMA centralised database. Note: gemtuzumab ozogamicin may hold a centralised EMA authorisation (Mylotarg®, Pfizer); the 0-licence result in the current Evidence Pack should be verified against the EMA product register before concluding the drug is absent from the Danish market.
-- **[DG002 — High]** Query the DrugBank API (DB00056) to populate the mechanism of action field — specifically the antibody target and the cytotoxic payload linkage.
-- **Re-run prediction pipeline** after both fields are populated, and generate a new Evidence Pack version.
-- **Confirm market status** by cross-checking Laegemiddelstyrelsen and the EMA EPAR database for any active or historical centralised marketing authorisations covering Denmark.
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+To datahuller — et klassificeret som Blokering (DG001: reguleringsmæssig etiket) og et som høj alvorlighed (DG002: MOA) — forhindrer TxGNN-forudsigelsespipelinen i at generere noget output. Indtil disse er løst, kan intet genenbrugssignal vurderes, og ingen sikkerhedsscreening kan gennemføres.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **[DG001 — Blokering]** Hent produktetiketten (SmPC) fra Laegemiddelstyrelsen eller EMA's centraliserede database. Bemærk: gemtuzumab ozogamicin kan have en centraliseret EMA-godkendelse (Mylotarg®, Pfizer); resultatet med 0 licenser i den aktuelle Evidenspakke skal verificeres mod EMA's produktregister, før man konkluderer, at lægemidlet ikke er til stede på det danske marked.
+- **[DG002 — Høj]** Forespørg DrugBank API'en (DB00056) for at udfylde virkningsmekanisme-feltet — specifikt antistofmålet og den cytotoksiske nyttelast-forbindelse.
+- **Kør forudsigelsespipelinen igen** efter at begge felter er udfyldt, og generer en ny Evidenspakke-version.
+- **Bekræft markedsstatus** ved at krydstjekke Laegemiddelstyrelsen og EMA's EPAR-database for eventuelle aktive eller historiske centraliserede markedsføringstilladelser, der dækker Danmark.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

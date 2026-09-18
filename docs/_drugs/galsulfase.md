@@ -29,77 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Galsulfase: From Mucopolysaccharidosis Type VI to Ptosis-Strabismus-Ectopic Pupils Syndrome
+# Galsulfase: Fra Mukopolysaccharidose Type VI til Ptosis-Strabismus-Ektopiske Pupiller Syndrom
 
-## One-Sentence Summary
+## Enlinjet Sammenfatning
 
-Galsulfase (Naglazyme) is a recombinant enzyme replacement therapy (ERT) approved for Mucopolysaccharidosis Type VI (MPS VI / Maroteaux-Lamy syndrome), where it restores the deficient N-acetylgalactosamine 4-sulfatase enzyme and reduces pathological glycosaminoglycan (GAG) accumulation throughout the body. The TxGNN model predicts it may be effective for **ptosis-strabismus-ectopic pupils syndrome**, with a prediction score of **97.89%**; however, **no supporting clinical trials or publications** exist for this indication. Importantly, the mechanistic analysis included in this Evidence Pack identifies the high score as a knowledge graph topology artefact rather than a genuine biological signal.
+Galsulfase (Naglazyme) er en rekombinant enzymerstattningsterapi (ERT) godkendt til Mukopolysaccharidose Type VI (MPS VI / Maroteaux-Lamy syndrom), hvor den genopretter det deficiente N-acetylgalactosamin 4-sulfatase enzym og reducerer patologisk glykosaminoglukan (GAG) akkumulering i hele kroppen. TxGNN-modellen forudsiger, at det kan være effektivt ved **ptosis-strabismus-ektopiske pupiller syndrom**, med en prognose score på **97,89%**; dog **findes der ingen understøttende kliniske forsøg eller publikationer** for denne indikation. Vigtigst er det, at den mekanistiske analyse inkluderet i denne Evidence Pack identificerer den høje score som en vidensgrafs topologi artefakt snarere end et ægte biologisk signal.
 
 ---
 
-## Quick Overview
+## Hurtig Oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Mucopolysaccharidosis Type VI (MPS VI / Maroteaux-Lamy syndrome) |
-| Predicted New Indication | Ptosis-Strabismus-Ectopic Pupils Syndrome |
-| TxGNN Prediction Score | 97.89% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indikation | Mukopolysaccharidose Type VI (MPS VI / Maroteaux-Lamy syndrom) |
+| Forudsagt Ny Indikation | Ptosis-Strabismus-Ektopiske Pupiller Syndrom |
+| TxGNN Prognose Score | 97,89% |
+| Evidens Niveau | L5 |
+| Danmark Markeds Status | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Ventepause |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne Prognose Rimelig?
 
-Galsulfase is a recombinant form of N-acetylgalactosamine 4-sulfatase (arylsulfatase B), the lysosomal enzyme deficient in MPS VI. When administered intravenously, it is taken up by cells via mannose-6-phosphate receptors and traffics to lysosomes, where it degrades accumulated dermatan sulfate. Patients with MPS VI do develop secondary ocular manifestations — most notably corneal clouding — as a consequence of GAG deposition in corneal stroma. This establishes a documented, albeit indirect, association between Galsulfase and ocular pathology, which likely explains the drug's connectivity to eye-related phenotype nodes in the TxGNN knowledge graph.
+Galsulfase er en rekombinant form af N-acetylgalactosamin 4-sulfatase (arylsulfatase B), det lysosomale enzym, der mangler hos MPS VI. Når det administreres intravenøst, optages det af celler via mannose-6-phosphat receptorer og transporteres til lysosomer, hvor det nedbryder akkumuleret dermatansulfat. Patienter med MPS VI udvikler faktisk sekundære okulære manifestationer - mest bemærkelsesværdigt hornhindeformørkning - som følge af GAG-aflejring i hornhindestrukturen. Dette etablerer en dokumenteret, omend indirekte, forbindelse mellem Galsulfase og okulær patologi, hvilket sandsynligvis forklarer medicinen's forbundethed til øjerelaterede fænotype knuder i TxGNN vidensgrafen.
 
-However, **ptosis-strabismus-ectopic pupils syndrome** is a congenital neurodevelopmental disorder characterised by structural anatomical abnormalities of the eye and pupil arising during embryogenesis. It is not caused by lysosomal enzyme deficiency or GAG over-accumulation. Enzyme replacement therapy has no established mechanism by which it could reverse or modify congenital structural defects of the anterior segment, extraocular muscles, or autonomic neural pathways.
+Men **ptosis-strabismus-ektopiske pupiller syndrom** er en medfødt neuroontogenetisk lidelse karakteriseret ved strukturelle anatomiske abnormiteter i øjet og pupillen opstået under embryogenese. Den er ikke forårsaget af lysosomalt enzymdeficit eller GAG over-akkumulering. Enzymerstattningsterapi har ingen etableret mekanisme, hvorved den kunne reversere eller ændre medfødte strukturelle defekter i det forreste segment, ekstraokulære muskler eller autonome neurale veje.
 
-The mechanistic rationale included in this Evidence Pack explicitly characterises this as a **knowledge graph topology false positive**: the high TxGNN score (97.89%) most plausibly results from "ptosis" being a high-connectivity shared phenotype node in the knowledge graph, generating systematically elevated scores for all ptosis-associated conditions regardless of their biological relationship to GAG metabolism. Notably, all five unique predictions in the top-10 list share the same pattern — rare congenital ptosis-related syndromes — which strongly supports a systematic model bias rather than any genuine repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Den mekanistiske begrundelse inkluderet i denne Evidence Pack karakteriserer dette eksplicit som en **vidensgrafs topologi falsk positiv**: den høje TxGNN score (97,89%) skyldes mest plausibelt, at "ptosis" er en høj-forbindelsesgrad delt fænotype knude i vidensgrafen, der genererer systematisk forhøjede scores for alle ptosis-associerede tilstande uanset deres biologiske forhold til GAG-metabolisme. Bemærkelsesværdigt deles alle fem unikke forudsigelser i top-10 listen det samme mønster - sjældne medfødte ptosis-relaterede syndromer - hvilket stærkt understøtter et systematisk model bias snarere end nogen ægt genformål mulighed.
 
 ---
 
-## Literature Evidence
+## Klinisk Forsøg Evidens
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-Galsulfase is not currently registered or actively marketed in Denmark, and no national or centralised marketing authorisations are on record for this jurisdiction in the Evidence Pack.
-
-> **Note for prescribers:** Naglazyme (galsulfase) holds a centralised EMA marketing authorisation (EU/1/05/302) valid across all EU/EEA member states. Danish patients with confirmed MPS VI may be eligible for access through named-patient programmes or hospital exemption pathways. Please consult the Danish Medicines Agency (Laegemiddelstyrelsen) for current availability and reimbursement status.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteratur Evidens
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Danmark Markeds Information
 
-**Decision: Hold**
+Galsulfase er ikke i øjeblikket registreret eller aktivt markedsført i Danmark, og ingen nationale eller centraliserede markedsføringstilladelser er registreret for denne jurisdiktion i Evidence Pack.
 
-**Rationale:**
-Every top-ranked TxGNN prediction for Galsulfase involves a rare congenital ptosis-related syndrome with no mechanistic connection to GAG metabolism, no supporting clinical trials, and no published literature. The Evidence Pack's own mechanistic analysis identifies these high scores as a systematic knowledge graph topology artefact driven by the high node-connectivity of "ptosis" phenotypes — not a biological signal. Proceeding with any of these indications is not scientifically justified at this stage.
+> **Bemærk for ordinerende læger:** Naglazyme (galsulfase) har en centraliseret EMA markedsføringstilladelse (EU/1/05/302) gyldig på tværs af alle EU/EØS medlemslande. Danske patienter med bekræftet MPS VI kan være berettiget til adgang gennem navngiven-patient programmer eller hospital exemption-veje. Kontakt venligst Lægemiddelstyrelsen for nuværende tilgængelighed og refusionsstatus.
 
-**To proceed, the following is needed:**
+---
 
-- **MOA data retrieval**: Obtain full mechanistic and pharmacological profile from DrugBank (DB01279) and current EMA/FDA product labelling to populate the data gaps flagged in this report
-- **Knowledge graph audit**: Commission a formal review of phenotype-driven prediction bias in the TxGNN model for lysosomal storage disease ERT agents, to identify and correct topology artefacts before re-ranking candidates
-- **Biologically plausible re-query**: Investigate whether MPS VI–related ocular manifestations (corneal clouding, glaucoma, papilloedema) or systemic GAG-deposition conditions could yield more mechanistically credible repurposing candidates through targeted evidence searches
-- **Named-patient access clarification**: Confirm current availability of Naglazyme in Denmark via Laegemiddelstyrelsen for MPS VI patients, independent of the repurposing evaluation
+## Sikkerhedshensyn
+
+Se den godkendte Produktinformation (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: Ventepause**
+
+**Begrundelse:**
+Enhver højest placeret TxGNN prognose for Galsulfase involverer sjælden medfødt ptosis-relateret syndrom uden mekanistisk forbindelse til GAG-metabolisme, ingen understøttende kliniske forsøg og ingen offentliggjort litteratur. Evidence Pack's egen mekanistiske analyse identificerer disse høje scores som en systematisk vidensgrafs topologi artefakt drevet af den høje knude-forbindelsesgrad af "ptosis" fænotyper - ikke et biologisk signal. At fortsætte med nogen af disse indikationer er ikke videnskabeligt begrundet på dette stadie.
+
+**For at fortsætte er følgende nødvendig:**
+
+- **MOA data hentagelse**: Indhent fuldstændig mekanistisk og farmakologisk profil fra DrugBank (DB01279) og nuværende EMA/FDA produktinformation for at udfylde de data huller markeret i denne rapport
+- **Viden graf revision**: Igangsæt en formel gennemgang af fænotype-drevet prognosebias i TxGNN modellen for lysosomale lagringssygdomme ERT agenser, for at identificere og korrigere topologi artefakter før omrangering af kandidater
+- **Biologisk plausibel omfang**: Undersøg, om MPS VI–relaterede okulære manifestationer (hornhindeformørkning, glaukom, papilloødem) eller systemisk GAG-aflejring tilstande kunne give mere mekanistisk troværdige genformål kandidater gennem målrettede evidens søgninger
+- **Navngiven patient adgangs præcisering**: Bekræft nuværende tilgængelighed af Naglazyme i Danmark via Lægemiddelstyrelsen for MPS VI patienter, uafhængig af genformåls evalueringen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

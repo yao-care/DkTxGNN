@@ -29,82 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Daratumumab: No Repurposing Predictions Generated — Evaluation Pending
+# Daratumumab: Ingen genbrugsprognose genereret — Evaluering afventer
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Daratumumab (DB09331) is a CD38-targeting monoclonal antibody used in the treatment of multiple myeloma, registered by the EMA under the brand name Darzalex.
-The TxGNN prediction pipeline **did not generate any repurposing predictions** for this drug in the current evaluation cycle, as critical input data — including the mechanism of action and original indication fields — were absent from the Evidence Pack.
-**No clinical trial or literature evidence could therefore be retrieved or assessed**, and a formal repurposing evaluation cannot be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in Evidence Pack |
-| Predicted New Indication | None generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable (L5 floor not reached — no prediction output) |
-| Denmark Market Status | Not registered per Evidence Pack data |
-| Number of Marketing Authorisations | 0 (per Evidence Pack) |
-| Recommended Decision | **Hold** |
-
-> ⚠️ **Data integrity note:** The Evidence Pack records 0 Danish marketing authorisations and "not marketed" status. This is inconsistent with the publicly known EMA centralised authorisation for Darzalex (daratumumab) for multiple myeloma, which is valid across all EU/EEA member states including Denmark. The regulatory data source should be verified before relying on this field.
+Daratumumab (DB09331) er et CD38-målrettet monoklonalt antistof, der anvendes til behandling af multipel myelomatose, og er registreret af EMA under handelsnavn Darzalex.
+TxGNN-prognoseprocessen **genererede ingen genbrugsprognose** for dette lægemiddel i den aktuelle evalueringscyklus, da kritiske inputdata — herunder virkningsmekanisme og oprindelige indikationsfelter — manglede i Evidence Pack.
+**Ingen kliniske forsøgs- eller litteraturbevis kunne derfor indsamles eller vurderes**, og en formel genbrugsevaluering kan ikke gennemføres på dette stadium.
 
 ---
 
-## Why No Predictions Were Generated
+## Hurtig oversigt
 
-The TxGNN model requires two inputs to generate repurposing candidates: (1) a validated DrugBank ID matched to the knowledge graph, and (2) at least one mapped approved indication from which the model infers mechanistic similarity. For daratumumab (DB09331), the Evidence Pack confirms a successful DrugBank query but records **no original indications** in the `original_indications` field. Without a source indication node, the model cannot traverse the knowledge graph to identify candidate target diseases, and no prediction score is output.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Ikke registreret i Evidence Pack |
+| Forudsagt ny indikation | Ingen genereret |
+| TxGNN-prognosescore | Ikke tilgængelig |
+| Bevisniveau | Ikke vurderbar (L5-niveau ikke nået — ingen prognoseoutput) |
+| Markedsstatus i Danmark | Ikke registreret per Evidence Pack-data |
+| Antal markedsføringstilladelser | 0 (per Evidence Pack) |
+| Anbefalet beslutning | **Afvent** |
 
-Additionally, the mechanism of action (MOA) field is absent. MOA data is used downstream to contextualise and prioritise candidates; its absence means that even manual prioritisation of any future model output would be impaired.
-
-From general pharmacological knowledge, daratumumab binds CD38 — a glycoprotein highly expressed on plasma cells — and induces tumour cell death through antibody-dependent cellular cytotoxicity (ADCC), complement-dependent cytotoxicity (CDC), and apoptosis. Its approved use in multiple myeloma is well-established and biologically coherent. Once the Evidence Pack is remediated (see Next Steps), the TxGNN model may generate predictions for haematological malignancies and potentially other CD38-expressing conditions, such as systemic lupus erythematosus or AL amyloidosis — both areas of active clinical investigation globally.
-
----
-
-## Cytotoxicity
-
-Daratumumab is classified as an antineoplastic agent (targeted immunotherapy / monoclonal antibody) based on its approved therapeutic use in multiple myeloma.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy — anti-CD38 IgG1κ monoclonal antibody (not conventional cytotoxic) |
-| Myelosuppression Risk | Moderate to High — infusion-related reactions, neutropenia, thrombocytopenia, and anaemia are commonly reported in product labelling |
-| Emetogenicity Classification | Low (monoclonal antibodies carry minimal direct emetogenic potential) |
-| Monitoring Items | Full blood count (CBC with differential) prior to each cycle; renal function; immunoglobulin levels; hepatitis B screening before initiation |
-| Handling Protection | Standard aseptic handling for parenteral biologics; no cytotoxic-drug special waste classification required, but institutional biohazard protocols for monoclonal antibodies apply |
-
-> Please refer to the approved SmPC for Darzalex for full prescribing, handling, and monitoring guidance.
+> ⚠️ **Dataintegritetsnote:** Evidence Pack registrerer 0 danske markedsføringstilladelser og status "ikke markedsført". Dette er inkonsistent med den offentligt kendte centraliserede EMA-tilladelse for Darzalex (daratumumab) til multipel myelomatose, som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Reguleringskilden bør verificeres, før denne feltværdi stoles på.
 
 ---
 
-## Safety Considerations
+## Hvorfor der ikke blev genereret prognoser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for Darzalex for full safety information, including infusion-related reaction management, immunisation precautions, and interference with serum protein electrophoresis assays (daratumumab is a known source of false-positive M-protein results).
+TxGNN-modellen kræver to input for at generere genbrugskandidater: (1) en valideret DrugBank-ID matchet til vidensgraph, og (2) mindst én mapset godkendt indikation, hvorfra modellen udleder mekanistisk lighed. For daratumumab (DB09331) bekræfter Evidence Pack et vellykket DrugBank-søgning, men registrerer **ingen oprindelige indikationer** i feltet `original_indications`. Uden en kilde-indikationnode kan modellen ikke gennemløbe vidensgraphen for at identificere målsygdomskandidater, og ingen prognosescore outputtes.
 
----
+Derudover mangler virkningsmekanisme-feltet (MOA). MOA-data bruges efterfølgende til at kontekstualisere og prioritere kandidater; dets fravær betyder, at selv manuel prioritering af ethvert fremtidigt modeloutput ville være forsvækket.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The Evidence Pack for daratumumab (DB09331) is critically incomplete — no original indication data, no mechanism of action, and no TxGNN repurposing predictions were generated. A meaningful repurposing evaluation cannot be conducted on the basis of available data alone, and proceeding to clinical feasibility assessment would be premature.
-
-**To proceed, the following is needed:**
-
-- **[Blocking — DG001]** Retrieve the SmPC / product information for Darzalex from the EMA product database or the Danish Medicines Agency (Lægemiddelstyrelsen) to extract approved indications, key warnings, and contraindications
-- **[High — DG002]** Query the DrugBank API for DB09331 to populate the MOA field; this is required for the knowledge graph prediction step and for mechanistic plausibility analysis
-- **Re-run TxGNN pipeline** once `original_indications` and `original_moa` are populated in the Evidence Pack
-- **Correct the regulatory data** — verify Denmark / EMA marketing authorisation status against the EMA EPAR database (Darzalex EU/1/16/1101); the current "not marketed" flag appears to reflect a data source gap rather than actual market absence
-- **Supplementary search** — once predictions are generated, collect clinical trial data from ClinicalTrials.gov and EudraCT / EU Clinical Trials Register for any emerging indications (e.g., AL amyloidosis, POEMS syndrome, lupus nephritis) to assess evidence level
+Fra generel farmakologisk viden binder daratumumab CD38 — et glykoprotein, der udtrykkes højt på plasmacelleår — og inducerer tumorceldød gennem antistof-afhængig cellulær cytotoxicitet (ADCC), komplementafhængig cytotoxicitet (CDC) og apoptose. Dets godkendt brug ved multipel myelomatose er veletableret og biologisk sammenhængende. Når Evidence Pack er rettificeret (se Næste trin), kan TxGNN-modellen generere prognoser for hæmatologiske malignniteter og potentielt andre CD38-udtrykkende tilstande, såsom systemisk lupus erythematosus eller AL-amyloidose — begge områder af aktiv klinisk forskning globalt.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application. Report generated: 2026-04-05 | Evidence Pack version: v4 | Candidate ID: TW-DB09331-multi.*
+## Cytotoxicitet
+
+Daratumumab klassificeres som et antineoplastisk lægemiddel (målrettet immunoterapi / monoklonalt antistof) baseret på dets godkendt terapeutisk brug ved multipel myelomatose.
+
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoxicitet-klassificering | Målrettet immunoterapi — anti-CD38 IgG1κ monoklonalt antistof (ikke konventionel cytotoxisk) |
+| Myelosuppressionrisiko | Moderat til høj — infusionsrelaterede reaktioner, neutropeni, trombocytopeni og anæmi rapporteres almindeligt i produktinformation |
+| Emetogenicitet-klassificering | Lav (monoklonale antistoffer har minimalt direkte emetogent potentiale) |
+| Kontrolpunkter | Komplet blodtal (CBC med differencial) før hver cyklus; nyrefunktion; immunoglobulin-niveauer; hepatitis B-screening før initiering |
+| Håndteringsbeskyttelse | Standard aseptisk håndtering af parenterale biologiske lægemidler; ingen klassificering som særligt affald for cytotoxiske lægemidler påkrævet, men institutionelle biofareprotokol for monoklonale antistoffer gælder |
+
+> Se venligst det godkendt SmPC for Darzalex for fuldstændig forordning, håndtering og kontrolvejledning.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendt Produktinformation (SmPC) for Darzalex for fuldstændig sikkerhedsinformation, herunder styring af infusionsrelaterede reaktioner, immuniseringspræcautioner og interferens med serum-proteinelektroforeseassays (daratumumab er en kendt kilde til falsk-positive M-protein-resultater).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Evidence Pack for daratumumab (DB09331) er kritisk ufuldstændig — ingen oprindelige indikationsdata, ingen virkningsmekanisme, og ingen TxGNN-genbrugsprognose blev genereret. En meningsfuld genbrugsevaluering kan ikke gennemføres på grundlag af tilgængelige data alene, og at gå videre til klinisk gennemførlighedsvurdering ville være for tidligt.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **[Blokerer — DG001]** Hent SmPC / produktinformation for Darzalex fra EMA's produktdatabase eller Lægemiddelstyrelsen for at udtrække godkendt indikationer, vigtige advarsler og kontraindikationer
+- **[Høj — DG002]** Søg DrugBank-API'et for DB09331 for at udfylde MOA-feltet; dette er påkrævet for vidensgraph-prognosesteget og for mekanistisk plausibilitetsvurdering
+- **Kør TxGNN-pipeline igen** når `original_indications` og `original_moa` er udfyldt i Evidence Pack
+- **Ret reguleringsdata** — verificer Danmark / EMA markedsføringstilladelsestatus mod EMA EPAR-databasen (Darzalex EU/1/16/1101); det nuværende "ikke markedsført"-flag ser ud til at afspejle en datakildekløft snarere end faktisk markedsfravær
+- **Supplementært søgning** — når prognoser er genereret, indsaml kliniske forsøgsdata fra ClinicalTrials.gov og EudraCT / EU Clinical Trials Register for enhver ny indikation (f.eks. AL-amyloidose, POEMS-syndrom, lupusnefrit) for at vurdere bevisniveauet
+
+---
+
+*Denne rapport er genereret til forskningsmæssige formål alene og udgør ikke medicinsk rådgivning. Alle genbrugskandidater kræver klinisk validering før enhver terapeutisk anvendelse. Rapport genereret: 2026-04-05 | Evidence Pack-version: v4 | Kandidat-ID: TW-DB09331-multi.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

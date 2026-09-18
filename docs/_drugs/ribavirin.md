@@ -29,100 +29,101 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ribavirin: From RNA Viral Infections (Hepatitis C, RSV) to Chronic Hepatitis B Virus Infection
+# Ribavirin: Fra RNA-virusinfektioner (Hepatitis C, RSV) til kronisk hepatitis B-virusinfektioner
 
-## One-Sentence Summary
+## Sammenfattelse i én sætning
 
-Ribavirin is a guanosine-analogue antiviral historically used against RNA viruses such as hepatitis C virus (HCV) and respiratory syncytial virus (RSV), typically as part of combination regimens (e.g., peginterferon + ribavirin). The TxGNN model predicts it may also be effective for **Chronic Hepatitis B Virus Infection**, but the **50 cross-referenced clinical trials** and **20 publications** identified so far are almost entirely about ribavirin's established use against HCV — direct evidence of anti-HBV activity is minimal, and the drug currently has **no marketing authorisation in Denmark**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Denmark marketing authorisation on file (drug is not marketed); known historical use is against HCV/RSV (see mechanism section) |
-| Predicted New Indication | Chronic Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Ribavirin er et guanosin-analogt antiviralt stof, der historisk set er blevet brugt mod RNA-vira såsom hepatitis C-virus (HCV) og respiratory syncytial virus (RSV), typisk som del af kombinationsregimer (f.eks. peginterferon + ribavirin). TxGNN-modellen forudsiger, at det også kan være effektivt mod **kronisk hepatitis B-virusinfektioner**, men de **50 krydshenvisende kliniske forsøg** og **20 publikationer**, der er identificeret hidtil, handler næsten udelukkende om ribavirins etablerede brug mod HCV — direkte evidens for anti-HBV-aktivitet er minimal, og lægemidlet har i øjeblikket **ingen markedsføringstilladelse i Danmark**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data for ribavirin is not available in this evidence pack (DrugBank query pending / data gap). Based on known pharmacology, ribavirin is a guanosine analogue that primarily inhibits inosine monophosphate dehydrogenase (IMPDH) and RNA-dependent RNA polymerase, and induces lethal mutagenesis in RNA viruses — mechanisms established for HCV and RSV.
-
-Hepatitis B virus (HBV), however, is a DNA virus that replicates via reverse transcription and is not a traditional ribavirin target. Reviewing the evidence collected, the overwhelming majority of the identified literature and trials involve **HBV/HCV co-infected patients**, where ribavirin is used to treat the HCV component of the infection rather than HBV itself. Only one publication (PMID 10832679, "Is ribavirin treatment really effective for chronic hepatitis B?") directly addresses ribavirin's efficacy against HBV, and its abstract is not available in this pack.
-
-In short, the mechanistic link between ribavirin and chronic HBV infection is **weak and indirect**. The high TxGNN score most likely reflects network-level association (shared "hepatitis" disease-class connections and frequent co-occurrence with HBV in the co-infection literature) rather than a validated direct antiviral mechanism against HBV.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke tilgængelig — ingen markedsføringstilladelse registreret i Danmark (lægemidlet er ikke markedsført); kendt historisk brug er mod HCV/RSV (se mekanisme-afsnit) |
+| Forudsagt ny indikation | Kronisk hepatitis B-virusinfektioner |
+| TxGNN-prognosescore | 99.86% |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prognose rimelig?
 
-Note: TxGNN-linked trials for this indication were reviewed for relevance. The great majority are graded **C (low relevance)** — they investigate ribavirin/peginterferon regimens in chronic **hepatitis C**, not hepatitis B, and appear to have been associated with this indication due to keyword overlap ("hepatitis"). No trial in the evidence pack directly tests ribavirin in HBV-infected patients.
+I øjeblikket er detaljerede mekanisme-data for ribavirin ikke tilgængelige i denne evidenspakke (DrugBank-forespørgsel afventer / datahuller). Baseret på kendt farmakologi er ribavirin et guanosin-analogt stof, der primært inhiberer inosinmonofosfat-dehydrogenase (IMPDH) og RNA-afhængig RNA-polymerase, og inducerer dødelig mutagenese i RNA-vira — mekanismer etableret for HCV og RSV.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Hepatitis B-virus (HBV) er imidlertid et DNA-virus, der replikeres via omvendt transkription og er ikke et traditionelt ribavirins mål. Ved gennemgang af den indsamlede evidens involverer det overvejende flertal af den identificerede litteratur og forsøg **HBV/HCV-co-inficerede patienter**, hvor ribavirin bruges til at behandle HCV-komponenten af infektionen snarere end HBV selv. Kun en publikation (PMID 10832679, "Is ribavirin treatment really effective for chronic hepatitis B?") adresserer direkte ribavirins effektivitet mod HBV, og dens abstrakt er ikke tilgængeligt i denne pakke.
+
+Kort sagt er det mekanistiske link mellem ribavirin og kronisk HBV-infektion **svagt og indirekte**. Den høje TxGNN-score afspejler mest sandsynligt netværksniveauets association (delt "hepatitis"-sygdomsklasse-forbindelser og hyppig co-forekomst med HBV i co-infektionslitteraturen) snarere end en valideret direkte antivirusmekanisme mod HBV.
+
+---
+
+## Klinisk forsøgsevidence
+
+Bemærk: TxGNN-linkede forsøg for denne indikation blev gennemgået for relevans. Det store flertal er klassificeret **C (lav relevans)** — de undersøger ribavirin/peginterferon-regimer i kronisk **hepatitis C**, ikke hepatitis B, og vises at være blevet associeret med denne indikation på grund af nøgleord-overlap ("hepatitis"). Intet forsøg i evidenspakken tester direkte ribavirin hos HBV-inficerede patienter.
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT00215865](https://clinicaltrials.gov/study/NCT00215865) | Phase 3 | Completed | 600 | PEGIntron + ribavirin dosing comparison in chronic **hepatitis C** (relapse after prior IFN therapy); not an HBV trial. |
-| [NCT01447420](https://clinicaltrials.gov/study/NCT01447420) | Phase 4 | Completed | 129 | Pegasys + Copegus (ribavirin) efficacy vs. IL28B expression in genotype 1 **HCV**; not HBV-related. |
-| [NCT01405027](https://clinicaltrials.gov/study/NCT01405027) | Phase 4 | Completed | 197 | Boceprevir + peginterferon + ribavirin compliance study in **hepatitis C** patients; not HBV-related. |
-| [NCT01655966](https://clinicaltrials.gov/study/NCT01655966) | Phase 3 | Unknown | 80 | Vitamin D add-on to peginterferon/ribavirin in **hepatitis C** genotype 4; not HBV-related. |
-| [NCT01830127](https://clinicaltrials.gov/study/NCT01830127) | Phase 2 | Completed | 35 | BI 207127 + faldaprevir + ribavirin pharmacokinetics in genotype 1b **hepatitis C**; not HBV-related. |
-| [NCT02493855](https://clinicaltrials.gov/study/NCT02493855) | Phase 2 | Completed | 46 | Ombitasvir/ABT-450/ritonavir + dasabuvir with ribavirin, viral kinetics in genotype 1a **HCV**; not HBV-related. |
-| [NCT01949168](https://clinicaltrials.gov/study/NCT01949168) | Phase 2 | Unknown | 30 | Boceprevir-based therapy for genotype 6 **hepatitis C**; not HBV-related. |
-| [NCT03261349](https://clinicaltrials.gov/study/NCT03261349) | Phase 2 | Unknown | 21 | Ledipasvir/sofosbuvir for **HCV**-associated B-cell lymphoma; not HBV-related. |
-| [NCT01220947](https://clinicaltrials.gov/study/NCT01220947) | Phase 2 | Completed | 421 | Danoprevir + ritonavir + Pegasys/Copegus in treatment-naive **hepatitis C**; not HBV-related. |
-| [NCT01598090](https://clinicaltrials.gov/study/NCT01598090) | Phase 3 | Completed | 881 | Peginterferon Lambda-1a + ribavirin + telaprevir vs. alfa-2a regimen in genotype-1 **hepatitis C**; not HBV-related. |
+| [NCT00215865](https://clinicaltrials.gov/study/NCT00215865) | Fase 3 | Afsluttet | 600 | PEGIntron + ribavirin doserings-sammenligning i kronisk **hepatitis C** (tilbagefald efter tidligere IFN-terapi); ikke et HBV-forsøg. |
+| [NCT01447420](https://clinicaltrials.gov/study/NCT01447420) | Fase 4 | Afsluttet | 129 | Pegasys + Copegus (ribavirin) effektivitet vs. IL28B-udtryk i genotype 1 **HCV**; ikke HBV-relateret. |
+| [NCT01405027](https://clinicaltrials.gov/study/NCT01405027) | Fase 4 | Afsluttet | 197 | Boceprevir + peginterferon + ribavirin overholdelse-studie i **hepatitis C**-patienter; ikke HBV-relateret. |
+| [NCT01655966](https://clinicaltrials.gov/study/NCT01655966) | Fase 3 | Ukendt | 80 | Vitamin D add-on til peginterferon/ribavirin i **hepatitis C** genotype 4; ikke HBV-relateret. |
+| [NCT01830127](https://clinicaltrials.gov/study/NCT01830127) | Fase 2 | Afsluttet | 35 | BI 207127 + faldaprevir + ribavirin farmakokinetik i genotype 1b **hepatitis C**; ikke HBV-relateret. |
+| [NCT02493855](https://clinicaltrials.gov/study/NCT02493855) | Fase 2 | Afsluttet | 46 | Ombitasvir/ABT-450/ritonavir + dasabuvir med ribavirin, viral kinetik i genotype 1a **HCV**; ikke HBV-relateret. |
+| [NCT01949168](https://clinicaltrials.gov/study/NCT01949168) | Fase 2 | Ukendt | 30 | Boceprevir-baseret terapi til genotype 6 **hepatitis C**; ikke HBV-relateret. |
+| [NCT03261349](https://clinicaltrials.gov/study/NCT03261349) | Fase 2 | Ukendt | 21 | Ledipasvir/sofosbuvir til **HCV**-associeret B-celle-lymfom; ikke HBV-relateret. |
+| [NCT01220947](https://clinicaltrials.gov/study/NCT01220947) | Fase 2 | Afsluttet | 421 | Danoprevir + ritonavir + Pegasys/Copegus i behandlingsnaiv **hepatitis C**; ikke HBV-relateret. |
+| [NCT01598090](https://clinicaltrials.gov/study/NCT01598090) | Fase 3 | Afsluttet | 881 | Peginterferon Lambda-1a + ribavirin + telaprevir vs. alfa-2a-regime i genotype-1 **hepatitis C**; ikke HBV-relateret. |
 
 ---
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
 |------|-----|------|------|---------|
-| [10832679](https://pubmed.ncbi.nlm.nih.gov/10832679/) | 2000 | Unclassified | Journal of Gastroenterology | Title directly asks "Is ribavirin treatment really effective for chronic hepatitis B?" — the only publication addressing ribavirin's direct anti-HBV efficacy; abstract not available in this data pack. |
-| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | Reviews HCV/HBV co-infection management; peginterferon + ribavirin recommended for the HCV component in co-infected, HCV-RNA-positive patients. |
-| [27433078](https://pubmed.ncbi.nlm.nih.gov/27433078/) | 2016 | Review | World Journal of Gastroenterology | Notes HBV persists even after direct-acting antiviral therapy and requires life-long treatment, unlike HCV which can be cured. |
-| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World Journal of Gastroenterology | Updates on treatment outcomes in dual chronic HCV/HBV infection; higher risk of liver disease progression in dual infection. |
-| [19669238](https://pubmed.ncbi.nlm.nih.gov/19669238/) | 2009 | Review | Hepatology International | Discusses viral interaction dynamics in dual HBV/HCV infection under treated vs. untreated settings. |
-| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Review | Expert Review of Anti-infective Therapy | Reviews treatment options for chronic hepatitis B and C in children, including standardized regimens. |
-| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Cohort | World Journal of Gastroenterology | IL28B polymorphism associated with SVR in HCV treated with peginterferon/ribavirin; relationship with HBV outcomes less clear (no consensus). |
-| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Cohort | Current Opinion in Virology | IL28B genotype linked to treatment-induced and spontaneous viral clearance in HCV; relevance to HBV outcome discussed. |
-| [21538279](https://pubmed.ncbi.nlm.nih.gov/21538279/) | 2011 | Review | Seminars in Liver Disease | Reviews host genetic determinants of chronic HBV and HCV disease outcome. |
-| [18804888](https://pubmed.ncbi.nlm.nih.gov/18804888/) | 2008 | Review | Journal of Hepatology | Discusses ongoing challenges in treating HBV/HCV co-infection. |
+| [10832679](https://pubmed.ncbi.nlm.nih.gov/10832679/) | 2000 | Ukategoriseret | Journal of Gastroenterology | Titel stiller direkte spørgsmål "Is ribavirin treatment really effective for chronic hepatitis B?" — den eneste publikation, der adresserer ribavirins direkte anti-HBV-effektivitet; abstrakt ikke tilgængeligt i denne datapakke. |
+| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Oversigtsartikel | Viruses | Gennemgår HCV/HBV co-infektionsbehandling; peginterferon + ribavirin anbefalet til HCV-komponenten hos co-inficerede, HCV-RNA-positive patienter. |
+| [27433078](https://pubmed.ncbi.nlm.nih.gov/27433078/) | 2016 | Oversigtsartikel | World Journal of Gastroenterology | Bemærker, at HBV persister selv efter direkte antivirusmiddelbehandling og kræver livslang behandling, i modsætning til HCV, som kan kureres. |
+| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Oversigtsartikel | World Journal of Gastroenterology | Opdateringer af behandlingsresultater i dobbelt kronisk HCV/HBV-infektion; højere risiko for leversjukdomsprogression i dobbeltinfektion. |
+| [19669238](https://pubmed.ncbi.nlm.nih.gov/19669238/) | 2009 | Oversigtsartikel | Hepatology International | Diskuterer virale interaktionsdynamikker i dobbelt HBV/HCV-infektion under behandlede vs. ubehandlede indstillinger. |
+| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Oversigtsartikel | Expert Review of Anti-infective Therapy | Gennemgår behandlingsmuligheder for kronisk hepatitis B og C hos børn, herunder standardiserede regimer. |
+| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Kohort | World Journal of Gastroenterology | IL28B-polymorfisme forbundet med SVR i HCV behandlet med peginterferon/ribavirin; forhold til HBV-resultater mindre klart (ingen konsensus). |
+| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Kohort | Current Opinion in Virology | IL28B-genotype linket til behandlingsinduceret og spontan virusfrigivelse i HCV; relevans til HBV-resultat diskuteret. |
+| [21538279](https://pubmed.ncbi.nlm.nih.gov/21538279/) | 2011 | Oversigtsartikel | Seminars in Liver Disease | Gennemgår værtsgeniske determinanter for kronisk HBV- og HCV-sygdomsresultat. |
+| [18804888](https://pubmed.ncbi.nlm.nih.gov/18804888/) | 2008 | Oversigtsartikel | Journal of Hepatology | Diskuterer igangværende udfordringer ved behandling af HBV/HCV co-infektion. |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Ribavirin currently has no marketing authorisation on file in Denmark (market status: Not Marketed; 0 authorisations recorded). No product, dosage form, or approved-indication data are available for this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack (a blocking data gap — SmPC warnings/contraindications retrieval — is flagged for follow-up before any S1 safety screening can proceed).
+Ribavirin har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser registreret). Ingen produkt-, doseform- eller godkendelsesindikationsdata er tilgængelige for denne evidenspakke.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendt Produktresumé (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er i øjeblikket ikke tilgængelige i denne evidenspakke (et kritisk datahul — hentning af SmPC-advarsler/kontraindikationer — er markeret til opfølgning før nogen S1-sikkerhedsscreening kan fortsætte).
 
-**Rationale:**
-- The mechanistic link is weak: ribavirin's established antiviral mechanism targets RNA viruses, while HBV is a DNA virus replicating via reverse transcription.
-- Nearly all identified clinical trials concern ribavirin's established use in hepatitis C (graded low-relevance to HBV); only one older publication directly questions ribavirin's efficacy against HBV, with no abstract available.
-- A blocking data gap (SmPC warnings/contraindications) prevents even an initial (S1) safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (blocking gap, DG001)
-- Confirmed mechanism of action data via DrugBank (DG002)
-- Direct preclinical or clinical evidence of anti-HBV activity (the single directly relevant publication needs full-text review)
-- Re-triage of the "pending" relevance-graded trials and literature to confirm none provide direct HBV evidence
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+- Det mekanistiske link er svagt: ribavirins etablerede antivirusmekanisme målretter RNA-vira, mens HBV er et DNA-virus, der replikeres via omvendt transkription.
+- Næsten alle identificerede kliniske forsøg drejer sig om ribavirins etablerede brug i hepatitis C (klassificeret lav-relevans til HBV); kun en ældre publikation stiller direkte spørgsmål ved ribavirins effektivitet mod HBV, uden at abstrakt er tilgængeligt.
+- Et kritisk datahul (SmPC-advarsler/kontraindikationer) forhindrer selv en initial (S1) sikkerhedsevaluering.
+
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/Dansk Produktresumé advarsler og kontraindikationer (kritisk hul, DG001)
+- Bekræftet virkningsmekanisme-data via DrugBank (DG002)
+- Direkte præklin­isk eller klinisk evidens for anti-HBV-aktivitet (den eneste direkte relevante publikation har brug for gennemgang af fuld tekst)
+- Gentriage af de "afventende" relevans-klassificerede forsøg og litteratur for at bekræfte, at ingen giver direkte HBV-evidens
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,101 +29,102 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iloprost: From Pulmonary Arterial Hypertension to HIV-Associated Pulmonary Arterial Hypertension
+# Iloprost: Fra Pulmonal Arteriel Hypertension til HIV-Associeret Pulmonal Arteriel Hypertension
 
-## One-Sentence Summary
+## Sammenfatning på en sætning
 
-Iloprost is a synthetic prostacyclin (prostanoid) analogue originally used to treat pulmonary arterial hypertension (PAH). Across the candidate indications evaluated in this evidence pack, the TxGNN model's highest-confidence prediction with actual supporting evidence points to **HIV-associated pulmonary arterial hypertension**, backed by **1 completed Phase 3 randomised controlled trial (n=64)** and **4 supporting publications**. Note that the model's single *highest-scoring* prediction overall (hypotrichosis simplex of the scalp) has **zero clinical trials and zero literature support** and is flagged in the underlying analysis as likely knowledge-graph noise rather than a genuine signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pulmonary Arterial Hypertension (WHO Group 1, primary/idiopathic) — inferred from repurposing rationale text; not confirmed via Danish licensing data (see Denmark Market Information) |
-| Predicted New Indication | HIV-Associated Pulmonary Arterial Hypertension |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Iloprost er et syntetisk prostacyclin (prostanoid) analogon oprindeligt anvendt til behandling af pulmonal arteriel hypertension (PAH). Blandt de vurderede indikationsalternativ, hvor TxGNN-modellen har den højeste tillid med faktiske understøttende beviser, peger højest på **HIV-associeret pulmonal arteriel hypertension**, understøttet af **1 gennemført fase 3 randomiseret kontrolleret forsøg (n=64)** og **4 understøttende publikationer**. Det skal dog bemærkes, at modellens højest scorende prediktion samlet set (hårlødhed simplex på scalp) har **nul kliniske forsøg og nul litteraturbevis** og er markeret i den underliggende analyse som sandsynlig viden-graf-støj snarere end et ægte signal.
 
 ---
 
-## Candidate Indications Considered
+## Hurtigt overblik
 
-This evidence pack evaluated multiple predicted indications for iloprost. For transparency, all distinct candidates are summarised below (duplicate KG/DL entries collapsed):
-
-| Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|---------|------------|-----------------|-----------------|-----------------|
-| HIV-associated PAH | 99.21% | L1 | S3 | Proceed with Guardrails |
-| PAH associated with connective tissue disease | 99.21% | L3 | S2 | Research Question |
-| PAH associated with congenital heart disease | 99.32% | L3 | S2 | Research Question |
-| Pulmonary arteriovenous malformation | 99.31% | L4 | S0 | Hold |
-| Congenital hypotrichosis milia | 99.33% | L5 | S0 | Hold |
-| Hypotrichosis simplex of the scalp | 99.45% | L5 | S0 | Hold |
-
-The two hypotrichosis-related predictions carry the *highest* raw TxGNN scores but have no mechanistic plausibility, no trials, and no literature — the underlying analysis explicitly attributes this to embedding noise on rare-disease nodes. This report therefore focuses on **HIV-associated PAH**, the candidate with the strongest actual clinical evidence.
+| Punkt | Indhold |
+|------|----------|
+| Oprindelig indikation | Pulmonal Arteriel Hypertension (WHO Gruppe 1, primær/idiopatisk) — udledt fra rationale for genbrugsteknologi; ikke bekræftet via dansk licensdata (se Danmark-markedsinformation) |
+| Prædikteret ny indikation | HIV-Associeret Pulmonal Arteriel Hypertension |
+| TxGNN-prædikte score | 99.21% |
+| Evidensniveau | L1 |
+| Danmark-markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forholdsregler |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Vurderede indikationsalternativ
 
-Detailed mechanism-of-action data for iloprost is not available in this evidence pack (data gap, DrugBank query pending resolution). Based on the information available, iloprost is a prostacyclin (IP receptor agonist) analogue whose pharmacology produces pulmonary vasodilation and inhibition of platelet aggregation/vascular smooth-muscle proliferation. It is an established treatment for primary (idiopathic) PAH.
+Denne evidenspakke vurderede flere prædikterede indikationer for iloprost. For at sikre transparens opsummeres alle forskellige kandidater nedenfor (dubletter af KG/DL-poster samlet):
 
-HIV-associated PAH is classified, together with idiopathic PAH, under WHO Group 1 pulmonary arterial hypertension. Both share the same underlying pathophysiology — pulmonary vascular endothelial dysfunction, smooth-muscle proliferation, and progressive vascular remodelling — which is the pharmacological target of prostacyclin analogues. Because iloprost is already approved for the mechanistically identical parent condition (idiopathic PAH), its extension to HIV-associated PAH represents use within the same drug class for a closely related disease mechanism, rather than a speculative cross-disease jump.
+| Sygdom | TxGNN-score | Evidensniveau | Beslutningsstadium | Anbefaling |
+|--------|------------|-----------------|-----------------|-----------------|
+| HIV-associeret PAH | 99.21% | L1 | S3 | Fortsæt med forholdsregler |
+| PAH associeret med bindevævssygdom | 99.21% | L3 | S2 | Forskningsspørgsmål |
+| PAH associeret med medfødt hjertesygdom | 99.32% | L3 | S2 | Forskningsspørgsmål |
+| Pulmonal arteriovenøs malformation | 99.31% | L4 | S0 | Pause |
+| Medfødt hårlødhed milia | 99.33% | L5 | S0 | Pause |
+| Hårlødhed simplex af scalp | 99.45% | L5 | S0 | Pause |
 
-By contrast, the two related candidates — PAH associated with congenital heart disease and PAH associated with connective tissue disease — are also WHO Group 1 subtypes with plausible mechanistic overlap, but their supporting evidence is weaker (observational/review-level, L3), and in the case of congenital heart disease the disease process is driven by a structural shunt rather than primary vascular pathology, so response may differ from idiopathic PAH.
+De to hårlødhedsrelaterede prædiktioner bærer de *højeste* rå TxGNN-scores, men har ingen mekanistisk plausibilitet, ingen forsøg og ingen litteratur — den underliggende analyse tillægger dette eksplicit embedding-støj på sjældne-sygdoms-noder. Denne rapport fokuserer derfor på **HIV-associeret PAH**, kandidaten med det stærkeste faktiske kliniske bevis.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediktion rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede mekanisme-for-handling data for iloprost er ikke tilgængelig i denne evidenspakke (datahuller, DrugBank-forespørgsel afventer løsning). Baseret på de tilgængelige oplysninger er iloprost et prostacyclin (IP-receptoragonist) analogon, hvis farmakologi producerer pulmonal vasodilatation og hæmning af blodpladesamling/vaskulær glat muskulatur proliferation. Det er en etableret behandling for primær (idiopatisk) PAH.
+
+HIV-associeret PAH klassificeres sammen med idiopatisk PAH under WHO Gruppe 1 pulmonal arteriel hypertension. Begge deler samme underliggende patofysiologi — pulmonal vaskulær endotelial dysfunktion, glat muskulatur proliferation og progressiv vaskulær ombygging — som er det farmakologiske mål for prostacyclin-analoger. Fordi iloprost allerede er godkendt til den mekanistisk identiske moderindikation (idiopatisk PAH), repræsenterer dets udvidelse til HIV-associeret PAH brug inden for samme lægemiddelklasse for en tæt relateret sygdomsmekanisme, snarere end et spekulativt tværsygdoms-spring.
+
+I modsætning hertil er de to relaterede kandidater — PAH associeret med medfødt hjertesygdom og PAH associeret med bindevævssygdom — også WHO Gruppe 1-undertypetyper med plausibel mekanistisk overlapning, men deres understøttende bevis er svagere (observationelt/review-niveau, L3), og i tilfældet med medfødt hjertesygdom er sygdomsprocessen drevet af en strukturel shunt snarere end primær vaskulær patologi, så reaktion kan afvige fra idiopatisk PAH.
+
+---
+
+## Klinisk forsøgsbevis
+
+| Forsøgsnummer | Fase | Status | Enrolment | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Phase 3 | Completed | 64 | Multicentre, double-blind, randomised, placebo-controlled crossover study of a single dose of inhaled iloprost on exercise capacity in patients with symptomatic PAH, enrolling idiopathic, familial, HIV-associated, and drug/toxin-induced PAH (NYHA class II–IV), on top of stable background therapy (bosentan, ambrisentan, or sildenafil). |
+| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Fase 3 | Gennemført | 64 | Multicenterstudie, double-blind, randomiseret, placebo-kontrolleret crossover-studie af en enkelt dosis inhaleret iloprost på arbejdskapacitet hos patienter med symptomatisk PAH, der inkluderede idiopatisk, familiær, HIV-associeret og lægemiddel/toksisk-induceret PAH (NYHA klasse II–IV), oven på stabil baggrundsbehandling (bosentan, ambrisentan eller sildenafil). |
 
-*Supporting trial for a related candidate (PAH associated with congenital heart disease):* [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) — Phase N/A, status Unknown, n=42, assessing safety, tolerability, and haemodynamic effects of iloprost in adults with Eisenmenger-physiology PAH. Trial completion/reporting status is unconfirmed, which limits its evidentiary weight.
+*Understøttende forsøg for en relateret kandidat (PAH associeret med medfødt hjertesygdom):* [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) — Fase N/A, status Ukendt, n=42, vurderer sikkerhed, tolerabilitet og hæmodynamiske effekter af iloprost hos voksne med Eisenmenger-fysiologi PAH. Forsøgsfuldførings-/rapporteringsstatus er ubekræftet, hvilket begrænser dets bevismæssige vægt.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Cohort/Registry | Terapevticheskii arkhiv | Six-year national PAH registry analysis of prevalence, clinical course, and current therapy across PAH subgroups, including associated forms. |
-| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | Review | Kardiologiia | Review series on controlled trials of prostacyclin and its synthetic analogues (including iloprost) in idiopathic PAH and PAH associated with connective tissue disease, congenital heart disease, and HIV infection. |
-| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | Review | The Mount Sinai Journal of Medicine | Overview of HIV-related pulmonary hypertension: estimated incidence ~0.5% of HIV-infected individuals, unclear pathogenesis, variable presentation from dyspnoea to syncope. |
-| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | Review | American Journal of Respiratory Medicine | Review of prostanoid therapy for PAH, explicitly grouping HIV-associated PAH with idiopathic PAH and other associated forms as sharing near-identical obstructive pulmonary microvascular pathology. |
+| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Kohorte/Register | Terapevticheskii arkhiv | Seks års national PAH-registeranalyse af prevalens, klinisk forløb og nuværende terapi på tværs af PAH-undergrupper, herunder associerede former. |
+| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | Oversigt | Kardiologiia | Oversigtsserier over kontrollerede forsøg af prostacyclin og dets syntetiske analoger (herunder iloprost) i idiopatisk PAH og PAH associeret med bindevævssygdom, medfødt hjertesygdom og HIV-infektion. |
+| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | Oversigt | The Mount Sinai Journal of Medicine | Overblik over HIV-relateret pulmonal hypertension: estimeret incidensrate ~0,5% af HIV-inficerede individer, ukendt patogenese, variabel præsentation fra dyspnø til synkope. |
+| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | Oversigt | American Journal of Respiratory Medicine | Oversigt over prostanoid-terapi for PAH, der eksplicit grupperer HIV-associeret PAH med idiopatisk PAH og andre associerede former som deler næsten identisk obstruktiv pulmonal mikrovaskular patologi. |
 
 ---
 
-## Denmark Market Information
+## Danmark-markedsinformation
 
-Iloprost currently has **no marketing authorisation on file in Denmark** in this evidence pack (0 licenses recorded, market status "Not marketed"). No Laegemiddelstyrelsen national authorisation or EMA centralised authorisation record is available in the dataset to summarise dosage forms or approved indication text.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No structured warnings, contraindications, or drug–drug interaction data were returned by the available queries in this evidence pack.
+Iloprost har i øjeblikket **ingen markedsføringstilladelse registreret i Danmark** i denne evidenspakke (0 licenser registreret, markedsstatus "Ikke markedsført"). Ingen Lægemiddelstyrelsen national godkendelse eller EMA centraliseret godkendelsesrekord er tilgængelig i datasættet til at opsummere doseringsformer eller godkendt indikationstekst.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails** *(applies specifically to the HIV-associated PAH indication)*
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Ingen strukturerede advarsler, kontraindikationer eller lægemiddel-lægemiddel vekselvirkning data blev returneret af de tilgængelige forespørgsler i denne evidenspakke.
 
-**Rationale:**
-A completed Phase 3 randomised controlled trial (n=64) evaluating iloprost in a PAH population that included HIV-associated patients, together with consistent mechanistic and review-level literature support, gives this indication the strongest evidence base (L1) among all candidates in this pack. The other WHO Group 1 candidates (congenital heart disease-, connective tissue disease-associated PAH) remain at "Research Question" status (L3) pending stronger trial-level data, and the two hypotrichosis-related predictions should be held as likely model artifacts with no supporting evidence.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU label safety warnings and contraindications for iloprost — this is currently a **blocking** data gap that prevents entry into the S1 safety pre-assessment stage.
-- Detailed mechanism-of-action data (DrugBank MOA) to formally support the mechanistic rationale.
-- Subgroup-level results from NCT00709956 specific to the HIV-associated PAH cohort, since the trial population was mixed (idiopathic, familial, HIV-associated, and drug/toxin-induced PAH).
-- Drug–drug interaction data with antiretroviral therapy (ART), given the target population — the DDI query for iloprost returned no results.
-- Confirmation of Danish/EU marketing authorisation pathway, since iloprost is not currently recorded as marketed in Denmark.
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med forholdsregler** *(gælder specifikt for HIV-associeret PAH-indikationen)*
+
+**Begrundelse:**
+Et gennemført fase 3 randomiseret kontrolleret forsøg (n=64), der evaluerer iloprost i en PAH-population, som omfattede HIV-associerede patienter, sammen med konsistent mekanistisk og review-niveau litteraturunderstøttelse, giver denne indikation det stærkeste evidensgrundlag (L1) blandt alle kandidater i denne pakke. De andre WHO Gruppe 1-kandidater (medfødt hjertesygdom-, bindevævssygdom-associeret PAH) forbliver i "Forskningsspørgsmål"-status (L3) i påvente af stærkere forsøgsniveau-data, og de to hårlødhedsrelaterede prædiktioner bør holdes som sandsynlige modelartefakter uden understøttende bevis.
+
+**For at fortsætte er følgende nødvendigt:**
+- Dansk/EU-label sikkerhedsadvarsler og kontraindikationer for iloprost — dette er i øjeblikket en **blokerende** datahul, der forhindrer indgang til S1 sikkerhedspræ-vurderingsstadium.
+- Detaljeret mekanisme-for-handling data (DrugBank MOA) for formelt at understøtte den mekanistiske rationale.
+- Undergruppeniveau resultater fra NCT00709956 specifikt for HIV-associeret PAH-kohorte, da forsøgspopulationen var blandet (idiopatisk, familiær, HIV-associeret og lægemiddel/toksisk-induceret PAH).
+- Lægemiddel-lægemiddel vekselvirkning data med antiretroviral terapi (ART), givet målpopulationen — DDI-forespørgslen for iloprost returnerede ingen resultater.
+- Bekræftelse af dansk/EU markedsføringsautoriseringssti, da iloprost i øjeblikket ikke er registreret som markedsført i Danmark.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

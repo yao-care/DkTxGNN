@@ -29,99 +29,100 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Simvastatin: From Hypercholesterolemia to Familial Hypercholesterolemia
+# Simvastatin: Fra hyperkolesterolæmi til familiær hyperkolesterolæmi
 
-## One-Sentence Summary
+## Enlinjesammenfattelse
 
-Simvastatin is a well-established HMG-CoA reductase inhibitor ("statin") originally used to treat hypercholesterolemia and mixed dyslipidemia. The TxGNN model predicts it may be effective for **Familial Hypercholesterolemia (FH)** — a genetic subtype of its original target condition — with a prediction score of **99.63%**, currently supported by **19 clinical trials** and **18 publications**, including multiple completed Phase 3 RCTs.
+Simvastatin er en velkendt HMG-CoA-reduktasehæmmer ("statin"), der oprindeligt blev brugt til behandling af hyperkolesterolæmi og blandet dyslipidæmi. TxGNN-modellen forudsiger, at det kan være effektivt mod **familiær hyperkolesterolæmi (FH)** — en genetisk undertype af dens oprindelige tilstand — med en forudsigelsesscore på **99.63%**, der i øjeblikket understøttes af **19 kliniske forsøg** og **18 publikationer**, herunder flere afsluttede fase 3 RCT'er.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Element | Indhold |
 |------|------|
-| Original Indication | Hypercholesterolemia / mixed dyslipidemia (established statin indication; Danish-specific label text not available in this evidence pack — see Data Gaps) |
-| Predicted New Indication | Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Hyperkolesterolæmi / blandet dyslipidæmi (etableret statin-indikation; dansk-specifik etikettetekst ikke tilgængelig i denne bevispakke — se Datahuller) |
+| Forudsagt ny indikation | Familiær hyperkolesterolæmi |
+| TxGNN-forudsigelsesscore | 99.63% |
+| Bevisniveau | L1 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med forbehold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Drug-specific mechanism-of-action documentation was not available in this evidence pack (Data Gap DG002). Based on established pharmacology, simvastatin is a well-characterized HMG-CoA reductase inhibitor: it blocks the rate-limiting step of hepatic cholesterol biosynthesis, which upregulates hepatocyte LDL-receptor expression and increases clearance of circulating LDL cholesterol (LDL-C).
+Lægemiddel-specifik dokumentation af virkningsmekanisme var ikke tilgængelig i denne bevispakke (Datahul DG002). Baseret på etableret farmakologi er simvastatin en velkarakteriseret HMG-CoA-reduktasehæmmer: det blokerer det hastighedsbegrænsende trin i hepatisk kolesterolbiosyntese, hvilket øger ekspression af hepatocyt-LDL-receptorer og øger clearance af cirkulerende LDL-kolesterol (LDL-C).
 
-Familial hypercholesterolemia is a genetic disorder of LDL-C metabolism — most commonly caused by mutations affecting the LDL receptor, ApoB, or PCSK9 pathway — that produces markedly elevated LDL-C from birth and premature cardiovascular disease. It is, in effect, a more severe and genetically defined subset of the general hypercholesterolemia/dyslipidemia population that statins were originally developed to treat, so this prediction sits very close to simvastatin's established therapeutic territory rather than representing a mechanistically novel repurposing candidate.
+Familiær hyperkolesterolæmi er en genetisk lidelse i LDL-C-metabolismen — oftest forårsaget af mutationer, der påvirker LDL-receptoren, ApoB eller PCSK9-signalvejen — som producerer markant forhøjet LDL-C fra fødslen og for tidlig kardiovaskulær sygdom. Det er i virkeligheden en mere alvorlig og genetisk defineret delmængde af den generelle hyperkolesterolæmi/dyslipidæmi-befolkning, som statiner oprindeligt blev udviklet til at behandle, så denne forudsigelse ligger meget tæt på simvastatins etablerede terapeutiske område snarere end at repræsentere en mekanistisk ny omformål-kandidat.
 
-This fit is corroborated by the model's own rationale: simvastatin's LDL-receptor-upregulating action maps directly onto the LDL-receptor/ApoB/PCSK9 clearance defects that define FH, and statin therapy is already a guideline-recommended cornerstone of FH management (reflected in the 2026 ACC/AHA dyslipidemia guideline and multiple completed Phase 3 trials below). This is consistent with L1-level evidence — the strongest tier in this framework — and stands in clear contrast to lower-confidence candidates elsewhere in this evidence pack (e.g., brain stem infarction, CETP deficiency), which rest on mechanistic speculation with L5/no direct evidence.
+Denne overensstemmelse bekræftes af modellens egen begrundelse: simvastatins LDL-receptor-opregulerende virkning afbildes direkte på de LDL-receptor/ApoB/PCSK9-clearance-defekter, der definerer FH, og statin-terapi er allerede en retlinje-anbefalet hjørnesten i FH-håndtering (afspejlet i 2026 ACC/AHA dyslipidæmi-retlinjen og flere afsluttede fase 3-forsøg nedenfor). Dette er i overensstemmelse med L1-niveau beviser — det stærkeste niveau i denne ramme — og står i klar kontrast til lavere-tillids-kandidater andre steder i denne bevispakke (f.eks. hjernestamme-infarkt, CETP-mangel), som hviler på mekanistisk spekulation med L5/ingen direkte beviser.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Indskrivning | Vigtigste resultater |
 |---------|------|------|------|---------|
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE trial: ezetimibe + high-dose simvastatin vs. simvastatin alone; assessed carotid intima-media thickness progression in heterozygous FH |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Ezetimibe co-administered with simvastatin vs. simvastatin alone in adolescents (10–17y) with heterozygous FH |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | Compared renal effects of rosuvastatin vs. simvastatin in Fredrickson type IIa/IIb dyslipidaemia, including heFH |
-| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Phase 3 | Completed | 199 | SUPREME: niacin ER + simvastatin vs. atorvastatin; compared HDL-C-raising effect in hyperlipidemia/mixed dyslipidemia |
-| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Completed | 2089 | Post-marketing re-examination of VYTORIN (ezetimibe/simvastatin) safety and efficacy in routine practice |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe 10mg added to atorvastatin or simvastatin in homozygous FH; efficacy and safety |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | 24-month open-label extension evaluating long-term safety of ezetimibe + atorvastatin/simvastatin in homozygous FH |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Phase 4 | Completed | 194 | Colesevelam add-on to stable pediatric statin therapy (incl. simvastatin) in heterozygous FH |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab in pediatric/adolescent homozygous FH; simvastatin present only as background statin therapy, not the study drug |
-| [NCT00475826](https://clinicaltrials.gov/study/NCT00475826) | N/A | Unknown | N/A | Chylomicron metabolism sub-study in heFH patients on statin + ezetimibe; observational, recruitment status unknown |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Fase 3 | Afsluttet | 720 | ENHANCE-forsøg: ezetimib + høj-dosis simvastatin vs. simvastatin alene; vurderede progression af karotis intima-medie-tykkelse hos heterozygot FH |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Fase 3 | Afsluttet | 248 | Ezetimib co-administreret med simvastatin vs. simvastatin alene hos adolescenter (10–17 år) med heterozygot FH |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Fase 3 | Afsluttet | 442 | Sammenlignede renale effekter af rosuvastatin vs. simvastatin i Fredrickson type IIa/IIb dyslipidæmi, herunder heFH |
+| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Fase 3 | Afsluttet | 199 | SUPREME: niacin ER + simvastatin vs. atorvastatin; sammenlignede HDL-C-hævende virkning i hyperlipidæmi/blandet dyslipidæmi |
+| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Afsluttet | 2089 | Eftersyn efter markedsføring af VYTORIN (ezetimib/simvastatin) sikkerhed og effektivitet i rutinemæssig praksis |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Afsluttet | 50 | Ezetimib 10mg tilføjet til atorvastatin eller simvastatin hos homozygot FH; effektivitet og sikkerhed |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Afsluttet | 44 | 24-måneders åben forlængelse der evaluerede langtidssikkerhed af ezetimib + atorvastatin/simvastatin hos homozygot FH |
+| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Fase 4 | Afsluttet | 194 | Colesevelam tilføjet til stabil pædiatrisk statin-terapi (inkl. simvastatin) hos heterozygot FH |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Afsluttet | 18 | Alirocumab hos pædiatrisk/adolescent homozygot FH; simvastatin var kun til stede som baggrund statin-terapi, ikke forsøgsmedikamentet |
+| [NCT00475826](https://clinicaltrials.gov/study/NCT00475826) | N/A | Ukendt | N/A | Chylomicron-metabolisme understudie hos heFH-patienter på statin + ezetimib; observationel, rekrutteringsstatus ukendt |
 
-No EudraCT identifiers were present in the evidence pack for these trials.
+Ingen EudraCT-identifikatorer var til stede i bevispakken for disse forsøg.
 
 ---
 
-## Literature Evidence
+## Bevis fra litteraturen
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtigste resultater |
 |------|-----|------|------|---------|
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | New England Journal of Medicine | ENHANCE trial: simvastatin ± ezetimibe in FH; ezetimibe added no incremental benefit on carotid IMT despite greater LDL-C lowering |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opinion on Drug Safety | Long-term efficacy/safety benefits and risks of simvastatin specifically in FH patients |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Safety | Earlier review of benefits and risks of simvastatin in FH, supporting long-term statin therapy |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Cohort | Journal of Clinical Medicine | Simvastatin 10mg in pediatric FH showed no adverse impact on cellular immune parameters vs. diet-only controls |
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guideline | Circulation | 2026 ACC/AHA dyslipidemia guideline; statin therapy remains foundational, including for FH |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort/Outcomes | Journal of the American College of Cardiology | Quantifies statin-associated reduction in CAD events and mortality in heterozygous FH |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematic review of statins, including simvastatin, for children with FH |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocrine Practice | AACE/ACE dyslipidemia management guideline; statins as first-line therapy |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative Study | Nutrition, Metabolism & Cardiovascular Diseases | Head-to-head comparison of atorvastatin vs. simvastatin efficacy/safety in heterozygous FH |
-| [1346327](https://pubmed.ncbi.nlm.nih.gov/1346327/) | 1992 | Study | Lancet | Early study of simvastatin's effect on lipoprotein(a) levels |
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | New England Journal of Medicine | ENHANCE-forsøg: simvastatin ± ezetimib hos FH; ezetimib tilføjede ingen inkrementel fordel på karotis IMT på trods af større LDL-C-sænkning |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Oversigt | Expert Opinion on Drug Safety | Langtidsfordele og risici for simvastatin specifikt hos FH-patienter |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Oversigt | Drug Safety | Tidligere oversigt over fordele og risici ved simvastatin hos FH, der understøttede langtidsstatin-terapi |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Kohort | Journal of Clinical Medicine | Simvastatin 10mg hos pædiatrisk FH viste ingen negativ indvirkning på cellulære immunologiske parametre sammenlignet med kun-diæt-kontroller |
+| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Retlinje | Circulation | 2026 ACC/AHA dyslipidæmi-retlinje; statin-terapi forbliver grundlæggende, herunder for FH |
+| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Kohort/Resultater | Journal of the American College of Cardiology | Kvantificerer statin-associeret reduktion i KAD-hændelser og dødelighed hos heterozygot FH |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematisk oversigt (Cochrane) | Cochrane Database of Systematic Reviews | Systematisk oversigt over statiner, herunder simvastatin, til børn med FH |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Retlinje | Endocrine Practice | AACE/ACE dyslipidæmi-håndteringsretlinje; statiner som førstelines terapi |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Komparativ studie | Nutrition, Metabolism & Cardiovascular Diseases | Direkte sammenligning af atorvastatin vs. simvastatin effektivitet/sikkerhed hos heterozygot FH |
+| [1346327](https://pubmed.ncbi.nlm.nih.gov/1346327/) | 1992 | Studie | Lancet | Tidlig undersøgelse af simvastatins virkning på lipoprotein(a)-niveauer |
 
 ---
 
-## Denmark Market Information
+## Danske markedsoplysninger
 
-No marketing-authorisation records are present in this evidence pack: 0 authorisations on file, and market status is reported as **Not Marketed**. This should be verified against the Laegemiddelstyrelsen register directly, as simvastatin is a long-genericized molecule and this evidence pack's regulatory data may be incomplete rather than reflecting a true absence from the Danish market.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug–drug interaction data were not available in this evidence pack (Data Gap DG001, Blocking severity) — this must be resolved before any formal safety sign-off (S1 stage).
+Ingen markedsføringstilladelsesregistreringer er til stede i denne bevispakke: 0 tilladelser i register, og markedsstatus rapporteres som **Ikke markedsført**. Dette bør verificeres mod Laegemiddelstyrelsen-registeret direkte, da simvastatin er et langt-generisk molekyle, og denne bevispakkes reguleringsdata kan være ufuldstændige snarere end at afspejle en sand fraværelse fra det danske marked.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Venligst se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel interaktionsdata var ikke tilgængelige i denne bevispakke (Datahul DG001, blokeringsalvorlighed) — dette skal løses før nogen formel sikkerhedsgodkendelse (S1-stadium).
 
-**Rationale:**
-- The mechanistic fit between simvastatin (HMG-CoA reductase inhibition → LDL-receptor upregulation) and FH pathophysiology (LDL-receptor/ApoB/PCSK9 clearance defects) is direct and guideline-supported, and evidence strength meets L1 (multiple completed Phase 3 RCTs, including the pivotal ENHANCE trial).
-- However, Denmark-specific regulatory and safety data are entirely unconfirmed (0 marketing authorisations on file; no SmPC warnings, contraindications, or DDI data retrieved), which blocks a full safety sign-off despite strong clinical evidence.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC / Laegemiddelstyrelsen label data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Drug-specific mechanism-of-action documentation from DrugBank (High-priority gap, DG002)
-- Verification of actual Danish marketing-authorisation status, since 0 authorisations for a long-genericized statin is unusual and may reflect an incomplete data pull rather than true non-availability
-- A complete DDI screen, since the current query returned "not found" (0 interactions), which is implausible for simvastatin and likely reflects a data gap rather than a clean safety profile
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt med forbehold**
+
+**Begrundelse:**
+- Den mekanistiske overensstemmelse mellem simvastatin (HMG-CoA-reduktasehæmning → LDL-receptor-opregulering) og FH-patofysiologi (LDL-receptor/ApoB/PCSK9-clearance-defekter) er direkte og retlinje-understøttet, og bevisstyrken opfylder L1 (flere afsluttede fase 3 RCT'er, herunder det centrale ENHANCE-forsøg).
+- Imidlertid er Danmark-specifikke regulerings- og sikkerhedsdata fuldstændig ubekræftede (0 markedsføringstilladelser i register; ingen SmPC-advarsler, kontraindikationer eller DDI-data hentet), hvilket blokerer en fuld sikkerhedsgodkendelse på trods af stærk klinisk evidens.
+
+**For at fortsætte, er følgende nødvendigt:**
+- Dansk SmPC / Laegemiddelstyrelsen-etiketdata (advarsler, kontraindikationer) — i øjeblikket et blokerande hul (DG001)
+- Lægemiddel-specifik virkningsmekanisme-dokumentation fra DrugBank (højt prioriteret hul, DG002)
+- Verifikation af faktisk markedsföringstilladelsestatus i Danmark, da 0 tilladelser for et langt-generisk statin er usædvanligt og kan afspejle et ufuldstændigt dataudtræk snarere end sand ikke-tilgængelighed
+- En komplet DDI-screening, da den aktuelle søgning returnerede "ikke fundet" (0 interaktioner), hvilket er utroligt for simvastatin og sandsynligvis afspejler et datahul snarere end en sikker profil
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

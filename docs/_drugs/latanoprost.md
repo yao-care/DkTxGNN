@@ -29,76 +29,77 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+# Latanoprost: Fra åben-vinkelglaukom til primær arvelig glaukom
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Latanoprost is a PGF2α prostaglandin analogue whose established mechanism is lowering intraocular pressure via increased uveoscleral outflow, historically used for open-angle glaucoma and ocular hypertension. The TxGNN model predicts it may also be effective for **Primary Hereditary Glaucoma**, supported by **1 completed Phase 2 clinical trial** and currently **no published literature**. The mechanistic link is direct (same drug class, same target physiology), but the evidence base remains narrow and safety documentation is incomplete.
+Latanoprost er et PGF2α-prostaglandinanalog, hvis etablerede mekanisme er at sænke intraokulartrykket via øget uveoasklerale afstrømning, historisk brugt til åben-vinkelglaukom og okular hypertension. TxGNN-modellen forudsiger, at det også kan være effektivt til **Primær Arvelig Glaukom**, understøttet af **1 gennemført fase 2-klinisk forsøg** og i øjeblikket **ingen publiceret litteratur**. Den mekanistiske sammenhæng er direkte (samme lægemiddelklasse, samme målcellefysiologi), men evidensgrundlaget er snævert, og sikkerhedsdokumentation er ufuldstændig.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Punkt | Indhold |
 |------|------|
-| Original Indication | Not confirmed via Danish licence data (drug not marketed in Denmark); established pharmacological use is open-angle glaucoma / ocular hypertension |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ikke bekræftet via dansk licensdata (lægemiddel ikke markedsført i Danmark); etableret farmakologisk brug er åben-vinkelglaukom / okular hypertension |
+| Forudsagt ny indikation | Primær Arvelig Glaukom |
+| TxGNN-forudsigelsesscore | 99.88% |
+| Evidensniveau | L2 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt under betingelser |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data for this drug record is not available (marked as a data gap). Based on the evidence pack's own repurposing rationale, latanoprost is a PGF2α prostaglandin analogue known to lower intraocular pressure by increasing uveoscleral (trabecular) aqueous humour outflow — this is the standard treatment mechanism for primary open-angle glaucoma.
+I øjeblikket er detaljerede mekanisme-af-handling-data for denne lægemiddelpost ikke tilgængelige (markeret som et datakløft). Baseret på evidenspakkens egen omformålingsrationel er latanoprost et PGF2α-prostaglandinanalog, kendt for at sænke intraokulartrykket ved at øge uveoasklerale (trabekulære) akvøs humor-afstrømning — dette er standardbehandlingsmekanismen for primær åben-vinkelglaukom.
 
-Primary hereditary glaucoma (including congenital/pediatric hereditary subtypes) shares the same core pathophysiology of elevated intraocular pressure, differing mainly in genetic/developmental origin of outflow obstruction rather than the downstream pressure-lowering target. Because latanoprost's mechanism acts on aqueous outflow regardless of the underlying cause of elevated IOP, extending its use to hereditary glaucoma subtypes is mechanistically direct rather than a novel or speculative repurposing hypothesis.
+Primær arvelig glaukom (herunder medfødt/pædiatrisk arvelige undertyper) deler den samme kernefysiologi af forhøjet intraokulairt tryk, med hovedforskel i genetisk/udviklingsmæssig oprindelse af afstrømningsblokering snarere end de nedstrøms trykdæmpende mål. Fordi latanoprostens mekanisme virker på akvøs afstrømning uafhængigt af den underliggende årsag til forhøjet intraokulairt tryk, er udvidelsen af dets brug til arvelige glaukomundertyper mekanistisk direkte snarere end en roman eller spekulativ omformålingsudannelse.
 
-This is reinforced by the one available clinical trial, which directly compared a prostaglandin analogue (latanoprost) against a carbonic anhydrase inhibitor (dorzolamide) specifically in a pediatric/hereditary glaucoma population — indicating this application has already been explored clinically, not merely inferred by the model.
+Dette forstærkes af det ene tilgængelige kliniske forsøg, som direkte sammenlignede et prostaglandinanalog (latanoprost) mod en kulsyreanhydrase-hæmmer (dorzolamid) specifikt i en pædiatrisk/arvelig glaukom-population — hvilket indikerer, at denne applikation allerede er blevet udforsket klinisk, ikke blot udledt af modellen.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidens
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assessed ocular hypotensive effect and safety of latanoprost vs. dorzolamide (carbonic anhydrase inhibitor) in patients with primary pediatric glaucoma refractory to surgical procedures. |
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Fase 2 | Gennemført | 37 | Vurderede okulær hypotensiv effekt og sikkerhed af latanoprost vs. dorzolamid (kulsyreanhydrase-hæmmer) hos patienter med primær pædiatrisk glaukom, der var modstandsdygtig over for kirurgiske procedurer. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
-
----
-
-## Denmark Market Information
-
-No marketing authorisation is currently registered for this drug in Denmark (market status: Not marketed; 0 licences on file).
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Safety Considerations
+## Markeds information i Danmark
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack — including the TFDA label/warning data required for S1 safety screening, which is flagged as a blocking data gap.
+Ingen markedsføringstilladelse er i øjeblikket registreret for dette lægemiddel i Danmark (markeds status: Ikke markedsført; 0 licenser på fil).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel interaktionsdata er i øjeblikket ikke tilgængelige i denne evidenspakke — herunder TFDA-etikett-/advarseldata påkrævet for S1-sikkerhedsscreening, som er markeret som et blokering datakløft.
 
-**Rationale:**
-The mechanistic case is strong and direct — latanoprost's IOP-lowering action via increased aqueous outflow applies to hereditary glaucoma subtypes just as it does to open-angle glaucoma — and one completed Phase 2 trial already supports this specific population. However, evidence rests on a single trial with no corroborating literature, and safety documentation (warnings, contraindications, DDI) is currently absent, so unrestricted advancement is not yet warranted.
+---
 
-**To proceed, the following is needed:**
-- Danish/EU-approved SmPC warnings and contraindications (currently a blocking data gap)
-- Confirmed mechanism of action and original approved indication documentation for this drug record
-- Additional literature or trials specific to hereditary/congenital glaucoma subtypes to corroborate the single existing trial
-- Drug-drug interaction data (current query returned no results)
+## Konklusion og næste trin
+
+**Beslutning: Fortsæt under betingelser**
+
+**Rationel:**
+Den mekanistiske sag er stærk og direkte — latanoprostens intraokulairt trykdæmpende virkning via øget akvøs afstrømning gælder for arvelige glaukomundertyper, ligesom det gælder for åben-vinkelglaukom — og et gennemført fase 2-forsøg understøtter allerede denne særlige population. Imidlertid hviler evidensen på et enkelt forsøg uden bekræftende litteratur, og sikkerhedsdokumentation (advarsler, kontraindikationer, DDI) er i øjeblikket fraværende, så ubegrænset fremskridning er endnu ikke berettiget.
+
+**For at fortsætte er følgende nødvendig:**
+- Danske/EU-godkendt Produktinformation-advarsler og kontraindikationer (i øjeblikket et blokering datakløft)
+- Bekræftet mekanisme-af-handling og oprindelig godkendt indikationsdokumentation for denne lægemiddelpost
+- Yderligere litteratur eller forsøg specifikt for arvelig/medfødt glaukomundertyper for at bekræfte det enkelt eksisterende forsøg
+- Lægemiddel-lægemiddel interaktionsdata (nuværende forespørgsel returnerede ingen resultater)
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

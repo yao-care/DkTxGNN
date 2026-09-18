@@ -29,101 +29,104 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lanadelumab: From Hereditary Angioedema to C1 Inhibitor Deficiency
+# Lanadelumab: Fra arvelig angioødem til C1-inhibitor-mangel
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Lanadelumab (Takhzyro®) is a monoclonal antibody that inhibits plasma kallikrein; the clinical trial records in this evidence pack show it is an already-approved prophylactic treatment for hereditary angioedema (HAE) in multiple countries (e.g. Japan, China, South Korea), though no formal indication/MOA record for this drug exists in the current evidence pack and it currently holds no marketing authorisation in Denmark.
-The TxGNN model's top prediction, **C1 Inhibitor Deficiency**, is the pathophysiological name for Type I/II HAE — i.e., essentially the same disease Lanadelumab is already used for elsewhere.
-This is supported by **22 clinical trials** and **20 publications**, but should be read as a *confirmation* of an existing global indication rather than a novel repurposing signal.
+Lanadelumab (Takhzyro®) er et monoklonalt antistof, der hæmmer plasma-kallikrein; de kliniske forsøgsoptegnelser i denne evidenspakke viser, at det er en allerede godkendt profylaktisk behandling for arvelig angioødem (HAE) i flere lande (f.eks. Japan, Kina, Sydkorea), selvom der ikke findes noget formelt indikations-/virkningsmekanisme-register for dette lægemiddel i den aktuelle evidenspakke, og det har i øjeblikket ingen markedsføringstilladelse i Danmark.
 
----
+TxGNN-modellens topforudsigelse, **C1-inhibitor-mangel**, er den patofysiologiske betegnelse for Type I/II HAE — dvs. i det væsentlige den samme sygdom, som Lanadelumab allerede bruges til andre steder.
 
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hereditary Angioedema (HAE) — inferred from clinical trial evidence in this pack; no formal indication/MOA record is on file for this drug |
-| Predicted New Indication | C1 Inhibitor Deficiency (clinically synonymous with HAE Type I/II) |
-| TxGNN Prediction Score | 99.996% |
-| Evidence Level | L2 (1 completed Phase 3 RCT: HELP Study, NCT02586805) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Dette understøttes af **22 kliniske forsøg** og **20 publikationer**, men bør læses som en *bekræftelse* af en eksisterende global indikation snarere end et nyt repurposing-signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort oversigt
 
-Detailed mechanism-of-action data is not formally on file for this drug in the evidence pack (original_moa: Data Gap). However, the literature evidence collected alongside the prediction (PMID 30267321) describes Lanadelumab as "a fully human monoclonal antibody that inhibits plasma kallikrein," developed to prevent hereditary angioedema (HAE) attacks caused by mutations in *SERPING1* leading to C1 inhibitor deficiency or dysfunction, which results in uncontrolled plasma kallikrein activity and excessive bradykinin production.
-
-Importantly, "C1 Inhibitor Deficiency" — the TxGNN top prediction — is not a distinct new disease relative to HAE; it is the underlying biochemical classification of HAE Type I/II, the condition Lanadelumab was originally developed and is already approved for in multiple jurisdictions (trial records in this pack reference approval status in Japan, China, and South Korea). This means the model has essentially re-identified the drug's known indication rather than surfaced a genuine repurposing candidate. The predictive score is very high (99.996%) precisely because the drug–disease association is already well established in the underlying knowledge graph.
-
-Three other TxGNN predictions in this evidence pack (serpinopathy with toxic serpin polymerization, pancreatitis, pseudo-von Willebrand disease, primary release disorder of platelets) scored highly but have no supporting clinical trials or literature and were scored L5/Hold — these are not discussed further here as they lack any evidentiary basis.
+| Element | Indhold |
+|---------|---------|
+| Original-indikation | Arvelig angioødem (HAE) — udledt fra kliniske forsøgsdata i denne pakke; ingen formelt indikations-/virkningsmekanisme-register er til rådighed for dette lægemiddel |
+| Forudsagt ny indikation | C1-inhibitor-mangel (klinisk ensbetydende med HAE Type I/II) |
+| TxGNN-forudsigelsesscore | 99,996% |
+| Bevisniveau | L2 (1 afsluttet Phase 3 RCT: HELP Study, NCT02586805) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede virkningsmekanisme-data er ikke formelt registreret for dette lægemiddel i evidenspakken (original_moa: Datakløft). Imidlertid beskriver litteraturbeviserne, der er indsamlet sammen med forudsigelsen (PMID 30267321), Lanadelumab som "et fuldt human monoklonalt antistof, der hæmmer plasma-kallikrein," udviklet til at forhindre angioødem-anfald ved arvelig angioødem (HAE) forvoldt af mutationer i *SERPING1*, som fører til C1-inhibitor-mangel eller -dysfunktion, hvilket resulterer i ukontrolleret plasma-kallikrein-aktivitet og overdreven bradykinin-produktion.
+
+Vigtigt er det, at "C1-inhibitor-mangel" — TxGNN-topforudsigelsen — ikke er en særskilt ny sygdom i forhold til HAE; det er den underliggende biokemiske klassificering af HAE Type I/II, den tilstand Lanadelumab oprindeligt blev udviklet til og allerede er godkendt for i flere jurisdiktioner (forsøgsoptegnelser i denne pakke henviser til godkendelsestatus i Japan, Kina og Sydkorea). Dette betyder, at modellen i det væsentlige har genidentificeret lægemidlets kendte indikation snarere end at have blotlagt en egentlig repurposing-kandidat. Den forudsagte score er meget høj (99,996%) præcis fordi lægemiddel-sygdoms-associationen allerede er velbegrundet i den underliggende vidensgrafs.
+
+Tre andre TxGNN-forudsigelser i denne evidenspakke (serpinopati med giftig serpin-polymerisering, pankreatitis, pseudo-von Willebrand-sygdom, primær udgivelsesforstyrrelse af blodplader) scorede højt, men har ingen understøttende kliniske forsøg eller litteratur og blev scoret L5/Afvent — disse diskuteres ikke videre her, da de mangler bevisgrundlag.
+
+---
+
+## Kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Deltagerantal | Vigtige resultater |
 |---------|------|------|------|---------|
-| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Phase 3 | Completed | 125 | HELP Study — randomized, double-blind, placebo-controlled trial confirming efficacy/safety of Lanadelumab (DX-2930) for long-term HAE prophylaxis |
-| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Phase 3 | Completed | 212 | HELP Study Extension — open-label long-term safety and efficacy follow-up |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | Completed | 21 | SPRING Study — safety, PK/PD in pediatric HAE patients 2 to <12 years |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | Completed | 12 | Efficacy and safety in Japanese HAE Type I/II patients |
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | Completed | 20 | Safety, PK and efficacy in Chinese HAE patients over 26 weeks |
-| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Phase 3 | Completed | 73 | Long-term safety/efficacy in non-histaminergic angioedema with normal C1-INH |
-| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | Completed | 140 | ENABLE — 3-year real-world effectiveness study |
-| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | Completed | 168 | EMPOWER — observational HAE attack-rate study, US/Canada |
-| [NCT02093923](https://clinicaltrials.gov/study/NCT02093923) | Phase 1 | Completed | 38 | Multiple ascending dose safety/tolerability/PK study in HAE subjects |
-| [NCT01923207](https://clinicaltrials.gov/study/NCT01923207) | Phase 1 | Completed | 32 | First-in-human single ascending dose safety/tolerability study in healthy subjects |
+| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Fase 3 | Afsluttet | 125 | HELP Study — randomiseret, dobbeltblindet, placebo-kontrolleret forsøg bekræftende virkning/sikkerhed for Lanadelumab (DX-2930) til langtids-HAE-profylakse |
+| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Fase 3 | Afsluttet | 212 | HELP Study Extension — åben-label langtids-sikkerhed og virkning opfølgning |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Fase 3 | Afsluttet | 21 | SPRING Study — sikkerhed, PK/PD hos børn med HAE 2 til <12 år |
+| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Fase 3 | Afsluttet | 12 | Virkning og sikkerhed hos japanske HAE Type I/II-patienter |
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Fase 3 | Afsluttet | 20 | Sikkerhed, PK og virkning hos kinesiske HAE-patienter over 26 uger |
+| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Fase 3 | Afsluttet | 73 | Langtids-sikkerhed/virkning hos ikke-histamin-formidlet angioødem med normal C1-INH |
+| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | Afsluttet | 140 | ENABLE — 3-år real-world-effektivitetstudium |
+| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | Afsluttet | 168 | EMPOWER — observationelt HAE-anfaldrate-studium, USA/Canada |
+| [NCT02093923](https://clinicaltrials.gov/study/NCT02093923) | Fase 1 | Afsluttet | 38 | Multipel stigende dosis sikkerhed/tolerabilitet/PK-studium hos HAE-forsøgspersoner |
+| [NCT01923207](https://clinicaltrials.gov/study/NCT01923207) | Fase 1 | Afsluttet | 32 | First-in-human enkelt stigende dosis sikkerhed/tolerabilitet-studium hos sunde personer |
 
-No EudraCT identifiers were present in the evidence pack.
+Der var ingen EudraCT-identifikatorer til stede i evidenspakken.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Vigtige resultater |
 |------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab vs. placebo significantly reduces HAE attack rate (HELP Study primary publication) |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Network Meta-Analysis | Drugs in R&D | Comparative efficacy/safety of Lanadelumab vs. garadacimab, C1-INH, berotralstat for HAE prophylaxis |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematic Review | Clinical Reviews in Allergy & Immunology | Characterizes breakthrough attacks in HAE patients on long-term prophylaxis |
-| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Indirect Treatment Comparison | J Comp Eff Res | Compares Lanadelumab vs. C1-INH in pediatric HAE (<12 years) |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Open-label Extension | Allergy | HELP OLE Study — long-term effectiveness and safety confirmed |
-| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Review | Drugs | "Lanadelumab: First Global Approval" — MOA and development summary |
-| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Review | NEJM | General review of hereditary angioedema pathophysiology and treatment |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Review | BioDrugs | Preclinical and Phase I data review for Lanadelumab in C1-INH deficiency |
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | Disease burden of HAE due to C1-inhibitor deficiency in Asia-Pacific |
-| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Observational | J Allergy Clin Immunol Pract | INTEGRATED multicountry real-world effectiveness study |
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab vs. placebo reducerer signifikant HAE-anfaldrate (HELP Study primær publikation) |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Netværks meta-analyse | Drugs in R&D | Sammenlignende virkning/sikkerhed for Lanadelumab vs. garadacimab, C1-INH, berotralstat for HAE-profylakse |
+| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematisk gennemgang | Clinical Reviews in Allergy & Immunology | Karakteriserer gennembrudsfald hos HAE-patienter på langtids-profylakse |
+| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Indirekte behandlingssammenligning | J Comp Eff Res | Sammenligner Lanadelumab vs. C1-INH hos børn med HAE (<12 år) |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Åben-label extension | Allergy | HELP OLE Study — langtids-effektivitet og sikkerhed bekræftet |
+| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Oversigt | Drugs | "Lanadelumab: First Global Approval" — virkningsmekanisme- og udviklings-sammenfatning |
+| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Oversigt | NEJM | Generel oversigt over arvelig angioødem patofysiologi og behandling |
+| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Oversigt | BioDrugs | Præ-kliniske og Fase I data-oversigt for Lanadelumab i C1-INH-mangel |
+| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Oversigt | J Allergy Clin Immunol | Sygdomsbyrde af HAE pga. C1-inhibitor-mangel i Asien-Stillehavs-regionen |
+| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Observationelt | J Allergy Clin Immunol Pract | INTEGRATED multi-lands real-world-effektivitetstudium |
 
 ---
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Lanadelumab currently holds **no marketing authorisation** in Denmark (0 licences on file; market status: not marketed). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation records are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Lanadelumab har i øjeblikket **ingen markedsføringstilladelse** i Danmark (0 licenser på fil; markedsstatus: ikke markedsført). Der er ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) godkendelsesoptegnelser tilgængelige i denne evidenspakke.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Hold**
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-**Rationale:**
-- A blocking data gap exists (DG001: no TFDA/SmPC warnings or contraindications on file), which prevents completion of the initial safety screening (S1) required before any recommendation to proceed. This holds even though the underlying indication is not novel — Lanadelumab is already an approved HAE therapy elsewhere, supported by one completed placebo-controlled Phase 3 RCT (L2) and substantial real-world evidence.
+---
 
-**To proceed, the following is needed:**
-- Official SmPC / product label with warnings, precautions, and contraindications (source: TFDA or equivalent regulator)
-- Formal mechanism-of-action (MOA) record from DrugBank or manufacturer labeling
-- Drug-drug interaction (DDI) data (current query returned no results)
-- If Danish market entry is being considered: a formal marketing authorisation application, since no licence currently exists in Denmark
-- Clarification that "C1 Inhibitor Deficiency" reflects the drug's existing approved indication rather than a new repurposing target, to avoid mischaracterizing this as a novel finding
+## Konklusion og næste trin
+
+**Afgørelse: Afvent**
+
+**Begrundelse:**
+- En blokkerende datakløft findes (DG001: ingen TFDA/SmPC-advarsler eller kontraindikationer på fil), hvilket forhindrer afslutningen af den indledende sikkerhedsscreening (S1), som kræves før enhver anbefaling om at fortsætte. Dette gælder selv om den underliggende indikation ikke er ny — Lanadelumab er allerede en godkendt HAE-terapi andre steder, understøttet af ét afsluttet placebo-kontrolleret Fase 3 RCT (L2) og omfattende real-world-bevis.
+
+**For at fortsætte, kræves følgende:**
+- Officielt SmPC / produktetiket med advarsler, forsigtighedsregler og kontraindikationer (kilde: TFDA eller tilsvarende regulator)
+- Formelt virkningsmekanisme-register (MOA) fra DrugBank eller fabrikantmærkning
+- Lægemiddel-lægemiddel-vekselvirkning (DDI) data (nuværende forespørgsel returnerede ingen resultater)
+- Hvis dansk markedsindgang overvejes: en formelt markedsføringstilladelsesansøgning, da der i øjeblikket ikke findes nogen licens i Danmark
+- Afklaring af, at "C1-inhibitor-mangel" afspejler lægemidlets eksisterende godkendte indikation snarere end et nyt repurposing-mål, for at undgå fejltolkning af dette som en ny opdagelse
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

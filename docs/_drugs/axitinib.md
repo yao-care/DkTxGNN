@@ -29,110 +29,111 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Axitinib: From Advanced Renal Cell Carcinoma to Neuroblastoma-Associated Renal Cell Carcinoma
+# Axitinib: Fra fremskreden nyrcellecarcinoma til nyrcellecarcinoma associeret med neuroblastom
 
-## One-Sentence Summary
+## Enliniers sammenfatning
 
-Axitinib (Inlyta®) is a selective VEGFR kinase inhibitor with established global approval for advanced renal cell carcinoma (RCC), though it is not currently marketed in Denmark.
-The TxGNN model predicts activity across five rare oncological subtypes — including **renal cell carcinoma associated with neuroblastoma** (top-ranked, 99.90%), Xp11.2/TFE3 translocation RCC, unclassified RCC, childhood kidney cell carcinoma, and liposarcoma.
-Across all predicted indications combined, **4 clinical trials** and **3 publications** have been identified; however, direct evidence for the top-ranked neuroblastoma-associated RCC subtype is currently absent.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Advanced renal cell carcinoma (EMA/FDA approved globally; no Danish registration) |
-| Predicted New Indication | Renal cell carcinoma associated with neuroblastoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (top-ranked indication); best available evidence across all predictions is L2 (Xp11.2/TFE3 RCC and childhood RCC) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Research Question (top-ranked indication) |
+Axitinib (Inlyta®) er en selektiv VEGFR-kinaseinhibitor med etableret globalt godkendelse til fremskreden nyrcellecarcinoma (RCC). Præparatet er dog ikke aktuelt markedsført i Danmark.
+TxGNN-modellen forudsiger aktivitet på tværs af fem sjældne onkologiske subtyper — herunder **nyrcellecarcinoma associeret med neuroblastom** (højest rangeret, 99,90%), Xp11.2/TFE3-translokations-RCC, uklassificeret RCC, kindnesaldercellecarcinoma af nyren og liposarkom.
+På tværs af alle forudsagte indikationer samlet er der **4 kliniske forsøg** og **3 publikationer** identificeret; dog mangler der direkte evidens for den højest rangerede neuroblastom-associerede RCC-subtype.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigt overblik
 
-Currently, detailed mechanism of action data is not available from the system database. Based on established pharmacological knowledge, Axitinib is a potent and selective second-generation tyrosine kinase inhibitor that targets VEGFR1, VEGFR2, and VEGFR3. By blocking VEGF receptor signalling, it disrupts tumour angiogenesis — the formation of new blood vessels that tumours rely on for sustained growth and metastasis. This mechanism underpins its regulatory approval for advanced RCC, where VEGF pathway overactivation is a dominant molecular driver, particularly in clear-cell histology.
-
-Renal cell carcinomas of all subtypes share a fundamental dependency on tumour vasculature, providing a pharmacological rationale for extrapolating across RCC histologies. However, the top-ranked prediction — RCC associated with neuroblastoma — is an extremely rare entity in which the neuroblastoma component may be additionally driven by ALK amplification or MYCN pathway dysregulation, targets that fall outside the scope of VEGFR inhibition. The mechanistic link is therefore plausible but incomplete for this specific subtype, and the high TxGNN score (0.999) reflects knowledge graph structural similarity rather than direct biological evidence.
-
-The mechanistic rationale is substantially stronger for the Xp11.2/TFE3 gene fusion subtype: TFE3 fusion proteins activate MET and downstream VEGFR signalling, creating a direct molecular target for axitinib. This subtype accounts for approximately 20–40% of paediatric RCC cases, which explains why childhood kidney cell carcinoma also appears as a closely related high-ranked prediction. For liposarcoma — specifically the myxoid subtype — published preclinical data confirm VEGFR expression and axitinib sensitivity in cell line models, though clinical trial validation is still lacking.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials were identified for the top-ranked indication (renal cell carcinoma associated with neuroblastoma). The following trials are relevant to other TxGNN-predicted indications and are presented to give a complete evidence picture.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|------|--------|-----------|-------------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Active, Not Recruiting | 15 | Randomised trial comparing axitinib + nivolumab versus nivolumab alone in TFE/translocation RCC across all age groups. Directly evaluates axitinib in both the Xp11.2/TFE3 and paediatric RCC subtypes; currently the highest-grade interventional evidence for these rare variants. Results pending (expected completion November 2026). |
-| [NCT04510597](https://clinicaltrials.gov/study/NCT04510597) | Phase 3 | Recruiting | 364 | PROBE Trial: immunotherapy-based combination therapy (nivolumab, ipilimumab, pembrolizumab, or avelumab) with or without cytoreductive nephrectomy in metastatic RCC. Highest-level study design in the landscape; key evidence anchor for childhood/metastatic RCC. Results expected 2033. |
-| [NCT02156895](https://clinicaltrials.gov/study/NCT02156895) | N/A | Completed | 111 | Post-marketing surveillance of Inlyta® in real-world practice. Observational design monitoring safety and effectiveness of axitinib in routine oncology care, including unclassified RCC histologies. |
-| [NCT04033991](https://clinicaltrials.gov/study/NCT04033991) | N/A | Completed | 684 | UK retrospective real-world database study examining outcomes of sunitinib (1st line) → axitinib (2nd line) in metastatic/advanced RCC. Evaluates progression-free survival by MSKCC/IMDC risk category; largest observational dataset available, relevant to unclassified RCC. |
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Fremskreden nyrcellecarcinoma (EMA/FDA godkendt globalt; ingen dansk registrering) |
+| Forudsagt ny indikation | Nyrcellecarcinoma associeret med neuroblastom |
+| TxGNN-forudsigelsesscore | 99,90% |
+| Evidensniveau | L4 (højest rangeret indikation); bedst tilgængelig evidens på tværs af alle forudsigelser er L2 (Xp11.2/TFE3 RCC og kindnesaldercarcinoma) |
+| Dansk markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Forskningsspørgsmål (højest rangeret indikation) |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-No literature was identified for renal cell carcinoma associated with neuroblastoma or for unclassified RCC. The following publications are relevant to other predicted indications.
+Detaljerede virkningsmekanisme-data er for øjeblikket ikke tilgængelige fra systemdatabasen. Baseret på etableret farmakologisk viden er axitinib en potent og selektiv andengeneration-tyrosinkinaseinhibitor, som målretter VEGFR1, VEGFR2 og VEGFR3. Ved at blokere VEGF-receptorsignalering forstyrrer det tumorangiogenese — dannelsen af nye blodkar, som tumorer afhænger af for vedvarende vækst og metastasering. Denne mekanisme ligger til grund for dets regulatoriske godkendelse til fremskreden RCC, hvor VEGF-vejaktiveringen er en dominerende molekylær driver, især i clear-cell-histologi.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31012542](https://pubmed.ncbi.nlm.nih.gov/31012542/) | 2019 | Review | Pediatric Blood & Cancer | Systematic review of treatment for advanced paediatric RCC. Notes the scarcity of high-quality evidence in this population and discusses the role of VEGFR inhibitors, including axitinib, as a treatment option. |
-| [26279736](https://pubmed.ncbi.nlm.nih.gov/26279736/) | 2015 | Case Report | Can Urol Assoc J | First published use of axitinib in a paediatric patient (12-year-old male) with malignant epithelioid angiomyolipoma of the kidney treated on adult protocols. Authors conclude adult axitinib regimens can be used safely in rare childhood renal malignancies. |
-| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Preclinical Study | Sarcoma | Axitinib demonstrates antiangiogenic and direct antitumour activity in myxoid liposarcoma cell lines. Screening of targeted and conventional agents confirms VEGFR-directed therapy as a promising strategy for this rare sarcoma subtype; no clinical validation available to date. |
+Nyrcellecarcinomer af alle subtyper deler en grundlæggende afhængighed af tumorvaskulatur, hvilket giver en farmakologisk rationalet for ekstrapolering på tværs af RCC-histologier. Imidlertid er den højest rangerede forudsigelse — RCC associeret med neuroblastom — en ekstremt sjælden enhed, hvor neuroblastom-komponenten kan være yderligere drevet af ALK-amplifikation eller MYCN-vejsdysregulering, mål der ligger uden for omfanget af VEGFR-inhibering. Den mekanistiske forbindelse er således rimelig men ufuldstændig for denne specifikke subtype, og den høje TxGNN-score (0,999) afspejler strukturel lighed på vidensgrafen snarere end direkte biologiske beviser.
+
+Det mekanistiske rationale er væsentligt stærkere for Xp11.2/TFE3-genfusionssubtypen: TFE3-fusionsproteiner aktiverer MET og nedstrøms VEGFR-signalering, hvilket skaber et direkte molekylært mål for axitinib. Denne subtype tegner sig for cirka 20–40% af pediatriske RCC-tilfælde, hvilket forklarer, hvorfor kindnesaldercarcinoma af nyren også vises som en tæt forbundet højt rangeret forudsigelse. For liposarkom — specifikt myxoid-subtypen — bekræfter offentliggjorte prækliniske data VEGFR-udtryk og axitinib-sensitivitet i cellinje-modeller, selvom klinisk forsøgsvalidering endnu mangler.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgseviden
 
-Axitinib currently holds no marketing authorisation in Denmark. No approvals have been issued by the Danish Medicines Agency (Lægemiddelstyrelsen) and no centralised EMA authorisation is reflected in the Danish market database.
+Ingen kliniske forsøg blev identificeret for den højest rangerede indikation (nyrcellecarcinoma associeret med neuroblastom). Følgende forsøg er relevante for andre TxGNN-forudsagte indikationer og præsenteres for at give et fuldstændigt evidensbillede.
 
-> **Access note:** Axitinib (Inlyta®) holds EMA centralised authorisation for advanced/metastatic RCC in adults and FDA approval (since 2012). Danish patients requiring axitinib would currently need access through an individual import approval or a named-patient/compassionate use pathway.
-
----
-
-## Cytotoxicity
-
-Axitinib is an antineoplastic agent (targeted kinase inhibitor approved for renal cell carcinoma; original indication involves malignancy).
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective VEGFR1/2/3 tyrosine kinase inhibitor (not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low (VEGFR inhibitors rarely cause clinically significant myelosuppression; occasional mild anaemia or thrombocytopenia possible) |
-| Emetogenicity Classification | Low (oral targeted agents have minimal emetogenic potential per MASCC/ESMO guidelines) |
-| Monitoring Items | Blood pressure (hypertension is a common class effect), thyroid function (TSH), liver enzymes (ALT/AST), renal function, urine protein, hand-foot skin reaction assessment |
-| Handling Protection | Standard oral antineoplastic handling precautions apply; follow local institutional cytotoxic waste disposal guidelines |
+| Forsøgsnummer | Fase | Status | Rekruttering | Vigtige resultater |
+|---------------|------|--------|--------------|-------------------|
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Aktiv, ikke rekrutterer | 15 | Randomiseret forsøg sammenlignende axitinib + nivolumab versus nivolumab alene i TFE/translokations-RCC på tværs af alle aldersgrupper. Evaluerer direkte axitinib i både Xp11.2/TFE3- og pediatrisk RCC-subtyper; aktuelt det højeste-niveau interventionelle evidens for disse sjældne varianter. Resultater ventede (forventet afslutning november 2026). |
+| [NCT04510597](https://clinicaltrials.gov/study/NCT04510597) | Fase 3 | Rekrutterer | 364 | PROBE-forsøget: immunoterapi-baseret kombinationsbehandling (nivolumab, ipilimumab, pembrolizumab eller avelumab) med eller uden cytorediktiv nefrektomi i metastatisk RCC. Højeste-niveau forsøgsdesign i landskabet; nøgle-evidens-anker for kindnesaldercarcinoma/metastatisk RCC. Resultater forventet 2033. |
+| [NCT02156895](https://clinicaltrials.gov/study/NCT02156895) | Ikke relevant | Afsluttet | 111 | Post-marketing-overvågning af Inlyta® i praksis i den virkelige verden. Observationsdesign overvågning af sikkerhed og effektivitet af axitinib i rutinemæssig kræftbehandling, herunder uklassificeret RCC-histologier. |
+| [NCT04033991](https://clinicaltrials.gov/study/NCT04033991) | Ikke relevant | Afsluttet | 684 | UK retrospektivt real-world-databaseforsøg undersøgende resultater af sunitinib (1. linje) → axitinib (2. linje) i metastatisk/fremskreden RCC. Evaluerer progressionsfri overlevelse efter MSKCC/IMDC-risikokategori; største tilgængelige observationelt datasæt, relevant for uklassificeret RCC. |
 
 ---
 
-## Safety Considerations
+## Litteratureviden
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Ingen litteratur blev identificeret for nyrcellecarcinoma associeret med neuroblastom eller for uklassificeret RCC. Følgende publikationer er relevante for andre forudsagte indikationer.
+
+| PMID | År | Type | Journal | Vigtige resultater |
+|------|-----|------|---------|-------------------|
+| [31012542](https://pubmed.ncbi.nlm.nih.gov/31012542/) | 2019 | Oversigtsartikel | Pediatric Blood & Cancer | Systematisk gennemgang af behandling for avanceret pediatrisk RCC. Bemærker manglen på høj-kvalitets-evidens i denne population og diskuterer rollen af VEGFR-inhibitorer, herunder axitinib, som behandlingsmulighed. |
+| [26279736](https://pubmed.ncbi.nlm.nih.gov/26279736/) | 2015 | Kasuistik | Can Urol Assoc J | Første offentliggjorte brug af axitinib hos en pediatrisk patient (12-årigt drengekind) med malign epithelioid angiomyolipom af nyren behandlet efter voksne-protokoller. Forfattere konkluderer, at voksne axitinib-regimer kan anvendes sikkert ved sjældne kindnesaldernyremalignomiteter. |
+| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Præklinisk studie | Sarcoma | Axitinib demonstrerer antiangiogen og direkte antitumor-aktivitet i myxoid liposarkom-cellelinjer. Screening af målrettede og konventionelle agenser bekræfter VEGFR-rettet terapi som en lovende strategi for denne sjældne sarkomsubtype; ingen klinisk validering tilgængelig til dato. |
 
 ---
 
-## Conclusion and Next Steps
+## Danske markedsoplysninger
 
-**Decision: Research Question** (renal cell carcinoma associated with neuroblastoma — top-ranked TxGNN prediction)
+Axitinib har aktuelt ingen markedsføringstilladelse i Danmark. Der er ikke udstedt godkendelser fra Lægemiddelstyrelsen, og ingen centraliseret EMA-godkendelse afspejles i den danske markedsdatabase.
 
-**Decision: Proceed with Guardrails** (Xp11.2/TFE3 translocation RCC and childhood kidney cell carcinoma — best-evidenced indications in this evaluation)
+> **Adgangsnotat:** Axitinib (Inlyta®) har EMA-centraliseret godkendelse til fremskreden/metastatisk RCC hos voksne og FDA-godkendelse (siden 2012). Danske patienter, der kræver axitinib, ville aktuelt have behov for adgang gennem en individuel importgodkendelse eller en navngivet patient/humanitær use-vej.
+
+---
+
+## Cytotoksicitet
+
+Axitinib er en antineoplastisk agent (målrettet kinaseinhibitor godkendt til nyrcellecarcinoma; oprindelig indikation omfatter malignitet).
+
+| Punkt | Indhold |
+|-------|---------|
+| Cytotoksicitets-klassificering | Målrettet terapi — selektiv VEGFR1/2/3-tyrosinkinaseinhibitor (ikke en konventionel cytotoksisk agent) |
+| Myelosuppression-risiko | Lav (VEGFR-inhibitorer forårsager sjældent klinisk signifikant myelosuppression; eventuel mild anæmi eller trombocytopeni mulig) |
+| Emetogenicitets-klassificering | Lav (orale målrettede agenser har minimal emetogen potentiale efter MASCC/ESMO-retningslinjer) |
+| Overvågnings-punkter | Blodtryk (hypertension er en almindelig klasseffekt), skjoldbruskkirtelfunction (TSH), leverenzymer (ALT/AST), nyrefunktion, urinprotein, hånd-fod-hudreaktion-vurdering |
+| Håndteringsbeskyttelse | Standard orale antineoplastiske håndteringsforsigtighedsregler gælder; følg lokale institutionelle retningslinjer for cytotoksisk affaldsbortskaffelse |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Forskningsspørgsmål** (nyrcellecarcinoma associeret med neuroblastom — TxGNN-forudsigelse med højest rang)
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger** (Xp11.2/TFE3-translokations-RCC og kindnesaldercarcinoma af nyren — bedst dokumenterede indikationer i denne vurdering)
 
 **Rationale:**
-The top-ranked TxGNN prediction lacks any direct clinical or preclinical evidence, and the neuroblastoma-associated RCC subtype is so rare that evidence generation will be inherently challenging; this indication should currently be treated as a hypothesis requiring dedicated research. In contrast, the Xp11.2/TFE3 translocation RCC and childhood kidney cell carcinoma indications are supported by a directly relevant active Phase 2 randomised trial (NCT03595124) and an ongoing Phase 3 trial (NCT04510597), providing a foundation for cautious clinical development activity.
+Den højest rangerede TxGNN-forudsigelse mangler direkte klinisk eller præklinisk evidens, og neuroblastom-associeret RCC-subtypen er så sjælden, at evidensgenering vil være iboende udfordrende; denne indikation bør aktuelt behandles som en hypotese, der kræver dedikeret forskning. I modsætning hertil understøttes Xp11.2/TFE3-translokations-RCC- og kindnesaldercarcinoma-indikationerne af et direkte relevant aktivt fase 2-randomiseret forsøg (NCT03595124) og et igangværende fase 3-forsøg (NCT04510597), hvilket giver grundlag for forsigtig klinisk udviklings-aktivitet.
 
-**To proceed, the following is needed:**
+**For at fortsætte kræves følgende:**
 
-- Resolution of MOA data gap (DrugBank API query for complete pharmacological profile; currently a High-severity gap)
-- Full safety review from the EMA Inlyta® SmPC — currently a **Blocking** data gap required before any Danish safety assessment
-- Evaluation of named-patient or compassionate use pathway for access in Denmark (drug not currently marketed)
-- Await results from NCT03595124 (axitinib + nivolumab in TFE3-fusion RCC, expected November 2026)
-- Paediatric-specific dosing protocols and long-term toxicity monitoring plan (growth plate, thyroid function, cardiovascular effects) for the childhood RCC indication
-- Confirmation of molecular diagnostic availability in Denmark (Xp11.2/TFE3 FISH or RNA fusion panel testing) as a prerequisite for patient selection
+- Løsning af MOA-datakløft (DrugBank API-forespørgsel til komplet farmakologisk profil; aktuelt et høj-alvorlighed-kløft)
+- Fuldstændig sikkerhedsgennemgang fra EMA Inlyta® SmPC — aktuelt en **blokerende** datakløft påkrævet før enhver dansk sikkerhedsvurdering
+- Evaluering af navngivet patient eller humanitær use-vej for adgang i Danmark (præparat ikke aktuelt markedsført)
+- Afvent resultater fra NCT03595124 (axitinib + nivolumab i TFE3-fusions-RCC, forventet november 2026)
+- Pediatrisk-specifik doseringsprotokol og langtids-toksicitets-overvågningsplan (vækstzoner, skjoldbruskkirtelfunction, kardiovaskulære effekter) for kindnesaldercarcinoma-indikationen
+- Bekræftelse af tilgængelighed af molekylær diagnostik i Danmark (Xp11.2/TFE3 FISH eller RNA-fusions-paneltest) som forudsætning for patientvalg
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,92 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zolbetuximab: From Gastric/GEJ Adenocarcinoma (Mechanism-Inferred) to Diabetic Cataract
+# Zolbetuximab: Fra mavekræft/GEJ-adenokarcinom (mekanisme-udledt) til diabetisk katarakt
 
-## One-Sentence Summary
+## Ét-linjes sammenfatning
 
-> Zolbetuximab is a cytotoxic monoclonal antibody directed against CLDN18.2, a mechanism associated with its established use in CLDN18.2-positive gastric/gastroesophageal junction cancer — however, this specific original indication is **not recorded** in the current evidence pack (data gap).
-> The TxGNN model predicts it may be effective for **Diabetic Cataract**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale explicitly argues **against** biological plausibility.
-> Given the absence of any supporting evidence and a mechanistically implausible drug–disease link, this candidate should be placed on **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (data gap — see below); mechanism data implies anti-CLDN18.2 oncology use |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 98.49% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+> Zolbetuximab er et cytotoksisk monoklonalt antistof rettet mod CLDN18.2, en mekanisme forbundet med dets etablerede forbrug i CLDN18.2-positive mavekræft/gastrooesophageal junction-kræft — men denne specifikke oprindelige indikation er **ikke registreret** i det aktuelle evidence pack (datakløft).
+> TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk katarakt**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske begrundelse argumenterer eksplicit **imod** biologisk plausibilitet.
+> I betragtning af fraværet af bevisemateriale og en mekanistisk implausibel lægmiddel–sygdom-forbindelse bør denne kandidat placeres på **Afvent**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Currently, detailed mechanism of action data is marked as a data gap (`original_moa: [Data Gap]`) in the drug record itself. However, the model's own repurposing rationale describes Zolbetuximab as a cytotoxic monoclonal antibody targeting Claudin 18.2 (CLDN18.2), acting through antibody-dependent cellular cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC) to eliminate CLDN18.2-expressing cells — a mechanism consistent with its known oncology use.
-
-**This mechanism does not translate to diabetic cataract.** Diabetic cataract results from chronic hyperglycemia driving polyol-pathway activation, sorbitol accumulation, lens protein oxidation, and osmotic changes in the lens — a metabolic/structural process with no known relationship to CLDN18.2 expression or antibody-mediated cytotoxicity. There is no evidence that lens epithelial cells meaningfully express CLDN18.2, and no evidence that depleting CLDN18.2-positive cells would prevent or reverse lens opacification.
-
-Notably, all ten of the top predicted indications in this evidence pack are cataract-related (diabetic cataract, tetanic cataract, craniostenosis-associated cataract, mature/immature cataract, type 2 diabetes-associated cataract), several appearing as duplicate entries with near-identical scores. This pattern is consistent with a knowledge-graph statistical artifact rather than an independently supported, disease-specific signal, and using a cytotoxic immune-effector antibody in a non-oncologic, non-inflammatory ophthalmic condition also raises an independent safety-plausibility concern (potential immune-mediated ocular tissue injury). The prediction should be treated as low-confidence and not biologically actionable at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|------|---------|
+| Oprindelig indikation | Ikke tilgængelig i evidence pack (datakløft — se nedenfor); mekanismedata antyder anti-CLDN18.2 onkologi-forbrug |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98.49% |
+| Evidensniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringsgodkendelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+I øjeblikket er detaljerede virkningsmekanisme-data markeret som et datakløft (`original_moa: [Data Gap]`) i selve lægemiddelposten. Modellens egen repurposing-begrundelse beskriver dog Zolbetuximab som et cytotoksisk monoklonalt antistof, der målretter Claudin 18.2 (CLDN18.2) gennem antistof-afhængig cellulær cytotoxicitet (ADCC) og komplement-afhængig cytotoxicitet (CDC) for at eliminere CLDN18.2-udrykkende celler — en mekanisme i overensstemmelse med dets kendte onkologi-forbrug.
 
----
+**Denne mekanisme oversættes ikke til diabetisk katarakt.** Diabetisk katarakt skyldes kronisk hyperglykæmi, der drives af polyol-vej-aktivering, sorbitolophobning, linseprotein-oxidation og osmotiske ændringer i linsen — en metabolisk/strukturel proces uden kendt forhold til CLDN18.2-udtryk eller antistof-medieret cytotoxicitet. Der er ingen beviser for, at linseepitelceller udtrykker CLDN18.2 i betydeligt omfang, og ingen beviser for, at udryddelse af CLDN18.2-positive celler ville forhindre eller vende linseopacificering.
 
-## Denmark Market Information
-
-No marketing authorisations are currently registered in Denmark for Zolbetuximab (0 licenses on file; market status: Not marketed).
+Bemærkelsesværdigt er alle ti af de mest forudsagte indikationer i dette evidence pack katarakt-relaterede (diabetisk katarakt, tetanisk katarakt, kraniostenose-associeret katarakt, moden/umodnet katarakt, type 2-diabetes-associeret katarakt), flere af dem vises som dubletter med næsten identiske scores. Dette mønster er konsistent med en knowledge-graph-statistisk artefakt snarere end et uafhængigt understøttet, sygdomsspecifikt signal, og brugen af et cytotoksisk immun-effector-antistof i en ikke-onkologisk, ikke-inflammatorisk øjensygdom rejser også en uafhængig sikkerhed-plausibilitet-bekymring (potentiel immun-medieret okular vævsbeskadigelse). Forudsigelsen bør behandles som lav-tillid og ikke biologisk handlingsbar på nuværende tidspunkt.
 
 ---
 
-## Cytotoxicity
+## Kliniske forsøgsbeviser
 
-Zolbetuximab is classified here based on its described mechanism (cytotoxic anti-CLDN18.2 monoclonal antibody used in oncology).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (monoclonal antibody; ADCC/CDC-mediated cytotoxicity against CLDN18.2-expressing cells) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: TFDA/Danish label warnings and contraindications for this product are currently a **blocking data gap** (DG001) — a formal safety review (S1) cannot proceed until this is resolved.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Ingen markedsføringsgodkendelser er i øjeblikket registreret i Danmark for Zolbetuximab (0 godkendelser på filen; markedsstatus: Ikke markedsført).
 
-**Rationale:**
-- The predicted indication is supported by zero clinical trials and zero literature (Evidence Level L5, decision stage S0), and the model's own mechanistic rationale argues the drug–disease link is biologically implausible rather than merely under-studied.
-- Zolbetuximab is not marketed in Denmark (0 authorisations), and critical safety inputs (label warnings/contraindications, MOA) are marked as blocking/high-severity data gaps in this evidence pack.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Danish SmPC warnings and contraindications (currently blocking — DG001)
-- Confirmed mechanism of action data from DrugBank or product labeling (DG002)
-- Confirmed original approved indication(s) for Zolbetuximab, which are absent from this evidence pack
-- Independent biological/preclinical rationale connecting CLDN18.2 biology to lens pathology, if this candidate is to be reconsidered
-- Given the current evidence, re-evaluation of whether this candidate should remain in the pipeline at all is recommended before further data collection is invested
+## Cytotoxicitet
+
+Zolbetuximab er klassificeret her på basis af dets beskrevne mekanisme (cytotoksisk anti-CLDN18.2 monoklonalt antistof brugt i onkologi).
+
+| Punkt | Indhold |
+|------|---------|
+| Cytotoxicitet-klassificering | Immunterapi (monoklonalt antistof; ADCC/CDC-medieret cytotoxicitet mod CLDN18.2-udrykkende celler) |
+| Myelosuppression-risiko | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet-klassificering | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+| Overvågningselementer | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst den godkendte Sammenfattelse af produktkarakteristika (SmPC) for sikkerhedsinformation. Bemærk: TFDA/dansk etiket-advarsler og kontraindikationer for dette lægemiddel er i øjeblikket en **blokeringsdata gab** (DG001) — en formel sikkerhedsgennemgang (S1) kan ikke fortsætte, før dette er løst.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+- Den forudsagte indikation understøttes af nul kliniske forsøg og nul litteratur (Evidensniveau L5, beslutningstrin S0), og modellens egen mekanistiske begrundelse argumenterer for, at lægemiddel–sygdom-forbindelsen er biologisk implausibel snarere end blot undersøgt.
+- Zolbetuximab er ikke markedsført i Danmark (0 godkendelser), og kritiske sikkerhedsinput (etiket-advarsler/kontraindikationer, mekanisme) er markeret som blokeringsdata/høj-alvorligheds datakløfter i dette evidence pack.
+
+**For at fortsætte er følgende nødvendig:**
+- TFDA/dansk SmPC-advarsler og kontraindikationer (i øjeblikket blokeringsdata — DG001)
+- Bekræftet virkningsmekanisme-data fra DrugBank eller produktetiket (DG002)
+- Bekræftet oprindelig godkendt indikation(er) for Zolbetuximab, som mangler fra dette evidence pack
+- Uafhængig biologisk/præ-klinisk begrundelse, der forbinder CLDN18.2-biologi med linsepatologi, hvis denne kandidat skal genovervejes
+- I betragtning af de aktuelle beviser anbefales en revurdering af, hvorvidt denne kandidat overhovedet skal forblive i pipelinen, før der investeres yderligere i dataindsamling
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

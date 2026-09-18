@@ -29,93 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Darbepoetin Alfa: Evaluation Pending — No Active TxGNN Repurposing Prediction
+# Darbepoetin Alfa: Evaluering afventer — Ingen aktiv TxGNN-genbrugsprognose
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Darbepoetin alfa is a hyperglycosylated erythropoiesis-stimulating agent (ESA) indicated internationally for the treatment of anaemia in chronic kidney disease and chemotherapy-induced anaemia.
-The TxGNN model did **not generate any repurposing prediction** for this candidate in the current run.
-Two blocking or high-severity data gaps — missing regulatory warning data and missing mechanism of action data — prevent formal evaluation and must be resolved before the pipeline can be re-executed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Anaemia (chronic kidney disease; chemotherapy-induced) — based on international sources; not populated in evidence pack |
-| Predicted New Indication | — (no prediction generated) |
-| TxGNN Prediction Score | — |
-| Evidence Level | Not evaluable (pipeline returned no candidates) |
-| Denmark Market Status | Not marketed (per evidence pack) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Darbepoetin alfa er et hyperglykosileret erythropoeseunderstøttende agens (ESA), der internationalt er indiceret til behandling af anæmi ved kronisk nyrensygdom og kemoterapirelateret anæmi.
+TxGNN-modellen genererede **ingen genbrugsprognose** for denne kandidat i det aktuelle kørselsforløb.
+To blokerende eller høj-alvorlighedsgrad-datakløfter — manglende regulatoriske advarseldata og manglende handlingsmekanismedata — forhindrer formel evaluering og skal løses, før pipelinen kan køres igen.
 
 ---
 
-## Why No Prediction Was Generated
+## Hurtig oversigt
 
-The TxGNN pipeline returned an empty `predicted_indications` list for darbepoetin alfa (DrugBank: DB00012). Based on the evidence pack metadata and data gap log, the most likely causes are:
-
-**1. Missing mechanism of action (DG002 — High severity)**
-TxGNN's graph neural network reasoning relies on drug–protein–disease edges in the knowledge graph. Without MOA annotation — specifically the drug's target proteins and pharmacological class — the drug node is likely insufficiently connected to score candidate disease associations. Darbepoetin alfa acts via the erythropoietin receptor (EPOR) and downstream JAK2/STAT5 signalling; this information is well-documented in DrugBank but was not retrieved in the current run.
-
-**2. Empty original indications array**
-The `original_indications` field is unpopulated. The prediction pipeline may depend on existing indication anchors to seed the disease neighbourhood search. Without them, candidate scoring may have been skipped or returned below the reporting threshold.
-
-**3. Blocking data gap (DG001 — Blocking severity)**
-Local regulatory warning and contraindication data is absent. While this does not directly affect the prediction algorithm, it prevents any downstream safety screening of hypothetical candidates, making the entire evaluation incomplete even if predictions were available.
-
-Darbepoetin alfa is an established biologic with a long safety and efficacy record. Repurposing hypotheses explored in the literature include neuroprotection (ischaemic stroke, traumatic brain injury), cardioprotection (acute myocardial infarction), and anti-inflammatory applications — all driven by EPOR expression outside erythroid tissue. None of these appear in this evidence pack.
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Anæmi (kronisk nyrensygdom; kemoterapirelateret) — baseret på internationale kilder; ikke udfyldt i evidenspakken |
+| Forudsagt ny indikation | — (ingen prognose genereret) |
+| TxGNN-prognosescore | — |
+| Evidensniveau | Ikke vurderbar (pipeline returnerede ingen kandidater) |
+| Danske markedsstatus | Ikke markedsført (ifølge evidenspakken) |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet afgørelse | **Hold** |
 
 ---
 
-## Denmark Market Information
+## Hvorfor ingen prognose blev genereret
 
-The evidence pack records **zero marketing authorisations** for darbepoetin alfa and a market status of "not marketed."
+TxGNN-pipelinen returnerede en tom liste over `predicted_indications` for darbepoetin alfa (DrugBank: DB00012). Baseret på evidenspakkens metadata og datakløftlogg skyldes det højst sandsynligt:
 
-> ⚠️ **Data Consistency Alert**: This appears inconsistent with publicly available information. Aranesp® (darbepoetin alfa, Amgen Europe B.V.) holds a centralised EMA marketing authorisation (EU/1/01/183/001–020) valid across all EU/EEA Member States, including Denmark, since 2001. Investigators should verify the current authorisation status directly with:
+**1. Manglende handlingsmekanisme (DG002 — høj alvorlighed)**
+TxGNN's grafneuralnetværksræsonnement afhænger af medicin–protein–sygdom forbindelser i vidensgraf. Uden MOA-annotationen — specifikt medicinets målproteiner og farmakologisk klasse — er medicinnoden sandsynligvis utilstrækkeligt forbundet til at vurdere kandidat-sygdomassociationer. Darbepoetin alfa virker via erythropoietinreceptoren (EPOR) og nedstrøms JAK2/STAT5-signalering; denne information er velkendt i DrugBank, men blev ikke hentet i det aktuelle kørselsforløb.
+
+**2. Tom original-indikationsliste**
+Feltet `original_indications` er ikke udfyldt. Prognose-pipelinen kan være afhængig af eksisterende indikationsanker til at initialisere søgningen i sygdomsomegnen. Uden dem kan kandidatvurdering være blevet udeladt eller returneret under rapporteringstærskelen.
+
+**3. Blokerende datakløft (DG001 — blokering alvorlighed)**
+Lokale regulatoriske advarsels- og kontraindikationsdata er fraværende. Selvom dette ikke direkte påvirker prognosealgorritmen, forhindrer det efterfølgende sikkerhedsscreening af hypotetiske kandidater, hvilket gør hele evalueringen ufuldstændig, selv hvis prognoser var tilgængelige.
+
+Darbepoetin alfa er et etableret biologisk lægemiddel med en lang sikkerhed- og effektivitetshistorie. Genbrugshypoteser udforsket i litteraturen omfatter neuroprotektion (iskæmisk apopleksi, traumatisk hjerneskade), kardioprotektion (akut myokardieinfarkt) og anti-inflammatoriske anvendelser — alle drevet af EPOR-udtryk uden for erythroidt væv. Ingen af disse optræder i denne evidenspakke.
+
+---
+
+## Information om det danske marked
+
+Evidenspakken registrerer **nul markedsføringstilladelser** for darbepoetin alfa og en markedsstatus på "ikke markedsført."
+
+> ⚠️ **Datakonsistensadvarsel**: Dette ser ud til at være inkonsistent med offentligt tilgængelig information. Aranesp® (darbepoetin alfa, Amgen Europe B.V.) har en centraliseret EMA-markedsføringstilladelse (EU/1/01/183/001–020), der er gyldig på tværs af alle EU/EØS-medlemsstater, herunder Danmark, siden 2001. Efterforskere bør bekræfte den aktuelle tilladelsestatus direkte ved:
 > - [EMA EPAR for Aranesp](https://www.ema.europa.eu/en/medicines/human/EPAR/aranesp)
-> - The Danish Medicines Agency product database ([laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk))
+> - Det danske Lægemiddelstyrelsens produktdatabase ([laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk))
 >
-> The evidence pack candidate ID carries a `TW-` prefix, suggesting the regulatory data was sourced from a Taiwan-market dataset rather than the Danish/EMA register. This must be corrected before Denmark-specific conclusions are drawn.
+> Evidenspakkekandidatens ID bærer et `TW-` præfiks, hvilket tyder på, at regulatoriske data blev hentet fra et taiwansk markedsdatasæt snarere end det danske/EMA-register. Dette skal rettes, før Danmark-specifikke konklusioner drages.
 
 ---
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-All safety fields in the evidence pack are recorded as data gaps. No warnings, contraindications, or drug–drug interaction data are available for evaluation within this pack.
+Alle sikkerhedsfelter i evidenspakken er registreret som datakløfter. Ingen advarsels-, kontraindikations- eller medicin–medicin-interaktionsdata er tilgængelige til evaluering inden for denne pakke.
 
-> Please refer to the approved Summary of Product Characteristics (SmPC) for all darbepoetin alfa-containing products for full safety information.
+> Venligst se den godkendte Produktinformationsbog (SmPC) for alle darbepoetin alfa-indeholdende produkter for fuldstændig sikkerhedsinformation.
 
-Key safety areas that should be reviewed in the SmPC prior to any repurposing evaluation include:
+Vigtige sikkerhedsområder, der bør gennemgås i SmPC før enhver genbrugsevaluering, inkluderer:
 
-- **Cardiovascular risk**: Thromboembolic events and increased mortality have been reported when ESAs were used to target haemoglobin levels above the approved range
-- **Tumour progression**: EPOR is expressed on some tumour cell lines; ESA use in oncology settings requires careful benefit–risk assessment
-- **Pure red cell aplasia (PRCA)**: Rare but serious immunogenicity-related adverse event; neutralising anti-erythropoietin antibodies
-- **Hypertension**: New-onset or worsening hypertension is a known class effect
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN pipeline returned no repurposing candidates for this drug, and two unresolved data gaps — one blocking and one high-severity — prevent any meaningful safety or mechanistic evaluation. No report section can be completed based solely on the current evidence pack.
-
-**To proceed, the following is needed:**
-
-1. **Resolve DG001 (Blocking)** — Retrieve and parse the applicable SmPC (EMA SmPC for Aranesp® recommended) to extract warnings, contraindications, and special populations data
-2. **Resolve DG002 (High)** — Query the DrugBank API (`DB00012`) for mechanism of action, primary targets (EPOR, JAK2), and pharmacological class
-3. **Correct the regulatory data source** — Replace the `TW-` Taiwan regulatory data with data sourced from the EMA/Laegemiddelstyrelsen register; populate `total_licenses` and `licenses` accordingly
-4. **Populate `original_indications`** — Add the internationally recognised indications so the prediction pipeline can use them as graph anchors
-5. **Re-run the TxGNN prediction pipeline** — Once MOA and indication data are populated, re-execute both the KG and DL prediction steps to generate ranked candidate indications
-6. **Re-evaluate** — A full L1–L5 evidence assessment, clinical trial table, and literature review can only be completed once at least one prediction candidate is returned
+- **Kardiovaskulær risiko**: Tromboemboliske begivenheder og øget dødelighed er blevet rapporteret, når ESA'er blev brugt til at målsætte hæmoglobinniveauer over det godkendte område
+- **Tumorprogrediering**: EPOR udtrykkes på nogle tumorcellelinjer; ESA-brug i onkologiske indstillinger kræver omhyggelig nytte–risiko-vurdering
+- **Ren rød celle aplasi (PRCA)**: Sjælden men alvorlig immunrelateret bivirkning; neutraliserende anti-erythropoietin antistof
+- **Hypertension**: Nyopdukket eller forværret hypertension er en kendt klasseffekt
 
 ---
 
-*This report was generated on 2026-04-05. Results are for research purposes only and do not constitute medical advice. Any repurposing candidate must undergo clinical validation before application.*
+## Konklusion og næste trin
+
+**Afgørelse: Hold**
+
+**Begrundelse:**
+TxGNN-pipelinen returnerede ingen genbrugskandidater for dette lægemiddel, og to uløste datakløfter — en blokering og en høj-alvorlighedsgrad — forhindrer enhver meningsfuld sikkerhed- eller mekanistisk evaluering. Ingen rapportsektioner kan fuldføres baseret udelukkende på den aktuelle evidenspakke.
+
+**For at fortsætte kræves følgende:**
+
+1. **Løs DG001 (Blokering)** — Hent og parse den gældende Produktinformationsbog (EMA Produktinformationsbog for Aranesp® anbefales) for at udvinde advarsler, kontraindikationer og data om specialpopulationer
+2. **Løs DG002 (Høj)** — Søg i DrugBank API (`DB00012`) for handlingsmekanisme, primære mål (EPOR, JAK2) og farmakologisk klasse
+3. **Ret regulatoriske datakilde** — Erstat `TW-` taiwanske regulatoriske data med data hentet fra EMA/Lægemiddelstyrelses-registeret; udfyld `total_licenses` og `licenses` tilsvarende
+4. **Udfyld `original_indications`** — Tilføj de internationalt anerkendte indikationer, så prognose-pipelinen kan bruge dem som grafanker
+5. **Kør TxGNN-prognose-pipelinen igen** — Når MOA- og indikationsdata er udfyldt, genexekver både KG- og DL-prognosestrin for at generere rangerede kandidatindikationer
+6. **Genovervej** — En fuldstændig L1–L5-evidensvurdering, klinisk forsøgstabel og litteraturgennemgang kan kun fuldføres, når mindst en prognosekandidater returneres
+
+---
+
+*Denne rapport blev genereret den 2026-04-05. Resultaterne er til forskningsformål alene og udgør ikke medicinsk rådgivning. Enhver genbrugskandidater skal gennemgå klinisk validering før brug.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

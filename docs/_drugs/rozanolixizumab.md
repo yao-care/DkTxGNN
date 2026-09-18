@@ -29,74 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rozanolixizumab: From IgG-Mediated Autoimmune Disease to Bronchitis (Investigational)
+# Rozanolixizumab: Fra IgG-medieret autoimmun sygdom til bronkitis (undersøgelse)
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Rozanolixizumab is an anti-FcRn monoclonal antibody; the formal approved-indication record is a **data gap** in this evidence pack, though supporting rationale text indicates it was developed for IgG-mediated autoimmune conditions (e.g. generalized myasthenia gravis, ITP, CIDP). The TxGNN model's top-ranked prediction is **Bronchitis**, but this is a knowledge-graph-only prediction with **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale argues the biological link is weak — possibly even directionally opposite to benefit.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented (data gap — no approved indication text on file) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 95.28% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Rozanolixizumab er et anti-FcRn monoklonalt antistof; dokumentationen for den formelt godkendte indikation er **manglende** i denne bevispapper, selvom understøttende rationale-tekst indikerer, at det blev udviklet til IgG-medierede autoimmune tilstande (f.eks. generaliseret myasthenia gravis, ITP, CIDP). TxGNN-modellens bedst rangerede forudsigelse er **Bronkitis**, men dette er en udelukkende på vidensgrafen baseret forudsigelse med **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske rationale argumenterer for, at det biologiske link er svagt — muligvis endda modsatrettet til gavnlig virkning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism-of-action data is not available in the structured record (`original_moa`: data gap). Based on the repurposing rationale supplied alongside the predictions, Rozanolixizumab is an anti-neonatal Fc receptor (FcRn) monoclonal antibody that blocks FcRn-mediated IgG recycling, thereby lowering circulating IgG concentrations. Its design target appears to be IgG-mediated autoimmune diseases such as generalized myasthenia gravis (gMG), immune thrombocytopenia (ITP), and chronic inflammatory demyelinating polyneuropathy (CIDP).
-
-For the top-ranked predicted indication, **Bronchitis**, the evidence pack's own mechanistic analysis does **not** support plausibility: bronchitis is primarily driven by infection or airway irritants, with no known pathophysiological connection to the FcRn/IgG recycling pathway. Because anti-FcRn therapy lowers protective IgG levels, it could theoretically *increase* susceptibility to respiratory infection rather than treat it — a direction opposite to therapeutic benefit. The high TxGNN score most likely reflects proximity within the knowledge graph rather than genuine biological plausibility.
-
-The other candidates in this batch (plasma cell myeloma, indolent plasma cell myeloma, hemoglobinopathy, gastric carcinoma) are similarly flagged in their own rationale text as indirect, unvalidated, or mechanistically unrelated associations — none are supported by any clinical or preclinical data in this pack. Overall, this is a screening-stage signal only, not a candidate ready for further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Ikke dokumenteret (datamangler — ingen godkendt indikationstekst på fil) |
+| Forudsagt ny indikation | Bronkitis |
+| TxGNN forudsigelsesscore | 95.28% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afventende |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i den strukturerede post (`original_moa`: datamangler). Baseret på det rationale for omformål, der er tilvejebragt sammen med forudsigelserne, er Rozanolixizumab et monoklonalt antistof mod neonatale Fc-receptor (FcRn), der blokerer FcRn-medieret IgG-genbrug og derved sænker de cirkulerende IgG-koncentrationer. Dets tilsigtede sygdomme er IgG-medierede autoimmune tilstande såsom generaliseret myasthenia gravis (gMG), immun trombocytopeni (ITP) og kronisk inflammatorisk demyeliniserende polyneuropati (CIDP).
 
----
+For den bedst rangerede forudsagt indikation, **Bronkitis**, understøtter bevispapperets egen mekanistiske analyse **ikke** biologisk plausibilitet: bronkitis skyldes primært infektion eller luftvejsirritation, uden kendt patofysiologisk sammenhæng med FcRn/IgG-genbrugsstien. Fordi anti-FcRn-terapi sænker beskyttende IgG-niveauer, kunne det teoretisk *øge* modtageligheden for luftvejsinfektioner snarere end at behandle bronkitis — en virkning modsat terapeutisk fordel. TxGNN-scoren afspejler mest sandsynligt nærhed inden for vidensgrafen snarere end egentlig biologisk plausibilitet.
 
-## Denmark Market Information
-
-Rozanolixizumab currently holds **no marketing authorisation** in Denmark (0 licenses on file; market status: Not Marketed).
+De øvrige kandidater i denne batch (plasmacelle-myelom, indolent plasmacelle-myelom, hemoglobinopati, mavekræft) beskrives i deres eget rationale som indirekte, uvaliderede eller mekanistisk urelaterede associationer — ingen understøttes af kliniske eller præ-kliniske data i denne pakke. Samlet set er dette blot et screenings-stadie signal, ikke en kandidat klar til yderligere evaluering.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. Note: TFDA/SmPC warnings and contraindications data could not be retrieved for this evaluation (blocking data gap — DG001), and no drug-drug interaction records were found.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relevant litteratur
+
+---
+
+## Information om det danske marked
+
+Rozanolixizumab har i øjeblikket **ingen markedsføringstilladelse** i Danmark (0 licenser på fil; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Bemærk: TFDA/SmPC-advarsler og kontraindikationsdata kunne ikke hentes til denne evaluering (blokerende datamangler — DG001), og ingen registreringer af lægemiddel-lægemiddel-interaktioner blev fundet.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afventende**
 
 **Rationale:**
-- The top prediction (Bronchitis) has zero supporting clinical trials or literature, and the model's own mechanistic rationale argues against biological plausibility. Combined with the drug's unmarketed status in Denmark and a blocking gap in safety/label data, there is no basis to proceed at this time.
+- Den bedst rangerede forudsigelse (Bronkitis) har intet understøttende bevis fra kliniske forsøg eller litteratur, og modellens egen mekanistiske rationale argumenterer imod biologisk plausibilitet. Kombineret med medicinerets manglende markedstering i Danmark og en blokerende datamangler i sikkerhed og etiket-data, er der intet grundlag for at fortsætte i øjeblikket.
 
-**To proceed, the following is needed:**
-- TFDA/SmPC-equivalent warnings, contraindications, and prescribing information (currently blocking — DG001)
-- Confirmed mechanism of action and original approved indication from a primary regulatory or DrugBank source (DG002)
-- Independent mechanistic or preclinical validation of any candidate indication before further evidence collection
-- Ongoing monitoring for new clinical trial registrations or publications on Rozanolixizumab across the candidate indications listed
+**For at fortsætte kræves følgende:**
+- TFDA/SmPC-tilsvarende advarsler, kontraindikationer og ordinationsinformation (i øjeblikket blokerende — DG001)
+- Bekræftet virkningsmekanisme og oprindelig godkendt indikation fra en primær regulatorisk eller DrugBank-kilde (DG002)
+- Uafhængig mekanistisk eller præ-klinisk validering af enhver kandidatindikation før yderligere bevisindsamling
+- Løbende overvågning for nye kliniske forsøgsregistreringer eller publikationer om Rozanolixizumab på tværs af de anførte kandidatindikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

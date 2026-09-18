@@ -29,91 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mitomycin: From Solid Tumours to Osteoclastic Giant Cell Tumour of Pancreas
+# Mitomycin: Fra solide tumorer til osteoclastisk gigantcelletumor i pancreas
 
-## One-Sentence Summary
+## Sammendrag på en sætning
 
-Mitomycin (DB00305) is a cytotoxic antibiotic with established antineoplastic activity, historically used as part of combination chemotherapy regimens for gastric cancer, bladder cancer, and other solid tumours, though no approved indication data is available from Danish regulatory records.
-The TxGNN model predicts it may be effective for **Osteoclastic Giant Cell Tumour of Pancreas**, an exceptionally rare pancreatic malignancy accounting for less than 1% of all pancreatic cancers.
-There are currently **0 clinical trials** and **0 publications** specifically supporting this indication, placing the evidence at **Level L5** (model prediction only).
+Mitomycin (DB00305) er et cytotoksisk antibiotikum med etableret antineoplastisk aktivitet, historisk brugt som del af kombinationskemoterapi-regimer til mavekræft, blærekræft og andre solide tumorer, selvom der ikke er tilgængelige godkendte indikationsdata fra danske regulatoriske optegnelser.
+TxGNN-modellen forudsiger, at det kan være effektivt for **osteoclastisk gigantcelletumor i pancreas**, en ekstraordinært sjælden pankreaskræft, der udgør mindre end 1 % af alle pankreaskræfter.
+Der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, som specifikt understøtter denne indikation, hvilket placerer bevisen på **niveau L5** (kun modelforudsigelse).
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | No approved indication data available (not registered in Denmark) |
-| Predicted New Indication | Osteoclastic Giant Cell Tumour of Pancreas |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ingen godkendte indikationsdata tilgængelige (ikke registreret i Danmark) |
+| Forudsagt ny indikation | Osteoclastisk gigantcelletumor i pancreas |
+| TxGNN-forudsigelsesscore | 99.86% |
+| Bevisniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on known pharmacological information, Mitomycin C is a cytotoxic alkylating antibiotic derived from *Streptomyces caespitosus*. It acts as a DNA cross-linking agent — forming covalent interstrand crosslinks that inhibit DNA replication and transcription, ultimately triggering cell death preferentially in rapidly dividing tumour cells. Tumours with defects in DNA damage repair pathways (e.g., BRCA2 mutations) are theoretically more susceptible to this class of agent.
+For øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i dette datasæt. Baseret på kendt farmakologisk information er Mitomycin C et cytotoksisk alkylerende antibiotikum afledt fra *Streptomyces caespitosus*. Det virker som en DNA-tværbindingsagent — der danner kovalente intertråds-tværbindinger, som hæmmer DNA-replikation og transkription, og udløser celledød særligt i hurtigt-delte tumorceller. Tumorer med defekter i DNA-skadereparaturveje (f.eks. BRCA2-mutationer) er teoretisk mere modtagelige for denne klasse agent.
 
-Osteoclastic giant cell tumour of the pancreas is an extremely rare biphasic neoplasm characterised by pleomorphic mononuclear neoplastic cells intermingled with non-neoplastic osteoclast-like giant cells. The theoretical basis for Mitomycin activity rests on the sensitivity of the pancreatic tumour cell component to DNA cross-linking, analogous to mechanisms exploited in other gastrointestinal malignancies. Historically, Mitomycin featured in the FAM regimen (5-FU + Adriamycin + Mitomycin) for gastric and pancreatic adenocarcinoma, providing an indirect mechanistic link to pancreatic cancer biology.
+Osteoclastisk gigantcelletumor i pancreas er en ekstraordinært sjælden bifasisk neoplasme karakteriseret ved pleomorfe mononukleære neoplasmaceller sammenblandede med ikke-neoplastiske osteoclast-lignende gigantceller. Det teoretiske grundlag for Mitomycin-aktivitet hviler på følsomheden af pankreastumorcellekomponenten over for DNA-tværbinding, analogt med mekanismer, som udnyttes i andre gastrointestinale malignitter. Historisk set indgik Mitomycin i FAM-regimen (5-FU + Adriamycin + Mitomycin) til mavekræft og pankreasadenokarcinom, hvilket giver en indirekte mekanistisk forbindelse til pankreaskræftbiologi.
 
-However, the biological behaviour of osteoclastic giant cell tumour differs substantially from conventional pancreatic adenocarcinoma, and no clinical or preclinical evidence currently exists for Mitomycin in this specific subtype. The high TxGNN score likely reflects generalised pancreatic tumour node connectivity within the knowledge graph rather than subtype-specific biological evidence. This prediction should be treated as a starting hypothesis only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Imidlertid adskiller den biologiske opførsel af osteoclastisk gigantcelletumor sig væsentligt fra konventionel pankreasadenokarcinom, og der findes for øjeblikket ingen klinisk eller præklinel evidens for Mitomycin i denne specifikke subtype. Den høje TxGNN-score afspejler sandsynligvis generaliseret forbindelighed blandt pankreastumor-noder i vidensgrafen snarere end subtype-specifik biologisk evidens. Denne forudsigelse bør behandles som blot en startshypotese.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsevidens
 
-Currently no related literature available.
+I øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Cytotoxicity
+## Litteratursevidens
 
-Mitomycin meets the criteria for the antineoplastic classification: it is a conventional cytotoxic chemotherapy agent belonging to the alkylating antibiotic class.
+I øjeblikket ingen relateret litteratur tilgængelig.
 
-| Item | Content |
+---
+
+## Cytotoxicitet
+
+Mitomycin opfylder kriterierne for klassifikationen af antineoplastisk: det er et konventionelt cytotoksisk kemoterapiagent, der tilhører den alkylerende antibiotikklasse.
+
+| Emne | Indhold |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Alkylating antibiotic (Mitomycin class) |
-| Myelosuppression Risk | High — cumulative and characteristically delayed; nadir typically at 3–5 weeks post-dose; thrombocytopenia and leucopenia are the principal dose-limiting toxicities |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count with differential (CBC-diff) and platelet count at frequent intervals; renal function (eGFR, serum creatinine); pulmonary function assessment with cumulative dosing (risk of Mitomycin-associated pulmonary fibrosis and bronchospasm) |
-| Handling Protection | Must comply with cytotoxic drug handling regulations; preparation requires a Class II biological safety cabinet; personnel must use appropriate PPE including gloves, gown, and eye protection |
+| Cytotoxicitetsklassifikation | Konventionel cytotoksisk — Alkylerende antibiotikum (Mitomycin-klasse) |
+| Knoglemarvsundertrykkelsesrisiko | Høj — kumulativ og karakteristisk forsinket; nadir typisk ved 3–5 uger post-dosis; trombocytopeni og leukopeni er de vigtigste dosis-begrænsende toksiciteter |
+| Emetogenicitetsklassifikation | Lav til moderat |
+| Overvågningspunkter | Fuldt blodtælling med differentialantal (CBC-diff) og trombocyttælling ved hyppige intervaller; nyrefunktion (eGFR, serum kreatinin); lungefunktionsvurdering med kumulativ dosering (risiko for Mitomycin-associeret lungefibrose og bronkospasme) |
+| Håndteringsbeskyttelse | Skal overholde cytotoksiske stoffers håndteringsregler; præparation kræver et biologisk sikkerhedskabinet i klasse II; personalet skal bruge passende personligt beskyttelsesudstyr, herunder handsker, kittel og øjebeskyttelse |
 
 ---
 
-## Safety Considerations
+## Sikkerhedsovervejelser
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-Despite a high TxGNN prediction score (99.86%), osteoclastic giant cell tumour of the pancreas is an exceptionally rare malignancy for which there is a complete absence of clinical trials, published literature, and direct mechanistic evidence supporting Mitomycin use; an L5 evidence level is insufficient to advance beyond a theoretical research question.
-
-**To proceed, the following is needed:**
-
-- Mechanism of action data (MOA) from DrugBank or primary pharmacological literature, with particular focus on Mitomycin activity in pancreatic tumour models
-- Broader systematic literature review covering Mitomycin use across all pancreatic cancer subtypes (not restricted to the osteoclastic subtype) to establish an indirect evidence base
-- Case report or case series data specifically documenting chemotherapy outcomes in osteoclastic giant cell tumour of the pancreas
-- Preclinical data (in vitro cell line or in vivo xenograft) demonstrating Mitomycin activity in an osteoclastic giant cell tumour model
-- Full safety and contraindication data retrieved from an approved SmPC (e.g., EMA or national authority) before any clinical application is considered
-- Assessment of Danish regulatory pathway (Laegemiddelstyrelsen / EMA) if development in this indication is ultimately pursued
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.
+## Konklusion og næste trin
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+På trods af en høj TxGNN-forudsigelsesscore (99.86%) er osteoclastisk gigantcelletumor i pancreas en ekstraordinært sjælden malignitet, for hvilken der er fuldstændig mangel på kliniske forsøg, publiceret litteratur og direkte mekanistisk evidens, der understøtter Mitomycin-brug; et L5-bevisniveau er utilstrækkeligt til at gå videre end et teoretisk forskningsspørgsmål.
+
+**For at gå videre er følgende nødvendig:**
+
+- Data om virkningsmekanisme (MOA) fra DrugBank eller primær farmakologisk litteratur, med særlig fokus på Mitomycin-aktivitet i pankreastumormodeller
+- Bredere systematisk litteraturgennemgang, der dækker Mitomycin-brug på tværs af alle pankreaskræftsubtyper (ikke begrænset til osteoclastisk subtypen) for at etablere et indirekte evidensgrundlag
+- Kasuistik eller kasuistikserier-data, som specifikt dokumenterer kemoterapiresultater i osteoclastisk gigantcelletumor i pancreas
+- Præklinel data (in vitro cellinje eller in vivo xenograft) demonstrerer Mitomycin-aktivitet i en osteoclastisk gigantcelletumor-model
+- Fuldstændige sikkerheds- og kontraindikationsdata hentet fra et godkendt produktresumé (f.eks. EMA eller national myndighed), før enhver klinisk applikation overvejes
+- Vurdering af dansk regulatorisk vej (Lægemiddelstyrelsen / EMA), hvis udvikling af denne indikation i sidste ende forfølges
+
+---
+
+> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er kun til forskningsmæssig referenceformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomformålelse kræver klinisk validering, før de anvendes.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

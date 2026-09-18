@@ -29,68 +29,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Argatroban: Drug Repurposing Evaluation — TxGNN Prediction Not Available
+# Argatroban: Vurdering af lægemidlers genbrug — TxGNN-forudsigelse ikke tilgængelig
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Argatroban is a synthetic direct thrombin inhibitor used intravenously for the prophylaxis and treatment of thrombosis in patients with heparin-induced thrombocytopenia (HIT).
-The current Evidence Pack contains **no TxGNN repurposing predictions** for this drug, and critical data including mechanism of action, safety warnings, and contraindications are all absent.
-**A complete repurposing evaluation cannot be produced at this time; this report summarises the data gaps and required next steps.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Thrombosis prophylaxis/treatment in heparin-induced thrombocytopenia (HIT) *(from general knowledge; no regulatory record in dataset)* |
-| Predicted New Indication | Not available — TxGNN returned no candidates |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+Argatroban er en syntetisk direkte trombinhæmmer, der bruges intravenøst til profylakse og behandling af trombose hos patienter med heparin-induceret trombocytopeni (HIT).
+Evidensepakken indeholder **ingen TxGNN-forudsigelser om genbrug** af dette lægemiddel, og kritiske data, herunder virkningsmekanisme, sikkerhedsadvarsler og kontraindikationer, er helt fraværende.
+**En fuldstændig vurdering af genbrug kan ikke produceres på dette tidspunkt; denne rapport opsummerer datamangler og nødvendige næste trin.**
 
 ---
 
-## Why This Evaluation Cannot Proceed
+## Hurtigt overblik
 
-The Evidence Pack for Argatroban (DrugBank ID: DB00278) has two critical structural problems that prevent a standard repurposing evaluation.
-
-**First, the TxGNN prediction pipeline returned zero repurposing candidates.** This is the foundational output the entire report structure depends on. Without at least one predicted indication and an associated score, it is not possible to assess mechanistic plausibility, search for supporting clinical trials, or rate evidence strength.
-
-**Second, all drug-level safety data are absent.** Warnings, contraindications, and drug–drug interactions were either not retrieved or not found during the query run on 26 March 2026. For an anticoagulant drug — a class with a narrow therapeutic window and clinically significant bleeding risk — proceeding without safety data would be irresponsible.
-
-From general pharmacological knowledge, Argatroban is a direct, reversible thrombin inhibitor. It binds the active site of thrombin and blocks thrombin-catalysed reactions including fibrin formation, platelet activation, and activation of coagulation factors V, VIII, and XIII. Unlike heparin, it does not require antithrombin as a cofactor, which makes it the agent of choice when heparin use is contraindicated due to HIT. This mechanistic profile is relevant background for any future repurposing analysis, particularly in thrombotic or inflammatory contexts where thrombin plays a pathological role.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Note for the assessor:** Argatroban (brand name *Argatra*) holds a centralised EMA marketing authorisation in the European Union. The EMA SmPC is publicly available at the European Medicines Agency product pages and should be used as the primary safety reference while the TFDA/Danish national data gap is resolved.
+| Punkt | Indhold |
+|-------|---------|
+| Oprindelig indikation | Trombose-profylakse/behandling ved heparin-induceret trombocytopeni (HIT) *(fra almenkendt viden; ingen regulatorisk registrering i datasættet)* |
+| Forudsagt ny indikation | Ikke tilgængelig — TxGNN returnerede ingen kandidater |
+| TxGNN-forudsigelsesscore | Ikke tilgængelig |
+| Bevisniveau | Ikke vurderbar |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | **Afvent** |
 
 ---
 
-## Conclusion and Next Steps
+## Hvorfor denne vurdering ikke kan fortsætte
 
-**Decision: Hold**
+Evidensepakken for Argatroban (DrugBank ID: DB00278) har to kritiske strukturelle problemer, der forhindrer en standardvurdering af genbrug.
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — no TxGNN predictions were generated and all safety fields are missing — making it impossible to produce a valid repurposing evaluation or safety assessment. Proceeding to clinical consideration without this data would not meet the minimum evidence threshold.
+**Først returnerede TxGNN-forudsigelsespipeline nul genbrugskandidater.** Dette er det grundlæggende output, som hele rapportstrukturen afhænger af. Uden mindst én forudsagt indikation og en tilhørende score er det ikke muligt at vurdere mekanistisk plausibilitet, søge efter understøttende kliniske forsøg eller vurdere bevisstyrke.
 
-**To proceed, the following is needed:**
+**For det andet er alle lægemiddelniveau-sikkerhedsdata fraværende.** Advarsler, kontraindikationer og lægemiddel–lægemiddelinteraktioner blev enten ikke hentet eller ikke fundet under søgekørslen den 26. marts 2026. For et antikoagulans-lægemiddel — en klasse med et snævert terapeutisk vindue og klinisk signifikant blødningsrisiko — ville det være uansvarligt at fortsætte uden sikkerhedsdata.
 
-- **[Blocking]** Re-run the TxGNN prediction pipeline for DB00278 and confirm Argatroban is present and correctly mapped in the knowledge graph; verify the drug–disease candidate list was not inadvertently filtered out
-- **[High]** Retrieve mechanism of action (MOA) data via the DrugBank API for DB00278
-- **[High]** Download and parse the EMA *Argatra* SmPC (or the Danish national product information if available) to populate warnings, contraindications, and special precautions
-- **[Medium]** Verify Argatroban's registration status with the Danish Medicines Agency (Lægemiddelstyrelsen); note that centralised EMA-authorised products are legally available in all EU/EEA member states even without a national marketing authorisation record
-- **[Follow-up]** Once TxGNN predictions are available, run standard clinical trial (ClinicalTrials.gov, EudraCT) and literature (PubMed) evidence collection for each candidate indication
+Fra generel farmakologisk viden er Argatroban en direkte, reversibel trombinhæmmer. Den binder det aktive sted på trombin og blokerer trombinkatalyse-reaktioner, herunder fibrinformation, blodpladeaktivering og aktivering af koagulationsfaktorer V, VIII og XIII. I modsætning til heparin kræver den ikke antitrombin som en kofaktor, hvilket gør den til det foretrukne lægemiddel, når heparinbrug er kontraindiceret på grund af HIT. Dette mekanistiske profil er relevant baggrundsviden for enhver fremtidig genbrugs-analyse, især i trombotiske eller inflammatoriske sammenhænge, hvor trombin spiller en patologisk rolle.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. This document was produced under the TxGNN Drug Repurposing Research Programme (Evidence Pack v4, data cut-off: 2026-04-04).*
+## Sikkerhedsmæssige overvejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+> **Bemærk for vurdereren:** Argatroban (varemærke *Argatra*) har en centraliseret EMA-markedsføringstilladelse i Den Europæiske Union. EMA-produktresumé er offentligt tilgængeligt på De Europæiske Lægemidlers Agenturs produktsider og bør bruges som den primære sikkerhedsreference, mens datamangler fra TFDA/Danmark løses.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Evidensepakken er strukturelt ufuldstændig — ingen TxGNN-forudsigelser blev genereret, og alle sikkerhedsfelter mangler — hvilket gør det umuligt at producere en valid genbrugsvurdering eller sikkerhedsvurdering. At fortsætte til klinisk overvejelse uden disse data ville ikke opfylde minimumbevisstandarden.
+
+**For at fortsætte kræves følgende:**
+
+- **[Blokerende]** Genkør TxGNN-forudsigelsespipeline for DB00278 og bekræft, at Argatroban er til stede og korrekt mappet i vidensgrafen; verificer, at lægemiddel–sygdom-kandidatlisten ikke blev utilsigtet filtreret ud
+- **[Høj]** Hent virkningsmekanisme (MOA) data via DrugBank API for DB00278
+- **[Høj]** Download og parse EMA *Argatra* SmPC (eller de danske nationale produktoplysninger, hvis tilgængelige) for at udfylde advarsler, kontraindikationer og særlige forholdsregler
+- **[Medium]** Verificer Argatrobans registreringsstatus hos Lægemiddelstyrelsen; bemærk, at centraliseret EMA-godkendte produkter er juridisk tilgængelige i alle EU/EØS-medlemsstater, selv uden en national markedsføringstilladelelsesregistrering
+- **[Opfølgning]** Når TxGNN-forudsigelser er tilgængelige, skal man gennemføre bevisindsamling fra standard kliniske forsøg (ClinicalTrials.gov, EudraCT) og litteratur (PubMed) for hver kandidatindikation
+
+---
+
+*Denne rapport genereres kun til forskningsformål og udgør ikke medicinsk rådgivning. Alle kandidater til lægemiddel-genbrug kræver klinisk validering før anvendelse. Dette dokument blev produceret under TxGNN Drug Repurposing Research Programme (Evidence Pack v4, dataskæring: 2026-04-04).*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

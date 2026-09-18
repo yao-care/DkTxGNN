@@ -29,84 +29,85 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alteplase: From Acute Thrombotic Events to Posterolateral Myocardial Infarction
+# Alteplase: Fra akutte trombotiske begivenheder til posterolateral myokardieinfarkt
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Alteplase is a recombinant tissue plasminogen activator (rt-PA) established as a thrombolytic agent in acute thrombotic events, including ischaemic stroke, acute myocardial infarction, and pulmonary embolism.
-The TxGNN model predicts it may be effective for **Posterolateral Myocardial Infarction** — an anatomical subtype of acute MI caused primarily by left circumflex artery (LCx) or right coronary artery (RCA) occlusion —
-with **0 clinical trials** and **3 publications** currently supporting this specific anatomical subtype as a distinct indication.
+Alteplase er en rekombinant væv-plasminogenaktivator (rt-PA), der er etableret som et trombolitisk middel ved akutte trombotiske begivenheder, herunder iskæmisk apopleksi, akut myokardieinfarkt og lungeemboli.
+TxGNN-modellen forudsiger, at det kan være effektivt til **Posterolateral myokardieinfarkt** — en anatomisk subtype af akut MI, der primært er forårsaget af okklusion af venstre circumflex-arterie (LCx) eller højre coronararterie (RCA) —
+med **0 kliniske forsøg** og **3 publikationer**, der i øjeblikket understøtter denne specifikke anatomiske subtype som en særskilt indikation.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Not recorded in the Danish national registry (no approved indication text available in current dataset) |
-| Predicted New Indication | Posterolateral Myocardial Infarction |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L3 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikation | Ikke registreret i det danske nationale register (ingen godkendt indikationstekst tilgængelig i det nuværende datasæt) |
+| Forudsagt ny indikation | Posterolateral myokardieinfarkt |
+| TxGNN-forudsigelsesscore | 99.79% |
+| Bevisniveau | L3 |
+| Markeds status i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikringsmekanismer |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detailed mechanism of action data is not available in the structured fields for this evidence pack. Based on established pharmacology, Alteplase is a recombinant tissue-type plasminogen activator (rt-PA) that selectively binds to fibrin within a thrombus and catalyses the conversion of plasminogen to plasmin. Plasmin then degrades the fibrin matrix of the clot, re-establishing coronary arterial perfusion. This action is clot-selective under physiological conditions, meaning it operates preferentially at the site of occlusion rather than causing systemic fibrinogenolysis at therapeutic doses.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de strukturerede felter for denne bevismappe. Baseret på etableret farmakologi er alteplase en rekombinant væv-type plasminogenaktivator (rt-PA), der selektivt bindes til fibrin inden for en trombus og katalyserer omdannelsen af plasminogen til plasmin. Plasmin nedbryder derefter fibrinmatricen i blodproppen og genitablerer koronarperfusion. Denne virkning er selektiv for klot under fysiologiske forhold, hvilket betyder, at den fungerer præferentielt på okklusions-stedet snarere end at forårsage systemisk fibrinogenolyse ved terapeutiske doser.
 
-Posterolateral myocardial infarction is caused by thrombotic occlusion of the left circumflex artery (LCx) or the posterolateral branches of the RCA. The underlying pathophysiology — a fibrin-rich occlusive coronary thrombus — is structurally identical to the target of Alteplase in all anatomical MI subtypes. The TxGNN prediction therefore reflects a mechanistically direct and highly plausible extension of Alteplase's established fibrinolytic action to this anatomical territory. Posterolateral MI represents a recognised anatomical variant of acute MI rather than a biologically distinct disease process, making the mechanistic link particularly robust.
+Posterolateral myokardieinfarkt er forårsaget af trombot okklusion af venstre circumflex-arterie (LCx) eller de posterolaterale grene af RCA. Den underliggende patofysiologi — en fibrinrig okkluksiv coronar trombus — er strukturelt identisk med målet for alteplase i alle anatomiske MI-subtyper. TxGNN-forudsigelsen afspejler således en mekanistisk direkte og meget plausibel udvidelse af alteplasets etablerede fibrinolytiske virkning til dette anatomiske område. Posterolateral MI repræsenterer en anerkendt anatomisk variant af akut MI snarere end en biologisk distinkt sygdomsproces, hvilket gør det mekanistiske link særligt robust.
 
-Supporting evidence includes a 1998 observational study (PMID 9502627) that specifically investigated whether posterior lead ST-elevation (V7–V9) during inferior MI identifies patients with concomitant posterior infarction who derive greater benefit from thrombolysis — directly linking this subtype to thrombolytic candidate selection. The broader TAMI-1 Phase 2/3 RCT (PMID 2521226) demonstrated rt-PA efficacy across different infarct territories including LCx and RCA distributions, with 90-minute patency rates of 68% for both the left circumflex and right coronary arteries after 150 mg rt-PA. The primary evidentiary gap remains the absence of a dedicated randomised controlled trial with posterolateral MI as a pre-specified primary endpoint.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for posterolateral myocardial infarction.
+Understøttende evidens inkluderer en observationsstudie fra 1998 (PMID 9502627), der specifikt undersøgte, om posteriore lead ST-elevation (V7–V9) under inferior MI identificerer patienter med samtidsforekommende posterior infarktion, som får større fordel af trombolitisk terapi — direkte linking denne subtype til trombolitisk kandidat-udvalg. Det bredere TAMI-1 Phase 2/3 RCT (PMID 2521226) demonstrerede rt-PA-effektivitet på tværs af forskellige infarkt-territorier, herunder LCx- og RCA-fordelinger, med 90-minutters patency-rater på 68% for både venstre circumflex- og højre coronar-arterier efter 150 mg rt-PA. Det primære bevismæssige hul er fortsat fraværet af et dedikeret randomiseret kontrolforsøg med posterolateral MI som et forudspecificeret primært endepunkt.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøgsevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for posterolateral myokardieinfarkt.
+
+---
+
+## Litteraturevidence
+
+| PMID | År | Type | Journal | Vigtige fund |
 |------|------|------|---------|--------------|
-| [9502627](https://pubmed.ncbi.nlm.nih.gov/9502627/) | 1998 | Observational (Diagnostic) | Journal of the American College of Cardiology | ST-segment elevation in posterior leads (V7–V9) during acute inferior MI identifies concomitant posterior infarction; these patients may benefit more from thrombolytic therapy |
-| [8480981](https://pubmed.ncbi.nlm.nih.gov/8480981/) | 1993 | Case Series | Annales de cardiologie et d'angeiologie | Cerebral embolism with rapid resolution during late tPA fibrinolysis in a patient with posterolateral MI; reviews fibrinolytic effects on left intraventricular thrombi and highlights systemic embolism risk |
-| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | Case Report | Catheterization and Cardiovascular Interventions | Primary PCI with mini-crush drug-eluting stents facilitated by intracoronary reteplase in a 37-year-old with posterolateral acute MI and borderline haemodynamics; LV ejection fraction 30% with posterior/lateral/apical akinesis |
+| [9502627](https://pubmed.ncbi.nlm.nih.gov/9502627/) | 1998 | Observationsstudie (Diagnostisk) | Journal of the American College of Cardiology | ST-segment elevation i posteriore leads (V7–V9) under akut inferior MI identificerer samtidig posterior infarktion; disse patienter kan få større gavn af trombolitisk terapi |
+| [8480981](https://pubmed.ncbi.nlm.nih.gov/8480981/) | 1993 | Kasseserie | Annales de cardiologie et d'angeiologie | Cerebral embolisme med hurtig resolution under sen tPA-fibrinolyse hos en patient med posterolateral MI; gennemgår fibrinolytiske virkninger på venstre intraventricular thrombi og fremhæver systemisk embolisme-risiko |
+| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | Caserapport | Catheterization and Cardiovascular Interventions | Primær PCI med mini-crush lægemiddel-frigivende stentt faciliteret af intrakoronar reteplase hos en 37-årig med posterolateral akut MI og grænsehæmodynamik; LV-udstødningsfraktion 30% med posterior/lateral/apical akinesie |
 
 ---
 
-## Denmark Market Information
+## Markedsinformationer for Danmark
 
-No marketing authorisations for Alteplase are currently recorded in the Danish national registry (Laegemiddelstyrelsen). This dataset reflects national registrations only.
+Der er i øjeblikket ingen markedsføringstilladelser for alteplase registreret i det danske nationale register (Laegemiddelstyrelsen). Dette datasæt afspejler kun nationale registreringer.
 
-> **Note for clinical teams:** Alteplase (brand name Actilyse) holds a valid centralised EMA marketing authorisation applicable across all EU member states including Denmark. The approved indications under EMA centralised authorisation include acute ischaemic stroke, acute myocardial infarction (STEMI), and acute massive pulmonary embolism. Healthcare professionals should verify current approved indications and availability via the [EMA product database](https://www.ema.europa.eu) or the Laegemiddelstyrelsen's medicinal product portal before clinical use.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+> **Bemærkning for kliniske teams:** Alteplase (handelsnavn Actilyse) har en gyldig centraliseret EMA-markedsføringstilladelse gældende for alle EU-medlemsstater, herunder Danmark. De godkendte indikationer under EMA-centraliseret autorisation omfatter akut iskæmisk apopleksi, akut myokardieinfarkt (STEMI) og akut massiv lungeemboli. Sundhedsfaglige fagpersoner bør verificere nuværende godkendte indikationer og tilgængelighed via [EMA's produktdatabase](https://www.ema.europa.eu) eller Laegemiddelstyrelses portal for lægemidler før klinisk brug.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedshensyn
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformationer.
 
-**Rationale:**
-Alteplase's thrombolytic mechanism directly targets the same coronary thrombus pathophysiology underlying posterolateral MI as in all other acute MI subtypes, making the mechanistic basis for efficacy highly robust. Observational and case-level evidence supports the historical use of thrombolysis in posterior MI territory, though no dedicated RCT with posterolateral MI as the primary endpoint has been identified.
+---
 
-**To proceed, the following is needed:**
+## Konklusion og næste trin
 
-- Retrieval and full review of the SmPC for Actilyse (EMA centralised authorisation EU/1/95/003/001) to complete safety, contraindication, and drug interaction evaluation — this is currently a blocking data gap
-- Clarification of whether posterolateral MI is already covered under the broad acute STEMI indication in the current EMA-approved label (which would reclassify this from repurposing to label clarification)
-- Subgroup outcome data from landmark thrombolysis trials (GUSTO, TAMI) specifically examining posterolateral/LCx territory MI to strengthen the quantitative evidence base
-- Structured assessment against current ESC guidelines on thrombolysis versus primary PCI for posterior STEMI in the Danish clinical pathway context, particularly given the widespread availability of primary PCI in Denmark
-- Update of the MOA field from DrugBank (DB00009) to complete the structured evidence pack
+**Beslutning: Fortsæt med sikringsmekanismer**
+
+**Begrundelse:**
+Alteplasets trombolitiske mekanisme retter sig direkte mod den samme koronar trombus-patofysiologi, der ligger til grund for posterolateral MI som ved alle andre akutte MI-subtyper, hvilket gør det mekanistiske grundlag for effektivitet meget robust. Observationelle og casestudier-beviser understøtter den historiske brug af trombolitisk terapi i posterior MI-område, selvom der ikke er identificeret et dedikeret RCT med posterolateral MI som det primære endepunkt.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- Hentning og fuldstændig gennemgang af produktinformationsbladet for Actilyse (EMA centraliseret tilladelse EU/1/95/003/001) for at gennemføre sikkerhed, kontraindikation og lægemiddel-interaktions-evaluering — dette er i øjeblikket en blokerende datakløft
+- Præcisering af, hvorvidt posterolateral MI allerede er dækket af den brede akut STEMI-indikation i det nuværende EMA-godkendte etikette (som ville omklassificere dette fra genbrug af lægemiddel til etikette-præcisering)
+- Undergrupperesultater fra landmærke-trombolitiske forsøg (GUSTO, TAMI), der specifikt undersøger posterolateral/LCx område MI for at styrke det kvantitative bevisgrundlag
+- Struktureret vurdering mod nuværende ESC-retningslinjer om trombolitisk terapi versus primær PCI for posterior STEMI i den danske kliniske vej-kontekst, særligt givet den udbredte tilgængelighed af primær PCI i Danmark
+- Opdatering af MOA-feltet fra DrugBank (DB00009) for at gennemføre den strukturerede bevismappe
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

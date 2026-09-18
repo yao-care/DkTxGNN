@@ -29,59 +29,60 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lecanemab: From Alzheimer's Disease to Diabetic Cataract
+# Lecanemab: Fra Alzheimers sygdom til diabetisk katarakt
 
-## One-Sentence Summary
+## Resumé på en sætning
 
-Lecanemab is a monoclonal antibody targeting amyloid-beta protofibrils, originally developed for Alzheimer's disease. The TxGNN model predicts it may be effective for **diabetic cataract**, but currently **0 clinical trials** and **0 publications** support this direction — the prediction rests on model output alone.
+Lecanemab er et monoklonalt antistof rettet mod amyloid-beta protofibril'er, oprindeligt udviklet til Alzheimers sygdom. TxGNN-modellen forudsiger, at det kan være effektivt til **diabetisk katarakt**, men i øjeblikket understøtter **0 kliniske forsøg** og **0 publikationer** denne retning — forudsigelsen hviler udelukkende på modeloutput.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Alzheimer's disease (amyloid-beta clearance; not recorded as a formal Danish-approved indication text since the drug is not marketed here) |
-| Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 98.48% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Post | Indhold |
+|------|---------|
+| Oprindelig indikation | Alzheimers sygdom (amyloid-beta clearance; ikke registreret som en formel dansk-godkendt indikationstekst, da lægemidlet ikke markedsføres her) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-prognose-score | 98.48% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-A formal, structured mechanism-of-action record is not available in DrugBank for this entry. However, the model's own rationale describes the mechanism: Lecanemab is a humanized monoclonal antibody that binds soluble amyloid-beta (Aβ) protofibrils, promoting their clearance from the brain — its established role is reducing Aβ aggregate burden in Alzheimer's disease.
+En formel, struktureret virkningsmekanisme-register er ikke tilgængelig i DrugBank for denne post. Modellens egen begrundelse beskriver imidlertid mekanismen: Lecanemab er et humaniseret monoklonalt antistof, der binder opløseligt amyloid-beta (Aβ) protofibril'er, hvilket fremmer deres clearance fra hjernen — dets etablerede rolle er at reducere Aβ-aggregatbelastning ved Alzheimers sygdom.
 
-The link to diabetic cataract is conceptual rather than direct. Diabetic cataract pathology involves lens crystallin proteins that misfold and aggregate under oxidative stress and glycation, clouding the lens. Both conditions therefore involve "protein misfolding and aggregation," which is likely what drove the similarity signal in TxGNN's knowledge-graph embeddings.
+Forbindelsen til diabetisk katarakt er begrebsmæssig snarere end direkte. Patologien ved diabetisk katarakt omfatter linsekrystalliner, som fejlfoldes og aggregeres under oxidativ stress og glykering, hvilket slører linsen. Begge tilstande involverer således "proteinfejlfoldning og aggregering," hvilket sandsynligvis er det, der drev lighedssignalet i TxGNNs vidensgraf-indlejringer.
 
-This conceptual overlap does not translate into a plausible clinical mechanism. Lecanemab's antibody epitope is specific to the Aβ peptide, structurally unrelated to lens crystallins, so target engagement in the lens is unlikely. Furthermore, Lecanemab is a large-molecule biologic with no established route to cross the blood-aqueous or blood-retinal barrier and reach the lens; no ocular formulation or delivery pathway exists. This should be read as a knowledge-graph similarity-driven hypothesis, not a mechanistically supported prediction.
+Denne begrebsmæssige overlapning oversættes ikke til en plausibel klinisk mekanisme. Lecanemabs antistof-epitop er specifik for Aβ-peptidet, strukturelt uafhængig af linsekrystalliner, så målbinding i linsen er usandsynlig. Desuden er Lecanemab et stort biologisk lægemiddel uden etableret rute til at krydse blod-humor-barrieren eller blod-nethindebarrieren og nå linsen; ingen okular formulering eller leveringsvej eksisterer. Dette bør læses som en vidensgraf-lighedsbaseret hypotese, ikke en mekanistisk understøttet forudsigelse.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Bevis fra litteratur
 
-Currently no related literature available.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Markedsinformation for Danmark
 
-Lecanemab currently has no marketing authorisation in Denmark (market status: not marketed; 0 authorisations on record).
+Lecanemab har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: ikke markedsført; 0 tilladelser registreret).
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug-drug interaction data were found in the queried sources.
+Se venligst den godkendte produktkarakteristika-oversigt (SmPC) for sikkerhedsinformation. Der blev ikke fundet data om lægemiddel-lægemiddel-interaktioner i de forespurgte kilder.
 
-## Conclusion and Next Steps
+## Konklusion og næste trin
 
-**Decision: Hold**
+**Beslutning: Afvente**
 
-**Rationale:**
-The prediction is supported only by a TxGNN similarity score (L5, decision stage S0) with no clinical trials, no literature, and a biologically weak mechanistic rationale — a large-molecule antibody with no plausible route to the lens.
+**Begrundelse:**
+Forudsigelsen understøttes kun af en TxGNN-lighedsscore (L5, beslutningsstadium S0) uden kliniske forsøg, uden litteratur og med en biologisk svag mekanistisk begrundelse — et stort monoklonalt antistof uden plausibel rute til linsen.
 
-**To proceed, the following is needed:**
-- Verified mechanism-of-action data for Lecanemab (DrugBank API or manufacturer SmPC)
-- Danish/EU product label (SmPC) with warnings, contraindications, and DDI data once available
-- Preclinical evidence of ocular biodistribution or target engagement before any further evaluation
+**For at gå videre er følgende nødvendigt:**
+- Verificeret virkningsmekanisme-data for Lecanemab (DrugBank API eller producents SmPC)
+- Dansk/EU-produktmærkat (SmPC) med advarsler, kontraindikationer og DDI-data når tilgængelig
+- Prekliniske beviser for okular biodistribution eller målbinding før yderligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

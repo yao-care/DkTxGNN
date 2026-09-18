@@ -29,86 +29,87 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atenolol: From Hypertension to Posterolateral Myocardial Infarction
+# Atenolol: Fra hypertension til posterolateral myokardieinfarkt
 
-## One-Sentence Summary
+## Ét-sætnings sammenfatning
 
-Atenolol is a selective β1-adrenergic receptor blocker widely used for hypertension and angina pectoris.
-The TxGNN model predicts it may be effective for **Posterolateral Myocardial Infarction**, with **0 registered clinical trials** and **no published literature** directly addressing this specific MI subtype.
-Class-level evidence from the landmark ISIS-1 trial supports beta-blockade broadly in myocardial infarction, but subtype-specific evidence is currently absent.
+Atenolol er en selektiv β1-adrenergisk receptorblokker, der bredt anvendes til hypertension og angina pectoris.
+TxGNN-modellen forudsiger, at det kan være effektivt ved **Posterolateral myokardieinfarkt**, med **0 registrerede kliniske forsøg** og **ingen publiceret litteratur**, der direkte behandler denne specifikke MI-subtype.
+Klassenniveaubevis fra det skelsættende ISIS-1-forsøg understøtter beta-blokade bredt ved myokardieinfarkt, men subtypspecifikt bevis mangler i øjeblikket.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | No approved indication listed in Danish regulatory database |
-| Predicted New Indication | Posterolateral Myocardial Infarction |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Ingen godkendt indikation anført i dansk regulatorisk database |
+| Forudsagt ny indikation | Posterolateral myokardieinfarkt |
+| TxGNN-forudsigelsesscore | 99.87% |
+| Bevisniveau | L4 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Atenolol is a cardioselective β1-adrenergic receptor blocker that reduces heart rate, myocardial contractility, and oxygen demand by competitively inhibiting sympathetic stimulation at cardiac β1 receptors. This class of agent has demonstrated clear mortality benefit in acute MI — most notably in the ISIS-1 trial, which enrolled over 16,000 patients — establishing a strong mechanistic foundation for beta-blockade across ischaemic cardiac presentations.
+I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne bevismappe. Baseret på etableret farmakologi er atenolol en kardioselektiv β1-adrenergisk receptorblokker, der reducerer hjertefrekvensen, myokardkontraktion og iltsforbruget ved konkurrerende hæmning af sympathetisk stimulation ved kardiale β1-receptorer. Denne lægemiddelklasse har vist klar mortalitetsfordel ved akut MI – mest bemærkelsesværdigt i ISIS-1-forsøget, som omfattede over 16.000 patienter – og etablerer dermed et stærkt mekanistisk grundlag for beta-blokade på tværs af iskæmiske kardiale præsentationer.
 
-Posterolateral MI typically results from occlusion of the right coronary artery or the circumflex branch of the left coronary artery, compromising the lateral and posterior walls of the left ventricle. Atenolol's ability to reduce sympathetic tone, limit infarct expansion, and suppress post-infarct ventricular arrhythmias makes it a mechanistically plausible candidate for this anatomical subtype. The high TxGNN prediction score (99.87%) likely reflects this strong mechanistic alignment with established beta-blocker benefits in ischaemic heart disease as a whole.
+Posterolateral MI resulterer typisk fra okklusion af den højre koronararterie eller circumflex-grenen af venstre koronararterie, hvilket kompromitterer de laterale og posteriore væge i venstre ventrikel. Atenolols evne til at reducere sympathetisk tone, begrænse infarktudvidelse og undertrykke post-infarkt ventrikulære arytmier gør det til en mekanistisk plausibel kandidat for denne anatomiske subtype. Den høje TxGNN-forudsigelsesscore (99.87%) afspejler sandsynligvis denne stærke mekanistiske justering med etablerede beta-blokker-fordele ved iskæmisk hjertesygdom som helhed.
 
-A critical safety caveat must be acknowledged: posterolateral MI carries a higher incidence of atrioventricular (AV) nodal conduction disturbance due to right coronary or circumflex involvement. Beta-blockers, including atenolol, can exacerbate AV block in this anatomical context. Careful clinical timing — particularly avoidance in the acute phase when bradycardia or high-degree AV block is present — is therefore essential before any clinical application.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for posterolateral myocardial infarction.
+En kritisk sikkerhedskaveat må anerkendes: posterolateral MI har en højere forekomst af atrioventrikulær (AV) nodal ledningsforstyrrelse på grund af involvering af højre koronar eller circumflex. Beta-blokere, herunder atenolol, kan forværre AV-blok i denne anatomiske kontekst. Omhyggelig klinisk timing – især undvigelse i den akutte fase, når bradykardi eller høj-grads AV-blok er til stede – er derfor vigtig, før nogen klinisk anvendelse.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøg
 
-Currently no related literature available for posterolateral myocardial infarction.
-
-> **Supporting context from closely related indication:** The TxGNN rank 2 prediction — **posteroinferior myocardial infarction** (score 99.87%, evidence level L3, recommendation: Proceed with Guardrails) — identified one relevant controlled study:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | Single-blind Crossover RCT | La Revue de medecine interne | Compared anti-ischaemic activity of atenolol (200 mg) vs diltiazem (240 mg) in 23 patients 4 weeks after limited postero-inferior or anterior MI with residual ischaemia on stress testing; exercise capacity assessed by computerised bicycle ergometer (Case-Marquette system) under placebo and randomised treatment conditions |
+I øjeblikket er der ingen relaterede kliniske forsøg registreret for posterolateral myokardieinfarkt.
 
 ---
 
-## Denmark Market Information
+## Bevis fra litteratur
 
-Atenolol currently holds no marketing authorisations with the Danish Medicines Agency (Laegemiddelstyrelsen) and is not marketed in Denmark. No authorisation-specific product or indication data is available in the current evidence pack. Clinicians should verify current EMA centralised authorisation status and any applicable national parallel import licences independently.
+I øjeblikket er der ingen relateret litteratur tilgængelig for posterolateral myokardieinfarkt.
 
----
+> **Støttende kontekst fra tæt relateret indikation:** TxGNN rang 2-forudsigelse — **posteroinferior myokardieinfarkt** (score 99.87%, bevisniveau L3, anbefaling: Fortsæt med sikringsforanstaltninger) — identificerede ét relevant kontrolleret studie:
 
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-> **Mechanistic safety flag from additional predicted indications:** Evidence packs for TxGNN ranks 9 and 10 — pulmonary hypertension owing to lung disease/hypoxia (L5, Hold) and pulmonary hypertension with unclear multifactorial mechanism (L5, Hold) — carry explicit safety warnings. Beta-blockers are generally contraindicated or used with extreme caution in pulmonary hypertension: they may provoke bronchoconstriction, reduce right ventricular compensatory capacity, and worsen hypoxia-driven pulmonary vascular disease. These predicted indications should not be pursued without specialist pulmonary hypertension evaluation.
+| PMID | År | Type | Tidsskrift | Vigtige fund |
+|------|-----|------|-----------|-------------|
+| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | Enkeltblindet crossover RCT | La Revue de medecine interne | Sammenlignede anti-iskæmisk aktivitet af atenolol (200 mg) vs diltiazem (240 mg) hos 23 patienter 4 uger efter begrænset posteroinferior eller anterior MI med resterende iskæmi ved stresstest; arbejdskapacitet vurderet ved computeriseret cykelergometer (Case-Marquette-system) under placebo og randomiserede behandlingsbetingelser |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Atenolol har i øjeblikket ingen markedsføringstilladelser hos Lægemiddelstyrelsen og er ikke markedsført i Danmark. Der er ingen autorisationsspecifik produkt- eller indikationsdata tilgængelige i den aktuelle bevismappe. Læger bør uafhængigt verificere den aktuelle EMA-centraliserede godkendelsesstatus og eventuelle gældende nationale parallelimporttilladelser.
 
-**Rationale:**
-While the mechanistic basis for beta-blockade in myocardial infarction is well-established at a drug-class level, no clinical trial or literature evidence specifically addresses atenolol in posterolateral MI. An evidence level of L4 (mechanistic/preclinical support only) is insufficient to justify clinical repurposing without targeted investigation. Furthermore, critical safety information — including SmPC warnings and contraindications — is currently unavailable, representing a blocking data gap that prevents formal safety screening.
+---
 
-**To proceed, the following is needed:**
-- Retrieve the approved SmPC or EMA product information to complete S1 safety assessment (DG001 — Blocking data gap)
-- Retrieve mechanism of action data from DrugBank API to support mechanistic rationale scoring (DG002 — High severity data gap)
-- Conduct a targeted systematic literature review for atenolol or class-level beta-blocker evidence specifically within posterolateral MI subpopulations
-- Review ISIS-1 trial subgroup analyses to determine whether posterolateral MI patients were represented and whether they derived similar mortality benefit
-- Prospectively assess AV conduction block risk in the intended patient population before initiating any clinical investigation
-- Confirm whether atenolol holds or has previously held marketing authorisation in Denmark or via EMA centralised procedure, as the current absence of authorisations may reflect a data collection gap rather than true non-availability
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte resumé af produktkarakteristika (SmPC) for sikkerhedsinformation.
+
+> **Mekanistisk sikkerhedsflag fra yderligere forudsagte indikationer:** Bevismappe for TxGNN rang 9 og 10 — pulmonal hypertension på grund af lungesygdom/hypoksi (L5, Afvente) og pulmonal hypertension med ukendt multifaktoriell mekanisme (L5, Afvente) – indeholder eksplicitte sikkerhedsadvarsler. Beta-blokere er generelt kontraindiceret eller bør bruges med ekstrem forsigtighed ved pulmonal hypertension: de kan fremkalde bronchokonstriktion, reducere den højre ventrikels kompenserende kapacitet og forværre hypoksi-drevet pulmonal vaskulær sygdom. Disse forudsagte indikationer bør ikke forfølges uden evaluering af en specialist i pulmonal hypertension.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Mens det mekanistiske grundlag for beta-blokade ved myokardieinfarkt er velkendt på lægemiddelklasseniveau, behandler intet klinisk forsøg eller litteraturbevis specifikt atenolol ved posterolateral MI. Et bevisniveau på L4 (alene mekanistisk/præklintsk støtte) er utilstrækkeligt til at retfærdiggøre klinisk omformål af lægemidlet uden målrettet undersøgelse. Desuden er kritisk sikkerhedsinformation – herunder SmPC-advarsler og kontraindicationer – i øjeblikket utilgængelig, hvilket repræsenterer en blokerende datakløft, der forhindrer formelt sikkerhedsscreening.
+
+**For at komme videre er følgende nødvendigt:**
+- Hent den godkendte SmPC eller EMA-produktinformation for at gennemføre S1-sikkerhedsvurdering (DG001 — Blokerende datakløft)
+- Hent virkningsmekanisme-data fra DrugBank API til at understøtte mekanistisk begrundelsesscore (DG002 — Datakløft med høj alvorlighed)
+- Gennemfør en målrettet systematisk litteraturgennemgang for atenolol eller klassenniveaubevis for beta-blokere specifikt inden for posterolateral MI-subpopulationer
+- Gennemgå ISIS-1-forsøgs-subgruppeanalyser for at fastslå, om posterolateral MI-patienter var repræsenteret, og om de opnåede tilsvarende mortalitetsfordel
+- Vurder prospektivt AV-ledningsblok-risiko i den tilsigtede patientpopulation før påbegyndelse af nogen klinisk undersøgelse
+- Bekræft, om atenolol har eller tidligere har haft markedsføringstilladelse i Danmark eller via EMA-centraliseret procedure, da det nuværende fravær af tilladelser muligvis afspejler en datakollektionskløft snarere end faktisk ikke-tilgængelighed
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

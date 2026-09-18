@@ -29,65 +29,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the provided report template directly — this is a single, self-contained report-generation task with no additional skill needed beyond the instructions already given.
+# Insulin Lispro: Fra Diabetes Mellitus til Autoimmun Oofrit
 
-# Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+## Sammenfatning på en sætning
 
-## One-Sentence Summary
+Insulin lispro er et hurtigtvirkende insulinanalog, der bruges til at regulere blodglucose ved diabetes mellitus. TxGNN-modellens topforudsigelse knytter det til **Autoimmun Oofrit** med en meget høj lighedsscore, men **nul kliniske forsøg og nul publikationer** understøtter i øjeblikket dette link, og modellens egen begrundelse antyder, at forbindelsen afspejler et delt autoimmunt comorbiditets-mønster snarere end en ægte farmakologisk genopbygningsmekanisme.
 
-Insulin lispro is a rapid-acting insulin analogue used to control blood glucose in diabetes mellitus. The TxGNN model's top prediction links it to **Autoimmune Oophoritis** with a very high similarity score, but **zero clinical trials and zero publications** currently support this link, and the model's own rationale suggests the connection reflects a shared autoimmune comorbidity pattern rather than a genuine drug-repurposing mechanism.
+## Hurtigt overblik
 
-## Quick Overview
-
-| Item | Content |
+| Emne | Indhold |
 |------|------|
-| Original Indication | Diabetes Mellitus (insulin replacement therapy) — based on general drug knowledge; not confirmed by Danish licence data, as none is available in this evidence pack |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Oprindelig indikation | Diabetes mellitus (insulinerstatningsterapi) — baseret på generelt lægemiddelkendskab; ikke bekræftet af danske licensdata, da ingen er tilgængelig i denne bevismappe |
+| Forudsagt ny indikation | Autoimmun Oofrit |
+| TxGNN-forudsigelsesscore | 99.78% |
+| Bevisniveau | L5 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known general pharmacology, insulin lispro is a rapid-acting recombinant human insulin analogue; its efficacy in glycaemic control for diabetes mellitus is well established, but no MOA data in this evidence pack supports extrapolating a direct pharmacological effect on ovarian autoimmune disease.
+I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige. Baseret på kendt generel farmakologi er insulin lispro et hurtigtvirkende rekombinant humant insulinanalog; dets effektivitet i glykæmisk kontrol for diabetes mellitus er velkendt, men ingen MOA-data i denne bevismappe understøtter ekstrapolering af en direkte farmakologisk virkning på ovariel autoimmun sygdom.
 
-The TxGNN rationale itself flags this prediction as a **comorbidity association rather than a treatment hypothesis**: autoimmune oophoritis and type 1 diabetes mellitus are both frequent components of Autoimmune Polyglandular Syndrome type 2 (APS-2), and likely share overlapping genetic susceptibility (e.g., HLA haplotypes). This shared-node pattern in the knowledge graph is plausible reason for the high similarity score, but there is no mechanistic evidence that insulin itself exerts a therapeutic effect on ovarian autoimmune inflammation.
+TxGNN-begrundelsen selv signalerer, at denne forudsigelse er en **comorbiditets-association snarere end en behandlingshypotese**: autoimmun oofrit og type 1-diabetes mellitus er begge hyppige komponenter i Autoimmun Polyglantulær Syndrom type 2 (APS-2), og deler sandsynligvis overlappende genetisk modtagelighed (f.eks. HLA-haplotyper). Dette delte-knude-mønster i vidensgrafen er en plausibel grund til den høje lighedsscore, men der er ingen mekanistisk evidens for, at insulin selv udøver en terapeutisk virkning på ovariel autoimmun inflammation.
 
-It is also worth noting that TxGNN surfaced four other candidate diseases in the top 10 (thiamine-responsive dysfunction syndrome, classic stiff person syndrome, focal stiff limb syndrome, and opsismodysplasia) with very similar scores. Each carries the same underlying caveat in its rationale — the association arises from shared autoimmune, metabolic, or gene-pathway nodes (e.g., GAD65 autoimmunity, SLC19A2/insulin co-morbidity, or INPPL1–insulin-signalling pathway overlap) rather than a demonstrated treatment effect. This pattern suggests the current TxGNN output for insulin lispro should be read as a hypothesis-generation signal, not a repurposing candidate ready for evaluation.
+Det er også værd at bemærke, at TxGNN fremhævede fire andre kandidat-sygdomme i top 10 (tiamineresponsiv dysfunktionssyndrom, klassisk stiff person-syndrom, fokalt stivt lemmesyndrom og opsismodysplasi) med meget lignende scores. Hver enkelt bærer samme underliggende forbehold i sin begrundelse — forbindelsen opstår fra delt autoimmun, metabolisk eller gen-vej-knuder (f.eks. GAD65-autoimmunitet, SLC19A2/insulin-comorbidittet eller INPPL1–insulin-signalerings-vej-overlap) snarere end en påvist behandlingsvirkning. Dette mønster antyder, at det aktuelle TxGNN-output for insulin lispro bør læses som et signal til hypotesegenerering, ikke en genopbygningskandidat klar til evaluering.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsbevis
 
-Currently no related clinical trials registered.
+I øjeblikket er der ingen relaterede kliniske forsøg registreret.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+I øjeblikket er der ingen relateret litteratur tilgængelig.
 
-## Denmark Market Information
+## Information om det danske marked
 
-No marketing authorisation for insulin lispro is currently recorded in this evidence pack for the Danish market (Market status: Not marketed; 0 licences on file). This may reflect a genuine absence of local Laegemiddelstyrelsen/EMA registration, or it may reflect a data-collection gap — this should be verified directly against the Laegemiddelstyrelsen product register before any downstream decision.
+Ingen markedsføringstilladelse for insulin lispro er i øjeblikket registreret i denne bevismappe for det danske marked (Status på markedet: Ikke markedsført; 0 licenser på fil). Dette kan afspejle en ægte fravær af lokal Lægemiddelstyrelsen/EMA-registrering, eller det kan afspejle et gap i dataindsamlingen — dette bør verificeres direkte mod Lægemiddelstyrelsens produktregister før nogen senere beslutning.
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-*(Note: this evidence pack flags the absence of SmPC-derived warnings/contraindications as a **Blocking** data gap — see Conclusion below.)*
+*(Bemærk: denne bevismappe signalerer fraværet af SmPC-afledte advarsler/kontraindikationer som et **Blokerende** data-gap — se Konklusion nedenfor.)*
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Hold**
+**Beslutning: Afvent**
 
-**Rationale:**
-The prediction rests entirely on TxGNN's model score (L5 — no clinical trials, no literature, no observational data), and the accompanying mechanistic rationale explicitly characterizes the drug–disease link as a comorbidity/shared-node artifact rather than a plausible pharmacological repurposing hypothesis. There is currently no basis to advance this candidate beyond hypothesis-generation.
+**Begrundelse:**
+Forudsigelsen hviler helt på TxGNN-modellens score (L5 — ingen kliniske forsøg, ingen litteratur, ingen observationsdata), og den medfølgende mekanistiske begrundelse karakteriserer eksplicit lægemiddel–sygdoms-linket som en comorbiditets/delt-knude-artefakt snarere end en plausibel farmakologisk genopbygningshypotese. Der er i øjeblikket intet grundlag for at føre denne kandidat videre ud over hypotesegenerering.
 
-**To proceed, the following is needed:**
-- SmPC warnings and contraindications for insulin lispro (currently a **Blocking** data gap — required before any safety pre-screening, per DG001)
-- Verified mechanism of action data from DrugBank or another authoritative source (currently a **High**-severity data gap, per DG002)
-- Confirmation of Danish/EU marketing authorisation status directly from Laegemiddelstyrelsen or the EMA register
-- Independent mechanistic or preclinical evidence connecting insulin signalling to ovarian autoimmune pathology, beyond the comorbidity association identified by the knowledge graph
-- If pursued further, expert endocrinology/reproductive-immunology input to assess biological plausibility before any trial-stage investment
+**For at fortsætte, er følgende nødvendigt:**
+- SmPC-advarsler og kontraindikationer for insulin lispro (i øjeblikket et **Høj**-sværhedsgrads data-gap — påkrævet før nogen sikkerhedsvurdering, jf. DG001)
+- Verificeret virkningsmekanisme-data fra DrugBank eller anden autorativ kilde (i øjeblikket et **Høj**-sværhedsgrads data-gap, jf. DG002)
+- Bekræftelse af dansk/EU-markedsføringstilladelsestatus direkte fra Lægemiddelstyrelsen eller EMA-registret
+- Uafhængig mekanistisk eller præ-klinisk evidens, der forbinder insulinsignalering til ovariel autoimmun patologi, ud over den comorbiditets-association, som vidensgrafen identificerede
+- Hvis det forfølges yderligere, ekspert-input fra endokrinologi/reproduktiv-immunologi for at vurdere biologisk plausibilitet før nogen investering på forsøgsstadiet
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,73 +29,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Avanafil: No TxGNN Repurposing Predictions Generated
+# Avanafil: Ingen TxGNN-oldingslægeprognoser genereret
 
-## One-Sentence Summary
+## Ét-sætnings oversigt
 
-Avanafil (DB06237) is a selective phosphodiesterase type 5 (PDE5) inhibitor known internationally for the treatment of erectile dysfunction, marketed as Stendra and Spedra in various markets.
-The TxGNN pipeline did not generate any repurposing predictions for this drug in the current run (v4, data cut-off: 4 April 2026).
-Two unresolved data gaps — missing mechanism of action and missing safety data — prevent completion of the standard repurposing evaluation; **this report therefore functions as a data gap assessment rather than a full repurposing recommendation.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Erectile dysfunction (sourced from general pharmacological knowledge; not recorded in current Evidence Pack) |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | Not applicable |
-| Evidence Level | L5 — pipeline produced no candidates |
-| Denmark Market Status | Not found in source database |
-| Number of Marketing Authorisations | 0 (in source database) |
-| Recommended Decision | Hold |
-
-> **⚠ Important caveat on market status:** The source data underlying this Evidence Pack originates from a Taiwan regulatory database. Avanafil is authorised in the European Union under the centralised procedure as **Spedra (EU/1/13/841)** for erectile dysfunction in adult men. Danish healthcare professionals should verify the current status directly with the Danish Medicines Agency (Lægemiddelstyrelsen) or the EMA product database, as the "not found" entry is likely an artefact of the source database scope, not an accurate reflection of Danish market availability.
+Avanafil (DB06237) er en selektiv fosfodiesterase type 5 (PDE5)-hæmmer kendt internationalt for behandlingen af erektil dysfunktion, markedsført som Stendra og Spedra på forskellige markeder.
+TxGNN-pipelinen genererede ingen oldingslægeforudsigelser for dette lægemiddel i det aktuelle kørselsløb (v4, dataindsamling: 4. april 2026).
+To uløste datakløfter — manglende virkningsmekanisme og manglende sikkerhedsdata — forhindrer gennemførelse af standard-oldingslægeevalueringen; **denne rapport fungerer derfor som en datakløft-vurdering snarere end en fuldstændig oldingslægeanbefaling.**
 
 ---
 
-## Why No Prediction Was Generated
+## Hurtig oversigt
 
-The TxGNN model did not return any repurposing candidates for avanafil in this run. Two potential explanations should be investigated before concluding that no repurposing signal exists:
+| Element | Indhold |
+|---------|---------|
+| Original indikation | Erektil dysfunktion (stammende fra generel farmakologisk viden; ikke registreret i det aktuelle Evidence Pack) |
+| Forudsagt ny indikation | Ingen prognoser tilgængelige |
+| TxGNN-prognoseresultat | Ikke applicable |
+| Evidensniveau | L5 — pipeline producerede ingen kandidater |
+| Markedsstatus i Danmark | Ikke fundet i kildedatabase |
+| Antal markedsføringstilladelser | 0 (i kildedatabasen) |
+| Anbefalet beslutning | Afvente |
 
-1. **Knowledge-graph mapping gap.** If avanafil was not successfully mapped to a DrugBank or disease node in the knowledge graph, no candidate edges can be scored. The query log confirms that the DrugBank lookup returned one result (success), but upstream mapping into the TxGNN graph node set may still be incomplete.
-
-2. **Absent indication data.** The `original_indications` field is empty in the Evidence Pack. TxGNN's graph-based scoring partly relies on existing approved indication edges. Without a seed indication node, some inference pathways may be suppressed.
-
-**What is known from pharmacology:** Avanafil selectively inhibits cyclic GMP-specific PDE5, promoting smooth muscle relaxation and vasodilation via the nitric oxide–cGMP pathway. This mechanism has been explored beyond erectile dysfunction in drug classes including pulmonary arterial hypertension (sildenafil, tadalafil) and Raynaud's phenomenon. Whether avanafil's higher PDE5 selectivity and shorter half-life translate into a distinct repurposing profile relative to first-generation PDE5 inhibitors remains an open research question — but this cannot be assessed until the pipeline data gaps are resolved.
-
----
-
-## Safety Considerations
-
-Safety data are absent from the current Evidence Pack. Please refer to the approved Summary of Product Characteristics (SmPC) for **Spedra (avanafil)** for complete prescribing information. Key areas to review include:
-
-- **Absolute contraindications:** Concomitant use with any form of organic nitrate or nitric oxide donor (risk of severe hypotension)
-- **Cardiovascular precautions:** Risk assessment for patients with underlying cardiovascular disease prior to prescribing
-- **Drug interactions:** Avanafil is metabolised primarily by CYP3A4; strong CYP3A4 inhibitors (e.g., ketoconazole, ritonavir) significantly increase avanafil exposure
-- **Visual/auditory adverse effects:** Consistent with the PDE5 inhibitor class
+> **⚠ Vigtig forbehold vedrørende markedsstatus:** Kildedata til dette Evidence Pack stammer fra en taiwansk regulatorisk database. Avanafil er autoriseret i Den Europæiske Union under den centraliserede procedure som **Spedra (EU/1/13/841)** til behandling af erektil dysfunktion hos voksne mænd. Danske sundhedsfagpersoner bør verificere den aktuelle status direkte hos Lægemiddelstyrelsen eller EMA's produktdatabase, da indgangen "ikke fundet" sandsynligvis er en artefakt af kildedatabasens omfang, ikke en nøjagtig afspejling af danske markeds tilgængelighed.
 
 ---
 
-## Conclusion and Next Steps
+## Hvorfor blev der ikke genereret nogen prognose
 
-**Decision: Hold**
+TxGNN-modellen returnerede ingen oldingslægekandidater for avanafil i dette kørselsløb. To mulige forklaringer bør undersøges, før der konkluderes, at der ikke findes noget oldingslægesignal:
 
-**Rationale:**
-The TxGNN pipeline returned no repurposing candidates, and two data gaps — absent safety data (severity: Blocking) and absent mechanism of action (severity: High) — prevent the evaluation from advancing through the standard S1 screening gate.
+1. **Vidensgrafs afbildningskløft.** Hvis avanafil ikke blev succesfuldt afbildet på en DrugBank- eller sygdomsknude i vidensgrafen, kan der ikke scoreS kandidatkanter. Forespørgselslisten bekræfter, at DrugBank-opslaget returnerede et resultat (succes), men upstream-afbildning ind i TxGNN-grafnodesammensætningen kan stadig være ufuldstændig.
 
-**To proceed, the following is needed:**
+2. **Manglende indikationsdata.** Feltet `original_indications` er tomt i Evidence Pack'et. TxGNN's grafbaserede scoring er delvis afhængig af eksisterende godkendt indikationskanter. Uden en seedindikationsknude kan visse inferenssti blive undertrykt.
 
-- [ ] **Resolve DG002 (MOA):** Query the DrugBank API for DB06237 to retrieve pharmacology, mechanism of action, and drug category classifications
-- [ ] **Resolve DG001 (Safety):** Obtain the Spedra SmPC from the EMA product database or Lægemiddelstyrelsen to populate warnings and contraindications
-- [ ] **Investigate TxGNN mapping:** Verify whether avanafil (DB06237) is correctly mapped to a node in the TxGNN knowledge graph (`data/external/drugbank_vocab.csv`); if absent, add manually and re-run the prediction pipeline
-- [ ] **Confirm Denmark market status:** Cross-reference Spedra EU/1/13/841 against Lægemiddelstyrelsen's register to correct the Evidence Pack market status field before generating the final report
-- [ ] **Re-run Evidence Pack generation** after all data gaps are resolved, targeting Evidence Pack v5 or later
+**Hvad der kendes fra farmakologi:** Avanafil hæmmer selektivt cyclic GMP-specifik PDE5, hvilket fremmer glat muskelslappelse og vasodilatation via stofskiftet nitric oxide–cGMP. Denne mekanisme er blevet udforsket ud over erektil dysfunktion i lægemiddelklasser, herunder pulmonal arteriel hypertension (sildenafil, tadalafil) og Raynauds fænomen. Hvorvidt avanaifils højere PDE5-selektivitet og kortere halveringstid omsætter sig til en særskilt oldingslægeprofil i forhold til PDE5-hæmmere fra første generation, forbliver et åbent forskningsspørgsmål — men dette kan ikke vurderes, før pipelinens datakløfter er løst.
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+## Sikkerhedshensyn
+
+Sikkerhedsdata mangler i det aktuelle Evidence Pack. Henviser til den godkendt Produktresumé (SmPC) for **Spedra (avanafil)** for fuldstændig præskriberingsinformation. Vigtige områder, der skal gennemgås, omfatter:
+
+- **Absolutte kontraindikationer:** Samtidig brug med enhver form for organisk nitrat eller nitrogenoxidgiver (risiko for alvorlig blodtryksfald)
+- **Kardiovaskulære forsigtighedsregler:** Risikovurdering for patienter med underliggende kardiovaskulær sygdom før ordinering
+- **Lægemiddelinteraktioner:** Avanafil omsættes primært af CYP3A4; stærke CYP3A4-hæmmere (f.eks. ketoconazol, ritonavir) øger avanafil-eksponeringen betydeligt
+- **Visuelle/auditive bivirkninger:** I overensstemmelse med PDE5-hæmmerklassen
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+TxGNN-pipelinen returnerede ingen oldingslægekandidater, og to datakløfter — manglende sikkerhedsdata (alvorlighed: Blokerende) og manglende virkningsmekanisme (alvorlighed: Høj) — forhindrer evalueringen i at avancere gennem standard-S1-screeningporten.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- [ ] **Løs DG002 (MOA):** Spørg DrugBank API'et for DB06237 for at hente farmakologi, virkningsmekanisme og lægemiddelklassifikationer
+- [ ] **Løs DG001 (sikkerhed):** Indhent Spedra SmPC fra EMA's produktdatabase eller Lægemiddelstyrelsen for at udfylde advarsler og kontraindikationer
+- [ ] **Undersøg TxGNN-afbildning:** Verificer, om avanafil (DB06237) er korrekt afbildet på en knude i TxGNN-vidensgrafen (`data/external/drugbank_vocab.csv`); hvis fraværende, tilføj manuelt og kør prediktionspipelinen igen
+- [ ] **Bekræft markedsstatussen i Danmark:** Krydsreferencer Spedra EU/1/13/841 mod Lægemiddelstyrelsens register for at rette Evidence Pack-markedsstatus-feltet, inden den endelige rapport genereres
+- [ ] **Kør Evidence Pack-generering igen** efter at alle datakløfter er løst, målrettet Evidence Pack v5 eller senere
+
+---
+
+*Denne rapport genereres til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle oldingslægekandidater kræver klinisk validering, før nogen terapeutisk anvendelse.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,97 +29,98 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pemetrexed: From Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+# Pemetrexed: Fra pleural mesotheliom til malign peritoneal mesotheliom
 
-## One-Sentence Summary
+## Resumé i en sætning
 
-Pemetrexed is a multitargeted antifolate chemotherapy agent whose antitumour efficacy against malignant pleural mesothelioma is internationally well established (platinum + pemetrexed is a recognised standard first-line regimen).
-The TxGNN model predicts it may also be effective for **Malignant Peritoneal Mesothelioma**, an anatomically related but distinct mesothelial malignancy,
-with **11 clinical trials** and **20 publications** currently supporting this direction.
+Pemetrexed er et multitarget-antifolat kemoterapiagens, hvis antitumoraktivitet mod malign pleural mesotheliom er internationalt veletableret (platinum + pemetrexed er et anerkendt standardforstelinjsregime).
+TxGNN-modellen forudsiger, at det muligvis også kan være effektivt for **Malign peritoneal mesotheliom**, en anatomisk relateret men særskilt mesothelial malignitet,
+med **11 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning.
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on the Danish registry (drug currently not marketed); internationally established for malignant pleural mesothelioma (platinum + pemetrexed first-line regimen) |
-| Predicted New Indication | Malignant Peritoneal Mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Denmark Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Ikke på dansk register (lægemiddel er i øjeblikket ikke markedsført); internationalt etableret for malign pleural mesotheliom (platinum + pemetrexed forstelinjsregime) |
+| Forudsagt ny indikation | Malign peritoneal mesotheliom |
+| TxGNN-forudsigelsesscore | 99,99% |
+| Evidensniveau | L2 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forudsigelse rimelig?
 
-Formal DrugBank mechanism-of-action data could not be retrieved for this candidate (data gap, see below). However, the repurposing evidence itself documents the mechanism clearly: Pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), blocking folate-dependent DNA synthesis. Mesothelioma cells, which proliferate rapidly, are highly dependent on this pathway, which is why pemetrexed plus platinum is already an internationally recognised (including FDA-approved) standard first-line treatment for malignant **pleural** mesothelioma.
+Formelle DrugBank-mekanisme-for-virknings-data kunne ikke hentes til denne kandidat (datakløft, se nedenfor). Imidlertid dokumenterer genbrugsbeviserne selv mekanismen klart: Pemetrexed er et multitarget-antifolat, der hæmmer thymidin syntase (TS), dihydrofolat reduktase (DHFR) og glycinamid ribonukleotid formyltransferase (GARFT), hvilket blokerer folatafhængig DNA-syntese. Mesothelceller, som formerer sig hurtigt, er meget afhængige af denne vej, hvilket er grunden til, at pemetrexed plus platinum allerede er en internationalt anerkendt (herunder FDA-godkendt) standardforstelinjsbehandling for malign **pleural** mesotheliom.
 
-Malignant peritoneal mesothelioma and malignant pleural mesothelioma are both malignancies of mesothelial-cell origin, differing essentially only in anatomical site (peritoneum vs. pleura). International treatment guidelines (e.g. NCCN) already list pemetrexed + platinum as a systemic therapy option for peritoneal mesothelioma, which supports the biological plausibility of the TxGNN prediction. That said, a dedicated Phase 3 randomised controlled trial for the peritoneal subtype is still lacking — current evidence is concentrated in Phase 1/2 trials and retrospective/case-series literature, placing this candidate at a moderate (not definitive) evidence strength.
+Malign peritoneal mesotheliom og malign pleural mesotheliom er begge maligniteter af mesothelium-celleorigin, der adskiller sig essensielt kun efter anatomisk lokalisering (peritoneum vs. pleura). Internationale behandlingsvejledninger (f.eks. NCCN) lister allerede pemetrexed + platinum som en systemisk terapioption for peritoneal mesotheliom, hvilket understøtter den biologiske plausibilitet af TxGNN-forudsigelsen. Imidlertid mangler stadig en dedikeret fase 3-randomiseret kontroleret forsøg for peritoneal-subtypetypen – aktuel evidens er koncentreret i fase 1/2-forsøg og retrospektiv/case-series-litteratur, hvilket placerer denne kandidat på et moderat (ikke definitivt) evidensstyrkeniveau.
 
-## Clinical Trial Evidence
+## Klinisk forsøgsevidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Phase 2 | Recruiting | 64 | Multicenter RCT comparing normothermic intraperitoneal vs. intravenous chemotherapy after cytoreductive surgery + HIPEC for malignant peritoneal mesothelioma. |
-| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Phase 2 | Recruiting | 28 | Single-arm study of sintilimab + bevacizumab combined with pemetrexed/cisplatin for unresectable malignant peritoneal mesothelioma. |
-| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Phase 2 | Unknown | 40 | Talazoparib maintenance following first-line platinum-based chemotherapy in pleural or peritoneal mesothelioma. |
-| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Phase 2 | Completed | 48 | Pemetrexed + gemcitabine as front-line chemotherapy for pleural or peritoneal mesothelioma. |
-| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Phase 1/2 | Withdrawn | 0 | Vorinostat + pemetrexed-cisplatin as first-line therapy in malignant pleural mesothelioma (withdrawn prior to enrollment). |
-| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Phase 2 | Recruiting | 66 | Randomised trial of carboplatin/pemetrexed/bevacizumab with or without atezolizumab for peritoneal mesothelioma. |
-| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Phase 1 | Completed | 19 | Cisplatin + pemetrexed + imatinib mesylate in unresectable/metastatic malignant mesothelioma. |
-| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Phase 2 | Suspended | 66 | PIPAC combined with systemic chemotherapy (cisplatin/pemetrexed) vs. systemic chemotherapy alone as first-line treatment of malignant peritoneal mesothelioma. |
-| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Phase 1/2 | Active, not recruiting | 30 | TRC102 combined with pemetrexed/cisplatin in advanced solid tumours, including mesothelioma refractory to pemetrexed and platinum. |
-| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Phase 1 | Terminated | 85 | ADI-PEG 20 combined with pemetrexed and cisplatin in arginine-dependent tumours, including advanced peritoneal mesothelioma. |
+| Forsøgsnummer | Fase | Status | Indrullering | Vigtige fund |
+|---------|------|--------|------|---------|
+| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Fase 2 | Rekrutterer | 64 | Multicenter-RCT sammenligner normotermisk intraperitoneal vs. intravenøs kemoterapi efter cytoreduktiv kirurgi + HIPEC for malign peritoneal mesotheliom. |
+| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Fase 2 | Rekrutterer | 28 | Single-arm studie af sintilimab + bevacizumab kombineret med pemetrexed/cisplatin for uomgørlig malign peritoneal mesotheliom. |
+| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Fase 2 | Ukendt | 40 | Talazoparib vedligeholdelse efter forstelinjsplatinum-baseret kemoterapi i pleural eller peritoneal mesotheliom. |
+| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Fase 2 | Afsluttet | 48 | Pemetrexed + gemcitabin som forstelinjskemoterapi for pleural eller peritoneal mesotheliom. |
+| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Fase 1/2 | Trukket tilbage | 0 | Vorinostat + pemetrexed-cisplatin som forstelinjsterapi i malign pleural mesotheliom (trukket tilbage før indrullering). |
+| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Fase 2 | Rekrutterer | 66 | Randomiseret forsøg af carboplatin/pemetrexed/bevacizumab med eller uden atezolizumab for peritoneal mesotheliom. |
+| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Fase 1 | Afsluttet | 19 | Cisplatin + pemetrexed + imatinib mesylat i uomgørlig/metastatisk malign mesotheliom. |
+| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Fase 2 | Suspenderet | 66 | PIPAC kombineret med systemisk kemoterapi (cisplatin/pemetrexed) vs. systemisk kemoterapi alene som forstelinjsbehandling af malign peritoneal mesotheliom. |
+| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Fase 1/2 | Aktiv, ikke rekrutterer | 30 | TRC102 kombineret med pemetrexed/cisplatin i fremskredne solide tumorer, herunder mesotheliom refraktær over for pemetrexed og platinum. |
+| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Fase 1 | Afsluttet | 85 | ADI-PEG 20 kombineret med pemetrexed og cisplatin i arginin-afhængige tumorer, herunder fremskredet peritoneal mesotheliom. |
 
-*Note: one additional Phase 1 trial (NCT03564691, a broad advanced-solid-tumour study with only tangential relevance) was excluded from this table to keep the list to the 10 most relevant trials.*
+*Bemærk: et yderligere fase 1-forsøg (NCT03564691, et bredt studie af fremskredne solide tumorer med kun tangentiel relevans) blev udeladt fra denne tabel for at holde listen til de 10 mest relevante forsøg.*
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|-----|------|------|---------|
-| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Review | Journal of Clinical Medicine | Overview of treatment approaches for malignant peritoneal mesothelioma, including the role of systemic chemotherapy. |
-| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Cohort/Case report | Pleura and Peritoneum | Bidirectional chemotherapy enabling surgical resectability in initially unresectable peritoneal mesothelioma. |
-| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospective study | Expert Review of Anticancer Therapy | Evaluates efficacy of first-line systemic pemetrexed + cisplatin chemotherapy in peritoneal mesothelioma. |
-| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospective study | Japanese Journal of Clinical Oncology | Efficacy and safety of pemetrexed + cisplatin as first-line chemotherapy in advanced peritoneal mesothelioma. |
-| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Case report | BMJ Case Reports | Response to rechallenge with cisplatin and pemetrexed in peritoneal mesothelioma. |
-| [41710652](https://pubmed.ncbi.nlm.nih.gov/41710652/) | 2026 | Retrospective study | Frontiers in Oncology | Single-center analysis of chemotherapy with/without bevacizumab after CRS+HIPEC in peritoneal mesothelioma. |
-| [34723916](https://pubmed.ncbi.nlm.nih.gov/34723916/) | 2022 | Case report | Journal of Immunotherapy | Chemoimmunotherapy in platinum-nonresponsive metastatic peritoneal mesothelioma (2 patients). |
-| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Review | Journal of Gastrointestinal Oncology | Diagnosis and management overview of malignant peritoneal mesothelioma. |
-| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Review | Translational Lung Cancer Research | Review of peritoneal mesothelioma pathology, prognosis, and treatment options. |
-| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Retrospective multi-center study | Annals of Surgical Oncology | Treatment strategies and outcomes across a multi-center peritoneal mesothelioma cohort. |
+| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Oversigtsartikel | Journal of Clinical Medicine | Oversigt over behandlingsmetoder for malign peritoneal mesotheliom, herunder rollen af systemisk kemoterapi. |
+| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Kohorte/case report | Pleura and Peritoneum | Bidirektionel kemoterapi muliggør kirurgisk resektion i initialt uomgørlig peritoneal mesotheliom. |
+| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospektivt studie | Expert Review of Anticancer Therapy | Evaluerer effektivitet af forstelinjsbehandling med pemetrexed + cisplatin kemoterapi i peritoneal mesotheliom. |
+| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospektivt studie | Japanese Journal of Clinical Oncology | Effektivitet og sikkerhed af pemetrexed + cisplatin som forstelinjskemoterapi i fremskredet peritoneal mesotheliom. |
+| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Case report | BMJ Case Reports | Respons på genoptag med cisplatin og pemetrexed i peritoneal mesotheliom. |
+| [41710652](https://pubmed.ncbi.nlm.nih.gov/41710652/) | 2026 | Retrospektivt studie | Frontiers in Oncology | Enkeltcenter-analyse af kemoterapi med/uden bevacizumab efter CRS+HIPEC i peritoneal mesotheliom. |
+| [34723916](https://pubmed.ncbi.nlm.nih.gov/34723916/) | 2022 | Case report | Journal of Immunotherapy | Kemoimmunoterapi i platinum-nonresponsiv metastatisk peritoneal mesotheliom (2 patienter). |
+| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Oversigtsartikel | Journal of Gastrointestinal Oncology | Diagnostik- og behandlingsoversigt for malign peritoneal mesotheliom. |
+| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Oversigtsartikel | Translational Lung Cancer Research | Oversigt over patologi, prognose og behandlingsmuligheder for peritoneal mesotheliom. |
+| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Retrospektivt multi-center-studie | Annals of Surgical Oncology | Behandlingsstrategier og resultater i et multi-center peritoneal mesotheliom-kohorte. |
 
-## Denmark Market Information
+## Information om dansk marked
 
-Pemetrexed currently holds **no marketing authorisation on record in Denmark** (market status: Not Marketed; 0 licenses identified). No national (Laegemiddelstyrelsen) or centralised (EMA) authorisation data is available in this evidence pack to summarise in a product table.
+Pemetrexed har i øjeblikket **ingen markedsføringstilladelse registreret i Danmark** (markedsstatus: Ikke markedsført; 0 licenser identificeret). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) autorisationsdata er tilgængelige i denne evidensrapport til opsummering i en produkttabel.
 
-## Cytotoxicity
+## Cytotoksicitet
 
-Pemetrexed is a conventional cytotoxic antineoplastic agent (multitargeted antifolate/antimetabolite class), so this section applies.
+Pemetrexed er et konventionelt cytotoksisk antineoplastisk middel (multitarget-antifolat/antimetabolit-klasse), så dette afsnit gælder.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic chemotherapy (multitargeted antifolate/antimetabolite) |
-| Myelosuppression Risk | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Monitoring Items | Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions |
-| Handling Protection | As a cytotoxic chemotherapy agent, standard cytotoxic drug handling and protective measures apply |
+| Element | Indhold |
+|---------|---------|
+| Cytotoksicitetsklassificering | Konventionel cytotoksisk kemoterapi (multitarget-antifolat/antimetabolit) |
+| Myelosuppressionsrisiko | Se venligst Summary of Product Characteristics (SmPC) advarsler og forholdsregler |
+| Emetogenicitetsklassificering | Se venligst Summary of Product Characteristics (SmPC) advarsler og forholdsregler |
+| Overvågningselementer | Se venligst Summary of Product Characteristics (SmPC) advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Som et cytotoksisk kemoterapiagens gælder standard citotoksiske lægemidlerhåndteringer og beskyttelsesforanstaltninger |
 
-## Safety Considerations
+## Sikkerhedshensyn
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No drug-drug interaction data could be retrieved (DDI query status: not found).
+Se venligst det godkendte Summary of Product Characteristics (SmPC) for sikkerhedsinformation. Ingen lægemiddel-lægemiddel-interaktionsdata kunne hentes (DDI-forespørgselsstatus: ikke fundet).
 
-## Conclusion and Next Steps
+## Konklusion og næste skridt
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
-**Rationale:**
-The TxGNN score is very high (99.99%) and the mechanistic rationale is strong — malignant peritoneal mesothelioma shares the same mesothelial cell origin and antifolate-sensitive proliferative biology as malignant pleural mesothelioma, for which pemetrexed + platinum is already an internationally accepted standard. This is reinforced by 11 clinical trials and consistent literature, but evidence remains at Phase 1/2 and retrospective/case-series level (no peritoneal-specific completed Phase 3 RCT), placing this at evidence level L2 / decision stage S2 rather than a full Go.
+**Begrundelse:**
+TxGNN-scoren er meget høj (99,99%), og den mekanistiske begrundelse er stærk – malign peritoneal mesotheliom deler samme mesothelium-celleorigin og antifolat-sensitiv proliferativ biologi som malign pleural mesotheliom, som pemetrexed + platinum allerede er internationalt accepteret standard for. Dette understøttes af 11 kliniske forsøg og konsistent litteratur, men evidensen forbliver på fase 1/2- og retrospektiv/case-series-niveau (intet peritoneal-specifikt afsluttet fase 3-RCT), hvilket placerer dette på evidensniveau L2 / beslutningsstadium S2 snarere end fuld tilladelse.
 
-**To proceed, the following is needed:**
-- Danish-specific SmPC/label safety data (key warnings, contraindications) — currently a **Blocking** data gap preventing initial safety screening (S1)
-- Confirmed DrugBank mechanism-of-action record (currently a data gap; mechanism was reconstructed from trial/literature rationale only)
-- Clarification of the regulatory pathway, since Pemetrexed has no current Danish marketing authorisation (0 licenses)
-- A peritoneal mesothelioma-specific Phase 3 RCT to raise the evidence level beyond L2
-- A formal drug-drug interaction (DDI) review, as none could currently be retrieved
+**For at fortsætte er følgende nødvendigt:**
+- Dansk-specifik SmPC/etiketatorsikkerhedsdata (vigtige advarsler, kontraindikationer) – i øjeblikket en **blokererende** datakløft, der forhindrer initial sikkerhedsscreening (S1)
+- Bekræftet DrugBank-mekanisme-for-virknings-record (i øjeblikket en datakløft; mekanisme blev rekonstrueret fra forsøgs-/litteraturrationale alene)
+- Præcisering af det regulatoriske område, da pemetrexed i øjeblikket ikke har dansk markedsføringstilladelse (0 licenser)
+- Et peritoneal mesotheliom-specifikt fase 3-RCT for at øge evidensniveauet ud over L2
+- En formel lægemiddel-lægemiddel-interaktions-review (DDI), da ingen kunne hentes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

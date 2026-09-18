@@ -29,97 +29,98 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alirocumab: From Familial Hypercholesterolaemia to Cholesterol Catabolic Process Disease
+# Alirocumab: Fra familiekolesterolæmi til kolesterolkatabolisk proceslidelse
 
-## One-Sentence Summary
+## Sammenfatning i én sætning
 
-Alirocumab (Praluent®) is a fully human anti-PCSK9 monoclonal antibody approved by the FDA (2015) and EMA for the treatment of familial hypercholesterolaemia and cardiovascular risk reduction in adults, though it is not currently registered or marketed in Denmark.
-The TxGNN model predicts it may be effective for **Cholesterol Catabolic Process Disease** — a category encompassing disorders of impaired LDL receptor function and deficient LDL-C clearance — with **1 clinical trial** and **19 publications** currently supporting this direction.
-This is the highest-evidenced prediction in this Evidence Pack (Evidence Level L1), and the biological rationale is exceptionally strong.
+Alirocumab (Praluent®) er et fuldt humant anti-PCSK9 monoklonalt antistof godkendt af FDA (2015) og EMA til behandling af familiekolesterolæmi og kardiovaskulær risikoreduktion hos voksne, selvom det i øjeblikket ikke er registreret eller markedsført i Danmark.
+TxGNN-modellen forudsiger, at det kan være effektivt til **kolesterolkatabolisk proceslidelse** — en kategori, der omfatter lidelser med svækket LDL-receptorfunktion og utilstrækkelig LDL-C-clearance — med **1 klinisk forsøg** og **19 publikationer**, der i øjeblikket understøtter denne retning.
+Dette er den højest evidensmæssigt understøttede forudsigelse i denne Evidence Pack (Evidensniveau L1), og det biologiske rationale er usædvanlig stærkt.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Familial hypercholesterolaemia; cardiovascular risk reduction in high-risk adults (FDA/EMA approved globally; **not registered in Denmark**) |
-| Predicted New Indication | Cholesterol Catabolic Process Disease |
+| Oprindelig indikation | Familiekolesterolæmi; kardiovaskulær risikoreduktion hos høj-risiko-voksne (FDA/EMA godkendt globalt; **ikke registreret i Danmark**) |
+| Forudsagt ny indikation | Kolesterolkatabolisk proceslidelse |
 | TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidensniveau | L1 |
+| Danmarks markedsstatus | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Fremad med sikringsforanstaltninger |
 
-> **Note on TxGNN rankings:** The highest-scored predictions by raw TxGNN score (ichthyosis X-linked, 99.43%; vitamin/cofactor metabolism disorder, 99.41%) are rated L5 (model prediction only) with no supporting clinical trials or literature, and their mechanistic link to PCSK9 inhibition is biologically implausible. The clinically actionable prediction — cholesterol catabolic process disease — ranks fifth by TxGNN score but is supported by the strongest evidence and the most direct mechanistic link. This report therefore focuses on the L1-evidenced prediction.
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not currently available in the Evidence Pack. Based on published pharmacology, Alirocumab is a fully human IgG1 monoclonal antibody that binds the catalytic domain of PCSK9 (proprotein convertase subtilisin/kexin type 9). By blocking PCSK9's interaction with the EGF-A domain of LDL receptors (LDLR) on hepatocytes, Alirocumab prevents PCSK9-mediated lysosomal degradation of LDLR. The net result is a substantial increase in hepatic LDLR surface density, dramatically enhanced LDL-C clearance from the circulation, and a reduction in plasma LDL-C of approximately 50–60%.
-
-The predicted indication — "cholesterol catabolic process disease" — encompasses disorders where this exact pathway is pathologically disrupted: most notably familial hypercholesterolaemia (FH, caused by loss-of-function mutations in LDLR, APOB, or gain-of-function mutations in PCSK9) and related conditions characterised by impaired cholesterol catabolism. Alirocumab targets the precise molecular mechanism underlying these diseases, making the TxGNN prediction mechanistically self-consistent. This is not a prediction by analogy; it is a direct mechanistic match.
-
-Crucially, Alirocumab already holds regulatory approval from both the FDA and EMA for familial hypercholesterolaemia and high cardiovascular risk, backed by the ODYSSEY clinical trial programme, including the landmark ODYSSEY OUTCOMES Phase 3 RCT (approximately 18,924 participants), which demonstrated significant reductions in recurrent ischaemic cardiovascular events and all-cause mortality. The TxGNN model is, in essence, confirming an established clinical application.
+> **Note om TxGNN-rangeringer:** De højest scorede forudsigelser efter rå TxGNN-score (ichthyosis X-bunden, 99.43%; vitamin/cofactor-metabolisme-forstyrelse, 99.41%) er klassificeret som L5 (kun modelforudsigelse) uden understøttende kliniske forsøg eller litteratur, og deres mekanistiske forbindelse til PCSK9-hæmning er biologisk usandsynlig. Den klinisk handlingsbar forudsigelse — kolesterolkatabolisk proceslidelse — rangerer femte efter TxGNN-score, men understøttes af de stærkeste beviser og den mest direkte mekanistiske forbindelse. Denne rapport fokuserer derfor på L1-evidensmæssigt understøttet forudsigelse.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerede mekanisme-handlings-data er i øjeblikket ikke tilgængelige i Evidence Pack. Baseret på offentliggjort farmakologi er alirocumab et fuldt humant IgG1 monoklonalt antistof, der binder det katalytiske domæne af PCSK9 (proproteinkonvertase subtilisin/kexin type 9). Ved at blokere PCSK9's interaktion med EGF-A-domænet af LDL-receptorer (LDLR) på hepatocytter forhindrer alirocumab PCSK9-medieret lysosomalt nedbrydelse af LDLR. Nettoresultatet er en væsentlig stigning i hepatisk LDLR-overfladedensitet, dramatisk forbedret LDL-C-clearance fra cirkulationen og et fald i plasma-LDL-C på cirka 50–60%.
+
+Den forudsagte indikation — "kolesterolkatabolisk proceslidelse" — omfatter lidelser, hvor denne nøjagtige vej er patologisk forstyrret: især familiekolesterolæmi (FH, forårsaget af tab-af-funktion-mutationer i LDLR, APOB, eller gain-of-function-mutationer i PCSK9) og relaterede tilstande karakteriseret ved svækket kolesterolkatabolisme. Alirocumab targeterer den præcise molekylære mekanisme, der ligger til grund for disse sygdomme, hvilket gør TxGNN-forudsigelsen mekanistisk selv-konsistent. Dette er ikke en forudsigelse ved analogi; det er en direkte mekanistisk match.
+
+Afgørende er, at alirocumab allerede innehar tilsynsmæssig godkendelse fra både FDA og EMA til familiekolesterolæmi og høj kardiovaskulær risiko, understøttet af ODYSSEY-kliniske forsøg-programmet, herunder det vigtige ODYSSEY OUTCOMES Phase 3 RCT (cirka 18.924 deltagere), som demonstrerede betydelige reduktioner i tilbagevendende iskæmiske kardiovaskulære hændelser og all-cause-mortalitet. TxGNN-modellen bekræfter i bund og grund en etableret klinisk anvendelse.
+
+---
+
+## Klinisk forsøgsbeviser
+
+| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
 |---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Completed | 118 | EPIC-HIV Study: PCSK9 inhibition in HIV-positive patients on antiretroviral therapy. Assessed effects on vascular inflammation, endothelial function, and non-calcified coronary plaque — features of a distinct atherosclerotic phenotype in HIV. Directly evaluates PCSK9 inhibitor impact on cholesterol metabolism and cardiovascular risk in a challenging metabolic context. |
+| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Fase 3 | Afsluttet | 118 | EPIC-HIV-studie: PCSK9-hæmning hos HIV-positive patienter på antiretroviral terapi. Vurderede effekter på vaskulær inflammation, endotel-funktion og ikke-kalcificeret koronarbelegg — karakteristika for en særskilt aterosklerotisk fænotype hos HIV. Evaluerer direkte PCSK9-hæmmers virkning på kolesterolmetabolisme og kardiovaskulær risiko i en udfordrende metabolisk sammenhæng. |
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Vigtige fund |
 |------|------|------|---------|---------|
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Systematic Review/Meta-analysis | Kardiologia polska | Comprehensive synthesis of evidence for PCSK9 role in LDL metabolism; clinical impact of PCSK9 inhibitors on lipid parameters and cardiovascular risk reduction |
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Safety Analysis (ODYSSEY OUTCOMES) | Eur Heart J Cardiovasc Pharmacother | >47,296 patient-years of observation: alirocumab reduces recurrent ischaemic CV events and all-cause death; comprehensive long-term safety profile established |
-| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Mechanistic Review | Pharmacology & Therapeutics | Detailed comparison of extracellular PCSK9 inhibition (alirocumab, evolocumab) vs. hepatic PCSK9 synthesis inhibition (inclisiran); mechanism-specific clinical properties |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Narrative Review | Current Opinion in Lipidology | Update on PCSK9-directed therapies; two landmark cardiovascular outcomes RCTs confirm substantial LDL-C reduction; emerging novel strategies reviewed |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Translational Review | Signal Transduction and Targeted Therapy | Wide-ranging review of PCSK9 biology beyond cardiovascular disease — liver disease, infectious disease, autoimmune disorders, and cancer; highlights emerging repurposing potential |
-| [34070931](https://pubmed.ncbi.nlm.nih.gov/34070931/) | 2021 | Mechanistic Review | Int J Mol Sci | PCSK9 biology and its central role in atherothrombosis; 20-year perspective on PCSK9 as a therapeutic target in dyslipidaemia and CVD management |
-| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Research Article | Metabolism: Clinical and Experimental | PCSK9 inhibition prevents and alleviates cholesterol gallstones via PPARα-mediated CYP7A1 activation; novel mechanistic link directly within the cholesterol catabolic pathway |
-| [36411665](https://pubmed.ncbi.nlm.nih.gov/36411665/) | 2022 | Safety Review | Biomedicine & Pharmacotherapy | Safety profile of PCSK9 inhibitor class; 43% of statin patients fail to reach LDL-C targets; PCSK9 inhibitors as cornerstone add-on therapy for refractory hypercholesterolaemia |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Review | Current Atherosclerosis Reports | Novel pharmacological approaches for homozygous familial hypercholesterolaemia (HoFH) — the most severe form of cholesterol catabolic disease; treatment challenges and emerging agents |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Literature Review | Medicina (Kaunas) | Familial hypercholesterolaemia: genetics, diagnostics, and treatment including PCSK9 inhibitors; heterozygous FH prevalence 1:200–250 underscores clinical burden |
+| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Systematisk gennemgang/Meta-analyse | Kardiologia polska | Omfattende syntese af bevis for PCSK9's rolle i LDL-metabolism; klinisk virkning af PCSK9-hæmmere på lipidparametre og kardiovaskulær risikoreduktion |
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Sikkerhedsanalyse (ODYSSEY OUTCOMES) | Eur Heart J Cardiovasc Pharmacother | >47,296 patientår af observation: alirocumab reducerer tilbagevendende iskæmiske CV-hændelser og all-cause-mortalitet; omfattende sikkerhedsprofil på lang sigt etableret |
+| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Mekanistisk gennemgang | Pharmacology & Therapeutics | Detaljeret sammenligning af ekstracellulær PCSK9-hæmning (alirocumab, evolocumab) versus hepatisk PCSK9-syntesehæmning (inclisiran); mekanisme-specifik kliniske egenskaber |
+| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Narrativ gennemgang | Current Opinion in Lipidology | Opdatering på PCSK9-rettet terapi; to vigtige kardiovaskulær-outcomes RCT'er bekræfter væsentlig LDL-C-reduktion; nye strategier gennemgået |
+| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Translationel gennemgang | Signal Transduction and Targeted Therapy | Bred gennemgang af PCSK9-biologi ud over kardiovaskulær sygdom — leverlidelse, infektionssygdom, autoimmune lidelser og cancer; fremhæver nye genbrugsmuligheder |
+| [34070931](https://pubmed.ncbi.nlm.nih.gov/34070931/) | 2021 | Mekanistisk gennemgang | Int J Mol Sci | PCSK9-biologi og dens centrale rolle i arterothrombose; 20-års perspektiv på PCSK9 som terapeutisk mål inden for dyslipidæmi og kardiovaskulær sygdomsstyring |
+| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Forskerartikkel | Metabolism: Clinical and Experimental | PCSK9-hæmning forhindrer og lindrer kolesterolgallestenene via PPARα-medieret CYP7A1-aktivering; nye mekanistiske forbindelser direkte inden for kolesterolkatabolisk proces |
+| [36411665](https://pubmed.ncbi.nlm.nih.gov/36411665/) | 2022 | Sikkerhedsgennemgang | Biomedicine & Pharmacotherapy | Sikkerhedsprofil for PCSK9-hæmmer-klasse; 43% af statin-patienter når ikke deres LDL-C-målsætninger; PCSK9-hæmmere som hjørnestenpille add-on terapi for resistent hyperkolesterolæmi |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Gennemgang | Current Atherosclerosis Reports | Nye farmakologiske tilgange til homozygotisk familiekolesterolæmi (HoFH) — den mest alvorlige form af kolesterolkatabolisk sygdom; behandlingsudsigter og nye midler |
+| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Litteraturgennemgang | Medicina (Kaunas) | Familiekolesterolæmi: genetik, diagnostik og behandling herunder PCSK9-hæmmere; heterozygotisk FH-prævalens 1:200–250 understreger klinisk belastning |
 
 ---
 
-## Denmark Market Information
+## Danmarksinformationer på markedet
 
-Alirocumab is **not currently registered or marketed in Denmark**. No marketing authorisations have been granted by the Danish Medicines Agency (Laegemiddelstyrelsen), and no products are listed. Alirocumab (Praluent®) holds a centralised EMA marketing authorisation valid across EU/EEA member states; however, commercial availability in Denmark would require a market launch decision by the marketing authorisation holder (Sanofi/Regeneron).
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for Praluent® (alirocumab) — available via the EMA product database — for full safety information, including warnings, contraindications, and special precautions. No safety data was available in the current Evidence Pack for local regulatory review.
+Alirocumab er **i øjeblikket ikke registreret eller markedsført i Danmark**. Ingen markedsføringstilladelser er blevet tildelt af Lægemiddelstyrelsen, og ingen produkter er registreret. Alirocumab (Praluent®) har en centraliseret EMA-markedsføringstilladelse, der er gyldig på tværs af EU/EØS-medlemsstater; dog ville kommerciel tilgængelighed i Danmark kræve en markedsføringsbeslutning fra markedsføringstilladelseshaveren (Sanofi/Regeneron).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhedsovervejelser
 
-**Decision: Proceed with Guardrails**
+Se venligst det godkendte produktresumé (SmPC) for Praluent® (alirocumab) — tilgængeligt via EMA-produktdatabasen — for fuldstændige sikkerhedsoplysninger, herunder advarsler, kontraindikationer og særlige forholdsregler. Ingen sikkerhedsdata var tilgængelige i det aktuelle Evidence Pack til lokal tilsynsmæssig gennemgang.
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Fremad med sikringsforanstaltninger**
 
 **Rationale:**
-Alirocumab's mechanism of action directly and specifically targets the cholesterol catabolic pathway via PCSK9-mediated LDLR regulation — the precise molecular defect underlying cholesterol catabolic process diseases such as familial hypercholesterolaemia. The drug already holds FDA and EMA approval for this therapeutic area, supported by large Phase 3 RCTs (ODYSSEY programme, up to ~18,924 participants) demonstrating both efficacy and long-term safety. Evidence Level L1 is assigned based on the completed Phase 3 trial identified plus the extensive published literature. The primary barrier to use in Denmark is the absence of a local market authorisation, not a lack of clinical evidence.
+Alirocumabs virkningsmåde targeterer direkte og specifikt kolesterolkatabolisk proces via PCSK9-medieret LDLR-regulering — den præcise molekylære defekt, der ligger til grund for kolesterolkataboliske proceslidelser som familiekolesterolæmi. Stoffet har allerede FDA- og EMA-godkendelse inden for dette terapiområde, understøttet af store Phase 3 RCT'er (ODYSSEY-programmet, op til cirka 18.924 deltagere), som demonstrerer både virkning og sikkerhed på lang sigt. Evidensniveau L1 tildeles baseret på det identificerede afsluttede Phase 3-forsøg plus den omfattende offentliggjorte litteratur. Den primære barriere for brug i Danmark er fraværet af en lokal markedsføringstilladelse, ikke mangel på kliniske beviser.
 
-**To proceed, the following is needed:**
-- Confirm EMA centralised marketing authorisation status for Praluent® and initiate market availability discussions with the marketing authorisation holder for Denmark
-- Engage the Danish Medicines Agency (Laegemiddelstyrelsen) regarding reimbursement eligibility under the Danish Medicines Reimbursement Act
-- Obtain and review the complete SmPC for Praluent® to document contraindications, warnings, and special populations before any clinical use
-- Retrieve full MOA data from DrugBank (currently a data gap) to complete the pharmacological dossier
-- Establish a safety monitoring plan covering: lipid panel (LDL-C, HDL-C, total cholesterol, TG), injection site reactions, neurocognitive monitoring per EMA label requirements, and hepatic function
-- Consider patient access pathways (e.g., individual named-patient supply or compassionate use) while formal market availability is pursued
+**For at komme videre er følgende nødvendigt:**
+- Bekræft EMA-centraliseringstilladelsestatus for Praluent® og påbegynd diskussioner med markedsføringstilladelseshaveren om markedsadgang for Danmark
+- Engager Lægemiddelstyrelsen om refusionsberettigelse under Lægemiddelloven
+- Indhent og gennemgå fuldstændig SmPC for Praluent® for at dokumentere kontraindikationer, advarsler og særlige populationer før eventuel klinisk brug
+- Hent fuldstændige MOA-data fra DrugBank (i øjeblikket et datahul) for at fuldføre det farmakologiske dossier
+- Etabler en sikkerhedsovervågningsplan, der omfatter: lipidpanel (LDL-C, HDL-C, totalkolesterol, TG), injektionsteders reaktioner, neurolingvistisk programmering per EMA-mærketkrav og hepatisk funktion
+- Overvej patientadgangsforløb (f.eks. individuelle navngivet-patientforsyning eller medfølelsesadgang) mens formel markedsadgang forfølges
 
 ---
 
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. Always refer to current SmPC and local prescribing guidelines.*
+*Denne rapport genereres til forskningsformål alene og udgør ikke medicinsk rådgivning. Genbrug af stoffer kræver klinisk validering før terapeutisk anvendelse. Altid henvis til aktuel SmPC og lokale prøveskrivningsretningslinjer.*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

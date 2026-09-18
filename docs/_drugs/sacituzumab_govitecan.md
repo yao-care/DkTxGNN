@@ -29,86 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sacituzumab Govitecan: From Antineoplastic ADC Therapy to Drug-Induced Osteoporosis
+# Sacituzumab Govitecan: Fra Antineoplastisk ADC-terapi til Lægemiddelinduceret Osteoporose
 
-## One-Sentence Summary
+## Resumé på en linie
 
-Sacituzumab govitecan is a Trop-2-targeted antibody-drug conjugate (ADC) used in antineoplastic therapy; the specific original oncology indication is not recorded in this evidence pack. The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and is a model-prediction-only signal (L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in this evidence pack (drug class: antineoplastic ADC; specific indication data missing) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature found) |
-| Denmark Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Sacituzumab govitecan er et Trop-2-rettet antistof-lægemiddelkonjugat (ADC) verwendet i antineoplastisk terapi; den specifikke oprindelige oncologiske indikation er ikke registreret i denne bevismappe. TxGNN-modellen forudsiger, at det kan være effektivt for **Lægemiddelinduceret Osteoporose**, men denne retning understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og er et udelukkende modelforudsigelse-signal (L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig Oversigt
 
-Detailed mechanism-of-action data is not populated in the dedicated MOA field of this evidence pack, but the repurposing rationale attached to each candidate describes the mechanism: Sacituzumab govitecan is an antibody-drug conjugate directed against Trop-2, a cell-surface glycoprotein overexpressed on epithelial tumours, and it delivers SN-38 — the active topoisomerase I inhibitor metabolite of irinotecan — directly into tumour cells, where it causes DNA damage and cell death. This places the drug in the conventional cytotoxic chemotherapy class, delivered via an ADC targeting mechanism, and its established use is oncology-focused tumour cell killing.
-
-Notably, the evidence pack's own mechanistic assessment for this candidate is explicitly skeptical rather than supportive: it states there is no known link between Trop-2/SN-38 cytotoxicity and bone remodeling pathways (osteoclast/osteoblast regulation), and further notes that cytotoxic chemotherapy agents are, if anything, a **known risk factor for causing** drug-induced bone loss — i.e., the mechanistic direction runs opposite to a therapeutic effect on osteoporosis. The same caveat applies to the other TxGNN-ranked candidates in this pack (severe nonproliferative diabetic retinopathy, diabetic retinopathy, diabetic cataract, cortical cataract, nuclear senile cataract): none have a plausible mechanistic connection to Trop-2/SN-38 cytotoxicity, and none are backed by any retrieved trial or literature evidence.
-
-In short, this is a case where the TxGNN similarity score is high, but the underlying mechanistic rationale and evidentiary base are weak-to-contradictory. This should be weighted heavily in the decision below.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig Indikation | Ikke specificeret i denne bevismappe (lægemiddelklasse: antineoplastisk ADC; specifikke indikationsdata mangler) |
+| Forudsagt Ny Indikation | Lægemiddelinduceret Osteoporose |
+| TxGNN-forudsigelsesscore | 99.78% |
+| Bevisniveau | L5 (udelukkende modelforudsigelse — ingen kliniske forsøg eller litteratur fundet) |
+| Danmark Markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | I bero |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljerede virkningsmekanisme-data er ikke udfyldt i det dedikerede MOA-felt i denne bevismappe, men ommarkerings-begrundelsen, der er knyttet til hver kandidat, beskriver mekanismen: Sacituzumab govitecan er et antistof-lægemiddelkonjugat rettet mod Trop-2, et celleoverflade-glykoprotein, der er overudtrykt på epitheliale tumorer, og det leverer SN-38 — det aktive topoisomerase I-inhibitor-metabolit af irinotecan — direkte ind i tumorcelledne, hvor det forårsager DNA-skade og celledød. Dette placerer lægemidlet i den konventionelle kemoterapiklasse, leveret via en ADC-rettet mekanisme, og dets etablerede brug er fokuseret på onkologisk tumorceldødning.
 
----
+Bemærkelsesværdigt nok er bevismappe-ens egen mekanistiske vurdering for denne kandidat eksplicit skeptisk snarere end understøttende: den siger, at der ikke findes nogen kendt forbindelse mellem Trop-2/SN-38 cytotoxicitet og knogleomsætningsvejene (osteoklast/osteoblast-regulering), og noterer desuden, at cytotoxiske kemoterapiagenser, hvis noget, er en **kendt risikofaktor for at forårsage** lægemiddelinduceret knogletab — dvs. den mekanistiske retning peger i modsat retning af en terapeutisk effekt på osteoporose. Samme advarsel gælder for de øvrige TxGNN-rangerede kandidater i denne mappe (alvorlig nonproliferativ diabetisk retinopati, diabetisk retinopati, diabetisk katarakt, kortikale katarakt, kernesen katarakt): ingen har en plausibel mekanistisk forbindelse til Trop-2/SN-38 cytotoxicitet, og ingen understøttes af indhentet forsøgs- eller litteraturbevis.
 
-## Denmark Market Information
-
-Sacituzumab govitecan currently has **no marketing authorisation in Denmark** — 0 licenses on record (national Laegemiddelstyrelsen or centralised EU/EMA), and market status is listed as "Not marketed."
+Kort sagt er dette et tilfælde, hvor TxGNN-lighedsscore er høj, men det underliggende mekanistiske rationale og bevisgrundlag er svagt-til-modstridende. Dette bør vægtes tungt i beslutningen nedenfor.
 
 ---
 
-## Cytotoxicity
+## Klinisk Prøvebevis
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Antibody-drug conjugate (ADC) with conventional cytotoxic payload (topoisomerase I inhibitor, SN-38) |
-| Myelosuppression Risk | Not provided in this evidence pack (data gap DG001, TFDA/SmPC warning data pending); SN-38-class topoisomerase I inhibitor payloads are class-associated with neutropenia — confirm via SmPC once available |
-| Emetogenicity Classification | Not provided in this evidence pack; refer to SmPC (SN-38-class agents are typically moderate-to-high emetogenic risk) |
-| Monitoring Items | CBC with differential (neutrophil count), liver and renal function, infusion-reaction monitoring |
-| Handling Protection | Yes — cytotoxic drug handling precautions required (ADC with cytotoxic payload) |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Conclusion and Next Steps
+## Danmark Markedsinformation
 
-**Decision: Hold**
+Sacituzumab govitecan har i øjeblikket **ingen markedsføringstilladelse i Danmark** — 0 licenser registreret (nationalt Lægemiddelstyrelsen eller centraliseret EU/EMA), og markedsstatus er angivet som "Ikke markedsført."
 
-**Rationale:**
-- The prediction is L5 (model score only) with zero corroborating clinical trials or literature, the drug has no Danish marketing authorisation, and the pack's own mechanistic analysis indicates the cytotoxic ADC mechanism is not plausibly linked to — and may work against — the predicted indication (drug-induced osteoporosis and the other candidate diseases).
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC label warnings and contraindications (data gap DG001, currently Blocking — required before any S1 safety screening)
-- Confirmed original indication and mechanism-of-action data (data gap DG002)
-- Independent mechanistic or preclinical evidence connecting Trop-2/SN-38 activity to bone metabolism before further evaluation is warranted
-- Re-screening of clinical trial and literature databases as new evidence emerges
+## Cytotoxicitet
+
+| Element | Indhold |
+|---------|---------|
+| Cytotoxicitetsklassificering | Antistof-lægemiddelkonjugat (ADC) med konventionel cytotoxisk nyttelast (topoisomerase I-inhibitor, SN-38) |
+| Myelosuppression-risiko | Ikke angivet i denne bevismappe (datagab DG001, TFDA/SmPC advarselsdata afventer); SN-38-klasse topoisomerase I-inhibitor-nyttelaster er klasseassocieret med neutropeni — bekræft via SmPC når tilgængelig |
+| Emetogenicitetsklassificering | Ikke angivet i denne bevismappe; se SmPC (SN-38-klasse stoffer er typisk moderat-til-høj emetogen risiko) |
+| Overvågningselementer | CBC med differential (neutrofiltal), lever- og nyrefunktion, infusionsreaktionsovervågning |
+| Håndteringsbeskyttelse | Ja — cytotoxiske lægemidlers håndteringsforsigtighedsregler påkrævet (ADC med cytotoxisk nyttelast) |
+
+---
+
+## Sikkerhedsmæssige Overvejelser
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og Næste Trin
+
+**Beslutning: I bero**
+
+**Begrundelse:**
+- Forudsigelsen er L5 (udelukkende modelcore) uden bekræftende kliniske forsøg eller litteratur, lægemidlet har ingen dansk markedsføringstilladelse, og bevismappe-ens egen mekanistiske analyse indikerer, at den cytotoxiske ADC-mekanisme ikke er plausibelt forbundet til — og kan arbejde imod — den forudsagte indikation (lægemiddelinduceret osteoporose og de øvrige kandidatsygdomme).
+
+**For at fortsætte er følgende nødvendigt:**
+- TFDA/SmPC etiketadvarsler og kontraindikationer (datagab DG001, i øjeblikket blokerer — påkrævet før nogen S1-sikkerhedsscreening)
+- Bekræftet oprindelig indikation og virkningsmekanisme-data (datagab DG002)
+- Uafhængigt mekanistisk eller præklinisk bevis, der forbinder Trop-2/SN-38-aktivitet til knoglemetabolisme, før yderligere evaluering er berettiget
+- Gennemsøgning af kliniske forsøgs- og litteraturdatabaser, når nye beviser fremkommer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

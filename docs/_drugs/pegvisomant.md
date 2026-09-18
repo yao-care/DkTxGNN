@@ -29,83 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pegvisomant: From Acromegaly to Borderline Ovarian Serous Tumor
+# Pegvisomant: Fra akromegali til borderline seøs ovarium-tumor
 
-## One-Sentence Summary
+## Resumé på én sætning
 
-> Pegvisomant (DrugBank DB00082) is a recombinant growth hormone (GH) receptor antagonist originally developed to treat **acromegaly** by blocking GH-driven IGF-1 production.
-> The TxGNN model predicts a possible effect on **Borderline Ovarian Serous Tumor**, with a prediction score of **98.63%**, but **no clinical trials and no literature** currently support this specific link — this is a pure knowledge-graph prediction.
+> Pegvisomant (DrugBank DB00082) er en rekombinant væksthormon (GH) receptorantagonist, der oprindeligt blev udviklet til behandling af **akromegali** ved at blokere GH-drevet IGF-1-produktion.
+> TxGNN-modellen forudsiger en mulig effekt på **Borderline seøs ovarium-tumor**, med en forudsigelsesscore på **98.63%**, men **ingen kliniske forsøg og ingen litteratur** understøtter i øjeblikket denne specifikke forbindelse — dette er en ren knowledge-graph-forudsigelse.
 
-> **Note on data provenance:** The evidence pack's own `original_moa` and `original_indications` fields are flagged as data gaps (DG002). The "Acromegaly" original indication and GH-receptor-antagonist mechanism stated above come from established public drug information (Pegvisomant/Somavert), not from the source pack, and should be confirmed against the official SmPC before use.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acromegaly (growth hormone excess) — *not present in source pack; based on established drug information, pending confirmation* |
-| Predicted New Indication | Borderline Ovarian Serous Tumor |
-| TxGNN Prediction Score | 98.63% |
-| Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+> **Bemærkning om datakilde:** Evidenspakkens egne felter `original_moa` og `original_indications` er markeret som datahuller (DG002). "Akromegali" oprindelig indikation og GH-receptorantagonist-mekanisme, der er angivet ovenfor, kommer fra etableret offentlig lægemiddelinformation (Pegvisomant/Somavert), ikke fra kildepakken, og bør bekræftes mod det officielle produktresumé (SmPC) før brug.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversigt
 
-Detailed, source-verified mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap, DG002). Based on the rationale attached to this prediction, Pegvisomant is understood to act as a **GH receptor antagonist**, reducing IGF-1 production — the mechanism underlying its established use in acromegaly.
-
-The proposed link to Borderline Ovarian Serous Tumor rests on general oncology background knowledge that the GH/IGF-1 axis can contribute to proliferative signaling in some ovarian epithelial tumors, so a GH receptor antagonist could theoretically slow IGF-1-driven tumor growth. However, the evidence pack explicitly characterizes this as an **indirect, mechanism-only inference**: there is no trial or publication that directly connects Pegvisomant to this specific tumor type, and the high TxGNN score cannot distinguish a genuine biological signal from a knowledge-graph clustering effect.
-
-This caution is reinforced by the fact that four of the top ten predictions from this run are ovarian tumor subtypes (borderline serous tumor, rete ovarii cystadenoma, papillary cystadenoma, and malignant Brenner tumor) with nearly identical scores (0.9856–0.9863), suggesting the model is grouping these diseases together in embedding space rather than producing an individually validated signal for any one of them. A fifth top-10 prediction — pyelonephritis, a bacterial infection with no known mechanistic link to GH receptor blockade — is flagged in the pack itself as a likely false-positive artifact and is not considered further in this report.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Indhold |
+|------|---------|
+| Oprindelig indikation | Akromegali (væksthormon-overskud) — *ikke til stede i kildepakke; baseret på etableret lægemiddelinformation, afventer bekræftelse* |
+| Forventet ny indikation | Borderline seøs ovarium-tumor |
+| TxGNN-forudsigelsesscore | 98.63% |
+| Bevisniveau | L5 (kun modelforudsigelse — ingen kliniske forsøg, ingen litteratur) |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Tilbageholdt |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related literature available.
+Detaljeret, kildeverificeret virkningsmekanisme-data er ikke tilgængelig i evidenspakken (markeret som et alvorligt datahul, DG002). Baseret på rationale tilknyttet denne forudsigelse, forstås Pegvisomant at virke som en **GH-receptorantagonist**, der reducerer IGF-1-produktion — mekanismen bag dets etablerede brug i akromegali.
 
----
+Det foreslåede link til Borderline seøs ovarium-tumor hviler på generel onkologi-baggrundsviden om, at GH/IGF-1-aksen kan bidrage til proliferativ signalering i nogle ovarium-epitheliale tumorer, så en GH-receptorantagonist kunne teoretisk bremse IGF-1-drevet tumorvækst. Imidlertid karakteriserer evidenspakken eksplicit dette som en **indirekte, mekanisme-baseret slutning**: der er ingen forsøg eller publikation, der direkte forbinder Pegvisomant til denne specifikke tumortype, og den høje TxGNN-score kan ikke skelne et genuint biologisk signal fra en knowledge-graph-klyngningseffekt.
 
-## Denmark Market Information
-
-Pegvisomant currently holds **no marketing authorisations** in Denmark (market status: Not marketed; 0 licenses on record in the source pack). No Laegemiddelstyrelsen or centralised EMA authorisation data is available to summarize dosage form or approved indication text for this market.
+Denne forsigtighed forstærkes af, at fire af de ti bedste forudsigelser fra denne kørsel er ovarium-tumorsubtyper (borderline seøs tumor, rete ovarii cystadenoma, papillær cystadenoma og malign Brenner-tumor) med næsten identiske pointer (0.9856–0.9863), hvilket tyder på, at modellen grupperer disse sygdomme sammen i embeddings-rum snarere end producerer et individuelt valideret signal for nogen af dem. En femte top-10-forudsigelse — pyelonefritis, en bakteriel infektion uden kendt mekanistisk link til GH-receptorblokade — er markeret i selve pakken som en sandsynlig falsk-positiv artefakt og overvejes ikke yderligere i denne rapport.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
-
-*(Note: This is not merely a placeholder — key warnings, contraindications, and drug interaction data are marked as a Blocking-severity data gap, DG001, meaning this candidate cannot currently enter the S1 safety pre-assessment stage.)*
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Evidens fra litteratur
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
-**Rationale:**
-- Evidence Level is L5 — the prediction is supported only by the TxGNN model, with zero clinical trials and zero publications specific to this indication.
-- The prediction sits within a cluster of near-identical scores across multiple unrelated ovarian tumor subtypes, raising concern that it reflects structural similarity in the knowledge graph rather than a validated pharmacological signal.
-- A Blocking-severity data gap (missing Danish/EU SmPC warnings and contraindications) means this candidate cannot yet proceed to safety pre-assessment (S1), independent of the efficacy question.
-- Pegvisomant is not currently marketed in Denmark (0 authorisations), which adds a regulatory/access barrier on top of the evidentiary one.
+---
 
-**To proceed, the following is needed:**
-- Official SmPC (warnings, contraindications, drug interactions) to clear the Blocking data gap (DG001) and allow safety pre-assessment
-- Confirmed, source-verified mechanism of action and original indication documentation (DG002)
-- Preclinical or mechanistic studies specifically examining the GH/IGF-1 axis in borderline ovarian serous tumors, rather than general oncology background reasoning
-- Any first clinical or case-level evidence connecting Pegvisomant to this indication before further resource investment
-- Reassessment of the other clustered ovarian-tumor predictions as a group, since they may represent one underlying (unconfirmed) hypothesis rather than four independent signals
+## Markedsinformation for Danmark
+
+Pegvisomant har i øjeblikket **ingen markedsføringstilladelser** i Danmark (markedsstatus: Ikke markedsført; 0 licenser på record i kildepakken). Ingen data fra Lægemiddelstyrelsen eller centraliseret EMA-godkendelse er tilgængelig til at opsummere doseringsform eller godkendt indikationstekst for dette marked.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+*(Bemærk: Dette er ikke blot en placeholder — vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er markeret som et blokerende-alvorligheds datahul, DG001, hvilket betyder, at denne kandidat i øjeblikket ikke kan gå ind i sikkerhedsvurderingsfasen S1.)*
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Tilbageholdt**
+
+**Begrundelse:**
+- Bevisnivenau er L5 — forudsigelsen understøttes kun af TxGNN-modellen, med nul kliniske forsøg og nul publikationer specifikt for denne indikation.
+- Forudsigelsen sidder inden for en klynge af næsten identiske pointer på tværs af flere uafhængige ovarium-tumorsubtyper, hvilket giver anledning til bekymring for, at det afspejler strukturel lighed i knowledge-grafen snarere end et valideret farmakologisk signal.
+- Et blokerende-alvorligheds datahul (manglende dansk/EU produktresumé-advarsler og kontraindikationer) betyder, at denne kandidat i øjeblikket ikke kan gå videre til sikkerhedsvurdering (S1), uafhængigt af effektivitsspørgsmålet.
+- Pegvisomant markedsføres i øjeblikket ikke i Danmark (0 godkendelser), hvilket tilføjer en regulerings- eller adgangsbarriere oven på den evidentielle.
+
+**For at gå videre kræves følgende:**
+- Officielt produktresumé (SmPC) (advarsler, kontraindikationer, lægemiddelinteraktioner) for at rydde det blokerende datahul (DG001) og tillade sikkerhedsvurdering
+- Bekræftet, kildeverificeret virkningsmekanisme og originale indikationsdokumentation (DG002)
+- Prekliniske eller mekanistiske studier, der specifikt undersøger GH/IGF-1-aksen i borderline seøse ovarium-tumorer, snarere end generel onkologi-baggrundsviden
+- Enhver første klinisk eller case-niveau evidens, der forbinder Pegvisomant til denne indikation, før yderligere ressourceinvesteringer
+- Revurdering af de andre klyngede ovarium-tumor-forudsigelser som en gruppe, da de kan repræsentere en underliggende (ubekræftet) hypotese snarere end fire uafhængige signaler
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

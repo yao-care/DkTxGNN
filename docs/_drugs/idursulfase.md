@@ -29,84 +29,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using no additional tools — this is a direct content-generation task governed entirely by the prompt's own instructions (extract fields from the given Evidence Pack JSON and render the fixed report sections). I'll produce the report now, being careful to only state what the JSON actually supports and to flag where fields are genuinely empty rather than inventing values.
+# Idursulfase: Fra Lysosomale Lagringssygdomme (Enzym-erstatningsterapi) til Ptose-Strabismus-Ektopiske Pupiller Syndrom
 
-A few notes on how I handled gaps in this particular pack, before the report:
-- `drug.original_indications` is empty and `original_moa` is `"[Data Gap]"`, so there's no formally-sourced "original indication" field. However, the `repurposing_rationale` text for several candidates explicitly describes Idursulfase as an iduronate‑2‑sulfatase enzyme-replacement therapy for lysosomal storage disease, and twice names Hunter syndrome (MPS II) by name — I used that text (it's part of the Evidence Pack, not outside knowledge) rather than leaving the title/overview blank.
-- All 10 `predicted_indications` entries collapse to 5 unique diseases (each duplicated once), all L5/Hold, all with rationale text arguing *against* a real mechanistic link. I reported the top-ranked candidate per the template and flagged this pattern rather than presenting it as if it were strong evidence.
-- Cytotoxicity section omitted — Idursulfase is an enzyme-replacement biologic, not antineoplastic.
+## Sammenfatning i én sætning
 
----
-
-# Idursulfase: From Lysosomal Storage Disease (Enzyme Replacement Therapy) to Ptosis-Strabismus-Ectopic Pupils Syndrome
-
-## One-Sentence Summary
-
-Idursulfase is a recombinant iduronate-2-sulfatase enzyme replacement therapy used in lysosomal storage disorders such as Hunter syndrome (Mucopolysaccharidosis II). The TxGNN model predicts a possible link to **Ptosis-Strabismus-Ectopic Pupils Syndrome**, a rare congenital cranial dysinnervation disorder, but this is currently supported by **0 clinical trials** and **0 publications** — and the evidence pack's own mechanistic analysis argues against a genuine biological connection.
+Idursulfase er et rekombinant iduronidsulfatase-enzym-erstatningsterapi, der bruges til lysosomale lagringssygdomme, såsom Hunters syndrom (Mucopolysaccharidose II). TxGNN-modellen forudsiger en mulig forbindelse til **Ptose-Strabismus-Ektopiske Pupiller Syndrom**, en sjælden medfødt kranialnervedysinnervationsforstyrrelsе, men dette understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — og analysepakkens egen mekanistiske vurdering argumenterer mod en ægte biologisk forbindelse.
 
 ---
 
-## Quick Overview
+## Hurtigt overblik
 
-| Item | Content |
-|------|------|
-| Original Indication | Not formally on file (no Danish licence text available); described in supporting rationale as lysosomal storage disease / enzyme replacement therapy (Hunter syndrome, MPS II) |
-| Predicted New Indication | Ptosis-Strabismus-Ectopic Pupils Syndrome |
-| TxGNN Prediction Score | 97.89% |
-| Evidence Level | L5 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available as a structured field for this drug (marked as a data gap). Based on the supporting rationale text in this evidence pack, Idursulfase acts as an enzyme replacement therapy that breaks down accumulated glycosaminoglycans (GAGs — heparan sulfate and dermatan sulfate) that build up in lysosomal storage disorders such as Hunter syndrome.
-
-The predicted indication, Ptosis-Strabismus-Ectopic Pupils Syndrome, belongs to a different disease family entirely: congenital cranial dysinnervation disorders (CCDDs), which arise from abnormal embryonic development of the ocular motor nerve nuclei — a neurodevelopmental, not metabolic, mechanism. There is no known GAG accumulation or lysosomal enzyme deficiency involved in its pathogenesis.
-
-Critically, the evidence pack's own mechanistic assessment concludes that this is **not** a mechanism-level connection. It attributes the high TxGNN score to phenotypic node proximity within the knowledge graph — shared surface-level features such as "ptosis" and "strabismus" that also appear as secondary ocular manifestations of other MPS-related conditions (e.g., corneal clouding) — rather than any causal pathway. This pattern repeats across all five unique candidates in this pack (ranks 1–10, each disease duplicated once): every one carries a similarly high score (97.6%–97.9%) paired with a rationale explicitly stating the mechanistic link is weak, indirect, or absent (e.g., congenital Horner syndrome from sympathetic nerve pathway injury; CCDD-spectrum muscle fibrosis; developmental lacrimal punctum absence). This consistent self-flagging suggests a knowledge-graph topology artifact (dense clustering of ocular/ophthalmologic phenotype nodes) rather than a set of independently plausible repurposing hypotheses.
+| Emne | Indhold |
+|------|----------|
+| Oprindelig Indikation | Ikke formelt registreret (dansk licensieret tekst ikke tilgængelig); beskrevet i støttemateriale som lysosomale lagringssygdomme / enzym-erstatningsterapi (Hunters syndrom, MPS II) |
+| Forudsagt Ny Indikation | Ptose-Strabismus-Ektopiske Pupiller Syndrom |
+| TxGNN Forudsigelsesscore | 97.89% |
+| Bevisniveau | L5 |
+| Markedsstatus Danmark | Ikke markedsført |
+| Antal Markedsføringstilladelser | 0 |
+| Anbefalet Beslutning | Afvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Detaljerede data om lægemidlets virkningsmekanisme er ikke tilgængelige som struktureret felt for dette lægemiddel (markeret som datakløft). Baseret på støttende tekst i denne analysepakke handler Idursulfase om enzym-erstatningsterapi, der nedbryder akkumulerede glycosaminoglykaner (GAG'er — heparan sulfat og dermatan sulfat), som opsamles i lysosomale lagringssygdomme såsom Hunters syndrom.
 
----
+Den forudsagte indikation, Ptose-Strabismus-Ektopiske Pupiller Syndrom, tilhører en helt anden sygdomsfamilie: medfødte kranialnervedysinnervationsforstyrrelser (CCDD'er), som opstår fra abnormal embryonal udvikling af øjets motornervekerner — en neurologisk udviklingsforstyrrelsе, ikke en metabolisk lidelse. Der er ingen kendt GAG-akkumulering eller lysosomal enzymdefekt involveret i patogenesen.
 
-## Literature Evidence
-
-Currently no related literature available.
+Kritisk er det, at analysepakkens egen mekanistiske gennemgang konkluderer, at dette **ikke** er en forbindelse på mekanisme-niveau. Den tilskriver det høje TxGNN-score til fænotypisk node-proksimitet inden for vidensgrafen — delte overfladerelaterede træk såsom "ptose" og "strabismus", som også optræder som sekundære øjensymptomer ved andre MPS-relaterede tilstande (f.eks. hornhindeuklarhed) — snarere end nogen kausal vej. Dette mønster gentager sig på tværs af alle fem unikke kandidater i denne pakke (rangering 1–10, hver sygdom duplikeret én gang): hver enkelt bærer en tilsvarende høj score (97.6%–97.9%) kombineret med en begrundelse, der eksplicit angiver, at den mekanistiske forbindelse er svag, indirekte eller fraværende (f.eks. medfødt Horners syndrom fra skade på den sympatiske nervebane; CCDD-spektrum muskelfibrose; udvikling af manglende tåregrube-punktum). Denne konsistente selvmarkering tyder på en vidensgrafartefakt (tæt klynging af øje-/oftalmologiske fænotype-noder) snarere end et sæt af uafhængigt plausible omformål-hypoteser.
 
 ---
 
-## Denmark Market Information
+## Bevis fra kliniske forsøg
 
-Idursulfase currently has **no marketing authorisation registered** in Denmark (market status: not marketed; 0 authorisations on file). No Laegemiddelstyrelsen national licence or EMA centralised authorisation data is present in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. No key warnings, contraindications, or drug–drug interaction data are currently on file for this drug (DDI query returned no results).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-The evidence level is L5 — a model prediction with zero supporting clinical trials or publications — and the pack's own mechanistic review finds no credible biological pathway linking iduronate-2-sulfatase enzyme replacement to congenital cranial dysinnervation/ptosis-strabismus syndromes. Combined with a Blocking data gap on Danish labeling safety data, this candidate cannot advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Danish SmPC / product label data (warnings, contraindications) — currently a **Blocking** data gap (DG001) that prevents any S1 safety review
-- Verified mechanism of action documentation sourced directly from DrugBank or a regulatory filing (DG002, High severity) rather than inferred from rationale text
-- Independent (non-KG-topology) evidence of biological plausibility for a CCDD-family/ophthalmologic phenotype link, e.g. genetic or pathway-level analysis
-- At least preliminary clinical or case-report evidence before this candidate can move beyond L5
-- Reconciliation of the duplicate candidate entries (5 unique diseases listed twice each) to confirm this isn't a data-pipeline artifact before further triage
+## Markedsinformationer for Danmark
+
+Idursulfase har i øjeblikket **ingen markedsføringstilladelse registreret** i Danmark (markedsstatus: ikke markedsført; 0 tilladelser på fil). Ingen Laegemiddelstyrelsen national licens eller EMA centraliseret godkendelses-data er til stede i denne analysepakke.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel interaktionsdata er i øjeblikket på fil for dette lægemiddel (DDI-forespørgsel returnerede ingen resultater).
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvent**
+
+**Begrundelse:**
+Bevisniveauet er L5 — en modelforudsigelse uden nogen understøttende kliniske forsøg eller publikationer — og pakkens egen mekanistiske gennemgang finder ingen troværdig biologisk vej, der forbinder iduronidsulfatase-enzym-erstatningsterapi til medfødte kranialnervedysinnervationsforstyrrelser/ptose-strabismus syndromer. Kombineret med et Blockering datakløft vedrørende sikkerhedsdata fra danske mærkninger, kan denne kandidat ikke avancere forbi det indledende screeningstrin.
+
+**For at fortsætte kræves følgende:**
+- Dansk SmPC / produktmærkningsdata (advarsler, kontraindikationer) — i øjeblikket er dette et **Blockering** datakløft (DG001), der forhindrer enhver S1 sikkerhedsvurdering
+- Verificeret virkningsmekanisme-dokumentation direkte fra DrugBank eller en regulatorisk indgivelse (DG002, høj alvorlighed) snarere end udledt fra begrundelsestekst
+- Uafhængigt (ikke-vidensgrafs-topologi) bevis for biologisk plausibilitet for en CCDD-familie/oftalmologisk fænotype-forbindelse, f.eks. genetisk eller vej-niveau analyse
+- Mindst foreløbigt klinisk eller kasuistisk bevis, før denne kandidat kan gå videre forbi L5
+- Afstemning af de duplerede kandidat-indgange (5 unikke sygdomme angivet to gange hver) for at bekræfte, at dette ikke er en datapipeline-artefakt før yderligere triage
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

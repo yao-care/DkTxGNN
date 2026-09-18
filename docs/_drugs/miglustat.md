@@ -29,121 +29,122 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Miglustat: From Gaucher Disease to Autosomal Ichthyosis Syndrome with Fatal Disease Course
+# Miglustat: Fra Gauchers sygdom til autosomal ichthyosis-syndrom med fatal sygdomsforløb
 
-## One-Sentence Summary
+## Sammenfatning i en sætning
 
-Miglustat (Zavesca®) is a glucosylceramide synthase (GCS) inhibitor approved in the EU for Gaucher disease type 1 and Niemann-Pick disease type C (NPC), acting via substrate reduction therapy (SRT) to curb toxic glycosphingolipid accumulation.
-The TxGNN model predicts it may be effective for **autosomal ichthyosis syndrome with fatal disease course** with a prediction score of **99.83%**; however, **no clinical trials or supporting publications** have been identified for this indication, and the mechanistic rationale is considered weak.
-This is a multi-indication evidence pack (TW-DB00419-multi) also covering cholesteryl ester storage disease, Krabbe disease, metachromatic leukodystrophy, and Wolman disease — of which **metachromatic leukodystrophy carries the strongest mechanistic rationale** and is recommended for active follow-up.
+Miglustat (Zavesca®) er en glukosylceramidsyntase (GCS)-hæmmer godkendt i EU til Gauchers sygdom type 1 og Niemann-Pick-sygdom type C (NPC), der virker via substratreduktionsterapi (SRT) for at begrænse ophobning af toksiske glykosfingolipi­der.
+TxGNN-modellen forudsiger, at det kan være effektivt til **autosomal ichthyosis-syndrom med fatal sygdomsforløb** med en forudsigelsesscore på **99.83%**; imidlertid er der **ikke identificeret kliniske forsøg eller understøttende publikationer** for denne indikation, og det mekanistiske rationale anses for svagt.
+Dette er en multi-indikations-evidenspakke (TW-DB00419-multi), der også dækker kolesterylesterlageringssygdom, Krabbe-sygdom, metakromatisk leukodystrofi og Wolman-sygdom — hvoraf **metakromatisk leukodystrofi har det stærkeste mekanistiske rationale** og anbefales til aktivt opfølgning.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
+| Emne | Indhold |
 |------|---------|
-| Original Indication | Gaucher disease type 1; Niemann-Pick disease type C (NPC) |
-| Predicted New Indication (Top Rank) | Autosomal ichthyosis syndrome with fatal disease course |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 — model prediction only; no clinical trials or literature identified |
-| Denmark Market Status | Not found in database — see note below |
-| Number of Marketing Authorisations | 0 (database record) |
-| Recommended Decision | **Hold** (top prediction); **Proceed with Guardrails** (metachromatic leukodystrophy, rank 4) |
+| Oprindelig indikation | Gauchers sygdom type 1; Niemann-Pick-sygdom type C (NPC) |
+| Forudsagt ny indikation (Top Rank) | Autosomal ichthyosis-syndrom med fatal sygdomsforløb |
+| TxGNN-forudsigelsesscore | 99.83% |
+| Evidensniveau | L5 — modelforudsigelse alene; ingen kliniske forsøg eller litteratur identificeret |
+| Markedsstatus i Danmark | Ikke fundet i database — se note nedenfor |
+| Antal markedsføringstilladelser | 0 (databasepost) |
+| Anbefalet beslutning | **Vent** (topforudsigelse); **Fortsæt med sikkerhed** (metakromatisk leukodystrofi, rank 4) |
 
-> **⚠️ Registration note:** Miglustat (Zavesca®) holds a centralised EU marketing authorisation (EU/1/02/237) granted by the European Medicines Agency (EMA), which is valid in all EU member states including Denmark. The absence of records in the current database likely reflects a data collection gap rather than a genuine lack of authorisation. Healthcare professionals should consult the EMA product page and the current Danish Summary of Product Characteristics (SmPC) for authoritative registration status before drawing any regulatory conclusions.
-
----
-
-## Multi-Indication Prediction Summary
-
-This evidence pack contains five unique predicted indications (duplicated entries in ranks 1–10 have been deduplicated). All are in the lysosomal storage disorder / sphingolipid metabolism disease space — consistent with Miglustat's known mechanism of action.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|---------------------|-------------|----------------|----------------|
-| 1 | Autosomal ichthyosis syndrome with fatal disease course | 99.83% | L5 | Hold |
-| 2 | Cholesteryl ester storage disease (CESD) | 99.82% | L5 | Research Question |
-| 3 | Krabbe disease | 99.78% | L4 | Research Question |
-| **4** | **Metachromatic leukodystrophy (MLD)** | **99.77%** | **L4** | **Proceed with Guardrails** |
-| 5 | Wolman disease with hypolipoproteinemia and acanthocytosis | 99.76% | L5 | Hold |
-
-> **Editorial note:** Although TxGNN scores are nearly identical across all five indications (difference < 0.1%), the quality of mechanistic rationale varies substantially. Metachromatic leukodystrophy (rank 4) has the clearest pathway-level connection to Miglustat and the highest actionable recommendation in this set.
+> **⚠️ Registreringsmærke:** Miglustat (Zavesca®) har en centraliseret EU-markedsføringstilladelse (EU/1/02/237) tildelt af Det Europæiske Lægemiddelagentur (EMA), som er gyldig i alle EU-medlemsstater, herunder Danmark. Fraværet af registreringer i den aktuelle database afspejler sandsynligvis et hul i dataindsamlingen snarere end et egentligt manglende autorisation. Sundhedsfagfolk bør konsultere EMA-produktsiden og det aktuelle danske produktinformationsblad (SmPC) for pålidelig registreringsstatus, før de drager nogen lovmæssige konklusioner.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Oversigt over multi-indikations-forudsigelse
 
-Detailed mechanism of action data was not retrieved from DrugBank in this evidence pack (data gap DG002). Based on established pharmacological knowledge, Miglustat is an **iminosugar and competitive inhibitor of glucosylceramide synthase (GCS)** — the enzyme responsible for the first committed step in glycosphingolipid (GSL) biosynthesis. By reducing substrate flux into the GSL synthesis pathway, Miglustat lowers the accumulation of glucocerebrosides and downstream sphingolipids that would otherwise overload deficient lysosomal enzymes. Critically, Miglustat has demonstrated **blood-brain barrier (BBB) penetration**, making it uniquely relevant to CNS manifestations of lysosomal storage disorders.
+Denne evidenspakke indeholder fem unikke forudsagte indikationer (duplikerede poster i rank 1–10 er blevet deduplikeret). Alle er inden for området lysosomal lagringssygdom / sfingolipidmetabolisme-sygdom — i overensstemmelse med miglustat's kendt virkemåde.
 
-**Why the top prediction (autosomal ichthyosis syndrome) is mechanistically weak:** Some congenital ichthyoses — notably Sjögren-Larsson syndrome — involve lipid metabolism abnormalities (ALDH3A2 mutations affecting fatty aldehyde catabolism). However, this pathway intersects with Miglustat's GCS inhibition route only distantly, with no shared enzymatic step. The designation "fatal disease course" further indicates an extreme phenotype where substrate reduction therapy offers no established rationale.
+| Rank | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
+|------|---------------------|-------------|----------------|------------|
+| 1 | Autosomal ichthyosis-syndrom med fatal sygdomsforløb | 99.83% | L5 | Vent |
+| 2 | Kolesterylesterlageringssygdom (CESD) | 99.82% | L5 | Forskningsspørgsmål |
+| 3 | Krabbe-sygdom | 99.78% | L4 | Forskningsspørgsmål |
+| **4** | **Metakromatisk leukodystrofi (MLD)** | **99.77%** | **L4** | **Fortsæt med sikkerhed** |
+| 5 | Wolman-sygdom med hypolipoproteinæmi og acanthocytose | 99.76% | L5 | Vent |
 
-**Why other indications in this pack show stronger rationale:** Metachromatic leukodystrophy (MLD, ARSA deficiency) causes sulfatide accumulation via the same glycosphingolipid synthesis route that Miglustat directly suppresses — GCS inhibition reduces upstream galactocerebroside substrate availability, thereby limiting sulfatide production. Miglustat's BBB penetration is an additional advantage for this CNS demyelinating disease, and the concept has been explored in ARSA-knockout mouse models. Krabbe disease (GALC deficiency, psychosine accumulation) shares glycosphingolipid pathway adjacency with supporting data from the Twitcher mouse model. Cholesteryl ester storage disease and Wolman disease involve lysosomal dysfunction that overlaps pathologically with NPC — Miglustat's approved indication — though the enzymatic connection through the LAL/LIPA pathway is indirect.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials have been identified for any of the five predicted indications (autosomal ichthyosis syndrome, cholesteryl ester storage disease, Krabbe disease, metachromatic leukodystrophy, or Wolman disease with hypolipoproteinemia and acanthocytosis) in the ClinicalTrials.gov, ICTRP, or related registries search conducted on 2026-03-10.
-
-> **Recommendation:** A broader literature and trial search using disease synonyms (e.g., "sulfatide lipidosis" and "ARSA deficiency" for MLD; "globoid cell leukodystrophy" for Krabbe disease; "LAL deficiency" for CESD/Wolman) and expanded search windows is advised before concluding that no evidence exists.
+> **Redaktionel note:** Selvom TxGNN-scorerne er næsten identiske på tværs af alle fem indikationer (forskel < 0.1%), varierer kvaliteten af det mekanistiske rationale væsentligt. Metakromatisk leukodystrofi (rank 4) har den klareste forbindelse på stofvejsniveauet til miglustat og den højeste brugbare anbefaling i dette sæt.
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-No relevant publications have been identified linking Miglustat to any of the five predicted indications in the PubMed search conducted on 2026-03-10.
+Detaljerede data om virkningsmekanisme blev ikke hentet fra DrugBank i denne evidenspakke (datahul DG002). Baseret på etableret farmakologisk viden er miglustat en **iminosukker og konkurrencedygtigt inhibitor af glukosylceramidsyntase (GCS)** — enzymet ansvarlig for det første forpligtende trin i glykosfingolipi­dsyntesen. Ved at reducere substrattransporten til GSL-syntesevejenen sænker miglustat ophobningen af glukocerebrosider og nedstrøms sfingolipider, der ellers ville overbelaste defekt lysosomal enzymer. Kritisk set har miglustat demonstreret **blod-hjerne-barrieregennemtrængning (BBB)**, hvilket gør det unikt relevant for CNS-manifestationer af lysosomal lagringssygdomme.
 
-> **Recommendation:** As above, expanded searches using MeSH terms, disease synonyms, and broader glycosphingolipid/SRT-related queries may yield relevant preclinical literature, particularly for MLD and Krabbe disease.
+**Hvorfor topforudsigelsen (autosomal ichthyosis-syndrom) er mekanistisk svag:** Nogle medfødte ichthyoser — især Sjögren-Larsson-syndrom — involverer lipidmetabolisme­abnormiteter (ALDH3A2-mutationer, der påvirker fedtaldehydafbygning). Imidlertid krydser denne metaboliske vej kun tangentielt med miglustat's GCS-inhibitionsvej og uden et delt enzymatisk trin. Betegnelsen »fatal sygdomsforløb« indikerer yderligere et ekstremt fænotype, hvor substratreduktionsterapi ikke tilbyder nogen etableret begrundelse.
 
----
-
-## Denmark Market Information
-
-No marketing authorisation records for Miglustat were returned from the Danish Medicines Agency (Laegemiddelstyrelsen) database query.
-
-> As noted above, this is likely a data collection gap. Zavesca® (miglustat, 100 mg capsules) holds centralised EU authorisation EU/1/02/237 (Actelion/Janssen) for Gaucher disease type 1 and NPC neurological manifestation stabilisation; this authorisation is directly valid in Denmark. Prescribers should verify current Danish product information via the EMA product page or Laegemiddelstyrelsen's Medicinprodukter database.
+**Hvorfor andre indikationer i denne pakke viser stærkere begrundelse:** Metakromatisk leukodystrofi (MLD, ARSA-mangel) forårsager sulfatidophobning via den samme glykosfingolipi­dsyntesevej, som miglustat direkte undertrykker — GCS-inhibition reducerer opstrøms galaktocerebrosid-substrat­tilgængelighed og begrænser således sulfatidproduktion. Miglustat's blod-hjerne-barrieregennemtrængning er en yderligere fordel for denne CNS-demyeliniserende sygdom, og konceptet er blevet udforsket i ARSA-knockout-musemodeller. Krabbe-sygdom (GALC-mangel, psychosin-ophobning) deler glykosfingolipi­dvej-nærhed med understøttende data fra Twitcher-musemodellen. Kolesterylesterlageringssygdom og Wolman-sygdom involverer lysosomal dysfunktion, der overlapper patologisk med NPC — miglustat's godkendt indikation — selvom den enzymatiske forbindelse gennem LAL/LIPA-vejene er indirekte.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøg
 
-No safety data (key warnings, contraindications, or drug interactions) was retrieved for Miglustat during evidence collection for this evidence pack.
+Der er ikke identificeret kliniske forsøg for nogen af de fem forudsagte indikationer (autosomal ichthyosis-syndrom, kolesterylesterlageringssygdom, Krabbe-sygdom, metakromatisk leukodystrofi eller Wolman-sygdom med hypolipoproteinæmi og acanthocytose) i søgning i ClinicalTrials.gov, ICTRP eller relaterede registre udført på 2026-03-10.
 
-Please refer to the approved **Summary of Product Characteristics (SmPC) for Zavesca®** for full safety information before any clinical or research use.
-
----
-
-## Conclusion and Next Steps
-
-### Primary Prediction (Rank 1 — Autosomal Ichthyosis Syndrome with Fatal Disease Course)
-
-**Decision: Hold**
-
-**Rationale:**
-The mechanistic link between Miglustat's GCS inhibition and autosomal ichthyosis is distant and unsupported by any clinical trial or published literature (L5 evidence only). The "fatal disease course" designation and absence of a plausible SRT intervention rationale make this an unfavourable candidate for development at this time.
+> **Anbefaling:** En bredere litteratur- og forsøgssøgning ved hjælp af sygdomssynonymer (f.eks. »sulfatidlipidose« og »ARSA-mangel« for MLD; »globoid celle-leukodystrofi« for Krabbe-sygdom; »LAL-mangel« for CESD/Wolman) og udvidede søgeperioder anbefales, før man konkluderer, at der ikke findes nogen bevis.
 
 ---
 
-### Priority Follow-Up Recommendation — Metachromatic Leukodystrophy (MLD, Rank 4)
+## Litteraturbevis
 
-**Decision: Proceed with Guardrails**
+Der er ikke identificeret relevant publikationer, der forbinder miglustat med nogen af de fem forudsagte indikationer i PubMed-søgningen udført på 2026-03-10.
 
-**Rationale:**
-MLD is mechanistically the most compelling indication in this pack. Miglustat's direct suppression of upstream glycosphingolipid substrate and its established BBB penetration provide a biologically coherent rationale for the CNS demyelinating phenotype of MLD, supported by preclinical animal model data (L4 evidence).
-
-**To proceed, the following is needed:**
-
-- **Close the data gaps:** Retrieve Miglustat's DrugBank MOA entry (DG002) and the Danish/EMA SmPC safety profile (DG001)
-- **Expanded literature search:** Use broader MeSH terms ("arylsulfatase A deficiency", "sulfatide lipidosis", "SRT leukodystrophy") to identify any published preclinical or early-phase data
-- **Trial registry re-query:** Search ClinicalTrials.gov with NCT query terms for "miglustat AND leukodystrophy" and "substrate reduction AND MLD"
-- **Regulatory pathway review:** Assess whether MLD's orphan disease designation in the EU (Regulation EC 141/2000) opens accelerated regulatory routes for a repurposing dossier
-- **Specialist consultation:** Engage Danish or Nordic lysosomal storage disease specialists (e.g., at Copenhagen University Hospital – Rigshospitalet) to assess clinical feasibility and patient population size
-- **Comparative context:** Review arylsulfatase A gene therapy approvals (Libmeldy/atidarsagene autotemcel, EMA approved 2020) to understand the current standard of care and where oral SRT might complement or serve patients ineligible for gene therapy
+> **Anbefaling:** Som ovenfor kan udvidede søgninger ved hjælp af MeSH-termer, sygdomssynonymer og bredere glykosfingolipi­d/SRT-relaterede forespørgsler give relevant præklinisk litteratur, især for MLD og Krabbe-sygdom.
 
 ---
 
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
-*Data cutoff: 2026-04-04 | Candidate ID: TW-DB00419-multi | Evidence Pack version: v4*
+## Markedsinformation for Danmark
+
+Ingen markedsføringstilladelsesregistreringer for miglustat blev returneret fra Lægemiddelstyrelsens databasesøgning.
+
+> Som nævnt ovenfor er dette sandsynligvis et hul i dataindsamlingen. Zavesca® (miglustat, 100 mg kapsler) har centraliseret EU-tilladelse EU/1/02/237 (Actelion/Janssen) til Gauchers sygdom type 1 og stabilisering af NPC-neurologiske manifestationer; denne tilladelse er direkte gyldig i Danmark. Læger bør verificere aktuel dansk produktinformation via EMA's produktside eller Lægemiddelstyrelsens Medicinprodukter-database.
+
+---
+
+## Sikkerhedshensyn
+
+Ingen sikkerhedsdata (vigtige advarsler, kontraindikationer eller lægemiddelinteraktioner) blev hentet for miglustat under bevisindsamling for denne evidenspakke.
+
+Se venligst det godkendt **Produktinformationsblad (SmPC) for Zavesca®** for fuldstændig sikkerhedsinformation før enhver klinisk eller forskningsmæssig brug.
+
+---
+
+## Konklusion og næste skridt
+
+### Primær forudsigelse (Rank 1 — Autosomal ichthyosis-syndrom med fatal sygdomsforløb)
+
+**Beslutning: Vent**
+
+**Begrundelse:**
+Det mekanistiske link mellem miglustat's GCS-inhibition og autosomal ichthyosis er fjernt og ikke understøttet af nogen klinisk forsøg eller publiceret litteratur (kun L5-bevis). Betegnelsen »fatal sygdomsforløb« og fraværet af et plausibelt SRT-interventionsrationale gør dette til en ugunstig kandidat for udvikling på dette tidspunkt.
+
+---
+
+### Prioriterings­opfølgnings­anbefaling — Metakromatisk leukodystrofi (MLD, Rank 4)
+
+**Beslutning: Fortsæt med sikkerhed**
+
+**Begrundelse:**
+MLD er mekanistisk den mest overbevisende indikation i denne pakke. Miglustat's direkte undertrykkelse af opstrøms glykosfingolipi­dsubstrat og dets etablerede blod-hjerne-barrieregennemtrængning giver en biologisk kohærent begrundelse for MLD's CNS-demyeliniserende fænotype, understøttet af prækliniske dyremodels data (L4-bevis).
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Luk datahullerne:** Hent miglustat's DrugBank MOA-post (DG002) og den danske/EMA SmPC-sikkerhedsprofil (DG001)
+- **Udvidet litteratursøgning:** Brug bredere MeSH-termer (»arylsulfatase A-mangel«, »sulfatidlipidose«, »SRT-leukodystrofi«) til at identificere publiceret prækliniske eller tidlig-fase data
+- **Prøveregistrering-gensøgning:** Søg ClinicalTrials.gov med NCT-søgningstermer for "miglustat AND leukodystrophy" og "substrate reduction AND MLD"
+- **Lovmæssig vejgennemgang:** Vurder, om MLD's designering som sjælden sygdom i EU (Forordning EF 141/2000) åbner accelererede lovmæssige veje for en ansøgning om godkendelse til ny indikation
+- **Specialistconsultation:** Inddraging af danske eller nordiske specialister inden for lysosomal lagringssygdomme (f.eks. på Københavns Universitetshospital – Rigshospitalet) for at vurdere klinisk gennemførlighed og patientpopulationsstørrelse
+- **Sammenlignende sammenhæng:** Gennemgang af arylsulfatase A-genterapi godkendelser (Libmeldy/atidarsagene autotemcel, EMA godkendt 2020) for at forstå nuværende behandlingsstandard og hvor oral SRT kan supplere eller tjene patienter, der ikke er berettigede til genterapi
+
+---
+
+*Denne rapport er genereret til forskningsreferenceformål alene og udgør ikke medicinske råd. Alle kandidater til lægemiddelhyldning kræver klinisk validering før enhver terapeutisk anvendelse.*
+*Datakutoff: 2026-04-04 | Kandidat-id: TW-DB00419-multi | Evidenspakkeverision: v4*
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,80 +29,79 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report template (v5) supplied in the prompt to structure this directly — no additional skill applies to this content-generation task.
+# Rivaroxaban: Fra Antikoagulation (VTE/Atrieflimmer) til Reumatoid Arthritis
 
-# Rivaroxaban: From Anticoagulation (VTE/Atrial Fibrillation) to Rheumatoid Arthritis
+## Sammenfatning på en sætning
 
-## One-Sentence Summary
-
-Rivaroxaban is a direct Factor Xa inhibitor established for venous thromboembolism (VTE) treatment/prevention and stroke prevention in non-valvular atrial fibrillation. The TxGNN model predicts a possible association with **Rheumatoid Arthritis**, but currently **0 clinical trials** and only **3 publications** support this direction, and none of them test rivaroxaban's efficacy in rheumatoid arthritis directly.
+Rivaroxaban er en direkte Factor Xa-inhibitor etableret til behandling/forebyggelse af venøs tromboembolisme (VTE) og slagforebyggelse ved ikke-valvulær atrieflimmer. TxGNN-modellen forudsiger en mulig association med **Reumatoid Arthritis**, men i øjeblikket **0 kliniske forsøg** og kun **3 publikationer** understøtter denne retning, og ingen af dem tester rivaroxabans virkningsgrad ved reumatoid arthritis direkte.
 
 ---
 
-## Quick Overview
+## Hurtig oversigt
 
-| Item | Content |
-|------|------|
-| Original Indication | Anticoagulation — VTE treatment/prevention, stroke prevention in non-valvular AF (inferred from trial/literature context; no Danish licence text available) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action (MOA) data for rivaroxaban is currently a data gap in DrugBank. Based on established clinical knowledge referenced within the supporting evidence (e.g. the EINSTEIN CYP cohort study, non-valvular AF adherence studies), rivaroxaban is a direct, selective Factor Xa inhibitor used for VTE treatment/prevention and stroke prevention in non-valvular atrial fibrillation.
-
-Rheumatoid arthritis (RA) is a chronic autoimmune inflammatory joint disease. The evidence pack's own mechanistic assessment concludes that rivaroxaban has **no known anti-inflammatory or immunomodulatory mechanism** that would act on RA synovitis pathology. The only plausible indirect link is that RA patients, due to chronic-inflammation-driven hypercoagulability, may have elevated VTE risk and could therefore need anticoagulation for a thrombotic complication — not as treatment for RA itself.
-
-Consistent with this, the supporting literature (a VTE review, a thrombin-generation-assay study in autoimmune disease, and a DOAC adherence cohort) does not test rivaroxaban's efficacy in RA. This prediction should be treated as a hypothesis-generating knowledge-graph signal rather than one with independent mechanistic or clinical support, which is why the evidence level is capped at L4 and the recommendation is Hold.
+| Emne | Indhold |
+|------|---------|
+| Original indikation | Antikoagulation — VTE-behandling/forebyggelse, slagforebyggelse ved ikke-valvulær atrieflimmer (udledt fra forsøgs-/litteraturkontekst; ingen dansk licenseret tekst tilgængelig) |
+| Forudsagt ny indikation | Reumatoid Arthritis |
+| TxGNN-forudsigelsesværdi | 99.57% |
+| Bevisniveau | L4 |
+| Status på det danske marked | Ikke markedsført |
+| Antal markedsføringstilladelser | 0 |
+| Anbefalet beslutning | Afvente |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forudsigelse rimelig?
 
-Currently no related clinical trials registered.
+Detaljerede data om virkningsmekanisme (MOA) for rivaroxaban er i øjeblikket et datahul i DrugBank. Baseret på etableret klinisk viden, der refereres til i den understøttende evidens (f.eks. EINSTEIN CYP-kohortestudiet, ikke-valvulær atrieflimmer-adhærensstudier), er rivaroxaban en direkte, selektiv Factor Xa-inhibitor, der bruges til VTE-behandling/forebyggelse og slagforebyggelse ved ikke-valvulær atrieflimmer.
 
----
+Reumatoid arthritis (RA) er en kronisk autoimmun inflammatorisk ledsygdom. Bevispakkens egen mekanistiske vurdering konkluderer, at rivaroxaban **ikke har kendt anti-inflammatorisk eller immunomodulerende mekanisme**, som ville virke på RA-synovitis-patologi. Det eneste plausible indirekte link er, at RA-patienter på grund af kronisk-inflammation-drevet hyperkoagulabilitet kan have forhøjet VTE-risiko og kunne derfor have behov for antikoagulation for en trombotisk komplikation — ikke som behandling for RA selv.
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Review of lower-extremity VTE diagnosis/treatment; DVT incidence 88–112/100,000 person-years, recurrence 20–36% over 10 years — general anticoagulation context, not RA-specific |
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PloS one | Adherence comparison of rivaroxaban vs. apixaban in non-valvular atrial fibrillation patients — unrelated to RA |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Mechanistic/Lab | La Revue de médecine interne | Thrombin generation assay used to assess hypercoagulability/cardiovascular risk in autoimmune disease (e.g. antiphospholipid syndrome) — a lab coagulation marker study, not an RA efficacy study of rivaroxaban |
+I overensstemmelse hermed tester den understøttende litteratur (en VTE-review, et thrombin-generation-assay-studium i autoimmun sygdom og en DOAC-adhærenscohort) ikke rivaroxabans virkningsgrad ved RA. Denne forudsigelse bør behandles som et hypotesegenererende vidensgrafsignal snarere end en med uafhængig mekanistisk eller klinisk understøttelse, hvilket er grunden til, at bevisniveauet er begrænset til L4, og anbefalingen er at afvente.
 
 ---
 
-## Denmark Market Information
+## Klinisk forsøgsevidence
 
-No Danish marketing authorisation is recorded in this evidence pack (0 licences on file; market status: Not marketed). This should be independently verified against the Laegemiddelstyrelsen registry before any regulatory conclusion is drawn, since the underlying data source for Danish licence records was not available at the time this pack was generated.
-
----
-
-## Safety Considerations
-
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information. (Key warnings, contraindications, and drug-interaction data were not available in this evidence pack; the missing SmPC warning/contraindication data is flagged as a **blocking** data gap that prevents a full S1 safety assessment.)
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Vigtige resultater |
+|------|-----|------|---------|---------|
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Oversigt over diagnose/behandling af VTE i de nedre ekstremiteter; DVT-forekomst 88–112/100.000 personår, recidiv 20–36% over 10 år — generel antikoagulationskontekst, ikke RA-specifik |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohorte | PloS one | Adhærenssammenligning af rivaroxaban vs. apixaban hos patienter med ikke-valvulær atrieflimmer — uafhængig af RA |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Mekanistisk/Lab | La Revue de médecine interne | Thrombin-generations-assay brugt til at vurdere hyperkoagulabilitet/kardiovaskulær risiko ved autoimmun sygdom (f.eks. antifosfolipid-syndrom) — et laboratorie-koagulationsmarkør-studium, ikke et virkningsgradstudie af rivaroxaban ved RA |
 
-**Rationale:**
-There is no direct mechanistic rationale linking Factor Xa inhibition to RA pathology, no clinical trials evaluating rivaroxaban in RA, and the supporting literature addresses unrelated anticoagulation contexts rather than RA efficacy. A blocking data gap in SmPC warnings/contraindications also prevents a full safety assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SmPC warnings and contraindications (blocking data gap, DG001)
-- Detailed mechanism-of-action data (DG002)
-- Confirmation of Danish marketing authorisation status directly from Laegemiddelstyrelsen
-- Dedicated preclinical or clinical studies testing rivaroxaban's effect on RA disease activity, should further investigation be warranted
+## Informationer om det danske marked
+
+Der er registreret ingen dansk markedsføringstilladelse i denne evidenspakke (0 licenser på fil; markedsstatus: Ikke markedsført). Dette bør uafhængigt bekræftes mod Lægemiddelstyrelsets register, før nogen regulatorisk konklusion drages, da den underliggende datakilde for danske licenser ikke var tilgængelig på det tidspunkt, denne pakke blev genereret.
+
+---
+
+## Sikkerhedshensyn
+
+Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformationer. (Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i denne evidenspakke; de manglende SmPC-advarsels-/kontraindikationsdata er markeret som et **blokeringsdatahul**, der forhindrer en fuld S1-sikkerhedsvurdering.)
+
+---
+
+## Konklusion og næste trin
+
+**Beslutning: Afvente**
+
+**Begrundelse:**
+Der er ingen direkte mekanistisk begrundelse for at forbinde Factor Xa-hæmning til RA-patologi, ingen kliniske forsøg, der evaluerer rivaroxaban ved RA, og den understøttende litteratur omhandler urelaterede antikoagulationskontekster snarere end RA-virkningsgrad. Et blokeringsdatahul i SmPC-advarsler/kontraindikationer forhindrer også en fuld sikkerhedsvurdering.
+
+**For at fortsætte, er følgende nødvendigt:**
+- TFDA/SmPC-advarsler og kontraindikationer (blokeringsdatahul, DG001)
+- Detaljerede virkningsmekanisme-data (DG002)
+- Bekræftelse af status for dansk markedsføringstilladelse direkte fra Lægemiddelstyrelsen
+- Dedikerede prekliniske eller kliniske studier, der tester rivaroxabans effekt på RA-sygdomsaktivitet, hvis yderligere undersøgelse er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

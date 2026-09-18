@@ -29,80 +29,81 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ibuprofen: From Pain and Inflammation to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofen: Fra smerter og betændelse til akromesomelik dysplasi, Hunter-Thompson type
 
-## One-Sentence Summary
+## Sammenfatning på én sætning
 
-Ibuprofen is a well-established non-steroidal anti-inflammatory drug (NSAID), widely used for the treatment of pain, fever, and inflammatory conditions. The TxGNN model predicts it may have activity in **Acromesomelic Dysplasia, Hunter-Thompson Type** — a rare congenital skeletal dysplasia caused by CDMP1/GDF5 gene mutations. This prediction is supported by **no clinical trials and no published literature**, and represents model-level speculation only (Evidence Level L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Pain, fever, and inflammatory conditions (established NSAID) |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Denmark Market Status | Danish regulatory data not retrieved in this Evidence Pack |
-| Number of Marketing Authorisations | Danish regulatory data not retrieved in this Evidence Pack |
-| Recommended Decision | Hold |
+Ibuprofen er et velkendt non-steroidt antiinflammatorisk lægemiddel (NSAID), der er bredt anvendt til behandling af smerter, feber og betændelsestilstande. TxGNN-modellen forudsiger, at det kan have aktivitet ved **Acromesomelic Dysplasia, Hunter-Thompson Type** — en sjælden medfødt skeletal dysplasi forårsaget af mutationer i CDMP1/GDF5-genet. Denne prognose understøttes af **ingen kliniske forsøg og ingen offentliggjort litteratur**, og repræsenterer alene modelbaseret spekulation (evidensniveau L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversigt
 
-Detailed mechanism of action data was not retrieved in this Evidence Pack. Based on established pharmacology, Ibuprofen inhibits cyclooxygenase enzymes (COX-1 and COX-2), thereby reducing synthesis of prostaglandin E2 (PGE2). This underpins its well-characterised anti-inflammatory, analgesic, and antipyretic properties across a broad range of inflammatory and pain conditions.
-
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare autosomal recessive skeletal dysplasia caused by loss-of-function mutations in the *CDMP1/GDF5* gene, which encodes a member of the bone morphogenetic protein (BMP) family. The condition is characterised by shortening of the middle and distal limb segments (acromesomelia) arising during embryonic skeletal development, with no established inflammatory driver of disease progression.
-
-The proposed mechanistic link — that COX inhibition and reduced PGE2 might indirectly modulate BMP/GDF signalling and osteoblast activity — is biologically speculative and unsupported by experimental or clinical data. PGE2 does participate in bone remodelling, but its relevance to a congenital structural defect driven by GDF5 haploinsufficiency is not established. The high TxGNN prediction score most likely reflects topological proximity between the ibuprofen node and rare skeletal disease nodes within the knowledge graph, rather than a genuine biological connection. This interpretation is consistent with the complete absence of supporting clinical trials or publications.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Indhold |
+|-------|---------|
+| Original indikation | Smerter, feber og betændelsestilstande (etableret NSAID) |
+| Forudsagt ny indikation | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| TxGNN-prognosescore | 99.74% |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Danske regulatoriske data blev ikke hentet i denne evidenspakke |
+| Antal markedsgodkendelser | Danske regulatoriske data blev ikke hentet i denne evidenspakke |
+| Anbefalet afgørelse | Afvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prognose fornuftig?
 
-Currently no related literature available.
+Detaljerede data om mekanisme for lægemidlet blev ikke hentet i denne evidenspakke. Baseret på etableret farmakologi hæmmer ibuprofen cyklooxygenase-enzymer (COX-1 og COX-2), hvilket reducerer syntesen af prostaglandin E2 (PGE2). Dette danner grundlaget for dets velkarakteriserede antiinflammatoriske, analgetiske og antifebrile egenskaber på tværs af et bredt spektrum af betændelsestilstande og smertetilstande.
 
----
+Acromesomelik dysplasi, Hunter-Thompson type, er en sjælden autosomalt recessiv skeletal dysplasi forårsaget af loss-of-function mutationer i CDMP1/GDF5-genet, som koder for et medlem af BMP-familien (knogleinduktive proteiner). Tilstanden er karakteriseret ved forkortelse af de midterste og distale segmenter af ekstremiteterne (acromesomelia) som opstår under embryonal skeletudvikling, uden nogen etableret betændelsesdriver for sygdomsprogression.
 
-## Denmark Market Information
-
-Danish regulatory data (Lægemiddelstyrelsen) was not successfully retrieved in this Evidence Pack — only DrugBank data was ingested. Ibuprofen (DB01050) is a long-established NSAID with widespread use across European markets, and Danish authorisations are expected to exist under multiple brand names and dosage forms. Healthcare professionals should consult the Lægemiddelstyrelsen product registry directly for current authorisation status, approved indications, and Summary of Product Characteristics (SmPC).
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|-------------|-------------|---------------------|
-| — | Data not retrieved | — | Consult Lægemiddelstyrelsen registry |
+Det foreslåede mekanistiske link — at COX-hæmning og reduceret PGE2 indirekte kan modulere BMP/GDF-signalering og osteoblast-aktivitet — er biologisk spekulativ og ikke understøttet af eksperimentelle eller kliniske data. PGE2 deltager ganske vist i benremodellering, men dens relevans til en medfødt strukturel defekt drevet af GDF5-haploinsufficienci er ikke etableret. Den høje TxGNN-prognosescore afspejler mest sandsynligt topologisk nærhed mellem ibuprofen-knuden og sjælden knogledysplasi-knuder inden for vidensgrafen, snarere end en ægte biologisk forbindelse. Denne fortolkning er i overensstemmelse med fraværet af kliniske forsøg eller publikationer, der understøtter dette.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøg
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for safety information.
+Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Der er i øjeblikket ingen tilgængelig relateret litteratur.
 
-**Rationale:**
-All top-ranked TxGNN predictions for Ibuprofen map exclusively to rare congenital skeletal dysplasias (acromesomelic dysplasia, brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrome) — structural developmental defects with no inflammatory aetiology. Ibuprofen's COX-inhibition mechanism has no plausible disease-modifying rationale for these conditions, and zero clinical trials or publications support any of these predictions.
+---
 
-**To proceed, the following is needed:**
+## Markedsinformation for Danmark
 
-- **Danish regulatory data** must be retrieved from Lægemiddelstyrelsen to confirm current authorisation status, approved indications, and SmPC safety information
-- **Mechanism of action data** should be retrieved from the DrugBank API (DG002) to enable formal mechanistic linkage analysis
-- **TFDA SmPC safety data** (DG001) must be retrieved before any safety evaluation can proceed
-- These TxGNN predictions should be flagged for **model quality review**: the clustering of rare skeletal dysplasias as top-ranked candidates for a common NSAID strongly suggests a knowledge graph topology artefact (topology clustering artifact) rather than genuine repurposing signal
-- If future investigation is desired, a **rare disease or clinical pharmacology specialist** should assess biological plausibility before any further development steps are considered
+Danske regulatoriske data (Lægemiddelstyrelsen) blev ikke hentet med succes i denne evidenspakke — kun DrugBank-data blev indsat. Ibuprofen (DB01050) er et længe etableret NSAID med udbredt brug på tværs af europæiske markeder, og danske godkendelser forventes at eksistere under flere mærkenavne og doseringsformer. Sundhedsfagfolk bør konsultere Lægemiddelstyrelses produktregister direkte for aktuel godkendelsestatus, godkendte indikationer og produktinformation (SmPC).
+
+| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+|------|---------|-------------|---------------------|
+| — | Data blev ikke hentet | — | Se Lægemiddelstyrelses register |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se venligst produktinformationen (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afvente**
+
+**Begrundelse:**
+Alle toprangerede TxGNN-prognoser for ibuprofen kortlægges udelukkende til sjældne medfødte skeletal dysplasier (acromesomelik dysplasi, brachyolmia-amelogenesis imperfecta-syndrom, myosclerosis, brachyolmia, brachydactyly-syndactyly-syndrom) — strukturelle udviklingsfejl uden betændelsesætiologi. Ibuprofen's COX-hæmmingsmekanisme har ingen rimelig sygdomsmodificerende begrundelse for disse tilstande, og ingen kliniske forsøg eller publikationer understøtter nogen af disse prognoser.
+
+**For at fortsætte er følgende nødvendigt:**
+
+- **Danske regulatoriske data** skal hentes fra Lægemiddelstyrelsen for at bekræfte aktuel godkendelsestatus, godkendte indikationer og produktinformation (SmPC)
+- **Data om lægemidlets virkningsmekanisme** skal hentes fra DrugBank API (DG002) for at muliggøre formel mekanistisk tilknytningsanalyse
+- **TFDA SmPC-sikkerhedsdata** (DG001) skal hentes, før nogen sikkerhedsvurdering kan fortsætte
+- Disse TxGNN-prognoser bør markeres til **modelkvalitetsvurdering**: klyngen af sjældne skeletal dysplasier som toprangerede kandidater for et almindeligt NSAID tyder stærkt på et vidensgrafs topologi-artefakt (topologi-klynge-artefakt) snarere end ægte omdisponeringssignal
+- Hvis fremtidig undersøgelse ønskes, bør en **specialist i sjældne sygdomme eller klinisk farmakolog** vurdere biologisk plausibilitet, før eventuelle yderligere udviklingsskrin overvejes
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -29,91 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Belatacept: Kidney Transplant Rejection Prevention — No Repurposing Predictions Available
+# Belatacept: Forebyggelse af abstodsning efter nyreftransplantation — Ingen forudsigelser for lægemidlets nye indikationer tilgængelige
 
-## Summary
+## Sammenfatning
 
-Belatacept (DrugBank ID: DB06681) is a selective T-cell costimulation blocker approved internationally under the brand name **Nulojix** for prevention of acute rejection in adult kidney transplant recipients.
-**The TxGNN model did not generate any repurposing predictions** for this candidate in the current run, and the drug has no recorded marketing authorisations in Denmark.
-Critical data gaps — including mechanism of action detail and formal safety data — must be resolved before a full evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Prevention of acute rejection in adult kidney transplant recipients (international approval; no Danish MA on file) |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — No predictions available |
-| Denmark Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+Belatacept (DrugBank ID: DB06681) er en selektiv T-celle-kostimulatorblokkeder godkendt internationalt under mærkenavnet **Nulojix** til forebyggelse af akut afstødning hos voksne patienter efter nyreftransplantation.
+**TxGNN-modellen genererede ingen forudsigelser for nye indikationer** for denne kandidat i nuværende køring, og lægemidlet har ingen registrerede markedsautoriseringer i Danmark.
+Kritiske datahul – herunder oplysninger om virkningsmekanisme og formelle sikkerhedsdata – skal løses, før en fuldstændig evaluering kan påbegyndes.
 
 ---
 
-## Why No Predictions Were Generated
+## Hurtigt overblik
 
-The TxGNN pipeline successfully identified Belatacept in DrugBank (query log entry 2, status: `success`), but returned zero repurposing candidate indications. This is likely caused by one or more of the following:
-
-1. **Score threshold filtering**: All candidate disease–drug association scores may have fallen below the minimum threshold applied in this prediction run.
-2. **Knowledge graph coverage for biologics**: Belatacept is a large fusion protein (CTLA-4-Ig), not a small-molecule drug. The TxGNN knowledge graph has historically fewer mechanistic edges for biologics, which can impair embedding quality and reduce predicted scores.
-3. **Missing MOA data (DG002)**: Without mechanism of action annotations in the graph, the drug node is under-connected, reducing the reach of graph-based inference.
-
-A re-run after resolving data gaps DG001 and DG002 — or with a relaxed score threshold — may yield candidate predictions in a future cycle.
-
----
-
-## Drug Background
-
-Although mechanism of action data is absent from the Evidence Pack, Belatacept is a well-characterised biological agent in international literature:
-
-- **Class**: Fusion protein (CTLA-4-Ig); selective T-cell costimulation blocker
-- **Mechanism**: Binds CD80 and CD86 on antigen-presenting cells, blocking the CD28 co-stimulatory signal required for full T-cell activation — thereby suppressing the alloimmune response without calcineurin inhibition
-- **International approval**: EMA-centralised authorisation as **Nulojix** (EU/1/11/694) for prophylaxis of acute rejection in adult renal transplant recipients; FDA-approved since 2011
-- **Route**: Intravenous infusion (hospital/specialist setting)
-
-The costimulation blockade mechanism is biologically plausible for indications beyond renal transplantation — for example other solid-organ transplants, graft-versus-host disease, and certain autoimmune diseases. However, no formal TxGNN predictions are available at this time, and no repurposing recommendation can therefore be made.
+| Element | Indhold |
+|---------|---------|
+| Oprindelig indikation | Forebyggelse af akut afstødning hos voksne patienter efter nyreftransplantation (international godkendelse; ingen dansk MA på fil) |
+| Forudsagt ny indikation | Ingen forudsigelser genereret |
+| TxGNN forudsigelsesscore | N/A |
+| Bevisniveau | N/A — Ingen forudsigelser tilgængelige |
+| Markedsstatus i Danmark | Ikke markedsført |
+| Antal markedsautoriseringer | 0 |
+| Anbefalet afgørelse | Afventer |
 
 ---
 
-## Denmark Market Information
+## Hvorfor der blev genereret ingen forudsigelser
 
-No marketing authorisations for Belatacept are recorded in the current dataset for Denmark. Although the EMA centralised authorisation for Nulojix is valid across all EU member states, the Evidence Pack reflects that the product is not actively marketed in Denmark.
+TxGNN-pipelinen identificerede med succes Belatacept i DrugBank (query log entry 2, status: `success`), men returnerede nul omdestinerings-kandidat-indikationer. Dette skyldes sandsynligvis en eller flere af følgende:
 
-| Item | Status |
-|------|--------|
-| National MA (Laegemiddelstyrelsen) | None on file |
-| EMA Centralised MA (Nulojix, EU/1/11/694) | Not reflected in current dataset — verify directly with EMA |
-| Market Status | Not marketed |
+1. **Tærskelfiltrering for score**: Alle kandidat-sygdoms–lægemiddel-associationsscorer kan være faldet under minimumsværdien i denne forudsigelseskørsel.
+2. **Dækning af vidensgrafen for biologiske lægemidler**: Belatacept er et stort fusionsprotein (CTLA-4-Ig), ikke et småmolekyle-lægemiddel. TxGNN-vidensgrafen har historisk færre mekanistiske kanter for biologiske lægemidler, hvilket kan forværre embedding-kvaliteten og reducere forudsagte scorer.
+3. **Manglende MOA-data (DG002)**: Uden oplysninger om virkningsmekanisme i grafen er lægemiddelknuden dårligt forbundet, hvilket reducerer rækkevidde af grafbaseret inferens.
 
-Healthcare professionals requiring access in Denmark should check with the Danish Medicines Agency (Laegemiddelstyrelsen) regarding named-patient or hospital import programmes.
+En omkørsel efter løsning af datahul DG001 og DG002 – eller med en slækket score-tærskel – kan give kandidat-forudsigelser i en fremtidig cyklus.
 
 ---
 
-## Safety Considerations
+## Lægemidlets baggrund
 
-No safety data is available in the current Evidence Pack. Please refer to the approved Summary of Product Characteristics (SmPC) for Nulojix for complete safety information.
+Selvom oplysninger om virkningsmekanisme mangler fra Evidence Pack, er Belatacept en velkarakteriseret biologisk agens i international litteratur:
 
-> **Note for prescribers**: Published international SmPCs for Nulojix carry a prominent warning regarding **post-transplant lymphoproliferative disorder (PTLD)** — with elevated risk in EBV-seronegative patients — and increased susceptibility to serious infections including progressive multifocal leukoencephalopathy (PML). These are provided here for contextual awareness only; the Danish SmPC should be consulted for locally approved prescribing information.
+- **Klasse**: Fusionsprotein (CTLA-4-Ig); selektiv T-celle-kostimulatorblokkeder
+- **Mekanisme**: Binder CD80 og CD86 på antigen-præsenterende celler, blokerer CD28-kostimuleringssignalet, der er påkrævet for fuldstændig T-celle-aktivering — og undertryker derved alloimmunsvar uden calcineurin-hæmning
+- **International godkendelse**: EMA-centraliseret autorisation som **Nulojix** (EU/1/11/694) til forebyggelse af akut afstødning hos voksne nyre-transplanterede; FDA-godkendt siden 2011
+- **Administrationsvej**: Intravenøs infusion (hospital-/specialistindstilling)
+
+Kostimuleringsblokkade-mekanismen er biologisk plausibel for indikationer ud over nyre-transplantation — for eksempel andre solid-organ-transplantationer, graft-versus-host-sygdom og visse autoimmun-sygdomme. Imidlertid er der ingen formelle TxGNN-forudsigelser tilgængelige på nuværende tidspunkt, og ingen omdestinerings-anbefaling kan derfor gives.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformation for Danmark
 
-**Decision: Hold**
+Der er ingen markedsautoriseringer for Belatacept registreret i nuværende datasæt for Danmark. Selvom den EMA-centraliserede autorisation for Nulojix er gyldig på tværs af alle EU-medlemsstater, afspejler Evidence Pack, at produktet ikke aktivt markedsføres i Danmark.
 
-**Rationale:**
-No TxGNN repurposing predictions were generated for Belatacept in this run, and the two blocking/high-severity data gaps (DG001, DG002) prevent even a preliminary safety and mechanistic assessment. Proceeding to clinical evaluation without predictions or safety data is not justified at this stage.
+| Element | Status |
+|---------|--------|
+| Nationalt MA (Laegemiddelstyrelsen) | Ingen på fil |
+| EMA-centraliseret MA (Nulojix, EU/1/11/694) | Ikke afspejlet i nuværende datasæt — verificer direkte hos EMA |
+| Markedsstatus | Ikke markedsført |
 
-**To proceed, the following is needed:**
+Sundhedspersonale, der ønsker adgang i Danmark, bør kontakte Laegemiddelstyrelsen vedrørende named-patient eller hospital-import-programmer.
 
-- **Resolve DG002 (High)**: Retrieve full MOA and target data from the DrugBank API to improve knowledge graph coverage and enable a prediction re-run
-- **Resolve DG001 (Blocking)**: Retrieve the EMA SmPC for Nulojix (or local Danish equivalent) to populate warnings, contraindications, and DDI data
-- **Re-run TxGNN prediction**: After data gap remediation, re-run with standard threshold; consider a sensitivity run at a relaxed threshold to assess whether any borderline candidates exist
-- **Confirm Danish market status**: Contact Laegemiddelstyrelsen or check the EMA product page to confirm whether Nulojix is available via any access programme in Denmark
-- **Assess biologic-specific KG coverage**: If re-run still yields no predictions, escalate to the TxGNN modelling team to review graph edge density for biologics
+---
+
+## Sikkerhedshensyn
+
+Der er ingen sikkerhedsdata tilgængelige i nuværende Evidence Pack. Se venligst det godkendte Produktinformationsark (SmPC) for Nulojix for fuldstændig sikkerhedsinformation.
+
+> **Bemærkning for ordinerende læger**: Publicerede internationale SmPCer for Nulojix indeholder en fremtrædende advarsel vedrørende **post-transplantat-lymfoprotliferativ lidelse (PTLD)** — med øget risiko hos EBV-seronegative patienter — og øget modtagelighed over for alvorlige infektioner, herunder progressiv multifokal leukoencefalopatologi (PML). Disse informationer formidles her udelukkende til kontekstuel bevidsthed; det danske SmPC bør konsulteres for lokalt godkendt ordinationsinformation.
+
+---
+
+## Konklusion og næste trin
+
+**Afgørelse: Afventer**
+
+**Begrundelse:**
+Der blev genereret ingen TxGNN-forudsigelser for Belatacept i denne køring, og de to blokerende/høj-severity datahul (DG001, DG002) forhindrer selv en foreløbig sikkerhed- og mekanisme-vurdering. Procedering til klinisk evaluering uden forudsigelser eller sikkerhedsdata er ikke berettiget på dette stadium.
+
+**For at kunne fortsætte kræves følgende:**
+
+- **Løs DG002 (Høj)**: Hent fuld MOA- og måldata fra DrugBank-API'en for at forbedre vidensgraf-dækning og muliggøre en forudsigelse-omkørsel
+- **Løs DG001 (Blokerend)**: Hent det EMA SmPC for Nulojix (eller lokalt dansk ækvivalent) for at udfylde advarsler, kontraindikationer og DDI-data
+- **Omkør TxGNN-forudsigelse**: Efter løsning af datahul, omkør med standard-tærskel; overvej en sensitivitets-omkørsel ved en slækket tærskel for at vurdere, om der findes nogle grænse-kandidater
+- **Bekræft dansk markedsstatus**: Kontakt Laegemiddelstyrelsen eller tjek EMA-produktsiden for at bekræfte, om Nulojix er tilgængelig via noget access-program i Danmark
+- **Vurder biologisk-specifik vidensgraf-dækning**: Hvis omkørsel stadig ikke giver forudsigelser, eskalér til TxGNN-modelleringsteamet for at gennemgå kant-tæthed i vidensgrafen for biologiske lægemidler
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
