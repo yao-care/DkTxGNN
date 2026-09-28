@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Miglustat"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Miglustat. Oprindelig indikation: . 4 forudsagte indikationer."
+description: "Sundhedsnyheder om Miglustat. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/miglustat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/miglustat/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Miglustat?">
-<strong>Miglustat</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 4 forudsagte indikationer.
+<strong>Miglustat</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Miglustat med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (4)</strong>:<ul>
-<li>Autosomal ichthyosis syndrome with fatal disease course | 99.83% | L5 | Hold (99.0%)</li>
-<li>Cholesteryl ester storage disease (CESD) | 99.82% | L5 | Research Question (99.0%)</li>
-<li>Krabbe disease | 99.78% | L4 | Research Question (99.0%)</li>
-<li>Wolman disease with hypolipoproteinemia and acanthocytosis | 99.76% | L5 | Hold (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>autosomal ichthyosis syndrome with fatal disease course (99.8%)</li>
+<li>cholesteryl ester storage disease (99.8%)</li>
+<li>Krabbe disease (99.8%)</li>
+<li>metachromatic leukodystrophy (99.8%)</li>
+<li>Wolman disease with hypolipoproteinemia and acanthocytosis (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/miglustat/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Cetuximab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Cetuximab. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Cetuximab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/cetuximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cetuximab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Cetuximab?">
-<strong>Cetuximab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Cetuximab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Cetuximab med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>ductal or ductular proliferation (100.0%)</li>
+<li>bronchial adenomas/carcinoids childhood (100.0%)</li>
+<li>non-seminomatous lesion (100.0%)</li>
+<li>chondroid hamartoma (100.0%)</li>
+<li>tumor of testis and paratestis (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetuximab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

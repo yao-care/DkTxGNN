@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tamoxifen"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tamoxifen. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Tamoxifen. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/tamoxifen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tamoxifen/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tamoxifen?">
-<strong>Tamoxifen</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Tamoxifen</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Tamoxifen med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>mammary Paget disease (99.7%)</li>
+<li>intraductal cribriform breast adenocarcinoma (99.7%)</li>
+<li>basal-like breast carcinoma (99.7%)</li>
+<li>breast carcinoma in situ (99.7%)</li>
+<li>sebaceous breast carcinoma (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tamoxifen/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

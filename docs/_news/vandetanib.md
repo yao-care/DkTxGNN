@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Vandetanib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Vandetanib. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Vandetanib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/vandetanib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vandetanib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Vandetanib?">
-<strong>Vandetanib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Vandetanib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Vandetanib med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>renal cell carcinoma (disease) (99.9%)</li>
+<li>unclassified renal cell carcinoma (99.9%)</li>
+<li>renal cell carcinoma associated with neuroblastoma (99.9%)</li>
+<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.9%)</li>
+<li>renal pelvis carcinoma (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vandetanib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

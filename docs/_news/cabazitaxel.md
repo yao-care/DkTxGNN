@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Cabazitaxel"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Cabazitaxel. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Cabazitaxel. Oprindelig indikation: . 6 forudsagte indikationer."
 permalink: /news/cabazitaxel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cabazitaxel/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Cabazitaxel?">
-<strong>Cabazitaxel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Cabazitaxel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,14 @@ Denne side kombinerer de AI-forudsagte indikationer for Cabazitaxel med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (6)</strong>:<ul>
+<li>female breast carcinoma (99.9%)</li>
+<li>sickle cell-hemoglobin d disease syndrome (99.9%)</li>
+<li>sickle cell-beta-thalassemia disease syndrome (99.9%)</li>
+<li>hereditary persistence of fetal hemoglobin-sickle cell disease syndrome (99.9%)</li>
+<li>sickle cell-hemoglobin c disease syndrome (99.9%)</li>
+<li>sickle cell-hemoglobin E disease syndrome (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabazitaxel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Travoprost"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Travoprost. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Travoprost. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/travoprost/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/travoprost/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Travoprost?">
-<strong>Travoprost</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Travoprost</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Travoprost med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>visceral calciphylaxis (100.0%)</li>
+<li>arterial thoracic outlet syndrome (100.0%)</li>
+<li>venous thoracic outlet syndrome (100.0%)</li>
+<li>neurogenic thoracic outlet syndrome (100.0%)</li>
+<li>vascular disease (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/travoprost/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

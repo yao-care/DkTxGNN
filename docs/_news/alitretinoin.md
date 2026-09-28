@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Alitretinoin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Alitretinoin. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Alitretinoin. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/alitretinoin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alitretinoin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Alitretinoin?">
-<strong>Alitretinoin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Alitretinoin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Alitretinoin med de sene
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>amenorrhea (disease) (100.0%)</li>
+<li>acne (disease) (99.9%)</li>
+<li>atypical coarctation of aorta (99.9%)</li>
+<li>pregnancy associated osteoporosis (99.8%)</li>
+<li>aortic malformation (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alitretinoin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

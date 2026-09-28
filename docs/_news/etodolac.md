@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Etodolac"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Etodolac. Oprindelig indikation: . 4 forudsagte indikationer."
+description: "Sundhedsnyheder om Etodolac. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/etodolac/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/etodolac/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Etodolac?">
-<strong>Etodolac</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 4 forudsagte indikationer.
+<strong>Etodolac</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Etodolac med de seneste 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (4)</strong>:<ul>
-<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.97% | L5 | Very weak (1/5) — rare genetic bone disorder; NSAID cannot correct GDF5 mutations | Hold (99.0%)</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.97% | L5 | Very weak (1/5) — rare genetic disorder of bone and enamel development | Hold (99.0%)</li>
-<li>Myosclerosis | 99.97% | L5 | Weak (2/5) — theoretical NF-kB/fibrosis link; no preclinical evidence | Research Question (99.0%)</li>
-<li>Brachyolmia | 99.96% | L5 | Very weak (1/5) — overlaps with rank 3; likely redundant graph prediction | Hold (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>acromesomelic dysplasia, Hunter-Thompson type (100.0%)</li>
+<li>brachyolmia-amelogenesis imperfecta syndrome (100.0%)</li>
+<li>myosclerosis (100.0%)</li>
+<li>spondyloarthropathy, susceptibility to (100.0%)</li>
+<li>brachyolmia (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/etodolac/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

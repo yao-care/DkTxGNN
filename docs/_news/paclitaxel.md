@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Paclitaxel"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Paclitaxel. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Paclitaxel. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/paclitaxel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/paclitaxel/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Paclitaxel?">
-<strong>Paclitaxel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Paclitaxel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Paclitaxel med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>female breast carcinoma (100.0%)</li>
+<li>estrogen-receptor negative breast cancer (99.9%)</li>
+<li>Ehrlich tumor carcinoma (99.9%)</li>
+<li>estrogen-receptor positive breast cancer (99.9%)</li>
+<li>hormone-resistant breast carcinoma (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/paclitaxel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

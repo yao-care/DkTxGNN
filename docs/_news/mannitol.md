@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Mannitol"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Mannitol. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Mannitol. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/mannitol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mannitol/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Mannitol?">
-<strong>Mannitol</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Mannitol</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Mannitol med de seneste 
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (100.0%)</li>
+<li>acute pulmonary heart disease (99.9%)</li>
+<li>exercise-induced malignant hyperthermia (99.9%)</li>
+<li>malignant hyperthermia, susceptibility to (99.8%)</li>
+<li>familial periodic paralysis (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mannitol/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

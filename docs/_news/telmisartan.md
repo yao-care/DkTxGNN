@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Telmisartan"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Telmisartan. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Telmisartan. Oprindelig indikation: . 6 forudsagte indikationer."
 permalink: /news/telmisartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/telmisartan/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Telmisartan?">
-<strong>Telmisartan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Telmisartan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,14 @@ Denne side kombinerer de AI-forudsagte indikationer for Telmisartan med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (6)</strong>:<ul>
+<li>Prinzmetal angina (100.0%)</li>
+<li>brain stem infarction (100.0%)</li>
+<li>ABri amyloidosis (100.0%)</li>
+<li>cerebral artery occlusion (100.0%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/telmisartan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

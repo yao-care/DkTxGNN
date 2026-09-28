@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tasonermin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tasonermin. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Tasonermin. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/tasonermin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tasonermin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tasonermin?">
-<strong>Tasonermin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Tasonermin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Tasonermin med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>prostatic urethra urothelial carcinoma (99.8%)</li>
+<li>kidney pelvis sarcomatoid transitional cell carcinoma (99.8%)</li>
+<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (99.8%)</li>
+<li>renal pelvis papillary urothelial carcinoma (99.8%)</li>
+<li>HER2 positive breast carcinoma (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tasonermin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

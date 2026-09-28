@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Eculizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Eculizumab. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Eculizumab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/eculizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/eculizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Eculizumab?">
-<strong>Eculizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Eculizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Eculizumab med de senest
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>cyclic hematopoiesis (100.0%)</li>
+<li>autosomal recessive severe congenital neutropenia due to JAGN1 deficiency (100.0%)</li>
+<li>X-linked severe congenital neutropenia (100.0%)</li>
+<li>congenital neutropenia-myelofibrosis-nephromegaly syndrome (100.0%)</li>
+<li>adult idiopathic neutropenia (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/eculizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Dasatinib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Dasatinib. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Dasatinib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/dasatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dasatinib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Dasatinib?">
-<strong>Dasatinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Dasatinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Dasatinib med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Ewing sarcoma (99.9%)</li>
+<li>myeloid leukemia (99.7%)</li>
+<li>liposarcoma (99.7%)</li>
+<li>fibromatosis, gingival (99.7%)</li>
+<li>dermatofibrosarcoma protuberans (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dasatinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

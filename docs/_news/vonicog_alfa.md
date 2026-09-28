@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Vonicog Alfa"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Vonicog Alfa. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Vonicog Alfa. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/vonicog_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vonicog_alfa/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Vonicog Alfa?">
-<strong>Vonicog Alfa</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Vonicog Alfa</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Vonicog Alfa med de sene
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>primary release disorder of platelets (100.0%)</li>
+<li>Glanzmann thrombasthenia (100.0%)</li>
+<li>pseudo-von Willebrand disease (100.0%)</li>
+<li>hemophilia (100.0%)</li>
+<li>Scott syndrome (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vonicog_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

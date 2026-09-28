@@ -26,11 +26,11 @@ Denne side kombinerer de AI-forudsagte indikationer for Atezolizumab med de sene
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>Prostatic urethra urothelial carcinoma | 99.98% | L2 | **Proceed with Guardrails** (99.0%)</li>
-<li>Kidney pelvis sarcomatoid transitional cell carcinoma | 99.98% | L5 | Hold (99.0%)</li>
-<li>Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.98% | L5 | Hold (99.0%)</li>
-<li>Renal pelvis papillary urothelial carcinoma (UTUC) | 99.98% | L3 | Research Question (99.0%)</li>
-<li>Uterine ligament adenocarcinoma | 99.93% | L5 | Hold (99.0%)</li>
+<li>prostatic urethra urothelial carcinoma (100.0%)</li>
+<li>kidney pelvis sarcomatoid transitional cell carcinoma (100.0%)</li>
+<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (100.0%)</li>
+<li>renal pelvis papillary urothelial carcinoma (100.0%)</li>
+<li>uterine ligament adenocarcinoma (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atezolizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

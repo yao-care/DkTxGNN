@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Dienogest"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Dienogest. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Dienogest. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/dienogest/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dienogest/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Dienogest?">
-<strong>Dienogest</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Dienogest</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Dienogest med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>amenorrhea (disease) (99.7%)</li>
+<li>primary ovarian failure (99.7%)</li>
+<li>breast fibrocystic disease (99.6%)</li>
+<li>isolated growth hormone deficiency (99.5%)</li>
+<li>symptomatic form of fragile X syndrome in female carrier (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dienogest/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

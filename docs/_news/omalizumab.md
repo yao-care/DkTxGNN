@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Omalizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Omalizumab. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Omalizumab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/omalizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/omalizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Omalizumab?">
-<strong>Omalizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Omalizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Omalizumab med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>bronchitis (100.0%)</li>
+<li>atopic eczema (100.0%)</li>
+<li>obstructive lung disease (100.0%)</li>
+<li>dermatitis (100.0%)</li>
+<li>bronchial neoplasm (disease) (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/omalizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

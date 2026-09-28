@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Streptozocin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Streptozocin. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Streptozocin. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/streptozocin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/streptozocin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Streptozocin?">
-<strong>Streptozocin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Streptozocin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Streptozocin med de sene
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>relapsing-remitting multiple sclerosis (100.0%)</li>
+<li>small cell lung carcinoma (100.0%)</li>
+<li>pulmonary blastoma (100.0%)</li>
+<li>well-differentiated fetal adenocarcinoma of the lung (100.0%)</li>
+<li>hereditary breast ovarian cancer syndrome (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/streptozocin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

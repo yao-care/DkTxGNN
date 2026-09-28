@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Methoxsalen"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Methoxsalen. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Methoxsalen. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/methoxsalen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methoxsalen/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Methoxsalen?">
-<strong>Methoxsalen</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Methoxsalen</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Methoxsalen med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>localized pagetoid reticulosis (100.0%)</li>
+<li>indolent primary cutaneous T-cell lymphoma (99.9%)</li>
+<li>neoplasm of mature B-cells (99.8%)</li>
+<li>small intestinal Burkitt lymphoma (99.8%)</li>
+<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/methoxsalen/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

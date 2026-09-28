@@ -26,11 +26,11 @@ Denne side kombinerer de AI-forudsagte indikationer for Everolimus med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>Liposarcoma | 99.88% | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 99.84% | L5 | Hold (99.0%)</li>
-<li>Dermatofibrosarcoma protuberans | 99.82% | L4 | Research Question (99.0%)</li>
-<li>Parameningeal embryonal rhabdomyosarcoma | 99.77% | L5 | Hold (99.0%)</li>
-<li>Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.76% | L5 | Hold (99.0%)</li>
+<li>liposarcoma (99.9%)</li>
+<li>ovarian myxoid liposarcoma (99.8%)</li>
+<li>dermatofibrosarcoma protuberans (99.8%)</li>
+<li>parameningeal embryonal rhabdomyosarcoma (99.8%)</li>
+<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/everolimus/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

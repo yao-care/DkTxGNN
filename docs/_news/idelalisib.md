@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Idelalisib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Idelalisib. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Idelalisib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/idelalisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/idelalisib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Idelalisib?">
-<strong>Idelalisib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Idelalisib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Idelalisib med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>mantle cell lymphoma (99.8%)</li>
+<li>Hodgkins lymphoma (99.8%)</li>
+<li>B-cell neoplasm (99.8%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.7%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/idelalisib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

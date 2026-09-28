@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Phenobarbital"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Phenobarbital. Oprindelig indikation: . 6 forudsagte indikationer."
+description: "Sundhedsnyheder om Phenobarbital. Oprindelig indikation: . 12 forudsagte indikationer."
 permalink: /news/phenobarbital/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/phenobarbital/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Phenobarbital?">
-<strong>Phenobarbital</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
+<strong>Phenobarbital</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 12 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,19 @@ Denne side kombinerer de AI-forudsagte indikationer for Phenobarbital med de sen
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (6)</strong>:<ul>
-<li>Trigeminal Nerve Neoplasm (100.0%)</li>
-<li>Audiogenic Seizures (100.0%)</li>
-<li>Thinking Seizures (100.0%)</li>
-<li>Micturition-Induced Seizures (100.0%)</li>
-<li>Startle Epilepsy / Hyperekplexia (100.0%)</li>
-<li>Eating Seizures (100.0%)</li>
+<li><strong>Forudsagte indikationer (12)</strong>:<ul>
+<li>Trigeminalnervesvulst (100.0%)</li>
+<li>Audiogene anfald (100.0%)</li>
+<li>Tankeudløste anfald (100.0%)</li>
+<li>Vandladningsudløste anfald (100.0%)</li>
+<li>Prikkelseepilepsi / Hyperekpleksia (100.0%)</li>
+<li>Spiseanfald (100.0%)</li>
+<li>trigeminal nerve neoplasm (100.0%)</li>
+<li>audiogenic seizures (100.0%)</li>
+<li>thinking seizures (100.0%)</li>
+<li>micturation-induced seizures (100.0%)</li>
+<li>startle epilepsy (100.0%)</li>
+<li>eating seizures (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/phenobarbital/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

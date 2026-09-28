@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Sirolimus"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Sirolimus. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Sirolimus. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/sirolimus/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sirolimus/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Sirolimus?">
-<strong>Sirolimus</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Sirolimus</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Sirolimus med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>liposarcoma (99.9%)</li>
+<li>ovarian myxoid liposarcoma (99.8%)</li>
+<li>uterine corpus perivascular epithelioid cell tumor (99.8%)</li>
+<li>benign PEComa (99.8%)</li>
+<li>lymphangiomyoma (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sirolimus/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

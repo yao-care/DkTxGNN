@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tolvaptan"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tolvaptan. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Tolvaptan. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/tolvaptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tolvaptan/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tolvaptan?">
-<strong>Tolvaptan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Tolvaptan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Tolvaptan med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>polycystic kidney disease 3 with or without polycystic liver disease (100.0%)</li>
+<li>renal-hepatic-pancreatic dysplasia (100.0%)</li>
+<li>karyomegalic interstitial nephritis (100.0%)</li>
+<li>thoracic malformation (100.0%)</li>
+<li>Joubert syndrome with renal defect (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tolvaptan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Atosiban"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Atosiban. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Atosiban. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/atosiban/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atosiban/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Atosiban?">
-<strong>Atosiban</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Atosiban</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Atosiban med de seneste 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>primary hereditary glaucoma (99.9%)</li>
+<li>open-angle glaucoma (99.9%)</li>
+<li>congenital hypotrichosis milia (99.9%)</li>
+<li>alopecia (99.9%)</li>
+<li>hypotrichosis simplex of the scalp (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/atosiban/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

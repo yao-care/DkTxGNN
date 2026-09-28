@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tagraxofusp"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tagraxofusp. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Tagraxofusp. Oprindelig indikation: . 6 forudsagte indikationer."
 permalink: /news/tagraxofusp/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tagraxofusp/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tagraxofusp?">
-<strong>Tagraxofusp</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Tagraxofusp</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,14 @@ Denne side kombinerer de AI-forudsagte indikationer for Tagraxofusp med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (6)</strong>:<ul>
+<li>esotropia (99.7%)</li>
+<li>pre-malignant neoplasm (99.7%)</li>
+<li>inner ear neoplasm (99.7%)</li>
+<li>benign neoplasm of tongue (99.7%)</li>
+<li>bronchial adenomas/carcinoids childhood (99.7%)</li>
+<li>ductal or ductular proliferation (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tagraxofusp/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

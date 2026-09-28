@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Isocarboxazid"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Isocarboxazid. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Isocarboxazid. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/isocarboxazid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/isocarboxazid/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Isocarboxazid?">
-<strong>Isocarboxazid</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Isocarboxazid</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Isocarboxazid med de sen
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>benign paroxysmal torticollis of infancy (100.0%)</li>
+<li>agoraphobia (100.0%)</li>
+<li>obsessive-compulsive disorder (100.0%)</li>
+<li>neurotic disorder (99.9%)</li>
+<li>phobic disorder (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/isocarboxazid/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

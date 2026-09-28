@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Bimatoprost"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Bimatoprost. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Bimatoprost. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/bimatoprost/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bimatoprost/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Bimatoprost?">
-<strong>Bimatoprost</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Bimatoprost</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Bimatoprost med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>malformation syndrome with odontal and/or periodontal component (100.0%)</li>
+<li>syndrome with a Dandy-Walker malformation as major feature (100.0%)</li>
+<li>isolated genetic hair shaft abnormality (100.0%)</li>
+<li>Ambras type hypertrichosis universalis congenita (100.0%)</li>
+<li>hypotrichosis simplex of the scalp (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bimatoprost/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Anakinra"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Anakinra. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Anakinra. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/anakinra/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/anakinra/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Anakinra?">
-<strong>Anakinra</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Anakinra</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Anakinra med de seneste 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>extracutaneous mastocytoma (99.9%)</li>
+<li>hepatic infarction (99.9%)</li>
+<li>autosomal recessive familial Mediterranean fever (99.9%)</li>
+<li>aggressive systemic mastocytosis (99.9%)</li>
+<li>hepatic veno-occlusive disease (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/anakinra/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

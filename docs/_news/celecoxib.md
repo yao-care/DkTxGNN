@@ -26,11 +26,11 @@ Denne side kombinerer de AI-forudsagte indikationer for Celecoxib med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.88% | L5 | Hold | GDF5 developmental defect — no trials or literature; very weak mechanistic link (99.0%)</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.86% | L5 | Hold | Extremely rare syndrome; no actionable biological rationale (99.0%)</li>
-<li>Rheumatoid vasculitis | 99.85% | L4 | Research Question | 1 case report available; RA complication — most plausible mechanistic link (99.0%)</li>
-<li>Myosclerosis | 99.85% | L5 | Hold | Rare genetic fibrotic myopathy; inflammation is not the primary driver (99.0%)</li>
-<li>Hypermobility of coccyx | 99.83% | L5 | Hold | NSAIDs already used for musculoskeletal pain — not a meaningful repurposing signal (99.0%)</li>
+<li>acromesomelic dysplasia, Hunter-Thompson type (99.9%)</li>
+<li>brachyolmia-amelogenesis imperfecta syndrome (99.9%)</li>
+<li>rheumatoid vasculitis (99.8%)</li>
+<li>myosclerosis (99.8%)</li>
+<li>hypermobility of coccyx (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/celecoxib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

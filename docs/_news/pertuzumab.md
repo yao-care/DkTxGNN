@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Pertuzumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Pertuzumab. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Pertuzumab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/pertuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pertuzumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Pertuzumab?">
-<strong>Pertuzumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Pertuzumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Pertuzumab med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>normal breast-like subtype of breast carcinoma (99.9%)</li>
+<li>progesterone-receptor positive breast cancer (99.9%)</li>
+<li>progesterone-receptor negative breast cancer (99.9%)</li>
+<li>breast tumor luminal A or B (99.9%)</li>
+<li>ectomesenchymoma (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pertuzumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

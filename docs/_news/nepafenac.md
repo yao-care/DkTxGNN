@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Nepafenac"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Nepafenac. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Nepafenac. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/nepafenac/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nepafenac/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Nepafenac?">
-<strong>Nepafenac</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Nepafenac</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Nepafenac med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>eye disease (99.8%)</li>
+<li>optic papillitis (99.8%)</li>
+<li>hypotrichosis simplex of the scalp (99.8%)</li>
+<li>seborrheic keratosis (99.8%)</li>
+<li>von Hippel anomaly (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nepafenac/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

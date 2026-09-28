@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Axitinib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Axitinib. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Axitinib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/axitinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/axitinib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Axitinib?">
-<strong>Axitinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Axitinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Axitinib med de seneste 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>renal cell carcinoma associated with neuroblastoma (99.9%)</li>
+<li>unclassified renal cell carcinoma (99.9%)</li>
+<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.9%)</li>
+<li>childhood kidney cell carcinoma (99.9%)</li>
+<li>liposarcoma (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/axitinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

@@ -26,11 +26,11 @@ Denne side kombinerer de AI-forudsagte indikationer for Bevacizumab med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>Epiglottis Neoplasm | 99.90% | L5 | **Hold** (99.0%)</li>
-<li>Benign Neoplasm of Tongue | 99.90% | L4 | Research Question (99.0%)</li>
-<li>Tumour of Testis and Paratestis | 99.90% | L5 | **Hold** (99.0%)</li>
-<li>Benign Neoplasm of Hypopharynx | 99.90% | L5 | **Hold** (99.0%)</li>
-<li>Benign Neoplasm of Floor of Mouth | 99.90% | L3 | Research Question (99.0%)</li>
+<li>epiglottis neoplasm (99.9%)</li>
+<li>benign neoplasm of tongue (99.9%)</li>
+<li>tumor of testis and paratestis (99.9%)</li>
+<li>benign neoplasm of hypopharynx (99.9%)</li>
+<li>benign neoplasm of floor of mouth (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bevacizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

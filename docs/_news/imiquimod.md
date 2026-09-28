@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Imiquimod"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Imiquimod. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Imiquimod. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/imiquimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/imiquimod/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Imiquimod?">
-<strong>Imiquimod</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Imiquimod</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Imiquimod med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>pre-malignant neoplasm (99.9%)</li>
+<li>benign neoplasm of buccal mucosa (99.9%)</li>
+<li>cervical neuroblastoma (99.9%)</li>
+<li>odontogenic cyst (99.9%)</li>
+<li>benign neoplasm of tongue (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/imiquimod/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

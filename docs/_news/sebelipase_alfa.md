@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Sebelipase alfa"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Sebelipase alfa. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Sebelipase alfa. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/sebelipase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sebelipase_alfa/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Sebelipase alfa?">
-<strong>Sebelipase alfa</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Sebelipase alfa</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Sebelipase alfa med de s
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Scheie syndrome (99.8%)</li>
+<li>Hurler syndrome (99.8%)</li>
+<li>growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant (99.8%)</li>
+<li>cholesteryl ester storage disease (99.7%)</li>
+<li>Wolman disease with hypolipoproteinemia and acanthocytosis (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sebelipase_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

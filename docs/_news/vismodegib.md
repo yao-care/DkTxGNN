@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Vismodegib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Vismodegib. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Vismodegib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/vismodegib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vismodegib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Vismodegib?">
-<strong>Vismodegib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Vismodegib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Vismodegib med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>medulloblastoma with extensive nodularity (99.9%)</li>
+<li>xeroderma pigmentosum (99.9%)</li>
+<li>annular epidermolytic ichthyosis (99.9%)</li>
+<li>epidermolysis bullosa simplex with mottled pigmentation (99.9%)</li>
+<li>prostate cancer/brain cancer susceptibility (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vismodegib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

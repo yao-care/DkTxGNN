@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Enrofloxacin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Enrofloxacin. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Enrofloxacin. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/enrofloxacin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/enrofloxacin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Enrofloxacin?">
-<strong>Enrofloxacin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Enrofloxacin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Enrofloxacin med de sene
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>heart disease (99.9%)</li>
+<li>Laubry-Pezzi syndrome (99.9%)</li>
+<li>genetic syndromic Pierre Robin syndrome (99.9%)</li>
+<li>Pierre Robin syndrome associated with a chromosomal anomaly (99.9%)</li>
+<li>partial deletion of the long arm of chromosome 7 (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/enrofloxacin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

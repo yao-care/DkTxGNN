@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Palivizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Palivizumab. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Palivizumab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/palivizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/palivizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Palivizumab?">
-<strong>Palivizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Palivizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Palivizumab med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>benign neoplasm of tongue (99.9%)</li>
+<li>epiglottis neoplasm (99.9%)</li>
+<li>cervical neuroblastoma (99.9%)</li>
+<li>benign neoplasm of hypopharynx (99.9%)</li>
+<li>benign neoplasm of floor of mouth (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/palivizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

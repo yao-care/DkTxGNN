@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Inotersen"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Inotersen. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Inotersen. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/inotersen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/inotersen/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Inotersen?">
-<strong>Inotersen</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Inotersen</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Inotersen med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>acute intermittent porphyria (99.9%)</li>
+<li>appendicitis (99.9%)</li>
+<li>IgG4-related pachymeningitis (99.9%)</li>
+<li>IgG4-related retroperitoneal fibrosis (99.9%)</li>
+<li>non-infectious meningitis (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/inotersen/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

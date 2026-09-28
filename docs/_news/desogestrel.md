@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Desogestrel"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Desogestrel. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Desogestrel. Oprindelig indikation: . 6 forudsagte indikationer."
 permalink: /news/desogestrel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/desogestrel/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Desogestrel?">
-<strong>Desogestrel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Desogestrel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,14 @@ Denne side kombinerer de AI-forudsagte indikationer for Desogestrel med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (6)</strong>:<ul>
+<li>amenorrhea (disease) (100.0%)</li>
+<li>blunt duct adenosis of breast (99.9%)</li>
+<li>apocrine adenosis of breast (99.9%)</li>
+<li>acne (disease) (99.9%)</li>
+<li>breast abscess (99.9%)</li>
+<li>fat necrosis of breast (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/desogestrel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

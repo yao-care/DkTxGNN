@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Diazepam"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Diazepam. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Diazepam. Oprindelig indikation: . 6 forudsagte indikationer."
 permalink: /news/diazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diazepam/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Diazepam?">
-<strong>Diazepam</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Diazepam</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,14 @@ Denne side kombinerer de AI-forudsagte indikationer for Diazepam med de seneste 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (6)</strong>:<ul>
+<li>insomnia (disease) (100.0%)</li>
+<li>cauda equina syndrome (100.0%)</li>
+<li>sleep disorder, initiating and maintaining sleep (100.0%)</li>
+<li>attention deficit hyperactivity disorder, inattentive type (100.0%)</li>
+<li>hallucinogen abuse (100.0%)</li>
+<li>barbiturate abuse (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diazepam/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>

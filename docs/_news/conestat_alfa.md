@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Conestat alfa"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Conestat alfa. Oprindelig indikation: . 0 forudsagte indikationer."
+description: "Sundhedsnyheder om Conestat alfa. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/conestat_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/conestat_alfa/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Conestat alfa?">
-<strong>Conestat alfa</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 0 forudsagte indikationer.
+<strong>Conestat alfa</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Conestat alfa med de sen
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>C1 inhibitor deficiency (100.0%)</li>
+<li>serpinopathy with toxic serpin polymerization (100.0%)</li>
+<li>hereditary angioedema with C1Inh deficiency (100.0%)</li>
+<li>primary release disorder of platelets (100.0%)</li>
+<li>pseudo-von Willebrand disease (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/conestat_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
