@@ -2,7 +2,7 @@
 layout: default
 title: Avanafil
 parent: Kun modelforudsigelse (L5)
-nav_order: 50
+nav_order: 51
 evidence_level: L5
 indication_count: 0
 ---

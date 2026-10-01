@@ -2,7 +2,7 @@
 layout: default
 title: Cloprostenol
 parent: Kun modelforudsigelse (L5)
-nav_order: 119
+nav_order: 120
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cloprostenol: Fra veterinær prostaglandin-analog til reumatoid artritis
+# Cloprostenol: Fra dyrlægebrug (heste) til reumatoid arthritis
+
+## Resumé
+
+Cloprostenol er en syntetisk analog af prostaglandin F2-alfa, som i Danmark er registreret i et dyrlægepræparat til heste (Genestran Vet.).
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **reumatoid arthritis**.
+Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modelscoren.
 
 ---
 
-## Sammenfatning i én sætning
+## Hurtigt overblik
 
-Cloprostenol er et syntetisk prostaglandin F2α (PGF2α)-analog, som i øjeblikket udelukkende benyttes inden for veterinærmedicin — primært til reproduktiv styring (luteolysis og østrussynchronisering) hos husdyr og heste — uden nogen godkendt menneskelig indikation i Danmark eller andre steder.
-TxGNN-modellen forudsiger, at det kan være effektivt for **Reumatoid Artritis (RA)**, baseret på prostaglandinsignalvejene, som overlapper med immunregulation i synovial betændelse.
-Denne forudsigelse understøttes dog af **0 kliniske forsøg** og **0 publikationer**, som specifikt forbinder Cloprostenol med RA hos mennesker, hvilket placerer det på det laveste bevisniveau.
-
----
-
-## Hurtig oversigt
-
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Ingen godkendt menneskelig indikation; veterinær brug alene (reproduktiv synkronisering hos husdyr) |
-| Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN forudsigelsesscore | 97.64% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke på markedet |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Reumatoid arthritis |
+| TxGNN-forudsigelsesscore | 97,6 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (dyrlægepræparat) |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Cloprostenol er en selektiv FP-receptoragonist (prostaglandin F2α-receptor). I sin etablerede veterinære sammenhæng virker det på uteruskul til at fremkalde luteolysis — nedbrydning af corpus luteum — hvilket muliggør kontrolleret reproduktiv cyklus. Dets potens og selektivitet for FP-receptorer over andre prostanoid-receptorer er velkarakteriseret i dyrefysiologi.
+Der findes i øjeblikket ingen detaljerede data om virkningsmekanismen (MOA) i kildeposten. Cloprostenol er dog kendt som en analog af prostaglandin F2-alfa og agonist på FP-receptoren.
 
-Den mekanistiske begrundelse for RA er yderst spekulativ. Prostaglandiner spiller en dobbelt rolle i inflammatorisk artritis: PGE2 (der virker via EP-receptorer) er det dominerende pro-inflammatoriske mediator i RA-synovium, der driver vasodilatation, smertesensibilisering og leddestruktion. PGF2α-signalering via FP-receptorer er mindre undersøgt inden for menneskelig immunologi, men der er teoretiske beviser for, at FP-receptoraktivering på visse immuncelpopulationer kan modulere Th17-differentiering — en vej central for RA-patogenese. Dette skaber en plausibel, men ekstremt tynd farmakologisk hypotese.
+Prostaglandin-signalering er overvejende pro-inflammatorisk og medvirker ved synovitis. En FP-receptoragonist forventes derfor ikke at give gavn ved reumatoid arthritis, og effektens retning er uklar. Den høje score afspejler sandsynligvis mønstre i vidensgrafen snarere end en dokumenteret biologisk sammenhæng.
 
-Det er kritisk at bemærke, at PGF2α-analoger også forøger glat muskelkontraktilitet og vaskulær permeabilitet, effekter som kunne forværre det inflammatoriske mikromiljø i RA-led i stedet for at forbedre det. Der er ikke publiceret nogen præklin modeller af RA ved brug af FP-receptor-agonister, og der findes ingen menneskelige data. De øvrige forudsagte indikationer (sjældne medfødte skeletale syndromer, interventricular septum-aneurisme, urinsyregigt) har en endnu svagere mekanistisk begrundelse og repræsenterer sandsynligvis beregningsmæssig støj fra videngrafens vejsamfald snarere end biologisk meningsfulde signaler.
+De øvrige forudsigelser i listen (samme score-niveau, alle L5 uden forsøg eller litteratur) er heller ikke understøttet mekanistisk:
 
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret for Cloprostenol i nogen af de fem forudsagte indikationer (reumatoid artritis, colobomatøs mikrophtalmia-rhizomelic dysplasia syndrom, brachydactyly-syndactyly syndrom, interventricular septum-aneurisme eller urinsyregigt).
-
----
-
-## Bevis fra litteratur
-
-I øjeblikket ingen relateret litteratur tilgængelig, der forbinder Cloprostenol med nogen af de forudsagte menneskelige indikationer.
+- **Gigt (gout):** score 95,6 %. Prostaglandiner bidrager til inflammationen, så en FP-agonist kan i værste fald forværre tilstanden.
+- **Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom:** score 96,3 %. Ultrasjælden udviklingsforstyrrelse uden plausibel farmakologisk forklaring.
+- **Brachydaktyli-syndaktyli-syndrom:** score 96,0 %. Medfødt lemmemisdannelse uden plausibelt lægemiddelrespons.
+- **Aneurisme i septum interventriculare:** score 95,7 %. Strukturel hjertemisdannelse, som ikke forventes at reagere på medicinsk behandling.
 
 ---
 
-## Information om det danske marked
+## Evidens fra kliniske forsøg
 
-Cloprostenol har ingen markedsføringstilladelser i Danmark — hverken nationale tilladelser via Lægemiddelstyrelsen eller centraliserede tilladelser via EMA til menneskelig brug. Veterinære tilladelser (f.eks. Estrumate® til kvæg/heste) findes i flere EU-medlemsstater, men falder uden forScope af evaluering af menneskelig lægemiddelgenpositionering.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Litteraturevidens
 
-Der findes ingen godkendt menneskelig produktresumé (SmPC) for Cloprostenol i Danmark. Følgende generelle overvejelser gælder baseret på lægemiddelklassen:
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-- **Lægemiddelinteraktioner**: Ingen menneskelige lægemiddelinteraktionsdata identificeret i evidenspakke-forespørgslen.
-- **Klasserelateret advarsel**: Som et prostaglandin F2α-analog bærer Cloprostenol velkendte risici i veterinær brug, herunder bronkospasme, hypotension, uterushyperstimulering og vaskulære effekter. Ekstrapolation til menneskelige sikkerhedsprofiler kræver dedikeret klinisk vurdering.
+---
 
-Se venligst veterinærbeskrivelsen af produktegenskaber (SmPC) for farmakologiske sikkerhedsdata, og bemærk at formal menneskelig sikkerhedsvurdering (TFDA/EMA SmPC-ækvivalent) er helt fraværende og skal genereres før enhver klinisk undersøgelse.
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103906606 | Genestran Vet. (til heste) | Injektionsvæske, opløsning | Ikke angivet i data (dyrlægepræparat, producent: aniMedica GmbH) |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der foreligger ingen sikkerhedsdata i Evidence Pack. Der er heller ingen fundne lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat er på bevisniveau L5 — TxGNN-modelforudsigelsen er det eneste grundlag for RA-indikationen, med nul understøttende kliniske forsøg, nul understøttende litteratur, ingen godkendt menneskelig brug andetsteds globalt, ingen menneskelige sikkerhedsdata og ingen dokumentation af virkningsmekanisme i evidenspakken. Det teoretiske FP-receptor → immunmodulation-link i RA er yderst spekulativt og er farmakologisk modvægtet af kendte pro-inflammatoriske effekter af PGF2α-analoger (øget vaskulær permeabilitet, glat muskelkontraktion). De fire øvrige forudsagte indikationer (to sjældne medfødte syndromer, interventricular septum-aneurisme, urinsyregigt) har alle endnu svagere mekanistisk begrundelse og er sandsynligvis videngrafens artefakter.
+Forudsigelsen bygger kun på en modelscore (L5) uden forsøg eller litteratur. Cloprostenols kendte farmakologi (pro-inflammatorisk prostaglandin-agonisme) taler desuden imod effekt ved de foreslåede indikationer. Det eneste danske præparat er til veterinær brug.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende mangel)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Prækliniske eller mekanistiske studier, der kan vise en plausibel og gavnlig effekt ved reumatoid arthritis
+- Vurdering af, om en human formulering og administrationsvej overhovedet er tilgængelig
 
-- **Virkningsmekanisme-dokumentation**: Hent fuldstændig DrugBank-post for DB11507, herunder receptorbindingsprofil, farmakodynamik og eventuelle menneskelige farmakologi-data
-- **Præklin litteratursøgning**: Systematisk PubMed/EMBASE-søgning for Cloprostenol ELLER "prostaglandin F2α-analog" OG (reumatoid artritis ELLER synovitis ELLER Th17) for at bekræfte evidensgabet
-- **Menneskelig sikkerhedsbaseline**: Identificer eventuelle menneskelige eksponeringdata (sagrapporter, erhvervs-eksponeringsstudier) for at karakterisere grundlæggende menneskelig tolerabilitet
-- **FP-receptor-biologi-gennemgang**: Vurder, om FP-receptoragonisme i menneskelige immunceller har nogen understøttende præklin beviser for anti-inflammatorisk aktivitet i artritis-modeller
-- **Regulatorisk vejklarificering**: Bestem, om en veterinær-til-menneskelig udviklingsvej er mulig, givet at lægemidlet ikke har eksisterende menneskelig regulatorisk historie i EU
-- **Beslutningsport**: Genbehandle kun for "Fortsæt med sikkerhedssystemer" hvis mindst én fagfællebedømt præklin-undersøgelse i en relevant artritis-model kommer frem fra ovenstående gennemgang
+---
 
-> ⚠️ **Forskningsmæssig ansvarsfraskrivelse**: Denne rapport er til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Lægemiddelgenpositionering-kandidater kræver klinisk validering før nogen terapeutisk anvendelse.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til genanvendelse kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

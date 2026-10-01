@@ -2,7 +2,7 @@
 layout: default
 title: Belatacept
 parent: Kun modelforudsigelse (L5)
-nav_order: 58
+nav_order: 59
 evidence_level: L5
 indication_count: 0
 ---

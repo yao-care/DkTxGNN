@@ -2,7 +2,7 @@
 layout: default
 title: Carfilzomib
 parent: Kun modelforudsigelse (L5)
-nav_order: 93
+nav_order: 94
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,104 +29,116 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carfilzomib: Fra multipelt myelom til CMM7 (Malign melanom-subtype)
+# Carfilzomib: Fra myelomatose til melanom (CMM7 og relaterede melanomformer)
 
-## Ét-sætnings Sammenfatning
+## Resumé
 
-Carfilzomib (Kyprolis®) er en irreversibel proteasom-inhibitor godkendt globalt for recidiverende eller refraktær multipelt myelom, selv om det ikke i øjeblikket er registreret hos Danmarks Lægemiddelstyrelse. TxGNN-modellen tildeler den højeste forudsigelsesscore (**99,37%**) til **CMM7** — en ikke-standardiseret identifikator, der sandsynligvis repræsenterer en malign melanom-subtype ifølge sygdomsontologi-klassificering — baseret på lægemidlets brede anti-tumor-mekanisme, der involverer proteasom-vej-forstyrrelser. Der er imidlertid **ingen kliniske forsøg eller direkte publikationer**, der understøtter denne specifikke indikation, og tvetydigheden af selve CMM7-sygdomsetiketten forhindrer en stringent mekanistisk vurdering på dette stadium.
-
----
-
-## Hurtigt Overblik
-
-| Emne | Indhold |
-|------|---------|
-| Oprindelig Indikation | Multipelt myelom (recidiverende/refraktær) — etableret fra globale regulatoriske godkendelser; ingen dansk autorisation registreret |
-| Forudsagt Ny Indikation | CMM7 (ikke-standardiseret sygdomskode; sandsynligvis en malign melanom-subtype) |
-| TxGNN Forudsigelsesscore | 99,37% |
-| Bevisgrads Niveau | L5 |
-| Danmarkmarkedsstatus | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | **Hold** |
+Carfilzomib er en proteasomhæmmer, som i Danmark markedsføres som Kyprolis. Lægemidlet er kendt som behandling af myelomatose, men indikationsteksten mangler i de danske registreringsdata. TxGNN-modellen forudsiger, at det kan have effekt ved **CMM7** (en uklar melanom-relateret post) og andre melanomformer. Der er **0 kliniske forsøg** og kun **5 publikationer** bag forudsigelsen, og de er alle prækliniske eller beregningsmæssige.
 
 ---
 
-## Hvorfor er denne Forudsigelse Rimelig?
+## Hurtigt overblik
 
-Detaljerede data om virkningsmekanisme blev ikke leveret i denne Evidence Pack. Baseret på etableret farmakologisk viden er Carfilzomib en epoxyketone-klasse proteasom-inhibitor, der **irreversibelt og selektivt binder chymotrypsin-lighed (CT-L) aktivt sted af 20S proteasom β5-underenhed**. Ved at blokere ubiquitin-afhængig proteinabbrud forårsager det ophobning af pro-apoptotiske proteiner (Bax, p27Kip1), stabiliserer IκBα for at undertrykke NF-κB-signalering, og udløser endoplasmatisk reticulum-stress via den udfoldede protein-respons (UPR) — samlet set driver dette tumorcelledød.
-
-Både multipelt myelom og melanom er malignituber med høj afhængighed af protein-homøostase for overlevelse. Melanomceller genererer ligesom myelom-plasmaceller store mængder misfoldede eller beskadigede proteiner, der kræver kontinuerlig proteasomalt klaring; forstyrrelser af denne vej gør dem teoretisk sårbare. In vitro-undersøgelsen af Lee et al. (PMID 33671902) giver den mest direkte præklin support, der viser, at Carfilzomib kombineret med bortezomib synergistisk inducerede apoptose i B16-F1 murinemuranomceller gennem aktivering af caspaser 3, 8, 9 og 12 — hvilket tyder på, at dual proteasom-blokade kan overvinde delvis resistens.
-
-Imidlertid er "CMM7" en ikke-standardiseret sygdomsangivelse, der ikke kan mappet klart til en specifik klinisk eller histologisk enhed uden yderligere ontologi-opløsning. Selv under antagelse af at CMM7 henviser til en malign melanom-subtype, forbliver vigtige udfordringer: melanomceller opretholder hyppigt høje intracellulære glutathion-niveauer, der fungerer som en antioxidant-barriere mod ER-stress-inducerer; hvis CMM7 involverer CNS-lokalisering, skaber Carfilzomib's høje molekylvægt (~719 Da) og P-glykoprotein-substrat-status en alvorlig blod-hjerne-barriere-penetrerings-barriere. Indtil sygdomsetiketten er opløst, og dedikerede præklin modeller er evalueret, forbliver den mekanistiske rationering bred og indirekte.
-
----
-
-## Klinisk Forsøgsbevis
-
-Der er i øjeblikket ingen kliniske forsøg, der vedrører CMM7, registreret i ClinicalTrials.gov eller ICTRP-registeret.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de danske licensdata. Carfilzomib er generelt kendt som lægemiddel mod myelomatose. |
+| Forudsagt ny indikation | CMM7 (rang 1, uklar betegnelse). Den bedst understøttede forudsigelse er melanom (rang 9). |
+| TxGNN-forudsigelsesscore | 99,37 % (CMM7). Melanom: 99,03 %. |
+| Evidensniveau | L5 for CMM7. L4 for melanom (kun prækliniske data). |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold (afvent) |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er forudsigelsen rimelig?
 
-Ingen litteratur specifikt behandlende Carfilzomib og CMM7 blev identificeret. Følgende publikationer vedrører Carfilzomib og **melanom** (den bredere sygdomskategori CMM7 mest sandsynligt tilhører), hentet fra evidence pack under den "melanom" forudsagte indikation:
+Der foreligger ingen detaljerede mekanismedata i datasættet. Ud fra almen farmakologi er carfilzomib en irreversibel hæmmer af 20S-proteasomet (kymotrypsinlignende aktivitet). Hæmning af proteasomet kan give ophobning af misfoldede proteiner og aktivere apoptose i kræftceller. Det er den mekanistiske forklaring på, at modellen kobler lægemidlet til melanomtyper.
 
-| PMID | År | Type | Tidsskrift | Vigtige Resultater |
-|------|-----|------|-----------|------------------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In vitro præklin | *Biology* | Carfilzomib + bortezomib-kombination forbedrede apoptotisk celledød i B16-F1 murinemuranomceller; apoptose bekræftet via Annexin V-farvning og aktivering af caspaser 3, 8, 9 og 12 — stærkeste direkte præklin bevis tilgængeligt |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computational / In silico | *J Biomol Struct Dyn* | Molekylær docking og dynamik-simuleringer af kliniske lægemidler (inklusive Carfilzomib) mod 18 validerede kinase-mål på tværs af 10 kræfttyper inklusive melanom; foreslår bindende potentiale på relevante kræft-kinase-steder |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Mekanistisk / molekylær biologi | *Mol Cancer Res* | ZANF2A/AIRAP-gen regulerer celleoverlevelse i humant melanom via E3-ligase cIAP2, hvilket implicerer ubiquitin-proteasom-vejen som en funktionel knude i melanom-biologi |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Præklin | *Matrix Biol* | Carfilzomib og bortezomib aktiverer NF-κB, udløser heparanase-opregulation i tumor-celler og fremmer potentielt en aggressiv fænotype; NF-κB-blokade genskaber cytotoksisk effektivitet — mekanistisk vigtig forsigtighedsfinding |
-| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Præklin / PROTAC | *Leukemia* | BET-domæne-målrettede PROTACs, der udnytter proteasomal-nedbrydning, demonstrerede aktivitet i myelom-præklin modeller; understøtter bredt koncept for terapeutisk proteasom-vej-udnyttelse i hæmatologiske og solide tumorer |
+Sammenhængen mellem myelomatose og melanom er svag. Koblingen bygger på ligheder i vidensgrafen og på den generelle tanke om, at kræftceller er følsomme over for proteasomhæmning. Der er ikke vist nogen direkte klinisk sammenhæng mellem sygdommene.
+
+Forudsigelserne er samlet her (dubletter i inputtet er kun medtaget én gang):
+
+| Forudsagt indikation | TxGNN-score | Evidens | Bemærkning |
+|------|------|------|------|
+| CMM7 | 99,37 % | L5 | Betegnelsen er uklar og bør verificeres, før der arbejdes videre. |
+| Pædiatrisk leptomeningeal melanom | 99,30 % | L5 | Carfilzombs evne til at nå CNS er ikke dokumenteret, og der er ingen pædiatriske data. |
+| Epiteloidcellet uvealt melanom | 99,23 % | L5 | Anden drivende biologi (fx GNAQ/GNA11) end kutant melanom, så data overføres ikke direkte. |
+| Vulvamelanom | 99,19 % | L5 | Ingen stedspecifik evidens. |
+| Melanom | 99,03 % | L4 | Kun prækliniske og beregningsmæssige data. |
 
 ---
 
-## Danmark Markedsinformation
+## Klinisk evidens fra forsøg
 
-Carfilzomib er **ikke i øjeblikket registreret** hos Danmarks Lægemiddelstyrelse. Ingen nationale markedsføringstilladelser blev identificeret i dette datasæt.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-> **Anmerkninger fra anmelder:** Carfilzomib (Kyprolis®, Amgen) har en centraliseret EMA-markedsføringstilladelse (EU/1/13/848) for recidiverende/refraktær multipelt myelom, som er juridisk gyldig på tværs af alle EU/EØS-medlemsstater inklusive Danmark. Fraværet af en record i dette datasæt kan afspejle en begrænsning af det nationale licenssøge-omfang. Aktuel tilgængelighed og godtgørelsesstatus bør verificeres via EMA-medicin-databasen og Medicinrådet.
+---
+
+## Litteraturevidens
+
+Litteraturen hører til forudsigelsen for **melanom**. Der er ingen litteratur for de øvrige forudsagte indikationer.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | Præklinisk in vitro | Biology | Carfilzomib sammen med bortezomib øgede apoptose i murine B16-F1-melanomceller via aktivering af flere caspaser (3, 8, 9 og 12). |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Beregningsmæssig (docking/simulering) | J Biomol Struct Dyn | Drug repurposing-studie af kemoterapeutika mod kinasemål i ti kræftformer, herunder melanom. Studiet er ikke specifikt for carfilzomib. |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Præklinisk mekanistisk | Mol Cancer Res | Genet ZFAND2A (AIRAPL) regulerer cellernes overlevelse i humant melanom via E3-ligasen cIAP2. Studiet er relateret til proteasomvejen. |
+| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Præklinisk mekanistisk | Leukemia | BET-PROTAC'er var aktive i myelomatosemodeller. Studiet handler ikke om melanom, så relevansen er begrænset. |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Præklinisk mekanistisk | Matrix Biol | Bortezomib og carfilzomib øgede heparanaseudtrykket via NF-κB og kan give en mere aggressiv tumorfænotype. Studiet handler om myelomatose, og fundet kan tale imod anvendelsen. |
+
+Kun ét af de fem studier undersøger carfilzomib direkte i melanomceller, og det er et musecelle-studie. Det kan ikke dokumentere effekt eller sikkerhed hos mennesker.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| MA 28105849116 | Kyprolis (Amgen Europe BV) | Pulver til infusionsvæske, opløsning | Ikke angivet i data |
+
+Det fremgår ikke af datasættet, om tilladelsen er national eller centraliseret (EMA). Produktet gives som infusion.
 
 ---
 
 ## Cytotoksicitet
 
-Carfilzomib er et målrettet antineoplastisk middel (proteasom-inhibitor), der bruges i hæmatologisk malignitets-behandling. Cytotoksicitet-sektionen er derfor anvendelig.
+Carfilzomib er et antineoplastisk lægemiddel. Datasættet indeholder ingen toksicitetsdata, så oplysningerne nedenfor bygger på almen farmakologisk viden og skal verificeres i produktresuméet (SmPC).
 
-| Emne | Indhold |
-|------|---------|
-| Cytotoksicitet-klassificering | Målrettet terapi — Irreversibel proteasom-inhibitor (epoxyketone-klasse; selektiv 20S β5-underenhed-inhibitor; IKKE konventionel cytotoksisk) |
-| Marvundertrykkelse-risiko | Moderat til høj — trombocytopeni og anæmi rapporteres almindeligt i multipelt myelom-forsøg; neutropeni mindre hyppigt end med konventionelle cytotoksiner |
-| Emetogenicitets-klassificering | Lav til moderat |
-| Overvågningspunkter | Fuldt blodtælling (FBC) med differentiering; nyrefunktion (kreatinin, eGFR — akut nyrebeskadigelse-risiko); leverfunktionstests; hjertevurdering (ekkokardiografi anbefalet — kardiomyopati og hjertesvigt rapporteret); lungefunktion (åndenød, pulmonal arteriel hypertension); blodtryksovervågning |
-| Håndteringsbeskyttelse | Følg institutionelle cytotoksiske lægemidler-håndterings-regler; standard personlige beskyttelsesudstyr til intravenøs antineoplastisk præparation og administration påkrævet |
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet terapi (proteasomhæmmer) |
+| Risiko for myelosuppression | Middel (trombocytopeni og neutropeni forekommer hyppigt) |
+| Emetogenicitetsklassifikation | Lav |
+| Monitoreringspunkter | Fuldstændigt blodbillede med differentialtælling, lever- og nyrefunktion, elektrolytter samt hjerte-kar-status |
+| Beskyttelse ved håndtering | Følg gældende regler for håndtering af cytostatika |
 
----
-
-## Sikkerhedshensyn
-
-Se venligst produktresuméet (SmPC) for fuldstændig sikkerhedsinformation, inklusive advarsler, kontraindikationer og lægemiddelvekselvirkninger. Formelle sikkerhedsdata var ikke tilgængelige i denne Evidence Pack.
-
-> For det EMA-godkendte produkt er det fulde Kyprolis® SmPC tilgængeligt på EMA-produktsiden: [https://www.ema.europa.eu/en/medicines/human/EPAR/kyprolis](https://www.ema.europa.eu/en/medicines/human/EPAR/kyprolis)
+Se i øvrigt advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ---
 
-## Konklusion og Næste Skridt
+## Sikkerhedsovervejelser
 
-**Beslutning: Hold**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold (afvent)**
 
 **Begrundelse:**
-CMM7 er en uopløst sygdomsidentifikator uden tilgængelige kliniske forsøg, translationsstudier eller direkte relevant præklin bevis, der forbinder Carfilzomib med denne enhed; bevisgrads-niveauet er L5 (kun modelforudsigelse), og sygdomsetiketten selv skal præciseres, før nogen videnskabelig eller regulatorisk vurdering kan fortsætte.
+Forudsigelserne er alene modelbaserede (L5), og den bedst understøttede indikation, melanom, har kun prækliniske data (L4). Der er ingen kliniske forsøg. Sikkerhedsdata fra Lægemiddelstyrelsen mangler og blokerer den videre sikkerhedsscreening.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Verificering af, hvad "CMM7" dækker over i sygdomsontologien.
+- Sikkerhedsoplysninger (advarsler, kontraindikationer) fra det danske produktresumé (SmPC).
+- Dokumenteret oprindelig indikation og mekanismedata (MOA) fra DrugBank.
+- Prækliniske data i humane melanommodeller, herunder vurdering af den mulige heraparanase-relaterede risiko for en mere aggressiv tumorfænotype.
+- For uvealt og leptomeningealt melanom: data om biologiske forskelle og evne til at nå CNS.
+- Forud for eventuelle kliniske forsøg: en systematisk litteratur- og forsøgssøgning.
 
-- **Opløs CMM7-sygdomsidentitet**: Kortlæg CMM7-koden til en standard klinisk nomenklatur (f.eks. MONDO, ICD-10, SNOMED CT eller OMIM) for at bestemme den præcise histologiske og kliniske kontekst
-- **Hent MOA- og sikkerhedsdata**: Hent den fulde virkningsmekanisme-profil og SmPC-advarsler/kontraindikationer fra DrugBank API og EMA-produktetiket (Data Gaps DG001 og DG002)
-- **Bekræft målrettet præklin arbejde**: Design in vitro- og in vivo-studier af Carfilzomib i den specifikke CMM7-melanom-subtype, med særlig opmærksomhed på glutathion-medierede resistens-mekanismer
-- **Blod-hjerne-barriere-vurdering**: Hvis CMM7 involverer CNS eller leptomeningeal sygdom, evaluer strategier til at adressere Carfilzomib's dårlige CNS-penetration (~719 Da, P-gp-substrat)
-- **Pædiatriske hensyn**: Hvis CMM7 omfatter pædiatriske populationer, er et dedikeret pædiatrisk sikkerhed- og farmakokinetik-program påkrævet givet det betydelige datagab
-- **Opgrader til L4 minimum**: En systematisk oversigt over proteasom-inhibering på tværs af melanom-subtypes, og mindst ét målrettet in vitro-studie i den opløste CMM7-celtype, er påkrævet, før klinisk translation kan overvejes
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye anvendelser kræver klinisk validering, før de kan tages i brug.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Encorafenib
 parent: Kun modelforudsigelse (L5)
-nav_order: 163
+nav_order: 164
 evidence_level: L5
 indication_count: 0
 ---

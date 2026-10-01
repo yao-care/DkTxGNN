@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Teicoplanin
-parent: Kun modelforudsigelse (L5)
-nav_order: 420
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 422
+evidence_level: L3
 indication_count: 10
 ---
 
 # Teicoplanin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teicoplanin: Fra gram-positive bakterielle infektioner til bakteriel artritis
+# Teicoplanin: Fra grampositive infektioner til bakteriel artritis
 
-## Sammenfatning i en sætning
+## Resumé
 
-Teicoplanin er et glykopeptid-antibiotikum længe brugt til behandling af alvorlige gram-positive bakterielle infektioner (bakteriæmi, endokarditis, hud-/bløddele- og ben-ledinfektioner). TxGNN-modellen forudsiger, at det også kan være effektivt for **Bakteriel artritis**, en forudsigelse, der allerede er væsentligt understøttet af **20 publikationer**, der beskriver praktisk brug i septisk/ben-led-infektioner, selvom **ingen registrerede kliniske forsøg** eksisterer for denne specifikke indikation, og lægemidlet i øjeblikket **ikke er markedsført i Danmark**.
+Teicoplanin er et glykopeptid-antibiotikum, der virker mod grampositive bakterier og markedsføres i Danmark som Targocid.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **bakteriel artritis (septisk artritis)**.
+Der er **0 registrerede kliniske forsøg** og **20 publikationer**, hovedsageligt åbne kliniske studier, kohortestudier og oversigtsartikler.
 
----
+## Hurtigt overblik
 
-## Hurtig oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke dokumenteret i de tilgængelige danske regulatoriske data (lægemidlet er ikke markedsført); litteratur beskriver etableret brug i alvorlige gram-positive bakterielle infektioner |
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Bakteriel artritis |
-| TxGNN-forudsigelsesscore | 94.25% |
-| Bevisniveau | L3 (systematisk review/meta-analyse og observationelle studier; ingen registrerede kliniske forsøg) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Hold |
+| TxGNN-forudsigelsesscore | 94,25 % |
+| Evidensniveau | L3 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forholdsregler) |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Teicoplanin er et glykopeptid, der hæmmer cellevægssyntesen hos grampositive bakterier. Dets effekt ved grampositive infektioner er veldokumenteret, og mekanismen kan overføres direkte til bakteriel artritis.
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i bevisepakken. Baseret på kendt information er Teicoplanin et glykopeptid-klasse antibiotikum aktivt mod gram-positive bakterier (herunder MRSA); dets effektivitet i alvorlige gram-positive infektioner såsom bakteriæmi, endokarditis og hud-/bløddeles-infektioner er vel etableret i litteraturen.
+*Staphylococcus aureus* er en af de hyppigste årsager til septisk artritis og knogle- og ledinfektioner. Teicoplanin dækker også methicillinresistente stafylokokker og er i litteraturen beskrevet som et alternativ til vancomycin. Det har acceptabel knoglepenetration og kan gives subkutant.
 
-Bakteriel (septisk) artritis er oftest forårsaget af *Staphylococcus aureus* og andre gram-positive organismer — den samme patogensammensætning, som teicoplanin allerede målrettes mod. Flere af de publikationer, der blev hentet til denne kandidat, går ud over en rent beregningsmæssig hypotese: de beskriver teicoplanin-doseringsregimer specifikt til septisk artritis (f.eks. 12 mg/kg/dag, højere end standard vedligeholdelsesdosis), og flere studier rapporterer kliniske resultater hos patienter med pyogen/septisk artritis behandlet med teicoplanin. Dette tyder på, at "ny indikation" afspejler en allerede anerkendt, om end ikke formelt registreret, klinisk brug snarere end en rent ny mekanistisk ekstrapolation.
+Det tomme felt for oprindelig indikation skyldes sandsynligvis et datahul. Knogle- og ledinfektioner er en etableret anvendelse i litteraturen, så forudsigelsen kan være en eksisterende anvendelse snarere end ægte repurposing. Det skal verificeres mod det godkendte produktresumé.
 
----
+## Kliniske forsøg
 
-## Evidens fra kliniske forsøg
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret (hverken på ClinicalTrials.gov eller i ICTRP).
 
-I øjeblikket er der ingen relaterede registrerede kliniske forsøg.
+## Litteraturevidens
 
----
+Der er ingen randomiserede kontrollerede studier blandt de identificerede publikationer. Tabellen viser de 10 mest relevante, prioriteret efter direkte relevans for teicoplanin.
 
-## Evidens fra litteraturen
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [9474479](https://pubmed.ncbi.nlm.nih.gov/9474479/) | 1997 | Oversigtsartikel | Drugs | Teicoplanin og vancomycin er de mest pålidelige midler mod alvorlige grampositive infektioner. Septisk artritis er blandt undtagelserne, hvor en højere vedligeholdelsesdosis (12 mg/kg/dag) anbefales. |
+| [11131961](https://pubmed.ncbi.nlm.nih.gov/11131961/) | 2000 | Oversigtsartikel | J Chemother | Gennemgår doseringsregimer ved bl.a. knogle- og ledinfektioner. Fordele frem for vancomycin: lang halveringstid og lavere nefrotoksicitet. |
+| [28900682](https://pubmed.ncbi.nlm.nih.gov/28900682/) | 2017 | Oversigtsartikel | Curr Top Microbiol Immunol | Overblik over behandling af *S. aureus*-infektioner, herunder knogle- og ledinfektioner, og udvikling af resistens. |
+| [8351549](https://pubmed.ncbi.nlm.nih.gov/8351549/) | 1993 | Klinisk forsøg (samfundsbaseret, sandsynligvis ikke-randomiseret) | South Med J | 66 patienter med osteomyelitis og septisk artritis fik teicoplanin én gang dagligt (gns. 10,1 mg/kg). Alle isolater var følsomme (MIC ≤ 2 µg/ml). |
+| [1381644](https://pubmed.ncbi.nlm.nih.gov/1381644/) | 1992 | Klinisk forsøg (kooperativt studie) | Eur J Surg Suppl | 98 patienter med grampositive knogle- eller ledinfektioner, heraf 90 evaluerbare, behandlet én gang dagligt intravenøst eller intramuskulært. |
+| [27809799](https://pubmed.ncbi.nlm.nih.gov/27809799/) | 2016 | Kohortestudie | BMC Infect Dis | Teicoplaninbaseret behandling af *S. aureus*-knogle- og ledinfektion. Undersøger tolerabilitet, effekt og subkutan administration. |
+| [17825421](https://pubmed.ncbi.nlm.nih.gov/17825421/) | 2007 | Observationsstudie | J Infect | Undersøger, om standarddoser giver for lave dalkoncentrationer ved muskuloskeletale infektioner. Et mål på ≥ 20 mg/l er tidligere knyttet til bedre udfald. |
+| [12481488](https://pubmed.ncbi.nlm.nih.gov/12481488/) | 2002 | Retrospektivt studie | Medicina | 89 episoder med knogle- og ledinfektioner med methicillinresistente stafylokokker (heraf 10 med septisk artritis). Vurderer effekt og besparelser ved ambulant parenteral behandling. |
+| [2140111](https://pubmed.ncbi.nlm.nih.gov/2140111/) | 1990 | Klinisk serie | J Antimicrob Chemother | 33 patienter med knogle- og bløddelsinfektioner, heraf 3 med septisk artritis. Hovedsageligt *S. aureus*-isolater. |
+| [2952062](https://pubmed.ncbi.nlm.nih.gov/2952062/) | 1987 | Klinisk evaluering | Antimicrob Agents Chemother | 19 patienter med alvorlige grampositive infektioner inkl. pyogen artritis. Blandt 13 evaluerbare infektioner var der 8 kliniske helbredelser og 2 forbedringer. |
 
-| PMID | År | Type | Tidsskrift | Vigtige fund |
-|------|------|---------|---------|---------|
-| [8351549](https://pubmed.ncbi.nlm.nih.gov/8351549/) | 1993 | Klinisk forsøg | Southern Medical Journal | Befolkningsbaseret forsøg med engang daglig teicoplanin (gennemsnit 10.1 mg/kg) hos 66 patienter med gram-positive ben-/ledinfektioner, herunder septisk artritis |
-| [1381644](https://pubmed.ncbi.nlm.nih.gov/1381644/) | 1992 | Klinisk forsøg (kooperativt studie) | Eur J Surg Suppl | Teicoplanin Ben- og Ledinfektions Kooperativ Studiegruppe (USA): 90/98 patienter evalueret, herunder akut/kronisk osteomyelitis |
-| [2952062](https://pubmed.ncbi.nlm.nih.gov/2952062/) | 1987 | Klinisk forsøg | Antimicrob Agents Chemother | 19 patienter med alvorlige gram-positive infektioner inkl. pyogen artritis; 8/13 evaluerbare tilfælde klinisk helbredt |
-| [12481488](https://pubmed.ncbi.nlm.nih.gov/12481488/) | 2002 | Retrospektiv studie | Medicina | 89 episoder af MRSA ben-/ledinfektioner, herunder 10 septisk artritis tilfælde; effektivitet vurderet efter doseringsplan |
-| [27809799](https://pubmed.ncbi.nlm.nih.gov/27809799/) | 2016 | Retrospektiv kohortstudie | BMC Infectious Diseases | Teicoplanin-baseret terapi (inkl. subkutan vej) i *S. aureus* ben- og ledinfektioner |
-| [17825421](https://pubmed.ncbi.nlm.nih.gov/17825421/) | 2007 | Kohortstudie | The Journal of Infection | Teicoplanin trough-niveauer i muskuloskeletalinfektioner; standard doser kan være subterapeutiske |
-| [2140111](https://pubmed.ncbi.nlm.nih.gov/2140111/) | 1990 | Klinisk forsøg | J Antimicrob Chemother | 33 patienter med ben-/bløddeles-infektioner inkl. 3 septisk artritis tilfælde behandlet med teicoplanin |
-| [9474479](https://pubmed.ncbi.nlm.nih.gov/9474479/) | 1997 | Oversigt | Drugs | Gennemgang af anti-gram-positive midler; specificerer højere teicoplanin-dosis (12 mg/kg/dag) til septisk artritis |
-| [11131961](https://pubmed.ncbi.nlm.nih.gov/11131961/) | 2000 | Oversigt | Journal of Chemotherapy | Gennemgang af teicoplanin-dosering på tværs af alvorlige infektioner, herunder ben- og ledinfektioner |
-| [30876673](https://pubmed.ncbi.nlm.nih.gov/30876673/) | 2019 | Retrospektiv kohortstudie | Enferm Infecc Microbiol Clin | Dual teicoplanin + cefazolin profylakse til at forhindre protese-ledinfektioner |
+## Information om det danske marked
 
----
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101359689 | Targocid (Sanofi A/S) | Pulver til injektions-/infusionsvæske, opløsning eller oral opløsning | Indikationsteksten indgår ikke i datagrundlaget |
 
-## Markedsoplysninger for Danmark
+## Sikkerhedsovervejelser
 
-Teicoplanin har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 licenser; markedsstatus: ikke markedsført).
+Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og interaktioner.
 
----
+## Konklusion og næste skridt
 
-## Sikkerhedshensyn
+**Beslutning: Proceed with Guardrails**
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+**Begrundelse:**
+- Mekanismen er biologisk plausibel, og flere åbne kliniske studier og kohortestudier peger på effekt og tolerabilitet ved knogle- og ledinfektioner. Evidensen er dog ikke baseret på bekræftede fase 3-RCT'er, og der er ingen registrerede forsøg.
+- De øvrige forudsigelser (visceral leishmaniasis, abdominalt cystisk lymfangiom, abdominal ekstrauterin graviditet, truncus coeliacus-kompressionssyndrom) har kun modelstøtte (L5) og er sat til **Hold**. De mangler en mekanistisk forbindelse, og de identiske scorer på 0,79 tyder på artefakter i modellen.
 
----
+**For at komme videre kræves:**
+- Gennemgang af det danske produktresumé for at afklare, om knogle- og ledinfektioner allerede er godkendt, og dermed om det er en eksisterende anvendelse.
+- Sikkerhedsdata (advarsler, kontraindikationer, interaktioner) fra produktresuméet, da manglen på dem blokerer sikkerhedsscreeningen.
+- Data om virkningsmekanismen fra DrugBank.
+- Prospektive eller randomiserede data, eller en systematisk gennemgang, der understøtter effekt og dosering ved septisk artritis, herunder terapeutisk lægemiddelmonitorering.
 
-## Konklusion og næste trin
-
-**Beslutning: Hold**
-
-**Grundlag:**
-Litteraturbasen (L3: retrospektive/kohortstudier og oversigter, ingen registrerede RCT'er) tilbyder rimelig mekanistisk og praktisk støtte, men lægemidlet er i øjeblikket ikke markedsført i Danmark, og der eksisterer et **blokerende** datakløft — danske/EU-produktetiket-advarsler og kontraindikationer er utilgængelige, hvilket forhindrer den obligatoriske indledende sikkerhed (S1) evaluering.
-
-**For at fortsætte, er følgende nødvendigt:**
-- Officielt SmPC/etiket-advarsler og kontraindikationer (Blokerende kløft)
-- Detaljerede data om virkningsmekanisme fra DrugBank eller tilsvarende kilde
-- Bekræftelse af eventuelle EU/EMA markedsføringsautorisationsveje, der gælder for Danmark
-- Lægemiddel-lægemiddel interaktionsdata (i øjeblikket ikke fundet)
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

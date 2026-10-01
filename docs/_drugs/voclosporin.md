@@ -2,7 +2,7 @@
 layout: default
 title: Voclosporin
 parent: Kun modelforudsigelse (L5)
-nav_order: 473
+nav_order: 475
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Voclosporin: Fra immunosuppressiv terapi til primær frigivelsesforstyrrelse af blodplader
+# Voclosporin: Fra immunsuppressiv calcineurinhæmmer til primær frigørelsesforstyrrelse af blodplader
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-> Voclosporin er en calcineurin-inhibitor immunsuppressivum (klassekammerat af cyclosporin og tacrolimus); ingen specifik oprindeligt godkendt indikation er dokumenteret i denne evidenspakke, og lægemidlet er **ikke i øjeblikket markedsført i Danmark**.
-> TxGNN-modellens højest rangerede forudsigelse forbinder det til **primær frigivelsesforstyrrelse af blodplader**, med en **95,4% forudsigelsesscore**, men **nul understøttende kliniske forsøg og nul litteratur**, og modellens egen mekanistiske begrundelse fastslår, at dette link er biologisk implausibelt.
+Voclosporin er en calcineurinhæmmer (en analog til ciclosporin), som undertrykker T-cellernes aktivering. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (primary release disorder of platelets), men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på en model baseret på en vidensgraf (evidensniveau L5).
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke dokumenteret i denne evidenspakke (ingen `original_indications` på fil; lægemidlet er endnu ikke markedsført i Danmark) |
-| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
-| TxGNN forudsigelsesscore | 95.42% |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Primær frigørelsesforstyrrelse af blodplader |
+| TxGNN-forudsigelsesscore | 95,42 % |
 | Evidensniveau | L5 |
-| Status på dansk marked | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-Detaljerede mekanisme-for-handling-data for voclosporin er ikke tilgængelige på lægemiddelniveau i denne evidenspakke (`original_moa: [Data Gap]`). Dog indikerer litteratur- og begrundelsesindgange knyttet til andre kandidatindikatorer i denne samme pakke, at voclosporin tilhører **calcineurin-inhibitor (CNI)**-klassen sammen med cyclosporin og tacrolimus. Ifølge en review fanget i denne pakke (PMID 41361657) virker CNI'er ved at inhibere det calciumafhængige phosphatase calcineurin, blokere defosforylering/kernestranslokation af NFAT og undertrykkelse af IL-2-transkription — og derved svækker T-celle-aktivering. Dette er standard immunsuppressiv farmakologi, ikke en valideret oprindelig indikation for voclosporin specifikt.
+Voclosporin er en calcineurinhæmmer. Den blokerer calcineurin-NFAT-IL-2-signalvejen og dermed T-cellernes aktivering. Der foreligger ingen detaljerede mekanismedata fra DrugBank i datagrundlaget. Beskrivelsen her bygger på stofklassens kendte virkemåde. Datagrundlaget nævner, at voclosporin anvendes ved lupusnefritis, men den danske tilladelse indeholder ingen indikationstekst.
 
-For modellens højest rangerede forudsigelse — **primær frigivelsesforstyrrelse af blodplader** — er evidenspakkens egen mekanistiske vurdering eksplicit negativ: dette er en **arvelig defekt i blodpladeernes tætgranula-sekretion**, en strukturel/genetisk blodpladestyrrelse med patofysiologi uden relation til T-celle-aktivering eller calcineurin-stien. Pakken fastslår klart, at der "目前無任何臨床或文獻證據支持" (ikke er nogen klinisk eller litteraturmæssig evidens, der understøtter dette), og klassificerer associationen som en udelukkende-forudsigelse-artefakt, der "未達可驗證假說門檻" (ikke har nået tærskelværdien for en testbar hypotese).
+Primær frigørelsesforstyrrelse af blodplader er en arvelig defekt i blodpladernes sekretion. Calcineurinhæmning er ikke en etableret vej til at korrigere en sådan defekt, og calcineurinsignalering i blodplader er ikke et valideret behandlingsmål ved denne sygdom. Den høje score skyldes sandsynligvis nærhed i vidensgrafen snarere end en reel biologisk sammenhæng.
 
-Kort sagt: TxGNN-similaritetsscore (95.4%) er høj, men den medfølgende begrundelse — genereret fra samme evidenspakke — understøtter ikke en plausibel biologisk mekanisme. En høj embedding-similaritetsscore uden mekanistisk eller empirisk støtte bør fortolkes forsigtigt; det kan afspejle grafklynge-effekter blandt blodpladerelaterede sygdomsknuder snarere end et autentisk farmakologisk forhold.
+### Øvrige forudsigelser
+
+Samme vurdering gælder de andre forudsigelser. Mange optræder to gange i data og er her kun vist én gang.
+
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Glanzmanns trombasteni | 94,87 % | L5 | Skyldes manglende eller dysfunktionelt integrin αIIbβ3. Calcineurinhæmning genopretter ikke receptoren, og immunsuppression kan øge risikoen for blødning og infektion. Sandsynligvis en artefakt i grafen. |
+| Pseudo-von Willebrands sygdom | 94,57 % | L5 | Skyldes gain-of-function-varianter i GP1BA. Der er ingen kendt mekanistisk forbindelse til calcineurinhæmning. |
+| Dermatitis | 94,18 % | L4 | Biologisk plausibel, se nedenfor. Anbefaling: Research Question. |
+| Renal osteodystrofi | 94,16 % | L5 | Skyldes CKD-mineral- og knoglesygdom. Calcineurinhæmmere er som klasse forbundet med ændret knogleomsætning og knogletab, så skade er mere sandsynlig end gavn. |
+
+Dermatitis er den eneste forudsigelse med en rimelig biologisk sammenhæng. Calcineurinhæmmere blokerer T-cellernes aktivering og cytokinfrigørelse (bl.a. IL-2), som driver T-cellemedierede inflammatoriske hudsygdomme. Systemisk ciclosporin og tacrolimus er etablerede off-label-muligheder ved svær dermatitis, og voclosporin er en strukturelt beslægtet og mere potent calcineurinhæmmer. Evidensen er dog indirekte og udledt af andre calcineurinhæmmere.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ikke registreret relaterede kliniske forsøg for nogen af de forudsagte indikationer.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+For den primære forudsigelse (primær frigørelsesforstyrrelse af blodplader) foreligger der ingen relateret litteratur.
+
+For dermatitis er der to oversigtsartikler. Ingen af dem indeholder primære kliniske data for voclosporin ved dermatitis.
+
+| PMID | År | Type | Tidsskrift | Hovedpointer |
+|------|-----|------|------|---------|
+| [37307993](https://pubmed.ncbi.nlm.nih.gov/37307993/) | 2024 | Review | Journal of the American Academy of Dermatology | Gennemgang af off-label-brug af systemisk tacrolimus og voclosporin i dermatologi. Der er retningslinjer for ciclosporin, men ingen stærk konsensus for tacrolimus og voclosporin. |
+| [41361657](https://pubmed.ncbi.nlm.nih.gov/41361657/) | 2025 | Review | Molecular neurobiology | Oversigt over calcineurinhæmmeres rolle, håndtering af toksicitet og fremtidsperspektiver. Beskriver hæmning af calcineurin og NFAT og dermed af IL-2-transkription og T-cellernes aktivering. |
 
 ---
 
-## Oplysninger om dansk marked
+## Information om det danske marked
 
-Voclosporin har i øjeblikket **ingen markedsføringsgodkendelse på fil i Danmark** (`market_status`: Not marketed; `total_licenses`: 0). Ingen Lægemiddelstyrelsen national godkendelse eller EMA centraliseret godkendelsesrecord er til stede i denne evidenspakke.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106649721 | Lupkynis | Kapsler, bløde | Otsuka Pharmaceutical Netherlands B.V. |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst den godkendte produktinformationssamling (SmPC) for sikkerhedsinformation.
+Der foreligger ingen sikkerhedsdata i datagrundlaget. Opslag på lægemiddelinteraktioner gav ingen resultater.
 
-*(Bemærk: denne evidenspakkes eget data-gap-log markerer de manglende etiketterings-/advarselsdata — punkt DG001, "Lægemiddelstyrelsen pakkeindlæg advarsler/kontraindikationer" — som et **blokerende** alvorligheds-gap, hvilket betyder, at denne kandidat endnu ikke kan fortsætte til sikkerhedsgennemgangsstadiet (S1), før etikettingsdata er hentet.)*
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -93,16 +111,15 @@ Se venligst den godkendte produktinformationssamling (SmPC) for sikkerhedsinform
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Evidensniveauet er **L5** — udelukkende modelforudsigelse, uden kliniske forsøg, uden litteratur og uden observationsdata, der understøtter en forbindelse mellem voclosporin og primær frigivelsesforstyrrelse af blodplader.
-- Evidenspakkens egen mekanistiske begrundelse modsiger eksplicit biologisk plausibilitet: defekter i blodpladeernes tætgranula-sekretion er ikke kendt for at involvere calcineurin/T-celle-aktiverings-stien, som voclosporin sigter mod.
-- To data-gaps blokerer yderligere progression: **DG001** (danske/EU SmPC advarsler og kontraindikationer — blokerende, forhindrer adgang til sikkerhedsgennemgangsstadium S1) og **DG002** (bekræftet virkningsmekanisme — høj, nødvendig for mekanistisk validering).
+Alle forudsigelser mangler klinisk og litterær støtte, og for de tre blødningssygdomme og renal osteodystrofi er der ingen plausibel mekanisme. Dermatitis er biologisk rimelig, men evidensen er indirekte, og hensynet til nyretoksicitet, hypertension og infektionsrisiko skal vejes mod alternativer ved en ikke-livstruende hudsygdom. Dermatitis kan derfor kun betragtes som et forskningsspørgsmål.
 
-**For at kunne fortsætte er følgende nødvendigt:**
-- Hent den godkendte SmPC (dansk/EU-etiket) for voclosporin for at løse DG001, før nogen sikkerhedsgennemgang kan begynde
-- Bekræft virkningsmekanisme via DrugBank eller primære farmakologikilder for at løse DG002
-- Enhver præklinisk eller mekanistisk litteratur, der direkte forbinder calcineurin-inhibering til frigivelse af blodpladeernes tætgranula, ville være påkrævet før denne kandidat kunne bevæge sig ud over Hold
-- **Til overvejelse**: denne samme evidenspakke indeholder en lavere rangeret, men bedre understøttet kandidat — **dermatitis** (TxGNN-score 94.2%, evidensniveau L3, beslutningsstadium S1 "Research Question") — understøttet af 2 litteraturreviews (PMID 37307993, PMID 41361657), der diskuterer off-label dermatologisk brug af systemiske calcineurin-inhibitorer, herunder voclosporin. Denne kandidat har en kohærent class-effect mekanistisk begrundelse og kan være værd at følge op på som prioritet foran den højest rangerede, men mekanistisk usupported blodpladestyrrelse-forudsigelse.
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé. Manglen på disse er en blokerende datamangel for sikkerhedsvurderingen.
+- Detaljerede mekanismedata (MOA) fra DrugBank.
+- Primære kliniske data eller forsøg med voclosporin ved dermatitis, før en egentlig vurdering kan foretages.
+- Afklaring af den godkendte indikationstekst for Lupkynis i Danmark.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne er modelbaserede og kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

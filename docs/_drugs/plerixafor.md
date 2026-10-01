@@ -2,7 +2,7 @@
 layout: default
 title: Plerixafor
 parent: Kun modelforudsigelse (L5)
-nav_order: 354
+nav_order: 355
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,95 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Plerixafor: Fra en uregistreret indikation i Danmark til Indolent Plasmacelle-Myelom
+# Plerixafor: Fra ukendt oprindelig indikation til indolent plasmacellemyelom
 
-## Sammenfatning i én sætning
+## Opsummering i en sætning
 
-Plerixafor (DrugBank ID: DB06809) har ingen registreret markeringsgodkendelse i Danmark og ingen oprindelig indikation eller virkningsmekanisme-data tilgængeligt i denne bevissamling. TxGNN-modellen forudsiger en mulig forbindelse til **Indolent Plasmacelle-Myelom** med en meget høj forudsigelsesscore (99,97%), men denne forudsigelse understøttes i øjeblikket af **0 kliniske afprøvninger** og **0 publikationer** — den hviler udelukkende på modeloutputtet.
+Plerixafor er markedsført i Danmark som Mozobil (injektionsvæske), men den danske registrering indeholder ingen indikationstekst. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **indolent plasmacellemyelom**. Der er dog **0 kliniske forsøg** og **0 publikationer** i datagrundlaget, så forudsigelsen er ren modelforudsigelse.
 
 ---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke tilgængeligt — ingen licenser eller oprindelig indikationsdata i denne bevissamling |
-| Forudsagt ny indikation | Indolent Plasmacelle-Myelom |
-| TxGNN Forudsigelsesscore | 99,97% |
-| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende afprøvninger eller litteratur) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markeringsgodkendelser | 0 |
-| Anbefalet beslutning | Vent |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Indolent plasmacellemyelom |
+| TxGNN-forudsigelsesscore | 99,97 % |
+| Evidensniveau | L5 (kun modelforudsigelse, ingen undersøgelser) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede virkningsmekanisme-data for plerixafor er ikke i øjeblikket tilgængeligt i denne bevissamling (markeret som et højtprioriteret datakløft), og ingen oprindelig indikation er registreret. Som resultat kan forholdet mellem plerixafors etablerede farmakologi og den forudsagte indikation (indolent plasmacelle-myelom) ikke vurderes ud fra de data, der er fremlagt her.
+Der foreligger ikke detaljerede data om virkningsmekanisme i det leverede datagrundlag. Ud fra den mekanistiske vurdering i Evidence Pack er plerixafor en CXCR4-antagonist, der blokerer bindingen af CXCL12. CXCR4/CXCL12-aksen understøtter myelomcellernes homing til og fastholdelse i knoglemarvsnichen. En hæmning af aksen er derfor biologisk plausibel i myelom.
 
-TxGNN-modellens genfindings-rationalefelt for denne toprangeringsprediktion er også markeret "afventende" — ingen mekanistisk-forbindelses- eller lighed-til-oprindelig-indikations-narrativ er blevet genereret for den. Til sammenligning inkluderer flere lavere rangerede forudsigelser i denne samme bevissamling (f.eks. melanom-relaterede indikationer, bronkitis) faktisk et CXCR4-CXCL12-akse-baseret rationale, men disse gælder for forskellige forudsagte sygdomme, ikke for den toprangeringsprediktion for indolent plasmacelle-myelom, og ingen af dem understøttes heller af afprøvnings- eller litteraturbevis.
+Plerixafor bruges allerede i forbindelse med myelom til mobilisering af stamceller. Det er ikke en behandling rettet mod selve sygdommen. Det er ikke dokumenteret i det leverede datagrundlag og må ikke tælles som evidens for denne indikation.
 
-I betragtning af den meget høje modelscore, men komplet fravær af et dokumenteret mekanistisk rationale, kliniske afprøvninger eller litteratur for denne specifikke topforudsigelse, bør denne behandles som et rent signalgenererings-output, der kræver yderligere mekanistisk og klinisk validering før ethvert videnskabeligt krav kan fremstilles.
-
----
-
-## Bevis fra kliniske afprøvninger
-
-I øjeblikket ingen relaterede kliniske afprøvninger registreret.
+Forudsigelsen hviler derfor udelukkende på modelscoren og en plausibel mekanisme. Der er ikke fundet kliniske data, der understøtter den.
 
 ---
 
-## Litteraturbevis
+## Kliniske forsøg
 
-I øjeblikket ingen relateret litteratur tilgængelig.
-
----
-
-## Markedsinformation for Danmark
-
-Plerixafor har i øjeblikket ingen markeringsgodkendelse i Danmark (markedsstatus: Ikke markedsført; samlede licenser på fil: 0). Ingen produkt-, doseringsform- eller godkendt indikationsinformation er tilgængelig.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst den godkendte produktinformation (SmPC) for sikkerhedsinformation. Bemærk: den underliggende datakilde markerer fraværet af etiketadvarsler/kontraindikationer som et **kritisk** datakløft, hvilket betyder, at en sikkerhedsforelæbig vurdering (S1) i øjeblikket ikke kan gennemføres for denne kandidat.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Andre forudsagte indikationer
+
+Datagrundlaget indeholder 10 forudsigelser, men de består af 5 unikke sygdomme, hver listet to gange. Ingen af dem har kliniske forsøg eller litteratur (alle L5).
+
+| Sygdom | TxGNN-score | Anbefaling | Mekanistisk vurdering |
+|------|------|------|------|
+| Indolent plasmacellemyelom | 99,97 % | Forskningsspørgsmål | CXCR4/CXCL12-aksen understøtter myelomcellers homing til knoglemarven. Plausibel, men uden kliniske data. |
+| CMM7 | 99,34 % | Hold | Sygdomsbetegnelsen er uklar (muligvis en modtagelighedsindgang for kutant malignt melanom). Der kan ikke etableres en klar mekanistisk sammenhæng. Sygdommens identitet skal afklares først. |
+| Pædiatrisk leptomeningealt melanom | 99,30 % | Hold | CXCR4 er udtrykt i melanom og involveret i metastasering. Plerixafors penetration til CNS og leptomeningeale rum er ikke verificeret. Pædiatrisk population kræver stærkere sikkerhedsdata. |
+| Epiteloidcellet uvealt melanom | 99,27 % | Hold | CXCR4/CXCL12 er foreslået at påvirke metastasering, især til leveren. Indirekte rationale uden kliniske data. |
+| Bronkitis | 99,22 % | Hold | CXCR4 modulerer leukocyttrafik, men plerixafor mobiliserer leukocytter til blodbanen. Gavnlig effekt ved luftvejsinflammation er tvivlsom. |
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28104372608 | Mozobil | Injektionsvæske, opløsning | Sanofi B.V. |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der blev ikke fundet interaktionsdata for plerixafor i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
-**Rationale:**
-Den forudsagte indikation har ingen understøttelse fra kliniske afprøvninger eller litteratur (Evidensniveau L5), lægemidlets virkningsmekanisme og oprindelige indikation er udokumenterede, og det er ikke i øjeblikket markedsført i Danmark. Et kritisk datakløft (manglende etiketadvarsler/kontraindikationer) forhindrer også en sikkerhedsforelæbig vurdering i at blive gennemført.
+**Begrundelse:**
+- Forudsigelsen er kun baseret på modelscoren (evidensniveau L5), og der er ingen kliniske forsøg eller publikationer. Sikkerhedsdata fra den danske produktinformation mangler ligeledes, så sikkerhedsscreening ikke kan gennemføres.
+- Den mekanistiske rationale for indolent plasmacellemyelom er plausibel og gør indikationen til et forskningsspørgsmål. De øvrige forudsigelser er svagere eller tvivlsomme.
 
-**For at komme videre er følgende nødvendigt:**
-- Etiketadvarsler og kontraindikationer (f.eks. fra producentens SmPC) for at rydde det kritiske sikkerhedsdatakløft
-- Bekræftet virkningsmekanisme for at etablere biologisk plausibilitet for forudsigelsen om indolent plasmacelle-myelom
-- Oprindelig indikation og regulatorisk historie for at kontekstualisere genfindings-rationalet
-- En dedikeret litteratur- og klinisk afprøvnings-søgning specifikt for plerixafor i plasmacelle-myelom/multipelt myelom-populationer
-- Præcisering af dansk/EU-regulatorisk vej, givet at lægemidlet i øjeblikket har nul markeringsgodkendelser på fil
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, indikationstekst).
+- Hent data om virkningsmekanisme fra DrugBank.
+- Gennemfør en systematisk litteratur- og forsøgssøgning for plerixafor ved indolent/smoldering myelom, og afgræns tydeligt mod brugen til stamcellemobilisering.
+- Afklar sygdomsidentiteten bag "CMM7" før yderligere vurdering.
+- For den pædiatriske og CNS-relaterede forudsigelse: indhent data om CNS-penetration og pædiatrisk sikkerhed.
 
+---
+
+*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal klinisk valideres, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

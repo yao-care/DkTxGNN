@@ -2,7 +2,7 @@
 layout: default
 title: Sumatriptan
 parent: Moderat evidens (L3-L4)
-nav_order: 409
+nav_order: 411
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,88 +29,98 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Sumatriptan: Fra migræne til migræne med hjernestammeaura
+# Sumatriptan: Fra akut migræne til migræne med hjernestammeaura
 
-## Resumé i en sætning
+## Resumé
 
-Sumatriptan er en 5-HT1B/1D receptoragonist med en etableret rolle i akut behandling af migræne. TxGNN-modellen forudsiger en stærk association med **migræne med hjernestammeaura**, men dette signal er i øjeblikket kun understøttet af mekanistisk og observationel litteratur (**18 publikationer, 0 kliniske forsøg**) — og denne migrænetype betragtes konventionelt som en relativ/absolut kontraindikation for triptaner, så dette resultat kræver nøje sikkerhedsgranskning før yderligere handling.
+Sumatriptan er en 5-HT1B/1D-agonist, der bruges til akut behandling af migræne. Den indgår her som næsespray (Imigran).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne med hjernestammeaura**, men støtten er svag: der er **0 registrerede kliniske forsøg** og **17 publikationer**, og ingen af dem dokumenterer effekt eller sikkerhed specifikt i denne undertype.
+Undertypen er desuden en kendt sikkerhedsbekymring for triptaner.
 
 ---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Migræne (akut behandling) — baseret på etableret farmakologi; danske markedsføringsdata er ikke tilgængelige for dette lægemiddel |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Akut migræne (generelt). Indikationsteksten i den danske registrering er ikke angivet i data |
 | Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-forudsigelsesscore | 99.74% |
+| TxGNN-forudsigelsesscore | 99,74 % |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afventer |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige. Baseret på kendt information er sumatriptan en selektiv 5-HT1B/1D receptoragonist, der forsnævrer kraniale blodkar og hæmmer frigivelsen af vasoaktive neuropeptider fra perivaskul­ære trigeminale aksoner, en mekanisme som er velestableret for behandling af akut migræne.
+Sumatriptan er en agonist ved 5-HT1B/1D-receptorer. Det giver sammentrækning af kranielle blodkar og hæmmer frigivelsen af CGRP fra trigeminusnerven. Det forklarer effekten ved akut migræne generelt.
 
-Migræne med hjernestammeaura (tidligere "basilar-type migræne") er en undertype inden for det bredere migrænespektrum, hvilket forklarer, hvorfor TxGNN's knowledge-graph-model knytter den stærkt til sumatriptan — lægemidlets oprindelige indikation og denne forudsagte indikation deler både samme sygdomsfamilie og receptorbiologi.
+Migræne med hjernestammeaura er en undertype af migræne med aura. Den høje score (0,997) afspejler sandsynligvis, at modellen ligger tæt på de overordnede migrænebegreber i vidensgrafen, og ikke at der findes dokumentation for netop denne undertype. Den eneste auratilknyttede undersøgelse i materialet (PMID 25841032) viser **nedsat** effekt af sumatriptan ved migræne med aura sammenlignet med migræne uden aura.
 
-Denne mekanistiske lighed virker dog i begge retninger: da sumatriptans vasokonstriktive virkning teoretisk kunne påvirke hjernestammecirkulation, opregner de fleste kliniske retningslinjer migræne med hjernestammeaura som en relativ eller absolut **kontraindikation** for triptaner snarere end en godkendt anvendelse. Den høje TxGNN-score afspejler generel "sumatriptan–migræne"-relaterthed i knowledge graph, ikke en valideret sikkerhedsprofil for denne specifikke aura-undertype — de mekanistiske og sikkerhedssignaler peger i modsat retning, hvilket er grunden til, at denne kandidat kræver en sikkerhed-først-granskning snarere end en ligetil effektivetvurdering.
-
----
-
-## Klinisk forsøgsevidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret
+Detaljerede data om virkningsmekanisme fra kildeposten mangler. Mekanismen kunne derfor ikke krydstjekkes mod kildedata.
 
 ---
 
-## Litteratursevidens
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
-|------|-----|------|---------|---------|
-| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | RCT | Phytotherapy Research | Dobbeltblindet RCT sammenlignende ingefær pulver med sumatriptan til akut migrænestilstands afbrydelse |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Retningslinje/Evidensvurdering | Headache | American Headache Society evidensgennemgang af akut migrænefarmakoterapi, inkl. triptaner |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Kohort/Komparativ | Neurology | Sumatriptan viser **reduceret effektivitet ved migræne med aura vs. uden aura** — direkte relevant advarsel for denne undertype |
-| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | RCT | Cephalalgia | Dobbeltblindet, placebo-kontrolleret forsøg af oral sumatriptan 200 mg ved akut migræne med aura |
-| [33567890](https://pubmed.ncbi.nlm.nih.gov/33567890/) | 2021 | RCT | Cephalalgia | Randomiseret forsøg: tidlig sumatriptanbehandling forebygger PACAP38-inducerede migræneanfald |
-| [31135819](https://pubmed.ncbi.nlm.nih.gov/31135819/) | 2019 | Mekanistisk/Billeddannelsesstudie | JAMA Neurology | PET-billeddannelsesstudie af central 5-HT1B receptorbinding under sumatriptanbehandling |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Oversigt | Handbook of Clinical Neurology | Oversigt over status migrainosus, en genkendt komplikation på tværs af migræne (med/uden aura) |
-| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Oversigt | Cephalalgia | Kritisk oversigt over klinisk erfaring med sumatriptan ved migræne- og clusterhovedsmertebehandling |
-| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Oversigt | Headache | Oversigt over menstruel migrænebehandlingsmuligheder |
-| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Oversigt | Cureus | Oversigt over migrænestyringstilgange under graviditet og amning |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformationer for Danmark
+## Litteraturevidens
 
-Sumatriptan har i øjeblikket ingen markedsføringstilladelse registreret hos Lægemiddelstyrelsen (Dansk Lægemiddelstyrelse) i det datasæt, der er brugt til denne analyse (0 tilladelser); markedsstatus er registreret som **Ikke markedsført**.
+Tabellen viser de mest relevante publikationer. Resuméerne bygger kun på de abstracts, der er tilgængelige i datapakken.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Retningslinje/evidensvurdering | Headache | Opdateret vurdering af evidensen for lægemidler til akut migrænebehandling |
+| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | Dobbeltblindet, placebokontrolleret randomiseret forsøg | Cephalalgia | Sumatriptan 200 mg oralt undersøgt ved akut migræne med aura |
+| [33567890](https://pubmed.ncbi.nlm.nih.gov/33567890/) | 2021 | Randomiseret klinisk forsøg | Cephalalgia | Tidlig sumatriptanbehandling og forebyggelse af PACAP38-induceret migræne |
+| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | RCT | Phytotherapy Research | Ingefær sammenlignet med sumatriptan ved akut migræne **uden** aura (100 patienter) |
+| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Post hoc-analyse | Neurology | Nedsat effekt af sumatriptan ved migræne med aura i forhold til uden aura |
+| [31135819](https://pubmed.ncbi.nlm.nih.gov/31135819/) | 2019 | Billeddannelsesstudie | JAMA Neurology | Sumatriptanbehandling under migræneanfald og binding til 5-HT1B-receptorer i hjernen |
+| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Review | Cephalalgia | Kritisk gennemgang af klinisk erfaring med sumatriptan ved migræne og cluster-hovedpine |
+| [21469920](https://pubmed.ncbi.nlm.nih.gov/21469920/) | 2011 | Gennemgang | Expert Rev Neurother | Subkutan sumatriptan uden nål, godkendt til migræne med eller uden aura |
+| [8559405](https://pubmed.ncbi.nlm.nih.gov/8559405/) | 1996 | Kommentar | Neurology | Subkutan sumatriptan og migræneaura |
+| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handbook of Clinical Neurology | Status migrænosus som komplikation til migræne med eller uden aura |
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28101836296 | Imigran | Næsespray, opløsning | GlaxoSmithKline Pharma A/S |
+
+Der er kun registreret næsespray i Danmark. Teksten for den godkendte indikation er ikke tilgængelig i datagrundlaget.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst de godkendte produktresumékarakteristika (SmPC) for sikkerhedsinformation.
+- **Kontraindikationer (klasseeffekt):** Produktresuméer for triptaner opfører basilær og hemiplegisk migræne som kontraindikationer på grund af teoretisk risiko for iskæmi som følge af karsammentrækning. Migræne med hjernestammeaura svarer klinisk til den tidligere betegnelse basilær migræne, så dette er en central bekymring for den foreslåede indikation.
+- **Lægemiddelinteraktioner:** Der blev ikke fundet interaktionsdata i datagrundlaget.
 
-**Vigtig bemærkning:** selv om formelle varsel-/kontraindikationsdata ikke kunne hentes til denne analyse, viser den publicerede litteratur (f.eks. PMID 25841032) og generel triptan-klasse-etikettering konventionelt migræne med hjernestammeaura som en **kontraindiceret eller høj-forsigtighed-anvendelse** for triptaner på grund af teoretisk cerebrovaskulær vasokonstriktionsrisiko. Dette bør eksplicit verificeres mod SmPC før enhver klinisk overvejelse.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuld sikkerhedsinformation.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afventer**
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-scoren afspejler generel sumatriptan–migræne-relaterthed snarere end valideret evidens for denne specifikke aura-undertype. Ingen kliniske forsøg understøtter denne indikation, evidensniveauet er L4 (kun mekanistisk/litteratur), og den forudsagte indikation står i konflikt med den konventionelle kontraindikationsprofil for triptaner ved hjernestamme-type migræne — sikkerhedsspørgsmål skal løses før dette kan avancere.
+Forudsigelsen bygger på modelnærhed til generelle migrænebegreber og ikke på undertypespecifik evidens. Der er ingen kliniske forsøg, og den eneste auratilknyttede undersøgelse peger på nedsat effekt. Samtidig er undertypen en kendt kontraindikation for triptaner, og sikkerhedsscreeningen kan ikke gennemføres, før produktresuméet er indhentet.
 
-**For at fortsætte kræves følgende:**
-- SmPC-advarsler/kontraindikationer for sumatriptan (Kritisk datakløft — påkrævet før nogen S1-sikkerhedsgranskning)
-- Verificeret virkningsmekanisme-data til at understøtte eller afvise den mekanistiske begrundelse
-- En dedikeret sikkerhedsgennemgang/-kontraindikation specifikt adresserende hjernestammeaura og triptan-vasokonstriktionsrisiko
-- Hvis det forfølges, en markedsføringstilladelsesproces med Lægemiddelstyrelsen, da der i øjeblikket ikke foreligger nogen
+**For at komme videre kræves:**
+- Hentning og gennemgang af det danske produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation). Dette er en blokerende mangel.
+- Data om virkningsmekanisme fra DrugBank til en mekanistisk vurdering.
+- Undertypespecifik klinisk evidens for migræne med hjernestammeaura, herunder en vurdering af den iskæmiske risiko.
+- En afklaring af, om forudsigelsen overhovedet er klinisk relevant, når undertypen er en kendt kontraindikation.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

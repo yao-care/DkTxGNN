@@ -2,7 +2,7 @@
 layout: default
 title: Evinacumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 183
+nav_order: 184
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Evinacumab: Fra homozygot familial hyperkolesterolæmi til diabetisk grå stær
+# Evinacumab: Fra homozygot familiær hypercholesterolæmi til diabetisk grå stær
 
-## Sammenfatning i én sætning
+## Resumé
 
-Evinacumab er et monoklonalt antistof rettet mod ANGPTL3, godkendt internationalt (herunder af EMA som Evkeeza) til homozygot familial hyperkolesterolæmi (HoFH).
-TxGNN-modellen forudsiger, at det kan være effektivt mod **diabetisk grå stær**,
-men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning.
+Evinacumab er et monoklonalt antistof, der markedsføres i Danmark under navnet Evkeeza. Det anvendes efter almen viden til alvorlig arvelig forhøjet kolesterol (homozygot familiær hypercholesterolæmi). Denne indikation fremgår ikke af datagrundlaget.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk grå stær**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
+
+---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Homozygot familial hyperkolesterolæmi (HoFH) — baseret på EMA-centraliseret godkendelse; ingen dansk national godkendelse registreret |
-| Forudsagt ny indikation | Diabetisk grå stær |
-| TxGNN-forudsigelsesscore | 98.52% |
-| Bevisniveau | L5 (Kun modelforudsigelse, ingen humanstudier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Oprindelig indikation | Ikke angivet i den danske registrering (efter almen viden: homozygot familiær hypercholesterolæmi) |
+| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
+| TxGNN-score | 98,5 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i evidenspakken. Baseret på kendte oplysninger er evinacumab et fuldt humant monoklonalt antistof, der hæmmer angiopoietin-lignende protein 3 (ANGPTL3). Ved at blokere ANGPTL3 reducerer evinacumab niveauerne af LDL-kolesterol, HDL-kolesterol og triglycerider gennem veje, der er uafhængige af LDL-receptoren. Det er blevet godkendt af EMA (som Evkeeza) og det amerikanske FDA til behandling af homozygot familial hyperkolesterolæmi.
+## Hvorfor er forudsigelsen rimelig?
 
-TxGNN-modellen forudsiger en potentiel forbindelse til diabetisk grå stær, formentlig fordi diabetes-associerede katarakter involverer metabolisk dysregulering — herunder anomalier i lipidstofskiftet — og ANGPTL3 ligger på en krydsgang af lipid- og glukosemetabolske veje. Diabetiske katarakter udvikles gennem sorbitolophobning via polyolvejen og gennem glykering af linseproteiner, processer der forværres af diabetes' metaboliske miljø. Fedtaflejringer i linsen og oxidativt stress sekundært til dyslipiidæmi kan også bidrage til linseformørkning.
+Der foreligger ingen detaljerede data om virkningsmekanisme i datagrundlaget. Evinacumab er efter almen viden et antistof, der neutraliserer ANGPTL3 og dermed sænker LDL-kolesterol og triglycerider. Dette er ikke bekræftet i de leverede data.
 
-Imidlertid forbliver den mekanistiske forbindelse mellem ANGPTL3-hæmning og kataraktforebyggelse eller -reversering rent spekulativ. Der er ingen publiceret preklinisk eller klinisk evidens for, at sænking af cirkulerende lipider via ANGPTL3-blokade påvirker linsegennemsigtigheden eller progressionen af diabetisk grå stær. Desuden gives evinacumab intravenøst som et biologisk lægemiddel med stort molekyleformat, og opnåelse af terapeutiske koncentrationer i den avaskulære linse ville være en betydelig farmakokinetisk udfordring. De resterende forudsagte indikationer (umodent grå stær, modent grå stær, kraniostenose-associeret grå stær, tetanisk grå stær) mangler enhver mekanistisk begrundelse for at forbinde ANGPTL3-hæmning med linsepathologi.
+En kobling til diabetisk grå stær ville skulle gå via bedre blodfedtprofil eller ANGPTL-relaterede vaskulære og metaboliske signalveje. Det er spekulativt. Diabetisk grå stær drives primært af hyperglykæmi, øget flux i polyolvejen og oxidativt stress, og ANGPTL3-hæmning er ikke et oplagt angrebspunkt for disse mekanismer. Den høje score afspejler sandsynligvis nærhed til andre kataraktknuder i vidensgrafen snarere end en reel biologisk sammenhæng.
 
-## Bevis fra kliniske forsøg
+### Øvrige forudsigelser
 
-I øjeblikket er der ingen relaterede kliniske forsøg registreret for evinacumab i nogen kataraktrelateret indikation. Søgninger blev udført på ClinicalTrials.gov og WHO ICTRP-registeret (søgningsdato: 2026-03-24) for alle ti forudsagte indikationer, hvilket gav nul resultater.
+Modellen forudsiger også andre katarakttilstande med scorer omkring 98,4 %. Det drejer sig om umoden, moden, tetanisk og kraniostenose-relateret grå stær samt grå stær ved type 2-diabetes. Ingen af dem har kliniske forsøg eller publikationer, og ingen har en plausibel mekanistisk forklaring. Flere poster optrådte dobbelt i inputtet og er her kun nævnt én gang.
 
-## Litteraturbevis
+---
 
-I øjeblikket er der ingen relateret litteratur tilgængelig. PubMed-søgninger (søgningsdato: 2026-03-24) for evinacumab kombineret med hver forudsagt kataraktindikation returnerede nul publikationer.
+## Klinisk evidens
 
-## Markedsoplysninger for Danmark
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
-Evinacumab har i øjeblikket ingen national markedsføringstilladelse fra Lægemiddelstyrelsen og markedsføres ikke i Danmark. EMA har tildelt en centraliseret markedsføringstilladelse for Evkeeza (evinacumab) til HoFH; det fremgår dog ikke af de tilgængelige danske licensregistredata.
+---
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|------|------|------|------|
-| EU/1/21/1551 (EMA-centraliseret) | Evkeeza | Koncentrat til infusionsvæske | Homozygot familial hyperkolesterolæmi (HoFH) som supplering til anden lipidsænkende terapi |
+## Litteraturevidens
 
-> *Bemærkning: Ovenstående EMA-godkendelse anføres for fuldstændighed. Ingen danske nationale licenser blev fundet i evidenspakken.*
+Der foreligger aktuelt ingen relateret litteratur.
 
-## Sikkerhedshensyn
+---
 
-Se venligst produktsammenfattelsen (SmPC) for godkendt sikkerhedsinformation. Den aktuelle evidenspakke indeholder ikke advarsler, kontraindikationer eller lægemiddelinteraktionsdata for evinacumab. EMA's godkendte SmPC for Evkeeza bør konsulteres for det fuldstændige sikkerhedsprofil.
+## Information om markedet i Danmark
 
-## Konklusion og næste trin
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106478720 | Evkeeza (Ultragenyx Germany GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+
+Præparatet gives som intravenøs infusion.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet data om interaktioner.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er baseret alene på TxGNN-modeloutput (bevisniveau L5) uden støttende kliniske forsøg, litteratur eller prekliniske data. Det mekanistiske link mellem ANGPTL3-hæmning og diabetisk grå stær er på det bedste spekulativt — kataraktpathogenese drives primært af linseproteinglykering og polyolvejen, ikke af cirkulerende lipidniveauer. Desuden er evinacumab et biologisk lægemiddel med stort molekyleformat givet intravenøst uden etableret mekanisme til at nå den avaskulære linse ved terapeutiske koncentrationer. Lægemidlet markedsføres heller ikke i øjeblikket i Danmark, hvilket tilføjer en betydelig adgangsbarriere.
+Forudsigelsen bygger udelukkende på en modelscore (L5) uden kliniske forsøg, litteratur eller plausibel mekanisme. Desuden mangler sikkerhedsdata fra den danske indlægsseddel, hvilket blokerer det videre sikkerhedsscreeningstrin.
 
-**For at kunne fortsætte ville følgende være nødvendigt:**
-- Preklinisk evidens, der viser, at ANGPTL3-hæmning påvirker linsegennemsigtigheden eller kataraktogenese i diabetiske dyremodeller
-- Farmakokinetiske data, der etablerer, at evinacumab (eller dets virkninger) kan nå linsekammeret
-- Detaljeret mekanistisk virkningsanalyse, der forbinder lipidstofskiftets modulering til diabetisk kataraktpathofysiologi
-- Mindst en observationel undersøgelse eller caseserie, der foreslår et signal om reduceret kataraktforekomst hos patienter, der modtager evinacumab til HoFH
-- Fuldstændig sikkerhedsprofiljennemmgang, herunder SmPC-advarsler og kontraindikationer
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer).
+- Indhent data om virkningsmekanisme fra DrugBank.
+- Foretag en systematisk litteratursøgning om ANGPTL3, blodfedtstoffer og katarakt eller linsepatologi.
+- Vurder, om en prækliniske model kan understøtte en kobling til linsen, før der overvejes kliniske studier.
 
----
-
-*Denne rapport er til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomformål kræver klinisk validering før enhver terapeutisk anvendelse.*
-
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser fra TxGNN skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

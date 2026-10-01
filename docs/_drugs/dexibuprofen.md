@@ -2,7 +2,7 @@
 layout: default
 title: Dexibuprofen
 parent: Kun modelforudsigelse (L5)
-nav_order: 139
+nav_order: 140
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dexibuprofen: Fra smerte og inflammation til Brachydactyly-Syndactyly Syndrom
+# Dexibuprofen: Fra smerte og inflammation (NSAID) til brachydactyly-syndactyly syndrom
 
-## Enlinjet sammenfatning
+## Resumé i få sætninger
 
-Dexibuprofen er det farmakologisk aktive S-enantiomer af ibuprofen, et velkendt ikke-steroid-baseret antiinflammatorisk lægemiddel (NSAID), der virker ved at hæmme COX-enzymet for at reducere smerte og inflammation. TxGNN-modellen forudsiger, at det kan være effektivt for **Brachydactyly-Syndactyly Syndrom**, en sjælden arvelig skeletdeformationssygdom. Imidlertid støtter **ingen kliniske forsøg og ingen offentliggjort litteratur** i øjeblikket denne forudsagte retning, og det mekanistiske begrundelse anses for meget spekulativ.
+Dexibuprofen (S-ibuprofen) er en non-steroid antiinflammatorisk lægemiddelsubstans (NSAID), der virker smertestillende og antiinflammatorisk. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **brachydactyly-syndactyly syndrom**, en sjælden medfødt misdannelse af lemmerne. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, så den bygger udelukkende på modellens vidensgraf.
 
 ---
 
-## Hurtigoversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke registreret i Danmark; internationalt brugt til smerte, feber og inflammation (NSAID/COX-hæmmer) |
-| Forudsagt ny indikation | Brachydactyly-Syndactyly Syndrom |
-| TxGNN-forudsigelsesscore | 99.87% |
-| Bevisniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i godkendelsesdata. Stoffet er et NSAID (smertestillende/antiinflammatorisk) |
+| Forudsagt ny indikation | Brachydactyly-syndactyly syndrom |
+| TxGNN-prædiktionsscore | 99,87 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Dexibuprofen er S(+)-enantimeren af ibuprofen og virker primært ved at hæmme cyclooxygenase (COX-1 og COX-2) enzymer, hvilket reducerer syntesen af prostaglandin E2 (PGE2) og andre pro-inflammatoriske mediatorer. Det anses generelt for at have en sammenlignelig eller svagt forbedret tolerabilitetsprofil sammenlignet med racemisk ibuprofen, mens det bevarer de samme analgetiske, antipyretiske og antiinflammatoriske egenskaber.
+Dexibuprofen er den aktive S-enantiomer af ibuprofen og hæmmer cyklooxygenase (COX). Det giver en antiinflammatorisk og smertestillende effekt. Detaljerede data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige, så beskrivelsen bygger på stoffets kendte farmakologiske klasse.
 
-Brachydactyly-syndactyly-syndrom er en sjælden arvelig tilstand karakteriseret ved unormalt korte fingre og tæer (brachydactyly) med blødt væv eller benet fusion (syndactyly). Sygdommen er forårsaget af mutationer i udviklingsgener såsom *IHH* (Indian Hedgehog) og *HOXD13*, som styrer skeletmorfogenese under embryogenese. Der er ingen etableret farmakologisk forbindelse mellem COX/PGE2-signalvej og disse genetiske udviklingsprogrammer.
+Brachydactyly-syndactyly syndrom er en medfødt misdannelse af lemmerne med udviklingsgenetisk oprindelse. Der er ingen kendt sammenhæng mellem COX-hæmning og lemmernes udvikling, og NSAID'er kan ikke rette strukturelle udviklingsfejl. Den høje score på 0,9987 afspejler derfor sandsynligvis kun nærhed i vidensgrafen og ikke en biologisk begrundet sammenhæng.
 
-Selvom PGE2 vides at spille en modulerende rolle i knoglemetabolismen — herunder interaktioner med BMP/Wnt-signalveje, som påvirker osteoblastaktivitet — giver dette forhold ikke anledning til en plausibel terapeutisk begrundelse for et monogent skeletdysplasissyndrom. TxGNN-modellens høje forudsigelsesscore (99.87%) afspejler mest sandsynligt en bred netværksforbindelses effekt blandt skeletfenotyp-knuder inden for vidensgrafen, snarere end et reelt farmakologisk signal. Denne forudsigelse anses for **biologisk spekulativ** og bør fortolkes med forsigtighed.
+Det samme gælder de øvrige topforudsigelser. De er alle sjældne medfødte syndromer, og ingen af dem har en dokumenteret mekanistisk kobling til dexibuprofen:
 
----
-
-## Klinisk forsøgsbeviser
-
-Der er i øjeblikket ingen registrerede relevante kliniske forsøg.
-
----
-
-## Litteraturbeviser
-
-Der er i øjeblikket ingen tilgængelig relevant litteratur.
+| Forudsagt sygdom | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Brachydactyly-syndactyly syndrom | 99,87 % | Ingen understøttet sammenhæng |
+| Colobomatous microphthalmia-rhizomelic dysplasia syndrom | 99,85 % | Ingen understøttet sammenhæng |
+| Acromesomelic dysplasia, Hunter-Thompson type | 99,84 % | Ingen understøttet sammenhæng. Højst symptomatisk smertebehandling |
+| Brachyolmia-amelogenesis imperfecta syndrom | 99,83 % | Ingen understøttet sammenhæng |
+| Myosclerosis | 99,82 % | Svag, indirekte begrundelse (mulig lindring af smerte/inflammation). Ingen data for effekt på fibrose eller sygdomsforløb |
 
 ---
 
-## Danske markedsoplysninger
+## Klinisk evidens (forsøg)
 
-Dexibuprofen (DrugBank ID: DB09213) har i øjeblikket **ingen markedsføringstilladelser** i Danmark og er ikke tilgængelig på det danske marked. Ingen produktlicenser er blevet udstedt af Lægemiddelstyrelsen, og ingen centraliserede European Medicines Agency (EMA) godkendelser er registreret for dette aktive stof.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103150300 | Seractiv (Nordic Drugs AB) | Filmovertrukne tabletter (oral) | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsmæssige overvejelser
 
-Venligst konsulter det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger.
-
-> **Bemærkning for klinikere:** Som et NSAID og COX-hæmmer deler dexibuprofen en klasse-baseret sikkerhedsprofil, der typisk inkluderer gastrointestinale, kardiovaskulære og renale hensyn. Da der ikke er tilgængelig dansk produktinformation, bør international produktinformation (f.eks. fra lande hvor lægemidlet markedsføres) konsulteres før klinisk brug.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data, men det skyldes manglende data og ikke dokumenteret fravær af interaktioner.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-modellen genererer en høj forudsigelsesscore, men denne er ikke understøttet af kliniske forsøgsbeviser, offentliggjort litteratur eller mekanistisk biologisk plausibilitet. Brachydactyly-syndactyly-syndrom er en monogent skeletdysplasi, for hvilken COX-hæmning ikke har nogen etableret terapeutisk rolle; forudsigelsen vurderes som en vidensgrafs artefakt snarere end et reelt omlægningssignal.
+Forudsigelsen hviler alene på modellen (evidensniveau L5). Der findes hverken kliniske forsøg eller publikationer, og der er ingen biologisk plausibel sammenhæng mellem COX-hæmning og en medfødt lemmemisdannelse. Den høje score kan ikke i sig selv begrunde videre arbejde.
 
-**For at fortsætte er følgende nødvendig:**
+**For at komme videre kræves:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Sikkerhedsscreening kan ikke gennemføres uden disse oplysninger.
+- Data om virkningsmekanisme (MOA) fra DrugBank til en egentlig mekanistisk analyse.
+- Præklinisk eller genetisk/biologisk evidens for en mulig sammenhæng mellem dexibuprofens mål og sygdommens patofysiologi.
+- Vurdering af, om en eventuel anvendelse blot ville være symptomatisk smertebehandling og dermed ikke en egentlig ny indikation.
 
-- **Mekanistisk validering**: Præ-kliniske studier, der undersøger, om COX-hæmning eller PGE2-modulering kan påvirke *IHH*- eller *HOXD13*-signalering i relevante in vitro- eller in vivo-modeller — i øjeblikket ikke til stede i litteraturen.
-- **Sikkerhedsdatahentning**: Indhent det fulde Produktresumé (SmPC) fra et land, hvor dexibuprofen er godkendt (f.eks. Østrig, Spanien), og vurder vigtige advarsler og kontraindikationer før yderligere evaluering.
-- **Lægemiddelinteraktionsdata**: Foretag en formelle DDI-vurdering, da der ikke blev hentet interaktionsdata i det aktuelle bevispaket.
-- **Gennemgang af TxGNN-modelkalibrering**: Vurdér, om de konsekvent høje scores på tværs af flere sjældne skelet-/bindevævssyndromer afspejler en systematisk forudsigelsesforstyrring for muskuloskelet-fenotyp-klynger i vidensgrafen.
-- **Ny vurdering i forhold til lavere-rangerede forudsigelser**: Overvej, om indikationer med stærkere mekanistiske forbindelser (f.eks. inflammatoriske eller smerterelaterede tilstande) kunne repræsentere mere håndtérbare omlæggningsmuligheder, der ikke er fundet blandt de højest rangerede forudsigelser.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke lægelig rådgivning. Kandidater til nyt anvendelsesområde for kendte lægemidler kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

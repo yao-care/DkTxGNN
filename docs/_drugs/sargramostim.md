@@ -2,7 +2,7 @@
 layout: default
 title: Sargramostim
 parent: Kun modelforudsigelse (L5)
-nav_order: 392
+nav_order: 394
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sargramostim: Fra uspecificeret oprindelig indikation til lægemiddelinduceret osteoporose
+# Sargramostim: Fra myeloid vækstfaktor (GM-CSF) til lægemiddelinduceret osteoporose
 
-## Sammenfatning på én sætning
+## Resumé
 
-Sargramostims oprindelige godkendte indikation er ikke registreret i den aktuelle evidenspakke, og der findes ingen markedsføringstilladelse i Danmark i dag. TxGNN-modellen forudsiger et muligt signal for **lægemiddelinduceret osteoporose**, men dette er i øjeblikket **kun modelforudsigelse** — **0 kliniske forsøg** og **0 publikationer** understøtter denne specifikke retning, og lægemidlets eget rationale peger på en mulig modstridende mekanisme.
-
----
+Sargramostim er rekombinant GM-CSF (granulocyt-makrofag-kolonistimulerende faktor), som virker på myeloide stamceller. TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose** (drug-induced osteoporosis). Forudsigelsen er udelukkende modelbaseret: der er **0 kliniske forsøg** og **0 publikationer** i de leverede data.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig i den aktuelle evidenspakke |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 98.99% |
-| Bevisgrad | L5 (kun modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
+| TxGNN-score | 98,99 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ikke detaljerede data om sargramostims virkningsmekanisme i det leverede materiale. Sargramostim er rekombinant GM-CSF, som påvirker myeloide stamceller i knoglemarven.
 
-Detaljerede data om virkningsmåde for Sargramostim er ikke tilgængelige i denne evidenspakke. Sargramostim er kendt som et rekombinant GM-CSF-produkt (granulocyt-makrofag kolonistimulerende faktor), og denne identitet afspejles i modellens egen rationaletkst snarere end i strukturerede MOA-data.
+Osteoklaster, som nedbryder knoglevæv, stammer fra monocyt/makrofag-linjen. Prækliniske arbejder tyder på, at GM-CSF kan påvirke osteoklasternes differentiering. Effektretningen afhænger af konteksten, så det er uvist, om påvirkningen vil være gavnlig eller skadelig ved osteoporose.
 
-Rationalet, der leveres sammen med forudsigelsen, er eksplicit forsigtigt snarere end støttende: GM-CSF forstås at modulere knoglemarvsstromale celler og osteoklastdifferentiering, hvilket giver det en teoretisk, indirekte forbindelse til knoglemetabolisme. Imidlertid noterer samme rationale, at noget litteratur tyder på, at GM-CSF i stedet kan **fremme** osteoklastaktivitet — hvilket betyder, at effektens retning er uvis og plausibelt kunne virke *imod* en osteoporoseangivelse snarere end for den.
+Sammenhængen er derfor indirekte og spekulativ og kan ikke verificeres ud fra de leverede data. Den høje score på 98,99 % er en modelforudsigelse og ikke et bevis for klinisk effekt.
 
-På baggrund heraf bør den mekanistiske sag her læses som et hypotesedannende signal kun, ikke som et sammenhængende farmakologisk argument for terapeutisk genudvikling. Den stiger i øjeblikket ikke til et niveau, der ville støtte klinisk udforskning uden yderligere mekanistiske og sikkerhedsdata.
+## Klinisk evidens fra forsøg
 
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
 
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede registrerede kliniske forsøg.
-
----
-
-## Evidens fra litteratur
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
----
+## Information om markedet i Danmark
 
-## Markedsinformation for Danmark
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107163624 | Imreplys | Pulver til injektionsvæske, opløsning | Ikke oplyst i de leverede data |
 
-Sargramostim har i øjeblikket ingen markedsføringstilladelse i Danmark (0 registrerede licenser; markedsstatus: Ikke markedsført). Der er ingen Laegemiddelstyrelsen- eller EMA-centraliserede godkendelsesdata tilgængelig i denne evidenspakke.
+Producent: Partner Therapeutics Limited.
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedshensyn
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke leveret data om advarsler, kontraindikationer eller interaktioner.
 
-Se venligst de godkendte produktkarakteristika (SmPC) for sikkerhedsinformation. Der blev ikke fundet lægemiddelinteraktionsdata i den aktuelle forespørgsel (forespørgselsstatus: ikke fundet, 0 interaktioner).
+## Konklusion og næste skridt
 
----
-
-## Konklusion og næste trin
-
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat understøttes kun af en L5-modelforudsigelse — der er ingen kliniske forsøg eller litteratur specifikt for Sargramostim ved lægemiddelinduceret osteoporose, og lægemidlets egen mekanistiske rationale rejser muligheden for, at GM-CSF kunne forværre snarere end forbedre osteoklast-drevet knogletab. Kombineret med fraværet af enhver dansk markedsføringstilladelse, er der intet grundlag for at fremme denne kandidat på nuværende tidspunkt.
+Forudsigelsen hviler alene på modellen (evidensniveau L5) uden forsøg eller litteratur. Den mekanistiske sammenhæng er spekulativ, og effektretningen er uvis. Sikkerhedsdata fra produktresuméet mangler desuden, hvilket blokerer den videre sikkerhedsvurdering.
 
-**For at fortsætte er følgende nødvendigt:**
-- Dansk/EU SmPC-advarsler og kontraindikationer for Sargramostim (i øjeblikket et blokerende datahul — påkrævet før enhver sikkerhedsvurdering)
-- Bekræftede data om virkningsmåde fra DrugBank eller tilsvarende kilde
-- Primærlitteratur eller prækliniske data direkte adressering af virkningen af GM-CSF på osteoklastaktivitet og knogletæthed, for at løse den retningsusikkerhed, der er noteret i rationalet
-- Bekræftelse af oprindelig godkendt indikation(er), for at vurdere lighed/rationale korrekt mellem gammel og ny brug
+Modellen forudsiger også andre indikationer med lavere mekanistisk plausibilitet, bl.a. primær frigivelsesforstyrrelse af trombocytter, svær non-proliferativ diabetisk retinopati, Glanzmanns trombasthenii og pseudo-von Willebrands sygdom. De er ikke understøttet af data. Det eneste registrerede forsøg (NCT03570541, postoperativ smertebehandling) vurderes som en fejlagtig søgetræffer uden relation til sargramostim.
 
+**For at komme videre kræves:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Systematisk litteratursøgning og prækliniske data om GM-CSF og osteoklastdifferentiering, herunder effektretning
+- Afklaring af godkendt indikation og administrationsvej for Imreplys i forhold til den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

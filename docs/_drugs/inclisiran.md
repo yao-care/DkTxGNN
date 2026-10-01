@@ -2,7 +2,7 @@
 layout: default
 title: Inclisiran
 parent: Kun modelforudsigelse (L5)
-nav_order: 230
+nav_order: 231
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inclisiran: Fra PCSK9-målrettet lipidterapi til kaliummangelsygdom
+# Inclisiran: Fra kolesterolsænkning til kaliummangel
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Inclisiran er en lille interfererende RNA (siRNA), der dæmper PCSK9 mRNA i hepatocytter; den specifikke oprindelige indikationstekst er ikke tilgængelig i denne bevisemappe. TxGNN-modellen forudsiger en mulig forbindelse til **kaliummangelsygdom** med en meget høj tillidsværdi, men **ingen kliniske forsøg og ingen litteratur** understøtter i øjeblikket denne retning, og bevisemappens egen mekanistiske gennemgang markerer forudsigelsen som sandsynligvis en **falsk positiv**.
+Inclisiran er et siRNA-lægemiddel, der nedsætter LDL-kolesterol ved at hæmme leverens PCSK9-produktion. Den danske registrering indeholder ingen angivet indikationstekst.
+TxGNN-modellen forudsiger, at det kan have effekt ved **kaliummangel (potassium deficiency disease)**.
+Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modellen.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke dokumenteret i bevisemappe (ingen `original_indications` eller `original_moa` data tilgængelige; DrugBank-post eksisterer, men MOA-felt er en datamangel) |
-| Forudsagt ny indikation | Kaliummangelsygdom |
-| TxGNN forudsigelsesscore | 99.93% |
-| Bevisniveau | L5 (kun modelforudsigelse — ingen kliniske forsøg eller litteratur identificeret) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Vent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering. Mekanismen peger på LDL-kolesterolsænkning |
+| Forudsagt ny indikation | Kaliummangel (potassium deficiency disease) |
+| TxGNN-forudsigelsesscore | 99,93 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme for Inclisiran ikke tilgængelige som et struktureret felt i denne bevisemappe. Teksten med begrundelse for genbrug forbundet med denne forudsigelse identificerer dog Inclisiran som en siRNA, der målrettes PCSK9 mRNA, og som virker på hepatisk lipoproteinstofskifte.
+Detaljerede mekanismedata fra DrugBank mangler. Ud fra den tilgængelige vurdering er inclisiran et siRNA, der hæmmer translationen af PCSK9-mRNA i leveren. Det øger genbruget af LDL-receptorer og sænker dermed LDL-kolesterol.
 
-Baseret på denne mekanistiske beskrivelse konkluderer bevisemappens egen analyse, at der er **ingen kendt overlapning** mellem PCSK9/hepatisk lipoproteinvejen og kalium-homeostase (nyrens håndtering, aldosteronakse eller kaliumtransportører). Der blev ikke fundet litteratur, der understøtter en forbindelse mellem PCSK9-inhibering og nyre-tubulær kaliumregulering. Begrundelsen karakteriserer dette eksplicit som **"en høj-score forudsigelse uden mekanistisk forbindelse — en sandsynlig falsk positiv."**
+**Der er ikke fundet nogen plausibel mekanistisk sammenhæng** mellem denne virkning og kaliummangel. Inclisiran har ingen kendt effekt på kaliumhomeostase, nyrernes kaliumhåndtering eller kaliumindtag. Den meget høje score (0,9993) afspejler grafstrukturen i videnskabsgrafen og ikke klinisk evidens.
 
-Denne vurdering forstærkes af mønsteret på tværs af alle toprangerede forudsigelser i denne bevisemappe: spiserørssygdom, ikke-syndromisk spiserørsmisdannelse, atypisk aortakoarktation og migræne er også rangeret med meget høje TxGNN-score (99.8–99.9%), men hver enkelt bærer samme mekanistiske ansvarsfraskrivelse — ingen plausibel biologisk vej, der forbinder PCSK9-medieret lipidstofskifte til disse tilstande, og ingen understøttende forsøg eller publikationer for nogen af dem. Dette antyder, at de høje TxGNN-score i dette kandidatset kan afspejle en systematisk scoringsartefakt snarere end ægte biologisk signal, og hver kandidat bør fortolkes med forsigtighed.
+Modellen foreslår også andre kandidater, som alle har evidensniveau L5 og anbefalingen Hold:
 
----
-
-## Klinisk forsøgsbeviser
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturbeviser
-
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+- **Esophageal disease** (score 99,87 %): ingen kendt biologisk begrundelse. Kategorien er desuden meget bred.
+- **Atypical coarctation of aorta** (score 99,86 %): en strukturel medfødt karanomali, som LDL-sænkning ikke forventes at kunne korrigere.
+- **Migraine disorder** (score 99,83 %): spekulativ. Der er observationelle sammenhænge mellem migræne og vaskulære risikofaktorer, men ingen etableret mekanisme.
+- **Non-syndromic esophageal malformation** (score 99,83 %): en medfødt udviklingsanomali, hvor et lipidsænkende siRNA ikke forventes at have effekt. Anvendelse under graviditet og hos børn rejser desuden særskilte sikkerhedsspørgsmål.
 
 ---
 
-## Markedsinformation Danmark
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen markedsføringstilladelser registreret for Inclisiran i Danmark (markedsstatus: **Ikke markedsført**, 0 licenser på fil).
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktsammenfattende karakteristika (SmPC) for sikkerhedsinformation.
-
-*Bemærk: Der eksisterer en kritisk datamangel — Lægemiddelstyrelses label-advarsler/kontraindikationer er endnu ikke hentet, hvilket forhindrer denne kandidat i at indgå i sikkerhedsscreening (S1).*
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Afgørelse: Vent**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsoplysninger i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106393820 | Leqvio | Injektionsvæske, opløsning i fyldt injektionssprøjte | Novartis Europharm Limited |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet interaktionsdata for inclisiran i det foreliggende materiale.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Bevisniveauet er L5 — forudsigelsen hviler helt på TxGNN-modelscoret, uden nogen bekræftende kliniske forsøg eller litteratur.
-- Bevisemappens egen mekanistiske begrundelse argumenterer **mod** biologisk plausibilitet, eksplicit markeret som en sandsynlig falsk positiv, og samme mønster gentages på tværs af alle andre toprangerede kandidater for dette lægemiddel.
-- En kritisk datamangel (SmPC-advarsler/kontraindikationer) betyder, at denne kandidat endnu ikke kan indgå i sikkerhedsscreening (S1) uanset forudsagt-indikationsstyrke.
+Forudsigelsen bygger udelukkende på en modelscore (L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Det samme gælder de øvrige forudsagte indikationer. Sikkerhedsdata fra den danske produktinformation mangler desuden og blokerer videre sikkerhedsscreening.
 
-**For at kunne gå videre er følgende nødvendigt:**
-- Hent Lægemiddelstyrelses label-advarsler og kontraindikationer (kritisk datamangel, DG001)
-- Hent verificeret virkningsmekanismedata fra DrugBank (DG002)
-- Bekræft lægemidlets faktiske oprindelige indikation(er), som i øjeblikket mangler fra denne bevisemappe
-- Uafhængig mekanistisk eller præ-klinisk beviser, der specifikt forbinder PCSK9 mRNA-dæmpning til kalium-homeostase, før yderligere investering i denne kandidat
-- I betragtning af den konsistente mangel på mekanistisk understøttelse på tværs af dette lægemiddels fulde kandidatliste, overvej at re-evaluere TxGNN-scoreoutputtet for dette lægemiddel som mulig systematisk scoringsartefakt snarere end at evaluere hver kandidat enkeltvis
+**For at komme videre kræves følgende:**
+- Indhentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen, herunder advarsler og kontraindikationer
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- Systematisk litteratur- og forsøgssøgning for at afklare, om der findes noget biologisk belæg for nogen af de forudsagte indikationer
+- En eksplicit mekanistisk hypotese, før en eventuel prækliniske eller klinisk vurdering overvejes
 
+*Dette resultat er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Tezepelumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 428
+nav_order: 430
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tezepelumab: Fra svær astma til diabetisk katarakt
+# Tezepelumab: Fra svær astma til diabetisk grå stær
 
-## Resumé på én linje
+## Resumé i én sætning
 
-Tezepelumab er et anti-TSLP monoklonalt antistof; dets etablerede indikation er svær astma drevet af type 2-inflammation, selvom formelle danske etiketdata for denne oprindelige indikation i øjeblikket ikke er tilgængelige. TxGNN-modellen forudsiger mulig virkning ved **diabetisk katarakt**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske prøver** og **0 publikationer**, og bevis-pakkets egen mekanistiske anmeldelse markerer det som et sandsynligt falsk-positivt grafartefakt snarere end et biologisk funderet signal.
+Tezepelumab er et monoklonalt antistof mod TSLP, som er markedsført til behandling af svær astma. TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk grå stær (diabetic cataract)**. Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modellen.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original indikation | Svær astma (type 2-inflammations-drevet) — ifølge modelrationale; formelle danske etiketdata utilgængelige (datahul) |
-| Forudsagt ny indikation | Diabetisk katarakt |
-| TxGNN-forudsigelsesscore | 98.40% |
-| Bevisniveau | L5 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Svær astma (ifølge den mekanistiske vurdering i Evidence Pack; indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Diabetisk grå stær |
+| TxGNN-score | 98,4 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede virkningsmekanisme-data er ikke tilgængelige i denne bevis-pakke (datahul, høj alvorlighed). Baseret på de mekanistiske noter, der ledsager forudsigelsen, er Tezepelumab et anti-TSLP (thymic stromal lymphopoietin) monoklonalt antistof, med sin dokumenterede virkning begrænset til svær astma drevet af type 2-inflammation.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Tezepelumab er et anti-TSLP-antistof, og effekten ved svær astma er dokumenteret. Mekanistisk set kan TSLP-drevet lavgradig inflammation og fibrose i linseepitelet muligvis have betydning for diabetisk grå stær, men der er ikke fremlagt data, der understøtter denne sammenhæng. Forbindelsen er derfor spekulativ.
 
-Der er ingen kendt direkte biologisk vej, der forbinder TSLP-signalering til katarakt-patofysiologi, som involverer denaturering af linsprotein, oxidativt stress og polyol-vejen. Bevis-pakkets egen begrundelse for repurposering karakteriserer eksplicit denne høje score (0.984) som sandsynligt opstået fra en indirekte knowledge-graph-forbindelse gennem en delt "diabetes"-knude snarere end fra en ægte farmakologisk mekanisme — dvs. modellen selv markerer dette som en sandsynlig falsk positiv.
+Den høje score (0,984) er alene en modelforudsigelse. Derudover er det usandsynligt, at et stort monoklonalt antistof når linsen efter systemisk dosering, hvilket svækker den biologiske rimelighed yderligere.
 
-Givet fraværet af både en plausibel mekanistisk forbindelse og nogen understøttende klinisk eller litteraturbevis, bør denne forudsigelse behandles som udelukkende eksplorativ og ikke som et grundlag for yderligere mekanistisk eller klinisk investering på nuværende tidspunkt.
+### Øvrige forudsagte indikationer (alle L5, Hold)
 
----
+Efter sammenlægning af dubletter forudsiger modellen også følgende kataraktformer med samme score på 98,3 %. Ingen af dem har kliniske forsøg eller litteratur.
 
-## Bevis fra kliniske prøver
-
-Der er i øjeblikket ingen relaterede kliniske prøver registreret.
-
----
-
-## Litteraturbevis
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+| Forudsagt indikation | Vurdering |
+|------|------|
+| Umoden grå stær (immature cataract) | Morfologisk stadium, ikke en selvstændig ætiologi. Sandsynligvis grafnærhed til andre katarakt-knuder |
+| Moden grå stær (mature cataract) | Fremskreden strukturel uklarhed, behandles kirurgisk. Ingen plausibel reversibel mekanisme. Sandsynligvis en artefakt i vidensgrafen |
+| Type 2-diabetes-associeret grå stær | Ingen etableret mekanisme. Eventuel sammenhæng er indirekte via inflammation |
+| Kraniostenose-katarakt | Sjælden syndromal/medfødt tilstand uden tydelig TSLP-rationale |
+| Tetanisk katarakt | Skyldes hypokalcæmi/hypoparatyreoidisme og er uafhængig af TSLP-signalering |
 
 ---
 
-## Danmarks markedsinformation
+## Klinisk evidens fra forsøg
 
-Tezepelumab har i øjeblikket ingen markedsføringstilladelser i Danmark (0 licenser på rekord; markedsstatus: Ikke markedsført).
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28106632821 | Tezspire | Injektionsvæske, opløsning i fyldt injektionssprøjte | AstraZeneca AB |
+
+Indikationsteksten er ikke angivet i de tilgængelige registreringsdata.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte EU Produktresumé (SmPC), da dette lægemiddel i øjeblikket ikke har en dansk markedsføringstilladelse, og ingen lægemiddelinteraktions-, advarsel- eller kontraindikationsdata er tilgængelige i denne bevis-pakke. Bemærk også, at dansk-specifik etiket- og advarseldata (f.eks. svarende til TFDA-etiketadvarsler) er markeret som et **Blokerende** datahul, hvilket betyder, at en formel sikkerhedsscreening endnu ikke kan gennemføres for denne kandidat.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen klinisk eller litteraturbevis, der understøtter denne indikation, og bevis-pakkets egen mekanistiske analyse identificerer forudsigelsen som et sandsynligt knowledge-graph-artefakt snarere end et biologisk plausibelt signal. Lægemidlet er også ikke markedsført i Danmark, og et blokerende sikkerhedsdatahul forhindrer enhver indledende sikkerhedsscreening.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur. Den biologiske rimelighed er lav, især fordi et stort antistof næppe når linsen ved systemisk dosering. Flere af de forudsagte kataraktformer (tetanisk, kraniostenose, moden) har desuden en ætiologi, der ikke har noget med TSLP at gøre.
 
-**For at fortsætte, er følgende nødvendig:**
-- Dansk/EU-etiketdata om sikkerhed (advarsler, kontraindikationer) for at løse det blokerende datahul
-- Bekræftet virkningsmekanisme via DrugBank eller producent-SmPC
-- Uafhængigt mekanistisk eller præ-klinisk bevis, der forbinder TSLP/type 2-inflammations-signalveje til katarakt-patofysiologi, før der forfølges yderligere kliniske prøve- eller litteratursøgninger
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
+- Prækliniske data, der viser TSLP-involvering i linsepatologi ved diabetes, samt en vurdering af mulig okulær eksponering
+- Vurdering af administrationsvej, da den nuværende subkutane injektionsform sandsynligvis ikke er forenelig med behovet for målvævseksponering i øjet
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

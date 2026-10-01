@@ -2,7 +2,7 @@
 layout: default
 title: Avapritinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 51
+nav_order: 52
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,109 +29,109 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Avapritinib: Fra GIST / Systemisk Mastocytose til Aksialt Spondylometafyseal Dysplasi
+# Avapritinib: Fra KIT/PDGFRA-drevne tumorer til aksial spondylometafysær dysplasi
 
-## Sammenfatning på En Sætning
+## Resumé i én sætning
 
-Avapritinib (Ayvakit) er en selektiv KIT- og PDGFRA-kinasehæmmer, der er godkendt internationalt til resektabel eller metastatisk gastrointestinal stromaltumor (GIST) med PDGFRA exon 18-mutationer og til avanceret systemisk mastocytose — den er dog ikke registreret i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **Aksialt Spondylometafyseal Dysplasi** med en score på 99,92%, men der eksisterer **ingen kliniske forsøg eller publiceret litteratur** for denne indikation.
-På tværs af alle fem unikke forudsagte indikationer i denne Evidence Pack er evidensniveauet ensartet **L5 (kun modelforudsigelse)** og anbefalingen er **Afventa** for hver kandidat.
+Avapritinib er en selektiv KIT/PDGFRA-hæmmer i tabletform, som er markedsført i Danmark under navnet AYVAKYT.
+TxGNN-modellen forudsiger, at det kan have effekt ved **aksial spondylometafysær dysplasi** (score 99,92 %).
+Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikationer**, og der er ikke identificeret nogen mekanistisk sammenhæng.
 
 ---
 
-## Hurtig Oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig Indikation | Ikke registreret i Danmark; globalt godkendt til PDGFRA exon 18-mutant GIST og avanceret systemisk mastocytose |
-| Forudsagt Ny Indikation | Aksialt Spondylometafyseal Dysplasi |
-| TxGNN Forudsigelsesscore | 99,92% |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i datagrundlaget (den danske godkendelsespost har ingen indikationstekst) |
+| Forudsagt ny indikation | Aksial spondylometafysær dysplasi |
+| TxGNN-forudsigelsesscore | 99,92 % |
 | Evidensniveau | L5 |
-| Danmarks Markedsstatus | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | Afventa |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er Denne Forudsigelse Rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i denne Evidence Pack. Baseret på publiceret videnskabelig litteratur er Avapritinib en meget selektiv hæmmer af KIT (exon 17/18-mutationer) og PDGFRA (D842V-mutation) — to konstant aktiverede receptor-tyrosinkinaser, der driver tumorvækst ved GIST og mastcellproliferation ved systemisk mastocytose. Dets antineoplastiske virkning er således tæt knyttet til hæmning af aberrant KIT/PDGFRA-signalering i onkologiske sammenhænge.
+Detaljerede mekanismedata fra DrugBank mangler. Ifølge vurderingen i evidenspakken er avapritinib en selektiv hæmmer af tyrosinkinaserne KIT og PDGFRA.
 
-Aksialt spondylometafyseal dysplasi er imidlertid en sjælden skeletal dysplasi forårsaget af loss-of-function-mutationer i *PAPSS2*-genet, som koder for et enzym, der er væsentligt for sulfatering af bruskproteoglykaner. Den underliggende sygdomsmekanisme — defekt sulfatmetabolisme, der fører til skeletal misdannelse — har ingen kendt forbindelse til KIT- eller PDGFRA-signalvejer. Der er ingen etableret biologisk rationale, der forbinder Avapritinibs farmakologiske målpunkter til bentilblivelse eller sulfatmetabolisme.
+Aksial spondylometafysær dysplasi er en sjælden skeletdysplasi uden kendt KIT/PDGFRA-drevet patologi. Der er derfor ingen mekanistisk forbindelse mellem den oprindelige virkning og den forudsagte indikation. Den høje score er udelukkende et resultat af modellens grafbaserede forudsigelse og bør ikke tolkes som klinisk evidens.
 
-Den høje TxGNN-forudsigelsesscore (99,92%) afspejler mest sandsynligt strukturelle mønstre eller indirekte nodeadjacentser inden for vidensgrafen snarere end et ægte biologisk forhold. Denne bekymring gælder ligeledes for alle fem unikke forudsagte indikationer i denne Evidence Pack: ingen præsenterer en plausibel mekanistisk forbindelse til Avapritinibs kendte farmakologi. Blandt alle kandidater bærer amyotrofisk lateral sclerose (ALS, rangering 3) det svageste, men mindst implausible rationale — KIT udtrykkes på mastceller, der er impliceret i ALS-neuroinflammation, og PDGFRA udtrykkes på oligodendrocyt-precursor-celler med potentiel neuroprotektiv rolle — men selv dette link er indirekte, spekulativt og fuldstændig uvalideret på lægemiddelniveau.
+Yderligere fire sygdomme blev forudsagt, alle med scorer på ca. 99,9 %. Hver forekommer to gange på listen, så der er i alt fem unikke sygdomme:
 
----
+| Forudsagt sygdom | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Bilateral parasagittal parieto-occipital polymikrogyri | 99,92 % | L5 | Hold: sjælden medfødt kortikal misdannelse, ingen link til KIT/PDGFRA |
+| Amyotrofisk lateral sklerose (ALS) | 99,92 % | L4 | Forskningsspørgsmål: kun indirekte begrundelse på klasseniveau |
+| Trichomegali-retinal pigmentdegeneration-dværgvækst-syndrom | 99,92 % | L5 | Hold: ekstremt sjælden, intet link |
+| ALS, modtagelighed for | 99,91 % | L5 | Hold: genetisk risikomærkat, ikke en behandlingsbar klinisk fænotype; overlapper med ALS-posten |
 
-## Alle Forudsagte Indikationer — Top 5 Unikke Sygdomme
-
-| Rangering | Sygdom | TxGNN Score | Evidensniveau | Beslutning | Mekanistisk Vurdering |
-|-----------|--------|-------------|----------------|------------|----------------------|
-| 1 | Aksialt Spondylometafyseal Dysplasi | 99,92% | L5 | Afventa | *PAPSS2*-mutation (sulfateringsdefekt) — ingen kendt KIT/PDGFRA-link |
-| 2 | Bilateral Parasagittal Parieto-Occipital Polymikrogyri | 99,92% | L5 | Afventa | Kortikal strukturel misdannelse (*ADGRG1*/GPR56) — intet lægemiddel-adgang-vindue |
-| 3 | Amyotrofisk Lateral Sclerose (ALS) | 99,92% | L5 | Afventa | Indirekte mastcelle / PDGFRA-OPC-link — spekulativt, ingen klinisk validering |
-| 4 | Trichomegaly–Retinal Pigmentary Degeneration–Dwarfism Syndrome | 99,92% | L5 | Afventa | *PNPLA6*-mutation (fosfolipidmetabolisme) — intet KIT/PDGFRA-link; ekstremt sjælden |
-| 5 | ALS, Modtagelighed For | 99,91% | L5 | Afventa | Deles ALS-rationale; forebyggende brug hos presymptomatiske bærere tilføjer etisk kompleksitet |
+**ALS** er den eneste forudsigelse med en indirekte, hypotesegenererende begrundelse. Tyrosinkinasehæmmere, der virker på KIT og CSF1R (f.eks. masitinib), er undersøgt ved ALS ud fra en hypotese om modulering af neuroinflammation via mastceller og mikroglia. For avapritinib findes der ingen ALS-specifikke data. Lægemidlets CNS-sikkerhedssignaler (kognitive effekter og intrakraniel blødning) skal desuden vejes ind. Sagen egner sig til en prækliniske gennemgang, ikke til klinisk handling.
 
 ---
 
-## Evidens fra Kliniske Forsøg
+## Evidens fra kliniske forsøg
 
-For øjeblikket er der ingen registrerede kliniske forsøg for nogen af de forudsagte indikationer.
-
----
-
-## Litteraturvidenskab
-
-For øjeblikket er der ingen tilgængelig litteratur for nogen af de forudsagte indikationer.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Danmarks Markedsinformation
+## Litteraturevidens
 
-Avapritinib er for øjeblikket ikke markedsført i Danmark. Ingen nationale (Lægemiddelstyrelsen) eller centraliserede markedsføringstilladelser er registreret i dette datasæt.
+Der findes i øjeblikket ingen relateret litteratur.
 
-> **Bemærk for klinikere:** Avapritinib (Ayvakit) har en europæisk medicineragenturs (EMA) centraliseret markedsføringstilladelse (EU/1/20/1515) til PDGFRA exon 18-mutant resektabel eller metastatisk GIST og til avanceret systemisk mastocytose. Kommerciel tilgængelighed i Danmark bør bekræftes hos den relevante farmaceutiske leverandør. Enhver brug uden for en registreret indikation ville kræve ansøgning gennem named-patient supply, compassionate use, eller en godkendt klinisk forsøgsramme.
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106301219 | AYVAKYT (Blueprint Medicines, Holland) | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i datagrundlaget |
+
+Administrationsvej: oral.
 
 ---
 
 ## Cytotoksicitet
 
-Avapritinib kvalificeres som et antineoplastisk middel (KIT/PDGFRA-målrettet oral kinasehæmmer). Følgende klassificering gælder:
+Avapritinib er et målrettet antineoplastisk middel (tyrosinkinasehæmmer).
 
 | Punkt | Indhold |
-|-------|---------|
-| Cytotoksicitetsklassificering | Målrettet terapi — selektiv KIT/PDGFRA tyrosinkinasehæmmer (ikke konventionel cytotoksisk) |
-| Myelosuppressionsrisiko | Moderat — anæmi, trombocytopeni og neutropeni er rapporteret i kliniske forsøg for de godkendte indikationer |
-| Emetogenicitetsklassificering | Lav til moderat (oral målrettet middel) |
-| Overvågningspunkter | Totalt blodtal (FBC) med differentiel, leverfunktion, nyrefunktion, koagulation; særlig opmærksomhed på intracerebral blødning, kognitive ændringer og neuropsykiatriske symptomer (klassespecifik risiko) |
-| Håndteringsbeskyttelse | Klassificeret som et farligt antineoplastisk middel; standardforholdsregler for oral håndtering af farligt lægemiddel gælder i henhold til institutionelle cytotoksiske håndteringsprotokoller (NIOSH/ESOP-retningslinjer) |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet behandling (KIT/PDGFRA-kinasehæmmer) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+
+Der er ikke tilgængelige toksicitetsdata i datagrundlaget. Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Detaljerede sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i denne Evidence Pack.
+Produktresuméets advarsler og kontraindikationer for AYVAKYT er ikke indlæst i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-> Venligst se det godkendte Produktresumékarakteristikum (SmPC) for Ayvakit for fuldstændige sikkerhedsoplysninger, herunder advarsler vedrørende intracerebral blødning, kognitiv svækkelse, fotosensitivitet og embryo-fødal toksicitet.
+Vurderingen af ALS-forudsigelsen nævner kognitive effekter og intrakraniel blødning som CNS-sikkerhedssignaler, der skal tages i betragtning ved enhver overvejelse af neurologiske indikationer.
 
 ---
 
-## Konklusion og Næste Trin
+## Konklusion og næste skridt
 
-**Beslutning: Afventa**
+**Beslutning: Hold**
 
-**Rationale:**
-Alle forudsagte indikationer er klassificeret på evidensniveau L5 — TxGNN-modellen genererede disse forudsigelser udelukkende fra vidensgrafs struktur, uden nogen understøttende kliniske forsøg eller peer-reviewed litteratur. De mekanistiske links mellem Avapritinibs farmakologi (KIT/PDGFRA-hæmning) og enhver forudsagt sygdom er enten fraværende eller meget indirekte; de ensartet høje forudsigelsesscore på tværs af strukturelt urelaterede sjældne sygdomme foreslår stærkt vidensgrafs topologi-artefakter snarere end ægte biologiske signaler.
+**Begrundelse:**
+Alle forudsigelser er rene modelforudsigelser uden kliniske forsøg eller litteratur. For de fleste er der ingen identificeret mekanistisk sammenhæng med KIT/PDGFRA-hæmning. Kun ALS har en indirekte, hypotesegenererende begrundelse (evidensniveau L4, "forskningsspørgsmål").
 
-**For at fortsætte, er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Indlæsning af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsscreening
+- Mekanismedata (MOA) fra DrugBank
+- For ALS: en prækliniske litteraturgennemgang af KIT/CSF1R-hæmning og neuroinflammation samt en vurdering af avapritinibs CNS-sikkerhedsprofil
+- Bekræftelse af den oprindelige godkendte indikation, da indikationsteksten mangler i den danske godkendelsespost
 
-- **Hent MOA- og sikkerhedsdata**: Spørg DrugBank API og download Ayvakit SmPC for at udfylde de to blokerende datakløfter (DG001, DG002) før yderligere evaluering bliver meningsfuld
-- **For ALS (den mest mekanistisk explorerbar kandidat)**: Foretag en systematisk litteraturgennemgang af KIT-hæmning i neuroinflammatoriske ALS-modeller og PDGFRA-hæmning i oligodendrocyt-precursor-cellebiologi før vurdering af feasibility — dette er en forudsætning, ikke et klinisk parathedskriterium
-- **Deprioritér strukturelle misdannelsesindikationer**: Aksialt spondylometafyseal dysplasi (rangering 1) og bilateral polymikrogyri (rangering 2) repræsenterer faste strukturelle anomalier uden farmakologisk tilgængelig interventionsvindue; disse bør fjernes fra yderligere overvejelse
-- **Deprioritér Oliver-McFarlane-syndrom** (rangering 4): Mekanistisk urelateret, ekstremt sjælden globalt (færre end 50 rapporterede tilfælde), hvilket gør klinisk forsøgsdesign ugennemførligt
-- **Bekræft Danmarks-tilgængelighed**: Bekræft nuværende kommerciel tilgængelighed af Ayvakit via den EMA-autoriserede centraliserede rute, da autoriseringen eksisterer, men lokal markedsindsættelsesstatus kræver præcisering
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

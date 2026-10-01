@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cannabidiol
-parent: Høj evidens (L1-L2)
-nav_order: 87
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 88
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cannabidiol
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,70 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cannabidiol: Fra Epilepsi til Rastløst Bensyndrom
+# Cannabidiol: Fra markedsført lægemiddel til restless legs syndrom
 
-> **Ansvarsfraskrivelse:** Denne rapport er udelukkende beregnet til forskningsreference og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomdestilling kræver klinisk validering før eventuel terapeutisk anvendelse.
+## Resumé
 
----
+Cannabidiol er markedsført i Danmark som oral opløsning (Epidyolex), men datagrundlaget angiver ingen godkendt indikation.
+TxGNN-modellen forudsiger, at det kan have effekt ved **restless legs syndrom (RLS)**.
+Der er **1 registreret klinisk forsøg direkte om RLS** (endnu ikke rekrutterende) og **ingen publikationer** om RLS.
 
-## Resumé i en sætning
+## Hurtigt overblik
 
-Cannabidiol (CBD) er et ikke-psykoaktivt fytocannabinoid, der er internationalt godkendt til behandlingsresistent epilepsi (Dravet-syndrom og Lennox-Gastaut-syndrom), skønt det i øjeblikket ikke har markedsføringstilladelse i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt til **Rastløst bensyndrom (RLS)**, med en forudsigelsesscore på **96.17%** og **4 registrerede kliniske forsøg** — herunder et fase 2-RCT, der direkte målretter idiopatisk RLS — hvilket giver et plausibelt mekanistisk og voksende klinisk grundlag for denne retning.
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Restless legs syndrom |
+| TxGNN-forudsigelsesscore | 96,2 % |
+| Evidensniveau | L5 for RLS efter reglerne (evidenspakken angiver L2, men de afsluttede fase 2-forsøg omhandler Parkinsons sygdom, ikke RLS) |
+| Status i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hurtig oversigt
+Der foreligger aktuelt ingen detaljerede data om virkningsmekanismen (MOA) i evidenspakken. Cannabidiol kan påvirke det endocannabinoide system samt TRPV1- og 5-HT1A-signalering, muligvis med indirekte effekter på dopaminerge og sensoriske baner, som spiller en rolle ved RLS.
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Epilepsi (Dravet-syndrom / Lennox-Gastaut-syndrom) — international godkendelse; ikke i øjeblikket registreret i Danmark |
-| Forudsagt ny indikation | Rastløst bensyndrom |
-| TxGNN-forudsigelsesscore | 96.17% |
-| Evidensniveau | L2 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Gå videre med sikkerhedsforanstaltninger |
+Der er ingen oplysninger om den oprindelige indikation, så sammenhængen mellem den og RLS kan ikke vurderes. Mekanismen er **plausibel, men ubekræftet**. Datagrundlaget indeholder ingen mekanistisk litteratur om RLS, og den høje score er udelukkende en modelforudsigelse.
 
----
+## Kliniske forsøg
 
-## Hvorfor er denne forudsigelse rimelig?
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT07224932](https://clinicaltrials.gov/study/NCT07224932) | Fase 2 | Endnu ikke rekrutterende | 60 | Randomiseret, dobbeltblindet, placebokontrolleret studie af tolerabilitet og effekt af CBD-rigt cannabisekstrakt (BRC-002) ved idiopatisk RLS. Ingen resultater endnu. |
+| [NCT03582137](https://clinicaltrials.gov/study/NCT03582137) | Fase 2 | Afsluttet | 74 | Placebokontrolleret RCT af CBD ved motoriske symptomer ved Parkinsons sygdom. Indirekte relevans (anden sygdom). |
+| [NCT02818777](https://clinicaltrials.gov/study/NCT02818777) | Fase 2 | Afsluttet | 13 | Placebokontrolleret crossover-studie af CBD ved tremor ved Parkinsons sygdom. Meget lille stikprøve, indirekte relevans. |
+| [NCT05092191](https://clinicaltrials.gov/study/NCT05092191) | Fase 2 | Rekrutterer | 250 | Cannabinoider mod symptomer ved multipel sklerose. Lav relevans for RLS. |
 
-Detaljerede data for virkningsmekanisme (MOA) var ikke tilgængelige i det aktuelle evidenspakke. Baseret på etableret farmakologisk litteratur virker CBD gennem flere neuromodulatoriske målgrupper: det modulerer endocannabinoidsystemet (ECS) via CB1- og CB2-receptorer uden at fungere som en direkte agonist, hæmmer GABA- og adenosin-recirkulering, aktiverer TRPV1-kanaler og antagoniserer GPR55. Det er godkendt som Epidiolex/Epidyolex (EMA centraliseret godkendelse) til anfaldreduktion ved Dravet-syndrom og Lennox-Gastaut-syndrom.
+## Litteratur
 
-Rastløst bensyndrom er en sensorimotor lidelse, hvis kernepatofysiologi involverer striatale dopaminerge dysfunktion, nedsat spinalt inhibitorisk neurotransmission, forstyrrelser i jernstofskiftet og øget central hyperarousal. CBDs potentielle relevans for RLS er mekanistisk begrundet: (1) ECS modulerer direkte striatal dopaminudskillelse — den primære dysregulation ved RLS; (2) GABA-recirkulering-hæmning kan reducere sensorisk dysæstesi og periodiske lemmebevægelser; (3) CB1-receptor-medieret spinalt inhibitorisk signalering kan dæmpe det patologiske drang-til-bevægelse; og (4) ny præklinisk evidens tyder på ECS-involvering i jernhomeostase, som skærer over med den velkendte jernmangel-etiologi for RLS.
+Der foreligger aktuelt ingen relevant litteratur om cannabidiol ved RLS.
 
-Selvom mekanistisk vej fra epilepsi til RLS ikke er direkte, deler begge tilstande træk af neurologisk hypereksitabilitet og forstyrret inhibitorisk signalering. CBDs brede neuromodulatorisk profil — især dens dopaminerge og GABAerge aktivitet — giver et farmakologisk plausibelt grundlag for TxGNN-forudsigelsen, med mekanistisk plausibilitet vurderet som moderat-til-høj.
+## Markedsinformation i Danmark
 
----
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28106059317 | Epidyolex | Oral opløsning | Jazz Pharmaceuticals Ireland Ltd |
 
-## Klinisk forsøgsevidence
+## Sikkerhedsovervejelser
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige resultater |
-|-------------|-------|--------|------------|--------------|
-| [NCT07224932](https://clinicaltrials.gov/study/NCT07224932) | Fase 2 | Ikke endnu rekruttering | 60 | Randomiseret, dobbelblind, placebo-kontrolleret parallelt RCT af højt CBD-cannabisekstrakt (BRC-002) specifikt hos patienter med idiopatisk RLS; primært endepunkt: tolerabilitet og sikkerhed; start planlagt december 2025 — det eneste direkte RLS-forsøg i dette datasæt |
-| [NCT05092191](https://clinicaltrials.gov/study/NCT05092191) | Fase 2 | Rekruttering | 250 | Cannabinoider vs nuværende standardbehandlinger til symptomfrigørelse ved multipel sklerose (Canada); RLS er en anerkendt MS-komorbiditet og inkluderet som sekundært symptomendepunkt; resultater endnu ikke tilgængelige |
-| [NCT02818777](https://clinicaltrials.gov/study/NCT02818777) | Fase 2 | Fuldført | 13 | Dobbelblind, placebo-kontrolleret crossover RCT af CBD (GWP42003) på tremor ved Parkinsons sygdom; fuldført november 2017; lille stikprøvestørrelse begrænser statistisk styrke, men crossover-design forbedrer indenfor-subjekt-sensitivitet |
-| [NCT03582137](https://clinicaltrials.gov/study/NCT03582137) | Fase 2 | Fuldført | 74 | Dobbelblind, placebo-kontrolleret parallelt RCT af CBD på motorsymptomer ved Parkinsons sygdom; primært endepunkt: MDS-UPDRS del III motorscore; fuldført januar 2022; største fuldførte CBD motor-lidelse RCT i dette datasæt |
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-> **Bemærkning:** NCT02818777 og NCT03582137 er Parkinsons sygdom-forsøg, ikke direkte RLS-forsøg. Deres inkludering afspejler mekanistisk og fænotypisk overlap mellem dopaminerge bevægelseslidelser; resultater bør ikke direkte ekstrapoleres til idiopatisk RLS-populationer.
+## Konklusion og næste skridt
 
----
-
-## Litteraturevidence
-
-I øjeblikket er ingen RLS-specifik litteratur tilgængelig i dette evidenspakke.
-
----
-
-## Danmarks markedsinformation
-
-Cannabidiol er i øjeblikket **ikke markedsført i Danmark** og har ingen national eller EMA centraliseret markedsføringstilladelse registreret i dette datasæt (0 licenser). Danske sundhedsprofessionelle, der overvejer off-label-brug eller forskningsadgang, skal være opmerksom på følgende:
-
-| Overvejelse | Detalje |
-|--------------|--------|
-| Epidyolex (EMA) | EMA centraliseret godkendelse eksisterer for Dravet-syndrom/LGS; gyldighed i Danmark afhænger af national refusion og importprocedurer |
-| Adgangsvejen | Ansøgning om navngivet patient / hospitalsfritagelse til Lægemiddelstyrelsen kan være påkrævet |
-| Regulatorisk myndighed | Lægemiddelstyrelsen — [www.laegemiddelstyrelsen.dk](https://www.laegemiddelstyrelsen.dk) |
-
----
-
-## Sikkerhedshensyn
-
-Specifikke sikkerhedsdata for denne kandidat er ikke i øjeblikket tilgængelige i dette evidenspakke — alle sikkerhedsfelter afventer datahentning. Se venligst den godkendte produktinformation (SmPC) for Epidiolex/Epidyolex for fuldstændig sikkerhedsinformation.
-
-Klinisk relevante sikkerhedssignaler fra publiceret litteratur og SmPC'en inkluderer:
-- **Hepatotoksicitet**: Forhøjede transaminaser rapporteret, især når det kombineres med valproat — leverfunktionsovervågning påkrævet
-- **CNS-effekter**: Søvnighed, træthed og sedation, især ved højere doser
-- **Gastrointestinale**: Nedsat appetit, diarré og opkastning
-- **Lægemiddelinteraktioner**: CBD er en CYP2C19-hæmmer og CYP3A4-substrat; DDI-profil blev ikke returneret i det aktuelle dataudtræk og bør gennemføres før eventuel klinisk brug
-
----
-
-## Konklusion og næste trin
-
-**Beslutning: Gå videre med sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-modellen tildeler en høj forudsigelsesscore (96.17%), mekanistisk plausibilitet er moderat-til-høj, og forskningslandskabet udvikler sig aktivt — et dedikeret fase 2 RLS RCT (NCT07224932) er registreret og forventes at give direkte effektivitets- og sikkerhedsdata. Ingen fuldførte forsøg har imidlertid direkte evalueret CBD ved idiopatisk RLS, og alle fuldførte fase 2-forsøg i dette datasæt er Parkinsons sygdom-studier. En "Gå videre med sikkerhedsforanstaltninger"-beslutning er passende: hypotesen er videnskabeligt troværdig og værd at fremme, men kræver stærkere direkte bevis før klinisk vedtagelse.
+Den høje modelscore (96,2 %) understøttes ikke af afsluttede forsøg eller publikationer om RLS. Det eneste RLS-specifikke forsøg er en fase 2-undersøgelse, der endnu ikke er startet, og som primært vurderer sikkerhed og tolerabilitet. Sikkerhedsdata fra produktresuméet mangler desuden i datagrundlaget.
 
-**For at fortsætte er følgende nødvendig:**
+**For at komme videre kræves:**
+- Resultater fra det RLS-specifikke forsøg NCT07224932
+- Data om virkningsmekanisme (MOA) og den godkendte indikation fra DrugBank og Lægemiddelstyrelsen
+- Advarsler og kontraindikationer fra det danske produktresumé
+- Vurdering af, om den orale opløsning egner sig til den tiltænkte anvendelse
 
-- **Primær**: Afvente og gennemgå resultater fra NCT07224932 (direkte RLS fase 2 RCT; oprindeligt planlagt til færdiggørelse februar 2026 — bekræft rekrutteringsstatus)
-- **Regulatorisk**: Bestem nuværende EMA/Lægemiddelstyrelsen-adgangsvejen for CBD i Danmark; præciser om Epidyolex centraliseret godkendelse er anerkendt eller kræver separat national ansøgning
-- **Sikkerhed**: Hent fuld SmPC-advarsler, kontraindikationer og DDI-profil for CBD (i øjeblikket datakluft); vurder hepatotoksicitet-risiko i RLS-patientpopulation
-- **Positionering**: Definer CBDs terapeutiske rolle i forhold til etablerede første-linje RLS-behandlinger (dopaminagonister: pramipexole, ropinirole; α₂δ-ligander: gabapentin enacarbil, pregabalin) — supplerende vs. alternativ
-- **RLS-subtype**: Præciser evidensanvendelighed til idiopatisk vs. sekundær (jernmangel, renal, MS-associeret) RLS-subtyper, givet den mekanistiske skæring med jernhomeostase
+**Øvrige forudsigelser:** Amyotrofisk lateral sklerose (score 94,2 %) har evidensniveau L3, primært baseret på oversigtsartikler og prækliniske studier, og ingen kontrollerede humane effektdata. De øvrige forudsigelser (bilateral parasagittal parieto-occipital polymikrogyri, aksial spondylometafysær dysplasi og trichomegali-retinal pigmentdegeneration-dværgvækst-syndrom) har ingen evidens og ingen identificerbar mekanistisk begrundelse, og bør stå på Hold.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

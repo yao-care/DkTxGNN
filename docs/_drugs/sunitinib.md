@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sunitinib
-parent: Høj evidens (L1-L2)
-nav_order: 410
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 412
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,96 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sunitinib: Fra ukendt original indikation til liposarkom
+# Sunitinib: Fra godkendte kræftindikationer til liposarkom
 
-## Et-sætnings resumé
+## Resumé
 
-> Sunitinib (DrugBank DB01268) er en oralt administreret multimålrettet tyrosinkinasehæmmer; den oprindelige godkendt indikation er ikke registreret i denne dokumentpakke, men stoffet er velbelegt i litteraturen som aktivt mod flere solid-tumortyper.
-> TxGNN-modellen forudsiger, at det kan være effektivt mod **liposarkom**,
-> med **3 kliniske forsøg** og **9 publikationer**, der i øjeblikket understøtter denne retning.
+Sunitinib er en oral multikinasehæmmer, der markedsføres i Danmark som kapsler til behandling af kræft. Evidence Pack'en angiver ingen original indikation i den danske registrering.
+TxGNN-modellen forudsiger, at sunitinib kan være virksomt mod **liposarkom**. Understøttelsen er **2 afsluttede fase 2-forsøg i non-GIST-sarkom**, **1 publiceret fase 2-studie** og **1 kasuistik** om et enkelt tilfælde.
+Alle data er fra enkeltarmede studier, og der er ikke isoleret et liposarkomspecifikt effektsignal.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|--------|
-| Original indikation | Ikke tilgængelig — ingen godkendelse til markedsføring eller oprindelige indikationsdata fundet i denne dokumentpakke |
+| Punkt | Indhold |
+|------|------|
+| Original indikation | Ikke oplyst i den danske registrering. Sunitinib er generelt kendt fra bl.a. nyrecellekarcinom, så se produktresuméet (SmPC) |
 | Forudsagt ny indikation | Liposarkom |
-| TxGNN-forudsigelsesscore | 99.87% |
-| Bevisniveau | L2 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal godkendelser til markedsføring | 0 |
+| TxGNN-prædiktionsscore | 99,87 % |
+| Evidensniveau | L2 (se bemærkning nedenfor) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Detaljerede mekanisme-data for sunitinib er ikke tilgængelige i denne dokumentpakke. Kliniske forsøgsdata karakteriserer imidlertid selv sunitinib som en oralt administreret multimålrettet reseptor-tyrosinkinasehæmmer: forsøg NCT00474994 beskriver det som værende "ved at hæmme nogle af de enzymer, der er nødvendige for cellevækst, og ved at blokere blodtilførslen til tumoren," og PMID 21154746 beskriver uafhængigt det som "en multimålrettet reseptor-tyrosinkinasehæmmer aktiv i andre solide tumorer."
-
-Ingen original indikation er registreret for sunitinib i denne dokumentpakke, således at en direkte sammenligning mellem en "oprindelig" og "forudsagt" indikation ikke kan foretages ud fra de leverede data. Det sagt viser litteraturbeviser indsamlet til liposarkom-forudsigelsen sunitinib allerede under studium på tværs af et bredt spektrum af blødtvæv-sarkomsubtyper (leiomyosarkom, liposarkom, ondartede fibøse histiocytomer, ekstraskeletal myxoid chondrosarkom), og PMID 21154746 bemærker eksplicit dets etablerede aktivitet i "imatinib mesylat-refraktære gastrointestinale stromale tumorer (GIST)" som mekanistisk præcedens for brug i andre blødtvæv-sarkomer.
-
-Mekanistisk beskrives liposarkombiologi i PMID 38254762 som involvering af "spektrum af molekylære abnormaliteter" relevant for valg af målrettet terapi, i overensstemmelse med en signalvej (anti-angiogenese, multi-kinase), som sunitinib er designet til at hæmme. Denne overlapning — angiogenese- og kinase-drevet tumorvækst delt på tværs af sarkomsubtyper — er grundlaget for TxGNN-modellens forudsigelse og bekræftes af et gennemført fase II-forsøg og en individuel case-rapport om "langvarende klinisk fordel" specifikt i metastatisk liposarkom (PMID 23482782).
+Bemærkning om evidensniveau: L2 er tildelt i Evidence Pack'en. De bagvedliggende studier er dog enkeltarmede fase 2-studier uden randomisering og uden fase 3-data. Niveauet bør derfor læses forsigtigt.
 
 ---
 
-## Klinisk forsøgsbevis
+## Hvorfor er denne prædiktion rimelig?
 
-| Forsøgsnummer | Fase | Status | Antal patienter | Vigtigste resultater |
+Sunitinib hæmmer flere receptor-tyrosinkinaser, bl.a. VEGFR, PDGFR, KIT, RET og FLT3. Det kan hæmme tumorens nydannelse af blodkar (angiogenese) og PDGFR-signalering i bløddelssarkomer. Detaljerede mekanismedata fra DrugBank mangler dog i Evidence Pack'en.
+
+Liposarkom er en af de hyppigste bløddelssarkomer hos voksne. Avanceret sygdom har få medicinske behandlingsmuligheder ud over kirurgi. Angiogenese og PDGFR-signalering spiller en rolle i sarkombiologi, og sunitinib er veletableret i andre solide tumorer med lignende signalveje. Det gør en effekt biologisk plausibel.
+
+Den høje TxGNN-score er en modelforudsigelse og ikke bevis for klinisk effekt. Kilderne viser ikke et stærkt liposarkomspecifikt signal, fordi fase 2-studierne inkluderer flere sarkomtyper samlet.
+
+---
+
+## Evidens fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Antal patienter | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Gennemført | 48 | Åben-label single-site-studie, der identificerer en lovende sunitinib-dosis til metastatisk/uoperabel blødtvæv-sarkom, herunder liposarkom, leiomyosarkom, fibrosarkom og MFH |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Gennemført | 131 | SARC024-protokol, der studerer oral regorafenib i udvalgte sarkomsubtyper; citerer tidligere beviser for sunitinib (og sorafenib/pazopanib) aktivitet i blødtvæv-sarkomer som begrundelse |
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Gennemført | 53 | Multicenterstudie med kontinuerlig dosering af sunitinib i metastatisk, lokalt avanceret eller tilbagevendende ikke-GIST-sarkomer |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Afsluttet | 48 | Åbent enkeltcenterstudie af sunitinib ved metastatisk eller inoperabelt bløddelssarkom (bl.a. leiomyosarkom, liposarkom, fibrosarkom, MFH). Liposarkom-undergruppen er ikke isoleret i de foreliggende data |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Afsluttet | 53 | Multicenterstudie af kontinuerlig sunitinib-dosering ved non-GIST-sarkom. Populationen omfatter sandsynligvis liposarkom |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Afsluttet | 131 | SARC024 undersøger regorafenib, ikke sunitinib. Har kun værdi som klassekontekst for multikinasehæmmere ved sarkom |
+
+Der er ikke registreret EudraCT-numre eller ICTRP-forsøg i datagrundlaget.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtigste resultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Fase II-studie | International Journal of Cancer | Fase II-studie af sunitinib maleat i relapsed/refraktær STS, fokuseret på leiomyosarkom, liposarkom og MFH |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case-rapport | Anticancer Research | Langvarende klinisk fordel af sunitinib maleat hos en intensivt forhåndsbehandlet patient med metastatisk liposarkom |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Forsøgsprotokol | BMC Cancer | REGOSARC randomiseret placebo-kontrolleret fase II-protokol; angiogenese-signalering som nøglemål for sarkom, sunitinib refereret som aktivt sammenligningspræparat |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Oversigt | Cancers | Genetiske, epigenetiske og transcriptom-alterationer i liposarkom relevant for valg af målrettet terapi |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Oversigt | Expert Review of Anticancer Therapy | Nye terapier til voksne blødtvæv-sarkomer |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversigt | Annals of Oncology | Histologi-drevet medicinsk terapi til blødtvæv-sarkomer, bemærk trabectedin's høje aktivitet specifikt i myxoid liposarkom |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversigt | Magyar Onkologia | Medicinsk behandling af blødtvæv-sarkomer efter histologisk subtype |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Case-serie | Oncotarget | Next-generation sekvensering af ekstraskeletal myxoid chondrosarkom, evaluering af prognose-faktorer for sunitinib-gavn |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Case-serie | American Journal of Surgical Pathology | Klinicopatologisk analyse af myxoid inflammatorisk myofibroblastisk sarkom (sarkomklassificering-reference) |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Fase 2-studie | Int J Cancer | Enkeltcenterstudie af sunitinib ved recidiverende/refraktære bløddelssarkomer med fokus på leiomyosarkom, liposarkom og MFH |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Kasuistik | Anticancer Res | Langvarig klinisk gavn af sunitinib hos én kraftigt forbehandlet patient med metastatisk liposarkom |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | Genetiske, epigenetiske og transkriptomiske ændringer i liposarkom med henblik på valg af målrettet behandling |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Rev Anticancer Ther | Nye behandlingsmuligheder ved bløddelssarkom hos voksne |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | Histologidrevet behandling af bløddelssarkomer. Trabectedin fremhæves ved liposarkom |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magy Onkol | Medicinsk behandling af bløddelssarkomer ud fra histologisk subtype |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Genomisk studie | Oncotarget | Sekventering af ekstraskeletalt myxoidt chondrosarkom, herunder prædiktive faktorer for effekt af sunitinib. Anden tumortype |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Forsøgsprotokol | BMC Cancer | REGOSARC: randomiseret fase 2-studie af regorafenib. Studerer ikke sunitinib |
+
+PMID 38717131 (case series om en anden sarkomtype) er udeladt, fordi den ikke er relevant for sunitinib ved liposarkom.
 
 ---
 
-## Danmarks markedsinformation
+## Information om det danske marked
 
-Sunitinib har i øjeblikket ingen registrerede godkendelser til markedsføring i denne dokumentpakke (0 licenser, markedsstatus: Ikke markedsført). Der foreligger ingen Lægemiddelstyrelsen- eller EMA-centraliserede godkendelsesdetaljer at vise.
-
----
-
-## Cytotoxicitet
-
-Sunitinib er et onkologilægemiddel (multimålrettet reseptor-tyrosinkinasehæmmer, jf. PMID 21154746) og alle beviser i denne pakke vedrører cancer-indikationer (liposarkom, nyrecellekarcinom-subtyper), således at dette afsnit gælder.
-
-| Emne | Indhold |
-|------|--------|
-| Cytotoxicitet-klassificering | Målrettet terapi (multimålrettet reseptor-tyrosinkinasehæmmer) |
-| Myelosuppression-risiko | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
-| Emetogenicitet-klassificering | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
-| Overvågningspunkter | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se venligst Produktresumé (SmPC) for advarsler og forholdsregler |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106347719 | Sunitinib "Accord" (Accord Healthcare S.L.U.) | Kapsler, hårde | Ikke oplyst i datagrundlaget |
 
 ---
 
-## Sikkerhedshensyn
+## Cytotoksicitet
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Der var ingen vigtige advarsler, kontraindikationer eller lægemiddel-vekselvirkningsdata tilgængelige i denne dokumentpakke (en DDI-søgning gav ingen resultater, og en søgning på lægemiddeletiket/advarsler er markeret som en blokerende datamangel).
+| Punkt | Indhold |
+|------|------|
+| Cytotoksisk klassifikation | Målrettet behandling (multikinasehæmmer) |
+| Risiko for knoglemarvssuppression | Middel (neutropeni og trombocytopeni er kendte bivirkninger) |
+| Emetogenicitet | Lav til middel |
+| Monitoreringspunkter | Fuldt blodbillede med differentialtælling, leverfunktion, nyrefunktion, blodtryk, skjoldbruskkirtelfunktion og hjertefunktion |
+| Håndtering og beskyttelse | Følg lokale retningslinjer for håndtering af cytostatika og antineoplastiske lægemidler |
+
+Evidence Pack'en indeholder ingen toksicitetsdata. Ovenstående er generel klassifikation, og de endelige krav fremgår af produktresuméet (SmPC).
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -120,14 +127,18 @@ Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Der v
 **Beslutning: Hold**
 
 **Begrundelse:**
-Tre gennemførte fase II-forsøg plus en positiv case-rapport understøtter anti-tumor-aktivitet af sunitinib i blødtvæv-sarkom/liposarkom, men sunitinib har i øjeblikket ingen godkendelse til markedsføring i Danmark og en **blokerende** datamangel eksisterer for TFDA/SmPC-ækvivalente advarsler og kontraindikationer — dette forhindrer indgang i S1-sikkerhedsvurderingsstadiet uanset effektivitetssignalet.
+Evidensen består af enkeltarmede fase 2-studier i blandede sarkomtyper og en enkelt kasuistik. Der er ingen randomiserede data og intet isoleret liposarkomspecifikt effektsignal. Sikkerhedsdata fra Lægemiddelstyrelsen mangler desuden, hvilket blokerer den videre sikkerhedsvurdering. Den høje TxGNN-score kan ikke erstatte klinisk evidens.
 
-**For at fortsætte kræves følgende:**
-- Dansk/EU Produktresumé (eller ækvivalent etiket) advarsler, kontraindikationer og lægemiddel-vekselvirkningsdata
-- Bekræftet mekanisme-dokumentation fra DrugBank
-- Præcisering af dansk/EU markedsstatus (f.eks. Sutent centraliseret EMA-godkendelse) og tilgængelige doseringsformer/administrationsveje
-- Hvis tilgængelig, fase 3 RCT-data specifikt for liposarkom, da nuværende beviser er begrænset til fase II single-arm/åben-label-studier
+**For at komme videre kræves:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Mekanismedata (MOA) fra DrugBank
+- Liposarkom-specifikke resultater fra NCT00400569, NCT00474994 og PMID 21154746
+- Sammenligning med de etablerede alternativer ved liposarkom, f.eks. doxorubicin, ifosfamid og trabectedin
+- Vurdering af anvendelse uden for godkendt indikation (off-label)
 
+Evidence Pack'en indeholder også andre forudsigelser. Ikke-klarcellet og uklassificeret nyrecellekarcinom har stærkere evidens (L2, "Proceed with Guardrails"), men ligger tættere på sunitinibs eksisterende anvendelse. Flere nicheindikationer (ovariel myxoid liposarkom, neuroblastom-associeret og TFE3-translokations-RCC) ser ud til at skyldes ontologimapning snarere end uafhængige kliniske signaler.
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

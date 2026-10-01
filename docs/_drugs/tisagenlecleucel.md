@@ -2,7 +2,7 @@
 layout: default
 title: Tisagenlecleucel
 parent: Kun modelforudsigelse (L5)
-nav_order: 437
+nav_order: 439
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,98 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tisagenlecleucel: Fra CD19+ B-celle-malignancer til Crohns kolitis
+# Tisagenlecleucel: Fra CD19-rettet CAR-T-terapi til Crohns kolitis
 
-## Sammenfattelse i én sætning
+## Resumé i få sætninger
 
-Tisagenlecleucel er en CD19-rettet CAR-T-celleterapia, oprindeligt udviklet til CD19-positive B-celle-malignancer (B-ALL, DLBCL). TxGNN-modellen forudsiger et muligt signal for **Crohns kolitis**, men dette er i øjeblikket en **rent beregningsmæssig forudsigelse uden understøttende kliniske forsøg eller publiceret litteratur**, og virkningsmekanisme og danske sikkerhedsdata er endnu ikke tilgængelige.
+Tisagenlecleucel (handelsnavn Kymriah) er en autolog CAR-T-celleterapi rettet mod CD19. Der er ikke registreret nogen godkendt indikationstekst i datagrundlaget.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Crohns kolitis**, men forudsigelsen bygger udelukkende på modellen.
+Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Parameter | Indhold |
-|---|---|
-| Original Indikation | Ikke bekræftet i danske licensieringsdata (produktet er ikke markedsført i Danmark); mekanistiske noter beskriver oprindelig godkendelse til CD19-positive B-celle-malignancer (B-ALL, DLBCL) |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i datagrundlaget |
 | Forudsagt ny indikation | Crohns kolitis |
-| TxGNN-forudsigelsesscore | 91.39% |
-| Bevisniveau | L5 (modelforudsigelse alene, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| TxGNN-forudsigelsesscore | 91,4 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig (eller ikke)?
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige for denne bevispacke (markeret som en alvorlig datakløft). Baseret på de mekanistiske noter, der følger forudsigelsen, er tisagenlecleucel en autolog anti-CD19 kimerisk antigen-receptor (CAR) T-celleterapia, godkendt til CD19-positive B-celle-malignancer såsom B-celle akut lymfoblastisk leukæmi (B-ALL) og diffust storcellet B-celle-lymfom (DLBCL).
+Detaljerede data om virkningsmekanismen er i øjeblikket ikke tilgængelige. Ud fra klassen er tisagenlecleucel en autolog CAR-T-terapi rettet mod CD19, som udtrykkes på B-celler. Mekanismen kan derfor kun udledes af lægemiddelklassen.
 
-Det foreslåede link til Crohns kolitis er baseret på teorien om, at B-celler bidrager til patologi i nogle autoimmune og inflammatoriske tarmsygdomsmodeller, og at dyb CD19+ B-celle-depletion med CAR-T-terapi er blevet udforsket i isolerede caserapporter for andre autoimmune tilstande (f.eks. systemisk lupus erythematosus). Imidlertid er der **ingen direkte beviser** for et link mellem tarmmel i Crohns sygdom og en CD19+ B-celle-drevet mekanisme, og denne forbindelse forbliver teoretisk.
+CD19-rettet B-celledepletering er undersøgt ved andre autoimmune sygdomme. Der er dog ikke identificeret nogen CD19-specifik patogenetisk begrundelse for Crohns sygdom. En score på 0,914 er en modelforudsigelse uden klinisk støtte.
 
-Vigtigvis medfører denne kombination en betydelig sikkerhedsusikkerhed: CAR-T-terapi er forbundet med risici såsom cytokinudløsningssyndrom, og dets sikkerhedsprofil i en inflammatorisk tarmsygdom-population er helt ustuderet. Det mekanistiske link bør betragtes som et hypotesegenererende signal alene, ikke en valideret terapeutisk begrundelse.
+Risikoprofilen taler desuden imod. Lymfodepleterende kemoterapi, cytokinfrigivelsessyndrom og langvarige cytopenier er svære belastninger ved en kronisk, ikke livstruende tilstand.
+
+### Øvrige forudsigelser fra modellen
+
+Modellen rangerer også følgende indikationer, alle med evidensniveau L5 og anbefalingen Hold. Dubletter er fjernet.
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Multipel endokrin neoplasi | 91,3 % | Ingen plausibel sammenhæng. Tumorerne drives typisk af MEN1- eller RET-ændringer og udtrykker normalt ikke CD19. Sandsynligvis en artefakt i vidensgrafen. |
+| Idiopatisk aplastisk anæmi | 89,7 % | Sygdommen er hovedsageligt T-celle-medieret destruktion af bloddannende stamceller. Langvarige cytopenier er en kendt bivirkning ved tisagenlecleucel, så behandlingen kan forværre knoglemarvssvigtet. |
+| Binyrehyperfunktion | 88,3 % | Ingen plausibel sammenhæng. Tilstanden skyldes hormonproducerende adenomer, hyperplasi eller ACTH-drevne processer uden CD19-positivt mål. |
+| HER2-positivt brystkarcinom | 88,0 % | Konstruktionen er rettet mod CD19, som ikke udtrykkes på HER2-positive brystkræftceller. Solide tumorer giver desuden store udfordringer for CAR-T, bl.a. antigenheterogenitet, dårlig infiltration og et immunsuppressivt mikromiljø. |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteratur
+## Litteratur
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Tisagenlecleucel har i øjeblikket ingen markedsføringstilladelse på fil i dette datasæt (0 licenser; markedsstatus: Ikke markedsført).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106031317 | Kymriah | Infusionsvæske, dispersion | Novartis Europharm Limited |
 
----
-
-## Cytotoksicitet (kun antineoplastiske lægemidler)
-
-| Parameter | Indhold |
-|---|---|
-| Cytotoksicitetsklassificering | Immunoterapi (CD19-rettet CAR-T-celleterapia) — ikke et konventionelt cytotoksisk middel |
-| Knoglemarvsundertrykkelsesrisiko | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
-| Emetogenicitetsklassificering | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
-| Overvågningspunkter | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se venligst Produktresumé (SmPC) advarsler og forholdsregler |
+Administrationsvej: injektion/infusion. Godkendt indikationstekst indgår ikke i datagrundlaget.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+Der er ingen specifik sikkerhedsinformation i datagrundlaget, og en søgning efter lægemiddelinteraktioner gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Forudsigelsens vurdering peger dog på følgende klasserelaterede risici, som er relevante for en ikke livstruende kronisk sygdom:
+- Lymfodepleterende kemoterapi inden infusion
+- Cytokinfrigivelsessyndrom
+- Langvarige cytopenier
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes udelukkende af en TxGNN-modelscore (L5, S0-beslutningsstadium) uden nogen bekræftende kliniske forsøg eller litteratur, og den foreslåede mekanisme er eksplicit markeret som indirekte og teoretisk, med ukendt sikkerhed i målpopulationen. Produktet er heller ikke i øjeblikket markedsført i Danmark, og central sikkerhedsdokumentation (SmPC advarsler/kontraindikationer) mangler.
+Forudsigelsen er ren modelforudsigelse (L5) uden kliniske forsøg eller litteratur. Der er ingen CD19-specifik begrundelse for Crohns sygdom, og risikoprofilen er ugunstig ved en ikke livstruende kronisk tilstand. De øvrige forudsigelser har heller ingen plausibel mekanistisk sammenhæng.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/dansk SmPC advarsler og kontraindikationer (i øjeblikket en blokerende datakløft; påkrævet før enhver S1-sikkerhedsgennemgang)
-- Bekræftet detalje om virkningsmekanisme (høj-prioritet datakløft)
-- Præklinisk eller tidlig klinisk evidens, der direkte tester CD19+ B-celle-depletion i inflammatoriske tarmsygdomsmodeller
-- Afklaring af dansk/EU-markedsføringstilladelsestatus for tisagenlecleucel
-- Vurdering af CAR-T-specifik toksicitetsrisiko (f.eks. cytokinudløsningssyndrom) i en IBD-population før yderligere evaluering
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen. Dette er en blokerende datamangel for sikkerhedsscreeningen.
+- Data om virkningsmekanismen fra DrugBank.
+- Den godkendte indikationstekst for Kymriah til sammenligning med den forudsagte indikation.
+- Præklinisk eller klinisk evidens for CD19-rettet terapi ved Crohns sygdom.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

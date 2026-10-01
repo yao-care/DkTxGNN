@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 365
+nav_order: 366
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,104 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ramucirumab: Fra avancerede solide tumorer til adenokarcinom af livmoderligamenter
+# Ramucirumab: Fra godkendt kræftbehandling til adenokarcinom i livmoderligamentet
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-Ramucirumab er et anti-VEGFR2 monoklonalt antistof, hvis antitumøreffekt gennem blokering af tumorangiogenese er etableret ved mavekræft, NSCLC, hepatocellulært karcinom og kolorektal kræft (ifølge det mekanistiske rationale i denne bevissamling; ikke uafhængigt bekræftet via strukturerede indikationsdata i denne samling). TxGNN-modellen forudsiger, at det kan være effektivt ved **adenokarcinom af livmoderligamenter**, men i øjeblikket støtter **0 kliniske forsøg** og **0 publikationer** denne specifikke retning – dette er et signal fra modelforudsigelse alene.
+Ramucirumab er et monoklonalt antistof mod VEGFR2, som er markedsført i Danmark under navnet Cyramza. Lægemidlets oprindelige indikation fremgår ikke af datagrundlaget. TxGNN-modellen forudsiger, at det kan have effekt ved **adenokarcinom i livmoderligamentet** (score 99,95 %). Der er endnu **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen, så den bygger udelukkende på modellens score.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke bekræftet i denne bevissamling (struktureret felt er tomt); mekanistisk rationale henviser til etableret brug ved mavekræft, NSCLC, hepatocellulært karcinom og kolorektal kræft |
-| Forudsagt ny indikation | Adenokarcinom af livmoderligamenter |
-| TxGNN-forudsigelsesscore | 99.95% |
-| Bevisniveau | L5 |
-| Markeds status i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de danske markedsføringsdata |
+| Forudsagt ny indikation | Adenokarcinom i livmoderligamentet (uterine ligament adenocarcinoma) |
+| TxGNN-prædiktionsscore | 99,95 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+Andre forudsagte indikationer med næsten samme score (99,94-99,95 %) er alle sjældne gynækologiske adenokarcinomer:
+- endocervikalt karcinom
+- adenoid cystisk karcinom i livmoderhalsen
+- serøst adenokarcinom i livmoderligamentet
+- signetringcelle-variant af cervikalt mucinøst adenokarcinom
 
-## Hvorfor er denne forudsigelse rimelig?
-
-Feltet `original_moa` for Ramucirumab er ikke udfyldt i denne bevissamling (markeret som et datakløft med høj alvorlighed, DG002 – afventer DrugBank API-opslag). Den tilknyttede omformålsrationale til den øverste forudsigelse beskriver dog Ramucirumab som et anti-VEGFR2 monoklonalt antistof, der hæmmer tumorangiogenese, en mekanisme der allerede er valideret på tværs af flere solide tumorer, herunder mavekræft, NSCLC, hepatocellulært karcinom og kolorektal kræft.
-
-Adenokarcinom af livmoderligamenter er en sjælden gynækologisk malignitet. Det mekanistiske link, der foreslås her, er en bred ekstrapolation fra anti-angiogenetisk aktivitet i andre solide tumorer snarere end et sygdomsspecifikt fund – bevissamlingen noterer eksplicit, at der ikke er direkte data om VEGFR2-ekspression eller angiogenese-afhængighed i denne specifikke tumortype, så forbindelsen "kan ikke etableres som et specifikt link" ud over generel klasse-niveau-plausibilitet.
-
-Da der ikke er nogen kliniske forsøg eller publikationer, der tester Ramucirumab i denne indikation, står det mekanistiske argument i øjeblikket alene som hele bevisgrundlaget for forudsigelsen.
+Ingen af dem har kliniske forsøg eller litteratur i datagrundlaget. Indtastningerne forekom to gange med identiske data og er behandlet som én indikation hver.
 
 ---
 
-## Klinisk forsøgsbevis
+## Hvorfor er forudsigelsen rimelig?
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Detaljerede mekanismedata (MOA) var ikke tilgængelige i datapakken. Ud fra almen lægemiddelviden er ramucirumab et antistof, der binder VEGFR2 og blokerer VEGF-drevet angiogenese, altså dannelsen af nye blodkar i tumorer.
+
+Anti-angiogen behandling har en plausibel biologisk begrundelse i gynækologiske adenokarcinomer. VEGF/VEGFR2-signalering spiller en rolle for angiogenesen ved livmoderhalskræft, og anti-VEGF-behandling har præcedens inden for denne sygdom. Serøse Müllerske adenokarcinomer er generelt VEGF-afhængige. Ramucirumab er desuden godkendt til gastrisk adenokarcinom, hvor signetringcelle-histologi forekommer. Det giver en løs histologisk analogi til signetringcelle-varianten, men er ikke evidens for en cervikal primærtumor.
+
+Forbindelsen til den specifikke, sjældne tumor i livmoderligamentet er kun udledt af TxGNN-scoren. Der foreligger ingen ramucirumab-specifikke data for denne tumortype.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Ramucirumab har i øjeblikket **ingen markedsføringstilladelser registreret** i denne bevissamling (`total_licenses: 0`, `market_status: Not marketed` / Ikke markedsført). Der kan ikke produceres en licenstabel.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105320613 | Cyramza (Eli Lilly Netherland B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i datagrundlaget |
+
+Lægemidlet gives som injektion/infusion.
 
 ---
 
 ## Cytotoksicitet
 
-Ramucirumab er et antineoplastisk monoklonalt antistof (anti-VEGFR2, anti-angiogenetisk klasse), så dette afsnit gælder.
+Afsnittet bygger på almen lægemiddelviden, da datapakken ikke indeholder toksicitetsdata.
 
 | Punkt | Indhold |
-|------|--------|
-| Cytotoksicitetsklassificering | Målrettet terapi (anti-VEGFR2 monoklonalt antistof, anti-angiogenetisk) |
-| Risiko for myelosuppression | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
-| Emetogenicitetsklassificering | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
-| Overvågningspunkter | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
-| Sikkerhed ved håndtering | Se venligst Produktinformationen (SmPC) for advarsler og forholdsregler |
+|------|------|
+| Klassifikation | Målrettet behandling (monoklonalt antistof mod VEGFR2), ikke konventionel cytostatika |
+| Risiko for myelosuppression | Lav (neutropeni kan forekomme) |
+| Emetogenicitet | Lav |
+| Monitorering | Blodtryk, urinprotein, blodtal (CBC), lever- og nyrefunktion |
+| Håndtering og beskyttelse | Følg lokale retningslinjer for håndtering af antineoplastiske lægemidler og SmPC |
+
+Se i øvrigt produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsoplysninger. Bemærk: bevissamlingen markerer et datakløft med **Blocking**-alvorlighed (DG001) – TFDA/SmPC-niveau advarsler og kontraindikationer er ikke endnu tilgængelige, hvilket i sig selv forhindrer denne kandidat i at gå ind i S1-sikkerhedsforvurderingsfasen.
+Der blev ikke fundet advarsler, kontraindikationer eller interaktioner i datagrundlaget. Indlægssedlen fra Lægemiddelstyrelsen er endnu ikke gennemgået. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
-**Rationale:**
-- Bevisniveauet er L5 (kun modelforudsigelse) – der er nul kliniske forsøg og nul publikationer, der understøtter Ramucirumab ved adenokarcinom af livmoderligamenter, og det mekanistiske link er en generisk klasse-niveau-ekstrapolation snarere end et sygdomsspecifikt fund. Kombineret med et datakløft med høj sikkerhedsalvorlighed kan kandidaten på nuværende tidspunkt ikke gå videre.
+**Begrundelse:**
+Forudsigelsen er kun støttet af en høj modelscore (evidensniveau L5). Der er ingen kliniske forsøg eller publikationer for tumortypen, og sikkerhedsdata fra den danske produktinformation mangler. Mekanismen er biologisk plausibel, men uverificeret.
 
-**Følgende er nødvendigt for at kunne fortsætte:**
-- TFDA/SmPC-baserede advarsler og kontraindikationer (DG001, Blocking) – påkrævet før enhver S1-sikkerhedsforvurdering
-- Bekræftet virkningsmekanisme fra DrugBank (DG002)
-- Sygdomsspecifikt understøttende bevis (præklinisk, kasuistikker eller forsøg) for VEGFR2/angiogenese-relevans ved adenokarcinom af livmoderligamenter specifikt, givet dets sjældenhed og mangel på registrerede forsøg
-- Afklaring af Ramucirumabs bekræftede oprindelige indikation(er), da det strukturerede `original_indications`-felt i denne samling i øjeblikket er tomt
+**For at komme videre kræves:**
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Mekanismedata (MOA), f.eks. fra DrugBank
+- Systematisk litteratur- og forsøgssøgning for ramucirumab ved gynækologiske adenokarcinomer, herunder ICTRP og EudraCT
+- Vurdering af, om en så sjælden tumortype overhovedet muliggør kliniske studier, evt. som case-serier eller basketforsøg
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

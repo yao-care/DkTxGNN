@@ -2,7 +2,7 @@
 layout: default
 title: Florfenicol
 parent: Kun modelforudsigelse (L5)
-nav_order: 192
+nav_order: 193
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,47 +29,56 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Florfenicol: Fra veterinær bakterieinfektioner til interventrikular septum-aneurisme
+# Florfenicol: Fra veterinær antibakteriel anvendelse til interventrikulær septumaneurisme
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-Florfenicol er et fluorineret antibiotikum af chloramphenicol-klassen, udviklet udelukkende til veterinær brug, uden godkendte indikationer i humanmedicin.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **interventrikular septum-aneurisme** med en score på 94.31%;
-dog **ingen kliniske forsøg og ingen publiceret litteratur** understøtter denne retning i øjeblikket, hvilket gør dette til en modelforudsigelse alene på evidensniveau L5.
+Florfenicol er et fluoreret antibiotikum i chloramphenicol-familien. I Danmark er det registreret som veterinærlægemiddel (Amphen, granulat til drikkevand), og der er ingen registreret human indikation.
+TxGNN-modellen forudsiger, at det kan have effekt ved **interventrikulær septumaneurisme**.
+Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og den bygger udelukkende på en videngrafbaseret modelscore.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Veterinær bakterieinfektioner (ikke godkendt til humanforbrug) |
-| Forudsagt ny indikation | Interventrikular septum-aneurisme |
-| TxGNN forudsigelsesscore | 94.31% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke registreret i datagrundlaget (veterinært præparat) |
+| Forudsagt ny indikation | Interventrikulær septumaneurisme (interventricular septum aneurysm) |
+| TxGNN-forudsigelsesscore | 94,31 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvente |
+| Markedsstatus i Danmark | Markedsført (veterinært) |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige. Baseret på kendt farmakologisk information er Florfenicol et fluorineret derivat af chloramphenicol – et bredt spektrums antibiotikum, der virker ved at hæmme bakteriel proteinsyntes (binding til det 50S ribosomalt underenhed). Det bruges i veterinærmedicin til at behandle bakterieinfektioner hos fisk, kvæg og svin, og er aldrig blevet godkendt til brug hos mennesker i nogen jurisdiktion.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i kildedata. Florfenicol er dog et fluoreret chloramphenicol-analog, som hæmmer bakteriel proteinsyntese ved at binde peptidyltransferase på 50S-ribosomet. Virkningen er rettet mod bakterier.
 
-Interventrikular septum-aneurisme (VSA) er en strukturel kardiel defekt – enten medfødt eller erhvervet – der involverer lokaliseret udbuling af den ventrikulære septumvæg. Der er ingen etableret mekanistisk forbindelse mellem proteinsynteteshæmning (antibiotikaets virkningsmekanisme) og kardiel strukturel reparation, ombygging eller fibroseprevention. TxGNN-modellen har sandsynligvis udledt denne association gennem indirekte vidensgrafdveje, der forbinder bakterieinfektioner med kardiel involvering (f.eks. infektiøs endokarditis → kardiel strukturskade → antibiotikabehandling), snarere end en direkte farmakologisk mekanisme.
+Interventrikulær septumaneurisme er en strukturel hjertemisdannelse uden et oplagt antibakterielt angrebspunkt. Der er derfor ingen etableret mekanistisk forbindelse mellem florfenicols oprindelige anvendelse og den forudsagte indikation. Scoren på 0,943 er en ren videngrafforudsigelse og bør ikke tolkes som klinisk evidens.
 
-Det skal bemærkes, at samme forudsigelsesscore (0.9431) vises duplikeret på både rang 1 og rang 2 indgange for samme sygdom, hvilket tyder på et datapipeline-problem snarere end uafhængig evidens. Mekanistisk plausibilitet for Florfenicol i nogen menneskelig kardiel tilstand er i øjeblikket ustøttet, og den veterinær-kun regulatoriske historie skaber en yderligere barriere for menneskelig repurposering.
+### Øvrige forudsigelser
+
+Modellen har også forudsagt følgende indikationer. Alle har evidensniveau L5, ingen kliniske forsøg eller publikationer og beslutningen Hold.
+
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Idiopatisk granulomatøs myositis | 94,27 % | Ingen mekanistisk forbindelse. Antibakteriel virkning er ikke relevant ved immunmedieret muskelsygdom. Mitokondriel toksicitet i muskelvæv er desuden en sikkerhedsbekymring for phenicol-klassen. |
+| Myositis fibrosa | 94,27 % | Ingen mekanistisk forbindelse. Identisk score tyder på fælles naboer i grafen frem for uafhængig evidens. |
+| Tendinitis | 94,19 % | Ingen dokumenteret antiinflammatorisk eller senebeskyttende virkning. Andre antibiotikaklasser, især fluorquinoloner, er forbundet med senelidelser, så en sikkerhedsvurdering ville være nødvendig. |
+| Hjerteklapsygdom | 94,14 % | Antibakteriel virkning kunne kun være relevant ved infektiøs endokarditis, som er en anden tilstand. Der er ingen data for florfenicol. |
 
 ---
 
-## Klinisk forsøgsevidence
+## Klinisk evidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidence
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
@@ -77,34 +86,39 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-Florfenicol har ingen markedsføringstilladelser i Danmark. Lægemidlet er ikke registreret hos Lægemiddelstyrelsen og har ingen EMA centraliseret godkendelse til humanforbrug. Det er klassificeret som et veterinært lægemiddel uden for omfanget af humanfarmaceutisk regulering.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106130018 | Amphen (Huvepharma NV) | Granulat til anvendelse i drikkevand | Ikke angivet i datagrundlaget |
+
+Præparatet er et veterinærlægemiddel, og der er ikke registreret nogen human indikation.
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Venligst se den godkendte produktinformation (SmPC) for sikkerhedsinformation.
+Der foreligger ingen sikkerhedsdata (advarsler, kontraindikationer eller interaktioner) i datagrundlaget. Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 
-> **Bemærk:** Ingen humanforbrug-sikkerhedsdata (advarsler, kontraindikationer eller lægemiddelinteraktioner) blev hentet for Florfenicol, i overensstemmelse med dets status som en veterinær-kun forbindelse. Enhver humanforbrug-sikkerhedsvurdering skulle konstrueres de novo fra veterinær data og chloramphenicol-klassekstrapolering, før yderligere evaluering kunne foregå.
+Fra de forudsagte indikationer er der dog to sikkerhedsrelevante forhold, som skal afklares før en eventuel videre vurdering:
+- Mitokondriel toksicitet i muskelvæv er en bekymring for phenicol-klassen.
+- Sikkerhedsprofilen skal vurderes i forhold til senelidelser.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Afgørelse: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat scorer L5 (modelforudsigelse alene) med nul understøttende kliniske forsøg eller publiceret litteratur, og lægemidlet selv har ingen humanregulatorisk historie i noget land. Den mekanistiske forbindelse mellem en bakteriel proteinsynteteshæmmer og en strukturel kardiel defekt er ikke farmakologisk understøttet, og de identiske duplikerede scores på tværs af indikationsranger tyder på et datakvalitetsproblem i det aktuelle pipelineoutput.
+Der er hverken kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse, og evidensniveauet er L5. Præparatet er registreret til veterinær brug, og de nødvendige sikkerhedsdata mangler.
 
-**For at fortsætte, ville følgende være nødvendigt:**
+**For at komme videre kræves følgende:**
+- Indhentning af produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datamangel)
+- Supplerende data om virkningsmekanisme fra DrugBank
+- En mekanistisk hypotese, der understøtter anvendelse ved de forudsagte hjerte- eller muskel-skeletlidelser
+- Vurdering af, om et humant lægemiddel med samme aktive stof og administrationsvej findes eller er realistisk
+- Prækliniske data og en sikkerhedsvurdering (mitokondriel toksicitet og senepåvirkning) før eventuelle kliniske overvejelser
 
-- **Etabler grundlæggende menneskelig farmakologi:** Florfenicol har ingen menneskelige PK/PD-data. Preclinisk toksikologi og første-menneske-data ville være påkrævet, før noget repurposering-program kunne initieres.
-- **Præciser virkningsmekanismens relevans:** En troværdig mekanistisk hypotese, der forbinder chloramphenicol-klassaktivitet med interventrikular septum-patofysiologi, skal etableres (f.eks. anti-inflammatoriske eller anti-fibrotiske egenskaber påvist i kardielle vævmodeller).
-- **Løs duplikerede forudsigelsesindgange:** Rang 1 og 2 er identiske; pipelinen bør deduplicere sygdomsindgange før scoring.
-- **Hent fuldstændige MOA-data fra DrugBank:** DrugBank-forespørgsel blev registreret som vellykket, men MOA var ikke udfyldt i Evidence Pack – dette bør hentes for at understøtte enhver mekanistisk analyse.
-- **Vurdering af regulatorisk vej:** En formel vurdering af, hvorvidt Florfenicol kunne indgå i menneskelig klinisk udvikling (f.eks. under EMA's repurposering-rammeværk) ville være påkrævet givet dets veterinær-kun-historie.
-- **Ingen yderligere evidenssøgning anbefales** før den mekanistiske hypotese styrkes; yderligere databaseforespørgsler på dette tidspunkt er usandsynligt at give nye resultater.
-
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

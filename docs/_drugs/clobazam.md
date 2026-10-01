@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clobazam
-parent: Kun modelforudsigelse (L5)
-nav_order: 116
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 117
+evidence_level: L4
 indication_count: 10
 ---
 
 # Clobazam
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clobazam: Fra epilepsi (adjuvant behandling) til febril infektionsrelateret epilepsi-syndrom
+# Clobazam: Fra epilepsi til febril infektionsrelateret epilepsisyndrom (FIRES)
 
-## Sammenfattelse på en sætning
+## Resumé i én sætning
 
-Clobazam er en 1,5-benzodiazepinforbindelse med etableret antiepilepitsk anvendelse internationalt (herunder som adjuvant terapi ved Lennox-Gastaut-syndrom), selvom det i øjeblikket ikke har markedsføringstilladelse i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt for **febril infektionsrelateret epilepsi-syndrom (FIRES)**, med **0 kliniske forsøg** og **2 publikationer** (omfatter relaterede benzodiazepiner, ikke Clobazam direkte) i øjeblikket tilgængelige i evidensbasen.
-
----
-
-## Hurtig oversigt
-
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke registreret i Danmark; internationalt anvendt som adjuvant antiepilepitsk behandling (herunder Lennox-Gastaut-syndrom) |
-| Forudsagt ny indikation | Febril infektionsrelateret epilepsi-syndrom (FIRES) |
-| TxGNN-forudsigelsesscore | 99.82% |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Tilbageholder |
+Clobazam er et benzodiazepin, der bruges som supplerende antiepileptikum ved behandlingsresistent epilepsi.
+TxGNN-modellen forudsiger, at det kan have effekt ved **febril infektionsrelateret epilepsisyndrom (FIRES)**.
+Evidensen er dog svag: der er **0 kliniske forsøg** og **2 publikationer** (et case series og en case report), og ingen af dem omhandler clobazam direkte.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Detaljerede data vedrørende virkningsmekanisme er ikke tilgængelige i denne evidenspakke. Baseret på etableret farmakologisk viden er clobazam en 1,5-benzodiazepinforbindelse, der fungerer som en positiv allosterisk modulator af GABA-A-receptorer, hvilket øger inhibitorisk neurotransmission i centralnervesystemet. Dens dokumenterede effektivitet ved at reducere anfaldshyppighed – især som adjuvant behandling for Lennox-Gastaut-syndrom – afspejler en bred antiepilepitsk profil.
-
-FIRES er en katastrofal, behandlingsrefraktær form af nyonset refraktær status epilepticus (NORSE), der primært rammer tidligere raske børn efter en febril sygdom. Standard antiepilepitske midler mislykkes ofte, og klinikere eskalerer hyppigt til højdosis anæstetika. Benzodiazepiner – herunder intravenøs midazolam – er en anerkendt del af akut FIRES-behandling. Den mekanistiske rationale for clobazam ved FIRES hviler på dets GABA-A-potentiering: øget kortikalt inhibitorisk tonus kan hjælpe med at undertrykke de intense, gentagende anfaldsuladelser, der karakteriserer dette syndrom.
-
-Det skal understreges, at de to publikationer, der blev fundet, ikke direkte evaluerer clobazam ved FIRES. De beskriver brugen af lorazepam (en relateret benzodiazepinforbindelse) og perampanel (en AMPA-receptorantagonist) – hvilket giver indirekte bevis på klasseniveau med kontekstuel relevans, men ingen direkte virknings- eller sikkerhedsdata for clobazam i denne specifikke indikation.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Behandlingsresistent epilepsi (supplerende behandling). Angivelsen stammer fra den mekanistiske begrundelse, da indikationsteksten i den danske registrering er tom |
+| Forudsagt ny indikation | Febril infektionsrelateret epilepsisyndrom (FIRES) |
+| TxGNN-forudsigelsesscore | 99,82 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er forudsigelsen rimelig?
 
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|------|------|---------|--------------|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Kasusserie | *Epileptic Disorders* | Enteralt lorazepam (en benzodiazepinforbindelse, ikke clobazam) anvendt som effektiv erstatning for midazolam-afhængighed hos FIRES-patienter; understøtter den bredere benzodiazepinklasses nytte ved at opretholde anfaldskontrol under FIRES-restitution |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Kasusrapport | *Cureus* | Perampanel kan reducere barbituratafhængighed hos en 13-årig med FIRES; illustrerer den refraktære natur af FIRES og det fortsatte behov for alternative antiepilepitske strategier ud over konventionelle anæstetika |
+Der foreligger ingen detaljerede data om virkningsmekanismen fra DrugBank. Ud fra den mekanistiske begrundelse i evidensgrundlaget er clobazam en positiv allosterisk modulator af GABA-A-receptoren (et benzodiazepin) og bruges allerede som supplerende antiepileptikum ved behandlingsresistent epilepsi.
 
-> **Vigtig bemærkning:** Ingen publikation studerer direkte clobazam ved FIRES. Beviset er indirekte (benzodiazepinklasse eller sammenligningssammenhæng kun) og understøtter ikke et evidensniveau over L5 for dette specifikke lægemiddel–sygdomspar.
+FIRES er en form for nyopstået refraktær status epilepticus (NORSE), der rammer tidligere raske børn. Anfaldene er ofte svære at kontrollere med almindelige antiepileptika, og der anvendes ofte anæstetika i høje doser. Clobazams mulige rolle er som supplerende middel eller som benzodiazepin i udtrapning fra anæstetika ved refraktær status epilepticus.
+
+Sammenhængen er kun på klasseniveau og indirekte. De to fundne artikler handler om enteral lorazepam og perampanel til udtrapning, ikke om clobazam. Om nogen af dem rapporterer brug af clobazam, kunne ikke bekræftes ud fra titlerne.
+
+---
+
+## Klinisk evidens
+
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret (hverken ClinicalTrials.gov eller ICTRP).
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Case series | Epileptic Disorders | Enteral lorazepam som udtrapningsstrategi hos midazolam-afhængige FIRES-patienter. Omhandler ikke clobazam |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Case report | Cureus | 13-årig dreng med FIRES. Perampanel kan potentielt mindske afhængigheden af barbiturater. Omhandler ikke clobazam |
 
 ---
 
 ## Markedsinformation for Danmark
 
-Clobazam har i øjeblikket **ingen markedsføringstilladelse i Danmark** og er ikke anført i Lægemiddelstyrelsens database.
-
-> **Referencesammenhæng:** Clobazam er godkendt i andre jurisdiktioner under handelsnavn såsom **Frisium®** (UK, Canada og andre) og **Onfi®** (USA, godkendt til adjuvant behandling af Lennox-Gastaut-syndrom). For individuelle patienter i Danmark kan adgang være mulig gennem navnepatient- eller compassionate use-veje under dansk medicinlovgivning (§29–§30 i Lægemiddelloven).
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
-
-> Da der ikke findes dansk SmPC, bør sundhedsprofessionelle konsultere EMA-evalueringsrapporter eller godkendte SmPC'er fra UK (MHRA), Canada (Health Canada) eller USA (FDA) som de mest passende referencedokumenter. Vigtige områder at gennemgå omfatter sedation, afhængighedspotentiale, respiratorisk depression og lægemiddel–lægemiddel-interaktioner (især med andre CNS-depressanter).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106382320 | Clobazam "Essential Pharmaceuticals" (Essential Pharma (M) Limited) | Oral suspension | Ikke oplyst i datagrundlaget |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Tilbageholder**
+Der er ikke fundet oplysninger om interaktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Ingen kliniske forsøg og ingen direkte litteratur om clobazam eksisterer for FIRES, hvilket placerer denne forudsigelse på evidensniveau L5 (kun modelforudsigelse). Kombineret med fraværet af nogen markedsføringstilladelse i Danmark er der i øjeblikket utilstrækkelig evidens til at understøtte aktiv klinisk udvikling eller brug.
+Forudsigelsen er en forskningshypotese (evidensniveau L4). Der er ingen kliniske forsøg, og de to publikationer omhandler andre lægemidler end clobazam. Sikkerhedsoplysninger fra produktresuméet mangler desuden, hvilket blokerer den videre sikkerhedsscreening. De øvrige forudsagte indikationer for clobazam (bl.a. perioral myoklonus med absencer og kryptogene sent debuterende epileptiske spasmer) er alle sat til Hold, og de har enten ingen evidens eller kun indirekte, beskrivende evidens.
 
-**For at komme videre er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Produktresumé for det danske præparat fra Lægemiddelstyrelsen (advarsler, kontraindikationer, indikationstekst)
+- Data om virkningsmekanisme fra DrugBank
+- Litteratursøgning specifikt på clobazam ved FIRES/NORSE og vurdering af, om der findes clobazam-specifikke data
+- Vurdering af administrationsvej: den registrerede form er oral suspension, og egnetheden til akut behandling af refraktær status epilepticus er ikke afklaret
+- Klinisk vurdering af kompetent neuropædiatrisk fagperson, inden nogen anvendelse overvejes
 
-- **Direkte litteraturgennemgang**: Systematisk søgning specifikt for Clobazam (ikke generisk benzodiazepinklasse) i FIRES, refraktær status epilepticus og NORSE
-- **MOA-dokumentation**: Hent fuldstændig virkningsmekanisme fra DrugBank (DB00349) eller publicerede farmakologi-kilder
-- **Sikkerhedsdataekstraktion**: Gennemgå internationale SmPC'er (UK Frisium®, US Onfi®) for at dokumentere de vigtigste advarsler, kontraindikationer og lægemiddel-interaktionsafsnit
-- **Vurdering af regulatorisk vej**: Vurder gennemførlighed af navnepatient-adgang eller hospitalsfritagelse i Danmark for et lægemiddel, der ikke i øjeblikket er markedsført
-- **Undersøgelsesdesign til udforskning**: I betragtning af FIRES' sjældenhed og etiske begrænsninger, overvej en retrospektiv kasusserie eller internationalt registersamarbejde som det mest pragmatiske første skridt før eventuelle prospektive forsøg
-- **Gennemgang af duplikatforudsigelse**: Evidenspakken indeholder duplikatindtastninger for alle forudsagte indikationer (rækker 1–2, 3–4 osv.); datapipeline-deduplicering anbefales før finalisering af yderligere kandidatprioritetering
-
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

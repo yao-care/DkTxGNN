@@ -2,7 +2,7 @@
 layout: default
 title: Daratumumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 129
+nav_order: 130
 evidence_level: L5
 indication_count: 0
 ---

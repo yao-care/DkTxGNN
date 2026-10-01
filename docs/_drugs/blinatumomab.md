@@ -2,7 +2,7 @@
 layout: default
 title: Blinatumomab
 parent: Kun modelforudsigelse (L5)
-nav_order: 70
+nav_order: 71
 evidence_level: L5
 indication_count: 0
 ---

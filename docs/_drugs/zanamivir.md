@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Kun modelforudsigelse (L5)
-nav_order: 476
+nav_order: 478
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,81 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zanamivir: Fra influenza til pyelonephritis
+# Zanamivir: Fra influenza til pyelonefritis
 
-## Enlinies resumé
+## Resumé
 
-Zanamivir er en antiviral neuraminidasehæmmer, der er internationalt godkendt til behandling og forebyggelse af influenza A og B.
-TxGNN-modellens højest rangerede forudsigelse foreslår mulig relevans til **Pyelonephritis**, men dette er et **kun model-baseret (L5)** signal —
-der er **ingen understøttende kliniske forsøg og ingen understøttende litteratur**, og bevissamlingen's egen mekanistisk gennemgang finder ingen troværdig farmakologisk grundlag for forbindelsen.
-
----
-
-## Hurtig oversigt
-
-| Element | Indhold |
-|---|---|
-| Oprindelig indikation | Ikke dokumenteret i danske licensdata (ingen markedsføringstilladelser registreret); Zanamivir er internationalt indiceret til behandling og profylakse af influenza A/B |
-| Forudsagt ny indikation | Pyelonephritis |
-| TxGNN-forudsigelsesscore | 99.84% |
-| Bevisgrad | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+Zanamivir er en neuraminidasehæmmer (antiviralt middel mod influenza). I Danmark er det markedsført som Dectova, en infusionsvæske.
+TxGNN-modellen forudsiger, at det kan have effekt mod **pyelonefritis** (nyrebækkenbetændelse).
+Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 relevante publikationer** til at understøtte den.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Formelle virkningsmekanisme-data var ikke tilgængelige i denne bevissamling (datagap på medicinal-niveau, markeret som høj alvorlighed i kildemetadata). Baseret på etableret farmakologi er zanamivir en inhalativ neuraminidasehæmmer, der blokerer influenzavirusens overfladeglykoproteinneuroaminidase, hvilket forhindrer frigivelse af nye viruspartikler fra inficerede respiratoriske epitelceller. Dets godkendte anvendelse er snævert begrænset til influenza A og B.
-
-Modellens højest rangerede nye indikation, **Pyelonephritis**, er en bakteriel øvre urinvejsinfektion. Der er ingen overlap mellem bakteriel infektionspatofysiologi og antiviral neuraminidasehæmning, og der er ikke dokumenteret nogen antibakteriel aktivitet for zanamivir. Bevissamlingen's egen mekanistisk-link-vurdering for denne kandidat konkluderer eksplicit, at der ikke er nogen troværdig farmakologisk forbindelse.
-
-De resterende model-markerede kandidater — forstyrrelser i tyrosin- og fenylalaninmetabolisme, tetrahydrobiopterin-responsiv phenylketonuri og teratogen Pierre Robin-syndrom — er alle medfødte metabolske eller kraniofaciale udviklingsforstyrrelser, hvoraf ingen har nogen kendt biokemisk sammenhæng med neuraminidasehæmning. Bemærkelsesværdigt blev de tre litteraturhenvisninger hentet under "forstyrrelser i tyrosinmetabolisme" alle vedrørende oseltamivir/zanamivir antivirale **resistensmutationer** (f.eks. H275Y / H274Y neuraminidaseerstatningerne) — mutationsnomenklaturen refererer tilfældigvis til en tyrosin/histidin-substitution, som ser ud til at have udløst et falsk tekstmatchende link i vidensgraf snarere end at afspejle ægte terapeutisk relevans. Dette tolkes bedst som en **falsk positiv vidensgraf** snarere end som understøttende bevis.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede registrerede kliniske forsøg.
+| Punkt | Indhold |
+|------|------|
+| Foreslået ny indikation | Pyelonefritis |
+| TxGNN-forudsigelsesscore | 99,84 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I øjeblikket ingen relateret litteratur tilgængelig for den højest rangerede kandidatindikation (Pyelonephritis).
+Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i datagrundlaget. Zanamivir er en hæmmer af influenzavirussens neuraminidase (sialidase). Dets effekt mod influenza er veldokumenteret, men den har ikke noget oplagt mekanistisk link til pyelonefritis.
 
-*(Bemærk: 3 publikationer blev hentet under en lavere-rangeret kandidat, "forstyrrelser i tyrosinmetabolisme," men efter gennemgang vedrører disse antivirale resistensmutationsnomenklaturen, ikke selve metabolske forstyrrelser — se begrundelse ovenfor.)*
+Pyelonefritis er hovedsageligt en bakteriel nyreinfektion, og behandlingen består primært af antibiotika. Visse bakterier har sialidaser, men zanamivir har ingen dokumenteret antibakteriel virkning. Der er heller ikke dokumenteret relevant eksponering i urinvejene.
 
----
-
-## Markedsinformation for Danmark
-
-Ingen markedsføringstilladelser er i øjeblikket registreret for zanamivir i Danmark (Markedsstatus: **Ikke markedsført**; Samlede licenser: **0**). Dette lægemiddel har i øjeblikket ikke en registreret tilstedeværelse på det danske marked.
+Den høje score (0,998) afspejler derfor sandsynligvis nærhed i vidensgrafen snarere end en egentlig biologisk sammenhæng. Dataene indeholdt indikationen to gange (dublet), og den er her slået sammen til én.
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk forsøgsevidens
 
-Se venligst det godkendte produktsammenfatting (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Beslutning: Afvent**
+Der er i øjeblikket ingen relateret litteratur for pyelonefritis.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform |
+|---------|------|------|
+| 28106043117 | Dectova (GlaxoSmithKline Trading Services) | Infusionsvæske, opløsning |
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsagte indikationer for zanamivir i denne bevissamling understøttes kun på model-forudsigelsesniveauet (L5), uden kliniske forsøg og uden ægte relevant litteratur. Top-kandidaten (Pyelonephritis) og alle andre kandidater mangler enhver troværdig mekanistisk rationale, der forbinder en antiviral neuraminidasehæmmer til deres respektive sygdomsbiologi, og et litteratursignal blev identificeret som en falsk positiv vidensgraf.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller litteratur. Der er intet plausibelt mekanistisk link mellem neuraminidasehæmning og behandling af en bakteriel nyreinfektion. Systemisk eksponering i urinvejene og antibakteriel aktivitet er ikke dokumenteret.
 
-**For at gå videre er følgende nødvendigt:**
-- Bekræftet virkningsmekanisme-data for zanamivir (DrugBank API-forespørgsel — i øjeblikket et datagap)
-- SmPC/produktinformation-advarsler og kontraindikationer (Dansk lægemiddelagentur-kilde — i øjeblikket et blokerende datagap for sikkerhedsscreening)
-- Uafhængig (ikke-TxGNN-udløst) hypotesegenerering eller målrettet litteratur-/forsøgssøgning specifik til pyelonephritis før yderligere evaluering
-- Revurdering af, hvorvidt disse kandidater skal forblive i den aktive pipeline, givet fraværet af et plausibelt mekanistisk grundlag
+De øvrige højtscorende forudsigelser i datasættet mangler ligeledes biologisk grundlag. Det gælder lidelser i tyrosin- og phenylalaninstofskiftet, BH4-responsiv PKU og teratogent Pierre Robin-syndrom. De tre hentede artikler om tyrosinstofskifte handler om influenzaresistens og analysemetoder og er derfor ikke talt med som evidens.
 
+**For at komme videre kræves:**
+- Mekanistiske data (in vitro-aktivitet over for uropatogene bakterier eller relevante sialidaser)
+- Farmakokinetiske data om eksponering i nyre og urinveje
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som mangler i datagrundlaget
+- Præklinisk eller klinisk evidens, før en egentlig vurdering kan påbegyndes
+
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til genanvendelse kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

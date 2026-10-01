@@ -2,7 +2,7 @@
 layout: default
 title: Travoprost
 parent: Kun modelforudsigelse (L5)
-nav_order: 448
+nav_order: 450
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Travoprost: Fra glaukom/okulær hypertension til viskeral calciphylaksi
+# Travoprost: Fra glaukom til visceral calciphylaxis
 
-## Énlinjers-resumé
+## Resumé i få sætninger
 
-Travoprost er et prostaglandin F2α analogon, der bruges til at sænke intraokulart tryk ved glaukom og okulær hypertension (mekanisme og forsøgssammenhæng rekonstrueret fra evidenspakken, da strukturerede MOA/indikationsfelter ikke var udfyldt). TxGNN-modellen forudsiger, at det kan være effektivt for **viskeral calciphylaksi**, men denne forudsigelse understøttes i øjeblikket af **ingen kliniske forsøg** og **ingen publiceret litteratur** – det er et rent modelsignal.
+Travoprost er en prostaglandin F2-alfa-analog (FP-receptoragonist), som gives som øjendråber mod glaukom og okulær hypertension.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **visceral calciphylaxis**.
+Forudsigelsen er rent beregningsbaseret og understøttes af **0 kliniske forsøg** og **0 publikationer**.
 
-## Kort overblik
+---
 
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Glaukom / okulær hypertension (rekonstrueret fra forsøgsevidensen; ikke til stede i strukturerede regulatoriske data) |
-| Forudsagt ny indikation | Viskeral calciphylaksi |
-| TxGNN forudsigelsesscore | 99.9998% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsautoriseringer | 0 |
-| Anbefalet beslutning | Vent |
+## Hurtigt overblik
 
-## Hvorfor er denne forudsigelse rimelig?
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i licensdata. Forsøg og litteratur viser åbenvinklet glaukom og okulær hypertension |
+| Forudsagt ny indikation | Visceral calciphylaxis |
+| TxGNN-forudsigelsesscore | 99,9998 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-I øjeblikket er detaljerede virkemådedata ikke tilgængelige i struktureret form. Baseret på information i evidenspakkens registreringer af kliniske forsøg og begrundelsesnoter, er travoprost et prostaglandin F2α analogon (prodrug, hydrolyseret til sin aktive syreform), som selektivt agoniserer FP-prostanoidreceptoren og sænker intraokulart tryk ved at øge uveoskleral afstrømning – dets etablerede anvendelse er ved åbenvinkel-glaukom og okulær hypertension.
+---
 
-Viskeral calciphylaksi er en småkars-calcifikations-lidelse, der fører til iskæmisk vævsnekrose og omfatter vaskulær glat muskelcalcifikation og koagulationsforstyrrelser. Ifølge det repurposing-rationale, som er vedlagt denne kandidat, **er der ingen kendt fysiologisk forbindelse** mellem denne vej og travoprosts FP-receptor/IOP-sænkende virkemåde.
+## Hvorfor er forudsigelsen rimelig?
 
-Denne kandidat er placeret som #1 efter TxGNN-score, men modellens egen begrundelse erklærer eksplicit, at associationen ikke er understøttet af nogen kliniske forsøg eller litteraturbevis – den afspejler alene et højt embedding-lighedssignal, ikke en mekanistisk eller klinisk velbegrundet hypotese.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Travoprost er en lokalt administreret FP-receptoragonist, og dets effekt ved glaukom og okulær hypertension er veletableret. Der er dog ikke fundet nogen mekanistisk forbindelse til visceral calciphylaxis.
 
-## Bevis fra kliniske forsøg
+Calciphylaxis er kendetegnet ved vaskulær forkalkning og mikrovaskulær trombose. Intet i datagrundlaget forbinder FP-agonisme ved okulære doser, med ubetydelig systemisk eksponering, med denne patologi. Den høje score skyldes sandsynligvis mønstre i vidensgrafen og er ikke et tegn på dokumenteret effekt.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Øvrige forudsagte indikationer fra modellen er arteriel, venøs og neurogent thoracic outlet-syndrom samt "vascular disease". Alle har evidensniveau L5 og anbefalingen Hold. Thoracic outlet-syndromerne skyldes hovedsageligt strukturel kompression af kar eller nerver, og der er ingen holdepunkter for, at okulært travoprost påvirker dem. For "vascular disease" handler de fundne forsøg og artikler udelukkende om glaukom eller øjenbivirkninger, især konjunktival hyperæmi. Det er ikke evidens for en vaskulær indikation.
 
-## Bevis fra litteraturen
+---
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+## Evidens fra kliniske forsøg
+
+Der er i øjeblikket ikke registreret relevante kliniske forsøg for visceral calciphylaxis.
+
+---
+
+## Litteraturevidens
+
+Der foreligger i øjeblikket ingen relevant litteratur for visceral calciphylaxis.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105241013 | Izba (Novartis Europharm Limited) | Øjendråber, opløsning | Ikke angivet i datagrundlaget |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Dette er en L5-evidens-kandidat – en modelforudsigelse uden støtte fra kliniske forsøg, uden litteraturbevis og uden etableret mekanistisk forbindelse mellem travoprosts FP-receptor-vej og calciphylaksis-patofysiologi. Medicinen er desuden i øjeblikket ikke markedsført i Danmark, og sikkerhedsmærkningsdata, der er nødvendige selv for et foreløbigt sikkerhedsscreening, mangler (blokerende datagab).
+Forudsigelsen hviler kun på en grafbaseret modelscore uden kliniske forsøg, publikationer eller en understøttet mekanistisk forbindelse. Evidensniveauet er L5. Der mangler desuden sikkerhedsdata fra Lægemiddelstyrelsen, som blokerer den videre sikkerhedsscreening.
 
-**For at fortsætte er følgende nødvendigt:**
-- Bekræftet virkemådedata (MOA) fra DrugBank eller SmPC
-- Dansk/EU-produktmærkning (advarsler, kontraindikationer) for at klare det nuværende blokerende datagab (DG001)
-- Prækliniske eller mekanistiske studier, der forbinder prostaglandin FP-receptoraktivitet med vaskulære calcifikationsveje
-- Hvis man forfølger det, et initialt præklinisk/in vitro gennemførlighedsstudium før nogen klinisk evidensgeneration, givet den fuldstændige mangel på understøttende data
+**For at komme videre kræves følgende:**
+- Indlægsseddel/produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Præklinisk eller mekanistisk evidens for en rolle for FP-receptoragonisme ved calciphylaxis
+- Vurdering af, om en øjendråbeformulering overhovedet kan nå målvævet (rutekompatibilitet)
 
-*Bemærk: Blandt de øvrige kandidater i denne evidenspakke har "vaskulær sygdom" (rang 9–10, L4) væsentligt mere evidens (15 kliniske forsøg, 20 publikationer), men disse beviser er klassificeret som lavt relevante (Grad C) – forsøgene er glaukom/IOP-studier, der tilfældigvis involverer travoprost, ikke behandlingsforsøg for vaskulær sygdom. Det kunne være værd at vurdere separat, men var ikke den toprangerede kandidat og ligger uden for omfanget af denne rapport.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

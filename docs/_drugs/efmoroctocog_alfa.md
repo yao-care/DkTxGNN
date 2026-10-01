@@ -2,7 +2,7 @@
 layout: default
 title: Efmoroctocog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 156
+nav_order: 157
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Efmoroctocog Alfa: Fra Hemofili A til Pseudo-von Willebrand-sygdom
+# Efmoroctocog alfa: Fra haemofili A til pseudo-von Willebrand sygdom
 
-## Resumé i en sætning
+## Resumé i få sætninger
 
-Efmoroctocog alfa er et rekombinant koagulationsfaktor VIII Fc-fusionsprotein (rFVIIIFc), godkendt i flere lande (f.eks. EU som Elocta, USA som Eloctate) til forebyggelse og behandling af blødningsepisoder hos patienter med hemofili A.
-TxGNN-modellen forudsiger, at det kan være effektivt for **Pseudo-von Willebrand-sygdom**, en sjælden blødningsforstyrrelse af blodpladetype, der er mekanistisk forbundet med faktoren VIII–von Willebrand-faktor (vWF)-aksen.
-I øjeblikket er der **ingen kliniske forsøg** og **ingen publikationer**, der specifikt undersøger efmoroctocog alfa i denne indikation, hvilket betyder, at denne forudsigelse alene understøttes af modelinferens.
-
----
+Efmoroctocog alfa (handelsnavn Elocta) er et rekombinant faktor VIII-Fc-fusionsprotein, der bruges til at erstatte manglende faktor VIII ved haemofili A. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pseudo-von Willebrand sygdom**. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse, og den mekanistiske sammenhæng vurderes som svag.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original indikation | Hemofili A (medfødt faktor VIII-mangel) — forebyggelse og behandling af blødningsepisoder |
-| Forudsagt ny indikation | Pseudo-von Willebrand-sygdom |
-| TxGNN-forudsigelsesscore | 99.997% |
+|------|------|
+| Oprindelig indikation | Haemofili A (fremgår ikke af de danske godkendelsesdata, men er produktets kendte anvendelse) |
+| Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
+| TxGNN-forudsigelsesscore | 99,997 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-## Hvorfor er denne forudsigelse rimelig?
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Efmoroctocog alfa er et rekombinant faktor VIII-Fc-fusionsprotein, der erstatter faktor VIII-aktivitet ved haemofili A.
 
-Efmoroctocog alfa (rFVIIIFc) er et rekombinant faktor VIII smeltet sammen med Fc-regionen af human IgG1, hvilket forlænger dets cirkulerende halveringstid cirka 1.5-fold sammenlignet med standard faktor VIII-produkter. Dens primære godkendte mekanisme er at midlertidigt erstatte den manglende eller fraværende endogen FVIII hos patienter med hemofili A og dermed gendanne normal sekundær hemostase. Kritisk vigtig er, at faktor VIII ikke virker isoleret: den cirkulerer i plasma bundet til von Willebrand-faktor (vWF), som både beskytter FVIII mod for tidlig proteolytisk nedbrydning og leverer den til steder med vaskulær skade.
+Pseudo-von Willebrand sygdom (blodpladetype) skyldes gain-of-function-varianter i GP1BA, som øger blodpladernes binding til von Willebrand-faktor. En eventuel sekundær reduktion af faktor VIII er en følgevirkning. Faktor VIII-substitution adresserer ikke selve blodpladereceptordefekten, så koblingen er svag og indirekte.
 
-Pseudo-von Willebrand-sygdom (blodpladetype vWD) er forårsaget af en gain-of-function mutation i blodpladeglykoprotein Ibα (GPIbα)-receptoren, som binder vWF med unormalt høj affinitet. Dette fører til spontan blodplateklumpning, forbrug af høj-molekylvægt vWF-multimerer og sekundær reduktion i plasma FVIII-niveauer — fordi FVIII mister sin vWF-chaperone. Den resulterende fænotype er derfor en kombineret blodpladeog sekundær koagulationsdefekt, med lav FVIII-aktivitet som en klinisk egenskab i alvorlige tilfælde. Tilsætning af eksogen rFVIIIFc kunne teoretisk kompensere for FVIII-komponenten i denne kombinerede defekt.
+Den meget høje score (ca. 0,99997) afspejler sandsynligvis nærhed i vidensgrafen til koagulations- og VWF-FVIII-knuder snarere end en valideret terapeutisk mekanisme. Det samme billede gælder for de øvrige forudsigelser:
 
-TxGNN knowledge-graph-modellen har sandsynligvis identificeret denne forbindelse gennem den delte biologiske node af vWF og co-forekomsten af FVIII-mangel som en nedstrøms-konsekvens af pseudo-vWD. Selvom den mekanistiske begrundelse er biologisk sammenhængende, håndteres pseudo-vWD i øjeblikket primært med blodpladetransfusioner eller desmopressin (DDAVP), og der er ingen etableret klinisk præcedens for at anvende FVIII-koncentrat som en terapeutisk strategi i denne indikation. Forudsigelsen bør derfor begrunde eksplorativ undersøgelse snarere end øjeblikkelig klinisk translation.
+- **Primær frigørelsesdefekt i blodplader:** en defekt i primær hæmostase. Faktor VIII virker på det intrinsiske tenasekompleks i sekundær hæmostase og korrigerer ikke blodpladernes frigørelsesfunktion.
+- **Glanzmanns trombasteni:** skyldes manglende eller dysfunktionelt integrin αIIbβ3. Standardbehandling er blodpladetransfusion eller rekombinant FVIIa, ikke FVIII.
+- **Scott syndrom:** en defekt i blodpladernes eksponering af fosfatidylserin (TMEM16F/ANO6). FVIII leverer cofaktoren, men ikke den manglende membranoverflade.
+- **Erhvervet koagulationsfaktormangel:** den mekanistisk mest plausible, da FVIII-substitution i princippet kan afhjælpe en erhvervet FVIII-mangel. Betegnelsen er dog bred. Ved erhvervet haemofili A neutraliserer FVIII-autoantistoffer præparatet, og bypassing-midler er standardbehandling. Indikationen skal præciseres, før den kan vurderes.
 
----
+## Klinisk evidens fra forsøg
 
-## Evidens fra kliniske forsøg
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+## Litteraturevidens
 
----
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-## Evidens fra litteratur
+## Markedsinformation for Danmark
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105539814 | Elocta (Swedish Orphan Biovitrum AB) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedsmæssige overvejelser
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Se venligst det godkendte produktresumékarakteristika (SmPC) for sikkerhedsinformation.
-
-> **Bemærk:** Ingen data om lægemiddelinteraktion, kontraindikationer eller vigtige advarsler kunne hentes fra det aktuelle evidensomfang. Før enhver klinisk brug skal den fulde SmPC for Elocta/Eloctate (efmoroctocog alfa) konsulteres med særlig opmærksomhed på immunogenicitetsrisiko (inhibitorudvikling mod FVIII), overfølsomhedsreaktioner og kardiovaskulær overvågning i befolkningsgrupper med øget risiko.
-
----
-
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-modellen giver en ekstremt høj forudsigelsesscore (99.997%), og den biologiske forbindelse mellem faktor VIII, vWF og pseudo-von Willebrand-sygdom er mekanistisk sammenhængende; der er dog i øjeblikket nul klinisk forsøgs- eller offentliggjort litteraturbevis for efmoroctocog alfa i denne indikation, hvilket klassificerer dette som en ren modelforudsigelse (L5). En Hold-beslutning er passende, indtil der mindst er præ-kliniske eller case-series-data tilgængelige til at retfærdiggøre ressourceinvestering.
+Forudsigelserne bygger udelukkende på modellen (L5) uden kliniske forsøg eller litteratur. Mekanismen er svag eller ikke understøttet for alle fem forudsagte sygdomme. Den højeste score ser ud til at være et artefakt af, at blødersygdomme klynger sig i vidensgrafen.
 
-**For at gå videre kræves følgende:**
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé. Det er en blokerende datamangel for sikkerhedsscreeningen.
+- Data om virkningsmekanisme (MOA) fra DrugBank.
+- En præcisering af "erhvervet koagulationsfaktormangel" til en konkret tilstand, fx erhvervet FVIII-mangel, hvis der skal arbejdes videre med den.
+- En litteratur- og forsøgssøgning målrettet de forudsagte indikationer, før en ny vurdering.
 
-- **Bekræftelse af virkningsmekanisme:** Indhent formelle MOA-data fra DrugBank (DB11607) for at dokumentere FVIII–vWF-interaktionsvejene og deres potentielle relevans for pseudo-vWD-patofysiologi.
-- **Ekspertklinikeropinion:** Konsultér en hæmatolog eller koagulationsspecialist for at vurdere, om supplementering af FVIII i pseudo-vWD er fysiologisk rationel givet den primære blodpladeGPIbα-defekt.
-- **Gennemgang af regulatorisk historie:** Bekræft, om nogen compassionat brug, navngivet-patient-behandling eller off-label brug af FVIII-koncentrater i pseudo-vWD er dokumenteret i EU/EMA- eller Laegemiddelstyrelsen-registre.
-- **Afhjælpning af evidensgab:** Gennemfør en målrettet litteraturgennemgang med bredere søgetermer (f.eks. "Factor VIII concentrate AND pseudo-von Willebrand disease", "platelet-type vWD AND factor replacement") for at udelukke uoffentliggjort eller grå litteraturbevis, der blev overset af de automatiserede indsamlere.
-- **Markedsadgangssti i Danmark:** Da efmoroctocog alfa i øjeblikket ikke er registreret i Danmark, ville en markedsføringstilladelsessti via EMA's centraliserede procedure (Elocta er EMA-godkendt) eller en ansøgning om navngivet-patient-import være påkrævet, hvis klinisk evaluering fortsætter.
-- **Indsamling af sikkerhedsdata:** Download og parse produktinformationen fra TFDA/EMA for at færdiggøre sikkerhedsprofilen, før noget klinisk program initieres.
-
----
-
-> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er genereret til formål med forskningsreference alene og udgør ikke lægeligt råd. Alle lægemiddelgenbrugskandidater kræver klinisk validering før anvendelse. Dataafskæring: 2026-04-05.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

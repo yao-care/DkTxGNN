@@ -2,15 +2,15 @@
 layout: default
 title: Chloramphenicol
 parent: Høj evidens (L1-L2)
-nav_order: 108
-evidence_level: L1
+nav_order: 109
+evidence_level: L2
 indication_count: 10
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,95 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Chloramphenicol: Fra systemiske bakterielle infektioner til konjunktivitis
+# Chloramphenicol: Fra bredspektret antibiotikum til konjunktivitis
 
-## Sammenfatning i én linje
+## Resumé
 
-Chloramphenicol er en bredspektret bakteriostatisk antibiotikum introduceret i klinisk praksis i 1948, historisk brugt til alvorlige systemiske bakterielle infektioner herunder tyfoidfeber, meningitis, pest og kolera.
-TxGNN-modellen forudsiger, at det kan være effektivt for **Konjunktivitis** med en score på **99,66%**,
-understøttet af **0 registrerede kliniske prøver** og **19 publikationer** — herunder flere RCT'er og to Cochrane-systematiske oversigter. Bemærkelsesværdigt er chloramphenicol allerede en standardtopisk behandling for bakteriel konjunktivitis i Storbritannien og flere andre lande, men har i øjeblikket ingen markeringsgodkendelse i Danmark.
+Chloramphenicol er et bredspektret bakteriostatisk antibiotikum, der i Danmark er markedsført som øjendråber (Cefenicol).
+TxGNN-modellen forudsiger, at det kan være effektivt mod **konjunktivitis**.
+Den forudsigelse understøttes af **19 publikationer** (heriblandt flere randomiserede sammenligninger og to Cochrane-reviews), men af **0 registrerede kliniske forsøg**.
+Bemærk, at konjunktivitis er en etableret topikal oftalmologisk anvendelse, så der er ikke tale om ægte drug repurposing.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke tilgængelig fra danske licenseringsregistre; historisk brugt til systemiske bakterielle infektioner (tyfoidfeber, meningitis, kolera, rickettsial-infektioner) |
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,66% |
-| Bevisniveau | L1 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markeringsgodkendelser | 0 |
-| Anbefalet afgørelse | Fortsæt med forholdsregler |
+| TxGNN-forudsigelsesscore | 99,66 % |
+| Evidensniveau | L2 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails) |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Chloramphenicol udøver sin antibakterielle virkning ved at binde sig til 50S-subenheden af bakteriel ribosomer og hæmme peptidyl transferase-aktivitet, og derved blokere proteinsyntetsen. Denne bredspektret bakteriostatisk mekanisme er direkte aktiv mod de vigtigste årsagsstoffer til bakteriel konjunktivitis — *Staphylococcus aureus*, *Haemophilus influenzae* og *Streptococcus pneumoniae*. Når det påføres topisk som en oftalmologisk opløsning (typisk 0,5% øjendråber) eller salve, opnår lægemidlet terapeutiske koncentrationer på øjenlågets overflade, samtidig med at systemisk absorption holdes på et minimum — en farmakokinetisk profil, der væsentligt reducerer risikoen for den mest alvorlige kendte bivirkning, idiosynkratisk aplastisk anæmi.
+Der foreligger ikke registrerede detaljerede mekanismedata i Evidence Pack. Chloramphenicol er dog kendt som et bredspektret bakteriostatisk antibiotikum, der binder til den bakterielle 50S-ribosomsubenhed og blokerer proteinsyntesen. Mekanismen dækker de almindelige patogener ved bakteriel konjunktivitis.
 
-Forbindelsen mellem chloramphenicolens oprindelige rolle i systemiske infektioner og konjunktivitis-indikationen er mekanistisk ligetil: begge sygdomsindstillinger involverer modtagelige bakterier, imod hvilke hæmning af 50S-medieret proteinsyntetse er effektiv. Skiftet til en topisk oftalmologisk rute optimerer simpelt hen risiko-gavn-balancen ved at koncentrere lægemiddeludbredelsen på infektionsstedet. In vitro-modtaelighedsdata (PMID 7671609) rangerede chloramphenicol højest blandt etablerede topiske antibiotika til konjunktivitis-forårsagende organismer.
+Forudsigelsen er derfor mekanistisk plausibel. Den er også i overensstemmelse med klinisk praksis. Litteraturen beskriver topikal øjenbehandling med chloramphenicol, bl.a. i Storbritannien, og lægemidlet indgår som aktiv komparator eller behandlingsarm i flere randomiserede undersøgelser (fusidinsyre, povidon-jod, moxifloxacin).
 
-TxGNN-modellens forudsigelsesscore på 99,66% er ikke overraskende i denne sammenhæng: chloramphenicol oftalmologiske præparater er i øjeblikket godkendt og bredt dispenseret til bakteriel konjunktivitis i Storbritannien, Irland og andre europæiske lande. Nøglespørgsmålet for Danmark er derfor ikke, om lægemidlet virker for denne indikation — beviserne viser klart, at det gør — men om en lovgivningssti og sikkerhedsovervågningsramme kan etableres for det danske marked, hvor der i øjeblikket ikke eksisterer nogen godkendelse.
-
----
-
-## Bevis fra kliniske prøver
-
-Der er i øjeblikket ingen kliniske prøver, der specifikt evaluerer chloramphenicol til konjunktivitis, registreret på ClinicalTrials.gov eller WHO ICTRP.
-
-Bevisgrundlaget for denne indikation er baseret udelukkende på historisk og nutidigt fagfællebedømt litteratur, herunder flere RCT'er og Cochrane-niveau systematiske oversigter (se Litteraturbevis nedenfor).
+Evidensniveauet er begrænset til L2 og ikke L1. Årsagen er, at der ikke findes registrerede forsøg, og at forsøgsfasen ikke er angivet i kildedata. De manglende oplysninger om oprindelig indikation og mekanisme er datahuller og tæller ikke som evidens imod indikationen.
 
 ---
 
-## Litteraturbevis
+## Klinisk forsøgsevidens
 
-| PMID | År | Type | Tidsskrift | Vigtige fund |
-|------|------|------|---------|--------------|
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Sammenlignende klinisk prøve | Current Therapeutic Research | Direkte sammenligning af moxifloxacin vs. chloramphenicol til bakterielle øjeninfektioner; bekræfter chloramphenicolens fortsatte rolle som en etableret topisk oftalmologisk sammenligningsgruppe |
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Cochrane systematisk oversigt | Cochrane Database of Systematic Reviews | Evaluerer profylaktiske interventioner ved oftalmia neonatorum (neonatal konjunktivitis); chloramphenicol vurderet som en af antibiotikaindstillingerne til forebyggelse af synsbedrivende neonatal øjeninfektioner |
-| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | Cochrane systematisk oversigt og meta-analyse | British Journal of General Practice | Opdateret Cochrane meta-analyse af topiske antibiotika vs. placebo for akut bakteriel konjunktivitis i primær praksis; bekræfter fordelen ved topisk antibiotikabehandling, herunder chloramphenicol, sammenlignet med afventende holdning |
-| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | RCT (ækvivalens) | British Journal of Ophthalmology | RCT sammenlignende 2,5% povidon-jod øjendråber vs. oftalmologisk chloramphenicol til forebyggelse af neonatal konjunktivitis i et trakhom-endemisk område; etablerer chloramphenicol som en aktiv profylaktisk reference |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | RCT (blindet) | Acta Ophthalmologica | Enkeltblindet RCT (n=250) sammenlignende fusidinsyre 1% vs. chloramphenicol 0,5% til akut purulent konjunktivitis; klinisk succes 81% (chloramphenicol) vs. 84% (fusidinsyre) — ingen statistisk signifikant forskel i effektivitet |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | RCT (åben etiket) | Acta Ophthalmologica | Tre-arms RCT i Tanzania sammenlignende fusidinsyre, chloramphenicol og framycetinøjendråber; fusidinsyre overlegen (93% succes) på grund af lavere lokal resistensrate; chloramphenicol succesrate 48%, begrænset af høj resistensprævalens i denne indstilling |
-| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | RCT (dobbelblind multicenterstudie) | Journal of Antimicrobial Chemotherapy | Multicenterstudie dobbelblind RCT (n=230) sammenlignende trimetoprim-polymyxin B vs. chloramphenicol oftalmologisk opløsning ved præsumtiv bakteriel konjunktivitis; begge præparater effektive med minimale bivirkninger |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Farmakovigilans-oversigt | Drug Safety | Kritisk sikkerhedsoversigt over den kontroversielle tilknytning mellem topisk ocular chloramphenicol og aplastisk anæmi; bemærker udbredt UK-brug til konjunktivitis vs. næsten fravær af ordinering i USA — fremhæver den lovgivningsmæssige risiko-gavn divergens |
-| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | Klinisk sammenligningsstudie | Acta Ophthalmologica | Sammenligning af fusidinsyre to gange dagligt vs. chloramphenicol seks gange dagligt i akut konjunktivitis rekrutteret fra 38 norske praktiklæger; ingen signifikant forskel i bakteriologisk eller klinisk respons |
-| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Kohortstudium | Journal of Hygiene | I neonatal klamydial konjunktivitis (n=127 inficerede spædbørn), tidligere chloramphenicol-øjendråber reducerede symptomsvæyrelse men kunne ikke udrydde *Chlamydia trachomatis* (85% af øjneprøver forblev positive), hvilket demonstrerer lægemidlets ineffektivitet mod klamydial ætiologi |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Oplysninger om det danske marked
+## Litteraturevidens
 
-Chloramphenicol har i øjeblikket **ingen markeringsgodkendelser** i Danmark. Der findes ingen registreringer for hverken nationale (Laegemiddelstyrelsen) eller centraliserede (EMA) godkendelser.
-
-For kontekstuelle henvisning godkendes topiske chloramphenicol oftalmologiske præparater (0,5% v/v øjendråber; 1% v/v øjensalve) under nationale procedurer i Storbritannien, Irland og et antal andre europæiske lande til bakteriel konjunktivitis. Disse eksisterende nationale godkendelser kan være relevante som et lovgivningsmæssigt referencebasis for enhver fremtidig dansk ansøgning.
-
----
-
-## Sikkerhedshensyn
-
-**Vigtig sikkerhedsadvarsel — Aplastisk anæmi-risiko:**
-Den offentliggjorte litteratur (PMID 8800624) identificerer en velkendt farmakovigilans-bekymring: en kontroversiel men potentielt alvorlig tilknytning mellem topisk oftalmologisk chloramphenicol og idiosynkratisk aplastisk anæmi. Selvom den absolutte risiko fra topisk brug synes meget lav (systemisk absorption via øjendråber er minimal), har dette signal historisk drevet divergente lovgivningsmæssige beslutninger på tværs af markeder — udbredt brug i UK vs. næsten-begrænsning i USA. Enhver dansk godkendelsesti skal eksplicit adressere denne risiko med robuste krav til farmakovigilans efter markedsføring.
-
-**Klamydial konjunktivitis-begrænsning:**
-Bevis (PMID 7153511) bekræfter chloramphenicol er ineffektivt mod *Chlamydia trachomatis*. Ordinatorer skal sikre korrekt ætologisk diagnostik, da klamydial konjunktivitis kræver systemisk makrolid-terapi og vil ikke reagere på topisk chloramphenicol.
-
-Se venligst det godkendt produktinformationsark (SmPC) for en relevant national eller EMA-godkendelse for fuldstændig sikkerhedsinformation herunder kontraindikationer, lægemiddelinteraktioner og vejledning til særlige populationer.
+| PMID | År | Type | Tidsskrift | Nøgleresultater |
+|------|-----|------|------|---------|
+| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | RCT | Curr Ther Res | Sammenligning af moxifloxacin og chloramphenicol ved bakterielle øjeninfektioner. Resultater fremgår ikke af det tilgængelige abstract. |
+| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | RCT | Acta Ophthalmol | Åbent, randomiseret forsøg i Tanzania. Klinisk succes var 93 % (77/83) for fusidinsyre, 48 % (22/46) for chloramphenicol og 74 % (26/35) for framycetin. Fusidinsyres fordel tilskrives lavere resistens. |
+| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | RCT | Acta Ophthalmol | Fusidinsyre 1 % (2 gange dagligt) mod chloramphenicol 0,5 % (6 gange dagligt) hos patienter fra 38 norske praktiserende læger. Ingen signifikant forskel i behandlingsrespons. |
+| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | RCT | Acta Ophthalmol | Single-blind. Klinisk succes var 84 % (fusidinsyre) mod 81 % (chloramphenicol). Flere i chloramphenicolgruppen (14 % mod 5 %) angav milde bivirkninger som svie og ubehag. |
+| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | RCT | Br J Ophthalmol | Ækvivalensforsøg i Mexico: povidon-jod 2,5 % mod øjen-chloramphenicol til forebyggelse af neonatal konjunktivitis. Resultater fremgår ikke af det tilgængelige abstract. |
+| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | RCT (ifølge abstract) | J Antimicrob Chemother | Dobbeltblindet multicenterforsøg med 230 patienter. Trimethoprim-polymyxin B blev sammenlignet med neomycin-polymyxin B-gramicidin og chloramphenicol. Alle præparater var effektive med få bivirkninger. |
+| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | Systematisk review/metaanalyse | Br J Gen Pract | Cochrane-opdatering om topikale antibiotika versus placebo ved akut bakteriel konjunktivitis, med vurdering af overførbarhed til almen praksis. |
+| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematisk review | Cochrane Database Syst Rev | Interventioner til forebyggelse af ophthalmia neonatorum (neonatal konjunktivitis). |
+| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review | Drug Saf | Vurdering af en mulig sammenhæng mellem topikal øjen-chloramphenicol og aplastisk anæmi. Spørgsmålet omtales som fortsat kontroversielt. Midlet er udbredt i Storbritannien, men meget sjældent anvendt i USA. |
+| [23571246](https://pubmed.ncbi.nlm.nih.gov/23571246/) | 2014 | Kohorte | Indian J Ophthalmol | Resistensprofiler for azithromycin, fluorokinoloner og chloramphenicol hos konjunktivale bakterier i et landdistrikt i Etiopien. |
 
 ---
 
-## Konklusion og næste trin
+## Information om det danske marked
 
-**Afgørelse: Fortsæt med forholdsregler**
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107150624 | Cefenicol (CP-Pharma Handelsgesellschaft mbH) | Øjendråber, opløsning | Ikke angivet i tilgængelige data |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i Evidence Pack.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails)**
 
 **Begrundelse:**
-Bevisgrundlaget for topisk chloramphenicol i bakteriel konjunktivitis er klinisk veletableret — understøttet af flere historiske RCT'er, to Cochrane systematiske oversigter og en TxGNN-forudsigelsesscore på 99,66%. Lægemidlet er allerede i rutinemæssig klinisk brug for denne indikation på tværs af flere europæiske markeder. De primære barrierer i Danmark er lovgivningsmæssige (ingen nuværende markeringsgodkendelse) og farmakovigilans (aplastisk anæmi-signal), snarere end effektivitet eller mekanistisk usikkerhed.
+Chloramphenicol har en plausibel antibakteriel mekanisme, og flere randomiserede sammenligninger viser klinisk effekt ved akut bakteriel konjunktivitis. Evidensen er dog begrænset til L2, da der ikke er registrerede forsøg, og den mulige sammenhæng mellem øjen-chloramphenicol og aplastisk anæmi kræver forsigtighed.
 
-**For at fortsætte er følgende nødvendigt:**
+De øvrige forudsagte indikationer (bl.a. diffus sklerodermi, postinfektiøs vaskulitis, post-bakteriel lidelse og post-infektiøst syndrom) er alle vurderet som **Hold**. Evidensen er der enten kun modelbaseret eller kun indirekte.
 
-- **Vurdering af lovgivningssti**: Evaluere indstillinger til at få adgang til lægemidlet i Danmark — enten gennem en ny national markeringsgodkendelsesansøgning til Laegemiddelstyrelsen, eller via import af et produkt allerede godkendt i en anden EU-medlemstat under artikel 3(1) i direktiv 2001/83/EF
-- **Formel dokumentation af virkningsmekanisme**: Hent fuldstændig virkningsmekanisme- og DrugBank-farmakokinetikdata til støtte for den lovgivningsmæssige indsendelse
-- **Risikostyringsplan (RMP)**: Udvikl en målrettet farmakovigilans-plan, der adresserer aplastisk anæmi-sikkerhedssignalet, herunder patientinformationsmaterialer og ordinatorvejledning om begrænsning af brugvarighed
-- **Dansk resistensovervågning**: Få nuværende lokale antibiogramdata til konjunktivitis-forårsagende patogener i Danmark for at bekræfte modtagelighed før anbefaling af udbredt brug
-- **Ordinatorvejledning om ætiologi**: Udvikl klare kliniske kriterier for bakteriel vs. viral vs. klamydial konjunktivitis for at sikre passende brug og undgå behandlingsfejl
-- **Formuleringsspecifikation**: Bekræft farmaceutisk kvalitet og kolde-kæde-krav til den 0,5% oftalmologiske opløsning i den danske forsyningskæde
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation for Cefenicol)
+- Mekanismedata (MOA) fra DrugBank
+- Tydelig sikkerhedsmærkning vedrørende risikoen for aplastisk anæmi (PMID 8800624)
+- Inddragelse af lokale resistensdata (jf. PMID 23571246)
 
----
-
-*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle lægemiddelomplacerings-kandidater kræver klinisk validering før terapeutisk anvendelse. Dataafskæring: 2026-04-04.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

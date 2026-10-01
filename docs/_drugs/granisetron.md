@@ -2,7 +2,7 @@
 layout: default
 title: Granisetron
 parent: Kun modelforudsigelse (L5)
-nav_order: 212
+nav_order: 213
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,99 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Granisetron: Fra kemoterapi-induceret kvalme og opkastninger til manisk bipolar affektiv lidelse
+# Granisetron: Fra kvalme og opkastning ved kemoterapi til manisk bipolar affektiv lidelse
 
-## Sammenfatning på en sætning
+## Resumé
 
-Granisetron er en selektiv 5-HT₃-receptorantagonist, der primært bruges til forebyggelse og behandling af kemoterapi-induceret kvalme og opkastninger (CINV) og postoperativ kvalme og opkastninger (PONV).
-TxGNN-modellen forudsiger, at det kan være effektivt for **manisk bipolar affektiv lidelse**, med **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne specifikke retning.
-Den høje forudsigelsesscore (99.62%) er kun et hypotesegenererende signal; det overordnede bevisgrundlag forbliver på L5.
+Granisetron er en 5-HT3-receptorantagonist, der bruges som kvalmestillende middel. Her er det markedsført som plasteret Sancuso (oplysningen om grundindikationen stammer fra almen viden, ikke fra de leverede registreringsdata). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **manisk bipolar affektiv lidelse**. Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så den er rent beregningsbaseret.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Kemoterapi-induceret kvalme og opkastninger (CINV); postoperativ kvalme og opkastninger (PONV) |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Forebyggelse af kvalme og opkastning ved kemoterapi (almen viden; ikke angivet i de danske registreringsdata) |
 | Forudsagt ny indikation | Manisk bipolar affektiv lidelse |
-| TxGNN-forudsigelsesscore | 99.62% |
+| TxGNN-forudsigelsesscore | 99,62 % |
 | Evidensniveau | L5 |
-| Markedsstatus Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i Evidenspakken. Baseret på veletableret farmakologi er Granisetron en højt selektiv 5-HT₃-receptorantagonist: det blokerer konkurrencemæssigt serotonintype 3-receptorer placeret på vagale afferente neuroner og i kemoreceptor-triggerzonen, hvilket er grundlaget for dets antiemetiske virkning.
+Der foreligger ingen detaljerede data om virkningsmekanismen i den leverede evidenspakke. Granisetron er almindeligvis kendt som en 5-HT3-receptorantagonist. Effekten ved kemoterapiudløst kvalme og opkastning er veldokumenteret. Mekanistisk kunne en påvirkning af serotonerge og dopaminerge kredsløb være relevant for stemningslidelser, men det er kun en hypotese. Den er ikke testet mod nogen foreliggende evidens.
 
-Det foreslåede mekanistiske link til manisk bipolar affektiv lidelse hviler på observationen af, at 5-HT₃-receptorer er udtrykt i det limbiske system, hvor deres aktivering modulerer dopaminudskillelsen. Fordi serotonik-dopamin-ubalance er et anerkendt træk ved bipolare humørfaser, kunne 5-HT₃-blokade teoretisk dæmpe dysreguleret limbisk dopaminergisk aktivitet under maniske faser.
+Den høje modelscore (0,996) er det eneste, der støtter forudsigelsen. Der er ikke fundet forsøg eller litteratur, og forbindelsen til den oprindelige indikation er endnu ikke vurderet.
 
-Dette link er imidlertid meget indirekte. Vejen fra perifer antiemetisk virkning til central humørregulering involverer flere uvaliderede trin, og der findes ingen direkte prekliniske eller kliniske data for Granisetron — eller nogen 5-HT₃-antagonist — specifikt i maniske episoder. TxGNN-forudsigelsen bør behandles som en hypotese at undersøge, ikke som handlingsbar klinisk evidens.
+TxGNN har også foreslået andre indikationer, alle med evidensniveau L5 og anbefalingen Hold:
 
----
-
-## Klinisk forsøgsevidence
-
-I øjeblikket ingen relaterede kliniske forsøg registreret for Granisetron i manisk bipolar affektiv lidelse.
-
----
-
-## Litteraturevidence
-
-I øjeblikket ingen relateret litteratur tilgængelig for Granisetron i manisk bipolar affektiv lidelse.
+| Forudsagt indikation | Score | Spekulativ mekanistisk kobling |
+|------|------|------|
+| Tourettes syndrom | 99,52 % | Modulering af dopaminerge og serotonerge kredsløb involveret i tics |
+| Akut smitsom konjunktivitis | 99,49 % | Ingen plausibel kobling kan identificeres |
+| Angioødem | 99,36 % | Serotonins rolle i mastcelle- og kar-permeabilitetsveje; relevant undertype ukendt |
+| Allergisk urticaria | 99,32 % | Serotoninsignalering i mastcellemedieret kløe og udslæt |
 
 ---
 
-## Markedsinformation for Danmark
+## Evidens fra kliniske forsøg
 
-Granisetron har i øjeblikket ingen markedsføringstilladelser registreret i Danmark. Ingen godkendt produktmærkning eller Produktresumé (SmPC) er tilgængelig gennem Lægemiddelstyrelsen i det aktuelle datasæt.
-
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|-------------------------------|------------|-------------|---------------------|
-| — | — | — | Ingen autorisationer registreret |
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
-
----
-
-## Yderligere forudsagte indikatorer (overblik)
-
-Modellen returnerede fem unikke indikatorer i top 10. Alle er i øjeblikket på L4–L5 uden direkte klinisk evidens for Granisetron specifikt.
-
-| Rangering | Indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|-----------|-------------|---------------|----------------|
-| 1 | Manisk bipolar affektiv lidelse | 99.62% | L5 | Hold |
-| 3 | Tourettes syndrom | 99.52% | L4 | Forskningsspørgsmål |
-| 5 | Akut smitsom konjunktivitis | 99.49% | L5 | Hold |
-| 7 | Angioødem | 99.36% | L5 | Hold |
-| 9 | Allergisk urticaria | 99.32% | L5 | Hold |
-
-**Tourettes syndrom** har det stærkeste mekanistiske rationale af de fem: 5-HT₃-antagonisme kan indirekte modulere basale gangliers dopaminaktivitet, og det relaterede lægemiddel ondansetron er blevet udforsket i små forsøg for tikforstyrrelser (indirekte klasseffekt-evidens). Denne indikation kræver en dedikeret litteraturgennemgang før en endelig anbefaling.
+Der foreligger aktuelt ingen relateret litteratur.
 
 ---
 
-## Konklusion og næste trin
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104794610 | Sancuso (Grünenthal GmbH) | Depotplaster | – |
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet interaktionsdata i evidenspakken.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Selvom TxGNN-forudsigelsesscore er høj på tværs af alle fem indikatorer, er der nul registrerede kliniske forsøg og nul publikationer, der direkte understøtter Granisetron for nogen af de forudsagte tilstande. Det mekanistiske rationale er indirekte og spekulativt, MOA-data mangler, og lægemidlet har ingen registreret markedsføringstilladelse i Danmark.
+Forudsigelsen hviler udelukkende på en høj modelscore (L5). Der er ingen kliniske forsøg eller publikationer, og virkningsmekanismen og sikkerhedsoplysningerne mangler. Forsøg ved manisk bipolar lidelse kan derfor ikke anbefales på nuværende grundlag.
 
-**For at fortsætte, er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende mangel)
+- Data om virkningsmekanisme fra DrugBank
+- Systematisk litteratur- og forsøgssøgning (ClinicalTrials.gov, EU Clinical Trials Register, PubMed) for manisk bipolar lidelse og Tourettes syndrom
+- Vurdering af, om depotplaster (transdermal tilførsel) er forenelig med administrationsvejen, som den nye indikation kræver
+- Vurdering af ligheden mellem den oprindelige og den nye indikation
 
-- **MOA-data**: Hent fuldt DrugBank-virkningsmekanisme- og farmakologi-opslag for Granisetron
-- **Sikkerhedsdata**: Hent godkendt SmPC (tilgængelig via EMA/Kytril EPAR) for at udfylde advarsler, kontraindikationer og lægemiddelinteraktionsprofil
-- **Klasseffekt-litteraturgennemgang**: Vurdér om ondansetron eller andre 5-HT₃-antagonister har prekliniske eller kliniske data inden for bipolar lidelse eller Tourettes syndrom — positiv klasseffekt-evidens ville opgradere Granisetrons vurdering
-- **Preklinisk proof-of-concept**: Bestil eller identificer dyremodel-studier for 5-HT₃-antagonisme i manisk-fase-adfærd før overvejelse af nogen menneskeforsøg
-- **Regulatorisk vej-præcisering**: Bekræft om Granisetron har en eksisterende EMA-centraliseret tilladelse (f.eks. Kytril), der kunne understøtte en diskussion om label-udvidelse med Lægemiddelstyrelsen
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

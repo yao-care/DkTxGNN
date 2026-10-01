@@ -2,7 +2,7 @@
 layout: default
 title: Iodixanol
 parent: Kun modelforudsigelse (L5)
-nav_order: 240
+nav_order: 241
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iodixanol: Fra diagnostisk radiografisk kontrastmiddelgive til østeoartritis-modtagelighed
+# Iodixanol: Fra røntgenkontrastmiddel til arthrose-modtagelighed (osteoarthritis susceptibility)
 
-## Sammenfattelse på en sætning
+## Resumé i én sætning
 
-Iodixanol er et nonionisk joderet kontrastmiddel brugt til diagnose inden for radiografisk og CT-billedbehandling, ikke et sygdomsbehandlende lægemiddel i traditionel forstand. TxGNN-modellens top-klassificerede forudsigelse forbinder det til **Østeoartritis-modtagelighed** med en meget høj score (99.16%), men denne specifikke forudsigelse understøttes i øjeblikket af **nul kliniske forsøg og nul publikationer** — det er et model-kun signal uden mekanistisk eller klinisk bekræftelse.
-
----
-
-## Hurtig oversigt
-
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Radiografisk/CT-kontrastbildedannelse (diagnostisk middel; ikke en sygdomsbehandlende indikation) |
-| Forudsagt ny indikation | Østeoartritis-modtagelighed |
-| TxGNN-forudsigelsesscore | 99.16% |
-| Bevisniveau | L5 |
-| Status på det danske marked | Ikke på markedet |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+Iodixanol er et jodholdigt, iso-osmolært røntgenkontrastmiddel, der markedsføres i Danmark som Visipaque. TxGNN-modellen forudsiger, at det kan have effekt ved **osteoarthritis susceptibility** (score 99,2 %), men der findes **0 kliniske forsøg** og **0 publikationer** for netop denne indikation. Forudsigelsen er derfor kun modelbaseret (evidensniveau L5).
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Detaljeret mekanismedata for Iodixanol er ikke tilgængelige i denne bevissamling (datakløft, høj alvorlighed). Baseret på de tilgængelige oplysninger er Iodixanol et diagnostisk joderet kontrastmiddel — dets bevisgrundlag består udelukkende af billedbehandlings- og tracerstudier, ikke farmakologiske behandlingsdata. Der er ingen kendt antiinflammatorisk, chondroprotektiv eller sygdomsmodificerende mekanisme, som ville forklare en terapeutisk effekt ved østeoartritis.
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Osteoarthritis susceptibility |
+| TxGNN-forudsigelsesscore | 99,16 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-Den top-klassificerede forudsigelse, "østeoartritis-modtagelighed," har slet ingen understøttende kliniske forsøg eller litteratur — den afspejler alene TxGNN-grafindlejringsscoren, uden noget mekanistisk eller klinisk tegn bag den. En nært beslægtet kandidat i samme skærmning, blot "østeoartritis," har ganske vist syv tilknyttede publikationer, men ifølge bevissamlingens eget vurdering beskriver disse brug af iodixanol som en molekylær tracer/kontrastmiddel til at studere soluttransport ved cartilago-ben-grænsefladen og nanopartikelbaseret CT-arthrografi — diagnostiske billedbehandlingsforskningsværktøjer, ikke behandlingsstudier. Samme mønster gælder for de øvrige kandidater, der er identificeret for dette lægemiddel (reumatoid artritis, hemoglobinopati, brachyolmi): tilgængelig litteratur omhandler enten desensibilisering af/sikkerhed ved kontrastmiddel, billedkvalitet eller en mulig sikkerhedsbetænkelighed (kontrastmidler påvirker rødecelledeformabilitet ved seglcellesigtose), intet af det understøtter terapeutisk ommærkning.
+---
 
-Samlet set er den mekanistiske argumentation for ommærkning af Iodixanol til østeoartritis (eller nogen anden forudsagt indikation) i øjeblikket usubstantieret.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Beviser fra kliniske forsøg
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanisme. Iodixanol er et jodholdigt, iso-osmolært kontrastmiddel til røntgenbilleddannelse. Det har ingen kendt farmakologisk virkning på gener eller signalveje, der er forbundet med modtagelighed for arthrose.
 
-I øjeblikket ingen registrerede kliniske forsøg relateret til denne indikation
+Der er ikke påvist nogen mekanistisk sammenhæng mellem den oprindelige anvendelse (diagnostisk billeddannelse) og den forudsagte indikation. Den høje score er sandsynligvis drevet af en graf-baseret association i vidensgrafen. Den afspejler ikke et terapeutisk signal.
 
-## Litteraturbevis
+De publikationer, der findes for den nært beslægtede indikation **osteoarthritis** (rang 3, score 99,1 %), handler om iodixanol som billed- eller diffusionsprobe i brusk og knogle. De undersøger ikke terapeutisk gavn. Kontrastforstærket CT og modeller for stoftransport viser, hvor stoffet fordeler sig, ikke om det har en sygdomsmodificerende effekt.
 
-I øjeblikket ingen tilgængelig litteratur
+Øvrige forudsagte indikationer (rheumatoid arthritis, hemoglobinopathy og brachyolmia) har score mellem 98,5 % og 99,0 %. Heller ikke her er der evidens for terapeutisk effekt.
 
-*(Bemærk: den nært beslægtet kandidat "østeoartritis" — adskilt fra den top-klassificerede "østeoartritis-modtagelighed" — har 7 tilknyttede publikationer, men disse er cartilago-billedbehandlings-/tracerstudier snarere end terapeutiske bevis; se argumentation ovenfor.)*
+---
+
+## Evidens fra kliniske forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
+
+---
+
+## Litteraturevidens
+
+Der er ingen publikationer for den primære forudsagte indikation (osteoarthritis susceptibility). Nedenfor vises litteratur for de nært beslægtede forudsigelser. Ingen af artiklerne dokumenterer terapeutisk effekt af iodixanol.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Præklinisk billedstudie | Annals of Biomedical Engineering | Dobbelt kontrastmiddel i fotontællende CT til vurdering af ledbrusk (osteoarthritis) |
+| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Præklinisk billedstudie | Annals of Biomedical Engineering | CT-baseret diffusionsbilleddannelse med nanopartikler og finite element-model af bruskfunktion (osteoarthritis) |
+| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Ex vivo/beregningsmæssigt transportstudie | Journal of Biomechanics | Iodixanol som CT-kontrast til at undersøge permeabilitet i grænsefladen mellem brusk og knogle (osteoarthritis) |
+| [28518064](https://pubmed.ncbi.nlm.nih.gov/28518064/) | 2017 | Eksperimentel/beregningsmæssig protokol | JoVE | Protokol til at undersøge transport af neutrale og ladede stoffer gennem ledbrusk (osteoarthritis) |
+| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Beregningsmæssigt finite element-studie | Journal of Biomechanics | Model for transport af neutrale stoffer over grænsefladen mellem knogle og brusk (osteoarthritis) |
+| [30145230](https://pubmed.ncbi.nlm.nih.gov/30145230/) | 2018 | Ex vivo dyrebiomekanisk studie | Osteoarthritis and Cartilage | Aldring ændrer ikke trykstivheden i kæbeledsbrusk hos heste |
+| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | In vitro-studie | Journal of Experimental Orthopaedics | Jodholdige kontrastmidler påvirker ikke funktionen af blodpladerig plasma tidligt in vitro (osteoarthritis, kompatibilitet, ikke effekt) |
+| [11754395](https://pubmed.ncbi.nlm.nih.gov/11754395/) | 2001 | In vitro-studie | American Journal of Hematology | Sammenligning af røntgenkontrastmidlers effekt på dehydrering og filtrerbarhed af røde blodlegemer ved hæmoglobinopati |
+| [28801805](https://pubmed.ncbi.nlm.nih.gov/28801805/) | 2017 | Retrospektivt kohortestudie | Emergency Radiology | Kvaliteten af kontrastforstærkning ved CT-angiografi af lungearterier hos patienter med seglcellesygdom |
+| [36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/) | 2022 | Case report (andet stof: iohexol) | Cureus | Desensibilisering over for kontrastmidlet iohexol hos en patient med amyloidose sekundært til rheumatoid arthritis, ikke relateret til behandling med iodixanol |
+
+---
 
 ## Markedsinformation for Danmark
 
-Ingen markedsføringstilladelser er i øjeblikket registreret for Iodixanol i Danmark; lægemidlets status i denne bevissamling er "Ikke på markedet" med 0 registrerede licenser.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28101593294 | Visipaque | Injektionsvæske, opløsning | GE Healthcare AS |
 
-## Sikkerhedshensyn
+---
 
-Se venligst det godkendte produktdatablad (SmPC) for sikkerhedsinformation.
+## Sikkerhedsovervejelser
 
-*(Bemærk: et blokerende datakløft eksisterer — danske etiketsadvarsler/kontraindikationer og lægemiddelinteraktionsdata (DDI) er endnu ikke hentet, hvilket forhindrer selv en foreløbig sikkerhedsscreening for denne kandidat.)*
+Der er ikke hentet sikkerhedsdata (advarsler, kontraindikationer) fra Lægemiddelstyrelsens produktresumé. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-## Konklusion og næste trin
+Et in vitro-studie af røde blodlegemer (PMID 11754395) omtaler, at jodholdige kontrastmidler traditionelt har været anset for kontraindicerede ved seglcellesygdom på grund af høj osmolalitet. Visipaque er iso-osmolært (290 mOsm/kg). Dette er en litteraturbaseret observation og ikke en erstatning for produktresuméet.
 
-**Beslutning: Afvent**
+---
 
-**Argumentation:**
-TxGNN-scoren for denne forudsigelse er høj, men den er helt uden understøttelse — nul kliniske forsøg, nul litteratur og ingen plausibel mekanistisk forbindelse, hvilket placerer den på det laveste bevisniveau (L5, kun modelforudsigelse). Et blokerende datakløft på labelets sikkerhedsinformation forhindrer også enhver sikkerhedspre-screening.
+## Konklusion og næste skridt
 
-**For at fortsætte er følgende nødvendig:**
-- Bekræftet mekanismedata for Iodixanol (i øjeblikket et datakløft)
-- Godkendt produktetiket/Produktdatablad med advarsler og kontraindikationer (blokerende datakløft)
-- Enhver preklinisk eller translationel undersøgelse, der tester en ægte terapeutisk (ikke diagnostisk/tracer) effekt ved østeoartritis
-- Genudvurdering mod andre TxGNN-kandidater for dette lægemiddel, hvoraf ingen i øjeblikket viser stærkere bevis heller
+**Beslutning: Hold**
 
+**Begrundelse:**
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg og uden terapeutisk evidens. Den tilgængelige litteratur beskriver iodixanol som diagnostisk billedværktøj eller sikkerhedsemne, ikke som behandling. Der er heller ikke påvist nogen biologisk sammenhæng mellem stoffet og arthrose.
+
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation). Det er en blokerende datamangel for sikkerhedsscreening.
+- Data om virkningsmekanisme, fx via DrugBank API.
+- Præklinisk eller mekanistisk belæg for en terapeutisk effekt ved arthrose. Fordelingsstudier med iodixanol som probe er ikke tilstrækkelige.
+- Vurdering af administrationsvej og lægemiddelform (ikke afklaret).
+
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

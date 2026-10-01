@@ -2,7 +2,7 @@
 layout: default
 title: Sorafenib
 parent: Høj evidens (L1-L2)
-nav_order: 405
+nav_order: 407
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,87 +29,109 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sorafenib: Fra nyrcellekarcinon til liposarkom
+# Sorafenib: Fra kræftbehandling til liposarkom
 
-*Bemærk: `original_indications` og `original_moa` er tomme/datakløft i denne bevissamling (DG002). "Renal Cell Carcinoma" bruges her kun, fordi det refereres som en allerede godkendt sorafenib-indikation i bevisamlingens egen omformåling (rank 9–10 entries) — dette er ikke uafhængigt verificeret mod et formelt label/SmPC og bør bekræftes før brug.*
+## Resumé
 
-## Resumé på en sætning
+Sorafenib er en oral multikinasehæmmer, som er markedsført i Danmark (Sorafenib "Teva", filmovertrukne tabletter). Datagrundlaget indeholder ingen godkendt indikationstekst for præparatet.
+TxGNN-modellen forudsiger, at sorafenib kan have effekt på **liposarkom**, med en score på **99,82 %**.
+Evidensen er begrænset: **2 kliniske fase 2-forsøg** (kun ét tester sorafenib) og **8 publikationer**, hvoraf de fleste er prækliniske studier eller oversigtsartikler.
 
-Sorafenib er en multi-kinase-hæmmer med en godkendt onkologisk indikation ved nyrcellekarcinon (jf. intern reference i denne bevissamling). TxGNN-modellens højest rangerede forudsigelse er **liposarkom**, understøttet af **1 direkte relevant afsluttet fase 2-forsøg** og **8 publikationer**, selv om beviserne forbliver foreløbige og stort set præ-kliniske/indirekte. Ni yderligere kandidatindikationer for sorafenib blev også vurderet i denne samling på lavere evidensniveauer.
+---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Original indikation | Nyrcellekarcinon (udledt fra intern begrundelse alene — ikke uafhængigt bekræftet; se bemærkning ovenfor) |
+| Oprindelig indikation | Ikke angivet i den danske registreringstekst |
 | Forudsagt ny indikation | Liposarkom |
-| TxGNN-forudsigelsesscore | 99.82% |
+| TxGNN-forudsigelsesscore | 99,82 % |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Gå videre med forholdsregler |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Formelle mekanisme-for-virkning-data for sorafenib er markeret som et datakløft i denne samling (DG002). Den genbrugsbegrundelse, der er knyttet til forudsigelsen, beskriver dog sorafenib som en multi-rettet kinase-hæmmer, der virker på VEGFR-1/2/3, PDGFR-β og RAF/MEK/ERK-signalvejen — dvs. en anti-angiogenetisk og anti-proliferativ mekanisme snarere end en formelt dokumenteret læbelmårkering for virkningsmåde.
+## Hvorfor er forudsigelsen rimelig?
 
-Liposarkom og andre bløddelsarkomater afhænger af angiogen og RAS-RAF-MAPK-signalering. Præ-klinisk arbejde inkluderet i denne samling viser, at sorafenib undertrykker MAPK-signalering i dedifferentieret liposarkom- og maligne perifer nerve-sheath tumor-cellelinier (PMID 18413802), og en relateret xenograft-undersøgelse identificerer PTEN-nedjustering som en malignt signatur i dedifferentieret liposarkom forbundet med PI3K-signalvejes-følsomhed (PMID 23416162) — en signalvej, der er mekanistisk tilstødende, men ikke identisk med sorafenibs primære mål.
+Detaljerede data om sorafenibs virkningsmekanisme er ikke tilgængelige i datagrundlaget. Ud fra kendt viden er sorafenib en multikinasehæmmer, der hæmmer RAF/MAPK-signalvejen samt VEGFR, PDGFR og KIT. Den virker dermed både på tumorcellernes vækstsignaler og på tumorens blodforsyning (angiogenese).
 
-De stærkeste direkte kliniske beviser er et afsluttet fase 2-forsøg med sorafenib selv (udviklingskode BAY-9006/NSC #724772, NCT00217620) ved avanceret bløddelssarkom, og et separat SWOG-ledet fase 2-enkeltarms-forsøg (PMID 21751200) i samme population. Intet forsøg var begrænset til eller designet specifikt for liposarkom, så det mekanistiske link til denne specifikke histologiske subtype forbliver indirekte snarere end subtypspecifik.
+Liposarkom er en bløddelssarkomtype med dårlig prognose og høj recidivrate, hvor behandlingen ofte er begrænset til kirurgi og strålebehandling. Et prækliniskt studie af dedifferentierede liposarkom-xenografter (PMID 23416162) peger på nedregulering af PTEN og aktivering af PI3K/AKT-signalvejen. Et andet prækliniskt studie (PMID 18413802) undersøgte sorafenib på cellelinjer fra bl.a. dedifferentieret liposarkom.
 
-## Klinisk forsøgsbeviser
+Mekanismen er plausibel, men indirekte. De kliniske fase 2-data stammer fra blandede bløddelssarkompopulationer og ikke fra kohorter specifikt med liposarkom.
 
-| Forsøgsnummer | Fase | Status | Rekruttering | Vigtige fund |
+---
+
+## Evidens fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Afsluttet | 51 | Direkte beviser (Relevansgradé A): testede sorafenib selv (udviklingskode BAY-9006) ved avanceret bløddelssarkom, herunder liposarkom-subtyper. |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Afsluttet | 131 | Indirekte beviser (Relevansgradé C): SARC024 testede regorafenib, ikke sorafenib — samme Bayer multi-kinase-hæmmerklasse, mekanisme-analogi kun, ikke direkte sorafenib-data. |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Afsluttet | 51 | Sorafenib (BAY 43-9006) ved fremskredne bløddelssarkomer. Populationen omfatter liposarkom, men forsøget er ikke liposarkomspecifikt. Direkte relevant for lægemidlet. |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Afsluttet | 131 | SARC024: tester **regorafenib**, ikke sorafenib, ved udvalgte sarkomsubtyper. Giver kun klasseniveau-støtte. |
 
-## Litteraturbeviser
+Der er ikke fundet EudraCT-numre eller forsøg i ICTRP for denne indikation.
 
-| PMID | År | Type | Journal | Vigtige fund |
+---
+
+## Evidens fra litteraturen
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Fase 2-forsøg (SWOG S0505) | Cancer | Sorafenib evalueret ved avanceret bløddelssarkom, en population med begrænsede terapeutiske muligheder. |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Fase 1-forsøg | Annals of Surgical Oncology | Neoadjuvant konformalt strålebehandling plus sorafenib ved lokalt avanceret ekstremitetsbløddelssarkom. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Oversigt | Frontiers in Oncology | PDOX-musemodeller af sarkom identificerer effektive kombinationsterapier med CDK-hæmmeren palbociclib. |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversigt | Magyar Onkologia | Medicinsk behandling af bløddelsarkomater efter histologisk subtype. |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversigt | Annals of Oncology | Histologi- og ikke-histologi-drevet terapi for bløddelsarkomater, herunder liposarkom. |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Præ-klinisk (in vitro/in vivo) | Molecular Cancer Therapeutics | Sorafenib hæmmer MAPK-signalering i MPNST og dedifferentieret liposarkom-cellelinier. |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Præ-klinisk (xenograft) | American Journal of Pathology | Dedifferentieret liposarkom-xenograft-modeller viser PTEN-nedjustering; respons på PI3K-signalvejes-inhibering (ikke direkte sorafenib). |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Casusrapport | Anti-Cancer Drugs | Respons på trabectedin (et andet lægemiddel) ved synovial sarkom med lungemetastaser — begrænset direkte relevans for sorafenib. |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Fase 2-forsøg | Cancer | SWOG-ledet intergruppeforsøg (S0505) med sorafenib ved fremskredne bløddelssarkomer. Resuméet i datagrundlaget indeholder kun baggrund, ikke resultater. |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Fase 1-forsøg | Ann Surg Oncol | Neoadjuverende konformal strålebehandling kombineret med sorafenib ved lokalavanceret bløddelssarkom i ekstremiteterne. |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversigtsartikel | Ann Oncol | Histologistyret behandling af bløddelssarkomer. Trabectedin nævnes som aktivt ved liposarkom. |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversigtsartikel | Magy Onkol | Medicinsk behandling af bløddelssarkomer ud fra histologisk subtype. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Oversigtsartikel | Front Oncol | PDOX-musemodeller til sarkom og kombinationsbehandling med palbociclib. Ikke sorafenib-specifik. |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Præklinisk | Am J Pathol | Nye xenograftmodeller af dedifferentieret liposarkom. PTEN-nedregulering og respons på PI3K-hæmning. |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Præklinisk | Mol Cancer Ther | Sorafenib hæmmer vækst og MAPK-signalering i MPNST-celler og dedifferentierede liposarkomcellelinjer. |
 
-## Markedsinformation for Danmark
+Én publikation (PMID 25075796, case report om trabectedin ved synovialt sarkom) er udeladt, da den ikke omhandler sorafenib eller liposarkom.
 
-Der er ingen markedsføringstilladelsesregistre til stede i denne bevissamling — markedsstatus er registreret som "Ikke markedsført" med i alt 0 licenser.
+---
 
-## Cytotoxicitet
+## Markedsinformation i Danmark
 
-Sorafenib er et antineoplastisk lægemiddel, og dets forudsagte nye indikationer er udelukkende onkologidiagnoser, derfor gælder dette afsnit.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106038617 | Sorafenib "Teva" (Teva B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i datagrundlaget |
 
-| Element | Indhold |
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
 |------|------|
-| Cytotoxicitetsklassifikation | Målrettet terapi (multi-kinase-hæmmer: VEGFR-1/2/3, PDGFR-β, RAF/MEK/ERK — jf. denne samlings begrundelse) |
-| Myelosuppression-risiko | Se venligst Produktinformation (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenitetsklassifikation | Se venligst Produktinformation (SmPC) for advarsler og forsigtighedsregler |
-| Overvågningspunkter | Se venligst Produktinformation (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se venligst Produktinformation (SmPC) for advarsler og forsigtighedsregler |
+| Cytotoksicitetsklassifikation | Målrettet behandling (oral multikinasehæmmer) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af antineoplastiske lægemidler og produktresuméet (SmPC) |
 
-## Sikkerhedshensyn
+---
 
-Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsinformation.
+## Sikkerhedsovervejelser
 
-## Konklusion og næste trin
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Beslutning: Gå videre med forholdsregler**
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Ét direkte relevant, afsluttet fase 2-forsøg med sorafenib selv ved avanceret bløddelssarkom (herunder liposarkom) plus et andet uafhængigt fase 2-enkeltarms-forsøg giver L2-niveau kliniske beviser, men intet forsøg var specifikt designet til liposarkom-histologi, og det meste af den understøttende litteratur er præ-klinisk eller af en anden tumorsubtype.
+Den eneste sorafenib-specifikke kliniske evidens er ét afsluttet fase 2-forsøg (n=51) i blandede bløddelssarkomer, ikke i liposarkom alene. Forsøget om regorafenib giver kun klasseniveau-støtte. Den mekanistiske sammenhæng er plausibel men indirekte, og de øvrige data er hovedsageligt præklinisk eller oversigtsartikler. Forudsigelsen bør derfor behandles som et forskningsspørgsmål.
 
-**For at gå videre er følgende nødvendigt:**
-- Sikkerhedsdata fra SmPC/produktinformation (advarsler, kontraindikationer) — i øjeblikket et blokerende datakløft (DG001)
-- Bekræftet virkningsmåde og oprindelige godkendt(e) indikation(er) fra DrugBank/regulatorisk kilde — i øjeblikket et alvorligt datakløft (DG002)
-- Liposarkom-subtypespecifik forsøgsdata eller post-hoc subgruppeanalyse fra de eksisterende STS-forsøg
-- Lægemiddelinteraktionsdata (DDI) — nuværende forespørgsel gav ingen resultater
+**For at komme videre kræves:**
+- Resultater fra NCT00217620 og S0505 (PMID 21751200), opdelt på liposarkom-subtype.
+- Data om sorafenibs virkningsmekanisme fra DrugBank.
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé fra Lægemiddelstyrelsen.
+- Verifikation af præparatets oprindelige godkendte indikation(er), da indikationsfeltet i datagrundlaget er tomt.
 
+**Bemærkning om øvrige forudsigelser:** For *uklassificeret nyrecellekarcinom* findes et afsluttet fase 3 RCT (NCT01613846, n=544, sorafenib og pazopanib i sekventiel behandling). Dette kan være en indikation, der allerede er omfattet af sorafenibs godkendelse snarere end egentlig repurposing, og bør vurderes særskilt.
+
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i patientbehandling.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

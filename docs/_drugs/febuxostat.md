@@ -2,7 +2,7 @@
 layout: default
 title: Febuxostat
 parent: Moderat evidens (L3-L4)
-nav_order: 187
+nav_order: 188
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,88 +29,91 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Febuxostat: Fra hyperurikæmi til renale hypourikæmi
+# Febuxostat: Fra hyperurikæmi til renal hypourikæmi
 
-## Enlinjeopsummering
+## Resumé i få sætninger
 
-Febuxostat er en selektiv xanthinoxidoreduktase (XOR)-inhibitor, der bruges udbredt til at reducere serumuroinsyre hos voksne med podagra og kronisk hyperurikæmi. TxGNN-modellen forudsiger, at det også kan være effektivt til **renale hypourikæmi (Hypouricemia, Renal)**, hvor **1 klinisk forsøg** og **2 publikationer** i øjeblikket giver understøttende beviser for denne retning.
+Febuxostat er en xanthinoxidasehæmmer, der markedsføres i Danmark som Adenuric. Midlet er kendt som urinsyresænkende behandling, men de danske data angiver ikke selve indikationsteksten. TxGNN-modellen forudsiger, at det kan være relevant ved **renal hypourikæmi**. Evidensen er meget begrænset: **1 klinisk forsøg** med uklar relevans og **2 publikationer** (en oversigtsartikel og en hypotese-/case-baseret artikel).
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Hyperurikæmi / Podagra (baseret på etableret farmakologi; ingen dansk markedsføringstilladelse på arkiv) |
-| Forudsagt ny indikation | Hypourikæmi, renal |
-| TxGNN-forudsigelsesscore | 99.99% |
-| Bevisniveau | L4 |
-| Markeds status i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de danske registerdata (febuxostat er kendt som urinsyresænkende middel ved hyperurikæmi) |
+| Foreslået ny indikation | Renal hypourikæmi (hypouricemia, renal) |
+| TxGNN-prædiktionsscore | 99,99 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne prædiktion rimelig?
 
-I øjeblikket er detaljeret mekanismdata ikke tilgængeligt i denne evidenspakke. Baseret på etableret farmakologisk viden er febuxostat en ikke-purin-selektiv inhibitor af xanthinoxidoreduktase (XOR) — det enzym, der katalyserer omdannelsen af hypoxanthin → xanthin → uroinsyre. Ved at blokere dette sidste trin i purinkatabolismen reducerer febuxostat betydeligt serumuratniveauerne.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Febuxostat tilhører gruppen af ikke-purin selektive xanthinoxidoreduktase-hæmmere (XOR-hæmmere), og lægemidlet sænker dannelsen af urinsyre.
 
-Renal hypourikæmi (RHUC) er en sjælden arveligt betinget lidelse, hvor defekter i renale tubulære urattransportører (hyppigst URAT1, kodet af *SLC22A12*) fører til unormalt lave serumuratniveauer. Ved første øjekast virker omplaceringen af et uratsænkende stof til en tilstand karakteriseret ved *lav* urat paradoksal. Imidlertid ligger den kliniske begrundelse i en specifik og farlig komplikation: **øvelsesudløst akut nyreskade (EIAKI)**. Under intens anaerobisk motion genererer den hurtige katabolisme af puriner et pludseligt stød af xanthin og uroinsyre. Hos patienter med RHUC kan nyrerne ikke genbørge urate normalt, hvilket resulterer i ekstremt høje urin-xanthin/uratkoncentrationer, oxidativt stress og akut tubulær skade.
+Ved renal hypourikæmi, fx ved tab af funktion i urattransportørerne URAT1 eller GLUT9, er der risiko for træningsudløst akut nyreskade. Man antager, at en høj urinsyrebelastning i urinen og oxidativt stress spiller en rolle. XOR-hæmmere er foreslået som en mulig måde at mindske udskillelsen af urinsyre og dannelsen af XOR-afledte reaktive iltforbindelser. Det giver en plausibel, men indirekte begrundelse.
 
-Den foreslåede omplaceringshypotese — understøttet af en offentliggjort kasuistik (PMID 36754409) — er derfor at anvende febuxostat **profylaktisk** til at dæmpe det øvelsesudløste stød i xanthin/uratproduktion, hvorved EIAKI forhindres, snarere end at behandle selve det lave baseline-serumuratni... og. Dette mekanistiske link er farmakologisk sammenhængende og forklarer den høje TxGNN-forudsigelsesscore.
-
-> **Yderligere forudsigelser af betydning:** TxGNN rangerede også **HPRT-partialdysfunktion** (99.98%) og **Lesch-Nyhan-syndrom** (99.68%) som rimelige indikationer. Begge tilstande er karakteriseret ved XOR-vejdysregulering, der fører til alvorlig hyperurikæmi, hvor febuxostats uratsænkende virkning ville være direkte anvendelig. Disse indikationer er farmakologisk mindre overraskende og diskuteres yderligere i konklusionen.
+Der er dog en vigtig modsætning: febuxostat sænker i forvejen serum-urat, og patienter med hypourikæmi har allerede for lavt niveau. Sikkerheden ved denne tilgang er derfor uafklaret. TxGNN-scoren er en beregnet prædiktion og udgør ikke klinisk støtte.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
-|---|---|---|---|---|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukendt | 100 | Prospektivt kontrolleret studie, der undersøger virkningen af uratstyring på nyresten recidiv og nyrefunktion hos patienter med hyperurikæmi-relaterede calculi. Indirekte relevant — behandler uratstyring ved nyresygdom, men inkluderer ikke specifikt RHUC-patienter og evaluerer ikke EIAKI-forebyggelse. |
-
----
-
-## Litteraturbevis
-
-| PMID | År | Type | Journal | Vigtige resultater |
-|---|---|---|---|---|
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Kasuistik | Internal Medicine (Tokyo) | 16-årig fodboldspiller med familiær RHUC (compound heterozygot *URAT1*-mutation) og tilbagevendende EIAKI modstandsdygtig over for hydrering. Febuxostat blev afprøvet som profylakse til at reducere øvelses-fremkaldt xanthin/uratflux; understøtter XOR-hæmning som en mekanistisk rimelig forebyggende strategi for EIAKI ved RHUC. |
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Oversigt | Clinical Rheumatology | Narrativ oversigt over hypourikæmi for praktiserende reumatologer, der dækker definition (serumurate < 2 mg/dL), etiologi (renal vs. ikke-renal subtyper), komplikationer, herunder EIAKI, og ledelsesprincipper. Giver klinisk kontekst for RHUC-populationen. |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukendt | 100 | Undersøger effekten af urinsyrekontrol på recidiv af nyresten og nyrefunktion hos patienter med stenlidelse og hyperurikæmi (Shanghai Xu-hui Central Hospital, 2020-2022). Relevansen for renal hypourikæmi kan ikke bekræftes (vurderet som grad C), og forsøget tæller ikke som direkte fase 2- eller fase 3-evidens. |
 
 ---
 
-## Markeds information Danmark
+## Litteraturevidens
 
-Febuxostat har ingen aktive markedsføringstilladelser registreret hos Lægemiddelstyrelsen og er registreret som **ikke markedsført** i Danmark.
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Review/hypotese | Internal Medicine | Beskriver en 16-årig japansk fodboldspiller med familiær renal hypourikæmi (URAT1-mutationer) og gentagne træningsudløste akutte nyreskader. Hydrering forebyggede ikke tilfældene, og man overvejede febuxostat som profylakse. Det fremgår ikke af de foreliggende data, hvad udfaldet var. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Narrativ oversigt over hypourikæmi (serum-urat < 2 mg/dL), dens årsager og relevans for reumatologer. Indeholder ikke febuxostat-specifikke effektdata. |
 
-> **Forskrivernotat:** Febuxostat er godkendt på tværs af Den Europæiske Union som **Adenuric®** (EMA centraliseret godkendelse EU/1/08/447, Menarini) til behandling af hyperurikæmi hos voksne med podagra, herunder dem med nyreaffektioner. Danmarks forskrivere bør bekræfte den nuværende nationale tilgængelighed, refusionsstatus og eventuelle risikostyringsforanstaltninger via [Lægemiddelstyrelsen](https://www.laegemiddelstyrelsen.dk) og [medicinpriser.dk](https://medicinpriser.dk) før klinisk brug.
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104019206 | Adenuric (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Ingen sikkerhedsdata (vigtige advarsler, kontraindikationer eller lægemiddelinteraktioner) er tilgængeligt i denne evidenspakke.
+Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Produktresuméets advarsler og kontraindikationer er ikke indlæst.
 
-Se venligst det godkendt produktresumé (SmPC) for Adenuric® (tilgængeligt via [EMA-produktsiden](https://www.ema.europa.eu/en/medicines/human/EPAR/adenuric)) for fuldstændige sikkerhedsoplysninger, herunder det kardiovaskulære risikosignal, der blev identificeret i post-markedsføringsundersøgelser.
+Ud fra den foreslåede indikation er følgende forhold særligt vigtige:
+- **Yderligere sænkning af serum-urat:** febuxostat sænker urinsyre hos patienter, der allerede har for lave værdier, og sikkerheden er ikke afklaret.
+- **Generelt for XOR-hæmning:** hypoxanthin og xanthin stiger, så man skal være opmærksom på xanthin-nefropati og stendannelse.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensgrundlaget for febuxostat ved renal hypourikæmi består i øjeblikket af en enkelt kasuistik og et fase 4-forsøg med ukendt afslutningsstatus, der ikke direkte behandler RHUC/EIAKI-indikationen. Lægemidlet har ingen dansk markedsføringstilladelse, og sikkerhedsdata er fraværende fra denne evidenspakke. Den mekanistiske begrundelse er rimelig, men kræver prospektiv validering før klinisk vedtagelse kan anbefales.
+Evidensen er på modelprædiktionsniveau (L4). Det eneste forsøg er af uklar relevans, og litteraturen består af en oversigtsartikel og en hypotesebaseret case. Der er en uafklaret sikkerhedsmæssig modsætning, fordi et urinsyresænkende middel foreslås til patienter, der i forvejen har for lav urinsyre.
 
-**For at fortsætte, er følgende nødvendig:**
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som blokerer sikkerhedsscreeningen.
+- Detaljerede data om virkningsmekanismen (fx fra DrugBank).
+- Kontrol af de fulde forsøgsdata for NCT04398251 samt resultatet i den beskrevne case (PMID 36754409).
+- En vurdering af, om serum-urat og urinsyreudskillelse kan monitoreres sikkert, før man overvejer et kontrolleret studie.
 
-- **Sikkerhedsdatahentning:** Indhent Adenuric®-SmPC (EMA) for virkningsmekanisme, kontraindikationer, vigtige advarsler (særligt kardiovaskulært risikosignal) og lægemiddelinteraktioner
-- **Danmarks tilgængelighedscheck:** Bekræft import-/navnepatient-adgang via Lægemiddelstyrelsen, givet fraværet af en lokal markedsføringstilladelse
-- **Dedikeret RHUC/EIAKI-studie:** Gennemfør eller identificer et prospektivt case-serier eller kontrolleret studie i RHUC-patienter, der anvender febuxostat som EIAKI-profylakse — den nuværende enkelt kasuistik er utilstrækkelig til klinisk vejledning
-- **Pædiatrisk data:** RHUC med EIAKI præsenterer sig ofte hos unge atleter; pædiatrisk sikkerhed og doseringsvejledning for febuxostat bør gennemgås separat
-- **Vurder HPRT/Lesch-Nyhan-indikationer uafhængigt:** Givet det mere omfattende evidensgrundlag for febuxostat ved XOR-overaktive tilstande (HPRT-partialdysfunktion, Lesch-Nyhan-syndrom), kan separate evidenspakker rettet mod disse indikationer give mere handlingsorienteret kortsigtet anbefaling
+Datapakken indeholder også prædiktioner for partiel HPRT-mangel og Lesch-Nyhan syndrom. De er ikke vurderet i denne rapport.
 
+*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

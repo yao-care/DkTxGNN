@@ -2,7 +2,7 @@
 layout: default
 title: Trandolapril
 parent: Kun modelforudsigelse (L5)
-nav_order: 445
+nav_order: 447
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trandolapril: Fra hypertension til ondartet renovaskulær hypertension
+# Trandolapril: Fra ACE-hæmmer til malign renovaskulær hypertension
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-Trandolapril er en ACE-hæmmer, hvis etablerede farmakologiske klasseffekt er blodtrykssænkning ved hypertension. TxGNN-modellen forudsiger en mulig effekt ved **ondartet renovaskulær hypertension**, men denne specifikke retning understøttes på nuværende tidspunkt af **0 kliniske forsøg** og **0 publikationer** – signalet er alene en modelforudsigelse.
+Trandolapril er en ACE-hæmmer og markedsført i Danmark som Gopten (hårde kapsler). Datagrundlaget angiver ikke den oprindelige godkendte indikation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension** (score 99,92 %).
+Forudsigelsen er dog **udelukkende modelbaseret**: Der er **0 kliniske forsøg** og **0 relevante publikationer** til at understøtte den.
 
-## Hurtig oversigt
+---
+
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|--------|
-| Oprindelig indikation | Hypertension (ACE-hæmmer-klasse; specifik godkendt indikationstekst ikke tilgængelig i denne pakke) |
-| Forudsagt ny indikation | Ondartet renovaskulær hypertension |
-| TxGNN-forudsigelsesscore | 99.92% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Forudsagt ny indikation | Malign renovaskulær hypertension |
+| TxGNN-score | 99,92 % |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-På nuværende tidspunkt er detaljerede virkningsmekanisme-data for trandolapril ikke tilgængelige i denne pakke. Baseret på de tilgængelige oplysninger tilhører trandolapril ACE-hæmmer-klassen (ACEi), som hæmmer omdannelsen af angiotensin I til angiotensin II og sænker systemisk vaskulær modstand og intraglomerulært tryk. Dette er den delte virkningsmekanisme, hvorved ACEi-klasse-lægemidler behandler hypertension, herunder nogle former for renovaskulær hypertension.
+## Hvorfor er forudsigelsen rimelig?
 
-Den forudsagte indikation kombinerer dog "ondartet" (accelereret, endorganskadende) hypertension med "renovaskulær" sygdom, hvilket – især når bilateral nyrearteristenose er til stede – er en relativ kontraindikation eller højrisikoindstilling for ACE-hemmere, da disse midler kan udløse akut nyreskade i den sammenhæng. Med andre ord understøtter den underliggende mekanisme blodtrykssænkning generelt, men den understøtter ikke i sig selv sikker brug i denne specifikke alvorlige undertype.
+Der foreligger ingen detaljerede data om virkningsmekanismen i Evidence Pack. Trandolapril tilhører klassen af ACE-hæmmere, som blokerer renin-angiotensin-systemet. Det er biologisk plausibelt ved renovaskulær hypertension, hvor aktivering af dette system driver blodtryksforhøjelsen. Denne sammenhæng bygger på klassekendskab og ikke på de leverede data.
 
-Denne forudsigelse bør derfor læses som en farmakologisk klasseniveauekstrapolation af TxGNN-modellen snarere end som bevis for sikkerhed eller effektivitet i den ondartet renovaskulære undergruppe specifikt.
+Der er desuden et sikkerhedsaspekt: ACE-hæmmere kan give akut nedsat nyrefunktion hos patienter med bilateral nyrearteriestenose. Det er en vigtig begrænsning netop i denne patientgruppe.
 
-## Klinisk forsøgsbevis
+De øvrige forudsigelser er svagere. For malign hypertensiv nyresygdom er angiotensin II-drevet kar- og nyreskade et plausibelt mål, men der er ingen lægemiddelspecifik evidens. For pulmonal hypertension (uklar multifaktoriel mekanisme eller sekundær til lungesygdom/hypoksi) og Braddock syndrom kan der ikke identificeres en mekanistisk begrundelse. De høje scorer bør for Braddock syndrom betragtes som sandsynlige artefakter i vidensgrafen, indtil det modsatte er vist.
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+### Øvrige forudsagte indikationer (alle L5, Hold)
 
-## Litteraturbevis
+| Forudsagt indikation | TxGNN-score |
+|------|------|
+| Malign hypertensiv nyresygdom | 99,92 % |
+| Pulmonal hypertension med uklar multifaktoriel mekanisme | 99,92 % |
+| Pulmonal hypertension som følge af lungesygdom og/eller hypoksi | 99,92 % |
+| Braddock syndrom | 99,88 % |
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+---
 
-## Markedsoplysninger for Danmark
+## Evidens fra kliniske forsøg
 
-Trandolapril har på nuværende tidspunkt ingen registreret markedsføringstilladelse i Danmark (0 tilladelser; markedsstatus: Ikke markedsført).
+Aktuelt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Aktuelt ingen relateret litteratur tilgængelig for den primære forudsigelse.
+
+Bemærk: For pulmonal hypertension ved lungesygdom/hypoksi blev der hentet 20 artikler, men de handler generelt om hypoksi (hjernealdring, kræftmetabolisme, keloidfibroblaster, multipel sklerose, højde). Ingen af dem nævner trandolapril eller ACE-hæmmere, og de udgør derfor ikke lægemiddelspecifik evidens og er ikke medtaget som støtte.
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver/producent |
+|---------|------|------|-----------|
+| 28107397625 | Gopten | Kapsler, hårde | Orifarm A/S |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Interaktioner:** Ingen registrerede interaktioner fundet i de leverede data.
+- **Klasserelateret forbehold:** ACE-hæmmere kan give akut forringelse af nyrefunktionen ved bilateral nyrearteriestenose, hvilket er særligt relevant ved renovaskulær hypertension.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+
+---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes alene af en generel ACEi-klasseniveaumekanistisk begrundelse (L5, alene modelforudsigelse), uden identifikation af kliniske forsøg eller litteratur for denne specifikke indikation. Desuden har den ondartet renovaskulære undertype en plausibel sikkerhedsbekymring (risiko for akut nyreskade), som taler imod at gå videre uden yderligere data.
+Forudsigelsen hviler alene på en modelscore uden kliniske forsøg eller lægemiddelspecifik litteratur (L5). Sikkerhedsdata fra produktresuméet mangler, og der er et reelt sikkerhedsproblem ved renovaskulær sygdom, så en videre vurdering er ikke forsvarlig endnu.
 
-**For at gå videre er følgende nødvendigt:**
-- Danske/EU SmPC-advarsler, forholdsregler og kontraindikationer for trandolapril (aktuelt en kritisk datamanglende)
-- Bekræftede virkningsmekanisme-data fra DrugBank eller tilsvarende kilde
-- Målrettet litteratur- og klinisk søgning specifik for renovaskulære eller ondartet hypertension-undergrupper, med særlig fokus på risiko for nyrearteristenose
-- Nyrefunktions- og blodtrykskontrolplan, hvis der gennemføres en fremtidig evaluering
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresumé (SmPC) fra Lægemiddelstyrelsen for advarsler og kontraindikationer (blokerende datamangel)
+- Oplysninger om virkningsmekanisme og oprindelig godkendt indikation, fx via DrugBank
+- Målrettet litteratursøgning på trandolapril/ACE-hæmmere ved renovaskulær hypertension og malign hypertensiv nyresygdom
+- Vurdering af, om ACE-hæmmere allerede indgår i retningslinjerne for disse tilstande, og om der er relevante forsøg
 
+*Resultaterne er kun til forskningsformål og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

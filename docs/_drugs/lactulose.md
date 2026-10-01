@@ -2,7 +2,7 @@
 layout: default
 title: Lactulose
 parent: Kun modelforudsigelse (L5)
-nav_order: 253
+nav_order: 254
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,70 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lactulose: Fra etableret brug som laxativum til obstruktiv ikterus
+# Lactulose: Fra ikke angiven indikation til akut uratnefropati
 
-## Resumé på én sætning
+## Resumé i en sætning
 
-Lactulose er et syntetisk, ikke-absorberbar disaccharid med længe etableret brug som osmotisk laxativum og ved hepatisk encefalopati. Blandt fem kandidat-indikationer genereret af TxGNN-modellen, **obstruktiv ikterus** er den eneste med troværdig understøttende evidens — **1 klinisk forsøg** og **20 publikationer**, herunder én multicenter RCT — mens modellens toprangerede kandidater (akut urat-nefropati, nyresten) blev vurderet af den underliggende evidens-pipeline som manglende enhver plausibel mekanistisk forbindelse og er sandsynligvis statistisk støj.
+Lactulose er en ikke-absorberbar sukkerforbindelse, der markedsføres i Danmark som oral opløsning (Orifarm). Den danske registrering angiver ikke en godkendt indikation i de leverede data. TxGNN-modellen forudsiger, at lactulose kan have effekt ved **akut uratnefropati**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
 
-> **Bemærkning om kandidat-valg**: Evidenspakken returnerede fem forskellige sygdomskandidater (med duplikerede rækker). To af dem — *akut urat-nefropati* og *nyresten* — har nul kliniske forsøg, nul litteratur, og er eksplicit markeret i kildedata som manglende "ingen identificerbar mekanistisk forbindelse" / "sandsynligvis forudsigelsestøj." Denne rapport fokuserer derfor på **obstruktiv ikterus**, kandidaten med den stærkeste og mest tolkelig evidensbasis. *Galdevejssygdom* og *bilieledssygdom* er relateret men svagere, indirekte udvidelser af samme signal og er kort opsummeret for kontekst.
-
----
-
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Original indikation | Ikke dokumenteret i denne evidenspakke (ingen `taiwan_regulatory.licenses` poster). Lactulose er generisk etableret til kronisk obstipation og hepatisk encefalopati. |
-| Forudsagt ny indikation | Obstruktiv ikterus |
-| TxGNN-forudsigelsesscore | 99.53% |
-| Evidensniveau | L3 (observationel / kohorte-evidens, inkl. én multicenter RCT med blandet replikering) |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering |
+| Forudsagt ny indikation | Akut uratnefropati |
+| TxGNN-forudsigelsesscore | 99,89 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger på nuværende tidspunkt ingen detaljerede data om lactuloses virkningsmekanisme i evidenspakken. Lactulose er kendt som et osmotisk virkende, ikke-absorberbart disaccharid, som nedbrydes af tarmfloraen i tyktarmen.
 
-Detaljerede virkningsmekanisme-data er ikke tilgængelige i denne evidenspakke (`original_moa: [Data Gap]`). Baseret på etableret farmakologisk viden er lactulose et ikke-absorberbart disaccharid (osmotisk laxativum-klasse), der når kolon stort set uabsorberet, hvor det fermenteres af kolonale bakterier til kortkædede fedtsyrer. Dette forsyrler kolonium-lumen og undertrykker urease-producerende flora, hvilket reducerer ammoniakproduktion i kolonium og absorption af ammoniak og bakteriel endotoxin — den samme mekanisme, der ligger til grund for dens etablerede rolle ved hepatisk encefalopati.
+De leverede data viser **ingen plausibel mekanistisk forbindelse** mellem lactulose og akut uratnefropati. Sygdommen skyldes aflejring af urinsyrekrystaller i nyretubuli. Lactulose er ikke kendt for at påvirke urinsyrehåndtering eller uratudfældning i nyrerne.
 
-Ved obstruktiv ikterus fører mangel på galtes salte i tarmen til nedsat funktion af tarmslimhindelbarrieren, hvilket prædisponerer patienter til bakteriel translokation og endotoksæmi. Denne endotoxin-belastning er impliceret i postoperative komplikationer, herunder nyrefunktionsnedsættelse efter galekanalkirurgi. Det foreslåede link — lactulose reducerer tarmstammende endotoxin-absorption for at mindske denne kaskade — er mekanistisk sammenhængende og er ikke blot en statistisk artefakt af indlejringsrummet, i modsætning til akut urat-nefropati og nyresten-kandidaterne, som ikke har nogen plausibel farmakologisk forbindelse til lactulose's virkemåde.
-
-Imidlertid testede den stærkeste disponible evidens (en 1991 multicenter RCT, se nedenfor) lactulose som et **perioperativt nyrebeskyttelses-hjælpestof** hos gulsotramte kirurgiske patienter, ikke som behandling af obstruktiv ikterus i sig selv. En 1997 oversigt (Vogt & Frey) bemærker eksplicit, at denne nyrebeskyttende effekt "ikke er blevet påvist endegyldigt" i kliniske studier, og et 1989 dyreforsøg (Shibayama) fandt, at lactulose **ikke** forhindrede galekanalings-induceret hepatisk skade. Evidensbasis er derfor virkelig men blandet, understøttende en forskningsmæssig hypotese snarere end en bekræftet terapeutisk effekt.
-
----
+Den høje score (0,999) er en ren grafbaseret forudsigelse uden støtte i forsøg eller litteratur. Scoren bør derfor ikke tolkes som klinisk evidens.
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Rekruttering | Vigtigste resultater |
-|----------|------|--------|------|---------|
-| [NCT01090193](https://clinicaltrials.gov/study/NCT01090193) | Fase 4 | Afsluttet | 20 | Observationel histopatologisk undersøgelse af nyre-ændringer ved akut obstruktiv ikterus; tester **ikke** lactulose som intervention — giver kun baggrund for sygdomsmekanisme. |
+Der er i øjeblikket ingen registrerede relevante kliniske forsøg.
 
----
+## Litteraturevidens
 
-## Evidens fra litteraturen
+Der er i øjeblikket ingen relevant litteratur.
 
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|------|---------|
-| [2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/) | 1991 | RCT (multicenter) | Br J Surg | 102 patienter, der undergik kirurgi for obstruktiv ikterus, blev randomiseret til lactulose, galtes salte eller kontrol for at forhindre postoperativ nyrefunktionsnedsættelse. |
-| [3768644](https://pubmed.ncbi.nlm.nih.gov/3768644/) | 1986 | Kohorte/Eksperimentel | Br J Surg | Oralt lactulose reducerede perioperativ portal og postoperativ systemisk endotoksæmi hos kirurgiske patienter med obstruktiv ikterus (P<0.05). |
-| [12957136](https://pubmed.ncbi.nlm.nih.gov/12957136/) | 2003 | Kohorte/Oversigt | J Surg Res | Lactulose evalueret i en kanin-galekanalings-ligerings-model for at forhindre systemisk endotoksæmi efter obstruktiv ikterus-kirurgi. |
-| [15782993](https://pubmed.ncbi.nlm.nih.gov/15782993/) | 2005 | Kohorte | Hepatogastroenterology | Argumenterer for, at præoperativ hydrering plus lactulose er nødvendig for at forhindre postoperativ nyrefunktionsnedsættelse ved akut obstruktiv ikterus-kirurgi. |
-| [9145459](https://pubmed.ncbi.nlm.nih.gov/9145459/) | 1997 | Oversigt | Scand J Gastroenterol Suppl | Bemærker, at den hypoteserede nyrebeskyttende effekt af lactulose ved obstruktiv ikterus-kirurgi "ikke er blevet påvist endegyldigt" i kliniske studier. |
-| [12598962](https://pubmed.ncbi.nlm.nih.gov/12598962/) | 2002 | Dyreforsøg | Pediatr Surg Int | Melatonin + lactulose reducerede lever-/nyre-histopatologisk skade hos rotter med galekanalings-ligation. |
-| [2311978](https://pubmed.ncbi.nlm.nih.gov/2311978/) | 1990 | In vitro | Gut | Lactulose hemmede endotoxin-induceret TNF-produktion af monocytter, et foreslået mekanistisk grundlag for dets effekt. |
-| [2614579](https://pubmed.ncbi.nlm.nih.gov/2614579/) | 1989 | Dyreforsøg | J Pathol | Negativt fund: lactulose forhindrede **ikke** galde-infarktion eller transaminase-stigning hos galekanalings-ligerede rotter. |
-| [23297639](https://pubmed.ncbi.nlm.nih.gov/23297639/) | 2012 | Kohorte | Zh Mikrobiol Epidemiol Immunobiol | Kombineret galekanalings-dekompression + lactulose studeret for intestinal mikro-økologi ved mekanisk ikterus. |
-| [29428098](https://pubmed.ncbi.nlm.nih.gov/29428098/) | 2018 | Oversigt | HBPD Int | Generel oversigt over patofysiologi ved obstruktiv ikterus og perioperativ styring (baggrund, ikke lactulose-specifik). |
+## Information om det danske marked
 
----
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103530303 | Lactulose "Orifarm" (Orifarm Generics A/S) | Oral opløsning | Ikke angivet i de leverede data |
 
-## Markedsinformation for Danmark
-
-Lactulose er i øjeblikket **ikke markedsført** i Danmark under denne evidenspakke (`market_status: Not marketed`, 0 markedsføringstilladelser på fil). Ingen Laegemiddelstyrelsen eller EMA-centraliseret godkendelse-registreringer blev fundet.
-
----
+Det eneste administrationsvej-spor i data er oral anvendelse.
 
 ## Sikkerhedsovervejelser
 
-Ingen sikkerhedsdata (vigtige advarsler, kontraindikationer eller lægemiddelinteraktioner) er i øjeblikket tilgængelige i denne evidenspakke — dette er markeret som et **blokerende** datahul (DG001), der forhindrer indgang til det indledende sikkerhedsvurderingsstadium.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet interaktionsdata i den forespørgsel, der er foretaget.
 
-> Se venligst de godkendte Produktoplysninger (SmPC) for sikkerhedsinformation.
+## Konklusion og næste skridt
 
----
-
-## Konklusion og næste trin
-
-**Beslutning: Afhold**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Den mekanistiske begrundelse for obstruktiv ikterus er sammenhængende (endotoxin-reduktion via tarmflora-modulering) og understøttet af én multicenter RCT, men det forsøg testede et perioperativt nyrebeskyttelses-slutpunkt snarere end behandling af obstruktiv ikterus i sig selv, og en efterfølgende oversigt og et dyreforsøg fandt effekten inkonsistent eller fraværende.
-- Lactulose har ingen nuværende markedsføringstilladelse i Danmark, og sikkerhed/etiket-data (advarsler, kontraindikationer, lægemiddelinteraktioner) er helt utilgængeligt — et blokerende hul for nogen S1 sikkerhedsvurdering.
+Forudsigelsen om akut uratnefropati bygger udelukkende på modellens score (L5) uden kliniske forsøg, litteratur eller en plausibel mekanisme. Der er derfor intet grundlag for at gå videre.
 
-**For at fortsætte er følgende nødvendig:**
-- TFDA/SmPC-niveau advarsler, kontraindikationer og lægemiddelinteraktions-data (DG001, blokering)
-- Bekræftet virkningsmekanisme-dokumentation (DG002)
-- En direkte klinisk evaluering af lactulose som terapi for obstruktiv ikterus (ikke blot som et perioperativt nyrebeskyttelses-hjælpestof)
-- Vurdering af vej til dansk/EU markedsføringstilladelse, givet at lægemidlet i øjeblikket er uregistreret på dette marked
+**Supplerende observation:** Andre forudsigelser i samme pakke har mere substans.
+- **Obstruktiv gulsot** (score 99,53 %, L3, "Research Question") har ét afsluttet fase 4-forsøg ([NCT01090193](https://clinicaltrials.gov/study/NCT01090193), n=20, nyrehistopatologi) samt litteratur fra 1986-2003. Blandt andet er der et randomiseret studie med 102 patienter om forebyggelse af postoperativ nyresvigt ([PMID 2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/)). Den foreslåede mekanisme er nedsat tarmendotoksinoptagelse. En oversigtsartikel fra 1997 ([PMID 9145459](https://pubmed.ncbi.nlm.nih.gov/9145459/)) konkluderer dog, at nyrebeskyttende effekt ikke er entydigt påvist.
+- **Galdevejssygdom** og **sygdom i galdevejene** (L4, Hold) hviler hovedsageligt på dyrestudier og indirekte litteratur.
+- Forudsigelserne for akut uratnefropati, nyresten, obstruktiv gulsot, galdevejssygdom og sygdom i galdevejene optræder hver to gange i pakken med identisk indhold.
 
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation mangler).
+- Hent mekanismedata (MOA) fra DrugBank.
+- Prioritér obstruktiv gulsot frem for akut uratnefropati til en eventuel videre vurdering, med en systematisk litteraturgennemgang og stillingtagen til, om evidensen er tilstrækkelig til et nyt randomiseret forsøg.
+
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

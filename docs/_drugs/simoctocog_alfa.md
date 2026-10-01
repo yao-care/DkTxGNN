@@ -2,7 +2,7 @@
 layout: default
 title: Simoctocog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 400
+nav_order: 402
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Simoctocog Alfa: Fra Hæmofili A til Pseudo-von Willebrands Sygdom
+# Simoctocog alfa: Fra hæmofili A til pseudo-von Willebrand sygdom
 
-## Etlinjeopsummering
+## Resumé
 
-Simoctocog alfa er et rekombinant humant Faktor VIII-produkt (rFVIII), der bruges til erstatning af FVIII-mangel ved **hæmofili A**. TxGNN-modellens højest rangerede forudsigelse er **pseudo-von Willebrands sygdom**, men dette understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og den medfølgende mekanistiske begrundelse argumenterer for, at associationen sandsynligvis er en vidensgrafartefakt snarere end et autentisk farmakologisk signal.
+Simoctocog alfa er en rekombinant human koagulationsfaktor VIII (FVIII) uden B-domæne og er kendt som hæmofili A-præparatet Nuwiq. TxGNN-modellen forudsiger, at den kan have effekt ved **pseudo-von Willebrand sygdom**. Forudsigelsen er ren modelforudsigelse: der er **0 kliniske forsøg** og **0 publikationer**, som understøtter den.
 
----
-
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Hæmofili A (FVIII-erstatningsterapi) — nævnt i den mekanistiske begrundelsestekst; ikke særskilt bekræftet i strukturerede regulatoriske data |
-| Forudsagt ny indikation | Pseudo-von Willebrands sygdom |
-| TxGNN prognose-score | 99,997% |
+|------|------|
+| Oprindelig indikation | Hæmofili A (FVIII-substitution) |
+| Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
+| TxGNN-score | 99,997 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Simoctocog alfa er en rekombinant FVIII med deleteret B-domæne. Den erstatter manglende FVIII i plasma og fungerer som cofaktor i tenase-komplekset i koagulationskaskaden. Evidenspakken angiver ingen oprindelig indikation. Oplysningen om hæmofili A bygger på lægemidlets kendte karakter som FVIII-præparat.
 
-Detaljerede mekanisme-for-virkning-data for simoctocog alfa er ikke tilgængelige i denne evidenspakke (markeret som en datakløft med høj alvorlighed). Baseret på de tilgængelige oplysninger er simoctocog alfa et rekombinant FVIII-koncentrat, hvis etablerede effektivitet er i erstatning af deficient eller manglende Faktor VIII ved hæmofili A.
+Pseudo-von Willebrand sygdom (blodpladetype) skyldes en gain-of-function-defekt i blodpladernes GPIbα. Defekten øger clearance af von Willebrand-faktor (VWF), og FVIII kan derfor blive sekundært lavt. FVIII-substitution kan kun korrigere denne sekundære mangel og ikke den underliggende blodpladedefekt. Koblingen er derfor indirekte og spekulativ.
 
-Den forudsagte indikation, pseudo-von Willebrands sygdom, har en fundamentalt anderledes patofysiologi: den er forårsaget af en gain-of-function-mutation i platelet *GP1BA*-genet, hvilket fører til abnormalt øget affinitet af platelet GPIb-receptoren for von Willebrands faktor. Dette er en platelet-receptor-lidelse, ikke en koagulationsfaktormangel. Supplering af FVIII korrigerer ikke overdreven GPIb–vWF-binding og kan ifølge den medfølgende begrundelse slet ikke adressere den underliggende patologi.
+De øvrige forudsigelser har generelt svag mekanistisk begrundelse. De høje scorer afspejler sandsynligvis nærhed i vidensgrafen inden for klyngen af blødningssygdomme:
 
-Modellens meget høje tillidsscore afspejler sandsynligvis nærhed i vidensgrafen mellem "koagulations-/blødningslidelse"-knuder snarere end en sand mekanistisk sammenhæng. Blandt de ti forudsigelser i denne pakke har **erhvervet koagulationsfaktormangel** (rang 9/10) et sammenligneligt mere plausibelt bånd — det kan omfatte erhvervet hæmofili A, hvor højdosis FVIII-koncentrater har off-label præcedens — men selv dette er markeret kun som et "Forskningsspørgsmål," ikke en understøttet hypotese, givet det fuldstændige fravær af forsøgs- eller litteraturbeviser.
+- **Primær frigørelsesforstyrrelse i blodplader (99,997 %):** Defekten ligger i granulafrigørelse eller signalering, og plasmafaktorniveauerne er normale. FVIII korrigerer ikke defekten.
+- **Glanzmanns trombasteni (99,995 %):** Skyldes mangel på eller dysfunktion af GPIIb/IIIa. Standardbehandling er trombocyttransfusion eller rekombinant FVIIa, ikke FVIII.
+- **Scotts syndrom (99,969 %):** Defekt i eksponering af phosphatidylserin på blodpladerne (TMEM16F/ANO6). FVIII afhænger af netop denne overflade og kan derfor næppe genoprette funktionen.
+- **Erhvervet koagulationsfaktormangel (99,952 %):** Den biologisk mest plausible, fordi FVIII-substitution passer ved erhvervet FVIII-mangel. Kategorien er dog bred. Ved erhvervet hæmofili A neutraliserer autoantistoffer human FVIII, og man bruger i stedet bypass-midler eller porcint FVIII. Andre erhvervede faktormangler, fx K-vitaminafhængige eller ved leversygdom, er ikke FVIII-drevne.
 
----
-
-## Klinisk forsøgsbevis
+## Klinisk evidens fra forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
-## Litteraturbevis
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
----
-
 ## Markedsinformation for Danmark
 
-Simoctocog alfa har i øjeblikket ingen registrerede markedsføringstilladelser i Danmark (markedsstatus: **Ikke markedsført**; 0 licenser på fil). Ingen produkt-/doseringsform-data er tilgængelige for denne evidenspakke.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28105298513 | Nuwiq | Pulver og solvens til injektionsvæske, opløsning | Octapharma AB |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedshensyn
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i DrugBank.
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+## Konklusion og næste skridt
 
----
-
-## Konklusion og næste trin
-
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den højest rangerede forudsigelse (pseudo-von Willebrands sygdom) har intet klinisk forsøgs- eller litteraturunderstøtte og en mekanistisk begrundelse, der argumenterer mod biologisk plausibilitet — FVIII-erstatning adresserer ikke den platelet-receptor-defekt, der ligger til grund for denne sygdom. Dette er et L5, model-kun-signal uden bekræftende bevis.
+Forudsigelsen hviler udelukkende på modellen (L5) uden kliniske forsøg eller publikationer. Den mekanistiske kobling er indirekte, og sikkerhedsdata fra produktresuméet mangler, hvilket blokerer for sikkerhedsscreening.
 
-**For at fortsætte er det følgende nødvendigt:**
-- Bekræftet oprindelig indikation og detaljerede MOA-data for simoctocog alfa (i øjeblikket datakløfter)
-- Dansk/EU SmPC — herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket utilgængeligt)
-- Målrettet litteratursøgning specifikt om FVIII-brug ved erhvervet koagulationsfaktormangel / erhvervet hæmofili A (rang 9–10), den eneste kandidat med delvis mekanistisk plausibilitet, før yderligere evaluering
-- TFDA/dansk regulatorisk dokumentation om registreringsstatus, da 0 markedsføringstilladelser i øjeblikket er på fil
+**For at gå videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer).
+- Indhent data om virkningsmekanisme fra DrugBank.
+- Foretag en systematisk litteratursøgning om FVIII-substitution ved pseudo-von Willebrand sygdom og erhvervet FVIII-mangel.
+- Vurder først og fremmest indikationen "erhvervet koagulationsfaktormangel" og afgræns den til FVIII-mangel uden inhibitorer.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til nyt anvendelsesområde for kendte lægemidler skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

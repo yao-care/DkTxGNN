@@ -2,7 +2,7 @@
 layout: default
 title: Zolbetuximab
 parent: Kun modelforudsigelse (L5)
-nav_order: 478
+nav_order: 480
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zolbetuximab: Fra mavekræft/GEJ-adenokarcinom (mekanisme-udledt) til diabetisk katarakt
+# Zolbetuximab: Fra mavekræft til diabetisk katarakt
 
-## Ét-linjes sammenfatning
+## Resumé i én sætning
 
-> Zolbetuximab er et cytotoksisk monoklonalt antistof rettet mod CLDN18.2, en mekanisme forbundet med dets etablerede forbrug i CLDN18.2-positive mavekræft/gastrooesophageal junction-kræft — men denne specifikke oprindelige indikation er **ikke registreret** i det aktuelle evidence pack (datakløft).
-> TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk katarakt**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske begrundelse argumenterer eksplicit **imod** biologisk plausibilitet.
-> I betragtning af fraværet af bevisemateriale og en mekanistisk implausibel lægmiddel–sygdom-forbindelse bør denne kandidat placeres på **Afvent**.
+Zolbetuximab (Vyloy) er et monoklonalt antistof mod claudin-18 isoform 2 (CLDN18.2), som bruges mod CLDN18.2-positiv kræft i mavesæk og den gastroøsofageale overgang.
+TxGNN-modellen forudsiger, at det kan have effekt mod **diabetisk katarakt**, men der er **ingen kliniske forsøg og ingen publikationer**, og der er ikke fundet nogen troværdig mekanistisk sammenhæng.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke tilgængelig i evidence pack (datakløft — se nedenfor); mekanismedata antyder anti-CLDN18.2 onkologi-forbrug |
+|------|------|
+| Oprindelig indikation | CLDN18.2-positivt adenokarcinom i mavesæk og gastroøsofageal overgang (indikationsteksten fra godkendelsen er ikke angivet i datagrundlaget) |
 | Forudsagt ny indikation | Diabetisk katarakt |
-| TxGNN-forudsigelsesscore | 98.49% |
-| Evidensniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
-| Anbefalet beslutning | **Afvent** |
+| TxGNN-forudsigelsesscore | 98,49 % |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data markeret som et datakløft (`original_moa: [Data Gap]`) i selve lægemiddelposten. Modellens egen repurposing-begrundelse beskriver dog Zolbetuximab som et cytotoksisk monoklonalt antistof, der målretter Claudin 18.2 (CLDN18.2) gennem antistof-afhængig cellulær cytotoxicitet (ADCC) og komplement-afhængig cytotoxicitet (CDC) for at eliminere CLDN18.2-udrykkende celler — en mekanisme i overensstemmelse med dets kendte onkologi-forbrug.
+Zolbetuximab er et kimært IgG1-antistof, der binder CLDN18.2 på tumorceller og dræber dem via antistofafhængig cellemedieret cytotoksicitet (ADCC) og komplementafhængig cytotoksicitet (CDC). CLDN18.2 findes normalt kun i differentieret mavesækslimhinde og er ikke et etableret mål i linsevæv. Datagrundlaget indeholder ikke en registreret virkningsmekanisme fra DrugBank, så den ovenstående beskrivelse bygger på den mekanistiske vurdering i evidenspakken.
 
-**Denne mekanisme oversættes ikke til diabetisk katarakt.** Diabetisk katarakt skyldes kronisk hyperglykæmi, der drives af polyol-vej-aktivering, sorbitolophobning, linseprotein-oxidation og osmotiske ændringer i linsen — en metabolisk/strukturel proces uden kendt forhold til CLDN18.2-udtryk eller antistof-medieret cytotoxicitet. Der er ingen beviser for, at linseepitelceller udtrykker CLDN18.2 i betydeligt omfang, og ingen beviser for, at udryddelse af CLDN18.2-positive celler ville forhindre eller vende linseopacificering.
+Diabetisk katarakt skyldes primært øget flux gennem polyolvejen, oxidativt stress og proteinglykering. Ingen af disse processer påvirkes af et cytolytisk onkologisk antistof. Et stort antistof ville desuden formodentlig trænge dårligt ind i linsen.
 
-Bemærkelsesværdigt er alle ti af de mest forudsagte indikationer i dette evidence pack katarakt-relaterede (diabetisk katarakt, tetanisk katarakt, kraniostenose-associeret katarakt, moden/umodnet katarakt, type 2-diabetes-associeret katarakt), flere af dem vises som dubletter med næsten identiske scores. Dette mønster er konsistent med en knowledge-graph-statistisk artefakt snarere end et uafhængigt understøttet, sygdomsspecifikt signal, og brugen af et cytotoksisk immun-effector-antistof i en ikke-onkologisk, ikke-inflammatorisk øjensygdom rejser også en uafhængig sikkerhed-plausibilitet-bekymring (potentiel immun-medieret okular vævsbeskadigelse). Forudsigelsen bør behandles som lav-tillid og ikke biologisk handlingsbar på nuværende tidspunkt.
-
----
-
-## Kliniske forsøgsbeviser
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Den høje score (0,985) skyldes sandsynligvis en artefakt i vidensgrafen, fordi lægemidlets egen virkningsmekanisme mangler i datagrundlaget. Det samme gælder de øvrige forudsagte katarakttyper (tetanisk, kraniostenose-associeret, moden, umoden og type 2-diabetes-associeret katarakt, alle med en score på ca. 98,4 %). For dem alle vurderes det, at der ikke er nogen troværdig mekanistisk sammenhæng, og at forudsigelserne udelukkende er beregningsmæssige resultater.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ikke registreret relevante kliniske forsøg (hverken i ClinicalTrials.gov eller ICTRP).
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relevant litteratur.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Ingen markedsføringsgodkendelser er i øjeblikket registreret i Danmark for Zolbetuximab (0 godkendelser på filen; markedsstatus: Ikke markedsført).
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106996623 | Vyloy (Astellas Pharma Europe B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
 ---
 
-## Cytotoxicitet
-
-Zolbetuximab er klassificeret her på basis af dets beskrevne mekanisme (cytotoksisk anti-CLDN18.2 monoklonalt antistof brugt i onkologi).
+## Cytotoksicitet
 
 | Punkt | Indhold |
-|------|---------|
-| Cytotoxicitet-klassificering | Immunterapi (monoklonalt antistof; ADCC/CDC-medieret cytotoxicitet mod CLDN18.2-udrykkende celler) |
-| Myelosuppression-risiko | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitet-klassificering | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
-| Overvågningselementer | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se venligst Sammenfattelsen af produktkarakteristika (SmPC) for advarsler og forsigtighedsregler |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet behandling / immunmedieret (monoklonalt antistof med ADCC/CDC-virkning), ikke konventionel cytostatika |
+| Risiko for myelosuppression | Se produktresuméet (SPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SPC) |
+| Monitoreringspunkter | Se produktresuméet (SPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SPC) |
+
+Der foreligger ikke toksicitetsdata i datagrundlaget. Se afsnittet om advarsler og forsigtighedsregler i produktresuméet (SPC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst den godkendte Sammenfattelse af produktkarakteristika (SmPC) for sikkerhedsinformation. Bemærk: TFDA/dansk etiket-advarsler og kontraindikationer for dette lægemiddel er i øjeblikket en **blokeringsdata gab** (DG001) — en formel sikkerhedsgennemgang (S1) kan ikke fortsætte, før dette er løst.
+Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Den forudsagte indikation understøttes af nul kliniske forsøg og nul litteratur (Evidensniveau L5, beslutningstrin S0), og modellens egen mekanistiske begrundelse argumenterer for, at lægemiddel–sygdom-forbindelsen er biologisk implausibel snarere end blot undersøgt.
-- Zolbetuximab er ikke markedsført i Danmark (0 godkendelser), og kritiske sikkerhedsinput (etiket-advarsler/kontraindikationer, mekanisme) er markeret som blokeringsdata/høj-alvorligheds datakløfter i dette evidence pack.
+Forudsigelsen hviler udelukkende på en modelscore (L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Zolbetuximabs mål (CLDN18.2) og virkningsmåde har ingen kendt relevans for linsebiologi.
 
-**For at fortsætte er følgende nødvendig:**
-- TFDA/dansk SmPC-advarsler og kontraindikationer (i øjeblikket blokeringsdata — DG001)
-- Bekræftet virkningsmekanisme-data fra DrugBank eller produktetiket (DG002)
-- Bekræftet oprindelig godkendt indikation(er) for Zolbetuximab, som mangler fra dette evidence pack
-- Uafhængig biologisk/præ-klinisk begrundelse, der forbinder CLDN18.2-biologi med linsepatologi, hvis denne kandidat skal genovervejes
-- I betragtning af de aktuelle beviser anbefales en revurdering af, hvorvidt denne kandidat overhovedet skal forblive i pipelinen, før der investeres yderligere i dataindsamling
+**For at komme videre kræves følgende:**
+- Hent og gennemgå Lægemiddelstyrelsens produktresumé (advarsler og kontraindikationer), som er en blokerende datamangel for sikkerhedsscreening.
+- Supplér virkningsmekanismen fra DrugBank, så den kan vurderes mod forudsigelsen.
+- Fremlæg præklinisk eller mekanistisk evidens for CLDN18.2 eller en anden relevant målstruktur i linsen, før en videre vurdering overvejes.
+- Afklar lægemiddelformens (intravenøs infusion) forenelighed med en okulær indikation.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

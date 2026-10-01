@@ -2,7 +2,7 @@
 layout: default
 title: Idursulfase
 parent: Kun modelforudsigelse (L5)
-nav_order: 224
+nav_order: 225
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,97 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idursulfase: Fra Lysosomale Lagringssygdomme (Enzym-erstatningsterapi) til Ptose-Strabismus-Ektopiske Pupiller Syndrom
+# Idursulfase: Fra Hunters syndrom (MPS II) til ptosis-strabismus-ectopic pupils syndrome
 
-## Sammenfatning i én sætning
+## Opsummering i en sætning
 
-Idursulfase er et rekombinant iduronidsulfatase-enzym-erstatningsterapi, der bruges til lysosomale lagringssygdomme, såsom Hunters syndrom (Mucopolysaccharidose II). TxGNN-modellen forudsiger en mulig forbindelse til **Ptose-Strabismus-Ektopiske Pupiller Syndrom**, en sjælden medfødt kranialnervedysinnervationsforstyrrelsе, men dette understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — og analysepakkens egen mekanistiske vurdering argumenterer mod en ægte biologisk forbindelse.
+Idursulfase er en rekombinant iduronat-2-sulfatase, der bruges som enzymerstatningsterapi ved Hunters syndrom (MPS II).
+TxGNN-modellen forudsiger, at den kan have effekt ved **ptosis-strabismus-ectopic pupils syndrome**.
+Der er **0 kliniske forsøg** og **0 publikationer** til støtte for forudsigelsen, og den vurderes derfor kun som modelbaseret (L5).
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|----------|
-| Oprindelig Indikation | Ikke formelt registreret (dansk licensieret tekst ikke tilgængelig); beskrevet i støttemateriale som lysosomale lagringssygdomme / enzym-erstatningsterapi (Hunters syndrom, MPS II) |
-| Forudsagt Ny Indikation | Ptose-Strabismus-Ektopiske Pupiller Syndrom |
-| TxGNN Forudsigelsesscore | 97.89% |
-| Bevisniveau | L5 |
-| Markedsstatus Danmark | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | Afvent |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Hunters syndrom (MPS II). Indikationsteksten i den danske godkendelse er ikke angivet i datagrundlaget, så oplysningen stammer fra lægemidlets kendte anvendelse |
+| Forudsagt ny indikation | Ptosis-strabismus-ectopic pupils syndrome |
+| TxGNN-forudsigelsesscore | 97,89 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om lægemidlets virkningsmekanisme er ikke tilgængelige som struktureret felt for dette lægemiddel (markeret som datakløft). Baseret på støttende tekst i denne analysepakke handler Idursulfase om enzym-erstatningsterapi, der nedbryder akkumulerede glycosaminoglykaner (GAG'er — heparan sulfat og dermatan sulfat), som opsamles i lysosomale lagringssygdomme såsom Hunters syndrom.
+Idursulfase erstatter det manglende enzym iduronat-2-sulfatase ved MPS II og nedbryder dermed ophobede glykosaminoglykaner i lysosomerne. Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i det anvendte datagrundlag. Baseret på kendt information er idursulfase et rekombinant enzym, hvis effekt ved lysosomal ophobning er veldokumenteret.
 
-Den forudsagte indikation, Ptose-Strabismus-Ektopiske Pupiller Syndrom, tilhører en helt anden sygdomsfamilie: medfødte kranialnervedysinnervationsforstyrrelser (CCDD'er), som opstår fra abnormal embryonal udvikling af øjets motornervekerner — en neurologisk udviklingsforstyrrelsе, ikke en metabolisk lidelse. Der er ingen kendt GAG-akkumulering eller lysosomal enzymdefekt involveret i patogenesen.
+Ptosis-strabismus-ectopic pupils syndrome er en sjælden medfødt udviklingsforstyrrelse i øjet. Der kendes ingen ophobning af glykosaminoglykaner ved denne tilstand. Der er derfor ikke identificeret nogen plausibel biologisk forbindelse mellem enzymerstatning ved MPS II og denne sygdom.
 
-Kritisk er det, at analysepakkens egen mekanistiske gennemgang konkluderer, at dette **ikke** er en forbindelse på mekanisme-niveau. Den tilskriver det høje TxGNN-score til fænotypisk node-proksimitet inden for vidensgrafen — delte overfladerelaterede træk såsom "ptose" og "strabismus", som også optræder som sekundære øjensymptomer ved andre MPS-relaterede tilstande (f.eks. hornhindeuklarhed) — snarere end nogen kausal vej. Dette mønster gentager sig på tværs af alle fem unikke kandidater i denne pakke (rangering 1–10, hver sygdom duplikeret én gang): hver enkelt bærer en tilsvarende høj score (97.6%–97.9%) kombineret med en begrundelse, der eksplicit angiver, at den mekanistiske forbindelse er svag, indirekte eller fraværende (f.eks. medfødt Horners syndrom fra skade på den sympatiske nervebane; CCDD-spektrum muskelfibrose; udvikling af manglende tåregrube-punktum). Denne konsistente selvmarkering tyder på en vidensgrafartefakt (tæt klynging af øje-/oftalmologiske fænotype-noder) snarere end et sæt af uafhængigt plausible omformål-hypoteser.
+Den høje score (97,9 %) skyldes sandsynligvis strukturen i TxGNN's vidensgraf og ikke reel biologi. Forudsigelsen bør derfor ikke tillægges klinisk betydning uden yderligere dokumentation.
+
+### Øvrige forudsigelser for idursulfase
+
+De 10 forudsigelser i datasættet omfatter 5 forskellige sygdomme, hver registreret to gange. Ingen af dem har støtte i kliniske forsøg eller litteratur, og de er alle vurderet som L5/Hold. For alle er der vurderet, at der ikke findes en rimelig mekanistisk forbindelse.
+
+| Sygdom | Score | Vurdering af mekanistisk forbindelse |
+|------|------|------|
+| Ptosis-strabismus-ectopic pupils syndrome | 97,89 % | Medfødt øjenudviklingsforstyrrelse uden kendt glykosaminoglykanpatologi |
+| Camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye | 97,87 % | Muskuloskeletal og ekstraokulær fibrose uden kendt lysosomal mekanisme. Eventuel forbindelse via bindevæv eller ekstracellulær matrix er rent spekulativ |
+| Congenital Horner syndrome | 97,84 % | Forstyrrelse af okulosympatisk innervation. Enzymerstatning virker ikke på sympatiske baner |
+| Ptosis-vocal cord paralysis syndrome | 97,83 % | Sjælden neurologisk eller udviklingsmæssig tilstand. Enzymerstatning adresserer ikke nerve- eller muskeldysfunktion |
+| Ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome | 97,67 % | Kraniofacial og okulær misdannelse uden relevans for enzymmangel ved MPS II |
 
 ---
 
-## Bevis fra kliniske forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Bevis fra litteratur
+## Evidens fra litteraturen
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformationer for Danmark
+## Information om markedet i Danmark
 
-Idursulfase har i øjeblikket **ingen markedsføringstilladelse registreret** i Danmark (markedsstatus: ikke markedsført; 0 tilladelser på fil). Ingen Laegemiddelstyrelsen national licens eller EMA centraliseret godkendelses-data er til stede i denne analysepakke.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103881505 | Elaprase (Takeda Pharmaceuticals International AG Ireland Branch) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel interaktionsdata er i øjeblikket på fil for dette lægemiddel (DDI-forespørgsel returnerede ingen resultater).
+Lægemidlet gives som injektion/infusion.
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvent**
+Der er ikke fundet registrerede lægemiddelinteraktioner (DDI) i datagrundlaget.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Bevisniveauet er L5 — en modelforudsigelse uden nogen understøttende kliniske forsøg eller publikationer — og pakkens egen mekanistiske gennemgang finder ingen troværdig biologisk vej, der forbinder iduronidsulfatase-enzym-erstatningsterapi til medfødte kranialnervedysinnervationsforstyrrelser/ptose-strabismus syndromer. Kombineret med et Blockering datakløft vedrørende sikkerhedsdata fra danske mærkninger, kan denne kandidat ikke avancere forbi det indledende screeningstrin.
+Forudsigelserne bygger udelukkende på modellen (L5) uden støtte fra kliniske forsøg eller litteratur, og der er ikke identificeret nogen plausibel mekanistisk forbindelse. Den høje score afspejler sandsynligvis grafstruktur og ikke biologi.
 
-**For at fortsætte kræves følgende:**
-- Dansk SmPC / produktmærkningsdata (advarsler, kontraindikationer) — i øjeblikket er dette et **Blockering** datakløft (DG001), der forhindrer enhver S1 sikkerhedsvurdering
-- Verificeret virkningsmekanisme-dokumentation direkte fra DrugBank eller en regulatorisk indgivelse (DG002, høj alvorlighed) snarere end udledt fra begrundelsestekst
-- Uafhængigt (ikke-vidensgrafs-topologi) bevis for biologisk plausibilitet for en CCDD-familie/oftalmologisk fænotype-forbindelse, f.eks. genetisk eller vej-niveau analyse
-- Mindst foreløbigt klinisk eller kasuistisk bevis, før denne kandidat kan gå videre forbi L5
-- Afstemning af de duplerede kandidat-indgange (5 unikke sygdomme angivet to gange hver) for at bekræfte, at dette ikke er en datapipeline-artefakt før yderligere triage
+**For at komme videre kræves følgende:**
+- Gennemgang og indhentning af sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, da disse mangler og blokerer den videre sikkerhedsvurdering
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. via DrugBank
+- En konkret, biologisk begrundet hypotese for, hvordan enzymerstatning kunne påvirke de forudsagte øjensygdomme
+- Prækliniske eller mekanistiske data, der kan løfte evidensniveauet over L5
+- Afklaring af administrationsvej og kompatibilitet (infusion) med den ønskede anvendelse
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye anvendelser skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

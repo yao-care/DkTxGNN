@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Kun modelforudsigelse (L5)
-nav_order: 335
+nav_order: 336
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,64 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Pegfilgrastim: Fra oprindelig indikation ikke dokumenteret til alvorlig non-proliferativ diabetisk retinopati
+# Pegfilgrastim: Fra kemoterapi-induceret neutropeni til svær non-proliferativ diabetisk retinopati
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-Pegfilgrastim (DrugBank DB00019) er et langtidsvirkende G-CSF-analogon; dets oprindeligt godkendte indikation er ikke dokumenteret i den aktuelle evidenspakke.
-TxGNN-modellen forudsiger en mulig association med **alvorlig non-proliferativ diabetisk retinopati**,
-men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det er et rent modeloutput uden understøttende evidens.
+Pegfilgrastim er en langtidsvirkende G-CSF (granulocyt-koloni-stimulerende faktor), som generelt bruges til at begrænse neutropeni. Denne oplysning stammer fra almen viden, da den danske registrering i datagrundlaget ikke angiver en indikationstekst. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær non-proliferativ diabetisk retinopati** og **diabetisk retinopati**. Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så der er kun tale om en modelbaseret hypotese.
 
-## Hurtig oversigt
+---
 
-| Emne | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke dokumenteret i evidenspakke (ingen licenserings- eller original_indications-data tilgængelig) |
-| Forudsagt ny indikation | Alvorlig non-proliferativ diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99.89% |
+## Hurtigt overblik
+
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering (indikationsteksten er tom) |
+| Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
+| TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+Datagrundlaget indeholder fire forudsigelsesposter, men kun to forskellige sygdomme. Den næstbedste sygdom er diabetisk retinopati (score 99,73 %). Begge har samme evidensniveau (L5) og samme anbefaling (Hold).
 
-Detaljerede virkningsmekanism-data er for øjeblikket ikke tilgængelige for pegfilgrastim i denne evidenspakke (markeret som en data-mangel med høj alvorlighed). Baseret på TxGNN-modellens egen begrundelse er pegfilgrastim et pegyleret G-CSF-analogon (granulocyt-koloni-stimulerende faktor), hvis kendte virkning er at stimulere neutrofil-produktion i knoglemarv og mobilisere CD34+-hæmatopoietiske/endoteliale progenitorceller til perifert blod.
+---
 
-Modellen forbinder denne progenitorcelle-mobiliseringsmekanisme med retinal vaskulær omformning. Imidlertid er den begrundelse, der fulgte med forudsigelsen, væsentligt advarselsfuld snarere end understøttende: eksisterende litteratur om G-CSF-brug til stamcellemobilisering har rapporteret signaler på kasussniveau af **forværring af proliferativ diabetisk retinopati eller glaslegemeblødning** — dvs. en potentiel risiko for sygdomsprogression snarere end terapeutisk fordel. For alvorlig non-proliferativ diabetisk retinopati specifikt (en pre-neovaskulær fase) er der ingen mekanistisk evidens i pakken, der understøtter en behandlingseffekt.
+## Hvorfor er forudsigelsen rimelig?
 
-Kort sagt afspejler den høje TxGNN-score en graf-niveau-association, ikke en valideret eller endog retning-gunstig farmakologisk begrundelse — den tilgængelige mekanistiske ræsonnering peger mod en mulig sikkerhedskoncern, som ville skulle udelukkes, før nogen terapeutisk udforskning.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datagrundlaget. Pegfilgrastim er en langtidsvirkende G-CSF. Dens virkning på neutropeni er veletableret, og mekanistisk kan den muligvis have relevans for diabetisk retinopati. Dette er dog ikke dokumenteret i de foreliggende data.
 
-## Evidens fra kliniske forsøg
+Den eneste støtte for forudsigelsen er den høje score i TxGNN's vidensgraf. En mulig, men uverificeret hypotese er, at G-CSF mobiliserer endotelprogenitorceller fra knoglemarven. Mobiliseringen af disse celler er angiveligt nedsat ved diabetes, og de kunne bidrage til reparation af de små kar i nethinden.
 
-I øjeblikket ingen registrerede relaterede kliniske forsøg
+Samme virkning kan også trække den modsatte vej. De hæmatopoietiske, pro-angiogene og inflammatoriske effekter kan potentielt forværre neovaskularisering eller inflammation i nethinden. Effektens retning er derfor ukendt, og de foreliggende data støtter hverken gavn eller skade. Der er desuden ikke vurderet lighed med den oprindelige indikation eller administrationsvejens egnethed.
 
-## Litteraturevidence
+---
 
-I øjeblikket ingen relevant litteratur tilgængelig
+## Klinisk evidens fra forsøg
 
-## Markedsoplysninger for Danmark
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
-Pegfilgrastim er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er registreret i denne evidenspakke.
+---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktkarakteristikasammendrag (SmPC) for sikkerhedsoplysninger.
+Der er aktuelt ingen relateret litteratur tilgængelig.
 
-## Konklusion og næste trin
+---
 
-**Beslutning: Afvente**
+## Information om markedet i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106314919 | Cegfila (Mundipharma Corporation (Ireland) Ltd.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i registeret |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne forudsigelse hviler udelukkende på en TxGNN-modelscore (Evidensniveau L5) uden understøttende kliniske forsøg eller litteratur, uden bekræftede virkningsmekanism-data og uden markedstilstedeværelse i Danmark. Den mekanistiske begrundelse, der eksisterer, tyder på en mulig *risiko* for retinopati-progression snarere end fordel, hvilket yderligere argumenterer imod at fremme denne kandidat uden yderligere evidens.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller kendt virkningsmekanisme. Effektens retning ved diabetisk retinopati er usikker, og en forværring af nethindeforandringer kan ikke udelukkes. Evidensniveauet er L5, og sikkerhedsdata fra den danske produktinformation mangler.
 
-**For at fortsætte er følgende nødvendigt:**
-- SmPC/etiket-advarsler og kontraindikationer for pegfilgrastim (i øjeblikket en blokerende data-mangel — påkrævet før eventuel S1-sikkerhedsscreening)
-- Bekræftet virkningsmekanism og oprindeligt godkendt indikation(er) fra DrugBank eller regulatorisk kilde
-- Præklinisk eller mekanistisk evidens, der specifikt adresserer G-CSF-effekter på non-proliferativ (pre-neovaskulær) diabetisk retinopati, givet det eksisterende signal for potentiel skade i proliferativ sygdom
-- Eventuelle kasusbeskrivelser, registre eller farmakovigilansdata om retinale resultater hos patienter, der modtager pegfilgrastim
-- Revurdering af Danmarks marked/regulatorisk vej, da produktet i øjeblikket ikke har nogen registreret markedsføringstilladelse
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da manglen blokerer for sikkerhedsscreening.
+- Indhent data om virkningsmekanisme (MOA), f.eks. via DrugBank.
+- Gennemfør en systematisk litteratursøgning, herunder præklinisk evidens om G-CSF og diabetisk retinopati og om risikoen for pro-angiogene effekter i nethinden.
+- Få en oftalmologisk vurdering af den potentielle risiko og af administrationsvejens egnethed til den nye indikation.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

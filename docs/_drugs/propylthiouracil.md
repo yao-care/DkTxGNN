@@ -2,15 +2,15 @@
 layout: default
 title: Propylthiouracil
 parent: Moderat evidens (L3-L4)
-nav_order: 362
-evidence_level: L3
+nav_order: 363
+evidence_level: L4
 indication_count: 6
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,92 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Propylthiouracil: Fra Hypertyreoidisme (Graves' sygdom) til Neonatal Thyreotoxikose
+# Propylthiouracil: Fra hypertyreose til resistens over for thyreoideahormon (THRB-mutation)
 
-## Ét-sætnings-sammenfatning
+## Resumé i få sætninger
 
-Propylthiouracil (PTU) er et thionamid-antityreoideamiddel, der klassisk bruges til at kontrollere hypertyreoidisme, især Graves' sygdom, og foretrækkes under graviditet på grund af lavere transplacental passage end methimazole. TxGNN-modellen forudsiger relevans for **Neonatal Thyreotoxikose**, med **1 klinisk forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning. Evidensen er indirekte — der findes ingen dedikeret randomiseret forsøg hos neonater af etiske årsager — men det er i overensstemmelse med etableret klinisk praksis for styring af maternal Graves' sygdom med thionamider for at beskytte fosteret/neonaten.
+Propylthiouracil (PTU) er et thyreostatikum, der anvendes til at nedsætte dannelsen af thyreoideahormon ved hypertyreose. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **resistens over for thyreoideahormon forårsaget af mutation i thyreoideahormonreceptor beta (THRB)**. Der er **0 kliniske forsøg** og **6 publikationer**, som alle er indirekte (case-rapporter, en mekanistisk oversigt og musemodeller). Forudsigelsen er ikke klinisk understøttet og kan være kontraproduktiv.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke dokumenteret i det lokale regulatoriske datasæt (medicin ikke markedsført i Danmark); klinisk etableret for hypertyreoidisme/Graves' sygdom |
-| Forudsagt ny indikation | Neonatal Thyreotoxikose |
-| TxGNN Prognose Score | 99.40% |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
+| Oprindelig indikation | Ikke angivet i den danske markedsføringstilladelse. Generelt anvendes PTU ved hypertyreose (fx Graves' sygdom). |
+| Forudsagt ny indikation | Resistens over for thyreoideahormon pga. mutation i thyreoideahormonreceptor beta |
+| TxGNN-forudsigelsesscore | 99,66 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-I øjeblikket er detaljerede mekanisme-data for virkning ikke tilgængelige i evidenspakken. Baseret på kendt farmakologi hæmmer PTU thyroidperoxidase, blokerer oxidation og organisering af jodid og reducerer derved syntese af nye thyroideahormoner; det hæmmer også delvist konvertering af T4 til T3 i periferien.
+Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i datagrundlaget. PTU hæmmer thyreoideaperoxidase og den perifere omdannelse af T4 til T3 og sænker dermed det cirkulerende thyreoideahormon.
 
-Neonatal thyreotoxikose opstår oftest, når maternal TSH-receptor-stimulerende antistoffer (Graves' sygdom) krydser placenta, eller mindre hyppigt fra aktiverende TSHR/GNAS-mutationer. Fordi PTU's mekanisme direkte undertrykker thyroideahormon-syntese, er thionamid-terapi (PTU eller methimazole) allerede den kliniske standard for styring af maternal hypertyreoidisme under graviditet for at forhindre føtal og neonatal thyreotoxiske komplikationer — methimazole foretrækkes generelt efter fødslen på grund af PTU's hepatotoksicitets-risiko, men PTU bevarer en defineret rolle, især i første trimester. Denne mekanistiske og kliniske kontinuitet understøtter TxGNN-forudsigelsen, selv om intet interventionsforsøg er blevet udført direkte hos thyreotoxiske neonater på grund af åbenlyse etiske begrænsninger.
+Ved THRB-mutation er T4 og T3 allerede forhøjede, og TSH er ikke suppresseret. Skyldes tilstanden receptorresistens, er problemet ikke for meget hormon, men nedsat vævsfølsomhed. Hvis hormonniveauet sænkes yderligere, vil det sandsynligvis øge TSH-stimulationen og give risiko for struma eller thyrotrof stimulation. Den høje modelscore afspejler derfor en netværksassociation i vidensgrafen og ikke et direkte lægemiddel-target-forhold.
 
-Den samme evidenspakke markerer også to relaterede thyreoidea-akse-tilstande — "resistens over for thyroideahormon på grund af en mutation i thyroidea-hormon-receptor beta" (score 99.66%) og "hyperthyroxinæmi" (score 99.08%) — men deres understøttende litteratur er stort set mekanistisk/genetisk casemateriale snarere end behandlings-evidens, og i ét tilfælde (PMID 10724359) mislykkedes PTU-behandlingen med at kontrollere den underliggende tilstand. Disse to betragtes derfor som lavere-tillid-signaler (internt markeret "Hold") og er ikke fokus for denne rapport.
-
----
-
-## Klinisk forsøgs-evidens
-
-| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige fund |
-|---------|------|------|------|---------|
-| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Fase 3 | Ukendt | 60 | Sammenligner total thyroidektomi versus thionamid-antityreoideamiddel hos moderat-til-svær Graves' oftalmopatologi; ikke et direkte neonatalt forsøg, men thionamid-behandlingsarmen giver indirekte data om maternal antityreoideabehandling relevant for føtal/neonatal thyroidearesultater. Forsøgsstatus er "Ukendt", hvilket indikerer muligt bortfald fra opfølgning. |
+Det understøttes af en thailandsk case-rapport (PMID 10724359): en patient med de novo THRB-mutation blev behandlet med PTU i 9 måneder på mistanke om tyreotoksikose, og hendes struma blev større.
 
 ---
 
-## Litteratur-evidens
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Tidsskrift | Vigtige fund |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [33349844](https://pubmed.ncbi.nlm.nih.gov/33349844/) | 2021 | Oversigt/Retningslinje | J Clin Endocrinol Metab | Vejledning om test, overvågning og behandling af thyroideadysfunktion under graviditet, herunder risiko-gavn-betragtninger for antityreoideapreparater |
-| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | Oversigt | Endocrinol Metab Clin North Am | Høj-risiko Graves' sygdom under graviditet behandlet med PTU i første trimester, overgang til methimazole derefter |
-| [25747892](https://pubmed.ncbi.nlm.nih.gov/25747892/) | 2015 | Kohorte | Thyroid | Gestationel thyreotoxikose og antityreoideamedicinanvendelse evalueret i forhold til neonatale resultater i et integreret sundhedssystem |
-| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Oversigt | Lancet Diabetes Endocrinol | Oversigt over hypertyreoidisme under graviditet; noterer, at ugunstige resultater kan påvirke både mor og afkom |
-| [32199749](https://pubmed.ncbi.nlm.nih.gov/32199749/) | 2020 | Oversigt/Retningslinje | Best Pract Res Clin Endocrinol Metab | Tilgang til styring af thyreotoxikose under graviditet for at forhindre maternal og føtal komplikationer |
-| [6387489](https://pubmed.ncbi.nlm.nih.gov/6387489/) | 1984 | Oversigt | N Engl J Med | Klassisk oversigt over antityreoideamediciners farmakologi og virkningsmekhanisme |
-| [18558604](https://pubmed.ncbi.nlm.nih.gov/18558604/) | 2008 | Casusrapport | Endocr Pract | Vedvarende neonatal thyreotoxikose fra en sjælden aktiverende TSHR-mutation, der illustrerer ikke-autoimun neonatal sygdom, der kræver antityreoideabehandling |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Casusrapport | Clin Endocrinol | Neonatal thyreotoxikose tilfælde forbundet med en maternal TRβ-gen-mutation (M313T) |
-| [596245](https://pubmed.ncbi.nlm.nih.gov/596245/) | 1977 | Casusserie | Acta Med Scand | Tidlig beskrivelse, der forbinder postpartum hypertyreoidisme-forværring til neonatal thyreotoxikose |
-| [2090674](https://pubmed.ncbi.nlm.nih.gov/2090674/) | 1990 | Casusrapport | J Endocrinol Invest | Neonatal hepatitis og lymfocyt-sensitivering efter transplacental passage af PTU, sammen med forbigående neonatal thyreotoxikose — relevant for både effektivitet og sikkerhedsovervågning |
+| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Oversigt (mekanistisk) | Endocrinology | Rolle af THRB-isoformen i hjertets resistens over for thyreoideahormon |
+| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case-rapport / familiegenetik | Exp Clin Endocrinol Diabetes | THRB-mutation (P453A) hos mor og søn med resistens over for thyreoideahormon |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case-rapport | Clin Endocrinol | Neonatal tyreotoksikose og nedsat fertilitet hos mor ved THRB-mutation (M313T) |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case-rapport | Endocr J | De novo L330S-mutation hos thailandsk kvinde. Strumaen voksede under PTU-behandling. |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Præklinisk (musemodel) | Endocrinology | Rolle af TSH i udvikling af asymmetrisk thyreoideacarcinom ved THRB-mutation |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Præklinisk (musemodel) | Oncogene | Thyreoideahormon aktiverer tumorcelleproliferation i musemodel af follikulært thyreoideacarcinom |
+
+Ingen af publikationerne har undersøgt PTU som behandling af resistens over for thyreoideahormon.
 
 ---
 
-## Danske markedsoplysninger
+## Markedsinformation for Danmark
 
-Propylthiouracil er i øjeblikket **ikke markedsført** i Danmark ifølge dette evidenspakkes datasæt — ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) blev fundet.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28100745976 | Propyltiouracil "Medic" | Filmovertrukne tabletter (oral) | Viatris ApS |
+
+Indikationsteksten for tilladelsen er ikke tilgængelig i datagrundlaget.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Venligst se det godkendte Produktresume for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller medicin-interaktionsdata var tilgængelige i denne evidenspakke (DDI-forespørgsel: ikke fundet). Bemærk som generel farmakologisk baggrund: PTU som stofklasse er forbundet med anerkendte hepatotoksicitets- og agranulocytose-risici, som skal bekræftes mod det aktuelle Produktresume før klinisk brug.
+Datagrundlaget indeholder ingen registrerede advarsler, kontraindikationer eller interaktioner for dette præparat. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Til orientering beskriver det samlede evidensgrundlag for PTU en boxed warning om alvorlig levertoksicitet. Det er særligt relevant ved pædiatrisk og neonatal anvendelse.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Thionamid-terapi for maternal Graves' sygdom under graviditet er allerede etableret klinisk praksis, og de tilgængelige kohorte-, oversigts- og case-niveau-evidenser understøtter koherent PTU's mekanistiske relevans for forebyggelse/styring af neonatal thyreotoxikose. Imidlertid findes der ingen dedikeret randomiseret forsøg hos neonater (etisk begrænset), og medicinen har i øjeblikket ingen markedsføringstilladelse i Danmark.
+Der er ingen kliniske forsøg, og litteraturen er udelukkende indirekte. Mekanismen taler snarere imod end for behandling: at sænke hormonniveauet ved receptorresistens kan øge TSH-drivet og forværre struma.
 
-**For at fortsætte, kræves følgende:**
-- Danske Produktresume-advarsler/kontraindikationer (DG001, Bloker) — påkrævet før enhver S1 sikkerhedsvurdering
-- Bekræftet virkningsmekhanisme-data fra DrugBank (DG002, Høj)
-- Medicin-interaktionsdata (i øjeblikket ikke fundet)
-- Regulatorisk vej-vurdering for dansk markedsindtræden givet nuværende "Ikke markedsført"-status
-- Pædriatrisk/neonatal dosering og overvågningsprotokol, hvis forfølgt klinisk
+**For at komme videre kræves:**
+- Direkte kliniske data, der undersøger PTU ved THRB-relateret resistens, hvilket der ikke foreligger i dag
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Sikkerhedsoplysninger fra det danske produktresumé fra Lægemiddelstyrelsen (parsing af indlægssedlen/SmPC), som er en blokerende datamangel for sikkerhedsscreening
 
+**Bemærkning om øvrige forudsigelser:** For **neonatal tyreotoksikose** (score 99,40 %) er mekanismen plausibel og direkte, men det eneste fundne forsøg (NCT03066076, fase 3, thyreoidektomi versus thionamider, n=60) omfatter ikke nyfødte. Evidensniveauet er L4, og den anbefalede status er "Research Question" (S1). Her bør levertoksicitet vurderes først. For **hyperthyroxinæmi** (score 99,08 %) er anbefalingen Hold, fordi sygdomsdefinitionen er for heterogen til én samlet anbefaling.
+
+*Dette er et forskningsbaseret overblik og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

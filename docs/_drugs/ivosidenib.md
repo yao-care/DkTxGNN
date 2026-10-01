@@ -2,7 +2,7 @@
 layout: default
 title: Ivosidenib
 parent: Kun modelforudsigelse (L5)
-nav_order: 250
+nav_order: 251
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,75 +29,98 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Ivosidenib: Udforskning af en potentiel ny rolle ved bulbær poliomyelitis
+# Ivosidenib: Fra IDH1-muteret akut myeloid leukæmi til bulbær polio
 
-## Resumé på én sætning
+## Resumé
 
-Ivosidenib (DrugBank ID DB14568) har ingen oprindelig indikation eller data om virkningsmekanisme på fil i denne evidenssamling, og det markedsføres ikke i øjeblikket i Danmark. TxGNN-modellen forudsiger en mulig association med **bulbær poliomyelitis** (score 99.31%), men denne prognose understøttes i øjeblikket **ikke af kliniske forsøg** og **ikke af publiceret litteratur**.
+Ivosidenib er en hæmmer af mutant IDH1-enzym, som bruges til behandling af IDH1-muteret akut myeloid leukæmi (AML) og myelodysplastisk syndrom (MDS). Indikationen fremgår af mekanismebeskrivelsen i evidenspakken, ikke af den danske godkendelsestekst.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **bulbær polio**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen vurderes som sandsynligt et artefakt i vidensgrafen.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke tilgængelig (ingen data på fil) |
-| Forudsagt ny indikation | Bulbær poliomyelitis |
-| TxGNN-prognoseresultat | 99.31% |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske godkendelsestekst. Ifølge mekanismebeskrivelsen anvendes ivosidenib ved IDH1-muteret AML/MDS |
+| Forudsagt ny indikation | Bulbær polio |
+| TxGNN-forudsigelsesscore | 99,31 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prognose rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige for ivosidenib i denne evidenssamling, og ingen oprindelig godkendt indikation er registreret. Som følge heraf kan den farmakologiske begrundelse, der forbinder ivosidenib til den forudsagte indikation (bulbær poliomyelitis), ikke vurderes ud fra de data, der i øjeblikket er på fil.
+Detaljerede data om virkningsmekanisme er i øjeblikket ikke tilgængelige i DrugBank-udtrækket. Ivosidenib er dog kendt som en hæmmer af mutant IDH1, der blokerer den onkogene produktion af 2-hydroxyglutarat (2-HG). Lægemidlet er rettet mod kræftceller med IDH1-mutation.
 
-Uden en etableret oprindelig indikation eller virkningsmekanisme at sammenligne med bør denne prognose behandles som en ren modeltgeneret hypotese (kun TxGNN-score) snarere end et mekanistisk begrundet signal. Uafhængig verifikation af ivosidenib's farmakologi og dets plausibilitet for en viral/neurologisk tilstand såsom bulbær poliomyelitis er nødvendig, før denne kandidat kan evalueres yderligere.
+Bulbær polio er en virusinfektion i motorneuroner forårsaget af poliovirus. Der er ingen plausibel mekanistisk forbindelse mellem hæmning af mutant IDH1 og behandling af en poliovirusinfektion. Den høje score (0,993) skyldes sandsynligvis et artefakt i vidensgrafen. Hverken kliniske forsøg eller litteratur understøtter den.
 
----
+### Øvrige forudsigelser
 
-## Bevis fra kliniske forsøg
+Modellen har også forudsagt to indikationer, som har en indirekte, mere rimelig forbindelse til lægemidlets kendte anvendelse:
 
-Der er i øjeblikket ingen tilknyttede registrerede kliniske forsøg.
+| Forudsagt indikation | Score | Evidensniveau | Anbefaling |
+|------|------|------|------|
+| AML og MDS relateret til alkylerende midler | 99,26 % | L4 | Forskningsspørgsmål |
+| AML og MDS relateret til stråling | 99,26 % | L4 | Forskningsspørgsmål |
 
----
-
-## Litteraturbevis
-
-Der er i øjeblikket ikke tilgængeligt tilknyttet litteraturbevis.
-
----
-
-## Markedsinformation for Danmark
-
-Ivosidenib har ingen markedsføringstilladelse på fil i Danmark (0 licenser registreret; markedsstatus: ikke markedsført).
+Behandlingsrelateret AML/MDS overlapper med IDH1-muterede myeloide maligniteter. En eventuel effekt vil derfor kun kunne forventes hos patienter med IDH1-mutation. Mutationsstatus er ikke verificeret i de foreliggende data, og der er ingen forsøg eller litteratur for disse indikationer.
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk forsøgsevidens
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
-
-*Bemærk: Et blokerende datahul er blevet identificeret — advarsler og kontraindikationer fra produktetiket/TFDA er endnu ikke tilgængelige, hvilket forhindrer en foreløbig sikkerhedsvurdering (S1).*
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Afgørelse: Afvent**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106749422 | Tibsovo (Les Laboratoires Servier) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i data |
+
+Administrationsvej: oral.
+
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet behandling (IDH1-hæmmer) |
+| Knoglemarvssuppression, kvalme/opkastning, monitorering og håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold** (for bulbær polio)
 
 **Begrundelse:**
-Denne kandidat har ingen understøttende kliniske forsøg eller litteratur (Evidensniveau L5 — kun modelprognose), ingen dokumenteret oprindelig indikation eller virkningsmekanisme, og medicinen markedsføres ikke i øjeblikket i Danmark. Et blokerende datahul vedrørende sikkerhedsmærkning forhindrer desuden enhver foreløbig risikovurdering.
+- Forudsigelsen om bulbær polio har kun modelstøtte (L5) og ingen plausibel mekanistisk forbindelse. Der er hverken forsøg eller litteratur, og sikkerhedsdata mangler helt.
+- De to forudsagte AML/MDS-indikationer (L4) er mekanistisk mere rimelige, men er afhængige af IDH1-mutationsstatus. De bør behandles som forskningsspørgsmål.
 
-**For at komme videre er følgende nødvendigt:**
-- Oprindelig indikation og bekræftet virkningsmekanisme (MOA) for ivosidenib
-- Officielle produktetiket-/SmPC-data (advarsler, kontraindikationer) for at løse det blokerende datahul
-- Data om medicin-medicin-vekselvirkninger (DDI) (nuværende søgning returnerede ingen resultater)
-- Bevis fra kliniske forsøg eller litteratur, der specifikt evaluerer ivosidenib ved bulbær poliomyelitis, givet det nuværende fuldstændige fravær af understøttende studier
-
+**For at komme videre kræves:**
+- Lægemiddelstyrelsens produktresumé med advarsler og kontraindikationer. Mangler dette, kan sikkerhedsscreeningen ikke gennemføres.
+- Data om virkningsmekanisme (MOA) fra DrugBank.
+- Den godkendte indikationstekst for Tibsovo i Danmark.
+- For AML/MDS-sporet: en litteratur- og forsøgsgennemgang med fokus på behandlingsrelateret AML/MDS og verifikation af IDH1-mutationsstatus.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

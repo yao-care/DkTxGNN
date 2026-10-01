@@ -2,7 +2,7 @@
 layout: default
 title: Oxygen
 parent: Kun modelforudsigelse (L5)
-nav_order: 326
+nav_order: 327
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxygen: Fra ubetegnet oprindelig indikation til tørt øjne-syndrom
+# Oxygen: Fra ukendt oprindelig indikation til tørre øjne (dry eye syndrome)
 
-## En-linies opsummering
+## Resumé i én sætning
 
-Oxygen (DrugBank DB09140) har i øjeblikket ingen oprindelig indikation eller data om virkningsmekanisme tilgængelige i denne evidenspakke. TxGNN-modellen forudsiger en mulig sammenhæng med **Tørt øjne-syndrom**, men denne er udelukkende baseret på en videnskabsgraf-prediktion-score på **93.22%** — der findes **ingen understøttende kliniske forsøg** og **ingen understøttende publikationer**, og evidenspakkens egen mekanistisk vurdering finder ingen direkte fysiologisk grundlag for sammenhængen.
+Oxygen er en medicinsk gas, som er markedsført i Danmark som komprimeret medicinsk gas, men der er ikke registreret nogen godkendt indikationstekst i de foreliggende data.
+TxGNN-modellen forudsiger, at oxygen kan have effekt mod **tørre øjne (dry eye syndrome)**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
-## Hurtig oversigt
+---
 
-| Element | Indhold |
+## Hurtigt overblik
+
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig — ingen oprindelig indikation er registreret i evidenspakken |
-| Forudsagt ny indikation | Tørt øjne-syndrom |
-| TxGNN-prediktion-score | 93.22% |
+| Oprindelig indikation | Ikke tilgængelig (ingen godkendt indikationstekst i de danske data) |
+| Forudsagt ny indikation | Dry eye syndrome (tørre øjne) |
+| TxGNN-forudsigelsesscore | 93,22 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvent |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
+
+---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om virkningsmekanisme for Oxygen er i øjeblikket ikke tilgængelige i denne evidenspakke, og ingen oprindelig godkendt indikation er dokumenteret enten, så en mekanistisk sammenligning mellem den oprindelige og forudsagte indikation kan ikke foretages.
+Der er på nuværende tidspunkt ikke tilgængelige data om oxygens detaljerede virkningsmekanisme, og der er ikke registreret nogen oprindelig indikation i datagrundlaget. Forudsigelsen hviler derfor alene på modellens score.
 
-Den af TxGNN genererede begrundelse for denne kandidat anfører eksplicit, at der ikke er nogen direkte fysiologisk mekanisme, der understøtter systemisk eller topisk iltbehandling ved tørt øjne-syndrom. Det foreslåede sammenhæng — mellem ilt og tårefilms stabilitet eller regeneration af korneaepitel — er kun beskrevet som en indirekte hypotese (den "oxidativ stress-hypotesen"), uden understøtning fra mekanistisk litteratur.
+En spekulativ forbindelse kunne være hornhindens iltforsyning og hypoxi på øjets overflade. Intet i de foreliggende data understøtter dog denne hypotese. Oxygen er en medicinsk gas og ikke en typisk småmolekylær kandidat, så forudsigelsen kan afspejle generel forbindelsesstruktur i vidensgrafen snarere end en reel farmakologisk sammenhæng.
 
-I kraft af kombinationen af manglende data om oprindelig indikation/virkningsmekanisme og evidenspakkens egen vurdering af, at den mekanistiske forbindelse er spekulativ, bør denne forudsigelse betragtes som et svagt signal fra vidensgrafen snarere end som en farmakologisk funderet hypotese.
+Modellen har også rangeret andre indikationer, men ingen af dem har kliniske forsøg eller litteratur bag sig:
 
-## Klinisk forsøgs-evidens
+| Rang | Forudsagt indikation | TxGNN-score | Evidensniveau |
+|------|------|------|------|
+| 1 | Dry eye syndrome (tørre øjne) | 93,22 % | L5 |
+| 2 | Dermatitis | 92,34 % | L5 |
+| 3 | Acrodermatitis chronica atrophicans | 90,71 % | L5 |
+| 4 | Neonatal dermatomyositis | 90,63 % | L5 |
+| 5 | Non-syndromic esophageal malformation (ikke-syndromisk misdannelse af spiserøret) | 90,58 % | L5 |
 
-Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
+Bemærk: Datasættet indeholder hver indikation to gange (dubletter). Tabellen viser hver indikation én gang.
 
-## Litteratur-evidens
+---
 
-Der er i øjeblikket ingen tilgængelig relateret litteratur.
+## Evidens fra kliniske forsøg
+
+Der er på nuværende tidspunkt ikke registreret relevante kliniske forsøg.
+
+---
+
+## Evidens fra litteraturen
+
+Der er på nuværende tidspunkt ingen relevant litteratur tilgængelig.
+
+---
 
 ## Information om det danske marked
 
-Oxygen har i øjeblikket ingen markedsføringstilladelser i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser registreret).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103926106 | Conoxia 100 % (Linde Gas) | Medicinsk gas, komprimeret | Ikke angivet i data |
 
-## Sikkerhedshensyn
+---
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger.
+## Sikkerhedsovervejelser
 
-## Konklusion og næste trin
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Afgørelse: Afvent**
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der findes ingen kliniske forsøg eller litteraturbevis for ilt ved tørt øjne-syndrom, data om virkningsmekanisme er utilgængelige, og evidenspakkens egen mekanistisk vurdering fandt ingen plausibel fysiologisk sammenhæng mellem iltterapien og tørt øjne-syndrom. Oxygen har desuden ingen markedsføringstilladelse i Danmark, så der er i øjeblikket ingen regulatorisk eller kommerciel indgang til at handle på det.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg, litteratur eller mekanistisk data. Der er ingen biologisk begrundelse i datagrundlaget, og forudsigelsen kan være en artefakt af vidensgrafen.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/SmPC etiket-advarsler og kontraindikationer (i øjeblikket et blokerende datahul — påkrævet inden enhver sikkerhedsforvurdering)
-- Virkningsmekanisme-data (MOA) for Oxygen
-- Historik for oprindelig godkendt indikation
-- Prækliniske eller mekanistiske studier, der specifikt evaluerer iltbehandling ved tørt øjne-sygdom
-- Bekræftelse af markedsføringstilladelsestatus i Danmark/EU, såfremt kommerciel tilgængelighed senere overvejes
+**For at komme videre kræves følgende:**
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende datamangel)
+- Data om virkningsmekanisme (MOA), fx via DrugBank
+- Den godkendte indikation for Conoxia 100 %
+- Systematisk litteratur- og forsøgssøgning for oxygen ved tørre øjne
+- Vurdering af administrationsvej: oxygen er en komprimeret medicinsk gas, og det er uafklaret, om den kan anvendes til okulær behandling
+- Specifik sikkerhedsvurdering, hvis neonatal anvendelse overvejes (risiko for iltforgiftning)
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Mannitol
 parent: Kun modelforudsigelse (L5)
-nav_order: 276
+nav_order: 277
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mannitol: Fra en udokumenteret oprindelig indikation til Nefrogen Syndrom for Upassende Antidiurese
+# Mannitol: Fra osmotisk diuretikum til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
 
-## Sammendrag i én sætning
+## Resumé i få sætninger
 
-Mannitols oprindelige godkendt indikation er ikke registreret i denne bevismappe (ingen danske markedsføringstilladelser og ingen anførte oprindelige indikationer blev fundet for DrugBank ID DB00742). TxGNN-modellen forudsiger potentiel aktivitet i **Nefrogen Syndrom for Upassende Antidiurese (NSIAD)**, en sjælden V2-receptor-lidelse med øget funktion, men dette understøttes i øjeblikket kun af **0 kliniske forsøg** og kun **1 tangentielt relateret publikation**, hvilket gør beviset rent teoretisk på dette stadium.
+Mannitol er et osmotisk diuretikum. I Danmark er det markedsført som inhalationspulver (Bronchitol). Den oprindelige indikationstekst er ikke registreret i de foreliggende danske data.
+TxGNN-modellen forudsiger, at mannitol kan have effekt på **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**.
+Forudsigelsen understøttes af **0 kliniske forsøg** og **1 oversigtsartikel** om hyponatriæmi, som ikke undersøger mannitol som behandling. Det biologiske grundlag er svagt, og forudsigelsen anbefales ikke fulgt op.
 
-## Hurtig oversigt
+---
 
-| Emne | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke dokumenteret i tilgængelige data (ingen licenser eller oprindelige indikationer på fil) |
-| Forudsagt ny indikation | Nefrogen Syndrom for Upassende Antidiurese (NSIAD) |
-| TxGNN-forudsigelsesscore | 99.97% |
-| Bevisniveau | L5 |
-| Status på Danmarks marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvente |
+## Hurtigt overblik
 
-## Hvorfor er denne forudsigelse fornuftig?
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de danske registerdata (mannitol er generelt kendt som osmotisk diuretikum) |
+| Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
+| TxGNN-forudsigelsesscore | 99,97 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-Detaljerede mekanisme-for-handling-data for Mannitol er ikke tilgængelige i denne bevismappe (markeret som højt-kritisk datakløft, DG002). Hvad der kan udledes fra selve bevisemappen, er, at Mannitol funktionelt er et **osmotisk diuretikum** — en klasse kendt for at øge udskillelsen af frit vand ved at hæve osmoraliteten af tubulær væske.
+---
 
-NSIAD er en sjælden tilstand, hvor vasopressin V2-receptoren er konstitutivt aktiv uafhængigt af ADH, hvilket producerer en antidiuretisk (væske-tilbageholdende, hyponatriæmisk) tilstand. Standardbehandling afhænger af væskerestriktion, urinstof eller vaptan-klasse V2-receptor antagonister. Det teoretiske rationale for Mannitol er, at det som et osmotisk diuretikum kunne fremme udskillelsen af frit vand og hjælpe med at korrigere den hyponatriæmi, som ses i NSIAD.
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Dette link er imidlertid alene mekanistisk ræsonnement. Den eneste støttende publikation er en generel oversigt over faldgruber ved evaluering af hyponatriæmi og evaluerer ikke Mannitol som behandling for NSIAD specifikt. Ingen kliniske forsøg, case reports eller præ-kliniske studier, der direkte testede Mannitol i NSIAD, blev identificeret.
+Der foreligger ikke detaljerede data om mannitols virkningsmekanisme. Mannitol er kendt som osmotisk diuretikum, og dets virkning er dokumenteret i andre sammenhænge. Der er dog ikke fundet en mekanistisk forbindelse til NSIAD.
 
-## Bevis fra kliniske forsøg
+NSIAD skyldes aktiverende mutationer i vasopressin V2-receptoren (AVPR2). De giver vandretention og hyponatriæmi. Mannitol har ingen kendt virkning på V2-receptorsignalering. Mannitol kan desuden selv give translokationel hyponatriæmi, så en gavnlig effekt er mekanistisk usandsynlig.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Den høje TxGNN-score skyldes sandsynligvis en association i vidensgrafen via hyponatriæmi. Den har ikke noget klinisk grundlag.
 
-## Bevis fra litteratur
+Øvrige forudsagte indikationer (akut pulmonal hjertesygdom, anstrengelsesudløst malign hypertermi, disposition for malign hypertermi og familiær periodisk paralyse) er også vurderet som **Hold**. De har enten ingen relevant evidens eller peger på en mulig skade:
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
+- **Malign hypertermi:** Litteraturen handler om dantrolen. Mannitol er kun hjælpestof i intravenøse dantrolenpræparater.
+- **Akut pulmonal hjertesygdom:** Mannitols volumenekspansion kan udløse lungeødem.
+- **Familiær periodisk paralyse:** Osmotisk diurese kan forværre kaliumtab.
+
+---
+
+## Evidens fra kliniske forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for NSIAD.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Oversigt | European Journal of Internal Medicine | Generel oversigt over almindelige diagnostiske faldgruber ved evaluering af hyponatriæmi; evaluerer ikke Mannitol som behandling for NSIAD |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Oversigtsartikel | Eur J Intern Med | Ti hyppige faldgruber i udredningen af hyponatriæmi. Artiklen omhandler ikke mannitol som behandling af NSIAD. |
+
+---
 
 ## Markedsinformation for Danmark
 
-Mannitol har i øjeblikket ingen registrerede markedsføringstilladelser i Danmark i henhold til dette datasæt (markedsstatus: ikke markedsført; samlede tilladelser: 0).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28104617609 | Bronchitol | Inhalationspulver, hård kapsel | Pharmaxis Europe Limited |
 
-## Sikkerhedshensyn
+---
 
-Se venligst det godkendte Sammenfattende Produktkarakteristika (SmPC) for sikkerhedsinformation. (Ingen vigtige advarsler, kontraindikationer eller lægemiddel-vekselvirkningsdata blev fundet i denne bevismappe — et blokerende datakløft, DG001, som forhindrer en formel sikkerhedspre-screening.)
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-NSIAD-forudsigelsen hviler på en plausibel men ubekræftet mekanistisk hypotese (osmotisk diurese, som fremmer udskillelse af frit vand), uden kliniske forsøg og kun en indirekte relevant oversigtsartikel. Bevisniveau L5 (kun modelforudsigelse) understøtter ikke at gå videre end foreløbig forskningsmæssig gennemgang.
+Forudsigelsen har kun modelbaseret støtte (L5), og der er hverken kliniske forsøg eller relevant litteratur. Mekanismen taler imod en gavnlig effekt, fordi mannitol kan forårsage hyponatriæmi.
 
-**For at fortsætte er følgende nødvendigt:**
-- SmPC-oplysninger (advarsler, kontraindikationer) — i øjeblikket et blokerende datakløft for enhver sikkerhedspre-screening (DG001)
-- Detaljeret mekanisme-for-handling dokumentation for Mannitol (DG002)
-- Bekræftelse af Mannitols oprindelige godkendt indikation(er), som i øjeblikket er udokumenteret
-- Præ-klinisk eller case-niveau bevis, der direkte tester Mannitols effekt på serum-natrium/udskillelse af frit vand i NSIAD eller lignende tilstande i SIAD-spektret
-- Bekræftelse af markedsstatus og registreringsstatus i Danmark, da lægemidlet i øjeblikket er opført som ikke markedsført
+**For at komme videre kræves:**
+- Data om mannitols virkningsmekanisme (f.eks. fra DrugBank)
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Prækliniske eller mekanistiske data, der viser en effekt på AVPR2-signalering eller vandretention, før en klinisk vurdering overhovedet er relevant
 
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

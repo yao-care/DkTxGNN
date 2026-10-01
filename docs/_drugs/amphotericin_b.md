@@ -2,7 +2,7 @@
 layout: default
 title: Amphotericin B
 parent: Kun modelforudsigelse (L5)
-nav_order: 35
+nav_order: 36
 evidence_level: L5
 indication_count: 0
 ---

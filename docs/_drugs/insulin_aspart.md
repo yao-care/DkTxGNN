@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Aspart
 parent: Kun modelforudsigelse (L5)
-nav_order: 234
+nav_order: 235
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,100 +29,109 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Insulinaspart: Etableret brug i type 1-diabetes mellitus (datakløft markeret, ikke en kandidat til ny medicinsk anvendelse)
+# Insulin aspart: Til type 1-diabetes mellitus
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-> Insulinaspart (DrugBank DB01306) er et hurtigt virkende humaninsulin-analog. Fordi originalindikationens felt i denne evidenspakke er tomt, har modellen opstillet **type 1-diabetes mellitus** — insulinasparts egen velkendte kerneindikation — som topindikation med "forudsigelse", understøttet af **>50 kliniske forsøg** og **20 publikationer**. Dette er **ikke et ægte signal for medicinsk genudnyttelse**; det afspejler en datakløft-artefakt og bør læses som en mekanisme-/evidensbekræftelsesøvelse frem for et forslag til ny indikation.
-
----
-
-## Hurtigoversigt
-
-| Element | Indhold |
-|---------|---------|
-| Originalindikation | Ikke tilgængelig i denne evidenspakke (datakløft — `original_indications` er tomt, og der findes ingen dansk licenstekst at udtrække fra) |
-| Forudsagt ny indikation | Type 1-diabetes mellitus *(se forbehold nedenfor — dette er lægemidlets kendte etablerede indikation, ikke en kandidat til ny brug)* |
-| TxGNN-forudsigelsesscore | 99,95% |
-| Bevisniveau | L1 (≥2 afsluttede fase 3-randomiserede kontrollerede forsøg identificeret) |
-| Danmark-markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Fortsæt med forholdsregler *(til bekræftende/markedsindtradeningsformål — se Konklusion)* |
+Insulin aspart er et hurtigtvirkende insulinanalog, som erstatter manglende kropsegen insulin. TxGNN-modellen forudsiger, at det kan være effektivt ved **type 1-diabetes mellitus**. Retningen understøttes af **mange registrerede kliniske forsøg** (flere gennemførte fase 3-forsøg) og **18 publikationer**. Det er dog sandsynligt, at der er tale om en allerede godkendt anvendelse og ikke en egentlig ny anvendelse.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Detaljeret tekst om virkningsmekanisme er ikke tilgængelig i denne evidenspakke (`original_moa: [Datakløft]`). Baseret på de oplysninger, der er tilgængelige, er insulinaspart et hurtigt virkende humaninsulin-analog, hvor prolin ved position B28 er erstattet med asparaginsyre, hvilket accelererer subkutan absorption i forhold til regulært humaninsulin. Som alle insulinprodukter virker det ved at binde insulinreceptoren og aktivere PI3K/Akt- og MAPK-signaleringskaskadern, hvilket fremmer cellulær glucoseoptagelse, hepatisk glykogensyntese og undertrykkelse af hepatisk gluconeogenese.
-
-Type 1-diabetes mellitus forårsages af autoimmun ødelæggelse af pankreatiske β-celler, hvilket resulterer i absolut insulinmangel. Insulinaspart erstatter direkte dette manglende hormon — den mekanistiske forbindelse er direkte og velafklaret, ikke slutningbaseret.
-
-**Vigtigt forbehold:** Bevispackeens egen begrundelse for genudnyttelse markerer eksplicit, at dette *ikke* er en kandidat til genudnyttelse: "此項並非'老藥新用'候選，而是藥物已確立之核心適應症，資料庫因 `original_indications` 欄位缺失而將其列為預測項目" (dette element er ikke en kandidat til medicinsk genudnyttelse, men lægemidlets allerede etablerede kerneindikation; det blev kun anført som en "forudsigelse", fordi feltet `original_indications` er tomt). Den store mængde fase 3-evidens nedenfor bekræfter derfor en allerede kendt brug snarere end validerer en ny. Da insulinaspart **ikke er markedsført i Danmark**, er den praktiske værdi af denne evidens at understøtte en potentiel **markedsføringstilladelse**, ikke en genudnyttelsesvej.
-
-For fuldstændigheds skyld returnerede modellen også flere lavere-rangerede kandidater (autoimmun ooforitis, opsismodysplasi, thiaminresponsiv dysfunktion-syndrom, permanent neonatal diabetes mellitus) med høje råscorer men lidt eller ingen direkte klinisk eller mekanistisk støtte i denne pakke; disse er ikke uddybet yderligere her pr. rapporteringsomfang, men bør ikke forveksles med validerede genudnyttelsesledere.
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Type 1-diabetes mellitus |
+| TxGNN-forudsigelsesscore | 99,95 % |
+| Evidensniveau | L1 (men overvejende indirekte evidens, se nedenfor) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
-## Klinisk forsøgsevidenes
+## Hvorfor er forudsigelsen rimelig?
 
-| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
+Insulin aspart er et hurtigtvirkende insulinanalog. Det aktiverer insulinreceptoren, hvilket fremmer cellernes optagelse af glukose og hæmmer leverens glukoseproduktion. Det er den centrale farmakologi ved type 1-diabetes, hvor de insulinproducerende betaceller er ødelagt af autoimmunitet.
+
+Data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige i evidenspakken, og der er ikke registreret nogen oprindelig indikation. Beskrivelsen ovenfor bygger derfor på kendt farmakologi. Det bør verificeres, om type 1-diabetes allerede er en godkendt indikation i produktresuméet. Er den det, bør fundet ikke behandles som et egentligt repurposing-fund.
+
+De fundne fase 3-forsøg sammenligner mest basalinsuliner (fx degludec og detemir), hvor insulin aspart indgår som måltidsinsulin. De understøtter dermed behandlingsregimet og ikke insulin aspart som den testede variabel.
+
+---
+
+## Evidens fra kliniske forsøg
+
+Tabellen viser de 10 mest relevante af de registrerede forsøg. Der er ikke registreret EudraCT-numre i evidenspakken.
+
+| Forsøgsnr. | Fase | Status | Antal deltagere | Hovedindhold |
 |---------|------|------|------|---------|
-| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Fase 3 | Afsluttet | 598 | Multinationalt randomiseret kontrolleret forsøg sammenlignende insulindetemir + insulinaspart vs. NPH + humaninsulin i basal-bolus-regime for type 1-diabetes |
-| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Fase 3 | Afsluttet | 350 | 26-ugers + 26-ugers udvidelsesrandomiseret kontrolleret forsøg af degludec vs. detemir med insulinaspart som bolus hos børn/adolescenter med type 1-diabetes (BEGIN Young 1) |
-| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Fase 3 | Afsluttet | 834 | Globalt randomiseret kontrolleret forsøg af hurtigere virkendeultrakorte insulinaspart vs. NovoRapid, begge kombineret med degludec, hos børn/adolescenter med type 1-diabetes |
-| [NCT01134107](https://clinicaltrials.gov/study/NCT01134107) | Fase 3 | Afsluttet | 133 | Blindet cross-over randomiseret kontrolleret forsøg af insulinlispro vs. insulinaspart i CSII-pumpekartucher for type 1-diabetes |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Fase 3 | Afsluttet | 59 | Randomiseret kontrolleret forsøg sammenlignende sikkerhed for HMR1964 vs. insulinaspart i kontinuerlig subkutan insulininfusion (CSII) for type 1-diabetes |
-| [NCT01513590](https://clinicaltrials.gov/study/NCT01513590) | Fase 3 | Afsluttet | 394 | 26-ugers randomiseret kontrolleret forsøg af insulindegludec/aspart (IDegAsp) vs. BIAsp 30, begge med metformin, hos insulinnaïf type 2-diabetes |
-| [NCT04196231](https://clinicaltrials.gov/study/NCT04196231) | Fase 4 | Afsluttet | 258 | Randomiseret kontrolleret forsøg (BEYOND) evaluering af varighed af glykæmisk kontrol med basalinsulin/GLP-1-agonist eller SGLT-2-hæmmer vs. basal-bolus-regime hos type 2-diabetes |
-| [NCT06199505](https://clinicaltrials.gov/study/NCT06199505) | Fase 2 | Afsluttet | 153 | Randomiseret kontrolleret forsøg sammenlignende GZR101 vs. insulindegludec/aspart hos type 2-diabetes utilstrækkeligt kontrolleret med orale midler |
-| [NCT00675493](https://clinicaltrials.gov/study/NCT00675493) | I.a. (observationelt) | Afsluttet | 942 | 24-ugers observationelt studie af NovoMix 30 (bifasisk insulinaspart 30) for type 1-diabetes/type 2-diabetes glykæmisk kontrol (Rumænien) |
-| [NCT00700648](https://clinicaltrials.gov/study/NCT00700648) | I.a. (observationelt) | Afsluttet | 3024 | Multicenterstudie af intravenøs insulinaspart (NovoRapid) sikkerhed/effektivitet hos hospitaliserede patienter (Asien) |
+| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Fase 3 | Gennemført | 834 | Effekt og sikkerhed af hurtigere virkende insulin aspart vs. NovoRapid, begge sammen med insulin degludec, hos børn og unge med type 1-diabetes |
+| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Fase 3 | Gennemført | 598 | Insulin detemir + insulin aspart vs. NPH-insulin + humant opløseligt insulin ved basal-bolus-behandling af type 1-diabetes |
+| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Fase 3 | Gennemført | 350 | Degludec vs. detemir hos børn og unge (1-<18 år) med insulin aspart som bolusinsulin; 26 ugers behandling og 26 ugers forlængelse |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Fase 3 | Gennemført | 330 | Sikkerhedssammenligning af to fremstillingsprocesser for detemir med insulin aspart som bolusinsulin ved type 1-diabetes (52 uger) |
+| [NCT01134107](https://clinicaltrials.gov/study/NCT01134107) | Fase 3 | Gennemført | 133 | Dobbeltblindet crossover-forsøg: insulin lispro vs. insulin aspart i insulinpumpe (CSII) ved type 1-diabetes |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Fase 3 | Gennemført | 59 | Sikkerhedssammenligning af HMR1964 og insulin aspart i insulinpumpe, bl.a. kateterokklusioner og hypoglykæmi |
+| [NCT04711382](https://clinicaltrials.gov/study/NCT04711382) | Observationel | Gennemført | 438 | Erfaringer fra klinisk praksis med skift til hurtigere virkende insulin aspart (Fiasp) ved type 1-diabetes i Belgien |
+| [NCT05224258](https://clinicaltrials.gov/study/NCT05224258) | Ikke relevant (NA) | Gennemført | 240 | Evaluering af MiniMed 780G-systemet hos voksne og børn med type 1-diabetes, der bruger Fiasp |
+| [NCT03659799](https://clinicaltrials.gov/study/NCT03659799) | Fase 4 | Gennemført | 40 | Crossover-forsøg: hurtigtvirkende insulin aspart vs. Fiasp og glukoseudsving ved motion efter måltid ved type 1-diabetes |
+| [NCT05184868](https://clinicaltrials.gov/study/NCT05184868) | Fase 1 | Gennemført | 24 | Farmakodynamik og farmakokinetik for ultrahurtig insulin aspart (AT247) vs. NovoLog og Fiasp i insulinpumpe |
+
+Bemærk: Evidenspakken indeholder yderligere forsøg med bifasisk insulin aspart og insulin degludec/aspart, men de fleste er indirekte i forhold til insulin aspart alene. Kun få forsøg undersøger insulin aspart direkte (fx NCT04711382 og NCT05224258).
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtige resultater |
+| PMID | År | Type | Tidsskrift | Hovedindhold |
 |------|-----|------|------|---------|
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | Randomiseret kontrolleret forsøg | Lancet | ONWARDS 6: en gang ugentlig insulinicodec vs. en gang daglig degludec som del af basal-bolus-regime (med aspart som bolus) hos type 1-diabetes |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | Randomiseret kontrolleret forsøg | Lancet Diabetes & Endocrinology | EXPECT-forsøg: degludec vs. detemir, begge kombineret med insulinaspart, hos gravide kvinder med type 1-diabetes |
-| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Randomiseret kontrolleret forsøg/systematisk oversigt | Diabetes & Metabolism | Systematisk oversigt bekræftende effektivitet/sikkerhed for hurtigtvirkende insulinaspart vs. regulært humaninsulin hos type 1-diabetes og type 2-diabetes |
-| [41697686](https://pubmed.ncbi.nlm.nih.gov/41697686/) | 2026 | Oversigt | JAMA | Oversigt over type 1-diabetes patofysiologi (autoimmun β-celleødelæggelse) og epidemiologi, som understøtter insulinerstattingsrationale |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Oversigt | Lancet Diabetes & Endocrinology | Behandling af type 1-diabetes under graviditet, inklusiv brug af insulinanaloger og glykæmiske målværdier |
-| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Oversigt | Treatments in Endocrinology | Insulinaspart sænker HbA1c vs. regulært humaninsulin hos type 1-diabetes/type 2-diabetes randomiserede kontrollerede forsøg |
-| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Oversigt | Drugs | Oversigt over insulinasparts effektivitet/sikkerhed hos type 1-diabetes og type 2-diabetes behandling |
-| [25143741](https://pubmed.ncbi.nlm.nih.gov/25143741/) | 2014 | Oversigt | Vascular Health and Risk Management | Insulindegludec/aspart-kombination til type 1-diabetes og type 2-diabetes behandling |
-| [30789066](https://pubmed.ncbi.nlm.nih.gov/30789066/) | 2019 | Oversigt | Expert Opinion on Drug Metabolism & Toxicology | Oversigt over brug af degludec/aspart-premixinsulin hos type 1-diabetes |
-| [18710361](https://pubmed.ncbi.nlm.nih.gov/18710361/) | 2008 | Kohortestudie | Expert Opinion on Pharmacotherapy | Evidensbaseret oversigt over bifasisk insulinaspart 30 til type 1-diabetes behandling |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: ugentlig insulin icodec vs. daglig degludec som del af et basal-bolus-regime ved type 1-diabetes (fase 3a) |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludec vs. detemir, begge sammen med insulin aspart, hos gravide med type 1-diabetes (non-inferioritet) |
+| [37804858](https://pubmed.ncbi.nlm.nih.gov/37804858/) | 2023 | RCT | Lancet Diabetes Endocrinol | CopenFast: hurtigere virkende insulin aspart vs. insulin aspart under graviditet og efter fødslen, med fokus på fosterets vækst |
+| [40129237](https://pubmed.ncbi.nlm.nih.gov/40129237/) | 2025 | RCT (crossover) | Diabetes Obes Metab | Hurtigere virkende insulin aspart vs. insulin aspart hos voksne med type 1-diabetes, der bruger insulinpumpe og kontinuerlig glukosemåling |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematisk review | Diabetes Metab | Sammenligning af effekt og sikkerhed for insulin aspart og almindeligt humant insulin ved type 1- og type 2-diabetes |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Review | Drugs | Oversigt over insulin aspart ved type 1- og type 2-diabetes; i de fleste randomiserede ublindede forsøg gav insulin aspart lavere HbA1c end humant insulin |
+| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treat Endocrinol | Kort oversigt over insulin aspart; hurtigere optagelse end humant insulin efter subkutan injektion |
+| [39115159](https://pubmed.ncbi.nlm.nih.gov/39115159/) | 2024 | Kohorteanalyse (post hoc) | Diabet Med | Sikkerhed og effekt af insulin aspart vs. andre bolusinsuliner hos gravide med type 1-diabetes i klinisk praksis |
+| [41697686](https://pubmed.ncbi.nlm.nih.gov/41697686/) | 2026 | Review | JAMA | Generel oversigt over type 1-diabetes og dens mikro- og makrovaskulære komplikationer |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Opdatering om behandling af type 1-diabetes under graviditet: livsstil, medicin og teknologi |
 
 ---
 
-## Danmark-markedsinformation
+## Markedsinformation for Danmark
 
-Insulinaspart har i øjeblikket **ingen markedsføringstilladelser registreret i Danmark** (markedsstatus: Ikke markedsført; 0 licenser). Ingen Lægemiddelstyrelsen eller centraliserede EMA-autoritetsdata er tilgængelige i denne evidenspakke.
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28105905817 | Fiasp | Injektionsvæske, opløsning, hætteglas | Novo Nordisk A/S |
 
----
-
-## Sikkerhedshensyn
-
-Se venligst den godkendte Produktinformationstekst (SmPC) for sikkerhedsinformation. Der var ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata tilgængelige til ekstrahering fra denne evidenspakke (DDI-forespørgselsstatus: ikke fundet).
+Den godkendte indikationstekst er ikke angivet i datagrundlaget og skal verificeres i det danske produktresumé.
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Fortsæt med forholdsregler**
+Der foreligger ingen sikkerhedsdata i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Hypoglykæmi bør overvåges nøje.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Det kliniske forsøgs- og litteraturgrundlag for insulinaspart hos type 1-diabetes mellitus er omfattende og modent (flere afsluttede fase 3-randomiserede kontrollerede forsøg, årtiers publiceret evidens), men denne evidens bekræfter en **allerede etableret indikation**, ikke en ny genudnyttelsesmulighed — "forudsigelsen" opstod fra en datakløft i feltet `original_indications`, ikke en ægte modelbaseret hypotese.
-- Fordi produktet **ikke er markedsført i Danmark**, er den praktiske værdi af denne evidenspakke, at den understøtter, om man skal forfølge dansk markedsføringstilladelse for et insulinprodukt med en velkendt international sikkerhed- og effektivitetsrekord — ikke en genudnyttelsesevaluering.
+- Der findes flere gennemførte fase 3-forsøg ved type 1-diabetes, hvor insulin aspart indgår, og farmakologien er direkte relevant. Evidensen er dog overvejende indirekte, og anvendelsen er sandsynligvis allerede godkendt, så den er ikke et egentligt repurposing-fund.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/SmPC-ækvivalent dansk eller EU-mærkat-data (advarsler, kontraindikationer, forholdsregler) — i øjeblikket et **blokerende** datakløft, der forhindrer enhver S1-sikkerhedsforberedende vurdering
-- Bekræftet virkningsmekanisme-dokumentation fra DrugBank (i øjeblikket et **høj**-alvorlighed datakløft)
-- Korrektion af feltet `original_indications`, så fremtidige TxGNN-kørsler ikke gensurfacer lægemidlets egen kerneindikation som en "forudsagt ny indikation"
-- Hvis dansk markedsindtræden er det egentlige mål, en formel gennemgang af EMA/centraliseret tilladelsestatus for insulinaspart-produkter (f.eks. NovoRapid, Fiasp) og anvendelighed for det danske marked
+**For at komme videre kræves:**
+- Bekræftelse af den godkendte indikation og dosering i det danske produktresumé for Fiasp.
+- Sikkerhedsoplysninger (advarsler, kontraindikationer, interaktioner) fra Lægemiddelstyrelsen, da disse mangler i datagrundlaget.
+- Data om virkningsmekanisme fra DrugBank.
+- Plan for overvågning af hypoglykæmi.
 
+**Øvrige forudsigelser:**
+- Permanent neonatal diabetes mellitus (score 99,55 %, L3) er kategoriseret som et forskningsspørgsmål. Evidensen er kun én litteraturoversigt uden insulin aspart-specifikke data. Åbne spørgsmål er dosering, fortynding og hypoglykæmirisiko hos spædbørn.
+- Autoimmun oophoritis (L5), opsismodysplasi (L5) og thiaminresponsivt dysfunktionssyndrom (L5) er forudsigelser uden forsøg eller litteratur. Anbefalingen er Hold.
+
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

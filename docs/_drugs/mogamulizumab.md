@@ -2,7 +2,7 @@
 layout: default
 title: Mogamulizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 299
+nav_order: 300
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,95 +29,113 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mogamulizumab: Fra kutant T-celle-lymfom til urotelkarcinom i prostata-urethra
+# Mogamulizumab: Fra den registrerede anvendelse til urotelialt karcinom i urinvejene
 
-## Ét-sætnings-sammenfatning
+## Resumé
 
-Mogamulizumab (handelsnavn: Poteligeo) er et defucosyleret humaniseret anti-CCR4-monoklonalt antistof godkendt internationalt til rezidiverende eller refraktær mycosis fungoides og Sézary-syndrom – undertyper af kutant T-celle-lymfom (CTCL) – men er i øjeblikket ikke markedsført i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt til **urotelkarcinom i prostata-urethra**, en sjælden urologisk malignitet, med en forudsigelsesscore på **99.44%**.
-Der er imidlertid i øjeblikket **ingen kliniske forsøg eller publiceret litteratur**, der understøtter denne specifikke genbestemmelsesretning, hvilket gør dette til en rent modelsdrevet hypotese på dette tidspunkt.
+Mogamulizumab er et monoklonalt antistof mod CCR4, som markedsføres i Danmark under navnet Poteligeo. Den godkendte indikation fremgår ikke af de leverede data.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **prostatic urethra urothelial carcinoma** og fire beslægtede tumortyper.
+Der er **0 kliniske forsøg** og **0 publikationer** i datagrundlaget. Forudsigelsen er alene modelbaseret.
 
 ---
 
-## Hurtigoversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Original indikation | Mycosis fungoides (MF) og Sézary-syndrom (SS) – rezidiverende/refraktært kutant T-celle-lymfom (EMA/FDA godkendt globalt; ikke registreret i Danmark) |
-| Forudsagt ny indikation | Urotelkarcinom i prostata-urethra |
-| TxGNN-forudsigelsesscore | 99.44% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de leverede data |
+| Forudsagt ny indikation | Prostatic urethra urothelial carcinoma |
+| TxGNN-forudsigelsesscore | 99,44 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
+
+Datagrundlaget indeholder ti forudsigelser, men de er dubletter. Der er kun fem unikke indikationer:
+
+| Rang | Forudsagt indikation | Score |
+|------|------|------|
+| 1-2 | Prostatic urethra urothelial carcinoma | 99,44 % |
+| 3-4 | Kidney pelvis sarcomatoid transitional cell carcinoma | 99,42 % |
+| 5-6 | Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99,40 % |
+| 7-8 | Renal pelvis papillary urothelial carcinoma | 99,37 % |
+| 9-10 | Human herpesvirus 8-related tumor | 99,24 % |
+
+De fire urotelial-forudsigelser er nært beslægtede og afspejler sandsynligvis det samme underliggende signal. De bør behandles som ét forskningsspørgsmål og ikke som uafhængige bekræftelser.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor kan forudsigelsen være rimelig?
 
-For øjeblikket er detaljerede mekanismedata ikke tilgængelige fra Evidence Pack. Baseret på kendt farmakologisk information er mogamulizumab et defucosyleret IgG1-monoklonalt antistof, der specifikt målretter mod CC-chemokinreceptor 4 (CCR4). Dets primære mekanisme er antistof-afhængig cellulær cytotoxicitet (ADCC), som selektivt udtømmer CCR4-udtrykkende celler – især CCR4⁺ regulatoriske T-celler (Tregs) fundet i tumorens mikromiljø. I sin godkendte CTCL-indikation er CCR4 højt udtrykt på den maligne T-celle-population selv, hvilket gør det både til et direkte terapeutisk mål og en immunmodulator.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datapakken. Mogamulizumab er et anti-CCR4-antistof, der nedbryder CCR4-positive celler, herunder regulatoriske T-celler (Treg).
 
-Den mekanistiske begrundelse for genbestemmelse til urotelkarcinom i prostata-urethra centrerer på vending af immunundertrykkelse: ved at udtømme CCR4⁺ Tregs, der infiltrerer tumorens mikromiljø, kunne mogamulizumab teoretisk genoprette CD8⁺ cytotoksisk T-lymfocyt (CTL)-aktivitet og bryde immuntolerance. Forøget Treg-infiltration er blevet forbundet med dårlig prognose på tværs af en række solide tumorer, hvilket giver en bred biologisk begrundelse for denne klasse af stoffer ud over hæmatologiske maligniteiter.
+En hypotetisk sammenhæng er, at en reduktion af Treg-medieret immunsuppression i tumormikromiljøet kan understøtte et anti-tumor-immunrespons i urotelial cancer. Det er en generel immunonkologisk tankegang, og ingen forsøg eller publikationer i datagrundlaget understøtter den.
 
-Der er imidlertid tre kritiske usikkerheder, der undergraver tilliden til denne specifikke forudsigelse: (1) urotelkarcinom i prostata-urethra er en ekstremt sjælden histologisk subtype, og publicerede data om Treg-infiltrationsmønstre på denne lokalisation mangler praktisk talt; (2) CCR4-udtryk inden for denne særlige tumorsubtype er ikke blevet bekræftet i litteraturen; (3) den høje TxGNN-score afspejler sandsynligvis indirekte vidensgraforbindelser – "urotelkarcinom → immunoterapi → tumor → CCR4-vej" – snarere end direkte biologiske beviser. Forudsigelsen bør behandles som et hypotesegenererende signal udelukkende.
+Modellens grundlag kan ikke kontrolleres, fordi lægemidlets godkendte indikationer mangler i input. Der foreligger heller ikke data om CCR4-ekspression eller Treg-infiltration i de forudsagte tumortyper.
 
----
+For de sarkomatoide varianter (nyrebækken og blære) er tumorerne sjældne og aggressive. Her er der hverken kliniske data eller litteratur. En kombination med checkpoint-hæmmere er nævnt som en mulig hypotese for blæresarkomatoid variant, men uden støtte i data.
 
-## Klinisk forsøgsbeviser
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for mogamulizumab i urotelkarcinom i prostata-urethra.
+For HHV-8-relaterede tumorer er immunundvigelse og et dysreguleret T-celle-mikromiljø påpeget som mulig forbindelse. Der foreligger ingen forsøg, kasuistikker eller litteratur.
 
 ---
 
-## Litteraturbeviser
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for mogamulizumab i urotelkarcinom i prostata-urethra.
-
----
-
-## Markedsinformation for Danmark
-
-Mogamulizumab har i øjeblikket ingen markedsføringstilladelser i Danmark – hverken en national tilladelse via Lægemiddelstyrelsen eller en centraliseret EMA-tilladelse, der gælder for det danske marked.
-
-> **Note til foreskrivende læger**: Mogamulizumab er godkendt af EMA under varemærkenavnet **Poteligeo** til voksne patienter med mycosis fungoides eller Sézary-syndrom, som har modtaget mindst én tidligere systemisk terapi. Named-patient eller compassionate use-adgang kan være tilgængelig for godkendte indikationer – kontakt Lægemiddelstyrelsen for aktuelle adgangsforhold. Der findes ingen godkendt vej for den forudsagte indikation (urotelkarcinom i prostata-urethra).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Cytotoxicitet
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Oplysninger om markedet i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106022517 | Poteligeo (Kyowa Kirin Holdings B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i data |
+
+Produktet gives som infusion. Forenelighed med administrationsvej for de forudsagte indikationer er endnu ikke vurderet.
+
+---
+
+## Cytotoksicitet
+
+Afsnittet er medtaget, fordi de forudsagte indikationer er kræftsygdomme, og lægemidlet er et antistofbaseret kræftlægemiddel. DrugBank-kategorier og toksicitetsdata er ikke leveret.
 
 | Punkt | Indhold |
-|------|---------|
-| Cytotoxicitet-klassifikation | Målrettet immunoterapi – Anti-CCR4 defucosyleret monoklonalt antistof (ikke et konventionelt cytotoksisk stof) |
-| Myelosuppressionrisiko | Lav til moderat (lymfopeni er den primære hæmatologisk risiko; klassisk neutropeni/trombocytopeni er ikke et dominerende træk) |
-| Emetogenitets-klassifikation | Minimal (i overensstemmelse med det emetogene profil for monoklonale antistoffer som klasse) |
-| Overvågningspunkter | Komplet blodprocent med differentialtal (lymfocyttal), lever- og nyrefunktionstests, overvågning af infusionsreaktioner, vurdering af hudsensitivitet (alvorlige dermatologiske reaktioner, herunder Stevens-Johnson-syndrom og toksisk epidermal nekrolyse, er blevet rapporteret) |
-| Håndteringsbeskyttelse | Følg institutionelle retningslinjer for håndtering af cytotoksiske stoffer ved klargøring og bortskaffelse; standardforanstaltninger for biologiske produkter/monoklonale antistoffer gælder for administration |
+|------|------|
+| Cytotoksicitetsklassifikation | Immunterapi (monoklonalt antistof, ikke konventionel cytostatika) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Følg gældende lokale retningslinjer og SmPC |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Formelle sikkerhedsdata (godkendte advarsler, kontraindikationer og lægemiddelinteraktionsprofil) var ikke tilgængelige i denne Evidence Pack for den danske/EMA-registreringskontekst.
-
-Se venligst det godkendte produktinformationsblad (SmPC) for Poteligeo, tilgængeligt via EMA's europæiske offentlige vurderingsrapport (EPAR), for omfattende sikkerhedsinformation, herunder alvorlige immunformidlede bivirkninger (f.eks. alvorlig dermatitis, infusionsrelaterede reaktioner og infektioner).
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der er i øjeblikket ingen klinisk eller præ-klinisk beviser, der understøtter brugen af mogamulizumab til urotelkarcinom i prostata-urethra, og målet er en ekstremt sjælden histologisk subtype uden bekræftende biologiske data, der bekræfter CCR4-udtryk eller Treg-involvering på dette specifikke anatomiske sted. At fortsætte uden grundlæggende biomarkør- og sikkerhedsdata ville ikke opfylde minimumstærsklen for et ansvarligt genbestemmelesprogram.
+Forudsigelsen er udelukkende modelbaseret (L5, beslutningsfase S0) uden kliniske forsøg eller litteratur. Kritiske data om godkendte indikationer, virkningsmekanisme og sikkerhed mangler, så der kan ikke gennemføres en sikkerhedsscreening.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Lægemiddelstyrelsens produktresumé med advarsler og kontraindikationer (blokerende datamangel)
+- Godkendte indikationer og detaljerede MOA-data, f.eks. fra DrugBank
+- Systematisk litteratur- og forsøgssøgning for urotelialt karcinom og HHV-8-relaterede tumorer
+- Præklinisk eller translationel dokumentation for CCR4-ekspression og Treg-infiltration i de forudsagte tumortyper
+- Vurdering af ligheden med den oprindelige indikation og af forenelighed med administrationsvej
 
-- **Biomarkørvalidering**: Bekræft CCR4-udtryk og kvantificér CCR4⁺ Treg-infiltration i urotelkarcinom-væv i prostata-urethra (immunohistokemi og/eller flowcytometri i arkiverede eller prospektive prøver)
-- **Præ-klinisk beviser**: Etablér in vitro eller in vivo antitumoraktivitet af mogamulizumab i urotelkarcinom-cellelinje eller dyremodeller
-- **Sikkerhedsdatahentning**: Indhent og gennemgå det fulde EMA SmPC (Poteligeo), herunder alle advarsler, kontraindikationer og særlige populationdata, der er relevante for en urothelkarcinom-patientpopulation
-- **Bredere litteraturgennemgang**: Søg efter mogamulizumab-beviser i den bredere urothelkarcinom-kategori (ikke begrænset til denne sjældne subtype) for at afgøre, om der findes indirekte understøttende data
-- **Præcisering af regulatorisk vej**: Fastslå, om et klinisk forsøg eller named-patient adgangsprogram i Danmark er gennemførligt, og hvilke Lægemiddelstyrelsen-krav der ville gælde for off-label eller investigativ brug i en solid tumor-indikation
-
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

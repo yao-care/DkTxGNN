@@ -2,7 +2,7 @@
 layout: default
 title: Ustekinumab
 parent: Høj evidens (L1-L2)
-nav_order: 462
+nav_order: 464
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,95 +29,101 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ustekinumab: Fra Psoriasis/Crohns sygdom til Dermatitis (Atopisk Dermatitis)
+# Ustekinumab: Fra plaque-psoriasis til dermatitis
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-Ustekinumab (Stelara) er et humant monoklonalt antistof oprindeligt udviklet til plak psoriasis, psoriasis-artritis, Crohns sygdom og ulcerøs colitis. TxGNN-modellen forudsiger, at det også kan være effektivt for **dermatitis**, mest konkret **atopisk dermatitis**, med **7 kliniske studier** og **20 publikationer** identificeret i denne evidenspakke. Lægemidlet er i øjeblikket ikke markedsført i Danmark, og vigtig sikkerhedsdokumentation (SmPC-advarsler/kontraindikationer) mangler stadig.
+Ustekinumab er et monoklonalt antistof mod IL-12/IL-23, der er kendt som behandling af plaque-psoriasis, psoriasisartrit, Crohns sygdom og colitis ulcerosa. TxGNN-modellen forudsiger, at det kan have effekt ved **dermatitis** (i praksis især atopisk dermatitis). Forudsigelsen understøttes af **2 gennemførte fase 2-RCT'er med direkte relevans** og **flere systematiske reviews**. Resultaterne i litteraturen er dog beskedne eller uens.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke tilgængelig i danske licenserings-data (ingen markedsføringstilladelser på fil); internationalt godkendt til plak psoriasis, psoriasis-artritis, Crohns sygdom og ulcerøs colitis (ifølge litteratur, PMID 36208443) |
-| Forudsagt ny indikation | Dermatitis (evidens koncentreret omkring atopisk dermatitis) |
-| TxGNN-forudsigelsesscore | 99,99% |
-| Bevisniveau | L2 |
-| Marks status i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvente |
+| Oprindelig indikation | Ikke angivet i den danske registrering. Litteraturen nævner plaque-psoriasis, psoriasisartrit, Crohns sygdom og colitis ulcerosa |
+| Forudsagt ny indikation | Dermatitis |
+| TxGNN-forudsigelsesscore | 99,99 % |
+| Evidensniveau | L2 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede mekanisme-for-virkning-data er ikke tilgængelige fra den danske regulatoriske post eller DrugBank-udtræk, som blev brugt til at bygge denne pakke (markeret som en alvorlig datagap). Baseret på litteraturbevis i denne pakke (PMID 27304428) er ustekinumab et fuldt humant IgG1-monoklonalt antistof, der binder den delte p40-underenhed af interleukin-12 (IL-12) og interleukin-23 (IL-23), hvilket blokerer downstreamaktivering af Th1-, Th17- og Th22-veje. Denne mekanisme ligger til grund for dets godkendte effektivitet ved psoriasis, psoriasis-artritis, Crohns sygdom og ulcerøs colitis — alle tilstande med en stærk Th17-drevet inflammatorisk komponent.
+Ustekinumab blokerer p40-underenheden, som IL-12 og IL-23 har til fælles. Det dæmper Th1-, Th17- og Th22-signalering. Detaljerede mekanismedata fra DrugBank mangler i datagrundlaget, så beskrivelsen bygger på almen viden og ikke på inputdata.
 
-Atopisk dermatitis og psoriasis er begge kroniske inflammatoriske hudsygdomme, og der er biologisk plausibilitet for overlappeeffektivitet: flere publikationer i denne pakke (PMID 29164954, PMID 29098604) bemærker, at Th17/Th22-aktivitet bidrager til atopisk dermatitis-patologi sammen med den klassisk dominerende Th2-akse, hvilket giver en begrundelse for IL-12/23-blokade.
+Atopisk dermatitis er primært Th2-drevet, men Th17- og Th22-aktivering bidrager i nogle undertyper, fx hos asiatiske patienter, børn og ved intrinsisk AD. Mekanismen er derfor plausibel, men kun delvist dækkende. Psoriasis og dermatitis er begge kroniske inflammatoriske hudsygdomme, men med forskellige immunveje.
 
-Dog er denne begrundelse ikke så stærk som for de godkendte indikationer. Virkelig verden og systematisk-review-evidens i denne pakke (PMID 33849369, PMID 33074565) rapporterer inkonsistente resultater for ustekinumab ved atopisk dermatitis, hvilket afspejler, at AD er mere heterogen og Th2-dominant end psoriasis. Det mekanistiske link bør derfor betragtes som plausibelt, men ikke endnu fast etableret.
+TxGNN-scoren på ca. 0,9999 skal ikke læses som klinisk bevis. De sammenfattede fase 2-studier og metaanalyser tyder på beskeden eller inkonsistent effekt.
 
 ---
 
-## Klinisk prøvebevis
+## Evidens fra kliniske forsøg
 
-| Prøvenummer | Fase | Status | Rekruttering | Vigtige resultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Fase 2 | Afsluttet | 79 | Randomiseret, blindt, placebo-kontrolleret studie af ustekinumab hos japanske voksne med alvorlig atopisk dermatitis |
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Fase 2 | Afsluttet | 32 | Pilot-RCT af ustekinumab ved kronisk atopisk dermatitis med suboptimalt respons på tidligere behandling |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Fase 2/3 | Rekruttering | 45 | Suge-blister-model, der sammenligner biologiske anti-inflammatoriske terapi inden for hudinflammation |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Fase 3 | Afsluttet | 676 | CLEAR-studie: secukinumab vs. ustekinumab ved moderat til alvorlig plak psoriasis (ikke atopisk dermatitis; inkluderet under bredere "dermatitis"-tag) |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Endnu ikke rekruttering | 10 | Test af mikroanordning FDA-godkendte atopisk dermatitis/psoriasis-lægemidler direkte i hud |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Afsluttet | 1000 | Farmakogenetisk observationsstudie af 10-års overlevelse af biologisk terapi ved kutaneus psoriasis |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Afsluttet | 126 | Kardiovaskulær risiko-vurdering hos patienter med alvorlig psoriasis behandlet med biologiske midler |
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Fase 2 | Gennemført | 79 | Randomiseret, dobbeltblindet, placebokontrolleret studie af 2 doser ustekinumab hos voksne japanske patienter med svær atopisk dermatitis |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Fase 2 | Gennemført | 32 | Randomiseret pilotstudie ved kronisk atopisk dermatitis med suboptimal respons på tidligere behandling. Lille og eksplorativt |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Fase 2/3 | Rekrutterer | 45 | Kontaktdermatitismodel med biologiske lægemidler og sugeblister til at undersøge hudens inflammation. Mekanistisk, ikke et effektforsøg |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Fase 3 | Gennemført | 676 | Secukinumab sammenlignet med ustekinumab ved plaque-psoriasis (CLEAR). Ikke dermatitis |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Rekrutterer ikke endnu | 10 | Mikroenhed til lokal afprøvning af lægemidler i huden ved atopisk dermatitis og psoriasis. Metodestudie |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | Ikke relevant | Gennemført | 1000 | Retrospektivt observationelt farmakogenetisk studie af biologisk behandlings holdbarhed ved psoriasis |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | Ikke relevant | Gennemført | 126 | Observationelt studie af kardiovaskulær risiko hos patienter med svær psoriasis i biologisk behandling |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtige resultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Fase 2) | Experimental Dermatology | Ustekinumab (IL-12/IL-23p40-antagonist) vurderet for effektivitet/sikkerhed ved moderat til alvorlig atopisk dermatitis, n=33 |
-| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Fase 2) | British Journal of Dermatology | Randomiseret, blindt, placebo-kontrolleret studie af ustekinumab hos japanske patienter med alvorlig atopisk dermatitis |
-| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematisk review/Meta-analyse | Allergy | EAACI-bevisvurdering af systemiske behandlinger (herunder ustekinumab) for moderat til alvorlig atopisk dermatitis |
-| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematisk review/Meta-analyse | American Journal of Clinical Dermatology | Evaluerer, om biologika, herunder ustekinumab, er effektive ved atopisk dermatitis |
-| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematisk review | Journal of Dermatological Treatment | Systematisk review af ustekinumab specifikt i behandling af atopisk dermatitis |
-| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatologic Therapy | Syntetiserer off-label-anvendelser af ustekinumab ud over dets godkendte indikationer |
-| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Observationel (Virkelig verden) | Journal of Dermatological Treatment | Virkelig verden-evidens om effektivitet af ustekinumab ved atopisk dermatitis; rapporterer blandede/modstridende resultater |
-| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | Observationel (Farmakovigilans) | International Immunopharmacology | FAERS-baseret virkelig verden-sikkerhedsanalyse af ustekinumab ved psoriasis/psoriasis-artritis |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Narrativ review | Children (Basel) | Gennemgår biologika/små molekyler, herunder ustekinumab, for peditrisk AD, psoriasis, alopecia areata og HS |
-| [35130397](https://pubmed.ncbi.nlm.nih.gov/35130397/) | 2021 | Review | Dermatology Online Journal | Gennemgår off-label-anvendelser af TNF-α og IL-12/23-inhibitorer (herunder ustekinumab) inden for dermatologi |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT | Br J Dermatol | Fase 2, dobbeltblindet, placebokontrolleret studie af ustekinumab ved svær atopisk dermatitis hos japanske patienter |
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT | Exp Dermatol | Fase 2, dobbeltblindet, placebokontrolleret studie hos 33 voksne med moderat til svær atopisk dermatitis |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematisk review/metaanalyse | Allergy | Vurdering af evidens for systemisk behandling af moderat til svær AD som grundlag for EAACI-retningslinje |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematisk review | J Dermatolog Treat | Vurdering af effekt og sikkerhed af ustekinumab ved atopisk dermatitis |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematisk review/metaanalyse | Am J Clin Dermatol | Er biologiske lægemidler effektive ved atopisk dermatitis? |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Kohorte (real-world) | J Dermatolog Treat | Real-world-analyse. Tidligere rapporter om ustekinumab ved AD er anekdotiske med modstridende resultater |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatol Ther | Gennemgang af off-label-anvendelser af ustekinumab |
+| [35130397](https://pubmed.ncbi.nlm.nih.gov/35130397/) | 2021 | Review | Dermatol Online J | Off-label-anvendelser af TNF-α-hæmmere og IL-12/23-hæmmere i dermatologi |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Review | Children (Basel) | Biologiske og målrettede småmolekylære lægemidler ved pædiatrisk AD, psoriasis, alopecia areata og HS |
+| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | Case-rapport | Australas J Dermatol | Kombination af dupilumab og ustekinumab ved svær AD og Crohns sygdom uden interferens efter 7 måneder |
 
 ---
 
-## Danmarks markedsinformation
+## Markedsinformation i Danmark
 
-Ustekinumab har i øjeblikket ingen registreret markedsføringstilladelse i det danske regulatoriske datasæt, der blev brugt til denne evaluering (0 tilladelser, markedsstatus: Ikke markedsført). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) autorisationsdetaljer er tilgængelige i denne evidenspakke.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst Produktresuméet (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel-interaktionsdata er i øjeblikket ikke tilgængelige i denne evidenspakke — dette er markeret som en **blokerende** datagap (DG001), hvilket betyder, at en formel sikkerhedsforrundersøgelse ikke kan fortsætte, før SmPC/mærkningen er indhentet fra den kilderegulatorsiske myndighed.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107170224 | ABSIMKY (Accord Healthcare S.L.U.) | Injektionsvæske, opløsning, hætteglas | Indikationstekst ikke angivet i datagrundlaget |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Afgørelse: Afvente**
+Datagrundlaget indeholder ingen oplysninger om advarsler eller kontraindikationer fra Lægemiddelstyrelsens produktresumé. Opslag i interaktionsdatabasen gav ingen fund. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Ud fra mekanismen er en generel bekymring, at hæmning af IL-12/23 kan svække Th1-medieret værtsforsvar mod infektioner.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Effektivitetsbevis for dermatitis/atopisk dermatitis-indikationen er begrænset til to afsluttede Fase 2-RCT'er med blandede virkelig verden-resultater (L2), endnu ikke med den styrke, der typisk kræves for at opveje den nuværende sikkerhedsdatagap.
-- En blokerende alvorligheds-datagap (DG001: manglende advarsler/kontraindikationer) forhindrer sikkerhedsforrundersøgelse, og lægemidlet har ingen eksisterende markedsføringstilladelse i Danmark for at forankre en regulatorisk vej.
+Der findes direkte fase 2-evidens ved atopisk dermatitis, men studierne er små, og resultaterne er beskedne eller uens. Mekanismen passer kun delvist, da AD primært er Th2-drevet. Sikkerhedsdata fra produktresuméet mangler desuden, så sikkerhedsscreeningen ikke kan gennemføres.
 
-**For at fortsætte, er følgende nødvendigt:**
-- Dansk/EU-godkendt SmPC (advarsler, kontraindikationer, DDI) for at løse DG001
-- Bekræftet mekanisme-for-virkning-dokumentation fra DrugBank/regulatorisk kilde for at løse DG002
-- Yderligere Fase 3-RCT-data specifikt til atopisk dermatitis (eller en defineret dermatitis-undertype) for at øge bevisniveauet ud over L2
-- Præcisering af, hvilken specifik "dermatitis"-undertype der er tilsigtet, da TxGNNs score dækker en bred sygdomsetiket, mens mest direkte prøvebevis vedrører specifikt atopisk dermatitis
+De øvrige forudsigelser (neonatal dermatomyositis, acne keloidalis, acrodermatitis chronica atrophicans og amyopatisk dermatomyositis) har kun modelbaseret støtte (L5) og ingen forsøg eller litteratur. Acrodermatitis chronica atrophicans er en borreliainfektion, hvor immunsuppression er uhensigtsmæssig, og forudsigelsen er sandsynligvis en artefakt.
 
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Mekanismedata (MOA) fra DrugBank
+- Samlet vurdering af effektstørrelser i de to fase 2-RCT'er og i metaanalyserne, helst med fase 3-data eller specifik undergruppeanalyse (fx Th17/Th22-dominerende AD)
+- Afklaring af indikationstekst for ABSIMKY i den danske registrering
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

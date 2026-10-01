@@ -2,7 +2,7 @@
 layout: default
 title: Marbofloxacin
 parent: Kun modelforudsigelse (L5)
-nav_order: 278
+nav_order: 279
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,103 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Marbofloxacin: Fra bakterieinfektioner (veterinær) til interventrikulær septum aneurisme
+# Marbofloxacin: Fra antibakteriel behandling til interventrikulær septumaneurisme
 
-## En-sætnings-sammenfatning
+## Resumé
 
-Marbofloxacin er et fluorokinolon-antibiotikum, der tilhører samme lægemiddelklasse som ciprofloxacin og levofloxacin; det er i øjeblikket godkendt udelukkende til **veterinær brug** (behandling af bakterieinfektioner hos hunde, katte og kvæg) og har ingen human markedsføringstilladelse i Danmark eller EU.
+Marbofloxacin er et fluorokinolon-antibiotikum, som virker ved at hæmme bakteriel DNA-gyrase og topoisomerase IV.
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **interventrikulær septumaneurisme** (score 95,4 %).
+Der findes dog **ingen kliniske forsøg** og **ingen relevant litteratur** for denne indikation, så forudsigelsen er udelukkende modelbaseret.
 
-TxGNN-modellen tildeler sin højeste forudsigelsesscore til **interventrikulær septum aneurisme** (95,37%), efterfulgt af pulmonalklap-sygdom, orofaciale spalter syndrom, Laubry-Pezzi syndrom og Pierre Robin syndrom — alle strukturelle eller udviklingsbetingede tilstande.
+## Hurtigt overblik
 
-Der er **ingen kliniske prøvebevis og ingen human litteratur** for nogen af disse forudsagte indikationer; den eneste indsamlede publikation er en veterinær reptilkasuistik, der beskriver marbofloxacins eksisterende antibakterielle brug, ikke en ny indikation.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (stoffet er et antibakterielt fluorokinolon) |
+| Forudsagt ny indikation | Interventrikulær septumaneurisme |
+| TxGNN-prædiktionsscore | 95,4 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-## Hurtig oversigt
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i Evidence Pack. Marbofloxacin er et fluorokinolon-antibiotikum, og stoffets virkning er knyttet til bakterielle enzymer.
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Bakterieinfektioner hos dyr (kun veterinær brug; ingen godkendt human indikation) |
-| Forudsagt ny indikation (Rang 1) | Interventrikulær septum aneurisme |
-| TxGNN forudsigelsesscore | 95,37% |
-| Bevisniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | **Afvent** |
+Interventrikulær septumaneurisme er en strukturel hjertefejl, og der er intet antibakterielt angrebspunkt. Der er derfor **ingen plausibel mekanistisk sammenhæng** mellem den oprindelige anvendelse og den forudsagte indikation. Scoren på 95,4 % er alene et modelresultat og er ikke understøttet af biologisk eller klinisk dokumentation.
 
----
+Modellen rangerer også følgende indikationer højt, men heller ikke her er der en plausibel mekanisme:
 
-## Hvorfor er denne forudsigelse rimelig?
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Pulmonalklapsygdom | 95,1 % | L4 | En sammenhæng er kun tænkelig ved infektiøs klapsygdom (endokarditis), ikke ved medfødt eller degenerativ sygdom |
+| Orofacialt klæftsyndrom | 95,0 % | L5 | Misdannelse uden antibakterielt angrebspunkt. Brug af fluorokinoloner under graviditet rejser desuden sikkerhedsspørgsmål |
+| Laubry-Pezzi syndrom | 95,0 % | L5 | Medfødt hjertetilstand, hvor antibakteriel virkning ikke har nogen klar rolle |
+| Pierre Robin syndrom (genetisk) | 94,9 % | L5 | Genetisk kraniofacial misdannelse uden antibakterielt angrebspunkt |
 
-Marbofloxacin er et fluorokinolon-antibiotikum af tredje generation. Som alle fluorokinoloner centrerer dets virkningsmekanisme sig omkring inhibering af bakteriel **DNA gyrase (topoisomerase II) og topoisomerase IV**, enzymer der er essentielle for bakteriel DNA-replikation og reparation. Denne antibakterielle virkningsmekanisme har ingen kendt biologisk skæringspunkt med patogenesen af hjertets strukturelle defekter.
+Bemærk: Evidence Pack indeholder dubletter (hver indikation optræder to gange), som her er samlet.
 
-I øjeblikket er detaljerede virkningsmekanisme-data specifikt for marbofloxacins farmakologi hos mennesker ikke tilgængelige i denne evidenspakke. Baseret på kendt information tilhører marbofloxacin fluorokinolon-klassen, dets antibakterielle effektivitet hos dyr er velkendt, og der er ingen mekanistisk begrundelse for, at topoisomerase-inhibering ville behandle — eller interagere med — hjertets strukturelle anomalier såsom interventrikulær septum aneurisme, som opstår fra embryonale udviklingsfejl eller postinfarktuel myokardiel remodellering.
+## Kliniske forsøg
 
-De høje TxGNN-scores på tværs af alle topplacerede forudsigelser skyldes mest sandsynligt **ikke-specifik samtidig forekomst af "hjertesygdoms"-knuder inden for vidensgrafens**, snarere end sande årsags- eller mekanistiske forhold. Dette er en kendt begrænsning af grafbaserede forudsigelsesmodeller, når lægemiddel-knuder er sparsomt forbundne: delt naboskab forstørrer forudsagte scores uden at afspejle ægte farmakologisk plausibilitet. Alle fem forudsagte indikationer (hjertets strukturelle defekter og kranio-ansigtsudviklingssyndrome) er mekanistisk uoverensstemmende med et antibakterielt middel; en forudsigelse (orofaciale spalter) bærer den yderligere bekymring, at fluorokinoloner vides at være potentielt skadelige for udviklings-brusk under graviditet.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
+## Litteratur
 
-## Klinisk prøvebeviser
+For den primære forudsagte indikation er der i øjeblikket ingen relateret litteratur.
 
-I øjeblikket ingen relaterede kliniske prøver registreret for nogen af de forudsagte indikationer.
+For pulmonalklapsygdom blev der fundet én publikation: [25831585](https://pubmed.ncbi.nlm.nih.gov/25831585/) (2015, *Journal of Zoo and Wildlife Medicine*). Det er en veterinær kasuistik om klapforandringer forenelige med endokarditis hos en argentinsk boa. Den er ikke human evidens og viser ikke effekt af marbofloxacin.
 
----
+## Markedsinformation i Danmark
 
-## Litteraturbevis
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28105029812 | Marbiflox | Tabletter (oral) | KRKA d.d. Novo mesto |
 
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|----------|----------------------|
-| [25831585](https://pubmed.ncbi.nlm.nih.gov/25831585/) | 2015 | Veterinær kasuistik | *Journal of Zoo and Wildlife Medicine* | Argentinsk boa med bakteriel endokarditis (Ochrobactrum intermedium, Pseudomonas putida) og incidentel pulmonalklap-forandringer; marbofloxacin anvendt som **antibakteriell** agens — dette er en beskrivelse af lægemidlets oprindelige antibakterielle indikation hos et krybdyr, ikke bevis for ændret brug hos mennesker |
+## Sikkerhedsmæssige overvejelser
 
-> **Bemærkning:** Denne eneste publikation udgør ikke bevis for nogen ny human indikation. Den beskriver marbofloxacins etablerede veterinære antibakterielle brug. Den bør ikke fortolkes som understøttelse af forudsigelsen om pulmonalklap-sygdom.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
----
+Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Det skal ikke tolkes som fravær af interaktioner.
 
-## Oplysninger om det danske marked
+## Konklusion og næste skridt
 
-Marbofloxacin har **ingen markedsføringstilladelse** i Danmark (Lægemiddelstyrelsen) og har ingen centraliseret EMA-godkendelse til human brug. Det er registreret som et **veterinært lægemiddel** i EU under Det Europæiske Lægemiddelagenturs rammeværk for veterinære lægemidler.
-
-Der er derfor ingen human-produkttilladelser at opregne.
-
----
-
-## Sikkerhedshensyn
-
-Detaljerede human sikkerhedsdata (advarsler, kontraindikationer, lægemiddelinteraktioner) er ikke tilgængelige i denne evidenspakke, da marbofloxacin ikke har nogen godkendt human indikation.
-
-**Klasse-niveau-overvejelser, der gælder for alle fluorokinoloner** (baseret på etableret farmakologisk klasseviden):
-
-- **Seneskader**: Fluorokinoloner er forbundet med tendinopati og seneruptur, især hos ældre patienter og dem på kortikosteroider. EMA har udstedt klasse-niveau-advarsler for human fluorokinoloner.
-- **QT-forlængelse**: Klasse-niveau-kardial risiko; risiko for torsades de pointes, især i kombination med andre QT-forlængende midler.
-- **Bruskskader og skeletal udvikling**: Kontraindikeret under graviditet og hos voksende børn for human fluorokinoloner; dyrestudier bekræfter ledbruskskader.
-- **CNS-effekter**: Kramper, forvirring og perifer neuropati er klasse-niveau-bivirkninger.
-- **Fotosensitivitet**.
-
-Disse klasse-niveau-risici er især relevante her, fordi **de topforudsagte indikationer omfatter udviklingssyndrome (orofaciale spalter, Pierre Robin syndrom), hvor patienter kan omfatte gravide kvinder og nyfødte** — populationer med højest risiko for fluorokinolon-toksicitet.
-
-For enhver human brugsvurdering skulle en fuldstændig human sikkerhedsvurdering (svarende til et Produktresumé) foretages fra første principper.
-
----
-
-## Konklusion og næste trin
-
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle ti topplacerede TxGNN-forudsigelser for marbofloxacin er hjertets strukturelle defekter eller kranio-ansigtsudviklingssyndrome, ingen af hvilke har nogen etableret biologisk forbindelse til lægemidlets antibakterielle virkningsmekanisme. Bevisgrundlaget er ensartet på niveau L5 (kun modelforudsigelse), med nul kliniske prøver og nul relevant human litteratur på tværs af alle forudsagte indikationer. Desuden er marbofloxacin ikke godkendt til human brug i Danmark eller hvor som helst i EU, hvilket betyder, at den regulatoriske og kliniske udviklingsvej skulle begynde fra fase 0.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller relevant litteratur, og der er ingen plausibel mekanistisk sammenhæng mellem et antibakterielt fluorokinolon og en strukturel hjertefejl. Sikkerhedsgennemgangen kan desuden ikke gennemføres, før produktresuméet er indhentet.
 
-**For at fortsætte ville følgende være påkrævet minimum:**
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer). Dette blokerer sikkerhedsscreeningen.
+- Indhent data om virkningsmekanisme fra DrugBank.
+- Bekræft den oprindelige godkendte indikation for Marbiflox.
+- Gennemfør en systematisk litteratursøgning efter human evidens, før forudsigelsen overvejes yderligere.
 
-- **Mekanistisk gen-evaluering**: Uafhængig biologisk vejanalyse for at identificere, om nogen plausibel mekanisme — ud over den antibakterielle handling — kunne forbinde marbofloxacin til nogen kardial eller udviklingsbetinget tilstand; nuværende evidens antyder stærkt, at dette er en vidensgraf-artefakt.
-- **Human sikkerhedsdata**: Et komplet human farmakokinetisk, toksikologisk og sikkerhedsdossier ville være påkrævet før enhver klinisk undersøgelse; marbofloxacin har aldrig undergået formel human klinisk udvikling.
-- **Regulatorisk præ-konsultation**: I betragtning af at dette er en veterinær-kun forbindelse, ville et møde før indsendelse med EMA eller Lægemiddelstyrelsen være nødvendigt for at bestemme gennemførligheden af et human udviklingsprogram.
-- **TxGNN-model-revision**: Mønsteret af høje scores, der klumper sig omkring urelaterede strukturelle/udviklingsbetingede sygdomme, berettiger en gennemgang af vidensgraf-naboskabet for marbofloxacin-knuden for at udelukke systematiske grafarter, før yderligere ressourcer investeres.
-- **Alternativ indikationshypotese-generering**: Hvis ændret brug af marbofloxacin er en prioritet, ville en infektionsrelateret indikation i human medicin (f.eks. resistente gram-negative infektioner, erhvervserhvervede luftvejsinfektioner) være mekanistisk langt mere forsvarlig og bør evalueres som en primær hypotese.
-
----
-
-> ⚠️ **Ansvarsfraskrivelse**: Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Ændret brug af lægemidler kræver klinisk validering før nogen terapeudisk anvendelse. Alt indhold bør gennemgås af kvalificerede sundhedsfaglige personer, før det informerer nogen klinisk eller regulatorisk beslutning.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

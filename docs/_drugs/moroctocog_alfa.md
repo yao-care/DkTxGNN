@@ -2,7 +2,7 @@
 layout: default
 title: Moroctocog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 300
+nav_order: 301
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,101 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moroctocog Alfa: Fra Hæmofili A til Primær Udskillelsesforstyrrelse af Blodplader
+# Moroctocog alfa: Fra hæmofili A til primær frigørelsesforstyrrelse i blodplader
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Moroctocog alfa (DB13999) er et rekombinant, B-domæne-slettet koagulationsfaktor VIII (rFVIII), der er etableret internationalt som erstatningsterapi for hæmofili A hos patienter med medfødt faktor VIII-mangel.
-TxGNN-modellen forudsiger, at det kan have nytte ved **primær udskillelsesforstyrrelse af blodplader** med en forudsigelsesscore på **99.97%**, men der er i øjeblikket **ingen direkte relevante kliniske forsøg eller publiceret litteratur**, der understøtter denne specifikke hypotese om lægemiddelgenbrugelse.
-Det foreslåede rationale er baseret på en indirekte mekanistisk slutning, og klinisk plausibilitet er ikke blevet uafhængigt bekræftet.
+Moroctocog alfa er rekombinant koagulationsfaktor VIII (B-domæne-deleteret), som anvendes til faktor VIII-substitution ved hæmofili A.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigørelsesforstyrrelse i blodplader** (primary release disorder of platelets).
+Forudsigelsen er rent beregningsbaseret: der er **ingen direkte relevante kliniske forsøg** og **ingen publikationer** for denne indikation.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Hæmofili A (medfødt faktor VIII-mangel — erstatningsterapi)¹ |
-| Forudsagt ny indikation | Primær udskillelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 99.97% |
-| Bevisniveau | L4 (kun mekanistisk/præ-klinisk slutning) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | **Afvent** |
-
-¹ Ikke registreret i Danmark; oprindelig indikation udledt fra lægemiddelklasse (rekombinant FVIII) og international regulatorisk status.
+|------|------|
+| Oprindelig indikation | Hæmofili A (ud fra lægemidlets kendte anvendelse; den danske licensdata indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Primær frigørelsesforstyrrelse i blodplader |
+| TxGNN-prædiktionsscore | 99,97 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Moroctocog alfa er et rekombinant B-domæne-slettet faktor VIII, der fungerer som en kritisk kofaktor i den intrinsiske koagulationsvej. Det danner tenase-komplekset (FVIIIa–FIXa) på aktiverede blodplade-fosffolipidoverflader, hvilket massivt forøger genereringen af trombin — det centrale effektor-molekyle for fibrinkoagel-dannelsen. Dets etablerede terapeutiske rolle er ved hæmofili A, hvor endogent FVIII er fraværende eller alvorligt reduceret.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Moroctocog alfa erstatter faktor VIII, som er en kofaktor i tenase-komplekset i koagulationskaskaden, og lægemidlets effekt ved hæmofili A er veletableret.
 
-Primær udskillelsesforstyrrelse af blodplader refererer til en gruppe af arvelige eller erhvervede tilstande, hvor blodplades tæt-granula (δ-granula) og/eller alfa-granula (α-granula) ikke kan frigive deres lagrede indhold — herunder ADP, ATP, serotonin, fibrinogen og von Willebrand-faktor — ved blodpladeaktivering. Denne sekretionsdefekt forstyrrer den positive feedback-amplifikationsloop i blodpladerekruttering, hvilket resulterer i nedsat primær hæmostase og en klinisk betydningsfuld blødningstendens. TxGNN-forudsigelsen er bygget på præmissen om, at supplerende FVIII teoretisk kunne kompensere ved at forbedre trombin-generering på resterende blodplade-fosffolipidoverflader, og dermed delvist opveje det svækkede blodpladeaktiveringssignal nedstrøms.
+Primære frigørelsesforstyrrelser i blodplader (defekter i granula-lagring og sekretion) er primære trombocytfunktionsforstyrrelser. Her er faktor VIII-niveauet normalt, og substitution med faktor VIII korrigerer ikke den underliggende defekt. Den meget høje TxGNN-score afspejler sandsynligvis nærhed mellem koagulations- og trombocytknuder i vidensgrafen snarere end en valideret mekanisme.
 
-Imidlertid er dette mekanistiske link meget indirekte og klinisk uprøvet. Moroctocog alfa virker nedstrøms for granule-sekretionstrinet — det interagerer ikke med den molekylære maskeri (SNARE-komplekser, RAB-GTPaser eller signalerings-kinaser) ansvarlig for granule-eksocytose. Forøgelse af tenase-kompleks-aktivitet kan ikke genoprette den primære sekretionsdefekt. Denne situation er analog med at levere mere brændstof til en motor, hvis tændstifter er slået fejl: brændstoftanken er fuld, men tændingen forbliver nedsat. Der er ingen dokumenteret klinisk erfaring med FVIII-administration ved blodplades udskillelsesforstyrrelse, og risiko-fordel-profilen i denne sammenhæng er helt ukendt.
-
----
-
-## Kliniske forsøgsbeviser
-
-> **Vigtig bemærkning:** Der blev ikke identificeret kliniske forsøg, der direkte undersøger moroctocog alfa eller noget rekombinant FVIII-produkt som behandling specifikt for primær udskillelsesforstyrrelse af blodplader. De syv forsøg, der blev hentet gennem bred nøgleordsøgning, modtog alle en relevanskarakter på **C** (ikke direkte anvendelig på denne genbrugshypotese) og er anført nedenfor kun for transparens skyld.
-
-| Forsøgsnummer | Fase | Status | Tilmeldte | Vigtigste resultater |
-|-------------|------|--------|-----------|--------------|
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | Rekrutterer | 200 | Observationsstudie af post-COVID-19-vaccinationssyndrom (PACVS); vurderer multi-systemsymptomer inklusiv træthed, kardial og neurologisk dysfunktion. Intet FVIII-indgreb — hentet på grund af overlapping med koagulationsnøgleord. |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Endnu ikke rekrutterer | 80 | Observationsstudie af klinisk-hæmatologiske og koagulationsprofiler hos nydiagnosticerede AML-patienter, der får induktionschemoterapia. Intet FVIII-indgreb. |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Fase 3 | Afsluttet | 30 | Sikkerhed og effektivitet af PEGyleret rFVIII (BAX 855, et særskilt produkt) hos tidligere behandlede mænd med svær hæmofili A under planlagt operation. Andet produkt; indikationen er hæmofili A, ikke blodplades udskillelsesforstyrrelse. |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | Rekrutterer | 25 | Virkning af kombineret DPMAS og terapeutisk plasmaudskiftning (ALSS) på primær koagulation og organfunktion ved akut-på-kronisk leversvigt. Intet FVIII-supplerings-komponent. |
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Fase 3 | Afsluttet | 159 | Profylakse og behandling efter behov med rFVIIIFc-VWF-XTEN (BIVV001) hos tidligere behandlede patienter ≥12 år med svær hæmofili A. Andet produkt og indikation; deler kun lægemiddelklasse. |
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Fase 3 | Afsluttet | 74 | Sikkerhed og effektivitet af BIVV001 hos tidligere behandlede pædiatriske patienter <12 år med svær hæmofili A. Andet produkt og indikation; deler kun lægemiddelklasse. |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | Rekrutterer | 45 | Eksplorativt studie af systemisk og portal hæmostase under TIPS-placering hos patienter med portaltrombo­se/cirrose. Intet FVIII-indgreb. |
+Konklusionen er, at forudsigelsen ikke har noget biologisk eller klinisk grundlag i dag. Den bør betragtes som en modelartefakt, indtil andet er påvist.
 
 ---
 
-## Litteraturbeviser
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for moroctocog alfa ved primær udskillelsesforstyrrelse af blodplader.
+Der er ingen direkte relevante forsøg for denne indikation. En dublet af forudsigelsen indeholder seks forsøg, men alle er vurderet som grad C (indirekte eller urelaterede), og ingen tester lægemidlet ved trombocytfrigørelsesforstyrrelser:
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | Rekrutterer | 200 | Laboratorie- og symptomstudie ved post-COVID-19-vaccinationssyndrom; ikke relateret til lægemidlet |
+| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Ikke startet rekruttering | 80 | Observationsstudie af hæmatologiske og koagulationsprofiler ved akut myeloid leukæmi |
+| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Fase 3 | Afsluttet | 30 | PEGyleret rFVIII (BAX 855) ved svær hæmofili A og kirurgiske indgreb; ikke trombocytsygdom |
+| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | Rekrutterer | 25 | Kunstigt leverstøttesystem ved akut-på-kronisk leversvigt; ikke relateret |
+| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Fase 3 | Afsluttet | 159 | rFVIIIFc-VWF-XTEN (BIVV001) ved svær hæmofili A hos patienter ≥12 år |
+| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Fase 3 | Afsluttet | 74 | rFVIIIFc-VWF-XTEN (BIVV001) ved svær hæmofili A hos børn <12 år |
+| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | Rekrutterer | 45 | Udforskning af systemisk og portal hæmostase ved TIPS-anlæggelse |
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der findes i øjeblikket ingen relateret litteratur for denne indikation.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103002398 | ReFacto (Pfizer Europe MA EEIG) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i det modtagne datagrundlag |
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i den anvendte kilde.
+
+---
+
+## Øvrige forudsigelser fra TxGNN
+
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|---------|------|------|-----------|
+| Pseudo-von Willebrands sygdom | 99,97 % | L5 | Hold. Defekten er GP1BA-gain-of-function, og behandlingen retter sig mod VWF/blodplader, ikke faktor VIII alene |
+| Glanzmanns trombasteni | 99,96 % | L5 | Hold. Defekt i GPIIb/IIIa; faktor VIII afhjælper den ikke. Kun et hæmofili-orienteret naturhistorisk register ([NCT04398628](https://clinicaltrials.gov/study/NCT04398628)) og en case-serie fra 1964 ([PMID 14179492](https://pubmed.ncbi.nlm.nih.gov/14179492/)) er knyttet hertil, begge uden direkte relevans |
+| Erhvervet koagulationsfaktormangel | 99,88 % | L5 | Forskningsspørgsmål. Biologisk mest plausibel, men sygdomsklassen er bred. Ved erhvervet hæmofili A neutraliserer autoantistoffer faktor VIII |
+| Scotts syndrom | 99,86 % | L5 | Hold. Defekten ligger i trombocytoverfladen (TMEM16F/ANO6), ikke i faktor VIII-niveauet |
 
 ---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Afvent**
+**Beslutning: Hold**
 
-**Rationale:**
-Selvom TxGNN tildeler en meget høj algoritmisk forudsigelsesscore (99.97%), er den foreslåede mekanisme, der forbinder moroctocog alfa til primær udskillelsesforstyrrelse af blodplader, meget indirekte — FVIII-supplement adresserer ikke den underliggende granule-sekretionsdefekt — og der findes ingen understøttende kliniske forsøg eller fagfællebedømt litteratur for denne genbrugshypotese. Lægemidlet bliver i øjeblikket ikke markedsført i Danmark, og der er ingen tilladelser på rekord hos Lægemiddelstyrelsen eller via centraliseret EMA-procedure i dette datasæt.
+**Begrundelse:**
+Forudsigelsen bygger kun på modellen (L5). Der er hverken kliniske forsøg eller publikationer, der tester lægemidlet ved denne sygdom, og mekanismen taler imod effekt, fordi faktor VIII-substitution ikke korrigerer en primær trombocytfunktionsdefekt.
 
-**For at fortsætte er følgende nødvendig:**
+**For at gå videre kræves følgende:**
+- Oplysninger om lægemidlets virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra det danske produktresumé fra Lægemiddelstyrelsen
+- Den godkendte indikationstekst for ReFacto i Danmark
+- Et konkret, afgrænset forskningsspørgsmål, f.eks. den veldefinerede undergruppe af erhvervet hæmofili A med lave inhibitortitre, før der overvejes prækliniske eller kliniske studier
 
-- **Regulatoriske data**: Hent det fulde produktresumé/produktinformation inklusiv advarsler, kontraindikationer og lægemiddelinteraktioner (Datagab DG001 — blokerer i øjeblikket sikkerhedsvurdering)
-- **Virkningsmådedata**: Få fulde MOA-detaljer fra DrugBank API for at muliggøre en korrekt mekanistisk rationale-analyse (Datagab DG002)
-- **Litteratursøgningsudvidelse**: Udfør en målrettet søgning efter eventuelle publicerede kasuistikker, ex vivo-studier eller præ-kliniske beviser ved hjælp af FVIII-præparater i modeller af blodplades udskillelsesdefekter (tæt-granula eller α-granula sekretionsforstyrrelser)
-- **Ekspertkonsuitation**: Engager en specialist inden for hæmostase og trombose for at vurdere den kliniske plausibilitet af FVIII-supplement ved denne indikation, før man forpligter forskningsressourcer
-- **Gennemgang af yderligere forudsagte indikationer**: Blandt de lavere-rangerede forudsigelser bærer **erhvervet koagulationsfaktor-deficiens** (rang 7–8; score 99.88%) det stærkeste mekanistiske link i dette datasæt — især den erhvervede hæmofili A-subtype — og kan repræsentere et mere videnskabeligt forsvarligt forskningsspørgsmål, hvis generering af beviser overvejes
-
----
-
-*Denne rapport er genereret til kun for forskningsformål og udgør ikke medicinsk råd. Alle lægemiddelgenbrugelse-kandidater kræver prospektiv klinisk validering før enhver terapeutisk anvendelse. Se venligst aktuelt produktresumé og nationale retningslinjer for godkendte indikationer.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

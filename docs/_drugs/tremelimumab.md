@@ -2,7 +2,7 @@
 layout: default
 title: Tremelimumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 449
+nav_order: 451
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,97 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tremelimumab: Fra hepatocellulært karcinom/ikke-småcellet lungekræft til diabetisk katarakt
+# Tremelimumab: Fra CTLA-4-hæmmende immunterapi til diabetisk katarakt
 
-## Et-sætnings sammenfatning
+## Resumé i én sætning
 
-Tremelimumab er en anti-CTLA-4 immun checkpoint-inhibitor, der i øjeblikket bruges i kombinationsregimener til hepatocellulært karcinom og ikke-småcellet lungekræft.
-TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk katarakt**, med en forudsigelsesscore på **98,49%**,
-men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning, og lægemidlet markedsføres ikke i Danmark.
+Tremelimumab er et monoklonalt antistof, der blokerer CTLA-4 og dermed øger T-cellernes aktivering. Det er i Danmark markedsført som IMJUDO.
+TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**, men **ingen kliniske forsøg og ingen publikationer** understøtter forudsigelsen.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Ingen dansk markedsføringstilladelse på fil; ud fra baggrundsfarmakologi godkendt andre steder til hepatocellulært karcinom / ikke-småcellet lungekræft (kombinationsterapy) |
-| Forudsagt ny indikation | Diabetisk katarakt |
-| TxGNN-forudsigelsesscore | 98,49% |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data |
+| Foreslået ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,5 % |
 | Evidensniveau | L5 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede virkningsmekanisme-data er ikke blevet formelt dokumenteret for denne evidenspakke (datakløft). Ud fra baggrundsfarmakologi er tremelimumab et anti-CTLA-4 monoklonalt antistof, der aktiverer T-celler for at forbedre anti-tumor immun respons, og bruges i øjeblikket i kombinations-onkologiregimener til hepatocellulært karcinom og ikke-småcellet lungekræft.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Diabetisk katarakt opstår fra linseprotein-glykering, polyol-vejaktivering og oxidativ stress sekundær til kronisk hyperglykæmi — en metabolisk og strukturel proces uden kendt skæring med CTLA-4/T-cel aktiverings-veje.
+Tremelimumab blokerer immuncheckpoint-proteinet CTLA-4 og forstærker dermed T-cellernes aktivering. Detaljerede mekanismedata fra DrugBank mangler i datagrundlaget.
 
-Evidenspakkens egen mekanistiske vurdering konkluderer, at denne forudsigelse **mangler biologisk plausibilitet**: immune checkpoint-inhibitorer vides at *forårsage* immunrelaterede okulare bivirkninger (f.eks. uveitis) snarere end at behandle linseophaling, og der er ingen mekanisme, hvorigennem T-cel aktivering ville vende eller forhindre katarakt dannelse.
+Diabetisk katarakt skyldes primært høj blodsukker, øget flux gennem polyol-vejen, oxidativt stress og glykering af linseproteiner. T-celle-checkpoint-signalering spiller ikke nogen kendt rolle heri. Der er derfor **ingen troværdig mekanistisk forbindelse** mellem lægemidlets virkning og sygdommens patologi. Den høje score (0,985) er udelukkende en forudsigelse fra vidensgrafen og er ikke bekræftet af studier.
 
-## Klinisk forsøgsevidens
+Hertil kommer et sikkerhedsmæssigt argument imod: Checkpoint-hæmmere kan give immunrelaterede bivirkninger i øjet, f.eks. uveitis. Et systemisk immunstimulerende biologisk lægemiddel passer dårligt til en kronisk, ikke-livstruende tilstand, som kan behandles kirurgisk.
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret
+**Øvrige forudsigelser med næsten samme score (98,4 %)** er katarakt ved type 2-diabetes, moden katarakt, umoden katarakt og kraniostenose med katarakt. De vurderes på samme måde uden troværdig mekanistisk forbindelse og uden støtte i forsøg eller litteratur. Moden katarakt behandles standardmæssigt med kirurgi. Kraniostenose med katarakt er en sjælden, udviklingsmæssig og formodentlig genetisk tilstand, hvor immunstimulerende behandling vil rejse store sikkerhedsspørgsmål, især hos børn.
 
-## Litteraturbevis
+---
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig
+## Evidens fra kliniske forsøg
 
-## Danmarks markedsinformation
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-Tremelimumab har ingen markedsføringstilladelse på fil i Danmark (0 licenser; markedsstatus: ikke markedsført).
+---
 
-## Cytotoxicitet
+## Litteraturevidens
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106750422 | IMJUDO (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i data |
+
+---
+
+## Cytotoksicitet
+
+Tremelimumab er et kræftimmunterapeutisk lægemiddel og ikke et klassisk cytostatikum. Oplysningerne nedenfor er derfor generelle.
 
 | Punkt | Indhold |
-|------|---------|
-| Cytotoxicitet-klassificering | Immunterapi (anti-CTLA-4 checkpoint-inhibitor) — ikke et konventionelt cytotoxisk middel |
-| Myelosuppression-risiko | Lav — checkpoint-inhibitorer er typisk ikke direkte myelosuppressive; principiel risiko er immunrelaterede bivirkninger, herunder immunrelaterede okulare begivenheder (f.eks. uveitis) noteret i den mekanistiske begrundelse |
-| Emetogenicitet-klassificering | Venligst se Produktinformationen (SmPC) — ingen struktureret emetogenicitet-data på fil |
-| Overvågningspunkter | Overvågning for immunrelaterede bivirkninger (endokrine, hepatiske, GI, dermatologiske), lever- og nyrefunktion; oftalmologisk overvågning givet det noterede potentiale for immunrelaterede øjenbegivenheder |
-| Håndteringsbeskyttelse | Ikke et konventionelt cytotoxisk middel; standard onkologi biologisk infusions-forsigtighedsregler gælder snarere end klassiske cytotoxiske lægemiddel-håndteringsprotokaller |
+|------|------|
+| Cytotoksicitetsklassifikation | Immunterapi (CTLA-4-hæmmer) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Immunrelaterede bivirkninger, herunder øjensymptomer. Se i øvrigt SmPC. |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
-## Sikkerhedsmæssige overvejelser
+---
 
-Venligst se Produktinformationen (SmPC) for sikkerhedsinformation.
+## Sikkerhedsovervejelser
+
+- **Øjenrelaterede bivirkninger:** Checkpoint-hæmmere er forbundet med immunrelaterede øjenbivirkninger såsom uveitis. Det taler imod anvendelse ved øjensygdomme.
+- **Lægemiddelinteraktioner:** Der er ikke fundet registrerede interaktioner i de tilgængelige data.
+
+For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+
+---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-lighedsscore har denne kandidat nul kliniske forsøg, nul litteraturunderstøttelse og evidensniveau L5 (alene modelforudsigelse). Evidenspakkens egen mekanistiske begrundelse angiver eksplicit, at lægemiddel-sygdomsforbindelsen mangler biologisk plausibilitet, og lægemidlet har en Blokeringsdatakløft på SmPC-advarsler/kontraindikationer (DG001) og en Høj-alvorligheds-kloft på MOA-dokumentation (DG002).
+Forudsigelsen hviler alene på en modelscore uden kliniske forsøg, litteratur eller troværdig mekanistisk forbindelse. Risikoen for immunrelaterede bivirkninger, også i øjet, opvejer ikke nogen dokumenteret fordel ved en sygdom, der kan behandles kirurgisk.
 
-**For at fortsætte er følgende nødvendigt:**
-- Løs DG001: TFDA/dansk SmPC-advarsler og kontraindikationer (blokeringskløft)
-- Løs DG002: formelt virkningsmekanisme-dokumentation via DrugBank eller producent-mærkning
-- Uafhængig præ-klinisk/mekanistisk validering af enhver plausibel lægemiddel-sygdomsforbindelse før videre udvikling
-- Givet den dokumenterede mangel på biologisk plausibilitet, nedprioritér denne kandidat, medmindre nye mekanistiske eller eksperimentelle beviser opstår
+**For at komme videre kræves:**
+- Mekanismedata (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Prækliniske data, der understøtter en rolle for CTLA-4-hæmning i linsebiologi, før nogen klinisk vurdering overvejes
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

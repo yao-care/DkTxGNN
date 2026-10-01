@@ -2,15 +2,15 @@
 layout: default
 title: Clonazepam
 parent: Moderat evidens (L3-L4)
-nav_order: 117
-evidence_level: L3
+nav_order: 118
+evidence_level: L4
 indication_count: 6
 ---
 
 # Clonazepam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,104 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Clonazepam: Fra epilepsi og angstforstyrrelser til Restless Legs Syndrom
+# Clonazepam: Fra registreret indikation til Restless legs syndrom (uroligt bensyndrom)
 
-## Enlinjesammenfattelse
+## Resumé i få sætninger
 
-Clonazepam er et langtidsvirkende benzodiazepinderivat, der internationalt er etableret som første- eller anden-linjers behandling af epilepsi og panikstørrelse, og som i øjeblikket **ikke har markedsføringsgodkendelse i Danmark**.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **Restless Legs Syndrom (RLS)** med en forudsigelsesscore på **99,65%**,
-understøttet af **0 registrerede kliniske forsøg**, men **20 publikationer** — herunder en 2025 AASM-klinisk praksis-retningslinje, en 2017 Cochrane-systematisk gennemgang og en 2024 historisk systematisk gennemgang, der bekræfter, at cirka 25% af behandlede RLS-patienter i øjeblikket modtager benzodiazepiner.
+Clonazepam er et benzodiazepin, som er markedsført i Danmark som tabletter. Den oprindelige godkendte indikation fremgår ikke af de tilgængelige data.
+
+TxGNN-modellen forudsiger, at det kan have effekt mod **restless legs syndrom (RLS)**. Forudsigelsen understøttes af **0 registrerede kliniske forsøg** og **20 publikationer**, hvoraf de fleste er oversigtsartikler og retningslinjer. Evidensen er svag, og en nyere retningslinje ser ud til at anbefale imod brugen (se nedenfor).
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke registreret i Danmark; internationalt anvendt til epilepsi og panikstørrelse |
-| Forudsagt ny indikation | Restless Legs Syndrom (RLS) |
-| TxGNN forudsigelsesscore | 99,65% |
-| Bevisniveau | L3 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
-| Anbefalet beslutning | Gå videre med forbehold |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Restless legs syndrom |
+| TxGNN-forudsigelsesscore | 99,65 % |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-I øjeblikket er detaljerede oplysninger om virkningsmekanisme ikke tilgængelige fra den danske regulatoriske dokumentation. Baseret på etableret farmakologisk viden tilhører clonazepam benzodiazepinerklassen og fungerer som en positiv allosterisk modulator af GABA-A-receptorer, der forstærker inhibitorisk neurotransmission i hele centralnervesystemet og det periphere nervesystem. Dets virkning ved epilepsi og angst er velkendt internationalt.
+Clonazepam er en positiv allosterisk modulator af GABA-A-receptoren. Det kan dæmpe sensorisk-motorisk arousal og søvnfragmentering forårsaget af periodiske benbevægelser i søvn. Der er derfor en biologisk sammenhæng mellem virkningen og RLS-symptomer, især søvnforstyrrelserne.
 
-Den mekanistiske begrundelse for restless legs syndrom er forankret i clonazepams GABAergiske aktivitet på rygmarvsniveauet. Ved at forstærke GABA-A-receptorfunktionen i spinale motorneuroner og undertrykke polysynaptiske spinale refleksbuer kan clonazepam reducere hyppigheden og intensiteten af periodiske legemebevægelser under søvn (PLMS) — en karakteristisk klinisk komplikation hos størstedelen af RLS-patienter. Dets lange plasmahalveringstid (18–50 timer) understøtter yderligere uafbrudt vedligeholdelse af natlig søvn, hvilket bryder den onde cirkel af søvnmangel og forværret sensorisk ubehag, der kendetegner alvorlig RLS. Indirekte modulering af dopaminergiske kredsløb i subkortikale motorbaner kan give en yderligere bidragydende mekanisme, da dopaminsystemet er det primære patofysiologiske mål ved RLS.
+Mekanismen rammer dog ikke de veje, som anses for centrale ved RLS, nemlig den dopaminerge signalering og jernstofskiftet. Den meget høje TxGNN-score (0,997) er en grafbaseret forudsigelse og ikke et bevis for klinisk effekt.
 
-Fra et klinisk praksis-perspektiv er evidensgrundlaget velkendt historisk. Den 2024 historiske systematiske gennemgang af Walters et al. identificerede 17 publikationer om clonazepamforbrug specifikt ved RLS og PLMS, og AASM-retningslinjen fra 2025 inkluderer formelt benzodiazepiner blandt anbefalede behandlingsmuligheder. Den oprindelige tilstand (epilepsi/krampeanfaldundertrykkelse) og den nye indikation (RLS/PLMS-undertrykkelse) deler et fælles GABAergisk substrat, hvilket giver stærk biologisk plausibilitet til denne lægemiddelomformål-forudsigelse.
+Litteraturen peger i en forsigtig retning:
 
----
-
-## Evidens fra kliniske forsøg
-
-Ingen registrerede kliniske forsøg, der specifikt vurderer clonazepam til restless legs syndrom, blev identificeret på ekstraktionstidspunktet (ClinicalTrials.gov og ICTRP-søgdato: 2026-03-26).
-
-> Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
-*Bemærk: For den tæt forbundne andenplads-forudsigelse (søvnløshed) blev 12 kliniske forsøg identificeret, herunder ét multicenterforsøg i fase 4 (RCT) (NCT03977441, n=240) og ét afsluttet fase 4-forsøg med direkte clonazepamforbrug (NCT00025740, n=78). Denne yderligere evidens styrker det overordnede bevisgrundlag for clonazepam i søvnrelaterede tilstande.*
+- Den amerikanske søvnmedicinske retningslinje fra 2025 (AASM, PMID 39324694) forstås som en betinget anbefaling imod clonazepam ved RLS. De tilgængelige data indeholder kun retningslinjens overordnede formål, så den præcise anbefaling bør verificeres i originalteksten.
+- Cochrane-oversigten (PMID 28319266) vurderer evidensen for benzodiazepiner ved RLS som lav kvalitet.
+- Clonazepam bruges allerede off-label mod RLS nogle steder. Værdien af en ny "repurposing"-påstand er derfor begrænset.
 
 ---
 
-## Evidens fra litteraturen
+## Klinisk forsøgsevidens
 
-| PMID | År | Type | Journal | Vigtige resultater |
-|------|-----|------|---------|-------------------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Klinisk retningslinje | J Clin Sleep Med | AASM klinisk praksis-retningslinje til behandling af RLS og PLMD hos børn og voksne; behandler formelt benzodiazepinbrug |
-| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Historisk systematisk gennemgang | Tremor Other Hyperkinetic Mov | ~25% af 16.694 undersøgte RLS-patienter modtager benzodiazepiner; 17 artikler om clonazepam ved RLS/PLMS omfattende gennemgået |
-| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Cochrane systematisk gennemgang | Cochrane Database Syst Rev | Cochrane-gennemgang af benzodiazepiner til RLS; vurderer styrken og begrænsningerne i evidensgrundlaget for clonazepam |
-| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Systematisk gennemgang / Metaanalyse | J Clin Sleep Med | Metaanalyse af farmakologisk responsivitet af PLMS; kvantificerer lægemiddelkategorieffektivitet herunder benzodiazepiner |
-| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | Prospektiv åben RCT | J Mid-Life Health | Direkte sammenligning af clonazepam versus nortriptylin hos kvinder >40 år med RLS; giver sammenlignende efficacy-data |
-| [11313161](https://pubmed.ncbi.nlm.nih.gov/11313161/) | 2001 | Placebo-kontrolleret søvnlaboratorium-studie | Eur Neuropsychopharmacol | 1 mg clonazepam forbedrede signifikant objektive polysomnografiske og subjektive søvnparametre ved RLS/PLMD versus placebo |
-| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | Randomiseret dobbelt-blind crossover-RCT | Acta Neurol Scand | Tidligste RCT af clonazepam ved RLS (n=6); forbedrede signifikant subjektiv søvnkvalitet og benlyske versus placebo; konkluderede, at clonazepam er sikkert og effektivt til RLS |
-| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Evidensbaseret oversigt | Mov Disord | Movement Disorder Society-taskforce evidensbaseret oversigt over alle RLS-behandlinger; klassificerer terapeutisk effektivitetsniveau for clonazepam |
-| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Narrativ oversigt | Neurotherapeutics | Oversigt over udviklingen af RLS-behandlingslandskab på tværs af lægemiddelklasser herunder benzodiazepiner; opsummerer klinisk placering |
-| [17876423](https://pubmed.ncbi.nlm.nih.gov/17876423/) | 2007 | Ekspert konsensus | Arq Neuropsiquiatr | Brasiliansk RLS Study Group-konsensus om diagnosticering og styring; behandler benzodiazepinbrug sammen med klasse I-evidensbaserede lægemidler |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-Clonazepam har i øjeblikket **ingen markedsføringsgodkendelse i Danmark**. Ingen licenser er registreret hos Lægemiddelstyrelsen, og produktet er ikke kommercielt tilgængeligt gennem normale distributionskanaler.
+De 10 mest relevante af i alt 20 publikationer er medtaget. Kilder med studiedesign er prioriteret højere end almindelige oversigtsartikler og casebeskrivelser.
 
-| Markedsføringsgodkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|-------------------------------|-------------|-------------|-------------------|
-| — | — | — | Ingen godkendelser registreret i Danmark |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Retningslinje | J Clin Sleep Med | Klinisk retningslinje for behandling af RLS og periodisk lemmebevægelsesforstyrrelse (PLMD) hos voksne og børn |
+| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Systematisk oversigt (Cochrane) | Cochrane Database Syst Rev | Benzodiazepiner ved RLS. Evidensen vurderes som lav kvalitet |
+| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | RCT (dobbeltblindet crossover) | Acta Neurol Scand | 6 patienter. Clonazepam forbedrede subjektiv søvnkvalitet og bendysæstesi sammenlignet med placebo. Langtidseffekt er ikke bekræftet |
+| [11313161](https://pubmed.ncbi.nlm.nih.gov/11313161/) | 2001 | Placebokontrolleret søvnlaboratorieforsøg | Eur Neuropsychopharmacol | Akut effekt af 1 mg clonazepam på objektiv og subjektiv søvn- og opvågningskvalitet ved RLS og PLMD |
+| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | Åbent randomiseret studie | J Mid-life Health | Clonazepam sammenlignet med nortriptylin hos kvinder over 40 år med RLS |
+| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Oversigtsartikel | Tremor Other Hyperkinet Mov | Historisk gennemgang af benzodiazepiner. Omkring 25 % af RLS-patienter i en stor survey (n = 16.694) fik benzodiazepiner |
+| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Systematisk oversigt og metaanalyse | J Clin Sleep Med | Lægemidlers evne til at dæmpe periodiske lemmebevægelser i søvn (PLMS) ved RLS |
+| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Evidensbaseret oversigt | Mov Disord | Movement Disorder Society-arbejdsgruppens vurdering af behandlinger ved RLS |
+| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Oversigtsartikel | Neurotherapeutics | Oversigt over behandling af RLS |
+| [35426627](https://pubmed.ncbi.nlm.nih.gov/35426627/) | 2022 | Oversigtsartikel | Am Fam Physician | Diagnostik og behandling af almindelige søvnforstyrrelser hos voksne |
 
-*Clonazepam (f.eks. Rivotril®) er godkendt i mange andre europæiske lande. Brug i Danmark ville kræve en ansøgning om navngivet-patient eller specialimport via Lægemiddelstyrelsen.*
+De eneste kontrollerede studier af clonazepam er meget små eller af ældre dato. Der findes ingen nyere RCT i de tilgængelige data.
 
 ---
 
-## Sikkerhedshensyn
+## Information om det danske marked
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
-
-> Sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) var ikke tilgængelige i denne evidenspakke. Fuld sikkerhedsvurdering mod det internationalt godkendt SmPC er en forudsætning før enhver klinisk anvendelse.
-
-*Vigtige områder af kendt klinisk bekymring for benzodiazepiner, der skal gennemgås i SmPC, inkluderer: fysisk afhængighed og tilbagetrækninsrisiko ved længerevarende brug, respiratorisk depression (særligt hos patienter med søvnrelaterede vejrtrækningsforstyrrelser), dagtidssedalitet, kognitiv funktionsnedsættelse og risiko for fald hos ældre patienter — alt sammen er særligt relevant i sammenhæng med RLS, en kronisk tilstand, der ofte kræver langvarig farmakologisk terapi.*
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107322125 | Clonazepam "G.L. Pharma" (G.L. Pharma GmbH) | Tabletter | Ikke oplyst i data |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Gå videre med forbehold**
+Der er ingen tilgængelige sikkerhedsdata for dette lægemiddel i datasættet. Der er heller ingen fundne lægemiddelinteraktioner i databasen. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Flere konvergente kilder — herunder en 2017 Cochrane systematisk gennemgang, AASM klinisk praksis-retningslinje fra 2025, og årtier af kontrollerede og observationelle studier — bekræfter, at clonazepam har en velkendt, biologisk plausibel og klinisk dokumenteret rolle i restless legs syndrom og periodisk legemebevægelsesforstyrrelse; dog kræver fravær af dedikerede fase 2/3-RCT'er registreret til denne indikation, manglen på dansk markedsføringsgodkendelse og den uoploste sikkerhedsdatapakke forbehold før klinisk implementering.
+Der er ingen registrerede kliniske forsøg. De kontrollerede studier er små og gamle, og Cochrane-oversigten vurderer evidensen som lav kvalitet. Mekanismen berører ikke de centrale patofysiologiske veje ved RLS. Den nyeste retningslinje forstås desuden som en betinget anbefaling imod clonazepam. Den høje TxGNN-score alene er ikke nok til at gå videre.
 
-**For at gå videre er følgende nødvendigt:**
-- Indhent og gennemse det fuldstændige SmPC (produktresumé) fra en autoriseret jurisdiktion (f.eks. EMA eller en national europæisk myndighed) — specifikt afsnit om advarsler, kontraindikationer og lægemiddelinteraktioner
-- Fuldstændig data om virkningsmekanisme (MOA) hentning fra DrugBank (DB01068)
-- Ansøg om navngivet-patient eller specialimport-godkendelse via Lægemiddelstyrelsen, hvis klinisk brug er planlagt
-- Etabler en struktureret overvågningsplan, der dækker: afhængighedsvurdering, dagtidssedalitet, kognitiv funktion (nedsættelse af udøvelseskomponenter er dokumenteret hos patienter med kronisk søvnløshed på clonazepam), og risiko for fald — særligt hos ældre patienter
-- Definer den kliniske placering af clonazepam i forhold til første-linjers RLS-behandlinger godkendt i Danmark (dopaminagonister: pramipexol, ropinirole; alpha-2-delta-ligander: pregabalin, gabapentin), for at reservere clonazepam til hjælpemiddel- eller anden-linjers brug
-- Planlæg begrænsninger for behandlingsvarighed med planlagt revurdering for at minimere risiko for kronisk afhængighed i denne langvarige tilstand
+**For at komme videre kræves:**
+- Verifikation af den præcise anbefaling om clonazepam i AASM-retningslinjen fra 2025 (PMID 39324694).
+- Produktresumé fra Lægemiddelstyrelsen med godkendte indikationer, advarsler og kontraindikationer. Uden dem kan sikkerhedsvurderingen ikke gennemføres.
+- Detaljerede data om virkningsmekanisme fra DrugBank.
+- Nyere kontrollerede studier eller en registreret RCT sammenlignet med førstevalgsbehandling (dopaminagonister og alfa-2-delta-ligander).
 
+**Øvrige forudsigelser for clonazepam (samme evidensniveau L4):**
+- **Insomni** (score 99,3 %): Mekanismen er biologisk sammenhængende. Der er dog ingen direkte Phase 2/3-RCT ved primær insomni, og de fundne forsøg er overvejende indirekte. Anbefaling: forskningsspørgsmål. Eventuelt videre arbejde kræver forholdsregler mod afhængighed, tolerans, fald og kognitiv påvirkning hos ældre, respirationsdepression og misbrugspotentiale.
+- **Trigeminusnervetumor** (score 99,3 %): Der kendes ingen antitumorvirkning. Evidensen består kun af to case reports. Anbefaling: Hold.
+
+Tilsvarende indikationer optræder dobbelt i inputdata. Denne rapport har slået dubletterne sammen.
+
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser om lægemiddelgenanvendelse skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

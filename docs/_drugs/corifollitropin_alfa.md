@@ -2,7 +2,7 @@
 layout: default
 title: Corifollitropin Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 123
+nav_order: 124
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Corifollitropin Alfa: Fra kontrolleret ovariel stimulation til gastroduodenitis
+# Corifollitropin alfa: Fra kontrolleret ovariestimulation til gastroduodenitis
 
-## Resumé på én sætning
+## Resumé i få sætninger
 
-Corifollitropin alfa er et langvirkende rekombinant FSH (follikelstimulerende hormon) agonist, oprindeligt godkendt til kontrolleret ovariel stimulation (COS) hos kvinder, der gennemgår kunstig reproduktion (ART).
-TxGNN-modellen forudsiger, at det kan være effektivt til **gastroduodenitis**, med en forudsigelsesscore på 99.65%.
-Denne forudsigelse understøttes imidlertid af **ingen kliniske forsøg** og **ingen publikationer**, hvilket gør det til en rent modelbaseret hypotese på nuværende tidspunkt.
+Corifollitropin alfa er et langtidsvirkende rekombinant FSH-præparat (FSH-CTP-fusionsprotein), der bruges til ovariestimulation i fertilitetsbehandling.
+TxGNN-modellen forudsiger, at det kan have effekt på **gastroduodenitis**.
+Forudsigelsen er rent modelbaseret: der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter den.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Kontrolleret ovariel stimulation (COS) til kunstig reproduktion (ART) |
+|------|------|
+| Oprindelig indikation | Kontrolleret ovariestimulation (fertilitetsbehandling). Den godkendte indikationstekst er ikke angivet i Lægemiddelstyrelsens data, så oplysningen stammer fra den mekanistiske vurdering |
 | Forudsagt ny indikation | Gastroduodenitis |
-| TxGNN forudsigelsesscore | 99.65% |
+| TxGNN-prædiktionsscore | 99,65 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvente |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige fra Evidence Pack. Baseret på kendt farmakologi er corifollitropin alfa et langvirkende rekombinant fusionsprotein, der kombinerer FSH med det carboxyl-terminale peptid (CTP) af humant choriongonadotropin (hCG). Det fungerer som et FSH-receptor (FSHR) agonist, der stimulerer follikelgrowth og udvikling i æggestokkene. En enkelt subkutan injektion opretholder follikelstimulation i cirka en uge, hvilket erstatter de første syv daglige FSH-injektioner i en COS-cyklus.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i evidenspakken. Corifollitropin alfa er dog en langtidsvirkende FSH-agonist, som virker på FSH-receptorer i granulosaceller (ovarier) og Sertolicceller (testikler).
 
-Den forudsagte forbindelse til gastroduodenitis hviler på en meget spekulativ biologisk hypotese: FSHR er blevet påvist på lave niveauer i ikke-reproduktive væv, herunder nogle gastrointestinale epithelceller, og FSH-signalering kan indirekte modulere lokale inflammatoriske reaktioner gennem NF-κB-vejen. Hvis dette udtryk var funktionelt relevant, kunne et FSH-agonist teoretisk påvirke mukosaindflammation i mavesækken og duodenum.
+Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem FSH-receptorsignalering og inflammation i mavesækkens og tolvfingertarmens slimhinde. Den høje score på 99,65 % er udelukkende en grafbaseret forudsigelse og understøttes ikke af kliniske data eller litteratur.
 
-I praksis er denne mekanistiske forbindelse imidlertid ekstremt svag. Gastroduodenitis er primært drevet af *Helicobacter pylori*-infektion, NSAID-brug og sure-relateret mukosaer – stier uden etableret forbindelse til FSH/FSHR-biologi. Den høje TxGNN-score afspejler sandsynligvis en ikke-specifik artefakt, der stammer fra, hvordan inflammations-relaterede noder grupperes sammen i det underliggende vidensnetværk, snarere end et ægte biologisk forhold. Der er ingen prækliniske, in vitro eller kliniske data, der understøtter FSH-agonisme som behandlingsstrategi for gastroduodenitis.
+De øvrige topforudsigelser fra modellen har samme svaghed. Ingen af dem har kliniske forsøg eller publikationer:
 
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
+- **Migræne** (inkl. migræne med hjernestammeaura), score ca. 99,6 %. Corifollitropin alfa hæver østradiol under ovariestimulation, og hovedpine er en kendt bivirkning ved fertilitetsbehandling. Det peger snarere på et muligt sikkerhedssignal end på en gavnlig effekt.
+- **Mavesår** (peptic ulcer disease), score 99,61 %. Patofysiologien (H. pylori, NSAID, syresekretion) er upåvirket af gonadotropinsignalering, og forudsigelsen skyldes sandsynligvis artefakter i grafstrukturen.
+- **Raynauds sygdom**, score 99,59 %. Sygdommen skyldes vasospasme og mikrovaskulær dysfunktion uden kendt kobling til FSH-receptoragonisme.
 
 ---
 
-## Bevis fra litteratur
+## Evidens fra kliniske forsøg
 
-I øjeblikket er der ingen relateret litteratur tilgængelig.
-
----
-
-## Information om det danske marked
-
-Corifollitropin alfa (handelsnavn: Elonva®) har en centraliseret europæisk markedsføringstilladelse udstedt af EMA, men er i øjeblikket **ikke markedsført i Danmark**. Ingen nationale (Lægemiddelstyrelsen) eller aktive centraliserede tilladelser er registreret for Danmark i denne Evidence Pack.
-
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringform | Godkendt indikation |
-|-------------------------------|-------------|-------------|---------------------|
-| — | — | — | Ingen aktiv tilladelse i Danmark |
-
-> **Bemærkning for sundhedsprofessionelle:** Elonva® (EU/1/09/609) har EMA-centraliseret godkendelse til COS hos kvinder, der gennemgår ART, men markedstilgængelighed i Danmark bør bekræftes direkte med Lægemiddelstyrelsen eller markedsføringstilladelseshaveren (MSD/Organon).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Konklusion og næste trin
+## Markedsinformation for Danmark
 
-**Afgørelse: Afvente**
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104459408 | Elonva (N.V. Organon) | Injektionsvæske, opløsning | – |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation (gastroduodenitis) understøttes udelukkende af TxGNN-modelscoren; der er nul kliniske forsøg, nul publicerede studier og ingen etableret mekanistisk sti, der forbinder FSH-receptoragonisme med gastroduodenal inflammation. Desuden er corifollitropin alfa ikke markedsført i Danmark, og komplette sikkerhedsdata (SmPC-advarsler, kontraindikationer) var ikke tilgængelige for gennemgang. Det ville være for tidligt at gå videre under disse omstændigheder.
+Forudsigelsen har evidensniveau L5, altså kun modelforudsigelse uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanistisk sammenhæng mellem FSH-receptoragonisme og gastroduodenitis. Det høje TxGNN-score alene er ikke tilstrækkeligt til at gå videre.
 
-**For at gå videre er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Indhentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Dette blokerer i dag for sikkerhedsscreeningen.
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank, til en mere grundig mekanistisk analyse.
+- Systematisk litteratur- og forsøgssøgning, der kan afdække eventuelle biologiske sammenhænge mellem FSH-signalering og gastroduodenal slimhindebetændelse.
+- Hvis forudsigelsen skal forfølges, bør der først foretages prækliniske undersøgelser.
 
-- **Mekanistisk validering:** Uafhængigt eksperimentelt bevis (in vitro eller dyreforsøg), der demonstrerer funktionel FSHR-udtrykkelse i mavesæk-/duodenummucosa og dens rolle i inflammatorisk signalering
-- **Sikkerhedsdatahentning:** Fuldstændig SmPC-gennemgang (EMA-produktinformation til Elonva®) for at vurdere advarsler, kontraindikationer og kendte bivirkninger relevant for ikke-reproduktive indikationer
-- **MOA-dokumentation:** Formel DrugBank/litteraturgennemgang for at karakterisere det fuldstændige farmakologiske profil for corifollitropin alfa ud over reproduktiv endokrinologi
-- **Evidensgenerering:** Mindst et hypotesegenererende præklinis studie før noget klinisk anvendelse kunne overvejes
-- **Regulatorisk kontekst:** Præcisering af Dansk markeds status og gennemførlighed af off-label eller undersøgelsesmæssig brug givet nuværende EMA-godkendelsesomfang
-
-> ⚠️ **Kun til forskningsmæssig brug.** Denne rapport er beregnet til forskning inden for lægemiddelgenbestemmelse og udgør ikke medicinsk rådgivning. Alle genbestemmelseskandidater kræver klinisk validering før nogen terapeutisk anvendelse.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

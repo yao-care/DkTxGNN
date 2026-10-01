@@ -2,7 +2,7 @@
 layout: default
 title: Bivalirudin
 parent: Kun modelforudsigelse (L5)
-nav_order: 69
+nav_order: 70
 evidence_level: L5
 indication_count: 0
 ---

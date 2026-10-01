@@ -2,7 +2,7 @@
 layout: default
 title: Teplizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 425
+nav_order: 427
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teplizumab: fra type 1-diabetesprogressionsforsinkelse til diabetisk katarakt
+# Teplizumab: Fra forsinkelse af type 1-diabetes til diabetisk katarakt
 
-## Sammenfatning på en sætning
+## Resumé i én sætning
 
-Teplizumab er et anti-CD3-monoklonalt antistof, der bruges til at forsinke progressionen af type 1-diabetes gennem T-celle-immunmodulation. TxGNN-modellen forudsiger en mulig sammenhæng til **Diabetisk katarakt**, men i øjeblikket **ingen kliniske forsøg og ingen litteratur** understøtter denne retning, og modellens egen begrundelse mærker forbindelsen som biologisk svag.
+Teplizumab er et anti-CD3-monoklonalt antistof, der bruges til at forsinke udviklingen af stadie 3 type 1-diabetes (indikationen er hentet fra evidensens mekanismetekst, da den ikke er angivet i de danske markedsføringstilladelsesdata). TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk katarakt**. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse, så den er en ren modelprædiktion.
 
-## Hurtig oversigt
+---
 
-| Parameter | Værdi |
-|-----------|---------|
-| Oprindelig indikation | Ikke tilgængelig i denne evidenssamling (ingen godkendt etiketekst på fil) |
+## Hurtigt overblik
+
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Diabetisk katarakt |
-| TxGNN-forudsigelsesscore | 98.38% |
-| Evidensniveau | L5 (kun modelforudsigelse) |
-| Danske markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-forudsigelsesscore | 98,38 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede virkningsmådedata er markeret som et datahul i denne evidenssamling. Baseret på den genbrugsbegrundelse, der medfølger forudsigelsen, er Teplizumab et anti-CD3-monoklonalt antistof, der modulerer T-celle-aktivitet for at forsinke den autoimmune ødelæggelse, som ligger til grund for type 1-diabetes.
+## Hvorfor er forudsigelsen rimelig?
 
-Diabetisk katarakt er derimod en strukturel linspatologi, der forårsages af proteindenaturering og osmotisk ubalance (f.eks. sorbitolophobning, oxidativ stress) — ikke en autoimmun proces. Evidenssamlingens egen mekanistiske vurdering anfører, at der **ikke er kendt nogen direkte biokemisk vej**, der forbinder Teplizumabs immunmodulerande virkning til kataraktpatogenese.
+Teplizumab er et anti-CD3-antistof, der modulerer T-celler. Det bruges til at forsinke stadie 3 type 1-diabetes ved at beskytte betacellefunktionen. Der foreligger ingen detaljerede mekanismedata fra kildedatabasen, så mekanismevurderingen bygger på lægemidlets kendte klasse.
 
-Samlingen fortolker eksplicit den høje TxGNN-score som sandsynligvis stammende fra **indirekte grafnærhed** — begge sygdomme deler en "diabetes"-knude i vidensgrafen — snarere end en ægte mekanistisk hypotese. Dette gælder alle ti rangerede kandidater i denne evidenssamling, som er forskellige kataraktundertyper (diabetisk, immatur, moden, tetanisk, kraniostenose-associeret) samlet omkring samme diabetes-knude. Vurderingen af tetanisk og kraniostenose-associeret kataraktundertyper er særligt klar på dette punkt, da disse er forbundet med calcium/parathyroid-årsager eller udviklings-årsager uden nogen plausibel forbindelse til T-celle-modulation overhovedet.
+Diabetisk katarakt skyldes primært langvarig hyperglykæmi via polyol-vejen og oxidativ stress, ikke autoimmun T-celleaktivitet. En eventuel gavn ville derfor være indirekte, for eksempel gennem bedre langsigtet glykæmisk kontrol, hvis betacellefunktionen bevares. Det er en hypotese uden dataunderstøttelse.
 
-## Kliniske forsøgsbevis
+Scoren afspejler sandsynligvis tæt placering i vidensgrafen (diabetes- og kataraktknuder) snarere end en reel farmakologisk sammenhæng. Det gælder også de øvrige forudsagte kataraktformer:
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Diabetisk katarakt | 98,38 % | Kun indirekte og hypotetisk (via glykæmisk kontrol) |
+| Umoden katarakt | 98,30 % | Morfologisk stadie, ikke en ætiologi. Ingen plausibel sammenhæng |
+| Modnet katarakt | 98,30 % | Avanceret stadie, hvor kirurgi er standardbehandling. Ingen plausibel mekanisme |
+| Katarakt ved type 2-diabetes | 98,30 % | Type 2-diabetes er ikke primært T-celle-medieret. Sandsynligvis et grafartefakt |
+| Tetanisk katarakt | 98,30 % | Hænger sammen med hypokalcæmi. Urelateret til anti-CD3 |
+| Kraniostenose-katarakt | 98,30 % | Sjælden syndromal tilstand, sandsynligvis genetisk. Sandsynligvis et grafartefakt |
 
-## Litteraturbevis
+*Bemærk: Den oprindelige liste indeholdt dubletter (diabetisk katarakt, umoden katarakt, katarakt ved type 2-diabetes og tetanisk katarakt optrådte to gange). Tabellen viser hver indikation én gang.*
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+---
 
-## Danske markedsoplysninger
+## Evidens fra kliniske forsøg
 
-Teplizumab er i øjeblikket **ikke markedsført** i Danmark; ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er på fil i denne evidenssamling.
+Der er i øjeblikket ingen relevante kliniske forsøg registreret.
 
-## Sikkerhedshensyn
+---
 
-Ingen sikkerhedsdata (advarsler, kontraindikationer eller lægemiddelinteraktioner) er i øjeblikket tilgængelig i denne evidenssamling, og da Teplizumab ikke er markedsført i Danmark, findes der endnu ingen godkendt Sammenfattende produktkarakteristika (SmPC) at konsultere.
+## Litteraturevidens
 
-## Konklusion og næste trin
+Der er i øjeblikket ingen relevant litteratur tilgængelig.
 
-**Beslutning: Afvent**
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28107304824 | Teizeild | Koncentrat til infusionsvæske, opløsning | Sanofi Winthrop Industrie |
+
+Godkendt indikationstekst er ikke angivet i de tilgængelige data. Lægemidlet gives som intravenøs infusion.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der henvises til den godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en TxGNN-graflighedsscore (L5) uden nogen understøttende kliniske forsøg eller litteratur, og den medfølgende mekanistiske vurdering konkluderer selv, at forbindelsen mellem lægemiddel og sygdom sandsynligvis er et vidensgraf-artefakt snarere end ægte biologisk plausibilitet.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel direkte mekanistisk sammenhæng mellem T-celle-modulering og kataraktdannelse. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer det videre sikkerhedsscreeningstrin.
 
-**For at fortsætte, er det følgende nødvendigt:**
-- Bekræftet oprindelig indikation og godkendt etiketekst (i øjeblikket blokerende — ingen kildedata tilgængelig)
-- Verificeret virkningsmådedata fra DrugBank eller anden autoritativ kilde
-- Uafhængig litteratur- eller præklinisk søgning specifikt for eventuel T-celle/immuninvolvering i diabetisk kataraktpatogenese
-- Regulatorisk etiket-/advarseloplysninger og kontraindikationsdata før nogen sikkerhedsvurdering kan begynde
+**For at komme videre kræves følgende:**
+- Advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé (blokerende)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Godkendt indikationstekst for Teizeild
+- Prækliniske eller mekanistiske studier, der kan understøtte en kobling til katarakt
+- Vurdering af, om en intravenøs administrationsvej er forenelig med en eventuel okulær anvendelse
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

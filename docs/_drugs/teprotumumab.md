@@ -2,7 +2,7 @@
 layout: default
 title: Teprotumumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 427
+nav_order: 429
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teprotumumab: Fra øjensygdom relateret til skjoldbruskekirtelsygdom til Monosomi X
+# Teprotumumab: Fra IGF-1R-hæmmende antistof til monosomi X (Turners syndrom)
 
-## Resume på en sætning
+## Resumé i én sætning
 
-Teprotumumab er et IGF-1R-blokerende monoklonalt antistof; understøttende evidens i dette datasæt beskriver dets virkningsmekanisme som hæmning af aktivering af orbitale fibroblaster, konsistent med dets kendte anvendelse ved øjensygdom relateret til skjoldbruskekirtelsygdom, selvom ingen officiel oprindelig indikation er registreret. TxGNN-modellen forudsiger en mulig forbindelse til **Monosomi X (Turners syndrom)**, med en forudsigelsesscore på 99,79%, men **0 kliniske forsøg** og **0 publikationer** understøtter denne retning.
+Teprotumumab er et antistof, der blokerer IGF-1-receptoren (IGF-1R). Oplysninger om det oprindelige godkendte indikationsområde mangler i datagrundlaget.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **monosomi X (Turners syndrom)**, men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
+Den mekanistiske vurdering peger desuden på, at IGF-1R-blokade biologisk virker i modsat retning af den støttende behandling ved Turners syndrom.
 
----
+## Hurtigt overblik
 
-## Hurtig oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke tilgængelig — medicin ikke markedsført i Danmark; ingen godkendt indikationstekst registreret |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (indikationsteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Monosomi X (Turners syndrom) |
-| TxGNN-forudsigelsesscore | 99,79% |
+| TxGNN-forudsigelsesscore | 99,79 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor kan forudsigelsen se rimelig ud, og hvorfor holder den ikke?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Teprotumumab er dog et antistof, der blokerer IGF-1R.
 
-Detaljerede virkningsmekanisme-data for teprotumumab er flagget som et datagab i denne sammenstilling, og ingen oprindelig indikation er registreret. Evidensen indsamlet for andre kandidat-sygdomme i denne samme batch beskriver imidlertid teprotumumab som en IGF-1R-antagonist, der undertrykker aktivering af orbitale fibroblaster — mekanismen bag dets etablerede anvendelse ved øjensygdom relateret til skjoldbruskekirtelsygdom (Graves' oftalmopati).
+Turners syndrom (monosomi X) behandles bl.a. ved at understøtte væksten via GH/IGF-1-aksen. Blokade af IGF-1R er derfor biologisk modsat rettet. Hertil kommer, at høretab og hyperglykæmi, som er kendte bekymringer ved teprotumumab, er særligt relevante hos en patientgruppe, der i forvejen er disponeret for sensorineuralt høretab og glukoseintolerans.
 
-For den højtrangeret kandidat, Monosomi X, blev ingen mekanistisk begrundelse genereret i denne sammenstilling (markeret "afventer"), og ingen kliniske forsøg, ICTRP-poster eller litteratur blev fundet. En relateret kandidat i samme batch, blandet gonadal dysgenese, blev eksplicit gennemgået og flagget som sandsynligt falsk positiv: IGF-1R-blokade har ingen etableret rolle i kromosomal eller gonadal udviklingsforstyrrelser, og enhver forbindelse til vækstaksen er indirekte. Da Monosomi X ligger i samme sygdoms-lighedskvarter (Turner-syndrom-relaterede tilstande) inden for vidensgrafen, gælder den samme forsigtighed sandsynligvis — denne forudsigelse er plausibelt en videngraf-embedding-artefakt snarere end et genuint mekanistisk signal, men dette er endnu ikke formelt bekræftet for denne specifikke kandidat.
+Den høje score (0,998) afspejler sandsynligvis nærhed i vidensgrafen og ikke et reelt terapeutisk grundlag. Der er ingen kliniske forsøg eller litteratur, der understøtter forudsigelsen.
 
----
+### Øvrige forudsigelser med høj score
 
-## Evidens fra kliniske forsøg
+| Forudsagt indikation | Score | Kort vurdering |
+|------|------|------|
+| Esophageal varices uden blødning | 99,64 % | Ingen kendt mekanistisk forbindelse. Varicer skyldes portal hypertension, og IGF-1R-hæmning har ingen kendt rolle i reguleringen af portaltrykket. |
+| Esophageal varices med blødning | 99,64 % | Ingen plausibel gevinst i den akutte situation, som behandles med vasoaktive stoffer, endoskopisk behandling og antibiotikaprofylakse. |
+| Blandet gonadal dysgenesi | 99,50 % | Tæt beslægtet med monosomi X, hvilket kan forklare de korrelerede scorer. Der er ingen evidens for, at IGF-1R-blokade korrigerer tilstanden. |
+| Mitokondriel OXPHOS-forstyrrelse pga. nukleære DNA-anomalier | 99,44 % | IGF-1R har kun indirekte forbindelse til mitokondriel metabolisme. Hæmning kan i værste fald forværre metabolisk stress, og høretab er en særlig bekymring ved mitokondriesygdom. |
 
-Der er for tiden ingen relaterede kliniske forsøg registreret
+Alle forudsigelser er på evidensniveau L5 med anbefalingen Hold.
 
----
+## Klinisk forsøgsevidens
 
-## Litteraturevidence
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-Der er for tiden ingen relateret litteratur tilgængelig
+## Litteraturevidens
 
----
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-Ingen markedsføringstilladelser er registreret for denne medicin i Danmark (0 licenser registreret; markedsstatus: Ikke markedsført).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107168224 | TEPEZZA (Amgen Europe BV) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedshensyn
+- **Lægemiddelinteraktioner:** Ingen interaktioner fundet i databasen.
+- **Overvejelser ud fra den mekanistiske vurdering:** Høretab og hyperglykæmi er kendte bekymringer ved teprotumumab. De er særligt relevante ved Turners syndrom og mitokondriesygdom.
 
-Se venligst den godkendte produktresuméé (SmPC) for sikkerhedsinformation.
+Der foreligger ingen registrerede data om advarsler eller kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
----
+## Konklusion og næste skridt
 
-## Konklusion og næste trin
-
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den højtrangeret forudsigelse (Monosomi X) har ingen understøttende kliniske forsøg eller litteratur (Evidensniveau L5) og ingen gennemført mekanistisk vurdering, mens strukturelt lignende forudsigelser i samme batch (f.eks. blandet gonadal dysgenese) blev uafhængigt vurderet som sandsynligt falske positive. Medicinen er desuden ikke for tiden markedsført i Danmark, så der eksisterer ingen lokal sikkerhedsreference.
+Forudsigelserne bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer. For den højest scorende indikation, monosomi X, er IGF-1R-blokade biologisk modsat rettet af den støttende behandling, og sikkerhedsprofilen (høretab, hyperglykæmi) giver yderligere anledning til bekymring.
 
-**For at fortsætte er følgende nødvendig:**
-- Gennemførelse af den afventende mekanistiske og beslutningsstade-vurdering specifikt for Monosomi X
-- Løsning af det blokerende datagab: TFDA/EMA SmPC-advarsler og kontraindikationer (DG001)
-- Løsning af datagabet vedr. virkningsmekanisme for at understøtte relevansanalyse (DG002)
-- Identifikation af eventuel præ-klinisk eller mekanistisk litteratur, der forbinder IGF-1R-signalvejen til Turners syndrom-fysiologi, før yderligere evaluering
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé fra Lægemiddelstyrelsen, da sikkerhedsscreening ikke kan gennemføres uden dem
+- Oplysninger om det oprindelige godkendte indikationsområde og detaljerede data om virkningsmekanismen (MOA), f.eks. via DrugBank
+- Præklinisk eller klinisk evidens, der kan modsige den mekanistiske modstrid, før en eventuel yderligere vurdering
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

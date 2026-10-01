@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Melphalan
-parent: Høj evidens (L1-L2)
-nav_order: 283
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 284
+evidence_level: L5
 indication_count: 10
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,115 +29,111 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Melphalan: Fra multipelt myelom til gonadalt keimcelletumor
+# Melphalan: Fra alkylerende kemoterapi til gonadal kimcelletumor
 
----
+## Resumé i få sætninger
 
-## Sammenfatning i én sætning
-
-Melphalan er en bifunktionel alkyleringsagent med etableret anvendelse ved multipelt myelom og hæmatopoietisk stamcelletransplantation. TxGNN-modellen forudsiger, at det kan være effektivt mod **Gonadalt keimcelletumor**, med **8 kliniske forsøg** og **4 publikationer**, der i øjeblikket understøtter denne retning. Evidensen er forankret af et afsluttet fase 2-forsøg, der direkte sigter mod melphalan-indeholdende højdosiskemoterapi ved recidiverende keimcelletumorer, hvilket placerer den samlede støtte på niveau L2.
+Melphalan er et alkylerende kemoterapeutikum, der er markedsført i Danmark som tabletten Alkeran. Dens oprindelige indikation fremgår ikke af data. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **gonadal kimcelletumor** (score 99,8 %). Evidensen er begrænset: **7 kliniske forsøg** (kun ét med kimcelletumorer som målgruppe) og **4 publikationer**, hvoraf ingen er randomiserede studier.
 
 ---
 
 ## Hurtigt overblik
 
-| Post | Indhold |
-|------|---------|
-| Oprindelig indikation | Multipelt myelom og hæmatologiske malignitet (etableret international anvendelse; ikke i øjeblikket autoriseret i Danmark) |
-| Forudsagt ny indikation | Gonadalt keimcelletumor |
-| TxGNN-forudsigelsesscore | 99.77% |
-| Bevisniveau | L2 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Gennemfør med sikkerhedsforsorg |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Gonadal kimcelletumor (gonadal germ cell tumor) |
+| TxGNN-prædiktionsscore | 99,8 % |
+| Evidensniveau | L2 iht. Evidence Pack. Forsøgene er dog ikke bekræftet som randomiserede, så evidensen ligger reelt tættere på L3. |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Melphalan (L-fenylalanin mustard) tilhører nitrogen-mustard-klassen af alkyleringsagenter. Det udøver sin cytotoksiske virkning ved at danne DNA-interstrengs-tværbindinger (ISC), som fysisk blokerer replikationsgaflen og forhindrer transkription, hvilket til sidst udløser apoptose i hurtigt delende celler. Dette er præcis grunden til, at melphalan længe har været ryggraden i højdosis-konditioneringsregimer før autolog stamcelletransplantation (ASCT) – DNA-skaden, der påføres, er så alvorlig, at benmarvsfunktionen elimineres, hvilket gør stamcelletransplantation nødvendig.
+Der foreligger ingen detaljerede data om melphalans virkningsmekanisme i datagrundlaget. Melphalan er dog et bifunktionelt alkylerende middel, som skaber tværbindinger mellem DNA-strengene og dermed hæmmer celledeling. Denne mekanisme er udledt og ikke anført i kildedata.
 
-Gonadale keimcelletumorer (GCT'er) er blandt de mest kemoterapifølsomme solide tumorer inden for klinisk onkologi. Førstegangslinje BEP (bleomycin, etoposid, cisplatin) helbreder størstedelen af patienterne, men platinkemikalieresistent eller recidiverende sygdom udgør et væsentligt uopfyldt klinisk behov. I denne salvage-indstilling er højdosis-kemoterapi (HDC) kombineret med ASCT en etableret strategi til at overvinde platinkemikalieresistens. Fordi melphalan mekanisme – DNA-tværbinding via alkyleringsvejen – mekanistisk adskiller sig fra platinkemikaliebaserede tværbindinger, tilbyder det en ikke-krydsresistent vej til cytotoksicitet, hvilket gør det til en rationel partner i salvage HDC-regimer for cisplatin-resistent GCT.
+Kimcelletumorer er generelt kemofølsomme. Højdosis alkylator-baserede regimer med autolog stamcellestøtte anvendes ved recidiverende sygdom. Den mekanistiske forbindelse er derfor plausibel, og den høje TxGNN-score er i overensstemmelse hermed.
 
-Denne rationale er blevet testet klinisk. GD-HDCT-regimen (gemcitabin + docetaxel + melphalan + carboplatin), undersøgt i et afsluttet fase 2-forsøg (NCT00936936, n=64) specifikt i dårligt-prognose recidiverende GCT, repræsenterer den stærkeste direkte evidens for denne repurposing-forudsigelse og demonstrerer, at TxGNN-modellen opfanger et biologisk og klinisk plausibelt signal.
+Forsøgene bruger melphalan i højdosis intravenøse regimer sammen med stamcellestøtte. Det danske præparat er en oral filmovertrukket tablet, så evidensen kan ikke overføres direkte. Rutekompatibiliteten er ikke vurderet.
 
 ---
 
-## Bevis fra kliniske forsøg
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Rekruttering | Vigtigste fund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Fase 2 | Afsluttet | 64 | To-cykel HDC-regime for dårligt-prognose recidiverende GCT: Cykel 1 = gemcitabin + docetaxel + **melphalan** + carboplatin; Cykel 2 = ifosfamid + carboplatin + etoposid. Eneste afsluttede fase 2-forsøg, der direkte sigter mod recidiverende GCT med et melphalan-indeholdende regime – kerneevidensen for denne indikation. |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Fase 2 | Afsluttet | 451 | Otte HDC-regimer ± TBI før ASCT ved hæmatologiske malignitet og valgte solide tumorer; GCT var en almindelig rekrutteret tumortype. Stort fase 2-datasæt giver sikkerhed og muligheds-data for ASCT-baserede tilgange relevant til GCT. |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | NA | Afsluttet | 174 | Pilot-forsøg, der sammenligner HDC-regimer ± total-kropsbestråling før ASCT ved hæmatologiske kancere og solide tumorer; giver sikkerhedsdata, der kan anvendes på GCT-transplantationsindstillingen. |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Fase 1 | Afsluttet | 25 | HDC med busulfan + **melphalan** + topotecan efterfulgt af ASCT ved avanceret og recidiverende solide tumorer, herunder GCT; evaluerer dosis-sikkerhed for denne melphalan-indeholdende kombination. |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Fase 1/2 | Afsluttet | 25 | Dose-eskalerings-forsøg af højdosis **melphalan** med ASCT og amifostin-cytobeskyttelse; evaluerer direkte melphalan-farmakologi, maksimalt tolereret dosis og tolerabilitet på tværs af kancertyper. |
-| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | NA | Afsluttet | 36 | Non-myeloablativ allogeneisk HSCT ved hjælp af antithymocytglobulin med **melphalan** og cladribin eller total lymfoid bestråling for hæmatologiske malignitet; giver reference-sikkerhedsdata for melphalan i konditionering. |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Fase 1 | Termineret | 13 | Amifostin-kemobeskyttelse med ASCT ved pediatrisk solide tumorer; termineret tidligt (n=13), melphalan som bærestof snarere end primær studiemedikament – begrænset evidentiel værdi. |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Fase 1 | Afsluttet | 6 | Intrathekal melphalan til recidiverende neoplasmisk meningitis; rutespesifikt studium, ikke relevant for systemisk GCT-behandling; inkluderet for fuldstændighed. |
+| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Fase 2 | Afsluttet | 64 | Højdosis kemoterapi i to cyklusser ved recidiverende kimcelletumorer med dårlig prognose. Første cyklus omfatter gemcitabin, docetaxel, melphalan og carboplatin. **Tætteste sygdomsmatch.** |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Fase 2 | Afsluttet | 451 | Autolog knoglemarvs-/stamcelletransplantation med otte højdosisregimer ved hæmatologisk malignitet og udvalgte solide tumorer. Melphalans bidrag kan ikke isoleres. |
+| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Fase 1 | Afsluttet | 25 | Busulfan, melphalan og topotecan med autolog stamcellestøtte ved fremskredne og recidiverende tumorer. Sikkerhedsstudie med flere lægemidler. |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Fase 1/2 | Afsluttet | 25 | Dosiseskalering af melphalan med stamcellestøtte og amifostin-cytoprotektion ved kræft. Blandet gruppe af solide tumorer. |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | Ikke angivet (NA) | Afsluttet | 174 | Højdosis kemoterapi med eller uden helkropsbestråling før autolog stamcelletransplantation. Heterogene maligniteter. |
+| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | Ikke angivet (NA) | Afsluttet | 36 | Ikke-myeloablativ allogen transplantation med melphalan og cladribin eller total lymfoid bestråling. Kun løst relateret. |
+| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Fase 1 | Afsluttet før tid | 13 | Amifostin som beskyttelse mod bivirkninger ved stamcelletransplantation. Understøttende behandling, intet effektsignal. |
+
+Der er ikke registreret EudraCT-numre i datagrundlaget.
 
 ---
 
-## Litteraturbevis
+## Evidens fra litteraturen
 
-| PMID | År | Type | Tidsskrift | Vigtigste fund |
-|------|------|------|---------|---------|
-| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Klinisk studie | Oncology | Tidlig systematisk klinisk erfaring med kemoterapi – herunder alkyleringsagenter – ved testikular keimcelletumor; giver historisk grundlag for melphalan ved GCT. |
-| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Klinisk review | Urologic Clinics of North America | Gennemgang af seminombehandling, herunder cytotoksiske kemoterapi-muligheder; kontekstualiserer brugen af alkyleringsagenter ved gonadalt GCT før platinkemikaliebaserede regimer blev standard. |
-| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | Kasusserie | Voprosy Onkologii | Blandt de tidligste dokumenterede brug af sarkolysin (melphalan) til seminom af testiklerne og dets metastaser; historisk proof-of-concept for melphalan-aktivitet ved GCT. |
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Mekanistisk studie | Acta — Unio Internationalis Contra Cancrum | Mekanistisk undersøgelse af alkyleringsmidlers effekter på hypofyse-folliklestimulerende hormonproduktion; giver indirekte mekanistisk kontekst for melphalan-relaterede endokrine virkninger ved behandling af gonadaltumorer. |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Oversigtsartikel | The Urologic Clinics of North America | Oversigt over seminom. |
+| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Oversigtsartikel | Oncology | Kemoterapi ved testikulære germinale tumorer. |
+| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | Case-serie | Voprosy onkologii | Erfaringer med sarcolysin (en tidlig betegnelse for melphalan) ved testikelseminom og metastaser. |
+| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Prækliniske data | Acta - Unio Internationalis Contra Cancrum | Hormoners og alkylerende midlers påvirkning af hypofysens follikelstimulerende funktion. Ikke relateret til effekt ved tumor. |
+
+Alle fire publikationer er gamle og mangler abstracts i datagrundlaget. De er derfor kun vurderet ud fra titel.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Melphalan har i øjeblikket **ingen markedsføringstilladelser** i Danmark – hverken via Lægemiddelstyrelsen nationale procedure eller via EMA centraliseret procedure. Medicinen er ikke kommercielt tilgængelig på det danske marked.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103204700 | Alkeran (Aspen Pharma Trading Limited) | Filmovertrukne tabletter | Ikke angivet i data |
 
-Sundhedsprofessionelle, der søger adgang til individuelle patienter, skal ansøge gennem named-patient (enkeltpatient) eller compassionate-use-stien administreret af Lægemiddelstyrelsen. Internationalt er melphalan autoriseret under mærkenavnet **Alkeran** i talrige lande til multipelt myelom og som konditioneringsmiddel før ASCT.
+Præparatet er kun tilgængeligt til oral anvendelse.
 
 ---
 
 ## Cytotoksicitet
 
-| Post | Indhold |
-|------|---------|
-| Cytotoksicitetsklassificering | Konventionel cytotoksisk – Nitrogen mustard / Alkyleringsagent (bifunktionel) |
-| Myelosuppression-risiko | **Høj** – alvorlig, dosis-begrænsende myelosuppression (neutropeni, trombocytopeni, anæmi) er den primære og forventede toksicitet; højdosis-regimer kræver obligatorisk ASCT-støtte til hæmatopoietisk redning |
-| Emetogenicitetsklassificering | Lav til moderat (oral standarddosis); moderat til høj (intravenøs højdosis-regimer) |
-| Overvågningsposter | Fuldstændigt blodtal (CBC) med differential og trombocytter – hyppig overvågning påkrævet; serum-kreatinin og eGFR (melphalan-clearance påvirkes af nyrerne); leverfunktionstests (ALT, AST, bilirubin); elektrolytter; mucositis-vurdering; langsigtet overvågning for sekundær malignitet (AML/MDS) |
-| Håndteringsbeskyttelse | Skal overholde cytotoksisk medicin-håndteringsforordninger; passende PPE (handsker, kittel, øjebeskyttelse) påkrævet ved forberedelse og administration; dedikeret cytotoksisk præparationsområde påkrævet |
+| Punkt | Indhold |
+|------|------|
+| Klassifikation | Konventionelt cytotoksisk middel (alkylerende, nitrogensennepsgruppen) |
+| Risiko for myelosuppression | Høj, ud fra almindelig farmakologisk viden. Datagrundlaget indeholder ingen toksicitetsdata. |
+| Emetogenicitet | Lav til moderat for oral administration, ud fra almindelig farmakologisk viden |
+| Monitorering | Fuldt blodbillede med differentialtælling, nyrefunktion og leverfunktion |
+| Håndtering og beskyttelse | Håndtering efter gældende regler for cytotoksiske lægemidler |
+
+Se i øvrigt produktresuméet (SmPC) for advarsler og forsigtighedsregler.
 
 ---
 
-## Sikkerhedshensynet
+## Sikkerhedsovervejelser
 
-Detaljeret advarsels-, kontraindikations- og medicin-medicin-interaktions-data var ikke tilgængelig i det aktuelle bevispaket. Se venligst det godkendte produktresumé (SmPC) for komplet sikkerhedsinformation.
-
-> **Klinisk note for danske praktikere**: Melphalan kendes for at indebære betydelige langsigtede risici, herunder sekundær akut myeloid leukæmi (AML) og myelodysplastisk syndrom (MDS) med kumulativ brug, lungetoksicitet, reproduktionstoksicitet (gonadaltetoksicitet) og teratogenicitet. Disse risici er særligt relevante, når man overvejer brug hos yngre GCT-patienter. En formel risk-benefit-vurdering og faglig MDT-gennemgang anbefales kraftigt før behandlingens påbegyndelse.
+Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Oplysninger om advarsler og kontraindikationer mangler. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Gennemfør med sikkerhedsforsorg**
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-modellens forudsigelse af melphalan-anvendelighed ved gonadalt keimcelletumor (score 99.77%) er biologisk velunderbygget og understøttet af et afsluttet fase 2-klinisk forsøg (NCT00936936, n=64), der direkte evaluerede et melphalan-indeholdende HDC-regime ved dårligt-prognose recidiverende GCT – hvilket opfylder L2-evidenskriterierne. Melphalan-mekanismens DNA-alkylering er ikke-krydsresistent med platin, hvilket giver et sundt videnskabeligt rationale for salvage-brug i platinkemikalieresistent sygdom, en indstilling med begrænsede alternativer i Danmark.
+Det eneste forsøg med direkte relation til kimcelletumorer (NCT00936936) er et enkeltstående fase 2-forsøg med flere lægemidler, og melphalans selvstændige bidrag kan ikke vurderes. De øvrige forsøg omfatter blandede tumortyper, og litteraturen er gammel og uden effektdata. Forsøgene bruger højdosis intravenøs behandling, mens det danske præparat er en oral tablet. Sikkerhedsoplysningerne fra Lægemiddelstyrelsen mangler.
 
-**For at gennemføre er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
+- Data om virkningsmekanisme fra DrugBank
+- Gennemgang af resultaterne fra NCT00936936 for at afklare melphalans bidrag og de kliniske resultater
+- Vurdering af om evidens fra intravenøs højdosisbehandling kan overføres til den orale formulering
+- Aktuelle kliniske retningslinjer for recidiverende kimcelletumorer
 
-- **Regulatorisk adgang**: Indsend en named-patient eller compassionate-use-ansøgning til Lægemiddelstyrelsen, da melphalan ikke er markedsført i Danmark
-- **Sikkerhedsdokumentation**: Hent det fuldstændige produktresumé (SmPC) (advarsler, kontraindikationer, DDI-profil) – dette er en blokeringsdata-mangel i det aktuelle bevispaket
-- **MOA-bekræftelse**: Få komplette mekanisme-for-action-data fra DrugBank for at afslutte den mekanistiske analyse og understøtte det kliniske rationale-dokument
-- **Patientpopulationsdefinition**: Begræns denne indikation til den evidens-understøttede population – platinkemikalieresistent eller recidiverende GCT-patienter, der overvejes til salvage HDC + ASCT i et specialiseret transplantationscenter
-- **MDT-gennemgang**: Etabler en hæmatologi/onkologi multidisciplinær team (MDT) gennemgangsproces; involver et transplantationscenter med ASCT-kapabilitet før enhver klinisk ansøgning
-- **Prospektiv sikkerhedsovervågningsplan**: Definer specifikke overvågningsparametre for myelosuppression, sekundær malignitet-overvågning og organfunktion givet højdosis-indstillingen
-- **Mulighedsvurdering af forsøgstilmelding**: Vurder, om danske patienter kunne deltage i et eksisterende eller planlagt internationalt fase 2/3-forsøg for recidiverende GCT i stedet for off-label-brug
-
----
-
-*Denne rapport er genereret til forskningsmæssig reference-brug kun og udgør ikke medicinsk rådgivning. Repurposing-kandidater kræver klinisk validering før terapeutisk anvendelse. Alle sider, der refererer til drug repurposing-forudsigelser, bør forstås i kontekst af forskningsmæssig forskning.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

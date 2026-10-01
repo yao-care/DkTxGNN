@@ -2,7 +2,7 @@
 layout: default
 title: Glucarpidase
 parent: Kun modelforudsigelse (L5)
-nav_order: 210
+nav_order: 211
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Glucarpidase: Fra metotrexattoksicitetsredning til diabetisk katarakt
+# Glucarpidase: Fra methotrexat-toksicitet til diabetisk katarakt
 
-## Ét-sætningsresumé
+## Resumé i én sætning
 
-Glucarpidase er et carboxypeptidase-enzym, der bruges som redningsstof ved akut metotrexat (MTX)-overdosis, og virker ved hurtigt at hydrolyse cirkulerende MTX til inaktive metabolitter.
-TxGNN-modellen forudsiger, at det kan være effektivt til **Diabetisk katarakt**,
-dog **ingen kliniske forsøg og ingen publikationer** understøtter på nuværende tidspunkt denne retning – forudsigelsen er udelukkende baseret på vidensgrafs-inferens.
+Glucarpidase er et rekombinant enzym, der er markedsført i Danmark som Voraxaze. Det bruges efter det foreliggende kendskab til at nedbryde methotrexat ved forsinket udskillelse. TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Metotrexat-overdosis / redning fra toksiske MTX-plasma-niveauer |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datapakken (indikationsteksten for den danske autorisation er tom). Kendt anvendelse: reduktion af toksiske methotrexat-koncentrationer i plasma |
 | Forudsagt ny indikation | Diabetisk katarakt |
-| TxGNN-forudsigelsesscore | 99.85% |
+| TxGNN-forudsigelsesscore | 99,85 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Tilbageholde |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Glucarpidase (også kendt som carboxypeptidase G2) er et rekombinant bakterielt enzym, der spalter glutamathalen af metotrexat og dets giftige polyglutamat-metabolitter, hvilket hurtigt reducerer plasma-MTX-niveauer. Det er godkendt som en nødredningsterapi hos patienter med forsinket MTX-clearance på grund af nyresvigt, hvor toksiske MTX-niveauer medfører risiko for alvorlig myelosuppression, mucositis og organskade.
+Der foreligger ingen detaljerede data om virkningsmekanismen i datapakken. Glucarpidase er kendt som en rekombinant bakteriel carboxypeptidase G2, der hydrolyserer methotrexat og folater til inaktive metabolitter. Enzymet virker ekstracellulært i plasma.
 
-Det foreslåede link til diabetisk katarakt er mekanistisk indirekte. Diabetisk katarakt drives af aktivering af polyolvejen (aldose-reduktase), ophobning af advanced glycation end-produkter (AGE'er) og oxidativ stress – ingen af disse involverer MTX-metabolisme eller carboxypeptidase-aktivitet. TxGNN-modellen har sandsynligvis genereret denne høje score gennem en multi-hop-sti i vidensgrafen: **folatmetabolisme → forhøjet homocystein → vaskulær og metabolisk skade → diabetiske okulære komplikationer**. Selvom hyperhomocysteinæmi er en etableret risikofaktor for diabetisk mikroangiopati, er Glucarpidase et akut-redningsenzym, ikke et folattilskud eller et homocysteinnedsættende middel, således at denne grafsti ikke udgør en valid terapeutisk rationale.
+Der er **ingen understøttet mekanistisk sammenhæng** mellem denne virkning og diabetisk katarakt. Enzymet har ingen kendt rolle i linsens polyol-vej, glykering eller oxidativt stress. Den høje score skyldes sandsynligvis nabolagseffekter i vidensgrafen og ikke en biologisk begrundelse.
 
-Det er værd at bemærke, at de 10 vigtigste forudsigelser er domineret af flere katarakt-subtyper med identiske scores (0.998330), hvilket er en anerkendt klynge-artefakt i vidensgrafs-modeller – knudepunkter tilhørende samme sygdomsklynge modtager ensartede høje scores uanset lægemiddel-specifik mekanistisk relevans. Dette reducerer yderligere tilliden til den biologiske plausibilitet af forudsigelsen.
+Samme vurdering gælder for de øvrige forudsigelser i listen. De er enten nært beslægtede kataraktbegreber med identiske scorer (0,9983), eller de er uden biologisk forbindelse til glucarpidase:
+
+- **Diabetisk retinopati** (score 99,84 %): Glucarpidase er et stort enzym (ca. 83 kDa som dimer), der virker i plasma. Det har ingen kendt effekt på retinale kar, VEGF eller inflammatoriske veje, og penetration til øjet er usandsynlig og ikke undersøgt.
+- **Umoden katarakt, type 2-diabetes-associeret katarakt, tetanisk katarakt og kraniostenose-katarakt** (score 99,83 %): Disse ligner artefakter fra grafpropagering. Tetanisk katarakt er en sjælden linseuklarhed ved hypoparathyroidisme og har ingen forbindelse til glucarpidases folat- og methotrexat-spaltende aktivitet.
+
+Dublerede inputposter er slået sammen i vurderingen.
 
 ---
 
-## Klinisk forsøgsevidence
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidence
+## Evidens fra litteraturen
 
-Der er i øjeblikket ingen relateret litteratur til rådighed.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-Glucarpidase er ikke registreret hos Lægemiddelstyrelsen og har ingen national eller centraliseret (EMA) markedsføringstilladelse i Danmark. Ingen produktliste er tilgængelig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106459820 | Voraxaze (SERB SAS) | Pulver til injektionsvæske, opløsning | Ikke angivet i datapakken |
+
+Produktet gives som injektion/infusion. Ruteforenelighed med en eventuel okulær anvendelse er ikke vurderet.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der foreligger ingen oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i datapakken. Søgningen efter interaktioner gav ingen resultater.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Tilbageholde**
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-forudsigelsesscore er høj (99.85%), men dette ser ud til at afspejle en vidensgrafs-klynge-artefakt snarere end en ægte farmakologisk hypotese – der er ingen mekanistisk forbindelse mellem Glucarpidase' MTX-hydrolyseaktivitet og patofysiologien af diabetisk katarakt. Med nul understøttende kliniske forsøg, nul publikationer, ingen dansk markedsføringstilladelse og ingen tilgængelige sikkerhedsdata, er der i øjeblikket intet grundlag for at avancere denne kandidat.
+Forudsigelsen hviler udelukkende på modellen (L5), uden kliniske forsøg, litteratur eller en plausibel mekanisme. Glucarpidase virker i plasma og har ingen kendt rolle i linse- eller nethindebiologi. De mange næsten ens kataraktforudsigelser er ikke uafhængig evidens.
 
-**For at fortsætte er følgende påkrævet:**
+**For at gå videre kræves følgende:**
+- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation (blokerende datahul)
+- Indhent mekanismedata (MOA) fra DrugBank
+- Dokumentér en biologisk sammenhæng mellem glucarpidases virkning og linse- eller nethindepatologi ved diabetes
+- Vurdér, om parenteral administration og enzymets størrelse overhovedet kan give relevant eksponering i øjet
+- Gennemfør en systematisk litteratur- og forsøgssøgning med henblik på prækliniske data
 
-- Bekræftelse af en plausibel mekanistisk hypotese, der forbinder Glucarpidase (eller MTX-vejmodulering) til beskyttelse af linseepitelceller under hyperglykæmiske forhold
-- Uafhængig litteraturgennemgang for at bestemme, om en forbindelse mellem folatcyklus–homocystein–linseglåhed er blevet udforsket eksperimentelt
-- Fuld mekanisme-for-handling (MOA)-data fra DrugBank for at muliggøre en stringent mekanistisk analyse
-- Sikkerhedsprofil og kontraindikationdata (TFDA/EMA SmPC) før enhver yderligere evaluering
-- Genundersøgelse af, hvorvidt den høje forudsigelsesscore afspejler ægte signal eller vidensgrafs-klynge-støj (dedublicering og score-rekalibrering anbefalet)
-
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

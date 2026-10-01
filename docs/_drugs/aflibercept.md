@@ -2,7 +2,7 @@
 layout: default
 title: Aflibercept
 parent: Kun modelforudsigelse (L5)
-nav_order: 18
+nav_order: 19
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aflibercept: Fra neovaskulær retinalsygdom til esotropi
+# Aflibercept: Fra øjensygdomme (VEGF-hæmmer) til esotropi
 
-## Resumé på én sætning
+## Resumé
 
-Aflibercept er et rekombinant VEGF-fælde-fusionsprotein med globalt etablerede indikationer ved neovaskulær (fugtig) aldersbetinget maculadegeneration (AMD), diabetisk maculaødem, retinal venetrombose og metastatisk kolorektal cancer — selvom det i øjeblikket ikke har markedsautorisation i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt for **esotropi** med en tillidsgrad på **99.38%**,
-men der er **ingen kliniske forsøg** og **ingen publikationer**, der i øjeblikket understøtter denne specifikke omdisponering.
+Aflibercept er en VEGF-fælde (binder VEGF-A, VEGF-B og PlGF) og kendes fra behandling af øjensygdomme. TxGNN-modellen forudsiger, at det kan virke mod **esotropi** (indadgående skelen), men der findes **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen. Den vurderes derfor som en ren modelforudsigelse (evidensniveau L5).
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|--------|---------|
-| Original indikation | Neovaskulær (fugtig) AMD, diabetisk maculaødem, retinal venetrombose (globalt godkendt; ikke registreret i Danmark) |
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Esotropi |
-| TxGNN-forudsigelsesscore | 99.38% |
+| TxGNN-forudsigelsesscore | 99,38 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsautoraisationer | 0 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i denne Evidenspakke. Baseret på etableret farmakologisk viden er aflibercept et rekombinant fusionsprotein — en "VEGF-fælde" — konstrueret ved at kombinere de ekstracellulære ligand-bindende domæner af VEGF-receptorer 1 og 2 fusioneret med Fc-området af humant IgG1. Det binder VEGF-A, VEGF-B og placentalt vækstfaktor (PlGF) med høj affinitet og blokerer således patologisk angiogenese og vaskulær hyperpermeabilitet. Denne mekanisme ligger til grund for dets EMA-godkendte brug ved neovaskulær AMD, diabetisk maculaødem og retinal venetrombose (som Eylea), såvel som dets brug ved metastatisk kolorektal cancer i kombination med FOLFIRI (som Zaltrap).
+Aflibercept blokerer VEGF-A, VEGF-B og PlGF og hæmmer dermed karnydannelse og karlækage. Detaljerede mekanismedata fra DrugBank foreligger ikke i denne evidenspakke.
 
-Esotropi er en indadvendt øjenafvigelse (en form for strabismus), typisk klassificeret som akkommodativ, ikke-akkommodativ eller infantil. Selvom de dominerende former er neuromotorale eller brydningsbaserede snarere end vaskulære, kan nogle sekundære former for esotropi — såsom dem, der opstår efter retinale vaskulære hændelser, retinalopløsningskirurgi eller i sammenhæng med høj myopi med posterior staphyloma — indebære VEGF-relateret vævsomformning. Dette repræsenterer en spekulativ, men ikke helt usandsynlig mekanistisk forbindelse.
+Esotropi er en neuromuskulær og sensorimotorisk lidelse, hvor øjnene ikke står parallelt. Der er ingen kendt biologisk mekanisme, der forbinder VEGF-blokade med korrektion af øjets stilling. Den høje score (0,994) skyldes sandsynligvis, at modellen har koblet lægemidlet til nærliggende øjensygdomme i vidensgrafen. Intravitreal anti-VEGF-behandling ved præmatur retinopati er desuden beskrevet som muligt forbundet med senere skelen, altså som en mulig bivirkning og ikke som en gavnlig effekt.
 
-Men den biologiske begrundelse for at forbinde anti-VEGF-terapi til behandling af primær esotropi er meget svag. VEGF-blokade er ikke en anerkendt terapeutisk strategi for strabismusbehandling, og TxGNN-modellens høje tillidsgrad synes at afspejle en lært associering på graftiveau snarere end en direkte mekanistisk eller klinisk relation. Uden dokumentation fra litteratur eller forsøgsdata kan denne forudsigelse i øjeblikket ikke betragtes som klinisk handlingsberettiget.
+### Øvrige forudsagte indikationer (samme evidensniveau L5, alle Hold)
 
----
-
-## Evidens fra kliniske forsøg
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturbevis
-
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Esofagusvaricer uden blødning | 97,56 % | Der er et præklinisk rationale (angiogenese ved portal hypertension), men ingen kliniske data. Systemisk VEGF-blokade indebærer risiko for blødning og GI-perforation. |
+| Esofagusvaricer med blødning | 97,56 % | Samme rationale. Aktiv variceblødning er et stærkt sikkerhedsmæssigt modsignal, fordi anti-VEGF-midler har advarsler om blødning. |
+| Varicer (åreknuder) | 96,95 % | Sammenhængen med VEGF-fælder er svag og spekulativ. Anti-VEGF kan hæmme sårheling og karintegritet. |
+| Urethral sten | 95,97 % | Ingen troværdig mekanisme. Sandsynligvis en artefakt i vidensgrafen. |
 
 ---
 
-## Markedsinformation for Danmark
+## Klinisk forsøgsevidens
 
-Aflibercept har i øjeblikket ingen markedsautoraisationer registreret hos Lægemiddelstyrelsen. Dette lægemiddel er ikke markedsført i Danmark på tidspunktet for denne rapport (dataafskæring: 2026-04-04).
-
-> **Bemærkning:** Aflibercept er autoriseret i EU gennem centraliserede EMA-procedurer under varemærkerne **Eylea** (intravitreal injektion; til neovaskulær AMD, diabetisk maculaødem, maculaødem efter retinal venetrombose og diabetisk retinopati) og **Zaltrap** (intravenøs infusion; til metastatisk kolorektal cancer i kombination med FOLFIRI). Disse centraliserede autoraisationer gælder på tværs af EU/EØS-medlemsstater, herunder Danmark, men afspejles ikke i de nationale registreringsdata, der er tilgængelige for denne Evidenspakke. Danske receptudskrivere skal bekræfte den aktuelle status via EMA-produktdatabasen.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. SmPC for Eylea og Zaltrap er tilgængelig via EMA-webstedet. Ingen lægemiddelinteraktionsdata eller specifikke advarsler kunne hentes fra denne Evidenspakke.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|------|
+| 28107330825 | Afiveg | Injektionsvæske, opløsning, hætteglas | STADA Arzneimittel AG |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke leveret data om advarsler, kontraindikationer eller interaktioner for dette lægemiddel. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Ud fra den mekanistiske vurdering bør man dog være opmærksom på:
+- **Blødningsrisiko:** anti-VEGF-midler har advarsler om blødning, hvilket er særligt relevant ved skrøbelige esofagusvaricer.
+- **GI-perforation og nedsat sårheling:** risici ved systemisk VEGF-blokade.
 
 ---
 
@@ -94,15 +102,15 @@ Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. SmPC 
 **Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-tillidsgrad på 99.38%, blev der ikke identificeret kliniske forsøg, publiceret litteratur eller mekanistisk evidens, der forbinder aflibercept med behandling af esotropi. Forudsigelsen ser ud til at være en inferens på graftiveau uden direkte biologisk eller klinisk underbyggelse og lever ikke op til minimumevidenskravene for at kunne gå videre til en gennemførlighedsvurdering.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanisme for esotropi, og for flere af de øvrige kandidater (især varicer med blødning) taler sikkerhedsprofilen imod anvendelse.
 
-**For at fortsætte er følgende nødvendigt:**
-- Hentning af data om virkningsmekanisme fra DrugBank (problemafhjælpning identificeret i Evidenspakke: DG002) for at bekræfte, om VEGF-hæmning har nogen dokumenteret rolle ved okulomotoriske forstyrrelser
-- Udvidet manuel litteratursøgning i PubMed og Embase ved hjælp af bredere MeSH-termer (f.eks. anti-VEGF AND strabismus; VEGF AND ocular motility)
-- Klinisk vurdering af sekundære esotropi-subtyper, hvor vaskulær eller neovaskulær patologi kan være relevant (f.eks. post-retinal kirurgi, myopisk strabismus fixus)
-- Hentning af fuldstændige sikkerhedsdata fra Eylea og Zaltrap SmPC'er (problemafhjælpning identificeret i Evidenspakke: DG001) for at vurdere gennemførligheden af administrationsvej for enhver oftalmologisk brug ved esotropi
-- Rådføring med en dansk øjenlæge for at vurdere uopfyldt klinisk behov og biologisk plausibilitet før yderligere investering i denne kandidat
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger fra Lægemiddelstyrelsens produktresumé (advarsler og kontraindikationer)
+- Data om virkningsmekanisme fra DrugBank
+- Prækliniske eller kliniske studier, der understøtter mindst én af de forudsagte indikationer
+- Vurdering af administrationsvej: Afiveg er en intravitreal injektionsvæske, og det er uafklaret, om den er forenelig med de forudsagte indikationer
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

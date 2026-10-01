@@ -2,7 +2,7 @@
 layout: default
 title: Vancomycin
 parent: Kun modelforudsigelse (L5)
-nav_order: 464
+nav_order: 466
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vancomycin: Fra Gram-positive bakterielle infektioner til diffus skleroderm
+# Vancomycin: Fra antibiotikum til diffus sklerodermi
 
-## Sammenfattelse på én linje
+## Opsummering i en sætning
 
-Vancomycin er et glykopeptidantibiotikim, der klinisk bruges til alvorlige Gram-positive infektioner (f.eks. MRSA, *C. difficile*). TxGNN-modellen forudsiger et muligt link til **Diffus skleroderm**, men denne retning er i øjeblikket understøttet af **0 kliniske forsøg** og kun **1 casusrapport**, og casusrapporten selv beskriver en mistænkt *bivirkning*, ikke en terapeutisk effekt.
+Vancomycin er et glykopeptid-antibiotikum, der virker mod grampositive bakterier. TxGNN-modellen forudsiger, at det kan have effekt ved **diffus sklerodermi**. Der er **ingen kliniske forsøg** og kun **1 publikation** (en case report uden direkte relevans), så forudsigelsen er udelukkende modelbaseret.
+
+---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Gram-positive bakterielle infektioner (udledt fra lægemiddelklasse; ingen Danmark-specifik godkendt indikationstekst på fil) |
-| Forudsagt ny indikation | Diffus skleroderm |
-| TxGNN-forudsigelsesscore | 99.92% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering. Vancomycin er et glykopeptid-antibiotikum |
+| Forudsagt ny indikation | Diffus sklerodermi |
+| TxGNN-forudsigelsesscore | 99,92 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede data om virkningsmåde for denne kandidat er ikke tilgængelige i bevispacken (virkningsmåde-felt er markeret som et blokerende datagab). Baseret på almene farmakologiske data, som fremgår af bevispacken selv, virker vancomycin ved at hæmme D-Ala-D-Ala-cellevægssyntese i Gram-positive bakterier — en mekanisme uden kendt relevans for diffus skleroderm, som er en autoimmun fibrotisk sygdom kendetegnet ved fibroblastaktivering, TGF-β-signalering og mikrovaskulær skade.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Den eneste understøttende litteratur (PMID 31541072) er en casusrapport fra 2019 om en patient med diffust eksfoliativt udslæt, sepsis og eosinofili efter antibiotikabehandling — dette beskriver en *mistænkt hudbivirkning*, ikke en terapeutisk fordel ved skleroderm. Der er ingen bevis fra kliniske forsøg, ingen præklinisk mekanistisk undersøgelse, og ingen etableret farmakologisk begrundelse, der forbinder en antibakteriell cellevægsinhibitor med en autoimmun fibrotisk sygdom.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i evidenspakken. Vancomycin er et glykopeptid-antibiotikum, der hæmmer celleväggssyntesen hos grampositive bakterier.
 
-I betragtning af dette afspejler den høje TxGNN-score mest sandsynligt sparsomme eller konfunderede associationer i den underliggende videnskraf snarere end et ægte repurposeringsignal. Det samme mønster gælder for de andre kandidater i denne batch (paratyfoid feber, salmonellose) — begge er forårsaget af Gram-negative organismer, som vancomycin ikke kan trænge ind i, hvilket gør disse forudsigelser mekanistisk usandsynlige såvel.
+Diffus sklerodermi er en autoimmun, fibrotisk sygdom uden kendt bakteriel drivkraft, som vancomycin kunne målrette. Der er derfor ingen oplagt mekanistisk sammenhæng mellem den oprindelige anvendelse og den forudsagte indikation. Den høje score (0,999) afspejler en modelforudsigelse, sandsynligvis baseret på nærhed i vidensgrafen, og ikke et dokumenteret terapeutisk forhold.
 
-## Bevis fra kliniske forsøg
+De øvrige højt rangerede forudsigelser i analysen er heller ikke støttet af evidens:
 
-Der er i øjeblikket ingen registrerede relevante kliniske forsøg.
+- **Paratyfus og salmonellose:** *Salmonella* er gramnegativ og iboende resistent over for vancomycin.
+- **Medfødt analbuminæmi, polyklonalt hyperviskositetssyndrom og hyperamylasæmi:** Der er ingen kendt mekanistisk forbindelse, og der er ikke fundet forsøg eller litteratur.
 
-## Litteraturbevis
+---
 
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|--------|---------|
-| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Casusrapport | The American Journal of Case Reports | Beskriver en patient med diffust eksfoliativt udslæt, sepsis og eosinofili efter antibiotikabehandling (herunder midler i vancomycin-lægemiddelklassen) — en mistænkt hudbivirkning, ikke bevis for terapeutisk brug ved skleroderm |
+## Evidens fra kliniske forsøg
 
-## Oplysninger om det danske marked
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for diffus sklerodermi.
 
-Vancomycin er i øjeblikket ikke markedsført i Danmark i henhold til denne bevispacke, og der er ingen markedsføringstilladelelsesregistre på fil (0 licenser).
+---
 
-## Sikkerhedshensyn
+## Evidens fra litteraturen
 
-Se venligst det godkendte produktinformationsdokument (SmPC) for sikkerhedsinformationer. Ingen lægemiddelinteraktionsregistre blev fundet i den forespurgte database.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Case report | The American Journal of Case Reports | Mand på 56 år med diffust eksfoliativt udslæt (erytrodermi), sepsis og eosinofili. Casen handler ikke om sklerodermi og viser ingen effekt af vancomycin ved sklerodermi |
 
-## Konklusion og næste trin
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103008798 | Vancocin (Strides Pharma (Cyprus) Limited) | Kapsler, hårde | Ikke angivet i de tilgængelige data |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-scoren er høj, men der er ingen mekanistisk begrundelse, ingen bevis fra kliniske forsøg, og den enkelte litteraturreference beskriver faktisk en hudbivirkning snarere end en behandlingseffekt. Evidensniveau L5 (kun modelforudsigelse) understøtter ikke fremme af denne kandidat.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5). Der er hverken kliniske forsøg eller relevant litteratur, og der er ingen plausibel mekanistisk sammenhæng mellem vancomycins antibakterielle virkning og patofysiologien ved diffus sklerodermi.
 
-**For at komme videre er følgende nødvendigt:**
-- Bekræftet data om virkningsmåde for vancomycin (i øjeblikket et blokerende datagab, DG002)
-- TFDA/SmPC-advarsler og kontraindikationer (i øjeblikket et blokerende datagab, DG001), før nogen sikkerhedsforscreening (S1) kan påbegyndes
-- Prækliniske eller mekanistiske undersøgelser, der specifikt forbinder glykopeptidantibiotikaer til fibrotisk/autoimmun patologier, hvis denne kandidat skal revurderes
-- Uafhængig genvurdering af TxGNN-signalet, givet at de 10 bedst rangerede kandidater for dette lægemiddel (herunder paratyfoid feber og salmonellose, begge Gram-negative indikationer) viser det samme mønster af høj score kombineret med usandsynlig mekanisme
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsscreening
+- Præklinisk eller mekanistisk evidens for en mulig rolle ved fibrotiske eller autoimmune sygdomme, før yderligere vurdering er relevant
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

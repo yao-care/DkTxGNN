@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Kun modelforudsigelse (L5)
-nav_order: 267
+nav_order: 268
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,81 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lonafarnib: Fra uspecificeret original indikation til spedalskhed
+# Lonafarnib: Fra farnesyltransferasehæmmer til spedalskhed (leprosy)
 
-## Et-sætnings sammenfatning
+## Resumé i én sætning
 
-> Lonafarnib's oprindelige godkendte indikation er ikke dokumenteret i de tilgængelige data (DrugBank ID DB06448; virkningsmekanisme registreret som et datahul).
-> TxGNN-modellen forudsiger mulig effektivitet for **spedalskhed**, med en forudsigelsesscore på **99.14%**,
-> men i øjeblikket **ingen kliniske forsøg og ingen publikationer** understøtter denne specifikke kombination — forudsigelsen er kun baseret på modelresultater.
+Lonafarnib er en farnesyltransferasehæmmer, som er markedsført i Danmark under navnet Zokinvy. Evidenspakken oplyser ingen oprindelig indikation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **spedalskhed (leprosy)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende baseret på en grafmodel.
 
-## Kort oversigt
+---
+
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke dokumenteret i tilgængelige data |
-| Forudsagt ny indikation | Spedalskhed |
-| TxGNN forudsigelsesscore | 99.14% |
-| Bevisniveau | L5 (kun modelforudsigelse, ingen kliniske eller litteraturmæssige beviser) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
+| Forudsagt ny indikation | Spedalskhed (leprosy) |
+| TxGNN-prediktionsscore | 99,14 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede data om virkningsmekanisme for Lonafarnib er ikke tilgængelige i det aktuelle datasæt (markeret som et datahul med høj alvorlighed). Understøttende tekstuel begrundelse andetsteds i bevispakken identificerer Lonafarnib som en farnesyltransferase (FTase)-inhibitor, som blokerer farnesylering af Ras og beslægtede proteiner — men denne beskrivelse blev leveret kun som baggrundskontekst for andre kandidatindikationer, ikke som en valideret MOA-post for dette lægemiddel.
+## Hvorfor er forudsigelsen rimelig?
 
-For den toprangerede forudsigelse, spedalskhed, angiver bevispakken eksplicit, at der er **ingen kendt mekanisk forbindelse** mellem farnesyltransferase-inhibition og *Mycobacterium leprae*-infektionspatologi. Forudsigelsen er udelukkende afledt af TxGNN-vidensgrafscore, uden understøttende kliniske forsøg, litteratur eller biologisk begrundelse identificeret til dato.
+Der er ikke noget klart mekanistisk link mellem lonafarnib og spedalskhed. Lonafarnib hæmmer farnesyltransferase, som tilfører en farnesylgruppe til proteiner, bl.a. Ras. Der er ingen data, der kobler proteinfarnesylering til infektion med *M. leprae* eller til værtens immunrespons ved spedalskhed.
 
-Da den oprindelige indikation også er udokumenteret, er det i øjeblikket ikke muligt at vurdere farmakologisk kontinuitet mellem Lonafarnib's etablerede brug og spedalskhed. Denne kombination af et usupporteret mekanistisk link og fraværet af enhver oprindelig indikationskontekst er grunden til, at bevisniveauet er scoret på det laveste niveau (L5) og anbefalingen som standard er "Vent".
+Den høje score (0,991) afspejler kun mønstre i TxGNN's vidensgraf. Der foreligger heller ikke detaljerede data om virkningsmekanisme i evidenspakken, og der er ingen oprindelig indikation at sammenligne med. Ligheden mellem den oprindelige og den nye indikation kan derfor ikke vurderes.
 
-## Bevis fra kliniske forsøg
+Forudsigelsen bør betragtes som en hypotese, ikke som et holdepunkt for klinisk anvendelse.
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret
+---
 
-## Bevis fra litteratur
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig
+Der er i øjeblikket ingen registrerede kliniske forsøg for denne indikation (hverken i ClinicalTrials.gov eller ICTRP).
 
-## Markedsinformation for Danmark
+---
 
-Der er i øjeblikket ingen markedsføringstilladelser registreret for Lonafarnib i Danmark (markedsstatus: Ikke markedsført; 0 tilladelser på fil).
+## Evidens fra litteraturen
 
-## Sikkerhedshensyn
+Der er i øjeblikket ingen relevant litteratur for denne indikation.
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+---
 
-*(Advarselslabel og kontraindikationer for Danmark/EU er registreret som et datahul med blokkeringssværehedsgrad — dette skal løses før nogen sikkerhedsvurdering (S1) kan gennemføres. Der blev ikke fundet data om lægemiddel-lægemiddel-interaktioner i kildesøgningen.)*
+## Information om det danske marked
 
-## Konklusion og næste trin
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106416320 | Zokinvy (TMC Pharma (EU) Limited) | Kapsler, hårde | Indikationstekst er ikke angivet i registreringen |
 
-**Beslutning: Vent**
+---
+
+## Sikkerhedsovervejelser
+
+Der foreligger ikke sikkerhedsdata i evidenspakken (advarsler, kontraindikationer og interaktioner). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den toprangerede forudsigelse (spedalskhed) understøttes udelukkende af en TxGNN-grafscore, uden kliniske forsøg, uden litteratur og uden plausibel mekanistisk link identificeret — bevisniveauet L5 opfylder ikke tærsklen for at gå videre end indledende screening (S0).
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), uden kliniske forsøg, uden litteratur og uden et identificeret mekanistisk link mellem farnesyltransferasehæmning og spedalskhed. Der er ikke grundlag for at gå videre på nuværende tidspunkt.
 
-**For at kunne fortsætte, er følgende nødvendig:**
-- SmPC-advarsler og kontraindikationer for Danmark/EU (Blokkeringsdatahul — påkrævet før nogen sikkerhedsvurdering)
-- Verificeret virkningsmekanisme for Lonafarnib
-- Dokumentation af Lonafarnib's oprindeligt godkendte indikation(er) for at vurdere kontinuitet med enhver ny kandidatindikation
-- Hvis man ønsker at fortsætte med repurposing, skal man overveje at prioritere reumatoid arthritis-kandidaten i stedet (bevisniveau L4, en understøttende mekanisme-vejpublikation, selvom ikke lægemiddelspecifik) snarere end spedalskhed, som i øjeblikket slet ikke har nogen bevismæssig belæg
+Til sammenligning har de øvrige forudsagte indikationer heller ikke tilstrækkelig evidens. Rheumatoid arthritis er den eneste med lidt støtte (L4, status "Research Question"). Det eneste fundne studie (PMID 36543278) undersøger en traditionel kinesisk urtemedicin og hæmning af Ras/MEK/ERK-signalvejen i præklinske modeller. Det omfatter ikke lonafarnib, så det understøtter kun signalvejens relevans. Prinzmetal-angina, homozygot familiær hypercholesterolæmi og hyperthyroidisme har ingen evidens ud over modelscoren (L5, Hold).
 
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, som i dag blokerer for sikkerhedsscreening
+- Oplysning om den godkendte indikation for Zokinvy i Danmark
+- Præklinisk eller mekanistisk evidens for en rolle for farnesylering i spedalskhed, før kliniske studier overvejes
+- Vurdering af administrationsvej (pending)
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til omplacering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

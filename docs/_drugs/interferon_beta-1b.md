@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Beta-1B
 parent: Moderat evidens (L3-L4)
-nav_order: 239
+nav_order: 240
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,68 +29,87 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Interferon Beta-1b: Fra ingen godkendt dansk indikation til hårcelleleukæmi
+# Interferon beta-1b: Fra multipel sklerose til hårcelleleukæmi
 
-## Sammenfatning i én sætning
+## Resumé
 
-Interferon beta-1b har i øjeblikket ingen markedsføringstilladelse i Danmark, så ingen godkendt oprindelig indikation er registreret for dette lægemiddel i danske regulatoriske data. TxGNN-modellen forudsiger, at det kan være effektivt til **Hårcelleleukæmi**, men denne retning understøttes i øjeblikket kun af **0 registrerede kliniske forsøg** og **4 historiske publikationer** (1987–1990), uden aktive forsøg eller moderne kontrolleret data.
+Interferon beta-1b (Betaferon) er et rekombinant type I-interferon, som i Danmark er markedsført til behandling af multipel sklerose (MS). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hårcelleleukæmi** (hairy cell leukemia). Evidensen er begrænset: **ingen registrerede kliniske forsøg** og **4 publikationer** fra 1987-1990, hvoraf de fleste er små serier.
+
+---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke tilgængelig — lægemiddel er ikke markedsført i Danmark; ingen godkendt indikationstekst på filen |
-| Forudsagt ny indikation | Hårcelleleukæmi |
-| TxGNN forudsigelsesscore | 99.16% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Multipel sklerose (indikationsteksten er tom i de danske licensdata og er udledt fra evidenspakkens begrundelse) |
+| Forudsagt ny indikation | Hårcelleleukæmi (hairy cell leukemia) |
+| TxGNN-forudsigelsesscore | 99,16 % |
 | Evidensniveau | L3 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-I øjeblikket er detaljerede data om virkningsmekanisme for interferon beta-1b ikke tilgængelige i denne evidenspakke (markeret som en alvorlig datakløft). Baseret på den understøttende litteratur er interferon beta-1b et type I-interferon med potent antiproliferativ og immunomodulatorisk aktivitet — det inducerer cellecyklusarrest og forbedrer NK-celle- og monocytaktivitet. Disse mekanismer overlapper delvist med mekanismerne for interferon alfa, som historisk blev brugt som førstelinjebehandling for hårcelleleukæmi (HCL) før purinanaloga blev standard.
+## Hvorfor er forudsigelsen rimelig?
 
-Fordi lægemidlets egen oprindelige indikation ikke er registreret i dette datasæt (Danmark: ikke markedsført, 0 licenser), er begrundelsen for denne forudsigelse baseret på klasse-analogi snarere end på et dokumenteret forhold mellem oprindelig og ny indikation. Den historiske litteratur (1987–1990) viser, at beta-ser-interferon producerede hæmatologiske respons i HCL, der var sammenlignbar i retning med alfa-interferon, hvilket understøtter biologisk plausibilitet.
+Der foreligger ingen detaljerede data om virkningsmekanismen (MOA) i datagrundlaget. Interferon beta-1b er imidlertid et type I-interferon (Ser17-varianten) med kendte antiproliferative og immunmodulerende effekter. Dets virkning ved MS er veletableret. Det er der, lægemidlet er markedsført i dag.
 
-Imidlertid har behandlingsstandardens for HCL siden skiftet til purinanaloga (cladribine/pentostatin), og al tilgængelig IFN-beta-evidens for HCL består af små, ukontrollerede fase 1/2-studier eller case-serier fra slutningen af 1980'erne, uden moderne sammenlignende forsøg og nul aktuelt registrerede kliniske forsøg for denne indikation.
+Hårcelleleukæmi er en B-celle-malignitet. Interferon-alfa, et andet type I-interferon, var historisk aktivt ved sygdommen. De publicerede data for interferon beta tyder på en klasseeffekt. Det er mekanistisk plausibelt, at interferon beta kan hæmme væksten af maligne B-celler.
+
+Der er en vigtig begrænsning. Purinanaloger (kladribin og pentostatin) har siden afløst interferoner som standardbehandling ved hårcelleleukæmi. Det kliniske behov for et interferon-baseret alternativ er derfor lavt.
+
+---
 
 ## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for hårcelleleukæmi.
 
-## Evidens fra litteratur
+---
 
-| PMID | År | Type | Tidsskrift | Vigtigste fund |
-|------|-----|------|------|---------|
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospektiv sammenlignende kohorte | Cancer | 10 HCL-patienter behandlet med rekombinant beta-ser-interferon; 63% opnåede normalisering af perifere blodtælinger, yderligere 25% viste forbedring i ≥1 hæmatologisk parameter; persisterende hårceller forblev i knoglemarv hos alle patienter |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case-serie / ukontrolleret fase 2 | American Journal of Hematology | 12 HCL-patienter (10 tidligere behandlet) givet IV beta-ser-interferon 90 MU tre gange ugentligt; knoglemarvinvolvering 90–100% hårceller ved baseline |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case-serie | American Journal of Clinical Oncology | Patienter, der svigtede alfa-2a- eller beta-ser-interferon, opnåede komplet respons med efterfølgende pentostatin (2'-deoxycoformycin), hvilket illustrerer IFN-beta som en mellemoption/mislykket førstelinjebehandling snarere end definitiv terapi |
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospektiv kohorte (enkelt institution) | Leukemia | UCLA-erfaringer på tværs af 51 HCL-patienter på type I-interferoner; hæmatologisk forbedring i 96% (alfa-2b), 69% (alfa-N1) og 71% (beta-ser, tidlig opfølgning) |
+## Evidens fra litteraturen
 
-## Markedsinformation for Danmark
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|---------|-----|------|------|---------|
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospektivt sammenlignende studie (vs. interferon-alfa) | Cancer | 10 patienter behandlet med rekombinant beta-serin-interferon, 90 mio. enheder subkutant 3 gange ugentligt. Af 8 evaluerbare patienter fik 5 (63 %) normaliserede blodtal, og 2 (25 %) fik bedring i mindst én hæmatologisk parameter. Der var fortsat hårceller i knoglemarven hos alle. |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case-serie | American Journal of Hematology | 12 patienter (10 forbehandlede) fik beta-ser-interferon, 90 mio. enheder intravenøst 3 gange ugentligt. Knoglemarvsinvolvering på 90-100 % hårceller. Titlen angiver vellykket behandling. |
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospektiv erfaring fra ét center | Leukemia | 51 patienter indgik i interferonforsøg ved UCLA. Hæmatologisk bedring sås hos 96 % med alfa-2b, 69 % med alfa-N1 og hos 5 patienter (71 %) med beta-serin-interferon. |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Klinisk rapport (indirekte) | American Journal of Clinical Oncology | Tre patienter, hvor interferon-alfa (2) eller beta-ser-interferon (1) havde svigtet, opnåede komplet respons med deoxycoformycin (pentostatin). Illustrerer, at purinanaloger virkede efter interferonsvigt. |
 
-I øjeblikket ikke markedsført i Danmark — ingen markedsføringstilladelse er på filen for dette produkt.
+Alle studier er små og over 35 år gamle. De anvendte doser (90 mio. enheder) er langt højere end MS-dosis (8 mio. enheder). Evidensen kan derfor ikke direkte overføres til den markedsførte Betaferon-dosering.
 
-## Sikkerhedsmæssige overvejelser
+---
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+## Oplysninger om det danske marked
 
-## Konklusion og næste trin
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101665194 | Betaferon (Bayer AG) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
-**Beslutning: Afvent**
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen af hårcelleleukæmi understøttes kun af L3-niveau-evidens — små, ukontrollerede, årtier gamle (1987–1990) kohorte- og case-serie-data uden aktuelt registrerede kliniske forsøg. Kombineret med en blokerende datakløft om danske etiketadvarsler/kontraindikationer (DG001) og en alvorlig datakløft om virkningsmekanisme (DG002), plus lægemidlets nuværende "ikke markedsført"-status i Danmark, er evidensgrundlaget utilstrækkeligt til at gå videre ud over et forskningsspørgsmål på nuværende tidspunkt.
+Evidensen for hårcelleleukæmi består udelukkende af små, ældre studier uden registrerede kliniske forsøg. Purinanaloger har siden afløst interferoner som standardbehandling, så det kliniske behov er lavt. Sikkerhedsdata fra den danske produktinformation mangler, og det blokerer den videre sikkerhedsvurdering.
 
-**For at gå videre er følgende nødvendigt:**
-- SmPC-advarsler, forholdsregler og kontraindikationer for interferon beta-1b (Blokerende datakløft DG001)
-- Bekræftede data om virkningsmekanisme fra DrugBank eller tilsvarende kilde (DG002)
-- Moderne sammenlignende evidens for HCL, under hensyntagen til at purinanaloga (cladribine/pentostatin) nu er standard for behandling
-- Dansk/EU-regulatorisk vejledning-vurdering, da produktet i øjeblikket ikke har nogen markedsføringstilladelse i Danmark
+De øvrige forudsigelser for lægemidlet er enten MS-relaterede (allerede på mærkaten og derfor ikke egentlig repurposing) eller uden evidens. Det gælder fosteralvorlig methylkviksølvsyndrom, som kun bygger på modelforudsigelse (L5).
 
-**Bemærk:** Denne evidenspakke indeholder også andre TxGNN-forudsigelser for interferon beta-1b med væsentligt stærkere evidens — især CNS-autoimmun/demyeliniserende sygdomsindikationer (rangeringer 3–8), som understøttes af dusinvis af afsluttede forsøg, herunder flere afsluttede fase 3 RCT'er og omfattende systematisk review-litteratur. Disse retninger vil sandsynligvis være berettigede til en særskilt, dedikeret vurdering givet deres væsentligt højere evidensmodenhed.
+**For at komme videre er der brug for:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé for Betaferon.
+- Data om virkningsmekanismen fra DrugBank.
+- Bekræftelse af den godkendte indikationstekst for Betaferon i Danmark.
+- En vurdering af eventuel merværdi i forhold til kladribin og pentostatin, herunder dosis og administrationsvej sammenlignet med de historiske studier.
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for repurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

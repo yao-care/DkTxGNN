@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ritonavir
-parent: Kun modelforudsigelse (L5)
-nav_order: 383
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 384
+evidence_level: L4
 indication_count: 6
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Ritonavir: Fra HIV-1-infektion til Simian Immunodeficiency Virus (SIV)-infektion
+# Ritonavir: Fra HIV-1-infektion til simian immundefektvirus (SIV)-infektion
 
-## Resumé i én sætning
+## Resumé
 
-> Ritonavir er en velkendt HIV-1-proteasehæmmer, der i dag oftest anvendes som en farmakokienetisk booster i kombinerede antiretrovirale behandlingsregimer (strukturerede oprindelige indikationsdata blev ikke returneret af denne bevissamling).
-> TxGNN-modellens højest rangerede forudsigelse er **Simian Immunodeficiency Virus (SIV)-infektion** — en lentivirale sygdom hos ikke-menneskelige primater, ikke en menneskelig tilstand —
-> med en **forudsigelsesscore på 99,92 %**, men **ingen afsluttede kliniske forsøg** og kun **12 prækkliniske/in vitro-publikationer**, hvoraf ingen etablerer klinisk virkning hos mennesker.
+Ritonavir er en HIV-1-proteasehæmmer, som allerede er etableret til behandling af HIV-1-infektion. TxGNN-modellen forudsiger, at det også kan virke mod **simian immundefektvirus-infektion** (SIV), en sygdom hos aber, der bruges som dyremodel for HIV. Forudsigelsen understøttes af **0 kliniske forsøg** og **12 publikationer**, som alle er prækliniske eller laboratoriestudier. Det er derfor ikke en ny human anvendelse.
 
 ---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke specificeret i bevissamlingen (Ritonavir er en kendt HIV-1-proteasehæmmer/farmakokienetisk booster — generel farmakologisk viden, ikke hentet fra strukturerede data her) |
-| Forudsagt ny indikation | Simian Immunodeficiency Virus (SIV)-infektion *(en ikke-menneskelig primat-sygdom)* |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | HIV-1-infektion (fremgår ikke af den danske registrering, men er hentet fra evidensgrundlagets vurdering) |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion |
 | TxGNN-forudsigelsesscore | 99,92 % |
-| Bevisniveau | L4 (kun prækkliniske/mekanistiske studier — ingen afsluttede kliniske forsøg) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Udsæt |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) var ikke tilgængelige i denne bevissamling (datafalik DG002). Baseret på generel farmakologisk viden er ritonavir en HIV-1-aspartyl-proteasehæmmer. In vitro- og makak-studier i litteraturen bekræfter, at ritonavir også hæmmer SIV-protease, fordi SIV og HIV begge er lentiviruser med strukturelt homologe protease-enzymer (PMID 12709355, PMID 15040537). Denne krydsreaktivitet forklarer plausibelt, hvorfor TxGNN-modellen forbinder ritonavir med SIV-infektion med en meget høj score.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Ud fra kendt viden er ritonavir en proteasehæmmer, og dets virkning mod HIV-1 er dokumenteret. Mekanistisk kan det være anvendeligt mod SIV, fordi SIV og HIV-1 er beslægtede lentivira med strukturelt ensartede proteaser.
 
-Denne forudsagte "nye indikation" er imidlertid ikke klinisk brugbar: **SIV-infektion optræder kun hos ikke-menneskelige primater og er ikke en menneskelig sygdom.** Hele understøttende litteratur består af in vitro-modtagelighedsassays eller makak-dyremodeller, der bruges som forskningsværktøjer til HIV-patogenese og antiretroviral forskning — ikke bevis på en behandlingbar menneskelig tilstand. De resterende forudsagte indikationer for ritonavir i denne bevissamling (felin erhvervet immundeficiensyndrom — en sygdom, der kun optræder hos katte — og en sjælden menneskelig neurodevelopmental hvidstofsdisorden uden rationel mekanisme) deler det samme problem: enten er målarten ikke-menneskelig, eller der eksisterer ingen plausibel mekanistisk forbindelse overhovedet.
+Laboratoriedata understøtter dette. I et in vitro-studie hæmmede ritonavir SIVmac239 med en EC50 på 13 nM, mod 25 nM for HIV-1 (PMID 12709355). Det viser, at stoffet er biologisk aktivt mod SIV-protease.
 
-Dette tyder på, at de nuværende højest rangerede forudsigelser afspejler et ægte mekanistisk signal (protease-krydsreaktivitet på tværs af lentiviruser) snarere end en levedygtig mulighed for menneskelig lægemiddel-genbrug. En klinisk meningsfuld menneskelig indikation for ritonavir skulle identificeres særskilt, højst sandsynligt ved at gennemgå lavere rangerede kandidater eller ved at køre forespørgslen igen mod et kurateret sygdomsvocabularium, der er begrænset til menneskelige tilstande.
-
----
-
-## Bevis fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den højest rangerede forudsagte indikation (SIV-infektion).
-
-*(Bemærk: ét forsøg, [NCT02770508](https://clinicaltrials.gov/study/NCT02770508), blev returneret under den separate kandidat "felin erhvervet immundeficiensyndrom", men det undersøger boostet darunavir + lamivudin hos menneskelige HIV-1-patienter — bevissamlingen selv markerer dette som en tilsyneladende lægemiddel/indikations-uoverensstemmelse i kildedatabasen, ikke ægte understøttende bevis.)*
+Der er dog vigtige forbehold:
+- SIV-infektion er en dyremodelsygdom og ikke en human behandlingsindikation.
+- Makakstudierne bruger SIV/SHIV som model for HIV-behandling. De er ikke klinisk evidens for SIV som behandlingsmål.
+- Den høje score afspejler sandsynligvis den kendte relation mellem HIV-1-proteasehæmmere og HIV i vidensgrafen.
+- Ritonavir er allerede etableret ved HIV-1, så forudsigelsen udgør ikke en reel ny anvendelse.
 
 ---
 
-## Bevis fra litteratur
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er 12 publikationer i alt, og de 10 mest relevante vises her. Der er ingen RCT'er. Alle studier er klassificeret som tier 3 (præklinisk/laboratorie), eller klassifikationen mangler.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro modtagelighedsstudie | Antimicrobial Agents and Chemotherapy | Ritonavir hemmede SIVmac239-protease (EC50 ≈13 nM), sammenligneligt med dets hæmning af HIV-1 |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro modtagelighedsstudie | Antiviral Therapy | Screenede 16 godkendte anti-HIV-1-lægemidler, herunder ritonavir, mod HIV-2, SIV- og SHIV-stammer |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Dyrestudie (makak-model) | Journal of Virology | Firdobbelt antiretroviral terapi producerede hurtig viral nedbrydning hos SIV-inficerede makaker |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Dyrestudie (neuroimmunn, makak) | mBio | Lentiviral reservoirer forblev i hjernevet trods effektiv antiretroviral terapi |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro farmakologi | Antiviral Chemistry & Chemotherapy | Fluorkinolon-derivat K-12 opretholdt aktivitet mod ritonavir-resistente HIV-1- og SIV-stammer |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Dyrestudie (makak, ART+HDAC) | PLoS ONE | Kombination af cART plus en HDAC-hæmmer undersøgt hos SIV-inficerede resus-makaker for virale reservoir-effekter |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Dyrestudie (SHIV-konstruktion) | Microbes and Infection | Udviklet SHIV bærende HIV-1-protease-gen, brugt som et in vivo-værktøj til test af protease-hæmmere hos makaker |
-| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | In vitro virologi | Journal of Virology | Karakteriseret HIV-1-protease-medieret processering af det virale Vif-protein |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Dyrestudie (makak) | Journal of Virological Methods | Oral HAART (herunder lopinavir/ritonavir) evalueret for effekt på CD8-subset hos SHIV-inficerede makaker |
-| [11364629](https://pubmed.ncbi.nlm.nih.gov/11364629/) | 1997 | Review/Kommentar | J Int Assoc Physicians AIDS Care | Kort kommentar om chemokinreceptorforskning; minimal direkte relevans |
-
-*(To yderligere lavt relevante poster med ufuldstændig klassificering, PMID 22737073 og PMID 7475727, blev udeladt fra denne tabel.)*
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro-studie | Antimicrob Agents Chemother | SIVmac239 hæmmes af indinavir, saquinavir og ritonavir (EC50 for ritonavir: 13 nM mod 25 nM for HIV-1) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro-studie | Antivir Ther | Følsomhed af HIV-2, SIV og SHIV over for 16 godkendte antivirale lægemidler |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Dyrestudie | J Virol Methods | To makaker med SHIV 89.6P fik oral kombinationsbehandling med AZT, 3TC og lopinavir/ritonavir. Studiet undersøgte effekten på CD8-subsæt. |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Dyrestudie (klassifikation mangler) | PLoS Pathog | Højintensiv ART hos SIVmac251-inficerede makaker gav langvarig virussuppression og begrænsning af virusreservoiret |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Dyrestudie | J Virol | Hurtigt viralt henfald hos SIV-inficerede makaker på firdobbelt antiretroviral behandling |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Dyrestudie | PLoS One | Suppressiv kombinations-ART plus HDAC-hæmmeren SAHA hos SIV-inficerede rhesusaber |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Præklinisk virologi/dyrestudie | Microbes Infect | Ny SHIV med HIV-1-protease som værktøj til in vivo-test af proteasehæmmere |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Præklinisk/dyrestudie | mBio | Lentivirus persisterer i hjernen trods effektiv ART |
+| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | Grundforskning | J Virol | Viral protease bearbejder HIV-1 Vif-proteinet inde i virionet |
+| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro-studie | Antivir Chem Chemother | Bredspektret antiviral aktivitet af fluorquinolonderivatet K-12, som ikke er ritonavir og derfor har lav relevans |
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-Ritonavir er i øjeblikket **ikke markedsført** i Danmark ifølge denne bevissamling, med 0 markedsføringstilladelser på fil. Der var ingen Laegemiddelstyrelsen eller EMA-centraliserede godkendelsesrecords til rådighed.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
-
-*(Vigtige advarsler, kontraindikationer og lægemiddel-interaktionsdata var ikke tilgængelige i denne bevissamling — dette er markeret som en blokerende datafalik, se Konklusion nedenfor.)*
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28104456009 | Norvir | Filmovertrukne tabletter (oral) | AbbVie Deutschland GmbH & Co. KG |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Udsæt**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den højest rangerede forudsagte indikation, SIV-infektion, er en ikke-menneskelig primat-sygdom og derfor ikke et levedygtigt menneskelig klinisk genbrug-mål, trods en høj TxGNN-score og plausibel protease-krydsreaktivitet-mekanisme. Der eksisterer ingen afsluttede kliniske forsøg for nogen af de højest rangerede kandidater, og sikkerhed/mærkat-data, der er nødvendige selv for en foreløbig sikkerhedsgennemgang, mangler.
+Evidensen er begrænset til in vitro-data og dyremodelstudier (L4), og der findes ingen kliniske forsøg. SIV-infektion er en dyremodelsygdom og ikke en human indikation, og ritonavir er allerede etableret ved HIV-1. De øvrige forudsigelser i datasættet (felint erhvervet immundefektsyndrom og en sjælden neuroudviklingsforstyrrelse) har heller ikke et dokumenteret grundlag. Den første er en veterinær sygdom uden veterinærdata, og den anden har kun en modelscore (L5).
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/SmPC-advarsler og kontraindikationer (blokerende datafalik DG001)
-- Bekræftet virkningsmekanisme-data (MOA) (datafalik DG002)
-- Omscreening af forudsigelsesindikationslisten for at filtrere ikke-menneskelige sygdomsmål (SIV-infektion, felin AIDS) og identificere en klinisk gyldig menneskelig kandidat
-- Undersøgelse af den tilsyneladende lægemiddel/indikations-uoverensstemmelse, der blev markeret for forsøg NCT02770508
-
+**For at komme videre kræves følgende:**
+- Indhentning af produktresuméet fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation.
+- Detaljerede data om virkningsmekanismen, for eksempel fra DrugBank.
+- En vurdering af, om SIV-forudsigelsen overhovedet har værdi som human repurposing-kandidat, eller om den bør udelukkes som dyremodelsygdom.
+- Manuel gennemgang af de 12 publikationer for at bekræfte ritonavir-specifikt indhold, da relevansvurderingen står som "pending".
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,15 +2,15 @@
 layout: default
 title: Ciprofloxacin
 parent: Moderat evidens (L3-L4)
-nav_order: 112
-evidence_level: L3
+nav_order: 113
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,82 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ciprofloxacin: Fra bakterielle infektioner til diffus sklerodermati
+# Ciprofloxacin: Fra bakterielle infektioner til diffus sklerodermi
 
-## Resumé i én sætning
+## Resumé i få sætninger
 
-Ciprofloxacin er et bredspektret fluorquinolon-antibiotikum, der bruges bredt til behandling af bakterielle infektioner på tværs af flere organsystemer.
-TxGNN-modellen forudsiger, at det kan være effektivt til **diffus sklerodermati**,
-med **0 kliniske forsøg** og **2 publikationer**, der i øjeblikket understøtter denne retning.
-Det mekanistiske rationale er biologisk plausibelt, men robust klinisk evidens mangler stadig.
+Ciprofloxacin er et bredspektret antibiotikum i fluorquinolon-klassen, oprindeligt anvendt mod bakterielle infektioner. TxGNN-modellen forudsiger, at det kan have effekt ved **diffus sklerodermi**. Der er **ingen registrerede kliniske forsøg** og **2 publikationer**, som peger i den retning, så evidensen er svag og forudsigelsen bør betragtes som et forskningsspørgsmål.
 
 ---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Original indikation | Bakterielle infektioner (bredspektret antibiotikum; fluorquinolon-klasse) |
-| Forudsagt ny indikation | Diffus sklerodermati |
-| TxGNN Forudsigelsesscore | 99.87% |
-| Evidensniveau | L3 |
-| Danmark markedsstatus | Ikke markedsført (datahuller — 0 licensers registreret; kan afspejle ufuldstændig regulatorisk dataindsamling) |
-| Antal markedsføringsgodkendelser | 0 |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten for Cetraxal er tom). Ciprofloxacin er et antibiotikum mod bakterielle infektioner. |
+| Forudsagt ny indikation | Diffus sklerodermi |
+| TxGNN-forudsigelsesscore | 99,87 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige fra Evidence Pack. Baseret på kendt information er ciprofloxacin et fluorquinolon-antibiotikum, hvis baktericid aktivitet er formidlet gennem hæmning af bakteriel DNA-gyrase (topoisomerase II) og topoisomerase IV, hvilket forhindrer DNA-replikation og -reparation i modtagelige organismer.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Ciprofloxacin tilhører fluorquinolonerne, og dets effekt mod bakterielle infektioner er veldokumenteret. Mekanistisk kan det muligvis have relevans for diffus sklerodermi, men det er ikke bevist.
 
-Ud over dets antibakterielle aktivitet har ciprofloxacin demonstreret antifibrotiske egenskaber i eksperimentelle og tidlige kliniske indstillinger: det kan hæmme menneskelig dermal fibroblast-proliferation og kollagensyntese, og har vist sig at undertrykke matrix metalloproteinase (MMP)-relaterede veje involveret i ekstracellulær matrix-remodellering. Diffus sklerodermati (systemisk sklerose) er karakteriseret ved progressiv fibrosis af hud og indre organer drevet af fibroblast-overaktivering og overdreven kollagenaflejring — præcis de processer ciprofloxacin kan svække.
+Datagrundlaget peger på to mulige, men ubekræftede veje:
 
-En yderligere mekanistisk vej involverer den gastrointestinale mikrobiom. Patienter med systemisk sklerose udvikler hyppigt Small Intestinal Bacterial Overgrowth (SIBO), som forstørker systemisk inflammatorisk byrde og kan accelerere fibrotisk progression. Ciprofloxacins bredspektret antibakterielle dækning kan reducere SIBO-associeret dysbiose og derved indirekte svække de inflammatoriske signaler, der videreføre fibrosis. Samlet set giver både direkte antifibrotiske og indirekte mikrobiom-modulerende mekanismer en biologisk sammenhængende rationale, selvom ingen stor randomiseret kontrolleret forsøg endnu har valideret denne hypotese.
+1. **Antifibrotisk effekt i huden.** Et studie fra 2010 (PMID 20507401) undersøgte, om oral ciprofloxacin kan reducere sværhedsgraden af sklerodermi. Sklerodermi er en autoimmun bindevævssygdom med mikrovaskulær skade og udbredt fibrose i hud og indre organer. Der findes ingen effektiv farmakologisk behandling, der stopper fibrosen.
+2. **Behandling af bakteriel overvækst i tyndtarmen (SIBO).** SIBO er hyppig ved systemisk sklerose og kan give kronisk diarré og vægttab. Ciprofloxacin kan behandle den bakterielle overvækst (PMID 7728404), men det er en symptomlindrende, indirekte effekt og ikke en behandling af selve sklerodermien.
 
----
-
-## Klinisk forsøgsevidens
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Den høje TxGNN-score er udelukkende en modelforudsigelse og erstatter ikke klinisk evidens.
 
 ---
 
-## Litteratursevidens
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Journal | Vigtige fund |
-|------|-----|------|---------|-------------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Lille klinisk studie (sandsynligvis pilot/RCT) | The Journal of Dermatology | Kontrolleret, dobbelt-blind randomiseret studie, der evaluerede oral ciprofloxacin som et antifibrotisk middel hos sklerodermati-patienter; vurderede reduktion i hudfibrosis-alvorlighed |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostisk/klinisk studie | British Journal of Rheumatology | Undersøgte SIBO hos 24 systemisk sklerose-patienter ved hjælp af jejunal-aspiration; rapporterede behandlingsresultater inklusive antibiotika-terapi, hvilket understøtter indirekte relevans af ciprofloxacin til sklerodermati-behandling |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Danmarksmarkedsoplysninger
+## Litteraturevidens
 
-Ingen markedsføringsgodkendelser er i øjeblikket registreret for ciprofloxacin i dette datasæt. Dette afspejler sandsynligvis et ufuldstændigt regulatorisk dataindsamlingstrin snarere end faktisk fravær fra det danske marked, givet at ciprofloxacin er et velkendt generisk antibiotikum. Bekræftelse mod Laegemiddelstyrelsen-produktdatabasen og EMA-registeret for centraliseret godkendelse anbefales.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Klinisk/translationelt studie (abstractet beskriver et kontrolleret, dobbeltblindet, randomiseret forsøg, men designet kan ikke verificeres fuldt ud ud fra det tilgængelige uddrag) | The Journal of Dermatology | Undersøger, om oral ciprofloxacin reducerer sværhedsgraden af sklerodermi og virker antifibrotisk i huden |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Kohorte-/diagnostisk studie | British Journal of Rheumatology | 24 patienter med systemisk sklerose og malabsorptionssymptomer blev undersøgt for bakteriel overvækst i tyndtarmen, heraf 6 med diffus form. Giver kun indirekte støtte. |
 
 ---
 
-## Sikkerhedshensyn
+## Markedsinformation for Danmark
 
-Se venligst det godkendte resumé af produktkarakteristika (SmPC) for sikkerhedsoplysninger.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105106812 | Cetraxal (POA Pharma Scandinavia AB) | Øredråber, opløsning i enkeltdosisbeholder | Ikke angivet i datagrundlaget |
 
-> **Bemærk:** Fuld dansk SmPC-advarsler, kontraindikationer og lægemiddel–lægemiddel-interaktionsdata blev ikke hentet i denne Evidence Pack (klassificeret som blokerende datahul DG001). Sikkerhedsgennemgang kan ikke gennemføres, indtil disse oplysninger er indhentede.
+Den eneste danske tilladelse i datagrundlaget er øredråber til lokal brug. Forsøget mod sklerodermi anvendte oral ciprofloxacin, så en eventuel ny indikation ville kræve en systemisk formulering. Den er ikke dækket af den registrerede tilladelse.
+
+---
+
+## Sikkerhedsovervejelser
+
+- **Fluorquinolon-advarsler:** Kendte sikkerhedsproblemer for fluorquinoloner, herunder senebetændelse og seneruptur, aortaaneurisme og -dissektion, QT-forlængelse og bivirkninger i centralnervesystemet, er særligt relevante ved langvarig behandling. Sklerodermi ville sandsynligvis kræve kronisk brug, så disse risici skal vurderes grundigt, før man går videre.
+
+Øvrige oplysninger om advarsler, kontraindikationer og interaktioner er ikke tilgængelige i datagrundlaget. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
+
+## Øvrige forudsigelser med svagere evidens
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Polyklonalt hyperviskositetssyndrom | 99,87 % | L5 | Ingen forsøg, ingen litteratur, ingen påviselig mekanistisk begrundelse |
+| Hyperamylasæmi | 99,87 % | L5 | Ingen evidens. Hyperamylasæmi er et laboratoriefund og ikke en behandlingsbar sygdom, så forudsigelsen kan være en artefakt i vidensgrafen. |
+| Medfødt analbuminæmi | 99,85 % | L5 | Ingen evidens og ingen plausibel farmakologisk sammenhæng med ciprofloxacin |
+| Blodgruppeinkompatibilitet | 99,78 % | L4 | Litteraturen viser ingen terapeutisk effekt. Ciprofloxacin optræder kun tilfældigt som antibiotikum i infektionssammenhænge i transplantationskontekst. |
 
 ---
 
@@ -97,22 +112,18 @@ Se venligst det godkendte resumé af produktkarakteristika (SmPC) for sikkerheds
 
 **Beslutning: Hold**
 
-**Rationale:**
-Evidensgrundlaget består af kun to publikationer — en lille pilot/randomiseret studie og et diagnostisk kohortestudie — uden registrerede kliniske forsøg, hvilket placerer denne kandidat på evidensniveau L3 (observationel/lille klinisk studie). Selvom de antifibrotiske og SIBO-modulerende mekanismer er biologisk plausible, er bevisgrundlaget utilstrækkelig til at understøtte klinisk progression uden yderligere data.
+**Begrundelse:**
+Evidensen for diffus sklerodermi er på niveau L4. Der er ingen registrerede kliniske forsøg, og kun ét studie adresserer en mulig antifibrotisk effekt, hvis design ikke kan verificeres fuldt ud. Sikkerhedsprofilen ved kronisk brug af fluorquinoloner er en væsentlig bekymring, og den eneste danske tilladelse er til øredråber. Forudsigelsen er derfor et forskningsspørgsmål og ikke et grundlag for klinisk anvendelse.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Fuld gennemgang af studiet fra 2010 (PMID 20507401), herunder design, endepunkter, resultater og opfølgningstid
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Sikkerhedsdata fra Lægemiddelstyrelsens produktresumé, herunder advarsler og kontraindikationer
+- Vurdering af risiko-nytte ved langvarig fluorquinolon-behandling hos patienter med sklerodermi
+- Afklaring af, hvilken systemisk formulering der ville skulle bruges, da den eneste danske tilladelse er til øredråber
+- Registrering eller gennemførelse af et klinisk forsøg i en relevant fase
 
-- **Regulatoriske data (blokerende):** Hent og gennemse den fulde SmPC fra Laegemiddelstyrelsen (Danske Lægemiddelagentur) og eventuelle relevante EMA-produktoplysninger, inklusive advarsler, kontraindikationer og mærkede lægemiddel-interaktioner
-- **MOA-data (høj prioritet):** Hent strukturerede virkningsmekanisme-data fra DrugBank (DB00537) for at muliggøre formelt mekanistisk-link-scoring
-- **Fuldteksthentet:** Hent den komplette publikation for PMID 20507401 for at bekræfte studiedesign, stikprøvestørrelse, primære endepunkter og resultatdata
-- **Systematisk litteraturgennemgang:** Udfør en omfattende søgning efter yderligere præklinisk og klinisk evidens på ciprofloxacin i systemisk sklerose / sklerodermati
-- **Registrering af klinisk forsøg:** Søg ClinicalTrials.gov, EudraCT (EU Clinical Trials Register) og WHO ICTRP med bredere søgetermer (f.eks. "scleroderma", "systemisk sklerose", "fibrosis") for at identificere eventuelle igangværende eller planlagte forsøg
-- **Plan for sikkerhedsovervågning:** Før enhver klinisk anvendelse er en risiko–benefit-vurdering, der omhandler fluorquinolon-klasseeffekter (senelidelse, QT-forlængelse, perifer neuropati) i en kronisk autoimmun sygdomspopulation, påkrævet
-
----
-
-*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelgenbrug kræver klinisk validering før anvendelse.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser om lægemiddelgenanvendelse skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

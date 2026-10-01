@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Padeliporfin
-parent: Kun modelforudsigelse (L5)
-nav_order: 328
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 329
+evidence_level: L4
 indication_count: 10
 ---
 
 # Padeliporfin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Padeliporfin: Fra en udokumenteret oprindelig indikation til Clear Cell Renal Carcinoma
+# Padeliporfin: Fra fotodynamisk kræftbehandling til klarcellet nyrekarcinom
 
-## Sammenfatning i en sætning
+## Resumé i få sætninger
 
-Padeliporfin (WST-11) er en vaskulær-målrettet fotosensibilisator, der bruges i fotodinamisk terapi (VTP); dette bevispaket indeholder ikke en bekræftet oprindelig indikation eller godkendt mærkning for det. TxGNN-modellen forudsiger, at det kan være effektivt for **Clear Cell Renal Carcinoma**, men dette understøttes i øjeblikket kun af **2 prekliniske (dyreforsøgs) publikationer** og **ingen registrerede kliniske forsøg**.
+Padeliporfin (WST11, handelsnavn Tookad) er et lysfølsomt stof, der bruges i vaskulært målrettet fotodynamisk terapi (VTP). TxGNN-modellen forudsiger, at det kan have effekt ved **klarcellet nyrekarcinom (clear cell renal carcinoma)**. Understøttelsen er svag: der er **0 kliniske forsøg** og **2 publikationer**, som begge er præklinisk forskning.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig — ingen markedsføringstilladelser eller godkendt indikationstekst i dette bevispaket |
-| Forudsagt ny indikation | Clear Cell Renal Carcinoma |
-| TxGNN-forudsigelsesscore | 98.75% |
-| Bevisniveau | L4 (prekliniske/mekanismestudier kun) |
-| Markeds status i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (se produktresuméet, SmPC) |
+| Forudsagt ny indikation | Klarcellet nyrekarcinom (clear cell renal carcinoma) |
+| TxGNN-prædiktionsscore | 98,75 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede virkningsmekanisme-data for Padeliporfin er markeret som et datagab (DG002) i dette bevispaket, og der er ingen formal oprindelig indikation registreret. Imidlertid beskriver den understøttende litteratur selv Padeliporfin (WST-11) som en bakterioklorofyl-baseret, vaskulært aktiv fotosensibilisator, der bruges i vaskulær målrettet fotodinamisk terapi (VTP): ved laseractivering forårsager det hurtig, lokal vaskulær okklusion og nekrose af det belyste væv.
+Der foreligger ingen detaljerede data om virkningsmekanismen (MOA) i datagrundlaget. Padeliporfin er en fotosensibilisator, der anvendes i VTP. Når stoffet aktiveres af nær-infrarødt lys, dannes reaktive iltforbindelser i tumorens blodkar. Det fører til lukning af karrene og nekrose i tumorvævet.
 
-Begrundelsen for at udvide denne teknologi til clear cell renal carcinoma kommer fra PMID 29344301, som brugte en mus RENCA (renal adenokarcinoma) model og observerede et >60% fald i tumor iltmætning inden for en time efter VTP-behandling — bevis for, at mekanismen kan virke på renalt tumorvaskulatur. En relateret undersøgelse (PMID 26860792) demonstrerede lignende vaskulært-målrettet ablationsaktivitet mod urotheliale tumorer i de øvre urinveje i svin- og musemodeller, hvilket understreger, at teknologien er mekanistisk aktiv inden for det renale/urinvejs anatomiske område.
+Nyretumorer er mulige mål for en lokal, lysstyret ablation, og det er grundlaget for forudsigelsen. Der er dog ingen nyrespecifikke kliniske data. De to tilknyttede publikationer drejer sig om musemodeller (nyrecellekræft) og svinemodeller (urotelialt karcinom). Den høje TxGNN-score afspejler derfor primært modellens netværksnærhed til beslægtede tumorer og ikke direkte klinisk evidens.
 
-Vigtige forbehold: RENCA-modellen er en renal adenokarcinoma model, ikke histologisk identisk med human clear cell RCC; begge understøttende studier er kun dyreforsøg (Tier 3/preklinisk), uden humane farmakokinetiske, sikkerhed eller effektivitetsdata, og der er ingen registrerede kliniske forsøg for denne indikation.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Modellen peger også på andre kræftformer, men med endnu svagere evidens (L4–L5). Det gælder opsamlingsrørskarcinom (collecting duct carcinoma, L4, de samme to prækliniske artikler) samt adenokarcinom i lever og intrahepatiske galdeveje, fibrolamellært hepatocellulært karcinom og ekstrahepatisk galdegangsadenokarcinom (alle L5, kun modelforudsigelse). For leverlæsioner og galdeveje er lysleveringen og den anatomiske adgang uafklaret.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens fra forsøg
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [29344301](https://pubmed.ncbi.nlm.nih.gov/29344301/) | 2018 | Preklinisk (Dyreforsøg, mus RENCA model) | Theranostics | Multispektral optakustisk tomografi overvågede WST-11 VTP-effekter i en renalcellekræft-mus model; behandlingen producerede målbare tumor vaskulære/iltningsændringer |
-| [26860792](https://pubmed.ncbi.nlm.nih.gov/26860792/) | 2016 | Preklinisk (Dyreforsøg, svin + mus xenograft) | The Journal of Urology | Endoluminal WST-11 VTP ablerede urotheliale tumor væv i ureter/nyrebebkken i svin- og musemodeller, hvilket foreslår teknisk gennemførlighed for nyre-tilstødende tumorer |
+| [29344301](https://pubmed.ncbi.nlm.nih.gov/29344301/) | 2018 | Præklinisk (musemodel) | Theranostics | Undersøgte, om multispektral optoakustisk tomografi (MSOT) kan overvåge effekten af WST11-VTP over tid i en musemodel for nyrecellekræft, og om MSOT-belysning selv kan udløse VTP |
+| [26860792](https://pubmed.ncbi.nlm.nih.gov/26860792/) | 2016 | Præklinisk (svine- og musemodel) | The Journal of Urology | Undersøgte gennemførlighed og sikkerhed ved endoluminal WST11-VTP-ablation af urinleder og nyrebækken hos svin samt effekt i en musemodel for urotelialt karcinom (ikke nyrecellekræft) |
 
 ---
 
 ## Markedsinformation for Danmark
 
-Padeliporfin har i øjeblikket ingen markedsføringstilladelser registreret i dette bevispaket (0 licenser; markedsstatus: Ikke markedsført).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105726016 | Tookad (Steba Biotech SA) | Pulver til injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Cytotoksicitet
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation — ingen er i øjeblikket tilgængelig, da Padeliporfin ikke markedsføres i Danmark, og TFDA etiket-/advarseldata er markeret som et **blokerende** datagab (DG001) i dette bevispaket. En lægemiddel-lægemiddelinteraktions (DDI) søgning returnerede ingen resultater (ikke fundet).
+| Punkt | Indhold |
+|------|------|
+| Klassifikation | Fotodynamisk behandling (vaskulært målrettet), ikke et konventionelt cytostatikum. Virkningen kræver lysaktivering |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Emetogent potentiale | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Monitorering | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forholdsregler |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvente**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Beviset er i øjeblikket begrænset til to prekliniske dyreforsøgsstudier (Bevisniveau L4) uden kliniske forsøg, ingen bekræftede virkningsmekanisme-data, og et **blokerende** datagab på sikkerhed/mærkning (DG001), der forhindrer selv en indledende sikkerhedsvurdering (S1). Lægemidlet markedsføres heller ikke i Danmark.
+Forudsigelsen bygger på en høj modelscore og to prækliniske publikationer, hvoraf ingen er nyrespecifik klinisk evidens. Uden kliniske forsøg (evidensniveau L4) og uden sikkerhedsdata fra Lægemiddelstyrelsen er der ikke grundlag for at gå videre til klinisk anvendelse. Indikationen bør behandles som et forskningsspørgsmål.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/SmPC advarsler, kontraindikationer og sikkerhedsdata (DG001, Blokerende)
-- Bekræftet virkningsmekanisme og formal oprindelig indikation (DG002, Høj)
-- Prekliniske eller kliniske data specifik for clear cell renal carcinoma (aktuelle bevis bruger en RENCA model, ikke bekræftet clear cell histologi)
-- Registreret klinisk forsøg eller på det mindste en formal ikke-klinisk udviklings plan før nogen evaluering til humant brug
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Søgning efter kliniske forsøg med padeliporfin-VTP ved nyretumorer
+- Vurdering af praktisk gennemførlighed (lyslevering, anatomisk adgang, patientsikkerhed)
+- Vurdering af, om de prækliniske resultater kan overføres til klinisk effekt og sikkerhed hos mennesker
 
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

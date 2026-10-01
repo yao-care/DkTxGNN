@@ -2,7 +2,7 @@
 layout: default
 title: Lefamulin
 parent: Kun modelforudsigelse (L5)
-nav_order: 259
+nav_order: 260
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lefamulin: Fra bakteriel infektion til diffus kutaneus leishmaniasis
+# Lefamulin: Fra bakterielle infektioner til diffus kutan leishmaniasis
 
-## Resumé i en sætning
+## Resumé i få sætninger
 
-Lefamulin er et pleuromutilin-klasse antibiotikum; evidenspakken dokumenterer ikke dets specifikke oprindelige godkendte indikation, og detaljerede data for virkningsmekanisme er også utilgængelige. TxGNN-modellen forudsiger, at det kan være effektivt til **diffus kutaneus leishmaniasis**, men dette er i øjeblikket en **ren modelforudsigelse uden nogen understøttende kliniske forsøg eller publikationer**, og evidenspakken selv noterer ingen kendt mekanistisk forbindelse mellem lægemidlet og denne parasitisk sygdom.
+Lefamulin er et antibakterielt lægemiddel af pleuromutilin-klassen, som er markedsført i Danmark som Xenleta (filmovertrukne tabletter).
+TxGNN-modellen forudsiger, at det kan have effekt mod **diffus kutan leishmaniasis**, men forudsigelsen er **kun modelbaseret**.
+Der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter den.
 
-## Hurtig oversigt
+---
+
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke dokumenteret i evidenspakken (kun DrugBank-input modtaget; oprindeligt indikationsfelt tomt) |
-| Forudsagt ny indikation | Diffus kutaneus leishmaniasis |
-| TxGNN-forudsigelsesscore | 99.24% |
-| Bevisniveau | L5 (ren modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering. Lefamulin er et antibakterielt middel (pleuromutilin) |
+| Forudsagt ny indikation | Diffus kutan leishmaniasis |
+| TxGNN-forudsigelsesscore | 99,24 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-I øjeblikket er detaljerede data for virkningsmekanisme ikke tilgængelige for den oprindelige indikation. Baseret på hvad der er kendt, er Lefamulin et **pleuromutilin-klasse antibiotikum**, der hæmmer bakteriel ribosomalt 50S-subunit-proteinsyntese — dette er en veletableret antibakteriell mekanisme, ikke relateret til antiparasitisk aktivitet.
+## Hvorfor er forudsigelsen rimelig?
 
-Evidenspakkens egen mekanistiske vurdering for denne kandidat er eksplicit: der er **ingen kendt direkte mekanistisk forbindelse** mellem Lefamulins ribosomale-hæmmingsaktivitet og parasitologien af *Leishmania*-infektion. Forudsigelsen afspejler et videngraf-link identificeret af TxGNN, snarere end en biologisk baseret hypotese.
+Der foreligger aktuelt ingen detaljerede data om virkningsmekanisme i datagrundlaget. Lefamulin er et pleuromutilin-antibiotikum, som hæmmer den bakterielle 50S-ribosomsubenhed (peptidyltransferase-centret). Det er den bakterielle proteinsyntese, der hæmmes.
 
-I betragtning af kombinationen af en høj TxGNN-score med en eksplicit erklæret mangel på mekanistisk rimelighed, nul kliniske forsøg og nul litteratur, bør denne kandidat tolkes som et lavt-tillids-eksplorativt signal alene — ikke som en videnskabeligt understøttet genbrug-hypotese på nuværende tidspunkt.
+*Leishmania* er en protozo og ikke en bakterie. En eventuel effekt ville derfor kræve en endnu ubevist påvirkning af parasittens eller dens mitokondriers ribosomer. Den mekanistiske sammenhæng er spekulativ og understøttes ikke af data. Blandt de forudsagte indikationer er dette dog den eneste med en svagt plausibel anti-infektiøs begrundelse.
 
-## Bevis fra kliniske forsøg
+Forudsigelsen bør derfor ses som en hypotese til videre afprøvning i laboratoriet, ikke som grundlag for klinisk anvendelse.
 
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
+---
 
-## Litteraturbevis
+## Øvrige forudsagte indikationer
 
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+Modellen foreslår også følgende indikationer med høje scorer. For ingen af dem findes forsøg, litteratur eller en plausibel mekanistisk forbindelse. De høje scorer skyldes sandsynligvis artefakter i vidensgrafen.
 
-## Markedsinformation i Danmark
+| Forudsagt indikation | TxGNN-score | Vurdering |
+|------|------|------|
+| Polyklonalt hyperviskositetssyndrom | 99,10 % | Hæmatologisk tilstand drevet af forhøjede immunglobuliner. Ingen kendt effekt af en antibakteriel ribosomhæmmer |
+| Hyperamylasæmi | 99,10 % | Laboratoriefund knyttet til pancreas- eller spytkirtelpatologi. Ingen kendt amylasesænkende mekanisme |
+| Kongenit analbuminæmi | 98,92 % | Sjælden genetisk sygdom (ALB-genet). Et antibakterielt middel kan ikke korrigere den genetiske defekt |
+| Blodtypeinkompatibilitet | 98,78 % | Immunhæmatologisk tilstand. Ingen kendt immunmodulerende eller hæmolysepåvirkende mekanisme |
 
-Lefamulin er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er i denne evidenspakke.
+---
 
-## Sikkerhedshensyn
+## Klinisk evidens fra forsøg
 
-Se venligst den godkendte Produktkarakteristika-oversigt (SmPC) for sikkerhedsinformation. Ingen lægemiddelinteraktionsdata blev fundet for Lefamulin i den forespurgte database (forespørgselsstatus: ikke fundet).
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
-## Konklusion og næste trin
+---
+
+## Litteraturevidens
+
+Der findes aktuelt ingen relateret litteratur.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106272419 | Xenleta (Nabriva Therapeutics Ireland DAC) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes kun af en TxGNN-modelscore, uden kliniske forsøg, uden litteratur, og evidenspakkens egen begrundelse bekræfter ingen kendt mekanistisk forbindelse til den forudsagte indikation. Lægemidlet er heller ikke i øjeblikket markedsført i Danmark. Dette opfylder ikke tærsklen for at gå videre forbi indledende screening.
+Forudsigelsen hviler udelukkende på modellen (evidensniveau L5), uden forsøg, litteratur eller dokumenteret mekanistisk sammenhæng. Det kritiske sikkerhedsgrundlag fra den danske produktinformation mangler desuden.
 
-**For at fortsætte, er følgende nødvendigt:**
-- Produktetiket (SmPC) advarsler og kontraindikationer — i øjeblikket manglende og blokerer indgang til den indledende sikkerhedsvurderingsfase (S1)
-- Verificeret virkningsmekanisme (MOA) data, til korrekt at vurdere mekanistisk relevans til enhver ny indikation
-- Uafhængig farmakologisk eller præ-klinisk begrundelse, der forbinder Lefamulin til antiparasitisk aktivitet, før yderligere evidensindsamling er berettiget
+**For at komme videre skal følgende foreligger:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- In vitro-data for lefamulins aktivitet mod *Leishmania*-arter, herunder effekt på parasittens ribosomer eller mitokondrier
+- Systematisk litteratur- og forsøgssøgning, som kan bekræfte eller afkræfte en eventuel effekt
+- Vurdering af administrationsvej: Lefamulin findes i Danmark kun som oral tablet, og det er uafklaret, hvilken vej en eventuel kutan behandling kræver
 
+*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

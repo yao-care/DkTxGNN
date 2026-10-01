@@ -2,7 +2,7 @@
 layout: default
 title: Elotuzumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 160
+nav_order: 161
 evidence_level: L5
 indication_count: 0
 ---

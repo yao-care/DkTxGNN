@@ -2,7 +2,7 @@
 layout: default
 title: Desmopressin
 parent: Moderat evidens (L3-L4)
-nav_order: 137
+nav_order: 138
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,92 +29,92 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Desmopressin: Fra diabetes insipidus / nokturnal enuresis til anfødt protrombin-mangel
+# Desmopressin: Fra den godkendte anvendelse til medfødt protrombinmangel
 
-## Resumé på én sætning
+## Resumé i én sætning
 
-Desmopressin (DDAVP) er et syntetisk analogon af arginin vasopressin med etablerede godkendte indikationer, herunder centralt diabetes insipidus og nokturnal enuresis, og med dokumenteret hemostasebeskyttelse ved mildt hemofili A og von Willebrand-sygdom.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **anfødt protrombin-mangel** (forudsigelsesscore 99,70%), med **1 klinisk forsøg** (indirekte) og **4 publikationer** identificeret til støtte for denne indikation.
-Der er imidlertid ingen direkte klinisk forsøgsbevis for desmopressin ved anfødt protrombin-mangel specifikt, og det overordnede evidensgrundlag er begrænset til kasuistikker og kontekstuelle oversigter.
+Desmopressin er et syntetisk hormonanalog, som i Danmark markedsføres som Minirin frysetørrede tabletter. TxGNN-modellen forudsiger, at det kan have effekt ved **medfødt protrombinmangel (congenital prothrombin deficiency)**. Denne forudsigelse er dog **kun svagt understøttet**: der er **1 registreret klinisk forsøg** (som ikke handler om desmopressin) og **4 publikationer** (to oversigtsartikler og to kasuistikker) uden direkte dokumentation for effekt.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Centralt diabetes insipidus; nokturnal enuresis (ingen data om dansk markedsføringsgodkendelse tilgængelige i denne Evidence Pack) |
-| Forudsagt ny indikation | Anfødt protrombin-mangel |
-| TxGNN-forudsigelsesscore | 99,70% |
+|------|------|
+| Forudsagt ny indikation | Medfødt protrombinmangel (congenital prothrombin deficiency) |
+| TxGNN-forudsigelsesscore | 99,70 % |
 | Evidensniveau | L4 |
-| Dansk markeds status | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Detaljerede virkningsmekanisme-data blev ikke returneret i denne Evidence Pack. Baseret på velkendt farmakologisk viden handler desmopressin imidlertid som en selektiv agonist ved V2 (vasopressin-2)-receptoren udtrykt på celler i nyres samlegang og vaskulære endotelceller. Stimulation af endotelial V2-receptorer udløser hurtig exocytose af Weibel-Palade-legemer, der frigiver lagret von Willebrand-faktor (vWF) og koagulationsfaktor VIII (FVIII) ind i den systemiske cirkulation. Den deraf følgende stigning i vWF og FVIII fremmer blodpladeadhæsion til beskadigede blodkarveggene og accelererer fibrinblodpropdannelse, hvilket effektivt forkorter blødningstiden. Denne mekanisme danner grundlaget for desmopressins etablerede hemostasebeskyttelse ved mildt hemofili A og type 1 von Willebrand-sygdom.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datagrundlaget. Ud fra den mekanistiske vurdering i Evidence Pack'en frigør desmopressin faktor VIII og von Willebrand-faktor (vWF) fra endotelets lagre og øger dermed deres plasmaniveauer. Det har ingen kendt effekt på protrombin (faktor II).
 
-Anfødt protrombin-mangel (hypoprotrombin-emi eller dysprotrombin-emi) er en sjælden autosomalt recessiv koagulationsforstyrrelser, der skyldes mangel på eller dysfunktion af faktor II (protrombin), en central komponent i den almindelige koagulationsvej. Selvom desmopressin ikke direkte erstatter eller oppregulerer protrombin, kan dets evne til at øge vWF-medieret primær hemostase og FVIII-afhængig sekundær hemostase give klinisk meningsfuld supplerende support i konteksten af komplekse eller milde-til-moderate koagulationsfaktor-mangler. Kasuistikker dokumenterer succesfuld DDAVP-brug ved kombineret anfødt faktor V og faktor VIII-mangel (PMID 2607619) — en fænotype mekanistisk tilstødende til isoleret protrombin-mangel — hvilket giver troværdighed til TxGNN-forudsigelsen.
+Den høje TxGNN-score afspejler sandsynligvis, at medfødt protrombinmangel ligger tæt på andre arvelige blødningssygdomme i modellens vidensgraf. Den afspejler næppe en direkte mekanisme. Den eneste støttende litteratur er en japansk kasuistik om DDAVP ved kombineret medfødt faktor V- og faktor VIII-mangel. Her skyldtes effekten formentlig faktor VIII-komponenten og ikke en påvirkning af protrombin.
 
-Viden-grafs-grundlaget bag denne forudsigelse afspejler sandsynligvis tæt clustering af sjældne arvelige blødningssygdomme inden for TxGNN-netværket og desmopressins brede hemostaseforbindelser på tværs af flere koagulationssygdom-knuder. Den biologiske plausibilitet er moderat: desmopressin ville fungere som et hemostase-supplement snarere end en specifik erstatningsterapi, og dets fordel ville være mest forventet i milde fænotyper eller perioperative indstillinger. Prospektiv klinisk evaluering er påkrævet før nogen klinisk translation.
-
----
-
-## Bevis fra kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Tilmelding | Nøglefund |
-|-------------|-------|--------|------------|--------------|
-| [NCT04567511](https://clinicaltrials.gov/study/NCT04567511) | Fase 4 | Rekrutterer | 20 | Evaluerer emicizumab (Hemlibra) — **ikke desmopressin** — ved mildt hemofili A (FVIII 5–30%); vurderer koagulationsparametre, ledsundhed og hemostasisk effektivitet. Giver indirekte kontekst for nye hemostasemidler ved sjældne koagulationssygdomme, men er ikke direkte relevant for desmopressin ved anfødt protrombin-mangel. |
-
-> **Vigtig reservation:** Ingen klinisk forsøg, der specifikt undersøger desmopressin ved anfødt protrombin-mangel, blev identificeret. Forsøget ovenfor er hentet som kontekstbevis for det bredere sjældne koagulationssygdom-område.
+Forudsigelsen er derfor mekanistisk tvivlsom. Den bør ses som et modelfund, der skal efterprøves, og ikke som en terapeutisk hypotese med solidt grundlag.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Tidsskrift | Nøglefund |
-|------|-----|------|---------|--------------|
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Kasuistik | Rinsho ketsueki (Japanese Journal of Clinical Hematology) | **Mest direkte relevant.** DDAVP givet til patient med anfødt kombineret faktor V og faktor VIII-mangel; dokumenterer hemostasisk respons og mekanistisk diskussion. |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Kasuistik | Rinsho ketsueki (Japanese Journal of Clinical Hematology) | Perioperativ ledelse (kejsersnit) hos kvinde med kombineret anfødt FV/FVIII-mangel behandlet med faktor VIII-koncentrater; diskuterer supplerende hemostase-strategier ved komplekse anfødte koagulationsforstyrrelser. |
-| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Oversigt | Drugs | Systematisk oversigt over behandlingsmuligheder for almindelige arvelige blødningssygdomme; anbefaler desmopressin for mildt hemofili A og de fleste von Willebrand-sygdom-subtyper og vurderer sikkerhed, effektivitet og omkostninger. |
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Oversigt | Autoimmunity Reviews | Omfattende oversigt over erhvervet hemofili A (autoantistoffer mod FVIII); dækker diagnose, klinisk spektrum og behandlingsmuligheder. Giver bredere kontekst for FVIII-relaterede koagulationsforstyrrelser og hemostase-behandlingschallenges. |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT04567511](https://clinicaltrials.gov/study/NCT04567511) | Fase 4 | Rekrutterer | 20 | Enkeltarmet, åbent forsøg med emicizumab (Hemlibra) ved mild hæmofili A. Undersøger ikke desmopressin og ikke protrombinmangel, så det udgør ikke evidens for denne indikation (relevansgrad C). |
+
+Der er ikke registreret EudraCT-forsøg i datagrundlaget.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|---------|-----|------|------|---------|
+| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Oversigtsartikel | Drugs | Gennemgang af rationelle behandlingsvalg ved arvelige blødningssygdomme (hæmofili A, von Willebrands sygdom m.fl.) ud fra sikkerhed, effekt og pris. Ingen specifik data om protrombinmangel. |
+| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Oversigtsartikel | Autoimmunity Reviews | Diagnostik, ætiologi og behandling af erhvervet hæmofili A. Handler ikke om medfødt protrombinmangel. |
+| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Kasuistik | Rinsho Ketsueki | DDAVP givet til en 43-årig mand med medfødt kombineret faktor V- og faktor VIII-mangel. Effekten skyldtes sandsynligvis faktor VIII-komponenten. |
+| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Kasuistik | Rinsho Ketsueki | Kejsersnit hos en gravid kvinde med kombineret faktor V- og faktor VIII-mangel under substitution med faktor VIII-koncentrat. Desmopressin var ikke behandlingen. |
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform |
+|---------|------|------|
+| 28103652104 | Minirin (Ferring Lægemidler A/S) | Frysetørret tablet (oral) |
+
+Den godkendte indikationstekst er ikke angivet i det foreliggende datagrundlag.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst den godkendte produktinformation (SmPC) for fuldstændig sikkerhedsinformation, da data om advarsler og kontraindikationer ikke var tilgængelige i denne Evidence Pack.
+Datagrundlaget indeholder ingen advarsler, kontraindikationer eller registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-> Baseret på udgivet litteratur (PMID 36656570) bør klinikere være opmærksomme på følgende kendte sikkerhedssignaler for desmopressin:
-> - **Hyponatriæmi og væskeophobning**: Risiko øges med høj væskeindtag, hos ældre patienter og ved gentagen dosering — kræver overvågning af serum-natrium.
-> - **Arterielle trombotiske begivenheder**: Sjældne men rapporterede, især hos patienter med forudgående kardiovaskulær risikofaktorer.
-> - **Lægemiddel–lægemiddel-interaktioner**: Ingen DDI-data blev returneret i denne Evidence Pack; en formel interaktionsvurdering er påkrævet før klinisk brug.
+Som supplement nævner en oversigtsartikel fra 2023 (PMID 36656570), at brug af desmopressin ved blødningssygdomme kan kompliceres af hyponatriæmi og i sjældne tilfælde arterielle trombotiske hændelser.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Selvom TxGNN-forudsigelsesscore er høj (99,70%), blev der ikke identificeret nogen klinisk forsøg, der direkte undersøger desmopressin ved anfødt protrombin-mangel, og den tilgængelige litteratur er begrænset til kasuistikker i relaterede (men mekanistisk forskellige) koagulationsforstyrrelser. Desmopressin har ingen registreret markedsføringsgodkendelse i Danmark ifølge tilgængelige data, og vigtig sikkerhedsinformation (SmPC-advarsler, kontraindikationer, DDI-profil) mangler i øjeblikket fra denne Evidence Pack.
+Der er ingen direkte klinisk evidens for desmopressin ved medfødt protrombinmangel, og mekanismen (øgning af faktor VIII og vWF) adresserer ikke protrombinmangel. Den høje modelscore alene er ikke tilstrækkelig grundlag for at gå videre. De eneste fundne data er en kasuistik og generelle oversigtsartikler.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Hent advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, da sikkerhedsscreeningen ikke kan gennemføres uden dem.
+- Hent MOA-data fra DrugBank til en egentlig mekanistisk analyse.
+- Find direkte data om desmopressin ved isoleret faktor II-mangel, f.eks. kasuistikker eller registerdata.
+- Afklar, at den godkendte indikation for Minirin tabletter svarer til den tilsigtede brugsvej.
 
-- **Regulatorisk verifikation**: Bekræft desmopressins faktiske godkendelsestatus i Danmark via Laegemiddelstyrelsen-registeret og EMA-databasen (Minirin®, Nocdurna®, Octostim® er kendte handelnavne i andre EU-lande)
-- **SmPC-gennemgang**: Hent og analysér den fulde produktinformation for godkendte indikationer, advarsler, kontraindikationer og særlige populationer
-- **DDI-vurdering**: Gennemfør en formel lægemiddel–lægemiddel-interaktionsvurdering (DDI-data returneret som "ikke fundet" i denne Evidence Pack)
-- **Mekanistisk gennemførlighedsstudie**: Evaluér, om desmopressins vWF/FVIII-frigivelsesmekanisme kan give klinisk meningsfuld hemostasisk fordel ved protrombin (faktor II)-mangel, som ligger downstream i koagulationstrinnet
-- **Klinisk pilot**: Design et prospektivt kasuistikserier eller n-of-1 studier, der måler hemostasisk respons (f.eks. trombin-genereringsprøve, blødningstid, perioperativ blodtab) hos patienter med anfødt protrombin-mangel behandlet med desmopressin
-- **Sjælden sygdom-vej**: I betragtning af den meget lave prævalens af anfødt protrombin-mangel, vurdér berettigelse for EMA-forældreløs betegnelse for at støtte fremtidig udvikling
+**Bemærkning om øvrige forudsagte indikationer:** Blandt de øvrige kandidater i Evidence Pack'en er **primær frigivelsesdefekt i blodplader** (evidensniveau L3) den mest plausible. Her peger en pædiatrisk kohorte og en oversigtsartikel fra 2023 på en mulig forkortelse af blødningstiden, men kun med surrogatendepunkter. **Glanzmanns trombasthenia** er sandsynligvis kun nyttig som supplement ved milde blødninger. **Arvelig trombofili** er biologisk usandsynlig og rejser en sikkerhedsbekymring. **Pseudo-von Willebrand-sygdom** (trombocyttype) kræver forsigtighed på grund af risikoen for forværret trombocytopeni.
 
----
-
-> *Denne rapport er genereret til forskningsformål udelukkende og udgør ikke medicinsk rådgivning. Alle lægemiddel-omorientering-kandidater kræver prospektiv klinisk validering før terapeutisk anvendelse. Sundhedsfaglige bør konsultere den aktuelle godkendte produktinformation og gældende kliniske retningslinjer.*
-
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

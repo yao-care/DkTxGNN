@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tasimelteon
-parent: Høj evidens (L1-L2)
-nav_order: 418
-evidence_level: L1
+parent: Kun modelforudsigelse (L5)
+nav_order: 420
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,84 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tasimelteon: Fra ingen dansk registrering til søvnløshed (cirkadisk rytmisk søvnforstyrrelse)
+# Tasimelteon: Fra melatoninreceptoragonist til bilateral parasagittal parieto-okcipital polymikrogyri
 
-## Sammenfatning på én sætning
+## Resumé i én sætning
 
-Tasimelteon er en melatoninreceptoragonist (MT1/MT2) uden aktuel markedsføringstilladelse i Danmark og uden lokale godkendte indikationsdata på arkivet.
-TxGNN-modellens mest klinisk troværdige signal peger på **søvnløshed (sygdom)**, en mekanistisk målrettet anvendelse understøttet af **4 kliniske forsøg** (herunder et afsluttet pivotal fase 3-forsøg) og **6 publikationer**.
-Adskillige andre TxGNN-rangerede kandidater (f.eks. polymicragyri, ALS, aksial spondylometafissel dysplasi) bærer lignende høje råscore, men har **nul** understøttende forsøg eller litteratur og er eksplicit markeret i kildedata som sandsynlig grafstøj — de behandles ikke nærmere i denne rapport.
+Tasimelteon er en melatoninreceptoragonist (MT1/MT2), som er markedsført i Danmark under navnet Hetlioz. De tilgængelige data angiver ikke den godkendte indikation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **bilateral parasagittal parieto-okcipital polymikrogyri**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen er sandsynligvis en artefakt i vidensgrafen.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke på arkivet — Tasimelteon har ingen markedsføringstilladelse i Danmark, så ingen godkendt indikationstekst findes i reguleringsdata |
-| Forudsagt ny indikation | Søvnløshed (sygdom) |
-| TxGNN-forudsigelsesscore | 99,47% |
-| Bevisniveau | L1 |
-| Dansk markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data |
+| Forudsagt ny indikation | Bilateral parasagittal parieto-okcipital polymikrogyri |
+| TxGNN-forudsigelsesscore | 99,48 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Tasimelteon er en melatoninreceptoragonist (MT1/MT2), der virker direkte på den suprakiasmatiske kerne (kroppens centrale cirkadiske pacemager) for at skifte cirkadisk fase og fremme søvnstart. Dette beskrives konsekvent i den understøttende litteratur og i modellens egen begrundelsestekst.
+Tasimelteon er en dobbelt MT1/MT2-melatoninreceptoragonist, som påvirker døgnrytmen og søvnregulering. Detaljerede mekanismedata fra DrugBank mangler i datasættet.
 
-Fordi denne mekanisme direkte styrer søvn-vågencyklussen, er den "forudsagte" indikation for søvnløshed ikke en fjern tværmekanisme-hypotese — det er lægemidlets kernefarmakologi. Bevis-pakken selv bemærker, at dette er "en kernemekanisme-konsistent indikation, ikke en omformål-slutning" (a core mechanism-consistent indication, not a repurposing inference), hvilket er i overensstemmelse med, at lægemiddelklassen allerede bruges klinisk ved søvnløshed og andre cirkadisk rytmisk søvn-vågeforstyrrelser.
-
-Dette understøttes af et afsluttet fase 3, dobbeltblindet, placebo-kontrolleret forsøg (n=322) og et aktivt rekrutterende fase 3-pedistrisk forsøg (n=420), hvilket viser vedvarende klinisk udviklings interesse på dette indikationsområde — beviser betydeligt stærkere end modellens score alene ville foreslå.
-
-**Bemærkning om andre TxGNN-kandidater:** Bilateral parasagittal parieto-okcipistal polymicragyri, amyotrofisk lateralsklerose og aksial spondylometafissel dysplasi scorede lignende højt, men returnerede nul kliniske forsøg og nul litteraturresultater. Bevis-pakken karakteriserer eksplicit disse som uden kendt patofysiologisk forbindelse til melatonin-receptoragonisme og anbefaler "Hold" for alle dem — de analyseres ikke nærmere her.
+Polymikrogyri er en strukturel misdannelse af hjernebarken af genetisk eller udviklingsmæssig oprindelse. Melatoninreceptoragonisme har ingen kendt rolle i sygdommens patogenese, og der er intet plausibelt mekanistisk link. Den høje score (0,995) bygger udelukkende på grafbaseret forudsigelse uden støtte fra forsøg eller litteratur. Den bør derfor ikke tillægges klinisk vægt.
 
 ---
 
-## Beviser fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltager | Vigtigste resultater |
-|---------|------|--------|---------|---------|
-| [NCT00548340](https://clinicaltrials.gov/study/NCT00548340) | Fase 3 | Afsluttet | 322 | Multicenter, randomiseret, dobbeltblindet, placebo-kontrolleret forsøg af VEC-162 (tasimelteon) 20mg/50mg dagligt vs. placebo i løbet af 5 uger ved primær søvnløshed — bevis for pivotal-kvalitets-effektivitet/sikkerhed |
-| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Fase 3 | Rekrutterer | 420 | Igangværende multicenter, dobbeltblindet, randomiseret undersøgelse af tasimelteon vs. placebo ved pedistrisk søvnløshedsforstyrrelser |
-| [NCT03291041](https://clinicaltrials.gov/study/NCT03291041) | Fase 2 | Afsluttet | 25 | Proof-of-concept-undersøgelse af tasimelteon vs. placebo hos rejsende med jetlag-forstyrrelser (tilstødende cirkadisk indikation) |
-| [NCT05922995](https://clinicaltrials.gov/study/NCT05922995) | Tidlig fase 1 | Afbrudt | 20 | Enkeltcenter, åben-mærket pilot-undersøgelse af tasimelteon 20mg til REM-søvnadfærdsforstyrrelser; forsøg afbrudt tidligt, lav bevisværdi |
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtigste resultater |
-|------|-----|------|-------|---------|
-| [35585820](https://pubmed.ncbi.nlm.nih.gov/35585820/) | 2023 | Oversigt | Current Drug Safety | Diskuterer melatonin/tasimelteons relevans til Alzheimer-relateret søvn og adfærdsforstyrrelser |
-| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Oversigt | International Journal of Molecular Sciences | Gennemgår effektivitet/sikkerhed af melatonin-receptoragonister (inkl. tasimelteon) på tværs af søvnløshed, depression og cirkadisk rytmeforstyrrelser |
-| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Oversigt | Journal of Medicinal Chemistry | Gennemgår MT1/MT2-receptorfarmakologi; identificerer tasimelteon som en høj-affinitet ikke-selektiv MT1/MT2-agonist |
-| [22010042](https://pubmed.ncbi.nlm.nih.gov/22010042/) | 2011 | Oversigt | Therapeutic Advances in Neurological Disorders | Gennemgår melatonin/analoger til søvnforstyrrelser og neuroprotektiv virkning ved Parkinsons sygdom |
-| [22167135](https://pubmed.ncbi.nlm.nih.gov/22167135/) | 2011 | Oversigt | Neuro Endocrinology Letters | Gennemgår cirkadisk søvnafbrydelse og potentiel terapeutisk værdi af melatonin ved fedme |
-| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Oversigt | Neuropsychiatric Disease and Treatment | Gennemgår langvarig-frigivelse melatonin og syntetiske melatoninerg agonister til søvnløshedsbehandling |
+Der er for øjeblikket ingen relateret litteratur tilgængelig for denne indikation.
 
 ---
 
-## Dansk markedsinformation
+## Information om markedet i Danmark
 
-Tasimelteon markedsføres ikke i øjeblikket i Danmark — ingen markedsføringstilladelse (national eller centraliseret/EMA) er på arkivet, og ingen godkendt indikationstekst er tilgængelig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105416914 | Hetlioz (Vanda Pharmaceuticals NL B.V.) | Kapsler, hårde | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Et afsluttet fase 3-forsøg (n=322) plus et aktivt rekrutterende fase 3-forsøg (n=420) giver mekanistisk-konsistent, L1-klasset bevis for tasimelteon ved søvnløshed/cirkadisk rytmisk søvnforstyrrelser. Lægemidlet har dog ingen dansk markedsføringstilladelse og ingen lokale sikkerhed/indikationsdata, så en fuldstændig risiko-nyttet vurdering kan ikke endnu gennemføres.
+Forudsigelsen har kun evidensniveau L5. Der findes ingen forsøg eller publikationer, og der er intet plausibelt mekanistisk link til en strukturel kortikal misdannelse.
 
-**For at fortsætte er følgende nødvendigt:**
-- Lokale sikkerhed/indikationsdata (vigtige advarsler, kontraindikationer) — i øjeblikket et blokerende datahul, der forhindrer sikkerhedsvurdering (S1)
-- Formelt dokumentation af virkningsmekanisme (struktureret MOA-felt er i øjeblikket uudfyldt, skønt begrundelsesteksten bekræfter MT1/MT2-agonisme)
-- Lægemiddel-lægemiddelinteraktions (DDI) data — nuværende forespørgsel returnerede ingen resultater
-- En reguleringsmæssig vurdering af muligheder for Danmark, givet nul eksisterende markedsføringstilladelser
+**Bemærk:** Blandt de forudsagte indikationer er **insomni** den bedst understøttede (score 99,47 %). Den er vurderet til evidensniveau L1 og "Proceed with Guardrails", med et biologisk sammenhængende mekanistisk link. Evidensen omfatter:
+- [NCT00548340](https://clinicaltrials.gov/study/NCT00548340): fase 3, randomiseret, dobbeltblindet og placebokontrolleret, 322 deltagere, afsluttet. Effektresultater indgår ikke i de leverede data.
+- [NCT06953869](https://clinicaltrials.gov/study/NCT06953869): fase 3 ved pædiatrisk insomni, 420 deltagere, rekrutterer.
+- [NCT03291041](https://clinicaltrials.gov/study/NCT03291041): fase 2 ved jetlag, 25 deltagere, afsluttet.
+- [NCT05922995](https://clinicaltrials.gov/study/NCT05922995): tidlig fase 1 ved REM-søvnadfærdsforstyrrelse, 20 deltagere, afsluttet for tidligt.
 
+Kun ét afsluttet fase 3-forsøg er dokumenteret i datasættet, så L1-vurderingen bør kontrolleres.
+
+**For at komme videre kræves:**
+- Hentning af det danske produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation mangler).
+- Mekanismedata (MOA) fra DrugBank.
+- Hvis insomni skal vurderes videre: effektresultater fra NCT00548340 og bekræftelse af populationen og endepunkter.
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Sotatercept
 parent: Kun modelforudsigelse (L5)
-nav_order: 406
+nav_order: 408
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sotatercept: Fra Pulmonal Arteriel Hypertension til Akut Lymfoblastisk Leukæmi
+# Sotatercept: Fra ikke-angivet oprindelig indikation til akut lymfoblastisk leukæmi
 
-## Sammenfatning i En Sætning
+## Resumé i én sætning
 
-Sotatercept er et aktivinreceptor IIA-Fc-fusionsprotein, hvis etablerede godkendt indikation er pulmonal arteriel hypertension (PAH), som anført i evidenspakkens egne mekanistiske noter.
-TxGNN-modellen forudsiger, at det kan være effektivt til **Akut Lymfoblastisk Leukæmi**,
-men **0 kliniske forsøg** og **0 publikationer** understøtter i øjeblikket denne retning — forudsigelsen hviler udelukkende på modelscoren.
+Sotatercept er et aktivin-receptor type IIA-Fc-fusionsprotein, der markedsføres i Danmark under navnet Winrevair. Den oprindelige indikation fremgår ikke af de leverede data.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **akut lymfoblastisk leukæmi**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
 
-## Hurtig Oversigt
+---
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig Indikation | Pulmonal arteriel hypertension (PAH) — ikke fra dansk licensrecord (lægemiddel ikke markedsført i Danmark); kun refereret i evidenspakkens mekanistiske noter |
-| Forudsagt Ny Indikation | Akut Lymfoblastisk Leukæmi |
-| TxGNN-forudsigelsesscore | 99.78% |
-| Evidensniveau | L5 (modelforudsigelse alene, ingen forsøg eller litteratur) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Afgørelse | Afvent |
+## Hurtigt overblik
 
-## Hvorfor Er Denne Forudsigelse Rimelig?
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de leverede data (bør verificeres i produktresuméet, SmPC) |
+| Forudsagt ny indikation | Akut lymfoblastisk leukæmi |
+| TxGNN-forudsigelsesscore | 99,78 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-For øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som et datahul i denne evidenspakke). Baseret på de begrænsede oplysninger, der foreligger, er sotatercept et aktivinreceptor IIA-Fc-fusionsprotein ("ligand trap"), der binder og neutraliserer Activin A/GDF11 og relaterede TGF-β-superfamilie-ligander; denne signaleringsvej er kendt for at regulere erytropoiese og vaskulær remodellering, hvilket ligger til grund for dets godkendte brug ved pulmonal arteriel hypertension.
+---
 
-Evidenspakkens egen mekanistiske begrundelse for Akut Lymfoblastisk Leukæmi beskriver Activin/GDF-signaleringsvej som relevant for knoglemarv-hæmatopoiese (samme målstruktur som luspatercept, der anvendes ved MDS-relateret anæmi), men angiver eksplicit, at der **ikke foreligger direkte beviser, der forbinder denne vej til ALL's tumorigeniske mekanisme** — forbindelsen karakteriseres i selve kildedataene som "yderst spekulativ med lav biologisk plausibilitet."
+## Hvorfor er denne forudsigelse rimelig?
 
-Da der ikke eksisterer kliniske forsøg, ICTRP-records eller litteratur for dette lægemiddel-sygdoms-par, kan den mekanistiske begrundelse for øjeblikket ikke bekræftes af nogen ekstern evidens, og forudsigelsen bør udelukkende behandles som hypotesegenererende.
+Der er ikke noget klart mekanistisk grundlag for forudsigelsen. Detaljerede data om virkningsmekanisme foreligger ikke i Evidence Pack. Sotatercept er kendt som en aktivin-receptor type IIA-Fc-fusionsproteinfælde, der binder aktiviner og beslægtede ligander i TGF-beta-familien. Det kan øge hæmoglobin og trombocyttal.
 
-## Evidens fra Kliniske Forsøg
+Forbindelsen til akut lymfoblastisk leukæmi bygger på generel farmakologi og ikke på den leverede lægemiddelregistrering. TxGNN-scoren (0,998) er en ren vidensgraf-forudsigelse uden støtte fra forsøg eller litteratur. Scoren bør derfor ikke tolkes som klinisk evidens.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret
+---
 
-## Litteraturbevis
+## Klinisk evidens
 
-I øjeblikket ingen relateret litteratur tilgængelig
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
 
 ## Markedsinformation for Danmark
 
-Sotatercept har i øjeblikket **ingen markedsføringstilladelse** i Danmark (0 licenser på fil; markedsstatus: Ikke markedsført). Der foreligger ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) autorisationsrecords i denne evidenspakke.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107063623 | Winrevair (Merck Sharp & Dohme B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de leverede data |
 
-## Sikkerhedshensyn
+---
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+## Sikkerhedsovervejelser
 
-## Konklusion og Næste Trin
+Der er ingen data om advarsler, kontraindikationer eller lægemiddelinteraktioner (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Afgørelse: Afvent**
+Forudsigelsesnotatet for de øvrige kandidater nævner kendte blødningsrelaterede bivirkninger (f.eks. telangiektasi, epistaxis og trombocytopeni) som en potentiel bekymring ved vaskulære sygdomme.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Den forudsagt indikation (Akut Lymfoblastisk Leukæmi) har nul understøttende kliniske forsøg eller litteratur, et evidensniveau på L5, og pakkens egen mekanistiske begrundelse bedømmer det biologiske sammenhæng som svagt/spekulativt. Kombineret med fraværet af en dansk markedsføringstilladelse og manglende MOA/sikkerhedsdata opfylder denne kandidat ikke tærsklen for at gå videre.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er heller ikke noget klart mekanistisk grundlag, og sikkerhedsdata mangler. Øvrige kandidater i listen (diabetisk retinopati, diabetisk grå stær og lægemiddelinduceret osteoporose) er heller ikke understøttet af evidens. Lægemiddelinduceret osteoporose vurderes som biologisk mest plausibel, fordi aktivin A hæmmer osteoblastaktivitet, og den er markeret som forskningsspørgsmål. De øvrige forudsigelser overlapper delvist og er ikke uafhængige af hinanden.
 
-**For at gå videre er følgende nødvendigt:**
-- Bekræftet virkningsmekanisme-data (MOA) (i øjeblikket et blokerende/alvorligt datahul)
-- TFDA/SmPC-baserede advarsler og kontraindikationer (i øjeblikket et blokerende datahul, påkrævet for S1-sikkerhedsscreening)
-- Præ-kliniske eller mekanistiske studier, der direkte forbinder Activin/GDF-signalering til ALL-patogenese
-- Præcisering af den regulatoriske vej i Danmark, givet at lægemiddlet i øjeblikket ikke er markedsført der
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation
+- Indhent data om virkningsmekanisme fra DrugBank
+- Gennemfør en målrettet søgning efter kliniske forsøg og litteratur for akut lymfoblastisk leukæmi, og for lægemiddelinduceret osteoporose (knoglemarkører og knogletæthed)
+- Vurder sikkerhedsprofilen (især blødningsrisiko og trombocytopeni) i den relevante patientgruppe
 
-*Bemærk: Denne evidenspakke opregner flere andre højt-rangerede kandidater med sammenlignelig svag, bevisløs understøttelse — alvorlig non-proliferativ diabetisk retinopati, diabetisk retinopati, lægemiddelinduceret osteoporose og diabetisk katarakt (alle L5, Afvent) — hvis en bredere gennemgang af sotatercepts omplejringslandskab skulle være nødvendig.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

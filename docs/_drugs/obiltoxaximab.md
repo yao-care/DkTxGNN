@@ -2,7 +2,7 @@
 layout: default
 title: Obiltoxaximab
 parent: Kun modelforudsigelse (L5)
-nav_order: 315
+nav_order: 316
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,102 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Obiltoxaximab: Fra inhalativ anthrax til postinfektiøs vaskulitis
+# Obiltoxaximab: Fra inhalationsmiltbrand til postinfektiøs vaskulitis
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-> Obiltoxaximab (Anthim) er et monoklonalt antistof, der oprindeligt blev udviklet til behandling og forebyggelse af inhalativ anthrax forårsaget af eksponering for *Bacillus anthracis* toxin — dette er tydeligt ud fra dets egen kliniske prøvehistorie, da Danmark ikke har markedsføringstilladelse eller godkendt indikationstekst for dette lægemiddel.
-> TxGNN-modellen forudsiger, at det kan være effektivt til **postinfektiøs vaskulitis**, men i øjeblikket **ingen kliniske prøver eller publikationer** understøtter denne specifikke retning.
-> Dette er et **modelforudsigelse-kun** signal (evidensniveau L5) med en eksplicit svag mekanistisk rationale — det bør ikke tolkes som en valideret genbrugsmulighed.
+Obiltoxaximab er et monoklonalt antistof, der bruges mod inhalationsmiltbrand (*Bacillus anthracis*).
+TxGNN-modellen forudsiger, at det kan have effekt ved **postinfektiøs vaskulitis**, men forudsigelsen er rent modelbaseret og understøttes af **0 kliniske forsøg** og **0 publikationer**.
+Den vurderes derfor som **Hold**.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original indikation | Inhalativ anthrax (behandling/post-eksponeringsforebyggelse) — baseret på lægemidlets egen prøvehistorie; der eksisterer ingen dansk regulatorisk tekst |
+|------|------|
+| Oprindelig indikation | Inhalationsmiltbrand (fremgår af de kliniske forsøg; indikationsteksten er ikke angivet i de danske registerdata) |
 | Forudsagt ny indikation | Postinfektiøs vaskulitis |
-| TxGNN forudsigelsesscore | 99.74% |
-| Evidensniveau | L5 (modelforudsigelse alene, ingen understøttende prøver eller litteratur) |
-| Danmarksmarkedsstatus | Ikke på markedet |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvent |
+| TxGNN-forudsigelsesscore | 99,74 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige for obiltoxaximab i denne evidenspakke. Baseret på kendt information er obiltoxaximab et monoklonalt antistof, der specifikt binder til og neutraliserer Protective Antigen (PA) underenheden af *Bacillus anthracis* toxin, hvilket blokerer toksins indtrængning i værtsceller. Det er ikke et bredt spektrum antimikrobielt eller antiinflammatorisk middel.
+Detaljerede mekanismedata for lægemidlet er ikke tilgængelige i datagrundlaget. Ud fra den kendte virkningsmekanisme binder obiltoxaximab det beskyttende antigen (PA) fra *Bacillus anthracis* og blokerer dermed miltbrandtoksinets indtrængen i cellerne. Midlet er altså målrettet et specifikt bakterielt toksin.
 
-Evidenspakkens eget rationale for genbrugsforudsigelsen er eksplicit og bør tages for pålydende: der er **ingen kendt mekanistisk forbindelse** mellem anthrax toksinneutralisering og de immune-kompleks/vaskulære inflammatoriske patologier, som ligger til grund for postinfektiøs vaskulitis. TxGNN-scoren på 99.74% afspejler højst sandsynligt vidensgrafs indlejrings-lighed (f.eks. delt "post-infektion" nodeproksimitet) snarere end en biologisk begrundet hypotese.
-
-I lyset af fraværet af MOA-bekræftelse, understøttende prøver eller litteratur mangler denne forudsigelse i øjeblikket det biologiske plausibilitetsargument, som normalt ville understøtte yderligere evaluering.
+Postinfektiøs vaskulitis er typisk immunkompleks- eller autoimmunt medieret og drives ikke af PA-afhængig toksinaktivitet. Der er derfor ikke et troværdigt mekanistisk led mellem den oprindelige og den forudsagte indikation. Den høje score (0,997) er udelukkende en grafbaseret forudsigelse fra TxGNN.
 
 ---
 
-## Klinisk prøvebevis
+## Dokumentation fra kliniske forsøg
 
-I øjeblikket ingen registrerede relaterede kliniske prøver.
+For den primære forudsigelse (postinfektiøs vaskulitis) er der i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-*(Bemærk: fire Phase 1/Phase 4-prøver af obiltoxaximab eksisterer i evidenspakken — NCT03088111, NCT01932242, NCT01929226, NCT00138411 — men disse blev gennemført til anthrax toksins eksponering/sikkerhed-PK formål og er forbundet med den separate, lavrelevans "post-bakteriel lidelse" forudsigelse, ikke med postinfektiøs vaskulitis. Alle blev klassificeret relevans "C" — nøgleord-matchet, ikke sygdomsspecifik.)*
+Til sammenligning har forudsigelsen nr. 5, **postbakteriel lidelse**, fire forsøg. Alle vedrører miltbrand eller sikkerhed og farmakokinetik hos raske frivillige, ikke effekt ved postbakterielle lidelser:
 
-## Litteraturbevis
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT03088111](https://clinicaltrials.gov/study/NCT03088111) | Fase 4 | Ukendt | 100 | Åbent feltstudie af klinisk gavn, sikkerhed og farmakokinetik ved behandling af inhalationsmiltbrand. Kun indirekte støtte. |
+| [NCT01932242](https://clinicaltrials.gov/study/NCT01932242) | Fase 1 | Afsluttet | 70 | Dobbeltblindet, placebokontrolleret studie af sikkerhed, tolerabilitet og farmakokinetik ved gentagen dosering hos voksne frivillige |
+| [NCT01929226](https://clinicaltrials.gov/study/NCT01929226) | Fase 1 | Afsluttet | 280 | Dobbeltblindet, placebokontrolleret studie af sikkerhed og farmakokinetik ved enkeltdosis hos voksne frivillige |
+| [NCT00138411](https://clinicaltrials.gov/study/NCT00138411) | Fase 1 | Afsluttet | 36 | Dosiseskalering, sikkerhed og farmakokinetik samt mulig interaktion med ciprofloxacin |
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Forsøgene giver nyttig baggrundsviden om sikkerhed og farmakokinetik, men ingen indikationsspecifik effektdokumentation. Sammenfaldet synes at skyldes etiketten "bakteriel" og ikke en fælles mekanisme.
 
-## Danmarksmarkedsinformation
+---
 
-Obiltoxaximab har i øjeblikket **ingen markedsføringstilladelse i Danmark** (0 registrerede licenser, markedsstatus: Ikke på markedet).
+## Litteraturdokumentation
+
+Der foreligger i øjeblikket ingen relateret litteratur.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106295319 | NYXTHRACIS | Koncentrat til infusionsvæske, opløsning (intravenøs) | SFL Pharmaceuticals Deutschland GmbH |
+
+---
+
+## Øvrige forudsigelser fra TxGNN
+
+Ingen af disse har kliniske forsøg eller litteratur, bortset fra postbakteriel lidelse (se ovenfor). Alle vurderes som **Hold**.
+
+| Forudsagt indikation | Score | Evidensniveau | Vurdering af mekanistisk sammenhæng |
+|------|------|------|---------|
+| Postinfektiøs vaskulitis | 99,74 % | L5 | Ingen troværdig sammenhæng |
+| Postinfektiøst syndrom | 99,74 % | L5 | Ingen plausibelt mål for et toksinneutraliserende antistof |
+| Postbakteriel lidelse | 99,74 % | L4 | Kun indirekte; kobling via den generelle etiket "bakteriel" |
+| Infektiøs uretrastriktur | 99,74 % | L5 | Fibrotisk tilstand, der primært behandles kirurgisk eller endoskopisk |
+| Otitis externa | 99,71 % | L5 | Lokalt behandlelig tilstand, som skyldes bakterier uden PA-afhængig toksinvirkning |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se venligst produktresumét (SmPC) for sikkerhedsinformation.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
 
-*(Vigtige advarsler, kontraindikationer og lægemiddel-interaktionsdata er i øjeblikket ikke tilgængelige for dette lægemiddel — dette er markeret som en blokerende datagap (DG001) i evidenspakken og skal løses, før nogen sikkerhedsevaluering kan foretages.)*
+---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler alene på en TxGNN-lignhedsscore uden understøttende kliniske prøver, ingen litteratur, ingen bekræftet virkningsmekanisme og en eksplicit bekendtgørelse af mangel på biologisk plausibilitet. Lægemidlet er endvidere ikke på markedet i Danmark, så der eksisterer i øjeblikket ingen lokal regulatorisk eller sikkerhedsinfrastruktur til at understøtte evaluering.
+Forudsigelsen er udelukkende baseret på en grafmodel (L5) uden kliniske forsøg eller litteratur for postinfektiøs vaskulitis. Obiltoxaximabs kendte mekanisme, neutralisering af miltbrandtoksinets PA, har ingen plausibel kobling til tilstanden.
 
-**For at fortsætte kræves følgende:**
-- Bekræftet virkningsmekanisme-data (i øjeblikket en datagap)
-- SmPC-baseret sikkerhedsinformation: advarsler, kontraindikationer og lægemiddel-interaktioner (i øjeblikket en blokerende datagap, DG001)
-- Præklinikulske eller mekanistiske studier, der etablerer biologisk plausibilitet for postinfektiøs vaskulitis
-- Eventuelle fremtidige kliniske prøve- eller sygdomsrapportbevis specifikt for denne indikation, skulle det opstå
+**For at komme videre kræves følgende:**
+- Advarsler og kontraindikationer fra produktresuméet fra Lægemiddelstyrelsen (blokerende datamangel)
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- Evt. en ny, mekanistisk velbegrundet kandidatindikation, før der investeres i yderligere evidensindsamling
 
+*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

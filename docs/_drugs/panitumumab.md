@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 331
+nav_order: 332
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,103 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Panitumumab: Fra Udokumenteret Oprindelig Indikation til Lægemiddelinduceret Osteoporose
+# Panitumumab: Fra kolorektal cancer til lægemiddelinduceret osteoporose
 
-## Sammenfatning i En Sætning
+## Resumé
 
-Panitumumab (DrugBank DB01269) har i øjeblikket ingen registreret oprindelig indikation eller mekanismedata i denne evidenspakke, og det har ingen markedsløbetilladelse i Danmark. TxGNN-modellen forudsiger en mulig forbindelse til **lægemiddelinduceret osteoporose**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
+Panitumumab er et monoklonalt antistof mod EGFR, der anvendes i kræftbehandling (kolorektal cancer). Dette fremgår ikke af den danske indikationstekst i datagrundlaget, som er tom, men er almen viden om lægemidlet. TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Evidensen er udelukkende modelbaseret, og en skadelig effekt kan ikke udelukkes.
 
 ---
 
-## Hurtigt Overblik
+## Hurtigt overblik
 
-| Emne | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig (datakløft) |
+| Oprindelig indikation | Ikke angivet i de danske data (almen viden: kolorektal cancer) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99.13% |
+| TxGNN-forudsigelsesscore | 99,13 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsløbetilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er Denne Forudsigelse Rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede mekanismedata for panitumumab er ikke tilgængelige i denne evidenspakke (markeret som et datakløft af høj alvorlighed), og ingen oprindelig indikation er for tiden registreret. Panitumumab kendes i lægemiddelvidensgrafen som et anti-EGFR-monoklonalt antistof, men uden en dokumenteret oprindelig indikation eller MOA i denne pakke kan der ikke drages en evidensbaseret forbindelse mellem dets kendte farmakologi og den foreslåede knogle-metabolisme-vej (RANKL/OPG, osteoklast-aktivitet) bag lægemiddelinduceret osteoporose.
+Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Panitumumab er et antistof mod EGFR (epidermal vækstfaktorreceptor), og dets effekt i den oprindelige indikation bygger på hæmning af EGFR-signalering i tumorceller.
 
-Modellens egen begrundelse for denne kandidat anfører eksplicit, at der ikke er etableret en direkte mekanistisk forbindelse, og at TxGNN-scoren på 0.991 sandsynligvis afspejler en indirekte association i vidensgrafen mellem den bredere klasse af EGFR-inhibitorer og knogletæthed-relaterede bivirkning-knudepunkter, snarere end panitumumab-specifik evidens.
+EGFR-signalering menes at understøtte osteoblastaktivitet og knogleomsætning. Hæmning af EGFR sammen med de kendte bivirkninger hypomagnesæmi og hypocalcæmi i denne lægemiddelklasse kan derfor i princippet **forværre** knoglesundheden i stedet for at behandle osteoporose. Den høje score er dermed ikke understøttet af en mekanistisk forklaring.
 
-Da både felterne for oprindelig indikation og MOA er datakløfter, og der ikke findes nogen klinisk eller litteraturbaseret evidens for denne kandidat, kan den biologiske plausibilitet af denne forudsigelse i øjeblikket ikke vurderes og skal behandles som en hypotese, der udelukkende er genereret fra associationer på graf-niveau.
+De øvrige forudsigelser i top 10 er alle på evidensniveau L5 og har samme svage grundlag. Dubletter i listen er slået sammen:
 
----
-
-## Evidens fra Kliniske Forsøg
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
+- **Svær ikke-proliferativ diabetisk retinopati (99,05 %) og diabetisk retinopati (98,96 %):** Der findes en teoretisk rolle for EGFR i retinal angiogenese og inflammation. Panitumumab er et systemisk IgG2-antistof med begrænset øjenpenetration og kendte øjen- og hudbivirkninger. Standardbehandling (anti-VEGF, laser) er langt bedre dokumenteret.
+- **Diabetisk katarakt (98,90 %), nukleær senil katarakt og kortikal katarakt (begge 98,81 %):** Der er ikke påvist nogen mekanisme. Scorerne afspejler sandsynligvis nærhed i vidensgrafen og ikke et selvstændigt signal. Et systemisk onkologisk antistof er desuden ikke realistisk til en langsomt fremadskridende tilstand, der kan behandles kirurgisk.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens fra forsøg
 
-I øjeblikket er der ingen relateret litteratur tilgængelig.
-
----
-
-## Markedsinformation for Danmark
-
-Panitumumab har i øjeblikket ingen markedsløbetilladelse registreret i Danmark (0 tilladelser på fil).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Konklusion og Næste Trin
+## Information om det danske marked
 
-**Beslutning: Afvent**
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103945506 | Vectibix (Amgen Europe BV) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+
+Præparatet gives som injektion/infusion.
+
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt antistof mod EGFR), ikke konventionel cytotoksisk kemoterapi |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC). Ud fra lægemiddelklassen er det relevant at overveje elektrolytter (især magnesium og calcium) samt hud- og øjenstatus. |
+| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering af onkologiske lægemidler. Se SmPC. |
+
+---
+
+## Sikkerhedsovervejelser
+
+Datagrundlaget indeholder ingen registrerede advarsler, kontraindikationer eller interaktioner. Det er en mangel, som skal afhjælpes, før en sikkerhedsvurdering er mulig.
+
+Ud fra lægemiddelklassen er følgende dog relevant for de forudsagte indikationer:
+
+- **Hypomagnesæmi og hypocalcæmi:** Kan potentielt forværre knoglesundheden.
+- **Øjen- og hudtoksicitet** (f.eks. keratitis og øjenlidelser): Taler imod anvendelse ved øjensygdomme.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat er baseret på evidensniveau L5 (kun modelforudsigelse) — der er ingen kliniske forsøg eller publikationer, ingen dokumenteret mekanisme, og ingen oprindelig indikation registreret til at vurdere biologisk plausibilitet. Desuden eksisterer der et datakløft af blokeringsalvorlighed for danske etiketadvarsler/kontraindikationer, som uafhængigt forhindrer enhver sikkerhedsforvurdering.
+Forudsigelserne er udelukkende modelbaserede (L5), uden kliniske forsøg eller litteratur. For den højest rangerede indikation, osteoporose, taler mekanismen og lægemiddelklassens kendte bivirkninger snarere imod end for en gavnlig effekt. De øvrige forudsigelser (retinopati og katarakt) har heller ingen defineret mekanisme og en uhensigtsmæssig risiko-nytte-profil.
 
-**For at fortsætte er følgende nødvendigt:**
-- Panitumumabs oprindelige indikation og bekræftet mekanisme (DrugBank/etiketopslagning)
-- Dansk/EU-produktresumé (SmPC) — advarsler, kontraindikationer og lægemiddelinteraktioner
-- DrugBank terapeutisk-kategori-data til at bestemme cytotoksicitet/onkologi-klassifikation
-- Enhver ny evidens fra kliniske forsøg eller litteratur specifik for lægemiddelinduceret osteoporose, diabetisk retinopati eller katarakt-relaterede kandidater før yderligere vurdering
+**For at komme videre kræves følgende:**
+- Danske advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé (blokerende datamangel)
+- Detaljerede data om virkningsmekanismen (f.eks. fra DrugBank)
+- Den godkendte indikationstekst for Vectibix i Danmark
+- Prækliniske data, der understøtter en gavnlig effekt af EGFR-hæmning ved de forudsagte sygdomme, især en afklaring af, om retningen er skadelig ved osteoporose
+- En systematisk litteratur- og forsøgssøgning efter dokumentation for de forudsagte indikationer
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

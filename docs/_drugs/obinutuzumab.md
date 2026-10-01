@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: Høj evidens (L1-L2)
-nav_order: 316
-evidence_level: L1
+parent: Kun modelforudsigelse (L5)
+nav_order: 317
+evidence_level: L5
 indication_count: 6
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,129 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Obinutuzumab: Fra CD20+ B-cellemalignitet til follikulært lymfom
+# Obinutuzumab: Fra en ikke oplyst oprindelig indikation til follikulært lymfom og kronisk lymfatisk leukæmi (CLL/SLL)
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-Obinutuzumab (DrugBank DB08935) er et type II anti-CD20 monoklonalt antistof; Danmark-specifikke oprindelige indikationer og etiketdata er ikke tilgængelige i dette datasæt (datakløft). TxGNN-modellens bevisbaserede lede kandidat i denne pakke er **Follikulært lymfom**, understøttet af **>40 matchede kliniske studier (10 højest relevante vist)** — herunder to afsluttede fase 3-RCT'er — og **19 publikationer**, hvilket giver det det stærkeste bevisniveau (L1) blandt alle evaluerede kandidater.
+Obinutuzumab er et glykoengineered type II anti-CD20-antistof, som markedsføres i Danmark som Gazyvaro. Datapakken oplyser ikke lægemidlets oprindelige indikation. TxGNN-modellen forudsiger, at det kan virke ved **CLL/SLL-subtyper** (score 99,21 %, ingen studier i pakken) og ved **follikulært lymfom** (score 99,18 %, **47 kliniske forsøg** og **20 publikationer**, heriblandt flere fase 3-RCT'er). Bemærk, at follikulært lymfom og CLL muligvis allerede er godkendte anvendelser, så de er måske ikke reel lægemiddelomplacering (se nedenfor).
 
-> **Bemærkning om ranking**: TxGNN's højest scorede forudsigelser (rang 1–4) er snævert navngivne CLL/SLL molekylære undertyper (f.eks. "pregerminal center CLL/SLL"), som returnerede **nul** matchende forsøg eller litteratur — pakkens egen analyse tilskriver dette sygdomsnavn-granularitet, ikke en sand mangel på bevis, og anbefaler gensorgering med bredere CLL/SLL-betingelser. Fordi Follikulært lymfom (rang 5, score 99.18%, i hovedsagen bundet med rang 1's 99.21%) er den eneste kandidat i dette datasæt med faktisk hentbar bevis, bruges det som lede kandidat for denne rapport.
+---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig — lægemidlet er ikke registreret i Danmark; ingen lokale etiket-/indikationstekster på fil (datakløft DG001/DG002) |
-| Forudsagt ny indikation | Follikulært lymfom |
-| TxGNN-forudsigelse score | 99.18% |
-| Bevisniveau | L1 |
-| Danmark markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
+| Oprindelig indikation | Ikke oplyst (indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation (rang 1) | Pregerminal center-CLL/SLL (og tre beslægtede CLL/SLL-subtyper med samme score) |
+| Forudsagt ny indikation (bedst dokumenteret) | Follikulært lymfom |
+| TxGNN-score | CLL/SLL: 99,21 % · Follikulært lymfom: 99,18 % |
+| Evidensniveau | CLL/SLL: L5 · Follikulært lymfom: L1 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | CLL/SLL: Hold · Follikulært lymfom: Proceed with Guardrails |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Obinutuzumab er et glykoengineret, humaniseret type II anti-CD20 monoklonalt antistof. Det bindes til CD20 på overfladen af B-celler og inducerer celledød gennem en kombination af antistof-afhængig cellulær cytotoxicitet (ADCC), antistof-afhængig cellulær fagocytose (ADCP) og direkte (ikke-apoptotisk) celledød — en mekanisme der er forskellig fra og generelt mere potent end type I anti-CD20 antistoffer såsom rituximab.
+## Hvorfor er forudsigelsen rimelig?
 
-Follikulært lymfom-tumorceller er karakteristisk CD20-positive, hvilket gør dem til en direkte farmakologisk match for obinutuzumabs mål. Dette er ikke et spekulativt mekanistisk spring: obinutuzumab (Gazyva/Gazyvaro) er allerede en godkendt terapi for follikulært lymfom i flere andre jurisdiktioner (både først-linje og rituximab-refraktær/recidivering indstillinger), og datasættets eget kliniske forsøg og litteraturrecord for FL er omfattende og modent — herunder det pivotale fase 3-forsøg GALLIUM (NCT01332968, n=1,401) sammenlignet obinutuzumab-kemoterapi med rituximab-kemoterapi.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datapakken. Ud fra de medfølgende publikationer er obinutuzumab et glykoengineered, type II anti-CD20-monoklonalt antistof. Det giver øget direkte celledød samt øget antistofafhængig cellulær cytotoksicitet og fagocytose (ADCC/ADCP).
 
-De andre højt scorede forudsigelser i denne pakke (pregerminal-center og IGHV-mutation-definerede CLL/SLL-undertyper) er mekanistisk lige så plausible — CD20-ekspression er uafhængig af disse molekylære subtypeskemaer — men dette datasæt kunne ikke hente forsøgs- eller litteraturbevis for disse nøjagtige subtype-navne. Dette er højst sandsynligt et søge-granularitets-artefakt snarere end en ægte mangel på understøttende data, og garanterer en opfølgende forespørgsel ved hjælp af det bredere begreb "kronisk lymfocytært leukæmi/lille lymfocytært lymfom" før disse kandidater scoreres eller afvises.
+Follikulært lymfom er en CD20-positiv B-cellemalignitet, så målstrukturen er direkte relevant. Det samme gælder CLL/SLL, hvor de maligne B-celler udtrykker CD20. Forudsigelsen er derfor biologisk plausibel. For follikulært lymfom understøttes den desuden af kliniske data. For CLL/SLL-subtyperne (inklusive den IGHV-muterede subtype) hviler vurderingen alene på modellen, da pakken ikke indeholder forsøg eller litteratur. Det er et dækningshul i data og ikke et tegn på manglende effekt.
 
-## Klinisk forsøgbevis
+Lægemidlets oprindelige indikation er ikke oplyst. Et forsøgsresumé i pakken (NCT02877550) nævner, at obinutuzumab er godkendt sammen med chlorambucil ved tidligere ubehandlet CLL og sammen med bendamustin ved follikulært lymfom. Begge indikationer kan derfor allerede være godkendt. Kontrollér godkendelsesstatus i produktresuméet (SmPC), før forslaget betragtes som reel lægemiddelomplacering.
 
-| Forsøgsnummer | Fase | Status | Tilmelding | Nøglefund |
+---
+
+## Evidens fra kliniske forsøg
+
+Tabellen viser de 10 mest relevante forsøg ved follikulært lymfom. Der er ikke registreret forsøg for CLL/SLL-subtyperne i pakken. Pakken indeholder ingen EudraCT-numre.
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT01332968](https://clinicaltrials.gov/study/NCT01332968) | Fase 3 | Afsluttet | 1401 | GALLIUM-forsøg: obinutuzumab + kemoterapi mod rituximab + kemoterapi hos tidligere ubehandlet avanceret indolent NHL (hovedsageligt FL) |
-| [NCT01059630](https://clinicaltrials.gov/study/NCT01059630) | Fase 3 | Afsluttet | 413 | Bendamustin alene mod bendamustin + obinutuzumab hos rituximab-refraktør indolent NHL |
-| [NCT03332017](https://clinicaltrials.gov/study/NCT03332017) | Fase 2 | Afsluttet | 217 | ROSEWOOD: zanubrutinib + obinutuzumab mod obinutuzumab monaterapi hos recidivering/refraktør FL (Grad A — nøgle-komparatortest) |
-| [NCT01691898](https://clinicaltrials.gov/study/NCT01691898) | Fase 1/2 | Afsluttet | 231 | Randomiseret evaluering af obinutuzumab-baserede kombinationsregimer hos recidivering/refraktør FL (Grad A) |
-| [NCT02611323](https://clinicaltrials.gov/study/NCT02611323) | Fase 1b/2 | Afsluttet | 133 | Obinutuzumab + polatuzumab vedotin + venetoclax hos recidivering/refraktør FL (Grad A) |
-| [NCT06191744](https://clinicaltrials.gov/study/NCT06191744) | Fase 3 | Rekrutterer | 1095 | EPCORE™FL-2: epcoritamab + R² mod kemoimmunoterapi hos tidligere ubehandlet FL |
-| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Fase 3 | Rekrutterer | 780 | Zanubrutinib + anti-CD20-antistoffer mod lenalidomid + rituximab hos recidivering/refraktør FL/MZL |
-| [NCT05929222](https://clinicaltrials.gov/study/NCT05929222) | Fase 3 | Rekrutterer | 190 | GAZEBO: strålebethandling alene mod strålebethandling + obinutuzumab hos tidlig-stadie FL |
-| [NCT03980171](https://clinicaltrials.gov/study/NCT03980171) | Fase 1b/2 | Aktiv, ikke rekrutterer | 50 | Lenalidomid + venetoclax + obinutuzumab hos behandlingsnaiv FL (Grad B) |
-| [NCT01680991](https://clinicaltrials.gov/study/NCT01680991) | Fase 1 | Afsluttet | 48 | Farmakokinetik/sikkerhed af obinutuzumab hos kinesiske patienter med CD20+ malignitet (Grad B — doseringsbasis) |
+| [NCT01332968](https://clinicaltrials.gov/study/NCT01332968) (GALLIUM) | Fase 3 | Afsluttet | 1401 | Randomiseret: obinutuzumab + kemoterapi vs. rituximab + kemoterapi, derefter vedligeholdelse, ved ubehandlet fremskreden indolent NHL |
+| [NCT01059630](https://clinicaltrials.gov/study/NCT01059630) (GADOLIN) | Fase 3 | Afsluttet | 413 | Randomiseret: bendamustin vs. bendamustin + obinutuzumab ved rituximab-refraktær indolent NHL |
+| [NCT03332017](https://clinicaltrials.gov/study/NCT03332017) (ROSEWOOD) | Fase 2 | Afsluttet | 217 | Randomiseret: zanubrutinib + obinutuzumab vs. obinutuzumab alene ved recidiverende/refraktært follikulært lymfom |
+| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Fase 3 | Rekrutterer | 780 | Zanubrutinib + anti-CD20 (obinutuzumab) vs. lenalidomid + rituximab ved recidiverende/refraktært follikulært eller marginalzone-lymfom |
+| [NCT05929222](https://clinicaltrials.gov/study/NCT05929222) (GAZEBO) | Fase 3 | Rekrutterer | 190 | Strålebehandling alene vs. strålebehandling + obinutuzumab ved tidligt stadium follikulært lymfom |
+| [NCT05045664](https://clinicaltrials.gov/study/NCT05045664) | Fase 3 | Rekrutterer | 100 | Strålebehandling + anti-CD20-antistof ved tidligt stadium follikulært lymfom |
+| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Fase 4 | Afsluttet | 114 | Sikkerhed ved kort infusionstid (ca. 90 min.) af obinutuzumab + kemoterapi ved ubehandlet follikulært lymfom |
+| [NCT02257567](https://clinicaltrials.gov/study/NCT02257567) | Fase 1/2 | Afsluttet | 331 | Polatuzumab vedotin + bendamustin og rituximab eller obinutuzumab ved recidiverende/refraktært follikulært lymfom og DLBCL |
+| [NCT00825149](https://clinicaltrials.gov/study/NCT00825149) | Fase 1 | Afsluttet | 137 | Randomiseret sikkerhed og effekt af obinutuzumab + CHOP, FC eller bendamustin ved follikulært lymfom |
+| [NCT05899621](https://clinicaltrials.gov/study/NCT05899621) | Observationel | Rekrutterer | 332 | Real-world-studie af obinutuzumab-baseret behandling ved ubehandlet follikulært lymfom |
 
-## Litteraturbevis
+Pakken indeholder i alt 47 forsøg ved follikulært lymfom. Mange er kombinationsforsøg, hvor effekten ikke kan tilskrives obinutuzumab alene.
 
-| PMID | År | Type | Tidsskrift | Nøglefund |
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT | New England Journal of Medicine | GALLIUM: obinutuzumab-baseret mod rituximab-baseret kemoterapi til først-linje FL |
-| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | Journal of Clinical Oncology | GALLIUM underanalyse: indflydelse af kemoterapibasis på efficacy/sikkerhed |
-| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM slutanalyse: obinutuzumab mod rituximab immunokemoterapi hos ubehandlet iNHL |
-| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | Journal of Clinical Oncology | ROSEWOOD: zanubrutinib + obinutuzumab mod obinutuzumab monaterapi hos recidivering/refraktør FL |
-| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | RCT | The Lancet Haematology | GALEN: obinutuzumab + lenalidomid hos recidivering/refraktør FL |
-| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood and Lymphatic Cancer: Targets and Therapy | Indflydelse af obinutuzumab alene og i kombination for FL |
-| [38660754](https://pubmed.ncbi.nlm.nih.gov/38660754/) | 2024 | Review | Turkish Journal of Haematology | Omfattende oversigt over FL-ledelse, herunder obinutuzumab-baserede regimer |
-| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | Review/HTA | Frontiers in Pharmacology | Efficacy, sikkerhed og cost-effectiveness af obinutuzumab i FL |
-| [35180337](https://pubmed.ncbi.nlm.nih.gov/35180337/) | 2022 | Review | Oncology (Williston Park) | Nuværende og nye terapier for FL |
-| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Review | Targeted Oncology | Obinutuzumab hos rituximab-refraktør/recidivering FL |
+| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT | N Engl J Med | Obinutuzumab-baseret vs. rituximab-baseret kemoimmunterapi ved ubehandlet fremskreden follikulært lymfom (GALLIUM) |
+| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | GALLIUM: obinutuzumab forlængede progressionsfri overlevelse vs. rituximab. Artiklen belyser betydningen af kemoterapi-backbone for effekt og sikkerhed |
+| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | Endelige GALLIUM-resultater ved follikulært lymfom og marginalzone-lymfom |
+| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT (fase 2) | J Clin Oncol | ROSEWOOD: zanubrutinib + obinutuzumab vs. obinutuzumab alene ved recidiverende/refraktært follikulært lymfom |
+| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | Enkeltarmet fase 2 | Lancet Haematol | GALEN: obinutuzumab + lenalidomid ved recidiverende/refraktært follikulært lymfom |
+| [35359000](https://pubmed.ncbi.nlm.nih.gov/35359000/) | 2022 | Fase Ib/II | Blood Adv | Atezolizumab + obinutuzumab + bendamustin ved ubehandlet follikulært lymfom: sikkerhed og effekt |
+| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | Fase Ib/II | Haematologica | Polatuzumab vedotin + bendamustin og rituximab eller obinutuzumab ved recidiverende/refraktært follikulært lymfom |
+| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | Hurtig oversigt (rapid review) | Front Pharmacol | Effekt, sikkerhed og omkostningseffektivitet af obinutuzumab ved follikulært lymfom |
+| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Review | Targeted Oncology | Review ved rituximab-refraktært/recidiverende follikulært lymfom, baseret på fase 3-studiet GADOLIN |
+| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood Lymphat Cancer | Obinutuzumab alene og i kombination ved follikulært lymfom |
 
-## Danmarks markedsinformation
+---
 
-Obinutuzumab er i øjeblikket ikke markedsført i Danmark, og ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliserede EMA) er på fil i dette datasæt.
+## Information om markedet i Danmark
 
-## Cytotoxicitet
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28105248613 | Gazyvaro | Koncentrat til infusionsvæske, opløsning | Roche Registration GmbH |
 
-Obinutuzumab er et antineoplastisk middel (målrettet immunoterapiklasse, brugt på tværs af CD20+ B-cellemaligniter herunder den forudsagt FL-indikation).
+Registreringen indeholder ingen indikationstekst. Lægemidlet gives som intravenøs infusion.
 
-| Element | Indhold |
+---
+
+## Cytotoksicitet (antineoplastisk lægemiddel)
+
+Datapakken indeholder ingen toksicitetsdata. Nedenstående er en generel vurdering af lægemiddelklassen og skal verificeres mod produktresuméet.
+
+| Punkt | Indhold |
 |------|------|
-| Cytotoxicitets klassifikation | Målrettet terapi / immunoterapi (anti-CD20 monoklonalt antistof) — ikke en konventionel cytotoksisk kemoterapibethandling |
-| Myelosuppression risiko | Lav–Moderat; anti-CD20-antistoffer som en klasse er forbundet med neutropeni (herunder forsinket-debut) og B-celle-depletion; ingen lægemiddelspecifik cytotoxicitets-data tilgængelig i dette datasæt |
-| Emetogenicitets klassifikation | Lav; monoklonale antistoffer er generelt minimalt emetogene, selvom infusionsrelaterede reaktioner er almindelige ved første infusioner |
-| Overvågningselementer | CBC med differentialcelleantal (neutropeni), hepatitis B screening/overvågning (anti-CD20 reaktiveringsrisiko), infusionsrelateret reaktion overvågning under administration |
-| Håndteringsbeskyttelse | Standard biologiske infusionsprocedurer gælder; kræver ikke håndteringsprotokoller for cytotoksiske lægemidler, men præmedikaion og infusionsovervågning efter klassemarkeringen anbefales — venligst se SmPC for præcis vejledning |
+| Cytotoksicitetsklassifikation | Målrettet behandling / immunterapi (monoklonalt anti-CD20-antistof), ikke konventionelt cytotoksisk |
+| Risiko for knoglemarvssuppression | Middel (neutropeni og trombocytopeni er kendte bivirkninger) |
+| Emetogenicitet | Lav |
+| Monitorering | Komplet blodtælling med differentialtælling, infusionsreaktioner, lever- og nyrefunktion. Se desuden SmPC |
+| Håndtering og beskyttelse | Følg lokale retningslinjer for håndtering af antineoplastiske lægemidler. Se SmPC |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer. Ingen lægemiddelinteraktions-, kontraindikations- eller advarselsdata specifikt for obinutuzumab var genkrævelig i dette datasæt (DDI-forespørgsel: ikke fundet).
+Datapakken indeholder ingen anvendelige oplysninger om advarsler, kontraindikationer eller interaktioner. Opslag på interaktioner gav ingen fund.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+**Beslutning:**
+- **Follikulært lymfom: Proceed with Guardrails** (evidensniveau L1)
+- **CLL/SLL-subtyper: Hold** (evidensniveau L5)
 
 **Begrundelse:**
-- Follikulært lymfom-indikationen er understøttet af L1-niveau-bevis, herunder to afsluttede fase 3-RCT'er (GALLIUM og bendamustin ± obinutuzumab-forsøget) og en modent litteraturbase på 19 publikationer, og afspejler godkendelser, der allerede er givet i andre jurisdiktioner.
-- Imidlertid er lægemidlet i øjeblikket uregistreret i Danmark, og både etiket-niveau sikkerhedsdata (DG001, Blokering) og formel virkningsmekanisme-dokumentation (DG002, Høj) er datakløfter, der skal lukkes, før en S1-sikkerhedsgennemgang kan fortsætte.
+- Ved follikulært lymfom er der to afsluttede fase 3-RCT'er (GALLIUM og GADOLIN), en randomiseret fase 2-undersøgelse (ROSEWOOD) og flere igangværende fase 3-forsøg. Indikationen kan dog allerede være godkendt, så den skal ikke behandles som reel omplacering uden afklaring.
+- Ved CLL/SLL-subtyperne findes kun modelforudsigelse og en plausibel CD20-mekanisme. Der er ingen forsøg eller litteratur i pakken, og pakken er derfor ikke tilstrækkelig til en beslutning.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/Danmarks SmPC-advarsler, kontraindikationer og DDI-data (DG001)
-- Verificeret virkningsmekanisme-dokumentation (DG002)
-- Bekræftelse af EU/EMA centraliseret markedsføringstilladelsestatus for obinutuzumab i Danmark
-- En opfølgende bevisesøgning ved hjælp af det bredere begreb "kronisk lymfocytært leukæmi/lille lymfocytært lymfom" for korrekt at evaluere rang 1–4 molekylære undertype-forudsigelser, som i øjeblikket viser nul bevis sandsynligvis på grund af for specifikt sygdomsnavn
+**For at komme videre skal følgende på plads:**
+- Indhent SmPC fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Det er et blokerende datahul.
+- Bekræft godkendelsesstatus i Danmark for follikulært lymfom og CLL, så reel omplacering kan skelnes fra eksisterende godkendte indikationer.
+- Hent oplysninger om virkningsmekanismen fra DrugBank.
+- Gentag evidenssøgningen for CLL/SLL med bredere søgetermer (overordnet CLL og stratificerede analyser) i stedet for de snævre subtypenavne.
+- Vurder administrationsvej og kompatibilitet (status er endnu ikke afklaret i pakken).
 
+---
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne fra TxGNN skal valideres klinisk, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

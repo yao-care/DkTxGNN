@@ -2,7 +2,7 @@
 layout: default
 title: Luspatercept
 parent: Kun modelforudsigelse (L5)
-nav_order: 272
+nav_order: 273
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Luspatercept: Fra uspecificeret indikation til Monosomi X
+# Luspatercept: Fra anæmi ved beta-thalassæmi og myelodysplastisk syndrom til monosomi X
 
-## Resumé på én sætning
+## Resumé
 
-Luspatercepts (DrugBank DB12281) oprindelige indikation og virkningsmekanisme er ikke dokumenteret i den aktuelle bevispacke. TxGNN-modellen forudsiger potentiel relevans til **Monosomi X**, men denne retning er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer**, og den mekanistiske begrundelse for denne specifikke kombination er endnu ikke etableret i den underliggende analyse.
+Luspatercept (handelsnavn Reblozyl) er et ActRIIB-Fc-fusionsprotein, der er markedsført i Danmark. Det bruges til anæmi ved beta-thalassæmi og myelodysplastiske syndromer. Indikationen fremgår ikke af den danske registrering, men af modellens begrundelse.
+TxGNN-modellen forudsiger, at det kan have effekt ved **monosomi X** (Turners syndrom), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke dokumenteret i bevispacke |
-| Forudsagt ny indikation | Monosomi X |
-| TxGNN-forudsigelsesscore | 96.00% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke på markedet |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Vent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering. Anæmi ved beta-thalassæmi og myelodysplastiske syndromer er angivet i modellens begrundelse |
+| Forudsagt ny indikation | Monosomi X (Turners syndrom) |
+| TxGNN-forudsigelsesscore | 96,0 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme for luspatercept er i øjeblikket ikke tilgængelige i denne bevispacke, og ingen oprindelig indikation er registreret til sammenligning. Uden nogen af disse kan det mekanistiske forhold mellem luspatercept og Monosomi X ikke vurderes — begrundelsesfeltet for denne specifikke forudsigelse er endnu ikke blevet udfyldt af analysepipelinen.
+Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ud fra almen viden er luspatercept et ActRIIB-Fc-fusionsprotein, der binder ligander i TGF-beta-superfamilien (fx GDF11 og activin B). Det fremmer den sene modning af erytroide celler. Det er dokumenteret ved anæmi ved beta-thalassæmi og myelodysplastiske syndromer.
 
-For kontekst blev andre TxGNN-forudsagte indikationer for dette lægemiddel i samme gruppe (hepatisk infarkt, hepatisk veno-okklusiv sygdom, peliosis hepatis, syndrom med kombineret immundefekt) eksplicit gennemgået og modtog en **vent**-anbefaling, hvor reviewerne bemærkede svag eller fraværende mekanistisk plausibilitet i forhold til luspatercepts kendte biologi (en aktivin/GDF-vej-ligand-fælde, der virker på sen-fase erytroid modning). Dette tyder på, at hele forudsigelsesgruppen for dette lægemiddel bør behandles med forsigtighed, indtil mekanismereview er gennemført for den højest rangerede kandidat også.
+Monosomi X er en kromosomforstyrrelse, og der er ingen kendt afhængighed af denne signalvej. Der er derfor **ikke identificeret nogen troværdig mekanistisk sammenhæng**. Scoren på 0,96 er en ren graf-baseret forudsigelse og kan afspejle artefakter i grafens topologi.
 
-Der eksisterer i øjeblikket ingen kliniske forsøg eller litteratur for luspatercept–Monosomi X-parringen, så forudsigelsen hviler udelukkende på TxGNN-modellens score på dette tidspunkt.
+Modellen har desuden foreslået flere andre indikationer med lignende score. Ingen af dem har kliniske forsøg eller litteratur:
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
-
----
-
-## Litteraturbevis
-
-Der er i øjeblikket ingen tilgængelig relateret litteratur.
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Hepatisk infarkt | 95,7 % | Ingen terapeutisk begrundelse. Luspatercept har en mærket risiko for tromboemboli, så der kan være et sikkerhedsproblem |
+| Hepatisk veno-okklusiv sygdom | 94,9 % | Kun spekulativ forbindelse via TGF-beta/activin og endotelskade |
+| Peliosis hepatis | 94,8 % | Forbindelsen skyldes sandsynligvis, at sygdommen optræder sammen med luspaterceptets godkendte patientgrupper |
+| Syndrom med kombineret immundefekt | 94,3 % | Ingen plausibel sammenhæng. Sygdommen skyldes defekter i T- og B-celler |
 
 ---
 
-## Markedsoplysninger for Danmark
+## Kliniske forsøg
 
-Luspatercept har i øjeblikket ingen markedsføringstilladelser i Danmark (markedsstatus: **Ikke på markedet**). Ingen doseringsformer, produktnavne eller licenserede indikationer er registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteratur
 
-Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsoplysninger.
+Der foreligger i øjeblikket ingen relateret litteratur.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106269119 | Reblozyl (Bristol-Myers Squibb Pharma EEIG) | Pulver til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+- **Lægemiddelinteraktioner**: Der blev ikke fundet interaktionsdata for luspatercept i den anvendte kilde.
+- **Tromboembolisk risiko**: Ifølge modellens begrundelse har luspatercept en mærket tromboembolisk risiko i nogle patientgrupper. Det er især relevant for forudsigelsen om hepatisk infarkt.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den højest rangerede forudsigelse (Monosomi X) har ingen understøttende kliniske forsøg eller litteratur (Bevisniveau L5) og dens mekanistiske begrundelse er endnu ikke dokumenteret. Kombineret med fraværet af data om virkningsmekanisme, fraværet af dansk markedstilstedeværelse og en kritisk datakløft vedrørende regulatoriske sikkerhedsadvarsler/kontraindikationer, er der i øjeblikket utilstrækkelig grund til at fremme denne kandidat.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er ingen troværdig mekanistisk sammenhæng mellem ActRIIB-ligandfangst og monosomi X. De øvrige forudsagte indikationer mangler også evidens, og for hepatisk infarkt kan der være et sikkerhedsproblem.
 
-**For at fortsætte kræves følgende:**
-- SmPC/regulatoriske advarsler og kontraindikationer (kritisk kløft — påkrævet før enhver foreløbig sikkerhedsvurdering)
-- Data om virkningsmekanisme (MOA) for luspatercept
-- En gennemført mekanistisk begrundelse for Monosomi X-forudsigelsen specifikt (i øjeblikket markeret som afventende)
-- Eventuelle nye kliniske forsøgs- eller litteraturbevis for denne lægemiddel-sygdom-kombination
-- I betragtning af at relaterede forudsigelser i denne gruppe (hepatisk infarkt, VOD, peliosis hepatis, kombineret immundefekt) allerede blev vurderet som mekanistisk usandsynlige, en dedikeret plausibilitetsvurdering af Monosomi X-forudsigelsen før yderligere investering
+**For at gå videre kræves:**
+- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Uden dem kan sikkerhedsscreeningen ikke gennemføres.
+- Data om virkningsmekanisme (MOA) fra DrugBank.
+- Den godkendte danske indikationstekst for Reblozyl.
+- En litteratur- og forsøgsgennemgang med målrettet søgning efter data om luspatercept ved monosomi X, før en eventuel ny vurdering.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

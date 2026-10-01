@@ -2,7 +2,7 @@
 layout: default
 title: Icodextrin
 parent: Kun modelforudsigelse (L5)
-nav_order: 221
+nav_order: 222
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Icodextrin: Fra Peritoneal Dialyse til Irritabel Tarmøjsyge
+# Icodextrin: Fra peritonealdialyse til irritabel tarm-syndrom
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Icodextrin er en stor-molekylær glucosepolymer, der bruges som et osmotisk middel i peritoneal dialyse-opløsninger (intraperitonealt væske/ultrafiltration for patienter med nyresvigt). TxGNN-modellen forudsiger en mulig forbindelse til **Irritabel Tarmøjsyge (IBS)**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske vurdering markerer det som biologisk usandsynligt og muligvis en vidensgraf-kunstiggørelse snarere end et reelt repurposing-signal.
+Icodextrin er et glukosepolymer-baseret osmotisk middel, som oprindeligt anvendes i peritonealdialyse.
+TxGNN-modellen forudsiger, at det kan have effekt ved **irritabel tarm-syndrom (IBS)**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på en modelbaseret vurdering.
 
 ---
 
-## Hurtig Oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original Indikation | Peritoneal dialyse (osmotisk ultrafiltrationsmiddel) — ingen formel indikationstekst er tilgængelig i evidenspakken, og medicinen har i øjeblikket ingen dansk markedsføringstilladelse |
-| Forudsagt Ny Indikation | Irritabel Tarmøjsyge |
-| TxGNN Forudsigelse Score | 98.53% |
-| Evidensniveau | L5 (modelforudsigelse alene, ingen understøttende forsøg eller litteratur) |
-| Danmarkmarkedsstatus | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Afgørelse | Anhold |
+|------|------|
+| Oprindelig indikation | Peritonealdialyse (indikationsteksten er ikke angivet i registreringen; udledt af lægemiddelformen peritonealdialysevæske) |
+| Forudsagt ny indikation | Irritabel tarm-syndrom |
+| TxGNN-forudsigelsesscore | 98,53 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor Er Denne Forudsigelse Rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede virkningsmekanisme-data for icodextrin er ikke tilgængelige i denne evidenspakke. Baseret på de tilgængelige oplysninger er icodextrin et stor-molekylært (stivelsesafledt) osmotisk middel administreret intraperitonealt som en peritoneal dialyse-opløsning. Det absorberes i det væsentlige ikke i systemisk kredsløb og har ingen etableret farmakologi relevant for tarmbeægelse, visceral sensibilitet eller tarm-hjerne-aksen — de kernepathofysiologiske veje impliceret i IBS.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen (MOA). Ud fra kendt information er icodextrin en glukosepolymer, der virker som kolloidt osmotisk middel i peritonealdialyse. Der er ikke påvist en sammenhæng mellem denne virkning og patofysiologien ved irritabel tarm-syndrom.
 
-Der er ingen kendt mekanistisk forbindelse mellem peritoneal dialyse (en væske-fjernelse/nyreerstatningsterapi) og IBS (en funktionel gastrointestinal motilitets-/sensibilitetsforstyrelse). Modellens egen repurposing-rationel anerkender eksplicit dette hul og bemærker, at forbindelsen "ikke kan udelukke at være et højscorings-falskt signal forårsaget af komorbiditet eller knudenærheds-effekter i vidensgraf," snarere end en ægte, biologisk begrundet behandlingshypotese.
+Forudsigelsen er udelukkende genereret af en vidensgraf (score 0,985). Der er ikke identificeret en farmakologisk mekanisme, der forbinder en dialyse-osmotisk polymer med de funktionelle tarmforstyrrelser ved IBS, og forudsigelsen bør derfor betragtes som en ren hypotese.
 
-I betragtning af fraværet af oprindelige MOA-dokumentation, nul understøttende kliniske forsøg og nul understøttende litteratur, bør denne forudsigelse behandles som et hypotesegenererings-signal alene, ikke som en kandidat klar til yderligere farmakologisk eller klinisk evaluering på nuværende tidspunkt.
+De øvrige forudsigelser i evidenspakken er lige så svagt underbygget (alle L5, Hold, uden forsøg eller litteratur):
 
----
-
-## Evidens fra Kliniske Forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra Litteratur
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+- **Non-syndromisk øsofagusmalformation** (score 97,41 %): en strukturel medfødt tilstand, som et osmotisk dialysemiddel næppe kan påvirke.
+- **C1-inhibitormangel** (score 97,29 %): ingen kendt kobling til C1-esteraseinhibitorfunktion eller til komplement- og kallikrein-kinin-systemet.
+- **Kaliummangel** (score 97,19 %): peritonealdialyse kan i sig selv medføre kaliumtab, så denne retning kræver en sikkerhedsvurdering, før den overvejes yderligere.
+- **Serpinopati med toksisk serpinpolymerisering** (score 97,06 %): ingen kendt sammenhæng med serpin-fejlfoldning eller polymerisering; enhver hypotese vil være spekulativ.
 
 ---
 
-## Danmarkmarkedsinformation
+## Evidens fra kliniske forsøg
 
-Ingen danske markedsføringstilladelser er i øjeblikket på fil for Icodextrin. Markedsstatus registreres som **Ikke markedsført**, med **0** registrerede tilladelser, så ingen godkendt indikationstekst er tilgængelig til sammenligning.
-
----
-
-## Sikkerhedshensyn
-
-Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Ingen strukturerede advarsler, kontraindikationer eller lægemiddel-interaktionsdata er i øjeblikket tilgængelige for denne kandidat.
+Der er i øjeblikket ikke registreret nogen relaterede kliniske forsøg.
 
 ---
 
-## Konklusion og Næste Skridt
+## Litteraturevidens
 
-**Afgørelse: Anhold**
+Der foreligger i øjeblikket ingen relateret litteratur.
 
-**Rationel:**
-- Evidensniveauet er L5 — dette er en modelforudsigelse uden understøttende kliniske forsøg eller litteratur, og medicinerens egen mekanistiske rationel argumenterer imod biologisk plausibilitet (et ikke-absorberet, intraperitonealt osmotisk middel har ingen kendt vej relevant for IBS).
-- Et **blokerend datahul** findes (TFDA/SmPC-etiket-advarsler og kontraindikationer mangler), som i sig selv forhindrer denne kandidat i at komme ind i selv en indledende (S1) sikkerhedsevaluering.
-- Fire andre TxGNN-forudsagte indikationer for icodextrin (ikke-syndromisk spiserørsmisdannelse, C1-inhibitor-mangel, kaliummangelsygdom og serpinopati med toksisk serpinpolymerisering) blev også returneret ved lignende høje scores, men blev vurderet efter samme vurderingskriterier som mekanistisk usandsynlige, eller i tilfældet med den strukturelle spiserørsmisdannelse, ikke en medicin-behandlelig tilstand overhovedet — hvilket forstærker, at disse signaler sandsynligvis afspejler vidensgraf-knudenærheds-effekter snarere end ægte farmakologiske relationer.
+---
 
-**For at fortsætte, er følgende nødvendigt:**
-- Indhentede SmPC/etiket-advarsler og kontraindikationer (i øjeblikket et blokerend datahul)
-- Dokumenteret virkningsmekanisme (i øjeblikket et højsværhedsgrad-datahul)
-- Uafhængig verifikation af, hvorvidt IBS-signalet afspejler en sand farmakologisk hypotese eller en vidensgraf-kunstiggørelse, før nogen præklinisk eller litteratur-opfølgning påbegyndes
-- Bekræftelse af dansk markedsføringstilladelse status før yderligere regulerings- eller klinisk planlægning, da medicinen i øjeblikket ikke markedsføres i Danmark
+## Markedsinformation for Danmark
 
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101876197 | Extraneal (Vantive ApS) | Peritonealdialysevæske | Ikke angivet i registreringen |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Forudsigelsen har den højeste score (98,53 %), men er udelukkende modelbaseret (L5). Der er ingen kliniske forsøg eller publikationer og ingen kendt virkningsmekanisme, der forbinder icodextrin med IBS. Sikkerhedsdata fra produktresuméet mangler, så det næste screeningstrin kan ikke gennemføres.
+
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- En litteratur- og forsøgssøgning med fokus på icodextrin og IBS
+- Vurdering af administrationsvej: icodextrin gives intraperitonealt, og kompatibiliteten med en IBS-behandling er ikke afklaret
+- En sikkerhedsvurdering af kaliumtab, hvis kaliummangel overvejes yderligere
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til repurposing kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

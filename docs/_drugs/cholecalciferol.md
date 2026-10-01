@@ -2,7 +2,7 @@
 layout: default
 title: Cholecalciferol
 parent: Kun modelforudsigelse (L5)
-nav_order: 109
+nav_order: 110
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cholecalciferol: Fra D-vitaminmangel til familial isoleret hypoparatyroidisme på grund af nedsat PTH-sekretion
+# Cholecalciferol: Fra D-vitamin til familiær isoleret hypoparathyroidisme
 
----
+## Resumé
 
-## Sammenfatning på én sætning
+Cholecalciferol (D-vitamin, D3) er en forstadie til den aktive form calcitriol og reguleres i kroppens calcium- og fosfatstofskifte. Der er ikke angivet en godkendt indikation i de tilgængelige danske data.
+TxGNN-modellen forudsiger, at det kan have effekt ved **familiær isoleret hypoparathyroidisme pga. nedsat PTH-sekretion**.
+Der er dog **0 kliniske forsøg** og **0 publikationer** specifikt for denne sygdom, så forudsigelsen bygger alene på modellen.
 
-Cholecalciferol (D-vitamin 3) er et fedtopløseligt secosteroidvitamin, der vidt bruges til forebyggelse og behandling af D-vitaminmangel og understøtter kalciumhomøostase, benvideralisering og muskuloskeletal sundhed.
-TxGNN-modellen forudsiger, at det kan være effektivt for **familial isoleret hypoparatyroidisme på grund af nedsat PTH-sekretion** med en prognosegrad på **99.79%**.
-I øjeblikket er der **ingen kliniske forsøg** og **ingen publikationer**, der specifikt omhandler denne lægemiddel-indikationskombination, hvilket giver et evidensniveau på **L5** (kun modelforudsigelse).
+## Hurtigt overblik
 
----
-
-## Hurtig oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Original indikation | Ikke formelt registreret i Danmark; brugt internationalt til D-vitaminmangel, rachitis og forstyrrelser af kalcium- og fosforforbrug |
-| Forudsagt ny indikation | Familial isoleret hypoparatyroidisme på grund af nedsat PTH-sekretion |
-| TxGNN prognosegrad | 99.79% |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Familiær isoleret hypoparathyroidisme pga. nedsat PTH-sekretion |
+| TxGNN-forudsigelsesscore | 99,79 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ikke detaljerede data om virkningsmekanismen. Cholecalciferol er en forstadie til calcitriol og bruges generelt til at behandle hypocalcæmi, herunder ved hypoparathyroidisme. Mekanistisk kan det derfor tænkes at være relevant for den forudsagte indikation.
 
-For tiden er detaljerede mekanismedata ikke tilgængelige i dette datasæt. Baseret på etableret farmakologisk viden er cholecalciferol (D-vitamin 3) den naturlige forløber for det aktive hormon calcitriol (1,25-dihydroxyvitamin D). Det gennemgår to sekventielle hydroxyleringsskrin: først i leveren (hvilket producerer 25-hydroxyvitamin D, eller calcidiol) og derefter i nyrerne (hvilket producerer 1,25-dihydroxyvitamin D, eller calcitriol). Calcitriol virker gennem vitaminD-receptoren (VDR) for at fremme intestinal kalciumabsorption, øge nyrernes tubulare kalciumreabsorption og understøtte benvideralisering.
+Ved PTH-mangel er nyrernes 1-alfa-hydroxylering imidlertid nedsat. Nativt D-vitamin er derfor en svag behandlingsvej, fordi det ikke effektivt omdannes til den aktive form. Aktive analoger (calcitriol, alfacalcidol) foretrækkes normalt.
 
-Familial isoleret hypoparatyroidisme på grund af nedsat PTH-sekretion er kendetegnet ved utilstrækkelig PTH-produktion, som resulterer i hypocalcæmi og hyperfosfatæmi. Under normal fysiologi stimulerer PTH renalt 1α-hydroxylase-enzym, som driver omdannelsen af calcidiol til aktivt calcitriol. Når PTH er mangelfyldt, er dette aktiveringsskrin svækket. Cholecalciferols nedstrøms metabolit, calcitriol, kan i princippet delvist kompensere for PTH-mangel ved direkte at fremme intestinal kalciumabsorption og nyrernes kalciumretention via VDR-signalering, og derved give en vis grad af symptomatisk korrektion af hypocalcæmi.
+Den meget høje score afspejler sandsynligvis, at sygdommen ligger tæt på calcium- og D-vitaminveje i videngrafen, snarere end et valideret repurposing-signal.
 
-Dog er det mekanistiske sammenhæng indirekt og begrænset. Cholecalciferol er en distal forløber, og dets omdannelse til calcitriol er selv afhængig af PTH-drevet 1α-hydroxylase-aktivitet — det samme skrin, som er kompromitteret i denne tilstand. I klinisk praksis er aktive vitaminD-analoger såsom calcitriol eller alfacalcidol, som helt omgår det svækkede nyre-hydroxyleringsskrin, den etablerede standard for hypoparatyroidisme-behandling. Cholecalciferols relevans her er derfor mekanistisk plausibel, men væsentligt svækket af dårlig omdannelseseffektivitet i et lavt-PTH-miljø, hvilket gør det til en understøttende snarere end primær terapeutisk kandidat.
+## Klinisk evidens
 
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-## Evidens fra kliniske forsøg
+## Litteraturevidens
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
----
+## Information om det danske marked
 
-## Litteratureviddens
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| MA 28105565615 | Benferol (Consilient Health Limited) | Kapsler, bløde | Ikke angivet i de tilgængelige data |
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+## Sikkerhedsovervejelser
 
----
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-## Markedsinformation for Danmark
+## Konklusion og næste skridt
 
-Cholecalciferol er i øjeblikket ikke registreret som et receptpligtigt lægemiddel af Lægemiddelstyrelsen. Der er ingen nationale eller centraliserede (EMA) markedsføringstilladelser registreret i Danmark. Cholecalciferol er tilgængeligt i Danmark som ikke-receptpligtigt kosttilskud eller vitaminpræparat, hvilket ligger uden for omfanget af standardlægemiddelregistrering.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendt produktresuméblad (SmPC) for sikkerhedsinformation.
-
----
-
-## Konklusion og næste trin
-
-**Beslutning: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-modellen tildeler en høj prognosegrad baseret på mekanistisk vejproximititet (VDR-medieret kalciumhomøostase), men der er ingen understøttende klinisk forsøgs- eller publiceret litteraturevidence for cholecalciferol specifikt i familial isoleret hypoparatyroidisme på grund af nedsat PTH-sekretion. Kernemekanismebegrænsningen — svækket cholecalciferol-til-calcitriol-omdannelse i et lavt-PTH-miljø — betyder, at aktive vitaminD-analoger er klinisk at foretrække, og direkte evidens for cholecalciferol i denne sjældne genetiske tilstand er helt fraværende.
+Forudsigelsen er ren modelforudsigelse (evidensniveau L5) uden forsøg eller litteratur for netop denne sygdom. Biologien taler desuden imod nativt D-vitamin ved PTH-mangel, hvor aktive analoger er førstevalg.
 
-**For at gå videre er følgende nødvendigt:**
-- Indhentelse af detaljerede MOA-data fra DrugBank (DB00169) for formelt at bekræfte det mekanistiske rationale
-- En målrettet litteraturgennemgang for case reports eller mekanistiske undersøgelser, som evaluerer cholecalciferol (ikke blot aktive analoger) i PTH-deficiente miljøer
-- Farmakokinetisk/farmakodynamisk modellering af calcitriol-omdannelseshastigheder, som kan opnås under lavt-PTH-forhold med højtdosis cholecalciferol-supplementering
-- Rådføring med danske endokrinologer/specialister inden for sjældne sygdomme for at vurdere, hvorvidt nogen patienter med denne tilstand i øjeblikket styres med cholecalciferol off-label
-- Gennemgang af EMA/Lægemiddelstyrelsen-produktinformation for calcitriol og alfacalcidol for at vurdere regulatorisk præcedens for aktivt-vitaminD-brug i denne indikation og informere enhver fremtidig ansøgningsstrategi
+**For at komme videre kræves:**
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (mangler, og blokerer sikkerhedsscreeningen)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sygdomsspecifik evidens, fx en sammenligning mellem cholecalciferol og aktive D-vitaminanaloger ved hypoparathyroidisme
+- Bemærk: Andre forudsigelser i pakken, fx hypofosfatæmisk rakitis (score 99,20 %, evidensniveau L4), er biologisk mere sammenhængende. De understøttes dog primært af forsøg med burosumab, ikke cholecalciferol, og er ikke nye repurposing-fund, da aktivt D-vitamin allerede er standardbehandling.
 
-> **Bemærk for revisor:** Blandt alle TxGNN-forudsigelser for dette lægemiddel har **hypofosfattæmisk rachitis** (TxGNN-grad 99.20%, evidensniveau L3) væsentligt stærkere understøttende evidens — herunder 1 afsluttet fase 3 RCT med aktivt vitaminD som en sammenligninglegsgruppe og flere kliniske serier. Hvis dette genfundsprogram skrider frem til en højere-prioritet-gennemgang, kan hypofosfattæmisk rachitis repræsentere en mere handlingsdygtig nær-termins-kandidat end den toprangerede familial hypoparatyroidisme-forudsigelse.
-
----
-
-*Denne rapport er genereret til forskningsreference-formål og udgør ikke medicinsk rådgivning. Alle lægemiddelgenfundskandidater kræver klinisk validering før anvendelse.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

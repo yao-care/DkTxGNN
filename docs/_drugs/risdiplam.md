@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Kun modelforudsigelse (L5)
-nav_order: 382
+nav_order: 383
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Risdiplam: Fra spinale muskulær atrofi til acne (TxGNN-toprangeret prognose)
+# Risdiplam: Fra spinal muskelatrofi til akne
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-Risdiplam er en SMN2 præ-mRNA-splicing-modulator, der bruges til behandling af spinale muskulær atrofi (SMA); detaljerede virkningsmekanisme-data er formelt registreret som en datakløft i denne evidenspakke.
-TxGNN-modellens topprognose er **Acne (sygdom)** med en **99,45%**-score, men dette er et rent model-prognostilfælde: **0 kliniske forsøg** og **0 publikationer** støtter nogen af de fem prognostiserede indikationer, og pakkens egen mekanistiske gennemgang markerer de høje score som sandsynlige artefakter af hub-sygdom-bias i knowledge-graphen snarere end ægte biologiske signal.
-
----
-
-## Hurtig oversigt
-
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Spinale muskulær atrofi (SMA) — refereret i evidenspakkens begrundelse; formelt MOA-rekord er en datakløft |
-| Prognostiseret ny indikation | Acne (sygdom) |
-| TxGNN-prognosescore | 99,45% |
-| Evidensniveau | L5 (kun modelprognose, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Udsæt |
+Risdiplam er en lille molekyle-modulator af SMN2-præ-mRNA-splejsning og er godkendt til spinal muskelatrofi (SMA).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **akne**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Forudsigelsen er derfor ren modelspekulation og bør ikke føre til klinisk anvendelse.
 
 ---
 
-## Hvorfor er denne prognose rimelig?
+## Hurtigt overblik
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (formelt registreret som en datakløft, DG002). Baseret på de oplysninger, der er tilgængelige i denne evidenspakke, kendes risdiplam som en SMN2 præ-mRNA-splicing-modulator, som øger funktionelt SMN-protein i motorneuroner til behandling af spinale muskulær atrofi — en mekanisme centreret omkring neuromuskulær biologi.
-
-Ingen af de fem TxGNN-prognostiserede indikationer i denne pakke (acne, lægemiddelinduceret osteoporose, forhøjet plasma-zink, almindelig vorte, metastatisk melanom) har en etableret mekanistisk forbindelse til SMN2 splicing-modulering. Evidenspakkens egen begrundelse er eksplicit om dette: den henregner de ensartet høje TxGNN-score (97–99%) til sandsynlig **hub-sygdom-bias** i knowledge-graphen — dvs., disse sygdomme kan simpelt hen være meget forbundne knudepunkter, som modtager forhøjede score på tværs af mange lægemidler, snarere end ægte lægemiddel-sygdom-biologi.
-
-I betragtning af fraværet af MOA-data, fraværet af nogen understøttende kliniske forsøg eller litteratur, og modellens eget markerede bekymring om hub-bias, bør dette kandidatsæt behandles som kun undersøgende modeloutput, ikke som en mekanistisk understøttet genopbrugs-hypotese.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Spinal muskelatrofi (SMA). Indikationsteksten er ikke angivet i det danske registreringsdata. |
+| Forudsagt ny indikation | Akne |
+| TxGNN-forudsigelsesscore | 99,45 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Bevis fra litteratur
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger ingen detaljerede data om virkningsmekanismen i datapakken. Risdiplam er kendt som en SMN2-præ-mRNA-splejsningsmodulator, der fremmer inklusion af exon 7. Dette er udviklet specifikt til SMA.
+
+Der er ingen etableret mekanistisk forbindelse mellem SMN2-splejsning og aknes patofysiologi (talgproduktion, *C. acnes*-kolonisering, follikulær inflammation). Den høje score (0,995) er udelukkende en forudsigelse fra en vidensgraf og er ikke bekræftet af prækliniske, kliniske eller litteraturbaserede data. Scoren kan afspejle grafens topologi snarere end biologisk sammenhæng.
+
+### Øvrige forudsigelser (samme evidensgrundlag)
+
+Inputtet indeholder dubletter. Hver indikation er her talt som én post. Ingen af dem har forsøg eller litteratur.
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk link |
+|------|------|------|
+| Lægemiddelinduceret osteoporose | 97,72 % | Intet understøttende link. Knoglesundhed er en komorbiditet ved SMA, men det viser ikke, at lægemidlet behandler osteoporose. |
+| Forhøjet plasmazink | 97,32 % | Laboratoriefænotype, ikke et klinisk sygdomsmål. Ingen kendt forbindelse til splejsningsmodulation. |
+| Almindelig vorte | 97,21 % | Forårsaget af HPV. Risdiplam har ingen kendt antiviral eller immunmodulerende aktivitet mod HPV. |
+| Metastatisk melanom | 96,84 % | Kun en spekulativ, indirekte begrundelse (afvigende splejsning ved cancer). Risdiplams off-target-splejsningseffekter ville kræve grundig sikkerhedsvurdering. |
 
 ---
 
-## Markedsinformation for Danmark
+## Klinisk evidens
 
-Risdiplam har i øjeblikket ingen markedsføringstilladelser i Danmark (0 licenser på rekord; markedsstatus: Ikke markedsført). Ingen produkt-/doseringsform-/indikation-data er tilgængelige til tabelering.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-*(Bemærk: TFDA-/etiket-advarsler og kontraindikationer er registreret som en **Blokering**-datakløft (DG001) — dette forhindrer en formel fase 1-sikkerhedsvurdering på forstadiet.)*
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107163724 | Evrysdi (Roche Registration GmbH) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
+
+Administrationsvej: oral.
+
+---
+
+## Sikkerhedsovervejelser
+
+- **Lægemiddelinteraktioner**: Der blev ikke fundet interaktionsdata for risdiplam i den anvendte kilde.
+
+Der foreligger ingen oplysninger om advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Udsæt**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle fem prognostiserede indikationer befinder sig på beslutningsstadium S0 med evidensniveau L5 — kun modelprognose, med nul kliniske forsøg, nul publikationer og ingen plausibel mekanistisk forbindelse identificeret. En blokerende datakløft på etiket-advarsler/kontraindikationer forhindrer derudover nogen sikkerhedsvurdering på forstadiet.
+Forudsigelsen om akne hviler udelukkende på en modelscore (evidensniveau L5) uden forsøg, litteratur eller plausibel mekanisme. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer det videre sikkerhedsscreeningstrin.
 
-**For at komme videre er følgende nødvendigt:**
-- TFDA-/regulatoriske etiket-advarsler og kontraindikationer (blokerende kløft, påkrævet før nogen fase 1-sikkerhedsvurdering)
-- Bekræftet virkningsmekanisme (MOA) data fra DrugBank eller primær litteratur
-- Uafhængig verifikation af, hvorvidt de høje TxGNN-score afspejler ægte signal eller hub-sygdom-bias (f.eks. sammenlign score-fordeling mod kendte hub-sygdomme)
-- Eventuel præklin eller case-niveau evidens, der forbinder SMN2 splicing-modulering til de prognostiserede indikationer før yderligere investering
+**For at komme videre kræves:**
+- Hentning og gennemgang af advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé
+- Data om risdiplams virkningsmekanisme (fx via DrugBank)
+- Prækliniske eller mekanistiske data, der kan forbinde SMN2-splejsning med aknes patofysiologi
+- Vurdering af administrationsvejens egnethed (oral tablet) for akne
+- Hvis kandidaterne skal forfølges, bør man vurdere, om scoren afspejler grafartefakter, før der investeres yderligere
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til ny anvendelse skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

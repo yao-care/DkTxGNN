@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-28T14:13:30.785425+00:00",
-  "drug_count": 970,
-  "indication_count": 3618,
+  "generated": "2026-10-01T23:20:07.983501+00:00",
+  "drug_count": 972,
+  "indication_count": 3590,
   "drugs": [
     {
       "name": "Abatacept",
       "slug": "abatacept",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid vasculitis",
@@ -76,7 +76,7 @@
       "slug": "acalabrutinib",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L2",
       "indications": [
         {
           "name": "lymphoma, non-Hodgkin, familial",
@@ -101,6 +101,20 @@
         {
           "name": "thyroid gland mucosa-associated lymphoid tissue lymphoma",
           "score": 93.76,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Acetaminophen",
+      "slug": "acetaminophen",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": [
+        {
+          "name": "migraine with brainstem aura",
+          "score": 99.15,
           "level": "L5"
         }
       ]
@@ -219,7 +233,7 @@
       "slug": "acitretin",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "acne (disease)",
@@ -248,7 +262,7 @@
       "slug": "adalimumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid vasculitis",
@@ -282,7 +296,7 @@
       "slug": "afatinib",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "HER2 positive breast carcinoma",
@@ -418,7 +432,7 @@
       "slug": "alemtuzumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "hepatic infarction",
@@ -520,7 +534,7 @@
       "slug": "alirocumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "ichthyosis, X-linked, without steroid sulfatase deficiency",
@@ -719,7 +733,7 @@
       "slug": "alteplase",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "posterolateral myocardial infarction",
@@ -787,7 +801,7 @@
       "slug": "ambrisentan",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "pulmonary arteriovenous malformation (disease)",
@@ -936,7 +950,7 @@
       "slug": "anakinra",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "extracutaneous mastocytoma",
@@ -1072,7 +1086,7 @@
       "slug": "apixaban",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine disorder",
@@ -1106,7 +1120,7 @@
       "slug": "apremilast",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "migraine disorder",
@@ -1224,7 +1238,7 @@
       "slug": "atenolol",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "posterolateral myocardial infarction",
@@ -1263,7 +1277,7 @@
       "slug": "atezolizumab",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "prostatic urethra urothelial carcinoma",
@@ -1373,7 +1387,7 @@
       "slug": "avelumab",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "human herpesvirus 8-related tumor",
@@ -1407,7 +1421,7 @@
       "slug": "axitinib",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "renal cell carcinoma associated with neuroblastoma",
@@ -1441,7 +1455,7 @@
       "slug": "baclofen",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "attention deficit-hyperactivity disorder",
@@ -1479,7 +1493,7 @@
       "slug": "basiliximab",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "plasma cell myeloma",
@@ -1589,7 +1603,7 @@
       "slug": "benralizumab",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "thrombocytopenia due to immune destruction",
@@ -1819,7 +1833,7 @@
       "slug": "bisoprolol",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "malignant renovascular hypertension",
@@ -1911,7 +1925,7 @@
       "slug": "brentuximab_vedotin",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "follicular lymphoma",
@@ -1984,7 +1998,7 @@
       "slug": "brivaracetam",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "visual epilepsy",
@@ -2139,7 +2153,7 @@
       "slug": "busulfan",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L2",
       "indications": [
         {
           "name": "myelodysplastic syndrome",
@@ -2246,7 +2260,7 @@
       "slug": "cabozantinib",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -2322,7 +2336,7 @@
       "slug": "canakinumab",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "hepatic infarction",
@@ -2356,7 +2370,7 @@
       "slug": "cannabidiol",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "restless legs syndrome",
@@ -2390,7 +2404,7 @@
       "slug": "caplacizumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "primary release disorder of platelets",
@@ -2458,7 +2472,7 @@
       "slug": "captopril",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "malignant hypertensive renal disease",
@@ -2506,7 +2520,7 @@
       "slug": "carboplatin",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L2",
       "indications": [
         {
           "name": "female breast carcinoma",
@@ -2948,7 +2962,7 @@
       "slug": "certolizumab_pegol",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid vasculitis",
@@ -3050,7 +3064,7 @@
       "slug": "chloramphenicol",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L2",
       "indications": [
         {
           "name": "conjunctivitis",
@@ -3134,7 +3148,7 @@
       "slug": "ciprofloxacin",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "diffuse scleroderma",
@@ -3176,7 +3190,7 @@
       "slug": "clarithromycin",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "hyperamylasemia",
@@ -3244,7 +3258,7 @@
       "slug": "clobazam",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "febrile infection-related epilepsy syndrome",
@@ -3278,7 +3292,7 @@
       "slug": "clonazepam",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "restless legs syndrome",
@@ -3302,7 +3316,7 @@
       "slug": "clopidogrel",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -3540,7 +3554,7 @@
       "slug": "cyanocobalamin",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "biotin metabolic disease",
@@ -3620,7 +3634,7 @@
       "slug": "darunavir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -3649,7 +3663,7 @@
       "slug": "dasatinib",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "Ewing sarcoma",
@@ -99467,7 +99481,7 @@
       "slug": "deferasirox",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "HIV infectious disease",
@@ -99509,7 +99523,7 @@
       "slug": "delamanid",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L4",
       "indications": [
         {
           "name": "tuberculosis, bovine",
@@ -99669,7 +99683,7 @@
       "slug": "diazepam",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L3",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -99742,7 +99756,7 @@
       "slug": "dienogest",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "amenorrhea (disease)",
@@ -99818,7 +99832,7 @@
       "slug": "docetaxel",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "female breast carcinoma",
@@ -99852,7 +99866,7 @@
       "slug": "dolutegravir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -99910,7 +99924,7 @@
       "slug": "doravirine",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -100052,7 +100066,7 @@
       "slug": "droperidol",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "Tourette syndrome",
@@ -100086,7 +100100,7 @@
       "slug": "dupilumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "bronchitis",
@@ -100188,7 +100202,7 @@
       "slug": "efavirenz",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -100504,7 +100518,7 @@
       "slug": "entecavir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "chronic hepatitis C virus infection",
@@ -100682,7 +100696,7 @@
       "slug": "erenumab",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -100696,7 +100710,7 @@
       "slug": "ertapenem",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L3",
       "indications": [
         {
           "name": "bacterial arthritis",
@@ -100746,7 +100760,7 @@
       "slug": "estriol",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "amenorrhea (disease)",
@@ -100760,7 +100774,7 @@
       "slug": "etanercept",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid vasculitis",
@@ -100896,7 +100910,7 @@
       "slug": "everolimus",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -101240,7 +101254,7 @@
       "slug": "fostamatinib",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "autosomal thrombocytopenia with normal platelets",
@@ -101274,7 +101288,7 @@
       "slug": "fremanezumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -101570,33 +101584,8 @@
       "slug": "gemfibrozil",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
-        {
-          "name": "Reumatoid artritis",
-          "score": 99.9,
-          "level": "L4"
-        },
-        {
-          "name": "Multipel endokrin neoplasi",
-          "score": 99.83,
-          "level": "L5"
-        },
-        {
-          "name": "HIV-infektionssygdom",
-          "score": 99.8,
-          "level": "L2"
-        },
-        {
-          "name": "Hypoalphalipoproteinæmi",
-          "score": 99.77,
-          "level": "L2"
-        },
-        {
-          "name": "Brachydaktylie-syndaktylie-syndrom",
-          "score": 99.77,
-          "level": "L5"
-        },
         {
           "name": "rheumatoid arthritis",
           "score": 99.9,
@@ -101637,7 +101626,7 @@
       "slug": "glucagon",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L5",
       "indications": [
         {
           "name": "irritable bowel syndrome",
@@ -101690,7 +101679,7 @@
       "slug": "golimumab",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid vasculitis",
@@ -101792,7 +101781,7 @@
       "slug": "guaifenesin",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L2",
       "indications": [
         {
           "name": "nasal cavity disease",
@@ -101928,7 +101917,7 @@
       "slug": "ibrutinib",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "polyclonal hypergammaglobulinemia",
@@ -102098,7 +102087,7 @@
       "slug": "idelalisib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "mantle cell lymphoma",
@@ -102166,38 +102155,8 @@
       "slug": "iloprost",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
-        {
-          "name": "HIV-associeret PAH",
-          "score": 99.21,
-          "level": "L1"
-        },
-        {
-          "name": "PAH associeret med bindevævssygdom",
-          "score": 99.21,
-          "level": "L3"
-        },
-        {
-          "name": "PAH associeret med medfødt hjertesygdom",
-          "score": 99.32,
-          "level": "L3"
-        },
-        {
-          "name": "Pulmonal arteriovenøs malformation",
-          "score": 99.31,
-          "level": "L4"
-        },
-        {
-          "name": "Medfødt hårlødhed milia",
-          "score": 99.33,
-          "level": "L5"
-        },
-        {
-          "name": "Hårlødhed simplex af scalp",
-          "score": 99.45,
-          "level": "L5"
-        },
         {
           "name": "hypotrichosis simplex of the scalp",
           "score": 99.45,
@@ -102269,7 +102228,7 @@
       "slug": "imiglucerase",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "Hurler syndrome",
@@ -102444,7 +102403,7 @@
       "slug": "inotersen",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "acute intermittent porphyria",
@@ -102828,7 +102787,7 @@
       "slug": "ipilimumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "choroideremia",
@@ -102943,7 +102902,7 @@
       "slug": "ivacaftor",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "rheumatoid arthritis",
@@ -103176,7 +103135,7 @@
       "slug": "laronidase",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L4",
       "indications": [
         {
           "name": "lysosomal storage disease with skeletal involvement",
@@ -103351,7 +103310,7 @@
       "slug": "lenvatinib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L3",
       "indications": [
         {
           "name": "liposarcoma",
@@ -103419,7 +103378,7 @@
       "slug": "levetiracetam",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L4",
       "indications": [
         {
           "name": "visual epilepsy",
@@ -103477,7 +103436,7 @@
       "slug": "levonorgestrel",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "acne (disease)",
@@ -103642,7 +103601,7 @@
       "slug": "lorazepam",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "trigeminal nerve neoplasm",
@@ -103720,7 +103679,7 @@
       "slug": "lornoxicam",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid arthritis",
@@ -104081,7 +104040,7 @@
       "slug": "melphalan",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "gonadal germ cell tumor",
@@ -104149,7 +104108,7 @@
       "slug": "meropenem",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "bacterial arthritis",
@@ -104183,7 +104142,7 @@
       "slug": "methoxsalen",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "localized pagetoid reticulosis",
@@ -104285,7 +104244,7 @@
       "slug": "midazolam",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -104383,7 +104342,7 @@
       "slug": "minoxidil",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "hypotrichosis simplex of the scalp",
@@ -104451,7 +104410,7 @@
       "slug": "misoprostol",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "amenorrhea (disease)",
@@ -104504,7 +104463,7 @@
       "slug": "modafinil",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "insomnia (disease)",
@@ -104837,7 +104796,7 @@
       "slug": "nicorandil",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "benign prostatic hyperplasia (disease)",
@@ -104871,7 +104830,7 @@
       "slug": "nitrazepam",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "sleep disorder, initiating and maintaining sleep",
@@ -104895,7 +104854,7 @@
       "slug": "nitrofurantoin",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "rheumatoid arthritis",
@@ -104929,7 +104888,7 @@
       "slug": "nivolumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "non-cutaneous melanoma",
@@ -105100,7 +105059,7 @@
       "slug": "obinutuzumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
@@ -105158,7 +105117,7 @@
       "slug": "ofatumumab",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
@@ -105192,7 +105151,7 @@
       "slug": "olaparib",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "female breast carcinoma",
@@ -105226,7 +105185,7 @@
       "slug": "olodaterol",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "bronchitis",
@@ -105245,7 +105204,7 @@
       "slug": "omalizumab",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "bronchitis",
@@ -105293,7 +105252,7 @@
       "slug": "oxaliplatin",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "malignant pleural mesothelioma",
@@ -105399,7 +105358,7 @@
       "slug": "paclitaxel",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L1",
       "indications": [
         {
           "name": "female breast carcinoma",
@@ -105433,7 +105392,7 @@
       "slug": "padeliporfin",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "clear cell renal carcinoma",
@@ -105467,18 +105426,8 @@
       "slug": "palbociclib",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
-        {
-          "name": "Resistance to thyroid hormone (THRB mutation)",
-          "score": 99.3,
-          "level": "L5"
-        },
-        {
-          "name": "Brachydactyly-syndactyly syndrome",
-          "score": 98.996,
-          "level": "L5"
-        },
         {
           "name": "hyperthyroidism",
           "score": 99.44,
@@ -105497,6 +105446,11 @@
         {
           "name": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
           "score": 99.3,
+          "level": "L5"
+        },
+        {
+          "name": "brachydactyly-syndactyly syndrome",
+          "score": 99.0,
           "level": "L5"
         }
       ]
@@ -105613,7 +105567,7 @@
       "slug": "pazopanib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "renal cell carcinoma associated with neuroblastoma",
@@ -105941,28 +105895,8 @@
       "level": "L5",
       "indications": [
         {
-          "name": "Multiple endocrine neoplasia",
+          "name": "multiple endocrine neoplasia",
           "score": 99.71,
-          "level": "L5"
-        },
-        {
-          "name": "Amenorrhea",
-          "score": 99.54,
-          "level": "L5"
-        },
-        {
-          "name": "HER2-positive breast carcinoma",
-          "score": 99.49,
-          "level": "L4"
-        },
-        {
-          "name": "Cytomegalovirus infection",
-          "score": 99.46,
-          "level": "L5"
-        },
-        {
-          "name": "Infectious bovine rhinotracheitis / Malignant catarrh",
-          "score": 99.43,
           "level": "L5"
         },
         {
@@ -105973,6 +105907,11 @@
         {
           "name": "HER2 positive breast carcinoma",
           "score": 99.49,
+          "level": "L5"
+        },
+        {
+          "name": "cytomegalovirus infection",
+          "score": 99.46,
           "level": "L5"
         },
         {
@@ -106026,7 +105965,7 @@
       "slug": "perampanel",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "visual epilepsy",
@@ -106070,7 +106009,7 @@
       "slug": "perflutren",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "acute intermittent porphyria",
@@ -106109,7 +106048,7 @@
       "slug": "permethrin",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "trombiculiasis",
@@ -106180,36 +106119,6 @@
       "level": "L5",
       "indications": [
         {
-          "name": "Trigeminalnervesvulst",
-          "score": 99.96,
-          "level": "L5"
-        },
-        {
-          "name": "Audiogene anfald",
-          "score": 99.96,
-          "level": "L3"
-        },
-        {
-          "name": "Tankeudløste anfald",
-          "score": 99.96,
-          "level": "L3"
-        },
-        {
-          "name": "Vandladningsudløste anfald",
-          "score": 99.96,
-          "level": "L4"
-        },
-        {
-          "name": "Prikkelseepilepsi / Hyperekpleksia",
-          "score": 99.96,
-          "level": "L4"
-        },
-        {
-          "name": "Spiseanfald",
-          "score": 99.96,
-          "level": "L4"
-        },
-        {
           "name": "trigeminal nerve neoplasm",
           "score": 99.96,
           "level": "L5"
@@ -106246,7 +106155,7 @@
       "slug": "phenprocoumon",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "posteroinferior myocardial infarction",
@@ -106596,7 +106505,7 @@
       "slug": "probenecid",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "hypouricemia, renal",
@@ -106654,7 +106563,7 @@
       "slug": "propylthiouracil",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
@@ -106780,7 +106689,7 @@
       "slug": "ranibizumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "severe nonproliferative diabetic retinopathy",
@@ -107023,7 +106932,7 @@
       "slug": "reteplase",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "posteroinferior myocardial infarction",
@@ -107130,7 +107039,7 @@
       "slug": "rifabutin",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L1",
       "indications": [
         {
           "name": "HIV infectious disease",
@@ -107368,7 +107277,7 @@
       "slug": "ritonavir",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "simian immunodeficiency virus infection",
@@ -107426,7 +107335,7 @@
       "slug": "robenacoxib",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "osteoarthritis",
@@ -107460,7 +107369,7 @@
       "slug": "romiplostim",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "primary release disorder of platelets",
@@ -107524,6 +107433,65 @@
       ]
     },
     {
+      "name": "Rosuvastatin",
+      "slug": "rosuvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "cholesterol-ester transfer protein deficiency",
+          "score": 99.54,
+          "level": "L5"
+        },
+        {
+          "name": "familial hypercholesterolemia",
+          "score": 99.54,
+          "level": "L5"
+        },
+        {
+          "name": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
+          "score": 99.51,
+          "level": "L5"
+        },
+        {
+          "name": "brain stem infarction",
+          "score": 99.44,
+          "level": "L5"
+        },
+        {
+          "name": "HIV infectious disease",
+          "score": 99.37,
+          "level": "L5"
+        },
+        {
+          "name": "hypoalphalipoproteinemia",
+          "score": 99.25,
+          "level": "L5"
+        },
+        {
+          "name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+          "score": 99.22,
+          "level": "L5"
+        },
+        {
+          "name": "hyperlipidemia due to hepatic triglyceride lipase deficiency",
+          "score": 99.2,
+          "level": "L5"
+        },
+        {
+          "name": "ABri amyloidosis",
+          "score": 99.18,
+          "level": "L5"
+        },
+        {
+          "name": "hyperlipidemia",
+          "score": 99.09,
+          "level": "L5"
+        }
+      ]
+    },
+    {
       "name": "Roxadustat",
       "slug": "roxadustat",
       "brands": [],
@@ -107562,7 +107530,7 @@
       "slug": "roxithromycin",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "leprosy",
@@ -107810,7 +107778,7 @@
       "slug": "selinexor",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "drug-induced osteoporosis",
@@ -107844,7 +107812,7 @@
       "slug": "selpercatinib",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "pulmonary hypertension",
@@ -107880,26 +107848,6 @@
       "original": "",
       "level": "L5",
       "indications": [
-        {
-          "name": "Hypertrichosis (tilstand)",
-          "score": 99.99,
-          "level": "L5"
-        },
-        {
-          "name": "Malformationssyndrom med odontal og/eller parodontal komponent",
-          "score": 99.99,
-          "level": "L4"
-        },
-        {
-          "name": "Syndrom med Dandy-Walker malformation som væsentlig karakteristikum",
-          "score": 99.98,
-          "level": "L5"
-        },
-        {
-          "name": "Isoleret genetisk hårskaftabnormitet",
-          "score": 99.98,
-          "level": "L5"
-        },
         {
           "name": "Ambras type hypertrichosis universalis congenita",
           "score": 99.99,
@@ -108068,7 +108016,7 @@
       "slug": "sofosbuvir",
       "brands": [],
       "original": "",
-      "level": "L3",
+      "level": "L4",
       "indications": [
         {
           "name": "hepatitis B virus infection",
@@ -108286,7 +108234,7 @@
       "slug": "sunitinib",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -108354,7 +108302,7 @@
       "slug": "tacrolimus",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "seborrheic dermatitis",
@@ -108480,7 +108428,7 @@
       "slug": "tagraxofusp",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "esotropia",
@@ -108553,7 +108501,7 @@
       "slug": "tasimelteon",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "bilateral parasagittal parieto-occipital polymicrogyria",
@@ -108621,7 +108569,7 @@
       "slug": "teicoplanin",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "bacterial arthritis",
@@ -108728,7 +108676,7 @@
       "slug": "temsirolimus",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "liposarcoma",
@@ -109034,7 +108982,7 @@
       "slug": "ticagrelor",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L3",
       "indications": [
         {
           "name": "intracranial arteriosclerosis",
@@ -109316,7 +109264,7 @@
       "slug": "tocilizumab",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "ankylosing spondylitis",
@@ -109350,7 +109298,7 @@
       "slug": "tolvaptan",
       "brands": [],
       "original": "",
-      "level": "L1",
+      "level": "L5",
       "indications": [
         {
           "name": "polycystic kidney disease 3 with or without polycystic liver disease",
@@ -109418,7 +109366,7 @@
       "slug": "trabectedin",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "female breast carcinoma",
@@ -109700,7 +109648,7 @@
       "slug": "treprostinil",
       "brands": [],
       "original": "",
-      "level": "L2",
+      "level": "L5",
       "indications": [
         {
           "name": "pulmonary arteriovenous malformation (disease)",
@@ -110083,7 +110031,7 @@
       "slug": "valsartan",
       "brands": [],
       "original": "",
-      "level": "L4",
+      "level": "L5",
       "indications": [
         {
           "name": "malignant hypertensive renal disease",
@@ -110156,7 +110104,7 @@
       "slug": "vandetanib",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L3",
       "indications": [
         {
           "name": "renal cell carcinoma (disease)",
@@ -110617,7 +110565,7 @@
       "slug": "zolmitriptan",
       "brands": [],
       "original": "",
-      "level": "L5",
+      "level": "L4",
       "indications": [
         {
           "name": "migraine with brainstem aura",
@@ -111263,13 +111211,20 @@
     },
     {
       "name": "ABri amyloidosis",
-      "count": 12,
+      "count": 13,
       "level": "L5",
       "drugs": [
         {
           "name": "Telmisartan",
           "slug": "telmisartan",
           "score": 99.97,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.18,
           "level": "L5",
           "original": ""
         },
@@ -111325,13 +111280,6 @@
         {
           "name": "Telmisartan",
           "slug": "db00966",
-          "score": 99.0,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Rosuvastatin Calcium",
-          "slug": "db01098",
           "score": 99.0,
           "level": "L5",
           "original": ""
@@ -111920,20 +111868,6 @@
       ]
     },
     {
-      "name": "Amenorrhea",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Pemigatinib",
-          "slug": "pemigatinib",
-          "score": 99.54,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Angelucci syndrome",
       "count": 3,
       "level": "L5",
@@ -112083,20 +112017,6 @@
           "slug": "acipimox",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Audiogene anfald",
-      "count": 1,
-      "level": "L3",
-      "drugs": [
-        {
-          "name": "Phenobarbital",
-          "slug": "phenobarbital",
-          "score": 99.96,
-          "level": "L3",
           "original": ""
         }
       ]
@@ -112712,34 +112632,6 @@
           "name": "Brolucizumab",
           "slug": "db14864",
           "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Brachydactyly-syndactyly syndrome",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Palbociclib",
-          "slug": "palbociclib",
-          "score": 98.996,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Brachydaktylie-syndaktylie-syndrom",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Gemfibrozil",
-          "slug": "gemfibrozil",
-          "score": 99.77,
           "level": "L5",
           "original": ""
         }
@@ -113937,20 +113829,6 @@
           "name": "Deflazacort",
           "slug": "db11921",
           "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Cytomegalovirus infection",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Pemigatinib",
-          "slug": "pemigatinib",
-          "score": 99.46,
           "level": "L5",
           "original": ""
         }
@@ -115189,20 +115067,6 @@
       ]
     },
     {
-      "name": "HER2-positive breast carcinoma",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Pemigatinib",
-          "slug": "pemigatinib",
-          "score": 99.49,
-          "level": "L4",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "HHV-6 encephalitis",
       "count": 1,
       "level": "L5",
@@ -115218,7 +115082,7 @@
     },
     {
       "name": "HIV infectious disease",
-      "count": 45,
+      "count": 46,
       "level": "L5",
       "drugs": [
         {
@@ -115264,6 +115128,13 @@
           "original": ""
         },
         {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.37,
+          "level": "L5",
+          "original": ""
+        },
+        {
           "name": "Remdesivir",
           "slug": "remdesivir",
           "score": 99.32,
@@ -115282,41 +115153,6 @@
           "slug": "db00008",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Peginterferon Alfa-2B",
-          "slug": "db00022",
-          "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "HIV-associeret PAH",
-      "count": 1,
-      "level": "L1",
-      "drugs": [
-        {
-          "name": "Iloprost",
-          "slug": "iloprost",
-          "score": 99.21,
-          "level": "L1",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "HIV-infektionssygdom",
-      "count": 1,
-      "level": "L2",
-      "drugs": [
-        {
-          "name": "Gemfibrozil",
-          "slug": "gemfibrozil",
-          "score": 99.8,
-          "level": "L2",
           "original": ""
         }
       ]
@@ -115645,48 +115481,6 @@
           "name": "Cerliponase Alfa",
           "slug": "db13173",
           "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Hypertrichosis (tilstand)",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Silodosin",
-          "slug": "silodosin",
-          "score": 99.99,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Hypoalphalipoproteinæmi",
-      "count": 1,
-      "level": "L2",
-      "drugs": [
-        {
-          "name": "Gemfibrozil",
-          "slug": "gemfibrozil",
-          "score": 99.77,
-          "level": "L2",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Hårlødhed simplex af scalp",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Iloprost",
-          "slug": "iloprost",
-          "score": 99.45,
           "level": "L5",
           "original": ""
         }
@@ -116044,34 +115838,6 @@
           "name": "Avelumab",
           "slug": "db11945",
           "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Infectious bovine rhinotracheitis / Malignant catarrh",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Pemigatinib",
-          "slug": "pemigatinib",
-          "score": 99.43,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Isoleret genetisk hårskaftabnormitet",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Silodosin",
-          "slug": "silodosin",
-          "score": 99.98,
           "level": "L5",
           "original": ""
         }
@@ -117744,20 +117510,6 @@
       ]
     },
     {
-      "name": "Malformationssyndrom med odontal og/eller parodontal komponent",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Silodosin",
-          "slug": "silodosin",
-          "score": 99.99,
-          "level": "L4",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "May-Thurner syndrome",
       "count": 2,
       "level": "L5",
@@ -117787,20 +117539,6 @@
           "name": "Tolvaptan",
           "slug": "db06212",
           "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Medfødt hårlødhed milia",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Iloprost",
-          "slug": "iloprost",
-          "score": 99.33,
           "level": "L5",
           "original": ""
         }
@@ -118136,34 +117874,6 @@
       ]
     },
     {
-      "name": "Multipel endokrin neoplasi",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Gemfibrozil",
-          "slug": "gemfibrozil",
-          "score": 99.83,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Multiple endocrine neoplasia",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Pemigatinib",
-          "slug": "pemigatinib",
-          "score": 99.71,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Mycoplasma pneumoniae pneumonia",
       "count": 1,
       "level": "L5",
@@ -118439,34 +118149,6 @@
           "slug": "acipimox",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "PAH associeret med bindevævssygdom",
-      "count": 1,
-      "level": "L3",
-      "drugs": [
-        {
-          "name": "Iloprost",
-          "slug": "iloprost",
-          "score": 99.21,
-          "level": "L3",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "PAH associeret med medfødt hjertesygdom",
-      "count": 1,
-      "level": "L3",
-      "drugs": [
-        {
-          "name": "Iloprost",
-          "slug": "iloprost",
-          "score": 99.32,
-          "level": "L3",
           "original": ""
         }
       ]
@@ -118983,20 +118665,6 @@
       ]
     },
     {
-      "name": "Prikkelseepilepsi / Hyperekpleksia",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Phenobarbital",
-          "slug": "phenobarbital",
-          "score": 99.96,
-          "level": "L4",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Prinzmetal angina",
       "count": 43,
       "level": "L5",
@@ -119097,20 +118765,6 @@
           "slug": "db01190",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Pulmonal arteriovenøs malformation",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Iloprost",
-          "slug": "iloprost",
-          "score": 99.31,
-          "level": "L4",
           "original": ""
         }
       ]
@@ -119326,20 +118980,6 @@
       ]
     },
     {
-      "name": "Resistance to thyroid hormone (THRB mutation)",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Palbociclib",
-          "slug": "palbociclib",
-          "score": 99.3,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Rett syndrome, congenital variant",
       "count": 6,
       "level": "L5",
@@ -119384,20 +119024,6 @@
           "slug": "db08883",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Reumatoid artritis",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Gemfibrozil",
-          "slug": "gemfibrozil",
-          "score": 99.9,
-          "level": "L4",
           "original": ""
         }
       ]
@@ -120117,20 +119743,6 @@
       ]
     },
     {
-      "name": "Spiseanfald",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Phenobarbital",
-          "slug": "phenobarbital",
-          "score": 99.96,
-          "level": "L4",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Steel syndrome",
       "count": 20,
       "level": "L5",
@@ -120265,20 +119877,6 @@
           "name": "Padeliporfin",
           "slug": "db15575",
           "score": 99.0,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Syndrom med Dandy-Walker malformation som væsentlig karakteristikum",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Silodosin",
-          "slug": "silodosin",
-          "score": 99.98,
           "level": "L5",
           "original": ""
         }
@@ -120511,20 +120109,6 @@
           "slug": "db15627",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Tankeudløste anfald",
-      "count": 1,
-      "level": "L3",
-      "drugs": [
-        {
-          "name": "Phenobarbital",
-          "slug": "phenobarbital",
-          "score": 99.96,
-          "level": "L3",
           "original": ""
         }
       ]
@@ -120782,20 +120366,6 @@
       ]
     },
     {
-      "name": "Trigeminalnervesvulst",
-      "count": 1,
-      "level": "L5",
-      "drugs": [
-        {
-          "name": "Phenobarbital",
-          "slug": "phenobarbital",
-          "score": 99.96,
-          "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
       "name": "Tukel syndrome",
       "count": 1,
       "level": "L5",
@@ -120945,20 +120515,6 @@
           "slug": "db00003",
           "score": 99.0,
           "level": "L5",
-          "original": ""
-        }
-      ]
-    },
-    {
-      "name": "Vandladningsudløste anfald",
-      "count": 1,
-      "level": "L4",
-      "drugs": [
-        {
-          "name": "Phenobarbital",
-          "slug": "phenobarbital",
-          "score": 99.96,
-          "level": "L4",
           "original": ""
         }
       ]
@@ -135994,7 +135550,7 @@
     },
     {
       "name": "brachydactyly-syndactyly syndrome",
-      "count": 74,
+      "count": 75,
       "level": "L5",
       "drugs": [
         {
@@ -136351,13 +135907,20 @@
     },
     {
       "name": "brain stem infarction",
-      "count": 13,
+      "count": 14,
       "level": "L5",
       "drugs": [
         {
           "name": "Telmisartan",
           "slug": "telmisartan",
           "score": 99.98,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.44,
           "level": "L5",
           "original": ""
         },
@@ -136413,13 +135976,6 @@
         {
           "name": "Telmisartan",
           "slug": "db00966",
-          "score": 99.0,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Irbesartan",
-          "slug": "db01029",
           "score": 99.0,
           "level": "L5",
           "original": ""
@@ -141678,9 +141234,16 @@
     },
     {
       "name": "cholesterol-ester transfer protein deficiency",
-      "count": 4,
+      "count": 5,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.54,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "Simvastatin",
           "slug": "simvastatin",
@@ -149952,9 +149515,16 @@
     },
     {
       "name": "cytomegalovirus infection",
-      "count": 22,
+      "count": 23,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Pemigatinib",
+          "slug": "pemigatinib",
+          "score": 99.46,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "Enfortumab Vedotin",
           "slug": "enfortumab_vedotin",
@@ -150014,13 +149584,6 @@
         {
           "name": "Palbociclib",
           "slug": "db09073",
-          "score": 99.0,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Tucatinib",
-          "slug": "db11652",
           "score": 99.0,
           "level": "L5",
           "original": ""
@@ -159969,13 +159532,20 @@
     },
     {
       "name": "familial hypercholesterolemia",
-      "count": 6,
+      "count": 7,
       "level": "L5",
       "drugs": [
         {
           "name": "Simvastatin",
           "slug": "simvastatin",
           "score": 99.63,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.54,
           "level": "L5",
           "original": ""
         },
@@ -171498,9 +171068,16 @@
     },
     {
       "name": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
-      "count": 5,
+      "count": 6,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.51,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "Simvastatin",
           "slug": "simvastatin",
@@ -171687,9 +171264,16 @@
     },
     {
       "name": "hyperlipidemia",
-      "count": 4,
+      "count": 5,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.09,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "Simvastatin",
           "slug": "db00641",
@@ -171722,9 +171306,16 @@
     },
     {
       "name": "hyperlipidemia due to hepatic triglyceride lipase deficiency",
-      "count": 3,
+      "count": 4,
       "level": "L5",
       "drugs": [
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.2,
+          "level": "L5",
+          "original": ""
+        },
         {
           "name": "Simvastatin",
           "slug": "db00641",
@@ -172492,13 +172083,20 @@
     },
     {
       "name": "hypoalphalipoproteinemia",
-      "count": 27,
+      "count": 28,
       "level": "L5",
       "drugs": [
         {
           "name": "Gemfibrozil",
           "slug": "gemfibrozil",
           "score": 99.77,
+          "level": "L5",
+          "original": ""
+        },
+        {
+          "name": "Rosuvastatin",
+          "slug": "rosuvastatin",
+          "score": 99.25,
           "level": "L5",
           "original": ""
         },
@@ -172554,13 +172152,6 @@
         {
           "name": "Clopidogrel",
           "slug": "db00758",
-          "score": 99.0,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Tadalafil",
-          "slug": "db00820",
           "score": 99.0,
           "level": "L5",
           "original": ""
@@ -188382,7 +187973,7 @@
     },
     {
       "name": "migraine with brainstem aura",
-      "count": 79,
+      "count": 80,
       "level": "L5",
       "drugs": [
         {
@@ -190188,7 +189779,7 @@
     },
     {
       "name": "multiple endocrine neoplasia",
-      "count": 51,
+      "count": 52,
       "level": "L5",
       "drugs": [
         {
@@ -190227,6 +189818,13 @@
           "original": ""
         },
         {
+          "name": "Pemigatinib",
+          "slug": "pemigatinib",
+          "score": 99.71,
+          "level": "L5",
+          "original": ""
+        },
+        {
           "name": "Remdesivir",
           "slug": "remdesivir",
           "score": 99.5,
@@ -190250,13 +189848,6 @@
         {
           "name": "Becaplermin",
           "slug": "db00102",
-          "score": 99.0,
-          "level": "L5",
-          "original": ""
-        },
-        {
-          "name": "Acitretin",
-          "slug": "db00459",
           "score": 99.0,
           "level": "L5",
           "original": ""
@@ -193835,7 +193426,7 @@
     },
     {
       "name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
-      "count": 46,
+      "count": 47,
       "level": "L5",
       "drugs": [
         {

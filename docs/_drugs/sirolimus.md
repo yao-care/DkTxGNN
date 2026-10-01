@@ -2,7 +2,7 @@
 layout: default
 title: Sirolimus
 parent: Høj evidens (L1-L2)
-nav_order: 402
+nav_order: 404
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,95 +29,101 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sirolimus: Fra profylakse af nieretransplantation-afstødning til liposarkom
+# Sirolimus: Fra godkendt anvendelse til liposarkom
 
-## Et-sætnings-sammenfatning
+## Resumé i få sætninger
 
-> Sirolimus (rapamycin) er en mTOR-hæmmer, der oprindeligt blev udviklet som immunosuppressivum til at forhindre organafstødning efter nieretransplantation.
-> TxGNN-modellen forudsiger, at det kan være effektivt mod **liposarkom**,
-> med **5 kliniske forsøg** og **12 publikationer**, der i øjeblikket understøtter denne retning — selvom det meste af forsøgsevidenset kommer fra relaterede mTOR-hæmmere (temsirolimus, everolimus, ridaforolimus) snarere end sirolimus selv.
+Sirolimus er en mTOR-hæmmer, som i Danmark er markedsført som topisk gel (Hyftor). Registerdata indeholder ingen tekst om den godkendte indikation.
+TxGNN-modellen forudsiger, at sirolimus kan være virksomt mod **liposarkom**.
+Der er **5 kliniske forsøg** og **12 publikationer**, men kun fase 2-forsøg, hovedsageligt med analoger (temsirolimus, everolimus, ridaforolimus), og ingen offentliggjorte effektresultater i de leverede data.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Immunosuppression / profylakse af nieretransplantation-afstødning (velkendt anvendelse; specifik dansk regulatorisk indikationstekst er ikke bekræftet i de tilgængelige data) |
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Liposarkom |
-| TxGNN-forudsigelsesscore | 99,89% |
+| TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L2 |
-| Status på dansk marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Udsæt |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i evidenspakken. På grundlag af kendt farmakologi er sirolimus en **hæmmer af mammalian target of rapamycin (mTOR)** ("rapalog"), en lægemiddelklasse, hvis effektivitet til at forhindre nieretransplantation-afstødning er velkendt, og som mekanistisk kan være anvendelig på visse bløddelssarkomer.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i den leverede Evidence Pack. Sirolimus er dog kendt som en mTORC1-hæmmer, der virker ved binding til FKBP12.
 
-Dedifferentieret liposarkom viser hyppigt aktivering af PI3K–Akt–mTOR-signaleringsstien (PMID 26518767), og mTOR-hæmning kan blokere dette downstreamproliferativt signal — hvilket giver forudsigelsen en klar molekylærbiologisk begrundelse. Af de 5 identificerede kliniske forsøg for denne indikation bruger imidlertid kun **et** (NCT02821507) sirolimus direkte selv; de resterende fire involverer relaterede præparater i samme lægemiddelklasse (temsirolimus, everolimus, ridaforolimus). Dette betyder, at den understøttende evidens hovedsageligt er en **klasseeffekt-slutning** snarere end direkte, lægemiddelspecifikt bevis for sirolimus i liposarkom.
+Aktivering af Akt-mTOR- og MAPK-signalvejene er beskrevet i dedifferentieret liposarkom (PMID 26518767). Det giver en plausibel biologisk begrundelse for mTOR-hæmning. Prækliniske studier af rapamycin (sirolimus) kombineret med chloroquin, som blokerer autofagi, understøtter også tilgangen. I en musemodel med patientafledt dedifferentieret liposarkom blev tumorvæksten standset.
 
-Det er også værd at bemærke, at blandt de andre kandidatindikationer, der er genereret for sirolimus i denne evidenspakke (ikke detaljeret i denne rapport), **lymphangioleiomyomatose (LAM)** og **PEComa/angiomyolipom** viser væsentlig mere direkte, sygdomsspecifik sirolimus-evidens — herunder et afsluttet fase 3-RCT (NCT00414648, MILES-forsøget) for LAM — og kan være berettiget til separat, højere prioriteret evaluering.
+Den kliniske evidens er svagere. Den består udelukkende af fase 2-forsøg. De fleste omhandler analoger og indgår ofte i kombinationsbehandling eller i blandede sarkompopulationer. Der er intet fase 3-forsøg og ingen effektresultater i de leverede data. Forudsigelsen er derfor et forskningsspørgsmål og ikke en dokumenteret behandlingsmulighed.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtige fund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Afsluttet | 70 | Single-arm-forsøg af **sirolimus** + cyclophosphamid ved metastatisk/uoperable myxoidt liposarkom og chondrosarkom — direkte brug af sirolimus selv, indikationsspecifikt |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Fase 2 | Afsluttet | 216 | Stort forsøg af ridaforolimus (samme-klasse mTOR-hæmmer, ikke sirolimus) ved avanceret sarkom |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Fase 2 | Afsluttet | 46 | Cixutumumab + temsirolimus (samme-klasse, ikke sirolimus) ved pediatrisk tilbagevendende/refraktær sarkom |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Fase 1/2 | Afsluttet | 24 | Torisel (temsirolimus) + liposomal doxorubicin ved avanceret blødtdel- og knoglesarkom |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, rekrutterer ikke | 48 | Ribociclib + everolimus (samme-klasse) ved avanceret dedifferentieret liposarkom og leiomyosarkom |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Afsluttet | 70 | Enkeltarmet forsøg med sirolimus + cyclophosphamid ved metastatisk eller ikke-operabelt myxoidt liposarkom og chondrosarkom. Det eneste forsøg med sirolimus selv. Resultater er ikke leveret. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktivt, rekrutterer ikke | 48 | Ribociclib + everolimus (sirolimus-analog) ved avanceret dedifferentieret liposarkom og leiomyosarkom efter mindst én tidligere behandling |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Fase 1/2 | Afsluttet | 24 | Temsirolimus + liposomal doxorubicin ved recidiverende bløddels- og knoglesarkom. Fokus på sikker dosering og dernæst effekt. |
+| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Fase 2 | Afsluttet | 216 | Ridaforolimus (mTOR-hæmmer) ved avanceret sarkom. Evidens på klasseniveau i en blandet sarkompopulation. |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Fase 2 | Afsluttet | 46 | Cixutumumab + temsirolimus hos børn med recidiverende eller refraktære solide tumorer/sarkom. Dårligt match med voksne med liposarkom. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Vigtige fund |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Single-arm klinisk forsøgsrapport | Clin Cancer Res | Ribociclib + everolimus ved dedifferentieret liposarkom/leiomyosarkom; synergistisk mTOR/CDK4-vejhæmning |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Kohorte | Transplantation Proceedings | Kræftscreening hos nieretransplantationsmodtagere under langtidssuppression, herunder mTOR-hæmmere |
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | Kohorte | J Am Soc Nephrol | Sirolimus efter tidlig cyclosporin-afbrydelse reducerede kræftrisiko vs. cyclosporin hos nieretransplantationsmodtagere |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Oversigt | Cancers | Oversigt over nye terapeutika ved blødtdelssarkom, herunder mTOR-vejmetoder |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Oversigt | Curr Opin Oncol | Oversigt over nye målrettede behandlinger ved avanceret sarkom |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Oversigt | Bulletin du Cancer | Oversigt over målrettede behandlingsstrategier for sjældne bindevæv-tumorer og sarkomer efter molekylær undergruppe |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mekanismestudie | Tumour Biology | Analyse af 99 dedifferentierede liposarkom-præparater viste Akt/mTOR- og MAPK-vejaktivering |
-| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | Præklin(isk) | Cancer Genomics Proteomics | Chloroquin + rapamycin hæmmer autofagi synergistisk, effektiv i veldifferentierede liposarkommodeller |
-| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | Præklin(isk) (PDX-model) | In Vivo | Chloroquin + rapamycin standser tumortilvækst i en patient-afledt xenograft-model af dedifferentieret liposarkom |
-| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | Præklin(isk) | Mol Cancer Ther | ATP-kompetitiv mTOR-kinasehæmmer MLN0128 viser antitumor-aktivitet i knoglesarkom og blødtdelssarkommodeller |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT (transplantationspopulation, indirekte) | J Am Soc Nephrol | Sirolimus efter tidlig seponering af ciclosporin reducerede cancerrisikoen hos nyretransplanterede. Indirekte relevans. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Fase 2-rapport | Clin Cancer Res | Ribociclib + everolimus ved dedifferentieret liposarkom og leiomyosarkom. Kombinationen er biologisk interessant. |
+| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | Præklinisk | Cancer Genomics Proteomics | Chloroquin + rapamycin som synergistisk behandling af velddifferentieret liposarkom |
+| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | Præklinisk | In Vivo | Chloroquin + rapamycin standsede tumorvækst i en PDOX-musemodel af dedifferentieret liposarkom |
+| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Præklinisk/vævsstudie | Tumour Biol | Akt-mTOR- og MAPK-aktivering i 99 dedifferentierede liposarkomer. Understøtter det mekanistiske rationale. |
+| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | Præklinisk | Mol Cancer Ther | ATP-kompetitiv mTOR-hæmmer (MLN0128) med antitumoraktivitet i sarkommodeller. Første generations rapaloger havde begrænset klinisk nytte. |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Oversigtsartikel | Cancers | Oversigt over nye behandlinger ved bløddelssarkom |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Oversigtsartikel | Curr Opin Oncol | Gennemgang af målrettede behandlinger ved avancerede sarkomer |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Oversigtsartikel | Bull Cancer | Målrettet behandling af sjældne bindevævstumorer og sarkomer |
 
 ---
 
-## Markedsoplysninger for Danmark
+## Information om det danske marked
 
-Sirolimus er **ikke markedsført på det danske marked i øjeblikket** — der er ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser registreret i evidenspakken (0 tilladelser registreret).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28106721321 | Hyftor | Gel (topisk) | Plusultra Pharma GmbH |
 
----
-
-## Sikkerhedsaspekter
-
-Henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation. Der var ingen data om lægemiddelinteraktioner, advarsler eller kontraindikationer tilgængelige til gennemsyn i denne evidenspakke.
+Den eneste danske tilladelse er en topisk gel. Liposarkom vil formentlig kræve systemisk behandling, så rutekompatibilitet er ikke vurderet.
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Udsæt**
+Der er ikke fundet data om sirolimus' lægemiddelinteraktioner i de leverede kilder.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Sirolimus er ikke markedsført i Danmark i øjeblikket, og der **foreligger en blokerende datakløft** for SmPC-advarsler/kontraindikationer, hvilket betyder, at en indledende sikkerhedsvurdering endnu ikke kan foretages.
-- Evidensen for liposarkom-indikationen specifikt er klasseeffekt-baseret: kun 1 af 5 forsøg bruger sirolimus selv direkte, og lægemidlets egen oprindelige indikation/virkningsmekanisme kunne ikke bekræftes fra tilgængelige kilder.
+- Den kliniske evidens består kun af fase 2-forsøg, hovedsageligt med analoger i kombinationer eller blandede sarkompopulationer. Der er ingen effektresultater for sirolimus ved liposarkom i de leverede data.
+- Sikkerhedsoplysninger fra produktresuméet mangler, og det blokerer videre sikkerhedsscreening.
 
-**For at fortsætte, kræves følgende:**
-- Indhent SmPC / produktsikkerhedsdata (advarsler, kontraindikationer, lægemiddelinteraktioner) fra Lægemiddelstyrelsen eller EMA
-- Bekræft lægemidlets godkendte oprindelige indikation og virkningsmekanisme via DrugBank eller regulatoriske kilder
-- Præciser adgangsvejen givet, at lægemidlet ikke er markedsført i Danmark (f.eks. named-patient/off-label import)
-- Overvej prioritering af evaluering af relaterede forudsagte indikationer (lymphangioleiomyomatose, PEComa/angiomyolipom), hvor sirolimus har mere direkte og mere modne understøttende bevis end for liposarkom
+**For at komme videre kræves:**
+- Hent og gennemgå sikkerhedsoplysninger fra Lægemiddelstyrelsens produktresumé (advarsler, kontraindikationer, interaktioner).
+- Indhent mekanismedata (MOA) fra DrugBank.
+- Find resultater fra NCT02821507 (sirolimus + cyclophosphamid) og bekræft, hvilke sarkomundertyper der indgik.
+- Vurder, om en systemisk formulering er tilgængelig, da den eneste danske tilladelse er en topisk gel.
+- Til sammenligning har de andre forudsagte indikationer for sirolimus (godartet PEComa og lymfangioleiomyomatose) stærkere evidens, hvis man ønsker at prioritere.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

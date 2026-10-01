@@ -2,7 +2,7 @@
 layout: default
 title: Amitraz
 parent: Moderat evidens (L3-L4)
-nav_order: 33
+nav_order: 34
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,107 +29,100 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amitraz: Fra veterinær akaricid til alopeci
+# Amitraz: Fra akaricid (ingen human indikation oplyst) til alopeci
 
-## Sammenfatning i en sætning
+## Resumé i én sætning
 
-Amitraz er et bredt spektrum veterinært ektoparsitcid (akaricid) uden godkendt menneskelig medicinsk indikation, brugt udelukkende til dyr til behandling af mitkinfektioner såsom demodecios og sarkoptisk scabies.
-TxGNN-modellen forudsiger, at det kan være effektivt til **alopeci** hos mennesker,
-med **0 kliniske forsøg** og **15 publikationer** (alle veterinære dyrestudier) der i øjeblikket støtter denne retning.
+Amitraz er et akaricid (middemiddel), og i Danmark er det kun registreret i produktet Apivar, en strip til bistader. Der er ingen godkendt human indikation i datagrundlaget. TxGNN-modellen forudsiger, at amitraz kan have effekt ved **alopeci**, men der er **0 kliniske forsøg** og kun **dyrelitteratur** bag forudsigelsen. Litteraturen viser, at amitraz behandler den mideinfestation, der forårsager hårtab hos dyr, ikke at det genopretter hårvækst hos mennesker.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ingen godkendt menneskelig indikation; veterinært akaricid til *Demodex*- og *Sarcoptes*-mitkinfektioner hos dyr |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i datagrundlaget (det danske produkt Apivar er en bistadestrip, hvilket tyder på veterinær brug uden for mennesker) |
 | Forudsagt ny indikation | Alopeci |
-| TxGNN-forudsigelsesscore | 98.42% |
-| Bevisniveau | L4 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvent |
+| TxGNN-forudsigelsesscore | 98,42 % |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige fra DrugBank. Baseret på kendt farmakologisk information er Amitraz et bredt spektrum akaricid, der virker som en **alfa-2-adrenerg agonist** og hæmmer monoamin oxidase (MAO) i ektoparsitter, hvilket forårsager lammelse og død af mitter. Det er godkendt udelukkende til veterinær brug i flere lande til behandling af *Demodex* spp. (demodetiske mitter) og *Sarcoptes* spp. (sarkoptisk scabies-mitter) infektioner hos hunde, katte, kvæg og andre dyr.
+Detaljerede mekanismedata for amitraz mangler i DrugBank. Amitraz er et formamidin-akaricid. Hos mider virker det som agonist på oktopaminreceptorer, og hos pattedyr som alfa-2-adrenerg agonist.
 
-Det teoretiske mekanistiske link til menneskelig alopeci hviler på en enkelt indirekte årsagsrækkefølge: hos dyr forårsager mitkinfektation af hårføllikler føllikelinflamation og sekundær hårtab (alopeci); vellykket mitkudryddelse med amitraz fører pålidelig til hårvækst igen. Som analogi, hvis *Demodex folliculorum* eller *Demodex brevis*-overbefolkning i menneskelige hårholliker var en kausalrelevant drivkraft for føllikelinflamation og hårtab i en specifik menneskelig alopeci-undertype, kunne et effektivt akaricid teoretisk genskabe hårvækst. Dette er den vej, som TxGNN-vidensgrafen har fanget med en høj score.
+Litteraturen kobler kun amitraz til alopeci indirekte. Hårtab er et symptom på infestation med Demodex, Sarcoptes og Chorioptes hos dyr, og amitraz behandler miden, ikke hårtabet. Efter behandling kommer håret tilbage, fordi den underliggende årsag er fjernet. Det er ikke dokumentation for effekt ved human alopeci (androgenetisk, areata m.fl.).
 
-Imidlertid er styrken af denne biologiske hypotese i øjeblikket meget begrænset. Alle 15 hentede publikationer er udelukkende veterinære caserapporter og oversigter hos hunde, katte, ilder, alpacaer og andre dyr – der er ingen direkte menneskelig klinisk evidens. Kritisk bærer amitraz betydelige systemiske sikkerhedsbekymringer hos mennesker (hypotension, bradykardi, sedering, respiratorisk depression) opstået fra alfa-2-adrenerg agonisme, hvilket udgør en stor barriere for enhver menneskelig klinisk udvikling. TxGNN-scoren på 98.42% afspejler højst sandsynligt indirekte semantisk forbindelse i vidensgrafen ("akaricid → eliminerer *Demodex* → løser alopeci"), snarere end et ægte menneskelig effektivitetssignal.
+Den høje score (0,984) understøttes derfor ikke af en direkte biologisk mekanisme for hårvækst. Alfa-2-agonisme hos pattedyr giver desuden sikkerhedsbekymringer (sedation, bradykardi, hypotension, hyperglykæmi).
 
----
+De øvrige forudsigelser er kun modelbaserede (L5), uden forsøg eller litteratur, og de er sandsynligvis artefakter fra grafspredning i fænotypeklyngen alopeci/hypotrichose:
 
-## Klinisk forsøgsevidens
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret (både ClinicalTrials.gov og ICTRP returnerede 0 resultater for Amitraz + alopeci).
-
----
-
-## Litteraturbevis
-
-> **Bemærk:** Alle 15 hentede publikationer er veterinære studier. Ingen menneskelig klinisk evidens er tilgængelig for dette lægemiddel-sygdomspar.
-
-| PMID | År | Type | Tidsskrift | Vigtige fund |
-|------|-----|------|-----------|-------------|
-| [22488596](https://pubmed.ncbi.nlm.nih.gov/22488596/) | 2012 | Veterinær Narrativ Oversigt | Compendium (Yardley, PA) | Oversigt over terapi mod canin demodecios; amitraz-skylning (0,025%) godkendt hver 2. uge; højere koncentrationer forbedrer succesrate men øger bivirkninger |
-| [22167167](https://pubmed.ncbi.nlm.nih.gov/22167167/) | 2011 | Veterinær Evidence-Based Oversigt | Tierarztliche Praxis | Evidence-based resumé af behandlingsmuligheder mod canin demodecios; sygdom karakteriseret ved alopeci, papuler og skorper; amitraz blandt standardterapier |
-| [32814497](https://pubmed.ncbi.nlm.nih.gov/32814497/) | 2021 | Veterinær Caserapport | New Zealand Veterinary Journal | Kombineret topical amitraz + subcutan ivermectin behandlede med succes sarkoktisk og chorioptisk scabies med omfattende alopeci, erythema og skorper hos en alpacaflok |
-| [34022785](https://pubmed.ncbi.nlm.nih.gov/34022785/) | 2021 | Veterinær Caserapport | Annals of Parasitology | *Psoroptes ovis*-parasitisme rapporteret hos en hund; uregelmæssig alopeci, skorper, tør deskvamation og erythema; behandlet med akaricid |
-| [19265536](https://pubmed.ncbi.nlm.nih.gov/19265536/) | 2009 | Veterinær Caserapport | Parasites & Vectors | Amitraz + metaflumizon spot-on formulering effektiv mod generaliseret canin demodeketisk scabies med diffus alopeci; *Demodex*- og *Malassezia pachydermatis*-co-infektion løst |
-| [19843334](https://pubmed.ncbi.nlm.nih.gov/19843334/) | 2009 | Veterinær Caseserie | Acta Veterinaria Scandinavica | *Demodex gatoi*-associeret smitsom pruritusfyldt dermatose hos katte fra 6 finske husstande; hudsygdom med alopeci og pruritus |
-| [17610494](https://pubmed.ncbi.nlm.nih.gov/17610494/) | 2007 | Veterinær Caserapport | Veterinary Dermatology | Tre alpacaer med sarkoktisk scabies, der var resistente over for eprinomectin/doramectin, behandlet med succes med amitraz; omfattende alopeci, erythema og skalling løst |
-| [15624702](https://pubmed.ncbi.nlm.nih.gov/15624702/) | 2004 | Veterinær Komparativ Undersøgelse | Immunological Investigations | Sammenligning af amitraz (konventionel) vs. T11TS immunterapi i canin generaliseret demodecios; immunterapi viste overlegen immunforsvar restaurering sammen med alopeci-løsning |
-| [8833611](https://pubmed.ncbi.nlm.nih.gov/8833611/) | 1996 | Veterinær Caserapport | The Veterinary Quarterly | Demodecios med lokal alopeci hos to ilderfer; amitraz-behandling var effektiv og forårsagede ingen mærkbare bivirkninger |
-| [7492657](https://pubmed.ncbi.nlm.nih.gov/7492657/) | 1995 | Veterinær Caserapport | J Veterinary Medical Science | Guldhamstre med dorsal alopeci fra *Demodex* spp.; topical amitraz 0,013% delvist effektiv; fuldstændig helbredelse opnået med coumaphos |
+- **Hypotrichosis simplex i hovedbunden** (98,32 %): en genetisk lidelse i hårsækkene uden plausibel kobling til amitraz.
+- **Kongenital hypotrichose med milia** (98,24 %): en sjælden udviklingsforstyrrelse uden biologisk begrundelse.
+- **Benign prostatahyperplasi** (98,04 %): godkendte lægemidler er alfa-1-antagonister, mens amitraz er alfa-2-agonist, så mekanismen understøtter ikke gavn.
+- **Diffus alopecia areata** (98,02 %): en autoimmun sygdom, hvor amitraz ikke har nogen kendt relevant immunmodulerende virkning.
 
 ---
 
-## Markedsinformation for Danmark
+## Klinisk evidens fra forsøg
 
-Amitraz er **ikke markedsført i Danmark** og har **ingen markedsføringstilladelser** fra Lægemiddelstyrelsen eller Det Europæiske Lægemiddelagentur (EMA) for nogen menneskelig indikation.
-
-> Der er ingen registrerede humane lægemidler indeholdende amitraz i Danmark. I EU/EØS er amitraz godkendt udelukkende som et veterinært lægemiddel (f.eks. til fæ- og mitkbekæmpelse hos hunde under handelsnavn Ectodex/Taktic i visse medlemsstater), uden centraliseret eller national menneskelig markedsføringstilladelse.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-**Vigtige advarsler:**
+Alle publikationer er dyrestudier (hund, kat, alpaka, fritte, hamster m.fl.). Ingen omhandler mennesker. Der er ingen RCT'er. Tabellen viser de 10 mest relevante af 15 fundne.
 
-Amitraz er ikke godkendt til menneskelig brug i nogen jurisdiktion. Baseret på tilfælde af utilsigtet menneskelig forgiftning og toksikologiske data er følgende systemiske risici dokumenterede:
-
-- **Alfa-2-adrenerg toksidrom:** Centralnervøs depression (sedering, koma), hypotension, bradykardi, hypotermi, miosis og respiratorisk depression. Yohimbin (alfa-2-antagonist) er blevet brugt som antidot i tilfælde af dyreforgiftning.
-- **Ingen menneskelig SmPC tilgængelig:** Da ingen menneskelig markedsføringstilladelse eksisterer, er der ingen godkendt Produktresumé til menneskelig sikkerhedsreference.
-- **Ingen lægemiddelinteraktionsdata tilgængelig** fra DrugBank for menneskelig brugskontekst.
-
-> Da Amitraz ikke har nogen godkendt menneskelig indikation eller markedsføringstilladelse i Danmark eller noget andet land, henvises til toksikologiske referencedatabaser (f.eks. TOXBASE, Micromedex) og veterinære produktsmpc'er for tilgængelig sikkerhed og eksponerringsinformation.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [22488596](https://pubmed.ncbi.nlm.nih.gov/22488596/) | 2012 | Review | Compendium | Opdatering om behandling af hundens demodikose. Amitraz-skyl (0,025 %) eller makrocykliske laktoner virker. Højere koncentration og hyppigere brug øger både succesrate og risiko for bivirkninger |
+| [22167167](https://pubmed.ncbi.nlm.nih.gov/22167167/) | 2011 | Review | Tierarztl Prax Ausg K | Evidensbaseret gennemgang af behandling af hundens demodikose. Alopeci er et kendetegn ved sygdommen |
+| [6504010](https://pubmed.ncbi.nlm.nih.gov/6504010/) | 1984 | Review | Modern Veterinary Practice | Demodikose hos katte med ikke-kløende alopeci. Behandlet med topisk kalksvovlopløsning |
+| [8833611](https://pubmed.ncbi.nlm.nih.gov/8833611/) | 1996 | Review (jf. klassificering) | Veterinary Quarterly | Demodikose hos to ilder med lokal alopeci. Amitraz-behandling var effektiv uden mærkbare bivirkninger |
+| [32814497](https://pubmed.ncbi.nlm.nih.gov/32814497/) | 2021 | Case-rapport | N Z Vet J | Sarkoptisk og chorioptisk fnat hos en flok alpakaer, behandlet med topisk amitraz og subkutan ivermectin |
+| [17610494](https://pubmed.ncbi.nlm.nih.gov/17610494/) | 2007 | Case-rapport | Vet Dermatol | Tre alpakaer med sarkoptisk fnat, som ikke responderede på eprinomectin og doramectin, blev behandlet med succes med amitraz |
+| [19265536](https://pubmed.ncbi.nlm.nih.gov/19265536/) | 2009 | Ikke klassificeret (case) | Parasit Vectors | Amitraz + metaflumizon (spot-on) mod generaliseret demodikose hos hund |
+| [25648673](https://pubmed.ncbi.nlm.nih.gov/25648673/) | 2015 | Ikke klassificeret (udbrudsrapport) | J Vet Med Sci | Udbrud af sarkoptisk fnat hos maraer i zoo. Fuld bedring efter koloniomfattende akaricidbehandling |
+| [34644900](https://pubmed.ncbi.nlm.nih.gov/34644900/) | 1995 | Ikke klassificeret (case) | Vet Dermatol | Chihuahua med demodexmider. Efter 4 måneders amitraz-bade var hudskrab negative, og håret voksede ud igen |
+| [7492657](https://pubmed.ncbi.nlm.nih.gov/7492657/) | 1995 | Case-rapport | J Vet Med Sci | Demodikose hos guldhamster. Amitraz i kombination med selensulfid var ikke fuldt effektivt, og coumaphos gav fuld helbredelse |
 
 ---
 
-## Konklusion og næste trin
+## Oplysninger om det danske marked
 
-**Afgørelse: Afvent**
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105938717 | Apivar (Veto Pharma SAS) | Bistadestrip | Ikke oplyst i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Ud fra amitraz' farmakologi (alfa-2-agonisme) er der en teoretisk risiko for sedation, bradykardi, hypotension og hyperglykæmi. Ved forgiftning kan der desuden ses CNS-depression og urinretention. Disse oplysninger stammer fra mekanistisk vurdering, ikke fra produktresuméet.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Det hele tilgængelige vidensgrundlag består udelukkende af veterinære caserapporter og oversigter hos dyr (L4), uden menneskelige kliniske forsøg, uden menneskelig observationsdata og uden menneskelige mekanistiske undersøgelser. Kombineret med fravær af nogen menneskelig markedsføringstilladelse globalt, betydelige systemiske sikkerhedsrisici fra alfa-2-adrenerg agonisme og kritiske datagab i MOA og menneskelig sikkerhedsprofiler, er der i øjeblikket intet grundlag for at fremme amitraz som kandidat til menneskelig lægemiddelgenbestemmelse til alopeci.
+Evidensen er på niveau L4. Den består udelukkende af dyrestudier, hvor amitraz behandler mideinfestation og derved indirekte løser hårtab, og den kan ikke overføres til human alopeci. Der er ingen kliniske forsøg, ingen mekanistisk kobling til hårvækst og en relevant sikkerhedsprofil for et systemisk alfa-2-agonistisk stof.
 
-**For at fortsætte ville følgende være nødvendigt:**
+**For at komme videre kræves:**
+- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen (blokerende datahul: advarsler og kontraindikationer mangler, så sikkerhedsscreening ikke kan gennemføres)
+- Mekanismedata (MOA) fra DrugBank
+- Præklinisk eller mekanistisk evidens for en effekt på hårsækkene eller relevante veje ved human alopeci
+- Vurdering af ruteforenelighed og human sikkerhed ved topisk eller systemisk brug, herunder alfa-2-relaterede bivirkninger
 
-- **Proof-of-concept hos mennesker:** Evidens for at *Demodex*-overbefolkning er kausalt forbundet til den specifikke alopeci-undertype i spørgsmål (f.eks. biopsikonfirmeret demodicosis-associeret alopeci)
-- **Menneskelig sikkerhedsfarmakologidata:** Dermal absorption, systemisk biotilgængelighed og tolerabilitet af en topical amitraz-formulering hos mennesker
-- **Prækliniske studier i menneskelige hudmodeller:** In vitro eller ex vivo-studier, der bekræfter effektivitet mod menneskelig *Demodex* med acceptable sikkerhedsmargener
-- **Mekanisme af virkning afklaring:** Fuldstændig farmakologisk profil fra DrugBank/primær litteratur for at vurdere alfa-2-agonist systemisk eksponeringsrisiko med topical application
-- **Regulatorisk vejledning:** Konsultation med Lægemiddelstyrelsen om gennemførlighed af et first-in-human program givet den nuværende regulatoriske status (ingen godkendt menneskelig produkt)
-- **Lægemiddelinteraktionsdata:** Formel DDI-vurdering før noget menneskelig studie kan designes
-
----
-
-*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Lægemiddelgenbestemmelse kræver klinisk validering før enhver terapeutisk anvendelse. Dataskæring: 2026-04-04.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser fra TxGNN kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

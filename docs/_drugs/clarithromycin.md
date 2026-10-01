@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clarithromycin
-parent: Kun modelforudsigelse (L5)
-nav_order: 114
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 115
+evidence_level: L4
 indication_count: 10
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clarithromycin: Fra bakterieinfektioner til hyperamylasæmi
+# Clarithromycin: Fra bakterielle infektioner til hyperamylasæmi
 
-## Ét-sætnings-opsummering
+## Resumé
 
-Clarithromycin er et makrolid-antibiotikum, der bruges til at behandle et bredt spektrum af bakterieinfektioner, herunder luftvejsinfektioner, hud- og bløtdelsinfektioner og *Helicobacter pylori*-associeret peptisk ulcussygdom.
-TxGNN-modellen forudsiger, at det kan være effektivt for **hyperamylasæmi**, med **0 kliniske forsøg** og **1 publikation**, der i øjeblikket understøtter denne retning.
-Det overordnede bevisgrundlag er minimalt (L5), og der er ikke etableret noget direkte mekanistisk link mellem clarithromycin og hyperamylasæmi.
+Clarithromycin er et makrolid-antibiotikum, som normalt bruges mod bakterielle infektioner. Den præcise indikationstekst er ikke oplyst i datagrundlaget.
+TxGNN-modellen forudsiger, at det kan have effekt på **hyperamylasæmi**, men støtten er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt kasuistik).
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke registreret i Danmark; clarithromycin er globalt kendt for bakterieinfektioner (luftveje, hud, *H. pylori*-eradikation) |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i datagrundlaget (makrolid-antibiotikum mod bakterielle infektioner) |
 | Forudsagt ny indikation | Hyperamylasæmi |
-| TxGNN forudsigelsesscore | 99.35% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-forudsigelsesscore | 99,35 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I øjeblikket er detaljerede mekanisme-af-handling-data ikke tilgængelige i dette bevisgrundlag. Baseret på kendt information er clarithromycin et makrolid-antibiotikum, der tilhører samme klasse som azithromycin og erythromycin. Dets antibakterielle virkning opnås ved binding til den ribosomale 50S-underenhed, hvorved bakteriel proteinsyntes hæmmes. Derudover er makrolider kendt for immunomodulatoriske egenskaber — især undertrykkelse af NF-κB signalering, reduktion af pro-inflammatoriske cytokiner (IL-6, IL-8, TNF-α) og hæmning af matrix metalloproteinaser — som ligger til grund for deres brug i kroniske luftvejsinflammatoriske tilstande såsom diffus panbronkiolitis.
+Der foreligger ingen detaljerede data om virkningsmekanismen. Clarithromycin er et makrolid-antibiotikum med kendte immunmodulerende egenskaber. Dets effekt ved bakterielle infektioner er veldokumenteret.
 
-Hyperamylasæmi defineres som en forhøjet serum-amylasekoncentration og opstår fra en række årsager, herunder akut pankreatitis, spytkirtellidelser og sekundær inddragelse af disse organer under systemisk sygdom. Clarithromycin har ingen etableret farmakologisk vej til at reducere eller modulere serum-amylase.
+Der er ikke identificeret nogen plausibel mekanisme, der kobler clarithromycin til nedsættelse af serumamylase. Den eneste refererede artikel er en kasuistik om en lungeinfektion med *Mycobacterium abscessus* hos en patient med primær makroamylasæmi. Clarithromycin er sandsynligvis givet som antimikrobiel behandling. Amylaseforhøjelsen ser ud til at være et samtidigt fund og ikke et behandlingsmål.
 
-Den eneste understøttende publikation (PMID 15228140) er en japansk sagsrapport fra 2004, der beskriver en 76-årig mand med *Mycobacterium abscessus*-lungeinfektion, som tilfældigvis havde primær makroamylasæmi som en komorbititet. Hyperamylasæmi var i dette tilfælde ikke et behandlingsmål — det var et ledsagende fund, sandsynligvis fra pankreas- eller spytkirtelinddragelse under systemisk infektion. TxGNN-forudsigelsen afspejler sandsynligvis en fjern videngraf-forbindelse mellem infektion, systemisk inflammation og amylaseforhøjelse, snarere end et direkte terapeutisk forhold. Den biologiske plausibilitet af denne genbrugshypotese er meget lav.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Den høje score (0,993) er alene en forudsigelse fra videngrafen og ikke et udtryk for klinisk effekt.
 
 ---
 
-## Litteraturbeviser
+## Klinisk evidens
 
-| PMID | År | Type | Tidsskrift | Vigtige fund |
-|------|-------|------|----------|---------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Sagsrapport | Nihon Kokyuki Gakkai zasshi (J. Japanese Respiratory Society) | En 76-årig mand med *M. abscessus*-lungeinfektion kompliceret af primær makroamylasæmi. Hyperamylasæmi var en tilfældig komorbititet — ikke indikationen for clarithromycin-behandling og ikke et klinisk målrettet resultat. |
+Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-Clarithromycin er ikke i øjeblikket registreret eller markedsført i Danmark. Der er ingen markedsføringstilladelser registreret hos Lægemiddelstyrelsen, og ingen centraliserede EMA-tilladelser er opført for denne medicin i dette datasæt.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresuméet (SmPC) for sikkerhedsoplysninger.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Kasuistik | Nihon Kokyuki Gakkai zasshi | Lungeinfektion med *M. abscessus* hos en 76-årig mand, kompliceret af primær makroamylasæmi. Ingen holdepunkter for, at clarithromycin sænker amylase. |
 
 ---
 
-## Konklusion og næste trin
+## Information om markedet i Danmark
 
-**Beslutning: Afvent**
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107108924 | Clarithromycin 1A Pharma (2care4 ApS) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-modelscore (99.35%) består beviserne, der understøtter clarithromycin til hyperamylasæmi, af en enkelt sagsrapport fra 2004, hvor forhøjet amylase var en tilfældig komorbititet — ikke behandlingsmålet. Der er intet etableret mekanistisk link, ingen kliniske forsøg, ingen regulatorisk godkendelse i Danmark, og den biologiske plausibilitet vurderes som meget lav.
+Der er ingen kliniske forsøg og kun én kasuistik, hvor sammenhængen sandsynligvis er tilfældig. Der er ingen plausibel mekanisme, og den høje TxGNN-score er en ren modelforudsigelse.
 
-**For at fortsætte er følgende nødvendigt:**
-- Mekanisme-af-handling-data (MOA) fra DrugBank for at vurdere enhver indirekte vej, der forbinder clarithromycin til amylaseregulering
-- Fuldt sikkerhedsprofil inklusiv vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel-interaktioner (fra SmPC)
-- Mindst ét hypotesedannende præ-klinisk forsøg, der demonstrerer en virkning af clarithromycin på amylaseproduktion eller -sekretion
-- En plausibel biologisk begrundelse, der skelner denne forudsigelse fra en videngraf-artefakt, før nogen klinisk undersøgelse er berettiget
+**For at komme videre kræves:**
+- Produktresumé fra Lægemiddelstyrelsen med indikationer, advarsler og kontraindikationer
+- Data om virkningsmekanisme fra DrugBank
+- Prækliniske eller kliniske data, der understøtter en effekt på amylaseniveauet
 
+**Bemærkning:** Blandt de øvrige forudsigelser i Evidence Pack er *punctate epithelial keratoconjunctivitis* (score 99,11 %, evidensniveau L3) mere plausibel. Makrolider anvendes ved meibomitis-relateret keratokonjunktivitis. Artiklen (PMID 38472959, 2024) er dog kun vurderet ud fra titel og uddrag. Det er ikke bekræftet, at clarithromycin er undersøgt specifikt, og den bør læses i fuldtekst, før en vurdering kan foretages.
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

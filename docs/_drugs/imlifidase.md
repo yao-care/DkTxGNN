@@ -2,7 +2,7 @@
 layout: default
 title: Imlifidase
 parent: Kun modelforudsigelse (L5)
-nav_order: 229
+nav_order: 230
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imlifidase: Fra Transplantationsdesensibilisering (Ubekræftet) til Diabetisk Grå Stær
+# Imlifidase: Fra desensibilisering ved nyretransplantation til diabetisk katarakt
 
-## Et-sætnings Resumé
+## Resumé
 
-> Imlifidase (DrugBank DB15258) har ingen bekræftet oprindelig indikation i det aktuelle bevispakke — baggrundsviden antyder brug som en før-transplantations IgG-nedbrydende desensibiliseringsagent, men dette er **ikke hentet fra dette datasæt** og kræver manuel verifikation.
-> TxGNN-modellen forudsiger potentiel relevans til **Diabetisk Grå Stær**, men dette understøttes af **0 kliniske forsøg** og **0 publikationer**, og modellens egen begrundelse markerer resultatet som muligvis en vidensgraf-klynge-artefakt snarere end et ægte farmakologisk signal.
-
----
-
-## Hurtig Oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Oprindelig Indikation | Ikke etableret i dette bevispakke — `original_indications` er tom og `original_moa` er markeret som et datahuller |
-| Forudsagt Ny Indikation | Diabetisk Grå Stær |
-| TxGNN Forudsigelsesscore | 98.75% |
-| Evidensniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | **Vent** |
+Imlifidase er et enzym, der spalter IgG-antistoffer, og det bruges til desensibilisering forud for nyretransplantation. TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**. Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, og der er ikke identificeret nogen sandsynlig mekanistisk forbindelse.
 
 ---
 
-## Hvorfor er denne Forudsigelse Rimelig?
+## Hurtigt overblik
 
-Detaljerede virkningsmekanisme-data er ikke tilgængelige for Imlifidase i dette bevispakke (`original_moa` = datahuller), og ingen oprindelig indikation er registreret. Baggrundsfarmakologisk viden — **ikke hentet fra dette datasæt og kræver uafhængig verifikation** — beskriver Imlifidase som en IgG-nedbrydende cystein-protease, der bruges til antistof-desensibilisering før organransplantation hos højt sensibiliserede patienter. Denne baggrund er inkluderet her kun fordi modellens egen repurposing-begrundelse præsenterer den; den bør bekræftes mod DrugBank/EMA/SmPC-kilder, før den er pålidelig.
-
-Kritisk set er den modelgenererede begrundelse for denne forudsigelse selv skeptisk: den fastslår, at diabetisk grå stær-patologi drives af linse-proteinglykering, sorbitol-vejens akkumulation og oxidativ stress — mekanismer med **ingen kendt forbindelse** til IgG-spaltning eller komplementmedierede immunveje. Begrundelsen noterer eksplicit, at den høje TxGNN-score kan afspejle en **klynge-artefakt** i vidensgraf-rummet (sygdomsknuder for forskellige grå stær-subtyper indlejret tæt sammen) snarere end et ægte farmakologisk signal.
-
-Dette understøttes af strukturen på den rangerede kandidatliste: 8 af de top 10 forudsigelser er grå stær-subtyper/varianter (diabetisk, kraniostenose, modne, tetanisk, umodne, type-2-diabetes-associerede) klynget på næsten identiske score (~98,7–98,75%), herunder eksakte dubletter. Dette mønster er konsistent med en embeddings-rum-artefakt, der påvirker en hel sygdomsklynge, snarere end en specifik, differentiet biologisk hypotese for Imlifidase. I betragtning af fravær af nogen mekanistisk, præklinkisk eller klinisk støtte bør denne forudsigelse behandles som udelukkende eksplorativ.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Desensibilisering ved nyretransplantation (iflg. analysen i Evidence Pack; indikationsteksten i markedsføringstilladelsen er ikke angivet) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,75 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Bevis fra Kliniske Forsøg
+## Hvorfor er denne forudsigelse (ikke) rimelig?
+
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i Evidence Pack. Imlifidase er en IgG-spaltende endopeptidase (IdeS), som fjerner cirkulerende IgG-antistoffer. Det udnyttes ved transplantation, hvor antistoffer ellers kan forårsage afstødning.
+
+Diabetisk katarakt udvikles ikke via antistoffer. Den skyldes primært aktivitet i polyol-vejen, osmotisk stress og glykering i øjets linse. Der er derfor ingen kendt rolle for IgG-depletering i sygdomsmekanismen.
+
+Den høje score på 98,75 % er en grafbaseret forudsigelse. Den synes at afspejle nærhed til andre katarakt-termer i vidensgrafen snarere end en lægemiddelspecifik mekanisme. De øvrige forudsigelser på listen er alle katarakttyper, og ingen af dem har en plausibel forbindelse til IgG-spaltning.
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk forbindelse |
+|------|------|------|
+| Diabetisk katarakt | 98,75 % | Ingen plausibel forbindelse. Skyldes metabolisk og osmotisk stress i linsen. |
+| Kraniostenose-katarakt | 98,69 % | Ingen plausibel forbindelse. Sjælden syndromisk eller genetisk tilstand. |
+| Moden katarakt | 98,69 % | Ingen plausibel forbindelse. Sent stadium, behandles kirurgisk. |
+| Tetanisk katarakt | 98,69 % | Ingen plausibel forbindelse. Hænger sammen med hypokalcæmi og hypoparathyroidisme. |
+| Katarakt ved type 2-diabetes | 98,69 % | Ingen plausibel forbindelse. Drevet af hyperglykæmi og oxidativt stress. |
+| Umoden katarakt | 98,69 % | Ingen plausibel forbindelse. Ingen kendt antistofkomponent. |
+
+Rangering 1-10 indeholder dubletter. Diabetisk katarakt, tetanisk katarakt, moden katarakt og katarakt ved type 2-diabetes optræder flere gange.
+
+---
+
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om Dansk Marked
+## Information om det danske marked
 
-Imlifidase har i øjeblikket **ingen markedsføringstilladelse i Danmark** (`market_status`: Ikke markedsført; 0 registrerede licenser). Ingen produkt-, doseringsform- eller godkendt-indikationsdata er tilgængelig fra Laegemiddelstyrelsen eller EMA centraliserede poster i dette bevispakke.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106226719 | Idefirix | Pulver til koncentrat til infusionsvæske, opløsning | Hansa Biopharma AB |
 
----
-
-## Sikkerhedsmæssige Overvejelser
-
-Venligst se det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
-
-*(Bemærk: der blev ikke fundet data om lægemiddel-lægemiddel-interaktioner; vigtige advarsler og kontraindikationer er i øjeblikket utilgængelige og er markeret som et blokerande datahuller — se Næste Trin.)*
+Lægemidlet gives som injektion/infusion. Indikationsteksten er ikke angivet i de tilgængelige data.
 
 ---
 
-## Konklusion og Næste Trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Vent**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen har ingen bevis fra kliniske forsøg eller litteratur (Evidensniveau L5), og modellens egen mekanistiske begrundelse sætter spørgsmålstegn ved biologisk plausibilitet, hvilket tyder på en mulig vidensgraf-embeddings-artefakt, der påvirker en hel grå stær-subtype-klynge snarere end en specifik, troværdig hypotese.
-- Oprindelig indikation og virkningsmekanisme-data mangler begge fra dette bevispakke, og et **blokerande** datahuller (manglende TFDA/lokal etiket-advarsler og kontraindikationer) forhindrer selv en foreløbig (S1) sikkerhedsvurdering.
+Forudsigelsen bygger udelukkende på modelnærhed i vidensgrafen (evidensniveau L5). Der er ingen kliniske forsøg eller publikationer, og virkningsmekanismen taler imod en effekt ved katarakt, som ikke er antistofmedieret.
 
-**For at fortsætte er følgende nødvendig:**
-- Bekræftet oprindelig indikation og virkningsmekanisme for Imlifidase (DG002, høj alvorlighed — forespørg DrugBank API)
-- Lokale regulatoriske etiket-advarsler, kontraindikationer og sikkerhedsdata til at løse det blokerande huller (DG001 — indhent og parse SmPC/etiket PDF)
-- Uafhængig farmakologisk vurdering af, hvorvidt der kan bestå nogen plausibel mekanistisk forbindelse mellem IgG-nedbrydende protease-aktivitet og diabetisk grå stær-patologi
-- Afklaring af dublette/næsten-identiske rangerede kandidater, før dette signal betragtes som adskilt fra en bredere "grå stær-klynge"-artefakt
-- Hvis forfølges videre, præklinkisk eller case-niveau-bevis, før nogen klinisk investering vurderes
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsscreening
+- Præklinisk eller mekanistisk evidens for en rolle for IgG eller IdeS-substrater i linsepatologi
+- En vurdering af administrationsvej, da øjensygdomme typisk kræver lokal behandling, mens Idefirix er til intravenøs infusion
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser om lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

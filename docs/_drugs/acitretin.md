@@ -2,15 +2,15 @@
 layout: default
 title: Acitretin
 parent: Moderat evidens (L3-L4)
-nav_order: 15
-evidence_level: L3
+nav_order: 16
+evidence_level: L4
 indication_count: 8
 ---
 
 # Acitretin
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,104 @@ Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Acitretin: Fra Psoriasis til Akne
+# Acitretin: Fra psoriasis til akne
 
-## Sammenfatning i en sætning
+## Resumé i få sætninger
 
-Acitretin er et anden-generations oralt aromatisk retinoid, som er internationalt etableret til behandling af svær psoriasis og andre keratiniseringsforstyrrelser, selvom det i øjeblikket ikke har markedsføringsgodkendelse i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **akne (sygdom)** — herunder hidradenitis suppurativa (acne inversa) — med en forudsigelsesscore på **99.94%**.
-Evidensen, der understøtter denne retning, omfatter **1 klinisk forsøg** (indirekte, kun retinoid-klassekontekst) og **18 publikationer**, hvoraf flere direkte rapporterer acitretin-brug ved hidradenitis suppurativa og akne-spektrumstilstande.
-
----
-
-## Hurtig Oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Original Indikation | Svær psoriasis og keratiniseringsforstyrrelser (etableret international brug; ikke registreret i Danmark) |
-| Forudsagt Ny Indikation | Akne (sygdom), herunder hidradenitis suppurativa / acne inversa |
-| TxGNN-Forudsigelsesscore | 99.94% |
-| Evidensniveau | L3 |
-| Danmark Markedsstatus | Ikke markedsført |
-| Antal Markedsføringsgodkendelser | 0 |
-| Anbefalet Afgørelse | Fortsæt med Sikkerhedsforanstaltninger |
+Acitretin er en oral retinoid (A-vitamin-derivat) af anden generation. Ifølge litteraturen har den især haft succes ved psoriasis. Den danske registrering angiver ikke selv en indikationstekst.
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **akne**.
+Evidensen er meget svag: **1 klinisk forsøg** (som omhandler isotretinoin, ikke acitretin) og **18 publikationer**, hvoraf kun ét enkelt case report omhandler acitretin ved svær nodulocystisk akne.
 
 ---
 
-## Hvorfor er Denne Forudsigelse Rimelig?
+## Hurtigt overblik
 
-Acitretin er det aktive metabolit af etretinate og fungerer som en fuld agonist ved kernenukleære retinoidreceptorer (RAR-α, RAR-β og RAR-γ). Gennem disse receptorer regulerer det gentranskripton, der kontrollerer keratinocytproliferation, differentiering og talgkirtelaktivitet. Kritisk for akne nedregulerer RAR-aktivering lipogenesegener i talgkirler, hvilket reducerer talgproduktion — en central patogenetisk drivkraft for både acne vulgaris og hidradenitis suppurativa (HS). Parallelt udviser acitretin anti-inflammatoriske og immunomodulatoriske effekter ved at undertrykke pro-inflammatoriske cytokiner (IL-1β, TNF-α) og ved at hæmme leukotrienC4-frigivelse fra eosinofiler, hvilket adresserer den inflammatoriske komponent af akne-spektrumsygdom.
-
-Den mekanistiske overlapning mellem acitretins etablerede indikation (psoriasis) og akne er betydelig. Begge tilstande involverer abnormal keratinocytdifferentiering, follikulær hyperkeratinisering og dysregulerede inflammatoriske kaskader centreret omkring pilosebaceus-enheden — det primære mål for retinoidterapi. Hidradenitis suppurativa, nu ofte kaldet "acne inversa," forståes som en follikulær okklusions-sygdom med en kronisk inflammatorisk komponent, hvilket gør RAR-agonisme til en mekanistisk rationel tilgang. Vigtigt er, at publiceret litteratur bemærker, at acitretin viser overlegen effektivitet sammenlignet med isotretinoin ved HS, præcis fordi dets mekanisme bedre addresserer follikulær hyperkeratose snarere end alene talgundertrykkelse.
-
-Den mekanistiske rationale understøttes af kliniske rapporter fra praksis: Boer & Nazary (BJD, 2011) beskriver over 25 års langtidsbehandling med acitretin til HS med lovende resultater, og Scheman (Cutis, 2002) dokumenterer succesfuld behandling af svær nodulo-cystisk akne og HS med acitretin efter mislykkede behandlingskurser med isotretinoin. Den Europæiske S1-Guideline for HS/acne inversa (Zouboulis et al., JEADV 2015) inkorporerer retinoidterapi inden for sit terapeutiske rammeværk, hvilket forstærker den videnskabelige troværdighed af denne repurposerings-retning.
-
----
-
-## Klinisk Forsøgs-Evidens
-
-Evidenssøgningen identificerede kun ét klinisk forsøg, som har lav direkte relevans for acitretin ved akne:
-
-| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige Resultater |
-|-------------|------|--------|----------|------------------|
-| [NCT04663906](https://clinicaltrials.gov/study/NCT04663906) | N/A | Ukendt | 300 | Observationsstudie, der vurderer, om oralt **isotretinoin** (ikke acitretin) øger COVID-19-infektionsrisiko blandt akne-patienter via retinoid-induceret slimhindetørhed. Forsøgsmedicin er et anderledes retinoid; primært endepunkt er infektionsrisiko, ikke behandlingseffektivitet. Giver kun baggrund for retinoid-klasse — ingen direkte evidens for acitretin ved akne. |
-
-> Der er i øjeblikket ingen kliniske forsøg, der specifikt evaluerer acitretin til acne vulgaris eller hidradenitis suppurativa, registreret på ClinicalTrials.gov eller WHO ICTRP.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering. Litteraturen (PMID 1617858) beskriver psoriasis som hovedindikation |
+| Forudsagt ny indikation | Akne |
+| TxGNN-forudsigelsesscore | 99,94 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteratur-Evidens
+## Hvorfor er forudsigelsen rimelig?
 
-| PMID | År | Type | Tidsskrift | Vigtige Resultater |
-|------|-----|------|-----------|------------------|
-| [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | Retrospektiv kasusserie | Br J Dermatol | **Direkte acitretin-evidens**: Langtidsbehandling med acitretin til HS over 25 år; acitretin viser lovende resultater, hvor isotretinoin har begrænset effekt; anfægter etiketten "acne inversa" givet distinkte mekanismer |
-| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | Kasusrapport | Cutis | **Direkte acitretin-evidens**: Svær nodulo-cystisk ansigtsakne og HS behandlet succesfuldt med acitretin efter to fulde behandlingskurser med isotretinoin ikke opnåede remission |
-| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | Klinisk Guideline (S1) | JEADV | Europæisk S1-guideline for HS/acne inversa; retinoidterapi inkluderet som behandlingsmulighed; dækker epidemiologi (1% prevalens i Europa), sygdomsbyrde og ledelses-rammeværk |
-| [29234829](https://pubmed.ncbi.nlm.nih.gov/29234829/) | 2018 | Oversigt | Der Hautarzt | Lægemiddelterapi af acne inversa; beskriver retinoider (herunder acitretin) ved siden af antibiotika (clindamycin/rifampicin) og TNF-α-hæmmere (adalimumab) som terapeutiske muligheder |
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Oversigt | Clin Dermatol | Omfattende oversigt over A-vitamin og retinoider inden for dermatologi; navngiver eksplicit acitretin blandt terapeutiske orale retinoider; diskuterer indikationsspektrum herunder inflammatoriske hudsygdomme |
-| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Oversigt | Drugs | Oversigt over retinoidbrug inden for dermatologi; acitretin (anden-generations) bruges til psoriasis, hyperkeratotiske lidelser, svær akne-relaterede dermatitiser og kemisk prævention af hudkræft |
-| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Mekanistisk Oversigt | Dermatology | Retinoidhæmning af talgkirtelaktivitet; vurderer, om anti-akne-effekter af nyere orale retinoider (herunder acitretin) kan forudsiges fra eksperimentelle modeller |
-| [2112772](https://pubmed.ncbi.nlm.nih.gov/2112772/) | 1990 | Mekanistisk Studie | Prostaglandins | Acitretin demonstrerede hæmning af leukotrienC4-frigivelse fra eosinofiler — understøttende den anti-inflammatoriske mekanisme relevant for aknepatogenese |
-| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | Farmakokinetik/Effektivitets-Oversigt | Clin Pharmacokinet | Farmakokinetik og klinisk effektivitet af retinoider herunder acitretin; beskriver anden-generations-retinoidernes primære succes ved psoriasis med relevant diskussion af akne-spektrum-applikationer |
-| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Oversigt | Skin Pharmacol Appl Skin Physiol | Retinoider som pleotrope forbindelser, der virker via kernenukleære receptorer på specifikke hudstrukturer; diskuterer fremtidigt dermatologiske indikationer og mekanistisk basis for akne-spektrum-tilstande |
+Der foreligger ingen detaljerede data om virkningsmekanisme for acitretin. Ud fra kendt viden er acitretin en retinoid, og retinoider påvirker keratinocytternes differentiering og nedsætter talgkirtelaktiviteten (PMID 8573927). Det er biologisk plausibelt ved akne, hvor overaktive talgkirtler og follikelforhornelse spiller en central rolle.
+
+Forholdet mellem den kendte brug (psoriasis og andre hyperkeratotiske hudlidelser) og akne er derfor først og fremmest et klassefællesskab: retinoider anvendes bredt i dermatologien. Den etablerede retinoid ved svær akne er dog **isotretinoin**, ikke acitretin. Den direkte evidens for acitretin er begrænset til ét case report af en patient med svær nodulocystisk akne og hidradenitis suppurativa (PMID 12080949). Her blev patienten først behandlet med isotretinoin.
+
+Acitretin er desuden kraftigt teratogent og kræver langvarig prævention. Et eventuelt repurposing-forslag skal derfor kunne vise en klar fordel frem for isotretinoin.
+
+De øvrige forudsigelser fra modellen (pædiatrisk systemisk lupus erythematosus, føtal erytroblastose og et familiært syndrom med kutan telangiektasi og oropharyngeal cancerdisposition) har ingen kliniske forsøg eller litteratur og hviler kun på modelscoren. Føtal erytroblastose er sandsynligvis en artefakt i vidensgrafen, da acitretin er kontraindiceret under graviditet.
 
 ---
 
-## Danmark Markedsinformation
+## Evidens fra kliniske forsøg
 
-Acitretin har i øjeblikket ingen national eller centraliseret markedsføringsgodkendelse i Danmark. Intet produkt er opført i Lægemiddelstyrelsens register.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT04663906](https://clinicaltrials.gov/study/NCT04663906) | Ikke angivet (N/A) | Ukendt | 300 | Undersøger, om oral isotretinoin øger risikoen for COVID-19-infektion og komplikationer. Omhandler ikke acitretin og tester ikke effekt ved akne (evidensgrad C) |
 
-| Markedsføringsgodkendelsesnummer | Produktnavn | Doseringform | Godkendt Indikation |
-|------------------------------|------------|-------------|-----------------|
-| *Ingen godkendelser i Danmark* | — | — | — |
+Ingen EudraCT-numre er tilgængelige. Der er ingen direkte kliniske forsøg med acitretin ved akne.
 
-> **Praktisk note for danske læger:** Acitretin er kommercielt tilgængelig i flere EU-medlemsstater som **Neotigason** (Stiefel/GSK, 10 mg og 25 mg kapsler), godkendt under EMA-gensidig anerkendelsesprocedure til svær psoriasis og keratiniseringsforstyrrelser. Adgang i Danmark vil kræve en ansøgning om særlig godkendelse (*særlig tilladelse*) fra Lægemiddelstyrelsen. Neotigason SmPC er tilgængelig via EMA-medicin-databasen.
+---
+
+## Litteraturevidens
+
+Der er ingen RCT'er blandt de fundne publikationer. Tabellen viser de mest relevante af i alt 18.
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | Case report | Cutis | Patient med svær nodulocystisk akne og hidradenitis suppurativa behandlet med acitretin efter to fulde forløb med isotretinoin |
+| [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | Langtidsopfølgning | Br J Dermatol | Acitretin ved hidradenitis suppurativa (acne inversa), som er en anden sygdom end akne vulgaris. Spredte case reports har vist lovende resultater |
+| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | Retningslinje | J Eur Acad Dermatol Venereol | Europæisk S1-retningslinje for hidradenitis suppurativa/acne inversa |
+| [29234829](https://pubmed.ncbi.nlm.nih.gov/29234829/) | 2018 | Review | Hautarzt | Lægemiddelbehandling af acne inversa. Antibiotika og TNF-α-hæmmere anbefales |
+| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clin Dermatol | Oversigt over A-vitamin og retinoider i dermatologien, herunder isotretinoin og acitretin |
+| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Review | Drugs | Nuværende og fremtidig brug af retinoider ved bl.a. psoriasis, svær akne og akne-relaterede dermatoser |
+| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | Review | Clin Pharmacokinet | Farmakokinetik og effekt af retinoider. Isotretinoin er gavnligt ved svær akne, mens acitretin og etretinat har haft størst succes ved psoriasis |
+| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Review | Dermatology | Isotretinoins effekt ved akne skyldes hæmning af talgkirtelaktivitet. Det er uafklaret, om nye orale retinoiders antiakne-effekt kan forudsiges ud fra eksperimentelle modeller |
+| [33036809](https://pubmed.ncbi.nlm.nih.gov/33036809/) | 2020 | Konsensus | An Bras Dermatol | Konsensus om oral isotretinoin. Meget effektivt ved akne, men teratogenicitet er den alvorligste bivirkning |
+| [2112772](https://pubmed.ncbi.nlm.nih.gov/2112772/) | 1990 | Laboratoriestudie | Prostaglandins | Otte retinoider, herunder acitretin, hæmmer eosinofile granulocytters frigivelse af leukotrien C4, hvilket peger på antiinflammatorisk effekt |
+
+Bemærk: Flere publikationer omhandler *acne inversa* (hidradenitis suppurativa) eller isotretinoin og er derfor kun indirekte relevante for akne vulgaris og acitretin.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105627515 | Acitretin "Orifarm" (Orifarm Generics A/S) | Kapsler, hårde | Ikke angivet i de foreliggende data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Detaljerede sikkerhedsdata fra et dansk eller EMA-produktresumé kunne ikke hentes i det aktuelle evidenspakke. Imidlertid bærer acitretin velkendte klassiske sikkerhedsbekymringer, som er kritiske for klinisk beslutningstagning:
+- **Teratogenicitet**: Acitretin er kraftigt teratogent og kræver langvarig prævention. Litteraturen (PMID 2523875) nævner desuden knogletoksicitet og lægemiddelinteraktioner ved retinoider.
 
-- **Teratogenicitet (alvorlig):** Acitretin er en potent teratogen. Et strengt graviditetsprævention-program er obligatorisk. Unikt kan acitretin re-esterificeres til etretinate (en langtidsteratogen) i tilstedeværelsen af alkohol, hvilket forlænger teratogenitetsrisikofenen til **mindst 3 år** efter seponering — væsentlig længere end for isotretinoin.
-- **Hepatotoksicitet:** Leverprøver påkrævet ved baseline og under behandlingen.
-- **Hyperlipidemι:** Triglycerid- og kolesterolmonitorering påkrævet; dosisanpassning kan være nødvendig.
-- **Mucocutan toksicitet:** Tør hud, cheilitis og slimhindetørhed er meget almindelige og dosisafhængige.
-
-> Venligst se det godkendt Produktresuméet (SmPC) for Neotigason — tilgængelig via EMA-medicin-databasen — for det komplette og autoritative sikkerhedsprofil, kontraindikationer og lægemiddelinteraktionsinformation.
+Der er ikke fundet strukturerede oplysninger om advarsler, kontraindikationer eller interaktioner. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og Næste Trin
+## Konklusion og næste skridt
 
-**Afgørelse: Fortsæt med Sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Det mekanistiske grundlag for acitretin ved akne-spektrumsygdom er veletableret og farmakologisk sammenhængende (RAR-agonisme → talgkirtelsuppression, follikulær normalisering, anti-inflammatoriske effekter), og klinisk brug fra praksis ved hidradenitis suppurativa/acne inversa er dokumenteret i fagfællebedømt litteratur og godkendt inden for Europæiske kliniske retningslinjer (L3 evidens). Der er dog ingen randomiserede kontrolforsøg af acitretin specifikt til acne vulgaris eller HS blevet udført, ingen markedsføringsgodkendelse eksisterer i Danmark, og kritisk sikkerhedsdokumentation er endnu ikke blevet formelt gennemgået.
+Evidensen består kun af en høj modelscore, ét case report og indirekte litteratur. Det eneste kliniske forsøg omhandler isotretinoin. Isotretinoin er allerede den etablerede retinoid ved akne, og acitretins teratogenicitet gør det svært at begrunde en fordel.
 
-**For at fortsætte, er følgende nødvendigt:**
-- **[Blokererende]** Indhent og gennemgå det fulde Neotigason SmPC (EMA) for komplette kontraindikationer, advarsler og lægemiddelinteraktioner før eventuel klinisk brug
-- **Præciser klinisk omfang:** Skeln mellem acne vulgaris og hidradenitis suppurativa/acne inversa som målindikationen — evidensbase og behandlingskontekst adskiller sig væsentligt
-- **Regulatorisk vej:** Bestem, om en *særlig tilladelse*-ansøgning til Lægemiddelstyrelsen er påkrævet og mulig for den tilsigtede patient population
-- **Graviditetsprævention-protokol:** Etablér et obligatorisk graviditetsprævention-program (analogt til iPLEDGE eller EU-RETINOID-program) givet acitretins lange teratogenitetsrisikofenster
-- **Evidensopgradering:** Overvej at indlede eller understøtte et prospektivt observationsstudie eller systematisk gennemgang af acitretin ved HS for at flytte evidensniveauet fra L3 mod L2
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Data om virkningsmekanisme, fx fra DrugBank
+- Systematisk litteratursøgning efter kontrollerede studier af acitretin ved akne vulgaris, herunder sammenligning med isotretinoin
+- En vurdering af, om der findes en patientgruppe, hvor acitretin har en klar fordel frem for isotretinoin
+- Et program for risikominimering ved graviditet og prævention, hvis en indikation overvejes
 
----
-
-*Denne rapport genereres til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle lægemiddelrepurposerings-kandidater kræver klinisk validering før terapeutisk anvendelse.*
-
+*Dette er en forskningsbaseret vurdering og udgør ikke lægefaglig rådgivning. Forudsigelser fra TxGNN kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

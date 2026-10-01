@@ -2,7 +2,7 @@
 layout: default
 title: Tralokinumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 444
+nav_order: 446
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,72 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tralokinumab: Fra Atopisk Dermatitis til Diabetisk Katarakt
+# Tralokinumab: Fra atopisk dermatitis til diabetisk grå stær
 
-## Enlinjet Resumé
+## Resumé i én sætning
 
-Tralokinumab er et anti-IL-13 monoklonalt antistof, oprindeligt brugt til behandling af atopisk dermatitis. TxGNN-modellen forudsiger, at det kan være effektivt for **Diabetisk Katarakt**, med en præediktionscore på **98.69%**, men der er i øjeblikket **ingen kliniske forsøg og ingen publiceret litteratur**, der understøtter denne retning — signalet er udelukkende drevet af viden-grafs topologi.
+Tralokinumab er et anti-IL-13 monoklonalt antistof, som markedsføres i Danmark under navnet Adtralza og anvendes til atopisk dermatitis. TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk grå stær (diabetic cataract)**. Der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
 
-## Hurtig Oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig Indikation | Atopisk dermatitis (ifølge intern mekanistisk note; ikke bekræftet via formelle regulatoriske data — oprindelig indikationsfelt og licenser er tomme i denne bevispakke) |
-| Forudsagt Ny Indikation | Diabetisk Katarakt |
-| TxGNN Præediktionscore | 98.69% |
-| Bevisniveau | L5 (modelprediktion alene, ingen kliniske forsøg eller litteratur) |
-| Dansk Markedsstatus | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | Vent |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Atopisk dermatitis (fremgår af den mekanistiske begrundelse i Evidence Pack; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
+| TxGNN-prædiktionsscore | 98,69 % |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor Er Denne Prediktion Rimelig?
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som en Blokeringsgrundlaget/alvorlig datakløft). Baseret på de begrænsede tilgængelige oplysninger, er Tralokinumab et anti-IL-13 monoklonalt antistof, hvis virkning er etableret i atopisk dermatitis, en IL-13/Th2-drevet inflammatorisk tilstand.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i DrugBank-posten. Tralokinumab er et anti-IL-13 monoklonalt antistof, og dets virkning ved atopisk dermatitis er veldokumenteret. Der er dog ingen kendt mekanisme, der forbinder IL-13-blokade med grå stær.
 
-En hypoteseret — men ubekræftet — mekanistisk bro eksisterer mellem IL-13/Th2-signalering og diabetesbetinget vævsskade: TGF-β/fibrose-veje er blevet foreslået i litteraturen som potentielt relevante for linse-epitels patologi. Der er imidlertid ingen direkte molekylærbevis for, at IL-13-inhibering påvirker kataraktdannelse eller linses stofskifte.
+Diabetisk grå stær skyldes primært øget flux i polyolvejen, oxidativt stress og ophobning af AGE-produkter (advanced glycation end-products). Lavgradig inflammation kan bidrage, men en direkte rolle for IL-13 i linseopacitet er ikke påvist. Et stort antistofmolekyle har desuden dårlig adgang til den avaskulære linse.
 
-Flere af de øvrige højtrangerede forudsagte indikationer (tetanisk katarakt, kraniostenose-katarakt) involverer mekanismer — elektrolytforstyrrelser, udviklings-/skeletale genanormaliteter — der har ingen kendt biologisk forbindelse til IL-13-signalering overhovedet. Dette tyder på, at prognosen er drevet i høj grad af netværkstopologi/lighed i vidensgrafen snarere end en etableret farmakologisk begrundelse, hvilket er konsistent med det L5-bevisniveau, der er tildelt.
+Den høje score (0,987) afspejler derfor sandsynligvis nærhed i vidensgrafen og ikke en reel biologisk sammenhæng. De øvrige forudsagte indikationer er varianter af grå stær med samme score (ca. 98,63 %):
 
-## Klinisk Forsøgsbeviser
+- **Tetanisk grå stær** skyldes hypokalcæmi, og IL-13-blokade har ingen plausibel forbindelse til den.
+- **Moden og umoden grå stær** er morfologiske stadier uden en afgrænset ætiologi. Moden grå stær behandles endegyldigt kirurgisk. Den eneste mulige kobling er den kendte sammenhæng mellem atopisk dermatitis og atopisk grå stær, som er indirekte og ubevist for dette lægemiddel.
+- **Type 2-diabetes-associeret grå stær** har samme metaboliske begrundelse som diabetisk grå stær.
+- **Kraniostenotisk grå stær** er en sjælden syndromisk, genetisk betinget form uden kendt IL-13-involvering.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+## Evidens fra kliniske forsøg
 
-## Litteraturbeviser
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+## Litteraturevidens
 
-## Dansk Markedsinformation
+Der foreligger i øjeblikket ingen relateret litteratur.
 
-I øjeblikket ingen markedsføringstilladelser registreret i Danmark (markedsstatus: Ikke markedsført; 0 licenser på fil).
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106438220 | Adtralza (LEO Pharma A/S) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i data |
 
 ## Sikkerhedsovervejelser
 
-Venligst henvises til det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+- **Okulære bivirkninger**: Tralokinumab er forbundet med øjenrelaterede bivirkninger (konjunktivitis, keratitis), hvilket taler imod anvendelse i øjet.
+- **Lægemiddelinteraktioner**: Der blev ikke fundet interaktionsdata for lægemidlet.
 
-## Konklusion og Næste Trin
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-**Beslutning: Vent**
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation understøttes udelukkende af TxGNN-score (Bevisniveau L5), med nul kliniske forsøg, nul litteratur, ingen bekræftet virkningsmekanisme og ingen dansk markedstilstedeværelse. Der er i øjeblikket intet grundlag for at fremme denne kandidat ud over hypotesegenerering.
+Forudsigelsen hviler udelukkende på vidensgrafen (evidensniveau L5), uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanistisk forbindelse mellem IL-13-blokade og linseopacitet. Antistoffets dårlige adgang til linsen og de kendte okulære bivirkninger taler desuden imod.
 
-**For at fortsætte er følgende nødvendigt:**
-- Virkningsmekanisme (MOA) data for Tralokinumab (i øjeblikket en Blokering-alvorlighedsgrad datakløft)
-- Dansk/EU Produktresumé (SmPC) — advarsler, kontraindikationer, lægemiddelinteraktioner
-- Præ-kliniske eller mekanistiske studier, der etablerer en biologisk forbindelse mellem IL-13-inhibering og katarakt/linse-patologi
-- Bekræftelse af oprindelige godkendt(e) indikation(er) og eventuel eksisterende dansk eller EU markedsføringstilladelsestatus
-- Løsning af dupleks/overlappende forudsagte indikationer (flere rangerede kandidater er identiske eller tæt forbundne kataraktsubtyper) før yderligere prioritering
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som i dag mangler og blokerer sikkerhedsscreeningen
+- Mekanismedata (MOA) fra DrugBank til en egentlig mekanistisk analyse
+- Prækliniske eller mekanistiske data, der viser en rolle for IL-13 i linsepatologi ved diabetes
+- Vurdering af administrationsvej og lægemiddelmålets tilgængelighed i øjet (ruteforenelighed er endnu ikke vurderet)
 
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

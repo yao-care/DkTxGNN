@@ -2,7 +2,7 @@
 layout: default
 title: Thiamphenicol
 parent: Kun modelforudsigelse (L5)
-nav_order: 429
+nav_order: 431
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thiamphenicol: Fra bredt spektrum antibakteriel terapi til interventrikkulær septum aneurisme
+# Thiamphenicol: Fra bredspektret antibiotikum til septumaneurisme i hjertet
 
-## Sammenfatning i én sætning
+## Resumé
 
-Thiamphenicol er et bredt spektrum antibakterialt middel (et chloramfenikol analog, der hæmmer proteinsyntesen på den bakterielle 50S ribosomale subunit); ingen godkendt indikationstekst eller detaljeret virkningsmekanismedata er i øjeblikket tilgængelig for denne evaluering.
-TxGNN-modellen forudsiger, at det kan være relevant for **Interventrikkulær septum aneurisme**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
-Bevisstyrken ligger på niveau for model-forudsigelse-kun (L5), og lægemidlet markedsføres ikke i øjeblikket i Danmark.
+Thiamphenicol er et bredspektret antibiotikum, der hæmmer bakteriel proteinsyntese. Det eneste danske produkt er et veterinærlægemiddel.
+TxGNN-modellen forudsiger, at stoffet kan have effekt på **interventrikulært septumaneurisme** (*interventricular septum aneurysm*).
+Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på en computerberegnet score.
+
+---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke tilgængelig — ingen godkendt indikationstekst (lægemiddelklasse: bredt spektrum antibakterialt middel) |
-| Forudsagt ny indikation | Interventrikkulær septum aneurisme |
-| TxGNN-forudsigelsesscore | 96.54% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Bakterielle infektioner (bredspektret antibiotikum). Den danske godkendelse angiver ingen indikationstekst. |
+| Forudsagt ny indikation | Interventrikulært septumaneurisme |
+| TxGNN-score | 96,54 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor giver denne forudsigelse mening?
+---
 
-I øjeblikket er der ingen detaljerede virkningsmekanismedata for thiamphenicol tilgængelig i denne bevissamling. Baseret på kendt farmakologisk klasseinformation er thiamphenicol et bredt spektrum antibakterialt middel (et chloramfenikol analog), der virker ved at hæmme proteinsyntesen på den bakterielle 50S ribosomale subunit. Ingen oprindelig godkendt indikation er registreret i denne bevissamling, så en direkte sammenligning mellem en etableret indikation og den forudsagt ny indikation kan ikke foretages.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Interventrikkulær septum aneurisme er en strukturel/medfødt hjerteanomalien, ikke en tilstand, der primært drives af infektiøse eller inflammatoriske processer. Der er ingen kendt biologisk vej, der forbinder hæmning af ribosomalt proteinsyntese med septums væg struktur, hjertekardiovaskulær fibrose eller hjertekardiovaskulær udviklingssignalering. TxGNN-modellens høje score (96.54%) afspejler mest sandsynligt en indirekte association fanget på vidensgraf indlejringsniveau (f.eks. delte lægemiddel–gen–sygdoms co-forekomstmønstre) snarere end et mekanismestyret signal.
+Thiamphenicol er et bredspektret antibiotikum, der hæmmer bakteriel proteinsyntese ved at binde til den bakterielle 50S-ribosomsubunit. Detaljerede mekanismedata (MOA) findes ikke i den aktuelle datapakke, og stoffet har ingen registrerede oprindelige indikationer i datagrundlaget.
 
-Bemærkelsesværdigt deler flere andre toprangerede TxGNN-forudsigelser for dette lægemiddel (lungeventilsygdom, orofaciel spalte syndrom, Laubry-Pezzi syndrom, Pierre Robin syndrom) det samme mønster — strukturelle eller udviklings tilstande uden plausibel mekanistisk forbindelse til et antibakterialt middel, og uden korroborerende kliniske forsøg eller litteraturbevis. Denne konsistente mangel på uafhængig support på tværs af topforudsigelsessættet begrænser yderligere tilliden til denne specifikke kandidat.
+Interventrikulært septumaneurisme er en strukturel hjertetilstand. Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem en antibakteriel virkning og sygdommens opståen eller behandling. Forudsigelsen er derfor kun et resultat af modellens viden-graf (*knowledge graph*) og bør ikke tolkes som et behandlingssignal.
 
-## Klinisk forsøgsbevis
+Det samme gælder de øvrige top-forudsigelser fra modellen, som alle er scorer uden klinisk støtte:
 
-Der er i øjeblikket ingen registrerede relaterede kliniske forsøg
+- **Pulmonalklapsygdom** (96,32 %): Thiamphenicol kunne kun indirekte være relevant ved bakteriel endokarditis, og der er ikke fremlagt evidens herfor.
+- **Orofacialt spaltesyndrom** (96,31 %): Tilstanden er en udviklingsmæssig og genetisk misdannelse. Prænatal eksponering for antibiotika er et sikkerhedsspørgsmål, ikke et behandlingsrationale.
+- **Laubry-Pezzi syndrom** (96,26 %): Tilstanden er en strukturel hjertesygdom, og antibiotikaets mekanisme adresserer ikke patofysiologien.
+- **Genetisk syndromisk Pierre Robin-syndrom** (96,23 %): Tilstanden er en genetisk kraniofacial misdannelsessekvens uden kendt påvirkning fra stoffet.
 
-## Litteraturbevis
+---
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig
+## Klinisk evidens fra forsøg
 
-## Markedsinformation for Danmark
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-Ingen markedsføringstilladelser er i øjeblikket registreret for thiamphenicol i Danmark (markedsstatus: Ikke markedsført; samlet antal tilladelser: 0).
+---
 
-## Sikkerhedsovervejelser
+## Litteraturevidens
 
-Venligst se den godkendte sammenfatning af produktegenskaber (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105341713 | Taf Vet. (Eurovet Animal Health B.V.) | Kutanspray, opløsning | Ikke angivet |
+
+Produktet er et veterinærlægemiddel til anvendelse på huden. Det er ikke godkendt til mennesker i Danmark ifølge de foreliggende data. Det forudsatte administrationsvejs-match for en hjerteindikation er endnu ikke vurderet.
+
+---
+
+## Sikkerhedsmæssige overvejelser
+
+Der foreligger ingen lægemiddelinteraktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat hviler alene på modelforudsigelse (bevisniveau L5) uden understøttende kliniske forsøg eller litteratur, og den foreslåede mekanistiske forbindelse mellem et antibakterialt middel og en strukturel hjerteanomalien er ikke biologisk plausibel baseret på nuværende tilgængelig information. Desuden forhindrer en kritisk datakløft (manglende TFDA/SmPC etiketadvarsler og kontraindikationer) selv en indledende sikkerhedsvurdering (S1).
+Forudsigelsen har evidensniveau L5. Der er ingen kliniske forsøg, ingen litteratur og ingen plausibel mekanistisk sammenhæng mellem et antibakterielt stof og en strukturel hjertetilstand. Derudover mangler der sikkerhedsdata fra Lægemiddelstyrelsen, og det eneste danske produkt er et veterinærlægemiddel.
 
-**For at fortsætte er følgende nødvendig:**
-- Bekræftet virkningsmekanisme (MOA) data for thiamphenicol
-- Officiel produktetiket / SmPC advarsler, kontraindikationer og lægemiddelinteraktionsdata
-- Prækliniske eller mekanistiske studier, der etablerer en plausibel forbindelse til interventrikkulær septum aneurisme (eller omprioriteringsfunktion til en mekanistisk understøttet indikation)
-- Uafhængig klinisk forsøg eller litteraturbevis før fremdrift ud over S0
+**For at komme videre kræves:**
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (mangel på blokerende data)
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. via DrugBank
+- Tilgængeligt humant produkt eller en vurdering af administrationsvej i forhold til den forudsagte indikation
+- Prækliniske eller mekanistiske studier, der kan begrunde en sammenhæng med hjertesygdom, før yderligere vurdering
 
+*Resultatet er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

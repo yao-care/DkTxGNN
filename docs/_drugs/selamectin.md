@@ -2,7 +2,7 @@
 layout: default
 title: Selamectin
 parent: Kun modelforudsigelse (L5)
-nav_order: 394
+nav_order: 396
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selamectin: Fra veterinær antiparasitisk brug til Candidiasis
+# Selamectin: Fra veterinær parasitbekæmpelse til candidiasis
 
-## Sammenfattelse på en sætning
+## Resumé
 
-Selamectin er en avermectin-klasse macrocyclisk lacton godkendt udelukkende som et veterinært antiparasiticum (lopper, mider, hjertemark-forebyggelse hos hunde og katte) — det har ingen godkendt humant indicæ og ingen markedsføringstilladelse i Danmark. TxGNN-modellen forudsiger potentiel effektivitet for **Candidiasis**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og er baseret udelukkende på knowledge-graph topologi snarere end nogen kendt antifungal mekanisme.
+Selamectin er et avermectin-antiparasitært middel, som i Danmark er registreret som veterinærlægemiddel (spot-on til hunde). TxGNN-modellen forudsiger, at det kan have effekt mod **candidiasis**. Forudsigelsen er rent modelbaseret: der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter den.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Original indicæ | Ikke etableret til humant brug — godkendt kun som veterinært antiparasiticum (ekto-/endoparasit-kontrol hos selskasbsdyr); ingen humane indicæ-data tilgængelige |
-| Forudsagt ny indicæ | Candidiasis |
-| TxGNN forudsigelsesscore | 98.43% |
-| Bevisgrad | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Veterinær antiparasitær anvendelse (spot-on til hund). Indikationsteksten i Lægemiddelstyrelsens data er tom. |
+| Forudsagt ny indikation | Candidiasis |
+| TxGNN-forudsigelsesscore | 98,43 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige (MOA markeret som datamangel). Baseret på de tilgængelige informationer er Selamectin en avermectin-klasse macrocyclisk lacton, hvis kendt farmakologi aktiverer invertebrat glutamat-styrede chloridkanaler — en mekanisme specifik for arthropod- og nematodenervesystemer. Det har ingen dokumenteret antifungal aktivitetsvej.
+Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Selamectin tilhører avermectin-gruppen, som virker på glutamat-styrede chloridkanaler hos hvirvelløse dyr. Svampeceller som *Candida* har ikke disse kanaler, og der er derfor **ingen klar mekanistisk forbindelse** mellem selamectin og candidiasis.
 
-Der er ingen etableret mekanistisk eller klinisk sammenhæng mellem Selamectins godkendte veterinære antiparasitiske brug og menneskelig candidiasis (en svampeinfektion). Bevisepakkets egen rationale er eksplicit på dette punkt: den høje TxGNN-score (0.984) afspejler graph-topologisk lighed inden for knowledge graph snarere end nogen farmakologisk plausibilitet.
+Forudsigelsen hviler udelukkende på nærhed i vidensgrafen. Den kan være et artefakt af grafens forbindelsesmønstre og er ikke understøttet af biologisk eller klinisk dokumentation. Selamectins oprindelige anvendelse (parasitter hos dyr) og candidiasis (svampeinfektion) har ikke et oplagt fælles patofysiologisk grundlag.
 
-Fordi Selamectin aldrig er blevet undersøgt hos mennesker — det har ingen humane PK/PD-data, ingen human sikkerhedsdatabase, og toksikologi er begrænset til veterinær-/dyreforsøg — kan mekanistisk ekstrapolation til candidiasis i øjeblikket ikke understøttes.
+De øvrige forudsigelser i datasættet er ligeledes uden mekanistisk grundlag:
 
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+- **Lepra:** Nogle avermectiner (f.eks. ivermectin) har vist in vitro-aktivitet mod mykobakterier. For selamectin mod *Mycobacterium leprae* er intet dokumenteret.
+- **Koronararteriesygdom og myokardieiskæmi:** Der er ingen plausibel vej fra modulering af chloridkanaler hos hvirvelløse dyr til koronar aterosklerose.
+- **Hjertesygdom:** De fire fundne artikler handler om hjerteorm (*Dirofilaria immitis*) hos katte og loppeangreb hos agutier. De viser, at selamectin bruges til at forebygge parasitsygdom hos dyr, ikke at det virker mod hjertesygdom hos mennesker.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Informationer om det danske marked
+## Litteraturevidens
 
-Selamectin har ingen markedsføringstilladelse i Danmark (0 licenser på fil); produktet er i øjeblikket ikke registreret hos Lægemiddelstyrelsen eller centralt gennem EMA.
+Der er i øjeblikket ingen relateret litteratur for candidiasis.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106025117 | Chanhold til hund 10,1 - 20,0 kg | Spot-on, opløsning | Veterinærlægemiddel til hund (indikationstekst ikke tilgængelig) |
+
+Indehaver af tilladelsen er Chanelle Pharmaceuticals Manufacturing Limited. Produktet er et veterinærlægemiddel til udvortes brug og er ikke godkendt til mennesker.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer. Ingen vigtige advarsler, kontraindikationer eller lægemiddelinteraktionsdata er i øjeblikket tilgængelige for denne kandidat.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
-**Rationale:**
-- Candidiasis-forudsigelsen har nul understøttende kliniske forsøg eller litteratur, ingen plausibel virkningsmekanisme, ingen humane sikkerhedsdata, og lægemidlet er ikke registreret i Danmark — beviserne er utilstrækkelige til at fortsætte ud over model-forudsigelse-stadiet (L5/S0).
+**Begrundelse:**
+Forudsigelsen har evidensniveau L5 og er ikke understøttet af kliniske forsøg eller litteratur. Der er ingen plausibel mekanisme, og produktet er et veterinært spot-on-præparat uden humant godkendt formulering. Der er derfor ikke grundlag for at gå videre.
 
-**For at fortsætte er følgende nødvendigt:**
-- Bekræftede data om virkningsmekanisme (MOA) fra DrugBank eller primær litteratur
-- Eventuelle prækliniske (in vitro/in vivo) antifungal aktivitetsdata for Selamectin
-- Humane farmakokinetiske og sikkerhed/toksikologi-data, givet at lægemidlet ikke har tidligere eksponeringshistorie hos mennesker
-- Advarsler og kontraindikationer på TFDA/EMA/SmPC-niveau før der kan påbegyndes S1 sikkerhedsscreening
+**For at gå videre kræves:**
+- Mekanismedata (MOA), som i dag mangler, samt en biologisk begrundelse for effekt mod *Candida*
+- Præklinisk (in vitro) dokumentation for antifungal aktivitet
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé
+- Vurdering af administrationsvej og human formulering, da det eneste markedsførte produkt er et veterinært spot-on-præparat
 
-**Notat om datakvalitet:** Blandt de øvrige TxGNN-kandidater i denne pakke understøttes forudsigelsen "hjertesygdom" (rang 9–10, L4) kun af veterinær litteratur om *hjertemark-sygdom* (Dirofilaria immitis infektion) — en tilsyneladende keyword-matching artefakt ("hjertemark-sygdom" → "hjertesygdom"), ikke bevis for aktivitet mod menneskelig hjertesygdom. Dette bør ikke læses som understøttende bevis for en kardiovaskulær indicæ.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

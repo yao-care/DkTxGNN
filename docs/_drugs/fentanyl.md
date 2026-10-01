@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Kun modelforudsigelse (L5)
-nav_order: 188
+nav_order: 189
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,82 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Fentanyl: Fra smertelindring til nefrogen syndrom med upassende antidiurese
+# Fentanyl: Fra smertebehandling til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
 
-## Resumé på én sætning
+## Resumé i få sætninger
 
-Fentanyl er et syntetisk opioid-analgetikum, der er vidt anvendt til behandling af akut og kronisk smerte samt til anæstetisk induktion. TxGNN-modellen forudsiger, at det kan være effektivt til **nefrogen syndrom med upassende antidiurese (NSIAD)** med en forudsigelseskonfidensscore på **99.46%**. Der er imidlertid i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning, hvilket placerer denne kandidat på den laveste bevisgrad.
+Fentanyl er et stærkt opioid, der virker på mu-opioidreceptoren. I Danmark er det markedsført som depotplasteret Durogesic, men indikationsteksten indgår ikke i datagrundlaget.
+TxGNN-modellen forudsiger, at fentanyl kan have effekt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**, og som sekundær forudsigelse ved **Tourettes syndrom**.
+Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelserne, så de bygger udelukkende på en grafbaseret modelberegning.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Original indikation | Ikke tilgængelig fra nuværende regulatoriske data (fentanyl er klassisk indiceret til smertelindring og anæstesi) |
-| Forudsagt ny indikation | Nefrogen syndrom med upassende antidiurese (NSIAD) |
-| TxGNN-forudsigelsesscore | 99.46% |
-| Bevisgrad | L5 — Kun modelforudsigelse, ingen støttende studier identificeret |
-| Status på det danske marked | Ikke godkendt i Danmark |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afholde |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsens indikationstekst er tom) |
+| Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
+| TxGNN-forudsigelsesscore | 99,46 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der er i øjeblikket ingen detaljerede virkningsmekanisme-data tilgængelige i Bevis-pakken. Baseret på kendt farmakologisk viden er fentanyl et højtpotent syntetisk opioid, der virker primært som en fuldstændig agonist på μ-opioid-receptoren (MOR). Dets analgetiske og anæstetiske egenskaber medieres gennem centrale og perifere opioid-veje, der involverer inhibering af neuronal excitabilitet og modulering af neurotransmitter-frigivelse.
+Detaljerede data om fentanyls virkningsmekanisme er ikke tilgængelige i datagrundlaget. Fentanyl er en mu-opioidagonist, og mekanismen kan derfor ikke kobles til sygdomsbiologien ud fra de foreliggende data.
 
-NSIAD er en sjælden X-koblet tilstand forårsaget af funktionsgevinst-mutationer i V2 vasopressin-receptorgen (*AVPR2*), resulterende i konstant receptoraktivering, upassende vandreabsorption og dilutionel hyponatremi. Den teoretiske mekanistiske forbindelse mellem fentanyl og NSIAD kan ligge i opioid-modulering af arginin-vasopressin (AVP)-aksen: præ-kliniske data antyder, at μ-opioid-receptoraktivering kan påvirke hypotalamisk AVP-sekretion og renal aquaporin-2-transport, potentielt krydsende med V2-receptorsignaleringskaskaden dysreguleret i NSIAD.
+NSIAD skyldes aktiverende (gain-of-function) varianter i AVPR2-genet, sjældnere i GNAS. De giver antidiurese, selv når vasopressinniveauet er lavt. Fentanyl har ingen kendt virkning på V2-receptorvejen. Opioider er desuden generelt forbundet med øget ADH-frigivelse og hyponatriæmi. Den biologiske retning kan derfor være ugunstig snarere end terapeutisk.
 
-Denne mekanistiske forbindelse er imidlertid stadig spekulativ. Ingen offentliggjorte kliniske studier eller forsøg har undersøgt fentanyls rolle i NSIAD-behandling. TxGNN-modellens høje forudsigelsesscore afspejler sandsynligvis forbindelses på grafs niveau mellem opioid-receptorknuder og vasopressin-vejsknuder i vidensgrafen, snarere end direkte eksperimentelle beviser. Denne forudsigelse bør kun behandles som et hypotest-dannende signal, der kræver stringent mekanistisk validering, før nogen klinisk overvejelse foretages.
+Den høje score er derfor kun et grafbaseret signal uden mekanistisk eller klinisk understøttelse. Den bør ikke tolkes som tegn på reel effekt.
 
----
-
-## Bevis fra kliniske forsøg
-
-Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
+**Sekundær forudsigelse: Tourettes syndrom (score 99,05 %).** Der findes en plausibel, men indirekte begrundelse. Det endogene opioidsystem modulerer dopaminerge og striatale kredsløb, som er impliceret i tics. Tilgrænsende forskning har dog undersøgt opioidantagonister og partielle agonister, ikke fulde mu-agonister som fentanyl. Fentanyl indebærer høj risiko for respirationsdepression, afhængighed og misbrug. Det gør en kronisk og ofte pædiatrisk indikation til et dårligt risiko-nytte-forhold uden understøttende data.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Evidens fra litteraturen
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformationen for Danmark
+## Markedsinformation for Danmark
 
-Fentanyl har ingen markedsføringstilladelser registreret i det nuværende datasæt for Danmark. Ingen produktlister, godkendte indikationer eller doseringsformer er tilgængelige fra de tilvejebragte regulatoriske data.
-
-> **Bemærkning:** Denne mangel kan afspejle en databegrænsning vedr. fuldstændighed i det nuværende Bevis-pakke (kandidat-ID TW-DB00813-multi), da fentanyl-indeholdende produkter er godkendt af EMA og almindeligt tilgængelige på mange europæiske markeder. Verifikation mod Lægemiddelstyrelsen-produktdatabasen og EMA's centraliserede godkendelsesregister anbefales kraftigt før afgivelse af regulatoriske konklusioner.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst godkendt Produktresumé (SmPC) for sikkerhedsinformation.
-
-> **Vigtig:** Fentanyl er et kontrolleret opioid (Schedule II) med en veletableret risikoprofil, herunder respiratorisk depression, opioid-afhængighed, tolerance og misbrug-potentiale. Selvom der ikke er formelle SmPC-data i det nuværende Bevis-pakke, skal ethvert lægemiddelgenbrugsstudium redegøre for disse risikoer på klasseniveauet, især i en ikke-smertes-, ikke-anæstetisk patientpopulation, såsom NSIAD-patienter, som kan have samtidigt elektrolyt- og nyresårbarheder.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101545493 | Durogesic (Janssen-Cilag A/S) | Depotplaster | Ikke angivet i datagrundlaget |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afholde**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Datagrundlaget indeholder ingen advarsler, kontraindikationer eller interaktionsdata for fentanyl, og en interaktionsforespørgsel gav ingen resultater.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-forudsigelsesscoren er meget høj (99.46%), hvilket indikerer et stærkt grafs-baseret signal, men der er en fuldstændig mangel på understøttende kliniske eller præ-kliniske beviser — ingen forsøg, ingen offentliggjorte studier og ingen sikkerhedsdata er tilgængelige. Den foreslåede mekanistiske vej (opioid–vasopressin-akse-interaktion) er biologisk plausibel, men helt uvalideret for denne indikation. Fentanyls betydelige sikkerhed og regulatorisk byrde som et kontrolleret opioid hæver yderligere tærsklen for de beviser, der kræves før fortsættelse.
+Forudsigelserne har kun modelgrundlag (L5) uden kliniske forsøg eller litteratur. For NSIAD peger den kendte farmakologi desuden i en potentielt ugunstig retning. For Tourettes syndrom taler fentanyls risikoprofil imod brug uden understøttende data. Sikkerhedsscreeningen kan heller ikke gennemføres, fordi advarsler og kontraindikationer mangler.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation (blokerende datamangel).
+- Indhent data om virkningsmekanisme fra DrugBank for at kunne vurdere den mekanistiske sammenhæng.
+- Gennemfør en målrettet litteratursøgning på fentanyl/opioider ved NSIAD og Tourettes syndrom, herunder præklinisk evidens.
+- Vurder administrationsvejens forenelighed, da der kun findes depotplaster på det danske marked.
 
-- **Mekanistisk validering:** Præ-kliniske studier, der undersøger fentanyl eller μ-opioid-receptoragonister på V2-receptorsignalering, aquaporin-2-ekspression og urinosmolalitet i NSIAD-dyremodeller eller V2-receptorfunktionsgevinst-cellelinjer
-- **Sikkerhedsdatahentning:** Fuldstændige SmPC og Lægemiddelstyrelsen/EMA-etiketdata for fentanyl, med særlig fokus på nyre-, elektrolyt- og CNS-bivirkningsprofiler, der er relevante for NSIAD-populationen
-- **Regulatorisk statusbekræftelse:** Krydsfereference mod Lægemiddelstyrelsen- og EMA-produktdatabaser for at bekræfte aktuel godkendelsesstatus og tilgængelige formuleringer
-- **Lægemiddelinteraktionsvurdering:** NSIAD-patienter kan modtage tolvaptan eller urea; opioid DDI-profil med disse midler skal etableres
-- **Mekanisme-dokumentation:** Hent fuldstændige virkningsmekanisme-data fra DrugBank (DB00813) for at fuldende analysen af rationalet for lægemiddelgenbrugning
-- **Ekspertkonsultation:** Nefrologisk og klinisk farmakologisk gennemgang af biologisk plausibilitet før igangsætelse af eventuel IND-ansøgning eller protokolkvalificering
-
+*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Naldemedine
 parent: Kun modelforudsigelse (L5)
-nav_order: 303
+nav_order: 304
 evidence_level: L5
 indication_count: 0
 ---

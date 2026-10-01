@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 184
+nav_order: 185
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,113 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Evolocumab: Fra hyperkolesterolæmi til symptomatisk form af hæmofili hos kvindelige bærere
+# Evolocumab: Fra LDL-kolesterolsænkning til symptomatisk hæmofili hos kvindelige bærere
 
-## Ét-linje sammenfatning
+## Resumé i ét afsnit
 
-Evolocumab er en PCSK9-inhibitor (monoklonal antistof), der er vidt brugt til behandling af hyperkolesterolæmi og reduktion af kardiovaskulær risiko.
-TxGNN-modellen forudsiger, at det kan være effektivt for **Symptomatisk form af hæmofili hos kvindelige bærere**, men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne specifikke indikation.
-Alle fem forudsagte indikationer forbliver på hypotesestadiet (bevisniveau L5), hvilket kræver en **Afvent**-anbefaling.
+Evolocumab er et monoklonalt antistof, der hæmmer PCSK9 og sænker LDL-kolesterol. TxGNN-modellen forudsiger, at det kan have effekt ved **symptomatisk hæmofili hos kvindelige bærere**. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, og den er derfor udelukkende baseret på modellen. Der er heller ikke identificeret en plausibel biologisk sammenhæng.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Original indikation | Hyperkolesterolæmi / Reduktion af kardiovaskulær risiko (kendt PCSK9-inhibitor; ingen lokale licens-data tilgængelig) |
-| Forudsagt ny indikation | Symptomatisk form af hæmofili hos kvindelige bærere |
-| TxGNN-forudsigelsesscore | 99.82% |
-| Bevisniveau | L5 — Modelforudsigelse kun, ingen kliniske eller præ-kliniske studier |
-| Status på dansk marked | Ikke markedsført (ingen national Laegemiddelstyrelsen eller EMA centraliseret licens registreret i datasættet) |
-| Antal markedsføringstilladelser | 0 (i datasættet; bemærk: Evolocumab er godkendt i EU som **Repatha** via EMA centraliseret procedure EU/1/15/1016 — denne uoverensstemmelse afspejler datakildens begrænsning) |
-| Anbefalet beslutning | **Afvent** |
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Evolocumab er et fuldt humant monoklonalt antistof, der hæmmer proproteinkonvertase subtilisin/kexin type 9 (PCSK9). PCSK9 bindes normalt til LDL-receptorer på hepatocytter og fremmer deres nedbrydelse; ved at blokere PCSK9 øger evolocumab antallet af LDL-receptorer, der er tilgængelige til at fjerne LDL-kolesterol fra blodstrømmen, og opnår LDL-C-reduktioner på 50–60%. Det er godkendt globalt (herunder via EMA) til primær hyperkolesterolæmi, blandet dyslipidæmi og etableret aterosklerotisk kardiovaskulær sygdom.
-
-TxGNN-modellens øverste forudsigelse — symptomatisk hæmofili hos kvindelige bærere — er baseret på emerging grundvidenskab, der forbinder PCSK9 til clearance af koagulationsfaktorer. Foreløbig forskning tyder på, at PCSK9 deltager i hepatisk clearance af faktor VIII (FVIII); hvis PCSK9 inhiberes, kan det teoretisk øge cirkulerende FVIII-niveauer, hvilket kunne gavne patienter med FVIII-mangel (hæmofili A). Imidlertid er denne hypotese **ikke klinisk valideret**, og PCSK9's kendte anti-trombotiske effekter (reduceret blodpladeaktivering) kunne paradoksalt forværre blødningstendens. Desuden gælder forudsigelsen specifikt for FVIII-relaterede mekanismer og ville ikke adressere alle årsager til blødning hos kvindelige bærere.
-
-Det mekanistiske rationale vurderes derfor som **meget svagt og direktionalt modstridende**. Den høje TxGNN-score (99.82%) afspejler sandsynligvis viden graf-klynger af koagulations-relaterede lidelser snarere end en specifik, valideret PCSK9–hæmofili-interaktion. Blandt alle fem unikke forudsagte indikationer har ingen nogen understøttelse fra kliniske forsøg eller publiceret litteratur.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data. Evolocumab er en PCSK9-hæmmer, der sænker LDL-C |
+| Forudsagt ny indikation | Symptomatisk hæmofili hos kvindelige bærere |
+| TxGNN-score | 99,82 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Bevis fra kliniske forsøg
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de fem forudsagte indikationer i kombination med evolocumab.
+Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Evolocumab er dog en PCSK9-hæmmende monoklonal antistof, der sænker LDL-C via LDL-receptorbiologien. Stoffet har ingen kendt rolle i produktionen af koagulationsfaktor VIII/IX eller i koagulationskaskaden.
 
-*Kilder søgt: ClinicalTrials.gov og WHO ICTRP (søgedato: 2026-03-24)*
+Hæmofili hos kvindelige bærere skyldes en nedsat mængde af en koagulationsfaktor. Det er en helt anden sygdomsmekanisme end den, evolocumab påvirker. Den høje TxGNN-score på 0,998 er en ren vidensgraf-forudsigelse og skyldes sandsynligvis nærhed i netværket (en artefakt), ikke en reel farmakologisk sammenhæng. Ligheden med den oprindelige indikation er endnu ikke vurderet.
 
----
+Modellen forudsiger også andre indikationer, som alle har evidensniveau L5 og anbefalingen Hold:
 
-## Litteraturbevis
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig for nogen af de fem forudsagte indikationer i kombination med evolocumab.
-
-*Kilde søgt: PubMed (søgedato: 2026-03-24)*
-
----
-
-## Oversigt over alle forudsagte indikationer
-
-Da alle fem unikke forudsagte indikationer mangler kliniske bevis, er en sammenligningstabel givet for sammenligning:
-
-| Rang | Forudsagt indikation | TxGNN-score | Bevisniveau | Mekanistisk vurdering | Anbefaling |
-|------|---------------------|-------------|-----------|----------------------|------------|
-| 1 | Symptomatisk form af hæmofili hos kvindelige bærere | 99.82% | L5 | Meget svagt; direktionalt modstridende. PCSK9-inhibering kan reducere blodpladeaktivering (anti-trombotisk), potentielt skadelig ved blødningsforstyrrelser. PCSK9–FVIII-clearance-hypotesen er uvalideret. | Afvent |
-| 3 | Familial apolipoprotin C-II mangel | 99.50% | L5 | Delvis relateret (begge omhandler lipidmetabolisme) men mekanistisk umatchet. ApoC-II-mangel forårsager hypertriglyceridæmi via lipoproteinlipase-dysfunktion; evolocumab virker på LDL-receptorvejen med kun beskeden TG-reduktion (12–17%). | Afvent |
-| 5 | Trombocytopeni purpura | 99.42% | L5 | Indirekte og uklar. PCSK9 har nye forbindelser til blodpladefunktion og inflammation, men kan ikke adressere det centrale TTP-problem (ADAMTS13-mangel) eller ITP-patologi (autoimmun blodplateskade). | Afvent |
-| 7 | Faktor XI-mangel | 99.29% | L5 | Meget svagt. Ingen bevis for, at PCSK9 deltager i faktor XI-syntese, sekretion eller clearance. Høj score skyldes sandsynligvis videngraf-klynger af koagulationsfaktor-deficienser. | Afvent |
-| 9 | Hæmofili A med vaskulær abnormitet | 99.22% | L5 | Svagt men har udforskningsmæssig værdi. Kombinerer to aspekter: PCSK9–FVIII-clearance-hypotese (uvalideret) og evolocumabs bevist fordele på endothelial funktion og aterosklerotisk plaque-reduktion. Relativt stærkeste rationale blandt de fem kandidater. | Forskningsspørgsmål |
+| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Familiær apolipoprotein C-II-mangel | 99,50 % | Svag og indirekte. ApoC-II-mangel nedsætter aktiveringen af lipoproteinlipase og giver svær hypertriglyceridæmi. Evolocumab sænker primært LDL-C og har kun beskeden effekt på triglycerider. En PCSK9-hæmmer forventes ikke at rette op på selve LPL-aktiveringsdefekten |
+| Trombocytopenisk purpura | 99,42 % | Ingen plausibel sammenhæng. Sygdommen skyldes immunmedieret nedbrydning af blodplader eller ADAMTS13-mangel, som er uden relation til PCSK9/LDL-receptor-biologi |
+| Faktor XI-mangel | 99,29 % | Ingen plausibel sammenhæng. Medfødt blødersygdom i den intrinsiske koagulationsvej, som evolocumab ikke påvirker |
+| Hæmofili A med vaskulær abnormitet | 99,22 % | Ingen plausibel sammenhæng. Faktor VIII-mangel med vaskulær abnormitet (von Willebrand-lignende fænotype) påvirkes ikke af PCSK9-hæmning |
 
 ---
 
-## Oplysninger om det danske marked
+## Evidens fra kliniske forsøg
 
-Der blev ikke fundet nogen markedsføringstilladelser i datasættet for evolocumab.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-> **Vigtig bemærkning:** Dette afspejler en datakildens begrænsning. Evolocumab markedsføres i Danmark og EU under mærkenavnet **Repatha** (Amgen) via EMA centraliseret markedsføringstilladelse (EU/1/15/1016), godkendt til:
-> - Primær hyperkolesterolæmi (heterozygot familier og ikke-familier) eller blandet dyslipidæmi
-> - Homozygot familier hyperkolesterolæmi
-> - Etableret aterosklerotisk kardiovaskulær sygdom (til reduktion af kardiovaskulær risiko)
->
-> Sundhedspersonale skal konsultere [EMA produktinformation](https://www.ema.europa.eu/en/medicines/human/EPAR/repatha) for det fuldstændige produktresumé (SmPC).
+---
+
+## Evidens fra litteraturen
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105697715 | Repatha (Amgen Europe BV) | Injektionsvæske, opløsning i cylinderampul | Indikationsteksten er ikke angivet i datagrundlaget |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Detaljerede sikkerhedsdata (advarsler, kontraindikationer, lægemiddelinteraktioner) var ikke tilgængelige i dokumentationen. Ingen lægemiddelinteraktioner blev identificeret i DDI-databasesøgningen.
-
-> Se venligst det godkendte produktresumé (SmPC) for Repatha (evolocumab) tilgængeligt via EMA for omfattende sikkerhedsinformation, herunder:
-> - Overfølsomhedsreaktioner
-> - Reaktioner på injektionsstedet
-> - Brug hos patienter med alvorlig leverinsufficiens
-> - Effekter på fertilitet og graviditet
+Der er ikke fundet data om interaktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle fem forudsagte indikationer er på bevisniveau L5 (kun TxGNN-modelforudsigelse), med nul kliniske forsøg og nul publikationer, der understøtter nogen af lægemidlet-sygdom-kombinationerne. Det mekanistiske rationale for den øverste forudsigelse (hæmofili hos kvindelige bærere) vurderes som meget svagt og potentielt modstridende — PCSK9-inhiberings anti-trombotiske egenskaber kunne teoretisk forværre blødningstendens. Den eneste indikation med nogle udforskningsmæssige værdi er hæmofili A med vaskulær abnormitet (rang 9), hvor evolocumabs vaskulære fordele og den uvaliderede PCSK9–FVIII-hypotese giver et minimalt biologisk grundlag.
+Forudsigelsen bygger kun på en vidensgraf-model (evidensniveau L5), uden kliniske forsøg eller litteratur. Der er ikke identificeret nogen plausibel mekanistisk forbindelse mellem PCSK9-hæmning og hæmofili hos kvindelige bærere. Den høje score er sandsynligvis en netværksartefakt.
 
-**For at fortsætte er følgende nødvendigt:**
-- **Data om virkningsmekanisme**: Detaljeret undersøgelse af PCSK9's rolle i clearance af koagulationsfaktorer (især FVIII), gennem præ-kliniske studier
-- **Sikkerhedsdata**: Fuld SmPC-gennemgang for evolocumab, især med hensyn til blødningsrisiko og koagulationsparametre
-- **Præ-klinisk validering**: In vitro/in vivo-studier for at teste om PCSK9-inhibering påvirker cirkulerende faktor VIII-niveauer
-- **Dansk regulatorisk tilpasning**: Bekræft Repatha's EMA markedsføringstilladelse detaljer og eventuel national refusionsstatus via Laegemiddelstyrelsen/Medicinrådet
-- **Litteraturovervågning**: Sæt alarmer op for emerging publikationer om PCSK9 og koagulationsfaktor-metabolisme
+**Hvis arbejdet skal fortsætte, kræves følgende:**
+- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer). Det blokerer en sikkerhedsscreening.
+- Detaljerede data om virkningsmekanismen (MOA), f.eks. fra DrugBank, til en egentlig mekanistisk vurdering.
+- Målrettet litteratur- og forsøgssøgning, der kan afklare, om der overhovedet findes biologisk understøttelse.
+- Vurdering af administrationsvej og kompatibilitet med den forudsagte indikation.
 
----
-
-*Denne rapport er til forskningsformål kun og udgør ikke lægeligt råd. Lægemiddelomformåling kandidater kræver klinisk validering før enhver terapeutisk anvendelse. Rapport genereret: 2026-04-05 | Datagrundlag: 2026-04-05 | Eviden-pakke version: v4*
-
+*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

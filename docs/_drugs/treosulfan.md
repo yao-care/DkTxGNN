@@ -2,7 +2,7 @@
 layout: default
 title: Treosulfan
 parent: Kun modelforudsigelse (L5)
-nav_order: 450
+nav_order: 452
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,104 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Treosulfan: Fra uspecificeret indikation til diabetisk stær
+# Treosulfan: Fra konditionering før stamcelletransplantation til diabetisk grå stær
 
-## Ét-sætnings sammenfatning
+## Resumé i én sætning
 
-Treosulfan er en bifunktionel alkyleringsagens (et busulfan-analog); der er i øjeblikket ingen oprindelig indikation eller godkendt-etiketdata tilgængelige for denne evidenspakke. TxGNN-modellen forudsiger potentiel relevans for **Diabetisk stær**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og lægemidlets kendt farmakologi (DNA-krydssammenknytning cytotoxicitet) har ingen etableret mekanistisk forbindelse til stærs patofysiologi — faktisk er alkyleringsagenser såsom busulfan mere almindeligt forbundet med at forårsage stær end at behandle den.
+Treosulfan er et alkylerende cytostatikum, der bruges til konditionering før transplantation af bloddannende stamceller.
+TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på modeloutput og har evidensniveau L5.
 
-## Kort oversigt
+---
+
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke i øjeblikket tilgængelig (ingen licens- eller indikationsdata registreret) |
-| Forudsagt ny indikation | Diabetisk stær |
-| TxGNN-forudsigelsesscore | 99.01% |
+|------|------|
+| Oprindelig indikation | Konditionering før hæmatopoietisk stamcelletransplantation |
+| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
+| TxGNN-forudsigelsesscore | 99,01 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Sæt på hold |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+Modellen forudsiger også andre former for grå stær med scorer omkring 98,95-98,96 %: nuklear senil, kortikal, moden og tetanisk katarakt samt katarakt ved type 2-diabetes. De har samme evidensniveau (L5) og samme vurdering (Hold).
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige for Treosulfan i denne evidenspakke. Baseret på de tilgængelige oplysninger er Treosulfan beskrevet som en bifunktionel alkyleringsagens strukturelt beslægtet med busulfan, der virker via epoxidmetabolitter, som forårsager DNA-krydssammenknytning — en mekanisme, der bruges terapeutisk for sin cytotoxiske virkning.
+---
 
-Diabetisk stær er derimod drevet af linseepitelial oxidativ stress, aldose-reductase (polyol)-vej og proteinaggregation — processer uden etableret forbindelse til DNA-krydssammenknytning cytotoxicitet. Bemærkelsesværdigt nok fremhæver den tilgængelige evidens eksplicit, at alkyleringsagenser i denne klasse (f.eks. busulfan) er klinisk anerkendt som en **risikofaktor for stær**, det vil sige den modsatte retning af den forudsagte virkning.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I betragtning heraf er den mekanistiske begrundelse for denne forudsigelse svag og retningsbestemt tvivlsom. Dette ser ud til at være et tilfælde, hvor TxGNN-modellen afslørede en statistisk sammenhæng (en høj similaritetsscore) uden en plausibel underliggende farmakologisk vej, og det bør behandles som hypothesegenererend alene, ikke som grundlag for klinisk eller forskningspriortering.
+Der er ingen detaljerede data om virkningsmekanismen i det tilgængelige datagrundlag. Treosulfan er en bifunktionel alkylerende prodrug, der omdannes til epoksidforbindelser, som danner tværbindinger i DNA. Det giver kraftig cytotoksisk og myelosuppressiv effekt, som udnyttes ved konditionering før stamcelletransplantation.
 
-## Bevis fra kliniske forsøg
+Der er ingen understøttet mekanistisk forbindelse mellem DNA-alkylering og forebyggelse eller behandling af linsegrumsning:
+
+- **Diabetisk katarakt og katarakt ved type 2-diabetes** drives hovedsageligt af hyperglykæmi, herunder flux gennem polyolvejen og glykering. Treosulfan har ingen kendt virkning på disse veje.
+- **Nuklear senil katarakt** involverer oxidation og aggregering af linseproteiner, som et cytotoksisk middel ikke forventes at vende.
+- **Kortikal katarakt** kan være en artefakt i vidensgrafen, hvor katarakt som bivirkning ved lægemidler kan være blevet læst som et behandlingsmål.
+- **Moden katarakt** behandles kirurgisk, og der findes ingen farmakologisk begrundelse for et cytotoksisk alkylerende middel.
+- **Tetanisk katarakt** er sekundær til hypokalcæmi eller hypoparatyreoidisme, og treosulfan påvirker ikke calciumhomøostasen.
+
+Beslægtede alkylerende midler som busulfan er desuden forbundet med at *forårsage* katarakt. Den forudsagte terapeutiske retning kan derfor være vendt om. Den høje score (omkring 99 %) skal ses som et rent modelresultat uden klinisk eller litteraturmæssigt belæg.
+
+---
+
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Litteraturbevis
+---
+
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
+---
+
 ## Markedsinformation for Danmark
 
-Treosulfan markedsføres ikke i øjeblikket i Danmark, og der er ingen markedsføringstilladelser (nationale eller centraliserede/EMA) registreret i denne evidenspakke.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform |
+|---------|------|------|
+| 28106054817 | Trecondi (Medac, Gesellschaft für klinische Spezialpräparate mbH) | Pulver til infusionsvæske, opløsning |
 
-## Cytotoxicitet
+---
 
-Baseret på dets beskrivelse som bifunktionel alkyleringsagens (busulfan-analog) falder Treosulfan ind i en kendt cytotoksisk kemoterapikategori.
+## Cytotoksicitet
 
 | Punkt | Indhold |
-|------|---------|
-| Citotoxicitetsklassificering | Konventionel cytotoksisk (Alkyleringsagens, busulfan-analog) |
-| Myelosuppressionrisiko | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassificering | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
-| Overvågningspunkter | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se venligst resuméet over produktegenskaber (SmPC) for advarsler og forsigtighedsregler |
+|------|------|
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (alkylerende middel) |
+| Risiko for myelosuppression | Høj (knoglemarvssuppression er en del af den tilsigtede konditioneringseffekt) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Fuldstændigt blodbillede med differentialtælling, lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
-## Sikkerhedshensyn
+For yderligere detaljer henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
-Se venligst det godkendte resumé over produktegenskaber (SmPC) for sikkerhedsinformationer.
+---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Sæt på hold**
+- **Katarakt som mulig bivirkning:** Beslægtede alkylerende midler (busulfan-klassen) er forbundet med katarakt, hvilket taler imod en terapeutisk anvendelse i øjensygdomme.
+
+Der foreligger ingen yderligere sikkerhedsdata i datagrundlaget. Se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en TxGNN-modelscore (L5, ingen kliniske forsøg eller litteratur), og lægemidlets kendt farmakologi (alkyleringsmidlets cytotoxicitet) står mekanistisk i modstrid med snarere end understøtter en stær-behandlingsindikation — alkyleringsmidler er mere almindeligt forbundet med at forårsage stær. Der er utilstrækkelig basis for at fremme denne kandidat.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er ingen understøttet mekanistisk forbindelse mellem treosulfans virkning og grå stær. Den kendte katarakt-risiko ved beslægtede alkylerende midler gør, at den forudsagte retning kan være omvendt.
 
-**For at fortsætte er følgende nødvendigt:**
-- Bekræftet oprindelig indikation og godkendt-etiketdata for Treosulfan
-- Verificeret data om virkningsmekanisme (MOA) fra en primær kilde (f.eks. DrugBank/SmPC)
-- TFDA/Lægemiddelstyrelse-advarsler og kontraindikationer (datamangel blokerer i øjeblikket, DG001)
-- Uafhængig præ-klinisk eller mekanistisk evidens, der specifikt viser en beskyttende (ikke forårsagende) virkning af alkyleringsmidler på linsepatologi, før yderligere evaluering er berettiget
+**For at komme videre kræves følgende:**
+- Indhentning af advarsler og kontraindikationer fra det danske produktresumé (SmPC) hos Lægemiddelstyrelsen, da sikkerhedsscreening ikke kan gennemføres uden dem
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Systematisk litteraturgennemgang, der undersøger, om treosulfan er forbundet med katarakt som bivirkning
+- Vurdering af, om forudsigelsen skyldes en artefakt i vidensgrafen (katarakt som bivirkning versus behandlingsmål)
+- Vurdering af administrationsvej: treosulfan findes kun som infusionsvæske, hvilket næppe er foreneligt med behandling af en øjensygdom
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser af lægemiddelgenanvendelse skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

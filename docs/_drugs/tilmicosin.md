@@ -2,7 +2,7 @@
 layout: default
 title: Tilmicosin
 parent: Kun modelforudsigelse (L5)
-nav_order: 435
+nav_order: 437
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tilmicosin: Fra veterinær luftvejsinfektion til Jeune-syndrom med situs inversus
+# Tilmicosin: Fra veterinært makrolidantibiotikum til Jeune syndrom med situs inversus
 
-## Resumé i én sætning
+## Resumé
 
-Tilmicosin er en makrolid antibiotikum, der bruges udelukkende i veterinærmedicin (respiratoriske infektioner hos kvæg, får og svin) og har ingen godkendt humant indikation i Danmark. TxGNN-modellen forudsiger en mulig forbindelse til **Jeune-syndrom med situs inversus**, men denne forudsigelse understøttes af **0 kliniske forsøg** og **0 publikationer** — det er et rent model-topologi-signal uden biologisk plausibilitet.
+Tilmicosin er et langtidsvirkende makrolidantibiotikum, der bruges til veterinær behandling af luftvejsinfektioner hos kvæg og får. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **Jeune syndrom med situs inversus**, en genetisk ciliopati. Forudsigelsen har **0 kliniske forsøg** og **0 publikationer** bag sig og bygger udelukkende på en modelberegning. Modellens øvrige topforudsigelser har heller ikke understøttende evidens.
+
+---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke relevant for humanmedicin — Tilmicosin er en makrolid antibiotikum til veterinær brug til respiratoriske infektioner hos kvæg, får og svin; der eksisterer ingen godkendt humant indikation eller dansk markedsføringsgodkendelse |
-| Forudsagt ny indikation | Jeune-syndrom med situs inversus |
-| TxGNN-forudsigelsesscore | 97.24% |
-| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Jeune syndrom med situs inversus |
+| TxGNN-forudsigelsesscore | 97,2 % |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige for denne kandidat (markeret som et blokerende datahul). Baseret på kendt information er Tilmicosin en 16-medlem makrolid antibiotikum godkendt kun til veterinær brug, som virker ved binding til det bakterielle 50S ribosomalt underenhed for at hæmme proteinsyntes — en rent antibakteriell mekanisme.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Jeune-syndrom med situs inversus er en sjælden genetisk skelettal ciliopati. Der er ingen kendt mekanistisk vej, der forbinder en bakteriell proteinsyntes-inhibitor til ciliar/skelettal udviklingssygdom, og evidenspakken bekræfter dette eksplicit: modelscore afspejler kun topologisk lighed i vidensgrafen, uden nogen understøttelse fra kliniske forsøg eller litteratur af nogen art. Den samme mangel på mekanistisk og evidensmæssig støtte gælder for de andre højt-rankede forudsigelser i denne pakke (aneurisme i interventriculær septum, delvis 22q-deletion, Pierre Robin-syndrom) — ingen har en plausibel farmakologisk begrundelse.
+Der foreligger ingen detaljerede data om tilmicosins virkningsmekanisme i evidenspakken. Tilmicosin er et makrolidantibiotikum, der hæmmer bakteriel proteinsyntese. Dets dokumenterede virkning er rettet mod bakterielle luftvejsinfektioner hos dyr.
 
-Bemærkelsesværdigt er det, at det eneste væsentlige litteratursignal fundet noget sted i denne evidenspakke vedrører en lavere-ranket kandidat, "hjertesygdom" (score 97.19%), hvor 20 PubMed-poster blev hentet. De beskriver dog alle Tilmicosin-**induceret cardiotoxicitet** (akut cardiotoxicitet, ventrikulær dysfunktion på venstre side, arytmi) i dyremodeller og utilsigtet human eksponering — det vil sige, bevis for skade, ikke terapeutisk fordel. Dette bekræfter, at modellens høje lighedsscorer ikke i dette tilfælde indikerer ægte omformuleringspotentiale.
+Jeune syndrom (asfyksierende thoraxdystrofi) er en ciliopati med genetisk årsag. Det er en strukturel udviklingsforstyrrelse og ikke en infektion. Der er ingen kendt mekanistisk forbindelse mellem en antibakteriel hæmning af proteinsyntese og korrektion af ciliær dysfunktion. Den høje score på 0,972 afspejler derfor en mønsterassociation i vidensgrafen og ikke en biologisk begrundet hypotese.
 
-## Bevis fra kliniske forsøg
+De øvrige forudsigelser i listen vurderes på samme måde. For intraventrikulært septumaneurisme, delvis deletion af den lange arm af kromosom 22 og Pierre Robin-syndrom med kromosomanomali er der heller ingen plausibel mekanisme og ingen forsøg eller litteratur.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret
+---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relateret litteratur tilgængelig
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Sikkerhedshensyn
+---
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+## Litteraturevidens
 
-**Yderligere signal fra litteraturgennemgang:** Selvom det ikke er knyttet til den højest-rankede forudsagt indikation, 20 offentliggjorte studier hentet for en relateret kandidat ("hjertesygdom") beskriver konsekvent Tilmicosin-induceret cardiotoxicitet hos dyr og utilsigtet human eksponering (herunder en 2025 casusrapport om kardiale effekter efter utilsigtet indtagelse). Dette er et kendt klasserelateret kardiak sikkerhedssignal for makrolid antibiotika og bør behandles som en risikomarkering, ikke som en terapeutisk kandidat.
+Der er i øjeblikket ingen relateret litteratur for den primære forudsigelse.
 
-## Konklusion og næste trin
+For en anden forudsigelse, *hjertesygdom* (score 97,2 %), blev der fundet 20 publikationer, hvoraf de første 10 var tilgængelige. De handler overvejende om **tilmicosin-induceret kardiotoksicitet**: dyreforsøg i rotter, mus og hunde, beskyttende midler mod toksiciteten, kasuistikker om utilsigtet human eksponering samt farmakokinetiske studier. Litteraturen er et sikkerhedssignal mod anvendelse ved hjertesygdom og ikke evidens for gavnlig effekt.
 
-**Beslutning: Afvent**
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105891016 | Tildosin (Dopharma Research B.V.) | Opløsning til anvendelse i drikkevand/mælk | Ikke angivet i data |
+
+Lægemiddelformen peger på et veterinært produkt til dyr. Der er ikke registreret et humant produkt med tilmicosin.
+
+---
+
+## Sikkerhedsovervejelser
+
+- **Kardiotoksicitet**: Litteraturen beskriver gentagne tilfælde af hjerteskade og pludselig død efter tilmicosin-eksponering. Der er set effekter i dyreforsøg og i kasuistikker om utilsigtet human eksponering ved injektion eller indtagelse af det veterinære præparat (fx PMID 41046333, PMID 10474305). En kasuistik beskriver et lam med flere ventrikelseptumdefekter, der døde efter injektion (PMID 19337615). Det er særligt relevant for forudsigelser om medfødte hjertemisdannelser.
+- Der er ikke fundet data om interaktioner.
+
+Produktresumé for Tildosin fra Lægemiddelstyrelsen mangler i evidenspakken. Der henvises til det godkendte produktresumé for fuldstændig sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Tilmicosin har ingen dansk markedsføringsgodkendelse og ingen godkendt humant indikation, og alle forudsagt nye indikationer i denne evidenspakke — herunder den højest-rankede Jeune-syndrom/situs inversus-forudsigelse — er Evidensniveau L5 uden kliniske forsøgs- eller litteraturbevis. Det eneste væsentlige litteraturbevis fundet for en relateret kandidat peger på cardiotoxicitetsrisiko snarere end på effektivitet.
+Forudsigelsen har evidensniveau L5 uden forsøg og uden litteratur og mangler en plausibel mekanisme. Den tilgængelige litteratur om tilmicosin og hjertet peger på skade og ikke på gavn.
 
-**For at fortsætte er følgende nødvendigt:**
-- Bekræftelse af, om Tilmicosin har nogen vej mod udvikling til humant brug (i øjeblikket kun til veterinær brug)
-- Virkningsmekanisme (MOA) data fra DrugBank
-- TFDA/SmPC advarsel- og kontraindikationsdata (i øjeblikket et blokerende datahul)
-- Uafhængig mekanistisk eller preklinisk begrundelse, der forbinder denne klasse af lægemidler til den forudsagt indikation, før nogle yderligere evalueringsstadier overvejes
+**For at komme videre kræves:**
+- Produktresumé og sikkerhedsdata fra Lægemiddelstyrelsen, som blokerer sikkerhedsscreeningen
+- Data om virkningsmekanisme fra DrugBank
+- En biologisk begrundet hypotese for, hvorfor et makrolidantibiotikum skulle påvirke ciliopati. Uden den bør kandidaten ikke prioriteres.
 
+---
+
+*Disse resultater er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

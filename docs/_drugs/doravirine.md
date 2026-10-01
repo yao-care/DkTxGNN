@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Doravirine
-parent: Moderat evidens (L3-L4)
-nav_order: 148
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 149
+evidence_level: L5
 indication_count: 6
 ---
 
 # Doravirine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,82 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Doravirine: Fra HIV-1-infektion til Simian Immunodeficiency Virus-infektion
+# Doravirin: Fra HIV-1-infektion til simian immundefektvirus-infektion (SIV)
 
-## Sammenfatning på én sætning
+## Resumé i én sætning
 
-Doravirine er en tredje generations non-nukleosid reversbeskrivtase-inhibitor (NNRTI) godkendt internationalt til behandling af HIV-1-infektion hos voksne, selvom den i øjeblikket ikke har en markedsføringstilladelse i Danmark.
-TxGNN-modellen forudsiger, at den kan have aktivitet mod **Simian Immunodeficiency Virus (SIV)-infektion**, med en forudsigelsesscore på **99.93%**.
-Understøttende evidens på dette stadium er begrænset til **1 baggrundsudgivelse** og **ingen registrerede kliniske forsøg**, hvilket placerer denne forudsigelse kun i kategorien for tidlig mekanistisk hypotese.
+Doravirin er en non-nukleosid revers transkriptase-hæmmer (NNRTI), der bruges mod HIV-1-infektion.
+TxGNN-modellen forudsiger, at den kan virke mod **simian immundefektvirus-infektion**.
+Der er dog **0 kliniske forsøg** og **1 publikation** (om et andet lægemiddel), så forudsigelsen er i praksis kun modelbaseret.
 
 ---
 
-## Hurtigoverview
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | HIV-1-infektion hos voksne (ikke godkendt i Danmark; ingen danske regulatoriske data tilgængelige) |
-| Forudsagt ny indikation | Simian Immunodeficiency Virus (SIV)-infektion |
-| TxGNN-forudsigelsesscore | 99.93% |
-| Evidensniveau | L4 |
-| Markeds- status i Danmark | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | HIV-1-infektion (indikationsteksten er ikke angivet i den danske registrering i datapakken) |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (SIV) |
+| TxGNN-forudsigelsesscore | 99,93 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-Doravirine er en diarylpyrimidin-NNRTI, der udøver sin antivirale virkning ved at binde sig til ikke-nukleosid-bindingslommen (NNBP) af HIV-1 reversbeskrivtase (RT), hvorved RNA-afhængig DNA-polymeriseringstrinnet, der er væsentligt for virusreplikation, blokeres. En vigtig fordel ved doravirine sammenlignet med tidligere NNRTI'er (f.eks. efavirenz, nevirapin) er dens fleksible molekylære struktur, som bevarer aktivitet mod almindelige resistensmutationer som K103N og Y181C. Den er godkendt af EMA som Pifeltro (doravirene monterapi) og Delstrigo (doravirine/lamivudin/tenofovirdisproxilfumarat fixed-dose-kombination).
+Doravirin hæmmer HIV-1's revers transkriptase. Detaljerede mekanistiske data (MOA) fra DrugBank mangler i datapakken. Den høje score afspejler sandsynligvis, at HIV-1 og SIV ligger tæt på hinanden i vidensgrafen, fordi begge er lentivira.
 
-Simian Immunodeficiency Virus (SIV) er en lentivirus, der er fylogenetisk relateret til HIV, og den afhænger på samme måde af et reversbeskrivtase-enzym for virusreplikation. Denne delte mekanistiske afhængighed giver teoretisk grundlag for TxGNN-forudsigelsen — vidensgrafen forbinder HIV-1, lentivirus og reversbeskrivtase-inhibitorer i strukturel nærhed til SIV. Imidlertid adskiller NNBP for SIV RT sig fra den for HIV-1 RT ved kritiske aminosyrepositioner (f.eks. V181-lokuset), og etablerede NNRTI'er designet til HIV-1 har vist sig at have væsentligt reduceret eller manglende bindingsaffinitet for SIV RT. Selvom doravines fleksible diarylpyrimidin-struktur giver nogle teoretiske tolerancer for variant-bindingslommer, findes ingen direkte eksperimentelle data til at bekræfte dette for SIV.
+Det mekanistiske grundlag er imidlertid svagt. SIV-linjer, der er beslægtet med HIV-2, regnes generelt for naturligt mindre følsomme over for NNRTI'er. Der er ingen doravirin-specifikke data for SIV. Den eneste tilknyttede artikel handler om islatravir, som tilhører en anden lægemiddelklasse, og om HIV-1. SIV er desuden en infektion i dyremodeller og har ingen human behandlingsindikation.
 
-Et vigtigt translationelt forbehold er, at langt størstedelen af ikke-menneskeligt primat-antivirale undersøgelser bruger SHIV (en chimær SIV/HIV-konstruktion, der er udformet til at bære HIV-1-envelope-genet), snarere end vildtype-SIV. Resultater fra SHIV-modeller afspejler ikke direkte ren SIV-biologi, hvilket yderligere begrænser den inferentielle værdi af grafbaserede forudsigelser. Denne forudsigelse forstås bedst som en vidensgrafs nabolagsforbindelse — mekanistisk plausibel på et højt abstraktionsniveau, men manglende de strukturelle eller eksperimentelle beviser, der er nødvendige for at gå videre.
-
----
-
-## Bevis fra kliniske forsøg
-
-Der er i øjeblikket ingen registrerede kliniske forsøg, der undersøger doravirine til simian immunodeficiency virus-infektion på ClinicalTrials.gov eller WHO ICTRP.
+De øvrige forudsigelser med tilsvarende score er heller ikke understøttede:
+- **Felint erhvervet immundefektsyndrom**: en veterinær tilstand. Der er ingen data for aktivitet mod felint immundefektvirus, og ingen forsøg eller litteratur.
+- **Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans**: der er ikke fundet nogen plausibel mekanistisk forbindelse til hæmning af revers transkriptase. Scoren er sandsynligvis en artefakt i vidensgrafen.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Journal | Vigtige fund |
-|------|-----|------|---------|-------------|
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Oversigt / Medicinprofil | *Current Opinion in HIV and AIDS* | Gennemgår islatravir (ISL), en roman RT-translokationsinhibitor, til HIV-1-behandling og -prævention — hentet som kontekstuel baggrundsoplysning om RT-inhibitorer og lentivirus-biologi; vurderer ikke doravirine eller SIV direkte |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-> **Vigtig note:** Den enkelte hentede publikation omhandler **islatravir**, en mekanistisk forskellig antiretroviral fra en anden medicinklasse (nukleosid RT-translokationsinhibitor, NRTTI). Ingen litteratur, der direkte vurderer doravines aktivitet mod SIV, blev identificeret i denne evidenssøgning.
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Gennemgang af islatravirs mulige rolle i behandling og forebyggelse af HIV-1. Artiklen handler om et andet lægemiddel (en revers transkriptase-translokationshæmmer) og indeholder ingen doravirin-data for SIV. |
 
 ---
 
 ## Markedsinformation for Danmark
 
-Doravirine har i øjeblikket **ingen markedsføringsgodkendelse** i Danmark og er ikke registreret i Det Danske Lægemiddelsregister (Lægemiddelstyrelsen).
-
-Som reference er doravirine centralt godkendt i EU/EØS af EMA:
-
-| Godkendelse | Produktnavn | Doseringsform | Godkendt indikation |
-|------------|------------|----------------|----------------------|
-| EMA (centraliseret) | Pifeltro | Filmovertrukket tablet (100 mg) | Behandling af HIV-1-infektion hos voksne uden tidligere eller nuværende virusresistens over for NNRTI-klassen |
-| EMA (centraliseret) | Delstrigo | Filmovertrukket tablet (doravirine 100 mg / lamivudin 300 mg / tenofovirdisproxilfumarat 245 mg) | Behandling af HIV-1-infektion hos voksne uden tidligere eller nuværende virusresistens over for NNRTI-klassen |
-
-Danske patienter kan potentielt få adgang til doravirine gennem en individuel importgodkendelse (§29-import), hvis det er klinisk indiceret.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106038317 | Pifeltro (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter (oral) | Ikke angivet i datapakken |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Omfattende sikkerhedsdata fra danske regulatoriske kilder er ikke tilgængelige, da doravirine ikke er markedsført i Danmark.
-
-Se venligst den godkendte Produktinformationssamling (SmPC) for **Pifeltro** og **Delstrigo** for fuldstændig sikkerhedsinformation, tilgængelig via Det Europæiske Lægemiddelsagenturs (EMA) websted på [www.ema.europa.eu](https://www.ema.europa.eu).
+Der foreligger ingen sikkerhedsdata i datapakken. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-forudsigelsesscore (99.93%) afspejler forudsigelsen om, at doravirine er aktiv mod SIV-infektion, en vidensgrafs strukturel forbindelse mellem lentivirus og medicin fra NNRTI-klassen, snarere end empirisk antivirale bevis. Strukturelt meningsfulde forskelle mellem HIV-1 RT og SIV RT ved NNBP gør direkte aktivitet meget usikker, og den enkelte hentede publikation omhandler et helt tredje middel. Der er i øjeblikket ingen præklin­isk, klinisk eller veterinær evidens til at understøtte fremskridt med denne kandidat.
+Forudsigelsen bygger kun på modellen (L5). Der er hverken kliniske forsøg eller doravirin-specifik litteratur, og den mekanistiske sandsynlighed er lav. Desuden er SIV en dyremodelinfektion uden human behandlingsindikation. Der bør ikke arbejdes videre med denne forudsigelse som en klinisk repurposing-kandidat.
 
-**For at gå videre er følgende nødvendigt:**
-
-- **In vitro RT-inhibitionsassays**: Fastslå doravines IC₅₀ mod rekombinant SIV RT, med direkte sammenligning med HIV-1 RT under identiske forhold
-- **Strukturel modellering**: Computermæssig docking af doravirine i SIV RT NNBP for at vurdere bindningsmulighed på residuniveau (særlig V181 og omgivende positioner)
-- **Præcisering af klinisk mål**: Definer, om indikationen er menneskelig erhvervsmæssig/zoonotisk SIV-eksponering eller veterinær / primat-forskningstudier — disse har meget forskellige regulatoriske og etiske veje
-- **MOA-dokumentation**: Hent fuldstændig doravines virkningsmekanisme, resistensprofil og farmakokinetiske data fra DrugBank (i øjeblikket fraværende fra denne evidenspakke)
-- **Sikkerhedsvurdering**: Indhent og gennemse EMA SmPC for Pifeltro/Delstrigo for at fuldføre sikkerhedsvurderingen, før der tages yderligere evalueringstrin
-
+**For at komme videre kræves:**
+- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som blokerer sikkerhedsscreeningen
+- Mekanismedata (MOA) fra DrugBank
+- Præklinisk eller in vitro-evidens for doravirins aktivitet mod SIV, hvis forudsigelsen skal følges op
+- Afklaring af, om SIV overhovedet er relevant som humant indikationsmål, eller om det kun skal bruges som forskningsmodel
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

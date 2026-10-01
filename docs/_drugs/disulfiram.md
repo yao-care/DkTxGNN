@@ -2,7 +2,7 @@
 layout: default
 title: Disulfiram
 parent: Kun modelforudsigelse (L5)
-nav_order: 144
+nav_order: 145
 evidence_level: L5
 indication_count: 0
 ---

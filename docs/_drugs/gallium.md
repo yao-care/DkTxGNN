@@ -2,7 +2,7 @@
 layout: default
 title: Gallium
 parent: Kun modelforudsigelse (L5)
-nav_order: 202
+nav_order: 203
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Clindamycin
 parent: Kun modelforudsigelse (L5)
-nav_order: 115
+nav_order: 116
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,123 +29,105 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clindamycin: Fra bakterieinfektioner til punktvis epithelial keratoconjunctivitis
+# Clindamycin: Fra ukendt oprindelig indikation til punktformet epitelial keratokonjunktivitis
 
-## Sammenfattelse i én sætning
+## Resumé i én sætning
 
-Clindamycin er en lincosamid-antibiotikum, der bruges internationalt til anaerobiske bakterieinfektioner, hud- og bløddelinfektioner, ben- og ledinfektioner samt toxoplasmose.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **punktvis epithelial keratoconjunctivitis** som sin mest rangerede nye indikation, med **0 kliniske forsøg** og **0 publikationer**, der direkte understøtter denne retning.
-⚠️ Den høje forudsigelsesscore (99,97%) afspejler mest sandsynligt ikke-specifik nærhed inden for okulære overfladelidelsesknuder i vidensgrafen snarere end ægte terapeutisk relevans; den overordnede anbefaling for alle fem forudsagte indikationer er **Afvent**.
+Clindamycin er et lincosamid-antibiotikum, der virker mod bakterier. I Danmark er der dog kun registreret et dyrelægemiddel (Antirobe Vet.), og der er ingen godkendt human indikationstekst i datagrundlaget.
+TxGNN-modellen forudsiger, at clindamycin kan have effekt ved **punktformet epitelial keratokonjunktivitis** (score 99,97 %), men der er **0 kliniske forsøg** og **0 publikationer** for denne indikation.
+Evidensen består udelukkende af modelforudsigelsen.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Original indikation | Ikke registreret i Danmark; internationalt brugt som lincosamid-antibiotikum til anaerobiske/Gram-positive bakterieinfektioner og toxoplasmose |
-| Forudsagt ny indikation | Punktvis epithelial keratoconjunctivitis |
-| TxGNN forudsigelsesscore | 99,97% |
-| Bevisniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (det registrerede produkt har ingen indikationstekst) |
+| Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis |
+| TxGNN-prædiktionsscore | 99,97 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i bevismaternalet. På basis af kendt farmakologisk information er clindamycin et lincosamid-antibiotikum, der hæmmer bakteriel proteinsyntese ved binding til 50S-ribosomalt underenhed. Det har bred aktivitet mod anaerobiske bakterier, visse Gram-positive kokkus og protozoer — mest bemærkelsesværdigt *Toxoplasma gondii* — hvor det undertiden bruges som anden linjemiddel i kombination med pyrimethamin.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i Evidence Pack. Generelt er clindamycin et lincosamid, som hæmmer den bakterielle 50S-ribosomsubenhed og dermed proteinsyntesen. Stoffet er især aktivt mod grampositive bakterier som *Staphylococcus aureus*.
 
-Punktvis epithelial keratoconjunctivitis (PEK) er primært forårsaget af virale patogener (adenovirus, herpes simplex-virus), tør øjensyndrom, toksiske eller kemiske irritanter eller systemiske sygdomme såsom Sjögrens syndrom. Det er ikke primært en bakteriel infektionssygdom. Clindamycins antibakterielles og antiprotozoale mekanisme giver derfor ikke noget direkte terapeutisk grundlag for PEK.
+Punktformet epitelial keratokonjunktivitis er oftest viral eller toksisk/inflammatorisk. En antibakteriel mekanisme understøtter derfor ikke direkte forudsigelsen. Sammenhængen hviler alene på modellens score, og lighed med den oprindelige indikation er endnu ikke vurderet.
 
-TxGNN-modellens meget høje score (99,97%) afspejler mest sandsynligt ikke-specifik vidensgrafs-association på tværs af okulære overfladelidelsesknuder — ikke ægte terapeutisk anvendelighed. **Den mekanistiske forbindelse mellem clindamycin og punktvis epithelial keratoconjunctivitis understøttes ikke af nuværende bevis**, og denne forudsigelse bør behandles med betydelig forsigtighed før enhver yderligere indsats.
+**Andre forudsagte indikationer i datagrundlaget** (samme evidensgrundlag, alle uden kliniske forsøg):
 
----
-
-## Kliniske forsøgsbeviser
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturbevis
-
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Eksponeringskeratitis | 99,80 % | L4 | Forskningsspørgsmål. Antibakteriel begrundelse er plausibel, men indirekte (sekundær infektion) |
+| Ikke-humant dyresygdom | 99,69 % | L5 | Uspecifik veterinær kategori, sandsynligvis en artefakt i vidensgrafen. Ikke anvendelig til human repurposing |
+| Neurotrofisk keratopati | 99,49 % | L5 | Ingen kendt mekanistisk sammenhæng |
+| Epidemisk keratokonjunktivitis | 99,49 % | L5 | Adenovirus-betinget. Clindamycin har ingen antiviral aktivitet |
 
 ---
 
-## Alle TxGNN-forudsagte indikationer — Oversigt over resumé
+## Klinisk forsøgsevidens
 
-For transparensens skyld er det fuldstændige sæt af unikke forudsagte indikationer og deres vurdering angivet nedenfor:
-
-| Rang | Sygdom | TxGNN-score | Bevisniveau | Anbefaling | Vigtigste bekymring |
-|------|---------|-------------|-------------|-------------|-------------|
-| 1 | Punktvis epithelial keratoconjunctivitis | 99,97% | L5 | Afvent | Primært viral/tørartet etiologi; intet mekanistisk grundlag for antibiotikum |
-| 3 | Ekspositionskeratitis | 99,80% | L4 | Afvent | Kernbehandling er smøring/øjenlagsreparation; clindamycins rolle begrænset til kun sekundær bakteriel superinfektion |
-| 5 | Ikke-menneskelig dyresygdom | 99,69% | L5 | Afvent | ⚠️ Omvendt associerings-advarsel: Clindamycin er en **risikofaktor** for *C. difficile*-infektion, ikke en behandling; ikke en humane klinisk indikation |
-| 7 | Neurotrof keratopati | 99,49% | L5 | Afvent | Nervedegenererings-patologi; ingen kendt mekanistisk forbindelse til et antibiotikum |
-| 9 | Epidemisk keratoconjunctivitis | 99,49% | L4 | Afvent | Primært adenoviral; clindamycin har ingen antivirusaktivitet; tilgængelig litteratur er kun veterinær |
-
-> **Bemærk:** Rangerne 2, 4, 6, 8 og 10 i bevismaternalet er duplikater af ovenstående poster og er blevet konsolideret her.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturbevis — Ekspositionskeratitis (Rang 3, L4)
+## Litteraturevidens
 
-Selvom der ikke findes kliniske forsøg, blev fire publikationer hentet til ekspositionskeratitis-forudsigelsen. De præsenteres for fuldstændighed, selvom ingen direkte evaluerer clindamycin ved ekspositionskeratitis.
+Der er for øjeblikket ingen relateret litteratur for den primære forudsigelse (punktformet epitelial keratokonjunktivitis).
 
-| PMID | År | Type | Journal | Vigtigste resultater |
-|------|------|------|---------|-------------|
-| [22880135](https://pubmed.ncbi.nlm.nih.gov/22880135/) | 2012 | Retrospektiv caseserie | *PLOS ONE* | MRSA-forekomst i okulære infektioner; antibiotikumfølsomhedsdata for *S. aureus* øjeisolater — kun indirekte kontekst |
-| [24244625](https://pubmed.ncbi.nlm.nih.gov/24244625/) | 2013 | Retrospektiv caseserie | *PLOS ONE* | Demografi og kliniske resultater af *S. aureus* keratitis; MRSA vs. MSSA-sammenligning — kun indirekte kontekst |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Caseserie | *Ophthalmology* | Første rapporterede kontaktlinse-associeret *Bacillus cereus* keratitis; ingen clindamycin-intervention |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Veterinær klinisk undersøgelse | *Polish J Vet Sci* | Feline okulær toxoplasmose-behandlingsresultater — veterinær undersøgelse, ikke anvendelig på humane ekspositionskeratitis |
+Nedenfor ses litteratur fundet for de øvrige forudsigelser. Ingen af artiklerne undersøger clindamycin som behandling af den forudsagte tilstand.
 
----
-
-## Litteraturbevis — Epidemisk keratoconjunctivitis (Rang 9, L4)
-
-| PMID | År | Type | Journal | Vigtigste resultater |
-|------|------|------|---------|-------------|
-| [21908289](https://pubmed.ncbi.nlm.nih.gov/21908289/) | 2011 | Veterinær in vitro-følsomhed | *J Vet Diagn Invest* | MIC-data for *Moraxella bovoculi* i infektiøs bovine keratoconjunctivitis — bovint patogen, ikke humane adenoviral EKC |
-| [25261461](https://pubmed.ncbi.nlm.nih.gov/25261461/) | 2014 | Veterinær retrospektiv undersøgelse | *J Vet Diagn Invest* | Epidemiologi af *Moraxella* spp. i bovine pink eye-udbrud — ikke anvendelig på human EKC |
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [22880135](https://pubmed.ncbi.nlm.nih.gov/22880135/) | 2012 | Kohorte | PloS one | Forekomst, kliniske kendetegn og antibiotikafølsomhed ved okulære MRSA-infektioner sammenlignet med MSSA (eksponeringskeratitis) |
+| [24244625](https://pubmed.ncbi.nlm.nih.gov/24244625/) | 2013 | Review | PloS one | Patientkarakteristika, kliniske træk, antibiotikafølsomhed og udfald ved *S. aureus*-keratitis, MRSA vs. MSSA (eksponeringskeratitis) |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | Første tilfælde af *Bacillus cereus*-keratitis forbundet med kontaktlinser (eksponeringskeratitis) |
+| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Kohorte | Polish journal of veterinary sciences | Serologi, diagnostik og behandlingsudfald ved okulær toksoplasmose hos 60 katte (eksponeringskeratitis) |
+| [36684930](https://pubmed.ncbi.nlm.nih.gov/36684930/) | 2022 | Kohorte | Frontiers in public health | Molekylær epidemiologi af *C. difficile* hos kæledyr og genetisk overlap med humane stammer (ikke-humant dyresygdom) |
+| [40172204](https://pubmed.ncbi.nlm.nih.gov/40172204/) | 2025 | Kohorte | Applied and environmental microbiology | Forekomst af *C. difficile* hos vilde heste i Australien (ikke-humant dyresygdom) |
+| [21908289](https://pubmed.ncbi.nlm.nih.gov/21908289/) | 2011 | In vitro (veterinær) | J Vet Diagn Invest | Minimale hæmmende koncentrationer for *Moraxella bovoculi* fra kvæg med infektiøs keratokonjunktivitis (epidemisk keratokonjunktivitis) |
+| [25261461](https://pubmed.ncbi.nlm.nih.gov/25261461/) | 2014 | Kohorte | J Vet Diagn Invest | Retrospektiv undersøgelse af *Moraxella*-isolater fra udbrud af infektiøs bovin keratokonjunktivitis (epidemisk keratokonjunktivitis) |
 
 ---
 
-## Markedsoplysninger for Danmark
+## Oplysninger om det danske marked
 
-Clindamycin er **ikke aktuelt registreret eller markedsført i Danmark**. Der er ikke identificeret markedsføringstilladelser gennem Lægemiddelstyrelsen eller via centraliserede EMA-procedurer på tidspunktet for denne rapport (dataafskæring: 5. april 2026).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103406702 | Antirobe Vet. (Zoetis Animal Health ApS) | Kapsler, hårde | Indikationstekst ikke angivet |
 
-> Praktikere, der har brug for clindamycin-baserede produkter, bør kontakte Lægemiddelstyrelsen for eventuelle tilgængelige named-patient- eller compassionate-use-veje, eller verificere aktuel EMA-centraliseret tilladelsestatus direkte.
-
----
-
-## Sikkerhedshensyn
-
-Se den godkendte produktresume (SmPC) for sikkerhedsinformation.
-
-> ⚠️ **Vigtig CDI-risikoadvarsel (omvendt association fra bevismaternalet):**
-> Clindamycin er et af de antibiotika, der er stærkest associeret med *Clostridioides difficile*-infektion (CDI). To publikationer hentet under bevisindsamlingen (PMID [36684930](https://pubmed.ncbi.nlm.nih.gov/36684930/), PMID [40172204](https://pubmed.ncbi.nlm.nih.gov/40172204/)) dokumenterer *C. difficile*-epidemiologi forbundet med clindamycin-eksponering hos husdyr og vilde hestepopulationer. Denne CDI-risiko er en vigtig sikkerhedshensyn for enhver foreslået klinisk anvendelse hos mennesker og skal behandles i enhver formel sikkerhedsvurdering.
+Bemærk: Det registrerede produkt er et veterinærlægemiddel. Der er ikke identificeret humane markedsføringstilladelser i datagrundlaget.
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvent**
+Der foreligger ingen sikkerhedsdata i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+Det er generelt kendt, at clindamycin er en risikofaktor for *Clostridioides difficile*-infektion, hvilket bør indgå i enhver risikovurdering ved eventuel systemisk anvendelse.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle fem unikke TxGNN-forudsagte indikationer er vurderet til L5 eller L4 (modelforudsigelse alene, eller indirekte/veterinær bevis), nul humane kliniske forsøg er registreret, og ingen af de forudsagte tilstande har en biologisk plausibel mekanistisk forbindelse til clindamycins kendte antibakterielles eller antiprotozoale egenskaber. Desuden er clindamycin ikke aktuelt markedsført i Danmark, og baseline-sikkerhedsdata (SmPC-advarsler og kontraindikationer) mangler fra bevismaternalet.
+Den høje TxGNN-score (99,97 %) understøttes ikke af kliniske forsøg, litteratur eller en plausibel mekanisme, da tilstanden oftest er viral eller toksisk/inflammatorisk. Evidensniveauet er L5, og de øvrige forudsigelser er enten uden mekanistisk grundlag eller uden relevans for human anvendelse. Eksponeringskeratitis (L4) er den eneste kandidat med et indirekte, plausibelt antibakterielt rationale og kan betragtes som et forskningsspørgsmål.
 
-**For at fortsætte ville følgende være nødvendigt:**
+**For at komme videre kræves følgende:**
+- Produktresumé og sikkerhedsoplysninger (advarsler, kontraindikationer) fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Afklaring af oprindelig human indikation og eventuelle humane markedsføringstilladelser
+- Vurdering af administrationsvej, okulær penetration og sikkerhed ved øjenanvendelse
+- Målrettet litteratursøgning og eventuelle prækliniske studier for eksponeringskeratitis
 
-- Fuldstændige MOA-data fra DrugBank, der bekræfter noget mekanistisk grundlag for brug ved okulær overfladelidelse
-- Dansk Lægemiddelstyrelsen SmPC eller TFDA-produktinformation for formel sikkerhedsvurdering (blokering af datahuller DG001)
-- Mindst et humane klinisk forsøg eller prospektivt observationelt studie, der undersøger clindamycin i en relevant okulær indikation
-- En formel CDI-risikobedømmelse og risikomitigationsstrategi givet clindamycins veldokumenterede *C. difficile*-inducerende potentiale
-- Genovervejelse af TxGNN-vidensgrafs-modelsvægtning for okulære overfladelidelsesknuder for at reducere ikke-specifik høj-scorende forudsigelser
-- Hvis okular anvendelse udforskes, ville rutekombinabilitetsvurdering (tilgængelighed af topikalophtalmisk formulering og farmakokineik) være påkrævet
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til repurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

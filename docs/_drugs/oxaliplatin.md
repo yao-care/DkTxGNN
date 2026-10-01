@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Oxaliplatin
-parent: Høj evidens (L1-L2)
-nav_order: 323
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 324
+evidence_level: L5
 indication_count: 10
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,111 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxaliplatin: Fra kolorektal cancer til malignt pleuralt mesoteliom
+# Oxaliplatin: Fra kendt kræftbehandling til malignt pleuramesoteliom
 
-## Sammenfatning i en sætning
+## Resumé i få sætninger
 
-> Oxaliplatin er et tredje-generations platinbaseret cytotoksisk agens, internationalt etableret som et vigtigt kemoterapigrundlag for kolorektal cancer (almindeligvis som en del af FOLFOX-regimet).
-> TxGNN-modellen forudsiger, at det også kan være effektivt for **Malignt pleuralt mesoteliom**,
-> med **5 kliniske forsøg** og **20 publikationer**, der i øjeblikket understøtter denne retning.
+Oxaliplatin er et platinbaseret cytostatikum (kemoterapi), der er markedsført i Danmark som koncentrat til infusionsvæske. TxGNN-modellen forudsiger, at det kan have effekt ved **malignt pleuramesoteliom** (kræft i lungehinden). Hypotesen støttes af **3 relevante kliniske forsøg (fase 2)** og en række publikationer, heriblandt flere fase 2-studier. Der findes dog **ingen randomiserede fase 3-forsøg**, og aktiviteten i fase 2-studierne er beskeden.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|----------|
-| Original indikation | Ikke dokumenteret i denne bevissamling; internationalt etableret brug er metastatisk kolorektal cancer (velkendt standardbrug, ikke bekræftet via dansk registreringsdata) |
-| Forudsagt ny indikation | Malignt pleuralt mesoteliom |
-| TxGNN-prognosescore | 99.68% |
-| Bevisniveau | L2 |
-| Markeds- og markedsføringsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
-| Anbefalet afgørelse | Afvente |
+|------|------|
+| Forudsagt ny indikation | Malignt pleuramesoteliom |
+| TxGNN-forudsigelsesscore | 99,68 % |
+| Evidensniveau | L2 (iht. evidenspakken; bemærk at der kun foreligger enkeltarmede fase 2-studier og ingen RCT) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prognose rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme for denne evaluering ikke tilgængelige i bevissamlingen. Baseret på veletableret farmakologisk viden er oxaliplatin en platinbaseret DNA-crosslinking-agens, der inducerer apoptose i hurtigt delende celler; det har dokumenteret effektivitet ved kolorektal cancer, typisk som en del af kombinationsterapier (f.eks. FOLFOX).
+Der foreligger ingen detaljerede data om virkningsmekanisme i evidenspakken. Oxaliplatin tilhører dog platinforbindelserne, som danner DNA-addukter og tværbindinger, der udløser apoptose (programmeret celledød) i kræftceller.
 
-Malignt pleuralt mesoteliom (MPM) er, ligesom kolorektal cancer, en solid tumortype, hvor platinbaseret cytotoksisk kemoterapi (cisplatin/carboplatin plus pemetrexed) allerede er standard-behandling. Oxaliplatins DNA-skadende mekanisme er ikke tumor-type-specifik, hvilket giver en plausibel mekanistisk rationalet for aktivitet ved MPM, en kemoresistent malignitet, hvor behandlingsmuligheder forbliver begrænsede.
+Platinforbindelser indgår allerede i behandlingen af malignt pleuramesoteliom. Pemetrexed i kombination med platin er førstelinjestandard ifølge en gennemgang fra 2015 (PMID 26526504). Oxaliplatin er afprøvet sammen med antifolater (raltitrexed) og gemcitabin. Desuden kan oxaliplatinudløst immunogen celledød muligvis understøtte kombinationer med checkpoint-hæmmere (PMID 31455014).
 
-Denne mekanistiske plausibilitet forstærkes af en væsentlig og konsistent mængde uafhængig litteratur: flere prospektive fase II-forsøg fra forskellige forskergrupper (raltitrexed+oxaliplatin, gemcitabin+oxaliplatin, vinorelbine+oxaliplatin) har specifikt testet oxaliplatin-baserede kombinationer i MPM-populationer siden begyndelsen af 2000'erne, hvilket indikerer, at onkologisamfundet allerede har udforsket denne præcise genbrug-hypotese klinisk.
+Evidensen er imidlertid begrænset til små fase 2-studier med varierende resultater. Oxaliplatin er derfor ikke en etableret standardbehandling ved denne sygdom.
 
 ---
 
-## Bevis fra kliniske forsøg
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal indskrevne | Vigtige resultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT00859469](https://clinicaltrials.gov/study/NCT00859469) | Fase 2 | Afsluttet | 29 | Oxaliplatin + gemcitabin som første- eller anden-linje-terapi ved malignt pleuralt/peritoneal mesoteliom; evaluerede respons-rate |
-| [NCT00996385](https://clinicaltrials.gov/study/NCT00996385) | Fase 2 | Ukendt | 29 | Bortezomib (Velcade) plus oxaliplatin (Eloxatin) hos tidligere behandlet pleuralt/peritoneal mesoteliom |
-| [NCT03210298](https://clinicaltrials.gov/study/NCT03210298) | I.v.t. | Ukendt | 1000 | Multicenterstudie på internationalt niveau dokumenterende PIPAC/PITAC (trykt intraperitoneal aerosolkemoterapi)-resultater for malignt pleuralt og peritoneal sygdom |
-| [NCT05107674](https://clinicaltrials.gov/study/NCT05107674) | Fase 1 | Rekrutterer | 345 | Første-humans dose-eskalationsstudie af CBL-B-inhibitor NX-1607 ved avancerede maligniteteter (kurv-forsøg; ikke oxaliplatin-specifikt) |
-| [NCT06310473](https://clinicaltrials.gov/study/NCT06310473) | Fase 2 | Endnu ikke rekrutterer | 30 | Neoadjuvant PD-1/CTLA-4 bispecifik antistof plus kemoterapi ved gastroøsofageal junction/magecancer — sygdomsmatch til MPM er svagt, sandsynligvis en vidensgrafs kartlegartefakt |
+| [NCT00859469](https://clinicaltrials.gov/study/NCT00859469) | Fase 2 | Afsluttet | 29 | Oxaliplatin + gemcitabin som første- eller andenlinjebehandling ved malignt pleura- eller peritoneal mesoteliom. Primært endepunkt er responsrate. Direkte match på lægemiddel og sygdom, men lille studie. |
+| [NCT00996385](https://clinicaltrials.gov/study/NCT00996385) | Fase 2 | Ukendt | 29 | Bortezomib (Velcade) + oxaliplatin (Eloxatin) til tidligere behandlede patienter med malignt pleura- eller peritoneal mesoteliom. Lille studie med uafklaret status. |
+| [NCT03210298](https://clinicaltrials.gov/study/NCT03210298) | Ikke relevant (register) | Ukendt | 1000 | Internationalt register over PIPAC/PITAC (trykaerosol-kemoterapi) ved ondartede peritoneale og pleurale sygdomme. Ingen kontrollerede effektdata for oxaliplatin ved pleuramesoteliom. |
+
+To yderligere forsøg i søgeresultaterne (NCT06310473, NCT05107674) omhandler ikke mesoteliom og er udeladt.
 
 ---
 
-## Bevis fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtige resultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [14609447](https://pubmed.ncbi.nlm.nih.gov/14609447/) | 2003 | Fase II-forsøg | Clinical Lung Cancer | Multicenterstudie af fase II med gemcitabin + oxaliplatin hos 25 MPM-patienter |
-| [12525529](https://pubmed.ncbi.nlm.nih.gov/12525529/) | 2003 | Fase II-forsøg | J Clin Oncol | Raltitrexed + oxaliplatin-kombination vist at være et aktivt regime hos 70 MPM-patienter |
-| [15639727](https://pubmed.ncbi.nlm.nih.gov/15639727/) | 2005 | Fase II-forsøg | Lung Cancer | Vinorelbine + oxaliplatin som førstelin-terapi hos ubehandlet MPM |
-| [11989592](https://pubmed.ncbi.nlm.nih.gov/11989592/) | 2001 | Pilot-undersøgelse | Tumori | Oxaliplatin + raltitrexed ved uoperabel MPM; opfølgning på tidligere fase I-signal |
-| [19091133](https://pubmed.ncbi.nlm.nih.gov/19091133/) | 2008 | Observationsstudie | J Occup Med Toxicol | Gemcitabin + oxaliplatin hos pemetrexed-forbehandlet MPM-patienter |
-| [15893013](https://pubmed.ncbi.nlm.nih.gov/15893013/) | 2005 | Fase II-forsøg | Lung Cancer | Raltitrexed-oxaliplatin som anden-linje-terapi — rapporteret inaktiv (ingen objektive responser), vigtig negativ signal |
-| [10930799](https://pubmed.ncbi.nlm.nih.gov/10930799/) | 2000 | Retrospektiv oversigt | Eur J Cancer | Institut Gustave Roussy 9-års erfaring med kemoterapie/kemoterapy-immunoterapi incl. raltitrexed-oxaliplatin ved mesoteliom |
-| [12610498](https://pubmed.ncbi.nlm.nih.gov/12610498/) | 2003 | Oversigt | Br J Cancer | Oversigt over tidligere og kommende kemoterapiresultater ved MPM, herunder platinbaserede regimer |
-| [26526504](https://pubmed.ncbi.nlm.nih.gov/26526504/) | 2015 | Oversigt | Cancer Treatment Reviews | Oversigt over kemoterapeutiske muligheder, herunder platinkombinationer, i MPM-behandling |
-| [31455014](https://pubmed.ncbi.nlm.nih.gov/31455014/) | 2019 | Oversigt | Int J Mol Sci | Effekt af kemoterapeutiske midler, herunder oxaliplatin, på expression af immunCheckpoint ved MPM — rationalet for kombination med immunoterapi |
+| [12525529](https://pubmed.ncbi.nlm.nih.gov/12525529/) | 2003 | Fase 2 | J Clin Oncol | Raltitrexed + oxaliplatin hos 70 patienter med malignt pleuramesoteliom (15 forbehandlede, 55 kemoterapi-naive). Konkluderes som et aktivt regime. |
+| [14609447](https://pubmed.ncbi.nlm.nih.gov/14609447/) | 2003 | Fase 2 (multicenter) | Clin Lung Cancer | Gemcitabin + oxaliplatin hos 25 patienter, op til 6 serier à 21 dage. |
+| [15639727](https://pubmed.ncbi.nlm.nih.gov/15639727/) | 2005 | Fase 2 | Lung Cancer | Vinorelbin + oxaliplatin som førstelinjebehandling. |
+| [11989592](https://pubmed.ncbi.nlm.nih.gov/11989592/) | 2001 | Pilotstudie (fase 2) | Tumori | Oxaliplatin + raltitrexed ved inoperabelt pleuramesoteliom. |
+| [19091133](https://pubmed.ncbi.nlm.nih.gov/19091133/) | 2008 | Observationsstudie | J Occup Med Toxicol | Gemcitabin ± oxaliplatin hos patienter forbehandlet med pemetrexed. |
+| [15893013](https://pubmed.ncbi.nlm.nih.gov/15893013/) | 2005 | Fase 2 | Lung Cancer | Raltitrexed + oxaliplatin som andenlinjebehandling hos 14 patienter. Ingen objektive responser (bedste respons: stabil sygdom hos 28,6 %). Studiet blev lukket. |
+| [31455014](https://pubmed.ncbi.nlm.nih.gov/31455014/) | 2019 | Review | Int J Mol Sci | Kemoterapiens effekt på immun-checkpoint-ekspression. Oxaliplatin fremhæves som interessant i kombination med immunterapi. |
+| [12610498](https://pubmed.ncbi.nlm.nih.gov/12610498/) | 2003 | Review | Br J Cancer | Kemoterapi ved pleuramesoteliom. Responsrater over 30 % er sjældne med etablerede cytostatika. |
+| [11836672](https://pubmed.ncbi.nlm.nih.gov/11836672/) | 2002 | Review | Semin Oncol | Antifolaters rolle. Raltitrexed/oxaliplatin fremhæves som en af to lovende antifolatkombinationer. |
+| [10930799](https://pubmed.ncbi.nlm.nih.gov/10930799/) | 2000 | Erfaringsopgørelse | Eur J Cancer | Erfaringer fra Institut Gustave Roussy med kemoterapi og kemo-immunterapi ved mesoteliom. |
+
+Resultaterne er blandede: to fase 2-studier peger på aktivitet, mens et andenlinjestudie (PMID 15893013) ikke viste objektive responser.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-I øjeblikket er der ingen markedsføringsgodkendelser for oxaliplatin registreret for Danmark i denne bevissamling (`total_licenses: 0`).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104418308 | Oxaliplatin "Accord" (Accord Healthcare B.V.) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de foreliggende data |
 
 ---
 
-## Cytotoxicitet
-
-Oxaliplatin er et konventionelt cytotoksisk kemoterapiagens (tredje-generations platinforbindelse) baseret på dets kendte farmakologiske klasse.
+## Cytotoksicitet
 
 | Punkt | Indhold |
-|------|---------|
-| Cytotoxicitets-klassificering | Konventionel cytotoksisk (Platinforbindelse) |
-| Myelosuppression-risiko | Moderat — neutropeni og trombocytopeni er anerkendt klasseeffekter af platinagenser; se produktinformationen for detaljeret graduering |
-| Emetogenicitets-klassificering | Moderat til høj — se produktinformationen og lokale retningslinjer for antiemetisk terapi |
-| Overvågningspunkter | CBC (blodtælling) med differential, nyrfunción og klinisk vurdering af perifer neuropati (en karakteristisk dose-begrænsende toksicitet af oxaliplatin) |
-| Håndtering af beskyttelse | Standard cytotoksisk medicinbehanding og bortskaffelse-forholdsregler påkrævet |
+|------|------|
+| Cytotoksicitetsklassifikation | Konventionelt cytostatikum (platinforbindelse) |
+| Risiko for knoglemarvssuppression | Moderat (generel klasseviden; neutropeni og trombocytopeni er kendt) |
+| Emetogenicitet | Moderat (generel klasseviden) |
+| Monitoreringspunkter | Komplet blodtælling med differentialtælling, lever- og nyrefunktion, elektrolytter samt neurologisk vurdering (perifer neuropati er kendt for oxaliplatin) |
+| Håndteringsbeskyttelse | Ja, skal håndteres efter gældende regler for cytostatika |
+
+Vurderingerne bygger på generel klasseviden, da der ikke foreligger toksicitetsdata i evidenspakken. Se produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst produktinformationen for godkendt medicin (SmPC) for sikkerhedsinformation. Ingen advarsler, kontraindikationer eller lægemiddelinteraktionsdata var tilgængelige i denne bevissamling (mærket som Blokering af datasvigt DG001: TFDA/SmPC advarsler og kontraindikationer endnu ikke hentet).
+Der foreligger ingen advarsler, kontraindikationer eller interaktionsdata i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Effektivitetsbevis for oxaliplatin ved malignt pleuralt mesoteliom er moderat (L2) — flere uafhængige fase II-forsøg understøtter aktivitet, selvom resultaterne er blandede (f.eks. PMID 15893013 rapporterede et inaktivt anden-linje-regime) og der foreligger ingen fase 3-bekræftelse.
-- Et blokerings-alvorlighed datasvigt (DG001: manglende SmPC advarsler/kontraindikationer) forhindrer enhver sikkerhed-forkontrol (S1), og medicinen har i øjeblikket ingen markedsføringsgodkendelse i Danmark, således at denne kandidat ikke kan fortsætte yderligere, før disse mangler er lukket.
+- Evidensen består af små, overvejende enkeltarmede fase 2-studier med blandede resultater. Der findes ingen fase 3-RCT, og pemetrexed + platin er allerede etableret førstelinjestandard.
+- Sikkerhedsdata fra produktresuméet mangler, hvilket blokerer en sikkerhedsscreening.
 
-**For at kunne fortsætte, er følgende nødvendigt:**
-- TFDA/SmPC advarsler, kontraindikationer og fuldstændig medicineringsinfo (DG001, blokering)
-- Bekræftet mekanisme-for-handling-data (DG002, høj prioritet)
-- En defineret regulatorisk vej for dansk markedsadgang, givet den nuværende "ikke markedsført"-status
-- Løsning af sygdomskortlægnings-tvetydighed for lavere-rangerede kandidater (f.eks. "malignt viscerale pleura-tumor," "kvindelig brystkarcinom"), hvor forsøgs-/litteraturrelevans synes svag relativt til TxGNN-scoren
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer, interaktioner) fra Lægemiddelstyrelsen.
+- Data om virkningsmekanisme fra DrugBank.
+- Systematisk gennemgang af fase 2-resultaterne (responsrate, overlevelse, toksicitet) og sammenligning med pemetrexed + platin.
+- Vurdering af, om kombination med immun-checkpoint-hæmmere eller lokal indgivelse (HIPEC/PIPAC) kan afprøves i et velstruktureret studie.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

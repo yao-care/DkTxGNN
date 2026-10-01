@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 434
+nav_order: 436
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tildrakizumab: Fra en Ukendt Oprindelig Indikation til Alvorlig Nonproliferativ Diabetisk Retinopati
+# Tildrakizumab: Fra plaque-psoriasis til svær non-proliferativ diabetisk retinopati
 
-## Ét-sætnings Sammenfatning
+## Resumé i én sætning
 
-Tildrakizumab er et anti‑IL‑23p19 monoklonalt antistof; dets oprindeligt godkendte indikation og detaljer om virkningsmekanisme er endnu ikke dokumenteret i denne beviselementpakke, og lægemidlet markedsføres ikke i øjeblikket i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt til **Alvorlig Nonproliferativ Diabetisk Retinopati**, men denne forudsigelse er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer** — det er på dette stadium et modeludsagn.
+Tildrakizumab er et monoklonalt antistof mod IL-23 p19, som markedsføres i Danmark under navnet Ilumetri. Det er oprindeligt udviklet til plaque-psoriasis. TxGNN-modellen forudsiger, at det kan være virksomt mod **svær non-proliferativ diabetisk retinopati**, men der er **ingen registrerede kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen.
 
----
-
-## Hurtig Oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig Indikation | Ikke tilgængelig — ingen godkendt indikation eller licensedata i denne beviselementpakke |
-| Forudsagt Ny Indikation | Alvorlig Nonproliferativ Diabetisk Retinopati |
-| TxGNN-Forudsigelsesscore | 99.63% |
-| Bevisniveau | L5 (modelforudsigelse alene, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal Markedsføringsgodkendelser | 0 |
-| Anbefalet Beslutning | Vent |
+|------|------|
+| Oprindelig indikation | Plaque-psoriasis (indikationsteksten mangler i datapakken, så oplysningen bygger på almen viden og bør verificeres mod produktresuméet) |
+| Foreslået ny indikation | Svær non-proliferativ diabetisk retinopati |
+| TxGNN-score | 99,63 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor Er Denne Forudsigelse Rimelig?
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i datapakken. Tildrakizumab er et antistof, der hæmmer p19-underenheden af IL-23. Det er dokumenteret effektivt ved plaque-psoriasis, hvor IL-23/IL-17-aksen er central.
 
-I øjeblikket er der ikke tilgængelige detaljerede virkningsmekanismedata i den strukturerede lægemiddelregistrering. Baseret på de oplysninger, der er til stede i denne beviselementpakkes begrundelse for genbrug, er Tildrakizumab et anti‑IL‑23p19 monoklonalt antistof — en klasse, der typisk bruges til at blokere IL‑23-drevne inflammatoriske veje.
+Det er foreslået, at kronisk lavgradig inflammation og IL-17/Th17-signalering bidrager til diabetisk retinopati. En direkte rolle for IL-23 er dog ikke påvist. Koblingen er derfor spekulativ og hviler alene på den høje TxGNN-score. Der er ingen data, der viser, at hæmning af IL-23 påvirker nethindens mikrokarsygdom.
 
-Fordi den oprindelige indikation ikke er dokumenteret her, kan forholdet mellem den (ukendte) oprindelige brug og diabetisk retinopati ikke etableres fra de tilgængelige data. Beviselementpakkens egen begrundelsestekst er eksplicit på, at enhver mekanistisk forbindelse til diabetisk retinopati er indirekte: den noterer, at "IL‑23/Th17-aksen har en spekulativ association med retinal mikrovaskulær sygdom", men karakteriserer dette som slutningsbaseret snarere end direkte bevis.
+Der er også uafklarede praktiske forhold:
+- Et stort antistof skal sandsynligvis gives intravitrealt for at nå nethinden, og det er ikke belyst.
+- Nethindens sikkerhedsprofil er ikke undersøgt.
+- Etablerede behandlinger (anti-VEGF og laser) er de kliniske sammenligningsgrundlag, og intet tyder på, at tildrakizumab tilfører noget ud over dem.
 
-I betragtning af at både virkningsmekanisme-feltet og den oprindelige indikation er markeret som datahuller (DG001, DG002), og at der ikke findes klinisk eller litteraturbevis til at bekræfte virkevej, bør denne forudsigelse behandles som en hypotese genereret rent af TxGNN-modellen, ikke som en farmakologisk substantieret kandidat.
+## Klinisk evidens fra forsøg
 
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret, hverken i ClinicalTrials.gov eller i ICTRP.
 
-## Evidens fra Kliniske Forsøg
+## Litteraturevidens
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relateret litteratur.
 
----
+## Information om markedet i Danmark
 
-## Litteraturbevis
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105927417 | Ilumetri (Almirall, S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i datagrundlaget |
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+## Sikkerhedsovervejelser
 
----
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
 
-## Markedsinformation for Danmark
+## Konklusion og næste skridt
 
-Tildrakizumab markedsføres ikke i øjeblikket i Danmark — 0 markedsføringsgodkendelser (nationale eller centraliserede/EMA) er på rekord i denne beviselementpakke.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformationer.
-
----
-
-## Konklusion og Næste Trin
-
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsesscore er høj, men dette afspejler kun modeloutput (Bevisniveau L5) — der er nul kliniske forsøg eller publikationer, der understøtter indikationen, og selv den mekanistiske begrundelse beskrives i beviselementpakken som spekulativ/indirekte. Kritiske data på lægemiddelniveau (SmPC-advarsler/kontraindikationer, virkningsmekanisme, oprindelig indikation) mangler også, hvilket forhindrer enhver sikkerhedsvurdering.
+Forudsigelsen bygger udelukkende på en computerberegnet score (L5) uden kliniske forsøg, litteratur eller præklinisk dokumentation. Den mekanistiske kobling mellem IL-23-hæmning og diabetisk retinopati er spekulativ, og administrationsvejen er uafklaret.
 
-**For at fortsætte er følgende nødvendig:**
-- SmPC/etiket-advarsler og kontraindikationer for Tildrakizumab (DG001 — blokering)
-- Bekræftet virkningsmekanisme og oprindelig godkendt indikation (DG002)
-- Prækliniske eller mekanistiske studier, der direkte forbinder IL‑23-inhibering med diabetisk retinopati-patofysiologi
-- Eventuelle nye kliniske forsøgs- eller kasuistikbeviser, før denne kandidat kan gå ud over modelforudsigelsestrinnet (S0)
+De øvrige forudsigelser har samme evidensniveau (L5) og samme anbefaling (Hold):
+- **Diabetisk retinopati** (score 99,53 %): samme begrundelse som ovenfor.
+- **Diabetisk katarakt** (99,21 %): ingen tydelig mekanistisk vej. Scoren skyldes sandsynligvis nærhed til diabetisk retinopati i vidensgrafen.
+- **Lægemiddelinduceret osteoporose** (99,20 %): der findes en teoretisk kobling via IL-23/IL-17 og osteoklastdannelse, men ingen understøttende data.
+- **Nuklear senil katarakt og kortikal katarakt** (98,91 %): ingen identificerbar mekanistisk kobling.
 
+**For at komme videre kræves:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da sikkerhedsscreening ikke kan gennemføres uden dem.
+- Indhent data om virkningsmekanismen fra DrugBank.
+- Gennemfør en systematisk litteratursøgning og præklinisk vurdering af IL-23/IL-17-aksens rolle i diabetisk retinopati.
+- Afklar administrationsvej (intravitreal versus systemisk) og nethindens sikkerhedsprofil.
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

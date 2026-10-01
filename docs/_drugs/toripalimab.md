@@ -2,7 +2,7 @@
 layout: default
 title: Toripalimab
 parent: Kun modelforudsigelse (L5)
-nav_order: 442
+nav_order: 444
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,97 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Toripalimab: Fra onkologi (PD-1-checkpoint-inhibitor) til blandet-type autoimmun hæmolytisk anæmi
+# Toripalimab: Fra PD-1-hæmmer til blandet type autoimmun hæmolytisk anæmi
 
-## Opsummering på én sætning
+## Resumé
 
-Toripalimab er en PD-1-checkpoint-inhibitor; formelle danske licensregistre opfører ingen bekræftet oprindelig indikation, men lægemidlets kendte virkemåde bruges inden for onkologi til at forbedre anti-tumor-T-celle-aktivitet. TxGNN-modellen forudsiger en mulig effekt på **blandet-type autoimmun hæmolytisk anæmi (AIHA)**, men denne forudsigelse understøttes af **nul kliniske forsøg og nul publikationer**, og den medfølgende mekanistiske analyse markerer eksplicit en **biologisk modsigelse** i stedet for en plausibel genbrug-rationalet.
+Toripalimab er et monoklonalt antistof, der blokerer PD-1 (en immun-checkpoint-hæmmer). I Danmark markedsføres det som LOQTORZI.
+TxGNN-modellen forudsiger, at det kan have effekt ved **blandet type autoimmun hæmolytisk anæmi**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Den biologiske logik peger desuden i modsat retning: PD-1-blokade kan udløse eller forværre netop denne type autoimmun sygdom.
 
 ---
 
-## Kort overblik
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke på fil (ingen danske licenser registreret; generelle mekanisme-data indikerer onkologi-brug som en PD-1-checkpoint-inhibitor) |
-| Forudsagt ny indikation | Blandet-type autoimmun hæmolytisk anæmi |
-| TxGNN-forudsigelsesscore | 93.76% |
-| Bevisniveau | L5 (kun modelforudsigelse — ingen kliniske forsøg, ingen litteratur) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Vent |
+|------|------|
+| Forudsagt ny indikation | Blandet type autoimmun hæmolytisk anæmi |
+| TxGNN-prediktionsscore | 93,76 % |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-For øjeblikket er detaljerede virkemåde-data for Toripalimab ikke tilgængelige i den formelle lægemiddelregistrering (MOA-felt er uudfyldt). Baseret på oplysninger, der er tilgængelige andre steder i bevisematerialet, er Toripalimab en PD-1-checkpoint-inhibitor, hvis farmakologisk virkning er at **frigive immunbremserne og forbedre T-celle-cytotoksisk aktivitet**, en tilgang, der bruges inden for onkologi til at hjælpe immunsystemet med at angribe tumorceller.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i evidenspakken. Toripalimab er dog en PD-1-blokerende antistofbehandling. PD-1-blokade ophæver T-cellernes tolerance og forventes derfor at *forværre* antistofmedieret autoimmunitet i stedet for at behandle den.
 
-Blandet-type autoimmun hæmolytisk anæmi er derimod en tilstand, hvor immunsystemet allerede over-angriber kroppens egne røde blodlegemer; standardbehandling afhænger af **immunsuppression**, ikke immune-aktivering. Bevisematerialets egen mekanistiske vurdering markerer dette direkte: anti-PD-1-midler er klinisk kendt for at *forårsage* AIHA og relaterede cytopeniaer som immunrelaterede bivirkninger (irAE), snarere end at behandle dem. Det samme mønster gentages på tværs af de andre højtscorende kandidater i denne pakke — idiopatisk aplastisk anæmi, dermatitis, paroxysmal nattlig hemoglobinuri og lægemiddelinduceret AIHA — som alle bærer den samme annotation: den forudsagte indikation er en *kendt bivirkning* af PD-1-inhibering, ikke et terapeutisk mål.
+Autoimmun hæmolytisk anæmi er en kendt immunrelateret bivirkning ved PD-1/PD-L1-hæmmere. Den høje score (0,938) er ikke understøttet af forsøg eller litteratur. Den afspejler sandsynligvis en association i vidensgrafen, hvor virkningsretningen er ukendt eller omvendt. Sikkerhedssignalet vejer sandsynligvis tungere end et eventuelt terapeutisk argument.
 
-Den mest sandsynlige forklaring er, at TxGNNs høje score afspejler **semantisk nærhed i embedrummet** (autoimmun/hæmatologisk sygdomsklynge) snarere end en ægte, biologisk understøttet behandlingsforhold. Dette er et tilfælde, hvor forudsigelsen bør behandles som en modelleringsartefakt, indtil uafhængige mekanistiske eller kliniske beviser fremkommer.
+Modellen foreslår også andre indikationer med lignende score. De har samme problem:
 
----
-
-## Bevis fra kliniske forsøg
-
-For øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Bevis fra litteratur
-
-For øjeblikket ingen relateret litteratur tilgængelig.
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Idiopatisk aplastisk anæmi | 93,76 % | Sygdommen drives af autoreaktive T-celler mod knoglemarvens stamceller. Checkpoint-blokade forventes at forstærke processen, og aplastisk anæmi er rapporteret som en sjælden immunrelateret bivirkning. |
+| Dermatitis | 93,69 % | Udslæt og dermatitis er blandt de hyppigste immunrelaterede bivirkninger ved PD-1-hæmmere. Effektretningen er skade, ikke gavn. |
+| Paroksysmal nattlig hæmoglobinuri (PNH) | 93,67 % | PNH er en komplementmedieret hæmolytisk sygdom. PD-1-blokade har ingen direkte kobling til komplementregulering. |
+| Lægemiddelinduceret autoimmun hæmolytisk anæmi | 93,67 % | Tilstanden er udløst af lægemidler. PD-1-hæmmere er en mulig årsag, så sammenhængen er snarere kausal end terapeutisk. |
 
 ---
 
-## Markedsinformation for Danmark
+## Evidens fra kliniske forsøg
 
-Toripalimab har for øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 licenser; markedsstatus: ikke markedsført). Ingen produkt-, doseringsform- eller godkendt-indikation-data er tilgængelige for rapportering.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28106870222 | LOQTORZI | Koncentrat til infusionsvæske, opløsning | Topalliance Biosciences Europe Limited |
 
 ---
 
 ## Cytotoksicitet
 
-Toripalimab er en PD-1-checkpoint-inhibitor, en klasse af antineoplastisk immunterapi.
-
 | Punkt | Indhold |
-|-------|---------|
-| Cytotoksicitetsklassificering | Immunterapi (PD-1-checkpoint-inhibitor) — ikke et konventionelt cytotoksisk middel |
-| Myelosuppression-risiko | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
-| Emetogenicitetsklassificering | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
-| Overvågningspunkter | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se venligst Produktinformationens sammenfatning (SmPC) advarsler og forholdsregler |
-
-Bemærkning: i modsætning til konventionel kemoterapi har checkpoint-inhibitorer som klasse en risiko for immunrelaterede uønskede begivenheder (irAE) — herunder immun hæmolytisk anæmi, dermatitis og andre autoimmun-mønster-toksiciteter — som er direkte relevant for denne kandidat, da den forudsagte nye "indikation" overlapper med kendte irAE for denne lægemiddelklasse.
+|------|------|
+| Klassifikation | Immunterapi (PD-1 checkpoint-hæmmer), ikke konventionelt cytotoksisk middel |
+| Øvrige oplysninger (myelosuppression, emetogenicitet, monitorering, håndtering) | Se advarsler og forsigtighedsregler i produktresuméet (SmPC) |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst den godkendte Produktinformationens sammenfatning (SmPC) for sikkerhedsinformation.
+- **Immunrelaterede bivirkninger, der overlapper med de forudsagte indikationer:** autoimmun hæmolytisk anæmi, aplastisk anæmi (sjælden) og udslæt/dermatitis er rapporteret ved PD-1-hæmmere. Det er et alvorligt sikkerhedssignal mod brug til disse tilstande.
+
+Der foreligger ingen registrerede lægemiddelinteraktioner i evidenspakken. For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Afgørelse: Vent**
+**Beslutning: Hold**
 
-**Rationalet:**
-Denne kandidat hviler på et L5-modelscores-kun-signal uden understøttende kliniske forsøg eller litteratur, og bevisematerialets egen mekanistiske analyse identificerer en direkte biologisk modsigelse — PD-1-inhibering er mere plausibelt en årsag til den forudsagte tilstand end en behandling for den. Et blokeringsdata-hul (manglende TFDA/SmPC-sikkerhedsdata) forhindrer også denne kandidat i formelt at indgå i S1-sikkerhedsvurderingsstadiet.
+**Begrundelse:**
+Forudsigelsen er kun modelbaseret (L5) og har ingen støtte fra kliniske forsøg eller litteratur. Den kendte virkningsretning for PD-1-blokade er snarere skade end gavn ved alle de forudsagte tilstande.
 
-**For at fortsætte er følgende nødvendig:**
-- Officiel SmPC/etiket-sikkerhedsdata (advarsler, kontraindikationer, DDI) — for øjeblikket et blokeringsdata-hul
-- Bekræftet virkemåde-dokumentation fra DrugBank — for øjeblikket et høj-alvorlighed-datahul
-- Uafhængigt præklinisk eller case-niveau-bevis specifikt støttende PD-1-inhibering i autoimmun cytopeni, da ingen findes for øjeblikket
-- I betragtning af den mekanistiske modsigelse bør du overveje at deprioritere dette signal til fordel for andre TxGNN-kandidater med stærkere biologisk plausibilitet
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer), da sikkerhedsscreening ikke kan gennemføres uden
+- Detaljerede data om virkningsmekanismen fra DrugBank
+- Afklaring af virkningsretningen bag TxGNN-associationen (behandling eller bivirkning)
+- Systematisk litteratursøgning efter case reports og immunrelaterede bivirkninger ved disse tilstande, før yderligere vurdering
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

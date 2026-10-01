@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 457
+nav_order: 459
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# TUROCTOCOG ALFA: Fra hæmofili A til primær trombocyt-udløselsforstyrrelse
+# Turoctocog alfa: Fra hæmofili A til primær frigivelsesforstyrrelse af blodplader
 
-## Resumé på én sætning
+## Resumé i få sætninger
 
-Turoctocog alfa er en rekombinant faktor VIII (FVIII) substitutionsterapi; bevisepakkens egen rationale-tekst bekræfter, at dets etablerede indikation er hæmofili A (medfødt FVIII-mangel), selvom strukturerede oprindelige indikations- eller danske licensdata ikke er til stede.
-TxGNN-modellen forudsiger mulig relevans for **primær trombocyt-udløselsforstyrrelse** (score **99.99%**), men dette er et rent knowledge-graph-lignelses-signal — **nul kliniske forsøg og nul publikationer** understøtter det, og bevisepakkens egen mekanistiske vurdering siger, at der er **ingen kendt farmakologisk basis** for forbindelsen.
+Turoctocog alfa er rekombinant koagulationsfaktor VIII (FVIII), som markedsføres i Danmark som Esperoct og anvendes som faktorerstatning ved hæmofili A. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**, men forudsigelsen er rent grafbaseret. Der er **0 kliniske forsøg** og **0 publikationer**, som understøtter den, og den mekanistiske sammenhæng er svag.
 
-## Hurtig oversigt
+---
+
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Original indikation | Hæmofili A (medfødt faktor VIII-mangel) — ifølge medicinklasse/rationale-tekst; ikke til stede i strukturerede licensdata |
-| Forudsagt ny indikation | Primær trombocyt-udløselsforstyrrelse |
-| TxGNN-forudsigelsesscore | 99.99% |
-| Bevisniveau | L5 (modelforudsigelse kun — ingen kliniske forsøg eller litteratur identificeret) |
-| Status på det danske marked | Ikke markedsført |
-| Antal markeringsgodkendelser | 0 |
+|------|------|
+| Oprindelig indikation | Hæmofili A (erstatning af FVIII). Indikationsteksten i den danske registrering er tom, så angivelsen bygger på stoffets kendte anvendelse. |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
+| TxGNN-forudsigelsesscore | 99,99 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-I øjeblikket er detaljerede mekanisme-for-handling-data ikke tilgængelige. Baseret på kendt information, turoctocog alfa er en rekombinant humant faktor VIII-substitutionsterapi; ifølge bevisepakkens egen repurposing-rationalet, er dets etablerede rolle i hæmofili A, hvor FVIII fungerer som en kofaktor i den indre koagulationskaskade (tenase-komplekset, sammen med faktor IXa) til at understøtte trombin-generering.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Primær trombocyt-udløselsforstyrrelse er derimod en defekt i trombocyt-granul (tæt/alfa-granul) indholdsudløsning, som forringer sekundær trombocyt-aggregering — en særskilt hæmostatisk mekanisme fra koagulations-kaskade-rollen for FVIII. Bevisepakkens egen mekanistiske vurdering siger eksplicit, at der ikke er kendt farmakologisk basis, der understøtter FVIII-supplering for at forbedre trombocyt-granul-udløsnings-funktionen.
+Turoctocog alfa er en rekombinant FVIII, der erstatter den manglende kofaktor til faktor IXa i tenasekomplekset. Detaljerede mekanismedata fra DrugBank er ikke tilgængelige, så vurderingen bygger på stoffets kendte farmakologi.
 
-Denne forudsigelse bør således læses som et rent knowledge-graph-lignelses-signal — sandsynligvis drevet af delt nærhed til en generel "blødningsforstyrrelse"/"hæmostase"-knude — snarere end en mekanistisk begrundet hypotese. Den samme forbehold gælder for tre af de øvrige fire forudsagte indikationer i denne pakke (pseudo-von Willebrand-sygdom, Glanzmann-thrombasthenia, Scott-syndrom), som bevisepakkens rationale-tekst også markerer som mekanistisk svag eller indirekte. Undtagelsen er *erhvervet koagulationsfaktor-mangel* (rank 9/10), hvor en direkte mekanistisk forbindelse er plausibel **hvis** diagnosen specifikt dækker erhvervet FVIII-mangel (f.eks. erhvervet hæmofili A) — dette er stadig ubekræftet i de aktuelle data.
+Primære frigivelsesforstyrrelser af blodplader er defekter i trombocytternes granulesekretion, ikke en mangel på FVIII. Erstatning med FVIII forventes derfor ikke mekanistisk at rette defekten. Den meget høje score (0,9999) afspejler nærhed i vidensgrafen mellem blødningssygdomme og er ikke et klinisk signal.
 
-## Klinisk forsøgsbeviser
+### Samtlige forudsigelser i Evidence Pack
 
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
+Evidence Pack indeholder 10 poster, men der er kun 5 unikke sygdomme. Hver sygdom optræder to gange med identiske scorer og behandles her som én post.
 
-## Litteraturbeviser
+| Forudsagt sygdom | Score | Mekanistisk vurdering | Anbefaling |
+|------|------|------|------|
+| Primær frigivelsesforstyrrelse af blodplader | 99,99 % | Defekt i blodpladernes granulesekretion, ikke FVIII-mangel. Erstatning forventes ikke at korrigere defekten. | Hold |
+| Pseudo-von Willebrand sygdom | 99,99 % | Skyldes øget funktion af GPIb-alfa med overdreven VWF-binding. FVIII er normal eller kun let nedsat, så kun FVIII-erstatning løser ikke den primære defekt. Koblingen er indirekte via FVIII-VWF-samregulering. | Hold |
+| Glanzmanns trombasteni | 99,99 % | Defekt i integrin alfaIIb-beta3, der hæmmer blodpladeaggregation. Koagulationsfaktorerne er normale, og FVIII genopretter ikke aggregationen. | Hold |
+| Scott syndrom | 99,95 % | Defekt fosfolipid-scrambling (TMEM16F) giver for lidt fosfatidylserin på trombocytterne. FVIII virker på denne overflade, så der er en teoretisk kobling, men FVIII reparerer ikke membrandefekten. | Hold |
+| Erhvervet koagulationsfaktormangel | 99,95 % | Den mest plausible af de fem, fordi FVIII-erstatning direkte adresserer en FVIII-mangel. Kategorien er heterogen. Ved erhvervet hæmofili A neutraliserer inhibitorer FVIII, så standarderstatning ofte er ineffektiv, og mangel på andre faktorer reagerer ikke på FVIII. | Forskningsspørgsmål |
 
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+For erhvervet koagulationsfaktormangel kræver videre arbejde en defineret undergruppe, fx FVIII-specifik erhvervet mangel, og en sammenligning med etablerede bypassing-midler.
 
-## Markedsinformation for Danmark
+---
 
-Dette produkt er i øjeblikket ikke markedsført i Danmark (Laegemiddelstyrelsen). Ingen markeringsgodkendelser er registreret i bevisepakken (total_licenses = 0).
+## Klinisk evidens fra forsøg
 
-## Sikkerhedshensyn
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret, hverken i ClinicalTrials.gov eller ICTRP, for nogen af de forudsagte indikationer.
 
-Se venligst den godkendte sammenfatning af produktegenskaber (SmPC) for sikkerhedsinformation.
+---
 
-## Konklusion og næste trin
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106089218 | Esperoct (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i registerdata |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Produktresuméets advarsler og kontraindikationer er endnu ikke indhentet fra Lægemiddelstyrelsen.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsagte indikationer har bevisniveau L5 (modelforudsigelse kun), uden kliniske forsøg eller litteratur identificeret for nogen af dem, og bevisepakkens egen analyse markerer svag-til-fraværende mekanistisk plausibilitet for de fleste kandidater. Kombineret med, at medicinen ikke er markedsført i Danmark og manglende SmPC/MOA-data, er der i øjeblikket ingen basis for at gå videre end hypotesegenerering.
+Alle forudsigelser står på evidensniveau L5, uden kliniske forsøg eller litteratur. For fire af de fem sygdomme er FVIII-erstatning mekanistisk ikke forventet at virke. Kun erhvervet koagulationsfaktormangel er biologisk plausibel og kan fremføres som forskningsspørgsmål.
 
-**For at fortsætte, kræves følgende:**
-- Dansk/EU-SmPC advarsler og kontraindikationer (blokering af datagab — DG001)
-- Bekræftet mekanisme-for-handling-dokumentation (DG002)
-- Farmakologisk/preklinisk validering af eventuel FVIII–trombocyt-forstyrrelse mekanistisk forbindelse, før klinisk hypotesetest
-- Præcisering af, hvorvidt "erhvervet koagulationsfaktor-mangel" specifikt omfatter erhvervet FVIII-mangel/inhibitorer, hvilket ville styrke denne kandidats rationalet
-- En gentagen medicin-interaktion (DDI) søgning, da den oprindelige forespørgsel ikke returnerede nogen resultater
+**For at komme videre kræves:**
+- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen. Det er en blokerende datamangel for sikkerhedsscreening.
+- Indhent mekanismedata (MOA) fra DrugBank til en mere solid mekanistisk analyse.
+- Afgræns en konkret undergruppe af erhvervet koagulationsfaktormangel, fx FVIII-specifik mangel, og sammenlign med etablerede bypassing-midler.
+- Gennemfør en målrettet litteratur- og forsøgssøgning for hver af de fem sygdomme.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Tenecteplase
 parent: Kun modelforudsigelse (L5)
-nav_order: 424
+nav_order: 426
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,110 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tenecteplase: Fra Udokumenteret Original Indikation til Posterolateral Myokardieinfarkt
+# Tenecteplase: Fra fibrinolyse (oprindelig indikation ikke angivet i data) til posterolateralt myokardieinfarkt
 
-## Ét-sætnings Sammenfatning
+## Resumé
 
-Tenecteplase (DB00031) er en rekombinant vævsplasminogen-aktivator (TNK-tPA); dens oprindeligt godkendte indikation er ikke dokumenteret i dette bevismappe, og den har i øjeblikket **ingen markedsføringstilladelse i Danmark**. TxGNN-modellens toprangerede forudsigelse er **posterolateral myokardieinfarkt**, med en **99.87%** forudsigelsesscore, men denne specifikke kandidat understøttes af **nul kliniske forsøg og nul litteratur** i bevismappe — det hviler udelukkende på modelscoren.
-
----
-
-## Hurtig Oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Original Indikation | Ikke dokumenteret — `taiwan_regulatory.licenses` er tom (ingen dansk MA på fil) og `original_indications` blev ikke udfyldt i denne pakke |
-| Forudsagt Ny Indikation | Posterolateral Myokardieinfarkt |
-| TxGNN Forudsigelsesscore | 99.87% |
-| Bevisniveau | L5 (kun modelforudsigelse, ingen understøttende forsøg eller litteratur) |
-| Danmarks Markedsstatus | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | Vent |
+Tenecteplase er et fibrinspecifikt trombolytisk lægemiddel, som i Danmark er markedsført som Metalyse. Datapakken indeholder ingen registreret oprindelig indikation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **posterolateralt myokardieinfarkt** (score 99,87 %), men der er **0 kliniske forsøg** og **0 publikationer** specifikt for denne undergruppe.
+Forudsigelsen skyldes sandsynligvis en overlapning med den kendte brug ved myokardieinfarkt og er ikke en reel ny indikation.
 
 ---
 
-## Hvorfor er Denne Forudsigelse Rimelig?
+## Hurtigt overblik
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (markeret som et data-gap med høj alvorlighed, DG002). Baseret på lægemidlets kendte farmakologiske klasse er tenecteplase en genetisk konstrueret variant af vævsplasminogen-aktivator (TNK-tPA), der katalyserer omdannelsen af plasminogen til plasmin og opløser fibrin-koagula.
-
-Posterolateral myokardieinfarkt er en anatomisk-lokaliseringsubtype af myokardieinfarkt, en tilstand, for hvilken trombolitiske midler i denne klasse er mekanistisk relevante. Bevismappens egen begrundelse for denne kandidat fremgår: denne subtype "er teoretisk konsistent med tenecteplases standard trombolitiske mekanisme, men intet forsøg eller litteratur i dette datasæt understøtter det direkte — kun TxGNN-scoren eksisterer — og det overlapper væsentligt med myokardieinfarkt som en generel tilstand, hvilket rejser muligheden for, at dette er en ontologi-niveau-duplet snarere end en genuint ny indikation."
-
-Med andre ord er den mekanistiske plausibilitet høj, men denne plausibilitet afspejler sandsynligvis tenecteplases allerede etablerede relevans for myokardieinfarkt generelt, snarere end nye beviser specifikt for den posterolaterale subtype. Dette er grunden til, at bevismappen selv scorer denne kandidat L5 og anbefaler **Vent**.
-
-*Bemærkning for kontekst: inden for samme bevismappe har en anden kandidat — **koronarstenos** (rank 9/10) — væsentligt stærkere støtte, inklusive en afsluttet fase 2-RCT (NCT00604695, lav-dosis intracoronar tenecteplase under primær PCI) og 12 litteraturtreff, der når bevisniveauet L2 med en "Fortsæt med sikkerhedsforanstaltninger"-anbefaling. Denne kandidat kan fortjene en separat evaluering.*
-
----
-
-## Klinisk Forsøgsbevis
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i data (godkendt indikationstekst er tom i Lægemiddelstyrelsens data) |
+| Forudsagt ny indikation | Posterolateralt myokardieinfarkt |
+| TxGNN-prædiktionsscore | 99,87 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datapakken. Tenecteplase er et fibrinspecifikt plasminogenaktivatorprotein, der opløser blodpropper. Det er den patofysiologi, som ligger bag akut koronar okklusion.
+
+Posterolateralt myokardieinfarkt er en anatomisk undertype af myokardieinfarkt. Fibrinolytika er allerede etableret ved ST-elevationsinfarkt (STEMI). Den høje score afspejler derfor sandsynligvis en relation i vidensgrafen til det overordnede begreb "myokardieinfarkt" og ikke en ny terapeutisk anvendelse. Den oprindelige indikation og MOA mangler i inputtet og bør afklares først, så man kan afgøre, om der reelt er tale om "repurposing" eller om en allerede godkendt anvendelse.
+
+### Øvrige forudsagte indikationer i datapakken
+
+Datapakken indeholder yderligere fire unikke forudsigelser (dubletter er slået sammen):
+
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Posteroinferiort myokardieinfarkt | 99,87 % | L5 | Samme begrundelse som posterolateralt MI. Ingen undergruppespecifik evidens. |
+| Septalt myokardieinfarkt | 99,85 % | L4 | Kun indirekte litteratur (lungeemboli, der efterlignede septalt MI). |
+| Medfødt koronararterieanomali | 99,61 % | L4 | Svag mekanistisk sammenhæng. Eneste rapport beskriver mislykket fibrinolyse ved spontan koronardissektion. Fibrinolyse kan indebære risiko ved dissektion. |
+| Koronar stenose | 99,53 % | L2 | Eneste indikation med et randomiseret forsøg (Fase 2). Se nedenfor. |
 
 ---
 
-## Danmarks Markedsinformation
+## Klinisk evidens
 
-Tenecteplase har i øjeblikket ingen markedsføringstilladelse i Danmark — `total_licenses` er 0 og ingen licensrecords er på fil i denne bevismappe.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for posterolateralt myokardieinfarkt.
+
+For en anden forudsagt indikation (koronar stenose) findes ét forsøg:
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) | Fase 2 | Afsluttet | 40 | Randomiseret forsøg med lavdosis intrakoronar tenecteplase under primær PCI ved STEMI (ICE T). Formålet var foreløbige angiografiske data om effekten. Forsøget løb fra 2008-07 til 2011-11. |
+
+Forsøgets population er STEMI-patienter i primær PCI, og administrationsvejen er intrakoronar og ikke den almindelige intravenøse, så relevansen for koronar stenose er kun delvis. Der er ikke angivet EudraCT-numre i datapakken.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformation. (Vigtige advarsler, kontraindikationer og data om lægemiddelinteraktioner er alle markeret som datahuller i denne bevismappe; DDI-forespørgslen selv returnerede "not found".)
+Der er på nuværende tidspunkt ingen relateret litteratur for posterolateralt myokardieinfarkt.
+
+Udvalgt litteratur for øvrige forudsagte indikationer:
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Klinisk forsøg (gennemførlighed/sikkerhed) | Am J Cardiol | ICE T-TIMI 49: 40 PPCI-patienter randomiseret til intrakoronar tenecteplase 4 mg (n=20) eller saltvand. Vurderer gennemførlighed og sikkerhed. (Koronar stenose) |
+| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | Forsøg (type ikke klassificeret) | J Am Coll Cardiol | CAPITAL AMI: tenecteplase-faciliteret angioplastik versus tenecteplase alene ved højrisiko-STEMI. Resultater fremgår ikke af datapakken. (Koronar stenose) |
+| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Case-serie | J Am Coll Cardiol | Intrakoronar fibrinspecifik trombolyse som hjælp til perkutan rekanalisering af kronisk total okklusion. (Koronar stenose) |
+| [23975441](https://pubmed.ncbi.nlm.nih.gov/23975441/) | 2014 | Oversigt/serie | J Thromb Thrombolysis | Effekt og sikkerhed af vægtjusteret tenecteplase hos 30 patienter med akut lungeemboli. (Septalt MI, indirekte) |
+| [18183355](https://pubmed.ncbi.nlm.nih.gov/18183355/) | 2009 | Case-rapport | J Thromb Thrombolysis | Massiv lungeemboli, der efterlignede septalt MI, behandlet med tenecteplase. (Septalt MI, indirekte) |
+| [32854905](https://pubmed.ncbi.nlm.nih.gov/32854905/) | 2021 | Case-rapport | Ann Cardiol Angeiol | Spontan koronardissektion hos ung mand med STEMI, hvor fibrinolyse var mislykket og blev kompliceret af kardiogent shock. (Medfødt koronaranomali) |
 
 ---
 
-## Konklusion og Næste Trin
+## Markedsinformation for Danmark
 
-**Beslutning: Vent**
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103119499 | Metalyse (Boehringer Ingelheim Int. GmbH) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i data |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der findes ingen registrerede interaktioner i datapakken. Oplysninger om advarsler og kontraindikationer er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Fibrinolytika er i øvrigt forbundet med blødningsrisiko. Det bør vurderes specifikt ved brug i nye populationer eller ved ændret administrationsvej, fx intrakoronar.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat har ingen direkte klinisk-forsøg eller litteraturstøtte i bevismappe — kun en TxGNN-modelscore — og den forudsagte indikation er anatomisk indlejret inden for myokardieinfarkt, en tilstand, der allerede er tæt forbundet med tenecteplases kendt trombolitiske mekanisme. Dette rejser meningsfuld risiko for, at den "nye indikation" er et ontologi-artefakt snarere end en genuine genbrugsmulighed, så det opfylder ikke kriteriet for at fortsætte.
+Forudsigelsen for posterolateralt myokardieinfarkt har kun modelstøtte (L5) uden undergruppespecifikke forsøg eller publikationer. Den er sandsynligvis en overlapning med den kendte brug ved myokardieinfarkt og ikke en reel ny indikation. Sikkerhedsscreening kan ikke gennemføres, fordi oplysninger fra Lægemiddelstyrelsens produktresumé mangler (blokerende datamangel).
 
-**For at fortsætte er følgende nødvendigt:**
-- Original indikation og virkningsmekanisme-data (DG002-remediation, via DrugBank API), for at etablere, om denne kandidat er virkelig forskellig fra tenecteplases eksisterende brug
-- TFDA/SmPC-mærkat, advarsler og kontraindikationer (DG001-remediation, i øjeblikket blokeret) før en S1-sikkerhedsgennemgang kan påbegyndes
-- Målrettet litteratur-/forsøgssøgning specifik for "posterolateral myokardieinfarkt" (modsat myokardieinfarkt generelt) for at bestemme, om denne subtype er blevet studeret uafhængigt
-- Hvis der forfølges genbrugsforsøg på dette lægemiddel, overvej at prioritere kandidaten **koronarstenos** i stedet, som allerede har L2-niveau-evidens, inklusive en afsluttet fase 2-RCT (NCT00604695, lav-dosis intracoronar tenecteplase under primær PCI) og 12 litteraturtreff, der når bevisniveauet L2 med en "Fortsæt med sikkerhedsforanstaltninger"-anbefaling. Denne kandidat kan fortjene en separat evaluering.
+**For at komme videre kræves:**
+- Hente og indlæse produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation).
+- Hente virkningsmekanisme (MOA) fra DrugBank.
+- Afklare den oprindelige godkendte indikation og vurdere, om posterolateralt og posteroinferiort MI allerede er dækket af den eksisterende indikation.
+- For koronar stenose (L2): bekræfte ICE T-forsøgets primære endepunkter og blødningsresultater samt afgrænse populationen præcist. Der foreligger ingen Fase 3-data.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

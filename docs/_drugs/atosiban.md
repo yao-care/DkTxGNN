@@ -2,7 +2,7 @@
 layout: default
 title: Atosiban
 parent: Kun modelforudsigelse (L5)
-nav_order: 49
+nav_order: 50
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,90 +29,98 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atosiban: Fra præterm arbejde til primær arvelig glaukom
+# Atosiban: Fra oprindelig indikation (ikke angivet i datagrundlaget) til primær arvelig glaukom
+
+## Resumé
+
+Atosiban er markedsført i Danmark som injektionsvæske, men datagrundlaget angiver ikke den godkendte indikation.
+TxGNN-modellen forudsiger, at det kan have effekt ved **primær arvelig glaukom**.
+Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer** og er alene en beregningsmæssig hypotese.
 
 ---
 
-## Sammenfatning i én sætning
-
-Atosiban er en syntetisk peptid oxytocin/vasopressin-receptor (OXTR) antagonist, etableret i klinisk praksis som tokolitikum til hæmning af uterine kontraktioner og forsinkelse af præterm arbejde.
-TxGNN-modellen forudsiger, at det kan være effektivt for **Primær arvelig glaukom** med en sikkerhedsgrad på **99,92 %**,
-dog **nul kliniske forsøg og nul publicerede publikationer** understøtter denne retning i øjeblikket – hvilket placerer det på det laveste bevisniveau (L5) og rejser betydelige mekanistiske bekymringer omkring behandlingens retning.
-
----
-
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Præterm arbejde (tokolitikum) |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (indikationsteksten i registreringen er tom) |
 | Forudsagt ny indikation | Primær arvelig glaukom |
-| TxGNN forudsigelses score | 99,92 % |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringsautoriteter | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-prædiktionsscore | 99,92 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i den aktuelle bevissamling. Baseret på etableret farmakologisk viden er Atosiban en konkurrerende antagonist på både oxytocin-receptorer (OXTR) og vasopressin V1a-receptorer. Dens etablerede kliniske rolle er inhibering af OXTR-medieret uterine glatte muskelkontraktioner til forsinkelse af præterm arbejde.
+Der foreligger ingen dokumenteret virkningsmekanisme i datagrundlaget. Det følgende er derfor en hypotese og ikke en dokumenteret sammenhæng.
 
-Den mekanistiske forbindelse, som TxGNN foreslår, hviler på kendt udtryk af OXTR i okulært væv – specifikt i det trabelkulære maskeværk og ciliarlegemet. Endogent oxytocin er blevet vist i nogle studier at sænke intraokulart tryk (IOP), plausibelt gennem prostaglandin-medierede veje, der forbedrer afstrømningen af kammervand. Fordi Atosiban *blokerer* denne receptor, er dets netto-farmakologiske effekt på IOP retningsusikker og kan faktisk øge IOP i stedet for at sænke det – det modsatte af hvad der er terapeutisk påkrævet i glaukombehandling.
+Atosiban er beskrevet som en antagonist ved oxytocin- og vasopressinreceptorer. En tænkelig, men ubekræftet forbindelse til glaukom er en påvirkning af kammervandets dynamik eller tonus i trabekelværket. Ingen af de foreliggende data understøtter dette.
 
-Primær arvelig glaukom opstår fra mutationer i strukturelle og regulatoriske gener (MYOC, OPTN, WDR36), der øger modstanden for trabelkulær afstrømning. Der er ingen etableret patogenetisk forbindelse mellem disse genetiske drivere og oxytocin-OXTR-aksen. Den høje TxGNN-score afspejler sandsynligvis delte co-ekspression mønstre af gener i okulært væv, som blev fanget af det grafneurale netværk, snarere end en valideret terapeutisk mekanisme. Forudsigelsen bør fortolkes med betydelig forsigtighed: **Atosibans farmakologiske virkningsretning i glaukom er plausibelt kontraproduktiv**.
+Der er desuden væsentlige forbehold:
+- Scoren er meget høj (99,92 %), men der findes hverken forsøg eller litteratur. Det tyder på, at resultatet kan skyldes strukturen i vidensgrafen.
+- Atosiban er et peptid, der gives systemisk som injektion. Okulær udvikling og eksponering er ikke belyst.
+- Arvelig glaukom har genetiske årsager, og der er ingen påvist rationale for, at en receptorantagonist skulle påvirke dem.
 
----
+### Øvrige forudsagte indikationer
 
-## Klinisk forsøgsbeviser
+Datagrundlaget indeholder også nedenstående forudsigelser. Alle har evidensniveau L5 og anbefalingen Hold. De ligger tæt på hinanden i vidensgrafen og udgør derfor ikke uafhængig evidens.
 
-Aktuelt ingen relaterede kliniske forsøg registreret.
-
-*(Systematiske søgninger på ClinicalTrials.gov og WHO ICTRP blev gennemført den 2026-03-10 for Atosiban på tværs af alle forudsagte indikationer – primær arvelig glaukom, åbenvinkel glaukom, alopeci, medfødt hypotrichiasis milia og simpel hypotrichiasis på hovedbunden – og returnerede nul resultater i alle tilfælde.)*
-
----
-
-## Litteraturbeviser
-
-Aktuelt ingen tilgængelig relateret litteratur.
-
-*(PubMed-søgninger gennemført den 2026-03-10 for Atosiban på tværs af alle fem forudsagte indikationer returnerede nul publikationer.)*
-
----
-
-## Danmarks markedsinformation
-
-Atosiban er ikke i øjeblikket registreret eller markedsført i Danmark ifølge de data, der er tilgængelige i denne bevissamling. Ingen markedsføringsautoriteter fra Lægemiddelstyrelsen eller via EMA-centraliseret procedure er registreret.
-
-> **Bemærk:** Dette datasæt kan være ufuldstændigt med hensyn til dansk/EMA-registreringsstatus. Uafhængig verifikation via Lægemiddelstyrelses produktdatabase og EMA-medicindatabasen anbefales stærkt, før der drages endelige konklusioner om tilgængelighed i Danmark.
+| Forudsagt indikation | TxGNN-score |
+|------|------|
+| Primær arvelig glaukom | 99,92 % |
+| Åbenvinklet glaukom | 99,92 % |
+| Kongenit hypotrichose med milia | 99,89 % |
+| Alopeci | 99,89 % |
+| Hypotrichosis simplex i hovedbunden | 99,89 % |
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk evidens
 
-Se venligst det godkendte Produktkarakteristika Resumé (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-*(Ingen oplysninger om lægemiddelinteraktioner, vigtige advarsler eller kontraindikationer var tilgængelige i denne bevissamling. Hentning fra Lægemiddelstyrelses produktregistrering og DrugBank anbefales som et prioriteret afhjælpningstrin, før enhver yderligere evaluering.)*
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28105648115 | Atosiban "EVER Pharma" | Injektionsvæske, opløsning | EVER Valinject GmbH |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget (forespørgsel uden resultat).
+
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsinformation, herunder advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle fem forudsagte indikationer i denne bevissamling hviler udelukkende på TxGNN-modelscores (L5-beviser), uden at der er identificeret nul understøttende kliniske forsøg eller fagfællebedømte publikationer. Mere kritisk er den førende forudsagte mekanisme – OXTR-blokade i okulært væv – farmakologisk kontraproduktiv for glaukom: Atosibans antagonistvirkning vil sandsynligvis *modvirke* den IOP-sænkende virkning af endogent oxytocin, ikke gengive den. Denne retningskonflikt udelukker den primære forudsigelse som en levedygtig kandidat til kort-sigtsgenbrug.
+Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg, litteratur eller dokumenteret mekanisme. Sikkerhedsdata fra produktresuméet mangler, og det blokerer for en sikkerhedsscreening.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Hente og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Indhente data om virkningsmekanisme (f.eks. fra DrugBank)
+- Præklinisk eller litteraturbaseret belæg for en sammenhæng mellem oxytocin/vasopressin-signalering og kammervandets afløb
+- Vurdering af administrationsvej og okulær eksponering, da atosiban er et systemisk peptid
+- En uafhængig vurdering af, om den høje score blot afspejler grafstruktur
 
-- **Regulatorisk verifikation:** Bekræft Atosibans aktuelle autorisationsstatus i Danmark direkte via Lægemiddelstyrelses produktdatabase og EMA-medicindatabasen, da de regulatoriske data i denne pakke virker ufuldstændige
-- **MOA datahentning:** Hent fulde virkningsmekanisme og farmakodynamiske data fra DrugBank (DB09059) og det godkendte SmPC for at muliggøre korrekt mekanistisk gennemgang
-- **Sikkerhedsdatahentning:** Download og parse det fulde SmPC fra dansk/EMA-mærkning for at identificere kontraindikationer, vigtige advarsler og klinisk relevante lægemiddelinteraktioner
-- **Prækliniske mekanistiske studier:** Bestil eller identificer studier, der direkte måler effekten af OXTR *antagonisme* (ikke agonisme) på intraokulart tryk i dyremodel eller celle-kultur glaukommodeller, før nogen klinisk hypotese kan dannes
-- **Retnings-reevaluering:** Vurder, om en OXTR *agonist* (snarere end Atosiban som antagonist) ville være en mere farmakologisk sammenhængende kandidat til IOP-reduktion i glaukom – en begrebsmæssigt omvendt repurposing-retning
-- **Klynge gennemgang:** De fem forudsagte indikationer grupperer sig i to biologiske klynger (okulær/glaukom og hårfollikel/alopeci); begge klynger deler samme fundamentale retningskonflikt for en OXTR-antagonist og bør gennemgås sammen i enhver efterfølgende mekanistisk analyse
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Haloperidol
 parent: Kun modelforudsigelse (L5)
-nav_order: 216
+nav_order: 217
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Haloperidol: Fra Psykotiske Lidelser til Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering
+# Haloperidol: Fra antipsykotikum til kongenit glykosyleringsforstyrrelse med defekt fukosylering
 
-## Ét-sætnings resumé
+## Resumé i én sætning
 
-Haloperidol er et antipsykotikum af første generation (typisk), primært brugt til behandling af skizofreni og andre psykotiske lidelser gennem antagonisme af dopamin D2-receptorer.
-TxGNN-modellen forudsiger, at det kan være effektivt til **Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering (SLC35C1-CDG)**, med **ingen kliniske forsøg** og **ingen understøttende publikationer** identificeret til dato.
-Denne forudsigelse er udelukkende baseret på modelinferens; den mekanistiske begrundelse er meget spekulativ, og der findes ingen empirisk evidens til at understøtte yderligere undersøgelse på dette stadium.
+Haloperidol er et antipsykotisk lægemiddel (dopamin D2-antagonist), som i Danmark er markedsført som injektionsvæske (Serenase). TxGNN-modellen forudsiger, at det kan have effekt ved **kongenit glykosyleringsforstyrrelse med defekt fukosylering**.
+Forudsigelsen er **kun modelbaseret**: Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter den.
 
 ---
 
-## Hurtigt Overblik
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig Indikation | Psykotiske lidelser / Skizofreni (ingen godkendelse registreret i Danmark) |
-| Forudsagt Ny Indikation | Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering |
-| TxGNN Forudsigelsesscore | 99.91% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske godkendelsestekst i datagrundlaget (lægemidlet er et antipsykotikum) |
+| Forudsagt ny indikation | Kongenit glykosyleringsforstyrrelse med defekt fukosylering |
+| TxGNN-forudsigelsesscore | 99,91 % |
 | Evidensniveau | L5 |
-| Danmarks Markedsstatus | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Afgørelse | Hold |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Haloperidol er et antipsykotikum af butyrofenon-klassen, hvis primære mekanisme er høj-affinitet antagonisme af dopamin D2-receptorer i centralnervesystemet. Det har etableret klinisk brug ved skizofreni, akut psykose, Tourettes syndrom og agitation. Detaljerede farmakologiske data om virkningsmekanisme var ikke tilgængelige i det aktuelle evidenspakke; imidlertid er dets antagonisme af D2-receptorer velkendt i den bredere litteratur og afspejles gennem hele den repurposing-begrundelse, der er givet.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i datagrundlaget. Haloperidol er kendt som dopamin D2-receptorantagonist og sigma-receptorligand, og dets effekt ved psykotiske lidelser er veldokumenteret.
 
-Medfødt Glykosyleringsforstyrelse med Defekt Fucosylering — også kendt som SLC35C1-CDG eller Leukocytadhæsionsdefekt type II (LAD II) — er en sjælden autosomalt recessiv metabolisk sygdom forårsaget af loss-of-function mutationer i SLC35C1-genet, der koder for Golgi GDP-fucose-transportøren. Den resulterende manglende fucosylering af overflade-glykoproteiner fører til tilbagevendende infektioner, intellektuel funktionsnedsættelse og væksthæmning. Denne patologiske mekanisme er fundamentalt forskellig fra dopaminergi-uregelmæssighed.
+Den forudsagte sygdom er en medfødt forstyrrelse i glykanbiosyntesen med defekt fukosylering. Vi har ikke identificeret nogen plausibel mekanistisk forbindelse mellem D2-antagonisme eller sigma-receptoraktivitet og denne biologi. Den høje score (99,91 %) er en ren modelforudsigelse og bør ikke tolkes som klinisk evidens.
 
-Der er ingen kendt direkte mekanistisk forbindelse mellem Haloperidols antagonisme af D2-receptorer og den metaboliske defekt, der ligger til grund for SLC35C1-CDG. Selvom nogle in vitro-fund tyder på, at antipsykotika kan påvirke N-glykosylering af dopaminreceptorer, observeres denne effekt på receptorniveau og repræsenterer det modsatte af hvad der ville være terapeutisk påkrævet for at korrigere en mangel i GDP-fucose-transport. Ingen publiceret forskning har undersøgt Haloperidol i sammenhæng med denne sygdom. Den høje TxGNN-forudsigelsesscore afspejler sandsynligvis indirekte forbindelser inden for viden-grafen snarere end en ægte sygdomsmodificerende mekanisme, og denne forudsigelse bør behandles som meget spekulativ med lav troværdighed.
+For fuldstændighedens skyld forudsiger modellen også andre sygdomme med næsten samme score. Ingen af dem har kliniske forsøg eller relevant litteratur:
 
----
-
-## Kliniske Forsøg
-
-Aktuelt ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturbevis
-
-Aktuelt ingen relateret litteratur tilgængelig.
+| Forudsagt sygdom | Score | Vurdering |
+|------|------|------|
+| Retinal dystrofi med eller uden ekstraokulære anomalier | 99,91 % | Den fundne litteratur (15 artikler, bl.a. om orbitale infektioner, ptosis og lens-anomalier) nævner ikke haloperidol og er sandsynligvis stikordsmatch. Retinal dopaminsignalering er kun en teoretisk forbindelse. |
+| Hydranencefali | 99,90 % | Strukturel misdannelse. Ingen kendt sygdomsmodificerende rationale for en D2-antagonist. |
+| X-bundet myopi | 99,89 % | Dopaminreceptorantagonisme er eksperimentelt snarere forbundet med øget myopi, så effektretningen er ugunstig. |
+| Charcot-Marie-Tooth, demyeliniserende, type 1G | 99,89 % | Arvelig perifer neuropati uden kendt D2- eller sigma-relateret mekanisme. |
 
 ---
 
-## Danmarks Markedsinformation
+## Evidens fra kliniske forsøg
 
-Haloperidol har ingen markedsføringstilladelser registreret i Danmark. Hverken en national godkendelse gennem Det Danske Lægemiddelagentur (Lægemiddelstyrelsen) eller en centraliseret godkendelse gennem EMA er aktuelt på register for denne aktive substans i Danmark.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst Resumé af Produktkarakteristika (SmPC) for sikkerhedsinformation.
-
-> **Bemærkning til recensenter:** Det er værd at påpege, at Haloperidol fra internationale SmPC'er er kendt for at indebære risici for hornhinde- og linsepigmentering, retinal toksicitet og ekstrapiramidal bivirkninger. Disse eksisterende sikkerhedssignaler er særligt relevante, da to af de fem bedste TxGNN-forudsigelser involverer retinal og okular tilstande (retinal dystrofi med eller uden okulare anomalier), hvor disse bivirkninger ville repræsentere en absolut kontraindikation til brug.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og Næste Trin
+## Litteraturevidens
 
-**Afgørelse: Hold**
+Der er i øjeblikket ingen relateret litteratur for den højest rangerede forudsigelse.
+
+---
+
+## Oplysninger om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28100966159 | Serenase (Essential Pharma Limited) | Injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke hentet sikkerhedsdata (advarsler, kontraindikationer) i datagrundlaget, og der er ikke fundet registrerede lægemiddelinteraktioner i den anvendte kilde. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen klinisk, observationel eller præ-klinisk evidens, der understøtter Haloperidol til medfødt glykosyleringsforstyrelse med defekt fucosylering, og ingen plausibel mekanistisk vej forbinder antagonisme af D2-receptorer til mangel i GDP-fucose-transport. Alle fem unikke forudsagte indikationer i denne evidenspakke deler et L5-evidensniveau med en enstemmig Hold-anbefaling, hvilket indikerer, at ingen af de aktuelle TxGNN-forudsigelser for dette medicin er parate til klinisk overvejelse.
+Forudsigelsen hviler udelukkende på modellen (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, og der er ingen plausibel mekanistisk forbindelse mellem haloperidols farmakologi og den forudsagte sygdom. Sikkerhedsgrundlaget er desuden ikke indhentet.
 
-**For at fortsætte, kræves følgende:**
+**For at gå videre er følgende nødvendigt:**
+- Mekanismedata (MOA) fra DrugBank samt en egentlig analyse af, om der kan være en biologisk forbindelse til fukosylering
+- Præklinisk evidens (celle- eller dyremodeller), der kan understøtte en sådan forbindelse
+- Gennemgang af den godkendte produktinformation fra Lægemiddelstyrelsen (advarsler, kontraindikationer, interaktioner)
+- Kontrol af, hvorfor de samme forudsigelser optræder dobbelt i modeloutputtet, og vurdering af, om de relevante genetiske og biologiske data er pålidelige
 
-- **Anmeldelse af biologisk plausibilitet:** En klinisk farmakolog eller specialist i metaboliske sygdomme bør evaluere, om der findes indirekte mekanistiske forbindelser mellem antagonisme af D2-receptorer og glykosyleringsbiologi, før man forpligter yderligere ressourcer.
-- **Løsning af data-gab vedr. virkningsmekanisme:** Detaljerede data om virkningsmekanisme fra DrugBank skal hentes (data-gab DG002) for at understøtte eventuel mekanistisk vurdering.
-- **Hentning af sikkerhedsdata:** SmPC for Haloperidol skal hentes og analyseres fra en autoritativ europæisk kilde (f.eks. EMA-produktdatabase eller et nationalt lægemiddelsagentur med gyldig godkendelse) for at adressere data-gab DG001, især givet de kendte signaler for retinal og okular toksicitet.
-- **Præ-klinisk gennemførlighedsstudie:** Hvis anmeldelsen af biologisk plausibilitet giver noget positivt signal, vil målrettede in vitro-eksperimenter, der undersøger Haloperidols virkning på fucosyleringsvejer, være påkrævet, inden en klinisk hypotese kan formuleres.
-- **Præcisering af markedsstatus:** Bekræft, om Haloperidol er tilgængeligt i Danmark via parallel-import eller farmaceutisk fremstilling, da dette ville påvirke overvejelser vedrørende eventuel humanitær brug eller forsøgsdesign.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

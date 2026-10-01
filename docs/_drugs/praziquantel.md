@@ -2,7 +2,7 @@
 layout: default
 title: Praziquantel
 parent: Kun modelforudsigelse (L5)
-nav_order: 357
+nav_order: 358
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Praziquantel: Fra schistosomiasis til epithelioid leiomyosarkom i corpus uteri
+# Praziquantel: Fra ormemiddel til uterint epiteloid leiomyosarkom
 
-## Sammenfatning i en sætning
+## Resumé
 
-Praziquantel er et klassisk antiparasitært middel, der bruges til behandling af schistosomiasis og andre trematode-/cestode-infektioner (leverflynke- og bændelorminfektioner). TxGNN-modellens højest rangerede prognose peger på **epithelioid leiomyosarkom i corpus uteri**, men dette signal er i øjeblikket understøttet af **0 kliniske forsøg** og **0 publikationer** uden etableret mekanistisk begrundelse.
+Praziquantel er et antiparasitært middel, som bruges mod infektioner med parasitormen schistosoma. Tilladelsen i Danmark dækker dog kun et dyrelægemiddel (Droncit Vet.).
+TxGNN-modellen forudsiger, at stoffet kan have effekt på **uterint epiteloid leiomyosarkom**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Original indikation | Schistosomiasis og andre trematode-/cestode-infektioner (parasitære orminfektioner) |
-| Forventet ny indikation | Epithelioid leiomyosarkom i corpus uteri |
-| TxGNN-prognosescore | 97.28% |
-| Bevisniveau | L5 |
-| Markedsstatus for Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Forudsagt ny indikation | Uterint epiteloid leiomyosarkom |
+| TxGNN-forudsigelsesscore | 97,28 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (kun som dyrelægemiddel) |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne prognose rimelig?
+---
 
-Detaljerede data om virkningsmekanisme for praziquantel er en dokumenteret datakløft i denne bevissamling. Baseret på etableret farmakologi øger praziquantel permeabiliteten for calcium-ioner gennem tegumentet og muskulaturen i flatorme (leverflynke og bændelorme), hvilket forårsager spastisk lammelse og tegmental forstyrrelse, der eksponerer parasitten for værtsimmunforsvar. Denne mekanisme er specifik for flatormenes neuromuskulære/tegmentale biologi.
+## Hvorfor er forudsigelsen rimelig?
 
-Der er ingen kendt mekanistisk overlapning mellem denne platyelmint-specifikke calcium-kanal/tegument-effekt og de patogene veje involveret i leiomyosarkom i corpus uteri (f.eks. TP53, RB1-mutation, MDM2-vejdysregulering). Omformål-begrundelsen for denne kandidat angiver eksplicit, at ingen plausibel biologisk hypotese kunne opstilles.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de leverede data. Praziquantel er kendt for at virke på calciumkanaler (TRPM_PZQ) og tegumentets integritet hos schistosomer. Dette er en parasitspecifik mekanisme, og der er ikke fundet nogen dokumenteret biologisk forbindelse til leiomyosarkom.
 
-Det er vigtigt, at TxGNN-scoren på 97.28% ikke understøttes af nogen klinisk forsøgs- eller litteraturbevis for denne specifikke indikation (0/0). Dette hul mellem en høj modelscore og en fuldstændig mangel på støttende bevis tyder på, at scoren sandsynligvis afspejler vidensgrafs topologi (f.eks. indirekte nodeproximitet) snarere end et valideret farmakologisk signal — konsistent med dets L5-bevisklassificering og Afvent-anbefaling.
+Forudsigelsen bygger udelukkende på modellens mønstergenkendelse i vidensgrafen. Scoren er høj (97,28 %), men den siger ikke noget om, at stoffet virker mod tumoren. Tilsvarende høje scorer ses også for beslægtede bløddelssarkomer (retroperitoneale sarkomer og leiomyosarkom i anus). Det tyder på, at scoren afspejler nærhed mellem sarkomtyper i grafen og ikke en praziquantel-specifik mekanisme.
 
-*Bemærk: blandt denne medicins 10 modelrangerede kandidater er Plasmodium falciparum-malaria (plads 3, score 97.22%) et separat signal, der faktisk understøttes af kliniske forsøgs- og litteraturdata (L3, "Forskningstspørgsmål"-stadium) — se Konklusion for en note om denne alternative kandidat.*
+---
 
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Litteraturbevis
+---
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+## Litteratur
 
-## Markedsinformation for Danmark
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-Praziquantel har i øjeblikket ingen markedsføringstilladelse i Danmark (0 licenser på rekord; markedsstatus: ikke markedsført).
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28100920977 | Droncit Vet. | Tabletter (oral) | Vetoquinol S.A. |
+
+Den eneste registrerede tilladelse er til et dyrelægemiddel. Der er ikke oplyst nogen godkendt indikationstekst. Det betyder, at der ikke er fundet noget humant praziquantel-præparat i de leverede data.
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se venligst i det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke fundet data om advarsler, kontraindikationer eller interaktioner. Se godkendt produktresumé (SmPC) for et relevant humant præparat for sikkerhedsoplysninger.
 
-## Konklusion og næste trin
+---
 
-**Beslutning: Afvent**
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den højest rangerede prognose (epithelioid leiomyosarkom i corpus uteri) understøttes kun af en TxGNN-modelscore, uden kliniske forsøg, uden litteratur og uden plausibel mekanistisk hypotese (L5). Medicinen er heller ikke i øjeblikket markedsført i Danmark og mangler de grundlæggende virkningsmekanisme- og SmPC-sikkerhedsdata, der er nødvendige for at påbegynde en formel sikkerhedsgennemgang.
+Forudsigelsen er ren modelforudsigelse (L5) uden kliniske forsøg, litteratur eller en kendt mekanisme. Desuden findes der ingen human markedsføringstilladelse for praziquantel i Danmark.
 
-**For at fortsætte er følgende nødvendigt:**
-- Data om virkningsmekanisme via DrugBank API (datakløft DG002, høj prioritet)
-- SmPC-advarsler/kontraindikationer fra den ansvarlige regulatoriske kilde (datakløft DG001, blokering)
-- Prækliniske/mekanistiske studier, der udforsker enhver plausibel aktivitet mod leiomyosarkom i corpus uteri, før yderligere bevisindsamling er berettiget
-- Hvis man forfølger antiparasitære omformål-signaler for denne medicin, skal man separat evaluere Plasmodium falciparum-malaria-kandidaten (plads 3, L3, "Forskningstspørgsmål"-stadium), som har faktiske støttende forsøgs- og litteraturdata i modsætning til den nuværende højest rangerede kandidat
+**For at komme videre kræves:**
+- Præklinisk dokumentation (celle- og dyremodeller) for effekt mod leiomyosarkom
+- En plausibel mekanistisk hypotese, der forbinder praziquantel med tumorbiologien
+- Data om virkningsmekanisme og sikkerhed fra godkendt produktinformation (DrugBank og lægemiddelstyrelsens produktresumé)
+- Afklaring af, hvilken human formulering der kunne anvendes
 
+**Bemærkning:** Den næstmest lovende forudsigelse i datasættet er *Plasmodium falciparum*-malaria (evidensniveau L3, status "forskningsspørgsmål"). Her findes to publikationer, der undersøger praziquantel direkte mod malaria (PMID 10531774 og 41159886). Studiedesignet er endnu ikke verificeret. Den indikation bør vurderes i en separat rapport.
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

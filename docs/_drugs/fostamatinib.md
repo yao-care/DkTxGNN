@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fostamatinib
-parent: Moderat evidens (L3-L4)
-nav_order: 195
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 196
+evidence_level: L5
 indication_count: 10
 ---
 
 # Fostamatinib
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,80 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fostamatinib: Fra immun-trombocytopeni (ITP) til autosomal trombocytopeni med normale blodplader
+# Fostamatinib: Fra kronisk immun trombocytopeni til autosomal trombocytopeni med normale blodplader
 
-## Sammenfatning i én sætning
+## Resumé
 
-Fostamatinib (handelsnavn: Tavalisse/Tavlesse) er en oral milts tyrosinkinase (SYK)-inhibitor godkendt til behandling af kronisk immun-trombocytopeni (ITP) hos voksne, der har haft utilstrækkelig respons på tidligere behandling.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **autosomal trombocytopeni med normale blodplader** — en sjælden arvelig trombocytopenisygdom — med en forudsigelsessikkerhed på **99,45%**.
-Der findes imidlertid **ingen kliniske forsøg og ingen sygdomsspecifikke publikationer**, der understøtter denne omformålingsretning; forudsigelsen afspejler vidensgrafklustring af trombocytopeni-relaterede sygdomsknuder snarere end direkte mekanistisk bevis.
+Fostamatinib er en SYK-hæmmer (spleen tyrosine kinase), der er markedsført til behandling af kronisk immun trombocytopeni. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **autosomal trombocytopeni med normale blodplader**. Forudsigelsen er **udelukkende modelbaseret**: der er **0 kliniske forsøg** og **0 publikationer** for netop denne indikation.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Kronisk immun-trombocytopeni (ITP) hos voksne |
+|------|------|
+| Oprindelig indikation | Kronisk immun trombocytopeni (angivet i evidensgrundlaget. Indikationsteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Autosomal trombocytopeni med normale blodplader |
-| TxGNN-forudsigelsesscore | 99,45% |
-| Bevisgrad | L4 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-forudsigelsesscore | 99,45 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede virkningsmekanisme-data er ikke tilgængelige i det aktuelle bevissæt. På grundlag af kendt farmakologi er fostamatinib en selektiv inhibitor af milts tyrosinkinase (SYK). I kronisk immun-trombocytopeni (ITP) medierer aktiveret SYK Fcγ-receptorbaseret (FcγR) destruktion af antistof-belagte blodplader gennem makrofager. Ved at inhibere SYK reduceres denne immunmedieret klaring, og cirkulerende blodpladetal stiger således. Denne mekanisme er blevet klinisk valideret gennem flere Phase 3-forsøg, hvilket har ført til FDA-godkendelse (2018) og EMA-godkendelse.
+Fostamatinib hæmmer SYK. Den aktive metabolit R406 reducerer den Fc-receptor-medierede nedbrydning af blodplader, som er central ved immun trombocytopeni. Detaljerede data om virkningsmekanismen er ikke tilgængelige i evidensgrundlaget, så beskrivelsen bygger på almen viden om stoffet.
 
-Autosomal trombocytopeni med normale blodplader (OMIM-reference) er en genetisk arvelig tilstand forårsaget af germline-mutationer, der påvirker blodpladeproduktion eller -overlevelse — ikke gennem autoantistof-medieret blodpladeophobning. Fordi den underliggende ætiologi grundlæggende adskiller sig fra ITP, har SYK-FcγR-inhiberings-mekanismen **begrænset direkte anvendelighed** på denne nedarvede lidelse.
+Den forudsagte sygdom er en arvelig form for lavt blodpladetal. Arvelige trombocytopenier skyldes typisk nedsat produktion af blodplader og ikke immunmedieret nedbrydning. Koblingen til den godkendte mekanisme er derfor svag. Den høje score afspejler sandsynligvis nærhed til andre trombocytopeni-noder i vidensgrafen og ikke en dokumenteret biologisk sammenhæng.
 
-At sige dette, det er kendt, at SYK-signalering deltager i megakaryocyt-differentiering og blodpladebiogenese-veje. Dette åbner en teoretisk — men i øjeblikket uprøvet — hypotese om, at SYK-modulering kunne påvirke blodpladeproduktionen i genetiske thrombocytopeni-tilstande. TxGNN-høj score (99,45%) afspejler med størst sandsynlighed modellens vidensgraf-klusteringseffekt blandt trombocytopeni-relaterede sygdomsknuder, og skal fortolkes som et hypotesegenererende signal, der kræver præ-klinisk validering før nogen klinisk overvejelse.
-
----
-
-## Klinisk prøvebevis
-
-Der er i øjeblikket ingen registrerede kliniske forsøg for fostamatinib i autosomal trombocytopeni med normale blodplader.
+Bemærk, at modellen også foreslår andre sygdomme med endnu svagere belæg: syndromisk konstitutionel trombocytopeni (score 98,97 %, biologisk mest nærliggende, men uvalideret), medfødt misdannelse af spiserøret (99,05 %), glaukom (98,70 %) og biotinrelateret stofskiftesygdom (98,69 %). For ingen af dem er der fundet kliniske forsøg eller relevant litteratur. De tre publikationer, der er knyttet til glaukom, er generelle oversigtsartikler om godkendte kinasehæmmere og siger intet om fostamatinib ved glaukom.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-Der er i øjeblikket ingen relevant litteratur tilgængelig for fostamatinib i autosomal trombocytopeni med normale blodplader.
-
----
-
-## Markedsinformation for Danmark
-
-Fostamatinib er i øjeblikket **ikke markedsført i Danmark** og har ingen markedsføringstilladelser fra Lægemiddelstyrelsen. Ingen centraliseret europæisk markedsføringstilladelsesprocedure (EMA) er anført i bevissættet.
-
-> **Bemærkning for ordinerende læger:** Fostamatinib er godkendt i EU som **Tavlesse** (R-Pharm) til kronisk ITP hos voksne patienter. EMA-godkendt produktresumé (SmPC) er tilgængeligt via EMA-produktdatabasen og udgør den autoritative reference for dosering, kontraindikationer og sikkerhed i enhver potentiel navnepatient- eller medfølelseskontekst i Danmark.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktresumé (SmPC) for Tavlesse (EMA) for fuldstændige sikkerhedsoplysninger, herunder advarsler, kontraindikationer og lægemiddelinteraktioner.
+Der er på nuværende tidspunkt ingen relateret litteratur for den forudsagte indikation.
 
 ---
 
-## Konklusion og næste trin
+## Markedsinformation i Danmark
 
-**Beslutning: Afvent**
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28106169618 | Tavlesse | Filmovertrukne tabletter (oral) | Instituto Grifols S.A. |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i evidensgrundlaget. Det er dog ikke ensbetydende med, at der ikke findes interaktioner.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Autosomal trombocytopeni med normale blodplader er en genetisk arvelig blodpladelidelse med en patofysiologi, der adskiller sig fra den immunmedierede ITP, for hvilken fostamatinib er godkendt; der er intet klinisk prøvebevis, ingen sygdomsspecifik litteratur og ingen bekræftet mekanistisk sammenhæng til at understøtte udvikling af denne omformålings-kandidat på dette trin.
+Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur. Den mekanistiske kobling mellem SYK-hæmning og arvelig trombocytopeni med nedsat produktion er svag.
 
-**For at gå videre kræves følgende:**
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Dette blokerer sikkerhedsscreeningen.
+- Data om virkningsmekanisme (MOA), fx via DrugBank.
+- Målrettet litteratursøgning på SYK-hæmning ved arvelige trombocytopenier, især former med immunkomponent såsom Wiskott-Aldrich-lignende lidelser.
+- Eventuelt prækliniske data eller et sygdomsmodelstudie, der kan understøtte en mekanistisk sammenhæng.
 
-- **Præ-klinisk bevis:** Etabler, hvorvidt SYK-vej-dysregulering er til stede i den eller de specifikke genetiske varianter, der ligger til grund for denne tilstand (f.eks. in vitro megakaryocyt-differentieringsassays eller patientstammede iPSC-modeller)
-- **Mekanistiske data (MOA):** Hent fuldstændig fostamatinib-farmakologi fra DrugBank API (i øjeblikket markeret som datamanko DG002) for at forfine vurdering af mekanistisk plausibilitet
-- **Sikkerhedsprofil-gennemgang:** Indhent og gennemse Tavlesse SmPC fra EMA (datamanko DG001-ækvivalent) — især hepatotoxicitet, hypertension og neutropeni-signaler relevant for enhver undersøgende anvendelse
-- **Genetisk subtype-kortlægning:** Definer de specifikke OMIM-mutationer og bestem, hvorvidt nogen involverer SYK-relaterede signalerings-kaskader, før man formulerer en forskninhypotese
-- **Evaluering af orphan-sygdoms-udviklingsbane:** Hvis præ-kliniske data er understøttende, vurderes berettigelse til EU-orfan-designering forud for planlagt klinisk udvikling
-
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

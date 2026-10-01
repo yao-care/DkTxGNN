@@ -2,7 +2,7 @@
 layout: default
 title: Meloxicam
 parent: Kun modelforudsigelse (L5)
-nav_order: 282
+nav_order: 283
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Meloxicam: Fra osteoarthritis til akromesomeli dysplasi (Hunter-Thompson type)
+# Meloxicam: Fra ikke angivet oprindelig indikation til akromesomelisk dysplasi, Hunter-Thompson-type
 
-## En-linies sammenfatning
+## Resumé
 
-Meloxicam er et veletableret non-steroidalt antiinflammatorisk lægemiddel (NSAID), der bredt anvendes til osteoarthritis, rheumatoid arthritis og muskuloskeletale smerter gennem præferentiel inhibition af COX-2-enzymet.
-TxGNN-modellen forudsiger, at det kan have terapeutisk potentiale for **akromesomeli dysplasi, Hunter-Thompson type** — en sjælden autosomal recessiv skeletdysplasi — med en forudsigelsessikkerhed på **99,92%**.
-Der er imidlertid **ingen kliniske forsøg og ingen publiceret litteratur**, der i øjeblikket understøtter denne specifikke genbrugningsretning, hvilket placerer denne kandidat på det laveste evidensniveau (L5).
+Meloxicam er et NSAID med fortrinsvis COX-2-hæmmende virkning. Godkendelsesdataene i Danmark angiver ingen oprindelig indikation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akromesomelisk dysplasi, Hunter-Thompson-type**, med en score på 99,92 %.
+Forudsigelsen er ren modelbaseret: der er **0 kliniske forsøg** og **0 publikationer**, der understøtter den.
 
 ---
 
-## Kort oversigt
+## Hurtigt overblik
 
-| Post | Indhold |
-|------|---------|
-| Oprindelig indikation | Osteoarthritis; rheumatoid arthritis; muskuloskeletale smerter (intet dansk registreringsdata tilgængeligt i datasættet) |
-| Forudsagt ny indikation | Akromesomeli dysplasi, Hunter-Thompson type |
-| TxGNN forudsigelsesscore | 99,92% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i godkendelsesdata |
+| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
+| TxGNN-forudsigelsesscore | 99,92 % |
 | Evidensniveau | L5 |
-| Dansk markedsstatus | Ikke markedsført (ifølge nuværende datasæt — se bemærkning nedenfor) |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
-
-> **Datanotat:** Meloxicam er et globalt etableret NSAID med EMA-godkendte produkter tilgængelige på tværs af EU-medlemsstater. Den "ikke markedsført" status registreret her afspejler sandsynligvis en dataindsamlingskløft snarere end en ægte fravær fra det danske marked. Verifikation gennem Lægemiddelstyrelsen og EMA-produktdatabasen anbefales kraftigt, før der drages regulatoriske konklusioner.
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i dette evidenspakke. Baseret på offentligt kendt information tilhører meloxicam oxicam-klassen af NSAID'er og udøver sine virkninger primært gennem præferentiel inhibition af cyclooxygenase-2 (COX-2), hvorved syntesen af prostaglandiner reduceres. Dette fører til antiinflammatoriske, analgetiske og antifebrile virkninger. Dets COX-2-selektivitet anses for at give en lavere gastrointestinal risiko sammenlignet med non-selektive NSAID'er.
+Der foreligger ingen detaljerede data om meloxicams virkningsmekanisme i evidenspakken. Meloxicam er et NSAID, der fortrinsvis hæmmer COX-2. Det kan lindre smerte og inflammation, men der er ikke dokumenteret nogen sygdomsmodificerende effekt.
 
-Akromesomeli dysplasi, Hunter-Thompson type (AMDH) er en sjælden autosomal recessiv lidelse forårsaget af loss-of-function mutationer i **GDF5**-genet (vækstdifferentieringsfaktor 5), som koder for en signaliseringsligand, der er kritisk for skeletal og ledbygning. Tilstanden manifesterer sig som uforholdsmæssig forkortelse af de melleme og distale lemesegmenter og er en grundlæggende strukturel, udviklingsbetinget knogledysplasi — ikke drevet af kronisk inflammation.
+Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjælden genetisk skeletdysplasi, som typisk forbindes med GDF5/CDMP1-signalvejen. Der er ikke påvist nogen plausibel kobling mellem COX-hæmning og denne signalvej. Højst kan et NSAID tænkes at lindre muskel- og skeletsmerter symptomatisk, hvilket ikke er det samme som at behandle sygdommen.
 
-Den mekanistiske forbindelse mellem COX-2-inhibition og AMDH er på det bedste indirekte. Prostaglandiner deltager faktisk i knogleremodellering og vækstplade-signalering, og der er stigende evidens for, at COX-2/PGE₂-vejene interagerer med BMP-signaleringnetværk (bone morphogenetic protein) — hvoraf GDF5 er medlem. Der er imidlertid ingen præ-kliniske undersøgelser, der har undersøgt denne forbindelse i GDF5-deficiente modeller, og TxGNN-højtillids-scoren afspejler mest sandsynligt **grafstrukturel klyngedannelse**: AMDH grænser op til andre skeletdysplasier i vidensgrafen, hvor NSAID'er hyppigt optræder som kandidatagenter, snarere end et valideret farmakologisk forhold. Denne forudsigelse er i øjeblikket kun på hypoteseniveauet.
+Den høje score afspejler sandsynligvis nærhed i vidensgrafen snarere end en påvist biologisk mekanisme. Samme billede gælder for de øvrige forudsigelser (der er fem unikke sygdomme, og to af dem optræder to gange i listen):
 
----
-
-## Evidens fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+- **Brachyolmi-amelogenesis imperfecta-syndrom** (99,92 %): ultrasjældent syndrom med skelet- og emaljedefekter. Ingen mekanistisk begrundelse kan udledes.
+- **Myosklerose** (99,90 %): sjælden medfødt myopati med kontrakturer. Antiinflammatorisk effekt kunne i teorien lindre sekundære gener, men det er spekulativt.
+- **Brachyolmi** (99,89 %): heterogen genetisk dysplasi i rygsøjlen. Eventuel gevinst er begrænset til ubekræftet symptomlindring.
+- **Pseudoachondroplasi** (99,81 %): NSAID bruges til tider mod ledsmerter ved skeletdysplasier. Det er understøttende behandling og ikke en repurposing-effekt.
 
 ---
 
-## Dansk markedsinformation
+## Klinisk evidens
 
-Ingen markedsføringstilladelsesdata for meloxicam er til stede i det nuværende datasæt. Som noteret ovenfor, er dette inkonsistent med meloxicams brede internationale tilgængelighed og EMA-regulatoriske historie og bør behandles som en dataindsamlingskløft afventende verifikation.
-
-For autoritative oplysninger om danske og EMA-tilladelser, konsulter:
-- [Lægemiddelstyrelsen (DKMA) produktdatabase](https://laegemiddelstyrelsen.dk)
-- [EMA European Public Assessment Reports (EPARs)](https://www.ema.europa.eu/en/medicines)
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendt produktresumé (SmPC) for sikkerhedsinformation. Sikkerhedsdata — herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktionsprofiler — var ikke tilgængelige i dette evidenspakke og skal hentes fra SmPC før enhver klinisk evaluering.
-
-Det skal bemærkes for et COX-2-præferentielt NSAID som meloxicam, at vigtige klasse-hensyn typisk omfatter kardiovaskulær risiko, nyrfunktionsovervågning, gastrointestinal tolerabilitet og forsigtighed hos ældre — men disse bør bekræftes fra det godkendt SmPC for det specifikke produkt og den målrettede patientpopulation.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Konklusion og næste trin
+## Markedsinformation i Danmark
 
-**Beslutning: Vent**
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104143007 | Animeloxan (aniMedica GmbH) | Oral suspension | Ikke angivet i datagrundlaget |
+
+Der er kun registreret én tilladelse, og indikationsteksten mangler. Det bør verificeres, om produktet er et humant eller et veterinært lægemiddel, før det indgår i en vurdering.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der foreligger ingen oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i evidenspakken (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Meloxicams TxGNN-forudsigelsesscore for akromesomeli dysplasi (Hunter-Thompson type) er høj (99,92%), men forudsigelsen afspejler videnstopologi snarere end etableret farmakologi: AMDH er en monogen skeletdysplasi uden kendt afhængighed af COX-2/prostaglandin-vejene, og der er fuldstændig fravær af støttende kliniske forsøg eller fagfællebedømt litteratur (Evidensniveau L5). At fortsætte uden yderligere biologisk begrundelse ville ikke være berettiget.
+Forudsigelserne er udelukkende modelbaserede (evidensniveau L5) uden kliniske forsøg eller publikationer. Der kan ikke påvises nogen plausibel mekanisme mellem COX-2-præferentiel hæmning og de forudsagte sjældne skeletdysplasier. Sikkerhedsdata mangler desuden.
 
-**For at fortsætte kræves følgende:**
+**For at komme videre kræves følgende:**
+- Sikkerhedsdata (advarsler og kontraindikationer) fra produktresumeet hos Lægemiddelstyrelsen
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Oplysning om oprindelig godkendt indikation og afklaring af, om det registrerede produkt er til human brug
+- Prækliniske eller mekanistiske studier, der kan kæde COX-hæmning til den forudsagte sygdomsbiologi, inden der overvejes kliniske studier
 
-- **Markedsstatus-præcisering:** Bekræft faktisk dansk og EMA-tilladelsestatus via Lægemiddelstyrelsen og EMA-databasene
-- **MOA- og sikkerhedsdata:** Hent fuldt DrugBank-post og godkendt SmPC for at fuldende lægemiddelkarakteriseringen
-- **Mekanistisk validering:** Kommissioner eller identificer præ-kliniske undersøgelser, der undersøger COX-2/PGE₂-interaktioner med GDF5-BMP-signalering i relevante skeletdysplasi-modeller
-- **Sjælden sygdomskontekst:** Vurder, om anti-inflammatoriske eller anti-remodellerings-virkninger kunne give nogen symptomatisk fordel til AMDH-patienter, uafhængigt af sygdomsmodifikation
-- **Bredere gennemgang af området:** Overvej, om nogen af de fem forskellige TxGNN-forudsagte indikationer (AMDH, brachyolmi-amelogenesis imperfecta syndrom, myosklerose, brachyolmi, pseudoachondrodysplasi) — alle sjældne skeletal-/bindevævslidelser — deler en fælles mekanistisk tråd, der kunne begrunde en fælles investigativ strategi for meloxicam
-
+*Resultaterne er alene til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

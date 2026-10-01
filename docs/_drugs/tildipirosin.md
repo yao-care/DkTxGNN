@@ -2,7 +2,7 @@
 layout: default
 title: Tildipirosin
 parent: Kun modelforudsigelse (L5)
-nav_order: 433
+nav_order: 435
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tildipirosin: Fra Veterinær Respiratorisk Infektion til Lepra (Forudsagt)
+# Tildipirosin: Fra veterinære luftvejsinfektioner til lepra
 
-## Resumé i én Sætning
+## Resumé i én sætning
 
-Tildipirosin er et 16-medlemmet makrolid-antibiotikum udviklet udelukkende til veterinær brug (respiratoriske sygdomme hos kvæg og svin); det er aldrig blevet godkendt eller doseret hos mennesker og har ingen markedsautorisering i Danmark. TxGNN-modellen forudsiger et muligt link til **Lepra**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det hviler udelukkende på strukturel analogi til andre makrolider.
+Tildipirosin er et makrolid-antibiotikum, der på det danske marked kun er godkendt til dyr (veterinært præparat Zuprevo, mod luftvejssygdomme).
+TxGNN-modellen forudsiger, at det kan have effekt mod **lepra**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Den er alene modelbaseret.
 
 ---
 
-## Hurtig Oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig Indikation | Ikke relevant — udelukkende veterinær antibakteriell (respiratoriske infektioner hos kvæg/svin); der eksisterer ingen godkendt humanindikation |
-| Forudsagt Ny Indikation | Lepra |
-| TxGNN Forudsigelsesscore | 99.01% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Luftvejssygdomme hos dyr (veterinær anvendelse; indikationsteksten er ikke angivet i godkendelsesdata) |
+| Foreslået ny indikation | Lepra |
+| TxGNN-forudsigelsesscore | 99,01 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal Markedsautorisationer | 0 |
-| Anbefalet Afgørelse | Afvent |
+| Markedsstatus i Danmark | Markedsført (veterinært lægemiddel) |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne Forudsigelse Rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme for tildipirosin er ikke tilgængelige (markeret som en blokerende/alvorlig datamangel i kildepakken). På baggrund af kendt strukturel information er tildipirosin en 16-medlemmet ring makrolid tæt beslægtet med tilmikosin og tulathromycin, antaget — ved analogi til denne lægemiddelklasse — at binde til det bakterielle 50S-ribosomale subunit og hæmme proteinsyntetese. Den har ingen registreret brug, dosering eller farmakokinet-/toksikologidata hos mennesker.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i DrugBank. Ud fra lægemiddelklassen er tildipirosin et 16-leddet makrolid, der hæmmer bakteriel proteinsyntese ved at binde til det ribosomale 50S-subunit. Mekanismen er altså udledt af klassen og ikke dokumenteret specifikt for stoffet.
 
-Linket til lepra er ikke helt uden farmakologisk præcedens: visse humanmakrolider (f.eks. clarithromycin) har etableret klinisk aktivitet mod *Mycobacterium leprae* og deler den samme generelle ribosomale bindingsmekanisme. Dette er dog en analogi trukket fra andre medlemmer af makrolidklassen, ikke fra nogen direkte evidens, der involverer tildipirosin selv.
+Det klasseteoretiske argument for lepra er, at andre makrolider, f.eks. clarithromycin, har dokumenteret aktivitet mod *Mycobacterium leprae*. Det gør en antibakteriel effekt mod lepra biologisk plausibel. Der findes dog ingen tildipirosin-specifikke data, og stoffet er kun markedsført til veterinær luftvejssygdom. Der kendes ingen humane sikkerheds- eller farmakokinetiske data.
 
-Fordi tildipirosin aldrig er blevet administreret til mennesker, kan dets anvendelighed til lepra i øjeblikket ikke vurderes ud over denne klasse-niveau mekanistiske analogi. Fraværet af nogen som helst humanfarmakokinet/farmakodynamik-, sikkerhed- eller efficacy-data repræsenterer en fundamental translationel kløft, der skal løses, før denne kandidat meningsfuldt kan evalueres.
+De øvrige forudsigelser i modellen er væsentligt svagere:
 
----
-
-## Klinisk Forsøgsevidenz
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+- **Candidiasis (98,93 %):** Makrolider har ingen direkte antimykotisk mekanisme. Forbindelsen afspejler sandsynligvis artefakter i vidensgrafen, og antibiotika disponerer snarere for candidiasis.
+- **Koronararteriesygdom (98,64 %) og myokardieiskæmi (98,47 %):** Mekanismen er ikke biologisk understøttet. Makrolidforsøg i koronar sygdom, f.eks. azithromycin til sekundær forebyggelse, viste ikke gavn. Nogle makrolider har desuden signaler om QT-forlængelse og kardiovaskulær risiko.
+- **Pneumocystose (98,33 %):** *Pneumocystis jirovecii* er en svamp, og makrolider er ikke standardbehandling. Standardbehandlingen er trimethoprim-sulfamethoxazol. Tildipirosins ophobning i lungevæv ved veterinær brug er kun et farmakokinetisk interessepunkt.
 
 ---
 
-## Litteratursevidenz
+## Klinisk evidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Aktuelt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Aktuelt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Tildipirosin har ingen markedsautorisering i Danmark (0 licenser registreret) og er ikke registreret til humanforbrug. Det er i EU kun autoriseret som et veterinært produkt (f.eks. under mærket Zuprevo) til behandling af bovine og svinerespiratoriske sygdomme.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104673010 | Zuprevo (Intervet International B.V.) | Injektionsvæske, opløsning | Veterinær anvendelse (luftvejssygdomme hos dyr); indikationstekst ikke angivet i data |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Der eksisterer ingen humane sikkerhedsdata for tildipirosin — vigtige advarsler, kontraindikationer og data om lægemiddelinteraktioner er alle utilgængelige, og der eksisterer intet resumé af produktegenskaber (SmPC) til humanforbrug, fordi produktet ikke er autoriseret til humanadministration. Sikkerhed skal etableres fra første princip (preklinisk toksikologi, first-in-human-studier) snarere end sluttet fra eksisterende labeling.
+Der foreligger ingen specifikke sikkerhedsdata (advarsler, kontraindikationer) for stoffet. Der er ikke fundet registrerede lægemiddelinteraktioner.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Bemærk, at Zuprevo er et veterinært præparat, og at der ikke findes humane sikkerhedsdata. Makrolidklassen er desuden forbundet med mulig QT-forlængelse.
 
 ---
 
-## Konklusion og Næste Skridt
+## Konklusion og næste skridt
 
-**Afgørelse: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelafledt (L5, beslutningsstadium S0), uden nogen understøttende kliniske forsøg eller litteratur, ingen humane virkningsmekanismedata og ingen historie med humanadministration for dette udelukkende veterinært stof. Kløften mellem nuværende evidens og en levedygtig genovertolking er for stor til at fortsætte.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Stoffet er kun godkendt til veterinær brug uden kendte humane sikkerheds- eller farmakokinetiske data. Det klasseteoretiske argument for lepra er plausibelt, men kan ikke erstatte stofspecifik evidens.
 
-**For at fortsætte kræves følgende:**
-- Bekræftet virkningsmekanisme og eventuelle tilgængelige prekliniske farmakologi-/toksikologidata (DrugBank/EMA-veterinære vurderingsrapporter)
-- Evidens for, at tildipirosin (ikke bare andre makrolider) har antimykobakteriel aktivitet mod *M. leprae*
-- En first-in-human sikkerhed-/tolerabilitetsvej, da der ikke eksisterer humane doseringsdata
-- Løbende overvågning for kliniske forsøg eller publiceret litteratur på dette lægemiddel-sygdomspar
-
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som er en blokerende mangel for sikkerhedsscreening
+- Mekanismedata for tildipirosin fra DrugBank
+- Prækliniske data (in vitro-aktivitet mod *M. leprae*) som minimum for at hæve evidensniveauet
+- Humane farmakokinetiske og toksikologiske data, herunder kardiel sikkerhed (QT), før enhver human anvendelse overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

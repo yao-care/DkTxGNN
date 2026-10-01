@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Perflutren
-parent: Kun modelforudsigelse (L5)
-nav_order: 346
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 347
+evidence_level: L3
 indication_count: 10
 ---
 
 # Perflutren
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,112 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Perflutren: Fra diagnostisk ultralyds-kontrastmidler til myokard iskæmi
+# Perflutren: Fra ultralydskontrastmiddel til myokardieiskæmi
 
-## Ét-linjes sammenfatning
+## Resumé i én sætning
 
-> Perflutren er et perfluorpropan-fyldt lipidmikrobobleagent, etableret som et ultralyds-kontrastmiddel til kardiologisk billeddannelse (myokardialt kontrastekkokardiografi / venstre ventrikel opacificering).
-> TxGNN-modellen forudsiger en mulig rolle i **Myokard iskæmi** — specifikt som en terapeutisk *sonotrombolyse*agent snarere end blot et diagnostisk redskab —
-> med **10 gennemgåede kliniske forsøg** og **10 klassificerede publikationer**, der giver tidlig-stadium, overvejende mekanistisk/observationel støtte. Der findes endnu intet bekræftende Phase 3 RCT.
+Perflutren er et ultralydskontrastmiddel (mikrobobler), som bruges til at forbedre ekkokardiografiske billeder. TxGNN-modellen forudsiger, at det kan have værdi ved **myokardieiskæmi**, og i praksis handler det om ultralydsstyret behandling af blodpropper (sonotrombolyse). Området understøttes af **19 registrerede kliniske forsøg** og **20 publikationer**, men kun ét terapeutisk fase 2-forsøg er afsluttet tidligt (n=41).
 
-*Bemærkning om andre TxGNN-forudsigelser*: Denne kandidat (rangering 7–8 i evidenspakken, score 96,34%) blev valgt frem for de teknisk højere-scorende forudsigelser (akut intermittent porfyri, nefrogenisk SIAD, MDR-tuberkulose, citrullinæmi — score 95,9–97,5%), fordi disse fire har **nul kliniske forsøg, nul litteratur og ingen biologisk plausibel mekanisme** ifølge evidenspakkens egen begrundelse, og er eksplicit markeret der som sandsynlige knowledge-graph-indlejringsartefakter snarere end ægte genfunktionssignaler. Myokard iskæmi er den eneste forudsagte indikation, der når beslutningsstadium S1 med ægte understøttende evidens.
+> **Bemærkning om valg af indikation:** Modellen rangerer akut intermitterende porfyri højest (97,5 %). Den og de øvrige forudsigelser med høj score (se nedenfor) har hverken forsøg, litteratur eller en plausibel mekanisme. Myokardieiskæmi (rang 7) er den eneste forudsigelse med reelt evidensgrundlag, og derfor er rapporten bygget op omkring den.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Ultralyds-kontrastbilleddannelse (myokardialt kontrastekkokardiografi / venstre ventrikel opacificering) — ingen formel dansk licenstekst tilgængelig (lægemidlet ikke markedsført) |
-| Forudsagt ny indikation | Myokard iskæmi (terapeutisk sonotrombolyse) |
-| TxGNN forudsigelses-score | 96,34% |
-| Evidensniveau | L3 (observationelle/kohort-studier; intet afsluttet Phase 3 RCT) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringsautoriseringer | 0 |
-| Anbefalet beslutning | Afvente (evidenspakkens anbefalede stadium: "Forskningsspørgsmål") |
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Detaljerede mekanisme-af-handling data for Perflutren er ikke tilgængelige (datakløft). Baseret på kendt information er Perflutren et perfluorpropan-gas-kerne, lipid-skal mikrobobbleagent, hvis etablerede kliniske rolle er udelukkende fysisk/akustisk: det spreder ultralydsenergi for at forbedre venstre ventrikel opacificering og myokardialt perfusionsbilleddannelse. Det har ingen kendt farmakologisk aktivitet i klassisk forstand (ingen receptorbinding, enzymhæmning eller metabolisk vej-interaktion).
-
-TxGNN-forudsigelsen for "myokard iskæmi" forstås derfor bedst ikke som opdagelse af en skjult farmakologisk mekanisme, men som genkendelse af en **proceduremæssig/terapeutisk udvidelse af en eksisterende diagnostisk anvendelse**: når det kombineres med diagnostisk ultralyds med høj mekanisk indeks, kan intravenøse mikrobobbler mekanisk destruere intraoronare tromber og genoprette mikrovaskularflow — en teknik beskrevet i litteraturen som "sonotrombolyse" eller "ultralyds-målrettet mikrobobble-destruktion (UTMD)." Flere tidlig-fase og prækliniske studier i evidenspakken (angiogenesefremme via UTMD, akustisk aktivering af perfluorpropan-dråber i infarkt-zoner, sonotrombolyse-gennemførlighedsforsøg) understøtter dette som biologisk plausibelt — hvis end stadig undersøgende — mekanisme adskilt fra Perflutren's godkendt diagnostisk anvendelse.
-
-Fordi denne foreslåede mekanisme er proceduremæssig (ultralyds-energi-afhængig) snarere end klassisk farmakologisk, og fordi det stærkeste menneskelige forsøg i dette område (NCT04217304, SONOSTEMI-LYSIS) var Phase 2 og **afbryd** med kun 41 patienter, understøtter beviserne på nuværende tidspunkt dette som en forsk ningshy potese værd videre undersøgelse snarere end en klinisk actionerbar genfundskandidat.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data. Brugt som ultralydskontrastmiddel til ekkokardiografi |
+| Forudsagt ny indikation | Myokardieiskæmi |
+| TxGNN-forudsigelsesscore | 96,3 % |
+| Evidensniveau | L3 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---
 
-## Kliniske forsøgsdata
+## Hvorfor er forudsigelsen rimelig?
 
-| Forsøgsnummer | Fase | Status | Rekruttering | Vigtige resultater |
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Perflutren er en perfluorcarbongas i mikrobobler. Det er et diagnostisk billeddannende middel uden kendt systemisk farmakologisk aktivitet. Dets anvendelse til at afbilde hjertet er veletableret.
+
+Der er to forskellige spor mellem den kendte brug og myokardieiskæmi:
+
+1. **Diagnostisk spor:** Perflutren-mikrobobler fremhæver venstre ventrikel og muliggør myokardieperfusionsekkokardiografi. Det er billeddiagnostik af iskæmi, ikke behandling, og det overlapper i vid udstrækning med den markedsførte brug.
+2. **Potentielt terapeutisk spor:** Når ultralyd rettes mod cirkulerende mikrobobler (sonotrombolyse, ultrasound-targeted microbubble destruction), kan det fremme genopretning af mikrovaskulær gennemstrømning. Prækliniske data tyder desuden på øget angiogenese i infarktområdet.
+
+Det terapeutiske spor hviler på ét afsluttet-tidligt fase 2-forsøg og flere forsøg uden fasebetegnelse (N/A). Mikroboblernes bidrag er derfor ikke klarlagt, og randomisering af fase 2-forsøget kan ikke bekræftes ud fra de foreliggende data.
+
+**Øvrige modelforudsigelser:** Modellen giver også høje scorer for akut intermitterende porfyri (97,5 %), nefrogent syndrom med uhensigtsmæssig antidiurese (96,6 %), multiresistent tuberkulose (96,5 %) og citrullinæmi type I (96,0 %). For ingen af dem er der forsøg, litteratur eller en plausibel mekanisme. De vurderes som rene vidensgrafssignaler (evidensniveau L5, Hold).
+
+---
+
+## Klinisk forsøgsevidens
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT04217304](https://clinicaltrials.gov/study/NCT04217304) | Phase 2 | Afbrudt | 41 | SONOSTEMI-LYSIS: sikkerhed/gennemførliglighed af sonotrombolyse (mikrobobbler + ultralyds) hos STEMI-patienter under farmakoinvasiv reperfusion — det eneste forsøg eksplicit designet til at teste en *terapeutisk* effekt; afbrudt tidligt, begrænset stikprøve. |
-| [NCT02410330](https://clinicaltrials.gov/study/NCT02410330) | Ikke anført | Afsluttet | 100 | Terapeutisk brug af ultralyds ved akut koronararteriesygdom — testede, om IV perfluorkulstof-mikrobobbler + diagnostisk ultralyds kan genoprette mikrovaskulært flow og forbedre epicardial rekanalisation (sonotrombolyse). |
-| [NCT04732091](https://clinicaltrials.gov/study/NCT04732091) | Ikke anført | Ukendt | 540 | Ultralyds med høj mekanisk indeks + mikrobobbler til at reducere akut MI-belastning — flercentersamt forsøg på at demonstrere klinisk effektivitet af sonotrombolyse ved ACS; afslutningsstatus uklart. |
-| [NCT02880137](https://clinicaltrials.gov/study/NCT02880137) | Phase 4 | Afsluttet | 36 | Real-time myokardialt perfusionsekkokardiografi (RTMPE) til at opdage koronalar-transplantat vaskulopati hos transplantationspatienter — diagnostisk, ikke terapeutisk brug. |
-| [NCT02170103](https://clinicaltrials.gov/study/NCT02170103) | Ikke anført | Afsluttet | 50 | Testede, om et modificeret diagnostisk ultralydsystem plus kommercielle mikrobobbler kunne bryde blodpropper, der forårsager STEMI, når det blev anvendt akut — diagnostisk-redskab-som-behandling observationelt design. |
-| [NCT01384448](https://clinicaltrials.gov/study/NCT01384448) | Ikke anført | Afsluttet | 400 | Randomiseret sammenligning af koronart CT-angiografi mod stressekkokardiografi til ED brystsmertetriage — diagnostisk metodologisammenligning, ikke behandling. |
-| [NCT05416385](https://clinicaltrials.gov/study/NCT05416385) | Ikke anført | Rekruttering | 1500 | Kombinerer intraplak-neovaskulasering-billeddannelse med carotis stress-echo-risikostratificering — diagnostisk/risikostratificering, ikke behandling. |
-| [NCT03173716](https://clinicaltrials.gov/study/NCT03173716) | Phase 4 | Afsluttet | 24 | RTMPE på ICU — evaluerede indvirkning på diagnostisk tillid og efterfølgende behandling af myokard iskæmi; diagnostisk nyttestudie. |
-| [NCT01436773](https://clinicaltrials.gov/study/NCT01436773) | Ikke anført | Afsluttet | 66 | Kontrastforbedret ultralydsidentifikation af carotis vasa vasorum og korrelation med akutte koronaarhændelser — observationel plak-sårbarhedsstudie. |
-| [NCT00529607](https://clinicaltrials.gov/study/NCT00529607) | Ikke anført | Afsluttet | 200 | Evaluerede nye kardiologiske billeddannelsesmodaliteter (inkl. kontrastekkokardiografi) mod biokemiske reperfusions-skademarkeringer post-MI — diagnostisk teknologi udvikling. |
+| [NCT04217304](https://clinicaltrials.gov/study/NCT04217304) | Fase 2 | Afsluttet tidligt | 41 | Sonotrombolyse ved STEMI sammen med systemisk fibrinolyse. Det eneste egentlige terapeutiske test, men tidlig afslutning begrænser fortolkningen |
+| [NCT03092089](https://clinicaltrials.gov/study/NCT03092089) | Fase 2 | Afsluttet | 15 | Enkeltarmet studie af sonotrombolyse ved første STEMI. Effekt på spontan reperfusion, mikrovaskulær obstruktion og infarktstørrelse |
+| [NCT02410330](https://clinicaltrials.gov/study/NCT02410330) | N/A | Afsluttet | 100 | Terapeutisk ultralyd ved akut koronarsygdom. Mikroboblernes bidrag er uklart |
+| [NCT04732091](https://clinicaltrials.gov/study/NCT04732091) | N/A | Ukendt | 540 | Høj mekanisk indeks og mikrobobler for at mindske infarktbyrden ved akut myokardieinfarkt |
+| [NCT02170103](https://clinicaltrials.gov/study/NCT02170103) | N/A | Afsluttet | 50 | Effekt af diagnostisk ekkokardiografi med mikrobobler på mikrovaskulær restitution efter STEMI |
+| [NCT02880137](https://clinicaltrials.gov/study/NCT02880137) | Fase 4 | Afsluttet | 36 | Perfusionsekkokardiografi til påvisning af koronar allograftvaskulopati. Diagnostisk brug |
+| [NCT03173716](https://clinicaltrials.gov/study/NCT03173716) | Fase 4 | Afsluttet | 24 | Perfusionsekkokardiografi på intensivafdeling. Diagnostisk sikkerhed som endepunkt |
+| [NCT01122069](https://clinicaltrials.gov/study/NCT01122069) | N/A | Afsluttet | 110 | Kontrastekkokardiografi til vurdering af myokardieperfusion ved NSTEMI |
+| [NCT00529607](https://clinicaltrials.gov/study/NCT00529607) | N/A | Afsluttet | 200 | Billeddiagnostik af reperfusionsskade efter myokardieinfarkt |
+| [NCT01384448](https://clinicaltrials.gov/study/NCT01384448) | N/A | Afsluttet | 400 | Koronar CT-angiografi versus stressekkokardiografi ved lav-til-intermediær risiko for brystsmerter |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [24408670](https://pubmed.ncbi.nlm.nih.gov/24408670/) | 2015 | Kohort | Heart and Vessels | Hvile myokardialt kontrastekkokardiografi forventede kardiale hændelser efter AMI og PCI, der understøttede en prognostisk (ikke behandlings) rolle for perflutren-baseret billeddannelse. |
-| [21564278](https://pubmed.ncbi.nlm.nih.gov/21564278/) | 2011 | Klinisk/teknisk | Echocardiography | Perflutren-kontrast forbedrede afgrænselighed af både endokardialt og epikardial grænser under transthorakalt ekkokardiografi. |
-| [11457757](https://pubmed.ncbi.nlm.nih.gov/11457757/) | 2001 | Kohort/billeddannelse | Circulation | Kraft-modulerings-kontrastbilleddannelse muliggjorde kombineret kvantitativ vurdering af myokardialt perfusion og regional LV-funktion. |
-| [36050231](https://pubmed.ncbi.nlm.nih.gov/36050231/) | 2022 | Mekanistisk | Ultrasound in Medicine & Biology | Akustisk aktivering af tilbageholdt perfluorpropan-dråber forekommer foretrukket inden for udviklingsfasen infarkt-zoner — mekanistisk basis for infarkt-målrettet levering. |
-| [23969167](https://pubmed.ncbi.nlm.nih.gov/23969167/) | 2013 | Mekanistisk/dyrmodeller | Ultrasound in Medicine & Biology | Ultralyds-målrettet mikrobobble-destruktion (UTMD) fremme angiogenese og forbedrede hjertets funktion via myokardiale mikromiljø-ændringer i en canin MI-model — den klareste mekanistiske støtte til en *terapeutisk* effekt. |
-| [32497541](https://pubmed.ncbi.nlm.nih.gov/32497541/) | 2020 | Casusrapport | The American Journal of Medicine | Rapporterede tilbagevendende dødelige allergiske koronare vasospasmer — et sikkerhedssignal relevant for risikovurdering, ikke effektivitet. |
-| [16386679](https://pubmed.ncbi.nlm.nih.gov/16386679/) | 2006 | Billeddannelsesmetodestudi | Journal of the American College of Cardiology | Validerede real-time 3D ekkokardiografisk perfusionsbilleddannelse og volumetrisk kontrast-indflyd-analyse-metodologi. |
-| [9487468](https://pubmed.ncbi.nlm.nih.gov/9487468/) | 1998 | Farmakologi-karakterisering | Journal of the American Society of Echocardiography | Karakteriserede perfusions- og hæmodynamisk profil af et tidligt mikrobobble-kontrastmiddel under akut MI i en canin model. |
-| [11593652](https://pubmed.ncbi.nlm.nih.gov/11593652/) | 1999 | Dyrmodel | Chinese Medical Journal | Evaluerede et perfluorpropen-fyldt kontrastmiddel til ikke-invasiv risiko-område og infarkt-område vurdering i en canin iskæmi-reperfusions-model. |
-| [7797773](https://pubmed.ncbi.nlm.nih.gov/7797773/) | 1995 | Dyrmodel | Journal of the American College of Cardiology | Tidlig grundlæggende studie, der viste IV sonicated dextrose albumin med perfluorpropan-gas kunne identificere akut myokardialt iskæmi og reperfusion ikke-invasivt. |
+| [39136288](https://pubmed.ncbi.nlm.nih.gov/39136288/) | 2024 | Klinisk studie (type ikke angivet) | J R Coll Physicians Edinb | Sonotrombolyse med mikrobolus af perfluorpropan som point-of-care-behandling ved akut STEMI. Vurderer sikkerhed, gennemførlighed og effekt |
+| [23969167](https://pubmed.ncbi.nlm.nih.gov/23969167/) | 2013 | Præklinisk | Ultrasound Med Biol | Ultralydsstyret mikroboblesprængning fremmer angiogenese og hjertefunktion hos hunde med myokardieinfarkt |
+| [24408670](https://pubmed.ncbi.nlm.nih.gov/24408670/) | 2015 | Kohorte | Heart Vessels | Kontrastekkokardiografi i hvile forudsiger hjertehændelser efter akut myokardieinfarkt og revaskularisering |
+| [12943867](https://pubmed.ncbi.nlm.nih.gov/12943867/) | 2003 | Ikke klassificeret | Am J Cardiol | Sammenligner myokardiekontrastekkokardiografi med dobutaminekkokardiografi til at forudsige funktionel restitution efter myokardieinfarkt |
+| [20331695](https://pubmed.ncbi.nlm.nih.gov/20331695/) | 2010 | Ikke klassificeret | Echocardiography | Diagnostisk nøjagtighed af 2D- og 3D-kontrastekkokardiografi under adenosinstress sammenlignet med SPECT |
+| [7797773](https://pubmed.ncbi.nlm.nih.gov/7797773/) | 1995 | Præklinisk | J Am Coll Cardiol | Perfluorpropan-eksponeret albumin kan identificere akut myokardieiskæmi og reperfusion med kontrastultralyd |
+| [36050231](https://pubmed.ncbi.nlm.nih.gov/36050231/) | 2022 | Præklinisk | Ultrasound Med Biol | Akustisk påvisning af tilbageholdte perfluorpropan-dråber i det udviklende infarktområde |
+| [26242615](https://pubmed.ncbi.nlm.nih.gov/26242615/) | 2015 | Sikkerhedsanalyse (disproportionalitet, FAERS) | Drug Saf | Perflutren-kontrastmidler har en boxed warning for alvorlige kardiopulmonale hændelser. Analyse af spontane indberetninger |
+| [19761982](https://pubmed.ncbi.nlm.nih.gov/19761982/) | 2009 | Ikke klassificeret | JACC Cardiovasc Imaging | Artikel om sikkerhed ved ultralydskontrastmidler ("fra anekdote til evidens") |
+| [32497541](https://pubmed.ncbi.nlm.nih.gov/32497541/) | 2020 | Case report | Am J Med | Tilbagevendende livstruende allergisk koronarspasme. Relevant sikkerhedssignal |
 
 ---
 
 ## Markedsinformation for Danmark
 
-Perflutren har på nuværende tidspunkt **ingen markedsføringsautorisation i Danmark** (nationalt Lægemiddelstyrelsen eller EMA-centraliseret) — markedsstatus er registreret som **ikke markedsført**, med 0 licenser på fil. Der er derfor ingen produkt/doseringsform/indikationsdata tilgængelige til tabeludveksling.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28103779305 | Luminity | Dispersion | Lantheus EU Limited |
+
+Lægemiddelstyrelsens data indeholder ingen godkendt indikationstekst for dette produkt.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Venligst se den godkendt sammenfattet produktkarakteristika (SmPK) for formel sikkerhedsinformation — ingen strukturerede advarsler, kontraindikationer eller lægemiddelinteraktionsdata blev returneret af sikkerhedsdatakilderne forespurgt for denne kandidat.
+Litteraturen angiver, at perflutren-kontrastmidler har en boxed warning for alvorlige kardiopulmonale hændelser (PMID 26242615). Der er desuden beskrevet et tilfælde af tilbagevendende livstruende allergisk koronarspasme (PMID 32497541). Det er et vigtigt signal, når der overvejes brug hos patienter med akut iskæmi.
 
-For kontekst er en publikation, der dukkede op i litteratursøgningen, værd at fremhæve, selvom den falder uden for det strukturerede sikkerhedsdatasæt: [PMID 26242615](https://pubmed.ncbi.nlm.nih.gov/26242615/) (Hauben et al., *Drug Safety*, 2015) noter, at perflutren mikrobobble/mikrokugle ultralyds-kontrastmidler har en **sort-bokse-advarsel** baseret på casusrapporter om alvorlige kardiorespiratoire hændelser, og en relateret casusrapport ([PMID 32497541](https://pubmed.ncbi.nlm.nih.gov/32497541/)) beskriver tilbagevendende dødelige allergiske koronare vasospasmer. Disse bør behandles som vigtige signaler til verifikation mod den officielle SmPK, ikke som en erstatning for den.
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Den foreslåede terapeutiske mekanisme (ultralyds-målrettet mikrobobble-destruktion / sonotrombolyse) er mekanistisk plausibel og understøttet af prækliniske og tidlig-fase menneskelige data, men det eneste forsøg designet til direkte at teste terapeutisk effektivitet (NCT04217304) var Phase 2 og afbrudt tidligt med en lille kohort — dette opfylder ikke kriteriet for L1/L2 evidens.
-- Perflutren er på nuværende tidspunkt ikke markedsført i Danmark, og formel sikkerhedsmærkning (SmPK advarsler/kontraindikationer) kunne ikke hentes, hvilket blokerer en ordentlig S1 sikkerhedsvurdering (per datakløft DG001, alvorlighed: Blokering).
-- Lægemidlets oprindelige mekanisme af handling er udokumenteret (datakløft), hvilket forhindrer en fuldstændig mekanistisk-plausibilitetsvurdering.
+Det diagnostiske spor overlapper med den eksisterende brug og er ikke en ny indikation. Det terapeutiske spor (sonotrombolyse) er biologisk plausibelt, men hviler på ét tidligt afsluttet fase 2-forsøg (n=41) og flere forsøg uden fasebetegnelse. Evidensen er derfor L3, og området er et forskningsspørgsmål, ikke en klar kandidat. Lægemidlets kardiopulmonale advarsel skal vejes ind.
 
-**For at fortsætte er følgende nødvendigt:**
-- Officiel SmPK / produktmærkning for Perflutren (advarsler, kontraindikationer, lægemiddelinteraktioner) — på nuværende tidspunkt et blokerende datakløft.
-- Detaljerede mekanisme-af-handling data fra DrugBank eller primære farmakologliske kilder.
-- Et afsluttet eller igangværende tilstrækkeligt styret Phase 2/3 forsøg specifikt testende sonotrombolyse som en behandling (ikke diagnostisk hjælpemiddel) for myokardialt iskæmi/STEMI, ideelt som opfølgning på det afbrudt SONOSTEMI-LYSIS-forsøg.
-- Præcisering af procedurelle krav (ultralydsudstyr/mekanisk indeksindstillinger) nødvendigt for at gengive den foreslåede terapeutisk effekt, da denne genfundssti afhænger af mere end blot lægemiddeladministration.
+**For at komme videre kræves:**
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (mangler og blokerer sikkerhedsscreening)
+- Detaljerede data om virkningsmekanismen fra DrugBank
+- Resultater og randomiseringsdesign fra NCT04217304, NCT03092089, NCT04732091 og NCT02410330
+- Vurdering af, om effekten skyldes kontrastmidlet, ultralydsudstyret eller kombinationen (regulatorisk afklaring af lægemiddel versus udstyr)
+- Sikkerhedsplan for patienter med akut koronarsygdom i lyset af den kardiopulmonale advarsel
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

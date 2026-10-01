@@ -2,7 +2,7 @@
 layout: default
 title: Sparsentan
 parent: Kun modelforudsigelse (L5)
-nav_order: 407
+nav_order: 409
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,95 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sparsentan: Fra ubekræftet oprindelig indikation til alopeci
+# Sparsentan: Fra [ikke angivet i datagrundlaget] til alopeci
 
-## Resumé på én sætning
+## Resumé
 
-Sparsentan (DrugBank DB12548) er en dobbelt endotelin type A (ETA) / angiotensin II type 1 (AT1) receptorantagonist; dets oprindelige godkendte indikation er ikke dokumenteret i det aktuelle bevisomfang. TxGNN-modellen forudsiger et muligt signal for **alopeci**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske begrundelse karakteriserer lægemiddel-sygdoms-forbindelsen som spekulativ snarere end valideret.
+Sparsentan markedsføres i Danmark som Filspari (filmovertrukne tabletter). Datagrundlaget angiver ikke den oprindelige indikation. Generelt er stoffet kendt som en dobbelt antagonist af endothelin type A- og angiotensin II type 1-receptorer. TxGNN-modellen forudsiger, at det kan have effekt ved **alopeci** (hårtab), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke tilgængelig – ingen markedsføringstilladelse eller godkendt indikationstekst i det aktuelle bevisomfang |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten i Lægemiddelstyrelsens data er tom) |
 | Forudsagt ny indikation | Alopeci |
-| TxGNN-forudsigelsesscore | 94.52% |
-| Bevisniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-forudsigelsesscore | 94,5 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljeret dokumentation af virkningsmekanisme er ikke tilgængelig i det aktuelle bevisomfang (markeret som en alvorlig datakløft, DG002). Baseret på den mekanistiske begrundelse, der følger med denne forudsigelse, er Sparsentan kendt for at virke som en dobbelt ETA (endotelin-receptortype A) og AT1 (angiotensin II type 1 receptor) antagonist.
+Detaljerede data om virkningsmekanismen (MOA) er i øjeblikket ikke tilgængelige i datagrundlaget. Ud fra generel farmakologi er sparsentan en dobbelt antagonist af endothelin type A- og angiotensin II type 1-receptorer.
 
-Renin-angiotensin-systemet (RAS) og endotelin-signalering er blevet rapporteret i spredt fordelte eksplorativt-studier at spille lokale parakrine roller i follikulær mikrovaskularforsyning og hårcyklus-regulering. Imidlertid bemærker bevisomfangets egen vurdering eksplicit, at den årsagssammenhæng mellem systemisk ETA/AT1-blokade og alopeci-behandling er svag og spekulativ – det er **ikke** en valideret mekanisme, og den høje TxGNN-score bør ikke læses som mekanistisk bekræftelse.
+Der er ikke påvist en direkte mekanistisk vej fra denne virkning til hårvækst. En rolle for endothelin-1- og angiotensin II-signalering i hårsækkenes mikrokar er spekulativ. Den høje score afspejler sandsynligvis ligheder i vidensgrafens naboknuder snarere end dokumenteret biologi.
 
-Det er også værd at bemærke, at denne kandidatliste indeholder flere relaterede, men tvivlsomme signaler: to indlæg for arvelige/strukturelle hårtab-tilstande (medfødt hypotrikiosis milia, hypotrikiosis simplex på hovedbunden), som begrundelsen tilskriver sandsynlige knowledge-graph-klynge-artefakter snarere end genuine farmakologiske relevans, og et angioødem-signal, som begrundelsen markerer som et muligt **inverteret sikkerhedssignal** (RAS-blokerende lægemidler er en kendt klinisk risikofaktor for angioødem, ikke en behandling) snarere end en terapeutisk mulighed. Denne kontekst forstærker, at alopeci-signalet bør behandles som en hypotese med lav selvtillid kun fra modellen på dette stadie.
+De forudsagte indikationer er biologisk meget forskellige:
+
+- **Alopeci, medfødt hypotrikose (milia) og hypotrikosis simplex i hovedbunden:** Sidstnævnte er en monogen hårsækssygdom (fx varianter i CDSN, APCDD1 og RPL21). En receptorantagonist på endothelin/angiotensin-aksen kan næppe korrigere en strukturel eller genetisk defekt.
+- **Diffus alopecia areata:** Sygdommen drives af autoimmun angreb på hårsækken (IFN-gamma/JAK-STAT-aksen). Sparsentan har ingen kendt immunmodulerende effekt på denne vej.
+- **Angioødem:** Lægemidler på angiotensinvejen forbindes oftere med at *forårsage* angioødem end med at behandle det. Forudsigelsen kan derfor afspejle et sikkerhedssignal frem for en terapeutisk sammenhæng.
+
+### Øvrige forudsagte indikationer (samme evidensniveau)
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
+|------|------|------|------|
+| Alopeci | 94,5 % | L5 | Hold |
+| Medfødt hypotrikose (milia) | 94,5 % | L5 | Hold |
+| Hypotrikosis simplex i hovedbunden | 94,3 % | L5 | Hold |
+| Diffus alopecia areata | 94,2 % | L5 | Hold |
+| Angioødem | 93,0 % | L5 | Hold |
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Ingen relaterede kliniske forsøg er i øjeblikket registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteratur-evidens
+## Litteraturevidens
 
-Ingen relateret litteratur er i øjeblikket tilgængelig.
-
----
-
-## Markedsinformation for Danmark
-
-Sparsentan har i øjeblikket ingen markedsføringstilladelser registreret i Danmark (0 licenser på arkiv; markedsstatus: Ikke markedsført).
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Sikkerhedshensyn
+## Markedsinformation i Danmark
 
-Se venligst det godkendte produktdatablad (SmPC) for sikkerhedsinformation.
-
-*Bemærk: En blokeringsalvorlig datakløft (DG001) er blevet identificeret – lokale advarsler/kontraindikationer på produktetiketten er endnu ikke hentet, hvilket forhindrer en formel sikkerhedsvudering før vurderingen (S1-stadie) for denne kandidat.*
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106812422 | Filspari (Vifor France) | Filmovertrukne tabletter (oral) | Ikke angivet i datagrundlaget |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvent**
+Der foreligger ingen oplysninger om advarsler, kontraindikationer eller interaktioner i datagrundlaget (interaktionsforespørgslen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Angioødem optræder blandt de forudsagte indikationer. Angiotensinvejens lægemidler er forbundet med risiko for angioødem, så en sikkerhedsgennemgang er nødvendig, inden en eventuel anvendelse overvejes.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat understøttes kun af en TxGNN-modelscore (L5-bevisniveau), uden kliniske forsøg, litteratur eller dansk markedstilstedeværelse for at bekræfte det. Bevisomfangets egen mekanistiske begrundelse beskriver lægemiddel-sygdoms-forbindelsen som spekulativ snarere end etableret, og en blokeringsalvorlig datakløft (manglende produktetiket/sikkerhedsdata) forhindrer selv en indledende sikkerhedsscreening.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanistisk forbindelse mellem endothelin/angiotensin-receptorblokade og de forudsagte hårrelaterede sygdomme. Sikkerhedsdata mangler desuden, og de udgør en blokerende datamangel.
 
-**For at fortsætte er følgende nødvendigt:**
-- Hentning af det godkendte produktdatablad / SmPC-advarsler og kontraindikationer (løser DG001, i øjeblikket blokerering)
-- Bekræftelse af detaljerede virkningsmekanisme-data via DrugBank eller primær litteratur (løser DG002)
-- Prækliniske eller mekanistiske studier, der specifikt undersøger RAS/endotelin-signalering i hårstratafysiologi
-- Enhver klinisk forsøgs- eller case-niveau-data, der evaluerer Sparsentan (eller ETA/AT1-dual-antagonist-klassen) i alopeci, for at flytte denne kandidat ud over en kun-model (L5) bevisniveau
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler og kontraindikationer. Dette er en forudsætning for sikkerhedsscreening.
+- Indhent officielle data om virkningsmekanisme (MOA) fra DrugBank.
+- Bekræft den godkendte indikation i Danmark.
+- Gennemfør en systematisk litteratur- og forsøgssøgning for sparsentan ved hårtab, som grundlag for en mekanistisk vurdering.
+- Foretag prækliniske undersøgelser eller mekanismestudier af endothelin/angiotensin-signalering i hårsækken, hvis der skal arbejdes videre.
 
+*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, inden de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

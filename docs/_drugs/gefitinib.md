@@ -2,7 +2,7 @@
 layout: default
 title: Gefitinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 206
+nav_order: 207
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gefitinib: Fra ikke-småcellet lungekræft til gingivalt fibromatose
+# Gefitinib: Fra EGFR-muteret lungekræft til gingival fibromatose
 
-## Resumé i én linje
+## Resumé
 
-Gefitinib (Iressa) er en selektiv EGFR-tyrosin-kinase-hæmmer, godkendt internationalt til behandling af ikke-småcellet lungekræft (NSCLC) med aktiverende EGFR-mutationer.
-TxGNN-modellen tildeler denne indikation den højeste forudsigelsesscore til **Gingivalt fibromatose** (99.89%), men denne indikation har **ingen understøttende kliniske forsøg eller litteratur** — og det mekanistiske rationalet rejser en kritisk bekymring: gingivalhyperplasi (gingivalt overvækst) er selv en kendt uønsket bivirkning af EGFR-TKI'er, hvilket tyder på, at dette meget sandsynligt er et farmakologiovervågnings falsk-positivt signal snarere end en sand terapeutisk mulighed.
+Gefitinib er en EGFR-tyrosinkinasehæmmer, som er kendt fra behandling af EGFR-muteret ikke-småcellet lungekræft. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibromatose** (gingival fibromatosis). Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denne specifikke forudsigelse. Den hviler udelukkende på modellens score.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Ikke-småcellet lungekræft (NSCLC) med aktiverende EGFR-mutationer |
-| Forudsagt ny indikation | Gingivalt fibromatose |
-| TxGNN forudsigelsesscore | 99.89% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering. Ifølge mekanismeteksten er gefitinib etableret ved EGFR-muteret ikke-småcellet lungekræft |
+| Foreslået ny indikation | Gingival fibromatose |
+| TxGNN-prædiktionsscore | 99,89 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor kan forudsigelsen give mening?
 
-Gefitinib er en selektiv, reversibel hæmmer af epidermalt vækstfaktor-receptor-tyrosin-kinase (EGFR/HER1/ErbB1). Det blokerer autofosforylering af det intracelluløre EGFR-kinase-domæne og undertrykker således nedstrøms proliferation og overlevelses-signalerings-kaskader (RAS/MAPK og PI3K/AKT-veje). I NSCLC med aktiverende EGFR-mutationer — mest almindeligt exon 19-deletioner og L858R-punktmutationen — producerer denne blokering klinisk meningsfuld tumorregression, som påvist i det skelsættende IPASS-forsøg (NEJM, 2009). Detaljerede data om mekanisme for virkning blev ikke hentet fra DrugBank i denne bevis-pakke; ovenstående er baseret på etableret farmakologisk klassificering.
+Gefitinib hæmmer EGFR-tyrosinkinasen. Detaljerede data om lægemidlets oprindelige virkningsmekanisme foreligger ikke i det modtagne materiale. EGFR-signalering bidrager til fibroblastproliferation og aflejring af ekstracellulær matrix. En antifibrotisk effekt er derfor teoretisk tænkelig ved en tilstand med bindevævsovervækst som gingival fibromatose.
 
-Gingivalt fibromatose er en sjælden, godartelig tilstand karakteriseret ved progressiv fibrøs hyperplasi af gingivalt bindevæv. Der er i øjeblikket ingen publiceret evidens for, at EGFR-overekspression eller konstitutiv EGFR-aktivering spiller en patologisk rolle i denne sygdom. Det biologiske rationalet for behandling af gingivalt fibromatose med en EGFR-TKI er derfor fraværende.
-
-**Denne forudsigelse er meget sandsynligt en falsk positiv.** Gingivalhyperplasi (gingivalt overvækst) er en velkendt uønsket bivirkning af EGFR-TKI'er, herunder gefitinib. TxGNN-vidensgrafen har sandsynligt fanget en lægemiddel-sygdom-co-forekomst fra farmakologiovervågningsdatabaser og misfortolket denne bivirkningsassociation som et terapeutisk signal. Dette er et anerkendt artefaktmønster i neurale netværks-baserede repurposing-modeller, hvor bivirkningsknudepunkter og terapeutiske knudepunkter deler strukturel lighed i vidensgrafen.
+Forbindelsen er imidlertid kun en hypotese fra vidensgrafen. Der er ikke fundet kliniske forsøg eller litteratur, som viser, at EGFR-hæmning virker mod gingival fibromatose. Den oprindelige og den foreslåede indikation er desuden patologisk meget forskellige: en malign lungetumor over for en godartet bindevævslidelse i tandkødet.
 
 ---
 
 ## Klinisk forsøgsevidens
 
-I øjeblikket er der ingen relaterede kliniske forsøg registreret for gefitinib i gingivalt fibromatose.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-I øjeblikket er der ingen tilgængelig litteratur for gefitinib i gingivalt fibromatose.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikation.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-Gefitinib har i øjeblikket ingen nationale eller centraliserede markedsføringstilladelser registreret hos Lægemiddelstyrelsen. Sundhedspersonale, der ønsker adgang for individuelle patienter, skal ansøge om særlig tilladelse (*særlig tilladelse* / navngivet patient-program).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| MA 28106011717 | Gefitinib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
 
-> **Bemærkning for kontekst:** Gefitinib (Iressa, AstraZeneca) har EU-godkendelse gennem centraliseret procedure for EGFR-muteret NSCLC i andre EU/EØS-medlemsstater. Dens fravær fra det danske marked afspejler ikke en sikkerhedstilbagetrækning, men er en kommerciel beslutning. Adgang via særlig tilladelse er mulig, hvis der er klinisk behov.
+Administrationsvej: oral.
 
 ---
 
 ## Cytotoksicitet
 
-| Emne | Indhold |
-|------|---------|
-| Cytotoksicitetsklassificering | Målrettet terapi — første generations selektiv EGFR-tyrosin-kinase-hæmmer (ikke et konventionelt cytotoksisk middel) |
-| Myelo-suppressionsrisiko | Lav (myelo-suppression er usædvanlig; ikke en karakteristisk toksicitet af EGFR-TKI'er) |
-| Emetogenicitetsklassificering | Lav |
-| Overvågningsparametre | Leverfunktion (ALT, AST, bilirubin — risiko for hepatotoksicitet); lungefunktion (interstitiel lungesygdom / pneumonitis — sjælden men potentielt dødelig); hud- og neglstoksicitet (akneiformt udslæt, paronychi); nyrefunktion og elektrolytter |
-| Sikkerhedsforholdsregler ved håndtering | Standard forholdsregler for oral antineoplastisk behandling gælder; følg lokale institutionelle retningslinjer for håndtering af cytotoksiske stoffer |
+| Punkt | Indhold |
+|------|------|
+| Klassifikation | Målrettet behandling (EGFR-tyrosinkinasehæmmer) |
+| Knoglemarvssuppression | Se produktresuméet (SmPC), afsnit om advarsler og forsigtighedsregler |
+| Emetogent potentiale | Se produktresuméet (SmPC) |
+| Monitoreringsparametre | Se produktresuméet (SmPC) |
+| Håndtering og beskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation. Fuldstændige danske/EMA-advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i denne bevis-pakke.
+Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
-**Rationalet:**
-TxGNN-forudsigelsens toprangering — Gingivalt fibromatose (score 99.89%) — vurderes som **et farmakologiovervågnings-drevet falsk-positivt signal**. Gingivalhyperplasi er en kendt uønsket bivirkning af EGFR-TKI'er; modellen har sandsynligt fortolket denne lægemiddel-sygdom-co-forekomst som et terapeutisk signal. Ingen mekanistisk rationalet, ingen kliniske forsøg og ingen understøttende litteratur eksisterer for denne indikation. Gefitinib er heller ikke markedsført i Danmark (0 tilladelser), hvilket udgør en yderligere regulatorisk barriere for enhver klinisk brug.
+**Begrundelse:**
+Forudsigelsen har en meget høj modelscore (99,89 %), men evidensniveauet er L5. Der findes hverken kliniske forsøg eller litteratur, og der er ingen etableret EGFR-drevet patologi ved gingival fibromatose. En høj score alene er ikke tilstrækkelig grundlag for at gå videre.
 
-**For at fortsætte med yderligere evaluering kræves følgende:**
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk dokumentation for, at EGFR-hæmning påvirker fibroblaster i tandkødet
+- Gennemgang af det danske produktresumé (SmPC) for advarsler og kontraindikationer samt registreret godkendt indikation
+- Detaljerede data om virkningsmekanisme (MOA)
+- Vurdering af risk/benefit for en godartet tilstand, da gefitinib er et kræftlægemiddel med betydelige bivirkninger
 
-- **Diskvalificering eller bekræftelse af dette signal:** En målrettet litteraturgennemgang af EGFR-signalerings biologi i gingivalt fibromatose bør gennemføres før eventuelle yderligere udviklingsstrin; den nuværende forventning er formel diskvalificering.
-- **Lukning af MOA-datakløft:** Hent fuldstændige data om mekanisme for virkning og uønsket effekt fra DrugBank (DB00317) til at understøtte fremtidige evalueringer.
-- **Lukning af sikkerhedsdatakløft:** Download og parse SmPC fra EMA's produktside for at komplettere kontraindikations-, advarsels- og lægemiddelinteraktionsprofiler.
-- **Overvej det signal af højere kvalitet på rang 9:** **Lungerodscarcinomer** (score 99.86%, L4 evidens, 1 kasuistik om en gefitinib super-responder) repræsenterer en mekanistisk sammenhængende repurposing-kandidat — EGFR-mutationer er udbredt i central-type lungekræft, og gefitinibs efficacy i NSCLC er understøttet af fase 3 RCT-evidens (IPASS). Dette bør være eskaleret til en formel **Forskningsspørgsmål**-fase-vurdering.
-- **Regulatorisk strategi:** Hvis klinisk undersøgelse af gefitinib for enhver dansk-relevant indikation overvejes, påbegyn en dialog om navngivet patient-brug / humanitær brug med Lægemiddelstyrelsen, eller vurder berettigelse under EMA's eksisterende centraliseret godkendelse.
-
+**Bemærkning om øvrige forudsigelser i datasættet:** Blandt de øvrige forudsigelser har kun **lung hilum carcinoma** (hilært lungekarcinom) noget evidensgrundlag, nemlig ét case report (PMID [22688581](https://pubmed.ncbi.nlm.nih.gov/22688581/), 2012, *General Thoracic and Cardiovascular Surgery*) om en patient med EGFR-muteret lungeadenokarcinom, der responderede på gefitinib. Det er vurderet som L4 og "forskningsspørgsmål". Det ligner dog snarere en delmængde af den allerede godkendte lungekræftindikation end ægte lægemiddelomplacering. De øvrige forudsigelser (fibrom i lunge, hamartom i lunge og inklusionslegememyopati med tidlig Pagets sygdom og/eller frontotemporal demens) har ingen understøttende evidens. Dette er kun forskningsmæssig information og ikke medicinsk rådgivning. Alle kandidater kræver klinisk validering.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Asfotase Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 46
+nav_order: 47
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Asfotase Alfa: Fra Hypofosfatasi til Mitokondriell Oxidativ Fosforyleringsforstyrrelser
+# Asfotase alfa: Fra hypofosfatasi til mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-anomalier
 
-## Resumé på en linje
+## Resumé i en sætning
 
-Asfotase alfa (Strensiq) er en rekombinant human væv-uspecifik alkalisk fosfatase (TNSALP) enzymerstattningsterapi, godkendt til behandling af hypofosfatasi (HPP) — en sjælden nedarvet metabolisk knoglesygdom forårsaget af utilstrækkelig TNSALP-aktivitet.
-TxGNN-modellen forudsiger, at det kan være effektivt til **mitokondriell oxidativ fosforyleringsforstyrrelser på grund af kerneDNA-anomalier** med en forudsigelsesscore på **99.95%**; dog **ingen kliniske forsøg eller publiceret litteratur** understøtter i øjeblikket denne omformålsretning.
-Denne forudsigelse anses for at være en videngraf-topologisk slutning alene, uden mekanistisk validering på nuværende tidspunkt.
-
----
-
-## Hurtig oversigt
-
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Hypofosfatasi (HPP) — nedarvet TNSALP-enzymmangel, der forårsager nedsat knogleminalisering |
-| Forudsagt ny indikation | Mitokondriell oxidativ fosforyleringsforstyrrelser på grund af kerneDNA-anomalier |
-| TxGNN-forudsigelsesscore | 99.95% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+Asfotase alfa er en rekombinant enzymerstatningsterapi (tissue-nonspecific alkaline phosphatase, TNAP, som Fc-fusionsprotein), der oprindeligt anvendes ved hypofosfatasi.
+TxGNN-modellen forudsiger, at det kan have effekt ved **mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-anomalier**.
+Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-I øjeblikket er detaljerede virkningsmekanismedata ikke tilgængelige fra Evidence Pack. Baseret på kontekstuel information indlejret i forudsigelsesrationalet er asfotase alfa et rekombinant fusionsprotein, der erstatter utilstrækkelig TNSALP-aktivitet og hydrolyser dets naturlige substrater: uorganisk pyrofosfat (PPi), pyridoxal-5'-fosfat (PLP) og fosfoetanolamin (PEA). Ved at reducere PPi-akkumulering — som virker som en potent hemmer af mineralisering — genskaber lægemidlet normal ben- og tandformation hos HPP-patienter.
-
-Det mekanistiske grundlag for en forbindelse til mitokondriell oxidativ fosforyleringsforstyrrelser er indirekte i bedste fald. Fosfatmetabolisme forbindes bredt til bioenergetik, da ATP-syntese i mitokondrier fundamentalt er en fosforyleringproces. Det er tænkeligt, at TxGNN-vidensgrafen detekterede en topologisk forbindelse mellem „fosfatmetabolisme"- og „energimetabolisme"-knudepunkter, hvilket genererede en høj forudsigelsesscore gennem denne vej. Imidlertid er de kerneDNA-mutationer, der forårsager primær oxidativ fosforyleringsforstyrrelser (f.eks. defekter i elektrontransportkæde Complex I–V-underenheder) mekanistisk forskellige fra TNSALP-substratakkumulering. Substraterne for asfotase alfa (PPi, PEA, PLP) har ingen etableret direkte interaktion med mitokondrieller respiratoriske kæde-komplekser.
-
-Sammenfattet, mens TxGNN-scoren er påfaldende høj (99.95%), er den aktuelle ekspertbedømmelse, at denne forudsigelse afspejler en videngraf-nærhedsartefakt snarere end en biologisk handlebar mekanistisk forbindelse. Ingen understøttende prekliniske data, dyremodeller eller kliniske observationer er blevet identificeret til at forbinde disse to sygdomsområder.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret for asfotase alfa i mitokondriell oxidativ fosforyleringsforstyrrelser på grund af kerneDNA-anomalier.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Hypofosfatasi (fremgår af enzymets virkningsbeskrivelse; indikationsteksten mangler i de danske registreringsdata) |
+| Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-anomalier |
+| TxGNN-forudsigelsesscore | 99,95 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket ingen relateret litteratur tilgængelig for asfotase alfa i mitokondriell oxidativ fosforyleringsforstyrrelser på grund af kerneDNA-anomalier.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i kilden. Ud fra kendt information er asfotase alfa et rekombinant TNAP-enzym, der nedbryder uorganisk pyrofosfat, pyridoxal-5'-phosphat og phosphoethanolamin. Denne virkning understøtter knoglemineralisering ved hypofosfatasi.
+
+Mitokondrielle OXPHOS-defekter forårsaget af nukleære DNA-anomalier svækker luftvejskædens funktion i mitokondrierne. Det er en helt anden patofysiologi, som enzymet ikke adresserer. Der er derfor ingen etableret biologisk forbindelse mellem den oprindelige og den forudsagte indikation.
+
+Den meget høje score (0,9995) afspejler sandsynligvis nærhed i vidensgrafen (knowledge graph) snarere end en reel biologisk begrundelse. Da MOA-data mangler, kan sammenhængen ikke verificeres.
+
+**Øvrige forudsigelser i evidenspakken** (alle L5, alle Hold, uden forsøg eller litteratur):
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Steel syndrom | 99,91 % | Kun spekulativ og indirekte. Der er tale om en COL27A1-relateret skeletdysplasi med anden genetik og patofysiologi. |
+| Eksokrin pancreasinsufficiens | 99,89 % | Ingen plausibel sammenhæng. Tilstanden kræver fordøjelsesenzymer, mens asfotase alfa er et systemisk, knoglemålrettet enzym. |
+| Scheie syndrom | 99,85 % | Ingen direkte sammenhæng. Sygdommen skyldes iduronidasemangel og behandles med et andet enzym. |
+| Hurler syndrom | 99,75 % | Ingen direkte sammenhæng. Substraterne er forskellige, og forbindelsen er begrænset til klassen enzymerstatning. |
+
+Flere af disse forudsigelser optræder to gange i datagrundlaget med identiske værdier. De er her kun anført én gang.
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk evidens
 
-Se venligst det godkendte Sammenfattet Produktkarakteristika (SmPC) for sikkerhedsoplysninger.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Beslutning: Afvent**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28105481714 | Strensiq | Injektionsvæske, opløsning | Alexion Europe |
+
+Indikationsteksten er ikke angivet i de tilgængelige registreringsdata for Lægemiddelstyrelsen.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der foreligger ingen sikkerhedsdata i evidenspakken (advarsler, kontraindikationer). Der er heller ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle fem forudsagte omformålsmål for asfotase alfa er klassificeret som L5 (kun modelforudsigelse), hvilket betyder, at der ikke er nogen kliniske forsøg, observationsstudier eller fagfællegennemgået litteratur, der understøtter nogen af disse nye indikationer. Desuden identificerer den mekanistiske analyse for den højest rangerede indikation (mitokondriell oxidativ fosforyleringsforstyrrelser), at den høje TxGNN-score sandsynligvis stammer fra en videngraf-topologi-forbindelse — specifikt den brede forbindelse mellem fosfatmetabolisme og energimetabolisme — snarere end en direkte farmakologisk forbindelse. Asfotase alfas kendte mekanisme (TNSALP-medieret PPi-hydrolyse for at genskabe knogleminalisering) har ingen forbindelse til den primære patofysiologi af kerneDNA-associerede respiratoriske kæde-defekter.
+Forudsigelsen bygger alene på modellen (evidensniveau L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk forbindelse mellem TNAP-enzymerstatning og mitokondrielle OXPHOS-defekter. Den høje score afspejler mest sandsynligt nærhed i vidensgrafen.
 
-**For at komme videre er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet for Strensiq hos Lægemiddelstyrelsen
+- Data om virkningsmekanisme (MOA) fra DrugBank, så den mekanistiske sammenhæng kan vurderes
+- Den godkendte indikationstekst for den danske markedsføringstilladelse
+- Prækliniske eller mekanistiske studier, der kan begrunde en biologisk sammenhæng, før der overvejes kliniske forsøg
+- En vurdering af administrationsvej og lægemiddelform i forhold til den forudsagte indikation
 
-- **Virkningsmekanisme-validering**: Hent fuldstændige virkningsmekanismedata fra DrugBank (DB09105) for at bekræfte eller udelukke eventuelle sekundære vej-interaktioner relevante for mitokondriell funktion.
-- **Præklinikal signalsøgning**: Foretag en målrettet litteraturgennemgang af TNSALP/ALP-aktivitet i mitokondriell sygdomsmodeller, herunder eventuelle rapporter om sekundære mineraliseringsdefekter hos patienter med mitokondriell forstyrrelser.
-- **Dansk regulatorisk status-præcisering**: Asfotase alfa (Strensiq) har EMA-centraliseret markedsføringsgodkendelse for HPP i Europa; bekræft, om en dansk markedsføringsgodkendelse er udløbet eller aldrig blev ansøgt om, og opdater det regulatoriske register derefter.
-- **Sikkerhedsdata-indhentning**: Download og analyse det aktuelle Sammenfattet Produktkarakteristika (tilgængelig via EMA) for at indsamle vigtige advarsler, kontraindikationer og eventuelle relevante lægemiddelinteraktionsdata, før der iværksættes yderligere evalueringsstadier.
-- **KG-artefakt-gennemgang**: Vurder, om dubletterede rangindgange (rang 1&2, 3&4, 5&6, 7&8, 9&10 deler alle identiske sygdomsnavne og scores) afspejler et datapipeline-problem, der kan have oppustet kandidatlisten — dette bør løses, før man fortolker omfanget af TxGNN-forudsigelser.
-
-> ⚠️ **Ansvarsfraskrivelse**: Denne rapport er kun til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddelgenbrugskandidater kræver klinisk validering før anvendelse. Alle forudsigelser er genereret af TxGNN-beregningsmodellen og skal fortolkes i sammenhængen med tilgængelig mekanistisk og klinisk evidens.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsagte kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

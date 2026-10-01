@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Kun modelforudsigelse (L5)
-nav_order: 261
+nav_order: 262
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Letermovir: Fra CMV-infektionsprofylakse til vulvovaginalis candidiasis
+# Letermovir: Fra CMV-profylakse til vulvovaginal candidiasis
 
-## Sammenfattelse i en sætning
+## Resumé i én sætning
 
-Letermovir er en CMV-terminasehæmmer (cytomegalovirus), der bruges til at forebygge CMV-reaktivering hos patienter med allogen hæmatopoetisk stamcelletransplantation (HSCT). TxGNN-modellen forudsiger, at det kan være effektivt mod **vulvovaginalis candidiasis**, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og lægemidlets egen virkningsmekanisme har ingen kendt antimykotisk aktivitet.
+Letermovir er en antiviral hæmmer af cytomegalovirus (CMV), der anvendes til forebyggelse af CMV-reaktivering og -infektion hos transplanterede patienter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **vulvovaginal candidiasis**, men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse. Forudsigelsen er rent modelbaseret, og mekanismen er biologisk usandsynlig.
 
-## Hurtig oversigt
+---
+
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | CMV-infektionsprofylakse hos transplantationsmodtagere (udledt fra kildebevis i denne pakke; ikke formelt registreret — se Datakløfter nedenfor) |
-| Forudsagt ny indikation | Vulvovaginalis candidiasis |
-| TxGNN-forudsigelsesscore | 99.88% |
-| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markeringsgodkendelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Forebyggelse af CMV-reaktivering og -infektion hos modtagere af hæmatopoietiske stamcelletransplantationer (fremgår af forsøgsbeskrivelser i evidensmaterialet; indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Vulvovaginal candidiasis |
+| TxGNN-forudsigelsesscore | 99,88 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede data om virkningsmekanisme for letermovir er ikke tilgængelige i det formelle lægemiddelregister (`original_moa: [Datakløft]`). Kildebevis inden for denne pakke (beskrivelser af kliniske forsøg) indikerer imidlertid, at letermovir virker ved at hæmme CMV DNA-terminasekomplekset (pUL56/pUL89/pUL51), en mekanisme, der er specifik for humant betaherpesvirus (CMV) replikation. Det bruges klinisk til at forebygge CMV-reaktivering efter allogen stamcelletransplantation.
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der findes ingen kendt farmakologisk vej, der forbinder CMV-terminasehæmning med antimykotisk aktivitet — letermovir virker ikke på ergosterolsyntese, svampcellemembranen β-glukan eller svampenes nukleinsyrestofskifte, som er standardmålene for antimykotiske lægemidler. Den forudsagte forbindelse til vulvovaginalis candidiasis (forårsaget af *Candida*-arter) har derfor ingen troværdig mekanistisk basis.
+Letermovir hæmmer CMV's DNA-terminasekompleks (pUL56/pUL51/pUL89), som virussen bruger til at pakke og skære sit DNA. Dette mål findes ikke i *Candida*-arter, som forårsager vulvovaginal candidiasis. Der er derfor ingen kendt mekanistisk forbindelse mellem letermovirs virkning og svampeinfektioner. Oplysninger om lægemidlets oprindelige virkningsmekanisme er i øvrigt ikke tilgængelige i den databasepost, der ligger til grund for rapporten.
 
-TxGNNs høje forudsigelsesscore afspejler mest sandsynligt et **vidensgrafs sammenfaldende artefakt**: Letermovir er tæt forbundet i grafen med "post-transplantations-infektionsprofylakse"-koncepter, som også forbinder sig til svampeinfektionsknuder hos immunocompromitterede patienter, uden at repræsentere et sandt farmakologisk forhold. Dette mønster optræder også på tværs af flere andre toprangerede TxGNN-forudsigelser for dette lægemiddel i samme bevisundersøgelse (f.eks. *svampeinfektion*, *tinea nigra*), og to lavere-rangerede forudsigelser (*malign katarralsk feber*, *smitsom bovine rhinotracheitis*) er veterinære sygdomme helt uden for omfanget af humane indikationer — hvilket styrker, at denne gruppe af forudsigelser sandsynligvis afspejler nærhedsforstyrrelse i grafen snarere end ægte repurposering-signal.
+Den høje score (99,88 %) afspejler sandsynligvis mønstre i TxGNN's vidensgraf, ikke en reel farmakologisk sammenhæng. Det samme gælder de øvrige forudsigelser i listen, f.eks. generel svampeinfektion, tinea nigra, malign katarr og infektiøs bovin rhinotrakeitis. Flere af disse er veterinære sygdomme uden relevans for mennesker. Forudsigelsen bør derfor ikke bruges som grundlag for klinisk anvendelse uden uafhængig biologisk eller klinisk dokumentation.
 
-## Bevis fra kliniske forsøg
+---
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+## Evidens fra kliniske forsøg
 
-*(Bemærk: 3 kliniske forsøg blev fundet under den bredere, relaterede TxGNN-forudsigelse "svampeinfektion", men alle blev vurderet som "C" — ingen undersøger letermovir til behandling af svampeinfektioner; de vedrører CMV-profylakse hos lunge-/hjertecancertransplantationsmodtagere og CMV-reaktivering hos CAR-T-patienter.)*
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for vulvovaginal candidiasis.
 
-## Bevis fra litteratur
+Til sammenligning har den bredere forudsigelse "fungal infectious disease" tre forsøg (NCT06057194, NCT06058858 og NCT05432778). De undersøger alle letermovir som CMV-profylakse hos transplanterede eller immunsupprimerede patienter og har CMV som endepunkt. De giver derfor ingen evidens for antifungal effekt.
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig for vulvovaginal candidiasis.
+
+---
 
 ## Markedsinformation for Danmark
 
-Letermovir markedsføres ikke i øjeblikket i Danmark. Ingen markeringsgodkendelser (nationale eller centraliserede/EMA) er registreret i denne bevisundersøgelse.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105938917 | Prevymis | Filmovertrukne tabletter | Ikke angivet i registreringsdata |
 
-## Sikkerhedsmæssige hensyn
+Producent: Merck Sharp & Dohme B.V.
 
-Se venligst det godkendte Sammendrag af produktkarakteristika (SmPC) for sikkerhedsinformation.
+---
 
-**Datakløft:** Detaljerede advarselsmærker, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige på tidspunktet for denne evaluering (alvorlighed: Blokering) — dette skal løses, før nogen sikkerhedsevaluering kan fortsætte.
+## Sikkerhedsovervejelser
 
-## Konklusion og næste trin
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Beslutning: Afvent**
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation har ingen understøttelse fra kliniske forsøg eller litteratur, ingen troværdig mekanistisk forbindelse til lægemidlets kendte antivirale aktivitet, og lægemidlet markedsføres ikke i øjeblikket i Danmark. Dette svarer til det laveste evidensniveau (L5 — kun modelforudsigelse).
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden understøttende forsøg eller litteratur. Letermovirs mål, CMV-terminasekomplekset, findes ikke i *Candida*, så en antifungal virkning er biologisk usandsynlig.
 
-**For at kunne fortsætte er følgende nødvendig:**
-- Bekræftet virkningsmekanisme-data for letermovir (i øjeblikket en datakløft)
-- Officielle produktetiketadvarselsmærkninger/kontraindikationer (i øjeblikket en datakløft; blokering)
-- Eventuelle prekliniske eller in vitro-beviser for antimykotisk aktivitet, såfremt de eksisterer, for at etablere biologisk plausibilitet før yderligere evaluering
-- Gensøgning, når nye kliniske forsøgs- eller litteraturbevis bliver tilgængelige for denne specifikke indikation
+**For at komme videre kræves:**
+- Præklinisk dokumentation for in vitro-aktivitet mod *Candida*-arter, som minimumskrav, før der overvejes kliniske undersøgelser
+- Hentning af produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og interaktioner
+- Oplysninger om den godkendte indikation og virkningsmekanisme fra DrugBank
+- Vurdering af, om forudsigelsen skyldes populationsoverlap i vidensgrafen (CMV-profylakse hos immunsupprimerede, hvor svampeinfektioner optræder som komplikation) frem for reel antifungal effekt
 
+*Disse resultater er udelukkende til forskningsformål og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

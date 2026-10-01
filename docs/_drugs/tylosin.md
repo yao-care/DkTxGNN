@@ -2,7 +2,7 @@
 layout: default
 title: Tylosin
 parent: Kun modelforudsigelse (L5)
-nav_order: 459
+nav_order: 461
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tylosin: Fra veterinær antibakteriel brug til Jeune-syndrom med situs inversus
+# Tylosin: Fra veterinær antibiotikabehandling til Jeunes syndrom med situs inversus
 
-## Resumé på én sætning
+## Resumé i én sætning
 
-Tylosin er et makrolidantibiotikum, der udelukkende anvendes inden for veterinærmedicin (ikke godkendt til humant brug) til behandling af bakterielle respirations- og andre infektioner hos husdyr. TxGNN-modellen forudsiger en mulig forbindelse til **Jeune-syndrom med situs inversus**, en sjælden ciliopati-relateret genetisk lidelse, men denne forudsigelse understøttes i øjeblikket af **nul kliniske forsøg og nul publikationer**, og evidenspakken selv angiver, at der ikke er kendt nogen mekanistisk forbindelse mellem de to. Denne kandidat bør behandles som uvalideret modeloutput alene.
+Tylosin er et makrolidantibiotikum til dyr, og det eneste danske produkt (Tilsing Vet.) er et veterinærlægemiddel. TxGNN-modellen forudsiger, at det kan have effekt ved **Jeunes syndrom med situs inversus**, men forudsigelsen er kun modelbaseret. Der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter den.
 
-## Hurtig oversigt
+---
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Udelukkende veterinær brug — bakterielle infektioner (f.eks. respiratorisk sygdom) hos dyr; ikke godkendt til humant brug |
-| Forudsagt ny indikation | Jeune-syndrom med situs inversus |
-| TxGNN-forudsigelsesscore | 97.67% |
+## Hurtigt overblik
+
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i datagrundlaget (godkendelsesteksten er tom). Tylosin er et veterinært makrolidantibiotikum |
+| Forudsagt ny indikation | Jeunes syndrom med situs inversus |
+| TxGNN-forudsigelsesscore | 97,67 % |
 | Evidensniveau | L5 |
-| Danske markedsstatus | Ikke markedsført |
-| Antal markedsføringsgodkendelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
+
+---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede mekanisme-for-handling-data for Tylosin er ikke tilgængelige (markeret som et datakløft med høj alvorlighed). Det, der er kendt, er, at Tylosin er et makrolidantibiotikum, der inhiberer bakteriel 50S ribosomalt proteinsyntetse, og det anvendes udelukkende i veterinær praksis — det er aldrig blevet udviklet eller godkendt til humant terapeutisk brug.
+Der er ikke fundet nogen plausibel mekanistisk forbindelse. Tylosin er et makrolidantibiotikum, der hæmmer bakteriel proteinsyntese ved at binde til det bakterielle 50S-ribosom. Detaljerede mekanismedata fra DrugBank mangler, så beskrivelsen bygger på almen viden om stofklassen.
 
-Jeune-syndrom med situs inversus er en sjælden arvelig ciliopati, der involverer thorakal dyslasi og defekter i organets lateralitet. Der er ingen kendt biologisk, farmakologisk eller mekanistisk vej, der forbinder en antibakteriel ribosomalhemmer til en strukturel/genetisk ciliopati. Evidenspakken anfører eksplicit, at denne kandidat ikke har understøttende kliniske forsøg, ingen understøttende litteratur og ingen etableret mekanistisk begrundelse — den høje TxGNN-score (97.67%) afspejler graftopologisk nærhed i vidensgrafen snarere end nogen terapeutisk signal.
+Jeunes syndrom (asfyksierende thoraxdystrofi) er en ciliopati, altså en genetisk betinget udviklingsforstyrrelse i skelet og cilier. En antibakteriel virkning på bakterieribosomer har ingen kendt kobling til ciliefunktion eller skeletudvikling.
 
-Til sammenligning havde blandt de andre kandidater, der blev frembragt for dette lægemiddel, "hjertesygdom" (L4, S1) tilknyttet litteratur — men denne litteratur beskriver **kardiotoksicitet af Tylosin-klasse-makrolider (tilmicosin, tildipirosin) i dyremodeller**, dvs. et sikkerhedssignal, ikke effektivitetsbevis. Dette bekræfter, at ingen af de aktuelle forudsigelser for Tylosin har troværdig mekanistisk eller klinisk støtte.
+Scoren på 97,67 % afspejler derfor sandsynligvis mønstre i vidensgrafen og ikke en reel terapeutisk hypotese. Den bør ikke tolkes som klinisk sandsynlighed for effekt. Flere andre forudsagte indikationer med næsten samme score (fx interventrikulært septumaneurisme, delvis deletion af den lange arm af kromosom 22 og Pierre Robins syndrom med kromosomanomali) mangler ligeledes en mekanistisk forklaring og har kun evidensniveau L5.
 
-## Klinisk forsøgsbevis
+---
 
-Ingen relaterede kliniske forsøg er i øjeblikket registreret.
+## Klinisk evidens
 
-## Litteraturbevis
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-Ingen relateret litteratur er i øjeblikket tilgængelig.
+---
 
-## Information om danske markeder
+## Litteraturevidens
 
-Tylosin har ingen markedsføringsgodkendelse i Danmark (0 registrerede produkter; markedsstatus: Ikke markedsført). Som et udelukkende veterinært antibakterium har det ingen godkendelse af humanmedicinsk produktlicense på fil.
+Der er på nuværende tidspunkt ingen relateret litteratur for den forudsagte indikation.
 
-## Sikkerhedsmæssige hensyn
+---
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Bemærk: ingen vigtige advarsler, kontraindikationer eller lægemiddelinteraktionsdata er i øjeblikket på fil for Tylosin, og der findes intet dansk produktresumé, da produktet ikke er markedsført i Danmark eller godkendt til humant brug.
+## Information om det danske marked
 
-## Konklusion og næste trin
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106951523 | Tilsing Vet. (Dopharma Research B.V.) | Injektionsvæske, opløsning | Ikke oplyst |
 
-**Beslutning: Afvent**
+Produktet er et veterinærlægemiddel og ikke godkendt til human brug.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der foreligger ingen oplysninger om advarsler, kontraindikationer eller interaktioner for tylosin i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+Litteratursøgningen for en anden forudsagt indikation (hjertesygdom) gav et indirekte sikkerhedssignal. Dyre- og præklinisk forskning, især med det beslægtede makrolid tilmicosin og i zebrafiskembryoner (PMID 30308910), viser hjertetoksicitet. Der er ingen humandata for tylosin, men signalet bør tages med i en eventuel senere sikkerhedsvurdering.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat har ingen kliniske forsøg, ingen understøttende litteratur og ingen etableret mekanistisk begrundelse, der forbinder Tylosin til Jeune-syndrom med situs inversus (evidensniveau L5, beslutningsfase S0). Tylosin er heller ikke markedsført i Danmark og er ikke godkendt til humant brug, hvilket uafhængigt forhindrer videre udvikling på dette tidspunkt.
+Forudsigelsen hviler udelukkende på en grafbaseret modelscore (evidensniveau L5), uden kliniske forsøg, litteratur eller mekanistisk forklaring. Det eneste danske produkt er desuden et veterinærlægemiddel, og der er ikke tilgængelige sikkerhedsdata fra produktresuméet (blokerende datahul).
 
-**For at gå videre er følgende påkrævet:**
-- TFDA/SmPC-advarsler og kontraindikationer for Tylosin (i øjeblikket et blokerende datakløft — påkrævet før nogen sikkerhedspræ-vurdering)
-- Bekræftet mekanisme-for-handling-data (i øjeblikket et datakløft med høj alvorlighed)
-- Enhver præklinisk eller mekanistisk begrundelse, der forbinder makrolidantibiotika til ciliopati/lateralitetsdefekter
-- Omvurdering mod alternative forudsagte indikationer med stærkere evidensgrundlag, mens man bemærker, at "hjertesygdom"-signalet afspejler kardiotoksicitetsrisiko snarere end effektivitet
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), så sikkerhedsscreeningen kan gennemføres
+- Hent virkningsmekanismen (MOA) fra DrugBank
+- Dokumentér en biologisk hypotese, der kobler et antibakterielt makrolid til ciliopati eller skeletudvikling
+- Vurder muligheden for præklinisk evidens, før der overvejes kliniske forsøg
+- Afklar, om en human formulering overhovedet er tilgængelig, da det eneste danske produkt er til dyr
 
+*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

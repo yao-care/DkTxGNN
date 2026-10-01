@@ -2,7 +2,7 @@
 layout: default
 title: Lebrikizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 257
+nav_order: 258
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,95 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lebrikizumab: Fra atopisk dermatitis til svær nonproliferativ diabetisk retinopati
+# Lebrikizumab: Fra atopisk dermatitis til svær non-proliferativ diabetisk retinopati
 
-## Resumé i én sætning
+## Resumé i få sætninger
 
-Lebrikizumab er et højaffinitets IL-13-målrettet monoklonalt antistof med en omfattende, veletableret klinisk og litteraturbase inden for atopisk dermatitis (29 forsøg, 20 publikationer på fil for kandidaten "dermatitis"). TxGNN-modellens toprangerede prognose er imidlertid **svær nonproliferativ diabetisk retinopati** (score **97,94 %**), en kandidat for hvilken **nul kliniske forsøg og nul publikationer** er på fil — dette er rent algoritmisk signal, ikke en litteratur- eller forsøgsstøttet hypotese.
+Lebrikizumab er et monoklonalt antistof mod IL-13. Det markedsføres i Danmark som Ebglyss, og de kliniske data i materialet vedrører moderat til svær atopisk dermatitis. TxGNN-modellen forudsiger, at det kan have effekt ved **svær non-proliferativ diabetisk retinopati**, men der er **0 kliniske forsøg** og **0 publikationer** bag denne forudsigelse. Den hviler udelukkende på modellens score.
 
 ---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Original indikation | Atopisk dermatitis *(udledt fra omfattende fase 2/3-forsøg og litteraturoverskrifter i denne dokumentsamling; ikke formelt registreret i medicin-niveau eller danske regulatoriske felter — se note nedenfor)* |
-| Prognose for ny indikation | Svær nonproliferativ diabetisk retinopati |
-| TxGNN-prognosescore | 97,94 % |
-| Evidensniveau | L5 (kun modelprognose — ingen kliniske forsøg eller litteratur identificeret) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
-
-**Note om original indikation:** Dokumentsamlingens `drug.original_indications`-felt er tomt, og der er ingen dansk markedsføringstilladelse (`taiwan_regulatory.licenses` er tomt), så dette er ikke et formelt dokumenteret faktum — det er udledt fra sygdomskonteksten af 29 registrerede forsøg og 20 publikationer forbundet med kandidaten "dermatitis" andetsteds i denne samling (se Bevis fra kliniske forsøg og litteraturbevis for denne kandidat under "Relateret etableret-brugs-bevis" nedenfor).
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske licensdata. Den dokumenterede anvendelse i evidensen er moderat til svær atopisk dermatitis |
+| Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
+| TxGNN-score | 97,9 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prognose rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket er detaljeret data om virkningsmekanisme ikke tilgængelig (`drug.original_moa` = datakløft). Baseret på litteratur forbundet med denne medicin andetsteds i denne dokumentsamling (PMID 36920778, PMID 37310643), er lebrikizumab et højaffinitets IgG4 monoklonalt antistof, der binder interleukin-13 (IL-13) og forhindrer dannelsen af IL-4Rα–IL-13Rα1 heterodimer-receptorsignaleringskomplekset, hvilket blokerer den efterfølgende Th2-drevne inflammatoriske signalering. Denne mekanisme ligger til grund for dets omfattende dokumenterede brug ved atopisk dermatitis.
+Detaljerede mekanismedata fra DrugBank er ikke tilgængelige. Ud fra publiceret litteratur om lebrikizumab binder stoffet IL-13 med høj affinitet og forhindrer dannelsen af IL-4Rα/IL-13Rα1-receptorkomplekset. IL-13 er en central type 2-inflammatorisk cytokin ved atopisk dermatitis, og det er grundlaget for den kendte effekt.
 
-For den toprangerede kandidat, **svær nonproliferativ diabetisk retinopati**, er feltet `repurposing_rationale.mechanistic_link` i denne dokumentsamling markeret "afventer" — ingen mekanistisk hypotese, der forbinder IL-13-signalering med diabetisk retinal mikrovaskulær patologi, er blevet dokumenteret eller hentet fra litteratur-/forsøgssøgninger (forespørgsels-id'er 3–5, 6–8: alle nul resultater). En anden, ikke-alvorlig form for diabetisk retinopati (rangering 5/6, score 96,84 %) viser det samme mønster, hvilket antyder, at modellen opsamler et retningsorienteret signal omkring retinal sygdom bredt, men dette har ingen ekstern validering i de kilder, der blev undersøgt.
+Forbindelsen til diabetisk retinopati er svag. Man kan spekulere i, at IL-13 spiller en rolle ved inflammation og neovaskularisering i nethinden, men der er ikke fremlagt kliniske data eller litteratur, der understøtter det. Den svære form er desuden stærkt korreleret med forudsigelsen for diabetisk retinopati generelt (score 96,8 %), så de to forudsigelser er ikke uafhængige bekræftelser. En mekanistisk begrundelse ville kræve dokumentation for, at IL-13 driver vaskulær inflammation i nethinden ved diabetes.
 
-Fordi ingen mekanistisk begrundelse, forsøg eller publikation i øjeblikket understøtter denne specifikke medicin–sygdom-parring, bør denne prognose behandles som en uvalideret hypotese, der genereres rent af TxGNN-algoritmen.
-
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede registrerede kliniske forsøg.
-
-## Litteraturbevis
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+Anvendelse i øjet rejser desuden nye spørgsmål om intravitreal administration og okulær sikkerhed. Konjunktivitis og keratitis er kendte bivirkninger af lebrikizumab.
 
 ---
 
-### Relateret etableret-brugs-bevis (for kontekst)
+## Klinisk evidens (forsøg)
 
-Ikke en del af prognosebeviser for ny indikation, men til stede i denne samling under kandidaten "dermatitis" (rangering 9/10, score 95,97 %) og direkte relevant for medicinens virkelige profil: **29 kliniske forsøg** (flere afsluttede fase 3 RCT'er, f.eks. NCT04146363, NCT04178967, NCT04250337, NCT05559359) og **20 publikationer** (f.eks. PMID 36920778 — *NEJM*, "Two Phase 3 Trials of Lebrikizumab for Moderate-to-Severe Atopic Dermatitis"; PMID 38186219 — *Allergy*, der noterer EU-godkendelse af lebrikizumab til atopisk dermatitis i 2023) dokumenterer lebrikizumabs efficacy og sikkerhed ved moderat til svær atopisk dermatitis. Dette er inkluderet kun for kontekst, da det ikke eviderer retinopati-prognosen under evaluering.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikation.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-Lebrikizumab er i øjeblikket ikke markedsført i Danmark, og ingen markedsføringstilladelser (nationale Lægemiddelstyrelsen eller centraliseret EMA) er på fil i denne dokumentsamling (`total_licenses: 0`).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106848322 | Ebglyss (Almirall S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. En struktureret søgning i lægemiddelinteraktionsdatabase (2026-03-24) returnerede ingen interaktioner på fil for lebrikizumab; dette udelukker ikke interaktioner, der endnu ikke er blevet katalogiseret.
+- **Kendte bivirkninger (klasserelaterede):** Konjunktivitis og keratitis. Det er særligt relevant ved en eventuel okulær indikation.
+- **Lægemiddelinteraktioner:** Ingen interaktioner fundet i forespørgslen.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
 ---
 
-## Konklusion og næste trin
+## Øvrige forudsigelser i materialet
 
-**Beslutning: Afvent**
+Evidensen er væsentligt stærkere for en anden forudsigelse, men den er ikke egentlig repurposing.
+
+| Forudsagt indikation | Score | Evidensniveau | Beslutning | Bemærkning |
+|------|------|------|------|------|
+| Dermatitis | 96,0 % | L1 | Proceed with Guardrails | 29 forsøg og 20 publikationer. Dækker moderat til svær atopisk dermatitis, som er den markedsførte brug |
+| Diabetisk retinopati | 96,8 % | L5 | Hold | Kun modelforudsigelse |
+| Lægemiddelinduceret osteoporose | 97,7 % | L5 | Hold | Retningen af effekten er uklar, og der er ingen evidens |
+| Primær frigivelsesforstyrrelse af blodplader | 96,5 % | L5 | Hold | Sandsynligvis et artefakt i vidensgrafen. Sjælden tilstand |
+
+For atopisk dermatitis understøttes evidensen blandt andet af de pivotale fase 3-forsøg [NCT04146363](https://clinicaltrials.gov/study/NCT04146363) (n=424) og [NCT04178967](https://clinicaltrials.gov/study/NCT04178967) (n=445) samt kombinationsforsøget med topikale kortikosteroider [NCT04250337](https://clinicaltrials.gov/study/NCT04250337) (n=228). De er publiceret i bl.a. [NEJM 2023](https://pubmed.ncbi.nlm.nih.gov/36920778/). Evidensen gælder kun moderat til svær atopisk dermatitis og ikke andre dermatitisformer som kontakt- eller seboroisk dermatitis.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Toprangeret prognose (svær nonproliferativ diabetisk retinopati, 97,94 %) har ingen understøttende kliniske forsøg, litteratur eller dokumenteret mekanistisk begrundelse — det opfylder kun L5 (kun modelprognose). Kombineret med medicinens ikke-markedsført status i Danmark og manglende MOA/sikkerhedsdata er der i øjeblikket intet grundlag for at fremme denne kandidat ud over hypotetisk stadium.
+Forudsigelsen for svær non-proliferativ diabetisk retinopati hviler kun på modellens score. Der er ingen forsøg, ingen litteratur og ingen verificeret mekanistisk sammenhæng, og okulær sikkerhed er en særskilt bekymring.
 
-**For at fortsætte er følgende nødvendigt:**
-- Virkningsmekanisme-data (DrugBank API-forespørgsel) for at vurdere biologisk plausibilitet af IL-13-signalering i diabetisk retinal mikrovaskulær sygdom (datakløft DG002, høj alvorlighed)
-- TFDA/SmPC advarsler og kontraindikationer, i øjeblikket en blokerende kløft for enhver S1-sikkerhedsscreening (datakløft DG001, blokering)
-- Målrettet litteratur-/præklinisk søgning specifikt på IL-13 og retinal vaskulopati, ud over de sygdomsmatchede forespørgsler, der allerede blev kørt (som returnerede nul resultater)
-- En dansk regulatorisk vejledning, da produktet i øjeblikket ikke er markedsført lokalt
-- Løbende overvågning af "diabetisk retinopati" og "svær nonproliferativ diabetisk retinopati" TxGNN-signal (begge flagget uafhængigt) for eventuelle nye forsøgsregistreringer
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk dokumentation for, at IL-13 driver retinal inflammation eller neovaskularisering ved diabetes
+- Litteratursøgning og forsøgsregistersøgning, der er målrettet retinopati
+- Vurdering af administrationsvej og okulær sikkerhed
+- Indhentning af produktresumé fra Lægemiddelstyrelsen (advarsler og kontraindikationer er ikke tilgængelige i materialet)
+- Supplering af manglende data om oprindelig indikation og virkningsmekanisme
 
+*Dette er en forskningsbaseret vurdering og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

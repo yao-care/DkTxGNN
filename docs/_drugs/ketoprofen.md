@@ -2,7 +2,7 @@
 layout: default
 title: Ketoprofen
 parent: Kun modelforudsigelse (L5)
-nav_order: 252
+nav_order: 253
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,95 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ketoprofen: Fra smerte og betændelse til Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ketoprofen: Fra betændelses- og smertelindring (NSAID) til akromesomelisk dysplasi, Hunter-Thompson-type
 
-## Sammenfattelse i én sætning
+## Resumé i få linjer
 
-Ketoprofen er en ikke-selektiv COX-1/COX-2-hæmmer, der bruges til smerte, betændelse og feber. TxGNN-modellen forudsiger, at det kan være effektivt til Acromesomelic Dysplasia, Hunter-Thompson Type, en sjælden skelettal udviklingsforstyrelse, men denne forudsigelse understøttes i øjeblikket af ingen kliniske forsøg og ingen offentliggjort litteratur, og modellens egen begrundelse markerer det mekanistiske forbindelsespunkt som biologisk usandsynligt.
+Ketoprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som hæmmer COX-enzymer og normalt bruges mod smerter og betændelse. TxGNN-modellen forudsiger, at det kan have effekt mod **akromesomelisk dysplasi, Hunter-Thompson-type**, en sjælden arvelig skeletsygdom. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modellen.
 
 ---
 
-## Kort oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke tilgængeligt — Ketoprofen har ingen markedsføringstilladelse i Danmark, så der findes ingen dansk godkendt indikationstekst i denne Evidenspakke |
-| Forudsagt ny indikation | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN-forudsigelsesscore | 99.98% |
-| Bevisniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata |
+| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
+| TxGNN-forudsigelsesscore | 99,98 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data for virkningsmekanisme for denne kandidat er ikke tilgængelige i Evidenspakken (markeret som en datalacune). Baseret på de mekanistiske noter, der ledsager forudsigelsen, er Ketoprofen en ikke-selektiv COX-1/COX-2-hæmmer med anti-inflammatorisk, analgetisk og antifebrilt virkning — en veletableret NSAID-farmakologi.
+Ketoprofen er et NSAID, der hæmmer COX-enzymerne. Der foreligger i øjeblikket ingen detaljerede mekanismedata fra DrugBank for dette lægemiddel.
 
-Imidlertid er den forudsagte indikation, Acromesomelic Dysplasia, Hunter-Thompson Type, en sjælden genetisk skelettal dyslasi forårsaget af *GDF5*-mutationer, med en patofysiologi, der er centreret omkring knogle-/brusk-udviklingssignalering snarere end betændelse. Evidenspakkens egen omdestillingsrationel angiver eksplicit, at der **ikke er en kendt patologisk forbindelse** mellem COX/prostaglandin-signalvejen og denne forstyrrelse, og at den høje TxGNN-score højst sandsynligt afspejler lighed baseret på graf-indlejring snarere end en biologisk funderet mekanisme.
+Akromesomelisk dysplasi, Hunter-Thompson-type er en sjælden genetisk skeletdysplasi, der er forbundet med varianter i CDMP1/GDF5. Sygdommen skyldes en forstyrrelse i skeletets udvikling og ikke en betændelsestilstand. Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem COX-hæmning og sygdommens patologi.
 
-Dette mønster gentager sig blandt de andre højt-rangerede kandidater i denne pakke (brachyolmia-amelogenesis imperfecta-syndrom, myosklerose, brachyolmia og colobomatøs mikroftalmi-rhizomelic dyslasi-syndrom) — alle er sjældne medfødte/udviklings- eller fibrotiske forstyrrelser, for hvilke den medfølgende rationel angiver, at den mekanistiske forbindelse til NSAID-farmakologi er svag eller fraværende. Dette er et tilfælde, hvor modelscoren er høj, men narrativen om biologisk plausibilitet er eksplicit negativ; det bør ikke læses som en valideret omdestillingshypotese.
+Den høje score afspejler sandsynligvis strukturen i vidensgrafen, for eksempel delte nabonoder med andre skeletdysplasier, snarere end reel biologi. Forudsigelsen bør derfor betragtes som et modelfund uden biologisk eller klinisk støtte.
 
----
+### Øvrige forudsagte indikationer (alle L5, alle Hold)
 
-## Kliniske forsøgsbevis
+De ti poster i inputtet var dubletter og svarer til fem unikke forudsigelser. Ingen af dem har kliniske forsøg eller litteratur.
 
-Ingen relaterede kliniske forsøg er i øjeblikket registreret.
-
----
-
-## Litteraturbevis
-
-Der er i øjeblikket ingen tilgængelig relateret litteratur.
-
----
-
-## Markedsinformation for Danmark
-
-Ketoprofen har i øjeblikket ingen markedsføringstilladelser registreret i denne Evidenspakke (0 licenser; markedsstatus: Ikke markedsført). Ingen data vedr. doseringsform på produktniveau eller indikation er tilgængelige for Danmark.
+| Sygdom | TxGNN-score | Vurdering |
+|------|------|------|
+| Akromesomelisk dysplasi, Hunter-Thompson-type | 99,98 % | Ingen plausibel mekanistisk sammenhæng |
+| Brachyolmi-amelogenesis imperfecta-syndrom | 99,98 % | Sjældent syndrom i skelet og tandemalje, sandsynligvis en grafartefakt |
+| Myosklerose | 99,98 % | Sjælden muskelsygdom. Antiinflammatorisk eller smertestillende effekt kan højst lindre symptomer, men der er ingen evidens for sygdomsmodificerende effekt |
+| Brachyolmi | 99,98 % | Sjælden skeletdysplasi, ingen identificeret mekanistisk sammenhæng |
+| Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 99,98 % | Ultrasjældent udviklingssyndrom i øje og skelet, ingen mekanistisk begrundelse |
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk evidens
 
-Se venligst det godkendte oversigt over produktkarakteristika (SmPC) for sikkerhedsinformationer. Bemærk: det underliggende datapakke markerer TFDA/regulatoriske etiketadvarsler og kontraindikationer som en **blokerende** datalacune (DG001) — dette skal løses, før eventuel foreløbig sikkerhedsvurdering (S1) kan gennemføres.
+Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Afgørelse: Afvent**
+Der er i øjeblikket ingen relateret litteratur.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104870711 | Ainil | Injektionsvæske, opløsning | Ikke angivet i data |
+
+Producenten er Industrial Veterinaria S.A. Det kan tyde på, at produktet er et veterinærlægemiddel, men det er ikke bekræftet i data og bør verificeres hos Lægemiddelstyrelsen, før produktet bruges som reference for human anvendelse.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i forespørgslen. Det er ikke det samme som, at der ingen interaktioner findes.
+
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat har intet klinisk forsøgs- eller litteraturbevis (L5, kun modelforudsigelse), ingen dansk markedsføringstilladelse, der kan forankre sikkerhed og dosering, og den mekanistiske begrundelse medfølgende forudsigelsen angiver selv, at det biologiske forbindelsespunkt til Ketoprofens COX-hemmende farmakologi er svagt eller fraværende. Der er intet grundlag for at avancere forbi S0-screeningsfasen.
+Forudsigelserne er rent modelbaserede (L5) uden kliniske forsøg eller litteratur og uden plausibel mekanistisk sammenhæng mellem COX-hæmning og de forudsagte sygdomme. Det eneste danske produkt har ingen angivet indikation og er muligvis et veterinærlægemiddel. Derfor kan sikkerhedsscreeningen heller ikke gennemføres.
 
-**For at fortsætte kræves følgende:**
-- Advarsler og kontraindikationer fra TFDA/SmPC (i øjeblikket en blokerende datalacune)
-- Bekræftet data for virkningsmekanisme (MOA) fra DrugBank eller tilsvarende kilde
-- En uafhængig, sygdomsspecifik vurdering af biologisk plausibilitet for Acromesomelic Dysplasia, Hunter-Thompson Type (givet at modellens egen begrundelse er skeptisk)
-- Eventuelle prækliniske eller kasusniveau-beviser, der forbinder NSAID-farmakologi til *GDF5*-relaterede skeletal dysplasier (skulle sådanne data fremkomme)
+**For at komme videre kræves:**
+- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Det er en blokerende mangel.
+- Verifikation af, om Ainil er et human- eller veterinærlægemiddel, og tilsvarende oplysninger om humane ketoprofenprodukter.
+- Mekanismedata (MOA) fra DrugBank.
+- Biologisk begrundelse for en kobling mellem ketoprofen og de forudsagte sygdomme, for eksempel en litteraturgennemgang af GDF5/BMP-signalering og prostaglandinveje, før der overvejes præklinisk arbejde.
+- Vurdering af administrationsvej, da kun injektionsvæske er markedsført i Danmark.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

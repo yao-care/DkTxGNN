@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Apixaban
-parent: Kun modelforudsigelse (L5)
-nav_order: 41
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 42
+evidence_level: L4
 indication_count: 10
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,97 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Apixaban: Fra Antikoagulation (Atrieflimren / VTE) til Migrænestilstand
+# Apixaban: Fra antikoagulation til migræne
 
-## Etordet Resume
+## Resumé
 
-Apixaban er en direkte oral Faktor Xa-inhibitor (DOAC) godkendt internationalt (Eliquis®) til forebyggelse af apopleksi ved ikke-klaphjerteflimren og til behandling og forebyggelse af venøs tromboembolisme (dyb venøs trombose og lungeemboli). TxGNN-modellen forudsiger, at det kan være effektivt til **Migrænestilstand** med **1 indirekte relevant klinisk forsøg** og **4 publikationer** (herunder 1 lille retrospektiv forsøg og 3 caserapporter) - selvom to caserapporter foreslår, at apixaban kan være *mindre* effektivt end warfarin i denne sammenhæng. Det samlede evidensgrundlag er svagt med flere negative kliniske signaler, og den nuværende anbefaling er **Afvente** i afventning af yderligere mekanistisk og klinisk undersøgelse.
-
----
-
-## Hurtigt Overblik
-
-| Element | Indhold |
-|---------|---------|
-| Oprindelig Indikation | Forebyggelse af apopleksi/systemisk emboli ved ikke-klaphjerteflimren; behandling og forebyggelse af dyb venøs trombose/lungeemboli; VTE-profylakse efter hofte-/knæprotesekirurgi |
-| Forudsagt Ny Indikation | Migrænestilstand |
-| TxGNN Forudsigelsesscore | 99.02% |
-| Evidensniveau | L4 (prækliniske/mekanistiske studier og caserapporter kun) |
-| Danske Markedsstatus | Ikke markedsført (0 markedsføringstilladelser registreret i dette datasæt) |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Beslutning | Afvente |
-
-> **Bemærk om dansk registrering:** Evidence Pack'et registrerer ingen aktive markedsføringstilladelser i Danmark. Imidlertid har apixaban (Eliquis®) en centraliseret EMA-godkendelse (EU/1/11/728), der gælder for alle EU/EØS-medlemsstater, herunder Danmark. Dette afspejler sandsynligvis et datakløft i det aktuelle datasæt snarere end en ægte mangel på det danske marked. Verifikation i forhold til Lægemiddelstyrelsens produktdatabase anbefales.
+Apixaban er en direkte faktor Xa-hæmmer (antikoagulans), som er markedsført i Danmark som filmovertrukne tabletter.
+TxGNN-modellen forudsiger, at stoffet kan have effekt på **migræne**, men den forudsigelse er ikke understøttet af kliniske data.
+Der findes **1 klinisk forsøg** (kun indirekte relevant) og **4 publikationer** (3 kasuistikker og 1 retrospektiv undersøgelse). To af kasuistikkerne peger i den modsatte retning: migræne med aura blev forværret på apixaban.
 
 ---
 
-## Hvorfor Er Denne Forudsigelse Rimelig?
+## Hurtigt overblik
 
-Apixaban er en selektiv, reversibel inhibitor af aktiveret Faktor X (FXa), et kritisk konvergencepunkt i både det indre og ydre koagulationskaskade. Ved at blokere FXa reducerer apixaban trombin- og fibrin-dannelse uden at inhibere trombin direkte — en vigtig sondring fra vitamin K-antagonister som warfarin.
-
-Den hypotetiserede forbindelse til migræne hviler på to mekanistiske tråde. For det første kan paradoksale mikro-embolier, der passerer gennem højre-til-venstre-shuntning ved åbent foramen ovale (PFO), udløse kortikalt spreading depression og migræneopfattelse. Antikoagulation kunne teoretisk reducere den mikroemboli-belastning og dermed dæmpe hyppigheden af opfattelse. For det andet er FXa kendt for at aktivere protease-aktiverede receptorer PAR-1 og PAR-2 på trigeminale neuroner og vaskulær endotel; inhibering af FXa kunne teoretisk dæmpe trigeminovaskulær neuroinflammation, en central mekanisme i migrænefysiologi.
-
-Imidlertid er det kliniske billede kompliceret af et meningsfuldt negativt signal: to caserapporter sammenligner direkte warfarin og apixaban hos de samme patienter, og i begge tilfælde ophævede warfarin migræne med opfattelse, mens apixaban ikke gjorde det. Dette foreslår, at det relevante mål kan være trombin snarere end FXa — en vej, som warfarin undertrykker bredt, men apixaban ikke. Dette svækker væsentligt den mekanistiske begrundelse specifikt for apixaban, selvom bredere antikoagulation kan have migrænerelaterede fordele.
-
----
-
-## Klinisk Forsøgsevidans
-
-| Forsøgsnummer | Fase | Status | Antal Indskrevne | Vigtige Resultater |
-|---------------|------|--------|-----------------|-------------------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Afsluttet | 664 | CLOSE-forsøg: Sammenlignede PFO-lukning vs. oral antikoagulation vs. antiplatelet-terapi til sekundær apopleksiprofylakse. Primært endepunkt var apopleksirecidiv, **ikke migræne**. Antikoagulantia inkluderet som behandlingsarm, men apixaban blev ikke specifikt evalueret; migræne var ikke et primært eller sekundært endepunkt. Dette forsøg giver kun indirekte, klassenniveau-baggrundsevidans (Relevansgrad C). |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Migræne (migraine disorder) |
+| TxGNN-forudsigelsesscore | 99,02 % |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturevidans
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-| PMID | År | Type | Journal | Vigtige Resultater |
-|------|-----|------|---------|-------------------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Lille Forsøg / Pilotstudie | *Lupus* | Retrospektiv undersøgelse af 75 patienter med refraktær migræne og antifosfolipidarntistoffer (aPL): evaluerede symptomatisk respons på antitrombotisk terapi. Patienter med aPL og refraktær migræne kan reagere på antikoagulation, men apixaban blev ikke specifikt isoleret; klasseeeffekt af antitrombotisk blev evalueret. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Caserapport | *The Neurologist* | Migræne med opfattelse **forværredes** efter initiering af apixaban. Omfatter en litteraturgennemgang, der bemærker, at virkningen af DOAC'er på migræne er uklart og evidensen er sparsom og modstridende — et direkte **negativt signal** for apixaban. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Caserapport | *Headache* | 55-årig kvinde havde fuldstændig remission af migræne med opfattelse i 12 år på warfarin; symptomer vendte tilbage inden for 3 uger efter skifte til apixaban, og forsvandt igen inden for dage efter genoptag af warfarin. Foreslår kraftigt, at trombin (ikke FXa) er det relevante antikoagulant-mål — et direkte **negativt signal** specifikt for apixaban. |
-| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Caserapport | *Headache* | Vestibulær migræne forsvandt på warfarin og topiramat. Giver indirekte klassenniveau-evidans for antikoagulation ved migræne, men evaluerer ikke apixaban. |
+Der foreligger ikke detaljerede data om apixabans virkningsmekanisme i dette datagrundlag. Apixaban er en direkte faktor Xa-hæmmer uden en kendt antimigræne-mekanisme.
 
----
+Den eneste tænkelige forbindelse til migræne går via to forhold hos en delmængde af patienter med migræne med aura: åbentstående foramen ovale (PFO) med paradoksal emboli, og trombose relateret til antifosfolipidantistoffer. Hvis disse mekanismer spiller en rolle, kunne antikoagulation i teorien påvirke migrænen.
 
-## Danske Markedsoplysninger
+De foreliggende kasuistikker støtter ikke hypotesen for apixaban. I den ene forværredes aura efter start på apixaban. I den anden forsvandt aura på warfarin, men ikke på apixaban. Den høje modelscore skal derfor tolkes med stor forsigtighed.
 
-Ingen markedsføringstilladelser registreres for apixaban i dette datasæt. Som bemærket ovenfor er dette sandsynligvis et datakløft; det EMA-centralt godkendte produkt Eliquis® (apixaban) markedsføres i hele EU/EØS. Sundhedspersoner i Danmark bør konsultere Lægemiddelstyrelsens produktdatabase eller EMA-produktsiden for den aktuelle SmPC og godkendte indikationer.
-
----
-
-## Sikkerhedshensyn
-
-Sikkerhedsdata (vigtige advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i denne Evidence Pack.
-
-> Henvises til den godkendte produktinformation (SmPC) for Eliquis® (apixaban) for fuldstændig sikkerhedsinformation, herunder hæmorragisk risiko, nyrerelaterede dosisændringer, interaktioner med stærke CYP3A4/P-gp-inhibitorer og induktorer, og kontraindikationer under graviditet.
+**Øvrige forudsigelser i datasættet:**
+- **Migræne, modtagelighed (genetisk label):** Dette er en genetisk risikomærkat, ikke en behandlingsbar klinisk tilstand. Størstedelen af litteraturen handler om epilepsigenetik og er irrelevant (L5).
+- **Migræne med hjernestammeaura:** Ingen apixaban-specifik mekanisme, og kasuistikkerne omhandler migræne med aura generelt (L4).
+- **Leprae:** Ingen identificeret mekanisme, og scoren ser ud til at være en artefakt i vidensgrafen (L5).
+- **Reumatoid arthritis:** Ét præklinisk dyrestudie (2020) viser antiartritiske effekter via hæmning af FXa-medieret JAK2/STAT3- og MAPK-signalering. Der er ingen humane effektdata. Blødningsrisiko ved samtidig brug af NSAID eller glukokortikoider skal adresseres i et eventuelt fremtidigt studie (L4, anbefaling: forskningsspørgsmål).
 
 ---
 
-## Konklusion og Næste Trin
+## Klinisk evidens fra forsøg
 
-**Beslutning: Afvente**
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Afsluttet | 664 | Lukning af PFO versus antikoagulation eller trombocythæmmere til forebyggelse af recidiverende apopleksi. Migræne er hverken primær tilstand eller endepunkt, og apixaban er ikke det undersøgte stof. Forsøget understøtter ikke direkte apixaban ved migræne (relevans: C). |
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektiv undersøgelse (75 patienter) | Lupus | Undersøgelse af antitrombotisk behandling ved refraktær migræne og antifosfolipidantistoffer. Der er tidligere rapporteret symptomlindring hos nogle patienter, men fænomenet er dårligt belyst. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Kasuistik | The Neurologist | Migræne med aura forværret efter start på apixaban. Litteraturen om direkte orale antikoagulantia og migræne er sparsom og modstridende. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Kasuistik | Headache | 55-årig kvinde med migræne med aura i remission i 12 år på warfarin. Symptomerne vendte tilbage inden for 3 uger efter skift til apixaban og forsvandt igen efter genoptaget warfarin. |
+| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Kasuistik | Headache | Vestibulær migræne, der bedredes på warfarin og topiramat. Apixaban indgår ikke. |
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106803222 | Apinovia (Innovis Pharma S.A.) | Filmovertrukne tabletter | – |
+
+Indikationsteksten er ikke angivet i det foreliggende datagrundlag.
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ingen registrerede data om advarsler, kontraindikationer eller interaktioner i datagrundlaget. Der blev ikke fundet interaktionsdata (DDI).
+
+Bemærk dog, at to kasuistikker beskriver forværring eller manglende effekt på migræne med aura under apixaban.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den mekanistiske hypotese, der forbinder apixaban til migræne, er spekulativ og modsiges aktivt af det bedst tilgængelige kliniske evidensgrundlag: to head-to-head casessammenligninger demonstrerer, at warfarin, men ikke apixaban, undertrykker migræne med opfattelse hos samme individ. Dette mønster antyder, at trombin-inhibering — ikke FXa-inhibering — kan være grundlaget for enhver antikoagulant-fordel ved migræne, hvilket ligger mekanistisk uden for apixabans farmakologiske område. Ingen dedikerede prospektive forsøg findes, og det eneste relevante Fase 3-forsøg (NCT00562289) evaluerede ikke apixaban eller inkluderede migræne som endepunkt.
+Den høje TxGNN-score (99,02 %) er ikke understøttet af klinisk evidens. Det eneste forsøg er kun indirekte relevant, og de apixaban-specifikke kasuistikker peger i retning af forværring eller manglende effekt snarere end gavn.
 
-**For at fortsætte ville følgende være nødvendigt:**
-- Mekanistisk præcisering: Reducerer FXa-inhibering specifikt (vs. trombin-undertrykkelse) trigeminovaskulær aktivering i validerede migrænemodeller? Prækliniske studier, der målretter denne sondring, mangler.
-- Head-to-head-sammenligningsdata: Et prospektivt studium, der sammenligner apixaban, warfarin og antiplatelet-terapi ved PFO-associeret migræne med opfattelse, er nødvendigt for at afgøre lægemiddelklasseeffekter fra molekyl-specifikke effekter.
-- Patientundergruppidentifikation: Hvis yderligere undersøgelse forfølges, er den mest plausible population PFO-positive patienter med refraktær migræne med opfattelse og dokumenterede mikro-embolier — ikke den generelle migrænepopulation.
-- Fuldt sikkerhedsprofil: Indhent den komplette SmPC for at muliggøre en formel S1-sikkerhedsvurdering, særligt vedrørende blødningsrisiko i en population, som ellers ikke ville kræve antikoagulation.
-- Danske reguleringsdata: Verificer og opdater Lægemiddelstyrelsens registreringsstatus for at løse det tilsyneladende datakløft i denne Evidence Pack.
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) og sikkerhedsoplysninger fra det danske produktresumé (Lægemiddelstyrelsen)
+- Kontrollerede studier af antikoagulation hos veldefinerede migrænesubgrupper (fx PFO eller antifosfolipidantistoffer), helst med direkte sammenligning mod warfarin
+- Vurdering af blødningsrisiko og risiko-gavn-forhold, før et eventuelt klinisk studie kan overvejes
 
+*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til repurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

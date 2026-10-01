@@ -2,15 +2,15 @@
 layout: default
 title: Lornoxicam
 parent: Moderat evidens (L3-L4)
-nav_order: 271
-evidence_level: L3
+nav_order: 272
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lornoxicam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,100 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lornoxicam: Fra NSAID-smertelindring til reumatoid artritis
+# Lornoxicam: Fra NSAID mod smerte og inflammation til reumatoid artritis
 
-## Resumé i én sætning
+## Resumé i få linjer
 
-Lornoxicam er en oxicam-klasse NSAID med COX-1/COX-2-inhibitorisk aktivitet, allerede beskrevet i litteraturen som brugt til muskuloskeletale og ledsmerte; dens oprindelige godkendte indikation(er) foreligger ikke i denne evidenspakke. TxGNN-modellen forudsiger, at det kan være effektivt til **reumatoid artritis**, med **0 kliniske forsøg** og **20 publikationer**, der i øjeblikket er forbundet med denne indikation, selvom det meste af litteraturen er præklilinkisk eller formuleringsbaseret snarere end klinisk-effektivitetsbevis.
+Lornoxicam er et NSAID af oxicam-typen og er markedsført i Danmark som filmovertrukne tabletter. Den oprindelige godkendte indikation fremgår ikke af de danske data. Litteraturen beskriver stoffet som brugt ved muskel- og ledsygdomme, herunder slidgigt og leddegigt.
+TxGNN-modellen forudsiger, at det kan være virksomt ved **reumatoid artritis** (leddegigt). Der er **ingen registrerede kliniske forsøg** for netop denne indikation, men der er **ca. 18 publikationer**, hvoraf de fleste er formuleringsstudier og oversigtsartikler.
+Reumatoid artritis ligger sandsynligvis tæt på stoffets eksisterende anvendelse. Det er derfor næppe en egentlig ny indikation, før produktresuméet er gennemgået.
+
+---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke registreret — ingen godkendt indikationstekst tilgængelig i aktuelle poster |
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN-forudsigelsesscore | 99.90% |
-| Bevisniveau | L3 |
-| Dansk markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvent |
+| TxGNN-forudsigelsesscore | 99,90 % |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse fornuftig?
+---
 
-Detaljerede data om virkningsmekanisme for lornoxicam foreligger ikke i denne evidenspakke. Baseret på den hentet litteratur (PMID 8706598, PMID 22469263), er lornoxicam en oxicam-klasse NSAID med kort halveringstid og kombineret COX-1/COX-2-inhibition, med analgetiske, antiinflammatoriske og antipyretiske egenskaber, administreret oralt eller parenteralt. Denne farmakologiske klasse er et standardtilskud i den symptomatiske behandling af inflammatorisk ledsygdom.
+## Hvorfor er forudsigelsen rimelig?
 
-Det er værd at bemærke, at et af de hentet oversigter (PMID 22469263) allerede beskriver lornoxicam som brugt "i muskuloskeletale og ledlidelser såsom artrose og reumatoid artritis." Da denne evidenspakkes `original_indications`-felt er tomt, kan det ikke bekræftes, om reumatoid artritis er en virkelig ny indikation eller en allerede etableret brug på andre markeder. Denne skelnen er væsentlig: hvis RA allerede er en mærket brug andre steder, afspejler TxGNN-signalet kendt farmakologi snarere end en ny repurposingshypotese, og dette bør verificeres, før der investeres yderligere ressourcer.
+Der er ingen detaljerede data om virkningsmekanisme (MOA) i det tilgængelige datagrundlag. Litteraturen beskriver dog lornoxicam som en COX-1/COX-2-hæmmer. Stoffet nedsætter prostaglandinmedieret inflammation og smerte, og det passer til symptomlindring ved reumatoid artritis.
 
-Mekanistisk set er forudsigelsen plausibel — COX-inhibering med mål på prostaglandinfremkaldt ledinflammation er en velkendt virkningsmekanisme ved RA — men det understøttende bevisgrundlag for denne kandidat består næsten udelukkende af formuleringsstudier/leveringsstudier (mikrosværmer-geler, transdermale plaster, nanopartikler) og præklilinkiske modeller snarere end kontrollerede kliniske forsøg hos RA-patienter.
+Lornoxicam er desuden omtalt som markedsført til smertefulde og inflammatoriske reumatiske tilstande i flere regioner. Den høje TxGNN-score afspejler sandsynligvis den velkendte relation mellem NSAID'er og reumatoid artritis i vidensgrafen. Forudsigelsen bør derfor ikke læses som et tegn på en overraskende ny effekt.
 
-## Evidens fra kliniske forsøg
+Evidensen består af:
+- et farmakologisk review
+- et dyrestudie med en nanomicellær formulering
+- en række formuleringsstudier, der især handler om lægemiddelafgivelse og kronoterapi snarere end klinisk effekt
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Det er derfor uklart, om dette er en reel repurposing-kandidat. Reguleringsstatus skal afklares først.
 
-## Litteraturbevis
+---
 
-| PMID | År | Type | Journal | Vigtige resultater |
+## Klinisk forsøgsevidens
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for reumatoid artritis.
+
+Et nærtstående forudsagt signal gælder **migræne** (forudsagt indikation "migraine disorder", score 99,87 %). Her foreligger ét forsøg:
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Gennemført | 150 | Randomiseret, dobbeltblindet, placebokontrolleret enkeltdosisstudie af intravenøs lornoxicam (8 mg eller 16 mg) mod placebo ved akut migrænehovedpine. Forsøgets titel er afkortet i datagrundlaget, så lægemidlet og populationen kan ikke bekræftes. Der er ikke leveret resultatdata. |
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | Krydsover dobbelt-blind studie | Reumatismo | Sammenlignede lornoxicam 8mg/16mg vs. diclofenac 150mg/dag hos RA-patienter til analgetisk dosisfinding |
-| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | Langtidstudie | Minerva medica | Vurderede langtidseffektivitet og sikkerhed af lornoxicam ved RA |
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Oversigt | Drugs | Omfattende farmakologioversigt; lornoxicam lige så effektivt som opioid-analgetika i korte forsøg |
-| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | Oversigt | Profiles of Drug Substances, Excipients and Related Methodology | Omfattende stoffrofil; bemærker eksisterende brug ved artrose og RA |
-| [27086708](https://pubmed.ncbi.nlm.nih.gov/27086708/) | 2016 | Klinisk studie | Pain Management | Vurderede GI-tolerabilitet af lornoxicam (COX-1/COX-2-inhibitor) ved akut og reumatisk smerte |
-| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | Litteraturoversigt | Clinical Therapeutics | Oversigt over dosis-effektforhold for NSAID'er (herunder lornoxicam) ved RA og OA |
-| [18479176](https://pubmed.ncbi.nlm.nih.gov/18479176/) | 2008 | Phase I krydsover-studie | Clinical Drug Investigation | Sammenlignede farmakokinetik af lornoxicam quick-release-tablet, standardtablet og IM-injektion |
-| [29056774](https://pubmed.ncbi.nlm.nih.gov/29056774/) | 2017 | Oversigt | Reumatologia | Diskuterede tidspunkt for glucocorticoid-kroneterapi ved RA-behandling (tilstødende emne, ikke lornoxicam-specifikt) |
-| [27042335](https://pubmed.ncbi.nlm.nih.gov/27042335/) | 2016 | Oversigt | RMD Open | Diskuterede circadiansk inflammation og glucocorticoid-kroneterapi ved RA (tilstødende emne) |
-| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | Præklilinkisk (dyremodel) | International Journal of Nanomedicine | Sammenlignede lornoxicam-belastet nanomicellær formulering vs. frit lægemiddel i eksperimentelle RA-modeller |
+| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | Dobbeltblindet crossover-studie | Reumatismo | Lornoxicam 8 og 16 mg/dag sammenlignet med diclofenac 150 mg/dag ved reumatoid artritis. Resultater fremgår ikke af det tilgængelige uddrag. |
+| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | Klinisk langtidsstudie | Minerva Medica | Vurdering af langtidssikkerhed og terapeutisk effekt af lornoxicam ved reumatoid artritis. Resultater fremgår ikke af uddraget. |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Review | Drugs | Gennemgang af lornoxicams farmakologi og terapeutiske potentiale. Kort halveringstid (3-5 timer). Foreløbige forsøg tyder på analgetisk effekt på niveau med opioider. |
+| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | Review | Profiles of Drug Substances, Excipients, and Related Methodology | Omfattende stofprofil. Lornoxicam anvendes ved muskel- og ledsygdomme, herunder slidgigt og reumatoid artritis. |
+| [27086708](https://pubmed.ncbi.nlm.nih.gov/27086708/) | 2016 | Tolerabilitetsvurdering | Pain Management | Vurdering af lornoxicams sikkerhed ved akut og reumatisk smerte med fokus på gastrointestinale bivirkninger. |
+| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | Litteraturreview | Clinical Therapeutics | Dosis-effekt-forhold for NSAID'er ved reumatoid artritis og slidgigt. Der mangler konsensus om, hvorvidt højere doser er mere effektive. Ikke specifikt om lornoxicam. |
+| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | Prækliniske (dyremodel) | International Journal of Nanomedicine | Sammenligning af nanomicellær lornoxicam og fri lornoxicam i eksperimentelle modeller for reumatoid artritis. |
+| [18479176](https://pubmed.ncbi.nlm.nih.gov/18479176/) | 2008 | Fase 1, randomiseret crossover | Clinical Drug Investigation | Biotilgængelighed af hurtigtvirkende tablet, standardtablet og intramuskulær injektion (8 mg) hos raske frivillige. |
+| [25553695](https://pubmed.ncbi.nlm.nih.gov/25553695/) | 2015 | Formuleringsstudie | Pakistan Journal of Pharmaceutical Sciences | Minitabletter i pulsincap til kronoterapeutisk behandling af reumatoid artritis. |
+| [41747163](https://pubmed.ncbi.nlm.nih.gov/41747163/) | 2026 | Formuleringsstudie | Drug Development and Industrial Pharmacy | Transethosomal gel til transdermal afgivelse af lornoxicam ved reumatoid artritis. |
 
-## Markedsinformation for Danmark
+---
 
-Lornoxicam har i øjeblikket ingen markedsføringstilladelser i Danmark (0 licenser registreret; markedsstatus: ikke markedsført).
+## Information om det danske marked
 
-## Sikkerhedshensyn
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101924697 | Lornoxicam "Takeda" (Takeda Pharma A/S) | Filmovertrukne tabletter (oral) | Indikationstekst er ikke angivet i datagrundlaget |
 
-Se venligst den godkendt produktinformation (SmPC) for sikkerhedsoplysninger. Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata for lornoxicam foreligger i øjeblikket ikke i denne evidenspakke (herunder et **blokerende**-alvorligheds datahul på SmPC-advarsler/kontraindikationer), så ingen preliminær sikkerhedsvurdering (S1) kan udføres på nuværende tidspunkt.
+---
+
+## Sikkerhedsovervejelser
+
+Datagrundlaget indeholder ingen advarsler, kontraindikationer eller interaktioner for lornoxicam. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Der er ingen afsluttede kliniske forsøg, der direkte vurderer lornoxicam ved reumatoid artritis; litteraturgrundlaget domineres af formuleringsstudier/leveringsstudier og præklilinkiske studier snarere end kontrollerede kliniske bevis, og mindst ét oversigt antyder, at RA kan være allerede en kendt brug af denne lægemiddelklasse snarere end en ny indikation.
-- Et blokerende-alvorligheds datahul på TFDA-/mærkningsadvarsler og kontraindikationer (DG001) forhindrer i øjeblikket enhver preliminær sikkerhedsvurdering, og lægemidlet er ikke markedsført i Danmark.
+- Der er ingen kliniske forsøg for reumatoid artritis, og evidensen består hovedsageligt af reviews, formuleringsstudier og ét dyrestudie (L4).
+- Det er uafklaret, om reumatoid artritis allerede er en godkendt indikation. Oplysninger om advarsler og kontraindikationer fra Lægemiddelstyrelsen mangler også, og det blokerer det næste trin i sikkerhedsvurderingen.
 
-**For at fortsætte, er følgende nødvendigt:**
-- Bekræft lornoxicams faktiske godkendte indikation(er) i andre jurisdiktioner for at bestemme, om reumatoid artritis repræsenterer ægte repurposing eller en allerede-mærket brug
-- Indhent SmPC-advarsler, kontraindikationer og lægemiddelinteraktionsdata (løser blokeringshul DG001)
-- Indhent virkningsmekanismedetaljer fra DrugBank (DG002)
-- Identificer eller bestil et afsluttet Phase 2/3 RCT, der specifikt vurderer lornoxicam hos RA-patienter
-
-**Bemærkning for anmeldere:** Blandt de øvrige forudsagte indikationer for lornoxicam i denne evidenspakke er "migræne" (score 99,87%) understøttet af ét afsluttet Phase 2, dobbelt-blind, placebo-kontrolleret forsøg (NCT00293657, n=150) — sammenlignet med stærkere kliniske bevis end toprangerede RA-kandidaten — og kan berettige en separat, dedikeret vurdering.
-
+**For at komme videre kræves:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (indikationer, advarsler, kontraindikationer).
+- Bekræft, om reumatoid artritis allerede er en godkendt indikation, så kandidaten kan vurderes som egentlig repurposing eller ej.
+- Hent data om virkningsmekanisme fra DrugBank.
+- For migrænesignalet: bekræft interventionen i NCT00293657, indhent resultater, og sammenlign med standardbehandling ved akut migræne.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

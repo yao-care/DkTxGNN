@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenprocoumon
-parent: Moderat evidens (L3-L4)
-nav_order: 350
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 351
+evidence_level: L5
 indication_count: 10
 ---
 
 # Phenprocoumon
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,94 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Phenprocoumon: Fra tromboemboliske lidelser til posteroinferior myokardieinfarkt
+# Fenprocoumon: Fra oprindelig indikation (ikke oplyst) til posteroinferior myokardieinfarkt
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-> Phenprocoumon er en vitamin K-antagonist (VKA) oral antikoagulans; der er ingen strukturerede data om dens oprindeligt godkendt indikation tilgængelig i denne evidenspakke. TxGNN-modellen forudsiger en **99.86%**-score-tilknytning til **Posteroinferior Myokardieinfarkt** — imidlertid er dette en anatomisk undertype-knude for myokardieinfarkt snarere end en distinkt klinisk enhed, og **0 kliniske forsøg** og **0 publikationer** specifikt for phenprocoumon i denne indikation er i øjeblikket registreret.
+Fenprocoumon er en vitamin K-antagonist (oral antikoagulans), som er markedsført i Danmark under navnet Marcoumar. Den danske registrering indeholder ingen indikationstekst. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **posteroinferior myokardieinfarkt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Den hviler udelukkende på modellen.
 
 ---
 
 ## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke specificeret i strukturerede data (`original_indications` er tom). Evidenspakkens begrundelse noter, at phenprocoumon er klinisk brugt som vitamin K-antagonist (VKA) oral antikoagulans, analogt med warfarin |
-| Forudsagt ny indikation | Posteroinferior Myokardieinfarkt (anatomisk MI-undertype — ikke en uafhængig klinisk enhed) |
-| TxGNN-forudsigelsesscore | 99.86% |
-| Evidensniveau | L4 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal marketing-godkendelser | 0 |
-| Anbefalet beslutning | Afwait |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i den danske registrering |
+| Forudsagt ny indikation | Posteroinferior myokardieinfarkt |
+| TxGNN-forudsigelsesscore | 99,86 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (`original_moa: [Data Gap]`). Baseret på de kontekstuelle oplysninger, der leveres i denne evidenspakkes egne begrundelsesnoter, er phenprocoumon en vitamin K-antagonist (VKA), farmakologisk sammenlignelig med warfarin, og dens etablerede kliniske rolle er langtids oral antikoagulation.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i evidenspakken. Fenprocoumon er en vitamin K-antagonist, som hæmmer syntesen af koagulationsfaktorerne II, VII, IX og X. Det mindsker dannelsen af trombin og væksten af blodpropper.
 
-Den toprangerede forudsagte indikation, "Posteroinferior Myokardieinfarkt", er eksplicit markeret i evidenspakken som en **anatomisk lokaliserings-undertype af myokardieinfarkt**, ikke en separat sygdomsenhed. Begrundelsen forklarer, at VKA-klasse mediciner har klasse-niveau (ikke phenprocoumon-specifik) historisk Phase 3 RCT-understøttelse for sekundær prævention af post-MI tromboemboliske begivenheder (f.eks. er WARIS-II, ASPECT-2 refereret som baggrundsforfatterskab, men ingen af forsøgene er inkluderet som struktureret evidens i denne pakke). Den meget høje TxGNN-score afspejler mest sandsynligt en generaliseret "antikoagulans–MI"-graf-tilknytning lært af vidensgrafen snarere end evidens specifikt for denne anatomiske undertype eller for phenprocoumon selv.
-
-Denne evidenspakke lister desuden fire andre kandidat-sygdomme ved tilsvarende høje scores: posterolateral myokardieinfarkt (99.86%), heparin-kofaktor 2-mangel (99.86%, understøttet af 1 review-niveau publikation fra 1989), septalt myokardieinfarkt (99.85%) og faktor 5-overskud med spontan trombose (99.80%, ingen understøttende poster på alt). Bemærk, at flere rækker i de underliggende data (f.eks. rang 1 og rang 3, rang 2 og rang 4) er præcise duplikater af samme sygdom/score-parring — dette bør behandles som et datakvalitetsartefakt til triageformål snarere end uafhængig bekræftelse.
+Myokardieinfarkt er ofte drevet af en trombe i et kranspulsårer. Derfor er en biologisk sammenhæng mellem antikoagulation og infarkt plausibel. Den høje score (0,9986) er dog kun en modelforudsigelse. Pakken indeholder hverken forsøg eller litteratur om netop denne infarktsubtype. Da oprindelige indikationer og virkningsmekanisme mangler, kan sammenhængen heller ikke kontrolleres mod godkendte anvendelser.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidence
-
-I øjeblikket ingen relateret litteratur tilgængelig.
-
-*(Bemærk: den relaterede kandidat "heparin-kofaktor 2-mangel" — en arvelig trombofili — er understøttet af en 1989 review-niveau publikation, [2483712](https://pubmed.ncbi.nlm.nih.gov/2483712/), som ikke er en direkte forsøg af phenprocoumon i denne MI-undertype og er præsenteret her for transparens alene, ikke som evidens for den primære forudsagte indikation ovenfor.)*
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-Phenprocoumon har i øjeblikket **ingen marketing-godkendelse i Danmark** (markedsstatus: Ikke markedsført; 0 registrerede licenser). Ingen Lægemiddelstyrelsen eller EMA-centraliseret produktrekord er tilgængelig for denne evidenspakke.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Bemærk: da phenprocoumon ikke er markedsført i Danmark, eksisterer der i øjeblikket ingen dansk SmPC — vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er alle registreret som datagab (`DG001`, markeret som **Blokerings**-alvor i denne evidenspakke, da det forhindrer indgang i S1-sikkerhedsforhåndsscreening). Konsulter en EU/anden-jurisdiktions SmPC eller DrugBank/DDI-database direkte, før klinisk brug overvejes.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
 
 ---
 
-## Konklusion og næste trin
+## Øvrige forudsagte indikationer
 
-**Beslutning: Afwait**
+Efter sammenlægning af dublerede rækker er følgende også forudsagt. Alle har samme evidensmæssige begrænsninger.
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Evidens |
+|------|------|------|------|
+| Posterolateralt myokardieinfarkt | 99,86 % | L5 | Ingen forsøg eller litteratur |
+| Heparin cofactor II-mangel | 99,86 % | L4 | Én oversigtsartikel fra 1989: [2483712](https://pubmed.ncbi.nlm.nih.gov/2483712/) (Vinazzer, *Folia Haematologica*) om antitrombotisk behandling ved risikofaktorer for tromboembolisme. Artiklen er indirekte, ikke specifik for fenprocoumon og ikke et kontrolleret forsøg. |
+| Septalt myokardieinfarkt | 99,85 % | L5 | Ingen forsøg eller litteratur |
+| Factor V-overskud med spontan trombose | 99,80 % | L5 | Ingen forsøg eller litteratur |
+
+Ved heparin cofactor II-mangel er langvarig oral antikoagulation med en vitamin K-antagonist konceptuelt sammenhængende. Det er uafklaret, om det er et ægte repurposing-signal, eller om det blot afspejler lægemidlets eksisterende brug ved tromboembolisme.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104727310 | Marcoumar (2care4 ApS) | Tabletter (oral) | Ikke oplyst |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation er en anatomisk MI-undertype snarere end en distinkt klinisk enhed, med nul direkte kliniske forsøg eller publikationer, der understøtter phenprocoumon specifikt i denne sammenhæng — den høje TxGNN-score synes at afspejle en generaliseret "antikoagulans–MI"-graf-tilknytning snarere end målrettet evidens. Kombineret med medicinens ikke-markedsførte status i Danmark og et blokerings-alvorligheds sikkerhedsdatagab, opfylder denne kandidat i øjeblikket ikke standarden for at gå videre.
+Forudsigelsen har en meget høj modelscore, men evidensniveauet er L5: ingen kliniske forsøg og ingen litteratur for den primære indikation. Sikkerhedsdata fra den danske produktinformation mangler, og det blokerer videre sikkerhedsscreening.
 
-**For at gå videre, er følgende påkrævet:**
-- TFDA/dansk SmPC advarsler og kontraindikationer (`DG001`, Blokering — påkrævet før nogen S1-sikkerhedsforhåndsscreening)
-- Bekræftet virkningsmekanisme-data fra DrugBank (`DG002`)
-- Afklaring af de duplikerede rangeringsindgange på kandidatlisten (datakvalitetskontrol)
-- Direkte klinisk forsøgs- eller litteraturevidence for phenprocoumon specifikt i post-MI tromboembolisk prævention, snarere end klasse-niveau VKA-baggrundsforfatterskab
-- Præcisering af, hvorvidt Danmark har nogen historisk eller off-label brugssti for phenprocoumon, givet dens nuværende ikke-markedsførte status
+**For at komme videre kræves følgende:**
+- Produktresumé fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Data om virkningsmekanisme (f.eks. fra DrugBank)
+- Oprindelige godkendte indikationer for Marcoumar
+- Klinisk evidens for forudsagte indikationer, især forsøg eller systematiske oversigter om vitamin K-antagonister ved myokardieinfarkt
+- Afklaring af, om heparin cofactor II-mangel er et reelt repurposing-signal eller dækkes af den eksisterende antikoagulationsindikation
 
+---
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

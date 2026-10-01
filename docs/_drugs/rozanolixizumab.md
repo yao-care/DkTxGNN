@@ -2,7 +2,7 @@
 layout: default
 title: Rozanolixizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 390
+nav_order: 392
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,86 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rozanolixizumab: Fra IgG-medieret autoimmun sygdom til bronkitis (undersøgelse)
+# Rozanolixizumab: Fra generaliseret myasthenia gravis til bronkitis
 
-## Sammenfatning i en sætning
+## Resumé i få sætninger
 
-Rozanolixizumab er et anti-FcRn monoklonalt antistof; dokumentationen for den formelt godkendte indikation er **manglende** i denne bevispapper, selvom understøttende rationale-tekst indikerer, at det blev udviklet til IgG-medierede autoimmune tilstande (f.eks. generaliseret myasthenia gravis, ITP, CIDP). TxGNN-modellens bedst rangerede forudsigelse er **Bronkitis**, men dette er en udelukkende på vidensgrafen baseret forudsigelse med **0 kliniske forsøg** og **0 publikationer**, og modellens egen mekanistiske rationale argumenterer for, at det biologiske link er svagt — muligvis endda modsatrettet til gavnlig virkning.
+Rozanolixizumab (handelsnavn Rystiggo) er et antistof, der blokerer den neonatale Fc-receptor (FcRn). Ifølge almen kendskab til produktet bruges det mod generaliseret myasthenia gravis. Denne indikation fremgår ikke af Evidence Pack og skal verificeres i produktresuméet (SmPC).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **bronkitis**. Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen hviler udelukkende på modellens score.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original indikation | Ikke dokumenteret (datamangler — ingen godkendt indikationstekst på fil) |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (almen viden: generaliseret myasthenia gravis, skal verificeres i SmPC) |
 | Forudsagt ny indikation | Bronkitis |
-| TxGNN forudsigelsesscore | 95.28% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afventende |
+| TxGNN-prædiktionsscore | 95,28 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i den strukturerede post (`original_moa`: datamangler). Baseret på det rationale for omformål, der er tilvejebragt sammen med forudsigelserne, er Rozanolixizumab et monoklonalt antistof mod neonatale Fc-receptor (FcRn), der blokerer FcRn-medieret IgG-genbrug og derved sænker de cirkulerende IgG-koncentrationer. Dets tilsigtede sygdomme er IgG-medierede autoimmune tilstande såsom generaliseret myasthenia gravis (gMG), immun trombocytopeni (ITP) og kronisk inflammatorisk demyeliniserende polyneuropati (CIDP).
+Der foreligger ingen detaljerede data om virkningsmekanisme i Evidence Pack. Rozanolixizumab er et anti-FcRn-antistof. Ved at blokere FcRn nedsætter det genbruget af IgG og sænker dermed mængden af cirkulerende IgG.
 
-For den bedst rangerede forudsagt indikation, **Bronkitis**, understøtter bevispapperets egen mekanistiske analyse **ikke** biologisk plausibilitet: bronkitis skyldes primært infektion eller luftvejsirritation, uden kendt patofysiologisk sammenhæng med FcRn/IgG-genbrugsstien. Fordi anti-FcRn-terapi sænker beskyttende IgG-niveauer, kunne det teoretisk *øge* modtageligheden for luftvejsinfektioner snarere end at behandle bronkitis — en virkning modsat terapeutisk fordel. TxGNN-scoren afspejler mest sandsynligt nærhed inden for vidensgrafen snarere end egentlig biologisk plausibilitet.
+Der er ingen oplagt terapeutisk begrundelse for at bruge et lægemiddel, der sænker IgG, mod bronkitis. Lavere IgG-niveauer vil snarere kunne øge risikoen for luftvejsinfektioner end behandle dem. Den høje modelscore (0,953) er derfor ikke understøttet af mekanistiske eller kliniske data. Forudsigelsen skal tolkes med stor forsigtighed.
 
-De øvrige kandidater i denne batch (plasmacelle-myelom, indolent plasmacelle-myelom, hemoglobinopati, mavekræft) beskrives i deres eget rationale som indirekte, uvaliderede eller mekanistisk urelaterede associationer — ingen understøttes af kliniske eller præ-kliniske data i denne pakke. Samlet set er dette blot et screenings-stadie signal, ikke en kandidat klar til yderligere evaluering.
+Datagrundlaget indeholder også andre forudsigelser med samme evidensniveau (L5) og samme anbefaling (Hold). Hver af dem optræder to gange med identiske data, og dubletterne er her behandlet som én post.
 
----
-
-## Bevis fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret
-
----
-
-## Bevis fra litteratur
-
-Der er i øjeblikket ingen tilgængelig relevant litteratur
+- **Plasmacellemyelomatose** (score 95,05 %): Hypotetisk kunne accelereret IgG-nedbrydning sænke monoklonalt paraprotein. Det ville være en symptomatisk effekt og ikke anti-myelom-aktivitet. Lavere IgG kan desuden forværre den hypogammaglobulinæmi og infektionsrisiko, der allerede er hyppig ved myelom.
+- **Indolent plasmacellemyelomatose** (score 94,73 %): Samme hypotetiske mekanisme som ovenfor og tæt beslægtet med den foregående forudsigelse, så de to er ikke uafhængige.
+- **Hæmoglobinopati** (score 94,17 %): Ingen tydelig mekanistisk sammenhæng. Kun en meget indirekte hypotese om reduceret IgG-medieret alloimmunisering eller hæmolyse, uden datastøtte.
+- **Mavekræft (gastrisk karcinom)** (score 93,59 %): Ingen plausibel mekanisme. Forudsigelsen er sandsynligvis en artefakt fra vidensgrafen.
 
 ---
 
-## Information om det danske marked
+## Evidens fra kliniske forsøg
 
-Rozanolixizumab har i øjeblikket **ingen markedsføringstilladelse** i Danmark (0 licenser på fil; markedsstatus: Ikke markedsført).
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Bemærk: TFDA/SmPC-advarsler og kontraindikationsdata kunne ikke hentes til denne evaluering (blokerende datamangler — DG001), og ingen registreringer af lægemiddel-lægemiddel-interaktioner blev fundet.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Beslutning: Afventende**
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-**Rationale:**
-- Den bedst rangerede forudsigelse (Bronkitis) har intet understøttende bevis fra kliniske forsøg eller litteratur, og modellens egen mekanistiske rationale argumenterer imod biologisk plausibilitet. Kombineret med medicinerets manglende markedstering i Danmark og en blokerende datamangler i sikkerhed og etiket-data, er der intet grundlag for at fortsætte i øjeblikket.
+---
 
-**For at fortsætte kræves følgende:**
-- TFDA/SmPC-tilsvarende advarsler, kontraindikationer og ordinationsinformation (i øjeblikket blokerende — DG001)
-- Bekræftet virkningsmekanisme og oprindelig godkendt indikation fra en primær regulatorisk eller DrugBank-kilde (DG002)
-- Uafhængig mekanistisk eller præ-klinisk validering af enhver kandidatindikation før yderligere bevisindsamling
-- Løbende overvågning for nye kliniske forsøgsregistreringer eller publikationer om Rozanolixizumab på tværs af de anførte kandidatindikationer
+## Markedsinformation for Danmark
 
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106866522 | Rystiggo (UCB Pharma S.A.) | Injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+- **Infektionsrisiko**: Infektioner er en kendt risiko ved reduktion af IgG. Det er særligt relevant ved luftvejsinfektioner som bronkitis og ved myelom, hvor immunforsvaret allerede kan være svækket.
+
+Der foreligger ingen øvrige sikkerhedsdata i datagrundlaget. Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Forudsigelsen bygger kun på en modelscore (L5), uden kliniske forsøg eller litteratur. Virkningsmekanismen (IgG-reduktion) taler snarere imod en gavnlig effekt ved bronkitis og indebærer en infektionsrisiko.
+
+**For at komme videre kræves:**
+- Hentning af advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé, så sikkerhedsscreeningen kan gennemføres
+- Data om virkningsmekanisme (MOA) fra DrugBank til mekanistisk vurdering
+- Bekræftelse af den godkendte indikation for Rystiggo i Danmark
+- Prækliniske eller kliniske data, der kan understøtte en terapeutisk sammenhæng, før en videre vurdering overhovedet er relevant
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

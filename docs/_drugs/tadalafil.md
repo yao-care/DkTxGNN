@@ -2,7 +2,7 @@
 layout: default
 title: Tadalafil
 parent: Kun modelforudsigelse (L5)
-nav_order: 413
+nav_order: 415
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tadalafil: Fra oprindelig indikation, der ikke er rapporteret, til Ambras type hypertrichosis universalis congenita
+# Tadalafil: Fra PDE5-hæmmer til Ambras-type hypertrichosis universalis congenita
 
-## Sammenfatning i en sætning
+## Opsummering i en sætning
 
-Tadalafil er en fosfodiesterase-5 (PDE5)-inhibitor; dette datasæt registrerer ikke dens oprindeligt godkendt indikation eller virkningsmekanisme. TxGNN-modellen forudsiger, at det kan være effektivt for **Ambras type hypertrichosis universalis congenita**, en sjælden medfødt hårvækstforstyrrelse, men denne forudsigelse understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**.
+Tadalafil er en PDE5-hæmmer, som er markedsført i Danmark under handelsnavnet Adcirca. TxGNN-modellen forudsiger, at det kan have effekt ved **Ambras-type hypertrichosis universalis congenita**. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse, så den er udelukkende modelbaseret.
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|----------|
-| Oprindelig indikation | Ikke tilgængelig i datasættet (ingen markedsføringstilladelser eller registrerede indikationer) |
-| Forudsagt ny indikation | Ambras type hypertrichosis universalis congenita |
-| TxGNN forudsigelsesscore | 99.98% |
-| Bevisniveau | L5 |
-| Status på Danmarks marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i det foreliggende datagrundlag |
+| Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
+| TxGNN-prædiktionsscore | 99,98 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse rimelig (eller ej)?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i dette datasæt. Tadalafil er generelt kendt som en PDE5-inhibitor (almen farmakologisk viden, ikke fra dette datasæt), der anvendes på andre markeder til tilstande såsom erektil dysfunktion, benign prostatahyperplasi og pulmonal arteriel hypertension – ingen af disse er registreret her som dens oprindelige indikation.
+Der foreligger ingen detaljerede data om lægemidlets virkningsmekanisme i datagrundlaget. Tadalafil er en PDE5-hæmmer, som øger cGMP og giver vasodilatation. Der er imidlertid ikke fundet en troværdig mekanistisk sammenhæng med den forudsagte sygdom.
 
-Der findes ingen kendt eller udledelbar mekanistisk forbindelse mellem PDE5-inhibering og Ambras type hypertrichosis, en sjælden genetisk forstyrrelse knyttet til kromosomale omarrangementer og ændret genregulering. Den forudsagte indikationsscore (99.98%) afspejler kun TxGNN-modellens interne output og er ikke bekræftet af uafhængige forsøgs- eller litteraturbevis i denne pakke.
+Ambras-type hypertrichosis universalis congenita er en sjælden medfødt genetisk lidelse. Vasodilaterende stoffer som minoxidil er kendt for at fremkalde øget hårvækst. Hvis noget, peger en vasodilaterende mekanisme derfor i modsat retning af et terapeutisk mål.
 
-Det er også værd at bemærke, at de 10 bedste forudsigelser i denne bevisepakke kollapser til kun 5 forskellige sygdomme (hver gengivet på tværs af to rangeringer), og den eneste forudsigelse med vedhæftet litteratur (rang 5, periodontal misdannelsessyndrom) understøttes af 20 generelle parodontitis-artikler, der ikke omtaler tadalafil eller PDE5-inhibitorer – hvilket indikerer, at disse er nøgleordsmatchede, ikke stofspecifikke, referencer. Samlet set mangler denne kandidat et troværdigt mekanistisk eller bevisgrundlag.
+Den høje score afspejler sandsynligvis nærhed i vidensgrafen, for eksempel delte hår- eller karrelaterede knuder, og ikke en valideret mekanisme.
 
-## Bevis fra kliniske forsøg
+Modellen forudsiger også andre indikationer med næsten samme score, som heller ikke har dokumenteret evidens:
+
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Hypertrichosis (sygdom) | 99,98 % | Ingen kliniske data. Den plausible retning er øget hårvækst, ikke behandling. |
+| Misdannelsessyndrom med tand- og/eller parodontal komponent | 99,97 % | De fundne artikler handler om generel parodontitis og nævner hverken tadalafil eller PDE5-hæmning. |
+| Syndrom med Dandy-Walker-malformation som hovedtræk | 99,97 % | En strukturel udviklingsdefekt, som en symptomatisk PDE5-hæmmer ikke forventes at kunne korrigere. |
+| Isoleret genetisk hårskaftsabnormitet | 99,96 % | PDE5/cGMP-signalering er ikke kendt for at korrigere strukturelle hårskaftsdefekter. |
+
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Bevis fra litteraturen
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
+
+Til den fjerdeplacerede forudsigelse (misdannelsessyndrom med parodontal komponent) blev der fundet artikler om generel parodontitis. Ingen af dem omtaler tadalafil, og de er vurderet som irrelevante nøgleordstræf.
 
 ## Markedsinformation for Danmark
 
-Tadalafil har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: ikke markedsført; 0 licensoptegnelser).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104351408 | Adcirca (Eli Lilly Netherland B.V.) | Filmovertrukne tabletter (oral) | Ikke angivet i datagrundlaget |
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke fundet interaktionsdata for tadalafil i den forespurgte kilde. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat understøttes udelukkende af en råt TxGNN-modelscore (L5), uden kliniske forsøg, uden stofspecifik litteratur og uden en plausibel mekanistisk forbindelse mellem PDE5-inhibering og den forudsagte sygdom. En blokerende datakløft findes også for danske/EU SmPC-advarsler og kontraindikationer, hvilket forhindrer enhver foreløbig sikkerhedsvurdering.
+Forudsigelserne er udelukkende modelbaserede (L5) uden kliniske forsøg eller relevant litteratur. Den kendte farmakologi, vasodilatation via øget cGMP, giver ingen troværdig mekanistisk forbindelse til de forudsagte sygdomme og peger for hårrelaterede sygdomme snarere i modsat retning.
 
-**For at fortsætte er følgende nødvendig:**
-- Bekræftet virkningsmekanisme (MOA) data for tadalafil
-- SmPC-baserede advarsler, kontraindikationer og lægemiddelinteraktionsdata (i øjeblikket en blokerende kløft)
-- Uafhængigt klinisk eller præ-klinisk bevis, der direkte forbinder tadalafil med Ambras type hypertrichosis (eller en mekanistisk sammenhængende alternativ indikation)
-- Præcisering af tadalafils faktiske oprindelige indikation(er), da dette ikke er registreret i det nuværende datasæt
+**For at komme videre kræves følgende:**
+- Oplysninger om advarsler og kontraindikationer fra det danske produktresumé (Lægemiddelstyrelsen). Dette mangler og blokerer sikkerhedsscreeningen.
+- Data om lægemidlets virkningsmekanisme, for eksempel fra DrugBank, til en egentlig mekanistisk analyse.
+- Den godkendte indikationstekst for Adcirca i Danmark.
+- Præklinisk eller mekanistisk evidens, der understøtter en sammenhæng mellem PDE5/cGMP-signalering og de forudsagte sygdomme, før yderligere ressourcer anvendes.
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

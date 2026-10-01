@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Inotersen
-parent: Moderat evidens (L3-L4)
-nav_order: 232
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 233
+evidence_level: L5
 indication_count: 10
 ---
 
 # Inotersen
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,92 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inotersen: Fra hereditær transthyretinmedieret amyloidose (hATTR) til akut intermitterende porfyri
+# Inotersen: Fra hereditær transthyretin-amyloidose til akut intermitterende porfyri
 
-## Oversigt i én sætning
+## Resumé i få sætninger
 
-Inotersen er et levertargeteret antisense-oligonukleotid (ASO), som er godkendt til hereditær transthyretinmedieret (hATTR) amyloidose, hvor det reducerer produktionen af amyloidogen transthyretinprotein (TTR). TxGNN forudsiger en mulig effekt ved **akut intermitterende porfyri (AIP)**, men dette signal understøttes i øjeblikket kun af **0 kliniske forsøg** og blot **1 indirekte litteraturreference** — og bevispakkens egen mekanistiske analyse markerer den biologiske forbindelse som implausibel.
+Inotersen (handelsnavn Tegsedi) er et antisense-oligonukleotid, der nedsætter produktionen af transthyretin (TTR) i leveren. Der er ikke angivet en godkendt indikation i de danske registreringsdata. Konteksten i datagrundlaget peger på TTR-relateret sygdom, som den litteratur, der er knyttet til forudsigelsen, også beskriver.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akut intermitterende porfyri (AIP)**. Der er **0 kliniske forsøg** og kun **1 publikation** (en generel oversigtsartikel), så evidensen er meget svag.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hereditær transthyretinmedieret (hATTR) amyloidose *(fra bevispakkens baggrundsoplysninger; ikke til stede i det formelle `original_indications` registreringsfeldt — se Datakløft DG002)* |
+| Oprindelig indikation | Ikke angivet i de danske registreringsdata |
 | Forudsagt ny indikation | Akut intermitterende porfyri |
-| TxGNN-forudsigelsesscore | 99.92% |
-| Bevisniveau | L4 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-forudsigelsesscore | 99,92 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede virkningsmekanismedata er ikke tilgængelige i det strukturerede register (Datakløft DG002, høj alvorlighed). Baseret på baggrundsoplysninger i bevispakken er Inotersen et antisense-oligonukleotid, som binder TTR-mRNA i leveren, sænker cirkulerende TTR-protein og reducerer derved amyloidfibrilaflejring — grundlaget for dets godkendelse ved hATTR-amyloidose.
+Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Inotersen er et antisense-oligonukleotid, der reducerer TTR-mRNA i leveren og dermed dannelsen af TTR-protein.
 
-Bevispakkens egen mekanistiske begrundelse argumenterer dog **imod** en plausibel forbindelse til akut intermitterende porfyri. AIP skyldes dysregulering af hemebiosyntesevejen (ALAS1/PBGD-HMBS-mangel), hvilket fører til ophobning af δ-ALA og porfyrinpræcursorer. En terapi, som allerede eksisterer til netop denne mekanisme — Givosiran, et RNAi-lægemiddel, som specifikt stilner hepatisk ALAS1-mRNA. Inotersens målstof (TTR) har ingen kendt molekylær vej med hemebioinsynte eller porfyrinmetabolisme.
+AIP skyldes derimod en øget aktivitet af ALAS1 i leveren og en mangel på enzymet HMBS i hæmsyntesen. Der er altså ingen kendt mekanistisk sammenhæng mellem TTR-nedregulering og AIP. Den høje score (0,999) er sandsynligvis en graf-baseret forudsigelse, der skyldes fælles naboer i vidensgrafen, fx neuropati og oligonukleotidbaserede behandlinger. Den har ikke noget klinisk grundlag.
 
-Begrundelsesteksten konkluderer, at den meget høje TxGNN-score højtformentlig afspejler **strukturel lighedsklyngedannelse i vidensgrafen** — "levertargeterede oligonukleotidterapier for sjælden arvelig metabolisk/neurologisk sygdom" — snarere end en ægte lægemiddel-target-sygdommekanistisk forbindelse. Den enkelt understøttende publikation (PMID 30847674) er en generel oversigt over terapeutiske fremskridt inden for genetiske neuromuskulære/perifere neuropati-sygdomme, som diskuterer ASO/RNAi-lægemidler brugt til hATTR-amyloidose bredt; den omhandler ikke Inotersens brug ved AIP specifikt, og klassificeres i bevispakken som indirekte, ikke-sygdomsspecifik bevis.
+Modellen har også peget på andre sygdomme, men heller ikke her er der evidens eller kendt mekanistisk sammenhæng:
 
-**Kort sagt: dette er et lavt-sikkerhedssignal, kun-model signal, som intern mekanistisk vurdering betragter som usandsynligt at afspejle ægte farmakologisk relevans.**
+| Forudsagt sygdom | Score | Bemærkning |
+|------|------|------|
+| Blindtarmsbetændelse (appendicitis) | 99,91 % | Ingen mekanistisk sammenhæng, ingen forsøg eller litteratur |
+| IgG4-relateret pachymeningitis | 99,90 % | TTR-hæmning har ingen plausibel rolle. Sikkerhedsprofilen (trombocytopeni, glomerulonefritis) er en ulempe ved immunmedierede sygdomme |
+| IgG4-relateret retroperitoneal fibrose | 99,88 % | Nyrepåvirkning kan forværre risikoen for glomerulonefritis |
+| Ikke-infektiøs meningitis | 99,86 % | TTR dannes i plexus choroideus, men inotersen virker primært på TTR i leveren |
 
 ---
 
-## Bevis fra kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret. (Søgninger i ClinicalTrials.gov og WHO ICTRP for Inotersen + Akut intermitterende porfyri gav begge 0 resultater, ifølge forespørgelseslog.)
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturbevis
+## Evidens fra litteraturen
 
-| PMID | År | Type | Journal | Vigtige fund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [30847674](https://pubmed.ncbi.nlm.nih.gov/30847674/) | 2019 | Oversigt | Neurological Sciences | Generel oversigt over terapeutiske fremskridt inden for genetiske neuromuskulære/perifere neuropati-sygdomme, herunder ASO/RNAi-lægemidler brugt til hATTR-amyloidose; **diskuterer ikke** Inotersens brug ved akut intermitterende porfyri — klassificeret i bevispakken som indirekte, ikke-sygdomsspecifik bevis. |
+| [30847674](https://pubmed.ncbi.nlm.nih.gov/30847674/) | 2019 | Oversigtsartikel | Neurological Sciences | Generel oversigt over nye behandlinger af arvelige perifere neuropatier, herunder hATTR. Artiklen undersøger ikke inotersen ved AIP, og de to nævnes sandsynligvis som separate eksempler på oligonukleotidbaseret behandling |
 
 ---
 
-## Markedsoplysninger for Danmark
+## Markedsinformation for Danmark
 
-Inotersen har i øjeblikket **ingen markedsføringstilladelse registreret** for Danmark (`market_status: Not marketed` / Ikke markedsført; `total_licenses: 0`). Ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) tilladelsesrecords var tilgængelige i denne bevispakke.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger.
-
-*Bemærk: Vigtige advarsler, kontraindikationer og data om lægemiddelinteraktioner var alle markeret som utilgængelige i denne bevispakke. Hentning af TFDA/SmPC-niveau advarsler og kontraindikationer er registreret som en **Blokerende datakløft (DG001)** — uden den kan denne kandidat ikke fortsætte til sikkerhedsforhåndsvurderingsfasen S1.*
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106032117 | Tegsedi | Injektionsvæske, opløsning i fyldt injektionssprøjte | Akcea Therapeutics Ireland Ltd |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvent**
+- **Boksede advarsler:** Ifølge vurderingen i evidenspakken har inotersen boksede advarsler om trombocytopeni og glomerulonefritis/nyretoksicitet. Det er særligt relevant, hvis lægemidlet overvejes til sygdomme med immunmedieret aktivitet eller nyrepåvirkning.
+- **Interaktioner:** Der blev ikke fundet registrerede lægemiddelinteraktioner i den forespurgte kilde.
+
+Konsulter det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner. Produktresuméet fra Lægemiddelstyrelsen er endnu ikke indhentet.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen hviler udelukkende på en TxGNN-lighedsresultat, med nul kliniske forsøg og kun én indirekte (ikke sygdomsspecifik) litteraturreference.
-- Bevispakkens egen mekanistiske vurdering betragter TTR–AIP biologisk forbindelse som implausibel, og tillægger den høje score vidensgrafsstrukturel klyngedannelse snarere end et ægte farmakologisk forhold — en valideret, mekanisme-specifik RNAi-terapi (Givosiran/ALAS1) eksisterer allerede for AIP.
-- Inotersen er i øjeblikket ikke markedsført i Danmark, og obligatoriske sikkerhedsdata (SmPC advarsler/kontraindikationer) mangler — en Blokerende datakløft (DG001), som forhindrer fremskridt ud over den nuværende S0-screeningfase.
+Forudsigelsen bygger kun på modellens score. Der er ingen kliniske forsøg, ingen mekanistisk sammenhæng mellem TTR-nedregulering og AIP og kun én generel oversigtsartikel. Lægemidlets boksede advarsler øger desuden den potentielle risiko.
 
-**For at fortsætte kræves følgende:**
-- Løs Blokering datakløft DG001: indhent TFDA/SmPC advarsler og kontraindikationer, før nogen sikkerhedsforhåndsvurdering (S1) kan påbegyndes
-- Løs Høj-alvorlighed datakløft DG002: indhent bekræftede virkningsmekanismedata fra DrugBank/producent for at vurdere mekanistisk plausibilitet korrekt
-- Uafhængig ekspertvurdering (hepatologi/porfyri-specialist) af, hvorvidt nogen indirekte TTR–heme-vejinteraktion kunne eksistere, givet at den nuværende mekanistiske vurdering argumenterer imod det
-- Løbende overvågning for nogen fremtidig præ-klinisk eller klinisk bevis specifikt for Inotersen ved porfyri, før denne kandidat genovervejes
-- Bekræftelse af dansk/EU regulatorisk vej og administrationsvej-kompatibilitet, hvis markedsstatus ændres
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer), som er en blokerende datamangel
+- Mekanistiske data (MOA) fra DrugBank til at vurdere en eventuel biologisk kobling til AIP
+- Præklinisk eller mekanistisk evidens for en sammenhæng mellem TTR-hæmning og hæmsyntesen ved AIP
+- En målrettet litteratursøgning efter studier, der direkte undersøger inotersen ved AIP
+- Afklaring af den oprindelige godkendte indikation, da indikationsteksten mangler i de danske registreringsdata
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser om gentænkning af lægemidler (drug repurposing) skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

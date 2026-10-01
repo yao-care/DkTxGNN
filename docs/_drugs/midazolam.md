@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midazolam
-parent: Høj evidens (L1-L2)
-nav_order: 289
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 290
+evidence_level: L5
 indication_count: 2
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,103 @@ Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Midazolam: Fra sedering og anæstesi til søvnløshed
+# Midazolam: Fra benzodiazepin-sedativum til søvnløshed (insomni)
 
-## Opsummering på én sætning
+## Resumé
 
-Midazolam er et kort-virkende benzodiazepinpræparat, der er bredt anvendt i klinisk praksis til proceduremæssig sedering, anæstesiinduktion og anxiolyse. TxGNN-modellen forudsiger, at det kan være effektivt til **søvnløshed**, med **2 direkte relevante kliniske forsøg** og **4 RCT'er i den publicerede litteratur**, der i øjeblikket understøtter denne retning. Imidlertid rejser farmakokinetiske begrænsninger og langtidssikkerhedsbetænkeligheder betydelige spørgsmål om dets egnethed til langtidsbehandling af søvnløshed.
-
----
-
-## Hurtig oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Original indikation | Sedering, anæstesiinduktion, anxiolyse (etableret klinisk brug; ingen indikation opført i danske regulatoriske data) |
-| Forudsagt ny indikation | Søvnløshed |
-| TxGNN-forudsigelsesscore | 99.74% |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
+Midazolam er en korttidsvirkende benzodiazepin med beroligende og søvnfremkaldende virkning. TxGNN-modellen forudsiger, at det kan have effekt mod **søvnløshed (insomni)**. Evidensen er begrænset: **2 klinisk relevante registrerede forsøg** (B-vurdering, begge med et andet primært fokus end insomni) og **5 ældre kliniske publikationer fra 1981-1990** om midazolam ved søvnforstyrrelser. Det eneste danske markedsføringstilladelse i datagrundlaget er et **veterinærlægemiddel**, så der er ikke belæg for en human indikation i Danmark.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Midazolam tilhører benzodiazepinklassen og udøver sine centralnervesystemeffekter ved positivt at modulere GABA-A receptorer ved BZ1- og BZ2-subtyperne. Dette øger kloridionindstrømningen, hyperpolariserer neuroner og undertrykkede bredt CNS-excitabilitet. I søvnsammenhæng er nettoresultatet en reduktion i indsvovningslatenssen og en stigning i andelen af NREM-søvn — begge mekanistisk relevante for søvnløshedens kernepatolologi, som karakteriseres ved GABAergisk hypoaktivitet og kronisk kortikalt hyperarousal.
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Søvnløshed (insomni) |
+| TxGNN-forudsigelsesscore | 99,74 % |
+| Evidensniveau | L3 (konservativ vurdering, se nedenfor) |
+| Markedsstatus i Danmark | Markedsført (kun som veterinærlægemiddel) |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-Den farmakologiske logik, der forbinder midazolam til søvnløshed, er derfor velbegrundet: den samme GABAergiske mekanisme, der gør benzodiazepiner effektive til akut sedering, ligger også til grund for deres korttidshypnotiske effektivitet. Litteratur fra 1980'erne og 1990'erne (se nedenfor) bekræfter, at oral midazolam kan reducere søvnløshedssymptomer hos hospitaliserede patienter. En dyremodel (PMID 21396773) bekræfter yderligere sammenhængen mellem GABAergisk dysregulation i gyrus cinguli og søvnforstyrrelser.
+Datapakken angiver L2. Jeg vurderer evidensen til L3, fordi intet registreret fase 2/3-forsøg har testet midazolam mod insomni. De ældre studier fra 1980'erne er beskrevet som kliniske studier, men deres design er ikke verificeret.
 
-Kritisk set skaber midazolams relativt korte eliminations-halveringstid (1,5–3,5 timer) imidlertid et betydeligt klinisk problem: når plasmakoncentrationen falder i de tidlige morgentimer, forekommer rebound-søvnløshed og anxiøs opvågning hyppigt. Desuden fører vedvarende receptornedregulering med gentagen dosering til tolerance inden for dage til uger, og pludselig stop medfører en anerkendt abstinenssyndrom-risiko. Disse farmakokinetiske og farmakodynamiske egenskaber betyder, at selvom midazolam kan have akut hypnotisk nytte, er det ikke velegnet til håndtering af kronisk søvnløshed — en tilstand, der typisk kræver vedvarende, ikke-vanedannende terapi. TxGNN-modellens høje forudsigelsesscore afspejler sandsynligvis den mekanistiske overlapning snarere end en klinisk handlingsbar genfundtigelsesmulighed i dens nuværende form.
+---
+
+## Hvorfor er forudsigelsen rimelig?
+
+Der foreligger ingen detaljerede mekanismedata fra DrugBank. Følgende bygger derfor på generel klassefarmakologi og ikke på datapakkens egne data.
+
+Midazolam er en korttidsvirkende benzodiazepin. Den virker som positiv allosterisk modulator af GABA-A-receptorer og giver dermed sedativ-hypnotiske effekter. Det passer med de mekanismer, der fremmer indsovning, og gør koblingen til insomni biologisk plausibel. Det er i overensstemmelse med den høje TxGNN-score.
+
+Der er også klinisk sammenhæng. Flere af de ældre publikationer undersøger netop oral midazolam som sovemiddel hos patienter med søvnløshed. Det er dog en ældre litteratur, og den siger ikke noget om moderne behandlingsstandarder.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Af de 32 kliniske forsøg, der blev hentet, involverede flertallet midazolam som et sammenligningspræparat til sedering eller undersøgte ikke-farmakologiske søvninterventioner. Kun to forsøg opnåede grad B-relevans for midazolam–søvnløshed-genfundtigelse spørgsmålet.
+De fleste registrerede forsøg i datagrundlaget bruger midazolam som sedationsmiddel eller sammenligningsmiddel hos kirurgiske eller intensivpatienter, ikke som behandling af insomni. Ingen EudraCT-numre er tilgængelige i datagrundlaget.
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste resultater |
-|------------|------|--------|-----------|-------------|
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | Ikke klassificeret | Rekrutterer | 280 | Prospektivt RCT evaluerer oral preoperativ midazolam hos kolonfarvekræftpatienter med søvnforstyrrelser eller angst; primært endepunkt er postoperativ smerte, men studiepopulationen overlapper betydeligt med søvnløshedspatienter, og korttidshypnotisk effektivitet vurderes |
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Afsluttet | 111 | Sammenligner direkte IV dexmedetomidin versus IV midazolam kombineret med spinalanæstesi på postoperativ søvnkvalitet hos TURP-patienter; behandler søvn som et sekundært resultat og giver afsluttede data, selvom konteksten er perioperativ snarere end primær kronisk søvnløshed |
-
-> **Bemærk:** Ingen dedikerede randomiserede forsøg med midazolam specifikt til primær eller kronisk søvnløshed blev identificeret i det aktuelle søg. Forsøgene ovenfor giver kun indirekte eller delvis evidens.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | Ikke angivet (NA) | Rekrutterer | 280 | Oral midazolam før operation hos patienter med søvnforstyrrelser eller angst (tyk- og endetarmskræft). Primært effektmål er postoperativ smerte, ikke insomni. |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Afsluttet | 111 | Dexmedetomidin versus midazolam som sedation ved prostataoperation. Sammenligner postoperativ søvnkvalitet. Midazolam er sammenligningsmiddel. |
+| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | Ikke angivet (N/A) | Afbrudt | 5 | Søvnkvalitet med polysomnografi, dexmedetomidin versus midazolam hos ventilerede intensivpatienter. For få deltagere til konklusion. |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Fase 1 | Afbrudt | 6 | Polysomnografi hos ventilerede patienter: α2-agonister versus GABA-agonister. For få deltagere til konklusion. |
+| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Fase 3 | Rekrutterer endnu ikke | 195 | Oral melatonin versus oral midazolam som præmedicin hos børn ved tonsillektomi. Fokus er angstreduktion. |
+| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Fase 3 | Ukendt | 120 | Dexmedetomidin versus midazolam til sedation af kritisk syge, ventilerede børn. |
+| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | Ikke angivet (NA) | Afsluttet | 23 | Dexmedetomidin versus midazolam ved overgang til ekstubation hos intensivpatienter. |
+| [NCT04149626](https://clinicaltrials.gov/study/NCT04149626) | Fase 2 | Ukendt | 60 | Dexmedetomidin, midazolam og remifentanil til sedation ved ortopædkirurgi i regional anæstesi. |
+| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Fase 2 | Rekrutterer | 110 | Ketamin og internetbaseret kognitiv adfærdsterapi ved suicidalitet og behandlingsresistent depression. Midazolam er aktiv kontrol. |
+| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | Ikke angivet (NA) | Afsluttet | 131 | Remimazolam versus propofol + midazolam ved generel anæstesi. |
 
 ---
 
-## Litteraturevidence
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtigste resultater |
-|------|-----|------|---------|-------------|
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Dosis-Fund RCT | Arzneimittel-Forschung | Oral midazolam 10–30 mg hos 75 hospitaliserede patienter med mild til moderat søvnløshed sekundær til muskuloskeletale sygdomme; fastlagde optimalt dosisinterval og bekræftede hypnotisk effektivitet med god tolerabilitet |
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | Br J Clin Pharmacol | Dobbeltblindet parallel-gruppe studie sammenlignede midazolam 15 mg versus Vesparax hos 30 kvindelige patienter med søvnløshed sekundær til neuromuskulær sygdom; begge præparater var effektive hypnotika, men midazolam viste overlegen tolerabilitet og forårsagede ingen "hangover-effekt" |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | J Clin Psychopharmacol | Randomiseret dobbeltblindet flercenter-studie sammenlignede flurazepam og midazolam over 14 dage hos kroniske søvnløshedspatienter med tidligere brug af benzodiazepiner; vurderede søvn, præstationsdygtighed og humør — indledende artikel til et større program |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Flercenter RCT | J Clin Psychopharmacol | Executive summary af det 14-dages flercenter-forsøg flurazepam versus midazolam hos kroniske søvnløshedspatienter; evaluerer direkte midazolam som et hypnotikum over en vedvarende behandlingsperiode |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | Narrativ review af klinisk brug af hypnotika, herunder benzodiazepiner; diskuterer sammenhængen mellem farmakokinetisk profil (herunder midazolams korte halveringstid) og hypnotisk egnethed på tværs af søvnløshedstyper |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Kohort-studie | J Clin Med | Pilot-studie af lemborexant til søvnløshed hos patienter med høj risiko ved pancreato-biliær endoskopi; fremhæver, at traditionel benzodiazepinbrug til søvnløshed øger delir-risiko, hvilket understøtter den voksende præference for ikke-benzodiazepine hypnotika hos sårbare populationer |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Klinisk studie (dobbeltblindt, parallelt) | Br J Clin Pharmacol | Midazolam 15 mg versus Vesparax hos 30 kvinder med insomni sekundært til neuromuskulær sygdom. Begge var virksomme søvnmidler. Midazolam blev bedre tolereret og gav ikke tømmermænd. |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | Klinisk studie (randomiseret, dobbeltblindt, multicenter) | J Clin Psychopharmacol | Introduktion til 14-dages studie af midazolam versus flurazepam ved kronisk insomni. Vurderer søvn, præstation og humør. Resultater fremgår ikke af abstract. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Klinisk studie (multicenter, resumé) | J Clin Psychopharmacol | Sammenfatning af samme 14-dages studie af midazolam og flurazepam ved kronisk insomni, inkl. plasmaniveauer. Abstract mangler. |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Klinisk studie (dosisfinding, pilot) | Arzneimittel-Forschung | Oral midazolam 10-30 mg til 75 indlagte patienter (20-80 år) med mild til moderat insomni. Formålet var at fastlægge optimalt dosisinterval. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Oversigtsartikel | Acta Psychiatr Scand Suppl | Generel gennemgang af brugen af benzodiazepiner som sovemidler og behovet for forskellige præparater. Handler ikke specifikt om midazolam. |
+| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Klinisk pilotstudie | J Clin Med | Handler om lemborexant, ikke midazolam. Nævner, at benzodiazepiner traditionelt bruges mod insomni, men kan øge risikoen for delirium. |
 
 ---
 
 ## Markedsinformation for Danmark
 
-Midazolam har i øjeblikket **ingen markedsføringstilladelser** hos Lægemiddelstyrelsen og er **ikke markedsført** i Danmark i nogen lægemiddelform. Det er ikke opført blandt centralt godkendte (EMA) produkter, der er godkendt til det danske marked.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107058223 | Midaquin Vet. (Dechra Regulatory B.V.) | Injektionsvæske, opløsning | Indikationstekst er ikke angivet. Produktnavnet indikerer et veterinærlægemiddel. |
 
-> Sundhedspersonale, der kræver adgang til midazolam i Danmark, skal ansøge om særlig tilladelse under gældende dansk lovgivning, eller overveje, hvorvidt et licenseret alternativ inden for benzodiazepine- eller hypnotika-klassen ville være passende.
-
----
-
-## Sikkerhedshensyn
-
-Formelle SmPC-niveau sikkerhedsdata (vigtige advarsler, kontraindikationer og data om lægemiddelinteraktioner) kunne ikke hentes fra de aktuelle evidenskilder til denne vurdering.
-
-Venligst henvises til det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
-
-Baseret på veletableret klasserelateret viden om benzodiazepiner relevant for klinisk vurdering:
-
-- **Afhængighed og tolerance**: Benzodiazepiner, herunder midazolam, medfører en anerkendt risiko for fysisk afhængighed, tolerance og abstinenssyndrom ved regelmæssig eller længerevarende brug — særlig relevant, hvis man overvejer en kronisk søvnløshedsindikation.
-- **Rebound-søvnløshed**: Midazolams korte halveringstid øger sandsynligheden for tidlig morgenvågning rebound-søvnløshed og næste dags anxiøs opvågning sammenlignet med længerevarende benzodiazepiner.
-- **Respiratorisk depression**: Risiko er forhøjet i kombination med opioider, alkohol eller andre CNS-deprimerende midler, og hos patienter med obstruktiv søvnapnø — en population med høj komorbid søvnløshedsforekomst.
-- **Ældre patienter**: Benzodiazepiner klassificeres som potentielt upassende medicin hos ældre (Beers-kriterierne) på grund af faldrisiko og kognitiv nedsat funktion.
+Der er ingen oplysninger om humane midazolam-præparater i Danmark i datagrundlaget. Studierne i litteraturen anvender oral midazolam, mens den eneste kendte danske tilladelse er en injektionsvæske. Rutekompatibilitet er derfor uafklaret.
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Vent**
+Der er ikke tilgængelige data om advarsler, kontraindikationer eller interaktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Selvom det mekanistiske grundlag for midazolams hypnotiske effekt er farmakologisk velbegrundet, og ældre RCT-litteratur bekræfter korttidseffektivitet i sekundær søvnløshed, gør midazolams korte halveringstid, tolerance-ansvar, afhængighedsrisiko og fuldstændige fravær fra det danske marked det uegnet til et formelt genfundtigelse-program for søvnløshed i den nuværende regulatoriske og kliniske sammenhæng. Etablerede alternativer (Z-lægemidler, orexin-receptorantagonister, melatonin-agonister) bærer allerede godkendte søvnløshedsindikationer med mere gunstige sikkerhedsprofiler til kronisk brug.
+- Modellen giver en meget høj score, og mekanismen er plausibel. De registrerede forsøg tester dog ikke midazolam som behandling af insomni, og den kliniske litteratur er gammel (1981-1990) med uverificeret design.
+- Den eneste danske tilladelse er til et veterinærlægemiddel, og sikkerhedsdata mangler helt. Det blokerer for sikkerhedsscreening.
 
-**For at proceede ville følgende være nødvendigt:**
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger (advarsler, kontraindikationer, interaktioner) fra produktresumeet for et humant midazolam-præparat godkendt i Danmark.
+- Afklaring af, om et humant præparat med passende administrationsvej (fx oral) er tilgængeligt i Danmark.
+- Gennemgang af de ældre studier (1981-1990) i fuldtekst for at verificere design og resultater.
+- Mekanismedata fra DrugBank.
+- En vurdering af midazolam i forhold til nuværende standardbehandling af insomni, herunder risikoen for tolerans og afhængighed ved benzodiazepiner.
 
-- **Afklaring af regulatorisk vej**: Bestem, om en ny indikationsindsendelse til EMA eller Lægemiddelstyrelsen er teknisk mulig i betragtning af det eksisterende benzodiazepine-regulatoriske landskab og nuværende danske ordinationsvejledninger.
-- **Farmakokinetisk reformuleringsstrategi**: Enhver levedygtig vej til en kronisk søvnløshedsindikation ville kræve enten en modified-release oral formulering (for at imødegå rebound-søvnløshed) eller begrænsning til korttidsbehandling eller akut brug alene — begge dele kræver dedikeret farmaceutisk udvikling og kliniske data.
-- **Fuldstændig SmPC-sikkerhedsreview**: Indhent og analyser det fuldstændige midazolam-produktresumé (injektions- og orale formuleringer) for at udføre en formel S1-sikkerhedsport-vurdering, som i øjeblikket blokeres af fraværet af danske regulatoriske labeldata.
-- **Kronisk søvnløshed-specifik RCT-data**: De tilgængelige kliniske forsøg er primært perioperative eller akutte i design; et prospektivt forsøg hos patienter med primær kronisk søvnløshed (DSM-5-kriterierne) med moderne polysomnografiske og patientrapporterede resultat-endepunkter ville være nødvendigt for at understøtte enhver labeludvidelse.
-- **Sammenlignende effektivitetsdata**: Benchmark mod aktuelt godkendte førsteseriehypnotika (f.eks. eszopiclone, lemborexant, daridorexant) for at fastslå, hvorvidt et klinisk niche eksisterer for midazolam i denne indikation.
-
----
-
-> ⚠️ **Disclaimer:** Denne rapport er udelukkende til forskningsreferering og udgør ikke medicinsk rådgivning. Genfundtigelseskandidater for lægemidler kræver klinisk validering før anvendelse. Alt indhold vedrørende midazolams potentielle brug til søvnløshed er eksperimentelt.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

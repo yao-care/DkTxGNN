@@ -2,7 +2,7 @@
 layout: default
 title: Tipranavir
 parent: Kun modelforudsigelse (L5)
-nav_order: 436
+nav_order: 438
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tipranavir: Fra HIV-1-infektion til Simian Immunodeficiency Virus-infektion
+# Tipranavir: Fra HIV-1-infektion til simian immundefektvirus-infektion
 
-## Samlet opsummering i én sætning
+## Resumé i én sætning
 
-Tipranavir er en non-peptidisk HIV-1-proteasehæmmer, som historisk set har været brugt i antiretroviral terapi til behandlingserfarne patienter med multiresistent HIV-1-infektion (denne forbindelse til den oprindelige indikation er udledt fra evidence pack'ets interne begrundelsesnoter, da formelle indikations-/licenstekster ikke er tilgængelige). TxGNN-modellens højest rangerede forudsigelse er **Simian Immunodeficiency Virus (SIV)-infektion**, en dyremodelsygdom med en **99.99% forudsigelsesscore**, men **nul understøttende kliniske forsøg eller litteratur**. Evidence pack'ets egen analyse flagrer dette som en høj-score/lav-klinisk-værdi forudsigelse drevet af lentivirusfamiliens semantiske lighed, ikke et ægte genbrugssignal.
+Tipranavir er en ikke-peptidisk HIV-1-proteasehæmmer, som bruges til behandling af HIV-1-infektion hos behandlingserfarne patienter.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion (SIV)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+SIV er en sygdom hos aber og ikke en human indikation, så forudsigelsen er kun modelbaseret.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke registreret i formelle licensdata (0 danske autorisationer); ifølge interne begrundelsesnoter er tipranavir en non-peptidisk HIV-1-proteasehæmmer brugt i antiretroviral terapi |
-| Forudsagt ny indikation | Simian Immunodeficiency Virus (SIV)-infektion |
-| TxGNN-forudsigelsesscore | 99.99% |
-| Evidensniveau | L5 (modelforsigelse kun, ingen klinisk eller litteraturstøtte) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringsautoriseringer | 0 |
-| Anbefalet beslutning | Afvente |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (SIV) |
+| TxGNN-forudsigelsesscore | 99,99 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
+
+Det oprindelige indikationsfelt i datagrundlaget er tomt. Den oprindelige indikation er derfor udledt af lægemidlets kendte anvendelse som HIV-1-proteasehæmmer.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme for tipranavir er markeret som et datagap på lægemiddelniveau. Evidence pack'ets egen genbrugsbegrundelsestekst identificerer dog tipranavir som en non-peptidisk HIV-1-proteasehæmmer, der virker ved at blokere det virale proteasenzym, som er påkrævet for modning af infektiøse virale partikler.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Tipranavir er dog en ikke-peptidisk HIV-1-proteasehæmmer, som gives sammen med ritonavir. Proteasen i SIV er homolog med HIV-proteasen, så der er et biologisk rationale for, at tipranavir kan hæmme virusset.
 
-Den højest rangerede forudsigelse, SIV-infektion, er eksplicit flagret i evidence pack'et som et output med lav klinisk værdi: SIV er en primatmodellevirus i samme *Lentivirus*-slægt som HIV, så proteasehæmmingsmekanismen er teoretisk overførbar — men SIV-infektion er en dyresygdom, ikke en menneskelig klinisk indikation, og der findes ingen forsøg eller litteraturbevis, der understøtter det. Det samme mønster gentager sig for de næste få rangerede forudsigelser (felint immunodeficiensyndrom — endnu en dyresygdom; en sjælden neuroudviklingsforstyrrelse uden kendt mekanistisk forbindelse; og en forældet hyperlipidemibetegnelse, der faktisk modsiger tipranavirs kendt dyslipidemi-bivirkningsprofil). Evidence pack'et karakteriserer disse som modelstøj fra semantisk klyngning omkring "retroviral infektion" snarere end ægte genbrugskandidater.
+SIV er en primatmodel for lentivirale infektioner og ikke en sygdom hos mennesker. Forudsigelsen siger derfor mere om biologisk slægtskab mellem virus end om en ny klinisk anvendelse. Der er hverken fundet forsøg eller litteratur, og scoren på 99,99 % er alene en grafbaseret forudsigelse.
 
-Inden for denne pakke når de eneste forudsigelser til et avanceret internt beslutningsstadium (S1, "Forskningsspørgsmål") **AIDS-relateret kompleks** (rang 9) og **medfødt HIV-infektion** (rang 10) — som begge repræsenterer en udvidelse af tipranavirs allerede etablerede antiretrovirale mekanisme langs HIV-sygdomsspekteret, snarere end en ny genbrugshypotese. Medfødt HIV-infektion understøttes endvidere af 9 identificerede kliniske forsøg, selvom de fleste vedrører andre antiretrovirale regimer snarere end tipranavir specifikt (se nedenfor).
+Modellen har også foreslået andre kandidater. De er alle vurderet som Hold:
 
----
-
-## Klinisk forsøgsbeviser
-
-For den højest rangerede forudsigelse (SIV-infektion): i øjeblikket ingen relaterede kliniske forsøg registreret.
-
-*Kontekstnotat: andre steder i denne evidence pack blev 9 kliniske forsøg identificeret under den lavere rangerede "medfødt HIV-infektion"-forudsigelse (L4/S1, pack'ets mest avancerede kandidat). Kun ét (NCT00042289, IMPAACT P1026s — antiretroviral farmakokinetik i graviditet/postpartum) er klassificeret som relevansgrad B; de resterende 8 er klassificeret som C, da de evaluerer andre antiretrovirale regimer (dolutegravir, cabotegravir/rilpivirine osv.) snarere end tipranavir direkte. Ingen tester specifikt tipranavir.*
+- **Felint erhvervet immundefektsyndrom (FIV):** en veterinær lentivirussygdom. Krydsreaktivitet med FIV-protease er tænkelig, men ikke verificeret, og FIV-proteasen adskiller sig fra HIV-1-proteasen i substratspecificitet.
+- **Neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans:** der er ingen plausibel mekanistisk sammenhæng. Den høje score skyldes sandsynligvis en artefakt i vidensgrafen.
+- **Forældet betegnelse for familiær kombineret hyperlipidæmi:** HIV-proteasehæmmere, herunder tipranavir med ritonavir, er kendt for at give dyslipidæmi. Forudsigelsen afspejler sandsynligvis en bivirkningsassociation og ikke en terapeutisk effekt.
+- **AIDS-relateret kompleks og kongenit HIV:** begge er i praksis dækket af den eksisterende HIV-1-indikation og er ikke egentlig repurposing. De er klassificeret som forskningsspørgsmål (L4). For kongenit HIV blev der fundet ni registrerede forsøg, men ingen af dem kan bekræftes at evaluere tipranavir. De ser ud til at omhandle andre antiretrovirale midler, bl.a. dolutegravir, cabotegravir og rilpivirin.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-I øjeblikket ingen relateret litteratur tilgængelig.
-
----
-
-## Markedsinformation for Danmark
-
-Ingen markedsføringsautoriseringer er registreret for tipranavir i denne evidence pack (0 autorisationer; markedsstatus: Ikke markedsført).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
-
-*Bemærk: indhentelse af TFDA/lokale etiketsadvarsler og kontraindikationer er flagret i denne evidence pack som et **blokerende** datagap (DG001) — sikkerhedsdata skal være indhentet, før denne kandidat kan undergå formel sikkerhedspre-vurdering (S1).*
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Konklusion og næste trin
+## Information om det danske marked
 
-**Beslutning: Afvente**
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28103745604 | Aptivus | Kapsler, bløde | Boehringer Ingelheim Int. GmbH |
+
+Tekst om godkendt indikation er ikke tilgængelig i datagrundlaget.
+
+---
+
+## Sikkerhedsovervejelser
+
+- **Lægemiddelinteraktioner:** Der er ikke fundet registrerede interaktioner i den anvendte kilde. Det er ikke det samme som, at der ingen er.
+- **Kendte risici nævnt i vurderingen:** Der er omtalt boxed warnings for hepatotoksicitet og intrakraniel blødning samt risiko for dyslipidæmi (forhøjede triglycerider og kolesterol) ved brug sammen med ritonavir.
+
+Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den højest TxGNN-rangerede forudsigelse (SIV-infektion) er en dyresygdom med L5-bevis — modelforsigelse kun, ingen kliniske forsøg, ingen litteratur og ingen plausibel klinisk udviklingsvej. Lægemidlet har heller ingen markedsføringsautoriserering i Danmark og mangler virkningsmekanisme- og SmPC-sikkerhedsdata, hvilket blokerer enhver formel sikkerhedspre-vurdering.
+Evidensniveauet er L5, altså kun modelforudsigelse. De højest rangerede forudsigelser omhandler dyresygdomme (SIV, FIV) eller er sandsynligvis artefakter eller bivirkningsassociationer. De humane kandidater overlapper med den eksisterende HIV-1-indikation, og tipranavir har desuden en begrænset rolle i dag og alvorlige boxed warnings.
 
-**For at fortsætte er følgende nødvendig:**
-- Lokalt SmPC/regulatorisk etiket (advarsler, kontraindikationer) — i øjeblikket et blokerende datagap
-- Bekræftet virkningsmekanisme-dokumentation
-- Hvis genbrugsforsøg forfølges yderligere, skal fokus omdirigeres væk fra de højest rangerede dyremodels-forudsigelser mod pack'ets mere klinisk begrundede kandidater — AIDS-relateret kompleks og medfødt HIV-infektion (begge L4/S1) — og søge tipranavir-specifikt forsøgs- eller litteraturbevis for disse indikationer
+**For at komme videre kræves:**
+- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation (blokerende datahul)
+- Data om virkningsmekanisme fra DrugBank
+- Tipranavir-specifikke forsøg eller litteratur for en eventuel human kandidat, f.eks. kongenit HIV
 
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

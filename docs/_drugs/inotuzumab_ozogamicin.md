@@ -2,7 +2,7 @@
 layout: default
 title: Inotuzumab Ozogamicin
 parent: Kun modelforudsigelse (L5)
-nav_order: 233
+nav_order: 234
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,104 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inotuzumab ozogamicin: Fra akut lymfoblastisk leukæmi til lægemiddelinduceret osteoporose
+# Inotuzumab ozogamicin: Fra B-celle-leukæmi til lægemiddelinduceret osteoporose
 
-## Et-linjer sammenfatning
+## Resumé
 
-Inotuzumab ozogamicin er et anti-CD22 antistof-lægemiddelkonjugat (ADC), etableret globalt til CD22-positive B-celle forløbercelleakut lymfoblastisk leukæmi (ALL); dette specifikke evidenspakke indeholder ikke selv den oprindelige indikation eller etikettekst (datakløft). TxGNN-modellen forudsiger mulig virkning ved **lægemiddelinduceret osteoporose**, men dette understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer**, og evidenspakkens egen mekanistiske gennemgang flagfestiviterer forudsigelsen som en sandsynlig ikke-specifik modelartefakt snarere end et virkeligt farmakologisk signal.
+Inotuzumab ozogamicin er et antistof-lægemiddelkonjugat rettet mod CD22 med en cytotoksisk calicheamicin-del. Det markedsføres i Danmark som Besponsa og er kendt som et kræftlægemiddel til B-celleleukæmi (oplysningen er ikke angivet i datagrundlaget).
+TxGNN-modellen forudsiger, at det kan have effekt på **lægemiddelinduceret osteoporose** med en score på 98,2 %. Der er dog **ingen kliniske forsøg og ingen relevant litteratur** bag forudsigelsen, og den er sandsynligvis en artefakt i vidensgrafen.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | CD22-positive B-celle forløbercel akut lymfoblastisk leukæmi (ALL) — *ikke til stede i det danske registerdata (lægemidlet er ikke markedsført i Danmark); angivet her ud fra generel etikettering, da evidenspakkens eget `original_indications` felt er tomt* |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten er tom). Efter almen viden: CD22-positiv B-celle-prækursor akut lymfatisk leukæmi |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 98,24% |
+| TxGNN-forudsigelsesscore | 98,2 % |
 | Evidensniveau | L5 |
-| Status på dansk marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede virkemekanisme-data for denne kandidat er ikke tilgængelige i evidenspakken (flagget som et højgrads datakløft). Baseret på kendt farmakologi er inotuzumab ozogamicin et antistof-lægemiddelkonjugat, der kombinerer et anti-CD22 monoklonalt antistof med det cytotoksiske payload calicheamicin: binding til CD22 på ondartede B-lymfocytter udløser internalisering af konjugatet, og calicheamicin forårsager derefter DNA-dobbeltstrengsbrud, der dræber målcellen. Denne mekanisme er meget specifik for CD22-eksprimerende hæmatologiske maligniteteter.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Ud fra kendt information er inotuzumab ozogamicin et CD22-rettet antistof koblet til calicheamicin. CD22 er en markør på B-linjeceller, og stoffet virker ved at dræbe CD22-positive celler.
 
-Der er ingen etableret farmakologisk eller klinisk forbindelse mellem denne mekanisme og knoglestofskifte (osteoklast/osteoblast-aktivitet), og evidenspakkens egen repurposing-begrundelse siger dette eksplicit: der er ikke identificeret nogen direkte mekanistisk forbindelse mellem CD22/calicheamicin-medieret B-celle-drab og lægemiddelinduceret knogletab.
+Der er **ingen plausibel biologisk sammenhæng** mellem CD22-målrettet behandling og knogleopbygning. CD22 har ingen kendt rolle i knogleremodellering. Cytotoksisk kemoterapi og de omkringliggende behandlinger (transplantation og steroider) kan tværtimod nedsætte knogletætheden. Lægemidlet kan derfor bidrage til tilstanden i stedet for at behandle den. Den høje score er et resultat af nærhed i vidensgrafen uden klinisk støtte.
 
-Den høje TxGNN-score afspejler højst sandsynligt en generisk vidensgrafsassociation snarere end et lægemiddelspecifikt signal — cytotoksiske/kemoterapeutiske lægemiddelknuder er bredt forbundet med knogletabsrelaterede bivirkningsknuder i den underliggende graf, hvilket kan øge lighedsscore for mange cytotoksiske midler uanset deres faktiske målbiologi. Bemærkelsesværdigt viser de andre tophits-kandidater i denne samme evidenspakke (f.eks. HER2-positive og luminal-subtype brystkræft) det samme mønster — ingen CD22-målekspression i det relevante væv, og i ét tilfælde blev det vedhæftede "understøttende litteratur" senere fundet at være en nøgleordsmatching-artefakt (relaterede B-celle/hepatitis-B-papirer matchet via bogstavet "B" i "Luminal B"). Dette tyder på en systematisk mangel på specificitet i denne lægemiddels forudsigelsessæt, ikke blot en isoleret svag kandidat.
+Modellen har også foreslået flere brystkræftsubtyper. Forudsigelserne er dubletter, der er slået sammen, og ingen af dem har støtte i data:
 
----
-
-## Klinisk forsøgsevidence
-
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidence
-
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| HER2-positivt brystkarcinom | 97,8 % | Andre antistof-lægemiddelkonjugater er etableret i HER2-positiv brystkræft, men de rammer HER2, ikke CD22. CD22 er ikke et anerkendt mål i brystepitelsvulster |
+| Normal breast-like subtype af brystkarcinom | 96,8 % | Ingen påvist CD22-ekspression eller -afhængighed. Sandsynligvis grafnærhed til andre brystkræftknuder |
+| Progesteronreceptor-positiv brystkræft | 96,8 % | Ingen mekanistisk forbindelse mellem CD22-målretning og hormonreceptor-positiv brystkræft |
+| Brysttumor luminal A eller B | 96,8 % | Se afsnittet om litteratur. De hentede artikler er støj |
 
 ---
 
-## Markedsinformation for Danmark
+## Evidens fra kliniske forsøg
 
-Inotuzumab ozogamicin har i øjeblikket **ingen markedsføringstilladelse i Danmark** (0 tilladelser på arkiv; markedsstatus: Ikke markedsført). Der er derfor ingen produkt-, doseringsform- eller indikationsniveau-licensdata tilgængelige fra det danske register.
-
----
-
-## Cytotoxicitet
-
-| Emne | Indhold |
-|------|---------|
-| Cytotoxicitetsklassificering | Målrettet terapi — Antistof-lægemiddelkonjugat (anti-CD22 antistof, der bærer det cytotoksiske payload calicheamicin) |
-| Myelosuppressionsrisiko | Se venligst Produktresumé (SmPC) - advarsler og forsigtighedsregler |
-| Emetogenicitetsklassificering | Se venligst Produktresumé (SmPC) - advarsler og forsigtighedsregler |
-| Overvågningspunkter | Se venligst Produktresumé (SmPC) - advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Payload er et DNA-skadende cytotoksisk middel; standard cytostatika-håndteringsforsigtighedsregler bør gælde afventer bekræftelse via SmPC |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relateret litteratur for den primære forudsigelse (lægemiddelinduceret osteoporose).
+
+Til den sidste forudsigelse (brysttumor luminal A eller B) blev der hentet 19 publikationer. De er falske positive søgetræf på bogstavet "B" og handler om B-cellebiologi, hepatitis B-vacciner, HLA-B og bakterieklorofyl b. Ingen af dem omhandler brystkræft eller inotuzumab ozogamicin, og de tæller ikke som evidens.
 
 ---
 
-## Konklusion og næste trin
+## Oplysninger om det danske marked
 
-**Beslutning: Afvent**
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105771516 | Besponsa (Pfizer Europe MA EEIG) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet cytotoksisk behandling (antistof-lægemiddelkonjugat med calicheamicin som cytotoksisk del) |
+| Risiko for myelosuppression | Forventet forhøjet for cytotoksiske konjugater. Se produktresuméet for præcise tal |
+| Emetogenicitetsklassifikation | Se produktresuméet |
+| Monitoreringspunkter | Fuldt blodbillede med differentialtælling, lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Skal håndteres efter reglerne for cytotoksiske lægemidler |
+
+Se produktresuméets (SmPC) advarsler og forsigtighedsregler for fuldstændige oplysninger.
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Advarsler og kontraindikationer fra Lægemiddelstyrelsens produktinformation mangler i datagrundlaget. Det er en blokerende mangel for videre sikkerhedsscreening. Der blev ikke fundet interaktionsdata.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Selvom TxGNN-scoren er høj, vurderer evidenspakkens egen mekanistiske gennemgang den tophits-forudsigelse (lægemiddelinduceret osteoporose) som værende uden farmakologisk sandsynlighed og sandsynligvis afspejler en generisk graftopologi-artefakt snarere end et lægemiddelspecifikt signal. Der er ingen understøttende klinisk forsøgs- eller litteraturevidence (Evidensniveau L5), lægemidlet har ingen markedsføringstilladelse i Danmark, og etiket-/sikkerhedsdata, der kræves selv for et indledende sikkerhedsscreening (S1), mangler — et blokeringsgrads datakløft.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg eller relevant litteratur. Der er ingen plausibel mekanisme, og lægemidlet og den omgivende behandling kan reducere knogletætheden. Det samme gælder de forudsagte brystkræftindikationer.
 
-**For at fortsætte er følgende nødvendig:**
-- TFDA/SmPC-etiketadvarsler og kontraindikationer (Blokeringsgrads datakløft: DG001)
-- Bekræftet virkemekanisme-detalje, der stammer fra DrugBank eller den godkendte etiket (Højtprioritet datakløft: DG002)
-- En uafhængig, biologisk begrundet begrundelse, der forbinder CD22-ADC-farmakologi til knoglestofskifte — eller formal udelukkelse af denne kandidat, hvis ingen kan etableres
-- Prækliniske eller real-world-data om knoglemineral-densitetseffekter, hvis denne indikation stadig skal forfølges
-- En bredere specificitetgennemgang af dette lægemiddels fulde TxGNN-forudsigelsessæt, givet at andre tophits-kandidater (brystkræftsubtypter) viser det samme fravær af målekspression-begrundelse og i ét tilfælde forureningens litteraturmatches
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af Lægemiddelstyrelsens produktresumé (advarsler, kontraindikationer og godkendt indikation)
+- Data om virkningsmekanisme fra DrugBank
+- Målrettet litteratursøgning med korrekte søgetermer, da de nuværende træf er irrelevante
+- Biologisk belæg for en rolle for CD22 i knogle- eller brystvæv, før der overvejes prækliniske eller kliniske studier
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

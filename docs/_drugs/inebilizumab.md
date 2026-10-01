@@ -2,7 +2,7 @@
 layout: default
 title: Inebilizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 231
+nav_order: 232
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inebilizumab: Fra B-celle-depletionsterapi til lægemiddelinduceret osteoporose
+# Inebilizumab: Fra B-celle-målrettet antistofbehandling til lægemiddelinduceret osteoporose
 
-## Resumé på en sætning
+## Resumé i få sætninger
 
-Inebilizumab er et humaniseret anti-CD19-monoklonalt antistof, der depleterer en bred B-celle-linje (herunder plasmacellepræcursorer); denne evidenspakke indeholder ingen registrerede oprindelige indikationer eller godkendt produktinformation til Danmark, og virkningsmekanisme er markeret som en datakløft. TxGNN-modellen forudsiger, at det kan være effektivt for **lægemiddelinduceret osteoporose**, men denne retning understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det er et modelbaseret, uverificeret signal.
+Inebilizumab er et humaniseret monoklonalt antistof mod CD19, som nedbryder B-celler. Det er markedsført i Danmark under navnet Uplizna. TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**, men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte forudsigelsen.
 
 ---
 
-## Kort oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke tilgængelig — ingen godkendt indikation på filen (lægemiddel ikke markedsført i Danmark; `original_indications` tom) |
+| Punkt | Indhold |
+|------|------|
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 96.44% |
+| TxGNN-forudsigelsesscore | 96,4 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige (markeret som højalvorligt datakløft i denne evidenspakke). Baseret på hvad den understøttende litteratur og rationale-tekster i denne pakke etablerer, er inebilizumab et humaniseret **anti-CD19-monoklonalt antistof**, der depleterer en bred B-celle-linje, som strækker sig længere ind i plasmacellepræcursor-kompartimentet end CD20-målrettede midler såsom rituximab.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i Evidence Pack. Inebilizumab er et anti-CD19-antistof, der nedbryder celler i B-cellelinjen.
 
-Den forudsagte nye indikation, lægemiddelinduceret osteoporose, er patofysiologisk drevet af osteoklast-aktivering og RANKL/OPG-ubalance (klassisk set med glukokortikoid-induceret knogletab). B-celler er kendt for at sekretere både RANKL og OPG og kan modulere knogleombygning, hvilket er den mekanistiske sammenhæng, som TxGNN's videngraf synes at følge.
+B-celler deltager i knoglens ombygning via signalvejene RANKL og OPG, så en teoretisk forbindelse til osteoporose kan ikke udelukkes. Der er imidlertid ingen klar biologisk begrundelse for, at CD19-rettet B-celle-depletering skulle beskytte mod lægemiddelinduceret osteoporose. Forbindelsen er spekulativ.
 
-Imidlertid bør denne forbindelse læses som spekulativ snarere end etableret: virkningen (knoglebeskyttende vs. knogletab-forværrende) er ikke fastslået i litteraturen, og der er ingen evidens, der knytter B-celle-depletion specifikt til den "lægemiddelinducerede" etiologi for osteoporose (i modsætning til andre årsager). Evidenspakken selv karakteriserer dette som en kandidat med lav tillid, der stammer fra indirekte videngraf-klynger snarere end en sygdomsspecifik mekanistisk begrundelse, og den bærer det svageste understøttede evidensniveau (L5) blandt de ti rangerede kandidater i denne pakke.
-
----
-
-## Bevis fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Den høje score (0,964) stammer udelukkende fra vidensgrafmodellen. Den er ikke bekræftet af kliniske data eller litteratur og bør derfor kun læses som en hypotese.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg for denne indikation.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-Der er i øjeblikket ingen markedsføringstilladelser registreret for inebilizumab i Danmark — evidenspakken registrerer markedsstatus som "Ikke markedsført" med 0 samlede licenser.
+Der findes på nuværende tidspunkt ingen relateret litteratur for denne indikation.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28106541120 | Uplizna | Koncentrat til infusionsvæske, opløsning | Amgen Europe BV |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst produktinformation (SmPC) for godkendt sikkerhedsinformation. (Nøgleadvarsler, kontraindikationer og lægemiddel-lægemiddelinteraktions-data er alle markeret som datakløfter eller ikke fundet i denne evidenspakke — især betyder det blokeringskritiske datakløft DG001 vedrørende etiketadvarsler/kontraindikationer, at denne kandidat ikke endnu kan bestå en indledende sikkerhedsscreening.)
+Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne kandidat har ingen understøttende kliniske forsøg eller litteratur (0/0), ligger på modelforudsigelse-baseret evidensniveau (L5), og dens egen mekanistiske begrundelse markerer lægemiddel-sygdom-forbindelsen som indirekte og retningsbestemt usikker. Kombineret med lægemidlets uregistrerede status i Danmark og et blokeringskritisk sikkerhedsdatakløft, er der intet grundlag for at fremme denne indikation ud over hypotesegenerering på nuværende tidspunkt.
+Forudsigelsen for lægemiddelinduceret osteoporose hviler kun på modellen (evidensniveau L5), uden kliniske forsøg, litteratur eller en klar mekanistisk forbindelse.
 
-**For at fortsætte kræves følgende:**
-- TFDA/Lægemiddelstyrelsen-etiketter: advarsler og kontraindikationer (DG001, Blokeringstype — påkrævet før enhver S1-sikkerhedsscreening kan påbegyndes)
-- Bekræftet virkningsmekanisme-data via DrugBank (DG002, Høj alvorlighed — nødvendig for korrekt at vurdere mekanistisk relevans for knoglestofskifte)
-- Prækliniske eller mekanistiske studier, der specifikt adresserer B-celle-depletions virkning på osteoklast/RANKL-OPG-aktivitet i lægemiddelinduceret (vs. anden-etiologi) osteoporose-kontekst
-- Løbende overvågning for ethvert fremtidigt forsøg eller case-report-signal, da ingen i øjeblikket eksisterer
+**Bemærkning om andre forudsigelser:** Blandt de øvrige forudsigelser er der kun for **plasmacellemyelom** (score 92,7 %) fundet kliniske data. Det drejer sig om:
+- Forsøget [NCT01861340](https://clinicaltrials.gov/study/NCT01861340), et afsluttet tidligt fase 1-pilotstudie med 20 deltagere. Inebilizumab (MEDI-551) blev givet sammen med lenalidomid og dexamethason.
+- Publikationen [PMID 30915717](https://pubmed.ncbi.nlm.nih.gov/30915717/), et japansk fase 1-studie fra 2019 i recidiverende eller refraktært B-cellelymfom og myelom.
 
-*Bemærk: Den samme evidenspakke indeholder en betydeligt bedre-understøttet kandidat — plasmacelle-myelom (rang 7/8, score 92.75%, evidensniveau L3, "Research Question"-stadium) — understøttet af et afsluttet fase 1-forsøg (NCT01861340) og 2 PubMed-poster. Hvis en rapport om denne indikation ønskes i stedet, skal du give mig besked og jeg vil producere den.*
+Disse data viser ikke effekt af inebilizumab alene. Plasmacellemyelom er vurderet som et forskningsspørgsmål (evidensniveau L3), ikke som en klinisk anbefaling.
 
+**For at komme videre kræves følgende:**
+- Download og gennemgang af produktresumeet (SmPC) fra Lægemiddelstyrelsen, så advarsler og kontraindikationer kan vurderes. Dette er en blokerende mangel for sikkerhedsscreeningen.
+- Detaljerede data om virkningsmekanismen (f.eks. fra DrugBank) til en mere præcis mekanistisk analyse.
+- Prækliniske eller kliniske data, der undersøger B-cellers rolle i lægemiddelinduceret osteoporose.
+- Oplysninger om den godkendte indikationstekst for Uplizna i Danmark.
+
+*Dette resultat er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

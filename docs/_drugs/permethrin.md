@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Permethrin
-parent: Kun modelforudsigelse (L5)
-nav_order: 347
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 348
+evidence_level: L4
 indication_count: 10
 ---
 
 # Permethrin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Permethrin: Fra Scabies til Trombiculiasis
+# Permethrin: Fra lus og fnat til trombiculiasis (høstmider)
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-Permethrin er et pyrethroid-antiparasitært middel, hvis etablerede farmakologi retter sig mod natriumkanalsfunktion i arthropod-nervesystemerne (bruges klinisk mod milbeinfestation såsom scabies, *Sarcoptes scabiei*). TxGNN-modellen forudsiger, at det kan være effektivt for **Trombiculiasis** (jordloppe-/høstmilbe-dermatitis), en mekanistisk relateret milbeinfestation, men denne retning understøttes i øjeblikket kun af **1 veterinær caseserie-publikation** og **ingen kliniske forsøg eller humane data**.
+Permethrin er et insekt- og mideformidlende stof i en creme (Nix), som markedsføres i Danmark og ifølge den mekanistiske vurdering anvendes mod fnat og lus.
+TxGNN-modellen forudsiger, at det kan have effekt mod **trombiculiasis** (angreb af høstmiders larver).
+Evidensen er svag: **0 kliniske forsøg** og **1 publikation**, et dyrestudie på hunde, hvor permethrin var kombineret med pyriproxyfen.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Scabies (milbeinfestation) — nævnt i den mekanistiske begrundelse; ikke bekræftet via strukturerede regulatoriske felter, da `original_indications` og `original_moa` ikke er udfyldt i denne Evidence Pack |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske godkendelsestekst. Ifølge den mekanistiske vurdering anvendes permethrin topisk mod fnat og lus |
 | Forudsagt ny indikation | Trombiculiasis |
-| TxGNN-forudsigelsesscore | 95.16% |
-| Evidensniveau | L4 (præ-klinisk/mekanistisk — kun enkelt dyreandelsstudium) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+| TxGNN-forudsigelsesscore | 95,2 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanisme-for-virkning-data for Permethrin er ikke tilgængelige i denne Evidence Pack (`original_moa` er markeret som et datahul). Baseret på kendt farmakologi, der refereres til i modellens begrundelse, er Permethrin et pyrethroid, der forstyrrer natriumkanalfunktion i milbernes og andre arthropoders nervesystem, og dets effektivitet mod scabies (forårsaget af milben *Sarcoptes scabiei*) er velkendt i klinisk praksis.
+Detaljerede mekanismedata var ikke tilgængelige i Evidence Pack. Permethrin er dog et pyrethroid, og den kendte virkning er, at det forlænger åbningen af natriumkanaler i leddyrs nerveceller. Det giver lammelse og død hos parasitten.
 
-Trombiculiasis er dermatitis forårsaget af jordloppe-milbelarver (f.eks. *Neotrombicula autumnalis*), som — ligesom scabies-milber — tilhører Acari (milber)-familien. Fordi Permethrin-dødningsmekanismen virker på milbernes neuromuskul-natriumkanaler bredt i stedet for på et artspecifikt mål, er den samme mekanisme plausibel mod jordloppe-milber, hvilket giver denne forudsigelse rimelig mekanistisk basis.
+Trombiculiasis skyldes larver af høstmider, som er edderkopdyr ligesom fnatmiden. Fnat og trombiculiasis er begge ektoparasitære tilstande i huden. Derfor er det biologisk plausibelt, at et middel mod fnat også virker på høstmiders larver.
 
-Imidlertid er den eneste tilgængelige understøttende evidens en 2004 veterinær caseserie hos hunde, ikke humane kliniske data. Den mekanistiske plausibilitet er troværdig, men translation til en valideret human indikation er ikke blevet demonstreret.
-
-*Bemærkning om andre TxGNN-forudsigelser i denne evidence pack:* lavere-rangerede kandidater (læbesvulst, underlæbe-fistel, anisakiasis, toxascariasis) blev også genereret af modellen, men vurderes i rationale-dataene som sandsynligt vidensgraf-støj — de har ingen plausibel mekanistisk forbindelse til Permethrin-arthropod-specifik natriumkanalaktivitet, og der eksisterer ingen understøttende litteratur eller forsøg for nogen af dem. Denne rapport fokuserer derfor på den stærkeste kandidat, Trombiculiasis.
+Det eneste støttende studie er udført på hunde. Effekt hos mennesker er ikke påvist, og permethrins bidrag kan ikke isoleres fra pyriproxyfen i studiet.
 
 ---
 
-## Klinisk forsøgsevidenc
+## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidenc
-
-| PMID | År | Type | Journal | Vigtige fund |
-|------|-----|------|---------|---------|
-| [14984153](https://pubmed.ncbi.nlm.nih.gov/14984153/) | 2004 | Dyr-casestudie (veterinært) | The Journal of Small Animal Practice | Topisk permethrin-pyriproxyfenkombinationer løste *Neotrombicula autumnalis*-milbe-dermatitis hos 14 af 15 naturligt inficerede hunde inden for 1–3 uger; ingen humane kliniske data |
-
-**Forbehold:** Dette er det eneste stykke understøttende evidens, er veterinært (kanimt) snarere end humant, og brugte en permethrin-pyriproksy­fen­kombinationspræparat snarere end Permethrin alene.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-Permethrin har i øjeblikket **ingen markedsføringstilladelser** i Danmark (markedsstatus: Ikke markedsført). Ingen produkt-, doseringsform- eller godkendt-indikations-data er tilgængelige fra danske regulatoriske registre for dette stof.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [14984153](https://pubmed.ncbi.nlm.nih.gov/14984153/) | 2004 | Veterinært klinisk studie | The Journal of Small Animal Practice | 15 hunde med naturlig *Neotrombicula*-infestation og moderat til svær kløende dermatitis. Behandling med topisk permethrin-pyriproxyfen (spray eller "line-on") var effektiv hos 14 hunde inden for 1-3 uger, og dermatitten svandt, da parasitangrebet blev behandlet |
+
+---
+
+## Information om markedet i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28101360589 | Nix | Creme | ACO Hud Nordic AB |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller lægemiddel-lægemiddel-interaktionsdata blev returneret for Permethrin i denne Evidence Pack.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvente**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Evidensen er begrænset til en enkelt veterinær caseserie (L4, mekanistisk/præ-klinisk niveau) uden humane kliniske forsøg, og Permethrin har ingen eksisterende markedsføringstilladelse i Danmark til at tjene som regulatorisk fodhold for en ny indikation.
+Forudsigelsen er biologisk plausibel, men den støttes kun af ét dyrestudie med en kombinationsbehandling. Der er ingen humane data. De øvrige forudsigelser fra modellen (f.eks. læbeneoplasmer, fistel i underlæben, anisakiasis og toxascariasis) har ingen mekanistisk begrundelse og ingen støtte i forsøg eller litteratur og bør ikke forfølges.
 
-**For at fortsætte, er følgende nødvendigt:**
-- Bekræftet mekanisme-for-virkning-dokumentation (i øjeblikket et datahul)
-- Humane kliniske data (caserapporter, observationsstudier eller forsøg), der evaluerer Permethrin specifikt for trombiculiasis/jordloppe-milbe-dermatitis
-- Sikkerhed og advarsel-/kontraindikations-data (i øjeblikket et blokerings-datahul — ingen SmPC-niveau-information tilgængelig)
-- Lægemiddel-lægemiddel-interaktions-data (nuværende forespørgsel returnerede ingen resultater)
-- Vurdering af regulatorisk vej, da stoffet ikke er markedsført i Danmark i øjeblikket
+**For at komme videre kræves følgende:**
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, da disse mangler og blokerer sikkerhedsscreeningen
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Den godkendte indikationstekst for Nix i Danmark
+- Litteratursøgning efter humane studier af permethrin alene mod trombiculiasis
+- Vurdering af, om den topiske formulering (creme) er egnet til indikationen
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

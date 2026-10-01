@@ -2,7 +2,7 @@
 layout: default
 title: Becaplermin
 parent: Kun modelforudsigelse (L5)
-nav_order: 57
+nav_order: 58
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,39 +29,32 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Becaplermin: Fra diabetiske fodgesværer til amenoré
+# Becaplermin: Fra kendt anvendelse til den forudsagte nye indikation amenorré
+
+## Resumé
+
+Becaplermin er rekombinant PDGF-BB (en PDGF-receptoragonist) og markedsføres i Danmark som topisk gel (Regranex). TxGNN-modellen forudsiger, at stoffet kan have effekt ved **amenorré**, men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen bygger udelukkende på modellen og bør ikke tolkes som terapeutisk støtte.
 
 ---
 
-## Resumé på én sætning
+## Hurtigt overblik
 
-Becaplermin (Regranex) er et rekombinant humant platelet-derived growth factor BB (PDGF-BB), der oprindeligt blev godkendt til topisk behandling af neuropatiske sår på nedre ekstremitet hos diabetespatienter.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **Amenoré** som den højest rangerede ny indikation (score 99,86%); dog **ingen kliniske forsøg** og **ingen publikationer** understøtter i øjeblikket denne specifikke retning.
-På tværs af alle fem unikt forudsagte indikationer viser mekanistisk analyse konsekvent, at PDGF-BB *agonisme* er enten biologisk usandsynlig eller retningsbestemt kontraindikeret — en **Hold**-beslutning anbefales for alle kandidater, som afventer grundlæggende sikkerhed og mekanistisk gennemgang.
-
----
-
-## Hurtig oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Original indikation | Neuropatiske sår på nedre ekstremitet hos diabetespatienter |
-| Forudsagt ny indikation (Rang 1) | Amenoré |
-| TxGNN-forudsigelsesscore | 99,86% |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Amenorré |
+| TxGNN-forudsigelsesscore | 99,86 % |
 | Evidensniveau | L5 |
-| Markeds status i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | **Hold** |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Becaplermin er rekombinant humant PDGF-BB, der fungerer som PDGF-receptoragonist og primært stimulerer cellproliferation, kemotaksi og ekstracellulær matrixsyntese i væv, der udtrykker PDGF-receptorer (PDGFRα og PDGFRβ). Dens etablerede kliniske rolle er topisk fremme af granulationsvævsformation ved kroniske diabetiske sår.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige. Becaplermin er kendt som rekombinant PDGF-BB, det vil sige en agonist på PDGF-receptoren. I de foreliggende data er der ikke dokumenteret nogen mekanistisk vej fra PDGF-BB-signalering til ovulatorisk funktion eller endometriefunktion.
 
-Detaljerede data om virkningsmekanisme var ikke tilgængelige i Evidence Pack. Baseret på kendt farmakologi er becaplermin en PDGF-BB-receptoragonist; dens effektivitet ved diabetiske fodgesværer er klinisk bevist, og den virker gennem vækstfaktor-signalveie involveret i vævsstyrkelse og cellproliferation. PDGF-signalering er blevet rapporteret at spille en hjælperolle i follikulogenese og ovarial stromacellproliferation, hvilket muligvis har ført til, at TxGNN-vidensgrafen genererede en indirekte association med den kvindelige reproduktive akse.
-
-Imidlertid er den mekanistiske forbindelse til amenoré meget svag. Amenoré skyldes primært dysfunktion i hypothalamus-hypofyse-gonadal (HPG)-aksen, hyperprolaktinæmi eller strukturel uterinpathologi — ingen af disse involverer PDGF-BB som primær mediator. Denne forudsigelse afspejler meget sandsynligt en indirekte knude-niveau association i TxGNN-grafen snarere end en klinisk plausibel biologisk vej.
+Da MOA-data mangler, og der hverken findes forsøg eller litteratur, kan forudsigelsen ikke kontrolleres mod kendt farmakologi. Den høje modelscore afspejler en statistisk sammenhæng i vidensgrafen og siger ikke noget om, hvorvidt stoffet virker klinisk.
 
 ---
 
@@ -71,112 +64,56 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteratursevidens
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der findes i øjeblikket ingen relateret litteratur for amenorré.
 
 ---
 
-## Markedsinformation for Danmark
+## Øvrige forudsigelser i Evidence Pack
 
-Becaplermin er **ikke i øjeblikket markedsført i Danmark**. Det Danske Lægemiddelstyrelse har ingen aktive nationale markedsføringstilladelser for dette produkt.
+Modellen har også forudsagt følgende indikationer. Alle har fået anbefalingen **Hold**, og for flere af dem peger litteraturen i en ugunstig retning for en PDGF-agonist.
 
-> **Regulatorisk note**: Becaplermin (Regranex 0,01% gel) har en centraliseret europæisk markedsføringstilladelse (EU/1/99/095) tildelt af EMA til behandling af neuropatiske diabetiske sår på nedre ekstremitet hos voksne. Selvom EU-tilladelsen teknisk er gyldig på tværs af alle EU/EØS-medlemsstater, synes produktet at have ingen aktiv distribution eller levering i Danmark. Sundhedsprofessionelle, der ønsker at ordinere det, skal muligvis arrangere individuelt import gennem Lægemiddelstyrelsets vej for compassionate use eller navne-patient import.
+| Forudsagt indikation | Score | Evidensniveau | Litteratur | Vurdering |
+|------|------|------|------|------|
+| Erektil dysfunktion | 99,72 % | L4 | Ét præklinisk studie fra 2017 ([28245285](https://pubmed.ncbi.nlm.nih.gov/28245285/)) | PDGFR/STAT3-signalering driver patologisk fænotypeskift i corpus cavernosum. Eksogent PDGF-BB kan forværre tilstanden. Effektretningen er uafklaret. |
+| HER2-positiv brystkræft | 99,70 % | L4 | Ét in vitro-studie fra 2009 ([19298655](https://pubmed.ncbi.nlm.nih.gov/19298655/)) | Kun indirekte evidens (PPAR-gamma og ERBB2-positive celler). PDGF/PDGFR-signalering er generelt tumorfremmende, så der er en teoretisk risiko for fremme af malignitet. |
+| Progesteronreceptor-negativ brystkræft | 99,50 % | L4 | To studier: [24577164](https://pubmed.ncbi.nlm.nih.gov/24577164/) (klinisk biomarkørstudie, 2016) og [21733044](https://pubmed.ncbi.nlm.nih.gov/21733044/) (præklinisk, 2011) | Opløselig PDGFR-β hæmmer væksten af brystkræftceller i knogle. Det tyder på, at PDGF-signalering understøtter tumorprogression, så sammenhængen er sandsynligvis ugunstig. |
+| Pulmonal hypertension | 99,49 % | L4 | 20 publikationer, overvejende prækliniske (fx [33591958](https://pubmed.ncbi.nlm.nih.gov/33591958/), [18420966](https://pubmed.ncbi.nlm.nih.gov/18420966/)) | Der er en stærk mekanistisk kobling, men i skadelig retning. PDGF driver proliferation og remodellering af pulmonale arterielle glatte muskelceller, og PDGFR-hæmning er den terapeutiske retning. En PDGF-BB-agonist forventes at forværre sygdommen. |
+
+---
+
+## Oplysninger om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28101915697 | Regranex | Gel (topisk) | Janssen-Cilag International NV |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se den godkendte Summary of Product Characteristics (SmPC) for komplet sikkerhedsinformation.
+Der foreligger ingen registrerede oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i Evidence Pack (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-> ⚠️ **Kritisk sikkerhedssignal — Black Box Warning**: Becaplermin har en FDA Black Box Warning for øget risiko for krebsdødelighed baseret på post-marketing farmakovigilansdata, der viser højere incidens af maligne neoplasier hos diabetespatienter med fodgesværer, der modtog tre eller flere tuber. Denne advarsel har direkte og alvorlige konsekvenser for ethvert foreslået onkologi-relateret repurposing (se Yderligere forudsagte indikationer nedenfor).
-
----
-
-## Yderligere forudsagte indikationer — Oversigt og sikkerhedsvurdering
-
-TxGNN-modellen returnerede fem unikke forudsagte indikationer (hver optræder to gange på den rangerede liste). Alle fem modtog en **Hold**-anbefaling. Tabellen nedenfor opsummerer hver enkelt, efterfulgt af hovedmekanismens bekymring.
-
-| Rang | Forudsagt indikation | TxGNN-score | Evidensniveau | Litteratur | Anbefaling |
-|------|---------------------|------------|---------------|-----------|-----------|
-| 1 | Amenoré | 99,86% | L5 | 0 | Hold |
-| 3 | Erektil dysfunktion | 99,72% | L4 | 1 | Hold |
-| 5 | HER2+ Brystkarcinom | 99,70% | L4 | 1 | Hold |
-| 7 | PR– Brystkræft | 99,50% | L4 | 2 | Hold |
-| 9 | Lungearterial hypertension | 99,49% | L4 | 20 | Hold |
+Ud fra litteraturen om de øvrige forudsagte indikationer bør et eventuelt videre arbejde starte med en gennemgang af sikkerhed og kontraindikationer, især med hensyn til maligne sygdomme.
 
 ---
 
-### Erektil dysfunktion — Litteratursevidens
+## Konklusion og næste skridt
 
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|-----------|-------------------|
-| [28245285](https://pubmed.ncbi.nlm.nih.gov/28245285/) | 2017 | Basalvidenskab (celle/molekylær) | PLoS One | PDGFR/STAT3-signalering regulerer fænotypisk overgang af corpus cavernosum glat muskelceller (CCSMCs) hos rotter; hypoksi-drevet fænotypisk skifte indblandet i ED-patogenese |
-
-**Mekanismens bekymring**: PDGFR/STAT3-signalering er involveret i CCSMC-fænotypisk overgang (kontraktil → syntetisk), som er patologisk relevant for erektil dysfunktion. Imidlertid kan becaplermin som en PDGF-BB *agonist* *fremme* glat muskelcellproliferation og syntetisk fænotypisk overgangsformindskelse, teoretisk forværre fibrøs remodellering snarere end vende den. Den mekanistiske retning kræver meget omhyggelig vurdering før eventuel yderligere undersøgelse.
-
----
-
-### HER2+ Brystkarcinom — Litteratursevidens
-
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|-----------|-------------------|
-| [19298655](https://pubmed.ncbi.nlm.nih.gov/19298655/) | 2009 | Basalvidenskab (cellemodel) | Breast Cancer Research | PPARγ beskytter ERBB2-positive brystcellekræftceller mod palmitatgiftighed via lipidmetabolismeregulering; de novo fedtsyresyntese er kritisk for ERBB2+-celleoverlevelse |
-
-**Mekanismens bekymring — retning vendt om**: PDGF-signalering i tumorens mikroomgivelse virker generelt som en pro-tumorigener driver (aktivering af kræft-associerede fibroblaster, promovering af angiogenese og tumorinvasion). Kombineret med den eksisterende Black Box Warning for øget kræftforekomst bærer brugen af en PDGF-BB-agonist i HER2+-brystkræft en betydelig teoretisk risiko for at accelerere tumorvækst. Den mekanistiske begrundelse er direkte i konflikt med behandlingsmålet.
-
----
-
-### PR– Brystkræft — Litteratursevidens
-
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|-----------|-------------------|
-| [24577164](https://pubmed.ncbi.nlm.nih.gov/24577164/) | 2016 | Biomarkørstudie (klinisk) | American Journal of Clinical Oncology | Høj cirkulerende Tie2 associeret med patologisk komplet respons på kemoterapy og anti-angiogene terapy (bevacizumab) i brystkræft; angiogent vej-profil |
-| [21733044](https://pubmed.ncbi.nlm.nih.gov/21733044/) | 2011 | Basalvidenskab (dyremodel) | Cancer Science | Opløselig PDGFRβ (isotype-receptor) *hæmmer* intraosseøs vækst af brystkræftceller hos nude mus; blokering af PDGF-BB/PDGFRβ-signalering reducerer benfjernsider |
-
-**Mekanismens bekymring — retning direkte vendt om**: PMID 21733044 demonstrerer eksplicit, at *reduktion* af PDGF-BB/PDGFRβ-signalering hæmmer brystkræft benfjernsider. Becaplermin som PDGF-BB-agonist virker i den helt modsatte retning. PR– brystkræft bærer højere aggressivitet, og PDGF-vejaktivering er associeret med promovering af epithelial-mesenchymal overgang (EMT) og metastatisk udbredelse. Denne forudsigelse bør ikke forfølges.
-
----
-
-### Lungearterial hypertension — Litteratursevidens
-
-| PMID | År | Type | Tidsskrift | Vigtigste resultater |
-|------|-----|------|-----------|-------------------|
-| [33591958](https://pubmed.ncbi.nlm.nih.gov/33591958/) | 2021 | Dyremodel + humant væv | JCI Insight | Makrofag-afledt PDGF-B **inducerer direkte** lungearteriol-muskulaturing i murin og human PAH; clodrona-medieret makrofag-depletion attenuerer sygdom |
-| [18420966](https://pubmed.ncbi.nlm.nih.gov/18420966/) | 2008 | Mekanistisk studie | Am J Respir Crit Care Med | PDGF fremmer PASMC-proliferation og migration; overudtrykkelse demonstreret i idiopatisk PAH-læsioner |
-| [18382765](https://pubmed.ncbi.nlm.nih.gov/18382765/) | 2008 | Dyremodel + humane SMCs | J Clin Invest | BMP-2/PPARγ/apoE-akse forhindrer PDGF-BB–induceret PASMC-proliferation; BMP-RII-mutationer knyttet til PAH |
-| [17339547](https://pubmed.ncbi.nlm.nih.gov/17339547/) | 2007 | Dyremodel | Circulation | Øget PDGF-signalering i apoE-deficiente mus knyttet til PAH; PPARγ-aktivering vender sygdom |
-| [19324949](https://pubmed.ncbi.nlm.nih.gov/19324949/) | 2009 | Klinisk studie | European Respiratory Journal | Forhøjet cirkulerende PDGF-BB-niveauer på tværs af lungecirkulation hos PAH-patienter; korrelerer med hæmodyn amisk alvor |
-| [39360410](https://pubmed.ncbi.nlm.nih.gov/39360410/) | 2024 | Basalvidenskab (ikke-kodende RNA) | Arteriosclerosis, Thrombosis, Vascular Biology | PDGF-signalering-aktivering fremmer PASMC-hyperproliferation og pulmonar vaskulær remodellering i PAH |
-| [39901736](https://pubmed.ncbi.nlm.nih.gov/39901736/) | 2025 | Multi-omics, dyremodel | American Journal of Hypertension | PDGF-BB–induceret PASMC-model brugt til at kortlægge transkriptomiske og metabolomiske ændringer i PAH-patogenese |
-| [41213438](https://pubmed.ncbi.nlm.nih.gov/41213438/) | 2026 | Basalvidenskab (dyremodel) | Free Radical Biology & Medicine | TRIB2 fremmer PASMC-proliferation via SERCA2-ubiquitinering; PDGF-BB-stimulation brugt som sygdomsmodel |
-| [39551320](https://pubmed.ncbi.nlm.nih.gov/39551320/) | 2024 | Basalvidenskab (ikke-kodende RNA) | Int J Biological Macromolecules | miR-34a-3p/DUSP1-akse hæmmer PDGF-BB–induceret hPASMC-proliferation; MEG3 lncRNA forværrer APE-induceret PAH |
-| [38614383](https://pubmed.ncbi.nlm.nih.gov/38614383/) | 2024 | Farmakologisk studie | European Journal of Pharmacology | Corosolsyre attenuerer PDGF-signalering i makrofager og SMCs; anti-PAH-effekt via PDGF-vejblokering *inhibition* |
-
-**Mekanismens bekymring — kritisk vendt om, høj patientsikkerheds risiko**: Dette er det mest klinisk signifikante sikkerhedsflag i hele analysen. Det overvejende konsensus på tværs af 20 publikationer er, at PDGF-B/PDGFRβ-signalering *driver* lungearterial glat muskelcelle (PASMC) hyperproliferation og vaskulær remodellering — den definerende patologiske proces for pulmonal arteriehypertension (PAH). Vigtigt er det, at PDGF-receptorinhibitoren imatinib (Gleevec) har været undersøgt i Phase 3-kliniske forsøg for PAH præcis ved at *blokere* denne vej. Administration af becaplermin (en PDGF-BB *agonist*) til en patient med lungearterial hypertension ville teoretisk direkte accelerere vaskulær remodellering. **Denne indikation må ikke forfølges.**
-
----
-
-## Konklusion og næste trin
-
-**Beslutning: Hold (Alle forudsagte indikationer)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-For den højest rangerede forudsigelse (amenoré) er evidensniveauet L5 — modelforudsigelse alene, uden nogen understøttende kliniske forsøg eller publiceret litteratur, og uden biologisk plausibel mekanistisk forbindelse mellem PDGF-BB-agonisme og tilstanden. Mere bredt set på tværs af alle fem forudsagte indikationer viser mekanistisk analyse konsekvent, at becaplerimins virkningsmekanisme (PDGF-BB-agonisme) enten er retningsbestemt inkonsistent med terapeutisk fordel eller udgør aktiv sikkerhedsrisiko — mest kritisk for lungearterial hypertension, hvor den eksisterende litteratur etablerer PDGF-BB som en nøglesygdomsdriver, og i onkologi-relaterede indikationer, hvor den eksisterende Black Box Warning skal behandles som et blokerede signal.
+Forudsigelsen for amenorré er ren modelforudsigelse (L5) uden kliniske forsøg, litteratur eller dokumenteret mekanistisk sammenhæng. For flere af de øvrige forudsagte indikationer (pulmonal hypertension, brystkræft) peger den tilgængelige litteratur på, at en PDGF-agonist snarere kan skade end gavne.
 
-**For at fortsætte med eventuelle yderligere undersøgelser kræves følgende:**
+**For at komme videre kræves:**
+- Data om virkningsmekanismen (MOA) fra DrugBank
+- Gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med hensyn til advarsler og kontraindikationer
+- Mekanistisk begrundelse for en sammenhæng mellem PDGF-BB og ovulatorisk funktion/endometriefunktion
+- Vurdering af, om topisk gel-farmakokinetik overhovedet er forenelig med de forudsagte indikationer
+- Sikkerhedsvurdering af risikoen for fremme af malignitet, inden der overvejes yderligere udvikling
 
-- **MOA-datakløft-løsning**: Indhent fuldt DrugBank-virkningsmekanisme-profil til karakterisering af receptorbindingspecificitet, nedstrøms signalveie og vævsfordeling
-- **Dansk regulatoriske og sikkerhedsdata**: Indhent den godkendte EMA SmPC for Regranex (EU/1/99/095), med særlig opmærksomhed på onkologi Black Box Warning og dens implikationer for enhver foreslået ny indikation
-- **Rutekompabilitetsvurdering**: Den aktuelle godkendte formulering er gel til topisk brug (0,01%). For alle forudsagte indikationer (amenoré, erektil dysfunktion, brystkræft, lungearterial hypertension) ville systemisk eller alternativ levering være nødvendig — et separat formulerings-udviklingsprogram ville være nødvendigt
-- **Præklinisk biologisk plausibilitetsindsats for amenoré**: Før eventuel klinisk overvejelse ville in vitro og in vivo-studier demonstrering af PDGF-BB–medierede effekter på HPG-aksisregulering eller endometriefunction være påkrævet
-- **Formel sikkerhedsrisikovurdering for onkologi-tilstødende indikationer**: Før eventuel undersøgelse i brystkarcinomsubtyper må en struktureret benefit-risk-analyse, der adresserer Black Box Warning og pro-tumorigener PDGF-signalerings rolle, være afsluttet og gennemgået af et multidisciplinært hold
-- **Definitivt udelukkelse af lungearterial hypertension**: I betragtning af vægten af evidens demonstrering PDGF-BB som direkte bidragyder til PAH-patogenese, bør denne indikation være formelt udelukket fra yderligere repurposing-overvejelse uden extraordinær ny mekanistisk evidens
-
----
-
-*Denne rapport er genereret til forskningsmæssige referenceformål alene og udgør ikke lægeligt råd. Alle lægemiddel-repurposing-kandidater kræver klinisk validering før eventuel terapeutisk anvendelse. Se venligst den fuldt godkendte Summary of Product Characteristics (SmPC) for alle ordinationsbeslutninger.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelgenanvendelse kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

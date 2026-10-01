@@ -2,7 +2,7 @@
 layout: default
 title: Tafasitamab
 parent: Kun modelforudsigelse (L5)
-nav_order: 415
+nav_order: 417
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,97 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tafasitamab: Fra diffust stort B-celle-lymfom til lægemiddelinduseret osteoporose
+# Tafasitamab: Fra B-cellelymfom til lægemiddelinduceret osteoporose
 
-## Sammenfatning på en sætning
+## Resumé
 
-Tafasitamab er et anti-CD19-monoklonalt antistof, der bruges (i kombination med lenalidomid) til recidiv-/behandlingsresistent diffust stort B-celle-lymfom (DLBCL). TxGNN-modellen forudsiger, at det kan være effektivt til **lægemiddelinduseret osteoporose**, men denne retning understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — det er udelukkende en modelgenereret hypotese.
-
----
-
-## Hurtig oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke registreret i Danmark; ifølge DrugBank godkendt (sammen med lenalidomid) til recidiv-/behandlingsresistent diffust stort B-celle-lymfom (DLBCL) |
-| Forudsagt ny indikation | Lægemiddelinduseret osteoporose |
-| TxGNN-forudsigelsesscore | 98.71% |
-| Bevisniveau | L5 |
-| Status på det danske marked | Ikke markedsført (Ikke markedsført) |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+Tafasitamab er et anti-CD19-antistof, der i Danmark markedsføres under navnet MINJUVI. Evidence Pack'en oplyser ikke den oprindelige indikation, men præparatet bruges generelt mod B-cellelymfom. TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**. Forudsigelsen står alene: der er **0 kliniske forsøg** og **0 publikationer** bag den.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-I øjeblikket er detaljerede virkningsmekanisme-data ikke tilgængelige i et struktureret felt. Baseret på den tilgængelige begrundelse er tafasitamab et humaniseret, Fc-modificeret anti-CD19-monoklonalt antistof, der eliminerer B-celler via ADCC, ADCP, CDC og direkte apoptoseinduktion. Det er godkendt til brug i kombination med lenalidomid til recidiv-/behandlingsresistent DLBCL.
-
-Det teoretiske bånd til lægemiddelinduseret osteoporose hviler på iagttagelsen af, at B-celler kan udsondre RANKL, en driver af osteoklast-aktivering, så B-celledeplettering kunne i princippet påvirke knoglemetabolismen. Lægemiddelinduseret osteoporose i klinisk praksis er imidlertid typisk forårsaget af kortikosteroider eller cytotoksisk kemoterapih, ikke af CD19-målrettet immunoterapi — der er ingen etableret patologisk forbindelse mellem disse mekanismer.
-
-Dette betyder, at forudsigelsen højst sandsynligt afspejler en indirekte association på embedningsniveauet i vidensgrafen, snarere end en valideret biologisk mekanisme. Ingen klinisk eller publiceret evidens understøtter i øjeblikket dette bånd.
-
----
-
-## Klinisk forsøgsevidence
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i godkendelsesteksten i Evidence Pack'en (generelt: B-cellelymfom) |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
+| TxGNN-forudsigelsesscore | 98,7 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturevidence
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i Evidence Pack'en. Tafasitamab er et Fc-modificeret anti-CD19-antistof, som nedbryder B-celler via ADCC (antistofafhængig cellemedieret cytotoksicitet) og ADCP (antistofafhængig cellulær fagocytose).
+
+Den mekanistiske sammenhæng med osteoporose er spekulativ og indirekte. B-celler bidrager til produktionen af RANKL og dermed til knogleomsætningen. Der er dog intet direkte belæg for, at CD19-depletion beskytter mod lægemiddelinduceret knogletab. Den høje score kan afspejle nærhed i vidensgrafen snarere end reel biologi.
+
+**Øvrige forudsigelser (alle L5, Hold):** Inputtet indeholdt hver forudsigelse to gange, og dubletterne er slået sammen. Ingen af dem har kliniske forsøg eller litteratur.
+
+| Forudsagt indikation | Score | Vurdering af mekanisme |
+|------|------|------|
+| Svær non-proliferativ diabetisk retinopati | 97,3 % | Ingen plausibel sammenhæng mellem CD19-rettet B-celledepletion og retinal mikrovaskulær sygdom |
+| Diabetisk retinopati | 95,4 % | Overordnet tilstand til ovenstående. De to forudsigelser er ikke uafhængig evidens |
+| HER2-positivt brystkarcinom | 94,5 % | CD19 er en B-cellemarkør og ikke et mål i HER2-drevet brystkræft. Sandsynligvis en artefakt fra antistofklasse-lighed |
+| Psoriasis | 94,0 % | Sygdommen er primært T-celle- og IL-23/IL-17-drevet. Svag og indirekte begrundelse |
 
 ---
 
-## Information om det danske marked
+## Klinisk evidens fra forsøg
 
-Tafasitamab har i øjeblikket ingen markedsføringstilladelse i Danmark (0 licenser på rekord); lægemidlet er ikke markedsført i denne jurisdiktion.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106439520 | MINJUVI (Incyte Biosciences Distribution) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
 ---
 
 ## Cytotoksicitet
 
-Tafasitamab er et antineoplastisk middel (godkendt til DLBCL, en ondarteds-lymfom), så dette afsnit gælder.
-
-| Element | Indhold |
-|---------|---------|
-| Cytotoksicitetsklassifikation | Målrettet immunoterapi (anti-CD19, Fc-modificeret monoklonalt antistof; ADCC/ADCP/CDC-medieret) |
-| Myelsuppressionsrisiko | Se venligst Produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se venligst Produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Overvågningspunkter | Se venligst Produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se venligst Produktresumé (SmPC) for advarsler og forsigtighedsregler |
+| Punkt | Indhold |
+|------|------|
+| Klassifikation | Immunterapi (monoklonalt antistof, anti-CD19). Ikke et konventionelt cytotoksisk kemoterapeutikum |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC). Typisk overvågning af blodstatus |
+| Håndtering og beskyttelse | Følg SmPC og lokale retningslinjer for håndtering af onkologiske lægemidler |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation.
+Der foreligger ingen sikkerhedsdata i Evidence Pack'en, og en søgning efter lægemiddelinteraktioner gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er baseret udelukkende på TxGNN-modelscoring (L5) uden understøttende kliniske forsøg eller litteratur, og det foreslåede mekanistiske bånd til lægemiddelinduseret osteoporose er biologisk svagt og uvalideret. Desuden er Danmark-specifik regulatorisk og sikkerhedsinformation (SmPC advarsler/kontraindikationer) i øjeblikket utilgængelig, hvilket blokerer initial sikkerhedsscreening (S1).
+Forudsigelsen bygger udelukkende på TxGNN-modellen (L5) uden kliniske forsøg eller litteratur. Den mekanistiske sammenhæng mellem CD19-depletion og lægemiddelinduceret osteoporose er svag og spekulativ. Sikkerhedsdata fra Lægemiddelstyrelsen mangler, og det blokerer for videre sikkerhedsscreening.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/Dansk SmPC advarsler, kontraindikationer og DDI-data (i øjeblikket blokeret — DG001)
-- Bekræftet oprindelig indikation og detaljeret dokumentation af virkningsmekanisme (DG002)
-- Præklinkiske eller mekanistiske studier, der undersøger B-celledeplettering og knoglemetabolisme/RANKL-vej
-- Eventuelle nye case reports, registre eller forsøgssignaler, der specifikt forbinder tafasitamab til knogledensitetsresultater
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Indhent data om virkningsmekanisme (MOA) fra DrugBank
+- Gennemfør en systematisk litteratursøgning om B-celler, RANKL og knogletab med fokus på CD19-rettet behandling
+- Præklinisk eller mekanistisk validering, før kliniske forsøg overvejes
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

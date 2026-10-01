@@ -2,7 +2,7 @@
 layout: default
 title: Anifrolumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 40
+nav_order: 41
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,92 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anifrolumab: Fra systemisk lupus erythematosus til diabetisk stær
+# Anifrolumab: Fra systemisk lupus erythematosus til diabetisk katarakt
 
-## Sammenfatning i én sætning
+## Resumé i få sætninger
 
-Anifrolumab (Saphnelo) er et fuldt humaniseret monoklonalt antistof, der retter sig mod type I interferon-receptorens underenhed 1 (IFNAR1), godkendt internationalt til moderat til svær systemisk lupus erythematosus (SLE) hos voksne patienter, der modtager standardbehandling.
-TxGNN-modellen forudsiger, at det kan være effektivt til **diabetisk stær** med en forudsigelsesscore på 98.50%; der er imidlertid **0 kliniske forsøg** og **0 publikationer**, der i øjeblikket understøtter denne retning, og den mekanistiske analyse i evidenspakken rejser alvorlige bekymringer om validiteten af denne forudsigelse.
-
-> ⚠️ **Kun til forskningsmæssig brug.** Denne rapport er kun til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Kandidater til genbrug af lægemidler kræver klinisk validering før eventuel anvendelse.
+Anifrolumab er et monoklonalt antistof, der blokerer type I-interferon-receptoren (IFNAR1). Det er godkendt til systemisk lupus erythematosus (SLE).
+TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende beregnet af modellen.
 
 ---
 
 ## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Moderat til svær aktiv systemisk lupus erythematosus (SLE) hos voksne [international godkendelse; ikke registreret i Danmark] |
-| Forudsagt ny indikation | Diabetisk stær |
-| TxGNN-forudsigelsesscore | 98.50% |
-| Bevisniveau | L5 |
-| Status på det danske marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | **Afvent** |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Systemisk lupus erythematosus (SLE). Den danske godkendelsestekst er ikke tilgængelig i datagrundlaget, så oplysningen stammer fra mekanismebeskrivelsen |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,5 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme var ikke tilgængelige i denne evidenspakke. Baseret på offentligt tilgængelig information er anifrolumab et fuldt humaniseret IgG1κ monoklonalt antistof, der binder til underenhed 1 af type I interferon-receptoren (IFNAR1) og blokerer signalering fra alle type I interferonerα, IFN-β, IFN-ω). En forhøjet "interferonsignatur" – opreguleret udtrykkelse af interferon-stimulerede gener – observeres hos størstedelen af SLE-patienter og driver systemisk inflammation, organskade og sygdomsudbrud. Ved at blokere IFNAR1 undertrykker anifrolumab downstreamJAK/STAT-medieret interferon-stimuleret genekspression og dæmper denne patologiske immunaktivering.
+Anifrolumab er et anti-IFNAR1-antistof, der blokerer type I-interferon-signalering. Detaljerede mekanismedata fra DrugBank foreligger endnu ikke, så vurderingen bygger på den kendte virkningsmekanisme.
 
-Diabetisk stær, den højestrangerede forudsagte indikation, drives primært af hyperglykæmi-induceret aktivering af aldosereduktase (polyolvejen), osmotisk stress fra sorbitolophobning, dannelse af avancerede glykeringsendeprodukter (AGE) og oxidativ skade på linseproteiner. Disse mekanismer adskiller sig fundamentalt fra type I interferon-signalering. Selvom der er nye forskningstudier, der udforsker en rolle for IFN-α i at fremme betændelse på øer ved type 2-diabetes, mangler årsagssammenæhæng fra IFNAR1-blokering til forebyggelse eller behandling af linseopalisering enhver direkte patofysiologisk, præ-klinisk eller klinisk understøttelse.
+Diabetisk katarakt skyldes primært øget flux gennem polyol-vejen, oxidativt stress og glykering i øjets linse. Der er ingen etableret sammenhæng mellem type I-interferon-signalering og disse processer. En forbindelse via interferon-medieret inflammation er spekulativ.
 
-Et kritisk fund i denne evidenspakke er, at **alle 10 toprangerede forudsigelser er stærvarianter** (diabetisk, tetanisk, moden, umoden, kraniostenose-associeret og T2DM-associeret). Dette tætte klyngermønster tyder stærkt på en **topologiartefakt i vidensgrafen** – TxGNN-modellen ser ud til at have tildelt høje scorer baseret på grafnabo-proximitet blandt oftalmologiske sygdomsknuder snarere end ægte biologisk plausibilitet. Flere af de forudsagte tilstande (tetanisk stær forvoldt af hypokalcæmi, kraniostenose-associeret stær drevet af FGFR-mutationer) har ingen tænkelig immunologisk mekanisme og er eksplicit markeret som modelfejklassifikationer i evidenspakkens begrundelse. Sundhedspersonalet bør fortolke disse høje TxGNN-scorer med betydelig forsigtighed.
+Der er også et praktisk problem: Linsen har ikke egne blodkar, og et stort biologisk lægemiddel når sandsynligvis ikke linsen i meningsfulde koncentrationer efter systemisk dosering. Den høje score (0,985) er en ren vidensgraf-forudsigelse og bør ikke tolkes som klinisk evidens.
+
+### Øvrige forudsigelser i samme datasæt
+
+Alle har evidensniveau L5 og beslutningen Hold. Der er ingen kliniske forsøg eller publikationer for nogen af dem.
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Tetanisk katarakt | 98,4 % | Knyttet til hypokalcæmi og hypoparathyroidisme. Kalciumhomeostase har ingen forbindelse til IFNAR-blokade |
+| Moden katarakt | 98,4 % | Fremskreden degenerativ linsetæthed, behandles kirurgisk. Ingen kendt afhængighed af type I-interferon |
+| Umoden katarakt | 98,4 % | Tidlig eller partiel linsetæthed. Ingen farmakologisk begrundelse |
+| Kraniostenose-katarakt | 98,4 % | Sjælden syndromal tilstand med genetisk eller strukturel årsag. Sandsynligvis en graf-artefakt |
+| Katarakt forbundet med type 2-diabetes | 98,4 % | Samme vurdering som for diabetisk katarakt |
 
 ---
 
-## Bevis fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-Anifrolumab er i øjeblikket ikke registreret eller markedsført i Danmark. Der foreligger ingen aktive markedsføringstilladelser udstedt af Lægemiddelstyrelsen eller via den centraliserede EMA-procedure for dette lægemiddel på det danske marked på tidspunktet for denne rapport (dataudklip: 2026-04-04).
-
-For kontekst skal det nævnes, at anifrolumab (Saphnelo, AstraZeneca) modtog EMA's centraliserede markedsføringstilladelse inden for Den Europæiske Union i februar 2023 til behandling af moderat til svær aktiv systemisk lupus erythematosus hos voksne patienter, der modtager standardbehandling. Danske klinikere, der søger adgang, kan udforske veje via patientnavn eller humanitær brug gennem Lægemiddelstyrelsen. Den aktuelle EMA-godkendelsesstatus bør verificeres på brugstidspunktet via EMA's produktside.
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28107301624 | Saphnelo | Injektionsvæske, opløsning i fyldt injektionssprøjte | AstraZeneca AB |
 
 ---
 
-## Sikkerhedsmæssige hensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte Produktresumé (Produktinformation, SmPC) for sikkerhedsinformation. Fuldstændige advarsels-, kontraindikations- og lægemiddelinteraktionsdata var ikke tilgængelige i denne evidenspakke og bør hentet fra det EMA-godkendte Saphnelo-Produktresumé før eventuel klinisk overvejelse.
+Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Oplysninger om advarsler og kontraindikationer mangler.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Alle 10 TxGNN-forudsagte indikationer for anifrolumab er stærvarianter, ingen har understøttende kliniske forsøg eller peer-review-litteratur, og den mekanistiske analyse i denne evidenspakke identificerer eksplicit disse forudsigelser som sandsynlige vidensgrafs falske positive uden nogen plausibel IFNAR1-til-linsebio logi-forbindelse. Denne genbrugshypotese berettiger ikke yderligere udvikling på nuværende tidspunkt.
+Forudsigelsen bygger kun på en vidensgraf og mangler både mekanistisk og klinisk støtte. Yderligere er systemisk levering af et stort antistof til den avaskulære linse usandsynlig. De øvrige katarakt-forudsigelser har samme svaghed.
 
-**For at kunne fortsætte ville følgende være nødvendigt:**
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som i øjeblikket blokerer sikkerhedsscreeningen
+- Detaljerede mekanismedata (MOA) fra DrugBank
+- Præklinisk evidens for en rolle for type I-interferon i linsens patologi ved diabetes
+- Vurdering af, om lægemidlet kan nå linsen (administrationsvej og lokal levering)
 
-- Identifikation af en biologisk plausibel mekanistisk forbindelse mellem IFNAR1-blokering og stærdannelse (f.eks. et peer-review præ-klinisk studie, der demonstrerer type I interferon-vejinvolvering i linseopalisering)
-- Genevaluering af TxGNN-modeludstik for anifrolumab ved hjælp af debiaserede eller omvægtede vidensgrafskan for at udelukke topologiartefakter
-- Indhentelse af fuldstændig sikkerhedsprofil fra det EMA-godkendte Produktresumé, herunder vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata
-- Hvis en troværdig mekanistisk hypotese dukker op: en prospektiv gennemførlighedsvurdering, herunder kompatibilitet med administrationsrute (godkendt rute: intravenøs infusion) og definition af målpatientpopulation
-
----
-
-*Rapport genereret: 2026-04-04 | Evidenspakke: TW-DB11976-multi v4 | Dataudklip: 2026-04-04*
-*Denne rapport er kun til forskningsmæssig reference og udgør ikke medicinsk rådgivning. Genbrugskandidater kræver klinisk validering før anvendelse.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomlægning kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

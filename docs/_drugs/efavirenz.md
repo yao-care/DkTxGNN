@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Efavirenz
-parent: Moderat evidens (L3-L4)
-nav_order: 155
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 156
+evidence_level: L5
 indication_count: 6
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,96 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Efavirenz: Fra HIV-1-infektion til Simian Immunodeficiency Virus-infektion
+# Efavirenz: Fra hiv-1-behandling til simian immundefektvirus-infektion (SIV)
 
-## Et-sætnings-resumé
+## Resumé i få sætninger
 
-Efavirenz er en første-generations ikke-nukleosidisk revers transkriptase-hæmmer (NNRTI) brugt som del af kombineret antiretroviral terapi til HIV-1-infektion hos mennesker. TxGNN-modellen forudsiger, at det også kan være effektivt til **Simian Immunodeficiency Virus (SIV)-infektion**, med **1 registreret klinisk forsøg** (trukket tilbage før indskrivning) og **16 publikationer** — overvejende prekliniske makak-studier — der i øjeblikket støtter denne retning.
+Efavirenz er en non-nukleosid revers transkriptase-hæmmer (NNRTI), som bruges mod hiv-1. Denne indikation fremgår dog ikke af de leverede registerdata. TxGNN-modellen forudsiger, at stoffet kan have effekt mod **simian immundefektvirus-infektion**. Det støttes af **1 klinisk forsøg** (trukket tilbage, 0 deltagere, og det undersøger ikke efavirenz) og **15 publikationer**, hvoraf langt de fleste er dyreforsøg i makakaber. Det er en dyremodel for hiv-1-behandling og ikke en ny human indikation.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original indikation | HIV-1-infektion (kombineret antiretroviral terapi) |
-| Forudsagt ny indikation | Simian Immunodeficiency Virus-infektion |
-| TxGNN-forudsigelsesscore | 99.80% |
-| Evidensniveau | L4 |
-| Status på dansk marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+|------|------|
+| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data (godkendelsesteksten er tom). Efavirenz er kendt som hiv-1 NNRTI. |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion |
+| TxGNN-prædiktionsscore | 99,80 % |
+| Evidensniveau | L4 (prækliniske studier) |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse fornuftig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Efavirenz er en velkarakteriseret NNRTI, hvis primære mekanisme involverer ikke-konkurrerende, allosterisk inhibition af HIV-1 revers transkriptase (RT). Det binder til en hydrofob lomme cirka 10 Å fra RT aktivitetssiden, hvilket inducerer konformationelle ændringer, der undertrykker katalytisk aktivitet og blokerer viral DNA-syntese. I øjeblikket er detaljerede mekanisme-data ikke tilgængelige i denne Evidenspakke (Data Gap DG002). Baseret på etableret farmakologi inhiberer efavirenz selektivt HIV-1 RT og har demonstreret potent antivirale aktivitet som del af engang daglig kombinerede regimer såsom Atripla (efavirenz/emtricitabin/tenofovir).
+Der foreligger ingen detaljerede data om virkningsmekanisme i evidenspakken. Efavirenz hæmmer revers transkriptase hos hiv-1 ved at binde til enzymet uden for det aktive sted. Vildtype-SIV er naturligt resistent over for NNRTI'er, så dyrestudierne bruger kimære vira (RT-SHIV), hvor SIV's revers transkriptase er erstattet af hiv-1's. I denne model viser behandlingsregimer med efavirenz, at virusmængden i blodet kan nedbringes.
 
-Simian Immunodeficiency Virus har betydelig genetisk og strukturel homologi med HIV-1, hvilket gør det til den kanoniske ikke-humane primat-model for HIV/AIDS-forskning. Dog gælder en kritisk mekanistisk forbehold: **vild-type SIV revers transkriptase adskiller sig strukturelt fra HIV-1 RT ved NNRTI-bindingslommen**, hvilket gør native SIV iboende resistent over for efavirenz og alle første- og anden-generations NNRTI'er. Hele efavirenz-relateret SIV-litteraturen i denne pakke vedrører **RT-SHIV**, et engineeret kimerisk virus, hvor SIV RT-kodningsregionen er blevet erstattet af HIV-1 RT for at skabe en NNRTI-modtagelig primat-model.
+Den forudsagte "indikation" afspejler derfor primært, at modellen er blevet brugt til at studere hiv-1-hæmning, og ikke en ny behandling til mennesker. SIV er en virussygdom hos aber. Evidensen siger noget om efavirenz' virkning på hiv-1 revers transkriptase i en dyremodel, men ikke om en ny human anvendelse.
 
-TxGNN-forudsigelsen fanger næsten sikkert denne mekanistiske overlapning mellem HIV-1 RT og det kimeriske RT-SHIV-konstrukt snarere end en ægte ny terapeutisk mulighed. Selvom RT-SHIV makak-modellen har været uvurderlig for at studere HAART-farmakologi, virale reservoir-dynamikker og NNRTI-resistensudvikling, repræsenterer denne "indikation" ikke et særskilt klinisk behov ud over efavirenz's etablerede HIV-1-indikation hos mennesker.
+Modellen giver samme score til andre forudsigelser: felint erhvervet immundefektsyndrom (FIV) og en sjælden neuroudviklingsforstyrrelse med ataksi, manglende tale og nedsat hvid substans i hjernebarken. For FIV findes der kun et in vitro-studie (PMID 38031646), som antyder mulig binding til FIV's revers transkriptase. De to relaterede kliniske forsøg (NCT00951015 og NCT01263015) er humane hiv-1-studier af dolutegravir og viser ikke efavirenz-effekt ved FIV. For den neuroudviklingsmæssige forstyrrelse foreligger hverken forsøg eller litteratur, og der er ingen påvist mekanistisk sammenhæng.
 
 ---
 
-## Klinisk forsøgs-evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Indskrivning | Vigtigste fund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Trukket tilbage | 0 | Planlagt studie af HIV/SIV RNA-nedbrydningskinetik under ART, inklusiv integrase-hæmmeren raltegravir; trukket tilbage før nogen deltagere blev indskrevet — ingen effektivitets- eller sikkerhedsdata tilgængelige |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | Ikke relevant (NA) | Trukket tilbage | 0 | Henfaldskinetik for hiv med integrasehæmmeren raltegravir. Undersøger hverken efavirenz eller SIV og har ingen brugbare kliniske data. |
+
+Der er ikke fundet EudraCT-numre.
 
 ---
 
-## Litteratur-evidens
+## Evidens fra litteraturen
 
-| PMID | År | Type | Tidsskrift | Vigtigste fund |
+Der er ingen randomiserede forsøg. Alle publikationer er dyre-, in vitro- eller laboratoriestudier.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preklinisk (dyr) | Journal of Virology | Efavirenz + lamivudin + tenofovir HAART undertrykkede RT-SHIV plasma viral RNA med >4 log₁₀ kopier/mL i alle 7 rhesus-makakker, etablerede RT-SHIV-modellen for HAART-forskning |
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preklinisk (imaging) | Antimicrobial Agents and Chemotherapy | Massespectrometri-imaging af 6 ARV'er, inklusiv efavirenz, kortlagde lægemiddelpenetration i forhold til viral RNA og fibrosemarkører i miltene af RT-SHIV-inficerede ikke-humane primater |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preklinisk (dyr) | Antimicrobial Agents and Chemotherapy | Fire- og fem-medicin forbedret HAART-regimer indeholdende efavirenz i RT-SHIV-makakker; forbedret tidlig viral nedbrydningskinetik sammenlignet med standard tre-medicin regimer |
-| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preklinisk (dyr) | Retrovirology | Veludblandet plasma- og vævsvirale populationer i ART-behandlede RT-SHIV-makakker tyder på minimal løbende viral replikering i væv under efavirenz-baseret kombinationsterapi |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Preklinisk (dyr) | Journal of Virology | Omfattende kortlægning af viralt reservoir i RT-SHIV-makakker under HAART; hvilende CD4⁺ T-celler og makrofager identificeret som persistenssteder trods efavirenz-baseret undertrykkelse |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preklinisk (dyr) | Journal of Virology | RT-SHIV genetisk mangfoldighed persister i makakker trods ART; efavirenz-monoterapi efterfulgt af kombineret ART brugt til at karakterisere viral populationsdynamik |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preklinisk (dyr) | Journal of Virology | Ultrafølsom allel-specifik PCR detekterede sjældne på forhånd eksisterende NNRTI-resistente varianter i RT-SHIV-makakker før efavirenz-initiering, som afspejler kliniske HIV-resistensmønstre |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Preklinisk (dyr) | PLoS One | Viral nedbrydningskinetik modelleret i HAART-behandlede RT-SHIV-makakker; efavirenz-indeholdende regimen brugt som standard for at studere langsigtede HIV-1-persistensmekanismer |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preklinisk (dyr) | Retrovirology | Kort-forløbs efavirenz-monoterapi i RT-SHIV-makakker efterfulgt af kombineret ART; vild-type og lægemiddelresistent variant-subpopulationsdynamik karakteriseret ved single-genome-sekvensering |
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Preklinisk (dyr) | Antimicrobial Agents and Chemotherapy | Grundlæggende evaluering af efavirenz-antivirale aktivitet i RT-SHIV-inficerede rhesus-makakker; bekræftede dosisafhængig viral undertrykkelse, validerede det kimeriske model for NNRTI-studier |
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Dyrestudie (rhesusaber) | Antimicrob Agents Chemother | Efavirenz-behandling vurderet i rhesusaber smittet med RT-SHIV. |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Dyrestudie (rhesusaber) | J Virol | Efavirenz, lamivudin og tenofovir nedsatte virusmængden i plasma hos RT-SHIV-smittede aber. |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Dyrestudie (rhesusaber) | Antimicrob Agents Chemother | Udvidet behandling med fire til fem lægemidler forbedrede den virale henfaldskinetik. |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Dyrestudie (makakaber) | J Virol | Genetisk diversitet i virus bestod trods antiretroviral behandling, inklusive kortvarig efavirenz-monoterapi. |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Dyrestudie (makakaber) | Retrovirology | Dynamik i virale subpopulationer under efavirenz-monoterapi efterfulgt af kombinationsbehandling. |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Dyrestudie/assay | J Virol | Meget følsom PCR påviste sjældne resistente varianter allerede før behandling og en stor replikerende viruspopulation. |
+| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Dyrestudie (makakaber) | PLoS One | Viral henfaldskinetik i en makak-model af aids under højaktiv antiretroviral behandling. |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Følsomhed hos hiv-2, SIV og SHIV over for godkendte antivirale lægemidler. |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virol | Karakterisering af en SIV-hiv-kimære med hiv-1 revers transkriptase til studier af NNRTI-resistens hos aber. |
+| [19195672](https://pubmed.ncbi.nlm.nih.gov/19195672/) | 2009 | Dyrestudie (rhesusaber) | Virology | Vaginal smitte med RT-SHIV; virus ophobedes i lymfeknuder og milt. |
 
 ---
 
-## Danske markedsinformationer
+## Markedsinformation for Danmark
 
-Efavirenz har i øjeblikket **ingen markedsføringstilladelser** i Danmark og er registreret som ikke markedsført af Lægemiddelstyrelsen (0 tilladelser, 0 licenserede produkter i denne Evidenspakke).
-
-> **Bemærk for anmeldere**: Dette fund bør verificeres. Efavirenz er godkendt gennem EMA's centraliserede procedure under mærkenavnet **Stocrin** (Merck Sharp & Dohme) og som en komponent af **Atripla** (efavirenz/emtricitabin/tenofovir disoproxil fumarat; Bristol-Myers Squibb/Gilead). Begge produkter har gyldige centraliserede markedsføringstilladelser, der er juridisk bindende i alle EU/EØS-medlemsstater, herunder Danmark. Fraværet af poster i denne pakke afspejler sandsynligvis et datahul i den danske nationale registreringssøgning snarere end et ægte fravær af tilladelse.
-
----
-
-## Sikkerhedshensyn
-
-Venligst se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
-
-> **Bemærk**: Evidenspakken markerer to blokerende datahul — fravær af Lægemiddelstyrelsen-specifikke label-advarsler/kontraindikationer (DG001, alvorlighed: Blokering) og fravær af mekanisme-detaljer (DG002, alvorlighed: Høj). Ingen lægemiddel-lægemiddel-interaktionsdata blev hentet. Før klinisk brug bør den fulde SmPC for Stocrin og/eller Atripla konsulteres for CNS-bivirkninger (svimmelhed, mareridt, psykiatriske begivenheder), teratogenicitetsadvarsler (Kategori D), hepatotoksicitetsovervågning og omfattende CYP3A4/CYP2B6-interaktioner.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105276313 | Efavirenz "Aurobindo" (Aurobindo Pharma (Malta) Limited) | Filmovertrukne tabletter | Ikke angivet i data |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger. Evidenspakken mangler Lægemiddelstyrelsens advarsler og kontraindikationer, og søgningen efter interaktioner gav ingen resultater.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den top TxGNN-forudsagte indikation — simian immunodeficiency virus-infektion — er ikke et konventionelt menneskeligt terapeutisk mål i ordets fulde forstand. Hele den støttende evidens stammer fra RT-SHIV kimerisk makak-modellen, som blev engineeret specifikt til at bære HIV-1 RT (og dermed blive modtagelig for efavirenz); vild-type SIV er iboende NNRTI-resistent. Denne forudsigelse afspejler mekanistisk overlapning med efavirenz's etablerede HIV-1-indikation snarere end en ny repurposeringsmulighed, og der eksisterer ingen gennemførte kliniske forsøg. Evidenspakken indeholder også to blokerende datahul (DG001, DG002), der udelukker en standard sikkerhedsvurdering.
+- Evidensen er prækliniske dyre- og laboratoriestudier (L4), og det eneste kliniske forsøg er trukket tilbage og undersøger ikke efavirenz. SIV er en dyresygdom, så der er ikke grundlag for en ny human indikation.
+- Sikkerhedsdata fra den danske produktinformation mangler (markeret som blokerende), så sikkerhedsscreeningen kan ikke gennemføres.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Hent og gennemgå Lægemiddelstyrelsens produktresumé for advarsler, kontraindikationer og interaktioner.
+- Hent data om virkningsmekanisme fra DrugBank.
+- Afklar, om der overhovedet er et relevant humant eller veterinært behandlingsmål. De relevante dyremodeller bruger efavirenz til at undersøge hiv-1-hæmning og ikke som behandling af SIV.
+- Hvis FIV eller den neuroudviklingsmæssige forstyrrelse skal forfølges, kræves først in vivo-data eller en begrundet mekanistisk hypotese.
 
-- **Bekræft status for registrering i Danmark/EU**: Verificer tilladelsespostninger for Stocrin og Atripla fra EMA's centraliserede procedure mod Lægemiddelstyrelsens register for at løse "ikke markedsført"-uoverensstemmelsen
-- **Hent fulde MOA-data** (DG002): Søg DrugBank API for efavirenz-farmakologi, inklusiv CYP3A4/CYP2B6-inducerings-profil
-- **Hent SmPC-sikkerhedsdata** (DG001): Download og parse Stocrin/Atripla-etiket PDF fra EMA eller Lægemiddelstyrelsen for advarsler, kontraindikationer og teratogenicitets-status
-- **Re-evaluer genuint nye humane indikationer**: Rang-5/6-forudsigelsen (neurouviklingsforstyrrelser med ataktisk gang, fraværende tale og reduceret cortical hvidt stof) repræsenterer en mere ukonventionel repurposeringsmulighed, der berettiger en dedikeret evidenssøgning med målrettede PubMed- og ClinicalTrials.gov-forespørgsler
-- **Betragt felinindikationen separat**: PMID 38031646 (2023) beskriver direkte biokemisk test af efavirenz mod Feline Immunodeficiency Virus RT og kan støtte et veterinærmedicinsk repurposeringstrack, som følger en anden reguleringssti (VMPA) end humane lægemidler
-
----
-
-> **Ansvarsfraskrivelse**: Denne rapport er beregnet til kun at være til forskningsreference og udgør ikke medicinsk rådgivning. Lægemiddelrepurposeringskandidat kræver klinisk validering før enhver terapeutisk anvendelse. Alle kliniske beslutninger skal overholde gældende danske og EU-regulatoriske krav.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Thymol
 parent: Kun modelforudsigelse (L5)
-nav_order: 430
+nav_order: 432
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thymol: Fra ukendt oprindelig indikation til aneurisme af interventrikular septum
+# Thymol: Fra veterinærlægemiddel (Apiguard Vet.) til interventrikulær septumaneurisme
 
-## Samlet oversigt i én sætning
+## Resumé i få sætninger
 
-Thymol (DrugBank DB02513) har ingen registreret oprindelig indikation eller mekanisme for virkemåde i det aktuelle evidenspakke, og det er ikke i øjeblikket markedsført i Danmark. TxGNN-modellen forudsiger en mulig association med **aneurisme af interventrikular septum** (score 99.25%), men denne forudsigelse understøttes af **nul kliniske forsøg** og **nul publikationer**, og modellens egen begrundelse angiver resultatet som sandsynligvis reflekterende knowledge-graph-indlejringslighed snarere end en valideret farmakologisk mekanisme.
+Thymol er registreret i Danmark som aktivt stof i veterinærlægemidlet Apiguard Vet. (gel). Der er ikke registreret en godkendt indikationstekst i datagrundlaget.
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **interventrikulær septumaneurisme**, men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på en modelscore.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Oprindelig indikation | Ikke tilgængelig (ingen oprindelig indikation registreret; MOA-datagab) |
-| Forudsagt ny indikation | Aneurisme af interventrikular septum |
-| TxGNN forudsigelsesscore | 99.25% |
-| Evidensniveau | L5 (modelforudsigelse kun, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afvente |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (produktet er et veterinærlægemiddel) |
+| Forudsagt ny indikation | Interventrikulær septumaneurisme |
+| TxGNN-forudsigelsesscore | 99,25 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-I øjeblikket er detaljerede data om mekanisme for virkemåde for thymol ikke tilgængelige (**[Datagab]**). Thymol er generelt kendt som et monoterpenoid fenol med antibakterielle egenskaber og lokale anæstetiske/irriterende egenskaber, men dette evidenspakke indeholder ingen dokumenteret oprindelig indikation og ingen DrugBank MOA-post, så der eksisterer ingen verificeret farmakologisk udgangspunkt for evaluering af den nye forudsigelse.
+Der foreligger ingen detaljerede data om thymols virkningsmekanisme. Thymol er et monoterpen-phenol, og i prækliniske studier er der beskrevet antimikrobielle, antioxidative og antiinflammatoriske egenskaber. Der er dog ikke dokumenteret nogen sammenhæng mellem disse egenskaber og de forudsagte hjertesygdomme.
 
-Uden en etableret oprindelig indikation eller mekanisme eksisterer der ingen kendt biologisk vej, der forbinder thymol med strukturelle/udviklingsmæssige hjertebetingelser såsom aneurisme af interventrikular septum. Modellens egen genererede begrundelse er eksplicit på dette punkt: den angiver, at den høje TxGNN-score "bør betragtes som knowledge-graph-indlejringslighed, ikke kausal evidens."
+Interventrikulær septumaneurisme er en strukturel hjertemisdannelse. Der er ingen kendt thymol-relateret mekanisme, som kan påvirke den. Den høje score (0,992) er en forudsigelse fra vidensgrafen og ikke et farmakologisk fund.
 
-Et yderligere mønster i dataene forstærker denne forsigtighed: de fem øverste forskellige forudsagte indikationer for thymol (aneurisme af interventrikular septum, lungeventilsygdom, Laubry-Pezzi syndrom, Pierre Robin syndrom og orofacial spalting syndrom) ligger alle tæt inden for et snævert scorebånd på 99.15%–99.25%, uden klinisk forsøgs- eller litteraturunderstøttelse for nogen af dem. Denne klyngedannelse foreslår en systematisk positionering af thymol-knuden inden for et særligt område af knowledge-graphen snarere end et sygdomspecifikt signal — evidenspakken selv anbefaler yderligere inspektion af thymols naboknuder i grafen, før nogen enkelt forudsigelse behandles som meningsfuld.
+De fem unikke forudsagte indikationer er alle medfødte strukturelle eller udviklingsmæssige tilstande med næsten identiske scorer. Det tyder på en artefakt i vidensgrafens naboskab frem for fem uafhængige signaler. Datagrundlaget indeholder hver indikation to gange (dublerede poster); tabellen viser dem kun én gang.
 
----
-
-## Klinisk forsøgsevidnens
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteratursevidnens
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Beslutning |
+|------|------|------|------|
+| Interventrikulær septumaneurisme | 99,25 % | L5 | Hold |
+| Pulmonalklapsygdom | 99,17 % | L5 | Hold |
+| Laubry-Pezzi syndrom | 99,17 % | L5 | Hold |
+| Genetisk syndromisk Pierre Robin-syndrom | 99,15 % | L5 | Hold |
+| Orofacialt kløftsyndrom | 99,15 % | L5 | Hold |
 
 ---
 
-## Markedsinformation for Danmark
+## Klinisk evidens
 
-Thymol har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: **ikke markedsført**; 0 tilladelser registreret). Ingen Lægemiddelstyrelses (national) eller EMA (centraliseret) licensee er tilgængelige til opsummering.
-
----
-
-## Sikkerhedshensyn
-
-Ingen sikkerhedsdata er tilgængelige i det aktuelle evidenspakke. Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata er alle registreret som datagab, og forespørgslen til lægemiddelinteraktionsdatabasen returnerede ingen resultater. Da thymol ikke er markedsført i Danmark, er der ingen godkendt Produktresumé (SmPC) at referere til; sikkerhedsevaluering ville kræve primærkildedata (f.eks. DrugBank-toksicitetsprofil, TFDA-label hvis tilgængelig), før enhver klinisk brug overvejes.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Afgørelse: Afvente**
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om markedet i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103399802 | Apiguard Vet. (Vita Bee Health Ltd.) | Gel | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Evidensniveauet er L5 — forudsigelsen hviler udelukkende på en TxGNN-modelscore uden understøttende kliniske forsøg, litteratur eller etableret mekanisme for virkemåde. To datagab blokerer fremskridt: et **blokerande**-niveau datagab i reguleringsmæssige label-/advarselsdata (nødvendigt for indledende sikkerhedsscreening, S1) og et **højt**-niveau datagab i mekanisme for virkemåde-data (nødvendigt for vurdering af mekanistisk plausibilitet). Modellens egen begrundelse rejser også tvivl om, hvorvidt denne særlige forudsigelse afspejler et virkeligt signal snarere end en grafindlejringsartefakt, der deles på tværs af flere urelaterede hjerte- og kraniofaciale diagnoser.
+Forudsigelsen er rent modelbaseret (L5), uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Det eneste markedsførte produkt er et veterinærlægemiddel, og de forudsagte indikationer er strukturelle hjertemisdannelser, som thymol ikke forventes at kunne påvirke.
 
-**For at fortsætte er følgende nødvendigt:**
-- Oprindelig indikation og mekanisme for virkemåde (MOA) for thymol, hentet fra DrugBank eller en anden autoritativ reference
-- Reguleringsmæssige label-/advarsels- og kontraindikationsdata (f.eks. fra TFDA eller et tilsvarende agentur) for at rydde S1-sikkerhedsporten
-- Undersøgelse af thymols naboknuder i TxGNN knowledge-graphen for at bestemme, hvorvidt de klyngede høje scores på tværs af fem urelaterede sygdomme repræsenterer et ægte signal eller en modelartefakt
-- Uafhængig litteratur- eller præklinisk søgning specifikt for thymol og hjerte-/kraniofaciale strukturelle tilstande, da ingen i øjeblikket eksisterer i evidenspakken
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé; denne mangel blokerer den videre sikkerhedsscreening
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Prækliniske eller mekanistiske data, der kan forbinde thymol med de forudsagte tilstande
+- Afklaring af, om en human formulering overhovedet er relevant, da det eneste danske produkt er til veterinær brug
 
+*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

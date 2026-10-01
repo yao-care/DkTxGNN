@@ -2,7 +2,7 @@
 layout: default
 title: Allopurinol
 parent: Kun modelforudsigelse (L5)
-nav_order: 26
+nav_order: 27
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,93 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Allopurinol: Fra urinsyregigt og hyperurikæmi til hepatisk porfyri
+# Allopurinol: Fra gigt/hyperurikæmi til hepatisk porfyri
 
-## Sammenfatning i én sætning
+## Resumé
 
-Allopurinol er et velkendt xanthinoxidase (XO)-inhibitor, der globalt bruges til behandling af urinsyregigt og hyperurikæmi ved at reducere urinsyreproduktionen.
-TxGNN-modellen forudsiger, at det kan være effektivt til **hepatisk porfyri**, med **0 kliniske forsøg** og **2 publikationer** til rådighed – begge på mekanistisk hypotese- eller dyreundersøgelsesniveau.
-Det samlede evidensgrundlag er begrænset, hvilket placerer denne forudsigelse på evidensniveau L4, og yderligere målrettet forskning er nødvendig, før klinisk translation kan overvejes.
-
----
-
-## Kort oversigt
-
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Urinsyregigt og hyperurikæmi (xanthinoxidase-hemning; standardindikation er ikke registreret i Danmark efter tilgængelige data) |
-| Forudsagt ny indikation | Hepatisk porfyri |
-| TxGNN-forudsigelsesscore | 99.95% |
-| Evidensniveau | L4 (præ-kliniske / mekanistiske studier alene) |
-| Status på dansk marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+Allopurinol er en xanthinoxidasehæmmer, som er markedsført i Danmark som tabletter. Evidence Pack indeholder ingen godkendt indikationstekst, og den almindelige anvendelse mod gigt og hyperurikæmi er derfor ikke dokumenteret i grunddata.
+TxGNN-modellen forudsiger, at allopurinol kan have effekt ved **hepatisk porfyri**, men der er **0 kliniske forsøg** og kun **2 publikationer**. Ingen af dem nævner allopurinol, så evidensen er meget svag.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtig oversigt
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i denne Evidence Pack. Baseret på etableret farmakologisk viden inhiberer allopurinol xanthinoxidase (XO), det enzym, der er ansvarligt for de endelige trin i purinstofskiftet og en vigtig kilde til reaktive iltatomer (ROS) i cellen. Ved at reducere XO-aktiviteten sænker allopurinol både serum-urat og intracellulær oxidativ stress.
-
-Den foreslåede forbindelse til hepatisk porfyri hviler på en mekanistisk hypotese: i hembiosyntesestien er δ-aminolævilulinatsyntase (ALAS) det hastighedsbestemmende enzym og står under negativ feedback-kontrol af det frie hepatiske hempool. Akutte porfyriske anfald udløses af overdreven ALAS-induktion, som fører til ophobning af toksiske hembiosynteseprekursorer – aminolævulinsyre (ALA) og porfobilinogen (PBG). Nogle forskere har foreslået, at XO-afledt ROS kan forstyrre det frie hempool og sekundært påvirke ALAS-regulering. På dette grundlag kunne allopurinols antioksidative egenskaber teoretisk dæmpe ALAS over-aktivitet og reducere præcursor-ophobning.
-
-Imidlertid forbliver denne mekanistiske kæde helt på hypoteseniveau. Ingen direkte klinisk eller menneskelig data forbinder allopurinol til forbedring af hepatisk porfyri. De to identificerede publikationer er en mekanistisk kommentar og et rottelever-farmakologistudie på carbamazepin – hverken tester allopurinol direkte i porfyri. Den høje TxGNN-forudsigelsesscore afspejler med størst sandsynlighed delt lever-sygdomsnode-nærvær i vidensgrafen snarere end et valideret lægemiddel-sygdomsforhold.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen registrerede kliniske forsøg relateret til denne indikation.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering (indikationsteksten er tom) |
+| Foreslået ny indikation | Hepatisk porfyri |
+| TxGNN-prædiktionsscore | 99,95 % |
+| Evidensniveau | L4 (kun præklinisk/hypotese, ingen direkte data for allopurinol) |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturevidence
+## Hvorfor kan forudsigelsen give mening?
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
-|------|-----|------|--------------|-------------------|
-| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypotese / Mekanistisk kommentar | Medical Hypotheses | Foreslår, at inhibering af hemudnyttelse ved tryptophan-2,3-dioxygenase (TDO) – hvorved det frie hepatiske hempool beskyttes – kan reducere ALAS-induktion og forhindre akutte porfyriske anfald; giver teoretisk kontekst for XO-inhibitor-interesse i porfyri |
-| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Dyrestudie (rottelever) | Biochemical Pharmacology | Demonstrerer, at akut carbamazepin-administration forstyrrer hemstofskiftet i rottelever og forværrer porfyri gennem tab af hem, der udnyttes af tryptophan-pyrrolase; indirekte mekanistisk baggrund for, hvordan oxidativ hempool-forstyrrelse bidrager til akutte porfyriske anfald |
+Der foreligger ingen detaljerede data om virkningsmekanismen. Allopurinol er en xanthinoxidasehæmmer, men Evidence Pack indeholder ingen dokumenteret sammenhæng med hepatisk porfyri.
 
----
+De to fundne artikler handler om hæmbiosyntese, herunder regulering af 5-aminolevulinatsyntase (ALAS1) og carbamazepins effekt på hæmmetabolismen i rottelever. Ingen af titlerne nævner allopurinol, så koblingen er uverificeret.
 
-## Oplysninger om dansk marked
+Der er også en sikkerhedsmæssig bekymring. Allopurinol er kendt for at påvirke leverens hæm- og cytokrom P450-metabolisme, og det kan forværre porfyri i stedet for at forbedre den. Om effekten er gavnlig eller skadelig, er uafklaret og kræver manuel gennemgang, før der tages yderligere skridt.
 
-Der er ingen markedsføringstilladelser for allopurinol tilgængelige i det aktuelle datasæt for Danmark (Lægemiddelstyrelsen). Bemærk: dette kan afspejle et datahul snarere end ægte fravær fra det danske marked, da allopurinol er en bredt tilgængelig generisk forbindelse på europæiske markeder. Verifikation mod det aktuelle Lægemiddelstyrelsen-produktregister anbefales.
+Den høje score (0,9995) er ikke forklaret af de leverede data.
 
 ---
 
-## Sikkerhedsbetragtninger
+## Klinisk evidens
 
-Se venligst det godkendte produktresumésamling (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel-vekselvirkningsdata var ikke tilgængelige i denne Evidence Pack og bør hentes fra Lægemiddelstyrelsen-produktdatabasen eller Det Europæiske Lægemiddelagentur (EMA), før der foretages yderligere evaluering.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Konklusion og næste trin
+## Litteraturevidens
 
-**Beslutning: Afvent**
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypotese/review | Medical Hypotheses | Foreslår metabolisk målretning af 5-ALAS via tryptophan eller hæmning af hæmforbrug ved tryptophan-2,3-dioxygenase som mulig behandling af akutte hepatiske porfyrier. Nævner ikke allopurinol i titlen. |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Præklinisk (rotte) | Biochemical Pharmacology | Carbamazepin i lav dosis forværrede tab af hæm i rottelever og virkede som porfyri-eksacerbator. Nævner ikke allopurinol i titlen. |
 
-**Argumentation:**
-Den eneste evidens, der understøtter allopurinol i hepatisk porfyri, består af et mekanistisk hypotesepapir og et dyrestudie på et andet lægemiddel – hverken giver direkte klinisk eller præ-klinisk data om allopurinol selv i porfyri. Med ingen registrerede kliniske forsøg og ingen menneskelig evidens kan forudsigelsen ikke avancere ud over forskningstrin på nuværende tidspunkt. Desuden var ingen sikkerhed-, kontraindikations- eller lægemiddel-lægemiddel-vekselvirkningsdata tilgængelige for denne indsendelse, hvilket udgør en blokerende datakløft for enhver formel sikkerhedsevaluering.
+---
 
-**For at fortsætte, er følgende nødvendig:**
+## Information om det danske marked
 
-- **Mekanisme-præcisering**: Direkte eksperimentelle data (cellelinjer eller dyremodeller) der viser, at allopurinol eller XO-hemning modulerer ALAS-aktivitet eller reducerer ALA/PBG-ophobning i en porfyri-model
-- **Sikkerhedsdatahentning**: Download og parsing af SmPC fra Lægemiddelstyrelsen (eller EMA) for at fuldføre S1-sikkerhedsforhåndsscreening, herunder advarsler, kontraindikationer og lægemiddel-lægemiddel-vekselvirkninger
-- **Verifikation af dansk markedsstatus**: Bekræft nuværende registreringsstatus via Lægemiddelstyrelsen-produktregistret, da 0 godkendelser kan afspejle et datahul
-- **Målrettet litteratursøgning**: Foretag en fokuseret PubMed/EMBASE-søgning kombinerende allopurinol + akut intermitterende porfyri / AIP / ALA synthase for at bestemme, om der findes direkte menneskelige caserapporter eller pilotstudier
-- **Retningscheck**: Før design af ethvert studie, præciser, om XO-hemning er gavnlig eller potentielt skadelig i porfyri (via dens interaktion med det hepatiske hempool), da den mekanistiske retning ikke er bekræftet
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106017917 | Allopurinol "Accord" (Accord Healthcare B.V.) | Tabletter | Ikke angivet |
 
-> **Ansvarsfraskrivelse:** Denne rapport er beregnet til forskningsmæssig reference alene og udgør ikke medicinsk rådgivning. Ethvert lægemiddel-repurposing-kandidat kræver klinisk validering før anvendelse.
+Administrationsvej: oral.
 
+---
+
+## Sikkerhedsovervejelser
+
+Der er ingen tilgængelige data om advarsler, kontraindikationer eller interaktioner (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Specifikt for den foreslåede indikation kan allopurinols påvirkning af hepatisk hæm- og CYP450-metabolisme potentielt forværre porfyri. Det skal afklares, før noget forsøg overvejes.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
+
+**Begrundelse:**
+Trods en meget høj modelscore findes ingen kliniske forsøg og ingen litteratur, der direkte omhandler allopurinol ved hepatisk porfyri. Retningen af effekten er uafklaret, og der er risiko for forværring.
+
+De øvrige forudsigelser (hepatoportal sklerose, primær portalveretrombose, tidligt debuterende familiær ikke-cirrotisk portal hypertension, hepatopulmonalt syndrom og idiopatisk kobberassocieret cirrose) har alle evidensniveau L5. Deres identiske scores (0,99943) tyder på en artefakt fra grafens nabolag snarere end et indikationsspecifikt signal, og de bør heller ikke forfølges på nuværende grundlag.
+
+**For at komme videre kræves:**
+- Manuel gennemgang af, hvorfor videngrafen kobler allopurinol til hepatisk porfyri, og i hvilken retning effekten går
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Data om virkningsmekanisme fra DrugBank
+- Målrettet litteratursøgning på allopurinol og porfyri, herunder rapporter om forværring
+- Vurdering af administrationsvej og ligheden mellem den oprindelige og den foreslåede indikation
+
+---
+
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

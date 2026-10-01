@@ -2,7 +2,7 @@
 layout: default
 title: Isoniazid
 parent: Moderat evidens (L3-L4)
-nav_order: 246
+nav_order: 247
 evidence_level: L4
 indication_count: 2
 ---
@@ -31,88 +31,96 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 # Isoniazid: Fra tuberkulose til konjunktivitis
 
-## Sammenfatning i én sætning
+## Resumé
 
-Isoniazid er et førstehånds-antituberkuløst middel, der oftest bruges til behandling og forebyggelse af tuberkulose (herunder latent TB-infektion). TxGNN-modellen forudsiger, at det kan være effektivt mod **konjunktivitis**, men denne forudsigelse understøttes kun af **1 løst relateret klinisk forsøg** og **20 publikationer**, hvoraf de fleste beskriver *tuberkuløs* konjunktivitis (en manifestation af TB-sygdom) i stedet for en farmakologisk effekt af isoniazid på konjunktivitis generelt — og mindst én kilde antyder, at isoniazid selv kan *forårsage* lægemiddelinduceret konjunktivitis, et signal i modsat retning.
-
-*Bemærk: Bevispapirets `original_indications`-felt for dette lægemiddel er tomt (datakløft); "tuberkulose" udledes fra den kliniske forsøgskontekst (isoniazid 5 mg/kg-regimen for latent TB-infektion) inkluderet i denne pakke, ikke fra en bekræftet registreringsindtastning.*
+Isoniazid er et antibiotikum mod tuberkulose (TB). Indikationen fremgår ikke af Evidence Pack, men er kendt almen viden. TxGNN-modellen forudsiger, at det kan have effekt ved **konjunktivitis**. Evidensen er svag: **1 klinisk forsøg** (kun indirekte relevant) og **20 publikationer** (primært case reports) om tuberkuløs konjunktivitis. Forudsigelsen afspejler sandsynligvis en TB-relateret manifestation og ikke et egentligt repurposing-signal.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Original indikation | Tuberkulose (udledt fra forsøgskontekst; ikke bekræftet i registreringsdata) |
+| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data (godkendelsens indikationstekst er tom). Isoniazid anvendes kendt mod tuberkulose |
 | Forudsagt ny indikation | Konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,36% |
-| Bevisniveau | L4 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| TxGNN-forudsigelsesscore | 99,36 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede, registreringskildebaserede virkningsmekanisme-data er i øjeblikket ikke tilgængelige for denne kandidat (datakløft). Baseret på den mekanistiske gennemgang inkluderet i denne bevispaket, hæmmer isoniazid syntesen af mykolsyre i *Mycobacterium tuberculosis* — en snæver-spektrum antimykobakteriel mekanisme uden etableret anti-inflammatorisk eller bredt antimikrobiel aktivitet relevant for almindelig (viral, bakteriel eller allergisk) konjunktivitis.
+Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i Evidence Pack. Isoniazid hæmmer syntesen af mycolsyre i *Mycobacterium tuberculosis*, og effekten ved tuberkulose er veletableret.
 
-Det eneste ægte mekanistiske link identificeret i litteraturen er til **tuberkuløs konjunktivitis** — konjunktival inddragelse som en manifestation af aktiv eller latent TB-infektion, og dens opløsning som en sekundær følge af behandling af den underliggende TB, ikke en direkte farmakologisk effekt på konjunktival inflammation i sig selv. Flere ældre publikationer (f.eks. PMID 14253168, PMID 5103251) beskriver isoniazid brugt profylaktisk eller topikalt i TB-endemiske, TB-forbundne øjensygdomme, hvilket er et væsentligt anderledes klinisk scenarie end "konjunktivitis" som en generel indikation.
+Litteraturen kobler kun isoniazid til konjunktivitis via **tuberkuløs konjunktivitis** og **phlyctenulær keratokonjunktivitis**. Her behandler anti-TB-regimet den underliggende mykobakterielle infektion. Der er ingen dokumenteret aktivitet mod almindelig bakteriel, viral eller allergisk konjunktivitis.
 
-Vigtigvis lister en review i denne bevispaket (PMID 1363080) konjunktivitis blandt **bivirkningerne på øjet af systemiske lægemidler**, hvilket rejser muligheden for, at TxGNN-associationen afspejler et bivirkningssignal snarere end et terapeutisk. Denne retningsbetingede tvetydighed — støttende beviser begrænset til TB-specifik okuler sygdom, sammen med en plausibel bivirkning-forklaring — er den primære grund til, at denne kandidat er vurderet til et lavt bevisniveau på trods af den høje TxGNN-score.
+TxGNN-scoren (0,994) er en grafbaseret forudsigelse. Den bør derfor læses som en TB-associeret manifestation, ikke som en bredere ny anvendelse ved konjunktivitis generelt.
 
 ---
 
-## Bevis fra kliniske forsøg
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Deltagerantallet | Vigtigste fund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | Fase 3 | Afsluttet | 490 | Sammenlignede systemiske lægemiddelreaktionshastigheder mellem 3HP (rifapentin + isoniazid) og 1HP-regimer for latent TB-infektion. Dette er et sikkerhedsovervågningsforsøg, ikke et konjunktivitis-effektivitetsforsøg — relevans vurderet som "C" (indirekte) i denne bevispaket. |
+| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | Fase 3 | Afsluttet | 490 | Sammenligning af systemiske lægemiddelreaktioner ved 3HP- og 1HP-regimer (rifapentin + isoniazid) ved latent TB. Konjunktivitis indgår hverken som effektmål eller indikation (relevansgrad C) |
+
+Der er ikke fundet EudraCT-registreringer.
 
 ---
 
-## Bevis fra litteratur
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtigste fund |
+Der er ikke fundet RCT'er. Tabellen viser de 10 mest relevante af 20 publikationer.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Profylaksestudie | Am Rev Respir Dis | Isoniazid-profylakse evalueret for fliktenulær keratokonjunktivitis i en TB-endemisk befolkning i Alaska |
-| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Caseserie | Annales d'oculistique | Beskriver lokal (topical) brug af isoniazid i behandling af okulær tuberkulose |
-| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optometry Clinics | Review af okul ære bivirkninger af systemiske lægemidler; konjunktivitis er anført som en bivirkning af flere lægemiddelklasser — et advarende, ikke støttende signal |
-| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Caserapport | Archives of Ophthalmology | Primær tuberkulose af konjunktiva |
-| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | Caserapport | Middle East Afr J Ophthalmol | Tuberkuløs konjunktivitis i en anoftalmisk øjenhule efter miliær TB |
-| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | Caserapport | Cornea | Mycobacterium tuberculosis præsenteret som kronisk rødt øje (konjunktival TB) |
-| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Caserapport | Medicine | Pediatrisk sinusnal TB præsenteret med fliktenulær keratokonjunktivitis |
-| [10641112](https://pubmed.ncbi.nlm.nih.gov/10641112/) | 1999 | Caseserie | Oftalmologia | 28 tilfælde af tuberkuløs keratokonjunktivitis, hovedsageligt børn med primær TB |
-| [25433746](https://pubmed.ncbi.nlm.nih.gov/25433746/) | 2014 | Caserapport | Can J Ophthalmol | Konjunktival fliktenulosis som indledende tegn på truende klinisk TB |
-| [4233886](https://pubmed.ncbi.nlm.nih.gov/4233886/) | 1968 | Caserapport | Arch d'ophtalmologie | Tuberkulose af den bulbære konjunktiva |
+| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Review | Annals of Ophthalmology | Oversigt om rifampicin; ingen abstract tilgængelig |
+| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optometry Clinics | Okulære bivirkninger af systemiske lægemidler; konjunktivitis er beskrevet som bivirkning af bl.a. isotretinoin, sulfonamider og salicylater |
+| [10084173](https://pubmed.ncbi.nlm.nih.gov/10084173/) | 1999 | Case report med litteraturgennemgang | Revue du Rhumatisme | Aseptisk artritis efter intravesikal BCG-immunterapi (26 tilfælde gennemgået) |
+| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Case report | Archives of Ophthalmology | Primær tuberkulose i konjunktiva |
+| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | Case report | Middle East African Journal of Ophthalmology | Tuberkuløs konjunktivitis i en anoftalmisk øjenhule hos en 27-årig kvinde med tidligere miliær TB |
+| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Case report | Medicine | Phlyctenulær keratokonjunktivitis hos et barn med primær sinonasal tuberkulose |
+| [32674602](https://pubmed.ncbi.nlm.nih.gov/32674602/) | 2020 | Case report | Clinical Pediatrics | Uventet årsag til konjunktivitis hos en teenager |
+| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | Ikke klassificeret | Cornea | Tuberkulose i konjunktiva som kronisk rødt øje |
+| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Ikke klassificeret | American Review of Respiratory Disease | Isoniazid-profylakse mod phlyctenulær keratokonjunktivitis blandt eskimoer i Alaska |
+| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Ikke klassificeret | Annales d'Oculistique | Lokal anvendelse af isoniazid ved okulær tuberkulose |
+
+Flere af de øvrige publikationer handler ikke om isoniazid ved konjunktivitis, fx BCG-associeret artritis og Münchhausen by proxy. Mange mangler abstract.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-Isoniazid er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsføringstilladelser er registreret i denne bevispaket.
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Ingen lægemiddelinteraktionsdata blev fundet i denne bevispaket, og vigtige advarsler/kontraindikationer er i øjeblikket ikke registreret — dette er markeret som et **blokerende datakløft** (se Konklusion).
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28100808477 | Isoniazid "OBA" (OBA-Pharma ApS) | Tabletter (oral) | Indikationstekst ikke angivet i data |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvent**
+Der er ingen tilgængelige data om advarsler, kontraindikationer eller interaktioner (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsinformation. Manglende produktresumédata fra Lægemiddelstyrelsen er registreret som en blokerende datamangel.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Bevisniveauet er L4 — det eneste kliniske forsøg er indirekte relevant (et TB-regime-sikkerhedsforsøg, ikke et konjunktivitis-effektivitetsforsøg), og den understøttende litteratur beskriver hovedsageligt TB-relateret okulær sygdom snarere end en farmakologisk effekt på konjunktivitis generelt. En kilde rejser muligheden for, at isoniazid forårsager i stedet for behandler konjunktivitis, direkte i konflikt med TxGNN-forudsigelsesretningen.
+- Evidensniveauet er L4. Det eneste kliniske forsøg undersøger ikke konjunktivitis, og litteraturen består næsten udelukkende af case reports om tuberkuløs konjunktivitis.
+- Forudsigelsen afspejler en TB-associeret manifestation og ikke en generel ny anvendelse ved konjunktivitis.
 
-**For at fortsætte, er følgende nødvendig:**
-- SmPC-advarsler/kontraindikationer-data (i øjeblikket et **blokerende** kløft — påkrævet før nogen sikkerhed-før-vurdering, ifølge denne bevispaket)
-- Bekræftet virkningsmekanisme-dokumentation (i øjeblikket et **alvorligt** kløft, der påvirker mekanistisk-relevans-analyse)
-- En undersøgelse eller forsøg specifikt designet til at teste isoniazids effekt på ikke-tuberkuløs konjunktivitis, for at løse den retningsbetingede tvetydighed i nuværende beviser
-- Præcisering af, hvorvidt TxGNN-associationen afspejler et terapeutisk signal eller et bivirkning-signal
+**For at komme videre kræves:**
+- Sikkerhedsdata (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé
+- Mekanismedata (MOA) fra DrugBank
+- Afgrænsning af den mulige indikation til tuberkuløs konjunktivitis og phlyctenulær keratokonjunktivitis
+- Klassificering og relevansvurdering af de publikationer, der endnu er markeret som "pending"
 
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

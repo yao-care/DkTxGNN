@@ -2,7 +2,7 @@
 layout: default
 title: Cisplatin
 parent: Kun modelforudsigelse (L5)
-nav_order: 113
+nav_order: 114
 evidence_level: L5
 indication_count: 0
 ---

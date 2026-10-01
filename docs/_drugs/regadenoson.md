@@ -2,7 +2,7 @@
 layout: default
 title: Regadenoson
 parent: Kun modelforudsigelse (L5)
-nav_order: 368
+nav_order: 369
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,79 +29,96 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Regadenoson: Fra farmakologisk kardial stresstest til anafilaski
+# Regadenoson: Fra diagnostisk farmakologisk stressmiddel til anafylaksi
 
-## Sammenfatning på én sætning
+## Resumé i én sætning
 
-Regadenoson er en selektiv A2A-adenosinreceptoragonist, der klinisk bruges som farmakologisk stressmiddel til kardialperfusionsaftestning (ikke som behandling af en sygdomsindikation). TxGNN-modellen forudsiger, at det kan være effektivt for **anafilaski**, men dette understøttes kun af **1 klinisk forsøg** (som faktisk ikke tester denne anvendelse) og **0 publikationer** — og lægemidlets egen kendte bivirkningsprofil tyder på, at signalet sandsynligvis peger i den forkerte retning.
+Regadenoson er en selektiv A2A-adenosinreceptoragonist, som markedsføres i Danmark som Rapiscan (injektionsvæske) og anvendes som farmakologisk stressmiddel ved hjertebilleddiagnostik.
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **anafylaksi**, men der findes **1 klinisk forsøg** (uden direkte relevans for indikationen) og **0 publikationer**, der understøtter forudsigelsen.
+Forudsigelsen er derfor udelukkende modelbaseret og bør betragtes som spekulativ.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke en behandlet sygdom — bruges som farmakologisk stressmiddel til kardialperfusionsaftestning (ifølge mekanistiske noter i evidenspakken); lægemidlet er ikke markedsført i Danmark, så der findes ingen godkendt indikationstekst |
-| Forudsagt ny indikation | Anafilaski |
-| TxGNN Forudsigelsesscore | 99.85% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i det modtagne registerudtræk (anvendes i praksis som farmakologisk stressmiddel ved myokardieperfusionsbilleddannelse) |
+| Foreslået ny indikation | Anafylaksi |
+| TxGNN-forudsigelsesscore | 99,85 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor kan forudsigelsen se rimelig ud?
 
-I øjeblikket er detaljerede mekanismedata for regadenosons virkningsmåde ikke tilgængelige i evidenspakken (markeret som et kritisk datahul). Baseret på de mekanistiske noter, der blev registreret, er regadenoson en selektiv **A2A-adenosinreceptoragonist**, der klinisk bruges til at inducere farmakologisk koronar vasodilatation under myokardialperfusionsstressaftestning — det er et diagnostisk værktøj, ikke et terapeutisk middel til en sygdomsindikation.
+Der foreligger ikke detaljerede data om regadenosons oprindelige virkningsmekanisme i det modtagne datasæt. Regadenoson er kendt som en selektiv A2A-adenosinreceptoragonist. A2A-signalering har i prækliniske studier vist antiinflammatoriske og mastcellestabiliserende effekter, hvilket giver et teoretisk link til allergiske reaktioner.
 
-Kritisk nok kaster evidenspakkens egen analyse stærk tvivl over denne forudsigelse i stedet for at understøtte den. Regadenosons kendt bivirkningsprofil inkluderer rødmen, dyspnø og hypotension — pseudoallergiske (anafylaktoid) reaktioner medieret af A2A/A3-receptoraktivering på mastceller og basofiler. Disse er dokumenterede **risici ved lægemidlet**, ikke behandlingseffekter. Den mest plausible forklaring er, at TxGNN lærte et co-forekomstmønster mellem regadenoson og anafilaski-relaterede termer fra bivirkningsdata og fejlklassificerede dette som et terapeutisk forhold — hvilket betyder, at den forudsagte mekanisme sandsynligvis løber i den **modsatte retning** fra hvad der ville være nødvendigt for nybrug af lægemidlet.
+Dette link er dog svagt. Regadenosons produktinformation indeholder selv advarsler om overfølsomhed og anafylaksi, og stoffet er ikke en etableret behandling af anafylaksi; adrenalin er fortsat førstevalg. Den høje score (0,998) afspejler sandsynligvis nærhed i adenosin-signalvejen i vidensgrafen og ikke terapeutisk relevans.
 
-Den samme forsigtighed gælder for de øvrige kandidatindikationer, der returneres for dette lægemiddel (mad-afhængig træningsudløst anafilaski, esotropi, pseudoallergi) — ingen af dem har nogen understøttende klinisk eller mekanistisk evidens, og to af dem deler samme "omvendt bivirkningssignal"-bekymring som anafilaski. Særskilt bemærk, at den rangerede kandidatliste indeholder nøjagtige duplicate-poster (rang 1–2, 3–4, 5–6, 7–8 er hver den samme sygdom med identiske score og evidens) — dette ser ud til at være en data-pipeline-kunstefakt og bør rettes, før der foretages yderligere gennemgang.
+### Øvrige forudsigelser fra modellen
+
+| Forudsagt indikation | TxGNN-score | Vurdering |
+|------|------|------|
+| Fødeafhængig anstrengelsesudløst anafylaksi | 99,74 % | Undertype af anafylaksi. Forudsigelsen skyldes sandsynligvis propagering fra overordnet anafylaksi-knude. Intravenøs bolusindgivelse passer dårligt til forebyggende behandling. |
+| Esotropi | 99,12 % | Ingen plausibel mekanistisk forbindelse fundet. Sandsynligvis falsk positiv. |
+| Pseudoallergi | 99,12 % | Samme teoretiske mastcelle-rationale som anafylaksi, kun prækliniske antagelser. Regadenoson kan selv udløse overfølsomhedsreaktioner. |
+
+Ingen af de øvrige forudsigelser har kliniske forsøg eller litteratur.
 
 ---
 
-## Evidenz fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal tilmeldte | Vigtige resultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | N/A | Rekruttering | 1000 | Multicenterstudium af kardiak stress-MRI-perfusionsaftestning; regadenoson bruges kun som farmakologisk stressmiddel til at simulere træning til kardiakaftestning. Det evaluerer ikke regadenoson til behandling af anafilaski (relevans vurderet til **C — lav relevans** i evidenspakken). |
+| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | Ikke relevant (NA) | Rekrutterer | 1.000 | SPINS2: kvantitativ stress-hjertemagnetisk resonans (CMR) perfusionsbilleddannelse ved brystsmerter eller åndenød. Regadenoson bruges sandsynligvis som diagnostisk stressmiddel. Forsøget tester ikke anafylaksi (relevansgrad C). |
+
+Fundet skyldes sandsynligvis et artefakt i søgningen på lægemiddelnavn og giver hverken direkte eller meningsfuld indirekte evidens for den foreslåede indikation.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Der findes i øjeblikket ingen relateret litteratur.
 
 ---
 
 ## Information om det danske marked
 
-Regadenoson er i øjeblikket **ikke markedsført** i Danmark — ingen nationale (Lægemiddelstyrelsen) eller centraliserede (EMA) markedsføringstilladelser blev fundet i evidenspakken (0 licenser på record).
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28104535109 | Rapiscan | Injektionsvæske, opløsning | Rapidscan Pharma Solutions EU Ltd |
+
+Indikationsteksten er ikke angivet i det modtagne registerudtræk.
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresume (SmPC) for detaljeret sikkerhedsinformation; strukturerede advarsel-, kontraindikations- og lægemiddelinteraktionsdata var ikke tilgængelige i denne evidenspakke (markeret som et blokerende datahul).
+Interaktionsopslag gav ingen fund. Der er ikke modtaget øvrige sikkerhedsdata.
 
-Et punkt værd at markere for klinisk gennemgang: lægemidlets kendt bivirkningsprofil (rødmen, dyspnø, hypotension og pseudoallergiske/anafylaktoid-reaktioner via A2A/A3-receptoraktivering) overlapper direkte med den forudsagte indikation selv (anafilaski), hvilket er grundlaget for at behandle denne forudsigelse med forsigtighed i stedet for som et ægte terapeutisk signal.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Bemærk især, at produktinformationen for regadenoson indeholder advarsler om overfølsomhed og anafylaksi.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Bevisniveauet er L5 (kun modelforudsigelse) uden relevante kliniske forsøg eller litteratur; det eneste identificerede forsøg tester ikke regadenoson til anafilaski. Evidenspakkens egen mekanistiske analyse tyder på, at TxGNN-signalet sandsynligvis afspejler en omvendt bivirkningstilknytning i stedet for en ægte behandlingseffekt, og samme bekymring gælder for lægemidlets øvrige kandidatindikationer.
+Forudsigelsen er rent modelbaseret (L5) uden understøttende kliniske forsøg eller litteratur. Det eneste fundne forsøg anvender sandsynligvis regadenoson som diagnostisk stressmiddel. Stoffet kan desuden selv udløse overfølsomhedsreaktioner, og adrenalin er etableret førstevalg ved anafylaksi.
 
-**For at fortsætte er følgende nødvendigt:**
-- Regadenoson SmPC-advarsler/kontraindikationer (i øjeblikket et blokerende datahul)
-- Verificeret virkningsmåde (MOA) data fra DrugBank eller anden primær kilde
-- Uafhængig farmakologisk gennemgang for at bekræfte eller afvise hypotesen om "omvendt signal" før yderligere evaluering
-- Korrektion af de duplicate-poster på listen over forudsagte indikationer på data-pipeline-niveau
+**For at komme videre kræves følgende:**
+- Hentning af produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prækliniske data, der viser en effekt af A2A-agonisme på mastcelleaktivering ved anafylaksi
+- En vurdering af, om intravenøs bolusindgivelse og regadenosons hæmodynamiske virkninger (takykardi, vasodilatation) overhovedet er forenelige med et akut eller forebyggende allergisk behandlingsscenarie
 
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

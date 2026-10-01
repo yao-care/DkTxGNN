@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methoxsalen
-parent: Kun modelforudsigelse (L5)
-nav_order: 286
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 287
+evidence_level: L4
 indication_count: 10
 ---
 
 # Methoxsalen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Methoxsalen: Fra Psoriasis/Vitiligo (PUVA-terapi) til Lokaliseret Pagetoid Reticulosis
+# Methoxsalen: Fra fotokemoterapi til lokaliseret pagetoid retikulose
 
-## Sammenfatning i én sætning
+## Opsummering i en sætning
 
-Methoxsalen er en psoralen-fotosensibilisator, der bruges globalt til PUVA (Psoralen + UVA) fotokemoterapia, med etablerede indikationer herunder psoriasis, vitiligo og kutant T-celle lymfom (CTCL)/mykosis fungoides — selvom det ikke har nogen nuværende markedsføringstilladelse i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt til **Lokaliseret Pagetoid Reticulosis**, en sjælden indolent CTCL-undertype, med en forudsigelsesscore på **99.97%**, men **ingen kliniske forsøg** og **ingen direkte publikationer** er i øjeblikket tilgængelige for denne specifikke indikation.
-Den mekanistiske begrundelse er ikke desto mindre biologisk sammenhængende: pagetoid reticulosis tilhører det samme CTCL-sygdomsspektrum, for hvilket PUVA-terapi allerede er en retningslinie-godkendt behandlingsmulighed.
+Methoxsalen er et fotosensibiliserende stof, der bruges i PUVA og i ekstrakorporal fotoferese. Det danske præparat er en opløsning til modificering af blodfraktioner. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **lokaliseret pagetoid retikulose** (en sjælden, indolent variant af mycosis fungoides). Der er dog **0 kliniske forsøg** og **0 publikationer** for netop denne sygdom, så forudsigelsen bygger kun på modellen og på indirekte evidens fra CTCL-gruppen.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Original indikation | Psoriasis, vitiligo, mykosis fungoides/CTCL (PUVA-terapi) — etableret globalt; ikke registreret i Danmark |
-| Forudsagt ny indikation | Lokaliseret Pagetoid Reticulosis |
-| TxGNN forudsigelsesscore | 99.97% |
-| Evidensniveau | L4 (mekanistisk slutning; ingen direkte kliniske forsøg eller litteratur for denne undertype) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Ventetilstand |
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i denne Evidenspakke. Baseret på etableret farmakologisk viden er methoxsalen en naturligt forekommende furokumarinverbinding (psoralen), der fungerer som en fotoaktivérbar DNA-krydsbindingsagent. Når den administreres oralt eller topikalt og kombineres med UVA-bestråling, intercaleres methoxsalen mellem DNA-basepar og — ved UVA-aktivering — danner kovalente monofunktionelle og bifunktionelle addukter, der krydsbinder komplementære DNA-strenge. Dette blokerer DNA-replikation og udløser apoptose af fortrinsvis hurtigt prolifererende celler. I ekstrakorporeal fotoforese-skemaet (ECP) stimulerer methoxsalen-behandlede leukocytter, der geninfunderes efter UVA-bestråling, desuden differentiering af tolerogende dendritiske celler, hvilket modulerer det tumorale immunmiljø.
-
-Lokaliseret pagetoid reticulosis (Woringer-Kolopp-sygdom) er en sjælden, indolent variant af CTCL, der er karakteriseret ved en enestående, langsomt ekspanderende plade med slående intraepidemial infiltration af neoplastiske CD4+ eller CD8+ T-celler. Taxonomisk ligger det på det samme CTCL-spektrum som mykosis fungoides (MF), for hvilket PUVA-terapi er en anerkendt førstevalgsmulighed eller standardbehandling i tidligstadium af sygdommen ifølge EORTC-konsensusvejledninger. Den lokaliserede, overfladiske karakter af pagetoid reticulosis-læsioner gør dem særligt velegnede til målrettet PUVA eller bad-PUVA-behandling, og den mekanistiske ekstrapolering fra MF til denne undertype er biologisk velbegrundet.
-
-Det er vigtigt at bemærke, at TxGNN-forudsigelsen for denne specifikke undertype er drevet af mekanistisk og vidensgraf-nærhedsræsonnement snarere end direkte klinisk evidens. Ingen kliniske forsøg eller publikationer, der specifikt studerer methoxsalen ved lokaliseret pagetoid reticulosis, blev identificeret i denne Evidenspakke. L4-betegnelsen afspejler mekanistisk plausibilitet uden empirisk validering.
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Lokaliseret pagetoid retikulose |
+| TxGNN-forudsigelsesscore | 99,97 % |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Klinisk forsøgsevidence
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er der ingen registrerede kliniske forsøg specifikt for Methoxsalen ved lokaliseret pagetoid reticulosis.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i Evidence Pack'en. Methoxsalen er imidlertid kendt som det fotosensibiliserende middel i PUVA og ekstrakorporal fotoferese. Begge behandlinger giver DNA-krydsbinding og apoptose af maligne T-celler og kan desuden modulere immunresponset.
 
----
+Lokaliseret pagetoid retikulose er en sjælden, indolent variant af mycosis fungoides, som er et kutant T-cellelymfom (CTCL). Maligne, hudsøgende T-celler er netop det mål, som fotokemoterapi virker på. Den mekanistiske sammenhæng er derfor biologisk plausibel.
 
-## Litteraturevidences
-
-I øjeblikket er der ingen tilgængelig litteratur specifikt for Methoxsalen ved lokaliseret pagetoid reticulosis.
-
-> **Bemærk — Understøttende evidens for relateret indikation:** For den nært beslægtede indikation **indolent primær kutant T-celle lymfom** (TxGNN-rang 3, score 99.91%, Evidensniveau L3), blev 2 relevante publikationer identificeret. Disse giver indirekte mekanistisk og klinisk støtte til brugen af methoxsalen-baseret fotoforese på tværs af CTCL-spektret:
-
-| PMID | År | Type | Journal | Vigtige resultater |
-|------|-----|------|---------|-----------|
-| [12118838](https://pubmed.ncbi.nlm.nih.gov/12118838/) | 2000 | Retrospektiv kohorte / Caseserie | Int J Artif Organs | Femårs erfaring med ekstrakorporeal fotoforese (ECP) ved CTCL, herunder mykosis fungoides; understøtter ECP-effektivitet ved indolent CTCL med acceptabelt sikkerhedsprofil |
-| [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) | 2006 | Evidensbaseret gennemgang / Systematisk analyse | Ontario Health Technol Assess Ser | Systematisk evidensanalyse af ECP-effektivitet, sikkerhed og omkostningseffektivitet ved refraktær erythrodermisk CTCL og kronisk graft-versus-værtsygdom; understøtter klinisk nytte ved refraktær CTCL |
+Støtten er imidlertid indirekte og udledt fra CTCL som klasse. Der er ikke leveret forsøg eller litteratur, der specifikt omhandler denne sygdom. Den meget høje score er en ren grafprædiktion. Feltet for stoffets oprindelige indikationer er tomt i de modtagne data, så koblingen er ikke kontrolleret mod godkendte indikationer.
 
 ---
 
-## Markedsinformation for Danmark
+## Evidens fra kliniske forsøg
 
-Methoxsalen har i øjeblikket **ingen markedsføringstilladelse** hos Lægemiddelstyrelsen og er ikke tilgængelig som et markedsført produkt i Danmark. Der er ingen nationale eller centraliserede (EMA) tilladelser på record. Sundhedspersonale, der ønsker at få adgang til denne medicin til klinisk brug, ville skulle forfølge en navngivet patienttilladelse (særlig tilladelse) eller en compassionate-use/hospitalsundtagelsesstiplan via Lægemiddelstyrelsen.
-
----
-
-## Cytotoksicitet
-
-Methoxsalen bruges i onkologiske og dermatologiske sammenhænge som en fotokemoterapiagent (PUVA) og som en fotosensibilisator ved ekstrakorporeal fotoforese (ECP) til CTCL. Selvom det ikke klassificeres som en konventionel cytostatisk kemoterapiagent, berettiger dets antineoplastiske mekanisme (DNA-krydsbinding i ondartet T-celler) og anvendelse ved ondartet sygdom specifik sikkerhedsvejledning.
-
-| Emne | Indhold |
-|------|---------|
-| Cytotoksicitetsklassificering | Fotokemoterapiagent / Fotosensibilisator (Psoralen-klasse); ikke en konventionel cytostatisk agent; antineoplastisk virkning er lysafhængig |
-| Risiko for knoglemarvssuppression | Lav ved PUVA-terapi; ECP kan forårsage mild, forbigående leukocytfald på grund af selve afereseproceduren |
-| Emetogenicitetsklassificering | Lav (oral methoxsalen kan forårsage kvalme/GI-ubehag; generelt håndtérbar) |
-| Overvågningsemner | Oftalmologisk overvågning (UV-beskyttende briller påkrævet i mindst 24 timer efter oral dosis for at forhindre katarakt-risiko); hudovervågning for fotoskade og sekundært pladecellekarcinom ved langtids PUVA; leverfunktionstests (hepatotoksicitet rapporteret ved kronisk brug) |
-| Håndteringsbeskyttelse | Standardforholdsregler ved håndtering; UVA-kildestøttesikkerhedsprotokoller påkrævet for klinisk personale under fototerapia; for ECP-procedurer gælder standardafereseprocedurer |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Sikkerhedshensyn
+## Litteraturevidens
 
-Venligst se det godkendte produktresumé (SmPC) — tilgængeligt via EMA eller det oprindeliges lands registrering — for komplet sikkerhedsinformation. Der var ingen lægeforbindelses-, vigtig advarsel eller modindikationers data tilgængelig i denne Evidenspakke.
+Der er i øjeblikket ingen relateret litteratur for lokaliseret pagetoid retikulose.
+
+Til orientering er der for den bredere gruppe **indolent primært kutant T-cellelymfom** (rang 3-4 i prædiktionerne, evidensniveau L3) leveret to publikationer. De viser, at fotoferese anvendes klinisk ved CTCL, men de omhandler CTCL generelt og ikke den lokaliserede pagetoide variant:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [12118838](https://pubmed.ncbi.nlm.nih.gov/12118838/) | 2000 | Kohorte | Int J Artif Organs | Fem års erfaring med fotoferese ved CTCL (enkeltcenter, ikke-randomiseret) |
+| [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) | 2006 | Review | Ont Health Technol Assess Ser | Evidensbaseret analyse af ekstrakorporal fotoferese ved refraktært erytrodermisk CTCL og kronisk graft-versus-host-sygdom |
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106458320 | Methoxsalen "Macopharma" (Maco Pharma SA) | Opløsning til modificering af blodfraktioner | Ikke oplyst i de modtagne data |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke modtaget sikkerhedsdata for dette stof. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Ventetilstand**
+**Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-forudsigelsesscore (99.97%) og en biologisk sammenhængende mekanistisk forbindelse — pagetoid reticulosis er en CTCL-undertype og methoxsalen/PUVA-terapi er allerede retningslinie-godkendt for CTCL-spektret — er der i øjeblikket ingen direkte klinisk forsøgs- eller publikationsevidences for denne specifikke sjælden undertype, og methoxsalen er ikke registreret i Danmark. Et L4-evidensniveau (kun mekanistisk slutning) er utilstrækkeligt til at understøtte klinisk anvendelse uden yderligere validering.
+Forudsigelsen for lokaliseret pagetoid retikulose bygger udelukkende på modellen (L4, ingen forsøg eller litteratur for denne sygdom). Den høje score er derfor ikke i sig selv tilstrækkelig til at gå videre. Den bredere gruppe indolent CTCL har støtte på L3-niveau (en kohorte og en evidensbaseret analyse, ingen RCT'er). Den kan vurderes særskilt og eventuelt fortsætte med forbehold, men det ændrer ikke beslutningen for denne specifikke indikation.
 
-**For at fortsætte, er følgende nødvendig:**
+**For at komme videre kræves følgende:**
+- Systematisk litteratursøgning specifikt for lokaliseret pagetoid retikulose og mycosis fungoides, herunder case-serier
+- Bekræftelse af den aktuelle godkendte indikation og produktresumé fra Lægemiddelstyrelsen, da feltet for oprindelige indikationer er tomt
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Sikkerhedsdata (advarsler, kontraindikationer, interaktioner) fra produktresuméet
+- Vurdering af administrationsvejens forenelighed, da det danske præparat er en opløsning til modificering af blodfraktioner (ekstrakorporal anvendelse)
 
-- Målrettet systematisk litteraturgennemgang for pagetoid reticulosis-behandlingsresultater med PUVA, bad-PUVA eller methoxsalen-baseret ECP (givet sjældenhed af lidelsen kan høj-kvalitets caseseri og ekspertkonsensus være det mest realistiske evidensniveau tilgængeligt)
-- Hentning og gennemgang af methoxsalens fulde SmPC/foreskrivningsinformation fra et autoriseret land (f.eks. Amerikas Forenede Stater — Oxsoralen-Ultra; eller EMA hvis en centraliseret godkendelse findes) for at vurdere sikkerhed, modindikatorer og lægeforbindelser
-- Præcisering af fuldstændige MOA-data via DrugBank API (anført som en kendt datagab)
-- Regulatorisk vejledningskonsultation med Lægemiddelstyrelsen for navngivet patienttilladelse, hvis klinisk brug overvejes
-- Dermatologi og klinisk onkologi ekspertinput om hvorvidt lokaliseret PUVA er en mulig og accepteret behandlingsstrategi for pagetoid reticulosis inden for dansk klinisk praksis
-- Gennemgang af det bredere forudsagt indikationslandskab: den relaterede indikation af **indolent primær kutant T-celle lymfom** (rang 3, L3 evidens, "Fortsæt med Guardrails") har understøttende litteratur og kan repræsentere et mere handlingsorienteret nærtidig omformålingsmål
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

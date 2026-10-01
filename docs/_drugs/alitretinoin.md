@@ -2,7 +2,7 @@
 layout: default
 title: Alitretinoin
 parent: Kun modelforudsigelse (L5)
-nav_order: 25
+nav_order: 26
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alitretinoin: Fra kronisk håndeksem til akne
+# Alitretinoin: Fra ukendt oprindelig indikation til amenorré
 
-## Sammenfatning i én sætning
+## Resumé
 
-Alitretinoin (9-cis-retinolsyre, Toctino) er en pan-retinoid-receptoragonist, der i øjeblikket er godkendt i Den Europæiske Union til behandling af svær kronisk håndeksem, som er refraktær over for potente topikale kortikosteroider. TxGNN-modellens højest-scorede prognose — amenoré (99,99%) — er blevet vurderet som **Hold** (Evidence Level L5: ingen understøttende kliniske data og ingen plausibel terapeutisk rationale); den mest klinisk handlingsvenlig prognose er **Akne** (TxGNN-score 99,92%, Evidence Level L3), understøttet af **5 publikationer** og kontekstuelle forsøgsdata, der forbinder retinoid-klassens farmakologi med talgkirtelbiologi. Da isotretinoin imidlertid allerede besætter nichen for behandling af svær akne, skulle der etableres en differenteret fordel for alitretinoin, før videre udvikling er berettiget.
+Alitretinoin (9-cis-retinsyre) er et retinoid, der er markedsført i Danmark som bløde kapsler. Der er ikke registreret en godkendt indikationstekst i det tilgængelige datamateriale.
+TxGNN-modellen forudsiger, at det kan have effekt på **amenorré**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende grafbaseret.
 
 ---
 
-## Hurtigoversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Svær kronisk håndeksem (refraktær over for potente topikale kortikosteroider) |
-| Forudsagt ny indikation | Akne |
-| TxGNN-prognosescore | 99,92% |
-| Evidensniveau | L3 (observationsstudier / mekanistiske gennemgange) |
-| Status på Danmark-marked | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 (national); EMA centraliseret godkendelse eksisterer som Toctino |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Amenorré |
+| TxGNN-forudsigelsesscore | 99,99 % |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prognose rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i det aktuelle Evidence Pack (klassificeret som en datakløft). Baseret på publiceret farmakologi er alitretinoin 9-cis-isomeren af retinolsyre og fungerer som en pan-retinoid-agonist — den binder og aktiverer både retinolsyre-receptorer (RARα, RARβ, RARγ) og retinoid-X-receptorer (RXRα, RXRβ, RXRγ). Denne dobbelte receptoraktivitet adskiller det fra isotretinoin (13-cis-RA), som opnår sin virkning primært gennem RAR-stier efter metabolsk konvertering. Alitretinoins påviste evne til at reducere hudinflammation og normalisere keratinocytdifferentiering ved kronisk håndeksem afspejler den samme receptorbiolgi, som gør retinoider effektive ved akne.
+Der foreligger aktuelt ingen detaljerede data om virkningsmekanismen i Evidence Pack. Alitretinoin er 9-cis-retinsyre, en pan-agonist af retinsyrereceptorerne RAR og RXR. Retinoider påvirker vævsdifferentiering og reproduktionsvæv, og det kan forklare, at modellen finder en graf-association til amenorré.
 
-Retinoider som en terapeutisk klasse er velkendt ved akne: isotretinoin er guldstandarden for svær nodulær akne, og det virker gennem undertrykkelse af talgkirtelsekretionen, normalisering af follikulær hyperkeratinisering og direkte anti-inflammatoriske effekter — alt drevet af RAR/RXR-signalering. Fordi alitretinoin deler denne mekanistiske klasse, er TxGNN-prognosen biologisk plausibel. Et direkte sammenlignende eksperimentelt forsøg fra 1996 (PMID 8884148) fandt, at 9-cis-RA (alitretinoin) hemmede proliferationen af dyrkede humane sebocytter og reducerede talgkirtelvolumen i dyremodeller lige så effektivt som 13-cis-RA (isotretinoin), hvilket giver den mest direkte mekanistiske understøttelse, der er tilgængelig.
+Der er dog intet, der tyder på, at alitretinoin behandler amenorré. Menstruationsforstyrrelser er en rapporteret bivirkning ved systemiske retinoider, så effektretningen kan være modsat af forudsigelsen. Alitretinoin er desuden strengt kontraindiceret under graviditet, hvilket komplicerer anvendelse hos kvinder i den fertile alder.
 
-Spørgsmålet om vigtig uløst klinik er ikke, om retinoider virker ved akne, men om alitretinoin tilbyder en differenteret fordel over isotretinoin — for eksempel gennem dets yderligere RXR-agonisme, en anderledes tolerabilitetsprofil, eller en specifik patientgruppe (f.eks. samtidig svær håndeksem og akne, eller patienter refraktære over for isotretinoin). Uden et direkte klinisk studie, der adresserer dette, forbliver prognosen på Research Question-stadiet.
+Modellens høje score bør derfor ikke tolkes som klinisk støtte. Den afspejler snarere biologisk sammenhæng mellem retinoidsignalering og reproduktion end terapeutisk gevinst.
 
----
-
-## Kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Tilmeldinger | Vigtige resultater |
-|-------------|-------|--------|-----------|--------------|
-| [NCT04663906](https://clinicaltrials.gov/study/NCT04663906) | N/A | Ukendt | 300 | Undersøger, om oral **isotretinoin** (ikke alitretinoin) øger COVID-19-infektionsrisikoen på grund af retinoid-induceret tør næseslimhinde. Ikke direkte relevant for alitretinoins effektivitet ved akne; giver baggrund for oral retinoid-sikkerhedsovervågning i en dermatologisk setting. |
-
-> **Ingen kliniske forsøg, der direkte undersøger alitretinoin til akne, blev identificeret.** Det eneste hentet forsøg undersøger en relateret retinoid (isotretinoin) for et urelateret sikkerhedspunkt.
+**Bemærkning om øvrige forudsigelser:** Blandt de øvrige forudsagte indikationer er **acne** den eneste med noget lægemiddelspecifikt klinisk signal (evidensniveau L3). Det er et enkelt sammenlignende studie fra 1996 af oral 9-cis-retinsyre versus 13-cis-retinsyre (PMID [8884148](https://pubmed.ncbi.nlm.nih.gov/8884148/)). Studiet er gammelt og lille, og dets design kan ikke bekræftes. Isotretinoin er allerede etableret behandling, så den inkrementelle værdi af alitretinoin er uklar. De øvrige forudsigelser (aortamisdannelser, atypisk coarctatio aortae og graviditetsassocieret osteoporose) er kun L5 og biologisk mere plausibelt bivirknings- eller teratogenicitetsrelaterede end terapeutiske.
 
 ---
 
-## Litteraturovidenser
+## Klinisk evidens
 
-| PMID | År | Type | Tidsskrift | Vigtige resultater |
-|------|------|------|---------|--------------|
-| [8884148](https://pubmed.ncbi.nlm.nih.gov/8884148/) | 1996 | Klinisk sammenligningsforsøg | Dermatology (Basel) | Direkte sammenlignende forsøg af alitretinoin (9-cis-RA) versus isotretinoin (13-cis-RA): ækvivalent hemmelse af dyrkede humane sebocytter og sammenlignelig reduktion af talgkirtelstørrelse i hamstermodeller — stærkeste direkte evidens, der understøtter mekanistisk plausibilitet for akne. |
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Narrativ review | Clinics in Dermatology | Omfattende gennemgang af vitamin A og retinoider inden for dermatologi; alitretinoin er identificeret sammen med isotretinoin, acitretin og bexarotene som en etableret oral retinoid med anerkendte dermatologiske anvendelser. |
-| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Narrativ review | Skin Pharmacol Appl Skin Physiol | Gennemgår RAR/RXR-kernereceptor-biologi og retinoidernes plejotrope hudeffekter; diskuterer mekanistisk overlap mellem akne-patofysiologi og retinoid-målstrukturer (talgkirtler, follikulært epitel). |
-| [8884149](https://pubmed.ncbi.nlm.nih.gov/8884149/) | 1996 | Klinisk studie | Dermatology (Basel) | Undersøger effekten af oral all-trans-retinolsyre på talgudskillelseshastighed; etablerer talgsuppression som det kritiske forudsigelige mærke for oral retinoid anti-akne-aktivitet, hvilket giver et benchmark for evaluering af alitretinoin. |
-| [10521699](https://pubmed.ncbi.nlm.nih.gov/10521699/) | 1999 | Mekanistisk review | Biochim Biophys Acta | Gennemgår retinoid-bindingsproteiner og metabolske enzymer; giver grundlæggende mekanistisk kontekst for, hvordan 9-cis-RA (alitretinoin) behandles og aktiverer kernereceptorer på tværs af epiteliale og hudvæv. |
+Aktuelt ingen relaterede kliniske forsøg registreret for amenorré.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-Alitretinoin er i øjeblikket **ikke markedsført i Danmark** baseret på Lægemiddelstyrelsens nationale godkendelsesoptegnelser (0 nationale markedsføringstilladelser på fil).
-
-> **Vigtig klinisk kontekst:** Alitretinoin er godkendt på tværs af Den Europæiske Union via EMA's centraliserede procedure som **Toctino** (orale kapsler, 10 mg og 30 mg) til behandling af svær kronisk håndeksem hos voksne, der er refraktær over for behandling med potente topikale kortikosteroider. Denne EMA-centraliseret markedsføringsgodkendelse er juridisk gyldig i alle EU-medlemsstater, herunder Danmark. Imidlertid kan national markedstilstedeværelse (kommerciel tilgængelighed og apotekssalg) afvige fra juridisk godkendelsestatus. Klinikere i Danmark bør bekræfte faktisk tilgængelighed hos Lægemiddelstyrelsen eller hospitalets apotek, før de overvejer at ordinere.
+Aktuelt ingen relateret litteratur tilgængelig for amenorré.
 
 ---
 
-## Sikkerhedshensyn
+## Oplysninger om det danske marked
 
-Formelle sikkerhedsdata (specifikke advarsler, kontraindikationer, lægemiddel-lægemiddel-interaktioner) er ikke tilgængelige i det aktuelle Evidence Pack på grund af identificerede datakløfter. Følgende afspejler velkendt retinoid-farmakologi og EMA Toctino SmPC:
-
-- **Teratogenitet (kritisk):** Alitretinoin er højt teratogent. Det er kontraindiceret under graviditet og hos kvinder i fertil alder, som ikke er tilmeldt et obligatorisk program for prævention af graviditet (PPP), som omfatter to former for antikonception og regelmæssig graviditetstestning. Denne sikkerhedsbegrænsning er særlig betydningsfuld, hvis akne — en tilstand, der uforholdsmæssigt påvirker unge kvinder — er målindikationen.
-- **Samtidige retinoider og vitamin A:** Samtidig brug med andre retinoider eller høje doser vitamin A-supplementer skal undgås på grund af risiko for additiv toksicitet (hypervitaminose A-syndrom: hovedpine, pseudotumor cerebri, hepatotoksicitet).
-
-Se venligst den godkendte EMA Summary of Product Characteristics (SmPC) for Toctino for komplet, autoritative ordinerings- og sikkerhedsinformationer.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+|---------|------|------|-----------|
+| 28107150024 | Alitretinoin "Nordic Prime" | Kapsler, bløde | Nordic Prime ApS |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
+
+- **Teratogenicitet:** Alitretinoin er strengt kontraindiceret under graviditet på grund af alvorlig teratogenicitet. Brug hos kvinder i den fertile alder kræver et graviditetsforebyggelsesprogram.
+- **Menstruationsforstyrrelser:** Er en rapporteret bivirkning ved systemiske retinoider og kan være i modstrid med den forudsagte indikation.
+- **Knogler:** Retinoidoverskud er forbundet med uønskede knogleeffekter.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
-**Rationale:**
-Den mekanistiske sag for alitretinoin ved akne er biologisk sammenhængende — det deler RAR/RXR-retinoid-farmakologien med isotretinoin, og et eksperimentelt studie fra 1996 bekræfter sammenlignelig sebocyt-inhiberende aktivitet. Imidlertid er der ikke udført dedikerede kliniske forsøg af alitretinoin specifikt til akne, isotretinoin er allerede velkendt som den definitive behandling for svær akne, og der er ikke etableret noget argument for klinisk differentiering. Evidence Pack'et identificerer også kritiske datakløfter i virkningsmekanisme-dokumentation og sikkerhedsdata, hvilket forhindrer en fuldstændig S1-sikkerhedsscreening.
+**Begrundelse:**
+Forudsigelsen for amenorré er alene modelbaseret (L5) uden kliniske forsøg eller litteratur. Både mekanistiske overvejelser og kendte bivirkninger peger på, at effekten kan være modsat af den forudsagte, og teratogeniciteten er en væsentlig barriere.
 
-**For at fortsætte er følgende nødvendigt:**
-- Indhentelse af komplet virkningsmekanisme-data fra DrugBank til at formelt dokumentere alitretinoins RAR/RXR-receptorprofil og differentiere den kvantitativt fra isotretinoin
-- En systematisk gennemgang eller direkte sammenlignende klinisk studie af alitretinoin versus isotretinoin til akne (effektivitet, talgsuppression, tolerabilitet, recidivrater)
-- Identificering af en specifik patientunderpopulation, der kunne drage fordel af alitretinoins dobbelte RXR/RAR-agonisme (f.eks. patienter med samtidig svær håndeksem og akne, eller tilfælde refraktære over for isotretinoin)
-- Fuldstændig sikkerhedsprofil-gennemgang fra Toctino EMA SmPC, med særlig opmærksomhed på implikationerne af graviditetspræventionsprogrammet for akne-patienter (overvejende unge kvinder i fertil alder)
-- Bekræftelse af faktisk dispenseringstilgængelighed i Danmark gennem Lægemiddelstyrelsen før initiering af nogen dansk klinisk undersøgelse
+**For at komme videre kræves følgende:**
+- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Detaljerede data om virkningsmekanisme (f.eks. via DrugBank)
+- Afklaring af godkendt indikation for det danske præparat
+- Systematisk litteratursøgning om retinoider og menstruationsforstyrrelser for at afklare effektretning
+- Hvis der ønskes et mere lovende forskningsspor: en målrettet gennemgang af alitretinoin ved acne (L3), vurderet op mod isotretinoin og under hensyntagen til graviditetsforebyggelse
 
+*Dette resultat er alene til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

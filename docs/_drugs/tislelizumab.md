@@ -2,7 +2,7 @@
 layout: default
 title: Tislelizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 438
+nav_order: 440
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,102 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tislelizumab: Fra avanceret solid tumorer til blandet-type autoimmun hemolytisk anæmi
+# Tislelizumab: Fra kræftbehandling (anti-PD-1) til blandet type autoimmun hæmolytisk anæmi
 
-## Ét-liniels sammenfatning
+## Resumé i få sætninger
 
-Tislelizumab er et anti-PD-1 (programmed cell death protein 1) monoklonalt antistof, der anvendes til avanceret solid tumorer (f.eks. NSCLC, spiserørskræft). TxGNN forudsiger, at det kan være effektivt for **blandet-type autoimmun hemolytisk anæmi**, men denne forudsigelse understøttes af **nul kliniske forsøg** og **nul publikationer** — og lægemidlets kendt farmakologi peger i den modsatte retning: anti-PD-1-lægemidler er dokumenteret at *forårsage*, ikke behandle, autoimmun hemolytisk anæmi som en immunrelateret bivirkning.
+Tislelizumab er et anti-PD-1-antistof, der markedsføres i Danmark som Tevimbra og bruges til kræftbehandling. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **blandet type autoimmun hæmolytisk anæmi**. Der er **ingen kliniske forsøg og ingen publikationer** til støtte for forudsigelsen. Mekanismen peger desuden mere mod skade end mod gavn.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Post | Indhold |
-|------|---------|
-| Oprindelig indikation | Ikke registreret i dansk regulatorisk data (lægemidlet er ikke markedsført). Ifølge litteraturbevis i denne pakke er tislelizumab en anti-PD-1-terapi, der anvendes til avanceret solid tumorer (f.eks. NSCLC, spiserørskræft, cholangiocarcinoma) |
-| Forudsagt ny indikation | Blandet-type autoimmun hemolytisk anæmi |
-| TxGNN-forudsigelsesscore | 93.76% |
-| Bevisniveau | L5 (modelforudsigelse alene — ingen kliniske forsøg eller litteratur for denne parring) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | Blandet type autoimmun hæmolytisk anæmi |
+| TxGNN-forudsigelsesscore | 93,8 % |
+| Evidensniveau | L5 (kun modelforudsigelse) |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Formelle virkningsmekanisme-dokumentation er markeret som et datagab i denne bevismappe. Litteratur indsamlet under en relateret kandidat (PMID 41268547) beskriver imidlertid tislelizumab som et humaniseret IgG4 anti-PD-1 monoklonalt antistof, der blokerer PD-1/PD-L1-vej for at **genaktivere** antitumor-immunitet — dvs. det fjerner en bremse på immunaktivering.
+Detaljerede data om virkningsmekanismen i den foreliggende datapakke mangler. Tislelizumab er et anti-PD-1-antistof, der blokerer PD-1-receptoren og dermed øger T-cellernes aktivitet mod tumorer.
 
-Blandet-type autoimmun hemolytisk anæmi (AIHA) er en tilstand drevet af *overdreven* immunaktivitet mod røde blodlegemer. Et lægemiddel, der fjerner immunecheck-points, ville forventes at forværre, ikke løse, denne type autoimmun proces. Dette er ikke en teoretisk bekymring: litteratur indsamlet andetsteds i denne samme bevismappe for en relateret kandidat ("dermatitis," rang 5–6) dokumenterer, at tislelizumab og andre anti-PD-1-lægemidler almindeligt **inducerer** immunrelaterede bivirkninger — herunder Stevens-Johnson-syndrom/toksisk epidermal nekrolyse, DRESS-syndrom og cytopenier/agranulocytose (f.eks. PMID 41346629, 40447060, 38910480). Det samme mønster gælder for to andre top-rangerede kandidater i denne pakke, "idiopatisk aplastisk anæmi" og "lægemiddelinduseret autoimmun hemolytisk anæmi" — begge er tilstande, anti-PD-1-terapi vides at fremkalde, ikke behandle.
+Autoimmun hæmolytisk anæmi er en immunmedieret sygdom, hvor kroppens eget immunsystem nedbryder de røde blodlegemer. Autoimmun hæmolytisk anæmi er en kendt immunrelateret bivirkning ved PD-1-blokade. Lægemidlet er derfor mere sandsynligt en mulig *årsag* til tilstanden end en behandling af den. Forudsigelsen afspejler sandsynligvis nærhed mellem immunrelaterede knuder i vidensgrafen og ikke et reelt terapeutisk signal.
 
-TxGNNs høje score her afspejler mest sandsynligt grafproximitet mellem lægemidlet og disse sygdomsknudepunkter, der er lært fra litteratur om bivirkninger/sikkerhed, snarere end et ægte behandlingsforhold. Den forudsagte effektretning bør behandles som inverteret (et sikkerhedssignal) indtil bevist anderledes.
+De øvrige topforudsigelser peger i samme retning:
+
+- **Idiopatisk aplastisk anæmi** (93,8 %): sygdommen er T-cellemedieret knoglemarvssvigt. Yderligere T-celleaktivering er mekanistisk kontraproduktivt, og knoglemarvstoksicitet er rapporteret som en immunrelateret bivirkning ved checkpoint-hæmmere.
+- **Dermatitis** (93,7 %): litteraturen handler næsten udelukkende om hudbivirkninger forårsaget af tislelizumab, ikke om behandling.
+- **Paroksysmal nattlig hæmoglobinuri** (93,7 %): sygdommen er komplementmedieret og skyldes PIGA-mutationer. Der er ingen kendt mekanistisk forbindelse til PD-1-blokade.
+- **Lægemiddelinduceret autoimmun hæmolytisk anæmi** (93,7 %): checkpoint-hæmmere er selv rapporterede udløsere af immunmedieret hæmolyse.
 
 ---
 
-## Bevis fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
+
+(For dermatitis er der fundet ét forsøg, [NCT07190027](https://clinicaltrials.gov/study/NCT07190027), fase 1/2, ikke rekrutterende endnu, 246 deltagere. Det undersøger individualiseret timing af immunkemoterapi ved fremskreden ikke-småcellet lungekræft og er ikke et behandlingsforsøg for dermatitis. Det giver ingen virkningsevidens.)
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er aktuelt ingen relateret litteratur for den forudsagte indikation.
+
+(Litteraturen fundet for dermatitis er hovedsageligt bivirkningsrapporter, fx [40491908](https://pubmed.ncbi.nlm.nih.gov/40491908/), en FAERS-disproportionalitetsanalyse fra 2025, og [37909927](https://pubmed.ncbi.nlm.nih.gov/37909927/), en litteraturanalyse af kutane bivirkninger ved tislelizumab fra 2024. Den understøtter ikke repurposing.)
 
 ---
 
 ## Markedsinformation for Danmark
 
-Der er i øjeblikket ingen markedsføringstilladelse registreret for Danmark. Tislelizumab har markedsstatus "Ikke markedsført" med 0 registrerede tilladelser.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106750222 | Tevimbra (BeOne Medicines Ireland Limited) | Koncentrat til infusionsvæske, opløsning | – |
 
 ---
 
-## Sikkerhedshensyn
+## Cytotoksicitet (antineoplastisk lægemiddel)
 
-Se venligst det godkendte Produktinformationsdokument (SmPC) for sikkerhedsinformation. Ingen vigtige advarsler, kontraindikationer eller data vedrørende lægemiddel-lægemiddel-vekselvirkning er registreret i denne bevismappe.
-
-Bemærk: selvom det ikke er del af det formelle sikkerhedsdatasæt, dokumenterer litteratur indsamlet andetsteds i denne pakke for en relateret kandidat alvorlige immunrelaterede bivirkninger forbundet med tislelizumab, herunder SJS/TEN, DRESS-syndrom og agranulocytose. Dette bør tages i betragtning ved vurdering af dette lægemiddels risikoprofil.
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Immunterapi (anti-PD-1 monoklonalt antistof), ikke konventionelt cytotoksisk |
+| Risiko for knoglemarvssuppression | Lav som direkte effekt. Hæmatologiske immunrelaterede bivirkninger er dog rapporteret, fx agranulocytose |
+| Emetogenicitetsklassifikation | Lav |
+| Monitoreringspunkter | Fuldt blodbillede, lever- og nyrefunktion, skjoldbruskkirtelfunktion, hudkontrol |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i de foreliggende data. Litteraturen beskriver følgende alvorlige immunrelaterede bivirkninger ved tislelizumab:
+
+- **Svære hudreaktioner**: Stevens-Johnsons syndrom/toksisk epidermal nekrolyse (SJS/TEN), DRESS-syndrom og psoriasiform dermatitis.
+- **Hæmatotoksicitet**: agranulocytose er beskrevet i et case report.
+
+For fuld sikkerhedsinformation, kontraindikationer og advarsler henvises til det godkendte produktresumé (SmPC) fra Lægemiddelstyrelsen.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den top-rangerede forudsagte indikation har ingen klinisk forsøgs- eller litteraturunderstøttelse (L5), og lægemidlets kendt immunaktiveringsmekanisme går direkte imod patofysiologien for autoimmun hemolytisk anæmi. Understøttende litteratur andetsteds i denne bevismappe viser, at lægemiddelklassen inducerer denne nøjagtige tilstand som en bivirkning, hvilket indikerer, at TxGNN-associeringen mest sandsynligt afspejler et sikkerhedssignal snarere end en terapeutisk effekt.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller litteratur. Tislelizumabs mekanisme (øget T-celleaktivitet) og de rapporterede immunrelaterede bivirkninger, herunder hæmolyse og knoglemarvspåvirkning, taler imod en terapeutisk effekt.
 
-**For at fortsætte er følgende nødvendigt:**
-- Bekræftet virkningsmekanisme- og oprindelig indikationsdata (i øjeblikket markeret som datagab)
-- TFDA/SmPC-niveau advarsler og kontraindikationer (i øjeblikket markeret som blokerende datagab)
-- Uafhængig farmakologisk gennemgang for at bekræfte eller afkræfte retningen af lægemiddel-sygdomsforholdet inden yderligere vurdering
-- Hvis det forfølges overhovedet, omdirigering mod farmakovigilans/bivirkningsovervågning snarere end effektivitetstestning
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) til sikkerhedsscreening
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Præklinisk eller mekanistisk evidens, der kan modsige den formodede skadelige effekt, før yderligere vurdering overvejes
 
+*Disse resultater er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Repurposing-kandidater kræver klinisk validering før anvendelse.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

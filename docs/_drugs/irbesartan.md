@@ -2,7 +2,7 @@
 layout: default
 title: Irbesartan
 parent: Kun modelforudsigelse (L5)
-nav_order: 244
+nav_order: 245
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,75 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Irbesartan: Fra hypertension til malign hypertensiv nyreskade
+# Irbesartan: Fra blodtryksmedicin (ARB) til malign hypertensiv nyresygdom
 
-## Et-sætnings resumé
+## Resumé i få linjer
 
-Irbesartan er en angiotensin II-receptorblokkant (ARB), en lægemiddelklasse, der er etableret til behandling af hypertension. TxGNN-modellen forudsiger, at det kan være effektivt til **malign hypertensiv nyreskade**, men dette specifikke link understøttes i øjeblikket af **0 kliniske forsøg** og **0 publikationer** — forudsigelsesscore er høj, men rent modelafledt på dette stadium.
+Irbesartan er en angiotensin II-receptorblokker (ARB), som er markedsført i Danmark som Aprovel. TxGNN-modellen forudsiger, at det kan have effekt ved **malign hypertensiv nyresygdom**. For denne forudsigelse er der **0 kliniske forsøg** og **0 publikationer**, så den hviler udelukkende på modelforudsigelse.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|--------|
-| Original indikation | Hypertension (etableret ARB-indikation; ingen formelt indikationstekst på fil for dette datasæt) |
-| Forudsagt ny indikation | Malign hypertensiv nyreskade |
-| TxGNN forudsigelsesscore | 99.31% |
-| Bevisniveau | L5 (modelforudsigelse alene — ingen kliniske forsøg eller litteratur identificeret for denne sygdomskombination) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de danske registreringsdata |
+| Forudsagt ny indikation | Malign hypertensiv nyresygdom |
+| TxGNN-forudsigelsesscore | 99,31 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er i øjeblikket ikke på fil for dette datasæt (markeret som High-severity datakløft). Baseret på kendt farmakologi tilhører irbesartan angiotensin II-receptorblokkant (ARB) klassen og virker gennem AT1-receptorblokkade for at sænke blodtrykket og give nyrebeskyttelse — en effekt, der allerede er veletableret ved hypertension og ved diabetisk nefropati med hypertension.
+Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i datagrundlaget. Irbesartan tilhører klassen af angiotensin II type 1-receptorblokkere (ARB). Aktivering af renin-angiotensin-aldosteron-systemet (RAAS) er en sandsynlig drivkraft bag malign hypertension og den tilhørende nyreskade. Koblingen er derfor biologisk sammenhængende og ligger tæt på klassens kendte blodtrykssænkende og nyrebeskyttende effekter.
 
-Malign hypertensiv nyreskade er en nyrekomplikation ved alvorlig, ukontrolleret hypertension. Da ARB'er direkte målretter blodtryksnedsættelsesmekanismen, der er relevant for denne tilstand, er der en plausibel mekanistisk forbindelse mellem den oprindelige indikation og den forudsagte. Imidlertid kræver malign hypertension typisk akut intravenøs antihypertensiv behandling; en oral ARB såsom irbesartan ville mere plausibelt spille en rolle i efterfølgende vedligeholdelsesterapi snarere end akut-fase behandling.
+Forudsigelsen er dog ikke understøttet af egentlige data. Modellen er den eneste kilde, og der er ikke fundet forsøg eller litteratur for dette lægemiddel–sygdomspar. Akut malign hypertension behandles desuden normalt med intravenøse, titrerbare lægemidler. En eventuel rolle for irbesartan vil derfor være i den længerevarende behandling.
 
-TxGNN-scoren (99.31%) afspejler mest sandsynligt en bred "antihypertensivt lægemiddel → hypertensionsrelateret sygdom" graforbindelse snarere end bevis specifikt for denne malign/nyre-præsentation. Ingen kliniske forsøg eller publikationer understøtter i øjeblikket denne præcise indikationskombination, så den mekanistiske rationel bør behandles som hypotesegenererende snarere end bekræftende.
+**Øvrige forudsagte indikationer** (alle med score 99,25–99,31 % og evidensniveau L5):
 
----
+- **Malign renovaskulær hypertension:** Mekanistisk plausibel, fordi tilstanden er stærkt RAAS-afhængig. ARB'er har dog en kendt sikkerhedsbekymring ved bilateral nyrearteriestenose eller stenose af en solitær nyre (risiko for akut nyreskade). Dette kræver sikkerhedsvurdering, før indikationen overvejes videre. Anbefaling: Hold.
+- **Pulmonal hypertension som følge af lungesygdom og/eller hypoksi:** Koblingen er svag. De hentede publikationer handler generelt om hypoksi (hjerneældning, kræft, keloid, multipel sklerose, højdeeksponering) og nævner hverken irbesartan eller ARB'er. De er sandsynligvis fundet på nøgleordet "hypoksi" og er ikke evidens for dette lægemiddel. Systemisk vasodilatation kan desuden forværre ventilations-perfusionsforholdet. Anbefaling: Hold.
+- **Pulmonal hypertension med uklar multifaktoriel mekanisme:** Der kan ikke opstilles nogen specifik mekanistisk begrundelse. Anbefaling: Hold.
 
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturbevis
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+Dubletter i inputtet er behandlet som én indikation hver.
 
 ---
 
-## Markedsinformation for Danmark
+## Klinisk evidens fra forsøg
 
-Der er i øjeblikket ingen markedsføringstilladelser registreret for irbesartan i dette datasæt (markedsstatus: **Ikke markedsført**, 0 licenser på fil).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære indikation.
+
+---
+
+## Information om markedet i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103570403 | Aprovel (Sanofi Winthrop Industrie) | Filmovertrukne tabletter (oral) | Ikke angivet i data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte resumé af produktkarakteristika (SmPC) for sikkerhedsinformation.
+Der er ikke hentet data om advarsler, kontraindikationer eller interaktioner (interaktionsopslag gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Til brug ved vurdering af den renovaskulære kandidat: Bilateral nyrearteriestenose og stenose af en solitær nyre er et anerkendt sikkerhedsproblem for ARB-klassen på grund af risikoen for akut nyreskade.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-forudsigelsesscore, er der ingen klinisk forsøgs- eller litteraturbevis specifikt for irbesartan ved malign hypertensiv nyreskade (Bevisniveau L5), og lægemidlet har i øjeblikket ingen markedsføringstilladelse på fil i Danmark. De øvrige kandidatindikationer i denne bevispakke (malign renovaskulær hypertension; pulmonær hypertension, WHO-grupper 3 og 5) blev ligeledes afventet — renovaskulær hypertension-linket indeholder en kendt sikkerhedsrisiko (risiko for akut nyrefunktionsnedgang med ARB'er ved nyrearteriestenose), og litteraturen om pulmonær hypertension, som søgningen returnerede, var ikke-relateret baggrundsmateriale om hypoksibiologi snarere end væsentlig støtte.
+Forudsigelsen er alene baseret på modellen (L5), uden kliniske forsøg eller litteratur for lægemiddel–sygdomsparret. Sikkerhedsdata fra produktresuméet mangler, og det blokerer for videre sikkerhedsscreening.
 
-**For at komme videre kræves følgende:**
-- Officielle SmPC-advarsler og kontraindikationer fra Lægemiddelstyrelsen/EMA (i øjeblikket et Blocking datakløft — krævet før enhver S1 sikkerhedsgennemgang)
-- Bekræftet detaljerede data om virkningsmekanisme fra DrugBank (High-priority datakløft)
-- Sygdomsspecifikt klinisk bevis for ARB-brug ved malign hypertension / hypertensiv nyrekrise (f.eks. som vedligeholdelsesterapi efter akut kontrol)
-- Nyrearteri-billeddannelse/statusovervejelser, hvis renovaskulær hypertension-indikationen forfølges, givet den kendte risiko for ARB-induceret nyrefunktionsnedgang i den befolkning
+**For at komme videre kræves:**
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (hentes fra Lægemiddelstyrelsens hjemmeside)
+- Data om virkningsmekanisme og oprindelig indikation (f.eks. via DrugBank API)
+- Målrettet litteratur- og forsøgssøgning efter irbesartan/ARB'er ved malign hypertension med nyreaffektion
+- Sikkerhedsvurdering for renovaskulær hypertension (nyrearteriestenose)
+- Afklaring af administrationsvej og et realistisk langtidsbehandlingsscenarie
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

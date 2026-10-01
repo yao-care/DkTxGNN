@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Kun modelforudsigelse (L5)
-nav_order: 458
+nav_order: 460
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Turoctocog alfa pegol: Fra hæmofili A til primær frigivelsesforstyrrelse af blodplader
+# Turoctocog alfa pegol: Fra faktor VIII-erstatning til primær frigivelsesforstyrrelse i blodplader
 
-## Ét-lines sammendrag
+## Sammenfatning
 
-Turoctocog alfa pegol (DrugBank DB14738) er et pegyleret rekombinant Faktor VIII-erstatningsprodukt, kendt i sin etablerede brug til at kontrollere og forebygge blødninger ved hæmofili A.
-TxGNN-modellen forudsiger, at det kan være effektivt til **primær frigivelsesforstyrrelse af blodplader**,
-men i øjeblikket **0 kliniske forsøg** og **0 publikationer** understøtter denne retning — forudsigelsen hviler alene på modelscore.
-
-*(Bemærk: bevisspakkets egne `taiwan_regulatory.licenses` og `original_indications` felter er tomme, så den oprindelige indikation ovenfor afspejler lægemidlets kendt offentlig klassifikation som et Faktor VIII-produkt, ikke en værdi ekstraheret fra dette datasæt.)*
+Turoctocog alfa pegol er et PEGyleret, rekombinant faktor VIII-præparat (markedsført i Danmark som Esperoct), som erstatter manglende faktor VIII i blodets koagulationssystem.
+TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigivelsesforstyrrelse i blodplader** (primary release disorder of platelets), men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Forudsigelsen er sandsynligvis en artefakt af nærhed i vidensgrafen og ikke udtryk for et reelt biologisk eller klinisk grundlag.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke specificeret i bevisspakke (kendt Faktor VIII-erstatningsbehandling, typisk hæmofili A) |
-| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 99.99% |
-| Evidensniveau | L5 (kun modelforudsigelse, ingen understøttende studier) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-I øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige (markeret i bevisspakken som et alvorligt datakløft, DG002). Baseret på kendt information er turoctocog alfa pegol et pegyleret rekombinant humant Faktor VIII-erstatningsprodukt, som virker ved direkte at supplere Faktor VIII-aktivitet hos patienter med FVIII-mangel.
-
-Den forudsagte indikation, primær frigivelsesforstyrrelse af blodplader, er en lidelse af blodplades granul-frigivelse — en helt anden blødningsmekanisme end Faktor VIII-erstatning. Bevisspakkets egen mekanistiske vurdering er eksplicit om denne svaghed:
-
-> Kernepathofysiologien i primær frigivelsesforstyrrelse af blodplader (en granul-frigivelsesdefekt) ligger i blodpladens egen sekretoriske funktion, som ikke har nogen direkte farmakologisk mekanistisk forbindelse til eksogen Faktor VIII-erstatning. Dette link afspejler sandsynligvis nærheden af FVIII og hæmostase-/blodpladeknyttede knuder inden for vidensgrafen snarere end en ægte terapeutisk begrundelse — evidensen er ekstremt svag.
-
-Kort sagt er forudsigelsen plausibel kun som et videngraf-ko-forekomst-signal (begge enheder sidder inden for det bredere hæmostase-domæne), ikke som en valideret farmakologisk hypotese.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (rekombinant faktor VIII-præparat) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse i blodplader |
+| TxGNN-prædiktionsscore | 99,997 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Klinisk prøvebevis
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I øjeblikket ingen relaterede kliniske forsøg registreret
+Turoctocog alfa pegol virker som kofaktor for faktor IXa i det indre tenase-kompleks og understøtter dermed dannelsen af fibrin. Detaljerede mekanismedata (original MoA) foreligger ikke i datagrundlaget. Beskrivelsen her bygger på lægemidlets kendte natur som faktor VIII-præparat.
+
+En frigivelsesforstyrrelse i blodplader (defekt trombocytsekretion) er en primær trombocytfunktionsfejl. Faktor VIII er ikke mangelfuld ved tilstanden, og ekstra faktor VIII afhjælper ikke grundproblemet. Den høje modelscore (0,99997) skyldes sandsynligvis nærhed til koagulationsfaktor-knuder i grafen og ikke en reel mekanistisk sammenhæng. Der er ikke fundet nogen klinisk begrundelse.
+
+De øvrige forudsagte indikationer har samme mønster. De fleste er blodpladedefekter, som faktor VIII-erstatning ikke korrigerer (se tabellen nedenfor). Den eneste biologisk rimelige kandidat er **erhvervet koagulationsfaktormangel**. Kategorien er bred og udefineret, og ved erhvervet hæmofili A neutraliserer autoantistoffer human faktor VIII, så effekten forventes at være begrænset.
+
+### Øvrige forudsagte indikationer
+
+| Forudsagt indikation | TxGNN-score | Vurdering |
+|------|------|------|
+| Primær frigivelsesforstyrrelse i blodplader | 99,997 % | Primær blodpladefejl, som faktor VIII ikke afhjælper. Hold |
+| Pseudo-von Willebrands sygdom | 99,996 % | Defekt i blodpladernes GPIb-alfa, ikke i faktor VIII. Svag, indirekte kobling. Hold |
+| Glanzmanns trombasteni | 99,996 % | Defekt i integrin αIIb/β3, og faktor VIII mangler ikke. Standardbehandling er trombocyttransfusion og rFVIIa. Hold |
+| Erhvervet koagulationsfaktormangel | 99,974 % | Mest plausibel, men bred og udefineret. Kræver en afgrænset forskningsstilling. Forskningsspørgsmål |
+| Scotts syndrom | 99,973 % | Defekt i fosfatidylserin-eksponering (TMEM16F/ANO6), og faktor VIII er normal. Hold |
 
 ---
 
-## Litteraturbevis
+## Kliniske forsøg
 
-I øjeblikket ingen relateret litteratur tilgængelig
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Turoctocog alfa pegol har i øjeblikket ingen markedsføringstilladelse i Danmark (markedsstatus: Ikke markedsført; 0 registrerede tilladelser).
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106838022 | Esperoct (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktinformationsblad (SmPC) for sikkerhedsinformation.
+Der foreligger ingen sikkerhedsdata i datagrundlaget. Der blev ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Afgørelse: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er understøttet kun af en TxGNN-modelscore (L5, ingen kliniske forsøg eller litteratur), og bevisspakkets egen mekanistiske gennemgang karakteriserer lægemiddel-sygdoms-linket som en sandsynlig videngraf-artefakt snarere end en ægte farmakologisk begrundelse. Et blokeringsdatakløft (DG001: Danske etiket-advarsler/kontraindikationer) forhindrer også i øjeblikket denne kandidat fra at indgå i S1-sikkerhedsgennemgangen.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur. Den forudsagte primære blodpladefejl kan ikke forklares mekanistisk ved faktor VIII-erstatning.
 
-**For at fortsætte er følgende nødvendigt:**
-- Dansk produktetiket / SmPC advarsler og kontraindikationer (DG001, Blokering — påkrævet før enhver S1-sikkerhedsgennemgang)
-- Virkningsmekanisme (MOA)-data for turoctocog alfa pegol (DG002)
-- Præ-klinisk eller mekanistisk bevis, der specifikt knytter Faktor VIII-biologi til blodplades granul-frigivelsefysiologi, for at teste, om den forudsagte tilknytning er mere end en graf-proximitet-artefakt
-- Løbende overvågning for enhver fremtidig klinisk forsøg eller litteratursignal på denne lægemiddel-sygdoms-par
+**For at komme videre kræves følgende:**
+- Hent og gennemgå Lægemiddelstyrelsens produktresumé for advarsler og kontraindikationer. Dette blokerer i øjeblikket sikkerhedsscreeningen.
+- Hent mekanismedata (MoA) fra DrugBank.
+- Afgræns erhvervet koagulationsfaktormangel til en konkret undertype, f.eks. erhvervet faktor VIII-mangel uden inhibitorer. Formuler derefter et defineret forskningsspørgsmål, før arbejdet fortsætter.
+- Fastlæg den oprindelige godkendte indikation fra produktresuméet til sammenligning med de nye kandidater.
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelomplacering skal valideres klinisk, før de anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

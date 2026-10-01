@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selinexor
-parent: Høj evidens (L1-L2)
-nav_order: 396
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 398
+evidence_level: L5
 indication_count: 10
 ---
 
 # Selinexor
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,96 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selinexor: Fra en udokumenteret original indikation til Progesterone-receptor negativ brystkræft
+# Selinexor: Fra kræftbehandling til lægemiddelinduceret osteoporose
 
-## Resumé i en sætning
+## Resumé
 
-Selinexor (DrugBank DB11942) er en XPO1/CRM1 kerneksporthæmmer; dens dokumenterede oprindelige indikation er ikke tilgængelig i denne bevissamling, og lægemidlet markedsføres i øjeblikket ikke i Danmark. TxGNN-modellen frembragte flere brystkræft-relaterede forudsigelser, men kun **Progesterone-receptor negativ brystkræft** understøttes af et faktisk afsluttet klinisk forsøg — et lille, efterforsker-initieret fase 2-studie (n=10) — mens modellens højest-scorende output ("lægemiddelinduceret osteoporose") er markeret i selve bevissamlingen som sandsynligt modelbrus uden understøttende mekanisme, forsøg eller litteratur.
+Selinexor er en oral XPO1-hæmmer (exportin-1), der anvendes som kræftlægemiddel og er markedsført i Danmark under navnet NEXPOVIO.
+TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**.
+Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. Den er altså kun en modelforudsigelse.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|--------|
-| Oprindelig indikation | Ikke dokumenteret i denne bevissamling (`original_indications` tom; ikke markedsført i Danmark) |
-| Forudsagt ny indikation | Progesterone-receptor negativ brystkræft |
-| TxGNN-forudsigelsesscore | 97.20% |
-| Bevisniveau | L2 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Standby |
+|------|------|
+| Oprindelig indikation | Ikke angivet i den danske registrering (godkendt indikationstekst er tom) |
+| Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
+| TxGNN-score | 99,2 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede virkningsmekanisme-data for Selinexor er ikke tilgængelige i Laegemiddelstyrelsen-registreringsposten, der blev brugt til at bygge denne bevissamling (markeret som datakløft med høj alvor). Baseret på analysen, der ledsager denne forudsigelse, forstås Selinexor at fungere som en selektiv kerneksporthæmmer (SINE), der målretter XPO1/CRM1. Dette tvinger tumorundertrykkende proteiner såsom p53, FOXO3a og IκB til at forblive i kernen og reducerer translationen af onkoproteiner såsom MYC og cyclin D1 — en mekanisme med præklinisk understøttelse på tværs af flere solide tumorer, herunder brystkræft.
+Der foreligger ingen detaljerede data om virkningsmekanismen i datapakken. Selinexor er kendt som XPO1-hæmmer. Det er en målrettet kræftbehandling, der blokerer nuklear eksport af bl.a. tumorsuppressorproteiner.
 
-Progesterone-receptor negativ brystkræft bærer typisk en dårligere prognose og reagerer mindre godt på hormonbehandling. En XPO1-hæmningsmekanisme tilbyder en ikke-hormon-afhængig terapeutisk begrundelse, hvilket er konsistent med, hvorfor denne kandidat — blandt modellens brystkræft-relaterede forudsigelser — har faktisk klinisk undersøgelse bag sig (se Klinisk forsøgsbevis nedenfor).
+Der er ingen tydelig sammenhæng mellem denne mekanisme og lægemiddelinduceret knogletab. Den høje modelscore (0,992) understøttes hverken af forsøg, publikationer eller en plausibel biologisk forklaring. Forudsigelsen bør derfor betragtes som en hypotese og ikke som et klinisk signal.
 
-Det er værd at bemærke, at dette ikke var modellens højest-scorende output. Det højest-rangerede output, "lægemiddelinduceret osteoporose" (score 99.22%), er eksplicit anmærket i bevissamlingen som manglende knogleskyttelsesmekanisme — Selinexors kendte bivirkningsprofil (manglende appetit, vægttab, træthed, trombocytopeni) går imod sådan en indikation — og har nul understøttende forsøg eller litteratur. På samme måde viser HER2-positiv brystcarcinom, normal brystlignende subtype og PR-positiv brystkræft ingen direkte mekanistisk eller klinisk-forsøgs-understøttelse og ser ud til at afspejle generisk "brystkræft" nodeproksimitet i vidensgraf'et snarere end subtype-specifikt signal. Progesterone-receptor negativ brystkræft præsenteres derfor her som den mest troværdige kandidat, da det er den eneste, der er forankret i et faktisk afsluttet forsøg.
-
----
-
-## Klinisk forsøgsbevis
-
-| Forsøgsnummer | Fase | Status | Tilmelding | Vigtige resultater |
-|---------|------|------|------|---------|
-| [NCT02402764](https://clinicaltrials.gov/study/NCT02402764) | Fase 2 | Afsluttet | 10 | Efterforsker-initieret, enkelt-arms studie af selinexor (KPT-330) i metastatisk triple-negativ brystkræft, vurderer effektivitet, sikkerhed og tolerabilitet. Lille stikprøvestørrelse (n=10) begrænser statistisk styrke; klassificeret som eksplorativ snarere end bekræftende bevis. |
+Den oprindelige indikation (kræft) og den forudsagte indikation (knoglesygdom) er desuden klinisk meget forskellige. En hypotese om, at knogletab kan være en bivirkning snarere end et behandlingsmål, kan ikke afvises ud fra pakkens data.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-I øjeblikket ingen relateret litteratur tilgængelig.
-
----
-
-## Danmarks markedsinformation
-
-Selinexor markedsføres i øjeblikket ikke i Danmark (Laegemiddelstyrelsen markedsstatus: **Ikke markedsført**) og har ingen nationale eller centraliserede (EMA) markedsføringstilladelser registreret i denne bevissamling.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for denne indikation.
 
 ---
 
-## Cytotoxicitet
+## Litteraturevidens
+
+Der findes på nuværende tidspunkt ingen relateret litteratur for denne indikation.
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106216419 | NEXPOVIO (Stemline Therapeutics B.V.) | Filmovertrukne tabletter | Ikke angivet i datapakken |
+
+---
+
+## Cytotoksicitet
 
 | Punkt | Indhold |
-|------|--------|
-| Cytotoxicitets-klassifikation | Målrettet terapi (XPO1/CRM1 selektiv kerneksporthæmmer, SINE) |
-| Myelosuppression-risiko | Signal noteret i bevissamlings-analyse: trombocytopeni anført blandt Selinexors kendte sikkerhedsspørgsmål; endnu ikke bekræftet mod en officiel etiket |
-| Emetogenicitets-klassifikation | Se venligst produktresumét (SmPC) advarsler og forholdsregler |
-| Overvågningspunkter | Fuldstændig blodcelletælling (med opmærksomhed på blodplader), givet det noterede thrombocytopeni-signal; lever- og nyrefunktion |
-| Håndteringsbeskyttelse | Se venligst produktresumét (SmPC) og institutionel cytotoxisk/farefyldt-lægemiddel håndteringspolitik |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet terapi (XPO1-hæmmer) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringsparametre | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+
+Der foreligger ingen toksicitetsdata i datapakken. Se advarsler og forsigtighedsregler i det godkendte produktresumé (SmPC).
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation — vigtige advarsler, kontraindikationer og lægemiddel-lægemiddel-vekselvirkningsdata er endnu ikke tilgængelige i denne bevissamling (DDI-forespørgsel returnerede ingen resultater).
-
-Bemærk: bevissamlingens analytiske kommentar (ikke bekræftet mod en officiel etiket) refererer til kendte Selinexor-forbundne uønskede virkninger — manglende appetit, vægttab, træthed og trombocytopeni — relevant for fremtidigt overvågningsplan-design.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Standby**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Hovedkandidaten (progesterone-receptor negativ brystkræft) har en plausibel mekanisme og et afsluttet men lille, enkelt-arms fase 2-forsøg (L2, n=10) — et lovende men tidligt-stadiet signal. Progression er i øjeblikket blokeret af et datakløft med blokeringsmæssig alvor (manglende dansk/TFDA-ækvivalent etiketadvarsler og kontraindikationer, som forhindrer selv initial sikkerhedsscreening) og et datakløft med høj alvor i dokumenteret virkningsmekanisme. Modellens øvrige, højere scorende brystkræft- og osteoporose-forudsigelser mangler nogen klinisk eller mekanistisk støtte og vurderes som sandsynlige modelartefakter snarere end ægte genbestemmelsessignaler.
+Forudsigelsen hviler udelukkende på modelscoren, uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Evidensniveauet er L5.
 
-**For at fortsætte er følgende nødvendigt:**
-- Officielt dansk/EU produktresumé advarsler, kontraindikationer og DDI-data for Selinexor (blokerer i øjeblikket initial sikkerhedsscreening)
-- Bekræftet oprindelig indikation og virkningsmekanisme-dokumentation fra DrugBank eller regulatoriske kilder
-- Større kontrolleret (ideelt randomiseret) forsøgsdata ud over det enkelt-arms n=10 studie, før nogen guardrail-baseret progression overvejes
-- Genbesyn af de øvrige høj-score, bevis-frie forudsigelser (lægemiddelinduceret osteoporose, HER2-positiv brystcarcinom, normal brystlignende subtype, PR-positiv brystkræft) for at bekræfte eller formelt afvise dem som modelbrus
+**For at komme videre kræves:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Systematisk litteratursøgning om XPO1-hæmmere og knoglemetabolisme, herunder om knogletab kan være en bivirkning
+- Afklaring af, om den godkendte indikationstekst kan hentes fra den danske registrering
 
+**Bemærkning om andre forudsigelser:** For *progesteronreceptor-negativ brystkræft* findes der et afsluttet fase 2-forsøg ([NCT02402764](https://clinicaltrials.gov/study/NCT02402764), 10 deltagere, metastatisk tripel-negativ brystkræft), som foreløbigt giver evidensniveau L2. Forsøget er lille, resultater foreligger ikke i datapakken, og det kan ikke understøtte effektkonklusioner.
+
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

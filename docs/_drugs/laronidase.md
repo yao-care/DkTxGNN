@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Laronidase
-parent: Høj evidens (L1-L2)
-nav_order: 255
-evidence_level: L2
+parent: Moderat evidens (L3-L4)
+nav_order: 256
+evidence_level: L4
 indication_count: 10
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,87 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Laronidase: Fra Mukopolysaccharidose I til Lysosomale Lagringssygdomme med Skeletbetonet Involvering
+# Laronidase: Fra mukopolysaccharidose type I til lysosomal lagringssygdom med skeletinvolvering
 
-## Ét-linie Sammenfatning
+## Resumé i én sætning
 
-Laronidase er en rekombinant human alfa-L-iduronidase enzymerstattningsterapi, oprindeligt udviklet til **Mukopolysaccharidose I (MPS I; Hurler / Hurler-Scheie / Scheie syndrom)** — selvom denne evidenspakke har et tomt `original_indications`-felt, bliver denne indikation udledt fra pakkens egen mekanistiske rationale og litteratur, ikke bekræftet af en regulatorisk kilde. TxGNNs topforudsigelse, **lysosomale lagringssygdomme med skeletbetonet involvering**, er i praksis en bredere ontologietiket for den samme underliggende sygdom, som lægemidlet allerede behandler, snarere end en genuint ny indikation. Evidensstøtten er moderat: **4 publikationer** (ingen registrerede kliniske forsøg) på evidensniveau **L2**.
-
----
-
-## Hurtig Oversigt
-
-| Post | Indhold |
-|------|---------|
-| Original Indikation | Mukopolysaccharidose I (Hurler / Hurler-Scheie / Scheie syndrom) — ikke til stede i denne pakkes `original_indications`/licensdata; udledt fra evidenspakkens egen rationaletekst |
-| Forudsagt Ny Indikation | Lysosomale lagringssygdomme med skeletbetonet involvering |
-| TxGNN Forudsigelsesscore | 99.31% |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal Markedsføringstilladelser | 0 |
-| Anbefalet Afgørelse | Fortsæt med Sikkerhedsforanstaltninger |
+Laronidase er et rekombinant humant alfa-L-iduronidase-enzym, som anvendes som enzymerstatningsterapi ved mukopolysaccharidose type I (MPS I). TxGNN-modellen forudsiger, at det kan have effekt ved **lysosomal lagringssygdom med skeletinvolvering**, men der er **ingen registrerede kliniske forsøg** og **4 publikationer** om netop denne retning. Betegnelsen svarer sandsynligvis til den allerede kendte MPS I-indikation, så der er næppe tale om ægte lægemiddelomplacering.
 
 ---
 
-## Hvorfor er denne Forudsigelse Rimelig?
+## Hurtigt overblik
 
-I øjeblikket er detaljerede mekanisme-for-handling-data ikke tilgængelig i denne evidenspakke (markeret som en datakløft med høj alvorlighed, DG002). Baseret på de tilgængelige oplysninger er Laronidase en rekombinant form af human alfa-L-iduronidase, det lysosomale enzym, der er defekt i MPS I. Dets efficacitet inden for enzymerstattningsterapi til MPS I er etableret gennem årtiers klinisk brug, og mekanistisk strækker denne aktivitet sig direkte til enhver tilstand defineret ved alfa-L-iduronidase-mangel og den resulterende glycosaminoglycanudsendelse (GAG) akkumulering i knogle og bindevæv.
-
-Vigtigst er det, at pakkens egen `repurposing_rationale` for denne toprangerede forudsigelse angiver, at "lysosomale lagringssygdomme med skeletbetonet involvering" meget sandsynligt er den samme sygdom som MPS I, blot fanget under et bredere/anderledes ontologieterm — TxGNN-kandidaten, der blev afgrænset her, kom hovedsagelig til syne, fordi lægemidlets *oprindelige* indikation ikke blev udfyldt i dette datasæt. Med andre ord bør dette læses som **evidens, der bekræfter en allerede kendt brug**, ikke som en ny repurposingtilgang. En ægte vurdering af ny indikation ville kræve at genafvikle denne analyse med `original_indications` korrekt udfyldt, således at TxGNN-kandidater filtreres mod det sande label-sæt.
-
-For transparens: de resterende kandidater i denne pakke (Sanfilippo-syndrom, lysosomale sygdomme med hypertrofisk kardiomyopati, syndromisk neurometabolsk sygdom med X-bundet intellektuel handicap, øjenlågenes fejlposition) blev alle scoret **L4–L5 med anbefaling om tilbageholdelse**. Flere viser evidensmismatch — f.eks. er litteraturen om Sanfilippo-syndrom, der blev returneret af pipelinen, faktisk MPS I-litteratur, mest sandsynligt på grund af nøgleordoverlap på "mukopolysaccharidose" snarere end ægte faglig relevans — og kandidaterne for X-bundet og hypertrofisk-kardiomyopati mangler et plausibelt genetisk/mekanistisk grundlag. Ingen af disse understøtter yderligere handling på dette tidspunkt.
-
----
-
-## Evidens fra Kliniske Forsøg
-
-Ingen relaterede kliniske forsøg er i øjeblikket registreret.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Mukopolysaccharidose type I (MPS I). Indikationsteksten er ikke angivet i den danske registrering, så oplysningen stammer fra litteraturen. |
+| Forudsagt ny indikation | Lysosomal lagringssygdom med skeletinvolvering |
+| TxGNN-forudsigelsesscore | 99,31 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er forudsigelsen rimelig?
 
-| PMID | År | Type | Tidsskrift | Vigtigste Fund |
-|------|-----|------|-----------|----------------|
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Kohorte/Kasusserie | Pediatric Neurology | 6,5-årig opfølgning af enzymerstattningsterapi i et attenueret MPS I-tilfælde (Scheie-syndrom); dokumenterede skelet-, hjerte- og øjenresultater over langtidsbehandling |
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Oversigt | Pediatric Endocrinology Reviews | Oversigt over MPS I-sygdomsspektrum (Hurler / Hurler-Scheie / Scheie), diagnose via urin-GAG-mønster og iduronidase-enzymassay |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In vitro (basisk forskning) | Biological & Pharmaceutical Bulletin | Demonstrerede mannose-6-phosphat-receptor-formidlet optagelse af laronidase af MPS I-fibroblasten og osteoblaster, med lysosomalt procesering og substratspaltning |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Oversigt | BioDrugs | Tidlig udviklingsoversigt af laronidase som rekombinant alfa-L-iduronidase ERT til MPS I, inklusiv orphan-drug-udpegning og fase I-forsøgsdata |
+Laronidase er rekombinant alfa-L-iduronidase, som nedbryder glykosaminoglykanerne dermatansulfat og heparansulfat. Ved MPS I mangler dette enzym. Det giver ophobning i lysosomerne og multiorgansygdom, herunder udtalt skeletpåvirkning. Detaljerede mekanismedata (MOA) er ikke tilgængelige i den foreliggende datapakke. Beskrivelsen ovenfor bygger på den kendte enzymfunktion.
 
----
+Den forudsagte indikation er en overordnet betegnelse, som i praksis dækker MPS I (Hurler, Hurler-Scheie og Scheie). Sammenhængen med den godkendte anvendelse er derfor stærk. Et in vitro-studie viser, at laronidase optages af osteoblaster via mannose-6-fosfat-receptorer (PMID 18758061), hvilket understøtter en mekanisme i knoglevæv.
 
-## Markedsinformation for Danmark
-
-Laronidase har i øjeblikket ingen markedsføringstilladelse registreret i Danmark (0 tilladelser på fil; markedsstatus: Ikke markedsført).
+Der er dog en vigtig begrænsning. Det er velkendt, at skeletresponset på intravenøs enzymerstatning er begrænset, fordi brusk og knogle er dårligt vaskulariseret. Forudsigelsen bør derfor ses som en bekræftelse af den kendte MPS I-indikation snarere end som en ny terapeutisk mulighed.
 
 ---
 
-## Sikkerhedsmæssige Overvejelser
+## Evidens fra kliniske forsøg
 
-Se venligst det godkendte Produktresumésamandrag (SmPC) for sikkerhedsinformation. Denne evidenspakke indeholder ikke TFDA/Laegemiddelstyrelsen-advarsels- eller kontraindikationsdata (markeret som en blokerande datakløft, DG001), og der blev ikke fundet nogen lægemiddelinteraktionsposter.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
 
 ---
 
-## Konklusion og Næste Trin
+## Litteraturevidens
 
-**Afgørelse: Fortsæt med Sikkerhedsforanstaltninger**
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|---------|-----|------|------|---------|
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatr Endocrinol Rev | Oversigt over MPS I. Sygdommen skyldes mangel på alfa-L-iduronidase med ophobning af dermatan- og heparansulfat. Spektret omfatter Hurler, Hurler-Scheie og Scheie. Diagnosen stilles ud fra urin-GAG og enzymanalyse. |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Beskriver udviklingen af laronidase som enzymerstatning ved MPS I, herunder orphan drug-status og tidlige kliniske forsøg. |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Case report | Pediatr Neurol | 6,5 års opfølgning af en dreng med Scheie-syndrom i enzymerstatning. Der sås en forværring af den generelle tilstand, og sygdommen skred frem. |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Præklinisk (in vitro) | Biol Pharm Bull | Laronidase optages dosisafhængigt af fibroblaster og osteoblaster via mannose-6-fosfat-receptorer. Enzymet transporteres til lysosomerne og nedbryder ophobede substrater. |
+
+---
+
+## Information om markedet i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103361802 | Aldurazyme (Sanofi B.V.) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i registreringen |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der foreligger ingen oplysninger om interaktioner i den anvendte datakilde. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Det underliggende evidensniveau (L2, understøttet af MPS I-litteratur) er rimeligt solidt, men denne "nye indikation" synes at overlapse væsentligt med Laronidases allerede kendt brug snarere end at repræsentere en genuint ny repurposingtilgang. Kombineret med de manglende sikkerhedsdata/label-data, skal dette ikke behandles som en grøn lys-sag.
+Evidensen for den forudsagte indikation er på niveau L4, og der findes hverken kliniske forsøg eller direkte studier af skeletudfald. Indikationen svarer reelt til den allerede kendte MPS I-anvendelse, så der er ikke tale om reel omplacering. Samtidig er skeletresponset på intravenøs enzymerstatning kendt som begrænset.
 
-**For at fortsætte er følgende nødvendigt:**
-- Løs DG001 (Blokering): indhent det godkendte SmPC/produktadvarsler og kontraindikationer, før nogen sikkerhedsvurdering (S1) kan fortsætte
-- Løs DG002: indhent bekræftede mekanisme-for-handling- og oprindelig-indikationsdata fra DrugBank/regulatoriske kilder for at fastslå, om "lysosomale lagringssygdomme med skeletbetonet involvering" virkelig er en ny indikation eller en genmærkning af MPS I
-- Hvis en genuint ny indikation er målsætningen, kør TxGNN-kandidatgeneringen igen med et korrekt udfyldt `original_indications`-felt, så overlappinger af eksisterende brug filtreres ud
-- Da der er nul markedsføringstilladelser i Danmark, bekræft import-/navnpatient-brug-vejledningsstatus, før nogen klinisk overvejelse
+**Øvrige forudsigelser i pakken:**
+- **Sanfilippo syndrom (MPS III)** (score 99,22 %, Hold): Laronidase erstatter ikke de manglende enzymer (SGSH, NAGLU, HGSNAT, GNS). Sygdommen er primært neurologisk, og intravenøst enzym passerer ikke blod-hjerne-barrieren effektivt. Den foreliggende litteratur, herunder det fase 3-RCT (PMID 15126990), vedrører MPS I og ikke MPS III. Der er ingen direkte evidens for MPS III.
+- **Lysosomal sygdom med hypertrofisk kardiomyopati, syndromisk neurometabolisk sygdom med X-bundet intellektuel funktionsnedsættelse og øjenlågsmalposition**: Der er ingen identificeret mekanistisk sammenhæng og ingen forsøg eller litteratur (evidensniveau L5, Hold).
 
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé fra Lægemiddelstyrelsen
+- Dokumentation for den godkendte indikationstekst i den danske registrering
+- Detaljerede mekanismedata (MOA) fra DrugBank
+- Hvis skeletretningen skal forfølges: dedikerede studier af skeletudfald ved MPS I, f.eks. vækst, ledbevægelighed og røntgenfund
+
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

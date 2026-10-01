@@ -2,7 +2,7 @@
 layout: default
 title: Rifaximin
 parent: Moderat evidens (L3-L4)
-nav_order: 378
+nav_order: 379
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,78 +29,93 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rifaximin: Fra enteriske bakterielle infektioner til oral kandidose
+# Rifaximin: Fra tarmrettet antibiotikum til oral candidiasis
 
-## Resumé på en sætning
+## Resumé
 
-Rifaximin er et tarmrestrikteret rifamycinantibakterialstof (oprindelig indikation og detaljeret MOA er ikke tilgængelig i dette Evidence Pack). TxGNN forudsiger en mulig forbindelse til **Oral kandidose** med en score på 99,75%, men den eneste understøttende litteratur (1 kohortestudie, 0 kliniske forsøg) rapporterer faktisk, at rifaximinbrug er **forbundet med øget risiko** for resistent Candida-infektion — dvs. et signal for skadelig effekt, ikke terapeutisk evidens. Fire andre kandidatsygdomme (commissural lip fistula, osteoradionecrosis of the mandible, burning mouth syndrome, oral leukoedema) blev også genereret, alle uden klinisk forsøgs- eller litteraturunderstøttelse (L5).
+Rifaximin er et oralt, næsten ikke-absorberbart rifamycin-antibiotikum, der virker på bakterier i tarmen. TxGNN-modellen forudsiger, at det kan være effektivt mod **oral candidiasis**. Der er dog **ingen kliniske forsøg** og kun **1 publikation**, og den peger i modsat retning: Rifaximin-brug var forbundet med infektioner med micafungin-resistente Candida-arter. Forudsigelsen er derfor ikke understøttet af evidens.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Ikke tilgængelig i Evidence Pack (original_indications er tom; lægemidlet klassificeres som et tarmbegrænset rifamycinantibakterialstof efter rationale-noter) |
-| Forudsagt ny indikation | Oral kandidose |
-| TxGNN-forudsigelsesscore | 99,75% |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de foreliggende data |
+| Forudsagt ny indikation | Oral candidiasis |
+| TxGNN-score | 99,75 % |
 | Evidensniveau | L4 |
-| Danmark markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Venter |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-For øjeblikket er detaljerede data om rifaximins virkningsmekanisme ikke tilgængelige i dette Evidence Pack. Baseret på de tilgængelige oplysninger er rifaximin et rifamycinantibakterialstof med systemisk biotilgængelighed under 0,4% — det virker lokalt i tarmen ved at hæmme bakteriel RNA-polymerase i gram-positive og gram-negative organismer. Det har ingen kendt antifungal aktivitet mod *Candida*-arter, som er den årsagsgivende organisme ved oral kandidose.
+Der foreligger ingen detaljerede data om rifaximins virkningsmekanisme i evidenspakken. Rifaximin er et dårligt absorberet rifamycin-antibiotikum, der virker på bakterier i tarmen. Der kendes ingen antimykotisk aktivitet.
 
-Følgelig er der ingen direkte farmakologisk rationel, der forbinder rifaximin til behandlingen af oral kandidose. Den eneste relevante publikation i dette Evidence Pack peger i den **modsatte retning**: den rapporterer, at rifaximinbrug hos allogeneic HSCT-modtagere var forbundet med højere forekomst af micafungin-resistent *Candida*-infektion, sandsynligvis gennem forstyrrelse af tarm-/orofaryngeal mikrobiel flora snarere end nogen antifungal eller beskyttende effekt.
-
-I betragtning heraf afspejler den høje TxGNN-score mest sandsynligt en artefakt i tætheden på vidensgraf (antibakterielle lægemidler, der optræder sammen med infektionsrelaterede sygdomsknudepunkter) snarere end et ægte repurposing-signal. Den samme mekanistiske usammenhæng gælder for de fire andre kandidatsygdomme, som modellen identificerede — ingen er smittefremkaldende af natur (eller hvor infektion er en sekundær faktor, udelukker rifaximins ubetydelige systemiske eksponering nok at nå en effektiv koncentration på målvævet).
+Det er ikke lykkedes at etablere en mekanistisk sammenhæng mellem rifaximins kendte virkning og behandling af oral candidiasis. Den eneste litteratur peger i den modsatte retning, idet rifaximin blev knyttet til *øget* forekomst af resistente Candida-infektioner. Den høje TxGNN-score skyldes sandsynligvis en association i vidensgrafen og ikke et farmakologisk rationale.
 
 ---
 
-## Klinisk forsøgsevidens
+## Evidens fra kliniske forsøg
 
-Ingen relaterede kliniske forsøg registreret i øjeblikket
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturvidens
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Vigtigste fund |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Kohortestudie | Annals of Hematology | Hos allogeneic HSCT-modtagere var rifaximinbrug forbundet med højere forekomst af micafungin-resistent *Candida* spp.-infektion — en skadelig association, ikke evidens for terapeutisk fordel mod oral kandidose |
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Kohortestudie | Annals of Hematology | Undersøgte sikkerhed og udfald hos patienter efter allogen stamcelletransplantation behandlet med rifaximin som profylakse. Titlen angiver, at rifaximin-brug favoriserede infektioner med micafungin-resistente Candida-arter, hvilket tyder på en mulig risiko frem for en gavnlig effekt. |
 
 ---
 
 ## Markedsinformation for Danmark
 
-Rifaximin markedsføres for øjeblikket **ikke** i Danmark; ingen markedsføringstilladelser (nationale eller centraliserede/EMA) er arkiveret i dette Evidence Pack.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent | Godkendt indikation |
+|---------|------|------|-----------|-----------|
+| 28104323608 | Faxinorm | Filmovertrukne tabletter (oral) | Alfasigma S.p.A | Ikke angivet i data |
+
+---
+
+## Øvrige forudsagte indikationer
+
+Modellen forudsiger yderligere fire indikationer med score omkring 99,6 %. For ingen af dem findes kliniske forsøg eller litteratur (evidensniveau L5), og der er ingen identificerbar mekanistisk sammenhæng.
+
+| Forudsagt indikation | TxGNN-score | Vurdering |
+|------|------|------|
+| Commissural lip fistula | 99,64 % | Sjælden medfødt anomali, der behandles kirurgisk. Rifaximins virkning i tarmen er uden åbenbar relevans. |
+| Osteoradionecrosis i mandiblen | 99,64 % | Strålingsinduceret knogleskade. Rifaximin absorberes minimalt, så systemisk knogleeksponering er ubetydelig. |
+| Burning mouth syndrome | 99,64 % | Overvejende neuropatisk eller idiopatisk. En spekulativ sammenhæng via tarm-mund-mikrobiomet er ikke understøttet af data for rifaximin. |
+| Oral leukoedem | 99,64 % | Godartet variant af mundslimhinden, som normalt ikke kræver behandling. Scoren er sandsynligvis et grafnærheds-artefakt. |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst produktinformationen (SmPC) for sikkerhedsinformation. Bemærk: dette Evidence Pack påpeger fraværet af label-advarsler/-kontraindikationer som en **Blokering** datakløft, hvilket betyder, at en foreløbig sikkerhedsvurdering (S1) i øjeblikket ikke kan udføres for denne kandidat.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i evidenspakken.
+
+Fra litteraturen er der et sikkerhedssignal, som bør tages alvorligt: Rifaximin-brug hos patienter efter allogen stamcelletransplantation var forbundet med micafungin-resistente Candida-infektioner.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Venter**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Virkningsmekanismen understøtter ikke effektivitet mod oral kandidose (rifaximin har ingen antifungal aktivitet og ubetydelig systemisk absorption), og den eneste tilgængelige litteratur rapporterer en skadelig association snarere end understøttende evidens. Der er ingen kliniske forsøg, ingen markedsføringstilladelse i Danmark, og en Blokering datakløft på label-sikkerhedsinformation — ingen af de fem TxGNN-forudsagte indikationer for dette lægemiddel klarer for øjeblikket engang en foreløbig evidensbar.
+Forudsigelsen hviler udelukkende på en høj modelscore. Der er ingen kliniske forsøg, ingen mekanistisk begrundelse, og den eneste publikation antyder en mulig risiko for Candida-infektion. Evidensen er utilstrækkelig til at gå videre.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/SmPC label-data (advarsler, kontraindikationer) — i øjeblikket en Blokering-kløft
-- Bekræftet virkningsmekanisme (MOA) via DrugBank
-- Oprindelige indikationsdata for korrekt at kunne vurdere mekanistisk plausibilitet
-- Ny understøttende præklinisk eller klinisk evidens, da det eksisterende literatursignal løber modsat hypotesen
-- Hvis der forfølges videre, skal de øvrige 4 kandidatsygdomme gengennemgås (commissural lip fistula, osteoradionecrosis of the mandible, burning mouth syndrome, oral leukoedema), alle i øjeblikket L5 uden forsøgs-/litteraturunderstøttelse
+**For at komme videre kræves:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation
+- Data om rifaximins virkningsmekanisme (MOA) fra DrugBank
+- Fuld gennemgang af PMID 34180023 med fokus på sammenhængen mellem rifaximin og resistente Candida-infektioner
+- Prækliniske eller kliniske data, der kan understøtte en antimykotisk eller anden relevant effekt, før forudsigelsen vurderes yderligere
 
+*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nyt anvendelsesområde kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

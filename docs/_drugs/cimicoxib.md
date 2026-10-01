@@ -2,7 +2,7 @@
 layout: default
 title: Cimicoxib
 parent: Kun modelforudsigelse (L5)
-nav_order: 111
+nav_order: 112
 evidence_level: L5
 indication_count: 0
 ---

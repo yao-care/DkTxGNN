@@ -2,7 +2,7 @@
 layout: default
 title: Mitomycin
 parent: Kun modelforudsigelse (L5)
-nav_order: 297
+nav_order: 298
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,103 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mitomycin: Fra solide tumorer til osteoclastisk gigantcelletumor i pancreas
+# Mitomycin: Fra intravesikal kræftbehandling til osteoklastisk kæmpecelletumor i bugspytkirtlen
 
-## Sammendrag på en sætning
+## Resumé
 
-Mitomycin (DB00305) er et cytotoksisk antibiotikum med etableret antineoplastisk aktivitet, historisk brugt som del af kombinationskemoterapi-regimer til mavekræft, blærekræft og andre solide tumorer, selvom der ikke er tilgængelige godkendte indikationsdata fra danske regulatoriske optegnelser.
-TxGNN-modellen forudsiger, at det kan være effektivt for **osteoclastisk gigantcelletumor i pancreas**, en ekstraordinært sjælden pankreaskræft, der udgør mindre end 1 % af alle pankreaskræfter.
-Der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, som specifikt understøtter denne indikation, hvilket placerer bevisen på **niveau L5** (kun modelforudsigelse).
+Mitomycin er et cytostatikum, som i Danmark er registreret som pulver og solvens til intravesikal opløsning (instillation i urinblæren). Teksten for den godkendte indikation indgår ikke i datagrundlaget.
+TxGNN-modellen forudsiger, at stoffet kan have effekt på **osteoklastisk kæmpecelletumor i pancreas**.
+Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|---------|
-| Oprindelig indikation | Ingen godkendte indikationsdata tilgængelige (ikke registreret i Danmark) |
-| Forudsagt ny indikation | Osteoclastisk gigantcelletumor i pancreas |
-| TxGNN-forudsigelsesscore | 99.86% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (produktet er intravesikalt) |
+| Forudsagt ny indikation | Osteoclastic giant cell tumor of pancreas (osteoklastisk kæmpecelletumor i pancreas) |
+| TxGNN-forudsigelsesscore | 99,86 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-For øjeblikket er detaljerede data om virkningsmekanisme ikke tilgængelige i dette datasæt. Baseret på kendt farmakologisk information er Mitomycin C et cytotoksisk alkylerende antibiotikum afledt fra *Streptomyces caespitosus*. Det virker som en DNA-tværbindingsagent — der danner kovalente intertråds-tværbindinger, som hæmmer DNA-replikation og transkription, og udløser celledød særligt i hurtigt-delte tumorceller. Tumorer med defekter i DNA-skadereparaturveje (f.eks. BRCA2-mutationer) er teoretisk mere modtagelige for denne klasse agent.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Mitomycin er et kendt cytostatikum, og dets effekt ved visse kræftformer er veldokumenteret. Mekanistisk kan det derfor tænkes at være relevant for andre solide tumorer, herunder pancreastumorer.
 
-Osteoclastisk gigantcelletumor i pancreas er en ekstraordinært sjælden bifasisk neoplasme karakteriseret ved pleomorfe mononukleære neoplasmaceller sammenblandede med ikke-neoplastiske osteoclast-lignende gigantceller. Det teoretiske grundlag for Mitomycin-aktivitet hviler på følsomheden af pankreastumorcellekomponenten over for DNA-tværbinding, analogt med mekanismer, som udnyttes i andre gastrointestinale malignitter. Historisk set indgik Mitomycin i FAM-regimen (5-FU + Adriamycin + Mitomycin) til mavekræft og pankreasadenokarcinom, hvilket giver en indirekte mekanistisk forbindelse til pankreaskræftbiologi.
+De ti forudsigelser i datasættet dækker kun **fem unikke sygdomme**, fordi de fleste er dubletter med identisk score. Alle er sjældne pancreastumorer:
 
-Imidlertid adskiller den biologiske opførsel af osteoclastisk gigantcelletumor sig væsentligt fra konventionel pankreasadenokarcinom, og der findes for øjeblikket ingen klinisk eller præklinel evidens for Mitomycin i denne specifikke subtype. Den høje TxGNN-score afspejler sandsynligvis generaliseret forbindelighed blandt pankreastumor-noder i vidensgrafen snarere end subtype-specifik biologisk evidens. Denne forudsigelse bør behandles som blot en startshypotese.
+- osteoklastisk kæmpecelletumor i pancreas
+- solid pseudopapillært karcinom i pancreas
+- pancreaskarcinom med blandet differentiering
+- intraduktalt papillært-mucinøst karcinom i pancreas
+- blandet duktalt-endokrint karcinom i pancreas
 
----
+Scorerne ligger mellem 99,85 % og 99,86 %, så modellen skelner stort set ikke mellem dem. En høj score er ikke i sig selv klinisk evidens. Sammenhængen mellem den oprindelige og den nye indikation er endnu ikke vurderet.
 
-## Klinisk forsøgsevidens
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteratursevidens
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+Administrationsvejen er desuden et centralt problem. Det danske produkt er til intravesikal brug, mens pancreastumorer kræver systemisk eller anden administration. Ruteforenelighed er endnu ikke vurderet.
 
 ---
 
-## Cytotoxicitet
+## Klinisk evidens
 
-Mitomycin opfylder kriterierne for klassifikationen af antineoplastisk: det er et konventionelt cytotoksisk kemoterapiagent, der tilhører den alkylerende antibiotikklasse.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-| Emne | Indhold |
-|------|---------|
-| Cytotoxicitetsklassifikation | Konventionel cytotoksisk — Alkylerende antibiotikum (Mitomycin-klasse) |
-| Knoglemarvsundertrykkelsesrisiko | Høj — kumulativ og karakteristisk forsinket; nadir typisk ved 3–5 uger post-dosis; trombocytopeni og leukopeni er de vigtigste dosis-begrænsende toksiciteter |
-| Emetogenicitetsklassifikation | Lav til moderat |
-| Overvågningspunkter | Fuldt blodtælling med differentialantal (CBC-diff) og trombocyttælling ved hyppige intervaller; nyrefunktion (eGFR, serum kreatinin); lungefunktionsvurdering med kumulativ dosering (risiko for Mitomycin-associeret lungefibrose og bronkospasme) |
-| Håndteringsbeskyttelse | Skal overholde cytotoksiske stoffers håndteringsregler; præparation kræver et biologisk sikkerhedskabinet i klasse II; personalet skal bruge passende personligt beskyttelsesudstyr, herunder handsker, kittel og øjebeskyttelse |
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105337913 | Mitomycin "medac" (Medac GmbH) | Pulver og solvens til intravesikal opløsning | Ikke angivet i data |
+
+---
+
+## Cytotoksicitet
+
+Oplysningerne nedenfor bygger på generel viden om mitomycin, ikke på Evidence Pack. Se produktresuméet (SmPC) for autoritative oplysninger.
+
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (antitumor-antibiotikum) |
+| Risiko for myelosuppression | Høj ved systemisk brug (forsinket og kumulativ). Lavere ved intravesikal brug på grund af begrænset systemisk optagelse |
+| Emetogenicitetsklassifikation | Lav |
+| Overvågningspunkter | Blodtal (CBC med differentialtælling), nyre- og leverfunktion |
+| Håndteringsbeskyttelse | Ja, skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-På trods af en høj TxGNN-forudsigelsesscore (99.86%) er osteoclastisk gigantcelletumor i pancreas en ekstraordinært sjælden malignitet, for hvilken der er fuldstændig mangel på kliniske forsøg, publiceret litteratur og direkte mekanistisk evidens, der understøtter Mitomycin-brug; et L5-bevisniveau er utilstrækkeligt til at gå videre end et teoretisk forskningsspørgsmål.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Data om sikkerhed og virkningsmekanisme mangler, og det er uafklaret, om den intravesikale administrationsvej kan anvendes ved pancreastumorer.
 
-**For at gå videre er følgende nødvendig:**
+**For at komme videre kræves:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé hos Lægemiddelstyrelsen
+- Data om virkningsmekanisme (f.eks. via DrugBank)
+- Rensning af dubletter i forudsigelserne
+- Vurdering af ruteforenelighed mellem intravesikal formulering og pancreastumorer
+- Systematisk søgning efter prækliniske og kliniske studier af mitomycin ved sjældne pancreastumorer
 
-- Data om virkningsmekanisme (MOA) fra DrugBank eller primær farmakologisk litteratur, med særlig fokus på Mitomycin-aktivitet i pankreastumormodeller
-- Bredere systematisk litteraturgennemgang, der dækker Mitomycin-brug på tværs af alle pankreaskræftsubtyper (ikke begrænset til osteoclastisk subtypen) for at etablere et indirekte evidensgrundlag
-- Kasuistik eller kasuistikserier-data, som specifikt dokumenterer kemoterapiresultater i osteoclastisk gigantcelletumor i pancreas
-- Præklinel data (in vitro cellinje eller in vivo xenograft) demonstrerer Mitomycin-aktivitet i en osteoclastisk gigantcelletumor-model
-- Fuldstændige sikkerheds- og kontraindikationsdata hentet fra et godkendt produktresumé (f.eks. EMA eller national myndighed), før enhver klinisk applikation overvejes
-- Vurdering af dansk regulatorisk vej (Lægemiddelstyrelsen / EMA), hvis udvikling af denne indikation i sidste ende forfølges
-
----
-
-> ⚠️ **Ansvarsfraskrivelse:** Denne rapport er kun til forskningsmæssig referenceformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomformålelse kræver klinisk validering, før de anvendes.
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til repurposing skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Verteporfin
 parent: Kun modelforudsigelse (L5)
-nav_order: 468
+nav_order: 470
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,60 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Verteporfin: Mod mitokondrial oxidativ fosforyleringsforstyrelse (nuklear DNA-relateret)
+# Verteporfin: Fra neovaskulær aldersrelateret makuladegeneration til mitokondriel oxidativ fosforyleringssygdom ved nukleære DNA-anomalier
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-Verteporfins oprindelige godkendte indikation er ikke registreret i den nuværende evidenspakke, og ingen Danmark-markedsautorisation er arkiveret for dette stof. TxGNN-modellen forudsiger en mulig forbindelse til **mitokondrial oxidativ fosforyleringsforstyrelse på grund af nuklear DNA-anomalier**, med en høj modelconfidencescore, men **ingen kliniske forsøg, ingen ICTRP-registrerede forsøg og ingen publiceret litteratur** understøtter i øjeblikket denne retning.
+Verteporfin er en lysaktiveret fotosensibilisator, som anvendes i fotodynamisk terapi mod neovaskulær aldersrelateret makuladegeneration (AMD).
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **mitokondriel oxidativ fosforyleringssygdom som følge af nukleære DNA-anomalier**.
+Forudsigelsen bygger udelukkende på en model: der er **0 kliniske forsøg** og **0 publikationer**, og der er ikke fundet nogen understøttet mekanistisk sammenhæng.
+
+---
 
 ## Hurtigt overblik
 
-| Post | Indhold |
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig i evidenspakke |
-| Forudsagt ny indikation | Mitokondrial oxidativ fosforyleringsforstyrelse på grund af nuklear DNA-anomalier |
-| TxGNN-forudsigelsesscore | 99.49% |
+| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data. Kendt anvendelse: fotodynamisk terapi ved neovaskulær AMD |
+| Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringssygdom som følge af nukleære DNA-anomalier |
+| TxGNN-forudsigelsesscore | 99,49 % |
 | Evidensniveau | L5 |
-| Danmark-markedsstatus | Ikke markedsført |
-| Antal markedsautoriseringer | 0 |
-| Anbefalet beslutning | På hold |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-I øjeblikket er detaljerede virkningsmekanismedata ikke tilgængelige for Verteporfin i denne evidenspakke, og lægemidlets oprindelige indikation(er) er heller ikke registreret. Uden disse oplysninger er det ikke muligt at vurdere det farmakologiske forhold mellem den oprindelige brug og den forudsagte nye indikation (mitokondrial oxidativ fosforyleringsforstyrelse på grund af nuklear DNA-anomalier).
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-TxGNN-modelscoren for denne forudsigelse er høj (99.49%), men det er udelukkende en vidensgrafs-afledt forbindelse. Der blev ikke fundet nogen støttende kliniske forsøg, registreringsposter eller publiceret litteratur til at bekræfte den biologiske plausibilitet af dette link. Indtil MOA-data og en dokumenteret oprindelig indikation opnås, bør denne forudsigelse behandles som en uvalideret beregningshypotese snarere end en mekanistisk funderet hypotese.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i kildeposten. Verteporfin er en fotosensibilisator: Når stoffet aktiveres af lys, dannes reaktive oxygenforbindelser (ROS), som lokalt skader det unormale kar-væv ved neovaskulær AMD. Stoffets øvrige biologi, bl.a. hæmning af YAP-TEAD-signalering og påvirkning af autofagi, er kun beskrevet i prækliniske sammenhænge.
 
-## Bevis fra kliniske forsøg
+Der er ingen kendt sammenhæng mellem disse mekanismer og mitokondrielle sygdomme, der skyldes defekter i nukleært DNA og påvirker den oxidative fosforylering (OXPHOS). Tværtimod kan ROS-dannelsen ved lysaktivering potentielt forværre mitokondriel dysfunktion i stedet for at afhjælpe den. Den høje score på 99,49 % afspejler derfor et mønster i vidensgrafen og ikke dokumenteret biologisk eller klinisk rationale. Forudsigelsen optræder to gange med identisk indhold i datagrundlaget og er her behandlet som én.
 
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+---
 
-## Litteraturbevis
+## Evidens fra kliniske forsøg
 
-I øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
 
 ## Markedsinformation for Danmark
 
-Verteporfin er i øjeblikket **ikke markedsført** i Danmark, og ingen markedsautoriseringer (nationale Lægemiddelstyrelsen eller centraliserede EMA) er arkiveret for dette stof.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28103080799 | Visudyne (CHEPLAPHARM Arzneimittel GmbH) | Pulver til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se venligst det godkendte Produktsammendraget (SmPC) for sikkerhedsinformation.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der ligger ikke tilstrækkelige data om advarsler, kontraindikationer eller interaktioner i datagrundlaget, og en søgning efter interaktioner gav ingen resultater.
 
-## Konklusion og næste trin
+---
 
-**Beslutning: På hold**
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Denne forudsigelse hviler udelukkende på en TxGNN-modelscore (L5 evidens) uden kliniske forsøg, registreringsposter eller litteratur til at understøtte den, og lægemidlet er ikke i øjeblikket markedsført i Danmark. Sikkerheds- og virkningsmekanismedata, der er nødvendige selv for en indledende risikovurdering, mangler.
+Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er ingen understøttet mekanistisk sammenhæng, og lysaktiveret ROS-dannelse kan potentielt forværre mitokondriel dysfunktion. Sikkerhedsgrundlaget er desuden ufuldstændigt.
 
-**For at fortsætte, er følgende nødvendigt:**
-- Oprindelig(e) godkendt(e) indikation(er) og bekræftet lægemiddelklassifikation
-- Virkningsmekanisme (MOA) data
-- Produktmærkning / SmPC advarsler og kontraindikationer (blokerer i øjeblikket – markeret som datakløft til sikkerhedspre-screening)
-- Alle prækliniske eller mekanistiske studier, der forbinder Verteporfin til mitokondrial oxidativ fosforyleringsforstyrrelser
-- Bekræftelse af Danmark/EU regulatoriske status, hvis markedsadgang overvejes
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation), da dette er en blokerende datamangel.
+- Supplér med data om virkningsmekanisme fra DrugBank.
+- Gennemfør en målrettet litteratur- og forsøgssøgning samt prækliniske studier i mitokondrielle modeller, der kan belyse en eventuel biologisk sammenhæng.
+- Vurder administrationsvej og praktisk anvendelighed (lysaktivering) i forhold til den forudsagte sygdom.
 
+*Dette materiale er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

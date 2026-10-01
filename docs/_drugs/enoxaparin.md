@@ -2,7 +2,7 @@
 layout: default
 title: Enoxaparin
 parent: Kun modelforudsigelse (L5)
-nav_order: 165
+nav_order: 166
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,80 +29,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Enoxaparin: Fra VTE-profylakse og behandling til trombofili på grund af protein C-mangel, autosomalt recessiv
+# Enoxaparin: Fra lavmolekylært heparin til trombofili som følge af protein C-mangel
 
-## Resumé på en sætning
+## Resumé
 
-Enoxaparin er en lavmolekylær heparin (LMWH) antikoagulant, der er bredt anvendt til profylakse og behandling af venos tromboembolisme (VTE), dyb venetrombose og akutte koronare syndromer. TxGNN-modellen forudsiger, at det kan være effektivt for **trombofili på grund af protein C-mangel, autosomalt recessiv**, med en forudsigelsessikkerhed på **99.58%** — imidlertid **findes der i øjeblikket ingen kliniske forsøg** og **ingen publiceret litteratur**, der specifikt undersøger denne anvendelse. Denne forudsigelse er mekanistisk plausibel, men forbliver på stadiet af hypotesegenerering og kræver formel klinisk undersøgelse, før der sker yderligere udvikling.
-
----
-
-## Hurtigoversigt
-
-| Element | Indhold |
-|---------|---------|
-| Original indikation | VTE-profylakse og behandling, dyb venetrombose, lungeemboli, akutte koronare syndromer |
-| Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomalt recessiv |
-| TxGNN-forudsigelsesscore | 99.58% |
-| Evidensniveau | L4 (modelforudsigelse; ingen kliniske studier for denne specifikke indikation) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvente |
+Enoxaparin er et lavmolekylært heparin (LMWH), som bruges som antikoagulans. Der er ikke angivet nogen original indikation i de foreliggende data fra Lægemiddelstyrelsen.
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **autosomal recessiv trombofili på grund af protein C-mangel**.
+Forudsigelsen bygger udelukkende på modellen: der er **0 kliniske forsøg** og **0 publikationer** i datagrundlaget.
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Enoxaparin er en lavmolekylær heparin, der hovedsageligt udøver sin antikoagulerende effekt ved at binde antitrombin III (ATIII), hvorved inhibitionen af faktor Xa og i mindre grad faktor IIa (trombin) potentieres. Det er afgørende, at denne mekanisme er fuldstændig uafhængig af protein C-antikoagulansvejen. Enoxaparin har derfor teoretisk kapacitet til at give kompensatorisk antikoagulation i tilstande, hvor protein C-vejen er disfunktionel.
-
-Autosomalt recessiv protein C-mangel er resultatet af bialleleiske loss-of-function-mutationer i *PROC*-genet, som gør protein C ude af stand til at inaktivere koaguleringsfaktor Va og VIIIa. Den resulterende alvorlige hyperkoagulable tilstand markant forhøjer tromboserisikoen. I den mest alvorlige homozyg form manifesterer dette sig ved fødselen som neonatal purpura fulminans — en livstruende nødsituation karakteriseret ved udbredt mikrovaskulær trombose og hudnekrose. TxGNN-modellen erkender, at enoxaparins ATIII-formidlede mekanisme direkte retter sig mod de hyperkoagulable nedstrømskonsekvenser af protein C-mangel, hvorved den defekte vej effektivt omgås.
-
-Det er vigtigt imidlertid at præcisere enoxaparins potentielle rolle nøjagtigt: dette repræsenterer en indirekte kompensatorisk mekanisme — ikke korrektion af det underliggende defekt. Den etablerede første linjebehandling for akut alvorlig sygdom forbliver protein C-koncentrat eller frisk frosset plasma (FFP). Enoxaparins kliniske rolle, hvis der er en, ville mest sandsynligt være adjuvans — for eksempel i længerevarende tromboseprofylakse hos mindre alvorlige heterozyg bærere, eller som brobyggings-antikoagulation i situationer, hvor protein C-koncentrat er utilgængeligt. Denne kontekstuelle nuance er kritisk for klinisk beslutningstagning.
-
----
-
-## Evidens fra kliniske forsøg
-
-I øjeblikket er der ingen registrerede kliniske forsøg, der specifikt undersøger enoxaparin for trombofili på grund af protein C-mangel, autosomalt recessiv.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i data fra Lægemiddelstyrelsen |
+| Forudsagt ny indikation | Trombofili som følge af protein C-mangel, autosomal recessiv |
+| TxGNN-forudsigelsesscore | 99,58 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Evidens fra litteratur
+## Hvorfor er forudsigelsen rimelig?
 
-I øjeblikket er der ingen tilgængelig litteratur, der specifikt undersøger enoxaparin for trombofili på grund af protein C-mangel, autosomalt recessiv.
+Der foreligger ingen detaljerede data om enoxaparins virkningsmekanisme i evidenspakken. Enoxaparin er et lavmolekylært heparin, og dets antikoagulerende effekt er veldokumenteret. Mekanistisk kan det være relevant ved protein C-mangel.
+
+Enoxaparin forstærker antitrombins virkning og hæmmer hovedsageligt faktor Xa. Protein C-mangel nedsætter inaktiveringen af faktor Va og VIIIa og giver en hyperkoagulabel tilstand med øget risiko for trombose. Antikoagulation er derfor biologisk plausibel som behandling af trombosebyrden.
+
+Dette er generel farmakologisk ræsonnering. Den understøttes ikke af nogen undersøgelse eller publikation i de foreliggende data, og TxGNN-scoren er en ren modelforudsigelse. Datagrundlaget indeholdt to identiske poster for denne indikation, som er slået sammen til én.
+
+---
+
+## Kliniske forsøg
+
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-Enoxaparin er i øjeblikket ikke registreret hos Lægemiddelstyrelsen og har ingen markedsføringstilladelser i Danmark. Der er ingen nationale eller centralt godkendte (EMA) produkter på record.
-
-> **Bemærk:** Enoxaparin er godkendt i adskillige andre EU/EØS-lande under mærkenavnet Clexane (Sanofi) og forskellige generiske lægemidler. Enhver brug i Danmark ville i øjeblikket kræve enten en named-patient-import eller en tilsynsindgivelse.
-
----
-
-## Sikkerhedsmæssige overvejelser
-
-Se venligst det godkendte produktresumé (SmPC) for sikkerhedsinformation. Vigtige områder at gennemgå for denne lægemiddelklasse omfatter blødningsrisiko, heparin-induceret trombocytopeni (HIT), overvågning af anti-faktor Xa-niveauer og nyre-dosisjusteringskrav.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106396620 | Inhixa (Techdow Pharma Netherlands B.V.) | Injektionsvæske, opløsning, flerdosisbeholder | Ikke angivet i data |
 
 ---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvente**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-Selv om det mekanistiske grundlag for enoxaparin-brug i autosomalt recessiv protein C-deficiencitrombofili er videnskabeligt kohærent — enoxaparins ATIII-afhængige vej direkte omgår protein C-defekten — er det nuværende evidensniveau L4 (kun modelforudsigelse). Der er ingen registrerede kliniske forsøg, ingen publicerede studier, og enoxaparin markedsføres ikke i Danmark. Denne kombination af faktorer begrunder en Afvente, indtil grundlæggende klinisk evidens er etableret.
+Forudsigelsen er alene modelbaseret (evidensniveau L5), og der er hverken kliniske forsøg eller publikationer, der understøtter den. Data om sikkerhed og godkendt indikation mangler desuden fra Lægemiddelstyrelsen, så sikkerhedsvurderingen kan ikke gennemføres.
 
-**For at fortsætte, er følgende nødvendigt:**
+**For at komme videre kræves følgende:**
+- Advarsler og kontraindikationer fra produktresuméet for Inhixa på Lægemiddelstyrelsens hjemmeside (blokerende)
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- En systematisk litteratursøgning og søgning i kliniske forsøgsregistre om LMWH ved protein C-mangel
+- Afklaring af den oprindelige godkendte indikation og vurdering af, om administrationsvejen (subkutan injektion) passer til den nye indikation
 
-- **Systematisk litteraturgennemgang:** Søg efter kasuistikker, kasuistiksserier og observationelle kohortedata om LMWH-brug specifikt i arvelig protein C-mangel (både homozygot og heterozygot præsentationer)
-- **Konsultation med kliniske eksperter:** Kontakt danske hæmatologi- og trombosespicialister for at evaluere klinisk gennemførlighed og uopfyldt behov kontra eksisterende standard for pleje (protein C-koncentrat, warfarin, DOACs)
-- **Vurdering af tilsynsmæssig vej:** Bestem vejen for enoxaparin-godkendelse i Danmark (named-patient-import, centraliseret EMA-procedure eller national ansøgning)
-- **Sikkerhedsprofil-gennemgang:** Indhent det fulde SmPC for at karakterisere kontraindikationer, vigtige advarsler og lægemiddelinteraktioner — i øjeblikket et blokerende datahul
-- **Dokumentation af virkningsmekanisme:** Hent formelle DrugBank MOA-data for at fuldende den mekanistiske analyse
-- **Afklaring af placering:** Definer, om den tilsigtede brug er akut/emergency (hvor protein C-koncentrat forbliver første linje) eller langtidsmedicinering (hvor enoxaparin kan have en mere levedygtig rolle)
+---
 
+*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

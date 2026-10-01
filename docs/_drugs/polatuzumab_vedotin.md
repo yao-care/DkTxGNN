@@ -2,7 +2,7 @@
 layout: default
 title: Polatuzumab Vedotin
 parent: Kun modelforudsigelse (L5)
-nav_order: 355
+nav_order: 356
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,104 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Polatuzumab Vedotin: Fra CD79b-Positive B-Celle Maligniteter til HER2-Positive Brystkræft
+# Polatuzumab vedotin: Fra B-celle-rettet antistof-lægemiddelkonjugat til HER2-positivt brystkarcinom
 
-## Sammenfatning i ét sætning
+## Resumé i få sætninger
 
-Polatuzumab vedotin er et anti-CD79b antistof-lægemiddel-konjugat (ADC), der indeholder mikrotubuli-inhibitoren MMAE, udviklet til CD79b-positive B-celle maligniteter såsom DLBCL. TxGNN-modellen forudsiger, at det kan være effektivt til **HER2-Positive Brystkræft** med en meget høj lighedsscore (99.34%), men **0 kliniske forsøg og 0 relevante publikationer** understøtter i øjeblikket denne retning — modellens egen begrundelse for genbrug markerer dette som en sandsynlig target-mismatch i stedet for et ægte biologisk signal.
+Polatuzumab vedotin er et antistof-lægemiddelkonjugat, der rettes mod CD79b på B-celler og afleverer det mikrotubuli-hæmmende stof MMAE. Datagrundlaget angiver ingen registreret oprindelig indikation.
 
-## Hurtig Oversigt
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HER2-positivt brystkarcinom**. Forudsigelsen understøttes af **0 kliniske forsøg** og **0 relevante publikationer**, og den er derfor ren modelforudsigelse.
 
-| Emne | Indhold |
-|------|---------|
-| Original Indikation | Ikke på fil for Danmark; lægemidlet er udviklet til CD79b-positive B-celle maligniteter (f.eks. DLBCL), ifølge virkningsmekanisme-kontekst i evidenspakken |
-| Forudsagt Ny Indikation | HER2-Positive Brystkræft |
-| TxGNN Forudsigelsesscore | 99.34% |
-| Evidensniveau | L5 (kun modelforudsigelse — ingen understøttende kliniske forsøg eller gyldig litteratur) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal Markedsføringsgodkendelser | 0 |
-| Anbefalet Beslutning | Afvent |
+---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hurtigt overblik
 
-Formelle virkningsmekanisme-data for denne kandidat er markeret som et datahul (DG002). Evidenspakkens egen begrundelse for genbrug beskriver imidlertid polatuzumab vedotin som et anti-CD79b antistof-lægemiddel-konjugat: antistoffer retter sig mod CD79b, en komponent af B-celle-receptorkomplekset udtrykt på ondartede B-lymfocytter, og leverer den cytotoksiske nyttelast MMAE ved internalisering. Dets etablerede målpopulation er CD79b-positive B-celle maligniteter (f.eks. DLBCL).
+| Punkt | Indhold |
+|------|------|
+| Forudsagt ny indikation | HER2-positivt brystkarcinom |
+| TxGNN-forudsigelsesscore | 99,34 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-HER2 er en receptortryrosinkinase udtrykt på brystepitelceller og er biologisk ikke relateret til CD79b. Brystkræftceller udtrykker ikke CD79b, så der er ingen kendt målbaseret sti, der forbinder dette lægemiddel med HER2-positiv brystkræft. Evidenspakken karakteriserer eksplicit den høje TxGNN-score (0.993) som sandsynligvis afspejlende vidensgraf-indlejrings-lighed snarere end en faktisk delt biologisk mekanisme, og markerer den som mistænkt grafinformation-støj / target-mismatch. Den samme advarsel gælder for de andre forudsagte indikationer i denne pakke (progesteronreceptor-status, "normal brystlignende" subtype, luminal A/B) — ingen har en plausibel mekanistisk forbindelse til CD79b/ADC-biologi.
+---
 
-Bemærkelsesværdigt opfyldte en lavere-rangeret forudsigelse ("brysttumor luminal A eller B") 19 PubMed-hits, men ved inspektion er disse alle falske positive nøgleordsmatch — hepatitis B-vaccinstudier, B-celle-udviklingsbiologi, HLA-B alleltypning og ikke-relaterede fysik-papirer — udløst af bogstavet "B" i "luminal B" snarere end nogen topisk relevans. Ingen af de 19 papirer omhandler brystkræft eller dette lægemiddel. Dette er en brugbar advarsel: et ikke-nul litteraturantal i denne pakke indikerer ikke i sig selv ægte bevisunderstøttelse.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Klinisk Forsøgsevidensbevis
+Polatuzumab vedotin binder CD79b, en del af B-cellereceptoren, og leverer MMAE, som hæmmer mikrotubuli. CD79b findes kun på B-cellelinjen og er ikke et etableret mål ved HER2-positivt brystkarcinom. Der er heller ikke påvist CD79b-ekspression i brysttumorer af andre subtyper.
 
-I øjeblikket er der ingen relaterede kliniske forsøg registreret.
+Den høje score på 0,993 skyldes sandsynligvis nærhed i videnskortet (knowledge graph) og generel forbindelse til onkologiske lægemidler. Mekanistisk understøttes den ikke. Den eneste tænkelige forbindelse er den uspecifikke cytotoksiske virkning af MMAE. Det er en klasseeffekt for nyttelasten og ikke en begrundelse, der er specifik for dette lægemiddel.
 
-## Litteraturbevis
+Detaljerede data om virkningsmekanisme og oprindelig indikation mangler i datagrundlaget, så forudsigelsen kan ikke krydstjekkes mod lægemidlets kendte anvendelse.
 
-I øjeblikket er der ingen relateret litteratur tilgængelig.
+### Øvrige forudsigelser
 
-*Bemærkning: En relateret forudsagt indikation ("brysttumor luminal A eller B", samme evidensniveau) returnerede 19 PubMed-hits, men alle blev bekræftet at være nøgleords-mismatch-støj (hepatitis B-vacciner, B-celle-biologi, HLA-B-typning, ikke-relateret fysik) uden relevans for brystkræft eller dette lægemiddel — ingen kvalificerer sig som understøttende bevis.*
+Modellen foreslår også andre brystkræftsubtyper. Alle har evidensniveau L5, beslutningen Hold og ingen kliniske forsøg. Hver indikation optræder to gange i rådata og er her kun vist én gang.
 
-## Markedsoplysninger for Danmark
+| Forudsagt indikation | Score | Bemærkning |
+|------|------|------|
+| Normal-like subtype af brystkarcinom | 98,91 % | Ingen kendt CD79b-ekspression |
+| Progesteronreceptor-positiv brystkræft | 98,91 % | Ingen kendt sammenhæng med CD79b-rettet behandling |
+| Luminal A- eller B-brysttumor | 98,89 % | 19 hentede publikationer er irrelevante (se nedenfor) |
+| Progesteronreceptor-negativ brystkræft | 98,86 % | Ingen mekanistisk eller klinisk sammenhæng |
 
-Der er i øjeblikket ingen markedsføringsgodkendelser på fil for dette lægemiddel i Danmark (0 licenser registreret; markedsstatus: Ikke markedsført).
+---
+
+## Klinisk evidens
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der foreligger i øjeblikket ingen relateret litteratur for den primære forudsigelse (HER2-positivt brystkarcinom).
+
+Søgningen for "luminal A- eller B-brysttumor" returnerede 19 publikationer. De ser ud til at være søgeartefakter på bogstavet "B", fx B-cellebiologi, hepatitis B-vacciner, HLA-B og bakteriochlorofyl b. Ingen af dem omhandler polatuzumab vedotin, CD79b, MMAE eller brystkræft, og de er derfor ikke medtaget som evidens.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+|---------|------|------|-----------|
+| 28106216319 | Polivy | Pulver til koncentrat til infusionsvæske, opløsning | Roche Registration GmbH |
+
+Godkendt indikationstekst er ikke angivet i datagrundlaget.
+
+---
 
 ## Cytotoksicitet
 
-Polatuzumab vedotin er et antistof-lægemiddel-konjugat, der leverer en cytotoksisk nyttelast og retter sig mod en malignitet-indikation, så dette afsnit gælder.
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Målrettet behandling: antistof-lægemiddelkonjugat med cytotoksisk nyttelast (MMAE, mikrotubuli-hæmmer) |
+| Risiko for myelosuppression | Se produktresuméet (SPC). Knogemarvspåvirkning er en forventelig klasseeffekt for MMAE-konjugater |
+| Emetogenicitetsklassifikation | Se produktresuméet (SPC) |
+| Monitoreringspunkter | Se produktresuméet (SPC). Typisk komplet blodtælling samt lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler |
 
-| Emne | Indhold |
-|------|---------|
-| Cytotoksicitetsklassificering | Målrettet terapi — antistof-lægemiddel-konjugat (ADC) med cytotoksisk nyttelast (MMAE, en mikrotubuli-inhibitor) |
-| Myelosuppressionsrisiko | Se venligst Produktinformationen (SmPC) advarsler og forsigtighedsregler |
-| Emetogenitetsklassificering | Se venligst Produktinformationen (SmPC) advarsler og forsigtighedsregler |
-| Overvågningspunkter | Se venligst Produktinformationen (SmPC) advarsler og forsigtighedsregler |
-| Sikkerhed ved håndtering | Se venligst Produktinformationen (SmPC) advarsler og forsigtighedsregler |
+---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Se venligst den godkendte Produktinformation (SmPC) for sikkerhedsoplysninger.
+Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger. Der er ikke fundet data om advarsler, kontraindikationer eller interaktioner i datagrundlaget.
 
-*Bemærkning: Hentning af danske SmPC advarsler/kontraindikationer er et blokerende datahul (DG001) — dette skal løses, før nogen sikkerhedsfase (S1) evaluering kan foregå.*
+---
 
-## Konklusion og Næste Trin
+## Konklusion og næste skridt
 
-**Beslutning: Afvent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation (HER2-positiv brystkræft) har ingen kliniske forsøg, ingen gyldig litteraturunderstøttelse, og evidenspakkens egen begrundelse identificerer det som en sandsynlig target-mismatch/graf-indlejringsartefakt snarere end et biologisk plausibelt genbrugssignal — CD79b og HER2 er ikke-relaterede targets uden kendt mekanistisk overlap. Alle andre forudsagte indikationer i dette kandidatsæt deler samme svaghed.
+Forudsigelsen er udelukkende baseret på en modelscore uden kliniske forsøg, relevant litteratur eller mekanistisk understøttelse. CD79b er ikke et etableret mål ved HER2-positivt brystkarcinom. Evidensniveauet er L5, og sikkerhedsdata mangler.
 
-**For at fortsætte, kræves følgende:**
-- Danske SmPC advarsler, kontraindikationer og lægemiddelinteraktionsdata (blokerende gab, DG001)
-- Formelt, kildebaseret virkningsmekanisme-dokumentation (DG002)
-- Uafhængig biologisk/target-ekspressionsvalidering før behandling af denne TxGNN-score som et ægte genbrugssignal (f.eks. bekræftelse af, hvorvidt HER2-positive brysttumorer udtrykker nogen CD79b-relateret target)
-- Hvis det forfølges videre, genkør litteratur/forsøgssøgninger med disambiguerede sygdomsbetegnelser for at undgå nøgleords-kollisions-støj (som set med "luminal B" falske positiver)
-
+**For at komme videre kræves:**
+- Hentning af produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Dette blokerer sikkerhedsscreeningen.
+- Oplysninger om oprindelig indikation og virkningsmekanisme (fx via DrugBank).
+- Præklinisk dokumentation for CD79b-ekspression eller anden målrelevans i brystkræftvæv.
+- En målrettet litteratur- og forsøgssøgning med polatuzumab vedotin, CD79b og MMAE kombineret med brystkræft.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

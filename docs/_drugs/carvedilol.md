@@ -2,7 +2,7 @@
 layout: default
 title: Carvedilol
 parent: Kun modelforudsigelse (L5)
-nav_order: 95
+nav_order: 96
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,97 +29,101 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carvedilol: Fra hjertesvigt til malign nyrearteri-hypertension
+# Carvedilol: Fra kendt anvendelse til malign renovaskulær hypertension
 
-## Sammenfatning på én sætning
+## Resumé i få sætninger
 
-Carvedilol er en ikke-selektiv beta-blokker med yderligere alfa-1-blokerende aktivitet, etableret globalt til behandling af hjertesvigt, hypertension og venstre ventrikelsdysfunktion efter myokardieinfarkt.
-TxGNN-modellen forudsiger, at det kan være effektivt for **malign nyrearteri-hypertension** med en forudsigelsesscore på **99,55%**,
-men der er **ingen kliniske forsøg eller direkte relevante publikationer**, der understøtter denne specifikke genfund-retning, hvilket placerer denne kandidat på det laveste bevisniveau.
+Carvedilol er en betablokker med samtidig alfa-1-blokade og er markedsført i Danmark som tabletter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension**. Der er dog **0 kliniske forsøg** og **0 publikationer** for denne indikation, og forudsigelsen er derfor kun modelbaseret.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Element | Indhold |
-|---------|---------|
-| Oprindelig indikation | Hjertesvigt, hypertension, venstre ventrikelsdysfunktion efter myokardieinfarkt (ikke registreret i Danmark) |
-| Forudsagt ny indikation | Malign nyrearteri-hypertension |
-| TxGNN-forudsigelsesscore | 99,55% |
-| Bevisniveau | L5 |
-| Danmark markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet afgørelse | Afventende |
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Carvedilol er en tredje generations beta-blokker med dual adrenerg blokering: den blokerer β1-receptorer (reducerer pulsfrekvens og hjertets minutvolumen) og α1-receptorer (forårsager perifer vasodilatation og reducerer systemisk vaskulær modstand). Denne kombinerede mekanisme gør den mere effektiv til blodtrykssænkning end selektive beta-blokker alene, og den er også kendt for at have antioksidative egenskaber, der kan neutralisere reaktive iltarter.
-
-Malign nyrearteri-hypertension forårsages typisk af nyrearti-stenose, der udløser overdreven aktivering af renin-angiotensin-aldosteron-systemet (RAAS), hvilket fører til alvorligt forhøjet blodtryk med end-organ-skade. Carvedilos blodtryksnedsættende mekanisme tilbyder en teoretisk rationale for intervention. Derudover kan dets antioksidative egenskaber teoretisk være med til at mindske oxidativ stress-medieret vaskulær og nyreskade.
-
-Men den mekanistiske overensstemmelse medfører betydelige sikkerhedsmæssige bekymringer. Ikke-selektiv beta-blokering kan interferere med β1-medieret reninsuppression i den iskæmiske nyre, hvilket potentielt kan forværre nyrerperfusionssvigt i sammenhængen med nyrearterie-stenose. I denne specifikke patofysiologi foretrækkes typisk RAAS-targeting stoffer (ACE-hæmmere, ARB'er) eller calciumkanalblokkere. TxGNN-signalet afspejler sandsynligvis den generelle blodtrykssænkende profil af lægemidlet snarere end en sygdomsspecifik mekanistisk overensstemmelse.
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten for det danske produkt er tom) |
+| Forudsagt ny indikation | Malign renovaskulær hypertension |
+| TxGNN-forudsigelsesscore | 99,55 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Kliniske forsøg
+## Hvorfor kunne forudsigelsen være rimelig, og hvorfor er den usikker?
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte nye indikationer (malign nyrearteri-hypertension, malign hypertensiv nyresygdom, pulmonalhypertension eller Braddock-syndrom).
+Detaljerede data om virkningsmekanisme foreligger ikke i datagrundlaget. Carvedilol er en ikke-selektiv betablokker med alfa-1-blokade, og begge egenskaber kan sænke blodtrykket. Det er den eneste mekanistiske forbindelse, der kan trækkes frem.
 
----
+Malign renovaskulær hypertension er en hypertensiv nødsituation, som primært drives af aktivering af renin-angiotensinsystemet. Betablokkere er ikke standardbehandling her, så sammenhængen er ikke valideret. Den høje score (0,995) kan afspejle, at sygdommen ligger tæt på den generelle hypertensionsknude i vidensgrafen, snarere end sygdomsspecifik evidens.
 
-## Litteraturbevis
-
-Der blev ikke identificeret direkte relevante publikationer for den vigtigste forudsagte indikation (malign nyrearteri-hypertension).
-
-> **Bemærkning om hentet litteratur (pulmonalhypertension med hypoksi, rangerer 7–8):** En PubMed-søgning returnerede 20 publikationer under søgningen for "carvedilol + pulmonalhypertension på grund af lungesygdom og/eller hypoksi." Ved gennemgang behandler alle hentede artikler hypoksi-biologi i generelle sammenhænge (f.eks. neurodegeneration, cancerstofskifte, vævsieling) og undersøger ikke specifikt carvedilol til pulmonalhypertension. Disse betragtes som ikke-relevant baggrundsiteratur og er udelukket fra bevisvurdering. Repræsentative titler omfatter reviews om hypoksi og hjernealdering, HIF-1α-signalering i tumorer og kognitiv svækkelse under hypoksi — ingen evaluerer carvedilol som et terapeutisk middel til denne indikation. Bevisniveauet for denne indikation forbliver således L5.
+Flere af de forudsagte indikationer har nøjagtig samme score. Det tyder på, at de stammer fra samme område i grafen og ikke er uafhængige signaler.
 
 ---
 
-## Danmark markedsinformation
+## Øvrige forudsagte indikationer
 
-Carvedilol har i øjeblikket ingen markedsføringstilladelser tildelt af Lægemiddelstyrelsen og er ikke et godkendt lægemiddel på det danske marked.
+Datagrundlaget indeholdt 10 poster, men kun 5 unikke sygdomme, da poster optrådte dobbelt. Dubletter er samlet her.
 
-> Carvedilol er imidlertid et bredt godkendt lægemiddel i EU gennem centraliserede EMA-procedurer og nationale tilladelser i andre medlemsstater (f.eks. Coreg®, Dilatrend®). Adgang i Danmark for individuelle patienter kan være mulig via særlig import-vejene afhængigt af Lægemiddelstyrelsens godkendelse.
+| Sygdom | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Malign renovaskulær hypertension | 99,55 % | L5 | Ingen forsøg eller litteratur. Hold |
+| Malign hypertensiv nyresygdom | 99,55 % | L5 | Ingen forsøg eller litteratur. Blodtryksfald og renale hæmodynamiske effekter er tænkelige. Hold |
+| Pulmonal hypertension med uklar multifaktoriel mekanisme | 99,54 % | L5 | Ingen forsøg eller litteratur. Betablokade kan belaste højre ventrikel, så scoren bør kontrolleres for falsk positiv. Hold |
+| Pulmonal hypertension pga. lungesygdom og/eller hypoxi | 99,54 % | L5 | Se bemærkning under litteratur. Betablokade kan forværre gasudveksling eller højre ventrikelfunktion. Hold |
+| Braddock syndrom | 99,37 % | L5 | Meget sjælden sygdom uden kendt mekanistisk kobling. Hold |
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk evidens fra forsøg
 
-Detaljerede advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i det aktuelle bevisoversigt for den danske markedskontekst.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
 
-Se venligst produktresuméet (SmPC) — f.eks. det EMA-godkendt produkt-resumé eller tilsvarende national mærkning — for fuldstændig sikkerhedsinformation.
+---
 
-> **Vigtige sikkerhedssignaler kendt fra generel farmakologisk viden (kun til kontekst):**
-> - Ikke-selektiv beta-blokering kan forværre bronkospasme hos patienter med astma eller reaktiv luftvejssygdom
-> - Brug ved nyrearterie-stenose (den grundlæggende årsag til nyrearteri-hypertension) medfører risiko for akut nyrefunktionsforværring
-> - Forsigtighed påkrævet hos patienter med decompenseret hjertesvigt, alvorlig bradykardi eller hjerteblok
-> - Pludselig seponering bør undgås på grund af risiko for rebound-hypertension eller angina
+## Litteraturevidens
 
-*Disse noter er baseret på generel farmakologisk viden og kan ikke erstatte det godkendte SmPC.*
+Der er i øjeblikket ingen relateret litteratur for den primære forudsigelse (malign renovaskulær hypertension).
+
+Bemærk: For pulmonal hypertension pga. lungesygdom/hypoxi blev der hentet 20 publikationer (10 vist). De handler om generel hypoxi-biologi, f.eks. hypoxi og hjernealdring, tumorhypoxi og hypoxi ved dyrt væv. Ingen af dem nævner carvedilol eller behandling af pulmonal hypertension. De ligner nøgleordstræffere på "hypoxia" og er ikke evidens for denne lægemiddel-sygdomskombination.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform |
+|---------|------|------|
+| 28107355925 | Carvedilol "2care4" (2care4 ApS) | Tabletter (oral) |
+
+Godkendelsesteksten for indikation er ikke tilgængelig i datagrundlaget.
+
+---
+
+## Sikkerhedsovervejelser
+
+Sikkerhedsoplysninger (advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+
+Sikkerhedsscreeningen kan ikke gå videre, før indlægssedlen og produktresuméet fra Lægemiddelstyrelsen er indhentet. Særlig opmærksomhed kræves ved pulmonal hypertension, hvor betablokade kan være skadelig.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Afgørelse: Afventende**
+**Beslutning: Hold**
 
-**Rationale:**
-Alle forudsagte indikationer vurderes på bevisniveau 5 (kun TxGNN-modelforudsigelse), uden understøttende kliniske forsøg og uden direkte relevant litteratur. Den mekanistiske rationale for malign nyrearteri-hypertension er teoretisk til stede, men medfører specifikke sikkerhedsmæssige bekymringer, der ikke er blevet evalueret i denne sammenhæng, og lægemidlet markedsføres ikke i øjeblikket i Danmark.
+**Begrundelse:**
+- Alle forudsigelser bygger udelukkende på en grafmodel (evidensniveau L5), uden kliniske forsøg og uden relevant litteratur.
+- Den mekanistiske kobling er svag eller modstridende, især ved pulmonal hypertension og malign renovaskulær hypertension.
 
-**For at fortsætte er følgende nødvendigt:**
-
-- Hent og gennemse det komplette produktresumé (f.eks. EMA Dilatrend/Coreg SmPC) for at vurdere kontraindikationer og advarsler, der er relevante for malign nyrearteri-hypertension
-- Få mekanisme-for-virkning-data fra DrugBank (DB01136) for at styrke eller anfægte det mekanistiske link
-- Udføre en målrettet litteratursøgning specifikt for carvedilol ved nyrearteri- eller malign hypertension (uden at stole på generel hypoksi-litteratur)
-- Konsulter en klinisk nefrolog eller kardiolog for at vurdere, hvorvidt ikke-selektiv beta-blokering er passende i sammenhængen med hypertension drevet af nyrearterie-stenose
-- Overvej, om alternative kardiovaskulære lægemidler med højere bevisniveauer for disse specifikke indikationer skal prioriteres foran carvedilol i genfindings-pipeline
+**For at komme videre kræves:**
+- Sikkerhedsdata fra Lægemiddelstyrelsens produktresumé (advarsler, kontraindikationer, interaktioner).
+- Detaljerede data om virkningsmekanisme, f.eks. fra DrugBank.
+- Målrettet litteratursøgning på carvedilol kombineret med hver af de forudsagte sygdomme, i stedet for brede nøgleordssøgninger.
+- Kliniske vurderinger af, om betablokade er hensigtsmæssig ved hver af tilstandene, især ved pulmonal hypertension.
 
 ---
 
-*Denne rapport er kun til forskningsformål og udgør ikke medicinsk rådgivning. Alle lægemiddel-genfindings-kandidater kræver klinisk validering før enhver terapeutisk anvendelse.*
-
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

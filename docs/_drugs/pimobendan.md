@@ -2,7 +2,7 @@
 layout: default
 title: Pimobendan
 parent: Kun modelforudsigelse (L5)
-nav_order: 352
+nav_order: 353
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pimobendan: Fra canin kongestiv hjerteinsufficiens til blandet mineralstøvpneumokonose
+# Pimobendan: Fra uoplyst oprindelig indikation til blandet mineralstøv-pneumokoniose
 
-## Resumé i én sætning
+## Resumé i få sætninger
 
-Pimobendan er en PDE3-inhibitor/calciumsensibilisator kendt for sine positive inotrope og vasodilatatoriske effekter ved canin kongestiv hjerteinsufficiens. TxGNN-modellens topforudsigelse er **blandet mineralstøvpneumokonose**, men denne understøttes af **0 kliniske forsøg** og **0 publikationer**, og forudsigelsesscore (50%) svarer til en ikke-informativ baselineværdi snarere end et ægte signal.
+Pimobendan er i den danske registrering et veterinærlægemiddel (Cardisan Vet., tyggetabletter), men den godkendte indikation er ikke oplyst i datagrundlaget. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **blandet mineralstøv-pneumokoniose**, men forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. Evidensen er derfor kun modelbaseret, og anbefalingen er **Hold**.
 
-## Hurtig oversigt
+---
 
-| Element | Indhold |
+## Hurtigt overblik
+
+| Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig fra dansk registerdata (medicin ikke markedsført, ingen godkendt indikationstekst på arkiv). Bevispakningen's mekanistiske noter refererer til canin kongestiv hjerteinsufficiens som medicinens kendt anvendelse. |
-| Forudsagt ny indikation | Blandet mineralstøvpneumokonose |
-| TxGNN-forudsigelsesscore | 50% |
-| Bevisniveau | L5 |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Afvent |
+| Oprindelig indikation | Ikke oplyst i datagrundlaget (godkendt indikationstekst er tom) |
+| Forudsagt ny indikation | Blandet mineralstøv-pneumokoniose |
+| TxGNN-forudsigelsesscore | 50 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (veterinærpræparat) |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede virkningsmekanisme-data for pimobendan er markeret som et datahul i denne bevispakke (alvorlighed: høj). Den eneste mekanistiske kontekst, der er tilgængelig, kommer fra omstillings-rationale-noter, som beskriver pimobendan som en PDE3-inhibitor/calciumsensibilisator brugt klinisk for sine positive inotrope og vasodilatatoriske effekter.
+## Hvorfor er forudsigelsen rimelig?
 
-Vigtigst er det, at bevispakningen's egen vurdering angiver, at denne forudsigelse **ikke** er mekanistisk understøttet: der er ingen kendt sammenhæng mellem pimobendan's kardiovaskulær farmakologi og de fibrotiske/inflammatoriske processer, der ligger til grund for blandet mineralstøvpneumokonose. En TxGNN-score på 0.5 svarer til en ikke-informativ standardværdi snarere end et meningsfuldt signal — modellen udtrykker effektivt ingen præference. Det samme mønster gælder for alle ti rangerede forudsigelser for denne medicin (alle scoret 0.5, alle bevisniveau L5, alle anbefalet Afvent), flere af hvilke er sjældne genetiske syndromer eller immun-mediere tilstande uden plausibel farmakologisk forbindelse til pimobendan.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i datagrundlaget. Pimobendan beskrives generelt som en PDE3-hæmmer og calciumsensitizer med kardial inodilatorisk virkning. Der er dog ikke oplyst nogen oprindelig indikation, så forholdet mellem den oprindelige og den nye indikation kan ikke vurderes.
 
-I betragtning heraf bør forudsigelsen behandles som et lavt-konfidensmodel-artefakt snarere end en troværdig omstillings-hypotese på nuværende tidspunkt.
+Der er ikke fundet noget understøttet mekanistisk link mellem pimobendan og fibrotisk, støvinduceret lungesygdom. Et eventuelt link via pulmonal hypertension eller belastning af højre hjertehalvdel er rent spekulativt. Scoren på 0,5 er desuden ikke diskriminerende, og der er hverken forsøg eller litteratur, som kan støtte forudsigelsen.
 
-## Bevis fra kliniske forsøg
+Ud over den førsterangerede forudsigelse indeholder datagrundlaget ni øvrige forudsigelser. Alle har score 0,5, evidensniveau L5 og anbefalingen Hold:
 
-Aktuelt ingen relaterede kliniske forsøg registreret.
+- Rod-cone-dystrofi med sensorineural døvhed og Fanconi-lignende nyredysfunktion
+- MED12-relateret syndrom med intellektuel funktionsnedsættelse
+- Alfa-gal-syndrom
+- Fødevareproteinudløst allergisk proktokolit
+- Mastcelleaktiveringssyndrom (generelt, primært og sekundært)
+- Fødevareproteinudløst enterokolitis-syndrom
+- Tendinopati
 
-## Litteraturbeviser
+For alfa-gal-syndrom og mastcelleaktiveringssyndrom foreligger en svag, spekulativ hypotese. PDE-hæmning øger cAMP, hvilket teoretisk kan dæmpe aktiveringen af mastceller og basofile granulocytter. Dette er ikke understøttet af data. Pimobendans vasodilaterende og inotrope effekt kan desuden være uønsket ved tilstande med risiko for hypotension, f.eks. mastcelleaktiveringssyndrom og fødevareproteinudløst enterokolitis-syndrom.
 
-Aktuelt ingen relateret litteratur tilgængelig.
+---
+
+## Kliniske forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
 
 ## Markedsinformation for Danmark
 
-Pimobendan har aktuelt ingen markedsføringstilladelse i Danmark (markedsstatus: ikke markedsført; 0 tilladelser på arkiv), så ingen produkt-/doseringsform-information er tilgængelig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106691121 | Cardisan Vet. (Alfasan Nederland BV) | Tyggetabletter | Ikke oplyst |
 
-## Sikkerhedshensyn
+Den eneste registrerede tilladelse gælder et veterinærpræparat til oral brug. Datagrundlaget indeholder ingen humane præparater med pimobendan i Danmark.
 
-Se venligst den godkendte produktkarakteristika-oversigt (SmPC) for sikkerhedsinformation. Bemærk: TFDA/regulatorisk advarsel og kontraindikationsdata for denne medicin er markeret som et **blokerende** datahul (DG001) — dette skal løses, før nogen sikkerhedsvurdering (S1-trin) kan fortsætte.
+---
 
-## Konklusion og næste trin
+## Sikkerhedsovervejelser
 
-**Beslutning: Afvent**
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
+
+## Konklusion og næste skridt
+
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Alle ti forudsagte indikationer bærer den samme ikke-informativ TxGNN-score (0.5), ingen understøttende kliniske forsøg eller litteratur, og bevisniveau L5. Pakken selv bemærker ingen mekanistisk plausibilitet for den højest rangerede indikation. Medicinen er ikke markedsført i Danmark, og centrale sikkerhedsdata (advarsler/kontraindikationer) er et blokerende datahul.
+Forudsigelsen hviler udelukkende på en modelscore på 0,5 uden kliniske forsøg, litteratur eller bekræftet virkningsmekanisme (evidensniveau L5). Det eneste danske præparat er desuden et veterinærlægemiddel, og sikkerhedsdata fra Lægemiddelstyrelsens produktinformation mangler.
 
-**For at fortsætte er følgende nødvendigt:**
-- TFDA/SmPC-advarsler og kontraindikationer (blokerende hul, DG001)
-- Verificeret virkningsmekanisme-data (høj-prioritets-hul, DG002)
-- Genkørsel af TxGNN-forudsigelse med en korrekt diskriminerende score for at bekræfte, om de nuværende 0.5-værdier afspejler ægte modelusikkerhed eller et data- eller mappingproblem
-- Eventuel preliminær præ-klinisk eller mekanistisk begrundelse, der forbinder pimobendan's kardiovaskulær farmakologi til den forudsagte indikation, før yderligere evaluering er berettiget
+**For at komme videre kræves:**
+- Hent og gennemgå produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- Afklar den godkendte indikation for Cardisan Vet.
+- Indhent data om virkningsmekanismen, f.eks. via DrugBank
+- Udfør en systematisk litteratursøgning, herunder prækliniske studier, for pneumokoniose og mastcellerelaterede tilstande
+- Vurder, om en human administrationsvej og et humant præparat overhovedet er relevant
 
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

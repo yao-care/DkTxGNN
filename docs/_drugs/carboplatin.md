@@ -2,15 +2,15 @@
 layout: default
 title: Carboplatin
 parent: Høj evidens (L1-L2)
-nav_order: 92
-evidence_level: L1
+nav_order: 93
+evidence_level: L2
 indication_count: 10
 ---
 
 # Carboplatin
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,126 +29,120 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carboplatin: Fra æggstokkræft til kvindeligt brystcancer
+# Carboplatin: Fra platinbaseret kemoterapi til kvindelig brystkræft
 
-## Resumé i én sætning
+## Resumé i få sætninger
 
-Carboplatin er et platinbaseret cytotoksisk kemoterapeutisk middel, der globalt er etableret som ryggratbehandling for æggstokkræft og andre solide tumorer, selvom det i øjeblikket ikke har nogen markedsføringstilladelse i Danmark.
-TxGNN-modellen forudsiger, at det kan være effektivt for **kvindeligt brystcancer** — med en prædiksionsscore på **99.86%** — og denne retning understøttes af **mere end 30 kliniske forsøg** og **20 peer-reviewed publikationer**, herunder flere afsluttede fase 2/3 randomiserede forsøg, der viser forbedrede patologiske komplette responsrater (pCR) i triple-negativ og BRCA-muteret brystcancer.
+Carboplatin er et platinbaseret cytostatikum, som i Danmark er markedsført som Carbomedac (koncentrat til infusionsvæske). Den oprindelige indikation fremgår ikke af de tilgængelige data.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **kvindelig brystkræft**. Forudsigelsen understøttes af **50 registrerede kliniske forsøg** og **20 publikationer**, men mange af forsøgene er kombinationsstudier eller kun løst relateret.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
-|------|---------|
-| Oprindelig indikation | Æggstokkræft (globalt standard for pleie; ikke registreret i Danmark — se Danmark markedsinformation) |
-| Forudsagt ny indikation | Kvindeligt brystcancer |
-| TxGNN prædiksionsscore | 99.86% |
-| Evidensniveau | L1 |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Fortsæt med sikkerhedsbestemmelser |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i de tilgængelige data |
+| Forudsagt ny indikation | Kvindelig brystkræft (female breast carcinoma) |
+| TxGNN-forudsigelsesscore | 99,86 % |
+| Evidensniveau | L2 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Carboplatin er en platinbaseret forbindelse af anden generation, der dræber kræftceller ved at danne kovalente tværbindinger både inden for en enkelt DNA-streng (intra-strand addukter) og mellem modsatte strenge (inter-strand kryds-links). Denne strukturelle skade standser DNA-replikationsmaskineriet og udløser programmeret celledød (apoptose). Selvom detaljerede DrugBank-mekanismedata ikke var tilgængelige for denne rapport, er carboplatins mekanisme velgrundet i litteraturen og bekræftet af evidenspakkens begrundelse for det nye formål.
+Der findes ikke detaljerede data om virkningsmekanismen i Evidence Pack. Ud fra kendt viden er carboplatin et platinbaseret cytostatikum. Det danner platin-DNA-addukter og inter- og intrastrand-krydsbindinger, som blokerer DNA-replikation og fører til celledød i delende tumorceller.
 
-Det mekanistiske link til brystcancer er særlig overbevisende i to subtyper. For det første har triple-negativ brystcancer (TNBC) og BRCA1/2-muterede brystcancere defekter i homolog rekombinations-DNA-reparation (HRD). Fordi disse tumorer ikke effektivt kan reparere platinudløst DNA-skade, er de uforholdsmæssigt følsomme over for carboplatin — et koncept valideret af det banebrydende GeparSixto-forsøg (Lancet Oncology, 2014), som viste en signifikant forbedring i pCR, når carboplatin blev tilføjet til neoadjuvant kemoterapy i TNBC. For det andet behandles HER2-positivt brystcancer rutinemæssigt med TCHP-regimet (docetaxel, carboplatin, trastuzumab, pertuzumab), understøttet af flere fase 2/3-forsøg; carboplatin i denne sammenhæng er ikke virkelig eksperimentelt, men snarere et ryggratmiddel i overensstemmelse med retningslinjer.
+Tumorer med nedsat homolog rekombination (HR-mangel), fx BRCA-muterede tumorer og triple-negativ brystkræft (TNBC), er mere følsomme over for denne type DNA-skade. Det er i overensstemmelse med forsøg, hvor carboplatin kombineres med PARP-hæmmere (veliparib), og med litteratur om resistens knyttet til DNA-reparationssignaturer.
 
-En yderligere biologisk begrundelse involverer begrebet syntetisk letalitet: carboplatin-induceret DNA-skade kombineret med PARP-hæmning skaber en dødelig reparationsbyrde i HRD-deficiente celler, som ikke kan overleve nogen type angreb. Multiple kliniske forsøg (BROCADE3, ZAP-IT) udnytter aktivt denne synergi og forstærker yderligere TxGNN-modellens forudsigelse.
+Der findes direkte randomiserede fase 2-data, men i det leverede materiale er der ikke identificeret noget definitivt fase 3-forsøg, hvor carboplatin i sig selv er den testede faktor. Anvendelsen er primært afgrænset til TNBC og BRCA-associeret sygdom, og spørgsmålet om platin versus antracyklin er fortsat åbent. Da oprindelig indikation og virkningsmekanisme mangler i dataene, er repurposing-rammen foreløbig.
 
 ---
 
-## Bevis fra kliniske forsøg
+## Klinisk evidens (kliniske forsøg)
 
-| Forsøgsnummer | Fase | Status | Tilmelding | Vigtigste resultater |
+Der er registreret 50 forsøg. Nedenfor vises de 10 mest relevante. Resultater er kun angivet, hvor de fremgår af materialet.
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT01426880](https://clinicaltrials.gov/study/NCT01426880) | Fase 2/3 | Afsluttet | 595 | GeparSixto-tilstødende design: randomiseret tilføjelse af carboplatin til standard antracyklin/taksan (± trastuzumab) neoadjuvant kemoterapy i TNBC og HER2+ tidligt brystcancer; vurderede direkte carboplatins bidrag til pCR-forbedring |
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Fase 3 | Aktivt, rekrutterer ikke | 720 | Randomiseret klinisk forsøg af neoadjuvant ugentlig paclitaxel mod ugentlig paclitaxel + ugentlig carboplatin i stor operabel eller lokalt avanceret TNBC; højtudet studie i sub-saharisk afrikansk befolkning |
-| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Fase 2 | Afsluttet | 148 | Randomiseret head-to-head sammenligning af carboplatin mod docetaxel i metastatisk BRCA-muteret (genetisk) brystcancer; et af få direkte carboplatin-monoterapi-effektivitetsforsøg i brystcancer |
-| [NCT04159142](https://clinicaltrials.gov/study/NCT04159142) | Fase 2 | Rekrutterer | 414 | Multisite åbent label randomiseret forsøg sammenlignende nab-paclitaxel + carboplatin mod nab-paclitaxel + capecitabin i avanceret TNBC; stort igangværende forsøg, der vurderer førstelinjes kombinationsstrategier |
-| [NCT02413320](https://clinicaltrials.gov/study/NCT02413320) | Fase 2 | Afsluttet | 101 | Randomiseret neoadjuvant forsøg: carboplatin + docetaxel eller carboplatin + paclitaxel, efterfulgt af doxorubicin/cyclophosphamid, i stadium I-III TNBC; vurderede direkte optimalt carboplatin-parring |
-| [NCT01366144](https://clinicaltrials.gov/study/NCT01366144) | Fase 1 | Aktivt, rekrutterer ikke | 94 | Veliparib (PARP-hæmmer) + carboplatin + paclitaxel i solide tumorer med hepatisk/renal dysfunktion; omfatter brystcancer-kohorte, udforsker PARP-platin syntetisk letalitet |
-| [NCT06351332](https://clinicaltrials.gov/study/NCT06351332) | Fase 1/2 | Aktivt, rekrutterer ikke | 78 | ZAP-IT-forsøg: azenosertib (WEE1-hæmmer) + carboplatin + pembrolizumab i metastatisk TNBC; novel tredobbelt kombination, der sigter mod DNA-skadresponsfysiologi i immunoterapisetting |
-| [NCT00616967](https://clinicaltrials.gov/study/NCT00616967) | Fase 2 | Aktivt, rekrutterer ikke | 68 | Dobbeltblindet randomiseret forsøg af carboplatin + nab-paclitaxel ± vorinostat (HDAC-hæmmer) som præoperativ kemoterapy i HER2-negativt operabel brystcancer; vurderer epigenetisk sensibilisering |
-| [NCT05843292](https://clinicaltrials.gov/study/NCT05843292) | Fase 4 | Endnu ikke rekrutterer | 48 | Kortvarigt sintilimab (anti-PD-1) + taksan + carboplatin neoadjuvant terapi i tidligt stadium TNBC; vurderer optimal immunoterapiintegrationvarighed |
-| [NCT05861830](https://clinicaltrials.gov/study/NCT05861830) | Fase 3 | Rekrutterer | 80 | Udforsknende fase 3: dalpiciclib (CDK4/6-hæmmer) + endokrin terapi ± carboplatin i HR+/HER2- tilbagevendende/metastatisk brystcancer efter CDK4/6-hæmmer svigt; bruger 18F-FES PET/CT til at forudsige respons |
+| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Fase 2 | Afsluttet | 148 | Randomiseret sammenligning af carboplatin og docetaxel ved metastatisk arvelig (BRCA) brystkræft. Direkte evidens for effekt. |
+| [NCT01426880](https://clinicaltrials.gov/study/NCT01426880) | Fase 2/3 | Afsluttet | 595 | Tillæg af carboplatin til neoadjuverende behandling ved triple-negativ og HER2-positiv tidlig brystkræft. |
+| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Fase 3 | Aktiv, rekrutterer ikke | 720 | Neoadjuverende ugentlig paclitaxel med eller uden ugentlig carboplatin ved TNBC. |
+| [NCT02413320](https://clinicaltrials.gov/study/NCT02413320) | Fase 2 | Afsluttet | 101 | Neoadjuverende carboplatin + docetaxel eller paclitaxel efterfulgt af doxorubicin + cyclophosphamid ved TNBC stadium I-III. |
+| [NCT04159142](https://clinicaltrials.gov/study/NCT04159142) | Fase 2 | Rekrutterer | 414 | Nab-paclitaxel + carboplatin versus nab-paclitaxel + capecitabin ved avanceret TNBC. |
+| [NCT00025688](https://clinicaltrials.gov/study/NCT00025688) | Fase 3 | Ukendt | Ikke oplyst | Ugentlig paclitaxel med eller uden carboplatin som førstelinjebehandling til patienter ≥65 år med metastatisk brystkræft. |
+| [NCT06351332](https://clinicaltrials.gov/study/NCT06351332) | Fase 1/2 | Aktiv, rekrutterer ikke | 78 | Azenosertib + carboplatin + pembrolizumab ved metastatisk TNBC. |
+| [NCT01366144](https://clinicaltrials.gov/study/NCT01366144) | Fase 1 | Aktiv, rekrutterer ikke | 94 | Veliparib + carboplatin + paclitaxel ved solide tumorer med lever- eller nyreinsufficiens. Understøtter DNA-reparationsmekanismen og kombinationssikkerhed, men er ikke et effektforsøg. |
+| [NCT02033551](https://clinicaltrials.gov/study/NCT02033551) | Fase 1 | Afsluttet | 47 | Forlængelsesstudie med veliparib alene eller sammen med carboplatin + paclitaxel. Kun sikkerhedsdata. |
+| [NCT00002772](https://clinicaltrials.gov/study/NCT00002772) | Fase 3 | Afbrudt | 602 | Intensiv sekventiel kemoterapi versus højdosis kemoterapi med stamcellestøtte. Carboplatin er ikke i fokus, så evidensen er svag. |
 
 ---
 
-## Bevis fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Vigtigste resultater |
-|------|-----|------|------|---------|
-| [24794243](https://pubmed.ncbi.nlm.nih.gov/24794243/) | 2014 | Randomiseret klinisk forsøg (Fase 2/3) | The Lancet Oncology | GeparSixto-forsøg: carboplatin tilføjet til neoadjuvant paclitaxel/ikke-pegyleret liposomal doxorubicin øgede pCR betydeligt i TNBC (53.2% mod 36.9%); synergi blev også udforsket i HER2+ brystcancer |
-| [33208340](https://pubmed.ncbi.nlm.nih.gov/33208340/) | 2021 | Randomiseret klinisk forsøg (Fase 2) | Clinical Cancer Research | NeoSTOP-forsøg: multisite randomiseret fase II sammenlignende antracyklin-fri (carboplatin + paclitaxel) mod antracyklin-indeholdende carboplatin-regimer i stadium I-III TNBC; begge arme gav opmuntrende pCR-rater, understøttende antracyklin-frie muligheder |
-| [39671272](https://pubmed.ncbi.nlm.nih.gov/39671272/) | 2025 | Randomiseret klinisk forsøg | JAMA | CamRelief-forsøg: camrelizumab (PD-1-hæmmer) + standard neoadjuvant kemoterapy (inklusive platin) mod placebo + kemoterapy i tidlig/lokalt avanceret TNBC; demonstreret forbedret pCR med immunoterapitilføjelse |
-| [40593759](https://pubmed.ncbi.nlm.nih.gov/40593759/) | 2025 | Randomiseret klinisk forsøg (Fase 2b) | Nature Communications | MUKDEN 06: ARX788 (anti-HER2 ADC) + pyrotinib mod standard TCbHP (docetaxel, carboplatin, trastuzumab, pertuzumab) neoadjuvant i HER2+ brystcancer; carboplatin-indeholdende arm tjener som referencestandard |
-| [38309017](https://pubmed.ncbi.nlm.nih.gov/38309017/) | 2024 | Fase 3 randomiseret forsøg (endelig OS) | European Journal of Cancer | BROCADE3 endelig OS-analyse: veliparib + carboplatin + paclitaxel mod placebo + carboplatin + paclitaxel i germline BRCA1/2-muteret HER2-negativt avanceret brystcancer; bekræftet PFS-fordel med veliparib-tilføjelse |
-| [16720915](https://pubmed.ncbi.nlm.nih.gov/16720915/) | 2006 | Systematisk oversigt | Medical Oncology | Omfattende syntese af paclitaxel-carboplatin-kombination i avanceret brystcancer; etablerede bevis for synergi, carboplatin-enkeltaktivitet og ikke-kryds-modstand med antracykliner |
-| [25247558](https://pubmed.ncbi.nlm.nih.gov/25247558/) | 2014 | Meta-analyse | PLoS One | Meta-analyse bekræftende både carboplatin og bevacizumab uafhængigt forbedrer pCR-rater i neoadjuvant behandling af TNBC; understøtter carboplatins rolle som effektivitetsforbedrende ryggratmiddel |
-| [40779028](https://pubmed.ncbi.nlm.nih.gov/40779028/) | 2025 | Fase 1 forsøg | Breast Cancer Research & Treatment | Fase I-forsøg med mifepriston (glucocorticoid-receptorantagonist) + carboplatin + gemcitabin i avanceret brystcancer og tilbagevendende æggstokkræft; udforsker GR-medieret carboplatin-modstand |
-| [33256829](https://pubmed.ncbi.nlm.nih.gov/33256829/) | 2020 | Fase 2 forsøg | Breast Cancer Research | Fase II-forsøg med carboplatin + bevacizumab i brystcancer-hjernemetastaser; demonstrerede gennemførlighedsfyldesthed og foreløbig effektivitet i denne vanskeligstillede population |
-| [40817986](https://pubmed.ncbi.nlm.nih.gov/40817986/) | 2025 | Fase 2 randomiseret forsøg | Breast Cancer Research & Treatment | Randomiseret fase II: enkelt-agent carboplatin mod carboplatin + everolimus (mTOR-hæmmer) i avanceret TNBC; udforsker hvorvidt mTOR-vej-hæmning øger platinfølsomhed i PTEN-loss tumorer |
+Der er fundet 20 publikationer. Nedenfor vises de 10 mest relevante, med randomiserede studier først.
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|---------|-----|------|------|---------|
+| [24794243](https://pubmed.ncbi.nlm.nih.gov/24794243/) | 2014 | RCT (fase 2) | The Lancet Oncology | GeparSixto: tillæg af carboplatin til neoadjuverende behandling ved triple-negativ og HER2-positiv tidlig brystkræft. |
+| [33208340](https://pubmed.ncbi.nlm.nih.gov/33208340/) | 2021 | RCT (fase 2) | Clinical Cancer Research | NeoSTOP: antracyklinfrie og antracyklinholdige neoadjuverende carboplatin-regimer ved TNBC stadium I-III. |
+| [38309017](https://pubmed.ncbi.nlm.nih.gov/38309017/) | 2024 | RCT (fase 3) | European Journal of Cancer | BROCADE3: tillæg af veliparib til carboplatin + paclitaxel ved BRCA-muteret avanceret brystkræft gav bedre progressionsfri overlevelse. Her rapporteres endelige data for samlet overlevelse. |
+| [39671272](https://pubmed.ncbi.nlm.nih.gov/39671272/) | 2025 | RCT | JAMA | CamRelief: camrelizumab versus placebo sammen med kemoterapi (inkl. platin) neoadjuverende ved tidlig eller lokalt avanceret TNBC. |
+| [40593759](https://pubmed.ncbi.nlm.nih.gov/40593759/) | 2025 | RCT (fase 2b) | Nature Communications | ARX788 + pyrotinib versus standardregimen (docetaxel, carboplatin, trastuzumab, pertuzumab) ved HER2-positiv brystkræft. |
+| [40817986](https://pubmed.ncbi.nlm.nih.gov/40817986/) | 2025 | RCT (fase 2) | Breast Cancer Research and Treatment | Carboplatin alene versus carboplatin + everolimus ved avanceret TNBC. |
+| [25247558](https://pubmed.ncbi.nlm.nih.gov/25247558/) | 2014 | Metaanalyse | PLoS ONE | Både carboplatin og bevacizumab forbedrer graden af patologisk komplet remission ved neoadjuverende behandling af TNBC. |
+| [16720915](https://pubmed.ncbi.nlm.nih.gov/16720915/) | 2006 | Oversigtsartikel | Medical Oncology | Akkumulerende evidens for synergi, effekt og sikkerhed ved paclitaxel-carboplatin ved avanceret brystkræft. |
+| [33256829](https://pubmed.ncbi.nlm.nih.gov/33256829/) | 2020 | Fase 2-studie | Breast Cancer Research | Carboplatin og bevacizumab ved brystkræft med hjernemetastaser: sikkerhed og effekt. |
+| [39944694](https://pubmed.ncbi.nlm.nih.gov/39944694/) | 2025 | Prækliniske/bioinformatiske data | Frontiers in Immunology | Prognostisk genetisk signatur for DNA-reparation knyttet til carboplatin-resistens og immuninfiltration ved brystkræft. |
 
 ---
 
-## Danmarks markedsinformation
+## Markedsinformation i Danmark
 
-Carboplatin er i øjeblikket **ikke markedsført i Danmark** og har ingen aktive markedsføringstilladelser hos Lægemiddelstyrelsen. Ingen licenser blev identificeret i datasættet.
-
-> **Bemærk for klinikere:** Carboplatin er et veletableret generisk kemoterapeutisk middel tilgængeligt under EMA-centraliserede markedsføringstilladelser og adskillige nationale tilladelser på tværs af EU-medlemsstater (f.eks. under mærkenavne som Paraplatin og adskillige generika). Dets fravær fra det danske register kan afspejle datakompletthed på tidspunktet for denne rapport snarere end fravær fra klinisk brug. Danske onkologicentre kan få adgang til carboplatin gennem hospitalsindkøbskanaler eller named-patient import-bestemmelser. Verifikation med Lægemiddelstyrelsen­s nuværende online register anbefales før klinisk beslutningstagning.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106770622 | Carbomedac (medac Gesellschaft fuer klinische Spezialpraeparate mbH) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke oplyst i data |
 
 ---
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
-|------|---------|
-| Cytotoksicitets klassifikation | Konventionel cytotoksisk — Platinforbindelse (alkylerings-lignende mekanisme via DNA-kryds-linking) |
-| Myelosuppression risiko | **Høj** — trombocytopeni er den primære dosis-begrænsende toksicitet; grad 3/4 anæmi rapporteret i 30–40% af patienter, der modtager neoadjuvant TCHP-regimen (PMID 35837812); neutropeni hyppig, men typisk mindre alvorlig end med cisplatin |
-| Emetogenitet klassifikation | **Moderat til høj** — emetogenitet er dosisafhængig; AUC-baseret dosering (Calvert-formel) påvirker emetisk potentiale; 5-HT3-antagonist + NK1-antagonist + dexamethason profylakse anbefalet |
-| Overvågningspunkter | Fuldt blodtal med differential (før hver cyklus og som klinisk indiceret); serum kreatinin og eGFR (påkrævet for Calvert-formel doseringberegning); leverprøver; audiometri for patienter, der modtager høj-dosis eller kumulativ carboplatin-regimen |
-| Håndteringsbeskyttelse | Skal fremstilles og håndteres i overensstemmelse med cytotoksiske medicin-håndteringskrav; fremstilling i et certificeret apotek under et biologisk sikkerhedsbur; personale skal bruge passende personlig beskyttelsesudstyr (PPE) inklusive handsker, kittel og øjenbeskyttelse |
+|------|------|
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (platinforbindelse) |
+| Risiko for myelosuppression | Høj (knoglemarvssuppression, især trombocytopeni og neutropeni, er typisk dosisbegrænsende) |
+| Emetogenicitetsklassifikation | Moderat (kan være højere ved høje doser) |
+| Monitoreringspunkter | Komplet blodtælling med differentialtælling, nyre- og leverfunktion, elektrolytter samt neurologiske symptomer og hørelse ved højdosisbehandling |
+| Beskyttelse ved håndtering | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
+
+Ovenstående er baseret på almen viden om stofklassen, da Evidence Pack ikke indeholder toksicitetsdata. Se produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Detaljerede advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i denne evidenspakke (klassificeret som datamangel). Venligst se den godkendt Produktresumeé (SmPC) for fuldstændig sikkerhedsinformation.
-
-> **Vigtige sikkerhedshensyn fra etableret onkologisk praksis** (kun til reference — klinikere skal konsultere den aktuelle SmPC):
-> - **Doseberegning**: Carboplatin-dosis skal beregnes ved hjælp af Calvert-formlen (dosis [mg] = AUC × [GFR + 25]); nyrefunktion skal vurderes før hver cyklus
-> - **Overfølsomhedsreaktioner**: Risiko øges med kumulativ eksponering (typisk efter ≥6 cyklusser); desensibiliseringsprotokoller kan være nødvendige
-> - **Ototoksicitet**: Klinisk signifikant ved høje doser (f.eks. TI-CE salvage-regimen i kimcelletumorer); relevant ved kombination med aminoglykosider eller loop-diuretika
-> - **Perifer neuropati**: Mindre udtalt end med cisplatin eller paclitaxel, men additiv ved kombination med taksaner
-> - **Nefrotoksicitet**: Mindre nefrotoksisk end cisplatin, men GFR-overvågning er vigtig
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
-## Konklusion og næste trin
+## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsbestemmelser**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Evidensgrundlaget for carboplatin i kvindeligt brystcancer er blandt de stærkeste tilgængelige for ethvert medicin-omsorgsfund-kandidat i dette datasæt, med niveau 1-bevis afledt af multiple afsluttede fase 2/3 randomiserede kontrollerede forsøg (herunder GeparSixto, NeoSTOP, BROCADE3), der viser klinisk betydningsfulde forbedringer i pCR og progressionsfri overlevelse. Det biologiske rationale — HRD-drevet platinfølsomhed i TNBC og BRCA-muterede subtyper, og etableret vejledningsoverensstemmende brug i HER2+ neoadjuvant TCHP-regimen — er robust og velmekanistisk begrundet.
+Der findes afsluttede randomiserede fase 2-studier og et fase 2/3-studie, som direkte undersøger carboplatin ved brystkræft, især TNBC og BRCA-associeret sygdom. Der er dog ikke identificeret et definitivt fase 3-forsøg, hvor carboplatin i sig selv er den testede faktor, og sikkerhedsdata fra dansk produktresumé mangler. Evidensen svarer derfor til L2.
 
-**For at fortsætte er følgende nødvendigt:**
+**For at komme videre kræves:**
+- Hent og gennemgå det danske produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer, interaktioner). Dette er en blokerende mangel for sikkerhedsscreeningen.
+- Supplér data om virkningsmekanisme og oprindelig indikation (fx via DrugBank).
+- Afklar de patientundergrupper, hvor evidensen er stærkest (TNBC, BRCA-mutation), og kravet til biomarkørbaseret patientudvælgelse.
+- Kontroller resultaterne af de igangværende fase 3-forsøg (bl.a. NCT03168880) og vurder platin versus antracyklin.
+- Bemærk, at øvrige forudsigelser har svagere støtte: kønscelletumor og cervikal mucinøs adenokarcinom er "Research Question", mens colon- og rektum-mucinøs adenokarcinom er "Hold", da kun modelforudsigelse foreligger.
 
-- **Regulatorisk afklaring**: Bekræft hvorvidt carboplatin kan sources gennem EMA-centraliseret markedsføringstilladelse, national import, eller hospitalsundtagelse under dansk lov; kontakt Lægemiddelstyrelsen for nuværende status
-- **Sikkerhedsdokumentation**: Hent den fulde SmPC for at fuldføre kontraindikation og lægemiddelinteraktionsvurdering (i øjeblikket blokering datamangel DG001 og DG002)
-- **Patient-populationsdefinition**: Specificer målgruppe præcis — TNBC (højeste bevis), BRCA1/2-muteret HER2-negativt (BROCADE3-data), eller HER2+ neoadjuvant (TCHP-vejledningsoverensstemmende brug) — da fordel-risiko-profiler er væsentligt forskellige
-- **Dosering og overvågningsprotokol**: Etabler institutionel protokol for Calvert-formel-dosering, overvågningsplan for nyrefunktion, og håndtering af hæmatologisk toksicitet (især trombocytopeni og anæmi-tærskler for dosisreduktion eller forsinkelse)
-- **Biomarkør-teststrategi**: Definer prø-behandling-test for BRCA-mutationsstatus, HRD-score og PD-L1-udtryk for at vejlede patientudvælgelse og kombinationsregimen-valg
-- **Kombinationspartner-beslutning**: Bestem hvorvidt carboplatin vil blive brugt som monoterapi, med taksan, eller med PARP-hæmmer/immunoterapy baseret på tilgængelige data og patientberettigelse
-
----
-
-*Denne rapport er genereret til forskningsformål alene og udgør ikke medicinsk rådgivning. Alle medicin-omsorgsfund-kandidater kræver klinisk validering før anvendelse. Danske sundhedspersonale skal se aktuelle kliniske retningslinjer og den godkendt SmPC før ordinering.*
-
+Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser om lægemiddelomlægning kræver klinisk validering, før de kan anvendes.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

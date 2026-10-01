@@ -2,7 +2,7 @@
 layout: default
 title: Firocoxib
 parent: Kun modelforudsigelse (L5)
-nav_order: 191
+nav_order: 192
 evidence_level: L5
 indication_count: 0
 ---

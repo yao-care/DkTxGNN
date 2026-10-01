@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nicorandil
-parent: Kun modelforudsigelse (L5)
-nav_order: 309
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 310
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nicorandil
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,89 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nicorandil: Fra angina pectoris til benign prostatahyperplasi
+# Nicorandil: Fra vasodilator til benign prostatahyperplasi (BPH)
 
-## Enlinjes sammenfatning
+## Resumé i én sætning
 
-Nicorandil er en hybrid ATP-sensitiv kalium (K_ATP) kanalåbner/nitrat-vasodilatator, klassisk brugt som et antianginal lægemiddel (denne oprindelige indikationsklassificering er baseret på generel farmakologisk viden, da det ikke er registreret i de leverede danske regulatoriske data). TxGNN-modellen forudsiger, at det kan være effektivt for **benign prostatahyperplasi (BPH)**, i øjeblikket understøttet af **3 publikationer** og **ingen registrerede kliniske forsøg**.
+Nicorandil er en kaliumkanalåbner og nitrogenoxid-donor med karudvidende effekt, og det er markedsført i Danmark som Ikorel. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **benign prostatahyperplasi (BPH)**. Forudsigelsen understøttes af **3 publikationer** (2 oversigtsartikler og 1 dyreforsøg), men af **0 kliniske forsøg**.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
-| Emne | Indhold |
-|------|--------|
-| Oprindelig indikation | Angina pectoris (baseret på kendt farmakologi af K_ATP kanaløbnere; ikke til stede i de leverede danske regulatoriske data) |
+| Punkt | Indhold |
+|------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten for den danske autorisation er tom) |
 | Forudsagt ny indikation | Benign prostatahyperplasi (BPH) |
-| TxGNN-forudsigelsesscore | 99,71% |
-| Bevisniveau | L4 (præklinisk / mekanisme-studier kun, ingen kliniske forsøg) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| TxGNN-forudsigelsesscore | 99,7 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede virkningsmåde-data er ikke tilgængelige i bevisstoffet (markeret som datahul). Baseret på generel farmakologisk viden er Nicorandil en K_ATP kanalåbner med nicotinamid-nitrat hybridstruktur, der producerer koronar og perifer vasodilation; dens virkning som antianginal lægemiddel afhænger af denne vasodilation.
+Nicorandil åbner ATP-følsomme kaliumkanaler (K-ATP) og virker som nitrogenoxid-donor, hvilket giver karudvidelse. Der er ikke tilgængelige data om en mere detaljeret virkningsmekanisme i dette evidensgrundlag.
 
-Den understøttende litteratur foreslår en plausibel forbindelse mellem denne vasodilatatormekanisme og BPH: BPH/benign prostatisk forstørrelse bliver i stigende grad erkendt som forbundet med nedsat prostatablodgennemstrømning og aterosklerotisk/iskæmisk vaskulær sygdom snarere end at være rent en hormonel proliferativ proces. En direkte præklinisk undersøgelse (PMID 24448152) behandlede spontant hypertensive rotter med nicorandil og observerede effekter på prostatablodgennemstrømning og udviklingen af prostatahyperplasi, hvilket giver en mekanistisk (dyreniveau) begrundelse for TxGNN-forudsigelsen.
+Litteraturen peger på, at nedsat blodforsyning (iskæmi) i prostata og de nedre urinveje kan bidrage til udvikling af BPH og tilhørende lower urinary tract symptoms (LUTS). Kliniske data viser desuden en sammenhæng mellem BPH og åreforkalkningssygdomme som hypertension. Hvis nicorandil forbedrer prostatas gennemblødning, er der derfor en plausibel mekanistisk forklaring på en mulig effekt.
 
-Fordi det foreslåede link opererer gennem vaskulær fysiologi snarere end en kræft- eller hormon-specifik vej, er den mekanistiske fortælling sammenhængende, men den hviler i øjeblikket helt på en gnavermodel og litteratur på oversigts-niveau — der er endnu ingen klinisk (menneskelig) evidens.
+Det mest direkte støttepunkt er et studie i spontant hypertensive rotter (SHR). Her udviklede prostataiskæmi ventral prostatahyperplasi, og seks ugers behandling med nicorandil indgik i forsøgsdesignet. Evidensen er dog indirekte og begrænset til præklinik og oversigtsartikler. Der foreligger ingen kontrollerede humane effektdata.
 
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
+Modellen forudsiger også en række hårtabsrelaterede tilstande (alopecia, hypotrichosis simplex of the scalp, congenital hypotrichosis milia og diffuse alopecia areata) med scores på 99,5-99,6 %. Den eneste mekanistiske kobling er en hypotetisk analogi til minoxidilsulfat, som også er en K-ATP-åbner. Der er ingen kliniske forsøg eller litteratur for disse tilstande (evidensniveau L5). For de arvelige og autoimmune former vurderes plausibiliteten som lav. De behandles derfor ikke videre i denne rapport.
 
 ---
 
-## Litteraturbevis
+## Klinisk forsøgsevidens
 
-| PMID | År | Type | Tidsskrift | Vigtige fund |
-|------|-----|------|---------|---------|
-| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Præklinisk (dyrestudium) | Scientific Reports | Hos spontant hypertensive rotter ændrede 6 ugers nicorandil-behandling prostatablodgennemstrømning og vævsmærkører, hvilket understøtter en prostataisæmisk mekanisme for BPH-udvikling og en potentiel beskyttende virkning af nicorandil |
-| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Oversigt | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Gennemgår evidens for, at nedsat prostatablodgennemstrømning driver BPH/BPE og tilknyttede LUTS, der forbinder BPH til aterosklerotisk sygdom såsom hypertension |
-| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Oversigt | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Diskuterer symptomer i de nedre urinveje som vaskulær dysfunktion og den potentielle rolle af nicorandil som vasodilatator (abstract ikke tilgængelig) |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-I øjeblikket ikke markedsført i Danmark — ingen markedsføringstilladelse registreret (0 licenser på fil).
-
----
-
-## Sikkerhedshensyn
-
-Se venligst det godkendte Produktresumé (SmPC) for sikkerhedsinformation. Vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata var ikke tilgængelige i bevisstoffet (DG001, blokeringsdatahul), og en DDI-databaseforespørgsel returnerede ingen resultater.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Dyreforsøg (SHR-rotte) | Scientific Reports | Prostataiskæmi inducerede ventral prostatahyperplasi hos spontant hypertensive rotter. Nicorandil blev givet i seks uger, og prostatas blodgennemstrømning og vævsmarkører blev målt. Foreslår en mulig mekanisme bag BPH. |
+| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Oversigtsartikel | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Nedsat blodforsyning til de nedre urinveje kan føre til BPH/BPE. Sammenhæng mellem BPH og åreforkalkningssygdomme som hypertension. Prostatas blodgennemstrømning foreslås som mål. |
+| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Oversigtsartikel | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Beskriver LUTS som vaskulær dysfunktion og nicorandils effekt som vasodilator. Der er intet resumé tilgængeligt. |
 
 ---
 
-## Konklusion og næste trin
+## Information om markedet i Danmark
+
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105776516 | Ikorel (2care4 ApS) | Tabletter (oral) | Ikke angivet i datagrundlaget |
+
+---
+
+## Sikkerhedsovervejelser
+
+Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data, men søgningen er ikke afsluttet med et brugbart resultat. Den mekanistiske vurdering peger på, at følgende vil kræve opmærksomhed i en ældre mandlig BPH-population:
+
+- **Hypotension:** nicorandil er karudvidende.
+- **Interaktion med PDE5-hæmmere eller nitrater:** kan forstærke blodtryksfald.
+
+Nicorandil er allerede markedsført, så den systemiske sikkerhedsprofil er kendt. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+
+---
+
+## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-BPH-forudsigelsen understøttes i øjeblikket kun af en mekanistisk gnaverstudium og to oversigtsartikler (L4), uden kliniske forsøg eller menneskelige data. Kombineret med et blokeringsdatahul på dansk SmPC-sikkerhedsinformation (DG001 — blokeringsdatahul, forhindrer i øjeblikket indgang til indledende sikkerhedsscreening) og lægemidlets umarkedsførte status i Danmark, er der utilstrækkelig grundlag for at fortsætte til sikkerhedsevaluering.
+Forudsigelsen har en meget høj modelscore, men evidensen er indirekte (præklinik og oversigtsartikler), der er ingen registrerede kliniske forsøg, og der mangler data om advarsler og kontraindikationer fra Lægemiddelstyrelsen. Det bør foreløbig behandles som et forskningsspørgsmål og ikke som et klinisk forslag.
 
-**For at fortsætte, er følgende nødvendigt:**
-- Dansk/EU SmPC-advarsler, kontraindikationer og forholdsregler (DG001 — blokeringsdatahul, forhindrer i øjeblikket indgang til indledende sikkerhedsscreening)
-- Bekræftet virkningsmåde-dokumentation fra DrugBank eller tilsvarende (DG002)
-- Klinisk eller yderligere præklinisk evidens for nicorandil's virkning på menneskelig BPH/LUTS ud over den eneste SHR-rottemodel
-- Præcisering af dansk/EU markedsføringsstatus, da lægemidlet i øjeblikket har nul registrerede licenser
+**For at komme videre kræves:**
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
+- Detaljerede data om virkningsmekanisme (MOA), fx via DrugBank
+- Kontrollerede humane studier, som minimum et pilotstudie af nicorandil ved BPH/LUTS
+- Plan for sikkerhedsovervågning hos ældre mænd, især med hensyn til hypotension samt samtidig brug af PDE5-hæmmere og nitrater
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

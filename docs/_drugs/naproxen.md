@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Kun modelforudsigelse (L5)
-nav_order: 304
+nav_order: 305
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,72 +29,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Naproxen: Fra smertelindring og inflammationskontrol til brachydaktyli-syndaktyli-syndrom
+# Naproxen: Fra NSAID-smertelindring til brachydaktyli-syndaktyli-syndrom
 
-## Resumé på én sætning
+## Resumé i én sætning
 
-Naproxen er et velkendt non-steroid antiinflammatorisk lægemiddel (NSAID), der er meget brugt til smertelindring, feber og inflammatoriske tilstande såsom arthritis og dysmenorrhoe.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **brachydaktyli-syndaktyli-syndrom**, en sjælden medfødt skeletal-malformationssygdom.
-Der er imidlertid **ingen kliniske forsøg og ingen publiceret litteratur**, der i øjeblikket understøtter denne indikation, og det mekanistiske link anses for biologisk svagt — denne forudsigelse er højst sandsynligt en artefakt fra knowledge graph.
+Naproxen er en ikke-selektiv COX-1/COX-2-hæmmer med antiinflammatorisk og smertestillende virkning, og i Danmark er det markedsført som oral suspension (Bonyl). TxGNN-modellen forudsiger, at det kan have effekt på **brachydaktyli-syndaktyli-syndrom**, en sjælden medfødt misdannelse af lemmerne. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som derfor alene er en modelberegning.
 
 ---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
-|-------|---------|
-| Original indikation | Smerte, feber og inflammation (velkendt NSAID; ingen danske regulatoriske data tilgængelige i denne datapakke) |
+|------|------|
+| Oprindelig indikation | Ikke oplyst i de danske godkendelsesdata |
 | Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
-| TxGNN-forudsigelsesscore | 99.35% |
+| TxGNN-forudsigelsesscore | 99,35 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Ikke på markedet (ifølge aktuelle data; ingen markedsføringstilladelser registreret) |
-| Antal markedsføringstilladelser | 0 |
-| Anbefalet beslutning | Vent |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Naproxen er en propionsyreafledning NSAID, hvis primære mekanisme er hæmning af cyclooxygenase-enzymer (COX-1 og COX-2), hvilket reducerer prostaglandinsyntes. Dette danner det farmakologiske grundlag for dets antiinflammatoriske, analgetiske og antipyretiske effekter. Detaljerede data om virkningsmekanisme var ikke tilgængelige i den aktuelle datapakke; ovenstående er baseret på velkendt farmakologisk viden.
+Naproxen hæmmer enzymerne COX-1 og COX-2 og dermed dannelsen af prostaglandiner. Det giver den kendte antiinflammatoriske og smertestillende effekt. Detaljerede mekanismedata fra DrugBank mangler i denne evidenspakke.
 
-Brachydaktyli-syndaktyli-syndrom er en sjælden, genetisk betinget medfødt malformation karakteriseret ved unormalt korte fingre (brachydaktyli) og sammenvoksede fingre (syndaktyli). Disse er faste strukturelle defekter etableret under fosterudviklingen — fundamentalt forskellige fra de erhvervede inflammatoriske processer, som Naproxen retter sig imod. Der er ingen anerkendt klinisk begrundelse for, at COX-hæmning skal kunne korrigere eller afhjælpe allerede eksisterende skeletal-strukturelle anomalier.
+Brachydaktyli-syndaktyli-syndrom er en sjælden medfødt udviklingsforstyrrelse i lemmerne. Der kendes ingen sammenhæng mellem prostaglandinhæmning og sygdommens udviklingsbiologi. Der er derfor **ingen evidensbaseret mekanistisk forbindelse** mellem naproxens virkning og denne sygdom. Den høje score er en grafbaseret modelforudsigelse uden støtte i kliniske data eller litteratur.
 
-Den spekulative mekanistiske vej, som modellen foreslår — COX-2-hæmning → reduceret PGE2 → forstyrret knogleremodelleringssignalering → indirekte vekselvirkning med BMP/GDF-udviklingsveje — er ikke understøttet af klinisk eller præklinikal evidens for dette specifikke syndrom. Den høje TxGNN-forudsigelsesscore afspejler næsten sikkert en **knowledge graph-falsk positiv**: både Naproxen og skeletale dysplasier deler "skeletal"-kategorinoder i den underliggende graf, hvilket skaber en falsk strukturel forbindelse. Denne forudsigelse bør tolkes med betydelig skepsis.
+Modellen peger i alt på fire sjældne, medfødte sygdomme (de otte rangerede poster er dubletter, to for hver sygdom):
 
----
-
-## Bevis fra kliniske forsøg
-
-I øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Bevis fra litteratur
-
-I øjeblikket ingen relateret litteratur tilgængelig.
+| Forudsagt sygdom | TxGNN-score | Evidensniveau | Vurdering af mekanisme |
+|------|------|------|------|
+| Brachydaktyli-syndaktyli-syndrom | 99,35 % | L5 | Ingen kendt sammenhæng med prostaglandinhæmning |
+| Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 99,22 % | L5 | Ingen kendt sammenhæng med de medfødte øjen- og skeletdefekter |
+| Akromesomelisk dysplasi, Hunter-Thompson-type | 99,17 % | L5 | Sygdommen er knyttet til GDF5 (BMP-signalering). Naproxen har ingen kendt sygdomsmodificerende effekt, højst symptomatisk smertelindring, som ikke er en datastøttet repurposing-indikation |
+| Brachyolmi-amelogenesis imperfecta-syndrom | 99,06 % | L5 | Sygdommen er knyttet til LTBP3 (TGF-beta-signalering), som COX-hæmning ikke påvirker |
 
 ---
 
-## Sikkerhedshensyn
+## Klinisk forsøgsevidens
 
-Se godkendt produktinformation (SmPC) for sikkerhedsinformation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om markedet i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101322288 | Bonyl (Orion Corporation) | Oral suspension | Ikke oplyst i data |
+
+---
+
+## Sikkerhedsovervejelser
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Trods en tilsyneladende høj TxGNN-forudsigelsesscore (99.35%) har denne kandidat ingen understøttende evidens fra kliniske forsøg eller litteratur (Evidensniveau L5), og det foreslåede mekanistiske link mellem COX-hæmning og en genetisk betinget medfødt skeletal-strukturel defekt er biologisk usandsynligt. Forudsigelsen afspejler højst sandsynligt en strukturel bias i knowledge graph snarere end en genuin terapeutisk mulighed.
+Forudsigelsen har kun evidensniveau L5. Der findes ingen kliniske forsøg eller publikationer, og der er ingen kendt mekanistisk sammenhæng mellem COX-hæmning og de forudsagte sjældne udviklingssygdomme. Modelscoren alene er ikke tilstrækkelig til at gå videre.
 
-**For at fortsætte er følgende nødvendigt:**
-- **Biologisk plausibilitetsvurdering:** Uafhængig ekspertvurdering af, hvorvidt COX/prostaglandin-hæmning kunne have nogen meningsfuld terapeutisk effekt på en genetisk betinget medfødt skeletal-malformation
-- **Knowledge graph-revision:** Undersøgelse af, hvorvidt delte "skeletal"-kategorinoder i TxGNN-grafen genererer systematiske falske positiver for Naproxen på tværs af sjældne skeletal-/udviklingssyndrom (bemærk: rang 3–8 i denne pakke er alle sjældne skeletal-/udviklingssyndrom, hvilket tyder på et mønster)
-- **MOA-datahentning:** Indhentelse af fuld farmakologisk profil fra DrugBank (DB00788) for at understøtte eller afvise enhver mekanistisk hypotese
-- **Sikkerhedsdatahentning:** Download og parsering af SmPC fra Lægemiddelstyrelsen for at fuldende sikkerhedsprofilen, herunder advarsler, kontraindikationer og lægemiddelinteraktioner
-- **Verificering af danske regulatoriske data:** Bekræftelse af aktuelle markedsføringstilladelsesstatuser for naproxen-holdige produkter hos Lægemiddelstyrelsen; fraværet af tilladelsesposter i denne datapakke afspejler sandsynligvis et datahul, da naproxen er et langvarigt etableret NSAID
+**For at komme videre kræves følgende:**
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, da dette blokerer den videre sikkerhedsscreening
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Den oprindelige godkendte indikation for Bonyl i Danmark
+- Et biologisk begrundet mekanistisk link og præklinisk evidens, før en klinisk vurdering overhovedet kan overvejes
 
+*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

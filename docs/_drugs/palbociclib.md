@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Palbociclib
-parent: Moderat evidens (L3-L4)
-nav_order: 329
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 330
+evidence_level: L5
 indication_count: 10
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,90 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Palbociclib: Fra brystkræft til reumatoid artritis
+# Palbociclib: Fra brystkræft til hyperthyroidisme
 
-## En-sætnings sammenfatning
+## Resumé i én sætning
 
-> Palbociclib er en CDK4/6-hæmmer, der anvendes til HR-positiv/HER2-negativ avanceret brystkræft (ifølge den understøttende litteratur i denne pakke; lægemidlet er ikke aktuelt markedsført i Danmark).
-> Blandt fem kandidat-indikationer, der er markeret af TxGNN, har **reumatoid artritis** det mest troværdigt signal — skønt stadig tidligt — understøttet af **1 case report og 3 præ-kliniske/kohort-studier**.
-> Den enkelt højest-scorede kandidat (hypertyreoidisme) har **ingen understøttende forsøg eller litteratur** og vurderes af selve det underliggende bevis-materiale som sandsynlig graph noise.
+Palbociclib er en CDK4/6-hæmmer, der bruges til hormonreceptorpositiv, HER2-negativ brystkræft. TxGNN-modellen forudsiger, at den kan virke på **hyperthyroidisme**, men uden **nogen kliniske forsøg** og uden **nogen publikationer**, der understøtter det. Forudsigelsen hviler udelukkende på en grafbaseret score og har evidensniveau L5.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke bekræftet af danske markedsføringstilladelse-data (lægemiddel ikke markedsført); litteraturen i denne pakke beskriver konsekvent brug ved avanceret HR+/HER2- brystkræft |
-| Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN-forudsigelsesscore | 99,36 % |
-| Bevisniveau | L4 |
-| Dansk marked-status | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Oprindelig indikation | Brystkræft (HR-positiv/HER2-negativ, ifølge litteraturen). Indikationsteksten mangler i den danske registrering |
+| Forudsagt ny indikation | Hyperthyroidisme |
+| TxGNN-forudsigelsesscore | 99,44 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
+| Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse fornuftig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede virkningsmekanisme-data er aktuelt ikke tilgængelige for dette lægemiddel i bevis-pakken (markeret som High-severity datakløft). Baseret på kendt information er palbociclib en CDK4/6-hæmmer, der blokerer G1→S cellecyklus-progression; denne mekanisme er velkendt i dens brug til avanceret HR+/HER2- brystkræft, som afspejlet i flere af sikkerhedslituratur-citaterne i denne pakke (f.eks. PMID 35300061, PMID 40504547).
+Der foreligger aktuelt ingen detaljerede data om virkningsmekanismen. Palbociclib er en CDK4/6-hæmmer, og dens effekt ved brystkræft er veldokumenteret. Det tilgængelige datagrundlag viser dog **ingen kendt mekanistisk sammenhæng** mellem CDK4/6-hæmning og for høj produktion af skjoldbruskkirtelhormon.
 
-RA-forbindelsen er mekanistisk forskellig fra tumorvækst-hæmning: synovial hyperplasi i RA har vist sig at være delvist CDK6-afhængig i dyrmodeller (PMID 39940918), og cellecyklus-hæmning af synoviale fibrobla­ster med CDK-hæmmere lindrede artritis i præ-kliniske modeller uden at undertrykke erhvervet immunitet (PMID 25165034). En enkelt case report beskriver tilsyneladende forbedring af eksisterende RA hos en brystkræft-patient, der startedes på palbociclib (PMID 33587021), og et kohort-studie fra 2025 undersøgte prævalens af immun-medieret sygdom hos CDK4/6i-behandlede patienter (PMID 40504547).
-
-Dette er en plausibel men tidligt-stadie mekanistisk hypotese — den hviler på en menneskelig case report og dyre-/præ-kliniske data, ikke på noget kontrolleret menneskeligt forsøg. Det bør behandles som et forskningsspørgsmål, ikke som et terapeutisk krav.
+Den høje score (0,994) er en ren grafbaseret forudsigelse. Der er hverken fundet forsøg eller litteratur, som kan bekræfte den. Forudsigelsen bør derfor ses som et signal fra modellen, ikke som en klinisk begrundet hypotese.
 
 ---
 
-## Kliniske forsøgs-beviser
+## Evidens fra kliniske forsøg
 
-Aktuelt ingen relaterede kliniske forsøg registreret for reumatoid artritis.
+Der er aktuelt ingen relaterede kliniske forsøg registreret for hyperthyroidisme.
 
----
+## Litteraturevidens
 
-## Litteratur-beviser
-
-| PMID | År | Type | Journal | Vigtige fund |
-|------|-----|------|------|---------|
-| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Kohort | The Oncologist | Undersøgte prævalens af autoimmun sygdom hos HR+/HER2- brystkræft-patienter på CDK4/6-hæmmere + endokrin terapi, søgende efter prædiktive biomarkører |
-| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Præ-klinisk/dyreforsøg | International Journal of Molecular Sciences | CDK6-afhængig (CDK4-uafhængig) synovial hyperplasi hos artritiske mus; palbociclib udforsket som RA-behandlingsmulighed |
-| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Case report | Modern Rheumatology Case Reports | Forbedring af reumatoid artritis observeret hos en brystkræft-patient behandlet med palbociclib |
-| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Præ-klinisk/dyreforsøg | Annals of the Rheumatic Diseases | CDK-hæmning af synoviale fibroblaster lindrede artritis i dyrmodeller uden at mindske erhvervet immunitet |
+Der er aktuelt ingen relateret litteratur for hyperthyroidisme.
 
 ---
 
-## Dansk marked-information
+## Øvrige forudsagte indikationer i datagrundlaget
 
-Ingen markedsføringstilladelser er aktuelt registreret for palbociclib i Danmark (markedsstatus: ikke markedsført; 0 registrerede licenser).
+Datagrundlaget indeholder flere forudsigelser. To af dem har evidens, som er værd at kende.
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling | Kort vurdering |
+|------|------|------|------|------|
+| Reumatoid artritis | 99,36 % | L4 | Forskningsspørgsmål | Biologisk plausibel. Én case report ([PMID 33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/), 2021) beskriver bedring af leddegigt hos en brystkræftpatient i palbociclibbehandling. Prækliniske studier viser CDK6-afhængig synovial hyperplasi hos mus ([PMID 39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/), 2025; [PMID 25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/), 2016). Der findes ingen registrerede forsøg og ingen kontrollerede humane data |
+| Trombotisk sygdom | 99,32 % | L5 | Hold | Litteraturen peger på en **sikkerhedsrisiko** (tromboemboliske hændelser ved CDK4/6-hæmmere, bl.a. [PMID 36794339](https://pubmed.ncbi.nlm.nih.gov/36794339/)), ikke på en behandlingseffekt. Forudsigelsen kan være retningsmæssigt omvendt |
+| Thyreoideahormonresistens (THRB-mutation) | 99,30 % | L5 | Hold | Ingen mekanistisk begrundelse, ingen forsøg eller litteratur |
+| Brachydaktyli-syndaktyli-syndrom | 98,996 % | L5 | Hold | Ingen mekanistisk begrundelse. Medfødt misdannelse, som ikke forventes at kunne rettes af en cellecyklushæmmer |
+
+De to forsøg, der er knyttet til trombotisk sygdom, tester ikke trombose. [NCT05468697](https://clinicaltrials.gov/study/NCT05468697) er et fase 1/2-forsøg med belzutifan og palbociclib ved nyrecellekarcinom (60 deltagere, aktivt, rekrutterer ikke). [NCT05371275](https://clinicaltrials.gov/study/NCT05371275) er et fase 2-sikkerhedsforsøg ved COVID-19, som blev trukket tilbage med 0 deltagere.
 
 ---
 
-## Cytotoxicitet
+## Markedsinformation i Danmark
 
-Palbociclibs oprindelige indikation er onkologisk (avanceret brystkræft ifølge den understøttende litteratur), så dette afsnit finder anvendelse.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106240019 | Ibrance (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Indikationstekst ikke angivet i datagrundlaget |
+
+---
+
+## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoxicitet-klassifikation | Target terapi (CDK4/6-hæmmer) — ikke et konventionelt cytotoxisk middel |
-| Myelosuppression-risiko | Høj — litteratur i denne pakke (PMID 37994878) identificerer knoglemarvsundertrykkelse som en almindelig bivirkning blandt CDK4/6-hæmmere |
-| Emetogenicitets-klassifikation | Lav |
-| Overvågnings-punkter | Fuldstændigt blodcelletælling med differential (neutrofil-tælling især); givet det trombotiske-sygdoms-signal bemærket nedenfor, overvåg også tegn/symptomer på tromboembolisme |
-| Håndterings-beskyttelse | Oral farlig/antineoplastisk middel — håndter ifølge institutionelle cytotoxiske/farlige medicin-håndterings-protokoller trods oral (ikke-parental) administration |
+| Cytotoksicitetsklassifikation | Målrettet terapi (CDK4/6-hæmmer) |
+| Risiko for myelosuppression | Høj. Knoglemarvssuppression er en almindelig bivirkning af CDK4/6-hæmmere ifølge litteraturen |
+| Emetogenicitetsklassifikation | Lav |
+| Monitoreringspunkter | Komplet blodtælling (CBC) med differentialtælling, lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for krav til håndtering |
 
 ---
 
-## Sikkerhedshensyn
+## Sikkerhedsovervejelser
 
-Ingen struktureret sikkerhedsdata (vigtige advarsler, kontraindikationer, DDI) er tilgængelig i denne bevis-pakke — se venligst det godkendt Produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Pharmakovigilansanalyser og kliniske studier i litteraturen beskriver følgende signaler for CDK4/6-hæmmere:
 
-**Vigtig farmakvigilans-signal (fra litteratur-beviser, ikke de strukturerede sikkerhedsfelter):** Flere FAERS disproportionalitets-analyser og real-world kohort-studier i denne pakke (PMID 39123221, 39083396, 41496429, 36794339, 35300061) forbinder konsekvent CDK4/6-hæmmere, herunder palbociclib, med en **øget risiko for tromboemboliske hændelser**. Dette er et bivirkning-signal, ikke en terapeutisk indikation — se "Andre forudsagte kandidater" nedenfor.
+- **Tromboemboliske hændelser**, bl.a. [PMID 36794339](https://pubmed.ncbi.nlm.nih.gov/36794339/) og [PMID 35300061](https://pubmed.ncbi.nlm.nih.gov/35300061/)
+- **Interstitiel lungesygdom** ([PMID 37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/))
+- **Knoglemarvssuppression og gastrointestinale bivirkninger**
 
----
-
-## Andre forudsagte kandidater (ikke prioriteret)
-
-Denne bevis-pakke indeholdt fem forskellige TxGNN kandidat-indikationer for palbociclib. Kun reumatoid artritis (ovenfor) havde nogen understøttende beviser. De andre er dokumenteret her for transparens:
-
-| Sygdom | Score | Bevisniveau | Hvorfor deprioriteret |
-|---|---|---|---|
-| Hypertyreoidisme | 99,44 % (højeste rå score) | L5 | Ingen mekanistisk forbindelse identificeret; ingen litteratur eller forsøg. Det bevis-materiales egen rationel vurderer dette som sandsynlig graph noise. |
-| **Trombotisk sygdom** | 99,32 % | L4 | ⚠️ **Effekt-retning advarsel**: farmakovigilans-litteratur viser, at CDK4/6-hæmmere *øger* trombose-risiko — dette er et sikkerhedssignal, ikke en behandlingsmulighed. De to tilknyttede forsøg (NCT05468697, NCT05371275) er urelaterode kombinations-/sikkerhedsstudier, ikke trombotiske-sygdoms-behandlings-forsøg, og et blev trukket tilbage med 0 rekruttering. |
-| Resistens over for thyroid hormon (THRB-mutation) | 99,30 % | L5 | Sjælden genetisk kernereceptor-lidelse uden kendt biologisk forbindelse til CDK4/6-banen; ingen litteratur eller forsøg. |
-| Brachydactyly-syndactyly-syndrom | 98,996 % | L5 | Sjælden skelettal udviklings-syndrom uden kendt forbindelse til CDK4/6-banen; ingen litteratur eller forsøg. |
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -126,14 +121,16 @@ Denne bevis-pakke indeholdt fem forskellige TxGNN kandidat-indikationer for palb
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den eneste kandidat med nogen understøttende beviser — reumatoid artritis — hviler på en enkelt case report og præ-kliniske/dyre-mekanistiske data, uden noget kontrolleret menneskeligt forsøg (beslutnings-stadie S1, "Forskningsspørgsmål"). Dette opfylder ikke tærskelværdien for at gå videre mod klinisk evaluering. Højest-scorede TxGNN-kandidat (hypertyreoidisme) har slet ingen understøttende beviser, og trombotiske-sygdoms-kandidaten er faktisk et sikkerhedssignal, der virker mod, ikke for, genopbygning.
+Forudsigelsen om hyperthyroidisme har kun en grafbaseret score. Der er ingen forsøg, ingen litteratur og ingen kendt mekanistisk sammenhæng. Evidensniveauet er L5, og beslutningsfasen er S0.
 
-**For at fortsætte er følgende nødvendig:**
-- Detaljeret virkningsmekanisme (MOA) data (aktuelt et High-severity datakløft)
-- Officielt SmPC-afledt advarsler, kontraindikationer og lægemiddelinteraktions-data (aktuelt et blokering datakløft)
-- Et prospektivt, kontrolleret studidesign, der tester CDK4/6-hæmning specifikt i RA, i stedet for at stole på incidentel case-report observation
-- Dansk/EU-regulatorisk konsultation, da palbociclib ikke har markedsføringstilladelse i Danmark på nuværende tidspunkt
+**For at komme videre kræves:**
+- Data om virkningsmekanismen (MOA) fra DrugBank
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé, som er en blokerende datamangel
+- En litteratur- og forsøgssøgning målrettet en mulig biologisk forbindelse mellem CDK4/6-hæmning og skjoldbruskkirtelfunktion
+- Til opfølgning kan reumatoid artritis (L4) overvejes som forskningsspørgsmål. Det forudsætter kontrollerede humane data
+- Trombotisk sygdom bør vurderes som en sikkerhedsrisiko, ikke som en behandlingsmulighed
 
+*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
