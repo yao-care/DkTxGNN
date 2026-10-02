@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Gemfibrozil"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Gemfibrozil. Oprindelig indikation: . 10 forudsagte indikationer."
+description: "Sundhedsnyheder om Gemfibrozil. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/gemfibrozil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/gemfibrozil/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Gemfibrozil?">
-<strong>Gemfibrozil</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 10 forudsagte indikationer.
+<strong>Gemfibrozil</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Gemfibrozil med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (10)</strong>:<ul>
-<li>Reumatoid artritis (99.9%)</li>
-<li>Multipel endokrin neoplasi (99.8%)</li>
-<li>HIV-infektionssygdom (99.8%)</li>
-<li>Hypoalphalipoproteinæmi (99.8%)</li>
-<li>Brachydaktylie-syndaktylie-syndrom (99.8%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
 <li>rheumatoid arthritis (99.9%)</li>
 <li>multiple endocrine neoplasia (99.8%)</li>
 <li>HIV infectious disease (99.8%)</li>
