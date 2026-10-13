@@ -2,7 +2,7 @@
 layout: default
 title: Besilesomab
 parent: Kun modelforudsigelse (L5)
-nav_order: 62
+nav_order: 108
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Besilesomab: Fra diagnostisk billeddannelse af infektion og inflammation til diabetisk grå stær
+# Besilesomab: Fra diagnostisk billeddannelse af inflammation og infektion til diabetisk grå stær
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Besilesomab er et radioaktivt mærket museantistof mod NCA-95 (CD66b), som bruges som diagnostisk middel til scintigrafi af inflammation og infektion, fx osteomyelitis.
-TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (diabetic cataract)**.
-Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. Den bygger kun på modellen, og der er ikke fundet nogen troværdig biologisk sammenhæng.
+Besilesomab er et radiomærket museantistof, der anvendes som diagnostisk middel til billeddannelse af inflammation og infektion. TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -43,9 +41,9 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. De
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata. Ifølge den mekanistiske vurdering bruges stoffet til scintigrafisk diagnostik af inflammation og infektion |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (præparatet er et diagnostisk radiofarmakon til billeddannelse af inflammation og infektion) |
 | Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-prædiktionsscore | 98,52 % |
+| TxGNN-prædiktionsscore | 98,5 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -55,21 +53,15 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. De
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i evidenspakken. Besilesomab er et radiomærket murint anti-NCA-95-antistof (CD66b), der binder til granulocytter og bruges til at afbilde inflammation og infektion. Stoffet er et diagnostisk middel og ikke en behandling.
+Data om lægemidlets virkningsmekanisme foreligger ikke i de indsamlede data. Besilesomab er et murint monoklonalt antistof rettet mod granulocytter (anti-NCA-95), som efter radiomærkning bruges til diagnostisk billeddannelse. Det er ikke et behandlende middel.
 
-Der er ingen kendt sammenhæng mellem denne mekanisme og linsens uklarhed. Antistoffet har ingen kendt effekt på polyol-vejen, oxidativt stress eller glykæmiske og metaboliske drivere af grå stær. Den høje score (0,985) ligner derfor et artefakt fra vidensgrafen og ikke et udtryk for reel biologi.
+Der kan ikke påvises nogen mekanistisk sammenhæng mellem besilesomab og diabetisk grå stær. Linseuklarhed ved diabetes drives af blandt andet hyperglykæmi, ophobning af sorbitol (polyolvejen), oxidativt stress og glykering. Ingen af disse er mål for besilesomab. Den høje score (0,985) afspejler sandsynligvis ligheder i vidensgrafen snarere end farmakologi.
 
-Modellen forudsiger også andre former for grå stær med score på ca. 98,46 %. Det gælder moden og umoden grå stær, grå stær ved type 2-diabetes, kraniostenose-associeret grå stær og tetanisk grå stær. De samme vurderinger gælder for dem alle:
-- Der er ingen kliniske forsøg eller litteratur.
-- Der er ingen plausibel mekanistisk sammenhæng.
-- Moden grå stær behandles kirurgisk.
-- Tetanisk grå stær hænger sammen med hypokalcæmi og hypoparathyroidisme, som besilesomab ikke påvirker.
-
-Duplikerede poster i inputtet er slået sammen.
+De øvrige forudsigelser på listen (moden grå stær, umoden grå stær, grå stær ved type 2-diabetes, grå stær ved kraniosynostose og tetanisk grå stær) har alle samme score omkring 98,5 % og samme mangel på evidens og mekanistisk grundlag.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -83,15 +75,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28120224208 | Scintimun (Telix Innovations) | Radiofarmaceutisk præparationssæt | Ikke angivet i data |
+| 28120224208 | Scintimun (Telix Innovations) | Radiofarmaceutisk præparationssæt | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet data om advarsler, kontraindikationer eller lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der foreligger ingen sikkerhedsdata i de indsamlede data, og der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -100,17 +92,13 @@ Der er ikke fundet data om advarsler, kontraindikationer eller lægemiddelintera
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er ren modelprædiktion (evidensniveau L5) uden kliniske forsøg eller litteratur. Der er ingen troværdig biologisk sammenhæng mellem et diagnostisk radiomærket granulocytantistof og grå stær.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, publikationer eller plausibel mekanisme. Besilesomab er et diagnostisk radiomærket antistof, og der er ingen kendt biologisk forbindelse til linseuklarhed. Desuden er administration af et radioaktivt museantistof til en ikke-diagnostisk indikation uden dokumenteret gevinst problematisk.
 
-**Hvis vurderingen skal genoptages, kræves følgende:**
-- Sikkerhedsdata (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Prækliniske eller mekanistiske data, der kan understøtte en forbindelse til linsens patologi
-- Vurdering af administrationsvejens egnethed til okulær anvendelse
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA)
+- Produktresumé med godkendt indikation, advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Prækliniske eller mekanistiske data, der kan forbinde besilesomab med patogenesen ved diabetisk grå stær
+- En vurdering af administrationsvej og egnethed til okulær anvendelse (ikke afklaret)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

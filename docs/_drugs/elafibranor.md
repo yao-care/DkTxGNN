@@ -2,7 +2,7 @@
 layout: default
 title: Elafibranor
 parent: Kun modelforudsigelse (L5)
-nav_order: 159
+nav_order: 295
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Elafibranor: Fra markedsført PPAR-agonist til amenorré
+# Elafibranor: Fra primær biliær cholangitis til amenoré
 
 ## Resumé i én sætning
 
-Elafibranor markedsføres i Danmark som Iqirvo (filmovertrukne tabletter), og datagrundlaget angiver ikke en godkendt indikation. TxGNN-modellen forudsiger, at stoffet kan have effekt på **amenorré**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hører derfor til det svageste evidensniveau (modelforudsigelse alene).
+Elafibranor (handelsnavn Iqirvo) er en dobbelt PPARα/PPARδ-agonist, som oprindeligt blev udviklet til non-alkoholisk steatohepatitis (NASH) og efterfølgende blev godkendt til primær biliær cholangitis (PBC). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré**, men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,8 +41,8 @@ Elafibranor markedsføres i Danmark som Iqirvo (filmovertrukne tabletter), og da
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten er tom) |
-| Forudsagt ny indikation | Amenorré |
+| Oprindelig indikation | Ikke angivet i de indsamlede data for den danske tilladelse (den danske tilladelse indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Amenoré |
 | TxGNN-forudsigelsesscore | 99,86 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -51,43 +51,45 @@ Elafibranor markedsføres i Danmark som Iqirvo (filmovertrukne tabletter), og da
 
 ---
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Elafibranor er en dobbelt PPAR-alfa/delta-agonist. Datagrundlaget indeholder ingen detaljerede mekanismedata (MOA), så beskrivelsen bygger på stoffets kendte stofklasse.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Ud fra de tilgængelige oplysninger er elafibranor en dobbelt agonist af de nukleære receptorer PPARα (PPARA) og PPARδ (PPARD). Aktivt stof omdannes i leveren til hovedmetabolitten GFT-1007. Præklinisk har stoffet vist reduceret fedtophobning, inflammation og fibrose i leveren. Stoffet blev udviklet til NASH, men udviklingen blev stoppet i 2020, da et interimsstudie ikke viste bedre effekt end placebo. Det blev derefter genpositioneret til PBC, godkendt af FDA i juni 2024 og af EMA i september 2024.
 
-PPAR-signalering er undersøgt i forbindelse med steroidogenese i ovarierne og de metaboliske træk ved PCOS. Det kan teoretisk have relation til sekundær amenorré. Koblingen er dog spekulativ, fordi amenorré har mange uafhængige årsager (hormonelle, anatomiske, genetiske og livsstilsrelaterede). Den meget høje score på 99,86 % er udelukkende en modelforudsigelse. Den støttes hverken af forsøg eller litteratur og bør ikke tolkes som klinisk evidens.
+Der er ikke påvist en direkte mekanistisk sammenhæng mellem PPARα/δ-agonisme og amenoré. En spekulativ forbindelse kunne gå via regulering af lipid- og glukosestofskifte, som kan påvirke ovariefunktionen, men dette understøttes ikke af de foreliggende data. Forudsigelsen hviler alene på modellens score.
 
-Heller ikke de øvrige forudsigelser i listen (bl.a. non-syndromisk øsofagusmalformation, Pagets knoglesygdom, dentinogenesis imperfecta og pladecellekarcinom) har registrerede forsøg eller publikationer. For flere af dem vurderes den mekanistiske kobling som sandsynligvis en artefakt i vidensgrafen. For pladecellekarcinom er det modstridende, om PPAR-delta-aktivering fremmer eller hæmmer tumorer, så der kan være en sikkerhedsbekymring snarere end en gavnlig effekt.
+Øvrige forudsigelser fra modellen med tilsvarende score er ligeledes uden klinisk evidens og bør vurderes med stor skepsis:
+- **Non-syndromisk esofagusmalformation** (99,89 %-niveau: 98,92 %): medfødt udviklingsmæssig defekt uden plausibel mekanistisk forbindelse; sandsynligvis et artefakt fra vidensgrafen.
+- **Knoglens Pagets sygdom** (98,86 %): PPAR'er er involveret i knogleremodellering, så en indirekte hypotese findes, men den er ikke understøttet, og bisfosfonater er effektive.
+- **Dentinogenesis imperfecta** (98,52 %): genetisk tandsygdom (typisk DSPP-mutationer) uden mekanistisk rationale.
+- **Pladecellekarcinom** (98,47 %): PPAR-signalering har kontekstafhængige effekter i kræftbiologi, og PPARδ-aktivering kan i nogle sammenhænge være tumorfremmende, hvilket udgør en mulig sikkerhedsbekymring.
 
 ---
 
-## Klinisk forsøgsevidens
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger i øjeblikket ingen relateret litteratur.
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107069423 | Iqirvo (Ipsen Pharma) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
-
-Administrationsvej: oral.
+| 28107069423 | Iqirvo (Ipsen Pharma) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget (forespørgslen gav ingen resultater). Dette er ikke det samme som, at der ikke findes interaktioner.
+Der er ingen konkrete oplysninger om advarsler eller kontraindikationer i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og interaktioner.
+Farmakologisk information: Elafibranor virker på PPARα og PPARδ. Der blev ikke registreret specifikke sikkerhedssignaler i fase 1/2-studierne. Der er ikke fundet lægemiddelinteraktioner med klinisk niveauangivelse. Bemærk, at PPARδ-aktivering teoretisk kan være tumorfremmende i nogle sammenhænge, hvilket er relevant ved den forudsagte indikation pladecellekarcinom.
 
 ---
 
@@ -96,16 +98,14 @@ Se i øvrigt det godkendte produktresumé (SmPC) for information om advarsler, k
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen er baseret udelukkende på modellen (L5). Der findes ingen kliniske forsøg eller publikationer, og den mekanistiske kobling til amenorré er spekulativ.
-- Det blokerende datahul vedrørende advarsler og kontraindikationer fra Lægemiddelstyrelsen er ikke lukket, så sikkerhedsscreening kan ikke gennemføres.
+Forudsigelsen om amenoré hviler udelukkende på en høj modelscore (L5) uden kliniske forsøg, litteratur eller en etableret mekanistisk sammenhæng. De indsamlede data har desuden væsentlige huller vedrørende sikkerhed og virkningsmekanisme.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og den godkendte indikation.
-- Indhent detaljerede mekanismedata (MOA), fx fra DrugBank.
-- Gennemfør en systematisk litteratur- og forsøgssøgning (PubMed, ClinicalTrials.gov, EU Clinical Trials Register) på elafibranor og amenorré, herunder præklinisk evidens for PPAR i ovariefunktionen.
-- Afklar rutekompatibilitet og lighed med den oprindelige indikation (begge står som "afventer" i datagrundlaget).
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til repurposing skal klinisk valideres, før de kan anvendes.*
+- Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Detaljerede data om virkningsmekanisme (MOA), fx fra DrugBank
+- Litteratur- og forsøgssøgning målrettet PPAR-agonister og amenoré/ovariefunktion
+- Præklinisk eller mekanistisk validering af en hypotese om PPARα/δ og reproduktiv endokrinologi
+- Bekræftelse af den godkendte indikation for den danske tilladelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: Moderat evidens (L3-L4)
-nav_order: 405
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 765
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,11 +31,9 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 # Sofosbuvir: Fra hepatitis C til hepatitis B-virusinfektion
 
-## Resumé
+## Resumé i én sætning
 
-Sofosbuvir er en nukleotidanalog hæmmer af HCV NS5B-polymerasen og markedsføres i Danmark som Sovaldi. Lægemidlet er kendt til behandling af kronisk hepatitis C, men indikationsteksten mangler i de danske godkendelsesdata.
-TxGNN-modellen forudsiger, at sofosbuvir kan have effekt mod **hepatitis B-virusinfektion**, med en meget høj score på **99,77 %**.
-Der er registreret **50 kliniske forsøg** og **19 publikationer**. Næsten alle handler dog om behandling af hepatitis C, herunder HCV/HBV-koinfektion, og ikke om behandling af hepatitis B. Evidensen for den forudsagte indikation er derfor svag.
+Sofosbuvir er en nukleotidanalog hæmmer af HCV's NS5B-polymerase og anvendes oprindeligt mod kronisk hepatitis C. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hepatitis B-virusinfektion**, men der er kun **11 registrerede kliniske forsøg** og **20 publikationer** med begrænset direkte relevans. Ingen af dem viser, at sofosbuvir behandler HBV, og den mekanistiske begrundelse er svag.
 
 ---
 
@@ -43,78 +41,90 @@ Der er registreret **50 kliniske forsøg** og **19 publikationer**. Næsten alle
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i godkendelsesteksten. Kendt anvendelse: kronisk hepatitis C |
+| Oprindelig indikation | Kronisk hepatitis C-virusinfektion (indikationsteksten i den danske tilladelse er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Hepatitis B-virusinfektion |
 | TxGNN-forudsigelsesscore | 99,77 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
+| Evidensniveau | L2 (som tildelt i datagrundlaget; se vurderingen nedenfor, da evidensen reelt er svagere) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen rimelig – og hvorfor er den svag?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Sofosbuvir er en nukleotidanalog, der hæmmer HCV's RNA-afhængige RNA-polymerase (NS5B). Dens effekt ved hepatitis C er veldokumenteret.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Sofosbuvir er dog kendt som en hæmmer af HCV's RNA-afhængige RNA-polymerase (NS5B).
 
-Hepatitis B-virus (HBV) formerer sig på en anden måde. Det bruger et DNA-polymerase/revers transkriptase-enzym med en præ-genomisk RNA-mellemform. Der er derfor **ingen etableret mekanistisk begrundelse** for direkte anti-HBV-aktivitet. Den høje score afspejler formentlig nærhed i vidensgrafen via fælles hepatitis- og antivirale knudepunkter og ikke en dokumenteret effekt.
+HBV replikerer via en DNA-polymerase/revers transkriptase og ikke via en RNA-polymerase. Der er derfor **ikke noget direkte mekanistisk grundlag** for anti-HBV-aktivitet. Den høje score (0,998) afspejler sandsynligvis netværksnærhed i vidensgrafen via fælles hepatitisvirus-associationer snarere end reel antiviral effekt.
 
-Den kliniske litteratur drejer sig hovedsageligt om to ting:
-1. Behandling af hepatitis C hos patienter med HCV/HBV-koinfektion.
-2. Risikoen for reaktivering af HBV efter behandling med direkte virkende antivirale midler (DAA).
-
-Ingen af delene viser, at sofosbuvir behandler hepatitis B. Et enkelt fase 2-forsøg (NCT03312023, publiceret som PMID 36045503) har undersøgt ledipasvir/sofosbuvir ved HBV-monoinfektion med fald i HBsAg som endepunkt. Det er lille og uden kontrolgruppe.
+De fleste forsøg omfatter patienter med HCV/HBV-co-infektion, hvor sofosbuvir behandler HCV-delen. Den kliniske relevans er især **HBV-reaktivering** under behandling med direkte virkende antivirale midler (DAA). Her er monitorering og profylakse, fx med TAF eller entecavir, vigtigere end HBV-behandling med sofosbuvir.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+Udvalgte forsøg (maks. 10 af de mest relevante):
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Fase 2 | Afsluttet | 21 | Ledipasvir/sofosbuvir i 12 uger ved HBV-infektion. Undersøger fald i HBsAg og HBV-DNA. Det er det eneste forsøg direkte rettet mod HBV |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Fase 3b | Afsluttet | 111 | Ledipasvir/sofosbuvir ved HCV/HBV-koinfektion i Taiwan. Understøtter HCV-effekt og HBV-sikkerhed, ikke HBV-behandling |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Afsluttet | 23 | DAA ved HCV/HBV-koinfektion. Undersøger forekomst af HBV-reaktivering |
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Fase 4 | Ukendt | 120 | Sofosbuvir/velpatasvir i 12 uger med profylaktisk TAF ved HCV/HBV-koinfektion i Kina. Den anti-HBV-aktive komponent er TAF |
-| [NCT03261349](https://clinicaltrials.gov/study/NCT03261349) | Fase 2 | Ukendt | 21 | Ledipasvir/sofosbuvir ved HCV-associeret indolent B-celle-lymfom. Ingen påvist anti-HBV-effekt |
-| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Fase 4 | Ukendt | 25 | Skift til E/C/F/TAF efterfulgt af sofosbuvir/velpatasvir ved HIV-HCV-koinfektion. TAF er den anti-HBV-aktive komponent, ikke sofosbuvir |
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Fase 2 | Afsluttet | 21 | Ledipasvir/sofosbuvir i 12 uger ved HBV-infektion. Relevant for sikkerhed og HBV-reaktivering, men viser ikke effekt mod HBV |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Afsluttet | 23 | DAA ved HCV/HBV-co-infektion. Endepunkt er HCV-clearance med HBV-monitorering |
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Fase 4 | Ukendt | 120 | SOF/VEL med profylaktisk TAF ved HCV/HBV-co-infektion. Handler om forebyggelse af HBV-reaktivering |
+| [NCT03261349](https://clinicaltrials.gov/study/NCT03261349) | Fase 2 | Ukendt | 21 | Ledipasvir/sofosbuvir ved HCV-associeret indolent B-celle-lymfom. Lille pilotundersøgelse |
+| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Fase 4 | Ukendt | 25 | Skift af hiv-behandling og SOF/VEL ved hiv/HCV-co-infektion. Indirekte link til HBV |
+| [NCT02768961](https://clinicaltrials.gov/study/NCT02768961) | Fase 4 | Afsluttet | 64 | HCV-screenings- og eliminationsprogram i fængsler. Ikke relevant for HBV-effekt |
+| [NCT03186313](https://clinicaltrials.gov/study/NCT03186313) | Fase 3 | Afsluttet | 72 | Fastdosiskombination af sofosbuvir/daclatasvir (±ribavirin) ved HCV genotype 4 i Egypten. Primært HCV-regime |
+| [NCT02363517](https://clinicaltrials.gov/study/NCT02363517) | Fase 3 | Ukendt | 420 | Behandling af HCV hos stofbrugere i lokalsamfund. HCV-fokus |
+| [NCT03579576](https://clinicaltrials.gov/study/NCT03579576) | Ikke angivet | Afsluttet | 803 | Forenklet HCV-behandlingsmodel i Myanmar. Ikke relevant for HBV-effekt |
+| [NCT07560046](https://clinicaltrials.gov/study/NCT07560046) | Fase 4 | Endnu ikke rekrutterende | 1.280 | Klyngerandomiseret HCV-forsøg med point-of-care-test. HCV-fokus |
 
-De øvrige registrerede forsøg er overvejende HCV-studier, der kun er knyttet til forudsigelsen via fælles hepatitis-termer. Titlerne er afkortede i datagrundlaget, så deltagerpopulationerne bør verificeres.
-
----
-
-## Evidens fra litteraturen
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|-----|------|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Fase 2, åbent studie | J Med Virol | Ledipasvir/sofosbuvir ved HBV-monoinfektion. Hypotese om fald i HBsAg, baseret på retrospektive data fra koinfektion. Resultater fremgår ikke af det tilgængelige uddrag |
-| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Opfølgningsstudie | Clin Infect Dis | HBV-reaktivering under og 108 uger efter ledipasvir/sofosbuvir hos HCV/HBV-koinficerede i Taiwan |
-| [31722032](https://pubmed.ncbi.nlm.nih.gov/31722032/) | 2020 | Kohorte | Trans R Soc Trop Med Hyg | Sofosbuvir/daclatasvir ved kronisk HCV og HCV/HBV-koinfektion i Egypten |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Kohorte | J Clin Gastroenterol | Risiko for HBV-reaktivering hos patienter behandlet med ledipasvir/sofosbuvir |
-| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | Case report og litteraturgennemgang | Medicine | HBV-reaktivering efter vellykket HCV-behandling med sofosbuvir og ribavirin |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospektiv observation | J Viral Hepat | HBV-reaktivering hos kræftpatienter med HCV/HBV-koinfektion under DAA-behandling |
-| [31632097](https://pubmed.ncbi.nlm.nih.gov/31632097/) | 2019 | Klinisk studie | Infect Drug Resist | Håndtering af HBV-reaktivering efter DAA hos HCV/HBV-koinficerede |
-| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Epidemiologisk oversigt | J Hepatol | Erfaringer fra HCV-DAA-udrulning 2014-2023 og læring til nye HBV- og HDV-behandlinger |
-
-Litteraturen viser et sikkerhedssignal (HBV-reaktivering) snarere end effekt mod HBV. Der er ingen randomiserede, kontrollerede forsøg med sofosbuvir ved HBV.
+Ingen af forsøgene viser effekt af sofosbuvir mod HBV. Der er ikke angivet EudraCT-numre i de indsamlede data.
 
 ---
 
-## Information om det danske marked
+## Litteraturevidens
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Fase 2, åbent forsøg | J Med Virol | Ledipasvir/sofosbuvir i 12 uger ved HBV-monoinfektion. Hypotese om HBsAg-reduktion på baggrund af et beskedent fald ved co-infektion; primært endepunkt er fald i HBsAg og sekundært HBV-DNA |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospektiv observationsstudie | J Viral Hepat | HBV-reaktivering under DAA-behandling af HCV hos kræftpatienter med co-infektion |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | J Med Case Rep | HBV-reaktivering med immune-escape-mutant under sofosbuvir/velpatasvir |
+| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | Case report (bivirkninger) | Hosp Pharm | HBV-reaktivering under HCV-behandling med simeprevir og sofosbuvir |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antivirale midler mod hepatitis B og C og deres effekt på nyrefunktionen |
+| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Oversigtsartikel | J Hepatol | Behandlingstal for HCV 2014-2023 og erfaringer, der kan bruges til nye HBV- og HDV-behandlinger |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Review | World J Gastroenterol | Behandling af pædiatrisk viral hepatitis; HBV-behandling er fortsat langt fra kurativ |
+| [37096834](https://pubmed.ncbi.nlm.nih.gov/37096834/) | 2023 | Review | Expert Opin Drug Saf | Sikkerhedsovervejelser ved HCV/hiv-co-infektion |
+| [25253190](https://pubmed.ncbi.nlm.nih.gov/25253190/) | 2014 | Review | Minerva Pediatr | Behandling af hepatitis B og C hos børn |
+| [24631495](https://pubmed.ncbi.nlm.nih.gov/24631495/) | 2014 | Review | Gastroenterology | Nye HCV-behandlinger: værktøjer, strategier og udfordringer |
+
+Den eneste litteratur, der direkte undersøger sofosbuvir-baseret behandling ved HBV, er det lille fase 2-forsøg. Størstedelen af de øvrige publikationer handler om HCV eller om risikoen for HBV-reaktivering.
+
+---
+
+## Markedsinformation i Danmark
+
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106287219 | Sovaldi (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28106287219 | Sovaldi (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
 
-Produktet gives oralt.
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Interaktioner:** Der blev ikke fundet registrerede lægemiddelinteraktioner i den anvendte kilde (søgning uden resultat). Det er ikke det samme som, at der ikke findes interaktioner.
-- **HBV-reaktivering (fra litteraturen):** Flere studier og case reports (PMID 29334502, 33031326, 34864948, 33523503) beskriver reaktivering af hepatitis B hos HBV-smittede eller tidligere eksponerede patienter under eller efter DAA-behandling. Det er særligt relevant, hvis sofosbuvir overvejes til patienter med HBV. Patienter med HBV bør ikke behandles uden samtidig HBV-overvågning eller -behandling.
+Data om advarsler og kontraindikationer fra produktresuméet mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Øvrige advarsler og kontraindikationer: se det godkendte produktresumé (SmPC).
+**Lægemiddelinteraktioner** (8 registrerede, kilde: DDInter):
+
+- **Alvorlige (Major):** apalutamid, enzalutamid, lorlatinib
+- **Moderate:** fostamatinib, warfarin, dicoumarol, encorafenib
+- **Milde (Minor):** ciclosporin
+
+**Øvrige sikkerhedsforhold fra litteraturen:**
+
+- **HBV-reaktivering** er en veldokumenteret risiko under DAA-behandling af patienter med HCV/HBV-co-infektion. Screening for HBV og monitorering eller profylakse bør overvejes.
+- Et prækliniske studie i rotter (PMID 37280507) peger på en mulig effekt på mitokondriel biogenese hos fostre efter moderens eksponering før graviditet.
 
 ---
 
@@ -123,19 +133,17 @@ Produktet gives oralt.
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Der er ingen etableret mekanistisk begrundelse for anti-HBV-effekt, og den høje TxGNN-score afspejler sandsynligvis grafnærhed.
-- Det eneste direkte HBV-forsøg er lille (n=21) og uden kontrolgruppe.
-- Litteraturen peger på en sikkerhedsrisiko (HBV-reaktivering) snarere end en terapeutisk gevinst.
+Der er intet mekanistisk grundlag for, at en RNA-polymerasehæmmer virker mod HBV, og de tilgængelige forsøg viser ikke effekt mod HBV. Den høje TxGNN-score synes at afspejle netværksnærhed og ikke reel antiviral aktivitet. Det tildelte evidensniveau L2 bør tolkes forsigtigt, da de relevante fase 2-forsøg er små (n=21-23), åbne og uden kontrolgruppe.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation).
-- Mekanismedata for sofosbuvir fra DrugBank.
-- Resultaterne fra NCT03312023 / PMID 36045503 og verifikation af populationerne i de forsøg, hvor titlerne er afkortede.
-- Eventuelt et kontrolleret studie med HBV-specifikke endepunkter (HBsAg, HBV-DNA), hvis området prioriteres.
+- Resultater og effektdata fra det fase 2-forsøg, der undersøger ledipasvir/sofosbuvir ved HBV-monoinfektion (NCT03312023 / PMID 36045503), herunder om et eventuelt HBsAg-fald kan tilskrives sofosbuvir
+- Præklinisk mekanistisk dokumentation for eventuel aktivitet mod HBV
+- Data om virkningsmekanisme fra DrugBank og sikkerhedsoplysninger fra produktresuméet
+- En klinisk strategi for HBV-screening og -profylakse hos patienter med HCV/HBV-co-infektion, som er den mest realistiske kliniske relevans
 
-**Bemærk:** Forudsigelsen om hepatitis E-virusinfektion (evidensniveau L3) har et stærkere grundlag. Der er plausibel mekanisme, in vitro-data og et fase 2-pilotforsøg (NCT03282474), men resultaterne fra små case-serier er blandede. Den bør vurderes separat som et forskningsspørgsmål.
+---
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+*Bemærkning om øvrige forudsigelser:* Datagrundlaget omfatter også hepatitis E (score 99,49 %, fase 2-pilotforsøg NCT03282474 med 10 patienter, hvor virusniveauet kun faldt midlertidigt uden vedvarende virologisk respons, og med resistensudvikling beskrevet i PMID 37334496), hepatitis A (kun in vitro-data), hepatitis hos dyr (præklinisk) og Omsk hæmoragisk feber (kun modelforudsigelse). Hepatitis E har den mest konkrete kliniske evidens blandt alternativerne og kan være mere relevant at undersøge, men resultaterne er hidtil beskedne.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

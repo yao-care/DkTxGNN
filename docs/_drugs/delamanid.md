@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Delamanid
-parent: Moderat evidens (L3-L4)
-nav_order: 136
-evidence_level: L4
+parent: Høj evidens (L1-L2)
+nav_order: 248
+evidence_level: L2
 indication_count: 10
 ---
 
 # Delamanid
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Delamanid: Fra multiresistent tuberkulose til bovin tuberkulose
+# Delamanid: Fra multiresistent tuberkulose til inaktiv tuberkulose
 
-## Resumé
+## Resumé i én sætning
 
-Delamanid er et tuberkulosemiddel, der markedsføres i Danmark som Deltyba og ifølge evidensgrundlaget bruges mod aktiv multiresistent tuberkulose (MDR-TB).
-TxGNN-modellen forudsiger, at det kan virke mod **bovin tuberkulose** (*Mycobacterium bovis*), men der er kun **1 publikation** og **ingen kliniske forsøg** for netop denne indikation.
-Den bedst understøttede forudsigelse i samme pakke er **inaktiv (latent) tuberkulose**, hvor et fase 3-forsøg med 5.832 deltagere er i gang.
+Delamanid er et antibakterielt middel mod tuberkulose, oprindeligt anvendt til behandling af **multiresistent tuberkulose (MDR-TB)**. TxGNN-modellen forudsiger, at lægemidlet også kan være virksomt mod **inaktiv tuberkulose**, og forudsigelsen understøttes af **1 klinisk fase 2/3-forsøg** og **20 publikationer** (hovedsageligt oversigtsartikler).
 
 ---
 
@@ -43,101 +41,94 @@ Den bedst understøttede forudsigelse i samme pakke er **inaktiv (latent) tuberk
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Aktiv multiresistent tuberkulose (fra evidensgrundlaget; indikationsteksten i den danske registrering er ikke oplyst) |
-| Forudsagt ny indikation | Tuberkulose, bovin (*M. bovis*) |
+| Oprindelig indikation | Multiresistent tuberkulose |
+| Forudsagt ny indikation | Inaktiv tuberkulose |
 | TxGNN-forudsigelsesscore | 99,91 % |
-| Evidensniveau | L4 (bovin TB). Til sammenligning: L1 for inaktiv tuberkulose |
-| Status på det danske marked | Markedsført |
+| Evidensniveau | L2 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (bovin TB). Proceed with Guardrails for inaktiv tuberkulose |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
-**Øvrige forudsigelser i samme pakke:**
-
-| Forudsagt indikation | Evidensniveau | Anbefaling |
-|------|------|------|
-| Inaktiv tuberkulose (latent TB-infektion) | L1 | Proceed with Guardrails |
-| Tuberkulom | L4 | Hold |
-| Tuberkuløs ascites | L5 | Hold |
-| Aviær tuberkulose | L5 | Hold |
+Bemærk: Den oprindelige indikation er hentet fra den vidensgraf, som TxGNN bygger på, da den danske tilladelse ikke indeholder en indikationstekst.
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede mekanismedata i Evidence Pack. Ud fra almen farmakologi er delamanid et nitroimidazooxazol-prodrug, der aktiveres af det F420-afhængige enzym Ddn i *Mycobacterium tuberculosis*. Når det er aktiveret, hæmmer det syntesen af methoxy- og keto-mykolsyrer, som er vigtige for bakteriens cellevæg.
+Delamanid er et nitroimidazol-prodrug. Det aktiveres af et enzym i *Mycobacterium tuberculosis* (deazaflavin-afhængig nitroreduktase, Ddn, F420-afhængig). Den aktive metabolit hæmmer syntesen af mykolsyrer (methoxy- og keto-mykolsyrer) og svækker dermed bakteriens cellevæg. Oplysninger om virkningsmekanisme manglede i de data, der er indsamlet til denne rapport, men mekanismen er velbeskrevet i litteraturen.
 
-*M. bovis* tilhører samme kompleks som *M. tuberculosis*. Zoonotisk tuberkulose hos mennesker forventes derfor at være følsom over for delamanid via samme aktiveringsvej. *M. bovis* er desuden naturligt resistent over for pyrazinamid, hvilket gør alternative midler interessante. Der er dog ingen delamanid-specifikke følsomheds- eller kliniske data, så sammenhængen er indtil videre kun teoretisk.
+MDR-TB og inaktiv tuberkulose skyldes samme bakterie. Forsøget CRUSH-TB (NCT05766267) undersøger kortere regimer, hvor delamanid indgår som en af to mulige komponenter, ved lungetuberkulose. Det er en tæt, men ikke fuldstændig overensstemmelse med den forudsagte indikation.
 
-For inaktiv tuberkulose er mekanismen den samme. Ved forebyggende behandling af kontakter til MDR-TB-patienter forventes isoniazid og rifamyciner at svigte, og delamanid kan være et alternativ. Det er en indikationsudvidelse (forebyggelse), ikke en ny mekanisme.
+**Forbehold:** Inaktiv (latent eller ikke-replikerende) tuberkulose adskiller sig fra den aktive lungesygdom, der studeres i forsøget. Delamanids aktivitet mod ikke-replikerende bakterier og brugen ved latent TB (fx kontakter til MDR-TB-patienter) understøttes kun indirekte af de foreliggende data.
 
-Forudsigelserne for tuberkuløs ascites og tuberkulom hviler på samme mekanisme, men uden egne data. For tuberkulom afhænger virkningen desuden af tilstrækkelig penetration til centralnervesystemet, som ikke er dokumenteret. Aviær tuberkulose skyldes *M. avium*-komplekset, som generelt ikke er følsomt over for delamanid, så koblingen er svag.
+**Øvrige forudsigelser:** Modellen angiver også andre tuberkuloserelaterede sygdomme med næsten samme score. Evidensen for disse er svagere:
+- **Bovin tuberkulose** (L4): Kun ét molekylært epidemiologisk studie af *M. bovis*-isolater. Delamanids følsomhed er ikke påvist.
+- **Tuberkuloma** (L4): Kun en generel oversigtsartikel om neurotuberkulose. Delamanids penetration til centralnervesystemet er ikke belyst.
+- **Tuberkuløs ascites** (L5): Kun modelforudsigelse.
+- **Aviær tuberkulose** (L5): Forårsages af *M. avium*, hvor aktivering via Ddn/F420 ikke er påvist. Mekanismen er tvivlsom.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-For bovin tuberkulose er der aktuelt ingen relaterede kliniske forsøg registreret.
-
-Følgende forsøg er registreret under den bedst understøttede forudsigelse, inaktiv tuberkulose:
-
-| Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT03568383](https://clinicaltrials.gov/study/NCT03568383) | Fase 3 | Aktiv, rekrutterer ikke | 5.832 | PHOENIx MDR-TB: 26 ugers delamanid sammenlignet med isoniazid til forebyggelse af aktiv TB hos højrisiko-husstandskontakter til MDR-TB-patienter. Slutdato forventes januar 2027. Der foreligger endnu ingen bekræftede effektresultater. |
-| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Fase 2/3 | Aktiv, rekrutterer ikke | 288 | CRUSH-TB: 17 ugers regimer med bedaquilin, moxifloxacin og pyrazinamid plus rifabutin eller delamanid sammenlignet med standardbehandling i 6 måneder ved lungetuberkulose. Det er indirekte evidens, da populationen har aktiv sygdom. |
+| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Fase 2/3 | Aktiv, ikke rekrutterende | 288 | CRUSH-TB: undersøger, om 17-ugers regimer med bedaquilin, moxifloxacin og pyrazinamid plus enten rifabutin eller delamanid er lige så effektive som standardbehandling over seks måneder ved lungetuberkulose. Forventet afslutning: 31. december 2027. Resultater foreligger endnu ikke. |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Kohorte | BMC Genomics | Helgenomsekventering af *M. bovis*-isolater fra zoonotisk TB: genetisk diversitet og lægemiddelresistens. Ingen delamanid-specifikke data. (Bovin TB) |
-| [38003836](https://pubmed.ncbi.nlm.nih.gov/38003836/) | 2023 | Review | Pathogens | Behandling og forebyggelse af lægemiddelresistent TB hos børn. Nævner delamanid og bedaquilin. (Inaktiv TB) |
-| [36915977](https://pubmed.ncbi.nlm.nih.gov/36915977/) | 2022 | Review | J Zhejiang Univ Med Sci | Fremskridt i diagnostik og behandling af latent tuberkuloseinfektion. (Inaktiv TB) |
-| [33837535](https://pubmed.ncbi.nlm.nih.gov/33837535/) | 2021 | Review | Clin Pharmacol Ther | Behandling af latent og aktiv TB. (Inaktiv TB) |
-| [29580819](https://pubmed.ncbi.nlm.nih.gov/29580819/) | 2018 | Review | Lancet Infect Dis | Nye lægemidler, behandlingsregimer og værtsrettet terapi ved TB. (Inaktiv TB) |
-| [24100880](https://pubmed.ncbi.nlm.nih.gov/24100880/) | 2013 | Review | Curr Opin HIV AIDS | Pipeline for TB-lægemidler, herunder regimer til latent TB-infektion. (Inaktiv TB) |
-| [33400226](https://pubmed.ncbi.nlm.nih.gov/33400226/) | 2021 | Review | Acta Neurol Belg | Opdatering om neurotuberkulose. Ingen delamanid-specifikke data. (Tuberkulom) |
+Det er alene oversigtsartikler og prækliniske arbejder, og ingen af dem er randomiserede forsøg. Nedenfor er de mest relevante.
 
-Litteraturen består udelukkende af kohortestudier og reviews. Der er ingen randomiserede studier med delamanid ved bovin TB.
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [38003836](https://pubmed.ncbi.nlm.nih.gov/38003836/) | 2023 | Oversigtsartikel | Pathogens | Nyere lægemidler som bedaquilin og delamanid har styrket behandlingen af lægemiddelresistent TB hos børn. |
+| [36982277](https://pubmed.ncbi.nlm.nih.gov/36982277/) | 2023 | Oversigtsartikel | Int J Mol Sci | Patogenese, nuværende behandlingsregimer og nye lægemiddelmål ved tuberkulose. |
+| [33837535](https://pubmed.ncbi.nlm.nih.gov/33837535/) | 2021 | Oversigtsartikel | Clin Pharmacol Ther | Behandling af latent og aktiv TB samt lægemidlers bakteriedræbende og sterilisende virkning. |
+| [33319660](https://pubmed.ncbi.nlm.nih.gov/33319660/) | 2021 | Oversigtsartikel | Curr Top Med Chem | Opdatering om resistensmekanismer, nyere anti-TB-lægemidler og behandlingsregimer. |
+| [36915977](https://pubmed.ncbi.nlm.nih.gov/36915977/) | 2022 | Oversigtsartikel | J Zhejiang Univ Med Sci | Fremskridt i diagnostik og behandling af latent tuberkuloseinfektion. |
+| [29580819](https://pubmed.ncbi.nlm.nih.gov/29580819/) | 2018 | Oversigtsartikel | Lancet Infect Dis | Udvikling af nye lægemidler og kortere behandlingsregimer mod TB. |
+| [24100880](https://pubmed.ncbi.nlm.nih.gov/24100880/) | 2013 | Oversigtsartikel | Curr Opin HIV AIDS | Nye kombinationsregimer til TB-sygdom og latent TB-infektion. |
+| [32372202](https://pubmed.ncbi.nlm.nih.gov/32372202/) | 2020 | Oversigtsartikel | Appl Microbiol Biotechnol | Undersøgelsesstoffer og lægemidler med genanvendelsespotentiale i TB-behandling. |
+| [41696339](https://pubmed.ncbi.nlm.nih.gov/41696339/) | 2026 | Præklinisk | ACS Omega | Delamanid og pretomanid er godkendt til TB. Nye akirale 4-nitroimidazoler testet in vitro. |
+| [27151308](https://pubmed.ncbi.nlm.nih.gov/27151308/) | 2016 | Oversigtsartikel | Adv Drug Deliv Rev | Nye lægemiddelklasser mod MDR-TB. |
 
 ---
 
-## Oplysninger om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106493520 | Deltyba | Dispergible tabletter (oral) | Otsuka Novel Products GmbH |
+| 28106493520 | Deltyba (Otsuka Novel Products GmbH) | Dispergible tabletter | Indikationstekst ikke angivet i de indsamlede data |
 
-Den godkendte indikationstekst er ikke tilgængelig i de leverede data.
+---
+
+## Cytotoksicitet
+
+Delamanid er et antibakterielt middel og ikke et antineoplastisk lægemiddel. Afsnittet er derfor udeladt.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke leveret data om advarsler og kontraindikationer fra Lægemiddelstyrelsen. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
-- **Lægemiddelinteraktioner**: Ingen interaktioner fundet i de leverede data.
-- **QT-forlængelse**: Forsøgsvurderingen af PHOENIx peger på QT-forlængelse som et centralt sikkerhedsspørgsmål, især ved samtidig brug af andre QT-aktive lægemidler.
+Der blev ikke fundet interaktioner i de indsamlede data. Der foreligger ingen øvrige sikkerhedsdata. Se det godkendte produktresumé (SmPC) for oplysninger om advarsler, kontraindikationer og interaktioner.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold (bovin tuberkulose)**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Forudsigelsen for bovin TB er biologisk plausibel, men understøttes kun af en genomisk kohorteundersøgelse uden delamanid-data (L4). Scoren på 99,91 % er ikke i sig selv klinisk evidens.
-- Inaktiv tuberkulose (L1, Proceed with Guardrails) har et fase 3-forsøg (NCT03568383), men uden bekræftede resultater endnu. Det bør derfor følges, indtil resultaterne foreligger (forventet 2027).
+Et fase 2/3-forsøg (CRUSH-TB) undersøger delamanid i kortere regimer ved lungetuberkulose, og mekanismen er i overensstemmelse med den godkendte brug ved MDR-TB. Forsøget er endnu ikke afsluttet og omfatter aktiv sygdom, ikke inaktiv/latent TB, så evidensen er kun delvis. De øvrige forudsagte indikationer (bovin tuberkulose, tuberkuloma, tuberkuløs ascites, aviær tuberkulose) bør betragtes som forskningsspørgsmål eller afventes (Hold).
 
 **For at komme videre kræves:**
-- Mekanismedata (MOA) fra DrugBank.
-- Advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé (blokerende mangel for sikkerhedsscreening).
-- Delamanid-specifikke *in vitro*-følsomhedsdata for *M. bovis*.
-- Resultater fra PHOENIx MDR-TB (NCT03568383) og en QT-overvågningsplan for samtidig brug af QT-aktive lægemidler.
-- Data om penetration til centralnervesystemet, hvis tuberkulom skal vurderes videre.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomdefinering kræver klinisk validering, før de kan anvendes.*
+- Resultater fra CRUSH-TB (forventet 2027) og data, der specifikt belyser delamanids rolle i regimet
+- Data om delamanids aktivitet mod ikke-replikerende bakterier og om anvendelse ved latent/inaktiv TB
+- Gennemgang af produktresuméet (SmPC) for advarsler, kontraindikationer og interaktioner, da disse data manglede
+- Oplysninger om virkningsmekanisme fra DrugBank til formel dokumentation
+- Ved tuberkuloma: data om delamanids penetration til centralnervesystemet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Roxithromycin
 parent: Kun modelforudsigelse (L5)
-nav_order: 391
+nav_order: 739
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Roxithromycin: Fra makrolidantibiotikum til lepra
+# Roxithromycin: Fra oprindelig indikation til spedalskhed (leprosy)
 
-## Resumé i få linjer
+## Sammenfatning
 
-Roxithromycin er et makrolidantibiotikum, der markedsføres i Danmark som filmovertrukne tabletter. TxGNN-modellen forudsiger, at det kan være virksomt mod **lepra (leprosy)**. Evidensen består i dag af **5 publikationer** (prækliniske studier og oversigtsartikler) og **ingen registrerede kliniske forsøg**.
+Roxithromycin er et makrolid-antibiotikum, som markedsføres i Danmark som filmovertrukne tabletter. Den oprindelige godkendte indikation fremgår ikke af de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **spedalskhed (leprosy)**.
+Evidensen består af **0 kliniske forsøg** og **5 publikationer**, hvoraf de fleste er laboratorie- og dyreforsøg fra 1988-1991.
 
 ---
 
@@ -41,57 +43,57 @@ Roxithromycin er et makrolidantibiotikum, der markedsføres i Danmark som filmov
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget (godkendt indikationstekst er tom). Roxithromycin er et makrolidantibiotikum |
-| Forudsagt ny indikation | Lepra (leprosy) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for det danske produkt er tom) |
+| Forudsagt ny indikation | Spedalskhed (leprosy) |
 | TxGNN-forudsigelsesscore | 99,70 % |
-| Evidensniveau | L4 (kun prækliniske studier og mekanismestudier) |
-| Status på det danske marked | Markedsført |
+| Evidensniveau | L3 (forsigtigt vurderet; kunne med rette nedgraderes til L4, da evidensen hovedsageligt er prækliniske studier) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (forskningsspørgsmål; ikke klar til klinisk anvendelse) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om lægemidlets virkningsmekanisme i datagrundlaget. Roxithromycin tilhører makrolidgruppen. Makrolider hæmmer bakteriel proteinsyntese ved at binde reversibelt til 50S-ribosomalunderenheden. Roxithromycins effekt mod bakterielle infektioner er veletableret, og mekanismen kan i princippet også gælde *Mycobacterium leprae*, som forårsager lepra.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Roxithromycin tilhører dog makrolidklassen, som hæmmer bakteriers proteinsyntese ved at binde reversibelt til den bakterielle 50S-ribosomunderenhed. Makrolider har veletableret effekt ved en række hudinfektioner, og mekanistisk kan princippet være relevant for infektion med *Mycobacterium leprae*.
 
-Flere af de fundne artikler understøtter dette. Makrolider har vist aktivitet mod *M. leprae* i makrofagkulturer og i musemodeller. I musestudiet fra 1991 var roxithromycin og clarithromycin konsekvent aktive og endda bakteriedræbende, mens erythromycin og azithromycin var inaktive. Clarithromycin var dog bedre end roxithromycin, delvist fordi det opnår højere koncentrationer ved infektionsstedet. En japansk oversigtsartikel beskriver desuden antiinflammatoriske og immunmodulerende egenskaber hos roxithromycin og clarithromycin, hvilket kan have betydning for leprose neuropati.
+Prækliniske studier understøtter en antimykobakteriel virkning. I et musestudie fra 1991 var roxithromycin og clarithromycin konsekvent aktive og baktericide mod *M. leprae* i fodsålsmodellen, mens erythromycin og azithromycin var inaktive. Clarithromycin var dog bedre end roxithromycin, og det er clarithromycin, der oftest er undersøgt ved spedalskhed. Data specifikt for roxithromycin er derfor begrænsede.
 
-Begrænsningen er, at flere titler omtaler makrolider som klasse, så roxithromycin-specifikke data kan ikke bekræftes alene ud fra titlerne. TxGNN-scoren er en modelforudsigelse og ikke klinisk evidens. Roxithromycin bør som minimum sammenlignes direkte med clarithromycin, før man går videre.
-
-**Øvrige forudsigelser:** De andre forudsigelser fra modellen er hypertrikose (herunder Ambras-type), et misdannelsessyndrom med tand-/parodontal komponent og Dandy-Walker-syndrom. De vurderes som sandsynlige artefakter i vidensgrafen. Der er hverken forsøg eller relevant litteratur, og ingen plausibel mekanisme forbinder en makrolid med disse tilstande. Litteraturen for det parodontale syndrom handler om almindelig parodontitis og er ikke specifik for roxithromycin eller syndromet. De er derfor sat til "Hold" (evidensniveau L5).
+En japansk oversigt fra 1999 beskriver desuden, at roxithromycin og clarithromycin har antiinflammatoriske og immunmodulerende egenskaber, hvilket potentielt kan være relevant for spedalskhedens nerveskader. Der foreligger ingen kliniske data fra mennesker.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Prækliniske dyrestudier (mus) | Antimicrob Agents Chemother | Roxithromycin og clarithromycin var konsekvent aktive og bakteriedræbende mod *M. leprae* i museFodpuder. Erythromycin og azithromycin var inaktive. Clarithromycin var bedre end roxithromycin |
-| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | Prækliniske studier (in vitro og in vivo) | Antimicrob Agents Chemother | Sammenligning af nyere makroliders aktivitet mod *M. leprae* in vitro og i mus ud fra serumkoncentrationer |
-| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | Prækliniske studier (in vitro) | Antimicrob Agents Chemother | Screening af over 25 antimikrobielle stoffer mod *M. leprae* i musemakrofager via hæmning af fenolisk glykolipid I-syntese |
-| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Oversigtsartikel | Nihon Hansenbyo Gakkai Zasshi | Clarithromycin, roxithromycin, minocyclin og fosfomycin har antiinflammatorisk og immunmodulerende virkning samt aktivitet mod *M. leprae*. Relevant for kontrol af leprose perifer neuropati |
-| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Oversigtsartikel | Am J Clin Dermatol | Vejledning i valg og brug af makrolider ved hudinfektioner. Makrolider hæmmer proteinsyntesen og har dokumenteret effekt ved flere hudinfektioner |
+| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Dyrestudie (mus) | Antimicrob Agents Chemother | Roxithromycin og clarithromycin var konsekvent aktive og baktericide mod *M. leprae* i musefodsåler; clarithromycin var bedst. Erythromycin og azithromycin var inaktive. |
+| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | In vitro/dyrestudie | Antimicrob Agents Chemother | Sammenligning af nyere makroliders aktivitet mod *M. leprae* in vitro og i mus. |
+| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | In vitro-studie | Antimicrob Agents Chemother | Over 25 antimikrobielle stoffers effekt på *M. leprae* i muse-makrofager. |
+| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Oversigtsartikel | Nihon Hansenbyo Gakkai Zasshi | Makrolider, herunder roxithromycin, har antiinflammatorisk og immunmodulerende virkning og aktivitet mod *M. leprae*; diskuteres i relation til spedalskhedsneuropati. |
+| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Oversigtsartikel | Am J Clin Dermatol | Vejledning i valg og brug af makrolider ved hudinfektioner. |
 
 ---
 
-## Information om det danske marked
+## Oplysninger om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103246301 | Roximstad (STADA Arzneimittel AG) | Filmovertrukne tabletter (oral) | Ikke oplyst i datagrundlaget |
+| 28103246301 | Roximstad (STADA Arzneimittel AG) | Filmovertrukne tabletter | Ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret én farmakologisk interaktion: roxithromycin binder til motilin-receptoren (MLNR), hvilket er et farmakologisk målprotein og ikke en klassisk interaktion mellem to lægemidler.
+
+For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -100,16 +102,19 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen for lepra er begrænset til præklinisk arbejde fra 1980'erne og 1990'erne og to oversigtsartikler, uden registrerede kliniske forsøg. I musestudiet var clarithromycin desuden bedre end roxithromycin. Forudsigelsen er biologisk plausibel og bør behandles som et forskningsspørgsmål, ikke som en klinisk anbefaling.
+Evidensen er næsten udelukkende prækliniske studier (in vitro og mus) fra 1988-1991 uden kliniske forsøg på mennesker, og clarithromycin ser ud til at være det mere effektive makrolid mod spedalskhed. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer for sikkerhedsscreening.
 
-**For at komme videre kræves følgende:**
-- Roxithromycin-specifikke data (eller direkte sammenligning med clarithromycin) for aktivitet mod *M. leprae*
-- Oplysninger om lægemidlets virkningsmekanisme (MOA) fra DrugBank
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsscreening
-- Den godkendte indikationstekst for Roximstad, så den oprindelige indikation kan dokumenteres
-- Eventuelt et eksplorativt klinisk forsøg, hvis præklinisk evidens bekræftes
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Data om virkningsmekanisme (f.eks. fra DrugBank)
+- Bekræftelse af den oprindelige godkendte indikation
+- Humane data (retrospektive studier eller kliniske forsøg) og en sammenligning med clarithromycin og de gældende standardregimer mod spedalskhed
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
+---
+
+## Andre forudsigelser med lav evidens
+
+De øvrige forudsigelser (hypertrichose, misdannelsessyndrom med tand-/paradentalkomponent, Ambras-type hypertrichosis universalis congenita og syndrom med Dandy-Walker-misdannelse) har høje TxGNN-scorer (ca. 99,3-99,5 %), men hverken kliniske forsøg eller litteratur og ingen kendt mekanistisk forbindelse. De er vurderet som **Hold** (evidensniveau L5).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Dibotermin Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 142
+nav_order: 260
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dibotermin alfa: Fra knoglerelaterede anvendelser til esotropi
+# Dibotermin alfa: Fra intervertebral diskusdegeneration og tibiafraktur til esotropi
 
 ## Resumé i én sætning
 
-Dibotermin alfa (rekombinant humant BMP-2) er et lokalt applikeret, knogledannelsesfremmende middel, som markedsføres til knoglerelaterede anvendelser som spinal fusion, tibiafraktur og alveolær kam-/sinusopbygning.
-TxGNN-modellen forudsiger, at det kan have effekt ved **esotropi** (indadvendt skelen).
-Der er dog **ingen kliniske forsøg og ingen relevant litteratur**, der understøtter denne retning, og forudsigelsen er alene modelbaseret.
+Dibotermin alfa (rekombinant humant BMP-2) bruges oprindeligt til at fremme knogledannelse ved degenerativ lidelse i mellemvirvelskiven og ved tibiafraktur.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **esotropi** (skelen indad), men der foreligger **ingen kliniske forsøg** og **ingen litteratur** for denne indikation. Forudsigelsen er udelukkende beregnet af modellen.
 
 ---
 
@@ -43,7 +42,7 @@ Der er dog **ingen kliniske forsøg og ingen relevant litteratur**, der underst�
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Knoglerelaterede anvendelser (spinal fusion, tibiafraktur, alveolær kam-/sinusopbygning). Indikationsteksten i den danske registrering er ikke udfyldt. |
+| Oprindelig indikation | Degenerativ lidelse i mellemvirvelskiven og tibiafraktur (fra TxGNN-vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | Esotropi |
 | TxGNN-forudsigelsesscore | 99,97 % |
 | Evidensniveau | L5 |
@@ -53,43 +52,47 @@ Der er dog **ingen kliniske forsøg og ingen relevant litteratur**, der underst�
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der er ikke fastlagt nogen plausibel mekanistisk sammenhæng mellem dibotermin alfa og esotropi. Dibotermin alfa er en rekombinant form af knoglemorfogenetisk protein 2 (BMP-2) og anvendes lokalt som implantat for at fremme knogledannelse. Der foreligger ingen detaljerede data om virkningsmekanismen i evidensgrundlaget.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Dibotermin alfa er rekombinant humant knoglemorfogenetisk protein 2 (BMP-2), som virker på signalveje, der driver knogledannelse. Det er velkendt for sin lokale anvendelse ved komplekse frakturer og spinal fusion.
 
-Esotropi er en øjenmuskel- og synsbetinget tilstand og har ikke umiddelbart noget tilfælles med de knoglerelaterede anvendelser. Den høje score (99,97 %) kommer fra modellens grafbaserede mønstergenkendelse. Der er ikke fundet forsøg eller publikationer, der bekræfter den.
+Esotropi er en øjenmuskel- eller neuro-oftalmologisk fejlstilling af øjnene. Der er ikke identificeret en plausibel mekanistisk sammenhæng mellem osteogen BMP-2-signalering og denne tilstand. Den høje score på 99,97 % er en ren grafbaseret forudsigelse uden understøttende forsøg eller publikationer og bør ikke tolkes som klinisk evidens.
 
-Modellen forudsiger desuden flere undertyper af brystkræft (HER2-positiv, progesteronreceptor-positiv, luminal A/B og normal-lignende subtype) med scores på ca. 99,8-99,9 %. Her er koblingen indirekte og usikker. BMP-2-signalering har i prækliniske studier vist kontekstafhængige, både tumorfremmende og tumorhæmmende effekter. Den mulige tumorfremmende effekt er en sikkerhedsbekymring, der skal afklares, før en terapeutisk hypotese overhovedet kan overvejes. Disse forudsigelser har ligeledes ingen understøttende evidens.
+**Øvrige forudsigelser fra modellen:** Modellen peger også på flere brystkræftundertyper (HER2-positiv brystkarcinom, normal breast-like subtype, progesteronreceptor-positiv brystkræft og luminal A/B, scorer ca. 99,8-99,9 %). Der er heller ikke her et belæg for en terapeutisk rolle. BMP-2 kan i visse sammenhænge fremme tumorcellers migration eller invasion, så der er en teoretisk sikkerhedsbekymring (mulig tumorfremmende effekt).
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for esotropi.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for esotropi.
+Der er på nuværende tidspunkt ingen relateret litteratur for esotropi.
 
-For brystkræftindikationen "breast tumor luminal A or B" blev der hentet 19 publikationer (10 vist), men de er støj fra søgning på bogstavet "B". De handler om B-celler, hepatitis B-vacciner, HLA-B-polymorfi og bakteriochlorofyl b. Ingen af dem omhandler dibotermin alfa, BMP-2 eller brystkræft, og de er derfor ikke medtaget som evidens.
+Til information findes der for brystkræftundertypen luminal A/B én publikation, som dog kun vedrører knogleceller:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [27441597](https://pubmed.ncbi.nlm.nih.gov/27441597/) | 2016 | Præklinisk (in vitro genekspression) | Eur Surg Res | BMP-2 understøtter knogledannelse ved komplekse frakturer, men op til 33 % af patienterne responderer ikke. Studiet omhandler humane osteoblaster, ikke brysttumorer, og giver ikke klinisk evidens for brystkræft. |
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103237101 | InductOs | Pulver, solvens og matrix til matrix til implantation | Medtronic BioPharma B.V. |
+| 28103237101 | InductOs (Medtronic BioPharma B.V.) | Pulver, solvens og matrix til matrix til implantation | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Tumorrisiko:** BMP-2-signalering kan have tumorfremmende effekter i prækliniske brystkræftmodeller. Dette skal afklares, før en brystkræftindikation kan overvejes.
+Der er ikke tilgængelige data om advarsler, kontraindikationer eller interaktioner i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Konkrete advarsler, kontraindikationer og interaktioner er ikke tilgængelige i evidensgrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er dog en teoretisk bekymring ved brug i brystkræft, hvor BMP-2 potentielt kan stimulere tumorvækst.
 
 ---
 
@@ -98,16 +101,14 @@ Konkrete advarsler, kontraindikationer og interaktioner er ikke tilgængelige i 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en grafbaseret model (evidensniveau L5), uden kliniske forsøg, relevant litteratur eller en plausibel mekanistisk kobling. Det er ikke muligt at gå videre til sikkerhedsscreening, fordi produktresuméets advarsler og kontraindikationer mangler.
+Forudsigelsen om esotropi bygger udelukkende på en grafbaseret model (evidensniveau L5), uden kliniske forsøg, litteratur eller plausibel mekanistisk forklaring. For brystkræftindikationerne er der desuden en teoretisk sikkerhedsrisiko.
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (SmPC) for InductOs fra Lægemiddelstyrelsen (blokerende datamangel).
-- Indhent data om virkningsmekanisme fra DrugBank for at kunne vurdere en mulig mekanistisk kobling.
-- Gennemfør en målrettet litteratursøgning (fx BMP-2 kombineret med esotropi/strabismus), da den nuværende søgning gav irrelevante resultater.
-- Vurder administrationsvejens forenelighed, da produktet er en implantationsmatrix til knoglelokalisation.
-- Afklar sikkerhedsspørgsmålet om BMP-2 og tumorvækst, før brystkræftforudsigelserne kan overvejes.
-
-*Dette resultat er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Præklinisk eller mekanistisk evidens for en biologisk sammenhæng mellem BMP-2 og esotropi
+- Vurdering af administrationsvej, da InductOs er et implantat til lokal knoglebrug
+- Sikkerhedsvurdering vedrørende tumorfremmende potentiale, før brystkræftindikationer overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

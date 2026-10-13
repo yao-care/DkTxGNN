@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Triptorelin
-parent: Moderat evidens (L3-L4)
-nav_order: 456
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 861
+evidence_level: L5
 indication_count: 10
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Triptorelin: Fra GnRH-agonist til hypertrikose
+# Triptorelin: Fra den oprindelige indikation til hypertrikose
 
-## Resumé i få sætninger
+## Sammenfatning i én sætning
 
-Triptorelin er en GnRH-agonist, der dæmper kroppens produktion af kønshormoner, og som i Danmark er markedsført som Gonapeptyl. TxGNN-modellen forudsiger, at det kan have effekt ved **hypertrikose**, men forudsigelsen er kun understøttet af **0 kliniske forsøg** og **1 casebeskrivelse**, som ikke viser en behandlingseffekt af triptorelin.
+Triptorelin er en GnRH-agonist (gonadotropinfrigivende hormon), som markedsføres i Danmark som Gonapeptyl. Den oprindelige indikationstekst er ikke tilgængelig i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **hypertrikose**, men der er **0 kliniske forsøg** og kun **1 publikation** (en case report, som ikke viser nogen behandlingseffekt af triptorelin).
 
 ---
 
@@ -41,61 +41,53 @@ Triptorelin er en GnRH-agonist, der dæmper kroppens produktion af kønshormoner
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Hypertrikose |
-| TxGNN-score | 99,997 % |
-| Evidensniveau | L4 |
-| Status i Danmark | Markedsført |
+| Oprindelig indikation | Ikke tilgængelig i de indsamlede data (indikationsteksten i markedsføringstilladelsen er tom) |
+| Forudsagt ny indikation | Hypertrikose |
+| TxGNN-forudsigelsesscore | 99,997 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Triptorelin er en GnRH-agonist. Efter en indledende stimulering desensibiliseres receptoren, og produktionen af androgener fra kønskirtlerne falder. Der foreligger i øjeblikket ikke detaljerede mekanismedata i evidenspakken, så beskrivelsen bygger på lægemiddelklassens kendte virkning.
+Der foreligger ikke detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Triptorelin er kendt som en GnRH-agonist, der hæmmer frigivelsen af gonadotropiner og dermed reducerer produktionen af kønshormoner (androgener og østrogener).
 
-Den biologiske sammenhæng er svag. Hypertrikose er overdreven hårvækst, der ikke er androgenafhængig. Det adskiller den fra androgendrevet hirsutisme, hvor hormonhæmning kunne give mening. Den eneste litteratur er en casebeskrivelse af ciclosporin-induceret hypertrikose hos en transkvinde, som samtidig fik estradiol og triptorelin. Ciclosporin er den sandsynlige årsag, og rapporten viser ikke, at en GnRH-agonist behandler eller forårsager hypertrikose. Koblingen mellem lægemiddel og sygdom hviler derfor alene på den høje modelscore.
+En sammenhæng med hypertrikose er kun biologisk tænkelig via nedsat androgen- eller østrogensignalering. Hypertrikose (medikamentelt udløst eller medfødt) er imidlertid generelt ikke drevet af gonadale steroider, og hirsutisme (androgenafhængig) er en anden tilstand. Forudsigelsen er derfor primært et resultat af modellens vidensgraf og ikke af en påvist mekanistisk sammenhæng.
 
----
-
-## Dokumentation fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+De øvrige forudsagte indikationer (Ambras-type medfødt universel hypertrikose, misdannelsessyndromer med tand- eller parodontal komponent, syndromer med Dandy-Walker-misdannelse samt isolerede genetiske hårskaftsabnormiteter) har ingen plausibel mekanistisk forbindelse til GnRH-agonisme og er sandsynligvis artefakter fra grafpropagering. Der er hverken forsøg eller litteratur til at understøtte dem.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Casebeskrivelse | Cureus | Generaliseret hypertrikose hos en 25-årig transkvinde med svær plaque-psoriasis efter start på ciclosporin, mens hun fik estradiol og triptorelin. Hypertrikosen opstod trods androgensuppression og tilskrives ciclosporin. |
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report | Cureus | En 25-årig transkvinde med svær plaque-psoriasis udviklede generaliseret hypertrikose efter start på ciclosporin, mens hun samtidig fik østradiol og triptorelin. Hypertrikose beskrives som en bivirkning af ciclosporin, ikke som en behandlingseffekt af triptorelin. |
+
+Der er ingen kliniske forsøg registreret for denne indikation.
 
 ---
 
-## Andre forudsagte kandidater
+## Information om det danske marked
 
-Modellen forudsiger yderligere fire indikationer. Ingen af dem har kliniske forsøg, og ingen har litteratur, der understøtter koblingen til triptorelin.
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Ambras-type hypertrichosis universalis congenita | 99,995 % | L5 | Sjælden medfødt genetisk lidelse i hårfollikeludviklingen. Androgensuppression har ingen kendt mekanisme her. |
-| Misdannelsessyndrom med tand- og/eller parodontiekomponent | 99,994 % | L5 | De 20 fundne artikler er generel parodontitislitteratur uden omtale af triptorelin eller GnRH-agonister. Søgningen matchede kun på sygdomsbegrebet, så antallet understøtter ikke forudsigelsen. |
-| Syndrom med Dandy-Walker-malformation som hovedtræk | 99,994 % | L5 | Strukturel medfødt misdannelse i bageste skudehule. Hormonsuppression har ingen plausibel behandlingsmekanisme. |
-| Isoleret genetisk hårskaftsabnormitet | 99,993 % | L5 | Strukturelle defekter i hårfiberen. Forudsigelsen skyldes sandsynligvis delte hårfænotyper i vidensgrafen. |
-
----
-
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104615709 | Gonapeptyl | Injektionsvæske, opløsning | Ferring Lægemidler A/S |
+| MA 28104615709 | Gonapeptyl (Ferring Lægemidler A/S) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner** (100 interaktioner fundet; de vigtigste er vist her):
+- **Større (Major):** dolasetron.
+- **Moderate:** bl.a. antidiabetika (acarbose, metformin, pioglitazon, glimepirid, chlorpropamid, canagliflozin, dapagliflozin, empagliflozin, alogliptin, saxagliptin, albiglutid, dulaglutid), famotidin, loperamid, bisacodyl, picosulfat, polyethylenglycol med elektrolytter, clarithromycin og palonosetron.
+
+**Sygdomme markeret som kontraindikationer i vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke fra produktresuméets tekst): hypertensive lidelser/hypertension, nyresygdom, pyoureter, leversygdom, galdeblæresygdom, hyperglykæmi, diabetes mellitus, diabetisk ketoacidose, fedme (inkl. monogen fedme), urinvejsobstruktion og rygmarvssygdom.
+
+Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -104,15 +96,12 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en høj modelscore. Den eneste publikation er en casebeskrivelse, hvor ciclosporin er den sandsynlige årsag, og for de øvrige kandidater findes hverken forsøg eller relevant litteratur. Der er ingen plausibel mekanisme, der forbinder hormonsuppression med ikke-androgenafhængig hypertrikose.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg. Den eneste publikation er en case report, hvor hypertrikose er en bivirkning af et andet lægemiddel (ciclosporin), og den viser ingen gavnlig effekt af triptorelin. Der er heller ingen plausibel mekanisme.
 
-**For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendte indikationer
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Systematisk litteratursøgning, der kombinerer triptorelin/GnRH-agonister med hypertrikose, for at afklare, om der overhovedet findes et biologisk eller klinisk signal
-- Manuel vurdering af, om hormonrelaterede hårvækstlidelser (fx hirsutisme) er en mere rimelig målindikation end de nuværende kandidater
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation). Dette er markeret som en blokerende datamangel for sikkerhedsscreening.
+- Data om virkningsmekanisme (f.eks. fra DrugBank).
+- Mekanistiske eller prækliniske studier, der kan understøtte en rolle i hypertrikose, samt relevante kliniske data, før en videre vurdering er mulig.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

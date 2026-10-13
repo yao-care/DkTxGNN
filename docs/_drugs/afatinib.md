@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Afatinib
-parent: Kun modelforudsigelse (L5)
-nav_order: 18
-evidence_level: L5
+parent: Høj evidens (L1-L2)
+nav_order: 26
+evidence_level: L2
 indication_count: 10
 ---
 
 # Afatinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Afatinib: Fra EGFR-mutationspositiv lungekræft til HER2-positiv brystkræft
+# Afatinib: Fra ikke-småcellet lungekræft til HER2-positiv brystkræft
 
-## Resumé
+## Resumé i én sætning
 
-Afatinib er en oral tyrosinkinasehæmmer, som er markedsført til lungekræft (NSCLC). Litteraturen i Evidence Pack'en beskriver afatinib som godkendt til NSCLC. TxGNN-modellen forudsiger, at afatinib kan være virksomt ved **HER2-positiv brystkræft**. Der findes **10 kliniske forsøg** og **19 publikationer**, men de kliniske data bekræfter ikke effekt, og anbefalingen er **Hold**.
+Afatinib er en oral tyrosinkinasehæmmer, som i Danmark er markedsført som Giotrif. Lægemiddelstyrelsens licensdata indeholder ingen angivet indikationstekst. TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **HER2-positiv brystkræft**, og der er til dette formål **4 kliniske fase 2-forsøg** og **flere publikationer** (bl.a. et randomiseret fase 3-forsøg, LUX-Breast 1, der hører til beslægtede brystkræftmærkater).
 
 ---
 
@@ -41,63 +41,51 @@ Afatinib er en oral tyrosinkinasehæmmer, som er markedsført til lungekræft (N
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data. Litteraturen nævner godkendelse til NSCLC (PMID 24870559). |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (anvendelse ved lungekræft er kendt fra litteraturen, men ikke bekræftet i Lægemiddelstyrelsens licenstekst) |
 | Forudsagt ny indikation | HER2-positiv brystkræft |
-| TxGNN-prædiktionsscore | 98,65 % |
-| Evidensniveau | L2 (se note nedenfor) |
+| TxGNN-forudsigelsesscore | 98,65 % |
+| Evidensniveau | L2 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
-
-**Note om evidensniveau:** Evidence Pack'en angiver L1. Den indeholder dog kun ét afsluttet fase 3-forsøg (LUX-Breast 1). L1 kræver mindst to, så niveauet er her sat til L2. Fase 3-evidensen viser desuden, at et forsøg er gennemført, ikke at der er påvist gavn.
+| Anbefalet beslutning | Proceed with Guardrails |
 
 ---
 
-## Hvorfor er denne prædiktion rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Afatinib er en irreversibel blokker af ErbB-familien (EGFR, HER2 og HER4). HER2-drevet brystkræft er derfor et biologisk plausibelt mål. Detaljerede mekanismedata fra DrugBank mangler, så beskrivelsen bygger på afatinibs kendte klassificering.
+Afatinib er en irreversibel blokker af ErbB-familien og hæmmer kinaseaktiviteten i EGFR, HER2 og HER4. Data om virkningsmekanisme fra DrugBank mangler i de indsamlede data; beskrivelsen her bygger på den tilgængelige litteratur og forsøgsvurderinger.
 
-Den kliniske begrundelse er, at resistens over for trastuzumab og lapatinib kan skyldes andre ErbB-familiemedlemmer. Præklinisk arbejde i pakken (PMID 30062574 og 33122343) tyder på, at HER-rettede tyrosinkinasehæmmere kan forstærke effekten af trastuzumab og pertuzumab.
+HER2-positiv brystkræft drives af HER2-amplifikation eller -overekspression, så sammenhængen mellem lægemidlets mål og sygdommen er mekanistisk direkte. Resistens mod trastuzumab og lapatinib kan skyldes andre ErbB-familiemedlemmer, hvilket er den biologiske begrundelse for bredere ErbB-blokade med afatinib.
 
-De kliniske data støtter dog ikke en gavnlig effekt. Det fase 3-forsøg, der sammenlignede afatinib + vinorelbin med trastuzumab + vinorelbin (LUX-Breast 1, NCT01125566, n=508), synes at have været negativt. Ifølge Evidence Pack'en bygger dette på baggrundsviden og ikke på de leverede data: Forsøget skulle ikke have vist overlegenhed over trastuzumab og skulle have givet mere toksicitet (diarré og udslæt). **Dette skal verificeres i den primære publikation.**
+Evidensen er dog begrænset. Der findes ingen fase 3-dokumentation for afatinib ved denne indikation, og den publicerede effekt har været beskeden sammenlignet med etablerede anti-HER2-midler (trastuzumab, lapatinib, T-DM1). Forudsigelsen bør derfor betragtes som et forskningsspørgsmål frem for en behandlingsanbefaling.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste fund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT01125566](https://clinicaltrials.gov/study/NCT01125566) (LUX-Breast 1) | Fase 3 | Afsluttet | 508 | Afatinib + vinorelbin vs. trastuzumab + vinorelbin ved metastatisk HER2+ brystkræft efter ét tidligere trastuzumabforløb. Udfaldet synes negativt (ikke verificeret). |
-| [NCT01441596](https://clinicaltrials.gov/study/NCT01441596) (LUX-Breast 3) | Fase 2 | Afsluttet | 121 | Randomiseret. Afatinib alene eller med vinorelbin vs. investigators valg ved HER2+ brystkræft med progredierende hjernemetastaser. |
-| [NCT04158947](https://clinicaltrials.gov/study/NCT04158947) | Fase 2 | Ukendt | 130 | Randomiseret. Afatinib + T-DM1 vs. T-DM1 alene ved HER2+ brystkræft med refraktære hjernemetastaser. Ingen resultater tilgængelige. |
-| [NCT01594177](https://clinicaltrials.gov/study/NCT01594177) | Fase 2 | Afsluttet | 65 | Neoadjuverende dobbeltblokade med afatinib + trastuzumab ved lokalt fremskreden eller operabel HER2+ brystkræft. |
-| [NCT00431067](https://clinicaltrials.gov/study/NCT00431067) | Fase 2 | Afsluttet | 41 | Enkeltarmet. Afatinib ved metastatisk HER2+ brystkræft efter trastuzumabsvigt. |
-| [NCT00826267](https://clinicaltrials.gov/study/NCT00826267) | Fase 2 | Afsluttet | 29 | Randomiseret. Neoadjuverende afatinib vs. trastuzumab vs. lapatinib. Meget lille undersøgelse. |
-| [NCT01320280](https://clinicaltrials.gov/study/NCT01320280) | Fase 2 | Afbrudt | 29 | Afatinib ved HER2+ **prostatakræft**, altså ikke brystkræft. Afbrudt tidligt. |
-| [NCT01531764](https://clinicaltrials.gov/study/NCT01531764) | Fase 2 | Afbrudt | 2 | Afatinib + vinorelbin ved mellemhøj HER2-ekspression. Kun 2 patienter, ingen brugbar evidens. |
-| [NCT00950742](https://clinicaltrials.gov/study/NCT00950742) | Fase 1 | Afsluttet | 18 | Sikkerhedsstudie af afatinib + trastuzumab. Understøtter kun tolerabilitet. |
-| [NCT02438722](https://clinicaltrials.gov/study/NCT02438722) | Fase 2/3 | Aktiv, rekrutterer ikke | 174 | Afatinib + cetuximab vs. afatinib ved EGFR-mutationspositiv NSCLC. Sandsynligvis en fejlmatch og ikke relevant for brystkræft. |
+| [NCT04158947](https://clinicaltrials.gov/study/NCT04158947) | Fase 2 | Ukendt | 130 | Randomiseret; afatinib + T-DM1 vs. T-DM1 alene ved HER2+ brystkræft med aktive, refraktære hjernemetastaser. Resultater ikke bekræftet |
+| [NCT01594177](https://clinicaltrials.gov/study/NCT01594177) | Fase 2 | Afsluttet | 65 | Neoadjuverende dobbeltblokade med afatinib og trastuzumab sammen med taxan-antracyklin-kemoterapi ved lokalavanceret/operabel brystkræft |
+| [NCT01441596](https://clinicaltrials.gov/study/NCT01441596) | Fase 2 | Afsluttet | 121 | LUX-Breast 3: afatinib alene eller med vinorelbin vs. investigators valg ved HER2+ brystkræft med progredierende hjernemetastaser |
+| [NCT00431067](https://clinicaltrials.gov/study/NCT00431067) | Fase 2 | Afsluttet | 41 | Enkeltarmet forsøg med BIBW 2992 (afatinib) ved HER2+ metastatisk brystkræft efter trastuzumabsvigt |
 
 ---
 
 ## Litteraturevidens
 
-Pakken indeholder 19 publikationer for denne indikation. De er registreret under en dublet-post for samme sygdom (rang 2), og de 10 mest relevante er vist her.
-
-| PMID | År | Type | Tidsskrift | Vigtigste fund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [35138529](https://pubmed.ncbi.nlm.nih.gov/35138529/) | 2022 | Fase 2-forsøg (klassificeret som RCT) | Breast Cancer Res Treat | Afatinib alene og med vinorelbin eller paclitaxel ved HER2+ brystkræft efter svigt af trastuzumab og/eller lapatinib. Pakken beskriver begrænset aktivitet. |
-| [35653982](https://pubmed.ncbi.nlm.nih.gov/35653982/) | 2022 | Systematisk review/metaanalyse | ESMO Open | Effekt af tyrosinkinasehæmmere ved HER2+ brystkræft med hjernemetastaser. |
-| [24080156](https://pubmed.ncbi.nlm.nih.gov/24080156/) | 2014 | Systematisk review | Cancer Treat Rev | Dobbeltblokade ved HER2-positiv brystkræft. |
-| [29772459](https://pubmed.ncbi.nlm.nih.gov/29772459/) | 2018 | Review | Cancer Treat Rev | Tyrosinkinasehæmmere ved hjernemetastaser ved HER2+ brystkræft. |
-| [24870559](https://pubmed.ncbi.nlm.nih.gov/24870559/) | 2014 | Review | Expert Opin Investig Drugs | Afatinib ved brystkræft. Aktiviteten var på det tidspunkt stadig under evaluering. |
-| [24787047](https://pubmed.ncbi.nlm.nih.gov/24787047/) | 2014 | Review | Expert Opin Pharmacother | Nye proteinkinasehæmmere ved brystkræft: afatinib og neratinib. |
-| [30350178](https://pubmed.ncbi.nlm.nih.gov/30350178/) | 2018 | Fase 1-forsøg | Cancer Chemother Pharmacol | Afatinib + trastuzumab hver 3. uge med optimeret håndtering af diarré. |
-| [33122343](https://pubmed.ncbi.nlm.nih.gov/33122343/) | 2021 | Præklinisk | Clin Cancer Res | Effekt af HER-rettede tyrosinkinasehæmmere på antistofafhængig cellemedieret cytotoksicitet. |
-| [30062574](https://pubmed.ncbi.nlm.nih.gov/30062574/) | 2019 | Præklinisk | Invest New Drugs | Tyrosinkinasehæmmere forstærker effekten af trastuzumab og pertuzumab i cellelinjer. |
-| [23692263](https://pubmed.ncbi.nlm.nih.gov/23692263/) | 2013 | Review | Curr Med Res Opin | Kardiotoksicitet ved nyere HER2-rettede behandlinger. |
-
-**Bemærkning om datakvalitet:** Publikationen PMID 35138529 har i titlen betegnelsen LUX-Breast 2. Evidence Pack'en knytter den til NCT01441596 (LUX-Breast 3). LUX-Breast 2 svarer til NCT01271725. Koblingen bør kontrolleres.
+| [35138529](https://pubmed.ncbi.nlm.nih.gov/35138529/) | 2022 | RCT (fase 2) | Breast Cancer Res Treat | LUX-Breast 2: afatinib alene og med vinorelbin eller paclitaxel efter svigt af tidligere HER2-rettet behandling |
+| [26822398](https://pubmed.ncbi.nlm.nih.gov/26822398/) | 2016 | RCT (fase 3) | Lancet Oncol | LUX-Breast 1: afatinib + vinorelbin vs. trastuzumab + vinorelbin efter progression på trastuzumab (registreret under de beslægtede PR-positive/negative mærkater) |
+| [25537159](https://pubmed.ncbi.nlm.nih.gov/25537159/) | 2015 | Randomiseret fase 2 | Clin Breast Cancer | Neoadjuverende afatinib vs. trastuzumab vs. lapatinib ved lokalavanceret HER2+ brystkræft |
+| [35653982](https://pubmed.ncbi.nlm.nih.gov/35653982/) | 2022 | Metaanalyse | ESMO Open | Effekt af tyrosinkinasehæmmere ved HER2+ brystkræft med hjernemetastaser |
+| [29772459](https://pubmed.ncbi.nlm.nih.gov/29772459/) | 2018 | Review | Cancer Treat Rev | Tyrosinkinasehæmmere ved hjernemetastaser ved HER2+ brystkræft |
+| [24870559](https://pubmed.ncbi.nlm.nih.gov/24870559/) | 2014 | Review | Expert Opin Investig Drugs | Afatinib ved brystkræft |
+| [34280871](https://pubmed.ncbi.nlm.nih.gov/34280871/) | 2021 | Review | Eur J Cancer | Tyrosinkinasehæmmeres rolle ved HER2+ metastatisk brystkræft |
+| [23692263](https://pubmed.ncbi.nlm.nih.gov/23692263/) | 2013 | Review | Curr Med Res Opin | Kardiotoksicitet ved nyere HER2-rettede behandlinger |
+| [30062574](https://pubmed.ncbi.nlm.nih.gov/30062574/) | 2019 | Præklinisk | Invest New Drugs | HER-rettede tyrosinkinasehæmmere (bl.a. afatinib) forstærker effekten af trastuzumab og pertuzumab i cellelinjer |
+| [24127221](https://pubmed.ncbi.nlm.nih.gov/24127221/) | 2013 | Review | Drugs | Optimal sekventiel anvendelse af anti-HER2-behandling |
 
 ---
 
@@ -105,7 +93,7 @@ Pakken indeholder 19 publikationer for denne indikation. De er registreret under
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105175612 | Giotrif (Boehringer Ingelheim Int. GmbH) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
+| 28105175612 | Giotrif (Boehringer Ingelheim Int. GmbH) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
@@ -113,35 +101,49 @@ Pakken indeholder 19 publikationer for denne indikation. De er registreret under
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (irreversibel ErbB-familiehæmmer, tyrosinkinasehæmmer) |
+| Klassifikation | Målrettet behandling (irreversibel ErbB-familiehæmmer, tyrosinkinasehæmmer) |
 | Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC). Litteraturen fremhæver behov for håndtering af diarré (PMID 30350178) og opmærksomhed på kardiotoksicitet (PMID 23692263). |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale regler for håndtering af cytostatika |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC); litteraturen nævner diarré, udslæt og mulig kardiotoksicitet som vigtige overvejelser |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske/antineoplastiske lægemidler |
+
+Der foreligger ikke specifikke toksicitetsdata i de indsamlede data. Se produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i Evidence Pack'en. Interaktionsopslaget gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+**Lægemiddelinteraktioner:** Der er i alt 100 registrerede interaktioner (kilde: DDInter). Eksempler fra de indsamlede data:
+
+- **Alvorlig (Major):** Aminolevulinsyre
+- **Moderat:** bl.a. clarithromycin, erythromycin, ketoconazol, cobicistat, tacrolimus, dexamethason, abirateron, alpelisib, eliglustat, naltrexon, rolapitant, quinin, ivacaftor
+- **Mindre (Minor):** prucalopride
+
+Mange af de moderate interaktioner involverer sandsynligvis hæmmere af transportproteiner eller CYP-systemet; dette bør verificeres i produktresuméet.
+
+**Øvrige overvejelser fra litteraturen:** Diarré, udslæt og potentiel kardiotoksicitet ved HER2-rettede midler.
+
+Der foreligger ingen data om advarsler og kontraindikationer fra produktresuméet. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Mekanismen er plausibel, og der findes fase 3-evidens. Fase 3-forsøget (LUX-Breast 1) synes dog negativt med højere toksicitet, og fase 2-forsøgene er små, enkeltarmede eller afbrudte. Der er ikke påvist klinisk gavn.
+Fire fase 2-forsøg (herunder to afsluttede, direkte relevante studier) og et randomiseret fase 3-forsøg i beslægtede brystkræftmærkater viser klinisk aktivitet, og mekanismen er direkte. Effekten har dog været beskeden sammenlignet med etablerede anti-HER2-midler, og der mangler fase 3-dokumentation for selve indikationen. Anbefalingen er derfor at behandle det som et forskningsspørgsmål.
 
 **For at komme videre kræves:**
-- Verifikation af LUX-Breast 1-resultaterne (effekt og toksicitet) i den primære publikation.
-- Korrektion af koblingen mellem NCT-numre og PMID 35138529 (LUX-Breast 2 og 3).
-- Godkendt indikationstekst og sikkerhedsdata fra Lægemiddelstyrelsens produktresumé (SmPC).
-- Mekanismedata fra DrugBank.
-- Vurdering af, om en snæver population (f.eks. HER2+ med hjernemetastaser) kan retfærdiggøre videre undersøgelse.
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation) – dette er en blokerende datamangel for sikkerhedsscreeningen
+- Data om virkningsmekanisme fra DrugBank
+- Gennemgang af resultaterne fra LUX-Breast 1, 2 og 3 med fokus på effekt i forhold til etablerede anti-HER2-behandlinger
+- Plan for overvågning af diarré, udslæt og hjertefunktion samt vurdering af relevante lægemiddelinteraktioner
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Prædiktionerne kræver klinisk validering.*
+**Øvrige forudsagte indikationer (kort):**
+- *Multipel endokrin neoplasi* (score 98,5 %): evidensen er svag og indirekte (basket-/tumoragnostiske forsøg uden MEN-specifik dokumentation). Anbefaling: Hold.
+- *PR-negativ og PR-positiv brystkræft* (score ca. 97,9 %): overlapper med HER2-positiv sygdom og er ikke subtypespecifik. Anbefaling: forskningsspørgsmål.
+- *Normal-like brystkræftsubtype* (score 97,9 %): kun modelforudsigelse uden forsøg eller litteratur (L5). Anbefaling: Hold.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,15 +2,15 @@
 layout: default
 title: Alprazolam
 parent: Moderat evidens (L3-L4)
-nav_order: 29
-evidence_level: L3
+nav_order: 43
+evidence_level: L4
 indication_count: 6
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Alprazolam: Fra ikke oplyst oprindelig indikation til insomni (søvnløshed)
+# Alprazolam: Fra angst til søvnløshed (insomni)
 
 ## Resumé i én sætning
 
-Alprazolam er et benzodiazepin, og godkendelsesdata i Danmark angiver ikke den oprindelige indikation.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **insomni**.
-Evidensen er svag: der er **7 registrerede kliniske forsøg** og **18 publikationer**, men ingen af dem er et kontrolleret forsøg, der direkte viser effekt af alprazolam ved insomni.
+Alprazolam er et benzodiazepin, der oprindeligt anvendes til behandling af angstlidelser og blandet angst og depression.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **insomni**, men der findes **ingen registrerede kliniske forsøg** og **ingen litteratur, der direkte undersøger alprazolam mod insomni**. Forudsigelsen hviler derfor alene på modellen og på generel viden om stofklassen.
 
 ---
 
@@ -43,11 +42,11 @@ Evidensen er svag: der er **7 registrerede kliniske forsøg** og **18 publikatio
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget (indikationsteksten i den danske registrering er tom) |
+| Oprindelig indikation | Angstlidelse, angst, blandet angst og depression (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske tilladelse er ikke angivet) |
 | Forudsagt ny indikation | Insomni |
 | TxGNN-forudsigelsesscore | 99,81 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -55,58 +54,59 @@ Evidensen er svag: der er **7 registrerede kliniske forsøg** og **18 publikatio
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen (MOA) for alprazolam i datagrundlaget. Ud fra kendt klassefarmakologi er alprazolam et benzodiazepin, der virker som positiv allosterisk modulator af GABA-A-receptoren. Forstærket GABA-erg hæmning kan forkorte indsovningstiden og dæmpe opvågningsreaktioner. Det passer med den meget høje TxGNN-score.
+Alprazolam er et benzodiazepin, der forstærker GABA-A-receptorsignalering og giver beroligende og angstdæmpende virkning. Det kan i princippet forkorte indsovningstiden. Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er udarbejdet til denne rapport, så koblingen bygger på klassens generelle farmakologi.
 
-Denne kobling bygger på klassefarmakologi og ikke på oplysninger i selve datagrundlaget. Da den oprindelige indikation ikke er registreret, kan slægtskabet mellem oprindelig og ny indikation ikke vurderes direkte. Benzodiazepiner bruges dog i almindelighed ved både angst og søvnbesvær, hvilket gør forudsigelsen mekanistisk plausibel. Selve TxGNN-scoren er en grafbaseret forudsigelse og er ikke i sig selv klinisk evidens.
+Insomni og angst hænger tæt sammen. Da angst er en godkendt indikation, kan en eventuel effekt på søvn være sekundær til den angstdæmpende virkning snarere end en selvstændig søvnfremmende effekt.
+
+Den høje modelscore er alene en beregnet forudsigelse. Den fundne litteratur indeholder ingen alprazolam-forsøg med insomni som mål.
+
+**Andre forudsigelser i data:**
+- **Agoraphobia (score 99,56 %, evidensniveau L3):** Der findes flere kontrollerede studier af alprazolam ved panikangst med agorafobi (bl.a. PMID 3282478, 3282479, 7802851, 2651490, 8101126) samt en Cochrane-netværksmetaanalyse fra 2023 (PMID 38014714). Studierne er hovedsageligt fra 1980'erne og 1990'erne og omhandler panikangst med agorafobi, ikke agorafobi alene. Det er snarere en udvidelse af en eksisterende indikation end ægte repurposing. Her er den foreløbige vurdering "forskningsspørgsmål".
+- **Benign paroxysmal torticollis hos spædbørn (score 99,61 %, evidensniveau L5):** Ingen forsøg og ingen litteratur. Der er ingen etableret rationale, og risikoen for sedation og afhængighed i den pædiatriske population taler imod. Ingen anbefaling kan understøttes.
 
 ---
 
-## Klinisk evidens (forsøg)
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | Ikke relevant (NA) | Afsluttet | 170 | Elektronisk selvhjælpsintervention til ophør med benzodiazepiner hos veteraner. Handler om seponering, ikke effekt ved insomni |
-| [NCT01146600](https://clinicaltrials.gov/study/NCT01146600) | Fase 2 | Afsluttet | 26 | Clarithromycin ved hypersomni. Andet lægemiddel og modsat søvnfænotype |
-| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Fase 2 | Afsluttet før tid (terminated) | 2 | Gabapentin ved benzodiazepinafhængighed. Stoppet med 2 deltagere og tester ikke alprazolam |
-| [NCT03327506](https://clinicaltrials.gov/study/NCT03327506) | Fase 4 | Ukendt | 128 | Hypnose versus præmedicinering med alprazolam mod præoperativ angst. Angst, ikke insomni |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | Ikke angivet | Ukendt | 1.400 | Prospektiv kohorte af ældre i Taiwan om risiko og gavn ved hypnotika. Observationel og mest relevant, men eksponering for alprazolam kan ikke bekræftes |
-| [NCT00266409](https://clinicaltrials.gov/study/NCT00266409) | Fase 4 | Afsluttet | 418 | Åbent forsøg med Niravam (alprazolam) plus SSRI/SNRI ved generaliseret angst eller panikangst. Ingen kobling til insomni |
-| [NCT01584440](https://clinicaltrials.gov/study/NCT01584440) | Fase 2 | Afsluttet | 220 | Dextromethorphan/quinidin mod agitation ved Alzheimers sygdom. Ikke alprazolam og ikke insomni |
-
-Ingen af forsøgene tester alprazolam direkte mod insomni.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for insomni.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+Ingen af de fundne publikationer er et alprazolam-forsøg med insomni som primært mål. De mest relevante er:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [33403184](https://pubmed.ncbi.nlm.nih.gov/33403184/) | 2020 | Sammenlignende klinisk studie | Cureus | Alprazolam versus melatonin ved søvnforstyrrelser hos hæmodialysepatienter. Mest direkte relevante studie |
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Retrospektiv observationsstudie | Medicine | 116 patienter med koronar hjertesygdom og insomni. Kontrolgruppen fik alprazolam, forsøgsgruppen integrativ behandling med moxibustion og ørenåle |
-| [35041261](https://pubmed.ncbi.nlm.nih.gov/35041261/) | 2022 | RCT | Brain and Behavior | Eszopiclon mod søvnkvalitet og kognition ved Alzheimers sygdom. Andet lægemiddel, kun indirekte relevant |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analyse | Acta Pharmaceutica | Beroligende midler til ældre med kroniske ikke-smitsomme sygdomme: dosis, effekt og bivirkninger |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Receptmønsteranalyse | Sleep Medicine | Ordinationsmønstre for hypnotika i en stor managed care-population |
-| [25532388](https://pubmed.ncbi.nlm.nih.gov/25532388/) | 2014 | Registerbaseret analyse | Zhongguo Zhong Yao Za Zhi | Samtidige sygdomme og medicinbrug hos patienter med insomni |
-| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | Tværsnitsstudie | Medicine | Insomni blandt COVID-19-overlevere. Ingen direkte kobling til alprazolam |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Prædiktiv og økonomisk model | Value in Health Regional Issues | Udvikling og økonomisk byrde ved benzodiazepinbrug i Kroatien |
-| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Kohortestudie | JHEP Reports | Deprescribing af zolpidem reducerer fald og frakturer ved cirrose |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Præklinisk musestudie | Aging | Gentagen alprazolamdosering giver mitokondriel dysfunktion og svækket hippocampusafhængig hukommelseskonsolidering |
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Retrospektivt klinisk studie | Medicine | 116 patienter med koronarsygdom og insomni; alprazolam var kontrolbehandling mod moxibustion og øreakupunktur. Kun indirekte relevans |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Farmakokinetik for angstdæmpende lægemidler |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Metaanalyse | Acta Pharm | Beroligende behandling hos ældre med kroniske sygdomme: dosis, effekt og bivirkninger |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Modelleringsstudie | Value Health Reg Issues | Benzodiazepinforbrug og økonomisk byrde; langtidsbrug er forbundet med hukommelsestab, afhængighed og fald |
+| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | Tværsnitsstudie | Medicine | Insomni blandt COVID-19-overlevere (ingen alprazolam-intervention) |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Dyrestudie (mus) | Aging | Gentagen alprazolam giver mitokondriel dysfunktion og svækket hukommelseskonsolidering |
+| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Kohortestudie | JHEP Rep | Deprescribing af zolpidem (ikke alprazolam) reducerer fald og frakturer ved cirrose |
+| [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Review | Am Fam Physician | Oversigt over panikangst |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107490925 | Alprazolam "2care4" (2care4 ApS) | Tabletter | Ikke angivet i registreringsdata |
+| 28107490925 | Alprazolam "2care4" (2care4 ApS) | Tabletter (oral) | Indikationstekst ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen registrerede advarsler, kontraindikationer eller interaktionsdata i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer ifølge vidensgrafen (ikke produktresumétekst):** Vidensgrafen peger på sygdomme, hvor brug er problematisk, bl.a. nyresygdom, leversygdom, galdeblæresygdom, snævervinklet og åbenvinklet glaukom, søvnapnø og andre respirationsrelaterede tilstande (bl.a. kongenit central hypoventilation), fedme, samt stofmisbrug og afhængighed.
+- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt de viste er de vigtigste:
+  - **Alvorlig (Major):** morfin (også liposomal) – risiko for additiv sedation og respirationsdepression.
+  - **Moderat:** aprepitant, bupropion, cimetidin, clarithromycin, clotrimazol, miconazol, dronabinol, eliglustat, glycerolphenylbutyrat, metoclopramid.
+  - **Mindre:** bl.a. aluminiumhydroxid, calciumcarbonat, magnesiumpræparater, betamethason og dexamethason.
+- **Klasserelaterede risici fra litteraturen:** afhængighed, tolerans, fald, kognitiv svækkelse, hukommelsesproblemer, seponeringssymptomer og respirationsdepression.
 
-Fra de inkluderede studier fremgår det, at langvarig brug af benzodiazepiner kan medføre fysisk afhængighed, faldulykker og kognitive problemer (NCT04572750). Musestudiet (PMID 37801512) peger desuden på hukommelsespåvirkning ved gentagen dosering. Dette er litteraturbaseret og ikke hentet fra produktresuméet.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer, da disse ikke indgår i de data, der er udarbejdet til denne rapport.
 
 ---
 
@@ -115,17 +115,14 @@ Fra de inkluderede studier fremgår det, at langvarig brug af benzodiazepiner ka
 **Beslutning: Hold**
 
 **Begrundelse:**
-TxGNN-scoren er meget høj, men evidensen for insomni består kun af små eller observationelle studier og indirekte relevante forsøg (evidensniveau L3). Sikkerhedsdata fra den danske produktinformation mangler, og det blokerer for en sikkerhedsscreening.
+Forudsigelsen om insomni bygger udelukkende på en modelscore og klasseargumenter, uden kliniske forsøg eller direkte litteratur. Hertil kommer betydelige risici ved benzodiazepiner (afhængighed, fald, kognitiv påvirkning) og en stor interaktionsbyrde.
 
 **For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé hos Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA) og oprindelig indikation, fx fra DrugBank
-- Kontrollerede forsøg, helst randomiserede, der direkte sammenligner alprazolam med placebo eller standardbehandling ved insomni
-- En vurdering af risikoen for afhængighed, fald og kognitiv påvirkning, især hos ældre
-
-**Bemærkning:** Forudsigelsen for **agoraphobi** (evidensniveau L1, beslutning "Proceed with Guardrails") ligger sandsynligvis tæt på en allerede etableret brug af alprazolam ved panikangst. Den er derfor ikke et egentligt repurposing-signal.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank.
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen, som tilladelsen ikke indeholder indikationstekst for.
+- Kontrollerede forsøg af alprazolam mod insomni, sammenlignet med eksisterende hypnotika og ikke-farmakologisk behandling (kognitiv adfærdsterapi).
+- Vurdering af sikkerhedsplan for risikogrupper (ældre, lever- og nyresygdom, søvnapnø, misbrugshistorik).
+- For agorafobi: en afklaring af, om indikationen allerede dækkes af den eksisterende panikangstindikation, og en vurdering mod førstevalgsbehandling (SSRI/CBT).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

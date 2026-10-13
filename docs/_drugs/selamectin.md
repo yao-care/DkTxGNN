@@ -2,7 +2,7 @@
 layout: default
 title: Selamectin
 parent: Kun modelforudsigelse (L5)
-nav_order: 396
+nav_order: 751
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selamectin: Fra veterinær parasitbekæmpelse til candidiasis
+# Selamectin: Fra veterinær parasitbehandling til candidiasis
 
 ## Resumé
 
-Selamectin er et avermectin-antiparasitært middel, som i Danmark er registreret som veterinærlægemiddel (spot-on til hunde). TxGNN-modellen forudsiger, at det kan have effekt mod **candidiasis**. Forudsigelsen er rent modelbaseret: der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter den.
+Selamectin er et makrocyklisk lakton mod parasitter, som i Danmark er markedsført som spot-on-opløsning til hunde (veterinærlægemiddel). TxGNN-modellen forudsiger, at stoffet kan have effekt mod **candidiasis**, men de data, der er indsamlet til denne rapport, indeholder **ingen kliniske forsøg og ingen publikationer** om denne indikation. Forudsigelsen er alene modelbaseret.
 
 ---
 
@@ -41,31 +41,35 @@ Selamectin er et avermectin-antiparasitært middel, som i Danmark er registreret
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Veterinær antiparasitær anvendelse (spot-on til hund). Indikationsteksten i Lægemiddelstyrelsens data er tom. |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten for det danske produkt er tom). Stoffet kendes som antiparasitært middel til dyr. |
 | Forudsagt ny indikation | Candidiasis |
-| TxGNN-forudsigelsesscore | 98,43 % |
+| TxGNN-forudsigelsesscore | 98,4 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Selamectin tilhører avermectin-gruppen, som virker på glutamat-styrede chloridkanaler hos hvirvelløse dyr. Svampeceller som *Candida* har ikke disse kanaler, og der er derfor **ingen klar mekanistisk forbindelse** mellem selamectin og candidiasis.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de indsamlede data. Det er kendt, at selamectin er et makrocyklisk lakton, som virker på glutamatstyrede kloridkanaler hos hvirvelløse dyr, og at det anvendes mod parasitter hos dyr.
 
-Forudsigelsen hviler udelukkende på nærhed i vidensgrafen. Den kan være et artefakt af grafens forbindelsesmønstre og er ikke understøttet af biologisk eller klinisk dokumentation. Selamectins oprindelige anvendelse (parasitter hos dyr) og candidiasis (svampeinfektion) har ikke et oplagt fælles patofysiologisk grundlag.
+Svampe som *Candida* har ikke disse kanaler, så antifungal virkning kan ikke forventes ud fra den kendte mekanisme. Der er derfor ikke noget mekanistisk grundlag for forudsigelsen i de foreliggende data. Den høje score (0,984) afspejler sandsynligvis nærhed i videngrafen snarere end biologisk sandsynlighed.
 
-De øvrige forudsigelser i datasættet er ligeledes uden mekanistisk grundlag:
+**Øvrige forudsigelser fra modellen** har tilsvarende høje scorer, men heller ikke støtte i data:
 
-- **Lepra:** Nogle avermectiner (f.eks. ivermectin) har vist in vitro-aktivitet mod mykobakterier. For selamectin mod *Mycobacterium leprae* er intet dokumenteret.
-- **Koronararteriesygdom og myokardieiskæmi:** Der er ingen plausibel vej fra modulering af chloridkanaler hos hvirvelløse dyr til koronar aterosklerose.
-- **Hjertesygdom:** De fire fundne artikler handler om hjerteorm (*Dirofilaria immitis*) hos katte og loppeangreb hos agutier. De viser, at selamectin bruges til at forebygge parasitsygdom hos dyr, ikke at det virker mod hjertesygdom hos mennesker.
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Bemærkning |
+|------|------|------|------|
+| Candidiasis | 98,4 % | L5 | Ingen mekanistisk sammenhæng; ingen forsøg eller litteratur |
+| Spedalskhed (leprosy) | 98,4 % | L5 | Bakteriel sygdom (*Mycobacterium leprae*); selamectin har ingen kendt antibakteriel virkning |
+| Koronararteriesygdom | 98,1 % | L5 | Ingen kendt rolle i koronar vaskulær biologi |
+| Myokardieiskæmi | 97,9 % | L5 | Ingen kendt effekt på myokardiets perfusion |
+| Hjertesygdom | 97,9 % | L5 | Kun indirekte veterinær litteratur om hjerteorm (se nedenfor) |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -73,7 +77,16 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for candidiasis.
+Der er ingen litteratur om candidiasis. Den eneste litteratur i de indsamlede data vedrører den sekundære forudsigelse "hjertesygdom". Den er udelukkende veterinær og viser ikke, at selamectin behandler hjertesygdom hos mennesker.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [29143659](https://pubmed.ncbi.nlm.nih.gov/29143659/) | 2017 | Veterinærstudie | Parasites & Vectors | Effekt af hjerteorm (*Dirofilaria immitis*) og hjerteormsassocieret luftvejssygdom på højre ventrikel hos katte |
+| [25288308](https://pubmed.ncbi.nlm.nih.gov/25288308/) | 2014 | Kontrolleret veterinærstudie | Veterinary Parasitology | Lungeskade ved hjerteorminfektion hos katte; en gruppe blev forbehandlet med selamectin lokalt |
+| [33664624](https://pubmed.ncbi.nlm.nih.gov/33664624/) | 2021 | Case report | Helminthologia | Livstruende sameksistens af hjerteorm og lungeorm hos en kat i Bulgarien |
+| [18556127](https://pubmed.ncbi.nlm.nih.gov/18556127/) | 2008 | Case report | Veterinary Parasitology | Dødelig anæmi og dermatitis hos agutier med lopper; behandlet med propoxur og selamectin (ikke relevant for hjertesygdom) |
+
+Relevansen er kun indirekte: selamectin bruges til dyr som forebyggelse af hjerteorm, hvilket er parasitbekæmpelse og ikke en direkte kardial terapeutisk effekt.
 
 ---
 
@@ -81,15 +94,15 @@ Der er i øjeblikket ingen relateret litteratur for candidiasis.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106025117 | Chanhold til hund 10,1 - 20,0 kg | Spot-on, opløsning | Veterinærlægemiddel til hund (indikationstekst ikke tilgængelig) |
+| 28106025117 | Chanhold til hund 10,1 - 20,0 kg (Chanelle Pharmaceuticals Manufacturing Limited) | Spot-on, opløsning | Ikke angivet i de tilgængelige data |
 
-Indehaver af tilladelsen er Chanelle Pharmaceuticals Manufacturing Limited. Produktet er et veterinærlægemiddel til udvortes brug og er ikke godkendt til mennesker.
+Der er kun én gyldig tilladelse (enkeltstof), og ingen er annulleret. Produktet er et veterinærlægemiddel til hunde, ikke til mennesker.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -98,15 +111,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har evidensniveau L5 og er ikke understøttet af kliniske forsøg eller litteratur. Der er ingen plausibel mekanisme, og produktet er et veterinært spot-on-præparat uden humant godkendt formulering. Der er derfor ikke grundlag for at gå videre.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller relevant litteratur. Den kendte virkningsmekanisme (glutamatstyrede kloridkanaler hos hvirvelløse dyr) taler imod antifungal effekt. Desuden er det eneste danske produkt et veterinærlægemiddel.
 
-**For at gå videre kræves:**
-- Mekanismedata (MOA), som i dag mangler, samt en biologisk begrundelse for effekt mod *Candida*
-- Præklinisk (in vitro) dokumentation for antifungal aktivitet
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé
-- Vurdering af administrationsvej og human formulering, da det eneste markedsførte produkt er et veterinært spot-on-præparat
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Oplysninger om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Præklinisk (in vitro) dokumentation for aktivitet mod *Candida*, før der overvejes yderligere vurdering
+- Vurdering af, om en formulering til mennesker og en passende administrationsvej overhovedet er mulig, da der ikke findes en godkendt human formulering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

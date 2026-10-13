@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Daptomycin
-parent: Kun modelforudsigelse (L5)
-nav_order: 129
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 236
+evidence_level: L4
 indication_count: 10
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Daptomycin: Fra grampositive infektioner til slidgigt (osteoarthritis)
+# Daptomycin: Fra bakterielle infektioner til leddegigt (rheumatoid arthritis)
 
 ## Resumé i én sætning
 
-Daptomycin er et cyklisk lipopeptid-antibiotikum, der oprindeligt bruges mod grampositive bakterieinfektioner som komplicerede hudinfektioner, bakteriæmi og højresidig endokarditis.
-TxGNN-modellen forudsiger, at det kan virke mod **slidgigt (osteoarthritis)**, men der er **0 kliniske forsøg** og **9 publikationer**, og ingen af dem handler om slidgigt. De omhandler knogle- og ledinfektioner.
-Forudsigelsen skyldes sandsynligvis et begrebsmæssigt sammenfald mellem "osteoarticular" (knogle-/ledinfektion) og "osteoarthritis" (slidgigt).
-
----
+Daptomycin er et cyklisk lipopeptid-antibiotikum, der oprindeligt anvendes til behandling af infektioner med grampositive bakterier. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **leddegigt (rheumatoid arthritis)**, som er den mekanistisk mest troværdige af de forudsagte indikationer. Evidensen består udelukkende af **2 prækliniske studier** (dyremodel og in vitro) og **0 kliniske forsøg**.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Litteraturen beskriver hudinfektioner, bakteriæmi og højresidig endokarditis forårsaget af grampositive bakterier |
-| Forudsagt ny indikation | Slidgigt (osteoarthritis) |
-| TxGNN-prædiktionsscore | 99,86 % |
-| Evidensniveau | L5 (kun modelforudsigelse, ingen studier af daptomycin ved slidgigt) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Litteraturen beskriver anvendelse ved hud- og bløddelsinfektioner, bakteriæmi og højresidig endokarditis |
+| Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
+| TxGNN-forudsigelsesscore | 99,84 % |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (kun som forskningsspørgsmål) |
 
----
+Bemærk: De øvrige forudsigelser fra modellen (slidgigt 99,86 %, slidgigtsdisposition 99,79 %, urinsyregigt 99,79 % og pseudoachondroplasi 99,75 %) er vurderet som ikke understøttede. Slidgigt-scoren afspejler sandsynligvis en søgeordsassociation med knogle- og ledinfektioner. Ved urinsyregigt beskriver den eneste publikation en bivirkning (se Sikkerhed). Der er ingen evidens for pseudoachondroplasi.
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i Evidence Pack. Daptomycin er et cyklisk lipopeptid, der ødelægger grampositive bakteriers cellemembran og dermed virker antibakterielt.
+Der foreligger i øjeblikket ingen detaljerede data om lægemidlets virkningsmekanisme i de indsamlede data. Daptomycin er kendt som et cyklisk lipopeptid, der ødelægger membraner hos grampositive bakterier, og dets effekt ved infektioner er veldokumenteret.
 
-Der er ingen understøttet mekanistisk sammenhæng med degenerativ slidgigt, som i hovedsagen er en slidsygdom i ledbrusk og ikke en infektion. De ni fundne artikler drejer sig om proteseledsinfektioner, septisk artritis og knogle- og ledinfektioner. Den høje score (0,9986) skyldes derfor sandsynligvis en søgeartefakt og ikke et reelt terapeutisk signal.
+Leddegigt er en kronisk autoimmun sygdom, hvor immunbetændelse spiller en central rolle. Et prækliniskt studie fra 2025 (PMID 39571268) viser, at daptomycin dæmper kollagen-induceret artritis hos mus ved at undertrykke inflammatoriske cytokiner og NF-κB-signalvejen. Et efterfølgende studie (PMID 40923559) har designet nye daptomycin-afledte cykliske lipopeptider med bedre effekt i musemodellen, hvilket understøtter konceptet på klasseniveau.
 
-Evidence Pack indeholder desuden en forudsigelse for **leddegigt (rheumatoid arthritis)**. Her findes to prækliniske studier fra 2025 ([39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/) og [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/)). De viser, at daptomycin og beslægtede lipopeptider dæmper inflammatoriske cytokiner og NF-κB-signalering og mindsker kollagen-induceret artritis i mus. Det er et rimeligt anti-inflammatorisk spor, men kun i dyre- og cellemodeller. Der er ingen humane effektdata. Dette er et forskningsspørgsmål og ikke grundlag for klinisk brug.
+Evidensen er dog begrænset til dyre- og laboratoriedata. Der er ingen kliniske forsøg, og den øvrige fundne litteratur omhandler proteseledsinfektioner og er ikke relevant for behandling af leddegigt.
 
----
-
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
 ## Litteraturevidens
-
-Alle ni artikler er fundet via søgning på slidgigt, men handler om infektioner i led og knogler, ikke om slidgigt.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohorte | International Orthopaedics | Sikkerhed og effekt af højdosis daptomycin kombineret med rifampicin ved grampositive knogle-/ledinfektioner |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohorte | J Antimicrob Chemother | Klinisk erfaring med daptomycin ved periprotetiske knæ- og hofteledsinfektioner |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohorte | Int J Antimicrob Agents | Effekt og sikkerhed af højdosis daptomycin (>6 mg/kg) ved komplicerede knogle-/ledinfektioner og implantatassocierede infektioner |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohorte | J Antimicrob Chemother | Daptomycin versus standardbehandling ved osteoartikulære infektioner med *Staphylococcus aureus*-bakteriæmi |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Kohorte | Medicina Clínica | Erfaringer med daptomycin i Spanien fra EU-CORE-registret |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Spørgeskemaundersøgelse | Int J Antimicrob Agents | Aktuel praksis ved proteseledsinfektioner blandt infektionsmedicinere |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiotics | Antibiotikafølsomhed hos *S. aureus* og *S. epidermidis* fra proteseledsinfektioner |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Observationel mikrobiologi | Surgical Infections | Udvikling i stafylokokkers resistensprofil ved knogle-/ledinfektioner over ti år |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case report | Case Reports in Orthopedics | Kronisk septisk artritis med *Corynebacterium striatum* hos patient med slidgigtdiagnose |
+| [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/) | 2025 | Præklinisk (dyremodel) | International Immunopharmacology | Daptomycin dæmper kollagen-induceret artritis via hæmning af inflammatoriske cytokiner og NF-κB |
+| [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/) | 2025 | Præklinisk (in vitro/dyr) | Journal of Medicinal Chemistry | Nye daptomycin-afledte cykliske lipopeptider hæmmer cellulær inflammation og artritis hos mus |
+| [32650057](https://pubmed.ncbi.nlm.nih.gov/32650057/) | 2020 | In vitro | Pharmacological Research | Flufenaminsyres antibakterielle effekt mod MRSA (kun indirekte relevant) |
+| [41257050](https://pubmed.ncbi.nlm.nih.gov/41257050/) | 2023 | Kohorte | Journal of Clinical Practice and Research | Kirurgspecifikke infektionsrater og risikofaktorer for proteseledsinfektioner (ikke relevant for behandling) |
+| [27891149](https://pubmed.ncbi.nlm.nih.gov/27891149/) | 2016 | Case report | Case Reports in Medicine | Corynebacterium propinquum som sjælden årsag til endokarditis hos patient med leddegigt (ikke relevant for behandling) |
+| [27031898](https://pubmed.ncbi.nlm.nih.gov/27031898/) | 2016 | Case report | Le Infezioni in Medicina | Metastatiske muskelabscesser efter infektion i total hofteprotese hos patient med leddegigt (ikke relevant for behandling) |
 
----
+## Information om markedet i Danmark
 
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103762004 | Cubicin (Merck Sharp & Dohme B.V.) | Pulver til injektions-/infusionsvæske, opløsning | Ikke angivet i data |
+| 28103762004 | Cubicin (Merck Sharp & Dohme B.V.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
----
+## Cytotoksicitet
+
+Daptomycin er et antibiotikum og ikke et antineoplastisk lægemiddel. Afsnittet er derfor udeladt.
 
 ## Sikkerhedsovervejelser
 
-- **Muskeltoksicitet**: Daptomycin kan give forhøjet CPK og rabdomyolyse, hvilket er relevant ved kronisk behandling.
-- **Urinsyre og urinsyregigt**: Et case report ([36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/), 2023) beskriver daptomycin-induceret rabdomyolyse efterfulgt af akut urinsyregigt. Det kan skyldes hyperurikæmi efter muskelskade. Det er et sikkerhedssignal og ikke et effektsignal.
-- **Administrationsvej**: Daptomycin findes kun som intravenøs behandling, hvilket er uhensigtsmæssigt ved en kronisk sygdom som slidgigt eller leddegigt.
+- **Viden fra vidensgrafen (ikke produktresumétekst)**: Registrerede kontraindikationsrelationer omfatter myopati, muskelsygdomme, skeletmuskelsygdom, familiær periodisk paralyse, diarrésygdom, Clostridium difficile-colitis, perinatal nekrotiserende enterokolitis, eosinofil pneumoni, pulmonal eosinofili, perifer neuropati og sygdomme i det perifere nervesystem.
+- **Muskelsikkerhed**: Rhabdomyolyse er en veldokumenteret bivirkning. Et case report (PMID 36693494) beskriver daptomycin-induceret rhabdomyolyse komplicereret af akut urinsyregigt via hyperurikæmi. Det er et sikkerhedssignal og ikke evidens for terapeutisk gavn.
+- **Lægemiddelinteraktioner** (12 registrerede):
+  - Moderate: picosulfat, rosuvastatin, simvastatin, iobenguan (I-131), ibuprofen, diclofenac, ethinylestradiol, celecoxib, ciclosporin, mycofenolsyre
+  - Milde: dicoumarol, warfarin
+  - Kombination med statiner kan være særlig relevant på grund af den additive muskelrisiko. Samtidig brug af NSAID (som ofte anvendes ved leddegigt) og ciclosporin bør ligeledes vurderes.
+- **Administration**: Daptomycin gives intravenøst, hvilket komplicerer langtidsbehandling af en kronisk sygdom som leddegigt.
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i Evidence Pack. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Advarsler og kontraindikationer fra det godkendte produktresumé (SmPC) er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om slidgigt er sandsynligvis en artefakt, da litteraturen kun handler om knogle- og ledinfektioner. Der er ingen kliniske forsøg og ingen biologisk plausibel mekanisme. Desuden er der et muskeltoksicitetssignal og kun intravenøs administration.
+Evidensen for leddegigt er begrænset til prækliniske data (L4), og der findes ingen kliniske forsøg. Intravenøs administration og den kendte risiko for myopati/CK-stigning gør kronisk anvendelse problematisk. Leddegigt bør kun behandles som et forskningsspørgsmål, mens de øvrige forudsigelser ikke understøttes.
 
-**For at komme videre kræves følgende:**
-- Hent produktresuméet fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation (kritisk datahul, blokerer sikkerhedsscreening)
-- Hent data om virkningsmekanisme fra DrugBank
-- Vurder leddegigt separat som forskningsspørgsmål. Det kræver bekræftelse af de prækliniske fund og en vurdering af muskeltoksicitet og administrationsvej
-- Kontroller, at slidgigtforudsigelsen ikke blot er en termmatch-artefakt, før yderligere ressourcer bruges
+**For at komme videre kræves:**
+- Bekræftelse af resultaterne i uafhængige prækliniske modeller og detaljerede data om virkningsmekanismen (MOA)
+- Vurdering af, om en derivatstrategi (f.eks. de nye lipopeptider) eller en anden administrationsvej er mere realistisk end selve daptomycin
+- Hentning af produktresuméet fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation
+- Sikkerhedsplan for muskelovervågning (CK) og håndtering af interaktioner med statiner og øvrig medicin
+- Hvis prækliniske data er stærke: planlægning af et eksplorativt fase 2-forsøg med passende sikkerhedsmonitorering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

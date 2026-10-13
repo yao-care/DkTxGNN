@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Kun modelforudsigelse (L5)
-nav_order: 268
+nav_order: 504
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lonafarnib: Fra farnesyltransferasehæmmer til spedalskhed (leprosy)
+# Lonafarnib: Fra den oprindelige indikation til leprae
 
 ## Resumé i én sætning
 
-Lonafarnib er en farnesyltransferasehæmmer, som er markedsført i Danmark under navnet Zokinvy. Evidenspakken oplyser ingen oprindelig indikation.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **spedalskhed (leprosy)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende baseret på en grafmodel.
+Lonafarnib er en farnesyltransferasehæmmer, der er markedsført i Danmark som Zokinvy (hårde kapsler). Der er ingen oplysninger om godkendt indikation i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **lepra**, men der er **ingen kliniske forsøg** og **ingen publikationer** om lonafarnib til denne indikation. Forudsigelsen hviler udelukkende på modellen.
 
 ---
 
@@ -42,48 +41,70 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **spedalskhed (lep
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Spedalskhed (leprosy) |
-| TxGNN-prediktionsscore | 99,14 % |
+| Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendelsesteksten er tom) |
+| Forudsagt ny indikation | Lepra |
+| TxGNN-forudsigelsesscore | 99,14 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der er ikke noget klart mekanistisk link mellem lonafarnib og spedalskhed. Lonafarnib hæmmer farnesyltransferase, som tilfører en farnesylgruppe til proteiner, bl.a. Ras. Der er ingen data, der kobler proteinfarnesylering til infektion med *M. leprae* eller til værtens immunrespons ved spedalskhed.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om lonafarnibs virkningsmekanisme i de indsamlede data. Lonafarnib er kendt som farnesyltransferasehæmmer. Enzymet farnesylerer proteiner som Ras, og hæmning kan påvirke cellesignalering.
 
-Den høje score (0,991) afspejler kun mønstre i TxGNN's vidensgraf. Der foreligger heller ikke detaljerede data om virkningsmekanisme i evidenspakken, og der er ingen oprindelig indikation at sammenligne med. Ligheden mellem den oprindelige og den nye indikation kan derfor ikke vurderes.
+Der er ikke fundet en klar mekanistisk forbindelse mellem farnesyltransferasehæmning og infektion med *Mycobacterium leprae* eller lepras immunpatologi. Den høje score (0,991) er derfor kun en grafbaseret modelforudsigelse og bør ikke tolkes som tegn på klinisk effekt. Da den oprindelige indikation ikke er oplyst, kan sammenhængen mellem oprindelig og ny indikation ikke vurderes.
 
-Forudsigelsen bør betragtes som en hypotese, ikke som et holdepunkt for klinisk anvendelse.
+**Øvrige forudsigelser fra modellen** (alle på evidensniveau L5):
+
+| Forudsagt indikation | Score | Bemærkning |
+|------|------|------|
+| Leddegigt (rheumatoid arthritis) | 98,82 % | Plausibel men indirekte hypotese via Ras/MEK/ERK-signalering. Eneste publikation (PMID 36543278) omhandler en urtemedicinsk formel, ikke lonafarnib |
+| Prinzmetals angina | 98,57 % | Ingen evidens eller mekanistisk begrundelse |
+| Homozygot familiær hyperkolesterolæmi | 98,32 % | Kun spekulativ sammenhæng via prenyleringsbiologi og mevalonatvejen |
+| Hyperthyroidisme | 98,17 % | Ingen evidens eller mekanistisk begrundelse |
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen registrerede kliniske forsøg for denne indikation (hverken i ClinicalTrials.gov eller ICTRP).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-Der er i øjeblikket ingen relevant litteratur for denne indikation.
+Der er i øjeblikket ingen relateret litteratur for lepra.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106416320 | Zokinvy (TMC Pharma (EU) Limited) | Kapsler, hårde | Indikationstekst er ikke angivet i registreringen |
+| 28106416320 | Zokinvy (TMC Pharma (EU) Limited) | Kapsler, hårde | Ikke oplyst |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ikke sikkerhedsdata i evidenspakken (advarsler, kontraindikationer og interaktioner). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner, og de første 20 vises i de indsamlede data. Blandt disse er følgende klassificeret som **alvorlige (Major)**:
+
+- Loperamid
+- Aprepitant
+- Triamcinolon
+- Dexamethason
+- Budesonid
+- Cimetidin
+- Clarithromycin
+- Eliglustat
+- Naloxegol
+
+Følgende er klassificeret som **moderate**: hydrocortison (også oftalmisk), omeprazol, betamethason, chlorpropamid, saxagliptin, dexamethason (oftalmisk), empagliflozin, oxandrolon, prednisolon (oftalmisk) og naldemedin.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige.
 
 ---
 
@@ -92,18 +113,14 @@ Der foreligger ikke sikkerhedsdata i evidenspakken (advarsler, kontraindikatione
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), uden kliniske forsøg, uden litteratur og uden et identificeret mekanistisk link mellem farnesyltransferasehæmning og spedalskhed. Der er ikke grundlag for at gå videre på nuværende tidspunkt.
-
-Til sammenligning har de øvrige forudsagte indikationer heller ikke tilstrækkelig evidens. Rheumatoid arthritis er den eneste med lidt støtte (L4, status "Research Question"). Det eneste fundne studie (PMID 36543278) undersøger en traditionel kinesisk urtemedicin og hæmning af Ras/MEK/ERK-signalvejen i præklinske modeller. Det omfatter ikke lonafarnib, så det understøtter kun signalvejens relevans. Prinzmetal-angina, homozygot familiær hypercholesterolæmi og hyperthyroidisme har ingen evidens ud over modelscoren (L5, Hold).
+Forudsigelsen om lepra bygger udelukkende på modelscore (evidensniveau L5), uden kliniske forsøg, litteratur eller en dokumenteret mekanistisk forbindelse. Den oprindelige indikation og virkningsmekanismen mangler, og sikkerhedsdata (advarsler og kontraindikationer) er ikke tilgængelige.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, som i dag blokerer for sikkerhedsscreening
-- Oplysning om den godkendte indikation for Zokinvy i Danmark
-- Præklinisk eller mekanistisk evidens for en rolle for farnesylering i spedalskhed, før kliniske studier overvejes
-- Vurdering af administrationsvej (pending)
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til omplacering skal valideres klinisk, før de kan anvendes.*
+- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen med godkendt indikation, advarsler og kontraindikationer
+- Indhent data om virkningsmekanisme (MOA) fra DrugBank
+- Gennemfør en målrettet litteratursøgning på lonafarnib og lepra (prækliniske data om farnesyltransferase i mykobakterielle infektioner eller værtsimmunrespons)
+- Vurdér de mange alvorlige lægemiddelinteraktioner (især CYP3A-relaterede stoffer) i en eventuel kommende anvendelse
+- Overvej at prioritere leddegigt til yderligere mekanistisk undersøgelse, da den har en plausibel, om end indirekte, hypotese
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

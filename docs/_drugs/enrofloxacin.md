@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Enrofloxacin
-parent: Kun modelforudsigelse (L5)
-nav_order: 167
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 307
+evidence_level: L4
 indication_count: 10
 ---
 
 # Enrofloxacin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Enrofloxacin: Fra veterinært antibiotikum til hjertesygdom
+# Enrofloxacin: Fra veterinær antibiotika til hjertesygdom (forudsigelse)
 
 ## Resumé
 
-Enrofloxacin er et fluorquinolon-antibiotikum, som i Danmark kun er godkendt til dyr (Baytril Vet.).
-TxGNN-modellen forudsiger, at det kan have effekt ved **hjertesygdom (heart disease)**.
-Der er dog **ingen kliniske forsøg** og kun **indirekte veterinærlitteratur**, og ingen af de gennemgåede publikationer viser effekt ved hjertesygdom. Forudsigelsen bygger reelt på modellen alene.
+Enrofloxacin er et fluorquinolon-antibiotikum, som i Danmark kun er godkendt som veterinærlægemiddel (Baytril Vet., injektionsvæske).
+TxGNN-modellen forudsiger, at det kan være effektivt mod **hjertesygdom**, men der findes **ingen registrerede kliniske forsøg** og kun **dyrestudier og kasuistikker uden reel støtte** for denne retning.
 
 ---
 
@@ -43,10 +42,11 @@ Der er dog **ingen kliniske forsøg** og kun **indirekte veterinærlitteratur**,
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Hjertesygdom (heart disease) |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (veterinær bakteriel infektion; godkendelsesteksten er tom) |
+| Forudsagt ny indikation | Hjertesygdom |
 | TxGNN-forudsigelsesscore | 99,94 % |
-| Evidensniveau | L4 (kun indirekte veterinærlitteratur, ingen kliniske forsøg) |
-| Markedsstatus i Danmark | Markedsført (kun som veterinærlægemiddel) |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført (kun som veterinærlægemiddel) |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -54,54 +54,54 @@ Der er dog **ingen kliniske forsøg** og kun **indirekte veterinærlitteratur**,
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Enrofloxacin er et veterinært fluorquinolon, der hæmmer bakterielt DNA-gyrase og topoisomerase IV. Detaljerede mekanismedata er ikke tilgængelige i kildedata, så analysen bygger på den kendte klassevirkning.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Enrofloxacin tilhører fluorquinolonerne, som hæmmer bakteriel DNA-gyrase og topoisomerase IV. Det er en antibakteriel mekanisme.
 
-Der er ingen påvist direkte kardial mekanisme. Den eneste tænkelige sammenhæng er indirekte: behandling af en bakteriel infektion, der forårsager hjertebetændelse (myokarditis), fx *Brucella canis* hos hund. Det er behandling af infektionen, ikke af hjertesygdom som sådan.
+Der er ingen troværdig mekanistisk forbindelse mellem denne virkning og behandling af hjertesygdom. De fundne artikler er veterinære og handler om infektioner hos dyr (fisk, fugle, geder, bøfler, hunde, en makak) samt lægemiddeltoksicitet. De hjerterelaterede artikler beskriver infektiøse årsager til hjerteskade, fx *Brucella canis*-myokarditis hos hund og endokarditis hos en makak. Her virker antibiotikaet kun på den underliggende infektion, ikke på hjertesygdommen i sig selv.
 
-Fluorquinoloner som klasse har desuden kendte kardiale sikkerhedsbekymringer (QT-forlængelse og arytmi), hvilket taler imod brug ved hjertesygdom. TxGNN-scoren på 0,999 er en modelforudsigelse og ikke klinisk evidens.
+Den meget høje modelscore (0,999) er en ren modelforudsigelse og understøttes ikke af klinisk evidens. Fluorquinoloner har desuden kardiovaskulære sikkerhedsadvarsler (QT-forlængelse, aortaaneurisme/-dissektion), som taler imod brug hos hjertepatienter.
+
+Øvrige forudsigelser på listen (Laubry-Pezzi syndrom, Pierre Robin syndrom, delvis deletion af kromosom 7's lange arm) er strukturelle eller kromosomale tilstande uden plausibel antibiotisk mekanisme og uden forsøg eller litteratur.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Currently no related clinical trials registered. Der er hverken registrerede kliniske forsøg eller ICTRP-forsøg for denne forudsigelse.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Ingen af publikationerne er RCT'er, og alle er veterinære. Tabellen viser de 10 mest relevante.
+Ingen af artiklerne undersøger enrofloxacin som behandling af hjertesygdom. Nedenfor ses de mest relevante af de fundne publikationer (alle veterinære).
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [41190687](https://pubmed.ncbi.nlm.nih.gov/41190687/) | 2025 | Case report | J Am Anim Hosp Assoc | Hund med *Brucella canis* og myokarditis/perikarditis behandlet med ampicillin/sulbactam og enrofloxacin. Mulig indirekte sammenhæng via infektionsbehandling |
-| [34157764](https://pubmed.ncbi.nlm.nih.gov/34157764/) | 2021 | Case report | Tierarztl Prax K | Kat med reversibel venstresidig hjertesvigt og formodet myokarditis efter FLUTD. Abstractet viser ingen sikker rolle for enrofloxacin |
-| [36342628](https://pubmed.ncbi.nlm.nih.gov/36342628/) | 2023 | Case series | Vet Res Commun | Hjertelæsioner forårsaget af *Histophilus somni* hos kvæg og antibiotikafølsomhed hos isolaterne |
-| [17187945](https://pubmed.ncbi.nlm.nih.gov/17187945/) | 2007 | Veterinært effektforsøg | Vet Microbiol | Enrofloxacin, florfenicol og amoxicillin ved dobbeltinfektion hos kalkuner (luftvejsinfektion, ikke hjerte) |
-| [16753615](https://pubmed.ncbi.nlm.nih.gov/16753615/) | 2006 | Veterinært effektforsøg | Avian Pathol | Sammenligning af fire behandlingsskemaer mod *O. rhinotracheale* hos kalkuner |
-| [31226987](https://pubmed.ncbi.nlm.nih.gov/31226987/) | 2019 | Review/toksicitet | BMC Vet Res | Reproduktionstoksicitet af enrofloxacin og marbofloxacin hos fugle |
-| [17269886](https://pubmed.ncbi.nlm.nih.gov/17269886/) | 2007 | Toksicitetsrapport | Am J Vet Res | Øjen- og systemiske effekter af høj oral dosis enrofloxacin hos katte |
-| [23562103](https://pubmed.ncbi.nlm.nih.gov/23562103/) | 2013 | Farmakokinetisk studie | J Am Assoc Lab Anim Sci | Vævsfordeling hos afrikansk klofrø, herunder hjertevæv. Ingen effektdata |
-| [33076564](https://pubmed.ncbi.nlm.nih.gov/33076564/) | 2020 | Review | Pathogens | Bakteriel nyresygdom hos laksefisk. Hjertet nævnes kun som et af de angrebne organer |
-| [31076996](https://pubmed.ncbi.nlm.nih.gov/31076996/) | 2019 | Veterinært studie | Trop Anim Health Prod | Behandlingsprotokoller mod smitsom gedelungebetændelse (enrofloxacin nævnes som en af mulighederne) |
+| [41190687](https://pubmed.ncbi.nlm.nih.gov/41190687/) | 2025 | Kasuistik | J Am Anim Hosp Assoc | Myokarditis hos hund med *Brucella canis*; behandlet bl.a. med enrofloxacin mod infektionen |
+| [42212715](https://pubmed.ncbi.nlm.nih.gov/42212715/) | 2026 | Kasuistik | J Vet Diagn Invest | Endokarditis i mitralklappen hos rhesusabe; enrofloxacin forhindrede ikke forværring |
+| [36342628](https://pubmed.ncbi.nlm.nih.gov/36342628/) | 2023 | Case-serie | Vet Res Commun | Hjertedød hos kvæg forårsaget af *Histophilus somni*; antibiotikafølsomhed undersøgt |
+| [17269886](https://pubmed.ncbi.nlm.nih.gov/17269886/) | 2007 | Toksicitetsrapport | Am J Vet Res | Øjen- og systemiske skader efter høj oral dosis enrofloxacin hos katte |
+| [31226987](https://pubmed.ncbi.nlm.nih.gov/31226987/) | 2019 | Review | BMC Vet Res | Reproduktionstoksicitet af fluorquinoloner hos fugle |
+| [17187945](https://pubmed.ncbi.nlm.nih.gov/17187945/) | 2007 | Veterinært effektstudie | Vet Microbiol | Enrofloxacin, florfenicol og amoxicillin mod luftvejsinfektion hos kalkuner |
+| [16753615](https://pubmed.ncbi.nlm.nih.gov/16753615/) | 2006 | Eksperimentelt studie | Avian Pathol | Sammenligning af fire antibiotikaregimer mod *Ornithobacterium rhinotracheale* hos kalkunkyllinger |
+| [31076996](https://pubmed.ncbi.nlm.nih.gov/31076996/) | 2019 | Veterinært sammenlignende studie | Trop Anim Health Prod | Behandlingsprotokoller mod smitsom gedelungebetændelse |
+| [23562103](https://pubmed.ncbi.nlm.nih.gov/23562103/) | 2013 | Farmakokinetisk studie | J Am Assoc Lab Anim Sci | Vævsfordeling af enrofloxacin (inkl. hjerte) hos afrikanske klofrøer |
+| [34157764](https://pubmed.ncbi.nlm.nih.gov/34157764/) | 2021 | Kasuistik | Tierarztl Prax K | Reversibel hjertesvigt ved formodet myokarditis hos kat |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101348088 | Baytril Vet. | Injektionsvæske, opløsning | Elanco Animal Health GmbH |
-
-Der er ikke registreret en godkendt indikationstekst i kildedata. Produktet er et veterinærlægemiddel og ikke godkendt til human brug.
+| 28101348088 | Baytril Vet. (Elanco Animal Health GmbH) | Injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler, kontraindikationer eller interaktioner i kildedata (interaktionssøgning gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke indsamlet godkendte data om advarsler, kontraindikationer eller interaktioner fra produktresuméet. Generelt bærer fluorquinoloner som klasse advarsler om QT-forlængelse og aortaaneurisme/-dissektion, hvilket er særligt relevant ved hjertesygdom. Fluorquinoloner undgås desuden generelt hos børn i vækst på grund af risiko for bruskskader.
 
-Som klasseeffekt rapporteres fluorquinoloner dog at kunne give QT-forlængelse og arytmi, hvilket er særligt relevant ved hjertesygdom.
+Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -110,18 +110,13 @@ Som klasseeffekt rapporteres fluorquinoloner dog at kunne give QT-forlængelse o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen. Der er ingen kliniske forsøg og ingen litteratur, der viser effekt ved hjertesygdom, og der er ingen påvist kardial mekanisme. Klassens kardiale sikkerhedsprofil taler desuden imod. Produktet er kun godkendt til dyr.
-
-De øvrige forudsagte indikationer (Laubry-Pezzi syndrom, Pierre Robin syndrom, partiel deletion af kromosom 7q) har evidensniveau L5, uden mekanistisk sammenhæng og uden nogen studier. De bør ikke forfølges. Hjertesygdom optræder to gange i forudsigelseslisten (rang 1 og 2), ligesom de øvrige indikationer er duplikeret.
+Forudsigelsen er baseret udelukkende på en modelscore uden klinisk eller mekanistisk støtte. Den eksisterende litteratur er veterinær og relaterer sig ikke til behandling af hjertesygdom, og klassens kardiovaskulære sikkerhedsprofil taler imod anvendelse. Enrofloxacin er desuden kun godkendt til dyr i Danmark.
 
 **For at komme videre kræves:**
-- Pakningsindlæg/SmPC fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende datahul)
-- Mekanismedata (MOA) fra DrugBank
-- Vurdering af, om et humant fluorquinolon er et relevant alternativ, da enrofloxacin ikke er godkendt til mennesker
-- Systematisk gennemgang af kardial sikkerhed (QT, arytmi) før enhver videre vurdering
-- Eventuelt målrettet vurdering af infektionsudløst myokarditis som afgrænset hypotese
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser fra modellen kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) og en plausibel mekanistisk hypotese for hjertesygdom
+- Indhentning og gennemgang af produktresuméet (SmPC) med advarsler og kontraindikationer
+- Prækliniske studier, der understøtter en kardiel effekt, før kliniske forsøg overvejes
+- Vurdering af, om et humant fluorquinolon (fx ciprofloxacin) er mere relevant at evaluere end et veterinærlægemiddel
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

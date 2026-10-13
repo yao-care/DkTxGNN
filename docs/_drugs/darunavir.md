@@ -2,7 +2,7 @@
 layout: default
 title: Darunavir
 parent: Moderat evidens (L3-L4)
-nav_order: 132
+nav_order: 240
 evidence_level: L4
 indication_count: 8
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Darunavir: Fra hiv-1-infektion til simian immundefektvirus-infektion
+# Darunavir: Fra HIV-infektion til simian immundefektvirus-infektion
 
 ## Resumé i én sætning
 
-Darunavir er en hiv-proteasehæmmer, der er markedsført i Danmark som filmovertrukne tabletter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **simian immundefektvirus (SIV)-infektion** (score 99,97 %). Støtten består af **4 publikationer** fra dyreforsøg i makakaber og **0 kliniske forsøg**. Forudsigelsen er biologisk plausibel, men den omhandler en dyremodel for hiv og ikke en ny human indikation.
+Darunavir er en HIV-1-proteasehæmmer, som oprindeligt anvendes til behandling af HIV-infektion og AIDS.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **simian immundefektvirus-infektion (SIV)**,
+men støtten består kun af **4 publikationer** fra dyreforsøg (non-humane primater) og **ingen kliniske forsøg**. Indikationen er i praksis en forskningsmodel-udvidelse af den godkendte HIV-indikation og ikke en ny human anvendelse.
 
 ---
 
@@ -41,11 +43,11 @@ Darunavir er en hiv-proteasehæmmer, der er markedsført i Danmark som filmovert
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i godkendelsesdata (darunavir anvendes mod hiv-1-infektion) |
+| Oprindelig indikation | HIV-infektion og AIDS (fra videnbasen; dansk indikationstekst er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| TxGNN-prediktionsscore | 99,97 % |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -53,44 +55,45 @@ Darunavir er en hiv-proteasehæmmer, der er markedsført i Danmark som filmovert
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata (MOA) er ikke tilgængelige i datagrundlaget. Darunavir er en hiv-1-proteasehæmmer. Proteasen kløver virale polyproteiner, så der dannes modne, infektiøse viruspartikler.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Darunavir tilhører dog klassen af HIV-1-proteasehæmmere, og dets effekt ved HIV-infektion er veldokumenteret.
 
-SIV er en nær beslægtet lentivirus med en homolog protease. Det gør en klasseeffekt mekanistisk plausibel og forklarer den høje modelscore. SIV-infektion i makakaber er imidlertid en dyremodel for hiv. Forudsigelsen gentager derfor i det væsentlige den allerede godkendte hiv-1-anvendelse og tilfører ingen ny human indikation.
+SIV er en lentivirus, der er tæt beslægtet med HIV. Proteasehæmning er derfor en mulig mekanisme, men darunavirs aktivitet over for SIV-protease er ikke påvist i de foreliggende data. De fire fundne artikler er studier i rhesusaber af kombinerede antiretrovirale regimer, hvor man hovedsageligt testede tillægsstoffer (en HDAC-hæmmer og auranofin) eller langtidsvirkende formuleringer. De understøtter SIV-abemodellen som platform til at studere antiretroviral behandling, men isolerer ikke darunavirs egen effekt.
+
+Den høje score afspejler sandsynligvis tæt nærhed til HIV/AIDS i videnbasens netværk. Øvrige forudsigelser (felint erhvervet immundefektsyndrom, en sjælden neuroudviklingsforstyrrelse og en forældet betegnelse for familiær kombineret hyperlipidæmi) har ingen kliniske data og ingen plausibel mekanistisk begrundelse. For hyperlipidæmi er forbindelsen snarere en bivirkning (dyslipidæmi ved proteasehæmmere) end en terapeutisk effekt.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret for SIV-infektion.
-
-Til gengæld er det humane hiv-1-forsøg [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) (fase 4, afsluttet, n=145) knyttet til den beslægtede forudsigelse "felint erhvervet immundefektsyndrom". Det er et randomiseret, åbent forsøg med boostet darunavir plus lamivudin versus boostet darunavir plus tenofovir/emtricitabin eller tenofovir/lamivudin hos behandlingsnaive hiv-1-patienter. Forsøget understøtter den godkendte humane anvendelse, ikke den forudsagte indikation. Koblingen skyldes sandsynligvis ontologi-mapping.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Prækliniske dyreforsøg (NHP) | PLoS Pathogens | Intensiveret flerlægemiddel-ART gav langvarig virussuppression og begrænsede det virale reservoir i en simian AIDS-model |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Prækliniske dyreforsøg (NHP) | AIDS | Guldforbindelsen auranofin sammen med ART begrænsede det virale reservoir og medførte kontrol af virusmængden efter ART-ophør |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Prækliniske dyreforsøg (NHP) | PLoS ONE | Suppressiv kombinations-ART kombineret med HDAC-hæmmeren SAHA i SIV-inficerede kinesiske rhesusaber |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prækliniske dyreforsøg (NHP) | AIDS Research and Human Retroviruses | Sammenligning af to nye koformulerede injicerbare kombinations-ART-regimer i SIV-inficerede rhesusaber |
-
-Alle fire studier er dyreforsøg i makakaber. De undersøger ART-regimer og virale reservoirer generelt, og ingen af dem er designet til at vurdere darunavir som selvstændig ny behandling.
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Prækliniske (non-humane primater) | PLoS One | Intensiv kombinationsbehandling med antiretrovirale lægemidler og HDAC-hæmmeren SAHA i SIV-inficerede kinesiske rhesusaber som model for virale reservoirer |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prækliniske (non-humane primater) | AIDS Res Hum Retroviruses | Sammenligning af to injicerbare, samformulerede kombinationsregimer i SIV-inficerede rhesusaber |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Prækliniske (non-humane primater) | AIDS | Guldforbindelsen auranofin reducerede det virale reservoir og gav kontrol af virusmængden efter ophør af behandling |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Prækliniske (non-humane primater) | PLoS Pathogens | Kraftigt intensiveret antiretroviral behandling gav langvarig virussuppression og begrænsning af det virale reservoir i en simian AIDS-model |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105870116 | Darunavir "Krka" (KRKA d.d. Novo mesto) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28105870116 | Darunavir "Krka" (KRKA d.d. Novo mesto) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i datagrundlaget, og der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Sygdomme, hvor lægemidlet er anført som kontraindiceret i videnbasen** (ikke fra produktresuméet): leversvigt, leversygdom, galdeblæresygdom, hyperglykæmi, levercirrose, diabetes mellitus, diabetisk ketoacidose, kronisk og øvrig hepatitis C-virusinfektion, kronisk hepatitis B-virusinfektion, hypertriglyceridæmi, hæmofili og symptomatisk hæmofili hos kvindelige bærere.
+- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt de viste er størstedelen af moderat grad, bl.a. med acarbose, metformin, pioglitazon, alogliptin, saxagliptin, canagliflozin, dapagliflozin (antidiabetika), kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon), aprepitant og clarithromycin. Interaktionen med **cisaprid** er klassificeret som **alvorlig (Major)**.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -99,15 +102,13 @@ Der foreligger ingen sikkerhedsdata i datagrundlaget, og der er ikke fundet regi
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen gælder en dyremodel (SIV i makakaber) og ikke en ny human sygdom. Evidensen er udelukkende prækliniske studier (L4), og der er ingen kliniske forsøg.
-- De øvrige forudsigelser (felint immundefektsyndrom, et sjældent neuroudviklingssyndrom og forældet familiær kombineret hyperlipidæmi) har enten ingen human relevans eller ingen evidens (L5). For hyperlipidæmi kan retningen endda være modsat, da hiv-proteasehæmmere generelt er forbundet med dyslipidæmi som bivirkning.
+Evidensen består udelukkende af prækliniske studier i aber, som ikke isolerer darunavirs effekt, og der er ingen kliniske forsøg. Indikationen har ingen reel human terapeutisk relevans ud over den allerede godkendte HIV-indikation.
 
-**For at komme videre kræves:**
-- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen, så advarsler og kontraindikationer kan gennemgås. Dette er en blokerende mangel for sikkerhedsvurderingen.
-- Detaljerede mekanismedata (MOA) fra DrugBank.
-- En afklaring af, om en forudsigelse om en dyremodel overhovedet har relevans for human repurposing. Ellers bør fokus flyttes til forudsigelser med humane sygdomsmål.
-
-*Dette resultat er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at gå videre er følgende nødvendigt:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra det danske produktresumé (Lægemiddelstyrelsen)
+- Data om darunavirs aktivitet over for SIV-protease og studier, der isolerer darunavirs bidrag
+- Afklaring af, om en veterinær- eller forskningsmodelanvendelse overhovedet er relevant for sundhedsfaglig beslutningstagning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

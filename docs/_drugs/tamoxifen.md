@@ -2,7 +2,7 @@
 layout: default
 title: Tamoxifen
 parent: Moderat evidens (L3-L4)
-nav_order: 419
+nav_order: 791
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,94 +29,113 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tamoxifen: Fra oprindelig indikation (ikke oplyst) til mammær Pagets sygdom
+# Tamoxifen: Fra brystkræft til mammær Pagets sygdom
 
-## Resumé i få sætninger
+## Resumé
 
-Tamoxifen er et hormonelt lægemiddel (selektiv østrogenreceptormodulator), som er markedsført i Danmark som tabletter. Den oprindelige godkendte indikation fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at tamoxifen kan have effekt ved **mammær Pagets sygdom**. Evidensen er svag: **1 klinisk forsøg** (som ikke tester tamoxifen mod sygdommen) og **13 publikationer**, hvoraf kun **10 er vist her**. De er næsten udelukkende kasuistikker og små serier.
+Tamoxifen er en hormonblokerende kræftbehandling (selektiv østrogenreceptormodulator), som oprindeligt anvendes til brystkræft.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **mammær Pagets sygdom** (Pagets sygdom i brystvorten).
+Evidensen er **svag**: der er **1 registreret klinisk forsøg**, som ikke tester tamoxifens effekt ved denne sygdom, og **10 publikationer**, hvoraf de fleste er kasuistikker og oversigtsartikler.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst (indikationsteksten i markedsføringstilladelsen er tom) |
+| Oprindelig indikation | Brystkræft hos kvinder (bl.a. invasivt duktalt karcinom og duktalt adenokarcinom i brystet) |
 | Forudsagt ny indikation | Mammær Pagets sygdom |
 | TxGNN-forudsigelsesscore | 99,69 % |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (forskningsspørgsmål) |
+| Anbefalet beslutning | Hold |
+
+---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme. Baseret på kendt information er tamoxifen en selektiv østrogenreceptormodulator, der blokerer østrogensignalering i hormonreceptorpositive tumorer, og den kan mekanistisk være relevant for mammær Pagets sygdom.
+De data, der er indsamlet til denne rapport, indeholder ingen detaljeret beskrivelse af virkningsmekanismen. Tamoxifen er kendt som en selektiv østrogenreceptormodulator. Den blokerer østrogenets effekt på østrogenfølsomt brystvæv og hæmmer dermed væksten af hormonfølsomme tumorceller.
 
-Mammær Pagets sygdom ledsages næsten altid af underliggende duktalt carcinoma in situ (DCIS) eller invasivt brystkarcinom. En eventuel effekt af tamoxifen skyldes derfor sandsynligvis den endokrine behandling af den underliggende hormonreceptorpositive sygdom og ikke en direkte virkning på Paget-cellerne.
+Mammær Pagets sygdom optræder ofte sammen med en underliggende duktal carcinoma in situ eller invasiv duktal kræft i brystet. Det er netop sygdomme, hvor tamoxifen allerede er etableret. Hvis den underliggende tumor er østrogenreceptorpositiv, er hormonbehandling biologisk plausibel.
 
-Det eneste tegn på hormonfølsomhed i litteraturen er kasuistikker. De omfatter en patient med udbredt Pagets sygdom i brystvorten, der responderede på tamoxifen, og en patient med hormonreceptorpositiv ekstramammær Pagets sygdom. Modellens score adskiller ikke denne indikation fra de øvrige forudsigelser, og den kan ikke tages som bevis for klinisk effekt.
+Der er dog **ingen direkte evidens** for, at tamoxifen virker ved selve Pagets sygdom. Der foreligger kun få kasuistikker, bl.a. en beskrivelse af respons ved hormonreceptorpositiv *ekstramammær* Pagets sygdom, som er en anden sygdom. Den høje TxGNN-score afspejler sandsynligvis, at sygdommen ligger tæt på brystkræft i modellens vidensgraf, og ikke selvstændig evidens.
 
-## Klinisk evidens (forsøg)
+---
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+## Evidens fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Fase 3 | Afsluttet | 313 | Medroxyprogesteronacetat versus observation til forebyggelse af endometrieforandringer hos postmenopausale brystkræftpatienter i tamoxifenbehandling. Forsøget tester ikke tamoxifen mod Pagets sygdom og giver ingen direkte effektdata. |
+| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Fase 3 | Afsluttet | 313 | Medroxyprogesteronacetat versus observation til forebyggelse af endometriepatologi hos postmenopausale kvinder med brystkræft (herunder Pagets sygdom i brystvorten), som behandles med tamoxifen. Forsøget tester ikke tamoxifens effekt ved Pagets sygdom og kan ikke støtte indikationen. |
 
-## Litteraturevidens
+Der er ikke fundet EudraCT-identifikatorer i de indsamlede data.
 
-Der er vist 10 af 13 publikationer. Tre blev fravalgt som irrelevante (to om knoglesygdom og raloxifen, én om reddende behandling af DCIS-recidiv).
+---
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+## Evidens fra litteraturen
+
+Der er ingen randomiserede studier. Tabellen er sorteret med de mest relevante først.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Metaanalyse | Breast Care | Lokalt recidiv efter mastektomi og brystbevarende kirurgi ved Pagets sygdom i brystet (20-40 %). Omtaler ikke tamoxifen. |
-| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Kasuistik | Investigational New Drugs | Vellykket tamoxifenbehandling af hormonreceptorpositiv metastatisk ekstramammær Pagets sygdom (ikke brystet). |
-| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | Kasuistik | Breast | Usædvanligt udbredt Pagets sygdom i brystvorten. Respons på tamoxifen, komplet respons på strålebehandling. |
-| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Serie/oversigt | Br J Surg | 48 kvinder med Pagets sygdom i brystvorten. Behandlet med mastektomi i de fleste tilfælde og med tamoxifen i ét tilfælde. |
-| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | Kasuistik | Il Giornale di Chirurgia | Pagets sygdom i mandens bryst. Sjælden, ingen standardbehandling, kan skjule invasivt duktalt karcinom. |
-| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Kasuistik | Surgery Today | Synkront bilateralt brystkræft med Pagets sygdom og invasivt duktalt karcinom. |
-| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Kasuistik | Arch Gynecol Obstet | Pagets sygdom i vulva og bryst med samtidig underliggende kræft. |
-| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Kasuistik/oversigt | Am Surg | Pagets sygdom i mandens bryst og gennemgang af 32 tilfælde i litteraturen. |
-| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Serie | Clin Breast Cancer | Pagets sygdom i brystvorten som lokalt recidiv efter brystbevarende behandling. |
-| [17319355](https://pubmed.ncbi.nlm.nih.gov/17319355/) | 2006 | Serie | Niger J Clin Pract | 8 tilfælde (3,3 %) af Pagets sygdom blandt 240 brystkræftpatienter i Benin City, Nigeria. |
+| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Metaanalyse | Breast Care | Lokalt recidiv efter mastektomi og brystbevarende kirurgi ved Pagets sygdom. Samlet recidivrate på op til 20-40 %. Omhandler ikke tamoxifen direkte. |
+| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | Kasuistik | Breast | Usædvanligt udbredt Pagets sygdom i brystvorten. Respons på tamoxifen, derefter komplet respons på strålebehandling. |
+| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Kasuistik | Investigational New Drugs | Succesfuld behandling af hormonreceptorpositiv metastatisk ekstramammær Pagets sygdom med tamoxifen (en anden sygdom). |
+| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Oversigt/serie | British Journal of Surgery | 48 kvinder med Pagets sygdom i brystvorten. Behandling hovedsageligt kirurgisk, kun ét tilfælde behandlet med tamoxifen. |
+| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Kasuistik | The American Surgeon | Pagets sygdom i mandens bryst med gennemgang af 32 tilfælde i litteraturen. |
+| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Kasuistik | Surgery Today | Synkron bilateral brystkræft med Pagets sygdom og invasivt duktalt karcinom. |
+| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Kohorte/kasuistik | Archives of Gynecology and Obstetrics | Pagets sygdom i vulva og bryst med samtidig underliggende kræft. |
+| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Kasuistik | Clinical Breast Cancer | Pagets sygdom i brystvorten som lokalt recidiv efter brystbevarende behandling. |
+| [17319355](https://pubmed.ncbi.nlm.nih.gov/17319355/) | 2006 | Serie | Nigerian Journal of Clinical Practice | 8 tilfælde af Pagets sygdom i brystvorten blandt 240 patienter med brystkræft i Benin City, Nigeria. |
+| [18288984](https://pubmed.ncbi.nlm.nih.gov/18288984/) | 2008 | Oversigt | Current Medicinal Chemistry | Farmakoterapi ved knogletab. Kun perifert relevant. |
+
+---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101255886 | Tamoxifen "Viatris" (Viatris Limited) | Tabletter | Ikke oplyst i datagrundlaget |
+| 28101255886 | Tamoxifen "Viatris" (Viatris Limited) | Tabletter | Ikke angivet i de indsamlede data |
+
+---
 
 ## Cytotoksicitet
-
-Tamoxifen er et lægemiddel mod kræft, men hører til hormonbehandling og ikke til konventionel cytostatika. Oplysningerne nedenfor er baseret på lægemiddelklassen, da datagrundlaget ikke indeholder toksicitetsdata.
 
 | Punkt | Indhold |
 |------|------|
 | Cytotoksicitetsklassifikation | Hormonbehandling (selektiv østrogenreceptormodulator), ikke konventionel cytostatika |
-| Risiko for myelosuppression | Lav (klassebaseret vurdering) |
-| Emetogenicitetsklasse | Lav (klassebaseret vurdering) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for anbefalet monitorering |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer |
+| Risiko for knoglemarvssuppression | Generelt lav, men leukopeni og trombocytopeni optræder som kontraindikationer i vidensgrafen (se nedenfor) |
+| Emetogenicitet | Lav |
+| Overvågningsparametre | Blodtal, lever- og nyrefunktion, calcium (især ved knoglemetastaser) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for krav til håndtering |
+
+Klassifikationen bygger på almindelig farmakologisk viden og ikke på produktspecifikke data. Se produktresuméets (SmPC) advarsler og forsigtighedsregler for fuldstændige oplysninger.
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet data om interaktioner i datagrundlaget. Det skal betragtes som ikke verificeret og ikke som fravær af interaktioner.
+- **Kontraindikationer/sygdomme med risiko (fra vidensgraf, ikke produktresumé):** trombocytopeni, leukopeni, hypercalcæmi, nefrokalcinose, forstyrrelser i fosformetabolismen, slagtilfælde og cerebrovaskulære lidelser, hjerneinfarkt, lungeemboli og synsforstyrrelser/blindhed.
+- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Af de 20 gennemgåede er følgende **alvorlige (Major)**: bupropion, lorcaserin, cimetidin, dolasetron, eliglustat, cisaprid, dexfenfluramin og fenfluramin. Moderate interaktioner omfatter bl.a. famotidin, loperamid, aprepitant, dexamethason, clarithromycin, granisetron og levofloxacin.
+
+Oplysninger om advarsler og kontraindikationer fra det danske produktresumé indgår ikke i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der findes ingen forsøg, der tester tamoxifen ved mammær Pagets sygdom. Det eneste fase 3-forsøg handler om endometriebeskyttelse, og litteraturen består af kasuistikker, små serier og oversigter. En eventuel fordel følger sandsynligvis af behandlingen af den underliggende hormonreceptorpositive brystkræft.
-
-Bemærk, at samme datagrundlag viser **brystcarcinoma in situ** (rang 7-8) med evidensniveau L1 og anbefaling "Proceed with Guardrails". Dér findes placebokontrollerede RCT'er med lavdosis-tamoxifen (TAM-01) og Cochrane-oversigter. Det er dog en etableret anvendelse og ikke en ny indikation, og de tomme felter for oprindelig indikation og virkningsmekanisme ligner datamangler.
+Evidensen for tamoxifen ved mammær Pagets sygdom består kun af modelforudsigelse, mekanistisk plausibilitet og få kasuistikker. Det eneste identificerede kliniske forsøg tester ikke tamoxifens effekt ved denne sygdom. Til sammenligning har den samme dataanalyse fundet langt stærkere evidens (L1, herunder placebokontrollerede fase 3-studier med lavdosis tamoxifen) for en anden forudsagt indikation, *breast carcinoma in situ* (DCIS). Det er en mere oplagt kandidat til videre vurdering.
 
 **For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og interaktioner
-- Data om virkningsmekanisme og oprindelig godkendt indikation (fx fra DrugBank)
-- Gennemgang af de manglende 3 publikationer og afklaring af ER-status i de beskrevne tilfælde
-- Vurdering af, om indikationen bør vurderes under DCIS/brystkræft frem for Pagets sygdom isoleret
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+- Det danske produktresumé (SmPC) med advarsler, kontraindikationer og godkendte indikationer
+- Data om virkningsmekanisme
+- Data om østrogenreceptorstatus ved Pagets sygdom og den underliggende tumor
+- Prospektive eller retrospektive kliniske studier af tamoxifen specifikt ved mammær Pagets sygdom
+- En sikkerhedsvurdering med fokus på tromboemboliske hændelser, endometriet og de alvorlige interaktioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

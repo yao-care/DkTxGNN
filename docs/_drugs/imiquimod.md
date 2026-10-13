@@ -2,7 +2,7 @@
 layout: default
 title: Imiquimod
 parent: Høj evidens (L1-L2)
-nav_order: 229
+nav_order: 432
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imiquimod: Fra topisk immunmodulator til præmalign neoplasi
+# Imiquimod: Fra hudlidelser og HPV-relaterede læsioner til præmaligne neoplasmer
 
-## Resumé i få sætninger
+## Opsummering i én sætning
 
-Imiquimod er en topisk immunmodulator (TLR7-agonist), som markedsføres i Danmark som creme (Aldara). Indikationsteksten for den danske autorisation er ikke angivet i datagrundlaget.
-TxGNN-modellen forudsiger, at stoffet kan være virksomt ved **præmaligne neoplasier** (fx aktinisk keratose og intraepitelial neoplasi i cervix og vulva).
-Retningen understøttes af **19 kliniske studier** og **9 publikationer**, men de fleste studier er små, og flere er afbrudt eller har ukendt status.
+Imiquimod er en topisk creme, der oprindeligt bruges til behandling af bl.a. almindelige vorter, anogenitale HPV-infektioner, aktinisk keratose og overfladisk basalcellekarcinom.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **præmaligne neoplasmer**,
+og der foreligger **2 kliniske forsøg** (begge fase 3, men små) og **9 publikationer** for denne retning.
 
 ---
 
@@ -43,80 +43,89 @@ Retningen understøttes af **19 kliniske studier** og **9 publikationer**, men d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske autorisation. Typisk anførte indikationer (aktinisk keratose, superficielt basalcellekarcinom, kønsvorter) skal verificeres mod produktresuméet |
-| Forudsagt ny indikation | Præmalign neoplasi (pre-malignant neoplasm) |
+| Oprindelig indikation | Almindelige vorter, anogenitale HPV-infektioner, aktinisk keratose, overfladisk multifokalt basalcellekarcinom m.fl. (den danske godkendelsestekst er ikke tilgængelig i de indsamlede data; indikationerne stammer fra TxGNN-vidensgrafen) |
+| Forudsagt ny indikation | Præmalignt neoplasme |
 | TxGNN-forudsigelsesscore | 99,92 % |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i datagrundlaget. Ud fra kendt farmakologi er imiquimod en agonist af Toll-like receptor 7 (TLR7). Den inducerer lokalt interferon-alfa, TNF-alfa og IL-12 og aktiverer dermed det medfødte og Th1-baserede immunforsvar. Det fremmer udrensning af dysplastisk og HPV-inficeret epitel.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden er imiquimod en agonist af Toll-like receptor 7 (TLR7). Den udløser lokal frigivelse af interferon-alfa, TNF-alfa og IL-12 og fremmer et Th1-præget cytotoksisk immunrespons. Bemærk, at denne beskrivelse bygger på almen viden og ikke på de leverede data.
 
-Præmaligne læsioner som aktinisk keratose, VIN (vulvær intraepitelial neoplasi), CIN (cervikal intraepitelial neoplasi) og AIN (anal intraepitelial neoplasi) er epiteliale forandringer, hvor lokal immunaktivering er en biologisk plausibel behandlingsstrategi. Flere af de identificerede studier tester netop imiquimod ved disse tilstande.
+Flere af de kendte indikationer, især aktinisk keratose og HPV-relaterede læsioner, er selv præmaligne eller grænser op til præmaligne tilstande. Et immunstimulerende middel, der kan fjerne sådanne hudlæsioner, er derfor mekanistisk plausibelt også ved andre præmaligne epitelforandringer som vulvær, anal og cervikal intraepitelial neoplasi (VIN, AIN, CIN).
 
-Da den oprindelige indikation og MOA mangler i datagrundlaget, bør det verificeres, om der reelt er tale om nyt brug, eller om dele af indikationen allerede er dækket af den godkendte produktinformation.
+Den høje modelscore er en beregnet forudsigelse og er ikke i sig selv bevis for effekt.
 
 ---
 
-## Evidens fra kliniske studier
+## Evidens fra kliniske forsøg
 
-Der er registreret 19 relaterede studier. Her vises de 10 mest relevante.
-
-| Studienummer | Fase | Status | Antal deltagere | Hovedfund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Fase 4 | Ukendt | 20 | Imiquimod 3,75 % efter kryoterapi ved hypertrofisk aktinisk keratose på hænder og underarme |
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Afbrudt | 9 | Randomiseret studie (TOPIC-3) af topisk imiquimod ved højgradig CIN. Underpowered, da kun 9 blev inkluderet |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Fase 2 | Afsluttet | 90 | Randomiseret studie af topisk imiquimod ved højgradige cervikale intraepiteliale læsioner |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Afsluttet | 20 | Åbent studie af imiquimod 5 % tre dage om ugen i 1-2 serier ved aktinisk keratose i hovedet |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Fase 1 | Afbrudt | 49 | Randomiseret sammenligning af imiquimod 5 %, 0,05 % og nanoindkapslet 0,05 % gel ved aktinisk cheilitis |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Fase 3 | Afsluttet | 259 | Imiquimod som neoadjuverende behandling ved lentigo maligna i ansigtet (reduktion af excisionsstørrelse). Intraepidermal melanocytær proliferation, tæt på præmalign tilstand |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Fase 2 | Afsluttet | 5 | Mekanistisk studie af immunescape og imiquimodeffekt ved VIN 2/3 og anogenitale vorter |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Fase 3 | Ukendt | 145 | Kurettage plus imiquimod versus kirurgisk excision ved nodulært basalcellekarcinom. Malign tilstand, så evidensen er kun nærliggende |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Early fase 1 | Afsluttet | 16 | Pilotstudie af neoadjuverende imiquimod ved tidlig oral planocellulært karcinom |
-| [NCT03872947](https://clinicaltrials.gov/study/NCT03872947) | Fase 1 | Aktiv, rekrutterer ikke | 138 | TRK-950 i kombination med bl.a. imiquimod-creme ved udvalgte solide tumorer. Imiquimod er kombinationskomponent |
-
-Resten af studierne (mange fase 1-vaccinestudier ved gliom, melanom, lungekræft og prostatakræft) bruger imiquimod som adjuvans og er ikke direkte relevante for præmaligne læsioner.
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Afsluttet | 20 | Åbent enkeltarmet studie af imiquimod 5 % creme 3 dage om ugen i 1-2 cyklusser ved aktinisk keratose på hovedet. Understøtter gennemførlighed og dosering, men ikke kontrolleret effekt. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Afbrudt | 9 | Randomiseret forsøg med topisk imiquimod ved højgradig cervikal intraepitelial neoplasi (CIN 2-3). Afbrudt med kun 9 deltagere og kan derfor ikke understøtte en effektkonklusion. |
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Medicinske interventioner ved højgradig VIN. Der er ingen konsensus om optimal behandling, og kirurgi har høj morbiditet og recidivrate |
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Interventioner ved analkanal-intraepitelial neoplasi (AIN), især hos hiv-positive mænd, der har sex med mænd |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | Topikale strategier ved non-melanom hudkræft og forstadier (fluorouracil, diclofenac, imiquimod, fotodynamisk terapi) |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Letter | Aktuel behandling af aktinisk keratose, herunder topikale feltterapier |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Interventioner ved analkanal-intraepitelial neoplasi (AIN), en HPV-relateret præmalign tilstand |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Medicinske interventioner ved højgradig vulvær intraepitelial neoplasi (VIN) |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Letter | Aktuel behandling af aktinisk keratose, herunder topiske feltterapier |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | Topiske strategier (fluorouracil, diclofenac, imiquimod, fotodynamisk terapi) ved non-melanom hudkræft og forstadier |
 | [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | Int J Mol Sci | Kombinationsbehandlinger med fotodynamisk terapi ved non-melanom hudkræft |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Prækliniske data (dyr, PK/PD) | Urol Oncol | TLR7-agonister bruges topikalt ved (præ)maligne hudlæsioner og undersøges nu intravesikalt ved blærekræft |
 | [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Case report | Int J STD AIDS | Vellykket behandling af højgradig VIN med imiquimod 5 % hos en nyretransplanteret patient |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case report | Int J STD AIDS | Bowenoid papulose på penis behandlet med imiquimod 5 % med klinisk udrensning og god tolerabilitet |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case report | Int J STD AIDS | Bowenoid papulose på penis behandlet med imiquimod 5 % med fuld afhelning og god tolerans |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Præklinisk (dyr) | Urol Oncol | Farmakokinetik og farmakodynamik af TLR7-agonister i rottemodel; TLR7-agonister bruges topisk ved præmaligne hudlæsioner |
+| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Diagnostisk studie | Hautarzt | Billeddiagnostik af aktinisk porokeratose med OCT; ikke lægemiddelspecifikt |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101813496 | Aldara | Creme | Viatris Healthcare Limited |
+| 28101813496 | Aldara (Viatris Healthcare Limited) | Creme | Indikationstekst er ikke tilgængelig i de indsamlede data |
 
-Den godkendte indikationstekst er ikke tilgængelig i datagrundlaget og skal slås op i produktresuméet hos Lægemiddelstyrelsen.
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
+|------|------|
+| Cytotoksicitetsklassifikation | Immunmodulator (TLR7-agonist) til topisk brug; ikke et konventionelt cytotoksisk middel |
+| Knoglemarvssuppression | Der foreligger ingen data i det indsamlede materiale; se produktresuméet (SmPC) |
+| Emetogenicitet | Der foreligger ingen data i det indsamlede materiale; se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméets (SmPC) advarsler og forsigtighedsregler |
+| Håndtering | Se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen advarsler, kontraindikationer eller interaktionsdata i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer fra vidensgrafen (ikke fra produktresuméet):** Fotoparoxysmal respons, fotosensitivitetssygdom, autoimmun sygdom, graft-versus-host-sygdom og solskade (sunburn).
+- **Lægemiddelinteraktioner:** 59 mulige interaktioner er registreret, men alvorlighedsgraden er ikke angivet (niveau "ukendt"). Eksempler: pantoprazol, morfin, omeprazol, prednison, simvastatin, warfarin, clopidogrel, hydroxychloroquin og ibuprofen.
+- **Sikkerhedssignaler i litteraturen:** Et case report beskriver malign omdannelse af oral papillomatose under imiquimod (PMID 12719972). Andre case reports beskriver erythema multiforme og lichen planopilaris efter brug af imiquimod 5 % hos patienter med Gorlin-syndrom.
 
-Litteraturen til de øvrige forudsagte indikationer indeholder følgende signaler, som bør tages i betragtning ved brug uden for indikation:
-- **Malign transformation**: En kasuistik beskriver malign omdannelse af florid oral og labial papillomatose under topikal imiquimodbehandling ([PMID 12719972](https://pubmed.ncbi.nlm.nih.gov/12719972/)).
-- **Hudreaktioner**: Der er rapporteret erythema multiforme og lichen planopilaris efter topikal imiquimod ([PMID 29173871](https://pubmed.ncbi.nlm.nih.gov/29173871/), [PMID 24575881](https://pubmed.ncbi.nlm.nih.gov/24575881/)).
-- **Off-label brug på slimhinder**: En oversigtsartikel fra 2024 rejser spørgsmål om sikkerheden ved off-label brug i mundhulen ([PMID 38867102](https://pubmed.ncbi.nlm.nih.gov/38867102/)). Slimhindeabsorption og barriereeffekter er ikke velbeskrevet.
+Advarsler og kontraindikationer fra det godkendte produktresumé er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
+
+## Øvrige forudsagte indikationer (kort)
+
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Benign neoplasme i kindslimhinden | 99,91 % | L4 | Kun scoping reviews, dyreforsøg og case reports; ingen kliniske forsøg; sikkerhedssignal (malign omdannelse) skal afklares. Forskningsspørgsmål |
+| Odontogen cyste | 99,91 % | L4 | Litteraturen omhandler Gorlin-Goltz-syndrom og basalcellekarcinomer; ingen evidens for effekt på cyster. Forskningsspørgsmål |
+| Benign neoplasme i tungen | 99,91 % | L5 | Kun ét præklinisk studie af liposomal levering ved hoved-halskræft. Hold |
+| Cervikalt neuroblastom | 99,91 % | L5 | Ingen forsøg og ingen litteratur. Hold |
 
 ---
 
@@ -125,18 +134,14 @@ Litteraturen til de øvrige forudsagte indikationer indeholder følgende signale
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Der er klinisk evidens på niveau L2 for præmaligne hudlæsioner og intraepiteliale neoplasier. Evidensen omfatter et afsluttet randomiseret fase 2-studie ved CIN (n=90) og flere afsluttede fase 3-studier, og den understøttes af to Cochrane-reviews. De mest direkte studier er dog små, afbrudte eller har ukendt status, og sikkerhedsdata fra den danske produktinformation mangler.
+Imiquimod er allerede markedsført i Danmark, og mekanismen er plausibel for præmaligne epitelforandringer. Der foreligger to fase 3-forsøg, men de er små (20 og 9 deltagere), det ene er enkeltarmet og det andet afbrudt, så de giver ikke kontrolleret effektevidens. Evidensen består derfor hovedsageligt af reviews og case reports.
 
 **For at komme videre kræves:**
-- Hent og gennemgå produktresuméet for Aldara fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation). Det er en blokerende datamangel.
-- Verificér den godkendte indikation, så det afklares, om aktinisk keratose allerede er dækket, og hvad der reelt er nyt brug.
-- Indhent data om virkningsmekanisme fra DrugBank.
-- Gennemgå resultater fra de afsluttede studier ved CIN (NCT03233412) og lentigo maligna (NCT01720407) samt Cochrane-reviewene for effektstørrelser.
-- Afklar administrationsvej og lægemiddelform ved slimhindelæsioner (cervix, vulva, anus, mundhule).
-
-**Øvrige forudsigelser (kun kort):** Godartet neoplasi i kindslimhinde og odontogen cyste har evidensniveau L4 og er forskningsspørgsmål. Cervikalt neuroblastom og godartet neoplasi i tungen har evidensniveau L5 og er sat på hold, da de kun hviler på modelforudsigelsen.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til nyt brug af kendte lægemidler kræver klinisk validering, før de kan anvendes.*
+- Fuldstændige oplysninger om advarsler og kontraindikationer fra det danske produktresumé
+- Data om virkningsmekanisme fra DrugBank
+- Veldrevne, tilstrækkeligt store randomiserede forsøg inden for den specifikke præmaligne tilstand (fx VIN, AIN eller CIN)
+- Afklaring af sikkerhedssignaler, især ved slimhindebrug og hos immunsupprimerede patienter
+- Vurdering af lægemiddelform og administrationsvej, da kun creme er godkendt i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

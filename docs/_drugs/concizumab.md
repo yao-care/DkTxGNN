@@ -2,7 +2,7 @@
 layout: default
 title: Concizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 122
+nav_order: 219
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Concizumab: Fra hæmofili til diabetisk katarakt
+# Concizumab: Fra hæmofili til diabetisk grå stær
 
-## Resumé
+## Resumé i én sætning
 
-Concizumab er et anti-TFPI-monoklonalt antistof (tissue factor pathway inhibitor), der markedsføres i Danmark som Alhemo til hæmofili med eller uden inhibitorer.
-TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen bygger udelukkende på en grafbaseret model.
+Concizumab er et monoklonalt antistof mod tissue factor pathway inhibitor (TFPI), som markedsføres i Danmark under navnet Alhemo til forebyggende behandling ved hæmofili A og B.
+TxGNN-modellen forudsiger, at det kan have effekt mod **diabetisk grå stær** (diabetic cataract).
+Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning, så forudsigelsen hviler udelukkende på modellen.
 
 ---
 
@@ -42,8 +43,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, me
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i godkendelsesdata. Ifølge den mekanistiske vurdering anvendes lægemidlet til hæmofili med eller uden inhibitorer |
-| Forudsagt ny indikation | Diabetisk katarakt |
+| Oprindelig indikation | Hæmofili A/B-profylakse (fremgår ikke af den danske tilladelsestekst, som er tom) |
+| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
 | TxGNN-forudsigelsesscore | 98,27 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -54,52 +55,49 @@ TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, me
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen fra DrugBank. Ud fra den kendte information er concizumab et anti-TFPI-antistof, der fremmer trombindannelse. Dets effekt ved hæmofili er forankret i denne koagulationsmekanisme.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Concizumab er dog kendt som et anti-TFPI-antistof. Ved at hæmme TFPI øges trombindannelsen, hvilket understøtter blodets evne til at koagulere hos patienter med hæmofili.
 
-Der er **ingen etableret mekanistisk sammenhæng** mellem anti-TFPI og diabetisk katarakt. Linseuklarhed ved diabetisk katarakt drives af aktivering af polyolvejen, osmotisk stress, oxidativ skade og glykering, og ingen af disse involverer TFPI. Scoren på 0,983 er en ren grafbaseret forudsigelse, som ikke kan kontrolleres mod kendt biologi, fordi lægemidlet ikke har registrerede oprindelige indikationer, og virkningsmekanismen mangler i datagrundlaget.
+Der er ikke identificeret nogen troværdig mekanistisk forbindelse til diabetisk grå stær. Sygdommen skyldes primært aktivering af polyol-vejen, osmotisk og oxidativt stress samt proteinglykering i øjets linse. Intet i de foreliggende data forbinder TFPI-hæmning med disse processer. Den høje score (0,983) er alene en grafbaseret modelforudsigelse uden støtte fra forsøg eller litteratur.
 
-Systemisk prokoagulant aktivitet giver desuden anledning til sikkerhedsmæssig bekymring snarere end en plausibel gavnlig effekt. Det gælder især hos patienter med diabetes, hvor trombotisk risiko skal vurderes omhyggeligt.
+Desuden giver concizumabs systemiske prokoagulante virkning anledning til bekymring for tromboemboliske hændelser, når det skulle bruges ved en ikke-blødningsrelateret sygdom. Det gælder især hos patienter med diabetes, som i forvejen har øget kardiovaskulær og trombotisk risiko.
 
-### Øvrige forudsagte indikationer
+Modellen foreslår også en række beslægtede grå stær-tilstande, som alle har samme score-niveau (ca. 98,2 %) og samme mangel på evidens:
 
-Alle har samme evidensniveau (L5), ingen kliniske forsøg eller litteratur og beslutningen Hold. De fleste er katarakttyper, hvilket tyder på en generel katarakt-klasseassociation i videnskabsgrafen.
-
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+| Forudsagt indikation | Score | Vurdering |
 |------|------|------|
-| Diabetisk katarakt | 98,27 % | Ingen. Polyolvej, oxidativ stress og glykering er uafhængige af TFPI |
-| Tetanisk katarakt | 98,16 % | Ingen. Drevet af hypokalcæmi, uden kendt forbindelse til TFPI |
-| Umoden katarakt | 98,16 % | Ingen. Beskriver et stadium, ikke en selvstændig ætiologi |
-| Moden katarakt | 98,16 % | Ingen. Behandles normalt kirurgisk |
-| Kraniostenose-katarakt | 98,16 % | Ingen. Sjælden syndromal tilstand med udviklingsmæssig eller genetisk baggrund |
-| Type 2-diabetes-associeret katarakt | 98,16 % | Ingen. Samme patologi som diabetisk katarakt |
+| Tetanisk grå stær | 98,16 % | Knyttet til hypokalcæmi; TFPI-hæmning påvirker ikke calciumstofskiftet |
+| Umoden grå stær | 98,16 % | Et klinisk stadium, ikke en mekanismedefineret sygdom; svær at teste |
+| Moden grå stær | 98,16 % | Kirurgi er definitiv behandling; intet rationale for at reversere opacitet |
+| Kraniostenose med grå stær | 98,16 % | Sjælden syndromisk tilstand, sandsynligvis udviklingsmæssig/genetisk; børn kræver meget høj sikkerhedsstandard |
+| Grå stær ved type 2-diabetes | 98,16 % | Samme patologi som diabetisk grå stær; øget trombotisk risiko |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106899823 | Alhemo (Novo Nordisk A/S) | Injektionsvæske, opløsning i fyldt pen | Ikke angivet i data |
+| 28106899823 | Alhemo (Novo Nordisk A/S) | Injektionsvæske, opløsning i fyldt pen | Indikationsteksten er ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet registrerede lægemiddelinteraktioner i de data, der er indsamlet til denne rapport.
 
-Det skal bemærkes, at lægemidlets procoagulante virkning kræver en grundig vurdering af trombotisk risiko, især hos patienter med type 2-diabetes, før nogen videre overvejelse er relevant.
+Det anbefales at konsultere det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, herunder advarsler og kontraindikationer. Som følge af concizumabs prokoagulante virkning bør risikoen for tromboemboliske hændelser vurderes særligt grundigt ved enhver ny anvendelse, især hos patienter med diabetes.
 
 ---
 
@@ -108,17 +106,14 @@ Det skal bemærkes, at lægemidlets procoagulante virkning kræver en grundig vu
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er rent modelbaseret (L5) uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanistisk sammenhæng mellem TFPI-hæmning og linseuklarhed, og lægemidlets prokoagulante profil rejser et sikkerhedsspørgsmål.
+Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse mellem TFPI-hæmning og grå stær. Den prokoagulante virkning udgør desuden en sikkerhedsrisiko for en indikation uden blødningsproblematik.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé for Alhemo
-- Detaljerede data om virkningsmekanismen fra DrugBank
-- Præklinisk eller mekanistisk evidens, der forbinder TFPI-hæmning med linsepatologi
-- En vurdering af trombotisk risiko hos patienter med diabetes
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til repurposing kræver klinisk validering, før de kan anvendes.*
+- Detaljerede data om virkningsmekanismen (MOA) fra DrugBank
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Præklinisk evidens (f.eks. linsemodeller), der kan understøtte en mekanistisk hypotese
+- En vurdering af tromboembolisk risiko hos patienter uden hæmofili, især diabetikere
+- Afklaring af, om der er en mere relevant indikation blandt de forudsagte, da flere af dem er kliniske stadier snarere end selvstændige sygdomme
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

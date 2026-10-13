@@ -2,7 +2,7 @@
 layout: default
 title: Lecanemab
 parent: Kun modelforudsigelse (L5)
-nav_order: 259
+nav_order: 484
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lecanemab: Fra [original indikation er ikke angivet i datagrundlaget] til diabetisk grå stær
+# Lecanemab: Fra Alzheimers sygdom til diabetisk katarakt
 
 ## Resumé i én sætning
 
-Lecanemab er et monoklonalt antistof rettet mod amyloid-beta-protofibriller. Evidence Pack'en angiver ikke den oprindelige indikation, og feltet er tomt både i datagrundlaget og i den danske registrering. TxGNN-modellen forudsiger, at lecanemab kan have effekt på **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Lecanemab er et monoklonalt antistof, der er rettet mod amyloid-beta-protofibriller, og som markedsføres i Danmark under handelsnavnet LEQEMBI. De data, der er indsamlet til denne rapport, indeholder dog ikke en registreret godkendt indikation.
+TxGNN-modellen forudsiger, at lecanemab kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning.
+Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,10 +43,10 @@ Lecanemab er et monoklonalt antistof rettet mod amyloid-beta-protofibriller. Evi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-forudsigelsesscore | 98,5 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i den danske godkendelse er tom) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,48 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -53,55 +55,39 @@ Lecanemab er et monoklonalt antistof rettet mod amyloid-beta-protofibriller. Evi
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i Evidence Pack'en. Lecanemab er et anti-amyloid-beta-protofibril-antistof, og det er den eneste mekanistiske oplysning, vi har.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Lecanemab er kendt som et antistof mod amyloid-beta-protofibriller, og dets oprindelige anvendelse knytter sig til neurodegenerativ sygdom. Mekanismen kan derfor kun omtales på et generelt niveau.
 
-Den eneste tænkelige sammenhæng er, at aggregering af amyloid-beta eller fejlfoldning af proteiner i øjets linse kan bidrage til grå stær. Det er en spekulativ hypotese uden dokumentation i datagrundlaget.
+En spekulativ forbindelse til katarakt kunne være proteinaggregation i øjets linse, da aggregation bidrager til udviklingen af grå stær. Diabetisk katarakt drives dog primært af aktivering af polyol-vejen, osmotisk stress og oxidativ skade. Der er ikke påvist nogen direkte kobling til lecanemabs målstruktur.
 
-Diabetisk grå stær drives hovedsageligt af polyolvejen og oxidativt stress, og det adresserer lecanemabs mekanisme ikke. Et systemisk indgivet antistof har desuden ingen etableret vej til linsen. Den høje score skyldes sandsynligvis nærhed i vidensgrafen til andre katarakt-noder og ikke en reel farmakologisk sammenhæng. Systemiske sikkerhedssignaler (f.eks. ARIA) taler yderligere imod en indikation i en benign tilstand.
+Hertil kommer, at et stort intakt antistof, der gives systemisk som infusion, formodentlig har begrænset penetration til øjets linse. Den score på 98,48 %, som modellen giver, afspejler sandsynligvis grafmæssig lighed mellem katarakt-relaterede termer i vidensgrafen snarere end dokumenteret biologisk relevans.
 
-### Øvrige forudsagte indikationer (alle L5, Hold)
-
-Alle andre forudsigelser i Evidence Pack'en er også former for grå stær. De har lignende scorer og samme evidensniveau, og dubletter er slået sammen.
-
-| Forudsagt indikation | TxGNN-score | Kommentar |
-|------|------|------|
-| Diabetisk grå stær | 98,5 % | Polyolvej og oxidativt stress adresseres ikke af mekanismen |
-| Moden grå stær | 98,4 % | Fremskreden, uigennemsigtig fase, behandles kirurgisk. Ingen evidens for reversering |
-| Umoden grå stær | 98,4 % | Hypotetisk. Kræver prækliniske linsemodeller først |
-| Tetanisk grå stær | 98,4 % | Skyldes forstyrret calciumhomøostase, ingen forbindelse til mekanismen |
-| Grå stær ved type 2-diabetes | 98,4 % | Hyperglykæmi, glykering og oxidativt stress, ikke et mål for lecanemab |
-| Kraniostenose-katarakt | 98,4 % | Sjælden syndromisk eller medfødt form med sandsynlig genetisk årsag |
+Øvrige forudsagte indikationer i samme område har tilsvarende score (ca. 98,4 %) og tilsvarende begrænsninger: moden katarakt, umoden katarakt, tetanisk katarakt, katarakt ved type 2-diabetes og katarakt ved kraniostenose. De fremstår som artefakter fra grafudbredelse og ikke som biologisk begrundede hypoteser.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret (hverken i ClinicalTrials.gov eller ICTRP).
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse nr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106902923 | LEQEMBI (Eisai GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
-
-Lægemidlet gives som infusion (injicerbar administrationsvej). Evidence Pack'en oplyser ikke, om tilladelsen er national eller centraliseret.
+| 28106902923 | LEQEMBI (Eisai GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Ingen interaktioner fundet i forespørgslen (0 resultater).
-- **Systemisk risiko:** Evidence Pack'ens mekanistiske vurdering nævner ARIA (amyloidrelaterede billedanomalier) som et systemisk sikkerhedssignal for antistofklassen. Det vejer tungt mod brug ved en benign øjentilstand.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Det er værd at bemærke, at lecanemab er forbundet med amyloid-relaterede billedabnormiteter (ARIA), som ikke har relevans for den forudsagte indikation, men som er en del af lægemidlets kendte sikkerhedsprofil.
 
 ---
 
@@ -110,15 +96,14 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller publikationer. Den er sandsynligvis en artefakt i vidensgrafen, da lecanemabs mekanisme ikke adresserer katarakts patofysiologi, og et systemisk antistof har ingen kendt vej til linsen. Sikkerhedsprofilen (bl.a. ARIA) opvejer ikke et uddokumenteret potentiale i en benign tilstand.
+Forudsigelsen er udelukkende baseret på en vidensgrafmodel uden kliniske forsøg eller publikationer (evidensniveau L5). Der er ingen etableret mekanistisk sammenhæng mellem lecanemabs mål og diabetisk katarakt, og systemisk levering af et stort antistof til linsen er en yderligere barriere.
 
-**For at komme videre kræves:**
-- Fuldstændige data om oprindelig indikation og virkningsmekanisme (DrugBank)
-- Sikkerhedsoplysninger fra produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som er en blokerende datamangel for sikkerhedsscreening
-- Prækliniske studier i linsemodeller, der undersøger, om amyloid-beta-aggregering bidrager til katarakt, og om antistoffet kan nå linsen
-- En litteratur- og forsøgsgennemgang, der kan løfte evidensniveauet over L5
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser fra repurposing-modeller skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméet for lecanemab i Danmark (advarsler, kontraindikationer og godkendt indikation), da disse data mangler
+- Detaljerede data om virkningsmekanismen (MOA), fx fra DrugBank
+- Prækliniske data, der undersøger, om amyloid-beta eller beslægtede aggregater har en rolle i diabetisk linseopacitet
+- Vurdering af mulighederne for okulær levering af et antistof
+- En samlet vurdering af, om risikoprofilen (herunder ARIA) kan retfærdiggøres i forhold til en indikation, hvor kirurgi er et veletableret alternativ
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

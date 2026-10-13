@@ -2,7 +2,7 @@
 layout: default
 title: Imidacloprid
 parent: Kun modelforudsigelse (L5)
-nav_order: 227
+nav_order: 427
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imidacloprid: Fra veterinær anvendelse til cauda equina-syndrom
+# Imidacloprid: Fra et veterinært lægemiddel til hund til cauda equina-syndrom
 
-## Resumé i én sætning
+## Resumé i en sætning
 
-Imidacloprid er et neonikotinoid insekticid, som i Danmark kun er registreret i et dyrelægemiddel til hunde (Advantage Vet. til hund). TxGNN-modellen forudsiger, at stoffet kan virke ved **cauda equina-syndrom**, men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen. Det er en ren modelforudsigelse (evidensniveau L5).
+Imidacloprid er et insektmiddel af neonikotinoid-typen. I Danmark er det markedsført som veterinært lægemiddel til hund (Advantage Vet.), og et originalt humant indikationsområde er ikke angivet i de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at stoffet kan have effekt på **cauda equina-syndrom**, men der er **0 kliniske forsøg** og **0 relevante publikationer** til støtte for dette.
+Forudsigelsen er udelukkende baseret på en grafmodel og bør betragtes som spekulativ.
 
 ---
 
@@ -41,7 +43,7 @@ Imidacloprid er et neonikotinoid insekticid, som i Danmark kun er registreret i 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske registreringsdata (produktet er et dyrelægemiddel til hund) |
+| Oprindelig indikation | Ikke angivet i godkendelsesteksten (veterinært produkt til hund) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
 | TxGNN-forudsigelsesscore | 99,99 % |
 | Evidensniveau | L5 |
@@ -53,51 +55,47 @@ Imidacloprid er et neonikotinoid insekticid, som i Danmark kun er registreret i 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme i evidenspakken. Imidacloprid er et neonikotinoid insekticid, der aktiverer nikotinerge acetylcholinreceptorer (nAChR) hos insekter. Stoffets affinitet til receptorer hos pattedyr er meget lavere.
+Data om lægemidlets virkningsmekanisme var ikke tilgængelige i de indsamlede data. Imidacloprid er dog kendt som et neonikotinoid, der virker som agonist på insekters nikotinerge acetylcholinreceptorer (nAChR). Stoffet har langt højere affinitet for insekters end for pattedyrs receptorer, hvilket er grunden til, at det anvendes som insekticid.
 
-Cauda equina-syndrom er en kompressiv eller neurogen læsion af nerverødderne i den nederste del af rygmarvskanalen. Der er ikke påvist nogen farmakologisk sammenhæng mellem en nAChR-agonist rettet mod insekter og denne tilstand. Den høje score afspejler sandsynligvis strukturen i vidensgrafen (nærliggende neuro-kolinerge noder) og ikke en reel farmakologisk effekt. Forudsigelsen bør derfor betragtes som en hypotese uden mekanistisk eller klinisk støtte.
+Cauda equina-syndrom er en kompressionsrelateret neurologisk tilstand, som typisk behandles kirurgisk. Der er ikke påvist nogen plausibel mekanistisk sammenhæng mellem en nAChR-agonist rettet mod insekter og behandling af denne tilstand. Den høje score afspejler sandsynligvis mønstre i vidensgrafen snarere end biologisk sandsynlighed.
+
+Andre forudsagte indikationer i datasættet har samme begrænsninger:
+- **Neurogen blære** (betegnelsen er markeret som forældet i ontologien): en teoretisk kolinerg forbindelse, men spekulativ og uden støtte.
+- **Irritabel tarm-syndrom**: enterisk nikotinerg signalering påvirker tarmmotilitet, men imidaclopridens selektivitet og neurotoksicitetssignaler hos pattedyr gør sammenhængen spekulativ.
+- **Medfødt misdannelse af spiserøret**: strukturelle udviklingsafvigelser kan ikke forventes at kunne behandles farmakologisk.
+- **Spiserørssygdom**: se litteraturafsnittet nedenfor.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ikke registreret nogen relaterede kliniske forsøg for cauda equina-syndrom.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur.
+Der er ingen litteratur, som direkte omhandler cauda equina-syndrom. Den eneste fundne publikation vedrører en anden forudsagt indikation (spiserørssygdom):
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [29506575](https://pubmed.ncbi.nlm.nih.gov/29506575/) | 2018 | Veterinært klinisk forsøg (dobbeltblindet, placebokontrolleret) | Parasites & Vectors | Spot-on-præparat med imidacloprid og moxidectin (Advocate®) sammenlignet med injicerbart doramectin ved spirocercose i spiserøret hos hunde. Den antiparasitære effekt tilskrives moxidectin, og studiet understøtter ikke human anvendelse. |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101891197 | Advantage Vet. til hund (Elanco Animal Health GmbH) | Kutanopløsning | Ikke angivet i data |
-
-Produktet er et dyrelægemiddel til udvortes brug og er ikke godkendt til mennesker.
+| 28101891197 | Advantage Vet. til hund (Elanco Animal Health GmbH) | Kutanopløsning | Ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Sikkerhedsoplysninger (advarsler, kontraindikationer) er ikke tilgængelige, og der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der foreligger ikke sikkerhedsdata i de indsamlede data. Der blev ikke fundet oplysninger om lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
----
-
-## Øvrige forudsagte indikationer
-
-Efter sammenlægning af dubletter indeholder evidenspakken fire forudsagte indikationer. Alle er vurderet til Hold.
-
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Cauda equina-syndrom | 99,99 % | L5 | Ingen evidens |
-| Obsolet neurogen blære (sygdomsbetegnelsen er markeret som forældet i ontologien) | 99,98 % | L5 | Spekulativ kolinerg begrundelse. Ingen kliniske eller prækliniske data |
-| Irritabel tarm-syndrom | 99,88 % | L5 | Tre forsøg er matchet på sygdomsbetegnelsen alene. Ingen af dem tester imidacloprid |
-| Ikke-syndromisk esofagusmalformation | 99,63 % | L5 | Ingen plausibel mekanistisk sammenhæng. Udviklings- og teratogenicitetssikkerhed er mere relevant |
-| Esofagussygdom | 99,49 % | L4 | 39 matchede forsøg, hvoraf ingen tester imidacloprid. Eneste lægemiddelspecifikke fund er et veterinært studie (PMID [29506575](https://pubmed.ncbi.nlm.nih.gov/29506575/), 2018, *Parasites & Vectors*) af imidacloprid-moxidectin (Advocate) mod esofageal spirocercose hos hunde. Effekten stammer hovedsageligt fra moxidectin og har ingen overførselsværdi til human esofagussygdom |
+Det bemærkes, at imidacloprid er et veterinært/landbrugsprodukt, og at der er toksikologiske bekymringer vedrørende neurotoksicitet hos pattedyr. Stoffet er ikke etableret som humant lægemiddel.
 
 ---
 
@@ -106,15 +104,13 @@ Efter sammenlægning af dubletter indeholder evidenspakken fire forudsagte indik
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen. Der er ingen støttende forsøg eller publikationer, og der er ikke påvist nogen plausibel sammenhæng mellem et insektselektivt nAChR-agonistisk insekticid og cauda equina-syndrom. Stoffet har ingen terapeutisk anvendelse hos mennesker, og de manglende sikkerhedsdata forhindrer en sikkerhedsscreening.
+Forudsigelsen hviler udelukkende på en grafbaseret score uden kliniske forsøg eller relevant litteratur, og der er ingen plausibel mekanistisk sammenhæng. Stoffet er et veterinært produkt uden etableret human terapeutisk anvendelse.
 
-**For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA), fx fra DrugBank
-- Prækliniske data, der viser en effekt på relevante humane eller dyremodeller for nerverodsskade
-- Vurdering af, om en human anvendelse overhovedet er rimelig, set i lyset af at produktet kun er registreret som dyrelægemiddel til udvortes brug
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at gå videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Indlægsseddel/produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (sikkerhedsscreening kan ikke gennemføres uden)
+- Præklinisk dokumentation for en biologisk sammenhæng mellem stoffet og den forudsagte indikation
+- Vurdering af toksikologi og pattedyrsselektivitet samt administrationsvej (kompatibilitet er ikke afklaret)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

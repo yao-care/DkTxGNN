@@ -2,7 +2,7 @@
 layout: default
 title: Febuxostat
 parent: Moderat evidens (L3-L4)
-nav_order: 188
+nav_order: 347
 evidence_level: L4
 indication_count: 6
 ---
@@ -31,9 +31,9 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 # Febuxostat: Fra hyperurikæmi til renal hypourikæmi
 
-## Resumé i få sætninger
+## Resumé
 
-Febuxostat er en xanthinoxidasehæmmer, der markedsføres i Danmark som Adenuric. Midlet er kendt som urinsyresænkende behandling, men de danske data angiver ikke selve indikationsteksten. TxGNN-modellen forudsiger, at det kan være relevant ved **renal hypourikæmi**. Evidensen er meget begrænset: **1 klinisk forsøg** med uklar relevans og **2 publikationer** (en oversigtsartikel og en hypotese-/case-baseret artikel).
+Febuxostat er en xanthinoxidasehæmmer, som oprindeligt anvendes til behandling af hyperurikæmi (forhøjet urinsyre i blodet). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **renal hypourikæmi** (score 99,99 %), men det understøttes kun af **1 klinisk forsøg** (af usikker relevans) og **2 publikationer**. Den mekanistiske sammenhæng er svag, og modellens høje score skyldes sandsynligvis grafnærhed i urinsyrestofskiftet og ikke en reel forventning om gavn.
 
 ---
 
@@ -41,8 +41,8 @@ Febuxostat er en xanthinoxidasehæmmer, der markedsføres i Danmark som Adenuric
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske registerdata (febuxostat er kendt som urinsyresænkende middel ved hyperurikæmi) |
-| Foreslået ny indikation | Renal hypourikæmi (hypouricemia, renal) |
+| Oprindelig indikation | Hyperurikæmi (fra videngrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
+| Forudsagt ny indikation | Renal hypourikæmi |
 | TxGNN-prædiktionsscore | 99,99 % |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
@@ -51,50 +51,75 @@ Febuxostat er en xanthinoxidasehæmmer, der markedsføres i Danmark som Adenuric
 
 ---
 
-## Hvorfor er denne prædiktion rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Febuxostat tilhører gruppen af ikke-purin selektive xanthinoxidoreduktase-hæmmere (XOR-hæmmere), og lægemidlet sænker dannelsen af urinsyre.
+Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i de indsamlede data. Febuxostat er dog kendt som en ikke-purin selektiv hæmmer af xanthinoxidase, som sænker serumurinsyre. Det er effektivt ved hyperurikæmi.
 
-Ved renal hypourikæmi, fx ved tab af funktion i urattransportørerne URAT1 eller GLUT9, er der risiko for træningsudløst akut nyreskade. Man antager, at en høj urinsyrebelastning i urinen og oxidativt stress spiller en rolle. XOR-hæmmere er foreslået som en mulig måde at mindske udskillelsen af urinsyre og dannelsen af XOR-afledte reaktive iltforbindelser. Det giver en plausibel, men indirekte begrundelse.
+Renal hypourikæmi er en tilstand med i forvejen lav urinsyre i blodet, forårsaget af tab af funktion i urinsyretransportørerne URAT1/GLUT9. En yderligere sænkning af urinsyre er derfor mekanistisk set kontraintuitiv og potentielt skadelig. Den eneste tænkelige kobling findes i litteraturen om xanthinoxidoreduktasehæmmere til forebyggelse af træningsudløst akut nyreskade (EIAKI) hos patienter med renal hypourikæmi. Det er et forebyggende koncept og ikke behandling af selve hypourikæmien.
 
-Der er dog en vigtig modsætning: febuxostat sænker i forvejen serum-urat, og patienter med hypourikæmi har allerede for lavt niveau. Sikkerheden ved denne tilgang er derfor uafklaret. TxGNN-scoren er en beregnet prædiktion og udgør ikke klinisk støtte.
+Modellens høje score bør derfor ikke tolkes som et pålideligt tegn på gavn.
+
+**Andre forudsagte indikationer.** Data indeholder også to mere plausible forudsigelser:
+- **Partiel HPRT-mangel** (score 99,98 %): Overproduktion af urinsyre behandles ved xanthinoxidasehæmning, hvilket svarer til den godkendte indikation. Febuxostat kan være et alternativ ved allopurinol-intolerans. Hypoxanthin og xanthin ophobes under hæmning, så der er risiko for xanthinnefropati og nyresten.
+- **Lesch-Nyhans syndrom** (score 99,68 %): Febuxostat kan kontrollere hyperurikæmi, urat-nefropati og urinsyregigt, men påvirker ikke de neurologiske og adfærdsmæssige symptomer. Brug hos børn er off-label, og evidensen er begrænset til enkelttilfælde.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukendt | 100 | Undersøger effekten af urinsyrekontrol på recidiv af nyresten og nyrefunktion hos patienter med stenlidelse og hyperurikæmi (Shanghai Xu-hui Central Hospital, 2020-2022). Relevansen for renal hypourikæmi kan ikke bekræftes (vurderet som grad C), og forsøget tæller ikke som direkte fase 2- eller fase 3-evidens. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukendt | 100 | Prospektivt kontrolleret studie af effekten af urinsyrekontrol på stenrecidiv og nyrefunktion hos patienter med hyperurikæmi og nyresten. Titlen er kun et institutionsnavn, og forsøget handler ikke direkte om febuxostat ved renal hypourikæmi. |
+
+Der er ingen kliniske forsøg for partiel HPRT-mangel eller Lesch-Nyhans syndrom.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+**Renal hypourikæmi**
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Review/hypotese | Internal Medicine | Beskriver en 16-årig japansk fodboldspiller med familiær renal hypourikæmi (URAT1-mutationer) og gentagne træningsudløste akutte nyreskader. Hydrering forebyggede ikke tilfældene, og man overvejede febuxostat som profylakse. Det fremgår ikke af de foreliggende data, hvad udfaldet var. |
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Narrativ oversigt over hypourikæmi (serum-urat < 2 mg/dL), dens årsager og relevans for reumatologer. Indeholder ikke febuxostat-specifikke effektdata. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Opdatering om hypourikæmi (serumurat < 2 mg/dL) med gennemgang af årsager til tilstanden. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Case/review | Internal Medicine | Mulig anvendelse af xanthinoxidoreduktasehæmmere til forebyggelse af træningsudløst akut nyreskade ved renal hypourikæmi. Beskriver en 16-årig fodboldspiller med familiær renal hypourikæmi (URAT1-mutationer) og tilbagevendende EIAKI, hvor hydrering ikke var tilstrækkeligt forebyggende. |
+
+**Partiel HPRT-mangel**
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [32128695](https://pubmed.ncbi.nlm.nih.gov/32128695/) | 2020 | Case report | CEN Case Reports | Ny HPRT1-mutation (p.V35M) hos en 22-årig mand med juvenil urinsyregigt, hyperurikæmi og nyremikrosten. |
+| [26073243](https://pubmed.ncbi.nlm.nih.gov/26073243/) | 2015 | Case report | Internal Medicine | Partiel HPRT-mangel med ny mutation hos en 15-årig dreng med urinsyregigt. |
+
+**Lesch-Nyhans syndrom**
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [40763966](https://pubmed.ncbi.nlm.nih.gov/40763966/) | 2025 | Case series | Chinese Journal of Medical Genetics | Kliniske, genetiske og terapeutiske karakteristika hos to børn med Lesch-Nyhans syndrom. |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104019206 | Adenuric (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
+| 28104019206 | Adenuric (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Produktresuméets advarsler og kontraindikationer er ikke indlæst.
+- **Kontraindikationer fra videngrafen** (ikke fra produktresuméet): Grafen knytter febuxostat til slagtilfælde/cerebrovaskulær sygdom, hjerneinfarkt, myokardieinfarkt, koronar trombose og hæmoglobinopati. Disse bør vurderes mod produktresuméet.
+- **Lægemiddelinteraktioner:** 22 interaktioner er registreret. Dem af største betydning (**Major**) er:
+  - Mercaptopurin
+  - Azathioprin
+  - Leflunomid
+  - Teriflunomid
 
-Ud fra den foreslåede indikation er følgende forhold særligt vigtige:
-- **Yderligere sænkning af serum-urat:** febuxostat sænker urinsyre hos patienter, der allerede har for lave værdier, og sikkerheden er ikke afklaret.
-- **Generelt for XOR-hæmning:** hypoxanthin og xanthin stiger, så man skal være opmærksom på xanthin-nefropati og stendannelse.
+  Moderate interaktioner omfatter bl.a. theophyllin, aminophyllin, dyphyllin, oxtriphyllin, methotrexat, naltrexon, tioguanin, epirubicin, trabectedin, clofarabin, brentuximab vedotin, asparaginase, pegaspargase og interferon beta-1a/-1b samt peginterferon beta-1a.
+- **Specifikt for de forudsagte indikationer:** Ved partiel HPRT-mangel og Lesch-Nyhans syndrom er der risiko for xanthinnefropati og xanthinsten under xanthinoxidasehæmning.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
 
 ---
 
@@ -103,17 +128,15 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen er på modelprædiktionsniveau (L4). Det eneste forsøg er af uklar relevans, og litteraturen består af en oversigtsartikel og en hypotesebaseret case. Der er en uafklaret sikkerhedsmæssig modsætning, fordi et urinsyresænkende middel foreslås til patienter, der i forvejen har for lav urinsyre.
+- For renal hypourikæmi er evidensen kun på L4-niveau. Yderligere urinsyresænkning er mekanistisk kontraintuitiv, og det eneste forsøg er af uklar relevans. Den høje TxGNN-score er sandsynligvis et artefakt.
+- Partiel HPRT-mangel og Lesch-Nyhans syndrom er mere plausible og kan undersøges som forskningsspørgsmål (kun case-evidens), men indgår ikke i denne beslutning.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som blokerer sikkerhedsscreeningen.
-- Detaljerede data om virkningsmekanismen (fx fra DrugBank).
-- Kontrol af de fulde forsøgsdata for NCT04398251 samt resultatet i den beskrevne case (PMID 36754409).
-- En vurdering af, om serum-urat og urinsyreudskillelse kan monitoreres sikkert, før man overvejer et kontrolleret studie.
-
-Datapakken indeholder også prædiktioner for partiel HPRT-mangel og Lesch-Nyhan syndrom. De er ikke vurderet i denne rapport.
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Data om virkningsmekanisme fra DrugBank
+- Verifikation af registerposten for NCT04398251 (tilstand, intervention og design)
+- Kontrollerede studier eller større opfølgningsdata, hvis forebyggelse af EIAKI ved renal hypourikæmi skal forfølges
+- For HPRT-relaterede indikationer: sammenlignende data med allopurinol og et overvågningsprogram for xanthinnefropati/nyresten
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

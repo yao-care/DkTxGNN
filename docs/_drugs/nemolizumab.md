@@ -2,7 +2,7 @@
 layout: default
 title: Nemolizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 308
+nav_order: 581
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nemolizumab: Fra atopisk dermatitis og prurigo nodularis til diabetisk grå stær
+# Nemolizumab: Fra pruritus ved atopisk dermatitis/prurigo nodularis til diabetisk katarakt
 
-## Resumé
+## Resumé i én sætning
 
-Nemolizumab er et monoklonalt antistof mod IL-31-receptor A. Det er kendt anvendt ved kløe i forbindelse med atopisk dermatitis og prurigo nodularis. Denne oplysning stammer fra den generelle viden i evidenspakken, ikke fra indikationsteksten i den danske registrering.
-TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær**. Der er dog **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
+Nemolizumab er et monoklonalt antistof mod interleukin-31-receptor A (IL-31RA), som er godkendt til behandling af kløe ved atopisk dermatitis og prurigo nodularis. De data, der er indsamlet til denne rapport, indeholder ikke en dansk godkendt indikationstekst.
+TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -42,50 +42,51 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær**. 
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-score | 98,55 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
-| Status på det danske marked | Markedsført |
+| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata (ifølge den kliniske brugsinformation: kløe ved atopisk dermatitis og prurigo nodularis) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,55 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
-
-De 10 øverste forudsigelser handler alle om grå stær: diabetisk, type 2-diabetes-associeret, tetanisk, kraniostenotisk, umoden og moden grå stær. Flere optræder to gange. De har næsten identiske scorer (0,985) og samme evidensniveau, og de er derfor ikke uafhængige signaler.
 
 ---
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i evidenspakken. Nemolizumab er generelt kendt som en IL-31RA-blokker. IL-31-signalering har ingen kendt rolle i diabetisk linseuklarhed, som drives af polyolvejen, oxidativt stress og glykering.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Det er kendt, at nemolizumab er et antistof, der binder IL-31-receptor A-underenheden (IL31RA) og dermed blokerer IL-31-signalering. IL-31 er primært involveret i kløe og i inflammation i huden ved atopisk dermatitis og prurigo nodularis.
 
-Der er ikke fundet nogen understøttet mekanistisk sammenhæng mellem den oprindelige anvendelse og grå stær. Den høje score er sandsynligvis en graf-nærhedseffekt i vidensgrafen, hvor sygdomme inden for grå stær-klyngen får næsten ens scorer. Forudsigelsen bør derfor ikke tolkes som et klinisk signal. Sammenhængen med den oprindelige indikation er endnu ikke vurderet.
+Der er ingen kendt mekanistisk sammenhæng mellem IL-31-blokade og linseuklarhed ved diabetes (polyol-vejen, oxidativt stress, glykering). Den høje score (0,986) afspejler en grafbaseret forudsigelse og ikke biologisk evidens. Scoren er sandsynligvis påvirket af lighed mellem katarakt-relaterede sygdomsbegreber i vidensgrafen.
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+De øvrige forudsagte indikationer i top 10 er alle katarakttyper (blandt andet type 2-diabetes-associeret katarakt, tetanisk katarakt, kraniostenose-katarakt, umoden og moden katarakt). De er vurderet på samme måde: Der er ingen plausibel IL-31RA-medieret mekanisme, og der er hverken kliniske forsøg eller litteratur. Eksempelvis hænger tetanisk katarakt sammen med hypokalcæmi, som ikke har relation til IL-31-vejen, og moden katarakt behandles kirurgisk.
 
 ---
 
-## Evidens fra litteraturen
+## Klinisk evidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
-|---------|------|------|------|
-| 28107111324 | Nemluvio | Pulver og solvens til injektionsvæske, opløsning i fyldt pen | Galderma International |
-
-Indikationsteksten er ikke tilgængelig i de modtagne data.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107111324 | Nemluvio (Galderma International) | Pulver og solvens til injektionsvæske, opløsning i fyldt pen | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** Der er ikke registreret klassiske lægemiddelinteraktioner. Den eneste post i interaktionsdataene er lægemidlets farmakologiske target, IL-31-receptor A (IL31RA). I et fase 1-studie blev der ikke påvist alvorlige bivirkninger hos forsøgspersonerne, og nemolizumab reducerede kløe og brug af hydrocortison hos patienter med atopisk dermatitis.
+
+For øvrig sikkerhedsinformation, herunder advarsler og kontraindikationer, henvises til den godkendte produktresumé (SmPC).
 
 ---
 
@@ -94,16 +95,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore (L5) uden kliniske forsøg eller publikationer. Der er heller ingen plausibel mekanistisk forbindelse mellem IL-31RA-blokade og linseuklarhed ved diabetes.
+Forudsigelsen om diabetisk katarakt (og de øvrige katarakttyper) er alene baseret på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer og uden plausibel biologisk mekanisme. Der er desuden mangler i data om advarsler og kontraindikationer.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA), fx fra DrugBank
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer, så der kan gennemføres sikkerhedsscreening
-- Den godkendte indikationstekst for Nemluvio i Danmark
-- Prækliniske eller mekanistiske studier, der kan påvise en biologisk forbindelse til linsens metabolisme, før der overvejes kliniske studier
-- Vurdering af administrationsvej: nemolizumab gives som subkutan injektion, og det er uafklaret, om det er egnet til en øjenindikation
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Detaljerede data om virkningsmekanismen (fx fra DrugBank)
+- Præklinisk eller mekanistisk evidens for en eventuel rolle for IL-31-signalering i linsen eller ved diabetiske øjenkomplikationer
+- En litteratur- og forsøgsgennemgang, der bekræfter, at der reelt ikke findes støtte for indikationen, før yderligere ressourcer anvendes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

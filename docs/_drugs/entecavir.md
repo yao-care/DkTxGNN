@@ -2,7 +2,7 @@
 layout: default
 title: Entecavir
 parent: Moderat evidens (L3-L4)
-nav_order: 168
+nav_order: 309
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,94 +29,97 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Entecavir: Fra kronisk hepatitis B til kronisk hepatitis C-virusinfektion
+# Entecavir: Fra kronisk hepatitis B til kronisk hepatitis C-infektion
 
-## Kort resumé
+## Resumé i én sætning
 
-Entecavir er en nukleosidanalog, der anvendes mod kronisk hepatitis B (HBV). TxGNN-modellen forudsiger, at stoffet kan virke mod **kronisk hepatitis C-virusinfektion**, men **ingen af de 40 registrerede forsøg og 20 publikationer** viser effekt af entecavir mod HCV. Forudsigelsen er sandsynligvis et udtryk for, at hepatitis B og C ligger tæt på hinanden i videngrafen, og ikke for en reel antiviral effekt.
+Entecavir er et antiviralt middel, der oprindeligt bruges til behandling af kronisk hepatitis B-virusinfektion.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **kronisk hepatitis C-virusinfektion** (score 99,98 %), men de data, der er sammenstillet til denne rapport, viser **ingen direkte evidens** for effekt mod hepatitis C: de 2 tilknyttede forsøg og de tilknyttede publikationer omhandler primært forebyggelse af HBV-reaktivering ved HBV/HCV-samtidig infektion, ikke behandling af HCV.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis B (de danske godkendelser indeholder ingen indikationstekst; oplysningen stammer fra forsøg og litteratur) |
-| Foreslået ny indikation | Kronisk hepatitis C-virusinfektion |
+| Oprindelig indikation | Kronisk hepatitis B-virusinfektion (godkendelsesteksten for de danske tilladelser er ikke tilgængelig i de sammenstillede data) |
+| Forudsagt ny indikation | Kronisk hepatitis C-virusinfektion |
 | TxGNN-forudsigelsesscore | 99,98 % |
 | Evidensniveau | L4 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 2 |
 | Anbefalet beslutning | Hold |
 
+---
+
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datagrundlaget. Ud fra kendt farmakologi er entecavir en guanosinanalog. Efter fosforylering hæmmer den HBV-polymerasen i tre trin: priming, revers transkription og DNA-syntese.
+Der foreligger ingen detaljerede data om virkningsmekanismen i den sammenstillede datamængde. Ud fra kendt farmakologi er entecavir en guanosin-nukleosidanalog, som hæmmer HBV-DNA-polymerasen (revers transkriptase). Hepatitis C-virus replikerer via en RNA-afhængig RNA-polymerase (NS5B), som er et andet enzym, og der er derfor ingen sandsynlig direkte anti-HCV-mekanisme.
 
-HCV er et RNA-virus, som replikerer via NS5B RNA-afhængig RNA-polymerase. Der er derfor ingen plausibel mekanisme for, at entecavir virker mod HCV. Den høje score afspejler formentlig, at hepatitis B og C hyppigt omtales sammen i studier og litteratur, især ved sameksisterende infektion.
+Den høje TxGNN-score afspejler sandsynligvis nærhed i sygdomsnetværket mellem virale leversygdomme og hyppig samtidig infektion med HBV og HCV snarere end reel aktivitet mod HCV. Entecavirs rolle ved samtidig infektion er at behandle eller forebygge reaktivering af HBV-komponenten, f.eks. under direkte virkende antiviral (DAA) behandling af HCV.
 
-Den kliniske relevans af kombinationen er en anden: hos patienter med både HBV og HCV kan HBV reaktiveres under behandling med direkte virkende antivirale midler (DAA) mod HCV. Her bruges entecavir som profylakse mod HBV, ikke som behandling af HCV.
+Forudsigelsen bør derfor ses som en hypotese genereret af modellen og ikke som et reelt repurposing-spor for HCV-behandling.
 
-Modellen har desuden rangeret andre forslag. Hepatitis B-virusinfektion er entecavirs allerede etablerede anvendelse og er derfor ikke et egentligt repurposing-fund. Posten bør rettes i datagrundlaget og ikke behandles som en ny kandidat. For hiv-infektion er der dokumenteret svag aktivitet og risiko for at udvælge M184V-resistensmutationen. Det er et sikkerheds- og resistensproblem, ikke en behandlingsmulighed. Dyresygdommen felin immundefekt er uden for human klinisk repurposing.
+---
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT04405011](https://clinicaltrials.gov/study/NCT04405011) | Ikke angivet | Ukendt | 60 | Nukleosidanalog til forebyggelse af HBV-reaktivering hos HCV/HBV-koinficerede under DAA-behandling. Virker på HBV, ikke HCV |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Afsluttet | 23 | DAA-behandling ved HCV/HBV-koinfektion. HCV behandles med DAA, ikke entecavir |
-| [NCT03272009](https://clinicaltrials.gov/study/NCT03272009) | Fase 1 | Afsluttet | 73 | Sikkerhed og PK for en FXR-agonist ved kronisk HBV. Ingen HCV-data for entecavir |
-| [NCT01037166](https://clinicaltrials.gov/study/NCT01037166) | Fase 2 | Afsluttet | 84 | Japansk entecavir-studie ved HBV med utilstrækkelig respons på lamivudin. Ingen HCV-endepunkt |
-| [NCT01022801](https://clinicaltrials.gov/study/NCT01022801) | Fase 2 | Afsluttet | 120 | Entecavir vs. lamivudin ved HBV i Japan. Intet HCV-resultat |
-| [NCT03662568](https://clinicaltrials.gov/study/NCT03662568) | Fase 1 | Afsluttet | 56 | Interaktionsstudie hos raske med entecavir og et HCV-relateret middel. Kun sikkerhed og PK |
-| [NCT04157257](https://clinicaltrials.gov/study/NCT04157257) | Fase 2 | Ukendt | 60 | QL-007 i kombination med entecavir eller tenofovir ved kronisk hepatitis B |
-| [NCT01925820](https://clinicaltrials.gov/study/NCT01925820) | Fase 4 | Ukendt | 540 | Peginterferon plus entecavir ved HBeAg-negativ kronisk hepatitis B |
-| [NCT06566248](https://clinicaltrials.gov/study/NCT06566248) | Fase 2 | Rekrutterer | 90 | TQA3810 med eller uden nukleosidanaloger ved kronisk hepatitis B |
-| [NCT00065507](https://clinicaltrials.gov/study/NCT00065507) | Fase 3 | Afsluttet | 195 | Entecavir vs. adefovir ved HBV med leverdekompensation |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Afsluttet | 23 | HCV DAA-behandling ved HCV/HBV-samtidig infektion; undersøger HBV-reaktivering. Entecavir er ikke det afprøvede middel, så forsøget giver ingen evidens for effekt mod HCV |
+| [NCT04405011](https://clinicaltrials.gov/study/NCT04405011) | Ikke angivet (N/A) | Ukendt | 60 | Randomiseret forsøg med profylaktisk nukleos(t)idanalog for at forebygge HBV-reaktivering under DAA-behandling; understøtter beskyttelse mod HBV, ikke anti-HCV-aktivitet |
 
-Der er ikke fundet EudraCT-numre i datagrundlaget. Alle forsøg handler om HBV eller koinfektion, og ingen undersøger entecavir som HCV-behandling.
+---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+De mest relevante publikationer i de sammenstillede data (udvalg):
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Kohorte | Viruses | HCV-reaktivering hos anti-HCV-positive HBV-patienter under nukleosidbehandling (66 patienter) |
-| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opin Pharmacother | Fremskridt i behandlingen af HBV/HCV-koinfektion |
-| [22959099](https://pubmed.ncbi.nlm.nih.gov/22959099/) | 2013 | Review | Clin Res Hepatol Gastroenterol | HBV/HCV-koinfektion som terapeutisk udfordring |
-| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wien Med Wochenschr | Aktuel behandling og fremtidsperspektiver ved kronisk hepatitis B og C |
-| [29194858](https://pubmed.ncbi.nlm.nih.gov/29194858/) | 2018 | Observationelt | J Viral Hepat | Lav forekomst af HBV-reaktivering under DAA-behandling af HCV |
-| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Observationelt | J Gastroenterol Hepatol | Risiko for HBV-reaktivering under DAA-behandling |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Oversigt | Minerva Gastroenterol Dietol | Antivirale midler ved hepatitis B og C og deres effekt på nyrefunktionen |
-| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Oversigt | Chin Clin Oncol | Timing og håndtering af hepatitis B og C ved hepatocellulært karcinom |
-| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Oversigt | Clin Res Hepatol Gastroenterol | Håndtering af viral hepatitis B og C hos børn |
-| [28487602](https://pubmed.ncbi.nlm.nih.gov/28487602/) | 2017 | Oversigt | World J Gastroenterol | Hepatitis B og alkohol; HBV bliver en førende årsag til leverkræft efter DAA-æraen |
+| [34864158](https://pubmed.ncbi.nlm.nih.gov/34864158/) | 2022 | Randomiseret forsøg | Clin Gastroenterol Hepatol | Entecavir forebygger HBV-reaktivering under DAA-behandling ved HCV/HBV-dobbeltinfektion |
+| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opin Pharmacother | Fremskridt i behandlingen af HBV/HCV-samtidig infektion |
+| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Kohorte | Viruses | HCV-reaktivering hos anti-HCV-positive patienter med kronisk hepatitis B under anti-HBV-behandling (66 patienter) |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antivirale midler mod hepatitis B og C og deres effekt på nyrefunktionen |
+| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Ikke klassificeret | J Gastroenterol Hepatol | Risiko for HBV-reaktivering under DAA-behandling af kronisk hepatitis C |
+| [35108715](https://pubmed.ncbi.nlm.nih.gov/35108715/) | 2022 | Ikke klassificeret | Dig Dis | Forekomst og forløb af HBV-reaktivering ved DAA-behandling af HCV |
 
-Ingen publikation dokumenterer en antiviral effekt af entecavir mod HCV. Litteraturen drejer sig om koinfektion og risikoen for HBV-reaktivering.
+Samtlige publikationer omhandler HBV-behandling eller HBV/HCV-samtidig infektion. Ingen viser, at entecavir behandler HCV.
 
-## Oplysninger om det danske marked
+---
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103734104 | Baraclude (Bristol-Myers Squibb Pharma EEIG) | Filmovertrukne tabletter | Indikationstekst ikke angivet i datagrundlaget |
-| 28105810016 | Edevira (Pharmathen S.A.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i datagrundlaget |
+| 28103734104 | Baraclude (Bristol-Myers Squibb Pharma EEIG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+| 28105810016 | Edevira (Pharmathen S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Datagrundlaget indeholder ingen oplysninger om advarsler, kontraindikationer eller interaktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer/sygdomme med risiko (fra videngrafen, ikke fra produktresumé):** nedsat nyrefunktion, fedtlever, ikke-alkoholisk steatohepatitis og laktatacidose.
+- **Lægemiddelinteraktioner:** 44 interaktioner er registreret i alt. De viste er alle af moderat grad, bl.a. med famotidin, ranitidin, cimetidin, metformin, amphotericin B (flere formuleringer), amoxicillin, mesalazin, balsalazid, olsalazin, sulfasalazin, vancomycin, kanamycin, neomycin, polymyxin B, levofloxacin og orlistat.
+- Der er tilknyttede publikationer om entecavir-associeret trombocytopeni og klasseeffekter af nukleosidanaloger (myopati, neuropati, laktatacidose).
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Der er ingen plausibel mekanisme og ingen kliniske data, der understøtter entecavir mod HCV. Den høje score skyldes sandsynligvis nærhed mellem HBV og HCV i videngrafen.
-- Evidensniveauet er L4, og alle fundne forsøg og publikationer handler om HBV eller koinfektion.
+Der er ingen plausibel direkte antiviral mekanisme mod HCV, og de tilgængelige forsøg og publikationer viser kun, at entecavir beskytter mod HBV-reaktivering ved samtidig infektion, ikke at det behandler HCV. Moderne DAA-behandling kurerer HCV hos langt de fleste patienter, så der er ikke noget uopfyldt behov, som entecavir kunne adressere.
 
-**For at komme videre kræves følgende:**
-- Hent indlægssedlen/produktresuméet fra Lægemiddelstyrelsen for at udfylde manglende sikkerhedsdata (advarsler og kontraindikationer). Dette er en blokerende datamangel.
-- Hent mekanismedata (MOA) fra DrugBank.
-- Ret posten i datagrundlaget, så kronisk hepatitis B registreres som oprindelig indikation, og fjern dubletter og dyresygdomsposter.
-- Hvis HCV fortsat ønskes undersøgt, kræves først præklinisk dokumentation (in vitro-aktivitet mod HCV), før der kan planlægges kliniske forsøg.
+**For at gå videre kræves følgende:**
+- Præklinisk eller in vitro-evidens for anti-HCV-aktivitet (p.t. ikke tilgængelig)
+- Data om virkningsmekanisme fra DrugBank
+- Godkendelsesteksten og advarsler/kontraindikationer fra produktresuméerne i Danmark
 
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
+**Bemærkning om øvrige forudsigelser:** Entecavirs anvendelse ved HBV/HCV-samtidig infektion (profylakse mod HBV-reaktivering under DAA-behandling) er klinisk relevant, men er en HBV-indikation. For hiv-infektion (rang 5/6; evidensniveau L2, "forskningsspørgsmål") har entecavir kun svag, utilsigtet aktivitet mod hiv-revers transkriptase og kan udvælge M184V-resistens, så det må kun bruges sammen med et fuldt suppressivt antiretroviralt regime. Forudsigelsen om felint immundefektsyndrom (rang 9/10; L5) er udelukkende beregnet og uden data.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

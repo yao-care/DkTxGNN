@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Kun modelforudsigelse (L5)
-nav_order: 264
+nav_order: 495
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,20 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Levodopa: Fra Ukendt oprindelig indikation til Rasmussen subakut encephalitis
+# Levodopa: Fra Parkinsons sygdom til Rasmussens subakutte encefalitis
 
 ## Resumé i én sætning
 
-Levodopa er en dopamin-forstadie, som i Danmark er markedsført som inhalationspulver (Inbrija). Den oprindelige godkendte indikation fremgår ikke af de foreliggende data.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Rasmussen subakut encephalitis**, men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er alene modelbaseret.
+Levodopa er en dopamin-forstadie, som oprindeligt bruges til behandling af Parkinsons sygdom og beslægtede parkinsonistiske syndromer.
+TxGNN-modellen forudsiger, at det kan have effekt ved **Rasmussens subakutte encefalitis**,
+men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen hviler udelukkende på modellens score.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i data (indikationsteksten for den danske godkendelse er tom) |
-| Forudsagt ny indikation | Rasmussen subakut encephalitis |
+| Oprindelig indikation | Parkinsons sygdom (og beslægtede parkinsonistiske syndromer) |
+| Forudsagt ny indikation | Rasmussens subakutte encefalitis |
 | TxGNN-forudsigelsesscore | 99,06 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -50,47 +51,48 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Rasmussen subaku
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Levodopa er kendt som en dopamin-forstadie, men oprindelig indikation og mekanisme er ikke registreret i evidenspakken.
+Levodopa er et forstadie til dopamin og bruges til at erstatte det manglende dopamin i striatum ved Parkinsons sygdom og relaterede syndromer. Data for lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport.
 
-Rasmussen encephalitis er en kronisk, ensidig, T-celle-medieret inflammatorisk encephalitis med vedvarende fokale krampeanfald. Behandlingen bygger på immunterapi, antiepileptika og kirurgi (hemisferektomi). Dopaminerstatning har ingen etableret rolle.
+Rasmussens encefalitis er en kronisk, ensidig, immunmedieret inflammatorisk hjernebetændelse med vanskeligt behandlelige fokale anfald og fremadskridende atrofi af den ene hjernehalvdel. Den centrale patologi (T-celle-medieret cytotoksicitet og neuroinflammation) har ingen oplagt kobling til en dopaminerg mekanisme.
 
-De foreliggende data understøtter ikke en mekanistisk sammenhæng. Den meget høje score (0,99) er en ren modelforudsigelse og kan afspejle spredning i vidensgrafen via fælles neurologiske knudepunkter frem for en valideret biologisk begrundelse. Hypoteser som dopaminerg modulation af neuroinflammation er spekulative og ikke afprøvet.
+Der er derfor ikke påvist en mekanistisk sammenhæng ud fra de foreliggende data. En eventuel forbindelse er spekulativ, f.eks. symptomatisk lindring af sekundære bevægelsesforstyrrelser som hemiparkinsonisme eller dystoni, men heller ikke dette understøttes af data. Den høje score kan afspejle nærhed i vidensgrafen til fænotyper som hemiparkinsonisme-hemiatrofi-syndromet snarere end en reel terapeutisk sammenhæng.
 
-Bemærk: Inputtet indeholdt den samme indikation to gange med identiske værdier; de er her slået sammen til én.
-
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der foreligger i øjeblikket ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-## Information om det danske marked
+## Oplysninger om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106100318 | Inbrija (Merz Therapeutics GmbH) | Inhalationspulver, hård kapsel | Ikke angivet i data |
+| 28106100318 | Inbrija (Merz Therapeutics GmbH) | Inhalationspulver, hård kapsel | Ikke angivet i de tilgængelige data |
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i evidenspakken. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer ifølge vidensgrafen** (afledt af relationer mellem lægemiddel og sygdom i TxGNN-vidensgrafen, ikke af produktresuméet): multipel systematrofi, postural ortostatisk takykardisyndrom, ortostatisk hypotension, lægemiddelinduceret dyskinesi, epilepsi, mavesår, angstlidelse, neurotisk lidelse, dysthymi, nyresygdom, pyoureter, leversygdom, galdeblæresygdom, mavesår/ulcus pepticum, åbenvinklet glaukom, vinkellukningsglaukom, psykotisk lidelse, skizofreniform lidelse, skizoaffektiv lidelse, psykisk lidelse, diabetes mellitus, diabetisk ketoacidose, melanom, myokardieinfarkt, koronar trombose, hæmoglobinopati, diarésygdom, pludseligt hjertestop og hjerteledningssygdom.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner (de 20 første er gennemgået).
+  - *Moderate*: epinephrin, ephedrin, bupropion, metoclopramid, metronidazol, pyridoxin (vitamin B6), jern samt antikolinerge stoffer (methscopolamin, hyoscyamin, atropin, glycopyrronium, clidinium, dicyclomin, mepenzolat).
+  - *Milde*: syreneutraliserende midler (aluminiumhydroxid, calciumcarbonat, magaldrat, magnesiumcarbonat, magnesiumhydroxid, magnesiumoxid).
+
+Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er kun modelbaseret (L5) uden kliniske forsøg, litteratur eller en understøttet mekanistisk sammenhæng. Rasmussen encephalitis behandles med immunterapi, antiepileptika og kirurgi, og dopaminerstatning har ingen etableret rolle. Derudover mangler sikkerhedsdata, hvilket blokerer den videre sikkerhedsscreening.
+Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5), uden kliniske forsøg, litteratur eller en påvist mekanistisk sammenhæng. Rasmussens encefalitis er immunmedieret, og en dopaminerg mekanisme har ingen klar rationale for den centrale patologi. Sikkerhedsdata fra produktresuméet mangler desuden.
 
 **For at komme videre kræves følgende:**
-- Indhentning af advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Afklaring af oprindelig godkendt indikation
-- Mekanistisk og prækliniske data, der kan understøtte en sammenhæng mellem levodopa og Rasmussen encephalitis
-- Vurdering af administrationsvejens egnethed (inhalationspulver) til den forudsagte indikation
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægelig rådgivning. Forudsigelsen kræver klinisk validering, før den kan anvendes.*
+- Detaljerede data om virkningsmekanisme (MOA) for levodopa
+- Systematisk litteratursøgning og søgning efter kliniske forsøg for levodopa ved Rasmussens encefalitis
+- Gennemgang af produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- Vurdering af, om forudsigelsen blot afspejler nærhed til hemiparkinsonistiske fænotyper, og om der er et reelt klinisk behov for symptomatisk behandling af bevægelsesforstyrrelser ved denne sygdom
+- Vurdering af administrationsvejens egnethed, da det eneste danske præparat (Inbrija) er inhalationspulver til brug ved Parkinsons sygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

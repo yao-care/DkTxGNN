@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Latanoprost
-parent: Høj evidens (L1-L2)
-nav_order: 257
-evidence_level: L2
+parent: Kun modelforudsigelse (L5)
+nav_order: 482
+evidence_level: L5
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Latanoprost: Fra glaukom og okulær hypertension til primær arvelig glaukom
+# Latanoprost: Fra åbenvinklet glaukom til primær arvelig glaukom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Latanoprost er en prostaglandin F2-alfa-analog i øjendråber, som bruges til at sænke trykket i øjet ved glaukom og okulær hypertension. Denne oplysning stammer fra almen farmakologi, da datagrundlaget ikke angiver en oprindelig indikation. TxGNN-modellen forudsiger, at lægemidlet også kan have effekt ved **primær arvelig glaukom**. Der er **1 klinisk fase 2-forsøg** bag forudsigelsen, men **ingen publikationer** i datagrundlaget.
+Latanoprost er en prostaglandin F2-alfa-analog, der oprindeligt anvendes til behandling af åbenvinklet glaukom og okulær hypertension.
+TxGNN-modellen forudsiger, at det kan være virksomt ved **primær arvelig glaukom**,
+men der er i øjeblikket **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne specifikke forudsigelse. Evidensen er udelukkende modelbaseret.
 
 ---
 
@@ -41,77 +43,81 @@ Latanoprost er en prostaglandin F2-alfa-analog i øjendråber, som bruges til at
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Kendt anvendelse er glaukom og okulær hypertension (almen farmakologi). |
+| Oprindelig indikation | Åbenvinklet glaukom og okulær hypertension (ifølge videnbasen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
 | Forudsagt ny indikation | Primær arvelig glaukom |
 | TxGNN-forudsigelsesscore | 99,88 % |
-| Evidensniveau | L2 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (gå videre med forbehold) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Latanoprost er en prostaglandin F2-alfa-analog. Den virker på FP-receptoren og øger den uveosklerale afstrømning af kammervand, så det intraokulære tryk falder. Trykreduktion er det centrale behandlingsmål ved glaukom, også ved arvelige former.
+Latanoprost er en prostaglandin F2-alfa-analog, som sænker det intraokulære tryk primært ved at øge den uveosklerale afstrømning af kammervæske. Detaljerede data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Beskrivelsen her bygger derfor på almen farmakologisk viden.
 
-Detaljerede mekanismedata fra DrugBank mangler i datagrundlaget. Koblingen bygger derfor på almen farmakologisk viden og ikke på de leverede data.
+Primær arvelig glaukom og åbenvinklet glaukom har et fælles fænotypisk træk: forhøjet intraokulært tryk. Det gør en trykssænkende tilgang mekanistisk plausibel, og den høje modelscore afspejler sandsynligvis denne nærhed i videnbasen og den allerede eksisterende glaukomindikation.
 
-Primær arvelig glaukom ligger tæt på lægemidlets kendte anvendelse. Det er derfor mere en udvidelse til en undertype end en egentlig ompositionering. Det forklarer også den høje modelscore. Det er dog uafklaret, om effekten og sikkerheden er de samme i den arvelige og ofte pædiatriske population.
+Der er dog vigtige forbehold. Effekten kan variere med genotypen. Ved udviklingsrelaterede former med vinkeldysgenese, f.eks. primær kongenit glaukom, er kirurgi normalt førstevalg, og responsen på prostaglandinanaloger er ofte begrænset.
 
 ---
 
-## Klinisk evidens
+## Klinisk forsøgsevidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Fase 2 | Afsluttet | 37 | Undersøger den trykssænkende effekt og sikkerheden af latanoprost sammen med dorzolamid (carboanhydrasehæmmer) ved primær pædiatrisk glaukom, der ikke responderer på kirurgi. Perioden var juli 2009 til november 2016. |
-
-**Bemærkninger til evidensen:**
-- Forsøget er relevant, men kombinationsdesignet gør det umuligt at isolere latanoprosts egen effekt.
-- Titlen er afkortet i datagrundlaget, så den præcise population og randomiseringsdesignet er ikke bekræftet.
-- Relevansen er vurderet til grad B.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relateret litteratur i datagrundlaget.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106836222 | Catiolanze | Øjendråber, emulsion | Santen Oy |
-
-Indikationsteksten er ikke angivet i registreringsdata.
+| 28106836222 | Catiolanze (Santen Oy) | Øjendråber, emulsion | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Datagrundlaget indeholder hverken advarsler, kontraindikationer eller registrerede lægemiddelinteraktioner.
+Følgende er baseret på data fra en videnbase (ikke på godkendt produktresumé):
+
+- **Sygdomme registreret som kontraindikationer i videnbasen**: uveitis, iridocyklitis/irissygdom (iritis), sygdom i corpus ciliare, panuveitis, makulært nethindeødem, cystoidt makulært ødem og forskellige former for konjunktivitis (herunder akut smitsom konjunktivitis). Disse stammer fra relationer i videnbasen og ikke fra produktresuméets tekst.
+- **Lægemiddelinteraktioner**: Interaktionssøgningen gav 100 registrerede interaktioner, men alvorlighedsgraden er angivet som "ukendt" for alle viste eksempler. Eksempler på lægemidler på listen: calcitriol, glimepirid, doxycyclin, clotrimazol, lansoprazol, cimetidin, atropin, pantoprazol, mesalazin, acarbose, morphin, metformin, omeprazol, sucralfat, rosiglitazon, vancomycin, lactulose, triamcinolon, prednison og simvastatin. Den kliniske relevans kan ikke vurderes ud fra disse data.
+
+Advarsler og kontraindikationer fra det danske produktresumé mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (gå videre med forbehold)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Et afsluttet fase 2-forsøg og en tydelig farmakologisk sammenhæng understøtter retningen, og indikationen ligger tæt på den kendte anvendelse. Evidensen er dog begrænset til ét kombinationsforsøg med 37 deltagere uden publikationer, og sikkerhedsdata mangler helt.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur for primær arvelig glaukom. Den mekanistiske sammenhæng er plausibel for former med forhøjet øjentryk, men effekten kan være begrænset ved udviklingsrelaterede former. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket forhindrer en sikkerhedsscreening.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer). Det blokerer pt. den sikkerhedsmæssige screening.
-- Mekanismedata fra DrugBank.
-- Afklaring af forsøgets population og design samt publicerede resultater.
-- Vurdering af sikkerhed og dosering hos børn, hvis den pædiatriske population er relevant.
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratursøgning og søgning i forsøgsregistre for latanoprost ved arvelige glaukomformer, opdelt efter genotype/subtype
+- Afklaring af, hvilke undertyper af arvelig glaukom der er relevante, og af kontraindikationer (f.eks. uveitis og makulært ødem)
 
-**Øvrige forudsigelser:** Visceral calciphylaxis og arteriel og venøs thoracic outlet-syndrom er sat på Hold, da de kun bygger på modelforudsigelser uden en understøttet mekanisme. Hypotrichosis simplex i hovedbunden er et forskningsspørgsmål. Mekanismen er biologisk plausibel, fordi prostaglandinanaloger fremmer hårvækst, men der er ingen kliniske data.
+---
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til ompositionering skal valideres klinisk, før de kan anvendes.*
+## Andre forudsagte indikationer (til information)
+
+Dataene indeholder også andre forudsigelser med meget høje modelscorer, men uden kliniske forsøg eller litteratur (alle L5):
+
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Hypotrichosis simplex of the scalp | 99,81 % | Forskningsspørgsmål. Prostaglandinanaloger fremmer væksten af øjenvipper og har været undersøgt ved hårtab, så mekanismen er biologisk plausibel. Sygdommen er dog sjælden og genetisk. |
+| Visceral calciphylaxis | 99,83 % | Hold. Ingen plausibel mekanistisk sammenhæng; scoren afspejler sandsynligvis nærhed i videnbasen. |
+| Arteriel og venøs thoracic outlet-syndrom | 99,78 % | Hold. Ingen direkte mekanistisk sammenhæng; lokal øjenbehandling giver minimal systemisk eksponering. |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

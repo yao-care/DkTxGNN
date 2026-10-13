@@ -2,7 +2,7 @@
 layout: default
 title: Eftrenonacog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 158
+nav_order: 294
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eftrenonacog alfa: Fra hæmofili B til pseudo-von Willebrand sygdom
+# Eftrenonacog alfa: Fra hæmofili til pseudo-von Willebrand sygdom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Eftrenonacog alfa er et rekombinant faktor IX-Fc-fusionsprotein, der erstatter manglende faktor IX ved hæmofili B.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **pseudo-von Willebrand sygdom**, men forudsigelsen bygger kun på modellen: der er **0 kliniske forsøg** og **0 publikationer**, og den biologiske sammenhæng er svag.
-
----
+Eftrenonacog alfa er et rekombinant faktor IX-Fc-fusionsprotein, som oprindeligt bruges til behandling af hæmofili.
+TxGNN-modellen forudsiger, at det kan have effekt ved **pseudo-von Willebrand sygdom**,
+men der er **0 kliniske forsøg** og **0 publikationer**, som støtter denne retning. Forudsigelsen bygger udelukkende på en computerbaseret netværksmodel.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hæmofili B (den danske godkendelsestekst er ikke angivet i data; oplysningen stammer fra evidenspakkens mekanismebeskrivelse) |
-| Foreslået ny indikation | Pseudo-von Willebrand sygdom |
-| TxGNN-prediktionsscore | 99,48 % |
+| Oprindelig indikation | Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere) |
+| Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
+| TxGNN-forudsigelsesscore | 99,48 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er forudsigelsen rimelig (eller ikke)?
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Eftrenonacog alfa er dog et rekombinant faktor IX-Fc-fusionsprotein, der erstatter manglende faktor IX ved hæmofili.
 
-Der foreligger ingen detaljerede data om virkningsmekanisme. Eftrenonacog alfa er et rekombinant faktor IX-Fc-fusionsprotein. Dets virkning ved hæmofili B er at erstatte manglende faktor IX, og mekanistisk er det ikke rettet mod andre blødningssygdomme.
+Pseudo-von Willebrand sygdom (blodpladetype) skyldes en gain-of-function-defekt i blodpladernes GPIbα, som øger bindingen til von Willebrand-faktor. Det fører til øget fjernelse af blodplader og tab af højmolekylære VWF-multimerer. Defekten ligger i akserne mellem blodplader og VWF, ikke i faktor IX-aktiviteten. Der er derfor ingen klar mekanistisk begrundelse for faktor IX-substitution. Den høje score skyldes sandsynligvis netværksassociationer via fælles knudepunkter for blødnings- og koagulationsforstyrrelser.
 
-Pseudo-von Willebrand sygdom (trombocyttype af VWD) skyldes en funktionsforøgende defekt i trombocyttens GPIb-alfa, som øger bindingen til VWF. Substitution med faktor IX adresserer ikke denne defekt. Den høje score (0,995) afspejler sandsynligvis, at sygdommen ligger i samme "blødningssygdom"-område i vidensgrafen, og ikke en plausibel mekanisme.
+Modellen forudsagde også andre sygdomme med samme score-mønster, f.eks. primær frigivelsesforstyrrelse af blodplader (99,42 %), Glanzmanns trombasteni (99,28 %), erhvervet koagulationsfaktormangel (98,97 %) og Scotts syndrom (98,62 %). Alle har L5-evidens og anbefalingen Hold. Erhvervet koagulationsfaktormangel er mekanistisk tættest på, men kun relevant ved dokumenteret faktor IX-mangel i en veldefineret undertype. De øvrige er blodpladedefekter, som faktor IX-substitution ikke korrigerer.
 
-TxGNN foreslog i alt fem forskellige sygdomme (listen indeholdt hver sygdom to gange):
+## Klinisk evidens
 
-| Forudsagt sygdom | Score | Mekanistisk vurdering |
-|------|------|------|
-| Pseudo-von Willebrand sygdom | 99,48 % | Svag. Defekten sidder i trombocyttens GPIb-alfa, ikke i faktor IX. |
-| Primær frigørelsesdefekt af trombocytter | 99,42 % | Svag. Det er en trombocytintern sekretionsdefekt, som faktor IX ikke korrigerer. |
-| Glanzmanns trombasteni | 99,28 % | Svag. Defekten ligger i integrin αIIbβ3. Koagulationsfaktorer er normale, og etableret behandling er trombocyttransfusion og rekombinant FVIIa. |
-| Erhvervet koagulationsfaktormangel | 98,97 % | Mest plausibel. Erhvervet faktor IX-mangel kan i princippet behandles med substitution, men årsagerne er ofte multifaktorielle eller inhibitormedierede. Begrebet er bredt og heterogent. |
-| Scotts syndrom | 98,62 % | Løs forbindelse. FIXa indgår i tenasekomplekset, men den primære defekt (TMEM16F/ANO6) ligger opstrøms på trombocytoverfladen. |
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur.
-
----
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105635315 | Alprolix (Swedish Orphan Biovitrum AB) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i tilgængelige data |
-
----
+| 28105635315 | Alprolix (Swedish Orphan Biovitrum AB) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
----
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation. Der blev ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er rent modelbaserede (L5) uden kliniske forsøg eller litteratur. For de fire trombocyttrelaterede sygdomme ligger den primære defekt uden for faktor IX-systemet. Den mest plausible kandidat, erhvervet koagulationsfaktormangel, er for bred og heterogen til at kunne vurderes uden yderligere gennemgang.
+Forudsigelsen er alene baseret på en netværksmodel (L5) uden kliniske forsøg eller litteratur. Sygdommens mekanisme (defekt i blodplade-VWF-aksen) taler imod, at faktor IX-substitution vil have effekt.
 
 **For at komme videre kræves følgende:**
-- En systematisk litteraturgennemgang for erhvervet koagulationsfaktormangel, inden et forskningsspørgsmål formuleres
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, som er forudsætning for sikkerhedsscreening
-- Data om virkningsmekanisme fra DrugBank
-- Den danske godkendte indikationstekst for Alprolix
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) for eftrenonacog alfa
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Hvis man ønsker at forfølge sporet, en afgrænset undertype af erhvervet koagulationsfaktormangel med dokumenteret faktor IX-mangel, samt præklinisk eller litteraturbaseret støtte
+- Gennemgang af, hvorfor de samme sygdomme optræder flere gange på forudsigelseslisten (dubletter)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Romiplostim
 parent: Moderat evidens (L3-L4)
-nav_order: 387
+nav_order: 733
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Romiplostim: Fra immun trombocytopeni (ITP) til primær frigørelsesforstyrrelse af blodplader
+# Romiplostim: Fra autoimmun trombocytopeni til primær frigivelsesforstyrrelse af blodplader
 
-## Resumé i få sætninger
+## Opsummering i én sætning
 
-Romiplostim er en trombopoietinreceptoragonist, som i Danmark markedsføres som Nplate. Det er etableret til behandling af immun trombocytopeni (ITP). TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (primary release disorder of platelets). Der er dog kun **1 klinisk studie** (observationelt og uden direkte relevans) og **2 publikationer** (en oversigtsartikel og et præklinisk studie), og ingen af dem viser effekt af romiplostim ved denne tilstand.
+Romiplostim er en thrombopoietin-receptoragonist (MPL-agonist), der oprindeligt anvendes til at øge blodpladetallet ved autoimmun trombocytopeni (ITP) og beslægtede tilstande som aplastisk anæmi.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**, men der er **ingen registrerede kliniske forsøg** og kun **1 publikation** (et præklinisk mekanistisk studie om ITP), så evidensen er meget begrænset.
 
 ---
 
@@ -41,55 +42,71 @@ Romiplostim er en trombopoietinreceptoragonist, som i Danmark markedsføres som 
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Primær frigørelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 99,9998 % |
+| Oprindelig indikation | Autoimmun trombocytopeni (ITP) og aplastisk anæmi (fra videngrafen; indikationsteksten i den danske registrering er ikke angivet) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
+| TxGNN-prædiktionsscore | 99,99 % |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Romiplostim er en agonist af thrombopoietinreceptoren (MPL). Det øger modningen af megakaryocytter og dermed produktionen af blodplader. Den etablerede indikation, ITP, er ikke angivet i Evidence Pack'ens felter for oprindelig indikation. Derfor kan datagrundlaget ikke skelne mellem egentlig repurposing og anvendelse inden for den godkendte indikation. Detaljerede mekanismedata (MOA) fra DrugBank mangler ligeledes.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den farmakologiske information er romiplostim en agonist på thrombopoietin-receptoren (MPL), som stimulerer megakaryocytters vækst og dermed blodpladeproduktionen. Dets effekt ved ITP er veldokumenteret.
 
-Frigørelsesforstyrrelser af blodplader er kvalitative funktionsdefekter, hvor blodpladernes granulesekretion og signalering er nedsat. Antallet af blodplader er ofte ikke det primære problem. En højere blodpladetælling forventes derfor ikke at rette op på den underliggende defekt, og den mekanistiske kobling er svag.
+Teoretisk kan et højere blodpladetal være relevant ved blodpladesygdomme. Ved en frigivelsesforstyrrelse er problemet imidlertid kvalitativt (blodpladernes sekretion fungerer ikke normalt), og et øget antal blodplader vil ikke i sig selv rette denne funktionsdefekt. Den eneste tilknyttede artikel (PMID 25682608) vedrører ITP, hvor autoantistoffer hæmmer dannelsen af proplatelets. Den understøtter biologien bag TPO-receptoragonisme ved ITP, men er ikke direkte evidens for frigivelsesforstyrrelser.
 
-Den meget høje TxGNN-score afspejler sandsynligvis, at de to tilstande ligger tæt på hinanden i vidensgrafen (fælles naboer inden for blodplader og trombopoiese). Den afspejler ikke nødvendigvis en reel terapeutisk sammenhæng.
+Modellens øvrige højt scorende forslag har tilsvarende svag mekanistisk begrundelse:
+- **Pseudo-von Willebrands sygdom** (score 99,99 %, L5): ingen forsøg eller litteratur. Flere blodplader kan i teorien øge antallet af hyperreaktive blodplader.
+- **Glanzmanns trombasteni** (score 99,99 %, L5): normalt blodpladetal og defekt aggregation, som ikke rettes ved øget produktion.
+- **Scotts syndrom** (score 99,97 %, L5): defekt eksponering af phosphatidylserin, som ikke påvirkes af MPL-agonisme.
+- **Føtal og neonatal alloimmun trombocytopeni (FNAIT)** (score 99,99 %, L4): den mest plausible kandidat som forskningsspørgsmål. Mekanismen (blodpladeproduktion ved immunmedieret trombocytopeni) er indirekte støttet af ITP-data, men ingen studier beskriver romiplostim ved FNAIT, og placentapassage samt føtal/neonatal sikkerhed er uafklaret.
 
 ---
 
-## Evidens fra kliniske studier
+## Evidens fra kliniske forsøg
 
-| Studienummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | Ikke relevant (N/A) | Afsluttet | 10.039 | Observationelt studie af risikofaktorer for trombose ved immun trombocytopeni. Det tester ikke romiplostim ved frigørelsesforstyrrelser og giver ingen effektevidens for den forudsagte indikation (relevansgrad C). |
-
-Der er ikke registreret EudraCT-identifikatorer eller ICTRP-studier.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+For den primære forudsigelse (primær frigivelsesforstyrrelse af blodplader):
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Oversigtsartikel | British Journal of Haematology | Gennemgang af megakaryocytopoiese og trombopoiese, hvor thrombopoietin er den primære vækstfaktor for megakaryocytlinjen. Baggrundsviden, ingen data om den forudsagte indikation. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Præklinisk/mekanistisk | Haematologica | Antiblodpladeautoantistoffer fra ITP-patienter hæmmer dannelsen af proplatelets og nedsætter blodpladeproduktionen in vitro. Omhandler ITP, ikke frigørelsesforstyrrelser. |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Præklinisk/mekanistisk | Haematologica | Autoantistoffer mod blodplader hæmmer proplatelet-dannelse i megakaryocytter og svækker blodpladeproduktionen ved ITP in vitro |
+
+Litteratur for den nærmeste alternative kandidat (FNAIT), alle indirekte via ITP:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [31239245](https://pubmed.ncbi.nlm.nih.gov/31239245/) | 2019 | Oversigtsartikel | Blood Advances | Romiplostim ved pædiatrisk ITP: udvikling og aktuel praksis |
+| [34711622](https://pubmed.ncbi.nlm.nih.gov/34711622/) | 2021 | Klinisk case/oversigt | BMJ Case Reports | Håndtering af refraktær ITP under graviditet |
+| [20410910](https://pubmed.ncbi.nlm.nih.gov/20410910/) | 2010 | Oversigt/kommentar | J Perinatol | Overvejelser om trombopoietiske midler ved neonatal trombocytopeni |
+| [23257464](https://pubmed.ncbi.nlm.nih.gov/23257464/) | 2012 | Oversigtsartikel | Zhongguo Shi Yan Xue Ye Xue Za Zhi | Trombopoietiske lægemidler ved ITP hos børn |
+| [23822831](https://pubmed.ncbi.nlm.nih.gov/23822831/) | 2013 | Case report | Eur J Haematol | Fuld remission af refraktær ITP efter kort romiplostim-kur |
+| [27605856](https://pubmed.ncbi.nlm.nih.gov/27605856/) | 2016 | Case report | Asian J Transfus Sci | Refraktær ITP under graviditet behandlet med eltrombopag (et andet lægemiddel) |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104565809 | Nplate (Amgen Europe BV) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28104565809 | Nplate (Amgen Europe BV) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Carfilzomib er registreret med en interaktion på niveau **Major** (kilde: DDInter).
+- Der er desuden to forhold at være opmærksom på i forbindelse med de forudsagte indikationer: ved pseudo-von Willebrands sygdom kan flere blodplader øge antallet af hyperreaktive blodplader, og ved FNAIT er placentapassage og føtal/neonatal sikkerhed uafklaret.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke var tilgængelige.
 
 ---
 
@@ -98,18 +115,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Evidensen er kun på niveau L4. Der findes ingen studier, der tester romiplostim ved primær frigørelsesforstyrrelse af blodplader. Den mekanistiske kobling er svag, fordi tilstanden er en funktionsdefekt og ikke en mangel på blodplader.
-- Den høje modelscore skyldes sandsynligvis nærhed i vidensgrafen.
+Den primære forudsigelse bygger kun på en modelscore uden kliniske forsøg og med kun et indirekte præklinisk studie, og mekanismen (øget blodpladetal) adresserer ikke den kvalitative funktionsdefekt. FNAIT er det mest plausible alternativ og kan overvejes som forskningsspørgsmål, men er heller ikke direkte understøttet.
 
-**For at komme videre kræves:**
-- Hentning af advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé. Dette er en blokerende datamangel for sikkerhedsscreening.
-- Mekanismedata (MOA) fra DrugBank.
-- Angivelse af de oprindelige indikationer, så repurposing kan adskilles fra anvendelse inden for den godkendte indikation.
-- Prækliniske eller kliniske data, der direkte undersøger romiplostim ved frigørelsesforstyrrelser af blodplader. Uden dem bør forudsigelsen ikke føres videre.
-
-**Andre forudsagte indikationer:** Føtal og neonatal alloimmun trombocytopeni (FNAIT) er markeret som et forskningsspørgsmål (*Research Question*). Der findes dog kun kasuistikker om refraktær maternel ITP i graviditet, og fosterets sikkerhed er ikke dokumenteret. Pseudo-von Willebrand-sygdom, Glanzmanns trombastheni og Scott-syndrom har kun evidensniveau L5 (modelforudsigelse) og anbefales sat på hold.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Alle forudsigelser kræver klinisk validering.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (afgørende for sikkerhedsvurdering)
+- Direkte præklinisk eller klinisk evidens for romiplostim ved primære frigivelsesforstyrrelser af blodplader
+- For FNAIT: data om placentapassage og føtal/neonatal sikkerhed samt en vurdering af, om et pilotstudie er berettiget
+- Bekræftelse af den godkendte indikationstekst for Nplate i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

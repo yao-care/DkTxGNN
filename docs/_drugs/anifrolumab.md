@@ -2,7 +2,7 @@
 layout: default
 title: Anifrolumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 41
+nav_order: 67
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,10 +31,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Anifrolumab: Fra systemisk lupus erythematosus til diabetisk katarakt
 
-## Resumé i få sætninger
+## Opsummering i en sætning
 
-Anifrolumab er et monoklonalt antistof, der blokerer type I-interferon-receptoren (IFNAR1). Det er godkendt til systemisk lupus erythematosus (SLE).
-TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende beregnet af modellen.
+Anifrolumab er et monoklonalt antistof, som er markedsført i Danmark under navnet Saphnelo. Ifølge de data, der er indsamlet til denne rapport, er det oprindeligt udviklet til systemisk lupus erythematosus (SLE). TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Den hviler udelukkende på modelberegning.
 
 ---
 
@@ -42,62 +41,51 @@ TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt**, me
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Systemisk lupus erythematosus (SLE). Den danske godkendelsestekst er ikke tilgængelig i datagrundlaget, så oplysningen stammer fra mekanismebeskrivelsen |
+| Oprindelig indikation | SLE (fra DrugBank-oplysninger i de indsamlede data; indikationsteksten i den danske markedsføringstilladelse er tom) |
 | Forudsagt ny indikation | Diabetisk katarakt |
 | TxGNN-forudsigelsesscore | 98,5 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Anifrolumab er et anti-IFNAR1-antistof, der blokerer type I-interferon-signalering. Detaljerede mekanismedata fra DrugBank foreligger endnu ikke, så vurderingen bygger på den kendte virkningsmekanisme.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Anifrolumab er et antistof mod type I-interferonreceptorens underenhed 1 (IFNAR1) og blokerer dermed signalering via type I-interferon. Det er denne mekanisme, der ligger bag anvendelsen ved SLE.
 
-Diabetisk katarakt skyldes primært øget flux gennem polyol-vejen, oxidativt stress og glykering i øjets linse. Der er ingen etableret sammenhæng mellem type I-interferon-signalering og disse processer. En forbindelse via interferon-medieret inflammation er spekulativ.
+Der er ikke dokumenteret nogen mekanistisk vej fra blokade af type I-interferon til diabetisk katarakt. Sygdommen drives primært af aktivering af polyol-vejen, osmotisk stress og oxidativ skade i linsen. Ved type 2-diabetes forekommer kronisk lavgradig inflammation, men der er ingen direkte evidens for, at type I-interferon spiller en rolle i linsepatologi.
 
-Der er også et praktisk problem: Linsen har ikke egne blodkar, og et stort biologisk lægemiddel når sandsynligvis ikke linsen i meningsfulde koncentrationer efter systemisk dosering. Den høje score (0,985) er en ren vidensgraf-forudsigelse og bør ikke tolkes som klinisk evidens.
-
-### Øvrige forudsigelser i samme datasæt
-
-Alle har evidensniveau L5 og beslutningen Hold. Der er ingen kliniske forsøg eller publikationer for nogen af dem.
-
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Tetanisk katarakt | 98,4 % | Knyttet til hypokalcæmi og hypoparathyroidisme. Kalciumhomeostase har ingen forbindelse til IFNAR-blokade |
-| Moden katarakt | 98,4 % | Fremskreden degenerativ linsetæthed, behandles kirurgisk. Ingen kendt afhængighed af type I-interferon |
-| Umoden katarakt | 98,4 % | Tidlig eller partiel linsetæthed. Ingen farmakologisk begrundelse |
-| Kraniostenose-katarakt | 98,4 % | Sjælden syndromal tilstand med genetisk eller strukturel årsag. Sandsynligvis en graf-artefakt |
-| Katarakt forbundet med type 2-diabetes | 98,4 % | Samme vurdering som for diabetisk katarakt |
+TxGNN-scoren på 0,985 er en videnbaseret modelforudsigelse uden understøttelse fra kliniske data eller litteratur. Modellen angiver også lignende forudsigelser for andre kataraktformer (tetanisk, moden, umoden, kraniostenose-associeret og type 2-diabetes-associeret katarakt). Ingen af disse har en plausibel mekanistisk forbindelse til IFNAR1-blokade. Et antistof ville desuden ikke forventes at kunne reversere etableret linsegrumsning.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107301624 | Saphnelo | Injektionsvæske, opløsning i fyldt injektionssprøjte | AstraZeneca AB |
+| 28107301624 | Saphnelo (AstraZeneca AB) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Oplysninger om advarsler og kontraindikationer mangler.
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Interaktionsforespørgslen er gennemført med ét fund. Det er ikke en klassisk lægemiddelinteraktion, men en farmakologisk målangivelse: anifrolumab binder til interferon α/β-receptor 1 (IFNAR1). Der er ikke angivet noget alvorlighedsniveau.
+
+Der foreligger ingen øvrige sikkerhedsdata. Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -106,15 +94,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en vidensgraf og mangler både mekanistisk og klinisk støtte. Yderligere er systemisk levering af et stort antistof til den avaskulære linse usandsynlig. De øvrige katarakt-forudsigelser har samme svaghed.
+Forudsigelsen er udelukkende baseret på en modelberegning (L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk forbindelse mellem blokade af type I-interferonreceptoren og diabetisk katarakt.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som i øjeblikket blokerer sikkerhedsscreeningen
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Præklinisk evidens for en rolle for type I-interferon i linsens patologi ved diabetes
-- Vurdering af, om lægemidlet kan nå linsen (administrationsvej og lokal levering)
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomlægning kræver klinisk validering, før de kan anvendes.*
+- Hentning af produktresuméet fra Lægemiddelstyrelsen med advarsler, kontraindikationer og den godkendte indikationstekst
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Præklinisk eller mekanistisk dokumentation for en rolle for type I-interferon i linsepatologi ved diabetes
+- En litteraturgennemgang og søgning efter relevante forsøg, der kan løfte evidensniveauet over L5
+- Vurdering af, om systemisk administration af et antistof overhovedet er en relevant administrationsvej til en øjensygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

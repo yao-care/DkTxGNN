@@ -2,7 +2,7 @@
 layout: default
 title: Alirocumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 25
+nav_order: 39
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alirocumab: Fra hyperkolesterolæmi til X-bundet ichthyosis
+# Alirocumab: Fra aterosklerose og dyslipidæmi til X-bundet ichthyosis
 
-## Resumé
+## Opsummering i én sætning
 
-Alirocumab er et PCSK9-hæmmende monoklonalt antistof, som anvendes til sænkning af LDL-kolesterol. Indikationsteksten er ikke oplyst i datagrundlaget, så den originale indikation er udledt af lægemiddelklassen.
-TxGNN-modellen forudsiger, at det kan have effekt ved **X-bundet ichthyosis uden steroidsulfatasemangel**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen vurderes som et artefakt fra vidensgrafen og ikke som et biologisk signal.
+Alirocumab er et monoklonalt antistof mod PCSK9, som oprindeligt anvendes til behandling af dyslipidæmi og aterosklerose.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **X-bundet ichthyosis uden steroidsulfatasemangel**,
+men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer** til støtte for denne forudsigelse. Forudsigelsen er således udelukkende beregningsbaseret.
 
 ---
 
@@ -42,7 +43,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **X-bundet ichthyosis uden
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Hyperkolesterolæmi/dyslipidæmi (udledt af lægemiddelklassen, ikke angivet i Lægemiddelstyrelsens data) |
+| Oprindelig indikation | Syndromisk dyslipidæmi, arteriosklerose, aterosklerose og arteriolosklerose (fra TxGNN-vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | X-bundet ichthyosis uden steroidsulfatasemangel |
 | TxGNN-forudsigelsesscore | 99,43 % |
 | Evidensniveau | L5 |
@@ -54,54 +55,50 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **X-bundet ichthyosis uden
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme foreligger ikke i datapakken. Alirocumab er dog et PCSK9-hæmmende antistof. Det øger tilgængeligheden af LDL-receptorer og sænker dermed cirkulerende LDL-kolesterol.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Alirocumab er kendt som en PCSK9-hæmmer: ved at binde PCSK9 øges genbruget af LDL-receptorer i leveren, og det cirkulerende LDL-kolesterol falder. Effekten ved dyslipidæmi og aterosklerose er veldokumenteret.
 
-Der er ingen troværdig mekanistisk forbindelse mellem PCSK9-hæmning og denne ichthyosis-fænotype. Ingen kendt signalvej forbinder de to. Den høje score på 0,994 skyldes sandsynligvis nærhed i vidensgrafen og ikke et reelt biologisk grundlag. Forudsigelsen bør derfor ikke danne grundlag for kliniske overvejelser.
+Den mulige forbindelse til X-bundet ichthyosis er indirekte. Sygdommen er knyttet til ophobning af kolesterolsulfat i huden, hvilket giver et teoretisk link til kolesterol- eller steroldstofskiftet. Der er dog ingen påvist mekanisme, hvorved sænkning af cirkulerende LDL-kolesterol skulle påvirke hudfænotypen.
 
-**Øvrige forudsagte kandidater** (samme lægemiddel, højere evidens):
-
-- **Xanthomatose (score 99,37 %, evidensniveau L4, "Forskningsspørgsmål"):** Der er en plausibel indirekte sammenhæng. Xanthomer er kolesterolaflejringer sekundært til svær hyperkolesterolæmi, og alirocumab sænker LDL-kolesterol. De to fundne artikler er casebeskrivelser (kombineret dyslipidæmi og sitosterolæmi med senexanthomer behandlet med ezetimib og alirocumab). Ingen af dem tester alirocumab som behandling til regression af xanthomer. Ved sitosterolæmi (ABCG5/ABCG8) er den primære defekt en anden, så effekten af en PCSK9-hæmmer er usikker.
-- **Sygdom i kolesterolkatabolisme (score 99,36 %, evidensniveau L1, "Proceed with Guardrails"):** Sammenhængen er stærk og direkte, men kategorien ligger tæt på alirocumabs eksisterende anvendelsesområde. Der er tale om udvidet anvendelse i en afgrænset population snarere end egentlig repurposing.
-- **Sygdom i andre vitaminer og kofaktorer (score 99,41 %, L5, Hold)** og **46,XY-udviklingsforstyrrelse i den bagvedliggende DHT-syntesevej (score 99,37 %, L5, Hold):** Begge mangler et troværdigt mekanistisk grundlag.
+Forudsigelsen skal derfor betragtes som en hypotese fra en computermodel og ikke som et klinisk underbygget fund. Bemærk, at de to øverste forudsigelser (rang 1 og 2) er identiske.
 
 ---
 
-## Klinisk evidens
+## Klinisk forsøgsevidens
 
-For den primære kandidat (X-bundet ichthyosis) er der på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
-Til orientering er der for kandidaten "sygdom i kolesterolkatabolisme" fundet ét forsøg:
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Fase 3 | Afsluttet | 118 | EPIC-HIV: effekt af PCSK9-hæmning på kardiovaskulær risiko ved behandlet HIV-infektion, vurderet med non-invasiv billeddiagnostik. Relevans B, fordi populationen er HIV-specifik. Primært endepunkt og design er ikke oplyst og bør verificeres. |
+Der er i øjeblikket ikke registreret relaterede kliniske forsøg for den forudsagte indikation.
 
 ---
 
 ## Litteraturevidens
 
-For den primære kandidat (X-bundet ichthyosis) er der på nuværende tidspunkt ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur for den forudsagte indikation, X-bundet ichthyosis.
 
-Til orientering er der for kandidaten xanthomatose fundet to casebeskrivelser:
+*Til orientering vedrørende andre forudsigelser fra samme analyse (ikke den primære forudsigelse):*
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [32713907](https://pubmed.ncbi.nlm.nih.gov/32713907/) | 2020 | Casebeskrivelse | Internal Medicine | Sitosterolæmi med svær hyperkolesterolæmi og senexanthomer (ABCG5-mutationer), behandlet med ezetimib og alirocumab |
-| [31538826](https://pubmed.ncbi.nlm.nih.gov/31538826/) | 2019 | Casebeskrivelse | J Investig Med High Impact Case Rep | Svær kombineret dyslipidæmi med kompleks genetisk baggrund og xanthomer |
+| [32713907](https://pubmed.ncbi.nlm.nih.gov/32713907/) | 2020 | Case report | Internal Medicine | Sitosterolæmi med senexantomer behandlet med ezetimib og alirocumab (xanthomatose, rang 5) |
+| [31538826](https://pubmed.ncbi.nlm.nih.gov/31538826/) | 2019 | Case report | J Investig Med High Impact Case Rep | Svær kombineret dyslipidæmi med kompleks genetisk baggrund (xanthomatose, rang 5) |
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Samlet sikkerhedsanalyse | Eur Heart J Cardiovasc Pharmacother | Sikkerhed af alirocumab baseret på 47.296 patientår i ODYSSEY OUTCOMES (rang 9) |
+| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Præklinisk | Metabolism | PCSK9-hæmning forebygger kolesterolgalde­sten via PPARα/CYP7A1 (rang 9) |
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105680115 | Praluent | Injektionsvæske, opløsning i fyldt injektionssprøjte | Sanofi Winthrop Industrie |
+| 28105680115 | Praluent (Sanofi Winthrop Industrie) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Ellers henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
+Der er ikke tilgængelige data om advarsler eller kontraindikationer i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Interaktionsdata: Den eneste registrerede post er farmakologisk (målproteinet PCSK9) og beskriver ikke en lægemiddelinteraktion af klinisk betydning.
+
+Til orientering: en samlet analyse af ODYSSEY OUTCOMES (47.296 patientår) omtaler sikkerhedsprofilen for alirocumab ved den godkendte anvendelse, men den kan ikke overføres til hudsygdomme.
 
 ---
 
@@ -110,14 +107,13 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Eller
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den primære forudsigelse (X-bundet ichthyosis) har kun evidensniveau L5 uden forsøg eller litteratur og uden troværdig biologisk forbindelse. Den høje TxGNN-score afspejler sandsynligvis nærhed i vidensgrafen.
+Forudsigelsen for X-bundet ichthyosis har kun evidensniveau L5 (ren modelforudsigelse) uden kliniske forsøg eller litteratur, og der er ingen påvist mekanistisk forbindelse mellem PCSK9-hæmning og sygdommens patofysiologi.
 
 **For at komme videre kræves følgende:**
-- Indhentning af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datahul for sikkerhedsscreening)
-- Indhentning af data om virkningsmekanisme fra DrugBank
-- Hvis der ønskes et videre spor, bør fokus flyttes til xanthomatose (forskningsspørgsmål) eller til udvidet anvendelse ved sygdomme i kolesterolmetabolismen. Her bør endepunkter og design for NCT03207945 verificeres først.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Repurposing-kandidater kræver klinisk validering, før de kan anvendes.*
+- Detaljerede data om virkningsmekanisme (MOA) og en vurdering af, om PCSK9-hæmning kan påvirke kolesterolsulfat eller hudbarrieren
+- Præklinisk evidens, f.eks. i cellemodeller eller dyremodeller for X-bundet ichthyosis
+- Gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datamangel for sikkerhedsscreening)
+- Til sammenligning kan xanthomatose (L4, rang 5) og kolesterolkatabolisk sygdom (L4, rang 9) vurderes som mere realistiske forskningsspørgsmål, da de ligger tættere på lægemidlets kendte virkning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

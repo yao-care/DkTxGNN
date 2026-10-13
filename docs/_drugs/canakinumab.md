@@ -2,7 +2,7 @@
 layout: default
 title: Canakinumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 87
+nav_order: 151
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,9 +31,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Canakinumab: Fra autoinflammatoriske sygdomme til hepatisk infarkt
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Canakinumab (Ilaris) er et monoklonalt antistof, der blokerer interleukin-1β (IL-1β). Det bruges ved autoinflammatoriske sygdomme som cryopyrin-associeret periodisk syndrom (CAPS). TxGNN-modellen forudsiger, at det kan have effekt ved **hepatisk infarkt**, men forudsigelsen bygger kun på modellen: der er **0 kliniske forsøg** og **1 publikation**, og den handler ikke om canakinumab.
+Canakinumab er et monoklonalt antistof mod interleukin-1β, som oprindeligt anvendes til blandt andet urinsyregigt, cryopyrin-associerede periodiske syndromer (CAPS), systemisk juvenil idiopatisk artrit og arvelige periodiske febersygdomme.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hepatisk infarkt**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
+Forudsigelsen er derfor udelukkende beregningsbaseret.
 
 ---
 
@@ -41,8 +43,8 @@ Canakinumab (Ilaris) er et monoklonalt antistof, der blokerer interleukin-1β (I
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Autoinflammatoriske sygdomme (fx CAPS ifølge litteraturen). Indikationsteksten i den danske registrering er ikke angivet i datagrundlaget |
-| Foreslået ny indikation | Hepatisk infarkt |
+| Oprindelig indikation | Ingen godkendt indikationstekst er tilgængelig i de danske data. Ifølge videnbasen: urinsyregigt, CAPS, systemisk juvenil idiopatisk artrit, mevalonatkinasemangel, familiær middelhavsfeber m.fl. |
+| Forudsagt ny indikation | Hepatisk infarkt |
 | TxGNN-forudsigelsesscore | 99,86 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -51,41 +53,50 @@ Canakinumab (Ilaris) er et monoklonalt antistof, der blokerer interleukin-1β (I
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i datagrundlaget. Canakinumab er kendt som et humant anti-IL-1β-antistof, der neutraliserer IL-1β-signalering og dermed dæmper inflammation ved sygdomme med overaktivt IL-1β.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Canakinumab er dog kendt som en anti-IL-1β-antistof, og dets virkning ved autoinflammatoriske sygdomme drevet af overproduktion af IL-1β er veletableret.
 
-Hepatisk infarkt er en iskæmisk eller vaskulær hændelse i leveren. Der er ingen etableret IL-1β-drevet mekanisme, som forbinder canakinumabs virkning med denne tilstand. Den høje modelscore alene er ikke tilstrækkelig som belæg.
+Hepatisk infarkt er en iskæmisk/vaskulær leverskade. IL-1β-drevet steril inflammation kan muligvis bidrage til sekundær vævsskade, og IL-1-blokade er derfor teoretisk tænkelig. Denne sammenhæng er imidlertid **spekulativ**. Den høje score er en computerberegnet forudsigelse, og den oprindelige indikationsgruppe (autoinflammatoriske sygdomme) ligner ikke hepatisk infarkt klinisk.
 
-Den eneste tilknyttede publikation (PMID 37354546) er et RCT om bempedosyre og kardiovaskulære hændelser hos statinintolerante patienter. Den omtaler hverken canakinumab eller leverinfarkt og er derfor en falsk association. Vurderingen er, at der ikke er nogen troværdig mekanistisk sammenhæng.
+Andre forudsigelser fra modellen omfatter hepatisk veno-okklusiv sygdom (99,82 %), peliosis hepatis (99,78 %), syndrom med kombineret immundefekt (99,71 %) og periodisk feber–infantil enterokolit–autoinflammatorisk syndrom (99,57 %). Sidstnævnte ligger tættest på de eksisterende indikationer og er mekanistisk mest plausibel.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen registrerede kliniske forsøg relateret til denne forudsigelse (hverken ClinicalTrials.gov eller ICTRP).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+Der er i øjeblikket ingen relateret litteratur for hepatisk infarkt.
+
+Til sammenligning er der for den forudsagte indikation "syndrom med kombineret immundefekt" fundet én publikation, som dog omhandler en eksisterende indikation (CAPS):
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [37354546](https://pubmed.ncbi.nlm.nih.gov/37354546/) | 2023 | RCT | JAMA | Bempedosyre til primær forebyggelse af kardiovaskulære hændelser hos statinintolerante patienter. Ikke relevant for canakinumab eller hepatisk infarkt |
+| [25349319](https://pubmed.ncbi.nlm.nih.gov/25349319/) | 2014 | Case-rapport | Pediatrics | Vellykket behandling med canakinumab af et 70 dage gammelt spædbarn med NOMID/CINCA (svær form for CAPS) |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105773616 | Ilaris | Injektionsvæske, opløsning | Novartis Europharm Limited |
+| 28105773616 | Ilaris (Novartis Europharm Limited) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Datagrundlaget indeholder ingen angivelser om advarsler, kontraindikationer eller interaktioner.
+**Lægemiddelinteraktioner** (100 interaktioner registreret i alt; et udvalg af de vigtigste vises her):
+
+- **Moderat:** Kortikosteroider (hydrokortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison), simvastatin, apixaban, rivaroxaban, warfarin, dicoumarol samt radiofarmaka (ibritumomab tiuxetan, iobenguan (I-131), tositumomab).
+- **Mindre:** Zinkacetat, zinkglukonat og zinksulfat.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -94,14 +105,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Datagrundlaget
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen om hepatisk infarkt hviler alene på TxGNN-scoren (evidensniveau L5). Der er ingen kliniske forsøg, og den eneste publikation er urelateret.
-- Der er ingen plausibel biologisk kobling mellem IL-1β-blokade og leverinfarkt.
+Forudsigelsen for hepatisk infarkt bygger udelukkende på en modelscore uden kliniske forsøg eller publikationer (evidensniveau L5), og den mekanistiske sammenhæng er spekulativ.
 
 **For at komme videre kræves følgende:**
-- Ingen umiddelbare handlinger anbefales for denne indikation. Kun nye, direkte data om canakinumab ved leverinfarkt vil ændre vurderingen.
-- Hent oplysninger om virkningsmekanisme (MOA) og den danske indikationstekst fra DrugBank og Lægemiddelstyrelsens produktresumé.
-- Hent produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsens hjemmeside, da sikkerhedsscreening ikke kan gennemføres uden dem.
-- Til information: en anden forudsigelse i samme datapakke, **periodisk feber-infantil enterokolitis-autoinflammatorisk syndrom** (NLRC4-relateret, score 99,57 %), har evidensniveau L4. Det er mekanistisk mere plausibelt, fordi canakinumab har vist effekt ved beslægtede periodiske febersyndromer, bl.a. i et fase 3-RCT (PMID 29768139). Ingen af de tilgængelige studier omhandler dog netop dette syndrom, og IL-18 er også en central drivkraft, som canakinumab ikke rammer. Denne indikation kan vurderes særskilt som et forskningsspørgsmål.
+- Systematisk litteratursøgning om IL-1β's rolle ved hepatisk infarkt og leverkarsygdomme
+- Data om virkningsmekanisme og farmakologi fra DrugBank
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer)
+- Prækliniske studier eller case-serier, før et klinisk forsøg overvejes
+- Alternativt kan man prioritere den mekanistisk nærmere forudsigelse (periodisk feber–infantil enterokolit–autoinflammatorisk syndrom) til målrettet litteraturgennemgang
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

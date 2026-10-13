@@ -2,7 +2,7 @@
 layout: default
 title: Vonicog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 476
+nav_order: 892
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vonicog Alfa: Fra von Willebrand sygdom til primær frigivelsesdefekt af blodplader
+# Vonicog alfa: Fra von Willebrands sygdom til primær frigivelsesforstyrrelse af blodplader
 
-## Resumé
+## Resumé i én sætning
 
-Vonicog alfa er rekombinant von Willebrand-faktor (rVWF), og de refererede studier omhandler behandling af von Willebrand sygdom (VWD). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigivelsesdefekt af blodplader** (primary release disorder of platelets). Forudsigelsen er rent beregningsbaseret og understøttes af **0 kliniske forsøg** og **0 publikationer**. Det mekanistiske grundlag vurderes som svagt.
+Vonicog alfa er rekombinant von Willebrand-faktor (VWF), som oprindeligt anvendes til behandling af arvelig von Willebrands sygdom.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **primær frigivelsesforstyrrelse af blodplader**,
+men der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publikationer** om denne indikation, så forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,84 +43,62 @@ Vonicog alfa er rekombinant von Willebrand-faktor (rVWF), og de refererede studi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Von Willebrand sygdom (udledt af de refererede studier; indikationsteksten i den danske registrering er ikke oplyst) |
-| Forudsagt ny indikation | Primær frigivelsesdefekt af blodplader |
+| Oprindelig indikation | Arvelig von Willebrands sygdom (iflg. vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
 | TxGNN-forudsigelsesscore | 99,98 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-### Alle forudsagte indikationer (dubletter fjernet)
-
-| Indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Primær frigivelsesdefekt af blodplader | 99,98 % | L5 | Hold |
-| Glanzmanns trombasteni | 99,98 % | L5 | Hold |
-| Pseudo-von Willebrand sygdom | 99,97 % | L5 | Hold |
-| Hæmofili | 99,95 % | L4 | Forskningsspørgsmål |
-| Scott syndrom | 99,95 % | L5 | Hold |
-
-Hæmofili er den eneste forudsagte indikation med noget evidensmateriale. Det er dog evidens fra en nærliggende sygdom, ikke direkte evidens (se nedenfor).
+Øvrige forudsagte indikationer med samme evidensniveau eller lavere (alle med score på ca. 99,9 %): Glanzmanns trombasteni (99,98 %), pseudo-von Willebrands sygdom (99,97 %), hæmofili (99,95 %) og Scotts syndrom (99,95 %).
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig (eller ikke)?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen. Vonicog alfa er rekombinant von Willebrand-faktor. VWF understøtter blodpladernes adhæsion til det skadede kar og bærer og stabiliserer endogen faktor VIII i blodet. Lægemidlets virkning ved VWD er dokumenteret i flere fase 3-studier.
+Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige i de indsamlede data. Vonicog alfa er dog rekombinant VWF, som formidler blodpladers adhæsion til beskadiget karvæg via GPIb og understøtter aggregation via GPIIb/IIIa. Virkningen ved von Willebrands sygdom er dokumenteret.
 
-Primær frigivelsesdefekt af blodplader er en defekt i blodpladernes granulasekretion. VWF-substitution påvirker adhæsion og FVIII-transport, ikke selve sekretionsvejen. Det mekanistiske argument er derfor svagt. Den høje score afspejler sandsynligvis nærhed til VWF i vidensgrafen og ikke et reelt terapeutisk signal.
+Primære frigivelsesforstyrrelser af blodplader skyldes imidlertid defekter i blodpladernes egne granula eller signalveje. Tilført VWF forventes derfor ikke at kunne korrigere defekten. Den høje score er sandsynligvis drevet af netværksnærhed i vidensgrafen til blodpladeadhæsionsvejen og ikke af dokumenteret biologisk eller klinisk sammenhæng.
 
-Det samme gælder de øvrige forudsigelser:
-- **Glanzmanns trombasteni:** Årsagen er manglende eller defekt integrin αIIbβ3, som hæmmer pladeaggregationen. VWF virker tidligere i forløbet (adhæsion) og kan ikke korrigere aggregationsdefekten.
-- **Pseudo-VWD:** Årsagen er gain-of-function-varianter i GPIbα på blodpladerne. Primærdefekten ligger i pladereceptoren og ikke i VWF-mangel, så tilførsel af VWF har ingen klar rationale og kan i værste fald forstærke den abnorme binding.
-- **Scott syndrom:** Defekten er manglende fosfatidylserin-eksponering på aktiverede blodplader (TMEM16F/ANO6). VWF virker ikke på denne procoagulante overflademekanisme.
-- **Hæmofili:** En biologisk forbindelse er plausibel, fordi VWF stabiliserer FVIII. Men "hæmofili" er sandsynligvis en grov kobling til blødersygdomsfamilien i vidensgrafen.
+For de øvrige forudsigelser gælder følgende:
+- **Glanzmanns trombasteni:** skyldes mangel på eller dysfunktion af GPIIb/IIIa-receptoren. Ekstra VWF kan ikke erstatte en manglende receptor, så plausibiliteten er svag.
+- **Pseudo-von Willebrands sygdom:** skyldes gain-of-function-varianter i GPIbα. Sygdomsbiologien ligger tæt på von Willebrands sygdom, men tilført VWF kan bindes og elimineres af hyperreaktive blodplader. Blodpladetransfusion er den sædvanlige behandling.
+- **Hæmofili:** vonicog alfa indeholder ikke faktor VIII. VWF stabiliserer dog endogen FVIII, så der er en indirekte begrundelse. Den fundne litteratur handler om von Willebrands sygdom og ikke hæmofili, og matchet kan skyldes en artefakt i sygdomsontologien.
+- **Scotts syndrom:** skyldes nedsat fosfatidylserin-eksponering på aktiverede blodplader (TMEM16F/ANO6). Defekten ligger nedstrøms for og er uafhængig af VWF-medieret adhæsion.
 
 ---
 
-## Klinisk forsøgsevidens
+## Klinisk evidens fra forsøg
 
-For den øverste forudsigelse (primær frigivelsesdefekt af blodplader) er der ingen relaterede kliniske forsøg registreret.
-
-For **hæmofili** er der fire fase 3-forsøg med rVWF. De undersøger imidlertid VWD og ikke hæmofili, så de udgør evidens fra en nærliggende sygdom:
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT02932618](https://clinicaltrials.gov/study/NCT02932618) | Fase 3 | Rekrutterer | 31 | rVWF med eller uden ADVATE til behandling af blødningsepisoder, operationer og farmakokinetik hos børn (<18 år) med svær arvelig VWD |
-| [NCT03879135](https://clinicaltrials.gov/study/NCT03879135) | Fase 3b | Afsluttet | 38 | Langtidssikkerhed og effekt af rVWF-profylakse (op til 3 år), målt på årlig blødningsrate ved spontane blødninger hos børn og voksne med svær VWD |
-| [NCT02973087](https://clinicaltrials.gov/study/NCT02973087) | Fase 3 | Afsluttet | 29 | Effekt og sikkerhed af rVWF-profylakse (inkl. immunogenicitet, trombogenicitet og overfølsomhed) hos voksne med svær VWD |
-| [NCT02606045](https://clinicaltrials.gov/study/NCT02606045) | Fase 3 | Afbrudt | 39 | Randomiseret crossover-forsøg: rVWF versus tranexamsyre mod menoragi hos kvinder med VWD |
-
-Alle fire forsøg er åbne (undtagen det randomiserede NCT02606045) og omfatter VWD-patienter. Intet forsøg er udført hos patienter med hæmofili A eller B.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for primær frigivelsesforstyrrelse af blodplader.
 
 ---
 
 ## Litteraturevidens
 
-For den øverste forudsigelse findes der ingen relateret litteratur. Nedenfor ses litteratur om rVWF, der er knyttet til hæmofili-forudsigelsen. Den omhandler hovedsageligt VWD:
+Der er på nuværende tidspunkt ingen relateret litteratur for den primære forudsagte indikation. For hæmofili (rang 7) blev der fundet følgende publikationer, som dog omhandler von Willebrands sygdom og ikke hæmofili:
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | Fase 3-studie | Blood | rVWF-profylakse hos voksne med svær VWD; undersøger, om profylakse reducerer hyppigheden af behandlingskrævende spontane blødninger |
-| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | Farmakokinetisk/farmakodynamisk sammenligning | J Blood Med | Sammenligning af rekombinant og plasmaafledt VWF hos patienter med VWD type 3 |
-| [31808884](https://pubmed.ncbi.nlm.nih.gov/31808884/) | 2019 | Review | Hematology Am Soc Hematol Educ Program | Nye behandlinger af VWD; korrektion af både den primære hæmostasedefekt og den sekundære FVIII-defekt |
-| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Review | Curr Pharm Des | Nye hæmostatiske midler og perioperative overvejelser for anæstesiologer |
-| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | Laboratorieundersøgelse/survey | Haemophilia | Hvordan laboratorier analyserer rekombinante og plasmaafledte VWF-produkter |
+| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | Fase 3-studie | Blood | Profylakse med rekombinant VWF hos voksne med svær von Willebrands sygdom, med fokus på effekt og sikkerhed ift. spontane blødninger |
+| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | Farmakokinetisk/farmakodynamisk studie | Journal of Blood Medicine | Sammenligning af rekombinant og plasmaderiveret VWF ved von Willebrands sygdom type 3 |
+| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Review | Current Pharmaceutical Design | Narrativt review af nye hæmostatiske midler og perioperative overvejelser for anæstesiologer |
+| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | In vitro-feltstudie og survey | Haemophilia | Hvordan kliniske hæmostaselaboratorier analyserer rekombinante og plasmaderiverede VWF-produkter |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105961717 | Veyvondi | Pulver og solvens til injektionsvæske, opløsning | Baxalta Innovations GmbH |
+| 28105961717 | Veyvondi (Baxalta Innovations GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ikke sikkerhedsdata i datagrundlaget (advarsler, kontraindikationer eller interaktioner). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der blev ikke fundet interaktioner i de indsamlede data. For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SPC).
 
 ---
 
@@ -127,15 +107,13 @@ Der foreligger ikke sikkerhedsdata i datagrundlaget (advarsler, kontraindikation
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den øverste forudsigelse er rent beregningsbaseret (L5) uden forsøg eller litteratur, og det mekanistiske grundlag er svagt, fordi VWF-substitution ikke påvirker blodpladernes sekretionsvej. Den eneste forudsigelse med evidens (hæmofili, L4) bygger på VWD-studier og ikke på hæmofilipatienter.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur, og den biologiske sammenhæng er svag, da defekten ved primære frigivelsesforstyrrelser ligger i blodpladerne selv og ikke i VWF.
 
-**For at komme videre kræves:**
-- Indikationstekst og produktresumé (advarsler og kontraindikationer) fra Lægemiddelstyrelsen, så sikkerhedsscreeningen kan gennemføres
-- Data om virkningsmekanisme fra DrugBank
-- Verifikation af populationen i de fire fase 3-forsøg, da titlerne er afkortede
-- Ved interesse for hæmofili: en målrettet litteraturgennemgang og eventuelt prækliniske data eller forsøg hos hæmofilipatienter
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) og en vurdering af mekanistisk sammenhæng med blodpladefrigivelsesdefekter
+- Produktresumé (SPC) med advarsler og kontraindikationer samt godkendt indikationstekst for Veyvondi
+- Systematisk litteratursøgning og prækliniske data (fx funktionelle blodpladestudier) før eventuelle kliniske forsøg
+- Overvejelse af, om pseudo-von Willebrands sygdom og hæmofili (indirekte via FVIII-stabilisering) er mere oplagte forskningsspørgsmål end de øvrige forudsigelser
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

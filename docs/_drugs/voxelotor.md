@@ -2,7 +2,7 @@
 layout: default
 title: Voxelotor
 parent: Kun modelforudsigelse (L5)
-nav_order: 477
+nav_order: 894
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Voxelotor: Fra seglcellesygdom til arvelig trombocytopeni med normale blodplader
+# Voxelotor: Fra seglcelleanæmi til arvelig trombocytopeni med normale blodplader
 
-## Resumé i én sætning
+## Sammenfatning
 
-Voxelotor er en hæmoglobin S-polymerisationshæmmer, som er kendt fra behandling af seglcellesygdom. Den er ikke angivet som godkendt indikation i de danske data, så det er baseret på lægemidlets kendte virkningsmekanisme. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **arvelig trombocytopeni med normale blodplader**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Voxelotor er et lægemiddel, der oprindeligt anvendes til behandling af seglcelleanæmi (og i vidensgrafen også knyttet til arvelig persistens af føtalt hæmoglobin).
+TxGNN-modellen forudsiger, at det kan have effekt ved **arvelig trombocytopeni med normale blodplader**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen bygger udelukkende på modellen.
 
 ---
 
@@ -41,34 +43,23 @@ Voxelotor er en hæmoglobin S-polymerisationshæmmer, som er kendt fra behandlin
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata (voxelotor er kendt som hæmoglobin S-polymerisationshæmmer ved seglcellesygdom) |
+| Oprindelig indikation | Seglcelleanæmi (fra vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke tilgængelig) |
 | Forudsagt ny indikation | Arvelig trombocytopeni med normale blodplader |
 | TxGNN-forudsigelsesscore | 99,58 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (ifølge data; skal verificeres, se nedenfor) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i evidenspakken. Voxelotor er kendt som en hæmoglobin S-polymerisationshæmmer, der øger hæmoglobinets iltaffinitet og stabiliserer den iltede tilstand. Mekanismen er udviklet til at forhindre, at røde blodlegemer sygler.
+Data om lægemidlets virkningsmekanisme findes ikke i de data, der er indsamlet til denne rapport. Ud fra almen baggrundsviden (ikke fra de indsamlede data) binder voxelotor sig til hæmoglobin og hæmmer polymerisering af HbS. Denne mekanisme er specifik for de røde blodlegemers hæmoglobin.
 
-Der er **ingen etableret mekanistisk sammenhæng** mellem denne mekanisme og de forudsagte sygdomme. Arvelige trombocytopenier og blodpladefunktionsdefekter handler om blodpladeproduktion, -overlevelse eller -sekretion. Ingen kendt biologisk vej forbinder hæmoglobin-ilt-affinitet med disse processer. Den høje score (0,996) afspejler formentlig kun nærhed i vidensgrafen og er ikke biologisk eller klinisk understøttet.
+Der er ingen oplagt sammenhæng mellem denne mekanisme og blodpladeproduktion eller -funktion ved arvelig trombocytopeni. Seglcelleanæmi er en sygdom i de røde blodlegemer, mens den forudsagte indikation vedrører blodplader. Den høje score (0,996) er derfor et rent modelresultat uden understøttelse fra kliniske forsøg eller litteratur.
 
-Derudover bør statussen "Markedsført" verificeres. Voxelotor blev ifølge vurderingen i evidenspakken trukket tilbage globalt i 2024, så de danske markedsdata kan være forældede.
-
-### Øvrige forudsigelser med tilsvarende score
-
-Alle forudsigelser har evidensniveau L5, ingen forsøg, ingen publikationer og anbefalingen Hold. Der er heller ikke påvist nogen mekanistisk sammenhæng for dem.
-
-| Forudsagt indikation | TxGNN-score |
-|------|------|
-| Makrotrombocytopeni med mitralinsufficiens | 99,58 % |
-| Dense granule-sygdom (blodpladesekretionsdefekt) | 99,58 % |
-| Transitorisk neonatal trombocytopeni | 99,57 % |
-| Trombocytopeni (overordnet betegnelse) | 99,51 % |
+Modellen forudsiger desuden en række beslægtede blodpladelidelser med næsten identiske scorer: makrotrombocytopeni med mitralklapinsufficiens (99,58 %), dense granule-sygdom (99,58 %), forbigående neonatal trombocytopeni (99,57 %) og trombocytopeni generelt (99,51 %). Ingen af dem er understøttet af data, og der er ikke identificeret nogen mekanistisk forbindelse for nogen af dem. Neonatal anvendelse vil desuden rejse yderligere sikkerhedsmæssige spørgsmål.
 
 ---
 
@@ -84,21 +75,25 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106561320 | Oxbryta | Filmovertrukne tabletter (oral) | Pfizer Europe MA EEIG |
-
-Godkendt indikationstekst er ikke angivet i de tilgængelige data.
+| 28106561320 | Oxbryta (Pfizer Europe MA EEIG) | Filmovertrukne tabletter (oral anvendelse) | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen interaktionsdata for voxelotor i evidenspakken (ingen fund i forespørgslen). Der er ikke indhentet advarsler eller kontraindikationer fra Lægemiddelstyrelsens produktresumé. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 100 potentielle interaktioner (kilde: DDInter). Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
+- Dexamethason
+- Clarithromycin
+- Eliglustat
+- Naloxegol
 
-Ved den forudsagte indikation "transitorisk neonatal trombocytopeni" mangler der desuden sikkerhedsdata for nyfødte, hvilket ville kræve en separat sikkerhedsvurdering.
+Flere interaktioner er klassificeret som **moderate**, bl.a. hydrocortison, prednison, betamethason, budesonid, triamcinolon, aprepitant, saxagliptin, repaglinid, simvastatin, tinidazol, nitisinon og naldemedin. Mønsteret med mange kortikosteroider og stoffer, der metaboliseres via CYP-enzymer, peger på interaktioner af metabolisk karakter.
+
+Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -107,16 +102,14 @@ Ved den forudsagte indikation "transitorisk neonatal trombocytopeni" mangler der
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne bygger udelukkende på modelnærhed i vidensgrafen (evidensniveau L5), uden kliniske forsøg, publikationer eller en plausibel mekanistisk forbindelse. Markedsstatus er desuden usikker, og sikkerhedsdata mangler, så der kan ikke gennemføres en sikkerhedsscreening.
+Forudsigelsen er alene baseret på en modelscore uden kliniske forsøg eller publikationer, og der er ingen plausibel mekanistisk sammenhæng mellem voxelotors virkning på hæmoglobin og blodpladesygdomme. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Verificering af lægemidlets aktuelle markedsstatus i Danmark (mulig global tilbagetrækning i 2024)
-- Download og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer)
-- Detaljerede data om virkningsmekanisme fra DrugBank
-- En biologisk begrundelse for en sammenhæng mellem hæmoglobin-ilt-affinitet og blodpladesygdomme, før videre evaluering overvejes
-- Præklinisk eller litteraturbaseret evidens, som kan løfte evidensniveauet over L5
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal klinisk valideres, før de kan anvendes.*
+- Hentning og gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer, som er en blokerende datamangel for sikkerhedsvurdering
+- Fyldestgørende data om virkningsmekanisme (MOA)
+- Præklinisk eller mekanistisk evidens for en effekt på blodpladeproduktion eller -funktion
+- Verificering af den aktuelle regulatoriske status for Oxbryta i EU, da godkendelsen kan være ændret
+- Vurdering af indikationens relevans og sikkerhed i særlige populationer, herunder nyfødte
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Avelumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 53
+nav_order: 89
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Avelumab: Fra Merkelcellekarcinom til HHV-8-relateret tumor
+# Avelumab: Fra kutant neuroendokrint karcinom til human herpesvirus 8-relateret tumor
 
-## Resumé i få sætninger
+## Resumé
 
-Avelumab er et anti-PD-L1 IgG1-antistof, som er markedsført til behandling af Merkelcellekarcinom. Det er en hudkræftform med neuroendokrin oprindelse.
-TxGNN-modellen forudsiger, at det kan have effekt på **HHV-8-relateret tumor** (human herpesvirus 8-relateret tumor).
-Der er **0 kliniske forsøg** og **0 publikationer** i det foreliggende datagrundlag, så forudsigelsen er ren modelforudsigelse.
+Avelumab er et antistof mod PD-L1, som oprindeligt er registreret til behandling af kutant neuroendokrint karcinom (Merkelcellekarcinom). TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **human herpesvirus 8-relateret tumor**. Der er dog **ingen kliniske forsøg og ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen hviler kun på modellens score.
 
 ---
 
@@ -43,7 +41,7 @@ Der er **0 kliniske forsøg** og **0 publikationer** i det foreliggende datagrun
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Merkelcellekarcinom (fra evidensgrundlagets begrundelse; indikationsteksten i den danske licens er tom) |
+| Oprindelig indikation | Kutant neuroendokrint karcinom (fra vidensgrafen; produktets indikationstekst er ikke tilgængelig) |
 | Forudsagt ny indikation | Human herpesvirus 8-relateret tumor |
 | TxGNN-forudsigelsesscore | 99,97 % |
 | Evidensniveau | L5 |
@@ -53,20 +51,17 @@ Der er **0 kliniske forsøg** og **0 publikationer** i det foreliggende datagrun
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i evidensgrundlaget. Avelumab er dog kendt som et anti-PD-L1 IgG1-antistof. Det blokerer PD-1/PD-L1-aksen og kan dermed genoprette T-cellernes evne til at angribe tumorceller.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige. Avelumab er dog kendt som en PD-L1-hæmmer (immun-checkpoint-hæmmer). Dens effekt ved den oprindelige indikation er dokumenteret, og mekanistisk kan den muligvis anvendes ved den nye indikation.
 
-Virusdrevne tumorer, herunder HHV-8/KSHV-associerede maligniteter, kan udnytte PD-1/PD-L1-aksen til at undslippe immunforsvaret. Derfor er PD-L1-blokade biologisk plausibel. Denne kobling er dog på hypoteseniveau. Ingen forsøg eller litteratur i datagrundlaget understøtter den, og TxGNN-scoren er en modelforudsigelse og ikke klinisk evidens.
+En mulig forklaring er, at PD-L1-blokade kan genoprette immunforsvarets antitumorrespons ved HHV-8-drevne maligniteter, f.eks. Kaposis sarkom, som ofte udtrykker PD-L1. De data, der er indsamlet til denne rapport, bekræfter ikke dette. Det er en hypotese og ikke dokumenteret evidens.
 
-Modellen genererede også andre forudsigelser med lignende høje scorer, men de er endnu svagere underbygget:
-- **Neuroendokrin tumor i mellemøret** (99,97 %): Sammenhængen skyldes sandsynligvis, at avelumab er markedsført til Merkelcellekarcinom, som også er en neuroendokrin tumor. Tumorer i mellemøret adskiller sig i lokalisation, biologi og PD-L1-status, så koblingen er indirekte og ikke verificeret.
-- **Malign kutan granulacellet hudtumor** (99,97 %) og **ektomesenkymom** (99,97 %): Der er ingen dokumenteret mekanistisk begrundelse og ingen data om PD-L1-ekspression.
-- **Adenosindeaminase-mangel** (99,95 %): Det er en monogen metabolisk immundefekt og ikke en tumor. Checkpoint-blokade har ingen plausibel terapeutisk begrundelse, og immunaktivering kan være uhensigtsmæssig. Forudsigelsen er sandsynligvis en artefakt i vidensgrafen.
+Bemærk også, at der er fremkommet andre højt scorende forudsigelser uden evidens: mellemøre-neuroendokrin tumor (99,97 %), malign kutan granularcelletumor (99,97 %) og ectomesenchymom (99,97 %). Forudsigelsen for **adenosindeaminase-mangel** (99,95 %) er sandsynligvis falsk positiv. Der er ingen oplagt mekanistisk begrundelse, og checkpoint-hæmning kan potentielt være skadelig ved immundysregulering.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -74,35 +69,26 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105860516 | Bavencio | Koncentrat til infusionsvæske, opløsning | Merck Europe B.V. |
-
-Indikationsteksten er ikke angivet i licensdata.
-
----
-
-## Cytotoksicitet
-
-| Punkt | Indhold |
-|------|------|
-| Cytotoksisk klassifikation | Immunterapi (anti-PD-L1 monoklonalt antistof), ikke konventionel cytostatika |
-| Risiko for myelosuppression | Ikke angivet i data. Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Ikke angivet i data. Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se SmPC. For immunterapi af denne type overvåges typisk immunrelaterede bivirkninger, bl.a. lever-, nyre- og thyreoideafunktion, samt infusionsreaktioner |
-| Beskyttelse ved håndtering | Se SmPC og lokale retningslinjer for håndtering af onkologiske lægemidler |
+| 28105860516 | Bavencio (Merck Europe B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet dokumenterede interaktioner i det foreliggende datagrundlag.
+- **Lægemiddelinteraktioner** (3 registrerede, alle af alvorlighedsgrad *Major*):
+  - Lenalidomid
+  - Pomalidomid
+  - Thalidomid
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige i det indsamlede materiale.
 
 ---
 
@@ -111,16 +97,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fu
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har evidensniveau L5, altså kun modelforudsigelse. Der er ingen kliniske forsøg eller publikationer, og koblingen mellem PD-L1-blokade og HHV-8-relaterede tumorer er kun en hypotese. Sikkerhedsdata fra dansk produktinformation mangler også, hvilket blokerer for videre sikkerhedsscreening.
+Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5). Der foreligger hverken kliniske forsøg eller litteratur, og virkningsmekanismen samt produktets sikkerhedsdata mangler i det indsamlede materiale.
 
 **For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé hentet fra Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Litteratursøgning og søgning i forsøgsregistre om PD-1/PD-L1-hæmmere ved HHV-8/KSHV-associerede tumorer
-- Data om PD-L1-ekspression i de forudsagte tumortyper
-- Vurdering af administrationsvej (avelumab foreligger kun som intravenøs infusion) i forhold til den nye indikation
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen med henblik på advarsler, kontraindikationer og den godkendte indikationstekst (blokerende datamangel)
+- Supplér data om virkningsmekanisme (f.eks. via DrugBank)
+- Systematisk litteratur- og forsøgssøgning for avelumab ved HHV-8-relaterede tumorer, især Kaposis sarkom, herunder PD-L1-ekspression
+- Vurdering af sikkerhed ved HHV-8-relaterede tumorer, herunder immunsupprimerede patienter (f.eks. hiv-associeret sygdom)
+- Mekanistisk og klinisk vurdering af de øvrige forudsigelser, hvor adenosindeaminase-mangel bør behandles som sandsynlig falsk positiv
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

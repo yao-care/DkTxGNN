@@ -2,7 +2,7 @@
 layout: default
 title: Voclosporin
 parent: Kun modelforudsigelse (L5)
-nav_order: 475
+nav_order: 890
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Voclosporin: Fra immunsuppressiv calcineurinhæmmer til primær frigørelsesforstyrrelse af blodplader
+# Voclosporin: Fra lupusnefritis til primær frigørelsesforstyrrelse af blodplader
 
-## Resumé i én sætning
+## Sammenfatning i én sætning
 
-Voclosporin er en calcineurinhæmmer (en analog til ciclosporin), som undertrykker T-cellernes aktivering. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (primary release disorder of platelets), men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på en model baseret på en vidensgraf (evidensniveau L5).
+Voclosporin er en calcineurinhæmmer, som i Danmark er markedsført under navnet Lupkynis. Lægemidlets oprindelige indikation fremgår ikke af de godkendelsesdata, der er indgået i rapporten. TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (score 95,4 %), men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
@@ -41,68 +41,73 @@ Voclosporin er en calcineurinhæmmer (en analog til ciclosporin), som undertrykk
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Primær frigørelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 95,42 % |
+| TxGNN-forudsigelsesscore | 95,4 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+## Hvorfor er forudsigelsen rimelig?
 
-Voclosporin er en calcineurinhæmmer. Den blokerer calcineurin-NFAT-IL-2-signalvejen og dermed T-cellernes aktivering. Der foreligger ingen detaljerede mekanismedata fra DrugBank i datagrundlaget. Beskrivelsen her bygger på stofklassens kendte virkemåde. Datagrundlaget nævner, at voclosporin anvendes ved lupusnefritis, men den danske tilladelse indeholder ingen indikationstekst.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til rapporten. Det vides dog, at voclosporin er en calcineurinhæmmer. Stoffet binder cyclophilin A (PPIA) og hæmmer calcineurin-NFAT-signalvejen, hvilket dæmper T-celleaktivering og IL-2-produktion.
 
-Primær frigørelsesforstyrrelse af blodplader er en arvelig defekt i blodpladernes sekretion. Calcineurinhæmning er ikke en etableret vej til at korrigere en sådan defekt, og calcineurinsignalering i blodplader er ikke et valideret behandlingsmål ved denne sygdom. Den høje score skyldes sandsynligvis nærhed i vidensgrafen snarere end en reel biologisk sammenhæng.
+For primær frigørelsesforstyrrelse af blodplader er der **ingen kendt mekanistisk sammenhæng**. Sygdommen er en arvelig funktionsdefekt i blodpladernes granulafrigørelse og er ikke immunmedieret. Immunsuppression har derfor ingen klar begrundelse. Den høje TxGNN-score afspejler en netværksbaseret forudsigelse og ikke biologisk eller klinisk dokumentation.
 
-### Øvrige forudsigelser
+Dataene indeholder også andre forudsigelser, som alle vurderes som svage eller uden evidens:
 
-Samme vurdering gælder de andre forudsigelser. Mange optræder to gange i data og er her kun vist én gang.
+- **Glanzmanns trombasteni** (score 94,9 %, L5): skyldes genetisk mangel på eller dysfunktion af integrin αIIbβ3. Calcineurinhæmning påvirker ikke defekten. En eventuel nicherolle ved alloimmunisering (anti-GPIIb/IIIa-antistoffer) er spekulativ.
+- **Pseudo-von Willebrands sygdom** (score 94,6 %, L5): skyldes gain-of-function-mutationer i GP1BA. Der er ingen kendt afhængighed af calcineurin/NFAT.
+- **Dermatitis** (score 94,2 %, L4): T-cellemedieret inflammation gør klasseeffekten biologisk plausibel, og tacrolimus og ciclosporin har etableret dermatologisk anvendelse. Evidensen for voclosporin er dog kun indirekte (to oversigtsartikler).
+- **Renal osteodystrofi** (score 94,2 %, L5): calcineurinhæmmere er nefrotoksiske og forbundet med knogletab, så en gavnlig effekt er ikke understøttet, og der er risiko for skade.
 
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Glanzmanns trombasteni | 94,87 % | L5 | Skyldes manglende eller dysfunktionelt integrin αIIbβ3. Calcineurinhæmning genopretter ikke receptoren, og immunsuppression kan øge risikoen for blødning og infektion. Sandsynligvis en artefakt i grafen. |
-| Pseudo-von Willebrands sygdom | 94,57 % | L5 | Skyldes gain-of-function-varianter i GP1BA. Der er ingen kendt mekanistisk forbindelse til calcineurinhæmning. |
-| Dermatitis | 94,18 % | L4 | Biologisk plausibel, se nedenfor. Anbefaling: Research Question. |
-| Renal osteodystrofi | 94,16 % | L5 | Skyldes CKD-mineral- og knoglesygdom. Calcineurinhæmmere er som klasse forbundet med ændret knogleomsætning og knogletab, så skade er mere sandsynlig end gavn. |
-
-Dermatitis er den eneste forudsigelse med en rimelig biologisk sammenhæng. Calcineurinhæmmere blokerer T-cellernes aktivering og cytokinfrigørelse (bl.a. IL-2), som driver T-cellemedierede inflammatoriske hudsygdomme. Systemisk ciclosporin og tacrolimus er etablerede off-label-muligheder ved svær dermatitis, og voclosporin er en strukturelt beslægtet og mere potent calcineurinhæmmer. Evidensen er dog indirekte og udledt af andre calcineurinhæmmere.
+Bemærk: Datasættet indeholdt hver forudsigelse to gange. Dubletterne er behandlet som én indikation.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ikke registreret relaterede kliniske forsøg for nogen af de forudsagte indikationer.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den primære forudsigelse.
 
 ---
 
 ## Litteraturevidens
 
-For den primære forudsigelse (primær frigørelsesforstyrrelse af blodplader) foreligger der ingen relateret litteratur.
+For den primære forudsigelse (primær frigørelsesforstyrrelse af blodplader) er der ingen relateret litteratur. Til sammenligning findes der for den sekundære forudsigelse **dermatitis** følgende oversigtsartikler:
 
-For dermatitis er der to oversigtsartikler. Ingen af dem indeholder primære kliniske data for voclosporin ved dermatitis.
-
-| PMID | År | Type | Tidsskrift | Hovedpointer |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [37307993](https://pubmed.ncbi.nlm.nih.gov/37307993/) | 2024 | Review | Journal of the American Academy of Dermatology | Gennemgang af off-label-brug af systemisk tacrolimus og voclosporin i dermatologi. Der er retningslinjer for ciclosporin, men ingen stærk konsensus for tacrolimus og voclosporin. |
-| [41361657](https://pubmed.ncbi.nlm.nih.gov/41361657/) | 2025 | Review | Molecular neurobiology | Oversigt over calcineurinhæmmeres rolle, håndtering af toksicitet og fremtidsperspektiver. Beskriver hæmning af calcineurin og NFAT og dermed af IL-2-transkription og T-cellernes aktivering. |
+| [37307993](https://pubmed.ncbi.nlm.nih.gov/37307993/) | 2024 | Oversigtsartikel | Journal of the American Academy of Dermatology | Gennemgang af off-label dermatologisk brug af systemiske calcineurinhæmmere (tacrolimus og voclosporin). Der er ingen stærk konsensus for voclosporin, i modsætning til ciclosporin. |
+| [41361657](https://pubmed.ncbi.nlm.nih.gov/41361657/) | 2025 | Oversigtsartikel | Molecular Neurobiology | Overblik over calcineurinhæmmeres nuværende rolle, toksicitetshåndtering og fremtidige anvendelser inden for immunsuppression. |
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106649721 | Lupkynis | Kapsler, bløde | Otsuka Pharmaceutical Netherlands B.V. |
+| 28106649721 | Lupkynis | Kapsler, bløde | Indikationsteksten er ikke angivet i de tilgængelige data |
+
+Indehaveren af tilladelsen er Otsuka Pharmaceutical Netherlands B.V.
+
+---
+
+## Cytotoksicitet
+
+Voclosporin er en immunsuppressiv calcineurinhæmmer og ikke et antineoplastisk lægemiddel. Afsnittet er derfor udeladt.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i datagrundlaget. Opslag på lægemiddelinteraktioner gav ingen resultater.
+Der er ikke tilgængelige data om advarsler og kontraindikationer i de data, der er indsamlet til rapporten. Den eneste registrerede interaktion er stoffets farmakologiske binding til målproteinet cyclophilin A (PPIA), hvilket ikke er en klinisk lægemiddelinteraktion.
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Fra den litteratur, der er gennemgået for dermatitis, nævnes følgende klasserelaterede risici ved systemisk calcineurinhæmning: nefrotoksicitet, hypertension og øget infektionsrisiko.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -111,15 +116,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsigelser mangler klinisk og litterær støtte, og for de tre blødningssygdomme og renal osteodystrofi er der ingen plausibel mekanisme. Dermatitis er biologisk rimelig, men evidensen er indirekte, og hensynet til nyretoksicitet, hypertension og infektionsrisiko skal vejes mod alternativer ved en ikke-livstruende hudsygdom. Dermatitis kan derfor kun betragtes som et forskningsspørgsmål.
+Forudsigelsen for primær frigørelsesforstyrrelse af blodplader bygger kun på modelscoren. Der er hverken kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng, og sygdommen er ikke immunmedieret. Evidensniveauet er L5.
 
 **For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé. Manglen på disse er en blokerende datamangel for sikkerhedsvurderingen.
-- Detaljerede mekanismedata (MOA) fra DrugBank.
-- Primære kliniske data eller forsøg med voclosporin ved dermatitis, før en egentlig vurdering kan foretages.
-- Afklaring af den godkendte indikationstekst for Lupkynis i Danmark.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne er modelbaserede og kræver klinisk validering, før de kan anvendes i praksis.*
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (afgørende for sikkerhedsvurderingen)
+- Data om den oprindelige godkendte indikation og detaljeret virkningsmekanisme (DrugBank)
+- Prækliniske eller mekanistiske studier, der kan belyse en eventuel sammenhæng mellem calcineurin/NFAT og blodpladefunktion
+- Hvis der ønskes en mere lovende retning: en målrettet litteratur- og forsøgsgennemgang for **dermatitis** (L4, forskningsspørgsmål), hvor klasseeffekten er plausibel, men voclosporin-specifikke data mangler, og hvor sikkerhedsprofilen skal vejes mod godkendte alternativer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

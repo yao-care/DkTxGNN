@@ -2,7 +2,7 @@
 layout: default
 title: Enfortumab Vedotin
 parent: Kun modelforudsigelse (L5)
-nav_order: 165
+nav_order: 305
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,10 +31,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Enfortumab vedotin: Fra urotelialt karcinom til lepra
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Enfortumab vedotin er et antistof-lægemiddelkonjugat (ADC) rettet mod Nectin-4. Det er godkendt til urotelialt karcinom.
-TxGNN-modellen forudsiger, at det kan have effekt på **lepra**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Den hviler udelukkende på en modelforudsigelse (evidensniveau L5).
+Enfortumab vedotin er et Nectin-4-rettet antistof-lægemiddelkonjugat (med MMAE som cytotoksisk last), der er markedsført til behandling af urotelialt karcinom. TxGNN-modellen forudsiger, at det kan have effekt på **lepra**, men der foreligger **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -42,9 +41,9 @@ TxGNN-modellen forudsiger, at det kan have effekt på **lepra**, men der er **0 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urotelialt karcinom (fremgår af mekanismevurderingen; godkendelsesteksten i den danske registrering er ikke udfyldt) |
-| Foreslået ny indikation | Lepra |
-| TxGNN-forudsigelsesscore | 99,53 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (lægemidlet er kendt som markedsført til urotelialt karcinom) |
+| Forudsagt ny indikation | Lepra |
+| TxGNN-prædiktionsscore | 99,53 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -54,33 +53,33 @@ TxGNN-modellen forudsiger, at det kan have effekt på **lepra**, men der er **0 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Enfortumab vedotin er et Nectin-4-rettet ADC. Det afgiver det mikrotubuli-forstyrrende stof MMAE (monomethylauristatin E) inde i tumorceller, der udtrykker Nectin-4. Nectin-4 findes i flere epiteliale tumorer, og det forklarer lægemidlets anvendelse ved urotelialt karcinom.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Enfortumab vedotin er kendt som et antistof-lægemiddelkonjugat rettet mod Nectin-4, som afgiver det mikrotubuli-hæmmende stof MMAE i tumorceller. Dets effekt er dokumenteret i urotelialt karcinom.
 
-Der er **ingen troværdig mekanistisk forbindelse** mellem lægemidlet og lepra. Nectin-4 er ikke etableret som mål ved infektion med *Mycobacterium leprae*. Den cytotoksiske byrde og den medfølgende immunsuppression taler desuden imod brug ved en infektionssygdom. Den høje score (0,995) er en ren vidensgraf-forudsigelse uden understøttende kliniske data eller litteratur.
+Lepra er en bakteriel infektionssygdom, og der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem Nectin-4-rettet cytotoksisk behandling og behandling af denne infektion. Derudover er immunsuppressive virkninger og perifer neuropati kendte bekymringer ved cytotoksisk ADC-behandling, hvilket er uhensigtsmæssigt ved en sygdom, der selv rammer de perifere nerver. Den høje score (0,995) afspejler en vidensgrafbaseret forudsigelse og bør ikke tolkes som klinisk støtte.
 
-Likheden med den oprindelige indikation er endnu ikke vurderet, og forligelighed med administrationsvej er ikke afklaret.
-
-Modellen har også foreslået flere andre indikationer (multipel endokrin neoplasi, cytomegalovirusinfektion, candidiasis og cerebralt infarkt). Ingen af dem har kliniske forsøg eller litteratur, og alle er på evidensniveau L5 med anbefalingen Hold. Multipel endokrin neoplasi er den eneste, der konceptuelt ligger tæt på lægemidlets onkologiske anvendelse. Rationalet er dog svagt og spekulativt, fordi Nectin-4-afhængighed ikke er påvist i de pågældende tumorer.
+Andre forudsigelser med tilsvarende høje scorer er multipel endokrin neoplasi (99,43 %), cytomegalovirusinfektion (99,36 %), candidiasis (99,30 %) og cerebralt infarkt (99,23 %). Heller ikke for disse foreligger der understøttende kliniske data. De få tilknyttede publikationer er bivirkningsrapporter og ikke evidens for terapeutisk gavn.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur for lepra.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106584021 | Padcev (Astellas Pharma Europe B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de foreliggende data |
+| 28106584021 | Padcev | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+
+Indehaver: Astellas Pharma Europe B.V.
 
 ---
 
@@ -88,19 +87,20 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksisk klassifikation | Målrettet behandling (antistof-lægemiddelkonjugat med cytotoksisk MMAE-byrde) |
-| Risiko for myelosuppression | Middel (neutropeni er nævnt som relateret til MMAE) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Overvågningspunkter | Fuldt blodbillede med differentialtælling, blodsukker, perifer neuropati, hudreaktioner, lever- og nyrefunktion |
-| Beskyttelse ved håndtering | Skal håndteres efter gældende regler for cytostatika |
+| Cytotoksicitetsklassifikation | Målrettet behandling (antistof-lægemiddelkonjugat med MMAE-last) |
+| Myelosuppressionsrisiko | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Centrale advarsler** (fra vurderingen af de forudsagte indikationer): hyperglykæmi, perifer neuropati, svære hudreaktioner og MMAE-relateret neutropeni, som kan øge risikoen for opportunistiske infektioner.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner i de indsamlede data. Størstedelen er af moderat sværhedsgrad og vedrører primært antidiabetika (fx acarbose, metformin, pioglitazon, glimepirid, glipizid, glyburid, dapagliflozin, empagliflozin, canagliflozin, linagliptin, saxagliptin, exenatid, dulaglutid). Moderate interaktioner ses også med aprepitant. Den eneste interaktion klassificeret som **alvorlig (Major)** blandt de viste er **clarithromycin**.
+- **Sikkerhedssignaler fra litteraturen**: En case report (PMID 42647281) beskriver svær diffus ulcerativ øsofagitis efter behandling med enfortumab vedotin og pembrolizumab. En farmakovigilansanalyse af ADC'er ved blærekræft (PMID 41341429, FAERS) beskriver reelle risikosignaler. Begge er bivirkningsdata og ikke evidens for effekt.
 
-Den danske indlægsseddel er endnu ikke indlæst i datagrundlaget. Se derfor det godkendte produktresumé (SmPC) for fuldstændige oplysninger om kontraindikationer og interaktioner.
+Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -109,15 +109,13 @@ Den danske indlægsseddel er endnu ikke indlæst i datagrundlaget. Se derfor det
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene baseret på en vidensgraf-score. Der er ingen kliniske forsøg eller litteratur, og der er ingen plausibel mekanisme. Lægemidlets cytotoksiske profil og neutropeni kan desuden forværre infektionsrisikoen ved de infektiøse indikationer (lepra, cytomegalovirus, candidiasis).
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, uden støttende litteratur og uden plausibel mekanistisk sammenhæng. Lægemidlets toksicitetsprofil (bl.a. perifer neuropati og immunrelaterede bivirkninger) taler desuden imod anvendelse ved lepra.
 
-**For at komme videre kræves:**
-- Indlæsning og gennemgang af den danske indlægsseddel (advarsler og kontraindikationer) fra Lægemiddelstyrelsen, som blokerer sikkerhedsscreeningen
-- Mekanismedata fra DrugBank og en vurdering af Nectin-4-ekspression i relevant væv eller patogen-værtsvej
-- Systematisk litteratur- og forsøgssøgning for de forudsagte indikationer
-- Afklaring af administrationsvej og lighed med den oprindelige indikation
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanismen (MOA), fx via DrugBank
+- Advarsler og kontraindikationer fra det danske produktresumé (hentes fra Lægemiddelstyrelsen)
+- Påvisning af Nectin-4-ekspression eller anden biologisk målsætning relevant for lepra
+- Prækliniske data, der understøtter en effekt, før der overvejes kliniske forsøg
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

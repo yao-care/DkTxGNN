@@ -2,7 +2,7 @@
 layout: default
 title: Estriol
 parent: Moderat evidens (L3-L4)
-nav_order: 178
+nav_order: 328
 evidence_level: L3
 indication_count: 2
 ---
@@ -29,22 +29,21 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Estriol: Fra ikke oplyst oprindelig indikation til amenoré
+# Estriol: Fra manglende godkendt indikation til amenorré
 
-## Resumé
+## Resumé i én sætning
 
-Estriol er et østrogen, som i Danmark er markedsført som vaginaltabletter (Estrokad). Den oprindelige godkendte indikation fremgår ikke af de foreliggende data.
-TxGNN-modellen forudsiger, at estriol kan have effekt ved **amenoré**, især funktionel hypothalamisk amenoré (FHA).
-Evidensen er svag: der er **3 registrerede kliniske forsøg** og **13 publikationer**, men ingen af forsøgene undersøger estriol ved amenoré. Kun **2 publikationer** er direkte relevante (en lille interventionsundersøgelse og en mekanistisk oversigtsartikel).
+Estriol er et svagt østrogen, som i Danmark er godkendt som vaginalindlæg (Estrokad), men hvor den godkendte indikation ikke fremgår af de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **amenorré** (især funktionel hypothalamisk amenorré). Evidensen består af **0 registrerede kliniske forsøg** og **6 publikationer**, hvoraf kun to er direkte relevante.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Amenoré |
-| TxGNN-forudsigelsesscore | 99,18 % (modelforudsigelse, ikke klinisk evidens) |
+| Oprindelig indikation | Ikke tilgængelig i de indsamlede data |
+| Forudsagt ny indikation | Amenorré |
+| TxGNN-forudsigelsesscore | 99,18 % |
 | Evidensniveau | L3 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -52,56 +51,48 @@ Evidensen er svag: der er **3 registrerede kliniske forsøg** og **13 publikatio
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om estriols oprindelige virkningsmekanisme foreligger ikke i datasættet. Estriol er dog kendt som en svag agonist på østrogenreceptoren.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Estriol binder sig dog til østrogenreceptorerne alfa (ESR1) og beta (ESR2) og virker som en svag østrogenreceptoragonist. Stoffet har i Europa og Asien i mere end 40 år været anvendt mod hedeture hos postmenopausale kvinder.
 
-Ved funktionel hypothalamisk amenoré (FHA) er udskillelsen af GnRH fra hypothalamus nedsat. Det giver lavt østrogenniveau og dermed amenoré. Lavt østrogen fjerner desuden feedback på hypothalamus-hypofyse-aksen. Et studie fra 2012 (PMID 22137494) rapporterer, at estriol modulerede sekretionen af luteiniserende hormon (LH) hos kvinder med FHA. En oversigtsartikel fra 2023 (PMID 37371858) foreslår lavdosis-østrogener som neuroendokrine modulatorer ved FHA.
+Ved funktionel hypothalamisk amenorré (FHA) er udskillelsen af GnRH fra hypothalamus nedsat, hvilket giver lav udskillelse af LH og FSH, nedsat ovariefunktion og en tilstand med østrogenmangel. Lavdosis-østrogen kan fungere som neuroendokrin modulator, der påvirker feedbackmekanismerne i hypothalamus-hypofyse-aksen. Et studie fra 2012 rapporterede, at estriol modulerede LH-udskillelsen hos kvinder med FHA, og en oversigtsartikel fra 2023 foreslår en tilsvarende rolle for lavdosis-østrogener.
 
-Det giver en plausibel mekanisme og et lille klinisk signal. Der er dog ingen kontrollerede effektdata for, om estriol genopretter menstruation. TxGNN-scoren på 0,99 er en ren modelforudsigelse.
+Mekanismen er plausibel og delvist understøttet hos mennesker, men den høje modelscore er en beregnet forudsigelse og ikke klinisk evidens. Bemærk, at amenorré kan have mange årsager, og at forudsigelsen primært er understøttet for den funktionelle hypothalamiske form.
 
 ---
 
-## Klinisk evidens (forsøg)
+## Evidens fra kliniske forsøg
 
-| Forsøgsnr. | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Fase 3 | Afsluttet | 1.015 | Estetrol (E4) 15 mg/20 mg mod placebo ved moderate til svære vasomotoriske symptomer hos postmenopausale kvinder (E4Comfort II). Andet molekyle og anden tilstand end estriol ved amenoré |
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Fase 3 | Afsluttet | 1.570 | Estetrol (E4) ved vasomotoriske symptomer, inkl. endometrie- og generel sikkerhed (E4Comfort I). Giver ingen direkte evidens for estriol ved amenoré |
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Fase 2 | Trukket tilbage | 0 | Fotobiomodulation (udstyr, ikke lægemiddel) ved vulvovaginal atrofi hos postmenopausale kvinder. Ingen deltagere inkluderet |
-
-Alle tre forsøg er vurderet som relevansgrad C og understøtter ikke den forudsagte indikation. Interventionen i de to fase 3-forsøg bør bekræftes på ClinicalTrials.gov. Der er ingen registrerede ICTRP-forsøg.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Interventionsstudie | Fertility and Sterility | Estriol modulerede LH-sekretionen hos kvinder med FHA. Direkte relevant, men lille og uden kontrolleret effekt på menstruation |
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Oversigtsartikel/mekanistisk hypotese | Biomedicines | Lavdosis-østrogener foreslås som neuroendokrine modulatorer ved FHA |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Klinisk studie | Medicinski pregled | Østrogen-gestagen-behandling og lipid-/hormonprofil ved for tidlig primær ovarieinsufficiens (hypergonadotrop amenoré) |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Case-rapport | Lancet | Endokrinologiske fund hos to patienter med for tidlig ovarieinsufficiens |
-| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Klinisk forsøg | J Obstet Gynaecol Br Commonw | Gonadotropiner ved idiopatisk sekundær amenoré. Handler ikke om estriol |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Case-serie | Am J Obstet Gynecol | Langvarige gynækologiske og endokrine følger efter medroxyprogesteron under graviditet |
-
-De øvrige 7 publikationer (bl.a. PMID 7026111, 4254759, 2949864, 979592, 13931724, 1239569 og 4307531) er af lav relevans, fx om anoreksi, radioimmunoassay og hormonel kontraception.
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Klinisk studie (lille, sandsynligvis ikke-randomiseret) | Fertility and Sterility | Estriol modulerede LH-udskillelsen hos kvinder med funktionel hypothalamisk amenorré |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Oversigtsartikel | Biomedicines | Lavdosis-østrogener som mulige neuroendokrine modulatorer ved FHA |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Historisk klinisk forsøg | J Obstet Gynaecol Br Commonw | Effekt af gonadotropiner på idiopatisk sekundær amenorré (ikke estriol) |
+| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Case-serie | Am J Obstet Gynecol | Langvarige gynækologiske og endokrine forhold efter medroxyprogesteron under graviditet (begrænset relevans) |
+| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Oversigtsartikel | J Clin Endocrinol Metab | Virkningsmekanisme for antiovulatoriske stoffer (begrænset relevans) |
+| [979592](https://pubmed.ncbi.nlm.nih.gov/979592/) | 1976 | Metodeoversigt | Die Medizinische Welt | Radioimmunoassay til måling af hormoner, herunder estriol (begrænset relevans) |
 
 ---
 
-## Oplysninger om det danske marked
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28104989811 | Estrokad (Dr. Kade Pharmazeutische Fabrik GmbH) | Vagitorier | Ikke angivet i de foreliggende data |
+| 28104989811 | Estrokad (Dr. Kade Pharmazeutische Fabrik GmbH) | Vagitorier | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i datasættet (advarsler, kontraindikationer og interaktioner mangler). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: De indsamlede data viser kun farmakologisk binding til østrogenreceptor-alfa (ESR1) og østrogenreceptor-beta (ESR2). Der er ikke identificeret konkrete interaktioner med andre lægemidler.
 
-Estrokad er en vaginal formulering. Ruteforenelighed med den forudsagte indikation er ikke vurderet og skal afklares, især hvis systemisk østrogeneksponering er nødvendig.
+For fuldstændige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -110,16 +101,14 @@ Estrokad er en vaginal formulering. Ruteforenelighed med den forudsagte indikati
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen består af ét lille interventionsstudie og én mekanistisk oversigtsartikel. De registrerede forsøg handler om andre molekyler og tilstande. Der mangler desuden sikkerhedsdata fra den danske produktinformation, hvilket blokerer det næste screeningstrin.
+Der findes et lille humant studie og en oversigtsartikel, der understøtter en plausibel mekanisme ved funktionel hypothalamisk amenorré, men ingen registrerede kliniske forsøg og ingen fase 2/3-RCT'er. Manglende data om oprindelig indikation, virkningsmekanisme og sikkerhed forhindrer en videre vurdering.
 
-**For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé for Estrokad
-- Oplysninger om den oprindelige godkendte indikation og virkningsmekanisme (fx via DrugBank)
-- Vurdering af ruteforenelighed mellem vaginale tabletter og behandling af FHA
-- Kontrollerede data for estriol ved amenoré, evt. via et prospektivt studie
-- Verifikation af interventionen i NCT04090957 og NCT04209543 på ClinicalTrials.gov
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hent og gennemgå det danske produktresumé (SmPC) for Estrokad, herunder godkendt indikation, advarsler og kontraindikationer
+- Supplér data om virkningsmekanisme fra DrugBank
+- Gennemfør en systematisk litteraturgennemgang specifikt for estriol ved funktionel hypothalamisk amenorré
+- Afklar, om vaginal administration er egnet til denne indikation, da der ikke foreligger data om administrationsvejens kompatibilitet
+- Overvej et velgennemført randomiseret klinisk forsøg, hvis den kliniske hypotese fastholdes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

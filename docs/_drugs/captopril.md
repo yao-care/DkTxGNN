@@ -2,7 +2,7 @@
 layout: default
 title: Captopril
 parent: Moderat evidens (L3-L4)
-nav_order: 91
+nav_order: 158
 evidence_level: L4
 indication_count: 8
 ---
@@ -29,18 +29,19 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Captopril: Fra ACE-hæmmer til malign hypertensiv nyresygdom
+# Captopril: Fra hypertension og diabetisk nefropati til malign hypertensiv nyresygdom
 
-## Resumé i én sætning
+## Opsummering
 
-Captopril er en ACE-hæmmer, som allerede er markedsført i Danmark som tabletter. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **malign hypertensiv nyresygdom**. Forudsigelsen understøttes kun af **1 case-rapport** (en diagnostisk anvendelse) og **0 kliniske forsøg**.
-
----
+Captopril er en ACE-hæmmer, der oprindeligt anvendes til behandling af hypertension og diabetisk nefropati.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom**,
+men der er **ingen registrerede kliniske forsøg** og kun **1 publikation** (en diagnostisk case-rapport uden terapeutisk evidens) til at understøtte forudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Hypertension og diabetisk nefropati (ifølge TxGNN-vidensgrafen; godkendelsesteksten for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom |
 | TxGNN-forudsigelsesscore | 99,28 % |
 | Evidensniveau | L4 |
@@ -48,62 +49,52 @@ Captopril er en ACE-hæmmer, som allerede er markedsført i Danmark som tablette
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
-
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i evidenspakken. Captopril er dog en ACE-hæmmer, som nedsætter dannelsen af angiotensin II og aldosteron. Mekanistisk kan stoffet derfor være relevant ved hypertension og nyreskade drevet af renin-angiotensin-aldosteron-systemet (RAAS).
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Captopril er imidlertid kendt som ACE-hæmmer: det nedsætter dannelsen af angiotensin II, sænker blodtrykket og reducerer trykket i nyrernes glomeruli. Det er biologisk plausibelt ved malign hypertension med nyrepåvirkning.
 
-Malign hypertension med nyrepåvirkning er tæt forbundet med RAAS-aktivering. Det gør en sammenhæng biologisk plausibel. Captopril er imidlertid allerede et etableret antihypertensivt middel, så forudsigelsen er ikke noget klart repurposing-signal, men snarere en udvidelse inden for stoffets kendte virkningsområde.
+Den forudsagte indikation ligger tæt på de eksisterende indikationer (hypertension og diabetisk nefropati). Der er derfor snarere tale om en udvidelse af den eksisterende anvendelse end en egentlig repurposing.
 
-Den eneste henviste artikel er en case-rapport om **captopril-renografi**, en diagnostisk undersøgelse, hos en patient med nyrecellekarcinom. Den er ikke evidens for terapeutisk effekt. Den høje TxGNN-score er udelukkende en modelforudsigelse.
+Den høje score er alene en modelforudsigelse. Den eneste fundne publikation er en case-rapport om captopril-renografi ved et nyrecellekarcinom, som er et diagnostisk scenarie og ikke giver terapeutisk evidens.
 
----
+## Klinisk evidens
 
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for nuværende ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case-rapport (diagnostisk renografi) | Clinical Nuclear Medicine | Positiv captopril-renografi uden nyrearteriestenose. CT viste et stort kromofobt nyrecellekarcinom, og den reninafhængige hypertension aftog efter nefrektomi. Rapporten beskriver en diagnostisk anvendelse, ikke behandling. |
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case-rapport | Clinical Nuclear Medicine | Positiv captopril-renografi uden nyrearteriestenose, men med et stort kromofobt nyrecellekarcinom; den reninafhængige hypertension aftog efter nefrektomi |
 
----
+*Bemærk: Rang 2 i modellen (malign renovaskulær hypertension, score 99,28 %) har ligeledes kun indirekte evidens (case-rapporter, oversigtsartikler og diagnostiske studier). Den mest relevante er en klinisk rapport fra 1984 om captopril ved stabil og malign hypertension ([PMID 6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/)), som er af lav evidenskvalitet og ikke randomiseret. Der bør tages forbehold, da ACE-hæmmere kan udløse akut nyresvigt ved bilateral nyrearteriestenose eller stenose i en solitær nyre.*
 
 ## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101818296 | Captopril "Stada" (STADA Arzneimittel AG) | Tabletter (oral) | Ikke angivet i datagrundlaget |
-
----
+| 28101818296 | Captopril "Stada" (STADA Arzneimittel AG) | Tabletter | Indikationsteksten er ikke tilgængelig |
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
----
+- **Mulige kontraindikationer ifølge vidensgrafen** (ikke fra produktresuméet): angioødem (herunder arveligt og ACE-hæmmer-udløst), nyresygdom, leversygdom, pancreatitis, systemisk lupus erythematosus, neutropeni/agranulocytose, aortastenose, hypotension, kaliummangel, diabetisk ketoacidose, hyperparathyreoidisme og hepatisk encefalopati.
+- **Lægemiddelinteraktioner** (100 registrerede, de fleste af moderat grad): blandt andet kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon), antidiabetika (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatid, chlorpropamid, acetohexamid), acetylsalicylsyre, morfin, bupropion og dronabinol. Antacida (aluminiumhydroxid, calciumcarbonat) har mindre interaktioner.
+- **Fosterpåvirkning:** Litteraturen indeholder et signal om føtal toksicitet ved ACE-hæmmere, hvilket er relevant for gravide.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen for den forudsagte indikation består af én diagnostisk case-rapport uden terapeutisk relevans og ingen registrerede kliniske forsøg. Forudsigelsen hviler dermed alene på modelscoren.
+Forudsigelsen er mekanistisk plausibel og tæt på de nuværende indikationer, men der findes ingen kliniske forsøg og kun en enkelt diagnostisk case-rapport uden terapeutisk værdi. Evidensen svarer til L4, og de nødvendige sikkerhedsdata fra produktresuméet mangler.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanismen (MOA) fra DrugBank
-- Godkendte indikationer, advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Terapeutisk klinisk evidens for captopril ved malign hypertensiv nyresygdom
-- Afklaring af, om forudsigelsen giver klinisk merværdi ud over den eksisterende antihypertensive indikation
-
-**Bemærkning om øvrige forudsigelser for captopril:** Den nært beslægtede forudsigelse *malign renovaskulær hypertension* (samme score, 99,28 %) har evidensniveau L3 med et bredere litteraturgrundlag. Det omfatter blandt andet en klinisk undersøgelse fra 1984 af captopril ved hypertension med malign forløb, som formentlig er ukontrolleret. Den er markeret som "forskningsspørgsmål". Her skal nyrefunktion overvåges, og bilateral nyrearteriestenose skal udelukkes, da ACE-hæmmere kan udløse akut nyresvigt. Forudsigelserne om pulmonal hypertension (L5) understøttes ikke af relevant litteratur.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsagte indikationer kræver klinisk validering, før de kan anvendes.*
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikationstekst)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratursøgning efter kontrollerede studier af captopril ved malign hypertension med nyrepåvirkning
+- Vurdering af sikkerhed hos udsatte grupper (nedsat nyrefunktion, nyrearteriestenose, gravide)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

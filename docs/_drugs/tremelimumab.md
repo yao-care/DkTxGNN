@@ -2,7 +2,7 @@
 layout: default
 title: Tremelimumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 451
+nav_order: 854
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tremelimumab: Fra CTLA-4-hæmmende immunterapi til diabetisk katarakt
+# Tremelimumab: Fra onkologi til diabetisk grå stær
 
 ## Resumé i én sætning
 
-Tremelimumab er et monoklonalt antistof, der blokerer CTLA-4 og dermed øger T-cellernes aktivering. Det er i Danmark markedsført som IMJUDO.
-TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**, men **ingen kliniske forsøg og ingen publikationer** understøtter forudsigelsen.
+Tremelimumab er et anti-CTLA-4-antistof, som anvendes i kræftbehandling (bl.a. sammen med durvalumab ved inoperabelt hepatocellulært karcinom). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -42,68 +41,66 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**, me
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de tilgængelige data |
-| Foreslået ny indikation | Diabetisk katarakt |
+| Oprindelig indikation | Ikke angivet i de indsamlede data for den danske markedsføringstilladelse (ifølge øvrig farmakologisk information anvendes lægemidlet i kræftbehandling, bl.a. hepatocellulært karcinom) |
+| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
 | TxGNN-forudsigelsesscore | 98,5 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Tremelimumab blokerer immuncheckpoint-proteinet CTLA-4 og forstærker dermed T-cellernes aktivering. Detaljerede mekanismedata fra DrugBank mangler i datagrundlaget.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er dog kendt, at tremelimumab er et monoklonalt antistof mod CTLA-4 (cytotoxic T-lymphocyte-associated protein 4), som forstærker T-celleaktivering. Det anvendes i onkologi, og i oktober 2022 blev kombinationen med durvalumab godkendt af FDA til inoperabelt hepatocellulært karcinom.
 
-Diabetisk katarakt skyldes primært høj blodsukker, øget flux gennem polyol-vejen, oxidativt stress og glykering af linseproteiner. T-celle-checkpoint-signalering spiller ikke nogen kendt rolle heri. Der er derfor **ingen troværdig mekanistisk forbindelse** mellem lægemidlets virkning og sygdommens patologi. Den høje score (0,985) er udelukkende en forudsigelse fra vidensgrafen og er ikke bekræftet af studier.
+Diabetisk grå stær skyldes primært hyperglykæmi-induceret aktivering af polyolvejen, oxidativ stress og glykering af proteiner i øjets linse. Linsen er et immunprivilegeret væv. Der kendes ingen troværdig mekanistisk forbindelse mellem CTLA-4-blokade og disse processer.
 
-Hertil kommer et sikkerhedsmæssigt argument imod: Checkpoint-hæmmere kan give immunrelaterede bivirkninger i øjet, f.eks. uveitis. Et systemisk immunstimulerende biologisk lægemiddel passer dårligt til en kronisk, ikke-livstruende tilstand, som kan behandles kirurgisk.
+Den høje score (0,985) er en ren computerbaseret forudsigelse. Immun-checkpoint-hæmning er snarere forbundet med risiko for immunrelaterede øjenbivirkninger (f.eks. uveitis) og med checkpoint-hæmmer-associeret diabetes, som kan forværre den glykæmiske kontrol. Det taler imod en gavnlig effekt.
 
-**Øvrige forudsigelser med næsten samme score (98,4 %)** er katarakt ved type 2-diabetes, moden katarakt, umoden katarakt og kraniostenose med katarakt. De vurderes på samme måde uden troværdig mekanistisk forbindelse og uden støtte i forsøg eller litteratur. Moden katarakt behandles standardmæssigt med kirurgi. Kraniostenose med katarakt er en sjælden, udviklingsmæssig og formodentlig genetisk tilstand, hvor immunstimulerende behandling vil rejse store sikkerhedsspørgsmål, især hos børn.
+Modellen forudsiger også en række beslægtede tilstande med næsten identisk score (98,4 %): type 2-diabetes-associeret grå stær, moden grå stær, umoden grå stær og kraniostenose med grå stær. Heller ikke for disse findes mekanistisk eller klinisk støtte. Ved moden grå stær er standardbehandlingen kirurgisk fjernelse, og ved kraniostenose med grå stær, som er en sjælden medfødt tilstand med sandsynlig genetisk baggrund, ville brug af et immunstimulerende kræftlægemiddel hos børn give store sikkerhedsbekymringer.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106750422 | IMJUDO (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i data |
+| 28106750422 | IMJUDO (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Cytotoksicitet
 
-Tremelimumab er et kræftimmunterapeutisk lægemiddel og ikke et klassisk cytostatikum. Oplysningerne nedenfor er derfor generelle.
-
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Immunterapi (CTLA-4-hæmmer) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Immunrelaterede bivirkninger, herunder øjensymptomer. Se i øvrigt SmPC. |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+| Cytotoksicitetsklassifikation | Immunterapi (immun-checkpoint-hæmmer, anti-CTLA-4-antistof) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Øjenrelaterede bivirkninger:** Checkpoint-hæmmere er forbundet med immunrelaterede øjenbivirkninger såsom uveitis. Det taler imod anvendelse ved øjensygdomme.
-- **Lægemiddelinteraktioner:** Der er ikke fundet registrerede interaktioner i de tilgængelige data.
+Der foreligger ikke tilgængelige data om advarsler eller kontraindikationer fra produktresuméet. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+- **Lægemiddelinteraktioner**: Den eneste registrerede post er lægemidlets farmakologiske target, CTLA-4, og ikke en interaktion med et andet lægemiddel. Der er derfor ingen klinisk relevante interaktioner at angive.
+- **Overvejelser i forhold til den forudsagte indikation**: Immunrelaterede øjenbivirkninger (f.eks. uveitis) og checkpoint-hæmmer-associeret diabetes er teoretiske risici, som taler imod anvendelse ved diabetisk grå stær.
 
 ---
 
@@ -112,14 +109,13 @@ For øvrige advarsler og kontraindikationer henvises til det godkendte produktre
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler alene på en modelscore uden kliniske forsøg, litteratur eller troværdig mekanistisk forbindelse. Risikoen for immunrelaterede bivirkninger, også i øjet, opvejer ikke nogen dokumenteret fordel ved en sygdom, der kan behandles kirurgisk.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, litteratur eller en troværdig mekanistisk forbindelse (evidensniveau L5). Den kendte sikkerhedsprofil for immun-checkpoint-hæmning, herunder risiko for øjeninflammation og forværret glykæmisk kontrol, taler imod en gavnlig effekt.
 
-**For at komme videre kræves:**
-- Mekanismedata (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Prækliniske data, der understøtter en rolle for CTLA-4-hæmning i linsebiologi, før nogen klinisk vurdering overvejes
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation (kritisk datamangel)
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prækliniske data (f.eks. i diabetiske linsemodeller), der kan understøtte en biologisk sammenhæng, før der overvejes kliniske studier
+- En vurdering af administrationsvej: tremelimumab gives som intravenøs infusion, hvilket sjældent er rimeligt ved en øjentilstand som grå stær, hvor kirurgi er standardbehandling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

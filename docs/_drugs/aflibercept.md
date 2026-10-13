@@ -2,7 +2,7 @@
 layout: default
 title: Aflibercept
 parent: Kun modelforudsigelse (L5)
-nav_order: 19
+nav_order: 27
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aflibercept: Fra øjensygdomme (VEGF-hæmmer) til esotropi
+# Aflibercept: Fra makuladegeneration og metastaserende tyktarmskræft til esotropi
 
-## Resumé
+## Opsummering i én sætning
 
-Aflibercept er en VEGF-fælde (binder VEGF-A, VEGF-B og PlGF) og kendes fra behandling af øjensygdomme. TxGNN-modellen forudsiger, at det kan virke mod **esotropi** (indadgående skelen), men der findes **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen. Den vurderes derfor som en ren modelforudsigelse (evidensniveau L5).
+Aflibercept er en VEGF-fælde (binder VEGF-A, VEGF-B og PlGF), som oprindeligt anvendes til øjensygdomme som aldersrelateret makuladegeneration og diabetisk makulaødem samt til metastaserende tyktarmskræft.
+TxGNN-modellen forudsiger, at det kan have effekt ved **esotropi** (indadvendt skelen).
+Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
@@ -41,33 +43,27 @@ Aflibercept er en VEGF-fælde (binder VEGF-A, VEGF-B og PlGF) og kendes fra beha
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Metastaserende tyktarmskræft, makuladegeneration, retinal arterieokklusion, diabetisk makulaødem (fra vidensgrafen; den danske markedsføringstilladelse har ingen angiven indikationstekst) |
 | Forudsagt ny indikation | Esotropi |
-| TxGNN-forudsigelsesscore | 99,38 % |
+| TxGNN-forudsigelsesscore | 99,4 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Aflibercept blokerer VEGF-A, VEGF-B og PlGF og hæmmer dermed karnydannelse og karlækage. Detaljerede mekanismedata fra DrugBank foreligger ikke i denne evidenspakke.
+Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen i de indsamlede data. Aflibercept er kendt som en VEGF-A/VEGF-B/PlGF-fælde, og dets effekt ved nethindesygdomme med unormal karnydannelse og utætte kar er veletableret.
 
-Esotropi er en neuromuskulær og sensorimotorisk lidelse, hvor øjnene ikke står parallelt. Der er ingen kendt biologisk mekanisme, der forbinder VEGF-blokade med korrektion af øjets stilling. Den høje score (0,994) skyldes sandsynligvis, at modellen har koblet lægemidlet til nærliggende øjensygdomme i vidensgrafen. Intravitreal anti-VEGF-behandling ved præmatur retinopati er desuden beskrevet som muligt forbundet med senere skelen, altså som en mulig bivirkning og ikke som en gavnlig effekt.
+Esotropi er en forstyrrelse af øjets stilling, som typisk skyldes neuromuskulære, refraktive eller akkommodative faktorer. Der er ikke noget klart mekanistisk link mellem VEGF-hæmning og behandling af esotropi. Den høje score (0,994) afspejler sandsynligvis, at esotropi ligger tæt på andre øjenindikationer (fx makuladegeneration) i vidensgrafen, og ikke en biologisk begrundelse. Anti-VEGF-midler er beskrevet ved øjensygdomme med sekundær skelen, men det er ikke en behandlingseffekt på esotropi i sig selv.
 
-### Øvrige forudsagte indikationer (samme evidensniveau L5, alle Hold)
-
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Esofagusvaricer uden blødning | 97,56 % | Der er et præklinisk rationale (angiogenese ved portal hypertension), men ingen kliniske data. Systemisk VEGF-blokade indebærer risiko for blødning og GI-perforation. |
-| Esofagusvaricer med blødning | 97,56 % | Samme rationale. Aktiv variceblødning er et stærkt sikkerhedsmæssigt modsignal, fordi anti-VEGF-midler har advarsler om blødning. |
-| Varicer (åreknuder) | 96,95 % | Sammenhængen med VEGF-fælder er svag og spekulativ. Anti-VEGF kan hæmme sårheling og karintegritet. |
-| Urethral sten | 95,97 % | Ingen troværdig mekanisme. Sandsynligvis en artefakt i vidensgrafen. |
+Modellen forudsiger også andre indikationer (esofagusvaricer med og uden blødning, åreknuder og urethrasten). Her er den mekanistiske sammenhæng svag eller fraværende, og for varicerne er blødningsrisikoen ved VEGF-hæmning en betydelig barriere. Rapporten fokuserer på den højest rangerede forudsigelse.
 
 ---
 
-## Klinisk forsøgsevidens
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -79,21 +75,30 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation i Danmark
+## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
-|---------|------|------|------|
-| 28107330825 | Afiveg | Injektionsvæske, opløsning, hætteglas | STADA Arzneimittel AG |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| MA 28107330825 | Afiveg (STADA Arzneimittel AG) | Injektionsvæske, opløsning, hætteglas | Ingen indikationstekst tilgængelig |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der er ikke leveret data om advarsler, kontraindikationer eller interaktioner for dette lægemiddel. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der foreligger ingen oplysninger om advarsler eller kontraindikationer. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Ud fra den mekanistiske vurdering bør man dog være opmærksom på:
-- **Blødningsrisiko:** anti-VEGF-midler har advarsler om blødning, hvilket er særligt relevant ved skrøbelige esofagusvaricer.
-- **GI-perforation og nedsat sårheling:** risici ved systemisk VEGF-blokade.
+**Lægemiddelinteraktioner:** Der er i alt identificeret 78 mulige interaktioner. Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
+- Deferipron
+- Samarium (153Sm) lexidronam
+- Adalimumab
+- Baricitinib
+- Certolizumab pegol
+- Cladribin
+- Clozapin
+
+Flere interaktioner er klassificeret som moderate, bl.a. med strontiumchlorid Sr-89, roflumilast, chloramphenicol, zidovudin, alemtuzumab, anakinra, azathioprin, canakinumab og flere vacciner (bl.a. tetanus, miltbrand og kolera).
+
+For de forudsagte indikationer vedrørende esofagusvaricer er der desuden et teoretisk sikkerhedsproblem: systemisk VEGF-hæmning kan øge risikoen for blødning, gastrointestinal perforation og forsinket sårheling.
 
 ---
 
@@ -102,15 +107,13 @@ Ud fra den mekanistiske vurdering bør man dog være opmærksom på:
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanisme for esotropi, og for flere af de øvrige kandidater (især varicer med blødning) taler sikkerhedsprofilen imod anvendelse.
+Forudsigelsen for esotropi bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer og uden et plausibelt biologisk link. Risk-benefit-vurderingen kan derfor ikke støtte videre arbejde på nuværende tidspunkt.
 
-**For at komme videre kræves:**
-- Sikkerhedsoplysninger fra Lægemiddelstyrelsens produktresumé (advarsler og kontraindikationer)
-- Data om virkningsmekanisme fra DrugBank
-- Prækliniske eller kliniske studier, der understøtter mindst én af de forudsagte indikationer
-- Vurdering af administrationsvej: Afiveg er en intravitreal injektionsvæske, og det er uafklaret, om den er forenelig med de forudsagte indikationer
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) og en egentlig mekanistisk analyse af sammenhængen mellem VEGF-hæmning og esotropi
+- Præklinisk eller klinisk evidens for effekt ved esotropi
+- Gennemgang af produktresuméet for advarsler og kontraindikationer (data mangler i øjeblikket og blokerer sikkerhedsscreeningen)
+- Vurdering af administrationsvej og lægemiddelform i forhold til den nye indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

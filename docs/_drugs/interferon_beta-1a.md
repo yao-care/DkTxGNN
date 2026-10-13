@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Beta-1A
 parent: Kun modelforudsigelse (L5)
-nav_order: 239
+nav_order: 444
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Interferon beta-1a: Fra multipel sklerose til Jeune syndrom med situs inversus
+# Interferon beta-1a: Fra relapsing-remitting multipel sklerose til Jeune syndrom med situs inversus
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Interferon beta-1a (Avonex) er et immunmodulerende biologisk lægemiddel, som ifølge den indhentede litteratur er godkendt til behandling af multipel sklerose.
-TxGNN-modellen forudsiger, at det kan have effekt ved **Jeune syndrom med situs inversus**.
-Der er dog **0 kliniske forsøg** og **0 publikationer** om denne specifikke sammenhæng, så forudsigelsen er rent modelbaseret.
+Interferon beta-1a er et immunmodulerende lægemiddel, der oprindeligt anvendes til behandling af relapsing-remitting multipel sklerose. TxGNN-modellen forudsiger, at det kan have effekt på **Jeune syndrom med situs inversus**, men der er **0 kliniske forsøg** og **0 publikationer** om denne specifikke sygdom, så forudsigelsen hviler udelukkende på modelberegningen.
 
 ---
 
@@ -43,7 +41,7 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** om denne specifikke sam
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Multipel sklerose (udledt af litteraturen; indikationsteksten i den danske godkendelse er ikke angivet i data) |
+| Oprindelig indikation | Relapsing-remitting multipel sklerose (fra vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
 | Forudsagt ny indikation | Jeune syndrom med situs inversus |
 | TxGNN-forudsigelsesscore | 97,5 % |
 | Evidensniveau | L5 |
@@ -53,39 +51,47 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** om denne specifikke sam
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Interferon beta-1a er et type I-interferon, der virker immunmodulerende, og dets effekt ved multipel sklerose er veldokumenteret i litteraturen. Der er ikke fundet en mekanistisk forklaring på, hvorfor det skulle kunne anvendes ved den forudsagte sygdom.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Interferon beta-1a er et immunmodulerende biologisk lægemiddel, hvis effekt ved relapsing-remitting multipel sklerose er veletableret.
 
-Jeune syndrom med situs inversus er en medfødt skelet- og udviklingssygdom af ciliopati-typen. Der kendes ikke noget oplagt interferon-beta-mål eller signalvej i denne sygdoms patologi. Multipel sklerose er en autoimmun, inflammatorisk sygdom i centralnervesystemet, og der er ingen åbenlys lighed mellem de to tilstande.
+Jeune syndrom (asfyksierende thoraxdystrofi) er en ciliopati med skelet- og thoraxinvolvering, og situs inversus er en ciliær lateralitetsdefekt. Det er ikke immunmedierede tilstande. Der kan ud fra de foreliggende data ikke påvises noget mekanistisk link mellem interferon beta-1a og denne sygdom. Den høje score er en rent beregnet forudsigelse og bør ikke tolkes som klinisk støtte.
 
-Forudsigelsens eneste støtte er den høje modelscore (0,975). Den er en modelforudsigelse og ikke klinisk evidens. Den bør derfor ses som en hypotese, der kræver yderligere mekanistisk begrundelse, før den kan tages alvorligt.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Øvrige forudsigelser med tilsvarende høje scorer (Pierre Robin-syndrom med kromosomanomali, delvis deletion af den lange arm af kromosom 22, forstyrrelse i fucoglykansyntese og Laubry-Pezzi syndrom) er heller ikke understøttet af mekanistiske, kliniske eller litterære data.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for denne indikation.
+Der foreligger ingen litteratur om interferon beta-1a ved Jeune syndrom med situs inversus.
+
+Til orientering: for den forudsagte indikation "forstyrrelse i fucoglykansyntese" blev der fundet publikationer, men de omhandler næsten udelukkende behandling af multipel sklerose (f.eks. teriflunomid, alemtuzumab, fingolimod og netværksmetaanalyser) samt en COVID-19-retningslinje. De afspejler lægemidlets oprindelige indikation og giver ingen klinisk evidens for den forudsagte sygdom.
 
 ---
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103396502 | Avonex | Injektionsvæske, opløsning | Biogen Netherlands B.V. |
+| 28103396502 | Avonex (Biogen Netherlands B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. Blandt de første 20 er én klassificeret som **alvorlig (Major)**:
+- **Bupropion** (Major)
+
+De øvrige er klassificeret som moderate, blandt andet:
+- Acarbose, pioglitazon og rosiglitazon
+- Clarithromycin, levofloxacin og minocyclin
+- Rosuvastatin og simvastatin
+- Naltrexon, orlistat og nikotinamid
+- Anabole steroider (oxandrolon, oxymetholon, stanozolol)
+- Clotrimazol og chenodeoxycholsyre
+- Afføringsmidler (picosulfat, polyethylenglycol med elektrolytter, natriumsulfat)
+
+Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
 ---
 
@@ -94,16 +100,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5), uden kliniske forsøg, uden litteratur og uden en påvist mekanistisk sammenhæng. De øvrige topforudsigelser (bl.a. Pierre Robin-syndrom med kromosomafvigelse, delvis deletion af kromosom 22's lange arm og Laubry-Pezzi syndrom) har samme evidensniveau og samme vurdering.
+Forudsigelsen understøttes kun af TxGNN-scoren (97,5 %). Der er ingen kliniske forsøg, ingen relevant litteratur og ingen plausibel mekanistisk sammenhæng mellem et immunmodulerende lægemiddel og en ciliopati. Der mangler desuden sikkerhedsdata fra produktresuméet, hvilket blokerer for den videre sikkerhedsscreening.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanismen (MOA) fra DrugBank
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- En biologisk hypotese for, hvordan interferon beta-1a skulle påvirke ciliopati-lignende patologi, evt. understøttet af prækliniske studier
-- Vurdering af administrationsvej (kompatibilitet mellem tilgængelige og nødvendige veje)
-- Klinisk ekspertvurdering af, om indikationen overhovedet er plausibel
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Præklinisk eller mekanistisk dokumentation for en biologisk sammenhæng med ciliær dysfunktion
+- Systematisk litteratur- og forsøgssøgning målrettet den forudsagte indikation
+- Vurdering af, om andre forudsigelser fra modellen har bedre biologisk rationale
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

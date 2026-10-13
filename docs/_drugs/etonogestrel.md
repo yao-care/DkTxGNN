@@ -2,7 +2,7 @@
 layout: default
 title: Etonogestrel
 parent: Kun modelforudsigelse (L5)
-nav_order: 181
+nav_order: 336
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,9 +31,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Etonogestrel: Fra prævention til amenoré
 
-## Resumé
+## Resumé i én sætning
 
-Etonogestrel er et gestagen, der bruges i det subdermale p-stav-implantat Nexplanon, som er markedsført i Danmark. TxGNN-modellen forudsiger, at det kan have effekt ved **amenoré**. Evidensen er dog meget svag: **1 klinisk fase 3-forsøg** (som undersøger prævention, ikke behandling af amenoré) og **1 relevant publikation**. Amenoré er en kendt bivirkning af etonogestrel, så retningen af effekten er uafklaret.
+Etonogestrel er et progestin, der anvendes i det subkutane implantat Nexplanon, og som i Danmark er markedsført som hormonel prævention (indikationsteksten er ikke tilgængelig i de data, der er indsamlet til denne rapport).
+TxGNN-modellen forudsiger, at stoffet kan være effektivt ved **amenoré** (samt godartede brystlidelser), men der er **0 kliniske forsøg** og **ingen relevant litteratur** bag forudsigelsen.
+Amenoré er en kendt bivirkning af implantatet, så forudsigelsen afspejler sandsynligvis en association i vidensgrafen og ikke en terapeutisk gevinst.
 
 ---
 
@@ -41,54 +43,50 @@ Etonogestrel er et gestagen, der bruges i det subdermale p-stav-implantat Nexpla
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Prævention (p-stav-implantat). Indikationsteksten i den danske registrering er tom, så oplysningen stammer fra forsøgs- og litteraturdata |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (implantatet er et hormonelt præventionsmiddel) |
 | Forudsagt ny indikation | Amenoré |
 | TxGNN-forudsigelsesscore | 99,84 % |
-| Evidensniveau | L4 (kun indirekte evidens) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Etonogestrel er et gestagen, der hæmmer ægløsning og fortynder endometriet. Det er veldokumenteret ved prævention.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Etonogestrel er et potent progestin, som kendes for at hæmme ovulation og fremkalde endometrieatrofi.
 
-Forholdet mellem den oprindelige og den forudsagte indikation er problematisk. Amenoré er en kendt blødningsmønsterændring ved etonogestrel-præventionsmidler, ikke en tilstand, lægemidlet behandler. Den høje score afspejler sandsynligvis denne association i vidensgrafen. Det er uafklaret, om der er tale om at fremkalde eller at behandle amenoré. Der er ingen forsøgsevidens for, at etonogestrel behandler amenoré.
+Netop denne virkning gør, at amenoré er en velkendt effekt af implantatet hos en betydelig andel af brugerne. Amenoré er altså en bivirkning eller sekundær effekt af den eksisterende præventionsindikation og ikke et egentligt mål for drug repurposing. At behandle amenoré med et progestin vil desuden være farmakologisk kontraintuitivt. Den høje score (0,998) afspejler sandsynligvis en association mellem lægemiddel og tilstand i vidensgrafen (stoffet forårsager eller er forbundet med tilstanden) frem for en behandlingsmæssig fordel.
 
-Modellen forudsiger også en række godartede brysttilstande: fibrocystisk brystsygdom, benign mammær dysplasi, blunt duct-adenose og apokrin adenose. De deler samme begrundelse, en generel gestagen-effekt på hormonfølsomt brystvæv, og blev sandsynligvis udledt fra hinanden i vidensgrafen. Der er hverken forsøg eller litteratur for dem (evidensniveau L5).
-
----
-
-## Klinisk evidens
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Afsluttet | 498 | Åbent, enkeltarmet forsøg, der undersøger præventiv effekt og sikkerhed af etonogestrel-implantatet (MK-8415) i år 4-5 hos kvinder ≤35 år. Primært endepunkt er prævention, ikke behandling af amenoré. Blødningsdata kan indgå som sekundære sikkerhedsdata, men det er ikke verificeret. Højst indirekte støtte |
+Modellen forudsiger også flere godartede brystlidelser (fibrocystisk brystsygdom, 99,61 %; blunt duct adenosis og apokrin adenosis, 99,29 %; benign mammær dysplasi, 99,21 %). Progestiner har historisk været brugt ved godartede brystlidelser og mastalgi via modvirkning af østrogendrevet proliferation, hvilket giver en plausibel men indirekte begrundelse. Brystspænding er imidlertid en hyppig bivirkning ved implantatet, hvilket taler imod nytte. Forudsigelserne for disse lidelser er sandsynligvis indbyrdes korrelerede i vidensgrafen.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | RCT | Contraception | Randomiseret multicenterstudie (n=200, Kina), der sammenligner enkeltstavs-implantatet (Implanon) med seks-kapsel-implantatet (Norplant) med hensyn til præventiv effekt, tolerabilitet og blødningsmønster. Ingen graviditeter. Omhandler ikke behandling af amenoré |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT-protokol | Trials | Protokol for BIO101 ved COVID-19-pneumoni. Ikke relevant for etonogestrel eller amenoré |
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT-protokol | Trials | Omhandler BIO101 til forebyggelse af respiratorisk forværring ved COVID-19-lungebetændelse. Ikke relateret til etonogestrel eller amenoré. |
+
+Der er ingen kliniske forsøg registreret for den forudsagte indikation.
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103037998 | Nexplanon (N.V. Organon) | Implantat | Indikationstekst ikke tilgængelig i datagrundlaget |
+| 28103037998 | Nexplanon (N.V. Organon) | Implantat | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Sikkerhedsdata (advarsler, kontraindikationer) fra Lægemiddelstyrelsen mangler i datagrundlaget. Der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Mulige kontraindikationer fra vidensgrafen** (baseret på lægemiddel-sygdom-relationer i PrimeKG, ikke på produktresuméets tekst): hypertension, epilepsi, angst- og neurotiske lidelser, dysthymi, porfyri, nyresygdom, leversygdom, galdeblæresygdom, systemisk lupus erythematosus, astma, diabetes mellitus og diabetisk ketoacidose, hypertriglyceridæmi, hyperlipidæmi, kvindelig brystkræft, tromboflebitis, migræne, koronararteriesygdom og fedme.
+- **Lægemiddelinteraktioner** (100 registrerede; alle viste eksempler er af moderat grad): antidiabetika (acarbose, metformin, glimepiride, chlorpropamide, SGLT2-hæmmere som canagliflozin, dapagliflozin og empagliflozin, DPP-4-hæmmere som alogliptin og saxagliptin, GLP-1-agonister som semaglutid, dulaglutid og albiglutid, samt insuliner), desuden aprepitant, clarithromycin og linaclotid.
+
+Konsulter det godkendte produktresumé (SmPC) for de officielle advarsler og kontraindikationer.
 
 ---
 
@@ -97,15 +95,13 @@ Sikkerhedsdata (advarsler, kontraindikationer) fra Lægemiddelstyrelsen mangler 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje TxGNN-score skyldes sandsynligvis, at amenoré er en kendt bivirkning af etonogestrel, ikke at lægemidlet behandler tilstanden. Der findes intet forsøg eller litteratur, der understøtter etonogestrel som behandling af amenoré. De øvrige forudsigelser (godartede brysttilstande) bygger udelukkende på modellen. Manglende sikkerhedsdata blokerer desuden den videre sikkerhedsscreening.
+Forudsigelsen hviler udelukkende på modellen (L5). Der er ingen relevante kliniske forsøg eller litteratur, og amenoré er en kendt bivirkning af stoffet snarere end et behandlingsmål. Den eneste tilknyttede publikation er uden relation til etonogestrel.
 
-**For at komme videre kræves følgende:**
-- Hente og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- Hente data om virkningsmekanisme fra DrugBank
-- Afklare retningen af effekten (fremkaldelse versus behandling af amenoré), fx ved at gennemgå blødningsdata fra NCT04626596 og tilsvarende studier
-- Vurdere, om en ny indikation overhovedet er klinisk meningsfuld, da amenoré er en forventet effekt af præparatet
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation mangler)
+- Data om virkningsmekanismen (fx fra DrugBank)
+- Målrettet litteratursøgning efter etonogestrel/progestiner ved godartede brystlidelser, hvis denne retning skal forfølges
+- Vurdering af, om forudsigelsen blot afspejler en bivirkningsassociation i vidensgrafen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

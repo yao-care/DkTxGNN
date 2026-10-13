@@ -2,7 +2,7 @@
 layout: default
 title: Calcipotriol
 parent: Moderat evidens (L3-L4)
-nav_order: 85
+nav_order: 149
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Calcipotriol: Fra topisk D-vitamin-analog til seboroisk keratose
+# Calcipotriol: Fra manglende registreret indikation til seborrhoisk keratose
 
-## Resumé
+## Resumé i en sætning
 
-Calcipotriol er et topisk D-vitamin-analog, der markedsføres i Danmark som salve. I de danske registreringsdata er den oprindelige indikation ikke angivet.
-TxGNN-modellen forudsiger, at det kan have effekt på **seboroisk keratose**.
-Evidensen består af **0 kliniske forsøg** og **6 publikationer**, hovedsageligt små serier og case reports.
+Calcipotriol er et D-vitamin-analog (vitamin D3), som i Danmark er markedsført som salve. Den registrerede indikation fremgår ikke af de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at stoffet kan være effektivt mod **seborrhoisk keratose**, men der er **ingen registrerede kliniske forsøg** og **4 publikationer** (små kliniske studier og kasuistikker), som peger i den retning.
 
 ---
 
@@ -43,28 +41,29 @@ Evidensen består af **0 kliniske forsøg** og **6 publikationer**, hovedsagelig
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Seboroisk keratose |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Seborrhoisk keratose |
 | TxGNN-forudsigelsesscore | 99,96 % |
 | Evidensniveau | L3 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (kan genovervejes som forskningsspørgsmål, se afsnittet Konklusion) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der findes ingen detaljerede data om virkningsmekanismen i den nuværende datapakke. Beskrivelsen nedenfor bygger derfor på almen farmakologi og ikke på registreringsdata. Calcipotriol er en agonist af D-vitamin-receptoren (VDR). Den fremmer keratinocytternes differentiering, hæmmer overdreven epidermal celledeling og kan udløse apoptose.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Calcipotriol er dog et kendt vitamin D3-analog, som aktiverer D-vitaminreceptoren (VDR) i keratinocytter. Det hæmmer cellevækst, fremmer differentiering og kan udløse apoptose.
 
-Seboroisk keratose er en godartet, langsomt voksende epitelial tumor, som især optræder hos ældre på soleksponeret hud. Virkningerne ovenfor er mekanistisk plausible for en sådan hyperproliferativ læsion. En japansk undersøgelse (PMID 16043912) peger desuden på apoptose som mulig mekanisme ved topiske D3-analoger. Calcipotriol er allerede markedsført som topisk præparat, så den lokale sikkerhedsprofil er kendt.
+Seborrhoisk keratose (også kaldet senile vorter) er en almindelig, godartet hudtumor hos ældre, der skyldes overdreven proliferation af epidermale celler. En antiproliferativ og differentieringsfremmende effekt er derfor mekanistisk plausibel. Den oprindelige indikation kan ikke bekræftes ud fra de indsamlede data, men stoffet anvendes generelt ved hyperproliferative, keratotiske hudlidelser.
 
-Signalet er dog spinkelt. Det stammer fra små kliniske studier og case reports. Det sammenlignende studie fra 2004 (PMID 15090020) mod kryokirurgi er muligvis ikke til fordel for calcipotriol. Titlen og det tilgængelige abstract afgør ikke spørgsmålet, så fuldteksten skal gennemgås.
+Det skal understreges, at vurderingen af studiedesign hviler på titler og uddrag og bør verificeres i fuldtekst.
 
 ---
 
-## Klinisk forsøgsevidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
@@ -72,28 +71,36 @@ Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case-serie (12 patienter) | Australas J Dermatol | 0,005 % calcipotriol-salve i 3-8 måneder på solitær seboroisk keratose i ansigtet gav fuldstændig regression. Opfølgningen på 6-10 år viste vedvarende remission. |
-| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Sammenlignende klinisk studie | Int J Dermatol | Sammenligner standard kryokirurgi med topisk calcipotriol, tazaroten og imiquimod. Resultaterne fremgår ikke af det tilgængelige abstract. |
-| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Lille klinisk studie med mekanistiske data | J Dermatol | 116 tilfælde af senile vorter behandlet i 3-12 måneder med topiske D3-analoger (tacalcitol, calcipotriol eller maxacalcitol). 35 (30,2 %) viste respons, og apoptose foreslås som mekanisme. Abstractet er afkortet. |
-| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Kort narrativ oversigt (japansk) | Clin Calcium | Beskriver behandling af senile vorter (seboroisk keratose) med aktive topiske D3-former. |
-| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Udtalt respons på calcipotriol-salve ved keratosis lichenoides chronica. Det er en beslægtet, men anden sygdom. |
-| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Klinisk vignet | JAAPA | Beskrivelse af et tilfælde af seboroisk keratose med udslæt på underbenene. Der er intet abstract, og der foreligger ingen effektdata for calcipotriol. |
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Klinisk studie (case-serie, design skal verificeres) | Australas J Dermatol | 12 patienter med solitær seboRrhoisk keratose i ansigtet behandlet med 0,005 % calcipotriolsalve i 3-8 måneder; fuldstændig regression af læsionerne og remission i 6-10 år |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Klinisk studie | J Dermatol | Topisk vitamin D3 (tacalcitol, calcipotriol eller maxacalcitol) til senile vorter; 116 tilfælde behandlet i 3-12 måneder, heraf 35 (30,2 %) med respons; mulig virkning via apoptose |
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Klinisk rapport/oversigt (ikke-engelsk) | Clin Calcium | Topiske aktive former af vitamin D3 til behandling af senile vorter |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Kasuistik | J Dermatol | Keratosis lichenoides chronica (en beslægtet, men anden lidelse) med markant respons på calcipotriolsalve |
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103878305 | Calcipotriol "Sandoz" (Sandoz A/S) | Salve | Indikationstekst ikke angivet i de tilgængelige data |
+| 28103878305 | Calcipotriol "Sandoz" (Sandoz A/S) | Salve | Indikationstekst ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata (advarsler, kontraindikationer) i datapakken, og interaktionsopslaget gav ingen fund. Se det godkendte produktresumé (SmPC) fra Lægemiddelstyrelsen for sikkerhedsoplysninger.
+Der foreligger ikke oplysninger om advarsler og kontraindikationer fra produktresuméet i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Topisk calcipotriol kan i sig selv give lokal irritation. Det bør vurderes særskilt ved anvendelse i ansigtet.
+**Kontraindikationer ifølge vidensgraf (ikke fra produkttekst):** TxGNN-vidensgrafen (PrimeKG) angiver kontraindikationer ved bl.a.:
+- Forstyrrelser i calciumstofskiftet: hypercalcæmi, nefrocalcinose, calcifylaksi, calcinose, hypervitaminose og lidelser i fosfor- og mineralstofskiftet
+- Binyrebarkinsufficiens og Addisons sygdom
+- Hudlidelser: hudatrofi, ichthyose (flere former), Darier's sygdom, pseudoxanthoma elasticum og guttat psoriasis
+- Karlidelser: telangiektasi, hereditær hæmoragisk telangiektasi, perifer karsygdom og claudicatio intermittens
+
+Disse oplysninger stammer fra en computermodel og skal verificeres mod produktresuméet.
+
+**Lægemiddelinteraktioner:** Der er identificeret 84 mulige interaktioner, men alvorlighedsgraden er ikke klassificeret ("ukendt"). Eksempler: acetylsalicylsyre, bupropion, pantoprazol, doxycyclin, clotrimazol, morfin, metformin, omeprazol, simvastatin, prednison, prednisolon, hydrocortison, triamcinolon og clarithromycin. De bør vurderes klinisk.
+
+**Øvrige indikationer forudsagt af modellen (til orientering):** Modellen forudsiger også vulvær inverteret follikulær keratose (L5), vulvovaginitis (L5), vulvitis (L4, kun en klinisk audit af vulvær psoriasis) og vulvær neoplasi (L4, kun en kasuistik om godartede læsioner). Evidensen er for svag til at støtte anbefalinger. Særligt ved slimhinde og tyndt genitalt hudvæv er der risiko for irritation.
 
 ---
 
@@ -102,17 +109,14 @@ Topisk calcipotriol kan i sig selv give lokal irritation. Det bør vurderes sær
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg. De eneste fund er små serier og case reports, og det eneste sammenlignende studie har uklart udfald. Sikkerhedsdata fra produktresuméet mangler, hvilket blokerer den videre sikkerhedsscreening. Forudsigelsen bør betragtes som et forskningsspørgsmål og ikke som grundlag for klinisk anvendelse.
+Evidensen for seboRrhoisk keratose er begrænset til små, formentlig ikke-randomiserede kliniske studier og kasuistikker (L3), uden registrerede kliniske forsøg. Da det blokerende datahul vedrørende advarsler og kontraindikationer fra produktresuméet endnu ikke er lukket, kan sikkerhedsscreeningen ikke gennemføres. Indikationen kan dog betragtes som et lovende forskningsspørgsmål, da mekanismen er plausibel og stoffet allerede er markedsført som topisk præparat.
 
 **For at komme videre kræves følgende:**
-- Gennemgang af fuldteksterne, især PMID 15090020 (sammenligning med kryokirurgi) og PMID 16043912.
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer).
-- Mekanismedata (MOA) fra DrugBank.
-- Et kontrolleret studie, helst randomiseret, af calcipotriol ved seboroisk keratose.
-
-Øvrige forudsigelser fra modellen (vulvær inverteret follikulær keratose, vulvovaginitis, vulvitis og vulvær neoplasi) har svagere eller ingen direkte evidens og indgår ikke i denne vurdering.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de tages i brug.*
+- Hente og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Hente data om virkningsmekanisme (MOA) fra DrugBank
+- Verificere studiedesign for de fire publikationer i fuldtekst
+- Gennemføre et kontrolleret (helst randomiseret) forsøg ved seboRrhoisk keratose
+- Vurdere interaktionernes alvorlighedsgrad og hudtolerabilitet, især ved ansigtet og genitalområdet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Luspatercept
 parent: Kun modelforudsigelse (L5)
-nav_order: 273
+nav_order: 515
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Luspatercept: Fra anæmi ved beta-thalassæmi og myelodysplastisk syndrom til monosomi X
+# Luspatercept: Fra beta-thalassæmi til monosomi X
 
-## Resumé
+## Resumé i én sætning
 
-Luspatercept (handelsnavn Reblozyl) er et ActRIIB-Fc-fusionsprotein, der er markedsført i Danmark. Det bruges til anæmi ved beta-thalassæmi og myelodysplastiske syndromer. Indikationen fremgår ikke af den danske registrering, men af modellens begrundelse.
-TxGNN-modellen forudsiger, at det kan have effekt ved **monosomi X** (Turners syndrom), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
+Luspatercept er et lægemiddel, der oprindeligt anvendes til behandling af beta-thalassæmi og andre hæmoglobinopatier.
+TxGNN-modellen forudsiger, at det kan have effekt ved **monosomi X** (Turners syndrom), men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning.
+Forudsigelsen er således udelukkende modelbaseret.
 
 ---
 
@@ -42,11 +43,11 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **monosomi X** (Turners sy
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Anæmi ved beta-thalassæmi og myelodysplastiske syndromer er angivet i modellens begrundelse |
-| Forudsagt ny indikation | Monosomi X (Turners syndrom) |
+| Oprindelig indikation | Beta-thalassæmi og beslægtede hæmoglobinopatier (den danske godkendelse har ingen angivet indikationstekst i de indsamlede data) |
+| Forudsagt ny indikation | Monosomi X |
 | TxGNN-forudsigelsesscore | 96,0 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -54,47 +55,42 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **monosomi X** (Turners sy
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ud fra almen viden er luspatercept et ActRIIB-Fc-fusionsprotein, der binder ligander i TGF-beta-superfamilien (fx GDF11 og activin B). Det fremmer den sene modning af erytroide celler. Det er dokumenteret ved anæmi ved beta-thalassæmi og myelodysplastiske syndromer.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen viden er luspatercept en ligandfælde for aktivin receptor type IIB, som modulerer signalering i TGF-beta-superfamilien (fx GDF11 og aktiviner) og fremmer sen erytroid modning. Dette er årsagen til effekten ved anæmi hos patienter med beta-thalassæmi.
 
-Monosomi X er en kromosomforstyrrelse, og der er ingen kendt afhængighed af denne signalvej. Der er derfor **ikke identificeret nogen troværdig mekanistisk sammenhæng**. Scoren på 0,96 er en ren graf-baseret forudsigelse og kan afspejle artefakter i grafens topologi.
+Monosomi X (Turners syndrom) er en kromosomal tilstand, der primært er kendetegnet ved gonadal dysgenesi. Der er ikke noget oplagt mekanistisk link mellem hæmning af TGF-beta-superfamiliens signalering i den erytroide linje og den kromosomale og gonadale patologi ved Turners syndrom. Et eventuelt link ville være spekulativt (fx via anæmi ved beslægtede tilstande).
 
-Modellen har desuden foreslået flere andre indikationer med lignende score. Ingen af dem har kliniske forsøg eller litteratur:
+TxGNN-scoren på 0,96 er en vidensgrafbaseret forudsigelse og kan afspejle strukturelle artefakter i grafen frem for en reel biologisk sammenhæng.
 
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Hepatisk infarkt | 95,7 % | Ingen terapeutisk begrundelse. Luspatercept har en mærket risiko for tromboemboli, så der kan være et sikkerhedsproblem |
-| Hepatisk veno-okklusiv sygdom | 94,9 % | Kun spekulativ forbindelse via TGF-beta/activin og endotelskade |
-| Peliosis hepatis | 94,8 % | Forbindelsen skyldes sandsynligvis, at sygdommen optræder sammen med luspaterceptets godkendte patientgrupper |
-| Syndrom med kombineret immundefekt | 94,3 % | Ingen plausibel sammenhæng. Sygdommen skyldes defekter i T- og B-celler |
+**Øvrige forudsagte indikationer (alle L5, alle Hold):** hepatisk infarkt (96,0 %), hepatisk veno-okklusiv sygdom (94,9 %), peliosis hepatis (94,8 %) og syndrom med kombineret immundefekt (94,3 %). Ingen af disse har kliniske forsøg eller litteratur, og ingen har en klar mekanistisk begrundelse. Bemærk, at tromboemboliske hændelser er en kendt sikkerhedsmæssig overvejelse ved luspatercept, hvilket taler for forsigtighed ved vaskulære, iskæmiske leversygdomme.
 
 ---
 
-## Kliniske forsøg
+## Klinisk forsøgsevidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for nuværende ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteratur
+## Litteraturevidens
 
-Der foreligger i øjeblikket ingen relateret litteratur.
+Der er for nuværende ingen relevant litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106269119 | Reblozyl (Bristol-Myers Squibb Pharma EEIG) | Pulver til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28106269119 | Reblozyl (Bristol-Myers Squibb Pharma EEIG) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner**: Der blev ikke fundet interaktionsdata for luspatercept i den anvendte kilde.
-- **Tromboembolisk risiko**: Ifølge modellens begrundelse har luspatercept en mærket tromboembolisk risiko i nogle patientgrupper. Det er især relevant for forudsigelsen om hepatisk infarkt.
+- **Lægemiddelinteraktioner:** Der blev ikke fundet registrerede interaktioner i de indsamlede data.
+- **Tromboemboliske hændelser:** Er en kendt sikkerhedsmæssig overvejelse ved luspatercept (jf. vurderingen af hepatisk infarkt).
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -103,15 +99,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er ingen troværdig mekanistisk sammenhæng mellem ActRIIB-ligandfangst og monosomi X. De øvrige forudsagte indikationer mangler også evidens, og for hepatisk infarkt kan der være et sikkerhedsproblem.
+Forudsigelsen for monosomi X er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ikke noget plausibelt mekanistisk link mellem luspatercepts virkning på erytroid modning og patologien ved Turners syndrom. Det samme gælder de øvrige forudsagte indikationer.
 
-**For at gå videre kræves:**
-- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Uden dem kan sikkerhedsscreeningen ikke gennemføres.
-- Data om virkningsmekanisme (MOA) fra DrugBank.
-- Den godkendte danske indikationstekst for Reblozyl.
-- En litteratur- og forsøgsgennemgang med målrettet søgning efter data om luspatercept ved monosomi X, før en eventuel ny vurdering.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA), fx fra DrugBank
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen med hensyn til advarsler og kontraindikationer (i øjeblikket en blokerende datamangel for sikkerhedsscreening)
+- Præklinisk eller mekanistisk evidens, der kan begrunde en sammenhæng mellem luspatercept og monosomi X
+- Systematisk litteratur- og forsøgsgennemgang for at afklare, om der findes relevant evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

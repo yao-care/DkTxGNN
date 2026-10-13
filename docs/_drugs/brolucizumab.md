@@ -2,7 +2,7 @@
 layout: default
 title: Brolucizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 78
+nav_order: 134
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,81 +29,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Brolucizumab: Fra intravitreal anti-VEGF-behandling til mitokondriel oxidativ fosforyleringsforstyrrelse
+# Brolucizumab: Fra makuladegeneration til mitokondriel oxidativ fosforyleringsforstyrrelse
 
 ## Resumé
 
-Brolucizumab er et anti-VEGF-A-antistoffragment (single-chain), som gives som injektion i øjet (intravitrealt) og markedsføres i Danmark som Beovu.
-TxGNN-modellen forudsiger, at det kan have effekt på **mitokondriel oxidativ fosforyleringsforstyrrelse pga. nukleære DNA-anomalier**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Brolucizumab er et humaniseret enkeltkæde-Fv-antistoffragment, der hæmmer VEGF-A, og som oprindeligt anvendes til behandling af makuladegeneration.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **mitokondriel oxidativ fosforyleringsforstyrrelse som følge af kernegenomiske DNA-anomalier**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation (rang 1) | Mitokondriel oxidativ fosforyleringsforstyrrelse pga. nukleære DNA-anomalier |
+| Oprindelig indikation | Makuladegeneration (godkendelsesteksten er ikke angivet i de indsamlede data; indikationen stammer fra TxGNN-vidensgrafen) |
+| Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af kernegenomiske DNA-anomalier |
 | TxGNN-forudsigelsesscore | 99,67 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
-| Status på det danske marked | Markedsført |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Øvrige forudsagte indikationer (efter fjernelse af dubletter i input):
+Andre forudsagte indikationer med samme evidensniveau (L5) og anbefaling (Hold): esofagusvaricer med og uden blødning (score 99,12 %) og eksokrin pancreasinsufficiens (score 99,07 %).
 
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Esophageal varices with bleeding (øsofagusvaricer med blødning) | 99,12 % | L5 | Hold |
-| Esophageal varices without bleeding (øsofagusvaricer uden blødning) | 99,12 % | L5 | Hold |
-| Exocrine pancreatic insufficiency (eksokrin pankreasinsufficiens) | 99,07 % | L5 | Hold |
+---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Brolucizumab neutraliserer VEGF-A, en vækstfaktor der driver karnydannelse og øget karpermeabilitet. Der foreligger ikke yderligere detaljerede oplysninger om virkningsmekanismen i datagrundlaget.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Brolucizumab er kendt som en VEGF-A-hæmmer i form af et antistoffragment til intravitreal brug, og dets virkning ved makuladegeneration er etableret.
 
-**Mitokondriel oxidativ fosforyleringsforstyrrelse:** Vi kan ikke identificere nogen plausibel mekanistisk sammenhæng. Hæmning af VEGF-A adresserer ikke defekter i nukleært kodede komponenter af den oxidative fosforylering. Den høje score (0,997) er en ren grafbaseret forudsigelse uden klinisk støtte.
+Der er ikke identificeret en etableret sammenhæng mellem VEGF-A-hæmning og mitokondrielle oxidative fosforyleringsforstyrrelser forårsaget af kernegenomiske DNA-anomalier. En spekulativ forbindelse kunne være nethinde- eller karkomplikationer ved mitokondriel sygdom, men dette understøttes ikke af de foreliggende data. Scoren på 99,67 % er alene en grafbaseret forudsigelse.
 
-**Øsofagusvaricer (med og uden blødning):** Der er kun en svag, indirekte begrundelse. VEGF-drevet karnydannelse og splanknisk vasodilatation bidrager til portal hypertension og varicedannelse i prækliniske modeller. Brolucizumab gives dog i øjet med minimal systemisk eksponering og når sandsynligvis ikke relevante mål ved den anvendte dosis og administrationsvej. Det kendte sikkerhedssignal med intraokulær inflammation og retinal vaskulitis svækker yderligere argumentet.
+For de øvrige forudsagte indikationer er billedet tilsvarende svagt:
+- **Esofagusvaricer (med og uden blødning):** Anti-VEGF-midler kan teoretisk set reducere patologisk angiogenese ved portal hypertension, men der er ingen kliniske data for brolucizumab. Systemisk VEGF-hæmning indebærer risiko for blødning og tromboemboli, hvilket er et sikkerhedsproblem ved aktiv variceblødning. Intravitreal administration og begrænset systemisk eksponering gør desuden relevant effekt i portalkredsløbet tvivlsom.
+- **Eksokrin pancreasinsufficiens:** Der er ikke fundet nogen plausibel mekanistisk sammenhæng. Tilstanden behandles primært med enzymerstatning, og et anti-VEGF-antistoffragment har ingen oplagt rolle i at genoprette pancreasenzymsekretion.
 
-**Eksokrin pankreasinsufficiens:** Vi kan ikke identificere nogen plausibel mekanistisk sammenhæng. Tilstanden er en mangel på fordøjelsesenzymer (fx efter kronisk pankreatitis, cystisk fibrose eller pankreasresektion) og behandles med enzymerstatning. VEGF-A-hæmning har ingen kendt rolle.
+---
 
-Vurderingen af sammenhæng med den oprindelige indikation og af kompatibilitet mellem administrationsveje er endnu ikke gennemført.
+## Klinisk forsøgsevidens
 
-## Klinisk evidens
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret (hverken i ClinicalTrials.gov eller ICTRP) for nogen af de forudsagte indikationer.
+---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
+
+---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106226919 | Beovu | Injektionsvæske, opløsning | Novartis Europharm Limited |
+| 28106226919 | Beovu (Novartis Europharm Limited) | Injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
-Den godkendte indikationstekst indgår ikke i datagrundlaget. Se produktresuméet (SmPC) for de godkendte indikationer.
+---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Ingen interaktioner fundet i datagrundlaget.
-- **Kendt sikkerhedssignal:** Intraokulær inflammation og retinal vaskulitis (fremgår af evidensvurderingen).
+- **Kontraindikationer fra vidensgrafen (ikke fra produktresuméet):** Vidensgrafen angiver relationer til uveitis, irissygdom, sygdom i corpus ciliare, panuveitis, infektiøs øjensygdom og konjunktivitis. Disse oplysninger er ikke hentet fra produktresuméet og bør verificeres.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+Der blev ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsagte indikationer hviler udelukkende på modelforudsigelse (L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk sammenhæng for to af dem og kun en svag, indirekte sammenhæng for øsofagusvaricer. Den intravitreale administrationsvej og det kendte sikkerhedssignal taler yderligere imod en overførsel.
+Forudsigelsen er udelukkende baseret på en grafmodel (L5) uden understøttende kliniske forsøg eller litteratur, og der er ikke identificeret en plausibel mekanistisk sammenhæng. Brolucizumabs intravitreale administration og de systemiske risici ved VEGF-hæmning taler yderligere imod en viderebearbejdning på nuværende tidspunkt.
 
-**For at komme videre kræves:**
-- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
-- Detaljerede data om virkningsmekanisme (fx via DrugBank)
-- Prækliniske eller mekanistiske studier, der understøtter mindst én af de forudsagte indikationer
-- Vurdering af administrationsvej og systemisk eksponering i forhold til de forudsagte sygdomme
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomprofilering skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsscreening
+- Præklinisk eller mekanistisk evidens, der kan underbygge en sammenhæng mellem VEGF-A-hæmning og den forudsagte sygdom
+- Vurdering af administrationsvejens kompatibilitet (intravitreal vs. den vej, der kræves for den nye indikation)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

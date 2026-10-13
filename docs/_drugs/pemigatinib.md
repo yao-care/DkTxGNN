@@ -2,7 +2,7 @@
 layout: default
 title: Pemigatinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 344
+nav_order: 644
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pemigatinib: Fra kræftbehandling (FGFR-hæmmer) til multipel endokrin neoplasi
+# Pemigatinib: Fra ukendt oprindelig indikation til multipel endokrin neoplasi
 
-## Resumé
+## Resumé i én sætning
 
-Pemigatinib er en selektiv hæmmer af FGFR1-3-kinaser og markedsføres i Danmark som Pemazyre (tabletter). Den oprindelige indikation er ikke angivet i datagrundlaget.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **multipel endokrin neoplasi (MEN)**.
-Forudsigelsen er rent grafbaseret: der er **0 kliniske forsøg** og **0 publikationer** for denne indikation.
+Pemigatinib er et målrettet kræftlægemiddel (FGFR-hæmmer), som er markedsført i Danmark, men for hvilket der i de data, der er indsamlet til denne rapport, ikke er angivet en godkendt indikationstekst.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **multipel endokrin neoplasi**.
+Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så den er udelukkende modelbaseret.
 
 ---
 
@@ -43,7 +43,7 @@ Forudsigelsen er rent grafbaseret: der er **0 kliniske forsøg** og **0 publikat
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget |
+| Oprindelig indikation | Ikke angivet i de indsamlede data |
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
 | TxGNN-forudsigelsesscore | 99,71 % |
 | Evidensniveau | L5 |
@@ -55,65 +55,65 @@ Forudsigelsen er rent grafbaseret: der er **0 kliniske forsøg** og **0 publikat
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Pemigatinib er en selektiv hæmmer af FGFR1-3-kinaser. Datafeltet med den oprindelige virkningsmekanisme (MOA) er ikke udfyldt, så beskrivelsen bygger på lægemidlets kendte farmakologiske klasse.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Pemigatinib er dog kendt som en selektiv hæmmer af FGFR1-3 (fibroblastvækstfaktorreceptorer), og en mulig forbindelse kunne gå via FGFR-signalering i endokrine tumorer.
 
-Mekanistisk er koblingen svag. MEN-syndromerne drives primært af ændringer i *MEN1* og *RET*, og der er ikke påvist en direkte FGFR-afhængighed. Den meget høje score (0,997) afspejler derfor sandsynligvis mønstre i vidensgrafen og ikke en dokumenteret biologisk sammenhæng. Forudsigelsen bør betragtes som en hypotese, der kræver prækliniske data, før den kan vurderes klinisk.
+Denne kobling er ikke understøttet af de foreliggende data. De gener, der typisk knyttes til multipel endokrin neoplasi (MEN1 og RET), er ikke medlemmer af FGFR-signalvejen. Den høje score på 99,71 % afspejler en netværksbaseret grafforudsigelse og ikke klinisk eller litteraturbaseret dokumentation.
 
-### Øvrige forudsigelser i datasættet
-
-| Forudsagt indikation | Score | Evidens | Vurdering |
-|------|------|------|------|
-| Amenoré | 99,54 % | L5 | Ingen plausibel mekanistisk kobling. Symptom/syndrom med heterogene årsager, sandsynligvis en grafartefakt |
-| HER2-positivt brystkarcinom | 99,49 % | L4 | Biologisk plausibelt, da FGFR-signalering indgår i resistens og krydstale i HER2-positiv brystkræft. Kun indirekte evidens (ét generelt review). Forskningsspørgsmål |
-| Cytomegalovirusinfektion | 99,46 % | L5 | Ingen etableret kobling mellem FGFR-hæmning og antiviral aktivitet |
-| Infektiøs bovin rhinotracheitis | 99,43 % | L5 | Veterinærsygdom, ikke relevant for human anvendelse. Sandsynligvis en ontologiartefakt |
-| Malign katar (malignant catarrhal fever) | 99,43 % | L5 | Veterinærsygdom, ikke relevant for human anvendelse. Samme score som ovenstående tyder på en fælles artefakt |
+Det bør bemærkes, at den oprindelige indikation ikke fremgår af de indsamlede data, hvilket begrænser en vurdering af sammenhængen mellem oprindelig og ny indikation.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen registrerede kliniske forsøg for denne indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relevant litteratur for multipel endokrin neoplasi.
-
-Til sammenligning findes der for en anden forudsagt indikation (HER2-positivt brystkarcinom) ét indirekte litteraturfund:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | Generel oversigt over egenskaber ved FDA-godkendte småmolekylære proteinkinasehæmmere. Tester ikke pemigatinib ved denne sygdom |
+Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsagte indikation.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106368019 | Pemazyre (Incyte Biosciences Distribution) | Tabletter | Ikke oplyst i datagrundlaget |
+| 28106368019 | Pemazyre | Tabletter | Ikke angivet i de indsamlede data |
+
+Indehaver: Incyte Biosciences Distribution. Status: gyldig (monopræparat).
 
 ---
 
 ## Cytotoksicitet
 
-Pemigatinib er en kinasehæmmer og hører til de målrettede kræftlægemidler (targeted therapy).
-
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (FGFR-kinasehæmmer) |
-| Knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklasse | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+| Cytotoksicitetsklassifikation | Målrettet behandling (selektiv FGFR1-3-tyrosinkinasehæmmer) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Overvågningspunkter | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forholdsregler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
+Der foreligger ingen oplysninger om advarsler eller kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+**Lægemiddelinteraktioner:** Der er identificeret 50 interaktioner i alt. Blandt de viste er følgende af alvorlighedsgraden **Major**:
+
+- Aprepitant
+- Dexamethason
+- Clarithromycin
+- Cobicistat
+- Lumacaftor
+- Chloramphenicol
+- Erythromycin
+- Ketoconazol
+- Fluconazol
+
+Interaktioner af moderat grad omfatter blandt andet cimetidin, metreleptin, clotrimazol, glycerolphenylbutyrat, troglitazon, deferasirox, ivacaftor, zafirlukast, griseofulvin, elagolix og osilodrostat.
 
 ---
 
@@ -122,15 +122,25 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fu
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for multipel endokrin neoplasi er baseret udelukkende på modellen (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, og der er ingen etableret FGFR-afhængighed i MEN-syndromer. Den høje score alene er ikke tilstrækkelig grundlag for at gå videre.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur, og der er ingen påviselig mekanistisk kobling mellem FGFR-hæmning og de gener, der driver multipel endokrin neoplasi.
 
-**For at komme videre kræves:**
-- Mekanistiske og prækliniske data, der undersøger FGFR-signalering i MEN-relaterede tumorer (*MEN1*/*RET*)
-- Oplysninger om lægemidlets oprindelige indikation og virkningsmekanisme (MOA) fra DrugBank/SmPC
-- Gennemgang af Lægemiddelstyrelsens produktresumé for advarsler og kontraindikationer
-- Hvis man ønsker at forfølge en mere plausibel retning: biomarkørselekterede (FGFR-ændrede) studier ved HER2-positivt brystkarcinom
+**For at komme videre kræves følgende:**
+- Oplysninger om den godkendte indikation og produktresumé fra Lægemiddelstyrelsen, herunder advarsler og kontraindikationer
+- Data om virkningsmekanisme fra DrugBank
+- Præklinisk eller mekanistisk dokumentation for FGFR-involvering i multipel endokrin neoplasi
+- Systematisk litteratursøgning og søgning efter relevante kliniske forsøg
+- Vurdering af administrationsvej og lægemiddelinteraktioner (især stærke CYP3A4-hæmmere og -induktorer) ved eventuelt videre arbejde
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+---
+
+## Bemærkning om øvrige forudsigelser
+
+De øvrige forudsigelser med høje scorer er lige så svagt understøttede (alle L5, anbefaling Hold):
+
+- **Amenorré** (99,54 %): ingen plausibel mekanistisk kobling.
+- **HER2-positiv brystkarcinom** (99,49 %): biologisk plausibel hypotese via FGFR-signalering og resistens over for HER2-rettet behandling, men den eneste litteratur er en generel oversigtsartikel om godkendte kinasehæmmere (PMID [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/), Roskoski, 2021, *Pharmacological Research*) uden sygdomsspecifik klinisk evidens.
+- **Cytomegalovirusinfektion** (99,46 %): ingen understøttet mekanistisk kobling.
+- **Infektiøs bovin rhinotracheitis** og **malignt katarr** (99,43 %): veterinære sygdomme uden human klinisk relevans, sandsynligvis artefakter i vidensgrafen.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

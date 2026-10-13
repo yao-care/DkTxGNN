@@ -2,7 +2,7 @@
 layout: default
 title: Velaglucerase Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 468
+nav_order: 877
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,9 +31,10 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Velaglucerase alfa: Fra Gauchers sygdom til Steel syndrom
 
-## Resumé
+## Resumé i én sætning
 
-Velaglucerase alfa er en rekombinant glucocerebrosidase, der anvendes som enzymerstatningsterapi ved Gauchers sygdom (baseret på almen viden; indikationen fremgår ikke af de modtagne data). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Steel syndrom**, men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Den er udelukkende modelbaseret.
+Velaglucerase alfa er en rekombinant enzymerstatningsterapi, oprindeligt brugt til behandling af Gauchers sygdom.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **Steel syndrom**, men der foreligger **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,7 +42,7 @@ Velaglucerase alfa er en rekombinant glucocerebrosidase, der anvendes som enzyme
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Gauchers sygdom (almen viden; ikke angivet i den danske registrering) |
+| Oprindelig indikation | Gauchers sygdom |
 | Forudsagt ny indikation | Steel syndrom |
 | TxGNN-forudsigelsesscore | 97,0 % |
 | Evidensniveau | L5 |
@@ -51,43 +52,47 @@ Velaglucerase alfa er en rekombinant glucocerebrosidase, der anvendes som enzyme
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der er ingen detaljerede data om virkningsmekanisme i datagrundlaget. Velaglucerase alfa er en rekombinant glucocerebrosidase, som nedbryder glucosylceramid i lysosomerne. Vurderingen bygger på almen viden.
+Der er på nuværende tidspunkt ikke tilgængelige data om lægemidlets detaljerede virkningsmekanisme i de samlede data. Velaglucerase alfa er kendt som en rekombinant glucocerebrosidase (GBA1), der nedbryder glucosylceramid og anvendes ved Gauchers sygdom.
 
-Steel syndrom er en sjælden skeletdysplasi, som er knyttet til COL27A1 (kollagen). Der er ingen oplagt biokemisk forbindelse til nedbrydningen af glucosylceramid. Scoren på 0,970 er en ren grafbaseret forudsigelse uden klinisk eller litterær støtte.
+Steel syndrom er en sjælden skeletlidelse (hofteluksation, sammensmeltning af håndrodsknogler) forårsaget af varianter i COL27A1, som påvirker kollagen type XXVII. Der er ikke påvist nogen direkte mekanistisk sammenhæng mellem glucocerebrosidase og kollagen XXVII. Den høje score skyldes sandsynligvis nærhed i videngrafen, f.eks. fælles skeletfænotyper med Gauchers sygdom, snarere end en valideret biologisk mekanisme.
 
-Modellen foreslår også andre kandidater. Ingen af dem har støtte i forsøg eller litteratur (dublerede poster er slået sammen):
+### Øvrige forudsigelser i datasættet
 
-- **Esophageal varices (med og uden blødning), score 96,2 %:** Der er ingen direkte mekanisme. Varicer skyldes portal hypertension. Ved Gauchers sygdom med hepatosplenomegali kan portal hypertension sjældent forekomme, og velaglucerase alfa kan højst mindske organforstørrelsen. Det er ikke et repurposing-rationale for selve varicerblødningen. Standardbehandling (betablokkere, endoskopisk båndligering) retter sig mod den underliggende patofysiologi.
-- **Hypophosphatasia, score 95,0 %:** Sygdommen skyldes mangel på ALPL (vævsuspecifik alkalisk fosfatase), og der findes allerede en specifik enzymerstatning (asfotase alfa). Den eneste fællesnævner er enzymerstatning som princip. Glucocerebrosidase virker ikke på de involverede substrater (pyrofosfat og pyridoxalfosfat).
-- **Wolman sygdom, score 94,0 %:** Dette er den mest plausible forbindelse på klasseniveau, da begge er lysosomale lagringssygdomme behandlet med enzymerstatning. Glucocerebrosidase nedbryder dog glucosylceramid og ikke de kolesterolestere og triglycerider, der ophobes ved Wolman sygdom. Et substratspecifikt enzym (sebelipase alfa) er allerede tilgængeligt.
+Samme mønster ses for de øvrige forudsigelser, som alle har evidensniveau L5 og anbefalingen Hold:
+
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Esophageal varices (varicer i spiserøret) med og uden blødning | 96,2 % | Kun indirekte sammenhæng via Gaucher-relateret forstørret milt/lever og portal hypertension. Enzymerstatning behandler ikke varicer direkte. Sandsynligvis en grafartefakt. |
+| Hypofosfatasi | 95,0 % | Skyldes mangel på vævsuspecifik alkalisk fosfatase og behandles allerede med anden enzymerstatning (asfotase alfa). Substraterne er uden relation til glucosylceramid. |
+| Wolmans sygdom (med hypolipoproteinæmi og akantocytose) | 94,0 % | Lysosomal lipasemangel, dvs. samme sygdomsklasse, men andet substrat. Sebelipase alfa er den specifikke godkendte behandling. |
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Aktuelt ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-Aktuelt ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104625109 | VPRIV (Takeda Pharmaceuticals International AG Ireland Branch) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de modtagne data |
+| 28104625109 | VPRIV (Takeda Pharmaceuticals International AG Ireland Branch) | Pulver til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data; oprindelig indikation er Gauchers sygdom |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de data, der er samlet til denne rapport.
 
 ---
 
@@ -96,15 +101,14 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler kun på modellens score (evidensniveau L5), uden kliniske forsøg eller litteratur. Der er ingen plausibel biokemisk forbindelse mellem glucocerebrosidase og Steel syndrom, som er en kollagenrelateret skeletdysplasi.
+Forudsigelsen bygger kun på modellens score (evidensniveau L5), uden kliniske forsøg, litteratur eller en plausibel biologisk mekanisme. Mekanismen bag Steel syndrom (kollagen XXVII) har ingen kendt forbindelse til glucocerebrosidase.
 
-**For at komme videre kræves:**
-- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation), da sikkerhedsscreening ikke kan gennemføres uden dem
-- Detaljerede data om virkningsmekanisme fra DrugBank (DB06720) til en egentlig mekanistisk analyse
-- Præklinisk eller mekanistisk dokumentation for en sammenhæng med Steel syndrom (COL27A1)
-- Vurdering af administrationsvej og lighed med den oprindelige indikation, som endnu er uafklaret
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (nødvendigt for sikkerhedsscreening)
+- Prækliniske eller mekanistiske studier, der kan understøtte en sammenhæng mellem GBA1-enzymerstatning og den forudsagte sygdom
+- Litteratur- og forsøgssøgning, som kan bekræfte eller afkræfte forudsigelsen
+- Vurdering af administrationsvej (lægemidlet gives som intravenøs infusion) i forhold til den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

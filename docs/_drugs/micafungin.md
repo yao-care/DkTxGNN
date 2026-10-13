@@ -2,7 +2,7 @@
 layout: default
 title: Micafungin
 parent: Moderat evidens (L3-L4)
-nav_order: 289
+nav_order: 549
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Micafungin: Fra antimykotikum til urinvejsinfektion med Candida
+# Micafungin: Fra esophageal candidiasis og candidæmi til urinvejsinfektion (Candida)
 
-## Resumé
+## Resumé i én sætning
 
-Micafungin er et echinocandin-antimykotikum, der er markedsført i Danmark som Mycamine (infusionsvæske). Det oprindelige godkendte indikationsområde er ikke oplyst i datagrundlaget.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **urinvejsinfektion**, især forårsaget af Candida.
-Der er **0 registrerede kliniske forsøg** og **13 publikationer** (kohortestudier, en farmakokinetisk undersøgelse, caseserier og case reports). Evidensen er derfor begrænset.
+Micafungin er et echinocandin-svampemiddel, der oprindeligt anvendes til behandling af candidiasis i spiserøret, candidæmi og dissemineret candidiasis.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **urinvejsinfektion** (i praksis Candida-urinvejsinfektion/candiduri).
+Evidensen består af **0 registrerede kliniske forsøg** og **13 publikationer** (primært kohortestudier, case series og case reports).
 
 ---
 
@@ -43,84 +43,90 @@ Der er **0 registrerede kliniske forsøg** og **13 publikationer** (kohortestudi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget |
-| Forudsagt ny indikation | Urinvejsinfektion (primært Candida-urinvejsinfektion/candiduri) |
+| Oprindelig indikation | Candidiasis i spiserøret, candidæmi, dissemineret candidiasis (fra videngrafen; der er ingen indikationstekst i de danske markedsføringstilladelser) |
+| Forudsagt ny indikation | Urinvejsinfektion (urinary tract infection) |
 | TxGNN-forudsigelsesscore | 99,03 % |
 | Evidensniveau | L3 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Micafungin er et echinocandin, der hæmmer enzymet beta-1,3-D-glucansyntase og dermed opbygningen af svampens cellevæg. Stoffet har fungicid virkning over for de fleste Candida-arter, også arter, der er resistente over for fluconazol. Detaljerede mekanismedata var ikke tilgængelige i datagrundlaget, så mekanismen er udledt af viden om stofklassen.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Micafungin tilhører imidlertid echinocandin-klassen, som hæmmer 1,3-beta-D-glucansyntase, et enzym i svampes cellevæg. Stoffet har veletableret aktivitet mod Candida-arter.
 
-Candida er en kendt årsag til urinvejsinfektion, især hos kritisk syge, patienter med kateter, diabetikere og transplanterede. Derfor er det biologisk plausibelt at bruge et stof med Candida-aktivitet. Den væsentligste hage er, at echinocandiner klassisk antages at nå lave koncentrationer i urinen. Et studie (PMID 27424599) rapporterer dog, at urinkoncentrationerne af micafungin var tilstrækkelige hos behandlede patienter. Det afhjælper delvist problemet, men er baseret på et meget lille materiale.
+Candida-urinvejsinfektion og candiduri forårsages af de samme patogener som de godkendte indikationer (candidæmi og invasiv candidiasis). Det er derfor en patogenkonsistent udvidelse af den kendte svampehæmmende effekt. Den traditionelle bekymring har været, at echinocandiner udskilles i urinen i lav grad. Et farmakokinetisk studie (PMID 27424599) rapporterer dog, at urinkoncentrationerne af micafungin er tilstrækkelige til at behandle Candida-urinvejsinfektioner.
+
+Den kliniske evidens er begrænset til case reports, case series og retrospektive kohorter hos voksne, børn og en for tidligt født, herunder infektioner med *C. glabrata*, *C. krusei* og *C. auris*. TxGNN-scoren (0,99) er i overensstemmelse med litteratursignalet.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret (hverken i ClinicalTrials.gov eller ICTRP).
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der blev ikke fundet randomiserede studier. Tabellen viser de 10 mest relevante publikationer.
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Kohorte | Pediatr Int | Kritisk syge børn på intensivafdeling behandlet med micafungin for hospitalserhvervet Candida-urinvejsinfektion. Behandlingssucces opgjort samlet og pr. Candida-art |
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Farmakokinetisk studie | Int J Antimicrob Agents | Seks patienter med succesfuldt behandlet urinvejsinfektion, heraf fire med fluconazolresistent Candida. Urinkoncentrationerne af micafungin var tilstrækkelige |
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Kohorte | Int Urol Nephrol | Undersøgte, hvor ofte candiduri forsvandt hos indlagte patienter behandlet med micafungin |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Caseserie | Med Mycol Case Rep | Fem patienter behandlet med micafungin i mindst 6 dage. Svampen var forsvundet inden for 30 dage efter endt behandling |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Case report med litteraturgennemgang | Transpl Infect Dis | Kronisk symptomatisk C. krusei-urinvejsinfektion hos lever- og nyretransplanteret, udryddet med øget dosis micafungin |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Case report | Front Pediatr | C. glabrata-urinvejsinfektion hos et for tidligt født nyfødt barn behandlet med micafungin |
-| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Case report | J Pharm Health Care Sci | Pyelonefritis og bakteriæmi med C. glabrata hos patient i SGLT2-hæmmerbehandling, succesfuldt behandlet med micafungin |
-| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Case report | Med Mycol Case Rep | Ensidig svampebold i nyren (C. glabrata, følsom over for micafungin), behandlet med antimykotikum, endoskopisk fjernelse og stent |
-| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Retrospektiv kohorte | Antimicrob Agents Chemother | 305 indlagte patienter. Asymptomatisk candiduri overbehandles med antimykotika, selvom retningslinjer ikke anbefaler det |
-| [40405904](https://pubmed.ncbi.nlm.nih.gov/40405904/) | 2025 | Case report | Cureus | Urosepsis fra nyresten med C. glabrata hos immunkompetent patient |
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Kohorte | Pediatr Int | Micafungin til hospitalserhvervede Candida-urinvejsinfektioner hos kritisk syge børn på intensivafdeling; behandlingssucces vurderet pr. Candida-art |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Kohorte | Int Urol Nephrol | Eliminering af candiduri hos indlagte patienter behandlet med micafungin |
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Farmakokinetisk studie | Int J Antimicrob Agents | Seks patienter med succesfuld behandling; urinkoncentrationer af micafungin er tilstrækkelige |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Case series | Med Mycol Case Rep | Fem patienter med candiduri; fungal klaring inden for 30 dage efter endt behandling |
+| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Kohorte (retrospektiv) | Antimicrob Agents Chemother | Overbehandling af asymptomatisk candiduri hos indlagte patienter; stewardship-problem |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Case report med litteraturgennemgang | Transpl Infect Dis | Kronisk symptomatisk *C. krusei*-urinvejsinfektion hos lever- og nyretransplanteret, udryddet med øget dosis micafungin |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Case report | Front Pediatr | *C. glabrata*-urinvejsinfektion hos for tidligt født nyfødt behandlet med micafungin |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Case report | Med Mycol Case Rep | Unilateral renal "fungus ball" med *C. glabrata* følsom for micafungin; behandlet med antimykotika og endoskopisk fjernelse |
+| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Case report | J Pharm Health Care Sci | Pyelonefritis og bakteriæmi med *C. glabrata* hos patient på SGLT2-hæmmer, succesfuldt behandlet med micafungin |
+| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Case report | Cureus | *Candida auris*-urinvejsinfektion hos plejehjemsbeboer med flere komorbiditeter |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103946306 | Mycamine (Sandoz Pharmaceuticals d.d.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke oplyst i datagrundlaget |
+| 28103946306 | Mycamine (Sandoz Pharmaceuticals d.d.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet oplysninger om lægemiddelinteraktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
+- **Kontraindikationer fra videngrafen (ikke produktresumétekst):** nyresygdom og pyoureter (pus i urinlederen).
+- **Lægemiddelinteraktioner (5 fundet, alle af moderat sværhedsgrad):** amphotericin B, nitisinon, everolimus, ribociclib og sirolimus.
+- **Stewardship:** Asymptomatisk candiduri bør generelt ikke behandles med antimykotika. Anvendelse bør begrænses til symptomatiske eller højrisikopatienter (PMID 29109159).
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
-## Øvrige forudsigelser
+## Øvrige forudsagte indikationer (kort)
 
-TxGNN forudsagde også gonokok-uretritis, Ureaplasma-uretritis, uterin inflammatorisk sygdom og xantogranulomatøs pyelonefritis (scorer ca. 98,7-99,0 %). Der er ingen evidens for dem, og de er mekanistisk usandsynlige. Sygdommene skyldes hovedsageligt bakterier uden beta-1,3-glucan i cellevæggen, så scorerne skyldes sandsynligvis grafartefakter. De anbefales ikke undersøgt nærmere.
+De øvrige forudsigelser har evidensniveau L5 uden kliniske forsøg eller litteratur og anbefales **Hold**. De skyldes sandsynligvis artefakter i videngrafen:
+
+- **Gonokok-uretritis** og **Ureaplasma-uretritis:** bakterielle infektioner uden mål for et echinocandin (bakterier mangler 1,3-beta-D-glucansyntase; *Ureaplasma* mangler desuden cellevæg).
+- **Uterin inflammatorisk sygdom:** oftest polymikrobiel bakteriel ætiologi; ingen evidens for antimykotisk rationale.
+- **Xanthogranulomatøs pyelonefritis:** kronisk granulomatøs, typisk bakteriel nyreinfektion behandlet med antibiotika og kirurgi.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Mekanismen er plausibel, og der findes flere observationelle rapporter om succesfuld behandling af Candida-urinvejsinfektion. Der foreligger dog ingen kliniske forsøg eller randomiserede studier, og sikkerhedsdata fra den danske produktinformation mangler. Retningslinjer anbefaler heller ikke antimykotika ved asymptomatisk candiduri, og echinocandiner har klassisk lave urinkoncentrationer. Forudsigelsen bør derfor betragtes som et forskningsspørgsmål.
+Der er et konsistent litteratursignal for micafungin ved Candida-urinvejsinfektion, understøttet af en plausibel mekanisme og farmakokinetiske data, men evidensen består udelukkende af observationelle studier og case reports uden registrerede kliniske forsøg.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendte indikationer)
-- Mekanismedata fra DrugBank
-- Systematisk gennemgang af de tilgængelige studier, især farmakokinetiske data for urinkoncentrationer
-- Et prospektivt studie eller en randomiseret undersøgelse af micafungin ved Candida-urinvejsinfektion, især ved fluconazolresistente arter
-- Afgrænsning af målgruppen (fx kritisk syge, transplanterede, fluconazolresistente infektioner)
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Prospektive kontrollerede studier eller registerdata, der bekræfter effekt og optimal dosering ved Candida-urinvejsinfektion
+- Gennemgang af produktresuméet for advarsler og kontraindikationer samt den godkendte indikationstekst (disse mangler i de indsamlede data)
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- Klare kriterier for patientudvælgelse (symptomatiske eller højrisikopatienter, fluconazol-resistente arter) og vurdering af nyrefunktion, givet de kontraindikationer, der er angivet i videngrafen
+- Gennemgang af relevante interaktioner, især med immunsuppressiva (sirolimus, everolimus) og amphotericin B
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

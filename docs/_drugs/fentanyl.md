@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Kun modelforudsigelse (L5)
-nav_order: 189
+nav_order: 354
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Fentanyl: Fra smertebehandling til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+# Fentanyl: Fra smertebehandling til nefrogent syndrom med uhensigtsmæssig antidiurese
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Fentanyl er et stærkt opioid, der virker på mu-opioidreceptoren. I Danmark er det markedsført som depotplasteret Durogesic, men indikationsteksten indgår ikke i datagrundlaget.
-TxGNN-modellen forudsiger, at fentanyl kan have effekt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**, og som sekundær forudsigelse ved **Tourettes syndrom**.
-Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelserne, så de bygger udelukkende på en grafbaseret modelberegning.
+Fentanyl er en stærk opioid (mu-opioidreceptoragonist), som i Danmark markedsføres som depotplaster (Durogesic). Den oprindelige godkendte indikationstekst er ikke tilgængelig i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at fentanyl kan være effektivt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Evidensen er udelukkende modelbaseret.
 
 ---
 
@@ -43,51 +41,67 @@ Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsig
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsens indikationstekst er tom) |
-| Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
+| Oprindelig indikation | Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst er tom) |
+| Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese |
 | TxGNN-forudsigelsesscore | 99,46 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
-
-## Hvorfor er forudsigelsen rimelig?
-
-Detaljerede data om fentanyls virkningsmekanisme er ikke tilgængelige i datagrundlaget. Fentanyl er en mu-opioidagonist, og mekanismen kan derfor ikke kobles til sygdomsbiologien ud fra de foreliggende data.
-
-NSIAD skyldes aktiverende (gain-of-function) varianter i AVPR2-genet, sjældnere i GNAS. De giver antidiurese, selv når vasopressinniveauet er lavt. Fentanyl har ingen kendt virkning på V2-receptorvejen. Opioider er desuden generelt forbundet med øget ADH-frigivelse og hyponatriæmi. Den biologiske retning kan derfor være ugunstig snarere end terapeutisk.
-
-Den høje score er derfor kun et grafbaseret signal uden mekanistisk eller klinisk understøttelse. Den bør ikke tolkes som tegn på reel effekt.
-
-**Sekundær forudsigelse: Tourettes syndrom (score 99,05 %).** Der findes en plausibel, men indirekte begrundelse. Det endogene opioidsystem modulerer dopaminerge og striatale kredsløb, som er impliceret i tics. Tilgrænsende forskning har dog undersøgt opioidantagonister og partielle agonister, ikke fulde mu-agonister som fentanyl. Fentanyl indebærer høj risiko for respirationsdepression, afhængighed og misbrug. Det gør en kronisk og ofte pædiatrisk indikation til et dårligt risiko-nytte-forhold uden understøttende data.
+Bemærk: Den næsthøjest rangerede forudsigelse er **Tourettes syndrom** (score 99,05 %, evidensniveau L5, anbefaling Hold). Begge forudsigelser optræder to gange i datagrundlaget.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Data om fentanyls detaljerede virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Fentanyl er dog generelt kendt som en mu-opioidreceptoragonist med stærk smertestillende effekt.
 
----
+NSIAD skyldes en aktiverende (gain-of-function) mutation i vasopressin V2-receptoren (AVPR2), som virker uafhængigt af vasopressin. Opioider kan påvirke frigivelsen af antidiuretisk hormon og nyrernes vandhåndtering, men en mu-opioidagonist forventes ikke at kunne korrigere en defekt på receptorniveau. Forudsigelsen er derfor biologisk usandsynlig uden yderligere evidens og kan afspejle netværksartefakter i vidensgrafen, fx delte forbindelser til vandbalance eller vasopressinveje.
 
-## Evidens fra litteraturen
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+For **Tourettes syndrom** involverer sygdommen forstyrrelser i cortico-striato-thalamo-corticale kredsløb og dopaminerg signalering. Endogen opioidmodulation af disse kredsløb er undersøgt i litteraturen, men fentanyl har ingen etableret terapeutisk rolle. Misbrugspotentiale, risiko for respirationsdepression samt tolerans- og afhængighedsprofil gør stoffet til en dårlig kandidat til en kronisk neuropsykiatrisk tilstand.
 
 ---
 
-## Markedsinformation for Danmark
+## Klinisk evidens
+
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101545493 | Durogesic (Janssen-Cilag A/S) | Depotplaster | Ikke angivet i datagrundlaget |
+| 28101545493 | Durogesic (Janssen-Cilag A/S) | Depotplaster | Indikationstekst ikke tilgængelig |
+
+Status: gyldig, enkeltstofpræparat. Der er ingen annullerede tilladelser.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Datagrundlaget indeholder ingen advarsler, kontraindikationer eller interaktionsdata for fentanyl, og en interaktionsforespørgsel gav ingen resultater.
+Produktresuméets advarsler og kontraindikationer var ikke tilgængelige i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+**Sygdomme, der i vidensgrafen er koblet til kontraindikation** (fra TxGNN-vidensgrafen, ikke fra produktresuméet), blandt andet:
+- Hjerte-kar: hypertension, hypotension, ortostatisk hypotension, langt QT-syndrom, torsades de pointes
+- Lunge: kronisk obstruktiv lungesygdom (KOL), astma
+- Lever, nyrer og mave-tarm: leversvigt, leversygdom, nyresygdom, pankreatitis, galdeblæresygdom, inflammatorisk tarmsygdom
+- Neurologi og psykiatri: multipel systematrofi, basalganglie-sygdom, blefarospasme, angstlidelse, dysthymi, misbrug/afhængighed
+- Øvrige: kaliummangel, benign prostatahyperplasi
+
+**Lægemiddelinteraktioner** (100 interaktioner fundet i alt; et udvalg):
+
+| Niveau | Interagerende lægemidler |
+|------|------|
+| Major | Alvimopan, aprepitant, bupropion, clarithromycin, clotrimazol, dexamethason, dexfenfluramin, dolasetron, fenfluramin, granisetron, lorcaserin |
+| Moderat | Atropin, cimetidin, clidinium, dicyclomin, dronabinol, eluxadolin, glycerolphenylbutyrat, glycopyrronium, hyoscyamin |
 
 ---
 
@@ -96,15 +110,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Datagrundlaget
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne har kun modelgrundlag (L5) uden kliniske forsøg eller litteratur. For NSIAD peger den kendte farmakologi desuden i en potentielt ugunstig retning. For Tourettes syndrom taler fentanyls risikoprofil imod brug uden understøttende data. Sikkerhedsscreeningen kan heller ikke gennemføres, fordi advarsler og kontraindikationer mangler.
+Forudsigelsen hviler udelukkende på en grafbaseret modelscore uden kliniske forsøg eller litteratur. Den biologiske sammenhæng er svag (NSIAD er en receptordefekt i V2-receptoren), og fentanyls sikkerhedsprofil, herunder misbrugspotentiale og respirationsdepression, taler imod anvendelse ved kroniske tilstande som Tourettes syndrom.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation (blokerende datamangel).
-- Indhent data om virkningsmekanisme fra DrugBank for at kunne vurdere den mekanistiske sammenhæng.
-- Gennemfør en målrettet litteratursøgning på fentanyl/opioider ved NSIAD og Tourettes syndrom, herunder præklinisk evidens.
-- Vurder administrationsvejens forenelighed, da der kun findes depotplaster på det danske marked.
-
-*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+- Fuldstændige data om virkningsmekanisme (MOA)
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen samt den godkendte indikationstekst
+- Prækliniske data eller et mekanistisk rationale for den forudsagte indikation
+- En sikkerhedsfokuseret gennemgang før yderligere overvejelser
+- Vurdering af administrationsvej (depotplaster) i forhold til den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

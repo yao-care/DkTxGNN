@@ -2,7 +2,7 @@
 layout: default
 title: Dostarlimab
 parent: Kun modelforudsigelse (L5)
-nav_order: 151
+nav_order: 279
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dostarlimab: Fra onkologisk immunterapi til blandet mineralstøv-pneumokoniose
+# Dostarlimab: Fra onkologisk anvendelse til blandet mineralstøv-pneumokoniose
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Dostarlimab er et anti-PD-1-antistof (checkpoint-hæmmer), der markedsføres i Danmark som Jemperli. Evidenspakken oplyser ikke den oprindelige godkendte indikation.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **blandet mineralstøv-pneumokoniose**.
-Der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen hviler alene på en modelscore på 0,5.
+Dostarlimab er et anti-PD-1-antistof, som markedsføres i Danmark under handelsnavnet Jemperli. Ifølge de data, der er indsamlet til denne rapport, er indikationsteksten i det danske register ikke angivet. Fra andre kilder er lægemidlet kendt til behandling af endometriecancer og andre solide tumorer med mismatch repair-mangel (dMMR). TxGNN-modellen forudsiger, at det kan have effekt ved **blandet mineralstøv-pneumokoniose**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning.
 
 ---
 
@@ -43,9 +41,9 @@ Der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne re
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i evidenspakken (anti-PD-1-antistof til onkologisk brug) |
-| Foreslået ny indikation | Blandet mineralstøv-pneumokoniose |
-| TxGNN-prædiktionsscore | 50 % |
+| Oprindelig indikation | Ikke angivet i de danske registerdata. Ifølge farmakologiske data om lægemidlet: dMMR-endometriecancer og andre dMMR-solide tumorer |
+| Forudsagt ny indikation | Blandet mineralstøv-pneumokoniose |
+| TxGNN-prædiktionsscore | 50 % (ikke informativ) |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -53,35 +51,35 @@ Der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne re
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Dostarlimab er et anti-PD-1-antistof. Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i evidenspakken. Det mekanistiske udgangspunkt er derfor teoretisk.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Dostarlimab er dog et antistof, der binder til PD-1 (CD279, genet *PDCD1*) på T-celler. Ifølge farmakologiske data har det høj affinitet for humant PD-1 og hæmmer interaktionen mellem PD-1 og både PD-L1 og PD-L2. Derved ophæves den hæmning af T-cellerne, som tumorer udnytter til at undslippe immunforsvaret.
 
-Den eneste tænkelige kobling er, at PD-1-blokade kan påvirke kronisk inflammation og fibrose ved støvinduceret lungesygdom. Koblingen er spekulativ og ikke understøttet af data.
+Pneumokoniose er en kronisk, fibrotisk og inflammatorisk lungesygdom forårsaget af indånding af mineralstøv. Der er ikke fundet nogen klinisk eller litterær evidens for, at PD-1-blokade gavner denne tilstand. Tværtimod kan checkpoint-hæmning teoretisk forværre immunmedieret lungeskade, f.eks. pneumonitis. Den mekanistiske begrundelse er derfor svag og potentielt ugunstig. En TxGNN-score på 0,5 giver ingen reel information, og forudsigelsen må betragtes som rent beregningsbaseret.
 
-Sikkerhedsprofilen taler imod. PD-1-blokade kan give immunrelateret pneumonitis, og bivirkningen kan veje tungere end en eventuel gavn hos patienter med i forvejen skadede lunger. Lighed med den oprindelige indikation er ikke vurderet.
+De øvrige ni forudsigelser på listen (bl.a. alfa-gal-syndrom, mastcelleaktiveringssyndrom, fødevareproteinudløst enterokolitis og tendinopati) har samme score og samme evidensniveau (L5) og er ligeledes vurderet som "Hold". Ingen af dem har kliniske forsøg eller publikationer, og for flere af dem kan PD-1-blokade teoretisk forværre immunmedierede tilstande.
 
 ---
 
 ## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106416220 | Jemperli | Koncentrat til infusionsvæske, opløsning | Ikke oplyst i evidenspakken |
+| 28106416220 | Jemperli | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
-Indehaver: Glaxosmithkline Trading Services Limited. Administrationsvej: injicerbar (intravenøs infusion).
+Indehaver af tilladelsen er Glaxosmithkline Trading Services Limited. Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
 
 ---
 
@@ -89,19 +87,22 @@ Indehaver: Glaxosmithkline Trading Services Limited. Administrationsvej: injicer
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Immunterapi (anti-PD-1-checkpoint-hæmmer), ikke et konventionelt cytotoksisk middel |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitetsklasse | Se produktresuméet (SmPC) |
-| Monitorering | Se produktresuméet (SmPC) |
+| Klassifikation | Immunterapi (anti-PD-1-antistof), ikke konventionelt cytotoksisk |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) |
 | Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+
+Der henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Evidenspakken indeholder ingen sikkerhedsdata for varsler eller kontraindikationer. Der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** Den eneste registrerede post i interaktionsforespørgslen er lægemidlets farmakologiske mål, PD-1 (CD279). Der er ikke identificeret interaktioner med andre lægemidler.
+- **Immunmedierede bivirkninger (teoretisk betragtning):** Som anti-PD-1-antistof kan dostarlimab øge T-celleaktiviteten. Det kan være uhensigtsmæssigt ved immunmedierede eller allergiske tilstande, herunder lungebetændelse, colitis og muskel-skeletbivirkninger. Dette er en mekanistisk vurdering og ikke dokumenteret i de indsamlede data.
 
-Som teoretisk bekymring for denne indikation er immunrelateret pneumonitis kendt for PD-1-hæmmere. Det er ikke dokumenteret i evidenspakken, men fremgår af den mekanistiske vurdering.
+For øvrige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -110,15 +111,14 @@ Som teoretisk bekymring for denne indikation er immunrelateret pneumonitis kendt
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er rent modelbaseret (L5, score 0,5) uden kliniske forsøg eller litteratur, og der er en teoretisk sikkerhedsbekymring for lungerne. De øvrige ni forudsigelser i evidenspakken (bl.a. alfa-gal-syndrom, mastcelleaktiveringssyndrom og tendinopati) har samme profil: score 0,5, L5 og Hold.
+Forudsigelsen om blandet mineralstøv-pneumokoniose bygger udelukkende på en modelscore på 50 % uden kliniske forsøg eller publikationer. Den mekanistiske begrundelse er svag og potentielt ugunstig, fordi PD-1-blokade kan forværre immunmedieret lungeskade.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da sikkerhedsscreening ikke kan gennemføres uden dem
-- Præklinisk eller mekanistisk evidens for PD-1-blokade ved støvinduceret lungefibrose
-- Vurdering af risikoen for immunrelateret pneumonitis hos patienter med eksisterende lungeskade
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye anvendelser kræver klinisk validering.*
+**For at komme videre kræves følgende:**
+- Oplysninger om virkningsmekanisme (MOA) fra DrugBank
+- Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
+- Præklinisk eller mekanistisk evidens for PD-1-hæmning i fibrotisk lungesygdom
+- Systematisk litteratur- og forsøgssøgning, der kan understøtte eller afkræfte en rolle for PD-1-hæmning ved pneumokoniose
+- En sikkerhedsvurdering med særlig fokus på pneumonitis og andre immunmedierede bivirkninger i en population med eksisterende lungeskade
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Vancomycin
 parent: Kun modelforudsigelse (L5)
-nav_order: 466
+nav_order: 875
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vancomycin: Fra antibiotikum til diffus sklerodermi
+# Vancomycin: Fra Clostridium difficile-colitis til diffus sklerodermi
 
-## Opsummering i en sætning
+## Opsummering i én sætning
 
-Vancomycin er et glykopeptid-antibiotikum, der virker mod grampositive bakterier. TxGNN-modellen forudsiger, at det kan have effekt ved **diffus sklerodermi**. Der er **ingen kliniske forsøg** og kun **1 publikation** (en case report uden direkte relevans), så forudsigelsen er udelukkende modelbaseret.
+Vancomycin er et glykopeptid-antibiotikum, der oprindeligt anvendes til behandling af bl.a. Clostridium difficile-colitis, stafylokokinfektioner og endokarditis.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **diffus sklerodermi**,
+men der er **0 kliniske forsøg** og kun **1 publikation** (en case report, der ikke omhandler sklerodermi), så forudsigelsen er ikke understøttet af evidens.
 
 ---
 
@@ -41,7 +43,7 @@ Vancomycin er et glykopeptid-antibiotikum, der virker mod grampositive bakterier
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Vancomycin er et glykopeptid-antibiotikum |
+| Oprindelig indikation | Clostridium difficile-colitis, stafylokokinfektioner, endokarditis m.fl. (fra vidensgrafen; indikationsteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Diffus sklerodermi |
 | TxGNN-forudsigelsesscore | 99,92 % |
 | Evidensniveau | L5 |
@@ -51,44 +53,50 @@ Vancomycin er et glykopeptid-antibiotikum, der virker mod grampositive bakterier
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i evidenspakken. Vancomycin er et glykopeptid-antibiotikum, der hæmmer celleväggssyntesen hos grampositive bakterier.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er udarbejdet til denne rapport. Vancomycin er kendt som et glykopeptid-antibiotikum, der hæmmer syntesen af bakteriernes cellevæg, og virker mod Gram-positive bakterier.
 
-Diffus sklerodermi er en autoimmun, fibrotisk sygdom uden kendt bakteriel drivkraft, som vancomycin kunne målrette. Der er derfor ingen oplagt mekanistisk sammenhæng mellem den oprindelige anvendelse og den forudsagte indikation. Den høje score (0,999) afspejler en modelforudsigelse, sandsynligvis baseret på nærhed i vidensgrafen, og ikke et dokumenteret terapeutisk forhold.
+Diffus sklerodermi er en autoimmun, fibrotisk sygdom uden kendt bakteriel drivkraft, som vancomycin kan angribe. Der er derfor ikke identificeret en plausibel mekanistisk sammenhæng mellem de oprindelige indikationer og den forudsagte indikation. Den høje score (0,999) afspejler en netværksbaseret forudsigelse uden klinisk støtte og bør tolkes med stor forsigtighed.
 
-De øvrige højt rangerede forudsigelser i analysen er heller ikke støttet af evidens:
+Det bør bemærkes, at de øvrige topforudsigelser også er biologisk usandsynlige:
+- **Paratyfus (score 99,85 %)** og **salmonellose (99,81 %)**: Salmonella er Gram-negativ, og vancomycin kan ikke passere den ydre membran og er derfor iboende uvirksomt. Litteraturen for salmonellose består hovedsageligt af resistensovervågning, veterinære rapporter og generelle oversigter, der blot nævner stofferne sammen.
+- **Medfødt analbuminæmi (99,79 %)**, **polyklonalt hyperviskositetssyndrom (99,79 %)** og **hyperamylasæmi (99,79 %)**: Ingen identificerbar mekanistisk sammenhæng, og ingen forsøg eller litteratur. Forudsigelserne skyldes sandsynligvis netværksartefakter.
 
-- **Paratyfus og salmonellose:** *Salmonella* er gramnegativ og iboende resistent over for vancomycin.
-- **Medfødt analbuminæmi, polyklonalt hyperviskositetssyndrom og hyperamylasæmi:** Der er ingen kendt mekanistisk forbindelse, og der er ikke fundet forsøg eller litteratur.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for diffus sklerodermi.
+Flere forudsigelser optræder i duplikat i de underliggende data og bør slås sammen.
 
 ---
 
-## Evidens fra litteraturen
+## Kliniske forsøg
+
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Case report | The American Journal of Case Reports | Mand på 56 år med diffust eksfoliativt udslæt (erytrodermi), sepsis og eosinofili. Casen handler ikke om sklerodermi og viser ingen effekt af vancomycin ved sklerodermi |
+| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Case report | The American Journal of Case Reports | Beskrivelse af en patient med diffust eksfoliativt udslæt (erytrodermi), sepsis og eosinofili. Omhandler ikke sklerodermi og viser ingen behandlingseffekt af vancomycin. |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103008798 | Vancocin (Strides Pharma (Cyprus) Limited) | Kapsler, hårde | Ikke angivet i de tilgængelige data |
+| 28103008798 | Vancocin (Strides Pharma (Cyprus) Limited) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+- **Kontraindikationer/risikotilstande fra vidensgrafen** (ikke fra produkttekst): nyresygdom, pyoureter, neutropeni, agranulocytose, høreforstyrrelse og sygdomme i høresystemet.
+- **Lægemiddelinteraktioner**: I alt 100 interaktioner er identificeret. Eksempler:
+  - **Alvorlige (Major)**: intravenøst humant immunglobulin G, humant botulinum-neurotoksin A/B-immunglobulin, levende Vibrio cholerae CVD 103-HgR-vaccine.
+  - **Moderate**: ketorolac, ibuprofen, diclofenac, celecoxib, amphotericin B, amikacin, bacitracin, capreomycin, carboplatin, metformin, ethinylestradiol, estradiol, mesalazin, balsalazid, ibandronat og cholestyramin. Flere af disse er nefrotoksiske eller ototoksiske og kan øge risikoen for nyre- eller høreskade sammen med vancomycin.
 
 ---
 
@@ -97,14 +105,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (evidensniveau L5). Der er hverken kliniske forsøg eller relevant litteratur, og der er ingen plausibel mekanistisk sammenhæng mellem vancomycins antibakterielle virkning og patofysiologien ved diffus sklerodermi.
+Forudsigelsen om diffus sklerodermi hviler udelukkende på en netværksbaseret modelscore uden kliniske forsøg, uden relevant litteratur og uden plausibel virkningsmekanisme. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsscreening
-- Præklinisk eller mekanistisk evidens for en mulig rolle ved fibrotiske eller autoimmune sygdomme, før yderligere vurdering er relevant
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanismen (MOA) fra DrugBank
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datahul for sikkerhedsscreening)
+- Biologisk eller præklinisk belæg for en rolle for vancomycin i fibrotisk/autoimmun sygdom, før yderligere vurdering er relevant
+- Sammenlægning af duplikerede forudsigelser i datasættet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

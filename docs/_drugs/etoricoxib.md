@@ -2,7 +2,7 @@
 layout: default
 title: Etoricoxib
 parent: Kun modelforudsigelse (L5)
-nav_order: 182
+nav_order: 338
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etoricoxib: Fra oprindelig indikation (ikke angivet i data) til migræne
+# Etoricoxib: Fra reumatologiske smertetilstande til migræne
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Etoricoxib er en selektiv COX-2-hæmmer, som er markedsført i Danmark under navnet Arcoxia. Den oprindelige godkendte indikation fremgår ikke af de leverede data.
-TxGNN-modellen forudsiger, at etoricoxib kan have effekt ved **migræne** (score 99,90 %). Der er dog **0 kliniske forsøg** og **0 publikationer** om etoricoxib og migræne i datagrundlaget, så forudsigelsen er endnu ren modelforudsigelse.
+Etoricoxib er en selektiv COX-2-hæmmer, som er markedsført i Danmark under handelsnavnet Arcoxia. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (score 99,90 %). Evidensen er dog meget begrænset: der er **0 kliniske forsøg** og kun **1 oversigtsartikel** (om faste-induceret hovedpine, som ikke undersøger etoricoxib direkte) knyttet til indikationen. Dertil kommer et præklinisk studie, som er knyttet til et beslægtet genetisk migrænenode.
 
 ---
 
@@ -42,51 +41,54 @@ TxGNN-modellen forudsiger, at etoricoxib kan have effekt ved **migræne** (score
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de leverede data |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data om den danske markedsføringstilladelse. Ifølge farmakologiske kilder anvendes etoricoxib ved leddegigt, slidgigt, kroniske lænderygsmerter, Bechterews sygdom, akutte smerter og urinsyregigt |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 99,90 % |
-| Evidensniveau | L5 |
+| Evidensniveau | L4 (præklinisk/mekanistisk evidens; ingen kliniske forsøg for etoricoxib) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme (MOA) er ikke tilgængelige. Etoricoxib er kendt som en selektiv COX-2-hæmmer. Det følgende bygger på almen farmakologi og ikke på de leverede data.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Etoricoxib er dog kendt som en selektiv hæmmer af COX-2 (kodet af genet PTGS2). Det er også bekræftet af de farmakologiske data.
 
-Prostaglandinmedieret neurogen inflammation og smertesensibilisering menes at bidrage til migræne. Hæmning af COX-2 kan derfor mekanistisk set være relevant. Den høje TxGNN-score (0,999) er dog kun en modelforudsigelse og ikke et bevis for klinisk effekt.
+COX-2-afledte prostaglandiner, især PGE2, bidrager til neurogen inflammation, sensibilisering af trigeminussystemet og CGRP-relateret signalering ved migræne. Et mekanistisk grundlag er derfor plausibelt. NSAID-præparater er desuden allerede etableret i behandlingen af akut migræne.
 
-Publicerede studier af etoricoxib ved akut migræne kan findes uden for de leverede data. De bør indhentes og vurderes, før evidensniveauet eventuelt opjusteres.
+Et præklinisk studie (PMID 29209105) undersøgte, hvordan NSAID-præparater, herunder etoricoxib, påvirker frigivelsen af CGRP og PGE2 fra trigeminusganglier hos rotter. Det understøtter koblingen mellem hæmning af prostaglandinvejen og migrænebiologi. Evidensen er imidlertid præklinisk og kan ikke overføres direkte til klinisk effekt hos patienter.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for etoricoxib og migræne.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der findes ingen relevant litteratur om etoricoxib og migræne i datagrundlaget.
-
-Den relaterede forudsigelse "migraine with or without aura, susceptibility to" (genetisk modtagelighed) har 20 hentede publikationer. De handler hovedsageligt om epilepsigenetik, og ingen af dem omhandler etoricoxib eller COX-2-hæmning. Denne forudsigelse er sandsynligvis et artefakt fra vidensgrafen og kan ikke bruges som støtte.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [29209105](https://pubmed.ncbi.nlm.nih.gov/29209105/) | 2017 | Præklinisk (in vitro/dyr) | Mediators of Inflammation | Undersøgte effekten af nimesulid, etoricoxib og ketoprofen på frigivelsen af CGRP og PGE2 fra trigeminusganglier hos rotter. Relevant for migrænebiologi. Knyttet til det genetiske migrænenode |
+| [42841395](https://pubmed.ncbi.nlm.nih.gov/42841395/) | 2026 | Oversigtsartikel (scoping review) | Pain Management | Oversigt over faste-induceret hovedpine under Ramadan. Evaluerer ikke etoricoxib direkte |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103357502 | Arcoxia (N.V. Organon) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig i data |
+| 28103357502 | Arcoxia (N.V. Organon) | Filmovertrukne tabletter (oral) | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler, kontraindikationer eller interaktioner (interaktionsforespørgslen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Interaktionsdata i de indsamlede data er begrænsede til en farmakologisk angivelse af målproteinet COX-2 og indeholder ingen konkrete lægemiddelinteraktioner.
+
+Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner. Som for andre selektive COX-2-hæmmere bør den kardiovaskulære, gastrointestinale og renale risikoprofil vurderes nøje, før en eventuel ny anvendelse overvejes.
 
 ---
 
@@ -95,16 +97,14 @@ Der er ingen tilgængelige data om advarsler, kontraindikationer eller interakti
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om migræne har en meget høj modelscore, men ingen understøttende kliniske forsøg eller litteratur (evidensniveau L5). Virkningsmekanisme og sikkerhedsdata mangler i datagrundlaget. De øvrige forudsigelser (migræne med hjernestammeaura, genetisk migrænemodtagelighed, atrophoderma vermiculata og ulerythema ophryogenes) har heller ingen understøttende evidens. De to hudlidelser har ingen plausibel mekanistisk kobling til COX-2-hæmning og er sandsynligvis artefakter.
+Den høje TxGNN-score og den plausible COX-2/PGE2-mekanisme understøtter en forskningshypotese, men der findes ingen etoricoxib-specifikke kliniske forsøg ved migræne. Den eneste direkte evidens er præklinisk. De øvrige forudsagte indikationer (migræne med hjernestammeaura, genetisk migrænedisposition, atrophoderma vermiculata og ulerythema ophryogenesis) har enten ingen evidens eller kun indirekte evidens, og de to sidstnævnte har ingen oplagt mekanistisk begrundelse.
 
-**For at komme videre kræves:**
-- Hent og vurder publicerede studier af etoricoxib ved akut migræne, herunder RCT'er og systematiske oversigter.
-- Søg efter registrerede kliniske forsøg (ClinicalTrials.gov, EU Clinical Trials Register).
-- Hent detaljerede MOA-data fra DrugBank.
-- Hent advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen, især kardiovaskulær, gastrointestinal og renal sikkerhed ved eventuel anvendelse mod migræne.
-- Afklar den godkendte indikationstekst for Arcoxia i Danmark.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye anvendelser kræver klinisk validering.*
+**For at komme videre kræves følgende:**
+- Systematisk gennemgang af publicerede kliniske data for etoricoxib og andre COX-2-hæmmere ved akut migræne og migræneprofylakse
+- Registrering af eller søgning efter kliniske forsøg (fase 2/3) med etoricoxib ved migræne
+- Indhentning af produktresuméets advarsler, kontraindikationer og indikationstekst for Arcoxia fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme fra DrugBank
+- Vurdering af kardiovaskulær og gastrointestinal sikkerhed i migrænepopulationen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Escitalopram
 parent: Kun modelforudsigelse (L5)
-nav_order: 176
+nav_order: 324
 evidence_level: L5
 indication_count: 0
 ---

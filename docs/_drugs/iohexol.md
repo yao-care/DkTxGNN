@@ -2,7 +2,7 @@
 layout: default
 title: Iohexol
 parent: Kun modelforudsigelse (L5)
-nav_order: 242
+nav_order: 448
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iohexol: Fra røntgenkontrastmiddel til insomni
+# Iohexol: Fra røntgenkontraststof til søvnløshed (insomni)
 
-## Resumé i en sætning
+## Resumé
 
-Iohexol er et jodholdigt, ikke-ionisk røntgenkontrastmiddel, der markedsføres i Danmark som Omnipaque injektionsvæske.
-TxGNN-modellen forudsiger, at det kan have effekt på **insomni**, men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning.
-Forudsigelsen hviler udelukkende på modellens vidensgraf og har ingen biologisk eller klinisk støtte.
+Iohexol er et jodholdigt, ikke-ionisk, vandopløseligt røntgenkontraststof, som markedsføres i Danmark under navnet Omnipaque.
+TxGNN-modellen forudsiger, at det kan have effekt mod **insomni**, men der er **ingen kliniske forsøg** og **ingen publikationer** for denne indikation.
+Forudsigelsen vurderes som en sandsynlig modelartefakt uden farmakologisk begrundelse.
 
 ---
 
@@ -43,10 +43,11 @@ Forudsigelsen hviler udelukkende på modellens vidensgraf og har ingen biologisk
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Ikke angivet i de indsamlede data (røntgenkontraststof) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,87 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
-| Status på det danske marked | Markedsført |
+| TxGNN-prædiktionsscore | 99,87 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -54,37 +55,54 @@ Forudsigelsen hviler udelukkende på modellens vidensgraf og har ingen biologisk
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Iohexol er et inert, ikke-ionisk jodholdigt kontrastmiddel til billeddiagnostik og bruges også som markør til måling af glomerulær filtrationshastighed (GFR). Stoffet har ingen kendt farmakologisk virkning på centralnervesystemet.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Iohexol er dog et velkendt ikke-ionisk, jodholdigt kontraststof, som er farmakologisk inaktivt og anvendes til billeddiagnostik.
 
-Den høje score afspejler sandsynligvis vidensgrafens topologi og ikke en reel biologisk sammenhæng. Der er ingen plausibel kobling mellem et diagnostisk kontrastmiddel og søvnregulering, og forudsigelsen bør derfor betragtes som et grafbaseret artefakt.
+Der er ingen kendt aktivitet på søvnrelaterede mål som GABA-, orexin- eller histaminreceptorer. Der er derfor ingen plausibel mekanistisk sammenhæng mellem den oprindelige anvendelse (kontrastmiddel) og insomni.
 
-Det samme gælder modellens øvrige topforudsigelser: angst (99,25 %), reumatoid artritis (98,87 %), antitrombinmangel type 2 (98,75 %) og faktor 5-overskud med spontan trombose (98,73 %). For ingen af dem er der støtte for en terapeutisk mekanisme. De fundne forsøg og artikler nævner iohexol kun som GFR-markør, procedurekontrast eller i forbindelse med bivirkninger, og de skyldes sandsynligvis nøgleordsmatch.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ikke registreret nogen relaterede kliniske forsøg for insomni.
+Den høje score (0,9987) skyldes sandsynligvis træk i grafnetværket, f.eks. fælles lægemiddelinteraktioner, og ikke reel biologisk sammenhæng. Forudsigelsen understøttes ikke af kliniske forsøg eller publiceret litteratur.
 
 ---
 
-## Evidens fra litteraturen
+## Klinisk evidens
 
-Der foreligger i øjeblikket ingen relateret litteratur for insomni.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Information om det danske marked
+## Litteraturevidens
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+Der er på nuværende tidspunkt ingen relateret litteratur for insomni.
+
+For fuldstændighedens skyld: Modellen rangerer også andre forudsigelser med lignende svag evidens (angst, leddegigt, antithrombinmangel type 2, faktor 5-overskud med spontan trombose). Litteraturen for angst og leddegigt er tilfældig og beskriver iohexol som procedurekontekst, målemetode (f.eks. måling af glomerulær filtrationshastighed) eller bivirkningsrapporter, ikke som behandling. Eksempelvis beskriver en case report (PMID [35286798](https://pubmed.ncbi.nlm.nih.gov/35286798/), 2022) fatal multiorgansvigt efter gentagen jodholdig kontrastinjektion hos en patient i lavdosis methotrexat.
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101197284 | Omnipaque | Injektionsvæske, opløsning | GE Healthcare AS |
+| 28101197284 | Omnipaque (GE Healthcare AS) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner. Blandt de væsentlige (Major) er:
+  - Metformin
+  - Amphotericin B (inkl. lipidkompleks)
+  - Vancomycin, kanamycin og neomycin
+  - Levofloxacin
+  - Systemiske kortikosteroider (hydrocortison, dexamethason, betamethason, triamcinolon)
+  - Mesalazin og balsalazid
+  - Bupropion
+  - Morphin
+  - Metoclopramid
+  - Diethylpropion og phentermin
+  - Dronabinol
+
+  Mannitol er klassificeret som Moderate.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -93,14 +111,12 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er ren modelscore uden kliniske forsøg eller litteratur. Iohexol har ingen kendt CNS-farmakologi, og der er ingen plausibel mekanistisk forbindelse til søvnregulering. Evidensniveauet er L5.
+Der er ingen kliniske forsøg eller relevant litteratur, og der er ingen plausibel farmakologisk mekanisme for iohexol ved insomni. Den høje TxGNN-score vurderes som en modelartefakt.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Godkendt produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Et biologisk plausibelt hypotesegrundlag, f.eks. prækliniske data, før yderligere ressourcer anvendes
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) og godkendt indikationstekst
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer)
+- Prækliniske data, der understøtter en effekt på søvnrelaterede mål, før yderligere vurdering er berettiget
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

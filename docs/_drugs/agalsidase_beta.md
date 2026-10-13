@@ -2,7 +2,7 @@
 layout: default
 title: Agalsidase Beta
 parent: Kun modelforudsigelse (L5)
-nav_order: 20
+nav_order: 28
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Agalsidase beta: Fra Fabrys sygdom til cervikal neuroblastom
+# Agalsidase beta: Fra Fabrys sygdom til cervikalt neuroblastom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Agalsidase beta er et rekombinant alfa-galactosidase A-enzym, som anvendes som enzymerstatningsterapi ved Fabrys sygdom.
-TxGNN-modellen forudsiger, at det kan have effekt mod **cervikal neuroblastom**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
-Forudsigelsen er derfor udelukkende modelbaseret.
+Agalsidase beta er et rekombinant humant alfa-galactosidase A-enzym, som anvendes som enzymerstatningsterapi og markedsføres i Danmark under navnet Fabrazyme. Lægemidlet er i de data, der er sammenstillet til denne rapport, ikke knyttet til en godkendt indikationstekst. TxGNN-modellen forudsiger, at det kan have effekt ved **cervikalt neuroblastom**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning.
 
 ---
 
@@ -43,9 +41,9 @@ Forudsigelsen er derfor udelukkende modelbaseret.
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data. Agalsidase beta anvendes generelt som enzymerstatning ved Fabrys sygdom |
-| Forudsagt ny indikation | Cervikal neuroblastom |
-| TxGNN-forudsigelsesscore | 98,37 % |
+| Oprindelig indikation | Ikke angivet i godkendelsesteksten. Lægemidlet er enzymerstatningsterapi ved Fabrys sygdom ifølge den kendte farmakologiske klassifikation. |
+| Foreslået ny indikation | Cervikalt neuroblastom |
+| TxGNN-forudsigelsesscore | 98,4 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -55,46 +53,50 @@ Forudsigelsen er derfor udelukkende modelbaseret.
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme foreligger ikke i øjeblikket. Agalsidase beta er et rekombinant alfa-galactosidase A-enzym, der erstatter det manglende enzym ved Fabrys sygdom og nedbryder ophobede glykosfingolipider.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de sammenstillede data. Agalsidase beta er en rekombinant form af alfa-galactosidase A, som erstatter det manglende enzym ved Fabrys sygdom og nedbryder ophobede glykosfingolipider (Gb3).
 
-Der er ingen kendt sammenhæng mellem enzymerstatning ved Fabrys sygdom og neuroblastom, som er en tumor i det sympatiske nervesystem. De tilgængelige data understøtter ikke en biologisk forklaring. Den høje score (0,984) er en ren modelforudsigelse uden klinisk eller litterær støtte og afspejler sandsynligvis nærhed i vidensgrafen mellem tumorknuder snarere end reel biologi.
+Der er ikke fundet nogen etableret mekanistisk sammenhæng mellem denne enzymerstatning og neuroblastom, som er en tumor udgået fra neuralkamceller. Scoren på 0,984 er udelukkende en modelbaseret computationel forudsigelse. Den bør derfor tolkes som en hypotese og ikke som et tegn på klinisk effekt.
 
-Samme mønster ses for de øvrige forudsagte indikationer, som alle har scorer omkring 0,983 og evidensniveau L5:
+Modellen har forudsagt flere andre tumorlignende tilstande med næsten identiske scorer (alle mellem 98,3 % og 98,4 %):
+- Schwannom i foramen jugulare
+- Neoplasi i epiglottis
+- Benign neoplasi i tungen
+- Benign neoplasi i mundbunden
 
-- Schwannom i foramen jugulare (98,35 %)
-- Neoplasme i epiglottis (98,32 %)
-- Godartet neoplasme i tungen (98,31 %)
-- Godartet neoplasme i mundbunden (98,31 %)
-
-Input indeholdt hver indikation to gange. De er her behandlet som én indikation hver.
+Heller ikke for disse er der kliniske forsøg, litteratur eller en plausibel mekanistisk begrundelse. Fx opstår schwannomer typisk ved ændringer i NF2/merlin-signalvejen, som ikke har noget at gøre med lysosomal enzymerstatning. Den høje score på tværs af så forskellige tilstande tyder på, at den afspejler modellens generelle mønstre og ikke specifik biologi.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103161500 | Fabrazyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i data |
+| 28103161500 | Fabrazyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de sammenstillede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet oplysninger om lægemiddelinteraktioner (0 registrerede).
+**Lægemiddelinteraktioner** (4 registrerede):
 
-Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Amiodaron**: stor (Major)
+- **Chloroquin**: stor (Major)
+- **Gentamicin**: stor (Major)
+- **Migalastat**: moderat (Moderate)
+
+Der foreligger ikke data om advarsler og kontraindikationer i de sammenstillede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -103,15 +105,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler alene på en modelscore. Der er ingen kliniske forsøg, ingen litteratur og ingen plausibel virkningsmekanisme. Evidensniveauet er L5, og sikkerhedsdata fra produktresuméet mangler.
+Forudsigelsen bygger udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forklaring. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket forhindrer en egentlig sikkerhedsvurdering.
 
-**For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger fra Lægemiddelstyrelsens produktresumé (advarsler og kontraindikationer). Dette er en blokerende datamangel.
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank.
-- En biologisk begrundelse for, hvorfor enzymerstatning skulle påvirke neuroblastom, og en systematisk litteratursøgning.
-- Prækliniske data, som kan løfte evidensniveauet over L5.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- Præklinisk eller mekanistisk evidens, der kan forbinde alfa-galactosidase A-erstatning med neuroblastom eller de øvrige forudsagte tilstande
+- Systematisk litteratursøgning og søgning i forsøgsregistre for at bekræfte, at der reelt ikke findes relevant evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

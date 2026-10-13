@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 436
+nav_order: 829
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tildrakizumab: Fra plaque-psoriasis til svær non-proliferativ diabetisk retinopati
+# Tildrakizumab: Fra psoriasis til svær ikke-proliferativ diabetisk retinopati
 
-## Resumé i én sætning
+## Opsummering i en sætning
 
-Tildrakizumab er et monoklonalt antistof mod IL-23 p19, som markedsføres i Danmark under navnet Ilumetri. Det er oprindeligt udviklet til plaque-psoriasis. TxGNN-modellen forudsiger, at det kan være virksomt mod **svær non-proliferativ diabetisk retinopati**, men der er **ingen registrerede kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen.
+Tildrakizumab er et monoklonalt antistof, der hæmmer interleukin-23 (IL-23, p19-underenheden), og som er markedsført i Danmark under handelsnavnet Ilumetri. Data indeholder ingen godkendt indikationstekst for det danske produkt.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær ikke-proliferativ diabetisk retinopati**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Plaque-psoriasis (indikationsteksten mangler i datapakken, så oplysningen bygger på almen viden og bør verificeres mod produktresuméet) |
-| Foreslået ny indikation | Svær non-proliferativ diabetisk retinopati |
-| TxGNN-score | 99,63 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (den danske godkendelse har ingen indikationstekst) |
+| Forudsagt ny indikation | Svær ikke-proliferativ diabetisk retinopati |
+| TxGNN-forudsigelsesscore | 99,63 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
+Bemærk: Datasættet indeholder dublerede poster for de samme forudsigelser. Disse er her samlet, så hver indikation kun nævnes én gang.
+
+---
+
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i datapakken. Tildrakizumab er et antistof, der hæmmer p19-underenheden af IL-23. Det er dokumenteret effektivt ved plaque-psoriasis, hvor IL-23/IL-17-aksen er central.
+Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen i de indsamlede data. Tildrakizumab er dog kendt som et anti-IL-23 p19-antistof. IL-23/IL-17-aksen er central i visse kroniske inflammatoriske sygdomme, og lægemidlet virker ved at dæmpe denne signalvej.
 
-Det er foreslået, at kronisk lavgradig inflammation og IL-17/Th17-signalering bidrager til diabetisk retinopati. En direkte rolle for IL-23 er dog ikke påvist. Koblingen er derfor spekulativ og hviler alene på den høje TxGNN-score. Der er ingen data, der viser, at hæmning af IL-23 påvirker nethindens mikrokarsygdom.
+Kronisk lavgradig inflammation og cytokinsignalering, herunder IL-23/IL-17-aksen, er blevet foreslået at bidrage til skade på nethindens kar ved diabetisk retinopati. Denne sammenhæng er dog spekulativ, og der er ingen direkte evidens for, at hæmning af IL-23 p19 virker ved tilstanden. Gængs behandling (anti-VEGF, laser og kortikosteroider) virker via andre mekanismer.
 
-Der er også uafklarede praktiske forhold:
-- Et stort antistof skal sandsynligvis gives intravitrealt for at nå nethinden, og det er ikke belyst.
-- Nethindens sikkerhedsprofil er ikke undersøgt.
-- Etablerede behandlinger (anti-VEGF og laser) er de kliniske sammenligningsgrundlag, og intet tyder på, at tildrakizumab tilfører noget ud over dem.
+Den høje score (0,996) er et rent modelresultat og bør ikke tolkes som klinisk evidens.
 
-## Klinisk evidens fra forsøg
+### Øvrige forudsigelser i datasættet
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret, hverken i ClinicalTrials.gov eller i ICTRP.
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Diabetisk retinopati | 99,53 % | L5 | Muligt inflammatorisk link, men ingen direkte evidens |
+| Diabetisk grå stær | 99,21 % | L5 | Biologisk usandsynlig; skyldes primært polyol-signalvej, osmotisk og oxidativ stress |
+| Lægemiddelinduceret osteoporose | 99,20 % | L5 | Løs teoretisk begrundelse via IL-23/IL-17 og knoglenedbrydning; veletablerede alternativer findes |
+| Nuklear senil grå stær | 98,91 % | L5 | Intet plausibelt link identificeret |
+| Kortikal grå stær | 98,91 % | L5 | Intet anerkendt link til IL-23; sandsynligvis grafnærhed til andre grå stær-termer |
 
-## Litteraturevidens
+Alle forudsigelser har Hold som anbefaling.
 
-Der er i øjeblikket ingen relateret litteratur.
+---
 
-## Information om markedet i Danmark
+## Dansk markedsinformation
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105927417 | Ilumetri (Almirall, S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i datagrundlaget |
+| 28105927417 | Ilumetri (Almirall, S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i data |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
+Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+**Lægemiddelinteraktioner:** Der er identificeret 78 mulige interaktioner. Blandt de viste er følgende af størst betydning:
+
+- **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol og cladribin. Der er tale om kombination med andre immunsuppressive eller immunmodulerende midler.
+- **Moderate:** bl.a. roflumilast, tacrolimus, azathioprin, ciclosporin, anakinra, canakinumab, alemtuzumab, alefacept og denosumab. Der er desuden moderate interaktioner med visse vacciner (tetanustoksoid, miltbrandvaccine og levende kolera-vaccine).
+- **Mindre (Minor):** zinksalte (sulfat, acetat, glukonat, chlorid).
+
+Kun en delmængde af de 78 interaktioner indgår i de indsamlede data.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en computerberegnet score (L5) uden kliniske forsøg, litteratur eller præklinisk dokumentation. Den mekanistiske kobling mellem IL-23-hæmning og diabetisk retinopati er spekulativ, og administrationsvejen er uafklaret.
-
-De øvrige forudsigelser har samme evidensniveau (L5) og samme anbefaling (Hold):
-- **Diabetisk retinopati** (score 99,53 %): samme begrundelse som ovenfor.
-- **Diabetisk katarakt** (99,21 %): ingen tydelig mekanistisk vej. Scoren skyldes sandsynligvis nærhed til diabetisk retinopati i vidensgrafen.
-- **Lægemiddelinduceret osteoporose** (99,20 %): der findes en teoretisk kobling via IL-23/IL-17 og osteoklastdannelse, men ingen understøttende data.
-- **Nuklear senil katarakt og kortikal katarakt** (98,91 %): ingen identificerbar mekanistisk kobling.
+Forudsigelserne støttes kun af modelscore (evidensniveau L5), uden registrerede kliniske forsøg eller litteratur. Det mekanistiske link til diabetisk retinopati er spekulativt, og for flere af de øvrige forudsigelser (grå stær) er det biologisk usandsynligt.
 
 **For at komme videre kræves:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da sikkerhedsscreening ikke kan gennemføres uden dem.
-- Indhent data om virkningsmekanismen fra DrugBank.
-- Gennemfør en systematisk litteratursøgning og præklinisk vurdering af IL-23/IL-17-aksens rolle i diabetisk retinopati.
-- Afklar administrationsvej (intravitreal versus systemisk) og nethindens sikkerhedsprofil.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+- Data om virkningsmekanisme (MOA) og den godkendte indikationstekst fra produktresuméet
+- Gennemgang af advarsler og kontraindikationer i SmPC (blokerende datahul for sikkerhedsvurdering)
+- Prækliniske data eller mekanistiske studier, der understøtter en rolle for IL-23 i diabetisk retinopati
+- Systematisk litteratursøgning og søgning i forsøgsregistre efter relevante studier
+- Vurdering af administrationsvej, da en øjenindikation kan kræve en anden indgivelsesform end subkutan injektion
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

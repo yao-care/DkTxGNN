@@ -2,7 +2,7 @@
 layout: default
 title: Sonidegib
 parent: Kun modelforudsigelse (L5)
-nav_order: 406
+nav_order: 767
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,114 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sonidegib: Fra basalcellekarcinom til medulloblastom med udbredt nodularitet
+# Sonidegib: Fra basalcellekarcinom til medulloblastom med udtalt nodularitet
 
-> Evidence Pack'en angiver ingen original indikation. Basalcellekarcinom er den generelt kendte indikation for sonidegib som Hedgehog-hæmmer.
+## Opsummering i en sætning
 
-## Resumé i få sætninger
+Sonidegib er en hedgehog-hæmmer, som oprindeligt anvendes til behandling af hudkræft, især basalcellekarcinom.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **medulloblastom med udtalt nodularitet**,
+men der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer** for denne indikation. Evidensen er derfor udelukkende modelbaseret.
 
-Sonidegib er en Hedgehog-hæmmer (SMO-hæmmer), som generelt kendes fra behandling af basalcellekarcinom.
-TxGNN-modellen forudsiger, at det kan have effekt ved **medulloblastom med udbredt nodularitet**.
-Forudsigelsen bygger kun på modellen: der er **0 kliniske forsøg** og **0 publikationer** i datagrundlaget.
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke angivet i de leverede data |
-| Forudsagt ny indikation | Medulloblastom med udbredt nodularitet |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Basalcellekarcinom og andre hudkarcinomer (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
+| Forudsagt ny indikation | Medulloblastom med udtalt nodularitet |
+| TxGNN-prædiktionsscore | 99,90 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig?
+---
 
-Der foreligger ingen detaljerede data om virkningsmekanisme i Evidence Pack'en. Sonidegib hæmmer dog Smoothened (SMO) og blokerer dermed Hedgehog-signalvejen. Det er en kendt klasseegenskab.
+## Hvorfor er denne forudsigelse rimelig?
 
-Medulloblastom med udbredt nodularitet tilhører typisk SHH-undergruppen, hvor Hedgehog-signalvejen er drivende. Der er derfor et plausibelt rationale på signalvejsniveau.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden om lægemiddelklassen er sonidegib en hæmmer af Smoothened (SMO) i hedgehog-signalvejen. Lægemidlets effekt ved basalcellekarcinom, som ofte drives af overaktiv hedgehog-signalering (f.eks. tab af PTCH1), er veletableret.
 
-Et eventuelt udbytte afhænger sandsynligvis af tumorens SHH-status, fx forandringer i SMO eller PTCH1. Scoren på 0,999 er en beregnet forudsigelse og ikke et klinisk resultat.
+Medulloblastom af SHH-subgruppen, herunder den desmoplastiske/udtalt nodulære histologi, drives hyppigt af forstyrret hedgehog-signalering (ændringer i PTCH1, SMO eller SUFU). Mekanismen er derfor biologisk plausibel. Responset vil sandsynligvis afhænge af den molekylære ændring: ændringer i SUFU eller nedstrøms (TP53/GLI) forventes at give resistens.
 
-### Øvrige forudsigelser
+Hertil kommer en vigtig sikkerhedsbekymring hos børn, da SMO-hæmmere er forbundet med for tidlig lukning af vækstzoner. Den høje modelscore er alene en computerbaseret forudsigelse og kan ikke erstatte kliniske data.
 
-Modellen foreslår yderligere fire sygdomme, alle uden kliniske forsøg eller litteratur og alle på evidensniveau L5. De er vurderet som Hold:
+### Øvrige forudsagte indikationer (til orientering)
 
-- **Xeroderma pigmentosum** (99,87 %): Kun en indirekte kobling via den høje forekomst af Hedgehog-drevet basalcellekarcinom. Sonidegib ville ramme hudkræften og ikke selve sygdommen.
-- **Annulær epidermolytisk ichthyosis** (99,83 %): En keratinsygdom (KRT1/KRT10) uden synlig Hedgehog-/SMO-sammenhæng. Koblingen ligner en artefakt i vidensgrafen.
-- **Epidermolysis bullosa simplex med spættet pigmentering** (99,79 %): En KRT5-relateret hudfragilitetssygdom uden understøttet mekanistisk kobling til SMO-hæmning.
-- **Trichothiodystrofi, fotosensitiv** (99,77 %): En nukleotid-excisionsreparationssygdom uden klar Hedgehog-baseret begrundelse og uden den stærke disposition for basalcellekarcinom, der ses ved xeroderma pigmentosum.
+| Forudsagt indikation | Score | Evidensniveau | Kommentar |
+|------|------|------|------|
+| Xeroderma pigmentosum | 99,87 % | L4 | Kun én case report om sonidegib mod multiple basalcellekarcinomer hos en XP-patient. Evidensen vedrører en komplikation og ikke selve sygdommen. |
+| Annulær epidermolytisk ichthyose | 99,83 % | L5 | Ingen oplagt mekanistisk sammenhæng med hedgehog-hæmning. |
+| Epidermolysis bullosa simplex med spættet pigmentering | 99,79 % | L5 | Ingen plausibel sammenhæng. Patienter med skrøbelig hud vil være sårbare over for bivirkninger. |
+| Fotosensitiv trichothiodystrofi | 99,77 % | L5 | Kun indirekte rationale via en mulig øget risiko for hudkræft. |
+
+---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret for medulloblastom med udtalt nodularitet.
 
-## Evidens fra litteratur
+---
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+## Litteraturevidens
 
-## Markedsinformation i Danmark
+For den primære forudsagte indikation (medulloblastom med udtalt nodularitet) er der aktuelt ingen relateret litteratur.
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+Til orientering foreligger der for den forudsagte indikation xeroderma pigmentosum:
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [41862093](https://pubmed.ncbi.nlm.nih.gov/41862093/) | 2026 | Case report | Actas Dermo-Sifiliográficas | Behandling med sonidegib af multiple basalcellekarcinomer hos en patient med xeroderma pigmentosum. Kun indirekte evidens, og der foreligger intet resumé. |
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105426514 | Odomzo (SUN Pharmaceutical Industries Europe BV) | Kapsler, hårde | Ikke angivet i de leverede data |
+| 28105426514 | Odomzo (SUN Pharmaceutical Industries Europe BV) | Kapsler, hårde | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+
+---
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (Hedgehog-/SMO-hæmmer) |
-| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) |
+| Cytotoksicitetsklassifikation | Målrettet behandling (hedgehog-/SMO-hæmmer), ikke konventionel cytostatika |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
 | Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
 | Monitoreringspunkter | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af cytotoksiske lægemidler |
 
-Se SmPC's afsnit om advarsler og forsigtighedsregler.
+---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Klasseeffekter:** Systemisk SMO-hæmning er forbundet med kendte klassetoksiciteter, herunder muskeltoksicitet og teratogenicitet. Disse er svære at begrunde uden et stærkt mekanistisk rationale, som fx for annulær epidermolytisk ichthyosis.
+Der foreligger ikke data om advarsler og kontraindikationer fra produktresuméet i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation, herunder advarsler og kontraindikationer.
+**Lægemiddelinteraktioner** (100 interaktioner fundet; nedenfor de vigtigste):
+
+- **Alvorlige (Major):** aprepitant, dexamethason, clarithromycin, clotrimazol, cobicistat
+- **Moderate:** cimetidin, metreleptin, miconazol, troglitazon, deferasirox
+- **Mindre (Minor):** bl.a. famotidin, ranitidin og protonpumpehæmmere (omeprazol, pantoprazol, esomeprazol, lansoprazol, rabeprazol, dexlansoprazol)
+
+Fra vidensgrafen og generel viden om lægemiddelklassen er desuden relevant: risiko for for tidlig lukning af vækstzoner hos børn, samt bivirkninger som muskelkramper, hårtab og smagsforstyrrelser. Dette skal verificeres i produktresuméet.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er rent beregnet (L5) uden kliniske forsøg eller litteratur, og de manglende data om virkningsmekanisme og sikkerhed begrænser vurderingen. Medulloblastom med udbredt nodularitet har det stærkeste mekanistiske rationale og bør behandles som et forskningsspørgsmål. De øvrige forudsigelser er svagt understøttede.
+Forudsigelsen for medulloblastom med udtalt nodularitet er mekanistisk plausibel, men den hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller litteratur. Pædiatriske sikkerhedsbekymringer og afhængighed af den molekylære ændring taler for forsigtighed.
 
-**For at komme videre kræves:**
-- Hent advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé, så sikkerhedsscreeningen kan gennemføres.
-- Hent data om virkningsmekanisme (MOA) fra DrugBank.
-- Foretag en systematisk litteratur- og forsøgsgennemgang for sonidegib ved SHH-medulloblastom.
-- Afklar relevansen af SHH-status (SMO/PTCH1) som biomarkør.
-- Vurder sikkerhed hos den relevante population, især med hensyn til muskeltoksicitet og teratogenicitet.
-- Afklar administrationsvej og lægemiddelform i forhold til den forudsagte indikation.
-
-*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméets advarsler og kontraindikationer (kritisk datahul, der blokerer sikkerhedsscreening)
+- Detaljerede data om virkningsmekanisme (fra DrugBank)
+- Prækliniske data eller litteratursøgning for sonidegib ved SHH-medulloblastom, herunder molekylær stratificering (PTCH1/SMO versus SUFU/TP53)
+- Vurdering af pædiatrisk sikkerhed, især vækst og knoglemodning
+- For xeroderma pigmentosum: opfølgning på case reporten og vurdering af, om behandling af basalcellekarcinomer er klinisk relevant for denne population
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

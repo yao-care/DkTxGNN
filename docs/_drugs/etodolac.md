@@ -2,7 +2,7 @@
 layout: default
 title: Etodolac
 parent: Kun modelforudsigelse (L5)
-nav_order: 180
+nav_order: 334
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etodolac: Fra NSAID-behandling til acromesomelic dysplasia, Hunter-Thompson-type
+# Etodolac: Fra leddegigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
 
-## Resumé
+## Opsummering i én sætning
 
-Etodolac er et NSAID (COX-2-præferentielt non-steroidt antiinflammatorisk lægemiddel). Lægemiddelstyrelsens data indeholder ingen godkendt indikationstekst for produktet.
-TxGNN-modellen forudsiger, at etodolac kan have effekt på **acromesomelic dysplasia, Hunter-Thompson-type**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret (evidensniveau L5).
+Etodolac er et NSAID (non-steroidt antiinflammatorisk lægemiddel), der oprindeligt anvendes til behandling af gigtlidelser som leddegigt og slidgigt.
+TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomelisk dysplasi, Hunter-Thompson-type**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Den bygger udelukkende på en modelforudsigelse.
 
 ---
 
@@ -42,8 +43,8 @@ TxGNN-modellen forudsiger, at etodolac kan have effekt på **acromesomelic dyspl
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i den danske godkendelsestekst |
-| Forudsagt ny indikation | Acromesomelic dysplasia, Hunter-Thompson-type |
+| Oprindelig indikation | Leddegigt, slidgigt, juvenil idiopatisk artritis og spondyloartropati (ifølge TxGNN-vidensgrafen; den danske markedsføringstilladelse indeholder ingen angivet indikationstekst) |
+| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
 | TxGNN-forudsigelsesscore | 99,97 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -52,49 +53,63 @@ TxGNN-modellen forudsiger, at etodolac kan have effekt på **acromesomelic dyspl
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Etodolac er et COX-2-præferentielt NSAID, der hæmmer prostaglandinsyntesen. Mekanismen er kendt for smerte- og betændelseslindring, men ikke for påvirkning af de sygdomsveje, der ligger bag de forudsagte tilstande.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om etodolacs virkningsmekanisme i de data, der er indsamlet til denne rapport. Etodolac er et NSAID og en COX-hæmmer med antiinflammatorisk og smertelindrende virkning, og dets effekt ved gigtlidelser er veletableret.
 
-**Acromesomelic dysplasia, Hunter-Thompson-type** er en monogen skeletdysplasi (CDMP1/GDF5-vejen). Etodolac har ingen kendt virkning på denne vej. Der er ikke påvist nogen mekanistisk sammenhæng. Den høje score er modelprædiktion og ikke klinisk evidens.
+Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjælden skeletdysplasi forårsaget af tabsmutationer i CDMP1/GDF5, som påvirker bruskens og knoglernes udvikling. Der er ikke påvist nogen mekanistisk sammenhæng: Intet tyder på, at COX-hæmning kan korrigere en defekt i GDF5-signalering.
 
-TxGNN-modellen gav i alt fem unikke forudsigelser (dubletter er slået sammen), alle med evidensniveau L5 og ingen registrerede forsøg eller litteratur:
+Den høje score (0,9997) skyldes sandsynligvis en association i vidensgrafen, formentlig drevet af fælles skelet- og ledfænotyper med etodolacs godkendte gigtindikationer, og ikke af biologisk evidens. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
-| Forudsagt sygdom | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|---------|
-| Acromesomelic dysplasia, Hunter-Thompson-type | 99,97 % | Ingen kendt sammenhæng. Monogen skeletdysplasi. |
-| Brachyolmia-amelogenesis imperfecta-syndrom | 99,97 % | Ingen plausibel sammenhæng. Sandsynligvis en artefakt i vidensgrafen. |
-| Myosclerosis | 99,97 % | Svag, spekulativ sammenhæng via smertestillende og antiinflammatorisk virkning på muskel- og bindevævssymptomer. |
-| Spondyloarthropathy, susceptibility to | 99,96 % | Mest plausible forudsigelse, da NSAID er en anerkendt lægemiddelklasse til symptomkontrol ved inflammatorisk spondyloartritis. |
-| Brachyolmia | 99,96 % | Ingen kendt sammenhæng. Arvelig skeletdysplasi med rygsøjlepåvirkning. |
-
-Spondyloarthropathy er en genetisk modtagelighedsbetegnelse og ikke en behandlelig klinisk tilstand. Der foreligger heller ingen etodolacspecifik evidens, så forudsigelsen forbliver L5. Klassebaseret eller etodolacspecifik evidens kunne begrunde en opgradering til L4 og fornyet vurdering.
+Øvrige forudsigelser med tilsvarende høje scorer har samme mangel på evidens:
+- **Brachyolmi-amelogenesis imperfecta-syndrom** (score 99,97 %): LTBP3-relateret, påvirker TGF-beta-signalering. Ingen kendt mekanistisk sammenhæng.
+- **Myosklerose** (score 99,97 %): Kun en svag og spekulativ sammenhæng; et NSAID kan teoretisk lindre symptomer, men der er ingen evidens for sygdomsmodificerende effekt.
+- **Spondyloartropati, modtagelighed for** (score 99,96 %): Biologisk plausibel, men overlapper med den eksisterende indikation og er en genetisk modtagelighedsbetegnelse, ikke en egentlig ny behandlingsindikation.
+- **Brachyolmi** (score 99,96 %): Ingen mekanistisk sammenhæng; højst symptomatisk smertelindring.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105100712 | Etodolac "2care4" | Filmovertrukne tabletter (oral) | 2care4 Generics ApS |
+| 28105100712 | Etodolac "2care4" (2care4 Generics ApS) | Filmovertrukne tabletter | Indikationstekst er ikke angivet |
+
+Administrationsvej: oral.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data, hvilket ikke er det samme som, at der ingen interaktioner er.
+**Kontraindikationer (fra TxGNN-vidensgrafen, ikke fra produktresuméet):** Vidensgrafen knytter etodolac til følgende sygdomme som kontraindikationer:
+- Hypertension / hypertensive lidelser
+- Nyresygdom
+- Leversygdom
+- Galdeblæresygdom
+- Mavesår, herunder aktivt mavesår
+- Blodkoagulationssygdomme
+- Myokardieinfarkt og koronar trombose
+- Hjerte-kar-sygdom og hjertesygdom
+- Hæmoglobinopati
+- Pyoureter
+
+**Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner i alt. Blandt de udvalgte er følgende:
+- **Moderate:** hydrocortison, dexamethason, betamethason, triamcinolon, budesonid (kortikosteroider); acetylsalicylsyre; mesalazin og balsalazid; metformin, chlorpropamid, glimepirid og repaglinid (antidiabetika); kaliumcitrat og kaliumbicarbonat; picosulfat; polyethylenglycol med elektrolytter
+- **Mindre:** famotidin, ranitidin, cimetidin, linaclotid
+
+Det anbefales at konsultere det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, da data om advarsler og kontraindikationer fra produktresuméet ikke er tilgængelige.
 
 ---
 
@@ -103,16 +118,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne bygger udelukkende på modelscore (L5) uden kliniske forsøg eller litteratur. For fire af de fem forudsigelser er der ingen mekanistisk sammenhæng, og for den femte (spondyloarthropathy) er sammenhængen kun klasserelateret. Lægemiddelstyrelsens indlægsseddel mangler desuden, så sikkerhedsscreening kan ikke gennemføres.
+Forudsigelsen er alene baseret på en modelassociation (evidensniveau L5) uden kliniske forsøg eller litteratur, og der er ingen biologisk plausibel mekanisme, som kan forbinde COX-hæmning med en GDF5-signaleringsdefekt. Sikkerhedsprofilen for NSAID i en population med sjælden skeletsygdom er desuden ikke belyst.
 
 **For at komme videre kræves følgende:**
-- Download og analyse af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som blokerer sikkerhedsscreeningen
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- En litteratur- og forsøgssøgning, især for NSAID-klassen og etodolac ved spondyloartropati, med henblik på en mulig opgradering til L4 og fornyet vurdering
-- Afklaring af, om den forudsagte indikation er en behandlelig klinisk tilstand og ikke blot en genetisk modtagelighedsbetegnelse
-- Vurdering af administrationsvej, som i øjeblikket er uafklaret
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+- Data om etodolacs virkningsmekanisme (MOA)
+- Advarsler og kontraindikationer fra det danske produktresumé
+- Prækliniske eller mekanistiske studier, der kan understøtte en sammenhæng med GDF5-signalering eller bruskudvikling
+- Litteraturgennemgang og eventuelle kasuistikker for de forudsagte sjældne skeletlidelser
+- Vurdering af, om spondyloartropati-forudsigelsen blot er en dublet af den eksisterende indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

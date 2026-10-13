@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tepoxalin
-parent: Moderat evidens (L3-L4)
-nav_order: 428
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 808
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tepoxalin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tepoxalin: Fra uangivet oprindelig indikation (sandsynligvis veterinær brug) til slidgigt (osteoarthritis)
+# Tepoxalin: Fra oprindelig indikation til slidgigt (osteoarthritis)
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Tepoxalin er en dobbelt hæmmer af COX og 5-LOX. Den oprindelige godkendte indikation fremgår ikke af datagrundlaget, og litteraturen peger på brug til hunde.
-TxGNN-modellen forudsiger, at stoffet kan have effekt ved **slidgigt (osteoarthritis)**.
-Der findes **0 kliniske forsøg** og **8 publikationer**, som alle er dyre-, ex vivo- eller in vitro-studier. Der er ingen humane kliniske data.
+Tepoxalin er en dobbelt hæmmer af cyklooksygenase (COX) og 5-lipoxygenase (5-LOX), som er markedsført i Danmark som smeltetabletter (Zubrin). Den oprindelige godkendte indikation er ikke angivet i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan være effektivt mod **slidgigt (osteoarthritis)**. Evidensen består af **0 kliniske forsøg** og **7 publikationer**, hvoraf de fleste er præklinisk eller veterinær forskning.
 
 ---
 
@@ -43,85 +41,80 @@ Der findes **0 kliniske forsøg** og **8 publikationer**, som alle er dyre-, ex 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget (godkendelsen har ingen indikationstekst) |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsens indikationstekst er tom) |
 | Forudsagt ny indikation | Slidgigt (osteoarthritis) |
-| TxGNN-forudsigelsesscore | 96,82 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (se advarsel nedenfor) |
+| TxGNN-forudsigelsesscore | 96,8 % |
+| Evidensniveau | L3 (kun veterinære og prækliniske studier; ingen humane forsøg) |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede mekanismedata fra DrugBank er ikke tilgængelige. Ud fra den litteratur, der er indsamlet, er tepoxalin en dobbelt hæmmer af cyclooxygenase (COX) og 5-lipoxygenase (5-LOX). Den nedsætter dannelsen af prostanoider og leukotriener og hæmmer desuden NF-kB. Disse signalveje driver synovial inflammation og nedbrydning af ledbrusk ved slidgigt, så forudsigelsen er biologisk plausibel.
+Der foreligger ikke en struktureret beskrivelse af virkningsmekanismen i de indsamlede data. Ud fra litteraturen er tepoxalin en dobbelt hæmmer af COX og 5-LOX. Den nedsætter dannelsen af prostanoider og leukotriener, som begge bidrager til inflammation og smerte ved slidgigt.
 
-Resultaterne er konsistente på tværs af hunde in vivo, ex vivo og in vitro. Det gælder hæmmet frigivelse af eikosanoider fra synovialt væv, nedsat brusknedbrydning og apoptose i synoviale fibroblaster. Et ex vivo-studie af synovialvæv fra patienter med slidgigt og leddegigt viste også lavere frigivelse af LTC4, 6-keto-PGF1a og PGE2.
+Studier støtter denne mekanisme. I en synovialvævskultur fra patienter med slidgigt og leddegigt nedsatte tepoxalin og dets syremetabolit frigivelsen af eikosanoider (fx PGE2 faldt til 29-6 % af kontrol ved slidgigtvæv). Hos hunde med kronisk slidgigt er hæmning af prostaglandin- og leukotrienproduktion påvist. Desuden er der observeret pro-apoptotiske effekter på synovialfibroblaster fra hunde og en mulig beskyttende effekt på ledbrusk i en in vitro-model.
 
-Der er dog vigtige forbehold:
-- Størstedelen af evidensen er veterinær og vedrører slidgigt hos hunde. Det ligner derfor en veterinær indikation snarere end en reel humanmedicinsk repurposing-mulighed.
-- Der findes ingen humane kliniske data.
-- Et notat i litteraturen (PMID 23802664) angiver, at tepoxalin ikke længere er kommercielt tilgængeligt. Det er i konflikt med statussen "Markedsført" i godkendelsesdataene og bør afklares.
-
----
-
-## Dokumentation fra kliniske forsøg
-
-Der er i øjeblikket ingen registrerede kliniske forsøg for denne indikation (hverken i ClinicalTrials.gov eller ICTRP).
+Lægemidlet har været anvendt mod slidgigt hos hunde, så indikationen er understøttet i veterinærmedicin. Der er dog ikke identificeret humane kliniske forsøg. Det er desuden rapporteret, at tepoxalin ikke længere er kommercielt tilgængeligt, hvilket begrænser mulighederne for at overføre resultaterne til human anvendelse.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [23718664](https://pubmed.ncbi.nlm.nih.gov/23718664/) | 2013 | Veterinært klinisk studie | Am J Vet Res | Undersøgte effekten af tepoxalin på nyrefunktionen hos hunde med kronisk nyresygdom og slidgigt |
-| [16008217](https://pubmed.ncbi.nlm.nih.gov/16008217/) | 2005 | Dyrestudie, in vivo | Am J Vet Res | Evaluerede effekten på prostaglandin- og leukotrienproduktion hos hunde med kronisk slidgigt |
-| [18764695](https://pubmed.ncbi.nlm.nih.gov/18764695/) | 2008 | Ex vivo/dyrevæv | Am J Vet Res | Sammenlignede firocoxib, meloxicam og tepoxalin med hensyn til prostanoid- og leukotrienproduktion i duodenalslimhinde og andet væv hos hunde med slidgigt |
-| [8936587](https://pubmed.ncbi.nlm.nih.gov/8936587/) | 1996 | Ex vivo synovialkultur | Prostaglandins | Tepoxalin og dets syremetabolit nedsatte frigivelsen af eikosanoider (LTC4, 6-keto-PGF1a, PGE2) fra synovialvæv fra patienter med slidgigt og leddegigt |
-| [19624842](https://pubmed.ncbi.nlm.nih.gov/19624842/) | 2009 | Dyrebaseret brusknedbrydningsmodel | BMC Vet Res | Undersøgte, om tepoxalin kan dæmpe cytokinudløst nedbrydning af ledbrusk i en in vitro-model af slidgigt hos hunde |
-| [22240988](https://pubmed.ncbi.nlm.nih.gov/22240988/) | 2012 | In vitro (hundes synovialceller) | J Vet Med Sci | Pro-apoptotiske og antiproliferative effekter på synoviale fibroblaster fra hunde |
-| [19000257](https://pubmed.ncbi.nlm.nih.gov/19000257/) | 2008 | Review | J Vet Pharmacol Ther | Oversigt over leukotrienhæmning i smådyrsmedicin; nævner terapeutisk gavn af leukotrienhæmning ved slidgigt hos mennesker |
-| [23802664](https://pubmed.ncbi.nlm.nih.gov/23802664/) | 2013 | Redaktionelt notat | Am J Vet Res | Meddelelse om, at tepoxalin ikke længere er kommercielt tilgængeligt |
-| [9824778](https://pubmed.ncbi.nlm.nih.gov/9824778/) | 1998 | Review | J Clin Pharmacol | Generel oversigt over NF-kB som transkriptionsfaktor og terapeutisk mål, bl.a. ved leddegigt (relevant for den forudsagte leddegigtindikation) |
+| [23718664](https://pubmed.ncbi.nlm.nih.gov/23718664/) | 2013 | Veterinært klinisk studie | Am J Vet Res | Effekt af tepoxalin på nyrefunktion hos hunde med kronisk nyresygdom og slidgigt |
+| [16008217](https://pubmed.ncbi.nlm.nih.gov/16008217/) | 2005 | In vivo, præklinisk (hunde) | Am J Vet Res | Effekt på prostanoid- og leukotrienproduktion hos hunde med kronisk slidgigt |
+| [18764695](https://pubmed.ncbi.nlm.nih.gov/18764695/) | 2008 | Ex vivo, præklinisk sammenligning | Am J Vet Res | Sammenligning af firocoxib, meloxicam og tepoxalin på prostanoid- og leukotrienproduktion i duodenalslimhinde og andre væv hos hunde med slidgigt |
+| [19624842](https://pubmed.ncbi.nlm.nih.gov/19624842/) | 2009 | Præklinisk slidgigtmodel | BMC Vet Res | Undersøgelse af, om tepoxalin kan mindske nedbrydning af ledbrusk i en kanin-in vitro-model fra hund |
+| [22240988](https://pubmed.ncbi.nlm.nih.gov/22240988/) | 2012 | In vitro, præklinisk | J Vet Med Sci | Pro-apoptotiske og antiproliferative effekter på synovialceller fra hunde |
+| [8936587](https://pubmed.ncbi.nlm.nih.gov/8936587/) | 1996 | In vitro | Prostaglandins | Hæmning af eikosanoidfrigivelse fra synovialvæv fra patienter med slidgigt og leddegigt |
+| [23802664](https://pubmed.ncbi.nlm.nih.gov/23802664/) | 2013 | Notits om tilgængelighed | Am J Vet Res | Meddelelse om, at tepoxalin ikke længere er kommercielt tilgængeligt |
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103092999 | Zubrin | Smeltetabletter | Ikke oplyst i datagrundlaget |
-
-Producent: Schering-Plough Limited. Administrationsvej: oral.
+| 28103092999 | Zubrin (Schering-Plough Limited) | Smeltetabletter | Ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige sikkerhedsdata fra godkendelsen, og interaktionsopslaget gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Hundestudiet om nyrefunktion (PMID 23718664) giver kun et begrænset sikkerhedssignal og kan ikke overføres til mennesker.
+Et veterinært studie (PMID 23718664) har undersøgt nyrefunktion hos hunde med kronisk nyresygdom og slidgigt. Resultaterne støtter alene en veterinær sikkerhedsprofil og kan ikke overføres direkte til mennesker.
+
+---
+
+## Øvrige forudsagte indikationer
+
+| Sygdom | TxGNN-score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Leddegigt (rheumatoid arthritis) | 96,5 % | L4 | Hold. Mekanistisk plausibelt (in vitro-hæmning af eikosanoider i synovialvæv), men ingen kliniske data. Reviewet om NF-kB (PMID 9824778) er generel baggrund og ikke lægemiddelspecifik evidens. |
+| Urinsyregigt (gout) | 96,5 % | L5 | Hold. Teoretisk relevans via leukotrien- og prostanoidveje, men udelukkende modelforudsigelse. |
+| Slidgigtfølsomhed (osteoarthritis susceptibility) | 96,7 % | L5 | Hold. Genetisk disposition, ikke en behandlelig tilstand. Sandsynligvis en artefakt i vidensgrafen. |
+| Hæmoglobinopati | 95,8 % | L5 | Hold. Ingen plausibel mekanistisk sammenhæng. Sandsynligvis en artefakt i vidensgrafen. |
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Hold (forskningsspørgsmål)**
 
 **Begrundelse:**
-Evidensen er på L4-niveau. Den består udelukkende af veterinære og prækliniske studier uden humane kliniske data, og tepoxalin er muligvis ikke længere kommercielt tilgængeligt. Der mangler desuden sikkerhedsdata fra produktresuméet, hvilket blokerer for den videre sikkerhedsscreening. Forslaget fremstår som et forskningsspørgsmål snarere end en klar repurposing-kandidat.
+Forudsigelsen om slidgigt er mekanistisk plausibel, og tepoxalin har været anvendt mod slidgigt hos hunde. Evidensen er dog begrænset til veterinære og prækliniske studier, der findes ingen humane kliniske forsøg, og lægemidlet er rapporteret som ikke længere kommercielt tilgængeligt. Manglende sikkerhedsdata fra produktresuméet er desuden en blokerende datamangel for den videre sikkerhedsvurdering.
 
-De øvrige forudsagte indikationer (leddegigt, urinsyregigt, hemoglobinopati og slidgigt-modtagelighed) har kun evidensniveau L4-L5 og anbefales ligeledes sat på hold. Slidgigt-modtagelighed er et genetisk fænotypetræk og ikke en behandlingsbar tilstand.
-
-**For at komme videre skal følgende foreligge:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Afklaring af, om Zubrin faktisk stadig er markedsført, og om det er et veterinærlægemiddel
-- Data om virkningsmekanisme fra DrugBank
-- Humane prækliniske eller kliniske data, før en humanmedicinsk vurdering er mulig
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering.*
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet for Zubrin (advarsler, kontraindikationer, godkendt indikation)
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- Bekræftelse af produktets aktuelle tilgængelighed og status på det danske marked
+- Humane kliniske data (fx et fase 2-forsøg) før en egentlig vurdering af effekt ved slidgigt
+- Vurdering af, om resultater fra hunde kan overføres til mennesker, herunder nyresikkerhed
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

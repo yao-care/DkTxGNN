@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: Kun modelforudsigelse (L5)
-nav_order: 389
-evidence_level: L5
+parent: Høj evidens (L1-L2)
+nav_order: 736
+evidence_level: L1
 indication_count: 10
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rosuvastatin: Fra statinbehandling til CETP-mangel (cholesterol-ester transfer protein deficiency)
+# Rosuvastatin: Fra hyperlipidæmi og iskæmisk apopleksi til familiær hyperkolesterolæmi
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Rosuvastatin er en statin (HMG-CoA-reduktasehæmmer), som markedsføres i Danmark som filmovertrukne tabletter. Datagrundlaget indeholder ingen godkendt indikationstekst for det danske produkt.
-TxGNN-modellen forudsiger, at rosuvastatin kan have effekt ved **CETP-mangel**, med en meget høj modelscore.
-Forudsigelsen understøttes dog kun af **0 kliniske forsøg** og **2 publikationer**. De to publikationer er case-rapporter om *andre* arvelige lipidforstyrrelser og undersøger ikke rosuvastatin ved CETP-mangel.
+Rosuvastatin er en statin (HMG-CoA-reduktasehæmmer), der oprindeligt anvendes mod forhøjede blodfedtstoffer, herunder hypertriglyceridæmi, aterosklerose og homozygot familiær hyperkolesterolæmi, samt ved slagtilfælde og cerebral infarkt.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **familiær hyperkolesterolæmi**, med **13 kliniske forsøg** og **13 publikationer** i de indsamlede data.
+Bemærk, at homozygot familiær hyperkolesterolæmi allerede er blandt de oprindelige indikationer, så forudsigelsen er i høj grad en bekræftelse af eksisterende anvendelse.
 
 ---
 
@@ -43,29 +43,42 @@ Forudsigelsen understøttes dog kun af **0 kliniske forsøg** og **2 publikation
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Cholesterol-ester transfer protein deficiency (CETP-mangel) |
+| Oprindelig indikation | Hypertriglyceridæmi, aterosklerose, hyperlipoproteinæmi, homozygot familiær hyperkolesterolæmi, slagtilfælde og cerebral infarkt (fra videnbasen; den danske produkttekst indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Familiær hyperkolesterolæmi |
 | TxGNN-forudsigelsesscore | 99,54 % |
-| Evidensniveau | L4 ifølge Evidence Pack. Der findes dog ingen studier af rosuvastatin ved sygdommen, så reelt er der kun en modelforudsigelse (svarende til L5) |
-| Status på det danske marked | Markedsført |
+| Evidensniveau | L1 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om rosuvastatins virkningsmekanisme i datagrundlaget. Rosuvastatin tilhører statinerne, som hæmmer HMG-CoA-reduktase, øger leverens LDL-receptorer og sænker LDL-kolesterol. Mekanistisk kan det være relevant ved lipidforstyrrelser.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Rosuvastatin er dog kendt som en HMG-CoA-reduktasehæmmer. Den nedsætter leverens kolesterolsyntese og øger antallet af LDL-receptorer, hvilket sænker LDL-kolesterol. Dette er kernemekanismen ved familiær hyperkolesterolæmi.
 
-Ved CETP-mangel er HDL-kolesterol allerede forhøjet. Rationalet for statinbehandling hviler kun på en svag og indirekte LDL-sænkende effekt. Den høje TxGNN-score er derfor ikke bakket op af kliniske data.
+Rosuvastatins effekt på forhøjede blodfedtstoffer er veldokumenteret, og homozygot familiær hyperkolesterolæmi er allerede en kendt indikation. Heterozygot form og pædiatriske patienter er de vigtigste udvidelser. Flere fase 3-forsøg, bl.a. hos børn og unge, understøtter effekt og sikkerhed.
 
-De to tilknyttede publikationer handler om komplet apo A-I-mangel og hepatisk lipasemangel. Det er andre sjældne arvelige lipidforstyrrelser, og de understøtter ikke direkte brug af rosuvastatin ved CETP-mangel.
+Patienter med LDL-receptor-negativ homozygot form responderer dårligere og behøver ofte tillægsbehandling.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret (hverken i ClinicalTrials.gov eller i EU-registre/ICTRP).
+Rosuvastatin er studiemedicin i de fleste af nedenstående forsøg. Forsøg med alirocumab, hvor rosuvastatin kun er baggrundsbehandling, er markeret.
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
+|---------|------|------|------|---------|
+| [NCT02226198](https://clinicaltrials.gov/study/NCT02226198) | Fase 3 | Afsluttet | 20 | Randomiseret, dobbeltblindet, placebokontrolleret crossover-studie af rosuvastatin hos børn og unge (6-<18 år) med homozygot FH |
+| [NCT02434497](https://clinicaltrials.gov/study/NCT02434497) | Fase 3 | Afsluttet | 9 | Åben forlængelse af ovenstående; vurderer langtidssikkerhed (meget lille stikprøve) |
+| [NCT00355615](https://clinicaltrials.gov/study/NCT00355615) | Fase 3b | Afsluttet | 173 | Dobbeltblindet, placebokontrolleret studie hos børn (10-17 år) med heterozygot FH; effekt på LDL-kolesterol |
+| [NCT01078675](https://clinicaltrials.gov/study/NCT01078675) | Fase 3 | Afsluttet | 315 | Åbent 2-årigt effekt- og sikkerhedsstudie hos børn og unge med FH |
+| [NCT00654602](https://clinicaltrials.gov/study/NCT00654602) | Fase 3b | Afsluttet | 1.500 | 48 ugers åbent, ikke-komparativt studie ved dyslipidæmi, inkl. heterozygot FH |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Fase 3b | Afsluttet | 442 | Åbent, randomiseret studie af nyreeffekter af rosuvastatin vs. simvastatin ved dyslipidæmi, inkl. heterozygot FH |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Afsluttet | 249 | Alirocumab vs. placebo ved heterozygot FH (rosuvastatin ikke studiemedicin) |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Fase 3 | Afsluttet | 153 | Alirocumab hos børn med heterozygot FH (rosuvastatin eventuelt baggrundsbehandling) |
+| [NCT07474649](https://clinicaltrials.gov/study/NCT07474649) | Fase 3 | Ikke rekrutteret endnu | 103 | Trippelbehandling med bempedoinsyre, ezetimib og højintensitetsstatin ved koronar aterosklerose |
+| [NCT06910098](https://clinicaltrials.gov/study/NCT06910098) | Ikke relevant | Afsluttet | 195 | Dosisvurdering af rosuvastatin på LDL, CPK og AST (kun indirekte relevans) |
 
 ---
 
@@ -73,42 +86,53 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret (hverken i Cl
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [21122686](https://pubmed.ncbi.nlm.nih.gov/21122686/) | 2010 | Case-rapport/oversigt | Journal of Clinical Lipidology | Familie med komplet apo A-I-mangel pga. ny nonsense-mutation i APOA1. De to homozygote havde meget forskellig klinisk præsentation. Ikke en rosuvastatin-undersøgelse |
-| [22798447](https://pubmed.ncbi.nlm.nih.gov/22798447/) | 2010 | Case-rapport | BMJ Case Reports | Hepatisk lipasemangel hos ung mand fra Mellemøsten. Beskriver bl.a. CETP-aktivitet og -masse, men undersøger ikke rosuvastatin |
+| [20223367](https://pubmed.ncbi.nlm.nih.gov/20223367/) | 2010 | RCT | J Am Coll Cardiol | Effekt og sikkerhed af rosuvastatin hos børn med familiær hyperkolesterolæmi |
+| [28838366](https://pubmed.ncbi.nlm.nih.gov/28838366/) | 2017 | Kohorte | J Am Coll Cardiol | Effekt af rosuvastatin hos børn med homozygot FH og sammenhæng med underliggende genmutationer |
+| [26387811](https://pubmed.ncbi.nlm.nih.gov/26387811/) | 2016 | Farmakokinetisk studie | Eur J Clin Pharmacol | Populationsfarmakokinetik hos børn med heterozygot FH |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Oversigtsartikel | Drugs | Rosuvastatin var bedre end atorvastatin, simvastatin og pravastatin til at forbedre lipidprofilen |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Oversigtsartikel | Clin Ther | Rosuvastatin ved hyperlipidæmi, inkl. homozygot FH |
+| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Laboratoriestudie | Toxicology | Statinrelateret muskeltoksicitet i stamcelleafledte muskelceller fra FH-patienter |
+| [24849689](https://pubmed.ncbi.nlm.nih.gov/24849689/) | 2014 | Litteraturgennemgang | Consult Pharm | Statinrelateret nyopstået diabetes |
+| [20531065](https://pubmed.ncbi.nlm.nih.gov/20531065/) | 2010 | Case report | South Med J | Sjælden, svær trombocytopeni under rosuvastatin |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105103512 | Celmantin (Medochemie Limited) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28105103512 | Celmantin (Medochemie Limited) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Datagrundlaget indeholder ingen oplysninger om advarsler, kontraindikationer eller interaktioner for dette produkt. Interaktionssøgningen gav ingen fund.
+Der er ikke fundet godkendt produktresumé med advarsler og kontraindikationer i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC).
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer fra videnbasen (ikke fra produkttekst):** leversygdom, galdeblæresygdom, hypothyreose, myopati/muskelsygdomme, rabdomyolyse, proteinuri og stofmisbrug/afhængighed m.fl.
+
+**Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt de vigtigste:
+- **Major:** fenofibrat og atazanavir
+- **Moderate:** bl.a. atorvastatin, ezetimib, bempedoinsyre, amiodaron og alkohol
+
+Dataene antyder desuden, at muskelsymptomer, leverenzymstigning og nyopstået diabetes bør overvåges.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret. Der er ingen kliniske forsøg, og litteraturen omhandler andre lidelser. Det mekaniske rationale er svagt, fordi HDL-kolesterol allerede er forhøjet ved CETP-mangel. Desuden mangler sikkerhedsdata fra Lægemiddelstyrelsen, hvilket blokerer for en sikkerhedsscreening.
+Flere afsluttede fase 3-forsøg, bl.a. hos børn med homozygot og heterozygot FH, understøtter effekt og sikkerhed (evidensniveau L1). Da homozygot FH allerede er en kendt indikation, er der tale om udvidelse til heterozygot form og børn frem for ny anvendelse.
 
 **For at komme videre kræves:**
-- Produktresumé (SmPC) for Celmantin fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Data om virkningsmekanisme (MOA) og oprindelig indikation, f.eks. fra DrugBank
-- Klinisk eller translationel evidens for rosuvastatin ved CETP-mangel, f.eks. kasuistikker eller lipidstudier hos patienter
-
-**Bemærkning:** Evidence Pack indeholder bedre understøttede kandidater end CETP-mangel. Det gælder familiær hyperkolesterolæmi (L1, Phase III-forsøg med børn med heterozygot FH) og hyperlipidæmi (L1). Begge er dog i det væsentlige etablerede lipidsænkende anvendelser og ikke egentlig lægemiddelomplacering.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+- Gennemgang af det danske produktresumé for indikationer, advarsler og kontraindikationer
+- Data om virkningsmekanisme fra DrugBank
+- Plan for overvågning af muskelsymptomer, leverenzymer og nyrefunktion
+- Pædiatrisk dosering og vækstopfølgning
+- Plan for tillægsbehandling hos LDL-receptor-negative homozygote patienter
+- Gennemgang af interaktioner, især med fenofibrat og atazanavir
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

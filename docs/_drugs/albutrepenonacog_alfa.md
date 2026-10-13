@@ -2,7 +2,7 @@
 layout: default
 title: Albutrepenonacog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 21
+nav_order: 32
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Albutrepenonacog alfa: Fra hæmofili B til pseudo-von Willebrand sygdom
+# Albutrepenonacog alfa: Fra hæmofili til pseudo-von Willebrand-sygdom
 
 ## Resumé i én sætning
 
-Albutrepenonacog alfa er et rekombinant koagulationsfaktor IX-albumin-fusionsprotein, som markedsføres i Danmark under navnet Idelvion. Præparatet anvendes formentlig til hæmofili B, men indikationen fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at det kan have effekt ved **pseudo-von Willebrand sygdom**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
+Albutrepenonacog alfa er et rekombinant koagulationsfaktor IX-præparat (fusioneret med albumin), som oprindeligt anvendes til behandling af hæmofili.
+TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **pseudo-von Willebrand-sygdom**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Forudsigelsen bygger udelukkende på modellen.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (hæmofili B er en sandsynlig anvendelse ud fra præparattypen, men er ikke bekræftet) |
-| Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
+| Oprindelig indikation | Hæmofili (ifølge vidensgrafen; den godkendte indikationstekst er ikke tilgængelig i de indsamlede data) |
+| Forudsagt ny indikation | Pseudo-von Willebrand-sygdom |
 | TxGNN-forudsigelsesscore | 99,94 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig?
+---
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige. Albutrepenonacog alfa er et rekombinant faktor IX (FIX) fusioneret med albumin. FIX er en central komponent i den sekundære hæmostase, hvor aktiveret FIX indgår i tenase-komplekset og fremmer trombindannelse.
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Pseudo-von Willebrand sygdom er derimod en gain-of-function-defekt i trombocyttens GPIb-alfa-receptor og påvirker den primære hæmostase. Substitution med FIX korrigerer ikke denne defekt. Den høje score afspejler derfor mest sandsynligt en association i vidensgrafen via fælles naboer i koagulationsvejen, og ikke en plausibel terapeutisk mekanisme.
+Detaljerede data om lægemidlets virkningsmekanisme er ikke tilgængelige. Albutrepenonacog alfa er et rekombinant faktor IX fusioneret med albumin, som erstatter manglende faktor IX ved hæmofili B. Effekten ved den oprindelige indikation er veletableret.
 
-Det bør fremhæves, at forudsigelsen alene er modelbaseret. Der er ikke fundet støtte i kliniske data eller litteratur.
+Pseudo-von Willebrand-sygdom (trombocyttype af von Willebrand-sygdom) skyldes en gain-of-function-defekt i trombocyttens GPIbα, som øger bindingen til von Willebrand-faktor. Defekten ligger i samspillet mellem trombocytter og von Willebrand-faktor og ikke i mangel på faktor IX. Der er derfor ikke noget klart mekanistisk grundlag for faktor IX-substitution.
 
-### Øvrige forudsigelser fra modellen
+Den høje TxGNN-score er en ren grafbaseret forudsigelse, sandsynligvis drevet af fælles blødningsfænotyper i vidensgrafen. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
-Modellen foreslår også følgende sygdomme, alle med evidensniveau L5 og anbefalingen Hold. Nogle indikationer optræder flere gange i modeloutputtet, og her vises hver kun én gang.
+Modellen forudsiger også andre trombocyt- og blødningsrelaterede sygdomme med tilsvarende lav biologisk sandsynlighed:
 
-| Forudsagt sygdom | Score | Vurdering af mekanistisk sammenhæng |
+| Forudsagt sygdom | Score | Mekanistisk vurdering |
 |------|------|------|
-| Primær frigivelsesdefekt i trombocytter | 99,94 % | FIX understøtter trombindannelse, ikke trombocytternes sekretion. Ingen direkte mekanistisk begrundelse. |
-| Glanzmanns trombasteni | 99,92 % | Skyldes manglende eller dysfunktionelt integrin alfaIIb-beta3. FIX korrigerer ikke defekten. Etablerede muligheder er trombocyttransfusion og bypassing-midler. |
-| Scott syndrom | 99,63 % | Nedsat eksponering af fosfatidylserin på trombocytter. FIXa indgår i tenase-komplekset, så der er en svag, indirekte forbindelse. FIX genskaber dog ikke den manglende procoagulante membranoverflade. |
-| Blødningsdiatese pga. kollagenreceptordefekt | 99,28 % | Trombocytternes kollagenreceptor er defekt. FIX virker ikke på trombocyt-kollagen-interaktionen. |
+| Primær frigivelsesdefekt af trombocytter | 99,94 % | Defekt granulesekretion/signalering; faktor IX korrigerer ikke dette |
+| Glanzmanns trombasteni | 99,92 % | Mangel på integrin αIIbβ3; standardbehandling er trombocytttransfusion, rekombinant faktor VIIa og antifibrinolytika |
+| Scott-syndrom | 99,63 % | Nedsat fosfatidylserin-eksponering; kun en teoretisk, indirekte forbindelse via tenase-komplekset |
+| Blødningstendens pga. kollagenreceptordefekt | 99,28 % | Defekt trombocytadhæsion; faktor IX adresserer ikke dette |
 
-## Klinisk evidens fra forsøg
+---
 
-Der er i øjeblikket ingen registrerede kliniske forsøg, der relaterer sig til denne forudsigelse.
+## Evidens fra kliniske forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-## Markedsinformation i Danmark
+---
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105593615 | Idelvion (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28105593615 | Idelvion (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i datagrundlaget. Der er heller ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
+Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er udelukkende modelbaserede (evidensniveau L5), og der findes hverken kliniske forsøg eller litteratur. Den biologiske sammenhæng er svag eller fraværende, fordi FIX-substitution ikke adresserer de trombocytdefekter, der kendetegner de forudsagte sygdomme.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur, og den biologiske sandsynlighed er lav, da de forudsagte sygdomme skyldes trombocyt- eller von Willebrand-faktor-defekter og ikke faktor IX-mangel. Den høje score afspejler sandsynligvis nærhed i vidensgrafen.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen for godkendt indikation, advarsler og kontraindikationer.
-- Indhent detaljerede data om virkningsmekanismen (MOA), fx via DrugBank.
-- Foretag en systematisk litteratur- og forsøgssøgning for de forudsagte sygdomme.
-- Vurder klinisk plausibilitet med hæmatologisk ekspertise, herunder sammenligning med etablerede behandlinger (fx trombocyttransfusion og bypassing-midler).
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) – dette er en blokerende datamangel
+- Supplér data om virkningsmekanisme (f.eks. via DrugBank)
+- Systematisk litteratur- og forsøgssøgning for faktor IX ved trombocytfunktionsforstyrrelser
+- Prækliniske data, der kan underbygge en mekanistisk forbindelse, før der overvejes yderligere vurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

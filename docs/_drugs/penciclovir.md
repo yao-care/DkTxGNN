@@ -2,7 +2,7 @@
 layout: default
 title: Penciclovir
 parent: Kun modelforudsigelse (L5)
-nav_order: 345
+nav_order: 645
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,11 +31,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Penciclovir: Fra herpes labialis til fascioliasis
 
-## Resumé i én sætning
+## Et-sætnings-resumé
 
-Penciclovir er et antiviralt middel, der anvendes lokalt som creme mod herpes labialis (forkølelsessår).
-TxGNN-modellen forudsiger, at det kan være virksomt mod **fascioliasis** (leverikteinfektion), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
-Forudsigelsen er rent modelbaseret og har ingen understøttet mekanistisk forbindelse.
+Penciclovir er et antiviralt middel, oprindeligt brugt til behandling af herpes labialis (forkølelsessår).
+TxGNN-modellen forudsiger, at det kan have effekt mod **fascioliasis** (leverikte-infektion),
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen hviler udelukkende på modellen.
 
 ---
 
@@ -43,7 +43,7 @@ Forudsigelsen er rent modelbaseret og har ingen understøttet mekanistisk forbin
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Herpes labialis (lokal antiviral behandling). Indikationsteksten i den danske registrering er ikke angivet. |
+| Oprindelig indikation | Herpes labialis (fra videnbasen; godkendelsesteksten for det danske produkt er ikke angivet) |
 | Forudsagt ny indikation | Fascioliasis |
 | TxGNN-forudsigelsesscore | 99,06 % |
 | Evidensniveau | L5 |
@@ -51,24 +51,19 @@ Forudsigelsen er rent modelbaseret og har ingen understøttet mekanistisk forbin
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
+Øvrige forudsagte indikationer (alle L5, Hold, uden forsøg eller litteratur): cysticercosis (98,99 %), coenurosis (98,75 %), intestinal helminthiasis (98,70 %) og malign pleuralt mesotheliom (98,51 %).
+
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i evidenspakken. Penciclovir er imidlertid et guanosin-nukleosidanalog, som aktiveres af viralt thymidinkinase og herefter hæmmer viralt DNA-polymerase. Virkningen er dermed afhængig af et viralt enzym.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Penciclovir er kendt som en guanosin-nukleosidanalog, der fosforyleres af viralt thymidinkinase og hæmmer viralt DNA-polymerase. Det er effektivt mod herpes simplex-virus, som forårsager herpes labialis.
 
-Fasciola-arter er trematoder (leveriktler) og har ingen kendt tilsvarende aktiveringsvej. Der er derfor **ingen understøttet mekanistisk forbindelse** mellem den oprindelige antivirale anvendelse og fascioliasis. Scoren på 0,991 afspejler sandsynligvis nærhed i vidensgrafen til andre antiparasitære eller nukleosidrelaterede knuder, ikke en valideret biologisk begrundelse. Der findes desuden etablerede anthelmintiske behandlinger.
+Denne mekanisme giver imidlertid **ingen oplagt forbindelse** til fascioliasis. *Fasciola hepatica* er en parasitisk trematod og har hverken herpesvirus-lignende thymidinkinase eller viralt DNA-polymerase som mål. Den høje TxGNN-score er derfor sandsynligvis en artefakt i videngrafen og ikke et udtryk for reel biologisk sammenhæng.
 
-TxGNN har også foreslået flere andre indikationer. De har samme mekanistiske mangler og ingen kliniske forsøg eller litteratur:
+Samme vurdering gælder de øvrige parasitære forudsigelser (cysticercosis, coenurosis, intestinal helminthiasis). Penciclovir har desuden dårlig oral biotilgængelighed (den orale prodrug er famciclovir) og markedsføres topisk, hvilket taler imod en rationel tarmeksponering. Effektive ormemidler (fx albendazol og praziquantel) findes allerede.
 
-| Forudsagt indikation | TxGNN-score | Evidensniveau |
-|------|------|------|
-| Cysticercosis | 98,99 % | L5 |
-| Coenurosis | 98,75 % | L5 |
-| Intestinal helminthiasis | 98,70 % | L5 |
-| Malign pleural mesotheliom | 98,51 % | L5 |
-
-Til mesotheliom bemærkes, at beslægtede nukleosidanaloger som ganciclovir er undersøgt sammen med HSV-TK-selvmordsgenstrategier. Det er kun indirekte kontekst og ikke evidens for penciclovir. Uden viralt thymidinkinase er penciclovir et dårligt substrat for humane kinaser, så en egen antitumoreffekt forventes ikke.
+Den mest mekanistisk tænkelige forudsigelse er **malign pleuralt mesotheliom**, men kun i en genterapikontekst: HSV-TK-genoverførsel sensibiliserer tumorceller over for nukleosidanaloger som ganciclovir, og penciclovir er også et HSV-TK-substrat. Det kræver genoverførsel, og penciclovir har ingen kendt effekt som enkeltstående middel.
 
 ---
 
@@ -84,19 +79,21 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105418514 | Vectatone | Creme | Perrigo Sverige AB |
+| 28105418514 | Vectatone (Perrigo Sverige AB) | Creme | Indikationstekst ikke angivet |
 
-Den godkendte indikationstekst er ikke tilgængelig i de modtagne data.
+Produktet er en enkeltstofholdig creme til udvortes brug.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ingen fundne lægemiddelinteraktioner i de data, der er indsamlet til denne rapport.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
 
 ---
 
@@ -105,17 +102,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en vidensgrafscore (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Penciclovirs virkning kræver viralt thymidinkinase, som parasitter ikke har. Desuden findes der allerede etablerede anthelmintiske behandlinger.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur og uden plausibel mekanistisk sammenhæng mellem penciclovirs antivirale virkning og parasitære infektioner. Fascioliasis og de øvrige parasitære indikationer har desuden etablerede behandlinger.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Præklinisk eller in vitro-evidens for aktivitet mod Fasciola eller andre helminther
-- Vurdering af administrationsvej, da den eneste markedsførte form er en creme, som ikke er egnet til systemiske parasitinfektioner
-
----
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (afgørende for sikkerhedsscreening)
+- Prækliniske data (fx *in vitro*-aktivitet mod *Fasciola*), før yderligere vurdering er meningsfuld
+- Hvis der ønskes en undersøgelse af mesotheliom, en separat vurdering af HSV-TK-genterapi i kombination med nukleosidanaloger
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

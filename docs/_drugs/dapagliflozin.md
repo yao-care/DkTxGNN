@@ -2,7 +2,7 @@
 layout: default
 title: Dapagliflozin
 parent: Kun modelforudsigelse (L5)
-nav_order: 128
+nav_order: 234
 evidence_level: L5
 indication_count: 0
 ---

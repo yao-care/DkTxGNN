@@ -2,7 +2,7 @@
 layout: default
 title: Ranibizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 367
+nav_order: 703
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ranibizumab: Fra oprindelig indikation (ikke angivet i data) til svær non-proliferativ diabetisk retinopati
+# Ranibizumab: Fra diabetisk retinopati til svær non-proliferativ diabetisk retinopati
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Ranibizumab er en anti-VEGF-antistoffragment (Fab), der gives som injektion i øjet. Datasættet angiver ingen oprindelig indikation. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær non-proliferativ diabetisk retinopati (NPDR)**. Retningen understøttes af **6 kliniske forsøg** og **20 publikationer**, heriblandt et nyligt fase 3-forsøg med ranibizumab i NPDR.
+Ranibizumab er et anti-VEGF-antistoffragment, der oprindeligt anvendes til nethindesygdomme som aldersrelateret makuladegeneration og diabetisk makulaødem. TxGNN-modellen forudsiger, at det kan være effektivt ved **svær non-proliferativ diabetisk retinopati**, men dette er snarere et sværhedsstadium inden for en allerede kendt indikation end en reelt ny indikation. Der er **0 registrerede kliniske forsøg** i de indsamlede data, men **19 publikationer**, herunder et randomiseret forsøg (PAVILION) og post-hoc-analyser af RIDE/RISE.
 
 ---
 
@@ -41,9 +41,9 @@ Ranibizumab er en anti-VEGF-antistoffragment (Fab), der gives som injektion i ø
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i data (indikationsteksten i den danske registrering er tom) |
+| Oprindelig indikation | Diabetisk retinopati, diabetisk makulaødem, makuladegeneration m.fl. (fra vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
 | Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-prædiktionsscore | 99,99 % |
 | Evidensniveau | L1 (se forbehold nedenfor) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,57 +51,52 @@ Ranibizumab er en anti-VEGF-antistoffragment (Fab), der gives som injektion i ø
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Ranibizumab er dog et anti-VEGF-Fab-fragment. VEGF fremmer karlækage, retinal non-perfusion og neovaskularisering ved diabetisk retinopati, og VEGF-niveauerne i glaslegemet er forhøjede ved sygdommen (PMID 36580154). Hæmning af VEGF er derfor en biologisk plausibel behandlingsstrategi.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ranibizumab er dog et antistoffragment mod VEGF-A. VEGF driver øget karpermeabilitet og nydannelse af kar i nethinden ved diabetisk retinopati, og ved at neutralisere VEGF-A virker ranibizumab direkte på denne mekanisme.
 
-De pivotale RIDE/RISE-forsøg viste regression af sværhedsgraden af diabetisk retinopati under ranibizumab, og fase 3-forsøget PAVILION undersøger direkte ranibizumab via Port Delivery System ved NPDR uden makulaødem.
+Diabetisk retinopati er allerede en kendt indikation for lægemidlet. Svær non-proliferativ diabetisk retinopati er et sværhedsstadium inden for samme sygdom og ikke en egentlig ny sygdom. Forudsigelsen er derfor biologisk meget plausibel, men har begrænset nyhedsværdi som repurposing.
 
-Datasættet har tomme felter for oprindelig indikation og virkningsmekanisme. Der er derfor sandsynligvis tale om en datamangel og ikke et ægte repurposing-tilfælde. Den gældende godkendte indikation for diabetisk retinopati bør verificeres i officielle kilder, før kandidaten klassificeres som repurposing.
+Litteraturen omfatter post-hoc-analyser af fase 3-forsøgene RIDE/RISE, der viser regression af sværhedsgraden af retinopati, samt PAVILION-forsøget med ranibizumab via Port Delivery System ved non-proliferativ retinopati uden makulaødem. Bemærk, at evidensniveauet L1 bygger på litteraturtitler og kendskab til RIDE/RISE- og PAVILION-programmerne og ikke på registrerede forsøg i datasættet. Det bør verificeres mod fuldtekst.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT04503551](https://clinicaltrials.gov/study/NCT04503551) | Fase 3 | Aktivt, rekrutterer ikke | 174 | Randomiseret forsøg med ranibizumab via Port Delivery System ved diabetisk retinopati uden central makulaødem. Samme lægemiddel og sygdom (relevans A). |
-| [NCT02634333](https://clinicaltrials.gov/study/NCT02634333) | Fase 3 | Afsluttet | 399 | DRCR Protocol W. Intravitreal anti-VEGF til forebyggelse af synstruende komplikationer ved NPDR. Det undersøgte middel er aflibercept, så evidensen gælder stofklassen. |
-| [NCT00444600](https://clinicaltrials.gov/study/NCT00444600) | Fase 3 | Afsluttet | 691 | DRCR Protocol I. Ranibizumab eller triamcinolon med laser ved diabetisk makulaødem. Endepunktet er makulaødem, ikke NPDR-sværhedsgrad. |
-| [NCT03452657](https://clinicaltrials.gov/study/NCT03452657) | Fase 3 | Ukendt | 118 | Intravitreal ranibizumab versus sham-injektioner til forebyggelse af højrisiko diabetisk retinopati. |
-| [NCT02834663](https://clinicaltrials.gov/study/NCT02834663) | Fase 4 | Afsluttet | 25 | Lille enkeltcenterstudie af ranibizumab ved makulaødem med NPDR, med fokus på mikroaneurismer og non-perfunderet retinaareal. |
-| [NCT05222633](https://clinicaltrials.gov/study/NCT05222633) | Ikke relevant | Ukendt | 1000 | Observationsstudie af anti-VEGF i den virkelige verden (bl.a. eksudativ AMD). Begrænset relevans for NPDR. |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret i de indsamlede data. Litteraturen refererer dog til forsøgene RIDE/RISE (NCT00473382 og NCT00473330), som kan bruges til videre verifikation.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmology | PAVILION: Port Delivery System med ranibizumab versus observation ved NPDR uden makulaødem. Afprøver kontinuerlig frigivelse med sjældnere behandling. |
-| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | Post hoc RCT-analyse | Clinical Ophthalmology | Prædiktorer for tidlig forbedring af diabetisk retinopati med ranibizumab i RIDE/RISE. |
-| [36161830](https://pubmed.ncbi.nlm.nih.gov/36161830/) | 2022 | Post hoc RCT-analyse | BMJ Open Ophthalmology | Ændringer i DRSS-score ved mindre hyppig ranibizumab efter induktion (RIDE/RISE-forlængelse). |
-| [28448655](https://pubmed.ncbi.nlm.nih.gov/28448655/) | 2017 | Sekundær RCT-analyse | JAMA Ophthalmology | Ændring i diabetisk retinopati over 2 år ved aflibercept, bevacizumab og ranibizumab. |
-| [30234859](https://pubmed.ncbi.nlm.nih.gov/30234859/) | 2018 | Sekundær RCT-analyse | Retina | DRCR Protocol I, 5-årsrapport: ændringer i retinopatiens sværhedsgrad under ranibizumab. |
-| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2024 | Systematisk review og metaanalyse | Health Technology Assessment | Anti-VEGF sammenlignet med laserfotokoagulation ved diabetisk retinopati. |
-| [40347224](https://pubmed.ncbi.nlm.nih.gov/40347224/) | 2025 | Systematisk review og økonomisk analyse | Health Technology Assessment | Anti-VEGF versus laser ved diabetisk retinopati, inkl. økonomisk vurdering. |
-| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opinion on Biological Therapy | Gennemgang af ranibizumab ved diabetisk retinopati. |
-| [36580154](https://pubmed.ncbi.nlm.nih.gov/36580154/) | 2023 | Biomarkørstudie | International Ophthalmology | Serum- og glaslegeme-VEGF ved diabetisk retinopati samt effekt af intravitreale injektioner. |
-| [37278412](https://pubmed.ncbi.nlm.nih.gov/37278412/) | 2023 | Simulation/modellering | BMJ Open Ophthalmology | Langtidseffekt af proaktiv anti-VEGF-behandling af svær NPDR versus behandling ved udvikling af PDR. |
+| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmology | PAVILION: ranibizumab via Port Delivery System versus observation ved non-proliferativ diabetisk retinopati uden makulaødem |
+| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | Post-hoc-analyse af RCT | Clinical Ophthalmology | Prædiktorer for tidlig regression af diabetisk retinopati med ranibizumab i RIDE/RISE |
+| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | Post-hoc-analyse/metaanalyse | Ophthalmology Retina | Sammenhæng mellem baseline-sværhedsgrad af retinopati og tid til opløsning af diabetisk makulaødem under ranibizumab |
+| [42219053](https://pubmed.ncbi.nlm.nih.gov/42219053/) | 2026 | Systematisk review/metaanalyse | European Journal of Pharmacology | Vedvarende ranibizumab-frigivelse (Port Delivery System) ved diabetisk retinopati og makulaødem |
+| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2025 | Systematisk review/metaanalyse | Health Technology Assessment | Anti-VEGF sammenlignet med laserfotokoagulation ved diabetisk retinopati |
+| [40347224](https://pubmed.ncbi.nlm.nih.gov/40347224/) | 2025 | Systematisk review/økonomisk analyse | Health Technology Assessment | Anti-VEGF versus laser: effekt og sundhedsøkonomi |
+| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opinion on Biological Therapy | Oversigt over ranibizumab ved diabetisk retinopati |
+| [36161830](https://pubmed.ncbi.nlm.nih.gov/36161830/) | 2022 | Post-hoc-analyse | BMJ Open Ophthalmology | Effekt af mindre hyppig ranibizumab-behandling på DRSS-score i RIDE/RISE' forlængelse |
+| [28448655](https://pubmed.ncbi.nlm.nih.gov/28448655/) | 2017 | Sekundæranalyse af RCT | JAMA Ophthalmology | Ændring i retinopati over 2 år med aflibercept, bevacizumab og ranibizumab |
+| [37278412](https://pubmed.ncbi.nlm.nih.gov/37278412/) | 2023 | Simulationsmodel | BMJ Open Ophthalmology | Langtidseffekt af proaktiv anti-VEGF-behandling ved svær NPDR |
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106507820 | Byooviz (Samsung Bioepis NL B.V.) | Injektionsvæske, opløsning | Ikke angivet i data |
+| 28106507820 | Byooviz (Samsung Bioepis NL B.V.) | Injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i evidenspakken. Der blev ikke fundet interaktioner i opslaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Kontraindikationer (fra vidensgraf, ikke produktresumé):** Øjeninfektionssygdom og konjunktivitis.
+
+Interaktionsoplysninger blev ikke fundet. For fuldstændige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -110,16 +105,18 @@ Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemidd
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Der er et direkte fase 3-forsøg med ranibizumab ved NPDR (PAVILION), en RCT-publikation fra 2025 og omfattende RIDE/RISE-data. Dertil kommer klasseevidens fra DRCR Protocol W og systematiske reviews.
-- Evidensniveau L1 bør læses med forbehold. De afsluttede fase 3-forsøg gælder enten aflibercept (Protocol W) eller makulaødem (Protocol I), mens det mest direkte forsøg (NCT04503551) endnu ikke er afsluttet.
-- Øvrige forudsagte indikationer (bl.a. forskellige katarakttyper) har ingen plausibel mekanisme eller kun modelbaseret støtte og vurderes som **Hold**.
+Mekanismen er biologisk stærkt understøttet, og litteraturen omfatter et randomiseret forsøg og analyser af fase 3-forsøg. Da svær NPDR er et sværhedsstadium inden for en eksisterende indikation, og da evidensniveauet ikke er verificeret mod fuldtekst eller registrerede forsøg, bør der fortsættes med forbehold.
 
 **For at komme videre kræves:**
-- Verifikation af den nuværende godkendte indikation i produktresuméet fra Lægemiddelstyrelsen, da indikationsteksten mangler.
-- Sikkerhedsoplysninger (advarsler, kontraindikationer, interaktioner) fra produktresuméet.
-- Data om virkningsmekanisme fra DrugBank.
-- Afklaring af, om Port Delivery System er tilgængeligt i Danmark, da lægemiddelformen i den danske registrering er injektionsvæske.
-- Endelige resultater og regulatorisk status for NCT04503551.
+- Verifikation af evidensniveau mod fuldtekst af PAVILION og RIDE/RISE samt registrering af de relevante forsøg
+- Godkendt indikationstekst og produktresumé (advarsler, kontraindikationer) for Byooviz fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme fra DrugBank
+- Afklaring af, om den biosimilære Byooviz-godkendelse dækker diabetisk retinopati i Danmark
+- Aktiv øjeninfektion og konjunktivitis bør vurderes som mulige kontraindikationer inden behandling
+
+---
+
+*Bemærkning om øvrige forudsigelser:* Forudsigelser for forskellige katarakttyper (diabetisk type 2-associeret, moden, umoden, kraniostenose- og tetanisk katarakt) har evidensniveau L4-L5 og anbefalingen **Hold**. Ranibizumab behandler ikke linseuklarhed, og de høje modelscorer afspejler sandsynligvis nærhed i vidensgrafen til diabetiske øjensygdomme snarere end en reel terapeutisk effekt.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Roxadustat
-parent: Moderat evidens (L3-L4)
-nav_order: 390
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 738
+evidence_level: L5
 indication_count: 10
 ---
 
 # Roxadustat
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Roxadustat: Fra renal anæmi til tørre øjne (dry eye syndrome)
+# Roxadustat: Fra refraktær anæmi til tørre øjne (dry eye syndrome)
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Roxadustat er en HIF-prolylhydroxylasehæmmer (HIF-PHI), der stabiliserer HIF-alfa og øger kroppens eget erythropoietin. Det anvendes mod renal anæmi. TxGNN-modellen forudsiger, at det kan have effekt ved **tørre øjne (dry eye syndrome)**. Evidensen er meget svag: **1 klinisk studie** (ikke-interventionelt, uden effektendepunkt for tørre øjne) og **ingen publikationer**.
+Roxadustat er en HIF-prolylhydroxylasehæmmer, som oprindeligt anvendes til behandling af refraktær anæmi (i EU godkendt til anæmi ved kronisk nyresvigt).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **tørre øjne (dry eye syndrome)**.
+Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 publikationer**, som understøtter den i de data, der er indsamlet til rapporten.
 
 ---
 
@@ -41,10 +43,10 @@ Roxadustat er en HIF-prolylhydroxylasehæmmer (HIF-PHI), der stabiliserer HIF-al
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata. Anvendelsen mod renal anæmi fremgår af studiebeskrivelsen i evidensen |
-| Forudsagt ny indikation | Dry eye syndrome (tørre øjne) |
-| TxGNN-prædiktionsscore | 99,51 % |
-| Evidensniveau | L4 |
+| Oprindelig indikation | Refraktær anæmi (godkendelsesteksten for indikationen er ikke angivet i de danske registerdata) |
+| Foreslået ny indikation | Tørre øjne (dry eye syndrome) |
+| TxGNN-forudsigelsesscore | 99,5 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -53,41 +55,47 @@ Roxadustat er en HIF-prolylhydroxylasehæmmer (HIF-PHI), der stabiliserer HIF-al
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i evidenspakken. Roxadustat er kendt som HIF-prolylhydroxylasehæmmer: det stabiliserer HIF-alfa og øger dermed det endogene erythropoietin. Hypoxi- og HIF-signalering kan teoretisk have betydning for øjets overflade og meibomske kirtlers biologi.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til rapporten. Roxadustat er dog kendt som en hæmmer af HIF-prolylhydroxylase (EGLN-enzymer). Hæmningen stabiliserer HIF (hypoxia-inducible factor) og øger bl.a. erythropoietin, hvilket er grundlaget for effekten ved anæmi.
 
-Der er dog ikke påvist en direkte sammenhæng med tørre øjne. Det eneste relaterede studie undersøger meibomske kirtlers funktion hos patienter med renal anæmi. Kronisk nyresygdom er i sig selv en betydelig konfounder for sygdom på øjets overflade, så et eventuelt signal kan ikke tilskrives roxadustat. Forudsigelsen bør derfor betragtes som et forskningsspørgsmål, ikke en behandlingsanbefaling.
+HIF-signalering påvirker cellernes respons på iltmangel, inflammation og vævsreparation. Det kan hypotetisk have betydning for hornhindens og øjenoverfladens epitelreparation og inflammation ved tørre øjne. Koblingen er dog **hypotetisk**: den oprindelige indikation (anæmi) og tørre øjne har ikke et oplagt patofysiologisk slægtskab, og der er hverken kliniske forsøg eller litteratur, der underbygger den. Den høje score er alene en beregningsmæssig forudsigelse. Ruteforenlighed er heller ikke vurderet: roxadustat findes kun som oral tablet, og en okulær anvendelse ville sandsynligvis kræve en anden formulering.
 
-Modellen foreslog også andre indikationer, nemlig Pagets knoglesygdom, dentinogenesis imperfecta, planocellulært karcinom og pulpaforkalkning. Alle ligger på evidensniveau L5 uden studier eller litteratur. De vurderes som Hold, og for flere af dem (især dentinogenesis imperfecta) er der ingen plausibel mekanisme.
+**Andre forudsigelser fra modellen** (samme evidensniveau L5, alle med anbefalingen Hold):
+
+| Forudsagt indikation | TxGNN-score | Kommentar |
+|------|------|------|
+| Pagets knoglesygdom (bone Paget disease) | 99,1 % | HIF påvirker knoglemodellering, men effektens retning er usikker |
+| Dentinogenesis imperfecta | 99,1 % | Genetisk strukturel defekt (typisk DSPP); lægemiddelkorrektion er usandsynlig |
+| Pladecellekarcinom (squamous cell carcinoma) | 99,0 % | HIF-stabilisering kan potentielt fremme tumorvækst, hvilket giver et sikkerhedsmæssigt forbehold |
+| Pulpaforkalkning (dental pulp calcification) | 99,0 % | Fremmet mineralisering kan forværre i stedet for at behandle tilstanden |
 
 ---
 
-## Klinisk evidens
+## Klinisk evidens fra forsøg
 
-| Studienummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | Ikke relevant (NA) | Ukendt | 50 | Undersøger meibomske kirtlers funktion og morfologi hos patienter med renal anæmi og symptomer på tørre øjne. Roxadustat nævnes som en almindelig behandling af renal anæmi. Der er ikke noget roxadustat-specifikt interventionsarm eller effektendepunkt for tørre øjne. Kun indirekte evidens (relevans: B) |
-
-Der er ikke registreret EudraCT-numre.
+Der er i øjeblikket ikke registreret relevante kliniske forsøg.
 
 ---
 
 ## Litteraturevidens
 
-I øjeblikket er der ingen relateret litteratur.
+Der foreligger i øjeblikket ingen relevant litteratur.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106434120 | Evrenzo (Astellas Pharma Europe B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i data |
+| 28106434120 | Evrenzo (Astellas Pharma Europe B.V.) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de tilgængelige data. Ifølge anden kilde er EMA-godkendelsen (august 2021) til anæmi ved kronisk nyresvigt |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige sikkerhedsdata i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Der er registreret én farmakologisk interaktion, nemlig roxadustats hæmning af målproteinet EGLN2 (egl-9 family hypoxia inducible factor 2). Dette er lægemidlets tilsigtede virkningsmekanisme og ikke en klinisk interaktion med et andet lægemiddel. Der er ikke angivet noget interaktionsniveau.
+- **Særligt forbehold ved kræft**: Da HIF-stabilisering er involveret i tumorbiologi (tilpasning til iltmangel, angiogenese, stofskifte), kan brug ved pladecellekarcinom potentielt være tumorfremmende.
+
+For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse oplysninger ikke indgår i de data, der er indsamlet til rapporten.
 
 ---
 
@@ -96,16 +104,14 @@ Der er ikke tilgængelige sikkerhedsdata i evidenspakken. Se det godkendte produ
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger på en høj modelscore, men det eneste relaterede studie er ikke-interventionelt og kan ikke understøtte et effektkrav. Der er ingen litteratur, og nyresygdom som konfounder gør det svært at tolke eventuelle signaler. HIF-stabilisering er desuden generelt forbundet med tumorprogression, hvilket giver en teoretisk sikkerhedsbekymring, især i forbindelse med den forudsagte indikation planocellulært karcinom.
+Forudsigelsen om tørre øjne bygger udelukkende på en modelscore (99,5 %) uden understøttende kliniske forsøg eller litteratur (evidensniveau L5). Den mekanistiske kobling er hypotetisk, og lægemidlet findes kun som oral tablet.
 
-**For at komme videre kræves:**
-- Hente advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Indhente detaljerede data om virkningsmekanismen (fx via DrugBank)
-- Præklinisk eller mekanistisk evidens for HIF-PH-hæmning ved tørre øjne og meibomsk kirtelfunktion
-- Resultater fra studiet NCT06287879 og en kontrolleret analyse, der tager højde for effekten af nyresygdom
-- Vurdering af administrationsvej, da roxadustat er et oralt præparat, og tørre øjne normalt behandles lokalt
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) til en egentlig mekanistisk analyse
+- Gennemgang af produktresuméet for advarsler og kontraindikationer (nødvendig før sikkerhedsscreening)
+- Prækliniske studier eller litteraturgennemgang af HIF-stabilisering ved øjenoverfladen
+- Vurdering af, om en okulær formulering er nødvendig, samt af systemisk versus lokal sikkerhed
+- Registrering af eventuelle kliniske forsøg, før en egentlig vurdering kan påbegyndes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

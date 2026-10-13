@@ -2,7 +2,7 @@
 layout: default
 title: Anidulafungin
 parent: Kun modelforudsigelse (L5)
-nav_order: 40
+nav_order: 66
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anidulafungin: Fra invasiv candidiasis til impetigo
+# Anidulafungin: Fra esophageal candidiasis og candidaemi til impetigo
 
 ## Resumé i én sætning
 
-Anidulafungin er et svampemiddel af echinocandin-klassen. Evidenspakken angiver ikke en original indikation, men klassen anvendes til invasive Candida-infektioner. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **impetigo**, men der er **0 kliniske forsøg** og **0 publikationer** til støtte for denne retning, og der er ingen understøttet mekanistisk forbindelse.
+Anidulafungin er et antimykotikum af echinocandin-klassen, som oprindeligt anvendes til behandling af esophageal candidiasis og candidaemi.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **impetigo**,
+men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte denne forudsigelse. Den vurderes sandsynligvis at være falsk positiv.
 
 ---
 
@@ -41,7 +43,7 @@ Anidulafungin er et svampemiddel af echinocandin-klassen. Evidenspakken angiver 
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke angivet i Lægemiddelstyrelsens data (klassens kendte anvendelse: invasiv candidiasis) |
+| Oprindelig indikation | Esophageal candidiasis og candidaemi (de godkendte indikationstekster for det danske produkt er ikke tilgængelige i de indsamlede data) |
 | Forudsagt ny indikation | Impetigo |
 | TxGNN-forudsigelsesscore | 98,85 % |
 | Evidensniveau | L5 |
@@ -53,52 +55,51 @@ Anidulafungin er et svampemiddel af echinocandin-klassen. Evidenspakken angiver 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der er i øjeblikket ingen detaljerede data om virkningsmekanisme i evidenspakken. Anidulafungin tilhører echinocandin-klassen, som hæmmer svampenes enzym beta-1,3-D-glukansyntase og dermed opbygningen af cellevæggen.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Anidulafungin tilhører echinocandin-klassen, som hæmmer enzymet beta-(1,3)-D-glucansyntase i svampes cellevæg. Denne virkning er veletableret ved invasive candida-infektioner.
 
-Impetigo er en hudinfektion, der skyldes bakterier, typisk *Staphylococcus aureus* eller *Streptococcus pyogenes*. Bakterier har ikke dette målenzym, og der forventes derfor ikke antibakteriel virkning. Den høje modelscore (0,989) er en ren grafbaseret forudsigelse uden klinisk eller litteraturmæssig opbakning.
+Impetigo skyldes hovedsageligt *Staphylococcus aureus* og *Streptococcus pyogenes*. Det er bakterier, som ikke har beta-glucan i cellevæggen, og som derfor ikke har det target, anidulafungin virker på. Der er således ikke noget plausibelt mekanistisk link mellem den oprindelige og den forudsagte indikation.
 
-**Vurdering:** Forudsigelsen har ingen understøttet mekanistisk forklaring og bør betragtes som et modelartefakt, indtil andet er påvist.
+Den høje score (0,989) afspejler formentlig kun nærhed i vidensgrafen (f.eks. til andre infektionssygdomme) og ikke biologisk rationale. Forudsigelsen bør derfor fortolkes med stor forsigtighed.
 
----
-
-## Kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteratur
-
-Der er i øjeblikket ingen relateret litteratur for impetigo.
+Modellen genererede også andre forudsigelser med tilsvarende høje scorer, som ligeledes savner støtte:
+- **Malign pleuramesoteliom** (score 98,75 %) og **malign visceral pleuratumor** (98,45 %): anidulafungin har ingen kendt antineoplastisk mekanisme.
+- **Staphylokok-skoldet hud-syndrom** (98,73 %): sygdommen er toksinmedieret og behandles med antibakterielle midler, som anidulafungin ikke har aktivitet som.
+- **Pleuraempyem** (98,52 %): se afsnittet om litteratur nedenfor.
 
 ---
 
-## Øvrige forudsagte indikationer
+## Evidens fra kliniske forsøg
 
-Evidenspakken indeholder yderligere forudsigelser med tilsvarende høje scorer. Rækkerne er dubletter i kilden og vises her kun én gang.
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Kommentar |
-|------|------|------|------|
-| Malign pleural mesoteliom | 98,75 % | L5 | Ingen understøttet mekanistisk forbindelse; humane tumorceller udtrykker ikke svampens glukansyntase |
-| Staphylococcal scalded skin syndrome | 98,73 % | L5 | Toksinmedieret sygdom (eksfoliative toksiner); anidulafungin har ingen antibakteriel eller antitoksin-virkning |
-| Pleuraempyem | 98,52 % | L4 | Indirekte og begrænset understøttelse, se nedenfor |
-| Malign visceral pleuratumor | 98,45 % | L5 | Som ved mesoteliom er målstrukturen fraværende |
-
-**Pleuraempyem:** Et farmakokinetisk studie fra 2018 ([PMID 29439960](https://pubmed.ncbi.nlm.nih.gov/29439960/), *Antimicrobial Agents and Chemotherapy*) målte anidulafungin i ascitesvæske og pleuraeffusion hos 10 kritisk syge voksne. Koncentrationerne i pleuraeffusion (0,32-2,02 µg/ml) var lavere end i plasma (2,48-13,36 µg/ml), men viser en vis eksponering i pleurarummet. Studiet vurderer ikke effekt ved empyem, og de fleste empyemer er bakterielle. Fundet er kun relevant for den svampeforårsagede del.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation i Danmark
+## Litteraturevidens
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er ingen litteratur om anidulafungin ved impetigo. Den eneste relevante publikation findes for den sekundære forudsigelse pleuraempyem:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [29439960](https://pubmed.ncbi.nlm.nih.gov/29439960/) | 2018 | Farmakokinetisk studie | Antimicrobial Agents and Chemotherapy | Hos 10 kritisk syge patienter nåede anidulafungin pleuraekssudat (0,32–2,02 µg/ml) og ascitesvæske (0,12–0,99 µg/ml) i koncentrationer under plasmaniveauet. Studiet viser vævspenetration, ikke klinisk effekt. |
+
+---
+
+## Information om markedet i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105926717 | Anidulafungin "Accord" (Accord Healthcare B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i data |
+| 28105926717 | Anidulafungin "Accord" (Accord Healthcare B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+Lægemidlet findes udelukkende som injektionsvæske (intravenøs infusion).
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer fra vidensgrafen** (ikke fra produktresuméet): lever- og galdeblæresygdom. Dette er afledt af relationer i vidensgrafen og bør verificeres mod produktresuméet.
+- **Lægemiddelinteraktioner**: Der er identificeret én interaktion, med **ciclosporin** (sværhedsgrad: mindre, kilde: DDInter).
+
+Se i øvrigt det godkendte produktresumé (SPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -107,15 +108,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for impetigo hviler alene på en grafbaseret modelscore. Der er hverken kliniske forsøg eller publikationer, og virkningsmekanismen (hæmning af svampens glukansyntase) passer ikke til en bakteriel infektion. Evidensniveauet er L5.
+Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5) uden kliniske forsøg eller litteratur. Anidulafungin har ingen aktivitet mod de bakterier, der forårsager impetigo, så forudsigelsen er sandsynligvis falsk positiv.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Oplysninger om advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé, som er forudsætning for sikkerhedsscreening
-- Den godkendte indikationstekst for den danske markedsføringstilladelse
-- Enhver ny hypotese bør først belyses med præklinisk eller mekanistisk evidens. Pleuraempyem (fungal delmængde) er den eneste forudsigelse med indirekte støtte og kan overvejes som et forskningsspørgsmål.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanismen (MOA), f.eks. fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (afgørende for sikkerhedsscreening)
+- Præklinisk evidens (f.eks. in vitro-aktivitet) for en eventuel antimikrobiel effekt, før yderligere vurdering overvejes
+- Om ønsket: en separat vurdering af pleuraempyem begrænset til svampeetiologi, hvor farmakokinetiske data er i overensstemmelse med den godkendte virkning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

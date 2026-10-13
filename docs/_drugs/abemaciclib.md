@@ -2,7 +2,7 @@
 layout: default
 title: Abemaciclib
 parent: Moderat evidens (L3-L4)
-nav_order: 12
+nav_order: 14
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,21 +29,22 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Abemaciclib: Fra brystkræft til reumatoid artrit
+# Abemaciclib: Fra oprindelig indikation til leddegigt (rheumatoid arthritis)
 
-## Resumé i én sætning
+## Sammenfatning i én sætning
 
-Abemaciclib er en oral CDK4/6-hæmmer, som anvendes til hormonreceptorpositiv (HR+), HER2-negativ brystkræft. TxGNN-modellen forudsiger, at det kan have effekt ved **reumatoid artrit**. Forudsigelsen understøttes af **0 kliniske forsøg** og **1 publikation**, og publikationen omhandler ikke behandling af reumatoid artrit.
+Abemaciclib er en CDK4/6-hæmmer, der er markedsført i Danmark som Verzenios (filmovertrukne tabletter). De data, der er indsamlet til denne rapport, indeholder ikke en registreret indikationstekst for lægemidlet.
+TxGNN-modellen forudsiger, at det kan have effekt ved **leddegigt (rheumatoid arthritis)**, men der er **ingen kliniske forsøg** og kun **2 publikationer** (en kohortestudie og et præklinisk studie), så evidensen er meget svag.
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HR+/HER2-negativ brystkræft (den danske registrering angiver ingen indikationstekst; oplysningen er udledt af de tilknyttede kliniske studier) |
-| Forudsagt ny indikation | Reumatoid artrit |
-| TxGNN-forudsigelsesscore | 97,32 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for godkendelsen er tom) |
+| Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
+| TxGNN-prædiktionsscore | 97,3 % |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,35 +52,38 @@ Abemaciclib er en oral CDK4/6-hæmmer, som anvendes til hormonreceptorpositiv (H
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Abemaciclib tilhører gruppen af CDK4/6-hæmmere, og dets effekt ved HR+/HER2-negativ brystkræft er veldokumenteret. Mekanistisk kan det principielt være relevant ved reumatoid artrit.
+Abemaciclib hæmmer CDK4/6, som styrer overgangen fra G1- til S-fase i cellecyklussen. Detaljerede data om virkningsmekanisme fra lægemiddeldatabasen er ikke tilgængelige, så beskrivelsen her bygger på den kendte lægemiddelklasse.
 
-CDK4/6-hæmning begrænser celleproliferation. Ved reumatoid artrit driver proliferation af lymfocytter og synoviocytter (leddets bindevævsceller) den kroniske inflammation. Hvis proliferationen dæmpes, kan autoimmun inflammation i princippet reduceres. Sammenhængen er **plausibel, men ikke bevist**.
+Ved leddegigt driver overdreven vækst af fibroblastlignende synoviocytter (FLS) fortykkelse af synovialhinden og ledødelæggelse. Hæmning af CDK4/6 kan derfor teoretisk dæmpe denne proliferation. CDK4/6-hæmning kan desuden påvirke T-celle- og inflammatoriske signalveje (fx JAK/STAT-relaterede veje).
 
-Den eneste publikation er et kohortestudie fra 2025 af eksisterende og nyopståede immunmedierede sygdomme hos brystkræftpatienter i behandling med CDK4/6-hæmmere. Studiet ser ud til at beskrive sikkerhed og immunrelaterede hændelser og ikke behandling af reumatoid artrit. Det giver ingen effektdata, og retningen af effekten (gavnlig eller opblussen af sygdom) fremgår ikke af titlen. Den høje score (0,973) er udelukkende en beregningsbaseret forudsigelse.
+Evidensen er dog indirekte. Et præklinisk studie anvender en nanoplatform til at hæmme FLS, og en kohortestudie fra brystkræftpatienter belyser autoimmune sygdomme under CDK4/6-hæmning, hvilket er et sikkerheds-/epidemiologisk signal og ikke bevis for effekt. Den høje TxGNN-score er udelukkende en computerbaseret forudsigelse.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen kliniske forsøg registreret for reumatoid artrit.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for leddegigt.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Kohortestudie (formodet retrospektivt; verificér i fuld tekst) | The Oncologist | Undersøger forekomsten af autoimmune sygdomme hos patienter med HR+/HER2-negativ brystkræft i behandling med CDK4/6-hæmmere og mulige prædiktive biomarkører. Ingen effektdata for reumatoid artrit. |
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Kohortestudie | The Oncologist | Undersøger forekomsten af eksisterende og nye autoimmune sygdomme hos patienter med HR+/HER2- brystkræft behandlet med CDK4/6-hæmmere og endokrin terapi. Giver et sikkerhedssignal, ikke effektdata for leddegigt. |
+| [42289719](https://pubmed.ncbi.nlm.nih.gov/42289719/) | 2026 | Præklinisk studie | Journal of Nanobiotechnology | Pn-responsiv nanoplatform (Mn/Si-Abe@BSA) med abemaciclib, der inducerer cellecyklusstop og apoptose i FLS i leddegigtmodeller. Viser ikke effekt hos patienter. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105997117 | Verzenios (Eli Lilly Nederland B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de foreliggende data |
+| 28105997117 | Verzenios | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+
+Indehaver: Eli Lilly Nederland B.V. Administrationsvej: oral.
 
 ---
 
@@ -87,19 +91,24 @@ Der er i øjeblikket ingen kliniske forsøg registreret for reumatoid artrit.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (selektiv CDK4/6-hæmmer), ikke konventionel cytostatika |
-| Risiko for myelosuppression | Medium (neutropeni er en kendt bivirkning ved CDK4/6-hæmmere; generel klassifikation, ikke fra Evidence Pack) |
-| Emetogenicitetsklassifikation | Lav (generel klassifikation) |
-| Monitoreringspunkter | Komplet blodtælling (CBC), leverfunktion |
-| Håndteringsbeskyttelse | Oral tablet; se produktresuméet (SmPC) og lokale retningslinjer for håndtering af antineoplastiske lægemidler |
+| Cytotoksicitetsklassifikation | Målrettet behandling (CDK4/6-hæmmer, kinasehæmmer) |
+| Myelosuppressionsrisiko | Se produktresumé (SmPC); neutropeni er kendt for lægemiddelklassen |
+| Emetogenicitetsklassifikation | Se produktresumé (SmPC) |
+| Overvågningspunkter | Se produktresumé (SmPC); typisk blodtælling samt lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Se produktresumé (SmPC) og lokale retningslinjer for håndtering af kræftlægemidler |
 
-Ovenstående er generelle klassifikationer. Se produktresuméet (SmPC) for præcise advarsler og forholdsregler.
+Bemærk: Klassificeringen bygger på den kendte lægemiddelklasse, da toksicitetsdata ikke indgår i de indsamlede data. Se produktresuméets (SmPC) advarsler og forsigtighedsregler.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner** (100 interaktioner registreret i alt; nedenfor vises eksempler fra de indsamlede data):
+
+- **Alvorlige (Major):** clarithromycin, cobicistat, deferipron, samarium (153Sm) lexidronam, lumacaftor
+- **Moderate:** aprepitant, clotrimazol, dexamethason, metformin, metreleptin, naltrexon, troglitazon, deferasirox, palifermin, strontiumchlorid Sr-89, ticagrelor, roflumilast, chloramphenicol, erythromycin, fluconazol
+
+For yderligere sikkerhedsoplysninger, advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -108,16 +117,24 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellens score og en plausibel, men ubevist mekanistisk hypotese. Der er ingen kliniske forsøg og ingen litteratur om effekt ved reumatoid artrit. De øvrige forudsagte indikationer (bl.a. hypertyreose, multipel endokrin neoplasi og homozygot familiær hypercholesterolæmi) har evidensniveau L5 eller ingen relevante studier og er ikke stærkere.
+Der findes ingen kliniske forsøg for leddegigt, og litteraturen består kun af et indirekte sikkerhedssignal fra kræftpatienter og et præklinisk nanoplatformstudie. Den høje TxGNN-score (97,3 %) er en ren modelforudsigelse og er ikke understøttet af klinisk evidens.
 
 **For at komme videre kræves følgende:**
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (blokerende datahul, forudsætning for sikkerhedsscreening)
-- Data om virkningsmekanisme fra DrugBank
-- Fuld tekst af kohortestudiet (PMID 40504547) for at afklare, om immunmedierede hændelser og eventuel opblussen af autoimmun sygdom er beskrevet
-- Præklinisk evidens for CDK4/6-hæmning i modeller for reumatoid artrit
-- Kliniske studier eller mekanistiske studier, før en ny indikation kan overvejes
+- Data om virkningsmekanisme (MOA) fra lægemiddeldatabasen
+- Produktresumé (SmPC) med advarsler og kontraindikationer samt godkendt indikationstekst fra Lægemiddelstyrelsen
+- Yderligere prækliniske data (fx i dyremodeller for leddegigt) og efterfølgende fase 2-forsøg
+- Vurdering af sikkerhedsprofilen (bl.a. neutropeni, diarré, venøs tromboemboli og de mange lægemiddelinteraktioner) i en kronisk autoimmun population
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+---
+
+## Øvrige forudsagte indikationer (til orientering)
+
+TxGNN forudsiger også andre indikationer, men alle med meget svag evidens:
+
+- **Multipel endokrin neoplasi (score 97,1 %, L4):** Ét fase 1-forsøg ([NCT03878524](https://clinicaltrials.gov/study/NCT03878524), afsluttet i utide med 2 deltagere), som er en generel præcisionsonkologisk platform og ikke specifik for denne sygdom. Beslutning: Hold.
+- **Hypertyreose (score 97,2 %, L5):** Ingen forsøg, ingen litteratur og intet identificeret mekanistisk link. Beslutning: Hold.
+- **Resistens over for thyreoideahormon (TRβ-mutation) (score 96,9 %, L5):** Ingen evidens eller plausibelt mekanistisk link. Beslutning: Hold.
+- **Homozygot familiær hyperkolesterolæmi (score 96,6 %, L5):** Ingen evidens; onkologispecifik toksicitet taler imod brug ved kronisk metabolisk sygdom. Beslutning: Hold.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

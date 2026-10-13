@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 332
+nav_order: 628
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Panitumumab: Fra kolorektal cancer til lægemiddelinduceret osteoporose
+# Panitumumab: Fra metastatisk tyktarmskræft til lægemiddelinduceret osteoporose
 
-## Resumé
+## Opsummering i én sætning
 
-Panitumumab er et monoklonalt antistof mod EGFR, der anvendes i kræftbehandling (kolorektal cancer). Dette fremgår ikke af den danske indikationstekst i datagrundlaget, som er tom, men er almen viden om lægemidlet. TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Evidensen er udelukkende modelbaseret, og en skadelig effekt kan ikke udelukkes.
-
----
+Panitumumab er et monoklonalt antistof mod EGFR, som oprindeligt anvendes til behandling af metastatisk kræft i tyktarmen.
+TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Den er udelukkende beregningsbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske data (almen viden: kolorektal cancer) |
+| Oprindelig indikation | Metastatisk kræft i tyktarmen (fra videnbasen; godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
 | TxGNN-forudsigelsesscore | 99,13 % |
 | Evidensniveau | L5 |
@@ -49,83 +49,72 @@ Panitumumab er et monoklonalt antistof mod EGFR, der anvendes i kræftbehandling
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor kan forudsigelsen være rimelig?
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Panitumumab er kendt som et fuldt humant monoklonalt antistof, der blokerer den epidermale vækstfaktorreceptor (EGFR). Dets effekt ved metastatisk tyktarmskræft er etableret.
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Panitumumab er et antistof mod EGFR (epidermal vækstfaktorreceptor), og dets effekt i den oprindelige indikation bygger på hæmning af EGFR-signalering i tumorceller.
+EGFR-signalering spiller en rolle i osteoblastdifferentiering og knogleomsætning, så EGFR-blokade kan i princippet påvirke knoglemetabolismen. Retningen er dog tvivlsom: EGFR-hæmning vil sandsynligvis snarere hæmme knogledannelsen end beskytte mod osteoporose. Anti-EGFR-behandling er desuden forbundet med hypomagnesæmi og hypokalcæmi, som kan påvirke knoglerne negativt.
 
-EGFR-signalering menes at understøtte osteoblastaktivitet og knogleomsætning. Hæmning af EGFR sammen med de kendte bivirkninger hypomagnesæmi og hypocalcæmi i denne lægemiddelklasse kan derfor i princippet **forværre** knoglesundheden i stedet for at behandle osteoporose. Den høje score er dermed ikke understøttet af en mekanistisk forklaring.
+Den høje score (0,991) er en ren modelberegning uden klinisk eller litterær støtte. Mekanismen bør derfor betragtes som spekulativ.
 
-De øvrige forudsigelser i top 10 er alle på evidensniveau L5 og har samme svage grundlag. Dubletter i listen er slået sammen:
+Modellen forudsiger også andre indikationer med lignende høje scorer, alle på evidensniveau L5 og uden forsøg eller litteratur:
 
-- **Svær ikke-proliferativ diabetisk retinopati (99,05 %) og diabetisk retinopati (98,96 %):** Der findes en teoretisk rolle for EGFR i retinal angiogenese og inflammation. Panitumumab er et systemisk IgG2-antistof med begrænset øjenpenetration og kendte øjen- og hudbivirkninger. Standardbehandling (anti-VEGF, laser) er langt bedre dokumenteret.
-- **Diabetisk katarakt (98,90 %), nukleær senil katarakt og kortikal katarakt (begge 98,81 %):** Der er ikke påvist nogen mekanisme. Scorerne afspejler sandsynligvis nærhed i vidensgrafen og ikke et selvstændigt signal. Et systemisk onkologisk antistof er desuden ikke realistisk til en langsomt fremadskridende tilstand, der kan behandles kirurgisk.
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Svær non-proliferativ diabetisk retinopati | 99,05 % | Kun indirekte (EGFR–VEGF-krydstale). Stort IgG2-antistof ville kræve intravitreal administration; ingen okulære sikkerhedsdata; etablerede anti-VEGF-behandlinger findes |
+| Diabetisk retinopati | 98,96 % | Samme spekulative begrundelse som ovenfor |
+| Diabetisk grå stær | 98,90 % | Svag, indirekte sammenhæng via linseepitelceller; ingen evidens; behandles kirurgisk |
+| Nuklear senil grå stær | 98,81 % | Ingen troværdig mekanistisk sammenhæng identificeret |
+| Kortikal grå stær | 98,81 % | Kun svag, indirekte sammenhæng; ingen evidens |
 
----
-
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
+## Evidens fra litteraturen
 
-## Litteraturevidens
+Der er i øjeblikket ingen relevant litteratur tilgængelig.
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+## Markedsinformation for Danmark
 
----
-
-## Information om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103945506 | Vectibix (Amgen Europe BV) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de tilgængelige data |
-
-Præparatet gives som injektion/infusion.
-
----
+| 28103945506 | Vectibix (Amgen Europe BV) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt antistof mod EGFR), ikke konventionel cytotoksisk kemoterapi |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC). Ud fra lægemiddelklassen er det relevant at overveje elektrolytter (især magnesium og calcium) samt hud- og øjenstatus. |
-| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering af onkologiske lægemidler. Se SmPC. |
-
----
+| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt anti-EGFR-antistof), ikke konventionelt cytotoksisk |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC); anti-EGFR-behandling er kendt for at kunne give hypomagnesæmi og hypokalcæmi, så elektrolytter er relevante at følge |
+| Beskyttelse ved håndtering | Følg lokale retningslinjer for håndtering af antineoplastiske lægemidler |
 
 ## Sikkerhedsovervejelser
 
-Datagrundlaget indeholder ingen registrerede advarsler, kontraindikationer eller interaktioner. Det er en mangel, som skal afhjælpes, før en sikkerhedsvurdering er mulig.
+Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-Ud fra lægemiddelklassen er følgende dog relevant for de forudsagte indikationer:
+**Lægemiddelinteraktioner** (27 registrerede i alt; et udvalg er vist):
 
-- **Hypomagnesæmi og hypocalcæmi:** Kan potentielt forværre knoglesundheden.
-- **Øjen- og hudtoksicitet** (f.eks. keratitis og øjenlidelser): Taler imod anvendelse ved øjensygdomme.
+- **Alvorlige (Major)**: amiodaron, arsentrioxid, bevacizumab, dofetilid, dronedaron, droperidol, aminolevulinsyre, irinotecan (herunder liposomal), levacetylmethadol
+- **Moderate**: protonpumpehæmmere (rabeprazol, omeprazol, dexlansoprazol, esomeprazol, lansoprazol, pantoprazol), methoxsalen, topikal aminolevulinsyre, disopyramid, idelalisib
 
-Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsinformation.
-
----
+Ved eventuel anvendelse bør især kombinationer med QT-forlængende lægemidler og med bevacizumab og irinotecan vurderes nøje.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er udelukkende modelbaserede (L5), uden kliniske forsøg eller litteratur. For den højest rangerede indikation, osteoporose, taler mekanismen og lægemiddelklassens kendte bivirkninger snarere imod end for en gavnlig effekt. De øvrige forudsigelser (retinopati og katarakt) har heller ingen defineret mekanisme og en uhensigtsmæssig risiko-nytte-profil.
+Forudsigelsen er udelukkende beregningsbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Den mekanistiske retning er tvivlsom, da EGFR-blokade snarere kan skade end beskytte knoglerne, og den kendte toksicitetsprofil passer dårligt til en kronisk, ikke-malign tilstand.
 
 **For at komme videre kræves følgende:**
-- Danske advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé (blokerende datamangel)
-- Detaljerede data om virkningsmekanismen (f.eks. fra DrugBank)
-- Den godkendte indikationstekst for Vectibix i Danmark
-- Prækliniske data, der understøtter en gavnlig effekt af EGFR-hæmning ved de forudsagte sygdomme, især en afklaring af, om retningen er skadelig ved osteoporose
-- En systematisk litteratur- og forsøgssøgning efter dokumentation for de forudsagte indikationer
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) og en grundig mekanistisk gennemgang af EGFR-hæmning og knoglemetabolisme
+- Prækliniske data, der understøtter en gavnlig effekt på knogler
+- Produktresuméets advarsler og kontraindikationer (blokerende datamangel for sikkerhedsscreening)
+- Afklaring af administrationsvej og risk-benefit i forhold til eksisterende behandlinger
+- Systematisk litteratur- og forsøgssøgning for den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

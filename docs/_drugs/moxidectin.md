@@ -2,7 +2,7 @@
 layout: default
 title: Moxidectin
 parent: Kun modelforudsigelse (L5)
-nav_order: 302
+nav_order: 569
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moxidectin: Fra parasitbehandling til polyklonalt hyperviskositetssyndrom
+# Moxidectin: Fra onchocerciasis til polyklonalt hyperviskositetssyndrom
 
-## Resumé i få sætninger
+## Resumé i en sætning
 
-Moxidectin er et makrocyklisk lacton mod parasitter. I Danmark er det kun registreret som dyrlægemiddel (Cydectin Vet.).
-TxGNN-modellen forudsiger, at stoffet kan have effekt ved **polyklonalt hyperviskositetssyndrom**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på modellens score.
-
----
+Moxidectin er et antiparasitært middel af makrocyklisk lakton-typen, som oprindeligt er knyttet til behandling af onchocerciasis (flodblindhed).
+TxGNN-modellen forudsiger, at det kan have effekt ved **polyklonalt hyperviskositetssyndrom**, men der foreligger **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (dyrlægemiddel mod parasitter) |
+| Oprindelig indikation | Onchocerciasis (fra vidensgrafen; det danske markedsføringsnummer har ingen angivet indikationstekst) |
 | Forudsagt ny indikation | Polyklonalt hyperviskositetssyndrom |
 | TxGNN-forudsigelsesscore | 98,06 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (kun som dyrlægemiddel) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+Bemærk: Den eneste danske tilladelse er til et veterinært præparat (Cydectin Vet.). Der findes ingen kendt human godkendelse i Danmark i de data, der er indsamlet til denne rapport.
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Moxidectin er et makrocyklisk lacton, som virker på glutamat-styrede kloridkanaler hos hvirvelløse dyr. Det giver lammelse og død hos parasitter. Detaljerede mekanismedata fra DrugBank mangler i det foreliggende datagrundlag, så vurderingen bygger på stoffets kendte farmakologi.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de indsamlede data. Moxidectin tilhører de makrocykliske laktoner, som generelt virker på glutamat-styrede kloridkanaler hos nematoder og derved lammer og dræber parasitten. Effekten ved onchocerciasis er den kendte anvendelse.
 
-Polyklonalt hyperviskositetssyndrom skyldes forhøjede niveauer af immunglobulin eller andre proteiner i blodet. Der er ingen kendt biologisk forbindelse mellem en antiparasitær ionkanalmodulator og denne tilstand. Den høje score afspejler sandsynligvis mønstre i vidensgrafens topologi snarere end reel biologisk relevans.
+Polyklonalt hyperviskositetssyndrom skyldes forhøjede niveauer af serumimmunoglobuliner, fx ved autoimmun sygdom eller kronisk infektion. Der er ingen plausibel mekanistisk forbindelse til et antiparasitært middel. Den høje score på 0,98 afspejler sandsynligvis mønstre i vidensgrafen snarere end biologi.
 
-De øvrige topforudsigelser har samme score og samme evidensniveau (L5) og er heller ikke mekanistisk understøttet:
-- **Hyperamylasæmi:** et laboratoriefund med pancreatiske, spytkirtel- og renale årsager. Moxidectin har ingen kendt effekt på serumamylase.
-- **Kongenit analbuminæmi:** en sjælden genetisk lidelse i albuminsyntesen (ALB-genet).
-- **Staphylokok-skoldet-hud-syndrom:** forårsaget af toksiner fra *Staphylococcus aureus* og allerede behandlet med antibiotika. Moxidectin har ingen kendt antibakteriel aktivitet.
-- **Variola minor:** moxidectin har ingen kendt antiviral aktivitet mod orthopoxvira. Sygdommen er desuden udryddet, så klinisk afprøvning er ikke mulig.
+De øvrige forudsigelser i listen er vurderet på samme måde og har samme evidensniveau (L5) og anbefaling (Hold):
 
----
+| Forudsagt indikation | Score | Vurdering af mekanistisk forbindelse |
+|------|------|------|
+| Hyperamylasæmi | 98,06 % | Ingen kendt virkning på amylaseproduktion eller -udskillelse |
+| Kongenit analbuminæmi | 97,90 % | Genetisk defekt i ALB-genet; ikke korrigerbar med et småmolekylært antiparasitært middel |
+| Staphylokok-skoldet-hud-syndrom | 97,83 % | Toksinmedieret bakteriel sygdom; moxidectin har ingen antibakteriel eller antitoksin-aktivitet |
+| Variola minor-infektion | 97,78 % | Orthopoxvirus; ingen kendt antiviral aktivitet, og sygdommen er udryddet, så klinisk afprøvning er ikke mulig |
 
-## Dokumentation fra kliniske forsøg
+Flere af forudsigelserne optræder dobbelt i data og er kun vurderet én gang.
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+## Kliniske forsøg
 
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-## Dokumentation fra litteraturen
+## Litteratur
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
----
+## Information om det danske marked
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringsnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101576293 | Cydectin Vet. (Zoetis Animal Health ApS) | Injektionsvæske, opløsning | Ikke angivet i registret |
-
-Produktet er et nationalt godkendt dyrlægemiddel. Der er ikke fundet noget humant lægemiddel med moxidectin i de foreliggende data.
-
----
+| 28101576293 | Cydectin Vet. (Zoetis Animal Health ApS) | Injektionsvæske, opløsning | Ingen indikationstekst angivet (veterinært præparat) |
 
 ## Sikkerhedsovervejelser
 
-Der blev ikke fundet nogen registrerede interaktioner i de foreliggende data. Vvedr. advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da sikkerhedsdata fra Lægemiddelstyrelsen mangler.
-
----
+Der er ikke fundet oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene modelbaseret (L5), uden kliniske forsøg eller publikationer og uden plausibel mekanistisk sammenhæng. Det eneste danske produkt er et dyrlægemiddel, og sikkerhedsdata er ikke tilgængelige.
+Forudsigelsen hviler udelukkende på en modelscore uden støtte fra kliniske forsøg, litteratur eller en troværdig mekanistisk forbindelse. Den eneste danske tilladelse er veterinær, og sikkerhedsdata mangler.
 
-**For at komme videre kræves:**
-- Mekanismedata (MOA) for moxidectin fra DrugBank og en ny vurdering af den mekanistiske sammenhæng
-- Sikkerhedsdata fra produktresuméet (advarsler og kontraindikationer) til sikkerhedsscreening
-- Prækliniske eller in vitro-data, der understøtter en forbindelse til den forudsagte sygdom, før yderligere overvejelser
-- Afklaring af, om et humant præparat er relevant, da den danske tilladelse kun dækker dyrlægebrug
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer for et relevant humant præparat
+- Prækliniske eller mekanistiske data, der kan underbygge en sammenhæng med den forudsagte indikation
+- Afklaring af, om der findes en human godkendelse eller tilgængelighed i Danmark, samt administrationsvej-kompatibilitet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

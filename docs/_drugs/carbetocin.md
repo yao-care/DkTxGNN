@@ -2,7 +2,7 @@
 layout: default
 title: Carbetocin
 parent: Kun modelforudsigelse (L5)
-nav_order: 92
+nav_order: 160
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Carbetocin: Fra forebyggelse af postpartum blødning til isotretinoin-lignende syndrom
+# Carbetocin: Fra Prader-Willi syndrom og Noonan syndrom til isotretinoin-lignende syndrom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Carbetocin er en langtidsvirkende oxytocinreceptor-agonist, der bruges som livmodersammentrækkende middel til at forebygge postpartum blødning.
-TxGNN-modellen forudsiger, at det kan have effekt på **isotretinoin-lignende syndrom** (og sekundært på Goodman syndrom), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på modellens grafbaserede score.
+Carbetocin er en langtidsvirkende oxytocinreceptoragonist, som i Danmark er markedsført som injektionsvæske, og som i den anvendte vidensgraf er knyttet til Prader-Willi syndrom og Noonan syndrom. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **isotretinoin-lignende syndrom**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse. Forudsigelsen er derfor kun en computerbaseret hypotese.
 
 ---
 
@@ -42,51 +41,51 @@ TxGNN-modellen forudsiger, at det kan have effekt på **isotretinoin-lignende sy
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Forebyggelse af postpartum blødning (livmodersammentrækkende effekt). Indikationsteksten i den danske registrering er ikke tilgængelig. |
-| Forudsagt ny indikation | Isotretinoin-lignende syndrom (retinsyre-embryopati) |
-| TxGNN-prædiktionsscore | 99,15 % |
+| Oprindelig indikation | Prader-Willi syndrom og Noonan syndrom (ifølge vidensgrafen). Den danske godkendelse indeholder ingen angivet indikationstekst. |
+| Forudsagt ny indikation | Isotretinoin-lignende syndrom |
+| TxGNN-forudsigelsesscore | 99,15 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Den næstbedste forudsigelse er Goodman syndrom (acrocephalopolysyndactyli type IV) med en score på 99,06 %, også på evidensniveau L5. Dubletter i inputtet er slået sammen.
+---
+
+## Hvorfor er denne forudsigelse rimelig?
+
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Carbetocin er ifølge de indsamlede farmakologidata en agonist på oxytocinreceptoren (OXTR). Den kliniske anvendelse er forebyggelse af postpartum blødning som følge af uterin atoni. En intranasal formulering (LV-101) har desuden været under udvikling til Prader-Willi syndrom med henblik på at dæmpe den ekstreme sult og hyperfagi hos disse patienter.
+
+Der kan ikke identificeres nogen plausibel biologisk sammenhæng mellem oxytocinreceptoragonisme og isotretinoin-lignende syndrom, som er et fænotypisk billede, der ligner retinoid-embryopati. Forudsigelsen hviler udelukkende på den høje modelscore. Den kan afspejle, at sygdommene ligger tæt på hinanden i vidensgrafen, fx via fælles gener eller fænotyper med de oprindelige indikationer, snarere end en reel terapeutisk sammenhæng.
+
+Som supplerende information forudsiger modellen også **Goodman syndrom** (en akrocefalopolysyndaktyli-lidelse med skeletal udviklingspåvirkning) med en score på 99,06 %. Heller ikke her er der evidens eller en identificeret mekanistisk forbindelse.
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Evidens fra kliniske forsøg
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i Evidence Pack. Carbetocin er en oxytocinreceptor-agonist, og virkningen som livmodersammentrækkende middel er veletableret ved forebyggelse af postpartum blødning.
-
-Isotretinoin-lignende syndrom er et medfødt misdannelsessyndrom, der skyldes forstyrret retinoidsignalering under fosterudviklingen. Goodman syndrom er en sjælden medfødt skeletal misdannelsessygdom. Ingen af de to tilstande har et oplagt terapeutisk mål for et peptidbaseret uterotonikum, og oxytocinreceptor-agonisme har ingen kendt relevans for deres patofysiologi.
-
-Vi har derfor **ikke identificeret en plausibel mekanistisk sammenhæng**. Den høje TxGNN-score afspejler en mønstergenkendelse i vidensgrafen og bør ikke tolkes som klinisk støtte.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
 
 ---
 
-## Klinisk evidens
+## Evidens fra litteraturen
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der findes i øjeblikket ingen relateret litteratur.
+Der foreligger i øjeblikket ingen relateret litteratur for den forudsagte indikation.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106576821 | Carbetocin "Aguettant" | Injektionsvæske, opløsning i fyldt injektionssprøjte | Laboratoire Aguettant |
+| 28106576821 | Carbetocin "Aguettant" (Laboratoire Aguettant) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen registrerede data om advarsler, kontraindikationer eller interaktioner (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Interaktionssøgningen er gennemført og gav ét resultat. Det er dog en farmakologisk målstrukturpost (oxytocinreceptoren, OXTR) og ikke en interaktion med et andet lægemiddel. Der er derfor ingen kliniske interaktioner at rapportere ud fra de indsamlede data.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner.
 
 ---
 
@@ -95,15 +94,14 @@ Der foreligger ingen registrerede data om advarsler, kontraindikationer eller in
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Sikkerhedsdata fra det danske produktresumé mangler desuden, så videre sikkerhedsscreening ikke er mulig.
+Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5) uden kliniske forsøg, uden litteratur og uden en identificeret mekanistisk sammenhæng mellem oxytocinreceptoragonisme og isotretinoin-lignende syndrom. Sikkerhedsdata fra produktresuméet mangler desuden.
 
 **For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
-- Data om virkningsmekanisme (MOA), fx via DrugBank
-- Prækliniske eller mekanistiske studier, der kan begrunde en sammenhæng med retinoidsignalering eller skeletal udvikling
-- En vurdering af, om lægemidlet er klinisk relevant for en medfødt udviklingsforstyrrelse, hvor behandling efter fødslen næppe kan ændre forløbet
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomlægning kræver klinisk validering, før de kan anvendes.*
+- Detaljerede data om virkningsmekanismen (MOA), fx fra DrugBank
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- En litteratur- og mekanismegennemgang, der kan afklare, om der findes en biologisk forbindelse mellem oxytocinsignalering og den forudsagte sygdom
+- Prækliniske eller mekanistiske studier, hvis hypotesen skal forfølges
+- Vurdering af administrationsvej, da det kun er en injektionsvæske, der er markedsført i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

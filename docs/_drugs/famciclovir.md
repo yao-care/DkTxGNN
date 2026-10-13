@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Famciclovir
-parent: Kun modelforudsigelse (L5)
-nav_order: 186
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 345
+evidence_level: L4
 indication_count: 10
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Famciclovir: Fra antiviral behandling af herpesvirus til post-infektiøs neuralgi
+# Famciclovir: Fra helvedesild til postinfektiøs neuralgi
 
 ## Resumé
 
-Famciclovir er et antiviralt middel mod herpesvirus (ifølge almindelig farmakologi, da datagrundlaget ikke angiver en oprindelig indikation). TxGNN-modellen forudsiger, at det kan have effekt ved **post-infektiøs neuralgi** (herunder postherpetisk neuralgi). Der er dog kun **2 kliniske forsøg** i området, og ingen af dem tester famciclovir. Der er **ingen publikationer**, der direkte understøtter retningen.
+Famciclovir er et antiviralt middel (prodrug af penciclovir), som oprindeligt anvendes til behandling af helvedesild (herpes zoster).
+TxGNN-modellen forudsiger, at det kan være virksomt mod **postinfektiøs neuralgi** (herunder postherpetisk neuralgi).
+Evidensen er meget begrænset: der er **1 klinisk forsøg** (som dog undersøger oxycodon, ikke famciclovir) og **ingen publikationer**.
 
 ---
 
@@ -41,9 +43,10 @@ Famciclovir er et antiviralt middel mod herpesvirus (ifølge almindelig farmakol
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Post-infektiøs neuralgi |
+| Oprindelig indikation | Herpes zoster (helvedesild) |
+| Forudsagt ny indikation | Postinfektiøs neuralgi |
 | TxGNN-forudsigelsesscore | 99,75 % |
-| Evidensniveau | L5 (ingen studier med famciclovir; evidenspakken angiver L4 på baggrund af en indirekte mekanistisk begrundelse) |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -52,40 +55,42 @@ Famciclovir er et antiviralt middel mod herpesvirus (ifølge almindelig farmakol
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) foreligger ikke i datagrundlaget. Ud fra almindelig farmakologi er famciclovir et prodrug af penciclovir, som hæmmer viralt DNA-polymerase. Det virker mod herpesvirus, herunder varicella-zoster-virus (VZV), som forårsager helvedesild.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Famciclovir er dog kendt som en prodrug af penciclovir, som hæmmer varicella-zoster-virus' (VZV) DNA-replikation. Dets virkning ved helvedesild er veletableret.
 
-Postherpetisk neuralgi er den hyppigste komplikation efter helvedesild. Tidlig antiviral behandling af akut zoster kan tænkes at begrænse nerveskade og dermed senere neuralgi. Mekanismen er dog indirekte: lægemidlet rammer virus og ikke selve den neuropatiske smerte. Det er derfor ikke dokumenteret, at famciclovir virker på etableret neuralgi.
+Postherpetisk neuralgi er en hyppig komplikation efter helvedesild. Der er derfor en plausibel, men indirekte sammenhæng: tidlig antiviral behandling kan begrænse den virale skade på nervevæv og dermed muligvis mindske risikoen for vedvarende nervesmerter. Forudsigelsen overlapper i høj grad med den oprindelige indikation og er ikke en egentlig ny indikation.
 
-Modellen foreslog også andre indikationer, men med svagere eller mere indirekte støtte. For AIDS-relaterede lidelser findes der litteratur (evidensniveau L3), som drejer sig om herpesvirus-komplikationer og ikke om HIV selv. For COVID-19-følger, hepatitis C-induceret levercirrose og malignt pleuramesoteliom er der ingen troværdig mekanistisk begrundelse i data.
+Det eneste identificerede forsøg undersøger oxycodon og ikke famciclovir, og giver derfor ingen direkte evidens for famciclovir.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | Ikke relevant (N/A) | Endnu ikke rekrutterende | 120 | Nerveblokade (liposomal bupivacain eller ropivacain) og pulseret radiofrekvens mod smerter ved akut herpes zoster. Famciclovir indgår ikke; ingen direkte evidens. |
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Ikke relevant (N/A) | Ukendt | 140 | Tidlig brug af oxycodon i den akutte fase af herpes zoster for at forebygge postherpetisk neuralgi. Relevant population og endepunkt, men interventionen er en opioid og ikke famciclovir. |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Ikke relevant (NA) | Ukendt | 140 | Tidlig brug af oxycodon i den akutte fase af helvedesild for at forebygge postherpetisk neuralgi. Famciclovir er ikke den undersøgte intervention; forsøget er kun relevant som sygdomskontekst. |
 
 ---
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relevant litteratur for denne indikation.
+Der findes i øjeblikket ingen relevant litteratur for denne forudsagte indikation.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104339608 | Famciclovir "Viatris" (Viatris Limited) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28104339608 | Famciclovir "Viatris" (Viatris Limited) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer (fra vidensgraf, ikke produktresumé)**: Vidensgrafen (PrimeKG) angiver sammenhæng med nyresygdom og pyoureter. Dette er ikke hentet fra produkttekst og bør verificeres.
+- **Lægemiddelinteraktioner**: 84 potentielle interaktioner er registreret i DDInter, alle uden angivet alvorlighedsgrad. Eksempler: calcitriol, doxycyclin, metformin, omeprazol, pantoprazol, morphin, simvastatin, prednisolon, vancomycin og kaliumchlorid.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -94,16 +99,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har en høj modelscore, men der er ingen forsøg eller publikationer med famciclovir ved post-infektiøs neuralgi. Mekanismen er indirekte, og sikkerhedsdata fra produktresuméet mangler, hvilket blokerer den videre sikkerhedsscreening.
+Forudsigelsen ligger tæt på den eksisterende indikation (helvedesild), og det eneste identificerede forsøg undersøger et andet lægemiddel. Der er ingen direkte evidens for famciclovir til forebyggelse eller behandling af postherpetisk neuralgi, og evidensniveauet er L4 (kun mekanistisk plausibilitet).
 
 **For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Den godkendte indikation for det danske præparat
-- Kliniske studier eller systematiske reviews, der direkte undersøger famciclovir til forebyggelse eller behandling af postherpetisk neuralgi
-- Afklaring af, om forsøg med akut zoster kan oversættes til etableret neuralgi
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+- Målrettet litteratursøgning efter studier af famciclovir (eller andre antivirale midler) og forebyggelse af postherpetisk neuralgi
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af produktresuméet (advarsler og kontraindikationer), da disse data mangler
+- Vurdering af dosering og behandlingsvarighed samt nyrefunktionshensyn
+- Eventuelt et velkontrolleret klinisk forsøg, hvis den kliniske hypotese understøttes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

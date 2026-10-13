@@ -2,7 +2,7 @@
 layout: default
 title: Levonorgestrel
 parent: Moderat evidens (L3-L4)
-nav_order: 265
+nav_order: 496
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Levonorgestrel: Fra hormonel prævention til acne
+# Levonorgestrel: Fra osteoporose til akne
 
-## Sammenfatning
+## Opsummering i én sætning
 
-Levonorgestrel er et syntetisk gestagen, som kendes fra hormonel prævention. Litteraturen i datagrundlaget handler primært om p-piller, hormonspiral og implantater. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **acne**, men evidensen er svag. Der er **5 registrerede kliniske forsøg**, som alle er vurderet som kun svagt relevante (grad C), og **20 publikationer**, hvoraf kun én er et randomiseret forsøg med et kombinationspræparat. Anbefalingen er derfor **Hold**.
+Levonorgestrel er et gestagen (kvindeligt kønshormon), som i den anvendte vidensgraf er knyttet til osteoporose og postmenopausal osteoporose, og som i Danmark er markedsført som tablet.
+TxGNN-modellen forudsiger, at det kan have effekt på **akne**, men der er **ingen registrerede kliniske forsøg** og kun **20 publikationer**, hvoraf kun ét er et randomiseret forsøg, og det vedrører en kombinationspille med ethinylestradiol.
+Evidensen er derfor svag, og forudsigelsen er ikke understøttet af en klar mekanisme for levonorgestrel alene.
 
 ---
 
@@ -41,72 +43,66 @@ Levonorgestrel er et syntetisk gestagen, som kendes fra hormonel prævention. Li
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Litteraturen peger på hormonel prævention |
-| Forudsagt ny indikation | Acne |
+| Oprindelig indikation | Postmenopausal osteoporose og osteoporose (iflg. vidensgrafen). Den danske tilladelse indeholder ingen godkendt indikationstekst. |
+| Forudsagt ny indikation | Akne |
 | TxGNN-forudsigelsesscore | 99,88 % |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Der er i øjeblikket ingen detaljerede data om virkningsmekanisme. Levonorgestrel tilhører gruppen af syntetiske gestagener, og stoffets kliniske brug er veletableret. Om mekanismen kan overføres til acne, er dog tvivlsomt.
+Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Levonorgestrel er et gestagen, som bruges i prævention og i hormonelle intrauterine systemer og implantater.
 
-Kombinerede p-piller kan bedre acne ved at dæmpe ovariernes androgenproduktion og øge SHBG (kønshormonbindende globulin). Den gavnlige effekt tilskrives hovedsageligt østrogenkomponenten og gestagener med anti-androgen virkning. Levonorgestrel er et 19-nortestosteronderivat med en vis restandrogen aktivitet (PMID 7825629), og acne er en kendt bivirkning ved levonorgestrelholdige produkter. Den mekanistiske sammenhæng er derfor uklar og kan i værste fald pege i den forkerte retning.
+Forbindelsen mellem de oprindelige indikationer (osteoporose) og akne er ikke oplagt. Modellens høje score (0,999) bygger på mønstre i vidensgrafen og ikke på en påvist biologisk sammenhæng.
 
-Den høje TxGNN-score (0,999) er en grafbaseret forudsigelse og ikke klinisk dokumentation for, at levonorgestrel virker mod acne.
+Litteraturen peger faktisk i modsat retning: Levonorgestrel har en vis resterende androgen aktivitet (PMID 7825629), hvilket er uønsket ved akne. Den dermatologiske gavn, der er beskrevet, tilskrives hovedsageligt kombinerede p-piller, hvor østrogenkomponenten øger SHBG og sænker frie androgener, samt antiandrogene gestagener som chlormadinonacetat. Levonorgestrel-systemer og implantater beskrives mest i prævention-oversigter, hvor akne oftere nævnes som en mulig bivirkning end som en fordel. Den eneste randomiserede undersøgelse (PMID 12196750) testede en kombination af 20 µg ethinylestradiol og 100 µg levonorgestrel, så effekten kan ikke tilskrives levonorgestrel alene.
 
 ---
 
 ## Klinisk evidens fra forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT00480532](https://clinicaltrials.gov/study/NCT00480532) | Ikke relevant (NA) | Afsluttet | 131 | Kontinuerlig p-pille kombineret med doxycyclin for at mindske uplanlagte blødninger. Acne er ikke et endepunkt, og levonorgestrels bidrag kan ikke isoleres |
-| [NCT01650168](https://clinicaltrials.gov/study/NCT01650168) | Ikke relevant (N/A) | Afsluttet | 101.498 | Stort kohortestudie af sikkerhed ved p-piller med nomegestrol og estradiol sammenlignet med levonorgestrelholdige p-piller. Informerer ikke om acne |
-| [NCT00161226](https://clinicaltrials.gov/study/NCT00161226) | Ikke relevant (N/A) | Afbrudt | 44 | Levonorgestrel-hormonspiral til forebyggelse af endometriecancer hos kvinder med høj BMI. Acne er ikke målindikation |
-| [NCT05570786](https://clinicaltrials.gov/study/NCT05570786) | Fase 2 | Afsluttet | 100 | Randomiseret, placebokontrolleret forsøg med gestrinon-implantat mod endometriosesmerter. Det er ikke bekræftet, at levonorgestrel indgår, eller at acne er indikationen |
-| [NCT05492487](https://clinicaltrials.gov/study/NCT05492487) | Fase 2 | Ukendt | 60 | Pilotstudie af fertilitetsbevarende behandling af atypisk endometriehyperplasi (Mirena mod megestrol). Ikke relateret til acne |
-
-Ingen af forsøgene undersøger levonorgestrel som behandling af acne.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | RCT | J Am Acad Dermatol | Randomiseret, placebokontrolleret forsøg med lavdosis p-pille (20 µg ethinylestradiol + 100 µg levonorgestrel) ved moderat acne. Kombinationspræparat, så levonorgestrels egen effekt kan ikke adskilles |
-| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Oversigt | Drugs | Ethinylestradiol/chlormadinonacetat var signifikant mere effektivt end ethinylestradiol/levonorgestrel til behandling af mild til moderat papulopustuløs acne |
-| [6084924](https://pubmed.ncbi.nlm.nih.gov/6084924/) | 1984 | Klinisk studie | Acta Derm Venereol | 54 kvinder med acne blev behandlet med to p-piller (desogestrel eller levonorgestrel plus ethinylestradiol). Studiet målte testosteron og SHBG |
-| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Oversigt | Am J Clin Dermatol | Dermatologiske fordele ved ethinylestradiol/chlormadinonacetat ved acne, hirsutisme og hårtab. Handler ikke om levonorgestrel |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Oversigt | Am J Med | Androgenicitet af gestagener. 19-kulstof-gestagener, herunder levonorgestrel, har androgen aktivitet |
-| [16796485](https://pubmed.ncbi.nlm.nih.gov/16796485/) | 2006 | Oversigt | J Womens Health | Drospirenon sammenlignet med bl.a. levonorgestrel. Drospirenons anti-androgene egenskaber kan reducere acne |
-| [32909630](https://pubmed.ncbi.nlm.nih.gov/32909630/) | 2020 | Systematisk oversigt | Cochrane Database Syst Rev | Levonorgestrel-hormonspiral ved endometriehyperplasi. Ikke relateret til acne |
-| [10652979](https://pubmed.ncbi.nlm.nih.gov/10652979/) | 1999 | Oversigt/kohorte | Hum Reprod Update | P-piller og venøs tromboembolisme, analyseret for de enkelte præparater. Relevant for sikkerhed |
-| [14688179](https://pubmed.ncbi.nlm.nih.gov/14688179/) | 2004 | Klinisk studie | Hum Reprod | Levonorgestrel-hormonspiral ved endometriose. Ikke relateret til acne |
-| [11727177](https://pubmed.ncbi.nlm.nih.gov/11727177/) | 2001 | Oversigt | Semin Reprod Med | Gestagenfrigivende spiraler og deres antiproliferative effekt på endometriet. Ikke relateret til acne |
+De mest relevante publikationer (ikke alle 20 er medtaget):
 
-De øvrige ti publikationer handler om præventionsmetoder generelt (implantater, injektioner, spiraler) og er ikke relevante for acne.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | Randomiseret, placebokontrolleret forsøg | J Am Acad Dermatol | Lavdosis p-pille (20 µg ethinylestradiol + 100 µg levonorgestrel) undersøgt ved moderat akne; mål var at sænke biotilgængelige androgener. |
+| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Oversigtsartikel | Drugs | Ethinylestradiol/chlormadinonacetat var mere effektiv end ethinylestradiol/levonorgestrel mod mild til moderat akne. |
+| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Oversigtsartikel | Am J Clin Dermatol | Dermatologiske fordele ved ethinylestradiol/chlormadinonacetat ved akne, hirsutisme og seboré. |
+| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Oversigtsartikel | Am J Med | Gennemgang af progestiners androgenicitet; 19-carbon-progestiner som levonorgestrel har en vis androgen effekt. |
+| [30088446](https://pubmed.ncbi.nlm.nih.gov/30088446/) | 2018 | Oversigtsartikel | Curr Drug Targets | Molekylære interaktioner mellem steroider og sebumproduktion. |
+| [11727177](https://pubmed.ncbi.nlm.nih.gov/11727177/) | 2001 | Oversigtsartikel | Semin Reprod Med | Levonorgestrel-frigivende intrauterint system: prævention og reduceret menstruationsblødning. |
+| [11091988](https://pubmed.ncbi.nlm.nih.gov/11091988/) | 2000 | Oversigtsartikel | Obstet Gynecol Clin North Am | Levonorgestrel-implantater til prævention. |
+| [8489751](https://pubmed.ncbi.nlm.nih.gov/8489751/) | 1993 | Oversigtsartikel | Ann Med | Hormonspiral (20 µg/dag) med lav graviditetsrate (Pearl-indeks 0,09). |
+| [14688179](https://pubmed.ncbi.nlm.nih.gov/14688179/) | 2004 | Klinisk undersøgelse | Hum Reprod | Intrauterint levonorgestrel ved symptomer på endometriose. |
+| [32909630](https://pubmed.ncbi.nlm.nih.gov/32909630/) | 2020 | Cochrane-oversigt | Cochrane Database Syst Rev | Levonorgestrel-frigivende intrauterint system ved endometriehyperplasi. |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105330313 | Frivelle (Orifarm Generics A/S) | Tabletter (oral) | Ikke angivet i datagrundlaget |
+| 28105330313 | Frivelle (Orifarm Generics A/S) | Tabletter | Indikationstekst er ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer/risikotilstande fra vidensgrafen** (ikke fra produktresuméet): hypertension, epilepsi, angstlidelse, porfyri, nyresygdom, leversygdom, galdeblæresygdom, hyperglykæmi og diabetes (inkl. ketoacidose), hypothyreose, systemisk lupus erythematosus, astma, blodkoagulationsforstyrrelser, hypertriglyceridæmi, hypercalcæmi og nefrokalcinose.
 
-Litteraturen peger på to forhold, der bør undersøges nærmere ved en eventuel vurdering: acne er en kendt bivirkning ved levonorgestrelholdige produkter, og kombinerede p-piller er forbundet med risiko for venøs tromboembolisme (PMID 10652979).
+**Lægemiddelinteraktioner** (100 registrerede; kun et udpluk er nævnt, alle af moderat sværhedsgrad): antidiabetika som acarbose, canagliflozin, dapagliflozin, ertugliflozin, exenatid, liraglutid, linagliptin, nateglinid og forskellige insuliner, samt aprepitant, clotrimazol, glycerolphenylbutyrat og linaclotid.
+
+Derudover skal godkendt produktresumé (SmPC) konsulteres for fuldstændige advarsler og kontraindikationer, da disse ikke var tilgængelige i de indsamlede data.
 
 ---
 
@@ -115,17 +111,13 @@ Litteraturen peger på to forhold, der bør undersøges nærmere ved en eventuel
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der findes ingen kliniske forsøg, hvor levonorgestrel er undersøgt som behandling af acne. Det eneste relevante randomiserede forsøg bruger et kombinationspræparat med ethinylestradiol, så levonorgestrels bidrag kan ikke isoleres. Samtidig kan stoffets androgene egenskaber tale imod en gavnlig effekt. Den høje modelscore er ikke klinisk evidens.
+Der er ingen kliniske forsøg for levonorgestrel alene ved akne, og litteraturen antyder snarere, at dets androgene aktivitet kan være ufordelagtig. Den høje modelscore er ikke understøttet af en tydelig mekanisme, og evidensen er på L4-niveau. De øvrige forudsigelser (bl.a. Worth syndrom, graviditetsassocieret osteoporose og sjældne øjensygdomme) er rent beregningsmæssige uden evidens (L5) og bør ligeledes afvente.
 
-De øvrige forudsagte indikationer (Worth syndrom, graviditetsassocieret osteoporose, autosomal dominant neovaskulær inflammatorisk vitreoretinopati, apokrin adenose og "blunt duct" adenose i brystet) har kun modelgrundlag (L5) og ingen kliniske data. De bør heller ikke føres videre.
-
-**For at komme videre kræves følgende:**
-- Indhente produktresuméet fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation.
-- Hente data om virkningsmekanisme fra DrugBank.
-- Afklare om det danske præparat (Frivelle) er et monopræparat eller et kombinationspræparat.
-- Finde eller gennemføre sammenlignende data på levonorgestrel alene, helst mod anti-androgene gestagener, for at afgøre om stoffet bidrager til eller forværrer acne.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+**For at komme videre kræves:**
+- Produktresumé med advarsler og kontraindikationer for det danske præparat (Frivelle)
+- Data om virkningsmekanismen (MOA)
+- Kontrollerede studier, der isolerer effekten af levonorgestrel fra østrogenkomponenten ved akne
+- Vurdering af, om androgen aktivitet og hormonelle bivirkninger opvejer en eventuel gavn
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

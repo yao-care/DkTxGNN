@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Misoprostol
-parent: Kun modelforudsigelse (L5)
-nav_order: 297
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 561
+evidence_level: L4
 indication_count: 4
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Misoprostol: Fra en ikke angivet oprindelig indikation til amenoré
+# Misoprostol: Fra mavesår/NSAID-relaterede indikationer til amenoré
 
-## Resumé i få sætninger
+> Bemærk: De tilgængelige data indeholder ingen godkendt indikationstekst for det danske præparat. Titlens oprindelige indikation er derfor ikke dokumenteret i de indsamlede data (se afsnittet "Hurtigt overblik").
 
-Misoprostol er en prostaglandin E1-analog og er i Danmark markedsført som tabletter (Angusta). Den godkendte indikationstekst indgår ikke i datagrundlaget. TxGNN-modellen forudsiger, at stoffet kan være relevant ved **amenoré**, men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer**. Ingen af dem viser, at misoprostol behandler amenoré. Den høje modelscore afspejler sandsynligvis nærhed til graviditet og abort i vidensgrafen og bør ikke læses som et terapeutisk signal.
+## Resumé
+
+Misoprostol er et prostaglandin E1-analog, som er markedsført i Danmark som tabletter (Angusta). Den oprindelige indikation fremgår ikke af de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré** (score 99,6 %), men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer**, som primært handler om medicinsk abort og ikke om behandling af amenoré.
 
 ---
 
@@ -41,29 +44,33 @@ Misoprostol er en prostaglandin E1-analog og er i Danmark markedsført som table
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Amenoré |
-| TxGNN-prædiktionsscore | 99,64 % |
-| Evidensniveau | L4 (iht. Evidence Pack). Litteraturen understøtter ikke effekt ved amenoré. |
+| TxGNN-forudsigelsesscore | 99,6 % |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
-
-## Hvorfor er denne forudsigelse (ikke) rimelig?
-
-Der foreligger ikke detaljerede data om virkningsmekanisme. Misoprostol er en prostaglandin E1-analog med uterotoniske virkninger og effekt på modning af livmoderhalsen. Stoffet bruges til at fremkalde livmoderblødning og udstødning ved graviditetsafbrydelse. Der er derfor ingen etableret mekanisme, der taler for behandling af amenoré.
-
-Den høje TxGNN-score (0,996) skyldes sandsynligvis, at amenoré i litteraturen ofte nævnes som et tegn på graviditet. Det gør sygdommen "nabo" til abort og graviditet i vidensgrafen. Forudsigelsen bør derfor ikke tolkes som et reelt behandlingssignal.
-
-Modellen foreslår også **atypisk coarctatio aortae** (score 99,30 %). Der er ingen klinisk evidens for dette. Den eneste tænkelige forbindelse er en hypotese om klasseeffekt: PGE1 (alprostadil) bruges til at holde ductus arteriosus åben hos nyfødte med duktusafhængig aortaobstruktion. Det er ikke et stofspecifikt fund. Misoprostol er oralt, har uterotoniske og teratogene effekter og anvendes ikke til dette formål. Indikationerne optrådte to gange i input, og dubletterne er slået sammen.
+Bemærk: Forudsigelsen optrådte to gange i inputtet (duplikat) og er vurderet én gang. Evidensniveauet er sat til L4 ud fra den vurdering, der ligger i de indsamlede data; der foreligger ingen afsluttede fase 2/3-forsøg for den forudsagte indikation.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Hvorfor er denne forudsigelse rimelig (eller ikke)?
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Misoprostol er dog kendt som et syntetisk prostaglandin E1-analog, der fremkalder livmodersammentrækninger og modner livmoderhalsen.
+
+Den fundne litteratur handler hovedsageligt om misoprostol (oftest kombineret med mifepriston) til tidlig medicinsk abort og udeblevet abort. Det vil sige håndtering af graviditetsrelateret blødning eller afbrydelse af graviditet, ikke behandling af selve amenorén. Forbindelsen til amenoré er indirekte: Amenoré (udeblevne menstruationer) indgår som inklusionskriterium (≤35 dages amenoré) i abortstudierne, men det er ikke et behandlingsmål.
+
+Den meget høje TxGNN-score er udelukkende en computerbaseret forudsigelse. Dataene understøtter ikke en plausibel mekanisme, hvormed misoprostol skulle genoprette menstruation.
+
+Til sammenligning blev en anden forudsigelse (atypisk coarctatio aortae, score 99,3 %) også identificeret. Den har ingen kliniske forsøg eller litteratur og er kun en spekulativ hypotese baseret på, at PGE1-analoger (alprostadil) bruges til at holde ductus arteriosus åben. Misoprostol er ikke et valideret alternativ hertil, og sikkerheden (herunder uterine sammentrækninger og teratogen risiko) er ikke vurderet.
+
+---
+
+## Evidens fra kliniske forsøg
+
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
@@ -71,31 +78,43 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | Reproductive Sciences | Lavdosis mifepriston med selvadministreret misoprostol til ultratidlig medicinsk abort (744 kvinder). Amenoré er her inklusionskriterium (graviditet), ikke behandlingsmål. |
-| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT (dosisfinding) | Reproductive Sciences | 2.500 kvinder med ultratidlig graviditet fik mifepriston i faldende doser efterfulgt af 200 µg oralt misoprostol. Primært endepunkt var komplet abort uden kirurgi. |
-| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Prospektivt gennemførlighedsstudie | Human Reproduction | Forebyggelse af uønsket graviditet med lavdosis mifepriston og misoprostol før forventet menstruation. |
-| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | Prospektivt studie | J Obstet Gynaecol Res | Sikkerhed og effekt af selvadministreret misoprostol med lavdosis mifepriston ved tidlig graviditetsafbrydelse. |
-| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Review/klinisk rapport | BMJ | Medicinsk håndtering af missed abortion og anembryonal graviditet. Abstract mangler. |
-| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Review | J Obstet Gynaecol Can | Endometrieablation ved abnorm uterin blødning. Omhandler ikke misoprostol. |
-| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case report | Cureus | Akut fedtlever i graviditeten. Amenoré er blot et præsentationssymptom, og artiklen handler ikke om misoprostols effekt. |
+| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | Reproductive Sciences | Lavdosis mifepriston + selvadministreret misoprostol til ultratidlig medicinsk abort hos 744 kvinder (amenoré ≤35 dage); effekt, sikkerhed og acceptabilitet undersøgt |
+| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT (dosisinterval) | Reproductive Sciences | 2500 kvinder med ultratidlig graviditet randomiseret til 5 doser mifepriston (150-50 mg) efterfulgt af 200 µg oral misoprostol; primært endepunkt var komplet abort uden kirurgi |
+| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Klinisk studie | Human Reproduction | Lavdosis mifepriston + misoprostol før forventet menstruation til forebyggelse af uønsket graviditet |
+| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | Klinisk studie | J Obstet Gynaecol Res | Sikkerhed og effekt af selvadministreret misoprostol med lavdosis mifepriston ved tidlig abort |
+| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Oversigt | BMJ | Medicinsk behandling af udeblevet abort og anembryonal graviditet |
+| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Oversigt | J Obstet Gynaecol Can | Endometrieablation ved abnorm uterin blødning (ingen direkte relation til misoprostol) |
+| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case report | Cureus | Akut fedtlever under graviditet hos patient med amenoré (graviditetsrelateret; ingen direkte relation til misoprostol-behandling) |
 
-Samlet vurdering: Publikationerne handler om graviditetsafbrydelse eller graviditetsrelaterede tilstande. Ingen undersøger misoprostol som behandling af amenoré.
+Ingen af publikationerne undersøger misoprostol som behandling af amenoré.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105745216 | Angusta | Tabletter (oral) | Norgine B.V. |
+| 28105745216 | Angusta (Norgine B.V.) | Tabletter (oral) | Ikke angivet i de tilgængelige data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der foreligger ikke sikkerhedsdata i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation. Pakkeindlægget fra Lægemiddelstyrelsen er endnu ikke indhentet.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Misoprostol har uterotoniske og teratogene effekter. Det er særligt relevant, hvis stoffet overvejes til kvinder i den fødedygtige alder.
+**Kontraindikationer fra vidensgraf (ikke fra produkttekst):** TxGNN-vidensgrafen (PrimeKG) kobler misoprostol til følgende sygdomme som mulige kontraindikationer. Disse skal verificeres mod produktresuméet:
+- Hjerte-kar: hypertension, kongestiv hjerteinsufficiens, hjertesygdom, myokardieinfarkt, koronar trombose, slagtilfælde/cerebrovaskulær sygdom, cerebralt infarkt
+- Lever og galde: leversvigt, leversygdom, lægemiddelinduceret leverskade, galdeblæresygdom
+- Mave-tarm: inflammatorisk tarmsygdom, aktivt peptisk mavesår
+- Luftveje: astma (inkl. allergisk og intrinsisk)
+- Blod: koagulationssygdom, hæmoglobinopati, anæmi (inkl. makrocytær)
+- Øvrige: stofmisbrug/afhængighed, ikke-infektiøs meningitis
+
+**Lægemiddelinteraktioner (udvalgte af 100 fundne; her vist 20 fra DDInter):**
+- **Alvorlig (Major):** Dinoproston (topikal)
+- **Moderat:** Magnesiumoxid, magaldrat, magnesiumcarbonat, magnesiumhydroxid, quinapril
+- **Mindre:** Natriumcitrat, aluminiumhydroxid, calciumcarbonat, natriumbicarbonat, naproxen
+- **Ukendt niveau:** Goserelin, ciclosporin, cyanocobalamin, calcitriol, folinsyre, pravastatin, valsartan, ramipril, lorazepam
 
 ---
 
@@ -104,18 +123,14 @@ Misoprostol har uterotoniske og teratogene effekter. Det er særligt relevant, h
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Evidensen består af indirekte litteratur om graviditetsafbrydelse og ingen kliniske forsøg. Der er ingen plausibel mekanisme for behandling af amenoré.
-- Den høje modelscore er mest sandsynligt et artefakt af vidensgrafens struktur.
-- Sikkerhedsscreeningen kan ikke gennemføres, før produktresuméet er indhentet.
+Der er ingen kliniske forsøg og ingen litteratur, der viser, at misoprostol behandler amenoré. De fundne studier handler om abort, hvor amenoré blot er et inklusionskriterium. Den høje TxGNN-score er ikke understøttet af en plausibel mekanisme. Desuden er der betydelige graviditetsrelaterede risici ved et lægemiddel, der fremkalder livmodersammentrækninger.
 
 **For at komme videre kræves:**
-- Hentning og analyse af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer). Dette er en blokerende datamangel.
-- Detaljerede data om virkningsmekanisme, f.eks. via DrugBank.
-- Angivelse af den godkendte indikationstekst for Angusta, så den oprindelige indikation kan sammenholdes med den forudsagte.
-- Mekanistisk og klinisk begrundelse for, at misoprostol kan være relevant ved amenoré, ud over graviditetsrelateret nærhed i grafen.
-- Gennemgang af, om forudsigelsen skyldes graviditetsrelaterede termer, før den tillægges værdi.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+- Godkendt indikationstekst, advarsler og kontraindikationer fra produktresuméet (blokerende datahul)
+- Detaljerede data om virkningsmekanisme (fx fra DrugBank)
+- Præklinisk eller klinisk evidens, der direkte undersøger misoprostol ved amenoré
+- Sikkerhedsvurdering for målpopulationen, herunder graviditetstest og teratogen risiko
+- Kontrol af, om Angusta er den relevante formulering for en eventuel ny indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

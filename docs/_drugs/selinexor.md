@@ -2,7 +2,7 @@
 layout: default
 title: Selinexor
 parent: Kun modelforudsigelse (L5)
-nav_order: 398
+nav_order: 754
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selinexor: Fra kræftbehandling til lægemiddelinduceret osteoporose
+# Selinexor: Fra manglende registreret indikation til lægemiddelinduceret osteoporose
 
-## Resumé
+## Kort resumé
 
-Selinexor er en oral XPO1-hæmmer (exportin-1), der anvendes som kræftlægemiddel og er markedsført i Danmark under navnet NEXPOVIO.
-TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**.
-Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. Den er altså kun en modelforudsigelse.
+Selinexor er en selektiv hæmmer af nuklear eksport (XPO1/CRM1-hæmmer) og er markedsført i Danmark som NEXPOVIO. Der foreligger ingen godkendt indikationstekst i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **lægemiddelinduceret osteoporose**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er derfor rent beregningsbaseret.
 
 ---
 
@@ -43,9 +41,9 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. De
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (godkendt indikationstekst er tom) |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten for markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-score | 99,2 % |
+| TxGNN-forudsigelsesscore | 99,22 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -53,53 +51,55 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. De
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i datapakken. Selinexor er kendt som XPO1-hæmmer. Det er en målrettet kræftbehandling, der blokerer nuklear eksport af bl.a. tumorsuppressorproteiner.
+Selinexor hæmmer XPO1 (CRM1), et protein der transporterer en række tumorsuppressorer og regulatoriske proteiner ud af cellekernen. De detaljerede mekanismedata var ikke tilgængelige i de sammenstillede data, men lægemidlets klasse er kendt som selektiv hæmmer af nuklear eksport og anvendes i kræftbehandling.
 
-Der er ingen tydelig sammenhæng mellem denne mekanisme og lægemiddelinduceret knogletab. Den høje modelscore (0,992) understøttes hverken af forsøg, publikationer eller en plausibel biologisk forklaring. Forudsigelsen bør derfor betragtes som en hypotese og ikke som et klinisk signal.
+Der er ikke dokumenteret en direkte mekanistisk sammenhæng mellem XPO1-hæmning og lægemiddelinduceret osteoporose. Selinexor er forbundet med bivirkninger som kvalme, appetitløshed, vægttab og træthed, som muligvis kan påvirke knoglehelbredet indirekte. Dette er imidlertid spekulativt og ikke understøttet af data. Den høje score (0,992) bør derfor ses som en computerbaseret hypotese, der kræver validering, og ikke som tegn på dokumenteret effekt.
 
-Den oprindelige indikation (kræft) og den forudsagte indikation (knoglesygdom) er desuden klinisk meget forskellige. En hypotese om, at knogletab kan være en bivirkning snarere end et behandlingsmål, kan ikke afvises ud fra pakkens data.
+Det bør bemærkes, at modellen også rangerer flere brystkræftundertyper højt (HER2-positiv brystkræft, progesteronreceptor-negativ og -positiv brystkræft samt "normal breast-like"-undertypen, alle med scorer omkring 97-98 %). Heller ikke for disse findes der kliniske forsøg eller relevant litteratur. Den eneste tilknyttede publikation (PMID 36943683) handler om endometriekræft og ikke brystkræft, og koblingen skyldes sandsynligvis en søgeartefakt.
 
 ---
 
-## Klinisk evidens
+## Klinisk forsøgsevidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for denne indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
 
 ---
 
 ## Litteraturevidens
 
-Der findes på nuværende tidspunkt ingen relateret litteratur for denne indikation.
+Der er i øjeblikket ingen relateret litteratur for lægemiddelinduceret osteoporose.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106216419 | NEXPOVIO (Stemline Therapeutics B.V.) | Filmovertrukne tabletter | Ikke angivet i datapakken |
+| 28106216419 | NEXPOVIO (Stemline Therapeutics B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Cytotoksicitet
 
+Selinexor er et lægemiddel mod kræft (XPO1-hæmmer), og derfor gælder dette afsnit.
+
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet terapi (XPO1-hæmmer) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringsparametre | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
-
-Der foreligger ingen toksicitetsdata i datapakken. Se advarsler og forsigtighedsregler i det godkendte produktresumé (SmPC).
+| Cytotoksicitetsklassifikation | Målrettet behandling (selektiv hæmmer af nuklear eksport) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Emetogenicitetsklassifikation | Kvalme er en kendt bivirkning; se SmPC for klassifikation |
+| Overvågningspunkter | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forholdsregler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** Der er identificeret 81 interaktioner. Blandt de registrerede er flere af sværhedsgraden **Major**, bl.a. deferipron, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribin og clozapin. Flere interaktioner af moderat grad er også registreret (bl.a. strontiumchlorid Sr-89, roflumilast, chloramphenicol, zidovudin, azathioprin, alemtuzumab, anakinra, canakinumab samt visse vacciner). Mange af disse vedrører additiv immunsuppression eller knoglemarvshæmning.
+
+For øvrig sikkerhedsinformation, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -108,17 +108,15 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modelscoren, uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Evidensniveauet er L5.
+Forudsigelsen for lægemiddelinduceret osteoporose bygger udelukkende på modelscoren (evidensniveau L5), uden kliniske forsøg, litteratur eller dokumenteret mekanistisk sammenhæng. Desuden mangler oplysninger om den godkendte indikation og om advarsler og kontraindikationer.
 
-**For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
-- Data om virkningsmekanisme (MOA), fx fra DrugBank
-- Systematisk litteratursøgning om XPO1-hæmmere og knoglemetabolisme, herunder om knogletab kan være en bivirkning
-- Afklaring af, om den godkendte indikationstekst kan hentes fra den danske registrering
-
-**Bemærkning om andre forudsigelser:** For *progesteronreceptor-negativ brystkræft* findes der et afsluttet fase 2-forsøg ([NCT02402764](https://clinicaltrials.gov/study/NCT02402764), 10 deltagere, metastatisk tripel-negativ brystkræft), som foreløbigt giver evidensniveau L2. Forsøget er lille, resultater foreligger ikke i datapakken, og det kan ikke understøtte effektkonklusioner.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (indikation, advarsler, kontraindikationer)
+- Detaljerede data om virkningsmekanisme (f.eks. fra DrugBank)
+- Præklinisk eller mekanistisk undersøgelse af XPO1-hæmning og knoglemetabolisme (osteoklaster/osteoblaster)
+- Systematisk litteratursøgning og registersøgning efter kliniske forsøg for lægemiddelinduceret osteoporose
+- Vurdering af, om selinexors kendte bivirkninger (vægttab, appetitløshed) udgør en risiko for knoglehelbredet snarere end en gevinst
+- Manuel gennemgang af de højt rangerede brystkræftforudsigelser, da den tilknyttede litteratur ikke omhandler brystkræft
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

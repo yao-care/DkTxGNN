@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: Moderat evidens (L3-L4)
-nav_order: 134
+nav_order: 244
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Deferasirox: Fra jernoverskud til HIV-infektion
+# Deferasirox: Fra jernoverskud ved thalassæmi til HIV-infektion
 
 ## Resumé i én sætning
 
-Deferasirox er en jernchelator, som er godkendt til behandling af jernoverskud.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**.
-Forudsigelsen støttes af **0 kliniske forsøg** og **2 publikationer**, hvoraf kun den ene er et præklinisk laboratoriestudie.
+Deferasirox er en oral jernchelator, der oprindeligt anvendes ved jernoverskud i forbindelse med beta-thalassæmi og beslægtede hæmoglobinopatier.
+TxGNN-modellen forudsiger, at det kan have effekt ved **HIV-infektion**, men der er **ingen registrerede kliniske forsøg** og kun **2 publikationer** (en lægemiddeloversigt og en in vitro-undersøgelse), så evidensen er meget svag.
 
 ---
 
@@ -43,62 +42,62 @@ Forudsigelsen støttes af **0 kliniske forsøg** og **2 publikationer**, hvoraf 
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Beta-thalassæmi og beslægtede hæmoglobinopatier (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
 | Forudsagt ny indikation | HIV-infektion |
-| TxGNN-score | 99,40 % |
+| TxGNN-prædiktionsscore | 99,40 % |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om lægemidlets virkningsmekanisme i Evidence Pack. Deferasirox er en jernchelator, og dets effekt ved jernoverskud er veldokumenteret. Mekanistisk kan det derfor være relevant ved sygdomme, hvor jernstatus påvirker sygdomsforløbet.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Deferasirox er dog kendt som jernchelator, og dets effekt ved jernoverskud ved thalassæmi er veletableret. Mekanistisk kan jernmodulation derfor tænkes at have betydning for andre sygdomme, hvor jern spiller en rolle.
 
-Det eneste mekanistiske holdepunkt for HIV er et præklinisk in vitro-studie (PMID 34550543). Det viser, at jern i endolysosomer hæmmer Tat-medieret transaktivering af HIV-1 LTR, idet jern øger Tat-oligomerisering og β-catenin-ekspression. Det er uklart, i hvilken retning en chelator ville påvirke denne mekanisme, da jernmangel i princippet både kunne øge og mindske Tat-aktiviteten. Det er heller ikke bekræftet, at studiet har testet deferasirox selv.
+Den eneste mekanistiske støtte er en in vitro-undersøgelse fra 2021 (PMID 34550543). Den viser, at jern i endolysosomer hæmmer Tat-medieret HIV-1 LTR-transaktivering ved at øge Tat-oligomerisering og β-catenin-ekspression. Det antyder, at jernstatus kan påvirke HIV-1-transkription.
 
-Sammenhængen er derfor **plausibel, men indirekte**. TxGNN-scoren er en modelforudsigelse og ikke bevis for klinisk effekt.
-
-### Øvrige forudsigelser (samme lægemiddel)
-
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Kronisk hepatitis C-virusinfektion | 99,39 % | L4 | Hold. Kun indirekte litteratur om jern og HCV ved β-thalassæmi major. Ingen påvist antiviral effekt af deferasirox. |
-| Neuroudviklingsforstyrrelse med ataksi, manglende tale og nedsat kortikal hvid substans | 99,23 % | L5 | Hold. Kun modelforudsigelse, ingen forsøg eller litteratur. |
-| "Obsolete familial combined hyperlipidemia" | 99,20 % | L5 | Hold. Sygdomstermen er forældet i ontologien og bør omkortlægges, før den vurderes yderligere. |
-| Dermatofibrosarcoma protuberans | 99,11 % | L5 | Hold. Ingen indikationsspecifik evidens. |
+Retningen af effekten er uafklaret. Systemisk jernchelation kunne i princippet ophæve den hæmmende effekt af jern og dermed være skadelig frem for gavnlig. Forudsigelsen bør derfor betragtes som en forskningshypotese og ikke som en klinisk anbefaling.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Præklinisk (in vitro) | Journal of Neurovirology | Endolysosomalt jern hæmmer Tat-medieret HIV-1 LTR-transaktivering via øget Tat-oligomerisering og β-catenin-ekspression. Deferasirox er ikke bekræftet testet. |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Oversigt (nye lægemidler) | Journal of the American Pharmacists Association | Gennemgang af deferasirox' godkendelse ved jernoverskud. Ingen HIV-data. |
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Præklinisk/mekanistisk (in vitro) | Journal of Neurovirology | Jern i endolysosomer hæmmer Tat-medieret HIV-1 LTR-transaktivering via øget Tat-oligomerisering og β-catenin-ekspression |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Oversigt (nyt lægemiddel) | J Am Pharm Assoc | Generel præsentation af nye lægemidler, herunder deferasirox; ingen HIV-specifikke data |
 
 ---
 
-## Oplysninger om det danske marked
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106188218 | Deferasirox "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter (oral) | Indikationsteksten er ikke angivet i de leverede data |
+| 28106188218 | Deferasirox "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Pakningsvedlæggets advarsler og kontraindikationer fra Lægemiddelstyrelsen er endnu ikke indhentet. Dette er markeret som en blokerende datamangel. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data.
+**Lægemiddelinteraktioner** (fra interaktionsdatabasen, 100 interaktioner i alt; et udvalg af de alvorlige er vist):
+- **Alvorlige (Major):** hydrocortison, triamcinolon, dexamethason, betamethason, acetylsalicylsyre, mesalazin, balsalazid samt flere amphotericin B-præparater.
+- **Moderate:** bl.a. rabeprazol, pioglitazon, alosetron, aprepitant, clarithromycin, saxagliptin, aluminiumhydroxid, cisaprid og dexfenfluramin.
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Sygdomme knyttet til kontraindikationer i vidensgrafen** (ikke baseret på produktresumétekst):
+- Lever: leversvigt, leversygdom, skrumpelever, hyperbilirubinæmi, Gilberts syndrom.
+- Nyrer: nyresygdom, nedsat nyrefunktion.
+- Blod: trombocytopeni, neutropeni (inkl. medfødte former), agranulocytose, anæmi.
+- Øvrige: aktiv mavesår, galdeblæresygdom, okulær hypertension, multiorgansvigt og cancer.
+
+Disse oplysninger er ikke verificeret mod det godkendte produktresumé. Se det godkendte produktresumé (SPC) for fuldstændige advarsler og kontraindikationer.
 
 ---
 
@@ -107,16 +106,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen er på niveau L4: et enkelt præklinisk studie med uklar effektretning og uden bekræftet test af deferasirox, og ingen kliniske forsøg. Den høje TxGNN-score er alene en modelforudsigelse. Sikkerhedsscreeningen kan ikke gennemføres, før produktinformationen er indhentet.
+Forudsigelsen bygger på en høj modelscore, men der er ingen kliniske forsøg og kun præklinisk, mekanistisk støtte med uafklaret effektretning. Sikkerhedsprofilen (lever, nyrer, blodceller) kræver desuden omhyggelig overvejelse hos HIV-patienter.
 
 **For at komme videre kræves:**
-- Hent og gennemgå produktresumé/indlægsseddel for Deferasirox "Accord" fra Lægemiddelstyrelsen (advarsler og kontraindikationer).
-- Indhent data om virkningsmekanisme fra DrugBank (DB01609).
-- Undersøg, om deferasirox direkte er testet i HIV-relevante celle- eller dyremodeller, og afklar effektretningen.
-- Omkort den forældede sygdomsterm ("obsolete familial combined hyperlipidemia") til en gyldig term, før den vurderes yderligere.
-- Overvej kun at gå videre til prækliniske studier, hvis ovenstående afklaring peger i en gunstig retning.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til nyt indikationsområde skal valideres klinisk, før de kan anvendes.*
+- Præklinisk afklaring af, om jernchelation hæmmer eller fremmer HIV-replikation
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af det danske produktresumé (advarsler, kontraindikationer og godkendt indikation)
+- Vurdering af interaktioner med antiretroviral behandling
+- Eventuelt et eksplorativt studie, før kliniske forsøg overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

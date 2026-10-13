@@ -2,7 +2,7 @@
 layout: default
 title: Phenobarbital
 parent: Kun modelforudsigelse (L5)
-nav_order: 350
+nav_order: 651
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fenobarbital: Fra epilepsi til trigeminusnervetumor
+# Phenobarbital: Fra epilepsi til trigeminusnervetumor
 
 ## Resumé i én sætning
 
-Fenobarbital er et barbiturat, der er kendt som antiepileptikum og krampestillende middel. TxGNN-modellen forudsiger, at det kan have effekt ved **trigeminusnervetumor (trigeminal nerve neoplasm)**, men der findes **0 kliniske forsøg** og **1 publikation**, og den handler ikke om tumorer. Den høje modelscore ser ud til at være et artefakt i vidensgrafen og ikke et klinisk signal.
+Phenobarbital er et barbituratderivat, der oprindeligt anvendes til behandling af epilepsi (herunder generaliserede tonisk-kloniske anfald, partiel epilepsi og Lennox-Gastaut-syndrom) samt visse hovedpinetilstande.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **trigeminusnervetumor**, men der findes **0 kliniske forsøg** og kun **1 publikation** (en case-serie om Sturge-Weber syndrom, som ikke omhandler tumorer).
+Forudsigelsen er sandsynligvis en artefakt i vidensgrafen og bør ikke betragtes som en reel repurposing-mulighed.
 
 ---
 
@@ -41,29 +43,38 @@ Fenobarbital er et barbiturat, der er kendt som antiepileptikum og krampestillen
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Epilepsi/anfald (generel farmakologisk viden; godkendelsesteksten i datasættet er tom) |
-| Forudsagt ny indikation | Trigeminusnervetumor (trigeminal nerve neoplasm) |
+| Oprindelig indikation | Epilepsi (data om godkendt indikationstekst for det danske produkt er ikke tilgængelig; epilepsi er hentet fra vidensgrafen) |
+| Forudsagt ny indikation | Trigeminusnervetumor |
 | TxGNN-forudsigelsesscore | 99,96 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der er ikke adgang til detaljerede data om virkningsmekanismen (MOA) i det indsendte materiale. Ud fra generel farmakologi virker fenobarbital ved at forstærke GABA-A-receptormedieret kloridledning og dæmpe excitatorisk glutamaterg transmission. Denne mekanisme forklarer den krampestillende effekt.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Phenobarbital er generelt kendt som en forstærker af GABA-A-receptormedieret hæmning i centralnervesystemet, hvilket forklarer den bredspektrede antiepileptiske effekt.
 
-Der er **ingen troværdig mekanistisk forbindelse** mellem en antiepileptisk virkning og behandling af en nervetumor. Den eneste fundne publikation er en spansk case-serie fra 1997 om Sturge-Weber syndrom. Det er en neurokutan vaskulær misdannelse og ikke en tumor, og fenobarbitals rolle dér er sandsynligvis anfaldskontrol. Det understøtter ikke en antineoplastisk indikation.
+Der er ikke noget troværdigt mekanistisk link mellem denne virkning og en tumor i trigeminusnerven. Phenobarbital har ingen kendt antineoplastisk rationale. Den eneste støttende publikation er en case-serie om Sturge-Weber syndrom (PMID 9157801), en neurokutan vaskulær lidelse med krampeanfald, som ikke er en nervetumor. Phenobarbital ville højst kunne behandle de krampeanfald, der ledsager syndromet.
 
-Modelscoren på 99,96 % bør derfor ikke tolkes som klinisk evidens. Den afspejler sandsynligvis forbindelser i vidensgrafen, for eksempel via anfalds- eller nerverelaterede fænotyper.
+Den meget høje score (0,9996) skyldes derfor formentlig en artefakt i vidensgrafen snarere end et reelt biologisk signal.
+
+### Andre forudsagte indikationer
+
+Modellen fremhæver også flere refleksepilepsi-former (audiogene anfald, startle-epilepsi, spise-udløste anfald, vandladningsudløste anfald og "thinking seizures"), alle med score 99,96 %. Mekanismen (GABAerg anfaldshæmning) er plausibel, men:
+- evidensen er overvejende præklinisk (gnavermodeller), veterinær eller består af enkelte case reports,
+- der er ingen humane kliniske forsøg,
+- indikationerne overlapper med den allerede godkendte epilepsiindikation og udgør derfor ikke en selvstændig repurposing-mulighed.
+
+Disse vurderes som evidensniveau L4 og som "forskningsspørgsmål", ikke som beslutningsklare muligheder.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ikke registreret relevante kliniske forsøg (hverken ClinicalTrials.gov eller ICTRP).
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for den forudsagte indikation (trigeminusnervetumor).
 
 ---
 
@@ -71,23 +82,47 @@ Der er i øjeblikket ikke registreret relevante kliniske forsøg (hverken Clinic
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case-serie | Anales espanoles de pediatria | Erfaringer med 14 tilfælde af Sturge-Weber syndrom over 25 år, med vurdering af kliniske karakteristika, forløb og behandlingsrespons. Handler ikke om tumorer. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case-serie | Anales españoles de pediatría | Erfaringer med 14 tilfælde af Sturge-Weber syndrom (diagnose, forløb og behandlingsrespons). Omhandler ikke tumorer i trigeminusnerven. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106282619 | Epibarb Vet. | Tabletter (oral) | Ikke angivet i datasættet |
+| 28106282619 | Epibarb Vet. | Tabletter | Ikke angivet i de tilgængelige data |
 
-Bemærk: Den eneste registrerede tilladelse tilhører et **veterinærlægemiddel** (Epibarb Vet., CP-Pharma Handelsgesellschaft mbH). Der er ikke identificeret en markedsføringstilladelse til humant brug i datasættet. Det skal afklares, før man kan vurdere praktisk tilgængelighed til humane indikationer.
+Bemærk: Produktet er mærket "Vet." og er formentlig et veterinærlægemiddel. Det understreger, at der ikke er identificeret et humant lægemiddel med phenobarbital i de sammenstillede data. Producent: CP-Pharma Handelsgesellschaft mbH. Administrationsvej: oral.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+**Kontraindikationer (fra vidensgrafen, ikke fra produktresumé):** Vidensgrafen peger på kontraindikationer eller forsigtighed ved bl.a.:
+- Leversygdom og leversvigt
+- Nyresygdom
+- Porfyri (herunder arvelig porfyri)
+- Kronisk obstruktiv lungesygdom (KOL)
+- Psykiske lidelser (psykotiske lidelser, skizoaffektiv lidelse, angst, dysthymi)
+- Hypertension
+- Hypothyreose og myxødem
+- Hyperglykæmi
+- Trombocytopeni
+- Systemisk lupus erythematosus
+- Mavesår og gastritis
+- Galdeblæresygdom
+- Søvnløshed
+
+**Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner. Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
+- Morfin (inkl. liposomal morfin)
+- Eliglustat
+- Naldemedin
+- Naloxegol
+- Rolapitant
+
+Flere **moderate** interaktioner er også registreret, bl.a. med kortikosteroider (hydrocortison, dexamethason, betamethason, prednisolon, prednison, triamcinolon), doxycyclin, metronidazol, bupropion, pioglitazon, aprepitant, dronabinol, cholecalciferol og pyridoxin.
+
+**Øvrige sikkerhedsbemærkninger fra litteraturen:** Phenobarbital kan i dyremodeller give neurotoksiske effekter ved tidlig eksponering, og der er rapporteret teratogenicitet for antiepileptika. Data om advarsler og kontraindikationer fra et godkendt produktresumé mangler; se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
 ---
 
@@ -96,17 +131,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg, ingen relevant litteratur og ingen troværdig mekanistisk forbindelse mellem fenobarbital og trigeminusnervetumor. Evidensen er på modelforudsigelsesniveau (L5), og den høje score vurderes som et vidensgraf-artefakt.
+Der er intet troværdigt mekanistisk link mellem phenobarbital og trigeminusnervetumor, ingen kliniske forsøg og kun én irrelevant case-serie som støtte. Den høje TxGNN-score vurderes at være en artefakt. De øvrige forudsagte refleksepilepsi-indikationer er mekanistisk plausible, men overlapper med den eksisterende epilepsiindikation og er kun understøttet af indirekte evidens.
 
-**For at komme videre kræves:**
-- Pakkeindlæg/SmPC fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Dette mangler og blokerer sikkerhedsscreeningen.
-- Verificerede data om virkningsmekanismen fra DrugBank.
-- Afklaring af, om der findes en markedsføringstilladelse til human brug i Danmark.
-- Direkte prækliniske eller mekanistiske data for en antitumoreffekt, hvis forudsigelsen skal forfølges.
-
-**Bemærkning:** De øvrige forudsigelser for fenobarbital (rang 3-10, bl.a. audiogene anfald, startle-epilepsi, spise- og vandladningsudløste anfald) er refleksepilepsier med evidensniveau L4. De er biologisk mere plausible på grund af den GABAerge mekanisme, men kræver stadig sygdomsspecifik dokumentation og er mere relevante som forskningsspørgsmål end trigeminusnervetumor.
-
-*Resultaterne er kun til forskningsformål og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer (nuværende sikkerhedsdata er ikke tilstrækkelige til en sikkerhedsscreening)
+- Bekræftelse af, om der findes et humant lægemiddel med phenobarbital på det danske marked (det identificerede produkt er et veterinærlægemiddel)
+- For refleksepilepsi-indikationerne: målrettet litteraturgennemgang og eventuelt kliniske data, der kan adskille dem fra den allerede godkendte epilepsiindikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

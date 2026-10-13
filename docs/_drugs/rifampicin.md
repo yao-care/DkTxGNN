@@ -2,7 +2,7 @@
 layout: default
 title: Rifampicin
 parent: Moderat evidens (L3-L4)
-nav_order: 378
+nav_order: 718
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rifampicin: Fra antibakteriel behandling til konjunktivitis
+# Rifampicin: Fra lungetuberkulose til conjunctivitis
 
 ## Resumé i én sætning
 
-Rifampicin er et antibiotikum, der hæmmer bakteriers RNA-polymerase. Oplysningerne om oprindelig indikation mangler i datagrundlaget. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **konjunktivitis** (bakteriel øjenbetændelse og trakom). Forudsigelsen understøttes af **20 publikationer** og **0 registrerede kliniske forsøg**. Evidensen består hovedsageligt af følsomhedsundersøgelser, kasuistikker og ét kontrolleret forsøg fra 1975.
+Rifampicin er et antibiotikum, der oprindeligt anvendes til behandling af lungetuberkulose. TxGNN-modellen forudsiger, at det kan være effektivt ved **conjunctivitis** (øjenbetændelse). Der findes **ingen registrerede kliniske forsøg**, og støtten består af **ca. 20 publikationer**, hovedsageligt resistensundersøgelser, oversigtsartikler, case-rapporter og få ældre studier med rifampicin som øjensalve (1970'erne).
 
 ---
 
@@ -41,47 +41,48 @@ Rifampicin er et antibiotikum, der hæmmer bakteriers RNA-polymerase. Oplysninge
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| Oprindelig indikation | Lungetuberkulose (fra videngrafen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
+| Forudsagt ny indikation | Conjunctivitis |
+| TxGNN-prædiktionsscore | 99,95 % |
 | Evidensniveau | L3 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (forskningsspørgsmål; kun indirekte og ældre evidens) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Rifampicin hæmmer bakteriers DNA-afhængige RNA-polymerase. Det virker mod *Staphylococcus aureus*, *Chlamydia trachomatis* og *Neisseria*-arter, som alle kan forårsage bakteriel konjunktivitis og trakom. Det officielle felt for virkningsmekanisme (MOA) er ikke udfyldt i datagrundlaget. Beskrivelsen ovenfor stammer fra den mekanistiske begrundelse i evidenspakken.
+Data om lægemidlets virkningsmekanisme foreslog ikke i de indsamlede data. Ud fra almen viden hæmmer rifampicin bakteriens DNA-afhængige RNA-polymerase og har aktivitet mod grampositive bakterier, herunder *Staphylococcus aureus*, samt mod *Chlamydia trachomatis*. Disse er blandt de hyppige årsager til bakteriel og klamydial conjunctivitis.
 
-Der er ikke oplyst nogen oprindelig indikation. Den biologiske sammenhæng er derfor først og fremmest, at konjunktivitis og trakom er bakterielle øjeninfektioner med patogener, som rifampicin virker mod. Litteraturen peger især på *C. trachomatis*, hvor rifampicin i et review fra 1983 beskrives som det mest aktive antibiotikum målt pr. vægtenhed.
+Rifampicins effekt på tuberkulose er veldokumenteret, og der er en biologisk sammenhæng til bakterielle øjeninfektioner. Resistensundersøgelser fra bl.a. Iran, Nigeria og Spanien samt tidlige studier af rifampicin-øjensalve ved klamydiainfektion og trakom understøtter, at retningen er plausibel.
 
-Forudsigelsen er biologisk plausibel, men ikke klinisk bekræftet. Støtten er hovedsageligt in vitro-følsomhedsdata, kasuistikker og et enkelt ældre forsøg med topisk behandling.
+Evidensen er dog ældre og har væsentlige begrænsninger. Den ene undersøgelse af klamydial øjeninfektion (1977) var et åbent studie, hvor tre ugers behandling ikke var tilstrækkelig, mens 6-7 ugers behandling gav ca. 90 % klinisk og mikrobiologisk helbredelse. Samtidig vil systemisk rifampicin næppe være relevant til almindelig conjunctivitis, og en eventuel lokal formulering findes ikke på det danske marked ifølge de indsamlede data.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er for tiden ingen relaterede kliniske forsøg registreret (hverken i ClinicalTrials.gov eller ICTRP, og ingen EudraCT-numre).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for conjunctivitis.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Kontrolleret klinisk studie | Am J Ophthalmol | Skolebørn med trakom i Tunesien fik 1 % tetracyclinsalve (79), 1 % rifampicinsalve (76) eller 5 % borsyresalve (79) i 10 uger. Resultaterne fremgår ikke af det foreliggende uddrag. |
-| [6635446](https://pubmed.ncbi.nlm.nih.gov/6635446/) | 1983 | Review | Rev Infect Dis | Rifampicin er det mest aktive antibiotikum mod *C. trachomatis* pr. vægtenhed. I de få studier var det lige så effektivt som tetracykliner til topisk behandling af trakom. |
-| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | Eksperimentelt studie | Nature | Anti-trakomaaktivitet af rifampicin og rifamycin SV-derivater. Der er intet resumé i data. |
-| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Review | Curr Med Chem | Gennemgang af forsømte bakterielle sygdomme, herunder trakom. Rifampicin nævnes i behandlingssammenhæng. |
-| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Review | Ann Ophthalmol | Oversigt over rifampicin i oftalmologisk sammenhæng. Der er intet resumé i data. |
-| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | Kasuistik | Clin Microbiol Infect | Primær meningokokkonjunktivitis hos en 6-årig dreng. Han blev behandlet med topisk polymyxin B/neomycin/gramicidin og derefter systemisk rifampicin, uden komplikationer. |
-| [7806886](https://pubmed.ncbi.nlm.nih.gov/7806886/) | 1994 | Kasuistikserie | J Infect | Tre tilfælde af primær meningokokkonjunktivitis med sepsis. Kombineret topisk og parenteral behandling samt kemoprofylakse til nære kontakter anbefales. |
-| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Følsomhedsundersøgelse | Adv Biomed Res | Bakteriologi og antibiotikafølsomhed hos patienter med konjunktivitis i Kashan, Iran. |
-| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | Retrospektiv undersøgelse | An Esp Pediatr | 50 prøver fra nyfødte med konjunktivitis. 84 % var dyrkningspositive, og isolaterne var for det meste følsomme over for de testede lægemidler. |
-| [21191558](https://pubmed.ncbi.nlm.nih.gov/21191558/) | 2010 | Følsomhedsundersøgelse | Rev Esp Quimioter | Antibiotikafølsomhed hos *Corynebacterium macginleyi*-stammer, der forårsager konjunktivitis. |
+| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Kontrolleret klinisk studie | Am J Ophthalmol | Lokal 1 % rifampicin-salve vs. tetracyclin vs. placebo-lignende borsyresalve ved endemisk trakom hos skolebørn i Tunesien (10 ugers behandling) |
+| [322700](https://pubmed.ncbi.nlm.nih.gov/322700/) | 1977 | Åbent studie (63 patienter) | Br J Ophthalmol | Rifampicin-øjensalve 1 % vs. chloramphenicol ved klamydial øjeninfektion; 6-7 ugers kur gav ca. 90 % klinisk og mikrobiologisk helbredelse |
+| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Oversigt | Ann Ophthalmol | Oversigt om rifampicin |
+| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Mikrobiologisk undersøgelse | Adv Biomed Res | Bakteriel ætiologi og antibiotikafølsomhed hos patienter med conjunctivitis i Kashan, Iran |
+| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | Mikrobiologisk undersøgelse | An Esp Pediatr | Neonatal conjunctivitis: 50 prøver, 84 % med positiv bakteriekultur; høj følsomhed over for de fleste testede antibiotika |
+| [30347565](https://pubmed.ncbi.nlm.nih.gov/30347565/) | 2018 | Mikrobiologisk undersøgelse | Zhonghua Yan Ke Za Zhi | Genotypning og følsomhed af *S. aureus* fra keratitis/conjunctivitis |
+| [21191558](https://pubmed.ncbi.nlm.nih.gov/21191558/) | 2010 | Mikrobiologisk undersøgelse | Rev Esp Quimioter | Antibiotikafølsomhed hos *Corynebacterium macginleyi* som årsag til conjunctivitis |
+| [3191080](https://pubmed.ncbi.nlm.nih.gov/3191080/) | 1988 | Case-rapport | Br J Ophthalmol | Marginale hornhindeabscesser ved klamydial øjeninfektion hos voksne |
+| [39336466](https://pubmed.ncbi.nlm.nih.gov/39336466/) | 2024 | Case-rapport | Medicina (Kaunas) | Parinauds okuloglandulære syndrom med påvist *Bartonella*-DNA |
+| [1247775](https://pubmed.ncbi.nlm.nih.gov/1247775/) | 1976 | Brev/rapport | Br Med J | Okulær toksicitet forårsaget af rifampicin (sikkerhedssignal) |
 
-Flere af de øvrige fund i data (fx katteridsfeber, dapson-overfølsomhed, ureaplasma og en veterinær kasuistik) er indirekte eller uden for emnet og er udeladt.
+Bemærk: Flere af de øvrige fundne artikler er kun løst relateret (f.eks. dyrecases og generelle oversigter) og er ikke medtaget.
 
 ---
 
@@ -89,17 +90,19 @@ Flere af de øvrige fund i data (fx katteridsfeber, dapson-overfølsomhed, ureap
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100535568 | Rimactan (Sandoz GmbH) | Kapsler, hårde | Ikke angivet i data |
+| 28100535568 | Rimactan (Sandoz GmbH) | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
 
-Rifampicin er kun registreret i Danmark som hårde kapsler (oral administration). Evidensen for øjeninfektioner vedrører derimod topisk behandling med salve. Der er ingen oplysninger om, at en lokal øjenformulering er tilgængelig.
+Den eneste markedsførte tilladelse er en oral kapsel. Der er ikke fundet en lokal øjenformulering.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet data om advarsler, kontraindikationer eller interaktioner i Lægemiddelstyrelsens produktresumé. Interaktionsforespørgslen gav ingen resultater.
+Der er ikke tilgængelige data fra produktresuméet om advarsler og kontraindikationer i de indsamlede data.
 
-- **Lægemiddelinteraktioner (fra litteraturgennemgangen):** Rifampicin er en stærk induktor af CYP3A4/UGT1A1. Det kan sænke eksponeringen for bl.a. dolutegravir og andre antiretrovirale midler.
+- **Mulige kontraindikationer/risikotilstande (fra videngrafen, ikke fra produktresumé):** leversvigt og leversygdom, hepatitis, porfyri, trombocytopeni, neutropeni, agranulocytose, aplastisk anæmi og pancytopeni, perifer neuropati, diabetes og diabetisk ketoacidose, urinsyregigt, galdeblæresygdom, stof- og alkoholafhængighed, langsom acetylering samt ikke-infektiøs meningitis.
+- **Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner. De viste har moderat sværhedsgrad, bl.a. med omeprazol, rabeprazol, metformin, pioglitazon, chlorpropamid, canagliflozin, dexamethason, hydrocortison, betamethason, triamcinolon, doxycyclin, metronidazol, clarithromycin, bupropion, aprepitant, morphin samt D-vitaminer (cholecalciferol, calcifediol, calcitriol). Rifampicin er en kraftig enzyminducer (bl.a. CYP3A4), hvilket kan nedsætte effekten af mange samtidigt givne lægemidler.
+- **Øjenrelateret signal:** Litteraturen indeholder rapporter om okulær toksicitet ved rifampicin (Br Med J, 1976).
 
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
@@ -110,22 +113,22 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Der er ingen registrerede kliniske forsøg, og evidensen (L3) består af følsomhedsundersøgelser, kasuistikker og ét topisk trakomforsøg fra 1975.
-- Det eneste danske produkt er en oral kapsel, mens evidensen vedrører topisk anvendelse. Der mangler desuden sikkerhedsdata fra produktresuméet.
+- Evidensen for conjunctivitis er indirekte og overvejende ældre (resistensundersøgelser, oversigter, case-rapporter og få studier fra 1970'erne med lokal øjensalve), og der er ingen registrerede kliniske forsøg. Der findes desuden etablerede førstevalgsbehandlinger til bakteriel conjunctivitis, og en lokal rifampicin-formulering er ikke markedsført i Danmark.
 
-**For at komme videre kræves følgende:**
-- Hente og gennemgå Lægemiddelstyrelsens produktresumé for advarsler og kontraindikationer (blokerende datamangel).
-- Hente virkningsmekanisme (MOA) og oprindelig indikation fra DrugBank.
-- Afklare ruten: Der skal vurderes, om topisk eller systemisk rifampicin er relevant, og om en egnet formulering findes.
-- Vurdere rifampicins plads i forhold til de etablerede førstevalgsmidler ved bakteriel konjunktivitis og trakom, samt risikoen for resistensudvikling ved brug mod almindelige øjeninfektioner.
-- Opdatere litteraturvurderingen, da størstedelen af evidensen er gammel (1970-1990'erne).
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst).
+- Data om virkningsmekanisme (f.eks. fra DrugBank).
+- Systematisk litteraturgennemgang med fokus på lokal rifampicin ved klamydial og stafylokok-conjunctivitis, herunder sammenligning med nuværende standardbehandling.
+- Vurdering af formulering og administrationsvej (lokal øjenformulering) samt af resistensrisiko, da rifampicin er centralt i tuberkulosebehandling.
+- Prækliniske eller tidlige kliniske studier, hvis hypotesen skal forfølges.
 
-**Øvrige forudsigelser i evidenspakken (kort):**
-- **Akne:** Litteraturen handler hovedsageligt om hidradenitis suppurativa (acne inversa), hvor clindamycin plus rifampicin er en retningslinjeanbefalet kombination. Kortlægningen mellem akne og acne inversa skal afklares først.
-- **Hiv:** Evidensen vedrører tuberkulose hos hiv-patienter og lægemiddelinteraktioner med antiretrovirale midler, ikke rifampicin som hiv-behandling. Vurderingen er Hold.
-- **Multipel endokrin neoplasi:** Der er intet identificerbart mekanistisk grundlag og ingen evidens. Vurderingen er Hold.
+---
 
-*Dette materiale er alene til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+## Øvrige forudsigelser i data (kort omtale)
+
+- **Acne:** Evidensen vedrører hovedsageligt hidradenitis suppurativa (acne inversa), hvor rifampicin med clindamycin indgår i retningslinjer, samt et in vitro-studie; ikke acne vulgaris. Evidensniveau L4, beslutning Hold.
+- **HIV-infektion:** Rifampicin virker ikke på HIV selv. Evidensen (8 forsøg, bl.a. et afsluttet fase 3-forsøg, NCT00933790, n=331) vedrører tuberkulosebehandling hos HIV-positive og interaktionen med antiretroviral behandling. Det er ikke en ny anti-HIV-indikation.
+- **Multipel endokrin neoplasi:** Ingen identificerbar mekanistisk sammenhæng, ingen forsøg eller litteratur. Evidensniveau L5, beslutning Hold.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

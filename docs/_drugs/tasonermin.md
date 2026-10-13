@@ -2,7 +2,7 @@
 layout: default
 title: Tasonermin
 parent: Kun modelforudsigelse (L5)
-nav_order: 421
+nav_order: 795
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tasonermin: Fra blødtsarkom til prostatisk urethral urotelcarcinom
+# Tasonermin: Fra bløddelssarkom til urotelialt karcinom i den prostatiske urinrør
 
 ## Resumé i én sætning
 
-Tasonermin er rekombinant humant TNF-alfa og er i EU godkendt til isoleret lemperfusion ved blødtsarkom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **urotelcarcinom i den prostatiske urethra**.
-Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen, så den bygger udelukkende på modellen.
+Tasonermin er rekombinant humant TNF-alfa, som oprindeligt anvendes til behandling af bløddelssarkom i en ekstremitet (sammen med isoleret lemperfusion).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **urotelialt karcinom i den prostatiske urinrør**,
+men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -43,32 +43,36 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Blødtsarkom (isoleret lemperfusion, jf. EU-godkendelsen). Indikationsteksten er ikke angivet i den danske registrering. |
-| Forudsagt ny indikation | Urotelcarcinom i den prostatiske urethra |
-| TxGNN-prædiktionsscore | 99,81 % |
+| Oprindelig indikation | Sarkom / bløddelssarkom (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data) |
+| Forudsagt ny indikation | Urotelialt karcinom i den prostatiske urinrør |
+| TxGNN-forudsigelsesscore | 99,81 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+Øvrige forudsigelser med samme evidensniveau (L5) og anbefaling (Hold):
 
-## Hvorfor er forudsigelsen rimelig?
-
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i datagrundlaget. Tasonermin er rekombinant humant TNF-alfa. Den kendte antitumoreffekt skyldes, at stoffet ødelægger tumorens karsystem og øger penetrationen af samtidig givne lægemidler ved isoleret lemperfusion.
-
-Der er ikke dokumenteret nogen mekanisme, der er specifik for urotelcarcinom i den prostatiske urethra. Den høje score afspejler sandsynligvis nærhed mellem urotelcancer-noder i vidensgrafen snarere end en valideret biologisk sammenhæng. Systemisk TNF-toksicitet begrænser desuden anvendelsen uden for regionale perfusionsscenarier.
-
-Modellen har forudsagt flere andre indikationer med scorer på 99,7-99,8 %. Alle er på evidensniveau L5 og har anbefalingen Hold:
-
-- Sarkomatoidt overgangscellecarcinom i nyrebækkenet: sarkomatoid histologi har kun en løs, hypotetisk forbindelse til blødtsarkom. Perfusionsmetoden kan ikke overføres anatomisk til nyrebækkenet.
-- Infiltrerende urotelcarcinom i blæren, sarkomatoid variant: svag begrundelse via fænotypisk lighed med sarkom. Isoleret lemperfusion kan ikke anvendes i blæren, og systemisk TNF-alfa tåles dårligt.
-- Papillært urotelcarcinom i nyrebækkenet: ingen mekanistisk begrundelse.
-- HER2-positivt mammacarcinom: ingen dokumenteret mekanistisk sammenhæng. TNF-alfa-signalering kan have kontekstafhængige, til tider tumorfremmende roller ved brystkræft, hvilket tilsiger forsigtighed.
+| Forudsagt indikation | TxGNN-score |
+|------|------|
+| Sarkomatoidt overgangscellekarcinom i nyrebækkenet | 99,80 % |
+| Infiltrerende urotelialt blærekarcinom, sarkomatoid variant | 99,79 % |
+| Papillært urotelialt karcinom i nyrebækkenet | 99,79 % |
+| HER2-positivt brystkarcinom | 99,70 % |
 
 ---
 
-## Klinisk evidens (kliniske forsøg)
+## Hvorfor er denne forudsigelse rimelig?
+
+Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Tasonermin er rekombinant humant TNF-alfa. I den godkendte anvendelse gives det sammen med kemoterapi ved isoleret lemperfusion mod bløddelssarkom, hvor lemmet er truet. TNF-alfa er kendt for at skade tumorens blodkar og øge kemoterapiens penetration i tumorvævet. Det kan i princippet være relevant for andre solide tumorer.
+
+Forudsigelsen hviler dog alene på en score fra en vidensgraf. For de sarkomatoide varianter (nyrebækken, blære) skyldes den høje score sandsynligvis, at histologien deler begrebet "sarkom" med den godkendte indikation. For HER2-positiv brystkræft er der ingen påvist mekanistisk forbindelse i de foreliggende data, og der findes allerede effektive HER2-rettede behandlinger.
+
+Der er desuden betydelige praktiske og anatomiske forbehold. Den godkendte anvendelse forudsætter regional perfusion af en ekstremitet, hvilket ikke kan overføres til prostatisk urinrør, nyrebækken eller blære. Systemisk TNF-alfa har dosisbegrænsende toksicitet (blodtryksfald og et choklignende syndrom), hvilket begrænser brugen uden for regional perfusion. Administrationsvej og anvendelighed er endnu ikke vurderet.
+
+---
+
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -76,15 +80,15 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101838896 | Beromun (BELPHARMA s.a.) | Pulver og solvens til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28101838896 | Beromun (BELPHARMA s.a.) | Pulver og solvens til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
 
 ---
 
@@ -92,20 +96,22 @@ Der findes i øjeblikket ingen relateret litteratur.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Biologisk cytokin (rekombinant TNF-alfa) med antitumoreffekt via vaskulær påvirkning. Det er ikke et konventionelt cytostatikum. |
-| Myelosuppressionsrisiko | Se produktresumeet (SmPC), afsnit om advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresumeet (SmPC), afsnit om advarsler og forsigtighedsregler |
-| Monitoreringsparametre | Se produktresumeet (SmPC), afsnit om advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se produktresumeet (SmPC), afsnit om advarsler og forsigtighedsregler |
+| Klassifikation | Biologisk lægemiddel (rekombinant cytokin) anvendt som tillæg til regional kemoterapi; ikke et konventionelt cytostatikum |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC), herunder hæmodynamik og lækage fra perfusionskredsløbet |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af kræftlægemidler |
+
+Der henvises til advarsler og forholdsregler i produktresuméet (SmPC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Ingen interaktioner blev fundet i de indsamlede data.
+- **Systemisk toksicitet (fra den mekanistiske vurdering)**: TNF-alfa kan give dosisbegrænsende blodtryksfald og choklignende syndrom, hvilket gør anvendelse uden for regional perfusion problematisk.
 
-- **Lægemiddelinteraktioner**: Der blev ikke fundet registrerede interaktioner i det anvendte datagrundlag.
-- **Systemisk toksicitet**: Systemisk TNF-toksicitet begrænser brugen uden for regionale perfusionsscenarier (jf. vurderingen af den forudsagte indikation).
+Der henvises til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer, da disse ikke er tilgængelige i de indsamlede data.
 
 ---
 
@@ -114,15 +120,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er ren modelbaseret (L5) uden kliniske forsøg eller litteratur. Der er ingen dokumenteret mekanisme for urotelcarcinom i den prostatiske urethra, og leveringsvejen (isoleret perfusion) kan ikke overføres til urogenitale tumorer. Systemisk TNF-toksicitet taler yderligere imod en videre prioritering.
+Forudsigelserne er udelukkende modelbaserede (evidensniveau L5) uden støtte fra kliniske forsøg eller litteratur. Den godkendte anvendelse kræver isoleret lemperfusion, og systemisk TNF-toksicitet gør overførsel til urotelial eller brystkræft uklar.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé fra Lægemiddelstyrelsen
-- Data om virkningsmekanisme fra DrugBank til en mere detaljeret mekanistisk analyse
-- Præklinisk eller mekanistisk evidens for TNF-alfa-baseret vaskulær målretning i urotelcarcinom
-- En vurdering af, om en realistisk administrationsvej (f.eks. lokal eller regional administration) er mulig for den forudsagte indikation
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
+- Detaljerede data om virkningsmekanisme (MOA)
+- Gennemgang af produktresuméet for advarsler, kontraindikationer og godkendt indikationstekst
+- Systematisk litteratur- og forsøgssøgning for tasonermin/TNF-alfa ved urotelial kræft
+- Vurdering af mulig administrationsvej (f.eks. lokal eller intravesikal) og tilhørende prækliniske data
+- Præklinisk eller mekanistisk belæg for de sarkomatoide varianter før en eventuel klinisk afprøvning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

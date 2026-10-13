@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Lispro
 parent: Kun modelforudsigelse (L5)
-nav_order: 238
+nav_order: 443
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,11 +31,10 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Insulin lispro: Fra diabetes mellitus til autoimmun oophoritis
 
-## Resumé
+## Resumé i én sætning
 
-Insulin lispro er en hurtigtvirkende insulinanalog, der klinisk anvendes til blodsukkerregulering ved diabetes mellitus. Denne indikation fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **autoimmun oophoritis** (score 99,78 %).
-Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen, og et mekanistisk grundlag er ikke påvist.
+Insulin lispro er et hurtigtvirkende insulinanalog, der oprindeligt anvendes til behandling af diabetes mellitus (type 1 og type 2) og diabetisk ketoacidose.
+TxGNN-modellen forudsiger, at det kan have effekt ved **autoimmun oophoritis**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende computerbaseret.
 
 ---
 
@@ -43,56 +42,87 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (klinisk anvendes insulin lispro ved diabetes mellitus) |
+| Oprindelig indikation | Type 1- og type 2-diabetes mellitus samt diabetisk ketoacidose (angivet i vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke tilgængelig) |
 | Forudsagt ny indikation | Autoimmun oophoritis |
 | TxGNN-forudsigelsesscore | 99,78 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor kan forudsigelsen være rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i Evidence Pack. Insulin lispro er en hurtigtvirkende insulinreceptoragonist til glykæmisk kontrol og har ingen kendt immunmodulerende effekt på ovarieautoimmunitet.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Insulin lispro er dog et hurtigtvirkende insulinanalog, der virker via insulinreceptoren, og dets effekt ved diabetes er veletableret.
 
-Autoimmun oophoritis kan optræde sammen med andre autoimmune endokrine sygdomme, f.eks. type 1-diabetes. Det er komorbiditet og ikke et terapeutisk rationale. Den høje score på 0,998 er derfor en ren modelforudsigelse og bør ikke tolkes som tegn på klinisk effekt.
+Der er ikke påvist nogen mekanistisk sammenhæng mellem insulin lispro og autoimmun oophoritis. En spekulativ forbindelse kan eksistere gennem overlap mellem autoimmune og endokrine sygdomme, f.eks. autoimmune polyendokrine syndromer, hvor type 1-diabetes og autoimmun ovariesygdom kan forekomme sammen. Dette understøttes ikke af forsøg eller litteratur i de foreliggende data. Den høje score (0,998) afspejler sandsynligvis nærhed i vidensgrafen og ikke en dokumenteret terapeutisk effekt.
 
-**Øvrige forudsigelser i listen** (de samme indikationer optræder flere gange i datasættet, og de er her kun nævnt én gang):
+### Øvrige forudsigelser med samme evidensniveau
 
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+Modellen forudsiger også andre indikationer, alle på evidensniveau L5 uden forsøg eller litteratur:
+
+| Forudsagt indikation | Score | Bemærkning |
 |------|------|------|
-| Thiamin-responsivt dysfunktionssyndrom | 99,37 % | Indirekte. Diabetes kan indgå i spektret og behandles med insulin som almindelig diabetesbehandling, ikke som behandling af den underliggende transporterdefekt. |
-| Klassisk stiff person-syndrom | 99,36 % | Sandsynligvis drevet af anti-GAD65-autoimmunitet og samforekomst med type 1-diabetes. Insulin behandler kun den komorbide diabetes. |
-| Fokalt stiff limb-syndrom | 99,36 % | Samme begrundelse som ved klassisk stiff person-syndrom. |
-| Opsismodysplasi | 99,34 % | Spekulativ. SHIP2 (INPPL1) modulerer PI3K/insulinsignalering, men der er intet, der tyder på, at eksogent insulin korrigerer en loss-of-function-defekt i skelettet. |
+| Thiaminresponsivt dysfunktionssyndrom | 99,37 % | Diabetes er en kernekomponent af TRMA-syndromet (SLC19A2-mutationer), så insulin bruges allerede mod den diabetiske del. Det er behandling af et eksisterende symptom og ikke en reel ny indikation. |
+| Klassisk stiff person-syndrom | 99,36 % | Associeret med anti-GAD65-autoantistoffer og hyppig samtidig type 1-diabetes. Insulin ville behandle den samtidige diabetes og ikke den neurologiske sygdom. |
+| Fokalt stiff limb-syndrom | 99,36 % | Lokaliseret variant med samme indirekte forbindelse via GAD-autoimmunitet og type 1-diabetes. |
+| Opsismodysplasi | 99,34 % | INPPL1 (SHIP2) er en negativ regulator af insulin/PI3K-signalering, hvilket giver en spekulativ forbindelse på signalvejsniveau uden klinisk eller prækliniske evidens. |
 
 ---
 
-## Klinisk evidens
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Litteratur
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101706394 | Humalog (Eli Lilly Nederland B.V.) | Injektionsvæske | Ikke angivet i datagrundlaget |
+| 28101706394 | Humalog | Injektionsvæske | Indikationstekst ikke tilgængelig |
+
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat. Indehaveren er Eli Lilly Netherland B.V.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler og kontraindikationer, og søgningen efter interaktioner gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+### Lægemiddelinteraktioner
+
+Interaktionsopslaget gav 100 registrerede interaktioner. De fleste, der er vist i de indsamlede data, er af moderat sværhedsgrad, og nogle få er milde. Blandt de vigtigste:
+
+| Interagerende lægemiddel | Niveau |
+|------|------|
+| Metformin | Moderat |
+| Alogliptin | Moderat |
+| Albiglutid | Moderat |
+| Alpelisib | Moderat |
+| Acebutolol | Moderat |
+| Hydrochlorthiazid | Moderat |
+| Acetazolamid | Moderat |
+| Hydrocortison | Moderat |
+| Salbutamol | Moderat |
+| Formoterol | Moderat |
+| Adrenalin (epinephrin) | Moderat |
+| Phenylephrin | Moderat |
+| Pseudoephedrin | Moderat |
+| Estradiol | Moderat |
+| Ethinylestradiol | Moderat |
+| Levonorgestrel | Moderat |
+| Doxycyclin | Moderat |
+| Ethanol | Moderat |
+| Hydrocortison (topisk) | Mild |
+| Alclometason (topisk) | Mild |
+
+Det fulde sæt af advarsler og kontraindikationer er ikke tilgængeligt i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, herunder risiko for hypoglykæmi.
 
 ---
 
@@ -101,15 +131,14 @@ Der er ingen tilgængelige data om advarsler og kontraindikationer, og søgninge
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller et påvist mekanistisk link. Den mest sandsynlige forklaring på de forudsagte associationer er samforekomst med autoimmun diabetes eller pathway-niveau-forbindelser, ikke en terapeutisk effekt.
+Forudsigelsen er udelukkende baseret på en computermodel (evidensniveau L5) uden kliniske forsøg, litteratur eller dokumenteret mekanistisk sammenhæng. Flere af de forudsagte indikationer afspejler sandsynligvis samtidig diabetes og ikke en egentlig ny terapeutisk effekt.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da det er en blokerende datamangel for sikkerhedsscreeningen.
-- Indhent data om virkningsmekanisme (f.eks. via DrugBank) og de godkendte indikationer for Humalog.
-- Gennemfør en systematisk litteratur- og forsøgssøgning for autoimmun oophoritis og insulin for at afklare, om der findes biologisk understøttelse.
-- Vurder administrationsvej og forligelighed med den forudsagte indikation, som endnu er uafklaret.
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet for Humalog hos Lægemiddelstyrelsen
+- Litteratursøgning og forsøgsregistersøgning for autoimmun oophoritis og insulinbehandling
+- Vurdering af, om den forudsagte sammenhæng er reel eller blot afspejler samtidig type 1-diabetes
+- Afklaring af administrationsvej og forenelighed med den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

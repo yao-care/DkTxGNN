@@ -2,7 +2,7 @@
 layout: default
 title: Fostamatinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 196
+nav_order: 374
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fostamatinib: Fra kronisk immun trombocytopeni til autosomal trombocytopeni med normale blodplader
+# Fostamatinib: Fra immunmedieret trombocytopeni til autosomal trombocytopeni med normale blodplader
 
-## Resumé
+## Resumé i én sætning
 
-Fostamatinib er en SYK-hæmmer (spleen tyrosine kinase), der er markedsført til behandling af kronisk immun trombocytopeni. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **autosomal trombocytopeni med normale blodplader**. Forudsigelsen er **udelukkende modelbaseret**: der er **0 kliniske forsøg** og **0 publikationer** for netop denne indikation.
+Fostamatinib er oprindeligt anvendt til behandling af trombocytopeni forårsaget af immunmedieret destruktion af blodplader.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **autosomal trombocytopeni med normale blodplader**,
+men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratur**, der understøtter denne retning. Forudsigelsen er derfor kun modelbaseret.
 
 ---
 
@@ -41,7 +43,7 @@ Fostamatinib er en SYK-hæmmer (spleen tyrosine kinase), der er markedsført til
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk immun trombocytopeni (angivet i evidensgrundlaget. Indikationsteksten i den danske registrering er tom) |
+| Oprindelig indikation | Trombocytopeni som følge af immunmedieret destruktion (godkendelsesteksten for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Autosomal trombocytopeni med normale blodplader |
 | TxGNN-forudsigelsesscore | 99,45 % |
 | Evidensniveau | L5 |
@@ -51,41 +53,58 @@ Fostamatinib er en SYK-hæmmer (spleen tyrosine kinase), der er markedsført til
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Fostamatinib hæmmer SYK. Den aktive metabolit R406 reducerer den Fc-receptor-medierede nedbrydning af blodplader, som er central ved immun trombocytopeni. Detaljerede data om virkningsmekanismen er ikke tilgængelige i evidensgrundlaget, så beskrivelsen bygger på almen viden om stoffet.
+Fostamatinib er en hæmmer af spleen tyrosine kinase (SYK). Den aktive metabolit er R406. Stoffet nedsætter den antistofmedierede nedbrydning af blodplader ved at blokere Fc-receptorsignalering i makrofager. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen viden om stoffet.
 
-Den forudsagte sygdom er en arvelig form for lavt blodpladetal. Arvelige trombocytopenier skyldes typisk nedsat produktion af blodplader og ikke immunmedieret nedbrydning. Koblingen til den godkendte mekanisme er derfor svag. Den høje score afspejler sandsynligvis nærhed til andre trombocytopeni-noder i vidensgrafen og ikke en dokumenteret biologisk sammenhæng.
+Forudsigelsen hviler hovedsageligt på ligheden i sygdomsnavnet med den godkendte indikation. Autosomal trombocytopeni er en arvelig tilstand, som normalt skyldes genetiske defekter i blodpladeproduktionen og ikke immunmedieret destruktion. SYK-hæmning ville derfor sandsynligvis ikke have effekt. Den høje score (0,995) afspejler en grafbaseret forudsigelse uden understøttende kliniske data eller litteratur.
 
-Bemærk, at modellen også foreslår andre sygdomme med endnu svagere belæg: syndromisk konstitutionel trombocytopeni (score 98,97 %, biologisk mest nærliggende, men uvalideret), medfødt misdannelse af spiserøret (99,05 %), glaukom (98,70 %) og biotinrelateret stofskiftesygdom (98,69 %). For ingen af dem er der fundet kliniske forsøg eller relevant litteratur. De tre publikationer, der er knyttet til glaukom, er generelle oversigtsartikler om godkendte kinasehæmmere og siger intet om fostamatinib ved glaukom.
+Modellen forudsiger desuden andre indikationer, herunder syndromisk konstitutionel trombocytopeni, glaukom, ikke-syndromisk øsofagusmalformation og biotinmetabolisk sygdom. For ingen af disse er der fundet et troværdigt mekanistisk grundlag. Den nærmeste kategori er syndromisk konstitutionel trombocytopeni (score 98,97 %), men den har samme mekanistiske begrænsning, medmindre der påvises en undertype, hvor øget blodpladeclearance spiller en rolle.
 
 ---
 
-## Klinisk evidens
+## Klinisk evidens fra forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur for den forudsagte indikation.
+Der er aktuelt ingen relateret litteratur for den primære forudsigelse (autosomal trombocytopeni med normale blodplader).
+
+For en anden forudsagt indikation, glaukom, blev der fundet tre generelle oversigtsartikler om proteinkinasehæmmere. De omtaler ikke fostamatinib ved glaukom og er ikke vurderet som evidens:
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Review | Pharmacological Research | Opdatering om egenskaber ved FDA-godkendte småmolekylære proteinkinasehæmmere |
+| [30877063](https://pubmed.ncbi.nlm.nih.gov/30877063/) | 2019 | Review | Pharmacological Research | Oversigt over egenskaber ved FDA-godkendte proteinkinasehæmmere |
+| [38096958](https://pubmed.ncbi.nlm.nih.gov/38096958/) | 2024 | Review | Pharmacological Research | Omkostninger i USA for FDA-godkendte proteinkinasehæmmere |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106169618 | Tavlesse | Filmovertrukne tabletter (oral) | Instituto Grifols S.A. |
+| 28106169618 | Tavlesse (Instituto Grifols S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+
+---
+
+## Cytotoksicitet
+
+Fostamatinib er en målrettet kinasehæmmer og ikke et antineoplastisk lægemiddel. Sektionen er derfor udeladt.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i evidensgrundlaget. Det er dog ikke ensbetydende med, at der ikke findes interaktioner.
+**Lægemiddelinteraktioner** (100 registrerede interaktioner i alt; et udvalg er vist):
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Alvorlig (Major):** clarithromycin
+- **Moderat:** rabeprazol, omeprazol, dexlansoprazol, cimetidin, hydrocortison, dexamethason, betamethason, budesonid, triamcinolon, aprepitant, alosetron, alvimopan, dolasetron, dronabinol, eliglustat, empagliflozin, loperamid, pioglitazon, morfin
+
+For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -94,15 +113,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur. Den mekanistiske kobling mellem SYK-hæmning og arvelig trombocytopeni med nedsat produktion er svag.
+Forudsigelsen er kun modelbaseret (evidensniveau L5) uden kliniske forsøg eller relevant litteratur. Den arvelige karakter af sygdommen gør desuden en effekt af SYK-hæmning mekanistisk usandsynlig.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Dette blokerer sikkerhedsscreeningen.
-- Data om virkningsmekanisme (MOA), fx via DrugBank.
-- Målrettet litteratursøgning på SYK-hæmning ved arvelige trombocytopenier, især former med immunkomponent såsom Wiskott-Aldrich-lignende lidelser.
-- Eventuelt prækliniske data eller et sygdomsmodelstudie, der kan understøtte en mekanistisk sammenhæng.
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanismen (MOA)
+- En mekanistisk begrundelse for en specifik undertype af arvelig trombocytopeni, hvor øget clearance af blodplader er involveret
+- Gennemgang af produktresuméet for advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Præklinisk eller litteraturbaseret understøttelse, før kliniske forsøg overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

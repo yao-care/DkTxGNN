@@ -2,15 +2,15 @@
 layout: default
 title: Diazepam
 parent: Moderat evidens (L3-L4)
-nav_order: 141
-evidence_level: L3
+nav_order: 259
+evidence_level: L4
 indication_count: 10
 ---
 
 # Diazepam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,80 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Diazepam: Fra ikke-angivet oprindelig indikation til insomni
+# Diazepam: Fra epilepsi og angst til insomni
 
 ## Resumé i én sætning
 
-Diazepam er en benzodiazepin, som i Danmark er markedsført som tabletter (Apozepam), men den godkendte oprindelige indikation fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at diazepam kan virke ved **insomni**.
-Evidensen er svag: **24 registrerede forsøg** og **20 publikationer** er fundet, men næsten ingen undersøger diazepam direkte ved insomni. Insomni er desuden muligvis allerede en kendt brug, så det er næppe et reelt repurposing-signal.
+Diazepam er et benzodiazepin, der oprindeligt bruges til behandling af epilepsi, status epilepticus, alkoholabstinens, angst og tetanus.
+TxGNN-modellen forudsiger, at det kan have effekt på **insomni**, men der er **ingen registrerede kliniske forsøg** og kun **litteratur på klassebasis** (primært reviews og ikke diazepam-specifikke studier) til at understøtte denne retning.
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig (godkendt indikationstekst er tom i datagrundlaget) |
+| Oprindelig indikation | Epilepsi, status epilepticus, alkoholabstinens (inkl. delirium), Wernicke-Korsakoff syndrom, angst, tetanus (den danske godkendelsestekst for indikation er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,9997 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
+| TxGNN-forudsigelsesscore | 99,99 % |
+| Evidensniveau | L4 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Diazepam er en positiv allosterisk modulator af GABA-A-receptoren. Den forstærker den hæmmende neurotransmission og giver beroligende og søvnfremkaldende virkning. Detaljerede mekanismedata (original MOA) fra DrugBank mangler, så beskrivelsen bygger på den generelle farmakologiske viden i evidenspakken.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden og den indsamlede litteratur er diazepam en positiv allosterisk modulator af GABA-A-receptoren (benzodiazepinsædet). Den forstærker hæmmende neurotransmission og giver beroligende, angstdæmpende, krampestillende og søvnfremmende virkning.
 
-Mekanismen svarer til den, som bruges af andre benzodiazepiner mod søvnforstyrrelser. Det forklarer den meget høje TxGNN-score. Den eneste direkte kliniske evidens i materialet er et dobbeltblindt studie fra 1981 med 100 ambulante patienter, hvor lormetazepam blev sammenlignet med diazepam (5 mg). Lormetazepam var signifikant bedre end diazepam på tid til indsovning og søvnvarighed.
+De oprindelige indikationer (angst, epilepsi, alkoholabstinens) bygger på den samme GABAerge dæmpning af nervesystemet. Det er derfor biologisk plausibelt, at virkningen også kan afhjælpe søvnløshed. Benzodiazepiner som klasse har da også været brugt til kortvarig behandling af insomni.
 
-Da den oprindelige indikation ikke er oplyst, kan det ikke verificeres, om insomni allerede er en godkendt eller anerkendt anvendelse. Det er sandsynligt, at benzodiazepiner mod insomni er kendt klinisk praksis i flere lande, og derfor er dette snarere en bekræftelse af eksisterende brug end en ny indikation.
-
----
-
-## Evidens fra kliniske forsøg
-
-Ingen af de fundne forsøg tester diazepam som behandling af insomni. De fleste handler om seponering af benzodiazepiner eller hypnotika, eller om helt andre tilstande. De mest relevante er opført nedenfor.
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | Fase 3 | Aktiv, rekrutterer ikke | 260 | Blindet nedtrapning af hypnotika kombineret med kognitiv adfærdsterapi for insomni (CBT-I) |
-| [NCT05935553](https://clinicaltrials.gov/study/NCT05935553) | Fase 2/3 | Rekrutterer | 93 | Baclofen som støtte til nedtrapning ved benzodiazepinafhængighed |
-| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | Fase 2 | Afsluttet | 74 | Betydningen af nedtrapningstempo for seponering af hypnotika |
-| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | Fase 4 | Afsluttet | 17 | Ramelteon som støtte ved dosisreduktion af (non-)benzodiazepin-hypnotika ved kronisk insomni |
-| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | Ikke angivet | Afsluttet | 128 | Acceptance and Commitment Therapy ved benzodiazepinseponering hos voksne med hypnotikaafhængig insomni |
-| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | Ikke angivet | Afsluttet | 188 | Program til at hjælpe ældre med at stoppe sovemedicin |
-| [NCT02281175](https://clinicaltrials.gov/study/NCT02281175) | Ikke angivet | Afsluttet | 114 | Psykosocial intervention (PASSE-65+) til gradvis seponering af benzodiazepiner hos ældre |
-| [NCT04364321](https://clinicaltrials.gov/study/NCT04364321) | Ikke angivet | Ukendt | 74 | Enkeltdosis clonazepam sammenlignet med intermitterende diazepam til forebyggelse af recidiverende feberkramper hos børn (diazepam som komparator) |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | Ikke angivet | Ukendt | 1400 | Kohortestudie af nytte og risiko ved hypnotika hos ældre i Taiwan |
-| [NCT05646693](https://clinicaltrials.gov/study/NCT05646693) | Fase 2 | Ukendt | 58 | Antioxidantbehandling med Adepsique® (amitriptylin, perphenazin og diazepam) ved kronisk tinnitus |
-
-Der er ingen registrerede forsøg i ICTRP. Flere andre forsøg i søgeresultatet (fx baclofen-, gabapentin- og quetiapinstudier, der blev afsluttet tidligt med 1-2 deltagere) vurderes som irrelevante for diazepams effekt ved insomni.
+Der er dog vigtige forbehold. Der foreligger ingen diazepam-specifikke forsøg i de indsamlede data. Litteraturen fremhæver risiko for afhængighed, tolerance, kognitiv påvirkning og fald, især hos ældre, og retningslinjer anbefaler generelt nedtrapning og kognitiv adfærdsterapi ved insomni (CBT-I) som førstevalg. Fordel-risiko-forholdet taler derfor for nyere præparater ved langtidsbehandling.
 
 ---
 
-## Evidens fra litteraturen
+## Dokumentation fra kliniske forsøg
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | Sammenlignende klinisk forsøg (dobbeltblindt) | J Int Med Res | Lormetazepam 1 mg var signifikant bedre end diazepam 5 mg på tid til indsovning og uafbrudt søvnvarighed hos 100 ambulante patienter med insomni |
-| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorg Chem | Gennemgang af GABA-A-modulatorer, herunder diazepam, ved neurologiske og psykiatriske lidelser som epilepsi, angst og insomni |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Metaanalyse | Acta Pharm | Beroligende behandling hos ældre med kroniske ikke-smitsomme sygdomme: dosis, effekt og bivirkninger |
-| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | Præklinisk | Nat Neurosci | Langvarig diazepambehandling øger mikrogliers optagelse af dendritiske spines og forringer kognition hos mus via TSPO |
-| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Klinisk/molekylær | Cell Mol Biol Lett | Langvarig brug af benzodiazepiner og Z-lægemidler er forbundet med forværring af brystkræft |
-| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Review | Drugs | Triazolam ved insomni (relevant som sammenligning, ikke diazepam) |
-| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | Review | J Fam Pract | Nytte og risiko ved benzodiazepiner mod insomni hos ældre i eget hjem; ingen studier af langtidseffekt |
-| [31770357](https://pubmed.ncbi.nlm.nih.gov/31770357/) | 2019 | Review | Med Lett Drugs Ther | Cannabis og cannabinoider |
+| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorganic Chemistry | Gennemgang af GABA-A-modulatorer (herunder diazepam) ved epilepsi, angst, insomni og depression; effekt men også bivirkninger som sedation |
+| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | Dobbeltblindet sammenlignende studie | J Int Med Res | Lormetazepam 1 mg var bedre end diazepam 5 mg til at forkorte indsovningstid og forlænge uafbrudt søvn hos 100 ambulante patienter med insomni |
+| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Kohorte | Cell Mol Biol Lett | Langvarig brug af benzodiazepiner og Z-lægemidler kan øge risikoen for forværring af brystkræft |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Farmakokinetik for angstdæmpende lægemidler |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analyse | Acta Pharm | Beroligende behandling hos ældre med kroniske sygdomme: dosis, effekt og bivirkninger |
+| [35196378](https://pubmed.ncbi.nlm.nih.gov/35196378/) | 2022 | Ikke-randomiseret intervention | Family Practice | Seponering af kronisk benzodiazepinbrug i almen praksis |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Modelstudie | Value Health Reg Issues | Langvarig benzodiazepinbrug er forbundet med hukommelsestab, afhængighed, fald og trafikulykker |
+| [31770357](https://pubmed.ncbi.nlm.nih.gov/31770357/) | 2019 | Review | Med Lett Drugs Ther | Cannabis og cannabinoider (kun indirekte relevant) |
 
-Resten af litteraturen er præklinisk forskning, hvor diazepam kun bruges som positiv kontrol, samt urtemedicinske studier.
+Bemærk: Flere af de fundne publikationer handler om urtemedicin, dyremodeller eller er uden relation til diazepam og er derfor ikke medtaget.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100583070 | Apozepam (Teva B.V.) | Tabletter (oral) | Ikke angivet i datagrundlaget |
+| 28100583070 | Apozepam (Teva B.V.) | Tabletter | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ikke sikkerhedsdata i datagrundlaget (advarsler og kontraindikationer mangler, og interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-Litteraturen peger dog på generelle bekymringer ved benzodiazepiner, som bør indgå i en vurdering:
-- risiko for afhængighed, tolerans og misbrug
-- kognitiv forringelse ved langvarig brug
-- en mulig sammenhæng mellem langvarig brug og brystkræft (observationelt og molekylært, endnu ikke afklaret)
+- **Kontraindikationer ifølge vidensgrafen (ikke mærkningstekst)**: Leversvigt og leversygdom, galdeblæresygdom, snævervinklet og åbenvinklet glaukom, obstruktiv søvnapnø/søvnapnøsyndrom, respirationssvigt og lungesygdom, myasthenia gravis og sygdomme i den neuromuskulære overgang, misbrug/afhængighed af stoffer samt visse angst- og neurotiske lidelser.
+- **Lægemiddelinteraktioner** (100 registrerede; de vigtigste):
+  - **Alvorlig (Major)**: Morfin (additiv CNS- og respirationsdepression).
+  - **Moderat**: Bupropion, aprepitant, omeprazol, esomeprazol, cimetidin, clarithromycin, cisapride, clotrimazol, miconazol, dronabinol, metoclopramid.
+  - **Mindre (Minor)**: Dexamethason, betamethason samt antacida (magnesiumoxid, aluminiumhydroxid, calciumcarbonat m.fl.).
+- **Øvrige signaler fra litteraturen**: Afhængighed, tolerance, kognitiv svækkelse, fald hos ældre og misbrugspotentiale ved langvarig brug.
 
 ---
 
@@ -125,16 +111,25 @@ Litteraturen peger dog på generelle bekymringer ved benzodiazepiner, som bør i
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Der er ingen forsøg eller publikationer, der viser diazepams effekt ved insomni. Den eneste direkte kliniske evidens er et 45 år gammelt studie, hvor diazepam var den dårligere behandling.
-- Insomni er sandsynligvis allerede en kendt brug af benzodiazepiner, så forudsigelsen tilfører ikke en reel ny indikation. De øvrige forudsigelser (fx cauda equina-syndrom og ADHD) har endnu svagere grundlag.
+Forudsigelsen er biologisk plausibel, men understøttes kun af litteratur på klasseniveau og ingen diazepam-specifikke kliniske forsøg (evidensniveau L4). Ved langtidsbrug opvejer risici for afhængighed og kognitive bivirkninger, og retningslinjer favoriserer CBT-I og nyere præparater.
 
 **For at komme videre kræves:**
-- Hent og gennemgå produktresuméet for Apozepam hos Lægemiddelstyrelsen (blokerende datahul: advarsler, kontraindikationer og godkendt indikation).
-- Bekræft, om insomni allerede er en godkendt indikation i Danmark, så det kan afgøres, om forslaget er reelt repurposing.
-- Hent mekanismedata (MOA) fra DrugBank.
-- Gennemgå nyere kontrollerede forsøg og retningslinjer for benzodiazepiner ved insomni, herunder den kliniske anbefaling om kortvarig brug, og vurdér nytte mod risiko for afhængighed og kognitiv påvirkning.
+- Diazepam-specifikke, kontrollerede forsøg ved insomni sammenlignet med eksisterende standardbehandling
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af sikkerhed hos ældre og risiko for afhængighed og misbrug
 
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til repurposing kræver klinisk validering, før de kan anvendes.*
+---
+
+## Øvrige forudsagte indikationer (kort overblik)
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
+|------|------|------|------|
+| Søvnforstyrrelse (indsovning og opretholdelse af søvn) | 99,97 % | L4 | Forskningsspørgsmål; litteraturen fokuserer primært på nedtrapning af benzodiazepiner |
+| Cauda equina-syndrom | 99,99 % | L5 | Hold; ingen evidens, og tilstanden kræver akut kirurgisk dekompression |
+| ADHD, uopmærksom type | 99,97 % | L5 | Hold; biologisk usandsynlig og potentielt skadelig, da benzodiazepiner kan svække opmærksomhed |
+| Hallucinogenmisbrug | 99,95 % | L4 | Hold; allerede rutinemæssig symptomlindring ved akut forgiftning, ingen kontrolleret evidens |
+| Barbituratmisbrug | 99,95 % | L4 | Forskningsspørgsmål; krydstolerance understøtter brug ved abstinens, men evidensen er indirekte og diazepams eget misbrugspotentiale må vægtes |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

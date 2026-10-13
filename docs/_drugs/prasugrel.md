@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prasugrel
-parent: Kun modelforudsigelse (L5)
-nav_order: 357
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 677
+evidence_level: L3
 indication_count: 10
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Prasugrel: Fra trombocythæmmende behandling til pulmonal hypertension
+# Prasugrel: Fra akut koronarsyndrom til migræne
 
 ## Resumé i én sætning
 
-Prasugrel er en P2Y12-antagonist, der blokerer trombocytaktivering. Den officielle indikationstekst for det danske produkt er ikke tilgængelig i datagrundlaget.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension**.
-Der er **0 undersøgelser**, som tester prasugrel ved denne sygdom. De 2 registrerede kliniske forsøg og 2 publikationer er vurderet som ikke relevante, så forudsigelsen hviler alene på modellen.
+Prasugrel er en blodpladehæmmer (P2Y12-hæmmer), som oprindeligt anvendes til behandling af **akut koronarsyndrom**.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (med PFO, åbent foramen ovale, som den mest relevante hypotese).
+Evidensen er begrænset: **2 kliniske forsøg** (hvoraf intet dokumenterer prasugrel direkte) og **2 publikationer** på klasseniveau (tienopyridiner og ticagrelor).
 
 ---
 
@@ -43,31 +43,34 @@ Der er **0 undersøgelser**, som tester prasugrel ved denne sygdom. De 2 registr
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Pulmonal hypertension |
-| TxGNN-forudsigelsesscore | 99,88 % |
-| Evidensniveau | L5 (kun modelforudsigelse, ingen egentlige studier) |
-| Markedsstatus i Danmark | Markedsført |
+| Oprindelig indikation | Akut koronarsyndrom (fra videngrafen; den godkendte indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
+| Forudsagt ny indikation | Migræne (migraine disorder) |
+| TxGNN-prædiktionsscore | 99,88 % |
+| Evidensniveau | L3 |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
-
-## Hvorfor er forudsigelsen rimelig?
-
-Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen (MOA) i datagrundlaget. Prasugrel er dog beskrevet som en P2Y12-antagonist, der blokerer trombocytaktivering.
-
-Trombocytaktivering og in situ-trombose er impliceret i remodellering af lungekarrene. Det giver en plausibel, men ubevist begrundelse for, at P2Y12-blokade kan være relevant ved pulmonal hypertension.
-
-Den høje TxGNN-score (0,9988) er udelukkende en grafbaseret forudsigelse. Ingen af de fundne poster tester prasugrel ved pulmonal hypertension, og scoren bør derfor ikke tolkes som klinisk evidens.
+Bemærk: Den højest rangerede forudsigelse i de samlede data er pulmonal hypertension (score 99,88 %, evidensniveau L5, kun modelprædiktion). Migræne er valgt som fokus, fordi den har den stærkeste tilgængelige evidens.
 
 ---
 
-## Klinisk evidens
+## Hvorfor er denne forudsigelse rimelig?
 
-| Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Prasugrel er dog kendt som en tienopyridin og P2Y12-hæmmer af blodplader, og dets effekt ved akut koronarsyndrom hviler på hæmning af blodpladeaktivering.
+
+Den foreslåede forbindelse til migræne går via PFO: Ved migræne med åbent foramen ovale kan paradoksale mikroemboli eller blodpladeafledte vasoaktive stoffer (fx serotonin) passere højre-til-venstre-shunten og udløse migræne. Antiplatelet-behandling kunne derfor mindske migrænebyrden.
+
+Støtten er indirekte. Et retrospektivt studie af tienopyridiner (klopidogrel/prasugrel) hos migrænepatienter med PFO og et åbent pilotstudie med ticagrelor, en anden P2Y12-hæmmer, peger i samme retning. Der foreligger ingen prospektive, prasugrel-specifikke data. Mekanismen er plausibel, men ubevist.
+
+---
+
+## Evidens fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | Ikke relevant (observationsstudie) | Afsluttet | 500 | Tværsnitsstudie af håndtering af NOAK hos ældre med non-valvulær atrieflimren i Spanien. Omfatter hverken prasugrel eller pulmonal hypertension (relevans: C). |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | Ikke relevant (observationsstudie) | Afsluttet | 300 | Retrospektiv undersøgelse af, hvor stor en andel af patienter med cancerassocieret trombose der ikke ville kunne indgå i CARAVAGGIO-studiet. Drejer sig om antikoagulation, ikke prasugrel eller pulmonal hypertension (relevans: C). |
+| [NCT07629635](https://clinicaltrials.gov/study/NCT07629635) | Fase 3 | Rekrutterer | 32 | COMFORT-PFO: PFO-rettet behandling mod migræne (lukning af PFO eller blodpladehæmmer, bl.a. prasugrel nævnt i beskrivelsen). Relevant for hypotesen, men ikke direkte prasugrel-evidens; ingen resultater endnu |
+| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | Ikke relevant (udstyr) | Afsluttet før tid | 7 | Studie af GORE CARDIOFORM-okklusionsudstyr til PFO-lukning ved migræne. Ikke et lægemiddelstudie; for få deltagere til at kunne bruges |
 
 ---
 
@@ -75,22 +78,29 @@ Den høje TxGNN-score (0,9988) er udelukkende en grafbaseret forudsigelse. Ingen
 
 | PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Kohortestudie | Current Medical Research and Opinion | Faktorer forbundet med brug af og adhærens til clopidogrel hos patienter med akut koronart syndrom efter PCI. Ingen data om pulmonal hypertension. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Kohortestudie (register) | Kardiologiia | Betydningen af baggrundsbehandling før COVID-19 for risikoen for dødeligt forløb i ACTIV-registret. Ingen data om prasugrel ved pulmonal hypertension. |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Åbent pilotstudie | Neurology | Ticagrelor (ikke-tienopyridin P2Y12-hæmmer) ved refraktær migræne med PFO. Udført efter observationer af, at klopidogrel og prasugrel lindrede migræne hos nogle patienter |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospektiv gennemgang | Neurology | Off-label brug af tienopyridiner hos migrænepatienter med PFO |
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107432225 | Prasugrel "Epione" (Epione Medicine ApS) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28107432225 | Prasugrel "Epione" (Epione Medicine ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet interaktionsdata (DDI) for prasugrel i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer (fra videngrafen, ikke fra produktresumé):** Videngrafen angiver kontraindikationer ved bl.a. leversvigt, hypotension, blodkoagulationssygdom, slagtilfælde og cerebrovaskulære lidelser, cerebralt infarkt, transitorisk iskæmisk attak, intrakraniel blødning, trombocytopenisk purpura, vertebrobasilær insufficiens og skade/traume.
+
+**Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner. Blandt de vigtigste:
+- **Svære:** deferasirox, ibritumomab tiuxetan
+- **Moderate:** acetylsalicylsyre, morfin, opium, fenfluramin, dexfenfluramin, sibutramin
+- **Milde:** bl.a. protonpumpehæmmere (omeprazol, pantoprazol m.fl.) og H2-blokkere (famotidin, ranitidin, cimetidin), bupropion
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, da advarsler og kontraindikationer fra produktresuméet ikke indgår i de indsamlede data.
 
 ---
 
@@ -99,17 +109,14 @@ Der er ikke fundet interaktionsdata (DDI) for prasugrel i datagrundlaget. Se det
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om pulmonal hypertension er kun modelbaseret (L5). Ingen af de fundne forsøg eller publikationer undersøger prasugrel ved sygdommen, og den mekanistiske sammenhæng er plausibel, men ubevist. De to identiske forudsigelsesposter for pulmonal hypertension i datagrundlaget giver ikke yderligere evidens.
+Evidensen for migræne er indirekte og på klasseniveau (tienopyridiner og ticagrelor), uden prasugrel-specifikke prospektive data. Det eneste relevante fase 3-forsøg er lille (32 deltagere), rekrutterer stadig og har ingen resultater. Prasugrels blødningsrisiko og de mange kontraindikationer kræver en omhyggelig nytte-risiko-vurdering.
 
-Blandt de øvrige forudsigelser er migræne med åbent foramen ovale (PFO) den bedst understøttede (evidensniveau L4, "forskningsspørgsmål"). Støtten er indirekte: et åbent pilotstudie med ticagrelor og en retrospektiv gennemgang af thienopyridinbehandling. Prasugrel-specifikke data er ikke bekræftet. Blødningsrisikoen ved prasugrel skal vurderes, før et studie designes.
-
-**For at komme videre kræves følgende:**
-- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, interaktioner)
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Målrettet litteratur- og forsøgssøgning efter prasugrel eller P2Y12-hæmmere ved pulmonal hypertension
-- Vurdering af blødningsrisiko og relevante patientpopulationer, før en egentlig undersøgelse overvejes
-
-*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Resultater fra COMFORT-PFO og afklaring af, om prasugrel indgår som intervention
+- Prasugrel-specifikke prospektive, randomiserede data ved migræne med PFO
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af produktresuméets advarsler og kontraindikationer (ikke tilgængelige i de indsamlede data)
+- Vurdering af blødningsrisiko i en migrænepopulation, som ofte er yngre og har lavere kardiovaskulær risiko
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

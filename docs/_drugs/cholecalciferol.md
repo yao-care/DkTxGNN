@@ -2,7 +2,7 @@
 layout: default
 title: Cholecalciferol
 parent: Kun modelforudsigelse (L5)
-nav_order: 110
+nav_order: 190
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cholecalciferol: Fra D-vitamin til familiær isoleret hypoparathyroidisme
+# Cholecalciferol: Fra D-vitaminmangel og knoglesygdomme til familiær isoleret hypoparathyroidisme
 
 ## Resumé
 
-Cholecalciferol (D-vitamin, D3) er en forstadie til den aktive form calcitriol og reguleres i kroppens calcium- og fosfatstofskifte. Der er ikke angivet en godkendt indikation i de tilgængelige danske data.
-TxGNN-modellen forudsiger, at det kan have effekt ved **familiær isoleret hypoparathyroidisme pga. nedsat PTH-sekretion**.
-Der er dog **0 kliniske forsøg** og **0 publikationer** specifikt for denne sygdom, så forudsigelsen bygger alene på modellen.
+Cholecalciferol (D-vitamin D3) bruges oprindeligt til behandling af D-vitaminmangel, rakitis, osteomalaci, osteoporose og hypoparathyroidisme.
+TxGNN-modellen forudsiger, at det kan være effektivt ved **familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion**.
+Der er **0 kliniske forsøg** og **0 publikationer** specifikt for denne indikation. Forudsigelsen er derfor udelukkende modelbaseret.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Familiær isoleret hypoparathyroidisme pga. nedsat PTH-sekretion |
+| Oprindelig indikation | Ikke angivet i godkendelsesteksten for det danske produkt. Ifølge videngrafen: D-vitaminmangel, rakitis, osteomalaci, osteoporose, hypoparathyroidisme m.fl. |
+| Forudsagt ny indikation | Familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion |
 | TxGNN-forudsigelsesscore | 99,79 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+---
 
-Der foreligger ikke detaljerede data om virkningsmekanismen. Cholecalciferol er en forstadie til calcitriol og bruges generelt til at behandle hypocalcæmi, herunder ved hypoparathyroidisme. Mekanistisk kan det derfor tænkes at være relevant for den forudsagte indikation.
+## Hvorfor er forudsigelsen rimelig?
 
-Ved PTH-mangel er nyrernes 1-alfa-hydroxylering imidlertid nedsat. Nativt D-vitamin er derfor en svag behandlingsvej, fordi det ikke effektivt omdannes til den aktive form. Aktive analoger (calcitriol, alfacalcidol) foretrækkes normalt.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det materiale, der er sammenstillet til denne rapport. Cholecalciferol omdannes i kroppen til den aktive form (1,25-dihydroxyvitamin D), som regulerer calcium- og fosfatbalancen.
 
-Den meget høje score afspejler sandsynligvis, at sygdommen ligger tæt på calcium- og D-vitaminveje i videngrafen, snarere end et valideret repurposing-signal.
+Hypoparathyroidisme er allerede blandt cholecalciferols oprindelige indikationer. Den familiære isolerede form er en genetisk undertype af samme tilstand. Den høje score afspejler derfor primært overlap med en eksisterende indikation og ikke et egentligt nyt repurposing-signal. I klinisk praksis behandles tilstanden typisk med calcium og aktive D-vitaminanaloger, og det er ikke en ny anvendelse.
+
+---
 
 ## Klinisk evidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig for den forudsagte indikation.
+
+Til orientering: Andre forudsigelser på listen har litteraturtræf, men disse er enten generelle D-vitaminartikler (Dahlberg-Borer-Newcomer syndrom) eller delvist overlappende med eksisterende indikationer (hypofosfatemisk rakitis, f.eks. [PMID 38337700](https://pubmed.ncbi.nlm.nih.gov/38337700/), en oversigtsartikel fra 2024 om rakitistyper og behandling med D-vitamin og analoger).
+
+---
 
 ## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28105565615 | Benferol (Consilient Health Limited) | Kapsler, bløde | Ikke angivet i de tilgængelige data |
+| 28105565615 | Benferol | Bløde kapsler | Indikationstekst ikke angivet |
+
+Producent: Consilient Health Limited.
+
+---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner** (56 registrerede, udvalgte nedenfor):
+- **Alvorlige (Major):** calcifediol, calcitriol, dihydrotachysterol, doxercalciferol (additiv D-vitaminvirkning og risiko for hypercalcæmi)
+- **Moderate:** thiazider (bendroflumethiazid, chlorthalidon, chlorothiazid), barbiturater (amobarbital, butabarbital, butalbital), carbamazepin, digoxin og digitoxin, galdesyrebindere (cholestyramin, colesevelam, colestipol)
+- **Mindre:** cimetidin
+
+**Tilstande, hvor videngrafen markerer kontraindikation eller forsigtighed** (ikke hentet fra produktresuméet): hyperparathyroidisme, hypercalcæmi, nefrokalcinose, sarkoidose, nyresygdom, leversygdom, hypertension, atrieflimren, diabetes, hyperlipidæmi, primær hyperoxaluri, hæmokromatose, Wilsons sygdom, seglcellesygdom samt bryst- og prostatakræft.
+
+For fuldstændige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke var tilgængelige.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er ren modelforudsigelse (evidensniveau L5) uden forsøg eller litteratur for netop denne sygdom. Biologien taler desuden imod nativt D-vitamin ved PTH-mangel, hvor aktive analoger er førstevalg.
+Forudsigelsen overlapper med en allerede eksisterende indikation (hypoparathyroidisme) og er ikke understøttet af kliniske forsøg eller specifik litteratur (evidensniveau L5). Den høje modelscore udgør derfor ikke et nyt repurposing-signal.
 
 **For at komme videre kræves:**
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (mangler, og blokerer sikkerhedsscreeningen)
+- Hentning og gennemgang af produktresuméet for Benferol (advarsler, kontraindikationer, godkendt indikation)
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Sygdomsspecifik evidens, fx en sammenligning mellem cholecalciferol og aktive D-vitaminanaloger ved hypoparathyroidisme
-- Bemærk: Andre forudsigelser i pakken, fx hypofosfatæmisk rakitis (score 99,20 %, evidensniveau L4), er biologisk mere sammenhængende. De understøttes dog primært af forsøg med burosumab, ikke cholecalciferol, og er ikke nye repurposing-fund, da aktivt D-vitamin allerede er standardbehandling.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
+- Litteraturgennemgang specifikt for familiær isoleret hypoparathyroidisme og D-vitaminbehandling
+- Vurdering af, om forudsigelsen overhovedet tilfører værdi ud over gældende standardbehandling (calcium og aktive D-vitaminanaloger)
+- Bemærk at mange af de øvrige forudsigelser (akromesomel dysplasi, kraniofacial konodysplasi, Dahlberg-Borer-Newcomer syndrom) savner både kendt mekanisme og specifik evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

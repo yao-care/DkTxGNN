@@ -2,7 +2,7 @@
 layout: default
 title: Hypromellose
 parent: Kun modelforudsigelse (L5)
-nav_order: 218
+nav_order: 415
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Hypromellose: Fra øjendråber til hepatisk veno-okklusiv sygdom-immundefektsyndrom
+# Hypromellose: Fra øjenlubrikant til hepatisk veno-okklusiv sygdom med immundefekt (modelprædiktion)
 
-## Resumé i få sætninger
+## Resumé
 
-Hypromellose er et cellulosederivat, der bruges som viskositetsforøgende hjælpestof. I Danmark er det markedsført i øjendråber (Artelac). TxGNN-modellen forudsiger, at stoffet kan have effekt på **hepatisk veno-okklusiv sygdom-immundefektsyndrom (VODI)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret og biologisk usandsynlig.
-
----
+Hypromellose er et cellulosederivat, der bruges som viskositetsfremmende hjælpestof og som lubrikant i øjendråber. Det er registreret i Danmark i produktet Artelac. TxGNN-modellen forudsiger, at stoffet kan have effekt på **hepatisk veno-okklusiv sygdom med immundefekt-syndrom**, men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Hepatisk veno-okklusiv sygdom-immundefektsyndrom (VODI) |
-| TxGNN-forudsigelsesscore | 98,30 % |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (lægemiddelstyrelsens godkendelsestekst er tom). Anvendes som øjendråber (lubrikant). |
+| Foreslået ny indikation | Hepatisk veno-okklusiv sygdom med immundefekt-syndrom |
+| TxGNN-prædiktionsscore | 98,3 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+Andre forudsigelser med tilsvarende høje scorer (alle L5, alle Hold):
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+| Forudsagt indikation | TxGNN-score |
+|------|------|
+| Pancytopeni på grund af IKZF1-mutationer | 98,2 % |
+| Hepatisk veno-okklusiv sygdom | 98,1 % |
+| Kombineret immundefekt på grund af CRAC-kanaldysfunktion | 98,0 % |
+| Syndrom med manglende tommelfinger, lav vækst og immundefekt | 97,9 % |
 
-Der foreligger ingen detaljerede data om virkningsmekanisme. Hypromellose er et stort set inert cellulosederiveret hjælpestof og viskositetsmiddel uden kendt systemisk farmakologi. I Danmark er det registreret i øjendråber.
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Den forudsagte sygdom, VODI, er et sjældent monogent immundefektsyndrom (SP110-mangel). Der er ingen kendt biologisk forbindelse mellem et inert hjælpestof og denne sygdoms patofysiologi. Scoren på 0,983 er sandsynligvis en artefakt af vidensgrafens topologi og ikke udtryk for reel farmakologisk effekt.
+Der foreligger ingen detaljerede data om virkningsmekanisme. Hypromellose er et farmakologisk inaktivt, cellulosebaseret hjælpestof og viskositetsmiddel, som bruges i øjenlubrikanter, tabletovertræk og kapselskaller. Stoffet optages kun ubetydeligt systemisk.
 
-Modellens øvrige topforudsigelser er lige så svagt funderet:
+Den forudsagte sygdom er en sjælden, autosomal recessiv primær immundefekt forårsaget af SP110-mutationer. Der er ingen troværdig mekanistisk forbindelse mellem et inert hjælpestof og denne sygdom. Scoren på 0,983 er sandsynligvis drevet af netværkstopologien i vidensgrafen snarere end af biologi.
 
-| Forudsagt sygdom | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Hepatisk VODI-immundefektsyndrom | 98,30 % | Ingen plausibel sammenhæng |
-| Pancytopeni på grund af IKZF1-mutationer | 98,15 % | Genetisk hæmatologisk og immunologisk sygdom (IKZF1-haploinsufficiens), uden kendt forbindelse til et inert hjælpestof |
-| Hepatisk veno-okklusiv sygdom | 98,08 % | Skyldes skade på sinusoidale endotelceller, typisk efter stamcelletransplantation eller kemoterapi, og behandles med defibrotid. Hypromellose har ingen kendt endotelbeskyttende eller antikoagulerende virkning |
-| Kombineret immundefekt på grund af CRAC-kanaldysfunktion | 98,03 % | Skyldes tab-af-funktion-varianter i ORAI1 eller STIM1. Hypromellose påvirker ikke calciumkanalsignalering |
-| Syndrom med manglende tommelfinger, lav vækst og immundefekt | 97,94 % | Ultrasjælden medfødt tilstand uden farmakologisk rationale |
+De øvrige forudsigelser mangler ligeledes et farmakologisk grundlag:
+- **IKZF1-pancytopeni:** hypromellose har ingen kendt virkning på Ikaros-transkriptionsfaktoren eller bloddannelsen.
+- **Hepatisk veno-okklusiv sygdom:** sygdommen skyldes endotelskade i leverens sinusoider. Hypromellose har ingen kendt endotelbeskyttende eller antikoagulerende virkning, og den etablerede behandling (defibrotid) virker via en anden mekanisme.
+- **CRAC-kanaldysfunktion:** sygdommen skyldes ORAI1- eller STIM1-mutationer, som svækker calciumindstrømning i lymfocytter. Hypromellose har ingen kendt interaktion med calciumsignalering.
+- **Syndrom med manglende tommelfinger:** der er tale om et ultrasjældent genetisk syndrom uden identificerbar mekanisme.
 
-*Bemærk: Evidenspakken indeholdt hver forudsigelse to gange. Her er de vist én gang.*
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er aktuelt ingen relateret litteratur.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
----
+## Oplysninger om det danske marked
 
-## Information om markedet i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101959797 | Artelac | Øjendråber, opløsning, enkeltdosisbeholder | Bausch & Lomb Ireland Limited |
+| 28101959797 | Artelac | Øjendråber, opløsning, enkeltdosisbeholder | Ikke angivet |
 
----
+Produktet markedsføres af Bausch & Lomb Ireland Limited og har gyldig status.
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner for hypromellose i den anvendte kilde.
-
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
----
+Der er ikke registreret interaktioner i de data, der er indsamlet til denne rapport, og vidensgrafen indeholder ingen kontraindikationer. Sikkerhedsdata fra produktresuméet mangler dog. Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en vidensgrafmodel (evidensniveau L5). Der er ingen kliniske forsøg eller publikationer, og der er ingen plausibel mekanistisk forbindelse mellem et inert hjælpestof og de forudsagte sjældne genetiske sygdomme. Det er sandsynligvis en artefakt af grafens struktur.
+Forudsigelsen bygger udelukkende på en grafbaseret model (evidensniveau L5). Der er hverken kliniske forsøg, litteratur eller en plausibel mekanisme, og hypromellose er et inert hjælpestof uden systemisk aktivitet. Den høje score bør ikke tolkes som et klinisk signal.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer mangler)
-- Data om virkningsmekanisme (fx via DrugBank) til en egentlig mekanistisk vurdering
-- Præklinisk eller mekanistisk evidens, der kan forbinde hypromellose med sygdomsmekanismen, før yderligere ressourcer anvendes
-- Vurdering af administrationsvej, da stoffet kun er markedsført som øjendråber
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**Hvis arbejdet skal fortsættes, kræves følgende:**
+- Hentning af produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme fra DrugBank
+- Kritisk vurdering af, om et hjælpestof overhovedet er et relevant kandidatstof til drug repurposing
+- Vurdering af administrationsvej, da kun øjendråber er markedsført, mens de forudsagte sygdomme er systemiske
+- Et uafhængigt litteratur- og forsøgsstudie, før en eventuel ny vurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

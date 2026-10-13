@@ -2,7 +2,7 @@
 layout: default
 title: Urofollitropin
 parent: Kun modelforudsigelse (L5)
-nav_order: 463
+nav_order: 871
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Urofollitropin: Fra FSH-præparat til migræne
+# Urofollitropin: Fra ovarie-stimulation til migræne (modelforudsigelse)
 
-## Resumé i én sætning
+## Opsummering
 
-Urofollitropin er et FSH-præparat (follikelstimulerende hormon) udvundet fra urin. Det markedsføres i Danmark som Fostimon.
-TxGNN-modellen forudsiger, at det kan have effekt på **migræne (migraine disorder)**.
-Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 publikationer**, der understøtter den.
+Urofollitropin er et oprenset, urinafledt humant follikelstimulerende hormon (FSH), som anvendes til stimulation af æggestokkene.
+TxGNN-modellen forudsiger, at det kan have effekt på **migræne**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den hviler udelukkende på modelberegning.
 
 ---
 
@@ -43,7 +42,7 @@ Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 publ
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (lægemidlet er kendt som FSH-præparat til ovarie-stimulation) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 99,85 % |
 | Evidensniveau | L5 |
@@ -53,20 +52,20 @@ Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 publ
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen. Urofollitropin er et FSH-præparat udvundet fra urin. Det er kendt som en gonadotropin, der virker via FSH-receptoren i æggestokkene.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Urofollitropin er et renset humant FSH, der binder til FSH-receptorer i æggestokkene og stimulerer follikelvækst.
 
-Den eneste tænkelige forbindelse til migræne er indirekte. Gonadotropinbehandling ændrer østrogenniveauet, og udsving i østrogen hænger sammen med menstruationsrelateret migræne. Det er spekulativt, og æggestokstimulation kunne lige så vel forværre hovedpine. Den høje score understøttes derfor ikke af nogen identificeret mekanisme.
+Der er ingen etableret mekanistisk forbindelse mellem FSH og migræne. Migræne har en hormonel komponent (udsving i østrogen, menstruationsrelateret migræne), så en indirekte hormonrelateret hypotese kan tænkes. Gonadotropinstimulation kan dog selv hæve østradiol og potentielt forværre migræne. Den høje score skal derfor tolkes som en modelforudsigelse uden biologisk eller klinisk bekræftelse.
 
-Modellen har desuden givet høje scorer til flere andre indikationer, som alle mangler biologisk sandsynlighed:
+Øvrige forudsigelser har tilsvarende høje scorer, men ingen understøttende data:
 
-- **Migræne med hjernestammeaura** (99,81 %): en undertype af migræne, så scoren afspejler sandsynligvis samme område i vidensgrafen som overbegrebet og er ikke et uafhængigt signal.
-- **Cauda equina-syndrom** (99,78 %): akut mekanisk kompression af nerverødderne, som kræver kirurgisk dekompression. Der er ingen plausibel farmakologisk rolle for et FSH-præparat, så det er sandsynligvis en artefakt fra grafindlejringen.
-- **His-bundt-takykardi** (99,69 %): ingen kendt mekanisme forbinder FSH-receptorsignalering med automaticitet i His' bundt. Associationen er sandsynligvis falsk.
-- **Restless legs syndrom** (99,69 %): involverer dopaminerge veje og jernstofskifte, som ikke har noget med gonadotropinvirkning at gøre.
-
-Indikationerne optrådte to gange i inputtet, og dubletterne er slået sammen.
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Migræne med hjernestammeaura | 99,81 % | Sandsynligvis nærhed til migrænenoden i vidensgrafen; ingen kendt rolle for FSH-receptorer |
+| Cauda equina-syndrom | 99,78 % | Akut kompressiv tilstand behandlet kirurgisk; ingen plausibel rolle for gonadotropin |
+| His-bundt-takykardi | 99,69 % | Ingen kendt antiarytmisk virkning; sandsynligvis modelartefakt |
+| Restless legs syndrome | 99,69 % | Dopaminerg dysfunktion og jernstofskifte påvirkes ikke af FSH |
 
 ---
 
@@ -74,25 +73,25 @@ Indikationerne optrådte to gange i inputtet, og dubletterne er slået sammen.
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
-## Evidens fra litteraturen
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103852105 | Fostimon (IBSA Farmaceutici Italia S.r.l) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28103852105 | Fostimon (IBSA Farmaceutici Italia S.r.l) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet data om advarsler, kontraindikationer eller interaktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Lægemiddelinteraktioner**: Én interaktion af moderat sværhedsgrad er registreret med **ganirelix** (kilde: DDInter).
+
+Der foreligger ikke data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -101,16 +100,13 @@ Der er ikke fundet data om advarsler, kontraindikationer eller interaktioner. Se
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modelscoren (evidensniveau L5). Der er ingen kliniske forsøg, ingen litteratur og ingen identificeret mekanisme, og sikkerhedsdata mangler. Den høje score kan ikke omsættes til en klinisk hypotese, og beslutningen er fortsat på S0-stadiet.
+Forudsigelsen er alene baseret på TxGNN-modellen (evidensniveau L5) uden kliniske forsøg eller publikationer og uden en plausibel mekanisme. Gonadotropinstimulation kan desuden potentielt forværre migræne via øget østradiol.
 
-**For at komme videre kræves følgende:**
-- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer). Dette er en blokerende mangel for sikkerhedsscreening.
-- Data om virkningsmekanismen (MOA), fx via DrugBank.
-- Afklaring af den oprindelige godkendte indikation, som mangler i datagrundlaget.
-- En litteratur- og forsøgssøgning efter en mulig biologisk forbindelse mellem FSH/gonadotropiner og migræne, og en vurdering af, om hormonelle udsving kan forværre hovedpine.
-- Vurdering af administrationsvej (injektion) i forhold til en eventuel ny indikation.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsagte kandidater til nyt anvendelsesområde kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation), da disse data mangler og blokerer sikkerhedsscreening
+- Data om virkningsmekanisme (f.eks. fra DrugBank)
+- Systematisk litteratursøgning og søgning i forsøgsregistre for FSH/gonadotropiner og migræne
+- Vurdering af administrationsvejens kompatibilitet og en mekanistisk hypotese, der kan testes præklinisk
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

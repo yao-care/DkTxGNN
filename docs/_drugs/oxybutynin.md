@@ -2,7 +2,7 @@
 layout: default
 title: Oxybutynin
 parent: Kun modelforudsigelse (L5)
-nav_order: 326
+nav_order: 618
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Oxybutynin: Fra antimuskarint middel til Restless Legs Syndrom
+# Oxybutynin: Fra overaktiv blære til restless legs syndrom
 
-## Resumé i én sætning
+## Resumé
 
-Oxybutynin er et antimuskarint og antispasmodisk lægemiddel, som i Danmark er markedsført som depotplaster (Kentera).
-TxGNN-modellen forudsiger, at det kan have effekt ved **restless legs syndrom (RLS)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne indikation. Forudsigelsen er rent modelbaseret.
+Oxybutynin er et antikolinergt middel, der oprindeligt anvendes til behandling af overaktiv blære, neurogen blære og cauda equina-syndrom.
+TxGNN-modellen forudsiger, at det kan have effekt på **restless legs syndrom**,
+men der er **ingen kliniske forsøg** og **ingen publikationer** for denne indikation. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -42,63 +43,65 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **restless legs syndrom (R
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i Evidence Pack (godkendt indikationstekst er tom) |
+| Oprindelig indikation | Overaktiv blære, neurogen blære, cauda equina-syndrom (fra videnbasen; indikationsteksten i den danske godkendelse er ikke angivet) |
 | Forudsagt ny indikation | Restless legs syndrom |
-| TxGNN-forudsigelsesscore | 99,74 % |
+| TxGNN-prædiktionsscore | 99,74 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Modellen har yderligere to forudsigelser, som er omtalt nedenfor: gastroduodenitis (99,62 %, L5) og ulcus pepticum (99,31 %, L4). Dubletter i datagrundlaget er slået sammen.
+---
+
+## Hvorfor er denne forudsigelse (ikke) rimelig?
+
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Oxybutynin er kendt som en muskarin antagonist med direkte spasmolytisk effekt på glat muskulatur.
+
+Restless legs syndrom hænger primært sammen med dysfunktion i dopaminsystemet og jernmangel i hjernen. Etablerede behandlingsklasser omfatter bl.a. alfa-2-delta-ligander. Antikolinerge midler er ikke en etableret behandling, og den antikolinerge byrde kan forværre søvn og kognition.
+
+Der er derfor ikke belæg for en mekanistisk forbindelse mellem oxybutynins virkning og restless legs syndrom. Den høje TxGNN-score er en ren computerbaseret forudsigelse uden klinisk støtte.
 
 ---
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+## Klinisk evidens
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige. Oxybutynin er imidlertid et antimuskarint middel med direkte antispasmodisk effekt på glat muskulatur.
-
-For RLS er der **ingen klar mekanistisk begrundelse**. RLS er primært forbundet med forstyrrelser i dopaminerg signalering og jernomsætning. Centralt virkende antikolinergika kan desuden forværre RLS-symptomer, så effektens retning er usikker. Den høje score (0,997) afspejler kun en grafbaseret forudsigelse og kan ikke efterprøves mod en registreret MOA.
-
-For de øvrige forudsigelser er rationalet lidt stærkere. Muskarinblokade kan teoretisk dæmpe motilitet, spasmer og syresekretion i mave-tarmkanalen. Det gælder især ulcus pepticum, hvor antikolinergika historisk har været brugt. Oxybutynin beskrives dog som musculotropt med kun moderat antikolinerg virkning, så en antisekretorisk gevinst er usikker. Moderne syrehæmmende behandling (PPI og eradikering af *H. pylori*) gør det kliniske behov lavt.
-
----
-
-## Kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret (hverken ClinicalTrials.gov eller ICTRP) for nogen af de tre forudsagte indikationer.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-For restless legs syndrom foreligger der ingen relateret litteratur.
-
-For **ulcus pepticum** (forudsigelse nr. 3) er der identificeret tre ældre publikationer:
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Klinisk evaluering (design uklart, sandsynligvis ukontrolleret) | Current Therapeutic Research | Evaluering af oxybutyninchlorid ved gastrointestinal sygdom |
-| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Farmakologisk oversigt | Arch Int Pharmacodyn Ther | Oxybutynin beskrives som musculotropt antispasmodikum med moderat antikolinerg virkning |
-| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Case report (bivirkning) | DICP | Oxybutynin-induceret refluksøsofagitis, sandsynligvis via nedsat tonus i nedre øsofagussfinkter |
-
-Evidensen er gammel og uden verificerbart kontrolleret design. Case reporten peger desuden på en mulig gastrointestinal bivirkning.
+Der findes på nuværende tidspunkt ingen relateret litteratur for restless legs syndrom.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103482303 | Kentera (Nicobrand Limited) | Depotplaster | Ikke oplyst i data |
+| 28103482303 | Kentera (Nicobrand Limited) | Depotplaster | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i Evidence Pack, og interaktionsopslaget gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Fra litteraturen kan dog nævnes, at antikolinerg virkning kan nedsætte tonus i nedre øsofagussfinkter og give refluksøsofagitis (case report, 1990). Centralt virkende antikolinergika kan desuden potentielt forværre RLS-symptomer.
+**Mulige kontraindikationer fra videnbasen (ikke fra produkttekst):** Følgende tilstande er i videnbasen knyttet til kontraindikation af oxybutynin og bør verificeres mod SmPC:
+- Snævervinklet glaukom
+- Myasthenia gravis
+- Paralytisk ileus og tarmobstruktion
+- Toksisk megakolon
+- Blærehalsobstruktion og benign prostatahyperplasi
+- Colitis ulcerosa og inflammatorisk tarmsygdom
+- Gastroøsofageal reflukssygdom og esofagitis
+- Hyperthyroidisme
+- Hjerte-kar-sygdomme (koronararteriesygdom, hjertets ledningssygdomme, hypertension)
+- Lever- og nyresygdom
+
+**Lægemiddelinteraktioner** (100 interaktioner registreret; de vigtigste vist):
+- **Alvorlige:** Kaliumcitrat, kaliumchlorid
+- **Moderate:** Andre antikolinerge midler (atropin, hyoscyamin, glycopyrronium, dicyclomin, trospium, propantelin, clidinium, methscopolamin, mepenzolat), opioider (morfin, opium), loperamid, eluxadolin, metoclopramid, aprepitant og pramlintid
 
 ---
 
@@ -107,16 +110,20 @@ Fra litteraturen kan dog nævnes, at antikolinerg virkning kan nedsætte tonus i
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for RLS hviler udelukkende på modellen (L5), uden forsøg eller litteratur. Mekanismen taler snarere imod end for, fordi antikolinerg virkning kan forværre symptomerne. De gastrointestinale forudsigelser (L4 for ulcus pepticum) er kun understøttet af gammel evidens og har lavt klinisk behov.
+Forudsigelsen for restless legs syndrom bygger udelukkende på en modelscore (L5) uden kliniske forsøg, litteratur eller mekanistisk begrundelse. Antikolinerg behandling er ikke etableret ved sygdommen og kan forværre søvn og kognition.
 
 **For at komme videre kræves:**
-- Indhentning af produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende datamangel, så sikkerhedsscreening ikke kan gennemføres)
-- Hentning af data om virkningsmekanisme (MOA) fra DrugBank
-- Oplysninger om godkendt indikation for Kentera
-- En systematisk litteratursøgning, særligt om antikolinergika og RLS-symptomer
-- Vurdering af administrationsvej-kompatibilitet (status: afventer)
+- Data om virkningsmekanisme (MOA)
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen (afgørende for sikkerhedsvurdering)
+- Prækliniske eller kliniske data, der understøtter en sammenhæng mellem muskarin blokade og restless legs syndrom
+- Vurdering af administrationsvej (depotplaster er den eneste tilgængelige form i Danmark)
 
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+---
+
+## Øvrige forudsigelser (kort oversigt)
+
+- **Gastroduodenitis** (score 99,62 %, L5, Hold): Teoretisk effekt via nedsat motilitet og sekretion, men ingen forsøg eller litteratur. Antikolinerge midler kan nedsætte tonus i nedre øsofagussfinkter og forværre reflux.
+- **Ulcus pepticum** (score 99,31 %, L4, Hold): Støttes kun af indirekte, historisk litteratur: en klinisk evaluering fra 1964 ([PMID 14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/)), en farmakologisk oversigt fra 1965 ([PMID 4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/)) og en case-rapport fra 1990 om oxybutynin-induceret refluksøsofagitis ([PMID 2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/)), som udgør et sikkerhedssignal. Med moderne standardbehandling (PPI, H. pylori-eradikation) er den tilføjede værdi lav.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

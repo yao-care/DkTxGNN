@@ -2,7 +2,7 @@
 layout: default
 title: Miglustat
 parent: Kun modelforudsigelse (L5)
-nav_order: 294
+nav_order: 556
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Miglustat: Fra substratreduktion ved glykosfingolipid-lagringssygdomme til autosomal ichthyosis-syndrom med dødeligt forløb
+# Miglustat: Fra Gauchers sygdom til autosomal ichthyose-syndrom med dødeligt forløb
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Miglustat hæmmer enzymet glukosylceramidsyntase og bruges som substratreducerende middel. Det registrerede indikationsområde fremgår ikke af de danske data.
-TxGNN-modellen forudsiger, at miglustat kan have effekt ved **autosomal ichthyosis-syndrom med dødeligt forløb**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Miglustat er en hæmmer af glucosylceramidsyntase, som oprindeligt anvendes til behandling af Gauchers sygdom og Niemann-Pick-sygdom.
+TxGNN-modellen forudsiger, at det kan være virksomt ved **autosomal ichthyose-syndrom med dødeligt forløb**,
+men der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
@@ -42,52 +43,65 @@ TxGNN-modellen forudsiger, at miglustat kan have effekt ved **autosomal ichthyos
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Autosomal ichthyosis-syndrom med dødeligt forløb |
+| Oprindelig indikation | Gauchers sygdom, Niemann-Pick-sygdom (den danske godkendelse har ingen angivet indikationstekst i de indsamlede data) |
+| Foreslået ny indikation | Autosomal ichthyose-syndrom med dødeligt forløb |
 | TxGNN-forudsigelsesscore | 99,83 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Miglustat hæmmer glukosylceramidsyntase og nedsætter dermed produktionen af glukosylceramid. Detaljerede data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige i datagrundlaget, og der er ikke registreret nogen godkendt indikationstekst for det danske produkt.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Miglustat er dog kendt som en hæmmer af glucosylceramidsyntase (UGCG), og princippet kaldes substratreduktionsterapi: syntesen af glykosfingolipider nedsættes, så mængden af ophobet substrat falder.
 
-Der er ikke noget direkte biologisk led mellem miglustat og dette ichthyosis-syndrom i de foreliggende data. Glukosylceramid er forstadium til ceramider i hudens barriere. Hæmning af syntesen kan derfor tænkes at være uhjælpsom eller ligefrem skadelig for hudbarrierefunktionen. Den høje score skyldes sandsynligvis en artefakt i vidensgrafen og bør **ikke** tolkes som støtte for effekt.
+Svære ichthyose-syndromer indebærer forstyrret metabolisme af lipider og ceramider i overhuden. Det er derfor biologisk plausibelt, at en modulering af glykosfingolipidsyntesen kan have betydning. Forbindelsen til den oprindelige indikation er den fælles lipidmetaboliske tematik.
 
-Modellen forudsiger også andre sygdomme med næsten samme score: kolesterylestor-lagringssygdom, Krabbes sygdom, metakromatisk leukodystrofi og Wolmans sygdom. Hver optræder to gange i listen. Heller ikke for disse findes der forsøg eller litteratur, og den mekanistiske sammenhæng er svag eller indirekte.
+Forudsigelsen er dog alene beregningsmæssig. Sygdomsposten optræder desuden to gange i inputtet og er ikke klart defineret, så den skal dedupliceres og afklares i forhold til sygdomsontologien, før der arbejdes videre.
+
+### Øvrige forudsigelser af interesse
+
+Modellen forudsiger også følgende sygdomme, alle med evidensniveau L5 og uden kliniske forsøg eller publikationer:
+
+| Sygdom | TxGNN-score | Mekanistisk vurdering |
+|------|------|------|
+| Cholesterylester-lagringssygdom | 99,82 % | Indirekte forbindelse via lysosomal lagringspatologi. Enzymerstatning (sebelipase alfa) er allerede en etableret og mekanisme-matchet behandling. |
+| Krabbes sygdom | 99,78 % | Delvis mekanistisk overlap. Miglustats målenzym ligger ikke på galactosylceramid-/psykosinvejen. |
+| Metakromatisk leukodystrofi | 99,77 % | Indirekte forbindelse. Sulfatidsyntesen deler opstrøms galactosylceramidveje og ikke glucosylceramidvejen. |
+| Wolmans sygdom med hypolipoproteinæmi og akantocytose | 99,76 % | Indirekte forbindelse. Sygdomsbetegnelsen er sammensat, hvilket tyder på en fejl i ontologikortlægningen. |
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105309513 | Miglustat "Bluefish" | Kapsler, hårde | Bluefish Pharmaceuticals AB |
-
-Indikationsteksten er ikke angivet i de leverede data.
+| 28105309513 | Miglustat "Bluefish" (Bluefish Pharmaceuticals AB) | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der er ikke fundet registrerede interaktioner i de leverede data.
+- **Kontraindikationer/risici fra vidensgraf (ikke præparatomtale):** Vidensgrafen (PrimeKG) knytter miglustat til sygdomme i det perifere nervesystem, perifer neuropati og nedsat nyrefunktion.
+- **Lægemiddelinteraktioner:**
+  - **Imiglucerase**: moderat interaktion (kilde: DDInter).
+  - **UDP-glucose-ceramid-glucosyltransferase (UGCG)**: dette er lægemidlets farmakologiske mål og ikke en klassisk interaktion.
 
-Se det godkendte produktresumé (SmPC) for øvrige sikkerhedsoplysninger.
+Kontrollér i øvrigt den godkendte produktresumé (SmPC) for yderligere sikkerhedsoplysninger, da advarsler og kontraindikationer fra produktresuméet ikke indgår i de indsamlede data.
 
 ---
 
@@ -96,16 +110,15 @@ Se det godkendte produktresumé (SmPC) for øvrige sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller publikationer. Den mekanistiske sammenhæng er ikke påvist, og hæmning af glukosylceramidsyntese kan potentielt være ugunstig for hudbarrieren. Sikkerhedsdata fra produktresuméet mangler desuden.
+Forudsigelsen hviler udelukkende på en modelscore uden understøttende kliniske forsøg eller litteratur (evidensniveau L5). Sygdomsposten er desuden duplikeret og uklart defineret, og data om virkningsmekanisme og produktresumé mangler.
 
-**For at komme videre kræves følgende:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Registreret indikationstekst for det danske produkt
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Prækliniske data eller litteratur, der kan belyse en eventuel sammenhæng med ichthyosis-syndromet
-- Oprydning i forudsigelseslisten, så dublerede poster fjernes
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelsen skal valideres klinisk, før den kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Deduplikering og afklaring af sygdomsdefinitionen i sygdomsontologien
+- Systematisk litteratur- og forsøgssøgning for miglustat og ichthyose-syndromer
+- Data om virkningsmekanisme (f.eks. fra DrugBank)
+- Advarsler og kontraindikationer fra den danske produktresumé (SmPC) hos Lægemiddelstyrelsen
+- Prækliniske data, der understøtter effekt på epidermal ceramid- og lipidmetabolisme
+- Vurdering af sikkerhed, særligt perifer neuropati og nyrefunktion
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

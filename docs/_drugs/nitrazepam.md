@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitrazepam
-parent: Kun modelforudsigelse (L5)
-nav_order: 311
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 588
+evidence_level: L4
 indication_count: 6
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Nitrazepam: Fra kendt søvnmiddel til søvnforstyrrelse (indsovning og opretholdelse af søvn)
+# Nitrazepam: Fra søvnløshed til søvnforstyrrelse (initiering og vedligeholdelse af søvn)
 
 ## Resumé i én sætning
 
-Nitrazepam er et benzodiazepin, som i Danmark er markedsført som tabletter, og som i litteraturen er veletableret som sovemiddel (hypnotikum). TxGNN-modellen forudsiger, at det er effektivt ved **søvnforstyrrelse med besvær med at falde i søvn og sove igennem (insomni)**. Der er **0 registrerede kliniske forsøg** og **20 publikationer**, hvoraf kun ét er et dobbeltblindet RCT. Forudsigelsen er en genbekræftelse af en kendt anvendelse og ikke et nyt repurposing-signal.
+Nitrazepam er et benzodiazepin, der oprindeligt anvendes til behandling af søvnløshed og tidlig myoklonisk encefalopati.
+TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **søvnforstyrrelse (initiering og vedligeholdelse af søvn)**. Det er dog i praksis den allerede kendte indikation (søvnløshed), og der er **ingen registrerede kliniske forsøg** samt **20 publikationer**, hvoraf langt hovedparten er oversigtsartikler.
 
 ---
 
@@ -41,79 +42,86 @@ Nitrazepam er et benzodiazepin, som i Danmark er markedsført som tabletter, og 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget (godkendelsesteksten er tom). Litteraturen beskriver insomni som den langvarige anvendelse |
-| Forudsagt ny indikation | Søvnforstyrrelse, indsovning og opretholdelse af søvn (insomni) |
-| TxGNN-forudsigelsesscore | 99,89 % |
-| Evidensniveau | L3 (kun oversigtsartikler og observationelle studier samt ét ældre RCT; ingen registrerede forsøg. Evidence Pack angiver L2) |
+| Oprindelig indikation | Søvnløshed og tidlig myoklonisk encefalopati (godkendt indikationstekst findes ikke i de indsamlede data) |
+| Forudsagt ny indikation | Søvnforstyrrelse, initiering og vedligeholdelse af søvn |
+| TxGNN-prædiktionsscore | 99,89 % |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Nitrazepam tilhører benzodiazepinerne. Gruppen forstærker virkningen af GABA på GABA-A-receptoren, hvilket giver en beroligende og søvnfremkaldende effekt. Dette svarer til den etablerede virkningsmekanisme for sovemidler. Detaljerede data om virkningsmekanismen fra DrugBank mangler i Evidence Pack, så beskrivelsen bygger på kendskabet til stofklassen.
+Nitrazepam er et benzodiazepin, som forstærker GABA-A-receptorsignalering og dermed har beroligende og søvnfremkaldende virkning. Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport; beskrivelsen bygger derfor på generel farmakologisk viden.
 
-Evidence Pack indeholder ingen oprindelig indikation, men litteraturen beskriver insomni som nitrazepams langvarige anvendelse. Den høje TxGNN-score på 0,999 er derfor i overensstemmelse med, at modellen har genfundet en allerede kendt sammenhæng. Det er ikke et tegn på en ny anvendelse.
+Den forudsagte indikation er i realiteten sammenfaldende med den oprindelige indikation, søvnløshed. Den høje score afspejler derfor sandsynligvis, at modellen genfinder en allerede kendt anvendelse, og ikke en egentlig ny anvendelse (repurposing).
+
+Modellen forudsiger desuden to andre indikationer med meget lav evidens:
+- **Akut encefalopati med bifasiske anfald og sent reduceret diffusion** (score 99,59 %): Ingen studier. GABA-forstærkning kunne teoretisk dæmpe anfald, men benzodiazepiner bruges allerede til akut anfaldskontrol, og sedation kan sløre den neurologiske vurdering. Forudsigelsen hænger sandsynligvis sammen med den oprindelige indikation, tidlig myoklonisk encefalopati.
+- **Wernicke-Korsakoff syndrom** (score 99,31 %): Ingen studier. Benzodiazepiner anvendes ved alkoholabstinens, men behandler ikke den underliggende thiaminmangel og kan forværre forvirring og kognition. En sammenhæng ville være symptomatisk og indirekte.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
+Tabellen viser de mest relevante publikationer for den primære forudsigelse (søvnforstyrrelse), prioriteret efter studietype og direkte relation til nitrazepam.
+
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT | Acta Psychiatr Scand | Dobbeltblindet crossover-studie hos 26 geriatriske indlagte patienter: nitrazepam 5 mg og triazolam 0,25 mg gav ensartet søvnmængde og søvnkvalitet uden signifikant forskel i psykomotoriske tests |
-| [238826](https://pubmed.ncbi.nlm.nih.gov/238826/) | 1975 | Review | Drugs | Gennemgang af søvnens fysiologi (REM- og NREM-søvn) og vurdering af sovemidlers effekt |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clin Evid | Insomni hos ældre: op til 40 % af voksne har insomni, og forekomsten stiger med alderen |
-| [7725291](https://pubmed.ncbi.nlm.nih.gov/7725291/) | 1995 | Review | Tidsskr Nor Laegeforen | Oversigt over klassifikation, diagnostik og behandling af insomni samt sovemidlers rolle |
-| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clin Pharmacokinet | Gennemgang af nitrazepams farmakokinetik |
-| [20467592](https://pubmed.ncbi.nlm.nih.gov/20467592/) | 2010 | Review | Drugs Today | Benzodiazepiner forbedrer indsovning og søvnopretholdelse, men reducerer dyb søvn (SWS) og REM-søvn. Omtaler 5-HT2A-antagonister som mulig fremtidig behandling |
-| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Kommentar/klinisk rapport | Br Med J | Hos 27 patienter gav akut overdosis (op til 80 tabletter) kun døsighed. Et dobbeltblindet forsøg viste lige så god effekt som butobarbiton |
-| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case/observationelt | Br J Psychiatry | Beskrivelse af afhængighed af nitrazepam (Mogadon) |
-| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Ikke klassificeret | CNS Drugs | Gennemgang af "tømmermænd"-effekter (dagtræthed, nedsat psykomotorik) og risiko for ulykker |
-| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Ikke klassificeret | Drugs | Zolpidems hypnotiske effekt er generelt sammenlignelig med benzodiazepiner, herunder nitrazepam |
+| [1743245](https://pubmed.ncbi.nlm.nih.gov/1743245/) | 1991 | Dobbeltblindet crossover-studie | Eur J Clin Pharmacol | 28 patienter med søvnløshed: nitrazepam 5 mg og oxazepam 25 mg var begge effektive til at fremkalde søvn og øge søvnkvaliteten sammenlignet med placebo |
+| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Klinisk rapport | Br Med J | Nitrazepam i overdosis hos 27 patienter gav kun døsighed; dobbeltblindet forsøg viste samme effekt som butobarbiton |
+| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Systematisk review/meta-analyse | Hum Psychopharmacol | Sammenligning af Z-lægemidler med benzodiazepiner (bl.a. nitrazepam) ved kortvarig behandling af søvnløshed |
+| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidems hypnotiske effekt er sammenlignelig med bl.a. nitrazepam, flurazepam, temazepam og triazolam |
+| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | Review | Drugs | Brotizolam forbedrede søvn på samme måde som nitrazepam 2,5 og 5 mg |
+| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clin Pharmacokinet | Klinisk farmakokinetik for nitrazepam |
+| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Klinisk rapport | Br J Psychiatry | Afhængighed af nitrazepam (Mogadon) |
+| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Eftervirkninger af sovemidler (døsighed, nedsat psykomotorik) og risiko for ulykker |
+| [20171127](https://pubmed.ncbi.nlm.nih.gov/20171127/) | 2010 | Review | Sleep Med Rev | Sovemidler påvirker balance og stabilitet og er forbundet med fald og hoftebrud |
+| [39231170](https://pubmed.ncbi.nlm.nih.gov/39231170/) | 2024 | Observationelt studie | PLoS One | Mønstre i forbrug og uhensigtsmæssig ordination af benzodiazepiner i primærsektoren; risiko for afhængighed, tolerans og kognitiv svækkelse |
+
+Der er ingen publikationer for de to øvrige forudsagte indikationer (akut encefalopati og Wernicke-Korsakoff syndrom).
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105522914 | Nitrazepam "Accord" (Accord Healthcare B.V.) | Tabletter (oral) | Ikke oplyst i datagrundlaget |
+| 28105522914 | Nitrazepam "Accord" (Accord Healthcare B.V.) | Tabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke indsamlet data om advarsler og kontraindikationer fra produktresuméet. Følgende er baseret på de indsamlede data:
 
-Litteraturen omtaler følgende, som bør indgå i vurderingen:
-- **Afhængighed og tolerans**: Langvarig brug af benzodiazepiner er forbundet med afhængighed, tolerans og kognitiv svækkelse, især hos ældre (PMID 1125532, 39231170).
-- **Resteffekter dagen efter**: Dagtræthed og nedsat psykomotorisk og kognitiv funktion kan øge risikoen for ulykker (PMID 15089115).
+- **Lægemiddelinteraktioner**: Der er registreret 55 potentielle interaktioner i interaktionsdatabasen, men alvorlighedsgraden er angivet som ukendt for dem alle. Blandt de første 20 er bl.a. morfin, metformin, metronidazol, bupropion, dexamethason, hydrocortison, omeprazol, pantoprazol, lansoprazol, famotidin, metoclopramid, loperamid og acetylsalicylsyre.
+- **Fra litteraturen**: Risiko for afhængighed og tolerans ved langvarig brug, eftervirkninger næste dag (døsighed, nedsat psykomotorik), nedsat balance med risiko for fald og hoftebrud, især hos ældre.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om insomni er en genbekræftelse af nitrazepams velkendte anvendelse som sovemiddel og ikke en ny repurposing-mulighed. Den understøttes af ét dobbeltblindet RCT og flere oversigtsartikler, men der er ingen registrerede kliniske forsøg, og størstedelen af litteraturen er gammel.
+Den forudsagte primære indikation er identisk med lægemidlets kendte indikation, så der er ikke tale om en reel ny anvendelse. De to øvrige forudsigelser (akut encefalopati og Wernicke-Korsakoff syndrom) er alene baseret på modelscore uden kliniske forsøg eller litteratur og har mekanistiske og sikkerhedsmæssige betænkeligheder.
 
-**Sekundære forudsigelser (Hold):** TxGNN foreslår også *akut encefalopati med bifasiske anfald og sent reduceret diffusion* (score 99,59 %) og *Wernicke-Korsakoff syndrom* (score 99,31 %). Begge har evidensniveau L5, altså kun modelforudsigelse uden studier. Den første har blot en plausibel GABA-A-baseret forbindelse. Ved Wernicke-Korsakoff er der ingen direkte mekanistisk sammenhæng, da sygdommen skyldes thiaminmangel, som nitrazepam ikke påvirker. Begge forbliver på Hold.
-
-**For at komme videre kræves:**
-- Hent advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé, som i øjeblikket mangler og blokerer sikkerhedsscreeningen
-- Hent virkningsmekanisme (MOA) fra DrugBank
-- Bekræft den godkendte indikationstekst for MA 28105522914
-- Indhent nyere kontrollerede data og retningslinjer for korttidsbrug og seponering, især hos ældre
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra det danske produktresumé (SmPC) hos Lægemiddelstyrelsen samt den godkendte indikationstekst
+- Vurdering af, om der findes en reel ny indikation, der adskiller sig fra de allerede kendte
+- Hvis encefalopati eller Wernicke-Korsakoff skal forfølges: målrettet litteratursøgning og vurdering af risici ved sedation og kognitiv påvirkning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Brivaracetam
 parent: Moderat evidens (L3-L4)
-nav_order: 76
+nav_order: 132
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brivaracetam: Fra fokale anfald til visuel epilepsi
+# Brivaracetam: Fra fokal epilepsi til visuel epilepsi
 
-## Resumé i få sætninger
+## Resumé
 
-Brivaracetam er et antiepileptikum, der ifølge litteraturen er godkendt som tillægs- og monoterapi ved fokale anfald. TxGNN-modellen forudsiger, at det også kan virke ved **visuel epilepsi** (fotosensitiv refleksepilepsi). Evidensen er dog **indirekte**: der er **ingen kliniske forsøg** på denne indikation, og litteraturen handler om epilepsi generelt. Den er ikke målrettet visuel epilepsi.
+Brivaracetam er et antiepileptikum, der oprindeligt bruges til behandling af fokal (partiel) epilepsi. TxGNN-modellen forudsiger, at det kan have effekt ved **visuel epilepsi** (fotosensitiv refleksepilepsi). Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer specifikt om visuel epilepsi**. Støtten er derfor kun modelbaseret og mekanistisk.
 
 ---
 
@@ -41,9 +41,9 @@ Brivaracetam er et antiepileptikum, der ifølge litteraturen er godkendt som til
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Fokale anfald (ifølge litteratur; indikationsteksten i den danske registrering er ikke tilgængelig) |
+| Oprindelig indikation | Partiel epilepsi / fokal epilepsi (ifølge videnbasen bag TxGNN; indikationsteksten i den danske tilladelse er ikke oplyst) |
 | Forudsagt ny indikation | Visuel epilepsi |
-| TxGNN-forudsigelsesscore | 99,51 % |
+| TxGNN-forudsigelsesscore | 99,5 % |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,17 +51,13 @@ Brivaracetam er et antiepileptikum, der ifølge litteraturen er godkendt som til
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme (MOA) mangler i evidenspakkens DrugBank-felt. Den tilknyttede litteratur beskriver dog brivaracetam som en selektiv ligand til det synaptiske vesikelprotein 2A (SV2A). Bindingen har 15-30 gange højere affinitet end levetiracetam og gennemtrænger hjernen bedre (PMID 38811492, 31195850). SV2A-modulation dæmper frigivelsen af neurotransmittere og dermed neuronal overeksitabilitet.
+I de data, der er indsamlet til denne rapport, mangler en detaljeret beskrivelse af virkningsmekanismen. Ifølge den tilknyttede litteratur er brivaracetam en selektiv ligand med høj affinitet til det synaptiske vesikelprotein 2A (SV2A). Det er samme målmolekyle som for levetiracetam, men brivaracetam binder med 15-30 gange højere affinitet. Det trænger hurtigt ind i hjernen og har bred antiepileptisk aktivitet i prækliniske modeller. Der er også rapporteret en vis hæmning af natriumkanaler.
 
-Både den oprindelige og den forudsagte indikation er anfaldssygdomme med kortikal hyperexcitabilitet. Visuel epilepsi er en refleksepilepsi, hvor anfald udløses af visuelle stimuli, fx blinkende lys. Det er mekanistisk plausibelt, at SV2A-modulation kan dæmpe denne overeksitabilitet.
+Visuel (fotosensitiv) epilepsi er en refleksepilepsi, hvor anfald udløses af visuel stimulation. SV2A-modulation, der dæmper frigivelsen af neurotransmittere og udbredelsen af anfald, kan derfor tænkes at virke. Den såkaldte fotosensitivitetsmodel, hvor man måler EEG-respons på intermitterende lysstimulation, er desuden brugt til at sammenligne brivaracetam med levetiracetam.
 
-To studier, som evidenspakken kobler til fotosensitivitet, støtter dette indirekte:
-- Et præklinisk fotosensitivitetsstudie (PMID 17785672).
-- Et randomiseret, dobbeltblindt crossover-studie af den fotoparoxysmale EEG-respons for brivaracetam versus levetiracetam hos patienter med fotosensitiv epilepsi (PMID 32949370).
-
-Ingen af de to indgår i litteraturlisten for denne indikation, og ingen er et forsøg på visuel epilepsi som klinisk indikation.
+Sammenhængen med den oprindelige indikation er dog kun indirekte. Den eksisterende litteratur handler om status epilepticus, adjuverende behandling af fokale anfald og lægemiddelresistent epilepsi, ikke om visuel epilepsi. Forudsigelsen hviler derfor på modelnærhed og mekanistisk plausibilitet, ikke på direkte klinisk dokumentation.
 
 ---
 
@@ -69,40 +65,46 @@ Ingen af de to indgår i litteraturlisten for denne indikation, og ingen er et f
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret for visuel epilepsi.
 
+*Bemærkning:* For en anden forudsagt indikation, status epilepticus, findes forsøget [NCT07163572](https://clinicaltrials.gov/study/NCT07163572). Det er et afsluttet forsøg (fase ikke angivet, 152 deltagere), der sammenligner intravenøst brivaracetam med levetiracetam hos børn. Der er ikke fremlagt resultater, og forsøget har ingen direkte relevans for visuel epilepsi.
+
 ---
 
 ## Litteraturevidens
 
-Ingen af nedenstående publikationer undersøger visuel epilepsi direkte. De dokumenterer brivaracetams effekt og sikkerhed ved epilepsi generelt.
+Ingen af nedenstående publikationer omhandler visuel epilepsi specifikt. De dokumenterer brivaracetams generelle profil ved epilepsi.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | Fase III RCT | Epilepsia Open | Tillægsbehandling med brivaracetam hos asiatiske voksne med ukontrollerede fokale anfald; undersøgte effekt, sikkerhed og tolerabilitet |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Narrativt review | Advances in Therapy | Prækliniske egenskaber og kliniske fordele; 15-30 gange højere SV2A-affinitet end levetiracetam |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | Journal of Epilepsy Research | Farmakologi, effekt og sikkerhed; godkendt som tillægs- og monoterapi ved fokale anfald |
-| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | Systematisk review | Cureus | Effekt, sikkerhed og årsager til skift fra tidligere antiepileptika til brivaracetam |
+| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | RCT (fase 3) | Epilepsia Open | Adjuverende brivaracetam hos asiatiske voksne med ukontrollerede fokale anfald: effekt, sikkerhed og tolerabilitet |
+| [30920649](https://pubmed.ncbi.nlm.nih.gov/30920649/) | 2019 | Cochrane-review | Cochrane Database Syst Rev | Brivaracetam som tillægsbehandling ved lægemiddelresistent epilepsi |
+| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematisk review og netværksmetaanalyse | Drugs | Sammenligning af tredjegenerations antiepileptika (herunder brivaracetam) som tillæg ved fokale anfald |
 | [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematisk review og metaanalyse | Frontiers in Neurology | Sikkerhed og effekt af brivaracetam ved epilepsi hos børn |
-| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | Metaanalyse | Expert Opinion on Pharmacotherapy | Effekt og sikkerhed ved forskellige doser som tillægsbehandling versus placebo ved partielle anfald hos voksne |
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Samlet analyse | Epilepsy & Behavior | Omfattende sikkerheds- og tolerabilitetsanalyse af tillægsbehandling ved fokale anfald |
-| [38970892](https://pubmed.ncbi.nlm.nih.gov/38970892/) | 2024 | Kohorte (samlet retrospektiv analyse) | Epilepsy & Behavior | Effekt og tolerabilitet hos ældre og yngre voksne (EXPERIENCE) |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Review | Expert Review of Neurotherapeutics | Effekt og tolerabilitet ved fokal epilepsi; sammenligning med levetiracetam |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | Virkningsmekanismer for de antiepileptika, der anvendes i dag |
+| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Review | Advances in Therapy | Prækliniske profil og kliniske fordele ved brivaracetam; SV2A-affinitet 15-30 gange højere end levetiracetam |
+| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | Journal of Epilepsy Research | Farmakologi, effekt og sikkerhed; godkendt som tillægs- og monoterapi ved fokale anfald |
+| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Review | Expert Rev Neurother | Effekt og tolerabilitet ved fokal epilepsi |
+| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | Virkningsmekanismer for gængse antiepileptika |
+| [26664121](https://pubmed.ncbi.nlm.nih.gov/26664121/) | 2015 | Review | Neuropsychiatr Dis Treat | Profil og potentiale ved epilepsi |
+| [17199019](https://pubmed.ncbi.nlm.nih.gov/17199019/) | 2007 | Review | Neurotherapeutics | Kemisk slægtskab med levetiracetam, SV2A-binding og natriumkanalhæmning |
 
 ---
 
-## Oplysninger om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107156924 | Abavalex | Filmovertrukne tabletter (oral) | G.L. Pharma GmbH |
+| 28107156924 (national, Lægemiddelstyrelsen) | Abavalex (G.L. Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst ikke oplyst i de indsamlede data |
 
-Teksten til den godkendte indikation er ikke tilgængelig i de foreliggende data.
+Der er én gyldig tilladelse (enkeltstofpræparat), administrationsvej: oral.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Data fra Lægemiddelstyrelsens indlægsseddel mangler og er en blokerende datamangel for sikkerhedsscreeningen.
+- **Lægemiddelinteraktioner:** Der er identificeret 69 mulige interaktioner. Blandt de første 20 er de vigtigste:
+  - **Moderate:** morfin (inkl. liposomal), opium, dronabinol, nabilon, metoclopramid, sibutramin, difenoxin, diphenoxylat, ethanol, promethazin og clopidogrel. Flere af disse er centralt dæmpende stoffer, hvor additiv sedation er relevant.
+  - **Milde:** protonpumpehæmmere (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol), chlorpropamid, tolbutamid og cilostazol.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse oplysninger ikke indgår i de indsamlede data.
 
 ---
 
@@ -111,16 +113,13 @@ Der er ingen tilgængelige oplysninger om advarsler, kontraindikationer eller l�
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk plausibel, men evidensen er kun L4. Der er ingen kliniske forsøg på visuel epilepsi, og litteraturen er generel epilepsilitteratur. Sikkerhedsdata fra det danske produktresumé mangler desuden, så sikkerhedsscreeningen ikke kan gennemføres.
+Forudsigelsen for visuel epilepsi hviler udelukkende på modelscore og mekanistisk plausibilitet (L4). Der er hverken kliniske forsøg eller indikationsspecifik litteratur, og sammenhængen med den oprindelige indikation er kun indirekte.
 
 **For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé.
-- Data om virkningsmekanismen fra DrugBank.
-- Gennemgang af fotosensitivitetsstudierne (PMID 17785672 og 32949370) for at vurdere, om de kan understøtte indikationen.
-
-**Bemærkning:** Blandt de øvrige forudsigelser har **status epilepticus** (evidensniveau L3) den stærkeste evidens. Der findes et afsluttet studie af intravenøs brivaracetam versus levetiracetam hos børn ([NCT07163572](https://clinicaltrials.gov/study/NCT07163572), n=152) samt flere systematiske reviews. Studiets design og resultater er endnu ikke verificeret. Denne indikation kan være et mere oplagt udgangspunkt for det videre arbejde.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+- Indikationsspecifik dokumentation, fx små studier med fotosensitivitetsmodellen (fotoparoxysmal EEG-respons) eller case-serier ved fotosensitiv epilepsi
+- Hentning af produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
+- Detaljerede data om virkningsmekanisme fra en validerret kilde (fx DrugBank)
+- Vurdering af alternative forudsagte indikationer med stærkere evidens, især status epilepticus (L3), når resultaterne fra NCT07163572 foreligger
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

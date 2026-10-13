@@ -2,7 +2,7 @@
 layout: default
 title: Temoporfin
 parent: Kun modelforudsigelse (L5)
-nav_order: 424
+nav_order: 802
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Temoporfin: Fra fotodynamisk kræftbehandling (hoved- og halskræft) til nasofaryngealt teratom
+# Temoporfin: Fra hoved- og halskræft til nasofaryngealt teratom
 
-## Opsummering i én sætning
+## Opsummering
 
-Temoporfin er et lysaktiveret stof (fotosensibilisator) til fotodynamisk terapi (PDT) og er markedsført i Danmark som Foscan. TxGNN-modellen forudsiger, at det kan have effekt på **nasofaryngealt teratom**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende baseret på en grafmodel.
+Temoporfin er et lysfølsomt stof (fotosensibilisator), der oprindeligt anvendes til fotodynamisk behandling af planocellulært karcinom i hoved- og halsområdet.
+TxGNN-modellen forudsiger, at det kan have effekt ved **nasofaryngealt teratom**, men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Evidensgrundlaget nævner anvendelse ved planocellulært karcinom i hoved og hals |
+| Oprindelig indikation | Planocellulært karcinom og hoved- og halskræft (jf. videnbasen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | Nasofaryngealt teratom |
 | TxGNN-forudsigelsesscore | 99,78 % |
 | Evidensniveau | L5 |
@@ -47,76 +48,68 @@ Temoporfin er et lysaktiveret stof (fotosensibilisator) til fotodynamisk terapi 
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-### Øvrige forudsigelser fra modellen
+## Hvorfor er denne forudsigelse rimelig?
 
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Nasofaryngealt teratom | 99,78 % | L5 | Hold |
-| Odontogen cyste | 99,77 % | L5 | Hold |
-| Præmalign neoplasi | 99,77 % | L5 | Forskningsspørgsmål |
-| Neoplasi i epiglottis | 99,76 % | L5 | Forskningsspørgsmål |
-| Tumor i testis og paratestis | 99,76 % | L5 | Hold |
+Der foreligger i de indsamlede data ingen detaljerede oplysninger om temoporfins virkningsmekanisme. Temoporfin er kendt som en fotosensibilisator, der bruges til fotodynamisk terapi (PDT) ved hoved- og halskræft. Princippet er, at stoffet optages i vævet og aktiveres af lys lokalt, hvorved tumorceller destrueres.
 
-## Hvorfor er forudsigelsen rimelig?
+Nasofarynx ligger anatomisk tæt på den oprindelige indikation, og derfor er en PDT-tilgang tænkelig. Teratomer er imidlertid sjældne, oftest medfødte tumorer bestående af flere vævstyper, og de behandles primært ved kirurgisk fjernelse. Der er ingen evidens for, at en PDT-mekanisme virker i denne tumortype. Den høje score er alene en modelforudsigelse.
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i øjeblikket. Temoporfin er en fotosensibilisator til fotodynamisk terapi. Når stoffet aktiveres af lys, dannes reaktive iltforbindelser, som kan ødelægge væv lokalt. Princippet er etableret ved tumorer, hvor lyset kan nå frem.
+### Øvrige forudsigelser
 
-For **nasofaryngealt teratom** er den mekanistiske kobling svag. Nasopharynx kan nås endoskopisk, men teratomer er sjældne, oftest medfødte og behandles ved kirurgisk fjernelse. Der er ikke fundet nogen PDT-begrundelse specifikt for denne tumortype.
+Datasættet indeholder flere andre forudsigelser, alle på evidensniveau L5 og med anbefalingen Hold:
 
-De øvrige forudsigelser vurderes således:
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Odontogen cyste | 99,77 % | Godartede, væskefyldte læsioner behandlet ved enukleation eller marsupialisation. Lysaktiveret cytotoksicitet har ingen klar rolle. |
+| Præmalign neoplasi | 99,77 % | Mekanistisk mest troværdig, da PDT kan fjerne overfladiske abnorme epitelforandringer (fx oral dysplasi eller leukoplaki). Kategorien er bred, og der er ingen data for temoporfin. |
+| Neoplasi i epiglottis | 99,76 % | Området er en del af de øvre luft- og fordøjelsesveje og dermed i store træk en delindikation af den eksisterende indikation snarere end egentlig repurposing. Der er ingen specifik evidens. |
+| Tumor i testis og paratestis | 99,76 % | Ingen klar mekanistisk begrundelse. Tumorerne ligger dybt, lysleverance er upraktisk, og PDT har begrænset vævspenetration. |
 
-- **Præmalign neoplasi** er den mest plausible. PDT er et anerkendt koncept ved overfladiske præmaligne forandringer, fx dysplasi i mund og hals. Kategorien er dog uspecifik, og der er ingen data. Det er en hypotese, ikke evidens.
-- **Neoplasi i epiglottis** er plausibel på grund af nærheden til de hoved- og halstumorer, hvor temoporfin-PDT er veletableret, og fordi området kan nås med endoskopisk lys. Risiko for ødem og nekrose i luftvejene skal vurderes.
-- **Odontogen cyste** passer dårligt biologisk. Det er overvejende godartede, væskefyldte forandringer, som behandles ved udskrælning eller marsupialisation og ikke er mål for tumorablation.
-- **Tumor i testis og paratestis** passer dårligt, fordi tumorerne ligger dybt, og lysets gennemtrængning er begrænset. Kirurgi og kemoterapi er veletablerede, og der er ikke identificeret nogen begrundelse for temoporfin.
+## Klinisk evidens
 
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for nogen af de forudsagte indikationer.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104244807 | Foscan (biolitec Pharma ltd.) | Injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
+| 28104244807 | Foscan (biolitec Pharma ltd.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ## Cytotoksicitet
 
+Temoporfin er et lægemiddel mod kræft, men virker som lysaktiveret fotosensibilisator og ikke som konventionelt cytostatikum.
+
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Fotosensibilisator til fotodynamisk terapi, ikke et konventionelt cytotoksisk middel. Virkningen kræver lysaktivering |
-| Knoglemarvssuppression | Se produktresuméet (SmPC) |
-| Emetogenicitet | Se produktresuméet (SmPC) |
+| Klassifikation | Fotosensibilisator til fotodynamisk terapi (ikke konventionelt cytotoksisk middel) |
+| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) |
+| Emetogent potentiale | Se produktresuméet (SmPC) |
 | Monitorering | Se produktresuméet (SmPC) |
 | Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
-Vælg monitorering og beskyttelsesforanstaltninger ud fra advarsler og forsigtighedsregler i produktresuméet (SmPC).
+Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ikke strukturerede sikkerhedsdata for lægemidlet. Der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
-For epiglottis-indikationen skal risikoen for ødem og nekrose i luftvejene vurderes særskilt.
+Der er ikke fundet interaktioner i de indsamlede data, og der er ingen registrerede kontraindikationer fra videnbasen. Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler, så se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsigelser har evidensniveau L5, altså kun modelforudsigelse uden kliniske forsøg eller litteratur. Den høje score (ca. 99,8 %) er ikke i sig selv evidens. De mest plausible kandidater, præmalign neoplasi og neoplasi i epiglottis, kan behandles som forskningsspørgsmål.
+Forudsigelserne er alene baseret på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer. Sikkerhedsdata fra produktresuméet og oplysninger om virkningsmekanismen mangler, og for flere af forudsigelserne (teratom, testistumor, odontogen cyste) er der ingen plausibel mekanistisk begrundelse.
 
 **For at komme videre kræves følgende:**
-- Hent sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé fra Lægemiddelstyrelsen.
-- Indhent data om virkningsmekanisme (MOA) fra DrugBank.
-- Gennemfør en systematisk litteratur- og forsøgssøgning for præmalign neoplasi i hoved og hals samt neoplasi i epiglottis.
-- Afklar den godkendte indikationstekst for Foscan i Danmark.
-- Vurder rutekompatibilitet og lysleveringsmuligheder for de enkelte lokalisationer.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Målrettet litteratursøgning efter temoporfin-PDT ved oral dysplasi og præmaligne læsioner, som er den mest lovende retning
+- Afklaring af, om neoplasi i epiglottis allerede er dækket af den eksisterende indikation
+- Vurdering af administrationsvej og lysleverance for hver forudsagt indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

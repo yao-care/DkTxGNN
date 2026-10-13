@@ -2,7 +2,7 @@
 layout: default
 title: Siltuximab
 parent: Kun modelforudsigelse (L5)
-nav_order: 401
+nav_order: 761
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,9 +31,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Siltuximab: Fra Castlemans sygdom til ekstrakutant mastocytom
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Siltuximab er et monoklonalt antistof, der blokerer interleukin-6 (IL-6) og ifølge evidensgrundlaget anvendes ved Castlemans sygdom. TxGNN-modellen forudsiger, at det kan have effekt ved **ekstrakutant mastocytom**. Forudsigelsen er rent modelbaseret: der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne indikation.
+Siltuximab er et lægemiddel, der oprindeligt anvendes til behandling af Castlemans sygdom (og i vidensgrafen også Kimuras sygdom). TxGNN-modellen forudsiger, at det kan have effekt på **ekstrakutant mastocytom**. Der er dog **ingen kliniske forsøg og ingen publikationer** for denne indikation, så forudsigelsen er rent beregningsbaseret.
 
 ---
 
@@ -41,7 +41,7 @@ Siltuximab er et monoklonalt antistof, der blokerer interleukin-6 (IL-6) og ifø
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (godkendelsesteksten er tom). Evidensgrundlaget beskriver siltuximab som et anti-IL-6-lægemiddel til Castlemans sygdom |
+| Oprindelig indikation | Castlemans sygdom (kilde: vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Ekstrakutant mastocytom |
 | TxGNN-forudsigelsesscore | 99,64 % |
 | Evidensniveau | L5 |
@@ -53,50 +53,57 @@ Siltuximab er et monoklonalt antistof, der blokerer interleukin-6 (IL-6) og ifø
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige. Siltuximab neutraliserer IL-6, en inflammatorisk signalmolekyle, og det er den eneste mekanistiske oplysning i grundlaget.
+Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Siltuximab er dog kendt som et monoklonalt antistof mod interleukin-6 (IL-6). Dets effekt ved Castlemans sygdom, hvor IL-6 er en central drivkraft, er dokumenteret.
 
-IL-6 er en tænkelig inflammatorisk mediator ved mastcelleneoplasi. Det er det eneste led mellem lægemidlets virkning og den forudsagte indikation. Der foreligger hverken forsøg eller litteratur, der prøver koblingen, og lighed med den oprindelige indikation er endnu ikke vurderet. Forudsigelsen er derfor en **hypotese** og ikke dokumenteret effekt.
+IL-6-signalering er beskrevet som en mulig faktor i mastcelleproliferation og -aktivering, hvilket giver en teoretisk forbindelse til mastocytom. Forbindelsen er imidlertid spinkel: der er ingen understøttende kliniske data eller litteratur i datagrundlaget, og den høje score er udelukkende en modelberegning.
 
----
+**Andre forudsigelser fra modellen** (alle uden kliniske forsøg):
+- **Hepatisk infarkt** (99,44 %): Ingen klar mekanistisk begrundelse, da tilstanden primært er vaskulær/iskæmisk.
+- **Hepatisk veno-okklusiv sygdom** (99,40 %): Svag teoretisk begrundelse via cytokinmedieret endotelaktivering.
+- **Peliosis hepatis** (99,29 %): Indirekte forbindelse via Castleman-lignende inflammatoriske tilstande.
+- **Kaposis sarkom** (99,28 %): Biologisk plausibel, da HHV-8/KSHV og IL-6 (viralt og humant) driver både Kaposis sarkom og HHV-8-associeret multicentrisk Castlemans sygdom. Der findes én oversigtsartikel (indirekte evidens), men ingen forsøg specifikke for Kaposis sarkom. Evidensniveauet er her L4 med vurderingen "forskningsspørgsmål".
 
-## Kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteratur
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Bemærk: Flere indikationer optræder dobbelt i de modtagne data (dubletter); hver er kun medtaget én gang her.
 
 ---
 
-## Andre forudsagte indikationer
+## Evidens fra kliniske forsøg
 
-Modellen har også forudsagt følgende indikationer. Ingen af dem er understøttet af relevante forsøg.
-
-| Forudsagt indikation | Score | Evidensniveau | Bemærkning |
-|------|------|------|------|
-| Hepatisk infarkt | 99,44 % | L5 | IL-6 deltager i leverinflammation og endotelskade, men der er ingen dokumenteret begrundelse for IL-6-blokade ved iskæmisk levernekrose |
-| Hepatisk veno-okklusiv sygdom | 99,40 % | L5 | Endotelskade og cytokinfrigivelse er impliceret, men koblingen er teoretisk. Defibrotid er etableret behandling, så en repurposing-sag kræver en klar differentierende begrundelse |
-| Peliosis hepatis | 99,29 % | L5 | Sjælden vaskulær læsion med flere årsager. Ingen mekanistisk eller klinisk evidens for IL-6-blokade |
-| Kaposis sarkom | 99,28 % | L4 | Indirekte link via KSHV-associeret Castlemans sygdom. Det eneste kortlagte forsøg ([NCT02796859](https://clinicaltrials.gov/study/NCT02796859), siltuximab ved skizofreni) har ingen relation til indikationen og vurderes som en fejlkobling. Den eneste publikation ([PMID 39970477](https://pubmed.ncbi.nlm.nih.gov/39970477/), 2024, AIDS Reviews) er en generel oversigtsartikel om Castlemans sygdom og tester ikke siltuximab ved Kaposis sarkom |
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for ekstrakutant mastocytom.
 
 ---
 
-## Information om markedet i Danmark
+## Litteraturevidens
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+Der er på nuværende tidspunkt ingen relateret litteratur for ekstrakutant mastocytom.
+
+Til information findes der for den alternative forudsigelse Kaposis sarkom følgende indirekte kilde:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [39970477](https://pubmed.ncbi.nlm.nih.gov/39970477/) | 2024 | Oversigtsartikel | AIDS Reviews | Gennemgang af Castlemans sygdoms forskellige ætiologier, herunder virusinfektioner (bl.a. HHV-8) og mekanismer bag multicentrisk Castlemans sygdom |
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105331813 | Sylvant | Pulver til koncentrat til infusionsvæske, opløsning | Recordati (Netherlands) B.V. |
-
-Godkendelsesteksten for indikationen er ikke angivet i den danske registrering.
+| 28105331813 | Sylvant (Recordati (Netherlands) B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresume (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner i interaktionsdatabasen (DDInter); et udvalg af de første 20 er gennemgået:
+
+- **Alvorlig (Major):** Deferipron
+- **Moderat:** simvastatin, apixaban, warfarin, rivaroxaban, dicoumarol, lidocain, hydrocodon, theophyllin, roflumilast, aminophyllin, oxtriphyllin, tacrolimus, fentanyl, tetanustoksoid-vaccine, nifedipin
+- **Mindre (Minor):** zinksulfat, zinkacetat, zinkglukonat, zinkklorid
+
+Mange af de moderate interaktioner gælder lægemidler med snæver terapeutisk bredde eller CYP-metabolisme (fx warfarin, tacrolimus, theophyllin). Det er i overensstemmelse med, at hæmning af IL-6 kan normalisere CYP-enzymaktivitet. Dette er en generel vurdering og ikke hentet fra de indsamlede data.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige.
 
 ---
 
@@ -105,17 +112,14 @@ Se det godkendte produktresume (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om ekstrakutant mastocytom hviler udelukkende på modelscoren (evidensniveau L5), uden forsøg, litteratur eller dokumenteret mekanisme. Sikkerhedsoplysninger fra produktresuméet mangler desuden, så sikkerhedsscreeningen kan ikke gennemføres.
+Forudsigelsen for ekstrakutant mastocytom bygger udelukkende på en modelscore (evidensniveau L5), uden kliniske forsøg, litteratur eller bekræftet virkningsmekanisme. Blandt de øvrige forudsigelser er Kaposis sarkom den mest biologisk plausible (L4), men også her mangler direkte evidens.
 
 **For at komme videre kræves:**
-- Sikkerhedsdata (advarsler og kontraindikationer) fra Lægemiddelstyrelsens produktresumé
-- Data om virkningsmekanismen fra DrugBank
-- Præklinisk eller klinisk evidens for IL-6-blokade ved mastcelleneoplasi
-- Vurdering af lighed med den oprindelige indikation og af administrationsvejens egnethed (intravenøs infusion)
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser om gentænkning af eksisterende lægemidler kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (afgørende for sikkerhedsscreening)
+- Den godkendte indikationstekst for Sylvant i Danmark
+- Systematisk litteratursøgning og søgning efter forsøg specifikt for ekstrakutant mastocytom og IL-6-hæmning
+- Overvejelse af at prioritere Kaposis sarkom som forskningsspørgsmål, med målrettet søgning efter data om KSHV-associeret inflammatorisk cytokinsyndrom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

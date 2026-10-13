@@ -2,7 +2,7 @@
 layout: default
 title: Inebilizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 232
+nav_order: 435
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inebilizumab: Fra B-celle-målrettet antistofbehandling til lægemiddelinduceret osteoporose
+# Inebilizumab: Fra den oprindelige indikation til lægemiddelinduceret osteoporose
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Inebilizumab er et humaniseret monoklonalt antistof mod CD19, som nedbryder B-celler. Det er markedsført i Danmark under navnet Uplizna. TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**, men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte forudsigelsen.
+Inebilizumab (handelsnavn Uplizna) er et monoklonalt antistof rettet mod CD19, som nedbryder B-celler. Den oprindelige indikation fremgår ikke af de data, der er sammensat til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **lægemiddelinduceret osteoporose**, men der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne indikation. Forudsigelsen er rent beregningsbaseret.
 
 ---
 
@@ -41,10 +41,11 @@ Inebilizumab er et humaniseret monoklonalt antistof mod CD19, som nedbryder B-ce
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten for godkendelsen er tom) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
 | TxGNN-forudsigelsesscore | 96,4 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -52,37 +53,63 @@ Inebilizumab er et humaniseret monoklonalt antistof mod CD19, som nedbryder B-ce
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i Evidence Pack. Inebilizumab er et anti-CD19-antistof, der nedbryder celler i B-cellelinjen.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i databasen. Ud fra kendt viden er inebilizumab et anti-CD19-antistof, der depleterer B-celler, herunder plasmablaster og nogle plasmaceller.
 
-B-celler deltager i knoglens ombygning via signalvejene RANKL og OPG, så en teoretisk forbindelse til osteoporose kan ikke udelukkes. Der er imidlertid ingen klar biologisk begrundelse for, at CD19-rettet B-celle-depletering skulle beskytte mod lægemiddelinduceret osteoporose. Forbindelsen er spekulativ.
+Sammenhængen med lægemiddelinduceret osteoporose er spekulativ. B-celler og plasmaceller kan påvirke osteoklastdannelsen via RANKL og cytokinsignalering, men det er ikke en etableret terapeutisk vej. Den høje score (0,964) er ikke i sig selv evidens.
 
-Den høje score (0,964) stammer udelukkende fra vidensgrafmodellen. Den er ikke bekræftet af kliniske data eller litteratur og bør derfor kun læses som en hypotese.
+Der er desuden ikke vurderet lighed mellem den oprindelige og den nye indikation, og administrationsvejens kompatibilitet er ikke afklaret. Lægemidlet gives som intravenøs infusion.
 
 ---
 
-## Klinisk evidens
+## Alternative forudsigelser (til information)
 
-Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg for denne indikation.
+TxGNN har også foreslået følgende indikationer. Ingen har kliniske forsøg registreret.
+
+| Forudsagt indikation | Score | Evidensniveau | Kommentar |
+|------|------|------|------|
+| Psoriasis | 95,8 % | L5 | Sygdommen drives primært af T-celler og IL-23/IL-17-aksen. B-celleinvolvering er begrænset, og der findes allerede effektive godkendte lægemidler. |
+| Pityriasis lichenoides | 94,0 % | L5 | T-cellemedieret hudsygdom. Der er intet klart mekanistisk grundlag for B-cellerettet behandling. |
+| Plasmacellemyelom | 92,7 % | L4 | CD19 findes på en delmængde af myelomceller, men udtrykket er heterogent og ofte lavt eller fraværende. Se litteraturafsnittet. |
+| Indolent plasmacellemyelom | 92,7 % | L5 | Samme begrundelse som for plasmacellemyelom. Der er ingen data specifikt for indolent sygdom. |
+
+---
+
+## Evidens fra kliniske forsøg
+
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for lægemiddelinduceret osteoporose.
 
 ---
 
 ## Litteraturevidens
 
-Der findes på nuværende tidspunkt ingen relateret litteratur for denne indikation.
+Der er ingen relevant litteratur for lægemiddelinduceret osteoporose. Til sammenligning findes der følgende indirekte litteratur for det alternative forslag plasmacellemyelom:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [30915717](https://pubmed.ncbi.nlm.nih.gov/30915717/) | 2019 | Fase 1-studie | Int J Hematol | Åbent dosiseskaleringsstudie af sikkerhed, farmakokinetik og foreløbig antitumoraktivitet af inebilizumab hos japanske patienter med recidiverende/refraktært B-cellelymfom og myelomatose. Resuméet er afkortet, så effekten ved myelom kan ikke bekræftes. |
+| [42244451](https://pubmed.ncbi.nlm.nih.gov/42244451/) | 2026 | Review | Clin Pharmacol Ther | Gennemgang af den biologiske begrundelse for at målrette B-celler og plasmaceller i onkologi og autoimmunitet. Kun indirekte kontekst. |
+
+Et yderligere review om syntese af kræftlægemidler (PMID 38288815) er ikke klinisk relevant og er udeladt.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106541120 | Uplizna | Koncentrat til infusionsvæske, opløsning | Amgen Europe BV |
+| 28106541120 | Uplizna (Amgen Europe BV) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de sammensatte data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+**Lægemiddelinteraktioner:** Der er identificeret 34 interaktioner. De 20 viste i data fordeler sig således:
+
+- **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, cladribin, leflunomid, natalizumab, ozanimod. Der er generelt tale om additiv immunsuppression.
+- **Moderate:** roflumilast, alefacept, alemtuzumab, anakinra, azathioprin, canakinumab, dimethylfumarat, ocrelizumab, omacetaxinmepesuccinat.
+- **Milde (Minor):** zinksulfat, zinkacetat, zinkgluconat, zinkchlorid.
 
 ---
 
@@ -91,21 +118,14 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for lægemiddelinduceret osteoporose hviler kun på modellen (evidensniveau L5), uden kliniske forsøg, litteratur eller en klar mekanistisk forbindelse.
-
-**Bemærkning om andre forudsigelser:** Blandt de øvrige forudsigelser er der kun for **plasmacellemyelom** (score 92,7 %) fundet kliniske data. Det drejer sig om:
-- Forsøget [NCT01861340](https://clinicaltrials.gov/study/NCT01861340), et afsluttet tidligt fase 1-pilotstudie med 20 deltagere. Inebilizumab (MEDI-551) blev givet sammen med lenalidomid og dexamethason.
-- Publikationen [PMID 30915717](https://pubmed.ncbi.nlm.nih.gov/30915717/), et japansk fase 1-studie fra 2019 i recidiverende eller refraktært B-cellelymfom og myelom.
-
-Disse data viser ikke effekt af inebilizumab alene. Plasmacellemyelom er vurderet som et forskningsspørgsmål (evidensniveau L3), ikke som en klinisk anbefaling.
+Forudsigelsen bygger udelukkende på modelscoren (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, og den mekanistiske sammenhæng er spekulativ. Desuden mangler data om oprindelig indikation, virkningsmekanisme og sikkerhed fra produktresuméet.
 
 **For at komme videre kræves følgende:**
-- Download og gennemgang af produktresumeet (SmPC) fra Lægemiddelstyrelsen, så advarsler og kontraindikationer kan vurderes. Dette er en blokerende mangel for sikkerhedsscreeningen.
-- Detaljerede data om virkningsmekanismen (f.eks. fra DrugBank) til en mere præcis mekanistisk analyse.
-- Prækliniske eller kliniske data, der undersøger B-cellers rolle i lægemiddelinduceret osteoporose.
-- Oplysninger om den godkendte indikationstekst for Uplizna i Danmark.
-
-*Dette resultat er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Data om virkningsmekanismen (MOA) fra DrugBank
+- Prækliniske studier eller mekanistiske data, der belyser B-celle/plasmacelle-bidraget til knogletab, herunder RANKL-signalering
+- Litteratursøgning og vurdering af sikkerhed ved immunsuppression hos patienter, der allerede er i risiko for lægemiddelinduceret osteoporose
+- Afklaring af, om de øvrige forudsigelser (især plasmacellemyelom) fortjener en selvstændig vurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

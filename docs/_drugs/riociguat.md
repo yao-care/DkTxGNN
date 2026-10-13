@@ -2,7 +2,7 @@
 layout: default
 title: Riociguat
 parent: Kun modelforudsigelse (L5)
-nav_order: 380
+nav_order: 723
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Riociguat: Fra pulmonal hypertension til Ambras-type hypertrichosis universalis congenita
+# Riociguat: Fra pulmonal arteriel hypertension til Ambras-type hypertrichosis universalis congenita
 
-## Resumé i én sætning
+## Opsummering i én sætning
 
-Riociguat er en stimulator af opløseligt guanylatcyclase (sGC), som i Danmark markedsføres som Adempas. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **Ambras-type hypertrichosis universalis congenita**. Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 publikationer** for denne indikation.
+Riociguat er en stimulator af det opløselige guanylatcyklase (sGC), som oprindeligt anvendes til behandling af pulmonal arteriel hypertension og kronisk tromboembolisk pulmonal hypertension.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Ambras-type hypertrichosis universalis congenita**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -41,9 +43,9 @@ Riociguat er en stimulator af opløseligt guanylatcyclase (sGC), som i Danmark m
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten er tom). Riociguat er kendt som behandling af pulmonal hypertension, men det er ikke bekræftet i denne rapport |
+| Oprindelig indikation | Pulmonal arteriel hypertension og kronisk tromboembolisk pulmonal hypertension (fra TxGNN-vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-forudsigelsesscore | 94,92 % |
+| TxGNN-forudsigelsesscore | 94,9 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,46 +53,51 @@ Riociguat er en stimulator af opløseligt guanylatcyclase (sGC), som i Danmark m
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i DrugBank-udtrækket. Riociguat er en sGC-stimulator, der øger cGMP via NO-sGC-cGMP-vejen.
+Riociguat stimulerer det opløselige guanylatcyklase (sGC) og øger dermed cGMP-signalering i karvæggen, hvilket giver vasodilatation. Der foreligger ingen detaljerede, kuraterede data om virkningsmekanismen i de data, der er indsamlet til denne rapport, så mekanistiske vurderinger kunne ikke krydstjekkes.
 
-Ambras-syndrom er en medfødt tilstand, som skyldes kromosomale omlejringer i det regulatoriske område omkring TRPS1-genet. Der er ikke påvist nogen forbindelse mellem sGC/cGMP-signalering og denne sygdomsmekanisme. Den høje score (0,949) afspejler kun nærhed i en vidensgraf.
+Ambras-syndrom er en medfødt hypertrichose, der er forbundet med omlejringer nær TRPS1 og ændret genregulering i hårfollikler. Der er ingen etableret sammenhæng mellem sGC-stimulation og denne patofysiologi. Den høje score afspejler sandsynligvis nærhed i vidensgrafen snarere end en biologisk valideret mekanisme.
 
-Vasodilatatorer som minoxidil er kendt for at give hypertrichosis. Et eventuelt reelt signal for riociguat kan derfor pege på en **hårvækstrelateret bivirkning** frem for en terapeutisk gevinst. Det er en hypotese, som ikke er påvist for riociguat. Forudsigelsen er spekulativ og ikke understøttet af data.
+Det er værd at bemærke, at vasodilatatorer som minoxidil er kendt for at kunne fremkalde hypertrichose. En spekulativ vaskulær/cGMP-relateret forbindelse til hårvækst kan derfor findes, men den antyder snarere, at riociguat kunne fremkalde end behandle overdreven hårvækst. Retningen af en eventuel gavnlig effekt er således tvivlsom.
 
-### Øvrige forudsigelser (dublerede poster er slået sammen)
-
-| Forudsagt indikation | Score | Evidens | Vurdering |
-|---------|------|------|------|
-| Misdannelsessyndrom med tand- og/eller parodontalkomponent | 94,45 % | 20 publikationer om generel parodontitis, ingen om riociguat | Ingen påvist mekanistisk forbindelse |
-| Syndrom med Dandy-Walker-malformation som hovedtræk | 94,27 % | Ingen | En symptomatisk sGC-stimulator er ikke plausibelt sygdomsmodificerende ved en udviklingsmæssig malformation |
-| Isoleret genetisk hårskaftsabnormitet | 94,05 % | Ingen | Ingen kendt forbindelse til sGC/cGMP. Prædiktionen bygger på nærhed til andre hårfænotyper |
-| Hypertrichosis (sygdom) | 93,81 % | Ingen | Kan snarere afspejle en mulig bivirkning end en behandlingseffekt |
+Øvrige topforudsigelser (alle med score 0,938-0,944 og evidensniveau L5) omfatter misdannelsessyndrom med odontal/parodontal komponent, syndromer med Dandy-Walker-malformation, isoleret genetisk hårskaftsabnormitet og hypertrichosis. Ingen af disse har en identificeret mekanistisk forbindelse eller klinisk evidens.
 
 ---
 
-## Klinisk evidens
+## Klinisk evidens fra forsøg
 
-Der er ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
-Der er ingen relateret litteratur for den højest rangerede indikation. Litteraturen for den tredjerangerede indikation (parodontitis) handler om generel parodontitisbehandling og nævner ikke riociguat, så den vurderes som sygdomsordsmatch og ikke lægemiddelspecifik evidens.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105246913 | Adempas (Bayer Pharma AG) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28105246913 | Adempas (Bayer Pharma AG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+Administrationsvej: oral.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 75 mulige interaktioner. Blandt de første 20 viste alle niveauet "moderat":
+- **Protonpumpehæmmere:** rabeprazol, omeprazol, lansoprazol, dexlansoprazol, pantoprazol, esomeprazol
+- **Antacida og mineralpræparater:** magnesiumoxid, magnesiumcarbonat, magnesiumhydroxid, calciumcarbonat, aluminiumhydroxid, magaldrat
+- **SGLT2-hæmmere:** canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- **Andre:** dexamethason, clarithromycin, mannitol, papaverin
+
+**Embryo-føtal toksicitet:** Ifølge vurderingen af forudsigelserne for Dandy-Walker-syndrom er der en boxed warning om embryo-føtal toksicitet. Det taler imod anvendelse ved udviklingsforstyrrelser, der involverer graviditet eller unge patienter.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -99,16 +106,13 @@ Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modellens score (L5), uden kliniske forsøg og uden litteratur. Der er ingen plausibel mekanistisk forbindelse mellem sGC-stimulering og Ambras-syndrom. Et eventuelt signal kan desuden afspejle en hårvækstrelateret bivirkning.
+Forudsigelsen er udelukkende baseret på en computermodel (evidensniveau L5) uden kliniske forsøg eller publikationer og uden plausibel biologisk mekanisme. Den mulige retning af effekten er desuden tvivlsom, og lægemidlet har kendte embryo-føtale risici.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer), som blokerer sikkerhedsscreeningen
-- Mekanismedata (MOA) fra DrugBank
-- Bekræftelse af den godkendte indikationstekst for Adempas
-- Præklinisk eller mekanistisk belæg for en sammenhæng mellem NO-sGC-cGMP-vejen og den forudsagte sygdom, før der overvejes yderligere evaluering
-- Vurdering af, om hypertrichosis er en rapporteret bivirkning ved riociguat
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA) og en kritisk mekanistisk vurdering af sammenhængen mellem sGC/cGMP og hårfollikelbiologi
+- Præklinisk evidens (f.eks. follikel- eller dyremodeller) for, at sGC-stimulation kan modulere hårvækst i den ønskede retning
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen for advarsler og kontraindikationer
+- Vurdering af risk-benefit, herunder embryo-føtal toksicitet og blodtryksfald, i den relevante patientgruppe
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

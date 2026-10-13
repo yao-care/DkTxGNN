@@ -2,7 +2,7 @@
 layout: default
 title: Rifaximin
 parent: Moderat evidens (L3-L4)
-nav_order: 379
+nav_order: 719
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rifaximin: Fra tarmrettet antibiotikum til oral candidiasis
+# Rifaximin: Fra hepatisk encefalopati til oral candidiasis
 
 ## Resumé
 
-Rifaximin er et oralt, næsten ikke-absorberbart rifamycin-antibiotikum, der virker på bakterier i tarmen. TxGNN-modellen forudsiger, at det kan være effektivt mod **oral candidiasis**. Der er dog **ingen kliniske forsøg** og kun **1 publikation**, og den peger i modsat retning: Rifaximin-brug var forbundet med infektioner med micafungin-resistente Candida-arter. Forudsigelsen er derfor ikke understøttet af evidens.
+Rifaximin er et ikke-absorberbart antibiotikum, der oprindeligt anvendes mod hepatisk encefalopati (leverkoma).
+TxGNN-modellen forudsiger, at det kan have effekt på **oral candidiasis**, men den eneste tilgængelige publikation (**1 kohortestudie**, ingen kliniske forsøg) peger i den modsatte retning: rifaximin-brug var forbundet med flere infektioner med mikafungin-resistente Candida-arter. Forudsigelsen er derfor ikke understøttet.
 
 ---
 
@@ -41,9 +42,9 @@ Rifaximin er et oralt, næsten ikke-absorberbart rifamycin-antibiotikum, der vir
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de foreliggende data |
+| Oprindelig indikation | Hepatisk encefalopati / hepatisk koma (fra vidensgrafen; godkendt indikationstekst er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Oral candidiasis |
-| TxGNN-score | 99,75 % |
+| TxGNN-forudsigelsesscore | 99,75 % |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,17 +52,19 @@ Rifaximin er et oralt, næsten ikke-absorberbart rifamycin-antibiotikum, der vir
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om rifaximins virkningsmekanisme i evidenspakken. Rifaximin er et dårligt absorberet rifamycin-antibiotikum, der virker på bakterier i tarmen. Der kendes ingen antimykotisk aktivitet.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Rifaximin er dog et ikke-absorberbart rifamycin-antibiotikum, der virker lokalt i tarmen.
 
-Det er ikke lykkedes at etablere en mekanistisk sammenhæng mellem rifaximins kendte virkning og behandling af oral candidiasis. Den eneste litteratur peger i den modsatte retning, idet rifaximin blev knyttet til *øget* forekomst af resistente Candida-infektioner. Den høje TxGNN-score skyldes sandsynligvis en association i vidensgrafen og ikke et farmakologisk rationale.
+Der er ingen plausibel terapeutisk mekanisme for oral candidiasis: rifaximin har ingen antimykotisk virkning. Den høje TxGNN-score (0,997) kan afspejle en artefakt i grafmodellen snarere end reel biologisk sammenhæng.
+
+Den eneste tilgængelige litteratur antyder snarere et sikkerhedssignal: forstyrrelse af tarmens mikrobiom kan have begunstiget resistente Candida-infektioner hos patienter efter allogen stamcelletransplantation.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
@@ -69,36 +72,25 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Kohortestudie | Annals of Hematology | Undersøgte sikkerhed og udfald hos patienter efter allogen stamcelletransplantation behandlet med rifaximin som profylakse. Titlen angiver, at rifaximin-brug favoriserede infektioner med micafungin-resistente Candida-arter, hvilket tyder på en mulig risiko frem for en gavnlig effekt. |
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Kohortestudie | Annals of Hematology | Rifaximin-brug hos patienter efter allogen hæmatopoietisk stamcelletransplantation var forbundet med infektioner med mikafungin-resistente Candida-arter |
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent | Godkendt indikation |
-|---------|------|------|-----------|-----------|
-| 28104323608 | Faxinorm | Filmovertrukne tabletter (oral) | Alfasigma S.p.A | Ikke angivet i data |
-
----
-
-## Øvrige forudsagte indikationer
-
-Modellen forudsiger yderligere fire indikationer med score omkring 99,6 %. For ingen af dem findes kliniske forsøg eller litteratur (evidensniveau L5), og der er ingen identificerbar mekanistisk sammenhæng.
-
-| Forudsagt indikation | TxGNN-score | Vurdering |
-|------|------|------|
-| Commissural lip fistula | 99,64 % | Sjælden medfødt anomali, der behandles kirurgisk. Rifaximins virkning i tarmen er uden åbenbar relevans. |
-| Osteoradionecrosis i mandiblen | 99,64 % | Strålingsinduceret knogleskade. Rifaximin absorberes minimalt, så systemisk knogleeksponering er ubetydelig. |
-| Burning mouth syndrome | 99,64 % | Overvejende neuropatisk eller idiopatisk. En spekulativ sammenhæng via tarm-mund-mikrobiomet er ikke understøttet af data for rifaximin. |
-| Oral leukoedem | 99,64 % | Godartet variant af mundslimhinden, som normalt ikke kræver behandling. Scoren er sandsynligvis et grafnærheds-artefakt. |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104323608 | Faxinorm (Alfasigma S.p.A) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i evidenspakken.
+- **Kontraindikationer fra vidensgrafen (ikke fra produktresumé):** *Clostridium difficile*-colitis og perinatal nekrotiserende enterokolitis.
+- **Lægemiddelinteraktioner:** 69 interaktioner er registreret. Én er klassificeret som alvorlig (Major): levende kolera-vaccine (*Vibrio cholerae* CVD 103-HgR). Blandt de moderate interaktioner er bl.a. ciclosporin, warfarin, tolvaptan, cabozantinib, apalutamid, darolutamid, daclatasvir, ledipasvir og picosulfat.
+- **Sikkerhedssignal for den forudsagte indikation:** Mulig begunstigelse af resistente Candida-infektioner hos stamcelletransplanterede patienter (se litteratur ovenfor).
 
-Fra litteraturen er der et sikkerhedssignal, som bør tages alvorligt: Rifaximin-brug hos patienter efter allogen stamcelletransplantation var forbundet med micafungin-resistente Candida-infektioner.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
 
 ---
 
@@ -107,15 +99,16 @@ Fra litteraturen er der et sikkerhedssignal, som bør tages alvorligt: Rifaximin
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en høj modelscore. Der er ingen kliniske forsøg, ingen mekanistisk begrundelse, og den eneste publikation antyder en mulig risiko for Candida-infektion. Evidensen er utilstrækkelig til at gå videre.
+- Der er ingen plausibel mekanisme, ingen kliniske forsøg, og den eneste publikation tyder på skade frem for gavn. Den høje modelscore er ikke understøttet af evidens.
 
 **For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation
-- Data om rifaximins virkningsmekanisme (MOA) fra DrugBank
-- Fuld gennemgang af PMID 34180023 med fokus på sammenhængen mellem rifaximin og resistente Candida-infektioner
-- Prækliniske eller kliniske data, der kan understøtte en antimykotisk eller anden relevant effekt, før forudsigelsen vurderes yderligere
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Data om virkningsmekanisme (DrugBank)
+- Prækliniske eller kliniske data, der kan underbygge en antimykotisk eller anden relevant effekt, samt yderligere vurdering af Candida-signalet
 
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nyt anvendelsesområde kræver klinisk validering, før de kan anvendes.*
+---
+
+**Bemærkning om øvrige forudsigelser:** Ni øvrige forudsigelser i de indsamlede data (rang 2-10, bl.a. commissural lip fistula, osteoradionecrosis af mandiblen, burning mouth syndrome og oral leukoedema) er rene modelforudsigelser (L5) uden kliniske forsøg eller litteratur og uden plausibel mekanistisk sammenhæng. Alle er vurderet til **Hold**. Flere af dem optræder to gange i datagrundlaget.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

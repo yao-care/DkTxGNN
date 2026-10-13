@@ -2,7 +2,7 @@
 layout: default
 title: Doramectin
 parent: Kun modelforudsigelse (L5)
-nav_order: 148
+nav_order: 275
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Doramectin: Fra veterinært antiparasitmiddel til insomni (søvnløshed)
+# Doramectin: Fra parasitbekæmpelse hos dyr til søvnløshed (insomni)
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Doramectin er et antiparasitært middel af avermectin-klassen, og i Danmark er det kun registreret som veterinærlægemiddel (Dectomax, pour-on).
-TxGNN-modellen forudsiger, at det kan have effekt ved **insomni**, men forudsigelsen bygger udelukkende på modellen: der er **0 kliniske forsøg** og **0 publikationer** for netop denne indikation.
-Det eneste indirekte fund er to prækliniske rottestudier om **angst**, som ikke kan overføres direkte til mennesker.
+Doramectin er et antiparasitært middel af avermectin-klassen, som i Danmark er godkendt som dyrelægemiddel (Dectomax, pour-on-opløsning). TxGNN-modellen forudsiger, at stoffet kan have effekt mod **insomni** (score 99,2 %), men der findes **ingen kliniske forsøg** og **ingen publikationer** direkte om søvnløshed. For den næstbedst understøttede indikation, **angst**, findes der **2 prækliniske rottestudier**.
 
 ---
 
@@ -43,69 +41,58 @@ Det eneste indirekte fund er to prækliniske rottestudier om **angst**, som ikke
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig anvendelse | Veterinært antiparasitmiddel (pour-on til dyr) |
-| Foreslået ny indikation | Insomni (insomnia) |
-| TxGNN-score | 99,2 % |
-| Evidensniveau | L5 (kun modelforudsigelse). For angst er niveauet L4 (prækliniske data) |
-| Markedsstatus i Danmark | Markedsført (som veterinærlægemiddel) |
+| Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendt som dyrelægemiddel, antiparasitært) |
+| Forudsagt ny indikation | Insomni |
+| TxGNN-prædiktionsscore | 99,2 % |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor kan forudsigelsen give mening?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen (MOA) i Evidence Pack. Doramectin tilhører avermectin-klassen, og for denne klasse er det kendt, at stofferne kan potensere GABA-A-receptorer hos pattedyr. Det kunne i teorien give en beroligende effekt og dermed en mulig forbindelse til søvnforstyrrelser. Det er dog spekulativt og ikke understøttet af data for insomni.
+Data om doramectins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Doramectin tilhører dog avermectinerne (som ivermectin). Disse stoffer er kendt som positive allosteriske modulatorer af GABA-A- og glutamatstyrede chloridkanaler. I teorien kan det fremme sedation og dermed give en indirekte forbindelse til søvnløshed.
 
-Der er også tungtvejende modargumenter. Doramectin er designet til dyr, og P-glykoprotein begrænser stoffets passage over blod-hjerne-barrieren hos pattedyr. Neurotoksicitetsrisikoen er ikke kvantificeret. Lægemidlet har desuden ingen registrerede oprindelige humane indikationer, så der er ikke noget klinisk udgangspunkt at sammenligne med.
+Denne sammenhæng er spekulativ og understøttes ikke af søvnrelaterede data. Doramectin er desuden et veterinært middel, og det er et P-glykoprotein-substrat med dårlig passage over blod-hjerne-barrieren hos pattedyr. Det svækker hypotesen yderligere.
 
-TxGNN forudsagde følgende, hvor dubletter i datasættet kun er talt én gang:
+Forudsigelserne for søvnforstyrrelse (score 92,3 %) er i praksis synonymer for insomni og giver ikke uafhængig støtte. Det samme gælder agorafobi (91,8 %) og angstlidelse (91,2 %), som alene hviler på modelforudsigelsen.
 
-| Forudsagt indikation | Score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Insomni | 99,2 % | L5 | Hold |
-| Søvnforstyrrelse (indsovning og søvnvedligeholdelse) | 92,3 % | L5 | Hold |
-| Angst | 91,8 % | L4 | Forskningsspørgsmål |
-| Agorafobi | 91,8 % | L5 | Hold |
-| Angstlidelse | 91,2 % | L5 | Hold |
-
-Søvnforstyrrelse er næsten synonym med insomni og deler samme spekulative GABAerge begrundelse, så den udgør ikke selvstændig støtte.
+Angst (score 91,8 %) har den stærkeste, om end stadig svage, støtte. Rottestudier tyder på angstdæmpende og krampehæmmende egenskaber, forenelige med forstærket GABA-erg virkning. Der er ingen humane data.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
+Der er aktuelt ingen relaterede kliniske forsøg registreret for insomni.
 
 ---
 
-## Litteratur
+## Evidens fra litteraturen
 
-For insomni er der ingen relateret litteratur. Der findes dog to prækliniske studier under indikationen **angst**, som kun er indirekte kontekst:
+Der er ingen litteratur om insomni. De to studier nedenfor vedrører den forudsagte indikation **angst** og er kun indirekte relevante:
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [11246508](https://pubmed.ncbi.nlm.nih.gov/11246508/) | 2000 | Præklinisk dyrestudie (rotte) | Comp Biochem Physiol Toxicol Pharmacol | Doramectin (100, 300 og 1000 µg/kg s.c.) undersøgt i angstmodeller, krampetærskel og neurotransmittere. Forfatterne beskriver angstlignende og antikonvulsive effekter via GABAerg påvirkning |
-| [12184502](https://pubmed.ncbi.nlm.nih.gov/12184502/) | 2002 | Præklinisk dyrestudie (rotte, beslægtet stof ivermectin) | Vet Res Commun | Mulige angstdæmpende effekter af ivermectin hos rotter. Henviser til tidligere fund for doramectin |
-
-Der er ingen humane data, og der er heller ingen dosis- eller sikkerhedsdata for brug i centralnervesystemet.
+| [11246508](https://pubmed.ncbi.nlm.nih.gov/11246508/) | 2000 | Præklinisk (rotte, in vivo) | Comparative Biochemistry and Physiology. Toxicology & Pharmacology | Doramectin (100, 300 og 1000 µg/kg, s.c.) viste angstdæmpende og krampehæmmende egenskaber i adfærds- og neurokemiske undersøgelser, forenelige med påvirkning af GABA-erg signalering |
+| [12184502](https://pubmed.ncbi.nlm.nih.gov/12184502/) | 2002 | Præklinisk (rotte, in vivo, beslægtet stof ivermectin) | Veterinary Research Communications | Mulige angstdæmpende effekter af ivermectin hos rotter, hvilket tyder på en klasseeffekt for avermectiner |
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104654310 | Dectomax | Pour-on, opløsning | Zoetis Animal Health ApS |
-
-Produktet er et veterinærlægemiddel. Der er ingen centrale (EMA) tilladelser i datasættet. Administrationsvejen (pour-on på huden) er desuden ikke vurderet i forhold til en eventuel human indikation.
+| 28104654310 | Dectomax (Zoetis Animal Health ApS) | Pour-on, opløsning | Indikationstekst ikke oplyst |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler, kontraindikationer eller interaktioner (interaktionsopslaget gav ingen resultater).
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Da der er tale om et veterinærlægemiddel, er der ikke vurderet humane sikkerhedsdata.
+Der er ikke fundet data om advarsler, kontraindikationer eller lægemiddelinteraktioner i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Det skal bemærkes, at produktet er et dyrelægemiddel til pour-on-anvendelse, og at der ikke foreligger humane sikkerhedsdata. Ved CNS-aktive eksponeringer skal neurotoksicitet desuden vurderes nøje.
 
 ---
 
@@ -114,16 +101,15 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Da der er tale
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for insomni er ren modelforudsigelse (L5) uden kliniske forsøg eller litteratur. Den eneste indirekte støtte er to rottestudier om angst, og et veterinært middel med begrænset hjernepenetration og ukendt neurotoksicitet kan ikke tages videre uden en grundig sikkerhedsvurdering. Angst kan højst betragtes som et forskningsspørgsmål.
+Forudsigelsen for insomni bygger udelukkende på modellen (L5), uden kliniske forsøg eller litteratur. Den mekanistiske forklaring er spekulativ, og stoffets begrænsede CNS-penetration hos mennesker taler imod. Angst har prækliniske data (L4), men kun fra rotter.
 
 **For at komme videre kræves:**
-- Produktresumé/indlægsseddel fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Dette er en blokerende datamangel, da sikkerhedsscreening ikke kan gennemføres uden.
-- Data om virkningsmekanisme (MOA), fx fra DrugBank.
-- Prækliniske data om blod-hjerne-barriere-passage og neurotoksicitet hos pattedyr, herunder P-glykoprotein-effekter.
-- Vurdering af, om en human formulering og administrationsvej overhovedet er mulig.
-- Evt. et målrettet litteraturstudie af avermectiner og GABA-A-modulering, før der overvejes forsøg.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne skal valideres klinisk, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Prækliniske studier af søvn og angst med vurdering af CNS-eksponering og P-glykoprotein-efflux
+- Vurdering af neurotoksicitetsmargener ved CNS-aktive doser
+- Vurdering af, om en human formulering og administrationsvej er mulig, da det nuværende produkt er et veterinært pour-on-præparat
+- Sammenlægning af overlappende forudsigelser (insomni/søvnforstyrrelse og angst/angstlidelse) til videre vurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

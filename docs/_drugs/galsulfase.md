@@ -2,7 +2,7 @@
 layout: default
 title: Galsulfase
 parent: Kun modelforudsigelse (L5)
-nav_order: 204
+nav_order: 384
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,96 +29,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Galsulfase: Fra mukopolysakkaridose type VI (MPS VI) til ptosis-strabismus-ektopiske pupiller-syndrom
+# Galsulfase: Fra mucopolysaccharidose til ptosis-strabismus-ektopiske pupiller-syndrom
 
 ## Resumé
 
-Galsulfase er en rekombinant enzymerstatningsbehandling (N-acetylgalactosamin-4-sulfatase), som er markedsført i Danmark under navnet Naglazyme. Den bruges til MPS VI, men det fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at den kan have effekt ved **ptosis-strabismus-ektopiske pupiller-syndrom**, men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret (evidensniveau L5).
-
----
+Galsulfase er en rekombinant enzymerstatningsbehandling (arylsulfatase B), som oprindeligt anvendes til behandling af mucopolysaccharidose (MPS VI).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **ptosis-strabismus-ektopiske pupiller-syndrom**,
+men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendt anvendelse er MPS VI) |
-| Foreslået ny indikation | Ptosis-strabismus-ektopiske pupiller-syndrom |
+| Oprindelig indikation | Mucopolysaccharidose (MPS VI) (fra videnbasen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Ptosis-strabismus-ektopiske pupiller-syndrom |
 | TxGNN-forudsigelsesscore | 97,89 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-De 10 forudsigelser i datagrundlaget dækker kun 5 forskellige sygdomme, da hver optræder to gange med identisk score (97,68-97,89 %):
-
-| Sygdom | Score |
-|------|------|
-| Ptosis-strabismus-ektopiske pupiller-syndrom | 97,89 % |
-| Camptodactyly, myopia og fibrose af musculus rectus medialis | 97,87 % |
-| Medfødt Horners syndrom | 97,84 % |
-| Ptosis-stemmebåndslammelse-syndrom | 97,83 % |
-| Ptosis-begrænset opadgående øjenbevægelse-manglende tårepunkt-syndrom | 97,67 % |
-
----
-
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i datagrundlaget. Galsulfase er dog en enzymerstatning, der erstatter det manglende lysosomale enzym N-acetylgalactosamin-4-sulfatase. Enzymet nedbryder dermatansulfat, så glykosaminoglykaner ikke ophobes i lysosomerne.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Galsulfase er dog kendt som et enzym (N-acetylgalactosamin-4-sulfatase), der nedbryder dermatansulfat og chondroitinsulfat ved MPS VI.
 
-For de foreslåede sygdomme kan der **ikke påvises nogen troværdig mekanistisk sammenhæng**:
+Den forudsagte indikation er en sjælden medfødt lidelse med påvirkning af øjenbevægelse og pupiller. Der er ingen kendt sammenhæng med ophobning af glykosaminoglykaner eller mangel på arylsulfatase B. Der kan derfor ikke identificeres en troværdig mekanistisk forbindelse. Den høje score er udelukkende en beregningsmæssig forudsigelse, sandsynligvis båret af nærhed mellem okulære fænotyper i vidensgrafen snarere end af biologi.
 
-- Alle fem er sjældne medfødte syndromer, der involverer øjenmuskler, pupiller, øjenlåg eller nerveforsyning.
-- Ingen af dem skyldes ophobning af dermatansulfat eller mangel på sulfatase.
-- Medfødt Horners syndrom skyldes afbrydelse af den okulosympatiske bane. Galsulfase er et stort enzym givet intravenøst og forventes ikke at påvirke sympatisk innervation.
-- Den høje score skyldes sandsynligvis en artefakt i vidensgrafen, hvor sjældne sygdomme ligger tæt på hinanden i tætte, men sparsomt dokumenterede netværk.
+Øvrige forudsigelser med tilsvarende lav biologisk plausibilitet (alle evidensniveau L5, anbefaling Hold):
 
-Forudsigelserne bør derfor ikke tolkes som et reelt behandlingssignal.
+| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Camptodactyly, myopi og fibrose af øjets mediale rectusmuskel | 97,87 % | Ingen dokumenteret sammenhæng; enzymerstatning forventes ikke at påvirke en ikke-lysosomal lidelse |
+| Medfødt Horners syndrom | 97,84 % | Skyldes forstyrrelse af den okulosympatiske bane; galsulfase har ingen kendt virkning her |
+| Ptosis-stemmebåndslammelse-syndrom | 97,83 % | Sandsynligvis neuromuskulær eller kranienerve-udviklingsmæssig årsag |
+| Ptosis-begrænset opadgående blik-manglende tåreprik-syndrom | 97,67 % | Sandsynligvis udviklingsmæssig misdannelse uden kobling til arylsulfatase B |
 
----
-
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
-## Evidens fra litteraturen
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
----
+## Information om det danske marked
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103764605 | Naglazyme (BioMarin International Limited) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
-
----
+| 28103764605 | Naglazyme (BioMarin International Limited) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet |
 
 ## Sikkerhedsovervejelser
 
-Der er ingen interaktionsdata for galsulfase i datagrundlaget (ingen fund ved søgning).
-
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
----
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen (L5) uden kliniske forsøg eller publikationer, og der er ingen plausibel mekanistisk sammenhæng mellem dermatansulfat-nedbrydning og de forudsagte øjen- og nervesyndromer. Sikkerhedsdata fra den danske produktinformation mangler desuden.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, litteratur eller en plausibel biologisk mekanisme. Galsulfase er en enzymerstatning målrettet MPS VI, og de forudsagte lidelser har ikke kendt tilknytning til denne patologi.
 
 **For at komme videre kræves følgende:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Detaljerede data om virkningsmekanisme (f.eks. fra DrugBank)
-- Præklinisk eller mekanistisk evidens, der kan underbygge en sammenhæng med de foreslåede sygdomme
-- Vurdering af, om forudsigelserne blot er en artefakt i vidensgrafen, før der investeres yderligere ressourcer
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) og en biologisk begrundelse for en eventuel sammenhæng mellem arylsulfatase B/glykosaminoglykaner og de forudsagte lidelser
+- Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer, da disse data mangler
+- Litteratur- og forsøgssøgning samt eventuelle præklinisk støttende data, før en evaluering kan fortsætte
+- Afklaring af administrationsvejs-kompatibilitet (kun intravenøs infusion er tilgængelig)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

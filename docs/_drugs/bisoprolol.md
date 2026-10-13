@@ -2,7 +2,7 @@
 layout: default
 title: Bisoprolol
 parent: Kun modelforudsigelse (L5)
-nav_order: 69
+nav_order: 122
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bisoprolol: Fra en ikke angivet oprindelig indikation til malign renovaskulær hypertension
+# Bisoprolol: Fra hypertension til malign renovaskulær hypertension
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Bisoprolol er en beta-1-selektiv betablokker, og i det foreliggende datagrundlag er den oprindelige indikation ikke angivet. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension**. Forudsigelsen er ikke understøttet af nogen **kliniske forsøg** eller **publikationer**, så den er foreløbig kun et forskningsspørgsmål.
+Bisoprolol er en selektiv beta-1-blokker, som oprindeligt anvendes til behandling af hypertension (forhøjet blodtryk).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension**, men der er **0 kliniske forsøg** og **0 publikationer** specifikt for denne indikation.
+Forudsigelsen er derfor udelukkende modelbaseret, og indikationen overlapper i høj grad med den allerede godkendte.
 
 ---
 
@@ -41,27 +43,23 @@ Bisoprolol er en beta-1-selektiv betablokker, og i det foreliggende datagrundlag
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i den danske registrering (indikationsteksten er tom) |
+| Oprindelig indikation | Hypertension (hypertensive lidelser). Godkendelsesteksten for det danske markedsføringstilladelse er ikke angivet i de indsamlede data. |
 | Forudsagt ny indikation | Malign renovaskulær hypertension |
 | TxGNN-forudsigelsesscore | 99,94 % |
-| Evidensniveau | L5 (kun modelforudsigelse; pipelinens scoring angiver L4 på baggrund af generel farmakologi) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
+
+Andre forudsigelser i de data, der er indsamlet til rapporten, omfatter malign hypertensiv nyresygdom, pulmonal hypertension (to undertyper) og Braddocks syndrom. Alle har evidensniveau L5, bortset fra pulmonal hypertension som følge af lungesygdom og/eller hypoxi (L4, kun indirekte evidens). Denne rapport fokuserer på den højest rangerede forudsigelse.
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i evidenspakken. Ud fra almindelig farmakologi er bisoprolol en beta-1-selektiv blokker med blodtrykssænkende effekt. Den nedsætter hjertefrekvens og minutvolumen og hæmmer frigivelsen af renin. Hæmning af renin kan have betydning ved renovaskulær hypertension, hvor reninsystemet ofte er aktiveret.
+Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Bisoprolol er imidlertid kendt som en selektiv beta-1-adrenerg receptorblokker. Ved at sænke hjertefrekvens, minutvolumen og reninfrigivelse kan den sænke blodtrykket. Reninmedieret hypertension, som ses ved renovaskulær sygdom, er derfor et rationelt mål for beta-blokade.
 
-Forudsigelsen afspejler sandsynligvis primært, at lægemidlet ligner andre midler godkendt til hypertension. Malign hypertension behandles dog normalt med andre lægemiddelklasser. Koblingen bygger på almen farmakologi og ikke på de leverede data. For malign hypertensiv nyresygdom (samme score) er der ingen evidens for effekt på nyreudfald.
-
-Modellen foreslår også andre indikationer, men med endnu svagere grundlag:
-- **Pulmonal hypertension** (flere former, score ca. 99,93 %): Der er ingen understøttet mekanistisk kobling. Systemisk betablokade har ingen etableret rolle ved pulmonal vaskulær sygdom, og den negative inotrope effekt kan være et problem ved højre ventrikel-dysfunktion. De hentede publikationer om hypoxi handler om hjernealdring, kræft, keloider og højdesygdom. Ingen af dem nævner bisoprolol eller pulmonal hypertension, så de ser ud som søgeordstræf.
-- **Braddock-syndrom** (score ca. 99,91 %): Der er ingen plausibel mekanistisk kobling, og scoren er sandsynligvis en artefakt i vidensgrafen.
-
-Duplikerede poster i datagrundlaget er slået sammen.
+Malign renovaskulær hypertension er en svær form eller undertype af den hypertension, som bisoprolol allerede er godkendt til. Der er ingen forsøg eller litteratur specifikt for tilstanden, og støtten består alene af modelscoren (0,999). Det bør desuden bemærkes, at malign hypertension er en hypertensiv akut tilstand, som normalt behandles med intravenøse lægemidler, og at renovaskulær sygdom ofte kræver revaskularisering eller RAAS-rettet behandling. Der er derfor ikke tale om en reelt ny repurposing-mulighed.
 
 ---
 
@@ -73,21 +71,26 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for den primære forudsagte indikation. Litteraturen, der blev hentet til pulmonal hypertension, er irrelevant (generelle hypoxi-artikler uden omtale af bisoprolol) og er derfor ikke medtaget som evidens.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
+
+*Til orientering: For pulmonal hypertension som følge af lungesygdom og/eller hypoxi blev der fundet indirekte litteratur (bl.a. [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/), en oversigtsartikel fra 2009 om beta-blokkeres respiratoriske effekter ved hjertesvigt, og [23506636](https://pubmed.ncbi.nlm.nih.gov/23506636/), CARNEBI-studiet fra 2013, der sammenligner carvedilol, nebivolol og bisoprolol ved hjertesvigt). Ingen af dem undersøger pulmonal hypertension hos patienter, og evidensen understøtter ikke effekt i den indikation.*
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107099823 | Cardovia | Filmovertrukne tabletter (oral) | STADA Arzneimittel AG |
+| 28107099823 | Cardovia (STADA Arzneimittel AG) | Filmovertrukne tabletter | Indikationstekst ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen oplysninger om interaktioner i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer fra videnbasen (ikke produkttekst):** Videnbasen over lægemiddel-sygdomsrelationer angiver bl.a. astma (inkl. allergisk og intrinsisk), diabetes mellitus og diabetisk ketoacidose, leversygdom, nyresygdom, pancreatitis, myasthenia gravis, psoriasis, systemisk lupus erythematosus, urinsyregigt, anuri, hyperparathyroidisme, hypercalcæmi samt angst- og neurotiske lidelser. Listen stammer fra en vidensgraf og er ikke hentet fra produktresuméet, så den skal verificeres mod det godkendte produktresumé.
+- **Lægemiddelinteraktioner:** 100 interaktioner blev identificeret. De fleste af de viste er af moderat sværhedsgrad, bl.a. med adrenalin (epinefrin), hydrocortison, dexamethason, betamethason, budesonid, triamcinolon, morfin, bupropion, atropin, hyoscyamin, methscopolamin, acetohexamid og calciumsalte. Interaktion med acetylsalicylsyre, aluminiumhydroxid og attapulgit er klassificeret som mindre.
+
+Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -96,16 +99,14 @@ Der foreligger ingen oplysninger om interaktioner i evidenspakken. Se det godken
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller relevant litteratur. Mekanismen er kun indirekte plausibel, og malign hypertension behandles normalt med andre lægemiddelklasser. Sikkerhedsdata fra den danske produktinformation mangler, hvilket blokerer det videre sikkerhedsscreeningstrin.
+Forudsigelsen bygger kun på en modelscore uden kliniske forsøg eller specifik litteratur (evidensniveau L5). Indikationen er en alvorlig form af den allerede godkendte indikation og behandles typisk med andre midler, så den udgør ikke en selvstændig repurposing-mulighed.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af advarsler og kontraindikationer fra produktresuméet (Lægemiddelstyrelsen)
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Oplysning om den godkendte oprindelige indikation for Cardovia
-- Målrettet litteratursøgning (bisoprolol/betablokkere ved renovaskulær eller malign hypertension) samt en vurdering af, om etablerede behandlinger allerede dækker behovet
-- Vurdering af administrationsvej og klinisk relevans, som endnu ikke er foretaget
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer) fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratursøgning og registersøgning efter forsøg specifikt for malign og renovaskulær hypertension
+- Afklaring af, om indikationen adskiller sig klinisk fra den eksisterende hypertensionsindikation
+- Vurdering af dosering ved nedsat nyrefunktion
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

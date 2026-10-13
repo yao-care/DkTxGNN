@@ -2,7 +2,7 @@
 layout: default
 title: Bimatoprost
 parent: Kun modelforudsigelse (L5)
-nav_order: 65
+nav_order: 116
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bimatoprost: Fra topisk øjenlægemiddel til malformationssyndrom med tand- og/eller parodontal komponent
+# Bimatoprost: Fra glaukom til misdannelsessyndrom med tand- og/eller parodontalkomponent
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Bimatoprost er en aktiv substans i et registreret dansk produkt i form af øjendråber. Den danske registrering angiver ikke en godkendt indikation i de tilgængelige data. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **malformationssyndrom med odontal og/eller parodontal komponent**. Forudsigelsen støttes af **0 kliniske forsøg** og **20 publikationer**, der er generelle artikler om parodontitis. Ingen af dem omtaler bimatoprost, så evidensen er reelt kun modelbaseret.
+Bimatoprost er et prostamid/prostaglandin F2-alfa-analog, der oprindeligt anvendes til åbenvinklet glaukom, okulær hypertension og hypotrikose i øjenvipperne.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **misdannelsessyndrom med tand- og/eller parodontalkomponent**,
+men der er **ingen kliniske forsøg** og **ingen publikationer**, der støtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,9 +43,9 @@ Bimatoprost er en aktiv substans i et registreret dansk produkt i form af øjend
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering |
-| Foreslået ny indikation | Malformationssyndrom med odontal og/eller parodontal komponent |
-| TxGNN-forudsigelsesscore | 99,997 % |
+| Oprindelig indikation | Åbenvinklet glaukom, okulær hypertension, hypertrikose i øjenlåg (fra vidensgrafen; godkendt indikationstekst for det danske produkt er ikke angivet i de indsamlede data) |
+| Foreslået ny indikation | Misdannelsessyndrom med tand- og/eller parodontalkomponent |
+| TxGNN-prædiktionsscore | 99,997 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,54 +53,44 @@ Bimatoprost er en aktiv substans i et registreret dansk produkt i form af øjend
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om bimatoprosts virkningsmekanisme. Bimatoprost er en prostaglandinanalog, der i Danmark er registreret som øjendråber. En mekanistisk sammenhæng med den foreslåede indikation kan ikke underbygges ud fra de foreliggende data.
+Der er ikke fundet en troværdig mekanistisk sammenhæng. Bimatoprost er et prostamid/prostaglandin F2-alfa-analog, som sænker det intraokulære tryk og stimulerer hårsækvækst via FP-receptorrelaterede signalveje. Intet i denne aktivitet forbinder lægemidlet med den udviklingsmæssige patologi ved tand- eller parodontalmisdannelser.
 
-De 20 publikationer i evidenspakken handler om parodontitis generelt, fx behandlingsretningslinjer, mikrobiologi, sammenhæng med diabetes og kirurgiske teknikker. Ingen af dem omtaler bimatoprost eller andre prostaglandin F2-alfa-analoger. En eventuel rolle for FP-receptoren i gingivale fibroblaster eller knogleremodellering er derfor spekulativ. Den høje modelscore er alene en forudsigelse fra en videngraf og bør ikke tolkes som klinisk evidens.
+Den meget høje TxGNN-score (0,99997) er alene en forudsigelse fra en vidensgraf. Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen (MOA) i de indsamlede data, så scoren kan ikke kontrolleres mod kendt farmakologi. Resultatet skyldes sandsynligvis netværksartefakter i grafen frem for en reel terapeutisk begrundelse.
 
-Blandt de øvrige forudsigelser er to værd at bemærke:
-- **Hypotrichosis simplex i hovedbunden** er biologisk plausibel, men indirekte. Bimatoprosts kendte effekt på hårfollikler (forlænget anagenfase) taler for, men den viden kommer fra uden for evidenspakken. Der er ingen forsøg eller litteratur, og forudsigelsen er klassificeret som L4 og et forskningsspørgsmål.
-- **Ambras-type hypertrichosis universalis congenita** er problematisk, fordi sygdommen er kendetegnet ved overdreven hårvækst, og bimatoprost fremmer hårvækst. Et terapeutisk udbytte er biologisk kontraintuitivt, og en mulig uønsket effekt bør overvejes.
+**Andre forudsigelser i listen:** Modellen foreslog også syndrom med Dandy-Walker-malformation som hovedtræk, isoleret genetisk hårskaftsabnormitet, Ambras-type hypertrichosis universalis congenita og hypotrichosis simplex af hovedbunden. Ingen af dem har kliniske forsøg eller litteratur. Den mest biologisk plausible er **hypotrichosis simplex af hovedbunden** (score 99,996 %), fordi bimatoprost er godkendt til hypotrikose i øjenvipper og forlænger hårsækkenes vækstfase. Det er en slutning ud fra den kendte indikation og ikke dokumenteret evidens. Ved Ambras-syndrom (overdreven behåring) peger sammenhængen i modsat retning, og lægemidlet kunne i teorien forværre tilstanden.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-Nedenfor er de 10 mest relevante publikationer. Ingen af dem undersøger bimatoprost. De beskriver alle parodontitis generelt.
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [35420698](https://pubmed.ncbi.nlm.nih.gov/35420698/) | 2022 | Systematisk review | Cochrane Database Syst Rev | Behandling af parodontitis og betydning for blodsukkerkontrol hos personer med diabetes |
-| [35688447](https://pubmed.ncbi.nlm.nih.gov/35688447/) | 2022 | Klinisk retningslinje | J Clin Periodontol | EFP S3-retningslinje for behandling af stadie IV-parodontitis |
-| [29291254](https://pubmed.ncbi.nlm.nih.gov/29291254/) | 2018 | Systematisk review | Cochrane Database Syst Rev | Understøttende parodontal behandling til at bevare tandsættet hos voksne behandlet for parodontitis |
-| [22057194](https://pubmed.ncbi.nlm.nih.gov/22057194/) | 2012 | Review | Diabetologia | Toveisrelation mellem parodontitis og diabetes; diabetes øger risikoen for parodontitis ca. tre gange |
-| [37435999](https://pubmed.ncbi.nlm.nih.gov/37435999/) | 2023 | Review | Periodontology 2000 | Komplikationer og behandlingsfejl ved regenerativ parodontal kirurgi |
-| [36883660](https://pubmed.ncbi.nlm.nih.gov/36883660/) | 2023 | Review | J Dent Res | Gingivale fibroblasters rolle i patogenesen af parodontitis |
-| [38907216](https://pubmed.ncbi.nlm.nih.gov/38907216/) | 2024 | Review | J Nanobiotechnol | Biomateriale-medieret makrofagimmunterapi som ny retning i behandling af parodontitis |
-| [29193334](https://pubmed.ncbi.nlm.nih.gov/29193334/) | 2018 | Review | Periodontology 2000 | Sammenligning af peri-implantært og parodontalt blødt væv ved sundhed og sygdom |
-| [38362600](https://pubmed.ncbi.nlm.nih.gov/38362600/) | 2024 | Klinisk undersøgelse (n = 47) | J Dent Res | Oral og tarmens mikrobiota før og efter parodontalbehandling ved stadie III/IV-parodontitis |
-| [9495612](https://pubmed.ncbi.nlm.nih.gov/9495612/) | 1998 | Observationel (mikrobiologi) | J Clin Periodontol | Mikrobielle komplekser i subgingival plak hos 185 personer |
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105564415 | Bimatoprost "Pharmathen" (Pharmathen S.A.) | Øjendråber, opløsning | Ikke angivet i data |
+| 28105564415 | Bimatoprost "Pharmathen" (Pharmathen S.A.) | Øjendråber, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet data om interaktioner for bimatoprost. Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og interaktioner.
+Oplysninger fra produktresuméet om advarsler og kontraindikationer var ikke tilgængelige i de indsamlede data. Vær opmærksom på, at dette udgør en væsentlig datamangel for sikkerhedsvurderingen.
+
+- **Kontraindikationer/forsigtighed fra vidensgrafen** (ikke fra produkttekst): leversygdom, galdeblæresygdom, uveitis, iris-sygdom, ciliærlegemesygdom, panuveitis, makulært nethindeødem, cystoidt makulaødem og iritis.
+- **Lægemiddelinteraktioner:** 66 mulige interaktioner er identificeret i DDInter, men alle er uden klassificeret sværhedsgrad. Eksempler: calcitriol, phentermin, pantoprazol, morfin, metformin, omeprazol, palonosetron, rosiglitazon, lansoprazol, vancomycin, simvastatin, prednison, prednisolon og ondansetron.
+
+Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -107,15 +99,13 @@ Der er ikke fundet data om interaktioner for bimatoprost. Se det godkendte produ
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen bygger udelukkende på en modelscore (L5). Der er ingen kliniske forsøg, og ingen af de tilknyttede publikationer omtaler bimatoprost. Der er heller ingen identificeret mekanistisk sammenhæng, og forudsigelsen er sandsynligvis en artefakt fra videngrafen.
+Forudsigelsen er udelukkende modelbaseret (L5), uden kliniske forsøg eller litteratur og uden plausibel mekanistisk forbindelse mellem bimatoprost og tand-/parodontalmisdannelser. Sikkerhedsdata fra produktresuméet mangler desuden.
 
-**For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation. Manglen på disse data blokerer i øjeblikket sikkerhedsscreeningen.
-- Data om virkningsmekanisme, fx fra DrugBank.
-- En målrettet litteratursøgning på bimatoprost og prostaglandin F2-alfa-analoger i relation til parodontale og tandrelaterede tilstande.
-- Om hårrelaterede indikationer ønskes belyst: en målrettet litteratursøgning og prækliniske follikelundersøgelser. Ambras-type hypertrichosis bør vurderes som en mulig sikkerhedsbekymring og ikke som en kandidat.
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanismen (MOA) fra DrugBank
+- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Systematisk litteratursøgning, især om topikale prostaglandinanaloger ved hypotrichosis simplex af hovedbunden som den mest plausible alternative kandidat
+- Vurdering af administrationsvej, da øjendråber næppe er egnede til tand- eller parodontale tilstande
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

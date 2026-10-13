@@ -2,7 +2,7 @@
 layout: default
 title: Natalizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 306
+nav_order: 577
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Natalizumab: Fra multipel sklerose til bronkitis
+# Natalizumab: Fra Crohns sygdom og multipel sklerose til bronkitis
 
-## Resumé i én sætning
+## Resumé
 
-Natalizumab er et monoklonalt antistof, som ifølge litteraturen i datapakken anvendes til behandling af multipel sklerose. TxGNN-modellen forudsiger, at det kan være effektivt mod **bronkitis**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne specifikke forudsigelse. Forudsigelsen er derfor udelukkende modelbaseret.
+Natalizumab er et monoklonalt antistof, der oprindeligt anvendes til behandling af Crohns sygdom, inflammatorisk tarmsygdom og multipel sklerose.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **bronkitis**,
+men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Den er udelukkende beregningsbaseret.
 
 ---
 
@@ -41,7 +43,7 @@ Natalizumab er et monoklonalt antistof, som ifølge litteraturen i datapakken an
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datapakken (litteraturen beskriver brug ved multipel sklerose) |
+| Oprindelig indikation | Crohns sygdom, inflammatorisk tarmsygdom, multipel sklerose (angivet i vidensgrafen; indikationsteksten i den danske tilladelse er tom) |
 | Forudsagt ny indikation | Bronkitis |
 | TxGNN-forudsigelsesscore | 99,46 % |
 | Evidensniveau | L5 |
@@ -53,62 +55,42 @@ Natalizumab er et monoklonalt antistof, som ifølge litteraturen i datapakken an
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede mekanismedata fra DrugBank. Natalizumab blokerer alfa-4-integrin og dermed leukocytternes migration ind i væv. Det er biologisk plausibelt ved inflammatoriske tilstande.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Natalizumab er kendt for at blokere alfa-4-integrin-medieret transport af leukocytter (hvide blodlegemer) ind i væv. Denne mekanisme er relevant ved de oprindelige indikationer, hvor betændelsesceller trænger ind i henholdsvis tarm og centralnervesystem.
 
-Bronkitis er dog oftest infektiøs eller selvlimiterende. Immunsuppression kan øge risikoen for luftvejsinfektioner, så der er ikke noget underbygget argument for, at natalizumab skulle gavne ved bronkitis. Den høje score afspejler sandsynligvis nærhed i modellens netværk snarere end en dokumenteret terapeutisk effekt.
-
-Pakken indeholder yderligere forudsigelser. Bemærk, at flere indikationer optræder to gange med identiske data:
-
-- **Psoriasis** (score 99,19 %, L4) har den stærkeste evidens. Den er modstridende: flere case-rapporter beskriver natalizumab-induceret eller forværret psoriasis, mens én rapport fra 2021 beskriver bedring hos 18 patienter med både MS og psoriasis.
-- **Parapsoriasis** og **akut lichenoid pityriasis** (L4) bygger kun på én case-rapport om bivirkninger, ikke om behandlingseffekt.
-- **Svær non-proliferativ diabetisk retinopati** (L5) er kun en modelforudsigelse. Anti-VEGF og laser er standardbehandling.
+Den mekanistiske tanke bag forudsigelsen er, at en reduceret rekruttering af inflammatoriske celler til luftvejsvæv teoretisk kunne dæmpe bronkitis. Der er dog hverken kliniske eller litteraturbaserede holdepunkter for dette, og lægemidlets immunsupprimerende virkning kan tværtimod øge risikoen for luftvejsinfektioner. TxGNN-scoren (0,995) er en ren beregningsmæssig forudsigelse.
 
 ---
 
-## Klinisk forsøgsevidens
+## Evidens fra kliniske forsøg
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret, hverken for bronkitis eller for de øvrige forudsagte indikationer.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-For bronkitis foreligger der ingen relateret litteratur.
-
-Til sammenligning er herunder de mest relevante publikationer for den næstplacerede indikation, psoriasis:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [33589543](https://pubmed.ncbi.nlm.nih.gov/33589543/) | 2021 | Observationel/case-serie (design skal verificeres) | Neurol Neuroimmunol Neuroinflamm | Bedring af samtidig psoriasis hos 18 MS-patienter behandlet med natalizumab |
-| [40526577](https://pubmed.ncbi.nlm.nih.gov/40526577/) | 2025 | Review | Dtsch Arztebl Int | Behandlingsmuligheder ved MS med samtidige kroniske inflammatoriske sygdomme, bl.a. psoriasis |
-| [35646438](https://pubmed.ncbi.nlm.nih.gov/35646438/) | 2022 | Case-rapport | Dermatol Pract Concept | Natalizumab-induceret pustulær psoriasis på håndflader og fodsåler |
-| [28905124](https://pubmed.ncbi.nlm.nih.gov/28905124/) | 2018 | Case-rapport + review | Neurol Sci | Artritisk psoriasis under natalizumab-behandling |
-| [30323758](https://pubmed.ncbi.nlm.nih.gov/30323758/) | 2018 | Case-rapport + review | Case Rep Neurol | Plaque-psoriasis opstået under natalizumab. Spørgsmålet om induktion eller forværring diskuteres |
-| [23096069](https://pubmed.ncbi.nlm.nih.gov/23096069/) | 2012 | Case-rapport | J Neurol | Alvorlig forværring af psoriasis med lægemiddelresistent forløb under natalizumab |
-| [28765121](https://pubmed.ncbi.nlm.nih.gov/28765121/) | 2018 | Review | Ann Rheum Dis | Nye behandlinger af immunmedierede inflammatoriske sygdomme, herunder psoriasis |
-| [19184539](https://pubmed.ncbi.nlm.nih.gov/19184539/) | 2009 | Review | Immunol Res | Leukocytintegriner og deres terapeutiske potentiale ved bl.a. psoriasis og MS |
-| [25448040](https://pubmed.ncbi.nlm.nih.gov/25448040/) | 2015 | Review | Pharmacol Ther | Leukocytintegrinernes rolle i leukocytrekruttering og som terapeutiske mål |
-| [15955735](https://pubmed.ncbi.nlm.nih.gov/15955735/) | 2005 | Review | Curr Opin Pharmacol | Anti-adhæsionsterapier rettet mod celleadhæsionsmolekyler |
-
-Evidensen for parapsoriasis og akut lichenoid pityriasis består af én case-rapport: [32470781](https://pubmed.ncbi.nlm.nih.gov/32470781/) (2020, Clin Neurol Neurosurg), som beskriver usædvanlige dermatologiske bivirkninger under fingolimod og natalizumab hos en MS-patient.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for bronkitis.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106803822 | Tyruko (Sandoz GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke oplyst i datapakken |
+| 28106803822 | Tyruko (Sandoz GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Progressiv multifokal leukoencefalopati (PML):** Flere reviews i datapakken beskriver PML forårsaget af JC-virus som en alvorlig og ofte dødelig komplikation ved natalizumab (fx PMID 19647202, 20298966, 36283150).
-- **Hudreaktioner:** Der er rapporteret induceret eller forværret psoriasis (pustulær, artritisk) og andre usædvanlige dermatologiske bivirkninger under natalizumab.
-- **Infektionsrisiko:** Immunsuppression kan øge risikoen for luftvejsinfektioner, hvilket er særligt relevant ved bronkitis.
+- **Kontraindikationer (fra vidensgrafen, ikke produktresuméet)**: Progressiv multifokal leukoencefalopati (PML).
+- **Lægemiddelinteraktioner**: Der er identificeret 100 interaktioner. Blandt de vigtigste:
+  - **Alvorlige (Major)**: Kortikosteroider (hydrokortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison), mercaptopurin, levamisol, trimetrexat samt radioaktive lægemidler og radioimmunoterapi (iobenguan I-131, ibritumomab tiuxetan, tositumomab).
+  - **Moderate**: Naltrexon.
+  - **Milde (Minor)**: Zinksalte (sulfat, acetat, gluconat, chlorid).
+- **Øvrige forhold**: Immunsuppression kan øge risikoen for luftvejsinfektioner, hvilket er særligt relevant ved en luftvejsindikation.
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datapakken. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -117,15 +99,24 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i datapakken. Se i øvr
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for bronkitis er kun modelbaseret (L5), uden kliniske forsøg eller litteratur, og der er ikke noget plausibelt gavnligt virkningsprincip. Immunsuppression kan tværtimod øge infektionsrisikoen. For psoriasis, den indikation med mest evidens, er signalet modstridende og case-baseret og kræver først en vurdering af sikkerhed og effektretning.
+Forudsigelsen for bronkitis bygger udelukkende på en beregningsmodel uden kliniske forsøg eller publikationer (evidensniveau L5). Den kendte PML-risiko og den immunsupprimerende virkning gør forholdet mellem fordele og risici ugunstigt for en indikation som bronkitis.
 
-**For at komme videre skal følgende foreligge:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og den godkendte indikation
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- For psoriasis: verifikation af designet i PMID 33589543 og en struktureret vurdering af, om natalizumab bedrer eller udløser sygdommen, før der overvejes effektstudier
-- For bronkitis: præklinisk eller klinisk belæg, før indikationen overvejes igen
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanismen (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra det danske produktresumé (SmPC)
+- Præklinisk eller mekanistisk understøttelse af, at alfa-4-integrinblokade er relevant ved bronkitis
+- En vurdering af infektionsrisikoen ved en luftvejsindikation
 
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+---
+
+## Andre forudsagte indikationer (til orientering)
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling | Kommentar |
+|------|------|------|------|------|
+| Parapsoriasis | 99,37 % | L4 | Hold | Kun én case-rapport (PMID 32470781), som beskriver en hudbivirkning, ikke en terapeutisk effekt |
+| Psoriasis | 99,19 % | L4 | Forskningsspørgsmål | Modstridende litteratur: en serie på 18 patienter viser bedring (PMID 33589543), mens flere case-rapporter beskriver udløsning eller forværring |
+| Svær non-proliferativ diabetisk retinopati | 99,18 % | L5 | Hold | Ingen evidens; PML-risiko gør risiko-nytte-forholdet ugunstigt |
+| Akut lichenoid pityriasis | 99,04 % | L4 | Hold | Kun den samme case-rapport (PMID 32470781), som beskriver en bivirkning |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

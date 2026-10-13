@@ -2,7 +2,7 @@
 layout: default
 title: Vildagliptin
 parent: Kun modelforudsigelse (L5)
-nav_order: 473
+nav_order: 886
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,9 +31,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Vildagliptin: Fra type 2-diabetes til klassisk stiff person-syndrom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Vildagliptin er en DPP-4-hæmmer, som er markedsført i Danmark under navnet Galvus. Den er kendt som behandling af type 2-diabetes. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **klassisk stiff person-syndrom**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er derfor kun en modelbaseret hypotese.
+Vildagliptin er et lægemiddel, der oprindeligt anvendes til behandling af type 2-diabetes mellitus. TxGNN-modellen forudsiger, at det kan have effekt på **klassisk stiff person-syndrom** (og den beslægtede variant fokalt stiff limb-syndrom), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er derfor udelukkende baseret på modelberegning.
 
 ---
 
@@ -41,7 +41,7 @@ Vildagliptin er en DPP-4-hæmmer, som er markedsført i Danmark under navnet Gal
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i Evidence Pack (indikationsteksten i den danske registrering er tom). Vildagliptin er generelt kendt som behandling af type 2-diabetes |
+| Oprindelig indikation | Type 2-diabetes mellitus (indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Klassisk stiff person-syndrom |
 | TxGNN-forudsigelsesscore | 99,88 % |
 | Evidensniveau | L5 |
@@ -51,44 +51,59 @@ Vildagliptin er en DPP-4-hæmmer, som er markedsført i Danmark under navnet Gal
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor kan forudsigelsen give mening?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Vildagliptin hæmmer enzymet DPP-4 og bruges til at regulere blodsukkeret. Dets effekt ved type 2-diabetes er veletableret, men der er ikke grundlag for at vurdere mekanistisk, om det kan anvendes ved stiff person-syndrom.
+De data, der er indsamlet til denne rapport, indeholder ingen oplysninger om lægemidlets virkningsmekanisme. Vildagliptin er kendt som en hæmmer af enzymet dipeptidylpeptidase-4 (DPP-4), og dette understøttes af farmakologidata, der også viser binding til DPP-8 og DPP-9 samt TRPV4. Hæmning af DPP-4 øger niveauet af inkretinhormoner og sænker dermed blodsukkeret ved type 2-diabetes.
 
-Stiff person-syndrom er en sjælden, overvejende autoimmun neurologisk lidelse, ofte forbundet med anti-GAD65-antistoffer. Det eneste, der er foreslået, er et spekulativt link via immunmodulation af denne autoimmune patologi. Det er ikke et valideret forhold, og der er ikke fremlagt forsøgs- eller litteraturdata til støtte. Scoren afspejler sandsynligvis, at sygdommen ligger tæt på andre sygdomme i vidensgrafen, og ikke en påvist terapeutisk sammenhæng.
+Stiff person-syndrom er en sjælden autoimmun neurologisk lidelse, der er forbundet med forstyrret GABAerg signaloverførsel (typisk anti-GAD65-antistoffer). Der er ikke noget etableret mekanistisk led mellem DPP-4-hæmning eller inkretinsystemet og denne sygdom. En eventuel sammenhæng er derfor spekulativ. Fokalt stiff limb-syndrom betragtes som en variant inden for samme sygdomsspektrum og har samme spekulative begrundelse.
 
-TxGNN gav også høje scorer (99,79-99,88 %) til andre sygdomme. De er alle på evidensniveau L5 med anbefalingen Hold:
+Den høje score (99,88 %) er et rent modelresultat og bør ikke tolkes som klinisk evidens.
 
-- **Focal stiff limb syndrome:** tilhører sandsynligvis samme sygdomsgruppe som stiff person-syndrom i grafen. Der er ingen direkte mekanisme.
-- **Thiamine-responsive dysfunction syndrome:** muligvis en graf-association til diabetes eller glukosestofskifte. Mekanismen er ikke valideret.
-- **Opsismodysplasia:** en sjælden skeletdysplasi, hvor der ikke kunne identificeres nogen plausibel DPP-4-mekanisme.
-- **Drug-induced localized lipodystrophy:** associationen skyldes sandsynligvis confounding by indication, fordi lokal lipodystrofi ofte ses hos patienter i injektionsbehandling for diabetes. Den tyder ikke på en terapeutisk effekt.
+**Øvrige forudsagte indikationer** (alle med samme score-niveau, evidensniveau L5 og ingen forsøg eller publikationer):
+
+| Forudsagt indikation | TxGNN-score | Bemærkning |
+|------|------|------|
+| Fokalt stiff limb-syndrom | 99,88 % | Variant inden for stiff person-spektret |
+| Thiaminresponsivt dysfunktionssyndrom | 99,87 % | Sjælden genetisk forstyrrelse af thiaminstofskiftet; ingen kendt forbindelse til vildagliptin |
+| Opsismodysplasi | 99,86 % | Sjælden skeletdysplasi (INPPL1-mutationer, insulin/PI3K-signalering); en indirekte forbindelse er tænkelig, men ikke understøttet |
+| Lægemiddelinduceret lokaliseret lipodystrofi | 99,79 % | Løs konceptuel forbindelse til stofskifteforstyrrelser; vildagliptins rolle er uklar |
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger i øjeblikket ingen relateret litteratur.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103990706 | Galvus (Novartis Europharm Limited) | Tabletter | Ikke angivet i datagrundlaget |
+| 28103990706 | Galvus (Novartis Europharm Limited) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+Produktet er et monopræparat med gyldig status og er til oral anvendelse.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i Evidence Pack, og der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Interaktionsforespørgslen er gennemført. Der blev ikke fundet interaktioner med andre lægemidler, men farmakologidata viser følgende molekylære mål for vildagliptin:
+
+- Dipeptidylpeptidase 4 (DPP-4), det primære terapeutiske mål
+- Dipeptidylpeptidase 8 (DPP-8)
+- Dipeptidylpeptidase 9 (DPP-9)
+- TRPV4
+
+Hæmning af DPP-8/DPP-9 og binding til TRPV4 er relevant at have in mente ved vurdering af eventuelle uventede virkninger i en ny patientgruppe.
+
+Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -97,16 +112,14 @@ Der foreligger ingen sikkerhedsdata i Evidence Pack, og der er ikke fundet regis
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg, litteratur eller en dokumenteret mekanisme. Sikkerhedsdata mangler desuden, og det blokerer for en egentlig sikkerhedsscreening.
+Forudsigelsen er udelukkende baseret på modelberegning (evidensniveau L5). Der findes hverken kliniske forsøg eller publikationer, og der er ingen plausibel, dokumenteret mekanistisk forbindelse mellem DPP-4-hæmning og stiff person-syndrom. Desuden mangler sikkerhedsoplysninger fra produktresuméet, hvilket udgør en blokerende datamangel for videre sikkerhedsscreening.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Indhent data om virkningsmekanismen (MOA), fx via DrugBank
-- Lav en systematisk litteratur- og forsøgssøgning på vildagliptin eller DPP-4-hæmmere ved stiff person-syndrom og relaterede autoimmune neurologiske lidelser
-- Vurder den mekanistiske sammenhæng mellem DPP-4-hæmning og anti-GAD65-relateret autoimmunitet
-- Afklar administrationsvej og populationsspecifikke forhold, som ikke er vurderet endnu
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+- Hentning og gennemgang af produktresuméet (SmPC) for Galvus med advarsler, kontraindikationer og godkendt indikationstekst
+- Fuldstændige mekanismedata for vildagliptin (fx fra DrugBank)
+- Litteratursøgning og søgning i forsøgsregistre efter sammenhæng mellem DPP-4-hæmning/inkretinveje og stiff person-syndrom (herunder autoimmunitet og GABAerg signalering)
+- Prækliniske data eller mekanistiske studier, der kan understøtte hypotesen, før et klinisk forsøg overvejes
+- Vurdering af, om forudsigelsen er biologisk meningsfuld, da modellen giver næsten ens høje scorer for flere indbyrdes uafhængige sjældne sygdomme
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

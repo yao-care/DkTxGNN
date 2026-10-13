@@ -2,7 +2,7 @@
 layout: default
 title: Sparsentan
 parent: Kun modelforudsigelse (L5)
-nav_order: 409
+nav_order: 772
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sparsentan: Fra [ikke angivet i datagrundlaget] til alopeci
+# Sparsentan: Fra nyresygdom til alopeci
 
-## Resumé
+## Opsummering
 
-Sparsentan markedsføres i Danmark som Filspari (filmovertrukne tabletter). Datagrundlaget angiver ikke den oprindelige indikation. Generelt er stoffet kendt som en dobbelt antagonist af endothelin type A- og angiotensin II type 1-receptorer. TxGNN-modellen forudsiger, at det kan have effekt ved **alopeci** (hårtab), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
+Sparsentan er en dobbelt receptorantagonist (endothelin type A og angiotensin II type 1), som er udviklet til behandling af primære glomerulære nyresygdomme såsom IgA-nefropati og fokal segmental glomerulosklerose (FSGS).
+TxGNN-modellen forudsiger, at lægemidlet muligvis kan have effekt ved **alopeci**,
+men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,7 +43,7 @@ Sparsentan markedsføres i Danmark som Filspari (filmovertrukne tabletter). Data
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten i Lægemiddelstyrelsens data er tom) |
+| Oprindelig indikation | Ikke angivet i den danske godkendelsestekst; ifølge de kompilerede data er lægemidlet udviklet til primær IgA-nefropati og FSGS |
 | Forudsagt ny indikation | Alopeci |
 | TxGNN-forudsigelsesscore | 94,5 % |
 | Evidensniveau | L5 |
@@ -53,25 +55,11 @@ Sparsentan markedsføres i Danmark som Filspari (filmovertrukne tabletter). Data
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er i øjeblikket ikke tilgængelige i datagrundlaget. Ud fra generel farmakologi er sparsentan en dobbelt antagonist af endothelin type A- og angiotensin II type 1-receptorer.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de kompilerede data. Sparsentan er dog kendt som en dobbelt antagonist af endothelin type A-receptoren (ETA) og angiotensin II type 1-receptoren (AT1). Lægemidlet bruges til at reducere proteinuri hos patienter med primære glomerulære sygdomme.
 
-Der er ikke påvist en direkte mekanistisk vej fra denne virkning til hårvækst. En rolle for endothelin-1- og angiotensin II-signalering i hårsækkenes mikrokar er spekulativ. Den høje score afspejler sandsynligvis ligheder i vidensgrafens naboknuder snarere end dokumenteret biologi.
+Der er ikke påvist en etableret sammenhæng mellem den oprindelige nyreindikation og alopeci. En mulig kobling til hårsækkens biologi (karforsyning omkring hårsækken, fibrose og TGF-beta-signalering) er spekulativ og understøttes ikke af de foreliggende data. Forudsigelsen afspejler sandsynligvis nærhed i vidensgrafen snarere end en farmakologisk begrundelse.
 
-De forudsagte indikationer er biologisk meget forskellige:
-
-- **Alopeci, medfødt hypotrikose (milia) og hypotrikosis simplex i hovedbunden:** Sidstnævnte er en monogen hårsækssygdom (fx varianter i CDSN, APCDD1 og RPL21). En receptorantagonist på endothelin/angiotensin-aksen kan næppe korrigere en strukturel eller genetisk defekt.
-- **Diffus alopecia areata:** Sygdommen drives af autoimmun angreb på hårsækken (IFN-gamma/JAK-STAT-aksen). Sparsentan har ingen kendt immunmodulerende effekt på denne vej.
-- **Angioødem:** Lægemidler på angiotensinvejen forbindes oftere med at *forårsage* angioødem end med at behandle det. Forudsigelsen kan derfor afspejle et sikkerhedssignal frem for en terapeutisk sammenhæng.
-
-### Øvrige forudsagte indikationer (samme evidensniveau)
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Alopeci | 94,5 % | L5 | Hold |
-| Medfødt hypotrikose (milia) | 94,5 % | L5 | Hold |
-| Hypotrikosis simplex i hovedbunden | 94,3 % | L5 | Hold |
-| Diffus alopecia areata | 94,2 % | L5 | Hold |
-| Angioødem | 93,0 % | L5 | Hold |
+Øvrige forudsagte sygdomme viser samme mønster: medfødt hypotrichosis med milia (94,5 %), hypotrichosis simplex i hovedbunden (94,3 %), diffus alopecia areata (94,2 %) og angioødem (93,0 %). Ingen af dem har understøttende kliniske data. Alopecia areata er en autoimmun sygdom, og der er ikke påvist immunmodulerende sammenhæng med endothelin/angiotensin-blokade. Ved angioødem er angiotensinvejen primært relevant som et sikkerhedssignal (kendt klasseproblem ved ACE-hæmmere), ikke som terapeutisk rationale.
 
 ---
 
@@ -89,17 +77,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106812422 | Filspari (Vifor France) | Filmovertrukne tabletter (oral) | Ikke angivet i datagrundlaget |
+| 28106812422 | Filspari (Vifor France) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de kompilerede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen oplysninger om advarsler, kontraindikationer eller interaktioner i datagrundlaget (interaktionsforespørgslen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Farmakologiske mål (fra de kompilerede data):**
+- Angiotensin II type 1-receptor (AT1, gen AGTR1)
+- Endothelin type A-receptor (ETA, gen EDNRA)
 
-Angioødem optræder blandt de forudsagte indikationer. Angiotensinvejens lægemidler er forbundet med risiko for angioødem, så en sikkerhedsgennemgang er nødvendig, inden en eventuel anvendelse overvejes.
+Der er ikke registreret lægemiddelinteraktioner med andre stoffer i de kompilerede data. Oplysninger om advarsler og kontraindikationer er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -108,16 +98,14 @@ Angioødem optræder blandt de forudsagte indikationer. Angiotensinvejens lægem
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur. Der er ingen plausibel mekanistisk forbindelse mellem endothelin/angiotensin-receptorblokade og de forudsagte hårrelaterede sygdomme. Sikkerhedsdata mangler desuden, og de udgør en blokerende datamangel.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, litteratur eller en underbygget mekanistisk sammenhæng. Sikkerhedsdata fra produktresuméet mangler desuden.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler og kontraindikationer. Dette er en forudsætning for sikkerhedsscreening.
-- Indhent officielle data om virkningsmekanisme (MOA) fra DrugBank.
-- Bekræft den godkendte indikation i Danmark.
-- Gennemfør en systematisk litteratur- og forsøgssøgning for sparsentan ved hårtab, som grundlag for en mekanistisk vurdering.
-- Foretag prækliniske undersøgelser eller mekanismestudier af endothelin/angiotensin-signalering i hårsækken, hvis der skal arbejdes videre.
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, inden de kan anvendes.*
+- Hente og gennemgå produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- Supplere data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Præklinisk eller mekanistisk evidens for en rolle for endothelin/angiotensin-blokade i hårsækkens biologi
+- Systematisk litteratursøgning og søgning i forsøgsregistre efter alopeci og sparsentan
+- Vurdering af blodtrykssænkende effekt og andre systemiske risici hos patienter uden nyresygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

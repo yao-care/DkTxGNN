@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Kun modelforudsigelse (L5)
-nav_order: 336
+nav_order: 636
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Pegfilgrastim: Fra kemoterapi-induceret neutropeni til svær non-proliferativ diabetisk retinopati
+# Pegfilgrastim: Fra manglende registreret indikation til svær ikke-proliferativ diabetisk retinopati
 
 ## Resumé i én sætning
 
-Pegfilgrastim er en langtidsvirkende G-CSF (granulocyt-koloni-stimulerende faktor), som generelt bruges til at begrænse neutropeni. Denne oplysning stammer fra almen viden, da den danske registrering i datagrundlaget ikke angiver en indikationstekst. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær non-proliferativ diabetisk retinopati** og **diabetisk retinopati**. Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så der er kun tale om en modelbaseret hypotese.
+Pegfilgrastim er en pegyleret vækstfaktor (G-CSF-analog), som er markedsført i Danmark, men de data, der er indsamlet til denne rapport, indeholder ingen angivet original indikation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **svær ikke-proliferativ diabetisk retinopati** (og den overordnede kategori diabetisk retinopati).
+Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, så den hviler udelukkende på modelbaseret forudsigelse.
 
 ---
 
@@ -41,51 +43,59 @@ Pegfilgrastim er en langtidsvirkende G-CSF (granulocyt-koloni-stimulerende fakto
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (indikationsteksten er tom) |
-| Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
+| Original indikation | Ikke angivet i de indsamlede data (indikationsteksten for godkendelsen er tom) |
+| Forudsagt ny indikation | Svær ikke-proliferativ diabetisk retinopati |
 | TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Datagrundlaget indeholder fire forudsigelsesposter, men kun to forskellige sygdomme. Den næstbedste sygdom er diabetisk retinopati (score 99,73 %). Begge har samme evidensniveau (L5) og samme anbefaling (Hold).
+Bemærk: Den næste forudsigelse, diabetisk retinopati (overordnet kategori), har en score på 99,73 % og udgør ikke uafhængig evidens. Gentagne poster i forudsigelseslisten er samlet her.
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datagrundlaget. Pegfilgrastim er en langtidsvirkende G-CSF. Dens virkning på neutropeni er veletableret, og mekanistisk kan den muligvis have relevans for diabetisk retinopati. Dette er dog ikke dokumenteret i de foreliggende data.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Pegfilgrastim er en pegyleret G-CSF-analog, der binder til G-CSF-receptoren og stimulerer dannelsen af neutrofile granulocytter samt mobiliserer hæmatopoietiske progenitorceller.
 
-Den eneste støtte for forudsigelsen er den høje score i TxGNN's vidensgraf. En mulig, men uverificeret hypotese er, at G-CSF mobiliserer endotelprogenitorceller fra knoglemarven. Mobiliseringen af disse celler er angiveligt nedsat ved diabetes, og de kunne bidrage til reparation af de små kar i nethinden.
+En hypotetisk forbindelse til diabetisk retinopati er, at mobilisering af knoglemarvsafledte (endotele) progenitorceller kunne bidrage til reparation af beskadiget retinal mikrovaskulatur ved diabetes. Det er en mekanisme, der er undersøgt i forbindelse med diabetisk mikrovaskulær sygdom.
 
-Samme virkning kan også trække den modsatte vej. De hæmatopoietiske, pro-angiogene og inflammatoriske effekter kan potentielt forværre neovaskularisering eller inflammation i nethinden. Effektens retning er derfor ukendt, og de foreliggende data støtter hverken gavn eller skade. Der er desuden ikke vurderet lighed med den oprindelige indikation eller administrationsvejens egnethed.
+Den samme biologi kan imidlertid også virke i den modsatte retning: Den kan fremme patologisk angiogenese (neovaskularisering) eller leukocytmedieret inflammation i nethinden. Forbindelsen er derfor spekulativ, og virkningsretningen (gavn eller skade) kan ikke afgøres uden kliniske data.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er aktuelt ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106314919 | Cegfila (Mundipharma Corporation (Ireland) Ltd.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i registeret |
+| 28106314919 | Cegfila (Mundipharma Corporation (Ireland) Ltd.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke tilgængelige data om advarsler eller kontraindikationer i de indsamlede data, og der er ikke identificeret kontraindicerede sygdomme i vidensgrafen.
+
+**Lægemiddelinteraktioner:** Interaktionsopslaget er gennemført og fandt 100 registrerede interaktioner. De viste interaktioner er alle klassificeret som **moderate** (kilde: DDInter). Eksempler på de interagerende stoffer omfatter:
+- Cytostatika og antineoplastiske midler: paclitaxel, mercaptopurin, azacitidin, arsentrioxid, altretamin, trimetrexat, asparaginase, abemaciclib
+- Antistoffer og immunmodulatorer: alemtuzumab, aldesleukin, belantamab mafodotin, levamisol, pegvaliase
+- Radiofarmaka og radioimmunterapi: iobenguan (I-131), fludeoxyglucose (18F), ibritumomab tiuxetan, tositumomab (med og uden I-131)
+- Målrettede midler: acalabrutinib, avapritinib
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -94,15 +104,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller kendt virkningsmekanisme. Effektens retning ved diabetisk retinopati er usikker, og en forværring af nethindeforandringer kan ikke udelukkes. Evidensniveauet er L5, og sikkerhedsdata fra den danske produktinformation mangler.
+Forudsigelsen har en meget høj modelscore, men er udelukkende grafbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Virkningsretningen er uafklaret, da samme biologi både kan tænkes at reparere og forværre retinal mikrovaskulær sygdom.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da manglen blokerer for sikkerhedsscreening.
-- Indhent data om virkningsmekanisme (MOA), f.eks. via DrugBank.
-- Gennemfør en systematisk litteratursøgning, herunder præklinisk evidens om G-CSF og diabetisk retinopati og om risikoen for pro-angiogene effekter i nethinden.
-- Få en oftalmologisk vurdering af den potentielle risiko og af administrationsvejens egnethed til den nye indikation.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+- Systematisk litteratursøgning og præklinisk evidens for G-CSF i diabetisk retinopati, herunder vurdering af risiko for neovaskularisering og inflammation
+- Detaljerede data om virkningsmekanisme (MOA)
+- Produktresumé (SmPC) med godkendt indikation, advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af administrationsvej: Pegfilgrastim gives som injektion, og egnetheden til en retinal indikation (systemisk vs. lokal behandling) er ikke afklaret
+- Eventuelt tidlige kliniske eller eksplorative studier, før der overvejes videre udvikling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trabectedin
-parent: Kun modelforudsigelse (L5)
-nav_order: 445
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 845
+evidence_level: L3
 indication_count: 10
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trabectedin: Fra bløddelssarkom og ovariecancer til brystkræft hos kvinder
+# Trabectedin: Fra ovariecancer til kvindelig brystkarcinom
 
-## Resumé i få linjer
+## Resumé i én sætning
 
-Trabectedin er et cytostatikum, der ifølge litteraturen er markedsført i Europa til bløddelssarkom og til tilbagevendende ovariecancer (i kombination med pegyleret liposomal doxorubicin). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **brystkræft hos kvinder**. Forudsigelsen understøttes af **2 registrerede kliniske forsøg** (ingen med brystkræft som primær effektmålepopulation) og **20 publikationer**, heriblandt tre fase 2-studier i brystkræft med beskeden aktivitet.
+Trabectedin er et cytotoksisk stof af marin oprindelse, som oprindeligt anvendes til behandling af ovariecancer.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **kvindelig brystkarcinom**,
+og i dag understøttes retningen af **1 klinisk forsøg** (med svag relevans) og **ca. 20 publikationer**, hvoraf kun enkelte er kliniske fase 2-studier.
 
 ---
 
@@ -41,63 +43,56 @@ Trabectedin er et cytostatikum, der ifølge litteraturen er markedsført i Europ
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bløddelssarkom og platinfølsom tilbagevendende ovariecancer (ifølge litteraturen; indikationsteksten er ikke angivet i de danske tilladelsesdata) |
-| Forudsagt ny indikation | Brystkræft hos kvinder (female breast carcinoma) |
+| Oprindelig indikation | Ovariecancer (ifølge videnbasen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Kvindelig brystkarcinom |
 | TxGNN-forudsigelsesscore | 99,73 % |
-| Evidensniveau | L2 (med forbehold, se nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
+| Evidensniveau | L3 |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (kan genoptages som forskningsspørgsmål) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Trabectedin binder sig til DNA's lille rille og fanger den transkriptionskoblede nukleotidexcisionsreparation. Det giver dobbeltstrengsbrud i DNA. Celler med nedsat homolog rekombination, fx ved BRCA1/2-mutation, er mere følsomme. Det gør BRCA-associeret og triple-negativ brystkræft til plausible undergrupper. Præklinisk er der desuden beskrevet apoptose i ER-positive og HER2-positive cellelinjer, nedgang i tumorassocierede makrofager og synergi med IL-12 i modeller for triple-negativ brystkræft.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den publicerede litteratur binder trabectedin sig til DNA's lille rille og udløser DNA-dobbeltstrengsbrud via transkriptionskoblet nukleotid-excisionsreparation. Stoffet er især aktivt i celler med mangelfuld homolog rekombination, f.eks. BRCA1/2-deficiente tumorer. Desuden påvirker det tumormikromiljøet ved at reducere tumorassocierede makrofager.
 
-Både bløddelssarkom, ovariecancer og brystkræft er solide tumorer, hvor DNA-skadende kemoterapi indgår i behandlingen. Trabectedin er allerede godkendt i ovariecancer, og BRCA-relateret biologi går igen på tværs af ovarie- og brystkræft.
+Ovariecancer og brystcancer deler biologiske træk, bl.a. forekomsten af BRCA-relaterede reparationsdefekter. Mekanismen kan derfor være relevant for BRCA-deficient og triple-negativ brystcancer. Et prækliniske studie (PMID 39777457) tyder på, at trabectedin kan forstærke effekten af IL-12 ved triple-negativ brystcancer.
 
-Den kliniske aktivitet i brystkræft som enkeltstof er dog beskeden. En detaljeret, struktureret beskrivelse af virkningsmekanismen (MOA) fra DrugBank mangler i datasættet. Mekanismen ovenfor stammer fra evidenspakkens begrundelse og den citerede litteratur.
+Den kliniske evidens er dog begrænset til tidlige fase 2-data for enkeltstofbehandling hos patienter, der tidligere er behandlet med antracykliner og taxaner. Der foreligger ingen fase 3-data.
 
 ---
 
 ## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Fase 2 | Afsluttet | 76 | Enkeltblindet, placebokontrolleret studie af en enkelt dosis trabectedins effekt på QT-intervallet (EKG) hos patienter med avancerede solide tumorer. Sikkerhedsstudie, ikke effekt i brystkræft. |
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Fase 2 | Afsluttet | 9 | Olaparib som vedligeholdelsesbehandling efter respons på trabectedin + pegyleret liposomal doxorubicin ved tilbagevendende ovariecancer. Trabectedin indgår kun i induktionsregimet. Indirekte relevans for brystkræft. |
-
-Der er ikke angivet EudraCT-numre i datasættet. Begge forsøg er vurderet som lav relevans (grad C) for effekt i brystkræft.
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Fase 2 | Afsluttet | 76 | Studie af en enkeltdosis trabectedins effekt på QT-intervallet (EKG) hos patienter med avancerede solide tumorer. Det er et sikkerhedsstudie, ikke et effektstudie, og giver kun svag støtte for brystcancerindikationen. |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Randomiseret fase 2 | Clin Breast Cancer | Trabectedin som enkeltstof ved avanceret brystkræft efter antracyklin og taxan; sammenligner to administrationsregimer. |
-| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Fase 2 | Clin Breast Cancer | Trabectedin 1,3 mg/m² som 3-timers infusion hver 3. uge ved HR-positiv, HER2-negativ avanceret brystkræft, stratificeret efter XPG-mRNA-ekspression. |
-| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Fase 2 | Ann Oncol | Første internationale fase 2-studie af trabectedin ved BRCA1/2-germlinemuteret metastatisk brystkræft. |
-| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Review | Expert Opin Investig Drugs | Gennemgang af trabectedin ved brystkræft; virkning på transkription og på tumormikromiljøet (reduktion af tumorassocierede makrofager). |
-| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Review | Cancer Treat Rev | Trabectedin som kemoterapimulighed ved BRCA-mangel. |
-| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Fase 1 | Eur J Cancer | Trabectedin + doxorubicin ved bløddelssarkom (n=29) og avanceret brystkræft (n=9). Gennemførlighed og farmakokinetik; kun få brystkræftpatienter. |
-| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Præklinisk | Cancer Immunol Res | Trabectedin forstærker IL-12's antitumoreffekt ved triple-negativ brystkræft i modeller. |
-| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Præklinisk (in vitro) | Toxicol Lett | Tids- og koncentrationsafhængig cytotoksicitet og apoptose i MCF-7 (ER+/HER2-) og MDA-MB-453 (HER2+/ER-). |
-| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Præklinisk | Eur Cytokine Netw | Antiangiogene effekter af trabectedin på endotelceller og brystkræftcellelinjer. |
-| [38366738](https://pubmed.ncbi.nlm.nih.gov/38366738/) | 2024 | Case report | J Dermatol | Trabectedin ved strålingsinduceret angiosarkom i brystet. Angiosarkom er en anden sygdom end brystkarcinom, så relevansen er indirekte. |
-
-Yderligere indirekte referencer (ovariecancer, bløddelssarkom og generelle oversigtsartikler) indgår i datasættet, men er ikke gengivet her.
+| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Randomiseret fase 2 | Clin Breast Cancer | Trabectedin som enkeltstof ved avanceret brystcancer efter antracyklin og taxan; to administrationsregimer sammenlignet |
+| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Fase 2 | Ann Oncol | Aktivitet ved metastatisk brystcancer med germline BRCA1/2-mutation |
+| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Fase 2 | Clin Breast Cancer | Hormonreceptorpositiv, HER2-negativ avanceret brystcancer, vurderet efter XPG-ekspression |
+| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Fase 1 | Eur J Cancer | Trabectedin + doxorubicin ved bløddelssarkom og avanceret brystcancer (9 patienter med brystcancer); gennemførligt |
+| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Review | Expert Opin Investig Drugs | Gennemgang af trabectedin ved brystcancer; mekanisme og potentiale |
+| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Review | Cancer Treat Rev | Trabectedin som kemoterapimulighed ved BRCA-deficiens |
+| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Review | Semin Oncol | Nye stoffer ved antracyklin- og taxanrefraktær metastatisk brystcancer |
+| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Prækliniske | Cancer Immunol Res | Trabectedin forstærker IL-12's antitumoreffekt ved triple-negativ brystcancer |
+| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Prækliniske | Eur Cytokine Netw | Anti-angiogene effekter på brystcancerceller |
+| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Prækliniske | Toxicol Lett | Apoptoseinduktion i MCF-7- og MDA-MB-453-brystcancerceller |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107106224 | Trabectedin Accord | Pulver til koncentrat til infusionsvæske, opløsning | Accord Healthcare S.L.U. |
-
-Lægemidlet gives som injektion/infusion.
+| 28107106224 | Trabectedin Accord | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
@@ -105,17 +100,21 @@ Lægemidlet gives som injektion/infusion.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (DNA-bindende, marint afledt) |
-| Risiko for myelosuppression | Høj. Litteraturen beskriver grad 3-4 neutropeni hos ca. 50 % og trombocytopeni hos ca. 20 % af patienterne. |
-| Emetogent potentiale | Se produktresuméet (SmPC) |
-| Overvågningsparametre | Blodtal (hæmatologi) og leverfunktion (hæmatologisk og hepatisk toksicitet er beskrevet som de hyppigste); yderligere overvågning iht. SmPC |
-| Håndtering og beskyttelse | Håndteres efter gældende regler for cytotoksiske lægemidler |
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (DNA-bindende, marint afledt alkaloid) |
+| Risiko for knoglemarvssuppression | Høj; grad 3-4 neutropeni (ca. 50 %) og trombocytopeni (ca. 20 %) er rapporteret i litteraturen |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Fuldt blodbillede, lever- og nyrefunktion; hæmatologisk og hepatisk toksicitet er de væsentligste |
+| Håndteringsbeskyttelse | Håndtering iht. gældende regler for cytotoksiske lægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Datasættet indeholder ingen advarsler, kontraindikationer eller interaktionsdata for lægemidlet. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Litteraturen beskriver primært hæmatologisk og hepatisk toksicitet. Der er desuden gennemført et dedikeret QT-studie (NCT00786838), hvis resultater ikke fremgår af datasættet.
+**Lægemiddelinteraktioner** (100 registrerede interaktioner; udvalgte nedenfor):
+- **Alvorlig (Major):** clarithromycin
+- **Moderat:** aprepitant, dexamethason, cimetidin, levofloxacin, metronidazol, miconazol, minocyclin, rosuvastatin, simvastatin, pioglitazon, rosiglitazon, acarbose, bupropion, naltrexon, orlistat m.fl.
+
+Et QT-studie (PMID 21739119) har undersøgt trabectedins effekt på hjerterytmen. For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -124,17 +123,18 @@ Datasættet indeholder ingen advarsler, kontraindikationer eller interaktionsdat
 **Beslutning: Hold**
 
 **Begrundelse:**
-Modellens score er meget høj, og der findes tre fase 2-studier i brystkræft. Aktiviteten som enkeltstof er dog beskeden, og de registrerede kliniske forsøg i datasættet handler ikke om effekt i brystkræft. Evidensniveauet L2 hviler på et randomiseret fase 2-studie, der sammenligner to doseringsregimer og ikke har en kontrolarm. Der er derfor ikke grundlag for at gå videre uden mere målrettet evidens.
+Den kliniske støtte består af tidlige fase 2-studier med enkeltstof og et enkelt sikkerhedsstudie uden effektdata. Der er ingen fase 3-data, og evidensniveauet er L3. En høj TxGNN-score alene er ikke tilstrækkelig. Mekanismen er biologisk plausibel, især ved BRCA-deficient og triple-negativ brystcancer, så emnet bør bevares som forskningsspørgsmål.
 
-**For at komme videre kræves:**
-- Gennemgang af resultaterne fra fase 2-studierne (PMID 25239225, 27266804, 24692579), især hos BRCA1/2-muterede og triple-negative patienter
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Eventuelt et målrettet studie i en biomarkørdefineret undergruppe (fx BRCA-mangel)
+**For at komme videre er følgende nødvendigt:**
+- Vurdering af de fase 2-resultater, der foreligger (effekt og sikkerhed), især i BRCA1/2-muterede og triple-negative undergrupper
+- Data om virkningsmekanisme fra DrugBank
+- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Plan for sikkerhedsmonitorering, herunder knoglemarv, lever, hjerte (QT) og interaktioner (bl.a. CYP3A4-hæmmere som clarithromycin)
+- Eventuelt et prospektivt, biomarkørstyret studie før klinisk anvendelse
 
-**Øvrige forudsigelser:** Ovarie-choriocarcinom, gonadal kimcelletumor, ovarie-primitiv kimcelletumor og ovarie-malignt mesotheliom har alle høje modelscorer (0,986-0,989), men kun graf-baseret støtte (L5) eller kun præklinisk evidens (L4, pleuralt mesotheliom). De vurderes alle som **Hold**.
+---
 
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+*Øvrige forudsigelser (ovarie-choriocarcinom, gonadal kønscelletumor, ovarieprimitiv kønscelletumor, ovarie-malign mesoteliom) har evidensniveau L4-L5 uden kliniske data og anbefales sat på Hold.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

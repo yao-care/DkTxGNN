@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Kun modelforudsigelse (L5)
-nav_order: 305
+nav_order: 575
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Naproxen: Fra NSAID-smertelindring til brachydaktyli-syndaktyli-syndrom
+# Naproxen: Fra gigt og smertetilstande til brachydaktyli-syndaktyli-syndrom
 
 ## Resumé i én sætning
 
-Naproxen er en ikke-selektiv COX-1/COX-2-hæmmer med antiinflammatorisk og smertestillende virkning, og i Danmark er det markedsført som oral suspension (Bonyl). TxGNN-modellen forudsiger, at det kan have effekt på **brachydaktyli-syndaktyli-syndrom**, en sjælden medfødt misdannelse af lemmerne. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som derfor alene er en modelberegning.
+Naproxen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der oprindeligt bruges mod smerte og betændelse ved bl.a. leddegigt, slidgigt, Bechterews sygdom, urinsyregigt og migræne.
+TxGNN-modellen forudsiger, at det kan have effekt ved **brachydaktyli-syndaktyli-syndrom**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen er alene baseret på en videngraf.
 
 ---
 
@@ -41,7 +42,7 @@ Naproxen er en ikke-selektiv COX-1/COX-2-hæmmer med antiinflammatorisk og smert
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i de danske godkendelsesdata |
+| Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser. Ifølge videngrafen bl.a. leddegigt, slidgigt, Bechterews sygdom, urinsyregigt, bursitis, tendinitis og migræne |
 | Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
 | TxGNN-forudsigelsesscore | 99,35 % |
 | Evidensniveau | L5 |
@@ -51,46 +52,50 @@ Naproxen er en ikke-selektiv COX-1/COX-2-hæmmer med antiinflammatorisk og smert
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Naproxen hæmmer enzymerne COX-1 og COX-2 og dermed dannelsen af prostaglandiner. Det giver den kendte antiinflammatoriske og smertestillende effekt. Detaljerede mekanismedata fra DrugBank mangler i denne evidenspakke.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Naproxen er kendt som en ikke-selektiv hæmmer af cyklooxygenase (COX-1 og COX-2) og dermed af prostaglandinsyntesen. Det giver smertestillende og antiinflammatorisk effekt ved de oprindelige indikationer.
 
-Brachydaktyli-syndaktyli-syndrom er en sjælden medfødt udviklingsforstyrrelse i lemmerne. Der kendes ingen sammenhæng mellem prostaglandinhæmning og sygdommens udviklingsbiologi. Der er derfor **ingen evidensbaseret mekanistisk forbindelse** mellem naproxens virkning og denne sygdom. Den høje score er en grafbaseret modelforudsigelse uden støtte i kliniske data eller litteratur.
+Brachydaktyli-syndaktyli-syndrom er en medfødt, genetisk betinget misdannelse af hænder og fødder. Betændelseshæmning forventes ikke at kunne korrigere en udviklingsmæssig skeletdefekt. På sit højeste kunne naproxen give symptomatisk smertelindring, hvilket ikke er en sygdomsmodificerende indikation.
 
-Modellen peger i alt på fire sjældne, medfødte sygdomme (de otte rangerede poster er dubletter, to for hver sygdom):
-
-| Forudsagt sygdom | TxGNN-score | Evidensniveau | Vurdering af mekanisme |
-|------|------|------|------|
-| Brachydaktyli-syndaktyli-syndrom | 99,35 % | L5 | Ingen kendt sammenhæng med prostaglandinhæmning |
-| Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 99,22 % | L5 | Ingen kendt sammenhæng med de medfødte øjen- og skeletdefekter |
-| Akromesomelisk dysplasi, Hunter-Thompson-type | 99,17 % | L5 | Sygdommen er knyttet til GDF5 (BMP-signalering). Naproxen har ingen kendt sygdomsmodificerende effekt, højst symptomatisk smertelindring, som ikke er en datastøttet repurposing-indikation |
-| Brachyolmi-amelogenesis imperfecta-syndrom | 99,06 % | L5 | Sygdommen er knyttet til LTBP3 (TGF-beta-signalering), som COX-hæmning ikke påvirker |
+Den høje score afspejler sandsynligvis nærhed i videngrafen til muskel- og skeletrelaterede sygdomme blandt naproxens oprindelige indikationer snarere end en biologisk forklaring. Den samme vurdering gælder de øvrige forudsigelser med høje scorer i datasættet: kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (99,22 %), akromesomelisk dysplasi af Hunter-Thompson-typen (99,17 %) og brachyolmi-amelogenesis imperfecta-syndrom (99,06 %). Alle er sjældne, genetiske skeletsygdomme uden dokumenteret mekanistisk kobling til COX-hæmning.
 
 ---
 
-## Klinisk forsøgsevidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Information om markedet i Danmark
+## Evidens fra litteraturen
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101322288 | Bonyl (Orion Corporation) | Oral suspension | Ikke oplyst i data |
+| 28101322288 | Bonyl (Orion Corporation) | Oral suspension | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer og sygdomme med risiko (fra videngrafen, ikke fra produktresumé):** Videngrafen angiver bl.a. forhøjet blodtryk, hjertesvigt, iskæmisk hjertesygdom, tidligere hjerteanfald og apopleksi, lever- og nyresygdom, blødningsforstyrrelser, epilepsi, diabetes og diabetisk ketoacidose, osteoporose, anæmi og galdeblæresygdom. Oplysningerne stammer ikke fra produktresuméets tekst og skal verificeres.
+- **Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner i alt. De viste interaktioner er alle af moderat sværhedsgrad, bl.a. med:
+  - Acetylsalicylsyre
+  - Kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon)
+  - Metformin og chlorpropamid
+  - Syrehæmmere (famotidin, ranitidin, cimetidin, rabeprazol, dexlansoprazol)
+  - Mesalazin og balsalazid
+  - Aprepitant
+  - Kaliumcitrat og kaliumbikarbonat
+  - Pikosulfat og polyethylenglycol
+
+Varsler og kontraindikationer fra det godkendte produktresumé (SmPC) er ikke indhentet. Se det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -99,15 +104,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har kun evidensniveau L5. Der findes ingen kliniske forsøg eller publikationer, og der er ingen kendt mekanistisk sammenhæng mellem COX-hæmning og de forudsagte sjældne udviklingssygdomme. Modelscoren alene er ikke tilstrækkelig til at gå videre.
+Forudsigelsen bygger udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg, uden litteratur og uden plausibel biologisk mekanisme. Sygdommen er en medfødt udviklingsdefekt, som COX-hæmning ikke forventes at påvirke.
 
-**For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, da dette blokerer den videre sikkerhedsscreening
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Den oprindelige godkendte indikation for Bonyl i Danmark
-- Et biologisk begrundet mekanistisk link og præklinisk evidens, før en klinisk vurdering overhovedet kan overvejes
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at gå videre kræves følgende:**
+- Hent produktresuméet fra Lægemiddelstyrelsen med varsler og kontraindikationer (blokerende datamangel for sikkerhedsscreening)
+- Indhent detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Påvis en biologisk sammenhæng mellem prostaglandin-/COX-veje og sygdommens patogenese, f.eks. gennem præklinisk forskning
+- Gennemfør en systematisk litteratur- og forsøgsgennemgang for at bekræfte, at der ikke findes understøttende evidens
+- Vurder, om en mere relevant indikation (f.eks. symptomatisk smertebehandling) er klinisk meningsfuld frem for en sygdomsmodificerende indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

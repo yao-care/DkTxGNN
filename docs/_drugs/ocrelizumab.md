@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 318
+nav_order: 600
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ocrelizumab: Fra multipel sklerose til HER2-positiv brystkræft
+# Ocrelizumab: Fra progressiv multipel sklerose til HER2-positiv brystkarcinom
 
 ## Resumé i én sætning
 
-Ocrelizumab er et anti-CD20-monoklonalt antistof, der nedbryder B-celler og er godkendt til multipel sklerose. TxGNN-modellen forudsiger, at det kan virke mod **HER2-positiv brystkræft**, men der er **0 kliniske forsøg** og **0 relevante publikationer**, der understøtter forudsigelsen. Den høje score vurderes som en sandsynlig artefakt i vidensgrafen og ikke som et reelt klinisk signal.
+Ocrelizumab er et humaniseret anti-CD20-antistof, der oprindeligt anvendes til behandling af progressiv multipel sklerose. TxGNN-modellen forudsiger, at det kan have effekt på **HER2-positiv brystkarcinom**, men der er **ingen kliniske forsøg** og **ingen publikationer** om brystkræft, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
@@ -41,8 +41,8 @@ Ocrelizumab er et anti-CD20-monoklonalt antistof, der nedbryder B-celler og er g
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Multipel sklerose (fremgår af evidensgrundlagets mekanistiske vurdering; godkendelsesteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | HER2-positiv brystkræft (HER2 positive breast carcinoma) |
+| Oprindelig indikation | Progressiv multipel sklerose (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
+| Forudsagt ny indikation | HER2-positiv brystkarcinom |
 | TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -51,50 +51,49 @@ Ocrelizumab er et anti-CD20-monoklonalt antistof, der nedbryder B-celler og er g
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i evidensgrundlaget. Ocrelizumab er kendt som et anti-CD20-antistof, der nedbryder B-celler. Det er godkendt til multipel sklerose, hvor B-celler spiller en rolle i sygdomsprocessen.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Det er kendt, at ocrelizumab er et anti-CD20-antistof, der nedbryder CD20-positive B-celler. Det er grundlaget for effekten ved multipel sklerose, hvor B-celler bidrager til sygdomsprocessen.
 
-HER2-positiv brystkræft drives af amplifikation af ERBB2-genet, og CD20 er ikke et anerkendt terapeutisk mål ved denne sygdom. Vi finder derfor ingen troværdig mekanistisk sammenhæng mellem B-celledepletion og behandling af HER2-positiv brystkræft.
+Der er ikke påvist nogen etableret mekanistisk sammenhæng mellem CD20-rettet B-celledeplesion og HER2-positiv brystkræft. Brystkræftceller udtrykker typisk ikke CD20 som terapeutisk mål. En eventuel sammenhæng er spekulativ, f.eks. via påvirkning af B-celler og tumorinfiltrerende lymfocytter i tumormikromiljøet. B-celledeplesion kunne i en antitumor-immunologisk sammenhæng lige så vel være neutral eller skadelig.
 
-Det samme gælder de øvrige forudsagte brystkræftsubtyper:
-
-- **Normal-like subtype:** B-celledepletion via CD20 har ingen etableret rolle.
-- **Progesteronreceptor-positiv:** sygdommen er hormonreceptordrevet og behandles via endokrine veje, som ikke har noget med CD20 at gøre.
-- **Progesteronreceptor-negativ:** CD20-rettet B-celledepletion er ikke en etableret strategi.
-- **Luminal A eller B:** der er heller ikke her nogen troværdig mekanistisk sammenhæng.
-
-Scorerne ligger alle mellem 99,80 % og 99,89 %. Det peger på et systematisk mønster i modellen (bred "brystkræft"-association) snarere end specifik biologisk indsigt.
+Den høje score (0,999) er en beregningsmæssig forudsigelse og bør ikke tolkes som klinisk evidens. Øvrige forudsagte brystkræftundertyper i datasættet (bl.a. progesteronreceptor-positiv/-negativ, luminal A/B og normal-lignende subtype) har samme billede: ingen kliniske forsøg og ingen mekanistisk begrundelse.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er ingen relevant litteratur, som omhandler ocrelizumab ved brystkræft.
+Der er på nuværende tidspunkt ingen relateret litteratur om HER2-positiv brystkarcinom.
 
-For indikationen "breast tumor luminal A or B" blev der hentet 19 publikationer (10 vist). De er imidlertid støjtræffere fra nøgleordssøgning på bogstavet "B", og de omhandler B-celle-biologi, hepatitis B-vacciner, HLA-B-alleler og lignende. Ingen af dem omtaler ocrelizumab eller brystkræft, og de tæller derfor ikke som evidens.
+For den relaterede forudsigelse "luminal A/B-brysttumor" blev der fundet 18 publikationer, men de omhandler alle ocrelizumab ved multipel sklerose, anti-CD20-farmakologi eller andre autoimmune sygdomme. Ingen undersøger brystkræft. De ser ud til at være fundet via lægemidlets navn og ikke via sygdommen, og de giver ingen effektsignal ved brystkræft. De er derfor ikke opført som evidens.
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107028123 | Ocrevus | Injektionsvæske, opløsning | Roche Registration GmbH |
-
-Godkendelsesteksten for indikationen er ikke angivet i de tilgængelige data.
+| 28107028123 | Ocrevus (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen tilgængelige sikkerhedsdata (advarsler, kontraindikationer, interaktioner) i evidensgrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner** (100 registrerede interaktioner; de første 20 er gennemgået, hovedparten er af moderat grad):
+- **Kortikosteroider (moderat):** hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison
+- **Radiofarmaka og radioimmunoterapi (moderat):** iobenguan (I-131), ibritumomab tiuxetan, tositumomab (I-131), samarium (153Sm) lexidronam
+- **Antiparasitære midler m.fl. (moderat):** albendazol, pentamidin, levamisol
+- **Zinksalte (let):** zinksulfat, zinkacetat, zinkgluconat, zinkchlorid
+
+Baggrundslitteraturen peger desuden på risiko for sekundær hypogammaglobulinæmi og infektioner ved B-celledeplesion.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige.
 
 ---
 
@@ -103,16 +102,13 @@ Der foreligger ingen tilgængelige sikkerhedsdata (advarsler, kontraindikationer
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg, uden relevant litteratur og uden troværdig mekanistisk sammenhæng. Den høje score ligner en artefakt i vidensgrafen.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, uden litteratur om brystkræft og uden en plausibel mekanistisk sammenhæng. B-celledeplesion kan potentielt være ugunstig i en antitumor-immunologisk sammenhæng.
 
 **For at komme videre kræves:**
-- Uafhængig præklinisk eller mekanistisk evidens for en rolle for CD20 eller B-celler ved den pågældende brystkræftsubtype
-- Data om virkningsmekanisme fra DrugBank og den danske godkendelsestekst for indikationen
-- Sikkerhedsdata fra det danske produktresumé (advarsler og kontraindikationer), som mangler og blokerer sikkerhedsscreening
-- Rensning af litteratursøgningen, så den målrettes ocrelizumab og brystkræft i stedet for nøgleordet "B"
-- Fjernelse af dublerede forudsigelsesposter i evidensgrundlaget
-
-*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelgenanvendelse skal valideres klinisk, før de kan anvendes.*
+- Præklinisk eller translationel dokumentation for CD20-/B-celle-relateret biologi i HER2-positiv brystkræft
+- Data om virkningsmekanismen (MOA)
+- Produktresuméets advarsler og kontraindikationer, så sikkerhedsscreening kan gennemføres
+- Systematisk litteratursøgning målrettet brystkræft, da de nuværende fund ikke er sygdomsspecifikke
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Kun modelforudsigelse (L5)
-nav_order: 220
+nav_order: 418
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ibuprofen: Fra smerte og inflammation (NSAID) til acromesomelisk dysplasi, Hunter-Thompson-type
+# Ibuprofen: Fra gigt og smerter til akromesomel dysplasi, Hunter-Thompson-typen
 
-## Resumé i én sætning
+## Resumé
 
-Ibuprofen er et non-selektivt COX-hæmmende NSAID, som bruges mod smerte og inflammation. TxGNN-modellen forudsiger, at det kan være virksomt mod **acromesomelisk dysplasi, Hunter-Thompson-type**, en sjælden arvelig skeletdysplasi. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som sandsynligvis er et artefakt af vidensgrafen.
+Ibuprofen er et non-selektivt NSAID, der oprindeligt anvendes til blandt andet leddegigt, slidgigt, juvenil idiopatisk artritis, hovedpine og åbentstående ductus arteriosus.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akromesomel dysplasi, Hunter-Thompson-typen**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende baseret på modelberegning.
 
 ---
 
@@ -41,25 +43,25 @@ Ibuprofen er et non-selektivt COX-hæmmende NSAID, som bruges mod smerte og infl
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Smerte og inflammation (NSAID). Indikationsteksten i den danske godkendelse er ikke oplyst i datagrundlaget. |
-| Forudsagt ny indikation | Acromesomelisk dysplasi, Hunter-Thompson-type |
+| Oprindelig indikation | Leddegigt, hovedpine, slidgigt, artropati, juvenil idiopatisk artritis, spondylartropati, åbentstående ductus arteriosus (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Akromesomel dysplasi, Hunter-Thompson-typen |
 | TxGNN-forudsigelsesscore | 99,74 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Andre forudsagte indikationer med næsten samme score (99,66-99,71 %) er brachyolmi-amelogenesis imperfecta-syndrom, myosklerose, brachyolmi og brachydaktyli-syndaktyli-syndrom. Alle har evidensniveau L5 og anbefalingen Hold.
-
 ---
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Ibuprofen er en non-selektiv COX-hæmmer. Den hæmmer prostaglandinsyntesen og giver derved smertelindrende og antiinflammatorisk effekt. Detaljerede mekanismedata var ikke tilgængelige i datagrundlaget, så vurderingen bygger på ibuprofens kendte farmakologi.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ibuprofen er generelt kendt som en non-selektiv hæmmer af COX-1 og COX-2, som nedsætter dannelsen af prostaglandiner og dermed dæmper smerte og inflammation.
 
-Acromesomelisk dysplasi, Hunter-Thompson-type, er en sjælden arvelig skeletlidelse. COX-hæmning er ikke kendt for at påvirke den underliggende årsag. Der er ingen etableret mekanistisk forbindelse mellem ibuprofens virkning og sygdommens patologi.
+Akromesomel dysplasi, Hunter-Thompson-typen, er en sjælden knoglesygdom forårsaget af funktionstabsvarianter i CDMP1/GDF5, som forstyrrer BMP-signalering og bruskudvikling. Der er ikke påvist nogen plausibel mekanistisk forbindelse mellem hæmning af prostaglandinsyntese og denne signalvej. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til muskuloskeletale sygdomme og artropatier på listen over oprindelige indikationer snarere end en reel terapeutisk sammenhæng.
 
-Scoren på 0,997 er udelukkende grafbaseret og er ikke bakket op af forsøg eller litteratur i de foreliggende data. En meget høj score for en biologisk usandsynlig kombination kan afspejle topologisk skævhed i vidensgrafen snarere end et reelt terapeutisk signal. Det samme gælder de øvrige forudsagte sjældne skelet-, tand- og muskellidelser. Ved myosklerose kunne ibuprofen højst give uspecifik symptomlindring, uden evidens for sygdomsmodificerende effekt.
+Ibuprofen kan i bedste fald give symptomatisk smertelindring, ikke ændre sygdomsforløbet.
+
+Øvrige forudsagte indikationer (alle med score omkring 99,7 % og uden evidens) er brachyolmia-amelogenesis imperfecta-syndrom, myosklerose, brachyolmia og brachydactyly-syndactyly-syndrom. De vurderes på samme måde som spekulative. Bemærk, at hver forudsigelse optræder to gange i datagrundlaget (dubletter).
 
 ---
 
@@ -69,23 +71,36 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107114124 | Algovil (Ioulia and Irene Tseti Pharmaceutical Laboratories S.A.) | Kapsler, bløde | Ikke oplyst i datagrundlaget |
+| 28107114124 | Algovil | Kapsler, bløde | Ikke angivet |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der er ikke fundet oplysninger om interaktioner i datagrundlaget. Oplysninger om advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé mangler. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke tilgængelige data om advarsler og kontraindikationer fra produktresuméet i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+**Kontraindikationer/forsigtighedshensyn fra vidensgrafen** (ikke fra produkttekst, og skal verificeres mod SmPC): Sygdomme, hvor ibuprofen er registreret som kontraindiceret i vidensgrafen, omfatter blandt andet:
+- Hjerte-kar: hypertension, hypotension, myokardieinfarkt, hjerneblødning/apopleksi, cerebral infarkt
+- Lever og nyrer: leversvigt, leversygdom, nyresygdom, galdeblæresygdom
+- Mave-tarm: mavesår, inflammatorisk tarmsygdom
+- Blod: trombocytopeni, koagulationsforstyrrelser
+- Luftveje og nervesystem: kronisk obstruktiv lungesygdom, epilepsi
+- Stofskifte og andet: diabetes, diabetisk ketoacidose, hypothyreose, kaliummangel, systemisk lupus erythematosus, benign prostatahyperplasi, stofmisbrug/afhængighed
+
+**Lægemiddelinteraktioner** (100 registrerede, her et udpluk fra de første 20):
+- **Alvorlig (Major):** Acetylsalicylsyre
+- **Moderat:** Acetohexamid, aprepitant, balsalazid, betamethason, budesonid, chlorpropamid, dexamethason, dexfenfluramin, exenatid, fenfluramin, glimepirid, glipizid, glibenclamid, hydrocortison, kanamycin, levofloxacin
+- **Mindre (Minor):** Famotidin, ranitidin, cimetidin
 
 ---
 
@@ -94,15 +109,14 @@ Der er ikke fundet oplysninger om interaktioner i datagrundlaget. Oplysninger om
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har kun modelstøtte (L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk forbindelse mellem COX-hæmning og den forudsagte sjældne skeletdysplasi. Den høje score skyldes sandsynligvis vidensgrafens struktur.
+Forudsigelsen bygger udelukkende på en høj modelscore uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsdata fra Lægemiddelstyrelsens produktresumé (advarsler og kontraindikationer), som er en blokerende mangel
-- Detaljerede mekanismedata for ibuprofen, fx fra DrugBank
-- En litteratur- og forsøgssøgning målrettet de forudsagte sygdomme, og prækliniske data hvis der skal argumenteres for en biologisk forbindelse
-- Vurdering af administrationsvej og lægemiddelform i forhold til den forudsagte indikation (endnu ikke foretaget)
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+- Mekanistisk eller prækliniske data, der kan forbinde COX-hæmning med GDF5/BMP-signalvejen
+- Systematisk litteratursøgning og vurdering af relevansen af patientgruppen (meget sjælden sygdom)
+- Detaljerede data om virkningsmekanisme (MOA)
+- Sikkerhedsoplysninger fra det danske produktresumé (advarsler og kontraindikationer) samt den godkendte indikationstekst for Algovil
+- Vurdering af, om ibuprofen kun er relevant som symptomatisk smertebehandling, hvilket allerede ligger inden for den kendte anvendelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

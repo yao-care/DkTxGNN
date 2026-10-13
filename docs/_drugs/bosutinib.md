@@ -2,7 +2,7 @@
 layout: default
 title: Bosutinib
 parent: Høj evidens (L1-L2)
-nav_order: 73
+nav_order: 128
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bosutinib: Fra kendt CML-behandling til myeloid leukæmi
+# Bosutinib: Fra kronisk myeloid leukæmi i blastfase til myeloid leukæmi
 
-## Resumé i én sætning
+## Resumé
 
-Bosutinib er en tyrosinkinasehæmmer (TKI), der i litteraturen er beskrevet som godkendt til Philadelphia-kromosom-positiv kronisk myeloid leukæmi (CML).
-TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **myeloid leukæmi**.
-Forudsigelsen understøttes af **mindst 3 afsluttede fase 3-forsøg** og en lang række publikationer.
-Der er dog ikke tale om egentlig ny anvendelse, men en modelbekræftelse af en allerede kendt indikation.
+Bosutinib er en tyrosinkinasehæmmer, som oprindeligt anvendes til behandling af BCR-ABL1-positiv kronisk myeloid leukæmi (CML) i blastfase. TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **myeloid leukæmi** (score 98,8 %). Forudsigelsen understøttes af **mindst 3 afsluttede fase 3-forsøg**, flere fase 2-forsøg og **20 publikationer**. Bemærk, at den forudsagte indikation i praksis er en eksisterende (on-label) anvendelse og ikke en egentlig repurposing.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Kronisk myeloid leukæmi (CML), BCR-ABL1-positiv, blastfase (fra videngrafen; indikationsteksten i den danske registrering er ikke angivet) |
 | Forudsagt ny indikation | Myeloid leukæmi |
 | TxGNN-forudsigelsesscore | 98,75 % |
 | Evidensniveau | L1 |
@@ -55,53 +53,55 @@ Der er dog ikke tale om egentlig ny anvendelse, men en modelbekræftelse af en a
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Bosutinib er en oralt aktiv dobbelt Src/Abl-tyrosinkinasehæmmer. Den rammer BCR-ABL1, det fusionsprotein der driver Philadelphia-kromosom-positiv CML. Koblingen mellem lægemidlet og sygdommen er derfor direkte og mekanistisk veletableret.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ifølge den offentligt kendte viden er bosutinib en dobbelt Src/Abl-tyrosinkinasehæmmer, som blokerer BCR-ABL1, det onkoprotein, der driver CML. Mekanismen er således udledt af almen viden og ikke af de leverede data.
 
-I den danske registrering er der ingen indikationstekst, og mekanismedata fra DrugBank mangler. Sammenhængen bygger derfor på litteraturen. Her beskrives bosutinib som godkendt til voksne med CML, både nydiagnosticeret og ved resistens eller intolerans over for tidligere behandling.
+Den oprindelige indikation (CML i blastfase) og den forudsagte indikation (myeloid leukæmi) deler samme sygdomsbiologi. Resultaterne af kliniske forsøg bekræfter dette: bosutinib er undersøgt direkte mod imatinib i nydiagnosticeret kronisk fase-CML (BFORE) og i senere behandlingslinjer.
 
-Da bosutinib allerede er etableret i CML-behandling, er forudsigelsen mere en bekræftelse af en kendt indikation end en ægte ny anvendelse.
+Den høje TxGNN-score stemmer overens med denne veletablerede biologi.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Dokumentation fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Væsentligste fund |
+Nedenfor er de 10 mest relevante forsøg.
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT02130557](https://clinicaltrials.gov/study/NCT02130557) | Fase 3 | Afsluttet | 536 | Bosutinib versus imatinib ved nydiagnosticeret kronisk fase-CML (BFORE) |
-| [NCT00574873](https://clinicaltrials.gov/study/NCT00574873) | Fase 3 | Afsluttet | 502 | Bosutinib versus imatinib ved nydiagnosticeret CML; primært endepunkt var cytogenetisk respons efter ét år |
-| [NCT03106779](https://clinicaltrials.gov/study/NCT03106779) | Fase 3 | Afsluttet | 233 | Asciminib versus bosutinib ved kronisk fase-CML efter mindst to tidligere TKI'er (ASCEMBL) |
-| [NCT00261846](https://clinicaltrials.gov/study/NCT00261846) | Fase 1/2 | Afsluttet | 571 | Dosiseskalering og effekt af bosutinib ved Ph+ leukæmier |
-| [NCT03128411](https://clinicaltrials.gov/study/NCT03128411) | Fase 2 | Afsluttet | 64 | Bosutinib som monoterapi hos japanske voksne med nydiagnosticeret kronisk fase-CML |
-| [NCT02810990](https://clinicaltrials.gov/study/NCT02810990) | Fase 2 | Afsluttet | 65 | BEST-studiet: bosutinib hos ældre CML-patienter, der svigtede førstelinjebehandling |
-| [NCT03205267](https://clinicaltrials.gov/study/NCT03205267) | Fase 2 | Ukendt | 127 | Trinvis dosisopstart for at reducere tidlig toksicitet hos patienter med intolerans eller resistens |
-| [NCT04258943](https://clinicaltrials.gov/study/NCT04258943) | Fase 1/2 | Aktiv, rekrutterer ikke | 60 | Pædiatrisk CML: dosisfastlæggelse, sikkerhed og farmakokinetik |
-| [NCT01903733](https://clinicaltrials.gov/study/NCT01903733) | Ikke angivet | Afsluttet | 281 | Forlængelsesstudie med langtidssikkerhed og varighed af klinisk gavn |
-| [NCT06297161](https://clinicaltrials.gov/study/NCT06297161) | Ikke relevant | Aktiv, rekrutterer ikke | 600 | Overvågning efter markedsføring (Bosulif) af sikkerhed og effekt i rutinepraksis |
+| [NCT02130557](https://clinicaltrials.gov/study/NCT02130557) | Fase 3 | Afsluttet | 536 | Bosutinib versus imatinib hos voksne med nydiagnosticeret kronisk fase-CML (BFORE) |
+| [NCT00574873](https://clinicaltrials.gov/study/NCT00574873) | Fase 3 | Afsluttet | 502 | Bosutinib versus imatinib i nydiagnosticeret kronisk fase Ph+ CML; primært endepunkt var cytogenetisk respons efter ét år |
+| [NCT03106779](https://clinicaltrials.gov/study/NCT03106779) | Fase 3 | Afsluttet | 233 | Asciminib versus bosutinib ved CML i kronisk fase efter mindst to tidligere TKI'er (ASCEMBL) |
+| [NCT02810990](https://clinicaltrials.gov/study/NCT02810990) | Fase 2 | Afsluttet | 65 | BEST-studiet: bosutinib hos ældre CML-patienter, hvor tidligere førstelinjebehandling svigtede |
+| [NCT04971226](https://clinicaltrials.gov/study/NCT04971226) | Fase 3 | Aktiv, rekrutterer ikke | 405 | Asciminib versus investigatorvalgt TKI (herunder bosutinib) ved nydiagnosticeret CML; bosutinib er komparator |
+| [NCT06423911](https://clinicaltrials.gov/study/NCT06423911) | Fase 3 | Rekrutterer | 333 | Olverembatinib versus bosutinib (kontrolarm) ved CML i kronisk fase |
+| [NCT00261846](https://clinicaltrials.gov/study/NCT00261846) | Fase 2 | Afsluttet | 571 | Fase 1/2-studie af bosutinib ved Philadelphia-kromosompositive leukæmier |
+| [NCT04258943](https://clinicaltrials.gov/study/NCT04258943) | Fase 1/2 | Aktiv, rekrutterer ikke | 60 | Bosutinib hos børn med nydiagnosticeret eller resistent/intolerant Ph+ CML |
+| [NCT03831776](https://clinicaltrials.gov/study/NCT03831776) | Fase 2 | Afsluttet | 212 | Ropeginterferon i kombination med bosutinib versus bosutinib alene som førstelinjebehandling (NordCML012) |
+| [NCT02311998](https://clinicaltrials.gov/study/NCT02311998) | Fase 1/2 | Afsluttet | 22 | Bosutinib sammen med inotuzumab ozogamicin ved CD22-positiv Ph+ ALL og lymfoid blastfase af CML |
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Væsentligste fund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [29091516](https://pubmed.ncbi.nlm.nih.gov/29091516/) | 2018 | RCT | J Clin Oncol | BFORE: 536 patienter randomiseret 1:1 til bosutinib 400 mg dagligt eller imatinib ved nydiagnosticeret kronisk fase-CML |
-| [35643868](https://pubmed.ncbi.nlm.nih.gov/35643868/) | 2022 | Fase 3-opfølgning | Leukemia | BFORE efter fem år: cirka 60 % (bosutinib) og 58 % (imatinib) var stadig i behandling |
-| [36717654](https://pubmed.ncbi.nlm.nih.gov/36717654/) | 2023 | RCT | Leukemia | ASCEMBL langtidsopfølgning: asciminib 40 mg to gange dagligt versus bosutinib 500 mg dagligt |
-| [34407542](https://pubmed.ncbi.nlm.nih.gov/34407542/) | 2021 | RCT (fase 3) | Blood | Oprindelig ASCEMBL-publikation ved CML efter mindst to tidligere TKI'er |
-| [39164407](https://pubmed.ncbi.nlm.nih.gov/39164407/) | 2024 | Fase 4 | Leukemia | BYOND: 163 forbehandlede CML-patienter; 48,1 % var stadig i behandling ved studiets afslutning |
-| [29773593](https://pubmed.ncbi.nlm.nih.gov/29773593/) | 2018 | Fase 1/2 | Haematologica | Femårsresultater for bosutinib som andenlinjebehandling efter imatinib (n=284) |
-| [32127639](https://pubmed.ncbi.nlm.nih.gov/32127639/) | 2020 | Retningslinje | Leukemia | European LeukemiaNet 2020: anbefalinger for behandling af CML |
-| [40094679](https://pubmed.ncbi.nlm.nih.gov/40094679/) | 2025 | Review | JAMA | Samlet oversigt over CML, herunder diagnostik og behandling |
-| [38033284](https://pubmed.ncbi.nlm.nih.gov/38033284/) | 2024 | Fase 1 | J Clin Oncol | Bosutinib hos pædiatriske patienter med resistent eller intolerant kronisk fase-CML |
-| [30587215](https://pubmed.ncbi.nlm.nih.gov/30587215/) | 2018 | Review | J Hematol Oncol | Ekspertpanel om håndtering af bivirkninger ved bosutinib |
+| [29091516](https://pubmed.ncbi.nlm.nih.gov/29091516/) | 2018 | RCT | J Clin Oncol | BFORE: bosutinib versus imatinib som førstelinjebehandling ved kronisk fase-CML (n=536) |
+| [35643868](https://pubmed.ncbi.nlm.nih.gov/35643868/) | 2022 | RCT | Leukemia | Endelige BFORE-resultater efter fem års opfølgning; cirka 60 % i begge arme fortsatte behandlingen |
+| [36717654](https://pubmed.ncbi.nlm.nih.gov/36717654/) | 2023 | RCT | Leukemia | ASCEMBL: længere opfølgning af asciminib versus bosutinib efter mindst to tidligere TKI'er |
+| [40334072](https://pubmed.ncbi.nlm.nih.gov/40334072/) | 2025 | Opfølgning af RCT | Blood Adv | Asciminib forblev bedre end bosutinib i senlinje CML efter næsten 4 års opfølgning |
+| [34407542](https://pubmed.ncbi.nlm.nih.gov/34407542/) | 2021 | Fase 3-studie | Blood | Primært ASCEMBL-resultat: asciminib versus bosutinib efter mindst to TKI'er |
+| [32127639](https://pubmed.ncbi.nlm.nih.gov/32127639/) | 2020 | Retningslinje | Leukemia | European LeukemiaNet 2020-anbefalinger til behandling af CML |
+| [40094679](https://pubmed.ncbi.nlm.nih.gov/40094679/) | 2025 | Oversigtsartikel | JAMA | Oversigt over diagnostik og behandling af CML |
+| [37088793](https://pubmed.ncbi.nlm.nih.gov/37088793/) | 2023 | Oversigtsartikel | Blood Cancer J | Imatinib, bosutinib, dasatinib og nilotinib har sammenlignelig overlevelse i førstelinjebehandling |
+| [38033284](https://pubmed.ncbi.nlm.nih.gov/38033284/) | 2024 | Klinisk studie | J Clin Oncol | Fase I-del af pædiatrisk studie af bosutinib (ITCC054/COG AAML1921) |
+| [29695943](https://pubmed.ncbi.nlm.nih.gov/29695943/) | 2018 | Oversigtsartikel | J Blood Med | Bosutinib ved CML: patientudvælgelse og perspektiver |
 
 ---
 
-## Oplysninger om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28106768022 | Bosutinib "Sandoz" (Sandoz A/S) | Filmovertrukne tabletter | Indikationstekst ikke angivet i registret |
+| 28106768022 | Bosutinib "Sandoz" (Sandoz A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
@@ -109,20 +109,30 @@ Da bosutinib allerede er etableret i CML-behandling, er forudsigelsen mere en be
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Målrettet behandling (dobbelt Src/Abl-tyrosinkinasehæmmer) |
-| Risiko for myelosuppression | Middel; hæmatologiske bivirkninger som trombocytopeni beskrives i litteraturen |
-| Emetogenicitet | Lav; gastrointestinale bivirkninger er fremtrædende ved bosutinib, se produktresuméet |
-| Monitorering | Fuldt blodbillede med differentialtælling, leverfunktion og nyrefunktion |
-| Håndteringsbeskyttelse | Følg gældende lokale retningslinjer for håndtering af cytostatika og farlige lægemidler |
+| Cytotoksicitetsklassifikation | Målrettet behandling (tyrosinkinasehæmmer, Src/Abl) |
+| Risiko for myelosuppression | Moderat; trombocytopeni og andre hæmatologiske bivirkninger er veldokumenterede (se PMID 30907446 og 37686630) |
+| Emetogenicitet | Der er ikke angivet specifikke data i de indsamlede data; gastrointestinale bivirkninger er karakteristiske for bosutinib (PMID 36230609) |
+| Kontrolpunkter | Fuldt blodbillede med differentialtælling, lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytostatika; se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Hæmatologiske bivirkninger:** Metaanalyser af TKI'er ved CML beskriver anæmi, leukopeni, neutropeni og trombocytopeni.
-- **Lægemiddelinteraktioner:** Der findes en litteraturrapport om en interaktion mellem bosutinib og warfarin (PMID 24359239). Ingen interaktionsdata er registreret i evidenspakken.
+**Lægemiddelinteraktioner** (100 interaktioner registreret; et udvalg nedenfor):
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner.
+- **Alvorlige (Major):** aprepitant, dexamethason, cisaprid, clarithromycin, dolasetron
+- **Moderate:** syrehæmmende midler (famotidin, ranitidin, cimetidin, omeprazol, esomeprazol, rabeprazol, dexlansoprazol), aluminiumhydroxid, calciumcarbonat, loperamid, bisacodyl, clotrimazol, eliglustat
+
+Et fase 1-forsøg (NCT02058277) har undersøgt effekten af aprepitant, en moderat CYP3A-hæmmer, på bosutinibs farmakokinetik. Der er desuden publiceret en interaktion mellem bosutinib og warfarin (PMID 24359239).
+
+Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
+
+## Øvrige forudsigelser (til information)
+
+TxGNN forudsagde også trombocytopeni, makrotrombocytopeni med mitralklapinsufficiens, arvelig trombocytopeni med normale trombocytter og forbigående neonatal trombocytopeni (scorer 98,3-98,6 %). Disse bør **ikke** ses som behandlingsmuligheder: litteraturen beskriver trombocytopeni som en bivirkning af bosutinib, og der er ingen kliniske forsøg, ingen plausibel mekanisme og kun L4-L5-evidens. Anbefaling for disse: **Hold**.
 
 ---
 
@@ -131,14 +141,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Bosutinib har flere afsluttede fase 3-forsøg (BFORE og ASCEMBL) og en direkte mekanistisk kobling til BCR-ABL1 ved CML. Evidensen er stærk, men der er tale om en allerede kendt indikation. De danske data mangler indikationstekst, sikkerhedsoplysninger og mekanismedata.
+Flere afsluttede fase 3-forsøg (BFORE m.fl.) og fase 2-studier understøtter bosutinibs effekt ved CML, og evidensniveauet er L1. Indikationen er dog allerede en eksisterende anvendelse, så beslutningen handler om sikker anvendelse snarere end ny indikation.
 
-De øvrige TxGNN-forudsigelser for bosutinib bør ikke forfølges (beslutning: Hold). Det gælder trombocytopeni og relaterede sjældne tilstande som transient neonatal trombocytopeni og arvelig trombocytopeni. Scoren afspejler sandsynligvis en bivirkningsassociation i vidensgrafen og ikke terapeutisk gavn. Bosutinib er ikke et trombopoietisk middel, og der er ingen forsøg eller litteratur, der understøtter effekt her.
-
-**For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og indikationstekst for MA 28106768022
-- Mekanismedata (MOA) fra DrugBank
-- Bekræftelse af den godkendte CML-indikation i Danmark, herunder behandlingslinje og dosering
+**For at komme videre kræves følgende:**
+- Indikationsteksten for den danske markedsføringstilladelse samt advarsler og kontraindikationer fra produktresuméet (SmPC)
+- Data om virkningsmekanisme fra DrugBank
+- Plan for overvågning af hæmatologiske parametre og lever-/nyrefunktion
+- Gennemgang af interaktionsrisici, især med CYP3A-hæmmere og syrehæmmende midler
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

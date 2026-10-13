@@ -2,7 +2,7 @@
 layout: default
 title: Amprenavir
 parent: Moderat evidens (L3-L4)
-nav_order: 37
+nav_order: 59
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amprenavir: Fra HIV-1-infektion til simian immundefektvirus-infektion
+# Amprenavir: Fra HIV-infektion til simian immundefektvirus-infektion
 
-## Resumé
+## Resumé i én sætning
 
-Amprenavir er en HIV-1-proteasehæmmer, som er udviklet til behandling af HIV-1-infektion. Ifølge oplysningerne i registret er indikationsteksten dog ikke angivet. TxGNN-modellen forudsiger, at stoffet kan have effekt på **simian immundefektvirus-infektion (SIV)**. Forudsigelsen understøttes af **0 kliniske forsøg** og **2 oversigtsartikler (2004)**, som ikke undersøger amprenavir specifikt. SIV er en veterinær og forskningsmæssig model, ikke en menneskelig behandlingsindikation.
+Amprenavir er en HIV-proteasehæmmer, der oprindeligt er anvendt til behandling af HIV-infektion og AIDS.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **simian immundefektvirus-infektion (SIV)**, en infektion hos aber, der bruges som dyremodel.
+Evidensen er begrænset: **0 kliniske forsøg** og **2 oversigtsartikler** fra 2004, som kun indirekte understøtter retningen.
 
 ---
 
@@ -41,7 +43,7 @@ Amprenavir er en HIV-1-proteasehæmmer, som er udviklet til behandling af HIV-1-
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-1-infektion (afledt af lægemiddelklassen, da indikationsteksten ikke er angivet i registret) |
+| Oprindelig indikation | HIV-infektion og AIDS (de data, der er indsamlet til denne rapport, indeholder ingen indikationstekst fra den danske godkendelse) |
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
 | TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L4 |
@@ -53,46 +55,51 @@ Amprenavir er en HIV-1-proteasehæmmer, som er udviklet til behandling af HIV-1-
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger aktuelt ingen detaljerede data om virkningsmekanismen. Ud fra kendt information er amprenavir en HIV-1-proteasehæmmer. Dens effekt på HIV-1 er veletableret, og mekanistisk kan den være relevant for beslægtede lentivirus.
+Data om amprenavirs detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Amprenavir er dog kendt som en HIV-1-proteasehæmmer. Proteasen er afgørende for, at virus kan modnes og blive smitsomt.
 
-SIV-protease er homolog med HIV-protease. Derfor er krydsfølsomhed over for amprenavir *in vitro* biologisk plausibel. Mekanismen kan altså være overførbar, men den er ikke påvist for amprenavir.
+SIV er en nært beslægtet lentivirus med et homologt proteaseenzym, så antiviral følsomhed *in vitro* er biologisk plausibel. De to oversigtsartikler fra 2004 (PMID 15040531 og 15040537) diskuterer følsomheden af HIV-2, SIV og SHIV over for anti-HIV-1-stoffer. Det er indirekte evidens på præklinisk niveau.
 
-De to oversigtsartikler fra 2004 gennemgår følsomheden af HIV-2, SIV og SHIV over for anti-HIV-1-stoffer. De viser imidlertid ikke amprenavirspecifik effekt i SIV-inficerede dyr. Forudsigelsen hviler derfor primært på nærhed i modellens vidensgraf og på en homologiantagelse, ikke på direkte bevis.
+Det er vigtigt, at SIV-infektion er en ikke-human primatmodel og ikke en klinisk indikation hos mennesker. Den translationelle værdi for humant repurposing er derfor meget begrænset. Den høje score afspejler sandsynligvis den tætte sygdomsmæssige slægtskab med HIV/AIDS i vidensgrafen snarere end uafhængig evidens.
 
-Modellen forudsiger desuden andre indikationer med samme score (bl.a. felint erhvervet immundefektsyndrom og en sjælden neuroudviklingsforstyrrelse). For dem foreligger hverken forsøg eller litteratur, og de ser ud til at være artefakter fra vidensgrafen. Forudsigelserne for "AIDS-relateret kompleks" og "kongenit HIV" ligger tæt på den kendte HIV-anvendelse og er ikke egentlig ny anvendelse.
+Andre forudsagte indikationer i listen (felin erhvervet immundefektsyndrom, AIDS-relateret kompleks, medfødt HIV og en sjælden neurologisk udviklingsforstyrrelse) er enten veterinære, ligger inden for den eksisterende HIV-indikation eller mangler en plausibel mekanistisk forbindelse.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [15040531](https://pubmed.ncbi.nlm.nih.gov/15040531/) | 2004 | Oversigtsartikel | Antiviral Therapy | Gennemgår resistens over for antiretrovirale lægemidler ved non-subtype B HIV-1, HIV-2 og SIV. Betydningen for behandling og postekspositionel profylakse fremhæves. Ingen amprenavirspecifik effekt i SIV-inficerede dyr. |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Oversigtsartikel | Antiviral Therapy | Vurderer aktiviteten af 16 godkendte lægemidler og ét eksperimentelt stof (AMD3100) mod HIV-2-, SIV- og SHIV-stammer. Betydningen for behandling og profylakse diskuteres. Ingen dokumenteret amprenavirspecifik effekt i dyremodeller. |
+| [15040531](https://pubmed.ncbi.nlm.nih.gov/15040531/) | 2004 | Oversigtsartikel | Antiviral Therapy | Gennemgår lægemiddelresistens og iboende følsomhed over for antiretrovirale midler hos non-subtype B HIV-1, HIV-2 og SIV, bl.a. med relevans for post-eksponeringsprofylakse |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Oversigtsartikel | Antiviral Therapy | Vurderer antiviral aktivitet af 16 godkendte lægemidler og ét eksperimentelt middel mod HIV-2, SIV og SHIV og diskuterer konsekvenser for behandling og profylakse |
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103050698 | Agenerase | Kapsler, bløde | Glaxo Group Limited |
-
-Indikationsteksten er ikke angivet i registret. Markedsstatus bør verificeres direkte hos Lægemiddelstyrelsen.
+| 28103050698 | Agenerase (Glaxo Group Limited) | Kapsler, bløde | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Interaktioner (blandt 100 registrerede interaktioner, udvalgte alvorlige):**
+- **Alvorlige (Major):** loperamid, triamcinolon, metronidazol, budesonid
+- **Moderate:** bl.a. acarbose, hydrocortison, dexamethason, betamethason, metformin, pioglitazon, alogliptin, albiglutid, canagliflozin, chlorpropamid, alosetron, aprepitant
+- **Mindre (Minor):** cimetidin, clarithromycin
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Det skal ikke tolkes som fravær af interaktioner. Et enkelt case-rapport (PMID 11483161, 2001) beskriver spontan intrakraniel blødning hos en HIV-inficeret ung med hæmofili under amprenavirbehandling, hvilket kalder på opmærksomhed omkring blødningsrisiko.
+**Sygdomme med kontraindikationssignal i vidensgrafen** (ikke fra produktresuméet): bl.a. hypertension, leversygdom, hyperglykæmi, diabetes mellitus og diabetisk ketoacidose, hypertriglyceridæmi, koronararteriesygdom og myokardieinfarkt, blodkoagulationsforstyrrelser og hæmofili, hæmolytisk anæmi, nefrolitiasis, kronisk hepatitis B og C samt lipodystrofi.
+
+Relevant er også en case-rapport (PMID 11483161) om mulig intrakraniel blødning ved amprenavir hos en HIV-smittet person med hæmofili A.
+
+For officielle advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -101,16 +108,13 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Det s
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje modelscore (99,89 %) støttes ikke af kliniske forsøg og kun af to generelle oversigtsartikler uden amprenavirspecifikke data. SIV er desuden en veterinær og forskningsmæssig model uden menneskelig behandlingsrelevans, så kandidaten bør ikke føres videre som klinisk repurposing.
+Forudsigelsen bygger på model og to indirekte oversigtsartikler. SIV-infektion er en dyremodel uden klinisk indikation hos mennesker, og der er ingen kliniske forsøg. Amprenavir er desuden i vid udstrækning afløst af fosamprenavir og nyere midler, hvilket begrænser den videre udvikling.
 
-**For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
+**For at komme videre er der brug for:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Amprenavirspecifikke *in vitro*- eller dyredata for SIV
-- Afklaring af, om SIV-indikationen overhovedet er relevant for en human anvendelse
-- Verifikation af indikationsteksten og markedsstatus for Agenerase i registret
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser fra modellen skal valideres klinisk, før de kan anvendes.*
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé hos Lægemiddelstyrelsen
+- Direkte præklinisk evidens for amprenavir mod SIV
+- En vurdering af, om en human eller veterinær indikation overhovedet er relevant
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

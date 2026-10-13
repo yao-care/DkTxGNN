@@ -2,7 +2,7 @@
 layout: default
 title: Propofol
 parent: Høj evidens (L1-L2)
-nav_order: 362
+nav_order: 691
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Propofol: Fra generel anæstesi og sedation til migræne
+# Propofol: Fra generel anæstesi til migræne
 
-## Resumé i én sætning
+## Resumé i en sætning
 
-Propofol er et intravenøst generelt anæstetikum, der oprindeligt bruges til anæstesi og sedation.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **migræne (migraine disorder)**.
-Forudsigelsen understøttes af **5 kliniske forsøg** (heraf 3 direkte relevante) og **20 publikationer**, herunder flere randomiserede studier.
+Propofol er et intravenøst narkosemiddel, der anvendes til bedøvelse og sedation. TxGNN-modellen forudsiger, at det kan have effekt ved **migræne** (migraine disorder), og dette understøttes af **3 kliniske forsøg** og **20 publikationer**, heriblandt flere randomiserede studier og systematiske reviews fra akutafdelinger.
 
 ---
 
@@ -43,96 +41,95 @@ Forudsigelsen understøttes af **5 kliniske forsøg** (heraf 3 direkte relevante
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Generel anæstesi og sedation (indikationsteksten er ikke angivet i den danske godkendelse) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Propofol er kendt som intravenøst anæstesi- og sedationsmiddel. |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 99,69 % |
 | Evidensniveau | L2 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails) |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede mekanismedata (MOA) fra DrugBank mangler i datapakken. Ud fra den mekanistiske vurdering er propofol en positiv allosterisk modulator af GABA-A-receptoren. Prækliniske data tyder på, at stoffet kan hæmme *cortical spreading depression* (kortikal spredningsdepression, CSD) og dæmpe trigeminovaskulær nociceptiv signalering. Begge mekanismer anses for centrale i migrænens patofysiologi.
+Detaljerede data om propofols virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra den kendte farmakologi er propofol en positiv allosterisk modulator af GABA-A-receptoren. Den øgede GABA-erge hæmning kan dæmpe smertesignaler i det trigeminovaskulære system og den kortikale hyperexcitabilitet, som man mener spiller en rolle ved migræne.
 
-Propofol er et hurtigtvirkende sedativum og hypnotikum, og anekdotiske rapporter har beskrevet, at det kan afbryde svær, behandlingsresistent migræne. Allerede i 2000 beskrev en case-serie fra et hovedpinecenter propofols virkning ved vedvarende migræne. Senere studier har undersøgt lavdosis (subanæstetisk) propofol som akut behandling på akutmodtagelser.
+Prækliniske data peger i samme retning: et derivat, propofolhemisuccinat, hæmmer kortikal spreading depression, som er den neurofysiologiske forklaring på migrænens aura (PMID 22390898). Det giver en plausibel mekanisme for en afkortende (abortiv) effekt ved refraktær migræne.
 
-Den stærkeste evidens gælder akut, refraktær eller akutmodtagelsesbaseret rescue-behandling, ikke forebyggelse. Brugen er begrænset til overvågede omgivelser på grund af risiko for sedation og respirationsdepression. Et kommentarindlæg i litteraturen (PMID 32705803) stiller desuden spørgsmålet, om brugen er berettiget, bare fordi den er mulig.
+Forholdet mellem den oprindelige brug (anæstesi/sedation) og migræne er derfor primært mekanistisk og ikke baseret på ensartet indikation. Anvendelsen ved migræne sker i subanæstetiske lavdoser, typisk på akutafdelinger, hvor førstevalgsbehandling ikke har virket.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Fase 2/3 | Afsluttet | 74 | Lavdosis propofol som abortiv behandling af pædiatrisk migræne på akutmodtagelsen. Direkte relevant og det højest rangerede forsøg |
-| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | Ikke relevant (NA) | Afsluttet | 40 | Lavdosis propofolinfusion som abortiv behandling ved pædiatrisk migræne. Mål: effekt, sikre doseringsgrænser og varighed af effekten. Lille stikprøve |
-| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | Ikke relevant (NA) | Afbrudt | 12 | Lavdosis propofol ved svær refraktær migræne på akutmodtagelsen. Afbrudt med kun 12 deltagere, så bidraget til effektvurderingen er ringe |
-| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | Ikke relevant (NA) | Ukendt | 130 | Sevofluran versus propofol til anæstesivedligeholdelse med postoperativ hovedpine som udfald. Undersøger propofol som anæstetikum, ikke som migrænebehandling |
-| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | Ikke relevant (NA) | Afsluttet | 315 | Elektroakupunktur ved off-pump koronar bypass-operation. Propofol er ikke interventionen, så forsøget har lav relevans for denne indikation |
-
-Ingen EudraCT-identifikatorer er tilgængelige i datapakken.
+| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Fase 2/3 | Afsluttet | 74 | Lavdosis propofol som abortiv behandling af migræne hos børn på akutafdeling |
+| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | Ikke angivet (NA) | Afsluttet | 40 | Lavdosis propofolinfusion ved pædiatrisk migræne; undersøger effekt, sikre doser og effektens varighed |
+| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | Ikke angivet (NA) | Afbrudt | 12 | Lavdosis propofol hos voksne med svær refraktær migræne på akutafdeling; for lille til at vurdere effekt |
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [33070469](https://pubmed.ncbi.nlm.nih.gov/33070469/) | 2021 | RCT | Emerg Med Australas | Dobbeltblindet sammenligning af propofol og placebo hos voksne akutmodtagelsespatienter med akut migræne. Primært udfald: hovedpineophør efter 1 time |
-| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | J Emerg Med | Prospektivt randomiseret studie af lavdosis propofol ved pædiatrisk migræne. Vurderer effekt, bivirkninger og opholdslængde |
-| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | Pilot-RCT | Emerg Med Australas | Propofol i procedural sedationsdosis versus standardbehandling som initial migrænebehandling på akutmodtagelsen |
-| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Arch Acad Emerg Med | Sumatriptan/propofol versus sumatriptan/placebo ved akut migræne |
-| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Arch Acad Emerg Med | Dobbeltblindet sammenligning af propofol + granisetron med propofol + metoclopramid ved symptomhåndtering af akut migræne |
-| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Systematisk review | Acad Emerg Med | Gennemgang af sikkerhed og effekt af propofol ved akut migræne på akutmodtagelsen. Forfatterne konkluderer, at propofol er mindre grundigt undersøgt, men er blevet foreslået som en mulighed |
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Retningslinje | Headache | Opdatering af American Headache Societys retningslinje for parenteral akutbehandling af migræne på akutmodtagelsen |
-| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | Systematisk review og netværksanalyse | Headache | Sammenligning af parenterale stoffer med hensyn til at mindske tilbagefald efter akut migræne |
-| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Review | Expert Rev Neurother | Beskriver propofols profil ved superrefraktær migræne i subanæstetiske doser |
-| [32705803](https://pubmed.ncbi.nlm.nih.gov/32705803/) | 2020 | Kommentar | Emerg Med Australas | Stiller kritisk spørgsmålet om, hvorvidt propofol bør bruges ved migræne, bare fordi det er muligt |
-
-Resuméerne i datapakken indeholder ikke resultattal. Tabellen gengiver derfor formål og design, ikke effektestimater.
+| [33070469](https://pubmed.ncbi.nlm.nih.gov/33070469/) | 2021 | RCT | Emerg Med Australas | Dobbeltblindet sammenligning af propofol og placebo ved akut migræne hos voksne på akutafdeling |
+| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | J Emerg Med | Lavdosis propofol ved pædiatrisk migræne; potentielt kortere indlæggelsestid |
+| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | Pilot-RCT | Emerg Med Australas | Propofol i sedationsdosis versus standardbehandling ved migræne på akutafdeling |
+| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Arch Acad Emerg Med | Sumatriptan plus propofol versus sumatriptan alene ved akut migræne |
+| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Arch Acad Emerg Med | Propofol plus granisetron versus propofol plus metoclopramid ved akut migræne |
+| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Systematisk review | Acad Emerg Med | Gennemgang af sikkerhed og effekt af propofol ved akut migræne på akutafdeling; begrænset evidens |
+| [26790849](https://pubmed.ncbi.nlm.nih.gov/26790849/) | 2016 | Systematisk review | Headache | Kvalitativ gennemgang af akutbehandling af pædiatrisk migræne |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Retningslinje | Headache | Opdatering af American Headache Societys retningslinje for parenteral akutbehandling af migræne |
+| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | Systematisk review/netværksanalyse | Headache | Sammenligning af parenterale midler til at reducere tilbagefald efter akut migræne |
+| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Oversigtsartikel | Expert Rev Neurother | Propofol i subanæstetiske doser ved refraktær migræne |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105054212 | Norfol (Norbrook Laboratories (Ireland) Limited) | Injektionsvæske, emulsion | Ikke angivet i datapakken |
+| 28105054212 | Norfol (Norbrook Laboratories (Ireland) Limited) | Injektionsvæske, emulsion | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Sedation og respirationsdepression**: Brug ved migræne er begrænset til overvågede omgivelser, f.eks. akutmodtagelsen.
-- **Koronar vasospasme**: To kasuistikker beskriver koronararteriespasme afsløret eller udløst under anæstesi med propofol ([PMID 19364017](https://pubmed.ncbi.nlm.nih.gov/19364017/), [PMID 20339883](https://pubmed.ncbi.nlm.nih.gov/20339883/)). Det er et muligt sikkerhedssignal, ikke bevis for en gavnlig effekt.
+- **Mulige kontraindikationer fra vidensgrafen (ikke produktresumétekst)**: Vidensgrafen (PrimeKG) markerer sygdomsrelationer for epilepsi, hypotension, respirationssvigt, intrakraniel arteriosklerose, arvelige lipidstofskifteforstyrrelser og familiær hyperlipidæmi. Disse skal verificeres mod produktresuméet.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner. Langt de fleste er af moderat grad, fx med morfin, opium, ondansetron, granisetron, dolasetron, clarithromycin, levofloxacin, cisapride, famotidin, loperamid og flere afføringsmidler. Interaktionen med metronidazol er af mindre grad.
+- **Andre signaler**: To kasuistikker beskriver koronarspasme udløst eller afsløret under anæstesi med propofol, hvilket er et muligt sikkerhedssignal.
 
-Datapakken indeholder ingen oplysninger om kontraindikationer eller interaktioner. Se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer, da disse ikke er tilgængelige i de indsamlede data.
+
+---
+
+## Øvrige forudsagte indikationer (kort)
+
+| Forudsagt indikation | Score | Evidensniveau | Anbefaling |
+|------|------|------|------|
+| Migræne med hjernestammeaura | 99,58 % | L3 | Forskningsspørgsmål (evidensen er lånt fra migræne generelt) |
+| Prinzmetal-angina | 99,23 % | L4 | Hold (kun kasuistikker om udløst koronarspasme, snarere et sikkerhedssignal) |
+| Nefrogent syndrom med uhensigtsmæssig antidiurese | 99,20 % | L5 | Hold (ingen studier eller kendt mekanisme) |
+| Tourettes syndrom | 99,03 % | L4 | Hold (propofol er kun anvendt som sedativum ved dyb hjernestimulation) |
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails)**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Der foreligger et afsluttet fase 2/3-forsøg og flere RCT'er for akut migræne på akutmodtagelsen, og mekanismen (GABA-A-modulation, hæmning af CSD) er plausibel. Evidensen er dog begrænset til små studier og kun akut/refraktær brug, og de kliniske forsøg er ikke bekræftende fase 3-forsøg. Evidensniveauet er derfor L2.
-- Øvrige forudsigelser har svagere evidens og bør ikke følges op nu:
-  - Migræne med hjernestammeaura har kun indirekte evidens (L4, forskningsspørgsmål).
-  - Prinzmetals angina (L4) er snarere et sikkerhedssignal end en indikation (Hold).
-  - Nefrogent syndrom med uhensigtsmæssig antidiurese (L5) er kun modelbaseret, uden kendt mekanistisk link (Hold).
-  - Tourettes syndrom (L4) er kun procedural brug under dyb hjernestimulation (Hold).
+Der foreligger et afsluttet fase 2/3-forsøg, flere RCT'er og systematiske reviews fra akutafdelinger samt en plausibel GABA-erg mekanisme, hvilket giver evidensniveau L2. Evidensen er dog overvejende fra små studier, hvoraf kun ét er registreret som fase 2/3, og propofol kræver intravenøs administration under overvågning.
 
 **For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Det mangler og blokerer den sikkerhedsmæssige screening.
-- Mekanismedata fra DrugBank.
-- Gennemgang af de fulde tekster for effektestimater fra RCT'erne, især PMID 33070469 og 29456086.
-- Klinisk protokol for overvågede omgivelser, dosering og håndtering af sedation og respirationsdepression.
-- Afklaring af, om brug uden for indikationen er foreneligt med den danske markedsføringstilladelse.
-
-*Dette materiale er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser fra modellen kræver klinisk validering, før de kan anvendes i praksis.*
+- Gennemgang af det danske produktresumé for advarsler og kontraindikationer (disse mangler i de indsamlede data)
+- Afklaring af virkningsmekanisme (MOA) fra DrugBank
+- Større, veldesignede fase 3-forsøg med fastlagte dosis- og overvågningsprotokoller
+- Vurdering af administrationsvej og setting (akutafdeling med monitorering) og tilgængelighed i Danmark
+- Særlig sikkerhedsvurdering hos patienter med hypotension, respirationsproblemer, epilepsi og koronar vasospasme
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Linaclotide
 parent: Kun modelforudsigelse (L5)
-nav_order: 266
+nav_order: 499
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Linaclotid: Fra forstoppelsesrelaterede mave-tarmlidelser til Cauda equina-syndrom
+# Linaclotid: Fra irritabel tarm (IBS) til cauda equina-syndrom
 
-## Resumé
+## Resumé i én sætning
 
-Linaclotid er en guanylatcyklase-C-agonist, der virker lokalt i tarmen. Lægemidlet er markedsført i Danmark som Constella, men den registrerede indikationstekst indgår ikke i datagrundlaget. TxGNN-modellen forudsiger, at det kan have effekt ved **cauda equina-syndrom**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den høje score skyldes sandsynligvis en artefakt i vidensgrafen.
+Linaclotid er en guanylatcyklase-C-agonist, der oprindeligt anvendes til behandling af irritabel tarm-syndrom (IBS).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **cauda equina-syndrom**.
+Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning, så forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,7 +43,7 @@ Linaclotid er en guanylatcyklase-C-agonist, der virker lokalt i tarmen. Lægemid
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Anvendelsen er typisk IBS med forstoppelse eller kronisk forstoppelse |
+| Oprindelig indikation | Irritabel tarm-syndrom (ifølge vidensgrafen; den danske godkendelse har ingen registreret indikationstekst) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
 | TxGNN-forudsigelsesscore | 99,96 % |
 | Evidensniveau | L5 |
@@ -53,42 +55,48 @@ Linaclotid er en guanylatcyklase-C-agonist, der virker lokalt i tarmen. Lægemid
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i kildedataene. Linaclotid er en guanylatcyklase-C-agonist, der øger cGMP i tarmen og kun absorberes minimalt systemisk. Virkningen er veldokumenteret ved forstoppelsesrelaterede tarmlidelser, men ikke ved nervesygdomme.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden er linaclotid en guanylatcyklase-C (GC-C)-agonist, der virker lokalt på tarmens epitel og kun absorberes minimalt systemisk. Effekten er påvist ved IBS, hvor den øger tarmens cGMP og sekretion og kan dæmpe visceral smerte.
 
-Der kan være en svag, indirekte sammenhæng. Cauda equina-syndrom medfører ofte neurogen tarmdysfunktion og forstoppelse, og linaclotid kunne i teorien lindre disse symptomer. Det er dog ikke sandsynligt, at lægemidlet påvirker den underliggende årsag, nemlig kompression af nerverødder. Tilstanden er et kirurgisk akutområde. Den høje modelscore bør derfor tolkes med stor forsigtighed.
+Cauda equina-syndrom er en neurologisk kompressionstilstand i nerverødderne i lændehvirvelsøjlen. Der er ikke påvist nogen mekanistisk sammenhæng med linaclotids virkning. Den eneste tænkelige forbindelse er symptomatisk, nemlig neurogen tarmdysfunktion og forstoppelse, hvilket ikke er en sygdomsmodificerende effekt.
 
-**Øvrige forudsigelser (sammenlagt, da hver optrådte to gange i input):**
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Neurogen blære (markeret som forældet term i ontologien) | 99,89 % | L5 | Spekulativ. Sandsynligvis en artefakt i begrebsmapningen |
-| Søvnløshed | 99,51 % | L5 | Ingen troværdig mekanistisk vej. Højst en indirekte effekt via bedre mave-tarmsymptomer |
+Den høje TxGNN-score bør derfor tolkes forsigtigt. Den er en modelforudsigelse uden understøttende kliniske forsøg eller litteratur.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ikke registreret nogen relaterede kliniske forsøg.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104989611 | Constella (AbbVie Deutschland GmbH & Co. KG) | Kapsler, hårde | Ikke angivet i datagrundlaget |
+| 28104989611 | Constella (AbbVie Deutschland GmbH & Co. KG) | Kapsler, hårde | Indikationstekst ikke registreret |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige sikkerhedsdata i kildedataene, og interaktionssøgningen gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er i de indsamlede data registreret **56 lægemiddelinteraktioner** (kilde: DDInter). Blandt de 20 viste er følgende af moderat betydning:
+
+- **Levonorgestrel, ethinylestradiol, norethisteron** (hormonelle præventionsmidler): moderat interaktion
+- **Levothyroxin, svinethyroidea (thyroid, porcine)**: moderat interaktion
+
+De øvrige viste interaktioner er klassificeret som mindre (minor), blandt andet:
+
+- Protonpumpehæmmere (rabeprazol, esomeprazol, dexlansoprazol)
+- NSAID (ketorolac, ibuprofen, diclofenac, oxaprozin, bromfenac)
+- Laksantia (bisacodyl, natriumpicosulfat, docusat, ricinusolie, polyethylenglycol med elektrolytter, Frangula purshiana-bark, mikrokrystallinsk cellulose)
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -97,13 +105,13 @@ Der er ingen tilgængelige sikkerhedsdata i kildedataene, og interaktionssøgnin
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen (L5) uden forsøg eller litteratur. Linaclotid har desuden minimal systemisk absorption, og der er ingen plausibel effekt på årsagen til cauda equina-syndrom. Sikkerhedsdata mangler helt.
+Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ingen etableret mekanistisk sammenhæng mellem linaclotids lokale tarmvirkning og cauda equina-syndrom. Et eventuelt gavnligt bidrag vil højst være symptomatisk (neurogen tarmdysfunktion).
 
 **For at komme videre kræves følgende:**
-- Download og gennemgang af produktresuméet fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Data om virkningsmekanisme (MOA), fx fra DrugBank
-- Bekræftelse af den godkendte indikation for Constella i Danmark
-- En klinisk vurdering af, om symptomlindring af neurogen tarmdysfunktion er et relevant og afgrænset mål, adskilt fra behandlingen af selve cauda equina-syndromet
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Prækliniske eller kliniske studier, der understøtter en effekt ved cauda equina-syndrom, f.eks. på neurogen tarmdysfunktion
+- Afklaring af godkendt indikationstekst for Constella i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

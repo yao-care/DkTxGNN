@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Triazolam
-parent: Moderat evidens (L3-L4)
-nav_order: 454
-evidence_level: L3
+parent: Kun modelforudsigelse (L5)
+nav_order: 858
+evidence_level: L5
 indication_count: 2
 ---
 
 # Triazolam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Triazolam: Fra benzodiazepin-sovemiddel til søvnforstyrrelse (indsovnings- og søvnvedligeholdelsesbesvær)
+# Triazolam: Fra insomni til søvnforstyrrelse (indsovningsbesvær og søvnvedligeholdelse)
 
-## Resumé
+## Resumé i én sætning
 
-Triazolam er et kortvirkende benzodiazepin, som i litteraturen beskrives som sovemiddel (hypnotikum). Den danske registrering indeholder ingen tekst om godkendt indikation.
-TxGNN-modellen forudsiger, at stoffet kan være effektivt ved **søvnforstyrrelse (indsovnings- og søvnvedligeholdelsesbesvær)**.
-Der er **0 registrerede kliniske forsøg** og **20 publikationer** (primært reviews, retningslinjer og metaanalyser). Forudsigelsen svarer sandsynligvis til en allerede kendt anvendelse og er derfor ikke en egentlig ny indikation.
+Triazolam er et kortidsvirkende benzodiazepin, der oprindeligt anvendes til behandling af insomni.
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **søvnforstyrrelser med problemer med at falde i søvn og opretholde søvnen**, men denne forudsagte indikation ligger meget tæt på den oprindelige.
+Der er **ingen registrerede kliniske forsøg** og **20 publikationer** (primært oversigtsartikler og retningslinjer) i de data, der er sammenstillet til denne rapport.
 
 ---
 
@@ -43,64 +43,68 @@ Der er **0 registrerede kliniske forsøg** og **20 publikationer** (primært rev
 
 | Punkt | Indhold |
 |------|------|
-| Prædikteret ny indikation | Søvnforstyrrelse, indsovnings- og søvnvedligeholdelsesbesvær |
+| Oprindelig indikation | Insomni (godkendt indikationstekst er ikke angivet i de danske registerdata) |
+| Forudsagt ny indikation | Søvnforstyrrelse, problemer med at falde i søvn og opretholde søvn |
 | TxGNN-forudsigelsesscore | 99,72 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
+| Evidensniveau | L5 (ingen kliniske forsøg; litteraturen består primært af oversigter og retningslinjer, uden klassificering af studietype) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Ud fra de tilgængelige oplysninger er triazolam et benzodiazepin, og det er rimeligt, at det kan anvendes ved søvnforstyrrelser. Et studie i evidensgrundlaget (PMID 19682231) beskriver benzodiazepiner og lignende stoffer som allosteriske aktivatorer ved benzodiazepinbindingsstedet på GABA(A)-receptorkomplekset. Denne mekanisme bruges almindeligt til behandling af søvnløshed.
+Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen. Ud fra kendt information er triazolam et benzodiazepin-hypnotikum, hvis effekt ved insomni er veletableret, og mekanistisk kan det være anvendeligt ved søvnforstyrrelser med indsovnings- og vedligeholdelsesproblemer.
 
-Flere publikationer behandler triazolam direkte som sovemiddel. Det gælder blandt andet en sammenligning med zolpidem (PMID 9161660), en gennemgang af rebound-insomni (PMID 2567741) og en vurdering af kortvirkende hypnotika (PMID 8573298). Forudsigelsen afspejler derfor sandsynligvis en eksisterende klinisk anvendelse snarere end en reel omlægning til et nyt sygdomsområde.
-
-Den danske registrering (Halcion) indeholder ikke tekst om godkendt indikation, så en direkte sammenligning med den danske godkendelse kan ikke foretages.
+Det er vigtigt at bemærke, at den forudsagte indikation (problemer med at falde i søvn og opretholde søvn) i praksis er en beskrivelse af insomni. Forudsigelsen repræsenterer derfor næppe en egentlig ny anvendelse, men snarere en bekræftelse af den eksisterende indikation. Det begrænser værdien af analysen som repurposing-kandidat.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpointer |
+Studietypen er ikke klassificeret i de sammenstillede data. Typen nedenfor er udledt af titlen.
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Systematisk review og netværksmetaanalyse | Sleep | Sammenligner effekt og sikkerhed af sovemidler ved søvnløshed hos ældre |
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Klinisk retningslinje | J Clin Sleep Med | AASM-retningslinje for farmakologisk behandling af kronisk insomni hos voksne, med fokus på enkeltstoffer |
-| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | Systematisk review og metaanalyse af RCT'er | Psychiatry Clin Neurosci | Effekt og sikkerhed af sovemidler (herunder benzodiazepiner) sammen med antidepressiva ved depression med insomni |
-| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Review | Ann Pharmacother | Sammenligner zolpidem med triazolam med fokus på effekt og sikkerhed hos mennesker |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Review | J Clin Psychopharmacol | Gennemgang af søvnlaboratoriestudier af rebound-insomni efter seponering af kortvirkende benzodiazepiner, herunder triazolam |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs Aging | Anbefalinger til farmakologisk behandling af insomni hos ældre |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | Sikkerhed og effekt af sovemidler hos ældre |
-| [19682231](https://pubmed.ncbi.nlm.nih.gov/19682231/) | 2010 | Eksperimentelt studie | J Sleep Res | Undersøger triazolams og zolpidems effekt på søvnafhængig motorisk indlæring |
-| [8573298](https://pubmed.ncbi.nlm.nih.gov/8573298/) | 1995 | Review | Drug Saf | Vurdering af kortvirkende sovemidler |
-| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Review | J Clin Psychiatry | Farmakologi for benzodiazepiner som sovemidler; triazolam og temazepam nævnes som kortvirkende alternativer til flurazepam |
+| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Klinisk retningslinje | J Clin Sleep Med | AASM's retningslinje for farmakologisk behandling af kronisk insomni hos voksne, med fokus på individuelle lægemidler |
+| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Systematisk review/netværksmetaanalyse | Sleep | Sammenligning af effekt og sikkerhed af hypnotika ved insomni hos ældre |
+| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | Systematisk review/netværksmetaanalyse af RCT'er | Eur Neuropsychopharmacol | Resteffekter af sovemedicin på kørefærdighed |
+| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | Systematisk review/metaanalyse af RCT'er | Psychiatry Clin Neurosci | Effekt og sikkerhed af sovemedicin (inkl. benzodiazepiner) hos patienter med depression og insomni |
+| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Review | J Clin Psychopharmacol | Rebound-insomni efter seponering af kortidsvirkende benzodiazepiner, herunder triazolam |
+| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Review | Ann Pharmacother | Sammenligning af zolpidem og triazolam mht. effekt og sikkerhed |
+| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs Aging | Anbefalinger for farmakologisk behandling af insomni hos ældre |
+| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | Sikkerhed og effekt af sovemedicin hos ældre |
+| [8573298](https://pubmed.ncbi.nlm.nih.gov/8573298/) | 1995 | Review | Drug Saf | Vurdering af kortidsvirkende hypnotika |
+| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Review | J Clin Psychiatry | Farmakologi for benzodiazepin-hypnotika |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform |
-|---------|------|------|
-| 28105436514 | Halcion (2care4 ApS) | Tabletter |
-
-Der er ingen oplysninger om godkendt indikation i den danske registrering.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105436514 | Halcion (2care4 ApS) | Tabletter | Indikationstekst ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner**: Der er ikke fundet registrerede interaktioner i den tilgængelige datakilde.
-- **Fra litteraturen**: En gennemgang (PMID 2567741) peger på, at rebound-insomni er en reel mulighed efter seponering af triazolam. Et studie (PMID 19682231) har undersøgt effekter på søvnafhængig motorisk indlæring.
+**Kontraindikationer/risici ifølge vidensgrafen (ikke baseret på produktresumétekst):**
+Vidensgrafen indeholder kontraindikationer for bl.a. angstlidelse, neurotisk lidelse, dysthymi, nyresygdom, leversygdom, galdeblæresygdom, psykotiske lidelser (inkl. skizoaffektiv lidelse), obstruktiv søvnapnø og søvnapnøsyndrom, kongenit central hypoventilation, myasthenia gravis og andre sygdomme i den neuromuskulære overgang samt stofmisbrug/afhængighed.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+**Lægemiddelinteraktioner (100 registrerede; udvalgte eksempler):**
+- **Alvorlig (Major):** Morfin (risiko for additiv sedation og respirationsdepression).
+- **Moderat:** Clarithromycin, cimetidin, omeprazol, ranitidin, bupropion, aprepitant, metoclopramid, miconazol, clotrimazol, dronabinol, nabilon, eluxadolin og teduglutid.
+- **Mindre:** Dexamethason, betamethason, prednison, magnesiumoxid, aluminiumhydroxid og calciumcarbonat.
+
+Litteraturen peger desuden på rebound-insomni efter seponering, resteffekter på kørefærdighed og risiko for misbrug og afhængighed. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -109,13 +113,14 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen registrerede kliniske forsøg, og evidensen består af reviews, retningslinjer og metaanalyser. Forudsigelsen ligner en allerede kendt anvendelse som sovemiddel snarere end en ny indikation. Derudover mangler sikkerhedsoplysninger fra det danske produktresumé, hvilket blokerer den videre sikkerhedsvurdering.
+Den forudsagte indikation er i praksis identisk med den oprindelige (insomni), så der er ingen reel ny anvendelse at vurdere. Der er ingen kliniske forsøg, litteraturen er ikke klassificeret efter studietype, og sikkerhedsdata fra produktresuméet mangler.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
-- Detaljerede data om virkningsmekanisme, fx via DrugBank
-- Afklaring af, om den prædikterede indikation er identisk med den danske godkendte indikation
-- Klassificering af de udvalgte publikationer efter studietype og relevans
+- Hentning og gennemgang af produktresuméet (SmPC) for Halcion fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Data om virkningsmekanisme fra DrugBank
+- Afklaring af, om der findes en reelt ny indikation ud over den allerede kendte insomni
+- Klassificering af litteraturen efter studietype og relevans
+- Vurdering af risici ved afhængighed, rebound-insomni og interaktion med opioider
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

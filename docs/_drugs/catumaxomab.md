@@ -2,7 +2,7 @@
 layout: default
 title: Catumaxomab
 parent: Kun modelforudsigelse (L5)
-nav_order: 98
+nav_order: 167
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Catumaxomab: Fra malign ascites til svær ikke-proliferativ diabetisk retinopati
+# Catumaxomab: Fra ikke-angivet oprindelig indikation til svær non-proliferativ diabetisk retinopati
 
 ## Resumé i én sætning
 
-Catumaxomab er et trifunktionelt bispecifikt antistof (EpCAM × CD3), som markedsføres i Danmark under navnet Korjuny. Det anvendes i onkologi, og godkendelsen i EU har været til EpCAM-positiv malign ascites. TxGNN-modellen forudsiger, at det kan virke ved **svær ikke-proliferativ diabetisk retinopati**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Catumaxomab er et trifunktionelt bispecifikt antistof (anti-EpCAM × anti-CD3), som er markedsført i Danmark under navnet Korjuny. De data, der er indsamlet til denne rapport, angiver dog ingen oprindelig indikation.
+TxGNN-modellen forudsiger, at det kan have effekt ved **svær non-proliferativ diabetisk retinopati**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,8 +42,8 @@ Catumaxomab er et trifunktionelt bispecifikt antistof (EpCAM × CD3), som marked
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Malign ascites hos EpCAM-positive karcinomer (fremgår af evidensgrundlagets mekanistiske vurdering; indikationsteksten i den danske registrering er ikke oplyst) |
-| Forudsagt ny indikation | Svær ikke-proliferativ diabetisk retinopati |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for Korjuny er tom) |
+| Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
 | TxGNN-forudsigelsesscore | 99,64 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -53,40 +54,42 @@ Catumaxomab er et trifunktionelt bispecifikt antistof (EpCAM × CD3), som marked
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede mekanistiske data (MOA) er ikke tilgængelige i DrugBank-udtrækket. Catumaxomab er dog et bispecifikt antistof, der binder EpCAM på tumorceller og CD3 på T-celler. Fc-delen rekrutterer desuden accessoriske immunceller. Resultatet er en immunmedieret destruktion af EpCAM-positive tumorceller.
+Catumaxomab binder EpCAM på tumorceller og CD3 på T-celler, og via Fc-delen rekrutteres yderligere immunceller (accessoriske celler). Dermed omdirigeres immunsystemet mod EpCAM-positive tumorceller. Ifølge farmakologidata er CD3E identificeret som det primære molekylære mål. Detaljerede data om virkningsmekanisme er ellers ikke tilgængelige i de indsamlede data, og der er ikke angivet nogen oprindelig indikation, som forudsigelsen kan forankres i.
 
-Diabetisk retinopati er en mikrovaskulær og neurodegenerativ sygdom uden kendt EpCAM-drevet patologi. Der er derfor ikke identificeret nogen plausibel mekanistisk sammenhæng mellem den oprindelige onkologiske anvendelse og den forudsagte indikation. Den høje score (0,996) skyldes sandsynligvis en artefakt i vidensgrafen, især fordi kilderegistreringen ikke har dokumenterede oprindelige indikationer eller virkningsmekanisme. CD3-medieret immunaktivering kunne desuden indebære risiko for okulær inflammation.
+Der er ikke påvist nogen mekanistisk sammenhæng mellem catumaxomab og diabetisk retinopati. Sygdommen drives af hyperglykæmi-induceret mikrovaskulær skade, VEGF-medieret karlækage og neovaskularisering og er ikke en EpCAM-drevet eller T-celle-omdirigeringsfølsom sygdom. Der findes desuden veletablerede behandlinger (anti-VEGF, laserfotokoagulation, kortikosteroidimplantater). Systemisk eller intravitreal immunaktivering vil give sikkerhedsmæssige bekymringer, f.eks. cytokinfrigivelse og inflammation i øjet.
 
-Modellen har også forudsagt følgende indikationer, alle uden kliniske eller litterære data:
+TxGNN-scoren er en grafbaseret forudsigelse og skal ikke tolkes som klinisk evidens.
 
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Lægemiddelinduceret osteoporose | 99,58 % | Ingen plausibel mekanistisk sammenhæng (cytokinfrigivelse ville i givet fald være en bivirkning) |
-| Diabetisk retinopati | 99,47 % | Overordnet term til ovenstående, samme svage grundlag |
-| Diabetisk katarakt | 98,45 % | Ingen plausibel sammenhæng (polyol-vej og oxidativt stress i linsen) |
-| Sarkomatoid overgangscellekarcinom i nyrebækkenet | 98,29 % | Indirekte biologisk plausibilitet (EpCAM udtrykkes i urotelkarcinom), men EpCAM-ekspressionen kan være nedsat ved sarkomatoid differentiering; markeret som "Research Question" |
+### Øvrige forudsigelser fra modellen
 
-Bemærk: Evidence Pack indeholder hver forudsigelse to gange. Her er dubletterne slået sammen.
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Lægemiddelinduceret osteoporose | 99,58 % | L5 | Ingen plausibel mekanistisk sammenhæng; cytokinfrigivelse (TNF-alfa, IL-6) kan teoretisk fremme knoglenedbrydning |
+| Diabetisk retinopati | 99,47 % | L5 | Ingen mekanistisk sammenhæng; ugunstig risk-benefit-profil |
+| Diabetisk grå stær | 98,45 % | L5 | Ingen mekanistisk sammenhæng; kirurgi er standardbehandling |
+| Sarkomatoid overgangscellekarcinom i nyrebækkenet | 98,29 % | L5 | Biologisk mest plausibel (onkologisk, EpCAM-udtryk i urotelkarcinom), men epitel-mesenkymal transition kan nedsætte EpCAM-udtrykket. Kræver bekræftelse af EpCAM-ekspression og egnet administrationsvej. Betragtes som et forskningsspørgsmål |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106834422 | Korjuny (Lindis Biotech GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28106834422 | Korjuny (Lindis Biotech GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+
+Ifølge farmakologidata blev EMA-godkendelsen til behandling af malign ascites hos patienter med EpCAM-positive kræftformer trukket tilbage i 2017 af kommercielle årsager (under navnet Removab) og genautoriseret i begyndelsen af 2025. Catumaxomab har desuden orphan-status i EU for mavekræft (tildelt 2006).
 
 ---
 
@@ -94,21 +97,20 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Immunterapi (bispecifikt antistof, EpCAM × CD3) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC). Da lægemidlet udløser cytokinfrigivelse, bør immunreaktioner overvåges |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+| Klassifikation | Immunterapi (bispecifikt T-celle-rekrutterende antistof, ATC L01XC09) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forholdsregler |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data. Oplysninger om advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé mangler.
+- **Lægemiddelinteraktioner**: Der er registreret én farmakologisk målinteraktion (CD3e, primært molekylært mål). Der er ikke angivet interaktionsniveau eller klinisk vurdering.
+- **Immunaktivering**: Der er en teoretisk risiko for cytokinfrigivelse og inflammation ved anvendelse i nye indikationer, især i øjet.
 
-Teoretisk kan CD3-medieret immunaktivering give risiko for okulær inflammation ved anvendelse i øjet. Dette er ikke dokumenteret klinisk.
-
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -117,15 +119,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modelscoren (evidensniveau L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk sammenhæng mellem EpCAM × CD3 T-celleomdirigering og diabetisk retinopati. Sikkerhedsdata fra det danske produktresumé mangler, hvilket blokerer for sikkerhedsscreening.
+Forudsigelserne er udelukkende modelbaserede (L5) uden kliniske forsøg eller publikationer. For de to øjenindikationer, osteoporose og diabetisk grå stær er der ingen plausibel mekanistisk sammenhæng, og risk-benefit er ugunstig. Den eneste biologisk plausible hypotese er sarkomatoid overgangscellekarcinom i nyrebækkenet, som bør behandles som et forskningsspørgsmål.
 
-**For at komme videre skal følgende foreligge:**
-- Advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé (blokerende datamangel)
-- Detaljerede data om virkningsmekanisme fra DrugBank
-- Hvis en onkologisk retning ønskes undersøgt: bekræftelse af EpCAM-ekspression i sarkomatoid overgangscellekarcinom i nyrebækkenet som en separat forskningsspørgsmål
-- Præklinisk eller mekanistisk dokumentation, før nogen okulær anvendelse overvejes
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen, som mangler i de indsamlede data
+- Fastlæggelse af oprindelig godkendt indikation og detaljerede data om virkningsmekanisme
+- For urotelkarcinom: EpCAM-immunhistokemi på sarkomatoide urotelkarcinomprøver samt vurdering af administrationsvej
+- Præklinisk eller mekanistisk understøttelse, før øvrige forudsigelser overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

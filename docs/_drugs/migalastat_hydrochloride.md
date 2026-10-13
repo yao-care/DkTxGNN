@@ -2,7 +2,7 @@
 layout: default
 title: Migalastat Hydrochloride
 parent: Kun modelforudsigelse (L5)
-nav_order: 293
+nav_order: 555
 evidence_level: L5
 indication_count: 0
 ---

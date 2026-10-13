@@ -2,7 +2,7 @@
 layout: default
 title: Alprostadil
 parent: Moderat evidens (L3-L4)
-nav_order: 30
+nav_order: 44
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alprostadil: Fra ukendt oprindelig indikation til aortamisdannelse (aortic malformation)
+# Alprostadil: Fra erektil dysfunktion og medfødt hjertesygdom til aortamisdannelse
 
-## Resumé
+## Sammenfatning i én sætning
 
-Alprostadil er et syntetisk prostaglandin E1 (PGE1). Den godkendte indikation for det danske præparat fremgår ikke af de modtagne data.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **aortamisdannelse** (aortic malformation).
-Der er **2 kliniske forsøg** og **20 publikationer**, men ingen randomiserede forsøg. Litteraturen består hovedsageligt af kohorter, reviews og case reports.
+Alprostadil (prostaglandin E1) bruges oprindeligt til erektil dysfunktion og til at holde ductus arteriosus åben hos nyfødte med medfødte hjertefejl, bl.a. coarctatio aortae og tricuspidalatresi.
+TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **aortamisdannelse (aortic malformation)**.
+Forudsigelsen understøttes af **0 kliniske forsøg** og **8 publikationer** (kohorte-, case-, prækliniske og oversigtsarbejder). Der foreligger ingen randomiserede studier.
 
 ---
 
@@ -43,91 +43,82 @@ Der er **2 kliniske forsøg** og **20 publikationer**, men ingen randomiserede f
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Erektil dysfunktion, psykologisk dyspareuni, for tidlig udløsning, tricuspidalatresi, coarctatio aortae, Fallots tetralogi m.fl. (fra vidensgrafen; indikationsteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Aortamisdannelse (aortic malformation) |
-| TxGNN-prædiktionsscore | 99,98 % |
+| TxGNN-forudsigelsesscore | 99,98 % |
 | Evidensniveau | L3 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme fra DrugBank. Ud fra den mekanistiske begrundelse i Evidence Pack virker alprostadil (PGE1) ved at afslappe den glatte muskulatur i ductus arteriosus via EP-receptorer og cAMP-signalering, så duktus holdes åben.
-Ved duktusafhængige aortalæsioner, f.eks. afbrudt aortabue (interrupted aortic arch), kritisk aortastenose og aortaatresi med hypoplastisk venstre ventrikel, opretholder det åbne duktus den systemiske perfusion, indtil kirurgisk korrektion kan gennemføres.
+Alprostadil virker ved at afslappe den glatte muskulatur i ductus arteriosus via EP-receptorer og en stigning i cAMP, så ductus holdes åben. Ved duktusafhængige medfødte hjertefejl, herunder coarctatio aortae, afbrudt aortabue og beslægtede aortabueanomalier, opretholder det systemisk eller pulmonal blodgennemstrømning, indtil kirurgisk korrektion kan foretages. Detaljerede data om virkningsmekanismen fra den originale kilde mangler, men ovenstående beskrivelse bygger på den kendte farmakologi.
 
-Vigtigt er det, at dette næsten sikkert allerede er etableret neonatal praksis og derfor næppe er en egentlig ny anvendelse. Litteraturen beskriver PGE1 som et gennembrud i behandlingen af afbrudt aortabue fra slutningen af 1970'erne (Jonas 2015). Om anvendelsen er dækket af det danske præparats indikation, skal kontrolleres mod produktresuméet (SmPC).
+Coarctatio aortae er allerede opført blandt lægemidlets oprindelige indikationer. Forudsigelsen gentager således i høj grad en etableret anvendelse og er ikke en ny repurposing-mulighed i egentlig forstand.
 
-Effekten er symptomatisk og bygger bro til kirurgi. Alprostadil behandler ikke selve misdannelsen i aorta.
+Den understøttende evidens er klinisk-observationel og ikke randomiseret. Der er ikke fundet fase 2- eller fase 3-RCT'er.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Dokumentation fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT04054115](https://clinicaltrials.gov/study/NCT04054115) | Fase 1 | Afsluttet før tid | 10 | Akutte effekter af alprostadil på cerebral og pulmonal blodgennemstrømning efter bidirektionel kavopulmonal forbindelse (BCPC) ved enkeltventrikelpalliation. Populationen er beslægtet, men ikke specifik for aortamisdannelse, og tidlig afslutning begrænser fortolkningen. |
-| [NCT02042092](https://clinicaltrials.gov/study/NCT02042092) | Ikke relevant (N/A) | Gennemført | 39 | Tværsnitsstudie, der sammenligner farve-Doppler-ultralyd og MR-angiografi ved systemisk storkarsvaskulitis. Testede ikke alprostadil og har kun svag indirekte relevans. |
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er ingen randomiserede forsøg blandt publikationerne. De 10 mest relevante er udvalgt.
-
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [26686446](https://pubmed.ncbi.nlm.nih.gov/26686446/) | 2015 | Review | Semin Thorac Cardiovasc Surg | Indførelsen af PGE1 revolutionerede behandlingen af afbrudt aortabue. Anbefaler resuscitering og primær neonatal korrektion. |
-| [25647388](https://pubmed.ncbi.nlm.nih.gov/25647388/) | 2014 | Review | Cardiol Young | Præoperativ håndtering af neonatal kritisk aortastenose, som ofte præsenteres med kardiogent shock. |
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Kohorte | Pharmacotherapy | Alprostadil udvider duktus og bruges ved medfødte hjertemisdannelser hos spædbørn. |
-| [7201134](https://pubmed.ncbi.nlm.nih.gov/7201134/) | 1982 | Kohorte | Pediatr Cardiol | PGE1 hos 7 spædbørn med hypoplastisk venstre ventrikel og aortaatresi. Forbigående forbedring hos 6, men høj dødelighed. |
-| [6537955](https://pubmed.ncbi.nlm.nih.gov/6537955/) | 1984 | Kohorte | J Am Coll Cardiol | Langtidsbehandling med PGE1 (gennemsnit 39 dage) hos 17 nyfødte, inkl. 2 med aortakoarktation. |
-| [32184038](https://pubmed.ncbi.nlm.nih.gov/32184038/) | 2020 | Kohorte | Asian J Surg | Resultater af trinvis kirurgisk korrektion ved afbrudt aortabue. |
-| [16368373](https://pubmed.ncbi.nlm.nih.gov/16368373/) | 2006 | Kohorte | Ann Thorac Surg | Udfald, risikofaktorer og reoperationer efter lukket aortavalvotomi ved kritisk aortastenose hos nyfødte. |
-| [30347623](https://pubmed.ncbi.nlm.nih.gov/30347623/) | 2019 | Review | J Neonatal Perinat Med | Ernæringsstrategier og forekomst af nekrotiserende enterokolit hos spædbørn med duktusafhængige hjertefejl på PGE1. |
-| [28508920](https://pubmed.ncbi.nlm.nih.gov/28508920/) | 2017 | Case report | Pediatr Cardiol | AV-blok ved langvarig lavdosis PGE1-infusion hos en nyfødt med kritisk aortakoarktation. Blokket forsvandt ved seponering. |
-| [25263728](https://pubmed.ncbi.nlm.nih.gov/25263728/) | 2014 | Case report | J Perinatol | Forbigående hypertrofisk pylorusstenose som komplikation til langvarig PGE1-infusion. |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Kohorte/oversigt | Pharmacotherapy | Alprostadil (PGE1) udvider ductus arteriosus og øger pulmonal blodgennemstrømning hos spædbørn med medfødte hjertefejl |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Review | Kyobu Geka | Alprostadil alfadex holder ductus åben ved transposition af de store kar og forebygger forringet venstre ventrikelfunktion |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Kohorte | Zhonghua Yi Xue Za Zhi | Effekt af alprostadil og ulinastatin på inflammation og lungeskade efter hjerte-lunge-maskine hos børn med medfødt hjertesygdom |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Case report | Kyobu Geka | Nyfødt med afbrudt aortabue type B: alprostadil holdt ductus åben før enstadiekorrektion |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Case report | Braz J Cardiovasc Surg | Drengen med aortopulmonalt vindue fik milrinon og alprostadil før operation for at sænke lungetrykket |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Kohorte | Zhonghua Fu Chan Ke Za Zhi | Retrospektiv analyse af 123 fostre med kompleks medfødt hjertesygdom: fødselsmåde og -tidspunkt |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Kohorte | BMC Pregnancy Childbirth | Integreret graviditets- og perinatal håndtering af kompleks føtal medfødt hjertesygdom |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Præklinisk | Minerva Chirurgica | Alprostadil mindskede iskæmi-reperfusionsskade i skeletmuskulatur hos rotter (ikke direkte relevant for indikationen) |
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106375619 | Alprostadil "2care4" | Pulver og solvens til injektionsvæske, opløsning | 2care4 ApS |
-
-Indikationsteksten for præparatet indgår ikke i de modtagne data og skal hentes fra Lægemiddelstyrelsens produktresumé.
+| 28106375619 | Alprostadil "2care4" (2care4 ApS) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke modtaget data om advarsler, kontraindikationer eller interaktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Kontraindikationer fra vidensgrafen (ikke produktresumétekst):** Følgende sygdomme er registreret som kontraindikationer i TxGNN-vidensgrafen, bl.a.:
+  - Åndedrætsproblemer: nyfødtes åndedrætsbesvær (RDS), akut åndedrætssyndrom (ARDS), lungesygdom
+  - Blodsygdomme: seglcelleanæmi og hæmoglobinopati, blodkoagulationssygdom, polycytæmi, trombocytose, leukæmi, plasmacellemyelomatose
+  - Kredsløb: hypotension
+  - Urogenitale tilstande: priapisme, Peyronies sygdom, penil fibromatose, uretral striktur, uretritis, balanitis og balanoposthitis
+  - Andet: pylorusstenose
+- **Lægemiddelinteraktioner:** 59 interaktioner er registreret. Moderate interaktioner ses med canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, lorcaserin og sapropterin. Øvrige registrerede interaktioner (bl.a. metformin, morfin, omeprazol, pantoprazol, prednisolon, simvastatin, vancomycin, atropin, amphotericin B og kaliumchlorid) har ukendt sværhedsgrad.
 
-Litteraturen beskriver desuden bivirkninger ved langvarig PGE1-infusion hos nyfødte. Der er tale om enkelte case reports:
-- Forbigående hypertrofisk pylorusstenose (PMID 25263728).
-- Atrioventrikulært blok (PMID 28508920).
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger)**
 
 **Begrundelse:**
-- Evidensen er L3 og består af kohorter, reviews og case reports uden randomiserede forsøg. De to registrerede forsøg er ikke direkte relevante for aortamisdannelse.
-- Sikkerhedsdata for det danske præparat mangler (blokerende datahul), og det er uklart, om anvendelsen allerede er dækket af den godkendte indikation.
+- Alprostadils brug til at holde ductus åben ved duktusafhængige aortabuelæsioner er klinisk veletableret og understøttes af observationelle studier og case reports, men ikke af RCT'er. Da coarctatio aortae allerede er en kendt indikation, er der tale om en udvidelse af en eksisterende anvendelse.
+- De øvrige forudsigelser (medfødt tricuspidalstenose, medfødt valvulær dysplasi, tricuspidalklap-agenesi, straddling/overriding tricuspidalklap) har kun modelbaseret evidens (L5, ingen forsøg eller litteratur) og anbefales sat på **Hold**.
 
-**For at komme videre kræves:**
-- Hent og gennemgå det danske produktresumé (SmPC) fra Lægemiddelstyrelsen for indikation, advarsler og kontraindikationer.
-- Afklar, om anvendelsen ved duktusafhængige aortalæsioner allerede er etableret og godkendt, dvs. om der er tale om egentlig omplacering af lægemidlet.
-- Indhent mekanismedata (MOA) fra DrugBank.
-- Vurder administrationsvej og formulering (pulver til injektionsvæske) i forhold til neonatal anvendelse.
-
-**Bemærkninger til øvrige forudsigelser:** Kongenit trikuspidalstenose har L3-evidens, udelukkende fra kohorter og case series. Kongenit valvulær dysplasi (L5), trikuspidalklapagenesi (L4) og straddling/overriding trikuspidalklap (L5) har kun indirekte eller ingen evidens og anbefales sat på Hold.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til omplacering af lægemidler skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresumé og indlægsseddel for den danske godkendelse (advarsler, kontraindikationer, godkendte indikationer), da disse data mangler
+- Detaljerede data om virkningsmekanismen (MOA)
+- Kontrolleret eller systematisk klinisk evidens for den specifikke aortamisdannelse-indikation
+- Overvågningsplan for nyfødte (bl.a. apnø, hypotension og feber) og afklaring af, om produktet og administrationsformen er egnet til denne population
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

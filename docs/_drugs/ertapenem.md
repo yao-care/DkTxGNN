@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ertapenem
-parent: Moderat evidens (L3-L4)
-nav_order: 175
-evidence_level: L3
+parent: Kun modelforudsigelse (L5)
+nav_order: 323
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,15 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ertapenem: Fra antibakteriel behandling til bakteriel artritis
+# Ertapenem: Fra bakteriel lungebetændelse til Staphylococcus aureus-infektion
 
 ## Resumé i én sætning
 
-Ertapenem er et antibakterielt carbapenem, der er markedsført i Danmark som Invanz (infusionsvæske). Der er ikke angivet nogen godkendt indikationstekst i datagrundlaget.
-TxGNN-modellen forudsiger, at ertapenem kan være effektivt ved **bakteriel artritis**, men der er **ingen registrerede kliniske forsøg** og kun **9 publikationer**. De er hovedsageligt kasuistikker og kohortestudier, og én af dem handler slet ikke om emnet.
+Ertapenem er et bredspektret carbapenem-antibiotikum, der oprindeligt anvendes til bakteriel lungebetændelse (herunder streptokok-pneumoni) og infektioner med Peptostreptococcus.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **Staphylococcus aureus-infektion**, især som kombinationsbehandling med cefazolin ved vedvarende MSSA-bakteriæmi.
+Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultater) og **20 publikationer**, hovedsageligt case-serier og kohortestudier.
+
+*Bemærk: Den første forudsigelse i de kompilerede data er "bakteriel arthritis" (score 99,7 %, evidensniveau L4, kun case-rapporter og kohortestudier, ingen kliniske forsøg). Denne rapport fokuserer på Staphylococcus aureus-infektion, som har den stærkeste evidens blandt forudsigelserne (L2).*
 
 ---
 
@@ -42,79 +45,83 @@ TxGNN-modellen forudsiger, at ertapenem kan være effektivt ved **bakteriel artr
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (antibakterielt carbapenem) |
-| Forudsagt ny indikation | Bakteriel artritis |
-| TxGNN-prædiktionsscore | 99,72 % |
-| Evidensniveau | L3 |
+| Oprindelig indikation | Bakteriel lungebetændelse, streptokok-pneumoni, Peptostreptococcus-infektion (godkendt indikationstekst for det danske produkt er ikke tilgængelig i de kompilerede data) |
+| Forudsagt ny indikation | Staphylococcus aureus-infektion (vedvarende MSSA-bakteriæmi, kombinationsbehandling) |
+| TxGNN-forudsigelsesscore | 99,28 % |
+| Evidensniveau | L2 (jf. klassificering i de kompilerede data; ingen afsluttede RCT'er, evidensen er case-serier, kohorter og to igangværende forsøg) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger aktuelt ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ertapenem er et bredspektret carbapenem, der hæmmer bakteriens cellevægssyntese ved at binde sig til penicillinbindende proteiner (PBP). Det er aktivt mod Enterobacterales (inkl. ESBL-producenter), anaerobe bakterier og streptokokker.
+Detaljerede data om ertapenems oprindelige virkningsmekanisme er ikke tilgængelige i de kompilerede data. Ertapenem er et carbapenem, som hæmmer bakteriens cellevægssyntese ved at binde til penicillinbindende proteiner (PBP), primært PBP 2 og 3. Det har bredt spektrum mod Enterobacterales (inkl. ESBL-producenter) og anaerobe bakterier.
 
-Disse bakterier er almindelige årsager til septisk artritis. Det er derfor mekanistisk plausibelt, at et antibiotikum med dette spektrum kan have effekt ved bakteriel artritis. Den høje TxGNN-score er i overensstemmelse hermed.
+Ertapenem anvendes normalt ikke som monoterapi mod S. aureus. I kombination med cefazolin ses der imidlertid synergi mod methicillin-følsom S. aureus (MSSA). Den foreslåede mekanisme er, at de to betalaktamer mætter komplementære PBP'er (bl.a. PBP1), hvilket øger den baktericide effekt og kan rydde vedvarende bakteriæmi. Det er en udvidelse af den antibakterielle anvendelse snarere end en ny virkningsmekanisme.
 
-Evidensen er dog tynd. Der findes ikke noget dedikeret forsøg, og litteraturen består af enkelte kasuistikker og generelle kohorter om knogle- og ledinfektioner. Titlerne er afkortede, så det er ikke bekræftet, at kohorterne specifikt omfatter septisk artritis.
+Synergien er understøttet af dyremodeller (rotte-endokarditis, muse-hudinfektion), case-serier og kohortestudier. Ertapenem er stærkt proteinbundet, og hypoalbuminæmi kan give suboptimal eksponering.
 
 ---
 
-## Klinisk evidens
+## Klinisk forsøgsevidens
 
-Aktuelt ingen relaterede kliniske forsøg registreret.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) | Fase 2 | Rekrutterer | 60 | Cefazolin + ertapenem ved MSSA-bakteriæmi; delstudie af SNAP-platformsforsøget. Første randomiserede forsøg; ingen resultater endnu. Forventet afslutning 2027-07 |
+| [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) | Fase 4 | Inviterede deltagere | 300 | Åbent, pragmatisk RCT af tidlig dobbeltbehandling vs. enkeltstof IV ved S. aureus-bakteriæmi. Uklart om ertapenem er nøglestoffet; ingen resultater endnu |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [24709258](https://pubmed.ncbi.nlm.nih.gov/24709258/) | 2014 | Kohorte | Antimicrob Agents Chemother | Retrospektiv kohorte (306 patienter) med langvarig ambulant ertapenembehandling (OPAT). Indikationerne omfattede bl.a. intraabdominale infektioner (38 %), pneumoni (12 %) og knogle- og ledinfektioner. |
-| [31220276](https://pubmed.ncbi.nlm.nih.gov/31220276/) | 2019 | Kohorte | J Antimicrob Chemother | Subkutan suppressiv antibiotikabehandling med et off-label β-lactam ved knogle- og ledinfektioner hos 10 patienter, hvor kirurgi ikke var mulig. |
-| [22233826](https://pubmed.ncbi.nlm.nih.gov/22233826/) | 2011 | Kasuistik | J Chemother | Septisk håndledsartritis med *Klebsiella pneumoniae* behandlet med succes med ertapenem og levofloxacin. |
-| [31352398](https://pubmed.ncbi.nlm.nih.gov/31352398/) | 2019 | Kasuistik | BMJ Case Rep | Diabetisk fod med osteomyelitis og septisk artritis (*Citrobacter koseri*) samt samtidig akut urinsyregigt, behandlet med succes med ertapenem. |
-| [31585203](https://pubmed.ncbi.nlm.nih.gov/31585203/) | 2020 | Kasuistik | Anaerobe | Første beskrevne tilfælde af septisk skulderartritis og osteomyelitis med *Clostridium paraputrificum*. Kilden nævner ikke ertapenem i det foreliggende uddrag. |
-| [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | Kasuistik | J Investig Med High Impact Case Rep | Septisk knæartritis med *Prevotella bivia* hos en immunkompetent voksen. Kilden nævner ikke ertapenem i det foreliggende uddrag. |
-| [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | In vitro | Diagn Microbiol Infect Dis | Auranofin genskabte ertapenems følsomhed over for carbapenemresistente *E. coli* i synergi- og time-kill-analyser. |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Epidemiologi | Clin Lab | Analyse af patogenfordeling og antibiotikaresistens ved knogle- og ledinfektioner hos børn under 4 år. |
-| [29183082](https://pubmed.ncbi.nlm.nih.gov/29183082/) | 2017 | Review | JAMA | Oversigt over diagnostik og behandling af hidradenitis suppurativa. Den er ikke relevant for bakteriel artritis og bør ikke tælle som støtte. |
+| [31773134](https://pubmed.ncbi.nlm.nih.gov/31773134/) | 2020 | Case-serie/kohorte | Clin Infect Dis | Cefazolin + ertapenem som redningsbehandling i 11 tilfælde af vedvarende MSSA-bakteriæmi (6 med endokarditis); 8 med clearance inden for 24 timer |
+| [27572414](https://pubmed.ncbi.nlm.nih.gov/27572414/) | 2016 | Case-serie/in vitro | Antimicrob Agents Chemother | Synergi mellem cefazolin og ertapenem in vitro og i musemodel; vedvarende bakteriæmi ryddet |
+| [38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/) | 2024 | Komparativ kohorte | J Antimicrob Chemother | Carbapenem-kombination vs. standardbehandling ved vedvarende MSSA-bakteriæmi |
+| [40448546](https://pubmed.ncbi.nlm.nih.gov/40448546/) | 2025 | Kohorte | J Antimicrob Chemother | Betydning af hypoalbuminæmi ved ertapenem-kombinationsbehandling af MSSA-bakteriæmi |
+| [41759962](https://pubmed.ncbi.nlm.nih.gov/41759962/) | 2026 | Multicenter case-serie | Infect Dis Now | Ertapenem + penicillin M eller cefazolin ved kompliceret S. aureus-bakteriæmi i klinisk praksis |
+| [39230345](https://pubmed.ncbi.nlm.nih.gov/39230345/) | 2025 | Review | Am J Health Syst Pharm | Kombinationsbehandlingsmuligheder ved vedvarende MSSA-bakteriæmi |
+| [34599521](https://pubmed.ncbi.nlm.nih.gov/34599521/) | 2021 | Case-serie | J Card Surg | Cefazolin + ertapenem som redningsbehandling ved refraktær LVAD-infektion |
+| [39935929](https://pubmed.ncbi.nlm.nih.gov/39935929/) | 2025 | Case-rapport | Cureus | Hurtig clearance af vedvarende S. aureus-bakteriæmi ved pulmonalklap-endokarditis |
+| [39777519](https://pubmed.ncbi.nlm.nih.gov/39777519/) | 2025 | In vitro | J Infect Dis | Forstærket dræbning af MRSA med ceftarolin eller vancomycin + carbapenemer (ertapenem/meropenem) |
+| [11772242](https://pubmed.ncbi.nlm.nih.gov/11772242/) | 2001 | Review | Expert Opin Investig Drugs | Oversigt over ertapenems spektrum og PBP-binding |
 
 ---
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103216600 | Invanz (Merck Sharp & Dohme B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke oplyst i datagrundlaget |
+| 28103216600 | Invanz (Merck Sharp & Dohme B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de kompilerede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Kontraindikationer fra vidensgraf (ikke fra produktresumé):** epilepsi, nyresygdom, pyoureter, Clostridium difficile-colitis, perinatal nekrotiserende enterokolitis. Disse stammer fra TxGNN-grafen og bør verificeres mod produktresuméet.
+- **Lægemiddelinteraktioner:** I alt 38 registrerede interaktioner. Den eneste af alvorlighedsgrad *Major* er **bupropion** (øget risiko for krampeanfald er den kendte klasseproblematik for carbapenemer; verificér i produktresumé). *Moderate*: picosulfat, polyethylenglycol (3350 med elektrolytter) og natriumsulfat. Øvrige (bl.a. metronidazol, vancomycin, doxycyclin, morfin, metformin) er klassificeret som "ukendt" alvorlighed.
+- **Kliniske hensyn fra litteraturen:** Hypoalbuminæmi kan give lavere ertapenem-eksponering pga. høj proteinbinding. Carbapenem-stewardship og risiko for resistens og C. difficile-infektion bør vægtes.
+
+Godkendte advarsler og kontraindikationer fra produktresuméet var ikke tilgængelige i de kompilerede data; se det godkendte produktresumé (SmPC) for fuld sikkerhedsinformation.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk plausibel, men evidensen er kun L3: ingen kliniske forsøg og kun kasuistikker og generelle kohorter. Samtidig mangler de sikkerhedsdata fra produktresuméet, som blokerer den videre sikkerhedsscreening.
+Der findes konsistente case-serier, kohortestudier og dyredata for cefazolin + ertapenem ved vedvarende MSSA-bakteriæmi, og et fase 2-forsøg samt et fase 4-forsøg er i gang. Der foreligger dog endnu ingen afsluttede RCT'er, så brugen bør begrænses til kombinationsbehandling ved vedvarende MSSA-bakteriæmi.
 
-For *Staphylococcus aureus*-infektion, en anden forudsagt indikation for ertapenem, er evidensen stærkere (L2). Der pågår et fase 2-RCT (NCT04886284), som tester cefazolin plus ertapenem ved MSSA-bakteriæmi. Det forsøg rammer ikke bakteriel artritis, men det er en mere oplagt forskningsretning.
-
-**For at komme videre kræves følgende:**
-- Hent og gennemgå advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé
-- Indhent oplysninger om virkningsmekanismen (fx via DrugBank)
-- Verificer, at de inkluderede studier faktisk omfatter septisk artritis og ertapenem (titlerne er afkortede), og fjern irrelevante referencer
-- Undersøg knogle- og ledpenetration og dosering. Hypoalbuminæmi kan påvirke ertapenems farmakokinetik, da stoffet er stærkt albuminbundet (jf. PMID 40448546)
-- Gennemfør en systematisk litteratursøgning og overvej et prospektivt eller komparativt studie
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelsen skal valideres klinisk, før den kan anvendes.*
+**For at komme videre kræves:**
+- Resultater fra NCT04886284 (CERT) og NCT07148960 (SABEDTIO)
+- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer, godkendt indikationstekst)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Retningslinjer for carbapenem-stewardship og monitorering (albuminniveau, krampetærskel, C. difficile)
+- Gennemgang af den alvorlige interaktion med bupropion samt de moderate interaktioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

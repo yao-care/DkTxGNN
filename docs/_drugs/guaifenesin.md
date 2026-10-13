@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Guaifenesin
-parent: Høj evidens (L1-L2)
-nav_order: 215
-evidence_level: L2
+parent: Moderat evidens (L3-L4)
+nav_order: 402
+evidence_level: L4
 indication_count: 10
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Guaifenesin: Fra slimløsende middel til sygdom i næsehulen
+# Guaifenesin: Fra øvre luftvejslidelser til sygdom i næsehulen
 
-## Resumé i én sætning
+## Resumé
 
-Guaifenesin er et slimløsende middel (ekspektorans), som i Danmark markedsføres som sirup (Benysine).
-TxGNN-modellen forudsiger, at det kan have effekt ved **sygdom i næsehulen (nasal cavity disease)**, men evidensen består kun af **1 klinisk fase 2-pilotforsøg** og **2 oversigtsartikler**. Forudsigelsen er derfor foreløbig.
+Guaifenesin er et slimløsende middel, der oprindeligt bruges mod symptomer ved allergisk og vasomotorisk rhinitis, faryngitis og forkølelse.
+TxGNN-modellen forudsiger, at det kan have effekt ved **sygdom i næsehulen (nasal cavity disease)**.
+Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en oversigtsartikel fra 2002).
 
 ---
 
@@ -42,9 +43,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **sygdom i næsehulen (nas
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, faryngitis, forkølelse, rhinitis, nasofaryngitis, hovedpine (fra TxGNN-vidensgrafen; ingen godkendt indikationstekst er tilgængelig for det danske produkt) |
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L2 |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -53,30 +55,25 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **sygdom i næsehulen (nas
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen. Guaifenesin er et slimløsende middel, som menes at gøre slim i luftvejene tyndere og lettere at hoste op. Det kan være relevant ved slimophobning ved rhinitis (næseslimhindebetændelse) og sinuitis (bihulebetændelse), men sammenhængen er udledt af kendt farmakologi og er ikke bekræftet.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanisme. Guaifenesin er et slimløsende middel, som menes at gøre slim i luftvejene tyndere og lettere at hoste op. Koblingen til sygdom i næsehulen er udledt af terapeutisk nærhed og ikke af en bekræftet mekanisme.
 
-Den høje modelscore (0,9998) er udelukkende en modelforudsigelse. Den understøttes dog af et gennemført fase 2-forsøg med oral guaifenesin ved kronisk rhinitis hos børn.
+Sygdom i næsehulen overlapper tæt med de kendte indikationer (allergisk rhinitis, vasomotorisk rhinitis, rhinitis og forkølelse). Forudsigelsen er derfor plausibel, men den er snarere en udvidelse af nuværende brug end en egentlig drug repurposing.
 
----
-
-## Klinisk evidens
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Fase 2 | Afsluttet | 30 | Randomiseret, placebokontrolleret pilotforsøg over 14 dage med oral guaifenesin hos børn og unge (7-18 år) med kronisk rhinitis. Der måles næsesymptomer (SN-5), næsens luftvolumen og sekretets biofysiske egenskaber. Der foreligger ingen resultatdata. |
-
-Registret angiver 30 deltagere, mens beskrivelsen nævner 36 børn. Forsøget er en lille pilot og dækker kun en pædiatrisk delpopulation, så effekten er ikke dokumenteret. Der er ikke fundet EudraCT-numre eller ICTRP-forsøg.
+Modellen forudsagde også andre indikationer med høj score, men de er svagt understøttede: akut laryngofaryngitis (nærhed til eksisterende indikationer, ingen evidens), faucial difteri (guaifenesin har ingen antibakteriel eller antitoksin-effekt, så den er klinisk uegnet), cervikal diskusdegeneration (ingen plausibel mekanisme, sandsynligvis en artefakt i grafen) og papillær konjunktivitis (kun indirekte kobling via allergisk rhinitis). Disse vurderes som **Hold**.
 
 ---
 
-## Litteraturevidens
+## Evidens fra kliniske forsøg
+
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Evidens fra litteraturen
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Oversigtsartikel | American Journal of Rhinology | Erfaringer med 22 voksne med cystisk fibrose og kronisk bihulebetændelse (8 opereret) samt anbefalinger til behandling |
-| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Oversigtsartikel | Logopedics, Phoniatrics, Vocology | Behandling af skjulte luftvejsallergier hos stemmebrugere. Dekongestanter med guaifenesin kan være nyttige. |
-
-Begge artikler er oversigter med lav evidensstyrke og ingen af dem er kontrollerede forsøg med guaifenesin.
+| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Oversigtsartikel | Logopedics, Phoniatrics, Vocology | Behandling af skjulte luftvejsallergier hos stemmebrugere. Antihistaminer undgås generelt, mens dekongestanter med guaifenesin kan være nyttige; steroider anvendes især ved helårsallergi. |
 
 ---
 
@@ -84,13 +81,17 @@ Begge artikler er oversigter med lav evidensstyrke og ingen af dem er kontroller
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106526020 | Benysine (McNeil Denmark ApS) | Sirup | Ikke angivet i de tilgængelige data |
+| 28106526020 | Benysine (McNeil Denmark ApS) | Sirup | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet kendte lægemiddelinteraktioner i de forespurgte data.
+Data om advarsler og kontraindikationer fra produktresuméet og om lægemiddelinteraktioner (ingen fundet) er ikke tilgængelige i de indsamlede data.
+
+Vidensgrafen (PrimeKG) angiver sygdomme, der er registreret som kontraindikationer for lægemidlet. Disse stammer ikke fra produkttekst og bør verificeres mod produktresuméet. Eksempler: hypertension, leversvigt/leversygdom, epilepsi, kronisk obstruktiv lungesygdom, mavesår/ulcus pepticum, nyresygdom, pankreatitis, trombocytopeni, hypothyreose, binyrebarkinsufficiens (Addisons sygdom), porfyri, inflammatorisk tarmsygdom, skrumpelever, angst- og psykotiske lidelser samt søvnløshed.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -99,22 +100,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen er kun ét lille, afsluttet fase 2-pilotforsøg uden tilgængelige resultater, og de to artikler er oversigter. Derudover mangler sikkerhedsdata fra den danske produktinformation (blokerende datahul), så sikkerhedsscreening ikke kan gennemføres.
+Forudsigelsen hviler på en høj modelscore og nærhed til eksisterende indikationer, men der findes ingen kliniske forsøg og kun én ældre oversigtsartikel. Mekanisme og sikkerhedsdata mangler, og forudsigelsen er tættere på en udvidelse af nuværende brug end ægte repurposing.
 
 **For at komme videre kræves:**
-- Advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé for Benysine
-- Resultater fra NCT01364467 (publikationer eller registerdata) og helst et større, kontrolleret forsøg hos voksne
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Afklaring af godkendt indikation og administrationsvej for den danske sirup
-
-**Øvrige forudsigelser:**
-- *Akut laryngopharyngitis* (halsbetændelse) har evidensniveau L5 og er kun plausibel ved analogi. Der er hverken forsøg eller litteratur.
-- *Cervikal diskusdegeneration* har kun et svagt og spekulativt mulighedsgrundlag (historisk muskelafslappende effekt).
-- *Faucial difteri* og *papillær konjunktivitis* har ingen troværdig mekanistisk sammenhæng. Den høje score skyldes sandsynligvis en modelartefakt.
-
-Alle fire forudsigelser anbefales at blive i status Hold.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i praksis.*
+- Data om virkningsmekanisme (f.eks. fra DrugBank)
+- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation
+- Kontrollerede kliniske studier eller systematiske reviews for sygdom i næsehulen
+- Afklaring af den kliniske relevans af de kontraindikationer, der er angivet i vidensgrafen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

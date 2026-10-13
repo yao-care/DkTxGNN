@@ -2,7 +2,7 @@
 layout: default
 title: Relugolix
 parent: Kun modelforudsigelse (L5)
-nav_order: 371
+nav_order: 710
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Relugolix: Fra GnRH-receptorantagonist til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+# Relugolix: Fra (ikke angivet indikation) til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
 
 ## Resumé i én sætning
 
-Relugolix er en oral GnRH-receptorantagonist, som er markedsført i Danmark under navnet Orgovyx.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**.
-Forudsigelsen er dog **ikke understøttet af nogen kliniske forsøg (0) eller publikationer (0)**, og der er ikke fundet en plausibel mekanistisk forbindelse.
+Relugolix er en oral GnRH-receptorantagonist, som er markedsført i Danmark under handelsnavnet Orgovyx. Den godkendte indikation er ikke angivet i de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
 
 ---
 
@@ -43,56 +42,66 @@ Forudsigelsen er dog **ikke understøttet af nogen kliniske forsøg (0) eller pu
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 96,13 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Relugolix blokerer GnRH-receptoren i hypofysen. Det dæmper udskillelsen af LH og FSH og dermed dannelsen af kønshormoner. Data om den oprindelige virkningsmekanisme (MOA) er ikke tilgængelige i Evidence Pack, så vurderingen bygger på relugolix' kendte farmakologi.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Relugolix er kendt som en oral GnRH-receptorantagonist, der hæmmer hypofyse-gonade-aksen og sænker LH, FSH og kønshormoner.
 
-NSIAD skyldes aktiverende (gain-of-function) varianter i vasopressin V2-receptoren (AVPR2). Det er en anden receptor og en anden signalvej end den, relugolix påvirker. Der er derfor ingen plausibel mekanistisk forbindelse. Den høje score på 0,961 afspejler sandsynligvis kun nærhed i videngrafen og ikke et selvstændigt biologisk signal.
+NSIAD skyldes aktiverende (gain-of-function) mutationer i vasopressin V2-receptoren (AVPR2). Der er ikke identificeret nogen plausibel biologisk forbindelse mellem GnRH-receptorblokade og denne mekanisme. Den høje score (0,961) er alene en forudsigelse fra en vidensgraf og er ikke understøttet af uafhængig evidens.
 
-TxGNN har forudsagt flere andre indikationer med lignende høje scores. De er alle uden kliniske forsøg og litteratur og har evidensniveau L5:
+**Øvrige forudsigelser med samme begrænsninger** (alle evidensniveau L5, anbefaling Hold):
 
-- Systemisk mastocytose, herunder den indolente (smouldering) form: 96,09-96,11 %. Sygdommen drives primært af KIT-aktivering, og GnRH-antagonisme har ingen etableret rolle.
-- Lymfadenopatisk mastocytose med eosinofili: 95,92 %. Der er ingen kendt GnRH-modulering, og forudsigelsen ligner en artefakt fra nabonoder i grafen.
-- Multipel endokrin neoplasi (MEN): 95,32 %. Her er kun en svag, indirekte teoretisk forbindelse via hypotalamus-hypofyse-gonade-aksen. Der er ingen evidens for, at GnRH-antagonisme påvirker tumoradfærd eller udfald.
-
-De ti poster i inputtet bestod af fem indikationer, som hver optrådte to gange, og de er her samlet til én post pr. indikation.
+| Forudsagt indikation | TxGNN-score | Kommentar |
+|------|------|------|
+| Smoldrende systemisk mastocytose | 96,11 % | Drevet af KIT D816V; ingen kendt effekt af relugolix på KIT eller mastcelleproliferation |
+| Systemisk mastocytose | 96,08 % | Drevet af aktiverende KIT-mutationer; ingen etableret forbindelse til GnRH-antagonisme |
+| Lymfadenopatisk mastocytose med eosinofili | 95,92 % | Scoren synes at stamme fra grafsimilaritet til beslægtede mastocytose-noder |
+| Multipel endokrin neoplasi | 95,32 % | Menin- eller RET-drevne tumorer; kun løst endokrint relateret til hypofyse-gonade-aksen |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er aktuelt ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106597221 | Orgovyx | Filmovertrukne tabletter | Accord Healthcare S.L.U. |
-
-Administrationsvej: oral.
+| 28106597221 | Orgovyx (Accord Healthcare S.L.U.) | Filmovertrukne tabletter (oral) | Ikke angivet |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data.
+**Lægemiddelinteraktioner:** Interaktionsforespørgslen er gennemført og viste 100 registrerede interaktioner. Blandt de viste interaktioner er følgende klassificeret som **alvorlige (Major)**:
+
+- Clarithromycin
+- Dolasetron
+- Eliglustat
+- Rolapitant
+- Fidaxomicin
+
+Interaktioner af **moderat** grad omfatter bl.a. dexamethason, bisacodyl, picosulfat, polyethylenglycol, natriumsulfat, lactitol, lactulose, levofloxacin, ondansetron, palonosetron, granisetron og famotidin. **Mindre** interaktioner omfatter metreleptin og metronidazol.
+
+Der foreligger ingen tilgængelige data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -101,15 +110,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur. Relugolix' virkningsmekanisme (GnRH-receptorblokade) har ingen plausibel forbindelse til den AVPR2-drevne patofysiologi ved NSIAD. De øvrige forudsagte indikationer er heller ikke understøttet.
+Forudsigelsen bygger udelukkende på en vidensgraf-score uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse mellem GnRH-receptorantagonisme og AVPR2-medieret NSIAD. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen med henblik på advarsler og kontraindikationer. Dette er nødvendigt, før en sikkerhedsscreening kan gennemføres.
-- Indhent data om virkningsmekanisme (MOA) fra DrugBank for at kunne analysere mulige mekanistiske forbindelser.
-- Gennemfør en målrettet litteratur- og forsøgssøgning (PubMed, ClinicalTrials.gov, ICTRP) for relugolix i kombination med de forudsagte sygdomme.
-- Genvurder kun, hvis der findes uafhængig biologisk eller klinisk evidens, der understøtter en forbindelse.
-
-*Dette resultat er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsagte nye indikationer kræver klinisk validering, før de kan anvendes.*
+- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (godkendt indikation, advarsler og kontraindikationer)
+- Indhent data om virkningsmekanisme fra DrugBank
+- Gennemfør en systematisk litteratursøgning og en søgning efter prækliniske data for NSIAD
+- Vurdér, om en biologisk hypotese kan formuleres og testes, før yderligere investering overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

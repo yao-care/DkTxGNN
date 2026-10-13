@@ -2,7 +2,7 @@
 layout: default
 title: Metreleptin
 parent: Kun modelforudsigelse (L5)
-nav_order: 288
+nav_order: 544
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Metreleptin: Fra leptinmangel ved generaliseret lipodystrofi til familiær generaliseret lentiginose
+# Metreleptin: Fra lipodystrofi til familiær generaliseret lentiginose
 
 ## Resumé i én sætning
 
-Metreleptin er et rekombinant leptinanalog, der er godkendt til behandling af leptinmangel ved generaliseret lipodystrofi.
-TxGNN-modellen forudsiger, at det kan have effekt ved **familiær generaliseret lentiginose** (en sjælden pigmentforstyrrelse).
-Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikationer** og bygger udelukkende på en modelberegning.
+Metreleptin er en rekombinant analog til hormonet leptin og anvendes oprindeligt til behandling af lipodystrofi, herunder medfødt generaliseret lipodystrofi (Berardinelli-Seip).
+TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **familiær generaliseret lentiginose**,
+men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -43,7 +43,7 @@ Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikatio
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leptinmangel ved generaliseret lipodystrofi (den danske godkendelse har ingen indikationstekst i datagrundlaget) |
+| Oprindelig indikation | Medfødt generaliseret lipodystrofi (Berardinelli-Seip) og lipodystrofi (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke angivet) |
 | Forudsagt ny indikation | Familiær generaliseret lentiginose |
 | TxGNN-forudsigelsesscore | 99,71 % |
 | Evidensniveau | L5 |
@@ -53,50 +53,48 @@ Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikatio
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanisme. Metreleptin er et rekombinant leptinanalog, og effekten ved leptinmangel ved generaliseret lipodystrofi er kendt. Der er dog ikke identificeret nogen mekanistisk forbindelse til familiær generaliseret lentiginose.
+Metreleptin er en rekombinant leptinanalog, der erstatter manglende leptin ved generaliseret lipodystrofi. Detaljerede data om virkningsmekanismen indgår ikke i de data, der er sammenstillet til denne rapport. Ud fra almen viden virker lægemidlet ved at genoprette leptinsignalering, hvilket påvirker appetit, glukose- og lipidstofskifte.
 
-Forholdet mellem den oprindelige og den nye indikation er svagt. Lipodystrofi er en metabolisk sygdom med leptinmangel, mens lentiginose er en pigmentforstyrrelse i huden. Der er ingen oplagt leptinrelateret mekanisme bag pigmentforstyrrelsen.
+Familiær generaliseret lentiginose er en pigmentforstyrrelse i huden. Ud fra de foreliggende data er der ingen plausibel biologisk sammenhæng mellem leptinerstatning og pigmentforstyrrelser. Den høje score afspejler sandsynligvis nærhed i vidensgrafens struktur (sjældne, syndromiske tilstande med hudmanifestationer) snarere end en dokumenteret biologisk sammenhæng.
 
-Den høje score (0,997) afspejler derfor sandsynligvis nærhed i modellens vidensgraf og ikke en biologisk begrundet sammenhæng. Forudsigelsen bør kun betragtes som en hypotese.
+Forudsigelsen bør derfor betragtes som hypotesegenererende og ikke som et grundlag for klinisk anvendelse.
 
-Modellen forudsiger også flere andre sjældne tilstande med tilsvarende høje scorer og samme evidensniveau (L5, ingen forsøg, ingen litteratur):
-
-| Forudsagt indikation | Score | Bemærkning |
-|------|------|------|
-| Gastrocutaneous syndrome | 99,70 % | Sjælden og dårligt karakteriseret sygdom, ingen identificerbar leptinrelateret mekanisme |
-| Moynahan syndrome | 99,67 % | Leptin spiller en rolle i energibalance og reproduktionsakse, men sammenhængen er kun spekulativ og indirekte |
-| Rhabdoid tumor | 99,62 % | Leptinsignalering er i nogle tumormodeller rapporteret at fremme celleproliferation, hvilket giver en teoretisk sikkerhedsbekymring |
-| Osteopathia striata-pigmentary dermopathy-white forelock syndrome | 99,62 % | Sjælden genetisk skelet- og pigmentforstyrrelse uden kendt forbindelse til leptinmangel |
+Øvrige forudsagte indikationer med tilsvarende høje scorer og samme mangel på evidens omfatter gastrokutant syndrom (99,70 %), Moynahan-syndrom (99,67 %), rhabdoid tumor (99,62 %) og osteopathia striata-pigmentær dermopati-hvid pandelok-syndrom (99,62 %). Ved rhabdoid tumor er der desuden en teoretisk sikkerhedsbekymring, da leptin i visse sammenhænge kan fremme vækst.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-Der foreligger i øjeblikket ingen relateret litteratur.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation i Danmark
+## Litteraturevidens
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105901616 | Myalepta (Chiesi Farmaceutici S.p.A.) | Pulver til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28105901616 | Myalepta (Chiesi Farmaceutici S.p.A.) | Pulver til injektionsvæske, opløsning | Ikke angivet i de foreliggende data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til den godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. Størstedelen af de viste er af moderat sværhedsgrad. Eksempler omfatter:
+  - Abemaciclib, acalabrutinib, alpelisib, avapritinib, brigatinib, cabozantinib, capmatinib, ceritinib
+  - Fentanyl, alfentanil, benzhydrocodon, butorphanol
+  - Ethinylestradiol, norethisterone, desogestrel
+  - Bictegravir, buspiron, cariprazin, chlorpropamid
+  - Bortezomib (mindre alvorlig)
 
-Ved en eventuel yderligere vurdering af malign sygdom (fx rhabdoid tumor) bør der foretages en præklinisk sikkerhedsgennemgang først, da leptinsignalering teoretisk kan fremme tumorvækst.
+Øvrige oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de sammenstillede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -105,15 +103,14 @@ Ved en eventuel yderligere vurdering af malign sygdom (fx rhabdoid tumor) bør d
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Sikkerhedsdata fra den danske produktinformation mangler, og det blokerer for en sikkerhedsscreening.
+Forudsigelsen er udelukkende baseret på en beregningsmodel (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ingen påviselig biologisk sammenhæng mellem leptinerstatning og pigmentforstyrrelsen. Sikkerhedsgennemgangen kan desuden ikke gennemføres, før produktresuméets advarsler og kontraindikationer er indhentet.
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- Indhent detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Gennemfør en systematisk litteratur- og forsøgssøgning for de forudsagte sygdomme
-- Afklar en mulig biologisk forbindelse mellem leptinsignalering og den forudsagte sygdom, inden der overvejes præklinisk eller klinisk arbejde
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Prækliniske data eller mekanistisk litteratur, der kan understøtte en forbindelse mellem leptinsignalering og den forudsagte sygdom
+- Vurdering af den godkendte indikationstekst for Myalepta i Danmark
+- Vurdering af den teoretiske sikkerhedsrisiko ved leptin i forbindelse med tumorsygdomme, hvis onkologiske indikationer overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

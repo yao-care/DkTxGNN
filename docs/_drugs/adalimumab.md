@@ -2,7 +2,7 @@
 layout: default
 title: Adalimumab
 parent: Moderat evidens (L3-L4)
-nav_order: 17
+nav_order: 23
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Adalimumab: Fra reumatoid arthritis til reumatoid vaskulitis
+# Adalimumab: Fra reumatoid artrit til reumatoid vaskulitis
 
-## Resumé
+## Resumé i få sætninger
 
-Adalimumab er en TNF-alfa-hæmmer, som er etableret i behandlingen af reumatoid arthritis (RA). TxGNN-modellen forudsiger, at den kan virke ved **reumatoid vaskulitis**. Evidensen er svag: **5 registrerede studier** (alle uden vaskulitis-endepunkt) og **20 publikationer**, hvoraf de fleste er kasuistikker, og flere beskriver, at TNF-hæmmere selv kan udløse vaskulitis.
+Adalimumab er et TNF-alfa-hæmmende monoklonalt antistof, som oprindeligt anvendes til reumatoid artrit og en række andre inflammatoriske sygdomme.
+TxGNN-modellen forudsiger, at det kan have effekt ved **reumatoid vaskulitis**.
+Evidensen er svag: der er **1 registreret klinisk forsøg** (uden direkte relevans) og primært **enkeltstående case reports** i litteraturen, og nogle af dem peger på en sikkerhedsrisiko.
 
 ---
 
@@ -41,11 +43,11 @@ Adalimumab er en TNF-alfa-hæmmer, som er etableret i behandlingen af reumatoid 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i Lægemiddelstyrelsens data. Evidensgrundlaget beskriver adalimumab som etableret RA-behandling. |
+| Oprindelig indikation | Reumatoid artrit, Crohns sygdom, colitis ulcerosa, psoriasisartrit, ankyloserende spondylitis, juvenil idiopatisk artrit, hidradenitis suppurativa og non-infektiøs uveitis (fra videnbasen; indikationsteksten i den danske registrering er ikke tilgængelig) |
 | Forudsagt ny indikation | Reumatoid vaskulitis |
-| TxGNN-prædiktionsscore | 99,80 % |
+| TxGNN-forudsigelsesscore | 99,80 % |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -53,64 +55,60 @@ Adalimumab er en TNF-alfa-hæmmer, som er etableret i behandlingen af reumatoid 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i evidenspakken. Adalimumab er dog et humant monoklonalt antistof, der neutraliserer TNF-alfa. TNF-alfa er en central inflammatorisk cytokin ved RA.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Adalimumab er et fuldt humant monoklonalt antistof mod tumornekrosefaktor-alfa (TNF-alfa), og dets effekt ved reumatoid artrit er veldokumenteret.
 
-Reumatoid vaskulitis er en alvorlig ekstra-artikulær komplikation ved svær, seropositiv RA. Det er biologisk plausibelt, at TNF-blokade kan dæmpe den underliggende inflammation. Den nuværende evidens for selve vaskulitis består dog kun af et systematisk review af biologiske lægemidler, der samler primært lavkvalitetsdata, samt enkelte kasuistikker.
+Reumatoid vaskulitis er en alvorlig ekstraartikulær komplikation til reumatoid artrit. Den menes at være drevet af TNF-alfa-medieret inflammation, så TNF-blokade er biologisk plausibelt. Ud over den pågældende case report om digital vaskulitis, som responderede godt på adalimumab (se nedenfor), er der dog ingen systematiske data, der understøtter effekten.
 
-Retningen af effekten er usikker. Flere rapporter beskriver, at TNF-hæmmere, adalimumab inklusive, kan udløse paradoksal vaskulitis, lupus-lignende reaktioner og ANCA-associeret sygdom. Den meget høje score (0,998) er en modelforudsigelse og afspejler sandsynligvis primært adalimumabs stærke tilknytning til RA i vidensgrafen.
-
-Bemærk: Indikationen optrådte to gange i input med identiske poster. De er slået sammen til én vurdering.
+Litteraturen peger også i den modsatte retning. Anti-TNF-midler kan selv udløse vaskulitis-lignende og andre autoimmune fænomener, fx antifosfolipidsyndrom og ANCA-associeret nefritis under adalimumab-behandling. Forholdet mellem gavn og risiko er derfor uafklaret.
 
 ---
 
-## Evidens fra kliniske studier
+## Evidens fra kliniske forsøg
 
-| Studienummer | Fase | Status | Deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | Ikke relevant | Afsluttet | 808 | Tværsnitsstudie af behandlingsmønstre med biologiske DMARD'er ved RA i Kina. Intet vaskulitis-endepunkt. |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | Ikke relevant | Afsluttet | 184 | Ikke-interventionelt studie af tocilizumab ved RA. Ingen vaskulitis-endepunkter. |
-| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | Ikke relevant | Afsluttet | 9.261 | Brolucizumab ved neovaskulær AMD. Uden relation til adalimumab eller vaskulitis, sandsynligvis et søgeartefakt. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | Ikke relevant | Ukendt | 750.000 | Registerstudie af risikoen for nye immunmedierede inflammatoriske sygdomme efter biologisk behandling. Kan give indirekte sikkerhedskontekst. |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer endnu ikke | 80 | Håndtering af immunsuppressiva før skulderalloplastik hos reumatologiske patienter. Tester ikke effekt ved vaskulitis. |
-
-Alle fem studier er vurderet som lav relevans (grad C). Der er ingen interventionsstudier af adalimumab ved reumatoid vaskulitis.
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering af immunsuppressiv behandling før skulderalloplastik hos reumatologiske patienter (opblussen, smerte, sårkomplikationer). Undersøger ikke adalimumabs effekt ved reumatoid vaskulitis og er derfor ikke direkte evidens. |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematisk review | Clinical Rheumatology | Gennemgang af biologisk behandling ved reumatoid vaskulitis. Datagrundlaget er overvejende af lav kvalitet. |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohorte/farmakovigilans | RMD Open | Lægemiddelspecifik risiko for lupus- og vaskulitis-lignende hændelser ved TNF-hæmmerbehandling af RA (BSRBR-RA). |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Kasuistik | Case Reports in Rheumatology | Digital vaskulitis hos en RA-patient, som responderede godt på adalimumab. |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Kasuistik | Internal Medicine | Akut pulmonal hypertensionskrise efter reduktion af adalimumab ved reumatoid vaskulitis. |
-| [21385558](https://pubmed.ncbi.nlm.nih.gov/21385558/) | 2011 | Kasuistik | Clinical and Experimental Rheumatology | Tocilizumab hjalp ved multiresistent, anti-TNF-refraktær reumatoid vaskulitis. |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Kasuistik | Am J Dermatopathology | Leukocytoklastisk vaskulitis udløst af adalimumab ved RA. |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Kasuistik | Internal Medicine | ANCA-associeret nefritis opstået under abatacept og adalimumab ved RA, dæmpet af tocilizumab. |
-| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Kasuistik | Néphrologie & Thérapeutique | ANCA-associeret vaskulitis med glomerulonefritis hos en patient behandlet med adalimumab mod RA. |
-| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Kohorte | Annals of the Rheumatic Diseases | Nytten af rutinemæssig ANA-testning til at forudsige biologisk DMARD-induceret lupus og vaskulitis ved RA. |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | Journal of Clinical Medicine | Behandling af RA-associeret episklerit og sklerit. |
-
-Der findes ingen randomiserede kontrollerede forsøg. Litteraturen peger i to retninger: enkelte rapporter om gavnlig effekt og flere om adalimumab-udløst vaskulitis.
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netværksmetaanalyse af 36 RCT'er | Int J Mol Sci | Sammenligner TNF-hæmmere (herunder adalimumab) med hensyn til ledødelæggelse ved reumatoid artrit. Ikke specifik for vaskulitis. |
+| [16979537](https://pubmed.ncbi.nlm.nih.gov/16979537/) | 2006 | Review | Best Pract Res Clin Rheumatol | Gennemgang af problemer under anti-TNF-behandling, herunder risiko for tuberkulosereaktivering. |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case report | Case Rep Rheumatol | Digital vaskulitis hos patient med reumatoid artrit, som responderede godt på adalimumab. |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case report | Intern Med | Akut pulmonal hypertensionskrise otte måneder efter dosisreduktion af adalimumab ved reumatoid vaskulitis. |
+| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Case report og litteraturgennemgang | Clin Rheumatol | Første rapporterede tilfælde af adalimumab-associeret antifosfolipidsyndrom; gennemgang af adalimumab-induceret vaskulitis. |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case report | Intern Med | ANCA-associeret nefritis opstået under abatacept og adalimumab ved reumatoid artrit; bedring med tocilizumab. |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case report | Am J Dermatopathol | Leukocytoklastisk vaskulitis med perivaskulær hæmofagocytose i huden efter opstart af adalimumab ved reumatoid artrit. |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohorteundersøgelse (BSRBR-RA) | RMD Open | Sammenligner risikoen for lupus- og vaskulitis-lignende hændelser ved TNF-hæmmere og konventionelle DMARD'er. |
+| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Kohorteundersøgelse | Ann Rheum Dis | Undersøger, om rutinemæssig ANA-testning kan forudsige biologisk DMARD-induceret lupus og vaskulitis. |
+| [36706240](https://pubmed.ncbi.nlm.nih.gov/36706240/) | 2023 | Nyrebiopsiundersøgelse | Kidney360 | Beskriver spektret af nyrelæsioner efter anti-TNF-behandling. |
 
 ---
 
-## Oplysninger om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105710015 | AMGEVITA (Amgen Europe BV) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i data |
+| 28105710015 | AMGEVITA (Amgen Europe BV) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen struktureret sikkerhedsinformation fra Lægemiddelstyrelsen i evidenspakken. Der er heller ikke fundet registrerede lægemiddelinteraktioner.
+Der foreligger ikke indlægsseddel- eller produktresumédata om advarsler og kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Litteraturen indeholder dog signaler, der er relevante for denne indikation: TNF-hæmmere, adalimumab inklusive, er beskrevet i forbindelse med paradoksal vaskulitis, lupus-lignende reaktioner og ANCA-associeret sygdom.
+**Lægemiddelinteraktioner:** 100 interaktioner er registreret. De vigtigste er:
+- **Alvorlige (Major):** systemiske og lokale kortikosteroider (betamethason, budesonid, dexamethason, hydrocortison, prednisolon, prednison, triamcinolon, herunder oftalmisk), deferipron samt radiofarmaka (ibritumomab tiuxetan, iobenguan (I-131), tositumomab (I-131), tositumomab).
+- **Moderate:** metronidazol, tinidazol, rosuvastatin og simvastatin.
+- **Milde (Minor):** zinkacetat, zinkgluconat og zinksulfat.
 
-For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+**Sikkerhedssignaler fra litteraturen:**
+- Reaktivering af tuberkulose og andre granulomatøse sygdomme under anti-TNF-behandling.
+- Paradoksale autoimmune hændelser (vaskulitis, lupus-lignende syndrom, antifosfolipidsyndrom, ANCA-associeret nefritis).
+- Nyrelæsioner efter anti-TNF-behandling.
 
 ---
 
@@ -119,19 +117,15 @@ For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Evidensen for reumatoid vaskulitis består af et systematisk review med lav kvalitet og kasuistikker, uden kontrollerede studier.
-- Retningen af effekten er uafklaret, da adalimumab også er beskrevet som udløsende faktor for vaskulitis.
-- Den høje TxGNN-score er kun en modelforudsigelse.
+- TxGNN-scoren er høj (99,80 %), men den kliniske evidens består kun af enkeltstående case reports og kohortestudier uden kontrolleret dokumentation for effekt.
+- Det eneste registrerede forsøg tester ikke adalimumab ved reumatoid vaskulitis.
+- Flere rapporter beskriver desuden, at adalimumab selv kan udløse vaskulitis og andre autoimmune reaktioner.
 
-**For at komme videre kræves:**
-- Produktresumé og advarsler fra Lægemiddelstyrelsen (manglende data, blokerende for sikkerhedsscreening)
-- Data om virkningsmekanisme fra DrugBank
-- Kontrollerede eller store observationelle studier med vaskulitis som endepunkt
-- En analyse af risikoen for paradoksal vaskulitis ved TNF-hæmmere
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelgenanvendelse kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Kontrollerede eller prospektive studier af adalimumab ved reumatoid vaskulitis med klare effektmål.
+- Systematisk vurdering af risikoen for paradoksale autoimmune hændelser hos patienter med reumatoid vaskulitis.
+- Indhentning af data om virkningsmekanisme (MOA) samt advarsler og kontraindikationer fra produktresuméet (SmPC).
+- Afklaring af godkendte indikationer for det danske præparat (AMGEVITA).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Catridecacog
 parent: Kun modelforudsigelse (L5)
-nav_order: 97
+nav_order: 166
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Catridecacog: Fra medfødt faktor XIII-mangel til primær frigivelsesforstyrrelse i blodplader
+# Catridecacog: Fra faktor XIII A-subunit-mangel til primær frigørelsesforstyrrelse af blodplader
 
-## Resumé i én sætning
+## Resumé
 
-Catridecacog er rekombinant faktor XIII (A-subunit) og bruges til at erstatte det manglende enzym ved medfødt faktor XIII-mangel. TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigivelsesforstyrrelse i blodplader** (*primary release disorder of platelets*). Der findes dog **ingen kliniske forsøg og ingen publikationer**, der understøtter denne specifikke retning.
+Catridecacog er rekombinant faktor XIII A-subunit, som oprindeligt anvendes til behandling af medfødt mangel på faktor XIII A-subunit.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (primary release disorder of platelets).
+Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så den hviler udelukkende på modellen.
 
 ---
 
@@ -41,49 +43,43 @@ Catridecacog er rekombinant faktor XIII (A-subunit) og bruges til at erstatte de
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Medfødt faktor XIII A-subunit-mangel (fremgår af produktets kendte anvendelse i evidensgrundlaget, ikke af den danske godkendelsestekst) |
-| Forudsagt ny indikation | Primær frigivelsesforstyrrelse i blodplader |
+| Oprindelig indikation | Mangel på faktor XIII A-subunit |
+| Forudsagt ny indikation | Primær frigørelsesforstyrrelse af blodplader |
 | TxGNN-forudsigelsesscore | 99,29 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | På markedet |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor kan forudsigelsen give mening?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Catridecacog er en rekombinant faktor XIII A-subunit, og virkningen ved medfødt faktor XIII-mangel er dokumenteret. Mekanistisk kan den derfor muligvis have en rolle ved primær frigivelsesforstyrrelse i blodplader.
+Catridecacog er rekombinant faktor XIII A-subunit. Den stabiliserer fibrinblodpropper ved at skabe tværbindinger i fibrinnetværket. Ved medfødt mangel på A-subunit erstatter lægemidlet det manglende protein og genopretter blodproppens stabilitet. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport.
 
-Faktor XIII er et transglutaminase-enzym, der krydsbinder fibrin og stabiliserer blodproppen. Ved frigivelsesforstyrrelser i blodplader er den granulære frigivelse nedsat. Den hypotese, der er fremsat, er, at øget fibrinkrydsbinding delvist kunne kompensere for dette. Hypotesen er spekulativ og utestet.
+Primær frigørelsesforstyrrelse af blodplader skyldes derimod en iboende defekt i blodpladernes sekretion fra granula. Det er en fejl i den primære hæmostase, ikke en mangel på fibrintværbinding. Der er derfor ingen åbenbar mekanistisk grund til, at tilskud af faktor XIII skulle rette op på blodpladedefekten.
 
-En høj modelscore uden kliniske data må ikke opfattes som støtte for effekt. Forudsigelsen bør derfor kun ses som en hypotese til videre undersøgelse.
-
----
-
-## Kliniske forsøg
-
-Der er i øjeblikket ingen registrerede kliniske forsøg for denne indikation.
+Den høje TxGNN-score er en grafbaseret forudsigelse fra vidensgrafen og har ingen oplagt biologisk understøttelse. En teoretisk, supplerende effekt på blodproppens stabilitet kan ikke udelukkes, men der findes ingen kliniske data.
 
 ---
 
-## Litteratur
+## Litteraturevidens
 
-Der er i øjeblikket ingen relevant litteratur for denne indikation.
+Der er i øjeblikket ingen relateret litteratur for denne indikation.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform |
-|---------|------|------|
-| 28104917311 | NovoThirteen (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28104917311 | NovoThirteen (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet advarsler, kontraindikationer eller interaktioner i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -92,17 +88,18 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden kliniske forsøg eller litteratur for primær frigivelsesforstyrrelse i blodplader. Den mekanistiske forklaring er spekulativ.
+Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikationer. Den biologiske mekanisme, fibrinstabilisering, adresserer ikke den underliggende defekt i blodpladernes frigørelse.
 
-Bemærk, at andre forudsigelser for samme lægemiddel har stærkere evidens. Medfødt faktor XIII-mangel har flere afsluttede fase 3-forsøg (bl.a. NCT00713648 og NCT00978380), men det er produktets kendte anvendelse og ikke reel lægemiddelgenanvendelse. Forudsigelserne for pseudo-von Willebrands sygdom, Glanzmanns trombasteni og hæmofili er ligeledes uden klinisk støtte.
+**Andre forudsigelser i de samlede data:**
+- *Medfødt faktor XIII-mangel* (score 98,79 %): Dette svarer til den allerede godkendte indikation og er derfor ikke en egentlig repurposing. Her foreligger 8 kliniske forsøg (heriblandt flere fase 3-forsøg) og 3 publikationer, svarende til L1 og "Proceed with Guardrails".
+- *Hæmofili* (score 98,26 %): Evidensen er indirekte (L4) og anbefalingen er Hold.
+- *Pseudo-von Willebrands sygdom* og *Glanzmanns trombasteni*: Begge er alene modelbaserede (L5) uden mekanistisk støtte, og anbefalingen er Hold.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanismen (MOA)
-- Præklinisk eller mekanistisk dokumentation for effekt ved frigivelsesforstyrrelser i blodplader
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Klinisk evidens, f.eks. case-serier eller kontrollerede studier i den relevante patientgruppe
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelgenanvendelse skal valideres klinisk, før de tages i brug.*
+- Data om virkningsmekanisme (MOA)
+- Prækliniske eller mekanistiske data, der viser en mulig effekt af faktor XIII ved blodpladefrigørelsesdefekter
+- Gennemgang af det godkendte produktresumé (SmPC) for advarsler og kontraindikationer
+- Indhentning af den godkendte indikationstekst for NovoThirteen i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

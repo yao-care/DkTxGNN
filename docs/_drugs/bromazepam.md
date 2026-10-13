@@ -2,7 +2,7 @@
 layout: default
 title: Bromazepam
 parent: Kun modelforudsigelse (L5)
-nav_order: 79
+nav_order: 135
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Bromazepam: Fra angstdæmpende benzodiazepin til migræne
+# Bromazepam: Fra angst-/beroligende behandling til migræne
 
 ## Resumé i én sætning
 
-Bromazepam er et benzodiazepin, der er markedsført i Danmark som Lexotan-tabletter. Den godkendte indikationstekst indgår ikke i datagrundlaget.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **migræne** (score 99,06 %), men evidensen er meget svag: **1 klinisk forsøg** med kun indirekte relevans og **0 publikationer**.
+Bromazepam er et benzodiazepin, som i Danmark er markedsført som Lexotan (tabletter). Den godkendte indikationstekst er ikke tilgængelig i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **migræne**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -42,10 +41,10 @@ TxGNN-modellen forudsiger, at det kan være virksomt ved **migræne** (score 99,
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget (godkendt indikationstekst er tom) |
+| Oprindelig indikation | Ikke tilgængelig i de sammenstillede data (indikationsteksten i markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-prædiktionsscore | 99,06 % |
-| Evidensniveau | L5 (kun modelforudsigelse; det ene forsøg er kun indirekte relevant) |
+| TxGNN-forudsigelsesscore | 99,06 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -54,42 +53,41 @@ TxGNN-modellen forudsiger, at det kan være virksomt ved **migræne** (score 99,
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om bromazepams virkningsmekanisme i datagrundlaget. Bromazepam tilhører benzodiazepinerne, som virker som positive allosteriske modulatorer af GABA-A-receptoren. Mekanismen kan i teorien dæmpe angst, muskelspændinger og central hyperexcitabilitet, og det er sandsynligvis baggrunden for, at videndiagrammet peger på migræne.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de sammenstillede data. Bromazepam tilhører dog benzodiazepinerne, som forstærker GABA-A-receptorens signalering og dermed har dæmpende effekt på centralnervesystemet.
 
-Der er dog ingen etableret mekanistisk sammenhæng mellem bromazepam og forebyggelse eller akut behandling af migræne. Benzodiazepiner anbefales ikke i retningslinjer for migræne. Overforbrug af beroligende og angstdæmpende midler er desuden i sig selv en anerkendt risikofaktor for medicinoverforbrugshovedpine (medication overuse headache). TxGNN-scoren på 0,99 er derfor en ren videndiagram-forudsigelse og bør ikke tolkes som klinisk evidens.
+En mulig, men spekulativ, forbindelse til migræne kan være nedsat hyperexcitabilitet i hjernebarken og i trigeminussystemet. Det kan også tænkes, at lindring af muskelspændinger og angst, som kan fungere som udløsende faktorer, spiller en rolle. Denne sammenhæng er udelukkende udledt af lægemiddelklassen.
 
-Bemærk: Inputtet indeholdt to identiske poster for "migraine disorder" (samme score og samme forsøg). De er slået sammen i denne rapport.
+Den høje TxGNN-score er en modelforudsigelse og er ikke understøttet af kliniske data eller litteratur. Benzodiazepiner er ikke en etableret migrænebehandling, og risikoen for afhængighed, sedation og medicinoverforbrug taler imod anvendelse.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste fund |
-|---------|------|------|------|---------|
-| [NCT04410536](https://clinicaltrials.gov/study/NCT04410536) | Fase 4 | Afsluttet | 25 | Hjemmeabstinensprogram kombineret med adfærdsmæssig tilgang hos patienter med medicinoverforbrugshovedpine under covid-19. Undersøger tilbagefald efter et års opfølgning. Bromazepams rolle fremgår ikke. |
-
-Relevansvurdering: grad C (indirekte evidens). Forsøget tester ikke bromazepams effekt ved migræne. Bromazepam optræder muligvis kun som abstinenshjælp eller samtidig medicin, men det kan ikke bekræftes ud fra de foreliggende data. Registerposten bør gennemgås manuelt. Der er ikke fundet EudraCT-numre eller ICTRP-forsøg.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100651774 | Lexotan (CHEPLAPHARM Arzneimittel GmbH) | Tabletter (oral) | – |
+| 28100651774 | Lexotan (CHEPLAPHARM Arzneimittel GmbH) | Tabletter | Ikke tilgængelig |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsovvejelser
 
-Der foreligger ingen sikkerhedsdata i datagrundlaget. Interaktionsopslaget gav ingen resultater.
-Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke fundet registrerede interaktioner i de sammenstillede data. Dette er ikke ensbetydende med, at der ikke findes interaktioner. Benzodiazepiner har kendte interaktioner med bl.a. opioider, alkohol og andre CNS-dæmpende stoffer.
+
+Der henvises til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+
+Fra lægemiddelklassen bør følgende risici overvejes ved en eventuel anvendelse mod migræne: afhængighed, sedation og medicinoverforbrug.
 
 ---
 
@@ -98,17 +96,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen bygger udelukkende på en videndiagrammodel. Det eneste forsøg er indirekte relevant, der er ingen litteratur, og der er ingen etableret mekanisme eller retningslinjestøtte for benzodiazepiner ved migræne.
-- Risikoen for medicinoverforbrugshovedpine og de manglende sikkerhedsdata taler imod at gå videre på nuværende grundlag.
+Forudsigelsen er udelukkende baseret på modellen (evidensniveau L5), uden kliniske forsøg eller litteratur. Benzodiazepiner er ikke en etableret migrænebehandling, og risici som afhængighed og sedation vejer tungt.
 
-**For at komme videre er følgende nødvendigt:**
-- Hent produktresuméet (SmPC) fra Lægemiddelstyrelsen og udtræk advarsler og kontraindikationer (blokerende datamangel).
-- Hent data om virkningsmekanisme og oprindelig indikation fra DrugBank.
-- Gennemgå registerposten for NCT04410536 manuelt for at afklare bromazepams rolle.
-- Gennemfør en systematisk litteratursøgning om bromazepam og benzodiazepiner ved migræne og medicinoverforbrugshovedpine.
-- Vurder risikoen for afhængighed og medicinoverforbrugshovedpine, før der overvejes prækliniske eller kliniske studier.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til nye anvendelser af eksisterende lægemidler kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Systematisk litteratursøgning og søgning i forsøgsregistre efter bromazepam eller benzodiazepiner ved migræne
+- Vurdering af nytte/risiko, herunder afhængighed og medicinoverforbrug, før der overvejes prækliniske eller kliniske studier
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

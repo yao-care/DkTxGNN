@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Kun modelforudsigelse (L5)
-nav_order: 372
+nav_order: 711
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Remdesivir: Fra COVID-19 til multipel endokrin neoplasi
+# Remdesivir: Fra virusinfektion til multipel endokrin neoplasi
 
-## Resumé
+## Opsummering i én sætning
 
-Remdesivir er et bredspektret nukleotidanalog-antiviralt middel, som er godkendt til behandling af COVID-19. TxGNN-modellen forudsiger, at det kan have effekt ved **multipel endokrin neoplasi** (en arvelig tumorsyndrom i de endokrine organer). Der findes dog **0 kliniske forsøg** og **0 publikationer** for denne forudsigelse, så den hviler udelukkende på modellens score.
+Remdesivir er et antiviralt middel (nukleotidanalog), som er markedsført i Danmark som Veklury, men den godkendte indikationstekst indgår ikke i de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **multipel endokrin neoplasi** med en meget høj modelscore, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse.
+Forudsigelsen hviler derfor udelukkende på en grafbaseret model.
 
 ---
 
@@ -41,9 +43,9 @@ Remdesivir er et bredspektret nukleotidanalog-antiviralt middel, som er godkendt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | COVID-19 (fremgår af litteraturen; indikationsteksten i den danske tilladelse er ikke angivet) |
+| Oprindelig indikation | Ikke tilgængelig i de indsamlede data (den godkendte indikationstekst er tom) |
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
-| TxGNN-forudsigelsesscore | 99,50 % |
+| TxGNN-forudsigelsesscore | 99,5 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,54 +53,50 @@ Remdesivir er et bredspektret nukleotidanalog-antiviralt middel, som er godkendt
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der er i øjeblikket ingen detaljerede data om virkningsmekanismen. Remdesivir er ifølge litteraturen en nukleotidanalog-prodrug, der hæmmer viral RNA-afhængig RNA-polymerase, og dets effekt ved COVID-19 er påvist i flere fase 3-forsøg.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Remdesivir er dog kendt som en nukleotidanalog-prodrug, der hæmmer virale RNA-afhængige RNA-polymeraser og har aktivitet mod flere RNA-vira.
 
-Der er ikke noget oplagt mekanistisk link mellem en antiviral nukleotidanalog og multipel endokrin neoplasi. Sidstnævnte er en arvelig tumorsygdom, som ikke skyldes en virusinfektion. Den høje score på 0,995 er en ren modelforudsigelse og afspejler sandsynligvis en tilfældig sammenhæng i vidensgrafen. Der er hverken forsøg, litteratur eller mekanistiske data, der understøtter den. Forudsigelsen bør derfor kun betragtes som en hypotese uden dokumentation.
+Multipel endokrin neoplasi er et arveligt tumorsyndrom (fx MEN1 og RET-mutationer), som skyldes tab af tumorsuppressorer eller aktivering af onkogener. Der er **ikke identificeret nogen plausibel mekanistisk sammenhæng** mellem en antiviral polymerasehæmmer og denne sygdom. Den høje score (0,995) afspejler sandsynligvis grafbaserede mønstre i modellen og ikke biologisk eller klinisk evidens. Forudsigelsen bør derfor betragtes som usikker og ikke som et egentligt fund.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret for multipel endokrin neoplasi.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-Der er aktuelt ingen relateret litteratur tilgængelig for multipel endokrin neoplasi.
-
----
-
-## Øvrige forudsigelser fra modellen
-
-Modellen har også forudsagt nedenstående indikationer. Rangeringerne indeholder dubletter, som er samlet her.
-
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| HIV-infektion | 99,32 % | L4 | 23 forsøg og 20 publikationer er fundet, men de handler næsten udelukkende om SARS-CoV-2 (COVID-19). Der er ingen HIV-specifik evidens for effekt eller sikkerhed. Fundet skyldes sandsynligvis en bred association til "virusinfektion" i vidensgrafen. |
-| Felint immundefektsyndrom (FIV, dyresygdom) | 99,07 % | L5 | Veterinær lentivirussygdom uden forsøg eller litteratur. Ingen klinisk relevans for mennesker. |
-| Simian immundefektvirusinfektion (SIV) | 99,07 % | L5 | Infektion hos ikke-menneskelige primater, primært en dyremodel for HIV. Ikke en human indikation. |
-| Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans | 99,03 % | L5 | Sjælden genetisk sygdom uden plausibelt mekanistisk link. Sandsynligvis et grafartefakt. |
-
-Bemærk til HIV: Det eneste forsøg med berøring til HIV er [NCT04385719](https://clinicaltrials.gov/study/NCT04385719), et fase 2-farmakokinetikstudie med 24 raske frivillige i Uganda. Det undersøger, hvordan fastdosis-kombinationer af tenofovir/lamivudin eller atazanavir/ritonavir påvirker remdesivirs blodniveauer. Det er ikke et effektstudie ved HIV.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106444820 | Veklury | Koncentrat til infusionsvæske, opløsning | Gilead Sciences Ireland UC |
-
-Indikationsteksten er ikke angivet i de foreliggende data. Præparatet gives som injektion/infusion.
+| MA 28106444820 | Veklury (Gilead Sciences Ireland UC) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+### Lægemiddelinteraktioner
+
+Interaktionsforespørgslen er gennemført og identificerede i alt 100 mulige interaktioner. De fleste af de angivne eksempler er klassificeret som **moderate**, bl.a. med:
+
+- Acarbose, pioglitazon
+- Doxycyclin, minocyclin, tetracyclin
+- Clarithromycin, levofloxacin
+- Amphotericin B (inkl. lipidkompleks)
+- Vancomycin, kanamycin, neomycin
+- Bupropion, naltrexon
+- Mesalazin, balsalazid, olsalazin
+- Chenodeoxycholsyre, oxandrolon, oxymetholon
+
+Klinisk relevans og håndtering bør vurderes ud fra det godkendte produktresumé (SmPC) og den enkelte patients samlede medicinering.
 
 ---
 
@@ -107,16 +105,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om multipel endokrin neoplasi har kun en modelscore at bygge på (evidensniveau L5). Der er ingen forsøg, ingen litteratur og intet plausibelt mekanistisk link. Evidensen for HIV er ikke HIV-specifik, da alle fundne forsøg og publikationer drejer sig om COVID-19.
+Forudsigelsen om multipel endokrin neoplasi er udelukkende modelbaseret (evidensniveau L5), uden kliniske forsøg, uden litteratur og uden nogen plausibel mekanistisk sammenhæng med remdesivirs antivirale virkning.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen (MOA), f.eks. fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (mangler, og blokerer den videre sikkerhedsvurdering)
-- Den godkendte indikationstekst for Veklury i Danmark
-- Præklinisk eller mekanistisk evidens, der kan begrunde en sammenhæng med multipel endokrin neoplasi, før der overvejes kliniske undersøgelser
-- Hvis HIV skal forfølges: HIV-specifikke in vitro-data og kliniske data, da den nuværende evidens ikke understøtter indikationen
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomdirigering skal valideres klinisk, før de kan anvendes.*
+- Hentning af godkendte indikationer, advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Præklinisk eller mekanistisk evidens, der kan underbygge en sammenhæng med multipel endokrin neoplasi
+- Hvis man ønsker at undersøge andre forudsigelser fra modellen (fx hiv-infektion), kræves egentlige kliniske data for den indikation; de nuværende data omfatter kun ét farmakokinetisk interaktionsstudie (NCT04385719) og litteratur om COVID-19, som ikke dokumenterer effekt mod hiv
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

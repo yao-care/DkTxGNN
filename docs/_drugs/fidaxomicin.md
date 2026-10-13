@@ -2,7 +2,7 @@
 layout: default
 title: Fidaxomicin
 parent: Kun modelforudsigelse (L5)
-nav_order: 190
+nav_order: 356
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fidaxomicin: Fra Clostridioides difficile-infektion til stafylokok-skoldet hud-syndrom
+# Fidaxomicin: Fra Clostridium difficile-colitis til stafylokok-skoldet hud-syndrom (SSSS)
 
 ## Resumé i én sætning
 
-Fidaxomicin er et smalspektret makrocyklisk antibiotikum, som oprindeligt anvendes mod *Clostridioides difficile*-infektion (baseret på baggrundsviden, da indikationsteksten ikke er angivet i data). TxGNN-modellen forudsiger, at det kan have effekt ved **stafylokok-skoldet hud-syndrom (SSSS)**. Der er dog **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen, som udelukkende er modelbaseret.
+Fidaxomicin er et smalspektret antibiotikum, der oprindeligt bruges til behandling af *Clostridium difficile*-colitis og beslægtede clostridieinfektioner.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **stafylokok-skoldet hud-syndrom (SSSS)**,
+men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -41,39 +43,37 @@ Fidaxomicin er et smalspektret makrocyklisk antibiotikum, som oprindeligt anvend
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | *C. difficile*-infektion (baggrundsviden; indikationstekst ikke angivet i den danske registrering) |
-| Forudsagt ny indikation | Stafylokok-skoldet hud-syndrom (staphylococcal scalded skin syndrome) |
+| Oprindelig indikation | *Clostridium difficile*-colitis (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Stafylokok-skoldet hud-syndrom (SSSS) |
 | TxGNN-forudsigelsesscore | 99,71 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
+Andre forudsagte indikationer med næsten identiske scorer (alle L5, alle Hold): bulløs impetigo (99,70 %), inhalationsbotulisme (99,69 %), impetigo (99,68 %) og toksinmedieret infektiøs botulisme (99,66 %).
+
 ---
 
-## Hvorfor er denne forudsigelse rimelig (eller ej)?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Ud fra baggrundsviden hæmmer fidaxomicin bakterielt RNA-polymerase og er markedsført til behandling af *C. difficile*-infektion. Modellens forudsigelse hviler formentlig på, at både *C. difficile* og *Staphylococcus aureus* er grampositive bakterier, og at lægemidlet derfor knyttes til sygdomme forårsaget af grampositive organismer.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de indsamlede data. Fidaxomicin er dog et makrocyklisk antibiotikum, der hæmmer bakteriel RNA-polymerase og primært er aktivt mod grampositive anaerobe bakterier som *C. difficile*. Stoffet har også en vis aktivitet *in vitro* mod *Staphylococcus aureus*, som via eksfoliative toksiner forårsager SSSS og bulløs impetigo. Det udgør det mekanistiske grundlag for modellens forudsigelse.
 
-Den mekanistiske sammenhæng er svag. SSSS er en toksinmedieret hudsygdom forårsaget af eksfoliative toksiner fra *S. aureus*. Fidaxomicin har kun begrænset rapporteret aktivitet mod stafylokokker og optages stort set ikke systemisk efter oral indtagelse. Det passer dårligt til en systemisk toksinmedieret sygdom. Koblingen er derfor kun plausibel på niveau med grampositiv antibakteriel klasse.
+Der er dog væsentlige begrænsninger. Fidaxomicin optages kun minimalt efter oral indtagelse og virker derfor overvejende lokalt i tarmen. Det er usandsynligt, at stoffet når effektive koncentrationer i hud eller blod. Desuden findes der allerede veletablerede systemiske og topikale stafylokokvirksomme midler. Det mekanistiske link er således kun plausibelt *in vitro* og er ikke understøttet klinisk.
 
-TxGNN forudsiger også andre indikationer med næsten identiske scorer (ca. 99,7 %). De vurderes alle som svagt underbyggede:
-
-- **Bulløs impetigo og impetigo:** Overfladiske hudinfektioner med *S. aureus* (og *S. pyogenes*). Oralt fidaxomicin forbliver hovedsageligt i tarmlumen og når ikke hudlæsionerne. Der findes allerede etablerede lokale og systemiske behandlinger.
-- **Inhalationsbotulisme:** Skyldes præformeret neurotoksin, ikke bakteriel vækst. Antibiotika neutraliserer ikke toksin, og behandlingen bygger på antitoksin og understøttende pleje. Der er ingen oplagt mekanisme for en fidaxomicineffekt.
-- **Toksinmedieret infektiøs botulisme:** Den biologisk mest plausible kandidat, fordi *C. botulinum* vokser i tarmen, og fidaxomicin virker lokalt i tarmen mod clostridier. Antibiotika er dog ikke standardbehandling, da bakterielyse kan frigive mere toksin. Der kræves præklinisk arbejde (in vitro og dyremodeller), før klinisk anvendelse kan overvejes.
+For de øvrige forudsagte sygdomme gælder følgende. Ved impetigo og bulløs impetigo (*S. aureus* og *S. pyogenes*) er der ikke etableret topikale formuleringer. Ved botulisme er behandlingen primært antitoksin og støttende behandling, og antibiotika bruges forsigtigt, fordi bakterielyse kan frigive mere toksin. Ved spædbarns- og sårbotulisme kunne et tarmaktivt antiklostridielt middel i teorien nedsætte den intestinale bakteriebyrde, men det er alene en hypotese.
 
 ---
 
 ## Klinisk forsøgsevidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for nuværende ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for nuværende ingen relateret litteratur tilgængelig.
 
 ---
 
@@ -81,13 +81,24 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104752610 | Dificlir (Tillotts Pharma GmbH) | Filmovertrukne tabletter (oral) | Ikke angivet i data |
+| 28104752610 | Dificlir (Tillotts Pharma GmbH) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i datagrundlaget (ingen registrerede lægemiddelinteraktioner, advarsler eller kontraindikationer). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret i alt 79 interaktioner. Blandt de 20 beskrevne i de indsamlede data er den eneste med alvorlighedsgrad **Major**:
+- Levende kolera-vaccine (*Vibrio cholerae* CVD 103-HgR)
+
+Interaktioner af **moderat** alvorlighed:
+- Alpelisib
+- Apalutamid
+- Binimetinib
+- Picosulfat (picosulfursyre)
+
+De øvrige beskrevne interaktioner er af **mindre** alvorlighed, bl.a. nifedipin, amiodaron, diltiazem, verapamil, ciclosporin, clarithromycin, erythromycin, spironolacton, brigatinib, cabozantinib, capmatinib, daclatasvir, dronedaron, elagolix og ivacaftor.
+
+Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -96,15 +107,14 @@ Der foreligger ingen sikkerhedsdata i datagrundlaget (ingen registrerede lægemi
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur. Fidaxomicins farmakokinetik (minimal systemisk absorption) og mekanisme passer dårligt til de forudsagte hud- og toksinmedierede sygdomme. Der findes desuden allerede etablerede behandlinger.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Fidaxomicins minimale systemiske optagelse gør det usandsynligt, at stoffet er effektivt ved hud- og systemiske infektioner, og effektive standardbehandlinger findes allerede.
 
 **For at komme videre kræves følgende:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da sikkerhedsscreening ikke kan gennemføres uden dem
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Præklinisk dokumentation (in vitro-aktivitet mod *S. aureus* og *C. botulinum*, dyremodeller), især for toksinmedieret infektiøs botulisme som den mest plausible kandidat
-- Vurdering af rutekompatibilitet (oral tablet mod hud- eller systemiske indikationer) og ligheden med den oprindelige indikation
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanismen (MOA)
+- Advarsler og kontraindikationer fra det danske produktresumé, da sikkerhedsscreening ikke kan gennemføres uden dem
+- *In vitro*-data for aktivitet mod *S. aureus* og vævsfordelingsdata, der viser, om effektive koncentrationer kan nås i hud
+- Vurdering af en eventuel topikal eller anden formulering, da den eksisterende orale tablet ikke er egnet til hudinfektioner
+- Prækliniske eller kliniske studier, før en egentlig vurdering kan foretages
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

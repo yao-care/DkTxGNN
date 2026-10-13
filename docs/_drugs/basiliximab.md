@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Basiliximab
-parent: Moderat evidens (L3-L4)
-nav_order: 57
-evidence_level: L3
+parent: Kun modelforudsigelse (L5)
+nav_order: 97
+evidence_level: L5
 indication_count: 10
 ---
 
 # Basiliximab
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,10 +31,9 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 # Basiliximab: Fra transplantationsimmunsuppression til plasmacellemyelom
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-Basiliximab er et anti-CD25-antistof (IL-2-receptorantagonist), som anvendes i transplantationsmedicin. Baseret på de foreliggende data er det ikke muligt at angive en godkendt oprindelig indikation for Danmark.
-TxGNN-modellen forudsiger, at det kan have effekt ved **plasmacellemyelom**, men evidensen er begrænset: **3 kliniske forsøg** (kun ét er fase 1 direkte i myelom) og **3 publikationer**, hvoraf kun ét pilotstudie omhandler myelom.
+Basiliximab er et monoklonalt antistof mod IL-2-receptoren (CD25), som markedsføres i Danmark under navnet Simulect. Data, der er indsamlet til denne rapport, indeholder ingen angivet godkendt indikation. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **plasmacellemyelom** (multipelt myelom), og der foreligger **3 kliniske forsøg** og **4 publikationer** på området. Evidensen er dog indirekte: den vedrører primært forebyggelse af graft-versus-host-sygdom (GVHD) og modulation af T-celler i forbindelse med transplantation, ikke direkte behandling af myelomet.
 
 ---
 
@@ -42,59 +41,65 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **plasmacellemyelom**, men
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendt indikationstekst er tom) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Plasmacellemyelom |
-| TxGNN-prædiktionsscore | 95,6 % |
-| Evidensniveau | L3 |
+| TxGNN-forudsigelsesscore | 95,6 % |
+| Evidensniveau | L2 (jf. de indsamlede data; kun ét afsluttet fase 2-forsøg på n=17 og indirekte endepunkt, så reelt svag evidens) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Basiliximab er dog kendt som et kimært monoklonalt antistof mod CD25 (IL-2-receptor alfa-kæden), som blokerer eller fjerner aktiverede T-celler og regulatoriske T-celler (Tregs). Dette er generel farmakologisk viden og ikke hentet fra datagrundlaget.
+Detaljerede data om virkningsmekanismen er i øjeblikket ikke tilgængelige i de indsamlede data. Basiliximab er dog et kimært monoklonalt antistof, der blokerer IL-2-receptorens alfa-kæde (CD25) på aktiverede T-celler. Det anvendes i transplantationsmedicin til at forebygge afstødning og GVHD.
 
-Hypotesen er, at kortvarig Treg-depletion omkring autolog stamcelletransplantation (ASCT) kan forbedre immunforsvarets aktivitet mod myelomceller. Efter højdosis melphalan og ASCT genopbygges Tregs hurtigt og kan hæmme anti-myelom-immunresponset. Der er derfor en plausibel mekanistisk sammenhæng, men den er endnu kun afprøvet i et lille pilotstudie.
+I myelomsammenhæng er lægemidlet brugt på to måder: til at nedbringe aktiverede T-celler for at forebygge GVHD efter ikke-myeloablativ allogen transplantation, og til at nedbringe CD25-positive regulatoriske T-celler (Treg) omkring autolog stamcelletransplantation. Tanken i det sidste tilfælde er, at Treg-celler genopbygges hurtigt efter transplantation og kan hæmme immunforsvaret mod myelomceller.
 
-Fase 2-data for basiliximab vedrører forebyggelse af graft-versus-host-sygdom (GVHD), ikke kontrol af myelom. De understøtter derfor primært sikkerhed i transplantationssammenhæng, ikke anti-myelom-effekt.
+Koblingen er altså **indirekte**: basiliximab påvirker immunmiljøet og transplantationskomplikationer, ikke myelomcellerne direkte. Forudsigelsen skal derfor læses som en hypotese, ikke som bevis for antimyelomeffekt.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Kliniske forsøg
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT01526096](https://clinicaltrials.gov/study/NCT01526096) | Fase 1 | Afsluttet | 30 | Pilotstudie af Treg-depletion med basiliximab ved ASCT hos myelompatienter. Vurderer gennemførlighed og sikkerhed. Direkte relevant, men fase 1. |
-| [NCT00975975](https://clinicaltrials.gov/study/NCT00975975) | Fase 2 | Afsluttet | 17 | Basiliximab plus ciclosporin til forebyggelse af GVHD efter non-myeloablativ allogen transplantation ved blodkræft. Understøtter sikkerhed, ikke anti-myelom-effekt. |
-| [NCT00594308](https://clinicaltrials.gov/study/NCT00594308) | Ikke relevant (NA) | Afbrudt | 10 | Basiliximab plus ciclosporin versus ciclosporin alene til forebyggelse af GVHD. Tidlig afbrydelse begrænser fortolkningen. |
+| [NCT00975975](https://clinicaltrials.gov/study/NCT00975975) | Fase 2 | Afsluttet | 17 | Basiliximab sammen med ciclosporin til forebyggelse af GVHD efter ikke-myeloablativ allotransplantation ved blodkræft. Lille studie; endepunktet er GVHD, ikke myelomkontrol |
+| [NCT00594308](https://clinicaltrials.gov/study/NCT00594308) | Ikke relevant | Afbrudt | 10 | Basiliximab plus ciclosporin versus ciclosporin alene til GVHD-forebyggelse. Afbrudt tidligt, så meget begrænset anvendelig evidens |
+| [NCT01526096](https://clinicaltrials.gov/study/NCT01526096) | Fase 1 | Afsluttet | 30 | Pilotstudie af reduktion af regulatoriske T-celler ved autolog stamcelletransplantation hos myelompatienter; undersøger gennemførlighed og sikkerhed |
 
 ---
 
-## Litteraturevidens
+## Litteratur
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [31940591](https://pubmed.ncbi.nlm.nih.gov/31940591/) | 2020 | Klinisk pilotstudie | Journal for Immunotherapy of Cancer | Treg-depletion i forbindelse med ASCT ved myelom. |
-| [12476283](https://pubmed.ncbi.nlm.nih.gov/12476283/) | 2002 | Klinisk studie | Bone Marrow Transplantation | Basiliximab var veltolereret og effektivt hos 17 patienter med steroidrefraktær akut GVHD efter allogen stamcelletransplantation (inkl. enkelte med myelom). |
-| [28320553](https://pubmed.ncbi.nlm.nih.gov/28320553/) | 2017 | Case-rapporter | American Journal of Kidney Diseases | Nyretransplantation hos 4 patienter med nyresvigt på grund af myelom. Ikke direkte relateret til basiliximabs effekt på myelom. |
+| [31940591](https://pubmed.ncbi.nlm.nih.gov/31940591/) | 2020 | Klinisk studie (fase 1) | J Immunother Cancer | Pilotstudie af Treg-depletion ved autolog stamcelletransplantation ved myelom; Treg-celler genopbygges hurtigt efter transplantation og kan hæmme immunresponset mod myelomceller |
+| [12476283](https://pubmed.ncbi.nlm.nih.gov/12476283/) | 2002 | Kohorte | Bone Marrow Transplant | Basiliximab var veltolereret og virksomt ved steroidrefraktær akut GVHD hos 17 patienter, heriblandt en med myelom |
+| [42379467](https://pubmed.ncbi.nlm.nih.gov/42379467/) | 2026 | Case report/review | Am J Kidney Dis | Nyretransplantation efter CAR-T-behandling ved myelom; kontekstuel, ikke direkte evidens for basiliximab |
+| [28320553](https://pubmed.ncbi.nlm.nih.gov/28320553/) | 2017 | Case report | Am J Kidney Dis | Nyretransplantation hos fire patienter med nyresvigt på grund af myelom; kontekstuel evidens |
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103413102 | Simulect (Novartis Europharm Limited) | Pulver og solvens til injektions-/infusionsvæske, opløsning | Indikationstekst ikke angivet i datagrundlaget |
+| 28103413102 | Simulect (Novartis Europharm Limited) | Pulver og solvens til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen tilgængelige data om advarsler, kontraindikationer eller interaktioner i datagrundlaget. Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret 69 interaktioner i alt. Blandt de viste er de vigtigste:
+- **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol og levende BCG-vaccine (Bacillus Calmette-Guérin)
+- **Moderate:** bl.a. alemtuzumab, anakinra, azathioprin, canakinumab, alefacept, roflumilast samt flere vacciner (bl.a. tetanustoksoid, miltbrandvaccine, kolera-vaccine)
+- **Milde (Minor):** zinksalte (acetat, glukonat, sulfat, chlorid)
 
-Basiliximab er et immunsuppressivt antistof, og det bør indgå i risikovurderingen ved enhver brug uden for godkendt indikation.
+Generelt gælder, at kombination med andre immunsuppressive midler og levende vacciner kræver særlig opmærksomhed.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for advarsler og kontraindikationer.
 
 ---
 
@@ -103,18 +108,24 @@ Basiliximab er et immunsuppressivt antistof, og det bør indgå i risikovurderin
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje TxGNN-score (95,6 %) understøttes kun af et enkelt fase 1-pilotstudie i myelom, som belyser gennemførlighed og sikkerhed, ikke effekt. Fase 2-data vedrører GVHD. Der mangler sikkerhedsdata fra Lægemiddelstyrelsen, og indikationen i Danmark er ikke angivet.
+Evidensen for plasmacellemyelom er indirekte og baseret på meget små studier (n=10-30), hvor endepunkterne er GVHD-forebyggelse eller Treg-depletion og ikke kontrol af myelomsygdommen. Mekanismen og godkendt indikation mangler i de indsamlede data, og sikkerhedsoplysninger fra produktresuméet er ikke indhentet. Der er derfor ikke grundlag for at gå videre ud over som forskningsspørgsmål.
 
-**For at komme videre kræves følgende:**
-- Indhentning og gennemgang af det danske produktresumé (SPC) med advarsler, kontraindikationer og godkendt indikation (blokerende datamangel)
-- Data om virkningsmekanisme fra DrugBank
-- Resultater og opfølgning fra NCT01526096 med fokus på effekt (responsrate, progressionsfri overlevelse)
-- Et fase 2-forsøg med effektendepunkter i myelom efter ASCT
-- Vurdering af infektions- og sekundær malignitetsrisiko ved Treg-depletion hos myelompatienter
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (indikation, advarsler, kontraindikationer) for at kunne gennemføre sikkerhedsscreening
+- Mekanismedata (MOA) fra DrugBank
+- Resultater og effektdata fra NCT01526096 og NCT00975975 med fokus på myelomrelaterede endepunkter (progressionsfri overlevelse, respons)
+- Vurdering af risikoen ved yderligere immunsuppression hos myelompatienter (infektioner, interaktioner)
 
 ---
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser fra lægemiddelrepurposering kræver klinisk validering, før de kan anvendes i praksis.*
+## Andre forudsagte indikationer (kort vurdering)
+
+| Indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Bronkitis | 95,5 % | L4 | Hold. Ingen forsøg; litteraturen handler om bronkiolitis obliterans-syndrom efter lungetransplantation, så den høje score afspejler sandsynligvis en sygdomsnavne-/ontologiforveksling |
+| Indolent plasmacellemyelom | 95,3 % | L5 | Hold. Kun modelforudsigelse, ingen forsøg eller publikationer |
+| Hæmoglobinopati | 94,3 % | L3 | Forskningsspørgsmål. Basiliximab til GVHD-forebyggelse ved stamcelletransplantation ved thalassæmi major ([NCT02342145](https://clinicaltrials.gov/study/NCT02342145), fase 4, n=205, afsluttet; [NCT03171831](https://clinicaltrials.gov/study/NCT03171831), fase 4, n=30, ukendt status). Støttende effekt på transplantationskomplikationer, ikke på selve hæmoglobinsygdommen |
+| Mavekræft (gastrisk karcinom) | 93,9 % | L4 | Hold. Kun et case report om gastrektomi efter levertransplantation; viser sam-forekomst, ikke terapeutisk effekt, og immunsuppression giver snarere anledning til bekymring |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

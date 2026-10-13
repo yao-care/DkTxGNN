@@ -2,7 +2,7 @@
 layout: default
 title: Tadalafil
 parent: Kun modelforudsigelse (L5)
-nav_order: 415
+nav_order: 787
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tadalafil: Fra PDE5-hæmmer til Ambras-type hypertrichosis universalis congenita
+# Tadalafil: Fra erektil dysfunktion og pulmonal hypertension til Ambras-type hypertrichosis universalis congenita
 
-## Opsummering i en sætning
+## Resumé
 
-Tadalafil er en PDE5-hæmmer, som er markedsført i Danmark under handelsnavnet Adcirca. TxGNN-modellen forudsiger, at det kan have effekt ved **Ambras-type hypertrichosis universalis congenita**. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse, så den er udelukkende modelbaseret.
+Tadalafil er et lægemiddel, der oprindeligt anvendes mod blandt andet erektil dysfunktion, benign prostatahyperplasi og pulmonal hypertension.
+TxGNN-modellen forudsiger, at det kan have effekt ved **Ambras-type hypertrichosis universalis congenita**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregnet af modellen.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i det foreliggende datagrundlag |
+| Oprindelig indikation | Pulmonal hypertension, erektil dysfunktion, benign prostatahyperplasi, psykologisk dyspareuni og for tidlig ejakulation (fra vidensgrafen; den danske godkendelsestekst er ikke angivet) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-prædiktionsscore | 99,98 % |
+| TxGNN-forudsigelsesscore | 99,98 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig (eller ej)?
+---
 
-Der foreligger ingen detaljerede data om lægemidlets virkningsmekanisme i datagrundlaget. Tadalafil er en PDE5-hæmmer, som øger cGMP og giver vasodilatation. Der er imidlertid ikke fundet en troværdig mekanistisk sammenhæng med den forudsagte sygdom.
+## Hvorfor er denne forudsigelse rimelig?
 
-Ambras-type hypertrichosis universalis congenita er en sjælden medfødt genetisk lidelse. Vasodilaterende stoffer som minoxidil er kendt for at fremkalde øget hårvækst. Hvis noget, peger en vasodilaterende mekanisme derfor i modsat retning af et terapeutisk mål.
+Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Tadalafil er generelt kendt som en PDE5-hæmmer, der øger cGMP, men det fremgår ikke af de data, der er indsamlet til denne rapport, og er derfor ikke dokumenteret her.
 
-Den høje score afspejler sandsynligvis nærhed i vidensgrafen, for eksempel delte hår- eller karrelaterede knuder, og ikke en valideret mekanisme.
+Der er ikke påvist nogen mekanistisk sammenhæng mellem PDE5-hæmning og Ambras-syndrom, som er en sjælden genetisk lidelse. Den høje score afspejler formentlig nærhed i vidensgrafen til beslægtede kongenitte hypertrichose-tilstande snarere end biologisk dokumentation.
 
-Modellen forudsiger også andre indikationer med næsten samme score, som heller ikke har dokumenteret evidens:
+Modellen forudsiger også andre tilstande, bl.a. hypertrichose (99,98 %), misdannelsessyndrom med tand- eller parodontosekomponent (99,97 %), syndrom med Dandy-Walker-misdannelse (99,97 %) og isoleret genetisk hårskaftsabnormitet (99,96 %). Ingen af dem er understøttet af forsøg eller litteratur, og der er ikke identificeret mekanistisk relevans. En hypotese om cGMP-medieret vasodilatation og follikelperfusion ved hypertrichose er rent spekulativ.
 
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Hypertrichosis (sygdom) | 99,98 % | Ingen kliniske data. Den plausible retning er øget hårvækst, ikke behandling. |
-| Misdannelsessyndrom med tand- og/eller parodontal komponent | 99,97 % | De fundne artikler handler om generel parodontitis og nævner hverken tadalafil eller PDE5-hæmning. |
-| Syndrom med Dandy-Walker-malformation som hovedtræk | 99,97 % | En strukturel udviklingsdefekt, som en symptomatisk PDE5-hæmmer ikke forventes at kunne korrigere. |
-| Isoleret genetisk hårskaftsabnormitet | 99,96 % | PDE5/cGMP-signalering er ikke kendt for at korrigere strukturelle hårskaftsdefekter. |
+---
 
-## Kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
-Til den fjerdeplacerede forudsigelse (misdannelsessyndrom med parodontal komponent) blev der fundet artikler om generel parodontitis. Ingen af dem omtaler tadalafil, og de er vurderet som irrelevante nøgleordstræf.
+---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104351408 | Adcirca (Eli Lilly Netherland B.V.) | Filmovertrukne tabletter (oral) | Ikke angivet i datagrundlaget |
+| 28104351408 | Adcirca (Eli Lilly Netherland B.V.) | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i de indsamlede data |
+
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
+
+---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet interaktionsdata for tadalafil i den forespurgte kilde. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer fra vidensgrafen (ikke fra produktresumeet):**
+Vidensgrafen angiver tilstande, hvor tadalafil er markeret som kontraindiceret. Disse stammer ikke fra godkendt produkttekst og bør verificeres i produktresuméet. De omfatter:
+- **Hjerte-kar:** akut koronart syndrom, myokardieinfarkt, koronar trombose, aortastenose (inkl. supravalvulær), hypotension, hypertrofisk kardiomyopati
+- **Cerebrovaskulære:** apopleksi, cerebrovaskulær sygdom, cerebralt infarkt
+- **Blod:** blodkoagulationssygdom, seglcelleanæmi, hæmoglobinopati, arvelig persistens af føtalt hæmoglobin, leukæmi, plasmacellemyelom
+- **Penis:** priapisme, Peyronies sygdom (penil fibromatose), balanitis xerotica obliterans
+- **Øvrige:** leversvigt, epilepsi, høretab, funktionelt synstab
+
+**Lægemiddelinteraktioner (DDInter, 100 registrerede; udvalg af de viste):**
+- **Moderat:** aprepitant, dexamethason, lorcaserin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, cimetidin, clarithromycin, sapropterin, miconazol, clotrimazol, troglitazon
+- **Mindre:** papaverin
+- **Uklart niveau:** pantoprazol, glimepirid, doxycyclin, morfin, metformin, omeprazol
+
+Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er udelukkende modelbaserede (L5) uden kliniske forsøg eller relevant litteratur. Den kendte farmakologi, vasodilatation via øget cGMP, giver ingen troværdig mekanistisk forbindelse til de forudsagte sygdomme og peger for hårrelaterede sygdomme snarere i modsat retning.
+Forudsigelsen bygger udelukkende på en beregnet modelscore uden kliniske forsøg, litteratur eller en dokumenteret mekanistisk sammenhæng (evidensniveau L5). Sikkerhedsdata fra produktresuméet mangler desuden.
 
-**For at komme videre kræves følgende:**
-- Oplysninger om advarsler og kontraindikationer fra det danske produktresumé (Lægemiddelstyrelsen). Dette mangler og blokerer sikkerhedsscreeningen.
-- Data om lægemidlets virkningsmekanisme, for eksempel fra DrugBank, til en egentlig mekanistisk analyse.
-- Den godkendte indikationstekst for Adcirca i Danmark.
-- Præklinisk eller mekanistisk evidens, der understøtter en sammenhæng mellem PDE5/cGMP-signalering og de forudsagte sygdomme, før yderligere ressourcer anvendes.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Data om virkningsmekanismen (MOA) og en vurdering af, om PDE5-hæmning kan have biologisk relevans for hypertrichose
+- Gennemgang af produktresuméet fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation
+- Systematisk litteratur- og forsøgssøgning samt præklinisk evidens for den forudsagte indikation
+- Verificering af vidensgrafens kontraindikationer mod den godkendte produkttekst
+- Vurdering af administrationsvej og målgruppe, da den forudsagte tilstand er sjælden og genetisk
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

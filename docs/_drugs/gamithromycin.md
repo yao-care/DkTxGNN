@@ -2,7 +2,7 @@
 layout: default
 title: Gamithromycin
 parent: Kun modelforudsigelse (L5)
-nav_order: 205
+nav_order: 385
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gamithromycin: Fra ukendt oprindelig indikation til interventrikulær septumaneurisme
+# Gamithromycin: Fra veterinær makrolidantibiotikum til interventrikulært septumaneurisme
 
 ## Resumé i én sætning
 
-Gamithromycin er et makrolid-antibiotikum til dyr (kvæg og svin), som i Danmark er markedsført som veterinærlægemidlet Gamrozyne Vet. TxGNN-modellen forudsiger, at det kan have effekt på **interventrikulær septumaneurisme**, men der findes **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
+Gamithromycin er et makrolidantibiotikum til dyr, der er godkendt som injektionsvæske til veterinær brug. Det oprindelige godkendte indikationstekst er ikke tilgængelig i de indsamlede data.
+TxGNN-modellen forudsiger, at det kan have effekt mod **interventrikulært septumaneurisme**, men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning.
 
 ---
 
@@ -41,11 +42,11 @@ Gamithromycin er et makrolid-antibiotikum til dyr (kvæg og svin), som i Danmark
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendt til veterinær brug, luftvejssygdomme hos kvæg og svin) |
-| Forudsagt ny indikation | Interventrikulær septumaneurisme |
-| TxGNN-forudsigelsesscore | 95,67 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (veterinært makrolidantibiotikum) |
+| Forudsagt ny indikation | Interventrikulært septumaneurisme |
+| TxGNN-prædiktionsscore | 95,67 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (veterinærlægemiddel) |
+| Markedsstatus i Danmark | Markedsført (kun som veterinærlægemiddel) |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -53,51 +54,48 @@ Gamithromycin er et makrolid-antibiotikum til dyr (kvæg og svin), som i Danmark
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanisme i DrugBank. Gamithromycin er et veterinært makrolid-antibiotikum, der hæmmer bakteriel proteinsyntese ved at binde til 50S-ribosomalunderenheden. Det anvendes mod luftvejssygdomme hos kvæg og svin.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Gamithromycin tilhører makrolidklassen, som hæmmer bakteriel proteinsyntese ved at binde til 50S-ribosomet. Det anvendes veterinært mod luftvejsinfektioner hos kvæg og svin.
 
-Interventrikulær septumaneurisme er en strukturel hjertedefekt, som oftest er medfødt eller opstår efter myokardieinfarkt. Et antibakterielt middel har ingen kendt virkning på denne sygdoms patogenese. Der er derfor **ingen plausibel mekanistisk sammenhæng**.
+Interventrikulært septumaneurisme er en strukturel hjertetilstand, som oftest er medfødt eller opstår efter et myokardieinfarkt. Der er ingen kendt antibakteriel-responsiv patologisk mekanisme. Der er derfor ikke identificeret et biologisk eller mekanistisk link mellem den oprindelige anvendelse og den forudsagte indikation.
 
-Den høje score afspejler alene nærhed i vidensgrafen (graph embedding) og ikke biologisk eller klinisk belæg. Lægemidlet er desuden ikke godkendt til human brug, og der findes ingen humanfarmakologiske data.
+Den høje score er alene en modelbaseret forudsigelse og bør ikke tolkes som klinisk evidens.
 
-Øvrige forudsagte indikationer i top 10 (alle uden støtte i forsøg eller litteratur og uden plausibel mekanisme):
+Modellen har desuden forudsagt flere andre tilstande med lignende score, som heller ikke har dokumenteret mekanistisk eller klinisk støtte:
 
-| Forudsagt indikation | TxGNN-score | Evidensniveau |
+| Forudsagt sygdom | TxGNN-score | Vurdering |
 |------|------|------|
-| Interventrikulær septumaneurisme | 95,67 % | L5 |
-| Orofacialt læbe-ganespaltesyndrom | 95,48 % | L5 |
-| Pulmonalklapsygdom | 95,44 % | L5 |
-| Laubry-Pezzi syndrom | 95,31 % | L5 |
-| Genetisk syndromisk Pierre Robin-syndrom | 95,29 % | L5 |
-
-Bemærk: Datagrundlaget indeholder hver indikation to gange (dubletter); de er her kun vist én gang.
+| Orofacialt kløftsyndrom | 95,48 % | Udviklingsmæssig misdannelse; ingen plausibel terapeutisk rolle. Brug af makrolider under graviditet kræver i sig selv sikkerhedsvurdering. |
+| Pulmonalklapsygdom | 95,44 % | Overvejende medfødt/strukturel; kun antibiotika ved endokarditis er tænkeligt, hvilket ikke er sygdomsmodificerende. |
+| Laubry-Pezzi syndrom | 95,31 % | Strukturel hjertetilstand (ventrikelseptumdefekt med aortainsufficiens), behandles kirurgisk. |
+| Genetisk syndromisk Pierre Robin-syndrom | 95,29 % | Kraniofacial udviklingsanomali med genetisk basis. |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ikke registreret relaterede kliniske forsøg.
 
 ---
 
-## Information om markedet i Danmark
+## Litteraturevidens
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107002523 | Gamrozyne Vet. | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i datagrundlaget |
+| 28107002523 | Gamrozyne Vet. (Bimeda Animal Health Limited) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
-Producent: Bimeda Animal Health Limited. Der er tale om et veterinærlægemiddel.
+Bemærk: Produktet er et veterinærlægemiddel og er ikke godkendt til human anvendelse.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner for stoffet.
+Der er ikke fundet registrerede interaktioner i de indsamlede data, og der foreligger ingen oplysninger om advarsler eller kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Da produktet er til veterinær brug, er der ikke vurderet sikkerhed ved human anvendelse.
 
 ---
 
@@ -106,15 +104,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fu
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellens graf-nærhed og mangler enhver mekanistisk, præklinisk eller klinisk støtte. Gamithromycin er et veterinært lægemiddel uden godkendelse eller humane data, og de forudsagte indikationer er strukturelle eller medfødte tilstande, som et antibiotikum ikke kan påvirke.
+Forudsigelserne er udelukkende modelbaserede (L5) uden kliniske forsøg, litteratur eller plausibel mekanistisk sammenhæng. Lægemidlet er desuden kun markedsført til veterinær brug i Danmark.
 
 **For at komme videre kræves følgende:**
-- Indhentning af produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datahul)
-- Virkningsmekanisme (MOA) fra DrugBank
-- Et biologisk rationale, der kan forbinde et makrolid med de forudsagte sygdomme, før der overvejes yderligere arbejde
-- Afklaring af, om humane data og humant lægemiddelformulering overhovedet er relevante
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+- Oplysninger om virkningsmekanisme (fra DrugBank)
+- Indlægsseddel/produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Biologisk begrundelse for en sammenhæng mellem makrolidvirkning og de forudsagte hjerte-/udviklingssygdomme
+- Præklinisk evidens, før en klinisk vurdering overhovedet er relevant
+- Vurdering af, om der findes humane lægemidler med samme stof
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

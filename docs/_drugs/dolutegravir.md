@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Moderat evidens (L3-L4)
-nav_order: 147
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 272
+evidence_level: L5
 indication_count: 6
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Dolutegravir: Fra hiv-1-infektion til simian immundefektvirus-infektion (SIV)
+# Dolutegravir: Fra hiv-infektion til simian immundefektvirus-infektion
 
-## Resumé
+## Resumé i én sætning
 
-Dolutegravir er en integrase-strengoverførselshæmmer (INSTI), der er markedsført i Danmark som Tivicay til behandling af hiv-1. Der er ingen indikationstekst i de leverede data, så den oprindelige indikation er udledt af mekanismen.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion (SIV)**, som er en abemodel for hiv.
-Evidensen består af **1 klinisk forsøg** (kun indirekte relevant) og **15 publikationer**, hovedsageligt prækliniske studier i makaker. Der er ikke tale om en ny human indikation.
+Dolutegravir er en integrase-strandtransferhæmmer, der oprindeligt anvendes til behandling af **hiv-infektion og AIDS**.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **simian immundefektvirus-infektion (SIV)**, som er en dyresygdom hos aber.
+Evidensen består af **0 kliniske forsøg** og **14 publikationer**, som udelukkende er prækliniske eller baggrundsartikler.
 
 ---
 
@@ -43,10 +43,10 @@ Evidensen består af **1 klinisk forsøg** (kun indirekte relevant) og **15 publ
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hiv-1-infektion (ikke angivet i indikationsteksten for godkendelsen; udledt af mekanismen) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion (SIV) |
-| TxGNN-forudsigelsesscore | 99,85 % |
-| Evidensniveau | L4 |
+| Oprindelig indikation | Hiv-infektion og AIDS (fra vidensgrafen; indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion |
+| TxGNN-prædiktionsscore | 99,85 % |
+| Evidensniveau | L4 (prækliniske studier) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -55,54 +55,64 @@ Evidensen består af **1 klinisk forsøg** (kun indirekte relevant) og **15 publ
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i Evidence Pack. Dolutegravir er kendt som en integrase-strengoverførselshæmmer, der blokerer virusets integration i værtscellens DNA. SIV-integrase ligner hiv-1-integrase strukturelt, og SIV bruges bredt som dyremodel for hiv.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Dolutegravir tilhører klassen af integrase-strandtransferhæmmere (INSTI), og dets virkning mod hiv er veldokumenteret. Mekanistisk kan det derfor være relevant for beslægtede lentivira.
 
-Makakstudier viser, at SIV er følsomt over for integrasehæmmere, og at de samme resistensmutationer giver tilsvarende fænotyper i SIV og hiv. Forudsigelsen afspejler derfor primært, at SIV bruges som modelsygdom for hiv. Den peger ikke på en ny klinisk anvendelse hos mennesker, da den humane målsygdom (hiv-1) allerede er dækket af det markedsførte præparat.
+SIV er en lentivirus, der er tæt beslægtet med hiv, og hvis integrase svarer til hiv-integrasen, som dolutegravir virker på. Prækliniske studier i makakaber understøtter lægemidlets antivirale aktivitet, bl.a. dolutegravir-monoterapi i SIV-inficerede makaker og studier af følsomhed og resistens over for integrasehæmmere i SIVmac239.
 
----
+Det er vigtigt at bemærke, at SIV er en dyresygdom og ikke en humanterapeutisk indikation. Værdien ligger i brugen som præklinisk model for hiv-forskning og ikke i en reel repurposing-mulighed. Den høje score afspejler sandsynligvis den tætte lighed med den oprindelige hiv-indikation snarere end et nyt terapeutisk signal.
 
-## Evidens fra kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Fase 1/2 | Ukendt | 12 | Vedolizumab i kombination med antiretroviral behandling hos hiv-smittede for at opnå varig virologisk remission. Forsøget omfatter hiv hos mennesker, ikke SIV, og dolutegravir er højst en del af baggrundsbehandlingen. Ingen direkte evidens for indikationen (relevans: C). |
-
-Der er ikke angivet EudraCT-numre.
+Modellen foreslog også andre forudsigelser med samme eller lavere grad af relevans:
+- **Felint ervervet immundefektsyndrom (FIV hos katte):** Kun én publikation (PMID 37112803) undersøger kombinationsbehandling inkl. dolutegravir i FIV-inficerede katte. Det er en veterinær indikation uden klinisk relevans for mennesker.
+- **Neuroudviklingsforstyrrelse med ataktisk gang, manglende tale og nedsat kortikal hvid substans:** Der er ingen oplagt mekanistisk kobling, ingen studier, og scoren (99,80 %) er sandsynligvis et artefakt fra vidensgrafen.
 
 ---
 
-## Evidens fra litteraturen
+## Klinisk evidens
+
+Currently ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | Præklinisk (NHP) | J Virol | Dolutegravir-monoterapi i SIV-inficerede makaker udvælger flere resistensmutationsmønstre med varierende virologiske udfald. |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Præklinisk (in vitro/NHP) | J Virol | Karakterisering af resistensprofiler for INSTI'er i SIVmac239. |
-| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | In vitro | J Virol | Hiv-1-integraseresistensmutationer indsat i SIVmac239 og deres effekt på følsomhed over for INSTI'er, herunder dolutegravir. |
-| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | In vitro | Antimicrob Agents Chemother | Simiantrop hiv som model til at studere resistens mod integrasehæmmere. |
-| [36365101](https://pubmed.ncbi.nlm.nih.gov/36365101/) | 2022 | Præklinisk (NHP) | Pharmaceutics | Farmakologisk validering af langtidsbehandling med antiretrovirale lægemidler, herunder dolutegravir, i SIV-inficerede aber. |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Præklinisk (NHP) | AIDS Res Hum Retroviruses | Sammenligning af injicerbare kombinationsregimer mod SIV i rhesusaber. |
-| [40093003](https://pubmed.ncbi.nlm.nih.gov/40093003/) | 2025 | Præklinisk (NHP) | Front Immunol | Fri ekstracellulær vand og traktskader i rhesusaber før og efter start af emtricitabin, tenofovir og dolutegravir. |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Præklinisk (NHP) | mBio | Lentivirale infektioner persisterer i hjernen trods effektiv antiretroviral behandling. |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Oversigtsartikel (strukturel) | FEBS J | Hiv/SIV-intasomstrukturer og mekanismer for INSTI-binding og virusets resistens. |
-| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | In vitro | Clin Infect Dis | Dolutegravir og raltegravir har pro-adipogene og profibrotiske effekter og inducerer insulinresistens i human og simian fedtvæv. |
-
-Yderligere fem publikationer i datasættet er ikke vist her.
+| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | Præklinisk (ikke-human primat) | J Virol | Dolutegravir-monoterapi i SIV-inficerede makaker udvalgte flere resistensmutationsmønstre med varierende virologiske resultater |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Præklinisk (in vitro) | J Virol | Effekt af hiv-integraseresistensmutationer indsat i SIVmac239 på følsomhed over for integrasehæmmere |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Præklinisk (in vitro) | J Virol | Resistensprofiler for integrasehæmmere i SIVmac239; SIV er følsomt over for INSTI |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Præklinisk (in vitro/NHP) | Antimicrob Agents Chemother | Bictegravir og cabotegravir mod integrasehæmmerresistent SIVmac239 og hiv-1 |
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Præklinisk (modeludvikling) | Antimicrob Agents Chemother | Simian-tropisk hiv som model til at studere resistens mod integrasehæmmere |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review (strukturbiologi) | FEBS J | Hiv/SIV-intasomstrukturer og binding af integrasehæmmere samt virale undvigelsesmekanismer |
+| [36365101](https://pubmed.ncbi.nlm.nih.gov/36365101/) | 2022 | Præklinisk (NHP) | Pharmaceutics | Farmakologisk validering af langtidsbehandling med antiretrovirale lægemidler i SIV-inficerede aber |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Præklinisk (NHP) | mBio | Lentivirus persisterer i hjernen trods effektiv antiretroviral behandling |
+| [40093003](https://pubmed.ncbi.nlm.nih.gov/40093003/) | 2025 | Præklinisk (NHP, billeddannelse) | Front Immunol | Ændringer i ekstracellulært frit vand og baneskader i makaker før og efter behandling med emtricitabin + tenofovir + dolutegravir |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Præklinisk (NHP) | AIDS Res Hum Retroviruses | Sammenligning af injicerbare kombinationsregimer mod SIV i rhesusaber |
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105716815 | Tivicay (Viiv Healthcare BV) | Filmovertrukne tabletter | Ikke angivet i de leverede data |
+| 28105716815 | Tivicay | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+
+Indehaver: Viiv Healthcare BV. Administrationsvej: oral.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i de leverede data. Der er ingen data om advarsler eller kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret i alt 62 interaktioner. Blandt de viste er følgende klassificeret som **Major**, primært pga. chelatdannelse med polyvalente kationer, som kan nedsætte absorptionen af dolutegravir:
+- Aluminiumhydroxid, magaldrat, kaolin og attapulgit
+- Calciumpræparater (acetat, carbonat, citrat, glubionat, gluconat, lactat, fosfat)
+- Magnesiumpræparater (carbonat, chlorid, citrat)
+- Jern
 
-Fra litteraturen: et in vitro-studie (PMID 32166319) rapporterer, at dolutegravir og raltegravir har pro-adipogene og profibrotiske effekter og inducerer insulinresistens i fedtvæv.
+Interaktioner klassificeret som **Minor** omfatter bl.a. aprepitant, cimetidin, clarithromycin, clotrimazol og dexamethason.
+
+**Graviditet:** I vurderingen af den neuroudviklingsrelaterede forudsigelse er der peget på et kendt signal for neuralrørsdefekter ved eksponering omkring undfangelsen. Dette bør tages i betragtning i neuroudviklingsmæssige sammenhænge.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -111,18 +121,13 @@ Fra litteraturen: et in vitro-studie (PMID 32166319) rapporterer, at dolutegravi
 **Beslutning: Hold**
 
 **Begrundelse:**
-SIV er en dyremodel for hiv, og evidensen er udelukkende præklinisk (L4). Den humane målsygdom er allerede dækket af den markedsførte indikation, så forudsigelsen giver ikke grundlag for en ny human indikation.
+Den forudsagte indikation (SIV) er en dyresygdom uden humanterapeutisk relevans, og evidensen er udelukkende præklinisk uden kliniske forsøg. Den høje score afspejler mest sandsynligt lighed med den oprindelige hiv-indikation og ikke en ny behandlingsmulighed. De øvrige forudsigelser (FIV og den neuroudviklingsmæssige lidelse) har enten kun veterinær relevans eller ingen mekanistisk støtte.
 
-De øvrige forudsigelser støtter heller ikke en videreførelse:
-- **Felint immundefektsyndrom (FIV):** forsøgene i datasættet er humane hiv-1-studier, der kun er indirekte relevante. Der findes ét studie i katte (PMID 37112803, kombinationsbehandling med dolutegravir, tenofovir og emtricitabin), som ikke er vurderet nærmere.
-- **Neuroudviklingsforstyrrelse med ataksi, manglende tale og nedsat hvid substans i cortex:** ingen forsøg eller litteratur, og ingen plausibel mekanistisk forbindelse. Den høje score (99,80 %) bør betragtes som en sandsynlig artefakt i vidensgrafen.
-
-**For at komme videre kræves:**
-- Hentning af Lægemiddelstyrelsens produktresumé med advarsler, kontraindikationer og godkendt indikationstekst (blokerende datahul).
-- Oplysninger om virkningsmekanisme fra DrugBank.
-- Afklaring af, om forudsigelserne for SIV og FIV har værdi uden for forskningsmodeller, da de ikke svarer til en ny human indikation.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméet for advarsler og kontraindikationer (sikkerhedsdata mangler i de indsamlede data)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Afklaring af, om der findes en relevant human indikation. Ellers bør SIV/FIV alene betragtes som prækliniske modeller
+- Vurdering af, om de øvrige hiv-relaterede indikationer allerede er dækket af den eksisterende godkendelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

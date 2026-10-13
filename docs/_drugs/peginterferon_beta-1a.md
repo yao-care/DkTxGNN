@@ -2,7 +2,7 @@
 layout: default
 title: Peginterferon Beta-1A
 parent: Kun modelforudsigelse (L5)
-nav_order: 339
+nav_order: 639
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Peginterferon beta-1a: Fra recidiverende multipel sklerose til hjertetumor (heart neoplasm)
+# Peginterferon beta-1a: Fra relapsing-remitting multipel sklerose til hjertetumor
 
-## Resumé i få sætninger
+## Resumé
 
-Peginterferon beta-1a (handelsnavn Plegridy) er et pegyleret type I-interferon. Datagrundlaget angiver ikke den oprindelige indikation, men præparatet er alment kendt som behandling af recidiverende multipel sklerose.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hjertetumor (heart neoplasm)**.
-Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikationer** (0 forsøg, 0 artikler).
+Peginterferon beta-1a er et pegyleret type I-interferon, oprindeligt anvendt til behandling af relapsing-remitting multipel sklerose.
+TxGNN-modellen forudsiger, at det kan have effekt ved **hjertetumor (heart neoplasm)**,
+men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -43,8 +43,8 @@ Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikatio
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (Plegridy er alment kendt til recidiverende multipel sklerose) |
-| Forudsagt ny indikation | Heart neoplasm (hjertetumor) |
+| Oprindelig indikation | Relapsing-remitting multipel sklerose |
+| Forudsagt ny indikation | Hjertetumor (heart neoplasm) |
 | TxGNN-forudsigelsesscore | 94,1 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -53,46 +53,45 @@ Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikatio
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om lægemidlets virkningsmekanisme. Peginterferon beta-1a er et type I-interferon, der virker via IFNAR-receptoren og generelt har antiproliferative og immunmodulerende effekter. Det kan i teorien påvirke tumorvækst.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Peginterferon beta-1a er kendt som et type I-interferon med immunmodulerende, antiproliferative og antivirale egenskaber. Disse egenskaber kan teoretisk have relevans for tumorbiologi.
 
-Der er dog ingen dokumenteret sammenhæng mellem denne signalvej og primære hjertetumorer. Disse er sjældne, for det meste benigne og behandles kirurgisk. Interferonklassen er desuden forbundet med kardiale bivirkninger, hvilket er et sikkerhedsmæssigt problem i netop denne sammenhæng. Den høje score understøttes ikke af klinisk eller litterær evidens og afspejler sandsynligvis først og fremmest mønstre i vidensgrafen.
+Der er dog ikke påvist nogen konkret mekanistisk sammenhæng mellem den oprindelige indikation (multipel sklerose, en autoimmun neurologisk sygdom) og hjertetumorer. Forudsigelsen bygger alene på et vidensgraf-baseret computermodelresultat, og der foreligger hverken kliniske eller litterære data, som understøtter den.
 
-Øvrige forudsigelser med høj score er alle rent modelbaserede (L5, Hold):
-
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Medfødt anomali i ventrikelseptum | 89,3 % | Strukturel misdannelse, der korrigeres kirurgisk eller med kateter. Ingen plausibel mekanisme for et immunmodulerende interferon. |
-| Hjerteledningssygdom (heart conduction disease) | 89,3 % | Ingen mekanistisk begrundelse. Interferonbehandling er forbundet med hjerterytmeforstyrrelser, så sikkerhedsretningen kan være modsat den forudsagte gavn. |
-| Borderline serøs ovarietumor | 88,9 % | Teoretisk antiproliferativ effekt, men indolent tumor, der primært behandles kirurgisk. Uklart behov for systemisk behandling. |
-| Rete ovarii-cystadenom | 88,8 % | Sjælden benign ovarielæsion, der behandles ved kirurgisk fjernelse. Ingen mekanistisk basis eller uopfyldt behov. |
+Bemærk, at de øvrige forudsagte indikationer i de samlede data har tilsvarende lav evidens: medfødt anomali i ventrikelseptum (score 89,3 %), hjerteledningssygdom (89,3 %), borderline serøs ovarietumor (88,9 %) og rete ovarii-cystadenom (88,8 %). Især de to første har ingen plausibel mekanistisk forbindelse til interferon beta og er sandsynligvis artefakter fra vidensgrafen. Alle er vurderet til L5 og Hold.
 
 ---
 
 ## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105301713 | Plegridy (Biogen Netherlands B.V.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i datagrundlaget |
+| 28105301713 | Plegridy (Biogen Netherlands B.V.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 100 potentielle interaktioner i interaktionsdatabasen. Blandt de angivne er én klassificeret som **alvorlig (Major)**:
+
+- **Bupropion** (Major)
+
+Følgende er klassificeret som moderate (et udpluk): acarbose, pioglitazon, rosiglitazon, chenodeoxycholsyre, clarithromycin, minocyclin, levofloxacin, naltrexon, orlistat, clotrimazol, nicotinamid, rosuvastatin, simvastatin, oxandrolon, oxymetholon, pegvaliase, picosulfat, polyethylenglycol (3350 med elektrolytter) og natriumsulfat.
+
+Oplysninger om advarsler og kontraindikationer er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -101,15 +100,14 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se i 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore (L5) uden støtte fra kliniske forsøg eller litteratur. Der er ingen plausibel mekanisme for de forudsagte hjerte- og ovarieindikationer, og interferonklassens kardiale bivirkninger peger i modsat retning. Det er desuden uafklaret, om sikkerhedsvurderingen kan gennemføres, da produktresuméets advarsler og kontraindikationer ikke indgår i datagrundlaget.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ikke etableret en mekanistisk forbindelse mellem peginterferon beta-1a og hjertetumor. Sikkerhedsgrundlaget er desuden ufuldstændigt.
 
-**For at komme videre kræves:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, kardiale bivirkninger)
-- Indhent data om virkningsmekanisme (MOA) fra DrugBank
-- Gennemfør en systematisk litteratur- og forsøgssøgning for interferon beta og hjertetumorer/ovarietumorer
-- Vurder, om der overhovedet er et klinisk behov for systemisk behandling i de forudsagte indikationer
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (blokerende datahul for sikkerhedsscreening)
+- Systematisk litteratur- og forsøgssøgning for interferon beta ved hjertetumorer
+- Prækliniske data, der kan understøtte en mekanistisk hypotese
+- Vurdering af administrationsvej og egnethed til den nye patientgruppe
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

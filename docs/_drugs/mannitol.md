@@ -2,7 +2,7 @@
 layout: default
 title: Mannitol
 parent: Kun modelforudsigelse (L5)
-nav_order: 277
+nav_order: 519
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mannitol: Fra osmotisk diuretikum til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+# Mannitol: Fra hjerneødem og intrakraniel hypertension til nefrogent syndrom med uhensigtsmæssig antidiurese
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Mannitol er et osmotisk diuretikum. I Danmark er det markedsført som inhalationspulver (Bronchitol). Den oprindelige indikationstekst er ikke registreret i de foreliggende danske data.
-TxGNN-modellen forudsiger, at mannitol kan have effekt på **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**.
-Forudsigelsen understøttes af **0 kliniske forsøg** og **1 oversigtsartikel** om hyponatriæmi, som ikke undersøger mannitol som behandling. Det biologiske grundlag er svagt, og forudsigelsen anbefales ikke fulgt op.
+Mannitol er et osmotisk diuretikum, som oprindeligt bruges ved blandt andet hjerneødem, forhøjet intrakranielt tryk, forhøjet øjentryk og cystisk fibrose.
+TxGNN-modellen forudsiger, at det kan have effekt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**,
+men der findes **ingen kliniske forsøg** og kun **1 publikation** (en generel oversigtsartikel om hyponatriæmi uden mannitol-specifikke data). Forudsigelsen er derfor foreløbig ikke understøttet af klinisk evidens.
 
 ---
 
@@ -43,7 +43,7 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **1 oversigtsartikel** 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske registerdata (mannitol er generelt kendt som osmotisk diuretikum) |
+| Oprindelig indikation | Hjerneødem, intrakraniel hypertension, okulær hypertension, kongestiv hjerteinsufficiens, pseudotumor cerebri og cystisk fibrose (fra TxGNN-videngrafen; godkendelsesteksten for det danske præparat er ikke angivet) |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 99,97 % |
 | Evidensniveau | L5 |
@@ -53,47 +53,43 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **1 oversigtsartikel** 
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om mannitols virkningsmekanisme. Mannitol er kendt som osmotisk diuretikum, og dets virkning er dokumenteret i andre sammenhænge. Der er dog ikke fundet en mekanistisk forbindelse til NSIAD.
+Der foreligger i øjeblikket ikke detaljerede data om mannitols virkningsmekanisme i de data, der er indsamlet til denne rapport. Mannitol er kendt som et osmotisk diuretikum, der øger udskillelsen af opløste stoffer og plasmaosmolaliteten. Det kunne i teorien påvirke håndteringen af frit vand ved hyponatriæmi relateret til antidiurese.
 
-NSIAD skyldes aktiverende mutationer i vasopressin V2-receptoren (AVPR2). De giver vandretention og hyponatriæmi. Mannitol har ingen kendt virkning på V2-receptorsignalering. Mannitol kan desuden selv give translokationel hyponatriæmi, så en gavnlig effekt er mekanistisk usandsynlig.
-
-Den høje TxGNN-score skyldes sandsynligvis en association i vidensgrafen via hyponatriæmi. Den har ikke noget klinisk grundlag.
-
-Øvrige forudsagte indikationer (akut pulmonal hjertesygdom, anstrengelsesudløst malign hypertermi, disposition for malign hypertermi og familiær periodisk paralyse) er også vurderet som **Hold**. De har enten ingen relevant evidens eller peger på en mulig skade:
-
-- **Malign hypertermi:** Litteraturen handler om dantrolen. Mannitol er kun hjælpestof i intravenøse dantrolenpræparater.
-- **Akut pulmonal hjertesygdom:** Mannitols volumenekspansion kan udløse lungeødem.
-- **Familiær periodisk paralyse:** Osmotisk diurese kan forværre kaliumtab.
+Sammenhængen er dog svag. NSIAD skyldes aktiverende (gain-of-function) varianter i vasopressin V2-receptoren (AVPR2), og mannitol virker ikke på denne signalvej. Den eneste tilknyttede artikel er en generel gennemgang af faldgruber ved udredning af hyponatriæmi og indeholder ingen mannitol-specifik evidens. Den høje modelscore er derfor en rent beregnet forudsigelse uden klinisk støtte.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for NSIAD.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Oversigtsartikel | Eur J Intern Med | Ti hyppige faldgruber i udredningen af hyponatriæmi. Artiklen omhandler ikke mannitol som behandling af NSIAD. |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Oversigtsartikel | Eur J Intern Med | Ti almindelige faldgruber ved evaluering af patienter med hyponatriæmi; ingen mannitol-specifikke data |
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104617609 | Bronchitol | Inhalationspulver, hård kapsel | Pharmaxis Europe Limited |
+| 28104617609 | Bronchitol (Pharmaxis Europe Limited) | Inhalationspulver, hård kapsel | Indikationstekst er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer/sygdomme med risiko (fra TxGNN-videngrafen, ikke fra produktresuméet):** blandt andet leversvigt, hepatisk encefalopati, anuri, nedsat nyrefunktion, intrakraniel blødning, lungeødem, porfyri, trombocytopeni, neutropeni, agranulocytose, anæmi, søvnapnø og stofmisbrug.
+- **Lægemiddelinteraktioner:** 100 interaktioner er identificeret. Den væsentligste (alvorlighedsgrad Major) er **amikacin**. Flere interaktioner af moderat grad er set, bl.a. med formoterol, salbutamol, arformoterol, ACE-hæmmere (benazepril, captopril), SGLT2-hæmmere (canagliflozin, dapagliflozin), carbamazepin, citalopram, desvenlafaxin, cisatracurium, lamivudin, amifostin, bisacodyl, picosulfat, polyethylenglycol med elektrolytter samt kontrastmidlerne iothalaminsyre og diatrizoat. Doxycyclin er registreret som mindre (Minor).
+- **Specifik bekymring for den forudsagte indikation:** mannitol kan midlertidigt udvide det intravaskulære volumen, hvilket er relevant ved risiko for lungeødem eller belastning af hjertet.
+
+For fuldstændige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke var tilgængelige.
 
 ---
 
@@ -102,14 +98,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har kun modelbaseret støtte (L5), og der er hverken kliniske forsøg eller relevant litteratur. Mekanismen taler imod en gavnlig effekt, fordi mannitol kan forårsage hyponatriæmi.
+Forudsigelsen bygger udelukkende på modellen (evidensniveau L5). Der er ingen kliniske forsøg, den eneste artikel er generel, og den kendte patofysiologi ved NSIAD (AVPR2-aktivering) giver ingen mekanistisk begrundelse for mannitol.
 
 **For at komme videre kræves:**
-- Data om mannitols virkningsmekanisme (f.eks. fra DrugBank)
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Prækliniske eller mekanistiske data, der viser en effekt på AVPR2-signalering eller vandretention, før en klinisk vurdering overhovedet er relevant
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+- Data om mannitols virkningsmekanisme (MOA)
+- Produktresumé med advarsler og kontraindikationer for den godkendte formulering
+- Præklinisk eller klinisk evidens, der specifikt undersøger mannitol ved NSIAD
+- Vurdering af, om andre forudsagte indikationer (f.eks. akut pulmonal hjertesygdom, malign hyperterm, familiær periodisk paralyse) har bedre grundlag; på nuværende tidspunkt er alle ligeledes på Hold, og for periodisk paralyse peger data snarere på forsigtighed end på gavn
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

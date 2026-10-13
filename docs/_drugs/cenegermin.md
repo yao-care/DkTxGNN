@@ -2,7 +2,7 @@
 layout: default
 title: Cenegermin
 parent: Kun modelforudsigelse (L5)
-nav_order: 103
+nav_order: 177
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cenegermin: Fra neurotrofisk keratitis til HER2-positiv brystkræft
+# Cenegermin: Fra neurotrofisk keratopati til HER2-positiv brystkræft
 
-## Resumé i få sætninger
+## Resumé
 
-Cenegermin er rekombinant humant nervevækstfaktor (rhNGF). Det markedsføres som øjendråber (OXERVATE) mod neurotrofisk keratitis.
-TxGNN-modellen forudsiger, at stoffet kan have effekt ved **HER2-positiv brystkræft**.
-Der er dog **ingen kliniske forsøg og ingen relevant litteratur**, der understøtter forudsigelsen. Den er udelukkende beregnet af modellen, og der er en teoretisk sikkerhedsbekymring.
+Cenegermin er rekombinant humant nervevækstfaktor (NGF), som oprindeligt anvendes som øjendråber til behandling af neurotrofisk keratopati.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **HER2-positiv brystkræft**,
+men der er **ingen kliniske forsøg** og **ingen relevant litteratur** om brystkræft, der understøtter forudsigelsen.
+Forudsigelsen er rent beregningsbaseret, og NGF/TrkA-signalering kan teoretisk set fremme tumorvækst.
 
 ---
 
@@ -43,7 +44,7 @@ Der er dog **ingen kliniske forsøg og ingen relevant litteratur**, der underst�
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Neurotrofisk keratitis (den danske registrering indeholder ingen indikationstekst) |
+| Oprindelig indikation | Neurotrofisk keratopati (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | HER2-positiv brystkræft |
 | TxGNN-forudsigelsesscore | 96,8 % |
 | Evidensniveau | L5 |
@@ -55,44 +56,48 @@ Der er dog **ingen kliniske forsøg og ingen relevant litteratur**, der underst�
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Cenegermin er en agonist af TrkA- og p75NTR-receptorerne. Der findes ingen detaljerede oplysninger om stoffets oprindelige virkningsmekanisme ud over denne klassifikation. Stoffet er godkendt som lokal øjenbehandling til neurotrofisk keratitis, hvor det fremmer nervevæv og hornhindeheling.
+Cenegermin er rekombinant human NGF, som virker via TrkA- og p75NTR-receptorer. Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. NGF understøtter overlevelse af corneale nerver og sårheling på øjets overflade, hvilket er grundlaget for anvendelsen ved neurotrofisk keratopati.
 
-Der er ingen kendt terapeutisk begrundelse for at bruge en NGF-agonist mod brystkræft. NGF/TrkA-signalering er i eksperimentelle modeller beskrevet som fremmende for proliferation og overlevelse af brystkræftceller. En agonist kan derfor i teorien være kontraproduktiv. Efter dosering i øjet er den systemiske eksponering desuden minimal, hvilket begrænser enhver direkte overførsel til en systemisk kræftbehandling.
+Der er ikke noget oplagt biologisk slægtskab mellem neurotrofisk keratopati og HER2-positiv brystkræft. NGF/TrkA-signalering er beskrevet i brystkræftbiologi, men kan teoretisk fremme tumorvækst. Forudsigelsen kan derfor pege på et sikkerhedsproblem snarere end en terapeutisk gevinst.
 
-Scoren på 96,8 % afspejler sandsynligvis nærhed i vidensgrafen mellem knuder for brystkræftundertyper og ikke en lægemiddelspecifik mekanisme. Den bør derfor ikke tolkes som tegn på klinisk effekt.
-
-De øvrige forudsigelser (rang 3-10) er alle undertyper af brystkræft med scorer på 95,7-96,2 %. De har samme evidensniveau (L5) og samme bekymring. Det gælder progesteronreceptor-positiv og -negativ brystkræft, normal-lignende (breast-like) undertype og luminal A/B.
+Cenegermin gives som øjendråber med minimal systemisk eksponering, hvilket yderligere svækker rationalet for systemisk onkologisk anvendelse. Modellen forudsiger desuden andre brystkræftundertyper med tilsvarende høje scorer (progesteronreceptor-positiv og -negativ brystkræft, luminal A/B og "normal breast-like" subtype; scorer 95,7-96,2 %), og ingen af dem er understøttet af data.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret, hverken i ClinicalTrials.gov eller i ICTRP.
+Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 
 ---
 
 ## Litteraturevidens
 
-Der er aktuelt ingen relateret litteratur for den primære forudsigelse (HER2-positiv brystkræft).
+For den forudsagte indikation (HER2-positiv brystkræft) er der ingen relevant litteratur. For undertypen luminal A/B brystkræft blev der knyttet seks publikationer til forudsigelsen, men ingen af dem omhandler brystkræft. De er sandsynligvis fundet alene ud fra lægemidlets navn og giver ingen klinisk evidens for brystkræft:
 
-For undertypen "luminal A/B" blev der hentet 19 artikler. De er søgetekniske artefakter fra bogstavet "B" og handler om B-celler, hepatitis B-vacciner og HLA-B-alleler. Ingen af dem nævner cenegermin, NGF eller brystkræft, og de udgør ingen evidens.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [35153738](https://pubmed.ncbi.nlm.nih.gov/35153738/) | 2021 | Review/retrospektiv gennemgang | Frontiers in Pharmacology | Cenegermin og corneal sårheling ved neurotrofisk keratopati vurderet med OCT |
+| [34633522](https://pubmed.ncbi.nlm.nih.gov/34633522/) | 2022 | Kohorte | Graefe's Archive for Clinical and Experimental Ophthalmology | Langtidsresultater og patienttilfredshed ved cenegermin versus amnionmembrantransplantation ved neurotrofisk keratopati |
+| [39020305](https://pubmed.ncbi.nlm.nih.gov/39020305/) | 2024 | RCT (fase 2) | BMC Ophthalmology | Dosisfindende forsøg med cenegermin ved moderat til svær tørre øjne |
+| [38888287](https://pubmed.ncbi.nlm.nih.gov/38888287/) | 2024 | Præklinisk | Translational Vision Science & Technology | Kitosanbaseret hydrogel med vedvarende NGF-frigivelse til øjets overflade |
+| [40632885](https://pubmed.ncbi.nlm.nih.gov/40632885/) | 2025 | Præklinisk | ACS Chemical Neuroscience | Selektiv modulering af Trk-receptorer med cyklo-organopeptider |
+| [39787424](https://pubmed.ncbi.nlm.nih.gov/39787424/) | 2025 | Klinisk (levering til øjet) | Eye & Contact Lens | Off-label levering af amphotericin B og cenegermin via PROSE-enhed ved candidakeratitis |
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105869816 | OXERVATE (Dompé farmaceutici SpA) | Øjendråber, opløsning | Ikke angivet i de tilgængelige data |
+| 28105869816 | OXERVATE (Dompé farmaceutici SpA) | Øjendråber, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Teoretisk bekymring:** NGF/TrkA-signalering er beskrevet som tumorfremmende i brystkræftmodeller. Enhver hypotese om brug ved brystkræft kræver først en sikkerheds- og mekanismegennemgang af TrkA-signalering.
-- **Lægemiddelinteraktioner:** Der blev ikke fundet registrerede interaktioner i de tilgængelige data.
+Der er ikke fundet interaktionsdata for cenegermin. Teoretisk bekymring: NGF/TrkA-signalering kan potentielt fremme tumorvækst ved brystkræft.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -101,14 +106,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger, heru
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er ren modelberegning (L5) uden kliniske forsøg eller relevant litteratur. Den biologiske sammenhæng peger desuden i retning af en mulig tumorfremmende effekt frem for gavn.
+Forudsigelsen er rent beregningsbaseret (L5) uden kliniske forsøg eller relevant litteratur. Den kendte biologi (NGF/TrkA) peger muligvis i modsat retning, og den lokale øjenformulering har minimal systemisk eksponering.
 
-**For at gå videre kræves følgende:**
-- En mekanisme- og sikkerhedsgennemgang af NGF/TrkA-signalering i brystkræft, herunder præklinisk evidens
-- Detaljerede data om virkningsmekanisme
-- Produktresumé for OXERVATE fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- En målrettet litteratursøgning på cenegermin/NGF og brystkræft, da den nuværende søgning gav irrelevante resultater
-- En vurdering af, om en lokal øjenformulering overhovedet kan overføres til systemisk behandling (rutekompatibilitet)
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA)
+- Præklinisk gennemgang af, om NGF/TrkA-signalering fremmer eller hæmmer brystkræft
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Vurdering af, om systemisk administration overhovedet er mulig og sikker
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Doravirine
 parent: Kun modelforudsigelse (L5)
-nav_order: 149
+nav_order: 276
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Doravirin: Fra HIV-1-infektion til simian immundefektvirus-infektion (SIV)
+# Doravirin: Fra HIV-infektion til simian immundefektvirus-infektion
 
-## Resumé i én sætning
+## Resumé
 
-Doravirin er en non-nukleosid revers transkriptase-hæmmer (NNRTI), der bruges mod HIV-1-infektion.
-TxGNN-modellen forudsiger, at den kan virke mod **simian immundefektvirus-infektion**.
-Der er dog **0 kliniske forsøg** og **1 publikation** (om et andet lægemiddel), så forudsigelsen er i praksis kun modelbaseret.
+Doravirin er en non-nukleosid revers transkriptase-hæmmer (NNRTI), som oprindeligt anvendes til behandling af HIV-infektion og AIDS.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **simian immundefektvirus-infektion (SIV)**,
+men der foreligger **0 kliniske forsøg** og **1 publikation** (om et andet lægemiddel, islatravir), så evidensgrundlaget er meget svagt.
 
 ---
 
@@ -43,8 +43,8 @@ Der er dog **0 kliniske forsøg** og **1 publikation** (om et andet lægemiddel)
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-1-infektion (indikationsteksten er ikke angivet i den danske registrering i datapakken) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion (SIV) |
+| Oprindelig indikation | HIV-infektion og AIDS (fra vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er tom) |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion |
 | TxGNN-forudsigelsesscore | 99,93 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -53,43 +53,48 @@ Der er dog **0 kliniske forsøg** og **1 publikation** (om et andet lægemiddel)
 
 ---
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Doravirin hæmmer HIV-1's revers transkriptase. Detaljerede mekanistiske data (MOA) fra DrugBank mangler i datapakken. Den høje score afspejler sandsynligvis, at HIV-1 og SIV ligger tæt på hinanden i vidensgrafen, fordi begge er lentivira.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de indsamlede data. Doravirin er dog kendt som en NNRTI med aktivitet mod HIV-1.
 
-Det mekanistiske grundlag er imidlertid svagt. SIV-linjer, der er beslægtet med HIV-2, regnes generelt for naturligt mindre følsomme over for NNRTI'er. Der er ingen doravirin-specifikke data for SIV. Den eneste tilknyttede artikel handler om islatravir, som tilhører en anden lægemiddelklasse, og om HIV-1. SIV er desuden en infektion i dyremodeller og har ingen human behandlingsindikation.
+SIV er en nært beslægtet lentivirus, hvilket kan forklare modellens høje score. Men NNRTI'er har generelt dårlig aktivitet mod HIV-2 og SIV på grund af naturlige polymorfier i NNRTI-bindingslommen i revers transkriptase (fx Y181I og beslægtede positioner). Den mekanistiske sammenhæng er derfor svag. Den høje score afspejler sandsynligvis nærhed til HIV-indikationen i vidensgrafen snarere end påvist SIV-aktivitet.
 
-De øvrige forudsigelser med tilsvarende score er heller ikke understøttede:
-- **Felint erhvervet immundefektsyndrom**: en veterinær tilstand. Der er ingen data for aktivitet mod felint immundefektvirus, og ingen forsøg eller litteratur.
-- **Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans**: der er ikke fundet nogen plausibel mekanistisk forbindelse til hæmning af revers transkriptase. Scoren er sandsynligvis en artefakt i vidensgrafen.
+SIV-infektion er desuden primært en veterinær og forskningsmodel-tilstand uden en human behandlingsindikation. Den eneste tilknyttede publikation (PMID 31658118) handler om islatravir, et andet lægemiddel, og giver ingen direkte evidens for doravirin.
+
+**Øvrige forudsigelser i data:** Felin erhvervet immundefektsyndrom (FIV; veterinær, ingen mekanistisk begrundelse, ingen studier) og en sjælden genetisk neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans (score 99,91 %, ingen plausibel mekanistisk sammenhæng, ingen studier). Begge er sandsynligvis artefakter fra vidensgrafen og vurderes som Hold.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen registrerede kliniske forsøg relateret til denne indikation.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Gennemgang af islatravirs mulige rolle i behandling og forebyggelse af HIV-1. Artiklen handler om et andet lægemiddel (en revers transkriptase-translokationshæmmer) og indeholder ingen doravirin-data for SIV. |
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Gennemgår islatravirs potentielle rolle i behandling og forebyggelse af HIV-1. Handler om et andet lægemiddel og giver ikke direkte evidens for doravirin. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106038317 | Pifeltro (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter (oral) | Ikke angivet i datapakken |
+| 28106038317 | Pifeltro (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i datapakken. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 59 interaktioner i alt. Blandt de viste er følgende af størst betydning:
+- **Større (Major):** Dexamethason og lumacaftor
+- **Moderate:** Glycerolphenylbutyrat, metreleptin, troglitazon, deferasirox, praziquantel og griseofulvin
+- **Mindre (Minor):** bl.a. aprepitant, cimetidin, clarithromycin, clotrimazol, miconazol, cobicistat, ticagrelor, ivacaftor, zafirlukast, chloramphenicol, erythromycin og fluconazol
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige i de indsamlede data.
 
 ---
 
@@ -98,13 +103,13 @@ Der foreligger ingen sikkerhedsdata i datapakken. Der henvises til det godkendte
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen (L5). Der er hverken kliniske forsøg eller doravirin-specifik litteratur, og den mekanistiske sandsynlighed er lav. Desuden er SIV en dyremodelinfektion uden human behandlingsindikation. Der bør ikke arbejdes videre med denne forudsigelse som en klinisk repurposing-kandidat.
+Forudsigelserne er udelukkende beregningsbaserede (L5) uden kliniske forsøg eller direkte litteratur. Den mekanistiske sammenhæng er svag eller fraværende, og de forudsagte indikationer er enten veterinære eller uden biologisk grundlag.
 
-**For at komme videre kræves:**
-- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som blokerer sikkerhedsscreeningen
-- Mekanismedata (MOA) fra DrugBank
-- Præklinisk eller in vitro-evidens for doravirins aktivitet mod SIV, hvis forudsigelsen skal følges op
-- Afklaring af, om SIV overhovedet er relevant som humant indikationsmål, eller om det kun skal bruges som forskningsmodel
+**For at gå videre kræves:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Prækliniske data (in vitro-aktivitet mod SIV) før yderligere overvejelse
+- Afklaring af, om en human behandlingsindikation overhovedet er relevant
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

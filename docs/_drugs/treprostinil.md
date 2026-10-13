@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Treprostinil
-parent: Kun modelforudsigelse (L5)
-nav_order: 453
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 856
+evidence_level: L3
 indication_count: 10
 ---
 
 # Treprostinil
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Treprostinil: Fra godkendt indikation til pulmonal arteriovenøs malformation
+# Treprostinil: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med bindevævssygdom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Treprostinil er et prostacyclinanalog, der er markedsført i Danmark som infusionsvæske. Datagrundlaget angiver ikke den oprindelige godkendte indikation.
-TxGNN-modellen forudsiger, at stoffet kan have effekt ved **pulmonal arteriovenøs malformation** (score 99,70 %). Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så evidensen er ren modelforudsigelse (**L5**).
+Treprostinil er en prostacyclinanalog, der oprindeligt anvendes til behandling af pulmonal arteriel hypertension (PAH). TxGNN-modellen forudsiger, at lægemidlet også kan have effekt ved **PAH associeret med bindevævssygdom** (en undergruppe af PAH). Der er ingen registrerede kliniske forsøg, men **mere end 20 publikationer** i de indsamlede data understøtter retningen, heriblandt et dobbeltblindet, placebokontrolleret forsøg med subkutan treprostinil ved PAH og en undergruppeanalyse for bindevævssygdom.
+
+Bemærk: Den højest rangerende forudsigelse (pulmonal arteriovenøs malformation) har ingen evidens og vurderes som usandsynlig mekanistisk. Rapporten fokuserer derfor på den bedst understøttede forudsigelse (rang 5/10).
 
 ---
 
@@ -42,70 +43,100 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt ved **pulmonal arterioven�
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Pulmonal arteriovenøs malformation |
-| TxGNN-forudsigelsesscore | 99,70 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Oprindelig indikation | Pulmonal arteriel hypertension (fra vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
+| Forudsagt ny indikation | Pulmonal arteriel hypertension associeret med bindevævssygdom |
+| TxGNN-prædiktionsscore | 99,55 % |
+| Evidensniveau | L3 |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i datagrundlaget. Treprostinil er dog en prostacyclin-agonist (IP-receptor), som sænker pulmonal vaskulær resistens.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Treprostinil er dog en prostacyclinanalog (agonist ved prostacyclinreceptoren, IP), som giver vasodilatation i lungekredsløbet, hæmmer trombocytaggregation og har antiproliferative effekter på vaskulære glatte muskelceller.
 
-Den høje score skyldes sandsynligvis en artefakt i videngrafen, der opstår på grund af nærliggende noder for lungekar. Pulmonale arteriovenøse malformationer er strukturelle højre-til-venstre-shunts og ikke en vasculopati med høj resistens. Vasodilatation er derfor ikke en oplagt behandlingsmekanisme, og den kan i værste fald forværre shunting eller hypoksæmi.
+PAH associeret med bindevævssygdom (fx systemisk sklerose, SLE og blandet bindevævssygdom) er en WHO Gruppe 1-undergruppe af PAH og deler den pulmonale vaskulopati, som prostacyclinvejen er rettet mod. Der er derfor tale om en indikation, der i vid udstrækning ligger inden for den oprindelige, snarere end en egentlig repurposing.
 
-Forudsigelsen bør derfor ikke tillægges klinisk vægt, før der foreligger konkrete data.
+Det skal understreges, at evidensen i de indsamlede data er på undergruppe- eller observationsniveau, og at pivotale fase 3-forsøg ikke fremgår.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [11897647](https://pubmed.ncbi.nlm.nih.gov/11897647/) | 2002 | Dobbeltblindet, randomiseret, placebokontrolleret forsøg | Am J Respir Crit Care Med | 12 ugers kontinuerlig subkutan infusion af treprostinil ved PAH |
+| [15302727](https://pubmed.ncbi.nlm.nih.gov/15302727/) | 2004 | Klinisk studie (undergruppe) | Chest | Effekt og sikkerhed af subkutan treprostinil ved PAH associeret med bindevævssygdom |
+| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematisk review og metaanalyse | Intern Emerg Med | Behandling af PAH ved bindevævssygdom; evidensen bygger hovedsageligt på undergruppe- og post hoc-analyser af RCT'er |
+| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | Diagnostik og behandling af PAH |
+| [41594679](https://pubmed.ncbi.nlm.nih.gov/41594679/) | 2026 | Review | Biomolecules | Aktuelle behandlingsstrategier og fremtidsperspektiver ved PAH ved bindevævssygdom |
+| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Nyere fremskridt i behandling af PAH ved bindevævssygdom |
+| [22291467](https://pubmed.ncbi.nlm.nih.gov/22291467/) | 2012 | Review | Drug Des Devel Ther | Terapeutisk gennemgang af inhaleret treprostinil |
+| [34462153](https://pubmed.ncbi.nlm.nih.gov/34462153/) | 2021 | Retrospektivt multicenterstudie | Rev Med Interne | Karakteristika og forløb hos patienter med PAH ved bindevævssygdom behandlet med prostanoider |
+| [40566626](https://pubmed.ncbi.nlm.nih.gov/40566626/) | 2025 | Kohorte (andet lægemiddel: selexipag) | Life (Basel) | Selexipag ved PAH ved bindevævssygdom med samtidig interstitiel lungesygdom |
+| [41201625](https://pubmed.ncbi.nlm.nih.gov/41201625/) | 2026 | Registerstudie | J Heart Lung Transplant | Tillægsbehandling med parenterale prostacyclinanaloger ved PAH (COMPERA-registeret) |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106501620 | Treprostinil "Tillomed" | Infusionsvæske, opløsning | Tillomed Pharma GmbH |
+| 28106501620 | Treprostinil "Tillomed" (Tillomed Pharma GmbH) | Infusionsvæske, opløsning | Indikationstekst ikke angivet |
+
+---
+
+## Cytotoksicitet
+
+Ikke relevant (treprostinil er ikke et antineoplastisk lægemiddel).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Teoretisk risiko ved denne indikation**: Vasodilatation kan forværre shunting eller hypoksæmi ved pulmonale arteriovenøse malformationer.
+Det godkendte produktresumé (SmPC) bør konsulteres for fuldstændige oplysninger om advarsler og kontraindikationer, da disse ikke var tilgængelige i de indsamlede data.
 
-For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
+- **Kontraindikationer fra vidensgrafen** (afledt af relationer i en vidensgraf, ikke fra produktresuméet): nyresygdom, leversygdom, galdeblæresygdom, hypotension, blodkoagulationssygdom og lungesygdom.
+- **Lægemiddelinteraktioner:** 100 interaktioner er identificeret. Blandt dem med moderat sværhedsgrad er:
+  - Adrenalin (epinephrin) og efedrin
+  - Acetylsalicylsyre
+  - SGLT2-hæmmere (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - Mannitol og glycerin
+  - Papaverin
+  - Fenfluramin, dexfenfluramin og sibutramin
+
+  Interaktioner med ukendt sværhedsgrad omfatter bl.a. pantoprazol, omeprazol, lansoprazol, prednison, simvastatin og kaliumklorid.
+- **Særlige overvejelser ved denne indikation:** Infusionsstedssmerter, blødningsrisiko og bindevævssygdomsspecifik komorbiditet (fx interstitiel lungesygdom og Raynauds fænomen).
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen, uden kliniske forsøg eller litteratur. Den plausible mekanisme er svag, og der er en teoretisk sikkerhedsrisiko (forværret shunting/hypoksæmi).
+PAH associeret med bindevævssygdom er en Gruppe 1-undergruppe af PAH, og der findes både et placebokontrolleret forsøg ved PAH og en undergruppeanalyse for bindevævssygdom. Evidensen er dog på undergruppe- eller observationsniveau (L3), og der er ingen registrerede kliniske forsøg.
 
 **For at komme videre kræves følgende:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation (afgørende for sikkerhedsvurderingen)
+- Bekræftelse af effekt i undergruppen i forhold til den godkendte produktinformation
+- Indhentning af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer er ikke tilgængelige)
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Klinisk eller præklinisk evidens specifikt for pulmonal arteriovenøs malformation
-- Vurdering af risikoen for forværret shunting og hypoksæmi
+- Plan for sikkerhedsmonitorering (infusionsstedssmerter, blødningsrisiko, interstitiel lungesygdom)
+- Gennemgang af interaktioner med relevant samtidig medicin
 
-**Bemærkning om øvrige forudsigelser for treprostinil:** Datagrundlaget indeholder også forudsigelser med mere evidens, men disse ligger i vid udstrækning inden for den eksisterende PAH-indikation.
-- PAH ved bindevævssygdom: evidensniveau L1 og anbefaling "Proceed with Guardrails". Evidensen bygger på en subgruppeanalyse af et subkutant treprostinil-RCT (PMID 11897647 og 15302727).
-- PAH ved medfødt hjertesygdom og PAH ved HIV: evidensniveau L3 ("Research Question").
-- PAH ved kronisk hæmolytisk anæmi og ved schistosomiasis: kun modelforudsigelse (L5, Hold).
+**Øvrige forudsigelser (til orientering):**
+- *PAH associeret med medfødt hjertesygdom* (L3, rang 3/4): Forskningsspørgsmål. Små kohortestudier findes, men indikationen ligger tæt på den oprindelige.
+- *PAH associeret med HIV* (L4, rang 8/9): Forskningsspørgsmål. Kun generelle reviews, og interaktioner med antiretroviral behandling skal vurderes.
+- *PAH associeret med kronisk hæmolytisk anæmi* og *schistosomiasis* (L5): Hold. Kun modelforudsigelse.
+- *Pulmonal arteriovenøs malformation* (L5, rang 1/2): Hold. Ingen evidens, og vasodilatation kan forværre shunting eller hypoxæmi. Forudsigelsen skyldes sandsynligvis nærhed i grafen snarere end reel mekanistisk begrundelse.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

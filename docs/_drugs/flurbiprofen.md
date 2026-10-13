@@ -2,7 +2,7 @@
 layout: default
 title: Flurbiprofen
 parent: Kun modelforudsigelse (L5)
-nav_order: 195
+nav_order: 369
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Flurbiprofen: Fra NSAID til akromesomel dysplasi, Hunter-Thompson-type
+# Flurbiprofen: Fra gigt og slidgigt til akromesomel dysplasi af Hunter-Thompson-typen
 
-## Resumé
+## Resumé i én sætning
 
-Flurbiprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der hæmmer cyclooxygenase (COX). I Danmark er det markedsført som mundhulespray.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **akromesomel dysplasi, Hunter-Thompson-type**, en sjælden arvelig skeletsygdom.
-Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. Den bygger udelukkende på modelscoren (evidensniveau L5).
+Flurbiprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der oprindeligt anvendes mod leddegigt, slidgigt og ledlidelser.
+TxGNN-modellen forudsiger, at det kan have effekt mod **akromesomel dysplasi af Hunter-Thompson-typen**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -43,8 +42,9 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. De
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Leddegigt, slidgigt, ledlidelser (fra vidensgrafen; den danske godkendelse har ingen angivet indikationstekst) |
 | Forudsagt ny indikation | Akromesomel dysplasi, Hunter-Thompson-type |
-| TxGNN-score | 99,99 % |
+| TxGNN-forudsigelsesscore | 99,99 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -52,24 +52,17 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**. De
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Flurbiprofen er et NSAID og en uspecifik COX-hæmmer. Detaljerede data om virkningsmekanismen foreligger ikke i det tilgængelige datagrundlag. Ud fra klassen hæmmer stoffet dannelsen af prostaglandiner og har smertestillende og antiinflammatorisk effekt.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Flurbiprofen er kendt som en uselektiv hæmmer af cyclooxygenase (COX), som nedsætter dannelsen af prostaglandiner og dermed dæmper inflammation og smerte. Det forklarer effekten ved leddegigt og slidgigt.
 
-Akromesomel dysplasi, Hunter-Thompson-type, er en sjælden genetisk skeletdysplasi. Den tilskrives normalt tabsmutationer i GDF5/BMP-signalvejen. Der er ikke noget kendt grundlag for, at hæmning af prostaglandinsyntesen kan korrigere denne defekt. Den meget høje modelscore (0,99988) ligner derfor snarere en artefakt i vidensgrafen end en farmakologisk begrundelse.
+Akromesomel dysplasi af Hunter-Thompson-typen er en sjælden skeletlidelse, som er forbundet med tab af funktion i generne CDMP1/GDF5. Der er ingen oplagt sammenhæng mellem hæmning af COX/prostaglandiner og genopretning af GDF5/BMP-signalering. Den høje score afspejler sandsynligvis, at sygdommen ligger tæt på andre skelet- og ledlidelser i vidensgrafen, og ikke en farmakologisk begrundelse.
 
-Modellen giver også høje scorer for fire andre sjældne tilstande. Heller ikke for disse er der påvist en mekanistisk sammenhæng:
-
-| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Brachydaktyli-syndaktyli-syndrom | 99,99 % | Ingen kendt sammenhæng. Medfødt lemmemisdannelse, hvor COX-hæmning ikke har nogen kendt rolle. |
-| Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom | 99,99 % | Ingen kendt sammenhæng. Ultrasjælden medfødt syndrom med øjen- og skeletmisdannelser. |
-| Brachyolmi-amelogenesis imperfecta-syndrom | 99,99 % | Ingen kendt sammenhæng. Påvirker rygsøjlens vækst og tandemaljen, og flurbiprofens virkning adresserer ikke den udviklingsmæssige defekt. |
-| Myosklerose | 99,98 % | Svag, uspecifik sammenhæng. En NSAID-effekt på smerte eller inflammation er teoretisk mulig, men der er ingen evidens for sygdomsmodificerende effekt. |
+De øvrige topforudsigelser (brachydactyli-syndaktyli-syndrom, kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom, brachyolmi-amelogenesis imperfecta-syndrom og myosklerose) er ligeledes sjældne, overvejende genetisk betingede tilstande uden dokumenteret mekanistisk sammenhæng. For myosklerose er der kun en svag, spekulativ forbindelse via muskelfibrose og NSAID'ers antiinflammatoriske egenskaber.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -83,19 +76,36 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107172924 | Flurbiprofen "Stada" | Mundhulespray, opløsning | STADA Arzneimittel AG |
+| 28107172924 | Flurbiprofen "Stada" (STADA Arzneimittel AG) | Mundhulespray, opløsning | Indikationstekst ikke angivet |
 
-Godkendt indikationstekst er ikke angivet i de foreliggende data.
+Produktet er et enkeltstofpræparat med gyldig tilladelse. Bemærk, at den eneste danske godkendelse er en spray til mundhulen, hvilket ikke uden videre svarer til en systemisk administrationsvej, som ville være relevant for en skeletlidelse.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer og risikotilstande fra vidensgrafen** (ikke fra produktresuméet): Vidensgrafen peger på sygdomme, hvor lægemidlet er forbundet med kontraindikation, herunder:
+- Hjerte-kar-sygdomme: hypertension, hjertesygdom, myokardieinfarkt, koronar trombose
+- Mavetarmkanalen: aktivt mavesår/mavesårssygdom
+- Nyre- og leversygdom, galdeblæresygdom
+- Blodkoagulationssygdom og hæmoglobinopati
+- Misbrug/afhængighed
 
-Der blev ikke fundet registrerede lægemiddelinteraktioner i det anvendte datagrundlag. Det er ikke det samme som, at der ikke findes interaktioner.
+**Lægemiddelinteraktioner:** Der er registreret 100 mulige interaktioner. Blandt de viste er de fleste af moderat grad, fx med:
+- Acetylsalicylsyre
+- Kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon)
+- Metformin
+- Sulfonylurinstoffer (glimepirid, chlorpropamid)
+- Mesalazin og balsalazid
+- Aprepitant
+- Kaliumcitrat og kaliumbicarbonat
+- Visse afføringsmidler (picosulfat, natriumsulfat, polyethylenglycol med elektrolytter)
+
+Interaktioner med famotidin, cimetidin og linaclotid er klassificeret som milde.
+
+Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -104,16 +114,14 @@ Der blev ikke fundet registrerede lægemiddelinteraktioner i det anvendte datagr
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore (L5), uden kliniske forsøg, litteratur eller en plausibel mekanistisk forklaring. Flurbiprofens COX-hæmning har ingen kendt rolle ved de forudsagte genetiske udviklingsforstyrrelser. Den høje score vurderes at være en artefakt i vidensgrafen.
+Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg, uden litteratur og uden en plausibel mekanistisk forbindelse mellem COX-hæmning og de forudsagte sjældne genetiske skeletlidelser. Sikkerhedsprofilen, herunder hjerte-kar-, mave-tarm- og nyrerisici, taler yderligere for forsigtighed.
 
-**For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da sikkerhedsscreening ikke kan gennemføres uden dem
-- Detaljerede data om virkningsmekanismen (fx via DrugBank)
-- En biologisk begrundelse for, hvordan COX-hæmning kan påvirke GDF5/BMP-signalvejen eller de øvrige sygdomsmekanismer
-- Prækliniske eller mekanistiske studier, hvis der skal ske yderligere vurdering
-- Vurdering af administrationsvejens egnethed: det eneste markedsførte præparat er en mundhulespray, og dets egnethed til systemisk behandling af de forudsagte sygdomme er ikke afklaret
-
-*Resultaterne er kun til forskningsformål og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Dokumenteret virkningsmekanisme (MOA) og en hypotese for, hvordan COX-hæmning kan påvirke GDF5/BMP-signalering eller sygdomsforløbet
+- Præklinisk evidens (celle- eller dyremodeller) for den forudsagte indikation
+- Systematisk litteratursøgning og søgning efter kliniske forsøg
+- Gennemgang af produktresuméet for advarsler og kontraindikationer samt vurdering af administrationsvej (nuværende godkendelse er kun en mundhulespray)
+- Vurdering af risk-benefit i en population med sjælden sygdom, herunder børn
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Asfotase Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 47
+nav_order: 79
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Asfotase alfa: Fra hypofosfatasi til mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-anomalier
+# Asfotase alfa: Fra hypofosfatasi til mitokondriel oxidativ fosforyleringsforstyrrelse
 
-## Resumé i en sætning
+## Resumé
 
-Asfotase alfa er en rekombinant enzymerstatningsterapi (tissue-nonspecific alkaline phosphatase, TNAP, som Fc-fusionsprotein), der oprindeligt anvendes ved hypofosfatasi.
-TxGNN-modellen forudsiger, at det kan have effekt ved **mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-anomalier**.
-Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
+Asfotase alfa er en enzymerstatningsbehandling, som oprindeligt anvendes til behandling af hypofosfatasi.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-abnormiteter**.
+Der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse, så den hviler udelukkende på en computerbaseret model.
 
 ---
 
@@ -43,8 +43,8 @@ Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypofosfatasi (fremgår af enzymets virkningsbeskrivelse; indikationsteksten mangler i de danske registreringsdata) |
-| Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-anomalier |
+| Oprindelig indikation | Hypofosfatasi |
+| Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-abnormiteter |
 | TxGNN-forudsigelsesscore | 99,95 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -53,52 +53,52 @@ Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i kilden. Ud fra kendt information er asfotase alfa et rekombinant TNAP-enzym, der nedbryder uorganisk pyrofosfat, pyridoxal-5'-phosphat og phosphoethanolamin. Denne virkning understøtter knoglemineralisering ved hypofosfatasi.
+Der foreligger ingen detaljerede data om virkningsmekanismen. Asfotase alfa er et rekombinant, vævsuspecifikt alkalisk fosfatase-enzym (TNALP), som nedbryder uorganisk pyrofosfat og andre fosfatsubstrater og dermed understøtter knoglemineralisering. Det er effektivt ved hypofosfatasi, hvor dette enzym mangler.
 
-Mitokondrielle OXPHOS-defekter forårsaget af nukleære DNA-anomalier svækker luftvejskædens funktion i mitokondrierne. Det er en helt anden patofysiologi, som enzymet ikke adresserer. Der er derfor ingen etableret biologisk forbindelse mellem den oprindelige og den forudsagte indikation.
+Mitokondrielle oxidative fosforyleringsforstyrrelser skyldes defekter i nukleært kodede komponenter i respirationskæden. De er ikke kendt for at involvere TNALP-mangel eller ophobning af ekstracellulært pyrofosfat. Der kan derfor ikke påvises en mekanistisk sammenhæng i de foreliggende data.
 
-Den meget høje score (0,9995) afspejler sandsynligvis nærhed i vidensgrafen (knowledge graph) snarere end en reel biologisk begrundelse. Da MOA-data mangler, kan sammenhængen ikke verificeres.
+Den høje score (99,95 %) er en ren modelberegning. Den afspejler sandsynligvis mønstre i vidensgrafen snarere end en reel biologisk forbindelse og bør ikke tolkes som klinisk evidens.
 
-**Øvrige forudsigelser i evidenspakken** (alle L5, alle Hold, uden forsøg eller litteratur):
+### Øvrige forudsigelser fra modellen
 
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+Modellen har også forudsagt nedenstående indikationer. Alle har evidensniveau L5, ingen forsøg eller litteratur og anbefalingen Hold. Der er ingen påvist mekanistisk forbindelse til asfotase alfas virkning:
+
+| Forudsagt indikation | Score | Bemærkning |
 |------|------|------|
-| Steel syndrom | 99,91 % | Kun spekulativ og indirekte. Der er tale om en COL27A1-relateret skeletdysplasi med anden genetik og patofysiologi. |
-| Eksokrin pancreasinsufficiens | 99,89 % | Ingen plausibel sammenhæng. Tilstanden kræver fordøjelsesenzymer, mens asfotase alfa er et systemisk, knoglemålrettet enzym. |
-| Scheie syndrom | 99,85 % | Ingen direkte sammenhæng. Sygdommen skyldes iduronidasemangel og behandles med et andet enzym. |
-| Hurler syndrom | 99,75 % | Ingen direkte sammenhæng. Substraterne er forskellige, og forbindelsen er begrænset til klassen enzymerstatning. |
+| Steel syndrom | 99,91 % | Sjælden skeletlidelse (COL27A1-relateret); defekten er ikke TNALP-relateret |
+| Exokrin pancreasinsufficiens | 99,89 % | Standardbehandling er oral enzymerstatning; asfotase alfa erstatter ikke fordøjelsesenzymer |
+| Scheies syndrom | 99,85 % | Skyldes IDUA-mangel; asfotase alfa påvirker ikke GAG-nedbrydning; laronidase findes |
+| Hurlers syndrom | 99,75 % | Skyldes IDUA-mangel; laronidase og stamcelletransplantation findes |
 
-Flere af disse forudsigelser optræder to gange i datagrundlaget med identiske værdier. De er her kun anført én gang.
-
----
-
-## Klinisk evidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Forudsigelsen er sandsynligvis drevet af det fælles lægemiddelklasse-begreb "enzymerstatning" frem for fælles biologi.
 
 ---
 
-## Litteraturevidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Evidens fra litteraturen
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105481714 | Strensiq | Injektionsvæske, opløsning | Alexion Europe |
-
-Indikationsteksten er ikke angivet i de tilgængelige registreringsdata for Lægemiddelstyrelsen.
+| 28105481714 | Strensiq (Alexion Europe) | Injektionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i evidenspakken (advarsler, kontraindikationer). Der er heller ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -107,16 +107,13 @@ Der foreligger ingen sikkerhedsdata i evidenspakken (advarsler, kontraindikation
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger alene på modellen (evidensniveau L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk forbindelse mellem TNAP-enzymerstatning og mitokondrielle OXPHOS-defekter. Den høje score afspejler mest sandsynligt nærhed i vidensgrafen.
+Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden kliniske forsøg, litteratur eller en påvist mekanistisk forbindelse. Den biologiske sammenhæng mellem TNALP-erstatning og de forudsagte sygdomme er svag eller fraværende.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet for Strensiq hos Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA) fra DrugBank, så den mekanistiske sammenhæng kan vurderes
-- Den godkendte indikationstekst for den danske markedsføringstilladelse
-- Prækliniske eller mekanistiske studier, der kan begrunde en biologisk sammenhæng, før der overvejes kliniske forsøg
-- En vurdering af administrationsvej og lægemiddelform i forhold til den forudsagte indikation
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsagte kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) og en vurdering af, om der findes en biologisk forbindelse til de forudsagte sygdomme
+- Systematisk litteratursøgning og søgning i forsøgsregistre for den forudsagte indikation
+- Oplysninger om advarsler og kontraindikationer fra produktresuméet, da disse mangler i de indsamlede data
+- Prækliniske data, der kan understøtte hypotesen, før en klinisk vurdering overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

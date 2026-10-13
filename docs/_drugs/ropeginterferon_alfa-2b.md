@@ -2,7 +2,7 @@
 layout: default
 title: Ropeginterferon Alfa-2B
 parent: Kun modelforudsigelse (L5)
-nav_order: 388
+nav_order: 734
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,70 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ropeginterferon alfa-2b: Fra oprindelig indikation til Laubry-Pezzi syndrom
+# Ropeginterferon alfa-2b: Fra polycytæmia vera til Laubry-Pezzi syndrom
 
 ## Resumé
 
-Ropeginterferon alfa-2b er et langtidsvirkende type I-interferon, der i Danmark markedsføres under navnet Besremi. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **Laubry-Pezzi syndrom**, en medfødt hjertemisdannelse. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modellen.
-
----
+Ropeginterferon alfa-2b er et pegyleret interferon, som oprindeligt anvendes til behandling af myeloproliferative sygdomme, især polycytæmia vera.
+TxGNN-modellen forudsiger, at det kan have effekt på **Laubry-Pezzi syndrom** (ventrikelseptumdefekt med aortainsufficiens).
+Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse, og der er ikke fundet nogen troværdig biologisk sammenhæng.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Laubry-Pezzi syndrom |
+| Oprindelig indikation | Erhvervet polycytæmia vera (de godkendte indikationstekster for det danske præparat er ikke tilgængelige i de indsamlede data) |
+| Forudsagt ny indikation | Laubry-Pezzi syndrom |
 | TxGNN-forudsigelsesscore | 99,93 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ropeginterferon alfa-2b er et pegyleret interferon, der virker via interferonreceptorsignalering (JAK/STAT) og dæmper klonal hæmatopoiese ved myeloproliferative neoplasier. Dette er baseret på almen viden og ikke på de indsamlede data.
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i Evidence Pack. Ropeginterferon alfa-2b er et langtidsvirkende type I-interferon med immunmodulerende og antiproliferative effekter.
+Laubry-Pezzi syndrom er en strukturel, medfødt hjertetilstand. Interferonmedieret hæmning af myeloproliferation har ingen kendt rolle i patofysiologien eller behandlingen af anatomiske septumdefekter. Den høje score (0,999) afspejler sandsynligvis nærhed i vidensgrafen og er ikke udtryk for biologisk rationale.
 
-Laubry-Pezzi syndrom er en medfødt strukturel hjertefejl med ventrikelseptumdefekt, aortaklapprolaps og aortaklapinsufficiens. Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem interferonets virkning og denne tilstand. Et interferon kan ikke korrigere strukturelle misdannelser.
-
-Den høje score på 99,93 % er en ren modelforudsigelse uden biologisk begrundelse i de foreliggende data. Den skyldes sandsynligvis et artefakt i vidensgrafen, fx fælles sygdomsnabolag, og ikke en reel biologisk hypotese.
-
-### Øvrige forudsigelser fra modellen
-
-Modellen foreslår yderligere fire indikationer, som alle mangler både kliniske forsøg og litteratur. Heller ikke for disse er der identificeret nogen plausibel mekanistisk sammenhæng.
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Begrundelse for manglende sammenhæng |
-|------|------|------|------|
-| Aneurisme i septum interventriculare | 99,92 % | L5 | Strukturel hjerteanomali, hvor interferonets immunmodulering ikke har nogen kendt rolle |
-| Genetisk syndromisk Pierre Robin-syndrom | 99,92 % | L5 | Medfødt kraniofacial sekvens med udviklingsmæssig eller genetisk årsag. Interferonets sikkerhedsprofil gør empirisk brug hos børn vanskelig at forsvare |
-| Pierre Robin-syndrom associeret med kromosomanomali | 99,92 % | L5 | Kromosomanomali og udviklingsmæssig misdannelse uden kendt interferonrelateret signalvej |
-| Partiel deletion af den lange arm af kromosom 7 | 99,92 % | L5 | Genomisk strukturel tilstand, som ikke kan vendes farmakologisk |
-
----
+Det samme gælder de øvrige forudsigelser med høj score: interventrikulært septumaneurisme, Pierre Robin syndrom (herunder genetisk syndromisk form og form associeret med kromosomafvigelse) samt partiel deletion af den lange arm af kromosom 7. Det er udviklingsmæssige eller kromosomale tilstande, som en postnatal behandling med interferon ikke kan korrigere. Alle forudsigelser er rent beregningsmæssige.
 
 ## Kliniske forsøg
 
-Der er i øjeblikket ingen relevante kliniske forsøg registreret.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteratur
 
-Der er i øjeblikket ingen relevant litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
----
+## Information om det danske marked
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105912117 | Besremi | Injektionsvæske, opløsning i fyldt pen | AOP Orphan Pharmaceuticals GmbH |
+| 28105912117 | Besremi (AOP Orphan Pharmaceuticals GmbH) | Injektionsvæske, opløsning i fyldt pen | Indikationstekst ikke tilgængelig i de indsamlede data |
 
----
+## Cytotoksicitet
+
+Ropeginterferon alfa-2b er et interferonbaseret immunmodulerende middel og behandler en myeloproliferativ neoplasi. Der foreligger ingen specifikke cytotoksicitetsdata i de indsamlede data. Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ## Sikkerhedsmæssige overvejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de foreliggende data.
+Der er ikke fundet interaktionsdata, og der er ingen registrerede kontraindikationer fra vidensgrafen.
 
----
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er alene baseret på modellen (evidensniveau L5), uden kliniske forsøg eller litteratur. Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem lægemidlets virkning og de forudsagte tilstande, som alle er strukturelle eller genetiske misdannelser.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur, og der er ingen troværdig mekanistisk forbindelse mellem et interferon mod myeloproliferative sygdomme og strukturelle eller kromosomale udviklingsafvigelser. Den høje TxGNN-score er sandsynligvis et artefakt i vidensgrafen.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, som er en blokerende mangel
-- Oplysninger om virkningsmekanisme fra DrugBank
-- Oplysninger om den godkendte indikation for Besremi
-- Konkret biologisk eller klinisk evidens for en sammenhæng, før en videre vurdering er relevant
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
+- Detaljerede data om virkningsmekanismen (MOA), f.eks. fra DrugBank
+- Sikkerhedsoplysninger fra produktresuméet hos Lægemiddelstyrelsen (advarsler og kontraindikationer), som er en forudsætning for sikkerhedsscreening
+- Den godkendte indikationstekst for Besremi i Danmark
+- Prækliniske eller mekanistiske data, der kan underbygge en biologisk sammenhæng, før en yderligere vurdering overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

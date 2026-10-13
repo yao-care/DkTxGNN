@@ -2,7 +2,7 @@
 layout: default
 title: Tezepelumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 430
+nav_order: 819
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tezepelumab: Fra svær astma til diabetisk grå stær
+# Tezepelumab: Fra [original indikation ikke angivet] til diabetisk katarakt
 
 ## Resumé i én sætning
 
-Tezepelumab er et monoklonalt antistof mod TSLP, som er markedsført til behandling af svær astma. TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk grå stær (diabetic cataract)**. Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modellen.
+Tezepelumab er et monoklonalt antistof mod TSLP (thymic stromal lymphopoietin), som er markedsført i Danmark under navnet Tezspire. Der foreligger ingen godkendt indikationstekst i de data, der er sammenstillet til denne rapport, men stoffet er kendt anvendt ved svær astma.
+TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
 
 ---
 
@@ -41,9 +42,9 @@ Tezepelumab er et monoklonalt antistof mod TSLP, som er markedsført til behandl
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Svær astma (ifølge den mekanistiske vurdering i Evidence Pack; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Diabetisk grå stær |
-| TxGNN-score | 98,4 % |
+| Oprindelig indikation | Ikke angivet i de sammenstillede data (stoffet er markedsført til svær astma) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,4 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -53,49 +54,39 @@ Tezepelumab er et monoklonalt antistof mod TSLP, som er markedsført til behandl
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Tezepelumab er et anti-TSLP-antistof, og effekten ved svær astma er dokumenteret. Mekanistisk set kan TSLP-drevet lavgradig inflammation og fibrose i linseepitelet muligvis have betydning for diabetisk grå stær, men der er ikke fremlagt data, der understøtter denne sammenhæng. Forbindelsen er derfor spekulativ.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de sammenstillede data. Tezepelumab er et anti-TSLP-antistof, og TSLP er et epitelialt cytokin, der driver type 2-inflammation. En mulig, men ikke valideret forbindelse er, at TSLP-medieret inflammation og stresssignalering i linsens epitel kunne bidrage til inflammatoriske og fibrotiske processer i linsen.
 
-Den høje score (0,984) er alene en modelforudsigelse. Derudover er det usandsynligt, at et stort monoklonalt antistof når linsen efter systemisk dosering, hvilket svækker den biologiske rimelighed yderligere.
+Denne kobling er spekulativ. Diabetisk katarakt skyldes primært polyolvejen, oxidativt stress og glykering, og der er ingen etableret mekanistisk sammenhæng mellem TSLP-blokade og kataraktdannelse.
 
-### Øvrige forudsagte indikationer (alle L5, Hold)
-
-Efter sammenlægning af dubletter forudsiger modellen også følgende kataraktformer med samme score på 98,3 %. Ingen af dem har kliniske forsøg eller litteratur.
-
-| Forudsagt indikation | Vurdering |
-|------|------|
-| Umoden grå stær (immature cataract) | Morfologisk stadium, ikke en selvstændig ætiologi. Sandsynligvis grafnærhed til andre katarakt-knuder |
-| Moden grå stær (mature cataract) | Fremskreden strukturel uklarhed, behandles kirurgisk. Ingen plausibel reversibel mekanisme. Sandsynligvis en artefakt i vidensgrafen |
-| Type 2-diabetes-associeret grå stær | Ingen etableret mekanisme. Eventuel sammenhæng er indirekte via inflammation |
-| Kraniostenose-katarakt | Sjælden syndromal/medfødt tilstand uden tydelig TSLP-rationale |
-| Tetanisk katarakt | Skyldes hypokalcæmi/hypoparatyreoidisme og er uafhængig af TSLP-signalering |
+Den høje score (0,984) er alene en modelforudsigelse. De øvrige forudsagte katarakttyper (umoden, moden, kraniostenose-relateret, type 2-diabetes-associeret og tetanisk katarakt) har næsten identiske scorer på 0,983. Det tyder på, at forudsigelserne skyldes ensartethed i vidensgrafen frem for sygdomsspecifik evidens. Moden katarakt behandles desuden typisk kirurgisk, og tetanisk katarakt er knyttet til hypokalcæmi, som ikke har forbindelse til TSLP-signalering.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106632821 | Tezspire | Injektionsvæske, opløsning i fyldt injektionssprøjte | AstraZeneca AB |
-
-Indikationsteksten er ikke angivet i de tilgængelige registreringsdata.
+| 28106632821 | Tezspire (AstraZeneca AB) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de sammenstillede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ingen kendte lægemiddelinteraktioner i de sammenstillede data (forespørgslen gav ingen resultater), og der er ikke identificeret kontraindikationer i vidensgrafen.
+
+Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og sikkerhed.
 
 ---
 
@@ -104,15 +95,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur. Den biologiske rimelighed er lav, især fordi et stort antistof næppe når linsen ved systemisk dosering. Flere af de forudsagte kataraktformer (tetanisk, kraniostenose, moden) har desuden en ætiologi, der ikke har noget med TSLP at gøre.
+Forudsigelsen bygger udelukkende på TxGNN-modellen (evidensniveau L5) uden kliniske forsøg, publikationer eller en dokumenteret mekanistisk sammenhæng. Mønsteret med identiske scorer på tværs af katarakttyper tyder på en artefakt i vidensgrafen.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Prækliniske data, der viser TSLP-involvering i linsepatologi ved diabetes, samt en vurdering af mulig okulær eksponering
-- Vurdering af administrationsvej, da den nuværende subkutane injektionsform sandsynligvis ikke er forenelig med behovet for målvævseksponering i øjet
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Prækliniske data, der undersøger TSLP's rolle i linsens epitel og diabetisk katarakt
+- Systematisk litteratur- og forsøgssøgning for at afklare, om der findes understøttende evidens
+- Vurdering af administrationsvej, da okulær anvendelse af et subkutant antistof endnu ikke er afklaret
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

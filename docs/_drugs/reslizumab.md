@@ -2,7 +2,7 @@
 layout: default
 title: Reslizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 373
+nav_order: 713
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Reslizumab: Fra eosinofil-relateret anvendelse til immun trombocytopeni (ITP)
+# Reslizumab: Fra eosinofil lungebetændelse til immunmedieret trombocytopeni
 
 ## Resumé i én sætning
 
-Reslizumab er et anti-IL-5 monoklonalt antistof, der nedbryder eosinofile granulocytter. Evidence Pack'en angiver ingen godkendt indikation.
-TxGNN-modellen forudsiger, at det kan virke mod **trombocytopeni som følge af immundestruktion (ITP)**.
-Forudsigelsen har **0 kliniske forsøg** og **0 relevante publikationer** bag sig. Den hviler kun på modellen.
+Reslizumab er et anti-IL-5-antistof, som oprindeligt er knyttet til behandling af eosinofil pneumoni og pulmonal eosinofili.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **immunmedieret trombocytopeni** (trombocytopeni på grund af immundestruktion).
+Der foreligger **ingen kliniske forsøg** og **ingen publikationer** direkte for denne indikation, så forudsigelsen hviler alene på modellens score.
 
 ---
 
@@ -43,8 +43,8 @@ Forudsigelsen har **0 kliniske forsøg** og **0 relevante publikationer** bag si
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (licensens indikationstekst er tom) |
-| Forudsagt ny indikation | Trombocytopeni som følge af immundestruktion (ITP) |
+| Oprindelig indikation | Eosinofil pneumoni / pulmonal eosinofili (angivet i vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
+| Foreslået ny indikation | Trombocytopeni på grund af immundestruktion |
 | TxGNN-prædiktionsscore | 99,53 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -53,39 +53,31 @@ Forudsigelsen har **0 kliniske forsøg** og **0 relevante publikationer** bag si
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig (eller ikke)?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Reslizumab er et anti-IL-5 monoklonalt antistof. Det neutraliserer IL-5 og reducerer dermed antallet af eosinofile granulocytter. Der foreligger ikke detaljerede mekanismedata i datagrundlaget, så analysen af mekanistiske sammenhænge er begrænset.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Reslizumab er dog et monoklonalt anti-IL-5-antistof, som nedsætter eosinofilernes aktivitet og overlevelse. Det forklarer den oprindelige tilknytning til eosinofile lungesygdomme.
 
-ITP skyldes hovedsageligt autoantistofmedieret nedbrydning af blodplader. Der er ikke fundet nogen etableret rolle for IL-5 eller eosinofile granulocytter i denne sygdom. Etablerede ITP-behandlinger (kortikosteroider, IVIG, TPO-receptoragonister, rituximab) virker via andre mekanismer. Den høje score skyldes sandsynligvis et artefakt i vidensgrafen og har ingen biologisk støtte.
+Immunmedieret trombocytopeni drives primært af autoantistof- og T-cellemedieret nedbrydning af blodplader samt nedsat megakaryopoiese. Der er ingen kendt eosinofil- eller IL-5-afhængig sygdomsvej, og derfor er den mekanistiske sammenhæng svag. Den høje score (0,995) er det eneste, der støtter forudsigelsen.
 
-Evidence Pack'en indeholdt hver indikation to gange. Her er hver vurderet én gang. Alle fem unikke forudsigelser er tilsvarende svagt underbyggede:
-
-| Forudsagt indikation | Score | Evidensniveau | Mekanistisk vurdering |
-|------|------|------|------|
-| Trombocytopeni som følge af immundestruktion | 99,53 % | L5 | Ingen kendt IL-5-/eosinofil-mekanisme |
-| Primær frigørelsesforstyrrelse af blodplader | 99,25 % | L5 | Defekt i trombocytters granulesekretion; ingen kendt IL-5-forbindelse |
-| Pseudo-von Willebrands sygdom | 98,98 % | L5 | Aktiverende varianter i GPIbα; ingen plausibel forbindelse til anti-IL-5 |
-| Autoimmun trombocytopeni | 98,89 % | L5 | Sandsynligvis samme eller overlappende entitet som ITP; ingen forbindelse til IL-5-blokade |
-| Glanzmanns trombasteni | 98,62 % | L5 | Arvelig defekt i integrin αIIbβ3; eosinofil depletion forventes ikke at påvirke den |
+Øvrige forudsagte indikationer fra modellen fremstår på samme måde mekanistisk uforklarede: primær frigørelsesdefekt af blodplader, pseudo-von Willebrand sygdom, autoimmun trombocytopeni og Glanzmanns trombasteni. Der er tale om genetiske eller intrinsiske trombocytdefekter eller autoimmune processer uden kendt forbindelse til IL-5.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ikke registreret relevante kliniske forsøg (hverken i ClinicalTrials.gov eller ICTRP).
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er kun fundet én publikation, knyttet til indikationen "primær frigørelsesforstyrrelse af blodplader". Den understøtter ikke forudsigelsen.
+For den primære forudsagte indikation (immunmedieret trombocytopeni) foreligger der ingen relateret litteratur.
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+For den tredje forudsagte indikation (primær frigørelsesdefekt af blodplader) er der identificeret én publikation, som kun giver indirekte kontekst:
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/) | 2010 | Review | Current Medical Research and Opinion | Gennemgang af behandling af hypereosinofilt syndrom, herunder mepolizumab. Omhandler ikke trombocytfrigørelsesforstyrrelser |
-
-For de øvrige forudsagte indikationer foreligger der ingen relateret litteratur.
+| [20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/) | 2010 | Review | Current Medical Research and Opinion | Oversigt over behandling af hypereosinofilt syndrom, herunder mepolizumab (et andet anti-IL-5-lægemiddel). Omhandler eosinofil sygdom og understøtter ikke trombocytindikationerne. |
 
 ---
 
@@ -93,14 +85,13 @@ For de øvrige forudsagte indikationer foreligger der ingen relateret litteratur
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105634315 | Cinqaero (Teva B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i datagrundlaget |
+| 28105634315 | Cinqaero (Teva B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige data om advarsler, kontraindikationer eller interaktioner i datagrundlaget (interaktionssøgningen gav ingen resultater).
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet registrerede interaktioner i de data, der er indsamlet til denne rapport. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -109,14 +100,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller relevant litteratur. Der er ingen biologisk plausibel forbindelse mellem IL-5-blokade og de forudsagte trombocytsygdomme, så den høje score skyldes sandsynligvis et artefakt i vidensgrafen.
+Forudsigelsen bygger udelukkende på en høj modelscore uden kliniske forsøg, uden direkte litteratur og uden plausibel mekanistisk forbindelse mellem IL-5-hæmning og blodpladesygdomme. Evidensniveauet er L5.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af det danske produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation). Dette blokerer i dag sikkerhedsscreeningen.
-- Detaljerede data om virkningsmekanisme (f.eks. via DrugBank) til en egentlig mekanistisk vurdering.
-- Konkret litteratursøgning efter eventuel biologisk sammenhæng mellem IL-5/eosinofile granulocytter og trombocytsygdomme. Uden sådan dokumentation bør kandidaten ikke prioriteres.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen, da sikkerhedsscreening ikke kan gennemføres uden disse
+- Litteratursøgning og prækliniske data, der kan underbygge en mulig rolle for IL-5/eosinofiler i immunmedieret trombocytopeni
+- Godkendt indikationstekst for Cinqaero i Danmark til sammenligning med den oprindelige indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

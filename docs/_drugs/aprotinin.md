@@ -2,7 +2,7 @@
 layout: default
 title: Aprotinin
 parent: Kun modelforudsigelse (L5)
-nav_order: 45
+nav_order: 74
 evidence_level: L5
 indication_count: 0
 ---

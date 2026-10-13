@@ -2,7 +2,7 @@
 layout: default
 title: Atezolizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 49
+nav_order: 82
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atezolizumab: Fra PD-L1-hæmmer til urotelialt karcinom i prostatisk urethra
+# Atezolizumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i prostatiske urethra
 
-## Resumé
+## Sammenfatning
 
-Atezolizumab er en PD-L1-hæmmende antistofbehandling (immunterapi) mod kræft, og præparatet Tecentriq er markedsført i Danmark. TxGNN-modellen forudsiger, at det kan have effekt mod **urotelialt karcinom i prostatisk urethra**. Forudsigelsen understøttes af **2 kliniske forsøg** og **ingen identificerede publikationer** i den foreliggende evidenspakke. Atezolizumab anvendes allerede ved urotelial kræft, så forudsigelsen ligner mere en udvidelse af indikationen end egentlig ny anvendelse af et gammelt lægemiddel.
+Atezolizumab er en PD-L1-hæmmer, som oprindeligt anvendes til behandling af urotelcarcinom (overgangscellekarcinom).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **urotelcarcinom i prostatiske urethra**,
+men evidensen er begrænset til **1 klinisk fase 1b-forsøg** (kombination med cabozantinib) og **ingen publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -41,10 +43,10 @@ Atezolizumab er en PD-L1-hæmmende antistofbehandling (immunterapi) mod kræft, 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske registerdata |
-| Forudsagt ny indikation | Urotelialt karcinom i prostatisk urethra |
+| Oprindelig indikation | Urotelcarcinom (overgangscellekarcinom) (hentet fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Urotelcarcinom i prostatiske urethra |
 | TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L2 (iflg. evidenspakken; det afsluttede fase 2-forsøg er dog enkeltarmet og ikke et RCT, så det ligger tættere på L3 efter reglerne) |
+| Evidensniveau | L5 (kun modelforudsigelse; det eneste forsøg er fase 1b og uden resultater) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -53,54 +55,44 @@ Atezolizumab er en PD-L1-hæmmende antistofbehandling (immunterapi) mod kræft, 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme foreligger ikke i evidenspakken. Atezolizumab er dog kendt som en PD-L1-hæmmer. Ved at blokere PD-L1 genopretter det T-cellernes antitumoraktivitet. Mekanismen er valideret ved urotelial kræft.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Atezolizumab er dog kendt som en PD-L1-hæmmer (checkpoint-hæmmer), og dets effekt ved urotelcarcinom er den oprindelige indikation. Mekanistisk kan det derfor være relevant for beslægtede urotelcarcinomer.
 
-Den prostatiske urethra er beklædt med urotelvæv. Det gør det biologisk plausibelt, at kræft her deler biologi med blærekræft, hvor PD-L1-blokade har et klinisk rationale. De kliniske data omfatter dog blære- eller generelle urotelpopulationer og ikke specifikt sygdom i prostatisk urethra. Sammenhængen er derfor plausibel, men ikke direkte dokumenteret.
+Urotelcarcinom i prostatiske urethra tilhører samme histologiske type som urotelcarcinom i blæren og de øvre urinveje. Blokade af PD-1/PD-L1-aksen er derfor biologisk plausibel. Det er dog vigtigt at understrege, at den meget høje TxGNN-score udelukkende er en beregnet forudsigelse og ikke klinisk evidens.
+
+Modellen peger også på andre beslægtede tumorer, bl.a. sarkomatoid overgangscellekarcinom i nyrebækkenet, sarkomatoid variant af infiltrerende blærecarcinom og papillært urotelcarcinom i nyrebækkenet. For disse foreligger hverken forsøg eller litteratur i de indsamlede data. Forudsigelsen om adenocarcinom i ligamentum uteri har ingen tydelig mekanistisk forbindelse til den oprindelige indikation.
 
 ---
 
 ## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Fase 2 | Afsluttet | 172 | Atezolizumab ved BCG-refraktær, recidiverende non-muskelinvasiv blærekræft. Direkte relevant for urotelial kræft og viser klinisk gennemførlighed. Formentlig enkeltarmet og ikke rettet mod involvering af prostatisk urethra. Relevans: B |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1b | Aktiv, rekrutterer ikke | 914 | Dosiseskalering af cabozantinib alene eller sammen med atezolizumab ved lokalt avancerede eller metastatiske solide tumorer, herunder urotelkræft (blære, nyrebækken, urinleder, urinrør). Kombinationsregime, så atezolizumabs bidrag kan ikke isoleres. Forventet afslutning 2027-09-30. Relevans: C |
-
-Ingen EudraCT-identifikatorer er angivet i evidenspakken.
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1 (1b) | Aktiv, rekrutterer ikke | 914 | Åbent forsøg med dosiseskalering af cabozantinib alene eller i kombination med atezolizumab ved fremskredne solide tumorer, bl.a. urotelcarcinom (blære, nyrebækken, ureter, urethra). Vurderer sikkerhed, tolerabilitet, foreløbig effekt og farmakokinetik. Ingen resultater foreligger i de indsamlede data. |
 
 ---
 
-## Litteraturevidens
+## Denmark Market Information
 
-Der findes ingen relateret litteratur i den foreliggende evidenspakke.
-
----
-
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106870322 | Tecentriq (Roche Registration GmbH) | Injektionsvæske, opløsning | Ikke angivet i data |
-
----
-
-## Cytotoksicitet
-
-| Punkt | Indhold |
-|------|------|
-| Klassifikation | Immunterapi (PD-L1-hæmmende monoklonalt antistof), ikke konventionelt cytotoksisk |
-| Risiko for myelosuppression | Generelt lav som monoterapi. Kan øges i kombination med kemoterapi eller andre midler |
-| Emetogenicitet | Lav |
-| Monitorering | Blodstatus, lever- og nyrefunktion, skjoldbruskkirtelfunktion og blodsukker. Se produktresuméet (SmPC) for immunrelaterede bivirkninger |
-| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering af onkologiske lægemidler. Se SmPC |
-
-Klassifikationen bygger på almen viden om stoffet, da evidenspakken ikke indeholder DrugBank-toksicitetsdata.
+| 28106870322 | Tecentriq (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Bivirknings- og kontraindikationsdata fra Lægemiddelstyrelsens produktinformation mangler i evidenspakken, og der er ikke fundet registrerede lægemiddelinteraktioner.
+**Lægemiddelinteraktioner:** Der er identificeret 75 mulige interaktioner. Blandt de første 20 er følgende klassificeret som **alvorlige (Major)**:
+- Adalimumab
+- Baricitinib
+- Levende BCG-vaccine (Bacillus Calmette-Guérin, Tice-stammen)
+
+Flere interaktioner er klassificeret som **moderate**, bl.a. med:
+- Kortikosteroider (hydrocortison, prednisolon, prednison, methylprednisolon, dexamethason, betamethason, budesonid, triamcinolon, deflazacort)
+- Immunsuppressiva og immunmodulatorer (azathioprin, alemtuzumab, alefacept, anakinra)
+- Roflumilast
+- Vacciner (tetanustoksoid, miltbrandvaccine, adenovirusvaccine)
+
+For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -109,19 +101,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Bivirknings- o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er stærk (score 99,98 %) og biologisk plausibel, og et afsluttet fase 2-forsøg ved urotelial kræft peger i samme retning. Evidensen omfatter dog ikke prostatisk urethra specifikt, og der mangler sikkerhedsdata fra den danske produktinformation. Dette blokerer den videre sikkerhedsvurdering.
+Evidensen for den forudsagte indikation består kun af en høj modelscore og ét fase 1b-forsøg, som tester en kombination og ikke atezolizumab alene. Der er ingen publicerede resultater, og data om advarsler og kontraindikationer mangler, så en sikkerhedsvurdering ikke kan gennemføres.
 
-**For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler, kontraindikationer) fra Lægemiddelstyrelsens produktresumé
-- Data om virkningsmekanisme og oprindelig godkendt indikation, f.eks. fra DrugBank
-- Litteratursøgning efter data specifikt for urotelkræft i prostatisk urethra, evt. subgruppeanalyser fra blære- og øvre urinvejsstudier
-- Afklaring af, om den eksisterende urotelindikation for Tecentriq allerede dækker denne sygdomsmanifestation
-
-**Øvrige forudsagte indikationer** (alle med score over 99,9 %):
-- Papillært urotelkarcinom i nyrebækkenet: evidensniveau L3, støttet kun af fase 1b-kombinationsforsøget NCT03170960.
-- Sarkomatoid transitionalcellekarcinom i nyrebækkenet, sarkomatoid variant af infiltrerende urotelkarcinom i blæren og adenokarcinom i ligamentum latum uteri: kun modelforudsigelse (L5), ingen forsøg eller litteratur, anbefaling Hold.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til nye anvendelser af eksisterende lægemidler kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler og kontraindikationer
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Resultater fra NCT03170960 samt målrettet litteratursøgning for urotelcarcinom i prostatiske urethra
+- Subtypespecifikke data for de øvrige forudsagte indikationer (sarkomatoid og papillær variant)
+- Afklaring af, om den danske godkendelse omfatter den oprindelige indikation (indikationsteksten mangler)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

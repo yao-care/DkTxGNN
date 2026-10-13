@@ -2,7 +2,7 @@
 layout: default
 title: Streptozocin
 parent: Kun modelforudsigelse (L5)
-nav_order: 410
+nav_order: 775
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Streptozocin: Fra pankreas-neuroendokrine tumorer til relapsing-remitting multipel sklerose
+# Streptozocin: Fra originalt anvendelsesområde til relapsing-remitting multipel sklerose
 
-## Resumé i én sætning
+## Resumé
 
-Streptozocin er et alkylerende cytostatikum (nitrosourinstof), som klassisk bruges mod tumorer i bugspytkirtlens øceller. TxGNN-modellen forudsiger, at stoffet kan virke mod **relapsing-remitting multipel sklerose (RRMS)** med en meget høj modelscore. Der er dog **ingen kliniske forsøg** og **ingen relevant litteratur**, og forudsigelsen vurderes som en modelartefakt uden troværdigt biologisk grundlag.
+Streptozocin er et nitrosourea-baseret alkylerende cytostatikum. Det er markedsført i Danmark som Zanosar, og det anvendes ifølge den generelle faglige viden til metastaserende neuroendokrin kræft i bugspytkirtlen (øcellekarcinom). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **relapsing-remitting multipel sklerose** (score 99,97 %), men der er **ingen kliniske forsøg og ingen publikationer** til støtte for denne forudsigelse. Evidensen er udelukkende modelbaseret.
 
 ---
 
@@ -41,8 +41,8 @@ Streptozocin er et alkylerende cytostatikum (nitrosourinstof), som klassisk brug
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske markedsføringstilladelse. Streptozocin anvendes klinisk til pankreas-neuroendokrine tumorer (baseret på almen viden, ikke på evidenspakken). |
-| Foreslået ny indikation | Relapsing-remitting multipel sklerose |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Metastaserende pancreatisk øcellekarcinom er kendt fra generel viden, men ikke fra dataene. |
+| Forudsagt ny indikation | Relapsing-remitting multipel sklerose |
 | TxGNN-forudsigelsesscore | 99,97 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -51,35 +51,33 @@ Streptozocin er et alkylerende cytostatikum (nitrosourinstof), som klassisk brug
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Streptozocin er et DNA-alkylerende nitrosourinstof. Det optages især via GLUT2-transportøren og er derfor selektivt toksisk for betaceller i bugspytkirtlen. Af samme grund bruges det eksperimentelt til at fremkalde diabetes hos forsøgsdyr. Detaljerede mekanismedata (MOA) fra DrugBank mangler i evidenspakken.
+Der foreligger ingen detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Streptozocin er et nitrosourea-alkylerende middel, der optages selektivt i pancreatiske betaceller via GLUT2-transportøren.
 
-Der er **ingen troværdig mekanistisk forbindelse** til RRMS. Streptozocin har ingen kendt immunmodulerende effekt ved multipel sklerose, og dets diabetogene og nefrotoksiske profil taler imod anvendelse i denne sammenhæng. Den høje modelscore skyldes sandsynligvis spredning i videnskabsgrafen (graph propagation) og ikke reel biologi.
+Teoretisk kunne en immunsuppressiv effekt af alkylerende stoffer begrundes i multipel sklerose, som er en immunmedieret sygdom. Der er dog ingen data, der understøtter dette. Samtidig er streptozocins toksicitet (nyretoksicitet, diabetogene effekter og gastrointestinale bivirkninger) betydelig. Det gør en omplacering til MS uhensigtsmæssig sammenlignet med de etablerede sygdomsmodificerende behandlinger.
 
-Den eneste fundne reference nævner streptozotocin kun som redskab til at fremkalde diabetes hos rotter. Det undersøgte lægemiddel i den artikel var fingolimod, som er godkendt til RRMS.
+Den høje modelscore afspejler derfor kun mønstre i vidensgrafen og ikke dokumenteret biologisk eller klinisk sammenhæng.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [28162947](https://pubmed.ncbi.nlm.nih.gov/28162947/) | 2017 | Dyreforsøg (rotte) | The Journal of Sexual Medicine | Fingolimod (FTY720), som er godkendt til RRMS, forbedrede delvist erektil dysfunktion hos rotter med streptozotocin-induceret type 1-diabetes. Streptozotocin er her kun en sygdomsinducerende faktor og ikke et behandlingsmiddel. Artiklen støtter ikke forudsigelsen. |
+Der er på nuværende tidspunkt ingen relateret litteratur for den forudsagte indikation.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105693315 | Zanosar (Esteve Pharmaceuticals S.A.S.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28105693315 | Zanosar (Esteve Pharmaceuticals S.A.S.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
@@ -87,20 +85,23 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (alkylerende nitrosourinstof) |
-| Risiko for myelosuppression | Lav til moderat. En tidlig fase II-publikation beskriver stoffet som "nonmyelosuppressivt", men analoger i samme klasse (f.eks. chlorozotocin) har givet alvorlig trombocytopeni. |
-| Emetogenicitetsklasse | Høj (klassetypisk for streptozocin, ikke dokumenteret i evidenspakken) |
-| Monitorering | Nyrefunktion (særligt vigtig), leverfunktion, blodsukker, fuldt blodbillede og elektrolytter. Se produktresuméet (SmPC). |
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (alkylerende middel af nitrosourea-typen) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC). Vidensgrafen peger dog på leukopeni, trombocytopeni og anæmi som kontraindikationsrelaterede tilstande. |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Overvågningsparametre | Se produktresuméet (SmPC). Typisk relevant: blodtal, nyre- og leverfunktion samt blodsukker. |
 | Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytostatika |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Nefrotoksicitet og diabetogen profil**: Evidenspakkens mekanistiske vurdering peger på, at stoffets nyretoksicitet og diabetogene virkning taler imod anvendelse ved RRMS.
-- Litteraturen i evidenspakken beskriver desuden mælkesyreacidose (case report, 1973) og forværring af diabetes samt kolestatisk gulsot for analogen chlorozotocin.
+- **Kontraindikationer fra vidensgrafen (ikke fra produktresuméet):** Vidensgrafen indeholder kontraindikationsrelationer til bl.a. nyresygdom, leversygdom, galdeblæresygdom, trombocytopeni, leukopeni, anæmi (herunder makrocytær anæmi), blodkoagulationssygdom, diabetes mellitus, diabetisk ketoacidose, infektionssygdomme (herunder svampeinfektion og dermatofytose) og pyoureter.
+- **Lægemiddelinteraktioner:** I alt 100 interaktioner er identificeret. Blandt de vigtigste:
+  - **Alvorlige (Major):** røntgenkontrastmidler (iothalaminsyre, diatrizoat, iopromid, iopamidol, iohexol, iodipamid, iodixanol, ioversol, ioxilan), deferipron og samarium (153Sm) lexidronam.
+  - **Moderate:** palifermin, strontiumchlorid Sr-89, mercaptopurin, roflumilast, chloramphenicol, zidovudin og tetanustoksoid-vaccine.
+  - **Mindre alvorlig (Minor):** levofloxacin.
 
-Fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner findes i det godkendte produktresumé (SmPC) fra Lægemiddelstyrelsen.
+Oplysninger om advarsler og kontraindikationer fra det godkendte produktresumé mangler. Der henvises til det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
 ---
 
@@ -109,14 +110,26 @@ Fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner find
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore (L5) uden kliniske forsøg eller relevant litteratur. Der er ingen plausibel mekanisme ved RRMS, og stoffets toksicitetsprofil er uforenelig med en kronisk immunmodulerende behandling. De øvrige forudsigelser for streptozocin (bl.a. småcellet lungekræft) har kun L3-evidens. De direkte kliniske studier fra 1978-1979 viste ingen respons, så de støtter heller ikke en ny anvendelse.
+Forudsigelsen er alene modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur. Streptozocins betydelige toksicitet og de etablerede alternativer i MS gør en omplacering usandsynlig.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af SmPC fra Lægemiddelstyrelsen (advarsler og kontraindikationer mangler og blokerer sikkerhedsscreening)
-- Mekanismedata (MOA) fra DrugBank
-- Præklinisk evidens for en immunologisk effekt i RRMS-modeller, før videre vurdering overhovedet er relevant
+- Data om virkningsmekanisme og en mekanistisk begrundelse for effekt ved MS
+- Prækliniske data (f.eks. dyremodeller for MS) som minimum
+- Sikkerhedsoplysninger fra det godkendte produktresumé, især vedrørende nyre-, lever- og knoglemarvstoksicitet
+- En vurdering af nytte-risiko i forhold til de eksisterende sygdomsmodificerende MS-behandlinger
 
-*Dette resultat er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser for lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+---
+
+## Øvrige forudsagte indikationer (kort oversigt)
+
+De øvrige forudsigelser har ligeledes svag evidens, og alle anbefales sat på **Hold**:
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Bemærkning |
+|------|------|------|------|
+| Småcellet lungekarcinom | 99,97 % | L4 | Plausibel biologisk sammenhæng via neuroendokrin oprindelse og DNA-alkylering. Kun indirekte evidens: en oversigtsartikel om pancreatiske neuroendokrine tumorer ([PMID 25841679](https://pubmed.ncbi.nlm.nih.gov/25841679/), 2013, Chinese Clinical Oncology) og en præklinisk artikel om 7-hydroxytryptophan i serotoninproducerende tumorer ([PMID 12115345](https://pubmed.ncbi.nlm.nih.gov/12115345/), 2002, Cancer). Ingen kliniske forsøg. |
+| Pulmonalt blastom | 99,97 % | L5 | Ingen forsøg eller litteratur, ingen etableret mekanistisk begrundelse |
+| Velddifferentieret føtal adenokarcinom i lungen | 99,96 % | L5 | Ingen forsøg eller litteratur, ingen påvist mekanistisk basis |
+| Arveligt bryst- og ovariekræftsyndrom | 99,96 % | L5 | Spekulativ begrundelse (nedsat homolog rekombination ved BRCA-mangel), men PARP-hæmmere og platinmidler er etablerede muligheder |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

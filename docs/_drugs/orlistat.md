@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Kun modelforudsigelse (L5)
-nav_order: 323
+nav_order: 612
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Orlistat: Fra lipasehæmmer til hypervitaminose
+# Orlistat: Fra fedme til hypervitaminose
 
-## Resumé
+## Resumé i én sætning
 
-Orlistat er en hæmmer af mave- og bugspytkirtellipaser, som nedsætter optagelsen af fedt fra kosten med ca. 30 %. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hypervitaminose**. Der er dog **ingen kliniske studier og ingen publikationer**, som understøtter forudsigelsen. Evidensniveauet er L5 (kun modelforudsigelse).
+Orlistat er en hæmmer af mave-tarm-lipaser, som oprindeligt anvendes til behandling af fedme (herunder monogen fedme).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hypervitaminose**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -41,6 +43,7 @@ Orlistat er en hæmmer af mave- og bugspytkirtellipaser, som nedsætter optagels
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Fedme (obesity disorder) og monogen fedme. Den danske autorisation indeholder ingen registreret indikationstekst. |
 | Forudsagt ny indikation | Hypervitaminose |
 | TxGNN-forudsigelsesscore | 99,42 % |
 | Evidensniveau | L5 |
@@ -50,21 +53,13 @@ Orlistat er en hæmmer af mave- og bugspytkirtellipaser, som nedsætter optagels
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Orlistat hæmmer mave- og bugspytkirtellipaser og reducerer dermed fedtoptagelsen med ca. 30 %. Det nedsætter også optagelsen af de fedtopløselige vitaminer (A, D, E og K), og mærkningen advarer netop om mangel på disse vitaminer.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er orlistat en hæmmer af lipaser i mave-tarm-kanalen og reducerer optagelsen af fedt fra kosten med ca. 30 %.
 
-Der findes en hypotetisk begrundelse for forudsigelsen. Ved hypervitaminose med et fedtopløseligt vitamin (A eller D) kunne en lavere tarmoptagelse eller mindre enterohepatisk recirkulation teoretisk set mindske vitaminbelastningen.
+Da de fedtopløselige vitaminer (A, D, E og K) optages sammen med kostfedt, nedsætter orlistat også deres optagelse. Der er derfor en plausibel, men rent teoretisk, forbindelse til hypervitaminose af fedtopløselige vitaminer: Mindre optagelse i tarmen kunne i princippet mindske et vitaminoverskud.
 
-Der er flere grunde til at være tilbageholdende:
-
-- Scoren på 0,994 skyldes sandsynligvis en artefakt i vidensgrafen.
-- Orlistats kendte vitaminrelaterede effekt er mangel, ikke overskud.
-- "Hypervitaminose" er en bred betegnelse, som ikke angiver, hvilket vitamin der er tale om.
-- Hypervitaminose behandles normalt ved at stoppe tilskuddet, så der er intet tydeligt uopfyldt behov, som en lipasehæmmer kunne dække.
-- Detaljerede data om virkningsmekanisme og oprindelige indikationer er ikke tilgængelige, så forudsigelsen kan ikke krydstjekkes mod kuraterede lægemiddel-target-data.
-
-Modellen returnerede den samme forudsigelse to gange (rang 1 og 2). Den er kun medtaget én gang her.
+Forbindelsen bør dog tolkes meget forsigtigt. Forudsigelsen bygger kun på modellen, og der findes hverken kliniske forsøg eller litteratur. Orlistats kendte virkning på vitaminstatus er vitaminmangel, som er en bivirkning, der skal håndteres, og ikke en terapeutisk fordel. Hypervitaminose behandles desuden som regel ved at fjerne kilden til vitaminet, så den kliniske merværdi af et lægemiddel er tvivlsom.
 
 ---
 
@@ -84,16 +79,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104222107 | alli (Glaxo Group Ltd) | Kapsler, hårde | Ikke angivet i data |
+| 28104222107 | alli (Glaxo Group Ltd) | Kapsler, hårde | Ingen indikationstekst registreret |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Lægemiddelinteraktioner:** Der blev ikke fundet interaktionsdata i søgningen.
-- **Vitaminoptagelse:** Ifølge mekanismen kan orlistat nedsætte optagelsen af fedtopløselige vitaminer (A, D, E, K), og mærkningen advarer om mangel.
+- **Sygdomme, der i videnbasen er markeret som kontraindikationer** (fra TxGNN-videnbasen, ikke fra produktresuméet): leversvigt, primær hyperoxaluri, anorexia nervosa, bulimia nervosa, vitaminmangeltilstande, kolestase (herunder godartet recidiverende og familiær intrahepatisk kolestase) samt lægemiddelinduceret leverskade.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 interaktioner. De først viste er hovedsageligt af moderat grad, fx med abacavir, lamivudin, emtricitabin, atazanavir, acarbose, albiglutid, alogliptin, metformin, canagliflozin, chlorpropamid, amiodaron, cannabidiol, clofarabin, brentuximab vedotin og asparaginase-præparater. Interaktioner med D-vitamin-forbindelser (cholecalciferol, calcifediol, calcitriol) er af mindre grad.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om sikkerhed.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -102,16 +97,14 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg eller litteratur. Den kendte farmakologiske effekt (nedsat vitaminoptagelse) giver heller ikke et klart klinisk behov for orlistat ved hypervitaminose.
+Forudsigelsen er kun modelbaseret (L5) uden kliniske forsøg eller litteratur. Orlistats kendte effekt på fedtopløselige vitaminer er en bivirkning (mangel), og den kliniske nytte ved hypervitaminose er usikker, da tilstanden normalt løses ved at ophøre med vitamintilførsel.
 
 **For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da sikkerhedsscreening ikke kan gennemføres uden disse data
-- Data om virkningsmekanisme (f.eks. via DrugBank API)
-- Præcisering af, hvilken hypervitaminose (A, D eller andet) der menes
-- Prækliniske eller mekanistiske studier, der kan understøtte hypotesen
-- En litteratur- og forsøgssøgning målrettet de specifikke vitaminer
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA)
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Prækliniske eller observationelle data, der viser en målbar og klinisk relevant reduktion af vitaminniveauer
+- Vurdering af det kliniske behov sammenlignet med standardbehandling (ophør med vitamintilskud)
+- Vurdering af risikoen for vitaminmangel og leverpåvirkning i den tilsigtede population
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

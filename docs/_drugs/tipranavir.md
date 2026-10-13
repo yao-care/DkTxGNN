@@ -2,7 +2,7 @@
 layout: default
 title: Tipranavir
 parent: Kun modelforudsigelse (L5)
-nav_order: 438
+nav_order: 834
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,90 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tipranavir: Fra HIV-1-infektion til simian immundefektvirus-infektion
+# Tipranavir: Fra HIV-infektion til simian immundefektvirus-infektion
 
 ## Resumé i én sætning
 
-Tipranavir er en ikke-peptidisk HIV-1-proteasehæmmer, som bruges til behandling af HIV-1-infektion hos behandlingserfarne patienter.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion (SIV)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
-SIV er en sygdom hos aber og ikke en human indikation, så forudsigelsen er kun modelbaseret.
-
----
+Tipranavir er en ikke-peptidisk HIV-1-proteasehæmmer, der oprindeligt anvendes til behandling af HIV-infektion og AIDS.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion** (en dyremodelsygdom),
+men der er i de data, der er indsamlet til denne rapport, **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Simian immundefektvirus-infektion (SIV) |
+| Oprindelig indikation | HIV-infektion og AIDS (fra vidensgrafen; Lægemiddelstyrelsens godkendte indikationstekst er ikke tilgængelig) |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion |
 | TxGNN-forudsigelsesscore | 99,99 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Det oprindelige indikationsfelt i datagrundlaget er tomt. Den oprindelige indikation er derfor udledt af lægemidlets kendte anvendelse som HIV-1-proteasehæmmer.
+## Hvorfor er denne forudsigelse rimelig?
 
----
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Tipranavir er dog kendt som en ikke-peptidisk HIV-1-proteasehæmmer, der blokerer spaltningen af virussets Gag-Pol-polyprotein. SIV er en nært beslægtet lentivirus med en homolog protease, så forudsigelsen er biologisk plausibel.
 
-## Hvorfor er forudsigelsen rimelig?
+Det er vigtigt at bemærke, at SIV-infektion er en sygdom i dyremodeller og ikke har direkte klinisk overførselsværdi til mennesker. Følsomheden over for hæmmere kan desuden afvige mellem SIV-protease og HIV-1-protease. Forudsigelsen er derfor primært relevant som præklinisk modelkontekst.
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i datagrundlaget. Tipranavir er dog en ikke-peptidisk HIV-1-proteasehæmmer, som gives sammen med ritonavir. Proteasen i SIV er homolog med HIV-proteasen, så der er et biologisk rationale for, at tipranavir kan hæmme virusset.
+### Øvrige forudsagte indikationer
 
-SIV er en primatmodel for lentivirale infektioner og ikke en sygdom hos mennesker. Forudsigelsen siger derfor mere om biologisk slægtskab mellem virus end om en ny klinisk anvendelse. Der er hverken fundet forsøg eller litteratur, og scoren på 99,99 % er alene en grafbaseret forudsigelse.
+Modellen forudsagde også andre indikationer. Ingen af dem har understøttende forsøg eller litteratur:
 
-Modellen har også foreslået andre kandidater. De er alle vurderet som Hold:
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Felint erhvervet immundefektsyndrom (kat) | 99,99 % | L5 | Veterinær indikation uden klinisk relevans for mennesker. FIV-protease har andre substratspecificiteter, og mange HIV-proteasehæmmere har nedsat aktivitet. |
+| Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikalt hvidt stof | 99,99 % | L5 | Ingen troværdig mekanistisk sammenhæng; sandsynligvis en artefakt i vidensgrafen. Tipranavir har begrænset CNS-penetration og en boks-advarsel om intrakraniel blødning. |
+| Forældet term: familiær kombineret hyperlipidæmi | 99,93 % | L5 | Lægemidlet forværrer snarere lipidforstyrrelser (forhøjede triglycerider og kolesterol). |
+| AIDS-relateret kompleks | 99,83 % | L4 | Historisk betegnelse for symptomatisk HIV-infektion. Dækkes af den eksisterende indikation, så det er ikke reel repurposing. |
+| Medfødt HIV | 99,83 % | L4 | Udvidelse af den eksisterende indikation til en bestemt population. Der er pædiatrisk mærkning fra 2-årsalderen hos behandlingserfarne patienter, men evidens for nyfødte mangler. |
 
-- **Felint erhvervet immundefektsyndrom (FIV):** en veterinær lentivirussygdom. Krydsreaktivitet med FIV-protease er tænkelig, men ikke verificeret, og FIV-proteasen adskiller sig fra HIV-1-proteasen i substratspecificitet.
-- **Neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans:** der er ingen plausibel mekanistisk sammenhæng. Den høje score skyldes sandsynligvis en artefakt i vidensgrafen.
-- **Forældet betegnelse for familiær kombineret hyperlipidæmi:** HIV-proteasehæmmere, herunder tipranavir med ritonavir, er kendt for at give dyslipidæmi. Forudsigelsen afspejler sandsynligvis en bivirkningsassociation og ikke en terapeutisk effekt.
-- **AIDS-relateret kompleks og kongenit HIV:** begge er i praksis dækket af den eksisterende HIV-1-indikation og er ikke egentlig repurposing. De er klassificeret som forskningsspørgsmål (L4). For kongenit HIV blev der fundet ni registrerede forsøg, men ingen af dem kan bekræftes at evaluere tipranavir. De ser ud til at omhandle andre antiretrovirale midler, bl.a. dolutegravir, cabotegravir og rilpivirin.
+## Evidens fra kliniske forsøg
 
----
-
-## Klinisk evidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for tiden ingen relateret litteratur tilgængelig.
 
----
+## Information om markedet i Danmark
 
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103745604 | Aptivus | Kapsler, bløde | Boehringer Ingelheim Int. GmbH |
-
-Tekst om godkendt indikation er ikke tilgængelig i datagrundlaget.
-
----
+| 28103745604 | Aptivus (Boehringer Ingelheim Int. GmbH) | Bløde kapsler | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er ikke fundet registrerede interaktioner i den anvendte kilde. Det er ikke det samme som, at der ingen er.
-- **Kendte risici nævnt i vurderingen:** Der er omtalt boxed warnings for hepatotoksicitet og intrakraniel blødning samt risiko for dyslipidæmi (forhøjede triglycerider og kolesterol) ved brug sammen med ritonavir.
+- **Sygdomme markeret som kontraindikationer i vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke fra produktresumeets tekst): leversvigt, leversygdom, galdeblæresygdom, hyperglykæmi, diabetes mellitus, diabetisk ketoacidose, kronisk hepatitis C- og B-virusinfektion, hepatitis C-virusinfektion, hepatitis, blodkoagulationsforstyrrelser, hæmofili (inkl. symptomatisk form hos kvindelige bærere), hypertriglyceridæmi, hyperbilirubinæmi (inkl. arvelig form og Gilberts syndrom), skade, hjernekræft/hjernetumor og intrakraniel blødning.
+- **Lægemiddelinteraktioner** (100 registrerede; et udvalg vises):
+  - **Større interaktioner:** acetylsalicylsyre, eluxadolin.
+  - **Moderate interaktioner:** antidiabetika (acarbose, albiglutid, alogliptin, metformin, pioglitazon, canagliflozin, chlorpropamid, dapagliflozin, dulaglutid, empagliflozin, linagliptin), loperamid, dexamethason, cholsyre, clarithromycin, magnesiumoxid, eliglustat og topikalt metronidazol.
 
-Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
+Konsultér det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer, da disse ikke er tilgængelige i de indsamlede data.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensniveauet er L5, altså kun modelforudsigelse. De højest rangerede forudsigelser omhandler dyresygdomme (SIV, FIV) eller er sandsynligvis artefakter eller bivirkningsassociationer. De humane kandidater overlapper med den eksisterende HIV-1-indikation, og tipranavir har desuden en begrænset rolle i dag og alvorlige boxed warnings.
+Forudsigelsen for simian immundefektvirus-infektion bygger udelukkende på modelforudsigelse (L5) uden forsøg eller litteratur og vedrører en dyremodelsygdom uden direkte klinisk anvendelse hos mennesker. Tipranavirs sikkerhedsprofil (leverskade, intrakraniel blødning, mange interaktioner) kræver desuden, at en eventuel ny anvendelse er veldokumenteret.
 
-**For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation (blokerende datahul)
-- Data om virkningsmekanisme fra DrugBank
-- Tipranavir-specifikke forsøg eller litteratur for en eventuel human kandidat, f.eks. kongenit HIV
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
+- Præklinisk evidens for aktivitet mod SIV-protease, hvis dyremodelspor ønskes forfulgt
+- Vurdering af, om de mere klinisk relevante forudsigelser (AIDS-relateret kompleks, medfødt HIV) blot er omformuleringer af den eksisterende indikation, samt data for nyfødte før eventuel overvejelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

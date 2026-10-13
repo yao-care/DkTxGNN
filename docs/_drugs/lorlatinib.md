@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 271
+nav_order: 509
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lorlatinib: Fra ALK-positiv lungekræft til gingival fibromatose
+# Lorlatinib: Fra ikke-småcellet lungekræft til gingival fibromatose
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Lorlatinib er en tredjegenerations ALK/ROS1-tyrosinkinasehæmmer, der anvendes til ALK-positiv ikke-småcellet lungekræft (NSCLC). Danske godkendelsestekster er ikke tilgængelige i datagrundlaget, så den oprindelige indikation er udledt af litteraturen.
-TxGNN-modellen forudsiger, at lorlatinib kan have effekt ved **gingival fibromatose** (tandkødsvækst), men der findes **0 kliniske forsøg** og **0 publikationer** for denne indikation. Forudsigelsen er derfor ren modelforudsigelse.
+Lorlatinib er en ALK/ROS1-tyrosinkinasehæmmer, der oprindeligt anvendes til behandling af ikke-småcellet lungekræft (NSCLC).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **gingival fibromatose** (score 99,8 %), men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte denne forudsigelse. Den er udelukkende baseret på en grafbaseret beregning.
 
 ---
 
@@ -42,7 +42,7 @@ TxGNN-modellen forudsiger, at lorlatinib kan have effekt ved **gingival fibromat
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | ALK-positiv ikke-småcellet lungekræft (udledt af litteraturen, da godkendelsesteksten i den danske registrering er tom) |
+| Oprindelig indikation | Ikke-småcellet lungekræft (NSCLC) / lungekræft (ifølge videngrafen; indikationsteksten i de danske markedsføringstilladelser er tom) |
 | Forudsagt ny indikation | Gingival fibromatose |
 | TxGNN-forudsigelsesscore | 99,81 % |
 | Evidensniveau | L5 |
@@ -52,35 +52,35 @@ TxGNN-modellen forudsiger, at lorlatinib kan have effekt ved **gingival fibromat
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ud fra kendt information er lorlatinib en makrocyklisk ALK/ROS1-tyrosinkinasehæmmer. Dens effekt ved ALK- og ROS1-drevet lungekræft er dokumenteret.
+Der foreligger ikke i øjeblikket detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Lorlatinib er en tredjegenerations ALK/ROS1-tyrosinkinasehæmmer, hvis effekt er veldokumenteret ved ALK-positiv og ROS1-positiv NSCLC.
 
-Analysen finder **ikke** noget rimeligt biologisk link til gingival fibromatose, som er en overvækst af fibroblaster i tandkødet. De leverede data understøtter ikke en ALK/ROS1-afhængig mekanisme ved denne tilstand. Den høje score (99,81 %) skyldes sandsynligvis en artefakt i videngrafen, ikke en dokumenteret farmakologisk sammenhæng.
+Der er ikke påvist nogen plausibel biologisk sammenhæng mellem ALK/ROS1-hæmning og gingival fibromatose. Gingival fibromatose er en fibrotisk tilstand i tandkødet og er ikke kendt som drevet af ALK- eller ROS1-fusioner. Den høje score afspejler sandsynligvis mønstre i videngrafen frem for en specifik mekanisme.
 
-Forudsigelsen bør derfor ikke tillægges klinisk vægt uden uafhængig biologisk begrundelse.
+Det samme gælder de øvrige højtscorende forudsigelser i data: lungefibrom og lungehamartom (begge godartede, og systemisk kinasehæmmerbehandling er normalt ikke indiceret) samt godartet lungeneoplasma, hvor litteraturen reelt handler om den allerede godkendte maligne indikation.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for gingival fibromatose.
 
 ---
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur for gingival fibromatose.
+
+*Bemærkning om andre forudsigelser:* For "lungehilus-karcinom" fandtes én case-rapport ([PMID 37934724](https://pubmed.ncbi.nlm.nih.gov/37934724/), 2023, The American Journal of Case Reports) om patologisk komplet respons efter neoadjuverende lorlatinib ved avanceret ALK-positiv lungekræft. Dette er en udvidelse af den eksisterende NSCLC-indikation og ikke en ny sygdom. For "godartet lungeneoplasma" omhandler de fundne artikler (bl.a. fase 3-studiet CROWN, [PMID 33207094](https://pubmed.ncbi.nlm.nih.gov/33207094/)) den godkendte maligne indikation og kan ikke tillægges som evidens for godartede tumorer.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106062518 | Lorviqua | Filmovertrukne tabletter (oral) | Pfizer Europe MA EEIG |
-
-Godkendelsesteksten med indikation er ikke angivet i den danske registrering i datagrundlaget.
+| 28106062518 | Lorviqua (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de tilgængelige data |
 
 ---
 
@@ -88,17 +88,25 @@ Godkendelsesteksten med indikation er ikke angivet i den danske registrering i d
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (ALK/ROS1-tyrosinkinasehæmmer) |
-| Knoglemarvssuppression | Se produktresuméet (SmPC) |
+| Cytotoksicitetsklassifikation | Målrettet behandling (tyrosinkinasehæmmer, ALK/ROS1) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
 | Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se SmPC. Litteraturen i datagrundlaget omtaler et særskilt bivirkningsprofil for lorlatinib, som kræver aktiv håndtering |
-| Håndteringsbeskyttelse | Se SmPC og lokale retningslinjer for håndtering af cancerlægemidler |
+| Overvågningspunkter | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+
+Der henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** Der er identificeret 100 potentielle interaktioner. Blandt de viste er følgende af alvorlig (Major) grad:
+  - Dexamethason
+  - Clarithromycin
+
+  Øvrige viste interaktioner er af moderat grad, bl.a. hydrocortison, triamcinolon, betamethason, bupropion, aprepitant, morfin, cimetidin, dapagliflozin, empagliflozin, saxagliptin, linagliptin, glimepiride, chlorpropamid, alosetron, dronabinol, eliglustat, naldemedin og naloxegol.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -107,19 +115,13 @@ Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget. Se i 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for gingival fibromatose hviler udelukkende på modelscoren (evidensniveau L5), uden forsøg, uden litteratur og uden plausibel mekanisme. Tilsvarende gælder for forudsigelserne om fibrom i lunge og hamartom i lunge.
+Forudsigelsen for gingival fibromatose er rent beregningsbaseret (L5), uden kliniske forsøg, uden litteratur og uden plausibel mekanistisk forbindelse til ALK/ROS1-hæmning. Den høje score alene udgør ikke et repurposing-signal.
 
-Øvrige forudsigelser i datapakken (dubletter er sammenlagt):
-- **Lungehilus-karcinom** (evidensniveau L4): Understøttes kun af en enkelt case-rapport fra 2023 (PMID 37934724) om patologisk komplet respons efter neoadjuverende lorlatinib ved ALK-positiv lungekræft. Det gælder en ALK-positiv undergruppe, ikke hilus-karcinom generelt. Anbefalingen er "Forskningsspørgsmål".
-- **Benign lungeneoplasi** (evidensniveau L4, Hold): De 20 fundne artikler omhandler malign ALK/ROS1-positiv NSCLC, herunder fase 3-studiet CROWN. De er ikke evidens for benigne tumorer og skyldes sandsynligvis en ontologi-artefakt.
-
-**For at komme videre kræves:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé hos Lægemiddelstyrelsen, hvilket er en blokerende datamangel
-- Virkningsmekanisme (MOA) fra DrugBank
-- Eventuelt en uafhængig biologisk begrundelse for en rolle for ALK/ROS1 ved gingival fibromatose, før der investeres yderligere
-- Hvis der ønskes opfølgning, bør fokus ligge på lungehilus-karcinom i en ALK-positiv undergruppe
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) og en biologisk begrundelse for en rolle i gingival fibromatose
+- Præklinisk evidens eller en systematisk litteratursøgning specifikt for sygdommen
+- Gennemgang af advarsler og kontraindikationer fra det danske produktresumé (SmPC), som mangler i de nuværende data
+- Vurdering af, om systemisk kinasehæmmerbehandling overhovedet er rimelig ved en godartet tilstand, set i forhold til lorlatinibs bivirkningsprofil
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

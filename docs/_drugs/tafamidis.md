@@ -2,7 +2,7 @@
 layout: default
 title: Tafamidis
 parent: Kun modelforudsigelse (L5)
-nav_order: 416
+nav_order: 788
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tafamidis: Fra transthyretin-amyloidose til primær frigivelsesforstyrrelse af blodplader
+# Tafamidis: Fra amyloidose til primær release-defekt i blodplader
 
 ## Resumé i én sætning
 
-Tafamidis er en stabilisator af transthyretin (TTR) og bruges til behandling af transthyretin-amyloidose. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**. Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og der er ikke identificeret nogen plausibel mekanistisk forbindelse.
+Tafamidis er en transthyretin (TTR)-stabilisator, som oprindeligt anvendes til behandling af transthyretin-amyloidose. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær release-defekt i blodplader** (score 89,3 %), men der er **ingen kliniske forsøg og ingen publikationer** til støtte for denne retning. Forudsigelsen er rent beregningsbaseret.
 
 ---
 
@@ -41,81 +41,71 @@ Tafamidis er en stabilisator af transthyretin (TTR) og bruges til behandling af 
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) |
-| TxGNN-forudsigelsesscore | 89,27 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Oprindelig indikation | Amyloidose (herunder ATTR-amyloidose). Der foreligger ingen godkendt indikationstekst for det danske produkt i de indsamlede data. |
+| Forudsagt ny indikation | Primær release-defekt i blodplader |
+| TxGNN-forudsigelsesscore | 89,3 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Evidence Pack'en indeholder ingen godkendt indikationstekst fra Lægemiddelstyrelsen. Tafamidis' oprindelige anvendelsesområde (transthyretin-amyloidose) er hentet fra evidensens begrundelsestekst.
+Andre forudsigelser med lignende scorer er trombocytopenisk purpura (88,7 %), pseudo-von Willebrands sygdom (87,9 %) og Glanzmanns trombasteni (85,8 %). Alle er L5 uden kliniske forsøg eller litteratur. "Primær amyloidose" (85,0 %) ligger inden for lægemidlets oprindelige indikationsområde og er derfor ikke ægte repurposing.
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata fra DrugBank mangler. Ifølge evidensen virker tafamidis ved at binde sig til thyroxin-bindingsstederne på TTR-tetrameren og stabilisere den kinetisk. Det bremser opdelingen i monomerer, som er det hastighedsbestemmende trin i dannelsen af amyloide fibriller.
+Tafamidis binder sig til thyroxin-bindingsstederne i TTR-tetrameren og stabiliserer den. Dermed forhindres tetrameren i at dissociere til amyloidogene monomerer. Det gælder både vildtype og muterede TTR-strukturer. Mekanismen er veldokumenteret ved ATTR-amyloidose, hvor den kan reducere kardiovaskulær dødelighed og indlæggelser hos patienter med kardiomyopati.
 
-Der er **ingen plausibel mekanistisk forbindelse** mellem TTR-stabilisering og frigivelse af blodpladegranula. Forudsigelsen er sandsynligvis en artefakt i vidensgrafen, skabt af fælles naboknuder. Den har ingen støtte i kliniske data eller litteratur.
+For blodpladelidelserne er der **ingen kendt mekanistisk forbindelse**. Primær release-defekt i blodplader vedrører defekt blodpladesekretion. Glanzmanns trombasteni skyldes defekt integrin αIIbβ3 (ITGA2B/ITGB3). Pseudo-von Willebrands sygdom skyldes en gain-of-function-defekt i GPIb-alfa. Trombocytopenisk purpura har immunologiske eller trombotiske mekanismer. Ingen af disse har en påvist sammenhæng med TTR-stabilisering. Forudsigelsen kan skyldes nærhed i vidensgrafen (netværksartefakt) snarere end biologisk sammenhæng.
+
+Data for den oprindelige virkningsmekanisme fra DrugBank mangler. Ovenstående beskrivelse bygger på farmakologiske data i det indsamlede materiale.
 
 ---
 
-## Klinisk evidens
+## Klinisk forsøgsevidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
+
+---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur for den forudsagte indikation (primær release-defekt i blodplader).
 
----
-
-## Øvrige forudsigelser
-
-Evidence Pack'en indeholder dubletter (rang 1/2, 3/4, 5/6, 7/8 og 9/10 er identiske). Efter fjernelse af dubletter er der fem unikke forudsigelser:
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Beslutning | Kommentar |
-|------|------|------|------|------|
-| Primær frigivelsesforstyrrelse af blodplader | 89,27 % | L5 | Hold | Ingen mekanistisk forbindelse |
-| Trombocytopenisk purpura | 88,73 % | L5 | Hold | TTR-stabilisering er ikke relateret til immunologiske eller trombotiske veje |
-| Pseudo-von Willebrand sygdom | 87,88 % | L5 | Hold | Skyldes en GPIb-alfa-defekt, som tafamidis ikke påvirker |
-| Glanzmanns trombasteni | 85,79 % | L5 | Hold | Skyldes en integrin αIIb/β3-defekt, som tafamidis ikke påvirker |
-| Primær amyloidose | 85,00 % | L1 | Proceed with Guardrails | Se nedenfor |
-
-### Primær amyloidose: den eneste forudsigelse med evidens
-
-Evidensen gælder kun **transthyretin-amyloidose (ATTR)**. Betegnelsen "primær amyloidose" i vidensgrafen er tvetydig, fordi den klinisk oftest betyder AL-amyloidose (lette kæder). Her har tafamidis ingen evidens, da forstadiet til amyloid er et andet protein. Tafamidis er desuden allerede markedsført til ATTR, så resultatet er snarere et on-label-fund end reel lægemiddelomdirigering. Anbefalingen må **ikke** udvides til AL-amyloidose.
-
-**Udvalgte forsøg med direkte evidens (relevansgrad A):**
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT05489523](https://clinicaltrials.gov/study/NCT05489523) | Fase 4 | Rekrutterer | 25 | Åbent studie af tafamidis (sikkerhed, effekt, farmakokinetik) ved ATTR efter hjertetransplantation |
-| [NCT04828993](https://clinicaltrials.gov/study/NCT04828993) | Fase 4 | Afsluttet | 15 | Enkeltarmet studie af tafamidis meglumin ved ATTR-polyneuropati i Kina |
-| [NCT00630864](https://clinicaltrials.gov/study/NCT00630864) | Fase 2 | Afsluttet | 21 | Fx-1006A (tafamidis): TTR-stabilisering og kliniske resultater ved non-V30M ATTR |
-
-**Udvalgt litteratur:**
+For fuldstændighedens skyld findes der litteratur for "primær amyloidose", som dog handler om ATTR-amyloidose, dvs. lægemidlets oprindelige indikation:
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [30145929](https://pubmed.ncbi.nlm.nih.gov/30145929/) | 2018 | RCT (ATTR-ACT) | N Engl J Med | Tafamidis ved transthyretin-amyloid kardiomyopati; reduceret dødelighed og kardiovaskulære indlæggelser |
-| [41282536](https://pubmed.ncbi.nlm.nih.gov/41282536/) | 2025 | Netværks-metaanalyse | Eur Heart J Open | Sammenligning af tafamidis, acoramidis, patisiran og vutrisiran ved ATTR-kardiomyopati |
-| [41334760](https://pubmed.ncbi.nlm.nih.gov/41334760/) | 2025 | Kohortestudie | J Am Heart Assoc | Tafamidis reducerer død og indlæggelser hos patienter ≥80 år |
-| [31407119](https://pubmed.ncbi.nlm.nih.gov/31407119/) | 2019 | Review | Clin Auton Res | Tafamidis ved autonom neuropati ved arvelig ATTR |
+| [30145929](https://pubmed.ncbi.nlm.nih.gov/30145929/) | 2018 | RCT (fase 3, ATTR-ACT) | N Engl J Med | Tafamidis ved transthyretin-amyloid kardiomyopati |
+| [41282536](https://pubmed.ncbi.nlm.nih.gov/41282536/) | 2025 | Netværksmetaanalyse | Eur Heart J Open | Relativ effekt af tafamidis, acoramidis, patisiran og vutrisiran ved ATTR-kardiel amyloidose |
+| [40889572](https://pubmed.ncbi.nlm.nih.gov/40889572/) | 2025 | Systematisk review og metaanalyse | J Card Fail | Harmonisering af fase 3-placebokontrollerede forsøg ved ATTR-CM |
+| [41334760](https://pubmed.ncbi.nlm.nih.gov/41334760/) | 2025 | Kohortestudie | J Am Heart Assoc | Tafamidis reducerer død og hospitalisering for akut hjertesvigt hos patienter ≥80 år |
+| [41317156](https://pubmed.ncbi.nlm.nih.gov/41317156/) | 2025 | Real-world kohorte | Eur J Heart Fail | Fænotype og prognose ved vildtype ATTR-CM behandlet med tafamidis |
+| [38441582](https://pubmed.ncbi.nlm.nih.gov/38441582/) | 2024 | Review | JAMA | Oversigt over kardiel amyloidose på grund af transthyretin |
+| [39213194](https://pubmed.ncbi.nlm.nih.gov/39213194/) | 2025 | RCT (vutrisiran, ikke tafamidis) | N Engl J Med | Vutrisiran ved ATTR-CM |
+
+Bemærk: "Primær amyloidose" svarer klassisk til AL-amyloidose (let kæde), hvor TTR-stabilisering ikke har en etableret mekanisme. Litteraturen understøtter ATTR og ikke AL.
 
 ---
 
-## Markedsinformation for Danmark
+## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106220519 | Vyndaqel | Kapsler, bløde | Pfizer Europe MA EEIG |
+| 28106220519 | Vyndaqel (Pfizer Europe MA EEIG) | Kapsler, bløde | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer) mangler i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC).
+
+**Lægemiddelinteraktioner** (13 poster, heraf 12 fra DDInter):
+- **Alvorlig (Major):** ozanimod
+- **Moderat:** rosuvastatin, deferasirox, eltrombopag, lusutrombopag, artesunat, axitinib, methotrexat, irinotecan (inkl. liposomal), belinostat og imatinib
+
+Mange af de moderate interaktioner vedrører stoffer, der påvirker transportere (f.eks. BCRP), men dette er ikke bekræftet i de indsamlede data. Kontrollér altid i SmPC.
 
 ---
 
@@ -124,15 +114,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation (primær frigivelsesforstyrrelse af blodplader) bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller mekanistisk forbindelse. De øvrige blodpladerelaterede forudsigelser er lige så uunderbyggede. Den eneste forudsigelse med evidens (ATTR-amyloidose) er en eksisterende indikation, ikke en ny.
+Forudsigelsen for primær release-defekt i blodplader og de øvrige blodpladelidelser er udelukkende grafbaseret (L5), uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse til TTR-stabilisering. Den eneste forudsigelse med litteratur ("primær amyloidose") dækker lægemidlets eksisterende indikation og er ikke en reel ny anvendelse.
 
-**For at komme videre kræves følgende:**
-- Et biologisk rationale for en forbindelse mellem TTR-stabilisering og blodpladefunktion, f.eks. præklinisk eller mekanistisk evidens
-- Fuldstændige mekanismedata (MOA) fra DrugBank
-- Sikkerhedsdata fra det danske produktresumé (SmPC) hos Lægemiddelstyrelsen
-- Tydeliggørelse af, at den forudsagte "primære amyloidose" kun omfatter ATTR og ikke AL-amyloidose
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk evidens for en rolle for TTR eller tafamidis i blodpladefunktion
+- En kritisk gennemgang af, om forudsigelsen blot er en netværksartefakt
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet for Vyndaqel fra Lægemiddelstyrelsen (manglende data er markeret som blokerende for sikkerhedsscreening)
+- Afklaring af, om forudsigelsen "primær amyloidose" skal betragtes som ATTR (eksisterende indikation) eller AL (ingen mekanistisk støtte)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

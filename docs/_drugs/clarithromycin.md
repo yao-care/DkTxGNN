@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clarithromycin
-parent: Moderat evidens (L3-L4)
-nav_order: 115
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 202
+evidence_level: L5
 indication_count: 10
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clarithromycin: Fra bakterielle infektioner til hyperamylasæmi
+# Clarithromycin: Fra bakterielle luftvejsinfektioner til hyperamylasæmi
 
-## Resumé
+## Resumé i én sætning
 
-Clarithromycin er et makrolid-antibiotikum, som normalt bruges mod bakterielle infektioner. Den præcise indikationstekst er ikke oplyst i datagrundlaget.
-TxGNN-modellen forudsiger, at det kan have effekt på **hyperamylasæmi**, men støtten er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt kasuistik).
+Clarithromycin er et makrolid-antibiotikum, der oprindeligt anvendes til bakterielle infektioner, bl.a. mellemørebetændelse, lungebetændelse og bihulebetændelse. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hyperamylasæmi**, men understøttelsen er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt case-rapport, hvor clarithromycin ikke er undersøgt som behandling af tilstanden).
 
 ---
 
@@ -42,10 +41,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **hyperamylasæmi**, men s
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget (makrolid-antibiotikum mod bakterielle infektioner) |
+| Oprindelig indikation | Bakterielle infektioner, bl.a. infektiøs otitis media, streptokok- og stafylokokinfektioner, bakteriel pneumoni, maksillær sinuitis, Mycoplasma pneumoniae-pneumoni (kilde: indikationer i TxGNN-vidensgrafen, da den danske godkendelse ikke angiver indikationstekst) |
 | Forudsagt ny indikation | Hyperamylasæmi |
 | TxGNN-forudsigelsesscore | 99,35 % |
-| Evidensniveau | L4 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -54,39 +53,53 @@ TxGNN-modellen forudsiger, at det kan have effekt på **hyperamylasæmi**, men s
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen. Clarithromycin er et makrolid-antibiotikum med kendte immunmodulerende egenskaber. Dets effekt ved bakterielle infektioner er veldokumenteret.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanisme. Clarithromycin tilhører makrolidgruppen, hvis effekt ved bakterielle infektioner er veldokumenteret, men der er ikke påvist en mekanistisk sammenhæng til hyperamylasæmi.
 
-Der er ikke identificeret nogen plausibel mekanisme, der kobler clarithromycin til nedsættelse af serumamylase. Den eneste refererede artikel er en kasuistik om en lungeinfektion med *Mycobacterium abscessus* hos en patient med primær makroamylasæmi. Clarithromycin er sandsynligvis givet som antimikrobiel behandling. Amylaseforhøjelsen ser ud til at være et samtidigt fund og ikke et behandlingsmål.
+Hyperamylasæmi er et laboratoriefund og ikke en selvstændig sygdom, og makrolider er ikke kendt for at sænke amylaseniveauet. Den høje score (0,993) er en beregnet modelforudsigelse uden klinisk støtte og kan skyldes artefakter i vidensgrafen.
 
-Den høje score (0,993) er alene en forudsigelse fra videngrafen og ikke et udtryk for klinisk effekt.
+Den eneste fundne publikation beskriver en patient med lungeinfektion med *Mycobacterium abscessus* og samtidig primær makroamylasæmi. Clarithromycin indgår her tilsyneladende kun som antimykobakteriel behandling af infektionen, ikke som behandling af forhøjet amylase.
+
+Andre forudsagte indikationer fra modellen har samme svaghed. Punktformet epitelial keratokonjunktivitis (score 99,1 %) har en indirekte plausibilitet, da makrolider har antiinflammatoriske egenskaber og anvendes ved meibomsk kirteldysfunktion. Der er dog ikke påvist direkte evidens for clarithromycin.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Kasuistik | Nihon Kokyuki Gakkai zasshi | Lungeinfektion med *M. abscessus* hos en 76-årig mand, kompliceret af primær makroamylasæmi. Ingen holdepunkter for, at clarithromycin sænker amylase. |
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case-rapport | Nihon Kokyuki Gakkai Zasshi | 76-årig mand med lungeinfektion med *M. abscessus* og samtidig primær makroamylasæmi. Ingen evidens for, at clarithromycin behandler hyperamylasæmi. |
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107108924 | Clarithromycin 1A Pharma (2care4 ApS) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28107108924 | Clarithromycin 1A Pharma (2care4 ApS) | Filmovertrukne tabletter (oral) | Indikationstekst foreligger ikke i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer og sygdomme med risiko (fra vidensgrafen, ikke fra produktresuméet):**
+- Hjerterytme: langt QT-syndrom, torsades de pointes, ventrikulær takykardi (inkl. katekolaminerg polymorf)
+- Lever og galde: leversvigt, leversygdom, galdeblæresygdom, kolestase (inkl. benign recidiverende og familiær intrahepatisk)
+- Stofskifte: porfyri (inkl. arvelig)
+- Nyre: nyresygdom, pyoureter
+- Knogler: osteoporose (inkl. postmenopausal), knoglebrud
+- Mave-tarm: *Clostridium difficile*-kolitis, perinatal nekrotiserende enterokolitis
+- Neuromuskulært: myasthenia gravis (inkl. voksendebuterende), sygdomme i den neuromuskulære overgang
+- Infektioner: infektiøs mononukleose, kronisk Epstein-Barr-virusinfektionssyndrom
+
+**Lægemiddelinteraktioner:** Der blev fundet 100 interaktioner. Eksempler på alvorlige (Major): abemaciclib, fentanyl og acalabrutinib. Moderate omfatter bl.a. paclitaxel, tramadol, nifedipin, abirateron, ethinylestradiol og hydrocortison. Minor omfatter bl.a. dolutegravir, zidovudin og loratadin.
+
+Der henvises til det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
 
 ---
 
@@ -95,16 +108,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg og kun én kasuistik, hvor sammenhængen sandsynligvis er tilfældig. Der er ingen plausibel mekanisme, og den høje TxGNN-score er en ren modelforudsigelse.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg og uden mekanistisk grundlag. Den eneste publikation er en case-rapport, hvor clarithromycin ikke er undersøgt mod hyperamylasæmi. Hyperamylasæmi er desuden et laboratoriefund frem for en behandlingsmæssig sygdomsmålgruppe.
 
-**For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med indikationer, advarsler og kontraindikationer
-- Data om virkningsmekanisme fra DrugBank
-- Prækliniske eller kliniske data, der understøtter en effekt på amylaseniveauet
-
-**Bemærkning:** Blandt de øvrige forudsigelser i Evidence Pack er *punctate epithelial keratoconjunctivitis* (score 99,11 %, evidensniveau L3) mere plausibel. Makrolider anvendes ved meibomitis-relateret keratokonjunktivitis. Artiklen (PMID 38472959, 2024) er dog kun vurderet ud fra titel og uddrag. Det er ikke bekræftet, at clarithromycin er undersøgt specifikt, og den bør læses i fuldtekst, før en vurdering kan foretages.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (mangler, og er afgørende for sikkerhedsvurdering)
+- Evt. vurdering af den indirekte hypotese for punktformet epitelial keratokonjunktivitis, herunder gennemgang af PMID 38472959 for at afklare, om clarithromycin overhovedet er undersøgt
+- Systematisk litteratursøgning og prækliniske data, hvis hypotesen skal forfølges
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Pazopanib
 parent: Kun modelforudsigelse (L5)
-nav_order: 334
+nav_order: 634
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pazopanib: Fra nyrecellekarcinom til nyrecellekarcinom associeret med neuroblastom
+# Pazopanib: Fra nyrecellekarcinom og sarkom til liposarkom
 
-## Resumé i én sætning
+## Resumé
 
-Pazopanib er en oral multi-target tyrosinkinasehæmmer (VEGFR/PDGFR/c-Kit), som allerede anvendes ved nyrecellekarcinom (RCC).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **nyrecellekarcinom associeret med neuroblastom**, men der er **0 kliniske forsøg** og **0 publikationer** for netop denne diagnose.
-Den høje score afspejler sandsynligvis det overordnede RCC-knudepunkt i modellen og ikke diagnosespecifik evidens. For andre forudsagte indikationer (liposarkom, uklassificeret RCC) findes der væsentlig mere evidens, se nedenfor.
+Pazopanib er en tyrosinkinasehæmmer, der oprindeligt anvendes til behandling af nyrecellekarcinom og bløddelssarkom.
+TxGNN-modellen forudsiger, at lægemidlet også kan være virksomt ved **liposarkom** (score 99,59 %),
+og der foreligger **6 kliniske forsøg** (heraf 2 specifikt i liposarkom) og **20 publikationer** på området.
+Det er den forudsigelse med den stærkeste evidens blandt de forudsagte indikationer i de data, der er sammenstillet til denne rapport.
 
 ---
 
@@ -43,92 +44,63 @@ Den høje score afspejler sandsynligvis det overordnede RCC-knudepunkt i modelle
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Nyrecellekarcinom associeret med neuroblastom |
-| TxGNN-forudsigelsesscore | 99,63 % |
-| Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Oprindelig indikation | Nyrecellekarcinom og bløddelssarkom (hentet fra videnbasen; indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 99,59 % |
+| Evidensniveau | L2 (kun fase 2-studier; ingen fase 3 specifikt i liposarkom) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
-Datasættet indeholder ingen godkendt indikationstekst fra Lægemiddelstyrelsen, og den oprindelige indikation fremgår derfor ikke.
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i datasættet. Pazopanib er en multi-target tyrosinkinasehæmmer, der hæmmer VEGFR-1/2/3, PDGFR og c-Kit. Den antiangiogene mekanisme er velkendt ved RCC generelt.
-
-Neuroblastom-associeret RCC er en meget sjælden ontologi-term. Det er sandsynligt, at modellens score arves fra moderknudepunktet (RCC) og ikke bygger på data om denne specifikke diagnose. Mekanistisk kan VEGFR-hæmning være relevant, men der foreligger ingen direkte data, og forudsigelsen bør derfor betragtes som en hypotese.
-
-Den samme vurdering gælder for **RCC associeret med Xp11.2-translokationer/TFE3-genfusioner**. Her er antiangiogen behandling plausibel, men der er hverken forsøg eller litteratur.
+Bemærk: De øvrige forudsagte indikationer (subtyper af nyrecellekarcinom og pædiatrisk nyrecellekarcinom) har enten kun modelforudsigelse (L5, Hold) eller retrospektive data (L3, forskningsspørgsmål). De er kort omtalt til sidst.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Hvorfor er forudsigelsen rimelig?
 
-For den primære forudsagte indikation (RCC associeret med neuroblastom) er der aktuelt ingen relaterede kliniske forsøg registreret.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Ud fra almen viden er pazopanib en multi-målrettet hæmmer af VEGFR-1/2/3, PDGFR og c-Kit. Den hæmmer dermed nydannelse af blodkar (angiogenese) og tumorvækst. Lægemidlet har dokumenteret effekt ved nyrecellekarcinom og er allerede godkendt til visse bløddelssarkomer.
 
-### Forsøg for øvrige forudsagte indikationer
+Liposarkom er en bløddelssarkom-type, og den antiangiogene mekanisme er derfor biologisk relevant. Der er dog en vigtig begrænsning: Liposarkom (den adipocytiske subtype) blev udelukket fra det afgørende fase 3-studie (PALETTE) på grund af begrænset aktivitet. Fase 2-data, herunder et liposarkomspecifikt studie (PMID 31010343), tyder på nogen aktivitet ved intermediær/højgradigt liposarkom, men resultaterne er beskedne og afhænger af histologisk undertype.
 
-Tabellen viser de mest relevante pazopanib-forsøg for de øvrige forudsagte indikationer i datasættet. Forsøg med andre lægemidler (regorafenib, INT230-6) er udeladt.
+---
 
-| Forsøgsnummer | Indikation | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|------|---------|
-| [NCT01613846](https://clinicaltrials.gov/study/NCT01613846) | Uklassificeret RCC | Fase 3 | Afsluttet | 544 | Sekventiel behandling: sorafenib efterfulgt af pazopanib versus pazopanib efterfulgt af sorafenib ved avanceret/metastatisk RCC. Ikke specifikt for uklassificeret histologi. |
-| [NCT01575548](https://clinicaltrials.gov/study/NCT01575548) | Børne-nyrecellekarcinom | Fase 3 | Aktiv, rekrutterer ikke | 129 | Pazopanib versus placebo (dobbeltblindet) ved metastatisk RCC uden tegn på sygdom efter metastasektomi. Pædiatrisk population er ikke bekræftet. |
-| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Liposarkom | Fase 2 | Afsluttet | 42 | Pazopanib som monoterapi ved ikke-operabelt eller metastatisk liposarkom. |
-| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Liposarkom | Fase 2 | Afsluttet | 52 | Aktivitet og tolerabilitet af pazopanib ved avanceret/metastatisk liposarkom efter standardbehandling. |
-| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Liposarkom (bløddelssarkom) | Fase 2 | Afsluttet | 54 | Randomiseret, dobbeltblindet: gemcitabin med eller uden pazopanib ved refraktært bløddelssarkom. |
-| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Liposarkom (bløddelssarkom) | Fase 2 | Afsluttet | 178 | Pazopanib kombineret med oral topotecan ved metastatiske, ikke-resektable bløddels- og knoglesarkomer. |
-| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Liposarkom (bløddelssarkom) | Fase 2/3 | Aktiv, rekrutterer ikke | 140 | Randomiseret neoadjuverende forsøg (PAZNTIS): præoperativ kemoradioterapi eller strålebehandling med eller uden pazopanib. |
-| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Liposarkom (bløddelssarkom) | Fase 1/2 | Rekrutterer | 139 | Risikotilpasset studie med vedligeholdelses-pazopanib ved non-rhabdomyosarkom bløddelssarkom. |
+## Klinisk evidens
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Fase 2 | Afsluttet | 42 | Pazopanib alene ved ikke-opererbart eller metastatisk liposarkom (direkte på indikation) |
+| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Fase 2 | Afsluttet | 52 | Aktivitet og tolerabilitet ved fremskreden/metastatisk sarkom efter standardbehandling |
+| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Fase 2 | Afsluttet | 178 | Pazopanib med oral topotecan ved metastatiske, ikke-opererbare bløddels- og knoglesarkomer |
+| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Fase 2/3 | Afsluttet | 140 | Randomiseret præoperativ behandling (PAZNTIS) ved non-rhabdomyosarkom bløddelssarkom, strålebehandling ± pazopanib |
+| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Fase 2 | Afsluttet | 54 | Randomiseret, dobbeltblindet: gemcitabin ± pazopanib ved refraktært bløddelssarkom |
+| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Fase 1/2 | Rekrutterer | 139 | Risikotilpasset vedligeholdelsesbehandling med pazopanib ved non-rhabdomyosarkom bløddelssarkom (overvejende børn og unge voksne) |
+
+Kun to af forsøgene (NCT01506596 og NCT01692496) er rettet mod liposarkom eller fremskredne sarkomer med liposarkom som mulig undergruppe. De øvrige er bredere bløddelssarkomstudier, hvor liposarkom muligvis indgår.
 
 ---
 
 ## Litteraturevidens
 
-For den primære forudsagte indikation findes der aktuelt ingen relateret litteratur. Tabellen viser et udvalg for de øvrige forudsagte indikationer, med randomiserede og kontrollerede studier først.
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [33355646](https://pubmed.ncbi.nlm.nih.gov/33355646/) | 2021 | Randomiseret fase 2 (PAPAGEMO) | JAMA Oncology | Pazopanib med eller uden gemcitabin ved antracyklin- og/eller ifosfamid-refraktært bløddelssarkom. |
-| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | Fase 2 | British Journal of Cancer | Pazopanib med oral topotecan ved metastatiske og ikke-resektable bløddels- og knoglesarkomer. |
-| [28832986](https://pubmed.ncbi.nlm.nih.gov/28832986/) | 2017 | Fase 2, enkeltarmet | Cancer | Prospektivt studie af pazopanib ved avanceret liposarkom af intermediær eller høj grad. |
-| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | Kommentar til fase 2 | The Lancet Oncology | Pazopanib ved avanceret liposarkom. |
-| [28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/) | 2018 | Fase 2, enkeltarmet | Cancer Research and Treatment | Effekt og sikkerhed af pazopanib ved metastatisk non-clear cell RCC. |
-| [28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/) | 2017 | Retrospektiv kohorte (PANORAMA) | Clinical Genitourinary Cancer | Italiensk multicenterstudie af førstelinje-pazopanib ved non-clear cell RCC. |
-| [27568124](https://pubmed.ncbi.nlm.nih.gov/27568124/) | 2017 | Retrospektiv kohorte | Clinical Genitourinary Cancer | Behandlingsresultater for pazopanib ved metastatisk non-clear cell RCC. |
-| [31921344](https://pubmed.ncbi.nlm.nih.gov/31921344/) | 2019 | Kohorte (real-world) | Ecancermedicalscience | Sammenligning af sunitinib og pazopanib som førstelinje ved non-clear cell og sarkomatoid RCC. |
-| [41558869](https://pubmed.ncbi.nlm.nih.gov/41558869/) | 2026 | Retrospektiv kohorte | European Urology Oncology | IMDC-data om førstelinjebehandling ved metastatisk non-clear cell RCC, herunder uklassificeret RCC. |
-| [30060824](https://pubmed.ncbi.nlm.nih.gov/30060824/) | 2018 | Case/præklinisk (PDOX-model) | Tissue & Cell | Doxorubicin-resistent pleomorf liposarkom med PDGFRA-amplifikation regredierede på pazopanib i musemodel. |
+| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Fase 2-studie/oversigt | Expert Opin Investig Drugs | Pazopanib ved fremskredent intermediært eller højgradigt liposarkom |
+| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | Kommentar | Lancet Oncol | Pazopanib ved fremskredent liposarkom |
+| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | Fase 2 | Br J Cancer | Pazopanib med oral topotecan ved metastatiske, ikke-opererbare sarkomer |
+| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Oversigtsartikel | Curr Treat Options Oncol | Systemiske behandlingsmuligheder ved dedifferentieret liposarkom |
+| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Oversigtsartikel | Oncol Res Treat | Etablerede og eksperimentelle behandlinger ved fremskredent liposarkom |
+| [37298520](https://pubmed.ncbi.nlm.nih.gov/37298520/) | 2023 | Oversigtsartikel | Int J Mol Sci | Behandling af dedifferentieret liposarkom i immunterapiens tidsalder |
+| [28547734](https://pubmed.ncbi.nlm.nih.gov/28547734/) | 2017 | Oversigtsartikel | Adv Ther | Optimal brug af pazopanib, trabectedin og eribulin ved bløddelssarkom |
+| [30060824](https://pubmed.ncbi.nlm.nih.gov/30060824/) | 2018 | Præklinisk | Tissue Cell | Pleomorft liposarkom med PDGFRA-amplifikation regredierede på pazopanib i musemodel |
+| [36890471](https://pubmed.ncbi.nlm.nih.gov/36890471/) | 2023 | Protokol | BMC Cancer | Randomiseret fase 2-studie (JCOG1802) af trabectedin, eribulin og pazopanib som andenlinjebehandling |
+| [27434055](https://pubmed.ncbi.nlm.nih.gov/27434055/) | 2016 | Oversigtsartikel | Cancer | Kemoterapi ved bløddelssarkom |
 
 ---
 
-## Oversigt over alle forudsagte indikationer
+## Markedsinformation i Danmark
 
-Datasættet indeholder fem unikke forudsagte indikationer, som hver optræder to gange på listen.
-
-| Indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| RCC associeret med neuroblastom | 99,63 % | L5 | Hold |
-| RCC associeret med Xp11.2-translokationer/TFE3-genfusioner | 99,63 % | L5 | Hold |
-| Uklassificeret RCC | 99,63 % | L3 | Proceed with Guardrails |
-| Liposarkom | 99,59 % | L2 | Proceed with Guardrails |
-| Børne-nyrecellekarcinom | 99,54 % | L4 | Forskningsspørgsmål (Research Question) |
-
-**Forbehold for de to indikationer med mest evidens:**
-- **Liposarkom:** Adipocytær histologi blev udeladt fra den centrale godkendelse ved bløddelssarkom på grund af begrænset aktivitet. De publicerede fase 2-data er beskedne og heterogene. Anvendelse bør begrænses til forsøg eller udvalgte tilfælde (f.eks. PDGFRA-drevne tumorer) efter multidisciplinær vurdering.
-- **Uklassificeret RCC:** Evidensen er hovedsageligt retrospektive kohorter og ét enkeltarmet fase 2-studie. Der er ingen randomiserede data for denne subtype.
-
----
-
-## Information om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent | Godkendt indikation |
-|---------|------|------|------|-----------|
-| 28106801522 | Pazopanib "Accord" | Filmovertrukne tabletter | Accord Healthcare B.V. | Ikke oplyst i datasættet |
-
-Administrationsvej: oral.
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106801522 | Pazopanib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter (oral) | Indikationstekst foreligger ikke i de sammenstillede data |
 
 ---
 
@@ -136,35 +108,52 @@ Administrationsvej: oral.
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Målrettet behandling (multi-target tyrosinkinasehæmmer) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitet | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitorering | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Klassifikation | Målrettet behandling (tyrosinkinasehæmmer), ikke konventionel cytotoksisk kemoterapi |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC). Leverfunktion og blodtryk er relevante ud fra den vurdering, der ligger til grund for forbeholdene (se nedenfor) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der foreligger ingen produkttekst om advarsler og kontraindikationer i de sammenstillede data. Der henvises til det godkendte produktresumé (SmPC).
+
+**Kontraindikationer fra videnbasen (ikke produkttekst):** Videnbasen angiver bl.a. følgende sygdomme som kontraindikationer eller områder med forsigtighed: hypertension, langt QT-syndrom og torsades de pointes, leversvigt og lægemiddelinduceret leverskade, hyperbilirubinæmi (inkl. Gilberts syndrom), hypothyroidisme, myokardieinfarkt, intracerebral blødning, aktivt mavesår, pancreatitis, proteinuri og diarré. Disse oplysninger bør verificeres mod SmPC.
+
+**Lægemiddelinteraktioner** (100 registreret i alt; udvalgte vist):
+- **Alvorlige (Major):** famotidin, ranitidin, cimetidin, omeprazol, esomeprazol, rabeprazol, dexlansoprazol (syrehæmmere kan nedsætte optagelsen), clarithromycin, dolasetron
+- **Moderate:** pioglitazon, loperamid, aprepitant, dexamethason, budesonid, bisacodyl, magnesiumoxid, polyethylenglycol, saxagliptin, eliglustat
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold** (for den primære forudsagte indikation, RCC associeret med neuroblastom)
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Der er hverken kliniske forsøg eller litteratur for denne ekstremt sjældne diagnose, og den høje modelscore skyldes sandsynligvis arv fra det overordnede RCC-knudepunkt. Evidensniveauet er L5. For uklassificeret RCC og liposarkom er der evidens, og de vurderes som *Proceed with Guardrails*.
+Liposarkom har den stærkeste evidens blandt de forudsagte indikationer (L2, afsluttede fase 2-studier, heriblandt to liposarkomspecifikke). Aktiviteten er dog beskeden og afhænger af undertype, og liposarkom blev udeladt fra det afgørende fase 3-studie.
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation), da sikkerhedsscreening ikke kan gennemføres uden disse data
-- Hent virkningsmekanismedata fra DrugBank
-- Søg efter case reports eller registerdata for RCC associeret med neuroblastom og for Xp11.2/TFE3-RCC
-- Undersøg, om fase 3-forsøget NCT01575548 omfatter en pædiatrisk population, før børne-RCC vurderes yderligere
-- Lav en histologispecifik vurdering for liposarkom og uklassificeret RCC i et multidisciplinært team under onkologisk supervision
+**For at komme videre kræves:**
+- Histologiinformeret patientudvælgelse (fx ikke-dedifferentieret eller ikke-adipocytisk kontekst) og sammenligning med etablerede behandlinger
+- Monitorering af levertoksicitet og hypertension
+- Gennemgang af resultaterne fra NCT01506596 og NCT01692496 samt indhentning af SmPC for advarsler, kontraindikationer og indikationstekst
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Gennemgang af interaktioner, især med syrehæmmere og CYP3A4-hæmmere
 
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomdefinering skal valideres klinisk, før de kan anvendes. Forudsigelserne kræver klinisk verifikation.*
+---
+
+## Øvrige forudsagte indikationer (kort)
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
+|------|------|------|------|
+| Ikke-klassificeret nyrecellekarcinom | 99,63 % | L3 | Forskningsspørgsmål: retrospektive kohorter, real-world data og ét enkeltarmet fase 2-studie ved non-clear-cell RCC (fx [PMID 28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/), [PMID 28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/)); ingen randomiserede studier |
+| Nyrecellekarcinom med neuroblastom | 99,63 % | L5 | Hold: kun modelforudsigelse |
+| Nyrecellekarcinom med Xp11.2/TFE3-fusion | 99,63 % | L5 | Hold: kun modelforudsigelse |
+| Nyrecellekarcinom hos børn | 99,54 % | L5 | Hold: kun modelforudsigelse; pædiatrisk sikkerhed og dosering er ikke belyst |
+
+Flere af disse forudsigelser optrådte to gange med identisk indhold i de sammenstillede data og er her kun opført én gang.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

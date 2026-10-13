@@ -2,7 +2,7 @@
 layout: default
 title: Bimekizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 66
+nav_order: 117
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bimekizumab: Fra manglende registreret indikation til diabetisk grå stær
+# Bimekizumab: Fra uspecificeret oprindelig indikation til diabetisk katarakt
 
-## Et-sætnings-resumé
+## Opsummering i én sætning
 
-Bimekizumab er et humaniseret monoklonalt antistof, der neutraliserer IL-17A og IL-17F. Den oprindelige godkendte indikation fremgår ikke af de tilgængelige data.
-TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen er udelukkende beregningsbaseret.
+Bimekizumab er et monoklonalt antistof, der neutraliserer IL-17A, IL-17F og IL-17AF. Den oprindelige godkendte indikation fremgår ikke af de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
 
 ---
 
@@ -42,9 +41,9 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (di
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i datagrundlaget |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-forudsigelsesscore | 98,23 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,2 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -52,53 +51,39 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (di
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i Evidence Pack. Ud fra almen farmakologisk viden neutraliserer bimekizumab de pro-inflammatoriske cytokiner IL-17A og IL-17F.
+Bimekizumab er et monoklonalt antistof, der selektivt neutraliserer IL-17A, IL-17F og IL-17AF. Der foreligger ingen detaljerede data om lægemidlets oprindelige virkningsmekanisme i de indsamlede data, og den oprindelige indikation er heller ikke registreret. Derfor kan sammenhængen mellem den oprindelige og den nye indikation ikke vurderes.
 
-Et muligt, men rent hypotetisk, led er, at IL-17-drevet lavgradig inflammation har været impliceret i diabetiske komplikationer. Der foreligger ingen direkte evidens for, at dette gælder linsen eller grå stær. De anerkendte drivere af diabetisk grå stær er polyolvejen og oxidativt stress, som bimekizumab ikke påvirker.
+Diabetisk katarakt skyldes primært forstyrrelser i polyolvejen, oxidativt stress og glykering af linseproteiner. Der er ikke dokumenteret nogen oplagt mekanistisk forbindelse til IL-17-hæmning. Det er tænkeligt, at IL-17-drevet inflammation spiller en rolle ved diabeteskomplikationer, men det er spekulativt og understøttes ikke af nogen af de foreliggende data.
 
-Den høje score (0,982) afspejler sandsynligvis nærhed i vidensgrafen snarere end biologisk eller klinisk støtte.
-
-### Øvrige forudsagte indikationer
-
-Modellen forudsagde også flere andre former for grå stær, alle med score på ca. 98,1 % og evidensniveau L5. Dubletter i inputtet er slået sammen.
-
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Moden grå stær (mature cataract) | 98,12 % | Ingen plausibel mekanisme; overvejende strukturel og degenerativ proces |
-| Umoden grå stær (immature cataract) | 98,12 % | Ingen kendt sammenhæng mellem IL-17A/F-hæmning og tidlig linseopacitet |
-| Type 2-diabetes-associeret grå stær | 98,12 % | Kun indirekte og hypotetisk via inflammation; polyolvej og oxidativt stress er de kendte drivere |
-| Tetanisk grå stær (tetanic cataract) | 98,12 % | Skyldes hypokalcæmi; ingen forbindelse til IL-17A/F-hæmning |
-| Kraniostenose-associeret grå stær | 98,12 % | Sjælden syndromatisk (genetisk) form; ingen identificeret mekanistisk forbindelse |
+Forudsigelsen hviler udelukkende på modellens score. De øvrige forudsagte indikationer er alle kataraktformer (moden, umoden, tetanisk, kraniostenotisk og katarakt forbundet med type 2-diabetes) med score omkring 98,1 %. Heller ikke her findes der klinisk eller litterær støtte. Dubletter i de oprindelige forudsigelser er slået sammen i denne rapport.
 
 ---
 
-## Klinisk evidens
+## Kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Information om markedet i Danmark
+## Litteratur
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106478120 | Bimzelx (UCB Pharma S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke angivet i datagrundlaget |
+| MA 28106478120 | Bimzelx (UCB Pharma S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der blev ikke fundet interaktionsdata (DDI) for lægemidlet.
-
-Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der henvises til den godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data.
 
 ---
 
@@ -107,18 +92,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller en plausibel mekanistisk forklaring. Ingen af de forudsagte grå stær-indikationer har biologisk støtte, og sikkerhedsgrundlaget er ikke gennemgået.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), uden kliniske forsøg eller publikationer og uden dokumenteret mekanistisk sammenhæng mellem IL-17A/F-hæmning og kataraktudvikling. Sikkerhedsdata fra produktresuméet mangler desuden i grundlaget.
 
 **For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), hvilket blokerer den videre sikkerhedsscreening
-- Detaljerede data om virkningsmekanisme (f.eks. via DrugBank)
-- Bekræftelse af den oprindelige godkendte indikation for Bimzelx
-- Præklinisk eller mekanistisk evidens for en rolle for IL-17A/F i linsepatologi
-- Vurdering af administrationsvej: bimekizumab gives som subkutan injektion, og egnetheden til en øjenindikation er ikke afklaret
-
----
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
+- Detaljerede data om virkningsmekanisme (f.eks. fra DrugBank)
+- Præklinisk eller mekanistisk evidens for IL-17-rollen i linseopacitet og diabetiske øjenkomplikationer
+- Litteratursøgning og søgning efter kliniske forsøg i øvrigt, der kan understøtte eller afkræfte forudsigelsen
+- En vurdering af relevant administrationsvej og målpopulation (subkutan injektion vs. øjenspecifik behandling)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

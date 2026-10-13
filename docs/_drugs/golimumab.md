@@ -2,7 +2,7 @@
 layout: default
 title: Golimumab
 parent: Moderat evidens (L3-L4)
-nav_order: 212
+nav_order: 398
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Golimumab: Fra inflammatoriske gigtsygdomme til reumatoid vaskulitis
+# Golimumab: Fra psoriasisgigt og leddegigt til reumatoid vaskulitis
 
-## Resumé
+## Opsummering i én sætning
 
-Golimumab er en fuldt human monoklonal antistof mod TNF-α og anvendes ved inflammatoriske gigtsygdomme som reumatoid artritis, psoriasisartritis og ankyloserende spondylitis. TxGNN-modellen forudsiger, at det også kan have effekt ved **reumatoid vaskulitis**. Forudsigelsen er dog **ikke understøttet af direkte klinisk evidens**: de tre fundne forsøg handler ikke om vaskulitis, og litteraturen består primært af case-rapporter og oversigter.
+Golimumab er et TNF-alfa-hæmmende monoklonalt antistof, der oprindeligt anvendes til inflammatoriske ledsygdomme som psoriasisgigt, leddegigt og Bechterews sygdom samt til colitis ulcerosa.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid vaskulitis**, men der er **ingen direkte kliniske forsøg og ingen direkte litteratur**, der understøtter denne retning.
+Evidensen for den forudsagte indikation er således kun modelbaseret og mekanistisk.
 
 ---
 
@@ -41,11 +43,11 @@ Golimumab er en fuldt human monoklonal antistof mod TNF-α og anvendes ved infla
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata. Litteraturen beskriver godkendelse til reumatoid artritis, psoriasisartritis og ankyloserende spondylitis |
-| Foreslået ny indikation | Reumatoid vaskulitis |
-| TxGNN-score | 99,73 % |
+| Oprindelig indikation | Psoriasisgigt, leddegigt, Bechterews sygdom, colitis ulcerosa og inflammatorisk tarmsygdom (fra videngrafen; godkendelsesteksten for det danske produkt er ikke angivet i de indsamlede data) |
+| Forudsagt ny indikation | Reumatoid vaskulitis |
+| TxGNN-forudsigelsesscore | 99,73 % |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -53,50 +55,59 @@ Golimumab er en fuldt human monoklonal antistof mod TNF-α og anvendes ved infla
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i evidenspakken. Golimumab er dog en TNF-α-hæmmer, og TNF-α-blokade er veletableret ved reumatoid artritis. Reumatoid vaskulitis er en ekstraartikulær komplikation til reumatoid artritis, så det er biologisk plausibelt, at TNF-hæmning kan være relevant.
+Detaljerede data om virkningsmekanismen er i øjeblikket ikke tilgængelige i de indsamlede data. Golimumab er dog et fuldt humant monoklonalt antistof, der neutraliserer TNF-alfa. TNF-alfa er en central cytokin ved leddegigt, og lægemidlets effekt ved leddegigt er veldokumenteret.
 
-Evidensen peger imidlertid også den anden vej. Et case-studie beskriver Takayasus arteritis, der opstod under anti-TNF-behandling (PMID 22999907). Det er et paradoksalt signal, der taler imod hypotesen. Ingen forsøg har undersøgt vaskulitis som effektmål. Den høje TxGNN-score er derfor kun en modelforudsigelse og bør ikke tolkes som klinisk dokumentation.
+Reumatoid vaskulitis er en alvorlig ekstraartikulær komplikation til leddegigt, som især ses hos seropositive patienter. Da TNF-alfa også spiller en rolle ved vaskulær inflammation, er der et mekanistisk grundlag for, at TNF-hæmning kunne være relevant. Forekomsten af reumatoid vaskulitis er desuden faldet efter introduktionen af biologiske lægemidler, herunder TNF-hæmmere.
+
+Der er dog vigtige forbehold. Reumatoid vaskulitis er en selvstændig tilstand, og der er ikke fundet direkte evidens for golimumab. Desuden er der beskrevet paradoksale tilfælde af vaskulitis under TNF-hæmmerbehandling, f.eks. to tilfælde af Takayasus arteritis, der opstod under behandling med TNF-hæmmere. Det udgør en sikkerhedsmæssig bekymring.
 
 ---
 
 ## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | Ikke angivet (observationelt) | Afsluttet | 184 | Ikke-interventionel undersøgelse hos patienter med reumatoid artritis. Handler om RA, ikke vaskulitis. Titlen nævner tocilizumab, så forsøgets relevans for golimumab bør verificeres |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | Ikke angivet (observationelt) | Ukendt | 750.000 | Registerstudie af risiko for nye immunmedierede inflammatoriske sygdomme under biologisk behandling. Risikoanalyse, ikke et behandlingsforsøg ved vaskulitis |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer endnu ikke | 80 | Håndtering af immunsuppressiv behandling før skulderkirurgi hos reumatologiske patienter. Ikke relateret til effekt ved vaskulitis |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering af immunsuppressiv behandling hos reumatologiske patienter før skulderprotese. Tester ikke golimumab ved vaskulitis og har ingen relevans for effekt. |
 
-Alle tre forsøg er vurderet som lav relevans (grad C).
+Der er ikke fundet EudraCT-numre i de indsamlede data.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netværksmetaanalyse af 36 RCT'er | Int J Mol Sci | Originale og biosimilære TNF-hæmmere, herunder golimumab, reducerer ledskader ved RA. Omhandler ikke vaskulitis |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Oversigtsartikel | BMC Med | Opdatering om biologisk behandling af autoimmune sygdomme, inkl. ulemper som omkostninger og bivirkninger |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case-rapport | Rheumatol Int | Pyoderma gangrenosum og pyogen artritis med svær sepsis hos RA-patient i golimumab-behandling. Rapporten nævner, at reumatoid vaskulitis er blevet sjældnere efter introduktionen af anti-TNF |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case-rapport | Joint Bone Spine | To tilfælde af Takayasus arteritis opstået under anti-TNF-behandling, et paradoksalt signal |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case-rapport | Ocul Immunol Inflamm | Behçet-associeret uveitis behandlet med golimumab med succes. Relateret vaskulitis-lignende sygdom, men ikke reumatoid vaskulitis |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Kohortestudie | Semin Arthritis Rheum | Forekomst og årsager til terminal nyresvigt hos RA-patienter. Kun indirekte relevant |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case report | Rheumatology International | Pyoderma gangrenosum og pyogen artritis med svær sepsis hos en patient med leddegigt behandlet med golimumab. Omtaler reumatoid vaskulitis som baggrund. |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netværksmetaanalyse | Int J Mol Sci | Originale og biosimilære TNF-hæmmere reducerer i samme grad ledødelæggelse ved leddegigt. |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Oversigtsartikel | BMC Medicine | Opdatering om biologisk behandling af autoimmune sygdomme, herunder ulemper og bivirkninger. |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Oversigtsartikel | Semin Arthritis Rheum | Terminal nyresvigt hos patienter med leddegigt: hyppighed, årsager og behandling. |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case report | Ocul Immunol Inflamm | Behçet-associeret uveitis behandlet med succes med golimumab. |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case report | Joint Bone Spine | To tilfælde af Takayasus arteritis, der opstod under TNF-hæmmerbehandling. |
+
+Ingen af publikationerne undersøger direkte golimumab ved reumatoid vaskulitis.
 
 ---
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107264224 | Gobivaz (Advanz Pharma Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i data |
+| 28107264224 | Gobivaz (Advanz Pharma Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i evidenspakken (advarsler, kontraindikationer og interaktioner mangler). Se den godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke tilgængelige data om advarsler eller kontraindikationer fra produktresuméet. Videngrafen indeholder ingen registrerede kontraindikationer.
 
-Litteraturen rejser dog generelle opmærksomhedspunkter for TNF-hæmmere: øget infektionsrisiko, immunogenicitet og de ovennævnte paradoksale vaskulitis-lignende tilfælde.
+**Lægemiddelinteraktioner** (der er registreret 100 interaktioner; her vises et udvalg fra de første 20):
+- **Alvorlige (Major):** kortikosteroiderne hydrocortison, triamcinolon (inkl. oftalmisk), dexamethason, betamethason, budesonid, prednison og prednisolon, samt deferipron, iobenguan (I-131), ibritumomab tiuxetan, tositumomab og tositumomab (I-131).
+- **Moderate:** metronidazol, tinidazol, rosuvastatin og simvastatin.
+- **Mindre (Minor):** zinksulfat, zinkacetat og zinkglukonat.
+
+Den kliniske betydning bør vurderes i produktresuméet.
+
+Derudover er der i litteraturen beskrevet paradoksal vaskulitis under TNF-hæmmerbehandling, hvilket bør indgå i risikovurderingen.
 
 ---
 
@@ -105,21 +116,15 @@ Litteraturen rejser dog generelle opmærksomhedspunkter for TNF-hæmmere: øget 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensniveauet er L4. Der findes ingen forsøg med vaskulitis som effektmål, og case-rapporter om arteritis under anti-TNF-behandling taler imod hypotesen. Den høje TxGNN-score (99,73 %) er alene en modelforudsigelse.
+Der er et plausibelt mekanistisk grundlag via TNF-hæmning, men der er hverken kliniske forsøg eller direkte litteratur for golimumab ved reumatoid vaskulitis. Evidensen er på niveau L4, og rapporter om paradoksal vaskulitis under TNF-hæmmere giver anledning til sikkerhedsmæssig forsigtighed.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da manglen er en blokerende datamangel for sikkerhedsscreening
-- Data om virkningsmekanisme (f.eks. via DrugBank)
-- Systematisk litteratursøgning efter studier af anti-TNF-behandling ved reumatoid vaskulitis, inkl. vurdering af det paradoksale vaskulitis-signal
-- Verifikation af godkendte indikationer for Gobivaz, da feltet for oprindelig indikation er tomt
-- Afklaring af, om NCT01579006 faktisk omfatter golimumab (titlen nævner tocilizumab)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Godkendelsesteksten og sikkerhedsoplysninger (advarsler og kontraindikationer) fra det godkendte produktresumé hos Lægemiddelstyrelsen
+- Retrospektive eller prospektive kliniske data om golimumab eller andre TNF-hæmmere ved reumatoid vaskulitis
+- En vurdering af risikoen for paradoksal vaskulitis under TNF-hæmning
 
-**Øvrige forudsigelser for golimumab (til orientering):**
-- **Inflammatorisk spondylopati** (L1, Proceed with Guardrails): understøttet af fase 3-RCT'er, bl.a. NCT01453725. Indikationen ligger tæt på eksisterende godkendelser og er mere label-konkordant end ægte repurposing
-- **Polyartikulær juvenil reumatoid artritis** (L1, Proceed with Guardrails): to fase 3-forsøg (NCT02277444, NCT01230827, hvoraf det sidste er registreret som afsluttet i utide). Også label-konkordant
-- **Hypermobilitet af coccyx** og **Kümmells sygdom** (L5, Hold): ingen forsøg, ingen litteratur og ingen oplagt mekanistisk sammenhæng. Scoren skyldes sandsynligvis en artefakt i vidensgrafen
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Prædiktioner kræver klinisk validering, før de kan anvendes.*
+**Bemærkning om andre forudsigelser:** De øvrige forudsigelser i de indsamlede data er enten ikke reelle nyindikationer eller mangler evidens. Inflammatorisk spondylopati (L1) og polyartikulær juvenil reumatoid artrit (L1) overlapper i høj grad med allerede godkendte indikationer eller udgør en pædiatrisk udvidelse heraf. Hypermobilitet af coccyx og Kümmells sygdom (L5) er alene beregningsmæssige forudsigelser uden kliniske forsøg eller litteratur.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

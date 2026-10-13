@@ -2,7 +2,7 @@
 layout: default
 title: Cloprostenol
 parent: Kun modelforudsigelse (L5)
-nav_order: 120
+nav_order: 213
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cloprostenol: Fra dyrlægebrug (heste) til reumatoid arthritis
+# Cloprostenol: Fra veterinær brug til reumatoid arthritis
 
-## Resumé
+## Resumé i én sætning
 
-Cloprostenol er en syntetisk analog af prostaglandin F2-alfa, som i Danmark er registreret i et dyrlægepræparat til heste (Genestran Vet.).
-TxGNN-modellen forudsiger, at stoffet kan have effekt ved **reumatoid arthritis**.
-Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, som udelukkende bygger på modelscoren.
+Cloprostenol er et syntetisk analogt stof til prostaglandin F2-alfa, som i Danmark er godkendt til veterinær brug (heste). TxGNN-modellen forudsiger, at det kan have effekt på **reumatoid arthritis**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -43,31 +41,38 @@ Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsig
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Ikke angivet i de indsamlede data (produktet er godkendt til heste) |
 | Forudsagt ny indikation | Reumatoid arthritis |
 | TxGNN-forudsigelsesscore | 97,6 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (dyrlægepræparat) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der findes i øjeblikket ingen detaljerede data om virkningsmekanismen (MOA) i kildeposten. Cloprostenol er dog kendt som en analog af prostaglandin F2-alfa og agonist på FP-receptoren.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Cloprostenol er kendt som et syntetisk PGF2-alfa-analog (FP-receptoragonist), der anvendes veterinært.
 
-Prostaglandin-signalering er overvejende pro-inflammatorisk og medvirker ved synovitis. En FP-receptoragonist forventes derfor ikke at give gavn ved reumatoid arthritis, og effektens retning er uklar. Den høje score afspejler sandsynligvis mønstre i vidensgrafen snarere end en dokumenteret biologisk sammenhæng.
+PGF2-alfa-signalering har en vis rapporteret rolle i inflammation og synovial biologi, men forbindelsen er generel og indirekte. Da FP-agonisme overvejende regnes for pro-inflammatorisk, er effektretningen tvivlsom, og stoffet kan i værste fald virke ugunstigt ved en inflammatorisk ledsygdom som reumatoid arthritis.
 
-De øvrige forudsigelser i listen (samme score-niveau, alle L5 uden forsøg eller litteratur) er heller ikke understøttet mekanistisk:
+TxGNN-scoren på 97,6 % er en grafbaseret forudsigelse og udgør ikke klinisk evidens.
 
-- **Gigt (gout):** score 95,6 %. Prostaglandiner bidrager til inflammationen, så en FP-agonist kan i værste fald forværre tilstanden.
-- **Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom:** score 96,3 %. Ultrasjælden udviklingsforstyrrelse uden plausibel farmakologisk forklaring.
-- **Brachydaktyli-syndaktyli-syndrom:** score 96,0 %. Medfødt lemmemisdannelse uden plausibelt lægemiddelrespons.
-- **Aneurisme i septum interventriculare:** score 95,7 %. Strukturel hjertemisdannelse, som ikke forventes at reagere på medicinsk behandling.
+### Øvrige forudsigelser
+
+Modellen forudsiger også andre indikationer, alle med evidensniveau L5 og uden forsøg eller litteratur:
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| Colobomatøst mikroftalmi-rhizomelisk dysplasi-syndrom | 96,3 % | Ingen plausibel sammenhæng; sjælden udviklingsforstyrrelse, sandsynligvis genetisk betinget |
+| Brachydaktyli-syndaktyli-syndrom | 96,0 % | Ingen plausibel sammenhæng; medfødt misdannelse af lemmer |
+| Aneurisme i det interventrikulære septum | 95,7 % | Ingen klar mekanistisk begrundelse; strukturel hjertelidelse |
+| Urinsyregigt (gout) | 95,6 % | Kun en svag, indirekte forbindelse via prostaglandinmedierede inflammationsveje; effektretningen er usikker |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -79,17 +84,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103906606 | Genestran Vet. (til heste) | Injektionsvæske, opløsning | Ikke angivet i data (dyrlægepræparat, producent: aniMedica GmbH) |
+| 28103906606 | Genestran Vet. (til heste) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+
+Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i Evidence Pack. Der er heller ingen fundne lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+
+Bemærk, at den mekanistiske rationale peger på en mulig ugunstig effekt (pro-inflammatorisk FP-agonisme) ved reumatoid arthritis.
 
 ---
 
@@ -98,17 +107,14 @@ Der foreligger ingen sikkerhedsdata i Evidence Pack. Der er heller ingen fundne 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore (L5) uden forsøg eller litteratur. Cloprostenols kendte farmakologi (pro-inflammatorisk prostaglandin-agonisme) taler desuden imod effekt ved de foreslåede indikationer. Det eneste danske præparat er til veterinær brug.
+Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5) uden kliniske forsøg eller litteratur. Mekanismen er uafklaret, og FP-agonisme kan tænkes at virke i en ugunstig retning ved reumatoid arthritis. Produktet er desuden kun godkendt til veterinær brug.
 
-**For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende mangel)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Prækliniske eller mekanistiske studier, der kan vise en plausibel og gavnlig effekt ved reumatoid arthritis
-- Vurdering af, om en human formulering og administrationsvej overhovedet er tilgængelig
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Lægemiddelkandidater til genanvendelse kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanismen (MOA), f.eks. fra DrugBank
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
+- Præklinisk evidens (celle- og dyremodeller), der viser effektretningen af FP-receptoragonisme ved leddegigt
+- Systematisk litteratursøgning og søgning efter kliniske forsøg
+- Vurdering af administrationsvej og humant sikkerhedsgrundlag, da der ikke findes et godkendt humant præparat
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

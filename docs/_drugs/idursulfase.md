@@ -2,7 +2,7 @@
 layout: default
 title: Idursulfase
 parent: Kun modelforudsigelse (L5)
-nav_order: 225
+nav_order: 424
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idursulfase: Fra Hunters syndrom (MPS II) til ptosis-strabismus-ectopic pupils syndrome
+# Idursulfase: Fra mukopolysakkaridose til ptose-strabisme-ektopiske pupiller-syndrom
 
-## Opsummering i en sætning
+## Resumé i én sætning
 
-Idursulfase er en rekombinant iduronat-2-sulfatase, der bruges som enzymerstatningsterapi ved Hunters syndrom (MPS II).
-TxGNN-modellen forudsiger, at den kan have effekt ved **ptosis-strabismus-ectopic pupils syndrome**.
-Der er **0 kliniske forsøg** og **0 publikationer** til støtte for forudsigelsen, og den vurderes derfor kun som modelbaseret (L5).
+Idursulfase er et enzymerstatningspræparat, der oprindeligt anvendes til behandling af **mukopolysakkaridose** (Hunters syndrom, MPS II).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **ptose-strabisme-ektopiske pupiller-syndrom**,
+men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen er udelukkende baseret på modellen.
 
 ---
 
@@ -43,8 +43,8 @@ Der er **0 kliniske forsøg** og **0 publikationer** til støtte for forudsigels
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hunters syndrom (MPS II). Indikationsteksten i den danske godkendelse er ikke angivet i datagrundlaget, så oplysningen stammer fra lægemidlets kendte anvendelse |
-| Forudsagt ny indikation | Ptosis-strabismus-ectopic pupils syndrome |
+| Oprindelig indikation | Mukopolysakkaridose (Hunters syndrom, MPS II) |
+| Forudsagt ny indikation | Ptose-strabisme-ektopiske pupiller-syndrom |
 | TxGNN-forudsigelsesscore | 97,89 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -55,53 +55,43 @@ Der er **0 kliniske forsøg** og **0 publikationer** til støtte for forudsigels
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Idursulfase erstatter det manglende enzym iduronat-2-sulfatase ved MPS II og nedbryder dermed ophobede glykosaminoglykaner i lysosomerne. Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i det anvendte datagrundlag. Baseret på kendt information er idursulfase et rekombinant enzym, hvis effekt ved lysosomal ophobning er veldokumenteret.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Idursulfase er dog en rekombinant iduronat-2-sulfatase, som erstatter det manglende enzym ved Hunters syndrom og nedbryder ophobede glykosaminoglykaner (dermatansulfat og heparansulfat).
 
-Ptosis-strabismus-ectopic pupils syndrome er en sjælden medfødt udviklingsforstyrrelse i øjet. Der kendes ingen ophobning af glykosaminoglykaner ved denne tilstand. Der er derfor ikke identificeret nogen plausibel biologisk forbindelse mellem enzymerstatning ved MPS II og denne sygdom.
+Det forudsagte syndrom er en sjælden medfødt øjen- og neuroudviklingsforstyrrelse uden kendt ophobning af glykosaminoglykaner. Der kan derfor ikke identificeres en klar mekanistisk sammenhæng mellem den oprindelige og den nye indikation. Den høje score (0,979) skyldes sandsynligvis mønstre i vidensgrafen, fx fælles øjenfænotyper hos naboknuder, og ikke egentlig patofysiologisk evidens.
 
-Den høje score (97,9 %) skyldes sandsynligvis strukturen i TxGNN's vidensgraf og ikke reel biologi. Forudsigelsen bør derfor ikke tillægges klinisk betydning uden yderligere dokumentation.
+Samme vurdering gælder de øvrige topforudsigelser, som alle har scorer omkring 0,977-0,979 og ingen kliniske data:
+- Camptodaktyli, myopi og fibrose af øjets mediale rectusmuskel (medfødt fibrose af øjenmuskel uden lysosomal ophobning)
+- Medfødt Horners syndrom (forstyrrelse af den okulosympatiske bane)
+- Ptose-stemmebåndslammelse-syndrom (formodet neurologisk eller neuromuskulær baggrund)
+- Ptose-begrænset opadgående øjenbevægelse-fravær af tårepunkt-syndrom (udviklingsmæssig misdannelse)
 
-### Øvrige forudsigelser for idursulfase
-
-De 10 forudsigelser i datasættet omfatter 5 forskellige sygdomme, hver registreret to gange. Ingen af dem har støtte i kliniske forsøg eller litteratur, og de er alle vurderet som L5/Hold. For alle er der vurderet, at der ikke findes en rimelig mekanistisk forbindelse.
-
-| Sygdom | Score | Vurdering af mekanistisk forbindelse |
-|------|------|------|
-| Ptosis-strabismus-ectopic pupils syndrome | 97,89 % | Medfødt øjenudviklingsforstyrrelse uden kendt glykosaminoglykanpatologi |
-| Camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye | 97,87 % | Muskuloskeletal og ekstraokulær fibrose uden kendt lysosomal mekanisme. Eventuel forbindelse via bindevæv eller ekstracellulær matrix er rent spekulativ |
-| Congenital Horner syndrome | 97,84 % | Forstyrrelse af okulosympatisk innervation. Enzymerstatning virker ikke på sympatiske baner |
-| Ptosis-vocal cord paralysis syndrome | 97,83 % | Sjælden neurologisk eller udviklingsmæssig tilstand. Enzymerstatning adresserer ikke nerve- eller muskeldysfunktion |
-| Ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome | 97,67 % | Kraniofacial og okulær misdannelse uden relevans for enzymmangel ved MPS II |
+Ingen af disse er lysosomale lagringssygdomme, og enzymerstatning med idursulfase har ingen oplagt biologisk angrebsflade.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Information om markedet i Danmark
+## Litteraturevidens
+
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+
+---
+
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103881505 | Elaprase (Takeda Pharmaceuticals International AG Ireland Branch) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
-
-Lægemidlet gives som injektion/infusion.
+| 28103881505 | Elaprase (Takeda Pharmaceuticals International AG Ireland Branch) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data; originalindikationen er mukopolysakkaridose |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner (DDI) i datagrundlaget.
-
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -110,16 +100,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne bygger udelukkende på modellen (L5) uden støtte fra kliniske forsøg eller litteratur, og der er ikke identificeret nogen plausibel mekanistisk forbindelse. Den høje score afspejler sandsynligvis grafstruktur og ikke biologi.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, publikationer eller sandsynlig mekanistisk sammenhæng. Idursulfase er et enzymerstatningspræparat mod glykosaminoglykan-ophobning, og de forudsagte sygdomme har ikke denne patologi.
 
 **For at komme videre kræves følgende:**
-- Gennemgang og indhentning af sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, da disse mangler og blokerer den videre sikkerhedsvurdering
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. via DrugBank
-- En konkret, biologisk begrundet hypotese for, hvordan enzymerstatning kunne påvirke de forudsagte øjensygdomme
-- Prækliniske eller mekanistiske data, der kan løfte evidensniveauet over L5
-- Afklaring af administrationsvej og kompatibilitet (infusion) med den ønskede anvendelse
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye anvendelser skal valideres klinisk, før de kan anvendes.*
+- Detaljerede data om virkningsmekanismen (MOA)
+- Evidens for en patofysiologisk sammenhæng mellem glykosaminoglykan-ophobning og de forudsagte øjensyndromer (prækliniske eller mekanistiske studier)
+- Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen
+- Vurdering af administrationsvej og praktisk anvendelighed (idursulfase gives som intravenøs infusion) i forhold til de forudsagte tilstande
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

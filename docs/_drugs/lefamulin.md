@@ -2,7 +2,7 @@
 layout: default
 title: Lefamulin
 parent: Kun modelforudsigelse (L5)
-nav_order: 260
+nav_order: 486
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lefamulin: Fra bakterielle infektioner til diffus kutan leishmaniasis
+# Lefamulin: Fra bakteriel lungebetændelse til diffus kutan leishmaniasis
 
-## Resumé i få sætninger
+## Sammenfatning
 
-Lefamulin er et antibakterielt lægemiddel af pleuromutilin-klassen, som er markedsført i Danmark som Xenleta (filmovertrukne tabletter).
-TxGNN-modellen forudsiger, at det kan have effekt mod **diffus kutan leishmaniasis**, men forudsigelsen er **kun modelbaseret**.
-Der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter den.
+Lefamulin er et antibiotikum af pleuromutilin-klassen, oprindeligt anvendt til behandling af bakteriel lungebetændelse (bl.a. pneumoni forårsaget af streptokokker, *Staphylococcus aureus* og *Mycoplasma pneumoniae* samt legionærsygdom).
+TxGNN-modellen forudsiger, at det kan have effekt på **diffus kutan leishmaniasis**,
+men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen bygger udelukkende på modellen.
 
 ---
 
@@ -43,7 +43,7 @@ Der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter den.
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Lefamulin er et antibakterielt middel (pleuromutilin) |
+| Oprindelig indikation | Bakteriel lungebetændelse (ifølge videnbasen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
 | Forudsagt ny indikation | Diffus kutan leishmaniasis |
 | TxGNN-forudsigelsesscore | 99,24 % |
 | Evidensniveau | L5 |
@@ -53,52 +53,44 @@ Der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter den.
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger aktuelt ingen detaljerede data om virkningsmekanisme i datagrundlaget. Lefamulin er et pleuromutilin-antibiotikum, som hæmmer den bakterielle 50S-ribosomsubenhed (peptidyltransferase-centret). Det er den bakterielle proteinsyntese, der hæmmes.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Lefamulin er kendt som et pleuromutilin-antibiotikum, der hæmmer bakteriel proteinsyntese ved at binde sig til peptidyltransferase-centret på den bakterielle 50S-ribosomsubunit.
 
-*Leishmania* er en protozo og ikke en bakterie. En eventuel effekt ville derfor kræve en endnu ubevist påvirkning af parasittens eller dens mitokondriers ribosomer. Den mekanistiske sammenhæng er spekulativ og understøttes ikke af data. Blandt de forudsagte indikationer er dette dog den eneste med en svagt plausibel anti-infektiøs begrundelse.
+Leishmaniasis forårsages af en protozo (*Leishmania*), som har et andet ribosom end bakterier. Der er ikke fremlagt nogen dokumentation for antileishmanial aktivitet. Der kan derfor ikke påvises en klar mekanistisk sammenhæng mellem den oprindelige indikation (bakterielle luftvejsinfektioner) og den forudsagte indikation.
 
-Forudsigelsen bør derfor ses som en hypotese til videre afprøvning i laboratoriet, ikke som grundlag for klinisk anvendelse.
-
----
-
-## Øvrige forudsagte indikationer
-
-Modellen foreslår også følgende indikationer med høje scorer. For ingen af dem findes forsøg, litteratur eller en plausibel mekanistisk forbindelse. De høje scorer skyldes sandsynligvis artefakter i vidensgrafen.
-
-| Forudsagt indikation | TxGNN-score | Vurdering |
-|------|------|------|
-| Polyklonalt hyperviskositetssyndrom | 99,10 % | Hæmatologisk tilstand drevet af forhøjede immunglobuliner. Ingen kendt effekt af en antibakteriel ribosomhæmmer |
-| Hyperamylasæmi | 99,10 % | Laboratoriefund knyttet til pancreas- eller spytkirtelpatologi. Ingen kendt amylasesænkende mekanisme |
-| Kongenit analbuminæmi | 98,92 % | Sjælden genetisk sygdom (ALB-genet). Et antibakterielt middel kan ikke korrigere den genetiske defekt |
-| Blodtypeinkompatibilitet | 98,78 % | Immunhæmatologisk tilstand. Ingen kendt immunmodulerende eller hæmolysepåvirkende mekanisme |
+Den høje score (0,992) skal tolkes som en ren modelforudsigelse, ikke som klinisk belæg. Samme forbehold gælder de øvrige forudsigelser med lignende scores (polyklonalt hyperviskositetssyndrom, hyperamylasæmi, medfødt analbuminæmi og blodtypeinkompatibilitet). For ingen af dem er der fundet en plausibel mekanistisk sammenhæng, kliniske forsøg eller litteratur.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Klinisk evidens
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der findes aktuelt ingen relateret litteratur.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106272419 | Xenleta (Nabriva Therapeutics Ireland DAC) | Filmovertrukne tabletter | Ikke angivet i datagrundlaget |
+| 28106272419 | Xenleta (Nabriva Therapeutics Ireland DAC) | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
+**Lægemiddelinteraktioner** (100 interaktioner er identificeret; de vigtigste er nævnt nedenfor):
+
+- **Alvorlige (Major):** dexamethason, clarithromycin, dolasetron
+- **Moderate:** bl.a. famotidin, rabeprazol, omeprazol, dexlansoprazol, cimetidin, hydrocortison, triamcinolon, betamethason, budesonid, pioglitazon, saxagliptin, loperamid, aprepitant, bisacodyl, picosulfat, polyethylenglycol og dronabinol
+
+Øvrige sikkerhedsoplysninger (advarsler og kontraindikationer) findes i det godkendte produktresumé (SmPC).
 
 ---
 
@@ -107,16 +99,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fu
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modellen (evidensniveau L5), uden forsøg, litteratur eller dokumenteret mekanistisk sammenhæng. Det kritiske sikkerhedsgrundlag fra den danske produktinformation mangler desuden.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), uden kliniske forsøg eller litteratur, og der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem lefamulins antibakterielle virkning og diffus kutan leishmaniasis.
 
-**For at komme videre skal følgende foreligger:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
-- Detaljerede data om virkningsmekanisme fra DrugBank
-- In vitro-data for lefamulins aktivitet mod *Leishmania*-arter, herunder effekt på parasittens ribosomer eller mitokondrier
-- Systematisk litteratur- og forsøgssøgning, som kan bekræfte eller afkræfte en eventuel effekt
-- Vurdering af administrationsvej: Lefamulin findes i Danmark kun som oral tablet, og det er uafklaret, hvilken vej en eventuel kutan behandling kræver
-
-*Dette resultat er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanismen (MOA) fra DrugBank
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det godkendte produktresumé hos Lægemiddelstyrelsen
+- Prækliniske data (in vitro-aktivitet mod *Leishmania*) som minimumsgrundlag, før en klinisk vurdering kan overvejes
+- Vurdering af administrationsvej: lefamulin er i Danmark kun markedsført som oral tablet, og egnetheden til kutan leishmaniasis er ikke afklaret
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

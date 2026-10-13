@@ -2,7 +2,7 @@
 layout: default
 title: Dexibuprofen
 parent: Kun modelforudsigelse (L5)
-nav_order: 140
+nav_order: 254
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dexibuprofen: Fra smerte og inflammation (NSAID) til brachydactyly-syndactyly syndrom
+# Dexibuprofen: Fra gigtlidelser og smerter til brachydaktyli-syndaktyli-syndrom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Dexibuprofen (S-ibuprofen) er en non-steroid antiinflammatorisk lægemiddelsubstans (NSAID), der virker smertestillende og antiinflammatorisk. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **brachydactyly-syndactyly syndrom**, en sjælden medfødt misdannelse af lemmerne. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, så den bygger udelukkende på modellens vidensgraf.
+Dexibuprofen er den aktive S-enantiomer af ibuprofen og anvendes oprindeligt mod gigtlidelser (bl.a. leddegigt, slidgigt og juvenil idiopatisk artrit) samt hovedpine.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **brachydaktyli-syndaktyli-syndrom**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Den er udelukkende modelbaseret.
 
 ---
 
@@ -41,9 +43,9 @@ Dexibuprofen (S-ibuprofen) er en non-steroid antiinflammatorisk lægemiddelsubst
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i godkendelsesdata. Stoffet er et NSAID (smertestillende/antiinflammatorisk) |
-| Forudsagt ny indikation | Brachydactyly-syndactyly syndrom |
-| TxGNN-prædiktionsscore | 99,87 % |
+| Oprindelig indikation | Leddegigt, slidgigt, juvenil idiopatisk artrit, hovedpine og andre artropatier (iflg. vidensgrafen; indikationsteksten i den danske tilladelse er ikke angivet) |
+| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
+| TxGNN-forudsigelsesscore | 99,87 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -53,45 +55,43 @@ Dexibuprofen (S-ibuprofen) er en non-steroid antiinflammatorisk lægemiddelsubst
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Dexibuprofen er den aktive S-enantiomer af ibuprofen og hæmmer cyklooxygenase (COX). Det giver en antiinflammatorisk og smertestillende effekt. Detaljerede data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige, så beskrivelsen bygger på stoffets kendte farmakologiske klasse.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Dexibuprofen er kendt som en COX-hæmmer (aktiv S-enantiomer af ibuprofen), der dæmper prostaglandinmedieret smerte og inflammation, og effekten ved inflammatoriske ledsygdomme er veletableret.
 
-Brachydactyly-syndactyly syndrom er en medfødt misdannelse af lemmerne med udviklingsgenetisk oprindelse. Der er ingen kendt sammenhæng mellem COX-hæmning og lemmernes udvikling, og NSAID'er kan ikke rette strukturelle udviklingsfejl. Den høje score på 0,9987 afspejler derfor sandsynligvis kun nærhed i vidensgrafen og ikke en biologisk begrundet sammenhæng.
+Brachydaktyli-syndaktyli-syndrom er derimod en udviklingsmæssig skeletmalformation, typisk af genetisk oprindelse, og den er ikke drevet af prostaglandinmedieret inflammation. Der er derfor ikke påvist nogen mekanistisk forbindelse mellem COX-hæmning og sygdommens årsag.
 
-Det samme gælder de øvrige topforudsigelser. De er alle sjældne medfødte syndromer, og ingen af dem har en dokumenteret mekanistisk kobling til dexibuprofen:
+Den høje score (0,9987) afspejler sandsynligvis nærhed i vidensgrafen mellem skelet- og lemmefænotyper snarere end et reelt biologisk målsammenfald. Forudsigelsen bør derfor ses som en hypotese uden klinisk eller mekanistisk støtte.
 
-| Forudsagt sygdom | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Brachydactyly-syndactyly syndrom | 99,87 % | Ingen understøttet sammenhæng |
-| Colobomatous microphthalmia-rhizomelic dysplasia syndrom | 99,85 % | Ingen understøttet sammenhæng |
-| Acromesomelic dysplasia, Hunter-Thompson type | 99,84 % | Ingen understøttet sammenhæng. Højst symptomatisk smertebehandling |
-| Brachyolmia-amelogenesis imperfecta syndrom | 99,83 % | Ingen understøttet sammenhæng |
-| Myosclerosis | 99,82 % | Svag, indirekte begrundelse (mulig lindring af smerte/inflammation). Ingen data for effekt på fibrose eller sygdomsforløb |
+Øvrige forudsigelser i datagrundlaget har samme karakter (alle evidensniveau L5, anbefaling Hold):
+- Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (99,85 %)
+- Akromesomelisk dysplasi, Hunter-Thompson-type (99,84 %), en genetisk skeletdysplasi i GDF5-signalvejen, som COX-hæmning ikke adresserer
+- Brachyolmi-amelogenesis imperfecta-syndrom (99,83 %)
+- Myosklerose (99,82 %), hvor kun en svag, spekulativ symptomatisk smertelindring kan tænkes
 
 ---
 
-## Klinisk evidens (forsøg)
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103150300 | Seractiv (Nordic Drugs AB) | Filmovertrukne tabletter (oral) | Ikke angivet i de tilgængelige data |
+| 28103150300 | Seractiv (Nordic Drugs AB) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data, men det skyldes manglende data og ikke dokumenteret fravær af interaktioner.
+Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i de data, der er indsamlet til denne rapport, men det skyldes manglende data og ikke dokumenteret fravær af interaktioner. Som NSAID-præparat har dexibuprofen kendte klasserelaterede risici (mave-tarm, hjerte-kar og nyrer), som bør verificeres i produktresuméet.
 
 ---
 
@@ -100,15 +100,13 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler alene på modellen (evidensniveau L5). Der findes hverken kliniske forsøg eller publikationer, og der er ingen biologisk plausibel sammenhæng mellem COX-hæmning og en medfødt lemmemisdannelse. Den høje score kan ikke i sig selv begrunde videre arbejde.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Sygdommene er genetiske udviklingsforstyrrelser, som COX-hæmning ikke forventes at påvirke.
 
-**For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Sikkerhedsscreening kan ikke gennemføres uden disse oplysninger.
-- Data om virkningsmekanisme (MOA) fra DrugBank til en egentlig mekanistisk analyse.
-- Præklinisk eller genetisk/biologisk evidens for en mulig sammenhæng mellem dexibuprofens mål og sygdommens patofysiologi.
-- Vurdering af, om en eventuel anvendelse blot ville være symptomatisk smertebehandling og dermed ikke en egentlig ny indikation.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægelig rådgivning. Kandidater til nyt anvendelsesområde for kendte lægemidler kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanismen (MOA) fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (manglende sikkerhedsdata blokerer sikkerhedsscreeningen)
+- Litteraturgennemgang og prækliniske data, der kan underbygge en biologisk sammenhæng
+- Vurdering af administrationsvej og forenelighed med målpopulationen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Sotatercept
 parent: Kun modelforudsigelse (L5)
-nav_order: 408
+nav_order: 771
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sotatercept: Fra ikke-angivet oprindelig indikation til akut lymfoblastisk leukæmi
+# Sotatercept: Fra den oprindelige indikation til akut lymfoblastær leukæmi
 
 ## Resumé i én sætning
 
-Sotatercept er et aktivin-receptor type IIA-Fc-fusionsprotein, der markedsføres i Danmark under navnet Winrevair. Den oprindelige indikation fremgår ikke af de leverede data.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **akut lymfoblastisk leukæmi**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
+Sotatercept er et aktivinreceptor-type IIA-Fc-fusionsprotein, der markedsføres i Danmark som Winrevair. En original indikation er ikke angivet i de data, der er udarbejdet til denne rapport.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akut lymfoblastær leukæmi** (score 99,78 %). Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
 
 ---
 
@@ -42,25 +42,36 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **akut lymfoblasti
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de leverede data (bør verificeres i produktresuméet, SmPC) |
-| Forudsagt ny indikation | Akut lymfoblastisk leukæmi |
+| Original indikation | Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom) |
+| Forudsagt ny indikation | Akut lymfoblastær leukæmi |
 | TxGNN-forudsigelsesscore | 99,78 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
+Andre forudsigelser med tilsvarende høje scorer, alle på evidensniveau L5 og med anbefalingen Hold:
+
+| Forudsagt indikation | TxGNN-score |
+|------|------|
+| Svær non-proliferativ diabetisk retinopati | 99,77 % |
+| Diabetisk retinopati | 99,72 % |
+| Lægemiddelinduceret osteoporose | 99,65 % |
+| Diabetisk grå stær | 99,49 % |
+
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der er ikke noget klart mekanistisk grundlag for forudsigelsen. Detaljerede data om virkningsmekanisme foreligger ikke i Evidence Pack. Sotatercept er kendt som en aktivin-receptor type IIA-Fc-fusionsproteinfælde, der binder aktiviner og beslægtede ligander i TGF-beta-familien. Det kan øge hæmoglobin og trombocyttal.
+Detaljerede data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige. Sotatercept er dog kendt som et aktivinreceptor-type IIA-Fc-fusionsprotein, der binder aktivin og beslægtede ligander i TGF-beta-superfamilien (f.eks. GDF8/11).
 
-Forbindelsen til akut lymfoblastisk leukæmi bygger på generel farmakologi og ikke på den leverede lægemiddelregistrering. TxGNN-scoren (0,998) er en ren vidensgraf-forudsigelse uden støtte fra forsøg eller litteratur. Scoren bør derfor ikke tolkes som klinisk evidens.
+Koblingen til akut lymfoblastær leukæmi er kun indirekte: aktivin/TGF-beta-signalering påvirker bloddannelsen og knoglemarvens mikromiljø. Der foreligger ingen kliniske data eller litteratur, og den høje score er udelukkende en modelforudsigelse.
+
+Blandt de øvrige forudsigelser har **lægemiddelinduceret osteoporose** det mest troværdige mekanistiske grundlag. Aktivin A hæmmer osteoblastaktivitet, og beslægtede ActRIIA-Fc-stoffer har i tidlige studier øget knoglemasse og knoglenydannelsesmarkører. Der er dog ikke leveret forsøg eller litteratur for netop denne indikation. For **diabetisk retinopati** er aktivin/TGF-beta-signalering involveret i retinal karombygning og fibrose, men sotatercept er et systemisk biologisk lægemiddel, og vaskulære bivirkninger (telangiektasier og blødningshændelser i PAH-studier) giver anledning til sikkerhedsbekymring. Koblingen til **diabetisk grå stær** er spekulativ.
 
 ---
 
-## Klinisk evidens
+## Klinisk forsøgsevidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -72,19 +83,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107063623 | Winrevair (Merck Sharp & Dohme B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de leverede data |
+| 28107063623 | Winrevair (Merck Sharp & Dohme B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen data om advarsler, kontraindikationer eller lægemiddelinteraktioner (interaktionssøgningen gav ingen resultater). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data, og der er ingen kontraindikationer fra videnbasen. Af hensyn til de vaskulære signaler (telangiektasier og blødningshændelser set i PAH-studier) bør vaskulær sikkerhed gennemgås grundigt, før de retinale indikationer overvejes.
 
-Forudsigelsesnotatet for de øvrige kandidater nævner kendte blødningsrelaterede bivirkninger (f.eks. telangiektasi, epistaxis og trombocytopeni) som en potentiel bekymring ved vaskulære sygdomme.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -93,15 +104,14 @@ Forudsigelsesnotatet for de øvrige kandidater nævner kendte blødningsrelatere
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er heller ikke noget klart mekanistisk grundlag, og sikkerhedsdata mangler. Øvrige kandidater i listen (diabetisk retinopati, diabetisk grå stær og lægemiddelinduceret osteoporose) er heller ikke understøttet af evidens. Lægemiddelinduceret osteoporose vurderes som biologisk mest plausibel, fordi aktivin A hæmmer osteoblastaktivitet, og den er markeret som forskningsspørgsmål. De øvrige forudsigelser overlapper delvist og er ikke uafhængige af hinanden.
+Alle forudsigelser bygger udelukkende på modelscorer (evidensniveau L5) uden understøttende kliniske forsøg eller litteratur. Data om mekanisme og produktresumé mangler, og sikkerhedsscreeningen kan ikke gennemføres.
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation
-- Indhent data om virkningsmekanisme fra DrugBank
-- Gennemfør en målrettet søgning efter kliniske forsøg og litteratur for akut lymfoblastisk leukæmi, og for lægemiddelinduceret osteoporose (knoglemarkører og knogletæthed)
-- Vurder sikkerhedsprofilen (især blødningsrisiko og trombocytopeni) i den relevante patientgruppe
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datamangel)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratur- og forsøgssøgning for de forudsagte indikationer, især lægemiddelinduceret osteoporose
+- Vurdering af vaskulær sikkerhed, før retinale indikationer overvejes
+- Afklaring af administrationsvej og forenelighed med de forudsagte indikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

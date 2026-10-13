@@ -2,7 +2,7 @@
 layout: default
 title: Bezlotoxumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 64
+nav_order: 113
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bezlotoxumab: Fra neutralisering af C. difficile-toksin B til akut kvindelig bækkenperitonitis
+# Bezlotoxumab: Fra Clostridium difficile-colitis til akut kvindelig bækkenperitonitis
 
-## Resumé i én sætning
+## Opsummering
 
-Bezlotoxumab er et monoklonalt antistof, der neutraliserer *Clostridioides difficile*-toksin B og markedsføres i Danmark som Zinplava.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **akut kvindelig bækkenperitonitis**.
-Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen, som udelukkende er modelbaseret.
+Bezlotoxumab er et monoklonalt antistof, der oprindeligt anvendes mod *Clostridium difficile*-colitis og andre Clostridium-infektioner.
+TxGNN-modellen forudsiger, at det kan have effekt mod **akut kvindelig bækkenperitonitis**,
+men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse.
 
 ---
 
@@ -43,6 +43,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | *Clostridium difficile*-colitis og Clostridium-infektioner (den danske godkendelsestekst er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Akut kvindelig bækkenperitonitis |
 | TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L5 |
@@ -52,48 +53,41 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig (eller ikke)?
+## Hvorfor er denne forudsigelse rimelig?
 
-Bezlotoxumab er et monoklonalt antistof, der binder og neutraliserer *C. difficile*-toksin B. Der foreligger ingen detaljerede data om lægemidlets virkningsmekanisme i datagrundlaget, og de oprindelige indikationer er heller ikke angivet i kildedataene. Det svækker mulighederne for at vurdere forudsigelsen.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de indsamlede data. Bezlotoxumab er dog kendt som et monoklonalt antistof, der neutraliserer toksin B fra *C. difficile*. Dets effekt er knyttet til *C. difficile*-infektion.
 
-Bækkenperitonitis er typisk polymikrobiel og drives ikke af *C. difficile*-toksin B. Der er derfor ingen oplagt mekanistisk sammenhæng mellem lægemidlets mål og sygdommen. Den høje score (0,9989) afspejler modellens mønstergenkendelse i vidensgrafen og ikke dokumenteret klinisk effekt.
+Bækkenperitonitis er typisk polymikrobiel og kan involvere anaerobe bakterier. Det er en mulig, men ubekræftet forbindelse. Intet i de foreliggende data viser, at *C. difficile* toksin B driver sygdommen. Forudsigelsen er derfor en ren grafbaseret model-forudsigelse uden understøttende evidens og bør behandles med stor forsigtighed.
 
-Modellen forudsiger også andre gynækologiske tilstande, alle med score omkring 0,9987-0,9989 og evidensniveau L5:
-
-- embryonal cyste i æggeleder
-- tubar graviditet (ekstrauterin graviditet)
-- salpingitis isthmica nodosa
-- sygdom i ligamentum latum uteri
-
-Ingen af dem har en plausibel mekanistisk kobling til et antistof mod toksin B. Ekstrauterin graviditet behandles f.eks. med methotrexat eller kirurgi.
+Øvrige forudsigelser med tilsvarende høje scorer (99,87-99,89 %) omfatter embryonal cyste i æggeleder, tubar graviditet, salpingitis isthmica nodosa og sygdom i ligamentum latum uteri. Ingen af dem har en oplagt mekanistisk sammenhæng med neutralisering af toksin B. Det gælder især ikke-infektiøse tilstande som udviklingsmæssige cyster og ekstrauterin graviditet, hvor forudsigelserne sandsynligvis er artefakter fra modellen.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Litteratur
 
-Der findes i øjeblikket ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105700615 | Zinplava | Koncentrat til infusionsvæske, opløsning (injektion) | Merck Sharp & Dohme B.V. |
+| 28105700615 | Zinplava (Merck Sharp & Dohme B.V.) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
+Der er ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. Der foreligger ingen data om advarsler eller kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og øvrig sikkerhed.
+Det bemærkes, at bezlotoxumab er et IgG1-antistof, og at administration under graviditet rejser sikkerhedsspørgsmål. Det er særligt relevant for forudsigelser inden for kvindelig reproduktiv sundhed.
 
 ---
 
@@ -102,16 +96,13 @@ Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindik
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger alene på en modelscore uden kliniske forsøg eller litteratur (evidensniveau L5). Der er desuden ingen biologisk plausibel sammenhæng mellem neutralisering af *C. difficile*-toksin B og bækkenperitonitis.
+Forudsigelsen bygger udelukkende på en grafbaseret model (evidensniveau L5) uden kliniske forsøg, publikationer eller en plausibel mekanistisk forklaring. Sikkerhedsdata mangler desuden.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), så sikkerhedsscreeningen kan gennemføres.
-- Indhent data om virkningsmekanisme og godkendte indikationer fra DrugBank.
-- Foretag en systematisk litteratur- og forsøgssøgning, og find præklinisk eller mekanistisk evidens, der kan begrunde en sammenhæng.
-
----
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye anvendelser kræver klinisk validering, før de kan anvendes i praksis.*
+- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Præklinisk eller mekanistisk dokumentation for, at toksin B eller beslægtede mekanismer spiller en rolle ved bækkenperitonitis
+- En systematisk litteratur- og forsøgsgennemgang for at bekræfte, at der ikke findes støttende evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

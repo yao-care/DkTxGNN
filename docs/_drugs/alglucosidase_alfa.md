@@ -2,7 +2,7 @@
 layout: default
 title: Alglucosidase Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 24
+nav_order: 38
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alglucosidase alfa: Fra Pompes sygdom til adult polyglucosan body disease
+# Alglucosidase alfa: Fra glykogenlagringssygdom til voksen polyglucosanlegemesygdom
 
-## Resumé
+## Opsummering
 
-Alglucosidase alfa er rekombinant human sur alfa-glucosidase, en enzymerstatning, som bruges ved Pompes sygdom (lysosomal glykogenopbygning). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **adult polyglucosan body disease** (APBD). Der er **ingen registrerede kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
+Alglucosidase alfa er et rekombinant enzym (syre-alfa-glucosidase), der oprindeligt anvendes mod glykogenlagringssygdom.
+TxGNN-modellen forudsiger, at det kan have effekt mod **voksen polyglucosanlegemesygdom** (score 99,47 %).
+Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen, og den mekanistiske begrundelse er svag.
 
 ---
 
@@ -41,8 +43,8 @@ Alglucosidase alfa er rekombinant human sur alfa-glucosidase, en enzymerstatning
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Pompes sygdom (fremgår af den mekanistiske beskrivelse i evidenspakken; indikationsteksten i den danske godkendelse er tom) |
-| Forudsagt ny indikation | Adult polyglucosan body disease |
+| Oprindelig indikation | Glykogenlagringssygdom |
+| Forudsagt ny indikation | Voksen polyglucosanlegemesygdom |
 | TxGNN-forudsigelsesscore | 99,47 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -51,51 +53,49 @@ Alglucosidase alfa er rekombinant human sur alfa-glucosidase, en enzymerstatning
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Alglucosidase alfa er rekombinant human sur alfa-glucosidase. Enzymet nedbryder lysosomalt glykogen ved at spalte alfa-1,4- og alfa-1,6-bindinger. Detaljerede mekanismedata fra DrugBank mangler i evidenspakken, så beskrivelsen bygger på den mekanistiske vurdering i forudsigelsen.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Alglucosidase alfa er dog kendt som rekombinant human syre-alfa-glucosidase (GAA), der nedbryder glykogen i lysosomerne. Midlet bruges ved sygdom, hvor dette enzym mangler (glykogenlagringssygdom type II).
 
-APBD skyldes mangel på glykogen-forgreningsenzymet (GBE1). Det giver dårligt forgrenet polyglucosan, som ophobes i neuroners og axoners cytosol. Begge sygdomme ligger i glykogenstofskiftet, og det giver en plausibel, men **svag** forbindelse. Der er også væsentlige biologiske forbehold:
+Voksen polyglucosanlegemesygdom skyldes mangel på glykogen-forgreningsenzymet (GBE1). Det giver dårligt forgrenet, uopløseligt polyglucosan, som hober sig op primært i neuroner og axoner, altså i cytosolen og ikke i lysosomerne. Der er en overordnet forbindelse via glykogenstofskiftet, men alglucosidase alfa erstatter ikke GBE1. Desuden har enzymet begrænset adgang til cytosol og centralnervesystemet på grund af ringe passage af blod-hjerne-barrieren.
 
-- Lysosomal enzymerstatning når næppe det cytosoliske polyglucosan.
-- Enzymet passerer dårligt blod-hjerne-barrieren.
-- Den høje score er en ren vidensgraf-forudsigelse uden klinisk eller litterær støtte.
+Den høje score skyldes sandsynligvis, at sygdommene ligger tæt på hinanden i vidensgrafens klasse for glykogenlagringssygdomme, snarere end et reelt farmakologisk grundlag.
 
-Øvrige forudsigelser (dubletter i datasættet er slået sammen):
+**Øvrige forudsagte indikationer** (alle med evidensniveau L5 og beslutningen Hold):
 
 | Forudsagt indikation | Score | Vurdering |
 |------|------|------|
-| Glykogenoplagringssygdom pga. GBE1-mangel (letal perinatal neuromuskulær form og medfødt neuromuskulær form) | 99,32 % | Samme glykogenakse som Pompe, men primærdefekten er forgreningsenzymmangel. Erstatning af GAA kan ikke korrigere den. Forsknings­spørgsmål. |
-| Medfødt entropion | 99,22 % | Strukturel øjenlågsmisdannelse uden plausibel mekanisme. Sandsynligvis et artefakt i vidensgrafen. Hold. |
-| Medfødt ektropion | 99,17 % | Strukturel øjenlågsmisdannelse uden metabolisk eller lysosomal basis. Sandsynligvis et artefakt. Hold. |
+| Glykogenlagringssygdom pga. GBE1-mangel (letal perinatal og kongenit neuromuskulær form, type IV) | 99,32 % | Enzymet erstatter ikke forgreningsenzymet og retter ikke den primære defekt. Sandsynligvis en artefakt af klassegruppering. |
+| Medfødt entropion | 99,22 % | Strukturel misdannelse af øjenlåget, behandles kirurgisk. Ingen plausibel mekanisme. |
+| Medfødt ektropion | 99,17 % | Strukturel misdannelse af øjenlåget. Ingen troværdig mekanistisk forbindelse. |
 
 ---
 
-## Klinisk forsøgsevidens
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen registrerede kliniske forsøg relateret til denne forudsagte indikation.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relevant litteratur.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103761904 | Myozyme | Pulver til koncentrat til infusionsvæske, opløsning | Sanofi B.V. |
-
-Lægemidlet gives som injektion/infusion.
+| 28103761904 | Myozyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet lægemiddelinteraktioner i de tilgængelige data. Oplysninger om advarsler og kontraindikationer mangler i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet interaktioner i de indsamlede data, og der er ingen registrerede kontraindikationer i vidensgrafen.
+
+Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og sikkerhed.
 
 ---
 
@@ -104,15 +104,14 @@ Der er ikke fundet lægemiddelinteraktioner i de tilgængelige data. Oplysninger
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler kun på en vidensgraf-score (evidensniveau L5) uden kliniske forsøg eller publikationer. Mekanismen er svag: lysosomal enzymerstatning når ikke cytosolisk polyglucosan og passerer dårligt blod-hjerne-barrieren. De to øjenlågsforudsigelser mangler enhver biologisk begrundelse. Sikkerhedsdata fra Lægemiddelstyrelsen mangler desuden, og det blokerer sikkerhedsscreeningen.
+Forudsigelsen bygger udelukkende på modellens score uden kliniske forsøg eller litteratur (evidensniveau L5). Den mekanistiske begrundelse er svag: enzymet erstatter ikke GBE1, virker i lysosomer frem for cytosol og passerer dårligt blod-hjerne-barrieren. De øjenrelaterede forudsigelser (entropion og ektropion) er sandsynligvis artefakter.
 
 **For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Præklinisk dokumentation for, at enzymet kan nå målvævet (neuroner/axoner) ved APBD og GBE1-mangel
-- Systematisk litteratur- og forsøgssøgning målrettet APBD og GBE1-relaterede glykogenoplagringssygdomme
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Præklinisk dokumentation for, at rekombinant GAA kan påvirke polyglucosanophobning i neuroner
+- Systematisk litteratursøgning og søgning efter kliniske forsøg for voksen polyglucosanlegemesygdom
+- Vurdering af administrationsvej og tilgang til centralnervesystemet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

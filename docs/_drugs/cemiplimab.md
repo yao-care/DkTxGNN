@@ -2,7 +2,7 @@
 layout: default
 title: Cemiplimab
 parent: Kun modelforudsigelse (L5)
-nav_order: 102
+nav_order: 176
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cemiplimab: Fra kutant planocellulært karcinom til galdeblære-adenoskvamøst karcinom
+# Cemiplimab: Fra pladecellekarcinom til galdeblære-adenoskvamøst karcinom
 
-## Resumé i én sætning
+## Resumé
 
-Cemiplimab er et PD-1-hæmmende antistof, som er markedsført i Danmark under navnet Libtayo. Datapakken angiver ikke den oprindelige indikation, men lægemidlet er kendt for kutant planocellulært karcinom.
-TxGNN-modellen forudsiger, at det kan have effekt mod **galdeblære-adenoskvamøst karcinom**.
-Der er dog **0 kliniske forsøg** og **0 publikationer** til at understøtte denne specifikke forudsigelse, så den er alene modelbaseret.
+Cemiplimab er et PD-1-blokerende antistof, oprindeligt anvendt til behandling af pladecellekarcinom (især kutant pladecellekarcinom).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **adenoskvamøst karcinom i galdeblæren**,
+men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -43,8 +43,8 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** til at understøtte den
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datapakken (kutant planocellulært karcinom er nævnt i modellens begrundelse) |
-| Forudsagt ny indikation | Galdeblære-adenoskvamøst karcinom |
+| Oprindelig indikation | Pladecellekarcinom (den danske godkendelsestekst er ikke tilgængelig) |
+| Forudsagt ny indikation | Adenoskvamøst karcinom i galdeblæren |
 | TxGNN-forudsigelsesscore | 99,99 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -53,31 +53,39 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** til at understøtte den
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der findes for øjeblikket ingen detaljerede data om virkningsmekanismen. Cemiplimab er et PD-1-hæmmende antistof (immun-checkpoint-hæmmer). Klasseeffekten er at genoprette T-cellernes antitumoraktivitet, og lægemidlets effekt ved kutant planocellulært karcinom er dokumenteret. Mekanistisk kan det derfor tænkes at være relevant for andre tumorer med planocellulær histologi.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra generel viden er cemiplimab et monoklonalt antistof mod PD-1 (PDCD1/CD279). Det blokerer interaktionen mellem PD-1 og PD-L1 (IC50 under 1 nM i en ELISA-analyse) og kan dermed genoprette T-cellernes antitumoraktivitet.
 
-Galdeblære-adenoskvamøst karcinom er en sjælden tumor i galdevejene med en planocellulær komponent. PD-1-blokade er biologisk plausibel for denne komponent. Der er dog ikke fremlagt forsøg eller litteratur, og tumortypen er ikke knyttet til nogen etableret cemiplimab-indikation. Forbindelsen er derfor kun indirekte og bygger på modellens forudsigelse.
+Effekten af cemiplimab ved kutant pladecellekarcinom er veldokumenteret: i forsøgene NCT02383212 og NCT02760498 responderede ca. 50 % af patienter med avanceret sygdom. Adenoskvamøst karcinom indeholder en pladecellekomponent, og PD-1-blokade er derfor biologisk plausibel. Det er dog kun en hypotese. Modellens meget høje score er en beregnet forudsigelse og ikke klinisk evidens.
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Øvrige forudsigelser med samme lægemiddel omfatter pladecellekarcinom i glottis (score 99,99 %), cloakogent karcinom i rektum (99,99 %), basalcellekarcinom i det ydre øre (99,99 %) og adenoskvamøst prostatakarcinom (99,99 %). Alle er på L5, bortset fra basalcellekarcinom i det ydre øre, som er på L4 med ét case-report.
 
 ---
 
-## Litteraturevidens
+## Kliniske forsøg
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
 
 ---
 
-## Information om markedet i Danmark
+## Litteratur
+
+Der foreligger på nuværende tidspunkt ingen relateret litteratur for den primære forudsagte indikation (adenoskvamøst karcinom i galdeblæren).
+
+For en af de øvrige forudsigelser, basalcellekarcinom i det ydre øre, findes ét case-report:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Case report | Clinical and Experimental Dermatology | Varig respons efter seponering af cemiplimab hos én patient med lokalt avanceret basalcellekarcinom. Evidensen er anekdotisk og ikke specifik for det ydre øre. |
+
+---
+
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106090218 | Libtayo (Regeneron Ireland Designated Activity Company) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28106090218 | Libtayo (Regeneron Ireland Designated Activity Company) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
 
 ---
 
@@ -85,32 +93,30 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Immunterapi (PD-1-hæmmer, monoklonalt antistof) |
-| Risiko for myelosuppression | Lav (ikke klassisk knoglemarvshæmmende; immunrelaterede hæmatologiske bivirkninger kan forekomme) |
-| Emetogenicitetsklassifikation | Lav |
-| Monitoreringspunkter | Blodtal, lever- og nyrefunktion, thyreoideafunktion, blodsukker; observation for immunrelaterede bivirkninger |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for håndterings- og tilberedningsanvisninger |
-
-Ovenstående er baseret på lægemiddelklassen. Der foreligger ingen toksicitetsdata i datapakken, så det bør bekræftes i det godkendte produktresumé.
+| Klassifikation | Immunterapi (PD-1-checkpointhæmmer, monoklonalt antistof). Ikke et konventionelt cytotoksisk middel |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC), herunder blodtal, lever-, nyre- og thyreoideafunktion |
+| Håndtering | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af kræftlægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke tilgængelige data om advarsler eller kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
----
+**Lægemiddelinteraktioner**: Der er identificeret 9 interaktioner af moderat sværhedsgrad, alle med systemiske kortikosteroider:
+- Hydrocortison
+- Triamcinolon
+- Dexamethason
+- Betamethason
+- Budesonid
+- Prednisolon
+- Prednison
+- Methylprednisolon
+- Deflazacort
 
-## Øvrige forudsigelser i datapakken
-
-Datapakken indeholder flere forudsigelser med tilsvarende høje scorer (ca. 99,99 %). Forudsigelserne er angivet to gange i datapakken og er kun nævnt én gang her:
-
-| Forudsagt indikation | Evidensniveau | Bemærkning |
-|------|------|------|
-| Glottis-planocellulært karcinom | L5 | Kun indirekte biologisk rationale via planocellulær histologi; ingen forsøg eller litteratur |
-| Rektalt kloakogent karcinom | L5 | PD-1-blokade er biologisk plausibel; ingen forsøg eller litteratur |
-| Basalcellekarcinom i det ydre øre | L4 | Én case report ([PMID 34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/), 2021, Clin Exp Dermatol): vedvarende respons efter seponering af cemiplimab ved lokalt fremskredent basalcellekarcinom. Evidensen er anekdotisk og ikke specifik for øret. Regulatorisk status ved fremskredent basalcellekarcinom bør verificeres mod det gældende produktresumé |
-| Adenoskvamøst prostatakarcinom | L5 | Svag mekanistisk rationale; prostatacancer responderer generelt dårligt på PD-1-monoterapi |
+Kortikosteroider kan svække den immunmedierede effekt af PD-1-blokade. Samtidig brug bør vurderes klinisk.
 
 ---
 
@@ -119,16 +125,14 @@ Datapakken indeholder flere forudsigelser med tilsvarende høje scorer (ca. 99,9
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for galdeblære-adenoskvamøst karcinom bygger udelukkende på modellens score (evidensniveau L5), uden kliniske forsøg eller publikationer. Sikkerhedsdata og virkningsmekanisme mangler desuden i datagrundlaget.
+Den forudsagte indikation har kun modelbaseret evidens (L5) uden kliniske forsøg eller publikationer. Der mangler desuden data om virkningsmekanisme og sikkerhedsoplysninger fra produktresuméet, så der er ikke grundlag for at gå videre.
 
-**For at komme videre er følgende nødvendigt:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen, hvilket er en blokerende datamangel
-- Detaljerede data om virkningsmekanismen fra DrugBank
-- Den godkendte indikationstekst for Libtayo i Danmark
-- Systematisk søgning efter kliniske forsøg og litteratur om PD-1-hæmmere ved adenoskvamøse karcinomer i galdeveje
-- Ved videre prioritering kan basalcellekarcinom (L4) være et mere oplagt forskningsspørgsmål end galdeblæretumoren
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hent og gennemgå det danske produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst)
+- Supplér data om virkningsmekanisme fra DrugBank
+- Systematisk litteratursøgning og søgning i forsøgsregistre efter cemiplimab ved adenoskvamøst karcinom, herunder galdeblære og galdeveje
+- Vurdér, om forudsigelsen for basalcellekarcinom (L4) bør prioriteres som forskningsspørgsmål, da cemiplimab allerede anvendes ved lokalt avanceret basalcellekarcinom
+- Afklar kriterier for patientudvælgelse, f.eks. PD-L1-status og mutationsbyrde
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

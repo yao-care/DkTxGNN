@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Olodaterol
-parent: Moderat evidens (L3-L4)
-nav_order: 321
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 606
+evidence_level: L5
 indication_count: 4
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,9 +31,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 # Olodaterol: Fra KOL til bronkitis
 
-## Resumé
+## Resumé i én sætning
 
-Olodaterol er en langtidsvirkende beta-2-agonist (LABA), der gives som inhalation én gang dagligt. Den bruges til vedligeholdelsesbehandling af kronisk obstruktiv lungesygdom (KOL). TxGNN-modellen forudsiger, at den kan have effekt ved **bronkitis**, men evidensen er svag: **3 kliniske studier** (alle observationelle og udført i KOL-populationer) og **2 publikationer** (et review og en retningslinje).
+Olodaterol er en langtidsvirkende beta2-agonist (LABA), som oprindeligt anvendes til behandling af kronisk obstruktiv lungesygdom (KOL).
+TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **bronkitis**, men den høje score afspejler sandsynligvis, at kronisk bronkitis er en del af KOL, og ikke en reel ny anvendelse.
+Til bronkitis som selvstændig diagnose er der **0 kliniske forsøg** og **2 publikationer** (begge med fokus på KOL). Den nærtliggende forudsigelse "obstruktiv lungesygdom" har derimod **32 kliniske forsøg** og **20 publikationer**, men det er en anvendelse inden for den eksisterende indikation.
 
 ---
 
@@ -41,11 +43,11 @@ Olodaterol er en langtidsvirkende beta-2-agonist (LABA), der gives som inhalatio
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i den danske registrering. Litteraturen beskriver vedligeholdelsesbehandling af KOL. |
-| Foreslået ny indikation | Bronkitis |
-| TxGNN-prædiktionsscore | 99,84 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
+| Oprindelig indikation | Kronisk obstruktiv lungesygdom (KOL) (fra videngrafen; indikationsteksten i den danske registrering er ikke angivet) |
+| Forudsagt ny indikation | Bronkitis |
+| TxGNN-forudsigelsesscore | 99,84 % |
+| Evidensniveau | L4 (for bronkitis som selvstændig indikation) |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -53,23 +55,30 @@ Olodaterol er en langtidsvirkende beta-2-agonist (LABA), der gives som inhalatio
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata fra DrugBank er ikke tilgængelige. Olodaterol er en LABA, der afslapper glat luftvejsmuskulatur via aktivering af beta-2-adrenoceptorer og øget cAMP. Dette giver langvarig bronkodilatation og er veldokumenteret ved KOL.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi for LABA-klassen er olodaterol en beta2-adrenerg agonist, der afslapper glat muskulatur i luftvejene via beta2-receptor- og cAMP-signalering, og som giver bronkodilatation over 24 timer ved dosering én gang dagligt.
 
-Kronisk bronkitis er en fænotype af KOL. Mekanismen kan derfor teoretisk give gavn ved luftstrømsbegrænsning ved kronisk bronkitis. Der er ingen evidens for akut bronkitis.
+Kronisk bronkitis er en bestanddel af KOL, som allerede er den godkendte indikation. Forbindelsen er derfor biologisk plausibel, men den overlapper i høj grad med den oprindelige indikation og udgør ikke reel repurposing. Den meget høje score skyldes sandsynligvis netop dette overlap.
 
-Den meget høje score (0,998) er alene en modelprædiktion. Den afspejler sandsynligvis den etablerede KOL-sammenhæng og ikke et nyt repurposing-signal.
+Der er ikke fundet kliniske forsøg, der undersøger bronkitis som separat sygdom. Resultaterne for "obstruktiv lungesygdom" er i praksis KOL-data og bør ikke tolkes som evidens for en ny indikation.
 
 ---
 
-## Evidens fra kliniske studier
+## Evidens fra kliniske forsøg
 
-| Studienummer | Fase | Status | Antal deltagere | Hovedresultater |
+Der er ikke registreret kliniske forsøg for bronkitis som selvstændig indikation. Til sammenligning er de vigtigste forsøg for den nærtliggende forudsigelse "obstruktiv lungesygdom" (KOL, dvs. den eksisterende indikation) vist nedenfor som kontekst:
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | Ikke angivet (observationelt) | Afsluttet | 11.316 | Sygdomsbyrde, ressourceforbrug og kliniske udfald hos KOL-patienter, der starter på tiotropium/olodaterol versus fluticasonfuroat/umeclidinium/vilanterol. Ikke et effektstudie. |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | Ikke angivet (observationelt) | Afsluttet | 22.155 | Lægemiddelforbrugsundersøgelse af aclidinium. Olodaterol er ikke det undersøgte lægemiddel, så studiet giver kun indirekte kontekst. |
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | Ikke angivet (observationelt) | Afsluttet | 1.335 | Post-marketing-overvågning i Japan af langtidsbrug af tiotropium + olodaterol ved KOL (kronisk bronkitis, emfysem). Giver sikkerhedsdata fra den virkelige verden, men ingen kontrolleret effektevidens. |
-
-Der er ikke registreret EudraCT-identifikatorer i datagrundlaget.
+| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Fase 3 | Afsluttet | 2624 | 52 ugers dobbeltblindt forsøg: tiotropium + olodaterol vs. enkeltkomponenter ved KOL |
+| [NCT00796653](https://clinicaltrials.gov/study/NCT00796653) | Fase 3 | Afsluttet | 937 | 48 ugers placebokontrolleret forsøg: olodaterol 5 og 10 µg vs. formoterol ved KOL |
+| [NCT00793624](https://clinicaltrials.gov/study/NCT00793624) | Fase 3 | Afsluttet | 906 | Parallelt 48 ugers forsøg med samme design som ovenfor |
+| [NCT00782509](https://clinicaltrials.gov/study/NCT00782509) | Fase 3 | Afsluttet | 644 | Olodaterol vs. placebo i 48 uger ved KOL |
+| [NCT01525615](https://clinicaltrials.gov/study/NCT01525615) | Fase 3 | Afsluttet | 404 | Effekt af tiotropium + olodaterol på udholdenhed ved fysisk anstrengelse efter 12 uger |
+| [NCT01694771](https://clinicaltrials.gov/study/NCT01694771) | Fase 3 | Afsluttet | 1134 | Olodaterol tillagt tiotropium vs. tiotropium alene, lungefunktion efter 12 uger |
+| [NCT01533935](https://clinicaltrials.gov/study/NCT01533935) | Fase 3 | Afsluttet | 291 | Effekt på lungehyperinflation og udholdenhed efter 6 uger |
+| [NCT01040689](https://clinicaltrials.gov/study/NCT01040689) | Fase 3 | Afsluttet | 108 | 24-timers FEV1-profil for olodaterol vs. tiotropium |
+| [NCT01013753](https://clinicaltrials.gov/study/NCT01013753) | Fase 2 | Afsluttet | 198 | Dosis og effekt ved astma (ikke bronkitis, ikke godkendt indikation) |
+| [NCT02682862](https://clinicaltrials.gov/study/NCT02682862) | Fase 4 | Afsluttet | 17 | Eksplorativt oscillometriforsøg hos rygere med astma |
 
 ---
 
@@ -77,24 +86,33 @@ Der er ikke registreret EudraCT-identifikatorer i datagrundlaget.
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Gennemgang af farmakologi, farmakokinetik, effekt og sikkerhed for olodaterol som LABA ved KOL. |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Retningslinje | Basic Clin Pharmacol Toxicol | Finsk national retningslinje for diagnose og farmakoterapi af stabil KOL. |
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Gennemgang af farmakologi, farmakokinetik, effekt og sikkerhed for olodaterol ved KOL |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Retningslinje (review) | Basic Clin Pharmacol Toxicol | Finske nationale retningslinjer for diagnostik og farmakoterapi ved stabil KOL |
+
+Yderligere relevant litteratur for den nærtliggende forudsigelse (KOL), blandt andet:
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [41729543](https://pubmed.ncbi.nlm.nih.gov/41729543/) | 2026 | Komparativ effektstudie | JAMA Intern Med | Sammenligning af effekt og sikkerhed for LAMA-LABA-inhalatorer ved KOL |
+| [25114521](https://pubmed.ncbi.nlm.nih.gov/25114521/) | 2014 | Indirekte sammenligning/meta-analyse | Int J Chron Obstruct Pulmon Dis | Olodaterol vs. indacaterol ved KOL |
+| [25773742](https://pubmed.ncbi.nlm.nih.gov/25773742/) | 2015 | Review | Drugs | Fase 3-studier viser forbedret lungefunktion over 24 timer med dosering én gang dagligt |
+| [31119643](https://pubmed.ncbi.nlm.nih.gov/31119643/) | 2019 | Review | Drugs | Tiotropium/olodaterol som fastdosiskombination ved KOL |
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105097512 | Striverdi Respimat (Boehringer Ingelheim Int. GmbH) | Inhalationsvæske, opløsning | Ikke oplyst i datagrundlaget |
+| 28105097512 | Striverdi Respimat (Boehringer Ingelheim Int. GmbH) | Inhalationsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet specifikke data om advarsler, kontraindikationer eller interaktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Der er registreret 100 mulige interaktioner, alle vist her er af moderat grad. Eksempler: epinephrin, ephedrin, clarithromycin, famotidin, loperamid, cisaprid, phentermin, diethylpropion, fenfluramin, isomethepten, samt GLP-1-agonister og SGLT2-hæmmere (f.eks. semaglutid, albiglutid, canagliflozin, ertugliflozin) og 5-HT3-antagonister (dolasetron, palonosetron, granisetron). Samtidig brug af andre sympatomimetika kan forstærke beta-adrenerge bivirkninger og bør vurderes individuelt.
 
-Som klasseeffekt for LABA bør kardiovaskulær sikkerhed overvåges.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -103,17 +121,14 @@ Som klasseeffekt for LABA bør kardiovaskulær sikkerhed overvåges.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle tilknyttede studier er observationelle og udført i KOL-populationer. Der findes ingen bronkitis-specifikke effektstudier. Forudsigelsen er derfor et forskningsspørgsmål og ikke grundlag for klinisk anvendelse.
+Bronkitis er i praksis en del af KOL, som allerede er den godkendte indikation, så forudsigelsen udgør ikke en reel ny anvendelse. Der findes ingen kliniske forsøg for bronkitis som selvstændig diagnose. Evidensen for KOL er stærk (flere afsluttede fase 3-forsøg), men den kan ikke overføres til andre indikationer, herunder astma, hvor kun små og eksplorative data findes.
 
-Bemærk, at TxGNN's anden forudsigelse, **obstruktiv lungesygdom**, har markant stærkere evidens (L1, flere afsluttede fase 3-RCT'er). Det er dog sandsynligvis en allerede godkendt indikation (KOL) og ikke en ny repurposing-indikation.
-
-**For at komme videre kræves:**
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation
-- Mekanismedata (MOA) fra DrugBank
-- Bronkitis-specifikke kontrollerede studier, eventuelt med afgrænsning mellem kronisk og akut bronkitis
-- Afklaring af, om forudsigelsen adskiller sig fra den allerede godkendte KOL-indikation
-
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser kræver klinisk validering, før de kan anvendes i praksis.*
+**For at komme videre kræves følgende:**
+- Afklaring af, om "bronkitis" i modellen dækker kronisk bronkitis (allerede omfattet af KOL) eller akut/ikke-obstruktiv bronkitis, hvor der ikke er evidens
+- Mekanismedata (MOA) og verifikation mod produktresuméet
+- Advarsler og kontraindikationer fra den danske produktinformation fra Lægemiddelstyrelsen
+- Den godkendte indikationstekst for Striverdi Respimat
+- Hvis en ny anvendelse ønskes undersøgt (f.eks. astma eller ikke-obstruktiv bronkitis), er målrettede kontrollerede forsøg nødvendige
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

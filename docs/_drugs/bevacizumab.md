@@ -2,7 +2,7 @@
 layout: default
 title: Bevacizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 63
+nav_order: 111
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bevacizumab: Forudsagt ny indikation – neoplasme i epiglottis
+# Bevacizumab: Fra peritonealkræft til epiglottisneoplasme
 
-## Resumé i få linjer
+## Opsummering i én sætning
 
-Bevacizumab er et monoklonalt antistof, der hæmmer VEGF-A og dermed tumorens nydannelse af blodkar. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **neoplasme i epiglottis** (score 99,90 %). Der er dog **ingen kliniske forsøg og ingen litteratur** for netop denne indikation, så forudsigelsen er ren modelforudsigelse (evidensniveau L5).
+Bevacizumab er et antistof mod VEGF, som oprindeligt bruges til behandling af bl.a. kræft i bughinden, æggestokkene, brystkræft, tyk- og endetarmskræft og glioblastom.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **epiglottisneoplasme** (svulst i strubelåget).
+Der er dog **ingen kliniske forsøg** og **ingen publikationer**, som direkte understøtter denne forudsigelse, så den hviler alene på modellen.
 
 ---
 
@@ -41,10 +43,11 @@ Bevacizumab er et monoklonalt antistof, der hæmmer VEGF-A og dermed tumorens ny
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Neoplasme i epiglottis (epiglottis neoplasm) |
+| Oprindelig indikation | Ingen godkendt indikationstekst er tilgængelig i de indsamlede data for den danske tilladelse. Den vidensgrafbaserede oversigt omfatter bl.a. peritonealkræft, ovarie-, bryst- og kolonkræft samt glioblastom |
+| Forudsagt ny indikation | Epiglottisneoplasme |
 | TxGNN-forudsigelsesscore | 99,90 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -52,72 +55,64 @@ Bevacizumab er et monoklonalt antistof, der hæmmer VEGF-A og dermed tumorens ny
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Bevacizumab neutraliserer VEGF-A og hæmmer dermed tumorens angiogenese. Detaljerede data om virkningsmekanisme fra DrugBank foreligger ikke i evidenspakken. Den beskrevne VEGF-A-hæmning stammer fra den mekanistiske vurdering i pakken.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Bevacizumab er dog kendt som et monoklonalt antistof, der neutraliserer VEGF-A og dermed hæmmer tumorangiogenese (dannelse af nye blodkar i tumoren).
 
-En hæmning af angiogenesen er biologisk plausibel ved tumorer i hoved- og halsregionen generelt, og epiglottis hører til dette område. Modellens forudsigelse er derfor ikke mekanistisk usandsynlig.
+De oprindelige indikationer er overvejende solide, kraftigt vaskulariserede tumorer. Svulster i hoved-hals-området, herunder strubelåget, er ligeledes vaskulariserede, hvorfor en anti-angiogen tilgang mekanistisk er plausibel.
 
-Oplysninger om lægemidlets oprindelige indikation mangler i evidenspakken. Forudsigelsen kan derfor ikke sammenholdes med kendt produktinformation, og ligheden med den oprindelige indikation er ikke vurderet. Forudsigelsen bør derfor tolkes med forsigtighed.
+Det skal understreges, at den høje score (0,999) alene er en modelforudsigelse. Der er ikke fundet kliniske forsøg eller litteratur for netop denne sygdom, og en mekanistisk sammenhæng er derfor kun teoretisk.
 
 ---
 
 ## Kliniske forsøg
 
-Der er i øjeblikket ikke registreret relevante kliniske forsøg for denne indikation.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relevant litteratur for denne indikation.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for epiglottisneoplasme.
+
+*Bemærk om andre forudsigelser:* Modellen forudsiger også høje scorer for godartet svulst i tungen (99,90 %), testikel- og parateskulær tumor (99,90 %), godartet svulst i hypopharynx (99,90 %) og godartet svulst i mundbunden (99,90 %). For tungesvulst og mundbundssvulst er der kun indirekte litteratur (fx oversigtsartikler om mundslimhindetoksicitet, prækliniske hoved-hals-modeller og et enkelt case-report om alveolært bløddelssarkom i tungen), og ingen af disse evaluerer bevacizumab ved de godartede tilstande. Evidensniveauet er L4 for disse to og L5 for de øvrige.
 
 ---
 
-## Andre forudsagte indikationer med evidens
+## Markedsinformation i Danmark
 
-Evidenspakken indeholder yderligere forudsigelser. Den eneste med forsøgsdata er **benign neoplasme i mundbunden** (score 99,90 %, evidensniveau L3, anbefaling: forskningsspørgsmål):
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT01552434](https://clinicaltrials.gov/study/NCT01552434) | Fase 1 | Aktiv, ikke rekrutterende | 155 | Dosis- og sikkerhedsforsøg med bevacizumab og temsirolimus, alene eller sammen med valproinsyre eller cetuximab, ved fremskreden malignitet og andre sygdomme. |
-
-- Forsøget giver kun sikkerhedsdata for kombinationerne og ingen effektdata.
-- Populationen er sandsynligvis bredere end benigne læsioner i mundbunden.
-- Der er to præklinisk studier af hoved-hals-cancer (PMID [18577994](https://pubmed.ncbi.nlm.nih.gov/18577994/), 2008, og PMID [21862388](https://pubmed.ncbi.nlm.nih.gov/21862388/), 2011). Det første understøtter kombinationen af bevacizumab med erlotinib og strålebehandling.
-- Ingen af dem undersøger benign neoplasme i mundbunden.
-
-For **benign neoplasme i tungen** (evidensniveau L4) er der syv publikationer om malign hoved-hals-sygdom, toksicitet, billeddannelse og præklinisk arbejde samt en case report om en sarkom. Ingen tester bevacizumab ved benigne tungetumorer, så evidensen er kun indirekte.
-
-Forudsigelserne for tumor i testis/paratestis og benign neoplasme i hypopharynx har ingen forsøg eller litteratur (L5).
-
----
-
-## Oplysninger om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106410720 | Abevmy | Koncentrat til infusionsvæske, opløsning | Biosimilar Collaborations Ireland Limited |
+| 28106410720 | Abevmy | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
-Abevmy er et biosimilært bevacizumab-præparat. Indikationsteksten er ikke tilgængelig i evidenspakken.
+Indehaver: Biosimilar Collaborations Ireland Limited. Produktet er et biosimilært præparat.
 
 ---
 
 ## Cytotoksicitet
 
-Bevacizumab er et kræftlægemiddel. Klassificeringen nedenfor bygger på lægemiddelklassen, da evidenspakken ikke indeholder toksicitetsdata.
-
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Målrettet behandling (monoklonalt antistof mod VEGF-A), ikke konventionelt cytotoksisk |
-| Risiko for myelosuppression | Lav som monoterapi; kan forekomme i kombination med kemoterapi |
-| Emetogenicitet | Lav |
-| Monitoreringspunkter | Blodtryk, urinprotein, blodstatus ved kombination med kemoterapi |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af kræftlægemidler |
-
-Se i øvrigt produktresuméets (SmPC) advarsler og forsigtighedsregler.
+| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt anti-VEGF-antistof), ikke konventionelt cytotoksisk |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering af antineoplastiske lægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Advarsler og kontraindikationer fra Lægemiddelstyrelsens indlægsseddel er ikke hentet, og der er ikke fundet registrerede lægemiddelinteraktioner.
+Produktresuméets advarsler og kontraindikationer er ikke indgået i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+
+**Lægemiddelinteraktioner:** Der er identificeret 22 mulige interaktioner. De vigtigste klassificeret som alvorlige (Major) er:
+- Deferipron
+- Samarium (153Sm) lexidronam
+- Panitumumab
+- Sunitinib
+- Thalidomid
+
+Desuden er der en række interaktioner af moderat grad, bl.a. med bisfosfonater (alendronsyre, risedronsyre, etidronsyre, ibandronat, pamidronsyre, tiludronsyre), vækstfaktorer (filgrastim, pegfilgrastim, sargramostim), palifermin, strontium-89, radium-223, romosozumab, idelalisib og natriumfosfat (P32).
+
+**Bemærkning om litteraturen:** En gennemgang af mundslimhindetoksicitet nævner bevacizumab i forbindelse med geografisk tunge, og de indsamlede data peger på, at bevacizumab kan give mundslimhinde- og sårhelingsproblemer. Dette taler imod brug ved godartede tilstande i mundhulen.
 
 ---
 
@@ -126,16 +121,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Advarsler og k
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for neoplasme i epiglottis bygger kun på modellen (L5) uden kliniske forsøg eller litteratur. Sikkerhedsscreeningen kan desuden ikke gennemføres, fordi advarsler og kontraindikationer mangler.
+Forudsigelsen for epiglottisneoplasme er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Sikkerhedsdata fra produktresuméet mangler, hvilket blokerer for videre sikkerhedsscreening.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet eller indlægssedlen fra Lægemiddelstyrelsen (blokerende datahul).
-- Data om virkningsmekanisme fra DrugBank.
-- Oplysninger om lægemidlets godkendte indikationer, så forudsigelsen kan sammenlignes med kendt brug.
-- Systematisk litteratur- og forsøgssøgning specifikt for epiglottis-neoplasme.
-- For mundbunden: vurdering af, om Fase 1-forsøget NCT01552434 faktisk omfatter benigne læsioner.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser fra modellen skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendte indikationer)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratur- og forsøgssøgning specifikt for bevacizumab ved svulster i strubelåget/hoved-hals-området
+- Vurdering af sammenhængen med de oprindelige indikationer og af administrationsvej (begge afventer)
+- For de godartede tilstande: en nytte-risiko-vurdering, da bevacizumabs kendte toksicitet kan veje tungere end en mulig gevinst
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

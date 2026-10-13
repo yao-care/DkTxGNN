@@ -2,7 +2,7 @@
 layout: default
 title: Ublituximab
 parent: Kun modelforudsigelse (L5)
-nav_order: 462
+nav_order: 870
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ublituximab: Fra recidiverende multipel sklerose til diabetisk grå stær
+# Ublituximab: Fra recidiverende multipel sklerose til diabetisk katarakt
 
-## Resumé
+## Resumé i én sætning
 
-Ublituximab er et glykokonstrueret anti-CD20-monoklonalt antistof, der nedbryder B-celler. Det er markedsført som Briumvi til recidiverende multipel sklerose.
-TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter det. Forudsigelsen er kun modelbaseret, og der er ikke fundet nogen troværdig mekanistisk sammenhæng.
+Ublituximab er et glykoengineeret anti-CD20-monoklonalt antistof, der er markedsført til behandling af recidiverende former for multipel sklerose (MS). TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -42,9 +41,9 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (di
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Recidiverende multipel sklerose (ifølge evidenspakkens mekanistiske vurdering; indikationsteksten er ikke registreret i licensdata) |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-forudsigelsesscore | 98,57 % |
+| Oprindelig indikation | Recidiverende multipel sklerose (angivet i de data, der er indsamlet til rapporten; indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,6 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -54,18 +53,11 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk grå stær (di
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ublituximab er et anti-CD20-antistof, der fjerner B-celler, og stoffet er markedsført til recidiverende multipel sklerose.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til rapporten. Ublituximab er dog kendt som et anti-CD20-antistof, der binder CD20 (MS4A1) på B-celler og medierer B-celledepletering, bl.a. via forstærket antistofafhængig cellemedieret cytotoksicitet. Det blev oprindeligt udviklet til B-cellemaligniteter og senere omplaceret til MS.
 
-Diabetisk grå stær skyldes hovedsageligt øget flux gennem polyolvejen, oxidativt stress og proteinglykering i linsen. Linsen er avaskulær og immunprivilegeret. B-cellenedbrydning har ingen kendt rolle i denne sygdomsproces. Derudover er et stort intravenøst antistof usandsynligt at nå frem til linsen.
+Der kendes ingen plausibel mekanistisk sammenhæng mellem depletering af CD20-positive B-celler og diabetisk katarakt. Sidstnævnte skyldes primært aktivering af polyolvejen, osmotisk stress, oxidativ skade og proteinglykering i øjets linse. Et immunmodulerende antistof forventes ikke at påvirke disse processer.
 
-Den høje score (0,986) er sandsynligvis en artefakt i vidensgrafen, fordi stoffet ikke har registrerede oprindelige indikationer eller virkningsmekanisme i data.
-
-Modellen forudsiger også flere andre former for grå stær med næsten samme score (ca. 98,5 %). Her indgår moden og umoden grå stær, tetanisk grå stær, grå stær ved type 2-diabetes og kraniostenose-associeret grå stær. For ingen af dem er der en troværdig mekanistisk forbindelse:
-- **Tetanisk grå stær** følger af hypokalcæmi eller hypoparathyroidisme og behandles ved at korrigere kalciumstofskiftet, som ublituximab ikke påvirker.
-- **Kraniostenose-associeret grå stær** er en sjælden syndromisk, sandsynligvis genetisk eller udviklingsbetinget tilstand uden kendt B-cellerelevans.
-- **Moden og umoden grå stær** skyldes aldersrelateret proteinaggregering og oxidativ skade, ikke B-cellemedierede processer.
-
-Flere af posterne overlapper sandsynligvis hinanden i vidensgrafen.
+Den høje score (0,986) afspejler sandsynligvis lighed mellem katarakt-begreber i modellens vidensgraf snarere end en biologisk sammenhæng. Det samme gælder de øvrige forudsagte kataraktformer (moden, umoden, tetanisk, type 2-diabetes-associeret og kraniostenose-katarakt), som alle har samme score (ca. 98,5 %), ingen studier og ingen mekanistisk begrundelse.
 
 ---
 
@@ -75,25 +67,41 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106733621 | Briumvi | Koncentrat til infusionsvæske, opløsning | Neuraxpharm Pharmaceuticals S.L. |
+| 28106733621 | Briumvi (Neuraxpharm Pharmaceuticals S.L.) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
 
-Godkendt indikationstekst er ikke registreret i de tilgængelige data.
+Administrationsvejen er intravenøs infusion (injicerbar).
+
+---
+
+## Cytotoksicitet
+
+| Punkt | Indhold |
+|------|------|
+| Klassifikation | Immunterapi (monoklonalt anti-CD20-antistof, B-celledepleterende) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+
+Bemærk: Ublituximab er her anvendt til en autoimmun sygdom (MS), ikke som konventionel kemoterapi. Der foreligger ingen toksicitetsdata i de indsamlede data. Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Der er kun registreret farmakologisk målinformation (binding til CD20/MS4A1) og ingen specifikke interaktioner med andre lægemidler.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer, da disse ikke indgår i de indsamlede data.
 
 ---
 
@@ -102,15 +110,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller publikationer. Der er ingen troværdig mekanistisk forbindelse mellem B-cellenedbrydning og grå stær, og et stort intravenøst antistof har sandsynligvis ikke adgang til linsen.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer og uden en plausibel mekanistisk sammenhæng mellem B-celledepletering og dannelse af linseopacitet. Tilgængelige sikkerhedsdata er desuden ufuldstændige.
 
-**For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Data om virkningsmekanisme fra DrugBank
-- Registrering af den godkendte indikationstekst
-- En konkret mekanistisk hypotese og prækliniske data, der kan understøtte relevansen for linsen, samt en vurdering af administrationsvejens egnethed (ruteforenelighed er endnu ikke vurderet)
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk evidens for en rolle af CD20-positive B-celler i katarakt
+- Fuldstændige data om virkningsmekanisme (MOA)
+- Sikkerhedsdata fra produktresuméet (advarsler og kontraindikationer), som mangler i de indsamlede data
+- Vurdering af, om systemisk B-celledepletering er forsvarlig i en population med katarakt, som typisk behandles kirurgisk, samt af mulige administrationsveje til øjet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

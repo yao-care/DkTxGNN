@@ -2,7 +2,7 @@
 layout: default
 title: Idarucizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 223
+nav_order: 421
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idarucizumab: Fra dabigatran-reversering til hæmoglobinopati
+# Idarucizumab: Fra dabigatran-antidot til hæmoglobinopati
 
 ## Resumé i én sætning
 
-Idarucizumab (Praxbind) er et humaniseret Fab-fragment, der binder dabigatran og neutraliserer dets antikoagulerende effekt.
-TxGNN-modellen forudsiger, at det kan have effekt ved **hæmoglobinopati**, men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter forudsigelsen.
-Forudsigelsen vurderes som sandsynligvis et artefakt i vidensgrafen og ikke som et reelt lægemiddelrepositioneringsspor.
+Idarucizumab (handelsnavn Praxbind) er et antistoffragment, der bruges til at neutralisere virkningen af dabigatran. Dette fremgår dog ikke af de godkendte indikationstekster i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **hæmoglobinopati**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse.
 
 ---
 
@@ -43,7 +41,7 @@ Forudsigelsen vurderes som sandsynligvis et artefakt i vidensgrafen og ikke som 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Reversering af dabigatrans antikoagulerende effekt (ud fra mekanismebeskrivelsen; indikationsteksten er ikke angivet i de danske registerdata) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Hæmoglobinopati |
 | TxGNN-forudsigelsesscore | 95,7 % |
 | Evidensniveau | L5 |
@@ -51,35 +49,27 @@ Forudsigelsen vurderes som sandsynligvis et artefakt i vidensgrafen og ikke som 
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Øvrige forudsigelser har tilsvarende høje scorer, men samme evidensgrundlag (L5, ingen studier):
+---
 
-| Forudsagt indikation | TxGNN-score |
-|------|------|
-| Reumatoid arthritis | 95,5 % |
-| Partiel deletion af den korte arm af kromosom 16 | 95,0 % |
-| Beta-thalassæmi med andre manifestationer | 95,0 % |
-| Pyruvatkinasemangel i røde blodlegemer | 94,8 % |
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Posterne optrådte to gange i inputtet og er slået sammen i denne rapport.
+Idarucizumab er et humaniseret monoklonalt antistoffragment (Fab), der binder dabigatran og ophæver dets antikoagulerende effekt. Data om lægemidlets oprindelige virkningsmekanisme var ikke tilgængelige i de indsamlede data, hvilket begrænser den mekanistiske vurdering.
+
+Der er ingen oplagt biologisk sammenhæng mellem dette virkningsprincip og hæmoglobinopatier, som skyldes defekter i dannelsen eller opbygningen af hæmoglobin. Den høje score (0,957) er en ren beregningsmæssig forudsigelse. Den afspejler sandsynligvis sammenhænge i vidensgrafen snarere end en biologisk begrundelse.
+
+Øvrige forudsigelser i listen er på samme måde uden mekanistisk understøttelse:
+
+| Forudsagt indikation | Score | Vurdering |
+|------|------|------|
+| Hæmoglobinopati | 95,7 % | Ingen plausibel mekanistisk forbindelse |
+| Reumatoid artritis | 95,5 % | Ingen kendt immunmodulerende effekt på relevante signalveje (TNF, IL-6, B-celler, JAK) |
+| Partiel deletion af den korte arm af kromosom 16 | 95,0 % | Genetisk kromosomafvigelse, som et antidotantistof ikke kan korrigere |
+| Beta-thalassæmi med andre manifestationer | 95,0 % | Nedsat beta-globinsyntese påvirkes ikke af dabigatran-binding |
+| Pyruvatkinase-mangel i røde blodlegemer | 94,8 % | Lægemidlet påvirker ikke de røde blodlegemers energistofskifte |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
-
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i Evidence Pack. Ud fra kendt information er idarucizumab et målrettet antistoffragment, der binder dabigatran med høj affinitet og ophæver dets effekt. Lægemidlet har ingen kendt virkning på globinsyntese, hæmoglobinstabilitet, erytropoiese eller røde blodlegemers stofskifte.
-
-Der er derfor ikke identificeret nogen plausibel mekanistisk forbindelse mellem den oprindelige indikation og de forudsagte sygdomme:
-
-- **Hæmoglobinopati og beta-thalassæmi:** skyldes nedsat eller manglende globinkædesyntese. Idarucizumab påvirker hverken globinekspression eller jernhåndtering.
-- **Pyruvatkinasemangel:** er en arvelig enzymdefekt i erytrocytternes glykolyse. Idarucizumab har ingen kendt effekt på PKLR-enzymfunktionen.
-- **Reumatoid arthritis:** idarucizumab har ingen kendt immunmodulerende eller antiinflammatorisk aktivitet og ingen rationale for at påvirke TNF-, IL-6- eller andre RA-signalveje.
-- **Partiel deletion af kromosom 16p:** er en kromosomal strukturel forstyrrelse. Et lægemiddel, der neutraliserer dabigatran, kan ikke korrigere tab af gendosis.
-
-De høje scorer afspejler sandsynligvis nærhed i vidensgrafen via hæmatologiske knudepunkter (fx alfa-globingener på 16p) og ikke et farmakologisk grundlag.
-
----
-
-## Klinisk evidens
+## Klinisk evidens fra forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -91,17 +81,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105566415 | Praxbind (Boehringer Ingelheim Int. GmbH) | Injektions-/infusionsvæske, opløsning | Ikke angivet i registerdata |
+| 28105566415 | Praxbind (Boehringer Ingelheim Int. GmbH) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet data om interaktioner i Evidence Pack.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -110,15 +100,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fu
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne bygger udelukkende på modelscorer (L5) uden kliniske forsøg eller litteratur, og der er ikke identificeret nogen plausibel mekanistisk forbindelse. Det skønnes, at de høje scorer er artefakter i vidensgrafen.
+Forudsigelserne bygger udelukkende på modelberegning (evidensniveau L5). Der findes ingen kliniske forsøg eller publikationer, og der er ingen plausibel biologisk sammenhæng mellem idarucizumabs virkningsmekanisme og de forudsagte sygdomme.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresumeet fra Lægemiddelstyrelsen (advarsler og kontraindikationer er ikke tilgængelige, hvilket blokerer sikkerhedsscreeningen)
-- Detaljerede data om virkningsmekanisme (MOA), fx fra DrugBank
-- Et konkret biologisk rationale og prækliniske data, før et repositioneringsspor kan genovervejes
-- Bekræftelse af den godkendte indikationstekst for Praxbind i Danmark
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at gå videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet for advarsler og kontraindikationer, da disse data mangler og blokerer den videre sikkerhedsvurdering
+- Data om den detaljerede virkningsmekanisme (MOA)
+- Bekræftelse af den godkendte indikation i Danmark
+- Prækliniske eller mekanistiske studier, der kan begrunde en biologisk hypotese, før der overvejes kliniske forsøg
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

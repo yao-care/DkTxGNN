@@ -2,7 +2,7 @@
 layout: default
 title: Alfacalcidol
 parent: Kun modelforudsigelse (L5)
-nav_order: 23
+nav_order: 35
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alfacalcidol: Fra ikke-angivet oprindelig indikation til familiær isoleret hypoparathyroidisme
+# Alfacalcidol: Fra hyperparathyroidisme og renal osteodystrofi til familiær isoleret hypoparathyroidisme
 
 ## Resumé i én sætning
 
-Alfacalcidol er en aktiv D-vitaminanalog (1-alfa-hydroxyleret prodrug). Den oprindelige godkendte indikation fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at stoffet kan være virksomt ved **familiær isoleret hypoparathyroidisme pga. nedsat PTH-sekretion**.
-Forudsigelsen bygger kun på modellen: der er **0 kliniske forsøg** og **0 publikationer** knyttet til netop denne sygdom.
+Alfacalcidol er en aktiveret form af D-vitamin (1-alfa-hydroxyleret prodrug), som oprindeligt anvendes ved hyperparathyroidisme, osteitis fibrosa, hypoparathyroidisme og renal osteodystrofi.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion**.
+Der er **ingen kliniske forsøg** og **ingen publikationer** specifikt for denne undergruppe. Forudsigelsen er i praksis en udvidelse af en eksisterende indikation og ikke egentlig repurposing.
 
 ---
 
@@ -43,48 +43,64 @@ Forudsigelsen bygger kun på modellen: der er **0 kliniske forsøg** og **0 publ
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Familiær isoleret hypoparathyroidisme pga. nedsat PTH-sekretion |
-| TxGNN-forudsigelsesscore | 99,61 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Oprindelig indikation | Hyperparathyroidisme, osteitis fibrosa, hypoparathyroidisme, renal osteodystrofi (fra videngrafen; den godkendte indikationstekst i den danske registrering er ikke tilgængelig) |
+| Foreslået ny indikation | Familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion |
+| TxGNN-forudsigelsesscore | 99,6 % |
+| Evidensniveau | L4 (L5 for flere af de øvrige forudsigelser) |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (for den primære forudsigelse: forskningsspørgsmål, som kan fremmes med forbehold, hvis den betragtes som en udvidelse af den eksisterende indikation) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata (MOA) fra DrugBank foreligger ikke. Ud fra kendt farmakologi er alfacalcidol en prodrug, der aktiveres ved 25-hydroxylering i leveren. Stoffet omgår dermed det PTH-afhængige 1-alfa-hydroxyleringstrin i nyrerne.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. På baggrund af kendt farmakologi er alfacalcidol en prodrug, der omdannes i leveren til calcitriol (aktivt D-vitamin) og dermed omgår det nyrerelaterede 1-alfa-hydroxylase-trin. Ved tilstande med PTH-mangel øger det calciumoptagelsen i tarmen og kan korrigere hypocalcæmi uafhængigt af PTH.
 
-Ved PTH-mangel er netop dette trin utilstrækkeligt, fordi PTH normalt stimulerer nyrernes omdannelse af D-vitamin til den aktive form. Aktiv D-vitamin er en anerkendt behandlingstilgang ved hypoparathyroidisme. Mekanismen er derfor biologisk plausibel for hypokalcæmi ved PTH-mangel.
+Hypoparathyroidisme er allerede en af lægemidlets oprindelige indikationer. Den familiære isolerede form er en genetisk undergruppe af samme sygdom, så den mekanistiske sammenhæng er stærk. Den høje TxGNN-score afspejler hovedsageligt den eksisterende indikation.
 
-Datagrundlaget indeholder dog hverken forsøg eller litteratur for denne specifikke sygdom. Evidensniveauet afspejler kun det leverede input. Da listen over oprindelige indikationer er tom, bør det kontrolleres, om anvendelsen allerede er godkendt (on-label) i Danmark. Ellers er det ikke et egentligt repurposing-signal.
+**Øvrige forudsigelser i datasættet:**
+- **Renal tubulær acidose** (score 99,3 %, L4): Evidensen består udelukkende af kasuistikker om osteomalaci sekundært til renal tubulær acidose (ofte ved Sjögrens syndrom), hvor alfacalcidol indgik i et kombineret regime sammen med alkaliterapi. Gevinsten gælder knoglekomplikationen og ikke selve tubulærdefekten, og effekten kan ikke tilskrives alfacalcidol alene.
+- **Dahlberg-Borer-Newcomer syndrom** (score 99,6 %, L5): Der er sandsynligvis en navne- eller ontologifejl, da den fundne litteratur handler om Fanconi-Bickel syndrom, FGF23-relateret hypofosfatæmi, D-vitamin ved kronisk nyresygdom og mælk-alkali-syndrom. Ingen artikel kobler tydeligt lægemidlet til denne sygdom.
+- **Kraniofacial konodysplasi** og **akromesomel dysplasi, type Campailla-Martinelli** (scorer 99,6 % og 99,5 %, L5): Sjældne skeletdysplasier uden identificeret D-vitamin-mekanisme. Forudsigelserne bygger kun på afstand i videngrafen.
 
 ---
 
-## Klinisk forsøgsevidens
+## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for denne indikation.
+For den primære forudsigelse (familiær isoleret hypoparathyroidisme) er der aktuelt ingen relateret litteratur. Nedenfor er de mest relevante publikationer for renal tubulær acidose:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [22740247](https://pubmed.ncbi.nlm.nih.gov/22740247/) | 2013 | Kasuistik | Modern Rheumatology | Osteomalaci ved renal tubulær acidose og Sjögrens syndrom behandlet med natriumbikarbonat, risedronat, alfacalcidol og prednisolon. Knogletætheden normaliseredes efter 24 måneder |
+| [11518137](https://pubmed.ncbi.nlm.nih.gov/11518137/) | 2001 | Kasuistik | Internal Medicine | Hurtig bedring af osteomalaci ved Sjögrens syndrom, leddegigt og type 1 renal tubulær acidose efter alkaliterapi og behandling med bl.a. alfacalcidol |
+| [33398781](https://pubmed.ncbi.nlm.nih.gov/33398781/) | 2021 | Kasuistik | CEN Case Reports | Osteomalaci ved atypisk renal tubulær acidose med D-vitaminmangel; patienten var behandlet med aktivt D-vitamin |
+| [28509074](https://pubmed.ncbi.nlm.nih.gov/28509074/) | 2012 | Kasuistik/review | CEN Case Reports | Osteomalaci sekundært til distal renal tubulær acidose ved Sjögrens syndrom med litteraturgennemgang |
+| [36412607](https://pubmed.ncbi.nlm.nih.gov/36412607/) | 2023 | Kasuistik/review | Kidney & Blood Pressure Research | Svær hypofosfatæmi som første tegn på renalt Fanconi-syndrom og distal renal tubulær acidose relateret til zoledronsyre |
+
+Øvrig litteratur knyttet til Dahlberg-Borer-Newcomer syndrom (fx [29545131](https://pubmed.ncbi.nlm.nih.gov/29545131/), et review fra 2018 om aktive D-vitaminanaloger ved kronisk nyresygdom) er kun indirekte relevant og understøtter ikke den navngivne sygdom.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107070623 | Alfacalcidol "2care4" (2care4 ApS) | Kapsler, bløde | Ikke angivet i datagrundlaget |
+| 28107070623 | Alfacalcidol "2care4" (2care4 ApS) | Bløde kapsler | Indikationsteksten er ikke tilgængelig |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovvejelser
 
-Der foreligger ingen sikkerhedsdata i datagrundlaget. Interaktionsopslaget gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke fundet data om interaktioner med andre lægemidler. Se det godkendte produktresumé (SmPC) for oplysninger om advarsler, kontraindikationer og interaktioner.
+
+Fra den indsamlede litteratur er der følgende relevante sikkerhedssignaler: Ved hypoparathyroidisme kan høje doser calcium og D-vitamin give calcium-alkali-syndrom med hypercalcæmi og nedsat nyrefunktion (PMID 31968342). Ved renal tubulær acidose kræver risikoen for hypercalciuri og nefrocalcinose monitorering.
 
 ---
 
@@ -93,17 +109,14 @@ Der foreligger ingen sikkerhedsdata i datagrundlaget. Interaktionsopslaget gav i
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er baseret udelukkende på modellen (L5), uden forsøg eller litteratur for denne sygdom. Sikkerhedsoplysninger fra produktresuméet mangler, hvilket blokerer den videre sikkerhedsscreening. Den mekanistiske logik er plausibel, men ikke tilstrækkelig som grundlag for at gå videre.
+Den primære forudsigelse er en udvidelse af en allerede eksisterende indikation (hypoparathyroidisme), hvor den mekanistiske sammenhæng er stærk, men uden specifik klinisk evidens for den familiære undergruppe. Dahlberg-Borer-Newcomer syndrom, kraniofacial konodysplasi og akromesomel dysplasi er alene baseret på modelforudsigelser (L5) uden understøttende data. Renal tubulær acidose har kun kasuistisk evidens for knoglekomplikationen (L4).
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet for Alfacalcidol "2care4" fra Lægemiddelstyrelsen (advarsler, kontraindikationer, interaktioner).
-- Afklar godkendte indikationer og dermed, om anvendelse ved hypoparathyroidisme allerede er on-label i Danmark.
-- Indhent detaljerede mekanismedata (MOA) fra DrugBank.
-- Foretag en målrettet litteratursøgning specifikt for hypoparathyroidisme.
-
-**Bemærkning om øvrige kandidater:** Renal tubulær acidose (score 99,27 %, evidensniveau L4) har et mindre svagt grundlag. Der er tale om kasuistikker og små serier om osteomalaci sekundært til renal tubulær acidose eller Fanconi-syndrom, men ingen kontrollerede studier. Effekten ses ved knoglekomplikationen og mineralforstyrrelsen, ikke ved den tubulære syre-base-defekt. Overvågning af hyperkalcæmi og hyperkalciuri er nødvendig på grund af risikoen for nefrokalcinose.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Det godkendte produktresumé (SmPC) for Alfacalcidol "2care4" med indikationstekst, advarsler og kontraindikationer (en blokerende datamangel)
+- Data om virkningsmekanisme fra DrugBank
+- Verifikation af sygdomsnavnet "Dahlberg-Borer-Newcomer syndrom" (mulig ontologifejl)
+- Kliniske data eller retrospektive serier for familiær isoleret hypoparathyroidisme
+- En plan for monitorering af serumcalcium og -fosfat, nyrefunktion og calciumudskillelse i urinen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

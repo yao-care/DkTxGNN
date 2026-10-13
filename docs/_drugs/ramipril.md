@@ -2,7 +2,7 @@
 layout: default
 title: Ramipril
 parent: Kun modelforudsigelse (L5)
-nav_order: 365
+nav_order: 701
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,79 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ramipril: Fra ACE-hæmmer til pulmonal hypertension som følge af lungesygdom og/eller hypoxi
+# Ramipril: Fra hypertension til pulmonal hypertension ved lungesygdom og/eller hypoksi
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Ramipril er en ACE-hæmmer, som er markedsført i Danmark som tabletter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension som følge af lungesygdom og/eller hypoxi**. Forudsigelsen bygger kun på en grafmodel: der er **0 kliniske forsøg** og **20 publikationer**, og ingen af dem omtaler ramipril.
+Ramipril er en ACE-hæmmer, som oprindeligt anvendes til behandling af forhøjet blodtryk og til forebyggelse af slagtilfælde og andre cerebrovaskulære sygdomme.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension som følge af lungesygdom og/eller hypoksi**.
+Evidensen er svag: der er **ingen registrerede kliniske forsøg** og **kun ét dyreforsøg med direkte relevans** (blandt 11 fundne publikationer, hvoraf de fleste er indirekte eller irrelevante).
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Pulmonal hypertension som følge af lungesygdom og/eller hypoxi |
+| Oprindelig indikation | Hypertension, slagtilfælde og cerebrovaskulære sygdomme (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Pulmonal hypertension som følge af lungesygdom og/eller hypoksi |
 | TxGNN-forudsigelsesscore | 99,93 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Evidensniveau | L4 (kun prækliniske/mekanistiske studier) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen. Ramipril er en ACE-hæmmer, og blokade af renin-angiotensin-aldosteron-systemet (RAAS) kan i teorien påvirke ombygningen af lungekarrene. Det er den eneste mekanistiske forbindelse, som kan udledes af materialet.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Ramipril er imidlertid en ACE-hæmmer (angiotensin-konverterende enzym), som nedsætter dannelsen af angiotensin II. Dets effekt ved hypertension er veldokumenteret.
 
-Der er dog betydelige forbehold. ACE-hæmmere har ikke dokumenteret effekt ved pulmonal hypertension. Ved hypoxisk pulmonal hypertension kan vasodilaterende midler desuden forværre forholdet mellem ventilation og perfusion. Den høje score afspejler derfor mere grafmodellens signal end et klinisk eller mekanistisk belæg.
+Angiotensin II kan give kar-sammentrækning og vaskulær ombygning, også i lungekredsløbet. Hæmning af systemet kan derfor teoretisk mindske pulmonal vasokonstriktion, vaskulær remodellering og hypertrofi af højre ventrikel. Det mest direkte støtte er et rotteforsøg fra 1996, hvor ramipril dæmpede effekten af kronisk hypoksi på lungekarrene. De øvrige fundne artikler omhandler hjerteinfarkt, ACE2, endotelprogenitorceller og hypoksi-reoxygenering i hjertevæv og er kun indirekte relevante.
 
-Modellen forudsiger også andre indikationer for ramipril, hvor den biologiske sammenhæng er mere sammenhængende:
-
-- **Malign hypertensiv nyresygdom** og **malign renovaskulær hypertension** (score 99,93 %). RAAS-aktivering driver karskader og nyreskade ved malign hypertension, og renovaskulær hypertension er reninafhængig. Disse er markeret som "Research Question", men der er heller ikke her fundet forsøg eller litteratur.
-- **Braddock syndrom** (score 99,91 %). Der er ingen mekanistisk begrundelse, og sygdommen er ultra-sjælden.
-- **Pulmonal hypertension med uklar multifaktoriel mekanisme.** Der er ingen forsøg eller litteratur, og enhver RAAS-baseret begrundelse er spekulativ.
+TxGNN-scoren på 0,999 er alene en beregnet forudsigelse. Der er ingen humane data, og klinisk brug indebærer risiko for hypotension, som skal vejes op mod underliggende lungesygdom og hypoksæmi.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er fundet 20 publikationer, men de handler om hypoxi-biologi generelt og omtaler ikke ramipril eller pulmonal hypertension som behandlingsmål. De giver derfor ikke direkte støtte til forudsigelsen. Nedenfor er de 10 mest relevante oversigtsartikler.
-
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respir Care Clin N Am | Gennemgang af de fire grundlæggende mekanismer bag hypoxæmi, bl.a. ventilations-perfusions-mismatch |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cell Biochem | Cellers tilpasning til hypoxi og rollen i vaskulær sygdom, inflammation og cancer |
-| [27423661](https://pubmed.ncbi.nlm.nih.gov/27423661/) | 2016 | Review | Cell Tissue Res | Hypoxi og HIF-1 i vævsreparation og fibrose |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends Cancer | Deubiquitinaser og regulering af hypoxi-inducerbare faktorer (HIF) ved cancer |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Review | Annu Rev Immunol | Hypoxi og HIF i det medfødte immunforsvar og inflammation |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Res Rev | Hypoxi og hjernealdring: neurodegeneration eller neuroprotektion |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clin Oncol | Terapeutisk modifikation af tumorhypoxi og strålefølsomhed |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metab Brain Dis | Kognitiv svækkelse ved akut og kronisk hypoxi: kliniske tegn og molekylære mekanismer |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biol | Samspillet mellem hypoxi og patologi/symptomer ved multipel sklerose |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Rev Med Inst Mex Seguro Soc | Overvejelser om hypobar hypoxi og tilpasning i stor højde |
+| [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Præklinisk (rotte) | Physiological Research | Ramipril (10 mg/kg dagligt i 3 uger) under kronisk hypoksi gav lavere basal perfusionstryk i lungekarrene; dæmper hypoksisk pulmonal hypertension |
+| [12069940](https://pubmed.ncbi.nlm.nih.gov/12069940/) | 2002 | Præklinisk (transgene rotter) | Am J Physiol Regul Integr Comp Physiol | Renin-angiotensin-systemet og hjertefunktion ved hypoksi-reoxygenering; indirekte relevans |
+| [15671045](https://pubmed.ncbi.nlm.nih.gov/15671045/) | 2005 | Præklinisk/translationel | European Heart Journal | ACE2-ekspression stiger efter hjerteinfarkt hos rotter og mennesker; indirekte relevans |
+| [19380417](https://pubmed.ncbi.nlm.nih.gov/19380417/) | 2009 | Præklinisk (dyr) | Cardiovascular Research | ACE-hæmning øger endotelprogenitorceller og neoangiogenese ved trykbelastning af hjertet; indirekte relevans |
+| [24907870](https://pubmed.ncbi.nlm.nih.gov/24907870/) | 2014 | Præklinisk (dyr) | Basic Research in Cardiology | sGC-aktivering ved hjertesvigt efter infarkt, sammenlignet med ACE-hæmning; ikke ramipril-specifik |
+| [18464162](https://pubmed.ncbi.nlm.nih.gov/18464162/) | 2008 | Præklinisk (dyr, nyre) | Microcirculation | Ramipril eller valsartan mindsker tab af peritubulære kapillærer; ikke relateret til lungerne |
+| [32822951](https://pubmed.ncbi.nlm.nih.gov/32822951/) | 2020 | Præklinisk (eksperimentel) | World Neurosurgery | Ramipril sammenlignet med bevacizumab mod strålingsinduceret hjernenekrose; ikke relateret |
+
+Yderligere fundne artikler (bl.a. PMID 31967974, 1650863, 22068445, 41603922 og 42271263) er uden direkte relevans for pulmonal hypertension.
 
 ---
 
-## Oplysninger om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103931806 | Alarimed | Tabletter (oral) | Zaktady Farmaceutyczne POLPHARMA |
+| 28103931806 | Alarimed | Tabletter | Indikationstekst ikke angivet |
+
+Producent: Zaktady Farmaceutyczne POLPHARMA. Der findes kun denne ene gyldige enkeltstofsgodkendelse, og administrationsvejen er oral.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer fra vidensgrafen** (ikke fra produktresuméet): nyresygdom, leversygdom, galdeblæresygdom, systemisk lupus erythematosus (inkl. pædiatrisk), neutropeni, agranulocytose, hereditært angioødem (inkl. C1-inhibitormangel), hypotension, bindevævssygdom, knogle- og bruskygdom, nyrearteriestenose, sklerodermi (lokaliseret og systemisk sklerose).
+- **Lægemiddelinteraktioner**: 100 interaktioner er identificeret. De vigtigste (alvorlighedsgrad "Major") er **kaliumcitrat** og **kaliumbicarbonat** (risiko for hyperkaliæmi). Moderate interaktioner omfatter bl.a. kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon), acetylsalicylsyre, morfin, bupropion, dronabinol, SGLT2-hæmmere (canagliflozin, dapagliflozin, empagliflozin), alogliptin, metformin, glimepirid og chlorpropamid.
+- **Specifikt for den nye indikation**: risiko for hypotension hos patienter med lungesygdom og hypoksæmi.
 
-Til orientering påpeger evidensgrundlaget for de øvrige forudsagte indikationer disse risici ved ACE-hæmmere:
-
-- Akut nyreskade ved bilateral nyrearteriestenose eller stenose i en solitær nyre.
-- Behov for monitorering af nyrefunktion, kalium og risiko for hypotension.
+Advarsler og kontraindikationer fra det godkendte produktresumé (SmPC) er ikke tilgængelige i de indsamlede data; se SmPC for fuld sikkerhedsinformation.
 
 ---
 
@@ -113,15 +110,14 @@ Til orientering påpeger evidensgrundlaget for de øvrige forudsagte indikatione
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på en grafbaseret model (evidensniveau L5). Der findes ingen kliniske forsøg, og litteraturen omtaler ikke ramipril. ACE-hæmmere har ikke dokumenteret effekt ved pulmonal hypertension, og vasodilatation kan være uhensigtsmæssig ved hypoxisk pulmonal hypertension.
+Forudsigelsen er mekanistisk plausibel, men understøttes kun af ét ældre dyreforsøg og en beregnet score. Der er ingen kliniske forsøg, og sikkerhedsdata fra produktresuméet mangler.
 
-**For at komme videre kræves følgende:**
-- Oplysninger om virkningsmekanisme (MOA) og godkendte indikationer fra DrugBank og Lægemiddelstyrelsen.
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen, som i øjeblikket blokerer sikkerhedsscreeningen.
-- Målrettet litteratursøgning på ramipril/ACE-hæmmere og pulmonal hypertension samt prækliniske data.
-- Hvis arbejdet skal fortsætte, bør det overvejes at prioritere de mere biologisk sammenhængende kandidater (malign hypertensiv nyresygdom og renovaskulær hypertension), efter gennemgang af eksisterende evidens for ACE-hæmmere ved hypertension og nyrebeskyttelse.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hent og gennemgå SmPC (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- Hent data om virkningsmekanisme (MOA) fra DrugBank
+- Yderligere prækliniske data i moderne modeller for pulmonal hypertension og hypoksi
+- Vurdering af hypotensionsrisiko og nyrefunktion hos patienter med lungesygdom
+- Om muligt et eksplorativt klinisk forsøg, før der overvejes videre investering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

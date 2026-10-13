@@ -2,7 +2,7 @@
 layout: default
 title: Tacrolimus
 parent: Kun modelforudsigelse (L5)
-nav_order: 414
+nav_order: 786
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,14 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Tacrolimus: Fra immunsuppression ved organtransplantation til seborrhoisk dermatitis
+# Tacrolimus: Fra atopisk eksem til seboroisk dermatitis
 
 ## Resumé i én sætning
 
-Tacrolimus er en calcineurinhæmmer. Det danske markedsførte præparat, Advagraf (depotkapsler), er ifølge almen viden et systemisk immunsuppressivt middel, men indikationsteksten mangler i datagrundlaget.
-TxGNN-modellen forudsiger, at tacrolimus kan have effekt ved **seborrhoisk dermatitis**.
-Forudsigelsen understøttes af **2 afsluttede kliniske forsøg** (fase 3 og fase 4) og **20 publikationer**, hvoraf en dobbeltblindet RCT.
-Evidensen gælder dog tacrolimus **salve** (topisk), ikke den orale depotkapsel, som er registreret i Danmark.
+Tacrolimus er en calcineurinhæmmer, som oprindeligt anvendes til behandling af atopisk eksem (atopisk dermatitis).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **seboroisk dermatitis**,
+og der er i de data, der er indsamlet til denne rapport, **2 kliniske forsøg** (heraf ét afsluttet fase 3-forsøg) og flere publikationer, som støtter denne retning.
 
 ---
 
@@ -44,67 +43,69 @@ Evidensen gælder dog tacrolimus **salve** (topisk), ikke den orale depotkapsel,
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (indikationsteksten er tom) |
-| Forudsagt ny indikation | Seborrhoisk dermatitis |
-| TxGNN-prædiktionsscore | 99,26 % |
-| Evidensniveau | L2 (se note nedenfor) |
+| Oprindelig indikation | Atopisk eksem / atopisk dermatitis (kilde: TxGNN-vidensgraf; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Forudsagt ny indikation | Seboroisk dermatitis |
+| TxGNN-forudsigelsesscore | 99,26 % |
+| Evidensniveau | L1 (der er dog ikke oplysninger om randomisering og blinding i det afsluttede fase 3-forsøg) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
-
-*Note om evidensniveau: Evidence Pack angiver L1. Efter de gældende regler kræver L1 mindst to afsluttede fase 3-RCT'er. For seborrhoisk dermatitis er der kun ét afsluttet fase 3-forsøg (NCT02004860), suppleret af et fase 4-forsøg og en publiceret dobbeltblind RCT. Derfor er niveauet her sat til L2.*
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der er ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ud fra kendt farmakologi hæmmer tacrolimus calcineurin og dermed den NFAT-afhængige aktivering af T-celler og frigivelsen af proinflammatoriske cytokiner.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden hæmmer tacrolimus calcineurin og dermed T-cellernes aktivering og frigivelsen af pro-inflammatoriske cytokiner (fx IL-2, IL-4 og interferon-gamma).
 
-Seborrhoisk dermatitis er en kronisk, recidiverende inflammatorisk hudsygdom, der især rammer ansigt og hovedbund. Den hænger sammen med en inflammatorisk reaktion på hudgæren *Malassezia* og en nedsat hudbarriere. Topisk hæmning af calcineurin kan derfor rimeligvis dæmpe rødme og skældannelse. Det er samtidig et alternativ til lokale binyrebarkhormoner, som har bivirkninger ved langvarig brug.
+Atopisk eksem og seboroisk dermatitis er begge kroniske, tilbagevendende inflammatoriske hudsygdomme. Seboroisk dermatitis involverer en inflammatorisk reaktion på Malassezia-gær og en forstyrret hudbarriere, og derfor er calcineurinhæmning en plausibel mekanisme. Den beslægtede calcineurinhæmmer pimecrolimus er også undersøgt ved denne tilstand. Litteraturen beskriver desuden topiske calcineurinhæmmere som et steroidbesparende alternativ.
 
-Mekanismen er udledt af kendt farmakologi og ikke fra datagrundlaget. Den kliniske støtte kommer fra topisk tacrolimus, ikke fra den orale depotformulering.
+Bemærk, at mekanismen her bygger på den kendte virkning af calcineurinhæmmere og ikke på de leverede data.
 
 ---
 
-## Kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Afsluttet | 120 | Vedligeholdelsesbehandling med tacrolimus-salve (Protopic) ved svær seborrhoisk dermatitis i ansigtet hos voksne. Resultater er ikke angivet i datagrundlaget. |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Afsluttet | 104 | Proaktiv brug af 0,1 % tacrolimus-salve 1-2 gange ugentligt for at holde seborrhoisk dermatitis i ansigtet i remission. Resultater er ikke angivet i datagrundlaget. |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Afsluttet | 120 | Protopic (tacrolimussalve) som vedligeholdelsesbehandling af svær seboroisk dermatitis i ansigtet hos voksne; mål: færre tilbagefald, længere remission og mindre brug af topikale steroider. Resultater er ikke angivet i de leverede data |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Afsluttet | 104 | Proaktiv brug af 0,1 % tacrolimussalve én eller to gange ugentligt for at holde seboroisk dermatitis i ansigtet i remission og reducere forværringer. Resultater er ikke angivet |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT (multicenter, dobbeltblind) | J Am Acad Dermatol | Tacrolimus 0,1 % versus ciclopiroxolamin 1 % som vedligeholdelsesbehandling ved svær seborrhoisk dermatitis i ansigtet. |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Ann Parasitol | Sertaconazol 2 % kontra tacrolimus 0,03 % creme hos 60 patienter. |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Klinisk sammenligning | Indian J Dermatol Venereol Leprol | Oral itraconazol i to dage plus topisk tacrolimus versus topisk tacrolimus alene som vedligeholdelse (Vietnam). |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Klinisk undersøgelse | Ann Dermatol | Vedligeholdelsesbehandling med 0,1 % tacrolimus-salve ved seborrhoisk dermatitis i ansigtet. |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Åbent pilotstudie | J Am Acad Dermatol | 18 patienter behandlet med 0,1 % tacrolimus i op til 28 dage. 11 patienter (61 %) opnåede fuld afhelning. |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematisk review | Am J Clin Dermatol | Topisk behandling af seborrhoisk dermatitis i ansigtet (antifungale midler, keratolytika, kortikosteroider). |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Topiske calcineurinhæmmere ved seborrhoisk dermatitis: patofysiologi, sikkerhed og effekt. |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | Aktuel status og behandlingsperspektiver ved seborrhoisk dermatitis i ansigtet. |
-| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | Review | Semin Cutan Med Surg | Topisk tacrolimus og pimecrolimus, herunder erfaringer ved seborrhoisk dermatitis. |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Systematisk review/netværksmetaanalyse | Clin Exp Allergy | Cochrane-review af topiske antiinflammatoriske midler ved eksem (indirekte evidens). |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Klinisk studie | Annals of Dermatology | Vedligeholdelsesbehandling af seboroisk dermatitis i ansigtet med 0,1 % tacrolimussalve (lavdosis, intermitterende regime kendt fra atopisk eksem) |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematisk oversigt | Am J Clin Dermatol | Topikal behandling af seboroisk dermatitis i ansigtet: antimykotika, keratolytika og kortikosteroider |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Oversigtsartikel | Am J Clin Dermatol | Topikale calcineurinhæmmere som sikkert alternativ til kortikosteroider ved seboroisk dermatitis |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Klinisk forsøg | Annals of Parasitology | Sammenligning af sertaconazol 2 % creme og tacrolimus 0,03 % creme hos 60 patienter |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Oversigtsartikel | J Drugs Dermatol | Aktuel status og behandlingsmuligheder ved seboroisk dermatitis i ansigtet |
+| [17685874](https://pubmed.ncbi.nlm.nih.gov/17685874/) | 2007 | Oversigtsartikel | Expert Opin Investig Drugs | Nye anvendelser af topikal tacrolimus; godkendt til atopisk eksem, mild bivirkningsprofil |
+| [31476936](https://pubmed.ncbi.nlm.nih.gov/31476936/) | 2019 | Oversigtsartikel | J Cutan Med Surg | Off-label brug af topikale calcineurinhæmmere ved dermatologiske lidelser |
+| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | Oversigtsartikel | Semin Cutan Med Surg | Topikal tacrolimus og pimecrolimus ved bl.a. psoriasis og seboroisk dermatitis |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104323808 (Astellas Pharma Europe B.V.) | Advagraf | Depotkapsler, hårde | Ikke angivet i datagrundlaget |
+| 28104323808 | Advagraf (Astellas Pharma Europe B.V.) | Depotkapsler, hårde | Indikationstekst er ikke angivet |
 
-Datagrundlaget indeholder kun denne ene tilladelse, og den dækker en oral depotkapsel. Der er ingen topisk tacrolimus-formulering i de danske data.
+Bemærk: Den eneste danske tilladelse i de indsamlede data er et peroralt depotpræparat. Det er ikke den topikale salve (Protopic), som er undersøgt ved seboroisk dermatitis. Tilgængeligheden af en topikal formulering i Danmark er derfor ikke dokumenteret her og bør afklares.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ingen søgbare interaktionsdata i datagrundlaget.
+**Kontraindikationer (fra vidensgrafen, ikke fra produktresumé):** Vidensgrafen peger bl.a. på hypertension, langt QT-syndrom, torsades de pointes, leversvigt, nyresygdom, epilepsi, hyperglykæmi, diabetes, infektionssygdomme (bl.a. herpes simplex og herpes zoster), kræft og lymfom, progressiv multifokal leukoencefalopati og posteriort leukoencefalopati-syndrom. Disse oplysninger gælder primært systemisk brug og skal verificeres i produktresuméet.
+
+**Lægemiddelinteraktioner:** 100 interaktioner er registreret. Eksempler på interaktioner af kategorien "Major": amphotericin B (inkl. lipidkompleks), loperamid, mesalazin, balsalazid og omeprazol. Eksempler på "Moderate": famotidin, rabeprazol, hydrocortison, dexamethason, betamethason, triamcinolon, budesonid, metformin, pioglitazon, acarbose, aprepitant og metronidazol.
+
+**Langtidssikkerhed ved topikal brug:** En systematisk oversigt og metaanalyse (PMID 36370744) behandler risikoen for kræft ved topikale calcineurinhæmmere, og dette bør følges. Anvendelse bør følge de godkendte aldersgrænser og varighedsbegrænsninger. Derudover kan topikale immunmodulatorer maskere svampeinfektioner (tinea incognito).
+
+Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -113,19 +114,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ingen s
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Der er et afsluttet fase 3-forsøg og et fase 4-forsøg samt en dobbeltblindet RCT om tacrolimus-salve ved seborrhoisk dermatitis, og mekanismen er biologisk plausibel. Evidensen gælder imidlertid topisk tacrolimus, mens det eneste danske præparat i data er en systemisk, oral depotkapsel. Den kan ikke uden videre overføres til den nye indikation.
-
-Til sammenligning fik to andre forudsigelser lavere beslutningsniveau:
-- **Parapsoriasis** er kun støttet af kasuistikker om pityriasis lichenoides, og diagnosen er ikke præcist afgrænset (evidensniveau L4, kun forskningsspørgsmål).
-- **Dermatitis** er domineret af atopisk dermatitis, hvor topisk tacrolimus allerede er etableret behandling. Det er derfor ikke et nyt repurposing-signal.
+- Et afsluttet fase 3-forsøg og et fase 4-forsøg undersøger direkte topikal tacrolimus ved seboroisk dermatitis i ansigtet, og litteraturen understøtter vedligeholdelsesbehandling. Resultaterne og studiedesignet er dog ikke detaljeret i de tilgængelige data, og derfor er evidensen ikke endelig.
 
 **For at komme videre kræves:**
-- Hentning af resultater og effektmål fra NCT02004860 og NCT01591070 samt den fulde tekst af den publicerede RCT (PMID 33010323).
-- Afklaring af, hvilke topiske tacrolimus-præparater der er godkendt og markedsført i Danmark, og af indikationens status (off-label eller ej).
-- Oplysninger om oprindelig indikation, virkningsmekanisme og sikkerhed (advarsler, kontraindikationer) fra Lægemiddelstyrelsens produktresumé.
-- Vurdering af systemisk eksponering og langtidssikkerhed ved topisk brug, især hos børn.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepurposing skal valideres klinisk, før de anvendes.*
+- Resultater og design (randomisering, blinding) for NCT02004860 og NCT01591070
+- Afklaring af, om en topikal tacrolimus-formulering er godkendt og markedsført i Danmark (den registrerede tilladelse er et peroralt depotpræparat)
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme (DrugBank)
+- Plan for sikkerhedsovervågning, herunder langtidsrisiko for kræft og begrænsning af varighed og alder
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Perampanel
-parent: Kun modelforudsigelse (L5)
-nav_order: 346
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 647
+evidence_level: L4
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Perampanel: Fra epilepsi (fokale anfald) til visuel epilepsi
+# Perampanel: Fra partiel epilepsi til visuel epilepsi
 
-## Resumé
+## Resumé i én sætning
 
-Perampanel er et antiepileptikum, der blev udviklet til tillægsbehandling af fokale anfald. Litteraturen beskriver også indikationen primære generaliserede tonisk-kloniske anfald. TxGNN-modellen forudsiger, at det kan have effekt ved **visuel epilepsi** (synsudløste anfald). Evidensen er dog svag: **3 kliniske forsøg** og **20 publikationer** er fundet, men ingen af dem undersøger specifikt visuelt udløste anfald.
+Perampanel er et antiepileptikum, der oprindeligt anvendes til behandling af partiel (fokal) epilepsi. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **visuel epilepsi** (visuelt udløste anfald). Der er **ingen registrerede kliniske forsøg** og **kun generel epilepsilitteratur** (ingen undersøgelser specifikt om visuelt udløste anfald), så evidensen er overvejende indirekte.
 
 ---
 
@@ -41,66 +41,72 @@ Perampanel er et antiepileptikum, der blev udviklet til tillægsbehandling af fo
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Fokale anfald og primære generaliserede tonisk-kloniske anfald (ifølge litteraturen; indikationsteksten i den danske licensdata er tom) |
+| Oprindelig indikation | Partiel epilepsi / partiel motorisk epilepsi (fra vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Visuel epilepsi |
-| TxGNN-score | 99,92 % |
-| Evidensniveau | L4 (mekanistisk rationale og almen epilepsidata; ingen studier i visuel epilepsi) |
+| TxGNN-forudsigelsesscore | 99,92 % |
+| Evidensniveau | L4 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Hold (forskningsspørgsmål; ikke klar til klinisk anvendelse) |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede mekanismedata i Evidence Pack. Litteraturen beskriver dog perampanel som en selektiv, ikke-kompetitiv antagonist af AMPA-receptoren. Den dæmper den glutamat-medierede excitatoriske transmission.
+Detaljerede data om virkningsmekanisme fra DrugBank mangler i de data, der er udarbejdet til denne rapport. Ifølge den indhentede litteratur er perampanel en selektiv, ikke-kompetitiv antagonist af AMPA-receptoren (glutamatreceptor), som dæmper glutamatmedieret excitatorisk neurotransmission. Lægemidlet er godkendt i mange lande, herunder EU, som tillægsbehandling ved partielle anfald og primært generaliserede tonisk-kloniske anfald.
 
-Visuel epilepsi og andre refleksepilepsier er præget af kortikal hypereksitabilitet. En AMPA-antagonist kan derfor mekanistisk set være relevant. Forudsigelsen bygger på ekstrapolation fra perampanels dokumenterede virkning ved fokale og generaliserede anfald. Der findes ingen direkte data for visuel refleksepilepsi.
+Visuel epilepsi (fotosensitive eller visuelt udløste anfald) er en refleksepilepsi, hvor kortikal hyperexcitabilitet spiller en central rolle. Da AMPA-antagonisme reducerer netop denne type overeksitation, er en effekt mekanistisk plausibel.
+
+Støtten er dog indirekte: Den fundne litteratur består af generelle oversigter og retningslinjer om perampanel og epilepsi. Ingen studier undersøger specifikt visuelt udløste anfald. Dyrestudier fra beslægtede refleksmodeller (lydudløste anfald hos rotter og mus) viser antikonvulsiv effekt, men det kan ikke direkte overføres til mennesker.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Fase 2 | Afsluttet | 18 | Randomiseret, dobbeltblindet, placebokontrolleret forsøg med E2007 (perampanel). Vurderede tolerabilitet, sikkerhed og farmakokinetik ved refraktære partielle eller generaliserede anfald. Ikke specifikt visuelle anfald. |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Fase 4 | Afsluttet | 30 | Perampanels effekt på kognition og EEG hos epilepsipatienter. Ikke specifikt for visuel epilepsi. |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Fase 4 | Afsluttet | 12 | Lille neurofysiologisk studie af perampanels effekt på EEG og evokerede potentialer, herunder visuelt evokerede potentialer (VEP). Ikke designet til at teste effekt ved visuel epilepsi. |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for visuel epilepsi.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systematisk review og metaanalyse af RCT'er | Seizure | Effekt og sikkerhed af perampanel ved epilepsi generelt |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Retningslinje | Neurology | AAN/AES-opdatering om nyere antiepileptika ved nydiagnosticeret epilepsi |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review | Epilepsy & Behavior | Perampanel som monoterapi: kliniske forsøg og data fra almindelig klinisk praksis |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematisk review og netværksmetaanalyse | Journal of Neurology | Sammenligning af antiepileptika ved idiopatiske generaliserede epilepsier |
-| [25878177](https://pubmed.ncbi.nlm.nih.gov/25878177/) | 2015 | Poolet analyse af tre fase 3-forsøg | Neurology | Effekt og tolerabilitet af perampanel sammen med enzyminducerende antiepileptika |
-| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | Kohorte (klinisk praksis) | Frontiers in Neurology | Effekt og tolerabilitet af perampanel ved absence-epilepsi hos børn |
-| [37329172](https://pubmed.ncbi.nlm.nih.gov/37329172/) | 2023 | Kohorte | Annals of Clinical and Translational Neurology | Perampanel ved pædiatrisk epilepsi med kendt eller formodet genetisk ætiologi |
-| [41043235](https://pubmed.ncbi.nlm.nih.gov/41043235/) | 2025 | Prospektivt multicenterstudie | Epilepsy & Behavior | Perampanels effekt på anfald og søvnkvalitet |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opinion on Drug Discovery | Opdagelse og udvikling af perampanel som AMPA-receptorantagonist |
-| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | Review (farmakokinetik/farmakodynamik) | Expert Opinion on Drug Metabolism & Toxicology | Farmakokinetik og farmakodynamik ved partielle anfald |
+Et udvalg af den mest relevante litteratur (alle generelle for epilepsi/perampanel, ikke specifikke for visuel epilepsi):
 
-Ingen af publikationerne omhandler visuel epilepsi eller synsudløste anfald.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane-review | Cochrane Database Syst Rev | Perampanel som tillægsbehandling ved lægemiddelresistent fokal epilepsi |
+| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematisk review og netværksmetaanalyse | Drugs | Tredjegenerations-antiepileptika (inkl. perampanel) som tillægsbehandling ved fokale anfald hos voksne |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematisk review og netværksmetaanalyse | J Neurol | Sammenligning af antiepileptika ved idiopatiske generaliserede epilepsier |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Retningslinje | Neurology | AAN/AES-opdatering om effekt og tolerabilitet af nyere antiepileptika ved nyopstået epilepsi |
+| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review | Epilepsy Behav | Perampanel som monoterapi: kliniske forsøg og real-world-evidens |
+| [29953584](https://pubmed.ncbi.nlm.nih.gov/29953584/) | 2019 | Review | Epilepsia | Perampanels potentiale som bredspektret antiepileptikum |
+| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opin Drug Discov | Udvikling af perampanel som AMPA-antagonist |
+| [36734057](https://pubmed.ncbi.nlm.nih.gov/36734057/) | 2023 | Kohorte/review | Epilepsia | Perampanel som præcisionsbehandling ved sjældne genetiske epilepsier |
+| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | Kohorte | Front Neurol | Perampanel ved absence-epilepsi hos børn i klinisk praksis |
+| [25878177](https://pubmed.ncbi.nlm.nih.gov/25878177/) | 2015 | Post hoc-analyse af fase 3-forsøg | Neurology | Effekt og tolerabilitet af perampanel sammen med enzyminducerende antiepileptika |
 
 ---
 
-## Information om det danske marked
+## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104931211 | Fycompa | Filmovertrukne tabletter | Eisai GmbH |
-
-Den godkendte indikationstekst er ikke tilgængelig i de foreliggende data.
+| 28104931211 | Fycompa (Eisai GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de udarbejdede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret 56 interaktioner i alt. Blandt de angivne er de fleste af moderat sværhedsgrad, og mange vedrører stoffer med sederende/CNS-dæmpende effekt. Eksempler:
+
+- **Opioider:** morfin (inkl. liposomalt), kodein, hydrocodon, opium, difenoxin, diphenoxylat (moderat)
+- **Cannabinoider:** dronabinol, nabilon (moderat)
+- **Antihistaminer/øvrige sederende:** promethazin, chlorphenamin, azelastin (nasal) (moderat)
+- **Øvrige:** ethanol, dexamethason, metoclopramid, sibutramin, chloroquin, hydroxychloroquin, dextromethorphan (moderat)
+- **Clarithromycin** (let)
+
+Den ene indirekte sikkerhedsobservation fra litteraturen er, at perampanel kan give psykiatriske og adfærdsmæssige bivirkninger (f.eks. irritabilitet, aggression og sjældent psykose) og i nogle lande bærer en advarsel herom.
+
+For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige i de udarbejdede data.
 
 ---
 
@@ -109,17 +115,18 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Perampanel er markedsført i Danmark og har et plausibelt mekanistisk rationale. Der findes dog ingen forsøg eller publikationer, der undersøger visuel epilepsi. Evidensen består af generel epilepsidata og modelforudsigelse (L4). Sikkerhedsoplysningerne fra produktresuméet mangler desuden i datagrundlaget.
+Forudsigelsen er mekanistisk plausibel, men der findes ingen kliniske forsøg og ingen litteratur specifikt om visuelt udløste anfald; støtten er kun indirekte via den godkendte indikation ved fokale anfald. Evidensniveauet er L4, og sikkerhedsdata fra produktresuméet mangler.
 
 **For at komme videre kræves:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, interaktioner), så sikkerhedsscreeningen kan gennemføres
-- Hent detaljerede mekanismedata fra DrugBank
-- Gennemfør en målrettet litteratursøgning efter perampanel ved fotosensitiv epilepsi og andre refleksepilepsier
-- Overvej et lille eksplorativt studie eller en case-serie med fotosensitive anfald, for eksempel med fotoparoksysmal EEG-respons som endepunkt
+- Målrettet søgning efter case-serier, observationsstudier eller forsøg i fotosensitiv/visuel refleksepilepsi
+- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer) fra Lægemiddelstyrelsen
+- Supplerende data om virkningsmekanisme (MOA) fra DrugBank
+- Vurdering af sikkerhedsprofilen, især psykiatriske bivirkninger og interaktioner med CNS-dæmpende lægemidler
+- Et pilotstudie eller et prospektivt observationsstudie, før klinisk anvendelse overvejes
 
-*Bemærk: De øvrige forudsigelser i Evidence Pack (bl.a. spiseudløste, lydudløste og tænkningsudløste anfald) har ligeledes kun svag evidens. Visuel epilepsi har dog flest kontrollerede forsøg bag sig.*
+---
 
-*Resultaterne er udelukkende til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering.*
+*Bemærk: Dataene indeholder yderligere forudsagte indikationer (bl.a. lydudløste anfald, spisningsudløste anfald, skrækepilepsi), som alle har svagere eller overvejende prækliniske/indirekte evidensgrundlag. Lydudløste anfald (audiogene anfald) har den mest direkte dyreeksperimentelle støtte, men ingen humane data.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Erenumab
 parent: Moderat evidens (L3-L4)
-nav_order: 174
+nav_order: 321
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Erenumab: Fra forebyggelse af migræne til migræne med hjernestammeaura
+# Erenumab: Fra migræne til migræne med hjernestammeaura
 
-## Opsummering
+## Opsummering i en sætning
 
-Erenumab er et monoklonalt antistof mod CGRP-receptoren og er markedsført i Danmark som Aimovig, ifølge sagens oplysninger til forebyggelse af migræne. TxGNN-modellen forudsiger, at det også kan have effekt ved **migræne med hjernestammeaura**. Der er **ingen registrerede kliniske forsøg** og **18 publikationer** om erenumab ved migræne, men ingen af dem undersøger specifikt hjernestammeaura.
+Erenumab er et monoklonalt antistof mod CGRP-receptoren, oprindeligt anvendt til forebyggelse af migræne.
+TxGNN-modellen forudsiger, at det også kan være effektivt ved **migræne med hjernestammeaura**,
+men der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de indsamlede data, og ingen af dem har specifikt undersøgt denne undertype. Evidensen er derfor indirekte.
 
 ---
 
@@ -41,7 +43,7 @@ Erenumab er et monoklonalt antistof mod CGRP-receptoren og er markedsført i Dan
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Forebyggelse af migræne (ifølge evidenspakkens begrundelse; indikationsteksten i den danske registrering er ikke angivet) |
+| Oprindelig indikation | Migræne (migræne med eller uden aura) |
 | Forudsagt ny indikation | Migræne med hjernestammeaura |
 | TxGNN-forudsigelsesscore | 99,89 % |
 | Evidensniveau | L4 |
@@ -49,60 +51,61 @@ Erenumab er et monoklonalt antistof mod CGRP-receptoren og er markedsført i Dan
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
-Evidenspakken indeholder to identiske forudsigelser for samme sygdom. De er her slået sammen til én.
+*Bemærk: Indikationsteksten for den danske tilladelse er ikke tilgængelig i de indsamlede data. Den oprindelige indikation er derfor hentet fra videngrafen (PrimeKG).*
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i evidenspakken. Erenumab er imidlertid et antistof, der blokerer CGRP-receptoren. CGRP (calcitonin gene-related peptide) spiller en central rolle i migrænens patofysiologi, bl.a. ved aktivering af det trigeminovaskulære system. Dette bygger på almen farmakologisk viden og ikke på de leverede data.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra kendt farmakologi er erenumab et antistof, der binder CGRP-receptoren og blokerer CGRP-stimuleret cAMP-produktion (IC50 ca. 2,3 nM). Det er ca. 5000 gange mere selektivt for CGRP-receptoren end for andre humane receptorer i calcitoninfamilien. CGRP-signalering er central for aktiveringen af det trigeminovaskulære system ved migræne.
 
-Migræne med hjernestammeaura er en undertype af migræne med aura. Da erenumab allerede anvendes ved migræne, er en mekanistisk sammenhæng plausibel. Den meget høje TxGNN-score afspejler sandsynligvis, at migrænesubtyper ligger tæt på hinanden i vidensgrafen, og ikke at der findes evidens specifikt for denne undertype.
+Migræne med hjernestammeaura er en sjælden undertype af migræne med aura, med symptomer som svimmelhed, dysartri og dobbeltsyn. Da undertypen deler den grundlæggende CGRP-afhængige patofysiologi med øvrig migræne, er der et mekanistisk grundlag for, at erenumab kan virke.
 
-Litteraturen vedrører migræne med aura generelt. Den omfatter en sekundæranalyse af randomiserede forsøg og en analyse af vaskulær risiko. Den viser ikke effekt eller sikkerhed specifikt ved hjernestammeaura.
+Den meget høje score afspejler sandsynligvis den tætte relation til den allerede godkendte migræneindikation snarere end uafhængig evidens. Ingen af de fundne studier har specifikt inkluderet patienter med hjernestammeaura, så evidensen er ekstrapoleret fra den bredere gruppe med migræne med aura.
 
 ---
 
-## Klinisk forsøgsevidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relevante kliniske forsøg registreret.
+Currently ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+Et udvalg af de mest relevante publikationer (de to forudsigelser i de indsamlede data er identiske og vises kun én gang):
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (sekundæranalyse) | JAMA Neurology | Vurderer sikkerhed og effekt af erenumab hos patienter med og uden aura. Aura er forbundet med forhøjet vaskulær risiko. |
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (fase 3b) | Lancet | Effekt og tolerabilitet ved episodisk migræne efter 2-4 mislykkede forebyggende behandlinger. |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematisk review | Int Immunopharmacol | Gennemgang af erenumabs effekt som forebyggende behandling ved episodisk og kronisk migræne. |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Post hoc-analyse (poolede data) | Headache | Kardiovaskulær sikkerhed ved erenumab hos patienter med og uden aura, i forhold til grad af kardiovaskulær risiko. |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Kohorte | J Headache Pain | Undersøger, om plasma-suPAR (inflammationsmarkør, forhøjet ved migræne med aura) hænger sammen med behandlingsrespons på erenumab. |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mekanistisk klinisk studie | Cephalalgia | Undersøger, om erenumab påvirker cerebral vasomotorisk reaktivitet og endotelfunktion ved migræne uden aura. |
-| [35230406](https://pubmed.ncbi.nlm.nih.gov/35230406/) | 2022 | Nyhed/kommentar | JAMA | Omtale af erenumabs sikkerhed og effekt ved migræne med aura. |
-| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Klinisk studie | Cephalalgia | Undersøger, om sildenafil kan udløse migræneanfald hos personer forbehandlet med erenumab (cGMP-vej uafhængig af CGRP-receptor). |
-| [39902552](https://pubmed.ncbi.nlm.nih.gov/39902552/) | 2025 | REFORM-studie | Annals of Neurology | Søger tegn på kortikal inflammation ved migræne, især med aura, ved hjælp af MR. |
-| [32359106](https://pubmed.ncbi.nlm.nih.gov/32359106/) | 2020 | Case-serie | Headache | Erenumabs effekt ved samtidig clusterhovedpine hos patienter med migræne. |
-
-Tabellen viser de 10 mest relevante af 18 publikationer. Ingen af dem er et forsøg specifikt ved hjernestammeaura.
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (sekundæranalyse) | JAMA Neurology | Sikkerhed og effekt af erenumab ved migræne med og uden aura |
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (fase 3b) | Lancet | Effekt og tolerabilitet ved episodisk migræne efter 2-4 mislykkede forebyggende behandlinger |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematisk review | Int Immunopharmacol | Effekt af erenumab i migrænprofylakse |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Kohorte (post hoc) | Headache | Vaskulær risiko ved migræne med og uden aura under erenumab |
+| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | REFORM-studie | J Headache Pain | Effekt af erenumab på hyppigheden af migræneaura |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mekanistisk studie | Cephalalgia | Erenumab påvirker ikke cerebral hæmodynamik og endotelfunktion ved migræne uden aura |
+| [42090640](https://pubmed.ncbi.nlm.nih.gov/42090640/) | 2026 | Kohorte | Neurology | Risiko for glaukom ved brug af CGRP-hæmmere ved migræne |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Retrospektivt studie | J Headache Pain | 12 måneders sikkerhed og tolerabilitet i klinisk praksis |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handb Exp Pharmacol | CGRP's rolle ved migræne |
+| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Eksperimentelt studie | Cephalalgia | cGMP-medierede migræneanfald er uafhængige af CGRP-receptoraktivering |
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106151018 | Aimovig | Injektionsvæske, opløsning i fyldt injektionssprøjte | Novartis Europharm Limited |
-
-Registreringens indikationstekst er ikke angivet i de leverede data.
+| 28106151018 | Aimovig (Novartis Europharm Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata (advarsler, kontraindikationer) i evidenspakken, og interaktionssøgningen gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke tilgængelige data om advarsler og kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SPC) for sikkerhedsinformation.
 
-Litteraturen indeholder dog analyser af kardiovaskulær sikkerhed hos patienter med aura (PMID 34928306 og 36942409). De er relevante at gennemgå, da aura er forbundet med forhøjet vaskulær risiko.
+Fra litteraturen er følgende relevant for vurderingen:
+- Vaskulær sikkerhed ved migræne med aura er undersøgt i en post hoc-analyse (PMID 36942409) og en sekundæranalyse af RCT'er (PMID 34928306), men ikke specifikt for hjernestammeaura.
+- En multinational kohortestudie har undersøgt risikoen for glaukom ved brug af CGRP-hæmmere (PMID 42090640).
+- Hjernestammeaura indebærer hjernestammesymptomer, så vaskulær sikkerhed kræver særlig opmærksomhed i denne gruppe.
 
 ---
 
@@ -111,15 +114,14 @@ Litteraturen indeholder dog analyser af kardiovaskulær sikkerhed hos patienter 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk plausibel, men evidensen er på L4. Der er ingen kliniske forsøg og ingen studier specifikt ved hjernestammeaura. Sikkerhedsdata fra den danske produktinformation mangler, hvilket blokerer den videre sikkerhedsscreening.
+Der er ingen kliniske forsøg for den specifikke undertype, og evidensen er indirekte (L4) og ekstrapoleret fra migræne med aura generelt. Den høje TxGNN-score kan ikke erstatte undertypespecifik evidens, og data om advarsler og kontraindikationer mangler i de indsamlede data.
 
-**For at komme videre kræves:**
-- Hent advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé for Aimovig.
-- Supplér med data om virkningsmekanisme (MOA) fra DrugBank.
-- Gennemgå litteraturen for data specifikt om hjernestammeaura og vaskulær sikkerhed i denne undergruppe.
-- Overvej et målrettet klinisk forsøg eller registerstudie af hjernestammeaura.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméet for advarsler og kontraindikationer (manglende i de indsamlede data)
+- Undertypespecifikke data for patienter med hjernestammeaura, fx subgruppeanalyser, registerdata (herunder REFORM) eller et pilotstudie
+- Vurdering af vaskulær og neurologisk sikkerhed specifikt for hjernestammeaura
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Bekræftelse af den godkendte indikationstekst for den danske tilladelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

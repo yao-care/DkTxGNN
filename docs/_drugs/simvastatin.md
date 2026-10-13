@@ -2,7 +2,7 @@
 layout: default
 title: Simvastatin
 parent: Høj evidens (L1-L2)
-nav_order: 403
+nav_order: 763
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Simvastatin: Fra kolesterolsænkende statin til familiær hyperkolesterolæmi
+# Simvastatin: Fra hyperlipidæmi og aterosklerose til familiær hypercholesterolæmi
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Simvastatin er en statin (HMG-CoA-reduktasehæmmer), der bruges til at sænke kolesterol. TxGNN-modellen forudsiger, at lægemidlet er virksomt ved **familiær hyperkolesterolæmi**. Forudsigelsen understøttes af **mange afsluttede fase 3-studier** og en række publikationer, bl.a. RCT'er og Cochrane-reviews.
-
-Statiner er allerede en veletableret behandling af familiær hyperkolesterolæmi. Der er derfor tale om bekræftelse af en kendt anvendelse og ikke om egentlig ny anvendelse af et gammelt lægemiddel.
+Simvastatin er en kolesterolsænkende statin, der oprindeligt anvendes ved hyperlipidæmi, aterosklerose og cerebrovaskulære sygdomme.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **familiær hypercholesterolæmi**, med **9 kliniske forsøg** (heraf 7 fase 3-forsøg) og **19 publikationer** i den primære forudsigelse. Det er dog vigtigt at bemærke, at forudsigelsen i vid udstrækning svarer til en eksisterende eller nært beslægtet indikation (homozygot familiær hypercholesterolæmi er allerede opført blandt de oprindelige indikationer), og at der derfor ikke er tale om en egentlig ny anvendelse.
 
 ---
 
@@ -43,96 +42,93 @@ Statiner er allerede en veletableret behandling af familiær hyperkolesterolæmi
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Familiær hyperkolesterolæmi (inkl. autosomal dominant hyperkolesterolæmi) |
-| TxGNN-score | 99,63 % |
+| Oprindelig indikation | Hyperlipidæmi, aterosklerose og cerebrovaskulære sygdomme (fra vidensgrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
+| Forudsagt ny indikation | Familiær hypercholesterolæmi |
+| TxGNN-forudsigelsesscore | 99,63 % |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
+| Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Fortsæt med forbehold (Proceed with Guardrails) |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Simvastatin hæmmer enzymet HMG-CoA-reduktase i leveren. Det nedsætter kolesterolsyntesen og øger antallet af LDL-receptorer på leverceller, så mere LDL-kolesterol fjernes fra blodet. Detaljerede mekanismedata fra DrugBank mangler i datagrundlaget, men denne virkningsmekanisme er velkendt for statiner.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den generelle farmakologiske viden hæmmer simvastatin HMG-CoA-reduktase, hvilket nedsætter kolesterolsyntesen i leveren og opregulerer LDL-receptorerne, så LDL-kolesterol fjernes hurtigere fra blodet.
 
-Ved familiær hyperkolesterolæmi er LDL-kolesterol kraftigt forhøjet på grund af genetiske varianter, typisk i generne for LDL-receptor (LDLR), apolipoprotein B (APOB) eller PCSK9. Statiner virker bedst hos patienter, der har mindst én funktionel LDL-receptorallel, fordi behandlingen netop opregulerer LDL-receptoren. Den biologiske sammenhæng mellem simvastatins virkning og sygdommens mekanisme er derfor tydelig.
+Ved heterozygot familiær hypercholesterolæmi er der bevaret en vis LDL-receptorfunktion, og patienterne responderer derfor typisk markant på statiner. Ved homozygot form med manglende receptorfunktion er responset svagere. Da homozygot familiær hypercholesterolæmi og hyperlipoproteinæmi allerede findes blandt de oprindelige indikationer, er den forudsagte indikation tæt knyttet til den eksisterende anvendelse.
 
-Effekten kan variere med den genetiske årsag. Hos patienter med homozygot sygdom, LDLR-nulvarianter eller PCSK9-gain-of-function-varianter kan responset være svagere. Det forklarer, at mange studier undersøger simvastatin sammen med tillægsbehandling som ezetimib eller PCSK9-hæmmere.
+Det samme gælder den beslægtede forudsigelse "autosomal dominant hypercholesterolæmi" (score 99,36 %), som klinisk er stort set synonym med heterozygot familiær hypercholesterolæmi.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens (kliniske forsøg)
 
-Tabellen viser de mest relevante af de registrerede forsøg. Simvastatin er kun direkte undersøgt i nogle af dem. I de øvrige indgår det som baggrundsbehandling, og disse forsøg giver kun kontekstuel støtte.
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Fase 3 | Afsluttet | 720 | ENHANCE: ezetimib + højdosis simvastatin vs. simvastatin alene, effekt på åreforkalkning i halspulsåren ved heterozygot FH |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Fase 3 | Afsluttet | 248 | Ezetimib sammen med simvastatin hos unge (10-17 år) med heterozygot FH |
-| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Fase 3 | Afsluttet | 199 | SUPREME: niacin ER + simvastatin vs. atorvastatin ved hyperlipidæmi eller blandet dyslipidæmi (ikke udelukkende FH) |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Fase 3 | Afsluttet | 442 | Rosuvastatins og simvastatins effekter på nyrerne ved dyslipidæmi, inkl. heterozygot FH |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Afsluttet | 50 | Ezetimib tillagt atorvastatin eller simvastatin ved homozygot FH |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Afsluttet | 44 | Langtidssikkerhed (op til 24 måneder) af ezetimib sammen med atorvastatin eller simvastatin ved homozygot FH |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Fase 3 | Afsluttet | 486 | Alirocumab vs. placebo ved heterozygot FH på baggrund af lipidsænkende behandling (simvastatin er baggrund) |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Afsluttet | 249 | Alirocumab vs. placebo ved heterozygot FH (kontekstuel støtte) |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Fase 3 | Afsluttet | 216 | Alirocumab som tillæg til stabil statinbehandling ved heterozygot FH eller høj kardiovaskulær risiko |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Fase 4 | Afsluttet | 194 | Colesevelam hos børn og unge med heterozygot FH, hvoraf nogle får stabil statinbehandling inkl. simvastatin |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) (ENHANCE) | Fase 3 | Afsluttet | 720 | Ezetimib + højdosis simvastatin vs. simvastatin alene: effekt på udvikling af karotisaterosklerose ved heterozygot FH |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Fase 3 | Afsluttet | 248 | Ezetimib sammen med simvastatin hos unge (10-17 år) med heterozygot FH; randomiseret, dobbeltblindet |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Afsluttet | 50 | Effekt og sikkerhed af ezetimib 10 mg som tillæg til atorvastatin eller simvastatin ved homozygot FH |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Afsluttet | 44 | Langtids-sikkerhed (op til 24 måneder) af ezetimib sammen med atorvastatin eller simvastatin ved homozygot FH; åbent, ukontrolleret |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Afsluttet | 249 | Alirocumab vs. placebo ved heterozygot FH; simvastatin sandsynligvis kun baggrundsbehandling |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Fase 3 | Afsluttet | 442 | Nyreeffekter af rosuvastatin og simvastatin ved dyslipidæmi inkl. heterozygot FH; 6 uger, åbent |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Fase 3 | Afsluttet | 153 | Alirocumab hos børn og unge med heterozygot FH; indirekte relevans for simvastatin |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Afsluttet | 18 | Alirocumab hos børn og unge med homozygot FH; indirekte relevans |
+| [NCT01890967](https://clinicaltrials.gov/study/NCT01890967) | Fase 2 | Afsluttet | 527 | Dosisfindingsstudie af LY3015014 ved primær hypercholesterolæmi med statin som baggrundsbehandling |
+
+Kun to forsøg (NCT00552097 og NCT00129402) vurderes som direkte relevante for simvastatin; flere af de øvrige undersøger andre lægemidler med simvastatin som baggrundsbehandling.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | N Engl J Med | Simvastatin med eller uden ezetimib ved FH: effekt af ezetimib på progression af åreforkalkning |
-| [18940534](https://pubmed.ncbi.nlm.nih.gov/18940534/) | 2008 | RCT | J Am Coll Cardiol | Effekt og sikkerhed ved langtidsbehandling med ezetimib og simvastatin hos unge med heterozygot FH |
-| [12034651](https://pubmed.ncbi.nlm.nih.gov/12034651/) | 2002 | RCT | Circulation | Ezetimib sammen med atorvastatin eller simvastatin hos 50 patienter med homozygot FH |
-| [2405804](https://pubmed.ncbi.nlm.nih.gov/2405804/) | 1990 | RCT | Arch Intern Med | Simvastatin 20 og 40 mg reducerede LDL-kolesterol med hhv. 32 % og 40 % hos 251 højrisikopatienter med familiær eller ikke-familiær hyperkolesterolæmi (sammenlignet med kolestyramin) |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Statiner til børn med familiær hyperkolesterolæmi |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Kohorte-/registerstudie | J Am Coll Cardiol | Statiners betydning for hjerte-kar-sygdom og samlet dødelighed ved heterozygot FH |
-| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | Retningslinje | J Am Coll Cardiol | 2026 ACC/AHA-retningslinje for behandling af dyslipidæmi, der afløser retningslinjen fra 2018 |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opin Drug Saf | Vurdering af fordele og risici ved simvastatin ved familiær hyperkolesterolæmi |
-| [1418102](https://pubmed.ncbi.nlm.nih.gov/1418102/) | 1992 | Sammenlignende studie | Atherosclerosis | Lovastatin vs. simvastatin hos 23 patienter med heterozygot FH |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Sammenlignende studie | Nutr Metab Cardiovasc Dis | Atorvastatin vs. simvastatin ved heterozygot FH med hensyn til opnåelse af LDL-mål |
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | Klinisk forsøg (ENHANCE) | N Engl J Med | Simvastatin med eller uden ezetimib ved familiær hypercholesterolæmi; effekt på aterosklerose |
+| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | Retningslinje | J Am Coll Cardiol | ACC/AHA-retningslinje 2026 for behandling af dyslipidæmi |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematisk oversigt (Cochrane) | Cochrane Database Syst Rev | Statiner til børn med familiær hypercholesterolæmi |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Oversigtsartikel | Drug Safety | Fordele og risici ved simvastatin ved familiær hypercholesterolæmi |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Oversigtsartikel | Expert Opin Drug Saf | Vurdering af fordele og risici ved simvastatin ved FH |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Klinisk studie | Nutr Metab Cardiovasc Dis | Atorvastatin vs. simvastatin ved heterozygot FH |
+| [2679083](https://pubmed.ncbi.nlm.nih.gov/2679083/) | 1989 | Klinisk studie | Am J Med | Simvastatin 20-40 mg sænkede LDL-kolesterol med ca. 38-42 % ved FH |
+| [33497862](https://pubmed.ncbi.nlm.nih.gov/33497862/) | 2021 | Post hoc-analyse (4S-forsøget) | Atherosclerosis | LDL-sænkning og kliniske udfald ved hypercholesterolæmi med og uden FH-fænotype |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Retningslinje | Endocr Pract | AACE/ACE-retningslinjer for dyslipidæmi og forebyggelse af hjerte-kar-sygdom |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Tværsnitsstudie | J Clin Med | Cellulær immunitet hos børn med FH behandlet med simvastatin |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103186400 | Perichol (PharmaCoDane ApS) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige data |
-
-Lægemidlet gives gennem munden (oral administration).
+| 28103186400 | Perichol (PharmaCoDane ApS) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige data om advarsler, kontraindikationer eller interaktioner i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer/risikotilstande (fra vidensgrafen, ikke fra produktresuméet):** Vidensgrafen knytter simvastatin til bl.a. leversygdom, pancreatitis, myopati/muskelsygdom, rabdomyolyse, diabetes mellitus, hyperglykæmi, trombocytopeni, urinsyregigt og akut koronarsyndrom. Disse oplysninger skal verificeres mod produktresuméet.
+
+**Lægemiddelinteraktioner (i alt 100 registreret; udvalgte):**
+- **Alvorlige (Major):** amiodaron, amlodipin, fenofibrat
+- **Moderate:** bl.a. nifedipin, omeprazol, paclitaxel, zidovudin, aprepitant, ethanol
+
+Der foreligger ikke produktresumébaserede advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med forbehold (Proceed with Guardrails)**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Flere afsluttede fase 3-forsøg, Cochrane-reviews og retningslinjer understøtter brugen af simvastatin ved familiær hyperkolesterolæmi, så evidensniveauet er L1. Det er en etableret anvendelse, ikke en ny.
-- Flere af de fundne forsøg tester ikke simvastatin som hovedlægemiddel, og de to gange fremkomne poster for FH og autosomal dominant hyperkolesterolæmi bygger på stort set samme evidensgrundlag.
+Flere afsluttede fase 3-forsøg, herunder ENHANCE og forsøget hos unge, samt retningslinjer og Cochrane-oversigter understøtter brug af simvastatin ved familiær hypercholesterolæmi. Da indikationen allerede overlapper med de eksisterende, er værdien som egentlig repurposing begrænset. De øvrige forudsigelser (hjernestamme-infarkt, CETP-mangel og kolesterol 7α-hydroxylase-mangel) har kun præklinisk eller ingen evidens og bør sættes på "Hold".
 
-**Øvrige forudsigelser i evidenspakken (anbefaling: Hold, evidensniveau L5):**
-- Hjernestammeinfarkt: kun et prækliniskt studie, der ikke omhandler simvastatin.
-- CETP-mangel og hyperkolesterolæmi på grund af kolesterol-7α-hydroxylase-mangel: hverken forsøg eller litteratur. Scorerne afspejler sandsynligvis blot nærhed i videngrafen.
-
-**For at komme videre kræves følgende:**
-- Indhentning af advarsler, kontraindikationer og godkendt indikationstekst fra produktresuméet hos Lægemiddelstyrelsen (blokerende datahul for sikkerhedsscreening).
-- Mekanismedata fra DrugBank til at supplere den mekanistiske analyse.
-- Kontrol af, at Perichols godkendte indikation i Danmark dækker familiær hyperkolesterolæmi, samt vurdering af dosering hos børn og unge.
-- Genotypeafhængig vurdering af respons (LDLR-nulvarianter, PCSK9-gain-of-function) og stillingtagen til tillægsbehandling, hvor LDL-målet ikke nås.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes i patientbehandling.*
+**For at komme videre kræves:**
+- Hentning af produktresuméet for Perichol fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikationstekst mangler)
+- Data om virkningsmekanisme fra DrugBank
+- Verifikation af simvastatins rolle i de forsøg, hvor den kun er baggrundsbehandling
+- Plan for monitorering af lever- og muskelparametre samt gennemgang af relevante interaktioner (fx amiodaron, amlodipin, fenofibrat)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

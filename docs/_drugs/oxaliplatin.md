@@ -2,7 +2,7 @@
 layout: default
 title: Oxaliplatin
 parent: Kun modelforudsigelse (L5)
-nav_order: 324
+nav_order: 615
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxaliplatin: Fra kendt kræftbehandling til malignt pleuramesoteliom
+# Oxaliplatin: Fra metastaserende tyktarmskræft til malign pleural mesotheliom
 
-## Resumé i få sætninger
+## Opsummering i én sætning
 
-Oxaliplatin er et platinbaseret cytostatikum (kemoterapi), der er markedsført i Danmark som koncentrat til infusionsvæske. TxGNN-modellen forudsiger, at det kan have effekt ved **malignt pleuramesoteliom** (kræft i lungehinden). Hypotesen støttes af **3 relevante kliniske forsøg (fase 2)** og en række publikationer, heriblandt flere fase 2-studier. Der findes dog **ingen randomiserede fase 3-forsøg**, og aktiviteten i fase 2-studierne er beskeden.
+Oxaliplatin er et platinbaseret kemoterapeutikum, der oprindeligt anvendes til behandling af metastaserende tyktarmskræft.
+TxGNN-modellen forudsiger, at det kan have effekt ved **malign pleural mesotheliom**,
+med **3 registrerede kliniske forsøg** (heraf 2 direkte relevante fase II-forsøg) og **20 publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -41,61 +43,58 @@ Oxaliplatin er et platinbaseret cytostatikum (kemoterapi), der er markedsført i
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Malignt pleuramesoteliom |
+| Oprindelig indikation | Metastaserende tyktarmskræft (fra vidensgrafen; godkendelsesteksten for det danske produkt er tom) |
+| Forudsagt ny indikation | Malign pleural mesotheliom |
 | TxGNN-forudsigelsesscore | 99,68 % |
-| Evidensniveau | L2 (iht. evidenspakken; bemærk at der kun foreligger enkeltarmede fase 2-studier og ingen RCT) |
+| Evidensniveau | L2 (fase II-forsøg; ingen fase 3-RCT) |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme i evidenspakken. Oxaliplatin tilhører dog platinforbindelserne, som danner DNA-addukter og tværbindinger, der udløser apoptose (programmeret celledød) i kræftceller.
+Detaljerede data om oxaliplatins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt viden er oxaliplatin et platinstof, der danner DNA-addukter og tværbindinger (inter- og intrastrand). Det blokerer DNA-replikation og transkription og udløser apoptose.
 
-Platinforbindelser indgår allerede i behandlingen af malignt pleuramesoteliom. Pemetrexed i kombination med platin er førstelinjestandard ifølge en gennemgang fra 2015 (PMID 26526504). Oxaliplatin er afprøvet sammen med antifolater (raltitrexed) og gemcitabin. Desuden kan oxaliplatinudløst immunogen celledød muligvis understøtte kombinationer med checkpoint-hæmmere (PMID 31455014).
+Platinbaseret kemoterapi (cisplatin/carboplatin) er allerede grundstenen i behandlingen af mesotheliom. Der er derfor en mekanistisk begrundelse for, at oxaliplatin kan virke i samme sygdom. Fase II-data viser aktivitet i kombinationsregimer (gemcitabin, raltitrexed, vinorelbin).
 
-Evidensen er imidlertid begrænset til små fase 2-studier med varierende resultater. Oxaliplatin er derfor ikke en etableret standardbehandling ved denne sygdom.
+Der er dog ingen fase 3-RCT, der viser overlegenhed over standardbehandling med platin og pemetrexed eller over nuværende immunterapibaserede regimer. Resultaterne er heller ikke entydige: et lille forsøg med raltitrexed og oxaliplatin som andenlinjebehandling blev lukket uden objektive responser.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00859469](https://clinicaltrials.gov/study/NCT00859469) | Fase 2 | Afsluttet | 29 | Oxaliplatin + gemcitabin som første- eller andenlinjebehandling ved malignt pleura- eller peritoneal mesoteliom. Primært endepunkt er responsrate. Direkte match på lægemiddel og sygdom, men lille studie. |
-| [NCT00996385](https://clinicaltrials.gov/study/NCT00996385) | Fase 2 | Ukendt | 29 | Bortezomib (Velcade) + oxaliplatin (Eloxatin) til tidligere behandlede patienter med malignt pleura- eller peritoneal mesoteliom. Lille studie med uafklaret status. |
-| [NCT03210298](https://clinicaltrials.gov/study/NCT03210298) | Ikke relevant (register) | Ukendt | 1000 | Internationalt register over PIPAC/PITAC (trykaerosol-kemoterapi) ved ondartede peritoneale og pleurale sygdomme. Ingen kontrollerede effektdata for oxaliplatin ved pleuramesoteliom. |
-
-To yderligere forsøg i søgeresultaterne (NCT06310473, NCT05107674) omhandler ikke mesoteliom og er udeladt.
+| [NCT00859469](https://clinicaltrials.gov/study/NCT00859469) | Fase 2 | Afsluttet | 29 | Oxaliplatin + gemcitabin som første- eller andenlinjebehandling ved pleural eller peritoneal mesotheliom; primært endepunkt er responsrate. Direkte relevant, men lille stikprøve. |
+| [NCT00996385](https://clinicaltrials.gov/study/NCT00996385) | Fase 2 | Ukendt | 29 | Bortezomib (Velcade) + oxaliplatin hos tidligere behandlede patienter med pleural eller peritoneal mesotheliom; op til 6 cyklusser. Begrænset evidens pga. ukendt status og lille stikprøve. |
+| [NCT07532902](https://clinicaltrials.gov/study/NCT07532902) | Fase 1 | Rekrutterer | 60 | Basket-forsøg med BMS-986504 plus standardbehandling ved MTAP-deleterede solide tumorer. Oxaliplatin er kun baggrundsbehandling; ingen mesotheliomspecifik effektevidens. |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [12525529](https://pubmed.ncbi.nlm.nih.gov/12525529/) | 2003 | Fase 2 | J Clin Oncol | Raltitrexed + oxaliplatin hos 70 patienter med malignt pleuramesoteliom (15 forbehandlede, 55 kemoterapi-naive). Konkluderes som et aktivt regime. |
-| [14609447](https://pubmed.ncbi.nlm.nih.gov/14609447/) | 2003 | Fase 2 (multicenter) | Clin Lung Cancer | Gemcitabin + oxaliplatin hos 25 patienter, op til 6 serier à 21 dage. |
-| [15639727](https://pubmed.ncbi.nlm.nih.gov/15639727/) | 2005 | Fase 2 | Lung Cancer | Vinorelbin + oxaliplatin som førstelinjebehandling. |
-| [11989592](https://pubmed.ncbi.nlm.nih.gov/11989592/) | 2001 | Pilotstudie (fase 2) | Tumori | Oxaliplatin + raltitrexed ved inoperabelt pleuramesoteliom. |
-| [19091133](https://pubmed.ncbi.nlm.nih.gov/19091133/) | 2008 | Observationsstudie | J Occup Med Toxicol | Gemcitabin ± oxaliplatin hos patienter forbehandlet med pemetrexed. |
-| [15893013](https://pubmed.ncbi.nlm.nih.gov/15893013/) | 2005 | Fase 2 | Lung Cancer | Raltitrexed + oxaliplatin som andenlinjebehandling hos 14 patienter. Ingen objektive responser (bedste respons: stabil sygdom hos 28,6 %). Studiet blev lukket. |
-| [31455014](https://pubmed.ncbi.nlm.nih.gov/31455014/) | 2019 | Review | Int J Mol Sci | Kemoterapiens effekt på immun-checkpoint-ekspression. Oxaliplatin fremhæves som interessant i kombination med immunterapi. |
-| [12610498](https://pubmed.ncbi.nlm.nih.gov/12610498/) | 2003 | Review | Br J Cancer | Kemoterapi ved pleuramesoteliom. Responsrater over 30 % er sjældne med etablerede cytostatika. |
-| [11836672](https://pubmed.ncbi.nlm.nih.gov/11836672/) | 2002 | Review | Semin Oncol | Antifolaters rolle. Raltitrexed/oxaliplatin fremhæves som en af to lovende antifolatkombinationer. |
-| [10930799](https://pubmed.ncbi.nlm.nih.gov/10930799/) | 2000 | Erfaringsopgørelse | Eur J Cancer | Erfaringer fra Institut Gustave Roussy med kemoterapi og kemo-immunterapi ved mesoteliom. |
-
-Resultaterne er blandede: to fase 2-studier peger på aktivitet, mens et andenlinjestudie (PMID 15893013) ikke viste objektive responser.
+| [12525529](https://pubmed.ncbi.nlm.nih.gov/12525529/) | 2003 | Fase II | J Clin Oncol | Raltitrexed + oxaliplatin er et aktivt regime ved malignt mesotheliom (70 patients, heraf 15 forbehandlede). |
+| [14609447](https://pubmed.ncbi.nlm.nih.gov/14609447/) | 2003 | Fase II | Clin Lung Cancer | Multicenterstudie af gemcitabin + oxaliplatin hos 25 patienter med malignt pleuralt mesotheliom. |
+| [15639727](https://pubmed.ncbi.nlm.nih.gov/15639727/) | 2005 | Fase II | Lung Cancer | Vinorelbin + oxaliplatin som førstelinjebehandling ved ubehandlet pleuralt mesotheliom. |
+| [11989592](https://pubmed.ncbi.nlm.nih.gov/11989592/) | 2001 | Fase II (pilot) | Tumori | Oxaliplatin + raltitrexed ved inoperabelt pleuralt mesotheliom. |
+| [19091133](https://pubmed.ncbi.nlm.nih.gov/19091133/) | 2008 | Observationel/retrospektiv | J Occup Med Toxicol | Gemcitabin + oxaliplatin hos pemetrexed-forbehandlede patienter. |
+| [15893013](https://pubmed.ncbi.nlm.nih.gov/15893013/) | 2005 | Fase II | Lung Cancer | Raltitrexed + oxaliplatin som andenlinjebehandling var inaktiv: ingen objektive responser hos 14 patienter, kun stabil sygdom hos 4. |
+| [15261443](https://pubmed.ncbi.nlm.nih.gov/15261443/) | 2004 | Review | Lung Cancer | Gennemgang af kemoterapi ved malignt pleuralt mesotheliom; responsrater over 30 % er sjældne med etablerede cytotoksiske stoffer. |
+| [12610498](https://pubmed.ncbi.nlm.nih.gov/12610498/) | 2003 | Review | Br J Cancer | Gennemgang af fase II-III-studier af kemoterapi ved mesotheliom. |
+| [31455014](https://pubmed.ncbi.nlm.nih.gov/31455014/) | 2019 | Præklinisk/mekanistisk | Int J Mol Sci | Betydning af cisplatin, oxaliplatin og pemetrexed for udtrykket af immun-checkpoints; relevant for kombination med immunterapi. |
+| [10930799](https://pubmed.ncbi.nlm.nih.gov/10930799/) | 2000 | Erfaringsopsummering | Eur J Cancer | Institut Gustave Roussys erfaring med raltitrexed-oxaliplatin og kemo-immunterapi ved mesotheliom. |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104418308 | Oxaliplatin "Accord" (Accord Healthcare B.V.) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de foreliggende data |
+| 28104418308 | Oxaliplatin "Accord" (Accord Healthcare B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
@@ -103,37 +102,38 @@ Resultaterne er blandede: to fase 2-studier peger på aktivitet, mens et andenli
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytostatikum (platinforbindelse) |
-| Risiko for knoglemarvssuppression | Moderat (generel klasseviden; neutropeni og trombocytopeni er kendt) |
-| Emetogenicitet | Moderat (generel klasseviden) |
-| Monitoreringspunkter | Komplet blodtælling med differentialtælling, lever- og nyrefunktion, elektrolytter samt neurologisk vurdering (perifer neuropati er kendt for oxaliplatin) |
-| Håndteringsbeskyttelse | Ja, skal håndteres efter gældende regler for cytostatika |
-
-Vurderingerne bygger på generel klasseviden, da der ikke foreligger toksicitetsdata i evidenspakken. Se produktresuméet (SmPC) for advarsler og forholdsregler.
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (platinforbindelse, 3. generations DACH-platin) |
+| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) for detaljer |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for detaljer |
+| Monitorering | Blodtal (differentialtælling), lever- og nyrefunktion samt neurologisk status (perifer neuropati) |
+| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytostatika |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen advarsler, kontraindikationer eller interaktionsdata i evidenspakken. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+- **Sygdomme knyttet til lægemidlet i vidensgrafen (ikke fra produkttekst)**: nyresygdom, leversygdom, galdeblæresygdom, sygdomme i det perifere nervesystem/perifer neuropati, interstitiel lungesygdom og lungefibrose. Disse bør vurderes nøje hos patienter med mesotheliom, som ofte har nedsat lungefunktion.
+- **Lægemiddelinteraktioner**: 100 interaktioner er registreret. Den eneste i den viste liste klassificeret som alvorlig (Major) er **dolasetron**. Øvrige fremhævede er af moderat grad, blandt andet amphotericin B, vancomycin, kanamycin, levofloxacin, clarithromycin, metronidazol, famotidin, loperamid, mesalazin, balsalazid, palonosetron, naltrexon samt afføringsmidler (bisacodyl, picosulfat, lactulose, lactitol, natriumsulfat, polyethylenglycol).
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Evidensen består af små, overvejende enkeltarmede fase 2-studier med blandede resultater. Der findes ingen fase 3-RCT, og pemetrexed + platin er allerede etableret førstelinjestandard.
-- Sikkerhedsdata fra produktresuméet mangler, hvilket blokerer en sikkerhedsscreening.
+Der foreligger flere fase II-studier og forsøg med aktivitet i kombinationsregimer ved malign pleural mesotheliom, og mekanismen (platin) passer til sygdommens standardbehandling. Evidensen er dog begrænset til små, ældre fase II-studier uden fase 3-RCT, og et andenlinjestudie var negativt. Lægemidlet er allerede markedsført i Danmark, så brugen ville være off-label.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer, interaktioner) fra Lægemiddelstyrelsen.
-- Data om virkningsmekanisme fra DrugBank.
-- Systematisk gennemgang af fase 2-resultaterne (responsrate, overlevelse, toksicitet) og sammenligning med pemetrexed + platin.
-- Vurdering af, om kombination med immun-checkpoint-hæmmere eller lokal indgivelse (HIPEC/PIPAC) kan afprøves i et velstruktureret studie.
+- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer mangler)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sammenligning med nuværende standard (platin + pemetrexed samt immunterapibaserede regimer), ideelt i et randomiseret fase 2/3-design
+- Plan for sikkerhedsmonitorering, især neuropati, nyre- og leverfunktion samt lungestatus
+- Afklaring af regulatoriske og kliniske rammer for off-label-anvendelse
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+Øvrige forudsigelser i datasættet (epitelioid og sarkomatoid mesotheliom, malign visceral pleuratumor) har kun indirekte evidens (L4-L5) og anbefales sat på hold. Forudsigelsen for brystkræft (L2) bygger på ét afbrudt forsøg med 18 patienter og betragtes som et forskningsspørgsmål.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

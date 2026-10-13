@@ -2,7 +2,7 @@
 layout: default
 title: Zolmitriptan
 parent: Moderat evidens (L3-L4)
-nav_order: 481
+nav_order: 906
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Zolmitriptan: Fra akut migræne til migræne med hjernestammeaura
+# Zolmitriptan: Fra migræne til migræne med hjernestammeaura
 
 ## Opsummering i en sætning
 
-Zolmitriptan er en selektiv 5-HT1B/1D-receptoragonist (triptan), der er godkendt til akut behandling af migræne. TxGNN-modellen forudsiger, at det kan være effektivt ved **migræne med hjernestammeaura**. Der er **ingen registrerede kliniske forsøg** og **19 publikationer**, men ingen af dem handler specifikt om denne undertype.
+Zolmitriptan er en selektiv serotonin 5-HT1B/1D-receptoragonist (triptan), som oprindeligt bruges til akut behandling af migræne.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne med hjernestammeaura**,
+men der er **ingen registrerede kliniske forsøg** og kun **generel litteratur om migræne og triptaner** (ingen undersøgelser specifikt for denne undertype).
 
 ---
 
@@ -41,9 +43,9 @@ Zolmitriptan er en selektiv 5-HT1B/1D-receptoragonist (triptan), der er godkendt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut migræne (indikationsteksten er tom i de danske licensdata, så oplysningen stammer fra litteraturen) |
-| Forudsagt ny indikation | Migræne med hjernestammeaura (tidligere basilær migræne) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Migræne (migræne med eller uden aura). Den godkendte indikationstekst for den danske tilladelse er ikke angivet i de indsamlede data |
+| Forudsagt ny indikation | Migræne med hjernestammeaura |
+| TxGNN-prædiktionsscore | 99,99 % |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,52 +53,56 @@ Zolmitriptan er en selektiv 5-HT1B/1D-receptoragonist (triptan), der er godkendt
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede mekanismedata (MOA) er ikke tilgængelige i Evidence Pack. Ifølge litteraturen (PMID 12083998 og 9399012) er zolmitriptan en selektiv 5-HT1B/1D-agonist. Den hæmmer trigeminovaskulær aktivering både centralt og perifert.
+Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Ud fra litteraturen er zolmitriptan en selektiv 5-HT1B/1D-receptoragonist med både central og perifer virkning. Den hæmmer aktivering af det trigeminovaskulære system og har dokumenteret effekt ved akut migræne med og uden aura.
 
-Migræne med hjernestammeaura er en undertype af migræne. Forudsigelsen er derfor ikke et ægte repurposing-fund, men en undertype af den eksisterende indikation. Den meget høje score afspejler sandsynligvis, at undertypen ligger tæt på moderknuden "migræne" i vidensgrafen. Scoren er ikke uafhængig evidens for effekt.
+Migræne med hjernestammeaura er en undertype af migræne, og den fælles patofysiologi (trigeminovaskulær aktivering, CGRP-frigivelse, kraniel vasodilatation) gør en mekanistisk sammenhæng plausibel. Den høje score afspejler sandsynligvis den overordnede migræneindikation snarere end undertypespecifik evidens.
 
-Der er desuden en vigtig sikkerhedsmæssig modsætning. Triptaner er traditionelt forbundet med forsigtighed ved hemiplegisk og basilær migræne, fordi der teoretisk er risiko for iskæmi som følge af vasokonstriktion. Ifølge Evidence Pack er hemiplegisk eller basilær migræne anført som kontraindikation i zolmitriptans produktresumé. Det er ikke verificeret mod det danske produktresumé. Sikkerhed skal afklares, før der kan fremsættes nogen effektpåstand.
+Der er dog en vigtig forbehold: Triptaner har historisk været behæftet med forsigtighedsregler eller kontraindikationer ved hjernestammeaura og hemiplegisk migræne på grund af teoretiske kardiovaskulære og cerebrovaskulære risici. Dette taler imod en simpel udvidelse af brugen.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret. Et studie omtalt i litteraturen, TEENZ ([NCT01211145](https://clinicaltrials.gov/study/NCT01211145)), undersøgte zolmitriptan næsespray hos unge med akut migræne. Det er ikke registreret som evidens for den forudsagte indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|---------|-----|------|------|---------|
-| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | RCT (subgruppeanalyse) | Neurol Sci | Frovatriptan vs. zolmitriptan 2,5 mg hos 18 patienter med migræne med aura (ud af 107 i et dobbeltblindet crossover-studie) |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Retningslinje/evidensvurdering | Headache | Opdateret vurdering fra American Headache Society af evidensen for akut migrænebehandling |
-| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | Klinisk rapport | Headache | Brug af triptaner ved basilær migræne og migræne med langvarig aura. Den mest relevante publikation for den forudsagte indikation, men uden zolmitriptan-specifikke resultater i det foreliggende uddrag |
-| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Metaanalyse/review | J Headache Pain | Frovatriptan sammenlignet med bl.a. zolmitriptan ved migræne med aura. Triptaner er sandsynligvis ikke effektive, hvis de tages under aurafasen |
-| [27329280](https://pubmed.ncbi.nlm.nih.gov/27329280/) | 2016 | RCT | Headache | TEENZ: effekt og tolerabilitet af zolmitriptan næsespray hos unge på 12-17 år |
-| [12828501](https://pubmed.ncbi.nlm.nih.gov/12828501/) | 2003 | RCT | CNS Drugs | Dosisfindende studie af zolmitriptan næsespray versus placebo og tablet ved akut migræne |
-| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | Zolmitriptan har god effekt på 2-timers respons og smertefrihed i placebokontrollerede forsøg |
-| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Review | Drugs | Effekt og tolerabilitet af zolmitriptan 2,5 og 5 mg, med virkning efter ca. 45 minutter |
-| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Review | Headache | Behandlingsmuligheder ved menstruel migræne |
-| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Review | Front Neurol | Behandlingsmuligheder ved vestibulær migræne |
+Ingen af publikationerne undersøger zolmitriptan specifikt ved migræne med hjernestammeaura. De belyser migræne generelt, triptaner og aura-undergrupper.
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | Opdateret evidensvurdering af farmakologisk akutbehandling af migræne hos voksne (American Headache Society) |
+| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | Zolmitriptan 2,5 og 5 mg er effektivt i placebokontrollerede forsøg; virkning inden for ca. 45 min og bedring af kvalme, lys- og lydfølsomhed |
+| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Review | Drugs | Zolmitriptan er signifikant mere effektivt end placebo ved moderat til svær migræne |
+| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Review/metaanalyse | J Headache Pain | Sammenligning af frovatriptan med andre triptaner (inkl. zolmitriptan) ved migræne med aura; randomiserede data er utilstrækkelige |
+| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | Undergruppeanalyse af RCT | Neurol Sci | Frovatriptan vs. zolmitriptan 2,5 mg ved migræne med aura; kun 18 forsøgspersoner i undergruppen |
+| [9399012](https://pubmed.ncbi.nlm.nih.gov/9399012/) | 1997 | Prækliniske data | Cephalalgia | Zolmitriptan hæmmer trigeminovaskulær aktivering både centralt og perifert |
+| [12864759](https://pubmed.ncbi.nlm.nih.gov/12864759/) | 2003 | Kohorte | Headache | Transkraniel Doppler ved migræneanfald før og efter zolmitriptan eller sumatriptan |
+| [22298171](https://pubmed.ncbi.nlm.nih.gov/22298171/) | 2012 | Case report | Cardiol J | Zolmitriptan-induceret akut myokardieinfarkt – relevant sikkerhedssignal |
+| [23695053](https://pubmed.ncbi.nlm.nih.gov/23695053/) | 2013 | Review af randomiserede studier | Neurol Sci | Effekt af frovatriptan og andre triptaner hos migrænepatienter med og uden hypertension |
+| [21028917](https://pubmed.ncbi.nlm.nih.gov/21028917/) | 2010 | Review | Paediatr Drugs | Brug af triptaner ved migræne hos børn |
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106741122 | Zolmitriptan "2care4" (2care4 ApS) | Tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
+| MA 28106741122 | Zolmitriptan "2care4" (2care4 ApS) | Tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikation (teoretisk, skal verificeres):** Ifølge Evidence Pack er hemiplegisk eller basilær migræne anført som kontraindikation for zolmitriptan på grund af den teoretiske risiko for iskæmi som følge af vasokonstriktion. Dette skal bekræftes i det godkendte danske produktresumé.
+- **Kontraindikationer ifølge vidensgraf (ikke produktresumé):** Vidensgrafen (PrimeKG) angiver kontraindikationsrelationer til bl.a. hypertension, koronar hjertesygdom, myokardieinfarkt, myokardieiskæmi, Prinzmetal-angina, Wolff-Parkinson-White-syndrom, slagtilfælde, transitorisk iskæmisk anfald, cerebrovaskulære sygdomme, vertebrobasilar insufficiens, hjerneiskæmi, perifer karsygdom, Raynauds sygdom, iskæmisk tarmsygdom, nyresygdom, leversygdom, galdeblæresygdom samt **familiær eller sporadisk hemiplegisk migræne**. Det sidste er særligt relevant for den foreslåede indikation.
+- **Lægemiddelinteraktioner:** 82 interaktioner er registreret. Blandt dem med niveau "Major" er lorcaserin, dolasetron, palonosetron, ondansetron, granisetron, dexfenfluramin, fenfluramin og sibutramin (primært risiko for serotonerg påvirkning). Moderate interaktioner omfatter bl.a. morfin, cimetidin og obeticholsyre.
+- **Case report:** Et tilfælde af zolmitriptan-induceret akut myokardieinfarkt er beskrevet i litteraturen.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -105,18 +111,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Evidensniveauet er L4. Der er ingen kliniske forsøg, og ingen af de 19 publikationer er specifikke for migræne med hjernestammeaura.
-- Indikationen er en undertype af den godkendte indikation, og en kendt sikkerhedsbekymring (kontraindikation ved basilær migræne) skal afklares, før effekt kan vurderes.
+Der er ingen kliniske forsøg og ingen undersøgelser specifikt for migræne med hjernestammeaura; den høje score skyldes sandsynligvis den overordnede migræneindikation. Triptaner har desuden historisk forsigtighedsregler ved hjernestammeaura og hemiplegisk migræne, og vidensgrafen angiver en lang række vaskulære kontraindikationer.
 
-De øvrige forudsigelser i Evidence Pack, atrophoderma vermiculata (99,90 %) og ulerythema ophryogenesis (99,83 %), har evidensniveau L5. Der er hverken forsøg eller litteratur, og der er ingen plausibel mekanistisk sammenhæng med 5-HT1B/1D-agonisme. De vurderes som beregningsartefakter og bør ikke forfølges. Hver af de tre indikationer optrådte to gange med identiske data i inputtet og er vurderet én gang.
+**For at komme videre kræves følgende:**
+- Gennemgang af produktresuméets advarsler og kontraindikationer (data mangler)
+- Mekanistiske data (MOA) fra DrugBank
+- Undertypespecifikke kliniske data og en grundig risk-benefit-vurdering vedrørende vaskulær sikkerhed ved hjernestammeaura
+- Afklaring af den godkendte indikationstekst for den danske tilladelse
 
-**For at komme videre kræves:**
-- Det danske produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende datamangel)
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- En afklaring af, om sikkerhedsprofilen tillader brug ved migræne med hjernestammeaura, herunder vurdering af risikoen for vasokonstriktionsrelateret iskæmi
-- Målrettet litteratur- og forsøgssøgning specifikt for migræne med hjernestammeaura/basilær migræne
+---
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser fra modellen skal valideres klinisk, før de kan anvendes.*
+### Øvrige forudsigelser (ikke anbefalet til videre evaluering)
+
+TxGNN forudsagde også **atrophoderma vermiculata** (score 99,90 %) og **ulerythema ophryogenesis** (score 99,83 %). Begge har evidensniveau L5 uden kliniske forsøg eller litteratur og uden nogen oplagt mekanistisk sammenhæng med 5-HT1B/1D-agonisme. De vurderes sandsynligvis at være netværksartefakter i modellen. Anbefaling: **Hold**.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Mupirocin
 parent: Kun modelforudsigelse (L5)
-nav_order: 303
+nav_order: 572
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mupirocin: Fra topisk antibakteriel behandling til pleuraempyem
+# Mupirocin: Fra impetigo til pleural empyem
 
 ## Resumé i én sætning
 
-Mupirocin er et topisk antibiotikum, som i Danmark markedsføres som Bactroban salve.
-TxGNN-modellen forudsiger, at det kan have effekt ved **pleuraempyem**, men der er **0 kliniske forsøg** og **0 publikationer** for denne indikation.
-Forudsigelsen er derfor ren modelforudsigelse (evidensniveau L5).
+Mupirocin er et topisk antibiotikum, der oprindeligt anvendes til behandling af hudinfektioner som impetigo og bulløs impetigo.
+TxGNN-modellen forudsiger, at det kan have effekt på **pleural empyem**,
+men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** til at understøtte denne forudsigelse. Forudsigelsen bygger udelukkende på modelberegning.
 
 ---
 
@@ -43,7 +43,8 @@ Forudsigelsen er derfor ren modelforudsigelse (evidensniveau L5).
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Pleuraempyem |
+| Oprindelig indikation | Impetigo og bulløs impetigo (fra TxGNN-vidensgrafen; der er ikke angivet indikationstekst i de danske markedsføringstilladelser) |
+| Forudsagt ny indikation | Pleural empyem |
 | TxGNN-forudsigelsesscore | 99,49 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -52,70 +53,42 @@ Forudsigelsen er derfor ren modelforudsigelse (evidensniveau L5).
 
 ---
 
-## Hvorfor er forudsigelsen rimelig (eller ikke)?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Oplysninger om lægemidlets virkningsmekanisme (MOA) er i øjeblikket ikke tilgængelige i datagrundlaget. Ud fra almen farmakologi, som ikke stammer fra de leverede data, hæmmer mupirocin bakteriens isoleucyl-tRNA-syntetase og virker primært mod grampositive kokker. Pleuraempyem skyldes ofte netop sådanne bakterier, og det kan forklare modellens høje score.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er dog almindeligt kendt, at mupirocin hæmmer bakteriens isoleucyl-tRNA-syntetase og dermed proteinsyntesen. Stoffet er aktivt over for *Staphylococcus aureus* og visse streptokokker.
 
-Der er dog et afgørende praktisk problem: Mupirocin er et topisk præparat (salve), og der er ingen plausibel vej for en salve til pleurahulen. Pleuraempyem behandles i praksis med systemisk antibiotika og drænage. Forholdet mellem den oprindelige og den nye indikation kan derfor ikke vurderes som understøttet, og administrationsvejens forenelighed er ikke afklaret.
+Disse bakterier kan også forårsage pleural empyem, så der findes en teoretisk antibakteriel sammenhæng med den oprindelige indikation. Den høje modelscore afspejler sandsynligvis denne ligheden i mikrobiologi.
 
-Scoren er høj, men uden kliniske data eller litteratur er den ikke tilstrækkelig til at begrunde en videre udvikling.
+Forudsigelsen er dog farmakologisk usandsynlig. Mupirocin er et topisk middel uden betydelig systemisk eksponering og kan derfor ikke nå pleurahulen. Uden kliniske eller litteraturmæssige data bør forudsigelsen betragtes som et rent computergenereret signal.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for pleuraempyem.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for pleuraempyem.
-
----
-
-## Øvrige forudsagte indikationer
-
-Evidenspakken indeholder flere forudsigelser (rang 1-10), hvoraf nogle er dubletter. Her er de unikke indikationer:
-
-| Indikation | TxGNN-score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Pleuraempyem | 99,49 % | L5 | Kun modelforudsigelse. Topisk præparat har ingen vej til pleurahulen. |
-| Punktformet epitelial keratokonjunktivitis | 99,10 % | L5 | Ingen klar rationale, da tilstanden ofte er viral eller ikke-infektiøs. |
-| Neurotrofisk keratopati | 98,48 % | L5 | Nervedegeneration i hornhinden. Ingen tydelig antibakteriel mekanisme. |
-| Kutan candidiasis | 98,27 % | L4 | Svag, men den eneste indikation med et direkte litteratursignal (se nedenfor). |
-| Vaginal udflåd | 96,01 % | L5 | Det tilknyttede forsøg er ikke relevant (se nedenfor). |
-
-**Kutan candidiasis** har de to publikationer, der er tættest på en reel evidens:
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [1678836](https://pubmed.ncbi.nlm.nih.gov/1678836/) | 1991 | Klinisk rapport (design kan ikke verificeres ud fra titlen) | Lancet | "Efficacy of mupirocin in cutaneous candidiasis". Eneste direkte signal. Der er intet abstract, så design og størrelse er ukendt. |
-| [24021363](https://pubmed.ncbi.nlm.nih.gov/24021363/) | 2013 | Case-rapport | Dermatology Online Journal | Perianal og periumbilikal dermatitis hos en kvinde med gruppe G-streptokokinfektion. Kun indirekte evidens. |
-
-Mupirocin er ikke et klassisk antimykotikum. En mulig forklaring er behandling af bakteriel samtidig infektion eller superinfektion ved intertriginøs eller perianal dermatitis, eller en beskeden direkte svampehæmmende effekt. Da mupirocin er et markedsført topisk middel med kendt sikkerhedsprofil, er et lille, velkontrolleret studie realistisk. Et sådant studie bør skelne mellem antibakteriel og antimykotisk effekt.
-
-**Vaginal udflåd** er knyttet til ét forsøg, som ikke understøtter indikationen:
-
-| Forsøgsnummer | Fase | Status | Inkluderede | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT07142408](https://clinicaltrials.gov/study/NCT07142408) | Fase 3 | Rekrutterer | 848 | Præoperativ bakteriel dekolonisering (Hibiclens-sæbe og mupirocin i næsen) for at nedsætte postoperativ infektion ved lårbens- og underbenssår hos patienter, der opereres for hudkræft. |
-
-Forsøget handler om en helt anden population og et andet endepunkt end vaginal udflåd. Koblingen ligner en mapping-artefakt. Fase 3-betegnelsen må **ikke** tolkes som L1-evidens for denne indikation.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for pleural empyem.
 
 ---
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101502892 | Bactroban | Salve | GlaxoSmithKline Pharma A/S |
+| 28101502892 | Bactroban (GlaxoSmithKline Pharma A/S) | Salve | Indikationstekst ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Kontraindikationer fra vidensgrafen**: TxGNN-vidensgrafen angiver dermatitis som en sygdom, hvor brug af lægemidlet er kontraindiceret. Dette stammer fra grafdata og ikke fra produktresuméet.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner i interaktionsdatabasen (DDInter), men alvorlighedsgraden er angivet som "ukendt" for alle viste. Eksempler: calcitriol, clotrimazol, morfin, metformin, pantoprazol, omeprazol, vancomycin, prednison, simvastatin og rosuvastatin. Klinisk relevans er ikke vurderet.
+
+Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -124,16 +97,35 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den højest rangerede forudsigelse (pleuraempyem) bygger kun på modellens score uden kliniske forsøg eller litteratur, og et topisk præparat har ingen plausibel vej til pleurahulen. Af de øvrige kandidater er kutan candidiasis (L4) den eneste med et direkte, men svagt og uverificeret, litteratursignal.
+Forudsigelsen om pleural empyem har kun evidensniveau L5 uden forsøg eller publikationer, og den topiske administrationsvej gør det farmakologisk usandsynligt, at stoffet kan nå infektionsstedet.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen for advarsler og kontraindikationer. Det er en blokerende datamangel.
-- Hent oplysninger om virkningsmekanisme (MOA) fra DrugBank.
-- Afklar administrationsvejens forenelighed for pleuraempyem (nuværende data: ingen).
-- Skaf og vurdér fuldteksten til Lancet-rapporten fra 1991 om kutan candidiasis (PMID 1678836) for at afgøre design og stikprøvestørrelse.
-- Overvej om kutan candidiasis kan formuleres som et lille, kontrolleret forskningsspørgsmål, der adskiller antibakteriel fra antimykotisk effekt.
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- Dokumentation for, at en relevant systemisk eller lokal formulering kan opnå tilstrækkelig eksponering i pleurahulen
+- Prækliniske eller kliniske data, der understøtter effekt ved pleural empyem
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+---
+
+## Bemærkning om øvrige forudsigelser
+
+Andre forudsigelser i de indsamlede data har ligeledes begrænset evidens:
+
+| Forudsagt indikation | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Punktformet epitelial keratokonjunktivitis | 99,10 % | L5 | Hold. Ofte viral eller immunmedieret, og mupirocin er ikke udviklet til øjenbrug |
+| Neurotrofisk keratopati | 98,48 % | L5 | Hold. Mekanismen adresserer ikke den underliggende nerveskade |
+| Kutan candidiasis | 98,27 % | L4 | Forskningsspørgsmål. Begrænset evidens, se nedenfor |
+| Vaginalt udflåd | 96,01 % | L5 | Hold. Ingen kendt aktivitet over for de hyppigste årsager |
+
+**Litteratur om kutan candidiasis:**
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [1678836](https://pubmed.ncbi.nlm.nih.gov/1678836/) | 1991 | Klinisk studie (design ikke bekræftet) | Lancet | Undersøgelse af mupirocins effekt ved kutan candidiasis |
+| [24021363](https://pubmed.ncbi.nlm.nih.gov/24021363/) | 2013 | Case report | Dermatology Online Journal | Perianal og periumbilikal dermatitis med gruppe G-streptokokinfektion samt gennemgang af lignende hudlidelser |
+
+Mupirocin er primært antibakterielt og ikke et egentligt antimykotikum. En eventuel effekt kan skyldes behandling af samtidige bakterielle infektioner. Etablerede antimykotika forbliver standardbehandling.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

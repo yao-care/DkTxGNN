@@ -2,7 +2,7 @@
 layout: default
 title: Deflazacort
 parent: Kun modelforudsigelse (L5)
-nav_order: 135
+nav_order: 247
 evidence_level: L5
 indication_count: 0
 ---

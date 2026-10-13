@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Venetoclax
-parent: Kun modelforudsigelse (L5)
-nav_order: 469
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 879
+evidence_level: L4
 indication_count: 10
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Venetoclax: Fra godkendt anvendelse til kronisk lymfatisk leukæmi/småcellet lymfocytisk lymfom med IGHV-hypermutation
+# Venetoclax: Fra akut lymfatisk leukæmi og Richters syndrom til kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (IGHV-muteret)
 
-## Opsummering i få sætninger
+## Resumé i én sætning
 
-Venetoclax er en selektiv BCL-2-hæmmer, der er markedsført i Danmark som filmovertrukne tabletter (Venclyxto). TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **kronisk lymfatisk leukæmi/småcellet lymfocytisk lymfom (CLL/SLL) med somatisk hypermutation i IGHV-genet**. For netop denne forudsigelse er der i øjeblikket **0 kliniske forsøg** og **0 publikationer** i datagrundlaget, så evidensen er alene modelbaseret.
+Venetoclax er en BCL-2-hæmmer, som i den viden, der ligger til grund for modellen, er knyttet til akut lymfatisk/lymfocytær leukæmi og Richters syndrom.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (CLL/SLL) med somatisk hypermutation i den variable region af immunglobulin-tungkæden (IGHV-muteret)**.
+For netop denne undertype er der dog **0 kliniske forsøg** og **0 publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -41,41 +43,43 @@ Venetoclax er en selektiv BCL-2-hæmmer, der er markedsført i Danmark som filmo
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i Evidence Pack (indikationsteksten for den danske godkendelse er tom) |
-| Forudsagt ny indikation | CLL/SLL med immunglobulin-tungkæde-variabelregion-gen-somatisk hypermutation |
+| Oprindelig indikation | Akut lymfatisk/lymfocytær leukæmi og Richters syndrom (fra TxGNN-videngrafen; godkendelsesteksten i den danske registrering er ikke angivet) |
+| Forudsagt ny indikation | CLL/SLL med IGHV-somatisk hypermutation |
 | TxGNN-forudsigelsesscore | 99,55 % |
-| Evidensniveau | L5 |
+| Evidensniveau | L4 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i Evidence Pack. Venetoclax er dog en selektiv BCL-2-hæmmer. CLL/SLL-celler er afhængige af overekspression af BCL-2 for at overleve, og mekanismen er derfor biologisk plausibel.
+Venetoclax er en selektiv BCL-2-hæmmer. CLL/SLL-celler er afhængige af overekspression af BCL-2 for at overleve, og derfor giver mekanismen god mening. Detaljerede mekanismedata fra lægemiddeldatabasen mangler dog.
 
-IGHV-muteret CLL/SLL er ikke en selvstændig sygdom, men en molekylær undergruppe af CLL. Det betyder, at den generelle BCL-2-begrundelse for CLL også gælder her. Forudsigelsen er dermed mere en præcisering af en undergruppe inden for en kendt sygdomsgruppe end en egentlig ny anvendelse i en fjern sygdom. Der er dog ikke fremlagt data, som peger specifikt på venetoclax' virkning i netop denne undergruppe.
+Den forudsagte indikation er en molekylær undertype af CLL/SLL. Venetoclax er allerede anerkendt til CLL/SLL generelt, og det understøttes bl.a. af MURANO-studiet (venetoclax + rituximab ved recidiverende/refraktær CLL), som optræder i de data, der er indsamlet for andre forudsagte indikationer. Der er altså tale om en undertype af en allerede godkendt sygdom og ikke om en egentlig ny anvendelse.
+
+Understøttelsen er derfor indirekte. Den bygger på moderdiagnosen og på modelforudsigelsen, ikke på forsøg eller litteratur specifikt for den IGHV-muterede undertype.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Dokumentation fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne specifikke forudsigelse.
+Der er i øjeblikket ingen registrerede kliniske forsøg knyttet til denne specifikke undertype.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for denne specifikke forudsigelse.
+Der er i øjeblikket ingen relevant litteratur knyttet til denne specifikke undertype.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105697615 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | Filmovertrukne tabletter | Ikke oplyst |
+| 28105697615 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | Filmovertrukne tabletter (oral) | Indikationsteksten indgår ikke i de indsamlede data; se produktresuméet (SmPC) |
 
 ---
 
@@ -83,21 +87,36 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for denne specifikk
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (selektiv BCL-2-hæmmer) |
-| Risiko for myelosuppression | Mellem (neutropeni og andre cytopenier er almindelige ved BCL-2-hæmmere) |
-| Emetogenicitetsklassifikation | Lav |
-| Monitoreringspunkter | Blodtælling med differentialtælling, nyrefunktion og elektrolytter (herunder kalium, fosfat, calcium og urinsyre ved risiko for tumorlysesyndrom) |
-| Håndteringsbeskyttelse | Se Produktresuméet (SmPC) og lokale retningslinjer for håndtering af antineoplastiske lægemidler |
-
-Tumorlysesyndrom og myelosuppression er de hyppigst rapporterede toksiciteter ved venetoclax i lymfoide maligniteter (jf. litteratur i Evidence Pack under andre forudsigelser). Detaljerede toksicitetsdata for dette lægemiddel bør hentes fra SmPC.
+| Cytotoksicitetsklassifikation | Målrettet behandling (selektiv BCL-2-hæmmer, BH3-mimetikum) |
+| Risiko for myelosuppression | Myelosuppression og tumorlysesyndrom er de hyppigst rapporterede toksiciteter ved venetoclax i lymfoide maligniteter (iflg. en oversigtsartikel i de indsamlede data) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Fuldt blodbillede med differentialtælling samt parametre for tumorlysesyndrom (bl.a. elektrolytter, nyrefunktion); se i øvrigt SmPC |
+| Håndteringsbeskyttelse | Se SmPC og lokale retningslinjer for håndtering af cytostatika |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget, men det kan afspejle manglende data frem for fravær af interaktioner.
+- **Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i interaktionsdatabasen (DDInter). Blandt de angivne er følgende klassificeret som **alvorlige (Major)**: aprepitant, dexamethason, clarithromycin, eliglustat, rolapitant, fidaxomicin, cobicistat, deferipron og samarium (153Sm) lexidronam.
+- Flere **moderate** interaktioner er også registreret, bl.a. med alvimopan, loperamid, cimetidin, miconazol, rifaximin, clotrimazol, deferasirox, naldemedin, metreleptin og troglitazon. Naloxegol er klassificeret som mindre (Minor).
+- Litteraturen i de indsamlede data fremhæver desuden interaktionen med stærke CYP3A-hæmmere, f.eks. den azolholdige svampemiddel posaconazol, som kan kræve dosisjustering af venetoclax.
 
-Se det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger, herunder advarsler, kontraindikationer og interaktioner.
+Advarsler og kontraindikationer fra produktresuméet er ikke indgået i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
+
+## Øvrige forudsagte indikationer i data
+
+Til orientering fremgår følgende af de indsamlede data. Rapportens hovedvurdering gælder kun den første indikation.
+
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling i data |
+|------|------|------|------|
+| Prægerminalcenter-CLL/SLL | 99,55 % | L4 | Hold |
+| Hodgkins lymfom | 99,51 % | L3 | Forskningsspørgsmål |
+| Myeloid leukæmi (AML) | 99,47 % | L2 | Proceed with Guardrails |
+| Kronisk myeloid leukæmi, BCR-ABL1-positiv | 99,36 % | L2 | Forskningsspørgsmål |
+
+Bemærk, at de to indikationer med lymfomtilknytning har svag evidens: de fleste forsøg ved Hodgkins lymfom er fase 1/2-studier i andre B-cellelymfomer, og betegnelsen kan være en bred mapping til lymfom generelt. For AML er venetoclax i kombination med azacitidin ifølge data allerede en etableret standardbehandling, så spørgsmålet er snarere en udvidelse af indikation eller regime end egentlig repurposing.
 
 ---
 
@@ -106,15 +125,13 @@ Se det godkendte Produktresumé (SmPC) for sikkerhedsoplysninger, herunder advar
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har en høj modelscore (99,55 %), men der er ingen kliniske forsøg eller publikationer knyttet specifikt til den (evidensniveau L5). Sikkerhedsgrundlaget fra den danske produktinformation mangler desuden, og det blokerer for en videre sikkerhedsscreening.
+Der foreligger hverken kliniske forsøg eller litteratur specifikt for den IGHV-muterede CLL/SLL-undertype. Understøttelsen er kun mekanistisk og modelbaseret (evidensniveau L4). Det er desuden en undertype af en allerede godkendt sygdom og ikke en reel repurposing-kandidat.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af advarsler og kontraindikationer fra den danske produktinformation (Lægemiddelstyrelsen)
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Den godkendte indikationstekst for Venclyxto, så forholdet til den oprindelige indikation kan afklares
-- Forsøgs- og litteraturdata, der specifikt omfatter IGHV-muteret CLL/SLL
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelsen skal valideres klinisk, før den kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikationstekst), da disse oplysninger mangler.
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank.
+- Undertypespecifikke data (forsøg eller subgruppeanalyser) for IGHV-muteret CLL/SLL, f.eks. subgruppeanalyser fra MURANO.
+- En afklaring af, om undertypen overhovedet adskiller sig fra den allerede godkendte CLL/SLL-indikation i klinisk praksis.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

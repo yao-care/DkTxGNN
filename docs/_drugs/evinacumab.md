@@ -2,7 +2,7 @@
 layout: default
 title: Evinacumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 184
+nav_order: 341
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Evinacumab: Fra homozygot familiær hypercholesterolæmi til diabetisk grå stær
+# Evinacumab: Fra homozygot familiær hypercholesterolæmi til diabetisk katarakt
 
-## Resumé
+## Resumé i én sætning
 
-Evinacumab er et monoklonalt antistof, der markedsføres i Danmark under navnet Evkeeza. Det anvendes efter almen viden til alvorlig arvelig forhøjet kolesterol (homozygot familiær hypercholesterolæmi). Denne indikation fremgår ikke af datagrundlaget.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk grå stær**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
+Evinacumab er et monoklonalt antistof, der hæmmer ANGPTL3 og sænker blodets lipidniveauer. Det er markedsført i Danmark under navnet Evkeeza og anvendes ifølge de tilgængelige data ved homozygot familiær hypercholesterolæmi. TxGNN-modellen forudsiger, at det kan have effekt ved **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
 
 ---
 
@@ -42,9 +41,9 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk grå s
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (efter almen viden: homozygot familiær hypercholesterolæmi) |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-score | 98,5 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data for den danske markedsføringstilladelse (tidligere kendt anvendelse: homozygot familiær hypercholesterolæmi) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 98,5 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -52,43 +51,51 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk grå s
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme i datagrundlaget. Evinacumab er efter almen viden et antistof, der neutraliserer ANGPTL3 og dermed sænker LDL-kolesterol og triglycerider. Dette er ikke bekræftet i de leverede data.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Evinacumab er dog kendt som en hæmmer af ANGPTL3, som sænker LDL-kolesterol, HDL-kolesterol og triglycerider.
 
-En kobling til diabetisk grå stær ville skulle gå via bedre blodfedtprofil eller ANGPTL-relaterede vaskulære og metaboliske signalveje. Det er spekulativt. Diabetisk grå stær drives primært af hyperglykæmi, øget flux i polyolvejen og oxidativt stress, og ANGPTL3-hæmning er ikke et oplagt angrebspunkt for disse mekanismer. Den høje score afspejler sandsynligvis nærhed til andre kataraktknuder i vidensgrafen snarere end en reel biologisk sammenhæng.
+Der er ikke påvist nogen etableret biologisk sammenhæng mellem ANGPTL3-hæmning og diabetisk katarakt. Diabetisk katarakt skyldes primært polyol-vejen og oxidativt stress i linsen som følge af forhøjet blodsukker. En lipidsænkende antistofbehandling har ikke noget kendt angrebspunkt i denne proces. Dyslipidæmi er hyppig ved type 2-diabetes, og lipidprofilen kan forbedres, men der er intet, der tyder på, at dette forebygger eller behandler linsetab af gennemsigtighed.
 
-### Øvrige forudsigelser
+TxGNN-scoren er udelukkende en vidensgrafbaseret computerforudsigelse. Den høje score bør derfor ikke tolkes som klinisk evidens.
 
-Modellen forudsiger også andre katarakttilstande med scorer omkring 98,4 %. Det drejer sig om umoden, moden, tetanisk og kraniostenose-relateret grå stær samt grå stær ved type 2-diabetes. Ingen af dem har kliniske forsøg eller publikationer, og ingen har en plausibel mekanistisk forklaring. Flere poster optrådte dobbelt i inputtet og er her kun nævnt én gang.
+### Øvrige forudsagte katarakttyper
+
+Modellen forudsiger samme niveau af sandsynlighed (ca. 98,4 %) for flere andre kataraktformer. Ingen af dem har kliniske forsøg eller litteratur, og der er ikke identificeret en plausibel mekanisme:
+
+| Forudsagt indikation | TxGNN-score | Bemærkning |
+|------|------|------|
+| Umoden katarakt | 98,4 % | Ingen plausibel mekanisme |
+| Moden katarakt | 98,4 % | Avanceret linsetab af gennemsigtighed, behandles typisk kirurgisk |
+| Kraniostenose-katarakt | 98,4 % | Sjælden syndromal, sandsynligvis genetisk form |
+| Tetanisk katarakt | 98,4 % | Knyttet til hypokalcæmi; evinacumab påvirker ikke calcium- eller parathyroideavejen |
+| Katarakt forbundet med type 2-diabetes | 98,4 % | Spekulativ sammenhæng via dyslipidæmi |
 
 ---
 
 ## Klinisk evidens
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er for nuværende ingen registrerede relaterede kliniske forsøg.
 
 ---
 
 ## Litteraturevidens
 
-Der foreligger aktuelt ingen relateret litteratur.
+Der er for nuværende ingen relateret litteratur.
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106478720 | Evkeeza (Ultragenyx Germany GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i datagrundlaget |
-
-Præparatet gives som intravenøs infusion.
+| 28106478720 | Evkeeza (Ultragenyx Germany GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet data om interaktioner.
+Der er ikke tilgængelige data om advarsler, kontraindikationer eller interaktioner i det indsamlede materiale. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -97,15 +104,13 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore (L5) uden kliniske forsøg, litteratur eller plausibel mekanisme. Desuden mangler sikkerhedsdata fra den danske indlægsseddel, hvilket blokerer det videre sikkerhedsscreeningstrin.
+Forudsigelsen bygger udelukkende på en computermodel uden kliniske forsøg, litteratur eller en plausibel virkningsmekanisme. Evidensniveauet er L5, og der er ikke grundlag for at gå videre.
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer).
-- Indhent data om virkningsmekanisme fra DrugBank.
-- Foretag en systematisk litteratursøgning om ANGPTL3, blodfedtstoffer og katarakt eller linsepatologi.
-- Vurder, om en prækliniske model kan understøtte en kobling til linsen, før der overvejes kliniske studier.
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser fra TxGNN skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Prækliniske data eller mekanistiske studier, der kan koble ANGPTL3-hæmning til linsepatologi
+- Produktresumé (SmPC) med godkendt indikation, advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af, om administration via intravenøs infusion er realistisk til en øjenindikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

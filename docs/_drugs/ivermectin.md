@@ -2,7 +2,7 @@
 layout: default
 title: Ivermectin
 parent: Kun modelforudsigelse (L5)
-nav_order: 250
+nav_order: 465
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ivermectin: Fra antiparasitær behandling til vulvovaginal candidiasis
+# Ivermectin: Fra strongyloidiasis og onchocerciasis til vulvovaginal candidiasis
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Ivermectin er et antiparasitært lægemiddel. I Danmark er det kun registreret som dyrlægemiddel.
-TxGNN-modellen forudsiger, at det kan have effekt på **vulvovaginal candidiasis**, men der er **ingen kliniske forsøg** og **ingen relevant litteratur**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
+Ivermectin er et antiparasitært lægemiddel, der oprindeligt anvendes til behandling af strongyloidiasis og onchocerciasis.
+TxGNN-modellen forudsiger, at det kan have effekt mod **vulvovaginal candidiasis**,
+men der er i de data, der er indsamlet til denne rapport, **0 kliniske forsøg** og **0 publikationer**, der understøtter denne indikation. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -42,53 +43,80 @@ TxGNN-modellen forudsiger, at det kan have effekt på **vulvovaginal candidiasis
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Antiparasitær anvendelse (indikationstekst er ikke angivet i den danske registrering) |
+| Oprindelig indikation | Strongyloidiasis og onchocerciasis (fra TxGNN-vidensgrafen; det danske markedsføringstilladelses-indikationsfelt er tomt) |
 | Forudsagt ny indikation | Vulvovaginal candidiasis |
-| TxGNN-prædiktionsscore | 99,95 % |
+| TxGNN-forudsigelsesscore | 99,95 % |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (kun som dyrlægemiddel) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor kan forudsigelsen være rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Ivermectin virker på glutamatstyrede kloridkanaler hos hvirvelløse dyr. Det giver lammelse og død hos parasitter. Der er ikke dokumenteret nogen klinisk antifungal virkningsmekanisme. Der foreligger heller ikke detaljerede mekanismedata fra den oprindelige kilde, så en mekanistisk sammenhæng med candida-infektion kan ikke verificeres med de foreliggende data.
+Der foreligger i øjeblikket ingen detaljerede data om lægemidlets virkningsmekanisme. Ivermectins kendte antiparasitære virkning formidles via glutamat-styrede kloridkanaler hos hvirvelløse dyr. Der er ikke påvist nogen tilsvarende mekanisme hos *Candida*, som er en svamp.
 
-Den høje score afspejler nærhed i vidensgrafen, ikke klinisk støtte. Vulvovaginal candidiasis er en svampeinfektion, mens ivermectins kendte anvendelse er mod parasitter. Forbindelsen mellem de to er derfor uafklaret og kræver prækliniske data (fx in vitro-aktivitet mod *Candida*) som minimum.
+Der er derfor ikke etableret nogen mekanistisk forbindelse mellem de oprindelige indikationer (parasitinfektioner) og vulvovaginal candidiasis (svampeinfektion). Den høje score (0,9995) er en beregningsmæssig forudsigelse, der sandsynligvis afspejler nærhed i vidensgrafen frem for påvist aktivitet. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et resultat.
 
-Modellen foreslår desuden en række beslægtede indikationer med samme eller lignende score: øsofageal candidiasis, anogenital HPV-infektion, vulvovaginitis samt kongenit og neonatal candidiasis. Vulvovaginitis er en bred kategori, der sandsynligvis hænger sammen med candidiasis-forudsigelserne. For ingen af dem foreligger forsøg eller litteratur, der understøtter anvendelsen. De to fundne case-rapporter (PMID 35835488 og 10098288) omhandler ivermectins antiparasitære anvendelse hos immunsvækkede patienter og belyser ikke behandling af candidiasis.
+Modellen forudsiger desuden flere beslægtede indikationer med samme manglende evidens:
+
+| Forudsagt indikation | TxGNN-score | Evidens |
+|------|------|------|
+| Esophageal candidiasis | 99,73 % | Ingen relevante data (se nedenfor) |
+| Anogenital human papillomavirus-infektion | 99,48 % | Ingen |
+| Vulvovaginitis | 99,36 % | Ingen |
+| Congenital candidiasis | 99,25 % | Ingen relevante data (se nedenfor) |
+| Neonatal candidiasis | 99,25 % | Ingen |
 
 ---
 
-## Klinisk evidens fra forsøg
+## Klinisk forsøgsevidens
 
-Der er i øjeblikket ingen registrerede relaterede kliniske forsøg.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for den primære forudsagte indikation.
+For den primære forudsagte indikation (vulvovaginal candidiasis) foreligger der i øjeblikket ingen relateret litteratur.
+
+For andre forudsagte indikationer er følgende publikationer knyttet til forudsigelserne. Ingen af dem understøtter den forudsagte indikation:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Case report | BMJ Case Reports | Disseminert strongyloidiasis efter langvarig kortikosteroidbehandling. Omhandler den oprindelige antiparasitære indikation, ikke esophageal candidiasis. |
+| [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Case report | Australasian Journal of Dermatology | Vellykket behandling af crusted scabies med oral ivermectin hos to immunkompromitterede børn (ét med kronisk mukokutan candidiasis). Omhandler skabbehandling, ikke candidiasis. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103169900 | Bimectin Vet. | Injektionsvæske, opløsning | Bimeda Animal Health Limited |
+| 28103169900 | Bimectin Vet. | Injektionsvæske, opløsning | Ikke angivet |
 
-Den eneste registrerede tilladelse er et veterinært præparat til injektion. Der er ikke registreret et humant ivermectin-præparat i de foreliggende data. Det betyder, at hverken lægemiddelform eller administrationsvej uden videre kan bruges til behandling af vulvovaginal candidiasis hos mennesker.
+Bemærk: Den eneste registrerede tilladelse er for et veterinærpræparat (Bimeda Animal Health Limited). De data, der er indsamlet til denne rapport, viser ingen registreret human-formulering i Danmark.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen oplysninger om advarsler, kontraindikationer eller interaktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer fra vidensgrafen** (ikke fra produktresumétekst): loiasis og filariasis.
 
-Ved de forudsagte indikationer kongenit og neonatal candidiasis skal sikkerheden hos nyfødte og børn desuden vurderes særskilt.
+**Lægemiddelinteraktioner:** Interaktionssøgningen er gennemført og fandt 100 registrerede interaktioner. Blandt de væsentligste, klassificeret som moderate:
+- Warfarin og dicoumarol (risiko for påvirket antikoagulation)
+- Aprepitant og clarithromycin
+- Cobicistat
+- Ethanol
+- Deferasirox
+- Fostamatinib
+- Jod-123 og jod-131
+- Abametapir (topisk)
+
+For en række andre stoffer (bl.a. omeprazol, lansoprazol, prednison, prednisolon, dexamethason, ranitidin, famotidin, ursodeoxycholsyre og heparin) er interaktionsniveauet angivet som ukendt.
+
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC). Bemærk, at advarsler og kontraindikationer fra produktresuméet ikke har kunnet indhentes i forbindelse med denne rapport.
 
 ---
 
@@ -97,16 +125,15 @@ Ved de forudsagte indikationer kongenit og neonatal candidiasis skal sikkerheden
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen (evidensniveau L5), uden kliniske forsøg, relevant litteratur eller en verificerbar virkningsmekanisme. Sikkerhedsdata for det danske produkt mangler, og produktet er et dyrlægemiddel.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller relevant litteratur, og der er ingen etableret mekanistisk forbindelse mellem ivermectins antiparasitære virkning og svampeinfektionen candidiasis. Den eneste danske tilladelse er desuden for et veterinærpræparat.
 
-**For at komme videre kræves:**
-- Produktresumé og indlægsseddel fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Data om virkningsmekanisme, fx fra DrugBank
-- Prækliniske data (in vitro-aktivitet mod *Candida*) som mindstekrav for at gå videre
-- Vurdering af administrationsvej og tilgængelig humant præparat, fx topisk eller oral anvendelse
-- Særskilt sikkerhedsvurdering for gravide, nyfødte og børn, hvis disse populationer overvejes
-
-*Resultaterne er kun til forskningsformål og udgør ikke medicinsk rådgivning. Forudsigelser fra TxGNN skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prækliniske data (in vitro-aktivitet mod *Candida*) til at vurdere, om der overhovedet er biologisk plausibilitet
+- Advarsler og kontraindikationer fra et godkendt humant produktresumé hentet fra Lægemiddelstyrelsen
+- Vurdering af administrationsvej og formulering, da der ikke er afklaret en egnet vej til vaginal eller øsofageal anvendelse
+- Særskilt sikkerhedsvurdering for neonatale og immunkompromitterede populationer, hvis de beslægtede indikationer undersøges
+- Systematisk litteratursøgning og registersøgning efter forsøg, der direkte omhandler ivermectin og candidiasis
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

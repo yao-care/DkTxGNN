@@ -2,7 +2,7 @@
 layout: default
 title: Estradiol
 parent: Kun modelforudsigelse (L5)
-nav_order: 177
+nav_order: 327
 evidence_level: L5
 indication_count: 0
 ---

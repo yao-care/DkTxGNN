@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Parecoxib
-parent: Kun modelforudsigelse (L5)
-nav_order: 333
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 631
+evidence_level: L3
 indication_count: 10
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Parecoxib: Fra injicerbar NSAID til migræne
+# Parecoxib: Fra smertebehandling til migræne
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Parecoxib er en injicerbar, selektiv COX-2-hæmmer (NSAID), som markedsføres i Danmark under handelsnavnet Dynastat.
-TxGNN-modellen forudsiger, at stoffet kan have effekt ved **migræne**, men for netop denne indikation er der **ingen kliniske forsøg og ingen publikationer** i datagrundlaget.
-Den eneste relevante kliniske antydning er et pilotstudie fra 2011 om akutte migrænetilfælde, som er registreret under den nært beslægtede forudsigelse "headache disorder".
+Parecoxib (handelsnavn Dynastat) er en selektiv COX-2-hæmmer, der gives som injektion. Der er ikke angivet en godkendt indikation i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **migræne** med en score på **99,5 %**. Evidensen er begrænset til **1 klinisk pilotstudie** og to præklinisk studier, og der er **ingen registrerede kliniske forsøg**.
 
 ---
 
@@ -43,89 +41,79 @@ Den eneste relevante kliniske antydning er et pilotstudie fra 2011 om akutte mig
 
 | Punkt | Indhold |
 |------|------|
+| Oprindelig indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 99,5 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Evidensniveau | L3 |
 | Status på det danske marked | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (afvent) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datagrundlaget. Parecoxib er et prodrug af valdecoxib, som er en selektiv COX-2-hæmmer. COX-2-hæmning dæmper prostaglandinmedieret smerte og neurogen inflammation, og begge dele spiller en rolle ved migræneanfald. Mekanismen kan derfor i princippet være relevant ved migræne.
+Parecoxib er et prodrug af valdecoxib, en selektiv COX-2-hæmmer. Der foreligger ingen detaljerede mekanismedata fra lægemiddeldatabasen, men den kendte farmakologi er tilstrækkelig til en mekanistisk vurdering.
 
-Modellens høje score (0,995) er dog ikke i sig selv dokumentation. Forudsigelsen understøttes ikke af egentlige forsøg eller publikationer under migræne-posten.
+COX-2-afhængig syntese af prostaglandin E2 (PGE2) bidrager til neurogen inflammation, sensibilisering af trigeminusnerven og frigivelse af CGRP. Alle tre er centrale i migrænens patofysiologi. Hæmning af COX-2 er derfor biologisk plausibel ved akutte migræneanfald.
 
-Modellen har også forudsagt tre andre indikationer, som vurderes svagere:
-
-- **Migræne med hjernestammeaura:** Kun modelscore (L5), sandsynligvis arvet fra det generelle migrænenabolag i vidensgrafen. Det er uafprøvet, om COX-2-hæmning virker ved denne sjældne subtype.
-- **Migræne med/uden aura, modtagelighed:** Det er et genetisk modtagelighedsfænotype og ikke en behandlingsindikation (L5). De 20 tilknyttede artikler handler om epilepsigenetik og neuroinflammation, og ingen undersøger parecoxib eller andre COX-2-hæmmere. Litteraturmatchet ser ud til at være en søgeartefakt.
-- **Pulmonal hypertension:** Kun ét præklinisk studie i nyfødte grise med sepsis (L4). Det viste, at parecoxib *ikke* hæmmede thromboxansyntesen, så det understøtter ikke en gavnlig effekt. Selektive COX-2-hæmmere har desuden kardiovaskulære og trombotiske sikkerhedsbekymringer.
+Prækliniske studier understøtter sammenhængen: I rottens trigeminusganglieceller stimulerer IL-1β COX-2-afhængig PGE2-syntese og CGRP-frigivelse. Parecoxib påvirker desuden plasmaproteinudsivning og c-fos-ekspression i en rottemodel for trigeminovaskulær aktivering. Der er dog tale om dyre- og cellestudier, som ikke kan overføres direkte til patienter.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-For indikationen **migræne** er der aktuelt ingen relaterede kliniske forsøg registreret.
-
-Under den beslægtede post **headache disorder** (hovedpine) er der tre forsøg. Ingen af dem er bekræftet som et effektforsøg med parecoxib ved hovedpine eller migræne, og ingen har resultater:
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT01930318](https://clinicaltrials.gov/study/NCT01930318) | Fase 4 | Ukendt | 164 | COX-2-hæmmere og postoperativ insulinresistens, tramadol-PCA og tidlig enteral ernæring efter laparoskopisk mave-tarm-kirurgi. Hovedpine er højst et sekundært udfald. |
-| [NCT03823846](https://clinicaltrials.gov/study/NCT03823846) | Ikke fasebestemt | Ukendt | 80 | Samarbejdsprogram mellem læge, sygeplejerske og patient om bevægelsesudløst smerte efter laparotomi. Handler ikke om hovedpine. |
-| [NCT06623513](https://clinicaltrials.gov/study/NCT06623513) | Fase 2 | Ikke rekrutteret endnu | 100 | Randomiseret, kontrolleret forsøg, der sammenligner parecoxib med indometacin til forebyggelse af pankreatitis efter ERCP (PRECISE). Sammenhængen med hovedpine/migræne er ikke bekræftet. |
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-For indikationen **migræne** er der aktuelt ingen relaterede publikationer. Under den beslægtede post **headache disorder** findes ét direkte relevant studie:
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | Klinisk sammenlignende pilotstudie | Clinical Neuropharmacology | Sammenligner intravenøs parecoxib 40 mg, subkutan sumatriptan og oral rizatriptan 10 mg ved akutte migræneanfald. Design og resultater kan ikke verificeres ud fra det foreliggende uddrag. |
+| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | Klinisk pilotstudie (design ikke bekræftet) | Clinical Neuropharmacology | Sammenligning af intravenøst parecoxib 40 mg, rizatriptan som smeltetablet 10 mg og subkutan sumatriptan ved akutte migræneanfald |
+| [21394197](https://pubmed.ncbi.nlm.nih.gov/21394197/) | 2011 | Præklinisk, in vitro | PLoS One | IL-1β stimulerer COX-2-afhængig PGE2-syntese og CGRP-frigivelse i trigeminusganglieceller fra rotter |
+| [16492237](https://pubmed.ncbi.nlm.nih.gov/16492237/) | 2006 | Præklinisk, in vivo | Headache | Parecoxib påvirker plasmaproteinudsivning og c-fos-ekspression i rottemodel for trigeminovaskulær aktivering |
 
-Den anden artikel under hovedpine-posten (PMID 28364968, sphenopalatin-ganglionblokade ved postduralpunkturhovedpine) er ikke specifik for parecoxib og er derfor udeladt.
+Det kliniske studie er et pilotstudie, og dets design (randomisering, stikprøvestørrelse) kan ikke bekræftes ud fra de tilgængelige oplysninger. Det betragtes derfor konservativt som begrænset klinisk evidens.
+
+**Øvrige forudsagte indikationer (kort):**
+- **Hovedpineforstyrrelse (headache disorder, score 98,9 %):** Støttes kun indirekte af migrænestudiet. En rapport om postdural punkturhovedpine omhandler sphenopalatin-ganglionblokade, ikke parecoxib. Evidensniveau L3.
+- **Migræne med hjernestammeaura (score 99,5 %):** Ingen kliniske forsøg og ingen litteratur. Ren modelforudsigelse (L5), anbefaling Hold. Triptaner anvendes traditionelt med forsigtighed ved denne undertype.
+- **Migræne med eller uden aura, modtagelighed (score 99,4 %):** Genetisk modtagelighedsentitet snarere end en behandlingsbar tilstand. Evidensen svarer reelt til migrænefænotypen (L3).
+- **Pulmonal hypertension (score 99,1 %):** Kun ét dyrestudie (neonatale grise med sepsis), hvor parecoxib ikke hæmmede thromboxansyntesen. Evidensen er indirekte og mekanistisk potentielt ugunstig. Evidensniveau L4, anbefaling Hold.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103365002 | Dynastat | Pulver til injektionsvæske, opløsning | Pfizer Europe MA EEIG |
+| 28103365002 | Dynastat (Pfizer Europe MA EEIG) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Datagrundlaget indeholder ingen advarsler, kontraindikationer eller interaktionsdata for parecoxib. Interaktionssøgningen gav ingen fund.
+Der er ikke fundet data om interaktioner i de data, der er indsamlet til denne rapport. Der er ikke indhentet advarsler eller kontraindikationer fra produktresuméet.
 
-Generelt bør man være opmærksom på de kardiovaskulære og trombotiske risici, som er kendt for selektive COX-2-hæmmere. De taler for forsigtighed ved enhver ny indikation.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Som selektiv COX-2-hæmmer er kardiovaskulær sikkerhed en særlig opmærksomhed, især ved evt. gentagen eller længerevarende brug, hvilket skal afklares i SmPC.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold (afvent)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for migræne hviler udelukkende på en modelscore (L5), uden forsøg eller publikationer knyttet til netop denne indikation. Det eneste relevante kliniske signal er et pilotstudie fra 2011 under hovedpine-posten, hvis design og resultater ikke er verificeret. De kardiovaskulære sikkerhedsbekymringer ved COX-2-hæmmere kræver desuden en klar nytte-risiko-vurdering.
+Mekanismen er biologisk plausibel, og der findes ét klinisk pilotstudie med begrænset design-information, men ingen registrerede kliniske forsøg. Sikkerhedsdata fra produktresuméet mangler, og disse er en forudsætning for at gå videre til sikkerhedsscreening.
 
-**For at komme videre kræves:**
-- Gennemgang af fuldteksten til PMID 21996647 for at bekræfte design, størrelse og resultater
-- Afklaring af, om NCT06623513 har nogen sammenhæng med hovedpine/migræne
-- Mekanismedata (MOA) fra DrugBank
-- Produktresumé og sikkerhedsoplysninger (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
-- Oplysninger om den godkendte indikationstekst for Dynastat i Danmark
-- Vurdering af administrationsvej og kardiovaskulær risiko for den aktuelle patientgruppe
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne er modelbaserede og skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet (SmPC) for Dynastat, herunder indikation, advarsler og kontraindikationer
+- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
+- Bekræftelse af designet i pilotstudiet (PMID 21996647): randomisering, stikprøvestørrelse og endepunkter
+- Randomiserede, kontrollerede forsøg ved akut migræne
+- Vurdering af, om injektionsformen er hensigtsmæssig til akut migrænebehandling, da ruteforenelighed endnu ikke er vurderet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

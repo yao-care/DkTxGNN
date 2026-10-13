@@ -2,7 +2,7 @@
 layout: default
 title: Baclofen
 parent: Kun modelforudsigelse (L5)
-nav_order: 55
+nav_order: 95
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Baclofen: Fra oprindelig indikation (ikke angivet i data) til ADHD
+# Baclofen: Fra spasticitet til ADHD (opmærksomhedsforstyrrelse med hyperaktivitet)
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Baclofen er en GABA-B-receptoragonist, som er markedsført i Danmark som infusionsvæske. Den oprindelige indikation fremgår ikke af de foreliggende data.
-TxGNN-modellen forudsiger, at baclofen kan være virksomt ved **opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)**, med en høj modelscore.
-Der er dog **ingen registrerede kliniske forsøg**, og **ingen af de 10 fundne publikationer undersøger baclofen ved ADHD**. Forudsigelsen bygger derfor kun på modellen.
+Baclofen er en GABA-B-receptoragonist, som ifølge litteraturen anvendes til behandling af spasticitet. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **ADHD** (score 99,3 %). Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer, der har testet baclofen ved ADHD**. Forudsigelsen hviler alene på modellen.
 
 ---
 
@@ -43,10 +41,10 @@ Der er dog **ingen registrerede kliniske forsøg**, og **ingen af de 10 fundne p
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering |
-| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) |
-| TxGNN-forudsigelsesscore | 99,3 % |
-| Evidensniveau | L5 (kun modelforudsigelse) |
+| Oprindelig indikation | Spasticitet (nævnt i litteraturen; indikationsteksten er ikke angivet i de danske tilladelsesdata) |
+| Forudsagt ny indikation | Attention deficit-hyperactivity disorder (ADHD) |
+| TxGNN-prædiktionsscore | 99,3 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -55,15 +53,13 @@ Der er dog **ingen registrerede kliniske forsøg**, og **ingen af de 10 fundne p
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige. Evidenspakken beskriver dog baclofen som en GABA-B-receptoragonist. GABA-B-signalering påvirker de dopaminerge og noradrenerge kredsløb, som er involveret i impulsivitet og opmærksomhed. En sammenhæng med ADHD er derfor teoretisk plausibel.
+Baclofen virker som agonist på GABA-B-receptoren. Detaljerede mekanismedata er ikke tilgængelige i de data, der er indsamlet til denne rapport. Et muligt link til ADHD er, at baclofen kan påvirke den GABA-erge hæmmende tonus og dermed den efterfølgende dopaminerge og glutamaterge signalering i de fronto-striatale kredsløb, der er involveret i impulsivitet og opmærksomhed.
 
-Der foreligger ingen oplysninger om baclofens oprindelige indikation i de danske data. En sammenligning mellem oprindelig og ny indikation kan derfor ikke foretages.
-
-Den høje score (0,993) er en grafbaseret forudsigelse uden understøttende klinisk signal. De fundne artikler handler om Tourettes syndrom og tics, autisme, alfa-2A-agonisme hos gnavere og methylphenidat. Ingen af dem undersøger baclofen ved ADHD. Mekanismen er dermed en hypotese, ikke dokumenteret.
+Dette er en hypotese og ikke dokumenteret. Ingen af de fundne publikationer undersøger baclofen ved ADHD. De handler om Tourettes syndrom, alfa-2-adrenerge agonister, methylphenidat og dyremodeller for impulsivitet, belønning og legeadfærd. Den høje score afspejler sandsynligvis netværksnærhed: ADHD og tics deler komorbiditet og farmakologi. Den afspejler ikke direkte evidens.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret for baclofen ved ADHD.
 
@@ -71,34 +67,46 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for baclofen 
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Oversigtsartikel | J Child Neurol | 450 patienter med tics/Tourettes syndrom blev behandlet med baclofen/botulinumtoksin A og vurderet med Yale Global Tic Severity Scale. Omhandler Tourette, ikke ADHD |
-| [26366961](https://pubmed.ncbi.nlm.nih.gov/26366961/) | 2015 | Oversigtsartikel | Clin Neuropharmacol | Stemningsstabiliserende midler hos børn og unge med autismespektrumforstyrrelser og tilknyttede adfærdsproblemer |
-| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Oversigtsartikel | Paediatr Drugs | Kliniske kendetegn og behandlingsstrategier ved Tourettes syndrom |
-| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Oversigtsartikel | Int Rev Neurobiol | Nye behandlingsstrategier ved Tourettes syndrom, herunder ADHD som ledsagende tilstand |
-| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Oversigtsartikel | Cureus | Adfærdsintervention, antipsykotika og alfa-agonister ved tics hos patienter med Tourettes syndrom |
-| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Oversigtsartikel | L'Encéphale | Superviseret off-label-ordination af methylphenidat ved ADHD hos voksne |
-| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Præklinisk (dyr) | Psychopharmacology | Stimulation af α2A-receptorer i ventral hippocampus reducerer impulsiv beslutningstagning hos rotter (guanfacin) |
-| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Præklinisk (dyr) | Brain Res | EEG-effekter af neurotransmitteragonister hos spontant hypertensive rotter og kainat-behandlede rotter |
-| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Præklinisk (dyr) | Neuropsychopharmacology | Rollen af anterior cingulær cortex og basolateral amygdala i kognitiv indsats-/gevinstbeslutning hos gnavere |
-| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | Præklinisk (dyr) | Eur J Neurosci | Habenulas funktionelle integritet er nødvendig for social legeadfærd hos rotter |
+| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | Int Rev Neurobiol | Nye behandlingsstrategier ved Tourettes syndrom, hvor ADHD er hyppig komorbiditet. Ingen baclofen-specifik ADHD-data. |
+| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatr Drugs | Klinik og behandling af Tourettes syndrom og tilhørende psykiatriske tilstande. |
+| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Meta-analyse/review | Cureus | Adfærdsintervention, antipsykotika og alfa-agonister ved tics. Ingen baclofen-specifik ADHD-data. |
+| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Review | J Child Neurol | 450 patienter med tics/Tourette blev behandlet med baclofen/botulinumtoksin A og vurderet med Yale Global Tic Severity Scale. Omhandler tics, ikke ADHD. |
+| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Klinisk praksisrapport | L'Encéphale | Superviseret off-label ordination af methylphenidat til voksne med ADHD. Omhandler ikke baclofen. |
+| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Prækliniske (gnaver) | Psychopharmacology | Stimulation af alfa-2A-receptorer i ventral hippocampus (guanfacin) reducerer impulsiv beslutningstagning. |
+| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Prækliniske (dyre-EEG) | Brain Res | EEG-effekter af neurotransmitteragonister hos spontant hypertensive rotter (ADHD-model) og kainat-behandlede rotter. |
+| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | Prækliniske (gnaver) | Eur J Neurosci | Habenulas funktion er nødvendig for social legeadfærd hos rotter. |
+| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Prækliniske (gnaver) | Neuropsychopharmacology | Anterior cingulær cortex og basolateral amygdala i en gnaveropgave om kognitiv anstrengelse. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106829522 | Baclofen "Accord" (Accord Healthcare B.V.) | Infusionsvæske, opløsning | Ikke angivet i data |
+| MA 28106829522 | Baclofen "Accord" (Accord Healthcare B.V.) | Infusionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
-Den eneste registrerede form i de foreliggende data er infusionsvæske (injicerbar). Om denne administrationsvej er egnet til ADHD, er ikke vurderet.
+Den eneste tilladelse i de tilgængelige data er en injicerbar infusionsvæske. Om denne administrationsvej er egnet til ADHD, er ikke vurderet.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Kontraindikationer fra vidensgraf (ikke produktresuméets tekst):** TxGNN-vidensgrafen (PrimeKG) knytter baclofen til følgende sygdomme som kontraindikationer:
+- Epilepsi
+- Nyresygdom
+- Psykotiske lidelser, herunder skizofreni, skizofreniform lidelse, skizoaffektiv lidelse og psykiske lidelser generelt
+- Cerebrovaskulære sygdomme, herunder slagtilfælde og hjerneinfarkt
+- Sygdomme i det autonome nervesystem, herunder Horners syndrom og autonom dysrefleksi
+- Pyoureter
+- Sygdom i blærehalsen
+
+**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i alt. De vigtigste er:
+- **Alvorlige (Major):** morfin og liposomal morfin
+- **Moderate:** dronabinol, metoclopramid, nabilon, opium, sibutramin, difenoxin og diphenoxylat
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -107,16 +115,15 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er baseret udelukkende på en modelscore (L5). Der findes hverken kliniske forsøg eller publikationer, der undersøger baclofen ved ADHD. Sikkerhedsdata fra produktresuméet mangler.
+Forudsigelsen for ADHD er udelukkende modelbaseret (evidensniveau L5). Der er hverken kliniske forsøg eller publikationer, der tester baclofen ved ADHD. Baclofens kontraindikationsprofil omfatter desuden psykiatriske og neurologiske tilstande, som kan være relevante hos patienter med ADHD.
 
 **For at komme videre kræves:**
-- Kliniske eller mindst prækliniske studier af baclofen ved ADHD
-- Sikkerhedsoplysninger (advarsler, kontraindikationer) fra det danske produktresumé hos Lægemiddelstyrelsen
-- Detaljerede data om virkningsmekanisme fra DrugBank
-- Vurdering af administrationsvej og dosering, da kun infusionsvæske er registreret i Danmark
-- Til overvejelse: en anden forudsagt indikation for baclofen, **nikotinafhængighed** (score 99,2 %, evidensniveau L2), har tre fase 2-forsøg (NCT01821560, NCT00257894, NCT01228994) og præklinisk understøttelse. To af forsøgene blev afbrudt tidligt. Denne indikation bør vurderes separat.
+- Baclofen-specifik prækliniske og kliniske evidens ved ADHD
+- Detaljerede mekanismedata (MOA) til at underbygge det GABA-B-baserede link
+- Gennemgang af produktresuméet (advarsler og kontraindikationer), som ikke var tilgængeligt i de indsamlede data
+- Vurdering af administrationsvej og lægemiddelform, da den eneste danske tilladelse i data er en infusionsvæske
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
+**Supplerende observation:** Den samme analyse forudsiger også **nikotinafhængighed** (score 99,2 %) med evidensniveau L2. Der findes tre fase 2-forsøg med baclofen hos rygere ([NCT01228994](https://clinicaltrials.gov/study/NCT01228994), [NCT00257894](https://clinicaltrials.gov/study/NCT00257894), [NCT01821560](https://clinicaltrials.gov/study/NCT01821560)) samt prækliniske data. To af forsøgene blev afbrudt tidligt, og det eneste afsluttede (n=44) er et mekanistisk studie og ikke et rygestopforsøg. Denne indikation er derfor et bedre udgangspunkt for videre afklaring end ADHD, men også her er evidensen begrænset.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

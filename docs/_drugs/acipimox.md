@@ -2,7 +2,7 @@
 layout: default
 title: Acipimox
 parent: Kun modelforudsigelse (L5)
-nav_order: 15
+nav_order: 19
 evidence_level: L5
 indication_count: 0
 ---

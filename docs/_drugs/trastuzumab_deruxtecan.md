@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Deruxtecan
 parent: Kun modelforudsigelse (L5)
-nav_order: 449
+nav_order: 851
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trastuzumab deruxtecan: Fra HER2-udtrykkende tumorer til lægemiddelinduceret osteoporose
+# Trastuzumab deruxtecan: Fra manglende registreret indikation til lægemiddelinduceret osteoporose
 
-## Resumé i én sætning
+## Resumé
 
-Trastuzumab deruxtecan er et HER2-rettet antistof-lægemiddelkonjugat (ADC) med en topoisomerase I-hæmmende nyttelast (deruxtecan), udviklet til HER2-udtrykkende tumorer.
-TxGNN-modellen forudsiger, at det kan have effekt ved **lægemiddelinduceret osteoporose**.
-Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og der er ikke identificeret nogen plausibel mekanistisk sammenhæng.
+Trastuzumab deruxtecan er et HER2-rettet antistof-lægemiddelkonjugat med en topoisomerase I-hæmmende nyttelast (deruxtecan). Det er markedsført i Danmark under navnet Enhertu, men den godkendte indikationstekst indgår ikke i de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at det kan have effekt mod **lægemiddelinduceret osteoporose**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
 
 ---
 
@@ -43,7 +42,7 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HER2-udtrykkende tumorer (godkendelsesteksten for indikation er ikke angivet i data) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
 | TxGNN-forudsigelsesscore | 99,31 % |
 | Evidensniveau | L5 |
@@ -53,13 +52,17 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er p.t. ikke tilgængelige i Evidence Pack. Ud fra den foreliggende information er trastuzumab deruxtecan et HER2-rettet ADC, hvor nyttelasten (deruxtecan) hæmmer topoisomerase I og virker cytotoksisk på HER2-udtrykkende tumorceller.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Trastuzumab deruxtecan er kendt som et HER2-rettet antistof-lægemiddelkonjugat, hvor nyttelasten hæmmer topoisomerase I og dermed er cytotoksisk. Denne mekanisme er udviklet til at ramme HER2-udtrykkende tumorceller.
 
-Der er ingen oplagt forbindelse mellem den oprindelige anvendelse (kræft) og knoglesygdom. Intet i de foreliggende data kobler HER2-targeting eller nyttelastens cytotoksicitet til knogleremodellering. Den høje TxGNN-score (0,993) skyldes sandsynligvis en artefakt i vidensgrafen og understøttes ikke af forsøg eller litteratur.
+Der er ingen kendt eller understøttet sammenhæng mellem denne mekanisme og knoglemetabolisme eller lægemiddelinduceret knogletab. Den høje score (0,993) er alene en beregnet forudsigelse og kan afspejle artefakter i vidensgrafen. Ligheden mellem den oprindelige og den nye indikation kan ikke vurderes ud fra de foreliggende data.
 
-Forudsigelsen bør derfor betragtes som en ren modelhypotese uden dokumenteret mekanistisk eller klinisk grundlag.
+Øvrige forudsigelser med tilsvarende høje scorer (alle evidensniveau L5, uden studier) er ligeledes uden understøttet mekanistisk sammenhæng:
+
+- Svær non-proliferativ diabetisk retinopati (98,92 %) og diabetisk retinopati (98,46 %): sygdommen drives af mikrovaskulær skade, VEGF-signalering og inflammation, og en cytotoksisk HER2-rettet behandling har ingen kendt rolle her.
+- Bronkitis (98,00 %): ikke et kendt mål for HER2-rettet behandling. Interstitiel lungesygdom/pneumonitis er desuden en kendt alvorlig risiko ved lægemidlet.
+- Diabetisk grå stær (96,60 %): involverer polyolvej og oxidativt stress i linsen, uden relation til HER2 eller topoisomerase I.
 
 ---
 
@@ -75,24 +78,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Andre forudsagte indikationer
-
-Modellen har også forudsagt nedenstående indikationer. Alle har evidensniveau L5, ingen forsøg og ingen litteratur, og alle vurderes som **Hold**.
-
-| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk sammenhæng |
-|------|------|---------|
-| Svær non-proliferativ diabetisk retinopati | 98,92 % | Ingen etableret sammenhæng. Sygdommen er primært VEGF-drevet, og HER2 er ikke et anerkendt mål. En systemisk cytotoksisk ADC har en ugunstig nytte-risiko-profil ved en ikke-malign øjensygdom. |
-| Diabetisk retinopati | 98,46 % | Samme vurdering som ovenfor. |
-| Bronkitis | 98,00 % | Ingen plausibel terapeutisk sammenhæng. Interstitiel lungesygdom/pneumonitis er en kendt alvorlig bivirkning i lægemiddelklassen og taler imod en lungeindikation. |
-| Diabetisk katarakt | 96,60 % | Ingen identificeret sammenhæng. Øjentoksicitet er desuden rapporteret for ADC'er. |
-
----
-
-## Information om markedet i Danmark
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106451420 | Enhertu (Daiichi Sankyo Europe GmbH) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i data |
+| 28106451420 | Enhertu (Daiichi Sankyo Europe GmbH) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat til injektion/infusion.
 
 ---
 
@@ -100,20 +92,32 @@ Modellen har også forudsagt nedenstående indikationer. Alle har evidensniveau 
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling: antistof-lægemiddelkonjugat (HER2-rettet) med topoisomerase I-hæmmende cytotoksisk nyttelast |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC). Overvåg som minimum blodtal samt lever- og nyrefunktion efter gældende retningslinjer. |
-| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
+| Cytotoksicitetsklassifikation | Målrettet behandling (HER2-rettet antistof-lægemiddelkonjugat med topoisomerase I-hæmmer som cytotoksisk nyttelast) |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitorering | Se produktresuméet (SmPC); blodstatus samt lunge-, lever- og nyrefunktion er typisk relevante ved behandling af denne type |
+| Håndtering | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner**: Ingen interaktioner fundet i de tilgængelige data.
-- **Klasserelaterede signaler** (fra evidensvurderingen): Interstitiel lungesygdom/pneumonitis er en kendt alvorlig bivirkning for lægemiddelklassen, og øjentoksicitet er rapporteret for ADC'er.
+Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+**Lægemiddelinteraktioner:** Der er fundet 42 interaktioner i alt. Blandt de første 20 registrerede er følgende vurderet som **alvorlige (Major)**:
+
+- Deferiprone
+- Samarium (153Sm) lexidronam
+- Adalimumab
+- Baricitinib
+- Certolizumab pegol
+- Cladribin
+- Leflunomid
+- Natalizumab
+
+Følgende er vurderet som **moderate**: palifermin, strontiumchlorid Sr-89, roflumilast, chloramphenicol (også som øjenpræparat), alefacept, alemtuzumab, anakinra, azathioprin, canakinumab, dimethylfumarat og niraparib.
+
+Mange af de nævnte stoffer er immunsuppressive eller myelosuppressive, hvilket er relevant ved samtidig brug.
 
 ---
 
@@ -122,15 +126,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er baseret udelukkende på modellen (L5), uden kliniske forsøg eller litteratur og uden plausibel mekanistisk sammenhæng mellem HER2-rettet cytotoksisk ADC og knoglemetabolisme. Lægemidlets toksicitetsprofil gør desuden nytte-risiko-forholdet ugunstigt ved en ikke-malign tilstand.
+Forudsigelsen bygger udelukkende på en computerberegnet score uden kliniske forsøg, litteratur eller en plausibel virkningsmekanisme. Lægemidlets cytotoksiske profil og kendte risici (bl.a. interstitiel lungesygdom) taler imod en omtydning til de forudsagte tilstande.
 
 **For at komme videre kræves:**
-- Sikkerhedsdata fra produktresuméet hos Lægemiddelstyrelsen (advarsler og kontraindikationer), som blokerer videre sikkerhedsscreening
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. via DrugBank
-- Godkendt indikationstekst for Enhertu i Danmark
-- Præklinisk eller mekanistisk evidens for en rolle i knoglemetabolisme, før en eventuel ny vurdering
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé (SmPC) med godkendt indikation, advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Prækliniske eller mekanistiske data, der kan underbygge en sammenhæng til den forudsagte indikation
+- En vurdering af, om forudsigelsen er en artefakt i vidensgrafen, før yderligere ressourcer anvendes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

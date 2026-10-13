@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 104
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceritinib: Fra ALK-positiv ikke-småcellet lungekræft til gingival fibromatose
+# Ceritinib: Fra ikke-småcellet lungekræft til gingival fibromatose
 
 ## Resumé i én sætning
 
-Ceritinib er en oral ALK-hæmmer (tyrosinkinasehæmmer), som er udviklet til behandling af ALK-positiv ikke-småcellet lungekræft (NSCLC). TxGNN-modellen forudsiger, at den kan have effekt ved **gingival fibromatose** (tandkødsfibromatose), men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte forudsigelsen. Den høje score er kun en grafbaseret modelforudsigelse.
+Ceritinib er en ALK-hæmmer (tyrosinkinasehæmmer), som oprindeligt anvendes til behandling af ikke-småcellet lungekræft.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibromatose** (overvækst af tandkød), men der findes **ingen kliniske forsøg** og **ingen publikationer** om denne indikation. Forudsigelsen bygger udelukkende på modellen.
 
 ---
 
@@ -41,7 +42,7 @@ Ceritinib er en oral ALK-hæmmer (tyrosinkinasehæmmer), som er udviklet til beh
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske licensdata. Litteraturen beskriver ALK-positiv ikke-småcellet lungekræft (NSCLC) |
+| Oprindelig indikation | Ikke-småcellet lungekræft (NSCLC) / lungekræft (fra vidensgrafen; indikationsteksten i det danske register er tom) |
 | Forudsagt ny indikation | Gingival fibromatose |
 | TxGNN-forudsigelsesscore | 99,86 % |
 | Evidensniveau | L5 |
@@ -51,44 +52,43 @@ Ceritinib er en oral ALK-hæmmer (tyrosinkinasehæmmer), som er udviklet til beh
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der er i øjeblikket ingen detaljerede data om ceritinibs virkningsmekanisme i evidenspakken. Ud fra kendt information hæmmer ceritinib ALK, ROS1, IGF-1R og insulinreceptoren. Dets effekt ved ALK-omlejret lungekræft er veldokumenteret, blandt andet i fase 3-studiet ASCEND-4.
+Der foreligger i de data, der er sammenstillet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Ceritinib er dog kendt som en hæmmer af tyrosinkinaserne ALK, ROS1 og IGF-1R, og effekten ved ALK-positiv lungekræft er veldokumenteret.
 
-Der er **ingen understøttet mekanistisk sammenhæng** mellem disse mål og gingival fibromatose. Sygdommen er hovedsageligt arvelig (f.eks. SOS1-relateret) eller lægemiddelinduceret, og en ALK-drevet mekanisme er ikke påvist. Den høje score skyldes sandsynligvis nærhed i vidensgrafen og ikke biologisk evidens. Eventuelt overlap via IGF-1R-signalering er kun spekulativt og ikke påvist.
+Gingival fibromatose er en arvelig eller lægemiddelfremkaldt fibrotisk overvækst af tandkødet. Den er ikke kendt som ALK-drevet, og der er ikke påvist nogen mekanistisk sammenhæng med ceritinibs målstrukturer. Den høje score afspejler sandsynligvis mønstre i vidensgrafen snarere end et reelt biologisk forhold. Forudsigelsen bør derfor betragtes som en hypotese og ikke som en begrundet behandlingsmulighed.
 
-Evidenspakken indeholdt flere identiske forudsigelsesposter for samme sygdom, som er slået sammen.
+Øvrige forudsigelser med lignende karakter er fibrom i lungen (99,82 %), hamartom i lungen (99,81 %), lungehilus-karcinom (99,80 %) og benign lungeneoplasi (99,80 %). Heller ikke for disse er der kliniske forsøg. Lungehilus-karcinom er sandsynligvis en undergruppe af den allerede godkendte lungekræftindikation og ikke en ny indikation.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relevante kliniske forsøg registreret.
+Der er for øjeblikket ikke registreret relaterede kliniske forsøg for gingival fibromatose.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Der er i øjeblikket ingen relevant litteratur for gingival fibromatose.
+Der er for øjeblikket ingen relateret litteratur for gingival fibromatose.
+
+Til sammenligning er der for forudsigelsen *benign lungeneoplasi* fundet litteratur, men den handler om ALK-positiv NSCLC og ikke om benigne tumorer. Den er derfor kun indirekte relevant:
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [28126333](https://pubmed.ncbi.nlm.nih.gov/28126333/) | 2017 | RCT (fase 3) | Lancet | ASCEND-4: førstelinje-ceritinib sammenlignet med platinbaseret kemoterapi ved ALK-positiv avanceret NSCLC |
+| [25322323](https://pubmed.ncbi.nlm.nih.gov/25322323/) | 2014 | Review | Clin Adv Hematol Oncol | Oversigt over ALK-hæmmere ved NSCLC, herunder crizotinib og ceritinib |
+| [27432227](https://pubmed.ncbi.nlm.nih.gov/27432227/) | 2016 | Review | Cancer Discovery | Resistensmekanismer mod første- og andengenerations ALK-hæmmere |
+| [29907598](https://pubmed.ncbi.nlm.nih.gov/29907598/) | 2018 | Case report | Cold Spring Harb Mol Case Stud | Klinisk respons på ceritinib ved neuroblastom med ALK-I1171T-mutation |
+| [25736571](https://pubmed.ncbi.nlm.nih.gov/25736571/) | 2015 | Studie | Lung Cancer | I1171-mutation som resistensmutation ved alectinib; følsom over for ceritinib |
 
 ---
 
-## Øvrige forudsagte indikationer (til orientering)
+## Oplysninger om markedet i Danmark
 
-| Forudsagt indikation | Score | Evidensniveau | Bemærkning |
-|------|------|------|------|
-| Fibrom i lunge | 99,82 % | L5 | Godartet tumor uden dokumenteret ALK-afhængighed. Ingen forsøg eller publikationer |
-| Hamartom i lunge | 99,81 % | L5 | Drives typisk af HMGA1/HMGA2-omlejringer og ikke af ALK. Ingen forsøg eller publikationer |
-| Karcinom i lungehilus | 99,80 % | L5 | Sandsynligvis overlap med den eksisterende ALK-positive NSCLC-indikation, altså ikke egentlig ny anvendelse. Ingen forsøg eller publikationer |
-| Godartet lungeneoplasme | 99,80 % | L4 | 20 publikationer er registreret, men de handler om ALK-positiv NSCLC (en malign sygdom) og er kun indirekte evidens. Antallet skyldes sandsynligvis nøgleordsmatch |
-
----
-
-## Information om markedet i Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106114318 | Zykadia (Novartis Europharm Limited) | Filmovertrukne tabletter | Ikke angivet i data |
+| 28106114318 | Zykadia (Novartis Europharm Limited) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i registeret |
 
 ---
 
@@ -96,17 +96,27 @@ Der er i øjeblikket ingen relevant litteratur for gingival fibromatose.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (ALK-tyrosinkinasehæmmer) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+| Cytotoksicitetsklassifikation | Målrettet behandling (tyrosinkinasehæmmer, ALK/ROS1) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler; se SmPC |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+**Lægemiddelinteraktioner:** Der er identificeret 100 potentielle interaktioner. Blandt de viste er størstedelen af moderat grad. Interaktioner af **alvorlig (major) grad** er set med:
+- Triamcinolon
+- Budesonid
+
+Eksempler på interaktioner af **moderat grad**:
+- Syrehæmmende midler: famotidin, ranitidin, omeprazol, rabeprazol
+- Antidiabetika: metformin, pioglitazon, acarbose, alogliptin, canagliflozin, albiglutid
+- Kortikosteroider: hydrocortison, dexamethason, betamethason
+- Øvrige: aprepitant, loperamid, bisacodyl
 
 ---
 
@@ -115,17 +125,13 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, uden publikationer og uden en understøttet mekanistisk sammenhæng (evidensniveau L5). Sikkerhedsdata fra Lægemiddelstyrelsen mangler desuden, så sagen kan ikke gå videre til sikkerhedsscreening.
+Forudsigelsen om gingival fibromatose bygger udelukkende på modellen (L5), uden kliniske forsøg, uden litteratur og uden en kendt biologisk sammenhæng med ALK-hæmning. Evidensgrundlaget er utilstrækkeligt til at gå videre.
 
-**For at komme videre kræves:**
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datahul)
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Præklinisk eller mekanistisk evidens for, at ALK-, ROS1- eller IGF-1R-hæmning er relevant ved gingival fibromatose
-- En målrettet litteratur- og forsøgssøgning specifikt for gingival fibromatose
-
----
-
-*Denne rapport er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelser om gentænkning af eksisterende lægemidler kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Detaljerede data om virkningsmekanisme (MOA) og en plausibel biologisk hypotese for ALK/ROS1/IGF-1R-signalering ved gingival fibromatose
+- Prækliniske data eller litteratur, der understøtter effekt ved fibrotisk overvækst af tandkødet
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som mangler i de nuværende data
+- Vurdering af risk-benefit-forholdet, da ceritinib er et kræftlægemiddel anvendt ved en alvorlig sygdom, mens gingival fibromatose er en benign tilstand
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

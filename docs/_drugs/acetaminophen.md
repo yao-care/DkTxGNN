@@ -2,7 +2,7 @@
 layout: default
 title: Acetaminophen
 parent: Moderat evidens (L3-L4)
-nav_order: 14
+nav_order: 16
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Acetaminophen (paracetamol): Fra kendt smerte- og febernedsættende brug til migræne med hjernestammeaura
+# Paracetamol (acetaminophen): Fra migræne og hovedpine til migræne med hjernestammeaura
 
-## Kort resumé
+## Opsummering i én sætning
 
-Acetaminophen (paracetamol) er et bredt anvendt smertestillende og febernedsættende middel. Indikationsteksten mangler i det danske datagrundlag. TxGNN-modellen forudsiger, at det kan være virksomt ved **migræne med hjernestammeaura**. Evidensen er svag: der er **ingen registrerede kliniske forsøg** og **20 publikationer**. Ingen af dem undersøger specifikt denne undertype.
+Acetaminophen (paracetamol) anvendes oprindeligt mod hovedpine, migræne, forkølelse og allergisk rhinitis. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne med hjernestammeaura**. Der er dog **ingen registrerede kliniske forsøg** og kun **generel migrænelitteratur (20 publikationer)** til at understøtte retningen, så evidensen er indirekte.
 
 ---
 
@@ -41,22 +41,23 @@ Acetaminophen (paracetamol) er et bredt anvendt smertestillende og febernedsætt
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Migræne med hjernestammeaura |
-| TxGNN-forudsigelsesscore | 99,2 % |
+| Oprindelig indikation | Migræne og hovedpine, forkølelse, allergisk rhinitis (fra vidensgrafen; den danske godkendelse har ingen angivet indikationstekst) |
+| Forudsagt ny indikation | Migræne med hjernestammeaura |
+| TxGNN-forudsigelsesscore | 99,15 % |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (dog kun et produkt, som sandsynligvis er til dyr, se nedenfor) |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der findes i øjeblikket ingen detaljerede data om virkningsmekanismen i datagrundlaget. Ud fra almen farmakologi virker acetaminophen centralt. De foreslåede mekanismer er hæmning af COX i centralnervesystemet, påvirkning af de nedadgående serotonerge baner og en AM404-medieret effekt på TRPV1- og cannabinoidsignalering.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Paracetamol er imidlertid allerede anvendt ved akut migræne og hovedpine. Dets smertestillende effekt menes at involvere hæmning af cyklooxygenase i centralnervesystemet samt påvirkning af serotonerge og endocannabinoide baner. Det er en generel antagelse, ikke noget, der er dokumenteret i de foreliggende data.
 
-Migræne involverer aktivering af det trigeminovaskulære system og central smertebehandling. Derfor er en mekanistisk sammenhæng plausibel. Den høje score (0,99) afspejler sandsynligvis lægemidlets veletablerede tilknytning til migræne generelt og ikke nødvendigvis undertypen med hjernestammeaura.
+Migræne med hjernestammeaura er en undertype af migræne. Den høje score afspejler sandsynligvis, at undertypen ligger tæt på de godkendte migræneindikationer i vidensgrafen. Mekanistisk kan paracetamols virkning på migrænesmerter derfor tænkes at gælde også her.
 
-Acetaminophen er ikke karkontraherende. Det kan gøre det interessant i en undertype, hvor triptaner og andre karsammentrækkende midler traditionelt anvendes med forsigtighed. Dette er en hypotese, som datagrundlaget ikke understøtter.
+Der er dog ikke fundet evidens specifik for hjernestammeaura. Undertypen er sjældnere og har særlige kliniske forhold, bl.a. forsigtighed ved visse specifikke behandlinger. Forudsigelsen bør derfor betragtes som en forskningshypotese.
 
 ---
 
@@ -66,40 +67,45 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Ingen af publikationerne omhandler specifikt migræne med hjernestammeaura. De belyser migræne generelt, og de tre første er randomiserede, placebokontrollerede forsøg med acetaminophen eller kombinationer heraf. Studietyper er angivet ud fra titel og tilgængeligt abstract.
+Litteraturen handler overvejende om migræne generelt og ikke specifikt om hjernestammeaura. Et udvalg:
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [11112243](https://pubmed.ncbi.nlm.nih.gov/11112243/) | 2000 | RCT | Archives of Internal Medicine | Randomiseret, dobbeltblindet, placebokontrolleret populationsbaseret studie af acetaminophens effekt og sikkerhed ved migræne |
-| [9482363](https://pubmed.ncbi.nlm.nih.gov/9482363/) | 1998 | RCT (3 forsøg) | Archives of Neurology | Tre dobbeltblinde, placebokontrollerede forsøg med kombinationen acetaminophen, aspirin og koffein mod migrænesmerter |
-| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | Retrospektiv analyse af 3 RCT'er | Clinical Therapeutics | Kombinationen acetaminophen, aspirin og koffein ved menstruationsassocieret migræne sammenlignet med migræne uden menstruationsforbindelse |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Retningslinje/evidensvurdering | Headache | American Headache Societys opdaterede evidensvurdering af farmakologisk akutbehandling af migræne |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handbook of Clinical Neurology | Status migrainosus som komplikation til migræne med eller uden aura, herunder sygdomsbyrde og caseserier |
-| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurologic Clinics | Hovedpine i graviditet og barselsperioden. Acetaminophen omtales som førstevalg til symptomatisk behandling |
-| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Akut og forebyggende migrænebehandling i graviditet |
-| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Review | Cureus | Migræne og behandlingstilgange under graviditet og amning |
-| [16018227](https://pubmed.ncbi.nlm.nih.gov/16018227/) | 2005 | Review | Pediatric Annals | Behandling af migræne hos børn, herunder akut og forebyggende behandling |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurology International | Ubrogepant ved akut migræne. Acetaminophen nævnes blandt håndkøbsmidler ved let til moderat migræne |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society's opdaterede evidensvurdering af lægemidler til akut migrænebehandling hos voksne |
+| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | Randomiserede, placebokontrollerede forsøg | Clinical Therapeutics | Kombinationen paracetamol, acetylsalicylsyre og koffein ved menstruationsrelateret migræne sammenlignet med migræne uden relation til menstruation |
+| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | Sammenlignende studie | Headache | Isometheptene/dichloralphenazon/paracetamol sammenlignet med sumatriptan ved mild til moderat migræne |
+| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handbook of Clinical Neurology | Status migrainosus som komplikation til migræne med eller uden aura |
+| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurologic Clinics | Hovedpine under graviditet og barselsperioden; paracetamol er førstevalg til symptomatisk behandling |
+| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Akut og forebyggende migrænebehandling under graviditet |
+| [16018227](https://pubmed.ncbi.nlm.nih.gov/16018227/) | 2005 | Review | Pediatric Annals | Behandling af migræne hos børn |
+| [23203776](https://pubmed.ncbi.nlm.nih.gov/23203776/) | 2013 | Review | Current Treatment Options in Neurology | Diagnose og behandling af familiær og sporadisk hemiplegisk migræne (en sjælden auraundertype) |
+| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review (klassificeret som RCT) | Neurology International | Ubrogepant ved akut migræne; paracetamol nævnes som en af de ikke-receptpligtige muligheder |
 
 ---
 
-## Information om det danske marked
+## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106075918 | Apiretam | Opløsning til anvendelse i drikkevand | SP Veterinaria, S.A. |
+| 28106075918 | Apiretam | Opløsning til anvendelse i drikkevand | Ingen indikationstekst angivet |
 
-Den eneste registrerede tilladelse er et produkt fra en veterinærproducent, og lægemiddelformen er opløsning til drikkevand. Det er derfor sandsynligvis et veterinærlægemiddel og ikke relevant til behandling af mennesker. Indikationsteksten er ikke angivet. Der er ikke fundet nogen humane paracetamolprodukter i datagrundlaget. Egnede administrationsveje til den foreslåede indikation er endnu ikke vurderet.
+Bemærk: Den eneste registrerede tilladelse er for et dyrelægemiddel (producent: SP Veterinaria, S.A.). Den siger derfor ikke noget om anvendelse til mennesker.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Ingen interaktioner blev fundet i søgningen.
+- **Kontraindikationer fra vidensgrafen** (ikke fra produktresumé): leversvigt, leversygdom, galdeblæresygdom, levercirrose, hepatisk encefalopati og hepatisk koma.
+- **Lægemiddelinteraktioner**: 100 interaktioner er registreret. Blandt de viste er følgende af moderat sværhedsgrad:
+  - Aktivt kul
+  - Glycerolphenylbutyrat
+  - Naltrexon
 
-Der er ingen tilgængelige data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for et humant paracetamolpræparat for sikkerhedsoplysninger. Produktresuméet fra Lægemiddelstyrelsen er endnu ikke indhentet, og det er en blokerende datamangel.
+  De øvrige viste er hovedsageligt af mindre betydning (fx atropin, cimetidin, ranitidin, metoclopramid, scopolamin og liraglutid). Interaktionerne med A-vitamin og calcitriol er af ukendt grad.
+
+Der er ikke tilgængelige data om advarsler eller kontraindikationer fra et godkendt produktresumé. Se det godkendte produktresumé (SmPC) for et humant paracetamolpræparat for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -108,16 +114,14 @@ Der er ingen tilgængelige data om advarsler og kontraindikationer. Se det godke
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk plausibel, men ingen forsøg eller publikationer undersøger migræne med hjernestammeaura. Evidensen er på niveau L4 og bør behandles som et forskningsspørgsmål. Der mangler desuden sikkerhedsdata, og den eneste danske tilladelse er sandsynligvis til dyr.
+Forudsigelsen bygger på modelnærhed til de eksisterende migræneindikationer og på generel migrænelitteratur. Der er ingen kliniske forsøg og ingen evidens specifik for hjernestammeaura (evidensniveau L4). Den eneste danske tilladelse gælder et dyrelægemiddel.
 
 **For at komme videre kræves:**
-- Hent og gennemgå produktresuméer for humane paracetamolprodukter fra Lægemiddelstyrelsen (advarsler og kontraindikationer).
-- Indhent data om virkningsmekanisme fra DrugBank.
-- Søg specifikt efter litteratur og forsøg om migræne med hjernestammeaura, og find ud af, om de eksisterende migrænestudier omfatter denne undertype.
-- Vurder, om en human formulering og administrationsvej er tilgængelig i Danmark.
-- Vurder relevansen af de nuværende publikationer (relevansstatus er endnu ikke gennemgået).
-
-*Resultaterne er kun til forskningsformål og udgør ikke lægefaglig rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+- Litteratur- og forsøgsdata specifikt for migræne med hjernestammeaura
+- Data om virkningsmekanismen (MOA)
+- Produktresumé for et humant paracetamolpræparat i Danmark med advarsler og kontraindikationer
+- Klinisk vurdering af de særlige forhold ved hjernestammeaura og af leversikkerhed
+- Eventuelt et pilotstudie eller et kontrolleret studie i den specifikke patientgruppe
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Mecasermin
 parent: Kun modelforudsigelse (L5)
-nav_order: 281
+nav_order: 524
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mecasermin: Fra rekombinant IGF-1 til monosomi X (Turners syndrom)
+# Mecasermin: Fra væksthormoninsensitivitetssyndrom til monosomi X
 
 ## Resumé i én sætning
 
-Mecasermin er rekombinant IGF-1 (insulinlignende vækstfaktor 1) og er markedsført i Danmark som Increlex.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **monosomi X (Turners syndrom)**.
-Der er dog **0 kliniske forsøg** og **0 publikationer** i datagrundlaget, så forudsigelsen er rent modelbaseret.
+Mecasermin er rekombinant IGF-1 (insulinlignende vækstfaktor 1), oprindeligt brugt til væksthormoninsensitivitetssyndrom og Laron syndrom. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **monosomi X** (Turner syndrom), men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -43,8 +41,9 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** i datagrundlaget, så f
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Monosomi X (Turners syndrom) |
-| TxGNN-prædiktionsscore | 99,59 % |
+| Oprindelig indikation | Væksthormoninsensitivitetssyndrom og Laron syndrom (kilde: TxGNN-vidensgraf; indikationsteksten i den danske autorisation er ikke udfyldt) |
+| Forudsagt ny indikation | Monosomi X (Turner syndrom) |
+| TxGNN-forudsigelsesscore | 99,6 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -54,37 +53,51 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** i datagrundlaget, så f
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen. Mecasermin er imidlertid rekombinant IGF-1, og lægemidlet erstatter derfor direkte den vækstfaktor, som mange vækstforstyrrelser mangler.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Mecasermin er dog rekombinant IGF-1, som erstatter manglende IGF-1 ved væksthormoninsensitivitet, hvor væksthormonsignaleringen ikke danner tilstrækkeligt IGF-1.
 
-Turners syndrom (monosomi X) er kendetegnet ved lav legemshøjde og en varierende nedsat IGF-1-akse. Derfor er en vækstakse-begrundelse farmakologisk plausibel.
+Turner syndrom (monosomi X) er kendetegnet ved lav legemshøjde og ofte ændret funktion i GH/IGF-1-aksen. Mecasermin kunne derfor teoretisk adressere vækstsvigt relateret til IGF-1-mangel. Standardbehandlingen ved Turner syndrom er imidlertid væksthormon, så en rolle for IGF-1 er på nuværende tidspunkt spekulativ. Forudsigelsen hviler alene på modellens score.
 
-Dette er dog kun en farmakologisk slutning. Datagrundlaget indeholder hverken forsøg eller litteratur, der understøtter den. Væksthormon er desuden den etablerede behandling ved Turners syndrom, så mecasermin skulle i givet fald have en tydelig merværdi i forhold til den.
+**Andre forudsagte indikationer (alle evidensniveau L5, ingen forsøg eller litteratur):**
+
+| Sygdom | TxGNN-score | Vurdering |
+|------|------|------|
+| Væksthormoninsensitivitetssyndrom med immundysregulering 2, autosomal dominant | 99,1 % | Biologisk plausibel, tæt på den eksisterende indikation (formentlig STAT5B-relateret), men afspejler sandsynligvis nærhed i ontologien snarere end ny evidens. IGF-1 alene løser ikke immundysreguleringen. |
+| Wolmans sygdom med hypolipoproteinæmi og akantocytose | 99,1 % | Ingen klar mekanistisk begrundelse (lysosomal sur lipase-mangel); scoren er sandsynligvis et grafartefakt. |
+| Esophagusvaricer med og uden blødning | 99,0 % | Ingen etableret mekanistisk sammenhæng (portal hypertension). Hypoglykæmi-risiko ville kræve særskilt vurdering ved akut blødning. |
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Indehaver |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103892106 | Increlex | Injektionsvæske, opløsning | Esteve Pharmaceuticals S.A. |
+| 28103892106 | Increlex (Esteve Pharmaceuticals S.A.) | Injektionsvæske, opløsning | Indikationstekst ikke angivet |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 24 interaktioner, hvoraf 20 er listet i de indsamlede data. Alle er klassificeret som **moderate** og drejer sig om øget risiko for hypoglykæmi ved samtidig brug af blodsukkersænkende midler:
+
+- **Sulfonylurinstoffer:** chlorpropamid, acetohexamid, glimepirid, glipizid, glibenclamid
+- **Meglitinider:** nateglinid
+- **Insuliner:** human insulin (herunder regular, isophan, zink og zink-forlænget), insulin aspart (inkl. protamin), degludec, detemir, glargin, glulisin, lispro (inkl. protamin) samt inhaleret hurtigtvirkende human insulin
+
+Samtidig behandling med disse lægemidler kræver tæt blodsukkerovervågning.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke indgår i de indsamlede oplysninger.
 
 ---
 
@@ -93,20 +106,14 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modellen (L5). Der er ingen kliniske forsøg eller publikationer, og væksthormon er allerede etableret standardbehandling ved Turners syndrom.
-
-**Øvrige forudsagte indikationer (alle L5, uden forsøg eller litteratur):**
-- **Væksthormoninsensitivitetssyndrom med immundysregulering 2 (autosomal dominant), score 99,06 %:** Den stærkeste mekanistiske begrundelse blandt kandidaterne, da mecasermin netop omgår IGF-1-mangel ved væksthormoninsensitivitet. Immunmanifestationer forventes dog ikke at reagere på IGF-1. Anbefaling: forskningsspørgsmål.
-- **Wolmans sygdom med hypolipoproteinæmi og akantocytose, score 99,09 %:** Ingen klar mekanistisk sammenhæng. Sygdommen skyldes mangel på lysosomal sur lipase, og den høje score er sandsynligvis et artefakt i vidensgrafen. Anbefaling: Hold.
-- **Esophagusvaricer med og uden blødning, score 99,03 %:** Ingen direkte mekanistisk sammenhæng, da varicer skyldes portal hypertension. Anbefaling: Hold.
+Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller litteratur. Standardbehandlingen ved Turner syndrom er væksthormon, og IGF-1's rolle er spekulativ.
 
 **For at komme videre kræves følgende:**
-- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da disse oplysninger mangler.
-- Data om virkningsmekanisme (MOA) fra DrugBank.
-- Systematisk litteratursøgning og søgning i forsøgsregistre for Turners syndrom og beslægtede væksthormoninsensitivitetstilstande, herunder case reports og registerdata.
-- Vurdering af, om mecasermin kan give en klinisk merværdi i forhold til væksthormon.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomdefinering kræver klinisk validering, før de kan anvendes.*
+- Data om virkningsmekanismen (MOA) for mecasermin
+- Gennemgang af produktresuméets advarsler og kontraindikationer (afgørende for sikkerhedsscreening)
+- Systematisk litteratursøgning og søgning efter kliniske forsøg for monosomi X
+- Vurdering af, om mecasermin tilfører noget ud over eksisterende væksthormonbehandling ved Turner syndrom
+- Afklaring af godkendt indikationstekst for Increlex i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

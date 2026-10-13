@@ -2,7 +2,7 @@
 layout: default
 title: Icatibant
 parent: Høj evidens (L1-L2)
-nav_order: 221
+nav_order: 419
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,11 +29,14 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Icatibant: Fra hereditært angioødem til C1-inhibitormangel
+# Icatibant: Fra arvelig angioødem til C1-hæmmermangel
 
-## Resumé i få sætninger
+## Opsummering i en sætning
 
-Icatibant er en selektiv bradykinin B2-receptorantagonist, som i Danmark er markedsført som Firazyr. Den bruges mod akutte anfald af hereditært angioødem (HAE). TxGNN-modellen forudsiger, at den også kan have effekt ved **C1-inhibitormangel**, og forudsigelsen understøttes af **23 kliniske forsøg** og **20 publikationer**. Hovedparten af evidensen gælder den arvelige form, som allerede er en godkendt anvendelse. For den erhvervede form findes der kun retrospektive data og registerdata.
+Icatibant er en selektiv bradykinin B2-receptorantagonist, som oprindeligt anvendes til behandling af akutte anfald af arvelig angioødem (HAE).
+TxGNN-modellen forudsiger, at den kan være effektiv ved **C1-hæmmermangel**,
+og denne retning understøttes af **12 kliniske forsøg** og **21 publikationer** i de data, der er indsamlet til denne rapport.
+Bemærk, at den forudsagte indikation i praksis er identisk med lægemidlets godkendte indikation (arvelig angioødem med C1-hæmmermangel). Der er derfor tale om en bekræftelse af eksisterende indikation snarere end egentlig omlægning af anvendelse.
 
 ---
 
@@ -41,11 +44,11 @@ Icatibant er en selektiv bradykinin B2-receptorantagonist, som i Danmark er mark
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering. Ud fra evidensen drejer det sig om akutte anfald af hereditært angioødem (HAE-C1-INH) |
-| Forudsagt ny indikation | C1-inhibitormangel |
+| Oprindelig indikation | Arvelig angioødem (HAE), herunder HAE med C1-hæmmermangel (den godkendte indikationstekst er ikke angivet i de indsamlede data) |
+| Forudsagt ny indikation | C1-hæmmermangel |
 | TxGNN-forudsigelsesscore | 99,99 % |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
@@ -53,51 +56,47 @@ Icatibant er en selektiv bradykinin B2-receptorantagonist, som i Danmark er mark
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata (MOA) fra DrugBank mangler. Ud fra den øvrige evidens er icatibant en selektiv bradykinin B2-receptorantagonist.
+Icatibant er en syntetisk peptid-antagonist (dekapeptid) af bradykinin B2-receptoren. Ved C1-hæmmermangel, uanset om den er arvelig eller erhvervet, mister kallikrein-kinin-systemet sin normale hæmning. Det fører til et overskud af bradykinin, som via B2-receptoren udløser de karakteristiske angioødemanfald. Ved at blokere receptoren angriber icatibant direkte den centrale sygdomsmediator. Detaljerede data om virkningsmekanisme fra DrugBank var ikke tilgængelige i de indsamlede data, men farmakologiske data bekræfter binding til B1- og B2-receptorerne (BDKRB1 og BDKRB2).
 
-Ved C1-inhibitormangel mister kroppen kontrollen over kallikrein-kinin-systemet. Bradykinin ophobes og udløser angioødemanfald. Når B2-receptoren blokeres, rammer man netop den signalvej, der driver anfaldene. Mekanismen er derfor biologisk sammenhængende med sygdommen.
+Den forudsagte indikation overlapper i høj grad med den oprindelige. Evidensen for **arvelig** form er stærk og bygger på flere fase 3-studier. For den **erhvervede** form (AAE-C1-INH) er evidensen mere begrænset: et observationsstudie fra den virkelige verden (PMID 22686628) beskriver otte patienter med 48 behandlede anfald, mens en nyere retrospektiv undersøgelse (PMID 37716525) angiver, at der ikke findes nogen godkendt behandling til den erhvervede form.
 
-Der er dog en vigtig forbehold. Den arvelige form (HAE-C1-INH) er allerede en godkendt anvendelse, så den er ikke egentlig lægemiddelomplacering. Det reelt nye er den **erhvervede C1-inhibitormangel**. Her bygger evidensen på retrospektive studier og registre, og der er ikke fundet et dedikeret randomiseret forsøg. Et eksempel er en italiensk serie med otte patienter og 48 behandlede anfald (PMID 22686628).
+Øvrige forudsagte indikationer (serpinopati med toksisk serpinpolymerisering, pseudo-von Willebrands sygdom, primær frigivelsesforstyrrelse af blodplader og immunmedieret nekrotiserende myopati) har ingen kliniske forsøg eller litteratur og vurderes som modelartefakter eller spekulative. De har evidensniveau L5 og anbefalingen "Hold".
 
 ---
 
-## Evidens fra kliniske forsøg
-
-Tabellen viser de 10 mest relevante forsøg med icatibant ud af 23 fundne.
+## Klinisk evidens fra forsøg
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Fase 3 | Afsluttet | 84 | Randomiseret, dobbeltblindt, placebokontrolleret forsøg med subkutan icatibant mod akutte kutane og/eller abdominale HAE-anfald |
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Fase 3 | Afsluttet | 98 | Randomiseret, dobbeltblindt, placebokontrolleret forsøg med icatibant mod akutte HAE-anfald |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Fase 3 | Afsluttet | 85 | Icatibant sammenlignet med oral tranexamsyre. Primært endepunkt var tid til symptomlindring |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Fase 3 | Afsluttet | 151 | Åbent forsøg med selvadministreret subkutan icatibant: sikkerhed, lokal tolerabilitet og effekt |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Fase 3 | Afsluttet | 32 | Åbent enkeltarmet forsøg med farmakokinetik, tolerabilitet og sikkerhed hos børn og unge med HAE |
-| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Fase 4 | Afsluttet | 19 | Selvadministreret icatibant mod akutte HAE-anfald, evalueret efter markedsføring |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Fase 3 | Afsluttet | 8 | Åbent forsøg med effekt, farmakokinetik og sikkerhed hos japanske deltagere med HAE type I eller II |
-| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Fase 3 | Afsluttet | 2 | Åbent, ikke-randomiseret forsøg hos japanske børn og unge. Den meget lille stikprøve begrænser vægten |
-| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | Observationel (registre) | Afsluttet | 1761 | Icatibant Outcome Survey: prospektivt register over sikkerhed og resultater i daglig klinisk praksis |
-| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | Observationel (undersøgelse) | Afsluttet | 179 | Japansk undersøgelse af sikkerhed og effekt af icatibant efter markedsføring hos patienter med HAE |
+| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Fase 3 | Afsluttet | 84 | Randomiseret, dobbeltblindet, placebokontrolleret studie af subkutan icatibant ved akutte anfald af HAE |
+| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Fase 3 | Afsluttet | 85 | Randomiseret, dobbeltblindet sammenligning af icatibant og oral tranexamsyre; primært endepunkt var tid til symptomlindring |
+| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Fase 3 | Afsluttet | 98 | Randomiseret, dobbeltblindet, placebokontrolleret studie af effekt og sikkerhed ved akutte HAE-anfald |
+| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Fase 3 | Afsluttet | 151 | Åbent studie af sikkerhed, lokal tolerabilitet og effekt ved selvadministration |
+| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Fase 3 | Afsluttet | 32 | Åbent studie af farmakokinetik, tolerabilitet og sikkerhed hos børn og unge |
+| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Fase 3 | Afsluttet | 8 | Åbent studie hos japanske patienter med type I eller II HAE |
+| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Fase 3 | Afsluttet | 2 | Japanske børn og unge; meget lille stikprøve |
+| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Fase 4 | Afsluttet | 19 | Åbent studie af selvadministreret icatibant mod administration på klinik |
+| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Fase 4 | Afsluttet | 5 | Sikkerhed og effekt ved bradykinin-induceret angioødem (Taiwan) |
+| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | Ikke relevant | Afsluttet | 179 | Japansk observationel undersøgelse af lægemiddelbrug efter markedsføring |
 
-Der er ikke registreret EudraCT-numre i datagrundlaget.
+Yderligere to forsøg findes i datagrundlaget (NCT05509569, japansk pædiatrisk overvågning, n=32, og NCT02045264, fase 1 hos raske japanske frivillige, n=12).
 
 ---
 
-## Litteraturevidens
-
-Tabellen viser de 10 mest relevante publikationer ud af 20 fundne. Der er ingen randomiserede forsøg blandt dem.
+## Evidens fra litteraturen
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Oversigtsartikel | Expert Rev Clin Immunol | Gennemgang af data for icatibant hos børn over 2 år og unge med HAE |
-| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observationelt studie | Allergy | Erfaring med icatibant 30 mg hos otte patienter med erhvervet C1-inhibitormangel og 48 behandlede anfald |
-| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registerbaseret kohorte | Clin Exp Allergy | Registeranalyse af icatibant og C1-inhibitor ved laryngeale HAE-anfald |
-| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Registerdata | Allergy Asthma Clin Immunol | Spanske data fra Icatibant Outcome Survey om sygdomskarakteristika og behandlingsresultater ved HAE type 1/2 |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematisk oversigt | Pneumonol Alergol Pol | Sammenligning af conestat alfa, human C1-esteraseinhibitor og icatibant ved akutte HAE-anfald hos voksne |
-| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Konsensusanbefalinger | Rev Med Interne | CREAK-anbefalinger til diagnostik og behandling af erhvervet angioødem med C1-inhibitormangel |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektiv kohorte | J Allergy Clin Immunol Pract | Tocenterstudie af diagnostik, forløb og behandling ved erhvervet C1-inhibitormangel. Der findes ingen godkendt behandling |
-| [33472202](https://pubmed.ncbi.nlm.nih.gov/33472202/) | 2021 | Retrospektivt landsdækkende studie | Int Arch Allergy Immunol | Forekomst, kliniske træk og behandling af erhvervet C1-inhibitormangel i Tjekkiet. Der findes ingen godkendt behandling |
-| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospektivt studie | J Clin Pharmacol | Stor andel af off-label-ordinationer af C1-inhibitorkoncentrater og icatibant ved andre former for bradykininmedieret angioødem |
-| [21284353](https://pubmed.ncbi.nlm.nih.gov/21284353/) | 2010 | Kommentar | Prescrire Int | Anbefaler fortsat at bruge C1-esteraseinhibitor som førstevalg ved HAE-anfald |
+| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Kohorte/oversigt | Expert Rev Clin Immunol | Randomiserede, åbne og observationelle studier har påvist sikkerhed og effekt hos unge og børn over 2 år med C1-INH-HAE |
+| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observationsstudie | Allergy | Otte patienter med erhvervet C1-INH-mangel; 48 anfald behandlet med icatibant 30 mg subkutant |
+| [20030426](https://pubmed.ncbi.nlm.nih.gov/20030426/) | 2010 | Oversigtsartikel | Drugs | I FAST-1 nåede forskellen i tid til symptomlindring ikke statistisk signifikans, men icatibant var effektiv på flere andre endepunkter |
+| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematisk oversigt | Pneumonol Alergol Pol | Sammenligning af conestat alfa, human C1-esteraschæmmer og icatibant ved akutte anfald |
+| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektivt studie | J Allergy Clin Immunol Pract | Erhvervet angioødem med C1-INH-mangel: diagnose, forløb og behandling; ingen godkendt behandling |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Oversigtsartikel | J Investig Allergol Clin Immunol | Aktuel behandling af C1-INH-HAE og lægemidler under udvikling |
+| [28687105](https://pubmed.ncbi.nlm.nih.gov/28687105/) | 2017 | Oversigtsartikel | Immunol Allergy Clin North Am | Erhvervet C1-INH-mangel er ofte forbundet med autoimmunitet og B-celle-lymfoproliferative sygdomme |
+| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Anbefalinger | Rev Med Interne | CREAK-anbefalinger for diagnose og behandling af erhvervet angioødem med C1-INH-mangel |
+| [24925394](https://pubmed.ncbi.nlm.nih.gov/24925394/) | 2014 | Oversigtsartikel | Chem Immunol Allergy | Bradykininmedierede sygdomme, herunder C1-INH-mangel og ACE-hæmmerudløst angioødem |
+| [21284353](https://pubmed.ncbi.nlm.nih.gov/21284353/) | 2010 | Vurdering | Prescrire Int | Anbefaler fortsat at bruge C1-esteraschæmmer som førstevalg ved anfald |
 
 ---
 
@@ -105,32 +104,31 @@ Tabellen viser de 10 mest relevante publikationer ud af 20 fundne. Der er ingen 
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104196507 | Firazyr (Takeda Pharmaceuticals International AG Ireland Branch) | Injektionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i datagrundlaget |
+| 28104196507 | Firazyr (Takeda Pharmaceuticals International AG Ireland Branch) | Injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner for icatibant i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: 10 moderate interaktioner er registreret med ACE-hæmmere: benazepril, captopril, enalapril, perindopril, trandolapril, moexipril, lisinopril, quinapril, ramipril og fosinopril. Kombinationen kræver forsigtighed, da ACE-hæmmere hæmmer nedbrydningen af bradykinin.
+- **Farmakologi**: Icatibant binder til bradykinin B1- og B2-receptorerne.
+
+Oplysninger om advarsler og kontraindikationer var ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger)**
 
 **Begrundelse:**
-Der er stærk evidens for icatibant ved HAE, med flere afsluttede fase 3-forsøg og et stort register. Det er dog en allerede godkendt anvendelse. For den erhvervede C1-inhibitormangel, som er den egentlige nye anvendelse, findes der kun retrospektive data og registerdata.
+Flere afsluttede fase 3-forsøg, herunder tre randomiserede kontrollerede studier, understøtter effekt og sikkerhed ved HAE med C1-hæmmermangel (evidensniveau L1), og lægemidlet er allerede markedsført i Danmark. Den forudsagte indikation er i praksis identisk med den godkendte, mens evidensen for den erhvervede form er begrænset til små observationsstudier.
 
-De øvrige forudsigelser fra modellen (serpinopati med toksisk serpinpolymerisering, pseudo-von Willebrand-sygdom, primær frigivelsesforstyrrelse af blodplader og immunmedieret nekrotiserende myopati) har kun modelstøtte. Der er ingen forsøg, ingen litteratur og ingen plausibel mekanistisk forbindelse til B2-antagonisme. De anbefales sat på **Hold** (L5).
-
-**For at komme videre kræves følgende:**
-- Indhentning af produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da sikkerhedsscreening ikke kan gennemføres uden dem
-- Indhentning af detaljerede mekanismedata (MOA) fra DrugBank
-- Bekræftelse af den godkendte indikationstekst for Firazyr i Danmark
-- Prospektive eller dedikerede kontrollerede data for erhvervet C1-inhibitormangel, før en egentlig ny indikation kan vurderes
-
-*Resultaterne er kun til forskningsbrug og udgør ikke lægefaglig rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+**For at komme videre er følgende nødvendigt:**
+- Gennemgang af produktresuméet (SmPC) for advarsler, kontraindikationer og den godkendte indikationstekst
+- Mere solid evidens for erhvervet C1-hæmmermangel, hvis udvidet anvendelse overvejes
+- Detaljerede data om virkningsmekanisme fra DrugBank
+- Plan for sikkerhedsovervågning, især ved samtidig brug af ACE-hæmmere
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Kun modelforudsigelse (L5)
-nav_order: 121
+nav_order: 216
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Cobicistat: Fra farmakokinetisk booster ved HIV-1 til simian immundefektvirus-infektion
+# Cobicistat: Fra HIV-infektion til simian immundefektvirus-infektion
 
 ## Resumé i én sætning
 
-Cobicistat er en farmakokinetisk booster, der bruges sammen med hiv-1-antiretrovirale lægemidler (atazanavir, darunavir, elvitegravir). Stoffet har ingen egen antiviral virkning.
-TxGNN-modellen forudsiger, at det kan have effekt ved **simian immundefektvirus-infektion (SIV)**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
-Forudsigelsen er derfor kun modelbaseret og ikke klinisk relevant for mennesker på nuværende tidspunkt.
+Cobicistat er en farmakokinetisk booster (CYP3A-hæmmer), der oprindeligt anvendes sammen med antiretrovirale lægemidler ved behandling af HIV-infektion og AIDS.
+TxGNN-modellen forudsiger, at stoffet kan være effektivt mod **simian immundefektvirus-infektion (SIV)**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport.
+Forudsigelsen bygger udelukkende på modellens vurdering (evidensniveau L5), og indikationen er en dyremodel, ikke et humant behandlingsmål.
 
 ---
 
@@ -43,54 +43,61 @@ Forudsigelsen er derfor kun modelbaseret og ikke klinisk relevant for mennesker 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Farmakokinetisk booster til hiv-1-antiretrovirale lægemidler (den godkendte indikationstekst er ikke angivet i de leverede data) |
+| Oprindelig indikation | HIV-infektion og AIDS (der er ingen godkendt indikationstekst i det danske markedsføringstilladelsesdata) |
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-prædiktionsscore | 99,92 % |
+| TxGNN-forudsigelsesscore | 99,92 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
+Bemærk: Forudsigelserne rangeret 2-3 (felint erhvervet immundefektsyndrom, score 99,92 %) og 5-6 (neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans, score 99,91 %) fremgår også af data, men flere poster er dubletter. Alle har evidensniveau L5 og anbefalingen Hold.
+
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme i evidenspakken. Cobicistat er en mekanismebaseret hæmmer af CYP3A. Den kendte anvendelse er at øge eksponeringen for samtidigt indgivne antiretrovirale lægemidler. Stoffet har ingen egen antiretroviral aktivitet.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra kendt viden er cobicistat en mekanismebaseret hæmmer af CYP3A. Stoffet har ingen egen antiviral aktivitet, men øger eksponeringen for samtidigt indgivne antiretrovirale lægemidler, f.eks. elvitegravir, darunavir og atazanavir.
 
-Den høje score (0,999) afspejler sandsynligvis nærhed i vidensgrafen til hiv-1-behandlingsknuder. SIV er en lentivirus, der er tæt beslægtet med hiv. En eventuel gavnlig effekt ville komme fra boosting af samtidigt indgivne antiretrovirale midler og ikke fra cobicistat selv. SIV-infektion er desuden en dyremodel- eller veterinærtilstand, og der er ikke påvist klinisk relevans for mennesker.
+SIV er en lentivirus, der er nært beslægtet med HIV hos ikke-humane primater. Det er sandsynligvis grunden til den høje modelscore: SIV ligger tæt på HIV i vidensgrafen. Eventuel effekt ved SIV ville være indirekte og kræve en samtidig antiviral kombination, som cobicistat kan booste.
 
-Modellen har yderligere forudsagt følgende indikationer med samme profil (evidensniveau L5, ingen forsøg eller litteratur):
-
-- **Felint erhvervet immundefektsyndrom (FIV):** Lentivirus beslægtet med hiv, og forudsigelsen skyldes sandsynligvis samme grafnærhed. Det er en veterinær indikation, som ville kræve farmakokinetiske og sikkerhedsmæssige veterinærstudier.
-- **Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans** (score 99,91 %): Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem CYP3A-hæmning og denne sjældne genetiske lidelse. Scoren er sandsynligvis et artefakt i vidensgrafen, og forudsigelsen kan ikke bruges i praksis.
+Den samme logik gælder for felint immundefektvirus (FIV) hos katte. Begge er veterinære eller prækliniske modelindikationer og ligger uden for omfanget af human lægemiddelrepurposing. For den forudsagte neuroudviklingsforstyrrelse er der ikke identificeret nogen plausibel mekanistisk forbindelse. Scoren må her anses for en grafartefakt.
 
 ---
 
 ## Klinisk evidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der foreligger for øjeblikket ingen relateret litteratur.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105111312 | Tybost (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Ikke angivet i de leverede data |
+| 28105111312 | Tybost (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+
+Der er i alt 1 gyldig markedsføringstilladelse (enkeltstof), og ingen er annulleret.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner i alt. Blandt de første 20 fremhæves:
 
-Cobicistat er en CYP3A-hæmmer og har derfor en betydelig risiko for lægemiddelinteraktioner. Interaktionsforespørgslen gav 0 resultater, hvilket sandsynligvis skyldes en datamangel og ikke fravær af interaktioner.
+- **Alvorlige (Major):** loperamid, triamcinolon, cisaprid, budesonid
+- **Moderate:** hydrocortison, aprepitant, betamethason, clotrimazol, dexamethason (inkl. næse- og øjenform), dexfenfluramin, fenfluramin, metoclopramid, prednisolon (øjenform), repaglinid, hydrocortison (øjenform), budesonid (næse), clarithromycin
+- **Mindre (Minor):** prucaloprid
+
+Størstedelen af interaktionerne afspejler cobicistats CYP3A-hæmning. Den omfattende interaktionsprofil vil komplicere enhver ny anvendelse.
+
+Der foreligger ikke data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for yderligere sikkerhedsinformation.
 
 ---
 
@@ -99,17 +106,13 @@ Cobicistat er en CYP3A-hæmmer og har derfor en betydelig risiko for lægemiddel
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modelnærhed til hiv-1-behandling. Der er hverken kliniske forsøg eller litteratur, mekanismen er ikke verificeret, og de forudsagte sygdomme er veterinære eller dyremodelbaserede, eller uden mekanistisk sammenhæng. Forudsigelserne kan ikke omsættes til klinisk praksis.
+Forudsigelsen bygger kun på modellens nærhed til den oprindelige HIV-indikation (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, og de forudsagte indikationer er dyremodeller eller har ingen plausibel mekanisme. Cobicistat har desuden ingen egen antiviral effekt.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Fuldstændige oplysninger om lægemiddelinteraktioner
-- Præklinisk eller veterinær farmakokinetisk dokumentation, hvis de veterinære indikationer skal forfølges
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelomplacering skal valideres klinisk, før de kan anvendes.*
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Præklinisk eller litteraturbaseret evidens, hvis en veterinær eller modelbaseret anvendelse overhovedet skal forfølges
+- Vurdering af, om forudsigelserne har human relevans, og fjernelse af dubletposter i data
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

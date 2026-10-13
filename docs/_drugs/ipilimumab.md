@@ -2,7 +2,7 @@
 layout: default
 title: Ipilimumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 244
+nav_order: 451
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,12 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Ipilimumab: Fra melanom til choroideremi
+# Ipilimumab: Fra metastatisk melanom til choroideremi
 
 ## Resumé
 
-Ipilimumab er et CTLA-4-blokerende antistof (immun-checkpoint-hæmmer), som i Danmark markedsføres som Yervoy. I det danske registreringsdata er indikationsteksten tom. Brugen i melanom fremgår dog tydeligt af de tilknyttede studier.
-TxGNN-modellen forudsiger, at ipilimumab kan have effekt ved **choroideremi**, en arvelig nethindedegeneration. Der er dog **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning.
+Ipilimumab er et antistof, der blokerer CTLA-4, og som oprindeligt anvendes til behandling af metastatisk melanom. TxGNN-modellen forudsiger, at det kan være effektivt mod **choroideremi** (en arvelig nethindesygdom). Der er dog **ingen kliniske forsøg og ingen publikationer**, der understøtter denne forudsigelse, og der er ingen plausibel biologisk sammenhæng.
 
 ---
 
@@ -42,7 +41,7 @@ TxGNN-modellen forudsiger, at ipilimumab kan have effekt ved **choroideremi**, e
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske registrering (melanom ifølge de tilknyttede studier) |
+| Oprindelig indikation | Metastatisk melanom (fra videngrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Choroideremi |
 | TxGNN-forudsigelsesscore | 99,06 % |
 | Evidensniveau | L5 |
@@ -54,11 +53,11 @@ TxGNN-modellen forudsiger, at ipilimumab kan have effekt ved **choroideremi**, e
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i datagrundlaget. Ipilimumab er dog et monoklonalt antistof, der blokerer CTLA-4 og dermed forstærker T-cellernes aktivering.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ipilimumab er dog kendt som et CTLA-4-blokerende antistof, der fjerner en hæmmende kontrol på T-celler og dermed forstærker immunsystemets angreb på tumorer. Denne mekanisme er veldokumenteret ved melanom.
 
-Choroideremi er en X-bundet arvelig nethindedegeneration. Den skyldes tab af CHM-genet (REP1), hvilket forstyrrer Rab-prenylering i nethindens pigmentepitel og i fotoreceptorerne. Intet i de tilgængelige data forbinder T-celle-checkpoint-blokade med denne sygdomsmekanisme.
+Choroideremi er en arvelig degeneration af nethinden, forårsaget af funktionstabsmutationer i CHM-genet (REP1-mangel). Sygdommen er ikke drevet af en hæmmet immunrespons, og der er ingen kendt sammenhæng mellem CTLA-4-blokade og sygdommens patogenese. Tværtimod kan øget immunaktivering give risiko for øjenbetændelse (f.eks. uveitis), som er en kendt immunrelateret bivirkning.
 
-Der er desuden en sikkerhedsmæssig bekymring. Checkpoint-hæmning kan give immunrelateret øjenbetændelse, for eksempel uveitis, og det vil være problematisk ved en degenerativ nethindesygdom. Den høje score på 0,99 skyldes sandsynligvis en artefakt i vidensgrafen og understøttes ikke af nogen undersøgelse.
+Den høje TxGNN-score synes derfor at være et modelartefakt og ikke et troværdigt signal. Forudsigelsen optræder desuden to gange i modellens output og bør dedupliceres.
 
 ---
 
@@ -74,11 +73,11 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104713610 | Yervoy (Bristol-Myers Squibb Pharma EEIG) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i registreringen |
+| 28104713610 | Yervoy (Bristol-Myers Squibb Pharma EEIG) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
@@ -86,19 +85,24 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Immunterapi (CTLA-4-hæmmer), ikke konventionelt cytotoksisk |
-| Risiko for knoglemarvssuppression | Generelt lav. Se produktresuméet (SmPC) |
-| Emetogenicitet | Generelt lav. Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for anbefalede kontroller, herunder immunrelaterede bivirkninger |
-| Håndteringsbeskyttelse | Følg SmPC og lokale retningslinjer for håndtering af onkologiske lægemidler |
+| Klassifikation | Immunterapi (immuncheckpoint-hæmmer, anti-CTLA-4); ikke et konventionelt cytotoksisk middel |
+| Risiko for myelosuppression | Ikke belyst i de indsamlede data; se produktresuméet (SmPC) |
+| Emetogenicitet | Ikke belyst i de indsamlede data; se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC). Typisk følges leverfunktion, thyreoideafunktion og tegn på immunrelaterede bivirkninger |
+| Håndtering og beskyttelse | Se produktresuméet (SmPC) for krav til håndtering og tilberedning |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-Ved choroideremi er den særlige risiko for immunrelateret øjenbetændelse nævnt ovenfor.
+**Immunrelateret risiko ved denne indikation:** Immunaktivering kan give øjenbetændelse (f.eks. uveitis), hvilket er særligt uønsket hos patienter med en eksisterende nethindesygdom.
+
+**Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner, hvoraf de første 20 er gennemgået her.
+
+- **Alvorlige (Major):** Antikoagulantia, herunder apixaban, betrixaban, bivalirudin, dalteparin, desirudin, edoxaban, argatroban og danaparoid.
+- **Moderate:** Kortikosteroider (hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison), metronidazol, tinidazol, naltrexon, rosuvastatin og simvastatin.
 
 ---
 
@@ -107,16 +111,15 @@ Ved choroideremi er den særlige risiko for immunrelateret øjenbetændelse næv
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for choroideremi hviler udelukkende på modellen. Der er ingen kliniske forsøg eller publikationer, og der er ingen plausibel mekanistisk forbindelse. Samtidig er der en teoretisk risiko for øjenbetændelse.
-
-**Supplerende bemærkning:** Samme datapakke indeholder også en forudsigelse for **non-kutant melanom** (score 99,02 %). Her er evidensniveauet L3 med anbefalingen "Proceed with Guardrails". Evidensen består af flere randomiserede fase 3-forsøg i melanom generelt, bl.a. NCT00324155 og NCT03068455. De er overvejende udført i kutant melanom og er derfor indirekte i forhold til uveal og mukosal melanom. Denne retning er langt mere lovende og bør vurderes separat.
+Forudsigelsen mangler enhver klinisk eller litteraturmæssig støtte (evidensniveau L5), og der er ingen plausibel mekanistisk sammenhæng mellem CTLA-4-blokade og choroideremi. Desuden er der en teoretisk risiko for øjenbetændelse.
 
 **For at komme videre kræves:**
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende datamangel)
-- Mekanismedata (MOA) fra DrugBank
-- Præklinisk eller mekanistisk dokumentation for en sammenhæng mellem CTLA-4-blokade og choroideremi, før der overvejes kliniske studier
+- Præklinisk eller mekanistisk dokumentation for en sammenhæng mellem CTLA-4-blokade og CHM/REP1-relateret nethindedegeneration, hvis forudsigelsen skal forfølges.
+- Vurdering af øjensikkerhed (risiko for uveitis) hos patienter med arvelige nethindesygdomme.
+- Hentning af advarsler og kontraindikationer fra produktresuméet (SmPC) samt data om virkningsmekanisme.
+- Fjernelse af den dublerede forudsigelse i modellens output.
 
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
+**Bemærkning:** Den næste forudsigelse i de samme data, **non-kutant melanom** (score 99,02 %), har væsentligt mere evidens, herunder et fase 3-forsøg (NCT02278887, hvor ipilimumab er sammenligningsarm) og et fase 2-forsøg med nivolumab plus ipilimumab ved uveal melanom (NCT02626962). Det er en udvidelse inden for samme sygdomsfamilie og bør vurderes i en separat rapport.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

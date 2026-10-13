@@ -2,7 +2,7 @@
 layout: default
 title: Silodosin
 parent: Kun modelforudsigelse (L5)
-nav_order: 400
+nav_order: 760
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Silodosin: Fra benign prostatahyperplasi (BPH) til Ambras-type hypertrichosis universalis congenita
+# Silodosin: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
 
-## Resumé i få sætninger
+## Opsummering i én sætning
 
-Silodosin er en selektiv alfa-1A-adrenerg antagonist, som anvendes til symptomatisk behandling af benign prostatahyperplasi (BPH). TxGNN-modellen forudsiger, at det kan have effekt ved **Ambras-type hypertrichosis universalis congenita** (en sjælden medfødt genetisk lidelse med kraftig behåring). Der er **0 kliniske forsøg** og **0 publikationer** for netop denne kombination, så forudsigelsen er kun modelbaseret og har ikke noget klinisk grundlag.
+Silodosin er en selektiv alfa-1A-adrenerg receptorantagonist, der oprindeligt anvendes til behandling af benign prostatahyperplasi (BPH).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **Ambras-type hypertrichosis universalis congenita**,
+men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende baseret på en computermodel.
 
 ---
 
@@ -41,7 +43,7 @@ Silodosin er en selektiv alfa-1A-adrenerg antagonist, som anvendes til symptomat
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i markedsføringstilladelsen. Evidenspakkens vurdering angiver BPH |
+| Oprindelig indikation | Benign prostatahyperplasi (indikationsteksten er ikke angivet i de danske markedsføringstilladelser; oplysningen stammer fra TxGNN-vidensgrafen) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
 | TxGNN-forudsigelsesscore | 99,99 % |
 | Evidensniveau | L5 |
@@ -53,25 +55,15 @@ Silodosin er en selektiv alfa-1A-adrenerg antagonist, som anvendes til symptomat
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i evidenspakken. Silodosin er dog kendt som en selektiv alfa-1A-adrenerg antagonist, der virker ved at afslappe glat muskulatur i prostata og blærehals.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Silodosin er dog kendt som en selektiv alfa-1A-adrenerg receptorantagonist, som afslapper glat muskulatur i prostata og blærehals og dermed lindrer vandladningsproblemer ved BPH.
 
-Der er **ingen troværdig mekanistisk sammenhæng** mellem BPH og Ambras-syndrom. Ambras-syndrom er en genetisk lidelse, der typisk skyldes kromosom 8q-omlejringer, som påvirker reguleringen af TRPS1-genet. Alfa-1A-blokade har ingen kendt rolle i hårvækst eller i denne genetiske mekanisme. Den høje score på 99,99 % afspejler udelukkende mønstre i vidensgrafen og er ikke understøttet af forsøg eller litteratur.
+Ambras-syndrom er en sjælden medfødt lidelse, der er forbundet med omlejringer på kromosom 8q22 og påvirket regulering af *TRPS1*, en udviklingsvej for hårfollikler. Der er ingen kendt sammenhæng mellem alfa-1A-blokade og hårvækst eller denne genetiske mekanisme.
 
-### Øvrige forudsigelser for silodosin
-
-Alle forudsigelserne ligger på evidensniveau L5 med beslutningen Hold. Evidenspakken indeholder hver af dem i to identiske poster, som her er slået sammen.
-
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Ambras-type hypertrichosis universalis congenita | 99,99 % | Ingen troværdig mekanistisk sammenhæng |
-| Hypertrichose (sygdom) | 99,99 % | Ingen kendt hårvækstmekanisme ved alfa-1A-blokade. Hypertrichose kan være lægemiddelinduceret, fx af minoxidil (en vasodilator), men det giver ikke støtte til silodosin |
-| Misdannelsessyndrom med tand- og/eller parodontal komponent | 99,99 % | Litteraturen er generel parodontitislitteratur uden omtale af silodosin. Se bemærkning nedenfor |
-| Syndrom med Dandy-Walker-malformation som hovedtræk | 99,98 % | Medfødt udviklingsdefekt i bagre fossa. Et symptomatisk BPH-lægemiddel forventes ikke at påvirke den |
-| Isoleret genetisk hårskaftsabnormitet | 99,98 % | Strukturelle genetiske hårskaftsdefekter uden kendt rolle for alfa-1A-antagonisme |
+Den høje score (0,9999) afspejler sandsynligvis nærhed i vidensgrafen, ikke lægemidlets farmakologi. Det samme gælder de øvrige forudsigelser med lignende score: hypertrichosis, misdannelsessyndrom med tand- og/eller parodontal komponent, syndrom med Dandy-Walker-misdannelse som hovedtræk samt isoleret genetisk hårskaftsabnormitet. Der er ikke identificeret en plausibel mekanistisk forbindelse for nogen af dem.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -79,23 +71,26 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
-
-Bemærk: For forudsigelsen "Misdannelsessyndrom med tand- og/eller parodontal komponent" blev der fundet 20 publikationer. Det er generel litteratur om parodontitis, udvalgt ved søgeordsmatch på sygdomsbetegnelsen. Ingen af dem omtaler silodosin eller alfa-1-antagonisme, og de hæver derfor ikke evidensniveauet over ren modelforudsigelse.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106109918 | Silodosin "Recordati" (Recordati Ireland Limited) | Kapsler, hårde | Indikationstekst ikke angivet i datagrundlaget |
+| MA 28106109918 | Silodosin "Recordati" (Recordati Ireland Limited) | Kapsler, hårde | Ikke angivet i de tilgængelige data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige data om advarsler eller kontraindikationer i evidenspakken, og opslag på lægemiddelinteraktioner gav ingen resultater. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de sammenstillede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+- **Sygdomme, der i vidensgrafen er knyttet til kontraindikation** (ikke hentet fra produkttekst, og skal verificeres mod SmPC): multipel systematrofi, posturalt ortostatisk takykardisyndrom, ortostatisk hypotension, leversvigt, nyresygdom, pyoureter og intraoperativt floppy iris-syndrom.
+- **Lægemiddelinteraktioner**: Der er identificeret 99 mulige interaktioner, hvoraf 20 er vist i de sammenstillede data. Den vigtigste er:
+  - **Alvorlig (Major)**: clarithromycin
+  - **Moderate**: bupropion, aprepitant, morfin (inkl. liposomal), dexamethason, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, cimetidin, dronabinol, nabilon, eliglustat, metreleptin, miconazol, clotrimazol, rolapitant, glycerolphenylbutyrat og opium
 
 ---
 
@@ -104,15 +99,13 @@ Der er ingen tilgængelige data om advarsler eller kontraindikationer i evidensp
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er alene baseret på vidensgrafen (evidensniveau L5), uden kliniske forsøg eller lægemiddelspecifik litteratur. Der er desuden ingen plausibel farmakologisk sammenhæng mellem alfa-1A-blokade og de forudsagte medfødte genetiske lidelser.
+Forudsigelsen understøttes kun af en computermodel (L5) uden kliniske forsøg eller litteratur, og der er ingen plausibel mekanistisk sammenhæng mellem alfa-1A-blokade og de forudsagte, primært genetiske, udviklingsmæssige lidelser.
 
 **For at komme videre kræves følgende:**
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen. Det er en blokerende datamangel for sikkerhedsscreening.
-- Detaljerede MOA-data fra DrugBank til en grundigere mekanistisk analyse.
-- Præklinisk eller mekanistisk evidens, der kan forbinde alfa-1A-antagonisme med den forudsagte sygdom, før videre vurdering overvejes.
-- Vurdering af administrationsvej og lægemiddelform, som endnu ikke er foretaget.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelreposition kræver klinisk validering, før de kan anvendes.*
+- Data om lægemidlets virkningsmekanisme (MOA)
+- Præklinisk eller mekanistisk evidens for en rolle for alfa-1A-blokade i hårfollikelbiologi eller TRPS1-vejen
+- Gennemgang af produktresuméets advarsler og kontraindikationer (manglende data blokerer sikkerhedsscreening)
+- Systematisk litteratursøgning og søgning i forsøgsregistre efter relevante studier
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

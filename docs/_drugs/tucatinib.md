@@ -2,7 +2,7 @@
 layout: default
 title: Tucatinib
 parent: Kun modelforudsigelse (L5)
-nav_order: 458
+nav_order: 865
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tucatinib: Fra HER2-positiv brystkræft til migræne
+# Tucatinib: Fra oprindelig indikation til migræne (forudsagt)
 
 ## Resumé i én sætning
 
-Tucatinib (handelsnavn TUKYSA) er en selektiv HER2-tyrosinkinasehæmmer. Den originale indikation er ikke angivet i den danske registrering, men lægemidlet kendes generelt som kræftbehandling. TxGNN-modellen forudsiger, at det kan have effekt mod **migræne** (migraine disorder), men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette, og forudsigelsen er alene en modelberegning.
+Tucatinib er en selektiv HER2-tyrosinkinasehæmmer, som er markedsført i Danmark som tabletten TUKYSA. Den oprindelige godkendte indikationstekst er ikke tilgængelig i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **migræne (migraine disorder)**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er derfor udelukkende modelbaseret.
 
 ---
 
@@ -41,9 +41,9 @@ Tucatinib (handelsnavn TUKYSA) er en selektiv HER2-tyrosinkinasehæmmer. Den ori
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke angivet i den danske registrering (generelt kendt: HER2-positiv brystkræft, ikke bekræftet i datagrundlaget) |
+| Oprindelig indikation | Ikke tilgængelig i de sammenstillede data (indikationsteksten i markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 98,62 % |
+| TxGNN-prædiktionsscore | 98,6 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
@@ -51,56 +51,68 @@ Tucatinib (handelsnavn TUKYSA) er en selektiv HER2-tyrosinkinasehæmmer. Den ori
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Tucatinib er en selektiv HER2-tyrosinkinasehæmmer. HER2 spiller ingen kendt rolle i migrænens patofysiologi, hvor CGRP, serotonerge systemer og kortikal spredende depression er de centrale mekanismer.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de sammenstillede data. Tucatinib er dog kendt som en selektiv HER2-tyrosinkinasehæmmer, og lægemidlet bruges til HER2-positive kræftformer.
 
-Der er derfor ingen troværdig mekanistisk sammenhæng mellem den oprindelige anvendelse (HER2-drevet kræft) og migræne. Den høje score på 98,62 % afspejler formentlig nærhed i vidensgrafen og ikke en biologisk begrundelse. Ligheden med den oprindelige indikation er ikke vurderet.
+Der kan ikke påvises noget mekanistisk link mellem HER2-hæmning og migræne. Migrænepatofysiologi knytter sig til CGRP, serotonerge mekanismer og cortical spreading depression, og ingen af disse er kendt for at være drevet af HER2-signalering. Scoren på 98,6 % afspejler sandsynligvis, at modellen finder nærhed i vidensgrafen, og ikke en reel sammenhæng mellem lægemiddel og sygdom.
 
-De øvrige forudsigelser i listen er heller ikke bedre underbyggede:
+Andre forudsigelser fra modellen har tilsvarende svag støtte:
 
-- **Multipel endokrin neoplasi (98,52 %)**: Kun to forsøg returneret, begge vurderet som svagt relevante. Det ene er et generelt brystkræft-paraplyforsøg (NCT04802759), det andet et fase 1-forsøg med et andet HER2-middel, zanidatamab (NCT02892123). Evidensniveau L4.
-- **Nefrogent syndrom med uhensigtsmæssig antidiurese (98,45 %)**: Ingen kendt forbindelse til HER2. Evidensniveau L5.
-- **Migræne med hjernestammeaura (98,37 %)**: Samme vurdering som for migræne. Evidensniveau L5.
-- **Pulmonal hypertension (98,36 %)**: Kun et svagt spekulativt argument via PDGFR-hæmmere. Tucatinib er meget HER2-selektiv og har minimal PDGFR-aktivitet. Evidensniveau L5.
+| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk link |
+|------|------|------|
+| Migræne | 98,6 % | Intet etableret link |
+| Multipel endokrin neoplasi | 98,5 % | Kun indirekte og spekulativ plausibilitet (MEN-syndromer drives af RET eller MEN1; tucatinib er HER2-selektiv med minimal RET-aktivitet) |
+| Nefrogent syndrom med uhensigtsmæssig antidiurese | 98,4 % | Intet link (skyldes AVPR2-varianter, uafhængigt af HER2) |
+| Migræne med hjernestammeaura | 98,4 % | Intet etableret link (kanalopatigener som CACNA1A og ATP1A2) |
+| Pulmonal hypertension | 98,4 % | Svagt og spekulativt; andre kinasehæmmere (fx dasatinib) er forbundet med pulmonal hypertension som bivirkning, hvilket kræver forsigtighed |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for migræne.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for tiden ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106391420 | TUKYSA (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Ikke angivet i data |
+| 28106391420 | TUKYSA (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de sammenstillede data |
+
+Administrationsvej: oral.
 
 ---
 
 ## Cytotoksicitet
 
+Tucatinib er et antineoplastisk middel (målrettet kræftbehandling). Specifikke data om cytotoksicitet foreligger ikke i de sammenstillede data.
+
 | Punkt | Indhold |
 |------|------|
-| Cytotoksisk klassifikation | Målrettet terapi (HER2-tyrosinkinasehæmmer) |
-| Risiko for myelosuppression | Se produktresumé (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresumé (SmPC) |
-| Monitoreringspunkter | Se produktresumé (SmPC), herunder leverfunktion og blodprøver |
-| Håndteringsbeskyttelse | Se produktresumé (SmPC) |
-
-Klassifikationen er baseret på almen viden om stoffet og ikke på toksicitetsdata i datagrundlaget. Henvis til SmPC's advarsler og forsigtighedsregler.
+| Cytotoksicitetsklassifikation | Målrettet behandling (tyrosinkinasehæmmer) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Data om advarsler og kontraindikationer fra produktresuméet mangler i de sammenstillede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+**Lægemiddelinteraktioner:** Der er identificeret 100 potentielle interaktioner. Et udvalg af de vigtigste:
+
+- **Alvorlige (Major):** triamcinolon, budesonid, eliglustat, naloxegol
+- **Moderate:** hydrocortison, dexamethason, betamethason, loperamid, aprepitant, clarithromycin, saxagliptin, sitagliptin, linagliptin, empagliflozin, naldemedin, naltrexon
 
 ---
 
@@ -109,15 +121,13 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for migræne bygger udelukkende på en vidensgraf-score uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Tucatinibs HER2-selektive virkning har ingen kendt tilknytning til migræne. Evidensniveauet er L5, og beslutningsfasen er S0.
+Forudsigelsen hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller publikationer, og der kan ikke påvises et biologisk plausibelt link mellem HER2-hæmning og migræne. Sikkerhedsdata fra produktresuméet mangler desuden.
 
-**For at komme videre kræves:**
-- Produktresumé for TUKYSA fra Lægemiddelstyrelsen med advarsler og kontraindikationer. Mangler på nuværende tidspunkt og blokerer sikkerhedsscreeningen.
-- Data om virkningsmekanismen (MOA), f.eks. fra DrugBank.
-- Præklinisk eller mekanistisk evidens, der kobler HER2-hæmning til migræne, før yderligere investering overvejes.
-- Vurdering af indikationens relevans og administrationsvej (oral tablet) i forhold til migræne.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til nye indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation
+- Data om virkningsmekanisme (MOA), fx fra DrugBank
+- Prækliniske eller mekanistiske data, der kan underbygge en sammenhæng mellem HER2-hæmning og migræne
+- Systematisk litteratur- og forsøgsgennemgang for at bekræfte, at der ikke findes støttende evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

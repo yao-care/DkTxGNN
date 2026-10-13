@@ -2,7 +2,7 @@
 layout: default
 title: Carvedilol
 parent: Kun modelforudsigelse (L5)
-nav_order: 96
+nav_order: 165
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carvedilol: Fra kendt anvendelse til malign renovaskulær hypertension
+# Carvedilol: Fra hypertension til malign renovaskulær hypertension
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Carvedilol er en betablokker med samtidig alfa-1-blokade og er markedsført i Danmark som tabletter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension**. Der er dog **0 kliniske forsøg** og **0 publikationer** for denne indikation, og forudsigelsen er derfor kun modelbaseret.
-
----
+Carvedilol er en kombineret beta- og alfa-1-blokker, der oprindeligt anvendes til behandling af forhøjet blodtryk (hypertension).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension**,
+men der er i øjeblikket **ingen kliniske forsøg** og **ingen specifik litteratur** for denne indikation. Forudsigelsen er alene modelbaseret (evidensniveau L5).
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (godkendelsesteksten for det danske produkt er tom) |
+| Oprindelig indikation | Hypertension (den danske godkendelse har ingen angivet indikationstekst i de foreliggende data) |
 | Forudsagt ny indikation | Malign renovaskulær hypertension |
 | TxGNN-forudsigelsesscore | 99,55 % |
 | Evidensniveau | L5 |
@@ -49,81 +49,60 @@ Carvedilol er en betablokker med samtidig alfa-1-blokade og er markedsført i Da
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor kunne forudsigelsen være rimelig, og hvorfor er den usikker?
+Der foreligger i øjeblikket ikke detaljerede data om carvedilols virkningsmekanisme i de data, der er indsamlet til denne rapport. Det er generelt kendt, at carvedilol blokerer beta- og alfa-1-adrenerge receptorer og giver vasodilatation, og at lægemidlet er dokumenteret effektivt ved hypertension.
 
-Detaljerede data om virkningsmekanisme foreligger ikke i datagrundlaget. Carvedilol er en ikke-selektiv betablokker med alfa-1-blokade, og begge egenskaber kan sænke blodtrykket. Det er den eneste mekanistiske forbindelse, der kan trækkes frem.
+Malign renovaskulær hypertension ligger inden for hypertensionsspektret, og blodtrykssænkende virkning er derfor konceptuelt relevant. Tilstanden er dog renindrevet og akut samt højrisiko, så den kræver sygdomsspecifik evidens. Højt modelscore alene er ikke tilstrækkeligt.
 
-Malign renovaskulær hypertension er en hypertensiv nødsituation, som primært drives af aktivering af renin-angiotensinsystemet. Betablokkere er ikke standardbehandling her, så sammenhængen er ikke valideret. Den høje score (0,995) kan afspejle, at sygdommen ligger tæt på den generelle hypertensionsknude i vidensgrafen, snarere end sygdomsspecifik evidens.
+Modellen forudsiger også beslægtede tilstande med samme score (malign hypertensiv nyresygdom), samt pulmonal hypertension og Braddocks syndrom. Ingen af disse er understøttet af kliniske forsøg. For pulmonal hypertension på grund af lungesygdom og/eller hypoxi er der kun indirekte, overvejende prækliniske data (se nedenfor).
 
-Flere af de forudsagte indikationer har nøjagtig samme score. Det tyder på, at de stammer fra samme område i grafen og ikke er uafhængige signaler.
+## Klinisk forsøgsevidens
 
----
-
-## Øvrige forudsagte indikationer
-
-Datagrundlaget indeholdt 10 poster, men kun 5 unikke sygdomme, da poster optrådte dobbelt. Dubletter er samlet her.
-
-| Sygdom | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Malign renovaskulær hypertension | 99,55 % | L5 | Ingen forsøg eller litteratur. Hold |
-| Malign hypertensiv nyresygdom | 99,55 % | L5 | Ingen forsøg eller litteratur. Blodtryksfald og renale hæmodynamiske effekter er tænkelige. Hold |
-| Pulmonal hypertension med uklar multifaktoriel mekanisme | 99,54 % | L5 | Ingen forsøg eller litteratur. Betablokade kan belaste højre ventrikel, så scoren bør kontrolleres for falsk positiv. Hold |
-| Pulmonal hypertension pga. lungesygdom og/eller hypoxi | 99,54 % | L5 | Se bemærkning under litteratur. Betablokade kan forværre gasudveksling eller højre ventrikelfunktion. Hold |
-| Braddock syndrom | 99,37 % | L5 | Meget sjælden sygdom uden kendt mekanistisk kobling. Hold |
-
----
-
-## Klinisk evidens fra forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for malign renovaskulær hypertension.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for den primære forudsigelse (malign renovaskulær hypertension).
+Der er ingen relateret litteratur for den primære forudsigelse (malign renovaskulær hypertension).
 
-Bemærk: For pulmonal hypertension pga. lungesygdom/hypoxi blev der hentet 20 publikationer (10 vist). De handler om generel hypoxi-biologi, f.eks. hypoxi og hjernealdring, tumorhypoxi og hypoxi ved dyrt væv. Ingen af dem nævner carvedilol eller behandling af pulmonal hypertension. De ligner nøgleordstræffere på "hypoxia" og er ikke evidens for denne lægemiddel-sygdomskombination.
+Til sammenligning er der for den nærtstående forudsigelse *pulmonal hypertension på grund af lungesygdom og/eller hypoxi* fundet nedenstående mest relevante, men kun indirekte, litteratur:
 
----
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/) | 2009 | Review | Cardiovasc Drugs Ther | Betablokkeres effekt på lungefunktion ved hjertesvigt; tidligere opfattelse af kontraindikation ved nedsat lungefunktion er blevet udfordret |
+| [26291659](https://pubmed.ncbi.nlm.nih.gov/26291659/) | 2015 | Prækliniske (dyr) | Eur J Pharmacol | Carvedilol reverserede hypertension induceret af kronisk intermitterende hypoxi hos rotter (systemisk, ikke pulmonal) |
+| [16639551](https://pubmed.ncbi.nlm.nih.gov/16639551/) | 2006 | Prækliniske (dyr) | Pflugers Arch | Carvedilol hæmmede højre ventrikelhypertrofi induceret af kronisk hypobar hypoxi |
+| [20508210](https://pubmed.ncbi.nlm.nih.gov/20508210/) | 2010 | Prækliniske (rotter) | Am J Respir Crit Care Med | Adrenerg receptorblokade reverserede højre hjerteombygning og dysfunktion hos rotter med pulmonal hypertension |
+| [24798657](https://pubmed.ncbi.nlm.nih.gov/24798657/) | 2014 | Crossover-studie (11 patienter) | J Clin Hypertens | Natlig carvedilol vs. nifedipin og søvnblodtryk ved hypertension og søvnapnø |
+| [31242023](https://pubmed.ncbi.nlm.nih.gov/31242023/) | 2019 | Grundforskning | Am J Physiol Lung Cell Mol Physiol | Samspil mellem hypoxi og β-adrenerg signalering ved pulmonal arteriel hypertension |
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform |
-|---------|------|------|
-| 28107355925 | Carvedilol "2care4" (2care4 ApS) | Tabletter (oral) |
-
-Godkendelsesteksten for indikation er ikke tilgængelig i datagrundlaget.
-
----
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28107355925 | Carvedilol "2care4" (2care4 ApS) | Tabletter | Indikationstekst ikke angivet i de foreliggende data |
 
 ## Sikkerhedsovervejelser
 
-Sikkerhedsoplysninger (advarsler, kontraindikationer og lægemiddelinteraktioner) er ikke tilgængelige i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Kontraindikationer (fra vidensgraf, ikke fra produktresumé)**: Leversvigt, astma (inkl. allergisk og intrinsic), bronkitis, emfysem og anden bronkial sygdom, atrioventrikulært blok, sinusknudesyndrom (inkl. familiær form), hypotension, perifer vaskulær sygdom/arteriel sygdom og claudicatio intermittens, Prinzmetal-angina, diabetes mellitus og diabetisk ketoacidose, anafylaksi samt intraoperativt floppy iris-syndrom.
+- **Lægemiddelinteraktioner**: 100 interaktioner er registreret; blandt de viste er den eneste af sværhedsgraden *Major* **adrenalin (epinephrin)**. Flere er *Moderate*, bl.a. kortikosteroider (hydrocortison, dexamethason, betamethason, triamcinolon, budesonid), atropin, hyoscyamin, bupropion, morfin, lorcaserin, canagliflozin, acetohexamid og calciumsalte. Acetylsalicylsyre, aluminiumhydroxid og attapulgit er *Minor*.
+- **Særlig bekymring ved pulmonal hypertension**: Betablokade kan påvirke højre ventrikelfunktion og lungefunktion, hvorfor sikkerhed skal påvises først.
 
-Sikkerhedsscreeningen kan ikke gå videre, før indlægssedlen og produktresuméet fra Lægemiddelstyrelsen er indhentet. Særlig opmærksomhed kræves ved pulmonal hypertension, hvor betablokade kan være skadelig.
-
----
+Der foreligger ikke produktresumé-data om advarsler i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for fuld sikkerhedsinformation.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Alle forudsigelser bygger udelukkende på en grafmodel (evidensniveau L5), uden kliniske forsøg og uden relevant litteratur.
-- Den mekanistiske kobling er svag eller modstridende, især ved pulmonal hypertension og malign renovaskulær hypertension.
+Forudsigelsen bygger udelukkende på en modelscore (L5) uden kliniske forsøg eller specifik litteratur. Malign renovaskulær hypertension er en akut højrisikotilstand, hvor ikke-valideret anvendelse ikke er forsvarlig.
 
-**For at komme videre kræves:**
-- Sikkerhedsdata fra Lægemiddelstyrelsens produktresumé (advarsler, kontraindikationer, interaktioner).
-- Detaljerede data om virkningsmekanisme, f.eks. fra DrugBank.
-- Målrettet litteratursøgning på carvedilol kombineret med hver af de forudsagte sygdomme, i stedet for brede nøgleordssøgninger.
-- Kliniske vurderinger af, om betablokade er hensigtsmæssig ved hver af tilstandene, især ved pulmonal hypertension.
-
----
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA), som p.t. mangler
+- Produktresuméets advarsler og kontraindikationer (blokerende datahul for sikkerhedsscreening)
+- Sygdomsspecifik litteratur og/eller kliniske forsøg for malign renovaskulær hypertension og malign hypertensiv nyresygdom
+- Vurdering af, om den danske godkendelses indikationstekst dækker hypertension
+- Sikkerhedsvurdering af betablokade ved pulmonal hypertension, hvis den indikation forfølges (evidens p.t. L4, "forskningsspørgsmål")
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

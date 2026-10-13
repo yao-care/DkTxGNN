@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Kun modelforudsigelse (L5)
-nav_order: 478
+nav_order: 899
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,11 +31,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 # Zanamivir: Fra influenza til pyelonefritis
 
-## Resumé
+## Resumé i én sætning
 
-Zanamivir er en neuraminidasehæmmer (antiviralt middel mod influenza). I Danmark er det markedsført som Dectova, en infusionsvæske.
-TxGNN-modellen forudsiger, at det kan have effekt mod **pyelonefritis** (nyrebækkenbetændelse).
-Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 relevante publikationer** til at understøtte den.
+Zanamivir er en neuraminidasehæmmer, som oprindeligt bruges til behandling af influenza. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **pyelonefritis**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -43,48 +41,54 @@ Forudsigelsen er **kun modelbaseret**: der er **0 kliniske forsøg** og **0 rele
 
 | Punkt | Indhold |
 |------|------|
-| Foreslået ny indikation | Pyelonefritis |
+| Oprindelig indikation | Influenza (godkendt indikationstekst for det danske produkt er ikke angivet i de indsamlede data) |
+| Forudsagt ny indikation | Pyelonefritis |
 | TxGNN-forudsigelsesscore | 99,84 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i datagrundlaget. Zanamivir er en hæmmer af influenzavirussens neuraminidase (sialidase). Dets effekt mod influenza er veldokumenteret, men den har ikke noget oplagt mekanistisk link til pyelonefritis.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Zanamivir er kendt som en hæmmer af viralt neuraminidase, et enzym influenzavirus bruger til at frigive nye viruspartikler fra inficerede celler. Lægemidlets effekt ved influenza er veldokumenteret.
 
-Pyelonefritis er hovedsageligt en bakteriel nyreinfektion, og behandlingen består primært af antibiotika. Visse bakterier har sialidaser, men zanamivir har ingen dokumenteret antibakteriel virkning. Der er heller ikke dokumenteret relevant eksponering i urinvejene.
+Pyelonefritis er derimod typisk en bakteriel infektion i nyren. Der er ingen klar mekanistisk forbindelse mellem hæmning af viralt neuraminidase og behandling af en bakteriel nyreinfektion. Mennesker har egne neuraminidaser (NEU1-4), men der er intet, der tyder på, at hæmning af dem er relevant for pyelonefritis.
 
-Den høje score (0,998) afspejler derfor sandsynligvis nærhed i vidensgrafen snarere end en egentlig biologisk sammenhæng. Dataene indeholdt indikationen to gange (dublet), og den er her slået sammen til én.
+Den høje score (0,998) afspejler sandsynligvis nærhed i vidensgrafen og ikke et reelt biologisk eller klinisk grundlag. Forudsigelsen bør derfor betragtes som en hypotese uden understøttende evidens.
 
 ---
 
-## Klinisk forsøgsevidens
+## Klinisk evidens fra forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for pyelonefritis.
+Der er på nuværende tidspunkt ingen relateret litteratur for pyelonefritis.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform |
-|---------|------|------|
-| 28106043117 | Dectova (GlaxoSmithKline Trading Services) | Infusionsvæske, opløsning |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28106043117 | Dectova (GlaxoSmithKline Trading Services) | Infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner** (8 registrerede i de indsamlede data):
+  - Insulin humant (inhaleret, hurtigtvirkende): moderat
+  - Clarithromycin, loratadin, montelukast, ketotifen, fexofenadin, ibuprofen og diclofenac: sværhedsgrad ikke klassificeret
+- **Sygdomme, der i vidensgrafen er knyttet til kontraindikation** (ikke hentet fra produktresuméet): epilepsi, kronisk obstruktiv lungesygdom (KOL), bronkial sygdom og delirium.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -93,17 +97,13 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller litteratur. Der er intet plausibelt mekanistisk link mellem neuraminidasehæmning og behandling af en bakteriel nyreinfektion. Systemisk eksponering i urinvejene og antibakteriel aktivitet er ikke dokumenteret.
+Forudsigelsen for pyelonefritis bygger udelukkende på en modelscore uden kliniske forsøg, uden litteratur og uden en plausibel mekanistisk sammenhæng mellem en viral neuraminidasehæmmer og en bakteriel nyreinfektion. Der findes desuden allerede etablerede antibiotiske behandlinger.
 
-De øvrige højtscorende forudsigelser i datasættet mangler ligeledes biologisk grundlag. Det gælder lidelser i tyrosin- og phenylalaninstofskiftet, BH4-responsiv PKU og teratogent Pierre Robin-syndrom. De tre hentede artikler om tyrosinstofskifte handler om influenzaresistens og analysemetoder og er derfor ikke talt med som evidens.
-
-**For at komme videre kræves:**
-- Mekanistiske data (in vitro-aktivitet over for uropatogene bakterier eller relevante sialidaser)
-- Farmakokinetiske data om eksponering i nyre og urinveje
-- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som mangler i datagrundlaget
-- Præklinisk eller klinisk evidens, før en egentlig vurdering kan påbegyndes
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Lægemiddelkandidater til genanvendelse kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé for Dectova fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Prækliniske eller mekanistiske data, der kan underbygge en eventuel rolle i pyelonefritis
+- Gennemgang af de øvrige forudsigelser (fx forstyrrelser i tyrosin- og phenylalaninstofskiftet og Pierre Robin-syndrom), som heller ikke har mekanistisk eller klinisk støtte og ligeledes har evidensniveau L5
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

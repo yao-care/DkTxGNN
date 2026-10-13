@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Burosumab
-parent: Moderat evidens (L3-L4)
-nav_order: 80
-evidence_level: L4
+parent: Kun modelforudsigelse (L5)
+nav_order: 141
+evidence_level: L5
 indication_count: 10
 ---
 
 # Burosumab
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Burosumab: Fra X-bundet hypofosfatæmi til renal osteodystrofi
+# Burosumab: Fra arvelig hypofosfatæmisk rakitis til renal osteodystrofi
 
-## Resumé i få sætninger
+## Resumé
 
-Burosumab er et monoklonalt antistof mod FGF23. Det anvendes mod X-bundet hypofosfatæmi (XLH), en sygdom med for højt FGF23. TxGNN-modellen forudsiger, at det kan have effekt ved **renal osteodystrofi** (knoglesygdom ved kronisk nyresygdom). Der er dog **ingen kliniske forsøg** og kun **1 oversigtsartikel** med indirekte relevans, så evidensen er meget svag.
+Burosumab er et monoklonalt antistof mod FGF23, som oprindeligt anvendes til behandling af arvelig hypofosfatæmisk rakitis (herunder X-bundet hypofosfatæmi, XLH).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **renal osteodystrofi**.
+Der er **ingen registrerede kliniske forsøg** og kun **2 oversigtsartikler** (reviews) bag denne retning, og ingen af dem indeholder direkte kliniske data for burosumab ved denne sygdom.
 
 ---
 
@@ -41,10 +43,10 @@ Burosumab er et monoklonalt antistof mod FGF23. Det anvendes mod X-bundet hypofo
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | X-bundet hypofosfatæmi (XLH). Den danske registrering angiver ikke indikationsteksten, så oplysningen stammer fra litteratur og forsøgsbeskrivelser |
+| Oprindelig indikation | Arvelig hypofosfatæmisk rakitis (de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst fra Lægemiddelstyrelsen) |
 | Forudsagt ny indikation | Renal osteodystrofi |
-| TxGNN-prædiktionsscore | 96,9 % |
-| Evidensniveau | L4 |
+| TxGNN-forudsigelsesscore | 96,9 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
@@ -53,41 +55,49 @@ Burosumab er et monoklonalt antistof mod FGF23. Det anvendes mod X-bundet hypofo
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede mekanismedata fra DrugBank er ikke tilgængelige. Ud fra den tilgængelige viden neutraliserer burosumab FGF23. FGF23 er et hormon, der nedsætter nyrernes genoptagelse af fosfat og hæmmer dannelsen af aktivt D-vitamin. Ved XLH er FGF23 for højt, og det giver lavt fosfat og nedsat knoglemineralisering.
+Data om burosumabs detaljerede virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Burosumab er dog kendt som et anti-FGF23-antistof. FGF23 er et hormon, der styrer fosfatudskillelse og D-vitaminstofskifte. Ved XLH er FGF23 for højt, hvilket giver nyrebetinget fosfattab, rakitis og osteomalaci.
 
-Ved kronisk nyresygdom med mineral- og knogleforstyrrelse (CKD-MBD, herunder renal osteodystrofi) er FGF23 også markant forhøjet. Målet for behandlingen er altså biologisk plausibelt, og det er sandsynligvis grunden til, at modellen scorer så højt.
+Ved kronisk nyresygdom med mineral- og knogleforstyrrelse (CKD-MBD, hvortil renal osteodystrofi hører) er FGF23 også markant forhøjet og indgår i fosfathåndtering, D-vitaminstofskifte og sekundær hyperparathyroidisme. Der er derfor en biologisk begrundelse for at forbinde de to tilstande.
 
-Mekanismen er dog usikker og muligvis ugunstig. Ved kronisk nyresygdom er forhøjet FGF23 i høj grad en kompensatorisk reaktion på fosfatretention. Hvis man blokerer FGF23, kan det forværre hyperfosfatæmi og karforkalkning. Det eneste understøttende studie er en pædiatrisk oversigtsartikel om hypofosfatæmiske knoglesygdomme (XLH), som kun er indirekte evidens.
+Rationalet har dog betydelige svagheder. Ved nedsat nyrefunktion kan blokade af FGF23 øge serumfosfat og give risiko for ektopisk forkalkning. Desuden er burosumab ifølge produktinformationen kontraindiceret ved svær nedsat nyrefunktion/terminal nyresvigt. De to fundne artikler er en generel oversigt over CKD-MBD og en oversigt over pædiatriske metaboliske knoglesygdomme. Ingen af dem giver direkte kliniske data for burosumab ved renal osteodystrofi.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Oversigtsartikel | Current Pediatric Reviews | Gennemgår diagnostik og nye behandlinger af hypofosfatasi og X-bundet hypofosfatæmisk rakitis hos børn. Omhandler ikke renal osteodystrofi direkte |
+| [42438722](https://pubmed.ncbi.nlm.nih.gov/42438722/) | 2026 | Review | Kidney International Reports | Oversigt over mineral- og knoglesygdom ved CKD og nyretransplantation: kontroverser, videnshuller og fremtidig retning. Ingen burosumab-data. |
+| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Review | Current Pediatric Reviews | Diagnostik og nye behandlinger af hypofosfatasi og X-bundet hypofosfatæmisk rakitis hos børn. Ikke specifik for renal osteodystrofi. |
+
+**Bemærkning om øvrige forudsigelser:** Modellen rangerer også *nedsat nyrefunktion* (score 95,9 %, evidensniveau L4), *ikke-renal sekundær hyperparathyroidisme* (95,8 %, L5), *knogleremodelleringssygdom* (95,5 %, L4) og *forbigående neonatal hyperparathyroidisme* (95,0 %, L5). Evidensen for nedsat nyrefunktion består overvejende af XLH-litteratur og en enkelt case-rapport (PMID 38195892) om vellykket burosumab-behandling hos en voksen med XLH og CKD stadium 3b. Det er indirekte evidens.
 
 ---
 
-## Markedsinformation for Danmark
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105882116 | Crysvita (Kyowa Kirin Holdings B.V.) | Injektionsvæske, opløsning | Ikke angivet i de foreliggende data |
+| 28105882116 | Crysvita (Kyowa Kirin Holdings B.V.) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen registrerede advarsler, kontraindikationer eller interaktioner i datagrundlaget. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+- **Kontraindikationer (fra vidensgraf, ikke produkttekst):** Nyresvigt er registreret som kontraindikation. Dette er særligt relevant, da den forudsagte indikation netop vedrører nyrerelateret sygdom.
+- **Lægemiddelinteraktioner (9 registreret):**
+  - Betydelig (Major) interaktion: calciumphosphat, calcifediol, calcitriol, dihydrotachysterol, natriumcellulosephosphat, doxercalciferol og paricalcitol.
+  - Moderat interaktion: cinacalcet og etelcalcetid.
 
-Den mekanistiske vurdering peger på en teoretisk risiko ved nedsat nyrefunktion. FGF23-blokade kan forværre hyperfosfatæmi og karforkalkning, og sikkerheden ved nedsat GFR er uafklaret.
+  Mange af disse er aktive D-vitaminpræparater og fosfatprodukter, som ofte anvendes ved CKD-MBD, hvilket gør kombinationsbehandling i målpopulationen særlig problematisk.
+
+Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -96,16 +106,13 @@ Den mekanistiske vurdering peger på en teoretisk risiko ved nedsat nyrefunktion
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen bygger på modellen og indirekte evidens (L4). Der er ingen forsøg ved renal osteodystrofi, og mekanismen kan være ugunstig, fordi FGF23-blokade kan forværre fosfatretention og karforkalkning.
-- Andre forudsagte indikationer for burosumab er ikke nye anvendelser. Fx dækker "knogleremodelleringssygdom" (L1) kun allerede godkendt anvendelse ved XLH.
+Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg og uden direkte litteratur for burosumab ved renal osteodystrofi. Den biologiske begrundelse modsvares af en alvorlig sikkerhedsbekymring (risiko for hyperfosfatæmi og forkalkning samt kontraindikation ved svær nyreinsufficiens).
 
 **For at komme videre kræves:**
-- Sikkerhedsdata fra Lægemiddelstyrelsens produktresumé (advarsler og kontraindikationer)
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Prækliniske eller kliniske data for FGF23-blokade ved kronisk nyresygdom, især effekt på fosfat, PTH og karforkalkning
-- Hvis forskning ønskes: et lille kontrolleret pilotstudie med tæt overvågning af serumfosfat, PTH og kalcium
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelrepositionering skal valideres klinisk, før de kan anvendes.*
+- Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen, da sikkerhedsscreening ikke kan gennemføres uden dette
+- Detaljerede data om virkningsmekanisme (MOA)
+- Prækliniske og translationelle data om FGF23-blokade ved CKD-MBD, herunder effekt på fosfat og forkalkning
+- Et sikkerhedsorienteret fase 1/2-studie i en afgrænset population med mild til moderat nedsat nyrefunktion, før en egentlig effektvurdering overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

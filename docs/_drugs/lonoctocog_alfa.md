@@ -2,7 +2,7 @@
 layout: default
 title: Lonoctocog Alfa
 parent: Kun modelforudsigelse (L5)
-nav_order: 269
+nav_order: 505
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lonoctocog alfa: Fra hæmofili A til pseudo-von Willebrand sygdom
+# Lonoctocog alfa: Fra hæmofili til pseudo-von Willebrands sygdom
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Lonoctocog alfa (Afstyla) er et rekombinant enkeltkædet faktor VIII-præparat, som erstatter manglende FVIII-aktivitet og bruges ved blødersygdom (hæmofili A). Indikationen er ikke angivet i datagrundlaget og er udledt af produktklassen.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pseudo-von Willebrand sygdom**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
+Lonoctocog alfa er et rekombinant enkeltkædet koagulationsfaktor VIII-præparat (markedsført som Afstyla), som oprindeligt anvendes til behandling af hæmofili.
+TxGNN-modellen forudsiger, at det kan have effekt ved **pseudo-von Willebrands sygdom** (score 99,85 %).
+Forudsigelsen er **udelukkende modelbaseret**: der er hverken registrerede kliniske forsøg eller publikationer, som understøtter den.
 
 ---
 
@@ -42,8 +43,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pseudo-von Wille
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i datagrundlaget (produktet er et FVIII-præparat) |
-| Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
+| Oprindelig indikation | Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere) |
+| Forudsagt ny indikation | Pseudo-von Willebrands sygdom |
 | TxGNN-forudsigelsesscore | 99,85 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
@@ -52,32 +53,34 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pseudo-von Wille
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor kan forudsigelsen forekomme rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i datagrundlaget. Lonoctocog alfa er dog et rekombinant enkeltkædet FVIII, som erstatter manglende FVIII-aktivitet i den indre tenase-del af koagulationskaskaden.
+Lonoctocog alfa er en rekombinant enkeltkædet faktor VIII (rFVIII-SingleChain) med en afkortet B-domæne. Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Ud fra kendt information erstatter præparatet manglende faktor VIII, som indgår i tenase-komplekset i den sekundære hæmostase. Dets effekt ved hæmofili er veletableret.
 
-Pseudo-von Willebrand sygdom (trombocyttype af VWD) skyldes en "gain-of-function"-defekt i trombocyt-GPIb-alfa, som giver tab af højmolekylære VWF-multimerer. FVIII-substitution adresserer ikke denne trombocyt-VWF-defekt. Sammenhængen er svag og indirekte. Den høje score afspejler sandsynligvis netværksnærhed til koagulationsknuder i vidensgrafen og ikke en terapeutisk begrundelse.
+Pseudo-von Willebrands sygdom (trombocyttypen af VWD) skyldes en gain-of-function-defekt i trombocyttens GPIbα. Den øger bindingen til von Willebrand-faktor (VWF), hvilket medfører tab af højmolekylære VWF-multimerer og trombocytopeni. Blødningsdefekten er primært drevet af trombocytter og VWF. Da VWF normalt stabiliserer FVIII, kan FVIII-erstatning muligvis give en begrænset sekundær fordel, hvis FVIII-niveauet er nedsat. Koblingen er derfor indirekte og beror på en antagelse.
 
-De øvrige forudsigelser (dubletter fjernet) er vurderet på samme måde:
+Den høje TxGNN-score er en netværksbaseret computerforudsigelse og kan ikke i sig selv tages som tegn på klinisk effekt.
 
-| Forudsagt indikation | Score | Vurdering af mekanistisk link |
+**Øvrige forudsagte indikationer** (alle med evidensniveau L5 og anbefaling Hold):
+
+| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
 |------|------|------|
-| Primær frigørelsesforstyrrelse i trombocytter | 99,84 % | Intrinsisk defekt i trombocytters granulasekretion. FVIII korrigerer ikke dette. Ingen plausibel direkte mekanisme. |
-| Glanzmanns trombasteni | 99,76 % | GPIIb/IIIa-defekt med nedsat trombocytaggregation. FVIII er ikke mangelfuld, så der er intet klart mål. |
-| Scotts syndrom | 99,44 % | Defekt i fosfatidylserin-eksponering. Teoretisk, indirekte forbindelse via tenase-samling, men FVIII-niveauet er normalt, og tilsat FVIII forventes ikke at korrigere defekten. |
-| Erhvervet koagulationsfaktormangel | 98,85 % | Biologisk mest plausibel, men kategorien er bred. Kun FVIII-specifik mangel er relevant. Ved erhvervet hæmofili A vil autoantistoffer neutralisere rekombinant FVIII. En afgrænset underindikation (f.eks. FVIII-mangel uden inhibitorer) skal defineres og understøttes, før der kan arbejdes videre. |
+| Primær frigørelsesdefekt i trombocytter | 99,84 % | Defekten ligger i trombocytternes granulefrigørelse (primær hæmostase). FVIII korrigerer ikke trombocytfunktionen direkte; sammenhængen er indirekte og spekulativ. |
+| Glanzmanns trombasteni | 99,76 % | Skyldes mangel på eller dysfunktion af integrin αIIbβ3. FVIII adresserer ikke denne defekt. Standardbehandling er trombocyttransfusion, rekombinant faktor VIIa og antifibrinolytika. |
+| Scotts syndrom | 99,44 % | Nedsat fosfatidylserin-eksponering på aktiverede trombocytter (TMEM16F/ANO6). FVIII indgår i tenase-komplekset, men den primære defekt er i membranens procoagulante overflade, så tilførsel af FVIII forventes ikke at korrigere den. |
+| Erhvervet koagulationsfaktormangel | 98,85 % | Den mest mekanistisk sammenhængende, da kategorien omfatter erhvervet FVIII-mangel (erhvervet hæmofili A). Her neutraliserer autoantistoffer imidlertid FVIII, og bypass-midler er standard. Andre erhvervede mangler involverer andre faktorer. Kategorien bør indsnævres til specifikke undertyper. |
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger aktuelt ingen relateret litteratur.
 
 ---
 
@@ -85,13 +88,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105712615 | Afstyla (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i datagrundlaget |
+| 28105712615 | Afstyla (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet interaktioner for lægemidlet i den anvendte kilde.
+Der er ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. Der er ikke indhentet oplysninger om advarsler og kontraindikationer fra produktresuméet.
+
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -100,15 +105,14 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg eller litteratur. Det mekanistiske link til trombocytdefekterne er svagt eller fraværende, da FVIII-substitution ikke adresserer defekterne.
+Forudsigelsen understøttes kun af en computermodel (evidensniveau L5), uden kliniske forsøg eller publikationer. De mekanistiske sammenhænge er for de fleste forudsagte indikationer svage eller spekulative, da blødningsdefekterne primært skyldes trombocytter eller VWF og ikke FVIII-mangel.
 
 **For at komme videre kræves følgende:**
-- Indhentning af produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datahul)
-- Data om virkningsmekanisme (MOA) og den godkendte indikationstekst, f.eks. fra DrugBank
-- Definition af en afgrænset underindikation, især for erhvervet koagulationsfaktormangel (FVIII-specifik mangel uden inhibitorer)
-- Litteratur- og forsøgssøgning målrettet de forudsagte sygdomme, før en ny vurdering
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+- Hent og gennemgå produktresuméet for Afstyla fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation), da sikkerhedsscreening ikke kan gennemføres uden disse data
+- Detaljerede data om virkningsmekanisme (f.eks. fra DrugBank)
+- Systematisk litteratursøgning og søgning i forsøgsregistre for pseudo-von Willebrands sygdom
+- Indsnævring af "erhvervet koagulationsfaktormangel" til specifikke undertyper (f.eks. erhvervet hæmofili A) før yderligere vurdering
+- Prækliniske eller mekanistiske data, der viser, om FVIII-erstatning kan give gavn ved trombocyt- eller VWF-drevne blødningsforstyrrelser
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

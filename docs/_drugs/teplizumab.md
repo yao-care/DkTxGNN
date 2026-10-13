@@ -2,7 +2,7 @@
 layout: default
 title: Teplizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 427
+nav_order: 807
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teplizumab: Fra forsinkelse af type 1-diabetes til diabetisk katarakt
+# Teplizumab: Fra forsinkelse af type 1-diabetes til diabetisk grå stær
 
-## Resumé i én sætning
+## Kort resumé
 
-Teplizumab er et anti-CD3-monoklonalt antistof, der bruges til at forsinke udviklingen af stadie 3 type 1-diabetes (indikationen er hentet fra evidensens mekanismetekst, da den ikke er angivet i de danske markedsføringstilladelsesdata). TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk katarakt**. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse, så den er en ren modelprædiktion.
+Teplizumab er et anti-CD3-monoklonalt antistof, som er markedsført i Danmark under navnet Teizeild og anvendes til at forsinke debut af stadie 3 type 1-diabetes. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk grå stær** (diabetic cataract). Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikationer**, og den er alene baseret på modellen.
 
 ---
 
@@ -41,61 +41,52 @@ Teplizumab er et anti-CD3-monoklonalt antistof, der bruges til at forsinke udvik
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation | Diabetisk katarakt |
+| Oprindelig indikation | Forsinkelse af debut af stadie 3 type 1-diabetes (ifølge de data, der er indsamlet til rapporten; godkendelsesteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
 | TxGNN-forudsigelsesscore | 98,38 % |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Teplizumab er et anti-CD3-antistof, der modulerer T-celler. Det bruges til at forsinke stadie 3 type 1-diabetes ved at beskytte betacellefunktionen. Der foreligger ingen detaljerede mekanismedata fra kildedatabasen, så mekanismevurderingen bygger på lægemidlets kendte klasse.
+Teplizumab er et humaniseret anti-CD3-antistof, der påvirker T-cellernes aktivitet og dermed forsinker den autoimmune ødelæggelse af betaceller ved type 1-diabetes. Der foreligger i øjeblikket ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport, men farmakologidata viser, at målet er CD3e.
 
-Diabetisk katarakt skyldes primært langvarig hyperglykæmi via polyol-vejen og oxidativ stress, ikke autoimmun T-celleaktivitet. En eventuel gavn ville derfor være indirekte, for eksempel gennem bedre langsigtet glykæmisk kontrol, hvis betacellefunktionen bevares. Det er en hypotese uden dataunderstøttelse.
+Sammenhængen med diabetisk grå stær er kun indirekte. Hvis teplizumab bevarer betacellefunktionen og dermed bedrer blodsukkerkontrollen, kan det i teorien mindske hyperglykæmi-drevet linseskade (polyol-vejen og oxidativ stress). Grå stær er imidlertid ikke en immunmedieret sygdom, og der er ingen data, som peger på en direkte effekt på linsen. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til diabetesrelaterede begreber snarere end en biologisk begrundelse.
 
-Scoren afspejler sandsynligvis tæt placering i vidensgrafen (diabetes- og kataraktknuder) snarere end en reel farmakologisk sammenhæng. Det gælder også de øvrige forudsagte kataraktformer:
-
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Diabetisk katarakt | 98,38 % | Kun indirekte og hypotetisk (via glykæmisk kontrol) |
-| Umoden katarakt | 98,30 % | Morfologisk stadie, ikke en ætiologi. Ingen plausibel sammenhæng |
-| Modnet katarakt | 98,30 % | Avanceret stadie, hvor kirurgi er standardbehandling. Ingen plausibel mekanisme |
-| Katarakt ved type 2-diabetes | 98,30 % | Type 2-diabetes er ikke primært T-celle-medieret. Sandsynligvis et grafartefakt |
-| Tetanisk katarakt | 98,30 % | Hænger sammen med hypokalcæmi. Urelateret til anti-CD3 |
-| Kraniostenose-katarakt | 98,30 % | Sjælden syndromal tilstand, sandsynligvis genetisk. Sandsynligvis et grafartefakt |
-
-*Bemærk: Den oprindelige liste indeholdt dubletter (diabetisk katarakt, umoden katarakt, katarakt ved type 2-diabetes og tetanisk katarakt optrådte to gange). Tabellen viser hver indikation én gang.*
+Modellen har også forudsagt en række beslægtede øjenlidelser med næsten samme score (bl.a. umoden grå stær, moden grå stær, tetanisk grå stær, grå stær ved type 2-diabetes og grå stær ved kraniosynostose). Ingen af disse har en plausibel mekanistisk sammenhæng med anti-CD3-behandling, og de er sandsynligvis artefakter fra grafen. Flere af forudsigelserne optrådte desuden to gange i dataene.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Dokumentation fra kliniske forsøg
 
-Der er i øjeblikket ingen relevante kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relevant litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Producent |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107304824 | Teizeild | Koncentrat til infusionsvæske, opløsning | Sanofi Winthrop Industrie |
-
-Godkendt indikationstekst er ikke angivet i de tilgængelige data. Lægemidlet gives som intravenøs infusion.
+| 28107304824 | Teizeild (Sanofi Winthrop Industrie) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til den godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data.
+- **Lægemiddelinteraktioner:** Der er kun registreret en farmakologisk målinteraktion, nemlig binding til CD3e (antistoffets mål). Der er ikke angivet noget interaktionsniveau, og der er ikke identificeret interaktioner med andre lægemidler.
+- **Bemærkning fra farmakologidata:** Teplizumab blev undersøgt ved moderat til svær psoriasis, men udviklingen til denne indikation blev afsluttet på grund af reaktioner på injektionsstedet.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -104,16 +95,13 @@ Der henvises til den godkendte produktresumé (SmPC) for sikkerhedsoplysninger. 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel direkte mekanistisk sammenhæng mellem T-celle-modulering og kataraktdannelse. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer det videre sikkerhedsscreeningstrin.
+Forudsigelsen er alene modelbaseret (evidensniveau L5) uden støtte fra kliniske forsøg eller litteratur, og der er ingen plausibel direkte mekanisme mellem CD3-rettet immunmodulation og linseopacitet. Produktresuméets sikkerhedsoplysninger mangler desuden i de indsamlede data.
 
-**For at komme videre kræves følgende:**
-- Advarsler og kontraindikationer fra Lægemiddelstyrelsens produktresumé (blokerende)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Godkendt indikationstekst for Teizeild
-- Prækliniske eller mekanistiske studier, der kan understøtte en kobling til katarakt
-- Vurdering af, om en intravenøs administrationsvej er forenelig med en eventuel okulær anvendelse
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsigelserne kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
+- Detaljerede data om virkningsmekanismen (MOA), fx fra DrugBank
+- Præklinisk eller epidemiologisk evidens for, at immunmodulation eller bevaret betacellefunktion påvirker udviklingen af diabetisk grå stær
+- Oprydning i duplikerede forudsigelser og vurdering af, om de øvrige grå stær-forudsigelser overhovedet er biologisk meningsfulde
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

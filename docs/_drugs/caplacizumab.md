@@ -2,7 +2,7 @@
 layout: default
 title: Caplacizumab
 parent: Kun modelforudsigelse (L5)
-nav_order: 89
+nav_order: 155
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,15 +29,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Caplacizumab: Fra markedsført anvendelse til forudsagt ny indikation, primær frigivelsesforstyrrelse i blodplader
+# Caplacizumab: Fra trombocytopenisk purpura til primær frigørelsesforstyrrelse af blodplader
 
 ## Resumé i få sætninger
 
-Caplacizumab er en anti-vWF-nanobody (Cablivi), der er markedsført i Danmark. Det oprindelige godkendte indikationsområde fremgår ikke af datagrundlaget.
-
-TxGNN-modellen rangerer **primær frigivelsesforstyrrelse i blodplader** højest (99,9998 %), men der er **0 kliniske forsøg** og **0 publikationer** for denne forudsigelse. Mekanismen taler desuden imod effekt, fordi caplacizumab kan forværre en blødningsforstyrrelse.
-
-Den eneste forudsagte indikation med solid evidens er **trombotisk trombocytopenisk purpura (TTP)** med **13 kliniske forsøg** og **20 publikationer**. Det er dog en godkendt og retningslinjeanbefalet anvendelse, ikke egentlig lægemiddelomplacering.
+Caplacizumab er en anti-von Willebrand-faktor (vWF) nanobody, som oprindeligt anvendes til behandling af trombocytopenisk purpura (i praksis erhvervet trombotisk trombocytopenisk purpura, TTP).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (primary release disorder of platelets).
+Forudsigelsen er **udelukkende modelbaseret**: der er **0 kliniske studier** og **0 publikationer** for netop denne indikation, og den mekanistiske sammenhæng vurderes som svag.
 
 ---
 
@@ -45,116 +43,72 @@ Den eneste forudsagte indikation med solid evidens er **trombotisk trombocytopen
 
 | Punkt | Indhold |
 |------|------|
-| Forudsagt ny indikation (rang 1) | Primær frigivelsesforstyrrelse i blodplader |
-| TxGNN-forudsigelsesscore | 99,9998 % |
-| Evidensniveau (rang 1) | L5 |
+| Oprindelig indikation | Trombocytopenisk purpura (erhvervet TTP) |
+| Forudsagt ny indikation | Primær frigørelsesforstyrrelse af blodplader |
+| TxGNN-prædiktionsscore | 99,9998 % |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning (rang 1) | Hold |
-| Evidensniveau for TTP (rang 9) | L1 (iflg. evidence pack) |
-| Anbefalet beslutning for TTP | Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails) |
-
-De øvrige forudsagte indikationer er pseudo-von Willebrand-sygdom, Glanzmanns trombasteni og Scotts syndrom. Alle har evidensniveau L5 og anbefalingen Hold.
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Caplacizumab er et humaniseret nanobody-fragment, der binder vWF's A1-domæne og blokerer vWF's binding til blodpladernes GPIb-receptor. Detaljerede mekanismedata (MOA) er ikke tilgængelige i datagrundlaget. Beskrivelsen her bygger på den mekanistiske vurdering i evidence pack.
+Detaljerede data om virkningsmekanismen fra lægemiddeldatabasen var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den kendte farmakologi binder caplacizumab A1-domænet i vWF og blokerer dermed vWF's binding til blodpladernes GPIb-IX-V-receptor. Ved erhvervet TTP mangler enzymet ADAMTS13, så ultralange vWF-multimerer ophobes og driver mikrotrombedannelse. Caplacizumab rammer netop denne mekanisme.
 
-**De højest rangerede forudsigelser er mekanistisk problematiske.** Primær frigivelsesforstyrrelse i blodplader, Glanzmanns trombasteni og Scotts syndrom er blødningsforstyrrelser med nedsat blodpladefunktion eller nedsat prokoagulant aktivitet. Caplacizumab hæmmer vWF-medieret blodpladeadhæsion og ville derfor lægge sig oven i den hæmostatiske defekt i stedet for at rette den.
+Primære frigørelsesforstyrrelser af blodplader er derimod iboende defekter i pladernes lagrings- eller sekretionsfunktion. De drives ikke af vWF-medieret adhæsion. Sygdommen er en blødningsforstyrrelse, og en hæmning af vWF-pladebinding forventes snarere at forværre end at forbedre tilstanden. Den meget høje TxGNN-score afspejler sandsynligvis nærhed i vidensgrafen mellem blodpladesygdomme og ikke et reelt terapeutisk rationale.
 
-Ved pseudo-von Willebrand-sygdom (blodplade-type VWD) skyldes sygdommen gain-of-function-varianter i GPIb, der øger vWF-binding. Blokade af vWF's A1-domæne er derfor teoretisk plausibel. Men sygdommen præsenterer sig som en blødningstilstand med tab af højmolekylære vWF-multimerer, og caplacizumab medfører selv blødningsrisiko. Den høje score skyldes sandsynligvis netværksnærhed i vidensgrafen mellem blodplade- og vWF-veje (graf-artefakt) og ikke en reel terapeutisk sammenhæng.
+Blandt de øvrige forudsigelser er pseudo-von Willebrand-sygdom den eneste med en teoretisk plausibel kobling. Den skyldes gain-of-function-mutationer i GPIbα, som øger pladernes affinitet for vWF. Også her er der dog betydelig blødningsrisiko, og der findes ingen kliniske data. Glanzmanns trombasteni og Scott-syndrom har ingen tydelig mekanistisk forbindelse til caplacizumab, og yderligere svækkelse af pladefunktionen vil forventes at øge blødningsrisikoen.
 
-**TTP er derimod mekanistisk direkte.** Ved erhvervet TTP efterlader ADAMTS13-mangel ultrastore vWF-multimerer, som driver mikrovaskulær blodpladeaggregation. Caplacizumab blokerer netop denne interaktion.
-
----
-
-## Kliniske forsøg for den højest rangerede forudsigelse
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for primær frigivelsesforstyrrelse i blodplader.
-
-## Litteratur for den højest rangerede forudsigelse
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Det bemærkes, at TTP-forudsigelsen i datasættet (evidensniveau L1) er lægemidlets godkendte oprindelige indikation og altså ikke egentlig repurposing.
 
 ---
 
-## Supplerende evidens: Trombotisk trombocytopenisk purpura (TTP, rang 9)
+## Evidens fra kliniske studier
 
-### Kliniske forsøg
+Der er på nuværende tidspunkt ingen registrerede kliniske studier for primær frigørelsesforstyrrelse af blodplader.
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT02553317](https://clinicaltrials.gov/study/NCT02553317) | Fase 3 | Afsluttet | 145 | HERCULES: dobbeltblindet, randomiseret, placebokontrolleret forsøg af caplacizumab ved erhvervet TTP |
-| [NCT01151423](https://clinicaltrials.gov/study/NCT01151423) | Fase 2 | Afsluttet | 75 | Enkeltblindet, randomiseret, placebokontrolleret forsøg af anti-vWF-nanobody som tillæg til plasmaudskiftning |
-| [NCT02878603](https://clinicaltrials.gov/study/NCT02878603) | Fase 3 | Afsluttet | 104 | Post-HERCULES: langtidsopfølgning af sikkerhed og effekt, inkl. gentagen brug |
-| [NCT05468320](https://clinicaltrials.gov/study/NCT05468320) | Fase 3 | Afsluttet | 51 | Åbent enkeltarmet forsøg: caplacizumab og immunsuppression uden førstelinje-plasmaudskiftning ved iTTP |
-| [NCT04074187](https://clinicaltrials.gov/study/NCT04074187) | Fase 2/3 | Afsluttet | 21 | Åbent forsøg hos japanske patienter; primært mål er forebyggelse af TTP-recidiv |
-| [NCT04720261](https://clinicaltrials.gov/study/NCT04720261) | Fase 2 | Afbrudt | 58 | Personaliseret caplacizumab-regime styret af ADAMTS13-aktivitet; begrænset evidens pga. afbrydelse |
-| [NCT06291025](https://clinicaltrials.gov/study/NCT06291025) | Ikke angivet | Rekrutterer | 131 | Immunsuppression, caplacizumab og plasmainfusion uden plasmaudskiftning; ingen resultater endnu |
-| [NCT05876221](https://clinicaltrials.gov/study/NCT05876221) | Ikke relevant | Afsluttet | 223 | Observationel undersøgelse af blodpladerespons på caplacizumab i klinisk praksis |
-| [NCT04985318](https://clinicaltrials.gov/study/NCT04985318) | Ikke relevant | Rekrutterer | 350 | REACT-2020: tysk observationel undersøgelse af effekt i klinisk praksis |
-| [NCT05262881](https://clinicaltrials.gov/study/NCT05262881) | Ikke relevant | Ukendt | 50 | ROSCAPLI: italiensk retrospektiv undersøgelse af caplacizumab med plasmaudskiftning og immunsuppression |
-
-Yderligere registrerede forsøg omfatter blandt andet et pædiatrisk retrospektivt studie (NCT05263193, n=4) og flere registre (NCT07205861, NCT06376786).
-
-### Litteratur
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [26863353](https://pubmed.ncbi.nlm.nih.gov/26863353/) | 2016 | RCT | N Engl J Med | Caplacizumab ved erhvervet TTP; adresserer den fortsatte sygelighed trods plasmaudskiftning og immunsuppression |
-| [30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/) | 2019 | RCT | N Engl J Med | Behandling af erhvervet TTP med caplacizumab, en anti-vWF-nanobody |
-| [32914526](https://pubmed.ncbi.nlm.nih.gov/32914526/) | 2020 | Retningslinje | J Thromb Haemost | ISTH-retningslinjer for behandling af TTP |
-| [40533296](https://pubmed.ncbi.nlm.nih.gov/40533296/) | 2025 | Retningslinje (opdatering) | J Thromb Haemost | Fokuseret opdatering 2025 af ISTH-retningslinjerne, omfatter iTTP og kongenit TTP |
-| [37045600](https://pubmed.ncbi.nlm.nih.gov/37045600/) | 2023 | Systematisk review og metaanalyse | Expert Rev Hematol | Effekt og sikkerhed af caplacizumab ved TTP; effekten i forskellige populationer er omdiskuteret |
-| [40235949](https://pubmed.ncbi.nlm.nih.gov/40235949/) | 2025 | Retrospektiv kohorte | EClinicalMedicine | Capla 1000+: international multicenterkohorte om brug og optimal opstartstidspunkt |
-| [38838300](https://pubmed.ncbi.nlm.nih.gov/38838300/) | 2024 | Retrospektiv kohorte | Blood | Behandling af iTTP uden plasmaudskiftning (42 tilfælde, Østrig og Tyskland) |
-| [40388146](https://pubmed.ncbi.nlm.nih.gov/40388146/) | 2025 | Review | JAMA | Oversigt over immun-TTP |
-| [33540569](https://pubmed.ncbi.nlm.nih.gov/33540569/) | 2021 | Review | J Clin Med | Patofysiologi, diagnostik og behandling af TTP |
-| [37689812](https://pubmed.ncbi.nlm.nih.gov/37689812/) | 2023 | Retningslinje | Int J Hematol | Japanske retningslinjer for diagnostik og behandling af TTP 2023 |
+Til orientering: De studier, der findes for caplacizumab, vedrører den oprindelige indikation (erhvervet TTP), bl.a. fase 3-studiet HERCULES (NCT02553317, n=145) og fase 2-studiet TITAN (NCT01151423, n=75). De kan ikke overføres til den forudsagte indikation.
 
 ---
 
-## Information om det danske marked
+## Litteraturevidens
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
+Der er på nuværende tidspunkt ingen relevant litteratur for primær frigørelsesforstyrrelse af blodplader.
+
+---
+
+## Markedsinformation for Danmark
+
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105912417 | Cablivi | Pulver og solvens til injektionsvæske, opløsning | Ablynx NV |
-
-Godkendt indikationstekst er ikke tilgængelig i datagrundlaget.
+| 28105912417 | Cablivi (Ablynx NV) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Blødningsrisiko:** Caplacizumab hæmmer vWF-medieret blodpladeadhæsion og medfører blødningsrisiko. Dette er et centralt sikkerhedsaspekt, især ved blødningsforstyrrelser i blodpladerne.
-- **Lægemiddelinteraktioner:** Der blev ikke fundet interaktionsdata i datagrundlaget.
+**Lægemiddelinteraktioner:** Interaktionsforespørgslen er gennemført og viser i alt 100 registrerede interaktioner. Blandt de gennemgåede er følgende af betydning, især fordi caplacizumab hæmmer pladeadhæsion og dermed øger blødningsrisikoen.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om sikkerhed, kontraindikationer og advarsler.
+- **Alvorlige (Major):** acetylsalicylsyre, abciximab, alteplase, fondaparinux, anagrelid, acalabrutinib, deferasirox, trastuzumab emtansin, ibritumomab tiuxetan og tositumomab (inkl. I-131).
+- **Moderate:** ibuprofen, ketorolac (inkl. oftalmisk), celecoxib, topisk diclofenac, fluvoxamin, fenfluramin, dexfenfluramin og sibutramin.
+
+Ved en blødningsforstyrrelse som den forudsagte indikation vil disse kombinationer have ekstra vægt. Oplysninger om advarsler og kontraindikationer findes i det godkendte produktresumé (SmPC).
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning for de højest rangerede forudsigelser (primær frigivelsesforstyrrelse i blodplader, pseudo-von Willebrand-sygdom, Glanzmanns trombasteni, Scotts syndrom): Hold**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelserne har kun modelgrundlag (L5) uden kliniske forsøg eller litteratur.
-- Mekanismen taler imod terapeutisk nytte og rejser en sikkerhedsbekymring, fordi caplacizumab kan forværre blødningsfænotypen.
+Forudsigelsen bygger kun på en grafbaseret modelscore uden kliniske studier eller litteratur. Caplacizumabs virkningsmekanisme (hæmning af vWF-pladebinding) peger desuden mod øget blødningsrisiko ved en blødningsforstyrrelse i blodpladerne, ikke mod gavn.
 
-**Beslutning for TTP: Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails)**
-
-**Begrundelse:**
-- Evidensen er stærk, herunder et fase 3 RCT (HERCULES), langtidsopfølgning og internationale retningslinjer. Anvendelsen er dog allerede godkendt og retningslinjeanbefalet og udgør derfor ikke egentlig omplacering.
-- Sikkerhedsforanstaltninger: overvågning af blødningsrisiko samt anvendelse sammen med plasmaudskiftning og immunsuppression under ADAMTS13-monitorering.
-
-**For at komme videre kræves følgende:**
-- Indhentning af produktresumé og indlægsseddel fra Lægemiddelstyrelsen (advarsler, kontraindikationer), da sikkerhedsdata mangler.
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank.
-- Afklaring af det oprindelige godkendte indikationsområde, som mangler i datagrundlaget.
-
-*Resultaterne er udelukkende til forskningsbrug og udgør ikke medicinsk rådgivning. Forudsagte indikationer kræver klinisk validering, før de kan anvendes.*
+**For at komme videre kræves:**
+- Hentning af data om virkningsmekanisme og af produktresuméets advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
+- En fornyet mekanistisk vurdering, evt. med præklinisk dokumentation, før et eventuelt klinisk spor overvejes
+- Hvis der alligevel ønskes en videre udredning, bør pseudo-von Willebrand-sygdom prioriteres, med en grundig risikovurdering af blødning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Nusinersen
 parent: Kun modelforudsigelse (L5)
-nav_order: 314
+nav_order: 596
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nusinersen: Fra spinal muskelatrofi til blandet mineralstøvspneumokoniose
+# Nusinersen: Fra spinal muskelatrofi til blandet mineralstøv-pneumokoniose
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Nusinersen er en antisense-oligonukleotid, der er godkendt til spinal muskelatrofi (SMA). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **blandet mineralstøvspneumokoniose** (arbejdsrelateret lungefibrose). Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen, så den er kun en computerberegning uden dokumenteret biologisk begrundelse.
-
----
+Nusinersen er et antisense-oligonukleotid, der oprindeligt anvendes til behandling af spinal muskelatrofi.
+TxGNN-modellen forudsiger, at lægemidlet muligvis kan have effekt ved **blandet mineralstøv-pneumokoniose**, men forudsigelsen er kun modelbaseret med en uinformativ score på 50 %.
+Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter retningen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Spinal muskelatrofi (SMA). Indikationsteksten er tom i den danske registrering, så oplysningen stammer fra evidensgrundlaget. |
-| Forudsagt ny indikation | Blandet mineralstøvspneumokoniose |
-| TxGNN-forudsigelsesscore | 50 % (samme score for alle kandidater, så den adskiller ikke mellem dem) |
+| Oprindelig indikation | Spinal muskelatrofi |
+| Forudsagt ny indikation | Blandet mineralstøv-pneumokoniose |
+| TxGNN-forudsigelsesscore | 50 % |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført |
 | Antal markedsføringstilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+De data, der er indsamlet til denne rapport, indeholder ikke oplysninger om den detaljerede virkningsmekanisme. Nusinersen er dog kendt som et antisense-oligonukleotid, der påvirker splejsningen af SMN2 og dermed øger mængden af SMN-protein. Denne mekanisme er relevant ved spinal muskelatrofi, hvor SMN1-genet er defekt.
 
-Nusinersen er en antisense-oligonukleotid, der modulerer splejsningen af exon 7 i SMN2-præ-mRNA. Det er den mekanisme, der ligger bag den godkendte anvendelse ved SMA. Detaljerede mekanismedata fra DrugBank er ikke tilgængelige i datagrundlaget.
+Pneumokoniose er en miljøudløst fibrotisk lungesygdom forårsaget af indånding af mineralstøv. Der er ikke identificeret nogen kendt SMN-relateret sygdomsvej, og der er derfor ingen oplagt mekanistisk forbindelse til den oprindelige indikation. Desuden gives nusinersen intratekalt, hvilket er dårligt egnet til en lungesygdom. En score på 0,5 giver ingen reel information om sandsynlighed.
 
-Der er ingen kendt sammenhæng mellem denne mekanisme og pneumokoniose, som er en arbejdsrelateret lungefibrose forårsaget af indånding af mineralstøv. Datagrundlaget angiver ingen mekanisme, der forbinder nusinersen med sygdommen. Der er heller ikke dokumenteret biologisk lighed mellem SMA og den forudsagte sygdom.
+Forudsigelsen skal derfor betragtes som en ren modelhypotese uden biologisk eller klinisk understøttelse.
 
-Forudsigelsen bør derfor ses som en ren modeloutput. De øvrige ni forudsagte kandidater (bl.a. mastcelleaktiveringssyndrom, alfa-gal-syndrom og tendinopati) har samme evidensniveau (L5) og samme score. Heller ikke for dem er der en dokumenteret mekanistisk begrundelse.
+## Øvrige forudsigelser fra modellen
 
----
+Modellen har også peget på nedenstående sygdomme. Alle har score 0,5, evidensniveau L5, ingen kliniske forsøg og ingen litteratur, og de er vurderet som "Hold".
 
-## Evidens fra kliniske forsøg
+| Rang | Forudsagt sygdom | Vurdering af mekanistisk sammenhæng |
+|------|------|------|
+| 2 | Retinitis pigmentosa-lignende dystrofi med sensorineural døvhed og Fanconi-type nyredysfunktion | Ingen direkte sammenhæng; intratekal tilførsel når ikke nethinde, indre øre eller nyrer i meningsfuld grad |
+| 3 | MED12-relateret intellektuelt handicap-syndrom | Svag og spekulativ; ville kræve et skræddersyet, variantspecifikt antisense-oligonukleotid |
+| 4 | Alfa-gal-syndrom | Ingen sammenhæng; IgE-medieret allergi |
+| 5 | Fødevareproteinudløst allergisk proktokolitis | Ingen sammenhæng; selvbegrænsende tilstand, der håndteres med diæt |
+| 6 | Mastcelleaktiveringssyndrom | Ingen etableret sammenhæng |
+| 7 | Primært mastcelleaktiveringssyndrom | Ingen etableret sammenhæng; knyttet til klonal mastcellesygdom |
+| 8 | Sekundært mastcelleaktiveringssyndrom | Ingen etableret sammenhæng |
+| 9 | Fødevareproteinudløst enterokolitis-syndrom (FPIES) | Ingen sammenhæng; ikke-IgE-medieret overfølsomhed |
+| 10 | Tendinopati | Ingen plausibel rolle; intratekal tilførsel ville være uforholdsmæssig |
+
+## Klinisk forsøgsevidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
+## Litteraturevidens
 
-## Evidens fra litteraturen
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-Der er i øjeblikket ingen relateret litteratur.
+## Information om det danske marked
 
----
-
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105860816 | Spinraza (Biogen Netherlands B.V.) | Injektionsvæske, opløsning | Ikke angivet i den tilgængelige registrering |
-
----
+| 28105860816 | Spinraza (Biogen Netherlands B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ## Sikkerhedsovervejelser
 
-Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i datagrundlaget.
-
----
+Der henvises til den godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore uden diskriminerende værdi, uden kliniske forsøg, uden litteratur og uden en kendt mekanistisk forbindelse mellem SMN2-splejsningsmodulering og pneumokoniose. Evidensniveauet er L5.
+Forudsigelsen bygger udelukkende på en uinformativ modelscore (0,5) uden kliniske forsøg, litteratur eller en identificeret mekanistisk forbindelse. Den intratekale administrationsvej er desuden dårligt egnet til lungesygdom.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da sikkerhedsdata mangler.
-- Indhent mekanismedata fra DrugBank.
-- Opstil en dokumenteret biologisk hypotese for, hvordan nusinersen kunne påvirke lungefibrose ved mineralstøv, og understøt den med præklinisk evidens.
-- Afklar administrationsvejens forenelighed med den forudsagte indikation. Denne vurdering er endnu ikke foretaget.
-- Foretag en systematisk litteratur- og forsøgssøgning, før kandidaten vurderes igen.
-
-*Resultaterne er kun til forskningsbrug og udgør ikke medicinsk rådgivning. Kandidater til lægemiddelgenbrug kræver klinisk validering, før de kan anvendes.*
+- Detaljerede data om virkningsmekanismen (MOA)
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som er et afgørende datahul
+- En biologisk begrundelse for en sammenhæng mellem SMN2-splejsningsmodulation og den forudsagte sygdom
+- Prækliniske data og vurdering af administrationsvejens egnethed, før kliniske studier overhovedet overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
