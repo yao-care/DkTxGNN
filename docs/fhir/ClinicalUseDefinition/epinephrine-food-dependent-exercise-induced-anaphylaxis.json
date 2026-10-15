@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "food-dependent-exercise-induced-anaphylaxis",
+          "display": "food-dependent exercise-induced anaphylaxis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "food-dependent exercise-induced anaphylaxis",
       "concept": {
         "text": "food-dependent exercise-induced anaphylaxis"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "malan-overgrowth-syndrome",
+          "display": "Malan overgrowth syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Malan overgrowth syndrome",
       "concept": {
         "text": "Malan overgrowth syndrome"
       }

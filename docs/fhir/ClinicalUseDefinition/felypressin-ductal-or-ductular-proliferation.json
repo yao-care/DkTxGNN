@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ductal-or-ductular-proliferation",
+          "display": "ductal or ductular proliferation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ductal or ductular proliferation",
       "concept": {
         "text": "ductal or ductular proliferation"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "drug-induced-localized-lipodystrophy",
+          "display": "drug-induced localized lipodystrophy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "drug-induced localized lipodystrophy",
       "concept": {
         "text": "drug-induced localized lipodystrophy"
       }

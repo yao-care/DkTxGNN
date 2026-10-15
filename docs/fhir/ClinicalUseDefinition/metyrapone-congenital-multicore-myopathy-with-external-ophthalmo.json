@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-multicore-myopathy-with-external-ophthalmoplegia",
+          "display": "congenital multicore myopathy with external ophthalmoplegia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital multicore myopathy with external ophthalmoplegia",
       "concept": {
         "text": "congenital multicore myopathy with external ophthalmoplegia"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "gastric-adenocarcinoma-and-proximal-polyposis-of-the-stomach",
+          "display": "gastric adenocarcinoma and proximal polyposis of the stomach"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "gastric adenocarcinoma and proximal polyposis of the stomach",
       "concept": {
         "text": "gastric adenocarcinoma and proximal polyposis of the stomach"
       }

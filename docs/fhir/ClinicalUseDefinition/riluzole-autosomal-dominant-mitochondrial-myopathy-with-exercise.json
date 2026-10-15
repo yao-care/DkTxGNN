@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "autosomal-dominant-mitochondrial-myopathy-with-exercise-intolerance",
+          "display": "autosomal dominant mitochondrial myopathy with exercise intolerance"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "autosomal dominant mitochondrial myopathy with exercise intolerance",
       "concept": {
         "text": "autosomal dominant mitochondrial myopathy with exercise intolerance"
       }

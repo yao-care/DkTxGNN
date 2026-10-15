@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "prinzmetal-angina",
+          "display": "Prinzmetal angina"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Prinzmetal angina",
       "concept": {
         "text": "Prinzmetal angina"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "aggressive-systemic-mastocytosis",
+          "display": "aggressive systemic mastocytosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "aggressive systemic mastocytosis",
       "concept": {
         "text": "aggressive systemic mastocytosis"
       }

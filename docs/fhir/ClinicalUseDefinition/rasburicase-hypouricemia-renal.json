@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypouricemia-renal",
+          "display": "hypouricemia, renal"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypouricemia, renal",
       "concept": {
         "text": "hypouricemia, renal"
       }

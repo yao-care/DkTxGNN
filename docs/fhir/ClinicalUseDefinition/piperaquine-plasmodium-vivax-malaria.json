@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "plasmodium-vivax-malaria",
+          "display": "Plasmodium vivax malaria"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Plasmodium vivax malaria",
       "concept": {
         "text": "Plasmodium vivax malaria"
       }

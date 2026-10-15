@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ciliary-body-cancer",
+          "display": "ciliary body cancer"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ciliary body cancer",
       "concept": {
         "text": "ciliary body cancer"
       }

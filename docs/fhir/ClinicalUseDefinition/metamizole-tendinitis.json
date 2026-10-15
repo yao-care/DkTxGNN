@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "tendinitis",
+          "display": "tendinitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "tendinitis",
       "concept": {
         "text": "tendinitis"
       }

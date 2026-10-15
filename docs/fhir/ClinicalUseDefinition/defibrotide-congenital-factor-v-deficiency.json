@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-factor-v-deficiency",
+          "display": "congenital factor V deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital factor V deficiency",
       "concept": {
         "text": "congenital factor V deficiency"
       }

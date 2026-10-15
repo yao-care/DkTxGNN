@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lingual-facial-buccal-dyskinesia",
+          "display": "lingual-facial-buccal dyskinesia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lingual-facial-buccal dyskinesia",
       "concept": {
         "text": "lingual-facial-buccal dyskinesia"
       }

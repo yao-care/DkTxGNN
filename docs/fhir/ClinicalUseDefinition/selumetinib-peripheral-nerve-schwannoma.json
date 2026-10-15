@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "peripheral-nerve-schwannoma",
+          "display": "peripheral nerve schwannoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "peripheral nerve schwannoma",
       "concept": {
         "text": "peripheral nerve schwannoma"
       }

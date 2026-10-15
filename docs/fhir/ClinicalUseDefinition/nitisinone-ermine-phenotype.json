@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ermine-phenotype",
+          "display": "ermine phenotype"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ermine phenotype",
       "concept": {
         "text": "ermine phenotype"
       }

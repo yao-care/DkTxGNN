@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "osteoarthritis-susceptibility",
+          "display": "osteoarthritis susceptibility"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "osteoarthritis susceptibility",
       "concept": {
         "text": "osteoarthritis susceptibility"
       }

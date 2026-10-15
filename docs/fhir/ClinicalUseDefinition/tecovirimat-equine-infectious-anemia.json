@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "equine-infectious-anemia",
+          "display": "equine infectious anemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "equine infectious anemia",
       "concept": {
         "text": "equine infectious anemia"
       }

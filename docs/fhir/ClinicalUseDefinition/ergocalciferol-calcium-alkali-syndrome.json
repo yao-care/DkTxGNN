@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "calcium-alkali-syndrome",
+          "display": "calcium-alkali syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "calcium-alkali syndrome",
       "concept": {
         "text": "calcium-alkali syndrome"
       }

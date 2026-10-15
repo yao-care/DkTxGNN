@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acquired-hemophagocytic-lymphohistiocytosis-associated-with-malignant-disease",
+          "display": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
       "concept": {
         "text": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
       }

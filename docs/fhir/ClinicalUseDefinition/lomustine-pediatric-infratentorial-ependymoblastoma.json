@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pediatric-infratentorial-ependymoblastoma",
+          "display": "pediatric infratentorial ependymoblastoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pediatric infratentorial ependymoblastoma",
       "concept": {
         "text": "pediatric infratentorial ependymoblastoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "small-intestinal-mucosa-associated-lymphoid-tissue-lymphoma",
+          "display": "small intestinal mucosa-associated lymphoid tissue lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "small intestinal mucosa-associated lymphoid tissue lymphoma",
       "concept": {
         "text": "small intestinal mucosa-associated lymphoid tissue lymphoma"
       }

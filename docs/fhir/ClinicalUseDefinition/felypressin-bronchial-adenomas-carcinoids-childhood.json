@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bronchial-adenomas-carcinoids-childhood",
+          "display": "bronchial adenomas/carcinoids childhood"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bronchial adenomas/carcinoids childhood",
       "concept": {
         "text": "bronchial adenomas/carcinoids childhood"
       }

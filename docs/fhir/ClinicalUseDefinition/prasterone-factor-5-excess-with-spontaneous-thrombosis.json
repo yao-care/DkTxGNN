@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "factor-5-excess-with-spontaneous-thrombosis",
+          "display": "factor 5 excess with spontaneous thrombosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "factor 5 excess with spontaneous thrombosis",
       "concept": {
         "text": "factor 5 excess with spontaneous thrombosis"
       }

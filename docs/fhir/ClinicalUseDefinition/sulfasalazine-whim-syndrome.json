@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "whim-syndrome",
+          "display": "WHIM syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "WHIM syndrome",
       "concept": {
         "text": "WHIM syndrome"
       }

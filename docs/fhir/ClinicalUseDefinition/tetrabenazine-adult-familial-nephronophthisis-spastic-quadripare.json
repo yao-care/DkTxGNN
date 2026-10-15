@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "adult-familial-nephronophthisis-spastic-quadriparesia-syndrome",
+          "display": "adult familial nephronophthisis-spastic quadriparesia syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "adult familial nephronophthisis-spastic quadriparesia syndrome",
       "concept": {
         "text": "adult familial nephronophthisis-spastic quadriparesia syndrome"
       }

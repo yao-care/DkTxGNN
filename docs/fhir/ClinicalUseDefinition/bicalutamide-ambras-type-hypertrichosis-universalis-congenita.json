@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ambras-type-hypertrichosis-universalis-congenita",
+          "display": "Ambras type hypertrichosis universalis congenita"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Ambras type hypertrichosis universalis congenita",
       "concept": {
         "text": "Ambras type hypertrichosis universalis congenita"
       }

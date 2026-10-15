@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "chronic-lymphocytic-leukemia-small-lymphocytic-lymphoma-with-immunoglobulin-heavy-chain-variable-region-gene-somatic-hypermutation",
+          "display": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
       "concept": {
         "text": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
       }

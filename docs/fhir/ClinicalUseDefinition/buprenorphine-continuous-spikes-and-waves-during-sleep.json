@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "continuous-spikes-and-waves-during-sleep",
+          "display": "continuous spikes and waves during sleep"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "continuous spikes and waves during sleep",
       "concept": {
         "text": "continuous spikes and waves during sleep"
       }

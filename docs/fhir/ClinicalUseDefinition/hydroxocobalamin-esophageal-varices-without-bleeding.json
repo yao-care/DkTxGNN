@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "esophageal-varices-without-bleeding",
+          "display": "esophageal varices without bleeding"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "esophageal varices without bleeding",
       "concept": {
         "text": "esophageal varices without bleeding"
       }

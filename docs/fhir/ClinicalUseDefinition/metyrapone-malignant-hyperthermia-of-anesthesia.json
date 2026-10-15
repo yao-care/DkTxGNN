@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "malignant-hyperthermia-of-anesthesia",
+          "display": "malignant hyperthermia of anesthesia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "malignant hyperthermia of anesthesia",
       "concept": {
         "text": "malignant hyperthermia of anesthesia"
       }

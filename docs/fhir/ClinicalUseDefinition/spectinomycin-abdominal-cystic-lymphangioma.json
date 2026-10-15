@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "abdominal-cystic-lymphangioma",
+          "display": "abdominal cystic lymphangioma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "abdominal cystic lymphangioma",
       "concept": {
         "text": "abdominal cystic lymphangioma"
       }

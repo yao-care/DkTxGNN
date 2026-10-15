@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-mediterranean-fever-autosomal-dominant",
+          "display": "familial Mediterranean fever, autosomal dominant"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial Mediterranean fever, autosomal dominant",
       "concept": {
         "text": "familial Mediterranean fever, autosomal dominant"
       }

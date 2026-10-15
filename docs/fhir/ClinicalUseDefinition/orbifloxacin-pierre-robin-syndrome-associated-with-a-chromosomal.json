@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pierre-robin-syndrome-associated-with-a-chromosomal-anomaly",
+          "display": "Pierre Robin syndrome associated with a chromosomal anomaly"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Pierre Robin syndrome associated with a chromosomal anomaly",
       "concept": {
         "text": "Pierre Robin syndrome associated with a chromosomal anomaly"
       }

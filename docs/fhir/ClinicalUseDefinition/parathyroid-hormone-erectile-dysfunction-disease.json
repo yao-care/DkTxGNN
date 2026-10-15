@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "erectile-dysfunction-disease",
+          "display": "erectile dysfunction (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "erectile dysfunction (disease)",
       "concept": {
         "text": "erectile dysfunction (disease)"
       }

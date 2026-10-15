@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hiatus-hernia-disease",
+          "display": "hiatus hernia (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hiatus hernia (disease)",
       "concept": {
         "text": "hiatus hernia (disease)"
       }

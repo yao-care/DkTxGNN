@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypertrophic-cardiomyopathy",
+          "display": "hypertrophic cardiomyopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypertrophic cardiomyopathy",
       "concept": {
         "text": "hypertrophic cardiomyopathy"
       }

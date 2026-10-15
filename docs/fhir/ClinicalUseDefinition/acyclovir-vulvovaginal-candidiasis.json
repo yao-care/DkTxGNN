@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vulvovaginal-candidiasis",
+          "display": "vulvovaginal candidiasis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vulvovaginal candidiasis",
       "concept": {
         "text": "vulvovaginal candidiasis"
       }

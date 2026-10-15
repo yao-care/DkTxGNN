@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "premalignant-hematological-system-disease",
+          "display": "premalignant hematological system disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "premalignant hematological system disease",
       "concept": {
         "text": "premalignant hematological system disease"
       }

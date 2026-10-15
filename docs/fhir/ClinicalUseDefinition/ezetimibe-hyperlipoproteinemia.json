@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hyperlipoproteinemia",
+          "display": "hyperlipoproteinemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hyperlipoproteinemia",
       "concept": {
         "text": "hyperlipoproteinemia"
       }

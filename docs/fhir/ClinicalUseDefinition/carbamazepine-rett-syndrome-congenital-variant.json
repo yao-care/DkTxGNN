@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rett-syndrome-congenital-variant",
+          "display": "Rett syndrome, congenital variant"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Rett syndrome, congenital variant",
       "concept": {
         "text": "Rett syndrome, congenital variant"
       }

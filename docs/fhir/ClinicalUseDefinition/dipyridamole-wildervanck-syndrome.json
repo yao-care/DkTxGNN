@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "wildervanck-syndrome",
+          "display": "Wildervanck syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Wildervanck syndrome",
       "concept": {
         "text": "Wildervanck syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cerebral-artery-occlusion",
+          "display": "cerebral artery occlusion"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cerebral artery occlusion",
       "concept": {
         "text": "cerebral artery occlusion"
       }

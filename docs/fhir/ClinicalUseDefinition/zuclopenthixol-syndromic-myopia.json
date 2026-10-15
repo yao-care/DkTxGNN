@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "syndromic-myopia",
+          "display": "syndromic myopia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "syndromic myopia",
       "concept": {
         "text": "syndromic myopia"
       }

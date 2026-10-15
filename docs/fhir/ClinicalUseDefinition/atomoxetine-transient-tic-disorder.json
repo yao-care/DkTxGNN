@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "transient-tic-disorder",
+          "display": "transient tic disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "transient tic disorder",
       "concept": {
         "text": "transient tic disorder"
       }

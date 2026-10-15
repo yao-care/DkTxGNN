@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "malformation-syndrome-with-odontal-and-or-periodontal-component",
+          "display": "malformation syndrome with odontal and/or periodontal component"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "malformation syndrome with odontal and/or periodontal component",
       "concept": {
         "text": "malformation syndrome with odontal and/or periodontal component"
       }

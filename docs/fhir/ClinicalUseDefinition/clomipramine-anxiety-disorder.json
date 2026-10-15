@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "anxiety-disorder",
+          "display": "anxiety disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "anxiety disorder",
       "concept": {
         "text": "anxiety disorder"
       }

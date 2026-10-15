@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "tinea-profunda",
+          "display": "tinea profunda"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "tinea profunda",
       "concept": {
         "text": "tinea profunda"
       }

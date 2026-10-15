@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "type-1-diabetes-mellitus",
+          "display": "type 1 diabetes mellitus"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "type 1 diabetes mellitus",
       "concept": {
         "text": "type 1 diabetes mellitus"
       }

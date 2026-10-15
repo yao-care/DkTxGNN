@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acute-intermittent-porphyria",
+          "display": "acute intermittent porphyria"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acute intermittent porphyria",
       "concept": {
         "text": "acute intermittent porphyria"
       }

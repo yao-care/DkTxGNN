@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "simian-immunodeficiency-virus-infection",
+          "display": "simian immunodeficiency virus infection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "simian immunodeficiency virus infection",
       "concept": {
         "text": "simian immunodeficiency virus infection"
       }

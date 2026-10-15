@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "carney-complex",
+          "display": "Carney complex"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Carney complex",
       "concept": {
         "text": "Carney complex"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "testicular-yolk-sac-tumor-solid-pattern",
+          "display": "testicular yolk sac tumor, solid pattern"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "testicular yolk sac tumor, solid pattern",
       "concept": {
         "text": "testicular yolk sac tumor, solid pattern"
       }

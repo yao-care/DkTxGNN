@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "monocytic-leukemia",
+          "display": "monocytic leukemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "monocytic leukemia",
       "concept": {
         "text": "monocytic leukemia"
       }

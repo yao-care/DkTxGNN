@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "2-hydroxyethyl-methacrylate-sensitization",
+          "display": "2-hydroxyethyl methacrylate sensitization"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "2-hydroxyethyl methacrylate sensitization",
       "concept": {
         "text": "2-hydroxyethyl methacrylate sensitization"
       }

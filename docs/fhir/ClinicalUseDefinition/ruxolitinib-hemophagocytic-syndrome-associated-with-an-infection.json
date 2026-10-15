@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hemophagocytic-syndrome-associated-with-an-infection",
+          "display": "hemophagocytic syndrome associated with an infection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hemophagocytic syndrome associated with an infection",
       "concept": {
         "text": "hemophagocytic syndrome associated with an infection"
       }

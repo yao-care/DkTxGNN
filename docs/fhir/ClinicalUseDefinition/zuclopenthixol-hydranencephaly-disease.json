@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hydranencephaly-disease",
+          "display": "hydranencephaly (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hydranencephaly (disease)",
       "concept": {
         "text": "hydranencephaly (disease)"
       }

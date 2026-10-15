@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "secondary-interstitial-lung-disease-specific-to-childhood-associated-with-a-connective-tissue-disease",
+          "display": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
       "concept": {
         "text": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
       }

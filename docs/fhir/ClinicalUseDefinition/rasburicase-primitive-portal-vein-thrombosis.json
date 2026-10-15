@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "primitive-portal-vein-thrombosis",
+          "display": "primitive portal vein thrombosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "primitive portal vein thrombosis",
       "concept": {
         "text": "primitive portal vein thrombosis"
       }

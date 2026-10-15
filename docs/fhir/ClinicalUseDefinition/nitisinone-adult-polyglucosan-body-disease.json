@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "adult-polyglucosan-body-disease",
+          "display": "adult polyglucosan body disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "adult polyglucosan body disease",
       "concept": {
         "text": "adult polyglucosan body disease"
       }

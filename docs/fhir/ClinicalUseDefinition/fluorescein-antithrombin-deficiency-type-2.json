@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "antithrombin-deficiency-type-2",
+          "display": "antithrombin deficiency type 2"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "antithrombin deficiency type 2",
       "concept": {
         "text": "antithrombin deficiency type 2"
       }

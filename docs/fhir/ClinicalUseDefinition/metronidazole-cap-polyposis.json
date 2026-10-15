@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cap-polyposis",
+          "display": "cap polyposis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cap polyposis",
       "concept": {
         "text": "cap polyposis"
       }

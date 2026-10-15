@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "methemoglobin-reductase-deficiency",
+          "display": "methemoglobin reductase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "methemoglobin reductase deficiency",
       "concept": {
         "text": "methemoglobin reductase deficiency"
       }

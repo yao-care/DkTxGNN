@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "moynahan-syndrome",
+          "display": "Moynahan syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Moynahan syndrome",
       "concept": {
         "text": "Moynahan syndrome"
       }

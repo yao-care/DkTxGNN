@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "trigeminal-neuralgia",
+          "display": "trigeminal neuralgia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "trigeminal neuralgia",
       "concept": {
         "text": "trigeminal neuralgia"
       }

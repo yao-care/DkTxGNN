@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sciatic-neuropathy",
+          "display": "sciatic neuropathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sciatic neuropathy",
       "concept": {
         "text": "sciatic neuropathy"
       }

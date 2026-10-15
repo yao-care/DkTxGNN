@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "serpinopathy-with-toxic-serpin-polymerization",
+          "display": "serpinopathy with toxic serpin polymerization"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "serpinopathy with toxic serpin polymerization",
       "concept": {
         "text": "serpinopathy with toxic serpin polymerization"
       }

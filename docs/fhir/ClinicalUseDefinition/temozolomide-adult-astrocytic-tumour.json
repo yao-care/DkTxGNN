@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "adult-astrocytic-tumour",
+          "display": "adult astrocytic tumour"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "adult astrocytic tumour",
       "concept": {
         "text": "adult astrocytic tumour"
       }

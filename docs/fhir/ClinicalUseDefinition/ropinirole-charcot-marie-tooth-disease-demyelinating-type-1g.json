@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "charcot-marie-tooth-disease-demyelinating-type-1g",
+          "display": "Charcot-Marie-Tooth disease, demyelinating, type 1G"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Charcot-Marie-Tooth disease, demyelinating, type 1G",
       "concept": {
         "text": "Charcot-Marie-Tooth disease, demyelinating, type 1G"
       }

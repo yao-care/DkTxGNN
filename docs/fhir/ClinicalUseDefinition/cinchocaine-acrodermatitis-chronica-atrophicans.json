@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acrodermatitis-chronica-atrophicans",
+          "display": "acrodermatitis chronica atrophicans"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acrodermatitis chronica atrophicans",
       "concept": {
         "text": "acrodermatitis chronica atrophicans"
       }

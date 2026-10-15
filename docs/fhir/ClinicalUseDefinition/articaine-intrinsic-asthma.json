@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "intrinsic-asthma",
+          "display": "intrinsic asthma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "intrinsic asthma",
       "concept": {
         "text": "intrinsic asthma"
       }

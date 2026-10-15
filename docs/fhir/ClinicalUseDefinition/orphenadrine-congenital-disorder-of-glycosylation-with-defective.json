@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-disorder-of-glycosylation-with-defective-fucosylation",
+          "display": "congenital disorder of glycosylation with defective fucosylation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital disorder of glycosylation with defective fucosylation",
       "concept": {
         "text": "congenital disorder of glycosylation with defective fucosylation"
       }

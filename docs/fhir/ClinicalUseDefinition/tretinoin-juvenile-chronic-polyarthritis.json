@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "juvenile-chronic-polyarthritis",
+          "display": "juvenile chronic polyarthritis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "juvenile chronic polyarthritis",
       "concept": {
         "text": "juvenile chronic polyarthritis"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "monckeberg-arteriosclerosis",
+          "display": "Monckeberg arteriosclerosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Monckeberg arteriosclerosis",
       "concept": {
         "text": "Monckeberg arteriosclerosis"
       }

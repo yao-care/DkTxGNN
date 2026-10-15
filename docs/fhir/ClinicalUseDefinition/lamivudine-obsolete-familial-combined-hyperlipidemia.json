@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "obsolete-familial-combined-hyperlipidemia",
+          "display": "obsolete familial combined hyperlipidemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "obsolete familial combined hyperlipidemia",
       "concept": {
         "text": "obsolete familial combined hyperlipidemia"
       }

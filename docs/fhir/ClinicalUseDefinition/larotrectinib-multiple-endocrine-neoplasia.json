@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "multiple-endocrine-neoplasia",
+          "display": "multiple endocrine neoplasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "multiple endocrine neoplasia",
       "concept": {
         "text": "multiple endocrine neoplasia"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypertrichosis-disease",
+          "display": "hypertrichosis (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypertrichosis (disease)",
       "concept": {
         "text": "hypertrichosis (disease)"
       }

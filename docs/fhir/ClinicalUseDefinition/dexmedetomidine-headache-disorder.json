@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "headache-disorder",
+          "display": "headache disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "headache disorder",
       "concept": {
         "text": "headache disorder"
       }

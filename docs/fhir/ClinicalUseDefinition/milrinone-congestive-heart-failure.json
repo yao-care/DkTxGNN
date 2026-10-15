@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congestive-heart-failure",
+          "display": "congestive heart failure"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congestive heart failure",
       "concept": {
         "text": "congestive heart failure"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bladder-colonic-type-adenocarcinoma",
+          "display": "bladder colonic type adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bladder colonic type adenocarcinoma",
       "concept": {
         "text": "bladder colonic type adenocarcinoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "allergic-otitis-media",
+          "display": "allergic otitis media"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "allergic otitis media",
       "concept": {
         "text": "allergic otitis media"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "apocrine-adenosis-of-breast",
+          "display": "apocrine adenosis of breast"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "apocrine adenosis of breast",
       "concept": {
         "text": "apocrine adenosis of breast"
       }

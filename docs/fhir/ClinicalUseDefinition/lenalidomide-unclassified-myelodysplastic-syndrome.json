@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "unclassified-myelodysplastic-syndrome",
+          "display": "unclassified myelodysplastic syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "unclassified myelodysplastic syndrome",
       "concept": {
         "text": "unclassified myelodysplastic syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "polyp-of-vocal-cord",
+          "display": "polyp of vocal cord"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "polyp of vocal cord",
       "concept": {
         "text": "polyp of vocal cord"
       }

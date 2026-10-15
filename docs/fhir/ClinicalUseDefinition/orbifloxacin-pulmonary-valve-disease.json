@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pulmonary-valve-disease",
+          "display": "pulmonary valve disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pulmonary valve disease",
       "concept": {
         "text": "pulmonary valve disease"
       }

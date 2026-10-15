@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lymphoadenopathic-mastocytosis-with-eosinophilia",
+          "display": "lymphoadenopathic mastocytosis with eosinophilia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lymphoadenopathic mastocytosis with eosinophilia",
       "concept": {
         "text": "lymphoadenopathic mastocytosis with eosinophilia"
       }

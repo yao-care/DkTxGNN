@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "extrahepatic-bile-duct-rhabdomyosarcoma",
+          "display": "extrahepatic bile duct rhabdomyosarcoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "extrahepatic bile duct rhabdomyosarcoma",
       "concept": {
         "text": "extrahepatic bile duct rhabdomyosarcoma"
       }

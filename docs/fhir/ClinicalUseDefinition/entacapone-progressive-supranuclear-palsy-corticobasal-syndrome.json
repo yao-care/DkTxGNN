@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "progressive-supranuclear-palsy-corticobasal-syndrome",
+          "display": "progressive supranuclear palsy-corticobasal syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "progressive supranuclear palsy-corticobasal syndrome",
       "concept": {
         "text": "progressive supranuclear palsy-corticobasal syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "nuclear-senile-cataract",
+          "display": "nuclear senile cataract"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "nuclear senile cataract",
       "concept": {
         "text": "nuclear senile cataract"
       }

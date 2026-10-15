@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "polyp-of-external-auditory-canal",
+          "display": "polyp of external auditory canal"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "polyp of external auditory canal",
       "concept": {
         "text": "polyp of external auditory canal"
       }

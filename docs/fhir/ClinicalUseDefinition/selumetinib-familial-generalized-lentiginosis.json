@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-generalized-lentiginosis",
+          "display": "familial generalized lentiginosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial generalized lentiginosis",
       "concept": {
         "text": "familial generalized lentiginosis"
       }

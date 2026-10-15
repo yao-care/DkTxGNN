@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hyperphenylalaninemia-due-to-tetrahydrobiopterin-deficiency",
+          "display": "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hyperphenylalaninemia due to tetrahydrobiopterin deficiency",
       "concept": {
         "text": "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"
       }

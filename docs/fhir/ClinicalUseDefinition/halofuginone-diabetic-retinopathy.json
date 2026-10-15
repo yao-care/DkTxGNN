@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "diabetic-retinopathy",
+          "display": "diabetic retinopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "diabetic retinopathy",
       "concept": {
         "text": "diabetic retinopathy"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "post-infectious-neuralgia",
+          "display": "post-infectious neuralgia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "post-infectious neuralgia",
       "concept": {
         "text": "post-infectious neuralgia"
       }

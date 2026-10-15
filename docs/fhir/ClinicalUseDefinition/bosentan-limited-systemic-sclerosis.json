@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "limited-systemic-sclerosis",
+          "display": "limited systemic sclerosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "limited systemic sclerosis",
       "concept": {
         "text": "limited systemic sclerosis"
       }

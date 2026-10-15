@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "blast-phase-chronic-myelogenous-leukemia-bcr-abl1-positive",
+          "display": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive",
       "concept": {
         "text": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
       }

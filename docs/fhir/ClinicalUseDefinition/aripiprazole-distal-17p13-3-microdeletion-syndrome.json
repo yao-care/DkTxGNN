@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "distal-17p13-3-microdeletion-syndrome",
+          "display": "distal 17p13.3 microdeletion syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "distal 17p13.3 microdeletion syndrome",
       "concept": {
         "text": "distal 17p13.3 microdeletion syndrome"
       }

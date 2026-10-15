@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lung-mixed-small-cell-and-squamous-cell-carcinoma",
+          "display": "lung mixed small cell and squamous cell carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lung mixed small cell and squamous cell carcinoma",
       "concept": {
         "text": "lung mixed small cell and squamous cell carcinoma"
       }

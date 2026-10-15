@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "susceptibility-to-respiratory-infections-associated-with-cd8alpha-chain-mutation",
+          "display": "susceptibility to respiratory infections associated with CD8alpha chain mutation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "susceptibility to respiratory infections associated with CD8alpha chain mutation",
       "concept": {
         "text": "susceptibility to respiratory infections associated with CD8alpha chain mutation"
       }

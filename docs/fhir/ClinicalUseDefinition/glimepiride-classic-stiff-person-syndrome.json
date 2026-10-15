@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "classic-stiff-person-syndrome",
+          "display": "classic stiff person syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "classic stiff person syndrome",
       "concept": {
         "text": "classic stiff person syndrome"
       }

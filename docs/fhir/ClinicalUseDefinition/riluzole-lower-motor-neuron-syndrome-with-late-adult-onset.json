@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lower-motor-neuron-syndrome-with-late-adult-onset",
+          "display": "lower motor neuron syndrome with late-adult onset"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lower motor neuron syndrome with late-adult onset",
       "concept": {
         "text": "lower motor neuron syndrome with late-adult onset"
       }

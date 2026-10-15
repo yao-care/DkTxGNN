@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "fructose-1-6-bisphosphatase-deficiency",
+          "display": "fructose-1,6-bisphosphatase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "fructose-1,6-bisphosphatase deficiency",
       "concept": {
         "text": "fructose-1,6-bisphosphatase deficiency"
       }

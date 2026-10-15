@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lung-hilum-carcinoma",
+          "display": "lung hilum carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lung hilum carcinoma",
       "concept": {
         "text": "lung hilum carcinoma"
       }

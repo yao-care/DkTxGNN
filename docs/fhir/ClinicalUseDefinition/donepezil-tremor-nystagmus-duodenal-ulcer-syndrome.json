@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "tremor-nystagmus-duodenal-ulcer-syndrome",
+          "display": "tremor-nystagmus-duodenal ulcer syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "tremor-nystagmus-duodenal ulcer syndrome",
       "concept": {
         "text": "tremor-nystagmus-duodenal ulcer syndrome"
       }

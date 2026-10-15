@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vulvar-inverted-follicular-keratosis",
+          "display": "vulvar inverted follicular keratosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vulvar inverted follicular keratosis",
       "concept": {
         "text": "vulvar inverted follicular keratosis"
       }

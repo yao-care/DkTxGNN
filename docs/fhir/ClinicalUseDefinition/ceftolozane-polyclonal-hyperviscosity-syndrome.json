@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "polyclonal-hyperviscosity-syndrome",
+          "display": "polyclonal hyperviscosity syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "polyclonal hyperviscosity syndrome",
       "concept": {
         "text": "polyclonal hyperviscosity syndrome"
       }

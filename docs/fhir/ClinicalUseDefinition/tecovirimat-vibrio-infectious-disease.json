@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vibrio-infectious-disease",
+          "display": "vibrio infectious disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vibrio infectious disease",
       "concept": {
         "text": "vibrio infectious disease"
       }

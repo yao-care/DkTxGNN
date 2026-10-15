@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ulerythema-ophryogenesis",
+          "display": "ulerythema ophryogenesis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ulerythema ophryogenesis",
       "concept": {
         "text": "ulerythema ophryogenesis"
       }

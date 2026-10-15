@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cecum-villous-adenoma",
+          "display": "cecum villous adenoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cecum villous adenoma",
       "concept": {
         "text": "cecum villous adenoma"
       }

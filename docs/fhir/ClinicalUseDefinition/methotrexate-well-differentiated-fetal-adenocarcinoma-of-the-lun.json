@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "well-differentiated-fetal-adenocarcinoma-of-the-lung",
+          "display": "well-differentiated fetal adenocarcinoma of the lung"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "well-differentiated fetal adenocarcinoma of the lung",
       "concept": {
         "text": "well-differentiated fetal adenocarcinoma of the lung"
       }

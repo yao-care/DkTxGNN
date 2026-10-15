@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pulmonary-hypertension-owing-to-lung-disease-and-or-hypoxia",
+          "display": "pulmonary hypertension owing to lung disease and/or hypoxia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pulmonary hypertension owing to lung disease and/or hypoxia",
       "concept": {
         "text": "pulmonary hypertension owing to lung disease and/or hypoxia"
       }

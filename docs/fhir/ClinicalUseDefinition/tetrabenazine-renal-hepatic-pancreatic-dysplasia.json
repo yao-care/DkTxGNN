@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "renal-hepatic-pancreatic-dysplasia",
+          "display": "renal-hepatic-pancreatic dysplasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "renal-hepatic-pancreatic dysplasia",
       "concept": {
         "text": "renal-hepatic-pancreatic dysplasia"
       }

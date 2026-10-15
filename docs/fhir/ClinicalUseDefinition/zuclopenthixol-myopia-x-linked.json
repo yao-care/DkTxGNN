@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "myopia-x-linked",
+          "display": "myopia X-linked"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "myopia X-linked",
       "concept": {
         "text": "myopia X-linked"
       }

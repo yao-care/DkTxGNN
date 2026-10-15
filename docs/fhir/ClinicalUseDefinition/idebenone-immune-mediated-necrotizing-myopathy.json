@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "immune-mediated-necrotizing-myopathy",
+          "display": "immune-mediated necrotizing myopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "immune-mediated necrotizing myopathy",
       "concept": {
         "text": "immune-mediated necrotizing myopathy"
       }

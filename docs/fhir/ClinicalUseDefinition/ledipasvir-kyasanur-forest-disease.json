@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "kyasanur-forest-disease",
+          "display": "Kyasanur forest disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Kyasanur forest disease",
       "concept": {
         "text": "Kyasanur forest disease"
       }

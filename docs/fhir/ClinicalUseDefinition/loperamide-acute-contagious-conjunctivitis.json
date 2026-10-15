@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acute-contagious-conjunctivitis",
+          "display": "acute contagious conjunctivitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acute contagious conjunctivitis",
       "concept": {
         "text": "acute contagious conjunctivitis"
       }

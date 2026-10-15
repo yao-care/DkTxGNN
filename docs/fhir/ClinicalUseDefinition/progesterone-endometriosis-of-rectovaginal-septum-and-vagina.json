@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "endometriosis-of-rectovaginal-septum-and-vagina",
+          "display": "endometriosis of rectovaginal septum and vagina"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "endometriosis of rectovaginal septum and vagina",
       "concept": {
         "text": "endometriosis of rectovaginal septum and vagina"
       }

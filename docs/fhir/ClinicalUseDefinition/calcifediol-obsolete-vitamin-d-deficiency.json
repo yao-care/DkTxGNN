@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "obsolete-vitamin-d-deficiency",
+          "display": "obsolete vitamin D deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "obsolete vitamin D deficiency",
       "concept": {
         "text": "obsolete vitamin D deficiency"
       }

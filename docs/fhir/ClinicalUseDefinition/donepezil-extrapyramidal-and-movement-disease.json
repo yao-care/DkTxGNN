@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "extrapyramidal-and-movement-disease",
+          "display": "extrapyramidal and movement disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "extrapyramidal and movement disease",
       "concept": {
         "text": "extrapyramidal and movement disease"
       }

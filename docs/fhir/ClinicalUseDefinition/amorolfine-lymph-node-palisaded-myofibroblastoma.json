@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lymph-node-palisaded-myofibroblastoma",
+          "display": "lymph node palisaded myofibroblastoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lymph node palisaded myofibroblastoma",
       "concept": {
         "text": "lymph node palisaded myofibroblastoma"
       }

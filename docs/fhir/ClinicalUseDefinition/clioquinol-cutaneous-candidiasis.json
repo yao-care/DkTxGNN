@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cutaneous-candidiasis",
+          "display": "cutaneous candidiasis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cutaneous candidiasis",
       "concept": {
         "text": "cutaneous candidiasis"
       }

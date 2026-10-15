@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "frontal-lobe-epilepsy",
+          "display": "frontal lobe epilepsy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "frontal lobe epilepsy",
       "concept": {
         "text": "frontal lobe epilepsy"
       }

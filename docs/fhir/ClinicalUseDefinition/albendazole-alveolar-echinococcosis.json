@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "alveolar-echinococcosis",
+          "display": "alveolar echinococcosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "alveolar echinococcosis",
       "concept": {
         "text": "alveolar echinococcosis"
       }

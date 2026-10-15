@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "liver-sarcoma",
+          "display": "liver sarcoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "liver sarcoma",
       "concept": {
         "text": "liver sarcoma"
       }

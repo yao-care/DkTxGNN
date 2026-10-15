@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "succinyl-coa-3-ketoacid-coa-transferase-deficiency",
+          "display": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "succinyl-CoA:3-ketoacid CoA transferase deficiency",
       "concept": {
         "text": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "dependent-personality-disorder",
+          "display": "dependent personality disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "dependent personality disorder",
       "concept": {
         "text": "dependent personality disorder"
       }

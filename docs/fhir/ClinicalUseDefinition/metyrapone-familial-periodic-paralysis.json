@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-periodic-paralysis",
+          "display": "familial periodic paralysis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial periodic paralysis",
       "concept": {
         "text": "familial periodic paralysis"
       }

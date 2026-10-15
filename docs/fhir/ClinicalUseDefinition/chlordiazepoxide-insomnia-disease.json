@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "insomnia-disease",
+          "display": "insomnia (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "insomnia (disease)",
       "concept": {
         "text": "insomnia (disease)"
       }

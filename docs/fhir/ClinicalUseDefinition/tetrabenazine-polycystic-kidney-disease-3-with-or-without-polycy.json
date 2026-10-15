@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "polycystic-kidney-disease-3-with-or-without-polycystic-liver-disease",
+          "display": "polycystic kidney disease 3 with or without polycystic liver disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "polycystic kidney disease 3 with or without polycystic liver disease",
       "concept": {
         "text": "polycystic kidney disease 3 with or without polycystic liver disease"
       }

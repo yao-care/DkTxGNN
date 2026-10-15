@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "streptococcal-pneumonia",
+          "display": "streptococcal pneumonia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "streptococcal pneumonia",
       "concept": {
         "text": "streptococcal pneumonia"
       }

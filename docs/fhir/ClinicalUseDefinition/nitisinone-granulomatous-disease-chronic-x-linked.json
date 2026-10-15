@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "granulomatous-disease-chronic-x-linked",
+          "display": "granulomatous disease, chronic, X-linked"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "granulomatous disease, chronic, X-linked",
       "concept": {
         "text": "granulomatous disease, chronic, X-linked"
       }

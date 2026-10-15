@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cauda-equina-syndrome",
+          "display": "cauda equina syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cauda equina syndrome",
       "concept": {
         "text": "cauda equina syndrome"
       }

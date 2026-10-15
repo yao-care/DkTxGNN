@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "fibromatosis-gingival",
+          "display": "fibromatosis, gingival"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "fibromatosis, gingival",
       "concept": {
         "text": "fibromatosis, gingival"
       }

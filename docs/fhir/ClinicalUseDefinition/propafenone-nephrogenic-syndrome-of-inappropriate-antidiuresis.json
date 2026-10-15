@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "nephrogenic-syndrome-of-inappropriate-antidiuresis",
+          "display": "nephrogenic syndrome of inappropriate antidiuresis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "nephrogenic syndrome of inappropriate antidiuresis",
       "concept": {
         "text": "nephrogenic syndrome of inappropriate antidiuresis"
       }

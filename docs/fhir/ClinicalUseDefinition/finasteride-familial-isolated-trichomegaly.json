@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-isolated-trichomegaly",
+          "display": "familial isolated trichomegaly"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial isolated trichomegaly",
       "concept": {
         "text": "familial isolated trichomegaly"
       }

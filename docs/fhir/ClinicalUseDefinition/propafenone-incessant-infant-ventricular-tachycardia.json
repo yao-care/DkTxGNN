@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "incessant-infant-ventricular-tachycardia",
+          "display": "incessant infant ventricular tachycardia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "incessant infant ventricular tachycardia",
       "concept": {
         "text": "incessant infant ventricular tachycardia"
       }

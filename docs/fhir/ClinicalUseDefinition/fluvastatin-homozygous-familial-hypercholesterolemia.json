@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "homozygous-familial-hypercholesterolemia",
+          "display": "homozygous familial hypercholesterolemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "homozygous familial hypercholesterolemia",
       "concept": {
         "text": "homozygous familial hypercholesterolemia"
       }

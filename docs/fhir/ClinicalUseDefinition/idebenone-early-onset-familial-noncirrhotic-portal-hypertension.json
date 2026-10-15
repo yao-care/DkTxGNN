@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "early-onset-familial-noncirrhotic-portal-hypertension",
+          "display": "early-onset familial noncirrhotic portal hypertension"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "early-onset familial noncirrhotic portal hypertension",
       "concept": {
         "text": "early-onset familial noncirrhotic portal hypertension"
       }

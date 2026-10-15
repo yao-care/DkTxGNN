@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "worth-syndrome",
+          "display": "Worth syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Worth syndrome",
       "concept": {
         "text": "Worth syndrome"
       }

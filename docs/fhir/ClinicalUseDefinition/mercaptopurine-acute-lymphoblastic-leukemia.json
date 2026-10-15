@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acute-lymphoblastic-leukemia",
+          "display": "acute lymphoblastic leukemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acute lymphoblastic leukemia",
       "concept": {
         "text": "acute lymphoblastic leukemia"
       }

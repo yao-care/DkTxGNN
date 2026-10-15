@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "tumor-of-testis-and-paratestis",
+          "display": "tumor of testis and paratestis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "tumor of testis and paratestis",
       "concept": {
         "text": "tumor of testis and paratestis"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ehrlich-tumor-carcinoma",
+          "display": "Ehrlich tumor carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Ehrlich tumor carcinoma",
       "concept": {
         "text": "Ehrlich tumor carcinoma"
       }

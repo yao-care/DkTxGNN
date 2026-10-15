@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "primary-hereditary-glaucoma",
+          "display": "primary hereditary glaucoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "primary hereditary glaucoma",
       "concept": {
         "text": "primary hereditary glaucoma"
       }

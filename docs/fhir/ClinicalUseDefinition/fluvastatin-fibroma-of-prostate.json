@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "fibroma-of-prostate",
+          "display": "fibroma of prostate"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "fibroma of prostate",
       "concept": {
         "text": "fibroma of prostate"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "inclusion-body-myopathy-with-early-onset-paget-disease-with-or-without-frontotemporal-dementia",
+          "display": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
       "concept": {
         "text": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
       }

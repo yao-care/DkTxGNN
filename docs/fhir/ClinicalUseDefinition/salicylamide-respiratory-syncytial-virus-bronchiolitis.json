@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "respiratory-syncytial-virus-bronchiolitis",
+          "display": "respiratory syncytial virus bronchiolitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "respiratory syncytial virus bronchiolitis",
       "concept": {
         "text": "respiratory syncytial virus bronchiolitis"
       }

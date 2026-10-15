@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "king-denborough-syndrome",
+          "display": "King-Denborough syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "King-Denborough syndrome",
       "concept": {
         "text": "King-Denborough syndrome"
       }

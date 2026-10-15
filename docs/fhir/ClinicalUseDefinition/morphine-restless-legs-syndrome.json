@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "restless-legs-syndrome",
+          "display": "restless legs syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "restless legs syndrome",
       "concept": {
         "text": "restless legs syndrome"
       }

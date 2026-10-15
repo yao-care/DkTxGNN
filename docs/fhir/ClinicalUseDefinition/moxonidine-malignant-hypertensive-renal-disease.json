@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "malignant-hypertensive-renal-disease",
+          "display": "malignant hypertensive renal disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "malignant hypertensive renal disease",
       "concept": {
         "text": "malignant hypertensive renal disease"
       }

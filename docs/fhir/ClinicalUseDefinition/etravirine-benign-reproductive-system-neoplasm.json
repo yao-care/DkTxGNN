@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "benign-reproductive-system-neoplasm",
+          "display": "benign reproductive system neoplasm"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "benign reproductive system neoplasm",
       "concept": {
         "text": "benign reproductive system neoplasm"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "syndrome-with-a-dandy-walker-malformation-as-major-feature",
+          "display": "syndrome with a Dandy-Walker malformation as major feature"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "syndrome with a Dandy-Walker malformation as major feature",
       "concept": {
         "text": "syndrome with a Dandy-Walker malformation as major feature"
       }

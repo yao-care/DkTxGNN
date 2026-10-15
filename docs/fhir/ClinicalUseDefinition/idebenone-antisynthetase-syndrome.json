@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "antisynthetase-syndrome",
+          "display": "antisynthetase syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "antisynthetase syndrome",
       "concept": {
         "text": "antisynthetase syndrome"
       }

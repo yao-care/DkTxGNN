@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hemorrhagic-disorder-due-to-a-constitutional-thrombocytopenia",
+          "display": "hemorrhagic disorder due to a constitutional thrombocytopenia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hemorrhagic disorder due to a constitutional thrombocytopenia",
       "concept": {
         "text": "hemorrhagic disorder due to a constitutional thrombocytopenia"
       }

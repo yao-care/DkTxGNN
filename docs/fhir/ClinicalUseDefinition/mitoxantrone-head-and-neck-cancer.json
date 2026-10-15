@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "head-and-neck-cancer",
+          "display": "head and neck cancer"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "head and neck cancer",
       "concept": {
         "text": "head and neck cancer"
       }

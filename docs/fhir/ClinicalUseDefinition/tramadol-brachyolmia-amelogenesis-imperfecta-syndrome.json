@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "brachyolmia-amelogenesis-imperfecta-syndrome",
+          "display": "brachyolmia-amelogenesis imperfecta syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "brachyolmia-amelogenesis imperfecta syndrome",
       "concept": {
         "text": "brachyolmia-amelogenesis imperfecta syndrome"
       }

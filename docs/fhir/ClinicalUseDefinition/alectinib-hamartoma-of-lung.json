@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hamartoma-of-lung",
+          "display": "hamartoma of lung"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hamartoma of lung",
       "concept": {
         "text": "hamartoma of lung"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "macrocephaly-dysmorphic-facies-and-psychomotor-retardation",
+          "display": "macrocephaly, dysmorphic facies, and psychomotor retardation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "macrocephaly, dysmorphic facies, and psychomotor retardation",
       "concept": {
         "text": "macrocephaly, dysmorphic facies, and psychomotor retardation"
       }

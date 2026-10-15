@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rhabdoid-tumor",
+          "display": "rhabdoid tumor"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "rhabdoid tumor",
       "concept": {
         "text": "rhabdoid tumor"
       }

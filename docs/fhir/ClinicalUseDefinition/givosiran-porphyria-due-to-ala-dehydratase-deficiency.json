@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "porphyria-due-to-ala-dehydratase-deficiency",
+          "display": "porphyria due to ALA dehydratase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "porphyria due to ALA dehydratase deficiency",
       "concept": {
         "text": "porphyria due to ALA dehydratase deficiency"
       }

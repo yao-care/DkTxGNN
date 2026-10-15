@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sickle-cell-beta-thalassemia-disease-syndrome",
+          "display": "sickle cell-beta-thalassemia disease syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sickle cell-beta-thalassemia disease syndrome",
       "concept": {
         "text": "sickle cell-beta-thalassemia disease syndrome"
       }

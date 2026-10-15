@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "neonatal-myasthenia-gravis",
+          "display": "neonatal myasthenia gravis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "neonatal myasthenia gravis",
       "concept": {
         "text": "neonatal myasthenia gravis"
       }

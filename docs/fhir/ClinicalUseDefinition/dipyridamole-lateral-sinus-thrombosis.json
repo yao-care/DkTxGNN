@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lateral-sinus-thrombosis",
+          "display": "lateral sinus thrombosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lateral sinus thrombosis",
       "concept": {
         "text": "lateral sinus thrombosis"
       }

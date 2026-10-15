@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "osteogenesis-imperfecta-retinopathy-seizures-intellectual-disability-syndrome",
+          "display": "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome",
       "concept": {
         "text": "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome"
       }

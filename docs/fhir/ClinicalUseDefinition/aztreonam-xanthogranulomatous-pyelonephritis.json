@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "xanthogranulomatous-pyelonephritis",
+          "display": "xanthogranulomatous pyelonephritis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "xanthogranulomatous pyelonephritis",
       "concept": {
         "text": "xanthogranulomatous pyelonephritis"
       }

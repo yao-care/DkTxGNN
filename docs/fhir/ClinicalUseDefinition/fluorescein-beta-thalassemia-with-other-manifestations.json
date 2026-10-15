@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "beta-thalassemia-with-other-manifestations",
+          "display": "beta-thalassemia with other manifestations"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "beta-thalassemia with other manifestations",
       "concept": {
         "text": "beta-thalassemia with other manifestations"
       }

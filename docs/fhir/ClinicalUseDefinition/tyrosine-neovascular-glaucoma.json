@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "neovascular-glaucoma",
+          "display": "neovascular glaucoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "neovascular glaucoma",
       "concept": {
         "text": "neovascular glaucoma"
       }

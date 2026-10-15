@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "obsolete-susceptibility-to-ischemic-stroke",
+          "display": "obsolete susceptibility to ischemic stroke"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "obsolete susceptibility to ischemic stroke",
       "concept": {
         "text": "obsolete susceptibility to ischemic stroke"
       }

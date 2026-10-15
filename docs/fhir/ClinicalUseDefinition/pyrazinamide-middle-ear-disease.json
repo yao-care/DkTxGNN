@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "middle-ear-disease",
+          "display": "middle ear disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "middle ear disease",
       "concept": {
         "text": "middle ear disease"
       }

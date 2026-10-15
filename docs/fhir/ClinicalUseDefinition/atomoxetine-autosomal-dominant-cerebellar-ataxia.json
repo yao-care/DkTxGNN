@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "autosomal-dominant-cerebellar-ataxia",
+          "display": "autosomal dominant cerebellar ataxia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "autosomal dominant cerebellar ataxia",
       "concept": {
         "text": "autosomal dominant cerebellar ataxia"
       }

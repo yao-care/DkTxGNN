@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "diabetic-cataract",
+          "display": "diabetic cataract"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "diabetic cataract",
       "concept": {
         "text": "diabetic cataract"
       }

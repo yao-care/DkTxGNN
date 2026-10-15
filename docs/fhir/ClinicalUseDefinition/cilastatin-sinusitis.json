@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sinusitis",
+          "display": "sinusitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sinusitis",
       "concept": {
         "text": "sinusitis"
       }

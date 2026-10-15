@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "partial-deletion-of-the-short-arm-of-chromosome-16",
+          "display": "partial deletion of the short arm of chromosome 16"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "partial deletion of the short arm of chromosome 16",
       "concept": {
         "text": "partial deletion of the short arm of chromosome 16"
       }

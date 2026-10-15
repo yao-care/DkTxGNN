@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "open-angle-glaucoma",
+          "display": "open-angle glaucoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "open-angle glaucoma",
       "concept": {
         "text": "open-angle glaucoma"
       }

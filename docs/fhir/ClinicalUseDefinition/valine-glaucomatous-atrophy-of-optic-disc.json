@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "glaucomatous-atrophy-of-optic-disc",
+          "display": "glaucomatous atrophy of optic disc"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "glaucomatous atrophy of optic disc",
       "concept": {
         "text": "glaucomatous atrophy of optic disc"
       }

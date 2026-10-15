@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "myasthenia-gravis-with-thymus-hyperplasia",
+          "display": "myasthenia gravis with thymus hyperplasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "myasthenia gravis with thymus hyperplasia",
       "concept": {
         "text": "myasthenia gravis with thymus hyperplasia"
       }

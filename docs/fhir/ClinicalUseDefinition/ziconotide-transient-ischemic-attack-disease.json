@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "transient-ischemic-attack-disease",
+          "display": "transient ischemic attack (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "transient ischemic attack (disease)",
       "concept": {
         "text": "transient ischemic attack (disease)"
       }

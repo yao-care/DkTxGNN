@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "embryonic-cyst-of-fallopian-tube",
+          "display": "embryonic cyst of fallopian tube"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "embryonic cyst of fallopian tube",
       "concept": {
         "text": "embryonic cyst of fallopian tube"
       }

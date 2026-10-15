@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "keppen-lubinsky-syndrome",
+          "display": "Keppen-Lubinsky syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Keppen-Lubinsky syndrome",
       "concept": {
         "text": "Keppen-Lubinsky syndrome"
       }

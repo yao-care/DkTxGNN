@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cecal-disease",
+          "display": "cecal disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cecal disease",
       "concept": {
         "text": "cecal disease"
       }

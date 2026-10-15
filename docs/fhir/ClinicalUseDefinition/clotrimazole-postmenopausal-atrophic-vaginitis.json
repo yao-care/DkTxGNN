@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "postmenopausal-atrophic-vaginitis",
+          "display": "postmenopausal atrophic vaginitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "postmenopausal atrophic vaginitis",
       "concept": {
         "text": "postmenopausal atrophic vaginitis"
       }

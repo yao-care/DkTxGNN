@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ulceration-of-vulva",
+          "display": "ulceration of vulva"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ulceration of vulva",
       "concept": {
         "text": "ulceration of vulva"
       }

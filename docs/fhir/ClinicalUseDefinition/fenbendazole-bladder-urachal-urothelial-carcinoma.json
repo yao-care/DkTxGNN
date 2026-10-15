@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bladder-urachal-urothelial-carcinoma",
+          "display": "bladder urachal urothelial carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bladder urachal urothelial carcinoma",
       "concept": {
         "text": "bladder urachal urothelial carcinoma"
       }

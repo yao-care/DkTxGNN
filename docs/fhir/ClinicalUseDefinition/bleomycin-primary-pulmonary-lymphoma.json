@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "primary-pulmonary-lymphoma",
+          "display": "primary pulmonary lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "primary pulmonary lymphoma",
       "concept": {
         "text": "primary pulmonary lymphoma"
       }

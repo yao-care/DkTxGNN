@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "villoglandular-endometrial-endometrioid-adenocarcinoma",
+          "display": "villoglandular endometrial endometrioid adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "villoglandular endometrial endometrioid adenocarcinoma",
       "concept": {
         "text": "villoglandular endometrial endometrioid adenocarcinoma"
       }

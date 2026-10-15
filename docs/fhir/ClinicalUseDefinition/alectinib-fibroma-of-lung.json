@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "fibroma-of-lung",
+          "display": "fibroma of lung"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "fibroma of lung",
       "concept": {
         "text": "fibroma of lung"
       }

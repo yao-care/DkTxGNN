@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-lobar-emphysema",
+          "display": "congenital lobar emphysema"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital lobar emphysema",
       "concept": {
         "text": "congenital lobar emphysema"
       }

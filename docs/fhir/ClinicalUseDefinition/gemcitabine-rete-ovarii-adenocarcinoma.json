@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rete-ovarii-adenocarcinoma",
+          "display": "rete ovarii adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "rete ovarii adenocarcinoma",
       "concept": {
         "text": "rete ovarii adenocarcinoma"
       }

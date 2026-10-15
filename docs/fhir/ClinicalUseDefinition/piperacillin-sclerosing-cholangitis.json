@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sclerosing-cholangitis",
+          "display": "sclerosing cholangitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sclerosing cholangitis",
       "concept": {
         "text": "sclerosing cholangitis"
       }

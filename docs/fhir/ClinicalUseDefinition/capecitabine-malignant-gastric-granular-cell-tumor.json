@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "malignant-gastric-granular-cell-tumor",
+          "display": "malignant gastric granular cell tumor"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "malignant gastric granular cell tumor",
       "concept": {
         "text": "malignant gastric granular cell tumor"
       }

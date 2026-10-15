@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "prostate-leiomyoma",
+          "display": "prostate leiomyoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "prostate leiomyoma",
       "concept": {
         "text": "prostate leiomyoma"
       }

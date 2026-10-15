@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "atypical-hemolytic-uremic-syndrome-with-b-factor-anomaly",
+          "display": "atypical hemolytic-uremic syndrome with B factor anomaly"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "atypical hemolytic-uremic syndrome with B factor anomaly",
       "concept": {
         "text": "atypical hemolytic-uremic syndrome with B factor anomaly"
       }

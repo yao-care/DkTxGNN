@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "audiogenic-seizures",
+          "display": "audiogenic seizures"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "audiogenic seizures",
       "concept": {
         "text": "audiogenic seizures"
       }

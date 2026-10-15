@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "allergic-urticaria",
+          "display": "allergic urticaria"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "allergic urticaria",
       "concept": {
         "text": "allergic urticaria"
       }

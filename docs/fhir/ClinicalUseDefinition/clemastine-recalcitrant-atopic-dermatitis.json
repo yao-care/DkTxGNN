@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "recalcitrant-atopic-dermatitis",
+          "display": "recalcitrant atopic dermatitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "recalcitrant atopic dermatitis",
       "concept": {
         "text": "recalcitrant atopic dermatitis"
       }

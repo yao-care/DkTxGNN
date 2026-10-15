@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "iris-disease",
+          "display": "iris disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "iris disease",
       "concept": {
         "text": "iris disease"
       }

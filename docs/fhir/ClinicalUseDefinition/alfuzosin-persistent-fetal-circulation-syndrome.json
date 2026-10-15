@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "persistent-fetal-circulation-syndrome",
+          "display": "persistent fetal circulation syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "persistent fetal circulation syndrome",
       "concept": {
         "text": "persistent fetal circulation syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "obsolete-neurogenic-bladder-disease",
+          "display": "obsolete neurogenic bladder (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "obsolete neurogenic bladder (disease)",
       "concept": {
         "text": "obsolete neurogenic bladder (disease)"
       }

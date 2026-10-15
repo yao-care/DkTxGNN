@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "thiamine-responsive-dysfunction-syndrome",
+          "display": "thiamine-responsive dysfunction syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "thiamine-responsive dysfunction syndrome",
       "concept": {
         "text": "thiamine-responsive dysfunction syndrome"
       }

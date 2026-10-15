@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "myeloid-leukemia",
+          "display": "myeloid leukemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "myeloid leukemia",
       "concept": {
         "text": "myeloid leukemia"
       }

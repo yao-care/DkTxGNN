@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cerebrovascular-disorder",
+          "display": "cerebrovascular disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cerebrovascular disorder",
       "concept": {
         "text": "cerebrovascular disorder"
       }

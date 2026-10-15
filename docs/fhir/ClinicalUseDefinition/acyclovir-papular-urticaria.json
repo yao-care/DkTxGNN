@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "papular-urticaria",
+          "display": "papular urticaria"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "papular urticaria",
       "concept": {
         "text": "papular urticaria"
       }

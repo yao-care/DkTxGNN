@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "jeune-syndrome-situs-inversus",
+          "display": "Jeune syndrome situs inversus"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Jeune syndrome situs inversus",
       "concept": {
         "text": "Jeune syndrome situs inversus"
       }

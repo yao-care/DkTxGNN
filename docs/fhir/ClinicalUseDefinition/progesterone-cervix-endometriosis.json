@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cervix-endometriosis",
+          "display": "cervix endometriosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cervix endometriosis",
       "concept": {
         "text": "cervix endometriosis"
       }

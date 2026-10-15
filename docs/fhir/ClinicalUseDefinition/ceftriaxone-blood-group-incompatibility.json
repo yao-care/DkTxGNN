@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "blood-group-incompatibility",
+          "display": "blood group incompatibility"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "blood group incompatibility",
       "concept": {
         "text": "blood group incompatibility"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "telogen-effluvium",
+          "display": "telogen effluvium"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "telogen effluvium",
       "concept": {
         "text": "telogen effluvium"
       }

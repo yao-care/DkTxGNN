@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hepatitis-e-virus-infection",
+          "display": "hepatitis E virus infection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hepatitis E virus infection",
       "concept": {
         "text": "hepatitis E virus infection"
       }

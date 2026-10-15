@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "renal-tubular-acidosis",
+          "display": "renal tubular acidosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "renal tubular acidosis",
       "concept": {
         "text": "renal tubular acidosis"
       }

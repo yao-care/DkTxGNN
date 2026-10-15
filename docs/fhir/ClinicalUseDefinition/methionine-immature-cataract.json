@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "immature-cataract",
+          "display": "immature cataract"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "immature cataract",
       "concept": {
         "text": "immature cataract"
       }

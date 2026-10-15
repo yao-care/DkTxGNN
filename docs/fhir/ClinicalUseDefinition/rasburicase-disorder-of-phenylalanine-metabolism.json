@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "disorder-of-phenylalanine-metabolism",
+          "display": "disorder of phenylalanine metabolism"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "disorder of phenylalanine metabolism",
       "concept": {
         "text": "disorder of phenylalanine metabolism"
       }

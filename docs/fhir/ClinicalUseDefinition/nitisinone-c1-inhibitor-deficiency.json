@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "c1-inhibitor-deficiency",
+          "display": "C1 inhibitor deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "C1 inhibitor deficiency",
       "concept": {
         "text": "C1 inhibitor deficiency"
       }

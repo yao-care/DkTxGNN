@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "aqueous-misdirection",
+          "display": "aqueous misdirection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "aqueous misdirection",
       "concept": {
         "text": "aqueous misdirection"
       }

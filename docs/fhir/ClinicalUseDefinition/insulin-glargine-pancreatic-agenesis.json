@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pancreatic-agenesis",
+          "display": "pancreatic agenesis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pancreatic agenesis",
       "concept": {
         "text": "pancreatic agenesis"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "chronic-hepatitis-c-virus-infection",
+          "display": "chronic hepatitis C virus infection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "chronic hepatitis C virus infection",
       "concept": {
         "text": "chronic hepatitis C virus infection"
       }

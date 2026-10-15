@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cerebral-palsy-spastic-quadriplegic",
+          "display": "cerebral palsy, spastic quadriplegic"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cerebral palsy, spastic quadriplegic",
       "concept": {
         "text": "cerebral palsy, spastic quadriplegic"
       }

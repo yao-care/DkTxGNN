@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "granulomatous-disease-with-defect-in-neutrophil-chemotaxis",
+          "display": "granulomatous disease with defect in neutrophil chemotaxis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "granulomatous disease with defect in neutrophil chemotaxis",
       "concept": {
         "text": "granulomatous disease with defect in neutrophil chemotaxis"
       }

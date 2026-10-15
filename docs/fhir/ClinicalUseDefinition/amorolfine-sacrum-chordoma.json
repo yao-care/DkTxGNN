@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sacrum-chordoma",
+          "display": "sacrum chordoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sacrum chordoma",
       "concept": {
         "text": "sacrum chordoma"
       }

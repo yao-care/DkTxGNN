@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "gastric-body-carcinoma",
+          "display": "gastric body carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "gastric body carcinoma",
       "concept": {
         "text": "gastric body carcinoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "septicemic-plague",
+          "display": "septicemic plague"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "septicemic plague",
       "concept": {
         "text": "septicemic plague"
       }

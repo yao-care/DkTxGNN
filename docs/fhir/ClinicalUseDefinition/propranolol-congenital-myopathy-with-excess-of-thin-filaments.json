@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-myopathy-with-excess-of-thin-filaments",
+          "display": "congenital myopathy with excess of thin filaments"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital myopathy with excess of thin filaments",
       "concept": {
         "text": "congenital myopathy with excess of thin filaments"
       }

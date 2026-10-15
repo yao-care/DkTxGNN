@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "neurodevelopmental-disorder-with-ataxic-gait-absent-speech-and-decreased-cortical-white-matter",
+          "display": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
       "concept": {
         "text": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       }

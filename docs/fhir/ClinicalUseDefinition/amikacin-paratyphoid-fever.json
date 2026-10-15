@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "paratyphoid-fever",
+          "display": "paratyphoid fever"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "paratyphoid fever",
       "concept": {
         "text": "paratyphoid fever"
       }

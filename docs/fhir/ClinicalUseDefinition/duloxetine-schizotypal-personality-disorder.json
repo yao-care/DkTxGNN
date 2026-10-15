@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "schizotypal-personality-disorder",
+          "display": "schizotypal personality disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "schizotypal personality disorder",
       "concept": {
         "text": "schizotypal personality disorder"
       }

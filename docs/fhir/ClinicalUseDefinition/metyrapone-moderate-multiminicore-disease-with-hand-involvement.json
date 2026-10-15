@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "moderate-multiminicore-disease-with-hand-involvement",
+          "display": "moderate multiminicore disease with hand involvement"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "moderate multiminicore disease with hand involvement",
       "concept": {
         "text": "moderate multiminicore disease with hand involvement"
       }

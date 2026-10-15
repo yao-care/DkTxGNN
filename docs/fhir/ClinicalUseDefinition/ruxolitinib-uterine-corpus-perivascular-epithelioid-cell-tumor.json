@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "uterine-corpus-perivascular-epithelioid-cell-tumor",
+          "display": "uterine corpus perivascular epithelioid cell tumor"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "uterine corpus perivascular epithelioid cell tumor",
       "concept": {
         "text": "uterine corpus perivascular epithelioid cell tumor"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "leukomelanoderma-infantilism-intellectual-disability-hypodontia-hypotrichosis-syndrome",
+          "display": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
       "concept": {
         "text": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pulmonary-hypertension-with-unclear-multifactorial-mechanism",
+          "display": "pulmonary hypertension with unclear multifactorial mechanism"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pulmonary hypertension with unclear multifactorial mechanism",
       "concept": {
         "text": "pulmonary hypertension with unclear multifactorial mechanism"
       }

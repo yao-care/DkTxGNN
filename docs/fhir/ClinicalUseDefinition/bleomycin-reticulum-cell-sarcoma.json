@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "reticulum-cell-sarcoma",
+          "display": "reticulum cell sarcoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "reticulum cell sarcoma",
       "concept": {
         "text": "reticulum cell sarcoma"
       }

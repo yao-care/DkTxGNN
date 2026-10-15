@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "thyroid-gland-mucosa-associated-lymphoid-tissue-lymphoma",
+          "display": "thyroid gland mucosa-associated lymphoid tissue lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "thyroid gland mucosa-associated lymphoid tissue lymphoma",
       "concept": {
         "text": "thyroid gland mucosa-associated lymphoid tissue lymphoma"
       }

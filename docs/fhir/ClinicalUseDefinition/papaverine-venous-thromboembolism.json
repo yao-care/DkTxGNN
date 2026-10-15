@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "venous-thromboembolism",
+          "display": "venous thromboembolism"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "venous thromboembolism",
       "concept": {
         "text": "venous thromboembolism"
       }

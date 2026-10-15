@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "serous-conjunctivitis-except-viral",
+          "display": "serous conjunctivitis except viral"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "serous conjunctivitis except viral",
       "concept": {
         "text": "serous conjunctivitis except viral"
       }

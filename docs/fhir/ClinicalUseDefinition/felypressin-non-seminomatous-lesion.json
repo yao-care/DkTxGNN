@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "non-seminomatous-lesion",
+          "display": "non-seminomatous lesion"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "non-seminomatous lesion",
       "concept": {
         "text": "non-seminomatous lesion"
       }

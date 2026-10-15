@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "myofascial-pain-syndrome",
+          "display": "myofascial pain syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "myofascial pain syndrome",
       "concept": {
         "text": "myofascial pain syndrome"
       }

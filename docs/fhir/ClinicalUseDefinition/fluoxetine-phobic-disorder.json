@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "phobic-disorder",
+          "display": "phobic disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "phobic disorder",
       "concept": {
         "text": "phobic disorder"
       }

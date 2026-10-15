@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lumbar-spinal-stenosis",
+          "display": "lumbar spinal stenosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lumbar spinal stenosis",
       "concept": {
         "text": "lumbar spinal stenosis"
       }

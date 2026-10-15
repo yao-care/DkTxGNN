@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hormone-resistant-breast-carcinoma",
+          "display": "hormone-resistant breast carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hormone-resistant breast carcinoma",
       "concept": {
         "text": "hormone-resistant breast carcinoma"
       }

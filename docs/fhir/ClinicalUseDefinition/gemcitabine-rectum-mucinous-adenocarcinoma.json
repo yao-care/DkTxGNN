@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rectum-mucinous-adenocarcinoma",
+          "display": "rectum mucinous adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "rectum mucinous adenocarcinoma",
       "concept": {
         "text": "rectum mucinous adenocarcinoma"
       }

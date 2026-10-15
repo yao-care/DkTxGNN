@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bladder-squamous-papilloma",
+          "display": "bladder squamous papilloma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bladder squamous papilloma",
       "concept": {
         "text": "bladder squamous papilloma"
       }

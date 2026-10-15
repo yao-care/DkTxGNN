@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "heparin-cofactor-2-deficiency",
+          "display": "heparin cofactor 2 deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "heparin cofactor 2 deficiency",
       "concept": {
         "text": "heparin cofactor 2 deficiency"
       }

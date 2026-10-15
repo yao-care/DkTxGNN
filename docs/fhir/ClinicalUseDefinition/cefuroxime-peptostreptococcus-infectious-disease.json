@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "peptostreptococcus-infectious-disease",
+          "display": "Peptostreptococcus infectious disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Peptostreptococcus infectious disease",
       "concept": {
         "text": "Peptostreptococcus infectious disease"
       }

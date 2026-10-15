@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "attention-deficit-hyperactivity-disorder",
+          "display": "attention deficit-hyperactivity disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "attention deficit-hyperactivity disorder",
       "concept": {
         "text": "attention deficit-hyperactivity disorder"
       }

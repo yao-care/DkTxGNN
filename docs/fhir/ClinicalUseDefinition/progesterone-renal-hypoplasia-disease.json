@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "renal-hypoplasia-disease",
+          "display": "renal hypoplasia (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "renal hypoplasia (disease)",
       "concept": {
         "text": "renal hypoplasia (disease)"
       }

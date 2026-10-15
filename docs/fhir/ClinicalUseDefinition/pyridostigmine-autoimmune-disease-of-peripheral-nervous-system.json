@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "autoimmune-disease-of-peripheral-nervous-system",
+          "display": "autoimmune disease of peripheral nervous system"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "autoimmune disease of peripheral nervous system",
       "concept": {
         "text": "autoimmune disease of peripheral nervous system"
       }

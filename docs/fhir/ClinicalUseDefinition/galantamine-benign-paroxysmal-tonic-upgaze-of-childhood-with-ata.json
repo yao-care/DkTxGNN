@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "benign-paroxysmal-tonic-upgaze-of-childhood-with-ataxia",
+          "display": "benign paroxysmal tonic upgaze of childhood with ataxia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "benign paroxysmal tonic upgaze of childhood with ataxia",
       "concept": {
         "text": "benign paroxysmal tonic upgaze of childhood with ataxia"
       }

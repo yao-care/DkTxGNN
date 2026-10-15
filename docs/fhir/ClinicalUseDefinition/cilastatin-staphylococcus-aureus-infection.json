@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "staphylococcus-aureus-infection",
+          "display": "staphylococcus aureus infection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "staphylococcus aureus infection",
       "concept": {
         "text": "staphylococcus aureus infection"
       }

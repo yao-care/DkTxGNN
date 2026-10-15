@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lyme-disease",
+          "display": "Lyme disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Lyme disease",
       "concept": {
         "text": "Lyme disease"
       }

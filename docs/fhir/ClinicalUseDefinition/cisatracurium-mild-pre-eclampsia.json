@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mild-pre-eclampsia",
+          "display": "mild pre-eclampsia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mild pre-eclampsia",
       "concept": {
         "text": "mild pre-eclampsia"
       }

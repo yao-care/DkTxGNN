@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "asperger-syndrome-susceptibility-to",
+          "display": "asperger syndrome, susceptibility to"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "asperger syndrome, susceptibility to",
       "concept": {
         "text": "asperger syndrome, susceptibility to"
       }

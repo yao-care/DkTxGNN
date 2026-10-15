@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "abri-amyloidosis",
+          "display": "ABri amyloidosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ABri amyloidosis",
       "concept": {
         "text": "ABri amyloidosis"
       }

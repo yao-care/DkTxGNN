@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hepatitis-viral-animal",
+          "display": "hepatitis, viral, animal"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hepatitis, viral, animal",
       "concept": {
         "text": "hepatitis, viral, animal"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "retroperitoneal-neoplasm",
+          "display": "retroperitoneal neoplasm"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "retroperitoneal neoplasm",
       "concept": {
         "text": "retroperitoneal neoplasm"
       }

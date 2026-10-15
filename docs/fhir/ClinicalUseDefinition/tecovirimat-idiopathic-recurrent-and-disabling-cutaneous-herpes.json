@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "idiopathic-recurrent-and-disabling-cutaneous-herpes",
+          "display": "idiopathic recurrent and disabling cutaneous herpes"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "idiopathic recurrent and disabling cutaneous herpes",
       "concept": {
         "text": "idiopathic recurrent and disabling cutaneous herpes"
       }

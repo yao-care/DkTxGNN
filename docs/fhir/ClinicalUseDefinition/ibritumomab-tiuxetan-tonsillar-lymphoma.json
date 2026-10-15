@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "tonsillar-lymphoma",
+          "display": "tonsillar lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "tonsillar lymphoma",
       "concept": {
         "text": "tonsillar lymphoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-visceral-myopathy",
+          "display": "familial visceral myopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial visceral myopathy",
       "concept": {
         "text": "familial visceral myopathy"
       }

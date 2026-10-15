@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "chondroid-hamartoma",
+          "display": "chondroid hamartoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "chondroid hamartoma",
       "concept": {
         "text": "chondroid hamartoma"
       }

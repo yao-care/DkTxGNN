@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "carcinoma-of-stomach-salivary-gland-type",
+          "display": "carcinoma of stomach, salivary gland type"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "carcinoma of stomach, salivary gland type",
       "concept": {
         "text": "carcinoma of stomach, salivary gland type"
       }

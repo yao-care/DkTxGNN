@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ohdo-syndrome-and-variants",
+          "display": "Ohdo syndrome and variants"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Ohdo syndrome and variants",
       "concept": {
         "text": "Ohdo syndrome and variants"
       }

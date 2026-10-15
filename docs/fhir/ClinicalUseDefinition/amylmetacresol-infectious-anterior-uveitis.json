@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "infectious-anterior-uveitis",
+          "display": "infectious anterior uveitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "infectious anterior uveitis",
       "concept": {
         "text": "infectious anterior uveitis"
       }

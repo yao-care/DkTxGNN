@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "thrombotic-thrombocytopenic-purpura",
+          "display": "thrombotic thrombocytopenic purpura"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "thrombotic thrombocytopenic purpura",
       "concept": {
         "text": "thrombotic thrombocytopenic purpura"
       }

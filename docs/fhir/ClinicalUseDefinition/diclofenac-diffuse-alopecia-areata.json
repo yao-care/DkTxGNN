@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "diffuse-alopecia-areata",
+          "display": "diffuse alopecia areata"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "diffuse alopecia areata",
       "concept": {
         "text": "diffuse alopecia areata"
       }

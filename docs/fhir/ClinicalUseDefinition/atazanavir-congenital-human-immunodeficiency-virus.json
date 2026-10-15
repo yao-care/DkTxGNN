@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-human-immunodeficiency-virus",
+          "display": "congenital human immunodeficiency virus"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital human immunodeficiency virus",
       "concept": {
         "text": "congenital human immunodeficiency virus"
       }

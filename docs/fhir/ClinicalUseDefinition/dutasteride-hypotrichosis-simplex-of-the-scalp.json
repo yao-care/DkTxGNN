@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypotrichosis-simplex-of-the-scalp",
+          "display": "hypotrichosis simplex of the scalp"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypotrichosis simplex of the scalp",
       "concept": {
         "text": "hypotrichosis simplex of the scalp"
       }

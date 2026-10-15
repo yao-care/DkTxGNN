@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "non-invasive-bladder-urothelial-carcinoma",
+          "display": "non-invasive bladder urothelial carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "non-invasive bladder urothelial carcinoma",
       "concept": {
         "text": "non-invasive bladder urothelial carcinoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "superficial-mycosis",
+          "display": "superficial mycosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "superficial mycosis",
       "concept": {
         "text": "superficial mycosis"
       }

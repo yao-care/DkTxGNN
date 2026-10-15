@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "migraine-with-brainstem-aura",
+          "display": "migraine with brainstem aura"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "migraine with brainstem aura",
       "concept": {
         "text": "migraine with brainstem aura"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "variably-protease-sensitive-prionopathy",
+          "display": "variably protease-sensitive prionopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "variably protease-sensitive prionopathy",
       "concept": {
         "text": "variably protease-sensitive prionopathy"
       }

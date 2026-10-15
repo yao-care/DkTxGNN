@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "primary-orthostatic-tremor",
+          "display": "primary orthostatic tremor"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "primary orthostatic tremor",
       "concept": {
         "text": "primary orthostatic tremor"
       }

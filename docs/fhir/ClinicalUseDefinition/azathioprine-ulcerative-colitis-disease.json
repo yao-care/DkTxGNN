@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ulcerative-colitis-disease",
+          "display": "ulcerative colitis (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ulcerative colitis (disease)",
       "concept": {
         "text": "ulcerative colitis (disease)"
       }

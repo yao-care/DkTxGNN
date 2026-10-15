@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "complement-component-4a-deficiency",
+          "display": "complement component 4a deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "complement component 4a deficiency",
       "concept": {
         "text": "complement component 4a deficiency"
       }

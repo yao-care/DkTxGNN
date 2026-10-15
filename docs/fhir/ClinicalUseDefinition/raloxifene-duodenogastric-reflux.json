@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "duodenogastric-reflux",
+          "display": "duodenogastric reflux"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "duodenogastric reflux",
       "concept": {
         "text": "duodenogastric reflux"
       }

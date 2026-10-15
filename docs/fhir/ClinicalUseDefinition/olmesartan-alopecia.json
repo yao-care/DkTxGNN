@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "alopecia",
+          "display": "alopecia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "alopecia",
       "concept": {
         "text": "alopecia"
       }

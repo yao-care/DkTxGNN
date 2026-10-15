@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mitral-valve-disease",
+          "display": "mitral valve disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mitral valve disease",
       "concept": {
         "text": "mitral valve disease"
       }

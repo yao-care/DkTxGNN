@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "autonomic-nervous-system-disease",
+          "display": "autonomic nervous system disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "autonomic nervous system disease",
       "concept": {
         "text": "autonomic nervous system disease"
       }

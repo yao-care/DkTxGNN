@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "alk-positive-large-b-cell-lymphoma",
+          "display": "ALK-positive large B-cell lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ALK-positive large B-cell lymphoma",
       "concept": {
         "text": "ALK-positive large B-cell lymphoma"
       }

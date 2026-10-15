@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "monomelic-amyotrophy",
+          "display": "monomelic amyotrophy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "monomelic amyotrophy",
       "concept": {
         "text": "monomelic amyotrophy"
       }

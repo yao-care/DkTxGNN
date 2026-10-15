@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mills-syndrome",
+          "display": "Mills syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Mills syndrome",
       "concept": {
         "text": "Mills syndrome"
       }

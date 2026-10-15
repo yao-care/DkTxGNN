@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "infection-related-hemolytic-uremic-syndrome",
+          "display": "infection-related hemolytic uremic syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "infection-related hemolytic uremic syndrome",
       "concept": {
         "text": "infection-related hemolytic uremic syndrome"
       }

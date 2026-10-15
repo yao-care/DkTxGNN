@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "conventional-fibrosarcoma",
+          "display": "conventional fibrosarcoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "conventional fibrosarcoma",
       "concept": {
         "text": "conventional fibrosarcoma"
       }

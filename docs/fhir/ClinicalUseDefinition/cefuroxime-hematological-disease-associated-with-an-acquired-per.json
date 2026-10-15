@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hematological-disease-associated-with-an-acquired-peripheral-neuropathy",
+          "display": "hematological disease associated with an acquired peripheral neuropathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hematological disease associated with an acquired peripheral neuropathy",
       "concept": {
         "text": "hematological disease associated with an acquired peripheral neuropathy"
       }

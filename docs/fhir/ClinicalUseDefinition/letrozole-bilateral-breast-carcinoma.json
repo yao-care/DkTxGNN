@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bilateral-breast-carcinoma",
+          "display": "bilateral breast carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bilateral breast carcinoma",
       "concept": {
         "text": "bilateral breast carcinoma"
       }

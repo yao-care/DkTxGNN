@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-mitral-valve-prolapse",
+          "display": "familial mitral valve prolapse"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial mitral valve prolapse",
       "concept": {
         "text": "familial mitral valve prolapse"
       }

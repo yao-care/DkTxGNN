@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "thrombophilia-due-to-protein-c-deficiency-autosomal-recessive",
+          "display": "thrombophilia due to protein C deficiency, autosomal recessive"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "thrombophilia due to protein C deficiency, autosomal recessive",
       "concept": {
         "text": "thrombophilia due to protein C deficiency, autosomal recessive"
       }

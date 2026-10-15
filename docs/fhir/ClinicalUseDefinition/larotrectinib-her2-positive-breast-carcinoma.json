@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "her2-positive-breast-carcinoma",
+          "display": "HER2 positive breast carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "HER2 positive breast carcinoma",
       "concept": {
         "text": "HER2 positive breast carcinoma"
       }

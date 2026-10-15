@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "breast-carcinoma-by-gene-expression-profile",
+          "display": "breast carcinoma by gene expression profile"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "breast carcinoma by gene expression profile",
       "concept": {
         "text": "breast carcinoma by gene expression profile"
       }

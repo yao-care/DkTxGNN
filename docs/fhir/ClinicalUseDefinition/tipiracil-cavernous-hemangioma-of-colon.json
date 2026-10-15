@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cavernous-hemangioma-of-colon",
+          "display": "cavernous hemangioma of colon"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cavernous hemangioma of colon",
       "concept": {
         "text": "cavernous hemangioma of colon"
       }

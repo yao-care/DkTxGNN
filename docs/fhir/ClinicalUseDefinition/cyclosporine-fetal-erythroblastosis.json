@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "fetal-erythroblastosis",
+          "display": "fetal erythroblastosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "fetal erythroblastosis",
       "concept": {
         "text": "fetal erythroblastosis"
       }

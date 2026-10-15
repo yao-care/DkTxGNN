@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "paroxysmal-nocturnal-hemoglobinuria",
+          "display": "paroxysmal nocturnal hemoglobinuria"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "paroxysmal nocturnal hemoglobinuria",
       "concept": {
         "text": "paroxysmal nocturnal hemoglobinuria"
       }

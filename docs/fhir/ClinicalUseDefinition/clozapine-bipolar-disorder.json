@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bipolar-disorder",
+          "display": "bipolar disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bipolar disorder",
       "concept": {
         "text": "bipolar disorder"
       }

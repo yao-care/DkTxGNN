@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "glycogen-storage-disease-due-to-glucose-6-phosphatase-deficiency",
+          "display": "glycogen storage disease due to glucose-6-phosphatase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "glycogen storage disease due to glucose-6-phosphatase deficiency",
       "concept": {
         "text": "glycogen storage disease due to glucose-6-phosphatase deficiency"
       }

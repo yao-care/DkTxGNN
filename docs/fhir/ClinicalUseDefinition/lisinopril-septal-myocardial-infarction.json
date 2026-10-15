@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "septal-myocardial-infarction",
+          "display": "septal myocardial infarction"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "septal myocardial infarction",
       "concept": {
         "text": "septal myocardial infarction"
       }

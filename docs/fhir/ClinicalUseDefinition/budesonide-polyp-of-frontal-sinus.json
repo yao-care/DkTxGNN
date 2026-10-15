@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "polyp-of-frontal-sinus",
+          "display": "polyp of frontal sinus"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "polyp of frontal sinus",
       "concept": {
         "text": "polyp of frontal sinus"
       }

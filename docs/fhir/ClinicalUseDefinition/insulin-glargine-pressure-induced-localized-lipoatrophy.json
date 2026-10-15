@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pressure-induced-localized-lipoatrophy",
+          "display": "pressure-induced localized lipoatrophy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pressure-induced localized lipoatrophy",
       "concept": {
         "text": "pressure-induced localized lipoatrophy"
       }

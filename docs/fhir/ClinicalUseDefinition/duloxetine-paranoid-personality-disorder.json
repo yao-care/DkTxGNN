@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "paranoid-personality-disorder",
+          "display": "paranoid personality disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "paranoid personality disorder",
       "concept": {
         "text": "paranoid personality disorder"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypercholesterolemia-autosomal-dominant",
+          "display": "hypercholesterolemia, autosomal dominant"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypercholesterolemia, autosomal dominant",
       "concept": {
         "text": "hypercholesterolemia, autosomal dominant"
       }

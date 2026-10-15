@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "neonatal-dermatomyositis",
+          "display": "neonatal dermatomyositis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "neonatal dermatomyositis",
       "concept": {
         "text": "neonatal dermatomyositis"
       }

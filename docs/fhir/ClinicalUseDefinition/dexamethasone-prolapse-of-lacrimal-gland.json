@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "prolapse-of-lacrimal-gland",
+          "display": "prolapse of lacrimal gland"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "prolapse of lacrimal gland",
       "concept": {
         "text": "prolapse of lacrimal gland"
       }

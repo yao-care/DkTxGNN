@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "intracranial-arteriosclerosis",
+          "display": "intracranial arteriosclerosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "intracranial arteriosclerosis",
       "concept": {
         "text": "intracranial arteriosclerosis"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bronchus-adenoma",
+          "display": "bronchus adenoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bronchus adenoma",
       "concept": {
         "text": "bronchus adenoma"
       }

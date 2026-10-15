@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "isolated-genetic-hair-shaft-abnormality",
+          "display": "isolated genetic hair shaft abnormality"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "isolated genetic hair shaft abnormality",
       "concept": {
         "text": "isolated genetic hair shaft abnormality"
       }

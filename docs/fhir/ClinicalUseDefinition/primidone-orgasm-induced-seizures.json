@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "orgasm-induced-seizures",
+          "display": "orgasm-induced seizures"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "orgasm-induced seizures",
       "concept": {
         "text": "orgasm-induced seizures"
       }

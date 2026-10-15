@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "parasitic-conjunctivitis",
+          "display": "parasitic conjunctivitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "parasitic conjunctivitis",
       "concept": {
         "text": "parasitic conjunctivitis"
       }

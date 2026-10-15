@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "benign-shuddering-attacks",
+          "display": "benign shuddering attacks"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "benign shuddering attacks",
       "concept": {
         "text": "benign shuddering attacks"
       }

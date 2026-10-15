@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "central-core-myopathy",
+          "display": "central core myopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "central core myopathy",
       "concept": {
         "text": "central core myopathy"
       }

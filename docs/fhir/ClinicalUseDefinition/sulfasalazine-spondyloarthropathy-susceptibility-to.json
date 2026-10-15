@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "spondyloarthropathy-susceptibility-to",
+          "display": "spondyloarthropathy, susceptibility to"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "spondyloarthropathy, susceptibility to",
       "concept": {
         "text": "spondyloarthropathy, susceptibility to"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "celiac-trunk-compression-syndrome",
+          "display": "celiac trunk compression syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "celiac trunk compression syndrome",
       "concept": {
         "text": "celiac trunk compression syndrome"
       }

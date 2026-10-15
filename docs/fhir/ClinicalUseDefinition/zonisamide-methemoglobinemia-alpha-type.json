@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "methemoglobinemia-alpha-type",
+          "display": "methemoglobinemia, alpha type"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "methemoglobinemia, alpha type",
       "concept": {
         "text": "methemoglobinemia, alpha type"
       }

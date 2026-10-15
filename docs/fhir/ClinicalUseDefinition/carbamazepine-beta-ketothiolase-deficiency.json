@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "beta-ketothiolase-deficiency",
+          "display": "beta-ketothiolase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "beta-ketothiolase deficiency",
       "concept": {
         "text": "beta-ketothiolase deficiency"
       }

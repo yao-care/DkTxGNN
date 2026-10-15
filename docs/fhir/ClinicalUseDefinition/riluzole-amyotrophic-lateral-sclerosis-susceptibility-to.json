@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "amyotrophic-lateral-sclerosis-susceptibility-to",
+          "display": "amyotrophic lateral sclerosis, susceptibility to"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "amyotrophic lateral sclerosis, susceptibility to",
       "concept": {
         "text": "amyotrophic lateral sclerosis, susceptibility to"
       }

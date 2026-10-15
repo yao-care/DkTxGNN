@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "refractory-cytopenia-of-childhood",
+          "display": "refractory cytopenia of childhood"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "refractory cytopenia of childhood",
       "concept": {
         "text": "refractory cytopenia of childhood"
       }

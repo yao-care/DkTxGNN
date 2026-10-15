@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "malignant-tumor-of-meninges",
+          "display": "malignant tumor of meninges"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "malignant tumor of meninges",
       "concept": {
         "text": "malignant tumor of meninges"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ureaplasma-urethritis",
+          "display": "Ureaplasma urethritis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Ureaplasma urethritis",
       "concept": {
         "text": "Ureaplasma urethritis"
       }

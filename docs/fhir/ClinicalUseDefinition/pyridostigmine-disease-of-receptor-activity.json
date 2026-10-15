@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "disease-of-receptor-activity",
+          "display": "disease of receptor activity"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "disease of receptor activity",
       "concept": {
         "text": "disease of receptor activity"
       }

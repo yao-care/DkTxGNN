@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "botryoid-type-embryonal-rhabdomyosarcoma-of-the-vagina",
+          "display": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
       "concept": {
         "text": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
       }

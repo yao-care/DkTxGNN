@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pituitary-adenocarcinoma-disease",
+          "display": "pituitary adenocarcinoma (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pituitary adenocarcinoma (disease)",
       "concept": {
         "text": "pituitary adenocarcinoma (disease)"
       }

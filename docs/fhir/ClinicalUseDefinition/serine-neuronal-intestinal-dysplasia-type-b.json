@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "neuronal-intestinal-dysplasia-type-b",
+          "display": "neuronal intestinal dysplasia, type B"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "neuronal intestinal dysplasia, type B",
       "concept": {
         "text": "neuronal intestinal dysplasia, type B"
       }

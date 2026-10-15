@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "atypical-childhood-epilepsy-with-centrotemporal-spikes",
+          "display": "atypical childhood epilepsy with centrotemporal spikes"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "atypical childhood epilepsy with centrotemporal spikes",
       "concept": {
         "text": "atypical childhood epilepsy with centrotemporal spikes"
       }

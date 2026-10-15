@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "follicular-lymphoma-susceptibility-to-1",
+          "display": "follicular lymphoma, susceptibility to, 1"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "follicular lymphoma, susceptibility to, 1",
       "concept": {
         "text": "follicular lymphoma, susceptibility to, 1"
       }

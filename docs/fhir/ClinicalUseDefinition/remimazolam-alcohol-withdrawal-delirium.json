@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "alcohol-withdrawal-delirium",
+          "display": "alcohol withdrawal delirium"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "alcohol withdrawal delirium",
       "concept": {
         "text": "alcohol withdrawal delirium"
       }

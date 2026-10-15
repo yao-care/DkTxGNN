@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cholesterol-ester-transfer-protein-deficiency",
+          "display": "cholesterol-ester transfer protein deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cholesterol-ester transfer protein deficiency",
       "concept": {
         "text": "cholesterol-ester transfer protein deficiency"
       }

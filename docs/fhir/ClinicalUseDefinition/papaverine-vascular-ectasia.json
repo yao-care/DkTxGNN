@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vascular-ectasia",
+          "display": "vascular ectasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vascular ectasia",
       "concept": {
         "text": "vascular ectasia"
       }

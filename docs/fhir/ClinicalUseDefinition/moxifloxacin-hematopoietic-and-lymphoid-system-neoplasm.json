@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hematopoietic-and-lymphoid-system-neoplasm",
+          "display": "hematopoietic and lymphoid system neoplasm"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hematopoietic and lymphoid system neoplasm",
       "concept": {
         "text": "hematopoietic and lymphoid system neoplasm"
       }

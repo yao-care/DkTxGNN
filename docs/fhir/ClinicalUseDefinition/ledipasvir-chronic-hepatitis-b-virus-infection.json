@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "chronic-hepatitis-b-virus-infection",
+          "display": "chronic hepatitis B virus infection"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "chronic hepatitis B virus infection",
       "concept": {
         "text": "chronic hepatitis B virus infection"
       }

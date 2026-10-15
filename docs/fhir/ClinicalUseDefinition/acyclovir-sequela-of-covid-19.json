@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sequela-of-covid-19",
+          "display": "sequela of COVID-19"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sequela of COVID-19",
       "concept": {
         "text": "sequela of COVID-19"
       }

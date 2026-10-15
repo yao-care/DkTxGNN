@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "chronic-gingivitis",
+          "display": "chronic gingivitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "chronic gingivitis",
       "concept": {
         "text": "chronic gingivitis"
       }

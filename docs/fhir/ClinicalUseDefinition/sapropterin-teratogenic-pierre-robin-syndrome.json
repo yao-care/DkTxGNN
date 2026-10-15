@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "teratogenic-pierre-robin-syndrome",
+          "display": "teratogenic Pierre Robin syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "teratogenic Pierre Robin syndrome",
       "concept": {
         "text": "teratogenic Pierre Robin syndrome"
       }

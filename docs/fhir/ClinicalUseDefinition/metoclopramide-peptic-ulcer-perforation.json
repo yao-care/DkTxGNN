@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "peptic-ulcer-perforation",
+          "display": "peptic ulcer perforation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "peptic ulcer perforation",
       "concept": {
         "text": "peptic ulcer perforation"
       }

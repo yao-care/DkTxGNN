@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-ichthyosiform-erythroderma",
+          "display": "congenital ichthyosiform erythroderma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital ichthyosiform erythroderma",
       "concept": {
         "text": "congenital ichthyosiform erythroderma"
       }

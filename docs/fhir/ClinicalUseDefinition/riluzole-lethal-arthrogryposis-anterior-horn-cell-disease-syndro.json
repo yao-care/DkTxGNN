@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lethal-arthrogryposis-anterior-horn-cell-disease-syndrome",
+          "display": "lethal arthrogryposis-anterior horn cell disease syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lethal arthrogryposis-anterior horn cell disease syndrome",
       "concept": {
         "text": "lethal arthrogryposis-anterior horn cell disease syndrome"
       }

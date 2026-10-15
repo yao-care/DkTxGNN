@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "dry-eye-syndrome",
+          "display": "dry eye syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "dry eye syndrome",
       "concept": {
         "text": "dry eye syndrome"
       }

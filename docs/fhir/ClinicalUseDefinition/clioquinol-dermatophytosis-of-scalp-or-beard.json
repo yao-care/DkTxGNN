@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "dermatophytosis-of-scalp-or-beard",
+          "display": "dermatophytosis of scalp or beard"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "dermatophytosis of scalp or beard",
       "concept": {
         "text": "dermatophytosis of scalp or beard"
       }

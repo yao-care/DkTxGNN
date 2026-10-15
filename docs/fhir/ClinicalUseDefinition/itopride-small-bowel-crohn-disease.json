@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "small-bowel-crohn-disease",
+          "display": "small bowel Crohn disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "small bowel Crohn disease",
       "concept": {
         "text": "small bowel Crohn disease"
       }

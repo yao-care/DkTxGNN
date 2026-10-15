@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "omsk-hemorrhagic-fever",
+          "display": "Omsk hemorrhagic fever"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Omsk hemorrhagic fever",
       "concept": {
         "text": "Omsk hemorrhagic fever"
       }

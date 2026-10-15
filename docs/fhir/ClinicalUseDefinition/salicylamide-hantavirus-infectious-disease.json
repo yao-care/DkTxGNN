@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hantavirus-infectious-disease",
+          "display": "hantavirus infectious disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hantavirus infectious disease",
       "concept": {
         "text": "hantavirus infectious disease"
       }

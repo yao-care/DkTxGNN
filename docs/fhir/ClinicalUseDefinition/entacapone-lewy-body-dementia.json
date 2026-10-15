@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lewy-body-dementia",
+          "display": "Lewy body dementia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Lewy body dementia",
       "concept": {
         "text": "Lewy body dementia"
       }

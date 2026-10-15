@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lung-germ-cell-tumor",
+          "display": "lung germ cell tumor"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lung germ cell tumor",
       "concept": {
         "text": "lung germ cell tumor"
       }

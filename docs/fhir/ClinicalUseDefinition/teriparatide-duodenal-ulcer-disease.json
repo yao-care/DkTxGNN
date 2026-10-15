@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "duodenal-ulcer-disease",
+          "display": "duodenal ulcer (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "duodenal ulcer (disease)",
       "concept": {
         "text": "duodenal ulcer (disease)"
       }

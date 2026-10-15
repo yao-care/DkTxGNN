@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "estrogen-receptor-negative-breast-cancer",
+          "display": "estrogen-receptor negative breast cancer"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "estrogen-receptor negative breast cancer",
       "concept": {
         "text": "estrogen-receptor negative breast cancer"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mitral-valve-prolapse-disease",
+          "display": "mitral valve prolapse (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mitral valve prolapse (disease)",
       "concept": {
         "text": "mitral valve prolapse (disease)"
       }

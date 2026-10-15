@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "smouldering-systemic-mastocytosis",
+          "display": "Smouldering systemic mastocytosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Smouldering systemic mastocytosis",
       "concept": {
         "text": "Smouldering systemic mastocytosis"
       }

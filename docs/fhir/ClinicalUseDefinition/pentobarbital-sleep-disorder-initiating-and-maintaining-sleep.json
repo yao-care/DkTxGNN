@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sleep-disorder-initiating-and-maintaining-sleep",
+          "display": "sleep disorder, initiating and maintaining sleep"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sleep disorder, initiating and maintaining sleep",
       "concept": {
         "text": "sleep disorder, initiating and maintaining sleep"
       }

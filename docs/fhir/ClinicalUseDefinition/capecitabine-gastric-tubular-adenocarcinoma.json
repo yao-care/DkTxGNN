@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "gastric-tubular-adenocarcinoma",
+          "display": "gastric tubular adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "gastric tubular adenocarcinoma",
       "concept": {
         "text": "gastric tubular adenocarcinoma"
       }

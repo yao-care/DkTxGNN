@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "colonic-neoplasm",
+          "display": "colonic neoplasm"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "colonic neoplasm",
       "concept": {
         "text": "colonic neoplasm"
       }

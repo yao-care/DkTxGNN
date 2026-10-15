@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "achlorhydria",
+          "display": "achlorhydria"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "achlorhydria",
       "concept": {
         "text": "achlorhydria"
       }

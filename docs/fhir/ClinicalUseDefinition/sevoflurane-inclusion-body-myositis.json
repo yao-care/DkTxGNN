@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "inclusion-body-myositis",
+          "display": "inclusion body myositis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "inclusion body myositis",
       "concept": {
         "text": "inclusion body myositis"
       }

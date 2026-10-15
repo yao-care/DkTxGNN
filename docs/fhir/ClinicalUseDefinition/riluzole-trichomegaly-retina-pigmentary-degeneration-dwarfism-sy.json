@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "trichomegaly-retina-pigmentary-degeneration-dwarfism-syndrome",
+          "display": "trichomegaly-retina pigmentary degeneration-dwarfism syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "trichomegaly-retina pigmentary degeneration-dwarfism syndrome",
       "concept": {
         "text": "trichomegaly-retina pigmentary degeneration-dwarfism syndrome"
       }

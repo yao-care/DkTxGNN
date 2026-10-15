@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pseudo-von-willebrand-disease",
+          "display": "pseudo-von Willebrand disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pseudo-von Willebrand disease",
       "concept": {
         "text": "pseudo-von Willebrand disease"
       }

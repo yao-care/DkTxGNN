@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "epidemic-keratoconjunctivitis",
+          "display": "epidemic keratoconjunctivitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "epidemic keratoconjunctivitis",
       "concept": {
         "text": "epidemic keratoconjunctivitis"
       }

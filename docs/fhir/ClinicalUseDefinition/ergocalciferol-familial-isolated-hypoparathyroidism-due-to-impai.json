@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-isolated-hypoparathyroidism-due-to-impaired-pth-secretion",
+          "display": "familial isolated hypoparathyroidism due to impaired PTH secretion"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial isolated hypoparathyroidism due to impaired PTH secretion",
       "concept": {
         "text": "familial isolated hypoparathyroidism due to impaired PTH secretion"
       }

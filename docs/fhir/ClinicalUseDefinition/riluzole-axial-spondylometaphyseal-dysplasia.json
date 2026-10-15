@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "axial-spondylometaphyseal-dysplasia",
+          "display": "axial spondylometaphyseal dysplasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "axial spondylometaphyseal dysplasia",
       "concept": {
         "text": "axial spondylometaphyseal dysplasia"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bladder-signet-ring-cell-adenocarcinoma",
+          "display": "bladder signet ring cell adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bladder signet ring cell adenocarcinoma",
       "concept": {
         "text": "bladder signet ring cell adenocarcinoma"
       }

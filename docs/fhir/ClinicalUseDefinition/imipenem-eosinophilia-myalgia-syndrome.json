@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "eosinophilia-myalgia-syndrome",
+          "display": "eosinophilia-myalgia syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "eosinophilia-myalgia syndrome",
       "concept": {
         "text": "eosinophilia-myalgia syndrome"
       }

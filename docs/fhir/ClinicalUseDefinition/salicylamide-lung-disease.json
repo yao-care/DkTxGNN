@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lung-disease",
+          "display": "lung disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lung disease",
       "concept": {
         "text": "lung disease"
       }

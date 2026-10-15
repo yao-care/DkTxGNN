@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "alopecia-intellectual-disability-hypergonadotropic-hypogonadism-syndrome",
+          "display": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
       "concept": {
         "text": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
       }

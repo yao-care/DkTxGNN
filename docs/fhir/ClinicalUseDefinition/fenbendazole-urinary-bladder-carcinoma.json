@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "urinary-bladder-carcinoma",
+          "display": "urinary bladder carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "urinary bladder carcinoma",
       "concept": {
         "text": "urinary bladder carcinoma"
       }

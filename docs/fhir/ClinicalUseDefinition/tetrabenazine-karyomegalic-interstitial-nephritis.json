@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "karyomegalic-interstitial-nephritis",
+          "display": "karyomegalic interstitial nephritis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "karyomegalic interstitial nephritis",
       "concept": {
         "text": "karyomegalic interstitial nephritis"
       }

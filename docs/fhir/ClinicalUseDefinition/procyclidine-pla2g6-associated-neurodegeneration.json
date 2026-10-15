@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pla2g6-associated-neurodegeneration",
+          "display": "PLA2G6-associated neurodegeneration"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "PLA2G6-associated neurodegeneration",
       "concept": {
         "text": "PLA2G6-associated neurodegeneration"
       }

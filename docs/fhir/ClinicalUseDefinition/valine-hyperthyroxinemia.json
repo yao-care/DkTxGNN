@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hyperthyroxinemia",
+          "display": "hyperthyroxinemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hyperthyroxinemia",
       "concept": {
         "text": "hyperthyroxinemia"
       }

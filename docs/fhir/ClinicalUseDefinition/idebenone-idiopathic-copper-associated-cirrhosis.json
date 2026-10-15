@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "idiopathic-copper-associated-cirrhosis",
+          "display": "idiopathic copper-associated cirrhosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "idiopathic copper-associated cirrhosis",
       "concept": {
         "text": "idiopathic copper-associated cirrhosis"
       }

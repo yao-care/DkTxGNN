@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sick-sinus-syndrome-2-autosomal-dominant",
+          "display": "sick sinus syndrome 2, autosomal dominant"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sick sinus syndrome 2, autosomal dominant",
       "concept": {
         "text": "sick sinus syndrome 2, autosomal dominant"
       }

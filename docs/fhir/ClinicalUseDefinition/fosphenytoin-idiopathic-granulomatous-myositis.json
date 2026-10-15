@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "idiopathic-granulomatous-myositis",
+          "display": "idiopathic granulomatous myositis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "idiopathic granulomatous myositis",
       "concept": {
         "text": "idiopathic granulomatous myositis"
       }

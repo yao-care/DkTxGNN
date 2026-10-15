@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "progeria-short-stature-pigmented-nevi-syndrome",
+          "display": "progeria-short stature-pigmented nevi syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "progeria-short stature-pigmented nevi syndrome",
       "concept": {
         "text": "progeria-short stature-pigmented nevi syndrome"
       }

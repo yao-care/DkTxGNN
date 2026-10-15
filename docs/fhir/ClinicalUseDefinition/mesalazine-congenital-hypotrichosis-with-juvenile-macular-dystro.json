@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-hypotrichosis-with-juvenile-macular-dystrophy",
+          "display": "congenital hypotrichosis with juvenile macular dystrophy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital hypotrichosis with juvenile macular dystrophy",
       "concept": {
         "text": "congenital hypotrichosis with juvenile macular dystrophy"
       }

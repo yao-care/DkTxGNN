@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "migraine-with-or-without-aura-susceptibility-to",
+          "display": "migraine with or without aura, susceptibility to"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "migraine with or without aura, susceptibility to",
       "concept": {
         "text": "migraine with or without aura, susceptibility to"
       }

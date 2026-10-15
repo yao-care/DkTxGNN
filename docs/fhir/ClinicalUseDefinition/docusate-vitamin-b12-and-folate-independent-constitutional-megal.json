@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vitamin-b12-and-folate-independent-constitutional-megaloblastic-anemia",
+          "display": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
       "concept": {
         "text": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
       }

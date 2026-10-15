@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "lipoma-of-colon",
+          "display": "lipoma of colon"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "lipoma of colon",
       "concept": {
         "text": "lipoma of colon"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acute-laryngopharyngitis",
+          "display": "acute laryngopharyngitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acute laryngopharyngitis",
       "concept": {
         "text": "acute laryngopharyngitis"
       }

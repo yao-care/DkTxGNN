@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "febrile-infection-related-epilepsy-syndrome",
+          "display": "febrile infection-related epilepsy syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "febrile infection-related epilepsy syndrome",
       "concept": {
         "text": "febrile infection-related epilepsy syndrome"
       }

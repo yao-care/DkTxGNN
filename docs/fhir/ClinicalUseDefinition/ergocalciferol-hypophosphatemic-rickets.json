@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypophosphatemic-rickets",
+          "display": "hypophosphatemic rickets"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypophosphatemic rickets",
       "concept": {
         "text": "hypophosphatemic rickets"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "respiratory-malformation",
+          "display": "respiratory malformation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "respiratory malformation",
       "concept": {
         "text": "respiratory malformation"
       }

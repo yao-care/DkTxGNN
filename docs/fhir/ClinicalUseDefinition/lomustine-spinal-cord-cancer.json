@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "spinal-cord-cancer",
+          "display": "spinal cord cancer"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "spinal cord cancer",
       "concept": {
         "text": "spinal cord cancer"
       }

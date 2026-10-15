@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ulcerative-stomatitis",
+          "display": "ulcerative stomatitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ulcerative stomatitis",
       "concept": {
         "text": "ulcerative stomatitis"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "non-inflammatory-vasculopathy",
+          "display": "non-inflammatory vasculopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "non-inflammatory vasculopathy",
       "concept": {
         "text": "non-inflammatory vasculopathy"
       }

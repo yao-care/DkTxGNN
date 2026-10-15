@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "progesterone-receptor-negative-breast-cancer",
+          "display": "progesterone-receptor negative breast cancer"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "progesterone-receptor negative breast cancer",
       "concept": {
         "text": "progesterone-receptor negative breast cancer"
       }

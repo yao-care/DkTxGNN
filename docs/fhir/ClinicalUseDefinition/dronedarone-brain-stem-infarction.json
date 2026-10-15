@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "brain-stem-infarction",
+          "display": "brain stem infarction"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "brain stem infarction",
       "concept": {
         "text": "brain stem infarction"
       }

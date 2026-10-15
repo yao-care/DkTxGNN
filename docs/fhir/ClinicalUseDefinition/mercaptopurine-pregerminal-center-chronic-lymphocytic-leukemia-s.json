@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pregerminal-center-chronic-lymphocytic-leukemia-small-lymphocytic-lymphoma",
+          "display": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
       "concept": {
         "text": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "autosomal-dominant-neovascular-inflammatory-vitreoretinopathy",
+          "display": "autosomal dominant neovascular inflammatory vitreoretinopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "autosomal dominant neovascular inflammatory vitreoretinopathy",
       "concept": {
         "text": "autosomal dominant neovascular inflammatory vitreoretinopathy"
       }

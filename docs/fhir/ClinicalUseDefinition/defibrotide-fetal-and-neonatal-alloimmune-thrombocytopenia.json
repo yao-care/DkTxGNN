@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "fetal-and-neonatal-alloimmune-thrombocytopenia",
+          "display": "fetal and neonatal alloimmune thrombocytopenia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "fetal and neonatal alloimmune thrombocytopenia",
       "concept": {
         "text": "fetal and neonatal alloimmune thrombocytopenia"
       }

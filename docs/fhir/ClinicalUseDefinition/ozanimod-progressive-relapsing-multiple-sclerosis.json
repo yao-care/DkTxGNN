@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "progressive-relapsing-multiple-sclerosis",
+          "display": "progressive relapsing multiple sclerosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "progressive relapsing multiple sclerosis",
       "concept": {
         "text": "progressive relapsing multiple sclerosis"
       }

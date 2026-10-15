@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "leukonychia-totalis-acanthosis-nigricans-like-lesions-abnormal-hair-syndrome",
+          "display": "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome",
       "concept": {
         "text": "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome"
       }

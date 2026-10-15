@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "myasthenia-limb-girdle-autoimmune",
+          "display": "myasthenia, limb-girdle, autoimmune"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "myasthenia, limb-girdle, autoimmune",
       "concept": {
         "text": "myasthenia, limb-girdle, autoimmune"
       }

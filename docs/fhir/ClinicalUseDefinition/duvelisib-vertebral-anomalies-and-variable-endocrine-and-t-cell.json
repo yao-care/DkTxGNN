@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vertebral-anomalies-and-variable-endocrine-and-t-cell-dysfunction",
+          "display": "vertebral anomalies and variable endocrine and T-cell dysfunction"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vertebral anomalies and variable endocrine and T-cell dysfunction",
       "concept": {
         "text": "vertebral anomalies and variable endocrine and T-cell dysfunction"
       }

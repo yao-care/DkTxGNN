@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "alopecia-antibody-deficiency",
+          "display": "alopecia antibody deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "alopecia antibody deficiency",
       "concept": {
         "text": "alopecia antibody deficiency"
       }

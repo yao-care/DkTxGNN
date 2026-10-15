@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "x-linked-intellectual-disability-cerebellar-hypoplasia-syndrome",
+          "display": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "X-linked intellectual disability-cerebellar hypoplasia syndrome",
       "concept": {
         "text": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
       }

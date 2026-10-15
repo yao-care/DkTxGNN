@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "parasitic-eyelid-infestation",
+          "display": "parasitic eyelid infestation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "parasitic eyelid infestation",
       "concept": {
         "text": "parasitic eyelid infestation"
       }

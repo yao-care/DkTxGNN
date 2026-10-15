@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-hypotrichosis-milia",
+          "display": "congenital hypotrichosis milia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital hypotrichosis milia",
       "concept": {
         "text": "congenital hypotrichosis milia"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "neonatal-thyrotoxicosis",
+          "display": "neonatal thyrotoxicosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "neonatal thyrotoxicosis",
       "concept": {
         "text": "neonatal thyrotoxicosis"
       }

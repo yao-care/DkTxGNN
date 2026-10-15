@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "atrichia-with-papular-lesions",
+          "display": "atrichia with papular lesions"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "atrichia with papular lesions",
       "concept": {
         "text": "atrichia with papular lesions"
       }

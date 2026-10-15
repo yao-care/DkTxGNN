@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "benign-pecoma",
+          "display": "benign PEComa"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "benign PEComa",
       "concept": {
         "text": "benign PEComa"
       }

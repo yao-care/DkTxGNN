@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "childhood-brain-germinoma",
+          "display": "childhood brain germinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "childhood brain germinoma",
       "concept": {
         "text": "childhood brain germinoma"
       }

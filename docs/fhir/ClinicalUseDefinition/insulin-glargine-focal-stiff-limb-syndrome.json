@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "focal-stiff-limb-syndrome",
+          "display": "focal stiff limb syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "focal stiff limb syndrome",
       "concept": {
         "text": "focal stiff limb syndrome"
       }

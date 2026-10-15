@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "breast-tumor-luminal-a-or-b",
+          "display": "breast tumor luminal A or B"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "breast tumor luminal A or B",
       "concept": {
         "text": "breast tumor luminal A or B"
       }

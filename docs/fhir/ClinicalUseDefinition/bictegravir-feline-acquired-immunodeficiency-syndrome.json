@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "feline-acquired-immunodeficiency-syndrome",
+          "display": "feline acquired immunodeficiency syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "feline acquired immunodeficiency syndrome",
       "concept": {
         "text": "feline acquired immunodeficiency syndrome"
       }

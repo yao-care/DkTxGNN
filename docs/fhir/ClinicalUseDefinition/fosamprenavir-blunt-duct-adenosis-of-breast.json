@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "blunt-duct-adenosis-of-breast",
+          "display": "blunt duct adenosis of breast"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "blunt duct adenosis of breast",
       "concept": {
         "text": "blunt duct adenosis of breast"
       }

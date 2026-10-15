@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mycetoma",
+          "display": "mycetoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mycetoma",
       "concept": {
         "text": "mycetoma"
       }

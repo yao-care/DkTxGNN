@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "brain-small-vessel-disease-1-with-or-without-ocular-anomalies",
+          "display": "brain small vessel disease 1 with or without ocular anomalies"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "brain small vessel disease 1 with or without ocular anomalies",
       "concept": {
         "text": "brain small vessel disease 1 with or without ocular anomalies"
       }

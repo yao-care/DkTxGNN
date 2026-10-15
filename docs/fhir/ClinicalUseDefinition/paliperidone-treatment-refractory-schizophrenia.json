@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "treatment-refractory-schizophrenia",
+          "display": "treatment-refractory schizophrenia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "treatment-refractory schizophrenia",
       "concept": {
         "text": "treatment-refractory schizophrenia"
       }

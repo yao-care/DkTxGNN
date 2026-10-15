@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "heart-disease",
+          "display": "heart disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "heart disease",
       "concept": {
         "text": "heart disease"
       }

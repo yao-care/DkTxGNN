@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "venous-insufficiency-disease",
+          "display": "venous insufficiency (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "venous insufficiency (disease)",
       "concept": {
         "text": "venous insufficiency (disease)"
       }

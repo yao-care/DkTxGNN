@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "endometrial-mixed-adenocarcinoma",
+          "display": "endometrial mixed adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "endometrial mixed adenocarcinoma",
       "concept": {
         "text": "endometrial mixed adenocarcinoma"
       }

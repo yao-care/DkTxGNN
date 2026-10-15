@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "b-cell-neoplasm",
+          "display": "B-cell neoplasm"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "B-cell neoplasm",
       "concept": {
         "text": "B-cell neoplasm"
       }

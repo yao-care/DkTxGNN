@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rasmussen-subacute-encephalitis",
+          "display": "Rasmussen subacute encephalitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Rasmussen subacute encephalitis",
       "concept": {
         "text": "Rasmussen subacute encephalitis"
       }

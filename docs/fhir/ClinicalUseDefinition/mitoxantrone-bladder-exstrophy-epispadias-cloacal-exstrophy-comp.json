@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bladder-exstrophy-epispadias-cloacal-exstrophy-complex",
+          "display": "bladder exstrophy-epispadias-cloacal exstrophy complex"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bladder exstrophy-epispadias-cloacal exstrophy complex",
       "concept": {
         "text": "bladder exstrophy-epispadias-cloacal exstrophy complex"
       }

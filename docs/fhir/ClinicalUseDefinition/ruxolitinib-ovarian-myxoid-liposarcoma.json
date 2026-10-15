@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ovarian-myxoid-liposarcoma",
+          "display": "ovarian myxoid liposarcoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ovarian myxoid liposarcoma",
       "concept": {
         "text": "ovarian myxoid liposarcoma"
       }

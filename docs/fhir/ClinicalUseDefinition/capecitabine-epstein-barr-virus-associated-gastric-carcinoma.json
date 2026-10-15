@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "epstein-barr-virus-associated-gastric-carcinoma",
+          "display": "Epstein-Barr virus-associated gastric carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Epstein-Barr virus-associated gastric carcinoma",
       "concept": {
         "text": "Epstein-Barr virus-associated gastric carcinoma"
       }

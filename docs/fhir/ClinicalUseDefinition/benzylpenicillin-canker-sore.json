@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "canker-sore",
+          "display": "canker sore"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "canker sore",
       "concept": {
         "text": "canker sore"
       }

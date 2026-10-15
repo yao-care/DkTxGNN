@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypersplenism-disease",
+          "display": "hypersplenism (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypersplenism (disease)",
       "concept": {
         "text": "hypersplenism (disease)"
       }

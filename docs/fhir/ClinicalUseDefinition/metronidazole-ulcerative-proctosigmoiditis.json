@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ulcerative-proctosigmoiditis",
+          "display": "ulcerative proctosigmoiditis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ulcerative proctosigmoiditis",
       "concept": {
         "text": "ulcerative proctosigmoiditis"
       }

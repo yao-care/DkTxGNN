@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sezary-syndrome",
+          "display": "Sezary syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Sezary syndrome",
       "concept": {
         "text": "Sezary syndrome"
       }

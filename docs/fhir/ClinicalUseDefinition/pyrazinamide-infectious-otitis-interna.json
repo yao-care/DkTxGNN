@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "infectious-otitis-interna",
+          "display": "infectious otitis interna"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "infectious otitis interna",
       "concept": {
         "text": "infectious otitis interna"
       }

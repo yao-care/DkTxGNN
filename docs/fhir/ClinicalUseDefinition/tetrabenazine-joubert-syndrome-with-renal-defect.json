@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "joubert-syndrome-with-renal-defect",
+          "display": "Joubert syndrome with renal defect"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Joubert syndrome with renal defect",
       "concept": {
         "text": "Joubert syndrome with renal defect"
       }

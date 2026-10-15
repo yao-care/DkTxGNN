@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "gastrocutaneous-syndrome",
+          "display": "gastrocutaneous syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "gastrocutaneous syndrome",
       "concept": {
         "text": "gastrocutaneous syndrome"
       }

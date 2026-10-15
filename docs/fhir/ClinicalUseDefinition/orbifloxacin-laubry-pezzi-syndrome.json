@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "laubry-pezzi-syndrome",
+          "display": "Laubry-Pezzi syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Laubry-Pezzi syndrome",
       "concept": {
         "text": "Laubry-Pezzi syndrome"
       }

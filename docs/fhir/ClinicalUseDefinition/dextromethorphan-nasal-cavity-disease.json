@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "nasal-cavity-disease",
+          "display": "nasal cavity disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "nasal cavity disease",
       "concept": {
         "text": "nasal cavity disease"
       }

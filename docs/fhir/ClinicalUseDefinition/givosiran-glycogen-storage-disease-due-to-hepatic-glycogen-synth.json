@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "glycogen-storage-disease-due-to-hepatic-glycogen-synthase-deficiency",
+          "display": "glycogen storage disease due to hepatic glycogen synthase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "glycogen storage disease due to hepatic glycogen synthase deficiency",
       "concept": {
         "text": "glycogen storage disease due to hepatic glycogen synthase deficiency"
       }

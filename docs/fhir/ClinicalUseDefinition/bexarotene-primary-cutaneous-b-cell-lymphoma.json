@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "primary-cutaneous-b-cell-lymphoma",
+          "display": "primary cutaneous B-cell lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "primary cutaneous B-cell lymphoma",
       "concept": {
         "text": "primary cutaneous B-cell lymphoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "common-wart",
+          "display": "common wart"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "common wart",
       "concept": {
         "text": "common wart"
       }

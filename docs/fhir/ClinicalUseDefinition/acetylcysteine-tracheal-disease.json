@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "tracheal-disease",
+          "display": "tracheal disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "tracheal disease",
       "concept": {
         "text": "tracheal disease"
       }

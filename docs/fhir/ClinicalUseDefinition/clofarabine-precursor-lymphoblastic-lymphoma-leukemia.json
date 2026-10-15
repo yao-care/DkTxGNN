@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "precursor-lymphoblastic-lymphoma-leukemia",
+          "display": "precursor lymphoblastic lymphoma/leukemia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "precursor lymphoblastic lymphoma/leukemia",
       "concept": {
         "text": "precursor lymphoblastic lymphoma/leukemia"
       }

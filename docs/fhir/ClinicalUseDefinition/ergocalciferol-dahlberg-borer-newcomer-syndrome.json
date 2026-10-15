@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "dahlberg-borer-newcomer-syndrome",
+          "display": "Dahlberg-Borer-Newcomer syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Dahlberg-Borer-Newcomer syndrome",
       "concept": {
         "text": "Dahlberg-Borer-Newcomer syndrome"
       }

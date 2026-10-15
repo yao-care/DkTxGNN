@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "sinoatrial-block",
+          "display": "sinoatrial block"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "sinoatrial block",
       "concept": {
         "text": "sinoatrial block"
       }

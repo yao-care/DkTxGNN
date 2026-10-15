@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cervical-disc-degenerative-disorder",
+          "display": "cervical disc degenerative disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cervical disc degenerative disorder",
       "concept": {
         "text": "cervical disc degenerative disorder"
       }

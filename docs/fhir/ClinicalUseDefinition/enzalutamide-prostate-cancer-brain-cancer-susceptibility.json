@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "prostate-cancer-brain-cancer-susceptibility",
+          "display": "prostate cancer/brain cancer susceptibility"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "prostate cancer/brain cancer susceptibility",
       "concept": {
         "text": "prostate cancer/brain cancer susceptibility"
       }

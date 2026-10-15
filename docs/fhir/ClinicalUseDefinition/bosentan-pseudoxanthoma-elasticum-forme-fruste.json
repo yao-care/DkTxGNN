@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "pseudoxanthoma-elasticum-forme-fruste",
+          "display": "pseudoxanthoma elasticum, forme fruste"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "pseudoxanthoma elasticum, forme fruste",
       "concept": {
         "text": "pseudoxanthoma elasticum, forme fruste"
       }

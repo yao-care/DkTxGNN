@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cystic-echinococcosis",
+          "display": "cystic echinococcosis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cystic echinococcosis",
       "concept": {
         "text": "cystic echinococcosis"
       }

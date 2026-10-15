@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "posteroinferior-myocardial-infarction",
+          "display": "posteroinferior myocardial infarction"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "posteroinferior myocardial infarction",
       "concept": {
         "text": "posteroinferior myocardial infarction"
       }

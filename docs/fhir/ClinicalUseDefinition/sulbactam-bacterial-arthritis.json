@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bacterial-arthritis",
+          "display": "bacterial arthritis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bacterial arthritis",
       "concept": {
         "text": "bacterial arthritis"
       }

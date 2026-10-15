@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "irritable-bowel-syndrome",
+          "display": "irritable bowel syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "irritable bowel syndrome",
       "concept": {
         "text": "irritable bowel syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "ophthalmic-herpes-zoster",
+          "display": "ophthalmic herpes zoster"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "ophthalmic herpes zoster",
       "concept": {
         "text": "ophthalmic herpes zoster"
       }

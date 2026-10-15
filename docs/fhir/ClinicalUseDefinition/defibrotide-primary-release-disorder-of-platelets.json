@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "primary-release-disorder-of-platelets",
+          "display": "primary release disorder of platelets"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "primary release disorder of platelets",
       "concept": {
         "text": "primary release disorder of platelets"
       }

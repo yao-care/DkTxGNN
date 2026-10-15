@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "parameningeal-embryonal-rhabdomyosarcoma",
+          "display": "parameningeal embryonal rhabdomyosarcoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "parameningeal embryonal rhabdomyosarcoma",
       "concept": {
         "text": "parameningeal embryonal rhabdomyosarcoma"
       }

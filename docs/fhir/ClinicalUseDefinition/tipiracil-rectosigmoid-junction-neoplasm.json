@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rectosigmoid-junction-neoplasm",
+          "display": "rectosigmoid junction neoplasm"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "rectosigmoid junction neoplasm",
       "concept": {
         "text": "rectosigmoid junction neoplasm"
       }

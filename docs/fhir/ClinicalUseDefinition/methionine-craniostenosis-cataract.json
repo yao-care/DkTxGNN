@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "craniostenosis-cataract",
+          "display": "craniostenosis cataract"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "craniostenosis cataract",
       "concept": {
         "text": "craniostenosis cataract"
       }

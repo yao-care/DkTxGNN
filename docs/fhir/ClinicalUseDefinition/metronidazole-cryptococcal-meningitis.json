@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cryptococcal-meningitis",
+          "display": "Cryptococcal meningitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Cryptococcal meningitis",
       "concept": {
         "text": "Cryptococcal meningitis"
       }

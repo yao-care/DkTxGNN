@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "arrhythmogenic-right-ventricular-cardiomyopathy",
+          "display": "arrhythmogenic right ventricular cardiomyopathy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "arrhythmogenic right ventricular cardiomyopathy",
       "concept": {
         "text": "arrhythmogenic right ventricular cardiomyopathy"
       }

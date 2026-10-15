@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "non-syndromic-esophageal-malformation",
+          "display": "non-syndromic esophageal malformation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "non-syndromic esophageal malformation",
       "concept": {
         "text": "non-syndromic esophageal malformation"
       }

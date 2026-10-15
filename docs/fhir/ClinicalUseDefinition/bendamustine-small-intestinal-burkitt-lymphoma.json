@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "small-intestinal-burkitt-lymphoma",
+          "display": "small intestinal Burkitt lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "small intestinal Burkitt lymphoma",
       "concept": {
         "text": "small intestinal Burkitt lymphoma"
       }

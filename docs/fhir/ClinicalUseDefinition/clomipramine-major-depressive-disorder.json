@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "major-depressive-disorder",
+          "display": "major depressive disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "major depressive disorder",
       "concept": {
         "text": "major depressive disorder"
       }

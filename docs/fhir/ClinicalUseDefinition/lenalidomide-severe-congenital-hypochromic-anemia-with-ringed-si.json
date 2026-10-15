@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "severe-congenital-hypochromic-anemia-with-ringed-sideroblasts",
+          "display": "severe congenital hypochromic anemia with ringed sideroblasts"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "severe congenital hypochromic anemia with ringed sideroblasts",
       "concept": {
         "text": "severe congenital hypochromic anemia with ringed sideroblasts"
       }

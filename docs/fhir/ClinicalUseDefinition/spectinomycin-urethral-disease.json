@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "urethral-disease",
+          "display": "urethral disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "urethral disease",
       "concept": {
         "text": "urethral disease"
       }

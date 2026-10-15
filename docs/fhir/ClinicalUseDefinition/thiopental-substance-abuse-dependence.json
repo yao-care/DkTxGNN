@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "substance-abuse-dependence",
+          "display": "substance abuse/dependence"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "substance abuse/dependence",
       "concept": {
         "text": "substance abuse/dependence"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "inverse-klippel-trenaunay-syndrome",
+          "display": "inverse Klippel-Trenaunay syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "inverse Klippel-Trenaunay syndrome",
       "concept": {
         "text": "inverse Klippel-Trenaunay syndrome"
       }

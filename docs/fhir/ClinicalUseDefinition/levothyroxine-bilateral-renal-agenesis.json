@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bilateral-renal-agenesis",
+          "display": "bilateral renal agenesis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bilateral renal agenesis",
       "concept": {
         "text": "bilateral renal agenesis"
       }

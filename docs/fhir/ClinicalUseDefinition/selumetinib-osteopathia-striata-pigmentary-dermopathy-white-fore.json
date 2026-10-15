@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "osteopathia-striata-pigmentary-dermopathy-white-forelock-syndrome",
+          "display": "osteopathia striata-pigmentary dermopathy-white forelock syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "osteopathia striata-pigmentary dermopathy-white forelock syndrome",
       "concept": {
         "text": "osteopathia striata-pigmentary dermopathy-white forelock syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "nodular-goiter-disease",
+          "display": "nodular goiter (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "nodular goiter (disease)",
       "concept": {
         "text": "nodular goiter (disease)"
       }

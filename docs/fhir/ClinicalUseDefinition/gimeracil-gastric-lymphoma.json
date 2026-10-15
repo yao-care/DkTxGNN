@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "gastric-lymphoma",
+          "display": "gastric lymphoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "gastric lymphoma",
       "concept": {
         "text": "gastric lymphoma"
       }

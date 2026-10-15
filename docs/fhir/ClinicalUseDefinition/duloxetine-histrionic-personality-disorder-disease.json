@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "histrionic-personality-disorder-disease",
+          "display": "histrionic personality disorder (disease)"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "histrionic personality disorder (disease)",
       "concept": {
         "text": "histrionic personality disorder (disease)"
       }

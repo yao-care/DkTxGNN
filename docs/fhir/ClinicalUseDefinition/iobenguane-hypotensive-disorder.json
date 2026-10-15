@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypotensive-disorder",
+          "display": "hypotensive disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypotensive disorder",
       "concept": {
         "text": "hypotensive disorder"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "multiple-system-atrophy",
+          "display": "multiple system atrophy"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "multiple system atrophy",
       "concept": {
         "text": "multiple system atrophy"
       }

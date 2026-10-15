@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "brachydactyly-syndactyly-syndrome",
+          "display": "brachydactyly-syndactyly syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "brachydactyly-syndactyly syndrome",
       "concept": {
         "text": "brachydactyly-syndactyly syndrome"
       }

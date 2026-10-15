@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hypercholesterolemia-due-to-cholesterol-7alpha-hydroxylase-deficiency",
+          "display": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
       "concept": {
         "text": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency"
       }

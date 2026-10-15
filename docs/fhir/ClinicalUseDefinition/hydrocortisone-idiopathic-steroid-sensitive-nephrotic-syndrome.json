@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "idiopathic-steroid-sensitive-nephrotic-syndrome",
+          "display": "idiopathic steroid-sensitive nephrotic syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "idiopathic steroid-sensitive nephrotic syndrome",
       "concept": {
         "text": "idiopathic steroid-sensitive nephrotic syndrome"
       }

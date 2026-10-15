@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "middle-ear-cholesterol-granuloma",
+          "display": "middle ear cholesterol granuloma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "middle ear cholesterol granuloma",
       "concept": {
         "text": "middle ear cholesterol granuloma"
       }

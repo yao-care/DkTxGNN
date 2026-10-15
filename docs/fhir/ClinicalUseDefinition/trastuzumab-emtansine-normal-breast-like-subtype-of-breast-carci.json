@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "normal-breast-like-subtype-of-breast-carcinoma",
+          "display": "normal breast-like subtype of breast carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "normal breast-like subtype of breast carcinoma",
       "concept": {
         "text": "normal breast-like subtype of breast carcinoma"
       }

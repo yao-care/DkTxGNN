@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "massive-neonatal-aspiration-syndrome",
+          "display": "massive neonatal aspiration syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "massive neonatal aspiration syndrome",
       "concept": {
         "text": "massive neonatal aspiration syndrome"
       }

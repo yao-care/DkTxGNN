@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "disorder-of-peroxisomal-alpha-beta-and-omega-oxidation",
+          "display": "disorder of peroxisomal alpha-, beta- and omega-oxidation"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "disorder of peroxisomal alpha-, beta- and omega-oxidation",
       "concept": {
         "text": "disorder of peroxisomal alpha-, beta- and omega-oxidation"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "obsolete-bundle-branch-block",
+          "display": "obsolete bundle branch block"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "obsolete bundle branch block",
       "concept": {
         "text": "obsolete bundle branch block"
       }

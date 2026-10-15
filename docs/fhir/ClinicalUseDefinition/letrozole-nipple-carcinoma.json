@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "nipple-carcinoma",
+          "display": "nipple carcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "nipple carcinoma",
       "concept": {
         "text": "nipple carcinoma"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "intestinal-pseudoobstruction-neuronal-chronic-idiopathic-x-linked",
+          "display": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked",
       "concept": {
         "text": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
       }

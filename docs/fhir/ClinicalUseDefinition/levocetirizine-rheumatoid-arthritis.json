@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "rheumatoid-arthritis",
+          "display": "rheumatoid arthritis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "rheumatoid arthritis",
       "concept": {
         "text": "rheumatoid arthritis"
       }

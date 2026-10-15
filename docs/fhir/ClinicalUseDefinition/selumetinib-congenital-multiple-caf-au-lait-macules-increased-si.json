@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "congenital-multiple-caf-au-lait-macules-increased-sister-chromatid-exchange-syndrome",
+          "display": "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome",
       "concept": {
         "text": "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome"
       }

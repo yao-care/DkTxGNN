@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "disorder-of-tyrosine-metabolism",
+          "display": "disorder of tyrosine metabolism"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "disorder of tyrosine metabolism",
       "concept": {
         "text": "disorder of tyrosine metabolism"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "polyp-of-middle-ear",
+          "display": "polyp of middle ear"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "polyp of middle ear",
       "concept": {
         "text": "polyp of middle ear"
       }

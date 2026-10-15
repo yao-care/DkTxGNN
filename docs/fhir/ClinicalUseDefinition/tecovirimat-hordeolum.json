@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hordeolum",
+          "display": "hordeolum"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hordeolum",
       "concept": {
         "text": "hordeolum"
       }

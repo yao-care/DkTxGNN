@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "atrophoderma-vermiculata",
+          "display": "atrophoderma vermiculata"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "atrophoderma vermiculata",
       "concept": {
         "text": "atrophoderma vermiculata"
       }

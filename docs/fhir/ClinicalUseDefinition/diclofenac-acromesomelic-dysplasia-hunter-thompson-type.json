@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acromesomelic-dysplasia-hunter-thompson-type",
+          "display": "acromesomelic dysplasia, Hunter-Thompson type"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acromesomelic dysplasia, Hunter-Thompson type",
       "concept": {
         "text": "acromesomelic dysplasia, Hunter-Thompson type"
       }

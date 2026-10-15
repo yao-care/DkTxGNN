@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mucin-rich-endometrial-endometrioid-adenocarcinoma",
+          "display": "mucin-rich endometrial endometrioid adenocarcinoma"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mucin-rich endometrial endometrioid adenocarcinoma",
       "concept": {
         "text": "mucin-rich endometrial endometrioid adenocarcinoma"
       }
