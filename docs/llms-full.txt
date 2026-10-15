@@ -1,0 +1,42 @@
+# DkTxGNN — AI-læsbart resumé
+
+## Platformens placering
+
+DkTxGNN er en forskningsplatform for genanvendelse af lægemidler (drug repurposing) for lægemidler i Danmark, drevet af 藥提醒科技有限公司 (yao.care). Den offentliggør AI-forudsigelser, klinisk evidens og lægemiddelsikkerhedsdata; indholdet er kun til forskning og er ikke medicinsk rådgivning.
+
+## Metode og evidens
+
+Bygger på TxGNN-metoden fra Zitnik Lab (Harvard) og undersøger mulige sammenhænge mellem eksisterende lægemidler og nye indikationer. Modelforudsigelser kombineres med ClinicalTrials.gov, PubMed, DrugBank, data fra DKMA og DDInter i sporbare rapporter.
+
+Evidensniveauerne går fra L1 (stærkere klinisk evidens) til L5 (kun modelforudsigelse); en modelscore betyder ikke klinisk effekt. Enhver kandidat kræver fortsat kliniske forsøg, myndighedsvurdering og vurdering af kvalificerede sundhedsfaglige.
+
+## Hovedindhold
+
+- `/` Forudsigelser for L\u00e6gemiddelrepositionering \u2014 Danmark — AI-powered drug repurposing predictions for 501 Danish Medicines Agency (DKMA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation.
+- `/drugs/` Alle lægemidler — Alle valideringsrapporter for lægemidler og statistik over evidensniveauer i DkTxGNN.
+- `/evidence-high/` Høj evidens (L1-L2) — Kandidater til lægemiddelrepositionering på L1-L2 i DkTxGNN, understøttet af kliniske forsøg eller systematiske oversigter.
+- `/evidence-medium/` Moderat evidens (L3-L4) — Kandidater til lægemiddelrepositionering på L3-L4 i DkTxGNN, understøttet af observationsbaseret eller præklinisk evidens.
+- `/evidence-low/` Kun modelforudsigelse (L5) — L5-kandidater i DkTxGNN: kun modelforudsigelse, endnu uden klinisk evidens eller litteraturevidens.
+- `/methodology/` Metode — Sådan producerer og validerer DkTxGNN sine forudsigelser: forudsigelse med TxGNN-videngraf, evidensindsamling, gradering fra L1 til L5 og beslutningsanbefalinger.
+- `/guide/` Brugervejledning — Brugervejledning til DkTxGNN: sådan slår du lægemidler op, læser evidensniveauer og fortolker anbefalinger.
+- `/sources/` Datakilder — Datakilderne bag DkTxGNN: registreringsdata fra DKMA, TxGNN, ClinicalTrials.gov, PubMed og DrugBank.
+- `/downloads/` Downloads — Åbne data til download fra DkTxGNN: FHIR-ressourcer, forudsigelsesresultater og søgeindeks.
+- `/news/` Sundhedsnyheder — Health news coverage tracked by DkTxGNN for its drugs and indications.
+- `/about/` Om platformen — DkTxGNN er en platform til forudsigelse af lægemiddelrepositionering udviklet af 藥提醒科技有限公司 (yao.care), bygget på Harvards TxGNN-model og dækkende DKMA-godkendte lægemidler i Danmark.
+
+## Eksempler på lægemiddelrapporter
+
+- Amiodarone (L1): https://dktxgnn.yao.care/drugs/amiodarone/
+- Anastrozole (L1): https://dktxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L1): https://dktxgnn.yao.care/drugs/aripiprazole/
+
+## Citation og begrænsninger
+
+Citér venligst den originale TxGNN-artikel (https://doi.org/10.1038/s41591-023-02233-x). Sidens indhold og forudsigelser er kun til forskning og undervisning og er ikke medicinsk rådgivning; enhver reel anvendelse skal bekræftes af kvalificerede fagfolk, kliniske forsøg og myndighedsvurdering.
+
+## Officielle links
+
+- https://dktxgnn.yao.care/
+- https://www.yao.care/medical/txgnn/
+- https://github.com/yao-care/DkTxGNN
+- https://doi.org/10.1038/s41591-023-02233-x

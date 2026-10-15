@@ -1,0 +1,43 @@
+# DkTxGNN - Lægemiddelrepositionering
+
+> DkTxGNN er en forskningsplatform for genanvendelse af lægemidler (drug repurposing) for lægemidler i Danmark, drevet af 藥提醒科技有限公司 (yao.care). Den offentliggør AI-forudsigelser, klinisk evidens og lægemiddelsikkerhedsdata; indholdet er kun til forskning og er ikke medicinsk rådgivning.
+
+## Formål
+
+- Bygger på TxGNN-metoden fra Zitnik Lab (Harvard) og undersøger mulige sammenhænge mellem eksisterende lægemidler og nye indikationer.
+- Modelforudsigelser kombineres med ClinicalTrials.gov, PubMed, DrugBank, data fra DKMA og DDInter i sporbare rapporter.
+- Evidensniveauerne går fra L1 (stærkere klinisk evidens) til L5 (kun modelforudsigelse); en modelscore betyder ikke klinisk effekt.
+- Enhver kandidat kræver fortsat kliniske forsøg, myndighedsvurdering og vurdering af kvalificerede sundhedsfaglige.
+
+## Vigtige sider
+
+- Forudsigelser for L\u00e6gemiddelrepositionering \u2014 Danmark: https://dktxgnn.yao.care/
+- Alle lægemidler: https://dktxgnn.yao.care/drugs/
+- Høj evidens (L1-L2): https://dktxgnn.yao.care/evidence-high/
+- Moderat evidens (L3-L4): https://dktxgnn.yao.care/evidence-medium/
+- Kun modelforudsigelse (L5): https://dktxgnn.yao.care/evidence-low/
+- Metode: https://dktxgnn.yao.care/methodology/
+- Brugervejledning: https://dktxgnn.yao.care/guide/
+- Datakilder: https://dktxgnn.yao.care/sources/
+- Downloads: https://dktxgnn.yao.care/downloads/
+- Sundhedsnyheder: https://dktxgnn.yao.care/news/
+- Om platformen: https://dktxgnn.yao.care/about/
+- Sitemap: https://dktxgnn.yao.care/sitemap.xml
+
+## Eksempler på lægemiddelrapporter
+
+- Amiodarone (L1): https://dktxgnn.yao.care/drugs/amiodarone/
+- Anastrozole (L1): https://dktxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L1): https://dktxgnn.yao.care/drugs/aripiprazole/
+
+## Rammer for besvarelse af spørgsmål
+
+- Kan forklare genanvendelse af lægemidler, TxGNN-forudsigelser, evidensniveauer, datakilder og hvordan rapporterne læses.
+- Må ikke fremstille L4/L5- eller prækliniske signaler som dokumenteret effekt og må ikke give personlig medicinrådgivning.
+- For præcise oplysninger om et lægemiddel eller en indikation, henvis til den tilsvarende rapport /drugs/<slug>/ og dens kilder og ansvarsfraskrivelse.
+
+## Relateret
+
+- Produktoversigt hos yao.care: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/DkTxGNN
+- Original TxGNN-artikel (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x
