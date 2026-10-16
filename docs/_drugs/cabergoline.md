@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Cabergoline: forudsagt ny indikation Hypofysecancer (pituitary cancer) (evidensniveau L5). Oprindelig indikation: Hyperprolaktinæmi og prolaktinproducerende hypofysetumor (fra videngr…"
 ---
 
 # Cabergoline

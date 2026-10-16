@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dexibuprofen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, juvenil idiopatisk artrit…"
 ---
 
 # Dexibuprofen

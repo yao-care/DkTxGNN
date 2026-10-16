@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 491
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Letrozole: forudsagt ny indikation Kvindelig brystkræft (rang 1) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
 ---
 
 # Letrozole

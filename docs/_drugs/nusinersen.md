@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Nusinersen: forudsagt ny indikation Blandet mineralstøv-pneumokoniose (evidensniveau L5). Oprindelig indikation: Spinal muskelatrofi"
 ---
 
 # Nusinersen

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Interferon Beta-1A: forudsagt ny indikation Jeune syndrom med situs inversus (evidensniveau L5). Oprindelig indikation: Relapsing-remitting multipel sklerose (fra vidensgrafen"
 ---
 
 # Interferon Beta-1A

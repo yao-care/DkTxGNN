@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tilmicosin: forudsagt ny indikation Jeune syndrom med situs inversus (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Produ…"
 ---
 
 # Tilmicosin

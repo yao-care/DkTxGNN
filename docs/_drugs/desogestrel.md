@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desogestrel: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de sammenstillede data (godkendt indikationstekst er to…"
 ---
 
 # Desogestrel

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Nitisinone: forudsagt ny indikation Renal tubulær acidose (evidensniveau L5). Oprindelig indikation: Tyrosinæmi (angivet i vidensgrafen"
 ---
 
 # Nitisinone

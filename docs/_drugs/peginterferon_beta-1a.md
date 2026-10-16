@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Peginterferon Beta-1A: forudsagt ny indikation Hjertetumor (heart neoplasm) (evidensniveau L5). Oprindelig indikation: Relapsing-remitting multipel sklerose"
 ---
 
 # Peginterferon Beta-1A

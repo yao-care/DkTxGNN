@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 149
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Calcipotriol: forudsagt ny indikation Seborrhoisk keratose (evidensniveau L3). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
 # Calcipotriol

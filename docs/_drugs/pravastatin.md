@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 678
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Pravastatin: forudsagt ny indikation Homozygot familiær hyperkolesterolæmi (evidensniveau L4). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Ifølge videnbasen…"
 ---
 
 # Pravastatin

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 882
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Verteporfin: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleæ… (evidensniveau L5). Oprindelig indikation: Makuladegeneration"
 ---
 
 # Verteporfin

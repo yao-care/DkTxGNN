@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 228
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cysteine: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L4). Oprindelig indikation: Bronkitis, paracetamolforgiftning, cystisk fibrose…"
 ---
 
 # Cysteine

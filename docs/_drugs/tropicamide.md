@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Tropicamide: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Cycloplegi (fra videnbasen"
 ---
 
 # Tropicamide

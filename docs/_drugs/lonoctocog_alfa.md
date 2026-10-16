@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lonoctocog Alfa: forudsagt ny indikation Pseudo-von Willebrands sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 ---
 
 # Lonoctocog Alfa

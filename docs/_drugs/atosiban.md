@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Atosiban: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Forsinkelse af for tidlig fødsel (tokolyse) hos voksne gravide kvinde…"
 ---
 
 # Atosiban

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Defibrotide: forudsagt ny indikation Pseudo-von Willebrand sygdom (rang 1 i modellen). Den bedst understøt… (evidensniveau L5). Oprindelig indikation: Hepatisk veno-okklusiv sygdom (VOD) og hepatisk …"
 ---
 
 # Defibrotide

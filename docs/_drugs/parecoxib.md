@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 631
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Parecoxib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 ---
 
 # Parecoxib

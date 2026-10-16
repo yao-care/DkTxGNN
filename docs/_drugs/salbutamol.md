@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Salbutamol: forudsagt ny indikation Papillær konjunktivitis (evidensniveau L5). Oprindelig indikation: Astma og bronkial sygdom"
 ---
 
 # Salbutamol

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 20
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Acitretin: forudsagt ny indikation Akne (acne) (evidensniveau L3). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
 ---
 
 # Acitretin

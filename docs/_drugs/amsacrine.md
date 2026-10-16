@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Amsacrine: forudsagt ny indikation Hyperthyroidisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten for det dans…"
 ---
 
 # Amsacrine

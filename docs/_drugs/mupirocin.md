@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mupirocin: forudsagt ny indikation Pleural empyem (evidensniveau L5). Oprindelig indikation: Impetigo og bulløs impetigo (fra TxGNN-vidensgrafen"
 ---
 
 # Mupirocin

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Metreleptin: forudsagt ny indikation Familiær generaliseret lentiginose (evidensniveau L5). Oprindelig indikation: Medfødt generaliseret lipodystrofi (Berardinelli-Seip) og lipodystrof…"
 ---
 
 # Metreleptin

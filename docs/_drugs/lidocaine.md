@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lidocaine: forudsagt ny indikation Punkteret epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Dermatitis, neuralgi, postherpetisk neuralgi, hæmorroider, skabb…"
 ---
 
 # Lidocaine

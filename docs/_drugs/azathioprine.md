@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Azathioprine: forudsagt ny indikation Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (evidensniveau L5). Oprindelig indikation: Reumatoid artrit"
 ---
 
 # Azathioprine

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 514
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lurasidone: forudsagt ny indikation Manisk bipolar affektiv lidelse (evidensniveau L3). Oprindelig indikation: Skizofreni og bipolar lidelse (ifølge TxGNN-vidensgrafen"
 ---
 
 # Lurasidone

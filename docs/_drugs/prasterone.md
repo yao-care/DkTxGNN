@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prasterone: forudsagt ny indikation Heparin cofactor 2-mangel (evidensniveau L5). Oprindelig indikation: Systemisk lupus erythematosus…"
 ---
 
 # Prasterone

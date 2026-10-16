@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clarithromycin: forudsagt ny indikation Hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner, bl.a. infektiøs otitis media…"
 ---
 
 # Clarithromycin

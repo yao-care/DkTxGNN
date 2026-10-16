@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Palivizumab: forudsagt ny indikation Godartet tumor i tungen (benign neoplasm of tongue) (evidensniveau L5). Oprindelig indikation: Infektion med respiratorisk syncytialvirus (RSV)"
 ---
 
 # Palivizumab

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Filgrastim: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Konstitutionel neutropeni, svær kongenit neutropeni…"
 ---
 
 # Filgrastim

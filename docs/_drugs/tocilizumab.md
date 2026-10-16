@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 839
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tocilizumab: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L3). Oprindelig indikation: Leddegigt (rheumatoid arthritis), juvenil idiopatisk artritis…"
 ---
 
 # Tocilizumab

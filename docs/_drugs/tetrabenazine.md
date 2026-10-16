@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tetrabenazine: forudsagt ny indikation Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (evidensniveau L5). Oprindelig indikation: Huntingtons sygdom (samt Huntington-lignende sygdomme…"
 ---
 
 # Tetrabenazine

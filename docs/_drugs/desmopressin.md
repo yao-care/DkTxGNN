@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 251
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desmopressin: forudsagt ny indikation Medfødt protrombinmangel (evidensniveau L4). Oprindelig indikation: Arvelig von Willebrand-sygdom…"
 ---
 
 # Desmopressin

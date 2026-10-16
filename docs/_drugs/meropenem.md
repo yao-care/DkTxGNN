@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 532
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Meropenem: forudsagt ny indikation Bakteriel artritis (evidensniveau L3). Oprindelig indikation: Bakterielle infektioner (bl.a. Pseudomonas aeruginosa-infektion…"
 ---
 
 # Meropenem

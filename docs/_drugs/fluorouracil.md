@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fluorouracil: forudsagt ny indikation Botryoid embryonal rhabdomyosarkom i vagina (evidensniveau L5). Oprindelig indikation: Mavekræft, kræft i bugspytkirtlen, metastaserende tyktarmskræft…"
 ---
 
 # Fluorouracil

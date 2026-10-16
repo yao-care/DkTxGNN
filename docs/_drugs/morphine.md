@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 568
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Morphine: forudsagt ny indikation Uroligt bensyndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Diarrésygdom (fra videnbasen"
 ---
 
 # Morphine

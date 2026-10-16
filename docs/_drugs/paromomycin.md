@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Paromomycin: forudsagt ny indikation Idiopatisk kobberassocieret cirrose (evidensniveau L5). Oprindelig indikation: Hepatisk koma / hepatisk encefalopati (fra TxGNN-vidensgrafen"
 ---
 
 # Paromomycin

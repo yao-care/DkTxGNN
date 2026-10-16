@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Isoprenaline: forudsagt ny indikation Bronkial sygdom (rang 6 (evidensniveau L5). Oprindelig indikation: Hjertestop, atrioventrikulær blok, forkølelse…"
 ---
 
 # Isoprenaline

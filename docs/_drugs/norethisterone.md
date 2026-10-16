@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Norethisterone: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Endometriose, primær ovarieinsufficiens, postmenopausal osteoporose…"
 ---
 
 # Norethisterone

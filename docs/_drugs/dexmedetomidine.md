@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Dexmedetomidine: forudsagt ny indikation Hovedpineforstyrrelse (rang 4 af 5 (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
 ---
 
 # Dexmedetomidine

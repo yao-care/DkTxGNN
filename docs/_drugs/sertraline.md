@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Sertraline: forudsagt ny indikation Agorafobi (evidensniveau L5). Oprindelig indikation: Angstlidelse, OCD, PTSD, social fobi, dysthymi (fra TxGNN-vidensgrafen"
 ---
 
 # Sertraline

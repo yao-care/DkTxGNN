@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ribavirin: forudsagt ny indikation Kronisk hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og RSV-infektion (den godkendte in…"
 ---
 
 # Ribavirin

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 431
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Imipramine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L3). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthym lidelse…"
 ---
 
 # Imipramine

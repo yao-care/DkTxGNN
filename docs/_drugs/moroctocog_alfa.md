@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Moroctocog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
 # Moroctocog Alfa

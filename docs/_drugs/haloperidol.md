@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Haloperidol: forudsagt ny indikation Medfødt glykosyleringsforstyrrelse med defekt fucosylering (evidensniveau L5). Oprindelig indikation: Psykotiske lidelser, skizofreni, skizoaffektiv lidelse…"
 ---
 
 # Haloperidol

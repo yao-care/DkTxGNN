@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, atopisk konjunktivitis…"
 ---
 
 # Olopatadine

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 840
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tolcapone: forudsagt ny indikation Rasmussen subakut encefalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom (den danske tilladelse indeholder ingen indikations…"
 ---
 
 # Tolcapone

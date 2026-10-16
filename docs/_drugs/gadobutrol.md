@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Gadobutrol: forudsagt ny indikation Benign prostatahyperplasi (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
 ---
 
 # Gadobutrol

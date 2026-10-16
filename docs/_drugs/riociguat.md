@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 723
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Riociguat: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension og kronisk tromboembolisk pulmonal hyp…"
 ---
 
 # Riociguat

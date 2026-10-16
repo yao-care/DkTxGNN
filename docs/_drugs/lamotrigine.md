@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Lamotrigine: forudsagt ny indikation Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor… (evidensniveau L5). Oprindelig indikation: Epilepsi, partiel epilepsi og Lennox-Gastaut-syndr…"
 ---
 
 # Lamotrigine

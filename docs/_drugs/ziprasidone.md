@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 903
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ziprasidone: forudsagt ny indikation Svær affektiv lidelse (major affective disorder) (evidensniveau L2). Oprindelig indikation: Skizofreni…"
 ---
 
 # Ziprasidone

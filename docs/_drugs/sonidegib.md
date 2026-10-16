@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 767
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sonidegib: forudsagt ny indikation Medulloblastom med udtalt nodularitet (evidensniveau L5). Oprindelig indikation: Basalcellekarcinom og andre hudkarcinomer (ifølge TxGNN-vidensgrafen"
 ---
 
 # Sonidegib

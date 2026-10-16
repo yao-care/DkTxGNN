@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Amantadine: forudsagt ny indikation Rasmussen subakut encephalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom og beslægtede parkinsonistiske lidelser (ifølge vid…"
 ---
 
 # Amantadine

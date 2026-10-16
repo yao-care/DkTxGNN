@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Dexpanthenol: forudsagt ny indikation Udslæt (eksantem) (evidensniveau L5). Oprindelig indikation: Paralytisk ileus, tarmobstruktion, hudsygdomme, atopisk eksem…"
 ---
 
 # Dexpanthenol

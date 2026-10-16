@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aprepitant: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 ---
 
 # Aprepitant

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 900
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L4). Oprindelig indikation: Mantelcellelymfom, B-celle-neoplasi, lymfosarkom"
 ---
 
 # Zanubrutinib

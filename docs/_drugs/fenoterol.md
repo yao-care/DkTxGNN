@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Fenoterol: forudsagt ny indikation Multipel systematrofi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten for det dans…"
 ---
 
 # Fenoterol

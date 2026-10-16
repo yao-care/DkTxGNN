@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Candesartan Cilexetil: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 ---
 
 # Candesartan Cilexetil

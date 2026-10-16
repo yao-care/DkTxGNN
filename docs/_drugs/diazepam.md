@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 259
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Diazepam: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Epilepsi, status epilepticus, alkoholabstinens (inkl. delirium)…"
 ---
 
 # Diazepam

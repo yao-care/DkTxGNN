@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 248
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Delamanid: forudsagt ny indikation Inaktiv tuberkulose (evidensniveau L2). Oprindelig indikation: Multiresistent tuberkulose"
 ---
 
 # Delamanid

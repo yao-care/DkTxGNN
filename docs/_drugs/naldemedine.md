@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 0
+last_modified_at: 2026-09-19
+description: "Naldemedine: forudsagt ny indikation — (Ingen forudsigelser returneret) (evidensniveau L5). Oprindelig indikation: Opioid-induceret obstipation (OIC) — kroniske ikke-kræftrelaterede sm…"
 ---
 
 # Naldemedine

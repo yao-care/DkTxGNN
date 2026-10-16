@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 537
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methionine: forudsagt ny indikation Akne (acne) (evidensniveau L4). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsesteksterne er tomme)"
 ---
 
 # Methionine

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Budesonide: forudsagt ny indikation Bronkitis (rang 2). Rang 1 er atopisk eksem (score 99,96 %)… (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
 ---
 
 # Budesonide

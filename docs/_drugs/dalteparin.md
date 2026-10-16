@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Dalteparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (evidensniveau L5). Oprindelig indikation: Lungeemboli, dissemineret intravaskulær koagulation…"
 ---
 
 # Dalteparin

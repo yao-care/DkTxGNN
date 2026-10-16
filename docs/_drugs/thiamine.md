@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 821
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Thiamine: forudsagt ny indikation Hyperthyroidisme (evidensniveau L3). Oprindelig indikation: Ikke angivet i de data…"
 ---
 
 # Thiamine

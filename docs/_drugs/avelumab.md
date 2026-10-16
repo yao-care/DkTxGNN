@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Avelumab: forudsagt ny indikation Human herpesvirus 8-relateret tumor (evidensniveau L5). Oprindelig indikation: Kutant neuroendokrint karcinom (fra vidensgrafen"
 ---
 
 # Avelumab

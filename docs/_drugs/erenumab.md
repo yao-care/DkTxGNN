@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 321
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Erenumab: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura)"
 ---
 
 # Erenumab

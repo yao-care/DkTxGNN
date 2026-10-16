@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 647
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Perampanel: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi / partiel motorisk epilepsi (fra vidensgrafen"
 ---
 
 # Perampanel

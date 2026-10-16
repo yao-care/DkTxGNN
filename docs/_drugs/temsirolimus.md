@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Temsirolimus: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Mantelcellelymfom, B-celleneoplasme…"
 ---
 
 # Temsirolimus

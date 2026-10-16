@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de danske data. Iføl…"
 ---
 
 # Canakinumab

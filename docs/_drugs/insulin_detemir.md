@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 440
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Insulin Detemir: forudsagt ny indikation Type 1-diabetes mellitus (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose"
 ---
 
 # Insulin Detemir

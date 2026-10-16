@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Reslizumab: forudsagt ny indikation Trombocytopeni på grund af immundestruktion (evidensniveau L5). Oprindelig indikation: Eosinofil pneumoni / pulmonal eosinofili (angivet i vidensgrafen"
 ---
 
 # Reslizumab

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 817
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Tetracycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L4). Oprindelig indikation: Urinvejsinfektion, bronkitis, akne, pharyngitis, konjunktivitis…"
 ---
 
 # Tetracycline

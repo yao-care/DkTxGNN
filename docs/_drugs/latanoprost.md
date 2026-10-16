@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Latanoprost: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension (ifølge videnbasen"
 ---
 
 # Latanoprost

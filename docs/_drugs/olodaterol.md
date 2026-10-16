@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Olodaterol: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Kronisk obstruktiv lungesygdom (KOL)"
 ---
 
 # Olodaterol

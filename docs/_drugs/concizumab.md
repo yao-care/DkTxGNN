@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Concizumab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Hæmofili A/B-profylakse (fremgår ikke af den danske tilladelsestekst…"
 ---
 
 # Concizumab

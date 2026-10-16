@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 59
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amprenavir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 ---
 
 # Amprenavir

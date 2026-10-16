@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 906
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Zolmitriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura). Den godkendte indikationstekst…"
 ---
 
 # Zolmitriptan

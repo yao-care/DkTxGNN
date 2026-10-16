@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 315
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Eplerenone: forudsagt ny indikation Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (evidensniveau L4). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 ---
 
 # Eplerenone

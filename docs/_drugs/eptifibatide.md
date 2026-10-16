@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eptifibatide: forudsagt ny indikation Hæmoglobinopati (herunder seglcellesygdom) (evidensniveau L5). Oprindelig indikation: Akut koronarsyndrom (fra TxGNN-vidensgrafen"
 ---
 
 # Eptifibatide

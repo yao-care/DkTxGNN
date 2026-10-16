@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 835
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tisagenlecleucel: forudsagt ny indikation Crohns colitis (evidensniveau L5). Oprindelig indikation: B-cellemaligniteter"
 ---
 
 # Tisagenlecleucel

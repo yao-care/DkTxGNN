@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dalbavancin: forudsagt ny indikation Postinfektiøs vaskulitis (evidensniveau L5). Oprindelig indikation: Infektionsbetingede hudsygdomme (fra vidensgrafen"
 ---
 
 # Dalbavancin

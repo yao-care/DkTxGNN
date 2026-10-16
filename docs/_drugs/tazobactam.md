@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Tazobactam: forudsagt ny indikation Lungebetændelse (pneumonia) (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse, peritonitis, appendicitis…"
 ---
 
 # Tazobactam

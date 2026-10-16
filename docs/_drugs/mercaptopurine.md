@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 531
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mercaptopurine: forudsagt ny indikation Myeloid leukæmi (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær leukæmi (fra videnbasen"
 ---
 
 # Mercaptopurine

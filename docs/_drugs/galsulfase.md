@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Galsulfase: forudsagt ny indikation Ptosis-strabismus-ektopiske pupiller-syndrom (evidensniveau L5). Oprindelig indikation: Mucopolysaccharidose (MPS VI) (fra videnbasen"
 ---
 
 # Galsulfase

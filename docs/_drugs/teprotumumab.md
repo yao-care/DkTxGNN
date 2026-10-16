@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Teprotumumab: forudsagt ny indikation Monosomi X (evidensniveau L5). Oprindelig indikation: Endokrin eksoftalmus (skjoldbruskkirtelrelateret øjensygdom). Godkend…"
 ---
 
 # Teprotumumab

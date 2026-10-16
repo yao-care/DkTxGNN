@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cannabidiol: forudsagt ny indikation Restless legs syndrom (evidensniveau L5). Oprindelig indikation: Lennox-Gastaut syndrom, Dravet syndrom m.fl"
 ---
 
 # Cannabidiol

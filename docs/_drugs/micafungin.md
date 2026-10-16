@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 549
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection) (evidensniveau L3). Oprindelig indikation: Candidiasis i spiserøret, candidæmi…"
 ---
 
 # Micafungin

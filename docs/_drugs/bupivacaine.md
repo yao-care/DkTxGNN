@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Bupivacaine: forudsagt ny indikation Acrodermatitis chronica atrophicans (evidensniveau L5). Oprindelig indikation: Dermatitis (fra TxGNN-vidensgrafen"
 ---
 
 # Bupivacaine

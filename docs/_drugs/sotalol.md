@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Sotalol: forudsagt ny indikation Sick sinus-syndrom 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Atrieflimren (fra videnbasen"
 ---
 
 # Sotalol

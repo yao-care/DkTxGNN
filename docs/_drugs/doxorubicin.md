@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Doxorubicin: forudsagt ny indikation Ewing-sarkom (evidensniveau L5). Oprindelig indikation: Akut lymfatisk leukæmi, Hodgkin- og non-Hodgkin-lymfom…"
 ---
 
 # Doxorubicin

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aflibercept: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Metastaserende tyktarmskræft, makuladegeneration…"
 ---
 
 # Aflibercept

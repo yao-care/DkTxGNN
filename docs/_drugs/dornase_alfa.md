@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dornase Alfa: forudsagt ny indikation Blandet mineralstøvpneumokoniose (evidensniveau L5). Oprindelig indikation: Cystisk fibrose"
 ---
 
 # Dornase Alfa

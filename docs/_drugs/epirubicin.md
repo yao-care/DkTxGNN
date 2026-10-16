@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Epirubicin: forudsagt ny indikation Småcellet lungekarcinom (evidensniveau L5). Oprindelig indikation: Brystkarcinom / brystneoplasi (angivet i vidensgrafen"
 ---
 
 # Epirubicin

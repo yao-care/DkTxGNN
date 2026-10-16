@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Bosentan: forudsagt ny indikation Begrænset systemisk sklerose (alternativt: leddegigt… (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension og sklerodermi"
 ---
 
 # Bosentan

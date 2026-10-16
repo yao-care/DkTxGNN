@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Clotrimazole: forudsagt ny indikation Acne (evidensniveau L5). Oprindelig indikation: Tinea pedis, tinea corporis, kutan candidiasis, pityriasis versicolor…"
 ---
 
 # Clotrimazole

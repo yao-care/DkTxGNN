@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 737
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rotigotine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L4). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
 ---
 
 # Rotigotine

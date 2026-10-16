@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Imidapril: forudsagt ny indikation Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk). Det danske godkendelses…"
 ---
 
 # Imidapril

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 898
 evidence_level: L3
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Faryngitis og forkølelse (fra vidensgrafen"
 ---
 
 # Xylometazoline

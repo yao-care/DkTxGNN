@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 235
 evidence_level: L1
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Dapsone: forudsagt ny indikation Pneumocystose (evidensniveau L1). Oprindelig indikation: Dermatitis herpetiformis, akne og lepra"
 ---
 
 # Dapsone

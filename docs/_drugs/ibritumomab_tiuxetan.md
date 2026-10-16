@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ibritumomab Tiuxetan: forudsagt ny indikation Akut lymfoblastær/lymfocytær leukæmi (evidensniveau L5). Oprindelig indikation: Follikulært lymfom og neoplasme i modne B-celler"
 ---
 
 # Ibritumomab Tiuxetan

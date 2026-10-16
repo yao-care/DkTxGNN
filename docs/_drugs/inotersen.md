@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 436
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Inotersen: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
 ---
 
 # Inotersen

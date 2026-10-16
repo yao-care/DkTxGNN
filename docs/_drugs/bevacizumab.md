@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bevacizumab: forudsagt ny indikation Epiglottisneoplasme (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de indsamlede data f…"
 ---
 
 # Bevacizumab

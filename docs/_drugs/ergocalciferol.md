@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 322
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ergocalciferol: forudsagt ny indikation Renal osteodystrofi (evidensniveau L3). Oprindelig indikation: Osteoporose, D-vitaminmangel, rakitis, osteomalaci…"
 ---
 
 # Ergocalciferol

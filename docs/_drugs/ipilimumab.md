@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Ipilimumab: forudsagt ny indikation Choroideremi (evidensniveau L5). Oprindelig indikation: Metastatisk melanom"
 ---
 
 # Ipilimumab

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 696
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Pyridostigmine: forudsagt ny indikation Myasthenia gravis med thymushyperplasi (evidensniveau L3). Oprindelig indikation: Myasthenia gravis"
 ---
 
 # Pyridostigmine

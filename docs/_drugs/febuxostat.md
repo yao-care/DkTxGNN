@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 347
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Febuxostat: forudsagt ny indikation Renal hypourikæmi (evidensniveau L4). Oprindelig indikation: Hyperurikæmi"
 ---
 
 # Febuxostat

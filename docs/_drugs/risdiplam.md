@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 726
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Risdiplam: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (kendt anvendelse: spinal m…"
 ---
 
 # Risdiplam

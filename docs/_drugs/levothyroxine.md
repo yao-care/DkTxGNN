@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 497
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Levothyroxine: forudsagt ny indikation Endemisk struma (evidensniveau L3). Oprindelig indikation: Hypothyreose (godkendt indikationstekst er ikke angivet for den dansk…"
 ---
 
 # Levothyroxine

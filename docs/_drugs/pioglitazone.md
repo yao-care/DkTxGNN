@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Pioglitazone: forudsagt ny indikation Opsismodysplasi (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus"
 ---
 
 # Pioglitazone

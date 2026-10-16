@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ripretinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (indikationsteksten i den danske god…"
 ---
 
 # Ripretinib

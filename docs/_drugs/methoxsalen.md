@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 539
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methoxsalen: forudsagt ny indikation Lokaliseret pagetoid reticulose (evidensniveau L4). Oprindelig indikation: Primært kutant T-celle-lymfom (non-Hodgkin) og vitiligo (ifølge viden…"
 ---
 
 # Methoxsalen

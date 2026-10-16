@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 841
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tolvaptan: forudsagt ny indikation Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (evidensniveau L1). Oprindelig indikation: SIADH, nefrogent syndrom med uhensigtsmæssig antidiurese…"
 ---
 
 # Tolvaptan

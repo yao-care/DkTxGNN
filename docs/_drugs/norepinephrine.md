@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 592
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L4). Oprindelig indikation: Astma, bronkitis, hypotensiv tilstand m.fl. (fra TxGNN-vidensgrafen"
 ---
 
 # Norepinephrine

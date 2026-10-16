@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 480
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Laronidase: forudsagt ny indikation Lysosomal lagringssygdom med skeletinvolvering (evidensniveau L4). Oprindelig indikation: Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom)"
 ---
 
 # Laronidase

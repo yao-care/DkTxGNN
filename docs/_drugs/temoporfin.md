@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Temoporfin: forudsagt ny indikation Nasofaryngealt teratom (evidensniveau L5). Oprindelig indikation: Planocellulært karcinom og hoved- og halskræft (jf. videnbasen"
 ---
 
 # Temoporfin

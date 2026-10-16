@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Fosamprenavir: forudsagt ny indikation Felint erhvervet immundefektsyndrom (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (fra videnbasen"
 ---
 
 # Fosamprenavir

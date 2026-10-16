@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 206
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Clioquinol: forudsagt ny indikation Kutan candidiasis (evidensniveau L4). Oprindelig indikation: Tinea pedis, tinea corporis…"
 ---
 
 # Clioquinol

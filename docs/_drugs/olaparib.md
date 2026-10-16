@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 604
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Olaparib: forudsagt ny indikation Brystkræft hos kvinder (female breast carcinoma) (evidensniveau L1). Oprindelig indikation: Æggestokkræft"
 ---
 
 # Olaparib

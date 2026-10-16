@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (evidensniveau L5). Oprindelig indikation: Progressiv multipel sklerose (fra vidensgrafen"
 ---
 
 # Ocrelizumab

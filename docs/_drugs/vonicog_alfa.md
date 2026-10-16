@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 892
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vonicog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Arvelig von Willebrands sygdom"
 ---
 
 # Vonicog Alfa

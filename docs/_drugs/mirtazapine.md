@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression, svær depressiv lidelse…"
 ---
 
 # Mirtazapine

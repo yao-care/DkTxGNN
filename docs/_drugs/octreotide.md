@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Octreotide: forudsagt ny indikation Vulvær inverteret follikulær keratose (evidensniveau L5). Oprindelig indikation: Akromegali, hyperpituitarisme, karcinoidsyndrom (fra videngrafen"
 ---
 
 # Octreotide

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 864
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Tryptophan: forudsagt ny indikation Insomni (den højest rangerede indikation, restless legs syndrome… (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data (de danske godkend…"
 ---
 
 # Tryptophan

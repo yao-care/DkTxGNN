@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Axitinib: forudsagt ny indikation Nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusion… (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom (klarcellet, ikke-papillært…"
 ---
 
 # Axitinib

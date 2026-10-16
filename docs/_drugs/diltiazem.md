@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Diltiazem: forudsagt ny indikation Obsolete susceptibility to ischemic stroke (forældet modtagelighed fo… (evidensniveau L5). Oprindelig indikation: Hypertension, atrieflimren, Prinzmetal-angina, ven…"
 ---
 
 # Diltiazem

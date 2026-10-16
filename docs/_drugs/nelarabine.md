@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Nelarabine: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær leukæmi…"
 ---
 
 # Nelarabine

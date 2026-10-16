@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 282
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L3). Oprindelig indikation: Atrieflimren"
 ---
 
 # Dronedarone

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 139
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Buprenorphine: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L4). Oprindelig indikation: Opioidafhængighed, stofmisbrug/-afhængighed…"
 ---
 
 # Buprenorphine

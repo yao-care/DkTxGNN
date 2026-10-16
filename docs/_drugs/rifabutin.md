@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 717
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rifabutin: forudsagt ny indikation HIV-infektion (skal læses som HIV-associeret opportunistisk mykobakte… (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsest…"
 ---
 
 # Rifabutin

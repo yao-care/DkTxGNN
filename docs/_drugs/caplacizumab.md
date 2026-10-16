@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Caplacizumab: forudsagt ny indikation Primær frigørelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopenisk purpura (erhvervet TTP)"
 ---
 
 # Caplacizumab

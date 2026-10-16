@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 748
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (evidensniveau L4). Oprindelig indikation: Phenylketonuri og forstyrrelse af phenylalaninmetabolismen"
 ---
 
 # Sapropterin

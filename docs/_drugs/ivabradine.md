@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Ivabradine: forudsagt ny indikation Hypertrichose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (indikationsteksten for den danske m…"
 ---
 
 # Ivabradine

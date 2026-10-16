@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 51
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Amiloride: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L4). Oprindelig indikation: Hypertension og kongestiv hjerteinsufficiens (fra TxGNN-vidensgrafen"
 ---
 
 # Amiloride

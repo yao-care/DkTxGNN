@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 852
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Trastuzumab Emtansine: forudsagt ny indikation Progesteronreceptor-positiv brystkræft (rang 2 (evidensniveau L4). Oprindelig indikation: HER2-positiv brystkræft"
 ---
 
 # Trastuzumab Emtansine

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 475
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lamivudine: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis B-virusinfektion, HIV-infektion og AIDS"
 ---
 
 # Lamivudine

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Glimepiride: forudsagt ny indikation Klassisk stiff person-syndrom (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus (fra TxGNN-vidensgrafen"
 ---
 
 # Glimepiride

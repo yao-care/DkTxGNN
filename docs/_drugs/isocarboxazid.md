@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Isocarboxazid: forudsagt ny indikation Benign paroksystisk torticollis hos spædbørn (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression…"
 ---
 
 # Isocarboxazid

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Metronidazole: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Anaerobe bakterielle infektioner, peritonitis, endokarditis…"
 ---
 
 # Metronidazole

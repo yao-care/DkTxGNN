@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 245
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (evidensniveau L4). Oprindelig indikation: Hæmosiderose og beta-thalassæmi"
 ---
 
 # Deferiprone

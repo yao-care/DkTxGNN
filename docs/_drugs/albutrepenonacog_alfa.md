@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Albutrepenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrand-sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
 # Albutrepenonacog Alfa

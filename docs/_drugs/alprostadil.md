@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 44
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alprostadil: forudsagt ny indikation Aortamisdannelse (aortic malformation) (evidensniveau L3). Oprindelig indikation: Erektil dysfunktion, psykologisk dyspareuni, for tidlig udløsning…"
 ---
 
 # Alprostadil

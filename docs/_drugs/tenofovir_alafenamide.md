@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 806
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Tenofovir Alafenamide: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 ---
 
 # Tenofovir Alafenamide

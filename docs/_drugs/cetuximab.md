@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cetuximab: forudsagt ny indikation Duktal eller duktulær proliferation (evidensniveau L5). Oprindelig indikation: Kolorektal cancer og planocellulært karcinom i hoved-hals-området"
 ---
 
 # Cetuximab

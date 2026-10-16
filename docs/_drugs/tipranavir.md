@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 834
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tipranavir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (fra vidensgrafen"
 ---
 
 # Tipranavir

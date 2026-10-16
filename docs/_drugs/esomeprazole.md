@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 326
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Esomeprazole: forudsagt ny indikation Duodenogastrisk reflux (evidensniveau L4). Oprindelig indikation: Mavesår, gastroøsofageal reflukssygdom, esofagitis…"
 ---
 
 # Esomeprazole

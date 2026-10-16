@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 146
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cabozantinib: forudsagt ny indikation Uklassificeret nyrecellekarcinom (rang 6 (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom (inkl. clear cell) og medullært skjoldbruskkirtelka…"
 ---
 
 # Cabozantinib

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Altrenogest: forudsagt ny indikation Orofacial clefting syndrom (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (veterinær brug…"
 ---
 
 # Altrenogest

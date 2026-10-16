@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose (MPS IVA, Morquio A syndrom)"
 ---
 
 # Elosulfase Alfa

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 286
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Durvalumab: forudsagt ny indikation Urotelcarcinom i urinrørets prostatadel (prostatic urethra urothelial… (evidensniveau L4). Oprindelig indikation: Urotelcarcinom (overgangscellekarcinom)…"
 ---
 
 # Durvalumab

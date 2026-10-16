@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 404
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Guselkumab: forudsagt ny indikation Psoriasis (allerede godkendt indikation) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
 ---
 
 # Guselkumab

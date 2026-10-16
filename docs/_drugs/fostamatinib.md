@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fostamatinib: forudsagt ny indikation Autosomal trombocytopeni med normale blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopeni som følge af immunmedieret destruktion"
 ---
 
 # Fostamatinib

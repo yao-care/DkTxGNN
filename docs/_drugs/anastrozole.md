@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 64
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Anastrozole: forudsagt ny indikation Kvindelig brystkræft (female breast carcinoma) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for det danske…"
 ---
 
 # Anastrozole

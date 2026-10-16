@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 576
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Naratriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L3). Oprindelig indikation: Migræne (migræne med og uden aura)"
 ---
 
 # Naratriptan

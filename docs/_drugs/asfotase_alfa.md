@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Asfotase Alfa: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleæ… (evidensniveau L5). Oprindelig indikation: Hypofosfatasi"
 ---
 
 # Asfotase Alfa

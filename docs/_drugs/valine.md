@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 873
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Valine: forudsagt ny indikation Skleroserende cholangitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (alle godkendelser mangler indika…"
 ---
 
 # Valine

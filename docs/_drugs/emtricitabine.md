@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Emtricitabine: forudsagt ny indikation Felint erhvervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS"
 ---
 
 # Emtricitabine

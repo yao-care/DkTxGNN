@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Mitoxantrone: forudsagt ny indikation Øvre luftvejs- og fordøjelseskanalstumor (modellens førstevalg) (evidensniveau L5). Oprindelig indikation: Akut myeloid leukæmi"
 ---
 
 # Mitoxantrone

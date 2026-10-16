@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 54
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amlodipine: forudsagt ny indikation Hjernestamme-infarkt (evidensniveau L5). Oprindelig indikation: Hypertension, slagtilfælde/cerebrovaskulær sygdom, cerebralt infarkt…"
 ---
 
 # Amlodipine

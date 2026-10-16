@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prilocaine: forudsagt ny indikation Neuralgi (primært postherpetisk neuralgi) (evidensniveau L5). Oprindelig indikation: Tidlig sædafgang…"
 ---
 
 # Prilocaine

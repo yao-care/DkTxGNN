@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Phenylalanine: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 ---
 
 # Phenylalanine

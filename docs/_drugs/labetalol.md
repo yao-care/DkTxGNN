@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 472
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Labetalol: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L4). Oprindelig indikation: Hypertension (hypertensiv lidelse) – de danske markedsføringstilladel…"
 ---
 
 # Labetalol

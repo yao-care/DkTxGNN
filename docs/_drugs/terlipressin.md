@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 814
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Terlipressin: forudsagt ny indikation Pulmonal hypertension (rang 3 i modellen (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten i den danske…"
 ---
 
 # Terlipressin

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Andexanet Alfa: forudsagt ny indikation Glanzmanns trombasteni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ifølg…"
 ---
 
 # Andexanet Alfa

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Evolocumab: forudsagt ny indikation Symptomatisk hæmofili hos kvindelige bærere (evidensniveau L5). Oprindelig indikation: Homozygot familiær hypercholesterolæmi og syndromisk dyslipidæmi"
 ---
 
 # Evolocumab

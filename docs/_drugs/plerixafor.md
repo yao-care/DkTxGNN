@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Plerixafor: forudsagt ny indikation Indolent plasmacellemyelom (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom (myelomatose). Den danske tilladelse indeholder ing…"
 ---
 
 # Plerixafor

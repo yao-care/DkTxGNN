@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 62
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Anagrelide: forudsagt ny indikation Reaktiv trombocytose (evidensniveau L4). Oprindelig indikation: Trombocytæmi og familiær trombocytose"
 ---
 
 # Anagrelide

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 877
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Velaglucerase Alfa: forudsagt ny indikation Steel syndrom (evidensniveau L5). Oprindelig indikation: Gauchers sygdom"
 ---
 
 # Velaglucerase Alfa

@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Moxifloxacin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner (bl.a. streptokok- og stafylokokinfektioner…"
 ---
 
 # Moxifloxacin

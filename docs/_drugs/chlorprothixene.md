@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Chlorprothixene: forudsagt ny indikation Retinal dystrofi med eller uden ekstraokulære anomalier (rang 1) (evidensniveau L5). Oprindelig indikation: Skizofreni"
 ---
 
 # Chlorprothixene

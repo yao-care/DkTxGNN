@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cyclosporine: forudsagt ny indikation Kronisk granulomatøs sygdom, autosomal recessiv (evidensniveau L4). Oprindelig indikation: Reumatoid artritis, tørre øjne, xerophthalmia…"
 ---
 
 # Cyclosporine

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 689
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Progesterone: forudsagt ny indikation Amenoré (evidensniveau L4). Oprindelig indikation: Endometriose, endometriecancer…"
 ---
 
 # Progesterone

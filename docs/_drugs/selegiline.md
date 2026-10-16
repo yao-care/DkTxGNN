@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 752
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Selegiline: forudsagt ny indikation Skizofreni (evidensniveau L3). Oprindelig indikation: Parkinsons sygdom"
 ---
 
 # Selegiline

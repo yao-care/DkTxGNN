@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 710
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Relugolix: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er…"
 ---
 
 # Relugolix

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 158
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Captopril: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L4). Oprindelig indikation: Hypertension og diabetisk nefropati (ifølge TxGNN-vidensgrafen"
 ---
 
 # Captopril

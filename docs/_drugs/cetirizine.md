@@ -5,6 +5,8 @@ parent: Høj evidens (L1-L2)
 nav_order: 181
 evidence_level: L2
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Cetirizine: forudsagt ny indikation Allergisk urticaria (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, konjunktivitis…"
 ---
 
 # Cetirizine

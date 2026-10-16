@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Chlorzoxazone: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige danske godkendelsesdata (indikationste…"
 ---
 
 # Chlorzoxazone

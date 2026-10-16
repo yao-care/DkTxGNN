@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 496
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Levonorgestrel: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Postmenopausal osteoporose og osteoporose (iflg. vidensgrafen). Den d…"
 ---
 
 # Levonorgestrel

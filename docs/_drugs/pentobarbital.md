@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). Oprindelig indikation: Epilepsi, søvnløshed, status epilepticus, hjerneiskæmi…"
 ---
 
 # Pentobarbital

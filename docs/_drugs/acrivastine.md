@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Acrivastine: forudsagt ny indikation Allergisk urticaria (evidensniveau L3). Oprindelig indikation: Allergisk rhinitis (øvrige: vasomotorisk rhinitis, faryngitis…"
 ---
 
 # Acrivastine

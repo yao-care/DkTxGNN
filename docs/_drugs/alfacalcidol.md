@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alfacalcidol: forudsagt ny indikation Familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion (evidensniveau L5). Oprindelig indikation: Hyperparathyroidisme, osteitis fibrosa, hypopar…"
 ---
 
 # Alfacalcidol

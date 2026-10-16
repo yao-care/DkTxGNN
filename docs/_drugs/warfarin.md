@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 896
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Warfarin: forudsagt ny indikation Trombofili (rang 4) (evidensniveau L5). Oprindelig indikation: Lungeemboli, trombotisk sygdom, intrakraniel emboli"
 ---
 
 # Warfarin

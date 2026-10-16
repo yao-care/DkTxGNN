@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mitomycin: forudsagt ny indikation Osteoklastisk kæmpecelletumor i pancreas (evidensniveau L5). Oprindelig indikation: Pancreasadenokarcinom"
 ---
 
 # Mitomycin

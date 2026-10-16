@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Denosumab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (nævnes også som diabetisk… (evidensniveau L5). Oprindelig indikation: Osteoporose"
 ---
 
 # Denosumab

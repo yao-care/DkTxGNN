@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Tacrolimus: forudsagt ny indikation Seboroisk dermatitis (evidensniveau L5). Oprindelig indikation: Atopisk eksem / atopisk dermatitis (kilde: TxGNN-vidensgraf"
 ---
 
 # Tacrolimus

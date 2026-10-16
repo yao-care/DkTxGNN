@@ -5,6 +5,8 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). Oprindelig indikation: Alzheimers sygdom (godkendelsesteksten er ikke angivet i de danske ti…"
 ---
 
 # Donepezil

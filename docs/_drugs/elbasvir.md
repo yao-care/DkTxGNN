@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 296
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Elbasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis C-virusinfektion (indikationsteksten i det danske r…"
 ---
 
 # Elbasvir
