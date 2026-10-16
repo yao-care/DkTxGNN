@@ -33,7 +33,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Cerliponase alfa med de 
 <li>Gaucher disease (99.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/cerliponase_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
+<p><a href="{{ '/drugs/cerliponase-alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
 ## Relaterede nyheder (0)

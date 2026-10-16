@@ -32,7 +32,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Thyrotropin alfa med de 
 <li>atrophoderma vermiculata (99.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/thyrotropin_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
+<p><a href="{{ '/drugs/thyrotropin-alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
 ## Relaterede nyheder (0)

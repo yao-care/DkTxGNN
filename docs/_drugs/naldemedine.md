@@ -1,6 +1,4 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Naldemedine
 parent: Kun modelforudsigelse (L5)

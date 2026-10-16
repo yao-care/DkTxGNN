@@ -48,20 +48,15 @@ evidensen graderes fra L1 til L5, og til sidst udstedes en beslutningsanbefaling
 
 ---
 
-## Forudsigelse med dobbelt motor
+## Sådan laves forudsigelserne
 
-To metoder kører parallelt, og en konfidensmarkering registrerer, om de er enige:
+TxGNN's deep learning-model (DL) giver hvert lægemiddel–sygdom-par en score. Derefter fjernes indikationer og kontraindikationer, der allerede er registreret for lægemidlet i TxGNN's vidensgraf (KG), så lægemiddelsiderne kun viser nye forudsagte indikationer med en score på mindst 0,99 (op til 10 pr. lægemiddel).
 
-| Metode | Hastighed | Præcision | Beskrivelse |
-|--------|-------|-----------|-------------|
-| Videngraf (KG) | Hurtig | Lavere | Inferens over DrugBank-relationer og grafstruktur |
-| Deep learning (DL) | Langsom | Højere | TxGNN grafbaseret neuralt netværk |
-
-| Konfidens | Kilde | Betydning |
-|------------|--------|---------|
-| very_high | KG + DL | Begge metoder er enige |
-| high | Kun DL | Højtscorende understøttelse fra deep learning |
-| medium | Kun KG | Understøttelse fra videngraf |
+| Trin | Rolle |
+|------|-------|
+| Deep learning (DL) | TxGNN's grafbaserede neurale netværk giver hvert lægemiddel–sygdom-par en score |
+| Kontrol af kendt anvendelse (KG) | Fjerner indikationer og kontraindikationer, der allerede er registreret i vidensgrafen; de tælles ikke som nye forudsigelser |
+| Evidensindsamling | Søger i ClinicalTrials.gov og PubMed for hver tilbageværende forudsigelse og tildeler et evidensniveau (L1–L5) |
 
 ---
 
