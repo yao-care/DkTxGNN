@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Cabozantinib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Cabozantinib. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Cabozantinib. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/cabozantinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cabozantinib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Cabozantinib?">
-<strong>Cabozantinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Cabozantinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Cabozantinib med de sene
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>liposarcoma (99.8%)</li>
-<li>ovarian myxoid liposarcoma (99.8%)</li>
-<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.8%)</li>
-<li>unclassified renal cell carcinoma (99.8%)</li>
-<li>renal cell carcinoma associated with neuroblastoma (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L2</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Cabometyx (Ipsen Pharma) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabozantinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

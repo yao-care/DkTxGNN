@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Avelumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Avelumab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Avelumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/avelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avelumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Avelumab?">
-<strong>Avelumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Avelumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Avelumab med de seneste 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>human herpesvirus 8-related tumor (100.0%)</li>
-<li>middle ear neuroendocrine tumor (100.0%)</li>
-<li>malignant cutaneous granular cell skin tumor (100.0%)</li>
-<li>ectomesenchymoma (100.0%)</li>
-<li>adenosine deaminase deficiency (100.0%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Bavencio (Merck Europe B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avelumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

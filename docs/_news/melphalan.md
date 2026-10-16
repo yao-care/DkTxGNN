@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Melphalan"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Melphalan. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Melphalan. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/melphalan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/melphalan/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Melphalan?">
-<strong>Melphalan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Melphalan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Melphalan med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>gonadal germ cell tumor (99.8%)</li>
-<li>ovarian primitive germ cell tumor (99.8%)</li>
-<li>choriocarcinoma of ovary (99.7%)</li>
-<li>female breast carcinoma (99.7%)</li>
-<li>malignant non-epithelial tumor of ovary (99.5%)</li>
+<li><strong>Evidensniveau</strong>: L2</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Alkeran (Aspen Pharma Trading Limited) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de sammenstillede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/melphalan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

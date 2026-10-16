@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Atezolizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Atezolizumab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Atezolizumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/atezolizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atezolizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Atezolizumab?">
-<strong>Atezolizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Atezolizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Atezolizumab med de sene
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>prostatic urethra urothelial carcinoma (100.0%)</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma (100.0%)</li>
-<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (100.0%)</li>
-<li>renal pelvis papillary urothelial carcinoma (100.0%)</li>
-<li>uterine ligament adenocarcinoma (99.9%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Tecentriq (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke angivet (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atezolizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

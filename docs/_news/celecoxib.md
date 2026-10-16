@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Celecoxib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Celecoxib. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Celecoxib. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/celecoxib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/celecoxib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Celecoxib?">
-<strong>Celecoxib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Celecoxib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Celecoxib med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.9%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.9%)</li>
-<li>rheumatoid vasculitis (99.8%)</li>
-<li>myosclerosis (99.8%)</li>
-<li>hypermobility of coccyx (99.8%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Celebra (Viatris ApS) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/celecoxib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

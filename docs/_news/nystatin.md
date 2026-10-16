@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Nystatin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Nystatin. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Nystatin. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/nystatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nystatin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Nystatin?">
-<strong>Nystatin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Nystatin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Nystatin med de seneste 
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>vulvovaginitis (99.9%)</li>
-<li>disease of orbital region (99.9%)</li>
-<li>disease of orbital part of eye adnexa (99.9%)</li>
-<li>cystic teratoma (99.9%)</li>
-<li>spinal cord dermoid cyst (99.9%)</li>
+<li><strong>Evidensniveau</strong>: L3</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Mycostatin (Paranova Danmark A/S) | Oral suspension | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nystatin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

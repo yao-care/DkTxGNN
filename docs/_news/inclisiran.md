@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Inclisiran"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Inclisiran. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Inclisiran. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/inclisiran/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/inclisiran/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Inclisiran?">
-<strong>Inclisiran</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Inclisiran</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Inclisiran med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>potassium deficiency disease (99.9%)</li>
-<li>esophageal disease (99.9%)</li>
-<li>atypical coarctation of aorta (99.9%)</li>
-<li>migraine disorder (99.8%)</li>
-<li>non-syndromic esophageal malformation (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Leqvio (Novartis Europharm Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/inclisiran/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Daptomycin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Daptomycin. Oprindelig indikation: Beyond its antibacterial action, two preclinical s.... 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Daptomycin. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/daptomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/daptomycin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Daptomycin?">
-<strong>Daptomycin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Daptomycin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,14 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Daptomycin med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Oprindelig indikation</strong>: Beyond its antibacterial action, two preclinical studies published in 2025 have revealed a previously unrecognised anti-inflammatory property. Daptomycin was found to inhibit the NF-κB signalling...</li>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>osteoarthritis (99.9%)</li>
-<li>rheumatoid arthritis (99.8%)</li>
-<li>osteoarthritis susceptibility (99.8%)</li>
-<li>gout (99.8%)</li>
-<li>pseudoachondroplasia (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L4</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Cubicin (Merck Sharp & Dohme B.V.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/daptomycin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

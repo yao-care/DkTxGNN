@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Sunitinib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Sunitinib. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Sunitinib. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/sunitinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sunitinib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Sunitinib?">
-<strong>Sunitinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Sunitinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Sunitinib med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>liposarcoma (99.9%)</li>
-<li>ovarian myxoid liposarcoma (99.8%)</li>
-<li>renal cell carcinoma associated with neuroblastoma (99.8%)</li>
-<li>unclassified renal cell carcinoma (99.8%)</li>
-<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L2</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Sunitinib "Accord" (Accord Healthcare S.L.U.) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sunitinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

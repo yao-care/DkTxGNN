@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Prasugrel"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Prasugrel. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Prasugrel. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/prasugrel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/prasugrel/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Prasugrel?">
-<strong>Prasugrel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Prasugrel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Prasugrel med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>pulmonary hypertension (99.9%)</li>
-<li>migraine disorder (99.9%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>kyphoscoliotic heart disease (99.8%)</li>
-<li>rheumatoid arthritis (99.7%)</li>
+<li><strong>Evidensniveau</strong>: L3</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Prasugrel "Epione" (Epione Medicine ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/prasugrel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Everolimus"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Everolimus. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Everolimus. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/everolimus/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/everolimus/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Everolimus?">
-<strong>Everolimus</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Everolimus</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Everolimus med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>liposarcoma (99.9%)</li>
-<li>ovarian myxoid liposarcoma (99.8%)</li>
-<li>dermatofibrosarcoma protuberans (99.8%)</li>
-<li>parameningeal embryonal rhabdomyosarcoma (99.8%)</li>
-<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L2</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Afinitor (Novartis Europharm Limited) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/everolimus/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

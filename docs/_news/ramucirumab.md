@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Ramucirumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Ramucirumab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Ramucirumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/ramucirumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ramucirumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Ramucirumab?">
-<strong>Ramucirumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Ramucirumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Ramucirumab med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>uterine ligament adenocarcinoma (100.0%)</li>
-<li>endocervical carcinoma (100.0%)</li>
-<li>adenoid cystic carcinoma of the cervix uteri (100.0%)</li>
-<li>uterine ligament serous adenocarcinoma (99.9%)</li>
-<li>signet ring cell variant cervical mucinous adenocarcinoma (99.9%)</li>
+<li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Cyramza (Eli Lilly Netherland B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ramucirumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

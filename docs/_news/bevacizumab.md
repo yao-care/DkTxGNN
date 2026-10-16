@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Bevacizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Bevacizumab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Bevacizumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/bevacizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bevacizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Bevacizumab?">
-<strong>Bevacizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Bevacizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Bevacizumab med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>epiglottis neoplasm (99.9%)</li>
-<li>benign neoplasm of tongue (99.9%)</li>
-<li>tumor of testis and paratestis (99.9%)</li>
-<li>benign neoplasm of hypopharynx (99.9%)</li>
-<li>benign neoplasm of floor of mouth (99.9%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Abevmy | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bevacizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

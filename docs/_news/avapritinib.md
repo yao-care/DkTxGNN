@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Avapritinib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Avapritinib. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Avapritinib. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/avapritinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avapritinib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Avapritinib?">
-<strong>Avapritinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Avapritinib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Avapritinib med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>axial spondylometaphyseal dysplasia (99.9%)</li>
-<li>bilateral parasagittal parieto-occipital polymicrogyria (99.9%)</li>
-<li>amyotrophic lateral sclerosis (99.9%)</li>
-<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome (99.9%)</li>
-<li>amyotrophic lateral sclerosis, susceptibility to (99.9%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>AYVAKYT | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avapritinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

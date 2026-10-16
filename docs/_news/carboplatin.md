@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Carboplatin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Carboplatin. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Carboplatin. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/carboplatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carboplatin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Carboplatin?">
-<strong>Carboplatin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Carboplatin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Carboplatin med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>female breast carcinoma (99.9%)</li>
-<li>rectum mucinous adenocarcinoma (99.3%)</li>
-<li>colon mucinous adenocarcinoma (99.3%)</li>
-<li>adult germ cell tumor (99.2%)</li>
-<li>cervical mucinous adenocarcinoma (99.2%)</li>
+<li><strong>Evidensniveau</strong>: L1</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Carbomedac (Medac) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/carboplatin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

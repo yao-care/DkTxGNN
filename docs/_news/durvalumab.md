@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Durvalumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Durvalumab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Durvalumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/durvalumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/durvalumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Durvalumab?">
-<strong>Durvalumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Durvalumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Durvalumab med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>prostatic urethra urothelial carcinoma (100.0%)</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma (100.0%)</li>
-<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (100.0%)</li>
-<li>renal pelvis papillary urothelial carcinoma (100.0%)</li>
-<li>uterine ligament adenocarcinoma (99.9%)</li>
+<li><strong>Evidensniveau</strong>: L4</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Imfinzi (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/durvalumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

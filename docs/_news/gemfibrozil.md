@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Gemfibrozil"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Gemfibrozil. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Gemfibrozil. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/gemfibrozil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/gemfibrozil/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Gemfibrozil?">
-<strong>Gemfibrozil</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Gemfibrozil</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Gemfibrozil med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>rheumatoid arthritis (99.9%)</li>
-<li>multiple endocrine neoplasia (99.8%)</li>
-<li>HIV infectious disease (99.8%)</li>
-<li>hypoalphalipoproteinemia (99.8%)</li>
-<li>brachydactyly-syndactyly syndrome (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L4</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Lopid (Pfizer ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/gemfibrozil/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

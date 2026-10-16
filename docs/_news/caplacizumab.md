@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Caplacizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Caplacizumab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Caplacizumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/caplacizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/caplacizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Caplacizumab?">
-<strong>Caplacizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Caplacizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Caplacizumab med de sene
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>primary release disorder of platelets (100.0%)</li>
-<li>pseudo-von Willebrand disease (100.0%)</li>
-<li>Glanzmann thrombasthenia (100.0%)</li>
-<li>Scott syndrome (100.0%)</li>
-<li>thrombotic thrombocytopenic purpura (100.0%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Cablivi (Ablynx NV) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/caplacizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

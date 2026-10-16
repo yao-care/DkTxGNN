@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Cemiplimab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Cemiplimab. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Cemiplimab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/cemiplimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cemiplimab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Cemiplimab?">
-<strong>Cemiplimab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Cemiplimab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Cemiplimab med de senest
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>gallbladder adenosquamous carcinoma (100.0%)</li>
-<li>glottis squamous cell carcinoma (100.0%)</li>
-<li>rectal cloacogenic carcinoma (100.0%)</li>
-<li>external ear basal cell carcinoma (100.0%)</li>
-<li>adenosquamous prostate carcinoma (100.0%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Libtayo (Regeneron Ireland Designated Activity Company) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cemiplimab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

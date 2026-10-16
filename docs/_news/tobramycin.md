@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tobramycin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tobramycin. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Tobramycin. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/tobramycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tobramycin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tobramycin?">
-<strong>Tobramycin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Tobramycin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Tobramycin med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>exposure keratitis (99.9%)</li>
-<li>non-human animal disease (99.8%)</li>
-<li>otitis externa (99.8%)</li>
-<li>postinfectious vasculitis (99.8%)</li>
-<li>post-bacterial disorder (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Tobi (Viatris ApS) | Inhalationsvæske til nebulisator, opløsning | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tobramycin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

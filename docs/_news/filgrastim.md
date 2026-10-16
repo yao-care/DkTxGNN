@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Filgrastim"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Filgrastim. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Filgrastim. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/filgrastim/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/filgrastim/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Filgrastim?">
-<strong>Filgrastim</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Filgrastim</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Filgrastim med de senest
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>primary release disorder of platelets (100.0%)</li>
-<li>pseudo-von Willebrand disease (100.0%)</li>
-<li>Glanzmann thrombasthenia (100.0%)</li>
-<li>Scott syndrome (100.0%)</li>
-<li>hemorrhagic disorder due to a constitutional thrombocytopenia (99.9%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Accofil (Accord Healthcare S.L.U.) | Injektions-/infusionsvæske, opløsning, fyldt injektionssprøjte | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/filgrastim/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

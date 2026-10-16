@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Brodalumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Brodalumab. Oprindelig indikation: . 6 forudsagte indikationer."
+description: "Sundhedsnyheder om Brodalumab. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/brodalumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brodalumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Brodalumab?">
-<strong>Brodalumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
+<strong>Brodalumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Brodalumab med de senest
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (6)</strong>:<ul>
-<li>strongyloidiasis (99.8%)</li>
-<li>eye disease (99.8%)</li>
-<li>vitamin deficiency disorder (99.8%)</li>
-<li>von Hippel anomaly (99.8%)</li>
-<li>optic perineuritis (99.8%)</li>
-<li>recurrent idiopathic neuroretinitis (99.8%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Kyntheum (LEO Pharma A/S) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/brodalumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

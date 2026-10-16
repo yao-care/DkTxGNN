@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Pemetrexed"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Pemetrexed. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Pemetrexed. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/pemetrexed/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pemetrexed/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Pemetrexed?">
-<strong>Pemetrexed</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Pemetrexed</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Pemetrexed med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>malignant peritoneal mesothelioma (100.0%)</li>
-<li>pleural adenomatoid tumor (100.0%)</li>
-<li>pleural mesothelioma (100.0%)</li>
-<li>pleural epithelioid mesothelioma (100.0%)</li>
-<li>pleural sarcomatoid mesothelioma (100.0%)</li>
+<li><strong>Evidensniveau</strong>: L2</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Armisarte (Actavis Group PTC ehf.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pemetrexed/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

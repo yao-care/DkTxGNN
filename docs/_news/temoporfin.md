@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Temoporfin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Temoporfin. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Temoporfin. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/temoporfin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/temoporfin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Temoporfin?">
-<strong>Temoporfin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Temoporfin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Temoporfin med de senest
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>nasopharyngeal teratoma (99.8%)</li>
-<li>odontogenic cyst (99.8%)</li>
-<li>pre-malignant neoplasm (99.8%)</li>
-<li>epiglottis neoplasm (99.8%)</li>
-<li>tumor of testis and paratestis (99.8%)</li>
+<li><strong>Evidensniveau</strong>: L5</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Foscan (biolitec Pharma ltd.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/temoporfin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

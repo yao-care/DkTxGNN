@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Allopurinol"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Allopurinol. Oprindelig indikation: . 6 forudsagte indikationer."
+description: "Sundhedsnyheder om Allopurinol. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/allopurinol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/allopurinol/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Allopurinol?">
-<strong>Allopurinol</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
+<strong>Allopurinol</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,14 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Allopurinol med de senes
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (6)</strong>:<ul>
-<li>hepatic porphyria (100.0%)</li>
-<li>hepatoportal sclerosis (99.9%)</li>
-<li>primitive portal vein thrombosis (99.9%)</li>
-<li>early-onset familial noncirrhotic portal hypertension (99.9%)</li>
-<li>hepatopulmonary syndrome (99.9%)</li>
-<li>idiopathic copper-associated cirrhosis (99.9%)</li>
+<li><strong>Evidensniveau</strong>: L4</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Allopurinol "Accord" (Accord Healthcare B.V.) | Tabletter | Indikationstekst ikke angivet (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/allopurinol/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Minoxidil"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Minoxidil. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Minoxidil. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/minoxidil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/minoxidil/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Minoxidil?">
-<strong>Minoxidil</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Minoxidil</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -24,13 +24,9 @@ Denne side kombinerer de AI-forudsagte indikationer for Minoxidil med de seneste
 <div class="drug-info-card">
 <strong>Lægemiddeloplysninger</strong>
 <ul>
-<li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>hypotrichosis simplex of the scalp (100.0%)</li>
-<li>congenital hypotrichosis milia (100.0%)</li>
-<li>diffuse alopecia areata (100.0%)</li>
-<li>pseudopelade of Brocq (99.9%)</li>
-<li>pulmonary arterial hypertension (99.9%)</li>
+<li><strong>Evidensniveau</strong>: L4</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Dinoxil | Kutanskum | Ikke angivet i de indsamlede data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/minoxidil/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
