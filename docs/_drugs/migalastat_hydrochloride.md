@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Migalastat Hydrochloride
 parent: Kun modelforudsigelse (L5)

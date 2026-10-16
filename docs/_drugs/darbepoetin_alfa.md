@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Darbepoetin Alfa
 parent: Kun modelforudsigelse (L5)

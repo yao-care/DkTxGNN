@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Damoctocog Alfa Pegol
 parent: Kun modelforudsigelse (L5)

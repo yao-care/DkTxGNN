@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cisplatin
 parent: Kun modelforudsigelse (L5)

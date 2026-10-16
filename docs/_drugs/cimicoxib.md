@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cimicoxib
 parent: Kun modelforudsigelse (L5)

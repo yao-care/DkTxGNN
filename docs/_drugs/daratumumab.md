@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Daratumumab
 parent: Kun modelforudsigelse (L5)

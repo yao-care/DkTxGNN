@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Gabapentin
 parent: Kun modelforudsigelse (L5)

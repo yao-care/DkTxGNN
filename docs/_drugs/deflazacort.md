@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Deflazacort
 parent: Kun modelforudsigelse (L5)

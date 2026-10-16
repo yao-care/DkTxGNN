@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Belatacept
 parent: Kun modelforudsigelse (L5)

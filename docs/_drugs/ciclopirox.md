@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Ciclopirox
 parent: Kun modelforudsigelse (L5)
