@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Catridecacog: forudsagt ny indikation Primær frigørelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Mangel på faktor XIII A-subunit"
+monitor_inn: "Catridecacog"
+predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "congenital factor XIII deficiency", "congenital factor XIII deficiency", "hemophilia", "hemophilia"]
 ---
 
 # Catridecacog

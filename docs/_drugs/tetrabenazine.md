@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tetrabenazine: forudsagt ny indikation Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (evidensniveau L5). Oprindelig indikation: Huntingtons sygdom (samt Huntington-lignende sygdomme…"
+monitor_inn: "tetrabenazine"
+predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 ---
 
 # Tetrabenazine

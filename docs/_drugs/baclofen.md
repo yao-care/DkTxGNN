@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Baclofen: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Spasticitet"
+monitor_inn: "BACLOFEN"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit-hyperactivity disorder", "nicotine dependence", "nicotine dependence"]
 ---
 
 # Baclofen

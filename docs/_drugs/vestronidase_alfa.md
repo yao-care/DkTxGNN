@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vestronidase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose (MPS VII). Godkendelsesteksten for den danske aut…"
+monitor_inn: "Vestronidase alfa"
+predicted_indications: ["Scheie syndrome", "Scheie syndrome", "lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Hurler syndrome", "Sanfilippo syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"]
 ---
 
 # Vestronidase Alfa

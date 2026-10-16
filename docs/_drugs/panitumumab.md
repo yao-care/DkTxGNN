@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Panitumumab: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Metastatisk kræft i tyktarmen"
+monitor_inn: "Panitumumab"
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract"]
 ---
 
 # Panitumumab

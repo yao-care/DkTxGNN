@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Nimodipine: forudsagt ny indikation Homozygot familiær hyperkolesterolæmi (evidensniveau L5). Oprindelig indikation: Subaraknoidal blødning (aneurysmal subaraknoidal blødning)"
+monitor_inn: "nimodipine"
+predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Nimodipine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Peginterferon Beta-1A: forudsagt ny indikation Hjertetumor (heart neoplasm) (evidensniveau L5). Oprindelig indikation: Relapsing-remitting multipel sklerose"
+monitor_inn: "Peginterferon beta-1a"
+predicted_indications: ["heart neoplasm", "heart neoplasm", "congenital anomaly of ventricular septum", "congenital anomaly of ventricular septum", "heart conduction disease", "heart conduction disease", "borderline ovarian serous tumor", "borderline ovarian serous tumor", "rete ovarii cystadenoma", "rete ovarii cystadenoma"]
 ---
 
 # Peginterferon Beta-1A

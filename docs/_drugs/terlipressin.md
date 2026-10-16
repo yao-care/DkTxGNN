@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Terlipressin: forudsagt ny indikation Pulmonal hypertension (rang 3 i modellen (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten i den danske…"
+monitor_inn: "terlipressin"
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 ---
 
 # Terlipressin

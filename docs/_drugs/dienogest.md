@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dienogest: forudsagt ny indikation Amenoré (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "Dienogest"
+predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "primary ovarian failure", "primary ovarian failure", "breast fibrocystic disease", "breast fibrocystic disease", "isolated growth hormone deficiency", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "symptomatic form of fragile X syndrome in female carrier"]
 ---
 
 # Dienogest

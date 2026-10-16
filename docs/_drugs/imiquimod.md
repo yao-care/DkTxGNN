@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imiquimod: forudsagt ny indikation Præmalignt neoplasme (evidensniveau L2). Oprindelig indikation: Almindelige vorter, anogenitale HPV-infektioner, aktinisk keratose…"
+monitor_inn: "Imiquimod"
+predicted_indications: ["pre-malignant neoplasm", "pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "cervical neuroblastoma", "odontogenic cyst", "odontogenic cyst", "benign neoplasm of tongue", "benign neoplasm of tongue"]
 ---
 
 # Imiquimod

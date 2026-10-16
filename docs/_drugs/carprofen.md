@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carprofen: forudsagt ny indikation Reumatoid artritis (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom). Kil…"
+monitor_inn: "Carprofen"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "osteoarthritis susceptibility", "tendinitis", "tendinitis"]
 ---
 
 # Carprofen

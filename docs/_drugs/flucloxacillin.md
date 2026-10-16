@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flucloxacillin: forudsagt ny indikation Konjunktivitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
+monitor_inn: "flucloxacillin"
+predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Flucloxacillin

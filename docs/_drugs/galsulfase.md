@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Galsulfase: forudsagt ny indikation Ptosis-strabismus-ektopiske pupiller-syndrom (evidensniveau L5). Oprindelig indikation: Mucopolysaccharidose (MPS VI) (fra videnbasen"
+monitor_inn: "Galsulfase"
+predicted_indications: ["ptosis-strabismus-ectopic pupils syndrome", "ptosis-strabismus-ectopic pupils syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "congenital Horner syndrome (disease)", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "ptosis-vocal cord paralysis syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome"]
 ---
 
 # Galsulfase

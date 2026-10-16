@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tislelizumab: forudsagt ny indikation Blandet type autoimmun hæmolytisk anæmi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Ifølge de samlede…"
+monitor_inn: "Tislelizumab"
+predicted_indications: ["mixed-type autoimmune hemolytic anemia", "mixed-type autoimmune hemolytic anemia", "idiopathic aplastic anemia", "idiopathic aplastic anemia", "dermatitis", "dermatitis", "paroxysmal nocturnal hemoglobinuria", "paroxysmal nocturnal hemoglobinuria", "drug-induced autoimmune hemolytic anemia", "drug-induced autoimmune hemolytic anemia"]
 ---
 
 # Tislelizumab

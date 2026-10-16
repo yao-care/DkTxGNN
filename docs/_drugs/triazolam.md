@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Triazolam: forudsagt ny indikation Søvnforstyrrelse, problemer med at falde i søvn og opretholde søvn (evidensniveau L5). Oprindelig indikation: Insomni"
+monitor_inn: "TRIAZOLAM"
+predicted_indications: ["sleep disorder, initiating and maintaining sleep", "sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Triazolam

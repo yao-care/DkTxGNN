@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cabozantinib: forudsagt ny indikation Uklassificeret nyrecellekarcinom (rang 6 (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom (inkl. clear cell) og medullært skjoldbruskkirtelka…"
+monitor_inn: "Cabozantinib"
+predicted_indications: ["liposarcoma", "liposarcoma", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"]
 ---
 
 # Cabozantinib

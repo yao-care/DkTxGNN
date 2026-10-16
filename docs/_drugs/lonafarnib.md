@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lonafarnib: forudsagt ny indikation Lepra (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "Lonafarnib"
+predicted_indications: ["leprosy", "leprosy", "rheumatoid arthritis", "rheumatoid arthritis", "Prinzmetal angina", "Prinzmetal angina", "homozygous familial hypercholesterolemia", "homozygous familial hypercholesterolemia", "hyperthyroidism", "hyperthyroidism"]
 ---
 
 # Lonafarnib

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sumatriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (herunder migræne med og uden aura) og klyngehovedpine"
+monitor_inn: "SUMATRIPTAN"
+predicted_indications: ["migraine with brainstem aura", "migraine with brainstem aura"]
 ---
 
 # Sumatriptan

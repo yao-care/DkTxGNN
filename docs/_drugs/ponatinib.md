@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ponatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: BCR-ABL1-positiv kronisk myeloid leukæmi"
+monitor_inn: "ponatinib"
+predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 ---
 
 # Ponatinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Fenfluramine: forudsagt ny indikation Proksimalt 16p11.2-mikrodeletionssyndrom (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder) og monogen fedme (ifølge TxGNN-vidensgrafen"
+monitor_inn: "fenfluramine"
+predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 ---
 
 # Fenfluramine

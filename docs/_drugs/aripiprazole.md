@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aripiprazole: forudsagt ny indikation Major affective disorder (svær depressiv lidelse) (evidensniveau L1). Oprindelig indikation: Skizofreni, bipolar lidelse, autisme (fra vidensgrafen"
+monitor_inn: "aripiprazole"
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole

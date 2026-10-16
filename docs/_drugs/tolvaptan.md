@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tolvaptan: forudsagt ny indikation Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (evidensniveau L1). Oprindelig indikation: SIADH, nefrogent syndrom med uhensigtsmæssig antidiurese…"
+monitor_inn: "Tolvaptan"
+predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "karyomegalic interstitial nephritis", "thoracic malformation", "thoracic malformation", "Joubert syndrome with renal defect", "Joubert syndrome with renal defect"]
 ---
 
 # Tolvaptan

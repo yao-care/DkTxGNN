@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tremelimumab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske markedsføringstillad…"
+monitor_inn: "Tremelimumab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "craniostenosis cataract", "immature cataract", "mature cataract"]
 ---
 
 # Tremelimumab

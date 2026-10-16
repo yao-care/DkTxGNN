@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metronidazole: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Anaerobe bakterielle infektioner, peritonitis, endokarditis…"
+monitor_inn: "metronidazole"
+predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 ---
 
 # Metronidazole

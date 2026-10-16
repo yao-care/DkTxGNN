@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Bleomycin: forudsagt ny indikation Cauda equina-neoplasme (evidensniveau L5). Oprindelig indikation: Hodgkin- og non-Hodgkin-lymfom, hoved-halskræft (fra vidensgrafen"
+monitor_inn: "bleomycin"
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
 
 # Bleomycin

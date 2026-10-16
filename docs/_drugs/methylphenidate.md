@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Methylphenidate: forudsagt ny indikation Specifik udviklingsforstyrrelse (tredje rangerede forudsigelse (evidensniveau L4). Oprindelig indikation: ADHD og narkolepsi"
+monitor_inn: "methylphenidate"
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
 
 # Methylphenidate

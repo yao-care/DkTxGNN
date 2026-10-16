@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prasugrel: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L3). Oprindelig indikation: Akut koronarsyndrom"
+monitor_inn: "Prasugrel"
+predicted_indications: ["pulmonary hypertension", "pulmonary hypertension", "migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "kyphoscoliotic heart disease", "kyphoscoliotic heart disease", "rheumatoid arthritis", "rheumatoid arthritis"]
 ---
 
 # Prasugrel

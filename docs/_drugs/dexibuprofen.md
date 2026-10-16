@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexibuprofen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, juvenil idiopatisk artrit…"
+monitor_inn: "Dexibuprofen"
+predicted_indications: ["brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis"]
 ---
 
 # Dexibuprofen

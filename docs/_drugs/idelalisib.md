@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Idelalisib: forudsagt ny indikation Mantelcellelymfom (evidensniveau L2). Oprindelig indikation: Follikulært lymfom, B-celle-neoplasmer, akut lymfoblastær leukæmi…"
+monitor_inn: "Idelalisib"
+predicted_indications: ["mantle cell lymphoma", "mantle cell lymphoma", "Hodgkins lymphoma", "Hodgkins lymphoma", "B-cell neoplasm", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
 ---
 
 # Idelalisib

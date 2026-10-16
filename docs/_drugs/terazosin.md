@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Terazosin: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Hypertension og benign prostatahyperplasi (fra TxGNN-vidensgrafen"
+monitor_inn: "terazosin"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 ---
 
 # Terazosin

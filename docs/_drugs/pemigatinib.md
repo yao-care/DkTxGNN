@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pemigatinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "Pemigatinib"
+predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "amenorrhea (disease)", "amenorrhea (disease)", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "cytomegalovirus infection", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh"]
 ---
 
 # Pemigatinib

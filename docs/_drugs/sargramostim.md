@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sargramostim: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
+monitor_inn: "Sargramostim"
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "primary release disorder of platelets", "primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease"]
 ---
 
 # Sargramostim

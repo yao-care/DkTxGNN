@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amoxicillin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata. Ifølge videnbasen: urinvej…"
+monitor_inn: "Amoxicillin"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia", "blood group incompatibility", "blood group incompatibility", "premalignant hematological system disease", "premalignant hematological system disease"]
 ---
 
 # Amoxicillin

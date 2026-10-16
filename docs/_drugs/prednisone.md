@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prednisone: forudsagt ny indikation Alopecia areata (evidensniveau L3). Oprindelig indikation: Autoimmune sygdomme, binyrebarkinsufficiens, Crohns sygdom…"
+monitor_inn: "prednisone"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
 ---
 
 # Prednisone

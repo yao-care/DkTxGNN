@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dipyridamole: forudsagt ny indikation Prinzmetal angina (evidensniveau L4). Oprindelig indikation: Atrieflimren"
+monitor_inn: "dipyridamole"
+predicted_indications: ["Prinzmetal angina", "stroke disorder", "thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
 ---
 
 # Dipyridamole

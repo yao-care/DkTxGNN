@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Penciclovir: forudsagt ny indikation Fascioliasis (evidensniveau L5). Oprindelig indikation: Herpes labialis (fra videnbasen"
+monitor_inn: "Penciclovir"
+predicted_indications: ["fascioliasis", "fascioliasis", "cysticercosis", "cysticercosis", "coenurosis", "coenurosis", "intestinal helminthiasis", "intestinal helminthiasis", "malignant pleural mesothelioma", "malignant pleural mesothelioma"]
 ---
 
 # Penciclovir

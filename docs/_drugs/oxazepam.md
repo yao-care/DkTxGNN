@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Oxazepam: forudsagt ny indikation Insomni (evidensniveau L3). Oprindelig indikation: Alkoholabstinensdelirium og angst"
+monitor_inn: "OXAZEPAM"
+predicted_indications: ["insomnia (disease)", "insomnia (disease)"]
 ---
 
 # Oxazepam

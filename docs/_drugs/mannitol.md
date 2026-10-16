@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mannitol: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Hjerneødem, intrakraniel hypertension, okulær hypertension…"
+monitor_inn: "Mannitol"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "familial periodic paralysis"]
 ---
 
 # Mannitol

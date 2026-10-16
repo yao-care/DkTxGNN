@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methylprednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L3). Oprindelig indikation: Autoimmune sygdomme, Crohns sygdom/inflammatorisk tarmsygdom…"
+monitor_inn: "methylprednisolone"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "idiopathic steroid-sensitive nephrotic syndrome"]
 ---
 
 # Methylprednisolone

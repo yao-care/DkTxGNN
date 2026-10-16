@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftazidime: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner (fx bakteriel lungebetændelse, meningitis…"
+monitor_inn: "ceftazidime"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 ---
 
 # Ceftazidime

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Haloperidol: forudsagt ny indikation Medfødt glykosyleringsforstyrrelse med defekt fucosylering (evidensniveau L5). Oprindelig indikation: Psykotiske lidelser, skizofreni, skizoaffektiv lidelse…"
+monitor_inn: "HALOPERIDOL"
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "hydranencephaly (disease)", "myopia X-linked", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 ---
 
 # Haloperidol

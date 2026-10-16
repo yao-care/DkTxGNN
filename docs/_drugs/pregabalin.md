@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pregabalin: forudsagt ny indikation Tendinitis (evidensniveau L4). Oprindelig indikation: Angstlidelse, fibromyalgi, myofascielt smertesyndrom…"
+monitor_inn: "PREGABALIN"
+predicted_indications: ["tendinitis", "tendinitis", "myositis fibrosa", "myositis fibrosa", "idiopathic granulomatous myositis", "idiopathic granulomatous myositis", "inclusion body myositis", "inclusion body myositis", "migraine disorder", "migraine disorder"]
 ---
 
 # Pregabalin

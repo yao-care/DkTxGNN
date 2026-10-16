@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Etoricoxib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data om den danske markedsføringstilla…"
+monitor_inn: "Etoricoxib"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "atrophoderma vermiculata", "ulerythema ophryogenesis", "ulerythema ophryogenesis"]
 ---
 
 # Etoricoxib

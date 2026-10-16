@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Icodextrin: forudsagt ny indikation Irritabel tarm-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (produktet er peritonealdialysevæsk…"
+monitor_inn: "Icodextrin"
+predicted_indications: ["irritable bowel syndrome", "irritable bowel syndrome", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "C1 inhibitor deficiency", "C1 inhibitor deficiency", "potassium deficiency disease", "potassium deficiency disease", "serpinopathy with toxic serpin polymerization", "serpinopathy with toxic serpin polymerization"]
 ---
 
 # Icodextrin

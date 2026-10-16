@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aztreonam: forudsagt ny indikation Hyperamylasæmi (rang 1, ingen evidens) (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion og andre gramnegative infektioner"
+monitor_inn: "aztreonam"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
 ---
 
 # Aztreonam

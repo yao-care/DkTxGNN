@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Spectinomycin: forudsagt ny indikation Sygdom i ligamentum latum uteri (evidensniveau L5). Oprindelig indikation: Gonoré og akut gonokok-cervicitis"
+monitor_inn: "spectinomycin"
+predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
 ---
 
 # Spectinomycin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selamectin: forudsagt ny indikation Candidiasis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for det dansk…"
+monitor_inn: "Selamectin"
+predicted_indications: ["candidiasis", "candidiasis", "leprosy", "leprosy", "coronary artery disease", "coronary artery disease", "myocardial ischemia", "myocardial ischemia", "heart disease", "heart disease"]
 ---
 
 # Selamectin

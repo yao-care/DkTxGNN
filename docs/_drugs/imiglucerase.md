@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imiglucerase: forudsagt ny indikation Hurlers syndrom (evidensniveau L4). Oprindelig indikation: Gauchers sygdom"
+monitor_inn: "Imiglucerase"
+predicted_indications: ["Hurler syndrome", "Hurler syndrome", "Scheie syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "cholesteryl ester storage disease"]
 ---
 
 # Imiglucerase

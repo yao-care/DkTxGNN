@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Norelgestromin: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for det danske…"
+monitor_inn: "norelgestromin"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norelgestromin

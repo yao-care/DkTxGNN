@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Interferon Beta-1A: forudsagt ny indikation Jeune syndrom med situs inversus (evidensniveau L5). Oprindelig indikation: Relapsing-remitting multipel sklerose (fra vidensgrafen"
+monitor_inn: "Interferon beta-1a"
+predicted_indications: ["Jeune syndrome situs inversus", "Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 22", "disorder of fucoglycosan synthesis", "disorder of fucoglycosan synthesis", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome"]
 ---
 
 # Interferon Beta-1A

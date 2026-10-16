@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Autoimmune sygdomme, Crohns sygdom, inflammatorisk tarmsygdom…"
+monitor_inn: "prednisolone"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland", "idiopathic steroid-sensitive nephrotic syndrome"]
 ---
 
 # Prednisolone

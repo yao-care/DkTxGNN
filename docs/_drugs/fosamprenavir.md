@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fosamprenavir: forudsagt ny indikation Felint erhvervet immundefektsyndrom (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (fra videnbasen"
+monitor_inn: "fosamprenavir"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
 ---
 
 # Fosamprenavir

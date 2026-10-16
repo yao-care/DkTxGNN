@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vibegron: forudsagt ny indikation Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (evidensniveau L5). Oprindelig indikation: Overaktiv blære (den danske markedsføringstilladelse indeh…"
+monitor_inn: "Vibegron"
+predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "polycystic kidney disease 3 with or without polycystic liver disease", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "renal-hepatic-pancreatic dysplasia", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "Joubert syndrome with renal defect", "thoracic malformation", "thoracic malformation"]
 ---
 
 # Vibegron

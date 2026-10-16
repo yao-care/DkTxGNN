@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Benzylpenicillin: forudsagt ny indikation Pericoronitis (evidensniveau L5). Oprindelig indikation: Infektiøs mellemørebetændelse, streptokokinfektion…"
+monitor_inn: "benzylpenicillin"
+predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
 ---
 
 # Benzylpenicillin

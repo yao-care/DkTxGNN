@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Glucarpidase: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ud fr…"
+monitor_inn: "Glucarpidase"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "diabetic retinopathy", "diabetic retinopathy", "immature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Glucarpidase

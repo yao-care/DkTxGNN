@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lactulose: forudsagt ny indikation Akut urat-nefropati (rang 1, uden evidens) (evidensniveau L5). Oprindelig indikation: Leverencefalopati, hepatisk koma og forstoppelse"
+monitor_inn: "LACTULOSE"
+predicted_indications: ["acute urate nephropathy", "acute urate nephropathy", "nephrolithiasis", "nephrolithiasis", "obstructive jaundice", "obstructive jaundice", "bile duct disease", "bile duct disease", "biliary tract disease", "biliary tract disease"]
 ---
 
 # Lactulose

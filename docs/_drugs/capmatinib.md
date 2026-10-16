@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Capmatinib: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
+monitor_inn: "capmatinib"
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Capmatinib

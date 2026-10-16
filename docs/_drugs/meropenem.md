@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Meropenem: forudsagt ny indikation Bakteriel artritis (evidensniveau L3). Oprindelig indikation: Bakterielle infektioner (bl.a. Pseudomonas aeruginosa-infektion…"
+monitor_inn: "Meropenem"
+predicted_indications: ["bacterial arthritis", "bacterial arthritis", "epiglottitis", "epiglottitis", "staphylococcus aureus infection", "staphylococcus aureus infection", "laryngitis", "laryngitis", "paratyphoid fever", "paratyphoid fever"]
 ---
 
 # Meropenem

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alirocumab: forudsagt ny indikation X-bundet ichthyosis uden steroidsulfatasemangel (evidensniveau L5). Oprindelig indikation: Syndromisk dyslipidæmi, arteriosklerose…"
+monitor_inn: "Alirocumab"
+predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "cholesterol catabolic process disease"]
 ---
 
 # Alirocumab

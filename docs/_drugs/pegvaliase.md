@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pegvaliase: forudsagt ny indikation Diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. I…"
+monitor_inn: "Pegvaliase"
+predicted_indications: ["diabetic retinopathy", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract", "diabetic cataract", "nuclear senile cataract", "nuclear senile cataract", "cortical cataract", "cortical cataract"]
 ---
 
 # Pegvaliase

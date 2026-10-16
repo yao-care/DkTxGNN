@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Regadenoson: forudsagt ny indikation Anafylaksi (evidensniveau L5). Oprindelig indikation: Diagnostisk middel til radionuklid myokardieperfusionsscintigrafi (MP…"
+monitor_inn: "REGADENOSON"
+predicted_indications: ["anaphylaxis", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "esotropia", "pseudoallergy", "pseudoallergy"]
 ---
 
 # Regadenoson

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Darolutamide: forudsagt ny indikation Homozygot familiær hyperkolesterolæmi (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "darolutamide"
+predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
 ---
 
 # Darolutamide

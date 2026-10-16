@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aflibercept: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Metastaserende tyktarmskræft, makuladegeneration…"
+monitor_inn: "Aflibercept"
+predicted_indications: ["esotropia", "esotropia", "esophageal varices without bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease", "varicose disease", "urethral calculus", "urethral calculus"]
 ---
 
 # Aflibercept

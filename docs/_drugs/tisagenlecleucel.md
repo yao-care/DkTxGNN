@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tisagenlecleucel: forudsagt ny indikation Crohns colitis (evidensniveau L5). Oprindelig indikation: B-cellemaligniteter"
+monitor_inn: "Tisagenlecleucel"
+predicted_indications: ["Crohn's colitis", "Crohn's colitis", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "idiopathic aplastic anemia", "idiopathic aplastic anemia", "adrenal gland hyperfunction", "adrenal gland hyperfunction", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma"]
 ---
 
 # Tisagenlecleucel

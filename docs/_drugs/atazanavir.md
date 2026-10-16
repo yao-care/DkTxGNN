@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Atazanavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (FIV-infektion hos katte) (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (ifølge TxGNN-vidensgrafen"
+monitor_inn: "atazanavir"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "congenital human immunodeficiency virus", "AIDS related complex"]
 ---
 
 # Atazanavir

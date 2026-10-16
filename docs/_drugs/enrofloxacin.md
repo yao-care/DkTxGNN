@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Enrofloxacin: forudsagt ny indikation Hjertesygdom (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (veterinær bakteriel infektion"
+monitor_inn: "Enrofloxacin"
+predicted_indications: ["heart disease", "heart disease", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "partial deletion of the long arm of chromosome 7"]
 ---
 
 # Enrofloxacin

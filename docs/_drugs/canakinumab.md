@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de danske data. Iføl…"
+monitor_inn: "Canakinumab"
+predicted_indications: ["hepatic infarction", "hepatic infarction", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease", "peliosis hepatis", "peliosis hepatis", "syndrome with combined immunodeficiency", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "periodic fever-infantile enterocolitis-autoinflammatory syndrome"]
 ---
 
 # Canakinumab

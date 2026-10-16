@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lorlatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft (NSCLC) / lungekræft (ifølge videngrafen"
+monitor_inn: "Lorlatinib"
+predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "fibroma of lung", "fibroma of lung", "hamartoma of lung", "hamartoma of lung", "lung hilum carcinoma", "lung hilum carcinoma", "lung benign neoplasm", "lung benign neoplasm"]
 ---
 
 # Lorlatinib

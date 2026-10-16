@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clopidogrel: forudsagt ny indikation Migræne (migræne med hjernestammeaura rangeret først (evidensniveau L5). Oprindelig indikation: Akut koronart syndrom, intrakraniel emboli…"
+monitor_inn: "Clopidogrel"
+predicted_indications: ["migraine with brainstem aura", "migraine with brainstem aura", "migraine disorder", "migraine disorder", "osteoarthritis", "osteoarthritis", "tendinitis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
 ---
 
 # Clopidogrel

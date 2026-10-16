@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Reslizumab: forudsagt ny indikation Trombocytopeni på grund af immundestruktion (evidensniveau L5). Oprindelig indikation: Eosinofil pneumoni / pulmonal eosinofili (angivet i vidensgrafen"
+monitor_inn: "Reslizumab"
+predicted_indications: ["thrombocytopenia due to immune destruction", "thrombocytopenia due to immune destruction", "primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia"]
 ---
 
 # Reslizumab

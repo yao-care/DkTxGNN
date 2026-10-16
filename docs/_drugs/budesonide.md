@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Budesonide: forudsagt ny indikation Bronkitis (rang 2). Rang 1 er atopisk eksem (score 99,96 %)… (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
+monitor_inn: "budesonide"
+predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
 ---
 
 # Budesonide

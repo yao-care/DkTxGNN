@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metreleptin: forudsagt ny indikation Familiær generaliseret lentiginose (evidensniveau L5). Oprindelig indikation: Medfødt generaliseret lipodystrofi (Berardinelli-Seip) og lipodystrof…"
+monitor_inn: "Metreleptin"
+predicted_indications: ["familial generalized lentiginosis", "familial generalized lentiginosis", "gastrocutaneous syndrome", "gastrocutaneous syndrome", "Moynahan syndrome", "Moynahan syndrome", "rhabdoid tumor", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome"]
 ---
 
 # Metreleptin

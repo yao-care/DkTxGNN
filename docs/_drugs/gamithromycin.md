@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gamithromycin: forudsagt ny indikation Interventrikulært septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (veterinært makrolidantibiotikum)"
+monitor_inn: "Gamithromycin"
+predicted_indications: ["interventricular septum aneurysm", "interventricular septum aneurysm", "orofacial clefting syndrome", "orofacial clefting syndrome", "pulmonary valve disease", "pulmonary valve disease", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "genetic syndromic Pierre Robin syndrome"]
 ---
 
 # Gamithromycin

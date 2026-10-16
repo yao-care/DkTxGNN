@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Olanzapine: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (evidensniveau L5). Oprindelig indikation: Skizofreni, bipolar lidelse, depression…"
+monitor_inn: "olanzapine"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
 ---
 
 # Olanzapine

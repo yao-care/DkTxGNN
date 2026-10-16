@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Agalsidase Beta: forudsagt ny indikation Cervikalt neuroblastom (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesteksten. Lægemidlet er enzymerstatningster…"
+monitor_inn: "Agalsidase beta"
+predicted_indications: ["cervical neuroblastoma", "cervical neuroblastoma", "schwannoma of jugular foramen", "schwannoma of jugular foramen", "epiglottis neoplasm", "epiglottis neoplasm", "benign neoplasm of tongue", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "benign neoplasm of floor of mouth"]
 ---
 
 # Agalsidase Beta

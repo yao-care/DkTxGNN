@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbamazepine: forudsagt ny indikation Trigeminusnervetumor (trigeminal nerve neoplasm) (evidensniveau L4). Oprindelig indikation: Epilepsi, bipolar lidelse og trigeminusneuralgi (fra vidensgrafen"
+monitor_inn: "carbamazepine"
+predicted_indications: ["trigeminal nerve neoplasm", "audiogenic seizures", "orgasm-induced seizures", "eating seizures", "micturation-induced seizures", "thinking seizures", "startle epilepsy", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 ---
 
 # Carbamazepine

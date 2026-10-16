@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Propofol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Propo…"
+monitor_inn: "PROPOFOL"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "Prinzmetal angina", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "Tourette syndrome"]
 ---
 
 # Propofol

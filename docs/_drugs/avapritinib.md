@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Avapritinib: forudsagt ny indikation Aksial spondylometafysær dysplasi (evidensniveau L5). Oprindelig indikation: Gastrointestinal stromatumor (GIST)"
+monitor_inn: "Avapritinib"
+predicted_indications: ["axial spondylometaphyseal dysplasia", "axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrophic lateral sclerosis, susceptibility to", "amyotrophic lateral sclerosis, susceptibility to"]
 ---
 
 # Avapritinib

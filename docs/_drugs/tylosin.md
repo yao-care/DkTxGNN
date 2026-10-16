@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tylosin: forudsagt ny indikation Jeune syndrom med situs inversus (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for det dansk…"
+monitor_inn: "Tylosin"
+predicted_indications: ["Jeune syndrome situs inversus", "Jeune syndrome situs inversus", "interventricular septum aneurysm", "interventricular septum aneurysm", "heart disease", "heart disease", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "Pierre Robin syndrome associated with a chromosomal anomaly"]
 ---
 
 # Tylosin

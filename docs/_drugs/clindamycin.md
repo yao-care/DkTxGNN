@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clindamycin: forudsagt ny indikation Punktat epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner (bl.a. stafylokok-…"
+monitor_inn: "Clindamycin"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "exposure keratitis", "non-human animal disease", "non-human animal disease", "neurotrophic keratopathy", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "epidemic keratoconjunctivitis"]
 ---
 
 # Clindamycin

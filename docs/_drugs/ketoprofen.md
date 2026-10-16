@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ketoprofen: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, ledsygdomme (fra TxGNN-vidensgrafen"
+monitor_inn: "KETOPROFEN"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis", "brachyolmia", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Ketoprofen

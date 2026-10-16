@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Eptinezumab: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migrænelidelse)"
+monitor_inn: "Eptinezumab"
+predicted_indications: ["migraine with brainstem aura", "migraine with brainstem aura", "atrophoderma vermiculata", "atrophoderma vermiculata", "ulerythema ophryogenesis", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "antithrombin deficiency type 2"]
 ---
 
 # Eptinezumab

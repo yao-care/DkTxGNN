@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diazepam: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Epilepsi, status epilepticus, alkoholabstinens (inkl. delirium)…"
+monitor_inn: "Diazepam"
+predicted_indications: ["insomnia (disease)", "insomnia (disease)", "cauda equina syndrome", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse"]
 ---
 
 # Diazepam

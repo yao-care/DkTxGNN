@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pramipexole: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L4). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
+monitor_inn: "pramipexole"
+predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 ---
 
 # Pramipexole

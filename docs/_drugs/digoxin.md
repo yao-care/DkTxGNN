@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Digoxin: forudsagt ny indikation Prinzmetal angina (evidensniveau L5). Oprindelig indikation: Atrieflimren og digitalisforgiftning"
+monitor_inn: "DIGOXIN"
+predicted_indications: ["Prinzmetal angina", "Prinzmetal angina", "duodenal obstruction", "duodenal obstruction", "duodenal ulcer (disease)", "duodenal ulcer (disease)", "duodenogastric reflux", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "obsolete susceptibility to ischemic stroke"]
 ---
 
 # Digoxin

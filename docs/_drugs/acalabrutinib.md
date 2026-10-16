@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acalabrutinib: forudsagt ny indikation Non-Hodgkin-lymfom, familiær (evidensniveau L2). Oprindelig indikation: Mantelcellelymfom, B-celle-neoplasi…"
+monitor_inn: "Acalabrutinib"
+predicted_indications: ["lymphoma, non-Hodgkin, familial", "lymphoma, non-Hodgkin, familial", "colon adenocarcinoma", "colon adenocarcinoma", "small intestinal Burkitt lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma"]
 ---
 
 # Acalabrutinib

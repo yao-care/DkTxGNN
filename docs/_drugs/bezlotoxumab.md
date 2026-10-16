@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bezlotoxumab: forudsagt ny indikation Akut kvindelig bækkenperitonitis (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis og Clostridium-infektioner"
+monitor_inn: "Bezlotoxumab"
+predicted_indications: ["acute female pelvic peritonitis", "acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "embryonic cyst of fallopian tube", "tubal pregnancy", "tubal pregnancy", "salpingitis isthmica nodosa", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "disease of uterine broad ligament"]
 ---
 
 # Bezlotoxumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Entrectinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske markedsføringstillad…"
+monitor_inn: "Entrectinib"
+predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "amenorrhea (disease)", "amenorrhea (disease)", "thrombocytopenia", "thrombocytopenia", "cytomegalovirus infection", "cytomegalovirus infection", "pulmonary hypertension", "pulmonary hypertension"]
 ---
 
 # Entrectinib

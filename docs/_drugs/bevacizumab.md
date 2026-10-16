@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bevacizumab: forudsagt ny indikation Epiglottisneoplasme (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de indsamlede data f…"
+monitor_inn: "Bevacizumab"
+predicted_indications: ["epiglottis neoplasm", "epiglottis neoplasm", "benign neoplasm of tongue", "benign neoplasm of tongue", "tumor of testis and paratestis", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "benign neoplasm of floor of mouth"]
 ---
 
 # Bevacizumab

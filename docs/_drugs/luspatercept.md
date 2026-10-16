@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Luspatercept: forudsagt ny indikation Monosomi X (evidensniveau L5). Oprindelig indikation: Beta-thalassæmi og beslægtede hæmoglobinopatier"
+monitor_inn: "Luspatercept"
+predicted_indications: ["monosomy X", "monosomy X", "hepatic infarction", "hepatic infarction", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease", "peliosis hepatis", "peliosis hepatis", "syndrome with combined immunodeficiency", "syndrome with combined immunodeficiency"]
 ---
 
 # Luspatercept

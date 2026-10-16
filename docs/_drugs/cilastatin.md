@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cilastatin: forudsagt ny indikation Pneumoni (hospitalserhvervet og ventilatorassocieret bakteriel pneumo… (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse, peritonitis, endokardi…"
+monitor_inn: "cilastatin"
+predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "pneumonia", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 ---
 
 # Cilastatin

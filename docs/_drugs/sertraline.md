@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Sertraline: forudsagt ny indikation Agorafobi (evidensniveau L5). Oprindelig indikation: Angstlidelse, OCD, PTSD, social fobi, dysthymi (fra TxGNN-vidensgrafen"
+monitor_inn: "sertraline"
+predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 ---
 
 # Sertraline

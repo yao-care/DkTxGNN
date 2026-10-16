@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Voxelotor: forudsagt ny indikation Arvelig trombocytopeni med normale blodplader (evidensniveau L5). Oprindelig indikation: Seglcelleanæmi (fra vidensgrafen"
+monitor_inn: "VOXELOTOR"
+predicted_indications: ["hereditary thrombocytopenia with normal platelets", "hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "dense granule disease", "transient neonatal thrombocytopenia", "transient neonatal thrombocytopenia", "thrombocytopenia", "thrombocytopenia"]
 ---
 
 # Voxelotor

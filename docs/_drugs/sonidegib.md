@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sonidegib: forudsagt ny indikation Medulloblastom med udtalt nodularitet (evidensniveau L5). Oprindelig indikation: Basalcellekarcinom og andre hudkarcinomer (ifølge TxGNN-vidensgrafen"
+monitor_inn: "Sonidegib"
+predicted_indications: ["medulloblastoma with extensive nodularity", "medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "trichothiodystrophy photosensitive"]
 ---
 
 # Sonidegib

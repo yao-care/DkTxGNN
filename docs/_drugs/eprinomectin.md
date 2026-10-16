@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Eprinomectin: forudsagt ny indikation Candidiasis (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsens indikationstekst er t…"
+monitor_inn: "Eprinomectin"
+predicted_indications: ["candidiasis", "candidiasis", "leprosy", "leprosy", "coronary artery disease", "coronary artery disease", "myocardial ischemia", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "anomalous left coronary artery from the pulmonary artery"]
 ---
 
 # Eprinomectin

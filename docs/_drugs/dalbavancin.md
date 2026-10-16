@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dalbavancin: forudsagt ny indikation Postinfektiøs vaskulitis (evidensniveau L5). Oprindelig indikation: Infektionsbetingede hudsygdomme (fra vidensgrafen"
+monitor_inn: "dalbavancin"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
 ---
 
 # Dalbavancin

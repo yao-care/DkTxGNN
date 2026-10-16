@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Siltuximab: forudsagt ny indikation Ekstrakutant mastocytom (evidensniveau L5). Oprindelig indikation: Castlemans sygdom"
+monitor_inn: "Siltuximab"
+predicted_indications: ["extracutaneous mastocytoma", "extracutaneous mastocytoma", "hepatic infarction", "hepatic infarction", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease", "peliosis hepatis", "peliosis hepatis", "Kaposi's sarcoma (disease)", "Kaposi's sarcoma (disease)"]
 ---
 
 # Siltuximab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Evinacumab: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske markedsføringstillad…"
+monitor_inn: "Evinacumab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract"]
 ---
 
 # Evinacumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Triptorelin: forudsagt ny indikation Hypertrikose (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (indikationsteksten i markedsfø…"
+monitor_inn: "TRIPTORELIN"
+predicted_indications: ["hypertrichosis (disease)", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "isolated genetic hair shaft abnormality"]
 ---
 
 # Triptorelin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ioversol: forudsagt ny indikation Slidgigt – \"osteoarthritis susceptibility\" (genetisk modtagelighed) e… (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (kontraststof til…"
+monitor_inn: "Ioversol"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis susceptibility", "osteoarthritis", "osteoarthritis", "rheumatoid arthritis", "rheumatoid arthritis", "brachyolmia", "brachyolmia", "hemoglobinopathy", "hemoglobinopathy"]
 ---
 
 # Ioversol

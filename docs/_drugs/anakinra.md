@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Anakinra: forudsagt ny indikation Ekstrakutant mastocytom (evidensniveau L5). Oprindelig indikation: Leddegigt, CAPS og CINCA-syndrom (fra TxGNN-videnbasen"
+monitor_inn: "Anakinra"
+predicted_indications: ["extracutaneous mastocytoma", "extracutaneous mastocytoma", "hepatic infarction", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease"]
 ---
 
 # Anakinra

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexrazoxane: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
+monitor_inn: "dexrazoxane"
+predicted_indications: ["sclerosing cholangitis", "bronchitis", "paratyphoid fever", "conjunctivitis", "epiglottitis", "peritonitis", "laryngitis", "urinary tract infection (disease)", "pyelonephritis", "cystitis"]
 ---
 
 # Dexrazoxane

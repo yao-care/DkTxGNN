@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chloramphenicol: forudsagt ny indikation Konjunktivitis (evidensniveau L3). Oprindelig indikation: Tyfoidfeber, salmonellose, paratyfoid feber, meningokokinfektion…"
+monitor_inn: "CHLORAMPHENICOL"
+predicted_indications: ["conjunctivitis", "conjunctivitis", "diffuse scleroderma", "diffuse scleroderma", "postinfectious vasculitis", "postinfectious vasculitis", "post-bacterial disorder", "post-bacterial disorder", "post-infectious syndrome", "post-infectious syndrome"]
 ---
 
 # Chloramphenicol

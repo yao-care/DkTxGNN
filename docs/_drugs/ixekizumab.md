@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ixekizumab: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Ankyloserende spondylitis og spondyloartropati"
+monitor_inn: "Ixekizumab"
+predicted_indications: ["rheumatoid vasculitis", "rheumatoid vasculitis", "acute lymphoblastic/lymphocytic leukemia", "acute lymphoblastic/lymphocytic leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "hypermobility of coccyx", "hypermobility of coccyx"]
 ---
 
 # Ixekizumab

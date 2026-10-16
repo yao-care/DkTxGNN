@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for den danske…"
+monitor_inn: "Apixaban"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "leprosy", "leprosy", "rheumatoid arthritis", "rheumatoid arthritis", "migraine with brainstem aura", "migraine with brainstem aura"]
 ---
 
 # Apixaban

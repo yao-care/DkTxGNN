@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketoconazole: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Svampeinfektioner i huden (bl.a. tinea pedis, seboroisk dermatitis…"
+monitor_inn: "ketoconazole"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole

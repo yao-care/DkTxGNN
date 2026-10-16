@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Lumacaftor: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Cystisk fibrose (ifølge TxGNN-vidensgrafen"
+monitor_inn: "lumacaftor"
+predicted_indications: ["leprosy"]
 ---
 
 # Lumacaftor

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexamethasone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Binyrebarkinsufficiens, Crohns sygdom, akut lymfoblastær leukæmi…"
+monitor_inn: "dexamethasone"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 ---
 
 # Dexamethasone

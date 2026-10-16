@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amikacin: forudsagt ny indikation Paratyfus (paratyphoid fever) (evidensniveau L4). Oprindelig indikation: Bakteriel lungebetændelse, Pseudomonas aeruginosa-infektion…"
+monitor_inn: "amikacin"
+predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
 ---
 
 # Amikacin

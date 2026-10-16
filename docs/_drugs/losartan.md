@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Losartan: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L4). Oprindelig indikation: Hypertension og diabetisk nefropati (fra TxGNN-vidensgrafen"
+monitor_inn: "losartan"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 ---
 
 # Losartan

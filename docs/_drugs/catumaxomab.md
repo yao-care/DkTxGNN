@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Catumaxomab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for Korjuny er…"
+monitor_inn: "Catumaxomab"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "drug-induced osteoporosis", "diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "diabetic cataract", "kidney pelvis sarcomatoid transitional cell carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 ---
 
 # Catumaxomab

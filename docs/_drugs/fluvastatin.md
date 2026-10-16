@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluvastatin: forudsagt ny indikation Hyperlipoproteinæmi (rang 1) (evidensniveau L1). Oprindelig indikation: Arteriosklerose, aterosklerose og familiær kombineret hyperlipidæmi"
+monitor_inn: "fluvastatin"
+predicted_indications: ["hyperlipoproteinemia", "homozygous familial hypercholesterolemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "familial hypercholesterolemia", "HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
 ---
 
 # Fluvastatin

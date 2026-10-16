@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Teprotumumab: forudsagt ny indikation Monosomi X (evidensniveau L5). Oprindelig indikation: Endokrin eksoftalmus (skjoldbruskkirtelrelateret øjensygdom). Godkend…"
+monitor_inn: "Teprotumumab"
+predicted_indications: ["monosomy X", "monosomy X", "esophageal varices without bleeding", "esophageal varices with bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "mixed gonadal dysgenesis", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
 
 # Teprotumumab

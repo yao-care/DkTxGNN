@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Topiramate: forudsagt ny indikation Trigeminusnervetumor (rang 1) (evidensniveau L5). Oprindelig indikation: Epilepsi med generaliserede tonisk-kloniske anfald, partiel epilepsi…"
+monitor_inn: "topiramate"
+predicted_indications: ["trigeminal nerve neoplasm", "visual epilepsy", "thinking seizures", "startle epilepsy", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "orgasm-induced seizures", "reading seizures"]
 ---
 
 # Topiramate

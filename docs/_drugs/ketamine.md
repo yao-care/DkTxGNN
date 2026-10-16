@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "ketamine"
+predicted_indications: ["headache disorder"]
 ---
 
 # Ketamine

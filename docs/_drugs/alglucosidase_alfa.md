@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alglucosidase Alfa: forudsagt ny indikation Voksen polyglucosanlegemesygdom (evidensniveau L5). Oprindelig indikation: Glykogenlagringssygdom"
+monitor_inn: "Alglucosidase alfa"
+predicted_indications: ["adult polyglucosan body disease", "adult polyglucosan body disease", "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form", "congenital entropion", "congenital entropion", "congenital ectropion", "congenital ectropion"]
 ---
 
 # Alglucosidase Alfa

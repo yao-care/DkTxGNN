@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Granisetron: forudsagt ny indikation Manisk bipolar lidelse (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
+monitor_inn: "Granisetron"
+predicted_indications: ["manic bipolar affective disorder", "manic bipolar affective disorder", "Tourette syndrome", "Tourette syndrome", "acute contagious conjunctivitis", "acute contagious conjunctivitis", "angioedema", "angioedema", "allergic urticaria", "allergic urticaria"]
 ---
 
 # Granisetron

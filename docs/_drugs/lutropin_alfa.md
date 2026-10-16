@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lutropin Alfa: forudsagt ny indikation Postural ortostatisk takykardisyndrom (POTS) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (lægemidlet anvendes i reproduktion…"
+monitor_inn: "Lutropin alfa"
+predicted_indications: ["postural orthostatic tachycardia syndrome", "postural orthostatic tachycardia syndrome", "peptic esophagitis", "peptic esophagitis", "trichotillomania", "trichotillomania", "Raynaud disease", "Raynaud disease", "duodenal ulcer (disease)", "duodenal ulcer (disease)"]
 ---
 
 # Lutropin Alfa

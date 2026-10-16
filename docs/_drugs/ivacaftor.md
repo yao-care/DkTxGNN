@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ivacaftor: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Cystisk fibrose"
+monitor_inn: "Ivacaftor"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "HIV infectious disease", "HIV infectious disease", "leprosy", "leprosy", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "simian immunodeficiency virus infection"]
 ---
 
 # Ivacaftor

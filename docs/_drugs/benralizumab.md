@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Benralizumab: forudsagt ny indikation Dermatitis (evidensniveau L5). Oprindelig indikation: Eosinofil pneumoni / pulmonal eosinofili"
+monitor_inn: "Benralizumab"
+predicted_indications: ["thrombocytopenia due to immune destruction", "thrombocytopenia due to immune destruction", "dermatitis", "dermatitis", "acne keloid", "acne keloid", "neonatal dermatomyositis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "amyopathic dermatomyositis"]
 ---
 
 # Benralizumab

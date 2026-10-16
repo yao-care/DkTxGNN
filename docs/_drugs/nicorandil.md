@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nicorandil: forudsagt ny indikation Benign prostatahyperplasi (evidensniveau L4). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Ifølge farmakolog…"
+monitor_inn: "Nicorandil"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "benign prostatic hyperplasia (disease)", "alopecia", "alopecia", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "diffuse alopecia areata", "diffuse alopecia areata"]
 ---
 
 # Nicorandil

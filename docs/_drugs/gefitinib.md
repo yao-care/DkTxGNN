@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gefitinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft / lungekræft (fra vidensgrafen"
+monitor_inn: "GEFITINIB"
+predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "fibroma of lung", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "hamartoma of lung", "lung hilum carcinoma", "lung hilum carcinoma"]
 ---
 
 # Gefitinib

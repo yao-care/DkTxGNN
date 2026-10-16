@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ibrutinib: forudsagt ny indikation Polyklonal hypergammaglobulinæmi (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær leukæmi, Richters syndrom, mantlecellelymfom…"
+monitor_inn: "Ibrutinib"
+predicted_indications: ["polyclonal hypergammaglobulinemia", "polyclonal hypergammaglobulinemia", "monoclonal paraproteinemia disease", "monoclonal paraproteinemia disease", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "small intestinal Burkitt lymphoma", "small intestinal Burkitt lymphoma"]
 ---
 
 # Ibrutinib

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Ceftriaxone: forudsagt ny indikation Infektiøs mellemørebetændelse (evidensniveau L3). Oprindelig indikation: Bakterielle infektioner (bl.a. meningitis, pneumoni, gonoré…"
+monitor_inn: "ceftriaxone"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 ---
 
 # Ceftriaxone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Natalizumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
+monitor_inn: "NATALIZUMAB"
+predicted_indications: ["bronchitis", "bronchitis", "parapsoriasis", "parapsoriasis", "psoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis", "acute lichenoid pityriasis"]
 ---
 
 # Natalizumab

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atenolol: forudsagt ny indikation Posteroinferiort myokardieinfarkt (rang 2). Andre højt rangerede foru… (evidensniveau L4). Oprindelig indikation: Hypertension og myokardieinfarkt (ifølge vidensgraf…"
+monitor_inn: "ATENOLOL"
+predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "malignant renovascular hypertension", "malignant renovascular hypertension", "malignant hypertensive renal disease", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Atenolol

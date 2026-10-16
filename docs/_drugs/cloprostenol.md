@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cloprostenol: forudsagt ny indikation Reumatoid arthritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (produktet er godkendt til heste)"
+monitor_inn: "Cloprostenol"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "interventricular septum aneurysm", "interventricular septum aneurysm", "gout", "gout"]
 ---
 
 # Cloprostenol

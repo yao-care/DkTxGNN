@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Glulisine: forudsagt ny indikation Type 1-diabetes mellitus (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…"
+monitor_inn: "insulin glulisine"
+predicted_indications: ["type 1 diabetes mellitus", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
 
 # Insulin Glulisine

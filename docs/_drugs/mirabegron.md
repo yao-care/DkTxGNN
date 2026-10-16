@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mirabegron: forudsagt ny indikation Thorakal misdannelse (evidensniveau L5). Oprindelig indikation: Overaktiv blære"
+monitor_inn: "Mirabegron"
+predicted_indications: ["thoracic malformation", "thoracic malformation", "renal-hepatic-pancreatic dysplasia", "renal-hepatic-pancreatic dysplasia", "polycystic kidney disease 3 with or without polycystic liver disease", "polycystic kidney disease 3 with or without polycystic liver disease", "Joubert syndrome with renal defect", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "adult familial nephronophthisis-spastic quadriparesia syndrome"]
 ---
 
 # Mirabegron

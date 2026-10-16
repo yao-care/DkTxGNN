@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Dolutegravir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: Hiv-infektion og AIDS"
+monitor_inn: "DOLUTEGRAVIR"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Dolutegravir

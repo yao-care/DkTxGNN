@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ivermectin: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). Oprindelig indikation: Strongyloidiasis og onchocerciasis (fra TxGNN-vidensgrafen"
+monitor_inn: "Ivermectin"
+predicted_indications: ["vulvovaginal candidiasis", "vulvovaginal candidiasis", "esophageal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "anogenital human papillomavirus infection", "vulvovaginitis", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis"]
 ---
 
 # Ivermectin

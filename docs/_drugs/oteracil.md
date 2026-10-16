@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oteracil: forudsagt ny indikation Colonic neoplasm (tyktarmsneoplasi) (evidensniveau L1). Oprindelig indikation: Mavekræft (gastric cancer)"
+monitor_inn: "oteracil"
+predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
 ---
 
 # Oteracil

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dorzolamide: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension (de danske godkendelser in…"
+monitor_inn: "dorzolamide"
+predicted_indications: ["primary hereditary glaucoma", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "glaucoma 1, open angle", "open angle glaucoma", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 ---
 
 # Dorzolamide

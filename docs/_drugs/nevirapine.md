@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nevirapine: forudsagt ny indikation Felint ervervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS"
+monitor_inn: "nevirapine"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Nevirapine

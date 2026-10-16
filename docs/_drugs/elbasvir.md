@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Elbasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis C-virusinfektion (indikationsteksten i det danske r…"
+monitor_inn: "elbasvir"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Elbasvir

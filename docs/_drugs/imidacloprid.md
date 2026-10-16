@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imidacloprid: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesteksten (veterinært produkt til hund)"
+monitor_inn: "Imidacloprid"
+predicted_indications: ["cauda equina syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "irritable bowel syndrome", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "esophageal disease", "esophageal disease"]
 ---
 
 # Imidacloprid

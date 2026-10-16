@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Inotuzumab Ozogamicin: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Den danske markedsføringstilladelse indeholder ingen registreret indi…"
+monitor_inn: "Inotuzumab ozogamicin"
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "breast tumor luminal A or B"]
 ---
 
 # Inotuzumab Ozogamicin

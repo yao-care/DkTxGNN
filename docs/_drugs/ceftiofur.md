@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftiofur: forudsagt ny indikation Interventrikulært septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Cefti…"
+monitor_inn: "Ceftiofur"
+predicted_indications: ["interventricular septum aneurysm", "interventricular septum aneurysm", "pulmonary valve disease", "pulmonary valve disease", "orofacial clefting syndrome", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "genetic syndromic Pierre Robin syndrome"]
 ---
 
 # Ceftiofur

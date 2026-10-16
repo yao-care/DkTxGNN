@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capsaicin: forudsagt ny indikation Otitis externa (evidensniveau L5). Oprindelig indikation: Neuralgi og postherpetisk neuralgi (fra TxGNN-vidensgrafen"
+monitor_inn: "Capsaicin"
+predicted_indications: ["otitis externa", "otitis externa", "post-bacterial disorder", "post-bacterial disorder", "postinfectious vasculitis", "postinfectious vasculitis", "infective urethral stricture", "infective urethral stricture", "post-infectious syndrome", "post-infectious syndrome"]
 ---
 
 # Capsaicin

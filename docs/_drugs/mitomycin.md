@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mitomycin: forudsagt ny indikation Osteoklastisk kæmpecelletumor i pancreas (evidensniveau L5). Oprindelig indikation: Pancreasadenokarcinom"
+monitor_inn: "MITOMYCIN"
+predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "mixed ductal-endocrine carcinoma of pancreas"]
 ---
 
 # Mitomycin

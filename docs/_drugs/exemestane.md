@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Exemestane: forudsagt ny indikation Amenoré (rang 2 (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den godkendte indikationstekst er…"
+monitor_inn: "exemestane"
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Exemestane

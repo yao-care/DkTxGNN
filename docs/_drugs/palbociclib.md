@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Palbociclib: forudsagt ny indikation Hyperthyroidisme (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (indikationsteksten i den dansk…"
+monitor_inn: "Palbociclib"
+predicted_indications: ["hyperthyroidism", "hyperthyroidism", "rheumatoid arthritis", "rheumatoid arthritis", "thrombotic disease", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Palbociclib

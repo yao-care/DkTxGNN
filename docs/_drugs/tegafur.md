@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tegafur: forudsagt ny indikation Colonic neoplasm (tyktarmskræft) (evidensniveau L1). Oprindelig indikation: Mavekræft (gastric cancer). Den godkendte indikationstekst for det da…"
+monitor_inn: "tegafur"
+predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
 ---
 
 # Tegafur

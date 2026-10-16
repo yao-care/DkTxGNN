@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tezepelumab: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (stoffet er markedsført til svæ…"
+monitor_inn: "Tezepelumab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "tetanic cataract", "mature cataract", "craniostenosis cataract"]
 ---
 
 # Tezepelumab

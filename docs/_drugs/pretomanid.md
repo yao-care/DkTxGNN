@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pretomanid: forudsagt ny indikation Candidiasis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "Pretomanid"
+predicted_indications: ["candidiasis", "candidiasis", "leprosy", "leprosy", "coronary artery disease", "coronary artery disease", "myocardial ischemia", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "anomalous left coronary artery from the pulmonary artery"]
 ---
 
 # Pretomanid

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Teicoplanin: forudsagt ny indikation Bakteriel artritis (evidensniveau L3). Oprindelig indikation: Stafylokokinfektion"
+monitor_inn: "Teicoplanin"
+predicted_indications: ["bacterial arthritis", "bacterial arthritis", "visceral leishmaniasis", "visceral leishmaniasis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "celiac trunk compression syndrome", "abdominal cystic lymphangioma"]
 ---
 
 # Teicoplanin

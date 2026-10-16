@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Mebendazole: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Enterobiasis (trådorm), askaridiasis (spolorm)…"
+monitor_inn: "mebendazole"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Mebendazole

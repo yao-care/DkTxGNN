@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ramucirumab: forudsagt ny indikation Livmoderligamentets adenokarcinom (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft, gastrisk adenokarcinom…"
+monitor_inn: "Ramucirumab"
+predicted_indications: ["uterine ligament adenocarcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma"]
 ---
 
 # Ramucirumab

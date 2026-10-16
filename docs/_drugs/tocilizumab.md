@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tocilizumab: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L3). Oprindelig indikation: Leddegigt (rheumatoid arthritis), juvenil idiopatisk artritis…"
+monitor_inn: "TOCILIZUMAB"
+predicted_indications: ["ankylosing spondylitis", "ankylosing spondylitis", "rheumatoid vasculitis", "rheumatoid vasculitis", "hypermobility of coccyx", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "inflammatory spondylopathy"]
 ---
 
 # Tocilizumab

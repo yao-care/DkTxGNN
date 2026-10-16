@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Moxonidine: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Hypertension (angivet i vidensgrafen"
+monitor_inn: "moxonidine"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
 ---
 
 # Moxonidine

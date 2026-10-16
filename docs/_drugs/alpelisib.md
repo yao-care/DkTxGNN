@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alpelisib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske au…"
+monitor_inn: "Alpelisib"
+predicted_indications: ["pulmonary hypertension", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "migraine disorder", "migraine disorder", "kyphoscoliotic heart disease", "kyphoscoliotic heart disease", "rheumatoid arthritis", "rheumatoid arthritis"]
 ---
 
 # Alpelisib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Anidulafungin: forudsagt ny indikation Impetigo (evidensniveau L5). Oprindelig indikation: Esophageal candidiasis og candidaemi"
+monitor_inn: "Anidulafungin"
+predicted_indications: ["impetigo", "impetigo", "malignant pleural mesothelioma", "malignant pleural mesothelioma", "staphylococcal scalded skin syndrome", "staphylococcal scalded skin syndrome", "pleural empyema (disease)", "pleural empyema (disease)", "malignant visceral pleura tumor", "malignant visceral pleura tumor"]
 ---
 
 # Anidulafungin

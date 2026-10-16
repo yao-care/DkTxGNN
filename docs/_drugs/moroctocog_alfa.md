@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Moroctocog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Hæmofili"
+monitor_inn: "MOROCTOCOG ALFA"
+predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "acquired coagulation factor deficiency", "Scott syndrome", "Scott syndrome"]
 ---
 
 # Moroctocog Alfa

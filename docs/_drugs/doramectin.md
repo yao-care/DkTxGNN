@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doramectin: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt som dyrelægemiddel…"
+monitor_inn: "Doramectin"
+predicted_indications: ["insomnia (disease)", "insomnia (disease)", "sleep disorder, initiating and maintaining sleep", "sleep disorder, initiating and maintaining sleep", "anxiety", "anxiety", "agoraphobia", "agoraphobia", "anxiety disorder", "anxiety disorder"]
 ---
 
 # Doramectin

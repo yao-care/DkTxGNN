@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Migalastat: forudsagt ny indikation Idiopatisk kobberassocieret cirrose (evidensniveau L5). Oprindelig indikation: Fabrys sygdom"
+monitor_inn: "Migalastat"
+predicted_indications: ["idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis"]
 ---
 
 # Migalastat

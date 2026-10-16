@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Zolbetuximab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Mavekræft og kræft i mave-spiserørsovergangen (HER2-negativ…"
+monitor_inn: "Zolbetuximab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "tetanic cataract", "craniostenosis cataract", "mature cataract", "immature cataract", "immature cataract", "tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Zolbetuximab

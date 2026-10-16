@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Urofollitropin: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (lægemidlet er kendt som FSH-præpar…"
+monitor_inn: "Urofollitropin"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "cauda equina syndrome", "cauda equina syndrome", "His bundle tachycardia", "His bundle tachycardia", "restless legs syndrome", "restless legs syndrome"]
 ---
 
 # Urofollitropin

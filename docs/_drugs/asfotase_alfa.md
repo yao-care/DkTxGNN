@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Asfotase Alfa: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleæ… (evidensniveau L5). Oprindelig indikation: Hypofosfatasi"
+monitor_inn: "Asfotase alfa"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "Steel syndrome", "exocrine pancreatic insufficiency", "exocrine pancreatic insufficiency", "Scheie syndrome", "Scheie syndrome", "Hurler syndrome", "Hurler syndrome"]
 ---
 
 # Asfotase Alfa

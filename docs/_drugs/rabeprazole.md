@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Rabeprazole: forudsagt ny indikation Smoldrende systemisk mastocytose (evidensniveau L5). Oprindelig indikation: Mavesår, gastroøsofageal reflukssygdom, øsofagitis, duodenalsår…"
+monitor_inn: "rabeprazole"
+predicted_indications: ["Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Rabeprazole

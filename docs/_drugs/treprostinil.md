@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Treprostinil: forudsagt ny indikation Pulmonal arteriel hypertension associeret med bindevævssygdom (evidensniveau L3). Oprindelig indikation: Pulmonal arteriel hypertension (fra vidensgrafen"
+monitor_inn: "TREPROSTINIL"
+predicted_indications: ["pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with connective tissue disease"]
 ---
 
 # Treprostinil

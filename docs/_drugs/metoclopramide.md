@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Metoclopramide: forudsagt ny indikation Mavesår (gastric ulcer) (evidensniveau L4). Oprindelig indikation: Gastroøsofageal reflukssygdom, øsofagitis, peptisk øsofagitis"
+monitor_inn: "metoclopramide"
+predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation"]
 ---
 
 # Metoclopramide

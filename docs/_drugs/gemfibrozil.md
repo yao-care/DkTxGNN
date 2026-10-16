@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gemfibrozil: forudsagt ny indikation Reumatoid artritis (evidensniveau L4). Oprindelig indikation: Hypertriglyceridæmi (fra vidensgrafen"
+monitor_inn: "Gemfibrozil"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "HIV infectious disease", "HIV infectious disease", "hypoalphalipoproteinemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Gemfibrozil

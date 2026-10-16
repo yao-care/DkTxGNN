@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (evidensniveau L4). Oprindelig indikation: Phenylketonuri og forstyrrelse af phenylalaninmetabolismen"
+monitor_inn: "sapropterin"
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
 ---
 
 # Sapropterin

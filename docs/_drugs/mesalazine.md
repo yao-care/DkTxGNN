@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Mesalazine: forudsagt ny indikation Reumatoid artritis (rang 3 i modellens forudsigelser (evidensniveau L4). Oprindelig indikation: Colitis ulcerosa, inflammatorisk tarmsygdom, ulcerøs proktosigmoidi…"
+monitor_inn: "mesalazine"
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 ---
 
 # Mesalazine

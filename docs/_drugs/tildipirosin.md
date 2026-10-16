@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesteksten i de indsamlede data (ifølge den f…"
+monitor_inn: "Tildipirosin"
+predicted_indications: ["leprosy", "leprosy", "candidiasis", "candidiasis", "coronary artery disease", "coronary artery disease", "myocardial ischemia", "myocardial ischemia", "pneumocystosis", "pneumocystosis"]
 ---
 
 # Tildipirosin

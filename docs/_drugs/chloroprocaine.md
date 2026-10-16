@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Chloroprocaine: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L4). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (lokalanæstesi er den kendte an…"
+monitor_inn: "chloroprocaine"
+predicted_indications: ["cauda equina syndrome"]
 ---
 
 # Chloroprocaine

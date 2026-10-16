@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Phentermine: forudsagt ny indikation Hypervitaminose (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder)…"
+monitor_inn: "phentermine"
+predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 ---
 
 # Phentermine

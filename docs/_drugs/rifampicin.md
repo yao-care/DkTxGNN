@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rifampicin: forudsagt ny indikation Conjunctivitis (evidensniveau L3). Oprindelig indikation: Lungetuberkulose"
+monitor_inn: "RIFAMPICIN"
+predicted_indications: ["conjunctivitis", "conjunctivitis", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "acne (disease)", "acne (disease)", "conjunctivitis (disease)", "conjunctivitis (disease)", "HIV infectious disease", "HIV infectious disease"]
 ---
 
 # Rifampicin

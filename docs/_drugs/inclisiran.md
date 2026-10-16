@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Inclisiran: forudsagt ny indikation Kaliummangelsygdom (potassium deficiency disease) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (den danske godkendelse har ing…"
+monitor_inn: "Inclisiran"
+predicted_indications: ["potassium deficiency disease", "potassium deficiency disease", "esophageal disease", "esophageal disease", "atypical coarctation of aorta", "atypical coarctation of aorta", "migraine disorder", "migraine disorder", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation"]
 ---
 
 # Inclisiran

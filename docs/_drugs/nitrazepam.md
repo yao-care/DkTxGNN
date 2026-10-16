@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Nitrazepam: forudsagt ny indikation Søvnforstyrrelse, initiering og vedligeholdelse af søvn (evidensniveau L4). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
+monitor_inn: "NITRAZEPAM"
+predicted_indications: ["sleep disorder, initiating and maintaining sleep", "sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "acute encephalopathy with biphasic seizures and late reduced diffusion", "Wernicke-Korsakoff syndrome", "Wernicke-Korsakoff syndrome"]
 ---
 
 # Nitrazepam

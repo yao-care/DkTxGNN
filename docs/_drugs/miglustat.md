@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Miglustat: forudsagt ny indikation Autosomal ichthyose-syndrom med dødeligt forløb (evidensniveau L5). Oprindelig indikation: Gauchers sygdom, Niemann-Pick-sygdom"
+monitor_inn: "Miglustat"
+predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "cholesteryl ester storage disease", "Krabbe disease", "Krabbe disease", "metachromatic leukodystrophy", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease with hypolipoproteinemia and acanthocytosis"]
 ---
 
 # Miglustat

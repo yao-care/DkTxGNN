@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Relugolix: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er…"
+monitor_inn: "Relugolix"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "Smouldering systemic mastocytosis", "Smouldering systemic mastocytosis", "systemic mastocytosis", "systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "lymphoadenopathic mastocytosis with eosinophilia", "multiple endocrine neoplasia", "multiple endocrine neoplasia"]
 ---
 
 # Relugolix

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ranolazine: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (ranolazin er kendt …"
+monitor_inn: "ranolazine"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Ranolazine

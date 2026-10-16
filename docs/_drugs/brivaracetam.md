@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brivaracetam: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi / fokal epilepsi (ifølge videnbasen bag TxGNN"
+monitor_inn: "BRIVARACETAM"
+predicted_indications: ["visual epilepsy", "visual epilepsy", "status epilepticus", "status epilepticus", "orgasm-induced seizures", "audiogenic seizures", "startle epilepsy", "thinking seizures", "startle epilepsy", "thinking seizures"]
 ---
 
 # Brivaracetam

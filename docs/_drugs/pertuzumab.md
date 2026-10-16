@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pertuzumab: forudsagt ny indikation Progesteronreceptor-positiv brystkræft (evidensniveau L1). Oprindelig indikation: HER2-positiv brystkræft"
+monitor_inn: "Pertuzumab"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "breast tumor luminal A or B", "ectomesenchymoma", "ectomesenchymoma"]
 ---
 
 # Pertuzumab

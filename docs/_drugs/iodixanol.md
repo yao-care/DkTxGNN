@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Iodixanol: forudsagt ny indikation Osteoarthritis (slidgigt) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (kontraststof til billeddiagnostik)"
+monitor_inn: "Iodixanol"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis susceptibility", "osteoarthritis", "osteoarthritis", "rheumatoid arthritis", "rheumatoid arthritis", "hemoglobinopathy", "hemoglobinopathy", "brachyolmia", "brachyolmia"]
 ---
 
 # Iodixanol

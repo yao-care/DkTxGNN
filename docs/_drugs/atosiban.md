@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atosiban: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Forsinkelse af for tidlig fødsel (tokolyse) hos voksne gravide kvinde…"
+monitor_inn: "Atosiban"
+predicted_indications: ["primary hereditary glaucoma", "primary hereditary glaucoma", "open-angle glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "alopecia", "alopecia", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp"]
 ---
 
 # Atosiban

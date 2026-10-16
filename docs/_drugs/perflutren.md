@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Perflutren: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
+monitor_inn: "Perflutren"
+predicted_indications: ["acute intermittent porphyria", "acute intermittent porphyria", "nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "multidrug-resistant tuberculosis", "multidrug-resistant tuberculosis", "myocardial ischemia", "myocardial ischemia", "adult-onset citrullinemia type I", "acute neonatal citrullinemia type I"]
 ---
 
 # Perflutren

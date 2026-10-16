@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vancomycin: forudsagt ny indikation Diffus sklerodermi (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis, stafylokokinfektioner…"
+monitor_inn: "Vancomycin"
+predicted_indications: ["diffuse scleroderma", "diffuse scleroderma", "paratyphoid fever", "paratyphoid fever", "salmonellosis", "salmonellosis", "congenital analbuminemia", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Vancomycin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Reteplase: forudsagt ny indikation Posteroinferiort myokardieinfarkt (evidensniveau L5). Oprindelig indikation: Myokardieinfarkt"
+monitor_inn: "RETEPLASE"
+predicted_indications: ["posteroinferior myocardial infarction", "posterolateral myocardial infarction", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction", "septal myocardial infarction", "congenital coronary artery anomaly", "congenital coronary artery anomaly", "coronary stenosis", "coronary stenosis"]
 ---
 
 # Reteplase

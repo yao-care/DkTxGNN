@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Febuxostat: forudsagt ny indikation Renal hypourikæmi (evidensniveau L4). Oprindelig indikation: Hyperurikæmi"
+monitor_inn: "FEBUXOSTAT"
+predicted_indications: ["hypouricemia, renal", "hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "Lesch-Nyhan syndrome"]
 ---
 
 # Febuxostat

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Hypertension, kongestiv hjertesvigt, hyperaldosteronisme…"
+monitor_inn: "spironolactone"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 ---
 
 # Spironolactone

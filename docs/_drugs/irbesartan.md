@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk) og diabetisk nefropati"
+monitor_inn: "IRBESARTAN"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Irbesartan

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Midazolam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L3). Oprindelig indikation: Angst (fra videnbasen"
+monitor_inn: "MIDAZOLAM"
+predicted_indications: ["insomnia (disease)", "insomnia (disease)"]
 ---
 
 # Midazolam

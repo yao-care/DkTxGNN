@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de danske data. Knowledge graph-ind…"
+monitor_inn: "sulbactam"
+predicted_indications: ["bacterial arthritis"]
 ---
 
 # Sulbactam

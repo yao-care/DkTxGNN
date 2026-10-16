@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Heparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (evidensniveau L5). Oprindelig indikation: Lungeemboli, dissemineret intravaskulær koagulation…"
+monitor_inn: "heparin"
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 ---
 
 # Heparin

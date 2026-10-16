@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Brolucizumab: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af kernege… (evidensniveau L5). Oprindelig indikation: Makuladegeneration"
+monitor_inn: "BROLUCIZUMAB"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency", "exocrine pancreatic insufficiency"]
 ---
 
 # Brolucizumab

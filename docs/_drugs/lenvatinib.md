@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lenvatinib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom og skjoldbruskkirtelkræft (fra videnbasens indikati…"
+monitor_inn: "Lenvatinib"
+predicted_indications: ["liposarcoma", "liposarcoma", "unclassified renal cell carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Lenvatinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Elafibranor: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske tilladelse (den dans…"
+monitor_inn: "Elafibranor"
+predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "bone Paget disease", "bone Paget disease", "dentinogenesis imperfecta", "dentinogenesis imperfecta", "squamous cell carcinoma", "squamous cell carcinoma"]
 ---
 
 # Elafibranor

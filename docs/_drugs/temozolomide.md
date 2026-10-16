@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Temozolomide: forudsagt ny indikation Voksen astrocytær tumor (evidensniveau L1). Oprindelig indikation: Anaplastisk astrocytom, astrocytom (undtagen glioblastom), glioblastom"
+monitor_inn: "temozolomide"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

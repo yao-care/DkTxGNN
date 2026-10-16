@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Povidone: forudsagt ny indikation Kongenit ichthyosiform erytrodermi (evidensniveau L5). Oprindelig indikation: Tørt øje-syndrom / xeroftalmi"
+monitor_inn: "povidone"
+predicted_indications: ["congenital ichthyosiform erythroderma"]
 ---
 
 # Povidone

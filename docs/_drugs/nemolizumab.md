@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nemolizumab: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (ifølge den kliniske brugsi…"
+monitor_inn: "Nemolizumab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "immature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract"]
 ---
 
 # Nemolizumab

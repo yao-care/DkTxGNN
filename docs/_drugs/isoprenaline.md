@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Isoprenaline: forudsagt ny indikation Bronkial sygdom (rang 6 (evidensniveau L5). Oprindelig indikation: Hjertestop, atrioventrikulær blok, forkølelse…"
+monitor_inn: "isoprenaline"
+predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
 ---
 
 # Isoprenaline

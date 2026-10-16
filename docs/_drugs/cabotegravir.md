@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (lægemidlet er kendt som HIV-1-in…"
+monitor_inn: "Cabotegravir"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "sclerosing cholangitis", "sclerosing cholangitis", "bronchitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Cabotegravir

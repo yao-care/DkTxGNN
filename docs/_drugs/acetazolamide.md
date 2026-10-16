@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acetazolamide: forudsagt ny indikation Anstrengelsesudløst malign hypertermi (evidensniveau L5). Oprindelig indikation: Glaukom (åbenvinklet og lukketvinklet), kongestiv hjertesvigt…"
+monitor_inn: "acetazolamide"
+predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
 ---
 
 # Acetazolamide

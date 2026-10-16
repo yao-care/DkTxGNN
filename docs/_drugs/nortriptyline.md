@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Nortriptyline: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Angstlidelse, neurotisk lidelse og dysthymi (fra TxGNN-vidensgraf…"
+monitor_inn: "nortriptyline"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 ---
 
 # Nortriptyline

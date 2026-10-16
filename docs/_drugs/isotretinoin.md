@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Isotretinoin: forudsagt ny indikation Malign renovaskulær hypertension (samt malign hypertensiv nyresygdom) (evidensniveau L5). Oprindelig indikation: Hypertension og hypertensiv sygdom (fra vidensgr…"
+monitor_inn: "ISOTRETINOIN"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "malignant renovascular hypertension", "malignant hypertensive renal disease"]
 ---
 
 # Isotretinoin

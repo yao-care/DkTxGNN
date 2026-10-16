@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aprepitant: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
+monitor_inn: "APREPITANT"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "hypertrichosis (disease)", "pulmonary hypertension", "pulmonary hypertension", "leprosy", "leprosy", "Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita"]
 ---
 
 # Aprepitant

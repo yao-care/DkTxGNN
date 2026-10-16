@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Iobenguane: forudsagt ny indikation Hypotensiv lidelse (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige godkendelsesdata (godkendelsesteksten…"
+monitor_inn: "iobenguane"
+predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
 ---
 
 # Iobenguane

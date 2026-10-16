@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ticagrelor: forudsagt ny indikation Intrakraniel arteriosklerose (evidensniveau L5). Oprindelig indikation: Akut koronart syndrom, perifer karsygdom, intermitterende claudicatio…"
+monitor_inn: "TICAGRELOR"
+predicted_indications: ["intracranial arteriosclerosis", "intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "priapism", "ischemic disease", "ischemic disease", "May-Thurner syndrome", "May-Thurner syndrome"]
 ---
 
 # Ticagrelor

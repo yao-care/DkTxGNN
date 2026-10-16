@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Methadone: forudsagt ny indikation Tourettes syndrom (evidensniveau L4). Oprindelig indikation: Ikke oplyst"
+monitor_inn: "methadone"
+predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
 ---
 
 # Methadone

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Phenylbutazone: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L3). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsesteksten for det danske…"
+monitor_inn: "phenylbutazone"
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis"]
 ---
 
 # Phenylbutazone

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Modafinil: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (også narkolepsi med katapleksi) – indikationsteksten i de…"
+monitor_inn: "MODAFINIL"
+predicted_indications: ["insomnia (disease)", "insomnia (disease)"]
 ---
 
 # Modafinil

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Daptomycin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Litte…"
+monitor_inn: "Daptomycin"
+predicted_indications: ["osteoarthritis", "osteoarthritis", "rheumatoid arthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "osteoarthritis susceptibility", "gout", "gout", "pseudoachondroplasia", "pseudoachondroplasia"]
 ---
 
 # Daptomycin

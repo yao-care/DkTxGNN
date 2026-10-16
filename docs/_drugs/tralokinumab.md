@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tralokinumab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (lægemidlet er kendt som anti-IL-…"
+monitor_inn: "Tralokinumab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "craniostenosis cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Tralokinumab

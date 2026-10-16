@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fulvestrant: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "Fulvestrant"
+predicted_indications: ["HIV infectious disease", "HIV infectious disease", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Fulvestrant

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Roxithromycin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for det danske…"
+monitor_inn: "Roxithromycin"
+predicted_indications: ["leprosy", "leprosy", "hypertrichosis (disease)", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature"]
 ---
 
 # Roxithromycin

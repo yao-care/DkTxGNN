@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thiopental: forudsagt ny indikation Frontallapsepilepsi (rang 2 i prædiktionslisten (evidensniveau L4). Oprindelig indikation: Epilepsi, pseudotumor cerebri…"
+monitor_inn: "thiopental"
+predicted_indications: ["trichotillomania", "frontal lobe epilepsy", "Prinzmetal angina", "migraine disorder", "absence epilepsy", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Thiopental

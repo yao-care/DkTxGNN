@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Treosulfan: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Konditionering før hæmatopoietisk stamcelletransplantation"
+monitor_inn: "Treosulfan"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "nuclear senile cataract", "nuclear senile cataract", "cortical cataract", "cortical cataract", "mature cataract", "tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Treosulfan

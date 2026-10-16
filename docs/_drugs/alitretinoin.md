@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alitretinoin: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske tilladelsestekst"
+monitor_inn: "Alitretinoin"
+predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "acne (disease)", "acne (disease)", "atypical coarctation of aorta", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "pregnancy associated osteoporosis", "aortic malformation", "aortic malformation"]
 ---
 
 # Alitretinoin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cenegermin: forudsagt ny indikation HER2-positiv brystkræft (evidensniveau L5). Oprindelig indikation: Neurotrofisk keratopati"
+monitor_inn: "Cenegermin"
+predicted_indications: ["HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "progesterone-receptor negative breast cancer"]
 ---
 
 # Cenegermin

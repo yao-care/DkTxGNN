@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ublituximab: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Recidiverende multipel sklerose"
+monitor_inn: "Ublituximab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "tetanic cataract"]
 ---
 
 # Ublituximab

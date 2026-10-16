@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Romiplostim: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L4). Oprindelig indikation: Autoimmun trombocytopeni (ITP) og aplastisk anæmi"
+monitor_inn: "ROMIPLOSTIM"
+predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "Scott syndrome"]
 ---
 
 # Romiplostim

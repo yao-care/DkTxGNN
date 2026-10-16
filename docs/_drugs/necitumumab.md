@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Necitumumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft (NSCLC)"
+monitor_inn: "Necitumumab"
+predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "hamartoma of lung", "hamartoma of lung", "lung hilum carcinoma", "lung hilum carcinoma", "fibroma of lung", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor"]
 ---
 
 # Necitumumab

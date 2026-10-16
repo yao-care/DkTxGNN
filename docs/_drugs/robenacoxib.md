@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Robenacoxib: forudsagt ny indikation Osteoarthritis (slidgigt) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "Robenacoxib"
+predicted_indications: ["osteoarthritis", "osteoarthritis", "osteoarthritis susceptibility", "osteoarthritis susceptibility", "pseudoachondroplasia", "pseudoachondroplasia", "brachyolmia", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Robenacoxib

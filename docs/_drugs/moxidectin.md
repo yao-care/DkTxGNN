@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Moxidectin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Onchocerciasis (fra vidensgrafen"
+monitor_inn: "Moxidectin"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia", "staphylococcal scalded skin syndrome", "staphylococcal scalded skin syndrome", "variola minor infection", "variola minor infection"]
 ---
 
 # Moxidectin

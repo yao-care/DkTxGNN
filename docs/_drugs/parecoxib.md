@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Parecoxib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
+monitor_inn: "Parecoxib"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "pulmonary hypertension", "headache disorder", "headache disorder"]
 ---
 
 # Parecoxib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Adapalene: forudsagt ny indikation Forhøjet plasmazink (evidensniveau L5). Oprindelig indikation: Akne (ifølge TxGNN-vidensgrafen"
+monitor_inn: "adapalene"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Adapalene

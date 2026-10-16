@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Chlortetracycline: forudsagt ny indikation Postinfektiøs vaskulitis (evidensniveau L5). Oprindelig indikation: Trakom, ornitose og ophthalmia neonatorum (fra TxGNN-vidensgrafen"
+monitor_inn: "chlortetracycline"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 ---
 
 # Chlortetracycline

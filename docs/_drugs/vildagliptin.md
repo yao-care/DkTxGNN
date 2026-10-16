@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vildagliptin: forudsagt ny indikation Klassisk stiff person-syndrom (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus"
+monitor_inn: "VILDAGLIPTIN"
+predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "opsismodysplasia", "drug-induced localized lipodystrophy", "drug-induced localized lipodystrophy"]
 ---
 
 # Vildagliptin

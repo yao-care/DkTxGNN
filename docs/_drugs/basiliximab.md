@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Basiliximab: forudsagt ny indikation Plasmacellemyelom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "Basiliximab"
+predicted_indications: ["plasma cell myeloma", "plasma cell myeloma", "bronchitis", "bronchitis", "indolent plasma cell myeloma", "indolent plasma cell myeloma", "hemoglobinopathy", "hemoglobinopathy", "gastric carcinoma", "gastric carcinoma"]
 ---
 
 # Basiliximab

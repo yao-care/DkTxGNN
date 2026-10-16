@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Propafenone: forudsagt ny indikation Manisk bipolar lidelse (rang 1) (evidensniveau L5). Oprindelig indikation: Atrieflimren og ventrikulær takykardi (fra videngrafen"
+monitor_inn: "propafenone"
+predicted_indications: ["manic bipolar affective disorder", "catecholaminergic polymorphic ventricular tachycardia", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "incessant infant ventricular tachycardia", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 ---
 
 # Propafenone

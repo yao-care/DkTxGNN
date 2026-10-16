@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ipratropium: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Kronisk obstruktiv lungesygdom (KOL), allergisk rhinitis…"
+monitor_inn: "ipratropium"
+predicted_indications: ["obstructive lung disease", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 ---
 
 # Ipratropium

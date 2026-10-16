@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Abemaciclib: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
+monitor_inn: "Abemaciclib"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "hyperthyroidism", "hyperthyroidism", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "homozygous familial hypercholesterolemia", "homozygous familial hypercholesterolemia"]
 ---
 
 # Abemaciclib

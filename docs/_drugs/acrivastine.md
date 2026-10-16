@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Acrivastine: forudsagt ny indikation Allergisk urticaria (evidensniveau L3). Oprindelig indikation: Allergisk rhinitis (øvrige: vasomotorisk rhinitis, faryngitis…"
+monitor_inn: "acrivastine"
+predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Acrivastine

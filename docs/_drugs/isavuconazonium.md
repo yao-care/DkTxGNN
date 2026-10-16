@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Isavuconazonium: forudsagt ny indikation Pneumocystose (rang 1) og mycetom (rang 2) (evidensniveau L5). Oprindelig indikation: Aspergillose, zygomycose, coccidioidomycose, histoplasmose…"
+monitor_inn: "isavuconazonium"
+predicted_indications: ["pneumocystosis", "mycetoma"]
 ---
 
 # Isavuconazonium

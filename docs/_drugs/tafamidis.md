@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tafamidis: forudsagt ny indikation Primær release-defekt i blodplader (evidensniveau L5). Oprindelig indikation: Amyloidose (herunder ATTR-amyloidose). Der foreligger ingen godkendt…"
+monitor_inn: "Tafamidis"
+predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "thrombocytopenic purpura", "thrombocytopenic purpura", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "primary amyloidosis", "primary amyloidosis"]
 ---
 
 # Tafamidis

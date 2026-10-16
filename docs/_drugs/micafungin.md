@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection) (evidensniveau L3). Oprindelig indikation: Candidiasis i spiserøret, candidæmi…"
+monitor_inn: "Micafungin"
+predicted_indications: ["urinary tract infection (disease)", "urinary tract infection (disease)", "gonococcal urethritis", "gonococcal urethritis", "Ureaplasma urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "xanthogranulomatous pyelonephritis"]
 ---
 
 # Micafungin

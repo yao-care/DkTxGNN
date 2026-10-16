@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rivaroxaban: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
+monitor_inn: "Rivaroxaban"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "gout", "gout", "HIV infectious disease", "HIV infectious disease", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Rivaroxaban

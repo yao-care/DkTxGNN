@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Idarucizumab: forudsagt ny indikation Hæmoglobinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "Idarucizumab"
+predicted_indications: ["hemoglobinopathy", "hemoglobinopathy", "rheumatoid arthritis", "rheumatoid arthritis", "partial deletion of the short arm of chromosome 16", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "beta-thalassemia with other manifestations", "pyruvate kinase deficiency of red cells", "pyruvate kinase deficiency of red cells"]
 ---
 
 # Idarucizumab

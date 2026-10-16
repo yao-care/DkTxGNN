@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Orlistat: forudsagt ny indikation Hypervitaminose (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder) og monogen fedme. Den danske autorisation in…"
+monitor_inn: "ORLISTAT"
+predicted_indications: ["hypervitaminosis", "hypervitaminosis"]
 ---
 
 # Orlistat

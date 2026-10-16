@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlorambucil: forudsagt ny indikation Primært pulmonalt lymfom (evidensniveau L3). Oprindelig indikation: Hodgkins lymfom, follikulært lymfom, B-celle-neoplasmer…"
+monitor_inn: "CHLORAMBUCIL"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
 
 # Chlorambucil

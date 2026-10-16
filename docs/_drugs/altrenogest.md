@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Altrenogest: forudsagt ny indikation Orofacial clefting syndrom (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (veterinær brug…"
+monitor_inn: "Altrenogest"
+predicted_indications: ["orofacial clefting syndrome", "orofacial clefting syndrome", "interventricular septum aneurysm", "interventricular septum aneurysm", "Jeune syndrome situs inversus", "Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "genetic syndromic Pierre Robin syndrome"]
 ---
 
 # Altrenogest

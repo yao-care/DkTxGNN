@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Regorafenib: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Metastaserende kolorektalcancer…"
+monitor_inn: "Regorafenib"
+predicted_indications: ["liposarcoma", "liposarcoma", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma"]
 ---
 
 # Regorafenib

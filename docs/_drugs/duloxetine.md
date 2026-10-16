@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Duloxetine: forudsagt ny indikation Obsessiv-kompulsiv lidelse (OCD) (evidensniveau L2). Oprindelig indikation: Depression (unipolar/endogen/major), angstlidelse, fibromyalgi…"
+monitor_inn: "duloxetine"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 ---
 
 # Duloxetine

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Glucagon: forudsagt ny indikation Irritabel tarm-syndrom (IBS) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
+monitor_inn: "GLUCAGON"
+predicted_indications: ["irritable bowel syndrome", "irritable bowel syndrome"]
 ---
 
 # Glucagon

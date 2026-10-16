@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gadobutrol: forudsagt ny indikation Benign prostatahyperplasi (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
+monitor_inn: "Gadobutrol"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "benign prostatic hyperplasia (disease)", "peripheral arterial disease", "peripheral arterial disease", "cauda equina syndrome", "cauda equina syndrome", "peripheral vascular disease", "peripheral vascular disease", "strongyloidiasis", "strongyloidiasis"]
 ---
 
 # Gadobutrol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Lenalidomide: forudsagt ny indikation Myeloid leukæmi (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom, mantlecellelymfom, B-celleneoplasi…"
+monitor_inn: "lenalidomide"
+predicted_indications: ["myeloid leukemia", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
 ---
 
 # Lenalidomide

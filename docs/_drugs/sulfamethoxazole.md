@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulfamethoxazole: forudsagt ny indikation Akut smitsom konjunktivitis (evidensniveau L4). Oprindelig indikation: Ingen indikationstekst er angivet i de danske tilladelsesdata. Ifølge…"
+monitor_inn: "sulfamethoxazole"
+predicted_indications: ["acute contagious conjunctivitis"]
 ---
 
 # Sulfamethoxazole

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ethinylestradiol: forudsagt ny indikation Forhøjet plasmazink (evidensniveau L5). Oprindelig indikation: Akne, postmenopausal osteoporose, osteoporose…"
+monitor_inn: "ethinylestradiol"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Ethinylestradiol

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske ti…"
+monitor_inn: "Ribociclib"
+predicted_indications: ["myeloid leukemia", "myeloid leukemia", "thrombocytopenia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "transient neonatal thrombocytopenia"]
 ---
 
 # Ribociclib

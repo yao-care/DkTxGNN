@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fidaxomicin: forudsagt ny indikation Stafylokok-skoldet hud-syndrom (SSSS) (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis (ifølge vidensgrafen"
+monitor_inn: "Fidaxomicin"
+predicted_indications: ["staphylococcal scalded skin syndrome", "staphylococcal scalded skin syndrome", "bullous impetigo", "bullous impetigo", "inhalational botulism", "inhalational botulism", "impetigo", "impetigo", "toxin-mediated infectious botulism", "toxin-mediated infectious botulism"]
 ---
 
 # Fidaxomicin

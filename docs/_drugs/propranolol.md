@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Propranolol: forudsagt ny indikation Distal myopati, Tateyama-type (evidensniveau L5). Oprindelig indikation: Hypertension, atrieflimren, hypertrofisk kardiomyopati, hæmangiom m.fl"
+monitor_inn: "propranolol"
+predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "chondroma", "cirrhotic cardiomyopathy", "cardiomyopathy"]
 ---
 
 # Propranolol

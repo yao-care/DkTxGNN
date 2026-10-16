@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Pegfilgrastim: forudsagt ny indikation Svær ikke-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
+monitor_inn: "PEGFILGRASTIM"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Pegfilgrastim

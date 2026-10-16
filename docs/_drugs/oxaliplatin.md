@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxaliplatin: forudsagt ny indikation Malign pleural mesotheliom (evidensniveau L5). Oprindelig indikation: Metastaserende tyktarmskræft (fra vidensgrafen"
+monitor_inn: "Oxaliplatin"
+predicted_indications: ["malignant pleural mesothelioma", "malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor", "malignant visceral pleura tumor", "female breast carcinoma", "female breast carcinoma"]
 ---
 
 # Oxaliplatin

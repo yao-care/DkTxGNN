@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Deferasirox: forudsagt ny indikation HIV-infektion (evidensniveau L4). Oprindelig indikation: Beta-thalassæmi og beslægtede hæmoglobinopatier (ifølge vidensgrafen"
+monitor_inn: "DEFERASIROX"
+predicted_indications: ["HIV infectious disease", "HIV infectious disease", "chronic hepatitis C virus infection", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans", "dermatofibrosarcoma protuberans"]
 ---
 
 # Deferasirox

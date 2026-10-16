@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Midodrine: forudsagt ny indikation Variabelt proteasefølsom prionopati (evidensniveau L5). Oprindelig indikation: Ortostatisk hypotension…"
+monitor_inn: "midodrine"
+predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 ---
 
 # Midodrine

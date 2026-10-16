@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Atrieflimren"
+monitor_inn: "vernakalant"
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant

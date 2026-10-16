@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Busulfan: forudsagt ny indikation Myelodysplastisk syndrom (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
+monitor_inn: "Busulfan"
+predicted_indications: ["myelodysplastic syndrome", "myelodysplastic syndrome", "refractory cytopenia of childhood", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "aregenerative anemia"]
 ---
 
 # Busulfan

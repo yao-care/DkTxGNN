@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lipegfilgrastim: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "LIPEGFILGRASTIM"
+predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Lipegfilgrastim

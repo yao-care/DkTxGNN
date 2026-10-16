@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tafasitamab: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (indikationsteksten i marke…"
+monitor_inn: "Tafasitamab"
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "psoriasis", "psoriasis"]
 ---
 
 # Tafasitamab

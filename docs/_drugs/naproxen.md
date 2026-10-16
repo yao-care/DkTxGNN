@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Naproxen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Ifølge videngrafe…"
+monitor_inn: "NAPROXEN"
+predicted_indications: ["brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Naproxen

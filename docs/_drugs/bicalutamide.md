@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bicalutamide: forudsagt ny indikation Kvindelig brystkræft (rang 9 i modellen) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
+monitor_inn: "bicalutamide"
+predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Bicalutamide

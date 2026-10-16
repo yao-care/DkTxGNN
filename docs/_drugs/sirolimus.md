@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sirolimus: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom og lymfangioleiomyomatose (fra TxGNN-vidensgrafen"
+monitor_inn: "Sirolimus"
+predicted_indications: ["liposarcoma", "liposarcoma", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "benign PEComa", "lymphangiomyoma", "lymphangiomyoma"]
 ---
 
 # Sirolimus

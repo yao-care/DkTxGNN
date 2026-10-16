@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carboplatin: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L1). Oprindelig indikation: Ovariecancer (fra videngrafen"
+monitor_inn: "Carboplatin"
+predicted_indications: ["female breast carcinoma", "female breast carcinoma", "rectum mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "cervical mucinous adenocarcinoma"]
 ---
 
 # Carboplatin

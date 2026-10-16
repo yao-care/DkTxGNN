@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Obiltoxaximab: forudsagt ny indikation Postinfektiøs vaskulitis (evidensniveau L5). Oprindelig indikation: Inhalationsmiltbrand / miltbrandinfektion (hentet fra videngrafen…"
+monitor_inn: "Obiltoxaximab"
+predicted_indications: ["postinfectious vasculitis", "postinfectious vasculitis", "post-infectious syndrome", "post-infectious syndrome", "post-bacterial disorder", "post-bacterial disorder", "infective urethral stricture", "infective urethral stricture", "otitis externa", "otitis externa"]
 ---
 
 # Obiltoxaximab

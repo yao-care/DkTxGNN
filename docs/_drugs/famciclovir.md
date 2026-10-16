@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Famciclovir: forudsagt ny indikation Postinfektiøs neuralgi (evidensniveau L4). Oprindelig indikation: Herpes zoster (helvedesild)"
+monitor_inn: "Famciclovir"
+predicted_indications: ["post-infectious neuralgia", "post-infectious neuralgia", "sequela of COVID-19", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "malignant pleural mesothelioma", "AIDS-related disorder", "AIDS-related disorder"]
 ---
 
 # Famciclovir

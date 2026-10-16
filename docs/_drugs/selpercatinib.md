@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selpercatinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for markedsfø…"
+monitor_inn: "Selpercatinib"
+predicted_indications: ["pulmonary hypertension", "pulmonary hypertension", "migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "kyphoscoliotic heart disease", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to"]
 ---
 
 # Selpercatinib

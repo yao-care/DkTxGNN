@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Itraconazole: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Esofageal candidiasis, candidæmi, histoplasmose, aspergillose…"
+monitor_inn: "itraconazole"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Itraconazole

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Everolimus: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose"
+monitor_inn: "Everolimus"
+predicted_indications: ["liposarcoma", "liposarcoma", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Everolimus

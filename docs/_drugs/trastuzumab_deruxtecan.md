@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trastuzumab Deruxtecan: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "Trastuzumab deruxtecan"
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "bronchitis", "bronchitis", "diabetic cataract", "diabetic cataract"]
 ---
 
 # Trastuzumab Deruxtecan

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carfilzomib: forudsagt ny indikation Melanom (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom (myelomatose)…"
+monitor_inn: "CARFILZOMIB"
+predicted_indications: ["CMM7", "CMM7", "pediatric leptomeningeal melanoma", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "vulvar melanoma (disease)", "melanoma", "melanoma"]
 ---
 
 # Carfilzomib

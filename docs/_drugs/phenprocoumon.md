@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Phenprocoumon: forudsagt ny indikation Posteroinferiort myokardieinfarkt (evidensniveau L5). Oprindelig indikation: Myokardieinfarkt, koronar trombose…"
+monitor_inn: "PHENPROCOUMON"
+predicted_indications: ["posteroinferior myocardial infarction", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "septal myocardial infarction", "septal myocardial infarction", "factor 5 excess with spontaneous thrombosis", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Phenprocoumon

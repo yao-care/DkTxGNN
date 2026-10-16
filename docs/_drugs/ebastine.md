@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ebastine: forudsagt ny indikation Koronararteriesygdom (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
+monitor_inn: "ebastine"
+predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 ---
 
 # Ebastine

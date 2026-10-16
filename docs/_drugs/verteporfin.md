@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Verteporfin: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleæ… (evidensniveau L5). Oprindelig indikation: Makuladegeneration"
+monitor_inn: "VERTEPORFIN"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
 
 # Verteporfin

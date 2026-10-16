@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dibotermin Alfa: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Degenerativ lidelse i mellemvirvelskiven og tibiafraktur (fra TxGNN-v…"
+monitor_inn: "Dibotermin alfa"
+predicted_indications: ["esotropia", "esotropia", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "breast tumor luminal A or B"]
 ---
 
 # Dibotermin Alfa

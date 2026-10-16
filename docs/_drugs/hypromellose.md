@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hypromellose: forudsagt ny indikation Hepatisk veno-okklusiv sygdom med immundefekt-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (lægemiddelstyrelsens godken…"
+monitor_inn: "Hypromellose"
+predicted_indications: ["hepatic veno-occlusive disease-immunodeficiency syndrome", "hepatic veno-occlusive disease-immunodeficiency syndrome", "pancytopenia due to IKZF1 mutations", "pancytopenia due to IKZF1 mutations", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease", "combined immunodeficiency due to CRAC channel dysfunction", "combined immunodeficiency due to CRAC channel dysfunction", "absent thumb-short stature-immunodeficiency syndrome", "absent thumb-short stature-immunodeficiency syndrome"]
 ---
 
 # Hypromellose

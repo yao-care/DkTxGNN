@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Esketamine: forudsagt ny indikation Agorafobi (evidensniveau L5). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthymi (fra TxGNN-vidensgrafen"
+monitor_inn: "esketamine"
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Esketamine

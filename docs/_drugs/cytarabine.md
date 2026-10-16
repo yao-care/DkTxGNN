@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cytarabine: forudsagt ny indikation Småcellet lungekarcinom (evidensniveau L4). Oprindelig indikation: Akut lymfoblastær leukæmi og akut myeloid leukæmi (ifølge vidensgrafen"
+monitor_inn: "cytarabine"
+predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 ---
 
 # Cytarabine

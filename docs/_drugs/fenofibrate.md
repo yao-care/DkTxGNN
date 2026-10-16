@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fenofibrate: forudsagt ny indikation Homozygot familiær hyperkolesterolæmi (evidensniveau L4). Oprindelig indikation: Hypertriglyceridæmi, hyperlipidæmi, familiær hyperlipidæmi…"
+monitor_inn: "fenofibrate"
+predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "familial hypercholesterolemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant"]
 ---
 
 # Fenofibrate

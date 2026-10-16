@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Iohexol: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (røntgenkontraststof)"
+monitor_inn: "Iohexol"
+predicted_indications: ["insomnia (disease)", "insomnia (disease)", "anxiety", "anxiety", "rheumatoid arthritis", "rheumatoid arthritis", "antithrombin deficiency type 2", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Iohexol

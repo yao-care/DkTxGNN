@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selexipag: forudsagt ny indikation PAH associeret med medfødt hjertesygdom (evidensniveau L2). Oprindelig indikation: Pulmonal arteriel hypertension (PAH). Indikationsteksten i den danske…"
+monitor_inn: "Selexipag"
+predicted_indications: ["pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with HIV infection"]
 ---
 
 # Selexipag

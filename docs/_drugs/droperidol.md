@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Droperidol: forudsagt ny indikation Tourettes syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsens indikationstekst er…"
+monitor_inn: "DROPERIDOL"
+predicted_indications: ["Tourette syndrome", "Tourette syndrome", "trichotillomania", "trichotillomania", "manic bipolar affective disorder", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Droperidol

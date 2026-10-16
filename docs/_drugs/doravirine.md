@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Doravirine: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (fra vidensgrafen"
+monitor_inn: "DORAVIRINE"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Doravirine

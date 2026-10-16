@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cerliponase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Neuronal ceroid lipofuscinose / infantil neuronal ceroid lipofuscinos…"
+monitor_inn: "Cerliponase alfa"
+predicted_indications: ["Scheie syndrome", "Scheie syndrome", "Hurler syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "cholesteryl ester storage disease", "Gaucher disease", "Gaucher disease"]
 ---
 
 # Cerliponase Alfa

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Apremilast: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Psoriasisgigt"
+monitor_inn: "Apremilast"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "rheumatoid arthritis", "rheumatoid arthritis", "pulmonary hypertension", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to"]
 ---
 
 # Apremilast

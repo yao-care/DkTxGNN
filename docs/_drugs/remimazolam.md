@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Remimazolam: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de tilgængelige data (godkendt indikationstekst er tom…"
+monitor_inn: "remimazolam"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 ---
 
 # Remimazolam

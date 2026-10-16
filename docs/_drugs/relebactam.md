@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Relebactam: forudsagt ny indikation Hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion og pyelonefritis (ifølge TxGNN-vidensgrafen"
+monitor_inn: "relebactam"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 ---
 
 # Relebactam

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tranylcypromine: forudsagt ny indikation Dysthymi (dysthymic disorder) (evidensniveau L4). Oprindelig indikation: Unipolær depression, endogen depression, svær depressiv lidelse…"
+monitor_inn: "tranylcypromine"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "neurotic depression", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 ---
 
 # Tranylcypromine

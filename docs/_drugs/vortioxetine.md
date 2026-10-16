@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vortioxetine: forudsagt ny indikation Melankoli (rang 3 blandt forudsigelserne) (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression, svær depressiv lidelse…"
+monitor_inn: "vortioxetine"
+predicted_indications: ["neurotic disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
 ---
 
 # Vortioxetine

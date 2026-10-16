@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Riociguat: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension og kronisk tromboembolisk pulmonal hyp…"
+monitor_inn: "Riociguat"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "isolated genetic hair shaft abnormality", "hypertrichosis (disease)", "hypertrichosis (disease)"]
 ---
 
 # Riociguat

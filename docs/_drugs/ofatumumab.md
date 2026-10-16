@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ofatumumab: forudsagt ny indikation Follikulært lymfom (fokus (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær/lymfocytær leukæmi og Richters syndrom"
+monitor_inn: "OFATUMUMAB"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "follicular lymphoma", "leukemia, lymphocytic, susceptibility to", "leukemia, lymphocytic, susceptibility to", "chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma"]
 ---
 
 # Ofatumumab

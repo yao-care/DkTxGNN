@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vinblastine: forudsagt ny indikation Rhabdomyosarkom (evidensniveau L4). Oprindelig indikation: Lymfomer, herunder Hodgkins lymfom, non-Hodgkin-lymfom…"
+monitor_inn: "vinblastine"
+predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 ---
 
 # Vinblastine

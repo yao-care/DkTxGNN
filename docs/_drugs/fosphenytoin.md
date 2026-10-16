@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fosphenytoin: forudsagt ny indikation Manisk bipolar affektiv lidelse (evidensniveau L5). Oprindelig indikation: Epilepsi og status epilepticus"
+monitor_inn: "fosphenytoin"
+predicted_indications: ["conjunctivitis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "manic bipolar affective disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia"]
 ---
 
 # Fosphenytoin

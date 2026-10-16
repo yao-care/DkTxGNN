@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Laronidase: forudsagt ny indikation Lysosomal lagringssygdom med skeletinvolvering (evidensniveau L4). Oprindelig indikation: Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom)"
+monitor_inn: "Laronidase"
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome", "Sanfilippo syndrome", "lysosomal disease with hypertrophic cardiomyopathy", "lysosomal disease with hypertrophic cardiomyopathy", "syndromic neurometabolic disease with X-linked intellectual disability", "syndromic neurometabolic disease with X-linked intellectual disability", "eyelids malposition disorder", "eyelids malposition disorder"]
 ---
 
 # Laronidase

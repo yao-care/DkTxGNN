@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Enfortumab Vedotin: forudsagt ny indikation Lepra (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (lægemidlet er kendt som markedsfør…"
+monitor_inn: "Enfortumab vedotin"
+predicted_indications: ["leprosy", "leprosy", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "cytomegalovirus infection", "cytomegalovirus infection", "candidiasis", "candidiasis", "cerebral infarction", "cerebral infarction"]
 ---
 
 # Enfortumab Vedotin

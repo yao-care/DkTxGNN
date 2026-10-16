@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Idursulfase: forudsagt ny indikation Ptose-strabisme-ektopiske pupiller-syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose (Hunters syndrom, MPS II)"
+monitor_inn: "Idursulfase"
+predicted_indications: ["ptosis-strabismus-ectopic pupils syndrome", "ptosis-strabismus-ectopic pupils syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "congenital Horner syndrome (disease)", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "ptosis-vocal cord paralysis syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome"]
 ---
 
 # Idursulfase

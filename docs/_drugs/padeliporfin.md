@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Padeliporfin: forudsagt ny indikation Clear cell nyrecarcinom (evidensniveau L5). Oprindelig indikation: Prostataadenokarcinom (angivet i videngrafen"
+monitor_inn: "Padeliporfin"
+predicted_indications: ["clear cell renal carcinoma", "clear cell renal carcinoma", "adenocarcinoma of liver and intrahepatic biliary tract", "adenocarcinoma of liver and intrahepatic biliary tract", "fibrolamellar hepatocellular carcinoma", "fibrolamellar hepatocellular carcinoma", "extrahepatic bile duct adenocarcinoma", "extrahepatic bile duct adenocarcinoma", "collecting duct carcinoma", "collecting duct carcinoma"]
 ---
 
 # Padeliporfin

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Peginterferon Alfa-2A: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L1). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfekt…"
+monitor_inn: "PEGINTERFERON ALFA-2A"
+predicted_indications: ["hepatitis B virus infection", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Omsk hemorrhagic fever"]
 ---
 
 # Peginterferon Alfa-2A

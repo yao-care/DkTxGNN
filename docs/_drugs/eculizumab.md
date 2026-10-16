@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Eculizumab: forudsagt ny indikation Cyklisk hæmatopoese (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica"
+monitor_inn: "Eculizumab"
+predicted_indications: ["cyclic hematopoiesis", "cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "adult idiopathic neutropenia"]
 ---
 
 # Eculizumab

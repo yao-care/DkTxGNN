@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Itopride: forudsagt ny indikation Crohns sygdom i tyndtarmen (evidensniveau L5). Oprindelig indikation: Gastritis"
+monitor_inn: "itopride"
+predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
 ---
 
 # Itopride

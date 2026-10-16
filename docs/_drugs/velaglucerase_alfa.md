@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Velaglucerase Alfa: forudsagt ny indikation Steel syndrom (evidensniveau L5). Oprindelig indikation: Gauchers sygdom"
+monitor_inn: "Velaglucerase alfa"
+predicted_indications: ["Steel syndrome", "Steel syndrome", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "hypophosphatasia", "hypophosphatasia", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease with hypolipoproteinemia and acanthocytosis"]
 ---
 
 # Velaglucerase Alfa

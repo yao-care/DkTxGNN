@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Obinutuzumab: forudsagt ny indikation Follikulært lymfom (højest rangerede med evidens) (evidensniveau L1). Oprindelig indikation: Akut lymfoblastær/lymfocytær leukæmi og Richters syndrom (fra videng…"
+monitor_inn: "OBINUTUZUMAB"
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "follicular lymphoma"]
 ---
 
 # Obinutuzumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Risdiplam: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (kendt anvendelse: spinal m…"
+monitor_inn: "Risdiplam"
+predicted_indications: ["acne (disease)", "acne (disease)", "drug-induced osteoporosis", "drug-induced osteoporosis", "zinc, elevated plasma", "zinc, elevated plasma", "common wart", "common wart", "metastatic melanoma", "metastatic melanoma"]
 ---
 
 # Risdiplam

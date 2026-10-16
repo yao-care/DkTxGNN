@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lecanemab: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske go…"
+monitor_inn: "Lecanemab"
+predicted_indications: ["diabetic cataract", "diabetic cataract", "mature cataract", "immature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Lecanemab

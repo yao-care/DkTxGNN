@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Lispro: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Type 1- og type 2-diabetes mellitus samt diabetisk ketoacidose (angiv…"
+monitor_inn: "INSULIN LISPRO"
+predicted_indications: ["autoimmune oophoritis", "autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "opsismodysplasia"]
 ---
 
 # Insulin Lispro

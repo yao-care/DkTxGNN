@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Parathyroid Hormone: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
+monitor_inn: "parathyroid hormone"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "migraine with or without aura, susceptibility to", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
 ---
 
 # Parathyroid Hormone

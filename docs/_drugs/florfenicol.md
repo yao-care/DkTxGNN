@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Florfenicol: forudsagt ny indikation Interventrikulær septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsen er til veterinær br…"
+monitor_inn: "Florfenicol"
+predicted_indications: ["interventricular septum aneurysm", "interventricular septum aneurysm", "idiopathic granulomatous myositis", "idiopathic granulomatous myositis", "myositis fibrosa", "myositis fibrosa", "tendinitis", "tendinitis", "heart valve disease", "heart valve disease"]
 ---
 
 # Florfenicol

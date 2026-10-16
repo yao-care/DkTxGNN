@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Maraviroc: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "Maraviroc"
+predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "acne (disease)", "acne (disease)", "primary cutaneous T-cell lymphoma", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous T-cell non-Hodgkin lymphoma"]
 ---
 
 # Maraviroc

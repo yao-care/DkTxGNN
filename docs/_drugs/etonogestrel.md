@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Etonogestrel: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (implantatet er et hormonelt præv…"
+monitor_inn: "ETONOGESTREL"
+predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "breast fibrocystic disease", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "benign mammary dysplasia"]
 ---
 
 # Etonogestrel

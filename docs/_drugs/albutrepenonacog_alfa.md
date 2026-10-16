@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Albutrepenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrand-sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
+monitor_inn: "ALBUTREPENONACOG ALFA"
+predicted_indications: ["pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "Scott syndrome", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "bleeding diathesis due to a collagen receptor defect"]
 ---
 
 # Albutrepenonacog Alfa

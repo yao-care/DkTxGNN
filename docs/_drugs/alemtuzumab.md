@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alemtuzumab: forudsagt ny indikation Syndrom med kombineret immundefekt (rang 3 (evidensniveau L5). Oprindelig indikation: Recidiverende-remitterende multipel sklerose"
+monitor_inn: "Alemtuzumab"
+predicted_indications: ["hepatic infarction", "hepatic infarction", "syndrome with combined immunodeficiency", "syndrome with combined immunodeficiency", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease", "kidney pelvis sarcomatoid transitional cell carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
 ---
 
 # Alemtuzumab

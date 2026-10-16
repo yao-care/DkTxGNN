@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metamizole: forudsagt ny indikation Reumatoid artritis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for begge god…"
+monitor_inn: "metamizole"
+predicted_indications: ["rheumatoid arthritis", "migraine disorder", "migraine with or without aura, susceptibility to", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Metamizole

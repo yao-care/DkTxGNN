@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Praziquantel: forudsagt ny indikation Plasmodium falciparum-malaria (evidensniveau L4). Oprindelig indikation: Opisthorchiasis, schistosomiasis, enterobiasis…"
+monitor_inn: "Praziquantel"
+predicted_indications: ["uterine corpus epithelioid leiomyosarcoma", "uterine corpus epithelioid leiomyosarcoma", "Plasmodium falciparum malaria", "Plasmodium falciparum malaria", "retroperitoneal sarcoma", "retroperitoneal sarcoma", "uterine corpus myxoid leiomyosarcoma", "uterine corpus myxoid leiomyosarcoma", "anus leiomyosarcoma", "anus leiomyosarcoma"]
 ---
 
 # Praziquantel

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ertapenem: forudsagt ny indikation Staphylococcus aureus-infektion (vedvarende MSSA-bakteriæmi… (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse, streptokok-pneumoni…"
+monitor_inn: "Ertapenem"
+predicted_indications: ["bacterial arthritis", "bacterial arthritis", "staphylococcus aureus infection", "staphylococcus aureus infection", "hyperamylasemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia"]
 ---
 
 # Ertapenem

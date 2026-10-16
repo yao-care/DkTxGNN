@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Avelumab: forudsagt ny indikation Human herpesvirus 8-relateret tumor (evidensniveau L5). Oprindelig indikation: Kutant neuroendokrint karcinom (fra vidensgrafen"
+monitor_inn: "Avelumab"
+predicted_indications: ["human herpesvirus 8-related tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "ectomesenchymoma", "adenosine deaminase deficiency", "adenosine deaminase deficiency"]
 ---
 
 # Avelumab

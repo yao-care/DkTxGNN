@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thymol: forudsagt ny indikation Interventrikulær septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet"
+monitor_inn: "Thymol"
+predicted_indications: ["interventricular septum aneurysm", "interventricular septum aneurysm", "pulmonary valve disease", "pulmonary valve disease", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "orofacial clefting syndrome"]
 ---
 
 # Thymol

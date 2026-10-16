@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Allopurinol: forudsagt ny indikation Hepatisk porfyri (evidensniveau L4). Oprindelig indikation: Urinsyregigt, hyperurikæmi, akut urat-nefropati"
+monitor_inn: "Allopurinol"
+predicted_indications: ["hepatic porphyria", "hepatic porphyria", "hepatoportal sclerosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis"]
 ---
 
 # Allopurinol

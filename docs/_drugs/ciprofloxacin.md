@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ciprofloxacin: forudsagt ny indikation Diffus sklerodermi (evidensniveau L4). Oprindelig indikation: Bakterielle infektioner (bl.a. tyfus, salmonellose, lungebetændelse…"
+monitor_inn: "Ciprofloxacin"
+predicted_indications: ["diffuse scleroderma", "diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia", "blood group incompatibility", "blood group incompatibility"]
 ---
 
 # Ciprofloxacin

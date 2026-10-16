@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lomustine: forudsagt ny indikation Lymfosarkom (evidensniveau L2). Oprindelig indikation: Hodgkins lymfom og hjernekræft/hjernetumorer (fra videnbasen PrimeKG"
+monitor_inn: "lomustine"
+predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
 ---
 
 # Lomustine

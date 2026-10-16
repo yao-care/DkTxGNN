@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ibuprofen: forudsagt ny indikation Akromesomel dysplasi, Hunter-Thompson-typen (evidensniveau L5). Oprindelig indikation: Leddegigt, hovedpine, slidgigt, artropati…"
+monitor_inn: "IBUPROFEN"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis", "brachyolmia", "brachyolmia", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Ibuprofen

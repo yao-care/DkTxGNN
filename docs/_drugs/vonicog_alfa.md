@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vonicog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Arvelig von Willebrands sygdom"
+monitor_inn: "Vonicog Alfa"
+predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "hemophilia", "hemophilia", "Scott syndrome", "Scott syndrome"]
 ---
 
 # Vonicog Alfa

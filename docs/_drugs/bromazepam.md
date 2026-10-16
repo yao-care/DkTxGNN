@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Bromazepam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (indikationsteksten i marke…"
+monitor_inn: "BROMAZEPAM"
+predicted_indications: ["migraine disorder", "migraine disorder"]
 ---
 
 # Bromazepam

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Isoniazid: forudsagt ny indikation Konjunktivitis (evidensniveau L4). Oprindelig indikation: Lungetuberkulose"
+monitor_inn: "ISONIAZID"
+predicted_indications: ["conjunctivitis", "conjunctivitis"]
 ---
 
 # Isoniazid

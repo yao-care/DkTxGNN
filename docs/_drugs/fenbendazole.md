@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fenbendazole: forudsagt ny indikation Urinblærekarcinom (urinary bladder carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
+monitor_inn: "fenbendazole"
+predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colloid adenocarcinoma"]
 ---
 
 # Fenbendazole

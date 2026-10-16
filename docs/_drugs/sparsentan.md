@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sparsentan: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst"
+monitor_inn: "Sparsentan"
+predicted_indications: ["alopecia", "alopecia", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "diffuse alopecia areata", "angioedema", "angioedema"]
 ---
 
 # Sparsentan

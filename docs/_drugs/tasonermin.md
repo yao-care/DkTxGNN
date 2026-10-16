@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tasonermin: forudsagt ny indikation Urotelialt karcinom i den prostatiske urinrør (evidensniveau L5). Oprindelig indikation: Sarkom / bløddelssarkom"
+monitor_inn: "Tasonermin"
+predicted_indications: ["prostatic urethra urothelial carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma"]
 ---
 
 # Tasonermin

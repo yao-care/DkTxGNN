@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capecitabine: forudsagt ny indikation Gastrisk adenokarcinom og proksimal polypose i ventriklen (GAPPS) (evidensniveau L5). Oprindelig indikation: Metastaser fra ondartet tumor i tyktarmen og mavekræ…"
+monitor_inn: "capecitabine"
+predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "microinvasive gastric cancer", "gastric tubular adenocarcinoma", "signet ring cell gastric adenocarcinoma", "gastric cardia adenocarcinoma", "gastric pylorus carcinoma", "carcinoma of stomach, salivary gland type", "gastric body carcinoma", "Epstein-Barr virus-associated gastric carcinoma", "malignant gastric granular cell tumor"]
 ---
 
 # Capecitabine

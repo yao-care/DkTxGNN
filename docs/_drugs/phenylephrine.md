@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis…"
+monitor_inn: "phenylephrine"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine

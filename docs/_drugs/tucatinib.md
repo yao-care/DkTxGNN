@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tucatinib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (indikationsteksten i marke…"
+monitor_inn: "Tucatinib"
+predicted_indications: ["migraine disorder", "migraine disorder", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "migraine with brainstem aura", "pulmonary hypertension", "pulmonary hypertension"]
 ---
 
 # Tucatinib

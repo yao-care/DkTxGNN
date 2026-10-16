@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Orphenadrine: forudsagt ny indikation Skizofreni (evidensniveau L4). Oprindelig indikation: Parkinsonisme / Parkinsons sygdom (fra TxGNN-vidensgrafen"
+monitor_inn: "orphenadrine"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
 ---
 
 # Orphenadrine

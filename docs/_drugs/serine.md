@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Serine: forudsagt ny indikation Familiær visceral myopati (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og lungetuberkulose (fra vidensgrafen"
+monitor_inn: "serine"
+predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "angle-closure glaucoma", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection", "traumatic glaucoma"]
 ---
 
 # Serine

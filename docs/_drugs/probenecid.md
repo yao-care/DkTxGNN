@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Probenecid: forudsagt ny indikation Renal hypouricæmi (evidensniveau L4). Oprindelig indikation: Urinsyregigt og hyperurikæmi"
+monitor_inn: "PROBENECID"
+predicted_indications: ["hypouricemia, renal", "hypouricemia, renal", "Lesch-Nyhan syndrome", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 ---
 
 # Probenecid

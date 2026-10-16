@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rifaximin: forudsagt ny indikation Oral candidiasis (evidensniveau L4). Oprindelig indikation: Hepatisk encefalopati / hepatisk koma"
+monitor_inn: "RIFAXIMIN"
+predicted_indications: ["oral candidiasis", "oral candidiasis", "commissural lip fistula", "commissural lip fistula", "osteoradionecrosis of the mandible", "osteoradionecrosis of the mandible", "burning mouth syndrome", "burning mouth syndrome", "oral leukoedema", "oral leukoedema"]
 ---
 
 # Rifaximin

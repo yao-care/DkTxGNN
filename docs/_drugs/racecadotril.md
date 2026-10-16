@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Racecadotril: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Akut diarré"
+monitor_inn: "Racecadotril"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "hyperamylasemia", "congenital analbuminemia", "congenital analbuminemia", "blood group incompatibility", "blood group incompatibility", "premalignant hematological system disease", "premalignant hematological system disease"]
 ---
 
 # Racecadotril

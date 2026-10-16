@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Isoflurane: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse (indikationstekste…"
+monitor_inn: "isoflurane"
+predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
 ---
 
 # Isoflurane

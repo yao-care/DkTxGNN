@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Icatibant: forudsagt ny indikation C1-hæmmermangel (evidensniveau L1). Oprindelig indikation: Arvelig angioødem (HAE), herunder HAE med C1-hæmmermangel"
+monitor_inn: "Icatibant"
+predicted_indications: ["C1 inhibitor deficiency", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "immune-mediated necrotizing myopathy"]
 ---
 
 # Icatibant

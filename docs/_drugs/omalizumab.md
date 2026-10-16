@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Omalizumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Astma, allergisk astma, idiopatisk urticaria (fra videngrafen"
+monitor_inn: "Omalizumab"
+predicted_indications: ["bronchitis", "bronchitis", "atopic eczema", "atopic eczema", "obstructive lung disease", "obstructive lung disease", "dermatitis", "dermatitis", "bronchial neoplasm (disease)", "bronchial neoplasm (disease)"]
 ---
 
 # Omalizumab

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Decitabine: forudsagt ny indikation Refraktær cytopeni hos børn (evidensniveau L4). Oprindelig indikation: Myeloid leukæmi / akut myeloid leukæmi (indikation fra vidensgrafen"
+monitor_inn: "decitabine"
+predicted_indications: ["refractory cytopenia of childhood"]
 ---
 
 # Decitabine

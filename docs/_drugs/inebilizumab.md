@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Inebilizumab: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for godkendel…"
+monitor_inn: "Inebilizumab"
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "psoriasis", "psoriasis", "pityriasis lichenoides", "pityriasis lichenoides", "plasma cell myeloma", "plasma cell myeloma", "indolent plasma cell myeloma", "indolent plasma cell myeloma"]
 ---
 
 # Inebilizumab

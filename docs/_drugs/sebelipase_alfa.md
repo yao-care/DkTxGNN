@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sebelipase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Wolmans sygdom / lysosomal sur lipase-mangel (hentet fra videngrafen…"
+monitor_inn: "Sebelipase alfa"
+predicted_indications: ["Scheie syndrome", "Scheie syndrome", "Hurler syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "cholesteryl ester storage disease", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease with hypolipoproteinemia and acanthocytosis"]
 ---
 
 # Sebelipase Alfa

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Remdesivir: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (den godkendte indikationstekst…"
+monitor_inn: "Remdesivir"
+predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "HIV infectious disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Remdesivir

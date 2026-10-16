@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dobutamine: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
+monitor_inn: "dobutamine"
+predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
 ---
 
 # Dobutamine

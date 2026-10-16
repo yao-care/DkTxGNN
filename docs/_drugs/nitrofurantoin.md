@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nitrofurantoin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (anvendes kendt til urinvejsinfek…"
+monitor_inn: "Nitrofurantoin"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Nitrofurantoin

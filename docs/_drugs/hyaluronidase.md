@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hyaluronidase: forudsagt ny indikation Diabetisk retinopati (rang 6 af 10 forudsagte indikationer (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede registreringsdata"
+monitor_inn: "hyaluronidase"
+predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 ---
 
 # Hyaluronidase

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Docetaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft, prostatakræft, hoved-halskræft…"
+monitor_inn: "Docetaxel"
+predicted_indications: ["female breast carcinoma", "female breast carcinoma", "Ewing sarcoma", "Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "small cell lung carcinoma", "primary pulmonary lymphoma", "primary pulmonary lymphoma"]
 ---
 
 # Docetaxel

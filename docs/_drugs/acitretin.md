@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Acitretin: forudsagt ny indikation Akne (acne) (evidensniveau L3). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
+monitor_inn: "ACITRETIN"
+predicted_indications: ["acne (disease)", "acne (disease)", "pediatric systemic lupus erythematosus", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
 ---
 
 # Acitretin

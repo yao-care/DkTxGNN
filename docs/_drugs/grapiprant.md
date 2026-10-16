@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Grapiprant: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesdata"
+monitor_inn: "Grapiprant"
+predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "infectious bovine rhinotracheitis", "infectious bovine rhinotracheitis", "malignant catarrh", "malignant catarrh", "heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "antithrombin deficiency type 2"]
 ---
 
 # Grapiprant

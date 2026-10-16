@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Permethrin: forudsagt ny indikation Trombiculiasis (evidensniveau L4). Oprindelig indikation: Fnat, lus (Pthirus pubis, Pediculus humanus corporis/capitis)…"
+monitor_inn: "Permethrin"
+predicted_indications: ["trombiculiasis", "trombiculiasis", "lip neoplasm", "lip neoplasm", "lower lip fistula", "lower lip fistula", "anisakiasis", "anisakiasis", "toxascariasis", "toxascariasis"]
 ---
 
 # Permethrin

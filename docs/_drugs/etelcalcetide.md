@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Etelcalcetide: forudsagt ny indikation Hyperfosfatæmi (evidensniveau L4). Oprindelig indikation: Hyperparathyroidisme"
+monitor_inn: "etelcalcetide"
+predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 ---
 
 # Etelcalcetide

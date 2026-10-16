@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prilocaine: forudsagt ny indikation Neuralgi (primært postherpetisk neuralgi) (evidensniveau L5). Oprindelig indikation: Tidlig sædafgang…"
+monitor_inn: "prilocaine"
+predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 ---
 
 # Prilocaine

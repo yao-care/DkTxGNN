@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Abatacept: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Reumatoid artritis, juvenil idiopatisk artritis, spondyloartropati"
+monitor_inn: "ABATACEPT"
+predicted_indications: ["rheumatoid vasculitis", "rheumatoid vasculitis", "ankylosing spondylitis", "ankylosing spondylitis", "hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
 ---
 
 # Abatacept

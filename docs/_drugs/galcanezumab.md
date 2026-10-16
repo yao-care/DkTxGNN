@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Galcanezumab: forudsagt ny indikation Heparin-cofaktor-2-mangel (evidensniveau L5). Oprindelig indikation: Migræne"
+monitor_inn: "Galcanezumab"
+predicted_indications: ["heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "thrombophilia", "migraine with brainstem aura", "migraine with brainstem aura"]
 ---
 
 # Galcanezumab

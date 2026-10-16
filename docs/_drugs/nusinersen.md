@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nusinersen: forudsagt ny indikation Blandet mineralstøv-pneumokoniose (evidensniveau L5). Oprindelig indikation: Spinal muskelatrofi"
+monitor_inn: "Nusinersen"
+predicted_indications: ["mixed mineral dust pneumoconiosis", "rod-cone dystrophy, sensorineural deafness, and Fanconi-type renal dysfunction", "MED12-related intellectual disability syndrome", "alpha-gal syndrome", "food protein-induced allergic proctocolitis", "mast cell activation syndrome", "primary mast cell activation syndrome", "secondary mast cell activation syndrome", "food protein-induced enterocolitis syndrome", "tendinopathy"]
 ---
 
 # Nusinersen

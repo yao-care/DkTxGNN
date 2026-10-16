@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). Oprindelig indikation: Atopisk, papillær og vernal konjunktivitis (fra vidensgrafen"
+monitor_inn: "ketorolac"
+predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac

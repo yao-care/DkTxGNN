@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Calcipotriol: forudsagt ny indikation Seborrhoisk keratose (evidensniveau L3). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "CALCIPOTRIOL"
+predicted_indications: ["seborrheic keratosis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvovaginitis", "vulvitis", "vulvitis", "vulvar neoplasm", "vulvar neoplasm"]
 ---
 
 # Calcipotriol

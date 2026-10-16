@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tepoxalin: forudsagt ny indikation Slidgigt (osteoarthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsens indikationstekst e…"
+monitor_inn: "Tepoxalin"
+predicted_indications: ["osteoarthritis", "osteoarthritis", "osteoarthritis susceptibility", "osteoarthritis susceptibility", "rheumatoid arthritis", "rheumatoid arthritis", "gout", "gout", "hemoglobinopathy", "hemoglobinopathy"]
 ---
 
 # Tepoxalin

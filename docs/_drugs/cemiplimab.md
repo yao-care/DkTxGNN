@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cemiplimab: forudsagt ny indikation Adenoskvamøst karcinom i galdeblæren (evidensniveau L5). Oprindelig indikation: Pladecellekarcinom (den danske godkendelsestekst er ikke tilgængelig)"
+monitor_inn: "Cemiplimab"
+predicted_indications: ["gallbladder adenosquamous carcinoma", "gallbladder adenosquamous carcinoma", "glottis squamous cell carcinoma", "glottis squamous cell carcinoma", "rectal cloacogenic carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "adenosquamous prostate carcinoma"]
 ---
 
 # Cemiplimab

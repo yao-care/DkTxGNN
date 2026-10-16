@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lanadelumab: forudsagt ny indikation C1-hæmmermangel (evidensniveau L1). Oprindelig indikation: Arveligt angioødem (HAE)…"
+monitor_inn: "Lanadelumab"
+predicted_indications: ["C1 inhibitor deficiency", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pancreatitis", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary release disorder of platelets"]
 ---
 
 # Lanadelumab

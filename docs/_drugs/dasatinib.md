@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dasatinib: forudsagt ny indikation Ewing-sarkom (evidensniveau L5). Oprindelig indikation: BCR-ABL1-positiv kronisk myeloid leukæmi…"
+monitor_inn: "Dasatinib"
+predicted_indications: ["Ewing sarcoma", "Ewing sarcoma", "myeloid leukemia", "myeloid leukemia", "liposarcoma", "liposarcoma", "fibromatosis, gingival", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "dermatofibrosarcoma protuberans"]
 ---
 
 # Dasatinib

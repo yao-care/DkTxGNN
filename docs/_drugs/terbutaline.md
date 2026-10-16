@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Terbutaline: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Astma, bronkitis, lungeemfysem (fra vidensgrafen"
+monitor_inn: "terbutaline"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Terbutaline

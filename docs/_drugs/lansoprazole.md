@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Lansoprazole: forudsagt ny indikation Duodenogastrisk refluks (evidensniveau L4). Oprindelig indikation: Mavesår, mavesårssygdom, gastroøsofageal reflukssygdom, øsofagitis…"
+monitor_inn: "lansoprazole"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 ---
 
 # Lansoprazole

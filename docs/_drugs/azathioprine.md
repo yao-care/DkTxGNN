@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Azathioprine: forudsagt ny indikation Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (evidensniveau L5). Oprindelig indikation: Reumatoid artrit"
+monitor_inn: "azathioprine"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "inflammatory bowel disease", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "ulcerative colitis (disease)", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Azathioprine

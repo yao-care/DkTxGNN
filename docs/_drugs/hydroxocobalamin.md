@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices uden blødning (evidensniveau L5). Oprindelig indikation: Vitamin B12-mangel, cyanidforgiftning…"
+monitor_inn: "hydroxocobalamin"
+predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 ---
 
 # Hydroxocobalamin

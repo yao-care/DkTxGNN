@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flurbiprofen: forudsagt ny indikation Akromesomel dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, ledlidelser (fra vidensgrafen"
+monitor_inn: "Flurbiprofen"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis"]
 ---
 
 # Flurbiprofen

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Dexmedetomidine: forudsagt ny indikation Hovedpineforstyrrelse (rang 4 af 5 (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
+monitor_inn: "dexmedetomidine"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Dexmedetomidine

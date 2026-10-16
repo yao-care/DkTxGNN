@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftaroline Fosamil: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom). Cef…"
+monitor_inn: "Ceftaroline fosamil"
+predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "osteoarthritis", "osteoarthritis", "osteoarthritis susceptibility", "osteoarthritis susceptibility", "gout", "gout", "pseudoachondroplasia", "pseudoachondroplasia"]
 ---
 
 # Ceftaroline Fosamil

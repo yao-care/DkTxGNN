@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Glargine: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Type 1- og type 2-diabetes mellitus"
+monitor_inn: "insulin glargine"
+predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 ---
 
 # Insulin Glargine

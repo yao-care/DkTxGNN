@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pegvisomant: forudsagt ny indikation Borderline ovarie-serøs tumor (evidensniveau L5). Oprindelig indikation: Akromegali og hyperpituitarisme"
+monitor_inn: "Pegvisomant"
+predicted_indications: ["borderline ovarian serous tumor", "borderline ovarian serous tumor", "rete ovarii cystadenoma", "rete ovarii cystadenoma", "ovarian papillary cystadenoma", "ovarian papillary cystadenoma", "pyelonephritis", "pyelonephritis", "malignant ovarian Brenner tumor", "malignant ovarian Brenner tumor"]
 ---
 
 # Pegvisomant

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nepafenac: forudsagt ny indikation Øjensygdom (eye disease) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
+monitor_inn: "Nepafenac"
+predicted_indications: ["eye disease", "eye disease", "optic papillitis", "optic papillitis", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "seborrheic keratosis", "von Hippel anomaly", "von Hippel anomaly"]
 ---
 
 # Nepafenac

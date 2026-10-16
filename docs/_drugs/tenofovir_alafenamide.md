@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tenofovir Alafenamide: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
+monitor_inn: "tenofovir alafenamide"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Tenofovir Alafenamide

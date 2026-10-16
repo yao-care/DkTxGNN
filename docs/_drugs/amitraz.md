@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amitraz: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesteksten (produktet er en bistadestrimmel t…"
+monitor_inn: "Amitraz"
+predicted_indications: ["alopecia", "alopecia", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "benign prostatic hyperplasia (disease)", "benign prostatic hyperplasia (disease)", "diffuse alopecia areata", "diffuse alopecia areata"]
 ---
 
 # Amitraz

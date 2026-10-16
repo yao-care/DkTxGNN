@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thyrotropin Alfa: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for markedsfør…"
+monitor_inn: "Thyrotropin alfa"
+predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "Raynaud disease", "Raynaud disease", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "atrophoderma vermiculata"]
 ---
 
 # Thyrotropin Alfa

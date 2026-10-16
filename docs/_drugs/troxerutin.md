@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Troxerutin: forudsagt ny indikation Hæmoglobinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (kronisk venøs insufficiens er nævn…"
+monitor_inn: "Troxerutin"
+predicted_indications: ["hemoglobinopathy", "hemoglobinopathy", "myocardial infarction", "myocardial infarction", "partial deletion of the short arm of chromosome 16", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 ---
 
 # Troxerutin

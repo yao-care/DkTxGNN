@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Carbetocin: forudsagt ny indikation Isotretinoin-lignende syndrom (evidensniveau L5). Oprindelig indikation: Prader-Willi syndrom og Noonan syndrom (ifølge vidensgrafen). Den dan…"
+monitor_inn: "CARBETOCIN"
+predicted_indications: ["isotretinoin-like syndrome", "isotretinoin-like syndrome", "Goodman syndrome", "Goodman syndrome"]
 ---
 
 # Carbetocin

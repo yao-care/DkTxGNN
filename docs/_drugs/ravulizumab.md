@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ravulizumab: forudsagt ny indikation Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri (PNH)"
+monitor_inn: "Ravulizumab"
+predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "cyclic hematopoiesis", "primary hyperoxaluria", "primary hyperoxaluria", "severe congenital neutropenia", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"]
 ---
 
 # Ravulizumab

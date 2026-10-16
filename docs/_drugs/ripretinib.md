@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ripretinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (indikationsteksten i den danske god…"
+monitor_inn: "Ripretinib"
+predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "malignant catarrh", "malignant catarrh", "infectious bovine rhinotracheitis", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "cytomegalovirus infection"]
 ---
 
 # Ripretinib

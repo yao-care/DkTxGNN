@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rozanolixizumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske tilladelse. Ifølge f…"
+monitor_inn: "Rozanolixizumab"
+predicted_indications: ["bronchitis", "bronchitis", "plasma cell myeloma", "plasma cell myeloma", "indolent plasma cell myeloma", "indolent plasma cell myeloma", "hemoglobinopathy", "hemoglobinopathy", "gastric carcinoma", "gastric carcinoma"]
 ---
 
 # Rozanolixizumab

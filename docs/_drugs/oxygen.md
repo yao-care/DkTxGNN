@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxygen: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+monitor_inn: "Oxygen"
+predicted_indications: ["dry eye syndrome", "dry eye syndrome", "dermatitis", "dermatitis", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "neonatal dermatomyositis", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation"]
 ---
 
 # Oxygen
