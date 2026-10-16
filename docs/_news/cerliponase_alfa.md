@@ -25,7 +25,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Cerliponase alfa med de 
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/cerliponase_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
+<p><a href="{{ '/drugs/cerliponase-alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
 ## Relaterede nyheder (0)

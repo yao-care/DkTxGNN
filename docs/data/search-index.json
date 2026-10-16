@@ -1,7 +1,7 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 898,
-  "indication_count": 1501,
+  "drug_count": 861,
+  "indication_count": 1481,
   "drugs": [
     {
       "name": "Abacavir",
@@ -150,115 +150,6 @@
         },
         {
           "name": "Amiped (B. Braun Melsungen) | Infusionsvæske, opløsning | Indikationstekst ikke angivet",
-          "score": 99.0,
-          "level": "L5"
-        }
-      ]
-    },
-    {
-      "name": "Acipimox",
-      "slug": "acipimox",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": [
-        {
-          "name": "Osteogenesis imperfecta",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Autosomal recessiv ikke-syndromisk døvhed",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Medføldt stationær natteblindhed, autosomal dominant",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Autosomal dominant ikke-syndromisk døvhed",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Døvhed, autosomal recessiv",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Keratoderma hereditarium mutilans",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "ICF-syndrom (Immunodefekt-centromeric ustabilitet-ansigtsanomalier)",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Müllerian aplasi og hyperandrogeni",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Myelodysolasi, immunodefekt, ansigtsmalformationer, kort vækst og psykomotorisk forsinkelses",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "GM1-gangliosidose",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Knogledysplasi, letal Holmgren-type",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "CARD9-defekt (disposition for invasiv svampesygdom)",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Agammaglobulinæmi",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Asymmetrisk kortvækstsyndrom",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Action myoklonus–nyresvigt-syndrom",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Fanconi-anæmi komplementeringsgruppe",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Arthrogryposis, distal",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Portål hypertension, ikke-cirrotisk",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Kraniosynostose–intracranialt kalcificerings-syndrom",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Kombineret immundefekt på grund af ZAP70-defekt",
           "score": 99.0,
           "level": "L5"
         }
@@ -903,14 +794,6 @@
       ]
     },
     {
-      "name": "Amphotericin B",
-      "slug": "amphotericin-b",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Ampicillin",
       "slug": "ampicillin",
       "brands": [],
@@ -1190,22 +1073,6 @@
       ]
     },
     {
-      "name": "Aprotinin",
-      "slug": "aprotinin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Argatroban",
-      "slug": "argatroban",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Arginine",
       "slug": "arginine",
       "brands": [],
@@ -1425,14 +1292,6 @@
       ]
     },
     {
-      "name": "Avanafil",
-      "slug": "avanafil",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Avapritinib",
       "slug": "avapritinib",
       "brands": [],
@@ -1600,14 +1459,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Belatacept",
-      "slug": "belatacept",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Belimumab",
@@ -1987,14 +1838,6 @@
       ]
     },
     {
-      "name": "Binimetinib",
-      "slug": "binimetinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Biotin",
       "slug": "biotin",
       "brands": [],
@@ -2033,14 +1876,6 @@
       ]
     },
     {
-      "name": "Bisacodyl",
-      "slug": "bisacodyl",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Bisoprolol",
       "slug": "bisoprolol",
       "brands": [],
@@ -2053,14 +1888,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Bivalirudin",
-      "slug": "bivalirudin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Bleomycin",
@@ -2100,22 +1927,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Blinatumomab",
-      "slug": "blinatumomab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Bortezomib",
-      "slug": "bortezomib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Bosentan",
@@ -2548,14 +2359,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Canagliflozin",
-      "slug": "canagliflozin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Canakinumab",
@@ -3292,14 +3095,6 @@
       ]
     },
     {
-      "name": "Ciclopirox",
-      "slug": "ciclopirox",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Cidofovir",
       "slug": "cidofovir",
       "brands": [],
@@ -3348,14 +3143,6 @@
       ]
     },
     {
-      "name": "Cimicoxib",
-      "slug": "cimicoxib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Cinchocaine",
       "slug": "cinchocaine",
       "brands": [],
@@ -3396,14 +3183,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Cisplatin",
-      "slug": "cisplatin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Citalopram",
@@ -4088,22 +3867,6 @@
       ]
     },
     {
-      "name": "Damoctocog Alfa Pegol",
-      "slug": "damoctocog-alfa-pegol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Dapagliflozin",
-      "slug": "dapagliflozin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Dapsone",
       "slug": "dapsone",
       "brands": [],
@@ -4130,22 +3893,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Daratumumab",
-      "slug": "daratumumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Darbepoetin Alfa",
-      "slug": "darbepoetin-alfa",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Darolutamide",
@@ -4278,14 +4025,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Deflazacort",
-      "slug": "deflazacort",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Delamanid",
@@ -4616,14 +4355,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Disulfiram",
-      "slug": "disulfiram",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Dobutamine",
@@ -5181,14 +4912,6 @@
       ]
     },
     {
-      "name": "Elotuzumab",
-      "slug": "elotuzumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Elvitegravir",
       "slug": "elvitegravir",
       "brands": [],
@@ -5268,14 +4991,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Encorafenib",
-      "slug": "encorafenib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Enfortumab Vedotin",
@@ -5487,14 +5202,6 @@
       ]
     },
     {
-      "name": "Epoprostenol",
-      "slug": "epoprostenol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Eprinomectin",
       "slug": "eprinomectin",
       "brands": [],
@@ -5593,14 +5300,6 @@
       ]
     },
     {
-      "name": "Escitalopram",
-      "slug": "escitalopram",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Esketamine",
       "slug": "esketamine",
       "brands": [],
@@ -5632,14 +5331,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Estradiol",
-      "slug": "estradiol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Estriol",
@@ -5929,14 +5620,6 @@
       ]
     },
     {
-      "name": "Faricimab",
-      "slug": "faricimab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Febuxostat",
       "slug": "febuxostat",
       "brands": [],
@@ -6220,14 +5903,6 @@
       ]
     },
     {
-      "name": "Firocoxib",
-      "slug": "firocoxib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Florfenicol",
       "slug": "florfenicol",
       "brands": [],
@@ -6282,14 +5957,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Flumazenil",
-      "slug": "flumazenil",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Fluorescein",
@@ -6559,14 +6226,6 @@
       ]
     },
     {
-      "name": "Gabapentin",
-      "slug": "gabapentin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Gadobutrol",
       "slug": "gadobutrol",
       "brands": [],
@@ -6663,14 +6322,6 @@
       ]
     },
     {
-      "name": "Gallium",
-      "slug": "gallium",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Galsulfase",
       "slug": "galsulfase",
       "brands": [],
@@ -6697,14 +6348,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Ganciclovir",
-      "slug": "ganciclovir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Gefitinib",
@@ -6767,14 +6410,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Gemtuzumab Ozogamicin",
-      "slug": "gemtuzumab-ozogamicin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Gimeracil",
@@ -9121,14 +8756,6 @@
       ]
     },
     {
-      "name": "Maribavir",
-      "slug": "maribavir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Mebendazole",
       "slug": "mebendazole",
       "brands": [],
@@ -9155,14 +8782,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Melatonin",
-      "slug": "melatonin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Meloxicam",
@@ -9748,14 +9367,6 @@
       ]
     },
     {
-      "name": "Midostaurin",
-      "slug": "midostaurin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Migalastat",
       "slug": "migalastat",
       "brands": [],
@@ -9768,14 +9379,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Migalastat Hydrochloride",
-      "slug": "migalastat-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Miglustat",
@@ -16403,17 +16006,6 @@
       ]
     },
     {
-      "name": "Action myoklonus–nyresvigt-syndrom",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Actos (Takeda Pharma A/S) | Tabletter | Ikke angivet",
       "drug_count": 1,
       "drugs": [
@@ -16662,17 +16254,6 @@
         {
           "drug": "Benzylpenicillin",
           "slug": "benzylpenicillin",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Agammaglobulinæmi",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -18001,17 +17582,6 @@
       ]
     },
     {
-      "name": "Arthrogryposis, distal",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Arthrotec Forte | Tabletter med modificeret udløsning | Orifarm A/S",
       "drug_count": 1,
       "drugs": [
@@ -18051,17 +17621,6 @@
         {
           "drug": "Ciclesonide",
           "slug": "ciclesonide",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Asymmetrisk kortvækstsyndrom",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -18282,28 +17841,6 @@
         {
           "drug": "Pyridostigmine",
           "slug": "pyridostigmine",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Autosomal dominant ikke-syndromisk døvhed",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Autosomal recessiv ikke-syndromisk døvhed",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -19414,17 +18951,6 @@
         {
           "drug": "Ranibizumab",
           "slug": "ranibizumab",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "CARD9-defekt (disposition for invasiv svampesygdom)",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -21233,17 +20759,6 @@
       ]
     },
     {
-      "name": "Døvhed, autosomal recessiv",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "ELZONRIS (Stemline Therapeutics B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data",
       "drug_count": 1,
       "drugs": [
@@ -22113,17 +21628,6 @@
       ]
     },
     {
-      "name": "Fanconi-anæmi komplementeringsgruppe",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Farpenta (Holsten Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst foreligger ikke",
       "drug_count": 1,
       "drugs": [
@@ -22625,17 +22129,6 @@
         {
           "drug": "Pimobendan",
           "slug": "pimobendan",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "GM1-gangliosidose",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -23316,17 +22809,6 @@
       ]
     },
     {
-      "name": "ICF-syndrom (Immunodefekt-centromeric ustabilitet-ansigtsanomalier)",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "IMJUDO (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data",
       "drug_count": 1,
       "drugs": [
@@ -23954,17 +23436,6 @@
       ]
     },
     {
-      "name": "Keratoderma hereditarium mutilans",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Ketosteril | Filmovertrukne tabletter | Ikke angivet",
       "drug_count": 4,
       "drugs": [
@@ -24117,17 +23588,6 @@
       ]
     },
     {
-      "name": "Knogledysplasi, letal Holmgren-type",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Kodamid \"DAK\" (Orifarm Healthcare A/S) | Tabletter | Indikationstekst ikke angivet i de indsamlede data",
       "drug_count": 1,
       "drugs": [
@@ -24167,17 +23627,6 @@
         {
           "drug": "Cidofovir",
           "slug": "cidofovir",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Kombineret immundefekt på grund af ZAP70-defekt",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -24266,17 +23715,6 @@
         {
           "drug": "Selumetinib",
           "slug": "selumetinib",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Kraniosynostose–intracranialt kalcificerings-syndrom",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -25350,17 +24788,6 @@
       ]
     },
     {
-      "name": "Medføldt stationær natteblindhed, autosomal dominant",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Medrol (Pfizer ApS) | Tabletter | Indikationstekst ikke tilgængelig",
       "drug_count": 1,
       "drugs": [
@@ -25889,17 +25316,6 @@
       ]
     },
     {
-      "name": "Myelodysolasi, immunodefekt, ansigtsmalformationer, kort vækst og psykomotorisk forsinkelses",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Myofascielt smertesyndrom | 99,75 % | L4 | Hold – kun indirekte litteratur; opioider anbefales ikke",
       "drug_count": 1,
       "drugs": [
@@ -25950,17 +25366,6 @@
         {
           "drug": "Bupropion",
           "slug": "bupropion",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Müllerian aplasi og hyperandrogeni",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]
@@ -26992,17 +26397,6 @@
       ]
     },
     {
-      "name": "Osteogenesis imperfecta",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Otisur | Øredråber, suspension | Indikationstekst ikke tilgængelig",
       "drug_count": 1,
       "drugs": [
@@ -27482,17 +26876,6 @@
         {
           "drug": "Necitumumab",
           "slug": "necitumumab",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "Portål hypertension, ikke-cirrotisk",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acipimox",
-          "slug": "acipimox",
           "score": 99.0
         }
       ]

@@ -25,7 +25,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Sebelipase alfa med de s
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/sebelipase_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
+<p><a href="{{ '/drugs/sebelipase-alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
 ## Relaterede nyheder (0)

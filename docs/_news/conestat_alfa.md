@@ -25,7 +25,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Conestat alfa med de sen
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/conestat_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
+<p><a href="{{ '/drugs/conestat-alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
 ## Relaterede nyheder (0)

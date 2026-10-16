@@ -25,7 +25,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Vonicog Alfa med de sene
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/vonicog_alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
+<p><a href="{{ '/drugs/vonicog-alfa/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
 </div>
 
 ## Relaterede nyheder (0)
