@@ -32,11 +32,11 @@ Evidensniveauerne går fra L1 (stærkere klinisk evidens) til L5 (kun modelforud
 
 ## Citation og begrænsninger
 
-Citér venligst den originale TxGNN-artikel (https://doi.org/10.1038/s41591-023-02233-x). Sidens indhold og forudsigelser er kun til forskning og undervisning og er ikke medicinsk rådgivning; enhver reel anvendelse skal bekræftes af kvalificerede fagfolk, kliniske forsøg og myndighedsvurdering.
+Citér venligst den originale TxGNN-artikel (https://doi.org/10.1038/s41591-024-03233-x). Sidens indhold og forudsigelser er kun til forskning og undervisning og er ikke medicinsk rådgivning; enhver reel anvendelse skal bekræftes af kvalificerede fagfolk, kliniske forsøg og myndighedsvurdering.
 
 ## Officielle links
 
 - https://dktxgnn.yao.care/
 - https://www.yao.care/medical/txgnn/
 - https://github.com/yao-care/DkTxGNN
-- https://doi.org/10.1038/s41591-023-02233-x
+- https://doi.org/10.1038/s41591-024-03233-x

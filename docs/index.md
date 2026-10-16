@@ -2,13 +2,13 @@
 layout: default
 title: "Forudsigelser for L\u00e6gemiddelrepositionering \u2014 Danmark"
 nav_order: 1
-description: "AI-powered drug repurposing predictions for 501 Danish Medicines Agency (DKMA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
+description: "AI-baserede forudsigelser af ny anvendelse af lægemidler for 860 lægemidler godkendt af Lægemiddelstyrelsen (DKMA). TxGNN-modellen finder mulige nye terapeutiske anvendelser med evidensbaseret validering."
 permalink: /
 ---
 
-# Drug Repurposing: From AI to Evidence
+# Ny anvendelse af lægemidler: fra AI til evidens
 
-**DkTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **501** DKMA-approved drugs, identifying potential new therapeutic uses.
+**DkTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **860** DKMA-approved drugs, identifying potential new therapeutic uses.
 
 [Browse Drug Reports](/drugs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Learn Methodology](/methodology/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -77,7 +77,7 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">Danish Drug Coverage</strong><br>
-    <span style="color: #666;">Focused on 501 DKMA-approved medicines with repurposing predictions ready for research.</span>
+    <span style="color: #666;">Focused on 860 DKMA-approved medicines with repurposing predictions ready for research.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">FHIR Integration</strong><br>
@@ -94,7 +94,7 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
 | **High Evidence** | L1-L2, priority for clinical evaluation | [View drugs](/evidence-high/) |
 | **Medium Evidence** | L3-L4, requires additional validation | [View drugs](/evidence-medium/) |
 | **AI Predictions** | L5, research direction reference | [View drugs](/evidence-low/) |
-| **Full Drug List** | All 501 drugs (searchable) | [Drug List](/drugs/) |
+| **Full Drug List** | All 860 drugs (searchable) | [Drug List](/drugs/) |
 | **Health News** | Automated health news monitoring | [View News](/news/) |
 | **FHIR API** | Integration endpoints | [FHIR Metadata](/fhir/metadata) |
 
@@ -111,7 +111,7 @@ DkTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab
 
 | Item | Count |
 |------|-------|
-| Drug Reports | 501 |
+| Drug Reports | 860 |
 | Regulatory Agency | Danish Medicines Agency (DKMA) |
 
 [Learn More](/about/) | [Methodology](/methodology/) | [Data Sources](/sources/)
