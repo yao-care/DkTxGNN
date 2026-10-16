@@ -36,7 +36,7 @@ Enhver konklusion kan spores tilbage til en offentlig datakilde — intet er en 
 
 Hver kilde har sin egen licens — kontrollér den, før du citerer:
 
-- **TxGNN**: akademisk brug; citér Huang et al. (2023)
+- **TxGNN**: akademisk brug; citér Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: offentlige data fra US NIH
 - **DrugBank**: ikke-kommerciel brug underlagt licensvilkårene
 - **DKMA**: underlagt vilkårene for åbne data hos den danske lægemiddelmyndighed
@@ -55,7 +55,7 @@ Hver kilde har sin egen licens — kontrollér den, før du citerer:
 
 ## Videnskabelig kildehenvisning
 
-> Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
+> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
 > [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
