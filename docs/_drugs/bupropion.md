@@ -6,9 +6,9 @@ nav_order: 140
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Bupropion: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Depression (bl.a. recidiverende/unipolar og svær depression) og nikot…"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
+description: "Bupropion: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Depression (bl.a. recidiverende/unipolar og svær depression) og nikot"
 ---
 
 # Bupropion

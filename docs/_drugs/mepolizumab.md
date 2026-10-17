@@ -6,9 +6,9 @@ nav_order: 530
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (evidensniveau L4). Oprindelig indikation: Eosinofil pneumoni og pulmonal eosinofili (fra TxGNN-vidensgrafen"
 monitor_inn: "Mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "thrombocytopenia due to immune destruction", "primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (evidensniveau L4). Oprindelig indikation: Eosinofil pneumoni og pulmonal eosinofili (fra TxGNN-vidensgrafe"
 ---
 
 # Mepolizumab
