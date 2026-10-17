@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tamoxifen: forudsagt ny indikation Mammær Pagets sygdom (evidensniveau L4). Oprindelig indikation: Brystkræft hos kvinder (bl.a. invasivt duktalt karcinom og duktalt ad…"
 monitor_inn: "Tamoxifen"
-predicted_indications: ["mammary Paget disease", "mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "intraductal cribriform breast adenocarcinoma", "basal-like breast carcinoma", "basal-like breast carcinoma", "breast carcinoma in situ", "breast carcinoma in situ", "sebaceous breast carcinoma", "sebaceous breast carcinoma"]
+predicted_indications: ["mammary Paget disease", "mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "intraductal cribriform breast adenocarcinoma", "breast carcinoma in situ", "breast carcinoma in situ", "sebaceous breast carcinoma", "sebaceous breast carcinoma"]
 ---
 
 # Tamoxifen

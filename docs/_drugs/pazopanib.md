@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pazopanib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom og bløddelssarkom"
-monitor_inn: "Pazopanib"
-predicted_indications: ["renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "liposarcoma", "liposarcoma", "childhood kidney cell carcinoma", "childhood kidney cell carcinoma"]
 ---
 
 # Pazopanib

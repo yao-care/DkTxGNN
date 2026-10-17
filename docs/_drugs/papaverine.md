@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Papaverine: forudsagt ny indikation Iskæmisk sygdom (evidensniveau L4). Oprindelig indikation: Perifer karsygdom, claudicatio intermittens, perifer arteriel sygdom…"
 monitor_inn: "papaverine"
-predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
+predicted_indications: ["intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Monckeberg arteriosclerosis"]
 ---
 
 # Papaverine

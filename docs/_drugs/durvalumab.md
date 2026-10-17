@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Durvalumab: forudsagt ny indikation Urotelcarcinom i urinrørets prostatadel (prostatic urethra urothelial… (evidensniveau L4). Oprindelig indikation: Urotelcarcinom (overgangscellekarcinom)…"
 monitor_inn: "Durvalumab"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "uterine ligament adenocarcinoma"]
+predicted_indications: ["prostatic urethra urothelial carcinoma", "prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "uterine ligament adenocarcinoma"]
 ---
 
 # Durvalumab

@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Paclitaxel: forudsagt ny indikation Kvindelig brystcarcinom (female breast carcinoma) (evidensniveau L5). Oprindelig indikation: Æggestokkræft (ovarian cancer) og relaterede ovarietumorer"
-monitor_inn: "Paclitaxel"
-predicted_indications: ["female breast carcinoma", "female breast carcinoma", "estrogen-receptor negative breast cancer", "estrogen-receptor negative breast cancer", "Ehrlich tumor carcinoma", "estrogen-receptor positive breast cancer", "hormone-resistant breast carcinoma", "hormone-resistant breast carcinoma", "estrogen-receptor positive breast cancer", "Ehrlich tumor carcinoma"]
 ---
 
 # Paclitaxel

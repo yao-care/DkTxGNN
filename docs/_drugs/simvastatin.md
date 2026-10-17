@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Simvastatin: forudsagt ny indikation Familiær hypercholesterolæmi (evidensniveau L1). Oprindelig indikation: Hyperlipidæmi, aterosklerose og cerebrovaskulære sygdomme"
 monitor_inn: "SIMVASTATIN"
-predicted_indications: ["familial hypercholesterolemia", "familial hypercholesterolemia", "brain stem infarction", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency"]
+predicted_indications: ["brain stem infarction", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency"]
 ---
 
 # Simvastatin

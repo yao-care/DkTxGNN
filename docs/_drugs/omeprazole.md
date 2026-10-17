@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Omeprazole: forudsagt ny indikation Duodenogastrisk refluks (evidensniveau L3). Oprindelig indikation: Mavesår, mavesårssygdom, gastroøsofageal reflukssygdom, esofagitis…"
 monitor_inn: "omeprazole"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Omeprazole

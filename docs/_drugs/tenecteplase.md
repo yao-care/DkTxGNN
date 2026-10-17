@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tenecteplase: forudsagt ny indikation Posterolateralt myokardieinfarkt (evidensniveau L4). Oprindelig indikation: Myokardieinfarkt, koronar trombose"
 monitor_inn: "TENECTEPLASE"
-predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "septal myocardial infarction", "congenital coronary artery anomaly", "congenital coronary artery anomaly", "coronary stenosis", "coronary stenosis"]
+predicted_indications: ["congenital coronary artery anomaly", "congenital coronary artery anomaly", "coronary stenosis", "coronary stenosis"]
 ---
 
 # Tenecteplase

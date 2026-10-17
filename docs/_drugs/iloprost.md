@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Iloprost: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 monitor_inn: "ILOPROST"
-predicted_indications: ["hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with connective tissue disease"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)"]
 ---
 
 # Iloprost

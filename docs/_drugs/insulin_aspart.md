@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Aspart: forudsagt ny indikation Type 1-diabetes mellitus (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…"
 monitor_inn: "INSULIN ASPART"
-predicted_indications: ["type 1 diabetes mellitus", "type 1 diabetes mellitus", "autoimmune oophoritis", "autoimmune oophoritis", "opsismodysplasia", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome", "permanent neonatal diabetes mellitus", "permanent neonatal diabetes mellitus"]
+predicted_indications: ["autoimmune oophoritis", "autoimmune oophoritis", "opsismodysplasia", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome"]
 ---
 
 # Insulin Aspart

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lorazepam: forudsagt ny indikation Trigeminusnervetumor (evidensniveau L5). Oprindelig indikation: Angstlidelser og krampetilstande (fra vidensgrafen"
 monitor_inn: "LORAZEPAM"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal nerve neoplasm", "insomnia (disease)", "insomnia (disease)", "reading seizures", "reading seizures", "audiogenic seizures", "eating seizures", "thinking seizures", "orgasm-induced seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal nerve neoplasm", "reading seizures", "reading seizures", "audiogenic seizures", "eating seizures", "thinking seizures", "orgasm-induced seizures"]
 ---
 
 # Lorazepam

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Valsartan: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L4). Oprindelig indikation: Hypertension (fra vidensgrafen"
 monitor_inn: "VALSARTAN"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease"]
 ---
 
 # Valsartan

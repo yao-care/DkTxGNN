@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Propylthiouracil: forudsagt ny indikation Resistens over for thyroideahormon på grund af mutation i thyroideaho… (evidensniveau L4). Oprindelig indikation: Hyperthyroidisme, Graves' sygdom, thyrotoks…"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "neonatal thyrotoxicosis", "hyperthyroxinemia", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil

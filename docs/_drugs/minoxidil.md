@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Minoxidil: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L4). Oprindelig indikation: Forhøjet blodtryk og alopeci"
 monitor_inn: "Minoxidil"
-predicted_indications: ["hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "congenital hypotrichosis milia", "diffuse alopecia areata", "diffuse alopecia areata", "pseudopelade of Brocq", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arterial hypertension"]
+predicted_indications: ["congenital hypotrichosis milia", "congenital hypotrichosis milia"]
 ---
 
 # Minoxidil

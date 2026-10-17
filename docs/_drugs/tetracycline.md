@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tetracycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L4). Oprindelig indikation: Urinvejsinfektion, bronkitis, akne, pharyngitis, konjunktivitis…"
 monitor_inn: "tetracycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+predicted_indications: ["paranasal sinus neoplasm (disease)"]
 ---
 
 # Tetracycline

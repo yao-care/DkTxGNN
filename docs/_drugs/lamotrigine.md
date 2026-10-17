@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lamotrigine: forudsagt ny indikation Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor… (evidensniveau L5). Oprindelig indikation: Epilepsi, partiel epilepsi og Lennox-Gastaut-syndr…"
 monitor_inn: "lamotrigine"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "orgasm-induced seizures", "micturation-induced seizures", "startle epilepsy", "eating seizures", "audiogenic seizures", "thinking seizures", "reading seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "orgasm-induced seizures", "micturation-induced seizures", "eating seizures", "audiogenic seizures", "thinking seizures", "reading seizures"]
 ---
 
 # Lamotrigine

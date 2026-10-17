@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Alprazolam: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Angstlidelse, angst…"
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "insomnia (disease)", "benign paroxysmal torticollis of infancy", "benign paroxysmal torticollis of infancy", "agoraphobia", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "benign paroxysmal torticollis of infancy", "agoraphobia", "agoraphobia"]
 ---
 
 # Alprazolam

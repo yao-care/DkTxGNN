@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Melphalan: forudsagt ny indikation Gonadal kimcelletumor (evidensniveau L2). Oprindelig indikation: Ovariecancer"
 monitor_inn: "Melphalan"
-predicted_indications: ["gonadal germ cell tumor", "gonadal germ cell tumor", "ovarian primitive germ cell tumor", "ovarian primitive germ cell tumor", "choriocarcinoma of ovary", "choriocarcinoma of ovary", "female breast carcinoma", "female breast carcinoma", "malignant non-epithelial tumor of ovary", "malignant non-epithelial tumor of ovary"]
+predicted_indications: ["female breast carcinoma", "female breast carcinoma"]
 ---
 
 # Melphalan

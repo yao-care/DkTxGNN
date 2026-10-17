@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mecasermin: forudsagt ny indikation Monosomi X (Turner syndrom) (evidensniveau L5). Oprindelig indikation: Væksthormoninsensitivitetssyndrom og Laron syndrom (kilde: TxGNN-vide…"
 monitor_inn: "Mecasermin"
-predicted_indications: ["monosomy X", "monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease with hypolipoproteinemia and acanthocytosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "esophageal varices with bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices without bleeding"]
+predicted_indications: ["monosomy X", "monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices without bleeding"]
 ---
 
 # Mecasermin

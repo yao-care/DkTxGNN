@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Clemastine: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, urticaria…"
 monitor_inn: "clemastine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Clemastine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Certolizumab Pegol: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom, reumatoid arthritis…"
 monitor_inn: "CERTOLIZUMAB PEGOL"
-predicted_indications: ["rheumatoid vasculitis", "rheumatoid vasculitis", "hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "polyarticular juvenile rheumatoid arthritis"]
+predicted_indications: ["hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
 ---
 
 # Certolizumab Pegol

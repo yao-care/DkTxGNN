@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ambrisentan: forudsagt ny indikation PAH associeret med bindevævssygdom (evidensniveau L2). Oprindelig indikation: Pulmonal arteriel hypertension (angivet i vidensgrafen"
 monitor_inn: "AMBRISENTAN"
-predicted_indications: ["pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
+predicted_indications: ["pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)"]
 ---
 
 # Ambrisentan

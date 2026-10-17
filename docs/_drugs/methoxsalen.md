@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methoxsalen: forudsagt ny indikation Lokaliseret pagetoid reticulose (evidensniveau L4). Oprindelig indikation: Primært kutant T-celle-lymfom (non-Hodgkin) og vitiligo (ifølge viden…"
 monitor_inn: "Methoxsalen"
-predicted_indications: ["localized pagetoid reticulosis", "localized pagetoid reticulosis", "indolent primary cutaneous T-cell lymphoma", "indolent primary cutaneous T-cell lymphoma", "neoplasm of mature B-cells", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma"]
+predicted_indications: ["localized pagetoid reticulosis", "localized pagetoid reticulosis", "neoplasm of mature B-cells", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma"]
 ---
 
 # Methoxsalen

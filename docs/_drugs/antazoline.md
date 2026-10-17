@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Antazoline: forudsagt ny indikation Allergisk urticaria (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse…"
 monitor_inn: "antazoline"
-predicted_indications: ["allergic urticaria", "cold urticaria", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
 ---
 
 # Antazoline

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Carbimazole: forudsagt ny indikation Resistens over for thyreoideahormon på grund af mutation i thyreoidea… (evidensniveau L5). Oprindelig indikation: Hypertyreoidisme, Graves' sygdom, tyreotoksikose…"
 monitor_inn: "carbimazole"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Carbimazole

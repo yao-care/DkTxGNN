@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ranibizumab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Diabetisk retinopati, diabetisk makulaødem…"
 monitor_inn: "Ranibizumab"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "immature cataract", "tetanic cataract"]
+predicted_indications: ["diabetes mellitus type 2 associated cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "immature cataract", "tetanic cataract"]
 ---
 
 # Ranibizumab

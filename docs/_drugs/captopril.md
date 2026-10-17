@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Captopril: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L4). Oprindelig indikation: Hypertension og diabetisk nefropati (ifølge TxGNN-vidensgrafen"
 monitor_inn: "CAPTOPRIL"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease"]
 ---
 
 # Captopril

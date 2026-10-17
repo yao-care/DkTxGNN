@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Adenosine: forudsagt ny indikation Obsolet grenblok (bundle branch block) (evidensniveau L5). Oprindelig indikation: Ventrikulær takykardi"
 monitor_inn: "adenosine"
-predicted_indications: ["obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia"]
+predicted_indications: ["obsolete bundle branch block"]
 ---
 
 # Adenosine

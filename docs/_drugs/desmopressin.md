@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desmopressin: forudsagt ny indikation Medfødt protrombinmangel (evidensniveau L4). Oprindelig indikation: Arvelig von Willebrand-sygdom…"
 monitor_inn: "Desmopressin"
-predicted_indications: ["congenital prothrombin deficiency", "congenital prothrombin deficiency", "inherited thrombophilia", "inherited thrombophilia", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease"]
+predicted_indications: ["congenital prothrombin deficiency", "congenital prothrombin deficiency", "inherited thrombophilia", "inherited thrombophilia", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "primary release disorder of platelets"]
 ---
 
 # Desmopressin

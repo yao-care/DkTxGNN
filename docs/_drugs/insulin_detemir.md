@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Detemir: forudsagt ny indikation Type 1-diabetes mellitus (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose"
 monitor_inn: "INSULIN DETEMIR"
-predicted_indications: ["type 1 diabetes mellitus", "type 1 diabetes mellitus", "autoimmune oophoritis", "autoimmune oophoritis", "opsismodysplasia", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+predicted_indications: ["autoimmune oophoritis", "autoimmune oophoritis", "opsismodysplasia", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---
 
 # Insulin Detemir

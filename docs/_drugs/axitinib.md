@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Axitinib: forudsagt ny indikation Nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusion… (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom (klarcellet, ikke-papillært…"
 monitor_inn: "Axitinib"
-predicted_indications: ["renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "childhood kidney cell carcinoma", "childhood kidney cell carcinoma", "liposarcoma", "liposarcoma"]
+predicted_indications: ["liposarcoma", "liposarcoma"]
 ---
 
 # Axitinib

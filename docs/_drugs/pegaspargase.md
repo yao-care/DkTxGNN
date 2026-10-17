@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pegaspargase: forudsagt ny indikation Prækursor-lymfoblastært lymfom/leukæmi (evidensniveau L1). Oprindelig indikation: Akut lymfoblastær leukæmi (ALL). Den danske godkendelsestekst er ikke…"
 monitor_inn: "PEGASPARGASE"
-predicted_indications: ["precursor lymphoblastic lymphoma/leukemia", "precursor lymphoblastic lymphoma/leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "follicular lymphoma", "acute lymphoblastic leukemia", "acute lymphoblastic leukemia"]
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "follicular lymphoma"]
 ---
 
 # Pegaspargase

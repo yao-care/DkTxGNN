@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Pimecrolimus: forudsagt ny indikation Seboroisk dermatitis (evidensniveau L2). Oprindelig indikation: Atopisk eksem (atopisk dermatitis). Godkendelsesteksten for det dansk…"
 monitor_inn: "PIMECROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "seborrheic dermatitis", "dermatitis", "dermatitis", "exanthem (disease)", "exanthem (disease)", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["seborrheic dermatitis", "seborrheic dermatitis", "exanthem (disease)", "exanthem (disease)", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans"]
 ---
 
 # Pimecrolimus

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nystatin: forudsagt ny indikation Vulvovaginitis (evidensniveau L3). Oprindelig indikation: Kutan candidiasis, oral candidiasis…"
 monitor_inn: "Nystatin"
-predicted_indications: ["vulvovaginitis", "vulvovaginitis", "disease of orbital region", "disease of orbital region", "disease of orbital part of eye adnexa", "disease of orbital part of eye adnexa", "cystic teratoma", "cystic teratoma", "spinal cord dermoid cyst", "spinal cord dermoid cyst"]
+predicted_indications: ["disease of orbital region", "disease of orbital region", "disease of orbital part of eye adnexa", "disease of orbital part of eye adnexa", "cystic teratoma", "cystic teratoma", "spinal cord dermoid cyst", "spinal cord dermoid cyst"]
 ---
 
 # Nystatin

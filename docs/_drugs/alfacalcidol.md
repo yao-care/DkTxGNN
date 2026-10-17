@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alfacalcidol: forudsagt ny indikation Familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion (evidensniveau L5). Oprindelig indikation: Hyperparathyroidisme, osteitis fibrosa, hypopar…"
 monitor_inn: "ALFACALCIDOL"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "renal tubular acidosis"]
+predicted_indications: ["Dahlberg-Borer-Newcomer syndrome", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "renal tubular acidosis"]
 ---
 
 # Alfacalcidol

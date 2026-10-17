@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alteplase: forudsagt ny indikation Posterolateralt myokardieinfarkt (evidensniveau L4). Oprindelig indikation: Myokardieinfarkt, lungeemboli, apopleksi"
 monitor_inn: "ALTEPLASE"
-predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction", "septal myocardial infarction", "heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "congenital coronary artery anomaly"]
+predicted_indications: ["heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "congenital coronary artery anomaly"]
 ---
 
 # Alteplase
