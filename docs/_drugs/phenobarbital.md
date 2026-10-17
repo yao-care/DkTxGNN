@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Phenobarbital: forudsagt ny indikation Trigeminusnervetumor (evidensniveau L5). Oprindelig indikation: Epilepsi"
 monitor_inn: "Phenobarbital"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal nerve neoplasm", "audiogenic seizures", "thinking seizures", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "micturation-induced seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal nerve neoplasm"]
 ---
 
 # Phenobarbital
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

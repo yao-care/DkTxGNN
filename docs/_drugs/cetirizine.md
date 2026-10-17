@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Cetirizine: forudsagt ny indikation Allergisk urticaria (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, konjunktivitis…"
 monitor_inn: "cetirizine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["acute laryngopharyngitis", "recalcitrant atopic dermatitis"]
 ---
 
 # Cetirizine
@@ -27,7 +27,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

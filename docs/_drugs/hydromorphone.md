@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Hydromorphone: forudsagt ny indikation Pharyngitis (evidensniveau L5). Oprindelig indikation: Forkølelse og nasopharyngitis (fra TxGNN-videnbasen"
 monitor_inn: "hydromorphone"
-predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Hydromorphone
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

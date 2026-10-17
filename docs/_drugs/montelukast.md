@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Montelukast: forudsagt ny indikation Bronkitis (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
 monitor_inn: "montelukast"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "asthma-related traits, susceptibility to"]
+predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 ---
 
 # Montelukast
@@ -27,7 +27,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

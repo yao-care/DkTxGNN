@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Naratriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L3). Oprindelig indikation: Migræne (migræne med og uden aura)"
 monitor_inn: "naratriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Naratriptan
@@ -27,7 +27,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

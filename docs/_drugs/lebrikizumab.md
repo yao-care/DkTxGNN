@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lebrikizumab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Atopisk dermatitis"
 monitor_inn: "Lebrikizumab"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "drug-induced osteoporosis", "diabetic retinopathy", "diabetic retinopathy", "primary release disorder of platelets", "primary release disorder of platelets", "dermatitis", "dermatitis"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "drug-induced osteoporosis", "diabetic retinopathy", "diabetic retinopathy", "primary release disorder of platelets", "primary release disorder of platelets"]
 ---
 
 # Lebrikizumab
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

@@ -27,7 +27,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

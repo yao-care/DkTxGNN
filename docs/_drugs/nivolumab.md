@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nivolumab: forudsagt ny indikation Ikke-kutant melanom (evidensniveau L2). Oprindelig indikation: Ikke-småcellet lungekræft, lungekræft, pladecellet lungekræft…"
-monitor_inn: "Nivolumab"
-predicted_indications: ["non-cutaneous melanoma", "non-cutaneous melanoma", "epithelioid cell melanoma", "epithelioid cell melanoma", "nodular malignant melanoma", "balloon cell malignant melanoma", "amelanotic skin melanoma", "acral lentiginous melanoma (disease)", "balloon cell malignant melanoma", "CDK4 linked melanoma"]
 ---
 
 # Nivolumab
@@ -27,7 +25,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

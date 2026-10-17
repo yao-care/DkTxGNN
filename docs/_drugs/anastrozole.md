@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Anastrozole: forudsagt ny indikation Kvindelig brystkræft (female breast carcinoma) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for det danske…"
 monitor_inn: "anastrozole"
-predicted_indications: ["female breast carcinoma", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
+predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
 ---
 
 # Anastrozole
@@ -27,7 +27,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

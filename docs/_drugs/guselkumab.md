@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Guselkumab: forudsagt ny indikation Psoriasis (allerede godkendt indikation) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
 monitor_inn: "Guselkumab"
-predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "psoriasis", "psoriasis", "diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "renal osteodystrophy"]
+predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "renal osteodystrophy"]
 ---
 
 # Guselkumab
@@ -27,7 +27,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

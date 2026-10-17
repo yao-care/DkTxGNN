@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dupilumab: forudsagt ny indikation Bronkitis (evidensniveau L3). Oprindelig indikation: Atopisk eksem (atopisk dermatitis). Godkendt indikationstekst er ikke…"
 monitor_inn: "Dupilumab"
-predicted_indications: ["bronchitis", "bronchitis", "acne keloid", "acne keloid", "exanthem (disease)", "exanthem (disease)", "neonatal dermatomyositis", "neonatal dermatomyositis"]
+predicted_indications: ["bronchitis", "bronchitis", "acne keloid", "acne keloid", "neonatal dermatomyositis", "neonatal dermatomyositis"]
 ---
 
 # Dupilumab
@@ -27,7 +27,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

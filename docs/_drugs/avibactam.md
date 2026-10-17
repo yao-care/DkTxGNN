@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Avibactam: forudsagt ny indikation Streptokok-pneumoni (evidensniveau L5). Oprindelig indikation: Pyelonefritis (fra vidensgrafen"
 monitor_inn: "avibactam"
-predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Avibactam
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

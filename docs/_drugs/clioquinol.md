@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clioquinol: forudsagt ny indikation Kutan candidiasis (evidensniveau L4). Oprindelig indikation: Tinea pedis, tinea corporis…"
 monitor_inn: "clioquinol"
-predicted_indications: ["cutaneous candidiasis", "Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
 ---
 
 # Clioquinol
@@ -27,7 +27,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Latanoprost: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension (ifølge videnbasen"
 monitor_inn: "LATANOPROST"
-predicted_indications: ["primary hereditary glaucoma", "primary hereditary glaucoma", "visceral calciphylaxis", "visceral calciphylaxis", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome"]
+predicted_indications: ["visceral calciphylaxis", "visceral calciphylaxis", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome"]
 ---
 
 # Latanoprost
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

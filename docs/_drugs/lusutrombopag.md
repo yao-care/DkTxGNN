@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lusutrombopag: forudsagt ny indikation Arvelig trombocytopeni med normale blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopeni (ifølge vidensgrafen"
 monitor_inn: "Lusutrombopag"
-predicted_indications: ["dense granule disease", "dense granule disease", "platelet storage pool deficiency", "platelet storage pool deficiency"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "dense granule disease", "platelet storage pool deficiency", "platelet storage pool deficiency"]
 ---
 
 # Lusutrombopag
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Teplizumab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Forsinkelse af debut af stadie 3 type 1-diabetes"
 monitor_inn: "Teplizumab"
-predicted_indications: ["diabetic cataract", "diabetic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "mature cataract"]
+predicted_indications: ["diabetic cataract", "diabetic cataract", "immature cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract"]
 ---
 
 # Teplizumab
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

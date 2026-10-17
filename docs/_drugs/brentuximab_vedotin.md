@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brentuximab Vedotin: forudsagt ny indikation Follikulært lymfom (evidensniveau L3). Oprindelig indikation: Hodgkin-lymfom (klassisk Hodgkin-lymfom)"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
-predicted_indications: ["follicular lymphoma", "follicular lymphoma", "myeloid leukemia", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
+predicted_indications: ["follicular lymphoma", "follicular lymphoma", "myeloid leukemia", "myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
 ---
 
 # Brentuximab Vedotin
@@ -27,7 +27,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

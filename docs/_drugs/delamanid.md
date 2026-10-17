@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Delamanid: forudsagt ny indikation Inaktiv tuberkulose (evidensniveau L2). Oprindelig indikation: Multiresistent tuberkulose"
-monitor_inn: "Delamanid"
-predicted_indications: ["tuberculosis, bovine", "tuberculosis, bovine", "tuberculous ascites", "inactive tuberculosis", "tuberculoma", "inactive tuberculosis", "tuberculoma", "tuberculosis, avian", "tuberculosis, avian", "tuberculous ascites"]
 ---
 
 # Delamanid
@@ -27,7 +25,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

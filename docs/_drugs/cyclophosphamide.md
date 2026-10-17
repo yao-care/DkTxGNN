@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cyclophosphamide: forudsagt ny indikation Myeloid leukæmi (evidensniveau L2). Oprindelig indikation: Lymfom, myelomatose, neuroblastom…"
 monitor_inn: "cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
 ---
 
 # Cyclophosphamide
@@ -27,7 +27,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

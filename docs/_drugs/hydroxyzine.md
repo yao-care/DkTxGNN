@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Hydroxyzine: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Atopisk eksem, allergisk rhinitis, urticaria m.fl"
-monitor_inn: "hydroxyzine"
-predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Hydroxyzine
@@ -27,7 +25,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

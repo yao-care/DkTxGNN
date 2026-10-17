@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lornoxicam: forudsagt ny indikation Reumatoid artritis (evidensniveau L3). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for den danske…"
 monitor_inn: "Lornoxicam"
-predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Lornoxicam
@@ -27,7 +27,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Acetaminophen: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne og hovedpine, forkølelse, allergisk rhinitis (fra vidensgrafen"
-monitor_inn: "Acetaminophen"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Acetaminophen
@@ -27,7 +25,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

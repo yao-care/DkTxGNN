@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bosutinib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L1). Oprindelig indikation: Kronisk myeloid leukæmi (CML), BCR-ABL1-positiv, blastfase"
 monitor_inn: "Bosutinib"
-predicted_indications: ["myeloid leukemia", "myeloid leukemia", "thrombocytopenia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "transient neonatal thrombocytopenia"]
+predicted_indications: ["thrombocytopenia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "transient neonatal thrombocytopenia"]
 ---
 
 # Bosutinib
@@ -27,7 +27,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

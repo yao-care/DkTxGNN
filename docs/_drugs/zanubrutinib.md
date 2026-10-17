@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L4). Oprindelig indikation: Mantelcellelymfom, B-celle-neoplasi, lymfosarkom"
 monitor_inn: "Zanubrutinib"
-predicted_indications: ["myeloid leukemia", "myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "retroperitoneal neoplasm", "Ewing sarcoma", "Ewing sarcoma"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "retroperitoneal neoplasm", "Ewing sarcoma", "Ewing sarcoma"]
 ---
 
 # Zanubrutinib
@@ -27,7 +27,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

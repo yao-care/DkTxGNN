@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Erenumab: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura)"
-monitor_inn: "ERENUMAB"
-predicted_indications: ["migraine with brainstem aura", "migraine with brainstem aura"]
 ---
 
 # Erenumab
@@ -27,7 +25,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

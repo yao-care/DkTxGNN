@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Perampanel: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi / partiel motorisk epilepsi (fra vidensgrafen"
-monitor_inn: "PERAMPANEL"
-predicted_indications: ["visual epilepsy", "visual epilepsy", "eating seizures", "micturation-induced seizures", "eating seizures", "audiogenic seizures", "startle epilepsy", "thinking seizures", "micturation-induced seizures", "orgasm-induced seizures"]
 ---
 
 # Perampanel
@@ -27,7 +25,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

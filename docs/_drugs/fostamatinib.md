@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fostamatinib: forudsagt ny indikation Autosomal trombocytopeni med normale blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopeni som følge af immunmedieret destruktion"
 monitor_inn: "Fostamatinib"
-predicted_indications: ["autosomal thrombocytopenia with normal platelets", "autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "syndromic constitutional thrombocytopenia", "syndromic constitutional thrombocytopenia", "glaucoma", "glaucoma", "biotin metabolic disease", "biotin metabolic disease"]
+predicted_indications: ["non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "glaucoma", "glaucoma", "biotin metabolic disease", "biotin metabolic disease"]
 ---
 
 # Fostamatinib
@@ -27,7 +27,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

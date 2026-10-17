@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Guaifenesin: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, faryngitis, forkølelse…"
 monitor_inn: "Guaifenesin"
-predicted_indications: ["faucial diphtheria", "faucial diphtheria", "cervical disc degenerative disorder", "cervical disc degenerative disorder", "papillary conjunctivitis", "papillary conjunctivitis"]
+predicted_indications: ["acute laryngopharyngitis", "acute laryngopharyngitis", "faucial diphtheria", "faucial diphtheria", "cervical disc degenerative disorder", "cervical disc degenerative disorder", "papillary conjunctivitis", "papillary conjunctivitis"]
 ---
 
 # Guaifenesin
@@ -27,7 +27,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 

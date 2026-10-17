@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zolmitriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura). Den godkendte indikationstekst…"
 monitor_inn: "ZOLMITRIPTAN"
-predicted_indications: ["migraine with brainstem aura", "migraine with brainstem aura", "atrophoderma vermiculata", "atrophoderma vermiculata", "ulerythema ophryogenesis", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "atrophoderma vermiculata", "ulerythema ophryogenesis", "ulerythema ophryogenesis"]
 ---
 
 # Zolmitriptan
@@ -27,7 +27,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaceutens vurderingsrapport
 
