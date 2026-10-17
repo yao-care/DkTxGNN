@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "drug_count": 861,
+  "generated": "2026-10-17",
+  "drug_count": 860,
   "indication_count": 1481,
   "drugs": [
     {
@@ -9656,14 +9656,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Naldemedine",
-      "slug": "naldemedine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Naphazoline",

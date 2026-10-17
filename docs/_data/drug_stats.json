@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-17",
-  "total_drugs": 861,
+  "total_drugs": 860,
   "level_counts": {
     "L1": 49,
     "L2": 35,
     "L3": 52,
     "L4": 153,
-    "L5": 572
+    "L5": 571
   },
   "all_drugs": [
     {
@@ -3158,12 +3158,6 @@
       "slug": "mupirocin",
       "level": "L5",
       "indication_count": 10
-    },
-    {
-      "name": "Naldemedine",
-      "slug": "naldemedine",
-      "level": "L5",
-      "indication_count": 0
     },
     {
       "name": "Naphazoline",
