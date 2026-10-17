@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Verapamil: forudsagt ny indikation Obsolet grenblok (bundle branch block) (evidensniveau L5). Oprindelig indikation: Hypertension, atrieflimren, akut koronarsyndrom, Prinzmetal-angina…"
 monitor_inn: "verapamil"
-predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "periodic paralysis with transient compartment-like syndrome"]
+predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "periodic paralysis with transient compartment-like syndrome"]
 ---
 
 # Verapamil

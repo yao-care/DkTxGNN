@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trandolapril: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk)"
 monitor_inn: "TRANDOLAPRIL"
-predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Trandolapril
