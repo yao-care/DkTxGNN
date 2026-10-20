@@ -1,6 +1,6 @@
 {
-  "total": 831,
-  "generated_at": "2026-10-19T18:31:46.562468",
+  "total": 839,
+  "generated_at": "2026-10-20T04:08:51.821328",
   "drugs": [
     {
       "name": "Abacavir",
@@ -37,8 +37,14 @@
       "predicted_indication": "",
       "inn": "ABATACEPT",
       "predicted_indications": [
+        "ankylosing spondylitis",
+        "ankylosing spondylitis",
+        "hypermobility of coccyx",
+        "hypermobility of coccyx",
         "inflammatory spondylopathy",
-        "inflammatory spondylopathy"
+        "inflammatory spondylopathy",
+        "Kummell disease",
+        "Kummell disease"
       ]
     },
     {
@@ -117,6 +123,7 @@
         "acute laryngopharyngitis",
         "tracheal disease",
         "transient ischemic attack (disease)",
+        "laryngotracheitis",
         "angle-closure glaucoma"
       ]
     },
@@ -182,8 +189,12 @@
       "predicted_indication": "",
       "inn": "ADALIMUMAB",
       "predicted_indications": [
+        "hypermobility of coccyx",
+        "hypermobility of coccyx",
         "inflammatory spondylopathy",
-        "inflammatory spondylopathy"
+        "inflammatory spondylopathy",
+        "Kummell disease",
+        "Kummell disease"
       ]
     },
     {
@@ -278,7 +289,10 @@
       "predicted_indications": [
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
+        "neurotic disorder",
+        "melancholia",
         "Ohdo syndrome and variants",
+        "dysthymic disorder",
         "ligneous conjunctivitis",
         "blepharophimosis - intellectual disability syndrome, Ohdo type",
         "Keppen-Lubinsky syndrome"
@@ -339,7 +353,6 @@
         "fibromatosis, gingival",
         "fibroma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
         "lung benign neoplasm",
         "pulmonary sulcus neoplasm",
         "lung germ cell tumor",
@@ -376,6 +389,8 @@
       "predicted_indication": "",
       "inn": "ALFACALCIDOL",
       "predicted_indications": [
+        "familial isolated hypoparathyroidism due to impaired PTH secretion",
+        "familial isolated hypoparathyroidism due to impaired PTH secretion",
         "Dahlberg-Borer-Newcomer syndrome",
         "Dahlberg-Borer-Newcomer syndrome",
         "craniofacial conodysplasia",
@@ -521,6 +536,8 @@
       "predicted_indication": "",
       "inn": "ALPRAZOLAM",
       "predicted_indications": [
+        "insomnia (disease)",
+        "insomnia (disease)",
         "benign paroxysmal torticollis of infancy",
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
@@ -535,6 +552,8 @@
       "predicted_indication": "",
       "inn": "Alprostadil",
       "predicted_indications": [
+        "aortic malformation",
+        "aortic malformation",
         "congenital tricuspid stenosis",
         "congenital tricuspid stenosis",
         "congenital valvular dysplasia",
@@ -651,6 +670,7 @@
         "malignant hypertensive renal disease",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
+        "Braddock syndrome",
         "chronic pulmonary heart disease"
       ]
     },
@@ -706,6 +726,8 @@
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
+        "cerebral artery occlusion",
+        "Braddock syndrome",
         "MRI defined brain infarct",
         "ABri amyloidosis",
         "intracerebral hemorrhage"
@@ -760,7 +782,10 @@
       "inn": "ampicillin",
       "predicted_indications": [
         "laryngitis",
+        "gonococcal urethritis",
         "Ureaplasma urethritis",
+        "chronic rhinosinusitis",
+        "chronic ethmoidal sinusitis",
         "gingivitis",
         "paranasal sinus neoplasm (disease)",
         "bacterial arthritis",
@@ -1035,6 +1060,7 @@
       "predicted_indication": "",
       "inn": "aripiprazole",
       "predicted_indications": [
+        "major affective disorder",
         "gaze palsy, familial horizontal, with progressive scoliosis",
         "asperger syndrome, susceptibility to",
         "Phelan-McDermid syndrome",
@@ -1134,6 +1160,7 @@
       "predicted_indication": "",
       "inn": "atomoxetine",
       "predicted_indications": [
+        "specific developmental disorder",
         "faciodigitogenital syndrome",
         "chondromyxoid fibroma",
         "trichotillomania",
@@ -1156,7 +1183,6 @@
         "HIV infectious disease",
         "brain stem infarction",
         "cholesterol-ester transfer protein deficiency",
-        "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -1288,6 +1314,7 @@
         "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
         "congenital analbuminemia",
+        "punctate epithelial keratoconjunctivitis",
         "blood group incompatibility",
         "premalignant hematological system disease",
         "monoclonal gammopathy",
@@ -1414,7 +1441,8 @@
       "predicted_indications": [
         "malignant hypertensive renal disease",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome"
       ]
     },
     {
@@ -1433,6 +1461,7 @@
         "thyroid gland mucosa-associated lymphoid tissue lymphoma",
         "breast mucosa-associated lymphoid tissue lymphoma",
         "tonsillar lymphoma",
+        "MALT lymphoma",
         "relapsing-remitting multiple sclerosis"
       ]
     },
@@ -1446,7 +1475,8 @@
       "predicted_indications": [
         "malignant hypertensive renal disease",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome"
       ]
     },
     {
@@ -1575,6 +1605,7 @@
       "inn": "bexarotene",
       "predicted_indications": [
         "primary cutaneous B-cell lymphoma",
+        "Sezary syndrome",
         "lymphosarcoma"
       ]
     },
@@ -1645,6 +1676,8 @@
         "syndrome with a Dandy-Walker malformation as major feature",
         "isolated genetic hair shaft abnormality",
         "isolated genetic hair shaft abnormality",
+        "Ambras type hypertrichosis universalis congenita",
+        "Ambras type hypertrichosis universalis congenita",
         "hypotrichosis simplex of the scalp",
         "hypotrichosis simplex of the scalp"
       ]
@@ -1695,6 +1728,7 @@
         "transaldolase deficiency",
         "fructose-1,6-bisphosphatase deficiency",
         "progressive supranuclear palsy-corticobasal syndrome",
+        "paralysis agitans, juvenile, of Hunt",
         "Lewy body dementia",
         "attention deficit-hyperactivity disorder",
         "X-linked intellectual disability-ataxia-apraxia syndrome"
@@ -1713,7 +1747,9 @@
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome",
+        "Braddock syndrome"
       ]
     },
     {
@@ -1727,6 +1763,7 @@
         "cauda equina neoplasm",
         "adult astrocytic tumour",
         "reticulum cell sarcoma",
+        "primary pulmonary lymphoma",
         "pulmonary blastoma",
         "well-differentiated fetal adenocarcinoma of the lung"
       ]
@@ -1779,6 +1816,10 @@
         "follicular lymphoma",
         "myeloid leukemia",
         "myeloid leukemia",
+        "acute lymphoblastic/lymphocytic leukemia",
+        "acute lymphoblastic/lymphocytic leukemia",
+        "B-cell neoplasm",
+        "B-cell neoplasm",
         "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
         "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
       ]
@@ -1797,8 +1838,6 @@
         "fibroma of lung",
         "hamartoma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma",
         "lung benign neoplasm",
         "lung benign neoplasm"
       ]
@@ -1862,6 +1901,7 @@
       "inn": "budesonide",
       "predicted_indications": [
         "atopic eczema",
+        "bronchitis",
         "dermatitis, atopic",
         "polyp of vocal cord",
         "polyp of middle ear",
@@ -1947,6 +1987,8 @@
         "impaired renal function disease",
         "non-renal secondary hyperparathyroidism",
         "non-renal secondary hyperparathyroidism",
+        "bone remodeling disease",
+        "bone remodeling disease",
         "hyperparathyroidism, transient neonatal",
         "hyperparathyroidism, transient neonatal"
       ]
@@ -2054,6 +2096,7 @@
         "neuralgia",
         "glossodynia",
         "coccygodynia",
+        "trigeminal autonomic cephalalgia",
         "vein disease"
       ]
     },
@@ -2066,7 +2109,9 @@
       "inn": "calcifediol",
       "predicted_indications": [
         "obsolete vitamin D deficiency",
-        "renal tubular acidosis"
+        "renal tubular acidosis",
+        "hereditary hypophosphatemic rickets",
+        "vitamin D-dependent rickets"
       ]
     },
     {
@@ -2119,7 +2164,8 @@
       "predicted_indications": [
         "malignant hypertensive renal disease",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome"
       ]
     },
     {
@@ -2244,6 +2290,7 @@
       "inn": "carbimazole",
       "predicted_indications": [
         "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+        "neonatal thyrotoxicosis",
         "hyperthyroxinemia"
       ]
     },
@@ -2318,7 +2365,9 @@
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome",
+        "Braddock syndrome"
       ]
     },
     {
@@ -2507,7 +2556,9 @@
         "brachyolmia-amelogenesis imperfecta syndrome",
         "brachyolmia-amelogenesis imperfecta syndrome",
         "myosclerosis",
-        "myosclerosis"
+        "myosclerosis",
+        "hypermobility of coccyx",
+        "hypermobility of coccyx"
       ]
     },
     {
@@ -2562,8 +2613,6 @@
         "fibroma of lung",
         "hamartoma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma",
         "lung benign neoplasm",
         "lung benign neoplasm"
       ]
@@ -2612,7 +2661,9 @@
       "predicted_indication": "",
       "inn": "cetirizine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
+        "rosacea conjunctivitis",
         "recalcitrant atopic dermatitis"
       ]
     },
@@ -2772,12 +2823,16 @@
       "predicted_indication": "",
       "inn": "CHOLECALCIFEROL",
       "predicted_indications": [
+        "familial isolated hypoparathyroidism due to impaired PTH secretion",
+        "familial isolated hypoparathyroidism due to impaired PTH secretion",
         "acromesomelic dysplasia, Campailla Martinelli type",
         "acromesomelic dysplasia, Campailla Martinelli type",
         "craniofacial conodysplasia",
         "craniofacial conodysplasia",
         "Dahlberg-Borer-Newcomer syndrome",
-        "Dahlberg-Borer-Newcomer syndrome"
+        "Dahlberg-Borer-Newcomer syndrome",
+        "hypophosphatemic rickets",
+        "hypophosphatemic rickets"
       ]
     },
     {
@@ -2893,6 +2948,7 @@
       "predicted_indication": "",
       "inn": "citalopram",
       "predicted_indications": [
+        "obsessive-compulsive disorder",
         "paranoid personality disorder",
         "schizoid personality disorder",
         "schizotypal personality disorder",
@@ -3041,6 +3097,7 @@
       "predicted_indication": "",
       "inn": "clomipramine",
       "predicted_indications": [
+        "anxiety disorder",
         "benign paroxysmal torticollis of infancy",
         "schizoid personality disorder",
         "histrionic personality disorder (disease)",
@@ -3060,6 +3117,8 @@
       "predicted_indications": [
         "restless legs syndrome",
         "restless legs syndrome",
+        "insomnia (disease)",
+        "insomnia (disease)",
         "trigeminal nerve neoplasm",
         "trigeminal nerve neoplasm"
       ]
@@ -3073,6 +3132,7 @@
       "inn": "clonidine",
       "predicted_indications": [
         "faciodigitogenital syndrome",
+        "specific developmental disorder",
         "chondromyxoid fibroma",
         "trichotillomania",
         "Tourette syndrome",
@@ -3131,7 +3191,9 @@
       "predicted_indication": "",
       "inn": "clotrimazole",
       "predicted_indications": [
-        "acne (disease)"
+        "acne (disease)",
+        "vulvovaginitis",
+        "postmenopausal atrophic vaginitis"
       ]
     },
     {
@@ -3178,6 +3240,7 @@
       "predicted_indication": "",
       "inn": "codeine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
         "trigeminal autonomic cephalalgia",
         "allergic urticaria"
@@ -3267,8 +3330,6 @@
         "fibroma of lung",
         "hamartoma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma",
         "lung benign neoplasm",
         "lung benign neoplasm"
       ]
@@ -3293,9 +3354,14 @@
       "predicted_indication": "",
       "inn": "cyclizine",
       "predicted_indications": [
+        "allergic urticaria",
+        "nasal cavity disease",
         "acute laryngopharyngitis",
+        "cold urticaria",
+        "rosacea conjunctivitis",
         "headache disorder",
-        "trigeminal autonomic cephalalgia"
+        "trigeminal autonomic cephalalgia",
+        "recalcitrant atopic dermatitis"
       ]
     },
     {
@@ -3619,7 +3685,8 @@
         "nasal cavity disease",
         "acute laryngopharyngitis",
         "recalcitrant atopic dermatitis",
-        "IgE responsiveness, atopic"
+        "IgE responsiveness, atopic",
+        "rosacea conjunctivitis"
       ]
     },
     {
@@ -3728,6 +3795,7 @@
         "anal polyp",
         "vulvar inverted follicular keratosis",
         "proctitis",
+        "exanthem (disease)",
         "punctate epithelial keratoconjunctivitis"
       ]
     },
@@ -3759,6 +3827,7 @@
       "predicted_indication": "",
       "inn": "dextromethorphan",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
         "faucial diphtheria",
         "trigeminal autonomic cephalalgia",
@@ -3822,6 +3891,7 @@
         "congenital hypotrichosis milia",
         "myosclerosis",
         "diffuse alopecia areata",
+        "juvenile idiopathic arthritis",
         "WHIM syndrome"
       ]
     },
@@ -3889,6 +3959,17 @@
       ]
     },
     {
+      "name": "Diphenhydramine",
+      "file": "diphenhydramine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "diphenhydramine",
+      "predicted_indications": [
+        "rosacea conjunctivitis"
+      ]
+    },
+    {
       "name": "Dipyridamole",
       "file": "dipyridamole.md",
       "evidence_level": "L4",
@@ -3937,6 +4018,8 @@
       "predicted_indications": [
         "Ewing sarcoma",
         "Ewing sarcoma",
+        "well-differentiated fetal adenocarcinoma of the lung",
+        "well-differentiated fetal adenocarcinoma of the lung",
         "primary pulmonary lymphoma",
         "primary pulmonary lymphoma"
       ]
@@ -4101,6 +4184,7 @@
       "predicted_indications": [
         "Ewing sarcoma",
         "well-differentiated fetal adenocarcinoma of the lung",
+        "primary pulmonary lymphoma",
         "pulmonary blastoma",
         "monocytic leukemia",
         "botryoid-type embryonal rhabdomyosarcoma of the vagina",
@@ -4117,6 +4201,7 @@
       "predicted_indication": "",
       "inn": "doxycycline",
       "predicted_indications": [
+        "punctate epithelial keratoconjunctivitis",
         "otitis externa",
         "postinfectious vasculitis",
         "post-bacterial disorder",
@@ -4178,6 +4263,7 @@
       "predicted_indications": [
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
+        "obsessive-compulsive disorder",
         "schizotypal personality disorder",
         "histrionic personality disorder (disease)",
         "schizoid personality disorder",
@@ -4199,6 +4285,8 @@
         "bronchitis",
         "acne keloid",
         "acne keloid",
+        "exanthem (disease)",
+        "exanthem (disease)",
         "neonatal dermatomyositis",
         "neonatal dermatomyositis"
       ]
@@ -4419,6 +4507,14 @@
       "predicted_indication": "",
       "inn": "Elosulfase alfa",
       "predicted_indications": [
+        "Scheie syndrome",
+        "Scheie syndrome",
+        "lysosomal storage disease with skeletal involvement",
+        "lysosomal storage disease with skeletal involvement",
+        "Hurler syndrome",
+        "Hurler syndrome",
+        "Sanfilippo syndrome",
+        "Sanfilippo syndrome",
         "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye",
         "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"
       ]
@@ -4548,6 +4644,7 @@
         "PLA2G6-associated neurodegeneration",
         "Rasmussen subacute encephalitis",
         "myelitis",
+        "paralysis agitans, juvenile, of Hunt",
         "transaldolase deficiency",
         "lethal infantile mitochondrial myopathy",
         "Lewy body dementia",
@@ -4564,8 +4661,12 @@
       "predicted_indication": "",
       "inn": "ENTECAVIR",
       "predicted_indications": [
+        "chronic hepatitis C virus infection",
+        "chronic hepatitis C virus infection",
         "HIV infectious disease",
         "HIV infectious disease",
+        "hepatitis C virus infection",
+        "hepatitis C virus infection",
         "feline acquired immunodeficiency syndrome",
         "feline acquired immunodeficiency syndrome"
       ]
@@ -4613,6 +4714,7 @@
       "predicted_indication": "",
       "inn": "ephedrine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
         "trigeminal autonomic cephalalgia"
       ]
@@ -4626,6 +4728,7 @@
       "inn": "epinephrine",
       "predicted_indications": [
         "obstructive lung disease",
+        "food-dependent exercise-induced anaphylaxis",
         "Rienhoff syndrome",
         "respiratory malformation"
       ]
@@ -4638,10 +4741,12 @@
       "predicted_indication": "",
       "inn": "epirubicin",
       "predicted_indications": [
+        "primary pulmonary lymphoma",
         "well-differentiated fetal adenocarcinoma of the lung",
         "small cell lung carcinoma",
         "pulmonary blastoma",
         "lung mixed small cell and squamous cell carcinoma",
+        "myeloid leukemia",
         "upper aerodigestive tract neoplasm"
       ]
     },
@@ -4655,7 +4760,8 @@
       "predicted_indications": [
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "malignant hypertensive renal disease"
+        "malignant hypertensive renal disease",
+        "Braddock syndrome"
       ]
     },
     {
@@ -4692,6 +4798,7 @@
         "sickle cell-hemoglobin E disease syndrome",
         "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
         "sickle cell-beta-thalassemia disease syndrome",
+        "hemoglobinopathy",
         "female breast carcinoma",
         "beta-thalassemia with other manifestations",
         "partial deletion of the short arm of chromosome 16"
@@ -4743,11 +4850,15 @@
       "predicted_indication": "",
       "inn": "ergocalciferol",
       "predicted_indications": [
+        "familial isolated hypoparathyroidism due to impaired PTH secretion",
         "acromesomelic dysplasia, Campailla Martinelli type",
         "renal tubular acidosis",
         "craniofacial conodysplasia",
         "Dahlberg-Borer-Newcomer syndrome",
-        "calcium-alkali syndrome"
+        "hypophosphatemia (disease)",
+        "renal osteodystrophy",
+        "calcium-alkali syndrome",
+        "vitamin D-dependent rickets"
       ]
     },
     {
@@ -4813,8 +4924,12 @@
       "predicted_indication": "",
       "inn": "ETANERCEPT",
       "predicted_indications": [
+        "hypermobility of coccyx",
+        "hypermobility of coccyx",
         "inflammatory spondylopathy",
-        "inflammatory spondylopathy"
+        "inflammatory spondylopathy",
+        "Kummell disease",
+        "Kummell disease"
       ]
     },
     {
@@ -4882,6 +4997,8 @@
         "brachyolmia-amelogenesis imperfecta syndrome",
         "myosclerosis",
         "myosclerosis",
+        "spondyloarthropathy, susceptibility to",
+        "spondyloarthropathy, susceptibility to",
         "brachyolmia",
         "brachyolmia"
       ]
@@ -5069,6 +5186,7 @@
       "predicted_indication": "",
       "inn": "ezetimibe",
       "predicted_indications": [
+        "hyperlipoproteinemia",
         "cholesterol-ester transfer protein deficiency"
       ]
     },
@@ -5119,6 +5237,7 @@
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "malignant hypertensive renal disease",
+        "Braddock syndrome",
         "chronic pulmonary heart disease"
       ]
     },
@@ -5185,8 +5304,10 @@
       "inn": "fenofibrate",
       "predicted_indications": [
         "homozygous familial hypercholesterolemia",
+        "hyperlipoproteinemia",
         "cholesterol-ester transfer protein deficiency",
         "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
+        "hyperlipidemia due to hepatic triglyceride lipase deficiency",
         "hypercholesterolemia, autosomal dominant"
       ]
     },
@@ -5220,6 +5341,17 @@
         "nephrogenic syndrome of inappropriate antidiuresis",
         "Tourette syndrome",
         "Tourette syndrome"
+      ]
+    },
+    {
+      "name": "Fexofenadine",
+      "file": "fexofenadine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "fexofenadine",
+      "predicted_indications": [
+        "rosacea conjunctivitis"
       ]
     },
     {
@@ -5403,7 +5535,9 @@
         "histrionic personality disorder (disease)",
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
-        "Ohdo syndrome and variants"
+        "phobic disorder",
+        "Ohdo syndrome and variants",
+        "melancholia"
       ]
     },
     {
@@ -5487,13 +5621,16 @@
       "predicted_indication": "",
       "inn": "fosfomycin",
       "predicted_indications": [
+        "gonococcal urethritis",
+        "Ureaplasma urethritis",
         "uterine inflammatory disease",
         "xanthogranulomatous pyelonephritis",
         "epiglottitis",
         "urogenital tuberculosis",
         "laryngitis",
         "polyclonal hyperviscosity syndrome",
-        "hyperamylasemia"
+        "hyperamylasemia",
+        "pyelitis"
       ]
     },
     {
@@ -5521,8 +5658,12 @@
       "predicted_indication": "",
       "inn": "Fostamatinib",
       "predicted_indications": [
+        "autosomal thrombocytopenia with normal platelets",
+        "autosomal thrombocytopenia with normal platelets",
         "non-syndromic esophageal malformation",
         "non-syndromic esophageal malformation",
+        "syndromic constitutional thrombocytopenia",
+        "syndromic constitutional thrombocytopenia",
         "glaucoma",
         "glaucoma",
         "biotin metabolic disease",
@@ -5716,9 +5857,7 @@
         "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
         "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
         "hamartoma of lung",
-        "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma"
+        "hamartoma of lung"
       ]
     },
     {
@@ -5874,6 +6013,7 @@
       "predicted_indication": "",
       "inn": "glycine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis"
       ]
     },
@@ -5961,6 +6101,8 @@
       "predicted_indication": "",
       "inn": "Guaifenesin",
       "predicted_indications": [
+        "nasal cavity disease",
+        "nasal cavity disease",
         "acute laryngopharyngitis",
         "acute laryngopharyngitis",
         "faucial diphtheria",
@@ -5980,6 +6122,7 @@
       "inn": "guanfacine",
       "predicted_indications": [
         "faciodigitogenital syndrome",
+        "specific developmental disorder",
         "chondromyxoid fibroma",
         "trichotillomania",
         "manic bipolar affective disorder",
@@ -6140,6 +6283,17 @@
       ]
     },
     {
+      "name": "Hydroxyzine",
+      "file": "hydroxyzine.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "",
+      "inn": "hydroxyzine",
+      "predicted_indications": [
+        "rosacea conjunctivitis"
+      ]
+    },
+    {
       "name": "Hypromellose",
       "file": "hypromellose.md",
       "evidence_level": "L5",
@@ -6167,6 +6321,7 @@
       "predicted_indication": "",
       "inn": "ibritumomab tiuxetan",
       "predicted_indications": [
+        "acute lymphoblastic/lymphocytic leukemia",
         "small intestinal Burkitt lymphoma",
         "small intestinal mucosa-associated lymphoid tissue lymphoma",
         "thyroid gland mucosa-associated lymphoid tissue lymphoma",
@@ -6396,7 +6551,8 @@
       "predicted_indications": [
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "malignant hypertensive renal disease"
+        "malignant hypertensive renal disease",
+        "Braddock syndrome"
       ]
     },
     {
@@ -6452,7 +6608,8 @@
         "faciodigitogenital syndrome",
         "specific developmental disorder",
         "chondromyxoid fibroma",
-        "benign paroxysmal torticollis of infancy"
+        "benign paroxysmal torticollis of infancy",
+        "obsessive-compulsive disorder"
       ]
     },
     {
@@ -6463,6 +6620,8 @@
       "predicted_indication": "",
       "inn": "Imiquimod",
       "predicted_indications": [
+        "pre-malignant neoplasm",
+        "pre-malignant neoplasm",
         "benign neoplasm of buccal mucosa",
         "benign neoplasm of buccal mucosa",
         "cervical neuroblastoma",
@@ -6714,6 +6873,10 @@
       "predicted_indications": [
         "hairy cell leukemia",
         "hairy cell leukemia",
+        "autoimmune disease of central nervous system",
+        "autoimmune disease of central nervous system",
+        "CNS demyelinating autoimmune disease",
+        "CNS demyelinating autoimmune disease",
         "fetal methylmercury syndrome",
         "fetal methylmercury syndrome"
       ]
@@ -6838,6 +7001,7 @@
         "respiratory malformation",
         "papillary conjunctivitis",
         "Rienhoff syndrome",
+        "tracheal disease",
         "anaphylaxis",
         "food-dependent exercise-induced anaphylaxis"
       ]
@@ -6881,7 +7045,13 @@
         "benign paroxysmal torticollis of infancy",
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
-        "agoraphobia"
+        "agoraphobia",
+        "obsessive-compulsive disorder",
+        "obsessive-compulsive disorder",
+        "neurotic disorder",
+        "neurotic disorder",
+        "phobic disorder",
+        "phobic disorder"
       ]
     },
     {
@@ -7081,6 +7251,17 @@
       ]
     },
     {
+      "name": "Ketoconazole",
+      "file": "ketoconazole.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "ketoconazole",
+      "predicted_indications": [
+        "acne (disease)"
+      ]
+    },
+    {
       "name": "Ketoprofen",
       "file": "ketoprofen.md",
       "evidence_level": "L5",
@@ -7109,6 +7290,7 @@
       "inn": "ketorolac",
       "predicted_indications": [
         "headache disorder",
+        "rosacea conjunctivitis",
         "trigeminal autonomic cephalalgia"
       ]
     },
@@ -7176,7 +7358,8 @@
         "simian immunodeficiency virus infection",
         "feline acquired immunodeficiency syndrome",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
-        "obsolete familial combined hyperlipidemia"
+        "obsolete familial combined hyperlipidemia",
+        "chronic hepatitis C virus infection"
       ]
     },
     {
@@ -7236,6 +7419,26 @@
       "inn": "lansoprazole",
       "predicted_indications": [
         "duodenal obstruction"
+      ]
+    },
+    {
+      "name": "Laronidase",
+      "file": "laronidase.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": "",
+      "inn": "Laronidase",
+      "predicted_indications": [
+        "lysosomal storage disease with skeletal involvement",
+        "lysosomal storage disease with skeletal involvement",
+        "Sanfilippo syndrome",
+        "Sanfilippo syndrome",
+        "lysosomal disease with hypertrophic cardiomyopathy",
+        "lysosomal disease with hypertrophic cardiomyopathy",
+        "syndromic neurometabolic disease with X-linked intellectual disability",
+        "syndromic neurometabolic disease with X-linked intellectual disability",
+        "eyelids malposition disorder",
+        "eyelids malposition disorder"
       ]
     },
     {
@@ -7429,7 +7632,8 @@
       "predicted_indication": "",
       "inn": "levocabastine",
       "predicted_indications": [
-        "allergic urticaria"
+        "allergic urticaria",
+        "rosacea conjunctivitis"
       ]
     },
     {
@@ -7483,8 +7687,14 @@
       "predicted_indication": "",
       "inn": "levothyroxine",
       "predicted_indications": [
+        "endemic goiter",
         "renal hypodysplasia/aplasia",
+        "nodular goiter (disease)",
         "bilateral renal agenesis",
+        "nontoxic goiter",
+        "lingual goiter",
+        "substernal goiter",
+        "dyshormonogenic goiter",
         "Potter sequence",
         "Carney complex"
       ]
@@ -7505,7 +7715,6 @@
         "conjunctival disorder",
         "nephrotic syndrome",
         "non-human animal disease",
-        "tinea corporis",
         "sporadic idiopathic steroid-resistant nephrotic syndrome"
       ]
     },
@@ -7569,6 +7778,7 @@
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
+        "Braddock syndrome",
         "chronic pulmonary heart disease",
         "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
       ]
@@ -7642,6 +7852,7 @@
       "inn": "loperamide",
       "predicted_indications": [
         "acute contagious conjunctivitis",
+        "amebic dysentery",
         "conjunctivitis",
         "gastroduodenitis",
         "pseudomembranous conjunctivitis",
@@ -7691,8 +7902,6 @@
         "fibroma of lung",
         "hamartoma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma",
         "lung benign neoplasm",
         "lung benign neoplasm"
       ]
@@ -7726,6 +7935,7 @@
         "malignant hypertensive renal disease",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
+        "Braddock syndrome",
         "Prinzmetal angina",
         "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
         "brain small vessel disease 1 with or without ocular anomalies"
@@ -7808,8 +8018,12 @@
       "predicted_indication": "",
       "inn": "Lusutrombopag",
       "predicted_indications": [
+        "hereditary thrombocytopenia with normal platelets",
+        "hereditary thrombocytopenia with normal platelets",
         "marcothrombocytopenia with mitral valve insufficiency",
         "marcothrombocytopenia with mitral valve insufficiency",
+        "transient neonatal thrombocytopenia",
+        "transient neonatal thrombocytopenia",
         "dense granule disease",
         "dense granule disease",
         "platelet storage pool deficiency",
@@ -8130,10 +8344,10 @@
       "predicted_indication": "",
       "inn": "methionine",
       "predicted_indications": [
+        "acne (disease)",
         "severe nonproliferative diabetic retinopathy",
         "craniostenosis cataract",
         "mature cataract",
-        "diabetes mellitus type 2 associated cataract",
         "nuclear senile cataract",
         "cortical cataract",
         "tetanic cataract",
@@ -8150,7 +8364,9 @@
       "inn": "methotrexate",
       "predicted_indications": [
         "pulmonary blastoma",
+        "primary pulmonary lymphoma",
         "well-differentiated fetal adenocarcinoma of the lung",
+        "Hodgkins lymphoma",
         "rhabdomyosarcoma (disease)",
         "parameningeal embryonal rhabdomyosarcoma",
         "botryoid-type embryonal rhabdomyosarcoma of the vagina"
@@ -8184,6 +8400,7 @@
       "predicted_indications": [
         "faciodigitogenital syndrome",
         "chondromyxoid fibroma",
+        "specific developmental disorder",
         "dysthymic disorder"
       ]
     },
@@ -8214,7 +8431,8 @@
       "predicted_indication": "",
       "inn": "metoclopramide",
       "predicted_indications": [
-        "gastroduodenitis"
+        "gastroduodenitis",
+        "peptic ulcer perforation"
       ]
     },
     {
@@ -8227,7 +8445,8 @@
       "predicted_indications": [
         "malignant hypertensive renal disease",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome"
       ]
     },
     {
@@ -8262,6 +8481,7 @@
         "punctate epithelial keratoconjunctivitis",
         "ulcerative proctosigmoiditis",
         "nocardiosis",
+        "postmenopausal atrophic vaginitis",
         "Cryptococcal meningitis",
         "papillary conjunctivitis",
         "myiasis",
@@ -8318,8 +8538,11 @@
       "inn": "mianserin",
       "predicted_indications": [
         "benign paroxysmal torticollis of infancy",
+        "dysthymic disorder",
         "agoraphobia",
-        "Ohdo syndrome and variants"
+        "Ohdo syndrome and variants",
+        "melancholia",
+        "neurotic disorder"
       ]
     },
     {
@@ -8376,6 +8599,7 @@
         "variably protease-sensitive prionopathy",
         "faciodigitogenital syndrome",
         "attention deficit-hyperactivity disorder",
+        "hypotensive disorder",
         "attention deficit hyperactivity disorder, inattentive type",
         "sinoatrial node disease",
         "monogenic obesity",
@@ -8451,8 +8675,14 @@
       "predicted_indication": "",
       "inn": "Minoxidil",
       "predicted_indications": [
+        "hypotrichosis simplex of the scalp",
+        "hypotrichosis simplex of the scalp",
         "congenital hypotrichosis milia",
         "congenital hypotrichosis milia",
+        "diffuse alopecia areata",
+        "diffuse alopecia areata",
+        "pseudopelade of Brocq",
+        "pseudopelade of Brocq",
         "pulmonary arterial hypertension",
         "pulmonary arterial hypertension"
       ]
@@ -8662,7 +8892,8 @@
         "monoclonal gammopathy",
         "hematological disease associated with an acquired peripheral neuropathy",
         "congenital hematological disorder",
-        "hematopoietic and lymphoid system neoplasm"
+        "hematopoietic and lymphoid system neoplasm",
+        "bubonic plague"
       ]
     },
     {
@@ -8680,6 +8911,7 @@
         "malignant hypertensive renal disease",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome",
         "primary hereditary glaucoma"
       ]
     },
@@ -8783,7 +9015,8 @@
       "predicted_indications": [
         "malignant hypertensive renal disease",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
-        "pulmonary hypertension with unclear multifactorial mechanism"
+        "pulmonary hypertension with unclear multifactorial mechanism",
+        "Braddock syndrome"
       ]
     },
     {
@@ -8798,8 +9031,6 @@
         "fibromatosis, gingival",
         "hamartoma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma",
         "fibroma of lung",
         "fibroma of lung",
         "pulmonary sulcus neoplasm",
@@ -8943,8 +9174,6 @@
       "predicted_indication": "",
       "inn": "NITRAZEPAM",
       "predicted_indications": [
-        "sleep disorder, initiating and maintaining sleep",
-        "sleep disorder, initiating and maintaining sleep",
         "Wernicke-Korsakoff syndrome",
         "Wernicke-Korsakoff syndrome"
       ]
@@ -9055,6 +9284,8 @@
       "predicted_indication": "",
       "inn": "Nystatin",
       "predicted_indications": [
+        "vulvovaginitis",
+        "vulvovaginitis",
         "disease of orbital region",
         "disease of orbital region",
         "disease of orbital part of eye adnexa",
@@ -9083,18 +9314,6 @@
         "infective urethral stricture",
         "otitis externa",
         "otitis externa"
-      ]
-    },
-    {
-      "name": "Obinutuzumab",
-      "file": "obinutuzumab.md",
-      "evidence_level": "L1",
-      "indication_count": 6,
-      "predicted_indication": "",
-      "inn": "OBINUTUZUMAB",
-      "predicted_indications": [
-        "follicular lymphoma",
-        "follicular lymphoma"
       ]
     },
     {
@@ -9156,7 +9375,8 @@
       "inn": "olanzapine",
       "predicted_indications": [
         "benign paroxysmal torticollis of infancy",
-        "agoraphobia"
+        "agoraphobia",
+        "dysthymic disorder"
       ]
     },
     {
@@ -9177,6 +9397,29 @@
         "migraine with brainstem aura",
         "kyphoscoliotic heart disease",
         "open-angle glaucoma"
+      ]
+    },
+    {
+      "name": "Olodaterol",
+      "file": "olodaterol.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": "",
+      "inn": "OLODATEROL",
+      "predicted_indications": [
+        "bronchitis",
+        "bronchitis"
+      ]
+    },
+    {
+      "name": "Olopatadine",
+      "file": "olopatadine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "olopatadine",
+      "predicted_indications": [
+        "rosacea conjunctivitis"
       ]
     },
     {
@@ -9213,6 +9456,8 @@
         "atopic eczema",
         "obstructive lung disease",
         "obstructive lung disease",
+        "dermatitis",
+        "dermatitis",
         "bronchial neoplasm (disease)",
         "bronchial neoplasm (disease)"
       ]
@@ -9384,7 +9629,10 @@
       "predicted_indication": "",
       "inn": "oxytetracycline",
       "predicted_indications": [
+        "chronic rhinosinusitis",
+        "chronic ethmoidal sinusitis",
         "paranasal sinus neoplasm (disease)",
+        "punctate epithelial keratoconjunctivitis",
         "postinfectious vasculitis",
         "post-bacterial disorder",
         "post-infectious syndrome",
@@ -9515,6 +9763,7 @@
       "predicted_indication": "",
       "inn": "papaverine",
       "predicted_indications": [
+        "ischemic disease",
         "intracranial arteriosclerosis",
         "non-inflammatory vasculopathy",
         "vascular ectasia",
@@ -9522,6 +9771,7 @@
         "fibrocartilaginous embolism",
         "vascular insufficiency disorder",
         "angiodysplasia",
+        "Raynaud disease",
         "Monckeberg arteriosclerosis"
       ]
     },
@@ -9592,6 +9842,18 @@
       "inn": "paroxetine",
       "predicted_indications": [
         "Ohdo syndrome and variants"
+      ]
+    },
+    {
+      "name": "Pazopanib",
+      "file": "pazopanib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": "",
+      "inn": "Pazopanib",
+      "predicted_indications": [
+        "liposarcoma",
+        "liposarcoma"
       ]
     },
     {
@@ -9736,8 +9998,6 @@
         "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
         "hamartoma of lung",
         "hamartoma of lung",
-        "lung hilum carcinoma",
-        "lung hilum carcinoma",
         "fibroma of lung",
         "fibroma of lung"
       ]
@@ -9806,7 +10066,6 @@
         "manic bipolar affective disorder",
         "hypervitaminosis",
         "proximal 16p11.2 microdeletion syndrome",
-        "sleep disorder, initiating and maintaining sleep",
         "obsolete hypertelorism (disease)",
         "major affective disorder",
         "frontorhiny",
@@ -9842,6 +10101,8 @@
       "predicted_indication": "",
       "inn": "Permethrin",
       "predicted_indications": [
+        "trombiculiasis",
+        "trombiculiasis",
         "lip neoplasm",
         "lip neoplasm",
         "lower lip fistula",
@@ -9951,6 +10212,7 @@
       "predicted_indication": "",
       "inn": "phenylephrine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
         "trigeminal autonomic cephalalgia"
       ]
@@ -9963,7 +10225,9 @@
       "predicted_indication": "",
       "inn": "phenylpropanolamine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
+        "rosacea conjunctivitis",
         "faucial diphtheria",
         "cervical disc degenerative disorder"
       ]
@@ -9996,6 +10260,8 @@
       "predicted_indication": "",
       "inn": "PIMECROLIMUS",
       "predicted_indications": [
+        "seborrheic dermatitis",
+        "seborrheic dermatitis",
         "exanthem (disease)",
         "exanthem (disease)",
         "acrodermatitis chronica atrophicans",
@@ -10089,6 +10355,7 @@
       "inn": "piperaquine",
       "predicted_indications": [
         "cystic echinococcosis",
+        "Plasmodium vivax malaria",
         "echinococcus granulosus infectious disease"
       ]
     },
@@ -10471,6 +10738,7 @@
         "faciodigitogenital syndrome",
         "transaldolase deficiency",
         "progressive supranuclear palsy-corticobasal syndrome",
+        "paralysis agitans, juvenile, of Hunt",
         "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
         "fructose-1,6-bisphosphatase deficiency"
       ]
@@ -10487,7 +10755,10 @@
         "breast fibrocystic disease",
         "benign mammary dysplasia",
         "renal hypoplasia, bilateral",
+        "cervix endometriosis",
         "renal hypoplasia (disease)",
+        "endometriosis of rectovaginal septum and vagina",
+        "endometriosis in cutaneous scar",
         "blunt duct adenosis of breast",
         "apocrine adenosis of breast"
       ]
@@ -10552,6 +10823,8 @@
       "predicted_indications": [
         "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
         "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+        "neonatal thyrotoxicosis",
+        "neonatal thyrotoxicosis",
         "hyperthyroxinemia",
         "hyperthyroxinemia"
       ]
@@ -10564,6 +10837,7 @@
       "predicted_indication": "",
       "inn": "pseudoephedrine",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis",
         "allergic urticaria"
       ]
@@ -10596,8 +10870,21 @@
       "predicted_indication": "",
       "inn": "pyridostigmine",
       "predicted_indications": [
+        "autoimmune disease of peripheral nervous system",
+        "disease of receptor activity",
         "hypersplenism (disease)",
         "atypical hemolytic-uremic syndrome with B factor anomaly"
+      ]
+    },
+    {
+      "name": "Rabeprazole",
+      "file": "rabeprazole.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": "",
+      "inn": "rabeprazole",
+      "predicted_indications": [
+        "lymphoadenopathic mastocytosis with eosinophilia"
       ]
     },
     {
@@ -10660,7 +10947,9 @@
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
-        "malignant hypertensive renal disease"
+        "malignant hypertensive renal disease",
+        "Braddock syndrome",
+        "Braddock syndrome"
       ]
     },
     {
@@ -10897,9 +11186,13 @@
       "predicted_indication": "",
       "inn": "RIBAVIRIN",
       "predicted_indications": [
+        "chronic hepatitis B virus infection",
+        "chronic hepatitis B virus infection",
         "early-onset familial noncirrhotic portal hypertension",
         "hepatopulmonary syndrome",
+        "idiopathic copper-associated cirrhosis",
         "hepatoportal sclerosis",
+        "idiopathic copper-associated cirrhosis",
         "hepatopulmonary syndrome",
         "early-onset familial noncirrhotic portal hypertension",
         "primitive portal vein thrombosis"
@@ -11080,6 +11373,8 @@
       "predicted_indication": "",
       "inn": "RISANKIZUMAB",
       "predicted_indications": [
+        "dermatitis",
+        "dermatitis",
         "neonatal dermatomyositis",
         "neonatal dermatomyositis",
         "amyopathic dermatomyositis",
@@ -11122,7 +11417,8 @@
         "asperger syndrome, susceptibility to",
         "amelocerebrohypohidrotic syndrome",
         "Phelan-McDermid syndrome",
-        "trichotillomania"
+        "trichotillomania",
+        "major affective disorder"
       ]
     },
     {
@@ -11446,6 +11742,7 @@
         "papillary conjunctivitis",
         "nasal cavity disease",
         "pharyngitis",
+        "bronchitis",
         "acute laryngopharyngitis",
         "anaphylaxis",
         "common cold",
@@ -11496,6 +11793,8 @@
       "inn": "sapropterin",
       "predicted_indications": [
         "disorder of tyrosine metabolism",
+        "teratogenic Pierre Robin syndrome",
+        "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria",
         "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"
       ]
     },
@@ -11532,7 +11831,9 @@
         "Hurler syndrome",
         "Hurler syndrome",
         "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant",
-        "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+        "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant",
+        "cholesteryl ester storage disease",
+        "cholesteryl ester storage disease"
       ]
     },
     {
@@ -11672,6 +11973,7 @@
         "schizotypal personality disorder",
         "paranoid personality disorder",
         "benign paroxysmal torticollis of infancy",
+        "agoraphobia",
         "dependent personality disorder",
         "narcissistic personality disorder"
       ]
@@ -12031,6 +12333,17 @@
       ]
     },
     {
+      "name": "Sulfamethoxazole",
+      "file": "sulfamethoxazole.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "sulfamethoxazole",
+      "predicted_indications": [
+        "acute contagious conjunctivitis"
+      ]
+    },
+    {
       "name": "Sulfasalazine",
       "file": "sulfasalazine.md",
       "evidence_level": "L5",
@@ -12045,6 +12358,7 @@
         "osteoarthritis",
         "WHIM syndrome",
         "acromesomelic dysplasia, Hunter-Thompson type",
+        "spondyloarthropathy, susceptibility to",
         "brachyolmia-amelogenesis imperfecta syndrome",
         "myosclerosis"
       ]
@@ -12107,6 +12421,8 @@
       "predicted_indication": "",
       "inn": "TACROLIMUS",
       "predicted_indications": [
+        "seborrheic dermatitis",
+        "seborrheic dermatitis",
         "parapsoriasis",
         "parapsoriasis"
       ]
@@ -12275,17 +12591,6 @@
       ]
     },
     {
-      "name": "Tazobactam",
-      "file": "tazobactam.md",
-      "evidence_level": "L5",
-      "indication_count": 2,
-      "predicted_indication": "",
-      "inn": "tazobactam",
-      "predicted_indications": [
-        "urinary tract infection (disease)"
-      ]
-    },
-    {
       "name": "Tecovirimat",
       "file": "tecovirimat.md",
       "evidence_level": "L5",
@@ -12378,6 +12683,8 @@
         "brain stem infarction",
         "ABri amyloidosis",
         "ABri amyloidosis",
+        "cerebral artery occlusion",
+        "cerebral artery occlusion",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism"
       ]
@@ -12631,6 +12938,9 @@
       "predicted_indication": "",
       "inn": "tetracycline",
       "predicted_indications": [
+        "punctate epithelial keratoconjunctivitis",
+        "chronic ethmoidal sinusitis",
+        "chronic rhinosinusitis",
         "paranasal sinus neoplasm (disease)"
       ]
     },
@@ -12679,7 +12989,6 @@
         "nasal cavity disease",
         "laryngotracheitis",
         "tracheal disease",
-        "pharyngitis",
         "acute laryngopharyngitis"
       ]
     },
@@ -12691,10 +13000,7 @@
       "predicted_indication": "",
       "inn": "thiamine",
       "predicted_indications": [
-        "hyperthyroidism",
-        "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
-        "primary hereditary glaucoma",
-        "open-angle glaucoma"
+        "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
       ]
     },
     {
@@ -12798,8 +13104,12 @@
         "intracranial arteriosclerosis",
         "Monckeberg arteriosclerosis",
         "Monckeberg arteriosclerosis",
+        "priapism",
+        "priapism",
         "ischemic disease",
-        "ischemic disease"
+        "ischemic disease",
+        "May-Thurner syndrome",
+        "May-Thurner syndrome"
       ]
     },
     {
@@ -12884,6 +13194,7 @@
         "obstructive lung disease",
         "respiratory malformation",
         "Rienhoff syndrome",
+        "hyperlucent lung",
         "tracheal stenosis",
         "susceptibility to respiratory infections associated with CD8alpha chain mutation"
       ]
@@ -12990,6 +13301,10 @@
       "predicted_indication": "",
       "inn": "Tobramycin",
       "predicted_indications": [
+        "exposure keratitis",
+        "exposure keratitis",
+        "non-human animal disease",
+        "non-human animal disease",
         "otitis externa",
         "otitis externa",
         "postinfectious vasculitis",
@@ -13006,6 +13321,12 @@
       "predicted_indication": "",
       "inn": "TOCILIZUMAB",
       "predicted_indications": [
+        "ankylosing spondylitis",
+        "ankylosing spondylitis",
+        "hypermobility of coccyx",
+        "hypermobility of coccyx",
+        "spondyloarthropathy, susceptibility to",
+        "spondyloarthropathy, susceptibility to",
         "inflammatory spondylopathy",
         "inflammatory spondylopathy"
       ]
@@ -13026,7 +13347,8 @@
         "Lewy body dementia",
         "X-linked intellectual disability-ataxia-apraxia syndrome",
         "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
-        "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+        "X-linked intellectual disability-cerebellar hypoplasia syndrome",
+        "paralysis agitans, juvenile, of Hunt"
       ]
     },
     {
@@ -13155,7 +13477,9 @@
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome",
+        "Braddock syndrome"
       ]
     },
     {
@@ -13168,8 +13492,11 @@
       "predicted_indications": [
         "benign paroxysmal torticollis of infancy",
         "Ohdo syndrome and variants",
+        "dysthymic disorder",
         "agoraphobia",
+        "melancholia",
         "blepharophimosis - intellectual disability syndrome, Ohdo type",
+        "neurotic disorder",
         "ligneous conjunctivitis",
         "Keppen-Lubinsky syndrome"
       ]
@@ -13299,18 +13626,6 @@
       ]
     },
     {
-      "name": "Triazolam",
-      "file": "triazolam.md",
-      "evidence_level": "L5",
-      "indication_count": 2,
-      "predicted_indication": "",
-      "inn": "TRIAZOLAM",
-      "predicted_indications": [
-        "sleep disorder, initiating and maintaining sleep",
-        "sleep disorder, initiating and maintaining sleep"
-      ]
-    },
-    {
       "name": "Trifarotene",
       "file": "trifarotene.md",
       "evidence_level": "L5",
@@ -13320,6 +13635,18 @@
       "predicted_indications": [
         "zinc, elevated plasma",
         "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      ]
+    },
+    {
+      "name": "Trimethoprim",
+      "file": "trimethoprim.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": "",
+      "inn": "TRIMETHOPRIM",
+      "predicted_indications": [
+        "punctate epithelial keratoconjunctivitis",
+        "punctate epithelial keratoconjunctivitis"
       ]
     },
     {
@@ -13541,6 +13868,8 @@
       "predicted_indication": "",
       "inn": "USTEKINUMAB",
       "predicted_indications": [
+        "dermatitis",
+        "dermatitis",
         "neonatal dermatomyositis",
         "neonatal dermatomyositis",
         "acne keloid",
@@ -13584,7 +13913,9 @@
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "pulmonary hypertension owing to lung disease and/or hypoxia"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome",
+        "Braddock syndrome"
       ]
     },
     {
@@ -13677,8 +14008,6 @@
       "predicted_indications": [
         "Hodgkins lymphoma",
         "Hodgkins lymphoma",
-        "myeloid leukemia",
-        "myeloid leukemia",
         "chronic myelogenous leukemia, BCR-ABL1 positive",
         "chronic myelogenous leukemia, BCR-ABL1 positive"
       ]
@@ -13695,6 +14024,7 @@
         "malignant hypertensive renal disease",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
+        "Braddock syndrome",
         "periodic paralysis with transient compartment-like syndrome"
       ]
     },
@@ -13734,6 +14064,14 @@
       "predicted_indication": "",
       "inn": "Vestronidase alfa",
       "predicted_indications": [
+        "Scheie syndrome",
+        "Scheie syndrome",
+        "lysosomal storage disease with skeletal involvement",
+        "lysosomal storage disease with skeletal involvement",
+        "Hurler syndrome",
+        "Hurler syndrome",
+        "Sanfilippo syndrome",
+        "Sanfilippo syndrome",
         "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye",
         "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"
       ]
@@ -13766,6 +14104,7 @@
       "predicted_indication": "",
       "inn": "vilanterol",
       "predicted_indications": [
+        "hyperlucent lung",
         "tracheal stenosis",
         "bronchial neoplasm (disease)",
         "respiratory malformation",
@@ -13910,7 +14249,10 @@
       "predicted_indication": "",
       "inn": "vortioxetine",
       "predicted_indications": [
-        "benign paroxysmal torticollis of infancy"
+        "neurotic disorder",
+        "melancholia",
+        "benign paroxysmal torticollis of infancy",
+        "dysthymic disorder"
       ]
     },
     {
@@ -13962,6 +14304,7 @@
       "inn": "warfarin",
       "predicted_indications": [
         "heparin cofactor 2 deficiency",
+        "factor 5 excess with spontaneous thrombosis",
         "antithrombin deficiency type 2",
         "thrombophilia",
         "rheumatoid arthritis",
@@ -13991,6 +14334,7 @@
       "predicted_indication": "",
       "inn": "xylometazoline",
       "predicted_indications": [
+        "nasal cavity disease",
         "acute laryngopharyngitis"
       ]
     },
@@ -14022,6 +14366,8 @@
       "predicted_indication": "",
       "inn": "Zanubrutinib",
       "predicted_indications": [
+        "myeloid leukemia",
+        "myeloid leukemia",
         "vertebral anomalies and variable endocrine and T-cell dysfunction",
         "vertebral anomalies and variable endocrine and T-cell dysfunction",
         "ganglioneuroblastoma (disease)",
@@ -14076,6 +14422,7 @@
       "predicted_indications": [
         "trichotillomania",
         "hydranencephaly (disease)",
+        "major affective disorder",
         "congenital disorder of glycosylation with defective fucosylation",
         "myopia X-linked",
         "retinal dystrophy with or without extraocular anomalies",
