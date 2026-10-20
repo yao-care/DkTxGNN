@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Venetoclax: forudsagt ny indikation CLL/SLL med IGHV-somatisk hypermutation (evidensniveau L4). Oprindelig indikation: Akut lymfatisk/lymfocytær leukæmi og Richters syndrom"
 monitor_inn: "VENETOCLAX"
-predicted_indications: ["Hodgkins lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "chronic myelogenous leukemia, BCR-ABL1 positive"]
+predicted_indications: ["Hodgkins lymphoma", "Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "chronic myelogenous leukemia, BCR-ABL1 positive"]
 ---
 
 # Venetoclax

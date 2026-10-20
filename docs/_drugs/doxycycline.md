@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doxycycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L4). Oprindelig indikation: Bronkitis, acne, bakteriel lungebetændelse, miltbrand…"
 monitor_inn: "doxycycline"
-predicted_indications: ["otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 ---
 
 # Doxycycline

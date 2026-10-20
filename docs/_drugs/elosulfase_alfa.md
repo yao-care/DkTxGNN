@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose (MPS IVA, Morquio A syndrom)"
 monitor_inn: "Elosulfase alfa"
-predicted_indications: ["camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"]
+predicted_indications: ["Scheie syndrome", "Scheie syndrome", "lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Hurler syndrome", "Sanfilippo syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"]
 ---
 
 # Elosulfase Alfa

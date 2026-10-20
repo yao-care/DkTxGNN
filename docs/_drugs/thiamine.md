@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Thiamine: forudsagt ny indikation Hyperthyroidisme (evidensniveau L3). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "thiamine"
-predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
 
 # Thiamine

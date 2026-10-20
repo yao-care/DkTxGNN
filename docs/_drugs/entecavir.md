@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Entecavir: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis B-virusinfektion"
 monitor_inn: "ENTECAVIR"
-predicted_indications: ["HIV infectious disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["chronic hepatitis C virus infection", "chronic hepatitis C virus infection", "HIV infectious disease", "HIV infectious disease", "hepatitis C virus infection", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Entecavir

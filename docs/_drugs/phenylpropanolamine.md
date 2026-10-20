@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, forkølelse…"
 monitor_inn: "phenylpropanolamine"
-predicted_indications: ["acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Phenylpropanolamine

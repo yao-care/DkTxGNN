@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tobramycin: forudsagt ny indikation Eksponeringskeratitis (evidensniveau L5). Oprindelig indikation: Bakteriel meningitis, uveitis, konjunktivitis…"
 monitor_inn: "Tobramycin"
-predicted_indications: ["otitis externa", "otitis externa", "postinfectious vasculitis", "postinfectious vasculitis", "post-bacterial disorder", "post-bacterial disorder"]
+predicted_indications: ["exposure keratitis", "exposure keratitis", "non-human animal disease", "non-human animal disease", "otitis externa", "otitis externa", "postinfectious vasculitis", "postinfectious vasculitis", "post-bacterial disorder", "post-bacterial disorder"]
 ---
 
 # Tobramycin

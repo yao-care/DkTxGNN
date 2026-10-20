@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doxorubicin: forudsagt ny indikation Ewing-sarkom (evidensniveau L5). Oprindelig indikation: Akut lymfatisk leukæmi, Hodgkin- og non-Hodgkin-lymfom…"
 monitor_inn: "doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
 ---
 
 # Doxorubicin

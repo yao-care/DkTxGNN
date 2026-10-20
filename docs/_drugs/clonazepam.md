@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Clonazepam: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Early myoclonic encephalopathy, absence-epilepsi…"
 monitor_inn: "CLONAZEPAM"
-predicted_indications: ["restless legs syndrome", "restless legs syndrome", "trigeminal nerve neoplasm", "trigeminal nerve neoplasm"]
+predicted_indications: ["restless legs syndrome", "restless legs syndrome", "insomnia (disease)", "insomnia (disease)", "trigeminal nerve neoplasm", "trigeminal nerve neoplasm"]
 ---
 
 # Clonazepam

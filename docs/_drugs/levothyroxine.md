@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levothyroxine: forudsagt ny indikation Endemisk struma (evidensniveau L3). Oprindelig indikation: Hypothyreose (godkendt indikationstekst er ikke angivet for den dansk…"
 monitor_inn: "levothyroxine"
-predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
+predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "nontoxic goiter", "lingual goiter", "substernal goiter", "dyshormonogenic goiter", "Potter sequence", "Carney complex"]
 ---
 
 # Levothyroxine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ergocalciferol: forudsagt ny indikation Renal osteodystrofi (evidensniveau L3). Oprindelig indikation: Osteoporose, D-vitaminmangel, rakitis, osteomalaci…"
 monitor_inn: "ergocalciferol"
-predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "calcium-alkali syndrome"]
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome", "vitamin D-dependent rickets"]
 ---
 
 # Ergocalciferol

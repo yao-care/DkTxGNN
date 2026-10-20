@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluoxetine: forudsagt ny indikation Skizotypisk personlighedsforstyrrelse (evidensniveau L3). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthymi, bipolar lidelse…"
 monitor_inn: "fluoxetine"
-predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants"]
+predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants", "melancholia"]
 ---
 
 # Fluoxetine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sulfasalazine: forudsagt ny indikation Slidgigt (osteoarthritis) (evidensniveau L5). Oprindelig indikation: Leddegigt, colitis ulcerosa, inflammatorisk tarmsygdom…"
 monitor_inn: "sulfasalazine"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Sulfasalazine

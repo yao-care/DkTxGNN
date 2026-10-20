@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Benazepril: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk)"
 monitor_inn: "benazepril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 ---
 
 # Benazepril

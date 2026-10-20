@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Piperaquine: forudsagt ny indikation Plasmodium vivax-malaria (evidensniveau L1). Oprindelig indikation: Malaria"
 monitor_inn: "piperaquine"
-predicted_indications: ["cystic echinococcosis", "echinococcus granulosus infectious disease"]
+predicted_indications: ["cystic echinococcosis", "Plasmodium vivax malaria", "echinococcus granulosus infectious disease"]
 ---
 
 # Piperaquine

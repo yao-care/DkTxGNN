@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Epirubicin: forudsagt ny indikation Småcellet lungekarcinom (evidensniveau L5). Oprindelig indikation: Brystkarcinom / brystneoplasi (angivet i vidensgrafen"
 monitor_inn: "epirubicin"
-predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "upper aerodigestive tract neoplasm"]
+predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 ---
 
 # Epirubicin

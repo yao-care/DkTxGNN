@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). Oprindelig indikation: Epilepsi, søvnløshed, status epilepticus, hjerneiskæmi…"
 monitor_inn: "pentobarbital"
-predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "sleep disorder, initiating and maintaining sleep", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
+predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
 ---
 
 # Pentobarbital

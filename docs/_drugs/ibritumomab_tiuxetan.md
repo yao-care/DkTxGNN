@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ibritumomab Tiuxetan: forudsagt ny indikation Akut lymfoblastær/lymfocytær leukæmi (evidensniveau L5). Oprindelig indikation: Follikulært lymfom og neoplasme i modne B-celler"
 monitor_inn: "ibritumomab tiuxetan"
-predicted_indications: ["small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "mantle cell lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
+predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "mantle cell lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
 ---
 
 # Ibritumomab Tiuxetan

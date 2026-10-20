@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Burosumab: forudsagt ny indikation Renal osteodystrofi (evidensniveau L5). Oprindelig indikation: Arvelig hypofosfatæmisk rakitis"
 monitor_inn: "Burosumab"
-predicted_indications: ["renal osteodystrophy", "renal osteodystrophy", "impaired renal function disease", "impaired renal function disease", "non-renal secondary hyperparathyroidism", "non-renal secondary hyperparathyroidism", "hyperparathyroidism, transient neonatal", "hyperparathyroidism, transient neonatal"]
+predicted_indications: ["renal osteodystrophy", "renal osteodystrophy", "impaired renal function disease", "impaired renal function disease", "non-renal secondary hyperparathyroidism", "non-renal secondary hyperparathyroidism", "bone remodeling disease", "bone remodeling disease", "hyperparathyroidism, transient neonatal", "hyperparathyroidism, transient neonatal"]
 ---
 
 # Burosumab

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Isocarboxazid: forudsagt ny indikation Benign paroksystisk torticollis hos spædbørn (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression…"
 monitor_inn: "Isocarboxazid"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "benign paroxysmal torticollis of infancy", "agoraphobia", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "benign paroxysmal torticollis of infancy", "agoraphobia", "agoraphobia", "obsessive-compulsive disorder", "obsessive-compulsive disorder", "neurotic disorder", "neurotic disorder", "phobic disorder", "phobic disorder"]
 ---
 
 # Isocarboxazid

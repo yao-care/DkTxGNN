@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Citalopram: forudsagt ny indikation Obsessiv-kompulsiv lidelse (OCD) (evidensniveau L2). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthymi, unipolar depression…"
 monitor_inn: "citalopram"
-predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
+predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
 ---
 
 # Citalopram

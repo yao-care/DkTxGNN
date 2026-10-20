@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Risankizumab: forudsagt ny indikation Dermatitis (primært atopisk dermatitis i de identificerede studier) (evidensniveau L2). Oprindelig indikation: Psoriasis og parapsoriasis"
 monitor_inn: "RISANKIZUMAB"
-predicted_indications: ["neonatal dermatomyositis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans", "acne keloid", "acne keloid"]
+predicted_indications: ["dermatitis", "dermatitis", "neonatal dermatomyositis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans", "acne keloid", "acne keloid"]
 ---
 
 # Risankizumab

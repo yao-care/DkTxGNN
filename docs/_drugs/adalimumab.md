@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Adalimumab: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Reumatoid artrit, Crohns sygdom, colitis ulcerosa, psoriasisartrit…"
 monitor_inn: "ADALIMUMAB"
-predicted_indications: ["inflammatory spondylopathy", "inflammatory spondylopathy"]
+predicted_indications: ["hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
 ---
 
 # Adalimumab

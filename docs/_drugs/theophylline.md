@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Theophylline: forudsagt ny indikation Trombotisk sygdom (evidensniveau L5). Oprindelig indikation: Astma, kronisk bronkitis…"
 monitor_inn: "theophylline"
-predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
+predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "acute laryngopharyngitis"]
 ---
 
 # Theophylline

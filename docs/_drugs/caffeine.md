@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Caffeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Den videnbaserede…"
 monitor_inn: "caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
 ---
 
 # Caffeine

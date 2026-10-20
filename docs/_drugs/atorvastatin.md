@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Atorvastatin: forudsagt ny indikation Familiær hypercholesterolæmi (evidensniveau L1). Oprindelig indikation: Hyperlipidæmi/hypertriglyceridæmi…"
 monitor_inn: "atorvastatin"
-predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Atorvastatin

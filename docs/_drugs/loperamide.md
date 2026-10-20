@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (evidensniveau L5). Oprindelig indikation: Diarré og dysenteri (ifølge TxGNN-vidensgrafen"
 monitor_inn: "loperamide"
-predicted_indications: ["acute contagious conjunctivitis", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
+predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 ---
 
 # Loperamide

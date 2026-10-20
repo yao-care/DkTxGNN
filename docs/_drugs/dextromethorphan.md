@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Dextromethorphan: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse. Videnbasen nævner…"
 monitor_inn: "dextromethorphan"
-predicted_indications: ["acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 ---
 
 # Dextromethorphan

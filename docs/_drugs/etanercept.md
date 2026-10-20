@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Etanercept: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Psoriasisartrit, leddegigt, Bechterews sygdom…"
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["inflammatory spondylopathy", "inflammatory spondylopathy"]
+predicted_indications: ["hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
 ---
 
 # Etanercept

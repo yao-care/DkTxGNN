@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bimatoprost: forudsagt ny indikation Misdannelsessyndrom med tand- og/eller parodontalkomponent (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom, okulær hypertension, hypertrikose i øje…"
 monitor_inn: "Bimatoprost"
-predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp"]
 ---
 
 # Bimatoprost

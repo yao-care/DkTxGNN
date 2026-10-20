@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ustekinumab: forudsagt ny indikation Dermatitis (primært atopisk dermatitis) (evidensniveau L2). Oprindelig indikation: Psoriasis…"
 monitor_inn: "USTEKINUMAB"
-predicted_indications: ["neonatal dermatomyositis", "neonatal dermatomyositis", "acne keloid", "acne keloid", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "amyopathic dermatomyositis"]
+predicted_indications: ["dermatitis", "dermatitis", "neonatal dermatomyositis", "neonatal dermatomyositis", "acne keloid", "acne keloid", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "amyopathic dermatomyositis"]
 ---
 
 # Ustekinumab

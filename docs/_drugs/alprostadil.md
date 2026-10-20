@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alprostadil: forudsagt ny indikation Aortamisdannelse (aortic malformation) (evidensniveau L3). Oprindelig indikation: Erektil dysfunktion, psykologisk dyspareuni, for tidlig udløsning…"
 monitor_inn: "Alprostadil"
-predicted_indications: ["congenital tricuspid stenosis", "congenital tricuspid stenosis", "congenital valvular dysplasia", "congenital valvular dysplasia", "tricuspid valve agenesis", "straddling or overriding tricuspid valve", "straddling or overriding tricuspid valve", "tricuspid valve agenesis"]
+predicted_indications: ["aortic malformation", "aortic malformation", "congenital tricuspid stenosis", "congenital tricuspid stenosis", "congenital valvular dysplasia", "congenital valvular dysplasia", "tricuspid valve agenesis", "straddling or overriding tricuspid valve", "straddling or overriding tricuspid valve", "tricuspid valve agenesis"]
 ---
 
 # Alprostadil

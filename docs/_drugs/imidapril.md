@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imidapril: forudsagt ny indikation Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk). Det danske godkendelses…"
 monitor_inn: "imidapril"
-predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 ---
 
 # Imidapril

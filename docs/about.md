@@ -91,7 +91,7 @@ sjældne sygdomme."
 <tr><th>Type</th><th>Kilde</th><th>Beskrivelse</th></tr>
 </thead>
 <tbody>
-<tr><td>AI-forudsigelse</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvards videngrafbaserede forudsigelsesmodel</td></tr>
+<tr><td>AI-forudsigelse</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvards grafbaserede neurale netværk, trænet på en videngraf</td></tr>
 <tr><td>Kliniske forsøg</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Globalt register over kliniske forsøg</td></tr>
 <tr><td>Litteratur</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Database over biomedicinsk litteratur</td></tr>
 <tr><td>Lægemiddelinformation</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Database over lægemidler og targets</td></tr>

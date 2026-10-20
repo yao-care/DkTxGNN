@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Clotrimazole: forudsagt ny indikation Acne (evidensniveau L5). Oprindelig indikation: Tinea pedis, tinea corporis, kutan candidiasis, pityriasis versicolor…"
 monitor_inn: "clotrimazole"
-predicted_indications: ["acne (disease)"]
+predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Clotrimazole

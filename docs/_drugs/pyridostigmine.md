@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pyridostigmine: forudsagt ny indikation Myasthenia gravis med thymushyperplasi (evidensniveau L3). Oprindelig indikation: Myasthenia gravis"
 monitor_inn: "pyridostigmine"
-predicted_indications: ["hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 ---
 
 # Pyridostigmine
