@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Idelalisib med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Zydelig (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Mantelcellelymfom (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/idelalisib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

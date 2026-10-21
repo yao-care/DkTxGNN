@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Nystatin med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L3</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Mycostatin (Paranova Danmark A/S) | Oral suspension | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Vulvovaginitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nystatin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

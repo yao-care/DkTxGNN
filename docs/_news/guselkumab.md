@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Guselkumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Guselkumab. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Guselkumab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/guselkumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/guselkumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Guselkumab?">
-<strong>Guselkumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Guselkumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Guselkumab med de senest
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L1</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Tremfya (Janssen-Cilag International NV) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Psoriasis (allerede godkendt indikation) (99.8%)</li>
+<li>Lægemiddelinduceret osteoporose (99.8%)</li>
+<li>Svær non-proliferativ diabetisk retinopati (99.8%)</li>
+<li>Diabetisk retinopati (99.7%)</li>
+<li>Renal osteodystrofi (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/guselkumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

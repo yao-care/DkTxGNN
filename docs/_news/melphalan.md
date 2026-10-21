@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Melphalan med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Alkeran (Aspen Pharma Trading Limited) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de sammenstillede data (99.0%)</li>
+<li>Gonadal kimcelletumor (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/melphalan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

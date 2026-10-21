@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Pertuzumab med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L1</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Perjeta (Roche Registration GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Progesteronreceptor-positiv brystkræft (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pertuzumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

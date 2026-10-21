@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Eculizumab med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>BEKEMV (Amgen Technology (Ireland) Unlimited Company) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de samlede data (99.0%)</li>
+<li>Cyklisk hæmatopoese (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/eculizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

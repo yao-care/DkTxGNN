@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Tamoxifen med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Tamoxifen "Viatris" (Viatris Limited) | Tabletter | Ikke angivet i de indsamlede data (99.0%)</li>
+<li>Mammær Pagets sygdom (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tamoxifen/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

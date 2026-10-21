@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Axitinib med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Axitinib "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusioner (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/axitinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

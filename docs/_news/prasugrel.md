@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Prasugrel med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L3</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Prasugrel "Epione" (Epione Medicine ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Migræne (migraine disorder) (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/prasugrel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

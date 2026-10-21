@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Pemetrexed med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Armisarte (Actavis Group PTC ehf.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li>Malignt peritonealt mesoteliom (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pemetrexed/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

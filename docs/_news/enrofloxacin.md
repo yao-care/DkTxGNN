@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Enrofloxacin med de sene
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Baytril Vet. (Elanco Animal Health GmbH) | Injektionsvæske, opløsning | Ikke angivet i de tilgængelige data (99.0%)</li>
+<li>Hjertesygdom (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/enrofloxacin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

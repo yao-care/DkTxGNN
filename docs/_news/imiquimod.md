@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Imiquimod"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Imiquimod. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Imiquimod. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/imiquimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/imiquimod/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Imiquimod?">
-<strong>Imiquimod</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Imiquimod</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Imiquimod med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Aldara (Viatris Healthcare Limited) | Creme | Indikationstekst er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Præmalignt neoplasme (99.9%)</li>
+<li>Benign neoplasme i kindslimhinden (99.9%)</li>
+<li>Odontogen cyste (99.9%)</li>
+<li>Benign neoplasme i tungen (99.9%)</li>
+<li>Cervikalt neuroblastom (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/imiquimod/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

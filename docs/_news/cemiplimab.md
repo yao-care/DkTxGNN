@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Cemiplimab med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Libtayo (Regeneron Ireland Designated Activity Company) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Adenoskvamøst karcinom i galdeblæren (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cemiplimab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

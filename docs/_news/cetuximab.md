@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Cetuximab med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Erbitux (Merck Europe B.V.) | Infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Duktal eller duktulær proliferation (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetuximab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

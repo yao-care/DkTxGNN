@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Cabazitaxel med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Cabazitaxel "Accord" (Accord Healthcare S.L.U.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Kvindelig brystkræft (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabazitaxel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

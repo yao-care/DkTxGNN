@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Allopurinol med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Allopurinol "Accord" (Accord Healthcare B.V.) | Tabletter | Indikationstekst ikke angivet (99.0%)</li>
+<li>Hepatisk porfyri (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/allopurinol/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

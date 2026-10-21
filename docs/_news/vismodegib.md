@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Vismodegib med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Erivedge (Roche Registration GmbH) | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Medulloblastom med udtalt nodularitet (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/vismodegib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

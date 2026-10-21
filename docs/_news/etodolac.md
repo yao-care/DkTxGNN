@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Etodolac med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Etodolac "2care4" (2care4 Generics ApS) | Filmovertrukne tabletter | Indikationstekst er ikke angivet (99.0%)</li>
+<li>Akromesomelisk dysplasi, Hunter-Thompson-type (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/etodolac/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

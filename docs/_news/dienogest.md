@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Dienogest med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Dienogest "Besins" | Tabletter | Ikke angivet i de indsamlede data (99.0%)</li>
+<li>Amenoré (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dienogest/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

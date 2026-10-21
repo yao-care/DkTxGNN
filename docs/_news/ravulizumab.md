@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Ravulizumab"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Ravulizumab. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Ravulizumab. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/ravulizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ravulizumab/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Ravulizumab?">
-<strong>Ravulizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Ravulizumab</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Ravulizumab med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Ultomiris (Alexion Europe SAS) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de udarbejdede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel (100.0%)</li>
+<li>Cyklisk hæmatopoese (cyklisk neutropeni) (99.9%)</li>
+<li>Primær hyperoxaluri (99.9%)</li>
+<li>Svær medfødt neutropeni (99.9%)</li>
+<li>Autosomal recessiv svær medfødt neutropeni på grund af CXCR2-mangel (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ravulizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

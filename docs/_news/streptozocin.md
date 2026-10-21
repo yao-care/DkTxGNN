@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Streptozocin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Streptozocin. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Streptozocin. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/streptozocin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/streptozocin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Streptozocin?">
-<strong>Streptozocin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Streptozocin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Streptozocin med de sene
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Zanosar (Esteve Pharmaceuticals S.A.S.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Relapsing-remitting multipel sklerose (100.0%)</li>
+<li>Småcellet lungekarcinom (100.0%)</li>
+<li>Pulmonalt blastom (100.0%)</li>
+<li>Velddifferentieret føtal adenokarcinom i lungen (100.0%)</li>
+<li>Arveligt bryst- og ovariekræftsyndrom (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/streptozocin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Bimatoprost med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Bimatoprost "Pharmathen" (Pharmathen S.A.) | Øjendråber, opløsning | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Misdannelsessyndrom med tand- og/eller parodontalkomponent (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bimatoprost/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

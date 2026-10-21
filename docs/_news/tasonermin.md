@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tasonermin"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tasonermin. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Tasonermin. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/tasonermin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tasonermin/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tasonermin?">
-<strong>Tasonermin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Tasonermin</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Tasonermin med de senest
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Beromun (BELPHARMA s.a.) | Pulver og solvens til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Urotelialt karcinom i den prostatiske urinrør (99.8%)</li>
+<li>Sarkomatoidt overgangscellekarcinom i nyrebækkenet (99.8%)</li>
+<li>Infiltrerende urotelialt blærekarcinom, sarkomatoid variant (99.8%)</li>
+<li>Papillært urotelialt karcinom i nyrebækkenet (99.8%)</li>
+<li>HER2-positivt brystkarcinom (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tasonermin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

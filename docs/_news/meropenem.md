@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Meropenem"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Meropenem. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Meropenem. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/meropenem/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/meropenem/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Meropenem?">
-<strong>Meropenem</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Meropenem</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Meropenem med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L3</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Merocarb (Antibiotice S.A.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Bakteriel artritis (99.9%)</li>
+<li>*Staphylococcus aureus*-infektion (99.8%)</li>
+<li>Paratyfus (99.6%)</li>
+<li>Epiglottitis (99.9%)</li>
+<li>Laryngitis (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/meropenem/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

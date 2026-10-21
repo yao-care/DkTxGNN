@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Caplacizumab med de sene
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Cablivi (Ablynx NV) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data (99.0%)</li>
+<li>Primær frigørelsesforstyrrelse af blodplader (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/caplacizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Everolimus med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Afinitor (Novartis Europharm Limited) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Liposarkom (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/everolimus/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

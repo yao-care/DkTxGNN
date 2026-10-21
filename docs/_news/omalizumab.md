@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Omalizumab med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Omlyclo (Celltrion Healthcare Hungary Kft) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten er ikke angivet i de indsamlede data (99.0%)</li>
+<li>Bronkitis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/omalizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

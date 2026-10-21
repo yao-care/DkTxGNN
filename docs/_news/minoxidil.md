@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Minoxidil med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Dinoxil | Kutanskum | Ikke angivet i de indsamlede data (99.0%)</li>
+<li>Hypotrichosis simplex i hovedbunden (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/minoxidil/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

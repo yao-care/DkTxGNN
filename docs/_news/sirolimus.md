@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Sirolimus med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Hyftor (Plusultra Pharma GmbH) | Gel (til udvortes brug) | Indikationstekst er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Liposarkom (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sirolimus/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

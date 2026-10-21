@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Methoxsalen med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Methoxsalen "Macopharma" (Maco Pharma SA) | Opløsning til modificering af blodfraktioner | Ingen indikationstekst angivet (99.0%)</li>
+<li>Lokaliseret pagetoid reticulose (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methoxsalen/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

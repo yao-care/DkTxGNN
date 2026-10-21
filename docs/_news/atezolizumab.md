@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Atezolizumab med de sene
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Tecentriq (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke angivet (99.0%)</li>
+<li>Urotelcarcinom i prostatiske urethra (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atezolizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

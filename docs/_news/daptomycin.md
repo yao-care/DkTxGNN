@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Daptomycin med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Cubicin (Merck Sharp & Dohme B.V.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li>Leddegigt (rheumatoid arthritis) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/daptomycin/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

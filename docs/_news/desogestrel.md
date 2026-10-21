@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Desogestrel med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Azalia (Gedeon Richter Plc.) | Filmovertrukne tabletter | Ikke oplyst (99.0%)</li>
+<li>Amenoré (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/desogestrel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Cabozantinib med de sene
 <ul>
 <li><strong>Evidensniveau</strong>: L2</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Cabometyx (Ipsen Pharma) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data (99.0%)</li>
+<li>Uklassificeret nyrecellekarcinom (rang 6; rang 1 i modellen er liposarkom) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabozantinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

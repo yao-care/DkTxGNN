@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Tolvaptan"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Tolvaptan. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Tolvaptan. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/tolvaptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tolvaptan/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Tolvaptan?">
-<strong>Tolvaptan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Tolvaptan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Tolvaptan med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L1</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Jinarc (Otsuka Pharmaceutical Netherlands B.V.) | Tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (100.0%)</li>
+<li>Renal-hepatisk-pankreatisk dysplasi (100.0%)</li>
+<li>Karyomegal interstitiel nefritis (100.0%)</li>
+<li>Thoraxmalformation (100.0%)</li>
+<li>Joubert syndrom med nyrepåvirkning (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tolvaptan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

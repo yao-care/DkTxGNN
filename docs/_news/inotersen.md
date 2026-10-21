@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Inotersen med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Tegsedi (Akcea Therapeutics Ireland Ltd) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data (99.0%)</li>
+<li>Akut intermitterende porfyri (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/inotersen/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Celecoxib med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Celebra (Viatris ApS) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Akromesomelisk dysplasi, Hunter-Thompson-type (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/celecoxib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

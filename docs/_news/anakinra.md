@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Anakinra med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Kineret (Swedish Orphan Biovitrum AB) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten indgår ikke i de indsamlede data (99.0%)</li>
+<li>Ekstrakutant mastocytom (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/anakinra/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

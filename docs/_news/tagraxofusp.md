@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Tagraxofusp med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>ELZONRIS (Stemline Therapeutics B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Esotropi (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tagraxofusp/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

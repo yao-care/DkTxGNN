@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Atosiban med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Atosiban "EVER Pharma" (EVER Valinject GmbH) | Injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data (99.0%)</li>
+<li>Primær arvelig glaukom (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atosiban/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

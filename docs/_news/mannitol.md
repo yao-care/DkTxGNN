@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Mannitol med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Bronchitol (Pharmaxis Europe Limited) | Inhalationspulver, hård kapsel | Indikationstekst er ikke angivet i de indsamlede data (99.0%)</li>
+<li>Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mannitol/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

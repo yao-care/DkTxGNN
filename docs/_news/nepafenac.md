@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Nepafenac med de seneste
 <ul>
 <li><strong>Evidensniveau</strong>: L1</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Nevanac (Novartis Europharm Limited) | Øjendråber, suspension | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Øjensygdom (eye disease) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nepafenac/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

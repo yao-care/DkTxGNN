@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Durvalumab med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L4</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Imfinzi (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Urotelcarcinom i urinrørets prostatadel (prostatic urethra urothelial carcinoma) (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/durvalumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Paclitaxel med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Abraxane | Pulver til infusionsvæske, suspension | Indikationstekst ikke tilgængelig i de sammenstillede data (99.0%)</li>
+<li>Kvindelig brystcarcinom (female breast carcinoma) (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/paclitaxel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

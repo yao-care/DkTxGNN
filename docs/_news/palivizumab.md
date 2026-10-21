@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Palivizumab med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Synagis (AstraZeneca AB) | Injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data (99.0%)</li>
+<li>Godartet tumor i tungen (benign neoplasm of tongue) (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/palivizumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Telmisartan"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Telmisartan. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Telmisartan. Oprindelig indikation: . 6 forudsagte indikationer."
 permalink: /news/telmisartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/telmisartan/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Telmisartan?">
-<strong>Telmisartan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Telmisartan</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 6 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,13 @@ Denne side kombinerer de AI-forudsagte indikationer for Telmisartan med de senes
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Kinzalmono (Bayer Schering Pharma AG) | Tabletter | Indikationstekst foreligger ikke i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (6)</strong>:<ul>
+<li>Prinzmetals angina (100.0%)</li>
+<li>Hjernestammeinfarkt (100.0%)</li>
+<li>ABri-amyloidose (100.0%)</li>
+<li>Cerebral arterieokklusion (100.0%)</li>
+<li>Pulmonal hypertension ved lungesygdom og/eller hypoksi (99.9%)</li>
+<li>Pulmonal hypertension med uklar multifaktoriel mekanisme (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/telmisartan/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

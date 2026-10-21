@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Avapritinib med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>AYVAKYT | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li>Aksial spondylometafysær dysplasi (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avapritinib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

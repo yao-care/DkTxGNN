@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Bezlotoxumab med de sene
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Zinplava (Merck Sharp & Dohme B.V.) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data (99.0%)</li>
+<li>Akut kvindelig bækkenperitonitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bezlotoxumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

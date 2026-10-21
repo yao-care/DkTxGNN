@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Ramucirumab med de senes
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Cyramza (Eli Lilly Netherland B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data (99.0%)</li>
+<li>Livmoderligamentets adenokarcinom (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ramucirumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

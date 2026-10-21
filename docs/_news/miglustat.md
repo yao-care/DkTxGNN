@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Miglustat"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Miglustat. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Miglustat. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/miglustat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/miglustat/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Miglustat?">
-<strong>Miglustat</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Miglustat</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Miglustat med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Miglustat "Bluefish" (Bluefish Pharmaceuticals AB) | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Autosomal ichthyose-syndrom med dødeligt forløb (99.8%)</li>
+<li>Cholesterylester-lagringssygdom (99.8%)</li>
+<li>Krabbes sygdom (99.8%)</li>
+<li>Metakromatisk leukodystrofi (99.8%)</li>
+<li>Wolmans sygdom med hypolipoproteinæmi og akantocytose (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/miglustat/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

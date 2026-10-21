@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Filgrastim med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Accofil (Accord Healthcare S.L.U.) | Injektions-/infusionsvæske, opløsning, fyldt injektionssprøjte | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li>Primær frigivelsesforstyrrelse af blodplader (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/filgrastim/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

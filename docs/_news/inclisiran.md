@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Inclisiran med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Leqvio (Novartis Europharm Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li>Kaliummangelsygdom (potassium deficiency disease) (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/inclisiran/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

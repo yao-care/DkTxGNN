@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Docetaxel"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Docetaxel. Oprindelig indikation: . 5 forudsagte indikationer."
+description: "Sundhedsnyheder om Docetaxel. Oprindelig indikation: . 1 forudsagte indikationer."
 permalink: /news/docetaxel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/docetaxel/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Docetaxel?">
-<strong>Docetaxel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
+<strong>Docetaxel</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ Denne side kombinerer de AI-forudsagte indikationer for Docetaxel med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>female breast carcinoma (99.9%)</li>
-<li>Ewing sarcoma (99.9%)</li>
-<li>well-differentiated fetal adenocarcinoma of the lung (99.8%)</li>
-<li>small cell lung carcinoma (99.8%)</li>
-<li>primary pulmonary lymphoma (99.8%)</li>
+<li><strong>Forudsagte indikationer (1)</strong>:<ul>
+<li>Kvindelig brystkræft (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/docetaxel/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

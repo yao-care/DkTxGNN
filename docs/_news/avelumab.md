@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Avelumab med de seneste 
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Bavencio (Merck Europe B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li>Human herpesvirus 8-relateret tumor (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avelumab/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

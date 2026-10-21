@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Isocarboxazid med de sen
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Marplan (EQL Pharma AB) | Tabletter | Indikationstekst ikke tilgængelig (99.0%)</li>
+<li>Benign paroksystisk torticollis hos spædbørn (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/isocarboxazid/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

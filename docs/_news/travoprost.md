@@ -26,7 +26,7 @@ Denne side kombinerer de AI-forudsagte indikationer for Travoprost med de senest
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
 <li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Izba (Novartis Europharm Limited) | Øjendråber, opløsning | Indikationstekst ikke angivet i de indsamlede data (99.0%)</li>
+<li>Visceral calciphylaxis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/travoprost/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nyheder om Sonidegib"
 parent: Sundhedsnyheder
 nav_exclude: true
-description: "Sundhedsnyheder om Sonidegib. Oprindelig indikation: . 1 forudsagte indikationer."
+description: "Sundhedsnyheder om Sonidegib. Oprindelig indikation: . 5 forudsagte indikationer."
 permalink: /news/sonidegib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sonidegib/
 ---
 
 <p class="key-answer" data-question="Hvilke nyheder er der om Sonidegib?">
-<strong>Sonidegib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 1 forudsagte indikationer.
+<strong>Sonidegib</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ Denne side kombinerer de AI-forudsagte indikationer for Sonidegib med de seneste
 <strong>Lægemiddeloplysninger</strong>
 <ul>
 <li><strong>Evidensniveau</strong>: L5</li>
-<li><strong>Forudsagte indikationer (1)</strong>:<ul>
-<li>Odomzo (SUN Pharmaceutical Industries Europe BV) | Kapsler, hårde | Indikationsteksten er ikke tilgængelig i de indsamlede data (99.0%)</li>
+<li><strong>Forudsagte indikationer (5)</strong>:<ul>
+<li>Medulloblastom med udtalt nodularitet (99.9%)</li>
+<li>Xeroderma pigmentosum (99.9%)</li>
+<li>Annulær epidermolytisk ichthyose (99.8%)</li>
+<li>Epidermolysis bullosa simplex med spættet pigmentering (99.8%)</li>
+<li>Fotosensitiv trichothiodystrofi (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sonidegib/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
