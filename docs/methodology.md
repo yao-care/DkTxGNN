@@ -3,7 +3,7 @@ layout: default
 title: Metode
 nav_order: 91
 permalink: /methodology/
-description: "Sådan producerer og validerer DkTxGNN sine forudsigelser: forudsigelse med TxGNN-videngraf, evidensindsamling, gradering fra L1 til L5 og beslutningsanbefalinger."
+description: "Sådan producerer og validerer DkTxGNN sine forudsigelser: forudsigelse med TxGNN-modellen (dyb læring), evidensindsamling, gradering fra L1 til L5 og beslutningsanbefalinger."
 ---
 
 # Metode
@@ -17,13 +17,13 @@ Fra AI-forudsigelse til evidensgradering — hver kandidat har et sporbart grund
 ## Samlet pipeline
 
 <p class="key-answer" data-question="Hvordan producerer DkTxGNN sine forudsigelser?">
-Platformen anvender en pipeline i fire trin: TxGNN-videngrafmodellen forudsiger potentielle
+Platformen anvender en pipeline i fire trin: TxGNN-modellen (dyb læring) forudsiger potentielle
 associationer mellem lægemiddel og sygdom, derefter indsamles der automatisk evidens for hvert forudsagt par,
 evidensen graderes fra L1 til L5, og til sidst udstedes en beslutningsanbefaling.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>TxGNN-forudsigelse</strong>: relationer mellem lægemiddel og sygdom forudsiges med en videngraf kombineret med grafbaserede neurale netværk.</li>
+<li><strong>TxGNN-forudsigelse</strong>: relationer mellem lægemiddel og sygdom forudsiges af TxGNN-modellen (dyb læring: et grafbaseret neuralt netværk trænet på en biomedicinsk videngraf).</li>
 <li><strong>Evidensindsamling</strong>: for hvert forudsagt par indsamles evidens fra ClinicalTrials.gov, PubMed, DrugBank og DKMA.</li>
 <li><strong>Evidensgradering</strong>: gradering fra L1 til L5, hvor L1 er stærkest (flere fase 3-RCT'er) og L5 kun er en modelforudsigelse.</li>
 <li><strong>Beslutningsanbefaling</strong>: Go, Proceed, Consider, Explore eller Hold, baseret på evidensniveauet.</li>

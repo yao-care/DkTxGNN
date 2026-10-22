@@ -17,7 +17,7 @@ Evidensniveauerne går fra L1 (stærkere klinisk evidens) til L5 (kun modelforud
 - `/evidence-high/` Høj evidens (L1-L2) — Kandidater til lægemiddelrepositionering på L1-L2 i DkTxGNN, understøttet af kliniske forsøg eller systematiske oversigter.
 - `/evidence-medium/` Moderat evidens (L3-L4) — Kandidater til lægemiddelrepositionering på L3-L4 i DkTxGNN, understøttet af observationsbaseret eller præklinisk evidens.
 - `/evidence-low/` Kun modelforudsigelse (L5) — L5-kandidater i DkTxGNN: kun modelforudsigelse, endnu uden klinisk evidens eller litteraturevidens.
-- `/methodology/` Metode — Sådan producerer og validerer DkTxGNN sine forudsigelser: forudsigelse med TxGNN-videngraf, evidensindsamling, gradering fra L1 til L5 og beslutningsanbefalinger.
+- `/methodology/` Metode — Sådan producerer og validerer DkTxGNN sine forudsigelser: forudsigelse med TxGNN-modellen (dyb læring), evidensindsamling, gradering fra L1 til L5 og beslutningsanbefalinger.
 - `/guide/` Brugervejledning — Brugervejledning til DkTxGNN: sådan slår du lægemidler op, læser evidensniveauer og fortolker anbefalinger.
 - `/sources/` Datakilder — Datakilderne bag DkTxGNN: registreringsdata fra DKMA, TxGNN, ClinicalTrials.gov, PubMed og DrugBank.
 - `/downloads/` Downloads — Åbne data til download fra DkTxGNN: FHIR-ressourcer, forudsigelsesresultater og søgeindeks.
