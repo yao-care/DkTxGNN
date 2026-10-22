@@ -12,7 +12,7 @@ Evidensniveauerne går fra L1 (stærkere klinisk evidens) til L5 (kun modelforud
 
 ## Hovedindhold
 
-- `/` Forudsigelser for Lægemiddelrepositionering — Danmark — AI-baserede forudsigelser af ny anvendelse af lægemidler for 861 lægemidler godkendt af Lægemiddelstyrelsen (DKMA). TxGNN-modellen finder mulige nye terapeutiske anvendelser med evidensbaseret validering.
+- `/` Forudsigelser for Lægemiddelrepositionering — Danmark — AI-baserede forudsigelser af ny anvendelse af lægemidler for 860 lægemidler godkendt af Lægemiddelstyrelsen (DKMA). TxGNN-modellen finder mulige nye terapeutiske anvendelser med evidensbaseret validering.
 - `/drugs/` Alle lægemidler — Alle valideringsrapporter for lægemidler og statistik over evidensniveauer i DkTxGNN.
 - `/evidence-high/` Høj evidens (L1-L2) — Kandidater til lægemiddelrepositionering på L1-L2 i DkTxGNN, understøttet af kliniske forsøg eller systematiske oversigter.
 - `/evidence-medium/` Moderat evidens (L3-L4) — Kandidater til lægemiddelrepositionering på L3-L4 i DkTxGNN, understøttet af observationsbaseret eller præklinisk evidens.
