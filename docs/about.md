@@ -76,7 +76,7 @@ lægemiddelrepositionering, der er designet specifikt til klinikere.
 </p>
 
 <blockquote class="expert-quote">
-"TxGNN integrerer en videngraf med 17.080 sygdomme og bruger grafbaserede neurale netværk
+"TxGNN integrerer en vidensgraf med 17.080 sygdomme og bruger grafbaserede neurale netværk
 til at lære komplekse relationer mellem knuder og dermed forudsige lægemidlers potentielle effekt mod
 sjældne sygdomme."
 <cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
@@ -91,7 +91,7 @@ sjældne sygdomme."
 <tr><th>Type</th><th>Kilde</th><th>Beskrivelse</th></tr>
 </thead>
 <tbody>
-<tr><td>AI-forudsigelse</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvards grafbaserede neurale netværk, trænet på en videngraf</td></tr>
+<tr><td>AI-forudsigelse</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvards grafbaserede neurale netværk, trænet på en vidensgraf</td></tr>
 <tr><td>Kliniske forsøg</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Globalt register over kliniske forsøg</td></tr>
 <tr><td>Litteratur</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Database over biomedicinsk litteratur</td></tr>
 <tr><td>Lægemiddelinformation</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Database over lægemidler og targets</td></tr>

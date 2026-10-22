@@ -23,7 +23,7 @@ evidensen graderes fra L1 til L5, og til sidst udstedes en beslutningsanbefaling
 </p>
 
 <ol class="actionable-steps">
-<li><strong>TxGNN-forudsigelse</strong>: relationer mellem lægemiddel og sygdom forudsiges af TxGNN-modellen (dyb læring: et grafbaseret neuralt netværk trænet på en biomedicinsk videngraf).</li>
+<li><strong>TxGNN-forudsigelse</strong>: relationer mellem lægemiddel og sygdom forudsiges af TxGNN-modellen (dyb læring: et grafbaseret neuralt netværk trænet på en biomedicinsk vidensgraf).</li>
 <li><strong>Evidensindsamling</strong>: for hvert forudsagt par indsamles evidens fra ClinicalTrials.gov, PubMed, DrugBank og DKMA.</li>
 <li><strong>Evidensgradering</strong>: gradering fra L1 til L5, hvor L1 er stærkest (flere fase 3-RCT'er) og L5 kun er en modelforudsigelse.</li>
 <li><strong>Beslutningsanbefaling</strong>: Go, Proceed, Consider, Explore eller Hold, baseret på evidensniveauet.</li>
