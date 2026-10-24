@@ -24,6 +24,11 @@ integrerer platformen klinisk evidens fra ClinicalTrials.gov og PubMed, så fors
 hvor troværdig hver enkelt forudsigelse er.
 </p>
 
+<p>
+Se <a href="{{ '/guide/' | relative_url }}">Brugervejledningen</a> for, hvordan du slår et lægemiddel op
+og fortolker evidensniveauerne i en rapport.
+</p>
+
 ---
 
 ## Om udvikleren
