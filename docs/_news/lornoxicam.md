@@ -1,82 +1,16 @@
 ---
-layout: default
-title: "Nyheder om Lornoxicam"
-parent: Sundhedsnyheder
-nav_exclude: true
-description: "Sundhedsnyheder om Lornoxicam. Oprindelig indikation: . 5 forudsagte indikationer."
+layout: id_redirect
 permalink: /news/lornoxicam/
+sitemap: false
+search_exclude: true
+nav_exclude: true
 ---
-
-# Nyheder om Lornoxicam
-
-[← Tilbage til nyhedsoversigten]({{ '/news/' | relative_url }})
-
----
-
-<p class="key-answer" data-question="Hvilke nyheder er der om Lornoxicam?">
-<strong>Lornoxicam</strong> har i øjeblikket <strong>0 nyhedsartikler</strong> og 5 forudsagte indikationer.
-</p>
-
-<div class="key-takeaway">
-Denne side kombinerer de AI-forudsagte indikationer for Lornoxicam med de seneste sundhedsnyheder. Indikationer markeret med orange har været omtalt i nyhederne for nylig.
-</div>
-
-<div class="drug-info-card">
-<strong>Lægemiddeloplysninger</strong>
-<ul>
-<li><strong>Evidensniveau</strong>: L3</li>
-<li><strong>Forudsagte indikationer (5)</strong>:<ul>
-<li>Reumatoid artritis (99.9%)</li>
-<li>Migrænesygdom (migraine disorder) (99.9%)</li>
-<li>Migræne, modtagelighed (genetisk fænotype) (99.9%)</li>
-<li>Migræne med hjernestammeaura (99.8%)</li>
-<li>Brachydaktyli-syndaktyli-syndrom (99.8%)</li>
-</ul></li>
-</ul>
-<p><a href="{{ '/drugs/lornoxicam/' | relative_url }}">Se den fulde lægemiddelrapport →</a></p>
-</div>
-
-## Relaterede nyheder (0)
-
-*Der er endnu ingen relaterede nyheder. Når en nyhed nævner dette lægemiddel, bliver den automatisk indsamlet og vist her.*
-
-
-<div class="disclaimer">
-<strong>Ansvarsfraskrivelse</strong>: Nyhederne på denne side indsamles automatisk og er kun til forskningsbrug; de udgør ikke medicinsk rådgivning.
-</div>
-
-<style>
-.indication-matched {
-  background: #fff3e0;
-  padding: 4px 8px;
-  border-radius: 4px;
-  border-left: 3px solid #ff9800;
-}
-.indication-tag {
-  display: inline-block;
-  background: #ff9800;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 0.8em;
-  margin-left: 8px;
-}
-.news-indication-tag {
-  display: inline-block;
-  background: #ff9800;
-  color: white;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  margin-left: 4px;
-}
-.news-drug-tag {
-  display: inline-block;
-  background: #1565c0;
-  color: white;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  margin-left: 4px;
-}
-</style>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/lornoxicam/">
+<meta http-equiv="refresh" content="0; url=/drugs/lornoxicam/">
+<script>location="/drugs/lornoxicam/"</script>
+<a href="/drugs/lornoxicam/">/drugs/lornoxicam/</a>
+</html>

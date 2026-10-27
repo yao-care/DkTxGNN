@@ -382,7 +382,7 @@ window.TXGNN_ANALYTICS = {
       "@id": "{{ page.url | absolute_url }}#itemlist",
       "name": "DkTxGNNs evidensrapporter for lægemidler",
       "description": "Evidensrapporter om ny anvendelse af lægemidler godkendt i Danmark",
-      "numberOfItems": {{ site.drugs.size }},
+      "numberOfItems": {{ site.data.drug_stats.total_drugs }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
     {
