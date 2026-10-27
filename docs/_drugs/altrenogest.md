@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Altrenogest: Fra veterinær brug til orofacial clefting syndrom
+## Altrenogest: Fra veterinær brug til orofacial clefting syndrom
+{: .text-alpha }
 
 ## Resumé
 

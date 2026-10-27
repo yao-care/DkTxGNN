@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Silodosin: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
+## Silodosin: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

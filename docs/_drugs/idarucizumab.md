@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idarucizumab: Fra dabigatran-antidot til hæmoglobinopati
+## Idarucizumab: Fra dabigatran-antidot til hæmoglobinopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Migalastat Hydrochloride: Evaluering af lægemiddel-genfund — Utilstrækkelig evidenspakke
+## Migalastat Hydrochloride: Evaluering af lægemiddel-genfund — Utilstrækkelig evidenspakke
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Donepezil: Fra Alzheimers sygdom til kronisk tic-lidelse
+## Donepezil: Fra Alzheimers sygdom til kronisk tic-lidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

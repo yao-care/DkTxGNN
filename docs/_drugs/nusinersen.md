@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nusinersen: Fra spinal muskelatrofi til blandet mineralstøv-pneumokoniose
+## Nusinersen: Fra spinal muskelatrofi til blandet mineralstøv-pneumokoniose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

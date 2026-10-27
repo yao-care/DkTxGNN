@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Histidin: Fra ernæringsbehandling til gastroparese
+## Histidin: Fra ernæringsbehandling til gastroparese
+{: .text-alpha }
 
 ## Resumé i én sætning
 

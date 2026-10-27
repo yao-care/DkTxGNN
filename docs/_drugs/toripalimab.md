@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Toripalimab: Fra nasopharyngealt karcinom til blandet type autoimmun hæmolytisk anæmi
+## Toripalimab: Fra nasopharyngealt karcinom til blandet type autoimmun hæmolytisk anæmi
+{: .text-alpha }
 
 ## Resumé
 

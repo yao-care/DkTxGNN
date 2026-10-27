@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Rabeprazol: Fra syrerelaterede mave-tarmlidelser til smoldrende systemisk mastocytose
+## Rabeprazol: Fra syrerelaterede mave-tarmlidelser til smoldrende systemisk mastocytose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

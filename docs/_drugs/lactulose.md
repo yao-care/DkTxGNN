@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lactulose: Fra leverencefalopati og forstoppelse til obstruktiv gulsot
+## Lactulose: Fra leverencefalopati og forstoppelse til obstruktiv gulsot
+{: .text-alpha }
 
 ## Resumé i en sætning
 

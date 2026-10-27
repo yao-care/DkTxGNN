@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Gabapentin: Evidenspakke ufuldstændig — Vurdering af genanvendelse afventer
+## Gabapentin: Evidenspakke ufuldstændig — Vurdering af genanvendelse afventer
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

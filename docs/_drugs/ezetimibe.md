@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Ezetimib: Fra hyperlipidæmi til hyperlipoproteinæmi
+## Ezetimib: Fra hyperlipidæmi til hyperlipoproteinæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

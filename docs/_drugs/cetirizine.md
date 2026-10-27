@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Cetirizin: Fra allergisk rhinitis og idiopatisk urticaria til allergisk urticaria
+## Cetirizin: Fra allergisk rhinitis og idiopatisk urticaria til allergisk urticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

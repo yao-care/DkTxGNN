@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imiglucerase: Fra Gauchers sygdom til Hurlers syndrom
+## Imiglucerase: Fra Gauchers sygdom til Hurlers syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

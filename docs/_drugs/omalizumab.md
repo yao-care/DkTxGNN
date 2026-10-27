@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Omalizumab: Fra astma og urticaria til bronkitis
+## Omalizumab: Fra astma og urticaria til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

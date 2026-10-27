@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Turoctocog alfa pegol: Fra hæmofili til primær frigivelsesforstyrrelse i blodplader
+## Turoctocog alfa pegol: Fra hæmofili til primær frigivelsesforstyrrelse i blodplader
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Linaclotid: Fra irritabel tarm (IBS) til cauda equina-syndrom
+## Linaclotid: Fra irritabel tarm (IBS) til cauda equina-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

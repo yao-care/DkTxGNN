@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sevofluran: Fra generel anæstesi til Prinzmetal-angina
+## Sevofluran: Fra generel anæstesi til Prinzmetal-angina
+{: .text-alpha }
 
 ## Resumé i én sætning
 

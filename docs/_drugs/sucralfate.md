@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Sucralfat: Fra duodenalsår til duodenogastrisk refluks
+## Sucralfat: Fra duodenalsår til duodenogastrisk refluks
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bendamustin: Fra follikulært lymfom til mantelcellelymfom
+## Bendamustin: Fra follikulært lymfom til mantelcellelymfom
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tadalafil: Fra erektil dysfunktion og pulmonal hypertension til Ambras-type hypertrichosis universalis congenita
+## Tadalafil: Fra erektil dysfunktion og pulmonal hypertension til Ambras-type hypertrichosis universalis congenita
+{: .text-alpha }
 
 ## Resumé
 

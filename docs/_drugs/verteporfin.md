@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Verteporfin: Fra makuladegeneration til mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-abnormiteter
+## Verteporfin: Fra makuladegeneration til mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-abnormiteter
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Estriol: Fra manglende godkendt indikation til amenorré
+## Estriol: Fra manglende godkendt indikation til amenorré
+{: .text-alpha }
 
 ## Resumé i én sætning
 

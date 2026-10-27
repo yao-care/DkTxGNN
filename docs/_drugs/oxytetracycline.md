@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxytetracyclin: Fra bakterielle infektioner til otitis externa
+## Oxytetracyclin: Fra bakterielle infektioner til otitis externa
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

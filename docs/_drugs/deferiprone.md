@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Deferiprone: Fra jernoverskud ved hæmosiderose og thalassæmi til hepatisk porfyri
+## Deferiprone: Fra jernoverskud ved hæmosiderose og thalassæmi til hepatisk porfyri
+{: .text-alpha }
 
 ## Resumé
 

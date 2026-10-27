@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eptifibatid: Fra akut koronarsyndrom til hæmoglobinopati (seglcellesygdom)
+## Eptifibatid: Fra akut koronarsyndrom til hæmoglobinopati (seglcellesygdom)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

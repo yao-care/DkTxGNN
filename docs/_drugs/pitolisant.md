@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Pitolisant: Fra narkolepsi til insomni
+## Pitolisant: Fra narkolepsi til insomni
+{: .text-alpha }
 
 ## Et-sætnings-resumé
 

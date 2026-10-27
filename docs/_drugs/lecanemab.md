@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lecanemab: Fra Alzheimers sygdom til diabetisk katarakt
+## Lecanemab: Fra Alzheimers sygdom til diabetisk katarakt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

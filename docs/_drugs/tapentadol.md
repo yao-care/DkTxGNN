@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Tapentadol: Fra smertebehandling til migræne
+## Tapentadol: Fra smertebehandling til migræne
+{: .text-alpha }
 
 ## Resumé
 

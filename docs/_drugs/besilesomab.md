@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Besilesomab: Fra diagnostisk billeddannelse af inflammation og infektion til diabetisk grå stær
+## Besilesomab: Fra diagnostisk billeddannelse af inflammation og infektion til diabetisk grå stær
+{: .text-alpha }
 
 ## Resumé i én sætning
 

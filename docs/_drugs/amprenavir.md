@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amprenavir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Amprenavir: Fra HIV-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

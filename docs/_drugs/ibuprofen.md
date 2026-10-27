@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ibuprofen: Fra gigt og smerter til akromesomel dysplasi, Hunter-Thompson-typen
+## Ibuprofen: Fra gigt og smerter til akromesomel dysplasi, Hunter-Thompson-typen
+{: .text-alpha }
 
 ## Resumé
 

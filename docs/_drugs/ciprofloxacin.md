@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ciprofloxacin: Fra bakterielle infektioner til diffus sklerodermi
+## Ciprofloxacin: Fra bakterielle infektioner til diffus sklerodermi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

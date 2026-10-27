@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Corifollitropin alfa: Fra fertilitetsbehandling til gastroduodenitis
+## Corifollitropin alfa: Fra fertilitetsbehandling til gastroduodenitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

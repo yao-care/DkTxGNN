@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Cyanocobalamin: Fra vitamin B12-mangel til biotinmetabolisk sygdom
+## Cyanocobalamin: Fra vitamin B12-mangel til biotinmetabolisk sygdom
+{: .text-alpha }
 
 ## Opsummering
 

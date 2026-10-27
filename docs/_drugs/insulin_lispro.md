@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Insulin lispro: Fra diabetes mellitus til autoimmun oophoritis
+## Insulin lispro: Fra diabetes mellitus til autoimmun oophoritis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

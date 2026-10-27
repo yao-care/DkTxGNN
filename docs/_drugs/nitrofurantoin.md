@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nitrofurantoin: Fra urinvejsinfektion til leddegigt (rheumatoid arthritis)
+## Nitrofurantoin: Fra urinvejsinfektion til leddegigt (rheumatoid arthritis)
+{: .text-alpha }
 
 ## Resumé
 

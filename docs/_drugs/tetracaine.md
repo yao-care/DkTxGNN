@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Tetracain: Fra dermatitis til akrodermatitis chronica atrophicans
+## Tetracain: Fra dermatitis til akrodermatitis chronica atrophicans
+{: .text-alpha }
 
 ## Resumé i én sætning
 

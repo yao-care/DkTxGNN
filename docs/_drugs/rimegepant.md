@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Rimegepant: Fra migræne til migræne med hjernestammeaura
+## Rimegepant: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dronedaron: Fra atrieflimren til iskæmisk slagtilfælde (stroke disorder)
+## Dronedaron: Fra atrieflimren til iskæmisk slagtilfælde (stroke disorder)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

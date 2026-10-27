@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ixekizumab: Fra ankyloserende spondylitis til reumatoid vaskulitis
+## Ixekizumab: Fra ankyloserende spondylitis til reumatoid vaskulitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

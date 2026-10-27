@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dipyridamol: Fra atrieflimren til Prinzmetal angina
+## Dipyridamol: Fra atrieflimren til Prinzmetal angina
+{: .text-alpha }
 
 ## Resumé i en sætning
 

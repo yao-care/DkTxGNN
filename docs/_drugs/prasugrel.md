@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Prasugrel: Fra akut koronarsyndrom til migræne
+## Prasugrel: Fra akut koronarsyndrom til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

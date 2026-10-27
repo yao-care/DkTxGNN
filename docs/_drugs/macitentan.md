@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Macitentan: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med medfødt hjertesygdom
+## Macitentan: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med medfødt hjertesygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

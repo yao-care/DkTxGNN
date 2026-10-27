@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Enrofloxacin: Fra veterinær antibiotika til hjertesygdom (forudsigelse)
+## Enrofloxacin: Fra veterinær antibiotika til hjertesygdom (forudsigelse)
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Roxithromycin: Fra oprindelig indikation til spedalskhed (leprosy)
+## Roxithromycin: Fra oprindelig indikation til spedalskhed (leprosy)
+{: .text-alpha }
 
 ## Sammenfatning
 

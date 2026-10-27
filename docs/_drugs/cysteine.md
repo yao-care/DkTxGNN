@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Cystein: Fra bronkitis og paracetamolforgiftning til tørre øjne
+## Cystein: Fra bronkitis og paracetamolforgiftning til tørre øjne
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

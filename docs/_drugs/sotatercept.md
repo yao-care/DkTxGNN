@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sotatercept: Fra den oprindelige indikation til akut lymfoblastær leukæmi
+## Sotatercept: Fra den oprindelige indikation til akut lymfoblastær leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

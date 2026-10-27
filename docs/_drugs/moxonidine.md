@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moxonidin: Fra hypertension til hypotrichosis simplex i hovedbunden
+## Moxonidin: Fra hypertension til hypotrichosis simplex i hovedbunden
+{: .text-alpha }
 
 ## Resumé i én sætning
 

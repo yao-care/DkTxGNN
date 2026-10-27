@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etofenamat: Fra slidgigt til spondyloartropati (modtagelighed)
+## Etofenamat: Fra slidgigt til spondyloartropati (modtagelighed)
+{: .text-alpha }
 
 ## Resumé
 

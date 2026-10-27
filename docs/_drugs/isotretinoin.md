@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Isotretinoin: Fra hypertension til malign renovaskulær hypertension
+## Isotretinoin: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Resumé
 

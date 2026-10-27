@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Sertralin: Fra angstlidelser og OCD til agorafobi
+## Sertralin: Fra angstlidelser og OCD til agorafobi
+{: .text-alpha }
 
 ## Opsummering
 

@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Brinzolamid: Fra åbenvinklet glaukom til primær arvelig glaukom
+## Brinzolamid: Fra åbenvinklet glaukom til primær arvelig glaukom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Dolutegravir: Fra hiv-infektion til simian immundefektvirus-infektion
+## Dolutegravir: Fra hiv-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

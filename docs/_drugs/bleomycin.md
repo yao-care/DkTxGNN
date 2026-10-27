@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Bleomycin: Fra lymfom og hoved-halskræft til cauda equina-neoplasme
+## Bleomycin: Fra lymfom og hoved-halskræft til cauda equina-neoplasme
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

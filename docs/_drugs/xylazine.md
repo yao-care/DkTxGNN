@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Xylazin: Fra dyrlægemiddel (ingen godkendt human indikation) til migræne
+## Xylazin: Fra dyrlægemiddel (ingen godkendt human indikation) til migræne
+{: .text-alpha }
 
 ## Resumé
 

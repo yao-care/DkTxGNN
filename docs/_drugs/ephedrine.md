@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Ephedrin: Fra allergisk rhinitis til sygdom i næsehulen
+## Ephedrin: Fra allergisk rhinitis til sygdom i næsehulen
+{: .text-alpha }
 
 ## Resumé
 

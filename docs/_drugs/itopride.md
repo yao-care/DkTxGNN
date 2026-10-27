@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Itopride: Fra gastritis til Crohns sygdom i tyndtarmen
+## Itopride: Fra gastritis til Crohns sygdom i tyndtarmen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

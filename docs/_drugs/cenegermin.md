@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cenegermin: Fra neurotrofisk keratopati til HER2-positiv brystkræft
+## Cenegermin: Fra neurotrofisk keratopati til HER2-positiv brystkræft
+{: .text-alpha }
 
 ## Resumé
 

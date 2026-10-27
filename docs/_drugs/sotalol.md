@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Sotalol: Fra atrieflimren til sick sinus-syndrom 2 (autosomal dominant)
+## Sotalol: Fra atrieflimren til sick sinus-syndrom 2 (autosomal dominant)
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

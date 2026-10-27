@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teprotumumab: Fra endokrin eksoftalmus til monosomi X
+## Teprotumumab: Fra endokrin eksoftalmus til monosomi X
+{: .text-alpha }
 
 ## Resumé i én sætning
 

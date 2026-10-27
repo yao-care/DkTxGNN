@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Midostaurin (DB06595): Vurdering af Lægemiddels Genanvendelse — TxGNN-forudsigelsesdata ikke tilgængelig
+## Midostaurin (DB06595): Vurdering af Lægemiddels Genanvendelse — TxGNN-forudsigelsesdata ikke tilgængelig
+{: .text-alpha }
 
 ---
 

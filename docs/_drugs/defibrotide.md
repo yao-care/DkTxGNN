@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Defibrotid: Fra hepatisk veno-okklusiv sygdom til trombotisk trombocytopenisk purpura
+## Defibrotid: Fra hepatisk veno-okklusiv sygdom til trombotisk trombocytopenisk purpura
+{: .text-alpha }
 
 ## Opsummering i ét afsnit
 

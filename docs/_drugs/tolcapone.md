@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tolcapone: Fra Parkinsons sygdom til Rasmussen subakut encefalitis
+## Tolcapone: Fra Parkinsons sygdom til Rasmussen subakut encefalitis
+{: .text-alpha }
 
 ## Et-sætnings-resumé
 

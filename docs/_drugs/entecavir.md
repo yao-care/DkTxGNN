@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Entecavir: Fra kronisk hepatitis B til kronisk hepatitis C-infektion
+## Entecavir: Fra kronisk hepatitis B til kronisk hepatitis C-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

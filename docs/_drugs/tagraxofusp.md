@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tagraxofusp: Fra CD4+/CD56+ hæmatodermisk neoplasi til esotropi
+## Tagraxofusp: Fra CD4+/CD56+ hæmatodermisk neoplasi til esotropi
+{: .text-alpha }
 
 ## Resumé
 

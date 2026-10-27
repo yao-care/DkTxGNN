@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Buprenorfin: Fra opioidafhængighed til akut intermitterende porfyri
+## Buprenorfin: Fra opioidafhængighed til akut intermitterende porfyri
+{: .text-alpha }
 
 ## Resumé
 

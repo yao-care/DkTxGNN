@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Marbofloxacin: Fra bakteriel infektion til interventrikulær septumaneurisme
+## Marbofloxacin: Fra bakteriel infektion til interventrikulær septumaneurisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

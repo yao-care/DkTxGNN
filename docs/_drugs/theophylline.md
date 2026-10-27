@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Theophyllin: Fra astma til trombotisk sygdom
+## Theophyllin: Fra astma til trombotisk sygdom
+{: .text-alpha }
 
 ## Resumé
 

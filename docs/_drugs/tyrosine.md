@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tyrosin: Fra ernæringsstøtte til cauda equina-syndrom
+## Tyrosin: Fra ernæringsstøtte til cauda equina-syndrom
+{: .text-alpha }
 
 ## Resumé
 

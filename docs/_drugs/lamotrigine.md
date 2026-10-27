@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Lamotrigin: Fra epilepsi til trigeminusneuralgi
+## Lamotrigin: Fra epilepsi til trigeminusneuralgi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

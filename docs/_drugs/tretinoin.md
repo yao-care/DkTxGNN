@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tretinoin: Fra akne og akut promyelocytær leukæmi til reumatoid nodulose
+## Tretinoin: Fra akne og akut promyelocytær leukæmi til reumatoid nodulose
+{: .text-alpha }
 
 ## Resumé i en sætning
 

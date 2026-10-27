@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Vincristin: Fra akut lymfatisk leukæmi og lymfom til ganglioneuroblastom
+## Vincristin: Fra akut lymfatisk leukæmi og lymfom til ganglioneuroblastom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Ambroxol: Fra faryngitis til sygdom i næsehulen
+## Ambroxol: Fra faryngitis til sygdom i næsehulen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

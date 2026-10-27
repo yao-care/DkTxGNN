@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Docetaxel: Fra ikke-småcellet lungekræft, prostatakræft og andre kræftformer til kvindelig brystkræft
+## Docetaxel: Fra ikke-småcellet lungekræft, prostatakræft og andre kræftformer til kvindelig brystkræft
+{: .text-alpha }
 
 ## Resumé i én sætning
 

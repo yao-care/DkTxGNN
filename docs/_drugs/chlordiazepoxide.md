@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Chlordiazepoxid: Fra angst og alkoholabstinens til søvnforstyrrelse (insomni)
+## Chlordiazepoxid: Fra angst og alkoholabstinens til søvnforstyrrelse (insomni)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dupilumab: Fra atopisk eksem til bronkitis
+## Dupilumab: Fra atopisk eksem til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

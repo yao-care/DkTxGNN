@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Prasteron: Fra systemisk lupus erythematosus til heparin cofactor 2-mangel
+## Prasteron: Fra systemisk lupus erythematosus til heparin cofactor 2-mangel
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

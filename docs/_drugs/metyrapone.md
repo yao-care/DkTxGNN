@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Metyrapon: Fra hæmning af binyrebarkens kortisolsyntese til udøvelsesudløst malign hypertermi
+## Metyrapon: Fra hæmning af binyrebarkens kortisolsyntese til udøvelsesudløst malign hypertermi
+{: .text-alpha }
 
 ## Opsummering
 

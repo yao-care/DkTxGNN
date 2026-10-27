@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Chloroprocain: Fra lokalbedøvelse til cauda equina-syndrom (sandsynligt falsk positivt signal)
+## Chloroprocain: Fra lokalbedøvelse til cauda equina-syndrom (sandsynligt falsk positivt signal)
+{: .text-alpha }
 
 ## Resumé
 

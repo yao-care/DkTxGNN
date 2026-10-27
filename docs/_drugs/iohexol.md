@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iohexol: Fra røntgenkontraststof til søvnløshed (insomni)
+## Iohexol: Fra røntgenkontraststof til søvnløshed (insomni)
+{: .text-alpha }
 
 ## Resumé
 

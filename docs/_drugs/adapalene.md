@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Adapalen: Fra akne til forhøjet plasmazink
+## Adapalen: Fra akne til forhøjet plasmazink
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

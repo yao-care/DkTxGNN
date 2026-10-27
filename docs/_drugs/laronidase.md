@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Laronidase: Fra mukopolysakkaridose type I til lysosomal lagringssygdom med skeletinvolvering
+## Laronidase: Fra mukopolysakkaridose type I til lysosomal lagringssygdom med skeletinvolvering
+{: .text-alpha }
 
 ## Opsummering
 

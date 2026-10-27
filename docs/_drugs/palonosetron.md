@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Palonosetron: Fra kemoterapi-induceret kvalme til migræne
+## Palonosetron: Fra kemoterapi-induceret kvalme til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

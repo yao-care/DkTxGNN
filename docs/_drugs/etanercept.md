@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etanercept: Fra leddegigt til reumatoid vaskulitis
+## Etanercept: Fra leddegigt til reumatoid vaskulitis
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

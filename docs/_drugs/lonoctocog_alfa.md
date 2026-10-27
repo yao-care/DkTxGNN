@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lonoctocog alfa: Fra hæmofili til pseudo-von Willebrands sygdom
+## Lonoctocog alfa: Fra hæmofili til pseudo-von Willebrands sygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

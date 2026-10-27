@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pibrentasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+## Pibrentasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

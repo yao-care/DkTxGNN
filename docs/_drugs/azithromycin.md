@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Azithromycin: Fra bakterielle infektioner til polyklonalt hyperviskositetssyndrom
+## Azithromycin: Fra bakterielle infektioner til polyklonalt hyperviskositetssyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Budesonid: Fra Crohns sygdom og astma til bronkitis
+## Budesonid: Fra Crohns sygdom og astma til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

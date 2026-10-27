@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Calcipotriol: Fra manglende registreret indikation til seborrhoisk keratose
+## Calcipotriol: Fra manglende registreret indikation til seborrhoisk keratose
+{: .text-alpha }
 
 ## Resumé i en sætning
 

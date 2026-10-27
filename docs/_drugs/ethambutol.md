@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Ethambutol: Fra pulmonal tuberkulose til epiglottitis
+## Ethambutol: Fra pulmonal tuberkulose til epiglottitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

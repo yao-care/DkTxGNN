@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alirocumab: Fra aterosklerose og dyslipidæmi til X-bundet ichthyosis
+## Alirocumab: Fra aterosklerose og dyslipidæmi til X-bundet ichthyosis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

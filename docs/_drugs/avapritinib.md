@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Avapritinib: Fra gastrointestinal stromatumor til aksial spondylometafysær dysplasi
+## Avapritinib: Fra gastrointestinal stromatumor til aksial spondylometafysær dysplasi
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Halofuginon: Fra ukendt oprindelig indikation til svær non-proliferativ diabetisk retinopati
+## Halofuginon: Fra ukendt oprindelig indikation til svær non-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

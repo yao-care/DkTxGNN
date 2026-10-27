@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mogamulizumab: Fra kutant T-celle-lymfom til prostatisk urethral urotelcarcinom
+## Mogamulizumab: Fra kutant T-celle-lymfom til prostatisk urethral urotelcarcinom
+{: .text-alpha }
 
 ## Resumé
 

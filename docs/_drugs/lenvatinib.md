@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lenvatinib: Fra nyrecellekarcinom og skjoldbruskkirtelkræft til liposarkom
+## Lenvatinib: Fra nyrecellekarcinom og skjoldbruskkirtelkræft til liposarkom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

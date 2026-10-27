@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tislelizumab: Fra onkologiske indikationer til blandet type autoimmun hæmolytisk anæmi
+## Tislelizumab: Fra onkologiske indikationer til blandet type autoimmun hæmolytisk anæmi
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

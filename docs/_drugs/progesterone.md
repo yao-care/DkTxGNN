@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Progesteron: Fra endometriose og endometriecancer til amenoré
+## Progesteron: Fra endometriose og endometriecancer til amenoré
+{: .text-alpha }
 
 ## Resumé i én sætning
 

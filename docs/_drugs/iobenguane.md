@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Iobenguan: Fra diagnostisk radiotracer til hypotensiv lidelse
+## Iobenguan: Fra diagnostisk radiotracer til hypotensiv lidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

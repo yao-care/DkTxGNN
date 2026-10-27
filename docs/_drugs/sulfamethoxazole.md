@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Sulfamethoxazol: Fra infektiøs otitis media og andre bakterielle infektioner til akut smitsom konjunktivitis
+## Sulfamethoxazol: Fra infektiøs otitis media og andre bakterielle infektioner til akut smitsom konjunktivitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

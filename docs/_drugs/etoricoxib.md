@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etoricoxib: Fra reumatologiske smertetilstande til migræne
+## Etoricoxib: Fra reumatologiske smertetilstande til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

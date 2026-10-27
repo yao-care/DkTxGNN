@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ropinirol: Fra Parkinsons sygdom og restless legs-syndrom til skizofreni
+## Ropinirol: Fra Parkinsons sygdom og restless legs-syndrom til skizofreni
+{: .text-alpha }
 
 ## Resumé i én sætning
 

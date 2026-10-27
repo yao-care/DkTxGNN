@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Methionin: Fra ernæringsterapi til akne (acne)
+## Methionin: Fra ernæringsterapi til akne (acne)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

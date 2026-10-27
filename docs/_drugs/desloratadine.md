@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Desloratadin: Fra allergisk rhinitis til kuldeurticaria
+## Desloratadin: Fra allergisk rhinitis til kuldeurticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

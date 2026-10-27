@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Amsacrin: Fra kræftbehandling til hyperthyroidisme
+## Amsacrin: Fra kræftbehandling til hyperthyroidisme
+{: .text-alpha }
 
 ## Kort resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Venetoclax: Fra akut lymfatisk leukæmi og Richters syndrom til kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (IGHV-muteret)
+## Venetoclax: Fra akut lymfatisk leukæmi og Richters syndrom til kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (IGHV-muteret)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

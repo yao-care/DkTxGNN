@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Dexmedetomidin: Fra sedation til hovedpineforstyrrelse
+## Dexmedetomidin: Fra sedation til hovedpineforstyrrelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

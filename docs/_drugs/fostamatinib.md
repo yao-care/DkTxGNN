@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fostamatinib: Fra immunmedieret trombocytopeni til autosomal trombocytopeni med normale blodplader
+## Fostamatinib: Fra immunmedieret trombocytopeni til autosomal trombocytopeni med normale blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

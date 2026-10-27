@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Hydroxocobalamin: Fra vitamin B12-mangel til esophageal varices uden blødning
+## Hydroxocobalamin: Fra vitamin B12-mangel til esophageal varices uden blødning
+{: .text-alpha }
 
 ## Resumé i én sætning
 

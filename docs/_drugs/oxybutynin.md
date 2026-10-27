@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Oxybutynin: Fra overaktiv blære til restless legs syndrom
+## Oxybutynin: Fra overaktiv blære til restless legs syndrom
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Reteplase: Fra myokardieinfarkt til posteroinferiort myokardieinfarkt
+## Reteplase: Fra myokardieinfarkt til posteroinferiort myokardieinfarkt
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

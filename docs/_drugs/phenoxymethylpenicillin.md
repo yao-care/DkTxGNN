@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Phenoxymethylpenicillin: Fra øvre luftvejsinfektioner og streptokokinfektioner til epiglottitis
+## Phenoxymethylpenicillin: Fra øvre luftvejsinfektioner og streptokokinfektioner til epiglottitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Larotrectinib: Fra en tumor-agnostisk NTRK-indikation til multipel endokrin neoplasi
+## Larotrectinib: Fra en tumor-agnostisk NTRK-indikation til multipel endokrin neoplasi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

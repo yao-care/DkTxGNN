@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pramipexol: Fra Parkinsons sygdom og restless legs-syndrom til attention deficit-hyperactivity disorder (ADHD)
+## Pramipexol: Fra Parkinsons sygdom og restless legs-syndrom til attention deficit-hyperactivity disorder (ADHD)
+{: .text-alpha }
 
 ## Resumé
 

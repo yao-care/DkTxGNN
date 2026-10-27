@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inebilizumab: Fra den oprindelige indikation til lægemiddelinduceret osteoporose
+## Inebilizumab: Fra den oprindelige indikation til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

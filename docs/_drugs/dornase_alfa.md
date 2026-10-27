@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dornase alfa: Fra cystisk fibrose til blandet mineralstøvpneumokoniose
+## Dornase alfa: Fra cystisk fibrose til blandet mineralstøvpneumokoniose
+{: .text-alpha }
 
 ## Resumé i en sætning
 

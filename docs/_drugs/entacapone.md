@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Entacapone: Fra Parkinsons sygdom til PLA2G6-associeret neurodegeneration
+## Entacapone: Fra Parkinsons sygdom til PLA2G6-associeret neurodegeneration
+{: .text-alpha }
 
 ## Resumé i én sætning
 

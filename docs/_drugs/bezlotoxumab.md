@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bezlotoxumab: Fra Clostridium difficile-colitis til akut kvindelig bækkenperitonitis
+## Bezlotoxumab: Fra Clostridium difficile-colitis til akut kvindelig bækkenperitonitis
+{: .text-alpha }
 
 ## Opsummering
 

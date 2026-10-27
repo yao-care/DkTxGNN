@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Ponatinib: Fra kronisk myeloid leukæmi til gingival fibromatose
+## Ponatinib: Fra kronisk myeloid leukæmi til gingival fibromatose
+{: .text-alpha }
 
 ## Resumé
 

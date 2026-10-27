@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rasburicase: Fra hyperurikæmi til renal hypourikæmi
+## Rasburicase: Fra hyperurikæmi til renal hypourikæmi
+{: .text-alpha }
 
 ## Resumé i en sætning
 

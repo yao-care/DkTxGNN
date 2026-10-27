@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Nevirapin: Fra HIV-infektion til felint ervervet immundefektsyndrom
+## Nevirapin: Fra HIV-infektion til felint ervervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

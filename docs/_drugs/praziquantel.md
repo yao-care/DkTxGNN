@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Praziquantel: Fra parasitinfektioner til Plasmodium falciparum-malaria
+## Praziquantel: Fra parasitinfektioner til Plasmodium falciparum-malaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

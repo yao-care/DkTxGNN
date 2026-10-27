@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Axitinib: Fra nyrecellekarcinom til nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusioner
+## Axitinib: Fra nyrecellekarcinom til nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusioner
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

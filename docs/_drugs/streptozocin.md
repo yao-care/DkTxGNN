@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Streptozocin: Fra originalt anvendelsesområde til relapsing-remitting multipel sklerose
+## Streptozocin: Fra originalt anvendelsesområde til relapsing-remitting multipel sklerose
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Capmatinib: Fra ikke-angivet oprindelig indikation til leddegigt
+## Capmatinib: Fra ikke-angivet oprindelig indikation til leddegigt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

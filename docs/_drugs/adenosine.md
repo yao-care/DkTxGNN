@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Adenosin: Fra ventrikulær takykardi til obsolet grenblok (bundle branch block)
+## Adenosin: Fra ventrikulær takykardi til obsolet grenblok (bundle branch block)
+{: .text-alpha }
 
 ## Opsummering i få sætninger
 

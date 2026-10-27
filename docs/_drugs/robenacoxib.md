@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Robenacoxib: Fra veterinær NSAID-anvendelse til slidgigt (osteoarthritis)
+## Robenacoxib: Fra veterinær NSAID-anvendelse til slidgigt (osteoarthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

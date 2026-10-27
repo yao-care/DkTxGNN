@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iopromid: Fra billeddiagnostisk kontrastmiddel til osteoarthritis-modtagelighed
+## Iopromid: Fra billeddiagnostisk kontrastmiddel til osteoarthritis-modtagelighed
+{: .text-alpha }
 
 ## Opsummering
 

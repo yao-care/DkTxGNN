@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mirabegron: Fra overaktiv blære til thorakal misdannelse
+## Mirabegron: Fra overaktiv blære til thorakal misdannelse
+{: .text-alpha }
 
 ## Resumé
 

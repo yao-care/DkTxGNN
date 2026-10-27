@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teplizumab: Fra forsinkelse af type 1-diabetes til diabetisk grå stær
+## Teplizumab: Fra forsinkelse af type 1-diabetes til diabetisk grå stær
+{: .text-alpha }
 
 ## Kort resumé
 

@@ -31,7 +31,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Paracetamol (acetaminophen): Fra migræne og hovedpine til migræne med hjernestammeaura
+## Paracetamol (acetaminophen): Fra migræne og hovedpine til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

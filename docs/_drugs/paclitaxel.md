@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Paclitaxel: Fra æggestokkræft til brystkræft (kvindelig brystcarcinom)
+## Paclitaxel: Fra æggestokkræft til brystkræft (kvindelig brystcarcinom)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

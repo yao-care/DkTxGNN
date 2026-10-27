@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Fenoterol: Fra bronkodilatation til multipel systematrofi
+## Fenoterol: Fra bronkodilatation til multipel systematrofi
+{: .text-alpha }
 
 ## Opsummering
 

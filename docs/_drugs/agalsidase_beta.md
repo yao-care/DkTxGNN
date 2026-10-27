@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Agalsidase beta: Fra Fabrys sygdom til cervikalt neuroblastom
+## Agalsidase beta: Fra Fabrys sygdom til cervikalt neuroblastom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

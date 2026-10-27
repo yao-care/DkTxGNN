@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Felodipin: Fra hypertension til pulmonal hypertension
+## Felodipin: Fra hypertension til pulmonal hypertension
+{: .text-alpha }
 
 ## Resumé
 

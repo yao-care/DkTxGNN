@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vibegron: Fra overaktiv blære til polycystisk nyresygdom 3 (med eller uden polycystisk leversygdom)
+## Vibegron: Fra overaktiv blære til polycystisk nyresygdom 3 (med eller uden polycystisk leversygdom)
+{: .text-alpha }
 
 ## Resumé
 

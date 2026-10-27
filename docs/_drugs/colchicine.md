@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Colchicin: Fra gigt og familiær middelhavsfeber til Plasmodium falciparum-malaria
+## Colchicin: Fra gigt og familiær middelhavsfeber til Plasmodium falciparum-malaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

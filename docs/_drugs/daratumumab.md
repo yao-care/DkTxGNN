@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Daratumumab: Ingen genbrugsprognose genereret — Evaluering afventer
+## Daratumumab: Ingen genbrugsprognose genereret — Evaluering afventer
+{: .text-alpha }
 
 ## Sammenfatning på én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Galsulfase: Fra mucopolysaccharidose til ptosis-strabismus-ektopiske pupiller-syndrom
+## Galsulfase: Fra mucopolysaccharidose til ptosis-strabismus-ektopiske pupiller-syndrom
+{: .text-alpha }
 
 ## Resumé
 

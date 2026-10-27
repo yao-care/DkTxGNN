@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Belatacept: Forebyggelse af abstodsning efter nyreftransplantation — Ingen forudsigelser for lægemidlets nye indikationer tilgængelige
+## Belatacept: Forebyggelse af abstodsning efter nyreftransplantation — Ingen forudsigelser for lægemidlets nye indikationer tilgængelige
+{: .text-alpha }
 
 ## Sammenfatning
 

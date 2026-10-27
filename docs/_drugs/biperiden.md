@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Biperiden: Fra Parkinsons sygdom til Rasmussen subakut encephalitis
+## Biperiden: Fra Parkinsons sygdom til Rasmussen subakut encephalitis
+{: .text-alpha }
 
 ## Opsummering
 

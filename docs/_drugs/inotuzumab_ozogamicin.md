@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inotuzumab ozogamicin: Fra B-celle-akut lymfatisk leukæmi til lægemiddelinduceret osteoporose
+## Inotuzumab ozogamicin: Fra B-celle-akut lymfatisk leukæmi til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

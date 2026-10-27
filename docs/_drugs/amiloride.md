@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Amilorid: Fra hypertension til malign renovaskulær hypertension
+## Amilorid: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Resumé i én sætning
 

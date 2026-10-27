@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Efmoroctocog alfa: Fra hæmofili til pseudo-von Willebrand sygdom
+## Efmoroctocog alfa: Fra hæmofili til pseudo-von Willebrand sygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

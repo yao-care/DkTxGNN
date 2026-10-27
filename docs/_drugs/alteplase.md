@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alteplase: Fra myokardieinfarkt til posterolateralt myokardieinfarkt
+## Alteplase: Fra myokardieinfarkt til posterolateralt myokardieinfarkt
+{: .text-alpha }
 
 ## Enkeltsætningsopsummering
 

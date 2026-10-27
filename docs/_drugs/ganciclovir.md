@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Ganciclovir: Antivirusmiddel (CMV) — Ingen prognoser for genoptagelse af behandling tilgængeligt
+## Ganciclovir: Antivirusmiddel (CMV) — Ingen prognoser for genoptagelse af behandling tilgængeligt
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

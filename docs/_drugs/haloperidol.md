@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Haloperidol: Fra psykotiske lidelser til medfødt glykosyleringsforstyrrelse med defekt fucosylering
+## Haloperidol: Fra psykotiske lidelser til medfødt glykosyleringsforstyrrelse med defekt fucosylering
+{: .text-alpha }
 
 ## Resumé
 

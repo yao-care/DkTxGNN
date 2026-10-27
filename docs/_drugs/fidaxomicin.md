@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fidaxomicin: Fra Clostridium difficile-colitis til stafylokok-skoldet hud-syndrom (SSSS)
+## Fidaxomicin: Fra Clostridium difficile-colitis til stafylokok-skoldet hud-syndrom (SSSS)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

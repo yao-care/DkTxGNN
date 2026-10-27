@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ustekinumab: Fra psoriasis og psoriasisartritis til dermatitis
+## Ustekinumab: Fra psoriasis og psoriasisartritis til dermatitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

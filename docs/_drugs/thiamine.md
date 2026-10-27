@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Thiamin: Fra vitamin B1-mangel til hyperthyroidisme
+## Thiamin: Fra vitamin B1-mangel til hyperthyroidisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

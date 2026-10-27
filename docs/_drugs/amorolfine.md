@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amorolfin: Fra svampeinfektion i neglene til lægemiddelinduceret osteoporose
+## Amorolfin: Fra svampeinfektion i neglene til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

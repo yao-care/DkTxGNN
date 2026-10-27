@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Selegilin: Fra Parkinsons sygdom til skizofreni
+## Selegilin: Fra Parkinsons sygdom til skizofreni
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pembrolizumab: Fra lungekræft og metastatisk melanom til gingival fibromatose
+## Pembrolizumab: Fra lungekræft og metastatisk melanom til gingival fibromatose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

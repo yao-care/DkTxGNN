@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thiopental: Fra epilepsi til frontallapsepilepsi
+## Thiopental: Fra epilepsi til frontallapsepilepsi
+{: .text-alpha }
 
 ## Sammenfatning
 

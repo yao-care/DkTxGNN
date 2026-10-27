@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Midazolam: Fra angst til søvnløshed (insomni)
+## Midazolam: Fra angst til søvnløshed (insomni)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

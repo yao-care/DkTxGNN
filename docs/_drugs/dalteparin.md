@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Dalteparin: Fra lungeemboli og dissemineret intravaskulær koagulation til trombofili ved protein C-mangel
+## Dalteparin: Fra lungeemboli og dissemineret intravaskulær koagulation til trombofili ved protein C-mangel
+{: .text-alpha }
 
 ## Resumé i én sætning
 

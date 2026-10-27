@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pegvisomant: Fra akromegali til borderline ovarie-serøs tumor
+## Pegvisomant: Fra akromegali til borderline ovarie-serøs tumor
+{: .text-alpha }
 
 ## Resumé i én sætning
 

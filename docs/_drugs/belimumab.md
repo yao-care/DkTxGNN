@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Belimumab: Fra systemisk lupus erythematosus til primær frigivelsesforstyrrelse af blodplader
+## Belimumab: Fra systemisk lupus erythematosus til primær frigivelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

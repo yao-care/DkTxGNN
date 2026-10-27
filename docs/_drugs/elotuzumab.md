@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Elotuzumab: Multipelt myelomatose — TxGNN-prognoser ikke tilgængelige
+## Elotuzumab: Multipelt myelomatose — TxGNN-prognoser ikke tilgængelige
+{: .text-alpha }
 
 ## Ét-sætnings-opsummering
 

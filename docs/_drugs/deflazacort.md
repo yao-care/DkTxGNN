@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Deflazacort: Vurdering af lægemiddelrepurposing – Ingen TxGNN-forudsigelser tilgængelige
+## Deflazacort: Vurdering af lægemiddelrepurposing – Ingen TxGNN-forudsigelser tilgængelige
+{: .text-alpha }
 
 ---
 

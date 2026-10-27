@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Itraconazol: Fra svampeinfektioner til pneumocystose
+## Itraconazol: Fra svampeinfektioner til pneumocystose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

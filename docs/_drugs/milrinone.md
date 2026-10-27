@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Milrinon: Fra hjertesvigt til alopeci
+## Milrinon: Fra hjertesvigt til alopeci
+{: .text-alpha }
 
 ## Resumé
 

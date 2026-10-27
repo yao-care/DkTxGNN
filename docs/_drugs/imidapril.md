@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Imidapril: Fra hypertension til pulmonal hypertension (lungesygdom og/eller hypoksi)
+## Imidapril: Fra hypertension til pulmonal hypertension (lungesygdom og/eller hypoksi)
+{: .text-alpha }
 
 ## Opsummering
 

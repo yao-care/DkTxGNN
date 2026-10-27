@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mexiletin: Fra klasse IB-antiarytmikum til hypertrikose
+## Mexiletin: Fra klasse IB-antiarytmikum til hypertrikose
+{: .text-alpha }
 
 ## Resumé
 

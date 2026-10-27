@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fluoxetin: Fra depression og angstlidelser til skizotypisk personlighedsforstyrrelse
+## Fluoxetin: Fra depression og angstlidelser til skizotypisk personlighedsforstyrrelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

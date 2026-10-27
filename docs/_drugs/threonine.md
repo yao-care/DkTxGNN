@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Threonin: Fra aminosyretilskud og ernæring til gastroparese
+## Threonin: Fra aminosyretilskud og ernæring til gastroparese
+{: .text-alpha }
 
 ## Resumé
 

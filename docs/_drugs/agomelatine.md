@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Agomelatin: Fra depression til benign paroksystisk torticollis hos spædbørn
+## Agomelatin: Fra depression til benign paroksystisk torticollis hos spædbørn
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Bictegravir: Fra HIV-infektion til SIV-infektion (simian immundefektvirus)
+## Bictegravir: Fra HIV-infektion til SIV-infektion (simian immundefektvirus)
+{: .text-alpha }
 
 ## Resumé
 

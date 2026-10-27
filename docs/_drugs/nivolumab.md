@@ -31,7 +31,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nivolumab: Fra metastatisk melanom og ikke-småcellet lungekræft til ikke-kutant melanom
+## Nivolumab: Fra metastatisk melanom og ikke-småcellet lungekræft til ikke-kutant melanom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

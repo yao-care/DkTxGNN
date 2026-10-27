@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nemolizumab: Fra pruritus ved atopisk dermatitis/prurigo nodularis til diabetisk katarakt
+## Nemolizumab: Fra pruritus ved atopisk dermatitis/prurigo nodularis til diabetisk katarakt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

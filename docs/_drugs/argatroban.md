@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Argatroban: Vurdering af lægemidlers genbrug — TxGNN-forudsigelse ikke tilgængelig
+## Argatroban: Vurdering af lægemidlers genbrug — TxGNN-forudsigelse ikke tilgængelig
+{: .text-alpha }
 
 ## Sammenfatning på én sætning
 

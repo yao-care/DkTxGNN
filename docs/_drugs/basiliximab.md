@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Basiliximab: Fra transplantationsimmunsuppression til plasmacellemyelom
+## Basiliximab: Fra transplantationsimmunsuppression til plasmacellemyelom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Kodein: Fra øvre luftvejslidelser og hovedpine til lidelser i næsehulen
+## Kodein: Fra øvre luftvejslidelser og hovedpine til lidelser i næsehulen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

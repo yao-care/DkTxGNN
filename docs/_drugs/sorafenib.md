@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sorafenib: Fra leverkræft til liposarkom
+## Sorafenib: Fra leverkræft til liposarkom
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cilastatin: Fra bakterielle infektioner til lungebetændelse (pneumoni)
+## Cilastatin: Fra bakterielle infektioner til lungebetændelse (pneumoni)
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Chlorambucil: Fra Hodgkins lymfom til primært pulmonalt lymfom
+## Chlorambucil: Fra Hodgkins lymfom til primært pulmonalt lymfom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

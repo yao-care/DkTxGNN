@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Fluconazol: Fra svampeinfektioner til punktformet epitelial keratokonjunktivitis
+## Fluconazol: Fra svampeinfektioner til punktformet epitelial keratokonjunktivitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

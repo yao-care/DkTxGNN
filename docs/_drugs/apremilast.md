@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Apremilast: Fra psoriasisgigt til migræne
+## Apremilast: Fra psoriasisgigt til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

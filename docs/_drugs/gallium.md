@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Gallium: Utilstrækkelige data til fuldstændig vurdering af lægemiddelnyt brug
+## Gallium: Utilstrækkelige data til fuldstændig vurdering af lægemiddelnyt brug
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

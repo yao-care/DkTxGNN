@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Tizanidin: Fra spasticitet til migræne
+## Tizanidin: Fra spasticitet til migræne
+{: .text-alpha }
 
 ## Resumé
 

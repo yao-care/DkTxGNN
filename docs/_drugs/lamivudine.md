@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Lamivudin: Fra kronisk hepatitis B og HIV til simian immundefektvirus-infektion
+## Lamivudin: Fra kronisk hepatitis B og HIV til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé
 

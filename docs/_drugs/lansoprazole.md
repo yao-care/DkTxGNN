@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Lansoprazol: Fra mavesår og refluks til duodenogastrisk refluks
+## Lansoprazol: Fra mavesår og refluks til duodenogastrisk refluks
+{: .text-alpha }
 
 ## Resumé i én sætning
 

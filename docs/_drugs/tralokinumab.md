@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tralokinumab: Fra atopisk dermatitis til diabetisk grå stær
+## Tralokinumab: Fra atopisk dermatitis til diabetisk grå stær
+{: .text-alpha }
 
 ## Resumé i én sætning
 

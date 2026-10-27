@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sacituzumab govitecan: Fra oprindelig onkologisk anvendelse til lægemiddelinduceret osteoporose
+## Sacituzumab govitecan: Fra oprindelig onkologisk anvendelse til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

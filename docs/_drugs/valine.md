@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Valin: Fra ernæringsindikation til skleroserende cholangitis
+## Valin: Fra ernæringsindikation til skleroserende cholangitis
+{: .text-alpha }
 
 ## Resumé
 

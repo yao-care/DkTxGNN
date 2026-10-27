@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selexipag: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med medfødt hjertesygdom
+## Selexipag: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med medfødt hjertesygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

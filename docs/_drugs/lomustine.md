@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lomustin: Fra Hodgkins lymfom og hjernekræft til lymfosarkom
+## Lomustin: Fra Hodgkins lymfom og hjernekræft til lymfosarkom
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

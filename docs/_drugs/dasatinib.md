@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dasatinib: Fra kronisk myeloid leukæmi til Ewing-sarkom
+## Dasatinib: Fra kronisk myeloid leukæmi til Ewing-sarkom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

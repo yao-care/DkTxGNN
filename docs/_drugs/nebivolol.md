@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Nebivolol: Fra hypertension til malign hypertensiv nyresygdom
+## Nebivolol: Fra hypertension til malign hypertensiv nyresygdom
+{: .text-alpha }
 
 ## Resumé
 

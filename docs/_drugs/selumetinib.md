@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selumetinib: Fra neurofibromatose til perifer nerveskede-schwannom
+## Selumetinib: Fra neurofibromatose til perifer nerveskede-schwannom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

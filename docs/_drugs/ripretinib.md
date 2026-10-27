@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ripretinib: Fra godkendt indikation til multipel endokrin neoplasi
+## Ripretinib: Fra godkendt indikation til multipel endokrin neoplasi
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

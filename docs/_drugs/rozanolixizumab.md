@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rozanolixizumab: Fra myasthenia gravis til bronkitis
+## Rozanolixizumab: Fra myasthenia gravis til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

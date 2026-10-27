@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ziprasidon: Fra skizofreni og bipolær lidelse til svær affektiv lidelse
+## Ziprasidon: Fra skizofreni og bipolær lidelse til svær affektiv lidelse
+{: .text-alpha }
 
 ## Resumé
 

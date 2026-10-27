@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Olanzapin: Fra skizofreni og bipolar lidelse til godartet paroksysmal torticollis hos spædbørn
+## Olanzapin: Fra skizofreni og bipolar lidelse til godartet paroksysmal torticollis hos spædbørn
+{: .text-alpha }
 
 ## Resumé i én sætning
 

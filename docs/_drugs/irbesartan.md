@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Irbesartan: Fra hypertension til malign hypertensiv nyresygdom
+## Irbesartan: Fra hypertension til malign hypertensiv nyresygdom
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

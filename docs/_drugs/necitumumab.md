@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Necitumumab: Fra ikke-småcellet lungekræft til gingival fibromatose
+## Necitumumab: Fra ikke-småcellet lungekræft til gingival fibromatose
+{: .text-alpha }
 
 ## Resumé
 

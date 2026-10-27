@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carfilzomib: Fra myelomatose til modent melanom (melanom)
+## Carfilzomib: Fra myelomatose til modent melanom (melanom)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

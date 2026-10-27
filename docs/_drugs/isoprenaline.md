@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Isoprenalin: Fra hjertestop og AV-blok til bronkial sygdom
+## Isoprenalin: Fra hjertestop og AV-blok til bronkial sygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

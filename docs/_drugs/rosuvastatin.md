@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rosuvastatin: Fra hyperlipidæmi og iskæmisk apopleksi til familiær hyperkolesterolæmi
+## Rosuvastatin: Fra hyperlipidæmi og iskæmisk apopleksi til familiær hyperkolesterolæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

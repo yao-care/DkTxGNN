@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tezepelumab: Fra [original indikation ikke angivet] til diabetisk katarakt
+## Tezepelumab: Fra [original indikation ikke angivet] til diabetisk katarakt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

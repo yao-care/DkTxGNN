@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alemtuzumab: Fra recidiverende-remitterende multipel sklerose til kombineret immundefekt-syndrom
+## Alemtuzumab: Fra recidiverende-remitterende multipel sklerose til kombineret immundefekt-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

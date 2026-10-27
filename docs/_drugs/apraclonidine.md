@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Apraclonidin: Fra åbenvinklet glaukom til primær arvelig glaukom
+## Apraclonidin: Fra åbenvinklet glaukom til primær arvelig glaukom
+{: .text-alpha }
 
 ## Opsummering
 

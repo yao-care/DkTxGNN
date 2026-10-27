@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ruxolitinib: Fra myelofibrose og polycytæmi til perivaskulær epitelioid celletumor i livmoderen (PEComa)
+## Ruxolitinib: Fra myelofibrose og polycytæmi til perivaskulær epitelioid celletumor i livmoderen (PEComa)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

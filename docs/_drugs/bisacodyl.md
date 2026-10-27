@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Bisacodyl: Utilfuldstændig Evidence Pack — Ingen TxGNN Drug Repurposing-forudsigelser tilgængelige
+## Bisacodyl: Utilfuldstændig Evidence Pack — Ingen TxGNN Drug Repurposing-forudsigelser tilgængelige
+{: .text-alpha }
 
 ## Sammenfattelse i en sætning
 

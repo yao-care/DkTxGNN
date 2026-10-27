@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Blinatumomab: Foreløbig Vurdering — TxGNN-Forudsigelsesdata Ikke Tilgængelige
+## Blinatumomab: Foreløbig Vurdering — TxGNN-Forudsigelsesdata Ikke Tilgængelige
+{: .text-alpha }
 
 ## Sammenfatning i Én Sætning
 

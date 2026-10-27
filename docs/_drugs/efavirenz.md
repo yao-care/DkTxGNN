@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Efavirenz: Fra HIV-infektion til simian immundefektvirus-infektion
+## Efavirenz: Fra HIV-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Sammenfatning
 

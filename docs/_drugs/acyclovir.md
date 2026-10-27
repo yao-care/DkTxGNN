@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Acyclovir: Fra herpesinfektioner til almindelige vorter (common wart)
+## Acyclovir: Fra herpesinfektioner til almindelige vorter (common wart)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

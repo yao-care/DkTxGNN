@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Grapiprant: Fra osteoartrose-smerter hos hunde til amenorré
+## Grapiprant: Fra osteoartrose-smerter hos hunde til amenorré
+{: .text-alpha }
 
 ## Resumé i én sætning
 

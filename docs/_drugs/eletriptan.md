@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Eletriptan: Fra migræne til migræne med hjernestammeaura
+## Eletriptan: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering
 

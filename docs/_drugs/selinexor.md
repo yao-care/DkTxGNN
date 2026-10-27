@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selinexor: Fra manglende registreret indikation til lægemiddelinduceret osteoporose
+## Selinexor: Fra manglende registreret indikation til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Kort resumé
 

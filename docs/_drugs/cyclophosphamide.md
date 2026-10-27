@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Cyclophosphamid: Fra lymfom og brystkræft til myeloid leukæmi
+## Cyclophosphamid: Fra lymfom og brystkræft til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

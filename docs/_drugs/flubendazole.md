@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Flubendazol: Fra veterinær ormemiddel til blærekræft (urinary bladder carcinoma)
+## Flubendazol: Fra veterinær ormemiddel til blærekræft (urinary bladder carcinoma)
+{: .text-alpha }
 
 ## Resumé i en sætning
 

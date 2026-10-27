@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tilmicosin: Fra veterinær luftvejsinfektion til Jeune syndrom med situs inversus
+## Tilmicosin: Fra veterinær luftvejsinfektion til Jeune syndrom med situs inversus
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Siltuximab: Fra Castlemans sygdom til ekstrakutant mastocytom
+## Siltuximab: Fra Castlemans sygdom til ekstrakutant mastocytom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

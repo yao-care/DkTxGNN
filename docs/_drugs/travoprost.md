@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Travoprost: Fra åbenvinklet glaukom til visceral calciphylaxis
+## Travoprost: Fra åbenvinklet glaukom til visceral calciphylaxis
+{: .text-alpha }
 
 ## Resumé
 

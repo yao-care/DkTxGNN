@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Palivizumab: Fra respiratorisk syncytialvirus-infektion til godartet tumor i tungen
+## Palivizumab: Fra respiratorisk syncytialvirus-infektion til godartet tumor i tungen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Estradiol: Rapport om evaluering af lægemiddelombestemmelses
+## Estradiol: Rapport om evaluering af lægemiddelombestemmelses
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

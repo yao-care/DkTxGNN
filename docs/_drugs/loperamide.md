@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Loperamid: Fra diarré og dysenteri til akut smitsom konjunktivitis
+## Loperamid: Fra diarré og dysenteri til akut smitsom konjunktivitis
+{: .text-alpha }
 
 ## Resumé
 

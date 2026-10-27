@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Methoxsalen: Fra primært kutant T-celle-lymfom til lokaliseret pagetoid reticulose
+## Methoxsalen: Fra primært kutant T-celle-lymfom til lokaliseret pagetoid reticulose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Natalizumab: Fra Crohns sygdom og multipel sklerose til bronkitis
+## Natalizumab: Fra Crohns sygdom og multipel sklerose til bronkitis
+{: .text-alpha }
 
 ## Resumé
 

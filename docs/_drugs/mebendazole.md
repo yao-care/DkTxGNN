@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Mebendazol: Fra enterobiasis, askaridiasis og trikuriasis til akne
+## Mebendazol: Fra enterobiasis, askaridiasis og trikuriasis til akne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

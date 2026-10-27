@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alfacalcidol: Fra hyperparathyroidisme og renal osteodystrofi til familiær isoleret hypoparathyroidisme
+## Alfacalcidol: Fra hyperparathyroidisme og renal osteodystrofi til familiær isoleret hypoparathyroidisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

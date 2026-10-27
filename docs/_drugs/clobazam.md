@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clobazam: Fra Lennox-Gastaut syndrom til febril infektionsrelateret epilepsisyndrom (FIRES)
+## Clobazam: Fra Lennox-Gastaut syndrom til febril infektionsrelateret epilepsisyndrom (FIRES)
+{: .text-alpha }
 
 ## Resumé
 

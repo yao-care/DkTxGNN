@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cabotegravir: Fra oprindelig indikation til reumatoid artritis
+## Cabotegravir: Fra oprindelig indikation til reumatoid artritis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Evinacumab: Fra homozygot familiær hypercholesterolæmi til diabetisk katarakt
+## Evinacumab: Fra homozygot familiær hypercholesterolæmi til diabetisk katarakt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

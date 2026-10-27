@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Firocoxib: Veterinær COX-2-hæmmer — Ingen prognose for genvending tilgængelig
+## Firocoxib: Veterinær COX-2-hæmmer — Ingen prognose for genvending tilgængelig
+{: .text-alpha }
 
 ## Resumé på en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Mitoxantron: Fra akut myeloid leukæmi til hoved- og halskræft
+## Mitoxantron: Fra akut myeloid leukæmi til hoved- og halskræft
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Voxelotor: Fra seglcelleanæmi til arvelig trombocytopeni med normale blodplader
+## Voxelotor: Fra seglcelleanæmi til arvelig trombocytopeni med normale blodplader
+{: .text-alpha }
 
 ## Sammenfatning
 

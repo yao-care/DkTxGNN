@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Canagliflozin: Vurdering af lægemiddel til ny indikation – Bevismappe ufuldstændig
+## Canagliflozin: Vurdering af lægemiddel til ny indikation – Bevismappe ufuldstændig
+{: .text-alpha }
 
 ## Enlinjet sammendrag
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Povidon: Fra tørre øjne til kongenit ichthyosiform erytrodermi
+## Povidon: Fra tørre øjne til kongenit ichthyosiform erytrodermi
+{: .text-alpha }
 
 ## Resumé
 

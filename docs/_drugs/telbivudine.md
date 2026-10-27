@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Telbivudin: Fra kronisk hepatitis B til kronisk hepatitis C-virusinfektion
+## Telbivudin: Fra kronisk hepatitis B til kronisk hepatitis C-virusinfektion
+{: .text-alpha }
 
 ## Resumé
 

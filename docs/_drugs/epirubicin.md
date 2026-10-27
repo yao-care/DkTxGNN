@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Epirubicin: Fra brystkræft til småcellet lungekarcinom
+## Epirubicin: Fra brystkræft til småcellet lungekarcinom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

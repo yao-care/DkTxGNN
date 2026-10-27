@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Emtricitabin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+## Emtricitabin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé
 

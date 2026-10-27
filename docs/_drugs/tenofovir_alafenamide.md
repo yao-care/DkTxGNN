@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Tenofovir alafenamid: Fra HIV-infektion til simian immundefektvirus-infektion
+## Tenofovir alafenamid: Fra HIV-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé
 

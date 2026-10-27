@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rocuronium: Fra neuromuskulær blokade til migræne
+## Rocuronium: Fra neuromuskulær blokade til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

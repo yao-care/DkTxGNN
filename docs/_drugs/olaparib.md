@@ -31,7 +31,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Olaparib: Fra æggestokkræft til brystkræft hos kvinder
+## Olaparib: Fra æggestokkræft til brystkræft hos kvinder
+{: .text-alpha }
 
 ## Resumé i én sætning
 

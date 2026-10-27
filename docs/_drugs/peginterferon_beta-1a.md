@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Peginterferon beta-1a: Fra relapsing-remitting multipel sklerose til hjertetumor
+## Peginterferon beta-1a: Fra relapsing-remitting multipel sklerose til hjertetumor
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pemetrexed: Fra lungekræft og pleural mesoteliom til malignt peritonealt mesoteliom
+## Pemetrexed: Fra lungekræft og pleural mesoteliom til malignt peritonealt mesoteliom
+{: .text-alpha }
 
 ## Resumé
 

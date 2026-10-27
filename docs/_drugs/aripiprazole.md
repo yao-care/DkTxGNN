@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aripiprazol: Fra skizofreni og bipolar lidelse til svær depressiv lidelse (major affective disorder)
+## Aripiprazol: Fra skizofreni og bipolar lidelse til svær depressiv lidelse (major affective disorder)
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Pegfilgrastim: Fra manglende registreret indikation til svær ikke-proliferativ diabetisk retinopati
+## Pegfilgrastim: Fra manglende registreret indikation til svær ikke-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

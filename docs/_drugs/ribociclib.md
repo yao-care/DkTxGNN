@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ribociclib: Fra brystkræft til myeloid leukæmi
+## Ribociclib: Fra brystkræft til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

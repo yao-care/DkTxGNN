@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dorzolamid: Fra åbenvinklet glaukom til primær arvelig glaukom
+## Dorzolamid: Fra åbenvinklet glaukom til primær arvelig glaukom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

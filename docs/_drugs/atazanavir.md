@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Atazanavir: Fra HIV-infektion til felint ervervet immundefektsyndrom
+## Atazanavir: Fra HIV-infektion til felint ervervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

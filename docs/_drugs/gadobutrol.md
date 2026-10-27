@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gadobutrol: Fra MR-kontrastmiddel til benign prostatahyperplasi (TxGNN-forudsigelse)
+## Gadobutrol: Fra MR-kontrastmiddel til benign prostatahyperplasi (TxGNN-forudsigelse)
+{: .text-alpha }
 
 ## Opsummering
 

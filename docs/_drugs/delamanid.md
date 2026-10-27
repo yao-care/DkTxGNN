@@ -31,7 +31,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Delamanid: Fra multiresistent tuberkulose til inaktiv tuberkulose
+## Delamanid: Fra multiresistent tuberkulose til inaktiv tuberkulose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

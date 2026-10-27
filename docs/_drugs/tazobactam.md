@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Tazobactam: Fra bakteriel lungebetændelse til lungebetændelse (hospitalserhvervet/ventilatorassocieret) og urinvejsinfektion
+## Tazobactam: Fra bakteriel lungebetændelse til lungebetændelse (hospitalserhvervet/ventilatorassocieret) og urinvejsinfektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

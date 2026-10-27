@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Durvalumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i urinrørets prostatadel
+## Durvalumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i urinrørets prostatadel
+{: .text-alpha }
 
 ## Resumé i én sætning
 

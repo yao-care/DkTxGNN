@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Chlorprothixen: Fra skizofreni til retinal dystrofi (modelforudsigelse) – med manisk bipolar lidelse som den eneste farmakologisk plausible kandidat
+## Chlorprothixen: Fra skizofreni til retinal dystrofi (modelforudsigelse) – med manisk bipolar lidelse som den eneste farmakologisk plausible kandidat
+{: .text-alpha }
 
 ## Resumé i én sætning
 

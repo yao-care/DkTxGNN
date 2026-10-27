@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Flumazenil: Evaluering af Lægemiddelgenindikation — Bevissamling Utilstrækkelig
+## Flumazenil: Evaluering af Lægemiddelgenindikation — Bevissamling Utilstrækkelig
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

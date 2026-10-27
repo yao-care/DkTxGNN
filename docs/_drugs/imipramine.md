@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Imipramin: Fra angstlidelse og natlig enuresis til ADHD
+## Imipramin: Fra angstlidelse og natlig enuresis til ADHD
+{: .text-alpha }
 
 ## Resumé i én sætning
 

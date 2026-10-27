@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Trifaroten: Fra akne til forhøjet plasmazink
+## Trifaroten: Fra akne til forhøjet plasmazink
+{: .text-alpha }
 
 ## Resumé i én sætning
 

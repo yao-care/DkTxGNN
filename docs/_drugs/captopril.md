@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Captopril: Fra hypertension og diabetisk nefropati til malign hypertensiv nyresygdom
+## Captopril: Fra hypertension og diabetisk nefropati til malign hypertensiv nyresygdom
+{: .text-alpha }
 
 ## Opsummering
 

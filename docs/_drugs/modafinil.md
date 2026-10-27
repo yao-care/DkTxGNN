@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Modafinil: Fra narkolepsi til insomni
+## Modafinil: Fra narkolepsi til insomni
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Escitalopram: Vurdering af lægemidlet til ny brug — Utilstrækkelige data til forudsigelse
+## Escitalopram: Vurdering af lægemidlet til ny brug — Utilstrækkelige data til forudsigelse
+{: .text-alpha }
 
 ## Sammenfatning på en sætning
 

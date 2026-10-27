@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Guaifenesin: Fra øvre luftvejslidelser til sygdom i næsehulen
+## Guaifenesin: Fra øvre luftvejslidelser til sygdom i næsehulen
+{: .text-alpha }
 
 ## Resumé
 

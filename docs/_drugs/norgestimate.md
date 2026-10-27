@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Norgestimat: Fra prævention og hormonrelaterede tilstande til forhøjet plasmazink
+## Norgestimat: Fra prævention og hormonrelaterede tilstande til forhøjet plasmazink
+{: .text-alpha }
 
 ## Resumé i én sætning
 

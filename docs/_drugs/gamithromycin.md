@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gamithromycin: Fra veterinær makrolidantibiotikum til interventrikulært septumaneurisme
+## Gamithromycin: Fra veterinær makrolidantibiotikum til interventrikulært septumaneurisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

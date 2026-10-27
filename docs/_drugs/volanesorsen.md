@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Volanesorsen: Fra manglende registreret indikation til megaloblastær anæmi
+## Volanesorsen: Fra manglende registreret indikation til megaloblastær anæmi
+{: .text-alpha }
 
 ## Sammenfatning i få sætninger
 

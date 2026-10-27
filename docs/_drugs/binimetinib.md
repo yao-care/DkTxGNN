@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Binimetinib: MEK1/2-hæmmer — Evaluering på hold (ufuldstændig bevissamling)
+## Binimetinib: MEK1/2-hæmmer — Evaluering på hold (ufuldstændig bevissamling)
+{: .text-alpha }
 
 ## Resumé på én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sunitinib: Fra nyrecellekarcinom og gastrointestinal stromal tumor til liposarkom
+## Sunitinib: Fra nyrecellekarcinom og gastrointestinal stromal tumor til liposarkom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

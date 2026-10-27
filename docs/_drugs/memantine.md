@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Memantin: Fra demens (Alzheimers sygdom) til migræne
+## Memantin: Fra demens (Alzheimers sygdom) til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

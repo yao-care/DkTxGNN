@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fremanezumab: Fra migræne til migræne med hjernestammeaura
+## Fremanezumab: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

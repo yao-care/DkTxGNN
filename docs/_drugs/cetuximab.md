@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cetuximab: Fra kolorektal cancer til duktal eller duktulær proliferation
+## Cetuximab: Fra kolorektal cancer til duktal eller duktulær proliferation
+{: .text-alpha }
 
 ## Resumé i én sætning
 

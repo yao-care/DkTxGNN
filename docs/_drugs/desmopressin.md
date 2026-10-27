@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Desmopressin: Fra von Willebrand-sygdom og natlig enuresis til medfødt protrombinmangel
+## Desmopressin: Fra von Willebrand-sygdom og natlig enuresis til medfødt protrombinmangel
+{: .text-alpha }
 
 ## Resumé
 

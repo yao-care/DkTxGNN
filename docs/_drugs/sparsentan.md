@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sparsentan: Fra nyresygdom til alopeci
+## Sparsentan: Fra nyresygdom til alopeci
+{: .text-alpha }
 
 ## Opsummering
 

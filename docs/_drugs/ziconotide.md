@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ziconotid: Fra svær kronisk smerte til migræne
+## Ziconotid: Fra svær kronisk smerte til migræne
+{: .text-alpha }
 
 ## Resumé
 

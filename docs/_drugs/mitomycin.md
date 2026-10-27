@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mitomycin: Fra pancreasadenokarcinom til osteoklastisk kæmpecelletumor i pancreas
+## Mitomycin: Fra pancreasadenokarcinom til osteoklastisk kæmpecelletumor i pancreas
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

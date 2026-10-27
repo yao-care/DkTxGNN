@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Grazoprevir: Fra kronisk hepatitis C til HIV-infektion
+## Grazoprevir: Fra kronisk hepatitis C til HIV-infektion
+{: .text-alpha }
 
 ## Resumé
 

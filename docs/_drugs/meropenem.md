@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Meropenem: Fra bakterielle infektioner til bakteriel artritis
+## Meropenem: Fra bakterielle infektioner til bakteriel artritis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aprepitant: Fra oprindelig indikation til nefrogent syndrom med uhensigtsmæssig antidiurese
+## Aprepitant: Fra oprindelig indikation til nefrogent syndrom med uhensigtsmæssig antidiurese
+{: .text-alpha }
 
 ## Resumé i én sætning
 

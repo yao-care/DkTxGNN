@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carbamazepin: Fra epilepsi til trigeminusnervetumor
+## Carbamazepin: Fra epilepsi til trigeminusnervetumor
+{: .text-alpha }
 
 ## Resumé
 

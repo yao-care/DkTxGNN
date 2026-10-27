@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bosutinib: Fra kronisk myeloid leukæmi i blastfase til myeloid leukæmi
+## Bosutinib: Fra kronisk myeloid leukæmi i blastfase til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé
 

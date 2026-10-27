@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Hydroxyzin: Fra atopisk eksem og urticaria til allergisk urticaria
+## Hydroxyzin: Fra atopisk eksem og urticaria til allergisk urticaria
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

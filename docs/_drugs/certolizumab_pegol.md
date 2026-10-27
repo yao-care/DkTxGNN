@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Certolizumab pegol: Fra Crohns sygdom til reumatoid vaskulitis
+## Certolizumab pegol: Fra Crohns sygdom til reumatoid vaskulitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

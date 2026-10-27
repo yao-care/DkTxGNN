@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceftolozan: Fra urinvejsinfektion til Ureaplasma-uretritis
+## Ceftolozan: Fra urinvejsinfektion til Ureaplasma-uretritis
+{: .text-alpha }
 
 ## Resumé i en sætning
 

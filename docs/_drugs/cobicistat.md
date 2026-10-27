@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Cobicistat: Fra HIV-infektion til simian immundefektvirus-infektion
+## Cobicistat: Fra HIV-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

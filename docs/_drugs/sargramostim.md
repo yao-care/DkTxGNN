@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sargramostim: Fra ikke angivet oprindelig indikation til lægemiddelinduceret osteoporose
+## Sargramostim: Fra ikke angivet oprindelig indikation til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

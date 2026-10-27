@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Damoctocog alfa pegol: Evaluering afventende — Ingen TxGNN-repurposingforudsigelser tilgængelige
+## Damoctocog alfa pegol: Evaluering afventende — Ingen TxGNN-repurposingforudsigelser tilgængelige
+{: .text-alpha }
 
 ## Sammenfatning
 

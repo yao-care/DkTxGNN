@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Lincomycin: Fra bakterielle infektioner til hyperamylasæmi
+## Lincomycin: Fra bakterielle infektioner til hyperamylasæmi
+{: .text-alpha }
 
 ## Resumé i få sætninger
 

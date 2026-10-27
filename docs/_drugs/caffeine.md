@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Koffein: Fra migræne og hovedpine til næsehulesygdom
+## Koffein: Fra migræne og hovedpine til næsehulesygdom
+{: .text-alpha }
 
 ## Opsummering
 

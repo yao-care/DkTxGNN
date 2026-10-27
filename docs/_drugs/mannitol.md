@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mannitol: Fra hjerneødem og intrakraniel hypertension til nefrogent syndrom med uhensigtsmæssig antidiurese
+## Mannitol: Fra hjerneødem og intrakraniel hypertension til nefrogent syndrom med uhensigtsmæssig antidiurese
+{: .text-alpha }
 
 ## Resumé i én sætning
 

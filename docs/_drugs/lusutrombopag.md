@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lusutrombopag: Fra trombocytopeni til arvelig trombocytopeni med normale blodplader
+## Lusutrombopag: Fra trombocytopeni til arvelig trombocytopeni med normale blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

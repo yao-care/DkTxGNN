@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rifabutin: Fra mykobakterielle infektioner til HIV-associerede opportunistiske mykobakterielle infektioner
+## Rifabutin: Fra mykobakterielle infektioner til HIV-associerede opportunistiske mykobakterielle infektioner
+{: .text-alpha }
 
 ## Resumé i én sætning
 

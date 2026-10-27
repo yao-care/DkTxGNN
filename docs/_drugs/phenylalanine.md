@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Phenylalanin: Fra aminosyreernæring til primær skleroserende kolangitis
+## Phenylalanin: Fra aminosyreernæring til primær skleroserende kolangitis
+{: .text-alpha }
 
 ## Resumé
 

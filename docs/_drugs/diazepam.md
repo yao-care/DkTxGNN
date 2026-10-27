@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Diazepam: Fra epilepsi og angst til insomni
+## Diazepam: Fra epilepsi og angst til insomni
+{: .text-alpha }
 
 ## Resumé i én sætning
 

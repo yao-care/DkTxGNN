@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ranibizumab: Fra diabetisk retinopati til svær non-proliferativ diabetisk retinopati
+## Ranibizumab: Fra diabetisk retinopati til svær non-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

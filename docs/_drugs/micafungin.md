@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Micafungin: Fra esophageal candidiasis og candidæmi til urinvejsinfektion (Candida)
+## Micafungin: Fra esophageal candidiasis og candidæmi til urinvejsinfektion (Candida)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

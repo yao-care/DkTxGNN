@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nitisinon: Fra tyrosinæmi til renal tubulær acidose
+## Nitisinon: Fra tyrosinæmi til renal tubulær acidose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

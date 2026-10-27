@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oteracil: Fra mavekræft til kolonneoplasi (colonic neoplasm)
+## Oteracil: Fra mavekræft til kolonneoplasi (colonic neoplasm)
+{: .text-alpha }
 
 ## Opsummering
 

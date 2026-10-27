@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Voclosporin: Fra lupusnefritis til primær frigørelsesforstyrrelse af blodplader
+## Voclosporin: Fra lupusnefritis til primær frigørelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

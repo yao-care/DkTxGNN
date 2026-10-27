@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Clotrimazol: Fra svampeinfektioner i hud og slimhinder til acne
+## Clotrimazol: Fra svampeinfektioner i hud og slimhinder til acne
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

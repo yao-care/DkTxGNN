@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brentuximab vedotin: Fra Hodgkin-lymfom til follikulært lymfom
+## Brentuximab vedotin: Fra Hodgkin-lymfom til follikulært lymfom
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clindamycin: Fra bakterielle infektioner til punktat epitelial keratokonjunktivitis
+## Clindamycin: Fra bakterielle infektioner til punktat epitelial keratokonjunktivitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

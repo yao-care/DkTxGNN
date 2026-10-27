@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Encorafenib: Evaluering ufuldstændig — der blev ikke genereret præpositioneringsforudsigelser
+## Encorafenib: Evaluering ufuldstændig — der blev ikke genereret præpositioneringsforudsigelser
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

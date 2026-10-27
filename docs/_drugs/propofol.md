@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Propofol: Fra generel anæstesi til migræne
+## Propofol: Fra generel anæstesi til migræne
+{: .text-alpha }
 
 ## Resumé i en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Ketoconazol: Fra svampeinfektioner i huden til akne
+## Ketoconazol: Fra svampeinfektioner i huden til akne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

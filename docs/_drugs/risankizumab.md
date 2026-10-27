@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Risankizumab: Fra psoriasis til dermatitis
+## Risankizumab: Fra psoriasis til dermatitis
+{: .text-alpha }
 
 ## Enkelt oversigtssætning
 

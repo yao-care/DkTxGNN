@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etoposid: Fra småcellet lungekræft og kimcelletumorer til Ewing-sarkom
+## Etoposid: Fra småcellet lungekræft og kimcelletumorer til Ewing-sarkom
+{: .text-alpha }
 
 ## Opsummering
 

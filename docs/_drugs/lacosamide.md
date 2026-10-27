@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lacosamid: Fra epilepsi til migræne
+## Lacosamid: Fra epilepsi til migræne
+{: .text-alpha }
 
 ## Resumé
 

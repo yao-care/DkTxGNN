@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Azathioprin: Fra reumatoid artrit til colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+## Azathioprin: Fra reumatoid artrit til colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Pimecrolimus: Fra atopisk eksem til seboroisk dermatitis
+## Pimecrolimus: Fra atopisk eksem til seboroisk dermatitis
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Abemaciclib: Fra oprindelig indikation til leddegigt (rheumatoid arthritis)
+## Abemaciclib: Fra oprindelig indikation til leddegigt (rheumatoid arthritis)
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Sulfadoxin: Fra malariabehandling til urinsyregigt (gout)
+## Sulfadoxin: Fra malariabehandling til urinsyregigt (gout)
+{: .text-alpha }
 
 ## Resumé
 

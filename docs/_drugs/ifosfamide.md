@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ifosfamid: Fra [oprindelig indikation ikke angivet] til bredt sarkom – rhabdomyosarkom (rhabdomyosarcoma)
+## Ifosfamid: Fra [oprindelig indikation ikke angivet] til bredt sarkom – rhabdomyosarkom (rhabdomyosarcoma)
+{: .text-alpha }
 
 ## Opsummering i en enkelt sætning
 

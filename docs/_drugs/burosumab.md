@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Burosumab: Fra arvelig hypofosfatæmisk rakitis til renal osteodystrofi
+## Burosumab: Fra arvelig hypofosfatæmisk rakitis til renal osteodystrofi
+{: .text-alpha }
 
 ## Resumé
 

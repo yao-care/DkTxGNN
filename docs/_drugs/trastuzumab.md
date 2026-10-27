@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trastuzumab: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+## Trastuzumab: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+{: .text-alpha }
 
 ## Resumé i én sætning
 

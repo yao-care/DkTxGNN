@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Esomeprazol: Fra mavesyrerelaterede sygdomme til duodenogastrisk reflux
+## Esomeprazol: Fra mavesyrerelaterede sygdomme til duodenogastrisk reflux
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

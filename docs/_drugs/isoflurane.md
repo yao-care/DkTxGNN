@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Isoflurane: Fra inhalationsanæstesi til Prinzmetal-angina
+## Isoflurane: Fra inhalationsanæstesi til Prinzmetal-angina
+{: .text-alpha }
 
 ## Resumé i én sætning
 

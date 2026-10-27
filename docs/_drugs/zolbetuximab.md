@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zolbetuximab: Fra mavekræft til diabetisk grå stær
+## Zolbetuximab: Fra mavekræft til diabetisk grå stær
+{: .text-alpha }
 
 ## Resumé i én sætning
 

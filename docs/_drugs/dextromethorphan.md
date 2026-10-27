@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Dextromethorphan: Fra forkølelse og rhinitis til sygdomme i næsehulen
+## Dextromethorphan: Fra forkølelse og rhinitis til sygdomme i næsehulen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

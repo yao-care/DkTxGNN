@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Busulfan: Fra konditionering ved stamcelletransplantation til myelodysplastisk syndrom
+## Busulfan: Fra konditionering ved stamcelletransplantation til myelodysplastisk syndrom
+{: .text-alpha }
 
 ## Resumé
 

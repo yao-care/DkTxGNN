@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Framycetin: Fra lokal antibiotisk behandling til skleroserende cholangitis
+## Framycetin: Fra lokal antibiotisk behandling til skleroserende cholangitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

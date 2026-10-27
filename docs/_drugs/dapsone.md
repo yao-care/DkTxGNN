@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Dapsone: Fra dermatitis herpetiformis, acne og lepra til pneumocystose
+## Dapsone: Fra dermatitis herpetiformis, acne og lepra til pneumocystose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

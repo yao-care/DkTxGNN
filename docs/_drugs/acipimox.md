@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Lægemiddel-omformålingsbevisrapport — Acipimox (DB09055)
+## Lægemiddel-omformålingsbevisrapport — Acipimox (DB09055)
+{: .text-alpha }
 
 **Udarbejdet for:** Dansk Lægemiddelstyrelse
 **Rapportversion:** v4

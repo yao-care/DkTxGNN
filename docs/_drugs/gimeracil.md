@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gimeracil: Fra mavekræft til tyktarmskræft (colonic neoplasm)
+## Gimeracil: Fra mavekræft til tyktarmskræft (colonic neoplasm)
+{: .text-alpha }
 
 ## Opsummering
 

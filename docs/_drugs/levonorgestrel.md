@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Levonorgestrel: Fra osteoporose til akne
+## Levonorgestrel: Fra osteoporose til akne
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dibotermin alfa: Fra intervertebral diskusdegeneration og tibiafraktur til esotropi
+## Dibotermin alfa: Fra intervertebral diskusdegeneration og tibiafraktur til esotropi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

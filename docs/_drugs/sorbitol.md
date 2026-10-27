@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Sorbitol: Fra ingen registreret indikation til udøvelsesudløst malign hypertermi
+## Sorbitol: Fra ingen registreret indikation til udøvelsesudløst malign hypertermi
+{: .text-alpha }
 
 ## Resumé
 

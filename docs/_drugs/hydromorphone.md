@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Hydromorphon: Fra forkølelse og nasopharyngitis til pharyngitis
+## Hydromorphon: Fra forkølelse og nasopharyngitis til pharyngitis
+{: .text-alpha }
 
 ## Opsummering
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Bivalirudin: Ingen gendestinationsbestemmelseskandidater identificeret af TxGNN
+## Bivalirudin: Ingen gendestinationsbestemmelseskandidater identificeret af TxGNN
+{: .text-alpha }
 
 ## Resumé på en sætning
 

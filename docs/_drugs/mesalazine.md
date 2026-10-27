@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Mesalazin: Fra colitis ulcerosa til leddegigt (reumatoid artritis)
+## Mesalazin: Fra colitis ulcerosa til leddegigt (reumatoid artritis)
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

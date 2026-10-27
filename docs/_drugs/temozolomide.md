@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Temozolomid: Fra gliom (anaplastisk astrocytom og glioblastom) til voksen astrocytær tumor
+## Temozolomid: Fra gliom (anaplastisk astrocytom og glioblastom) til voksen astrocytær tumor
+{: .text-alpha }
 
 ## Resumé i én sætning
 

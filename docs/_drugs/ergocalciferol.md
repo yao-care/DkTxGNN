@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ergocalciferol: Fra D-vitaminmangel og knoglesygdomme til renal osteodystrofi
+## Ergocalciferol: Fra D-vitaminmangel og knoglesygdomme til renal osteodystrofi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

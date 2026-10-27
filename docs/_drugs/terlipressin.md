@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Terlipressin: Fra ukendt oprindelig indikation til pulmonal hypertension
+## Terlipressin: Fra ukendt oprindelig indikation til pulmonal hypertension
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pimozid: Fra Tourettes syndrom til trikotillomani
+## Pimozid: Fra Tourettes syndrom til trikotillomani
+{: .text-alpha }
 
 ## Resumé i én sætning
 

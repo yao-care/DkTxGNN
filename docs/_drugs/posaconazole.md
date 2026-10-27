@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Posaconazol: Fra svampeinfektioner til pneumocystose
+## Posaconazol: Fra svampeinfektioner til pneumocystose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

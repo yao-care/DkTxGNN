@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tremelimumab: Fra onkologi til diabetisk grå stær
+## Tremelimumab: Fra onkologi til diabetisk grå stær
+{: .text-alpha }
 
 ## Resumé i én sætning
 

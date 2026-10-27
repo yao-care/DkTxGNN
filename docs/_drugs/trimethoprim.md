@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Trimethoprim: Fra urinvejsinfektion til punktat epitelial keratokonjunktivitis
+## Trimethoprim: Fra urinvejsinfektion til punktat epitelial keratokonjunktivitis
+{: .text-alpha }
 
 ## Opsummering i ét afsnit
 

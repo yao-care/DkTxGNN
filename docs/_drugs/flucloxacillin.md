@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Flucloxacillin: Fra bakterielle infektioner til konjunktivitis
+## Flucloxacillin: Fra bakterielle infektioner til konjunktivitis
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

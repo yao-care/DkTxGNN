@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Florfenicol: Fra et dyrelægemiddel uden angiven human indikation til interventrikulær septumaneurisme
+## Florfenicol: Fra et dyrelægemiddel uden angiven human indikation til interventrikulær septumaneurisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

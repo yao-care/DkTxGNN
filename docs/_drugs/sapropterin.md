@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Sapropterin: Fra phenylketonuri til forstyrrelse af tyrosinmetabolismen
+## Sapropterin: Fra phenylketonuri til forstyrrelse af tyrosinmetabolismen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

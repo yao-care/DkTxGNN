@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Apomorfin: Fra Parkinsons sygdom til skizofreni
+## Apomorfin: Fra Parkinsons sygdom til skizofreni
+{: .text-alpha }
 
 ## Resumé
 

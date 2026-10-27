@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ocrelizumab: Fra progressiv multipel sklerose til HER2-positiv brystkarcinom
+## Ocrelizumab: Fra progressiv multipel sklerose til HER2-positiv brystkarcinom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

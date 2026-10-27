@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ioversol: Fra radiologisk kontraststof til slidgigt (osteoarthritis)
+## Ioversol: Fra radiologisk kontraststof til slidgigt (osteoarthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

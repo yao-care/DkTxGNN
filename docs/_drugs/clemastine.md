@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Clemastin: Fra allergisk rhinitis og urticaria til allergisk urticaria
+## Clemastin: Fra allergisk rhinitis og urticaria til allergisk urticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Isavuconazonium: Fra aspergillose til mycetom
+## Isavuconazonium: Fra aspergillose til mycetom
+{: .text-alpha }
 
 ## Resumé i en sætning
 

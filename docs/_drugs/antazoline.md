@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Antazolin: Fra allergisk rhinitis og urticaria til allergisk urticaria
+## Antazolin: Fra allergisk rhinitis og urticaria til allergisk urticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

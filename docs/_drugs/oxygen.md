@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxygen: Fra ingen registreret indikation til tørre øjne (dry eye syndrome)
+## Oxygen: Fra ingen registreret indikation til tørre øjne (dry eye syndrome)
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Ivosidenib: Fra akut myeloid leukæmi til bulbær polio
+## Ivosidenib: Fra akut myeloid leukæmi til bulbær polio
+{: .text-alpha }
 
 ## Resumé i én sætning
 

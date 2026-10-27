@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tafasitamab: Fra original indikation til lægemiddelinduceret osteoporose
+## Tafasitamab: Fra original indikation til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

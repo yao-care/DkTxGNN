@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Fosamprenavir: Fra HIV/AIDS til felint erhvervet immundefektsyndrom
+## Fosamprenavir: Fra HIV/AIDS til felint erhvervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé
 

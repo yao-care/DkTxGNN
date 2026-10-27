@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ipratropium: Fra kronisk obstruktiv lungesygdom (KOL) til obstruktiv lungesygdom
+## Ipratropium: Fra kronisk obstruktiv lungesygdom (KOL) til obstruktiv lungesygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Decitabin: Fra akut myeloid leukæmi til refraktær cytopeni hos børn
+## Decitabin: Fra akut myeloid leukæmi til refraktær cytopeni hos børn
+{: .text-alpha }
 
 ## Resumé i én sætning
 

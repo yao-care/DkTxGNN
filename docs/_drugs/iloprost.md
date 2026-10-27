@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iloprost: Fra pulmonal arteriel hypertension til hypotrichosis simplex i hovedbunden
+## Iloprost: Fra pulmonal arteriel hypertension til hypotrichosis simplex i hovedbunden
+{: .text-alpha }
 
 ## Resumé i én sætning
 

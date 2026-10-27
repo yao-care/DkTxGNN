@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Regorafenib: Fra kolorektal cancer og leverkræft til liposarkom
+## Regorafenib: Fra kolorektal cancer og leverkræft til liposarkom
+{: .text-alpha }
 
 ## Resumé
 

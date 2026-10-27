@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Lenalidomid: Fra myelomatose og myelodysplastisk syndrom til myeloid leukæmi
+## Lenalidomid: Fra myelomatose og myelodysplastisk syndrom til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

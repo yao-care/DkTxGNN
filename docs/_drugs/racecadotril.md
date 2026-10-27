@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Racecadotril: Fra akut diarré til polyklonalt hyperviskositetssyndrom
+## Racecadotril: Fra akut diarré til polyklonalt hyperviskositetssyndrom
+{: .text-alpha }
 
 ## Resumé
 

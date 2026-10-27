@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pirfenidon: Fra idiopatisk lungefibrose til fibroblastisk neoplasi
+## Pirfenidon: Fra idiopatisk lungefibrose til fibroblastisk neoplasi
+{: .text-alpha }
 
 ## Resumé
 

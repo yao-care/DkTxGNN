@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Concizumab: Fra hæmofili til diabetisk grå stær
+## Concizumab: Fra hæmofili til diabetisk grå stær
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Allopurinol: Fra urinsyregigt til hepatisk porfyri
+## Allopurinol: Fra urinsyregigt til hepatisk porfyri
+{: .text-alpha }
 
 ## Resumé i én sætning
 

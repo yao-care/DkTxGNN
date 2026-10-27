@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Benralizumab: Fra eosinofil lungebetændelse til dermatitis
+## Benralizumab: Fra eosinofil lungebetændelse til dermatitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Betaxolol: Fra hypertension og åbenvinklet glaukom til primær arvelig glaukom
+## Betaxolol: Fra hypertension og åbenvinklet glaukom til primær arvelig glaukom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

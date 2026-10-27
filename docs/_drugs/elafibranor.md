@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Elafibranor: Fra primær biliær cholangitis til amenoré
+## Elafibranor: Fra primær biliær cholangitis til amenoré
+{: .text-alpha }
 
 ## Resumé i én sætning
 

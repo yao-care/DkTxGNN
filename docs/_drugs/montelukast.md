@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Montelukast: Fra allergisk rhinitis og astma til bronkitis
+## Montelukast: Fra allergisk rhinitis og astma til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

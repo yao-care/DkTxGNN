@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Voxilaprevir: Fra hepatitis C til hepatitis B-virusinfektion
+## Voxilaprevir: Fra hepatitis C til hepatitis B-virusinfektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Susoctocog alfa: Fra erhvervet hæmofili til primær frigivelsesforstyrrelse af blodplader
+## Susoctocog alfa: Fra erhvervet hæmofili til primær frigivelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

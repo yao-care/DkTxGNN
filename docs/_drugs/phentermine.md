@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Phentermin: Fra fedme til hypervitaminose
+## Phentermin: Fra fedme til hypervitaminose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

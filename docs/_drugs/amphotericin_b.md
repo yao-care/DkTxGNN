@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Amphotericin B: Evaluering af genfinding af lægemiddel — Ingen TxGNN-prognoser genereret
+## Amphotericin B: Evaluering af genfinding af lægemiddel — Ingen TxGNN-prognoser genereret
+{: .text-alpha }
 
 ---
 

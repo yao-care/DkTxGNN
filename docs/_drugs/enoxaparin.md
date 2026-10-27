@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Enoxaparin: Fra pulmonal emboli og dissemineret intravaskulær koagulation til trombofili på grund af protein C-mangel (autosomal recessiv)
+## Enoxaparin: Fra pulmonal emboli og dissemineret intravaskulær koagulation til trombofili på grund af protein C-mangel (autosomal recessiv)
+{: .text-alpha }
 
 ## Resumé i en sætning
 

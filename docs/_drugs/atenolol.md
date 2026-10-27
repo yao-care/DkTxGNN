@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atenolol: Fra hypertension og myokardieinfarkt til posteroinferiort myokardieinfarkt
+## Atenolol: Fra hypertension og myokardieinfarkt til posteroinferiort myokardieinfarkt
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

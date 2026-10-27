@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Relugolix: Fra (ikke angivet indikation) til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+## Relugolix: Fra (ikke angivet indikation) til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

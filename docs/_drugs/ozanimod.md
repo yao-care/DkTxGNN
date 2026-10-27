@@ -31,7 +31,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Ozanimod: Fra multipel sklerose til progressiv recidiverende multipel sklerose
+## Ozanimod: Fra multipel sklerose til progressiv recidiverende multipel sklerose
+{: .text-alpha }
 
 ## Resumé
 

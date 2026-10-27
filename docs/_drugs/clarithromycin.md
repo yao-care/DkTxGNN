@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clarithromycin: Fra bakterielle luftvejsinfektioner til hyperamylasæmi
+## Clarithromycin: Fra bakterielle luftvejsinfektioner til hyperamylasæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

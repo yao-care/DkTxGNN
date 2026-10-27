@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amiodaron: Fra ventrikelflimren til ventrikulær takykardi
+## Amiodaron: Fra ventrikelflimren til ventrikulær takykardi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

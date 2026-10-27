@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dexrazoxan: Fra kardioprotektion til skleroserende kolangitis
+## Dexrazoxan: Fra kardioprotektion til skleroserende kolangitis
+{: .text-alpha }
 
 ## Resumé
 

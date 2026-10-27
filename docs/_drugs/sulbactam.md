@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Sulbactam: Fra cholangitis og stafylokokinfektioner til bakteriel artritis
+## Sulbactam: Fra cholangitis og stafylokokinfektioner til bakteriel artritis
+{: .text-alpha }
 
 ## Resumé
 

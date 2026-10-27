@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Methadon: Fra opioidsubstitution til Tourettes syndrom
+## Methadon: Fra opioidsubstitution til Tourettes syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

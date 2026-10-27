@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Cinchocain: Fra dermatitis til bronkitis
+## Cinchocain: Fra dermatitis til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

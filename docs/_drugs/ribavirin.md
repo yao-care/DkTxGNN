@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ribavirin: Fra hepatitis C til kronisk hepatitis B-virusinfektion
+## Ribavirin: Fra hepatitis C til kronisk hepatitis B-virusinfektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

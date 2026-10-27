@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thiamphenicol: Fra bakteriel infektion til interventrikulær septumaneurisme
+## Thiamphenicol: Fra bakteriel infektion til interventrikulær septumaneurisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

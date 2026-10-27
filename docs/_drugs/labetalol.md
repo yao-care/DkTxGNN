@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Labetalol: Fra hypertension til malign renovaskulær hypertension
+## Labetalol: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Darunavir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Darunavir: Fra HIV-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ertapenem: Fra bakteriel lungebetændelse til Staphylococcus aureus-infektion
+## Ertapenem: Fra bakteriel lungebetændelse til Staphylococcus aureus-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

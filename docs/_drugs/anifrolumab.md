@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anifrolumab: Fra systemisk lupus erythematosus til diabetisk katarakt
+## Anifrolumab: Fra systemisk lupus erythematosus til diabetisk katarakt
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

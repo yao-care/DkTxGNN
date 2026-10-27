@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Fenfluramin: Fra fedme til proksimalt 16p11.2-mikrodeletionssyndrom
+## Fenfluramin: Fra fedme til proksimalt 16p11.2-mikrodeletionssyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Adalimumab: Fra reumatoid artrit til reumatoid vaskulitis
+## Adalimumab: Fra reumatoid artrit til reumatoid vaskulitis
+{: .text-alpha }
 
 ## Resumé i få sætninger
 

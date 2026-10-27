@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tolvaptan: Fra SIADH og polycystisk nyresygdom til polycystisk nyresygdom type 3 med eller uden polycystisk leversygdom
+## Tolvaptan: Fra SIADH og polycystisk nyresygdom til polycystisk nyresygdom type 3 med eller uden polycystisk leversygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

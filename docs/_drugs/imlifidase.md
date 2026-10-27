@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imlifidase: Fra transplantationsdesensibilisering til diabetisk grå stær
+## Imlifidase: Fra transplantationsdesensibilisering til diabetisk grå stær
+{: .text-alpha }
 
 ## Resumé
 

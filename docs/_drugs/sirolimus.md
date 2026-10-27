@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sirolimus: Fra nyrecellekarcinom og lymfangioleiomyomatose til liposarkom
+## Sirolimus: Fra nyrecellekarcinom og lymfangioleiomyomatose til liposarkom
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Procyclidin: Fra Parkinsons sygdom til Rasmussens subakutte encefalitis
+## Procyclidin: Fra Parkinsons sygdom til Rasmussens subakutte encefalitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

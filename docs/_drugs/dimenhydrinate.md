@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Dimenhydrinat: Fra svimmelhed og køresyge til allergisk urticaria
+## Dimenhydrinat: Fra svimmelhed og køresyge til allergisk urticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bimatoprost: Fra glaukom til misdannelsessyndrom med tand- og/eller parodontalkomponent
+## Bimatoprost: Fra glaukom til misdannelsessyndrom med tand- og/eller parodontalkomponent
+{: .text-alpha }
 
 ## Resumé i én sætning
 

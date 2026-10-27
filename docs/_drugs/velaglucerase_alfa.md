@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Velaglucerase alfa: Fra Gauchers sygdom til Steel syndrom
+## Velaglucerase alfa: Fra Gauchers sygdom til Steel syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

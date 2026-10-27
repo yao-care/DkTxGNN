@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Doxorubicin: Fra akut lymfatisk leukæmi og lymfomer til Ewing-sarkom
+## Doxorubicin: Fra akut lymfatisk leukæmi og lymfomer til Ewing-sarkom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

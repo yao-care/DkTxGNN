@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alitretinoin: Fra håndeksem til amenoré (prædiktion)
+## Alitretinoin: Fra håndeksem til amenoré (prædiktion)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

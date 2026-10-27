@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tipranavir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Tipranavir: Fra HIV-infektion til simian immundefektvirus-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

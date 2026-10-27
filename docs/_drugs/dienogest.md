@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dienogest: Fra endometriose til amenoré
+## Dienogest: Fra endometriose til amenoré
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Ciclosporin: Fra reumatoid artritis og tørre øjne til kronisk granulomatøs sygdom
+## Ciclosporin: Fra reumatoid artritis og tørre øjne til kronisk granulomatøs sygdom
+{: .text-alpha }
 
 ## Resumé
 

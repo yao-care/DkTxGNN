@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gemcitabin: Fra ovariecancer til brystkarcinom (kvinde)
+## Gemcitabin: Fra ovariecancer til brystkarcinom (kvinde)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

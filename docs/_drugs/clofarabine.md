@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clofarabin: Fra akut lymfoblastær leukæmi til myeloid leukæmi
+## Clofarabin: Fra akut lymfoblastær leukæmi til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé
 

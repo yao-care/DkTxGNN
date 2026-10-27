@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Mianserin: Fra unipolar depression til godartet paroksysmal torticollis hos spædbørn
+## Mianserin: Fra unipolar depression til godartet paroksysmal torticollis hos spædbørn
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

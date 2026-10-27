@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Primidon: Fra epilepsi til trigeminusnervetumor
+## Primidon: Fra epilepsi til trigeminusnervetumor
+{: .text-alpha }
 
 ## Resumé i én sætning
 

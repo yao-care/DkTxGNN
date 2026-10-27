@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pyrazinamid: Fra tuberkulose til infektiøs otitis media
+## Pyrazinamid: Fra tuberkulose til infektiøs otitis media
+{: .text-alpha }
 
 ## Resumé
 

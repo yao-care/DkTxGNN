@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Prilocain: Fra for tidlig sædafgang til neuralgi
+## Prilocain: Fra for tidlig sædafgang til neuralgi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

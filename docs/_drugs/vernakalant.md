@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Vernakalant: Fra atrieflimren til slagtilfælde
+## Vernakalant: Fra atrieflimren til slagtilfælde
+{: .text-alpha }
 
 ## Opsummering
 

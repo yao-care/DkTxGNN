@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Metamizol: Fra smertelindring til reumatoid artritis
+## Metamizol: Fra smertelindring til reumatoid artritis
+{: .text-alpha }
 
 ## Et-sætnings resumé
 

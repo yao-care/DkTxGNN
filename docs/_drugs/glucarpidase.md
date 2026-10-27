@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Glucarpidase: Fra methotrexat-toksicitet til diabetisk grå stær
+## Glucarpidase: Fra methotrexat-toksicitet til diabetisk grå stær
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

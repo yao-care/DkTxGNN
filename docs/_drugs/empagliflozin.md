@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Empagliflozin: Fra type 2-diabetes til klassisk stiff person-syndrom
+## Empagliflozin: Fra type 2-diabetes til klassisk stiff person-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

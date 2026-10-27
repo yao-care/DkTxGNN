@@ -31,7 +31,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Obinutuzumab: Fra akut lymfoblastær leukæmi til follikulært lymfom
+## Obinutuzumab: Fra akut lymfoblastær leukæmi til follikulært lymfom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

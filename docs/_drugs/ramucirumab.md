@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ramucirumab: Fra ikke-småcellet lungekræft, mavekræft og leverkræft til livmoderligamentets adenokarcinom
+## Ramucirumab: Fra ikke-småcellet lungekræft, mavekræft og leverkræft til livmoderligamentets adenokarcinom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

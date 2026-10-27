@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ublituximab: Fra recidiverende multipel sklerose til diabetisk katarakt
+## Ublituximab: Fra recidiverende multipel sklerose til diabetisk katarakt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

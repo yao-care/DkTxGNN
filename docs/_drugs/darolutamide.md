@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Darolutamid: Fra godkendt indikation til homozygot familiær hyperkolesterolæmi
+## Darolutamid: Fra godkendt indikation til homozygot familiær hyperkolesterolæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

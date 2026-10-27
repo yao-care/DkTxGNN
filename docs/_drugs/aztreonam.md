@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aztreonam: Fra urinvejsinfektion til gonokok-uretritis
+## Aztreonam: Fra urinvejsinfektion til gonokok-uretritis
+{: .text-alpha }
 
 ## Resumé
 

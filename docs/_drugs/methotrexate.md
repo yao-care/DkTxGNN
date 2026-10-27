@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Methotrexat: Fra leukæmi og gigt til pulmonalt blastom
+## Methotrexat: Fra leukæmi og gigt til pulmonalt blastom
+{: .text-alpha }
 
 ## Resumé i ét afsnit
 

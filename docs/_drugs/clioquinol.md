@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Clioquinol: Fra tinea pedis til kutan candidiasis
+## Clioquinol: Fra tinea pedis til kutan candidiasis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

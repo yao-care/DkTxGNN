@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Losartan: Fra hypertension til malign renovaskulær hypertension
+## Losartan: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

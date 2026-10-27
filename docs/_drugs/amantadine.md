@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Amantadin: Fra Parkinsons sygdom til Rasmussen subakut encephalitis
+## Amantadin: Fra Parkinsons sygdom til Rasmussen subakut encephalitis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

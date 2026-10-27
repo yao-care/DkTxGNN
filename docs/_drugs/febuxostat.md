@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Febuxostat: Fra hyperurikæmi til renal hypourikæmi
+## Febuxostat: Fra hyperurikæmi til renal hypourikæmi
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceritinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+## Ceritinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

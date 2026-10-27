@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Warfarin: Fra tromboembolisk sygdom til trombofili
+## Warfarin: Fra tromboembolisk sygdom til trombofili
+{: .text-alpha }
 
 ## Resumé
 

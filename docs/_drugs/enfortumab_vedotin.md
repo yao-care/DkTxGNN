@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Enfortumab vedotin: Fra urotelialt karcinom til lepra
+## Enfortumab vedotin: Fra urotelialt karcinom til lepra
+{: .text-alpha }
 
 ## Resumé i én sætning
 

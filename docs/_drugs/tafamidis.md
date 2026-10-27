@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tafamidis: Fra amyloidose til primær release-defekt i blodplader
+## Tafamidis: Fra amyloidose til primær release-defekt i blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

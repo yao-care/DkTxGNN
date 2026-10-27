@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Baclofen: Fra spasticitet til ADHD (opmærksomhedsforstyrrelse med hyperaktivitet)
+## Baclofen: Fra spasticitet til ADHD (opmærksomhedsforstyrrelse med hyperaktivitet)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

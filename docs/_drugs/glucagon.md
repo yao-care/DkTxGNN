@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Glucagon: Fra original indikation til irritabel tarm-syndrom (IBS)
+## Glucagon: Fra original indikation til irritabel tarm-syndrom (IBS)
+{: .text-alpha }
 
 ## Resumé
 

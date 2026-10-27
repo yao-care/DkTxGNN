@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Glecaprevir: Fra kronisk hepatitis C til HIV-infektion
+## Glecaprevir: Fra kronisk hepatitis C til HIV-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

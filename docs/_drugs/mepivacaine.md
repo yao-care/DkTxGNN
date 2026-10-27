@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Mepivacain: Fra lokalbedøvelse til gastroduodenitis
+## Mepivacain: Fra lokalbedøvelse til gastroduodenitis
+{: .text-alpha }
 
 ## Resumé
 

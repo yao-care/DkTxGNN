@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Tetracyclin: Fra bakterielle infektioner til kronisk rhinosinuitis
+## Tetracyclin: Fra bakterielle infektioner til kronisk rhinosinuitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

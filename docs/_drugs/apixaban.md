@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Apixaban: Fra et ikke angivet oprindeligt indikationsområde til migræne
+## Apixaban: Fra et ikke angivet oprindeligt indikationsområde til migræne
+{: .text-alpha }
 
 ## Resumé
 

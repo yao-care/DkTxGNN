@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lorlatinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+## Lorlatinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Chlorzoxazon: Fra muskelspasmer til migræne
+## Chlorzoxazon: Fra muskelspasmer til migræne
+{: .text-alpha }
 
 ## Resumé
 

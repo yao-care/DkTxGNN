@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Albendazol: Fra cystisk echinokokkose til alveolær echinokokkose
+## Albendazol: Fra cystisk echinokokkose til alveolær echinokokkose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

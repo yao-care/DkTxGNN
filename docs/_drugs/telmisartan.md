@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Telmisartan: Fra hypertension og slagtilfælde til Prinzmetals angina
+## Telmisartan: Fra hypertension og slagtilfælde til Prinzmetals angina
+{: .text-alpha }
 
 ## Resumé i én sætning
 

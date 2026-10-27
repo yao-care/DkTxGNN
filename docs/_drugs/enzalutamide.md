@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Enzalutamid: Fra prostatakræft til prostatakræft-/hjernekræftdisposition
+## Enzalutamid: Fra prostatakræft til prostatakræft-/hjernekræftdisposition
+{: .text-alpha }
 
 ## Opsummering
 

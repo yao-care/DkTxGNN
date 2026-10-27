@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Phenylbutazon: Fra veterinærmæssig anvendelse til leddegigt (rheumatoid arthritis)
+## Phenylbutazon: Fra veterinærmæssig anvendelse til leddegigt (rheumatoid arthritis)
+{: .text-alpha }
 
 ## Resumé i en sætning
 

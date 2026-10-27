@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Icatibant: Fra arvelig angioødem til C1-hæmmermangel
+## Icatibant: Fra arvelig angioødem til C1-hæmmermangel
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

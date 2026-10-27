@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Olodaterol: Fra KOL til bronkitis
+## Olodaterol: Fra KOL til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

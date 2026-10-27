@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tiotropium: Fra astma og kronisk lungesygdom til obstruktiv lungesygdom
+## Tiotropium: Fra astma og kronisk lungesygdom til obstruktiv lungesygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

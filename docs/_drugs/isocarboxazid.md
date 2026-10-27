@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Isocarboxazid: Fra depression til benign paroksystisk torticollis hos spædbørn
+## Isocarboxazid: Fra depression til benign paroksystisk torticollis hos spædbørn
+{: .text-alpha }
 
 ## Resumé
 

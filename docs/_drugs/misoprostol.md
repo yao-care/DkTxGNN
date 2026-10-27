@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Misoprostol: Fra mavesår/NSAID-relaterede indikationer til amenoré
+## Misoprostol: Fra mavesår/NSAID-relaterede indikationer til amenoré
+{: .text-alpha }
 
 > Bemærk: De tilgængelige data indeholder ingen godkendt indikationstekst for det danske præparat. Titlens oprindelige indikation er derfor ikke dokumenteret i de indsamlede data (se afsnittet "Hurtigt overblik").
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Orphenadrin: Fra Parkinsons sygdom til skizofreni
+## Orphenadrin: Fra Parkinsons sygdom til skizofreni
+{: .text-alpha }
 
 ## Sammenfatning i få sætninger
 

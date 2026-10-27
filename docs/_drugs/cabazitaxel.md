@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cabazitaxel: Fra prostatakræft til kvindelig brystkræft
+## Cabazitaxel: Fra prostatakræft til kvindelig brystkræft
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ravulizumab: Fra paroksysmal nattlig hæmoglobinuri til autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel
+## Ravulizumab: Fra paroksysmal nattlig hæmoglobinuri til autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel
+{: .text-alpha }
 
 ## Resumé
 

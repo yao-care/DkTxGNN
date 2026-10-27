@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cabozantinib: Fra nyrecellekarcinom til non-clear cell nyrecellekarcinom (uklassificeret RCC)
+## Cabozantinib: Fra nyrecellekarcinom til non-clear cell nyrecellekarcinom (uklassificeret RCC)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

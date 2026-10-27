@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Clenbuterol: Fra original indikation til migrænelidelse
+## Clenbuterol: Fra original indikation til migrænelidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

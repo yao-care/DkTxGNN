@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Chlortetracyclin: Fra trakom til postinfektiøs vaskulitis
+## Chlortetracyclin: Fra trakom til postinfektiøs vaskulitis
+{: .text-alpha }
 
 ## Resumé
 

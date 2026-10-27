@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anidulafungin: Fra esophageal candidiasis og candidaemi til impetigo
+## Anidulafungin: Fra esophageal candidiasis og candidaemi til impetigo
+{: .text-alpha }
 
 ## Resumé i én sætning
 

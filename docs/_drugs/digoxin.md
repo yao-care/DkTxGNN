@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Digoxin: Fra atrieflimren til Prinzmetal angina
+## Digoxin: Fra atrieflimren til Prinzmetal angina
+{: .text-alpha }
 
 ## Resumé i én sætning
 

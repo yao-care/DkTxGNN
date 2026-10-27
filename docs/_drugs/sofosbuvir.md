@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sofosbuvir: Fra hepatitis C til hepatitis B-virusinfektion
+## Sofosbuvir: Fra hepatitis C til hepatitis B-virusinfektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

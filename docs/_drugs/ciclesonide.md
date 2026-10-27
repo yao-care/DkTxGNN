@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Ciclesonid: Fra astma til atopisk eksem
+## Ciclesonid: Fra astma til atopisk eksem
+{: .text-alpha }
 
 ## Resumé i én sætning
 

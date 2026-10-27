@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Anagrelid: Fra trombocytæmi til reaktiv trombocytose
+## Anagrelid: Fra trombocytæmi til reaktiv trombocytose
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bevacizumab: Fra peritonealkræft til epiglottisneoplasme
+## Bevacizumab: Fra peritonealkræft til epiglottisneoplasme
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

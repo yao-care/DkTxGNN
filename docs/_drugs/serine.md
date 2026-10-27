@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Serin: Fra åbenvinklet glaukom og lungetuberkulose til familiær visceral myopati
+## Serin: Fra åbenvinklet glaukom og lungetuberkulose til familiær visceral myopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Reslizumab: Fra eosinofil lungebetændelse til immunmedieret trombocytopeni
+## Reslizumab: Fra eosinofil lungebetændelse til immunmedieret trombocytopeni
+{: .text-alpha }
 
 ## Resumé i én sætning
 

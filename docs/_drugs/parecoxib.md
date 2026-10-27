@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Parecoxib: Fra smertebehandling til migræne
+## Parecoxib: Fra smertebehandling til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

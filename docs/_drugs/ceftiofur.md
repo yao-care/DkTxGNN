@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceftiofur: Fra veterinær antibiotikabehandling til interventrikulært septumaneurisme
+## Ceftiofur: Fra veterinær antibiotikabehandling til interventrikulært septumaneurisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

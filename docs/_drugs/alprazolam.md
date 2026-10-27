@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Alprazolam: Fra angst til søvnløshed (insomni)
+## Alprazolam: Fra angst til søvnløshed (insomni)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

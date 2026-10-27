@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Prednisolon: Fra autoimmune og inflammatoriske sygdomme til alopecia areata
+## Prednisolon: Fra autoimmune og inflammatoriske sygdomme til alopecia areata
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

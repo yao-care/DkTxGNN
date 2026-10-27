@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tecovirimat: Fra kopper til hordeolum
+## Tecovirimat: Fra kopper til hordeolum
+{: .text-alpha }
 
 ## Et-sætnings-resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Iodixanol: Fra radiologisk kontraststof til slidgigt (osteoarthritis)
+## Iodixanol: Fra radiologisk kontraststof til slidgigt (osteoarthritis)
+{: .text-alpha }
 
 ## Resumé
 

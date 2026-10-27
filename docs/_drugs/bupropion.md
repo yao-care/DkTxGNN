@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bupropion: Fra depression og rygestop til opmærksomhedsforstyrrelse (ADHD)
+## Bupropion: Fra depression og rygestop til opmærksomhedsforstyrrelse (ADHD)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

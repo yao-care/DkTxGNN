@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Luspatercept: Fra beta-thalassæmi til monosomi X
+## Luspatercept: Fra beta-thalassæmi til monosomi X
+{: .text-alpha }
 
 ## Resumé i én sætning
 

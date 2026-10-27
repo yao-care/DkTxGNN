@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Treprostinil: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med bindevævssygdom
+## Treprostinil: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med bindevævssygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

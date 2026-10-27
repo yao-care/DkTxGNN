@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Simvastatin: Fra hyperlipidæmi og aterosklerose til familiær hypercholesterolæmi
+## Simvastatin: Fra hyperlipidæmi og aterosklerose til familiær hypercholesterolæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

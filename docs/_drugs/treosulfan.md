@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Treosulfan: Fra konditionering før stamcelletransplantation til diabetisk katarakt
+## Treosulfan: Fra konditionering før stamcelletransplantation til diabetisk katarakt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

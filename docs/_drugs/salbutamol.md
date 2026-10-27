@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Salbutamol: Fra astma til papillær konjunktivitis
+## Salbutamol: Fra astma til papillær konjunktivitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

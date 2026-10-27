@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Romiplostim: Fra autoimmun trombocytopeni til primær frigivelsesforstyrrelse af blodplader
+## Romiplostim: Fra autoimmun trombocytopeni til primær frigivelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

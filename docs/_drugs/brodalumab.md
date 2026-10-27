@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brodalumab: Fra psoriasis (IL-17RA-hæmmer) til strongyloidiasis
+## Brodalumab: Fra psoriasis (IL-17RA-hæmmer) til strongyloidiasis
+{: .text-alpha }
 
 ## Resumé
 

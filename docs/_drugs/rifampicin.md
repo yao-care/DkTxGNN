@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rifampicin: Fra lungetuberkulose til conjunctivitis
+## Rifampicin: Fra lungetuberkulose til conjunctivitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

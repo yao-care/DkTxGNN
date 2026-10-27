@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Ethosuximid: Fra absence-epilepsi til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+## Ethosuximid: Fra absence-epilepsi til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ivermectin: Fra strongyloidiasis og onchocerciasis til vulvovaginal candidiasis
+## Ivermectin: Fra strongyloidiasis og onchocerciasis til vulvovaginal candidiasis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

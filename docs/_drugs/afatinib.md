@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Afatinib: Fra ikke-småcellet lungekræft til HER2-positiv brystkræft
+## Afatinib: Fra ikke-småcellet lungekræft til HER2-positiv brystkræft
+{: .text-alpha }
 
 ## Resumé i én sætning
 

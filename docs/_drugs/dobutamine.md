@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dobutamin: Fra hjerteindikationer til alopeci (hårtab)
+## Dobutamin: Fra hjerteindikationer til alopeci (hårtab)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

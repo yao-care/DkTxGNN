@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nicorandil: Fra angina pectoris til benign prostatahyperplasi
+## Nicorandil: Fra angina pectoris til benign prostatahyperplasi
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

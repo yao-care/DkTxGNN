@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Miconazol: Fra svampeinfektioner i hud og slimhinder til akne
+## Miconazol: Fra svampeinfektioner i hud og slimhinder til akne
+{: .text-alpha }
 
 ## Sammenfatning i få sætninger
 

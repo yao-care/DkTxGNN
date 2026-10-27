@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Droperidol: Fra et ikke-angivet oprindeligt indikationsområde til Tourettes syndrom
+## Droperidol: Fra et ikke-angivet oprindeligt indikationsområde til Tourettes syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

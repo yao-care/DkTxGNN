@@ -31,7 +31,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Trastuzumab emtansin: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+## Trastuzumab emtansin: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+{: .text-alpha }
 
 ## Resumé
 

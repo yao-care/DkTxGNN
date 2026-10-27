@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Migalastat: Fra Fabrys sygdom til idiopatisk kobberassocieret cirrose
+## Migalastat: Fra Fabrys sygdom til idiopatisk kobberassocieret cirrose
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

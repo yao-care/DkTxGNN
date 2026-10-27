@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imiquimod: Fra hudlidelser og HPV-relaterede læsioner til præmaligne neoplasmer
+## Imiquimod: Fra hudlidelser og HPV-relaterede læsioner til præmaligne neoplasmer
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

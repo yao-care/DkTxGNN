@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Hypromellose: Fra øjenlubrikant til hepatisk veno-okklusiv sygdom med immundefekt (modelprædiktion)
+## Hypromellose: Fra øjenlubrikant til hepatisk veno-okklusiv sygdom med immundefekt (modelprædiktion)
+{: .text-alpha }
 
 ## Resumé
 

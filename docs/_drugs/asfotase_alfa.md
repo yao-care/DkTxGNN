@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Asfotase alfa: Fra hypofosfatasi til mitokondriel oxidativ fosforyleringsforstyrrelse
+## Asfotase alfa: Fra hypofosfatasi til mitokondriel oxidativ fosforyleringsforstyrrelse
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cerliponase alfa: Fra neuronal ceroid lipofuscinose til Scheie syndrom
+## Cerliponase alfa: Fra neuronal ceroid lipofuscinose til Scheie syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

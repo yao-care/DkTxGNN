@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vandetanib: Fra skjoldbruskkirtelkræft til nyrecellekarcinom
+## Vandetanib: Fra skjoldbruskkirtelkræft til nyrecellekarcinom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

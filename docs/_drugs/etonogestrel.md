@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etonogestrel: Fra prævention til amenoré
+## Etonogestrel: Fra prævention til amenoré
+{: .text-alpha }
 
 ## Resumé i én sætning
 

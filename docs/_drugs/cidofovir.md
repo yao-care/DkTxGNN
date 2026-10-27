@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Cidofovir: Fra antiviral behandling til skleroserende kolangitis
+## Cidofovir: Fra antiviral behandling til skleroserende kolangitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

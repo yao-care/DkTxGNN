@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fluorouracil: Fra mavekræft og hudlidelser til rhabdomyosarkom (botryoid embryonal rhabdomyosarkom i vagina)
+## Fluorouracil: Fra mavekræft og hudlidelser til rhabdomyosarkom (botryoid embryonal rhabdomyosarkom i vagina)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

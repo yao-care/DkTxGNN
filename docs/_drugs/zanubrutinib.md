@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zanubrutinib: Fra mantelcellelymfom til myeloid leukæmi
+## Zanubrutinib: Fra mantelcellelymfom til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

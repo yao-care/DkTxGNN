@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Dapagliflozin: Vurdering af kandidat til omformål — Bevissamling ufuldstændig
+## Dapagliflozin: Vurdering af kandidat til omformål — Bevissamling ufuldstændig
+{: .text-alpha }
 
 ## Ét-linjers sammenfatning
 

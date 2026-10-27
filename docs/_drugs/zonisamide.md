@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zonisamid: Fra epilepsi til Tourettes syndrom
+## Zonisamid: Fra epilepsi til Tourettes syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

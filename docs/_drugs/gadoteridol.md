@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gadoteridol: Fra MR-kontraststof til slidgigt (osteoarthritis)
+## Gadoteridol: Fra MR-kontraststof til slidgigt (osteoarthritis)
+{: .text-alpha }
 
 ## Resumé
 

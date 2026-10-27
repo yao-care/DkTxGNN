@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Remdesivir: Fra virusinfektion til multipel endokrin neoplasi
+## Remdesivir: Fra virusinfektion til multipel endokrin neoplasi
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Interferon beta-1b: Fra attakvis recidiverende dissemineret sklerose til hårcelleleukæmi
+## Interferon beta-1b: Fra attakvis recidiverende dissemineret sklerose til hårcelleleukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

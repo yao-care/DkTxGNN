@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eculizumab: Fra paroksysmal nattlig hæmoglobinuri til cyklisk hæmatopoese
+## Eculizumab: Fra paroksysmal nattlig hæmoglobinuri til cyklisk hæmatopoese
+{: .text-alpha }
 
 ## Resumé
 

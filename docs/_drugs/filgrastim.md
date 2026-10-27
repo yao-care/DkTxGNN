@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Filgrastim: Fra svær kongenit neutropeni til primær frigivelsesforstyrrelse af blodplader
+## Filgrastim: Fra svær kongenit neutropeni til primær frigivelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

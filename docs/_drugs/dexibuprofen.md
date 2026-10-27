@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dexibuprofen: Fra gigtlidelser og smerter til brachydaktyli-syndaktyli-syndrom
+## Dexibuprofen: Fra gigtlidelser og smerter til brachydaktyli-syndaktyli-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

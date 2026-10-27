@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carboplatin: Fra ovariecancer til kvindelig brystkarcinom
+## Carboplatin: Fra ovariecancer til kvindelig brystkarcinom
+{: .text-alpha }
 
 ## Resumé
 

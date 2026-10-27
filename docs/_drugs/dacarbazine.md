@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Dacarbazin: Fra modermærkekræft og Hodgkins lymfom til neoplasmer i de øvre luft- og fordøjelsesveje
+## Dacarbazin: Fra modermærkekræft og Hodgkins lymfom til neoplasmer i de øvre luft- og fordøjelsesveje
+{: .text-alpha }
 
 ## Resumé i én sætning
 

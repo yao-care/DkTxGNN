@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Letrozol: Fra brystkræft til østrogenreceptor-positiv brystkræft
+## Letrozol: Fra brystkræft til østrogenreceptor-positiv brystkræft
+{: .text-alpha }
 
 ## Resumé i én sætning
 

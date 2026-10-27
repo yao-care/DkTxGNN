@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Becaplermin: Fra sårheling til amenoré (forudsigelse uden evidens)
+## Becaplermin: Fra sårheling til amenoré (forudsigelse uden evidens)
+{: .text-alpha }
 
 ## Resumé
 

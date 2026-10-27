@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Hydrocortison: Fra binyrebarkinsufficiens og autoimmune sygdomme til alopecia areata
+## Hydrocortison: Fra binyrebarkinsufficiens og autoimmune sygdomme til alopecia areata
+{: .text-alpha }
 
 ## Opsummering
 

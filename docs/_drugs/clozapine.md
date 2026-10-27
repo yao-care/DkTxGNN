@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clozapin: Fra behandlingsresistent skizofreni til manisk bipolar lidelse
+## Clozapin: Fra behandlingsresistent skizofreni til manisk bipolar lidelse
+{: .text-alpha }
 
 ## Resumé
 

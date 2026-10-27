@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ibritumomab tiuxetan: Fra follikulært lymfom til akut lymfoblastær leukæmi
+## Ibritumomab tiuxetan: Fra follikulært lymfom til akut lymfoblastær leukæmi
+{: .text-alpha }
 
 ## Resumé i en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Fosphenytoin: Fra epilepsi til manisk bipolar lidelse
+## Fosphenytoin: Fra epilepsi til manisk bipolar lidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

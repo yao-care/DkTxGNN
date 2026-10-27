@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Felypressin: Fra lokalbedøvelsestilsætning til lægemiddelinduceret osteoporose
+## Felypressin: Fra lokalbedøvelsestilsætning til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé
 

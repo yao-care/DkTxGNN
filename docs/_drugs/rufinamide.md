@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Rufinamid: Fra Lennox-Gastaut syndrom til febril infektionsrelateret epilepsisyndrom (FIRES)
+## Rufinamid: Fra Lennox-Gastaut syndrom til febril infektionsrelateret epilepsisyndrom (FIRES)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

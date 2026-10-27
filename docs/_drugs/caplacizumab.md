@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Caplacizumab: Fra trombocytopenisk purpura til primær frigørelsesforstyrrelse af blodplader
+## Caplacizumab: Fra trombocytopenisk purpura til primær frigørelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Resumé i få sætninger
 

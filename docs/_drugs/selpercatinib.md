@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selpercatinib: Fra den oprindelige indikation til pulmonal hypertension
+## Selpercatinib: Fra den oprindelige indikation til pulmonal hypertension
+{: .text-alpha }
 
 ## Resumé
 

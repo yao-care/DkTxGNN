@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Atorvastatin: Fra hyperlipidæmi og slagtilfælde til familiær hypercholesterolæmi
+## Atorvastatin: Fra hyperlipidæmi og slagtilfælde til familiær hypercholesterolæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

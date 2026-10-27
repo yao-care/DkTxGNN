@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Granisetron: Fra kvalme- og opkastningsprofylakse til manisk bipolar lidelse
+## Granisetron: Fra kvalme- og opkastningsprofylakse til manisk bipolar lidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

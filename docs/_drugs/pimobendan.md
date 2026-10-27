@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pimobendan: Fra uspecificeret oprindelig indikation til pneumokoniose forårsaget af blandet mineralstøv
+## Pimobendan: Fra uspecificeret oprindelig indikation til pneumokoniose forårsaget af blandet mineralstøv
+{: .text-alpha }
 
 ## Resumé i en sætning
 

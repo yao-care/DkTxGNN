@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Naphazolin: Fra øjenrødme til hypotrichosis simplex i hovedbunden
+## Naphazolin: Fra øjenrødme til hypotrichosis simplex i hovedbunden
+{: .text-alpha }
 
 ## Resumé i én sætning
 

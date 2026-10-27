@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Papaverin: Fra perifer karsygdom til iskæmisk sygdom
+## Papaverin: Fra perifer karsygdom til iskæmisk sygdom
+{: .text-alpha }
 
 ## Opsummering
 

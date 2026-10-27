@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vilanterol: Fra kronisk obstruktiv lungesygdom (KOL) og astma til obstruktiv lungesygdom
+## Vilanterol: Fra kronisk obstruktiv lungesygdom (KOL) og astma til obstruktiv lungesygdom
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

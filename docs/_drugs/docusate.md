@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Docusat: Fra forstoppelse og anæmi til Plummer-Vinson syndrom
+## Docusat: Fra forstoppelse og anæmi til Plummer-Vinson syndrom
+{: .text-alpha }
 
 ## Resumé
 

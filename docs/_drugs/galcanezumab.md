@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Galcanezumab: Fra migræne til heparin-cofaktor-2-mangel
+## Galcanezumab: Fra migræne til heparin-cofaktor-2-mangel
+{: .text-alpha }
 
 ## Resumé
 

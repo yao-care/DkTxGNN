@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Cytarabin: Fra akut leukæmi til småcellet lungekarcinom
+## Cytarabin: Fra akut leukæmi til småcellet lungekarcinom
+{: .text-alpha }
 
 ## Resumé
 

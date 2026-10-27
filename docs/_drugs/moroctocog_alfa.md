@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moroctocog alfa: Fra hæmofili til primær frigivelsesforstyrrelse af blodplader
+## Moroctocog alfa: Fra hæmofili til primær frigivelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

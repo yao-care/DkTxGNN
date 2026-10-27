@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Benzocain: Fra tinea pedis og dermatitis til papillær konjunktivitis
+## Benzocain: Fra tinea pedis og dermatitis til papillær konjunktivitis
+{: .text-alpha }
 
 ## Resumé
 

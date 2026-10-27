@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Celecoxib: Fra gigtlidelser til akromesomelisk dysplasi, Hunter-Thompson-type
+## Celecoxib: Fra gigtlidelser til akromesomelisk dysplasi, Hunter-Thompson-type
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

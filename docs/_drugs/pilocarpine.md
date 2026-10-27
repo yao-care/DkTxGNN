@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Pilocarpin: Fra åbenvinklet glaukom til primær arvelig glaukom
+## Pilocarpin: Fra åbenvinklet glaukom til primær arvelig glaukom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

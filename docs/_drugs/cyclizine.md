@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Cyclizin: Fra allergisk rhinitis og køresyge til allergisk urticaria
+## Cyclizin: Fra allergisk rhinitis og køresyge til allergisk urticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

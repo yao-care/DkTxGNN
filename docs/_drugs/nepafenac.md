@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Nepafenac: Fra øjenlidelser (postoperativ øjenbetændelse) til øjensygdom (bredt)
+## Nepafenac: Fra øjenlidelser (postoperativ øjenbetændelse) til øjensygdom (bredt)
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

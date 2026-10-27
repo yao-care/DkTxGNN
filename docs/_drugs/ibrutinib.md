@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ibrutinib: Fra B-celle-maligniteter til polyklonal hypergammaglobulinæmi
+## Ibrutinib: Fra B-celle-maligniteter til polyklonal hypergammaglobulinæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

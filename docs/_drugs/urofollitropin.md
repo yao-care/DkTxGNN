@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Urofollitropin: Fra ovarie-stimulation til migræne (modelforudsigelse)
+## Urofollitropin: Fra ovarie-stimulation til migræne (modelforudsigelse)
+{: .text-alpha }
 
 ## Opsummering
 

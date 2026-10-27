@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alprostadil: Fra erektil dysfunktion og medfødt hjertesygdom til aortamisdannelse
+## Alprostadil: Fra erektil dysfunktion og medfødt hjertesygdom til aortamisdannelse
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

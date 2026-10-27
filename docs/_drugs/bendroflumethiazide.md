@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Bendroflumethiazid: Fra hypertension til malign hypertensiv nyresygdom
+## Bendroflumethiazid: Fra hypertension til malign hypertensiv nyresygdom
+{: .text-alpha }
 
 ## Resumé
 

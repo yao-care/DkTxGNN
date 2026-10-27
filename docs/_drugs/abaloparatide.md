@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Abaloparatid: Fra osteoporose til non-syndromisk esofagusmisdannelse
+## Abaloparatid: Fra osteoporose til non-syndromisk esofagusmisdannelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

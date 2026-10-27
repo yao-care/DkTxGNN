@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Perflutren: Fra ultralydskontraststof til myokardieiskæmi
+## Perflutren: Fra ultralydskontraststof til myokardieiskæmi
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

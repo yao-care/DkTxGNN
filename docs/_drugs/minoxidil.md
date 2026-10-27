@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Minoxidil: Fra hypertension og alopeci til hypotrichosis simplex i hovedbunden
+## Minoxidil: Fra hypertension og alopeci til hypotrichosis simplex i hovedbunden
+{: .text-alpha }
 
 ## Resumé i én sætning
 

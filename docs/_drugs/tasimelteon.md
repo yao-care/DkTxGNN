@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tasimelteon: Fra non-24-timers søvn-vågen-syndrom til bilateral parasagittal parieto-occipital polymikrogyri
+## Tasimelteon: Fra non-24-timers søvn-vågen-syndrom til bilateral parasagittal parieto-occipital polymikrogyri
+{: .text-alpha }
 
 ## Resumé i én sætning
 

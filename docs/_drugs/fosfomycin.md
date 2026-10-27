@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fosfomycin: Fra urinvejsinfektion til pyelitis
+## Fosfomycin: Fra urinvejsinfektion til pyelitis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

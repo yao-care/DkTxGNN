@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Xylometazolin: Fra faryngitis og forkølelse til sygdomme i næsehulen
+## Xylometazolin: Fra faryngitis og forkølelse til sygdomme i næsehulen
+{: .text-alpha }
 
 ## Resumé
 

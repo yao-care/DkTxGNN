@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Alfentanil: Fra smertelindring og anæstesi til nefrogent syndrom med uhensigtsmæssig antidiurese
+## Alfentanil: Fra smertelindring og anæstesi til nefrogent syndrom med uhensigtsmæssig antidiurese
+{: .text-alpha }
 
 ## Resumé
 

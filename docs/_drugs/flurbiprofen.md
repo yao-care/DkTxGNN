@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Flurbiprofen: Fra gigt og slidgigt til akromesomel dysplasi af Hunter-Thompson-typen
+## Flurbiprofen: Fra gigt og slidgigt til akromesomel dysplasi af Hunter-Thompson-typen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Nelarabin: Fra T-celle akut lymfoblastær leukæmi til recidiverende-remitterende multipel sklerose
+## Nelarabin: Fra T-celle akut lymfoblastær leukæmi til recidiverende-remitterende multipel sklerose
+{: .text-alpha }
 
 ## Sammenfatning
 

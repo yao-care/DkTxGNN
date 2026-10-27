@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Brigatinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+## Brigatinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

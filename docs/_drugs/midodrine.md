@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Midodrin: Fra ortostatisk hypotension til variabelt proteasefølsom prionopati
+## Midodrin: Fra ortostatisk hypotension til variabelt proteasefølsom prionopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

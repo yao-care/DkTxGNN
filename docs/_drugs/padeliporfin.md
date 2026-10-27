@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Padeliporfin: Fra prostataadenokarcinom til clear cell nyrecarcinom
+## Padeliporfin: Fra prostataadenokarcinom til clear cell nyrecarcinom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

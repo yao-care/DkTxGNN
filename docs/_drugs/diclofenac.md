@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Diclofenac: Fra slidgigt og leddegigt til hypotrichosis simplex of the scalp
+## Diclofenac: Fra slidgigt og leddegigt til hypotrichosis simplex of the scalp
+{: .text-alpha }
 
 ## Resumé i én sætning
 

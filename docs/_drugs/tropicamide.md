@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Tropicamid: Fra cycloplegi til cauda equina-syndrom
+## Tropicamid: Fra cycloplegi til cauda equina-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

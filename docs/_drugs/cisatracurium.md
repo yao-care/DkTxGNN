@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cisatracurium: Fra neuromuskulær blokade til cauda equina-syndrom
+## Cisatracurium: Fra neuromuskulær blokade til cauda equina-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

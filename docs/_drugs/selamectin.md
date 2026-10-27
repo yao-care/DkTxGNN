@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Selamectin: Fra veterinær parasitbehandling til candidiasis
+## Selamectin: Fra veterinær parasitbehandling til candidiasis
+{: .text-alpha }
 
 ## Resumé
 

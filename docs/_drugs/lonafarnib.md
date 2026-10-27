@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lonafarnib: Fra den oprindelige indikation til leprae
+## Lonafarnib: Fra den oprindelige indikation til leprae
+{: .text-alpha }
 
 ## Resumé i én sætning
 

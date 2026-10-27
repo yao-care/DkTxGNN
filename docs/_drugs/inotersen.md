@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inotersen: Fra oprindelig indikation (ikke angivet i data) til akut intermitterende porfyri
+## Inotersen: Fra oprindelig indikation (ikke angivet i data) til akut intermitterende porfyri
+{: .text-alpha }
 
 ## Resumé i én sætning
 

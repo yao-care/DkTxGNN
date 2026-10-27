@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Regadenoson: Fra diagnostisk stressmiddel til anafylaksi
+## Regadenoson: Fra diagnostisk stressmiddel til anafylaksi
+{: .text-alpha }
 
 ## Resumé
 

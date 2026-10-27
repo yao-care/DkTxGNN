@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Finasterid: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
+## Finasterid: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
+{: .text-alpha }
 
 ## Resumé
 

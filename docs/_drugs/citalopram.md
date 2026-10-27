@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Citalopram: Fra depression og angstlidelser til obsessiv-kompulsiv lidelse (OCD)
+## Citalopram: Fra depression og angstlidelser til obsessiv-kompulsiv lidelse (OCD)
+{: .text-alpha }
 
 ## Resumé i få sætninger
 

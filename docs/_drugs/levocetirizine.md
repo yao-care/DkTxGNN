@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Levocetirizin: Fra allergisk rhinitis til reumatoid arthritis
+## Levocetirizin: Fra allergisk rhinitis til reumatoid arthritis
+{: .text-alpha }
 
 ## Resumé
 

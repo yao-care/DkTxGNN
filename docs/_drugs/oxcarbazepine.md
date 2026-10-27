@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Oxcarbazepin: Fra partiel epilepsi til visuel epilepsi
+## Oxcarbazepin: Fra partiel epilepsi til visuel epilepsi
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

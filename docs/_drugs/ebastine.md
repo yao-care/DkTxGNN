@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Ebastin: Fra allergisk rhinitis til koronararteriesygdom
+## Ebastin: Fra allergisk rhinitis til koronararteriesygdom
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

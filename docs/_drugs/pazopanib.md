@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pazopanib: Fra nyrecellekarcinom og sarkom til liposarkom
+## Pazopanib: Fra nyrecellekarcinom og sarkom til liposarkom
+{: .text-alpha }
 
 ## Resumé
 

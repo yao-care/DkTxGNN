@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dexamethason: Fra binyrebarkinsufficiens og inflammatoriske sygdomme til alopecia areata
+## Dexamethason: Fra binyrebarkinsufficiens og inflammatoriske sygdomme til alopecia areata
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

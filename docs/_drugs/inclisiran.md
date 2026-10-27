@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Inclisiran: Fra lipidsænkning til kaliummangel (kaliummangelsygdom)
+## Inclisiran: Fra lipidsænkning til kaliummangel (kaliummangelsygdom)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

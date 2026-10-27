@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Golimumab: Fra psoriasisgigt og leddegigt til reumatoid vaskulitis
+## Golimumab: Fra psoriasisgigt og leddegigt til reumatoid vaskulitis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

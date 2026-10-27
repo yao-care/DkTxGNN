@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Elbasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+## Elbasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Acitretin: Fra originale indikationer til akne (acne)
+## Acitretin: Fra originale indikationer til akne (acne)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

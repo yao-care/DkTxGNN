@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Entrectinib: Fra en tumoragnostisk kræftbehandling til multipel endokrin neoplasi
+## Entrectinib: Fra en tumoragnostisk kræftbehandling til multipel endokrin neoplasi
+{: .text-alpha }
 
 ## Resumé
 

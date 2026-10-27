@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Interferon beta-1a: Fra relapsing-remitting multipel sklerose til Jeune syndrom med situs inversus
+## Interferon beta-1a: Fra relapsing-remitting multipel sklerose til Jeune syndrom med situs inversus
+{: .text-alpha }
 
 ## Resumé i én sætning
 

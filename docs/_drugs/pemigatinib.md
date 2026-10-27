@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pemigatinib: Fra ukendt oprindelig indikation til multipel endokrin neoplasi
+## Pemigatinib: Fra ukendt oprindelig indikation til multipel endokrin neoplasi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

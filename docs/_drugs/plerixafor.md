@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Plerixafor: Fra myelomatose til indolent plasmacellemyelom
+## Plerixafor: Fra myelomatose til indolent plasmacellemyelom
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

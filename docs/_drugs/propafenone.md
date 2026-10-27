@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Propafenon: Fra atrieflimren og ventrikulær takykardi til katekolaminerg polymorf ventrikulær takykardi (CPVT)
+## Propafenon: Fra atrieflimren og ventrikulær takykardi til katekolaminerg polymorf ventrikulær takykardi (CPVT)
+{: .text-alpha }
 
 ## Sammenfatning
 

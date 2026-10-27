@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Duloxetin: Fra depression og angst til obsessiv-kompulsiv lidelse (OCD)
+## Duloxetin: Fra depression og angst til obsessiv-kompulsiv lidelse (OCD)
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

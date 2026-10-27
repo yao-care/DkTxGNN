@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trastuzumab deruxtecan: Fra manglende registreret indikation til lægemiddelinduceret osteoporose
+## Trastuzumab deruxtecan: Fra manglende registreret indikation til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Hexaminolevulinat: Fra diagnostisk billeddannelse ved blærekræft til bronkitis
+## Hexaminolevulinat: Fra diagnostisk billeddannelse ved blærekræft til bronkitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Naldemedine: Opioid-induceret obstipation — Ingen TxGNN-forudsigelser tilgængelige
+## Naldemedine: Opioid-induceret obstipation — Ingen TxGNN-forudsigelser tilgængelige
+{: .text-alpha }
 
 ## Resumé i én sætning
 

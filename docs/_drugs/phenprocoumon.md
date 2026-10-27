@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Phenprocoumon: Fra myokardieinfarkt og trombotisk sygdom til posteroinferiort myokardieinfarkt
+## Phenprocoumon: Fra myokardieinfarkt og trombotisk sygdom til posteroinferiort myokardieinfarkt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

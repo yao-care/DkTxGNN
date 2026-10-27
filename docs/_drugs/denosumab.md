@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Denosumab: Fra osteoporose til diabetisk retinopati
+## Denosumab: Fra osteoporose til diabetisk retinopati
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Dostarlimab: Fra onkologisk anvendelse til blandet mineralstøv-pneumokoniose
+## Dostarlimab: Fra onkologisk anvendelse til blandet mineralstøv-pneumokoniose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

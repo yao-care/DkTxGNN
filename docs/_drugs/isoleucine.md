@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Isoleucin: Fra ernæringsterapi til gastroparese
+## Isoleucin: Fra ernæringsterapi til gastroparese
+{: .text-alpha }
 
 ## Resumé
 

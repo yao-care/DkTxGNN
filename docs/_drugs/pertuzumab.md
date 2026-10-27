@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pertuzumab: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+## Pertuzumab: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+{: .text-alpha }
 
 ## Resumé
 

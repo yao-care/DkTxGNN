@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tranylcypromin: Fra depression og angstlidelse til dysthymi
+## Tranylcypromin: Fra depression og angstlidelse til dysthymi
+{: .text-alpha }
 
 ## Kort resumé
 

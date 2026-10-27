@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tepoxalin: Fra oprindelig indikation til slidgigt (osteoarthritis)
+## Tepoxalin: Fra oprindelig indikation til slidgigt (osteoarthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ivacaftor: Fra cystisk fibrose til reumatoid artritis
+## Ivacaftor: Fra cystisk fibrose til reumatoid artritis
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moxidectin: Fra onchocerciasis til polyklonalt hyperviskositetssyndrom
+## Moxidectin: Fra onchocerciasis til polyklonalt hyperviskositetssyndrom
+{: .text-alpha }
 
 ## Resumé i en sætning
 

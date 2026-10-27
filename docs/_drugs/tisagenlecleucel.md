@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tisagenlecleucel: Fra B-cellemaligniteter til Crohns colitis
+## Tisagenlecleucel: Fra B-cellemaligniteter til Crohns colitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

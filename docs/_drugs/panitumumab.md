@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Panitumumab: Fra metastatisk tyktarmskræft til lægemiddelinduceret osteoporose
+## Panitumumab: Fra metastatisk tyktarmskræft til lægemiddelinduceret osteoporose
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

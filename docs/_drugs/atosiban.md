@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atosiban: Fra veer (tokolyse) til primær arvelig glaukom
+## Atosiban: Fra veer (tokolyse) til primær arvelig glaukom
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

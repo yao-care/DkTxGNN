@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Aprotinin: Ingen genanvendelsesprognoser tilgængelige til vurdering
+## Aprotinin: Ingen genanvendelsesprognoser tilgængelige til vurdering
+{: .text-alpha }
 
 ---
 

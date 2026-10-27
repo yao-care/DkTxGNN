@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lebrikizumab: Fra atopisk dermatitis til svær non-proliferativ diabetisk retinopati
+## Lebrikizumab: Fra atopisk dermatitis til svær non-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

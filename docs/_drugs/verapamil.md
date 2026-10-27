@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Verapamil: Fra hypertension til obsolet grenblok (bundle branch block)
+## Verapamil: Fra hypertension til obsolet grenblok (bundle branch block)
+{: .text-alpha }
 
 ## Opsummering
 

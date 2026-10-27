@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tipiracil: Fra kolorektal cancer til cøkal villøst adenom
+## Tipiracil: Fra kolorektal cancer til cøkal villøst adenom
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cemiplimab: Fra pladecellekarcinom til galdeblære-adenoskvamøst karcinom
+## Cemiplimab: Fra pladecellekarcinom til galdeblære-adenoskvamøst karcinom
+{: .text-alpha }
 
 ## Resumé
 

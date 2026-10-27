@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Salmeterol: Fra astma og emfysem til bronkitis
+## Salmeterol: Fra astma og emfysem til bronkitis
+{: .text-alpha }
 
 ## Resumé
 

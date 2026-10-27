@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Tiletamin: Fra veterinær anæstesi til insomni
+## Tiletamin: Fra veterinær anæstesi til insomni
+{: .text-alpha }
 
 ## Resumé i få sætninger
 

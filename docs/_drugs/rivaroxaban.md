@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rivaroxaban: Fra antikoagulation til leddegigt (rheumatoid arthritis)
+## Rivaroxaban: Fra antikoagulation til leddegigt (rheumatoid arthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

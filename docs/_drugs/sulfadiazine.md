@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Sulfadiazin: Fra toksoplasmose til pneumocystose
+## Sulfadiazin: Fra toksoplasmose til pneumocystose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

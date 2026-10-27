@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Fentanyl: Fra smertebehandling til nefrogent syndrom med uhensigtsmæssig antidiurese
+## Fentanyl: Fra smertebehandling til nefrogent syndrom med uhensigtsmæssig antidiurese
+{: .text-alpha }
 
 ## Resumé i én sætning
 

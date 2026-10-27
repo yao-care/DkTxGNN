@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Topotecan: Fra ovariecancer til brystkræft (kvindeligt brystkarcinom)
+## Topotecan: Fra ovariecancer til brystkræft (kvindeligt brystkarcinom)
+{: .text-alpha }
 
 ## Opsummering
 

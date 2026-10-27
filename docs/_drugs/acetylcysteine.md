@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Acetylcystein: Fra paracetamolforgiftning og luftvejslidelser til trombotisk sygdom
+## Acetylcystein: Fra paracetamolforgiftning og luftvejslidelser til trombotisk sygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

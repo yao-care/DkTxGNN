@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Zidovudin: Fra HIV-infektion/AIDS til felint erhvervet immundefektsyndrom
+## Zidovudin: Fra HIV-infektion/AIDS til felint erhvervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

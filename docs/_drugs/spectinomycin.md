@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Spectinomycin: Fra gonoré til sygdom i ligamentum latum uteri
+## Spectinomycin: Fra gonoré til sygdom i ligamentum latum uteri
+{: .text-alpha }
 
 ## Resumé
 

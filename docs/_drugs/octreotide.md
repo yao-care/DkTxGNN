@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Octreotid: Fra akromegali til vulvær inverteret follikulær keratose
+## Octreotid: Fra akromegali til vulvær inverteret follikulær keratose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Triazolam: Fra insomni til søvnforstyrrelse (indsovningsbesvær og søvnvedligeholdelse)
+## Triazolam: Fra insomni til søvnforstyrrelse (indsovningsbesvær og søvnvedligeholdelse)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

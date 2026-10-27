@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Probenecid: Fra urinsyregigt til renal hypouricæmi
+## Probenecid: Fra urinsyregigt til renal hypouricæmi
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Pseudoefedrin: Fra allergisk rhinitis til sygdomme i næsehulen
+## Pseudoefedrin: Fra allergisk rhinitis til sygdomme i næsehulen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

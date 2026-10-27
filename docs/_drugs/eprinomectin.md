@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eprinomectin: Fra veterinær antiparasitær brug til candidiasis
+## Eprinomectin: Fra veterinær antiparasitær brug til candidiasis
+{: .text-alpha }
 
 ## Resumé i en sætning
 

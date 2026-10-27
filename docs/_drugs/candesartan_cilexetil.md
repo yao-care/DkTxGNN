@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Candesartan cilexetil: Fra hypertension til malign renovaskulær hypertension
+## Candesartan cilexetil: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Resumé i én sætning
 

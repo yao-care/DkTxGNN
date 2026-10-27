@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Deferasirox: Fra jernoverskud ved thalassæmi til HIV-infektion
+## Deferasirox: Fra jernoverskud ved thalassæmi til HIV-infektion
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tasonermin: Fra bløddelssarkom til urotelialt karcinom i den prostatiske urinrør
+## Tasonermin: Fra bløddelssarkom til urotelialt karcinom i den prostatiske urinrør
+{: .text-alpha }
 
 ## Resumé i én sætning
 

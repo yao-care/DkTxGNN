@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Erdafitinib: Fra oprindelig indikation til pulmonal hypertension
+## Erdafitinib: Fra oprindelig indikation til pulmonal hypertension
+{: .text-alpha }
 
 ## Resumé i én sætning
 

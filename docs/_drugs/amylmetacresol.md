@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amylmetacresol: Fra halsinfektioner til cauda equina-syndrom
+## Amylmetacresol: Fra halsinfektioner til cauda equina-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

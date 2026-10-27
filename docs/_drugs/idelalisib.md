@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idelalisib: Fra kronisk lymfatisk leukæmi og follikulært lymfom til mantelcellelymfom
+## Idelalisib: Fra kronisk lymfatisk leukæmi og follikulært lymfom til mantelcellelymfom
+{: .text-alpha }
 
 ## Opsummering
 

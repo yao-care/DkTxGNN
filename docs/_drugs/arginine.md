@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Arginin: Fra ernæring og diagnostisk brug til gastroparese
+## Arginin: Fra ernæring og diagnostisk brug til gastroparese
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Duvelisib: Fra kronisk lymfatisk leukæmi til Hodgkins lymfom
+## Duvelisib: Fra kronisk lymfatisk leukæmi til Hodgkins lymfom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

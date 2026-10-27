@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceftarolinfosamil: Fra bakterielle infektioner til leddegigt
+## Ceftarolinfosamil: Fra bakterielle infektioner til leddegigt
+{: .text-alpha }
 
 ## Et-sætnings-resumé
 

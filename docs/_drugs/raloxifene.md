@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Raloxifen: Fra osteoporose til duodenalsår
+## Raloxifen: Fra osteoporose til duodenalsår
+{: .text-alpha }
 
 ## Resumé i én sætning
 

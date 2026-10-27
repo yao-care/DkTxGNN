@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cannabidiol: Fra Lennox-Gastaut syndrom til Restless legs syndrom
+## Cannabidiol: Fra Lennox-Gastaut syndrom til Restless legs syndrom
+{: .text-alpha }
 
 ## Resumé i en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Anastrozol: Fra hormonreceptor-positiv brystkræft til kvindelig brystkræft (bekræftelse af eksisterende anvendelse)
+## Anastrozol: Fra hormonreceptor-positiv brystkræft til kvindelig brystkræft (bekræftelse af eksisterende anvendelse)
+{: .text-alpha }
 
 ## Resumé i en sætning
 

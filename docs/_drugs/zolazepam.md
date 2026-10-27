@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Zolazepam: Fra ukendt human indikation til insomni
+## Zolazepam: Fra ukendt human indikation til insomni
+{: .text-alpha }
 
 ## Resumé
 

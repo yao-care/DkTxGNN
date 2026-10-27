@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Canakinumab: Fra autoinflammatoriske sygdomme til hepatisk infarkt
+## Canakinumab: Fra autoinflammatoriske sygdomme til hepatisk infarkt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

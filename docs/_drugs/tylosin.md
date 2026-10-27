@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tylosin: Fra veterinær makrolidantibiotikum til Jeune syndrom med situs inversus
+## Tylosin: Fra veterinær makrolidantibiotikum til Jeune syndrom med situs inversus
+{: .text-alpha }
 
 ## Resumé i én sætning
 

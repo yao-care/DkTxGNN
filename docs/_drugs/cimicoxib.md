@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Cimicoxib: Evaluering af lægemiddelgenbrug — Utilstrækkelige data til forudsigelse
+## Cimicoxib: Evaluering af lægemiddelgenbrug — Utilstrækkelige data til forudsigelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

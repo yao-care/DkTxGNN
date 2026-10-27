@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Givosiran: Fra hepatisk porfyri til porfyri som følge af ALA-dehydratasemangel
+## Givosiran: Fra hepatisk porfyri til porfyri som følge af ALA-dehydratasemangel
+{: .text-alpha }
 
 ## Sammenfatning
 

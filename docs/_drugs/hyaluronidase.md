@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Hyaluronidase: Fra lokal anvendelse som hjælpestof til diabetisk retinopati
+## Hyaluronidase: Fra lokal anvendelse som hjælpestof til diabetisk retinopati
+{: .text-alpha }
 
 *(Bemærk: Rapporten omhandler den forudsagte indikation med den stærkeste evidens, "diabetisk retinopati" (rang 6). Den øverst rangerede forudsigelse, esotropi, er ikke understøttet af klinisk evidens og er omtalt nedenfor.)*
 

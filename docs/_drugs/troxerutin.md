@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Troxerutin: Fra ukendt oprindelig indikation til hæmoglobinopati
+## Troxerutin: Fra ukendt oprindelig indikation til hæmoglobinopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

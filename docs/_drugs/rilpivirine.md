@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Rilpivirin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+## Rilpivirin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

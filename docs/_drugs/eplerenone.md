@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Eplerenon: Fra hypertension til pulmonal hypertension som følge af lungesygdom og/eller hypoksi
+## Eplerenon: Fra hypertension til pulmonal hypertension som følge af lungesygdom og/eller hypoksi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

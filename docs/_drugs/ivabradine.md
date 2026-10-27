@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Ivabradin: Fra hjerterelateret indikation til hypertrichose
+## Ivabradin: Fra hjerterelateret indikation til hypertrichose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

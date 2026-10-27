@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Metoclopramid: Fra gastroøsofageal reflukssygdom til mavesår
+## Metoclopramid: Fra gastroøsofageal reflukssygdom til mavesår
+{: .text-alpha }
 
 ## Resumé
 

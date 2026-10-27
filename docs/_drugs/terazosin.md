@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Terazosin: Fra hypertension og benign prostatahyperplasi til hypotrichosis simplex i hovedbunden
+## Terazosin: Fra hypertension og benign prostatahyperplasi til hypotrichosis simplex i hovedbunden
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Fenylephrin: Fra næse- og svælgslimhindelidelser til lidelser i næsehulen
+## Fenylephrin: Fra næse- og svælgslimhindelidelser til lidelser i næsehulen
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Elosulfase alfa: Fra mukopolysakkaridose til Scheie syndrom
+## Elosulfase alfa: Fra mukopolysakkaridose til Scheie syndrom
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Zanamivir: Fra influenza til pyelonefritis
+## Zanamivir: Fra influenza til pyelonefritis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

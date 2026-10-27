@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Adrenalin (epinephrin): Fra astma og anafylaksi til obstruktiv lungesygdom
+## Adrenalin (epinephrin): Fra astma og anafylaksi til obstruktiv lungesygdom
+{: .text-alpha }
 
 ## Resumé
 

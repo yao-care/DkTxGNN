@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Paroxetin: Fra depression og angstlidelser til Ohdo-syndrom og varianter
+## Paroxetin: Fra depression og angstlidelser til Ohdo-syndrom og varianter
+{: .text-alpha }
 
 ## Resumé
 

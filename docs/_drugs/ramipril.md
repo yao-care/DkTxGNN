@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ramipril: Fra hypertension til pulmonal hypertension ved lungesygdom og/eller hypoksi
+## Ramipril: Fra hypertension til pulmonal hypertension ved lungesygdom og/eller hypoksi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Disulfiram (DB00822): Evaluering af lægemiddel-genudnyttelse — Ufuldstændig datapakke
+## Disulfiram (DB00822): Evaluering af lægemiddel-genudnyttelse — Ufuldstændig datapakke
+{: .text-alpha }
 
 > ⚠️ **Meddelelse:** Dette evidenspakke indeholder kritiske datahiater. TxGNN-modellen returnerede **ingen forudsagte indikationer**, og regulatoriske, sikkerhedsmæssige og virkningsmekanisme-data er fraværende fra pakken. Denne rapport dokumenterer aktuelle resultater og specificerer de afhjælpningstrin, der er nødvendige, før en fuldstændig evaluering af lægemiddel-genudnyttelse kan udføres.
 

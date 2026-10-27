@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Metronidazol: Fra bakterielle og protozoinfektioner til pneumocystose
+## Metronidazol: Fra bakterielle og protozoinfektioner til pneumocystose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

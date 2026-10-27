@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Bosentan: Fra pulmonal hypertension til begrænset systemisk sklerose
+## Bosentan: Fra pulmonal hypertension til begrænset systemisk sklerose
+{: .text-alpha }
 
 ## Resumé i ét afsnit
 

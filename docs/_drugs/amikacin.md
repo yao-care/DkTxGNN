@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amikacin: Fra bakterielle infektioner til paratyfus
+## Amikacin: Fra bakterielle infektioner til paratyfus
+{: .text-alpha }
 
 ## Resumé i én sætning
 

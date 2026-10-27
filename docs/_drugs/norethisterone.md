@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Norethisteron: Fra endometriose og andre gynækologiske lidelser til amenorré
+## Norethisteron: Fra endometriose og andre gynækologiske lidelser til amenorré
+{: .text-alpha }
 
 ## Sammenfatning
 

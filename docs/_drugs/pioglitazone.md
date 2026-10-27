@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Pioglitazon: Fra type 2-diabetes til opsismodysplasi
+## Pioglitazon: Fra type 2-diabetes til opsismodysplasi
+{: .text-alpha }
 
 ## Resumé
 

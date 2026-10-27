@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Gemtuzumab ozogamicin: Genenbrugsvurdering blokeret — Datahuller kræver løsning
+## Gemtuzumab ozogamicin: Genenbrugsvurdering blokeret — Datahuller kræver løsning
+{: .text-alpha }
 
 ---
 

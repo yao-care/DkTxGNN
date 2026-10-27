@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Levothyroxin: Fra hypothyreose til endemisk struma
+## Levothyroxin: Fra hypothyreose til endemisk struma
+{: .text-alpha }
 
 ## Resumé i én sætning
 

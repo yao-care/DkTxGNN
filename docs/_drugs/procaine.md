@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Procain: Fra lokalbedøvelse til methæmoglobinæmi (en forudsigelse, der bør afvises)
+## Procain: Fra lokalbedøvelse til methæmoglobinæmi (en forudsigelse, der bør afvises)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

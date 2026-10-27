@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tamoxifen: Fra brystkræft til mammær Pagets sygdom
+## Tamoxifen: Fra brystkræft til mammær Pagets sygdom
+{: .text-alpha }
 
 ## Resumé
 

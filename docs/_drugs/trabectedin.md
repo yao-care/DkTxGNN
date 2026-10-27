@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Trabectedin: Fra ovariecancer til kvindelig brystkarcinom
+## Trabectedin: Fra ovariecancer til kvindelig brystkarcinom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

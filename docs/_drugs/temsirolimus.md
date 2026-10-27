@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Temsirolimus: Fra nyrecellekarcinom og mantelcellelymfom til liposarkom
+## Temsirolimus: Fra nyrecellekarcinom og mantelcellelymfom til liposarkom
+{: .text-alpha }
 
 ## Resumé i en sætning
 

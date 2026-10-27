@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Ipilimumab: Fra metastatisk melanom til choroideremi
+## Ipilimumab: Fra metastatisk melanom til choroideremi
+{: .text-alpha }
 
 ## Resumé
 

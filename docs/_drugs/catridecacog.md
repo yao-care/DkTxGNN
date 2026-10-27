@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Catridecacog: Fra faktor XIII A-subunit-mangel til primær frigørelsesforstyrrelse af blodplader
+## Catridecacog: Fra faktor XIII A-subunit-mangel til primær frigørelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Resumé
 

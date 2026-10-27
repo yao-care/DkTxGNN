@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Daunorubicin: Fra akut leukæmi til Hodgkins lymfom
+## Daunorubicin: Fra akut leukæmi til Hodgkins lymfom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

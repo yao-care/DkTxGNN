@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Roxadustat: Fra refraktær anæmi til tørre øjne (dry eye syndrome)
+## Roxadustat: Fra refraktær anæmi til tørre øjne (dry eye syndrome)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

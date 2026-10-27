@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sulfasalazin: Fra leddegigt og inflammatorisk tarmsygdom til slidgigt (osteoarthritis)
+## Sulfasalazin: Fra leddegigt og inflammatorisk tarmsygdom til slidgigt (osteoarthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

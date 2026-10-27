@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Spironolacton: Fra hypertension og hjertesvigt til hypotrichosis simplex i hovedbunden
+## Spironolacton: Fra hypertension og hjertesvigt til hypotrichosis simplex i hovedbunden
+{: .text-alpha }
 
 ## Sammenfatning i en enkelt sætning
 

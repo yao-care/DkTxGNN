@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fluorescein: Fra diagnostisk farvestof til Prinzmetal-angina (forudsigelse uden understøttende evidens)
+## Fluorescein: Fra diagnostisk farvestof til Prinzmetal-angina (forudsigelse uden understøttende evidens)
+{: .text-alpha }
 
 ## Resumé i ét afsnit
 

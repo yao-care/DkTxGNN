@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Melphalan: Fra ovariecancer til gonadal kimcelletumor
+## Melphalan: Fra ovariecancer til gonadal kimcelletumor
+{: .text-alpha }
 
 ## Opsummering
 

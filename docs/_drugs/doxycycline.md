@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Doxycyclin: Fra bronkitis til punktformet epitelial keratokonjunktivitis
+## Doxycyclin: Fra bronkitis til punktformet epitelial keratokonjunktivitis
+{: .text-alpha }
 
 ## Resumé
 

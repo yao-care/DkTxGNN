@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Benzydamin: Fra lokal behandling af smerte og betændelse i mund og hals til benign prostatahyperplasi
+## Benzydamin: Fra lokal behandling af smerte og betændelse i mund og hals til benign prostatahyperplasi
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

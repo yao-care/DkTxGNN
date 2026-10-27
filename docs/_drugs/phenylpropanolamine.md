@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Phenylpropanolamin: Fra allergisk rhinitis og forkølelse til sygdomme i næsehulen
+## Phenylpropanolamin: Fra allergisk rhinitis og forkølelse til sygdomme i næsehulen
+{: .text-alpha }
 
 ## Resumé
 

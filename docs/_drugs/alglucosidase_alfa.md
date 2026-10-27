@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Alglucosidase alfa: Fra glykogenlagringssygdom til voksen polyglucosanlegemesygdom
+## Alglucosidase alfa: Fra glykogenlagringssygdom til voksen polyglucosanlegemesygdom
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tildipirosin: Fra veterinær luftvejsinfektion til spedalskhed
+## Tildipirosin: Fra veterinær luftvejsinfektion til spedalskhed
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

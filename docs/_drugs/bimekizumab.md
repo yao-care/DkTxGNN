@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Bimekizumab: Fra uspecificeret oprindelig indikation til diabetisk katarakt
+## Bimekizumab: Fra uspecificeret oprindelig indikation til diabetisk katarakt
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

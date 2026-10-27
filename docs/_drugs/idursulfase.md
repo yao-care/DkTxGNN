@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idursulfase: Fra mukopolysakkaridose til ptose-strabisme-ektopiske pupiller-syndrom
+## Idursulfase: Fra mukopolysakkaridose til ptose-strabisme-ektopiske pupiller-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

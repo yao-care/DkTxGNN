@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Etravirin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+## Etravirin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

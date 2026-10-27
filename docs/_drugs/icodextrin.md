@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Icodextrin: Fra peritonealdialyse til irritabel tarm-syndrom
+## Icodextrin: Fra peritonealdialyse til irritabel tarm-syndrom
+{: .text-alpha }
 
 ## Resumé
 

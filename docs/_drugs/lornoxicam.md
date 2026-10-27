@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lornoxicam: Fra gigtlidelser og smerte til reumatoid artritis
+## Lornoxicam: Fra gigtlidelser og smerte til reumatoid artritis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

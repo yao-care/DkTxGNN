@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Propylthiouracil: Fra hyperthyroidisme til resistens over for thyroideahormon (THRB-mutation)
+## Propylthiouracil: Fra hyperthyroidisme til resistens over for thyroideahormon (THRB-mutation)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

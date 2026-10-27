@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Bortezomib: Evaluering af stofomledning til ny brug — Utilstrækkelig evidenspakke til kandidatanalyse
+## Bortezomib: Evaluering af stofomledning til ny brug — Utilstrækkelig evidenspakke til kandidatanalyse
+{: .text-alpha }
 
 ## En-sætningssammenfatning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Aflibercept: Fra makuladegeneration og metastaserende tyktarmskræft til esotropi
+## Aflibercept: Fra makuladegeneration og metastaserende tyktarmskræft til esotropi
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

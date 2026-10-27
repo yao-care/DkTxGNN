@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Thymol: Fra veterinær anvendelse (topisk gel) til interventrikulær septumaneurisme
+## Thymol: Fra veterinær anvendelse (topisk gel) til interventrikulær septumaneurisme
+{: .text-alpha }
 
 ## Resumé i én sætning
 

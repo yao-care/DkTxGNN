@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Gemfibrozil: Fra hypertriglyceridæmi til reumatoid artritis
+## Gemfibrozil: Fra hypertriglyceridæmi til reumatoid artritis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

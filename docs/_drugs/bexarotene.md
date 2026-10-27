@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Bexarotene: Fra kutant T-celle-lymfom til primært kutant B-celle-lymfom
+## Bexarotene: Fra kutant T-celle-lymfom til primært kutant B-celle-lymfom
+{: .text-alpha }
 
 ## Resumé
 

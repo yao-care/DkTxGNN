@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Piperacillin: Fra bakterielle infektioner til leddegigt (rheumatoid arthritis)
+## Piperacillin: Fra bakterielle infektioner til leddegigt (rheumatoid arthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

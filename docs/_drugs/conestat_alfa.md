@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Conestat alfa: Fra arveligt angioødem til C1-inhibitormangel
+## Conestat alfa: Fra arveligt angioødem til C1-inhibitormangel
+{: .text-alpha }
 
 ## Resumé i én sætning
 

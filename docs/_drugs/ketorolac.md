@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Ketorolac: Fra øjenbetændelse (allergisk konjunktivitis) til hovedpinelidelser
+## Ketorolac: Fra øjenbetændelse (allergisk konjunktivitis) til hovedpinelidelser
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mecasermin: Fra væksthormoninsensitivitetssyndrom til monosomi X
+## Mecasermin: Fra væksthormoninsensitivitetssyndrom til monosomi X
+{: .text-alpha }
 
 ## Resumé i én sætning
 

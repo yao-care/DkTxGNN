@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tucatinib: Fra oprindelig indikation til migræne (forudsagt)
+## Tucatinib: Fra oprindelig indikation til migræne (forudsagt)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Evolocumab: Fra homozygot familiær hypercholesterolæmi til symptomatisk hæmofili hos kvindelige bærere
+## Evolocumab: Fra homozygot familiær hypercholesterolæmi til symptomatisk hæmofili hos kvindelige bærere
+{: .text-alpha }
 
 ## Resumé i én sætning
 

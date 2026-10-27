@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fluvastatin: Fra arteriosklerose og hyperlipidæmi til familiær hyperkolesterolæmi
+## Fluvastatin: Fra arteriosklerose og hyperlipidæmi til familiær hyperkolesterolæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

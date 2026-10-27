@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Piperaquine: Fra malaria til Plasmodium vivax-malaria
+## Piperaquine: Fra malaria til Plasmodium vivax-malaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

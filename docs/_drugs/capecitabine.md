@@ -31,7 +31,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Capecitabin: Fra mavekræft til gastrisk adenokarcinom og proksimal polypose i ventriklen
+## Capecitabin: Fra mavekræft til gastrisk adenokarcinom og proksimal polypose i ventriklen
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

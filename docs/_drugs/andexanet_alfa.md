@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Andexanet alfa: Fra reversering af faktor Xa-hæmmere til Glanzmanns trombasteni
+## Andexanet alfa: Fra reversering af faktor Xa-hæmmere til Glanzmanns trombasteni
+{: .text-alpha }
 
 ## Resumé i én sætning
 

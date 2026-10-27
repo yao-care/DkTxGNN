@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pretomanid: Fra tuberkulose til candidiasis
+## Pretomanid: Fra tuberkulose til candidiasis
+{: .text-alpha }
 
 ## Opsummering
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Pyridostigmin: Fra myasthenia gravis til myasthenia gravis med thymushyperplasi
+## Pyridostigmin: Fra myasthenia gravis til myasthenia gravis med thymushyperplasi
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

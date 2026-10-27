@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Tacrolimus: Fra atopisk eksem til seboroisk dermatitis
+## Tacrolimus: Fra atopisk eksem til seboroisk dermatitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

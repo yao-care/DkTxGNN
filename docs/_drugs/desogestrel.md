@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Desogestrel: Fra oprindelig indikation til amenoré
+## Desogestrel: Fra oprindelig indikation til amenoré
+{: .text-alpha }
 
 ## Resumé i en sætning
 

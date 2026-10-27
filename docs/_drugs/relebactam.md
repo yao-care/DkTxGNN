@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Relebactam: Fra urinvejsinfektion og pyelonefritis til hyperamylasæmi
+## Relebactam: Fra urinvejsinfektion og pyelonefritis til hyperamylasæmi
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

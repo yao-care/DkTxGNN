@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lidocain: Fra lokalbedøvelse og smertelindring til konjunktivale lidelser
+## Lidocain: Fra lokalbedøvelse og smertelindring til konjunktivale lidelser
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

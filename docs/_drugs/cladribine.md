@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Cladribin: Fra hårcelleleukæmi og relapsing-remitting multipel sklerose til parameningeal embryonalt rhabdomyosarkom
+## Cladribin: Fra hårcelleleukæmi og relapsing-remitting multipel sklerose til parameningeal embryonalt rhabdomyosarkom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Valsartan: Fra hypertension til malign hypertensiv nyresygdom
+## Valsartan: Fra hypertension til malign hypertensiv nyresygdom
+{: .text-alpha }
 
 ## Et-sætnings-resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Salicylamid: Fra hovedpine til faryngitis
+## Salicylamid: Fra hovedpine til faryngitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

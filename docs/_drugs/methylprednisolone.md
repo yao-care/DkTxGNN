@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Methylprednisolon: Fra autoimmune sygdomme og inflammatoriske tilstande til alopecia areata
+## Methylprednisolon: Fra autoimmune sygdomme og inflammatoriske tilstande til alopecia areata
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

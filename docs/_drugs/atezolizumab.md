@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atezolizumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i prostatiske urethra
+## Atezolizumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i prostatiske urethra
+{: .text-alpha }
 
 ## Sammenfatning
 

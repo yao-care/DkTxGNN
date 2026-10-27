@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Clonazepam: Fra epilepsi og angst til rastløse ben-syndrom (restless legs syndrome)
+## Clonazepam: Fra epilepsi og angst til rastløse ben-syndrom (restless legs syndrome)
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

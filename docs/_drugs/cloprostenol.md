@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cloprostenol: Fra veterinær brug til reumatoid arthritis
+## Cloprostenol: Fra veterinær brug til reumatoid arthritis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

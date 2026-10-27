@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Fenbendazol: Fra dyrelægemiddel (ormemiddel) til blærekræft (urinblærekarcinom)
+## Fenbendazol: Fra dyrelægemiddel (ormemiddel) til blærekræft (urinblærekarcinom)
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

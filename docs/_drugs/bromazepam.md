@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Bromazepam: Fra angst-/beroligende behandling til migræne
+## Bromazepam: Fra angst-/beroligende behandling til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

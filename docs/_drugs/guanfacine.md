@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Guanfacin: Fra hypertension og ADHD til faciodigitogenitalt syndrom
+## Guanfacin: Fra hypertension og ADHD til faciodigitogenitalt syndrom
+{: .text-alpha }
 
 ## Resumé
 

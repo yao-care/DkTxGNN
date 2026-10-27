@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Darbepoetin Alfa: Evaluering afventer — Ingen aktiv TxGNN-genbrugsprognose
+## Darbepoetin Alfa: Evaluering afventer — Ingen aktiv TxGNN-genbrugsprognose
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

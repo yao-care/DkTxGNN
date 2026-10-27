@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Atropin: Fra (ikke angivet indikation) til migræne
+## Atropin: Fra (ikke angivet indikation) til migræne
+{: .text-alpha }
 
 ## Resumé i én sætning
 

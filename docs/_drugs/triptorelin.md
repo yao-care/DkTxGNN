@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Triptorelin: Fra den oprindelige indikation til hypertrikose
+## Triptorelin: Fra den oprindelige indikation til hypertrikose
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

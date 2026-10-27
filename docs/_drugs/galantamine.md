@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-# Galantamin: Fra Alzheimers sygdom til psykogene bevægelsesforstyrrelser
+## Galantamin: Fra Alzheimers sygdom til psykogene bevægelsesforstyrrelser
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

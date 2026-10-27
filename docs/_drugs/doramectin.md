@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Doramectin: Fra parasitbekæmpelse hos dyr til søvnløshed (insomni)
+## Doramectin: Fra parasitbekæmpelse hos dyr til søvnløshed (insomni)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

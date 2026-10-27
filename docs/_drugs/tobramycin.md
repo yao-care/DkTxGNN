@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tobramycin: Fra bakterielle øjen- og meningeale infektioner til eksponeringskeratitis
+## Tobramycin: Fra bakterielle øjen- og meningeale infektioner til eksponeringskeratitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

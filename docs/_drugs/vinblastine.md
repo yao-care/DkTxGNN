@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vinblastin: Fra lymfom og Hodgkins sygdom til rhabdomyosarkom
+## Vinblastin: Fra lymfom og Hodgkins sygdom til rhabdomyosarkom
+{: .text-alpha }
 
 ## Opsummering
 

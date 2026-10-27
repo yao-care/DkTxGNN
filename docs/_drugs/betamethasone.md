@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Betamethason: Fra autoimmune sygdomme og inflammatoriske tilstande til alopecia areata
+## Betamethason: Fra autoimmune sygdomme og inflammatoriske tilstande til alopecia areata
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Faricimab: Vurdering af lægemiddelomformål
+## Faricimab: Vurdering af lægemiddelomformål
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Orbifloxacin: Fra bakteriel infektion (dyrlægemiddel) til hjertesygdom
+## Orbifloxacin: Fra bakteriel infektion (dyrlægemiddel) til hjertesygdom
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

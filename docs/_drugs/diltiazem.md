@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Diltiazem: Fra hypertension til forældet modtagelighed for iskæmisk apopleksi
+## Diltiazem: Fra hypertension til forældet modtagelighed for iskæmisk apopleksi
+{: .text-alpha }
 
 ## Resumé
 

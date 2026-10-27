@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Mercaptopurin: Fra akut lymfoblastær leukæmi til myeloid leukæmi
+## Mercaptopurin: Fra akut lymfoblastær leukæmi til myeloid leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

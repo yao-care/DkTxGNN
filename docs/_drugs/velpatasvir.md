@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Velpatasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+## Velpatasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

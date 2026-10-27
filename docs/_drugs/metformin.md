@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Metformin: Fra type 2-diabetes til fokal stiff limb-syndrom
+## Metformin: Fra type 2-diabetes til fokal stiff limb-syndrom
+{: .text-alpha }
 
 ## Resumé
 

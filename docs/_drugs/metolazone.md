@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Metolazon: Fra hypertension til malign renovaskulær hypertension
+## Metolazon: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Resumé i én sætning
 

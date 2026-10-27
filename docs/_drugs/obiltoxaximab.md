@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Obiltoxaximab: Fra inhalationsmiltbrand til postinfektiøs vaskulitis
+## Obiltoxaximab: Fra inhalationsmiltbrand til postinfektiøs vaskulitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

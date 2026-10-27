@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Moxifloxacin: Fra bakterielle infektioner til polyklonalt hyperviskositetssyndrom
+## Moxifloxacin: Fra bakterielle infektioner til polyklonalt hyperviskositetssyndrom
+{: .text-alpha }
 
 ## Sammenfatning i en sætning
 

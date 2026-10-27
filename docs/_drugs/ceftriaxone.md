@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Ceftriaxon: Fra bakterielle infektioner til infektiøs mellemørebetændelse
+## Ceftriaxon: Fra bakterielle infektioner til infektiøs mellemørebetændelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Diphenhydramin: Fra allergisk rhinitis og konjunktivitis til rosacea-konjunktivitis
+## Diphenhydramin: Fra allergisk rhinitis og konjunktivitis til rosacea-konjunktivitis
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vonicog alfa: Fra von Willebrands sygdom til primær frigivelsesforstyrrelse af blodplader
+## Vonicog alfa: Fra von Willebrands sygdom til primær frigivelsesforstyrrelse af blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

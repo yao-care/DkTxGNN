@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Riociguat: Fra pulmonal arteriel hypertension til Ambras-type hypertrichosis universalis congenita
+## Riociguat: Fra pulmonal arteriel hypertension til Ambras-type hypertrichosis universalis congenita
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

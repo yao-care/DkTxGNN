@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Permethrin: Fra lus og fnat til trombiculiasis (høstmider)
+## Permethrin: Fra lus og fnat til trombiculiasis (høstmider)
+{: .text-alpha }
 
 ## Resumé
 

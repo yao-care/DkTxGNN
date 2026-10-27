@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Nitrazepam: Fra søvnløshed til søvnforstyrrelse (initiering og vedligeholdelse af søvn)
+## Nitrazepam: Fra søvnløshed til søvnforstyrrelse (initiering og vedligeholdelse af søvn)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

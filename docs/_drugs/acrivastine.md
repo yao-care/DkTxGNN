@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Acrivastin: Fra allergisk rhinitis til allergisk urticaria
+## Acrivastin: Fra allergisk rhinitis til allergisk urticaria
+{: .text-alpha }
 
 ## Resumé i én sætning
 

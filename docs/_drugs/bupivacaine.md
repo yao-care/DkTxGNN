@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Bupivacain: Fra dermatitis til acrodermatitis chronica atrophicans
+## Bupivacain: Fra dermatitis til acrodermatitis chronica atrophicans
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Guselkumab: Fra manglende registreret indikation til psoriasis
+## Guselkumab: Fra manglende registreret indikation til psoriasis
+{: .text-alpha }
 
 ## Resumé i en sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Brolucizumab: Fra makuladegeneration til mitokondriel oxidativ fosforyleringsforstyrrelse
+## Brolucizumab: Fra makuladegeneration til mitokondriel oxidativ fosforyleringsforstyrrelse
+{: .text-alpha }
 
 ## Resumé
 

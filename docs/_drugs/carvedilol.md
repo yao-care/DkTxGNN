@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carvedilol: Fra hypertension til malign renovaskulær hypertension
+## Carvedilol: Fra hypertension til malign renovaskulær hypertension
+{: .text-alpha }
 
 ## Resumé i én sætning
 

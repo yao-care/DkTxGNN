@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Leflunomid: Fra psoriasisgigt og leddegigt til brachydaktyli-syndaktyli-syndrom
+## Leflunomid: Fra psoriasisgigt og leddegigt til brachydaktyli-syndaktyli-syndrom
+{: .text-alpha }
 
 ## Resumé
 

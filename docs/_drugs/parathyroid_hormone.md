@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Parathyroidhormon: Fra hypoparathyroidisme til migræne
+## Parathyroidhormon: Fra hypoparathyroidisme til migræne
+{: .text-alpha }
 
 ## Resumé
 

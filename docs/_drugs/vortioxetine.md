@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Vortioxetin: Fra depression til melankoli
+## Vortioxetin: Fra depression til melankoli
+{: .text-alpha }
 
 Valget af den nye indikation er her gjort ud fra evidensen. Den højest rangerede forudsigelse (neurotisk lidelse) har kun et enkelt litteraturresultat og ingen forsøg. Den tredjerangerede forudsigelse, melankoli, har flest registrerede kliniske forsøg og er derfor valgt som hovedforslag.
 

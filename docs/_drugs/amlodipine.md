@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amlodipin: Fra hypertension til hjernestamme-infarkt (og intracerebral blødning)
+## Amlodipin: Fra hypertension til hjernestamme-infarkt (og intracerebral blødning)
+{: .text-alpha }
 
 > **Bemærkning om valg af forudsagt indikation:** Den højest rangerede forudsigelse (hjernestamme-infarkt) har kun modelscore og ingen studier. Den forudsigelse med klart stærkest evidens i de indsamlede data er **intracerebral blødning** (rang 10). Rapporten viser derfor begge i oversigten, men evidens- og beslutningsafsnittene fokuserer på intracerebral blødning.
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Carbetocin: Fra Prader-Willi syndrom og Noonan syndrom til isotretinoin-lignende syndrom
+## Carbetocin: Fra Prader-Willi syndrom og Noonan syndrom til isotretinoin-lignende syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Famciclovir: Fra helvedesild til postinfektiøs neuralgi
+## Famciclovir: Fra helvedesild til postinfektiøs neuralgi
+{: .text-alpha }
 
 ## Resumé
 

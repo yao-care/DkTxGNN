@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Cefazolin: Fra bakterielle infektioner til infektiøs mellemørebetændelse
+## Cefazolin: Fra bakterielle infektioner til infektiøs mellemørebetændelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

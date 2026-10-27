@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Polymyxin B: Fra lokal antibiotikabehandling til bronkitis
+## Polymyxin B: Fra lokal antibiotikabehandling til bronkitis
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Exemestan: Fra brystkræft til amenoré (prædiktion med meget begrænset evidens)
+## Exemestan: Fra brystkræft til amenoré (prædiktion med meget begrænset evidens)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

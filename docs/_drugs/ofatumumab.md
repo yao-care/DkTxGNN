@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ofatumumab: Fra akut lymfoblastær leukæmi til follikulært lymfom
+## Ofatumumab: Fra akut lymfoblastær leukæmi til follikulært lymfom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

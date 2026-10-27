@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Paromomycin: Fra hepatisk koma til idiopatisk kobberassocieret cirrose
+## Paromomycin: Fra hepatisk koma til idiopatisk kobberassocieret cirrose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

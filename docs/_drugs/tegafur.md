@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tegafur: Fra mavekræft til tyktarmskræft (colonic neoplasm)
+## Tegafur: Fra mavekræft til tyktarmskræft (colonic neoplasm)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

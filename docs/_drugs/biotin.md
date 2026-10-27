@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Biotin: Fra ernæringsmæssig biotinmangel til dyspepsi
+## Biotin: Fra ernæringsmæssig biotinmangel til dyspepsi
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

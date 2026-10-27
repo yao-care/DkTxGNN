@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Cisplatin: Evaluering af lægemiddel til genbrug — Ingen TxGNN-forudsigelser tilgængelig
+## Cisplatin: Evaluering af lægemiddel til genbrug — Ingen TxGNN-forudsigelser tilgængelig
+{: .text-alpha }
 
 ## Sammenfatning på en sætning
 

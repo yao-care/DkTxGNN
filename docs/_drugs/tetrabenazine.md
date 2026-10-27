@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tetrabenazin: Fra Huntingtons sygdom til polycystisk nyresygdom 3 (med eller uden polycystisk leversygdom)
+## Tetrabenazin: Fra Huntingtons sygdom til polycystisk nyresygdom 3 (med eller uden polycystisk leversygdom)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

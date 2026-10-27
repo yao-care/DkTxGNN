@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Sebelipase alfa: Fra lysosomal sur lipase-mangel til Scheie syndrom
+## Sebelipase alfa: Fra lysosomal sur lipase-mangel til Scheie syndrom
+{: .text-alpha }
 
 ## Resumé i få sætninger
 

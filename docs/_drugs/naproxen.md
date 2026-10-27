@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Naproxen: Fra gigt og smertetilstande til brachydaktyli-syndaktyli-syndrom
+## Naproxen: Fra gigt og smertetilstande til brachydaktyli-syndaktyli-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

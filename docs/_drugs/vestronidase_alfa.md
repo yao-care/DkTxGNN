@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vestronidase alfa: Fra mukopolysakkaridose til Scheie syndrom
+## Vestronidase alfa: Fra mukopolysakkaridose til Scheie syndrom
+{: .text-alpha }
 
 ## Resumé
 

@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Eptinezumab: Fra migræne til migræne med hjernestammeaura
+## Eptinezumab: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-# Tryptofan: Fra ernæringsmæssig aminosyre til insomni
+## Tryptofan: Fra ernæringsmæssig aminosyre til insomni
+{: .text-alpha }
 
 ## Resumé
 

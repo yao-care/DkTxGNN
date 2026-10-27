@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ticagrelor: Fra akut koronart syndrom til intrakraniel arteriosklerose
+## Ticagrelor: Fra akut koronart syndrom til intrakraniel arteriosklerose
+{: .text-alpha }
 
 ## Resumé i én sætning
 

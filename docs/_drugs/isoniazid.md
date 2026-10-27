@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Isoniazid: Fra pulmonal tuberkulose til konjunktivitis
+## Isoniazid: Fra pulmonal tuberkulose til konjunktivitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

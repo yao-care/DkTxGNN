@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Avibactam: Fra pyelonefritis til streptokok-pneumoni
+## Avibactam: Fra pyelonefritis til streptokok-pneumoni
+{: .text-alpha }
 
 ## Resumé i én sætning
 

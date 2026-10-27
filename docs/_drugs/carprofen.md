@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Carprofen: Fra dyrlægeanvendelse (smerte og betændelse) til reumatoid artritis
+## Carprofen: Fra dyrlægeanvendelse (smerte og betændelse) til reumatoid artritis
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

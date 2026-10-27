@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Everolimus: Fra nyrecellekarcinom og brystkræft til liposarkom
+## Everolimus: Fra nyrecellekarcinom og brystkræft til liposarkom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

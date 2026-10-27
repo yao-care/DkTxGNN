@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Nimodipin: Fra subaraknoidal blødning til homozygot familiær hyperkolesterolæmi
+## Nimodipin: Fra subaraknoidal blødning til homozygot familiær hyperkolesterolæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

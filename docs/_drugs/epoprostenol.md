@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Epoprostenol (DB01240): Pulmonary Arterial Hypertension — Evidenspakke ufuldstændig, vurdering afventer
+## Epoprostenol (DB01240): Pulmonary Arterial Hypertension — Evidenspakke ufuldstændig, vurdering afventer
+{: .text-alpha }
 
 ---
 

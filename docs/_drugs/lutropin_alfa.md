@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lutropin alfa: Fra reproduktionsmedicin til postural ortostatisk takykardisyndrom (POTS)
+## Lutropin alfa: Fra reproduktionsmedicin til postural ortostatisk takykardisyndrom (POTS)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

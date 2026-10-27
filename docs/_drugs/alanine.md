@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Alanin: Fra ernæringsterapi til gastroparese
+## Alanin: Fra ernæringsterapi til gastroparese
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

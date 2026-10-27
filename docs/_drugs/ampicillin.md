@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ampicillin: Fra bakterielle infektioner til laryngitis
+## Ampicillin: Fra bakterielle infektioner til laryngitis
+{: .text-alpha }
 
 ## Resumé i en sætning
 

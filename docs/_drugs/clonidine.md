@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clonidin: Fra forhøjet blodtryk til Tourettes syndrom
+## Clonidin: Fra forhøjet blodtryk til Tourettes syndrom
+{: .text-alpha }
 
 ## Enkeltsætningsopsummering
 

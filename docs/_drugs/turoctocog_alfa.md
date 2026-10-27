@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Turoctocog alfa: Fra hæmofili til primær frigørelsesdefekt af blodplader
+## Turoctocog alfa: Fra hæmofili til primær frigørelsesdefekt af blodplader
+{: .text-alpha }
 
 ## Resumé i én sætning
 

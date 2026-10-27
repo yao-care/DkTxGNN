@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Vildagliptin: Fra type 2-diabetes til klassisk stiff person-syndrom
+## Vildagliptin: Fra type 2-diabetes til klassisk stiff person-syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

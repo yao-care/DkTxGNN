@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pegaspargase: Fra akut lymfoblastær leukæmi til prækursor-lymfoblastært lymfom/leukæmi
+## Pegaspargase: Fra akut lymfoblastær leukæmi til prækursor-lymfoblastært lymfom/leukæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

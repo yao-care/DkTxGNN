@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Ketamin: Fra anæstesi (veterinær) til hovedpinelidelse
+## Ketamin: Fra anæstesi (veterinær) til hovedpinelidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

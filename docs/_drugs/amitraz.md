@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Amitraz: Fra et veterinært acaricid til alopeci
+## Amitraz: Fra et veterinært acaricid til alopeci
+{: .text-alpha }
 
 ## Resumé i én sætning
 

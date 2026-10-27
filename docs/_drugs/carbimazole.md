@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Carbimazol: Fra hypertyreoidisme til resistens over for thyreoideahormon (TRβ-mutation)
+## Carbimazol: Fra hypertyreoidisme til resistens over for thyreoideahormon (TRβ-mutation)
+{: .text-alpha }
 
 ## Sammenfattende vurdering
 

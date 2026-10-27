@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Glycin: Fra allergisk rhinitis og øvre luftvejslidelser til sygdom i næsehulen
+## Glycin: Fra allergisk rhinitis og øvre luftvejslidelser til sygdom i næsehulen
+{: .text-alpha }
 
 ## Resumé
 

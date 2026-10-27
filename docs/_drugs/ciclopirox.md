@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Ciclopirox: Ingen TxGNN-prognose tilgængelig — utilstrækkelige data til repurposing-vurdering
+## Ciclopirox: Ingen TxGNN-prognose tilgængelig — utilstrækkelige data til repurposing-vurdering
+{: .text-alpha }
 
 ## Sammenfatning på en sætning
 

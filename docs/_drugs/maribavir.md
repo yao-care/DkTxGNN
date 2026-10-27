@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Maribavir: Vurdering af medicinsgenbrug — bevissamling ufuldstændig
+## Maribavir: Vurdering af medicinsgenbrug — bevissamling ufuldstændig
+{: .text-alpha }
 
 ## Resumé på en sætning
 

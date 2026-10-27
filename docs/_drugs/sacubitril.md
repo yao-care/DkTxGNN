@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Sacubitril: Fra hjertesvigt til diabetisk nefropati
+## Sacubitril: Fra hjertesvigt til diabetisk nefropati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

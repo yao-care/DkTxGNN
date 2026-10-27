@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Atomoxetin: Fra ADHD til specifik udviklingsforstyrrelse
+## Atomoxetin: Fra ADHD til specifik udviklingsforstyrrelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

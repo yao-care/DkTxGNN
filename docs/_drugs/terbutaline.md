@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Terbutalin: Fra astma til obstruktiv lungesygdom
+## Terbutalin: Fra astma til obstruktiv lungesygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

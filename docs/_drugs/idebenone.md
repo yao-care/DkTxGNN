@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Idebenon: Fra Leberhereditær optikusneuropati til hepatisk porfyri
+## Idebenon: Fra Leberhereditær optikusneuropati til hepatisk porfyri
+{: .text-alpha }
 
 ## Resumé
 

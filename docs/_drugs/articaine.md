@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Articain: Fra lokalbedøvelse til gigt (gout)
+## Articain: Fra lokalbedøvelse til gigt (gout)
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

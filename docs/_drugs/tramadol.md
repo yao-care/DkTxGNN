@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tramadol: Fra slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+## Tramadol: Fra slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

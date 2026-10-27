@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Solriamfetol: Fra narkolepsi til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+## Solriamfetol: Fra narkolepsi til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

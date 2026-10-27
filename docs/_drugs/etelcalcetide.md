@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Etelcalcetid: Fra hyperparathyroidisme til hyperfosfatæmi
+## Etelcalcetid: Fra hyperparathyroidisme til hyperfosfatæmi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

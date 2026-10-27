@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Daptomycin: Fra bakterielle infektioner til leddegigt (rheumatoid arthritis)
+## Daptomycin: Fra bakterielle infektioner til leddegigt (rheumatoid arthritis)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

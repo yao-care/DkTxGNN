@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Paliperidon: Fra skizofreni til retinal dystrofi (TxGNN-topforslag)
+## Paliperidon: Fra skizofreni til retinal dystrofi (TxGNN-topforslag)
+{: .text-alpha }
 
 ## Opsummering
 

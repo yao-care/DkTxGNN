@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Pregabalin: Fra angstlidelse, fibromyalgi og postherpetisk neuralgi til tendinitis
+## Pregabalin: Fra angstlidelse, fibromyalgi og postherpetisk neuralgi til tendinitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

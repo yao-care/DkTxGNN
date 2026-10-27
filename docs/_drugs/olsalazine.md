@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Olsalazin: Fra colitis ulcerosa til myelodysplastisk syndrom
+## Olsalazin: Fra colitis ulcerosa til myelodysplastisk syndrom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

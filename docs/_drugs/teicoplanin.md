@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Teicoplanin: Fra stafylokokinfektion til bakteriel artritis
+## Teicoplanin: Fra stafylokokinfektion til bakteriel artritis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

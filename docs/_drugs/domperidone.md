@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Domperidon: Fra dyspepsi og kvalme til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+## Domperidon: Fra dyspepsi og kvalme til nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Resumé i en sætning
 

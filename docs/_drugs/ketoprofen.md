@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ketoprofen: Fra gigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+## Ketoprofen: Fra gigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

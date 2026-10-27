@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Lisinopril: Fra hypertension til posterolateralt myokardieinfarkt
+## Lisinopril: Fra hypertension til posterolateralt myokardieinfarkt
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

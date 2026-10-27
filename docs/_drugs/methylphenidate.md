@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Methylphenidat: Fra ADHD til specifik udviklingsforstyrrelse
+## Methylphenidat: Fra ADHD til specifik udviklingsforstyrrelse
+{: .text-alpha }
 
 ## Resumé
 

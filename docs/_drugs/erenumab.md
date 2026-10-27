@@ -31,7 +31,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Erenumab: Fra migræne til migræne med hjernestammeaura
+## Erenumab: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

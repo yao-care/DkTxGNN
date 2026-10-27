@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Olmesartan: Fra hypertension til migræne (forebyggelse)
+## Olmesartan: Fra hypertension til migræne (forebyggelse)
+{: .text-alpha }
 
 ## Sammenfatning
 

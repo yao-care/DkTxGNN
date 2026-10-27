@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-# Calcifediol: Fra rakitis og knoglemetaboliske sygdomme til D-vitaminmangel
+## Calcifediol: Fra rakitis og knoglemetaboliske sygdomme til D-vitaminmangel
+{: .text-alpha }
 
 ## Resumé
 

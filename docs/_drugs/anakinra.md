@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Anakinra: Fra leddegigt og CAPS til ekstrakutant mastocytom
+## Anakinra: Fra leddegigt og CAPS til ekstrakutant mastocytom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

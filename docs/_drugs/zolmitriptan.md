@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-# Zolmitriptan: Fra migræne til migræne med hjernestammeaura
+## Zolmitriptan: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering i en sætning
 

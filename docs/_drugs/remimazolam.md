@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Remimazolam: Fra procedural sedation til søvnløshed (insomni)
+## Remimazolam: Fra procedural sedation til søvnløshed (insomni)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

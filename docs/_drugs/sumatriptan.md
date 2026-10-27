@@ -31,7 +31,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Sumatriptan: Fra migræne til migræne med hjernestammeaura
+## Sumatriptan: Fra migræne til migræne med hjernestammeaura
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

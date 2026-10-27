@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Morfin: Fra diarrésygdom til uroligt bensyndrom (restless legs syndrome)
+## Morfin: Fra diarrésygdom til uroligt bensyndrom (restless legs syndrome)
+{: .text-alpha }
 
 ## Opsummering
 

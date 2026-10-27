@@ -31,7 +31,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Perampanel: Fra partiel epilepsi til visuel epilepsi
+## Perampanel: Fra partiel epilepsi til visuel epilepsi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Chloramphenicol: Fra tyfus og andre infektioner til konjunktivitis
+## Chloramphenicol: Fra tyfus og andre infektioner til konjunktivitis
+{: .text-alpha }
 
 ## Resumé
 

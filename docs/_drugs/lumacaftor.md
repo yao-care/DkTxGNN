@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-# Lumacaftor: Fra cystisk fibrose til spedalskhed (leprosy)
+## Lumacaftor: Fra cystisk fibrose til spedalskhed (leprosy)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

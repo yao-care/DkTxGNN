@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Acetazolamid: Fra glaukom og andre oprindelige indikationer til arbejdsudløst malign hypertermi
+## Acetazolamid: Fra glaukom og andre oprindelige indikationer til arbejdsudløst malign hypertermi
+{: .text-alpha }
 
 ## Opsummering
 

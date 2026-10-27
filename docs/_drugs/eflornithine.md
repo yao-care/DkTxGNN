@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Eflornithin: Fra human afrikansk trypanosomiasis til esotropi
+## Eflornithin: Fra human afrikansk trypanosomiasis til esotropi
+{: .text-alpha }
 
 ## Resumé i én sætning
 

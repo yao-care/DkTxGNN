@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Cholecalciferol: Fra D-vitaminmangel og knoglesygdomme til familiær isoleret hypoparathyroidisme
+## Cholecalciferol: Fra D-vitaminmangel og knoglesygdomme til familiær isoleret hypoparathyroidisme
+{: .text-alpha }
 
 ## Resumé
 

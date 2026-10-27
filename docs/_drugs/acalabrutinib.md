@@ -33,7 +33,8 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Acalabrutinib: Fra mantelcellelymfom til non-Hodgkin-lymfom (familiær)
+## Acalabrutinib: Fra mantelcellelymfom til non-Hodgkin-lymfom (familiær)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

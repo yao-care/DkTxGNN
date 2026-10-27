@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Abatacept: Fra reumatoid artritis til reumatoid vaskulitis
+## Abatacept: Fra reumatoid artritis til reumatoid vaskulitis
+{: .text-alpha }
 
 ## Resumé
 

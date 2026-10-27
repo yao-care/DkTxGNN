@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Benzylpenicillin: Fra bakterielle infektioner til pericoronitis
+## Benzylpenicillin: Fra bakterielle infektioner til pericoronitis
+{: .text-alpha }
 
 ## Opsummering
 

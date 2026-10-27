@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Rotigotin: Fra Parkinsons sygdom og restless legs-syndrom til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+## Rotigotin: Fra Parkinsons sygdom og restless legs-syndrom til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

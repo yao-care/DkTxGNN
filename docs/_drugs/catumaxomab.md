@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Catumaxomab: Fra ikke-angivet oprindelig indikation til svær non-proliferativ diabetisk retinopati
+## Catumaxomab: Fra ikke-angivet oprindelig indikation til svær non-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Resumé i én sætning
 

@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Albutrepenonacog alfa: Fra hæmofili til pseudo-von Willebrand-sygdom
+## Albutrepenonacog alfa: Fra hæmofili til pseudo-von Willebrand-sygdom
+{: .text-alpha }
 
 ## Resumé i én sætning
 

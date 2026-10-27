@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-# Benazepril: Fra hypertension til malign hypertensiv nyresygdom
+## Benazepril: Fra hypertension til malign hypertensiv nyresygdom
+{: .text-alpha }
 
 ## Opsummering
 

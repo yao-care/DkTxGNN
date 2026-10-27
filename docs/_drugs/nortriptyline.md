@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Nortriptylin: Fra angstlidelse til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+## Nortriptylin: Fra angstlidelse til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

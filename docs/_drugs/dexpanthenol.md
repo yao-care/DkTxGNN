@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-# Dexpanthenol: Fra hud- og tarmlidelser til udslæt (eksantem)
+## Dexpanthenol: Fra hud- og tarmlidelser til udslæt (eksantem)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

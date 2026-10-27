@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Noradrenalin: Fra astma og hypotension til obstruktiv lungesygdom
+## Noradrenalin: Fra astma og hypotension til obstruktiv lungesygdom
+{: .text-alpha }
 
 ## Sammenfatning i én sætning
 

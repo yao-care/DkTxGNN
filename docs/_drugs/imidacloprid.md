@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Imidacloprid: Fra et veterinært lægemiddel til hund til cauda equina-syndrom
+## Imidacloprid: Fra et veterinært lægemiddel til hund til cauda equina-syndrom
+{: .text-alpha }
 
 ## Resumé i en sætning
 

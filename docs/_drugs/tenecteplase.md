@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tenecteplase: Fra myokardieinfarkt til posterolateralt myokardieinfarkt
+## Tenecteplase: Fra myokardieinfarkt til posterolateralt myokardieinfarkt
+{: .text-alpha }
 
 ## Resumé i én sætning
 

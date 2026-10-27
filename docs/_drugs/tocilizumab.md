@@ -33,7 +33,8 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Tocilizumab: Fra leddegigt til ankyloserende spondylitis
+## Tocilizumab: Fra leddegigt til ankyloserende spondylitis
+{: .text-alpha }
 
 ## Resumé i én sætning
 

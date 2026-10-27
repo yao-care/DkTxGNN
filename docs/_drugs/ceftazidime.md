@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Ceftazidim: Fra bakterielle infektioner til polyklonalt hyperviskositetssyndrom
+## Ceftazidim: Fra bakterielle infektioner til polyklonalt hyperviskositetssyndrom
+{: .text-alpha }
 
 ## Resumé
 

@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Avanafil: Ingen TxGNN-oldingslægeprognoser genereret
+## Avanafil: Ingen TxGNN-oldingslægeprognoser genereret
+{: .text-alpha }
 
 ## Ét-sætnings oversigt
 

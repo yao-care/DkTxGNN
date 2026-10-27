@@ -32,7 +32,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-# Melatonin: Evaluering af medicingenforbrug — Ingen TxGNN-forudsigelsesdata tilgængelige
+## Melatonin: Evaluering af medicingenforbrug — Ingen TxGNN-forudsigelsesdata tilgængelige
+{: .text-alpha }
 
 ---
 

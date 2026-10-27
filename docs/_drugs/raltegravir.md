@@ -33,7 +33,8 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-# Raltegravir: Fra HIV-infektion til infektion med simian immundefektvirus (SIV)
+## Raltegravir: Fra HIV-infektion til infektion med simian immundefektvirus (SIV)
+{: .text-alpha }
 
 ## Resumé i én sætning
 

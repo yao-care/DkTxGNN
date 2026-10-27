@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Meloxicam: Fra gigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+## Meloxicam: Fra gigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+{: .text-alpha }
 
 ## Opsummering i én sætning
 

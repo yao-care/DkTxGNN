@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Avelumab: Fra kutant neuroendokrint karcinom til human herpesvirus 8-relateret tumor
+## Avelumab: Fra kutant neuroendokrint karcinom til human herpesvirus 8-relateret tumor
+{: .text-alpha }
 
 ## Resumé
 

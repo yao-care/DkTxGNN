@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Miglustat: Fra Gauchers sygdom til autosomal ichthyose-syndrom med dødeligt forløb
+## Miglustat: Fra Gauchers sygdom til autosomal ichthyose-syndrom med dødeligt forløb
+{: .text-alpha }
 
 ## Resumé i én sætning
 

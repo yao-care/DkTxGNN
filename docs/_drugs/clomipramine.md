@@ -33,7 +33,8 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-# Clomipramin: Fra obsessiv-kompulsiv lidelse til angstlidelse
+## Clomipramin: Fra obsessiv-kompulsiv lidelse til angstlidelse
+{: .text-alpha }
 
 ## Resumé i én sætning
 

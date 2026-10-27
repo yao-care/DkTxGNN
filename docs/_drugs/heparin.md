@@ -33,7 +33,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-# Heparin: Fra pulmonal emboli til trombofili som følge af protein C-mangel
+## Heparin: Fra pulmonal emboli til trombofili som følge af protein C-mangel
+{: .text-alpha }
 
 ## Resumé
 
