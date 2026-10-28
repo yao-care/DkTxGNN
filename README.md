@@ -19,7 +19,7 @@ Forudsigelser for laegemiddelrepositionering af DKMA-godkendte laegemidler (Denm
 
 | Element | Antal |
 |------|------|
-| **Laegemiddelrapporter** | 860 |
+| **Laegemiddelrapporter** | 807 |
 | **Samlede forudsigelser** | 8,553,242 |
 | **Unikke laegemidler** | 501 |
 | **Unikke indikationer** | 17,081 |
