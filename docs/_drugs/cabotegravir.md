@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (lægemidlet er kendt som HIV-1-in…"
+last_modified_at: 2026-10-28
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
+description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cabotegravir
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Cabotegravir: Fra oprindelig indikation til reumatoid artritis
+## Cabotegravir: Reumatoid artritis (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -47,9 +47,9 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **reumatoid artrit
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de tilgængelige data (lægemidlet er kendt som HIV-1-integrasehæmmer) |
-| Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN-forudsigelsesscore | 0,9945 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Reumatoid artritis (rheumatoid arthritis) |
+| TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
@@ -65,7 +65,7 @@ Der er ikke påvist nogen mekanistisk sammenhæng mellem denne virkning og reuma
 
 Bemærk, at forudsigelsen optræder to gange i de modtagne data, hvilket tyder på en fejl i databehandlingen.
 
-**Øvrige forudsigelser med samme evidensniveau (L5, Hold):** Modellen foreslår også skleroserende kolangitis (99,22 %), bronkitis (99,19 %), colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (99,16 %) og svær ikke-proliferativ diabetisk retinopati (99,03 %). Ingen af dem har kliniske forsøg, litteratur eller en plausibel mekanisme.
+**Øvrige forudsigelser med samme evidensniveau (L5, Hold):** Modellen foreslår også skleroserende kolangitis (0.9922), bronkitis (0.9919), colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (0.9916) og svær ikke-proliferativ diabetisk retinopati (0.9903). Ingen af dem har kliniske forsøg, litteratur eller en plausibel mekanisme.
 
 ---
 

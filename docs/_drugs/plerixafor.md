@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
-last_modified_at: 2026-10-23
-description: "Plerixafor: forudsagt ny indikation CMM7 (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom"
+last_modified_at: 2026-10-28
+description: "Plerixafor: forudsagt ny indikation CMM7 (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Plerixafor
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Plerixafor: Fra plasmacellemyelom til CMM7
+## Plerixafor: CMM7
 {: .text-alpha }
 
 ## Resumé
@@ -46,9 +46,9 @@ Plerixafor er en CXCR4-hæmmer. I videnbasen er stoffet knyttet til plasmacellem
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Plasmacellemyelom (relation registreret i videnbasen; dansk indikationstekst foreligger ikke i de indsamlede data) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | CMM7 |
-| TxGNN-forudsigelsesscore | 0,9934 |
+| TxGNN-forudsigelsesscore | 0.9934 |
 | Evidensniveau | L5 |
 | Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
@@ -78,10 +78,10 @@ Der er i øjeblikket ingen relateret litteratur for CMM7.
 
 TxGNN forudsagde også andre sygdomme. Fire af dem mangler helt kliniske og litterære data:
 
-- pædiatrisk leptomeningealt melanom (99,30 %)
-- epitelioidcellet uvealt melanom (99,27 %)
-- bronkitis (99,22 %)
-- vulvamelanom (99,17 %)
+- pædiatrisk leptomeningealt melanom (0.9930)
+- epitelioidcellet uvealt melanom (0.9927)
+- bronkitis (0.9922)
+- vulvamelanom (0.9917)
 
 Der er desuden et begrundet forbehold for to af dem:
 

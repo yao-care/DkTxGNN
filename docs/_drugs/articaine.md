@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Articaine: forudsagt ny indikation Gigt (gout) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (articain er et lokalanæstetikum…"
+last_modified_at: 2026-10-28
 monitor_inn: "articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
+description: "Articaine: forudsagt ny indikation Gigt (gout) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Articaine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Articain: Fra lokalbedøvelse til gigt (gout)
+## Articaine: Gigt (gout)
 {: .text-alpha }
 
 ## Opsummering i en sætning
@@ -48,15 +48,15 @@ Forudsigelsen er derfor udelukkende modelbaseret.
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (articain er et lokalanæstetikum, bl.a. brugt i tandlægepraksis) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Gigt (gout) |
-| TxGNN-forudsigelsesscore | 0,9958 |
+| TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
-Andre forudsagte indikationer i data: eksostose (99,42 %), allergisk astma (99,38 %) og intrinsisk astma (99,34 %). Alle er på evidensniveau L5 med anbefalingen Hold.
+Andre forudsagte indikationer i data: eksostose (0.9942), allergisk astma (0.9938) og intrinsisk astma (0.9934). Alle er på evidensniveau L5 med anbefalingen Hold.
 
 ---
 

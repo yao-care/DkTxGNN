@@ -5,10 +5,10 @@ parent: Moderat evidens (L3-L4)
 nav_order: 716
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske ti…"
+last_modified_at: 2026-10-28
 monitor_inn: "Ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
+description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ribociclib
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Ribociclib: Fra brystkræft til myeloid leukæmi
+## Ribociclib: Myeloid leukæmi (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,9 +48,9 @@ men der er **ingen registrerede kliniske forsøg** og kun **1 relevant præklini
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i den danske tilladelse er tom) |
-| Forudsagt ny indikation | Myeloid leukæmi |
-| TxGNN-forudsigelsesscore | 0,9935 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Myeloid leukæmi (myeloid leukemia) |
+| TxGNN-forudsigelsesscore | 0.9935 |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
@@ -119,7 +119,7 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 Forudsigelsen om myeloid leukæmi støttes kun af et enkelt præklinisk in vitro-studie og en computerbaseret score, uden kliniske forsøg. Ribociclibs kendte myelosuppression er desuden en væsentlig sikkerhedsbekymring i en sygdom med påvirket knoglemarv.
 
 **Andre forudsagte indikationer (alle Hold):**
-Modellen forudsiger også trombocytopeni (99,27 %), makrotrombocytopeni med mitralklapinsufficiens (99,08 %), arvelig trombocytopeni med normale trombocytter (99,07 %) og transient neonatal trombocytopeni (98,98 %). Litteraturen beskriver trombocytopeni som en **bivirkning** af CDK4/6-hæmmere, ikke som en behandlingseffekt. Disse forudsigelser er mekanistisk modstridende og skal betragtes som sikkerhedssignaler frem for repurposing-muligheder. Brug af en antineoplastisk CDK4/6-hæmmer til nyfødte vil desuden give store sikkerhedsmæssige betænkeligheder.
+Litteraturen beskriver trombocytopeni som en **bivirkning** af CDK4/6-hæmmere, ikke som en behandlingseffekt. Disse forudsigelser er mekanistisk modstridende og skal betragtes som sikkerhedssignaler frem for repurposing-muligheder. Brug af en antineoplastisk CDK4/6-hæmmer til nyfødte vil desuden give store sikkerhedsmæssige betænkeligheder.
 
 **For at komme videre kræves følgende:**
 - Data om virkningsmekanismen (MOA) fra DrugBank

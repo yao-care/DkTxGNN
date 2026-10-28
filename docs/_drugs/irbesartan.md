@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -57,9 +57,9 @@ Forudsigelsen er rent beregningsbaseret: de data, der er indsamlet til denne rap
 | Anbefalet beslutning | Hold |
 
 Andre forudsigelser med samme høje score i datasættet (se afsnittet om øvrige forudsigelser nedenfor):
-- Malign renovaskulær hypertension (99,31 %, L5)
-- Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (99,25 %, L4)
-- Pulmonal hypertension med uklar multifaktoriel mekanisme (99,25 %, L5)
+- Malign renovaskulær hypertension (0.9931, L5)
+- Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (0.9925, L4)
+- Pulmonal hypertension med uklar multifaktoriel mekanisme (0.9925, L5)
 
 ---
 

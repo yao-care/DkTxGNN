@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
@@ -68,7 +68,7 @@ Der er imidlertid ingen etableret mekanisme, der forbinder IL-5-blokade med anti
 
 Modellen foreslog også andre blodpladerelaterede tilstande, men de har endnu svagere støtte:
 - **Primær frigivelsesforstyrrelse af blodplader** (score 0,9961): kun et review fra 2010 om hypereosinofilt syndrom, som ikke omhandler blodpladesygdomme.
-- **Pseudo-von Willebrand sygdom** (99,44 %), **autoimmun trombocytopeni** (99,33 %) og **Glanzmanns trombasteni** (99,28 %): ingen forsøg eller litteratur, og ingen plausibel rolle for IL-5-hæmning.
+- **Pseudo-von Willebrand sygdom** (0.9944), **autoimmun trombocytopeni** (0.9933) og **Glanzmanns trombasteni** (0.9928): ingen forsøg eller litteratur, og ingen plausibel rolle for IL-5-hæmning.
 
 ---
 

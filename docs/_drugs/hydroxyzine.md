@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: forudsagt ny indikation Rosacea conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -128,7 +128,6 @@ Se desuden det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinform
 - Vurdering af, om forudsigelsen overhovedet tilfører noget ud over den allerede godkendte urticaria-indikation
 
 **Bemærkning om øvrige forudsigelser:**
-- *Rosacea-konjunktivitis* (99,70 %), *recalcitrant atopisk dermatitis* (99,36 %) og *atopisk IgE-responsivitet* (99,27 %): Alle på evidensniveau L5 uden forsøg eller litteratur; histamin spiller en mindre rolle i disse tilstande, og anbefalingen er Hold.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

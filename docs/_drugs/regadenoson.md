@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 707
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Regadenoson: forudsagt ny indikation Anafylaksi (evidensniveau L5). Oprindelig indikation: Diagnostisk middel til radionuklid myokardieperfusionsscintigrafi (MP…"
+last_modified_at: 2026-10-28
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
+description: "Regadenoson: forudsagt ny indikation Anafylaksi (anaphylaxis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Regadenoson
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Regadenoson: Fra diagnostisk stressmiddel til anafylaksi
+## Regadenoson: Anafylaksi (anaphylaxis)
 {: .text-alpha }
 
 ## Resumé
@@ -46,15 +46,15 @@ Regadenoson er en selektiv A2A-adenosinreceptoragonist, som anvendes som diagnos
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Diagnostisk middel til radionuklid myokardieperfusionsscintigrafi (MPI). Indikationsteksten i den danske godkendelse er ikke tilgængelig i de indsamlede data. |
-| Forudsagt ny indikation | Anafylaksi |
-| TxGNN-prædiktionsscore | 0,9985 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Anafylaksi (anaphylaxis) |
+| TxGNN-prædiktionsscore | 0.9985 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Øvrige forudsagte indikationer (alle L5, alle Hold): fødeafhængig anstrengelsesudløst anafylaksi (99,74 %), esotropi (99,12 %) og pseudoallergi (99,12 %).
+Øvrige forudsagte indikationer (alle L5, alle Hold): fødeafhængig anstrengelsesudløst anafylaksi (0.9974), esotropi (0.9912) og pseudoallergi (0.9912).
 
 ---
 

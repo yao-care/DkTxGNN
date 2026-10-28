@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Galcanezumab"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: forudsagt ny indikation Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -64,9 +64,8 @@ Galcanezumab påvirker hverken koagulationskaskaden eller heparin-cofaktor II. D
 
 Det samme gælder de øvrige koagulationsrelaterede forudsigelser i datasættet. De er alle uden kliniske forsøg og litteratur og uden plausibel mekanisme:
 
-- Antitrombinmangel type 2 (99,41 %)
-- Faktor 5-overskud med spontan trombose (99,41 %)
-- Trombofili (98,99 %)
+- Antitrombinmangel type 2 (0.9941)
+- Faktor 5-overskud med spontan trombose (0.9941)
 
 Dobbeltposter i inputtet er slået sammen.
 
