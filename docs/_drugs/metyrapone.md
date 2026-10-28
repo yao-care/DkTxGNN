@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Metyrapone: forudsagt ny indikation Udøvelsesudløst malign hypertermi (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "metyrapone"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]

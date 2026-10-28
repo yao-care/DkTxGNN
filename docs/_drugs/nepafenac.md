@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Nepafenac: forudsagt ny indikation Øjensygdom (bred kategori) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata for Danmark (indikationstek…"
 ---
 

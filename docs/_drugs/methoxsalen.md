@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Methoxsalen: forudsagt ny indikation Lokaliseret pagetoid retikulose (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i den danske tilladelse. I videnbasen…"
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: forudsagt ny indikation Brain small vessel disease 1 with or without ocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

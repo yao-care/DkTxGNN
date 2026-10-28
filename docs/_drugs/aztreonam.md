@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "aztreonam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Aztreonam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

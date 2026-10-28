@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Imidacloprid"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Imidacloprid: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 ---
 

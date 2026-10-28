@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Enfortumab Vedotin: forudsagt ny indikation Leprae (spedalskhed) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske licenstekst"
 ---
 

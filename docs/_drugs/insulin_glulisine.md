@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 442
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Insulin Glulisine: forudsagt ny indikation thiamine-responsive dysfunction syndrome (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…"
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]

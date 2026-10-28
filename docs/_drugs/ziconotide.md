@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 901
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ziconotide: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "ziconotide"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]

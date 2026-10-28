@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Peginterferon Alfa-2A: forudsagt ny indikation Hepatitis E-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfekt…"
 ---
 

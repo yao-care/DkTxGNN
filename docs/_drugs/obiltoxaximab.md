@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Obiltoxaximab"
 predicted_indications: ["postinfectious vasculitis", "post-infectious syndrome", "post-bacterial disorder", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Obiltoxaximab: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

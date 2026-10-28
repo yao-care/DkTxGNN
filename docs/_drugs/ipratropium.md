@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

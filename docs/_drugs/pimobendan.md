@@ -5,7 +5,7 @@ layout: default
 title: Pimobendan
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 662
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pimobendan: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Pimobendan"
 predicted_indications: []

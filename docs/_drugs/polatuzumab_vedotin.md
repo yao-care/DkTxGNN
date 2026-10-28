@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Polatuzumab Vedotin: forudsagt ny indikation HER2-positiv brystkarcinom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (litteraturen peger på diffust…"
 monitor_inn: "Polatuzumab vedotin"
 predicted_indications: ["HER2 positive breast carcinoma"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Carbamazepine: forudsagt ny indikation trigeminusnerve-tumor (trigeminal nerve neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

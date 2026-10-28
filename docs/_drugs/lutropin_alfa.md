@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 517
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Lutropin Alfa: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []

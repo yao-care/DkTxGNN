@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Carprofen"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "trigeminal autonomic cephalalgia", "gout"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Carprofen: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (indikationsteksten er tom)"
 ---
 

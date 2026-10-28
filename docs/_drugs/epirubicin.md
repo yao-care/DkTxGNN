@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 314
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: forudsagt ny indikation Primary pulmonary lymphoma (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"

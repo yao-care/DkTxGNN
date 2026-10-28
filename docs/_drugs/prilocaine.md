@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: forudsagt ny indikation Papillary conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

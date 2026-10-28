@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Enrofloxacin"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "mitral valve disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Enrofloxacin: forudsagt ny indikation Hjertesygdom (evidensniveau L5). Oprindelig indikation: Ikke oplyst i den danske registrering (godkendelsesteksten er tom). P…"
 ---
 

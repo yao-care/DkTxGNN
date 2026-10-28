@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Citalopram: forudsagt ny indikation Obsessiv-kompulsiv lidelse (obsessive-compulsive disorder) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

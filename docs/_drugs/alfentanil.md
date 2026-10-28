@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alfentanil: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst er…"
 monitor_inn: "alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]

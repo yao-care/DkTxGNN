@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Dexpanthenol: forudsagt ny indikation Anorectal stricture (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

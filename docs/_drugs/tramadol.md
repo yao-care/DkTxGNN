@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale…"

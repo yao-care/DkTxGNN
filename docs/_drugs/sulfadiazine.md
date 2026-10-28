@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L4). Oprindelig indikation: Toksoplasmose"
 monitor_inn: "sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]

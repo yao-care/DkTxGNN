@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Etanercept: forudsagt ny indikation Hypermobilitet af halebenet (evidensniveau L5). Oprindelig indikation: Psoriasisgigt, leddegigt, Bekhterevs sygdom…"
 ---
 

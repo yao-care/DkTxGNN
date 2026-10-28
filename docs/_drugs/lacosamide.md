@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: forudsagt ny indikation Manic bipolar affective disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

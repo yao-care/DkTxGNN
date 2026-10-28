@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tamoxifen: forudsagt ny indikation Mammary Paget disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

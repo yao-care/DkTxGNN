@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Nicorandil"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Nicorandil: forudsagt ny indikation Benign prostatahyperplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst. Kronisk stabil angina pe…"
 ---
 

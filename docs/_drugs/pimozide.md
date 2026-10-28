@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 663
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pimozide: forudsagt ny indikation Trikotillomani (evidensniveau L3). Oprindelig indikation: Tourettes syndrom (fra videnbasen"
 monitor_inn: "pimozide"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]

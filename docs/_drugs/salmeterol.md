@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 747
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Salmeterol: forudsagt ny indikation Bronkitis (evidensniveau L1). Oprindelig indikation: Lungeemfysem, intrinsisk astma, allergisk astma (fra videnbasen"
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]

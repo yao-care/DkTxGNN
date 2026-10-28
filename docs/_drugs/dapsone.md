@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 235
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "dapsone"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"

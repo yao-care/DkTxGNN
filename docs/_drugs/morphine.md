@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 568
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L3). Oprindelig indikation: Diarrésygdom (fra videnbasen"
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sotatercept: forudsagt ny indikation Akut lymfatisk leukæmi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 

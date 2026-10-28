@@ -5,7 +5,7 @@ layout: default
 title: Dornase Alfa
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 277
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Dornase Alfa: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Dornase alfa"
 predicted_indications: []

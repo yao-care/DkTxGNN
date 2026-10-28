@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Memantine: forudsagt ny indikation Pulmonary hypertension (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

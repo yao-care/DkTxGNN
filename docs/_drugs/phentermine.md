@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Phentermine: forudsagt ny indikation Hypervitaminose (hypervitaminosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

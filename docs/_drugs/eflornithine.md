@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Eflornithine: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Human afrikansk trypanosomiasis (sovesyge)"
 monitor_inn: "eflornithine"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]

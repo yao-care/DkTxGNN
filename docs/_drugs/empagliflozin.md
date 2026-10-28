@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Empagliflozin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

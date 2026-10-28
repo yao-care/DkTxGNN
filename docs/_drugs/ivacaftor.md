@@ -5,7 +5,7 @@ layout: default
 title: Ivacaftor
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 464
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ivacaftor: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Ivacaftor"
 predicted_indications: []

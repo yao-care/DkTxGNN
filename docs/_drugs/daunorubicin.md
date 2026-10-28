@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 242
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Daunorubicin: forudsagt ny indikation Hodgkins lymfom (evidensniveau L3). Oprindelig indikation: Akut lymfoblastisk leukæmi og akut myeloid leukæmi"
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]

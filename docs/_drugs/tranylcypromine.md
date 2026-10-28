@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

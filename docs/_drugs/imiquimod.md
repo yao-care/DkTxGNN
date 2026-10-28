@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Imiquimod: forudsagt ny indikation Præmalign neoplasi (pre-malignant neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

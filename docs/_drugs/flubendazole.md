@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Flubendazole: forudsagt ny indikation Urinary bladder carcinoma (blærekræft) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "flubendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]

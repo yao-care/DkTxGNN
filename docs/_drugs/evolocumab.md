@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Evolocumab: forudsagt ny indikation Symptomatisk hæmofili hos kvindelige bærere (evidensniveau L5). Oprindelig indikation: Homozygot familiær hyperkolesterolæmi og syndromisk dyslipidæmi"
 ---
 

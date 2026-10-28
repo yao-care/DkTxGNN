@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Interferon Beta-1B: forudsagt ny indikation hårcelleleukæmi (evidensniveau L5). Oprindelig indikation: Recidiverende-remitterende dissemineret sklerose (RRMS)"
 monitor_inn: "Interferon beta-1b"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]

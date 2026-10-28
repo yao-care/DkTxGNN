@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alpelisib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske au…"
 monitor_inn: "Alpelisib"
 predicted_indications: ["pulmonary hypertension"]

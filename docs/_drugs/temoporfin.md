@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Temoporfin"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Temoporfin: forudsagt ny indikation Nasofaryngealt teratom (evidensniveau L5). Oprindelig indikation: Pladecellekarcinom i hoved og hals"
 ---
 

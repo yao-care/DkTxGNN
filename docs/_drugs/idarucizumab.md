@@ -5,7 +5,7 @@ layout: default
 title: Idarucizumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 421
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Idarucizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Idarucizumab"
 predicted_indications: []

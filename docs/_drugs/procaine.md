@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 687
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Procaine: forudsagt ny indikation Methæmoglobinæmi (evidensniveau L4). Oprindelig indikation: Ikke oplyst i de data…"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]

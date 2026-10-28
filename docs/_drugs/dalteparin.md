@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 description: "Dalteparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensniveau L5). Oprindelig indikation: Ikke registreret…"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Dibotermin alfa"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Dibotermin Alfa: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Ikke angivet i den lokale godkendelsestekst. Videnbasen registrerer r…"
 ---
 

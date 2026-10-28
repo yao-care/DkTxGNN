@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 627
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Palonosetron: forudsagt ny indikation Migraine disorder (migræne) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]

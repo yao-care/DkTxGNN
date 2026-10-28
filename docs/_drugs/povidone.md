@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 674
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Povidone: forudsagt ny indikation Kongenit ichthyosiform erytrodermi (congenital ichthyosiform erythroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

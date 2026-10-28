@@ -5,7 +5,7 @@ layout: default
 title: Sparsentan
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 772
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sparsentan: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Sparsentan"
 predicted_indications: []

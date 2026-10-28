@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pitolisant: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (med eller uden katapleksi)"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Valsartan: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 

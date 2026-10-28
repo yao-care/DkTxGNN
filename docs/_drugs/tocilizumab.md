@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 5
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tocilizumab: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L1). Oprindelig indikation: Leddegigt og beslægtede inflammatoriske ledsygdomme"
 ---
 

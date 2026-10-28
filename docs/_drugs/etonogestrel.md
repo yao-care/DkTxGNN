@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Etonogestrel: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (implantatet er et hormonelt præv…"
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]

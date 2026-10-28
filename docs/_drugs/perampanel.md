@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Perampanel: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi"
 ---
 

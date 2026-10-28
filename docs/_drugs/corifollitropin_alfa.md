@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Corifollitropin alfa"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Corifollitropin Alfa: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (teksten om godkendt indikation er…"
 ---
 

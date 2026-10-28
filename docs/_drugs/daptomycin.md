@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Daptomycin: forudsagt ny indikation Slidgigt (osteoarthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data . Daptomycin er et antibiotikum mod…"
 ---
 

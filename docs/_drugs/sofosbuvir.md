@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sofosbuvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 ---
 

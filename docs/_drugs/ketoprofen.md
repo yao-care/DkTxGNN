@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ketoprofen: forudsagt ny indikation Acromesomelic dysplasia, Hunter-Thompson type (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

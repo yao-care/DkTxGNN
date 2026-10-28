@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vildagliptin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Fentanyl: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst…"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]

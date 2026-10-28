@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: forudsagt ny indikation Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

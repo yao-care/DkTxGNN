@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cyclizine: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diazepam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst findes i de danske registerdata. Rela…"
 ---
 

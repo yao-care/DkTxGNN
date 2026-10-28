@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "pentobarbital"
 predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
 description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

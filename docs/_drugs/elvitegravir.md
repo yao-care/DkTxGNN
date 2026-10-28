@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]

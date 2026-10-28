@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Tildipirosin"
 predicted_indications: ["leprosy"]
 description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

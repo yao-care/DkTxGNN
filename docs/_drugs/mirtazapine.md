@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (Ohdo syndrome and variants) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

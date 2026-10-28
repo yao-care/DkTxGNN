@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Tagraxofusp"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "ductal or ductular proliferation", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "cystic neoplasm", "thyroglossal duct cyst"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tagraxofusp: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: CD4+/CD56+ hæmatodermal neoplasi"
 ---
 

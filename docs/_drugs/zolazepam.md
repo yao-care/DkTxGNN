@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Zolazepam: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (veterinærpræparat til anæstesi)"
 monitor_inn: "zolazepam"
 predicted_indications: ["insomnia (disease)"]

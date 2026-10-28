@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Mogamulizumab"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Mogamulizumab: forudsagt ny indikation Prostatisk uretra urotelialt karcinom (evidensniveau L5). Oprindelig indikation: Relationer registreret i videnbasen: mycosis fungoides og varianter…"
 ---
 

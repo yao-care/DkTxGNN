@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Milrinone: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske registrering. Litteraturen beskriver intrav…"
 monitor_inn: "milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]

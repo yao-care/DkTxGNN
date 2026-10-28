@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Turoctocog Alfa Pegol: forudsagt ny indikation Primary release disorder of platelets (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

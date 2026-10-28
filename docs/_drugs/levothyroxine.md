@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Levothyroxine: forudsagt ny indikation Renal hypodysplasi/aplasi (evidensniveau L5). Oprindelig indikation: Hypothyreose"
 ---
 

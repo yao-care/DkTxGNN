@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Inotersen"
 predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-related pachymeningitis", "IgG4-related retroperitoneal fibrosis", "non-infectious meningitis", "peritonitis", "infectious meningitis", "IgG4-related mediastinitis", "IgG4-related aortitis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Inotersen: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data, der er indsamlet til denne rapport"
 ---
 

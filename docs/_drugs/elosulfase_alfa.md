@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Elosulfase alfa"
 predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Carfilzomib: forudsagt ny indikation CMM7 (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

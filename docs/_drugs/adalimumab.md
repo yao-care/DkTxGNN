@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Adalimumab: forudsagt ny indikation Hypermobilitet af coccyx (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i den danske registrer…"
 ---
 

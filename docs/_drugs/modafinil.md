@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 564
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Modafinil: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (også narkolepsi med katapleksi) – indikationsteksten i de…"
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]

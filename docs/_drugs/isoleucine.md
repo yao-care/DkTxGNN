@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Isoleucine: forudsagt ny indikation Gastroparese (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (isoleucin indgår som aminosyreko…"
 monitor_inn: "isoleucine"
 predicted_indications: ["gastroparesis (disease)"]

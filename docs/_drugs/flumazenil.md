@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Flumazenil
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 364
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-19
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Flumazenil
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,58 +33,19 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 </div>
 
-## Flumazenil: Evaluering af Lægemiddelgenindikation — Bevissamling Utilstrækkelig
+## Flumazenil
 {: .text-alpha }
-
-## Sammenfatning i én sætning
-
-Flumazenil (DB01205) er et velkendt benzodiazepinreceptorantagonist, der klinisk anvendes til reversering af benzodiazepininduceret sedation. Imidlertid indeholder den aktuelle Bevissamling **ingen TxGNN-forudsagte genindikationskandidater**, og flere blokerende datakløfter – herunder virkningsmekanisme, sikkerhedsdata og dansk regulatorisk information – forhindrer en standard-genindikationsevaluering i at gennemføres. Denne rapport tjener som en gapanalyse og vejledning til afhjælpelse snarere end som en fuldstændig genindikations-dossier.
-
----
 
 ## Hurtig oversigt
 
 | Emne | Indhold |
 |------|---------|
-| Original indikation | Ikke tilgængelig i Bevissamlingen |
-| Forudsagt ny indikation | Ingen – TxGNN returnerede ingen genindikationskandidater |
-| TxGNN-forudsigelsesscore | I.t. |
+| Original indikation | Ikke registreret i de lokale data |
 | Bevisklasse | Ikke relevant |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | **Afvent** |
 
 ---
-
-## Hvorfor evaluering ikke kan gennemføres
-
-Bevissamlingen for Flumazenil mangler tre datakategorier, der er nødvendige, før nogen genindikationsevaluering kan påbegyndes:
-
-**1. Ingen TxGNN-forudsigelser genereret**
-Listen over `predicted_indications` er tom. Uden mindst én genindikationskandidat fra TxGNN-modellen er der ingen terapeutisk hypotese at evaluere, ingen evidentabeller at udfylde og ingen klinisk rationale at vurdere. Dette er det primære blokerende problem.
-
-**2. Manglende lægemiddeldata**
-Virkningsmekanisme (MOA) blev ikke hentet fra DrugBank på trods af, at en vellykket DrugBank-forespørgsel blev logget. Oprindeligt godkendte indikationer mangler også. Uden MOA er det ikke muligt at vurdere mekanistisk plausibilitet for nogen forudsagt indikation, selvom en sådan skulle være genereret.
-
-**3. Manglende sikkerhed og regulatoriske data**
-Advarsler, kontraindikationer og lægemiddel-lægemiddelinteraktioner er alle fraværende. Den danske markedsføringsstatus viser nul licenser, hvilket er uforenelig med det kendte europæiske regulatoriske landskab – Flumazenil (handelsnavn Anexate) har en centraliseret EMA-godkendelse og distribueres på tværs af EU-medlemsstater, herunder Danmark. Dette tyder på en fejl i datahentningen i det regulatoriske hentestrin snarere end et ægte fravær fra det danske marked.
-
----
-
-## Konklusion og næste trin
-
-**Beslutning: Afvent**
-
-**Begrundelse:**
-Bevissamlingen indeholder ikke de minimumsdata, der kræves til en genindikationsevaluering – specifikt er der ingen TxGNN-forudsigelser og ingen virkningsmekanisme-data. At fortsætte uden disse ville producere en rapport uden videnskabelig grundlag.
-
-**For at komme videre kræves følgende:**
-
-- **Kør TxGNN-forudsigelse igen for DB01205** – bekræft, at lægemiddelknuden findes i vidensgrafen, og at KG/DL-forudsigelsestrinnet blev gennemført uden fejl; check hentningslogge for `FLUMAZENIL → DB01205`
-- **Hent virkningsmekanisme fra DrugBank via API** – forespørgselslogen viser et vellykket DrugBank-hit (result_count: 1), men MOA blev ikke analyseret; gen-udtrække `pharmacology.mechanism_of_action` fra svaret
-- **Hent danske/EMA-regulatoriske data igen** – søg i EMA-produktdatabasen for Flumazenil/Anexate for at udfylde licensposter; det aktuelle resultat med nul licenser skyldes sandsynligvis en pipeline-fejl
-- **Hent Produktinformation (SmPC)** – download Anexate-SmPC fra EMA-webstedet for at udfylde advarsler, kontraindikationer og lægemiddel-interaktionsdata
-- **Løs datakløft DG001 (blokering)** – sikkerhedsdata skal være tilgængelige, før der kan gives kliniske anbefalinger
 
 ## Ansvarsfraskrivelse
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 800
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "telbivudine"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
 description: "Telbivudine: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

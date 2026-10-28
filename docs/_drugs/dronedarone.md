@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 282
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"

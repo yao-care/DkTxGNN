@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Insulin Lispro: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Type 1- og type 2-diabetes mellitus samt diabetisk ketoacidose"
 ---
 

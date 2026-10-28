@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBETOCIN"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Carbetocin: forudsagt ny indikation isotretinoin-lignende syndrom (isotretinoin-like syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

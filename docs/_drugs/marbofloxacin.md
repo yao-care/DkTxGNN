@@ -5,7 +5,7 @@ layout: default
 title: Marbofloxacin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 521
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Marbofloxacin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Marbofloxacin"
 predicted_indications: []

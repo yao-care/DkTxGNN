@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 69
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for den danske…"
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]

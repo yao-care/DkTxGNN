@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tiletamine: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst registreret i de data…"
 monitor_inn: "tiletamine"
 predicted_indications: ["insomnia (disease)"]

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: forudsagt ny indikation Chronic rhinosinusitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

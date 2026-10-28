@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Tasimelteon"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tasimelteon: forudsagt ny indikation Bilateral parasagittal parieto-occipital polymikrogyri (evidensniveau L5). Oprindelig indikation: Non-24-timers søvn-vågen-syndrom"
 ---
 

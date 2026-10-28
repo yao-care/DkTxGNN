@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
 description: "Procyclidine: forudsagt ny indikation Rasmussens subakutte encefalitis (Rasmussen subacute encephalitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

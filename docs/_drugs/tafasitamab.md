@@ -5,7 +5,7 @@ layout: default
 title: Tafasitamab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 789
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tafasitamab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tafasitamab"
 predicted_indications: []

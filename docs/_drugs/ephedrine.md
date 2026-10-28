@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"

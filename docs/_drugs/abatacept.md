@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Abatacept: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L4)."
 ---
 

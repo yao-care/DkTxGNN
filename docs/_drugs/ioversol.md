@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ioversol: forudsagt ny indikation Osteoartrose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data . Stoffet er et kontrastmiddel til b…"
 ---
 

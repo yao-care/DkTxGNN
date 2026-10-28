@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Amorolfine: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (kendt anvendelse:…"
 monitor_inn: "amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]

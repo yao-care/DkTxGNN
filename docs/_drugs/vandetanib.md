@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (evidensniveau L5). Oprindelig indikation: Skjoldbruskkirtelkarcinom"
 ---
 

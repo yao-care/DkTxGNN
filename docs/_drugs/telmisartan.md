@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Telmisartan: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 

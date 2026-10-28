@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 437
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Inotuzumab Ozogamicin: kendte anvendelser og markedsstatus i Danmark; foreløbig ingen ny kandidatindikation"
 predicted_indications: []
 ---

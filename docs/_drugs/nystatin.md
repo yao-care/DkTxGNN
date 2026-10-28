@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Nystatin: forudsagt ny indikation Vulvovaginitis (evidensniveau L5). Oprindelig indikation: Candidiasis (kutan, oral…"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Vismodegib"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vismodegib: forudsagt ny indikation Medulloblastom med udtalt nodularitet (evidensniveau L5). Oprindelig indikation: Basalcellekarcinom og andre hudkræftformer"
 ---
 

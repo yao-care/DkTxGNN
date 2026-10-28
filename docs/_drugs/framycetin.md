@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Framycetin: forudsagt ny indikation Skleroserende cholangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]

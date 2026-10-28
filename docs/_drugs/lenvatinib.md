@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Lenvatinib: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom og kræft i skjoldbruskkirtlen"
 ---
 

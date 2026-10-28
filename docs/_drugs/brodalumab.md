@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Brodalumab"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "optic perineuritis", "episcleritis periodica fugax", "nodular episcleritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Brodalumab: forudsagt ny indikation Strongyloidiasis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 

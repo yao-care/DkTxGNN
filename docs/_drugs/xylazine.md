@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 897
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Xylazine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (kun veterinære præparater)"
 monitor_inn: "xylazine"
 predicted_indications: ["migraine disorder", "open-angle glaucoma", "migraine with brainstem aura", "primary hereditary glaucoma"]

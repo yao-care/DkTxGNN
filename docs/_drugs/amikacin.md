@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Amikacin: forudsagt ny indikation Paratyfus (paratyphoid fever) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

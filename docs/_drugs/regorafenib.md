@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Regorafenib: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Relationer registreret i vidensgrafen: metastaserende tyktarmskræft…"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Zanubrutinib"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 

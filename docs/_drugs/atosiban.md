@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atosiban"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Atosiban: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske tilladelse. Farmakologiske kilder beskriver…"
 ---
 

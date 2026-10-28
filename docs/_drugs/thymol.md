@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Thymol"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Thymol: forudsagt ny indikation Interventrikulært septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den eneste autorisation har ingen…"
 ---
 

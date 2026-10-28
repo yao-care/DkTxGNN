@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Mitoxantrone: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (evidensniveau L5). Oprindelig indikation: Akut myeloid leukæmi"
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]

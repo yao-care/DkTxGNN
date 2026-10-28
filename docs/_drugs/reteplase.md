@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Reteplase: forudsagt ny indikation Medfødt koronararterieanomali (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de indsamlede licensdata. I vidensg…"
 ---
 

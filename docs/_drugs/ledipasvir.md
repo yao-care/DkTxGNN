@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 485
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"

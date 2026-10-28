@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 881
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Atrieflimren"
 monitor_inn: "vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]

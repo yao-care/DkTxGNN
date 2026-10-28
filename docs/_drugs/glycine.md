@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Glycine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse…"
 monitor_inn: "glycine"
 predicted_indications: ["nasal cavity disease"]

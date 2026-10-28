@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: forudsagt ny indikation Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

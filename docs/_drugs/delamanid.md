@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Delamanid"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Delamanid: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Multiresistent tuberkulose"
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Landiolol: forudsagt ny indikation Lingual-facial-bukkal dyskinesi (evidensniveau L5). Oprindelig indikation: Supraventrikulær takykardi (atrieflimren og atrieflagren) iht. farmak…"
 monitor_inn: "landiolol"
 predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor"]
